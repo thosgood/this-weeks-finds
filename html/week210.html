@@ -1,0 +1,698 @@
+<TITLE>week210</TITLE>
+
+<!-- BEGIN HEADER -->
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week209.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week211.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE>
+<H4>  January 25, 2005 </H4>
+<H2> This Week's Finds in Mathematical Physics (Week 210) </H2>
+<H4> John Baez </H4>
+<!-- END HEADER -->
+
+<P>
+As you've probably heard, the Huygens probe has successfully landed
+on Saturn's moon Titan and is sending back pictures:
+
+<P>
+1) Huygens Probe Descent,
+<A HREF = "http://saturn.jpl.nasa.gov/news/events/huygensDescent/index.cfm">http://saturn.jpl.nasa.gov/news/events/huygensDescent/index.cfm</A>
+
+<P>
+Titan averages a chilly -180 degrees Celsius, and its smoggy orange
+atmosphere is thicker than the Earth's, mostly nitrogen but 6 percent
+methane, together with substantial traces of all sorts of other
+hydrocarbons.  The orange color may come from &quot;tholins&quot;:
+polymers made by irradiating a mix of nitrogen and methane.  Some
+other icy moons in the outer solar system are covered with this goop,
+but Titan is the only moon in the Solar System to have a substantial
+atmosphere.  It even has clouds.
+
+<P>
+As the Huygens probe parachuted to the surface, it photographed
+what look like twisty riverbeds flowing into a large lake:
+
+<P>
+<DIV ALIGN="CENTER">
+<IMG SRC=huyghens.2.jpg>
+</DIV ALIGN>
+
+<P>
+People 
+have long suspected that Titan has lakes of made of methane and/or 
+ethane, but now we may be seeing them.  And when Huygens landed, its
+sensors reported that it broke through a crusty surface and sunk 
+about 20 centimeters into something mushy: probably methane mud! 
+
+<P>
+The first color photo of the surface looks disappointingly like Mars 
+at first sight:
+
+<P>
+<DIV ALIGN="CENTER">
+<IMG SRC=huyghens.1.jpg>
+</DIV ALIGN>
+
+<P>
+
+
+But, the surface is pumpkin-colored due to tholins
+or something, not rust red.  The sky is orange too!  
+The &quot;rocks&quot; could 
+be water ice.  And they've detected hints of volcanos that spew molten
+water and ammonia!  So, it's a strange new world.
+
+<P>
+Back here on Earth, there was a conference in December in honor of 
+Larry Breen's 60th birthday:
+
+<P>
+2) Arithmetic, Geometry and Topology: Conference on occasion of Larry
+Breen's sixtieth birthday, 
+<A HREF = "http://www-math.univ-paris13.fr/~lb2004/">http://www-math.univ-paris13.fr/~lb2004/</A>
+
+<P>
+It was in Paris.  This was my first visit to that city, but luckily 
+I got to stay there an extra week after the conference, so I could focus
+on the math while it was going on.  
+
+<P>
+But I can't resist a digression!  Paris won my heart, despite my suspicions 
+that it had somehow been hyped all along.  First of all, it's beautiful. 
+Second, it's nice to be someplace where people take simple foods like 
+bread, cheese, fruits and vegetables really seriously, and don't settle 
+for the tasteless crud we so often eat in the US.  
+
+<P>
+None of this came as a surprise, of course.  What surprised is that I've 
+never seen a city with so many bookstores - and good ones, too!   They're 
+clustered thick near the Sorbonne, but the Latin Quarter is dotted with 
+them, and there are even lots along the Boulevard St-Germain, which is the 
+biggest most fashionable shopping street.  I don't think there's any place 
+in the English speaking world with so many bookstores.  Not London, not 
+New York... Cambridge Massachusetts used to have lots near Harvard Square, 
+back when I was a grad student, but the high rents have long since squeezed
+them out, replacing bohemian diversity with clothing shops for boring rich 
+people, like Abercrombie and Fitch.  Somehow in Paris fancy clothing and 
+books coexist.  
+
+<P>
+Umm, but what about the conference?
+
+<P>
+Well, Breen's work is mainly on algebraic geometry a la Grothendieck, with
+a strong emphasis on category theory.  Beautiful stuff, and lately it's
+it's begun to find applications to string theory - especially his work on
+gerbes.  People at his conference spoke on all sorts of topics, most of 
+which I didn't understand very well - some heavy-duty number theory, 
+for example.  I understood a few well enough to really enjoy them, like
+Mike Hopkins' talk on derived algebraic geometry, Clemens Berger's talk on
+geometric Reedy categories, and Ieke Moerdijk's talk on the homotopy theory
+of operads.   But I won't try to explain these - I want to explain what a 
+&quot;gerbe&quot; is, so I have my work cut out for me.
+
+<P>
+One way to get going on the idea of gauge theory is to start with
+electromagnetism, where the concept of &quot;phase&quot; turns out to play a
+crucial role.  If you move a charged particle through an electromagnetic
+field, its wavefunction gets multiplied by a unit complex number, or
+&quot;phase&quot; - and it turns out, rather wonderfully, that all effects of
+electricity and magnetism on charged particles is due to this!
+
+<P>
+However, phases are funny.  You can't actually measure the phase of a
+charged particle - at least, there's no such thing as a
+&quot;phasometer&quot; where you stick in a particle and the dial on
+the meter points to a unit complex number.  Of course a unit complex
+number is just a fancy name for a point on the circle, and a dial is
+precisely the right shape for that... but you just can't build this
+machine.
+
+<P>
+Instead, you can only measure the <em>change</em> in phase of a particle as
+it goes around a loop.  Or, equivalently, the <em>difference</em> in phases
+when a particle takes two different paths from here to there.  See, 
+in quantum mechanics you can play tricks like the &quot;double slit 
+experiment&quot;,
+where you coax a particle's wavefunction to smear out and take two routes 
+from here to there... and then when it arrives, it interferes with itself, 
+and if you're smart you can see by these interference effects what the 
+relative phase of the two paths is.
+
+<P>
+Pretty weird, eh?  I'm so used to this that it seems completely normal
+to me, but I should admit that this way of understanding the
+electromagnetic field came fairly late.  Weyl had a hint of it in 1918
+when he invented the term &quot;gauge theory&quot; in his quest to
+unify electromagnetism and gravity, but he was mixed up in some
+crucial ways that only got sorted out quite a bit later.  For more
+details, try O'Raiferteagh's book &quot;The Dawning of Gauge
+Theory&quot;, which I discussed in &quot;<A HREF =
+"week116.html">week116</A>&quot;.
+
+<P>
+Anyway, the concept of relative phase, or difference in phase, is
+nicely captured by the concept of a &quot;torsor&quot;.  A unit
+complex number is a point on the unit circle in the complex plane.
+This circle is a group since we can multiply unit complex numbers and
+get unit complex numbers back.  This group is called U(1).  Like a
+dial, U(1) has standard names for all the points on it - and it has
+one god-given special point, the identity element, namely the number
+1.
+
+<P>
+A &quot;U(1) torsor&quot; is a lot like U(1), but subtly different.
+It's a circle where the points aren't given these standard
+names... but where you can still tell measure angles, and tell the
+difference between clockwise and counterclockwise.
+
+<P>
+You can't get an element of U(1) from <em>one</em> point on a U(1)
+torsor.  But, if you have <em>two</em> points on a U(1) torsor, you
+can say how much rotation it takes to get from one to the other, and
+this give an element of U(1).  In other words, you can describe the
+&quot;difference in phase&quot; between these two points.
+
+<P>
+For more on torsors, try this:
+
+<P>
+3) John Baez, Torsors made easy, <A HREF = "http://math.ucr.edu/home/baez/torsors.html">http://math.ucr.edu/home/baez/torsors.html</A>
+
+<P>
+Anyway, the real idea behind electromagnetism is that sitting over
+each point in spacetime is a U(1) torsor.  If a particle is sitting at
+some point in spacetime, its phase is not really a number: it's an
+element of the U(1) torsor sitting over that point!  To get a
+<em>number</em>, we have to carry the particle around a loop!  Its
+phase will change when we do this, so we get <em>two</em> points in a
+U(1) torsor, and their difference is an element of U(1).
+
+<P>
+So while it sounds far-out, the key mathematical structure in
+electromagnetism is a bunch of U(1) torsors, one over each point in
+spacetime.  This is called a &quot;principal U(1) bundle&quot; or
+sometimes just a &quot;U(1) bundle&quot; for short.
+
+<P>
+If we wanted to describe some force other than electromagnetism, we could
+take this whole setup and replace U(1) with some other group.  In fact, 
+this idea works great: it's the main idea behind gauge theories, which do 
+an excellent job of describing all the forces in nature.  
+
+<P>
+To set up a gauge theory, the first thing you need to do is pick a 
+group G and pick a &quot;principal G-bundle&quot; over spacetime.  Spacetime 
+will be some manifold X.  A principal G-bundle over X is gadget that 
+assigns a G-torsor to each point of X.  A G-torsor is a space where if 
+you pick two points in it, you get an element of G which describes their 
+&quot;difference&quot;.
+
+<P>
+I'm being fairly sloppy here, so don't take these as precise definitions!
+I give a precise definition of a G-torsor in the above webpage, and any
+decent book on differential geometry will give you a definition of a
+principal G-bundle.  However, only rather highbrow books define principal
+G-bundles with the help of G-torsors... which is sad, because it's not
+that hard, and rather enlightening.
+
+<P>
+Anyway, in gauge theory the forces of nature are described by
+&quot;connections&quot; on principal G-bundles.  Let's say we have a
+principal G-bundle P which assigns to each point x of our manifold a
+G-torsor P(x).  Then a &quot;connection&quot; on P is a gadget that
+says how any path from x to y gives a map from P(x) to P(y).  If G is
+U(1), for example, this gadget says how the phase of a charged
+particle changes as we move it along any path from x to y.
+
+<P>
+Now suppose we have a loop that starts and ends at x.  Then our connection 
+gives a map from P(x) to itself.  If we start with a point in P(x), and 
+apply this map, we get another point in P(x).  Since P(x) is a G-torsor, 
+these two points determine an element of G.  This is how we get group 
+elements from loops in gauge theory!   
+
+<P>
+Now let me sketch how gerbes enter the game.  First I'll do the case where 
+the group G is abelian, for example U(1).  It's the nonabelian gerbes that 
+really interest me... but the abelian case is a lot easier.  The reason
+is that when G is abelian, the group element we get in the previous 
+paragraph doesn't depend on the choice of a point of P(x).  
+
+<P>
+Gerbes show up when we try to invent a kind of &quot;higher gauge theory&quot; 
+that describes how not just point particles but 1-dimensional objects
+transform when you move them around.  For example, the strings in string 
+theory, or the loops in loop quantum gravity.  
+
+<P>
+This leads to a mind-boggling self-referential twist, which is just the
+kind of thing I love:
+
+<P>
+As we've seen, a connection describes how a point particle transforms when 
+you carry it along a path:
+
+<PRE>
+            f
+  x---------&gt;-------y     a path f from the point x to the point y:
+                                  we write this as f: x &rarr; y
+</PRE>
+Now we need a gadget that'll describe how a <em>path</em> transforms when you 
+carry it along a <em>path of paths:</em>
+
+<PRE>
+             f
+    ---------&gt;-------
+   /        ||       \
+  x         ||F       y   a path-of-paths F from the path f to the path g:
+   \        \/       /            we write this as F: f =&gt; g
+    ---------&gt;-------
+               g
+</PRE>
+
+To do this, we need to boost our level of thinking a notch, working
+not with &quot;G-torsors&quot; and &quot;principal G-bundles&quot; but
+instead with &quot;G-2-torsors&quot; and &quot;G-gerbes&quot;.
+
+<P>
+Here's how it goes:
+
+<P>
+We start by picking an abelian group G and a manifold X.  
+
+<P>
+Then we pick a &quot;G-gerbe&quot; over X, say P.   
+
+<P>
+What's that?  It's a thing that assigns to each point x of X a
+&quot;G-2-torsor&quot;, say P(x).
+
+<P>
+What's that?  Well, it's a thing where if you pick two points in it, you 
+get a <em>G-torsor</em> describing their difference!   
+
+<P>
+Get it?  This is the beginning of a story that goes on forever:
+
+<PRE>
+ Two points in a G-torsor determine an element of G;
+ two points in a G-2-torsor determine a G-torsor;
+ two points in a G-3-torsor determine a G-2-torsor;
+ .
+ .
+ .
+</PRE>
+But, you'll probably be relieved to know we won't go beyond G-2-torsors 
+today.
+
+<P>
+Next, we pick a &quot;connection&quot; on P.  
+
+<P>
+What's that?  Well, it's a gadget that for each path from x to y
+gives us a map from the G-2-torsor P(x) to the G-2-torsor P(y).
+If we call the path
+
+<PRE>
+f: x &rarr; y
+</PRE>
+then we call this map
+
+<PRE>
+P(f): P(x) &rarr; P(y)
+</PRE>
+
+Moroever, this sort of connection also gives a &quot;map between
+maps&quot; for each path-of-paths!  So, from
+
+<PRE>
+F: f =&gt; g
+</PRE>
+it gives
+
+<PRE>
+P(F): P(f) =&gt; P(g)
+</PRE>
+I haven't explained enough stuff to say yet what these &quot;maps between
+maps&quot; are, so let's just see what happens if we have a loop 
+
+<PRE>
+f: x &rarr; x
+</PRE>
+and then a loop-of-loops 
+
+<PRE>
+F: f =&gt; f
+</PRE>
+From the loop f: x &rarr; x, our connection gives us a map:
+
+<PRE>
+P(f): P(x) &rarr; P(x)
+</PRE>
+If we start with a point in P(x), and apply this map, we get another 
+point in P(x).  Since P(x) is a G-2-torsor, these two points determine a 
+G-torsor.  This G-torsor doesn't depend on our initial choice of 
+point, and it completely determines the map P(f).   So, we can think 
+of P(f) as <em>being</em> this G-torsor, if we like.
+
+<P>
+From the loop-of-loops F: f =&gt; f, our connection gives us a map:
+
+<PRE>
+P(F): P(f) =&gt; P(f)
+</PRE>
+If we start with a point in P(f), and apply this map, we get 
+another point.  Since P(f) is a G-torsor, these two points determine an 
+element of G.  This element of G doesn't depend on our initial choice 
+of point, and it completely determines the map P(F).   So, 
+we can think of P(F) as <em>being</em> this element of G, if we like.
+
+<P>
+In short, the machinery functions just as you'd hope, giving a group
+element that describes how a loop of string &quot;changes phase&quot;
+as you carry it around a loop-of-loops!
+
+<P>
+So far I've been strenously avoiding the language of categories and 
+2-categories, but if you're at all familiar with that language, you'll
+have guessed that it's precisely what we need to make everything I'm 
+saying precise.
+
+<P>
+It's actually incredibly beautiful... but I'm getting lazy, so I'll 
+explain it very tersely now, in a way that only true lovers of abstraction 
+will enjoy:
+
+<P>
+If G is a group, it acts on itself by left translation.  So, it
+becomes a left G-set.  Any left G-set isomorphic to this one is called
+a &quot;G-torsor&quot;.  There's a category G-Tor whose objects are
+G-torsors and whose morphisms are maps compatible with the action of
+G.  Since all G-torsors are isomorphic, and the automorphism group of
+any one is just G, this category G-Tor is equivalent to G (regarded as
+a 1-object category).
+
+<P>
+If G is abelian, every left G-set becomes a right G-set too.  This
+allows us to define a &quot;tensor product&quot; of G-sets.  The
+tensor product of G-torsors is a G-torsor, so G-Tor becomes a monoidal
+category.  In fact, it's a &quot;2-group&quot;: a monoidal category
+where all the objects and morphisms are invertible.
+
+<P>
+This allows us to iterate what we've just done:
+
+<P>
+Since G-Tor is a 2-group, it acts on itself by left translation.  So,
+it becomes a &quot;left G-category&quot;.  Any left G-category
+isomorphic to this one is called a &quot;G-2-torsor&quot;.  There's a
+2-category G-2-Tor whose objects are G-2-torsors, whose morphisms are
+functors compatible the action of G, and whose morphisms are natural
+transformations compatible with the action of G.  Since all
+G-2-torsors are isomorphic, any the automorphism 2-group of any one is
+just G-Tor, this 2-category is equivalent to G-Tor (regarded as a
+1-object 2-category).
+
+<P>
+And so on!  This infinite hierarchy only works when G is abelian;
+when G is nonabelian we need a different hierarchy, which uses 
+&quot;bitorsors&quot;, where G acts on both left and right, instead 
+of &quot;torsors&quot;.  
+
+<P>
+To learn more about this stuff, here are some references.  I'll stick
+to ones I didn't already list in &quot;<A HREF =
+"week71.html">week71</A>&quot; and &quot;<A HREF =
+"week151.html">week151</A>&quot;.
+
+<P>
+First, for physicists, some work on the role of gerbes and 2-gerbes in 
+string theory and M-theory:
+
+<P>
+4) Paolo Aschieri, Luigi Cantini and Branislav Jurco, Nonabelian bundle
+gerbes, their differential geometry and gauge theory, available as 
+<A HREF = "http://xxx.lanl.gov/abs/hep-th/0312154">hep-th/0312154</A>.
+
+<P>
+5) Paolo Aschieri and Branislav Jurco, Gerbes, M5-brane anomalies and
+E8 gauge theory, available as <A HREF =
+"http://xxx.lanl.gov/abs/hep-th/0409200">hep-th/0409200</A>.
+
+<P>
+Second, for mathematicians, some classic works by Breen:
+
+<P>
+6) Lawrence Breen, Bitorseurs et cohomologie non-abelienne,
+in The Grothendieck Festschrift, eds. P. Cartier et al, Progress 
+in Mathematics vol. 86, Birkhauser, Boston, 1990, pp. 401-476.
+
+<P>
+7) Lawrence Breen, Theorie de Schreier superieure, Ann. Sci. Ecole Norm.
+Sup. 25 (1992), 465-514.
+
+<P>
+8) Lawrence Breen, Classification of 2-stacks and 2-gerbes, Asterisque
+225, Societe Mathematique de France, 1994.
+
+<P>
+2-gerbes are what you get if you climb the hierarchy one more step.
+They should be good for describing the parallel transport of 
+2-dimensional surfaces, or &quot;2-branes&quot; - and indeed they make an 
+appearance in Aschieri and Jurco's paper for precisely that reason.
+
+<P>
+Another key reference is Breen's paper with Messing about connections 
+on nonabelian gerbes:
+
+<P>
+9) Lawrence Breen and William Messing, The differential geometry of gerbes,
+available as <A HREF = "http://www.arXiv.org/abs/math.AG/0106083">math.AG/0106083</A>.
+
+<P>
+and Breen's lecture notes from the IMA workshop on higher categories:
+
+<P>
+10) Larry Breen, n-Stacks and n-gerbes: homotopy theory.
+Notes available at <A HREF = "http://www.ima.umn.edu/categories/#thur">http://www.ima.umn.edu/categories/#thur</A>
+
+<P>
+I've been working on this stuff myself lately, from a somewhat different
+viewpoint.  So far I've written papers with Aaron Lauda and Alissa Crans 
+about 2-groups and Lie 2-algebras:
+
+<P>
+11) John Baez and Aaron Lauda, Higher-dimensional algebra V: 2-groups,
+Theory and Applications of Categories 12 (2004), 423-491.  Available
+online at <A HREF =
+"http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html">http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html</A>
+or as <A HREF =
+"http://www.arXiv.org/abs/math.QA/0307200">math.QA/0307200</A>.
+
+<P>
+12) John Baez and Alissa Crans, Higher-dimensional algebra VI: Lie
+2-algebras, Theory and Applications of Categories 12 (2004), 492-528.
+Available online at <A HREF =
+"http://www.tac.mta.ca/tac/volumes/12/15/12-15abs.html">http://www.tac.mta.ca/tac/volumes/12/15/12-15abs.html</A>
+or as <A HREF =
+"http://www.arXiv.org/abs/math.QA/0307263">math.QA/0307263</A>.
+
+<P>
+Aaron Lauda was getting a masters degree in physics at UCR when we started 
+our paper on 2-groups.  Now he's a grad student in math at the University of
+Cambridge, working on things related to topological quantum field theory 
+with the category theorist Martin Hyland.  Alissa Crans did her PhD in math
+at UCR, and our paper on Lie 2-algebras contains a lot of stuff from her 
+thesis.  Now she has a job at Loyola Marymount University, in Los Angeles.  
+
+<P>
+I've had a huge amount of fun working with both of them!  Luckily Alissa 
+lives nearby, and I visit Cambridge most summers.  So, we can all keep 
+working on other projects together - and we are.
+
+<P>
+I also have some gerbe-related projects going on with my grad student
+Toby Bartels, Danny Stevenson (who is teaching at UCR now) and Urs 
+Schreiber, a fellow moderator of sci.physics.research who will soon be 
+a postdoc at Hamburg with Christoph Schweigert.  Urs will be visiting 
+UCR for two weeks in February, and we plan to figure a lot of stuff out.
+So, I've got gerbes on the brain, and I'll probably be saying more about 
+them in the future, unless I burn up all my expository energy writing 
+papers.
+
+<P>
+In fact, one of the best places to learn about the differential geometry 
+of abelian gerbes and 2-gerbes is Danny's thesis:
+
+<P>
+13) Danny Stevenson, The geometry of bundle gerbes, Ph.D. thesis, 
+University of Adelaide, 2000.  Available as <A HREF = "http://www.arXiv.org/abs/math.DG/0004117">math.DG/0004117</A>.
+
+<P>
+He's also written lots of other papers on gerbes, which you can find
+on the arXiv.  Physicists may find these the most interesting:
+
+<P>
+14) Michael K. Murray and Danny Stevenson, Higgs fields, bundle gerbes and
+string structures, Comm. Math. Phys. 236 (2003), 541-555.  Also available
+as <A HREF = "http://www.arXiv.org/abs/math.DG/0106179">math.DG/0106179</A>.
+
+<P>
+15) Alan L. Carey, Stuart Johnson, Michael K. Murray, Danny Stevenson
+and Bai-Ling Wang, Bundle gerbes for Chern-Simons and Wess-Zumino-Witten
+models, available as <A HREF = "http://www.arXiv.org/abs/math.DG/0410013">math.DG/0410013</A>.
+
+<P>
+Toby is doing his thesis on categorified bundles, or &quot;2-bundles&quot;, and
+you can already get a preview here:
+
+<P>
+16) Toby Bartels, Categorified gauge theory: 2-bundles, available as
+<A HREF = "http://www.arXiv.org/abs/math.CT/0410328">math.CT/0410328</A>.
+
+<P>
+2-bundles are meant to be an alternative to gerbes: although I've done
+my best to hide it above, a gerbe is really more like a categorified
+<em>sheaf</em> than a bundle.  And, just as a bundle has a sheaf of
+sections, we're hoping that a 2-bundle has a stack of sections, which
+in certain cases will be a gerbe.  That's one of the things we need to
+figure out, though.
+
+<P>
+And, while I'm listing the papers of the gerbe gang, I should admit that 
+Urs and I have written a paper about connections on 2-bundles.  But, I
+want to polish this paper a bit before talking about it here.
+
+<P>
+As for 2-groups, various people have been studying their representations
+lately, and this should become an important part of higher gauge theory, 
+just as group representations are crucial in gauge theory:
+
+<P>
+17) Magnus Forrester-Barker, Representations of crossed modules and 
+cat<sup>1</sup>-groups, Ph.D. thesis, Department of Mathematics, University of
+Wales, Bangor, 2004.  Available at 
+<a href = "http://www.maths.bangor.ac.uk/research/ftp/theses/forrester-barker.pdf">
+http://www.maths.bangor.ac.uk/research/ftp/theses/forrester-barker.pdf</a>
+
+<P>
+18) John Barrett and Marco Mackaay, Categorical representations of 
+categorical groups, available as <A HREF = "http://www.arXiv.org/abs/math.CT/0407463">math.CT/0407463</A>.
+
+<P>
+19) Josep Elgueta, Representation theory of 2-groups on finite dimensional
+2-vector spaces, available as <A HREF = "http://www.arXiv.org/abs/math.CT/0408120">math.CT/0408120</A>.
+ 
+<P>
+20) Louis Crane and David Yetter, Measurable categories and 2-groups,
+available as 
+<A HREF = "http://www.arXiv.org/abs/math.QA/0305176">math.QA/0305176</A>.
+
+<P>
+21) David Yetter, Measurable categories, 
+available as
+<A HREF = "http://www.arXiv.org/abs/math.CT/0309185">math.CT/0309185</A>.
+
+<P>
+22) Louis Crane and Marnie D. Sheppeard, 2-categorical Poincare
+representations and state sum applications, available as
+<A HREF = "http://www.arXiv.org/abs/math.QA/0306440">math.QA/0306440</A>.
+
+<P>
+Hendryk Pfeiffer's papers on higher gauge theory are also very 
+interesting.  Since he works on lattice gauge theory and spin foam
+models, the first two papers here develop higher gauge theory on a
+discrete spacetime, and then compare it to higher gauge theory on a 
+manifold:
+
+<P>
+23) Hendryk Pfeiffer, Higher gauge theory and a non-Abelian generalization of
+2-form electrodynamics, Annals Phys. 308 (2003), 447-477.  Also available as
+<A HREF = "http://xxx.lanl.gov/abs/hep-th/0304074">hep-th/0304074</A>.
+
+<P>
+24) Florian Girelli and Hendryk Pfeiffer, Higher gauge theory - differential 
+versus integral formulation, Jour. Math. Phys. 45 (2004), 3949-3971.  
+Also available as <A HREF = "http://xxx.lanl.gov/abs/hep-th/0309173">hep-th/0309173</A>.
+
+<P>
+25) Hendryk Pfeiffer, 2-groups, trialgebras and their Hopf
+categories of representations, available as <A HREF = "http://www.arXiv.org/abs/math.QA/0411468">math.QA/0411468</A>.
+
+<P>
+The third one partially fulfills an old dream of Crane and Frenkel - a
+dream I vaguely hinted at way back in &quot;<A HREF =
+"week50.html">week50</A>&quot;.  Their dream was to find a concept of
+&quot;trialgebra&quot; such that a trialgebra has a Hopf category of
+representations, which in turn can have a monoidal 2-category of
+representations of its own.  This is a kind of aggravated version of a
+pattern already familiar in algebra, where a Hopf algebra (or
+bialgebra) has a monoidal category of representations.
+
+<P>
+Pfeiffer doesn't define general trialgebras, but only
+&quot;cocommutative trialgebras&quot; and &quot;commutative
+cotrialgebras&quot;.  A cocommutative trialgebra is a category in the
+category of cocommutative Hopf algebras, while a commutative
+cotrialgebra is a category in the opposite of the category of
+commutative Hopf algebras.  Zounds - say that three times fast!
+
+<P>
+He shows you can get these two gadgets from 2-groups in analogy to how you get 
+cocommutative or commutative Hopf algebras from groups, by taking the group 
+algebra or the algebra of functions on a group.   He also proves a Tannaka-
+Krein theorem that lets you reconstruct commutative cotrialgebras from their
+Hopf categories of representations. 
+
+<P>
+Really cool stuff!
+
+<P>
+By the way, here are some photos of Larry Breen's conference,
+and of Paris:
+
+<P>
+26) John Baez, Paris, <A HREF = "http://math.ucr.edu/home/baez/paris/">http://math.ucr.edu/home/baez/paris/</A>
+
+
+<P>
+<P>
+<HR>
+<P>
+<!-- BEGIN FOOTER -->
+&#169; 2005  John Baez<br>
+baez@math.removethis.ucr.andthis.edu <br>
+<P>
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week209.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week211.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE><!-- END FOOTER -->

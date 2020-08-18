@@ -1,0 +1,610 @@
+<TITLE> week104 </TITLE>
+
+<!-- BEGIN HEADER -->
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week103.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week105.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE>
+<H4> June 8, 1997 </H4>
+<H2> This Week's Finds in Mathematical Physics (Week 104) </H2>
+<H4> John Baez </H4>
+<!-- END HEADER -->
+
+<P>
+A couple of months ago I flew up to Corvallis, Oregon to an AMS
+meeting.  The AMS, in case you're unfamiliar with it, is the American
+Mathematical Society.  They have lots of regional meetings with special
+sessions on various topics.  One reason I went to this one is that there
+was a special session on octonions, organized by Tevian Dray and Corinne
+Manogue.  
+
+<P>
+After the real numbers come the complex numbers, and after the complex
+numbers come the quaternions, and after the quaternions come the
+octonions, the most mysterious of all.  The real numbers, complex
+numbers, and quaternions have lots of applications to physics.  What
+about the octonions?  Aren't they good for something too?  This
+question has been bugging me for a while now.  
+
+<P>
+In fact, it bugs me so much that I decided to go to Corvallis to look
+for clues.  After all, in addition to Tevian Dray and Corinne Manogue -
+the former a mathematician, the latter a physicist, both deeply
+interested in octonions - a bunch of other octonion experts were going
+to be there.  One was my friend Geoffrey Dixon.  I told you about him in
+&quot;<A HREF = "week59.html">week59</A>&quot;.  He wrote a book on the complex numbers, quaternions and
+octonions and their role in physics.  He has a theory of physics in
+which these are related to electromagnetism, the weak force, and the
+strong force, respectively.  It's a bit far out, but far from crazy!
+In fact, it's fascinating.
+
+<P>
+After writing about his book I got in touch with him in Cambridge,
+Massachusetts.  I found out that his other main interest in life,
+besides the octonions, is the game Myst.  This is probably not a
+coincidence.  In both the main question is &quot;What the heck is really
+going on here?&quot;  He has Myst all figured out, but he loves watching
+people play it, so he got me to play it for a while.  Someday I will buy
+a CD-ROM drive and waste a few weeks on that game.  Anyway, I got to
+know him back in the summer of 1995, so it was nice to see him again in
+Corvallis.
+
+<P>
+Another octonion expert is Tony Smith.  He too has a far-out but
+fascinating theory of physics involving octonions!  I wrote about his
+stuff in &quot;<A HREF = "week91.html">week91</A>&quot;.  I had never met him before the Corvallis conference,
+but I instantly recognized him when I met him, because there's a picture
+of him wearing a cowboy hat on his homepage.  It turns out he always
+wears that hat.  He is a wonderful repository of information concerning
+octonions and other interesting things.  He is also a very friendly and
+laid-back sort of guy.  He lives in Atlanta, Georgia.  
+
+<P>
+I also met another octonion expert I hadn't known about, Tony Sudbery,
+from York.  (The original York, not the &quot;new&quot; one.)  He gave a talk on
+&quot;The Exceptions that Prove the Rule&quot;.  The octonions are related to a
+host of other mathematical structures in a very spooky way.  In all
+sorts of contexts, you can classify algebraic structures and get a nice
+systematic infinite list together with a finite number of exceptions.
+What's spooky is how the exceptions in one context turn out to be
+related to the exceptions in some other context.  These relationships
+are complicated and mysterious in themselves.  It's as if there were a
+hand underneath the water and all we see is the fingers poking out here
+and there.  There seems to be some &quot;unified theory of exceptions&quot;
+waiting to be discovered, and the octonions must have something to do
+with it.  I figure that to really understand what the octonions are good
+for, we need to understand this &quot;unified theory of exceptions&quot;.
+
+<P>
+Let's start by recalling what the octonions are!
+
+<P>
+I presume you know the real numbers.  The complex numbers are things
+like
+
+<P>
+a + bi
+
+<P>
+where a and b are real.  We can multiply them using the rule 
+
+<P>
+i<sup>2</sup> = -1
+
+<P>
+They may seem mysterious when you first meet them, but they lose their
+mystery when you see they are just a nice way of keeping track of
+rotations in the plane.
+
+<P>
+Similarly, the quaternions are guys like 
+
+<P>
+a + bi + cj + dk 
+
+<P>
+which we can multiply using the rules
+
+<P>
+i<sup>2</sup> = j<sup>2</sup> = k<sup>2</sup> = -1
+
+<P>
+and 
+
+<P>
+ij =  k,  jk =  i,  ki =  j
+
+<P>
+
+ji = -k,  kj = -i,  ik = -j
+
+<P>
+They aren't commutative, but they are still associative.  Again they may
+seem mysterious at first, but they lose their mystery when you see that
+they are just a nice way of keeping track of rotations in 3 and 4
+dimensions.  Rotations in more than 2 dimensions don't commute in
+general, so the quaternions had <em>better</em> not commute.  In fact, Hamilton
+didn't invent the quaternions to study rotations - his goal was merely
+to cook up a &quot;division algebra&quot;, where you could divide by any nonzero
+element (see &quot;<A HREF = "week82.html">week82</A>&quot;).  However, after he discovered the quaternions,
+he used them to study rotations and angular momentum.  Nowadays people
+tend instead to use the vector cross product, which was invented later
+by Gibbs.  The reason is that in the late 1800s there was a big battle
+between the fans of quaternions and the fans of vectors, and the
+quaternion crowd lost.  For more on the history of this stuff, see:
+
+<P>
+1) Michael J. Crowe, A History of Vector Analysis, University of Notre
+Dame, Notre Dame, 1967.
+<P>
+Octonions were invented by Cayley later on in the 1800s.  For these,
+we start with <em>seven</em> square roots of -1, say e<sub>1</sub> up to e<sub>7</sub>.  To learn
+how multiply these, draw the following diagram:
+<P>
+<DIV ALIGN="CENTER">
+<P><A NAME="Fano"></A></P><IMG SRC="fano.jpg">
+</DIV>
+<P>
+Draw a triangle, draw a line from each vertex to the midpoint of the 
+opposite edge, and inscribe a circle in the triangle.  Label the
+7 points shown with e<sub>1</sub> through e<sub>7</sub> - it doesn't matter how, I've just
+drawn my favorite way.  Draw arrows on the edges of the triangle
+going around clockwise, draw arrows on the circle also going around
+clockwise, and draw arrows on the three lines pointing from each vertex
+of the triangle to the midpoint of the opposite edge.  Come on, DO it!
+I'm doing all this work for you... you should do some, too.
+<P>
+Okay.  Now you have your very own octonion multiplication table.  Notice
+that there are six lines and a circle in your picture.  Each one of
+these gives us a copy of the quaternions inside the octonions.   For
+example, say you want to multiply e<sub>6</sub> and e<sub>7</sub>.  You notice that the
+the vertical line says "e<sub>6</sub>, e<sub>7</sub>, e<sub>2</sub>" on it as we follow the arrow down.
+Thus, just as for i, j, and k in the quaternions, we have
+<PRE>
+e<sub>6</sub> e<sub>7</sub> =  e<sub>2</sub>,   e<sub>7</sub> e<sub>2</sub> =  e<sub>6</sub>,   e<sub>2</sub> e<sub>6</sub> =  e<sub>7</sub>
+e<sub>7</sub> e<sub>6</sub> = -e<sub>2</sub>,   e<sub>2</sub> e<sub>7</sub> = -e<sub>6</sub>,   e<sub>6</sub> e<sub>2</sub> = -e<sub>7</sub>
+</PRE>
+So in particular we have e<sub>6</sub> e<sub>7</sub> = e<sub>2</sub>.
+
+<P>
+In case you lose your octonion table, don't worry: you don't really need
+to remember the <em>names</em> of those 7 square roots of -1 and their
+positions on the chart.  You just need to remember the geometry of the
+chart itself.  Names are arbitrary and don't really matter, unless
+you're talking to someone else, in which case you have to agree on them.
+
+<P>
+If you want to see spiffy high-tech octonion multiplication tables,
+check out the following websites:
+
+<P>
+2) Tony Smith, <A HREF = "http://galaxy.cau.edu/tsmith/TShome.html">http://galaxy.cau.edu/tsmith/TShome.html</A>
+
+<P>
+3) Geoffrey Dixon, <A HREF = "http://www.7stones.com">http://www.7stones.com</A>
+(Warning: to really get into
+this you need to have at least Netscape 3.0 with Java and Shockwave
+stuff.)  
+
+<P> What's so great about the octonions?  They are not commutative, and
+worse, they are not even <em>associative</em>.  What's great about them
+is that they form a division algebra, meaning you can divide by any
+nonzero octonion.  Better still, they form a &quot;normed&quot; division
+algebra.  Just as with the reals, complexes, and quaternions, we can
+define the norm of the octonion
+
+<P>
+x = a<sub>0</sub> + a<sub>1</sub> e<sub>1</sub> + a<sub>2</sub> e<sub>2</sub> + a<sub>3</sub> e<sub>3</sub> + a<sub>4</sub> e<sub>4</sub> + a<sub>5</sub> e<sub>5</sub> + a<sub>6</sub> e<sub>6</sub> + a<sub>7</sub> e<sub>7</sub> 
+
+<P>
+to be
+
+<P>
+|x| = sqrt(a<sub>0</sub><sup>2</sup> + a<sub>1</sub><sup>2</sup> + a<sub>2</sub><sup>2</sup> + a<sub>3</sub><sup>2</sup> + a<sub>4</sub><sup>2</sup> + a<sub>5</sub><sup>2</sup> + a<sub>6</sub><sup>2</sup> + a<sub>7</sub><sup>2</sup>).
+
+<P>
+What makes them a &quot;normed division algebra&quot; is that
+
+<P>
+|xy| = |x||y|.
+
+<P>
+It's a wonderful fact about the world that the reals, complexes,
+quaternions and octonions are the <em>only</em> normed division algebras.
+That's it!
+
+<P>
+However, the octonions remain mysterious, at least to me.  They are
+related to rotations in 7 and 8 dimensions, but not as simply as one
+might hope.  After all, rotations in <em>any</em> number of dimensions are
+still associative.  Where is this nonassociative business coming from?
+I don't really know.  This question really bugs me.
+
+<P>
+A while ago, in &quot;<A HREF = "week95.html">week95</A>&quot;, I summarized a paper by John Schwarz on
+supersymmetric Yang-Mills theory and why it works best in dimensions 3,
+4, 6, and 10.  Basically, only in these dimensions can you cook up
+spin-1/2 particles that have as many physical degrees of freedom as
+massless spin-1 particles.  I sort of explained why.  This in turn
+allows a symmetry between fermions and gauge bosons.  I didn't explain
+how <em>this</em> works... it seems pretty tricky to me... but anyway, 
+it works.
+
+<P>
+So far, so good.  But Schwarz wondered: is it a coincidence that the
+numbers 3, 4, 6, and 10 are just two more than the numbers 1, 2, 4, and
+8 - the dimensions of the reals, complexes, quaternions, and octonions?
+
+<P>
+Apparently not!  The following papers explain what's going on:
+
+<P>
+4) Corinne A. Manogue and Joerg Schray, Finite Lorentz transformations
+automorphisms, and division algebras, Jour. Math. Phys. 34 (1993),
+3746-3767. 
+
+<P>
+Corinne A. Manogue and Joerg Schray, Octonionic representations of
+Clifford algebras and triality, preprint available as <A HREF = "http://xxx.lanl.gov/abs/hep-th/9407179">hep-th/9407179</A>.
+
+<P>
+5) Anthony Sudbery, Division algebras, (pseudo)orthogonal groups and
+spinors, Jour. Phys. A 17 (1984), 939-955.  
+
+<P>
+Anthony Sudbery, Seven types of incongruity, handwritten notes.
+
+<P>
+Here's the basic idea.  Let 
+
+<P>
+R = real numbers
+<P>
+C = complex numbers
+<P>
+H = quaternions                         
+<P>
+O = octonions
+
+<P>
+Let SO(n,1) denote the Lorentz group in n+1 dimensions.  Roughly
+speaking, this is the symmetry group of (n+1)-dimensional Minkowski
+spacetime.  Let so(n,1) be the corresponding Lie algebra (see &quot;<A HREF = "week63.html">week63</A>&quot;
+for a lightning introduction to Lie algebras).  Then it turns out that:
+
+<P>
+sl(2,R) = so(2,1)
+<P>
+sl(2,C) = so(3,1)
+<P>
+sl(2,H) = so(5,1)
+<P>
+sl(2,O) = so(9,1)
+
+<P>
+This relates reals, complexes, quaternions and octonions to the Lorentz
+group in dimensions 3, 4, 6, and 10, and explains the &quot;coincidence&quot;
+noted by Schwarz!  But it requires some explanation.  Roughly speaking,
+if SL(2,K) is the group of 2x2 matrices with determinant 1 whose entries
+lie in the division algebra K = R, C, H, O, then sl(2,K) is defined to
+be the Lie algebra of this group.  This is simple enough for R or C.
+However, one needs to be careful when defining the determinant of a 2x2
+quaternionic matrix, since quaternions don't commute.  One needs to be
+even more careful in the octonionic case.  Since octonions aren't even
+associative, it's far from obvious what the group SL(2,O) would be, so
+defining the Lie algebra &quot;sl(2,O)&quot; requires a certain amount of finesse.
+For the details, read the papers.
+
+<P>
+As Corinne Manogue explained to me, this relation between the octonions
+and Lorentz transformations in 10 dimensions suggests some interesting
+ways to use octonions in 10-dimensional physics.  As we all know, the
+10th dimension is where string theorists live.  There is also a nice
+relation to Geoffrey Dixon's theory.  This theory relates the
+electromagnetic force to the complex numbers, the weak force to the
+quaternions, and the strong force to octonions.  How?  Well, the gauge
+group of electromagnetism is U(1), the unit complex numbers.  The gauge
+group of the weak force is SU(2), the unit quaternions.  The gauge group
+of the strong force is SU(3)....
+
+<P> 
+Alas, the group SU(3) is <em>not</em> the unit octonions.  The unit
+octonions do not form a group since they aren't associative.  SU(3) is
+related to the octonions more indirectly.  The group of symmetries (or
+technically, &quot;automorphisms&quot;) of the octonions is the
+exceptional group G2, which contains SU(3).  To get SU(3), we can take
+the subgroup of G2 that preserves a given unit imaginary octonion... say
+e<sub>1</sub>.  This is how Dixon relates SU(3) to the octonions.
+
+<P> 
+However, why should one unit imaginary octonion be different from
+the rest?  Some sort of &quot;symmetry breaking&quot;, presumably?  It
+seems a bit ad hoc.  However, as Manogue explained, there is a nice way
+to kill two birds with one stone.  If we pick a particular unit
+imaginary octonion, we get a copy of the complex numbers sitting inside
+the octonions, so we get a copy of sl(2,C) sitting inside sl(2,O), so we
+get a copy of so(3,1) sitting inside so(9,1)!  In other words, we get a
+particular copy of the good old 4-dimensional Lorentz group sitting
+inside the 10-dimensional Lorentz group.  So fixing a unit imaginary
+octonion not only breaks the octonion symmetry group G2 down to the
+strong force symmetry group SU(3), it might also get us from
+10-dimensional physics down to 4-dimensional physics.
+
+<P>
+Cool, no?  There are obviously a lot of major issues involved in turning
+this into a full-fledged theory, and they might not work out.  The whole
+idea could be completely misguided!  But it takes guts to do physics, so
+it's good that Tevian Dray and Corinne Manogue are bravely pursuing this
+idea.
+
+<P>
+Upon learning that there is a deep relation between R, C, H, O and the
+Lorentz group in dimensions 3, 4, 6, 10, one is naturally emboldened to
+take seriously a few more &quot;coincidences&quot;.  For example, in &quot;<A HREF = "week82.html">week82</A>&quot; I
+described the Clifford algebras C_n - i.e., the algebras generated by
+n anticommuting square roots of -1.  These Clifford algebras are
+relevant to n-dimensional <em>Euclidean</em> geometry, as opposed to the
+Clifford algebras relevant to n-dimensional <em>Lorentzian</em> geometry, which
+appeared in &quot;<A HREF = "week93.html">week93</A>&quot;.  They go like this:
+
+<P>
+C<sub>0</sub> = R
+<P>
+C<sub>1</sub> =  C
+<P>
+C<sub>2</sub> = H
+<P>
+C<sub>3</sub> = H + H
+<P>
+C<sub>4</sub> =  H(2) 
+<P>
+C<sub>5</sub> = C(4)
+<P>
+C<sub>6</sub> = R(8)
+<P>
+C<sub>7</sub> = R(8) + R(8)
+<P>
+C<sub>8</sub> = R(16)
+<P>
+where K(n) stands for n x n matrices with entries taken from K = R, C,
+or H, and &quot;+&quot; stands for &quot;direct sum&quot;.  Note that
+C<sub>8</sub> is the same as 16 x 16 matrices with entries taken from
+C<sub>0</sub>.  That's part of a general pattern called &quot;Bott
+periodicity&quot;: in general, C<sub>n+8</sub> is the same as 16 
+x 16 matrices with entries taken from C<sub>n</sub>.
+
+<P>
+Now consider the dimension of the smallest real representation of C<sub>n</sub>.
+It's easy to work this out if you keep in mind that the smallest
+representation of K(n) or K(n) + K(n) is on K<sup>n</sup> - the vector space
+consisting of n-tuples of elements of K.   We get
+
+<P>
+The dimension of the smallest real representation:
+<P>
+of C<sub>0</sub> is 1
+<P>
+of C<sub>1</sub> is  2
+<P>
+of C<sub>2</sub> is  4
+<P>
+of C<sub>3</sub> is  4
+<P>
+of C<sub>4</sub> is  8
+<P>
+of C<sub>5</sub> is  8
+<P>
+of C<sub>6</sub> is 8
+<P>
+of C<sub>7</sub> is  8
+<P>
+of C<sub>8</sub> is  16
+<P>
+
+<P>
+Note that it increases at n = 1, 2, 4, and 8.  These are the dimensions
+of R, C, H, and O.  Coincidence?  
+
+<P>
+No!  Indeed, C<sub>n</sub> has a representation on a k-dimensional real
+vector space if and only if the unit sphere in that vector space,
+S<sup>k-1</sup>, admits n linearly independent smooth vector fields.  So the
+above table implies that:
+
+<P>
+The sphere S<sup>0</sup> admits 0 linearly independent vector fields.  
+
+<P>
+The sphere S<sup>1</sup> admits 1 linearly independent vector fields.  
+
+<P>
+The sphere S<sup>3</sup> admits 3 linearly independent vector fields.  
+
+<P>
+The sphere S<sup>7</sup> admits 7 linearly independent vector fields.  
+
+<P>
+These spheres are the unit real numbers, the unit complex numbers, the
+unit quaternions, and the unit octonions, respectively!  If you know
+about normed division algebras, it's obvious that these sphere admit the
+maximum possible number of linear independent vector fields: you can
+just take a basis of vectors at one point and &quot;left translate&quot; it to get
+a bunch of linearly independent vector fields.  
+
+<P>
+Now - Bott periodicity has period 8, and the octonions have dimension
+8.  And as we've seen, both have a lot to do with Clifford algebras.  So
+maybe there is a deep relation between the octonions and Bott
+periodicity.  Could this be true?  If so, it would be good news, because
+while octonions are often seen as weird exceptional creatures, Bott
+periodicity is bigtime, mainstream stuff!
+
+<P>
+And in fact it <em>is</em> true.  More on Bott periodicity and the octonions
+coming up next Week.
+
+<P>
+<HR>
+<P>
+<b>Addendum:</b>  Robert Helling provided some interesting further comments
+on supersymmetric gauge theories and the division algebras, which 
+I quote below.  He recommends the following reference:
+
+<P>
+6) J. M. Evans, Supersymmetric Yang-Mills theories and division algebras, Nucl.
+Phys. B298 (1988), 92-108.
+
+<P>
+and he writes:
+
+<P>
+<blockquote>
+Let me add a technical remark that I extract from Green, Schwarz, 
+and Witten, Vol 1, Appendix 4A.
+<P>
+
+The appearance of dimensions 3,4,6, and 10 can most easily been seen
+when one tries to write down a supersymmetric gauge theory in arbitrary
+dimension. This means we're looking for a way to throw in some spinors
+to the Lagrangian of a pure gauge theory:
+<P>
+-1/4 F<sup>2</sup> 
+<P>
+in a way that the new Lagrangian is invariant (up to a total derivative)
+under some infinitesimal variations. These describe supersymmetry if
+their commutator is a derivative (a generator of spacetime
+translations).  As usual, we parameterize this variation by a parameter
+&epsilon;, but now &epsilon; is a spinor.
+<P>
+From people that have been doing this for their whole life we learn 
+that the following Ansatz is common:
+<P>
+&delta;A<sub>m</sub> = i/2 &epsilon;<sup>&#8224;</sup> &Gamma;<sub>m</sub> &psi;
+<P>
+&delta; &psi; = -1/4 F<sub>mn</sub> &Gamma;<sup>mn</sup> &epsilon;
+<P>
+Here A is the connection, F its field strength and &psi; a spinor of a
+type to be determined. I suppressed group indices on all these
+fields. They are all in the adjoint representation. &Gamma; are the
+generators of the Clifford algebra described by John Baez before.
+<P>
+[Also, &epsilon;<sup>&#8224;</sup> is my feeble subsitute
+for an &epsilon; with a bar over it. - JB]
+
+<P>
+For the Lagrangian we try the usual Yang-Mills term and add a minimally 
+coupled kinetic term for the fermions:
+<P>
+-1/4 F<sup>2</sup> + ig/2 &psi;<sup>&#8224;</sup> &Gamma;<sup>m</sup> 
+D<sub>m</sub> &psi;
+<P>
+Here D<sub>m</sub> is the gauge covariant derivative and g is some
+number that we can tune to to make this vanish under the above
+variations. When we vary the first term we find g = 1. In fact
+everything cancels without considering a special dimension except for
+the term that is trilinear in &psi; that comes from varying the connection
+in the covariant derivative in the fermionic term. This reads something
+like
+<P>
+f<sub>abc</sub> &epsilon;<sup>&#8224;</sup> &Gamma;<sub>m</sub> 
+&psi;<sup>a</sup> &psi;<sup>b</sup> &Gamma;<sup>m</sup> &psi;<sup>c</sup>
+
+<P>
+where 
+I put in the group indices and the structure constants f<sub>abc</sub>. This
+has to vanish for other reasons since there is no other trilinear term
+in the fermions available. And indeed, after you've written out the
+antisymmetry of f explicitly and take out the spinors since this should
+vanish for all choices of &psi; and &epsilon;. We are left with an
+expression that is only made of gammas. And in fact, this expression
+exactly vanishes in dimensions 3, 4, 6, and 10 due to a Fierz
+identity. (Sorry, I don't have time to work this out more explicitly.)
+
+<P>
+This is related to the division algebra as follows (as explained in
+the papers pointed out by John Baez): Take for concreteness d = 10.
+Here we go to a light-cone frame by using coordinates 
+<P>
+x<sup>+</sup> = x<sup>0</sup> + x<sup>9</sup> and
+<P>
+x<sup>-</sup> = x<sup>0</sup> - x<sup>1</sup>.
+<P>
+Then we write the &Gamma;<sub>m</sub> as block matrices where 
+&Gamma;<sub>+</sub> and &Gamma;<sub>-</sub> 
+have the +/- unit matrix as blocks and the others have &gamma;<sub>i</sub>
+as blocks where &gamma;<sub>i</sub> are the SO(8) Dirac matrices (i=1,...,9).  
+But they are intimately related to the octonions. Remember there 
+is triality in SO(8) which means that we can treat left-handed
+spinors, right-handed spinors and vectors on an equal basis (see 
+<A HREF = "week61.html">week61</A>, <A HREF = "week90.html">week90</A>, <A HREF =
+"week91.html">week91</A>). 
+Now I write out all three indices of &gamma;<sub>i</sub>. 
+Because of triality I can use i,j,k for spinor, dotted spinor and  
+vector indices.  Then it is known that 
+<PRE>            &gamma;<sub>ijk</sub> = c<sub>ijk</sub> for i,j,k<8
+  
+                  &delta;<sub>ij</sub> for k=8 (and ijk permuted)
+
+                  0 for more than 2 of ijk equal 8.
+</PRE>
+is a representation of Cliff(8) if c<sub>ijk</sub> are the structure
+constants of the octonions (i.e. e<sub>i</sub> e<sub>j</sub> = c<sub>ijk</sub> e<sub>k</sub> for the 7 roots of -1 
+in the octonions).
+
+<P>
+When you plug this representation of the &Gamma;'s in the above mentioned &gamma;
+expression you will will find that it vanishes due to the antisymmetry
+of the associator
+<P>
+[a,b,c] = a(bc) - (ab)c
+<P>
+in the division algebras. This is my understanding of the relation of
+supersymmetry to the divison algebras.
+<P>
+
+Robert
+
+</blockquote>
+
+
+<P>
+
+<hr>
+<p> 
+<HR><P>
+<!-- BEGIN FOOTER -->
+&#169; 1997  John Baez<br>
+baez@math.removethis.ucr.andthis.edu <br>
+<P>
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week103.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week105.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE><!-- END FOOTER -->

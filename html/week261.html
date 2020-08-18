@@ -1,0 +1,1022 @@
+<TITLE> week261 </TITLE>
+
+<!-- BEGIN HEADER -->
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week260.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week262.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE>
+<H4> March 19, 2008 </H4>
+<H2> This Week's Finds in Mathematical Physics (Week 261) </H2>
+<H4> John Baez </H4>
+<!-- END HEADER -->
+
+
+<P>
+Sorry for the long pause!  I've been busy writing.  For example: 
+a gentle introduction to category theory, focusing on its role 
+as a &quot;Rosetta Stone&quot; that helps us translate between four languages:
+
+<P>
+1) John Baez and Mike Stay, Physics, topology, logic and 
+computation: a Rosetta Stone, to appear in New Structures in 
+Physics, ed. Bob Coecke.  Available at 
+<a href = "http://math.ucr.edu/home/baez/rosetta.pdf">http://math.ucr.edu/home/baez/rosetta.pdf</a>
+
+<P>
+The idea is to take this chart and make it really precise:
+
+<PRE>
+       PHYSICS        TOPOLOGY    LOGIC        COMPUTATION
+       Hilbert space  manifold    proposition  data type
+       operator       cobordism   proof        program
+</PRE>
+
+<P>
+In each case we have a kind of &quot;thing&quot; and a kind of
+&quot;process&quot; going between things.  But it turns out we can
+make the analogies much sharper and more detailed than that.
+
+<P>
+The hard work has already been done by many researchers. 
+People working on topological quantum field theory have seen
+how cobordisms - spacetimes going from one slice of space to
+another - are analogous to operators between Hilbert spaces.
+The &quot;Curry-Howard correspondence&quot; makes the analogy between
+proofs and programs precise.  Girard's work on &quot;linear logic&quot; 
+sets up an analogy between operators and proofs.  And so on....
+
+<P>
+We're just trying to present these analogies in an easy-to-read 
+form, all in one place.  I hope that pondering them will help us
+break down some walls separating disciplines.  In more optimistic 
+moments, I even thnk they represent the first steps toward a 
+general theory of systems and processes!  Then I remember that 
+scientists are trained to distrust such grand visions, and for 
+good reasons.  Time will tell.
+
+<P>
+But enough of that.  This Week will be an ode to the number 3. 
+
+<P>
+First, though... here's the nebula of the week!
+<br>
+<br>
+<P>
+<div align = "center">
+<img src = "hourglass_nebula.jpg">
+</div>
+
+<P>
+2) Hubble finds an hourglass nebula around a dying star,
+<a href = "http://hubblesite.org/newscenter/archive/releases/nebula/planetary/1996/07/">http://hubblesite.org/newscenter/archive/releases/nebula/planetary/1996/07/</a>
+
+<P>
+It looks like the eye of Sauron in Tolkien's <em>Lord of the Rings</em> 
+trilogy.  It's not.  It's a planetary nebula 8000 light years away, called
+MyCn 18 - or, more romantically, the Engraved Hourglass Nebula.
+
+<P>
+The colors look unreal.  They are.
+
+<UL>
+<LI>
+ H&alpha; light is shown as as green, but it's actually red.  This is 
+ the light hydrogen emits when its one electron jumps from its n = 3 
+ state to its n = 2 state.
+
+<P>
+<LI>
+ N II light is shown as red, and it actually is.  This is light 
+ from singly ionized nitrogen.
+
+<P>
+<LI>
+ O III light is shown as blue, but it's actually green.  This is 
+ light from doubly ionized oxygen.  
+
+<P>
+<LI>
+ Furthermore, the colors have been adjusted so that regions where 
+ H&alpha; and O II overlap are orange.
+</UL>
+
+<P>
+Okay, so the colors are fake.  But how did this weird nebula form?  
+You can see a clue if you pay attention: the bright white dwarf 
+star isn't located exactly at the center.  It's a bit to the left!  
+This paper, written by the folks who took the photograph, argues 
+that it has an unseen companion:
+
+<P>
+3) Raghvendra Sahai et al, The Etched Hourglass Nebula MyCn 18.  
+I: Hubble space telescope observations, The Astronomical Journal
+118 (1999), 468-476.  Also available at
+<a href = "http://www.iop.org/EJ/article/1538-3881/118/1/468/990080.text.html">http://www.iop.org/EJ/article/1538-3881/118/1/468/990080.text.html</a>
+
+<P>
+This paper tackles the difficult problem of modelling the nebula:
+
+<P>
+4) Raghvendra Sahai et al, The Etched Hourglass Nebula MyCn 18.  
+II: A spatio-kinematic model, The Astronomical Journal
+110 (2000), 315-322.  Also available at
+<a href = "http://www.iop.org/EJ/article/1538-3881/119/1/315/990248.text.html">http://www.iop.org/EJ/article/1538-3881/119/1/315/990248.text.html</a>
+
+<P>
+It doesn't seem that the white dwarf alone could have produced all
+the glowing gas we see here.   A red giant companion could help.
+But, there are lots of mysteries.  
+
+<P>
+That shouldn't be surprising.  Even the simplest things can be quite
+rich in complexity if you look at them hard enough.  I'll illustrate 
+this with a little ode to the number 3.  I'll start off slow, and 
+ramp up to a discussion of how all these mathematical entities are 
+locked in a tight embrace:
+
+<UL>
+<LI>
+  the trefoil knot
+<LI>
+  cubic polynomials
+<LI>
+  the group of permutations of 3 things
+<LI>
+  the three-strand braid group
+<LI>
+  modular forms and cusp forms
+</UL>
+
+<P>
+As I kind of intermezzo, I'll talk about how to solve the cubic 
+equation.  We all learn about quadratic equations in school: 
+they're the bread and butter of algebra, right after linear 
+equations.  Cubics are trickier, but studying them can give you
+a lifetime's worth of fun.
+
+<P>
+Let's start with the trefoil knot.  This is the simplest of knots:
+
+<div align = "center">
+<a href = "http://en.wikipedia.org/wiki/Trefoil_knot">
+<img style="border:none;" src = "http://upload.wikimedia.org/wikipedia/commons/d/df/TrefoilKnot-01.png">
+</a>
+</div>
+
+You can even draw it on the surface of a doughnut!  Just take a pen
+and draw a curve that winds around your doughnut three time in one
+direction as it winds twice in the other direction:
+
+<div align = "center">
+<a href = "http://www.popmath.org.uk/sculpmath/pagesm/torus2.html">
+<img style="border:none;" src = "http://www.popmath.org.uk/sculpmath/imagesm/tortef2j.gif">
+</a>
+</div>
+
+<P>
+5) Center for the Popularisation of Mathematics, Torus knots,
+<a href = "http://www.popmath.org.uk/sculpmath/pagesm/torus2.html">
+http://www.popmath.org.uk/sculpmath/pagesm/torus2.html</a>
+
+<P>
+Mathematically, the surface of a doughnut is called a &quot;torus&quot;.
+We can describe a point on the torus by two angles running
+from 0 to 2&pi; - the &quot;latitude&quot; and &quot;longitude&quot;.  But another name 
+for such an angle is a &quot;point on the unit circle&quot;.  If we think
+of the unit circle in the complex plane, this gives us a nice
+equation for the trefoil: 
+
+<P>
+u<sup>2</sup> = v<sup>3</sup>
+
+<P>
+Here u and v are complex numbers with absolute value 1.  The equation 
+says that as u moves around the unit circle, v moves around 2/3 as 
+fast.  So, the set of solutions is a curve on the torus that winds 
+around thrice in one direction while it winds around twice in the
+other direction - a trefoil knot!
+
+<P>
+We can also drop the restriction that u and v have absolute
+value 1.  Then the equation u<sup>2</sup> = v<sup>3</sup> is famous for other reasons -
+it's related to cubic equations!   
+
+<P>
+As you've probably heard, there's a formula for solving cubic equations,
+sort of like the quadratic formula, but bigger and badder.  It goes 
+back to some Italians in the 1500s who liked to challenge each other 
+with equations and make bets on who could solve them: Scipione del 
+Ferro, Niccolo Tartaglia and Gerolamo Cardano.
+
+<P>
+Imagine we're trying to solve a cubic equation.   We can always divide 
+by the coefficient of the cubic term, so it's enough to consider 
+equations like this:
+
+<P>
+z<sup>3</sup> + Az<sup>2</sup> + Bz + C = 0
+
+<P>
+If we could solve this and find the roots a, b, and c, we could 
+write it as:
+
+<P>
+(z - a)(z - b)(z - c) = 0
+
+<P>
+But this means
+
+<P>
+A = -(a + b + c)
+<br/>
+B = ab + bc + ca
+<br/>
+C = -abc
+
+<P>
+Note that A, B, and C don't change when we permute a, b, and c.
+So, they're called &quot;symmetric polynomials&quot; in the variables a, b, 
+and c.  
+
+<P>
+You see this directly, but there's also a better explanation: 
+the coefficients of a polynomial depend on its roots, but they 
+don't change when we permute the roots.
+
+<P>
+I can't resist mentioning a cool fact, which is deeply related to
+the trefoil: <em>every</em> symmetric polynomial of a, b, and c can 
+be written as a polynomial in A, B, and C - and in a unique way!
+
+<P>
+In fact, this sort of thing works not just for cubics, but for 
+polynomials of any degree.  Take a general polynomial of degree n 
+and write the coefficients as functions of the roots.  Then these 
+functions are symmetric polynomials, and <em>every</em> symmetric polynomial 
+in n variables can be written as a polynomial of these - and in a 
+unique way.  
+
+<P>
+But, back to our cubic.  Note that -A/3 is the average of the three 
+roots.  So, if we slide z over like this:
+
+<P>
+x = z + A/3
+<P>
+we get a new cubic equation for which the average of the three
+roots is zero.  This new cubic equation will be of this form:
+
+<P>
+x<sup>3</sup> + Bx + C = 0
+
+<P>
+for some new numbers B and C.  In other words, the &quot;A&quot; in this new
+cubic is zero, since we translated the roots to make their average 
+zero.
+
+<P>
+So, to solve cubic equations, it's enough to solve cubics like
+x<sup>3</sup> + Bx + C = 0.  This is a great simplification.  When you
+first see it, it's really exciting.  But then you realize you have no
+idea what to do next!  This must be why it's called a &quot;depressed
+cubic&quot;.
+
+<P>
+In fact, Scipione del Ferro figured out how to solve the &quot;depressed
+cubic&quot; shortly after 1500.  So, you might think he could solve any 
+cubic.  But, <em>negative numbers hadn't been invented yet</em>.  This 
+prevented him from reducing any cubic to a depressed one!  
+
+<P>
+It's sort of hilarious that Ferro was solving cubic equations before 
+negative numbers were worked out.  It should serve as a lesson: we 
+mathematicians often work on fancy stuff before understanding the 
+basics.  Often that's why math seemss hard!  But often it's impossible 
+to discover the basics except by working on fancy stuff and getting 
+stuck.
+
+<P>
+Here's one trick for solving the depressed cubic x<sup>3</sup> + Bx + C = 0.
+Write
+
+<P>
+x = y - B/(3y)
+
+<P>
+Plugging this in the cubic, you'll get a quadratic equation in y<sup>3</sup>, 
+which you can solve.  From this you can figure out y, and then x.  
+
+<P>
+Alas, I have no idea what this trick means.  Does anyone know?  Ferro 
+and Tartaglia used a more long-winded method that seems just as sneaky. 
+Later Lagrange solved the cubic yet another way.  I like his way
+because it contains strong hints of Galois theory.  
+
+<P>
+You can see all these methods here:
+
+<P>
+6) Wikipedia, Cubic function, 
+<a href = "http://en.wikipedia.org/wiki/Cubic_equation">http://en.wikipedia.org/wiki/Cubic_equation</a>.
+
+<P>
+So, I won't say more about solving the cubic now.  Instead, I want to 
+explain the &quot;discriminant&quot;.  This is a trick for telling when two 
+roots of our cubic are equal.  It turns out to be related to the 
+trefoil knot.
+
+<P>
+For a quadratic equation ax<sup>2</sup> + bx + c = 0, the two roots are equal 
+precisely when b<sup>2</sup> - 4ac = 0.  That's why b<sup>2</sup> - 4ac is called the 
+&quot;discriminant&quot; of the quadratic.  The same idea works for other 
+equations; let's see how it goes for the cubic.  
+
+<P>
+Suppose we were smart enough to find the roots of our cubic
+
+<P>
+x<sup>3</sup> + Bx + C = 0
+
+<P>
+and write it as
+
+<P>
+(x - a)(x - b)(x - c) = 0
+
+<P>
+Then two roots are equal precisely when 
+
+<P>
+(a - b)(b - c)(c - a) = 0
+
+<P>
+The left side isn't a symmetric polynomial in a, b, and c; it changes 
+sign whenever we switch two of these variables.  But if we square it,
+we get a symmetric polynomial that does the same job:
+
+<P>
+D = (a - b)<sup>2</sup> (b - c)<sup>2</sup> (c - a)<sup>2</sup>
+
+<P>
+This is the discriminant of the cubic!  By what I said about symmetric 
+polynomials, it has to be a polynomial in B and C (since A = 0).  If 
+you sweat a while, you'll see 
+
+<P>
+D = -4B<sup>3</sup> - 27C<sup>2</sup>
+
+<P>
+So, here's the grand picture: we've got a 2-dimensional space of 
+cubics with coordinates B and C.   Sitting inside this 2d space is a 
+curve consisting of &quot;degenerate&quot; cubics - cubics with two roots the 
+same.  This curve is called the &quot;discriminant locus&quot;, since it's where 
+the discriminant vanishes:
+
+<P>
+4B<sup>3</sup> + 27C<sup>2</sup> = 0
+
+<P>
+If we only consider the case where B and C are real, the discriminant 
+locus looks like this:
+
+<PRE>
+                   |C
+           o       |      
+            o      |     
+               o   |  
+        -----------o-------------
+               o   |           B
+            o      |     
+           o       |
+                   |
+</PRE>
+It's smooth except at the origin, where it has a sharp point called
+a &quot;cusp&quot;.
+
+<P>
+Now here's where the trefoil knot comes in.  The equation for the 
+discriminant locus:
+
+<P>
+4B<sup>3</sup> + 27C<sup>2</sup> = 0
+
+<P>
+should remind you of the equation for the trefoil:
+
+<P>
+u<sup>2</sup> = v<sup>3</sup> 
+
+<P>
+Indeed, after a linear change of variables they're the same!   
+But, for the trefoil we need u and v to be <em>complex</em> numbers.  
+We took them to be unit complex numbers, in fact.
+
+<P>
+So, the story is this: we've got a 2-dimensional <em>complex</em> space 
+of complex cubics.  Sitting inside it is a <em>complex</em> curve, the
+discriminant locus.  In our new variables, it's this:
+
+<P>
+u<sup>2</sup> = v<sup>3</sup>
+
+<P>
+If we intersect this discriminant locus with the torus 
+
+<P>
+|u| = |v| = 1
+
+<P>
+we get a trefoil knot.  But that's not all!
+
+<P>
+Normal folks think of knots as living in ordinary 3d space, but 
+topologists often think of them as living in a 3-sphere: a sphere 
+in 4d space.  That's good for us.  We can take this 4d space to be
+our 2d complex space of complex cubics!  We can pick out spheres in 
+this space by equations like this:
+
+<P>
+|u|<sup>2</sup> + |v|<sup>3</sup> = c     &nbsp; &nbsp;            (c &gt; 0)
+
+<P>
+These are not round 3-spheres, thanks to that annoying third power.
+But, they're topologically 3-spheres.  If we take any one of them 
+and intersect it with our discriminant locus, we get a trefoil knot!  
+This is clear when c = 2, since then we have
+
+<P>
+|u|<sup>2</sup> + |v|<sup>3</sup> = 2
+
+<P>
+and 
+
+<P>
+u<sup>2</sup> = v<sup>3</sup>
+
+<P>
+which together imply 
+
+<P>
+|u| = |v| = 1
+
+<P>
+But if you think about it, we also get a trefoil knot for any other
+c &gt; 0.  This trefoil shrinks as c &rarr; 0, and at c = 0 it reduces to a 
+single point, which is also the cusp here:
+
+<PRE>
+                     |u         
+                     |      o
+                     |     o
+                     |   o
+          -----------o-------------
+                     |   o        v
+                     |     o
+                     |      o
+                     |          
+</PRE>
+We don't see trefoil knots in this picture because it's just a
+real 2d slice of the complex 2d picture.  But, they're lurking in
+the background!  
+
+<P>
+Now let me say how the group of permutations of three things
+gets into the game.  We've already seen the three things: they're 
+the roots a, b, and c of our depressed cubic!  So, they're three
+points on the complex plane that add to zero.  Being a physicist
+at heart, I sometimes imagine them as three equal-mass planets, 
+whose center of mass is at the origin.
+
+<P>
+The space of possible positions of these planets is a 2d complex
+vector space, since we can use any two of their positions as 
+coordinates and define the third using the relation
+
+<P>
+a + b + c = 0
+
+<P>
+So, there are three coordinate systems we can use: the (a,b)
+system, the (b,c) system and the (c,a) system.  We can draw all 
+three coordinate systems at once like this:
+
+<PRE>
+                b         
+                 \       /
+                  \     /
+                   \   /
+                    \ /
+             --------o--------a
+                    / \
+                   /   \
+                  /     \
+                 /       \
+                c
+</PRE>
+The group of permutations of 3 things acts on this picture 
+by permuting the three axes.  Beware: I've only drawn a 2-dimensional 
+<em>real</em> vector space here, just a slice of the full 2d complex space.  
+
+<P>
+Now suppose we take this 2d complex space and mod out by the 
+permutation symmetries.  What do we get?  It turns out we get <em>another</em>
+2d complex vector space!   In this new space, the three coordinate axes
+shown above become just one thing... but this thing is a curve, like
+this:
+
+<PRE>
+            o
+             o
+                o
+                   o
+                o
+             o
+            o
+</PRE>
+Look familiar?  Sure!  It's just the discriminant locus we've
+seen before.
+
+<P>
+Why does it work this way?  The explanation is sitting before us.
+We've got two 2d complex vector spaces: the space of possible
+<em>ordered triples of roots</em> of a depressed cubic, and the space
+of possible <em>coefficients</em>.  There's a map from the first space
+to the second, since the coefficients are functions of the roots:
+
+<P>
+B = ab + bc + ca <br/>
+C = -abc
+
+<P>
+These functions are symmetric polynomials: they don't change when
+we permute a, b, and c.  And, it follows from what I said earlier 
+that we can get <em>any</em> symmetric polynomial as a function of these -
+under the assumption that a+b+c = 0, that is.  
+
+<P>
+So, the map where we mod out by permutation symmetries of the roots 
+is exactly the map from roots to coefficients.
+
+<P>
+The lines in this picture are places where two roots are equal:
+
+<PRE>
+            c=a        
+              \       /
+               \     /
+                \   /
+                 \ /
+          --------o-------- b=c
+                 / \
+                /   \
+               /     \
+              /       \
+            a=b
+</PRE>
+So, when we apply the map from roots to coefficients, these lines
+get mapped to the discriminant locus:
+
+<PRE>
+                  |
+          o       |      
+           o      |     
+              o   |  
+       -----------o-------------
+              o   |           
+           o      |     
+          o       |
+                  |
+</PRE>
+You should now feel happy and quit reading... unless you
+know a bit of topology.  If you <em>do</em> know a little topology, 
+here's a nice spinoff of what we've done.   Though I didn't say
+it using so much jargon, we've already seen that space of 
+nondegenerate depressed cubics is C<sup>2</sup> minus a cone on the 
+trefoil knot.  So, the fundamental group of this space is the
+same as the fundamental group of S<sup>3</sup> minus a trefoil knot.  
+This is a famous group: it has three generators x,y,z, and three 
+relations saying that:
+
+<P>
+<ul>
+<li>
+x conjugated by y is z 
+<li>
+y conjugated by z is x 
+<li>
+z conjugated by x is y 
+</ul>
+
+<P>
+On the other hand, we've seen this space is the space of triples
+of distinct points in the plane, centered at the origin, mod 
+permutations.   The condition &quot;centered at the origin&quot;
+doesn't affect the fundamental group.  So, this fundamental 
+group is another famous group: the &quot;braid group on 3 strands&quot;.  
+This has two generators:
+
+<PRE>
+\ /  |
+ /   |          X
+/ \  |
+</PRE>
+<P>
+and
+
+<PRE>
+|  \ /
+|   /           Y
+|  / \
+</PRE>
+<P>
+and one relation, called the &quot;Yang-Baxter equation&quot; or &quot;third 
+Reidemeister move&quot;:
+
+<PRE>
+\ /  |        |  \ /
+ /   |        |   /
+/ \  |        |  / \
+|  \ /        \ /   |
+|   /     =    /    |           XYX = YXY
+|  / \        / \   |
+\ /  |        |  \ /
+ /   |        |   /
+/ \  |        |  / \
+</PRE>
+<P>
+So: the 3-strand braid group is <em>isomorphic</em> to the fundamental 
+group of the complement of the trefoil!  You may enjoy checking 
+this algebraically, using generators and relations, and then 
+figuring out how this algebraic proof relates to the geometrical 
+proof.
+
+<P>
+I find all this stuff very pretty...
+
+<P>
+... but what's really <em>magnificent</em> is that most of it
+generalizes to any Dynkin diagram, or even any Coxeter diagram!  (See
+&quot;<a href = "week62.html">week62</A>&quot; for those.)
+
+<P>
+Yes, we've secretly been studying the Coxeter diagram A<sub>2</sub>, whose 
+&quot;Coxeter group&quot; is the group of permutations of 3 things, and whose 
+&quot;Weyl chambers&quot; look like this:
+
+                         
+<PRE>
+                 \       /
+                  \     /
+                   \   /
+                    \ /
+             --------o--------
+                    / \
+                   /   \
+                  /     \
+                 /       \
+</PRE>
+Let me just sketch how we can generalize this to A<sub>n-1</sub>.   Here 
+the Coxeter group is the group of permutations of n things, which
+I'll call n!.
+
+<P>
+Let X be the space of n-tuples of complex numbers summing to 0.  
+X is a complex vector space of dimension n-1.  We can think of
+any point in X as the ordered n-tuple of roots of some depressed polynomial
+of degree n.  Here &quot;depressed&quot; means that the leading coefficient 
+is 1 and the sum of the roots is zero.  This condition makes polynomials
+sad.
+
+<P>
+The permutation group n! acts on X in an obvious way.  The 
+quotient X/n! is isomorphic (as a variety) to another complex 
+vector space of dimension n-1: namely, the space of depressed 
+polynomials of degree n.  The quotient map
+
+<P>
+X &rarr; X/n!
+
+<P>
+is just the map from roots to coefficients!  
+
+<P>
+Sitting inside X is the set D consisting of n-tuples of roots
+where two or more roots are equal.  D is the union of a bunch of hyperplanes,
+as we saw in our example:
+
+                         
+<PRE>
+                  \       /
+                   \     /
+                    \   /
+                     \ /
+              --------o--------
+                     / \
+                    /   \
+                   /     \
+                  /       \
+</PRE>
+Sitting inside X/n! is the &quot;discriminant locus&quot; D/n!, consisting
+of <em>degenerate</em> depressed polynomials of degree n - that is, those
+with two or more roots equal.  This is a variety that's smooth except for 
+some sort of &quot;cusp&quot; at the origin:
+
+<PRE>
+              o
+               o
+                  o
+                      o
+                  o
+               o
+              o
+</PRE>
+The fundamental group of the complement of the discriminant locus
+is the braid group on n strands.  The reason is that this group
+describes homotopy classes of ways that n points in the plane can
+move around and come back to where they were (but possibly permuted).
+These points are the roots of our polynomial.
+
+<P>
+On the other hand, the discriminant locus is topologically the cone 
+on some higher-dimensional knot sitting inside the unit sphere in 
+C<sup>n-1</sup>.  So, the fundamental group of the complement of this knot
+is the braid group on n strands.
+
+<P>
+This relation between higher-dimensional knots and singularities 
+was investigated by Milnor, not just for the A<sub>n</sub> series of Coxeter 
+diagrams but more generally:
+
+<P>
+7) John W. Milnor, Singular Points of Complex Hypersurfaces, 
+Princeton U. Press, 1969.
+
+<P>
+The other Coxeter diagrams give generalizations of braid groups
+called Artin-Brieskorn groups.  Algebraically you get them by taking
+the usual presentations of the Coxeter groups and dropping the 
+relations saying the generators (reflections) square to 1.  
+
+<P>
+If you like braid groups and Dynkin diagrams, Artin-Brieskorn groups 
+are irresistible!  For a fun modern account, try:
+
+<P>
+8) Daniel Allcock, Braid pictures for Artin groups, available as
+<a href = "http://arxiv.org/abs/math.GT/9907194">arXiv:math.GT/9907194</a>.
+
+<P>
+But I'm digressing!  I must return and finish my ode to the number 3.
+I need to say how modular forms get into the game!
+
+<P>
+I'll pick up the pace a bit now - if you're tired, quit here.
+
+<P>
+Any cubic polynomial P(x) gives something called an &quot;elliptic
+curve&quot;.  This consists of all the complex solutions of
+
+<P>
+y<sup>2</sup> = P(x)
+
+<P>
+together with the point (&infin;, &infin;), which we include to
+make things nicer.
+
+<P>
+Clearly this elliptic curve has two points (x,y) for each value of x
+<em>except</em> for x = &infin; and the roots of P(x), where it just has one.
+So, it's a &quot;branched double cover&quot; of the Riemann sphere,
+with branch points at the roots of our cubic and the point at infinity.
+
+<P>
+In fact, this elliptic curve has the topology of a torus, at least 
+when all the roots of our cubic are different.  If you have trouble
+imagining a torus that's a branched double cover of a sphere, ponder
+this:
+
+<P>
+<div align = "center">
+<img src = "quincuncial_tiled.jpg">
+</div>
+
+<P>
+9) Carlos Furuti, Peirce's quincuncial map, 
+<a href = "http://www.progonos.com/furuti/MapProj/Normal/ProjConf/projConf.html">http://www.progonos.com/furuti/MapProj/Normal/ProjConf/projConf.html</a>
+
+<P>
+This square map of the Earth is an unwrapped torus; each point of the
+Earth shows up lots of times.  If we wrap it up just right, we get a
+branched double cover of the sphere!  Can you spot the branch points?
+For a lot more explanation, read &quot;<a href =
+"week229.html">week229</A>&quot;.
+
+<P>
+Now, way back in &quot;<a href = "week13.html">week13</A>&quot;, I turned this story around.  I started with 
+a torus formed as the quotient of the complex plane by a lattice -
+and showed how to get an elliptic curve out of it.  I wrote the 
+equation for this elliptic curve in &quot;Weierstrass form&quot;:
+
+<P>
+y<sup>2</sup> = 4x<sup>3</sup> - g<sub>2</sub> x - g<sub>3</sub>
+
+<P>
+By a simple change of variables, this is equivalent to a depressed 
+cubic:
+
+<P>
+y<sup>2</sup> = x<sup>3</sup> + Bx + C
+
+<P>
+So, we can think of g<sub>2</sub> and g<sub>3</sub> as coordinates on
+our 2d space of depressed cubics!  They're just rescaled versions of
+our coordinate functions B and C.
+
+<P>
+What's the big deal?  Well, g<sub>2</sub> and g<sub>3</sub> are famous
+examples of &quot;modular forms&quot; - whatever those are.  In fact,
+it's a famous fact that every modular form is a polynomial in
+g<sub>2</sub> and g<sub>3</sub>.
+
+<P>
+I defined modular forms back in &quot;<a href = "week142.html">week142</A>&quot;, where I summarized the
+Taniyama-Shimura-Weil theorem: the big theorem about modular forms
+that implies Fermat's Last Theorem.  So, you can reread the definition
+there if you're curious.  But if you've never seen it before, it's
+a bit intimidating.  A modular form of weight w is a function on the 
+space of lattices that transforms in a certain bizarre way, satisfying a 
+certain growth condition... blah blah blah.
+
+<P>
+It's important stuff, and incredibly cool once you get a feel for it.
+But suppose we're trying to explain modular forms more simply.
+Then we can avoid a lot of technicalities if we just say 
+a modular form is a polynomial on the space of depressed cubics!  In 
+other words, a polynomial in our friends B and C.  
+
+<P>
+Then we can make some definitions.  The &quot;weight&quot; of the modular form
+
+<P>
+B<sup>i</sup> C<sup>j</sup>
+
+<P>
+is 4i+6j.  Okay, I admit this sounds arbitrary and weird without a lot
+more explanation.  But better: a &quot;cusp form&quot; is a modular
+form that vanishes on the discriminant locus.  Then we can see every
+cusp form is the product of the discriminant 4B<sup>3</sup> +
+27C<sup>2</sup> and some other modular form... and we can use this to
+work out lots of basic stuff about modular forms.
+
+<P>
+So, I hope you now see how tightly entwined all these ideas are:
+
+<UL>
+<LI>
+  the trefoil knot
+<LI>
+  cubic polynomials
+<LI>
+  the group of permutations of 3 things
+<LI>
+  the three-strand braid group
+<LI>
+  modular forms and cusp forms
+</UL>
+
+<P>
+At this point I should give credit where credit is due.  As usual,
+I've been talking to Jim Dolan, and many of these ideas come from
+him.  But also, you can think of this Week as an expansion of the
+remarks by Joe Christy and Swiatowslaw Gal in the Addenda to 
+&quot;<a href = "week233.html">week233</A>&quot;.  And, it was
+Chris Hillman who first told Jim and me that SL(2,R)/SL(2,Z) looks
+like S<sup>3</sup> minus a trefoil knot.
+
+<P>
+Finally, I should say that my low-budget approach to modular forms
+mostly just handles so-called &quot;level 0&quot; modular forms - the basic 
+kind, defined using the group 
+
+<P>
+&Gamma; = PSL(2,Z)
+
+<P>
+More exciting are modular forms that transform nicely only for a 
+<em>subgroup</em> of &Gamma;.   Jim and I are just beginning to understand
+these.  But the modular forms for &Gamma;(2) fit nicely into today's 
+ode!  Here &Gamma;(2) is the subgroup of &Gamma; consisting of matrices
+congruent to the identity matrix mod 2.  What does this have to do
+with my ode to the number 3?  Well,
+
+<P>
+&Gamma;/&Gamma;(2) &cong; PSL(2,F<sub>2</sub>) 
+
+<P>
+and this is isomorphic to the group of permutations of 3 things! 
+
+<P>
+So, as a final flourish, I claim that:
+
+<P>
+Modular forms for &Gamma;(2) are polynomials on the space X
+consisting of roots of depressed cubics:
+
+<P>
+X = {(a,b,c): a,b,c complex with a + b + c = 0}
+
+<P>
+Modular forms for &Gamma; are polynomials on the space X/3!
+consisting of coefficients of depressed cubics:
+
+<P>
+X/3! = {(B,C): B,C complex}
+
+<P>
+The obvious quotient map X &rarr; X/3! sends roots to coeffficients:
+
+<P>
+(a,b,c) |&rarr; (B,C) = (ab + bc + ca, abc)
+
+<P>
+and this induces the inclusion of modular forms for &Gamma; into
+modular forms for &Gamma;(2):
+
+<P>
+B |&rarr; ab + bc + ca  <br/>
+C |&rarr; abc
+
+<P>
+I hope this is all true!
+
+<P>
+Modular forms for &Gamma;(2) are particularly nice.   A good example
+is the <em>cross-ratio</em>, much beloved in complex analysis.  If you want
+to learn more about this stuff, try:
+
+<P>
+10) Igor V. Dolgachev, Lectures on modular forms, Fall 1997/8, 
+available at <a href = "http://www.math.lsa.umich.edu/~idolga/modular.pdf">http://www.math.lsa.umich.edu/~idolga/modular.pdf</a>
+
+<P>
+especially chapter 9 for level 2 modular forms.  Also:
+
+<P>
+11) Henry McKean and Victor Moll, Elliptic Curves: Function Theory,
+Geometry, Arithmetic, Cambridge U. Press, 1999.
+
+<P>
+especially chapter 4.
+
+<P>
+<HR>
+<P>
+<b>Addendum:</b> For more discussion, go to the
+<a href = "http://golem.ph.utexas.edu/category/2007/12/this_weeks_finds_in_mathematic_20.html"><em>n</em>-Category Caf&eacute;</a>.
+
+<P>
+<HR>
+<em>It is difficult to give an idea of the vast extent of modern mathematics.
+The word "extent" is not the right one: I mean extent crowded with 
+beautiful detail - not an extent of mere uniformity such as an objectless
+plain, but a tract of beautiful country to be rambled through and studied
+to every detail of hillside and valley, stream, rock, wood and flower.</em> 
+- Arthur Cayley
+<p>
+<HR><P>
+<!-- BEGIN FOOTER -->
+&#169; 2008  John Baez<br>
+baez@math.removethis.ucr.andthis.edu <br>
+<P>
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week260.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week262.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE><!-- END FOOTER -->

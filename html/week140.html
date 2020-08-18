@@ -1,0 +1,370 @@
+<TITLE> week140 </TITLE>
+
+<!-- BEGIN HEADER -->
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week139.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week141.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE>
+<H4> October 16, 1999 </H4>
+<H2> This Week's Finds in Mathematical Physics (Week 140) </H2>
+<H4> John Baez </H4>
+<!-- END HEADER -->
+
+<P>
+Let's start with something fun: biographies!  
+
+<P>
+1) Norman Macrae, John von Neumann: The Scientific Genius Who Pioneered
+the Modern Computer, Game Theory, Nuclear Deterrence and Much More, 
+American Mathematical Society, Providence, Rhode Island, 1999.  
+
+<P>
+2) Steve Batterson, Stephen Smale: The Mathematician Who Broke the
+Dimension Barrier, American Mathematical Society, Providence, Rhode
+Island, 2000.
+
+<P>
+Von Neumann might be my candidate for the best mathematical physicist of
+the 20th century.  His work ranged from the ultra-pure to the
+ultra-applied.  At one end: his work on axiomatic set theory.  At the
+other: designing and building some of the first computers to help design
+the hydrogen bomb - which was so applied, it got him in trouble at the
+Institute for Advanced Studies!   But there's so much stuff in between:
+the mathematical foundations of quantum mechanics (von Neumann algebras,
+the Stone-Von Neumann theorem and so on), ergodic theory, his work on
+Hilbert's fifth problem, the Manhattan project, game theory, the theory
+of self-reproducing cellular automata....  You may or may not like him,
+but you can't help being awed.  Hans Bethe, no dope himself, said of von
+Neumann that &quot;I always thought his brain indicated that he belonged to a
+new species, an evolution beyond man&quot;.  The mathematician Polya said
+&quot;Johnny was the only student I was ever afraid of.&quot;  Definitely an
+interesting guy.
+
+<P>
+While von Neumann is one of those titans that dominated the first 
+half of the 20th century, Smale is more typical of the latter half -
+he protested the Vietnam war, and now he even has his own web page!
+
+<P>
+3) Stephen Smale's web page, <A HREF = "http://www.math.berkeley.edu/~smale/">http://www.math.berkeley.edu/~smale/</A>
+
+<P>
+He won the Fields medal in 1966 for his work on differential topology.
+Some of his work is what you might call &quot;pure&quot;: figuring out how to 
+turn a sphere inside out without any crinkles, proving the Poincare 
+conjecture in dimensions 5 and above, stuff like that.  But a lot of it
+concerns dynamical systems: cooking up strange attactors using  the
+horseshoe map, proving that structural stability is not generic, and so
+on - long before the recent hype about chaos theory began!  More
+recently he's also been working on economics, game theory, and the
+relation of computational complexity to algebraic geometry.  
+
+<P>
+Now for some papers on spin networks and spin foams:
+
+<P>
+4) Roberto De Pietri, Laurent Freidel, Kirill Krasnov, and Carlo Rovelli, 
+Barrett-Crane model from a Boulatov-Ooguri field theory over a 
+homogeneous space, preprint available as <A HREF = "http://xxx.lanl.gov/abs/hep-th/9907154">hep-th/9907154</A>.  
+
+<P>
+The Barrett-Crane model is a very interesting theory of quantum gravity.
+I've described it already in &quot;<A HREF =
+"week113.html">week113</A>&quot;, &quot;<A HREF =
+"week120.html">week120</A>&quot; and &quot;<A HREF =
+"week128.html">week128</A>&quot;, so I won't go into much detail about
+it - I'll just plunge in....
+
+<P>
+The original Barrett-Crane model involved a fixed triangulation of
+spacetime.   One can also cook up versions where you sum over 
+triangulations.  In some ways the most natural is to sum over all ways
+of taking a bunch of 4-simplices and gluing them face-to-face until no
+faces are left free.  Some of these ways give you manifolds; others
+don't.  In this paper, the authors show that this &quot;sum over
+triangulations&quot; version of the Barrett-Crane model can be thought of
+as a quantum field theory on a product of 4 copies of the 3-sphere.
+Weird, huh?
+
+<P>
+But it's actually not so weird.  The space of complex functions on the
+(n-1)-sphere is naturally a representation of SO(n).  But there's
+another way to think of this representation.  Consider an triangle in
+R<sup>n</sup>.  We can associate vectors to two of its edges, say v and w, and
+form the wedge product of these vectors to get a bivector v ^ w.  This
+bivector describes the area element associated to the triangle.  If we
+pick an orientation for the triangle, this bivector is uniquely
+determined.  Now, a bivector of the form v ^ w is called
+&quot;simple&quot;.  The space of simple bivectors is naturally a
+Poisson manifold - i.e., we can define Poisson brackets of functions on
+this space - so we can think of it as a &quot;classical phase
+space&quot;.  Using geometric quantization, we can quantize this
+classical phase space and get a Hilbert space.  Since rotations act on
+the classical phase space, they act on this Hilbert space, so it becomes
+a representation of SO(n).  And this representation is isomorphic to the
+space of complex functions on the (n-1)-sphere!
+
+<P>
+Thus, we can think of a complex function on the (n-1)-sphere as a
+&quot;quantum triangle&quot; in R<sup>n</sup>, as long as we really just
+care about the area element associated to the triangle.  One can develop
+this analogy in detail and make it really precise.  In particular, one
+can describe a &quot;quantum tetrahedron&quot; in R<sup>n</sup> as a
+collection of 4 quantum triangles satisfying some constraints that say
+the fit together into a tetrahedron.  These quantum tetrahedra act
+almost like ordinary tetrahedra when they are large, but when the areas
+of their faces becomes small compared to the square of the Planck
+length, the uncertainty principle becomes important: you can't
+simultaneously know everything about their geometry with perfect
+precision.
+
+<P>
+Let me digress for a minute and sketch the history of this stuff.  The
+quantum tetrahedron in 3 dimensions was invented by Barbieri - see
+&quot;<A HREF = "week110.html">week110</A>&quot;.  It quickly became
+important in the study of spin foam models.  Then Barrett and I
+systematically worked out how to construct the quantum tetrahedron in 3
+and 4 dimensions using geometric quantization - see &quot;<A HREF =
+"week134.html">week134</A>&quot;.  Subsequently, Freidel and Krasnov
+figured out how to generalize this stuff to higher dimensions:
+
+<P>
+5) Laurent Freidel, Kirill Krasnov and Raymond Puzio, BF description of
+higher-dimensional gravity, preprint available as <A HREF = "http://xxx.lanl.gov/abs/hep-th/9901069">hep-th/9901069</A>.
+
+<P>
+6) Laurent Freidel and Kirill Krasnov, Simple spin networks as Feynman 
+graphs, preprint available as <A HREF = "http://xxx.lanl.gov/abs/hep-th/9903192">hep-th/9903192</A>.
+
+<P>
+So much for history - now back to business.  So far I've told you that
+the state of a &quot;quantum triangle&quot; in 4 dimensions is given by
+a complex function on the 3-sphere.  And I've told you that a
+&quot;quantum tetrahedron&quot; is a collection of 4 quantum triangles
+satisfying some constraints.  More precisely, let 
+<P>
+H = L<sup>2</sup>(S<sup>3</sup>)
+<P>
+be the
+Hilbert space for a quantum triangle in 4 dimensions.  Then the Hilbert
+space for a quantum tetrahedron is a certain subspace T of H x H x H x
+H, where &quot;x&quot; denotes the tensor product of Hilbert spaces.
+Concretely, we can think of states in T as complex functions on the
+product of 4 copies of S<sup>3</sup>.  These complex functions need to satisfy
+some constraints, but let's not worry about those....
+
+<P>
+Now let's &quot;second quantize&quot; the Hilbert space T.  This is
+physics jargon for making a Hilbert space out of the algebra of
+polynomials on T - usually called the &quot;Fock space&quot; on T.  As
+usual, there are two pictures of states in this Fock space: the
+&quot;field&quot; picture and the &quot;particle&quot; picture.  On the
+one hand, they are states of a quantum field theory on the product of 4
+copies of S<sup>3</sup>.  But on the other hand, they are states of an
+arbitrary collection of quantum tetrahedra in 4 dimensions.  In other
+words, we've got ourselves a quantum field theory whose &quot;elementary
+particles&quot; are quantum tetrahedra!
+
+<P>
+The idea of the de Pietri-Freidel-Krasnov-Rovelli paper is to play these
+two pictures off each other and develop a new way of thinking about the
+Barrett-Crane model.  The main thing these guys do is write down a
+Lagrangian with some nice properties.  Throughout quantum field theory,
+one of the big ideas is to start with a Lagrangian and use it to compute
+the amplitudes of Feynman diagrams.  A Feynman diagram is a graph with
+edges corresponding to &quot;particles&quot; and vertices corresponding to
+&quot;interactions&quot; where a bunch of particles turns into another bunch of
+particles.  
+
+<P>
+But in the present context, the so-called &quot;particles&quot; are
+really quantum tetrahedra!  Thus the trick is to write down a Lagrangian
+giving Feynman diagrams with 5-valent vertices.  If you do it right,
+these 5-valent vertices correspond exactly to ways that 5 quantum
+tetrahedra can fit together as the 5 faces of a 4-simplex!  Let's call
+such a thing a &quot;quantum 4-simplex&quot;.  Then your Feynman
+diagrams correspond exactly to ways of gluing together a bunch of
+quantum 4-simplices face-to-face.  Better yet, if you set things up
+right, the amplitude for such a Feynman diagram exactly matches the
+amplitude that you'd compute for a triangulated manifold using the
+Barrett-Crane model!
+
+<P>
+In short, what we've got here is a quantum field theory whose Feynman
+diagrams describe &quot;quantum geometries of spacetime&quot; - where spacetime
+is not just a fixed triangulated manifold, but any possible way of 
+gluing together a bunch of 4-simplices face-to-face.  
+
+<P>
+Sounds great, eh?  So what are the problems?  I'll just list three.
+First, we don't know that the &quot;sum over Feynman diagrams&quot;
+converges in this theory.  In fact, it probably does not - but there are
+probably ways to deal with this.  Second, the model is Riemannian rather
+than Lorentzian: we are using the rotation group when we should be using
+the Lorentz group.  Luckily this is addressed in a new paper by Barrett
+and Crane.  Third, we aren't very good at computing things with this
+sort of model - short of massive computer simulations, it's tough to see
+what it actually says about physics.  In my opinion this is the most
+serious problem: we should either start doing computer simulations of
+spin foam models, or develop new analytical techniques for handling them
+- or both!
+
+<P>
+Now, this &quot;new paper by Barrett and Crane&quot; is actually not brand new.
+It's a revised version of something they'd already put on the net:
+
+<P>
+7) John Barrett and Louis Crane, A Lorentzian signature model for
+quantum general relativity, preprint available as <A HREF = "http://xxx.lanl.gov/abs/gr-qc/9904025">gr-qc/9904025</A>.
+
+<P>
+However, it's much improved.  When I went up to Nottingham at the end of
+the summer, I had Barrett explain it to me.  I learned all sorts of cool
+stuff about representations of the Lorentz group.  Unfortunately, I
+don't now have the energy to explain all that stuff.   I'll just say
+this: everything I said above generalizes to the Lorentzian case.  The
+main difference is that we use the 3-dimensional hyperboloid
+
+<P>
+H<sup>3</sup> = {t<sup>2</sup> - x<sup>2</sup> - y<sup>2</sup> - z<sup>2</sup> 
+= 1}
+
+<P>
+wherever we'd been using the 3-sphere
+
+<P>
+S<sup>3</sup> = {t<sup>2</sup> + x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> 
+= 1}
+
+<P>
+It's sort of obvious in retrospect, but it's nice that it works out so
+neatly!  
+
+<P>
+Okay, here are some more papers on spin networks and spin foams.
+Since I'm getting lazy, I'll just quote the abstracts:
+
+<P>
+8) Sameer Gupta, Causality in spin foam models, preprint available as
+<A HREF = "http://xxx.lanl.gov/abs/gr-qc/9908018">gr-qc/9908018</A>.  
+
+<P>
+We compute Teitelboim's causal propagator in the context of canonical
+loop quantum gravity. For the Lorentzian signature, we find that the
+resultant power series can be expressed as a sum over branched, colored
+two-surfaces with an intrinsic causal structure.  This leads us to
+define a general structure which we call a &quot;causal spin foam&quot;.  We also
+demonstrate that the causal evolution models for spin networks fall in
+the general class of causal spin foams.
+
+<P>
+9) Matthias Arnsdorf and Sameer Gupta, Loop quantum gravity on
+non-compact spaces, preprint available as <A HREF = "http://xxx.lanl.gov/abs/gr-qc/9909053">gr-qc/9909053</A>. 
+
+<P>
+We present a general procedure for constructing new Hilbert spaces for
+loop quantum gravity on non-compact spatial manifolds.  Given any fixed
+background state representing a non-compact spatial geometry, we use the
+Gel'fand-Naimark-Segal construction to obtain a representation of the
+algebra of observables.  The resulting Hilbert space can be interpreted
+as describing fluctuation of compact support around this background
+state.  We also give an example of a state which approximates classical
+flat space and can be used as a background state for our construction.
+
+<P>
+10) Seth A. Major, Quasilocal energy for spin-net gravity, preprint
+available as <A HREF = "http://xxx.lanl.gov/abs/gr-qc/9906052">gr-qc/9906052</A>.  
+
+<P>
+The Hamiltonian of a gravitational system defined in a region with
+boundary is quantized.  The classical Hamiltonian, and starting point for
+the regularization, is required by functional differentiablity of the
+Hamiltonian constraint.  The boundary term is the quasilocal energy of
+the system and becomes the ADM mass in asymptopia.  The quantization is
+carried out within the framework of canonical quantization using spin
+networks.  The result is a gauge invariant, well-defined operator on the
+Hilbert space induced from the state space on the whole spatial
+manifold.  The spectrum is computed.  An alternate form of the operator,
+with the correct naive classical limit, but requiring a restriction on
+the Hilbert space, is also defined.  Comparison with earlier work and
+several consequences are briefly explored.
+
+<P>
+11) C. Di Bartolo, R. Gambini, J. Griego, J. Pullin, Consistent
+canonical quantization of general relativity in the space of
+Vassiliev knot invariants, preprint available as <A HREF = "http://xxx.lanl.gov/abs/gr-qc/9909063">gr-qc/9909063</A>.  
+
+<P>
+We present a quantization of the Hamiltonian and diffeomorphism
+constraint of canonical quantum gravity in the spin network
+representation.  The novelty consists in considering a space of
+wavefunctions based on the Vassiliev knot invariants.  The constraints
+are finite, well defined, and reproduce at the level of quantum
+commutators the Poisson algebra of constraints of the classical theory.
+A similar construction can be carried out in 2+1 dimensions leading to
+the correct quantum theory.
+
+<P>
+12) John Baez, Spin foam perturbation theory, preprint available as 
+<A HREF = "http://xxx.lanl.gov/abs/gr-qc/9910050">gr-qc/9910050</A> or at 
+<A HREF = "http://math.ucr.edu/home/baez/foam3.ps">http://math.ucr.edu/home/baez/foam3.ps</A>
+
+<P>
+We study perturbation theory for spin foam models on triangulated
+manifolds.  Starting with any model of this sort, we consider an
+arbitrary perturbation of the vertex amplitudes, and write the 
+evolution operators of the perturbed model as convergent power series in
+the coupling constant governing the perturbation.   The terms in the
+power series can be efficiently computed when the unperturbed model is a
+topological quantum field theory.  Moreover, in this case we can
+explicitly sum the whole power series in the limit where the number  of
+top-dimensional simplices goes to infinity while the coupling constant
+is suitably renormalized.  This `dilute gas limit' gives spin foam
+models that are triangulation-independent but not topological quantum
+field theories.  However, we show that models of this sort are rather
+trivial except in dimension 2.
+ 
+
+
+
+
+<P>
+
+<p> <hr>
+
+<!-- BEGIN FOOTER -->
+&#169; 1999  John Baez<br>
+baez@math.removethis.ucr.andthis.edu <br>
+<P>
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week139.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week141.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE><!-- END FOOTER -->

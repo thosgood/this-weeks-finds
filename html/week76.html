@@ -1,0 +1,325 @@
+<TITLE> week76 </TITLE>
+
+<!-- BEGIN HEADER -->
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week75.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week77.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE>
+<H4> March 9, 1996 </H4>
+<H2> This Week's Finds in Mathematical Physics (Week 76) </H2>
+<H4> John Baez </H4>
+<!-- END HEADER -->
+
+
+<P>
+
+Yesterday I went to the oral exam of Hong Xiang, a student of Richard
+Seto who is looking for evidence of quark-gluon plasma at Brookhaven.
+The basic particles interacting via the strong force are quarks and
+gluons; these have an associated kind of &quot;charge&quot; known as
+color.  Under normal conditions, quarks and gluons are confined to lie
+within particles with zero total color, such as protons and neutrons,
+and more generally the baryons and mesons seen in particle acccelerators
+- and possibly glueballs, as well.  (See &quot;<A HREF =
+"week68.html">week68</A>&quot; for more on glueballs.)
+
+<P>
+
+However, the current theory of the strong force - quantum
+chromodynamics - predicts that at sufficiently high densities and/or
+pressures, a plasma of protons and neutrons should undergo a phase
+transition called &quot;deconfinement&quot;, past which the quarks and
+gluons will roam freely.  At low densities, this is expected to happen
+at a temperature corresponding to about 200 MeV per nucleon (i.e.,
+proton or neutron).  If my calculation is right, this is about 2
+trillion Kelvin!  At low temperatures, it's expected to happen at about
+5 to 20 times the density of an atomic nucleus.  (Normal nuclear matter
+has about .16 nucleons per femtometer cubed.)  For more on this, check
+out these:
+<P>
+1) 
+
+Relativistic Heavy Ion Collider homepage, 
+<A HREF = "http://www.bnl.gov/RHIC/">
+http://www.bnl.gov/RHIC/</A>
+
+<P> CERN Courier, Phase diagram of nuclear matter,
+<A HREF = "http://www.cerncourier.com/main/article/40/5/17/1/cernquarks1_6-00">http://www.cerncourier.com/main/article/40/5/17/1/cernquarks1_6-00</A>
+
+<P>
+The folks at Brookhaven are attempting to get high densities <em>and</em>
+temperatures by slamming two gold nuclei together.  They are getting
+densities of about 9 times that of a nucleus... and I forget what sort
+of temperature, but there is reason to hope that the combined high
+density and pressure might be enough to cause deconfinement and create a
+&quot;quark-gluon plasma&quot;.  Colliding gold on gold at high energies
+produces a enormous spray of particles, but amidst this they are looking
+for a particular signal of deconfinement.  They are looking for &phi;
+mesons and looking to see if their lifetime is modified.  A &phi; meson is
+a spin-1 particle made of a strange quark / strange antiquark pair;
+strange quarks and antiquarks are supposed to be common in the
+quark-gluon plasma formed by the collision.  Folks think the lifetime of
+a &phi; will be affected by the medium it finds itself in, and that this
+should serve as a signature of deconfinement.  In fact, they may have
+already seen this!
+
+<P>
+People might also enjoy looking at this review article:
+
+<P>
+2) Adriano Di Giacomo, Mechanisms of colour confinement, preprint
+available as <A HREF = "http://xxx.lanl.gov/abs/hep-th/9603029">hep-th/9603029</A>.  
+
+
+<P>
+<A NAME = "tale">
+<P>
+Okay, let me continue the tale of n-categories.  I want to lead up to
+their role in physics, but to do it well, there are quite a few things I
+need to explain first.  One of the important things about n-category
+theory is that they allow a much more fine-grained approach to the notion of
+&quot;sameness&quot; than we would otherwise be able to achieve.  
+
+<P>
+In a bare set, two elements x and y are either equal or not equal;
+there is nothing much more to say.  
+
+<P>
+In a category, two objects x and y can be equal or not equal, but more
+interestingly, they can be <em>isomorphic</em> or not, and if they are, they
+can be isomorphic in many different ways.  An isomorphism between x and
+y is simply a morphism f: x &rarr; y which has an inverse g: y &rarr; x.  (For
+a discussion of inverse morphisms, see &quot;<A HREF = "week74.html">week74</A>&quot;.)
+
+<P>
+For example, in the category Set an isomorphism is just a one-to-one and
+onto function.  If we know two sets x and y are isomorphic we know that
+they are &quot;the same in a way&quot;, even if they are not equal.  But
+specifying an isomorphism f: x &rarr; y does more than say x and y are the
+same in a way; it specifies a <em>particular way</em> to regard x and y as the
+same.
+
+<P>
+In short, while equality is a yes-or-no matter, a mere <em>property</em>, an
+isomorphism is a <em>structure</em>.  It is quite typical, as we climb the
+categorical ladder (here from elements of a set to objects of a
+category) for properties to be reinterpreted as structures, or sometimes
+vice-versa.  
+
+<P>
+What about in a 2-category?  Here the notion of equality sprouts still
+further nuances.  Since I haven't defined 2-categories in general, let
+me work with an example, Cat.  This has categories as its objects,
+functors as its morphisms, and natural transformations as its
+2-morphisms.
+
+<P>
+
+So... we can certainly speak, as before, of the <em>equality</em> of
+categories.  We can also speak of the <em>isomorphism</em> of
+categories: an isomorphism between C and D is a functor F: C &rarr; D for
+which there is an inverse functor G: D &rarr; C.  I.e., FG is the
+identity functor on C and GF is the identity on D, where we define the
+composition of functors in the obvious way.  But because we also have
+natural transformations, we can also define a subtler notion, the
+<em>equivalence</em> of categories.  An equivalence is a functor F: C
+&rarr; D together with a functor G: D &rarr; C and natural isomorphisms a:
+FG &rarr; 1<sub>C</sub> and b: GF &rarr; 1<sub>D</sub>.  A &quot;natural
+isomorphism&quot; is a natural transformation which has an inverse.
+
+<P>
+Abstractly, I hope you can see the pattern here: just as we can &quot;relax&quot;
+the notion of equality to the notion of isomorphism when we pass from
+sets to categories, we can relax the condition that FG and GF equal
+identity functors to the condition that they be isomorphic to identity
+functors when we pass from categories to the 2-category Cat.  We need to
+have the natural transformations to be able to speak of functors being
+isomorphic, just as we needed functions to be able to speak of sets
+being isomorphic.   In fact, with each extra level in the theory of
+n-categories, we will be able to come up with a still more refined
+notion of &quot;n-equivalence&quot; in this way.  That's what &quot;processes between
+processes between processes...&quot; allow us to do.
+
+<P>
+But let me attempt to bring this notion of equivalence of categories
+down to earth with some examples.  Consider first a little category
+C with only one object x and one morphism, the identity morphism 
+1<sub>x</sub>: x &rarr; x.  We can draw C as follows:
+
+<PRE>
+                              x
+
+</PRE>
+where we don't bother drawing the identity morphism 1<sub>x</sub>.  This
+category, by the way, is called the &quot;terminal category&quot;.  Next
+consider a little category D with two objects y and z and only four
+morphisms: the identities 1<sub>y</sub> and 1<sub>z</sub>, and 
+two morphisms f: y &rarr; z
+and g: z &rarr; y which are inverse to each other.  We can draw D as
+follows:
+     
+<PRE>
+                               g
+                          <----------
+                       y               z
+                          ---------->
+                               f
+
+</PRE>
+where again we don't draw identities.  
+
+<P>
+So: C is a little world with only one object, while D is a little world
+with only two isomorphic objects... that are isomorphic in precisely one
+way!  C and D are clearly not isomorphic, because for a functor F: C &rarr;
+D to be invertible it would need to be one-to-one and onto on objects,
+and also on morphisms. 
+
+<P>
+However, C and D are equivalent.  For example, we can let F: C &rarr; D
+be the unique functor with F(x) = y, and let G: D &rarr; C be the unique
+functor from D to C.  (There is only one functor from any category to C,
+since C has only one object and one morphism; this is why we call C the
+terminal category.)  Now, if we look at the functor FG: C &rarr; C, it's
+not hard to see that this is the identity functor on C.  But the
+composite GF: D &rarr; D is not the identity functor on D.  Instead, it
+sends both y and z to y, and sends all the morphisms in D to
+1<sub>y</sub>.  But while not <em>equal</em> to the identity functor on
+D, the functor GF is <em>naturally isomorphic</em> to it.  We can define
+a natural transformation b: GF &rarr; 1<sub>D</sub> by setting
+b<sub>y</sub> = 1<sub>y</sub> and b<sub>z</sub> = f.  Here some folks
+may want to refresh themselves on the definition of natural
+transformation, given in &quot;<A HREF = "week75.html">week75</A>&quot;,
+and check that b is really one of these, and that b is a natural
+isomorphism because it has an inverse.
+
+<P>
+The point is, basically, that having two uniquely isomorphic things with
+no morphisms other than the isomorphisms between them and the identity
+morphisms isn't really all that different from having one thing with
+only the identity morphism.  Category theorists generally regard
+equivalent categories as &quot;the same for all practical purposes&quot;.  For
+example, given any category we can find an equivalent category in which
+any two isomorphic objects are equal.  We call these &quot;skeletal&quot;
+categories because all the fat is gone and just the essential bones are
+left.  For example, the category FinSet of finite sets, with functions
+between them as morphisms, is equivalent to the category with just the
+sets
+
+<P>
+0 = {}
+<P>
+1 = {0}
+<P>
+2 = {0,1}
+<P>
+3 = {0,1,2}
+
+<P>
+
+etc., and functions between them as morphisms (see &quot;<A HREF =
+"week73.html">week73</A>&quot;).  Essentially all the mathematics that
+can be done in FinSet can be done in this skeletal category.  This may
+seem shocking, but it's true....  Similarly, the category Set is
+equivalent to the category Card having one set of each cardinality.
+Also, the category Vect of complex finite- dimensional vector spaces,
+with linear functions between them as morphisms, is equivalent to a
+skeletal category where the only objects are those of the form
+C<sup>n</sup>.  <em>This</em> example should not seem shocking; it's
+this fact which allows unsophisticated people to do linear algebra under
+the impression that all finite-dimensional vector spaces are of the form
+C<sup>n</sup>, and still manage to do all the practical computations
+that more sophisticated people can do, who know the abstract definition
+of vector space and thus know of lots more finite-dimensional vector
+spaces.
+
+<P>
+However, there is another thing we can do in Cat, another refinement of
+the notion of isomorphism, which I alluded to in &quot;<A HREF =
+"week75.html">week75</A>&quot;.  This is the notion of &quot;adjoint
+functor&quot;.  Let me mention a few examples (in addition to the
+example given in &quot;<A HREF = "week75.html">week75</A>&quot;) and let
+the reader ponder them before giving the definition.  Let Grp denote the
+category with groups as objects and homomorphisms as morphisms, a
+homomorphism f: G &rarr; H between groups being a function with f(1) = 1
+and f(gh) = f(g)f(h) for all g, h in G.  Then there is a nice functor
+
+<P>
+                        L: Set &rarr; Grp
+
+<P>
+which takes any set S to the free group on S: this is the group L(S) formed
+by all formal products of elements in S and inverses thereof, with no
+relations other than those in the definition of a group.  For
+example, a typical element of the free group on {x,y,z} is
+xyzy<sup>-1</sup>xxy.  
+
+<P>
+(It's easy to see that f: S &rarr; T is a function between sets, there is a
+unique homomorphism L(f): L(S) &rarr; L(T) with L(f)(x) = f(x) for all x in
+S, and that this makes L into a functor.)
+
+<P>
+There is also a nice functor
+
+<P>
+                        R: Grp &rarr; Set
+
+<P>
+taking any group to its underlying set, and taking any homomorphism to
+its underlying function.  We call this a &quot;forgetful&quot; functor since it
+simply amounts to forgetting that we are working with groups and just
+thinking of them as sets.  
+
+<P>
+Now there is a sense in which L and R are reverse processes, but it is
+delicate.  They certainly aren't inverses, and they aren't even part of
+an equivalence between Set and Grp.  Nonetheless they are &quot;adjoints&quot;.
+If the reader hasn't thought about this, she may enjoy figuring out what
+this might mean... perhaps keeping the adjoint operators mentioned in
+&quot;<A HREF = "week75.html">week75</A>&quot; in mind.
+
+<P>
+<A HREF = "week77.html#tale">To continue reading the &quot;Tale of
+n-Categories&quot;, click here.</A>
+<P>
+
+
+<HR>
+<P>
+<!-- BEGIN FOOTER -->
+&#169; 1996  John Baez<br>
+baez@math.removethis.ucr.andthis.edu <br>
+<P>
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week75.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week77.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE><!-- END FOOTER -->

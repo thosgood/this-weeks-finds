@@ -1,0 +1,442 @@
+<TITLE> week 167 </TITLE>
+
+<!-- BEGIN HEADER -->
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week166.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week168.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE>
+<H4> March 30, 2001</H4>
+<H2> This Week's Finds in Mathematical Physics (Week 167) </H2>
+<H4> John Baez </H4>
+<!-- END HEADER -->
+
+
+<P>
+I'm now visiting the Center for Gravitational Physics and Geometry at
+Penn State, and I have all sorts of exciting stuff to report.  First 
+I'll talk about fundamental limitations in measuring distances due 
+to quantum gravity and then I'll say a bit about Martin Bojowald's 
+new work, which uses loop quantum gravity to tackle the question 
+&quot;what came before the big bang?&quot;
+
+<P>
+Theoretical physicists sometimes look longingly back to the early 20th
+century as the heyday of thought experiments - Einstein and his
+elevator, the famous Bohr-Einstein debate at the 1927 Solvay
+conference, and so on.  But thought experiments are most important
+when you're struggling to do something really new and haven't yet
+hammered out a mathematical formalism.  The declining importance of
+thought experiments in later years is mainly a reflection of the
+tremendous success of quantum mechanics and general relativity,
+
+<P>
+But what about when QM and GR meet?
+
+<P>
+Here we need all the help we can get.  For example: does it make any
+sense to do experiments looking for quantum fluctuations in the
+geometry of spacetime, or are they far too puny to detect with present
+technology?  A precise answer would require a full-fledged theory of
+quantum gravity, which we don't have.  But a rough answer is all we
+need!  Here's where thought experiments come in handy.  However, one
+must be careful...  verbal reasoning easily conceals many pitfalls!
+Let me present an argument that puts a lower bound on how accurately
+we can measure distances:
+
+<P>
+1) Y. Jack Ng and H. van Dam, Measuring the foaminess of space-time
+with gravity-wave interferometers, Found. Phys. 30 (2000) 795-805,
+also available as <A HREF = "http://xxx.lanl.gov/abs/gr-qc/9906003">gr-qc/9906003</A>
+
+<P>
+You can decide if it's right or not.   
+
+<P>
+First: how accurate can a clock be?  One limitation is that any clock
+has some position uncertainty.  This translates into time uncertainty
+when we read the clock by having it send photons to us.
+
+<P>
+Let's work this out, ignoring factors of 2 and small stuff like that.
+Suppose our clock has mass m and starts out with a position
+uncertainty equal to D.  Then the uncertainty of our clock's momentum
+is at least &#295;/D, so its velocity is uncertain by at least &#295;/mD.
+After a time T, its position uncertainty will grow to about
+
+<PRE>
+dx &gt; D + &#295; t/mD.  
+</PRE>
+This is minimized when 
+
+<PRE>
+D = (&#295; t/m)<sup>1/2</sup>
+</PRE>
+which gives 
+
+<PRE>
+dx &gt; (&#295; t/m)<sup>1/2</sup>.
+</PRE>
+This position uncertainty translates into an uncertainty of
+
+<PRE>
+dt = dx / c
+</PRE>
+in the time we read off the clock, so we have 
+
+<PRE>
+c dt &gt; (&#295; t/m)<sup>1/2</sup>.
+</PRE>
+Thus, to keep time with an accuracy dt over a span of time
+equal to t, our clock must have mass
+
+<PRE>
+m &gt; &#295; t / c<sup>2</sup> dt<sup>2</sup>.
+</PRE>
+This part of the argument actually goes back to Wigner:
+
+<P>
+2) 
+Eugene P. Wigner, Relativistic invariance and
+quantum phenomena, Rev. Mod. Phys. 29
+(1957), 255-268.
+<P>
+H. Salecker and E. P. Wigner, Quantum limitations of
+the measurement of space-time distances, Phys. Rev. 109,
+(1958), 571-577.  Also available at <A HREF = "http://fangio.magnet.fsu.edu/~vla
+d/pr100/100yrs/html/chap14_toc.htm">http://fangio.magnet.fsu.edu/~vlad/pr100/100
+yrs/html/chap14_toc.htm</A>
+
+<P>
+Next: how accurate can a distance measurement be?  Suppose we measure
+the distance between two clocks by timing how long it takes light to
+go from one to the other (or make a round trip, if you prefer).  If
+our clocks keep time with accuracy dt, the uncertainty in the distance
+measurement is
+
+<PRE>
+dx = c dt
+</PRE>
+Of course, our clocks must keep time this accurately long enough for
+light to get from one to the other, so their masses must satisfy
+
+<PRE>
+m &gt; &#295; t / c<sup>2</sup> dt<sup>2</sup>
+</PRE>
+or
+
+<PRE>
+m &gt; &#295; t / dx<sup>2</sup>.
+</PRE>
+If x is the distance between the clocks, we have
+
+<PRE>
+x = c t 
+</PRE>
+so this gives
+
+<PRE>
+m &gt; &#295; x / c dx<sup>2</sup>.                                   (*)
+</PRE>
+In short, to measure distances accurately this way, our clocks
+must be heavy.
+ 
+<P>
+We've used quantum mechanics.  Now let's put gravity into the picture!
+If our clocks are <em>too</em> heavy they'll collapse into a black hole,
+ruining the experiment.  This puts a limit on our ability to measure
+distances accurately.
+
+<P>
+To get somewhere with this idea, let's assume the distance x is
+basically the size of our whole experimental apparatus.  This must
+exceed the Schwarzschild radius for the mass m, or we'll get a 
+black hole, so we need:
+
+<PRE>
+x &gt; G m / c<sup>2</sup>.
+</PRE>
+Plugging this into the right-hand side of (*), we get 
+
+<PRE>
+m &gt; &#295; G m / c<sup>3</sup> dx<sup>2</sup>
+</PRE>
+or 
+
+<PRE>
+dx &gt; (&#295; G / c<sup>3</sup>)<sup>1/2</sup> = L
+</PRE>
+where L is the Planck length.  So we can't measure distances more
+accurately than the Planck length.
+
+<P>
+Whoops!  The last paragraph here is not the argument due to Ng and van
+Dam!  It's something I came up just now while trying to copy their
+argument.  Their actual argument is different.  They assume the
+uncertainty dx must exceed the Schwarzschild radius of a black hole of
+mass m, so that
+
+<PRE>
+dx &gt; G m / c<sup>2</sup>.
+</PRE>
+If we plug this into (*) and fiddle around, we get
+
+<PRE>
+dx &gt; x<sup>1/3</sup> L<sup>2/3</sup>.
+</PRE>
+This is much more exciting, because it says that the uncertainty due
+to quantum gravity gets bigger when we measure long distances!  
+
+<P>
+Now, the way I've presented Ng and van Dam's argument, the obvious
+weak spot is their assumption that the uncertainty in position
+measurement is greater than the radius of a black hole with mass equal
+to that of the experimental apparatus.  Where does this assumption
+come from?  They get it by saying the clocks &quot;tick&quot; once each time
+light bounces back and forth between them.  If the clocks' accuracy 
+is limited by their tick rate, we have dt = t and thus dx = x, so my
+assumption
+
+<PRE>
+x &gt; G m / c<sup>2</sup>
+</PRE>
+turns into their stronger assumption
+
+<PRE>
+dx &gt; G m / c<sup>2</sup>
+</PRE>
+But to me it seems artificial, even circular, to measure distances
+using clocks that work this way!
+
+<P>
+For further criticism of this argument, see:
+
+<P>
+3) Ronald J. Adler, Ilya M. Nemenman, James M. Overduin, David I. Santiago, 
+On the detectability of quantum spacetime foam with gravitational-wave
+interferometers, Phys. Lett. B477 (2000) 424-428, also available at
+<A HREF = "http://xxx.lanl.gov/abs/gr-qc/9909017">gr-qc/9909017</A>.
+
+<P>
+For their response, see:
+
+<P>
+4) Y. Jack Ng and H. van Dam, On Wigner's clock and the detectability
+of spacetime foam with gravitational-wave interferometers,
+Phys. Lett. B477 (2000) 429-435, also available at <A HREF = "http://xxx.lanl.gov/abs/gr-qc/9911054">gr-qc/9911054</A>.
+
+<P>
+For an argument that claims an even larger value of the position 
+uncertainty, namely 
+
+<P>
+dx &gt; x<sup>1/2</sup> L<sup>1/2</sup>, 
+
+<P>
+see these papers:
+
+<P>
+5) G. Amelino-Camelia, Quantum theory's last challenge, Nature 408
+(2000) 661-664.
+
+<P>
+Testable scenario for relativity with minimum length, available at
+<A HREF = "http://xxx.lanl.gov/abs/hep-th/0012238">hep-th/0012238</A>
+
+<P>
+Let's do a little number-crunching to compare these calculations.  An
+gravitational wave detector like LIGO is basically just a device that
+bounces a laser between mirrors to carefully measure the distance
+between them.  The goal of LIGO is to measure a 4-kilometer distance
+with a precision of 10<sup>-18</sup> meters.  If we believe the fundamental
+uncertainty in distance measurements is about the Planck length, LIGO
+has no chance of bumping into this limit, since the Planck length is
+about 10<sup>-35</sup> meters.  If we believe Ng and van Dam's thought
+experiment, we get an uncertainty of about 10<sup>-22</sup> meters.  If we
+believe Amelino-Camelia's argument, we get a figure of about 10<sup>-16</sup>
+meters... which would be very noticeable at LIGO!
+
+<P>
+Unfortunately, I'm pretty sure the Planck length figure is about
+right.  For another derivation of this figure, see: 
+
+<P>
+6) Ronald J. Adler and David I. Santiago, On gravity and the uncertainty
+principle, Mod. Phys. Lett. A14 (1999) 1371, also available at
+<A HREF = "http://xxx.lanl.gov/abs/gr-qc/9904026">gr-qc/9904026</A>.    
+  
+<P>
+What other ways might we detect quantum gravity effects?  One is to
+look for dispersion of light as it passes through the vacuum.
+Maxwell's equations say that in the vacuum the speed of light is
+independent of its wavelength.  But if spacetime is &quot;grainy&quot; at short
+distance scales, this might not be exactly correct.  If the velocity
+were frequency-dependent, a pulse of radiation would get slightly
+smeared out as it travels along through empty space.
+
+<P>
+There are calculations in both string theory and loop quantum gravity
+which raise this as a possibility: 
+
+<P>
+7) J. Ellis, N.E. Mavromatos and D. V. Nanopoulos,
+Search for quantum gravity, Gen. Rel. Grav. 31 (1999) 1257-1262,
+also available as <A HREF = "http://xxx.lanl.gov/abs/gr-qc/9905048">gr-qc/9905048</A>.
+
+<P>
+8) Jorge Pullin and Rodolfo Gambini, Nonstandard optics from quantum
+spacetime, Phys. Rev. D59 (1999) 124021, also available as <A HREF = "http://xxx.lanl.gov/abs/gr-qc/9809038">gr-qc/9809038</A>. 
+  
+<P>
+These calculations are quite controversial.  For one thing, they
+require a breaking of Lorentz invariance, since there's no way to get
+the speed of light to depend on its wavelength without picking out a
+special rest frame.  This makes some people's hair stand on end.
+
+<P>
+But never mind: suppose we were looking for this effect.  Nobody has
+seen it yet, so it must be tiny if it exists at all.  To detect it
+we'd want our light to travel a long distance... say, 10 billion light
+years.  And we'd like a source that emitted a pulse of light whose
+variation in time we can detect with good resolution... say, less than
+a millisecond.
+
+<P>
+Hmm.  How can we arrange this?  Use &gamma;-ray bursters!  We don't have
+to build them; nature has seen to that, so we can use these rascals to
+put limits on this dispersion effect.  For more details, try:
+
+<P>
+9) J. Ellis, K. Farakos, N.E. Mavromatos, V. Mitsou and D.V. Nanopoulos,
+Astrophysical probes of the constancy of the velocity of light,
+Astrophys. J. 535 (2000) 139-151, also available as <A HREF = "http://xxx.lanl.gov/abs/astro-ph/9907340">astro-ph/9907340</A>.  
+
+<P>
+So far, nobody has seen quantum gravity effects this way.
+
+<P>
+Okay... let me wrap things up with a word about Martin Bojowald's work
+on quantum cosmology.  I listed his papers in &quot;<A HREF = "week165.html">week165</A>&quot;, but didn't
+get around to discussing them.  
+
+<P>
+From an outsider's viewpoint, the exciting thing about this work is
+that it uses loop quantum gravity to study what happened before the
+big bang.  And the answer is simple: there was a big crunch!  In other
+words, Bojowald can extrapolate the quantum version of the big bang
+cosmology back before t = 0, without encountering any singularity, 
+and he gets a collapsing universe which shrinks down to zero volume at 
+t = 0 before re-expanding in a big bang.
+
+<P>
+From an insider's perspective, the exciting thing is that he's using
+loop quantum gravity to study dynamics.  Since loop quantum gravity is
+background-free, there's no Hamiltonian, just a Hamiltonian
+constraint.  This means that any study of dynamics must confront the
+thorny &quot;problem of time&quot;: how to do physics without a god-given
+external clock that's outside the system you're studying.  And this
+problem makes it hard to tell which formula for the Hamiltonian
+constraint is &quot;right&quot;.  Thiemann came up with a candidate for the
+Hamiltonian constraint back in 1996 (see &quot;<A HREF = "week85.html">week85</A>&quot;), and the field has
+struggled ever since to make up it's collective mind about this formula,
+without much success so far.
+
+<P>
+Bojowald's progress comes from looking at &quot;minisuperspace models&quot;,
+where we assume the universe is highly symmetrical - as people often
+do in cosmology.  This allows him to tackle the problem of time by
+treating the volume of the universe as a notion of time.  It's like
+having one aspect of the system you're studying be the clock that you
+use to see how other things change.  This idea per se is not new;
+what's new is carrying it out in the framework of loop quantum
+gravity.  In loop quantum gravity volume is discrete... so Bojowald's
+&quot;clock&quot; ticks in discrete steps.  By adapting Thiemann's formula for
+the Hamiltonian constaint to this highly symmetrical context, he can
+write it as an evolution equation saying how other observables change
+as a function of the volume of the universe.  Since volume is
+discrete, this equation is a difference equation rather than a
+differential equation.
+
+<P>
+He can solve this equation on the computer... and he finds that even
+when the universe is very small, on the order of the Planck length, it
+closely mimics the classically expected behavior.  However, there is
+no singularity at t = 0, or more precisely, at zero volume.
+
+<P>
+Here's where things get technical, in a way that tickles me pink, but
+may bore you to tears:
+
+<P>
+A funny feature of the volume operator in loop quantum gravity is that
+it's expressed in terms of the square root of the absolute value of a
+certain quantity.  We can think of this quantity as a sort of &quot;volume
+squared&quot; operator, but with both positive and negative eigenvalues.
+This always used to puzzle me, and I've put a lot of thought into this
+issue.  Renate Loll has also written a paper about it.  I'm delighted
+to find that in Bojowald's setup, it becomes a real <em>virtue</em> of loop
+quantum gravity, since it allows us to extrapolate our quantum
+cosmology to negative times - or more precisely, negative &quot;volume
+squared&quot;!
+
+<P>
+How can you visualize this?  Crudely speaking, negative-volume-squared
+states of the universe can be thought of as &quot;inside-out versions&quot; of
+positive-volume-squared ones.  So the way I visualize Bojowald's
+result is like this: the universe shrinks to nothing as you rewind
+history back to the big bang, and then expands again &quot;inside out&quot; as
+you go to negative times.
+
+<P>
+Anyway, regardless of how we visualize it, loop quantum gravity
+is now at the stage of making dynamical predictions about serious
+physics questions.  Ashtekar and Bojowald are now working to determine
+what happens at the singularity of a black hole... so stay tuned!
+
+<P>
+
+
+<p> <hr>
+<em>
+Now the thing about time is that time isn't really real.<br>
+It's just your point of view, how does it feel for you?<br>
+Einstein said he could never understand it all.</em> - James Taylor
+
+
+<p> 
+<HR><P>
+<!-- BEGIN FOOTER -->
+&#169; 2001  John Baez<br>
+baez@math.removethis.ucr.andthis.edu <br>
+<P>
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week166.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week168.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE><!-- END FOOTER -->

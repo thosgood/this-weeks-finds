@@ -1,0 +1,851 @@
+<TITLE> week298 </TITLE>
+
+<!-- BEGIN HEADER -->
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week297.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week299.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE>
+<H4> May 14, 2010 </H4>
+<H2> This Week's Finds in Mathematical Physics (Week 298) </H2>
+<H4> John Baez </H4>
+<!-- END HEADER -->
+
+
+<P>
+Next week I'm going to New York to talk about the stuff I've been
+explaining here lately: electrical circuits and category theory. 
+Then - volcanos permitting - I'll fly to Oxford to attend a course
+on quantum computation:
+
+<P>
+1) Foundational Structures in Quantum Computation and Information,
+May 24-28, 2010, Oxford University, organized by Bob Coecke and 
+Ross Duncan, 
+<a href = "http://web.comlab.ox.ac.uk/people/Bob.Coecke/QICS_School.html">http://web.comlab.ox.ac.uk/people/Bob.Coecke/QICS_School.html</a>
+
+<P>
+I look forward to lots of interesting conversations.  A bunch of my
+math pals will be attending - folks like Bruce Bartlett, Eugenia
+Cheng, Simon Willerton, Jamie Vicary and maybe even my former student
+Alissa Crans, who lives here in California, but may swing by.  I'll
+talk to Thomas Fischbacher about environmental sustainability and
+computational field theory, and Dan Ghica about hardware description
+languages.  I also plan to meet Tim Palmer, a physicist at Oxford who
+works on climate and weather prediction, and one of the people I've
+been interviewing for the new This Week's Finds.  I'm quite excited
+about that.
+
+<P>
+(My plan, you see, is to interview people who are applying math and
+physics to serious practical problems, from global warming and other
+environmental problems to biotechnology, nanotechnology, artificial
+intelligence and other potentially revolutionary technologies.)
+
+<P>
+The weekend after the course, there will be a workshop:  
+
+<P>
+2) Quantum Physics and Logic, May 29-30, 2010, Oxford University,
+organized Bob Coecke, Prakash Panangaden, and Peter Selinger, <a href
+=
+"http://web.comlab.ox.ac.uk/people/Bob.Coecke/QPL_10.html">http://web.comlab.ox.ac.uk/people/Bob.Coecke/QPL_10.html</a>
+
+<P>
+Peter Selinger is the guy who got me interested in categories where
+the morphisms are electrical circuits!  I'll be giving a talk in this
+workshop - you can see the slides here:
+
+<P>
+3) John Baez, Duality in logic and physics, <a href = 
+"http://math.ucr.edu/home/baez/dual/">http://math.ucr.edu/home/baez/dual/</a>
+
+<P>
+Alas, I've been so busy getting ready for my talks that I don't feel 
+like writing about electrical circuits today.  I was going to, but I 
+need a change of pace.  So let me say a bit about octonions, higher 
+gauge theory, string theory and hyperdeterminants.
+
+<P>
+Integers are very special real numbers.  But there are also
+&quot;integers&quot; for the complex numbers, the quaternions and
+octonions.  The most famous are the &quot;Gaussian integers&quot;,
+which are complex numbers like
+
+<P>
+a + bi 
+
+<P>
+where a and b are integers.  They form a square lattice like this:
+
+<P>
+<div align = "center">
+<img src = "http://math.ucr.edu/home/baez/octonions/conway_smith/gaussian.gif">
+</div>
+         
+<P>
+The second most famous are the &quot;Eisenstein integers&quot;, which
+form a hexagonal lattice like this:
+
+<P>
+<div align = "center">
+<img src = "http://math.ucr.edu/home/baez/octonions/conway_smith/eisenstein.gif">
+</div>
+
+<P>
+I explained how these lattices are important in string theory back in
+&quot;<a href = "week124.html">week124</A>&quot; - &quot;<a href =
+"week126.html">week126</A>&quot;.
+
+<P>
+People have also thought about various kinds of far less well-known
+are various kinds of quaternionic and octonionic &quot;integers&quot;.
+To learn about these, there's no better place than the magnificent
+book by Conway and Smith:
+
+<P>
+4) John H. Conway and Derek A. Smith, On Quaternions and Octonions: 
+Their Geometry, Arithmetic, and Symmetry, A. K. Peters, Ltd., Natick, 
+Massachusetts, 2003. 
+
+<P>
+For a little taste, try my summary in &quot;<a href =
+"week194.html">week194</A>&quot;, and my review here:
+
+<P>
+5) John Baez, review of On Quaternions and Octonions, Bull. Amer. 
+Math. Soc. 42 (2005), 229-243.  Also available at 
+<a href = "http://www.ams.org/journals/bull/2005-42-02/S0273-0979-05-01043-8/">http://www.ams.org/journals/bull/2005-42-02/S0273-0979-05-01043-8/</a>
+and as a webpage at <a href = "http://math.ucr.edu/home/baez/octonions/conway_smith/">http://math.ucr.edu/home/baez/octonions/conway_smith/</a>
+
+<P>
+You'll meet the Lipschitz integers and Hurwitz integers sitting inside
+the quaternions - and the Lipschitzian, Hurwitzian and Gravesian
+integers sitting inside the octonions.  I suspect all these charming
+names are due to Conway, who has a real gift for terminology.  But
+best of all are the Cayley integers, which form a famous 8-dimensional
+lattice: the E<sub>8</sub> lattice!  This gives the densest lattice
+packing of spheres in 8 dimensions: each sphere touches 240 others.
+
+<P>
+But you've heard me rhapsodizing about E<sub>8</sub> for years.
+What's new this week?  Well, recently I was perusing a draft of a
+paper on various kinds of quaternionic and octonionic integers, which
+was kindly sent to me by Norman Johnson.  I'm afraid that paper is
+still top secret, but an interesting issue came up.
+
+<P>
+People know all the finite subgroups of the unit quaternions,
+otherwise known as SU(2), the double cover of the 3d rotation group.
+The most famous of these are:
+
+<P>
+<ul>
+<li>
+   the 24-element <a href = "http://en.wikipedia.org/wiki/Binary_tetrahedral_group">binary tetrahedral group</a>
+</li>
+<p>
+<li>
+   the 48-element <a href = "http://en.wikipedia.org/wiki/Binary_octahedral_group">binary octahedral group</a>
+</li>
+<p>
+<li>
+   the 120-element <a href = "http://en.wikipedia.org/wiki/Binary_icosahedral_group">binary icosahedral group</a>
+</li>
+</ul>
+
+<P>
+These are the double covers of the rotational symmetry groups of the
+Platonic solids.  Since beautiful structures like this have a way of
+connecting diverse subjects, you shouldn't be surprised that these
+groups show up all over in math, from the McKay correspondence and
+Klein's work on the quintic equation (see &quot;<a href =
+"week65.html">week65</A>&quot; and &quot;<a href =
+"week230.html">week230</A>&quot;) to the theory of modular forms (see
+&quot;<a href = "week197.html">week197</A>&quot;).  I've talked about
+the binary icosahedral group many times before: it's also called
+the <a href = "http://en.wikipedia.org/wiki/120-cell">120-cell</a>, 
+and projected down to 3 dimensions it looks like this:
+
+<p>
+<div align = "center">
+<img width = "400" src = "120-cell.png"> 
+</div>
+<p>
+
+But the best place
+to learn the classification of finite subgroups of the unit quaternions
+is the book by Conway and Smith.
+
+<P>
+For some idiotic reason I'd never pondered the analogous question for
+the octonions until Norman Johnson brought it up!  The unit octonions
+form a 7-dimensional sphere.  They don't form a group, since
+multiplication of octonions isn't associative.  But they form a
+&quot;loop&quot;, which is just like a group but with the associative
+law dropped.  Since they're a smooth manifold, and the group
+operations are smooth, they form a &quot;Lie loop&quot;.
+
+<P>
+In fact the only spheres that are Lie groups are:
+
+<P>
+<ul>
+<li>
+   the unit real numbers: the 0-sphere, also called Z/2 or O(1)
+</li>
+<p>
+<li>
+   the unit complex numbers: the 1-sphere, also called SO(2) or U(1)
+</li>
+<p>
+<li>
+   the unit quaternions: the 3-sphere, also called SU(2) or Sp(1)
+</li>
+</ul>
+
+<P>
+And the only other sphere that's a &quot;Lie loop&quot; is the unit
+octonions!  So we can - and should! - ask: what are the finite
+subloops of the unit octonions?
+
+<P>
+Michael Kinyon, an expert on loops, quickly provided two references
+that settle the question:
+
+<P>
+6) R. T. Curtis, Construction of a family of Moufang loops,
+Math. Proc. Cambridge Philos. Soc. 142 (2007), 233-237.
+
+<P>
+7) P. Boddington and D. Rumynin, On Curtis' theorem about finite 
+octonionic loops, Proc. Amer. Math. Soc. 135 (2007), 1651-1657.
+Available at 
+<a href = "http://www.ams.org/journals/proc/2007-135-06/S0002-9939-07-08707-2/">http://www.ams.org/journals/proc/2007-135-06/S0002-9939-07-08707-2/</a>
+
+<P>
+There are no huge surprises here.  The most exciting finite subloop
+has 240 elements: it consists of the Cayley integers of length 1,
+otherwise known as the root vectors of E<sub>8</sub>.  You've probably
+seen this thing:
+
+<P>
+<div align = "center">
+<img src = "e8_stembridge.jpg">
+</div>
+
+<P>
+The rest of the
+finite subloops are either finite subgroups of the unit quaternions or
+&quot;doubles&quot; of these.  No exotic beasts I hadn't dreamt of.
+But it's very nice to know the full story!
+
+<P>
+I also have some other news on the octonionic front.  John Huerta and
+I wrote a second paper on division algebras and supersymmetry, where
+we explain how to construct the &quot;Lie n-superalgebras&quot; that
+govern classical superstring and super-2-brane theories:
+
+<P>
+8) John Baez and John Huerta, Supersymmetry and division algebras II,
+available as <a href = "http://arxiv.org/abs/1003.3436">arXiv:1003.3436</a>.
+
+<P>
+As you may know, Lie groups and their Lie algebras are incredibly
+important in gauge theory, which describe how particles
+change when you move them around.  Lately people have been developing
+&quot;higher gauge theory&quot;, which does the same job for strings
+and higher-dimensional membranes.  For strings we need Lie 2-groups
+and their Lie 2-algebras.  Lie 2-groups are like Lie groups except
+that they're <i>categories</i> instead of sets... and similarly for Lie
+2-algebras.  Go up one more dimension and you need math based on
+<i>2-categories</i>.  So, for 2-branes, which look like soap bubbles
+instead of loops of string, you need Lie 3-groups and their Lie
+3-algebras.  Etcetera.
+
+<P>
+So, the race is on to construct, classify and understand Lie n-groups
+and Lie n-algebras - and redo all of geometry to take advantage of 
+these higher structures!  For an easy introduction, try:
+
+<P>
+9) John Baez and John Huerta, An invitation to higher gauge theory,
+available as <a href = "http://arxiv.org/abs/1003.4485">arXiv:1003.4485</a>.
+
+<P>
+But for supersymmetric theories, geometry based on manifolds isn't
+enough: we need supermanifolds.  The world is made of bosons and
+fermions, and supersymmetry is an attempt to unite them.  So, a
+supermanifold has ordinary &quot;even&quot; or &quot;bosonic&quot;
+coordinate functions that commute with each other, but also
+&quot;odd&quot; or &quot;fermionic&quot; coordinate functions that
+anticommute.  For the last few decades people have been redoing
+geometry using supermanifolds.  As part of this, they've done a lot of
+work to construct, classify and understand Lie supergroups and their
+Lie superalgebras.
+
+<P>
+Superstring theory combines supersymmetry and higher-dimensional 
+membranes in a beautiful way.  It's never made any predictions about 
+the real world, and it may never succeed in doing that.  But it's been 
+a real boon for mathematicians.  And here's another example: we can 
+now enjoy ourselves developing a theory of Lie n-supergroups and their 
+Lie n-superalgebras! 
+
+<P>
+I might feel guilty indulging in such decadent pleasures, were it not
+that I plan to start work on more practical projects.
+But having spent years thinking about division algebras and higher
+gauge theory, it was irresistible to combine them - especially since
+my student John Huerta has a knack for this stuff.
+
+<P>
+And here's what we discovered: 
+
+<P>
+<UL>
+<LI>
+  The real numbers give rise to a Lie 2-superalgebra which describes
+  the symmetries of classical superstrings in 3d spacetime.
+</LI>
+<P>
+<LI>
+  The complex numbers give rise to a Lie 2-superalgebra which describes
+  the symmetries of classical superstrings in 4d spacetime.
+</LI>
+<P>
+<LI>
+  The quaternions give rise to a Lie 2-superalgebra which describes
+  the symmetries of classical superstrings in 6d spacetime.
+</LI>
+<P>
+<LI>
+  The octonions give rise to a Lie 2-superalgebra which describes
+  the symmetries of classical superstrings in 10d spacetime.
+</LI>
+</UL>
+
+<P>
+3, 4, 6 and 10 - these are two more than the dimensions of the real
+numbers, complex numbers, quaternions and octonions.  I've discussed
+this pattern many times here.  But then we discovered something else:
+
+<P>
+<UL>
+<LI>
+  The real numbers give rise to a Lie 3-superalgebra which describes
+  the symmetries of classical super-2-branes in 4d spacetime.
+</LI>
+<P>
+<LI>
+  The complex numbers give rise to a Lie 3-superalgebra which describes
+  the symmetries of classical super-2-branes in 5d spacetime.
+</LI>
+<P>
+<LI>
+  The quaternions give rise to a Lie 3-superalgebra which describes
+  the symmetries of classical super-2-branes in 7d spacetime.
+</LI>
+<P>
+<LI>
+  The octonions give rise to a Lie 3-superalgebra which describes
+  the symmetries of classical super-2-branes in 11d spacetime.
+</LI>
+</UL>
+
+<P>
+4, 5, 7 and 11 - these are <i>three</i> more than the dimensions of
+the real numbers, complex numbers, quaternions and octonions!  And the
+11d case is related to &quot;M-theory&quot; - that mysterious dream
+you've probably heard people muttering about.
+
+<P>
+You might ask if the pattern keeps going on, like this:
+
+<P>
+<UL>
+<LI>
+  Do the real numbers give rise to a Lie 4-superalgebra which describes
+  the symmetries of classical super-3-branes in 5d spacetime?
+</LI>
+<P>
+<LI>
+  Do the complex numbers give rise to a Lie 4-superalgebra which
+  describes the symmetries of classical super-3-branes in 6d
+  spacetime?  
+</LI>
+<P>
+<LI>
+  Do the quaternions give rise to a Lie 4-superalgebra which describes
+  the symmetries of classical super-3-branes in 8d spacetime?
+</LI>
+<P>
+<LI>
+  Do the octonions give rise to a Lie 4-superalgebra which describes
+  the symmetries of classical super-3-branes in 12d spacetime?
+</LI>
+</UL>
+
+<P>
+But some calculations by Tevian Dray and John Huerta, together with a
+lot of physics lore, suggest that the pattern does <i>not</i> keep
+going on - at least not for the most exciting case, the octonionic
+case.  You can see what I mean by looking at the &quot;brane
+scan&quot; in this classic paper by Duff:
+
+<P>
+10) Michael J. Duff, Supermembranes: the first fifteen weeks,
+Classical and Quantum Gravity 5 (1988), 189-205.  Also available at
+<a href = "http://ccdb4fs.kek.jp/cgi-bin/img_index?8708425">http://ccdb4fs.kek.jp/cgi-bin/img_index?8708425</a>
+
+<P>
+<div align = "center">
+<img src = "branescan.gif">
+</div>
+
+<P>
+The story seems to fizzle out after 11 dimensions.  And that's part of
+what intrigues me about division algebras and related exceptional
+structures in math: the funny fragmentary patterns that don't go on
+forever.
+
+<P>
+Recently Peter Woit criticized Duff for some remarks in this article:
+
+<P>
+11) Michael Duff, Black holes and qubits, CERN Courier May 5, 2010.  
+Available at <a href = "http://cerncourier.com/cws/article/cern/42328">http://cerncourier.com/cws/article/cern/42328</a>
+
+<P>
+12) Peter Woit, Applying string theory to quantum information theory,
+<a href = "http://www.math.columbia.edu/~woit/wordpress/?p=2952">http://www.math.columbia.edu/~woit/wordpress/?p=2925</a>
+
+<P>
+Duff's article describes how he noticed some of the same math showing
+up in superstring calculations of black hole entropy and patterns of
+quantum entanglement between qubits.  This leads into some nice math
+involving octonions and related exceptional structures like the Fano
+plane and Cayley's &quot;hyperdeterminants&quot;.
+
+<P>
+Unfortunately, Duff gets a bit carried away.  For example, he says that
+string theory &quot;predicts&quot; the various ways that three qubits
+can be entangled.  Someone who didn't know physics might jump to the
+conclusion that this is a prediction whose confirmation lends credence
+to string theory as a description of the fundamental constituents of
+nature.  It's not!
+
+<P>
+I also doubt that &quot;superquantum computing&quot; is likely to be
+practical...  though I've read interesting things about supersymmetry
+in graphene, so I could wind up eating my words.
+
+<P>
+On the other hand, the math is fascinating.  For details, try these
+papers:
+
+<P>
+13) Akimasa Miyake and Miki Wadati, Multipartite entanglement and
+hyperdeterminants, Quant. Info. Comp. 2 (2002), 540-555.  Also
+available as <a href =
+"http://arxiv.org/abs/quant-ph/0212146">arXiv:quant-ph/0212146</A>.
+
+<P>
+14) Michael J. Duff and S. Ferrara, E<sub>7</sub> and the tripartite 
+entanglement of seven qubits, Phys. Rev. D 76 025018 (2007).  
+Also available as <a href =
+"http://arxiv.org/abs/quant-ph/0609227">arXiv:quant-ph/0609227</A>.
+
+<P>
+15) Michael J. Duff and S. Ferrara, E<sub>6</sub> and the bipartite entanglement 
+of qutrits, Phys. Rev. D 76 124023 (2007).  Also available as 
+<a href = "http://arxiv.org/abs/0704.0507">arXiv:0704.0507</a>.
+
+<P>
+or this very nice recent one:
+
+<P>
+16) Bianca L. Cerchiai and Bert van Geemen, From qubits to
+E<sub>7</sub>, available as <a href =
+"http://arxiv.org/abs/1003.4255">arXiv:1003.4255</a>.
+
+<P>
+Since I've spent a lot of time talking about the Fano plane, the
+octonions, and exceptional groups like E<sub>6</sub>, E<sub>7</sub>
+and E<sub>8</sub>, let me say just a word or two about
+hyperdeterminants.
+
+<P>
+In the 1840's, after his work on determinants, Arthur Cayley invented
+a theory of &quot;hyperdeterminants&quot; for 2 &times; 2 &times; 2
+arrays of numbers.  They're a bit like determinants of 2 &times; 2
+matrices, but more complicated.  They lay dormant for about a century,
+but were recently revived by three bigshots: Gel'fand, Kapranov and
+Zelevinsky.  I never understood them, but when Woit called them
+&quot;extraordinarily obscure&quot;, it was like waving a red flag in
+front of a bull.  I charged forward... and now I sort of understand
+them, at least a little.
+
+<P>
+Suppose we have a 2 &times; 2 matrix of complex numbers.  We can think
+of this as an element of the Hilbert space
+
+<P>
+C<sup>2</sup> &otimes; C<sup>2</sup>
+
+<P>
+so we get a linear functional
+
+<P>
+C<sup>2</sup> &otimes; C<sup>2</sup> &rarr; C
+
+<P>
+sending any vector to its inner product with this element.  We can 
+then regard this linear functional as a function
+
+<P>
+f: C<sup>2</sup> &times; C<sup>2</sup> &rarr; C 
+
+<P>
+that's linear in each argument.  Is there a nonzero 
+point in C<sup>2</sup> &times; C<sup>2</sup> 
+where the gradient of f vanishes?  The answer is yes if and only if 
+the determinant of our 2 &times; 2 matrix is zero!  
+
+<P>
+Next, suppose we have a 2 &times; 2 &times; 2 array of complex numbers.  
+We can think of this as an element of the Hilbert space
+
+<P>
+C<sup>2</sup> &otimes; C<sup>2</sup> &otimes; C<sup>2</sup>
+
+<P>
+so we get a linear functional
+
+<P>
+C<sup>2</sup> &otimes; C<sup>2</sup> &otimes; C<sup>2</sup> &rarr; C
+
+<P>
+sending any vector to its inner product with this element.  We can 
+then regard this linear functional as a function
+
+<P>
+f: C<sup>2</sup> &times; C<sup>2</sup> &times; C<sup>2</sup> &rarr; C 
+
+<P>
+that's linear in each argument.  Is there a nonzero point in
+C<sup>2</sup> &times; C<sup>2</sup> &times; C<sup>2</sup> where the
+gradient of f vanishes?  The answer is yes if and only if the
+hyperdeterminant of our 2 &times; 2 &times; 2 array is zero!
+
+<P>
+Here's another way to think about it.  Suppose you have a quantum 
+system made of 3 subsystems, each described by a 2d Hilbert space.  
+The Hilbert space of the whole system is thus
+
+<P>
+C<sup>2</sup> &otimes; C<sup>2</sup> &otimes; C<sup>2</sup>
+
+<P>
+The hyperdeterminant is a function on this space that can be thought
+of as measuring how correlated - or to use a bit of jargon,
+&quot;entangled&quot; - the 3 subsystems are.  In particular, if we
+look at unit vectors modulo phase, we get the projective space
+CP<sup>7</sup>.  The group
+
+<P>
+GL(2,C) &times; GL(2,C) &times; GL(2,C)
+
+<P>
+acts on this.  There's an open dense orbit, coming from the vectors 
+whose hyperdeterminant is nonzero.  These states are quite entangled,
+as you'd expect: entanglement is not an exceptional situation, it's 
+generic.   And then there are various smaller orbits, going down to 
+the 1-point orbit coming from vectors like
+
+<P>
+u &otimes; v &otimes; w
+
+<P>
+These describe states with no entanglement at all!
+
+<P>
+We can make what I'm saying a bit more precise at the expense of 
+a little more math.  The polynomial functions on 
+C<sup>2</sup> &otimes; C<sup>2</sup> &otimes; C<sup>2</sup> that are
+invariant under the action of SL(2,C) &times; SL(2,C) &times; SL(2,C)
+form an algebra, 
+and this algebra is generated by the hyperdeterminant, which is a
+homogeneous cubic polynomial.  (Why did I switch from GL(2,C) to SL(2,C)?
+Because the hyperdeterminant is not invariant
+under the bigger group GL(2,C) &times; GL(2,C) &times; GL(2,C). 
+However, it comes close: it gets multiplied by a scalar in a simple way.)
+
+<p>
+If we try to generalize this idea
+to tensor products of more spaces, like
+C<sup>2</sup> &otimes; C<sup>2</sup> &otimes; C<sup>2</sup> &otimes; 
+C<sup>2</sup> we typically get an algebra that's not generated by a 
+single polynomial. The same happens if we jack up the dimension,
+for example replacing C<sup>2</sup> by C<sup>9</sup>.  So, the situations
+where a single polynomial does the job are special.
+
+<p>
+As an extra lure, let me add that you can write the Lagrangian for a
+string in (2+2)-dimensional spacetime using 2 &times; 2 &times; 2
+hyperdeterminants!  The formula is very pretty and simple:
+
+<P>
+17) Michael J. Duff, Hidden symmetries of the Nambu-Goto action, Phys. 
+Lett. B641 (2006), 335-337.  Also available as 
+<a href = "http://arXiv.org/abs/arXiv:hep-th/0602160">arXiv:hep-th/0602160</A>.
+
+<P>
+This being the 21st century, there is even a blog on hyperdeterminants:
+
+<P>
+18) Hyperdeterminacy, 
+<a href = "http://hyperdeterminant.wordpress.com/2008/09/25/hello-world/">http://hyperdeterminant.wordpress.com/2008/09/25/hello-world/</a>
+
+<P>
+The author begins with some introductory posts which are definitely
+worth reading, so I've linked to the first of those.  He expresses
+the worry that &quot;this may be turn out to be one of the least read
+blogs in the blogosphere&quot;.  Go visit, leave a comment, and prove
+him wrong!
+
+<P>
+<HR>
+<P>
+<b>Addenda:</b> On August 8th 2010, I received the following mail from
+Péter Lévay, who has allowed me to quote it here:
+
+<blockquote>
+   Dear John,
+
+<P>
+
+   I used to read your fascinating blog.  Recently I have come across 
+   your "week298" post (14 May) concerning hyperdeterminants and 
+   reflections on a paper by Duff which appeared in CERN Courier on 
+   the black hole qubit correspondence.
+
+<P>
+   Since I know that you are really fascinated by octonions, 
+   Freudenthal systems, etc., with this mail I intend to draw your 
+   attention to papers of mine connected to the stuff of your 
+   "week298" post.  Moreover, I would also like to add some further 
+   hints (which Duff does not mention) why this analogy is worth 
+   working out further.
+
+<P>
+   Originally I used to work on the field of quantum entanglement, and 
+   group theoretical and geometrical methods in quantum physics.  My 
+   paper: 
+
+<P>
+   19) Péter Lévay, The twistor geometry of three-qubit entanglement,
+   available as <a href = "http://arxiv.org/abs/quant-ph/0403060">arXiv:quant-ph/0403060</a>.
+
+<P>
+   on the "Cayley" hyperdeterminant, twistors and three qubit 
+   entanglement was the one that motivated originally Duff's work 
+   (as he mentions in the CERN Courier).  Later I have written 
+   another paper on the four qubit case (hyperdeterminant):
+
+<P>
+   20) Péter Lévay, On the geometry of four qubit invariants,
+   available as <a href = "http://arxiv.org/abs/quant-ph/0605151">arXiv:quant-ph/0605151</a>.
+
+<P>
+   After Duff's and Kallosh and Linde's paper I have shown that the 
+   black hole qubit analogy also works for issues concerning DYNAMICS.
+   I have shown that the attractor mechanism (a process used for moduli 
+   stabilization on the BH horizon) can be rephrased in this picture 
+   as a distillation procedure of GHZ-like states:
+
+<P>
+   21) Péter Lévay, Stringy black holes and the geometry of 
+   entanglement, available as  <a href = "http://arxiv.org/abs/hep-th/0603136">arXiv:hep-th/0603136</a>.
+
+<P>
+   Péter Lévay, A three-qubit interpretation of BPS and non-BPS 
+   STU black holes, available as <a href = "http://arxiv.org/abs/0708.2799">arXiv:0708.2799</a>.
+
+<P>
+   Péter Lévay and Szilárd Szalay, The attractor mechanism as a 
+   distillation procedure, available as  <a href = "http://arxiv.org/abs/1004.2346">arXiv:1004.2346</a>.
+
+<P>
+   The physical nature of these moduli, charge and warp factor 
+   dependent "states" (or whether is it legitimate to call them 
+   states at all) is, however, still unclear.
+
+<P>
+   Independently of Duff and Ferrara during the summer of 2006 I worked 
+   out the E7 tripartite entanglement of seven qubits picture.  My 
+   paper came out later because I have bogged down on some maths 
+   details (I also wanted to see the E7 generators in the 56 dim rep. 
+   acting as qubit gates - without success!)  However, the idea that 
+   this curious type of entanglement is related to the structure of 
+   the Fano plane appears first in this paper:
+
+<P>
+   22) Péter Lévay, Strings, black holes, the tripartite entanglement 
+   of seven qubits and the Fano plane, available as 
+    <a href = "http://arxiv.org/abs/hep-th/0610314">arXiv:hep-th/0610314</a>.
+
+<P>
+   Here I made the conjecture that Freudenthal systems and issues 
+   concerning the magic square could be relevant to further 
+   developments of the black hole qubit analogy, initiating the nice 
+   study of Duff <i>et al</i>, culminating in their valuable Phys. Reports 
+   paper.
+
+<P>
+   In the meanwhile with my student we have shown that Freudenthal 
+   systems are capable of giving hints for solving the classification 
+   problem of entanglement classes for systems consisting of special 
+   types of indistinguishable constituents (fermions and bosons).  The 
+   black hole entropy formulas of string theory and supergravity also 
+   gave suggestions how to define sensible (tripartite) entanglement 
+   measures for these systems:
+
+<P>
+   23) Péter Lévay and Péter Vrana, Three fermions with six single 
+   particle states can be entangled in two inequivalent ways, 
+   available as  <a href = "http://arxiv.org/abs/0806.4076">arXiv:0806.4076</a>.
+
+<P>
+   Péter Lévay and Péter Vrana, Special entangled quantum systems 
+   and the Freudenthal construction, available as  <a href = "http://arxiv.org/abs/0902.2269">arXiv:0902.2269</a>.
+
+<P>
+   Apart from these studies after realizing the relevance of finite 
+   geometric ideas with a Slovak co-worker Metod Saniga we have shown 
+   that the structure of the E6 and E7 invariants giving rise to black 
+   hole entropy formulas are related to generalizations of Mermin 
+   Square like configurations, and generalized polygons.  Our studies 
+   motivated partly the nice paper of van Geemen and B. L Cerchiai you 
+   mention in your post ("From qubits to E7").  Since the finite 
+   geometric structures relevant to the black hole qubit 
+   correspondence turned out to be just geometric hyperplanes of 
+   incidence geometries for n-qubit systems, we conducted a 
+   mathematical study on the structure of such hyperplanes giving rise 
+   to another incidence geometry: the Veldkamp space.  The nice maths 
+   results can be found in:
+
+<P>
+   24) Péter Vrana and Péter Lévay, The Veldkamp space of multiple 
+   qubits, available as  <a href = "http://arxiv.org/abs/0906.3655"> arXiv:0906.3655</a>.
+
+<P>
+   Such notions as symplectic structure, quadratic forms, 
+   transvections, and the group Sp(2n,2) connected to n-qubit 
+   systems and black holes appear here.  The language of this paper 
+   is similar to the van Geemen paper.
+
+<P>
+   Recently I have shown that certain solutions of the STU model 
+   living in 4D and coming from one sector of the E7(7) invariant 
+   N=8 SUGRA Duff mentions in his paper in connection to three qubits, 
+   is really a model living in 3D coming from a coset of E8(8)
+   related to FOUR QUBITS.  In this paper I have given hints that the 
+   classification problem for four qubits can be translated to the 
+   classification problem of black hole solutions (BPS and non BPS, 
+   extremal and even possibly non extremal).
+
+<P>
+   25) Péter Lévay, STU black holes as four qubit systems, available 
+   as  <a href = "http://arxiv.org/abs/1004.3639">arXiv:1004.3639</a>.
+
+<P>
+   (The idea that four qubit systems show up in STU truncations 
+   first appeared in my Fano-E7 paper.  This is 
+   related to the structure of a coset of SO(4,4), with triality 
+   making its debut via permutation of the qubits.)
+
+<P>
+   Based on the results of this paper the  challenge  to relate 
+   the BH classification problem based on four qubit systems by 
+   fitting together the existing results in the literature was 
+   recently taken up by Duff <i>et al</i>.
+
+<P>
+   I hope that these results add some useful hints to update the 
+   picture on the black hole qubit correspondence.
+
+<P>
+   I think that the main virtue of this field is that fascinating 
+   maths (like octonions, Freudenthal systems, finite geometries 
+   etc.) will finally makes its debut to understanding quantum 
+   entanglement better.  On the string theory side such studies 
+   might initiate some new way of looking at existing results in 
+   the field of stringy black hole solutions.
+
+<P>
+   Of course finding the underlying physics (if any) is still out 
+   there!
+
+<P>
+   With best regards,
+
+<P>
+   Peter Levay<br/>
+   Department of Theoretical Physics<br/>
+   Institute of Physics<br/>
+   Budapest University of Technology<br/>
+   HUNGARY
+</blockquote>
+
+For more discussion, visit the <a href = "http://golem.ph.utexas.edu/category/2010/05/this_weeks_finds_in_mathematic_59.html"><i>n</i>-Category Caf&eacute;</a>.
+
+
+<P>
+<HR>
+<P>
+
+<em>Quaternions appear to exude an air of nineteenth century decay, as
+a rather unsuccessful species in the struggle-for-life of mathematical
+ideas.  Mathematicians, admittedly, still keep a warm place in their
+hearts for the remarkable algebraic properties of quaternions but,
+alas, such enthusiasm means little to the harder-headed physical
+scientist.</em> - Simon L. Altmann
+
+<p>
+<HR><P>
+<!-- BEGIN FOOTER -->
+&#169; 2010  John Baez<br>
+baez@math.removethis.ucr.andthis.edu <br>
+<P>
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week297.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week299.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE><!-- END FOOTER -->

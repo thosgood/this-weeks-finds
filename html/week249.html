@@ -1,0 +1,608 @@
+<TITLE> week249 </TITLE>
+
+<!-- BEGIN HEADER -->
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week248.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week250.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE>
+<H4> April 8, 2007 </H4>
+<H2> This Week's Finds in Mathematical Physics (Week 249) </H2>
+<H4> John Baez </H4>
+<!-- END HEADER -->
+
+<P>
+As you may recall, I'm telling a long story about symmetry, geometry, 
+and algebra.  Some of this tale is new work done by James Dolan, Todd 
+Trimble and myself.  But a lot of it is old work by famous people which
+deserves a modern explanation. 
+
+<P>
+A great example is Felix Klein's &quot;Erlangen program&quot; - a plan for
+reducing many sorts of geometry to group theory.  Many people tip
+their hat to the Erlanger program, but few seem to deeply understand 
+it, and even fewer seem to have read what Klein actually wrote about it!   
+
+<div align = center>
+<a href = "http://www-history.mcs.st-andrews.ac.uk/PictDisplay/Klein.html">
+<img src = "http://upload.wikimedia.org/wikipedia/commons/e/e2/Felix_Klein.jpeg">
+</a>
+</div>
+
+<P>
+The problem goes back a long ways.  In 1871, while at G&ouml;ttingen, 
+Klein worked on non-Euclidean geometry, and showed that hyperbolic
+geometry was consistent if and only if Euclidean geometry was.
+In the process, he must have thought hard about the role of symmetry
+groups in geometry.  When he was appointed professor at Erlangen 
+in 1872, he wrote a lecture outlining his &quot;Erlanger Programm&quot; for
+reducing geometry to group theory.  
+
+<P>
+But, he didn't actually give this lecture as his inaugural speech!
+He spoke about something else.
+
+<P>
+So, nobody ever heard him announce the Erlangen program.  And, until
+recently, the lecture he wrote was a bit hard to find.  Luckily, now 
+you can get it online:
+
+<P>
+1) Felix Klein, Vergleichende Betrachtungen ueber neuere geometrische 
+Forschungen, Verlag von Andreas Deichert, Erlangen, 1872.  Also 
+available at the University of Michigan Historical Mathematics Collection, 
+<a href = "http://www.hti.umich.edu/cgi/t/text/text-idx?c=umhistmath;idno=ABN7632">http://www.hti.umich.edu/cgi/t/text/text-idx?c=umhistmath;idno=ABN7632</a>
+
+<P>
+Even better, Johan Ernst Mebius has recently prepared an HTML version,
+with links to the above version:
+
+<P>
+2) Johan Ernst Mebius, Felix Klein's Erlanger Programm,
+<a href = "http://www.xs4all.nl/~jemebius/ErlangerProgramm.htm">http://www.xs4all.nl/~jemebius/ErlangerProgramm.htm</a>
+
+<P>
+But what if you have the misfortune of only reading English, not 
+German?  Until now the only translation was quite hard to obtain:
+
+<P>
+3) Felix Klein, A comparative review of recent researches in geometry, 
+trans. M. W. Haskell, Bull. New York Math. Soc. 2, (1892-1893), 215-249.
+
+<P>
+In case you're wondering, the &quot;New York Mathematical
+Society&quot; no longer exists!  It was founded in 1888, but in 1894
+it went national and became the American Mathematical Society.
+
+<P>
+Luckily, after Thomas Love pointed out the existence of this old
+translation, Chris Hillman was able to get ahold of it and scan it in!
+Then Robin Houston created a PDF file of the whole thing, and Lukas-Fabian
+Moser created a DjVu file.  Then Nitin C. Rughoonauth took the marvelous
+step of putting it into LaTeX!  So now, you can read Klein's paper in English 
+here:
+
+<P>
+4) The Erlangen program, <a href = "http://math.ucr.edu/home/baez/erlangen/">http://math.ucr.edu/home/baez/erlangen/</a>
+
+<P>
+English-speakers can read more about the Erlangen program here:
+
+<P>
+5) Felix Klein, Elementary Mathematics from an Advanced Standpoint:
+Geometry, part 3: Systematic discussion of geometry and its foundations,
+Dover, New York, 1939.
+
+<P>
+Luckily Dover keeps its books in print!
+
+<P>
+For more on the Erlangen program, try these:
+
+<P>
+6) Garrett Birkhoff and M. K. Bennett, Felix Klein and his
+&quot;Erlanger Programm&quot;, in History and Philosophy of Modern
+Mathematics, eds.  W. Aspray and P. Kitcher, Minnesota
+Stud. Philos. Sci. XI, University of Minnesota Press, Minneapolis,
+1988, pp. 145-176.
+
+<P>
+7) Hans A. Kastrup, The contributions of Emmy Noether, Felix Klein and
+Sophus Lie to the modern concept of symmetries in physical systems,
+in Symmetries in Physics (1600-1980), ed. M. G. Doncel, World Scientific, 
+Singapore, 1987, pp. 113-163.
+
+<P>
+8) I. M. Yaglom, Felix Klein and Sophus Lie: Evolution of the
+Idea of Symmetry in the Nineteenth Century, trans. S. Sossinsky,
+Birkhauser, Boston, 1988.
+
+<P>
+For more about Klein, try &quot;<A HREF =
+"week213.html">week213</A>&quot; and this little biography:
+
+<P>
+9) MacTutor History of Mathematics Archive, Felix Klein,
+<a href = "http://www-history.mcs.st-andrews.ac.uk/Biographies/Klein.html">http://www-history.mcs.st-andrews.ac.uk/Biographies/Klein.html</a>
+
+<P>
+But what does the Erlangen program actually amount to, in the language
+of modern mathematics?  This will take a while to explain, so the best 
+thing is to dive right in.  
+
+<P>
+Last week in the Tale of Groupoidification I tried to explain two slogans:
+
+<div align = "center">
+                  GROUPOIDS ARE LIKE 'SETS WITH SYMMETRIES'
+</div>
+<P>
+<div align = "center">
+          SPANS OF GROUPOIDS ARE LIKE 'INVARIANT WITNESSED RELATIONS'
+</div>
+
+<P>
+They're a bit vague; they're mainly designed to give you enough intuition
+to follow the next phase of the Tale, which is all about how:
+
+<div align = "center">
+                   GROUPOIDS GIVE VECTOR SPACES
+</div>
+<P>
+<div align = "center">
+              SPANS OF GROUPOIDS GIVE LINEAR OPERATORS
+</div>
+<P>
+But before the next phase, I need to say a bit about how groupoids
+and spans of groupoids fit into Klein's Erlangen program.
+
+<P>
+Groupoids are a modern way to think about symmetries.   A more 
+traditional approach would use a group acting as symmetries of
+some set.  And the most traditional approach of all, going back to
+Galois and Klein, uses a group acting <em>transitively</em> on a set.  
+
+<P>
+So, let me explain the traditional approach, and then relate it
+to the modern one.
+
+<P>
+I hope you know what it means for a group G to &quot;act&quot; on a set X. 
+It means that for any element x of X and any guy g in G, we get a 
+new element gx in X.  We demand that 
+
+<P>
+1x = x
+
+<P>
+and 
+
+<P>
+g(hx) = (gh)x.
+
+<P>
+More precisely, this is a &quot;left action&quot; of G on X, since we write
+the group elements to the left of x.  We can also define right actions,
+and someday we may need those too.
+
+<P>
+We say an action of a group G on a set X is &quot;transitive&quot; if given 
+any two elements of X, there's some guy in G mapping the first 
+element to the second.  In this case, we have an isomorphism of sets
+
+<P>
+X = G/H
+
+<P>
+for some subgroup H of G.
+
+<P>
+For example, suppose we're studying a kind of geometry where the symmetry
+group is G.  Then X could be the set of figures of some sort: points, or 
+lines, or something fancier.  If G acts transitively on X, then all
+figures of this sort &quot;look alike&quot;: you can get from any one to any other 
+using a symmetry.  This is often the case in geometry... but not always.  
+
+<P>
+Suppose G acts transitively on X.   Pick any figure x of type X and let 
+H be its &quot;stabilizer&quot;: the subgroup consisting of all guys in G that map 
+x to itself.  Then we get a one-to-one and onto map
+
+<P>
+f: X &rarr; G/H
+
+<P>
+sending each figure gx in X to the equivalence class [g] in G/H.  
+
+<P>
+If you haven't seen this fact before, you should definitely prove it -
+it's one of the big ways people use symmetry!
+
+<P>
+Here's one kind of thing people do with this fact. The 3d rotation 
+group G = SO(3) acts on the sphere X = S<sup>2</sup>, and the stabilizer of 
+the north pole is the 2d rotation group H = SO(2), so the sphere is 
+isomorphic to G/H = SO(3)/SO(2).   The same sort of result holds in any
+dimension, and we can use it to derive facts about spheres from facts 
+about rotation groups, and vice versa.
+
+<P>
+A grander use of this fact is to set up a correspondence between 
+sets on which G acts transitively and subgroups of G.  This is
+one of the principles lurking behind Galois theory.
+
+<P>
+Galois applied this principle to number theory - see &quot;<A HREF =
+"week201.html">week201</A>&quot; for details.  But, it really has
+nothing particular to do with number theory!  In his Erlangen program,
+Klein applied it to geometry.
+
+<P>
+Klein's goal was to systematize a bunch of different kinds of non-Euclidean
+geometry.  Each kind of geometry he was interested in had a different
+group of symmetries.   For example:  
+
+<ul>
+<li>
+ n-dimensional <a href =
+ "http://en.wikipedia.org/wiki/Spherical_geometry">spherical
+ geometry</a> has the rotation group SO(n+1) as symmetries.  (Or, if
+ you want to include reflections, the bigger group O(n+1).)
+</li>
+
+<P>
+<li>
+ n-dimensional <a href =
+ "http://en.wikipedia.org/wiki/Euclidean_geometry">Euclidean
+ geometry</a> has the Euclidean group ISO(n) as symmetries.  (This
+ group is built from rotations in SO(n) together with translations in
+ R<sup>n</sup>.) 
+</li>
+
+<P>
+<li>
+ n-dimensional <a href =
+ "http://en.wikipedia.org/wiki/Hyperbolic_geometry">hyperbolic
+ geometry</a> has the group SO(n,1) as symmetries.  (This group also
+ shows up in special relativity under the name of the &quot;Lorentz
+ group&quot;: it acts on the &quot;mass hyperboloid&quot;, and that's
+ how hyperbolic geometry shows up in special relativity.)  
+</li>
+
+<P>
+<li>
+ n-dimensional <a href =
+ "http://en.wikipedia.org/wiki/Projective_geometry">projective
+ geometry</a> has the group SL(n+1) as symmetries.  (This group
+ consists of (n+1)&times;(n+1) matrices with determinant 1.  
+ Scalar multiples of the
+ identity act trivially on projective space, so it's actually better
+ to use the &quot;projective general linear group&quot; PGL(n+1),
+ consisting of invertible matrices mod scalars.  But, this has
+ the same Lie algebra as SL(n+1), so people are often a bit slack about 
+ which group they use.)
+    
+</li> 
+</ul>
+
+<P>
+The details here don't matter much yet; the point is that there are lots
+of interesting kinds of geometry, with interesting symmetry groups!
+
+<P>
+Klein realized that in any kind of geometry like this, a &quot;type of
+figure&quot; corresponds to a set on which G acts transitively.  Here 
+a &quot;figure&quot; could be a point, a line, a plane, or something 
+much fancier.  Regardless of the details, the set of all figures of 
+the same type can be written as G/H, and G acts transitively on this set.
+
+<P>
+The really cool part is that we can use Klein's idea to
+<em>define</em> a geometry for any group G.  To do this, we just say
+that <em>every</em> subgroup H of G gives rise to a type of figure.  So, we
+work out all the subgroups of G.  Then, we work out all the incidence
+relations - relations like &quot;a point lies on a line&quot;.  To do
+this, we take two sets of figures, say
+
+<P>
+X = G/H 
+
+<P>
+and 
+
+<P>
+Y = G/K
+
+<P>
+and find all the invariant relations between them: that is, subsets of
+X &times; Y preserved by all the symmetries.  I'll say more about how to
+do this next time - we can use something called &quot;double
+cosets&quot;.  In nice cases, like when G is a simple Lie group and H
+and K are so-called &quot;parabolic&quot; subgroups, these let us express
+all the invariant relations in terms of finitely many
+&quot;atomic&quot; ones!  So, we can really carry out Klein's program
+of thoroughly understanding geometry starting from groups - at least
+in nice cases.
+
+<P>
+In short, group actions - especially transitive ones - are a traditional 
+and very powerful way of using symmetry to tackle lots of problems.  
+
+<P>
+So, to bridge the gap between the traditional and the new, I should
+explain how group actions give groupoids.  I'll show you that: 
+
+<div align = "center">
+             A GROUPOID EQUIPPED WITH CERTAIN EXTRA STUFF IS<br>
+                     THE SAME AS A GROUP ACTION
+</div>
+
+<P>
+It's not very hard to get a groupoid from a group action.  Say we have
+a group G acting on a set X.   Then the objects of our groupoid are 
+just elements of X, and a morphism
+
+<P>
+g: x &rarr; y
+
+<P>
+is just a group element g with 
+
+<P>
+gx = y.
+
+<P>
+Composing morphisms works the obvious way - it's basically just 
+multiplication in the group G.
+
+<P>
+Some people call this groupoid an &quot;action groupoid&quot;.  I often call 
+it the &quot;weak quotient&quot; X//G, since it's like the ordinary quotient 
+X/G, but instead of declaring that x and y are <em>equal</em> when we have 
+a group element g sending x to y, we instead declare they're 
+<em>isomorphic</em> via a specified isomorphism g: x &rarr; y.  
+
+<P>
+But for now, let's call X//G the &quot;action groupoid&quot;.
+
+<P>
+So, group actions give action groupoids.  But, these groupoids come 
+with extra stuff!
+
+<P>
+First of all, the action groupoid X//G always comes equipped with a
+functor 
+
+<PRE>
+                     X//G 
+                      |
+                      |p
+                      |
+                      v
+                      G
+</PRE>
+sending any object of X//G to the one object of G, and any morphism 
+g: x &rarr; y to the corresponding element of G.   Remember, a group is 
+a groupoid with one object: this is the 21st century!  
+
+<P>
+Second of all, this functor p is always &quot;faithful&quot;: given
+two morphisms from x to y, if p maps them to the same morphism, then
+they were equal.
+
+<P>
+And that's all!  Any groupoid with a faithful functor to G is
+equivalent to the action groupoid X//G for some action of G on some 
+set X.  This takes a bit of proving... let's not do it now.
+
+<P>
+So: in my slogan
+
+<P>
+<div align = "center">
+             A GROUPOID EQUIPPED WITH CERTAIN EXTRA STUFF IS<br>
+                     THE SAME AS A GROUP ACTION
+</div>
+
+<P>
+the &quot;certain extra stuff&quot; was precisely a faithful functor to G.  
+
+<P>
+What if we have a <em>transitive</em> group action?  Then something nice
+happens.
+
+<P>
+First of all, saying that G acts transitively on X is the same as
+saying there's a morphism between any two objects of X//G.   In 
+other words, all objects of X//G are isomorphic.  Or in other words, 
+there's just one isomorphism class of objects.  
+
+<P>
+Just as a groupoid with one object is a group, a groupoid with one 
+<em>isomorphism class</em> of objects is <em>equivalent</em> to a group.  Here 
+I'm using the usual notion of &quot;equivalence&quot; of categories, as 
+explained back in &quot;<A HREF = "week76.html">week76</A>&quot;.
+
+<P>
+So, G acts transitively on X precisely when X//G is equivalent 
+to a group!
+
+<P>
+And what group?  Well, what could it possibly be?  It's just the 
+stabilizer of some element of X!  So, in the case of a transitive 
+group action, our functor
+
+<PRE>
+                     X//G 
+                      |
+                      |p
+                      |
+                      v
+                      G
+</PRE>
+is secretly equivalent to the inclusion
+
+<PRE>
+                      H
+                      |
+                      |i
+                      |
+                      v
+                      G
+</PRE>
+of the stabilizer group of this element.
+
+<P>
+So, we see how Klein's old idea of geometrical figures as
+subgroups of G is being generalized.  We can start with any groupoid Y
+of &quot;figures&quot; and &quot;symmetries between figures&quot;, and
+play with that.  It becomes an action groupoid if we equip it with a
+faithful functor to some group G:
+
+<PRE>
+                      Y
+                      |
+                      |
+                      |
+                      v
+                      G
+</PRE>
+Then the action is transitive if all the objects of Y are isomorphic.  
+In that case, our functor is equivalent to an inclusion
+
+<PRE>
+                      H
+                      |
+                      |
+                      |
+                      v
+                      G
+</PRE>
+and we're back down to Klein's approach to geometry.  But, it's actually 
+good to generalize what Klein did, and think about arbitrary &quot;groupoids
+over G&quot; - that is, groupoids equipped with functors to G.
+
+<P>
+So, when we blend our ideas on spans of groupoids with Klein's ideas,
+we'll want to use spans of groupoids &quot;over G&quot; - that is,
+commutative diamonds of groupoids and functors, like this:
+  
+<PRE>
+                     S
+                    / \
+                   /   \
+                  /     \
+                 /       \
+                v         v
+               X           Y
+                \         /
+                 \       /
+                  \     /
+                   \   /
+                    v v
+                     G
+</PRE>
+There's much more to say about this, but not today!
+
+<P>
+I'll say one last thing before quitting.  It's a bit more technical, 
+but I feel an urge to see it in print.  
+
+<P>
+People often talk about &quot;the&quot; stabilizer group of a transitive action 
+of some group G on some set X.  This is a bit dangerous, since every 
+element of X has its own stabilizer, and they're not necessarily all equal!
+
+<P>
+However, they're all <em>conjugate</em>: if the stabilizer of x is H, 
+then the stabilizer of gx is gHg<sup>-1</sup>.  
+
+<P>
+So, when I say above that 
+
+<PRE>
+                     X//G 
+                      |
+                      |p
+                      |
+                      v
+                      G
+</PRE>
+is equivalent to 
+
+<PRE>
+                      H
+                      |
+                      |i
+                      |
+                      v
+                      G
+</PRE>
+I could equally well have said it's equivalent to 
+
+<PRE>
+                      H
+                      |
+                      |i'
+                      |
+                      v
+                      G
+</PRE>
+where the inclusion i' is the inclusion i conjugated by g.  If you
+know some category theory, you'll see that i and i' are naturally
+isomorphic: a natural isomorphism between functors between groups 
+is just a &quot;conjugation&quot;.  Picking the specific inclusion i requires
+picking a specific element x of X.
+
+<P>
+Of course, I'll try to write later issues in a way that doesn't force
+you to have understood all these nuances!
+
+<P>
+<HR>
+<b>Addendum</b>: For more discussion, go to the <a href =
+"http://golem.ph.utexas.edu/category/2007/04/this_weeks_finds_in_mathematic_10.html"><em>n</em>-Category
+Caf&eacute;</a>.
+
+<P>
+<HR>
+<em>There is no benefit today in arithmetic in Roman numerals.
+There is also no benefit today in insisting that the group concept
+is more fundamental than that of groupoid.</em> - Ronald Brown
+<p>
+<HR><P>
+<!-- BEGIN FOOTER -->
+&#169; 2007  John Baez<br>
+baez@math.removethis.ucr.andthis.edu <br>
+<P>
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week248.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week250.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE><!-- END FOOTER -->

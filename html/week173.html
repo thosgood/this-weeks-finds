@@ -1,0 +1,753 @@
+<TITLE> week173 </TITLE>
+
+<!-- BEGIN HEADER -->
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week172.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week174.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE>
+<H4> November 25, 2001 </H4>
+<H2> This Week's Finds in Mathematical Physics (Week 173) </H2>
+<H4> John Baez </H4>
+<!-- END HEADER -->
+
+
+<P>
+Did you see the Leonid meteor shower last Tuesday?  I watched them from
+1:30 to 3 in the morning from my back yard.  They were great!  Near the
+end I saw several a minute and sensed many more, too dim to stand out in
+the light-polluted Riverside sky, like near-subliminal pinpricks grazing
+the surface of consciousness.  There are some Leonids every November as
+the Earth passes through the debris in the orbit of comet Tempel-Tuttle,
+but activity peaks about once every 33 years, when the timing is best.
+They were really good in 1966, and really good this year.
+
+<P>
+If you missed them, try these pictures:
+
+<P>
+1) Favorite Leonid images found posted on the net,
+<A HREF = "http://leonids.arc.nasa.gov/image_favorites.html">http://leonids.arc.nasa.gov/image_favorites.html</A>
+
+<P>
+Anyway, this week I'm in the mood for math, so I'll start with a bit of
+stuff about the octonionic projective plane and linear lattices, and
+then talk about categories and homotopy theory, in a kind of
+continuation of The Tale of n-Categories.
+
+<P>
+Three of my favorite dimensions are 8, 11, and 24.  Why?
+
+<P>
+
+Well, 8 is the dimension of the octonions, which are related to special
+properties of rotations in 8-dimensional space, and also Bott
+periodicity: a magical phenomenon relating rotations, spinors and the
+like in n dimensions to the corresponding things in n+8 dimensions.  The
+&quot;Cayley integral octonions&quot; form a marvelous lattice which
+happens to give the densest lattice packing of spheres in 8 dimensions:
+each sphere has 240 nearest neighbors.  This is also the root lattice of
+the group E8, which has dimension 248 = 240+8, and is the symmetry group
+of the projective plane over the octooctonions: the octonions tensored
+with themselves!
+
+<P>
+In short, all sorts of beautiful madness breaks loose in dimension 8.
+But this madness is <em>tripled</em> in dimension 24.  In this dimension,
+spinors are pairs of octooctooctonions: the octonions tensored with
+themselves thrice!  But more importantly, this is the dimension where
+Monstrous Moonshine lives.  While bosonic string theory works best in
+26-dimensional spacetime, two of those dimensions really come from the
+fact that a string worldsheet is a 2d surface, so the real magic comes
+from secret relations between 2-dimensional stuff (complex analysis) and
+the number 24.  
+
+<P>
+Some of this boils down to the fact that the only specially symmetric
+lattices in 2 dimensions are the square lattice and the hexagonal one,
+and 4 x 6 = 24.  But there's a lot more going on!  For example, there's
+a marvelous lattice in 24 dimensions called the Leech lattice, which
+gives the densest lattice packing of spheres in that dimension.  It also
+gives rise to a lattice in 26-dimensional spacetime, and if we cleverly
+use this to compactify 26d spacetime and do bosonic string theory there,
+we get a string theory whose symmetry group is the Monster: the largest
+sporadic finite simple group!  The dimensions of the irreducible
+representations of the Monster are closely connected to the coefficients
+of an important function in complex analysis, called the j-function -
+this connection is known as Monstrous Moonshine.
+
+<P>
+I've said all this stuff more carefully and in much more detail in
+previous Weeks, so don't mind if it went by in a blur this time.  Right
+now I'm just trying to remind you of how cool these dimensions are!
+
+<P>
+11 dimensions is more mysterious, at least to me.  String theorists
+believe it's the right dimension for M-theory, their favorite candidate
+for the Theory of Everything.  I'm still struggling to understand the
+math that makes this dimension special.  Luckily, someone sent me a
+paper which provides a tiny tantalizing clue - a relation between the
+numbers 8, 11, and 24:  
+
+<P>
+2) Thomas P&uuml;ttmann and A. Rigas, Isometric actions on the projective
+planes and embedded generators of homotopy groups.  Available at
+<A HREF = 
+"http://www.ruhr-uni-bochum.de/mathematik8/puttmann/index.html">
+http://www.ruhr-uni-bochum.de/mathematik8/puttmann/index.html</A>.
+
+<P>
+The simple idea standing behind their work is that
+
+<P>
+&pi;<sub>11</sub>(S<sup>8</sup>) = Z/24.
+
+<P>
+In other words: the 11th homotopy group of the 8-sphere is the group
+of integers mod 24.  This is just a reflection of the fact that the
+
+<P>
+&pi;<sub>n+3</sub>(S<sup>n</sup>) = Z/24
+
+<P>
+whenever n is big enough.  I touched upon the importance of this
+for string theory in &quot;<A HREF = "week102.html">week102</A>&quot;.  
+
+<P>
+But it gets cooler.  S<sup>8</sup> is just the octonionic projective
+line OP<sup>1</sup>.  The octonionic projective plane, OP<sup>2</sup>,
+is formed from OP<sup>1</sup> by gluing on some extra stuff.  However,
+this extra stuff is sufficiently high-dimensional that it doesn't affect
+the 11th homotopy group, so we get
+
+<P>
+&pi;<sub>11</sub>(OP<sup>2</sup>) = Z/24.
+
+<P>
+Now, what P&uuml;ttman and Rigas do is find an 11-sphere <em>embedded</em>
+in the octonionic projective plane that generates the group Z/24.
+In fact, it's a minimal surface: there's no way to wiggle it a
+bit to make the &quot;area&quot; less!  It's the analogue
+for OP<sup>2</sup> of the 2-sphere in CP<sup>2</sup> defined by
+the equation x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> = 0.
+(P&uuml;ttman and Rigas also describe an analogous 5-sphere in the
+quaternionic projective plane that generates &pi;<sub>5</sub>(HP<sup>2</sup>) 
+= Z/2.)
+
+<P>
+Could this geometrical fact have some application to M-theory?  I bet 
+it will.  Could it be a useful clue to the math linking these special 
+dimensions?  We'll see.
+
+<P>
+Now for something a bit less flashy, but related:
+
+<P>
+Back in &quot;<A HREF = "week145.html">week145</A>&quot;, when I was
+trying to understand the octonionic projective plane, I explained
+Desargues' theorem.  This is a cute theorem about a pair of triangles
+which holds in real, complex or quaternionic projective geometry, but
+not for the octonionic projective plane.  Earlier, in &quot;<A HREF =
+"week106.html">week106</A>&quot;, I explained how projective geometries
+give quantum logics.  The basic idea is that we think of points, lines,
+planes and higher-dimensional subspaces as propositions.  If the
+subspace P is contained in the subspace Q, we say P &quot;implies&quot; Q.
+
+<P>
+
+Mathematicians call the resulting structure a &quot;lattice&quot;:
+technically, this is a partially ordered set where every finite set of
+elements has a greatest lower bound and least upper bound.  Don't worry
+if you don't understand the terminology!  If we think in terms of
+geometry, the greatest lower bound of two subspaces is just their
+intersection: the biggest subspace contained in either of them.  Their
+least upper bound is their &quot;span&quot;: the smallest subpsace
+containing both of them.  For example:
+
+<PRE>
+                             Q
+                            /
+                           /
+           ---------------/---------------P
+                         /
+                        /
+
+</PRE>
+Here the intersection of P and Q is a point, and their span is a
+plane.  
+
+<P>
+If we think in terms of logic, the greatest lower bound of P and Q
+is called &quot;P and Q&quot;: the weakest proposition implying either of
+them.  Similarly, their least upper bound is called &quot;P or Q&quot;: the
+strongest proposition implied by both of them.
+
+<P>
+If we do this starting with complex projective space, we get the lattice
+of propositions for an ordinary sort of quantum theory, based on the
+complex numbers.  The same sort of thing works in the real, quaternionic
+and octonionic cases - though for the octonions, you can't go above the
+octonionic projective <em>plane</em>.
+
+<P>
+Translating the statement of Desargues' theorem from geometry to logic,
+we can reinterpret it as a <em>law of logic</em> which holds in real, complex
+and quaternionic quantum theory - but not octonionic!  If I could grok
+what this law said, I might understand how octonionic quantum theory was
+different from the others.   Unfortunately, it's pretty complicated.
+Here's what it says: if we have 6 propositions x, y, z, x', y', z', then
+
+<PRE>
+[x and (x' or [(y or y') and (z or z')])] 
+
+implies
+
+[y or ([x' or y'] and [([x or z] and [x' or z']) or
+                       ([y or z] and [y' or z']) ]
+                       
+</PRE>
+
+where I have used two flavors of parentheses in a feeble attempt to make
+these expressions easier to parse.  If you look at &quot;<A HREF =
+"week145.html">week145</A>&quot;, you can sort of see where this weird
+stuff is coming from: Desargues' theorem is about two triangles xyz and
+x'y'z'.  But comprehending it as a law of <em>logic</em> still seems very
+tough.
+
+<P>
+
+(In case you're tempted to massage the above expressions using other
+laws of logic, beware: you're not allowed to use the distributivity of
+&quot;and&quot; over &quot;or&quot; and vice versa in quantum logic -
+that's a very <em>classical</em> law, and it's not allowed here.  But
+you might try using it anyway, just for fun, to see what happens!)
+
+<P>
+Anyway, I found it interesting to discover that Desargues' theorem is
+just of one of many laws that hold in all &quot;linear lattices&quot;:
+ 
+<P>
+3) Matteo Mainetti and Catherine Huafei Yan, Arguesian identities in
+linear lattices, Adv. Math. 144 (1999), 50-93.
+
+<P>
+But what's a linear lattice?   Back when I was at MIT, Gian-Carlo Rota
+occasionally tried to get me interested in these, and he'd always say,
+his eyes sparkling mischievously: &quot;A linear lattice is just a lattice of
+commuting equivalence relations!&quot;  Unfortunately, I could never quite
+parse that sentence.  Luckily, by reading this paper by people whom he
+<em>did</em> manage to interest, I finally figured out what he meant.
+
+<P>
+
+First of all, we can partially order the relations on a given set by
+saying the relation R &quot;implies&quot; the relation S iff xRy implies
+xSy for all x,y.  This makes relations into a lattice, and equivalence
+relations become a sublattice.
+
+<P>
+Second, we can compose relations.  Given relations R and S, the 
+relation RS is defined by:
+
+<P>
+xRSz iff xRy and ySz for some y.
+
+<P>
+
+We say the relations R and S commute if RS = SR.  For example, if R is
+&quot;father of&quot; and S is &quot;mother of&quot;, then R and S do
+not commute, since RS is &quot;maternal grandfather of&quot; and SR is
+&quot;paternal grandmother of&quot;.  Here's a cute fact whose proof I
+leave as a puzzle: two equivalence relations R and S commute if and only
+if RS is an equivalence relation.
+
+<P>
+Now hopefully it makes sense when I tell you that a linear lattice is a
+lattice of equivalence relations on some set, all of which commute.  But
+to see why this is cool, you need some examples.  
+
+<P>
+The classic example is the lattice of subspaces of a vector space!  Any
+subspace S determines an equivalence relation on our vector space, which
+by abuse of language we also call S, given by letting xSy iff x-y is in
+S.  All these equivalence relations commute, because addition of vectors
+commutes, as shown by the &quot;parallelogram law&quot;:
+
+                         
+<PRE>
+                     y'------------------z
+                    /                   /
+                   /                   /
+                  /                   /  
+                 /                   /
+                /                   /
+               x-------------------y
+</PRE>
+xRSz iff x-y is in R and y-z is in S for some y, 
+
+<P>
+while
+
+<P>
+xSRz iff x-y' is in S and y'-z is in R for some y'.
+
+<P>
+but the picture shows these are equivalent!
+
+<P>
+If we start with a vector space over the reals, complexes or
+quaternions, the lattice we get this way is exactly the same as the
+lattice we get starting from the corresponding projective space, so
+Desargues' theorem in this case is just a corollary of the fact that
+Desargues' theorem holds for all linear lattices.
+
+<P>
+On the other hand, since the lattice associated to the octonionic
+projective plane does <em>not</em> satisfy  Desargues' theorem, it's not a
+linear lattice.   Maybe someday I'll use these ideas to understand
+what's weird about octonionic quantum mechanics.  
+
+<P>
+But another cool thing is that Mark Haiman has cooked up a set of
+deduction rules that let you derive precisely all the implications that
+hold in all linear lattices.  Even better, there's a way to draw
+pictures of these deduction rules, which makes them look a bit like
+tricks for rewiring electrical circuits!  You can learn about this in
+the above paper, or Haiman's original paper:
+
+<P>
+4) Mark Haiman, Proof theory for linear lattices, Adv. Math. 58 (1985),
+209-242.
+
+<P>
+or this followup:
+
+<P>
+5) D. Finberg, M. Mainetti and G.-C. Rota, The logic of commuting
+equivalence relations, in Logic and Algebra, eds. A. Ursini and P. 
+Agliano, Lecture Notes in Pure and Applied Mathematics, vol. 180,
+Decker, New York 1996.
+
+<P>
+To finish up, let me add that there are lots of linear lattices.  For
+example, we can try generalizing the above trick from vector spaces to
+groups!  Given any group G, each subgroup H determines an equivalence 
+relation on G, which by abuse of language I'll call H, such that xHy iff
+xy<sup>-1</sup> is in H.  If G is abelian all these equivalence relations
+commute, so the lattice of subgroups of G becomes a linear lattice.  If
+G is nonabelian this trick breaks down unless we use <em>normal</em> 
+subgroups.
+
+<P>
+I should also add that nobody has figured out whether the collection
+of linear lattices can be characterized by identities... though they
+satisfy lots of interesting identities, like the famous &quot;modular law&quot;:
+
+<P>
+x and (y or (x and z)) = (x and y) or (x and z)
+
+<P>
+This is one reason Haiman's proof theory is interesting.
+
+<P>
+Now, on to some category theory!
+
+<P>
+Michael Mueger has written some excellent papers on the relation
+between quantum field theory, category theory, and topology:
+
+<P>
+6) Michael Mueger, Conformal field theory and Doplicher-Roberts
+reconstruction, available at <A HREF = "http://xxx.lanl.gov/abs/math-ph/0008027">math-ph/0008027</A>.
+
+<P>
+From subfactors to categories and topology I:
+Frobenius algebras in and Morita equivalence of tensor categories,
+available at <A HREF = "http://xxx.lanl.gov/abs/math.CT/0111204">math.CT/0111204</A>.
+
+<P>
+From subfactors to categories and topology II: The quantum double
+of tensor catgories and subfactors, available at <A HREF = "http://xxx.lanl.gov/abs/math.CT/0111205">math.CT/0111205</A>.
+
+<P>
+I can't possibly do justice to these, but I'd like to discuss a very
+pretty idea from his paper on Frobenius algebras.  This will give me a
+good chance to continue some themes from my earlier issues on
+n-categories and homotopy theory.
+
+<P>
+In &quot;<A HREF = "week83.html">week83</A>&quot; I talked about adjoint functors, and more generally, 
+adjunctions in any 2-category.  If you don't understand this stuff,
+you're a goner now, but let me just remind you of the definitions. 
+Suppose a and b are objects in a 2-category.  Then we say the morphism
+
+<PRE>
+L: a &rarr; b
+</PRE>
+is a &quot;left adjoint&quot; of the morphism
+
+<PRE>
+R: b &rarr; a
+</PRE>
+(and R is a &quot;right adjoint&quot; of L) if there are 2-morphisms called
+the &quot;unit&quot;
+
+<PRE>
+i: 1<sub>a</sub> =&gt; LR
+</PRE>
+and &quot;counit&quot;
+
+<PRE>
+e: RL =&gt; 1<sub>b</sub>
+</PRE>
+satisfying the &quot;triangle equations&quot;, which say that these
+vertical composites are both identity 2-morphisms:
+
+<PRE>
+          i.1<sub>L</sub>        1<sub>L</sub>.e
+L = 1<sub>a</sub> L ======> LRL ======> L 1<sub>a</sub> = L
+</PRE>
+and
+<PRE>
+          1<sub>R</sub>.i        e.1<sub>R</sub>
+R = R 1<sub>a</sub> ======> RLR ======> 1<sub>b</sub> R = R
+</PRE>
+
+where . denotes horizontal composition.  The whole setup (a,b,L,R,e,i)
+is then called an &quot;adjunction&quot;.  
+
+<P>
+
+There are some important variations on this theme.  For example, if e
+and i are invertible, but we drop the triangle equations, we call the
+setup an &quot;equivalence&quot;.  It's morally correct to consider two
+objects a and b in a 2-category &quot;the same for all practical
+purposes&quot; if they take part in an equivalence.  A special case is
+when they are <em>equal</em> - since then we can take L,R,e,i to be
+identities.  Another special case is when they are <em>isomorphic</em> -
+since then we can take L to be an isomorphism, R its inverse, and e and
+i to be identities.  But in general we only need L and R to be
+isomorphisms &quot;up to 2-isomorphism&quot;.
+
+<P>
+So, the notion of equivalence is better than equality, because it
+follows the fundamental principle of n-category theory: everything is
+only true up to something!
+
+<P>
+
+If e and i are invertible and we <em>keep</em> the triangle equations,
+we call the setup an &quot;adjoint equivalence&quot;.  In other words,
+an adjoint equivalence is an adjunction that is also an equivalence.
+This is a bit better than an equivalence.  Recently on the category
+theory mailing list Paul Levy asked exactly how much better.  The first
+answer is: not much, because given any equivalence we can cook up an
+adjoint equivalence by just fiddling with either the unit or counit in a
+standard way, using only the material at hand: (a,b,R,L,i,e).  I leave
+this as a fun exercise....
+
+<P>
+But the second answer, which James Dolan and I worked out this Friday,
+goes like this:
+
+<P>
+
+First, consider the &quot;Platonic idea of an equivalence&quot;.  By
+this, I mean the 2-category Equiv which is freely generated by objects a
+and b, morphisms L: a &rarr; b and R: b &rarr; a, and isomorphisms i:
+1<sub>b</sub> =&gt; RL and e: LR =&gt; 1<sub>a</sub>.  Why do I call
+this the &quot;Platonic idea of an equivalence&quot;?  Well, any
+equivalence in any 2-category C is just the same as a 2-functor
+
+<P>
+F: Equiv &rarr; C
+
+<P>
+The functor F turns the &quot;abstract&quot; equivalence in Equiv into a
+&quot;concrete&quot; equivalence in C!  This is reminiscent of Plato's theory
+of ideas and how they get manifested in concrete situations.  We can
+think of Equiv as the unadorned idea of an adjunction without any
+contamination by accidental extra features.
+
+<P>
+I should add that James, less of an intellectual snob than I, calls
+Equiv the &quot;walking equivalence&quot;.  After all, if someone has
+really big bushy eyebrows, so that when you see him walking down the
+street you first notice his eyebrows and only later realize there's a
+person attached, you call him a &quot;walking pair of eyebrows&quot;.
+The person is basically just the life support system for the eyebrows!
+Similarly, in Equiv we have a 2-category which is just the life support
+system for an adjunction: no more and no less.
+
+<P>
+Anyway, the walking equivalence is a weak 2-groupoid: a 2-category where
+every 2-morphism is invertible and every morphism is invertible up to
+2-isomorphism.  Weak 2-groupoids are secretly the same thing as homotopy
+2-types: roughly speaking, topological spaces whose homotopy groups
+vanish above dimension 2.  And there's a pretty easy way to turn a weak
+2-groupoid into a homotopy 2-type.  First you turn it into a simplicial
+set, called its &quot;nerve&quot;, and then you take the geometric
+realization of that.
+
+<P>
+Eh?  Well, I talked about geometric realization in part E of &quot;<A
+HREF = "week116.html">week116</A>&quot;, and I talked about the nerve of
+a 1-category in part J of &quot;<A HREF =
+"week117.html">week117</A>&quot;, so the only thing I need to do is say
+a bit about the nerve of a 2-category.  This is a simplicial set where
+the 0-simplices correspond to objects:
+
+
+<P>
+<PRE>
+                            x
+</PRE>
+the 1-simplices correspond to morphisms:
+
+
+<PRE>
+                    x ------F-------&gt; y
+</PRE>
+the 2-simplices correspond to 2-morphisms:
+
+<PRE>
+                            y
+                           / \                F: x &rarr; y 
+                          /   \               G: y &rarr; z
+                         / ||  \              H: x &rarr; z
+                        F  ||   G             a: FG =&gt; H
+                       /   ||a   \
+                      /    \/     \
+                     x------H-----&gt;z
+</PRE>
+and the higher-dimensional simplices correspond to equations, &quot;equations
+between equations&quot;, and so on.  
+
+<P>
+Anyway, if you use this trick to turn the walking equivalence into
+a space, what space do you get?  
+
+<P>
+The 2-sphere!  
+
+<P>
+It's pretty easy to see... I'd draw it for you on paper if I could, but
+you'll have to do it yourself.  It helps if you have a globe:
+
+<P>
+a is the North Pole, 
+<P>
+b is the South Pole, 
+<P>
+L: a &rarr; b is the Greenwich Meridian running from north to south, 
+<P>
+R: b &rarr; a is the International Date Line running from south to north, 
+<P>
+i: 1<sub>a</sub> =&gt; LR is the Eastern Hemisphere, and 
+<P>
+e: RL =&gt; 1<sub>b</sub> is the Western Hemisphere!
+
+<P>
+(More precisely, we just get the 2-sphere up to homotopy equivalence:
+there is a whole bunch of higher-dimensional flab which I'm ignoring
+here.  But that's okay, since we're doing homotopy theory.)
+
+<P>
+We can also play this game for the &quot;walking adjoint equivalence&quot;,
+AdEquiv.  This is just like the walking equivalence, except we put in
+extra relations: the triangle equations.  How does this affect the space
+we get?
+
+<P>
+It's very beautiful: the extra equations fill in the 2-sphere to give us
+a 3-ball!  (At least up to homotopy equivalence.)
+
+<P>
+
+Now, the 3-ball is contractible, so as a homotopy type it's really the
+same as a point.  And a point is exactly the space we'd get from playing
+the same game starting with the &quot;walking object&quot;: the
+2-category with one object, its identity morphism, and the identity
+2-morphism of that.
+
+<P>
+
+To the eyes of a homotopy theorist, a point and 3-ball are the same, but
+the 2-sphere is not.  Similarly, to the eyes of an n-category theorist,
+the walking object and the walking adjoint equivalence are &quot;the
+same&quot;, but the walking equivalence is not!
+
+<P>
+
+We could make this very precise with a suitable notion of
+&quot;sameness&quot; for 2-categories.  But instead, let's jump straight
+to the punchline: having an adjoint equivalence in a 2-category is
+&quot;the same&quot; as having an object.... but having an equivalence
+is not!
+
+<P>
+There's even more fun to be had here.  Since every adjoint equivalence
+is an equivalence, there's a 2-functor
+
+<P>
+I: Equiv &rarr; AdEquiv
+
+<P>
+But I also said every equivalence can be massaged to obtain an adjoint
+equivalence!  In fact, I said it could be done in two equally good ways.
+Either of these gives a 2-functor
+
+<P>
+P: AdEquiv &rarr; Equiv
+
+<P>
+Now, we can ask what these become when we turn them into maps between
+spaces....
+
+<P>
+It turns out that I is just the inclusion of the 2-sphere into the
+3-ball, while P is the map that squashes the 3-ball down to either the
+eastern or western hemisphere of the sphere!  
+
+<P>
+By the way, it is irresistible to predict generalizations to higher
+dimensions.  For any n, we will have weak n-groupoids called Equiv, the
+&quot;walking n-equivalence&quot;, and AdEquiv, the &quot;walking adjoint
+n-equivalence&quot;.  The geometric realization of the nerve of Equiv will be
+homotopy equivalent to the n-sphere, while that of AdEquiv will be
+homotopy equivalent to the (n+1)-ball.
+
+<P>
+(Note that for n = 1, Equiv will be the category with objects
+a and b and isomorphisms L: a &rarr; b, R: b &rarr; a.   In AdEquiv, there
+will be extra relations saying that R is the inverse of L.  In
+this sense, it is really an adjoint equivalence rather than an
+equivalence which is the proper generalization of an isomorphism!)
+
+<P>
+Okay.  Believe it or not, I still haven't gotten to the stuff Michael
+Mueger was talking about!  I got distracted.   I talked about the
+walking equivalence and the walking adjoint equivalence, but next week,
+I'll talk about the walking adjunction... and finally the walking
+&quot;biadjunction&quot;, which is where Mueger comes in.
+
+<P>
+<HR>
+<P>
+Postscript - Keith Harbaugh writes:
+<blockquote>
+Since you're back on Desargues again, just thought I'd mention
+(in case you haven't already noticed this)
+that if you look up Desargues in "Categories, Allegories"
+by Freyd and Scedrov,
+you'll find that they (probably really Freyd)
+have a neat proof of Desargues in the context of their "allegories"
+(2-categories with structure modeled on the bicategory of relations).
+</blockquote>
+
+<P>
+Linus Kramer writes:
+<blockquote>
+I'd like to comment on the interesting paper by Thomas P&uuml;ttmann and
+A. Rigas, Isometric actions on the projective planes and embedded
+generators of homotopy groups, available at
+<P>
+<A HREF =
+"http://www.ruhr-uni-bochum.de/mathematik8/puttmann/index.html">
+http://www.ruhr-uni-bochum.de/mathematik8/puttmann/index.html</A>
+<P>
+which is mentioned in Baez' article.
+<P>
+As Baez writes, the authors construct an embedding of the 11-sphere
+into the Cayley plane OP<sup>2</sup>. This embedding is closely related to
+a polarity (a polarity of a projective plane is an involution which
+maps points to lines and vice versa, and which preserves incidence).
+<P>
+The simplest example is the elliptic polarity over the reals.
+Take the standard inner product on R<sup>3</sup> and consider the map
+which sends a subspace to its perp. Now the points of the real
+projective plane are the 1-dimensional subspaces, and the lines are
+the 2-dimensional subspaces. It is fairly easy to see that this
+map 'take the perp' is a polarity.
+<P>
+Now there is also a different polarity: take a Minkowski-like
+metric on R<sup>3</sup>, (++-). In exactly the same way as above, one
+obtains a polarity, the hyperbolic polarity of the real projective
+plane. This polarity has absolute elements, i.e. elements which
+are incident with their image under the polarity: this happens
+with all 1-dim. subspaces which are 'light-like', i.e. on which
+the metric vanishes. The set of all absolute points in RP<sup>2</sup> is
+a 1-sphere. 
+<P>
+One can prove that up to automorphisms, these two are the only
+polarities for the real projective plane RP<sup>2</sup>. Notice the
+associated motion groups SO<sub>3</sub>(R) and SO<sub>2,1</sub>(R) (the motion group
+consists of all collineations which commute with the polarity).
+<P>
+Similar polarities can be defined for the complex, the quaternionic
+and the octonionic projective planes. One obtains elliptic
+(no absolute points) and hyperbolic (many absolute points) polarities.
+In the second case, the set of absolute points are spheres of
+dimensions 3,7,15, respectively.
+<P>
+But for these latter projective planes, there are more polarities!
+There is one more polarity (called 'planar polarity' by some authors)
+which has a different kind of absolute points. For these polarities,
+one obtains spheres of dimension 2,5,11, respectively for the
+absolute points. 
+<P>
+These semi-classical embeddings were (re)discovered by the authors.
+The corresponding motion groups are by the way simple; they are
+SO<sub>3,1</sub>(R), SU<sub>3,1</sub>(C) and SU<sub>3,1</sub>(H)=Sp<sub>3,1</sub>.
+If one looks only for isometric motions (as the authors do) (i.e.
+motions which centralize at the same time the elliptic polarity)
+one obtains the compact groups mentioned in the article.
+<P>
+Of course, the main point of the authors is that they obtain
+generators of the 11th homotopy group, and this is certainly
+a new and beautiful result. I just wanted to mention some related
+'classical' results from projective geometry.
+<P>
+A good source here is, as always, Salzmann et al., Compact
+Projective Planes, de Gruyter 1995, p. 127.
+<P>
+Regards, Linus Kramer
+</blockquote>
+
+<p> <hr>
+
+<!-- BEGIN FOOTER -->
+&#169; 2001  John Baez<br>
+baez@math.removethis.ucr.andthis.edu <br>
+<P>
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week172.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week174.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE><!-- END FOOTER -->

@@ -1,0 +1,619 @@
+<TITLE> week145 </TITLE>
+
+<!-- BEGIN HEADER -->
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week144.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week146.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE>
+<H4> February 9, 2000 </H4>
+<H2> This Week's Finds in Mathematical Physics (Week 145) </H2>
+<H4> John Baez </H4>
+<!-- END HEADER -->
+
+
+<P>
+I know I promised to talk about homotopy theory and n-categories, but 
+I've gotten sidetracked into thinking about projective planes, so I'll 
+talk about that this Week and go back to the other stuff later.  Sorry, 
+but if I don't talk about what intrigues me at the instant I'm writing
+this stuff, I can't get up the energy to write it.  
+
+<P>
+So:
+
+<P>
+There are many kinds of geometry.  After Euclidean geometry, one of the
+first to become popular was projective geometry.   Projective geometry
+is the geometry of perspective.  If you draw a picture on a piece of
+paper and view it from a slant, distances and angles in the picture will
+get messed up - but lines will still look like lines.  This kind of
+transformation is called a &quot;projective transformation&quot;.  Projective
+geometry is the study of those aspects of geometry that are preserved
+by projective transformations.
+
+<P>
+Interestingly, 2-dimensional projective geometry has some curious
+features that don't show up in higher dimensions.  To explain this,  
+I need to tell you about projective planes.
+
+<P>
+I talked a bit about projective planes in &quot;<A HREF = "week106.html">week106</A>&quot;.  The basic idea is
+to take the ordinary plane and add some points at infinity so that every
+pair of distinct lines intersects in exactly one point.  Lines that were
+parallel in the ordinary plane will intersect at one of the points at
+infinity.  This simplifies the axioms of projective geometry.
+
+<P>
+But what exactly do I mean by &quot;the ordinary plane&quot;?  Well, ever since
+Descartes, most people think of the plane as R<sup>2</sup>, which consists of
+ordered pairs of real numbers.  But algebraists also like to use C<sup>2</sup>,
+consisting of ordered pairs of complex numbers.  For that matter, you
+could take any field F - like the rational numbers, or the integers 
+modulo a prime - and use F<sup>2</sup>.  Algebraic geometers call this sort of
+thing an &quot;affine plane&quot;.  
+
+<P>
+A projective plane is a bit bigger than an affine plane.  For this,
+start with the 3-dimensional vector space F<sup>3</sup>.  Then define the
+projective plane over F, denoted FP<sup>2</sup>, to be the space of lines 
+through the origin in F<sup>3</sup>.  
+You can show the projective plane is the same as
+the affine plane together with extra points, which play the role of 
+&quot;points at infinity&quot;.
+
+<P>
+In fact, you can generalize this a bit - you can make sense of the
+projective plane over F whenever F is a division ring!  A division ring
+is a like a field, but where multiplication isn't necessarily
+commutative.  The best example is the quaternions.  In &quot;<A HREF = "week106.html">week106</A>&quot; 
+I talked about the real, complex and quaternionic projective planes, 
+their symmetry groups, and their relation to quantum mechanics.  Here's 
+a good book about this stuff, emphasizing the physics applications:
+
+<P>
+1) V. S. Varadarajan, Geometry of Quantum Mechanics, Springer-Verlag,
+Berlin, 2nd ed., 1985.  
+ 
+<P>
+So far, so good.  But there's another approach to projective planes
+that's even more general.  This approach goes back to Euclidean
+geometry: it's based on a list of axioms.  In this approach, a
+projective plane consists of a set of &quot;points&quot;, a set of &quot;lines&quot;, and 
+a relation which tells us whether or not a given point &quot;lies on&quot; a 
+given line.  I'm putting quotes around all these words, because in this
+approach they are undefined terms.  All we get to work with are the
+following axioms:
+
+<P>
+A) Given two distinct points, there exists a unique line that both
+points lie on.
+
+<P>
+B) Given two distinct lines, there exists a unique point that lies on
+both lines.
+
+<P>
+C) There exist four points, no three of which lie on the same line.
+
+<P>
+D) There exist four lines, no three of which have the same point lying
+on them.  
+
+<P>
+Actually we can leave out either axiom C) or axiom D) - the rest of the
+axioms will imply the one we leave out.  It's a nice little exercise to
+convince yourself of this.  I put in both axioms just to make it obvious
+that this definition of projective plane is &quot;self-dual&quot;.  In other
+words, if we switch the words &quot;point&quot; and &quot;line&quot; and switch who lies on
+who, the definition stays the same!  
+
+<P>
+Duality is one of the great charms of the theory of projective planes:
+whenever you prove any theorem, you get another one free of charge with
+the roles of points and lines switched, thanks to duality.  There are
+lots of different kinds of &quot;duality&quot; in mathematics, but this is
+probably the grand-daddy of them all.
+
+<P>
+Now, it's easy to prove that starting from any division ring F, we get a
+projective plane FP<sup>2</sup> satisfying the above axioms.  The fun part 
+is to try to go the other way!  Starting from a structure satisfying the
+above axioms, can you cook up a division ring that it comes from?  
+
+<P>
+Well, starting from a projective plane, you can try to recover a
+division ring as follows.  Pick a line and throw out one point - and
+call that point &quot;the point at infinity&quot;.  What's left is an 
+&quot;affine
+line&quot; - let's call it L.  Let's try to make L into a division ring.  To
+do this, we first need to pick two different points in L, which we call
+0 and 1.  Then we need to cook up rules for adding and multiplying
+points on L.  
+
+<P>
+For this, we use some tricks invented by the ancient Greeks!   
+
+<P>
+This should not be surprising.  After all, those dudes thought about
+arithmetic in very geometrical ways.   How can you add points on a line
+using the geometry of the plane?  Just ask any ancient Greek, and here's
+what they'll say:
+
+<P>
+First pick a line L' that's parallel to L - meaning that L and L'
+intersect only at the point at infinity.  Then pick a line M that
+intersects L at the point 0 and L' at some point which we call 0'.  
+We get a picture like this:
+
+<PRE>
+             |             
+   ----------0'------------------------------------------ L'
+             |             
+             |             
+            M|             
+             |             
+   ----------0------------------------------------------  L
+             |             
+</PRE>
+Then, to add two points x and y on L, draw this picture:
+
+
+<PRE>
+             |                 |
+   ----------0'----------------|------------------------- L'
+             | \               | \
+             |  \              |  \
+            M|   \N          M'|   \N'
+             |    \            |    \
+   ----------0-----x-----------y-----z------------------  L
+             |      \          |      \
+</PRE>
+In other words, draw a line M' parallel to M through the point y,
+draw a line N through x and 0', and draw a line N' parallel to N and
+going through the point where M' and L' intersect.  L and N' intersect
+at the point called z... and we define this point to be x + y!   
+
+<P>
+This is obviously the right thing, because the two triangles in the
+picture are congruent.
+
+<P>
+What about multiplication?  Well, first draw a line L' that intersects
+our line L only at the point 0.  Then draw a line M from the point 1 to
+some point 1' that's on L' but not on L:
+
+<PRE>
+                  L'/
+                   / 
+                  /
+                 1'
+                /|
+               / |
+              /  |
+   ----------0---1------------------------------------  L
+                 |
+                 |M
+                 |
+</PRE>
+Then, to multiply x and y, draw this picture:
+<PRE>
+                        /
+                       /|\   
+                      / | \
+                     /  |  \
+                  L'/   |   \
+                   /    |    \
+                  /     |     \
+                 1'     |      \
+                /|\     |       \
+               / | \N   |        \N'
+              /  |  \   |         \
+   ----------0---1---x--y----------z------------------  L
+                 |    \ |           \
+                 |M     |M'
+                 |      |
+</PRE>
+In other words, draw a line N though 1' and x, draw a line M' parallel
+to M through the point y, and draw a line N' parallel to N through the
+point where L' and M' intersect.  L and N' intersect at the point called
+z... and we define this point to be xy!
+
+<P>
+This is obviously the right thing, because the triangle containing
+the points 1 and x is similar to the triangle containing y and z.  
+
+<P>
+So, now that we've cleverly figured out how to define addition and
+multiplication starting from a projective plane, we can ask: do we
+get a division ring?  
+
+<P>
+And the answer is: not necessarily.   It's only true if our projective
+plane is &quot;Desarguesian&quot;.  This is a special property named after an 
+old theorem about the real projective plane, proved by Desargues.
+A projective plane is Desarguesian if Desargues' theorem holds for
+this plane.
+
+<P>
+But wait - there's an even more basic question we forgot to ask! 
+Namely: was our ancient Greek method of defining addition and
+multiplication independent of the choices we made?  We needed to pick
+some points and lines to get things going.  If you think about it hard,
+these choices boil down to picking four points, no three of which lie on
+a line - exactly what axiom C) guarantees we can do.   
+
+<P>
+Alas, it turns out that in general our recipe for addition and 
+multiplication really depends on <em>how</em> we chose these four points.
+But if our projective plane is Desarguesian, it does not!   
+
+<P>
+In fact, if we stick to Desarguesian projective planes, everything works
+very smoothly.   For any division ring F the projective plane FP^2 is
+Desarguesian.  Conversely, starting with a Desarguesian projective
+plane, we can use the ancient Greek method to cook up a division ring F.
+Best of all, these two constructions are inverse to each other - at
+least up to isomorphism.
+
+<P>
+At this point you should be pounding your desk and yelling &quot;Great - but
+what does `Desarguesian' mean?  I want the nitty-gritty details!&quot;
+
+<P>
+Okay....
+
+<P>
+Given a projective plane, define a &quot;triangle&quot; to be three
+points that don't lie on the same line.  Now suppose you have two
+triangles xyz and x'y'z'.  The sides of each triangle determine three
+lines, say LMN and L'M'N'.  If we're really lucky, the line through x
+and x', the line through y and y', and the line through z and z' will
+all intersect at the same point.  We say that our projective plane is
+&quot;Desarguesian&quot; if whenever this happens, something else
+happens: the intersection of L and L', the intersection of M and M', and
+the intersection of N and N' all lie on the same line.
+
+<P>
+If you have trouble visualizing what I just said, take a look at this 
+webpage, which also gives a proof of Desargues' theorem for the real
+projective plane:
+
+<P>
+2) Roger Mohr and Bill Trigs, Desargues' Theorem, 
+<A HREF = "http://spigot.anu.edu.au/people/samer/Research/Doc/ECV_Tut_Proj_Geom/node25.html">http://spigot.anu.edu.au/people/samer/Research/Doc/ECV_Tut_Proj_Geom/node25.html</A>
+
+<P>
+Desargues' theorem is a bit complicated, but one cool thing is that 
+its converse is its dual.  This is easy to see if you stare at it: 
+&quot;three lines intersecting at the same point&quot; is dual to &quot;three points 
+lying on the the same line&quot;.   Even cooler, Desargues' theorem implies 
+its own converse!  Thus the property of being Desarguesian is self-dual.
+
+<P>
+Another nice fact about Desarguesian planes concerns collineations.  A
+&quot;collineation&quot; is a map from a projective plane to itself that 
+preserves
+all lines.   Collineations form a group, and this group acts on the set
+of all &quot;quadrangles&quot; - a quadrangle being a list of four points, no
+three of which lie on a line.   Axiom C) says that every projective
+plane has at least one quadrangle.  It turns out that if a projective 
+plane is Desarguesian, the group of collineations acts transitively on 
+the set of quadrangles: given any two quadrangles, there's a collineation
+carrying one to the other.  This is the reason why the ancient Greek trick 
+for adding and multiplying doesn't depend on the choice of quadrangle when 
+our projective plane is Desarguesian!
+
+<P>
+An even more beautiful fact about Desarguesian planes concerns their
+relation to higher dimensions.  Just as we defined projective planes
+through a list of axioms, we can also define projective  spaces of any
+dimension n = 1,2,3,....  The simplest example is FP<sup>n</sup> - the space of
+lines through the origin in F<sup>n+1</sup>, where F is some division
+ring.  The neat part is that when n &gt; 2,
+this is the <em>only</em> example.  Moreover, any projective plane sittting
+inside one of these higher-dimensional projective spaces is automatically 
+Desarguesian!  So the non-Desarguesian projective planes are really
+freaks of dimension 2.  
+
+<P>
+All this is very nice.   But there are some obvious further questions, 
+namely: what's special about projective planes that actually come from
+<em>fields</em>, and what can we say about non-Desarguesian projective planes?
+
+<P>
+The key to the first question is an old theorem proved by the last of
+the great Greek geometers, Pappus, in the 3rd century CE.  It turns out
+that in any projective plane coming from a field, the Pappus Theorem
+holds.  Conversely, any projective plane satisfying the Pappus Theorem 
+comes from a unique field.  We call such projective planes &quot;Pappian&quot;.
+
+<P>
+The Pappus theorem will be too scary if I explain it using only words,
+so I'll tell you to look at a picture instead.  The fun thing about this 
+picture is that you can move the red and green points around with your 
+mouse and see how things change:
+
+<P>
+3) Pappus' theorem (a JavaSketchPad demo by MathsNet),
+<A HREF = "http://www.anglia.co.uk/education/mathsnet/dynamic/pappus.html">http://www.anglia.co.uk/education/mathsnet/dynamic/pappus.html</A>
+
+<P>
+Now, what about the non-Desarguesian projective planes?  If we try to
+get a division ring from an <em>arbitrary</em> projective plane, we fail
+miserably.  However, we can still define addition and multiplication
+using the tricks described above.  These operations depend crucially our
+choice of a quadrangle.  But if we list all the axioms these operations
+satisfy, we get the definition of an algebraic gadget called a &quot;ternary
+ring&quot;.   
+
+<P>
+They're called &quot;ternary rings&quot; because they're usually described in
+terms of a ternary operation that generalizes xy + z.   But the precise
+definition is too depressing for me give here.  It's a classic example
+of what James Dolan calls &quot;centipede mathematics&quot;, where you take a
+mathematical concept and see how many legs you can pull off before it
+can no longer walk.   A ternary ring is like a division ring that can
+just barely limp along on its last legs. 
+
+<P>
+I'm not a big fan of centipede mathematics, but there is one really
+nice example of a ternary ring that isn't a division ring.  Namely, 
+the octonions!  These are almost a division ring, but their multiplication 
+isn't associative.  
+
+<P>
+I already talked about the octonions in &quot;<A HREF = "week59.html">week59</A>&quot;, &quot;<A HREF = "week61.html">week61</A>&quot;, &quot;<A HREF = "week104.html">week104</A>&quot;
+and &quot;<A HREF = "week105.html">week105</A>&quot;.  In &quot;<A HREF = "week106.html">week106</A>&quot;, I explained how you can define OP<sup>2</sup>, the
+projective plane over the octonions.  This is the best example of a
+non-Desarguesian projective plane.  One reason it's so great is that
+that its group of collineations is E6.  E6 is one of the five
+&quot;exceptional simple Lie groups&quot; - mysterious and exciting things that
+deserve all the study they can get!   
+
+<P>
+Next I want to talk about the relation between projective geometry
+and the <em>other</em> exceptional Lie groups, but first let me give you
+some references.  To start, here's a great book on projective planes 
+and all the curious centipede mathematics they inspire: 
+
+<P>
+4) Frederick W. Stevenson, Projective Planes, W. H. Freeman and Company,
+San Francisco, 1972.
+
+<P>
+You'll learn all about nearfields, quasifields, Moufang loops, Cartesian 
+groups, and so on.  
+
+<P> 
+Much of the same material is covered in these lectures by Hall,
+which are unfortunately a bit hard to find:
+
+5) Marshall Hall, Projective Planes and Other Topics, California
+Institute of Technology, Pasadena, 1954.   
+
+<P>
+For a more distilled introduction to the same stuff, 
+try the last chapter of Hall's book on group theory:
+
+<P>
+6) Marshall Hall, The Theory of Groups, Macmillan, New York, 1959.
+
+<P>
+If you're only interested in Desarguesian projective planes, try
+this:
+
+<P>
+7) Robin Hartshorne, Foundations of Projective Geometry, Benjamin, 
+New York, 1967. 
+
+<P>
+In particular, this book gives a nice account of the collineation group 
+in the Desarguesian case.  The punchline is simple to state, so I'll 
+tell you.  Suppose F is a division ring.  Then the collineation 
+group of FP<sup>2</sup> is generated by two obvious subgroups: PGL(3,F) and 
+the automorphism group of F.  The intersection of these two subgroups 
+is the group of inner automorphisms of F.  
+
+<P>
+If the above references are too intense, try this leisurely, literate
+introduction to the subject first:
+
+<P>
+8) Daniel Pedoe, An Introduction to Projective Geometry, Macmillan,
+New York, 1963.
+
+<P>
+And you're really interested in the <em>finite</em> projective planes, you
+can try this reference, which assumes very little knowledge of algebra:
+
+<P>
+9) A. Adrian Albert and Reuben Sandler, An Introduction to Finite
+Projective Planes, Holt, Rinehart and Winston, New York, 1968.
+
+<P>
+For a nice online introduction to projective geometry over the real
+numbers and its applications to image analysis, try this:
+
+<P>
+10) Roger Mohr and Bill Triggs, Projective geometry for image analysis,
+<A HREF = "http://spigot.anu.edu.au/people/samer/Research/Doc/ECV_Tut_Proj_Geom/node1.html">http://spigot.anu.edu.au/people/samer/Research/Doc/ECV_Tut_Proj_Geom/node1.html</A>
+
+<P>
+Finally, for interesting relations between projective geometry
+and exceptional Lie groups, try this:
+
+<P>
+11) J. M. Landsberg and L. Manivel: The projective geometry of
+Freudenthal's magic square, preprint available as 
+<A HREF = "http://xxx.lanl.gov/abs/math.AG/9908039">math.AG/9908039</A>.
+
+<P>
+The Freudenthal-Tits magic square is a strange way of describing
+most of the exceptional Lie groups in terms of the real numbers,
+complex numbers, quaternions and octonions.  In the usual way of 
+describing it, you start with two of these division algebras, say
+F and F'.  Then let J(F) be the space of 3x3 self-adjoint matrices 
+with coefficients in F.  This is a Jordan algebra with the product
+xy + yx.  As mentioned in &quot;<A HREF = "week106.html">week106</A>&quot;, Jordan algebras have a lot to
+do with projective planes.  In particular, the nontrivial projections 
+in J(F) correspond to the 1- and 2-dimensional subspaces of F<sup>3</sup>,
+and thus to the points and lines in the projective plane PF<sup>2</sup>.   
+
+<P>
+Next, let J_0(F) be the subspace of J(F) consisting of the <em>traceless</em> 
+self-adjoint matrices.  Also, let Im(F') be the space of pure imaginary 
+element of K'.  Finally, let the magic Lie algebra M(F,F') be given by
+
+<P>
+M(K,K') = Der(J(K)) + J_0(K) x Im(K') + Der(K')
+
+<P>
+Here + stands for direct sum, x stands for tensor product, and Der 
+stands for the space of derivations of the algebra in question.  
+It's actually sort of tricky to describe how to make M(F,F') into
+a Lie algebra, and I'm sort of tired, so I'll wimp out and tell
+you to read this stuff:
+
+<P>
+12) Hans Freudenthal, Lie groups in the foundations of geometry,
+Adv. Math. 1 (1964) 143.
+
+<P>
+13) Jacques Tits, Algebres alternatives, algebres de Jordan et 
+algebres de Lie exceptionelles, Proc. Colloq. Utrecht, vol. 135, 1962. 
+
+<P>
+14) R. D. Schafer, Introduction to Non-associative Algebras, Academic
+Press, 1966.
+
+<P>
+By the way, the paper by Freudenthal is a really mind-bending mix of 
+Lie theory and axiomatic projective geometry, definitely worth looking
+at.  Anyway, if you do things right you get the following square of Lie 
+algebras M(F,F'):
+
+<PRE>
+             F = R     F = C     F = H     F = O
+
+<P>
+F' = R        A1        A2        C3        F4
+F' = C        A2       A2+A2      A5        E6
+F' = H        C3        A5        B6        E7
+F' = O        F4        E6        E7        E8
+
+</PRE>
+
+Here R, C, H and O stand for the reals, complexes, quaternions and
+octonions.  If you don't know what all the Lie algebras in the square
+are, check out &quot;<A HREF = "week64.html">week64</A>&quot;.  (I
+should admit that the above square is not very precise, because I don't
+say which real forms of the Lie algebras in question are showing up.)
+
+<P>
+The first fun thing about this square is that F4, E6, E7 and E8 are 
+four of the five exceptional simple Lie algebras - and the fifth 
+one, G2, is just Der(O).  So all the exceptional Lie algebras are
+related to the octonions!  And the second fun thing about this square
+is that it's symmetrical along the diagonal, even though this is
+not at all obvious from the definition.  This is what makes the square
+truly &quot;magic&quot;.  
+
+<P>
+I don't really understand the magic square, but it's on my to-do
+list.  That's one reason I'm glad there's a new paper out that 
+describes the magic square in a way that makes its symmetry manifest:
+
+<P>
+15) C. H. Barton and A. Sudbery, Magic squares of Lie algebras, 
+preprint available as  <A HREF = "http://xxx.lanl.gov/abs/math.RA/0001083">math.RA/0001083</A>.
+
+<P>
+It also generalizes the magic square in a number of directions.  But
+what I really want is for the connection between projective planes, 
+division algebras, exceptional Lie groups and the magic square to 
+becomes truly <em>obvious</em> to me.  I'm a long way from that point.
+
+<P>
+
+<HR>
+
+<P>
+Here's an interesting email from David Broadhurst 
+about the failure of the Pappus theorem in quaternionic projective
+space:
+
+
+<PRE>
+Date: Fri, 3 Mar 2000 20:50:03 GMT
+From: D.Broadhurst@open.ac.uk (David Broadhurst)
+Subject: Paul Dirac and projective geometry
+
+John:
+
+Shortly before his death I spent a charming afternoon with Paul Dirac.
+Contrary to his reputation, he was most forthcoming.
+
+Among many things, I recall this: Dirac explained that while trained
+as an engineer and known as a physicist, his aesthetics were mathematical.
+He said (as I can best recall, nearly 20 years on): At a young age,
+I fell in love with projective geometry.  I always wanted to use to use 
+it in physics, but never found a place for it.
+
+Then someone told him that the difference between complex and quaternionic
+QM had been characterized as the failure of theorem in classical projective 
+geometry.
+
+Dirac's face beamed a lovely smile: "Ah," he said, "it was just such a thing
+that I hoped to do".
+
+I was reminded of this when backtracking to your "<A HREF = "week106.html">week106</A>", today.
+
+Best,
+
+David
+</PRE>
+
+<P> <HR>
+<em>The reader should not attempt to form a mental picture of a closed
+straight line.</em> - Frank Ayres, Jr., Projective Geometry
+
+
+
+<p> <hr>
+
+<!-- BEGIN FOOTER -->
+&#169; 2000  John Baez<br>
+baez@math.removethis.ucr.andthis.edu <br>
+<P>
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week144.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week146.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE><!-- END FOOTER -->

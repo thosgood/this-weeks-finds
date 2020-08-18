@@ -1,0 +1,518 @@
+<TITLE> week126 </TITLE>
+
+<!-- BEGIN HEADER -->
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week125.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week127.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE>
+<H4> November 17, 1998 </H4>
+<H2> This Week's Finds in Mathematical Physics (Week 126) </H2>
+<H4> John Baez </H4>
+<!-- END HEADER -->
+
+
+<P>
+To round off some things I said in the previous two weeks, let me
+say a bit more about string theory and Euler's mysterious equation
+
+<P>
+                      1 + 2 + 3 + &hellip; = -1/12.  
+<P>
+For this I'll need to assume a nodding acquaintance with quantum field 
+theory.   
+
+<P>
+There are two complementary ways to attack almost any problem in 
+quantum field theory: the Lagrangian approach, also known as 
+&quot;path-integral quantization&quot;, and the Hamiltonian approach, 
+also called
+&quot;canonical quantization&quot;.  Let me describe string theory from both 
+viewpoints.  I'll only talk about bosonic string theory, because my goal
+is to sketch why it works best in 26-dimensional spacetime, and because
+it's simpler than superstring theory.  Also, I'll only talk about
+closed strings.  
+
+<P>
+Classically, such a string is simply a map from a closed surface into
+spacetime.   In the Lagrangian approach to quantization, we start by
+choosing a formula for the action.  We use the simplest possibility,
+namely the <em>area</em> of the surface.  Of course, to define the area of a
+surface in spacetime, we need the spacetime to have a metric.  The
+simplest thing is to work with n-dimensional Minkowski spacetime, so
+let's do that.
+
+<P>
+We find the equations of motion of the string by extremizing the action.
+These equations imply that if we watch the string in space as time 
+passes, it acts like collection of loops made of perfectly elastic
+material.  These loops vibrate, split and join as time passes. 
+
+<P>
+It's perhaps a bit easier to see how the strings vibrate if we go over
+to the Hamiltonian approach.  This is a bit subtle, because string theory
+has an enormous amount of &quot;gauge symmetry&quot; - by which physicists mean
+any symmetry that arises from the ability to switch between different
+mathematical descriptions of what counts as the same physical situation.
+There's a recipe to figure out the gauge symmetries of any theory
+starting from the action.  Applying this to string theory,  it turns out
+that two maps from a surface into spacetime count as &quot;physically the
+same&quot; if they differ only by a reparametrization of the surface that's
+being mapped into spacetime.  
+
+<P>
+When going over to the Hamiltonian approach, we have to deal with this
+gauge symmetry.  There are different ways to deal with it - but we
+can't just ignore it.  Suppose we use the approach called &quot;lightcone
+gauge-fixing&quot;.  This amounts to choosing a parametrization of our 
+surface so that the 2 coordinates on it are related in a simple way to
+2 of the coordinates on n-dimensional Minkowski space.  We can do this
+because of the reparametrization gauge symmetry.  But once we've done
+it, we no longer have any more freedom to reparametrize our surface.  In
+short, we've squeezed all the juice out of our gauge symmetry: this is
+what &quot;gauge-fixing&quot; is all about.
+
+<P>
+We started by studying a map from a surface S into n-dimensional
+spacetime, which we can think of as field on S with n components. 
+However, in lightcone gauge, 2 components of this field are given by
+simple formulas in terms of the rest.  This lets us think of our string
+as a field X with only n-2 components.  And when we do this, it
+satisfies the simplest equation you could imagine!  Namely, the wave
+equation
+
+<P>
+  (d<sup>2</sup>/dt<sup>2</sup> - d<sup>2</sup>/dx<sup>2</sup>) X(t,x) = 0
+<P>
+This is same equation that describes an idealized violin string.   The
+only difference is that now, instead of a segment of violin string, we
+have a bunch of closed loops of string.  The energy, or Hamiltonian,
+is also given by the usual wave equation Hamiltonian:
+
+<P>
+  H = (1/2) &int; [(dX/dt)<sup>2</sup> + (dX/dx)<sup>2</sup>] dx
+<P>
+The first term represents the kinetic energy of the string, while
+the second represents its potential energy - the energy it has due
+to being stretched.
+
+<P>
+Henceforth I'll ignore the fact that loops of string can split or join,
+and only talk about the vibrations of a single loop of string.  Using
+the linearity of the wave equation, we can decompose any solution of the
+wave equation into sine waves moving in either direction - so-called 
+&quot;left-movers&quot; and &quot;right-movers&quot; - together with a solution of the form
+
+<P>
+                         X(t,x) = A + Bt
+<P>
+which describes the motion of the string's center of mass.  The
+left-movers and right-movers don't interact with each other or
+with the center-of-mass motion, so we can learn a lot just by studying
+the right-movers.  
+
+<P>
+For starters, suppose the field X has just one component.  Then the
+right-moving vibrational modes look like
+
+<P>
+              X(t,x) = A sin(ik(t-x)) + B cos(ik(t-x))
+<P>
+with frequencies k = 1,2,3,....  Abstractly, each of these vibrational
+modes is just like a harmonic oscillator of frequency k, so we can think
+of the string as a big collection of harmonic oscillators.  
+
+<P>
+Now suppose we quantize our string - or more precisely, the right-moving
+modes.  By what we've said, this just amounts to quantizing a bunch of 
+harmonic oscillators, one of frequency k for each natural number k.  This
+is great, since the harmonic oscillator is one of the easiest physical
+systems to quantize!  
+
+<P>
+As you may know, the quantum harmonic oscillator has discrete energy
+levels with energies k/2, 3k/2, 5k/2,....  (Here I'm working in units
+where &#295; = 1; otherwise I'd need a factor of &#295;.)  In particular,
+the energy of the lowest-energy state is called the &quot;zero-point
+energy&quot; or &quot;vacuum energy&quot;.  It usually doesn't hurt much
+to subtract this off by redefining the Hamiltonian, but sometimes it's
+important.
+
+<P>
+Now, what's the total zero-point energy of all the right-moving modes?
+To figure this out, we add up the zero-point energy k/2 for all
+frequencies k = 1,2,3,..., obtaining
+
+<P>
+                     (1 + 2 + 3 + &hellip; )/2.
+<P>
+Of course this is divergent, but there are lots of sneaky tricks for
+assigning values to divergent series, so let's not be disheartened!  
+Euler figured out such a trick for calculating the sum 1 + 2 + 3 + ....,
+and he got the value -1/12.  If we momentarily assume this makes sense,
+then the total zero-point energy works out to be
+
+<P>
+                            -1/24 !!!
+<P>
+More generally, if we have a string in n-dimensional Minkowski spacetime,
+the field X has n-2 components, so the total zero-point energy is
+
+<P>
+                           -(n-2)/24
+<P>
+Now, for other reasons, it turns out that string theory works best when
+this zero-point energy is -1.  This is a bit tricky to explain, but it
+has to do with the subtleties of gauge-fixing in quantum field theory.
+Things that work nicely at the classical level can easily screw up at
+the quantum level; in particular, symmetries of a classical theory can
+be lost when you quantize.  One has to really check that the light-cone
+gauge fixing doesn't screw up the Lorentz-invariance of string theory. 
+It turns out that it <em>does</em> screw it up unless the zero-point energy of
+the right-movers is -1.  So bosonic string theory works best when
+
+<P>
+                          (n-2)/24 = 1
+<P>
+or in other words, when n = 26.
+
+<P>
+You really shouldn't take my word for this stuff!  You can find more 
+details around pages 95-96 in volume 1 of the following book:
+
+<P>
+1) Michael B. Green, John H. Schwarz and Edward Witten, Superstring Theory,
+2 volumes, Cambridge University Press.
+
+<P>
+There's a lot I should say to fill in the details, but the most urgent 
+matter is to explain Euler's mysterious formula
+
+<P>
+                      1 + 2 + 3 + &hellip; = -1/12
+<P>
+As I said in &quot;<A HREF = "week124.html">week124</A>&quot;, this is an example of zeta function regularization.  
+The Riemann zeta function is defined by
+
+<P>
+                      &zeta;(s) = 1/1<sup>s</sup> + 1/2<sup>s</sup> + 1/3<sup>s</sup> + ....
+<P>
+when the sum converges, but it analytically continues to values of s where 
+the sum doesn't converge.  If we do the analytic continuation, we get 
+
+<P>
+                          &zeta;(-1) = -1/12.
+<P>
+Proving this rigorously is a bit of work.  One way is to use the
+&quot;functional equation&quot; for the Riemann zeta function, which says that 
+
+<P>
+                             F(s) = F(1-s)
+<P>
+where 
+
+<P>
+                    F(s) = &pi;<sup>-s/2</sup> &Gamma;(s/2) &zeta;(s)
+<P>
+and &Gamma; is the famous function with &Gamma;(n) = (n-1)! for n = 1,2,3,...
+and &Gamma;(s+1) = s &Gamma;(s) for all s.  Using 
+
+<P>
+                       &Gamma;(1/2) = &radic;&pi;
+<P>
+
+and
+
+<P>
+                       &zeta;(2) = &pi;<sup>2</sup>/6,
+<P>
+the functional equation implies &zeta;(-1) = -1/12.  But of course you have
+to prove the functional equation!  A nice exposition of this can be found 
+in:
+
+<P>
+2) Neal Koblitz, Introduction to Elliptic Curves and Modular Forms, 
+2nd edition, Springer-Verlag, 1993.
+
+<P>
+I don't know Euler's original argument that &zeta;(-1) = -1/12.  However,
+Dan Piponi recently gave the following &quot;physicist's proof&quot; on the
+newsgroup sci.physics.research.  Let D be the differentiation operator:
+
+<P>
+                           D = d/dx
+<P>
+Then Taylor's formula says that translating a function to the left by
+a distance c is the same as applying the operator e<sup>cD</sup> to it, since
+
+<P>
+                 e<sup>cD</sup> f  =  f + cf&prime; + 
+(c<sup>2</sup>/2!)f&Prime; + &hellip;
+
+<P>
+Using some formal manipulations we obtain
+
+<P>
+   f(0) + f(1) + f(2) + &hellip; = [(1 + e<sup>D</sup> + e<sup>2D</sup> + &hellip; )f](0)
+<P>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+                                 = [(1/(1 - e<sup>D</sup>)) f](0)
+
+<P>
+or if F is an integral of f, so that DF = f, 
+
+<P>
+         f(0) + f(1) + f(2) + &hellip; = [(D/(1 - e<sup>D</sup>)) F](0) 
+<P>
+This formula can be made rigorous in certain contexts, but now we'll
+throw rigor to the winds and apply it to the function f(x) = x, obtaining
+
+<P>
+              1 + 2 + 3 + &hellip; = [(D/(1 - e<sup>D</sup>)) F](0) 
+<P>
+where 
+<P>
+                         F(x) = x<sup>2</sup>/2
+<P>
+To finish the job, we work out the beginning of
+the Taylor series for D/(1 - e<sup>D</sup>).   The coefficients of this are
+closely related to the Bernoulli numbers, and this could easily lead us
+into further interesting digressions, but all we need to know is
+
+<P>
+                  D/(1 - e<sup>D</sup>) = -1 + D/2 - D<sup>2</sup>/12 + ....
+<P>
+Applying this operator to F(x) = x<sup>2</sup>/2 and evaluating the result at 
+x = 0, the only nonzero term comes from the D<sup>2</sup> term in the power 
+series, so we get 
+
+<P>
+                1 + 2 + 3 + .... = [(-D<sup>2</sup>/12) F](0) = -1/12
+<P>
+Voil&agrave;!  
+
+<P>
+By the way, after he came up with this proof, Dan Piponi found an
+almost identical proof in the following book:
+
+<P>
+3) G. H. Hardy, Divergent Series, Chelsea Pub. Co., New York, 1991.
+
+<P>
+Now let me change gears.  Besides the Riemann zeta function, there are a
+lot of other special functions that show up in the study of elliptic
+curves.  Unsurprisingly, many of them are also important in string
+theory.  For example, consider the partition function of bosonic string
+theory.  What do I mean by a &quot;partition function&quot; here?  Well, whenever
+we have a quantum system with a Hamiltonian H, its partition function is
+defined to be
+
+<P>
+                         Z(&beta;) = trace(exp(-&beta;H))
+<P>
+where &beta; &gt; 0 is the inverse temperature.  This function is fundamental to
+statistical mechanics, for reasons that I'm too lazy to explain here.
+
+<P>
+Before tackling the bosonic string, let's work out the partition function
+for a quantum harmonic oscillator.  To keep life simple, let's subtract
+off the zero-point energy so the energy levels are 0, k, 2k, and so on.
+Mathematically, these energy levels are just the eigenvalues of the
+harmonic oscillator Hamiltonian, H.  Thus the eigenvalues of exp(-&beta;H)
+are 1, exp(-&beta;k), exp(-2&beta;k), etc.  The trace of this operator is just 
+the sum of its eigenvalues, so we get
+
+<P>
+           Z(&beta;) = 1 + exp(-&beta;k) + exp(-2&beta;k) + ...
+<P>
+&nbsp; &nbsp; &nbsp; &nbsp;
+                = 1/(1 - exp(-&beta;k))
+<P>
+This was first worked out by Planck, who assumed the harmonic oscillator
+had discrete, evenly spaced energy levels and computed its partition
+function as part of his struggle to understand the thermodynamics of
+the electromagnetic field.
+
+<P>
+Okay, now let's do the bosonic string.  To keep life simple we again
+subtract off the zero-point energy.  Also, we'll consider only the
+right-moving modes, and we'll start by assuming the field X describing
+the vibrations of the string has only one component.  As we saw before,
+the string then becomes the same as a collection of quantum harmonic
+oscillators with frequencies k = 1, 2, 3, and so on.  We've seen that
+the oscillator with frequency k has partition function 1/(1 - exp(-&beta;k)).
+To get the partition function of a quantum system built from a bunch of
+noninteracting parts, you  multiply the partition functions of the parts
+(since the trace of a tensor product of operators is the product of their 
+traces).  So the partition function of our string is 
+                
+<P>
+              &prod;  1/(1 - exp(-&beta;k))
+<P>       
+where we take the product over k = 1,2,3, &hellip;.
+So far, so good.  But now suppose we take the zero-point energy into
+account.  We do this by subtracting 1/24 from the Hamiltonian of the
+string, which has the effect of multiplying its partition function by 
+exp(&beta;/24).  Thus we get
+
+<P>
+         Z(&beta;)  =  exp(&beta;/24)  &prod;  1/(1 - exp(-&beta;k))
+<P>
+Lo and behold: the reciprocal of the Dedekind eta function!  
+
+<P>
+What's that, you ask?  It's a very important function in the theory of
+elliptic curves.  People usually write it as a function of q = exp(-&beta;),
+like this:
+<P>
+                 &eta;(q) = 
+q<sup>1/24</sup> &prod; (1 - q<sup>k</sup>)
+<P>
+
+But to see the relation to elliptic curves we should switch variables
+yet again and write q = exp(2 &pi; i &tau;).  I already talked about this
+variable &tau; in &quot;<A HREF = "week125.html">week125</A>&quot;, where we were studying the elliptic curve
+formed by curling up a parallelogram like this in the complex plane:
+
+<PRE>
+                         &tau;            &tau; + 1 
+                         *             *
+
+
+
+
+                      *              *
+                      0              1
+</PRE>
+
+In physics, this elliptic curve is just one possibility for the shape of
+a surface traced out by a string.  The number 1 says how far the surface
+goes in the <em>space</em> direction before it loops around, and the number 
+&tau;
+says how far it goes in the <em>time</em> direction before it loops around!
+
+<P>
+(The idea of &quot;looping around in time&quot; may seem bizarre, but
+it's very important in physics.  It turns out that studying the
+statistical mechanics of a system at a given inverse temperature is the
+same as studying Euclidean quantum field theory on a spacetime where
+time is periodic with a given period.  This idea is what relates the
+variables &beta; and &tau;.)
+
+<P>
+Now as I explained in &quot;<A HREF = "week13.html">week13</A>&quot;, the above elliptic curve is not just
+an abstract torus-shaped thingie.  We can also think of it as the set of
+complex solutions of the following cubic equation in two variables:
+
+<P>
+                        y<sup>2</sup> = 4x<sup>3</sup> - g<sub>2</sub> x - g<sub>3</sub>
+<P>
+where the numbers g<sub>2</sub> and g<sub>3</sub> are certain functions of 
+&tau;.  Moreover,
+this equation defines an elliptic curve whenever the polynomial on
+the right-hand side doesn't have repeated roots.  So among other things,
+elliptic curves are really just a way of studying cubic equations!
+
+<P>
+But when does 4x<sup>3</sup> - g<sub>2</sub> x - g<sub>3</sub> have
+repeated roots?  Precisely when the &quot;discriminant&quot;
+
+<P>
+&Delta; = g<sub>2</sub><sup>3</sup> - 27 g<sub>3</sub><sup>2</sup> 
+<P>
+equals zero.  This is just the analog for cubics of the more familiar
+discriminant for quadratic equations.  
+
+<P>
+Now for the cool part: there's an explicit formula for the discriminant
+in terms of the variable &tau;.  And it involves the 24th power of the 
+Dedekind eta function!  Here it is:
+
+<P>
+                     &Delta; = (2 &pi;)<sup>12</sup> &eta;<sup>24</sup> 
+<P>
+If you haven't seen this before, it should seem <em>amazing</em> that the
+discriminant of a cubic equation can be computed using the 24th power of
+a partition function that shows up in string theory.  Of course that's
+not how it went historically: Dedekind discovered his eta function long
+before strings came along.  What's really happening is that string
+theory is exploiting special features of complex curves, and thus acquires
+some of the "24-ness" of elliptic curves.
+
+<P>
+If I have the energy, next time I'll give you a better explanation of
+why bosonic string theory works best in 26 dimensions, using some
+special properties of the Dedekind eta function.
+
+<P>
+Meanwhile, if you want to see pictures of the Dedekind eta function,
+together with some cool formulas it satisfies, try these:
+
+<P>
+4) Mathworld, Dedekind eta function, 
+<A HREF = "http://mathworld.wolfram.com/DedekindEtaFunction.html">http://mathworld.wolfram.com/DedekindEtaFunction.html</A>
+
+<P>
+5) Wikipedia, Dedekind eta function,
+<A HREF = "http://en.wikipedia.org/wiki/Dedekind_eta_function">http://en.wikipedia.org/wiki/Dedekind_eta_function</a>
+
+
+<P>
+<p> <hr>
+<em>
+Dear Sir,
+<P>
+I am very much gratified on perusing your letter of the 8th
+February 1913.  I was expecting a reply from you similar to the one
+which a Mathematics Professor at London wrote asking me to study
+carefully Bromwich's </em>Infinite Series<em> and not fall into the
+pitfall of divergent series.  I have found a friend in you who views
+my labors sympathetically.  This is already some encouragement to me
+to proceed with an onward course.  I find in many a place in your letter
+rigourous proofs are required and so on and you ask me to communicate
+the method of proof.  If I had given you my methods of proof I am sure
+you will follow the London Professor.  But as a fact I did not give
+him any proof but made some assertions as the following under my new
+theory.  I told him that the sum of an infinite number of terms in the
+series </em>1 + 2 + 3 + 4 + ... = -1/12<em> under my theory.  If I tell you
+this you will at once point out to me the lunatic asylum as my goal.
+</em> - Srinivasa Ramanujan, second letter to G. H. Hardy
+
+<P>
+<HR><P>
+<!-- BEGIN FOOTER -->
+&#169; 1998  John Baez<br>
+baez@math.removethis.ucr.andthis.edu <br>
+<P>
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week125.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week127.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE><!-- END FOOTER -->

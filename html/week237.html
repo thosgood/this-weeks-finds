@@ -1,0 +1,708 @@
+<TITLE> week237 </TITLE>
+
+<!-- BEGIN HEADER -->
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week236.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week238.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE>
+<H4> August 10, 2006 </H4>
+<H2> This Week's Finds in Mathematical Physics (Week 237) </H2>
+<H4> John Baez </H4>
+<!-- END HEADER -->
+
+
+
+<P>
+This Week I'd like to talk about math books in Shanghai, 
+and Urs Schreiber's blog entry on 
+the gauge 3-group of M-theory.   But first:
+
+<P>
+<DIV ALIGN = CENTER>
+<IMG SRC = "klein_quartic_egan.gif">
+</DIV>
+<P>
+
+<P>
+1) Greg Egan, Klein's quartic equation,
+<A HREF = "http://gregegan.customer.netspace.net.au/SCIENCE/KleinQuartic/KleinQuarticEq.html">http://gregegan.customer.netspace.net.au/SCIENCE/KleinQuartic/KleinQuarticEq.html</A>
+
+<P>
+I discussed Klein's quartic curve in &quot;<A HREF = "week214.html">week214</A>&quot; and &quot;<A HREF = "week215.html">week215</A>&quot;.
+The idea is to take the nontrivial complex solutions of
+
+<P>
+u<sup>3</sup> v + v<sup>3</sup> w + w<sup>3</sup> u = 0
+
+<P>
+and &quot;projectivize&quot; them - in other words, count two 
+as the same if one is just a multiple of the other:
+
+<P>
+(u',v',w') = c(u,v,w)
+
+<P>
+The result is a 3-holed Riemann surface with the maximum number of
+symmetries!  Here by a &quot;symmetry&quot; I mean a conformal
+transformation mapping the surface to itself.  Back in 1893 Hurwitz
+proved something quite bizarre: an n-holed Riemann surface can't
+have more than 84(n-1) symmetries if n > 1.  So, a 3-holed Riemann
+surface can't have more than 168 symmetries - and Klein's quartic
+curve has exactly that many!
+
+<P>
+These 168 symmetries were constructed by Klein way back in 1879, 
+but Egan gives an elementary proof that uses only algebra and a 
+bit of calculus...  and a lot of cleverness.  And, his page has 
+a wonderful spinning picture of the <em>real</em> solutions of 
+
+<P>
+u<sup>3</sup> v + v<sup>3</sup> w + w<sup>3</sup> u = 0.
+
+<P>
+This is what you see above.
+
+<P>
+As you can see, it consists of lots of lines through the origin,
+including the u, v, and w axes.  When we &quot;projectivize&quot;, we get 
+one point for each of these lines, so we get a curve which is the 
+real version of Klein's quartic curve.  This curve has an obvious 
+3-fold symmetry, from cyclically permuting the coordinate axes.
+The rest of the 168 symmetries are only easy to visualize when we go to 
+the complex version - as Egan explains.  
+
+<P>
+It's great that Egan can draw this thing in Perth and I can easily
+see it my apartment here in Shanghai - I feel like I'm living in a 
+futuristic world, and I'm only 45.  What it'll be like when I'm 64?
+
+<P>
+Another pleasant thing about life in Shanghai, at least for a 
+well-off visitor from America, is how cheap everything is.  
+It's clear why the US is running an enormous trade deficit: 
+there's a vast economic differential.  Stopping the flow of 
+goods one way and dollars the other would be like damming the 
+Niagara Falls.  
+
+<P>
+For example, last night I saw this excellent hardcover book 
+on sale for 78 yuan, or about $10:
+
+<P>
+2) Yu. I. Manin and A. A. Panchishkin, Introduction to Modern
+Number Theory, second edition, Science Press, 2005.
+
+<P>
+It's a great overview of number theory, from the basics through
+class field theory to L-functions, modular forms and the Langlands 
+program!  It's wisely divided into three sections: &quot;problems and
+tricks&quot;, &quot;ideas and theories&quot;, and &quot;analogies and visions&quot;.  
+Back when I used to hate number theory, I thought it was all
+problems and tricks.  Now I'm beginning to learn some of the 
+ideas and theories, and I hope eventually to grasp the analogies 
+and visions discussed here - for example, the analogy between 
+Arakelov geometry and noncommutative geometry.
+
+<P>
+$10 is a nice price for a math book.   If you buy this one from 
+Springer Verlag, you'll pay ten times that.  Illegal knockoffs 
+of Western books are common in China, but I think the one I saw 
+is legal, since Springer has signed an agreement with Science 
+Press, which is run by the Chinese Academy of Sciences.  In 
+exchange for letting Science Press publish Springer books in
+China at affordable prices, Springer gets to publish translations 
+of Chinese journals in the West at unaffordable prices.
+
+<P>
+By the way - after checking out the bookstore, I went out to the 
+street vendors and bought an excellent dinner of rice, sausage 
+and vegetables for 35 yuan - about 40 cents US.  It was cooked 
+by a husband and wife in a wok on a cart.  
+
+<P>
+Just after I bought it, someone yelled the Chinese equivalent 
+of &quot;cops!&quot;, and all the street vendors suddenly dashed away 
+with their carts, leaving only the woman, who kindly handed 
+me my dinner in a styrofoam pack before walking off.  They
+clearly had this down to a fine art: it all happened faster 
+than my brain could process.  I guess the cops don't allow
+street vendors there.  
+
+<P>
+I only wish I'd noticed: did the street vendors turn off their
+gas stoves before running, or run while still cooking?  
+
+<P>
+Anyway, on to some serious math and physics.
+
+<P>
+You've probably heard of some mysterious thing called &quot;M-theory&quot;
+that lives in 11 dimensions.  Back in &quot;<A HREF = "week158.html">week158</A>&quot; and &quot;<A HREF = "week159.html">week159</A>&quot; 
+I took a stab at understanding this.  Now I'll try again, with
+a lot of help from Urs Schreiber:
+
+<P>
+3) Urs Schreiber, Castellani on free differential algebras
+in supergravity: gauge 3-group of M-theory, 
+<A HREF = "http://golem.ph.utexas.edu/string/archives/000840.html">http://golem.ph.utexas.edu/string/archives/000840.html</A>
+
+<P>
+Calling M-theory a &quot;theory&quot; is a bit misleading, because nobody 
+knows what this theory is!  There's just a lot of clues pointing
+to its existence.  It seems to be the quantum version of a 
+well-defined classical field theory called &quot;11-dimensional 
+supergravity&quot;.   And, it seems to involve 2-branes and 5-branes:
+2- and 5-dimensional membranes that trace out 3- and 6-dimensional 
+surfaces in spacetime, just like strings trace out 2-dimensional 
+surfaces.  
+
+<P>
+Back in &quot;<A HREF = "week158.html">week158</A>&quot; I wrote down a Lagrangian for 11d supergravity.
+This is a truly monstrous thing involving three fields:
+
+<P>
+A) a frame field e - the &quot;graviton&quot;,
+
+<P>
+B) a field &psi; taking values in the real spin-3/2 
+representation of the 11d Lorentz group - the &quot;gravitino&quot;,
+
+<P>
+C) a 3-form A. 
+
+<P>
+When it was discovered back in 1978, people were
+interested in 11d supergravity mainly because it was the
+highest-dimensional theory they could concoct that includes 
+general relativity and supersymmetry - a symmetry that interchanges 
+bosons and fermions, in this case gravitons and gravitinos - 
+without including any particles of spin &gt; 2.  So, the fact that 
+it looked like a mess wasn't such a big deal.  But now that 
+some people are taking it very seriously, it's worth trying 
+to understand the math behind it more deeply, to see what makes 
+it tick.
+
+<P>
+For example: what's so great about 11 dimensions?  And: 
+what's the reason for that 3-form?
+
+<P>
+I'm not a huge fan of string theory, but I like puzzles of
+this sort - finding patterns that make certain things work
+only in certain dimensions, and stuff like that.  So, I got 
+intrigued when I learned that super-Yang-Mills theory and
+superstring theory are nice in dimension 10 because of special 
+properties of the octonions - see &quot;<A HREF = "week104.html">week104</A>&quot;.  Maybe a little
+extra stretch could bring us to dimension 11?   
+
+<P>
+I got even more intrigued when I ran across two competing 
+explanations for that 3-form in 11d supergravity.  One was 
+that it's a connection on a twice categorified version of 
+a U(1) bundle.  The other was that it's the Chern-Simons
+form for an E<sub>8</sub> gauge theory. 
+
+<P>
+Let me say a bit about what these means.  I talked about categorified
+U(1) bundles in &quot;<A HREF = "week210.html">week210</A>&quot;, so
+I'll be sort of brief about those....
+
+<P>
+A connection on a U(1)-bundle looks locally like a 1-form, 
+so we can integrate it along a path and compute how the 
+phase of charged particle changes when we move it along that 
+path:
+
+<PRE>
+             f
+  x------------&gt;-----y    a path f from the point x to the point y:
+                                 we write this as f: x &rarr; y
+
+</PRE>
+Believe it or not, this is the basis of all modern ideas on 
+electromagnetism!
+
+<P>
+If we categorify this whole idea once, we get a kind of
+connection that looks locally like a 2-form.  Folks call this
+a &quot;connection on a U(1) gerbe&quot;, but don't let the use of French 
+here intimidate you: they just do that so they can charge more 
+for the wine.  It's just a gadget that you can integrate over 
+a surface, to compute how the phase of a charged <em>string</em> moves 
+when we slide it along that surface:
+
+<PRE>
+              f
+    -----------&gt;-----
+   /        ||       \
+  x         ||F       y   a path-of-paths F from the path f to the path g:
+   \        \/       /            we write this as F: f =&gt; g
+    -----------&gt;-----
+               g
+</PRE>
+And, if we categorify once more, we get a &quot;connection on a 
+U(1) 2-gerbe&quot;.  This is something that looks locally like a 
+3-form, which describes what happens when we move <em>2-branes</em> 
+around!
+
+<P>
+If you're wondering why I'm talking about &quot;categorifying&quot;, 
+it's because this:
+
+<PRE>
+             f
+  x------------&gt;-----y    
+</PRE>
+is also a picture of a morphism in a category, while this:
+
+<PRE>
+              f
+    -----------&gt;-----
+   /        ||       \
+  x         ||F       y  
+   \        \/       /  
+    -----------&gt;-----
+               g
+</PRE>
+is a picture of a 2-morphism in a 2-category and so on.  We're
+talking about processes between processes between processes... 
+so we're climbing up the ladder of n-categories.
+
+<P>
+Anyway: since 11d supergravity has a 3-form in it, and M-theory 
+apparently has 2-branes in it, maybe we need to categorify 
+the concept of a U(1) bundle twice to understand what's going
+on here!
+
+<P>
+I came up with this crazy idea on my own back in &quot;<A HREF =
+"week158.html">week158</A>&quot;, but it's an obvious guess after you
+learn that the 2-form field called B in 10d superstring theory really
+<em>is</em> a connection on a U(1) gerbe:
+
+<P>
+4) Alan L. Carey, Stuart Johnson and Michael K. Murray,
+Holonomy on D-branes, available as <A HREF = "http://arxiv.org/abs/hep-th/0204199">arXiv:hep-th/0204199</A>.
+
+<P>
+Unfortunately there are some problems with naively pushing
+this idea up a dimension.  For example, a crucial factor of 
+1/6 in the Lagrangian for 11d supergravity is not explained 
+by thinking of A this way.
+
+<P>
+Another possible explanation was that this 3-form is the 
+Chern-Simons form of an E<sub>8</sub> bundle over spacetime:
+
+<P>
+5) Emanuel Diaconescu, Gregory Moore and Edward Witten,
+E<sub>8</sub> gauge theory, and a derivation of K-theory from M-theory,
+Adv. Theor. Math. Phys. 6 (2003) 1031-1134.  Also available as 
+<A HREF = "http://arxiv.org/abs/hep-th/0005090">arXiv:hep-th/0005090</A>.
+
+<P>
+6) Emanuel Diaconescu, Daniel S. Freed and Gregory Moore,
+The M-theory 3-form and E<sub>8</sub> gauge theory, available as
+<A HREF = "http://arxiv.org/abs/hep-th/0312069">arXiv:hep-th/0312069</A>.
+
+<P>
+This idea explains that factor of 1/6.  And, it might move towards an
+explanation of how the octonions get into the act, because the group
+E<sub>8</sub> is deeply related to the octonions.  But as the authors
+of the above paper say, &quot;the E<sub>8</sub> gauge field plays a
+purely topological role and appears, in some sense, to be a
+'fake'.&quot; In particular, you don't see any E<sub>8</sub>
+connection staring you in the face in the Lagrangian for 11d
+supergravity that I wrote down in &quot;<A HREF =
+"week158.html">week158</A>&quot;.
+
+<P>
+Later, it started becoming clear that both ideas - the twice 
+categorified U(1) connection and the E<sub>8</sub> gauge theory - fit 
+together in some way:
+
+<P>
+7) Paolo Aschieri and Branislav Jurco, Gerbes, M5-brane 
+anomalies and E<sub>8</sub> gauge theory, JHEP 0410 (2004), 068.
+Also available as <A HREF = "http://arxiv.org/abs/hep-th/0409200">arXiv:hep-th/0409200</A>.
+
+<P>
+It all became a lot clearer to me when Urs Schreiber read 
+these papers and translated them into a language I like:
+
+<P>
+8) Leonardo Castellani, Lie derivatives along antisymmetric 
+tensors, and the M-theory superalgebra, available as <A HREF = "http://arxiv.org/abs/hep-th/0508213">arXiv:hep-th/0508213</A>.
+
+<P>
+9) Pietro Fr&eacute; and Pietro Antonio Grassi, Pure spinors, 
+free differential algebras, and the supermembrane, available
+as <A HREF = "http://arxiv.org/abs/hep-th/0606171">arXiv:hep-th/0606171</A>.
+
+<P>
+The idea is to think of 11d supergravity as a twice categorifed
+gauge theory - not just the 3-form field in 11d supergravity,
+but all the fields, in a unified way!  
+
+<P>
+For this, we need to do something much more clever than taking
+11d spacetime and slapping a U(1) 2-gerbe on top of it.  We 
+need to combine the graviton, the gravitino and the 2-form field 
+into a connection on a <em>nonabelian</em> 2-gerbe.  
+
+<P>
+Here things get a bit technical, but Urs has covered the technical
+points quite nicely in his blog, so right now I'll just try to
+give you some hand-wavy intuitions.
+
+<P>
+Very roughly speaking, an connection on a bundle takes any path 
+in spacetime
+
+<PRE>
+             f
+  x------------&gt;-----y    
+</PRE>
+and gives you an element of some <em>group</em>, which says how a particle
+would transform if you moved it along this path.  This group could
+be U(1) - the group of phases - or it could be something more fun,
+like a <em>nonabelian</em> group.  
+
+<P>
+If we categorify this concept, we get the concept of a connection
+on a &quot;2-bundle&quot; (which is more or less the same as a gerbe).  Such
+a connection takes any path and gives you an <em>object</em> in some 
+<em>2-group</em>, 
+but it also takes any surface like this:
+
+<PRE>
+              f
+    -----------&gt;-----
+   /        ||       \
+  x         ||F       y  
+   \        \/       /  
+    -----------&gt;-----
+               g
+</PRE>
+and gives you a <em>morphism</em> in this 2-group.  You see, 2-group
+is a kind of category that acts like a group, and a category 
+has &quot;objects&quot; and &quot;morphisms&quot;.  The morphisms go between objects.  
+For more on 2-groups, try:
+
+<P>
+10) Higher-dimensional algebra V: 2-Groups, with Aaron D. Lauda, 
+Theory and Applications of Categories 12 (2004), available at
+<A HREF = "http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html">http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html</A> &nbsp;
+Also available as <A HREF = "http://arxiv.org/abs/math.QA/0307200">math.QA/0307200</A>.
+
+<P>
+If we categorify once more, we get connections on a &quot;3-bundle&quot;,
+which is more or less the same thing as a &quot;2-gerbe&quot; - unfortunately
+the numbering systems are off by one.   This gives us objects,
+morphisms and 2-morphisms in a <em>3-group</em>, which describe what 
+happens when we move particles, strings and 2-branes.
+
+<P>
+And so on:
+
+<PRE>
+group         point particles
+2-group       point particles and strings
+3-group       point particles, strings and 2-branes
+4-group       point particles, strings, 2-branes and 3-branes
+</PRE>
+etc.  
+
+<P>
+So, if 11d supergravity is a twice categorified gauge theory,
+we need to know its symmetry <em>3-group</em>.  
+
+<P>
+But actually, since we're doing geometry, this 3-group should
+be a &quot;Lie 3-group&quot;.  In other words, very roughly speaking, 
+a 3-group that has a <em>manifold</em> of objects, a manifold of 
+morphisms, and a manifold of 2-morphisms, where all the 
+operations are smooth.
+
+<P>
+But actually, since we're doing supersymmetric geometry, we
+need a &quot;Lie 3-supergroup&quot;!  In other words, very roughly
+speaking, a 3-group that has a <em>supermanifold</em> of objects, 
+a supermanifold of morphisms, and a supermanifold of 2-morphisms, 
+where all the operations are smooth.  (Maybe I should say 
+&quot;supersmooth&quot;, just to be consistent.)
+
+<P>
+If you don't know what a supermanifold is, now is probably 
+not the time to learn.  I mean, not right this second.
+The point is just this: supersymmetry 
+infests everything once you let it in the door, just like 
+n-categories, and just like manifolds - and now we're doing all three.   
+
+<P>
+In fact, nobody has even written down a rigorous definition
+of a Lie 3-supergroup yet!  But, Lie algebras are in some ways 
+simpler than Lie groups, and they're a good start, so we can
+be glad that people <em>do</em> know what a Lie 3-superalgebra is!
+
+<P>
+And Urs describes, in his blog, the relevant Lie 3-superalgebra
+for 11d supergravity!
+
+<P>
+I would like to say more about this, but it's getting a bit 
+tough trying to talk about this stuff in a fun, easily accessible 
+style, and I have the feeling I'm no longer succeeding.  In fact,
+I don't think I can give a &quot;fun, easily accessible&quot; description 
+of this specific Lie 3-superalgebra - at least not yet.  So, 
+now I'll completely give up trying to be comprehensible, and simply 
+state some facts.
+
+<P>
+As shown here:
+
+<P>
+11) Higher-dimensional algebra VI: Lie 2-Algebras, with Alissa
+Crans, Theory and Applications of Categories 12 (2004),
+available at <A HREF = "http://www.tac.mta.ca/tac/volumes/12/15/12-15abs.html">http://www.tac.mta.ca/tac/volumes/12/15/12-15abs.html</A> &nbsp;
+Also available as <A HREF = "http://arxiv.org/abs/math.QA/0307200">math.QA/0307200</A>.
+
+<P>
+the category of Lie n-algebras is equivalent to the category
+of L<sub>&infin;</sub> algebras which as chain complexes have only n
+nonvanishing terms, the 0th to the (n-1)st.  L<sub>&infin;</sub> algebras
+are just algebras of Stasheff's L<sub>&infin;</sub> operad in the category
+of chain complexes of vector spaces - see &quot;<A HREF = "week191.html">week191</A>&quot;
+and especially these:
+
+<P>
+12) Martin Markl, Steve Schnider and Jim Stasheff, Operads in Algebra,
+Topology and Physics, AMS, Providence, Rhode Island, 2002.
+
+<P>
+James Stasheff, Hartford/Luminy talks on operads, available at 
+<A HREF = "http://www.math.unc.edu/Faculty/jds/operadchik.ps">http://www.math.unc.edu/Faculty/jds/operadchik.ps</A>
+
+<P>
+But, we can replace vector spaces by Z/2-graded vector spaces and
+everything still works.  Physicists call Z/2-graded vector spaces
+&quot;super vector spaces&quot;.  So, a &quot;Lie n-superalgebra&quot;
+is an algebra of the L<sub>&infin;</sub> operad in the category of
+chain complexes of super vector spaces.
+
+<P>
+Given this, to specify a Lie 3-superalgebra we first need to
+specify the 0-chains, then the 1-chains, then the 2-chains.  
+
+<P>
+For the particular one Urs mentions, we have
+
+<PRE>
+{0-chains} = 11d Poincar&eacute; Lie superalgebra
+{1-chains} = {0}
+{2-chains} = R
+</PRE>
+
+Here R is the real numbers, and this 1-dimensional thing is 
+what ultimately gives the 3-form field A in 11d supergravity.   
+As a vector space, the 11d Poincar&eacute; Lie superalgebra is the 
+direct sum of an even part, which is the usual Poincar&eacute; Lie 
+algebra iso(11,1), and an odd part, which is the 32-dimensional 
+real spinor rep of so(11,1).  These give the graviton (or
+more precisely the Levi-Civita connection) and the gravitino
+in 11d supergravity.  
+
+<P>
+Next we need to make this stuff into a chain complex.  That's
+easy: the differential <em>has</em> to be zero.
+
+<P>
+Next, we need to specify the L<sub>&infin;</sub> structure on this
+chain complex.  First, we need a binary bracket operation, 
+like in an ordinary Lie superalgebra.
+The bracket of 0-chains is the usual bracket in the 11d Poincar&eacute; 
+Lie superalgebra.  All the other binary brackets are zero.
+
+<P>
+Then, we need a ternary bracket operation, which expresses how the
+Jacobi identity holds only up to chain homotopy.  This is zero.
+
+<P>
+Then, we need a quaternary bracket operation (since that
+chain homotopy satisfies its own identity only up to chain
+homotopy).  This is nonzero: when we take the quaternary
+bracket of four 0-chains we get a 2-chain, and there's a
+nontrivial way to define this!  This is the interesting bit,
+since ultimately it relates the graviton/gravitino to the 
+3-form field.
+
+<P>
+How do we get that quaternary bracket?  Well, here's where
+things get funky: D'Auria and Fr&eacute; dreamt up a formula that 
+gives a number from 2 spinors and 2 vectors: 
+
+<P>
+(&psi;, &phi;, v, w) |&rarr; &psi;* &Gamma;<sup>ab</sup> &phi; v<sub>a</sub> w<sub>b</sub>
+
+<P>
+where that &quot;&psi;*&quot; should really be &quot;&psi;-bar&quot;.
+And, magically, in 11 dimensions this gives a 4-cocycle on 
+the Poincar&eacute; Lie superalgebra!  The proof of this uses some
+Fierz identity in 11 dimensions:
+
+<P>
+12) R. D'Auria and Pietro Fr&eacute;, Geometric supergravity in D = 11
+and its hidden supergroup, Nucl. Phys. B201 (1982), 101-140.
+Also available at <A HREF = "http://www.math.uni-hamburg.de/home/schreiber/sdarticle.pdf">http://www.math.uni-hamburg.de/home/schreiber/sdarticle.pdf</A>
+
+<P>
+And, from HDA6 we know that the 4-cocycle condition is just 
+what's needed to make the quaternary bracket satisfy the identity
+we need for a Lie 3-superalgebra.  (Alissa and I just did the
+calculation for Lie n-algebras, but the &quot;super&quot; stuff should work
+too with a few signs thrown in.)
+
+<P>
+So, this is all very cool, but I need to understand Fierz identities
+in different dimensions to see what if anything is special to
+11d here - or, alternatively, work out the cohomology of Poincar&eacute;
+Lie superalgebras, to see when they can be deformed to Lie 
+n-superalgebras.  Sounds like a lot of work - maybe someone already
+did it.  Actually D'Auria and Fre make it look like a matter of
+understanding tensor products of irreps of so(n,1), which is not bad.
+A worthwhile project in any event.
+
+<P>
+I also need to understand what all this has to do with E<sub>8</sub>.
+For that the paper by Diaconescu, Freed and Moore should help.
+
+<P>
+Well, this is just the beginning, but Urs explains the rest.
+
+<P>
+<HR>
+<P>
+<b>Addenda</b>: I thank Noam Elkies for a correction.  Aaron
+Bergman has this to say about E<sub>8</sub> and M-theory:
+
+<blockquote>
+John Baez wrote:
+
+<PRE>
+> I also need to understand what all this has to do with E<sub>8</sub>.
+</PRE>
+
+E<sub>8</sub> might not have much of anything to do with this. As mentioned in
+Diaconescu, Freed and Moore, E<sub>8</sub> appears to function solely as a
+convenient stand-in for K(Z,3).
+
+<P>
+On the other hand, the split form of the E-series (up to
+E<sub>11</sub> if you're feeling particularly speculative) is known to
+show up in describing the fields of 11D SUGRA, but the I don't think
+anyone knows of a connection between the two E<sub>8</sub>s. Just to
+add to the fun, E<sub>8</sub> gauge fields also show up on the fixed
+points of M-theory on S<sup>1</sup>/Z<sub>2</sub> giving the
+E<sub>8</sub> &times; E<sub>8</sub> heterotic string. 
+
+<P>
+Aaron
+</blockquote>
+
+Urs Schreiber replied:
+
+<blockquote>
+ Aaron Bergman wrote:
+<PRE>
+ > E<sub>8</sub> gauge fields also show up on the fixed points of 
+ > M-theory on S<sup>1</sup>/Z<sub>2</sub> giving the E<sub>8</sub> &times; E<sub>8</sub> heterotic string.
+</PRE>
+
+ The topological part of the membrane action involves the integral
+ of the sugra 3-form over the worldvolume.  By DFW, part of that
+ 3-form can be thought of as an E<sub>8</sub> CS 3-form.
+
+<P>
+ So part of the membrane action looks similar to an E<sub>8</sub> CS-theory
+ over the worldvolume.
+
+<P>
+ Now let the membrane have a boundary. A bulk E<sub>8</sub> CS-theory is
+ well known to induce an E<sub>8</sub> WZW theory on the boundary.
+
+<P>
+ Could this be the connection between the DWF E<sub>8</sub> and the
+ Horava-Witten E<sub>8</sub>?
+
+<P>
+ I have asked this question before: <A HREF =
+ "http://golem.ph.utexas.edu/string/archives/000791.html">http://golem.ph.utexas.edu/string/archives/000791.html</A>. Jarah
+ then agreed that this must be about right. But it is not completely
+ clear to me yet.
+
+<P>
+ One problem is that in CS-theory we vary the connection, while in
+ the topological membrane the E<sub>8</sub> connection on the background is fixed
+ and we vary the embedding by which we pull it back to the worldvolume.
+ Under suitable assumptions that might be equivalent to varying an E<sub>8</sub>
+ connection on the worldvolume itself? 
+</blockquote>
+
+Aaron Bergman replied:
+
+<blockquote> 
+ Urs Schreiber wrote:
+<PRE>
+ > Now let the membrane have a boundary. A bulk E<sub>8</sub> CS-theory is
+ > well known to induce an E<sub>8</sub> WZW theory on the boundary.
+ >
+ > Could this be the connection between the DWF E<sub>8</sub> and the
+ > Horava-Witten E<sub>8</sub>?
+</PRE>
+ A similar observation was made by Horava way back in <A HREF = "http://arxiv.org/abs/hep-th/9712130">arXiv:hep-th/9712130</A> (in
+ the final section).
+<P>
+ Aaron 
+</blockquote>
+
+
+<P>
+<P>
+<HR>
+<P>
+<!-- BEGIN FOOTER -->
+&#169; 2006  John Baez<br>
+baez@math.removethis.ucr.andthis.edu <br>
+<P>
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week236.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week238.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE><!-- END FOOTER -->

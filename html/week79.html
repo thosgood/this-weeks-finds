@@ -1,0 +1,528 @@
+<TITLE> week79 </TITLE>
+
+<!-- BEGIN HEADER -->
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week78.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week80.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE>
+<H4> April 1, 1996 </H4>
+<H2> This Week's Finds in Mathematical Physics (Week 79) </H2>
+<H4> John Baez </H4>
+<!-- END HEADER -->
+
+
+<P>
+Before I continue my tale of adjoint functors I want to say a little
+bit about icosahedra, buckyballs, and last letter Galois wrote before
+his famous duel.... all of which is taken from the following marvelous
+article:
+
+<P>
+1) Bertram Kostant, The graph of the truncated icosahedron and the last
+letter of Galois, Notices of the AMS 42 (September 1995), 959-968. 
+Also available at
+<A HREF = "http://www.ams.org/notices/199509/199509-toc.html">http://www.ams.org/notices/199509/199509-toc.html</A>.
+
+<P>
+When I was a graduate student at MIT I realized that Kostant (who
+teaches there) was deeply in love with symmetry, and deeply
+knowledgeable about some of its more mysterious byways.  Unfortunately I
+didn't dig too deeply into group theory at the time, and now I am
+struggling to catch up.
+
+<P>
+Let's start with the Platonic solids.  Note that the cube and the
+octahedron are dual - putting a vertex in the center of each of the
+cube's faces gives you an octahedron, and vice versa.  So every
+rotational symmetry of the cube can be reinterpreted as a symmetry of
+the octahedron, and vice versa.  Similarly, the dodecahedron and the
+icosahedron are dual, while the tetrahedron is self-dual.  So while
+there are 5 Platonic solids, there are really only 3 different symmetry
+groups here.  
+
+<P>
+
+These 3 &quot;Platonic groups&quot; are very interesting.  The symmetry
+group of the tetrahedron is the group A<sub>4</sub> of all <em>even</em>
+permutations of 4 things, since by rotating the tetrahedron we can
+achieve any even permutation of its 4 vertices.  The symmetry group of
+the cube is S<sub>4</sub>, the group of <em>all</em> permutations of 4
+things.  What are the 4 things here?  Well, we can draw 4 line segments
+connecting opposite vertices of the cube; these are the 4 things!  The
+symmetry group of the icosahedron is A<sub>5</sub>, the group of even
+permutations of 5 things.  What are the 5 things?  It we take all the
+line segments connecting opposite vertices we get 6 things, not 5, but
+we can't get all even permutations of those by rotating the icosahedron.
+To find the <em>5</em> things is a bit trickier; I leave it as a puzzle
+here.  See
+
+<P>
+2) John Baez, Some thoughts on the number 6, 
+<A HREF =
+"http://math.ucr.edu/home/baez/six.html">http://math.ucr.edu/home/baez/six.html</A>
+
+<P>
+for an answer.  
+
+<P>
+Once we convince ourselves that the rotational symmetry group of the
+icosahedron is A<sub>5</sub>, it follows that it has 5!/2 = 60 elements.  But
+there is another nice way to see this.  Take an icosahedron and chop off
+all 12 corners, getting a truncated icosahedron with 12 regular
+pentagonal faces and 20 regular hexagonal faces, with all edges the same
+length.  It looks just like a soccer ball.  It's called an Archimedean
+solid because, while not quite Platonic in its beauty, every face is a
+regular polygon and every vertex looks alike: two pentagons abutting one
+hexagon.  
+
+<P>
+<div align = "center">
+<a href = "http://en.wikipedia.org/wiki/Truncated_icosahedron">
+<img style="border:none;" src = "Truncatedicosahedron.gif">
+</a>
+</div>
+<P>
+
+<P>
+The truncated icosahedron has 5 &times; 12 = 60 vertices.  Every symmetry of
+the icosahedron is a symmetry of the truncated icosahedron, so
+A<sub>5</sub> acts to permute these 60 vertices.  Moreover, we can find
+an element of A<sub>5</sub> that moves a given vertex of the truncated
+icosahedron to any other one, since &quot;every vertex looks
+alike&quot;.  Also, there is a <em>unique</em> element of A<sub>5</sub>
+that does the job.  So there must be precisely as many elements of
+A<sub>5</sub> as there are vertices of the truncated icosahedron, namely
+60.
+
+<P>
+There is a lot of interest in the truncated icosahedron recently,
+because chemists had speculated for some time that carbon might form
+C<sub>60</sub> molecules with the atoms at the vertices of this solid,
+and a while ago they found this was true.  In fact, while
+C<sub>60</sub> in this shape took a bit of work to get ahold of at
+first, it turns out that lowly soot contains lots of this stuff!
+
+<P>
+<div align = "center">
+<a href = "http://en.wikipedia.org/wiki/Fullerene#Buckminsterfullerene">
+<img style="border:none;" src = "160px-C60a.png">
+</a>
+</div>
+<P>
+
+
+Since Buckminster Fuller was fond of using truncated icosahedra in his
+geodesic domes, C<sub>60</sub> and its relatives are called
+fullerenes, and the shape is affectionately called a buckyball.  For
+more about this stuff, try:
+
+<P>
+3) P. W. Fowler and D. E. Manolpoulos, An Atlas of Fullerenes, Oxford
+University Press, 1995.
+
+<P>
+M. S. Dresselhaus, G. Dresselhaus, and P. C. Eklund, Science of
+Fullerenes and Carbon Nanotubules, Academic Press, New York, 1994.  
+
+<P>
+G. Chung, B. Kostant and S. Sternberg, Groups and the buckyball, in Lie
+Theory and Geometry, eds. J.-L. Brylinski, R. Brylinski, V. Guillemin
+and V. Kac, Birkhauser, 1994.  
+
+<P>
+In fact, for the person who has everything: you can now buy 99.5% pure
+C<sub>60</sub> at the following site:
+
+<P>
+4) BuckyUSA homepage, <A HREF =
+"http://www.buckyusa.com/Fullerene%20C60.htm">http://www.buckyusa.com/Fullerene%20C60.htm</A>
+
+<P>
+
+But I digress.  Coming back to the 3 Platonic groups... there is much
+more that's special about them.  Most of it requires a little knowledge
+of group theory to understand.  For example, they are the 3 different
+finite subgroups of SO(3) having irreducible representations on R<sup>3</sup>.
+And they are nice examples of finite reflection groups.  For more about
+them from this viewpoint, try &quot;<A HREF =
+"week62.html">week62</A>&quot; and &quot;<A HREF =
+"week63.html">week63</A>&quot;.  Also, via the McKay correspondence they
+correspond to the exceptional Lie groups E<sub>6</sub>, 
+E<sub>7</sub>, and E<sub>8</sub> - see &quot;<A
+HREF = "week65.html">week65</A>&quot; for an explanation of this!
+
+<P>
+
+Yet another interesting fact about these groups is buried in Galois'
+last letter, written to the mathematician Chevalier on the night before
+Galois' fatal duel.  He was thinking about some groups we'd now call
+PSL(2,F).  Here F is a field (for example, the real numbers, the complex
+numbers, or Z<sub>p</sub>, the integers mod p where p is prime).
+PSL(2,F) is a &quot;projective special linear group over F.&quot; What
+does that mean?  Well, first of all, SL(2,F) is the 2&times;2 matrices with
+entries in F having determinant equal to 1.  These form a group under
+good old matrix multiplication.  The matrices in SL(2,F) that are scalar
+multiples of the identity matrix form the &quot;center&quot; Z of
+SL(2,F) - the group of guys who commute with everyone else.  We can
+form the quotient group SL(2,F)/Z, and get a new group called PSL(2,F).
+
+<P>
+
+Now Galois was thinking about PSL(2,Z<sub>p</sub>) where p is prime.
+There's an obvious way to get this group to act as permutations of p+1
+things.  Here's how!  For any field F, the group SL(2,F) acts as linear
+transformations of the 2-dimensional vector space over F, and it thus
+acts on the set of lines through the origin in this vector space...
+which is called the &quot;projective line&quot; over F.  But anything
+in SL(2,F) that's a scalar multiple of the identity doesn't move lines
+around, so we can mod out by the center and think of the quotient group
+PSL(2,F) as acting on projective line.  (By the way, this explains the
+point of working with PSL instead of plain old SL.)
+
+<P>
+
+Now, an element of the projective line is just a line through the
+origin in F<sup>2</sup>.  We can specify such a line by taking any
+nonzero vector (x,y) in F<sup>2</sup> and drawing the line through the
+origin and this vector.  However, (x',y') and (x,y) determine the same
+line if (x',y') is a scalar multiple of (x,y).  Thus lines are in 1-1
+correspondence with vectors of the form (1,y) or (x,1).  When our field
+F is Z<sub>p</sub>, there are just p+1 of these.  So
+PSL(2,Z<sub>p</sub>) acts naturally on a set of p+1 things.
+
+<P>
+What Galois told Chevalier is that PSL(2,Z<sub>p</sub>) doesn't act
+nontrivially as permutation of any set with fewer than p+1 elements if p
+&gt; 11.  This presumably means he knew that PSL(2,Z<sub>p</sub>)
+<em>does</em> act nontrivially on a set with only p elements if p = 5,7,
+or 11.  For example, PSL(2,5) turns out to be isomorphic to
+A<sub>5</sub>, which acts on a set of 5 elements in an obvious way.
+PSL(2,7) and PSL(2,11) act on a 7-element set and an 11-element set,
+respectively, in sneaky ways which Kostant describes.
+
+<P>
+These cases, p = 5, 7 and 11, are the the only cases where this happens
+and PSL(2,Z<sub>p</sub>) is simple.  (See &quot;<A HREF =
+"week66.html">week66</A>&quot; if you don't know what &quot;simple&quot;
+means.)  In each case it is very amusing to look at how
+PSL(2,Z<sub>p</sub>) acts nontrivially on a set with p elements and
+consider the subgroup that doesn't move a particular element of this set.  
+For example, when p = 5 we have PSL(2,5) = A<sub>5</sub>, and if we look at
+the subgroup of even permutations of 5 things that leaves a particular
+thing alone, we get A<sub>4</sub>.  Kostant explains how if we play this
+game with PSL(2,7) we get S<sub>4</sub>, and if we play this game with
+PSL(2,11) we get A<sub>5</sub>.  These are the 3 Platonic groups again!!
+
+<P>
+
+But notice an extra curious coincidence.  A<sub>5</sub> is both PSL(2,5)
+and the subgroup of PSL(2,11) that fixes a point of an 11-element set.  
+This gives a lot of relationships between A<sub>5</sub>, PSL(2,5), 
+and PSL(2,11).  What Kostant does is take this and milk it for all 
+it's worth!  In particular, it turns out that one can think of A<sub>5</sub> 
+as the
+vertices of the buckyball, and describe which vertices are connected by
+an edge using the embedding of A<sub>5</sub> in PSL(2,11).  I won't say
+how this goes... read his paper!
+
+<P>
+This may even have some applications for fullerene spectroscopy, since
+one can use symmetry to help understand spectra of compounds.  (Indeed,
+this is one way group theory entered chemistry in the first place.)
+<P>
+<HR>
+<P>
+<A NAME = "tale">
+
+Now let me return to the tale of adjoint functors!  I have been
+stressing the fact that two functors L: C &rarr; D and R: D &rarr; C are
+adjoint if there is a natural isomorphism between hom(Lc,d) and
+hom(c,Rd).  We can say that an &quot;adjunction&quot; is a pair of
+functors L: C &rarr; D and R: D &rarr; C together with a natural
+isomorphism between hom(Lc,d) and hom(c,Rd).  But there is another way
+to think about adjunctions which is also good.
+
+<P>
+
+In &quot;<A HREF = "week76.html">week76</A>&quot; we talked about an
+&quot;equivalence&quot; of categories.  We can summarize it this way: an
+&quot;equivalence&quot; of the categories C and D is a pair of functors
+F: C &rarr; D and G: D &rarr; C together with natural transformations e:
+FG =&gt; 1<sub>D</sub> and i: 1<sub>C</sub> =&gt; GF that are themselves
+invertible.  (Note that we are now writing products of functors in the
+order that ordinary mortals typically do, instead of the backwards way
+we introduced in &quot;week73&quot;.  Sorry!  It just happens to be
+better to write it this way now.)  Now, the concept of
+&quot;adjunction&quot; is a cousin of the concept of
+&quot;equivalence&quot;, and it's nice to have a definition of
+adjunction that brings out this relationship.
+
+<P>
+First, consider what happens in the definition of adjunction if we take
+c = Rd.  Then we have a natural isomorphism between hom(LRd,d) and
+hom(Rd,Rd).  Now there is a special element of hom(Rd,Rd), namely the
+identity 1<sub>Rd</sub>.  This gives us a special element of hom(LRd,d).  Let's call
+this
+
+<P>
+e<sub>d</sub>: LRd &rarr; d
+
+<P>
+What is this morphism like in an example?  Say L: Set &rarr; Grp takes each
+set to the free group on that set, and R: Grp &rarr; Set takes each group to
+its underlying set.  Then if d is a group, LRd is the free group on the
+underlying set of d.  There's an obvious homomorphism from LRd to d,
+taking each word of elements in d and their inverses to their product in
+d.  That's e<sub>d</sub>.  It goes from the free thing on the underlying thing of
+d to the thing d itself!
+
+<P>
+In fact, since everything in sight is natural, whenever we have an
+adjunction the morphisms e<sub>d</sub> define a natural transformation
+
+<P>
+e: LR =&gt; 1<sub>D</sub>
+
+<P>
+Next, consider what happens in the definition of adjunction if we take
+d = Lc.  Then we have a natural isomorphism between hom(c,RLc) and
+hom(Lc,Lc).  Now there is a special element in hom(Lc,Lc), namely the
+identity 1<sub>Lc</sub>.  This gives us a special element in hom(c,RLc).  Let's
+call this  
+
+<P>
+i<sub>c</sub>: c &rarr; RLc
+
+<P>
+Again, it's good to consider the example of sets and groups: if c is a
+set, RLc is the underlying set of the free group on c.  There is an
+obvious way to map c into RLc.  That's i<sub>c</sub>.  It goes from the thing c
+to the underlying thing of the free thing on c.
+
+<P>
+As before, we get a natural transformation
+
+<P>
+i: 1<sub>C</sub> =&gt; RL
+
+<P>
+So, as in an equivalence, when we have an adjunction we have natural
+transformations e: LR =&gt; 1<sub>D</sub> and i: 1<sub>C</sub> =&gt; RL.
+Unlike in an equivalence, they needn't be natural <em>isomorphisms</em>,
+as the example of sets and groups shows.  But they do have some cool
+properties, which are nice to draw using pictures.
+
+<P>
+First, we draw e as a V-shaped thing:
+
+<PRE>
+                 L      R
+                  \    /
+                   \  / 
+                    \/
+
+</PRE>
+The idea here is that e goes from LR down to the identity 1<sub>D</sub>, which we
+draw as &quot;nothing&quot;.  We can think of L and R as processes, and the
+V-shaped thing as the meta-process of L and R &quot;colliding into each other
+and cancelling out&quot;, like a particle and antiparticle.  (Lest you think
+that's just purple prose, wait and see!  Eventually I'll explain what
+all this has to do with antiparticles!)  Similarly, we draw i as an
+upside-down-V-shaped thing:
+
+<PRE>
+                   /\
+                  /  \
+                 /    \
+                R      L
+
+</PRE>
+In other words, i goes from the identity 1<sub>C</sub> to RL.  
+
+<P>
+We can also use this sort of notation to talk about identity natural
+transformations.  For example, if we have any old functor F, there is
+an identity natural transformation 1<sub>F</sub>: F =&gt; F, which we can draw as
+follows:
+
+<PRE>
+                    F
+                    |
+                    |
+                    |
+                    F
+
+</PRE>
+We draw it as a boring vertical line because &quot;nothing is happening&quot; as
+we go from F to F.
+
+<P>
+Now, I haven't talked much about the ways one can compose natural
+transformations like i and e, but remember that they are 2-morphisms,
+or morphisms-between-morphisms, in Cat (the 2-category of all
+categories).   This means that they are inherently 2-dimensional, and in
+particular, one can compose them both &quot;horizontally&quot; and &quot;vertically&quot;.
+I'll explain this more next time, but for now please take my word for
+it!  Using these composition operations, one can make sense of the
+following equations involving i and e:
+                   
+<PRE>
+                   R       R
+          /\       |       |
+         /  \      |       |
+        /    \     |       |
+       |      \    /  =    | 
+       |       \  /        |
+       |        \/         |
+       R                   R
+
+</PRE>
+and
+
+<PRE>
+       L                   L
+       |       /\          |
+       |      /  \         |
+       |     /    \        |
+       \    /      |  =    | 
+        \  /       |       |
+         \/        |       |
+                   L       L
+                    
+</PRE>
+
+In the first equation we are asserting that a certain way of sticking
+together i and e and some identity natural transformations gives
+1<sub>R</sub>: R =&gt; R.  In the second we are asserting that some
+other way gives 1<sub>L</sub>: L =&gt; L.
+
+<P>
+
+I will explain these more carefully next time, but for now I mainly want
+to state that we can also <em>define</em> an adjunction to be a pair of
+functors L: C &rarr; D and R: D &rarr; C together with natural
+transformations e: LR =&gt; 1<sub>D</sub> and i: 1<sub>C</sub> =&gt; RL
+making the above 2 equations hold!  This is the definition of
+&quot;adjunction&quot; that is the most similar to the definition of
+&quot;equivalence&quot;.
+
+<P>
+Now, topologically, these 2 equations simply say that if you have a wiggly
+curve like
+
+<PRE>
+          /\       |       
+         /  \      |       
+        /    \     |       
+       |      \    /  
+       |       \  /        
+       |        \/         
+
+</PRE>
+or
+
+<PRE>
+       |       /\          
+       |      /  \         
+       |     /    \        
+       \    /      |   
+        \  /       |       
+         \/        |       
+
+</PRE>
+you can pull it tight to get
+
+<PRE>
+            |
+            |
+            |
+            |
+            |
+            |
+
+</PRE>
+Thus, while
+
+<PRE>
+                 \    /
+                  \  / 
+                   \/
+
+</PRE>
+and
+
+<PRE>
+                   /\
+                  /  \
+                 /    \
+
+</PRE>
+are not exactly &quot;inverses&quot;, there is some subtler sense in which they
+&quot;cancel out&quot;.  This corresponds to the notion that while adjoint functors
+are not inverses, not even up to a natural isomorphism, they still are
+&quot;like inverses&quot; in a subtler sense.
+
+<P>
+
+Now this may seem like a silly game, drawing natural transformations as
+&quot;string diagrams&quot; and interpreting adjoint functors as wiggles
+in the string.  But in fact this is part of a very big, very important,
+and very fun game: the relation between n-category theory and the
+topology of submanifolds of R<sup>n</sup>.  Right now we are dealing
+with Cat, which is a 2-category, so we are getting into 2-dimensional
+pictures.  But when we get into 3-categories we will get into
+3-dimensional pictures, and knot theory... and what got me into this
+whole business in the first place: the relation between knots and
+physics.  In higher dimensions it gets even fancier.
+
+<P>
+So I will continue next time and explain the recipes for composing
+natural transformations, and the associated string diagrams, more
+carefully. 
+<P>
+<A HREF = "week80.html#tale">To continue reading the `Tale of
+n-Categories', click here.</A>
+
+<P>
+
+
+<P>
+<P>
+<HR>
+<P>
+<!-- BEGIN FOOTER -->
+&#169; 1996  John Baez<br>
+baez@math.removethis.ucr.andthis.edu <br>
+<P>
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week78.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week80.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE><!-- END FOOTER -->

@@ -1,0 +1,661 @@
+<TITLE> week149 </TITLE>
+
+<!-- BEGIN HEADER -->
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week148.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week150.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE>
+<H4> June 12, 2000 </H4>
+<H2> This Week's Finds in Mathematical Physics (Week 149) </H2>
+<H4> John Baez </H4>
+<!-- END HEADER -->
+
+<P>
+Elliptic cohomology sits at the intersection of several well-travelled
+mathematical roads.  It boasts fascinating connections with homotopy
+theory, string theory, elliptic curves, modular forms, and the mysterious 
+ubiquity of the number 24.  This makes it very fascinating, but also a bit 
+intimidating to anyone who is not already an expert on all these subjects.  
+
+<P>
+Is <em>anyone</em> 
+actually an expert on all these subjects?  Perhaps Graeme Segal 
+is!  After all, he became famous for his work on homotopy theory, he 
+<em>invented</em> the axioms of conformal field theory - borrowing lots of 
+ideas from string theory, of course - and I'm sure he mastered the 
+theory of elliptic curves one weekend when he was a kid.  So to learn 
+about elliptic cohomology, one should really start here:
+
+<P>
+1) Graeme Segal, Elliptic cohomology, Asterisque 161-162 (1988), 187-201.  
+
+<P>
+Another good reference is this proceedings of a conference held at 
+Princeton in 1986:
+
+<P>
+2) Peter S. Landweber, editor, Elliptic Curves and Modular Forms in
+Algebraic Topology, Springer-Verlag Lecture Notes in Mathematics 1326,
+Springer, Berlin, 1988.
+
+<P>
+This book is also helpful:
+
+<P>
+3) Charles B. Thomas, Elliptic Cohomology, Kluwer, Dordrecht, 1999.   
+
+<P>
+though I'm afraid it's a bit long on details and short on the big 
+picture and physics intuition.  For that, you might have to try this:
+
+<P>
+4) Edward Witten, Elliptic genera and quantum field theory, Comm.
+Math. Phys. 109 (1987), 525-536.
+
+<P>
+Also try this book, if you can get ahold of it:
+
+<P>
+5) Friedrich Hirzebruch, Thomas Berger and Rainer Jung, Manifolds 
+and modular forms, translated by Peter S. Landweber, Vieweg, 
+Braunschweig (a publication of the Max Planck Institute for 
+Mathematics in Bonn), 1992.
+
+<P>
+Now to have a snowball's chance in hell of understanding elliptic
+cohomology, you need to understand complex oriented cohomology theories.
+So I have to start by telling you what <em>those</em> are.  This will be sort
+of a crash course in algebraic topology.  By the time I'm done with that,
+I'll probably be too worn out to talk about elliptic cohomology - but
+at least I'll have laid the groundwork.
+
+<P>
+So: what's a &quot;generalized cohomology theory&quot;?
+
+<P>
+This is a gadget that eats a topological space X and spits out a sequence 
+of abelian groups h<sup>n</sup>(X).   To be a generalized cohomology theory, this
+gadget must satisfy a bunch of axioms called the Eilenberg-Steenrod
+axioms.  The most basic example is so-called ordinary cohomology, so
+when you're first learning this stuff the main motivation for the
+Eilenberg-Steenrod axioms is that they're all satisfied by ordinary
+cohomology.   But there are lots of other examples: various flavors of
+K-theory, cobordism theory, and so on.  Eventually, you learn that
+underlying any generalized cohomology theory there is a list of spaces
+E(n) such that
+
+<P>
+                        h<sup>n</sup>(X) = [X, E(n)]
+
+<P>
+where the right-hand side is the set of homotopy classes of maps from X
+to E(n).  We say this list of spaces E(n) &quot;represents&quot; the generalized
+cohomology theory.  Moreover, these spaces fit together to form a 
+&quot;spectrum&quot;, meaning that the space of based loops in E(n) is E(n-1).  
+It follows that each space E(n) is an infinite loop space: a space of
+loops in a space of loops in a space of loops in... where you can go
+on as far as you like.  
+
+<P>
+Conversely, given an infinite loop space E(0), we can use it to cook up 
+a spectrum and thus a generalized cohomology theory.  So generalized
+cohomology theories, spectra and infinite loop spaces are almost the
+same thing.  
+
+<P>
+But what's so important about them?
+
+<P>
+Well, secretly an infinite loop space is nothing but a homotopy
+theorist's version of an abelian group.  A bit more technically, we
+could call it a &quot;homotopy coherent abelian group&quot;.  By this I mean a
+space with a continuous binary operation satisfying all the usual laws
+for an abelian group <em>up to homotopy</em>, where these homotopies satisfy
+all the nice laws you can imagine <em>up to homotopy</em>, and so on ad
+infinitum.   In the context of homotopy theory, this is almost as good 
+as an abelian group.  Pretty much anything a normal mathematician can do
+with an abelian group, a homotopy theorist can do with an infinite loop
+space!
+
+<P>
+For example, normal mathematicians often like to take an abelian group 
+and equip it with an extra operation called &quot;multiplication&quot; that
+makes it into a <em>ring</em>.  Homotopy theorists like to do the same
+for infinite loop spaces.  But of course, the homotopy theorists
+only demand that the ring axioms hold <em>up to homotopy</em>, where the
+homotopies satisfy a bunch of nice laws <em>up to homotopy</em>, and so on. 
+Usually they do this in the context of spectra rather than infinite loop
+spaces - a distinction too technical for me to worry about here! - so
+they call this sort of thing a &quot;ring spectrum&quot;.   Similarly, corresponding
+to a commutative ring, the homotopy theorists have a notion called an
+&quot;E<sub>&infin;</sub> ring spectrum&quot;.  The word 
+&quot;E<sub>&infin;</sub>&quot; is just a funny way
+of saying that the commutative law holds up to homotopy, with the 
+homotopies satisfying a bunch of laws up to homotopy, etcetera. 
+
+<P>
+If you start with a ring spectrum, the corresponding cohomology theory
+will have products.  In other words, the cohomology groups h<sup>n</sup>(X)
+of any space X will fit together to form a graded ring called h<sup>*</sup>(X)
+- the star stands for a little blank where you can stick in any number 
+&quot;n&quot;.  
+And if your ring spectrum is an E<sub>&infin;</sub> ring spectrum, h<sup>*</sup>(X) 
+will be graded-commutative.  This is what happens in most of really famous 
+generalized cohomology theories.  For example, the ordinary cohomology 
+of a space is actually a graded-commutative ring with a product called
+the &quot;cap product&quot;, and similar things are true for the most popular 
+flavors of K-theory and cobordism theory.
+
+<P>
+Of course, it's quite a bit of work to make all this stuff precise:
+people spent a lot of energy on it back in the 1970's.  But it's very
+beautiful, so everybody should learn it.  For the details, try:
+
+<P>
+6) J. Adams, Infinite Loop Spaces, Princeton U. Press, Princeton, 1978.
+
+<P>
+7) J. Adams, Stable Homotopy and Generalized Homology, Chicago Lectures
+in Mathematics, U. Chicago Press, Chicago, 1974.
+
+<P>
+8) J. P. May, The Geometry of Iterated Loop Spaces, Lecture Notes in
+Mathematics 271, Springer Verlag, Berlin, 1972.
+
+<P>
+9) J. P. May, F. Quinn, N. Ray and J. Tornehave, E<sub>&infin;</sub> Ring Spaces
+and E<sub>&infin;</sub> Ring Spectra, Lecture Notes in Mathematics 577, Springer
+Verlag, Berlin, 1977.
+
+<P>
+10) G. Carlsson and R. Milgram, Stable homotopy and iterated loop spaces,
+in Handbook of Algebraic Topology, ed. I. M. James, North-Holland, 1995.
+
+<P>
+Now, there's a particularly nice class of generalized cohomology
+theories called &quot;complex oriented cohomology theories&quot;.   Elliptic
+cohomology is one of these, so to understand elliptic cohomology you
+first have to study these guys a bit.  Instead of just giving you 
+the definition, I'll lead up to it rather gradually....
+
+<P>
+Let's start with the integers, Z.  These form an abelian group under
+addition, so by what I said above they are a pitifully simple special
+case of an infinite loop space.  So there's some space with a basepoint 
+called K(Z,1) such that the space of all based loops in K(Z,1) is Z.  
+
+<P>
+Be careful here: 
+I'm now using the word &quot;is&quot; the way homotopy theorists 
+do!  I really mean the space of based loops in K(Z,1) is <em>homotopy 
+equivalent</em> to Z.  But since we're doing homotopy theory, that's good 
+enough.   
+
+<P>
+Okay: so there's a space K(Z,1) such that the space of all based loops
+in K(Z,1) is Z.  Similarly, there's a space K(Z,2) such that the space 
+of all based loops in K(Z,2) is K(Z,1).  And so on... that's what it
+means to say that Z is an infinite loop space.
+
+<P>
+These spaces K(Z,n) are called &quot;Eilenberg-MacLane spaces&quot;, and they fit
+together to form a spectrum called the Eilenberg-MacLane spectrum. Since
+it's built using only the integers, this is the simplest, nicest
+spectrum in the world.  Thus the generalized cohomology theory it
+represents has got to be something simple and nice.  And it is: it's
+just ordinary cohomology!  
+
+<P>
+But what do the spaces K(Z,n) actually look like?  
+
+<P>
+Well, for starters, K(Z,0) is just Z, by definition.
+
+<P>
+K(Z,1) is just the circle, S<sup>1</sup>.   
+You can check that the space of based
+loops in S<sup>1</sup> is homotopy equivalent to Z - the key is that such loops
+are classified up to homotopy by an integer called the <em>winding number</em>.
+In quantum physics, K(Z,1) usually goes by the name U(1) - the group
+of unit complex numbers, or &quot;phases&quot;.   
+
+<P>
+K(Z,2) is a bit more complicated: it's infinite-dimensional complex
+projective space, CP<sup>&infin;</sup>!  I talked a bunch about projective 
+spaces in &quot;<A HREF = "week106.html">week106</A>&quot;.  There I only talked about finite-dimensional ones
+like CP<sup>n</sup>, but you can define CP<sup>&infin;</sup> 
+as a &quot;direct limit&quot; of these 
+as n approaches &infin;, using the fact that CP<sup>n</sup> sits inside 
+CP</sup>n+1</sup> as
+a subspace.   Alternatively, you can take your favorite complex Hilbert
+space H with countably infinite dimension and form the space of all 
+1-dimensional subspaces in H.  This gives a slightly fatter version of
+CP<sup>&infin;</sup>, but it's homotopy equivalent, and it's a very natural 
+thing to study if you're a physicist: it's just the space of all &quot;pure 
+states&quot; of the quantum system whose Hilbert space is H.  
+
+<P>
+How about K(Z,3)?  Well, I don't know a nice geometrical description of
+this one.  And this really pisses me off!  There should be some nice way
+to think of K(Z,3) as some sort of infinite-dimensional manifold.  What
+is it?  Does anyone know?  Jean-Luc Brylinski raised this question at the
+Conference on Higher Category Theory and Physics in 1997, and it's been
+bugging me ever since.  From the work of Brylinski which I summarized
+in &quot;<A HREF = "week25.html">week25</A>&quot;, it's clear that a good answer should shed light on stuff like
+quantum theory and string theory.  Basically, the point is that the integers, 
+the group U(1), and infinite-dimensional complex projective space are all 
+really important in quantum theory.  This is perhaps more obvious for the
+latter two spaces - the integers are so basic that it's hard to see what's
+so &quot;quantum-mechanical&quot; about them.   However, since each of these spaces 
+is just the loop space of the next, they're all part of tightly linked 
+sequence... and I want to know what comes next!  
+
+<P>
+But I'm digressing.  I really want to focus on K(Z,2), or in other
+words, infinite-dimensional complex projective space.  Note that there's
+an obvious complex line bundle over this space.  Remember, each point in
+CP<sup>&infin;</sup> is 
+really a 1-dimensional subspace in some Hilbert space H. 
+So we can use these 1-dimensional subspaces as the fibers of a complex
+line bundle over CP<sup>&infin;</sup>, 
+called the &quot;canonical bundle&quot;.  I'll
+call this line bundle L.
+
+<P>
+The complex line bundle L is important because it's &quot;universal&quot;: all 
+the rest can be obtained from this one!  More precisely, suppose we
+have any topological space X and any map 
+
+<P>
+f: X &rarr; CP<sup>&infin;</sup>  
+
+<P>
+Then we can form a complex line bundle over X whose fiber over any point
+x is just the fiber of L over the point f(x).  This bundle is called the
+&quot;pullback&quot; of L by the map f.   And the really cool part 
+is that <em>any</em> 
+complex line bundle over <em>any</em> space X is isomorphic to the pullback of 
+L by some map!  Even better, two such line bundles are isomorphic if and 
+only if the maps f defining them are homotopic!  This reduces the study 
+of many questions about complex line bundles to the study of this guy L.
+
+<P>
+For example, suppose we want to classify complex line bundles over any 
+space X.  From what I just said, this task is equivalent to the task of
+classifying homotopy classes of maps 
+
+<P>
+f: X &rarr; CP<sup>&infin;</sup>.
+
+<P>
+But remember, CP<sup>&infin;</sup> is the Eilenberg-Maclane space K(Z,2), and
+the Eilenberg-Maclane spectrum represents ordinary cohomology!  So
+
+<P>
+[X, CP<sup>&infin;</sup>] = [X, K(Z,2)] = H<sup>2</sup>(X)
+
+<P>
+where H<sup>2</sup>(X) 
+stands for the 2nd ordinary cohomology group of X.   So 
+the following things are really the same:
+
+<UL>
+<LI> isomorphism classes of complex line bundles over X
+<LI> homotopy classes of maps from X to CP<sup>&infin;</sup>
+<LI> elements of the ordinary cohomology group H<sup>2</sup>(X).
+</UL>
+
+This is great, because it gives us three different viewpoints to play
+with.  In particular, H<sup>2</sup>(X) 
+is easy to compute - anyone who has taken 
+a basic course on algebraic topology can do it.  But the other two
+viewpoints are nice and geometrical, so they let us do things with H<sup>2</sup>(X)
+that we might not have thought of otherwise.
+
+<P>
+So now you know this: if you hand me a complex line bundle over X, I can 
+cook up an element of H<sup>2</sup>(X).   People call this the &quot;first Chern class&quot;
+of the line bundle.   If you hand me two complex line bundles, I can tell 
+if they're isomorphic by seeing if their first Chern classes are equal.  
+Conversely, if you hand me any element of H<sup>2</sup>(X), I can cook up a complex 
+line bundle over X whose first Chern class is that element.
+
+<P>
+Of course, I haven't really explained <em>how</em> I cook up all these things.
+To learn that, you need to study this stuff a bit more.
+
+<P>
+But let's consider a couple of examples.  Suppose X is the 2-sphere S<sup>2</sup>.
+Since
+
+<P>
+H<sup>2</sup>(S<sup>2</sup>) = Z
+
+<P>
+this means that first Chern class of a line bundle over S<sup>2</sup> is secretly
+just an integer.  People call this the &quot;first Chern number&quot; of the line
+bundle.  The first physicist to get excited about this was Dirac, who 
+bumped into this idea when thinking about magnetic monopoles and charge
+quantization.  Dirac didn't know about complex line bundles and Chern 
+classes - he was just studying the change of phase of an electrically
+charged particle as you move it around in the magnetic field produced by
+a monopole!  But later, the physicist Yang met the mathematician Chern
+and translated Dirac's work into the language of line bundles.  See
+
+<P>
+11) C. N. Yang, Magnetic monopoles, fiber bundles and gauge field,
+in Selected Papers, 1945--1980, with Commentary, W. H. Freeman and 
+Company, San Francisco, 1983.  
+
+<P>
+for the full story.
+
+<P>
+Next let's try a curiously self-referential example.  It should be fun 
+to classify complex line bundles on CP<sup>&infin;</sup>, since this is where 
+the universal one lives!  So let's take X = CP<sup>&infin;</sup>.  Since 
+CP<sup>&infin;</sup> is K(Z,2), a little abstract nonsense shows that it's
+ordinary 2nd cohomology group is Z:
+
+<P>
+H<sup>2</sup>(CP<sup>&infin;</sup>) = [CP<sup>&infin;</sup>, CP<sup>&infin;</sup>] = Z.
+
+<P>
+This means that the first Chern class of a complex line bundle over 
+CP<sup>&infin;</sup> is secretly just an integer.  But what's the first Chern 
+class of the universal complex line bundle, L?  Well, this bundle is 
+the pullback of itself via the <em>identity</em> map
+
+<P>
+1: CP<sup>&infin;</sup> &rarr; CP<sup>&infin;</sup>
+
+<P>
+and this map corresponds to the element 1 in [CP<sup>&infin;</sup>, CP<sup>&infin;</sup>]
+= Z. So the first Chern class of L is 1.  See how tautologous this 
+argument is?   It sounds like it's saying something profound, but once
+you understand it, it's really just saying 1 = 1.
+
+<P>
+The first Chern class of the universal bundle L is really important, 
+so let's call it c.  It's important because it's universal: it gives 
+us a nice way to think of the first Chern class of <em>any</em> complex line 
+bundle.    Up to isomorphism, any complex line bundle over any space 
+X comes from some map 
+
+<P>
+f: X &rarr; CP<sup>&infin;</sup>
+
+<P>
+so to compute the first Chern class of this line bundle, we can just
+work out f<sup>*</sup>(c), where
+
+<P>
+f<sup>*</sup>: H<sup>2</sup>(CP<sup>&infin;</sup>) &rarr; H<sup>2</sup>(X)
+
+<P>
+is the map induced by f.  If you don't see why this is true, think about 
+it a while - it's just a big fat tautology!   
+
+<P>
+The ideas we've been discussing raise some obvious questions.  For
+example, H<sup>2</sup>(X) isn't just a set: it's an abelian group.   We already
+knew this from our basic course in algebraic topology, and now we also
+know another explanation: CP<sup>&infin;</sup> is an infinite loop space, 
+so it's like an abelian group for the purposes of homotopy theory.  In 
+fact, this particular infinite loop space actually <em>is</em> 
+an abelian group.  
+Maps from anything into an abelian group form an abelian group, which makes 
+
+<P>
+H<sup>2</sup>(X) = [X, CP<sup>&infin;</sup>] 
+
+<P>
+into an abelian group.    But now you're dying to know: what exactly do 
+the product map
+
+<P>
+m: CP<sup>&infin;</sup> x CP<sup>&infin;</sup> &rarr; CP<sup>&infin;</sup> 
+
+<P>
+and the inverse map
+
+<P>
+i: CP<sup>&infin;</sup> &rarr; CP<sup>&infin;</sup> 
+
+<P>
+look like?  And what does all this mean for the set of isomorphism 
+classes of complex line bundles on X?  It's an abelian group - but 
+what are products and inverses like in this abelian group?
+
+<P>
+Well, I won't answer the first question here: there's a very nice 
+explicit answer, and you can describe it in terms of particles and 
+antiparticles running around on the Riemann sphere, but it would be 
+too much of a digression to talk about it here.  To learn more, 
+study the &quot;Thom-Dold theorem&quot; and also some stuff about &quot;configuration 
+spaces&quot; in topology:
+
+<P>
+12) Dusa McDuff, Configuration spaces of positive and negative particles,
+Topology 14 (1975), 91-107.
+
+<P>
+The second question is much easier: the set of isomorphism classes of 
+complex line bundles on a space X becomes an abelian group with <em>tensor
+product</em> of line bundles as the product.   Taking the <em>dual</em> 
+of a line bundle gives the inverse in this group.
+
+<P>
+Putting these ideas together, we get a nice description of tensoring
+line bundles in terms of the product 
+
+<P>
+m: CP<sup>&infin;</sup> x CP<sup>&infin;</sup> &rarr; CP<sup>&infin;</sup> 
+
+<P>
+which I can explain even without saying what the product looks like.  
+Suppose I have two line bundles on X and I want to tensor them.  
+I might as well assume they are pullbacks of the universal bundle L 
+by some maps
+
+<P>
+f: X &rarr; CP<sup>&infin;</sup>,  
+<P>
+g: X &rarr; CP<sup>&infin;</sup>.
+
+<P>
+It follows from what we've seen that to tensor these bundles, I can 
+just form the map
+
+<P>
+fg: X &rarr; CP<sup>&infin;</sup> 
+
+<P>
+given as the composite
+
+<PRE>
+     (f,g)              m
+X ---------&gt; CP<sup>&infin;</sup> x CP<sup>&infin;</sup> ---&gt; CP<sup>&infin;</sup> 
+
+</PRE>
+and then take the pullback of L by fg.  
+
+<P>
+In other words: since the canonical line bundle on CP<sup>&infin;</sup> is
+universal, CP<sup>&infin;</sup> knows everything there is to know about 
+complex
+line bundles.  In particular, it knows everything there is to know about
+<em>tensoring</em> complex line bundles: the operation of tensoring is encoded
+in the <em>product</em> on CP<sup>&infin;</sup>.  Similarly, the operation of 
+taking the
+<em>dual</em> of a complex line bundle is encoded in the <em>inverse</em> 
+operation
+
+<P>
+i: CP<sup>&infin;</sup> &rarr; CP<sup>&infin;</sup>.
+
+<P>
+Now, if you've absorbed everything I just said - or better yet, if
+you already knew it! - you are ready for the definition of a &quot;complex 
+oriented cohomology theory&quot;.  Basically, it's a generalized cohomology 
+theory where all this stuff about line bundles and the first Chern class 
+works almost like it does in ordinary cohomology.
+
+<P>
+Suppose we have a generalized cohomology theory; let's see the conditions 
+under which it's &quot;complex oriented&quot;.  
+
+<P>
+For starters, it must come from a ring spectrum, so that h<sup>*</sup>(X) 
+is a graded ring for any space X.  Whenever we're in this situation, it's
+interesting to take X to be a single point: we get a ring R called
+the "cohomology ring of a point".  This has a god-given element of
+degree 0, namely the multiplicative unit 1.  In any generalized
+cohomology theory we have an isomorphism
+
+<P>
+h<sup>n+k</sup>(S<sup>n</sup>) = h<sup>k</sup>(point)
+ 
+<P>
+and taking the god-given element 1 in h<sup>0</sup>(point), this gives gives a 
+special element in h<sup>n</sup>(S<sup>n</sup>) called the &quot;orientation&quot; of S<sup>n</sup>.  Now 
+note that S<sup>2</sup> is the same thing as CP<sup>n</sup>, so that it sits inside CP<sup>&infin;</sup>:
+
+<P>
+S<sup>2</sup> &rarr; CP<sup>&infin;</sup>
+
+<P>
+This gives a map
+
+<P>
+h<sup>2</sup>(CP<sup>&infin;</sup>) &rarr; h<sup>2</sup>(S<sup>2</sup>)
+
+<P>
+We say our generalized cohomology is &quot;complex oriented&quot; if there is
+an element c in h<sup>2</sup>(CP<sup>&infin;</sup>) that maps to the 
+orientation of S<sup>2</sup> under the above map, 
+and changes sign under the inverse map
+
+<P>
+i<sup>*</sup>: h<sup>2</sup>(CP<sup>&infin;</sup>) &rarr; h<sup>2</sup>(CP<sup>&infin;</sup>).
+
+<P>
+For example, ordinary cohomology is complex oriented, where we take
+c to be the first Chern class of the universal complex line bundle!
+This follows from all the stuff I've said so far.
+
+<P>
+But lots of other generalized cohomology theories are complex oriented,
+too.  The most famous ones are complex K-theory and complex cobordism
+theory.  In fact, complex cobordism theory is the &quot;universal&quot; complex
+oriented cohomology theory - it's the most informative of the whole lot.
+All the rest are like watered-down versions of this one.  Ordinary
+cohomology is the most watered-down of all.  Complex K-theory is a bit
+less watered-down.  And elliptic cohomology is still less watered-down! 
+
+<P>
+But what <em>is</em> elliptic cohomology?
+
+<P>
+Well, I might or might not get around to talking about this next Week.
+I've learned the hard way not to <em>promise</em> to talk about things in 
+future issues: my mind is too scattered to be able to stick to one
+subject in a predictable manner.  For example, last week I hinted that
+I'd talk about Ross Street's work on n-categories, but now I've spent 
+so much time blabbing about this other stuff that I don't think I'll get
+around to it.  Let me just list the papers he gave me:
+
+<P>
+13) Ross H. Street, The petit topos of globular sets, Macquarie Mathematics
+Report Number 98/232, March 1998.
+
+<P>
+14) Ross H. Street and Michael Batanin, The universal property of the 
+multitude of trees, Macquarie Mathematics Report Number 98/233, March
+1998.
+
+<P>
+15) Michael Batanin, Shuffle polytopes, cooperative games and 2-dimensional
+coherence for higher dimensional categories.
+
+<P>
+The folks down in Sydney are making great progress on understanding
+n-categories from the globular point of view, and the importance of the
+category of <em>trees</em> has become quite clear.  You can think of trees as
+generalized natural numbers, and then Batanin's operads are a natural
+generalization of the usual operads, which have operations taking a
+natural number's worth of arguments.   The trees describe ways of 
+glomming a bunch of globes together to get a new globe.  I wish I had
+time to explain this better!  But it takes a while, and it really 
+requires some pictures.
+
+<P>
+Footnote:
+
+<P>
+[1]  Almost, but not quite: if I hand you the infinite loop space E(0),
+you can only recover one connected component of the infinite loop space
+E(1), namely the component containing the basepoint.  So there is more
+information in a spectrum than there is in an infinite loop space.  A
+spectrum is a sequence of infinite loop spaces where the based loops in
+E(n) form the space E(n-1); starting from a single infinite loop space
+we can cook up a spectrum, but it will be a spectrum of a special sort,
+called a &quot;connective&quot; spectrum, where the spaces E(n) are connected for
+n &gt; 0.  
+
+<P>
+Given a spectrum we can define the generalized cohomology groups
+H<sup>n</sup>(X) even when n is negative, via:
+
+<P>
+H<sup>n</sup>(X) = lim<sub>k &rarr; &infin;</sub> [S<sup>k</sup>(X), E(n+k)]
+
+<P>
+where S<sup>k</sup>(X) denotes the k-fold suspension of X. 
+If the spectrum is connective, these groups will vanish when n is
+negative.  A good example of a connective spectrum is the spectrum for
+ordinary cohomology (the Eilenberg-MacLane spectrum).  A good example
+of a nonconnective spectrum is the spectrum for real or complex K-theory.
+
+<P>
+<hr>
+<i>This therefore, is mathematics: she reminds you of the invisible forms of the soul; she gives light to her own discoveries; she awakens the mind and purifies the intellect; she brings light to our intrinsic ideas; she abolishes oblivion and ignorance which are ours by birth.</i> - Proclus
+
+<p> <hr>
+
+<!-- BEGIN FOOTER -->
+&#169; 2000  John Baez<br>
+baez@math.removethis.ucr.andthis.edu <br>
+<P>
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week148.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week150.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE><!-- END FOOTER -->

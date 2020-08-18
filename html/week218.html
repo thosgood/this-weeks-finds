@@ -1,0 +1,1179 @@
+<TITLE> week218 </TITLE>
+
+<!-- BEGIN HEADER -->
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week217.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week219.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE>
+<H4> June 5, 2005 </H4>
+<H2> This Week's Finds in Mathematical Physics (Week 218) </H2>
+<H4> John Baez </H4>
+<!-- END HEADER -->
+
+
+
+<P>
+Classes are over!  Summer is here!  Now I can finally get some work done!
+I'll be travelling to Sydney, Canberra, Beijing, Chengdu and Calgary, but 
+mainly I want to finish writing some papers.
+
+<P>
+First, though, I need to recover from a hard quarter.  I need to goof off a 
+bit!  I spent most of yesterday lying in bed reading.  Now I want to talk 
+some more about number theory.
+
+<P>
+Let's see, where were we?   I had just begun to introduce the theme of 
+L-functions and their corresponding automorphic forms.   My ultimate goal
+is to understand the Langlands Conjectures well enough to give a decent 
+explanation of what they say.  Instead of simply stating them, I'd like
+to really make them plausible, and this will take quite an elaborate warmup.
+So, this Week I want to talk about some background.
+
+<P>
+
+Actually, this reminds me of something Feynman wrote: whenever he
+worked on a problem, he needed the feeling he had some &quot;inside
+track&quot; - some insight or trick up his sleeve that nobody else
+had.  Most of us will never be as good as Feynman at choosing an
+&quot;inside track&quot;.  But I think we all need one to convert what
+would otherwise be a dutiful and doomed struggle to catch up with the
+experts into something more hopeful and exciting: a personal quest!
+
+<P>
+For anyone with a physics background, a good &quot;inside track&quot; on 
+almost any math problem is to convert it into some kind of crazy physics 
+problem.  It doesn't 
+need to be realistic physics, just anything you can apply physics intuition 
+to!  This is part of why string theorists have been so successful in cracking 
+math problems.  It also underlies Alain Connes' attempt to prove the Riemann
+Hypothesis:
+
+<P>
+1) Alain Connes, Noncommutative Geometry, Trace Formulas, and the
+Zeros of the Riemann Zeta Function.  Ohio State course notes and
+videos at
+<A HREF = "http://www.math.ohio-state.edu/lectures/connes/Connes.html">http://www.math.ohio-state.edu/lectures/connes/Connes.html</A>
+
+<P>
+Alain Connes, Trace formula in noncommutative geometry and the zeros of
+the Riemann zeta function, available as 
+<A HREF = "http://www.arxiv.org/abs/math.NT/9811068">math.NT/9811068</A>.
+
+<P>
+2) Mathilde Marcolli, Noncommutative geometry and number theory,
+available at 
+<A HREF = "http://www.math.fsu.edu/~marcolli/ncgntE.pdf">http://www.math.fsu.edu/~marcolli/ncgntE.pdf</A>
+
+<P>
+Of course, Connes also has another &quot;inside track&quot;, namely
+his theory of noncommutative geometry.
+
+<P>
+By the way: a number theorist I know says he thinks Connes has
+essentially proved the Riemann Hypothesis, in the same way that
+Riemann &quot;essentially&quot; proved the Prime Number Theorem.
+Namely, he has reduced it to some facts that seem obviously true!  Of
+course, it took about 40 years, from 1859 to 1896, for Riemann's plan
+to be fulfilled by Hadamard and De La Vallee Poussin.  So, even if
+Connes' insights are correct, it may be a while before the Riemann
+Hypothesis is actually proved.
+
+<P>
+For anyone with a background in geometry, a good &quot;inside track&quot; 
+on almost any math problem is to convert it into a geometry problem.  
+In the case of number theory this trick is old news, but still very much 
+worth knowing.  It's based on an analogy which I began discussing in 
+&quot;<A HREF = "week198.html">week198</A>&quot;.  
+
+<P>
+The analogy starts out like this:
+
+<PRE>
+
+   NUMBER THEORY           COMPLEX GEOMETRY                               
+
+   Integers, Z             Polynomial functions on the complex plane, C[z]
+   Rational numbers, Q     Rational functions on the complex plane, C(z)
+   Prime numbers, P        Points in the complex plane, C           
+
+</PRE>
+
+Why is this analogy good?   Well, for starters:
+
+<blockquote>
+   Every rational number is a ratio of integers.<br>
+
+<P>
+   Every rational function is a ratio of polynomials.  
+</blockquote>
+Better yet:
+
+<blockquote>
+   Every integer can be uniquely factored into primes <br>
+   (modulo invertible integers, namely +1 and -1). <br>
+
+<P>
+   Every complex polynomial can be uniquely factored into linear polynomials <br>
+   (modulo invertible polynomials, namely nonzero constants).
+</blockquote>
+<P>
+There's one linear polynomial z-a for each point a in the complex plane, 
+so <em>primes</em> are like <em>points</em> in the complex plane. 
+
+<P>
+
+We can make this precise using the concept of &quot;spectrum&quot;,
+which I defined in &quot;<A HREF = "week199.html">week199</A>&quot;.
+Ignoring a certain little sublety which is discussed there:
+
+<blockquote>
+   The spectrum of Z is the set of prime numbers.<br>
+<P>
+   The spectrum of C[z] is the complex plane.
+</blockquote>
+
+<P>
+This way of thinking lets us treat the spectrum of any algebraic
+extension of the integers, like the Gaussian integers, as a
+&quot;covering space&quot; of the set of prime numbers.  I've already
+drawn this picture:
+
+
+<PRE>
+                    2+i                  3+2i
+  --- 1+i --- 3 ---     --- 7 --- 11 ---      ---   GAUSSIAN INTEGERS 
+                    2-i                  3-2i           
+
+  -----2------3------5------7-----11------13-----      INTEGERS
+
+</PRE>
+
+But, now I'm saying that the &quot;line&quot; down below really acts
+like the complex <em>plane</em>.  Taking this strange idea seriously leads to
+all sorts of amazing insights.
+
+<P>
+For example, if you poke a hole in this &quot;plane&quot; at some
+prime, there's something like a little <em>loop</em> that goes around this
+hole!  In other words, there's a sense in which the spectrum of Z has
+a nontrivial &quot;fundamental group&quot;, which contains an element
+for each prime.  Technically this group is called the Galois group
+Gal(Q<sup>-</sup>/Q), and we get an element in it for each prime, called the
+&quot;Frobenius automorphism&quot; for that prime.
+
+<P>
+Another cool thing is that we can study integers &quot;locally&quot;, one prime at a 
+time, just like we study complex functions locally.  We can analyze functions
+at a point using Taylor series and Laurent series.   And, we can stretch our 
+analogy to include these concepts:
+
+<PRE>
+   NUMBER THEORY              COMPLEX GEOMETRY     
+
+   Integers, Z                Polynomial functions on the complex plane, C[z]
+   Rational numbers, Q        Rational functions on the complex plane, C(z)
+   Prime numbers, P           Points a in the complex plane, C    
+   Integers mod p<sup>n</sup>, Z/p<sup>n</sup>      (n-1)st-order Taylor series, C[z]/(z-a)<sup>n</sup>
+   p-adic integers, Z<sub>p</sub>        Taylor series, C[[z-a]]
+   p-adic numbers, Q<sub>p</sub>         Laurent series, C((z-a))
+</PRE>
+
+All the weird symbols are just the standard notations for these gadgets.
+The analogy goes as follows:
+
+<blockquote>
+   To study a polynomial &quot;at a point&quot; a in the complex plane, <br>
+   we can look at its value modulo (z-a),  
+   or more generally mod (z-a)<sup>n</sup>. <br>
+   
+<P>
+   To study an integer &quot;at a prime&quot; p, <br>
+   we can look at its value modulo p, 
+  or more generally mod p<sup>n</sup>.
+</blockquote>
+
+<P>
+This is nice because the value of a polynomial modulo
+(z-a)<sup>n</sup> is just its Taylor series at the point a, where we
+keep terms up to order n-1.
+
+<P>
+We can also also take the limit as n &rarr; &infin;.  If we do this to
+the integers mod p<sup>n</sup> we get a ring called the &quot;p-adic
+integers&quot;.  For example, a typical 3-adic integer, written in
+base 3, looks like this:
+
+<PRE>
+        ......21001102020110102012102201
+</PRE>
+They're just like natural numbers in base 3, except they go on forever to the
+left!  We add and multiply them in the obvious way, for example:
+
+<PRE>
+        ......21001102020110102012102201
+      + ......10201101012201201122010012
+     -----------------------------------
+        ......01202210110012010211112220
+</PRE>
+If we take the same sort of limit for Taylor series, we get Taylor series 
+that go on forever - in other words, formal power series.  
+
+<P>
+We can also ratios of p-adic integers, which are called p-adic numbers,
+and ratios of Taylor series, which are called Laurent series.   A typical
+3-adic number, written in base 3, looks like this:
+
+<PRE>
+       .......121010010012121201201201011.21021
+</PRE>
+They have to stop at some finite stage at the right, just as Laurent
+series have to stop at some finite stage: they can't have arbitrarily
+large negative powers of z-a.  
+                     
+<P>
+Laurent series can be used to describe functions that have a pole at some
+point, like rational functions.  Similarly, p-adic numbers can be used 
+to describe rational numbers.  Using more math jargon:
+
+<blockquote>
+   For any point a in C, there's a homomorphism  <br>
+   from the field of rational functions <br>
+   to the field of Laurent series,<br>
+   which sends polynomials to Taylor series.<br>
+
+<P>
+   For any prime p, there's a homomorphism <br>
+   from the field of rational numbers<br>
+   to the field of p-adic numbers,<br>
+   which sends integers to p-adic integers.
+</blockquote>
+
+This lets us study rational numbers &quot;locally&quot; at the prime p
+using p-adic numbers, just as we can study a rational function locally
+at a point using its Laurent series.  This technique can be quite
+useful.  For example, a polynomial equation can have rational
+solutions only if it has p-adic solution for all primes p.
+
+<P>
+We might hope for the converse, but then we would be ignoring a funny
+extra &quot;prime&quot; besides the usual ones... something called the
+&quot;real prime&quot;!
+
+<P>
+The point is, besides being able to embed the rational numbers in the
+p-adics for any prime p, we can also embed them in the real numbers!
+This embedding is a bit different than the rest: it's based on a weird
+thing called an &quot;Archimedean valuation&quot;, while the usual
+primes correspond to non-Archimedean valuations.
+
+<P>
+I'm sort of joking here, since if you're more used to real numbers
+than p-adics, you'll probably find Archimedean valuations to be <em>less</em>
+weird than non-Archimedean ones.  The Archimedean valuation on the
+rational numbers is just the usual absolute value, while the
+non-Archimedean ones are other concepts of &quot;absolute value&quot;,
+one for each prime p.  If we take limits of rational numbers that
+converge using the usual distance function |x-y|, we get real numbers;
+if we take limits that converge using one of the non-Archimedean
+versions of this distance function, we get p-adic numbers.  But from
+the viewpoint of number theory, it's the Archimedean valuation that's
+the odd man out!  It indeed does act very weird and different than all
+the rest.  That's why someone wrote this book:
+
+<P>
+3) M. J. Shai Haran, The Mysteries of the Real Prime, Oxford
+U. Press, Oxford, 2001. 
+
+<P>
+... which you will see is deeply connected to mathematical physics.
+
+<P>
+If we take this weird &quot;real prime&quot; into account, things work better.  
+We sometimes get results saying that some kind of polynomial equations 
+have a rational solution if they have p-adic solutions for all primes p 
+and also a real solution.  For example, Hasse proved this was true for 
+systems of quadratic equations in many variables.
+
+<P>
+Results like this are called &quot;local-to-global&quot; results,
+since they're analogous to constructing a function from local
+information, like its Laurent series at all different points.
+
+<P>
+In 1950, in his famous PhD thesis, John Tate came up with a clever way to 
+formalize this &quot;Laurent series at all different points&quot; idea in the context 
+of number theory.  To do this, he formed a ring called the &quot;adeles&quot;.  
+
+<P>
+Indeed, this is what my whole discussion so far has been leading up
+to!  Adeles are a really nice formalism, and you pretty much need to
+understand them to follow what people are doing in work on the
+Langlands Conjectures, or even simpler things, like class field
+theory.  But, adeles seem like an arbitrary construction until you see
+them as an inevitable outgrowth of our desire to study integers
+&quot;locally&quot; at all different primes, including the real prime.
+
+<P>
+The definition is simple.   An adele consists of a p-adic number for each 
+prime p, together with a real number... but where all but finitely many 
+of the p-adic numbers are p-adic integers!
+
+<P>
+This is the number-theoretic analogue of a Laurent series for each point in 
+the complex plane, including the point at infinity... but with poles at only 
+finitely many points!  We could call such a thing an &quot;adele for the rational
+functions&quot;.  
+
+<P>
+Any rational function gives such a thing, just as any rational number gives 
+an adele.  And, we don't lose any information this way:
+
+<blockquote>
+   There's a one-to-one (but not onto) homomorphism <br>
+   from the rational functions to the adeles for the rational functions.
+
+<P>
+   There's a one-to-one (but not onto) homomorphism <br>
+   from the rational numbers to the adeles for the rational numbers.
+</blockquote>
+
+<P>
+So, our table now looks like this.  For good measure, I'll combine it with
+the related table in &quot;<A HREF = "week205.html">week205</A>&quot;:
+
+<PRE>
+   NUMBER THEORY                 COMPLEX GEOMETRY    
+
+   Integers                      Polynomial functions on the complex plane
+   Rational numbers              Rational functions on the complex plane
+   Prime numbers                 Points in the complex plane     
+   Integers mod p<sup>n</sup>               (n-1)st-order Taylor series
+   p-adic integers               Taylor series
+   p-adic numbers                Laurent series
+   Adeles for the rationals      Adeles for the rational functions
+   Fields                        One-point spaces
+   Homomorphisms to fields       Maps from one-point spaces
+   Algebraic number fields       Branched covering spaces of the complex plane
+</PRE>
+There's a <em>lot</em> 
+more to say about this analogy, but I think this is enough 
+for now.  Again, one of my secret goals was to start getting you comfy with 
+adeles and the idea of studying number theory &quot;locally&quot;.  
+
+<P>
+For more on the geometrical side of number theory, I again recommend these:
+
+<P>
+4) Juergen Neukirch, Algebraic Number Theory, trans. Norbert Schappacher, 
+Springer, Berlin, 1986.
+
+<P>
+5) Dino Lorenzini, An Invitation to Arithmetic Geometry, American 
+Mathematical Society, Providence, Rhode Island, 1996.
+
+<P>
+But now, back to the subject of &quot;inside tracks&quot; - sneaky
+ways to get the beneficial feeling that you have secret insights into
+some problem.
+
+<P>
+For anyone with a background in categories, a good &quot;inside track&quot; on 
+almost any math problem is to categorify it: to see that people are using 
+sets where they could, and therefore <em>should</em>, be using categories or 
+n-categories.
+
+<P>
+I've already hinted that zeta functions are an example of 
+&quot;decategorification&quot;.  Now I'd like to make this more precise.  
+
+<P>
+Let's think about the zeta function of a set X equipped with a one-to-one 
+and onto function
+
+<P>
+f: X &rarr; X
+
+<P>
+If you're a physicist, you might call this a &quot;discrete dynamical
+system&quot;, with f describing one step of &quot;time
+evolution&quot;.  If you're a mathematician, you might call this a
+&quot;Z-set&quot;.  After all, for any group G, a &quot;G-set&quot; is
+a set equipped with an action of G.  If G = Z (the additive group of
+integers), this amounts to a one-to-one and onto function from some
+set to itself.
+
+<P>
+No matter what you call them, these are fundamental things.  So, let's 
+look at the <em>category</em> of Z-sets!  Here the objects are Z-sets and the 
+morphisms are functions that commute with time evolution.  
+
+<P>
+As explained near the end of &quot;<A HREF =
+"week216.html">week216</A>&quot;, we can define a kind of zeta
+function for a Z-set as follows:
+
+<P>
+Z(x) = exp(&sum;<sub>n&gt;0</sub> |fix(f<sup>&nbsp;n</sup>)| x<sup>n</sup> / n)
+
+<P>
+where |fix(f<sup>&nbsp;n</sup>)| is the number of fixed points of 
+f<sup>&nbsp;n</sup>.  Of course, this
+only makes sense if all these numbers are finite; henceforth I'll assume 
+my Z-sets are &quot;finite&quot; in this special sense.  
+
+<P>
+It turns out that you know a finite Z-set up to isomorphism if you know its 
+zeta function.  So, a zeta function is just a sneaky way of talking about 
+an <em>isomorphism class</em> of finite Z-sets.  
+
+<P>
+
+This is a fancy example of something we all learn as kids: counting!
+When we &quot;count&quot; a finite set, assigning a natural number to
+it, we are really determining its isomorphism class.  Two finite sets
+are isomorphic if and only if they have the same number of elements.
+Operations on finite sets, like disjoint union and Cartesian product,
+are what give rise to operations on natural numbers, like addition and
+multiplication.
+
+<P>
+Summarizing this, we have the following motto, suitable for making into
+a bumper sticker:
+<P>
+<div align = "center">
+  THE SET OF NATURAL NUMBERS IS THE DECATEGORIFICATION OF<br>
+                THE CATEGORY OF FINITE SETS
+</div>
+<P>
+Similarly, this is what we're seeing now:
+<P>
+<div align = "center">
+  THE SET OF ZETA FUNCTIONS IS THE DECATEGORIFICATION OF  <br>
+               THE CATEGORY OF FINITE Z-SETS
+</div>
+<P>
+Beware: here I'm only talking about zeta functions of the above form.  There 
+are lots of other things people call zeta functions.   So, don't read too 
+much into this statement.  But don't read too little into it, either!   With 
+an extra twist we can get most of the zeta functions showing up in number 
+theory.  In number theory, we typically get a Z-set for each prime p, 
+coming from the &quot;Frobenius&quot; for that prime.  We thus get a bunch of &quot;local&quot; 
+zeta functions Z<sub>p</sub>(x), one for each prime.  We then multiply these to get 
+one big fat &quot;global&quot; zeta function:
+
+<P>
+&zeta;(s) = &prod;<sub>p</sub> Z(p<sup>-s</sup>)
+
+<P>
+Each local zeta function is a formal power series, while this global
+zeta function is a Dirichlet series.  As I mentioned in &quot;<A HREF
+= "week217.html">week217</A>&quot;, formal power series live in the
+monoid algebra of (N,+,0), while Dirichlet series live in the monoid
+algebra of (N,&times;,1).  (N,+,0) is the free commutative monoid on one
+generator, while (N,&times;,1) is the free commutative monoid on countably
+many generators - the primes!  Everything fits together sweetly.
+
+<P>
+So, it's a good first step to think about the zeta function of a single 
+Z-set.
+
+<P>
+Now, there's another motto along the lines of the above two, which I've
+talked about before:
+<P>
+<div align = "center">
+   THE SET OF GENERATING FUNCTIONS IS A DECATEGORIFICATION OF <br>
+                 THE CATEGORY OF FINITE STRUCTURE TYPES
+</div>
+<P>
+I explained this in &quot;<A HREF = "week185.html">week185</A>&quot;, &quot;<A HREF = "week190.html">week190</A>&quot;, and &quot;<A HREF = "week202.html">week202</A>&quot;.  I've even taught a
+whole course on structure types (also known as &quot;species&quot;) and the 
+combinatorics of Feynman diagrams.  The course notes by Derek Wise are 
+available online:
+
+<P>
+6) John Baez and Derek Wise, Quantization and Categorification, available at:<br>
+<A HREF = "http://math.ucr.edu/home/baez/qg-fall2003/">http://math.ucr.edu/home/baez/qg-fall2003/</A> <br>
+<A HREF = "http://math.ucr.edu/home/baez/qg-winter2004/">http://math.ucr.edu/home/baez/qg-winter2004/</A> <br>
+<A HREF = "http://math.ucr.edu/home/baez/qg-spring2004/">http://math.ucr.edu/home/baez/qg-spring2004/</A> 
+
+<P>
+So, I think this third example of decategorification is great.  But, I'm not 
+going to explain it in much detail here - just enough to say how it's related
+to zeta functions!
+
+<P>
+A stucture type F is a gadget that gives a set F<sub>n</sub>
+for each n = 0,1,2,....
+We think of the elements of F<sub>n</sub> 
+as &quot;structures of type F&quot; on an n-element 
+set - for example, orderings, or cyclic orderings, or n-colorings, or 
+whatever type of structure you like.  We only require that permutations of 
+the n-element set act on this set of structures.  
+
+<P>
+Let's say a structure type is &quot;finite&quot; if all the
+sets F<sub>n</sub> are finite.
+Any finite structure type has a &quot;generating function&quot;, 
+which is a formal power series |F| given by
+
+<PRE>
+              |F<sub>n</sub>|
+|F|(x) =  &sum;  ------  x<sup>n</sup>
+               n! 
+</PRE>
+
+Isomorphic structure types have the same generating function.
+However, structure types with the same generating function can fail to
+be isomorphic.  This is why I said generating functions are
+&quot;a&quot; decategorification of finite structure types, instead of
+&quot;the&quot; decategorification.
+
+<P>
+Despite this defect, generating functions are still very useful in 
+combinatorics.  So, when we see a zeta function like
+
+<P>
+Z(x) = exp(&sum;<sub>n&gt;0</sub> |fix(f<sup>&nbsp;n</sup>)| x<sup>n</sup> / n)
+
+<P>
+as a trick for decategorifying Z-sets, we should instantly wonder if it's 
+a generating function in disguise.  And of course, it is!
+
+<P>
+Actually it's easiest to leave out the exponential at first.  This power
+series:
+
+<P>
+&sum;<sub>n&gt;0</sub> |fix(f<sup>&nbsp;n</sup>)| x<sup>n</sup> / n
+
+<P>
+is the generating function for the structure type &quot;being cyclically 
+ordered and equipped with a morphism to the Z-set X&quot;.   
+
+<P>
+Huh?
+
+<P>
+We &quot;cyclically order&quot; a finite set by drawing it as a little circle of dots 
+with arrows pointing clockwise from each dot to the next.  A cyclically 
+ordered set is automatically a Z-set in an obvious way.   So, here's a type 
+of structure you can put on a finite set: cyclically ordering it and 
+equipping the resulting Z-set with a morphism to the Z-set X.  
+
+<P>
+And, if you work out the generating function of this structure type, you get 
+
+<P>
+&sum;<sub>n&gt;0</sub> |fix(f<sup>&nbsp;n</sup>)| x<sup>n</sup> / n
+
+<P>
+Check it and see!  
+
+<P>
+What about the exponential?  Luckily, there's a standard way to take the 
+exponential of a structure type: to put an exp(F)-structure on a finite set 
+S, we chop S into disjoint parts and put an F-structure on each part.  So, 
+the zeta function
+
+<P>
+Z(x) = exp(&sum;<sub>n&gt;0</sub> |fix(f<sup>&nbsp;n</sup>)| x<sup>n</sup> / n)
+
+<P>
+is the generating function for &quot;being chopped up into cyclically ordered 
+parts, each equipped with a morphism to the Z-set X&quot;. 
+
+<P>
+But this is just a long way of saying: &quot;being made into a Z-set
+and equipped with a morphism to the Z-set X&quot;.
+
+<P>
+Or, in category theory jargon, &quot;being a Z-set over X&quot;.
+
+<P>
+So: 
+<P>
+<div align = center>
+     THE ZETA FUNCTION OF THE Z-SET X IS THE GENERATING FUNCTION OF <br>
+                      &quot;BEING A Z-SET OVER X&quot;
+</div>
+
+<P>
+By the way, this is the kind of thing you could do with <em>any</em>
+structure type F.  Given an F-structured set X, we get a new structure
+type &quot;being an F-structured set equipped with a morphism to
+X&quot;.  Or, in category theory jargon, &quot;being an F-structured
+set over X&quot;.  The generating function of this could be called the
+&quot;zeta function&quot; of our F-structured set X.  I have no idea
+how important this is...
+
+<P>
+... but I want to keep gnawing away on the connection between zeta functions
+and the generating functions of combinatorics, because to understand number 
+theory, I need all the &quot;inside tracks&quot; I can get!
+<P>
+<HR>
+<P>
+<B>Addendum</B>: 
+After reading this Week's Finds, Kevin Buzzard emailed me the
+following remarks.  He begins by talking about adeles for any
+algebraic number field K - a fairly straightforward generalization of
+the case I discussed above, where K is the rational numbers:
+
+<P>
+<blockquote>
+ The adeles were used in a really powerful way in the theorems and proofs
+ of global class field theory (you don't want to read the proofs. I did
+ this precisely once in my life and they are very unilluminating).  But the
+ theorem---if K is a number field then the abelianisation of 
+  Gal(K<sup>-</sup>/K)
+  is canonically isomorphic to 
+<P>
+K*\Adeles<sub>K</sub>*/(K<sub>&infin;</sub>*)<sup>0</sup>
+<P>
+ (the last term being the connected component of the product of the
+ infinite completions of K)---is incredibly important.
+
+<P>
+  Much easier going is Tate's thesis (in the book by Cassels and Froehlich).
+ Tate observes that Fourier analysis works on any locally compact abelian 
+ group (Haar measure is the replacement for &quot;usual&quot; measure), and then gives 
+ a very short proof of the analytic continuation and functional equation of
+ all Hecke's L-functions by simply pushing through an analogue of the proof
+ you know of the functional equation of the zeta function in this much more
+ general context.  I think this is an amazingly powerful use of the adeles.
+ Tate's approach explains the fudge factors, the factors at infinity,
+ everything.
+
+<P>
+ A word on analogies.  If you want to say that the p-adic integers are 
+ analogous to the formal power series ring C[[z-a]] (call it C[[z]] 
+ for simplicity) then in fact some people would say that this was <em>not</em> 
+ an analogy---this was simply two instances of the same thing, namely a 
+ complete discrete valuation ring. Similarly, you might say that Z is 
+ analogous to C[z], but again some people would just tell you to go and 
+ get a book on commutative algebra and look up the word &quot;Dedekind 
+ domain&quot;---both of these are examples. A geometer might even go and 
+ tell you to go and find out what a regular 1-dimensional scheme was!
+
+<P> 
+ One thing I didn't realise when I was learning all this stuff however, was
+ that there is some stuff that just goes through for all Dedekind domains
+ (e.g. construction of adeles, existence of class group etc), and there is
+ some stuff that actually requires more. Tate's thesis for example requires
+ more---it doesn't just work for all Dedekind domains because Tate needs a
+ Haar measure and so he needs completions to be locally compact,
+ which is basically the same as demanding that <em>all residue fields are
+ finite</em>.  Here's something you can do for Z<sub>p</sub> 
+ which you can't do for
+ C[[z]]: let's define the measure of a+p<sup>n</sup>Z<sub>p</sub> 
+ to be p<sup>-n</sup>. Then this is
+ finitely additive, because Z<sub>p</sub> 
+ is the disjoint union pZ<sub>p</sub> &cup; 1+pZ<sub>p</sub> &cup;
+ ... &cup; (p-1)+pZ<sub>p</sub>, and 
+ 1/p+1/p+...+1/p (p times) is 1.
+ But you can't do this for C[[z]] because the cardinality of 
+ C is infinite.  This naive
+ measure on Z<sub>p</sub> is exactly what you need to define p-adic 
+ L-functions, 
+ by the way! But they are another (related) story.
+
+<P>
+ When you move from Discrete Valuation Rings to Dedekind Domains the same
+ care needs to be applied: it's a famous theorem that the ideal class group 
+ of (the integers of) a number field is finite.  But it's not true that the
+ class group of a Dedekind domain is finite: the class group of C[z] is
+ finite as C[z] is a principal ideal domain, but the class group of
+ C[x,y]/(y<sup>2</sup>-x<sup>3</sup>-1) is infinite (the class group is essentially the
+ underlying elliptic curve, which is an infinite group).  Again you have to
+ demand that residue fields are finite.  So this stops you thinking about
+ C[z] and its finite extensions, it forces you to start thinking about k[z]
+ where k is a <em>finite</em> field.  
+  Of course algebraic geometers aren't scared
+ of finite fields (well, at least, the ones I talk to the most aren't), so
+ after a while your analogy is going to break because C is infinite.
+ Langlands' philosophy is (or at least, was---it has been generalised in
+ various directions now) about global fields, which means either number
+ fields or finite extensions of k(z) where k is a finite field.  Of course
+ Lafforgue recently proved everything in the function field case, hence the
+ Fields Medal.
+ 
+<P>
+ Kevin
+</blockquote>
+
+I replied:
+
+<blockquote>
+
+<PRE>
+ > The adeles were used in a really powerful way in the theorems and 
+ > proofs of global class field theory (you don't want to read the 
+ > proofs. I did this precisely once in my life and they are very 
+ > unilluminating).
+</PRE>
+
+ Then I think there must exist nicer proofs!  There can't possibly 
+ be such important and beautiful results where the best possible proof
+ is unilluminating.  So, someone needs to work on this more... perhaps
+ me, if everyone else is too busy.  :-) 
+
+<PRE>
+ > But the theorem---if K is a number field then the abelianisation 
+ > of Gal(K<sup>-</sup>/K) is canonically isomorphic to 
+ > K*\Adeles<sub>K</sub>*/(K<sub>&infin;</sub>*)<sup>0</sup>
+ > (the last term being the connected component of the product of 
+ > the infinite completions of K)---is incredibly important.
+</PRE>
+
+ It's beautiful, too!
+
+<PRE>
+ > Much easier going is Tate's thesis (in the book by Cassels and 
+ > Froehlich).  Tate observes that Fourier analysis works on any 
+ > locally compact group (Haar measure is the replacement for 
+ > &quot;usual&quot; measure), and then gives a very short proof 
+ > of the analytic continuation and functional equation of all 
+ > Hecke's L-functions by simply pushing through an analogue of 
+ > the proof you know of the functional equation of the zeta 
+ > function in this much more general context.  I think this is 
+ > an amazingly powerful use of the adeles.  Tate's approach 
+ > explains the fudge factors, the factors at infinity, everything.
+</PRE> 
+
+ This sounds great.  I've always heard people rave about Tate's thesis,
+ and now it's time for me to read it... or at least the book you mention -
+ but I get the feeling the actual thesis is good.
+
+<PRE>
+ > A word on analogies.If you want to say that the p-adic integers 
+ > are analogous to the formal power series ring C[[z-a]] (call it 
+ > C[[z]] for simplicity) then in fact some people would say that 
+ > this was <em>not</em> an analogy---this was simply two instances 
+ > of the same thing, namely a complete discrete valuation ring.
+</PRE>
+
+ Yes, but I don't want to intimidate my readers with concepts
+ like &quot;complete discrete valuation ring&quot; - I'd rather lure them 
+ in with the charm of a mysterious analogy!  I think think this 
+ is how things went historically, too... judging from Weil's
+ remarks: 
+<P>
+7) Martin H. Krieger, A 1940 letter of Andre Weil on analogy in 
+ mathematics, AMS Notices 52 (March 2005), 334-341. Available 
+ at <A HREF = "http://www.ams.org/notices/200503/200503-toc.html"> http://www.ams.org/notices/200503/200503-toc.html</A>
+
+<P>
+ He even talks about how the charm of an analogy evaporates when
+ you find a generalization that encompasses both terms:
+
+<blockquote>
+  &quot;The 
+  day dawns when the illusion vanishes; intuition turns to certitude; 
+  the twin theories reveal their common source before disappearing; as 
+  the Gita teaches us, knowledge and indifference are attained at the 
+  same moment. Metaphysics has become mathematics, ready to form the 
+  material for a treatise whose icy beauty no longer has the power to 
+  move us.&quot;
+</blockquote>
+
+ Wouldn't want that!
+
+<PRE>
+ > Similarly, you might say that Z is analogous to C[z], but again 
+ > some people would just tell you to go and get a book on commutative 
+ > algebra and look up the word &quot;Dedekind domain&quot;---both of these 
+ > are examples. A geometer might even go and tell you to go 
+ > and find out what a regular 1-dimensional scheme was!
+</PRE> 
+
+ I've read lots of theorems about Dedekind domains, and on good
+ days I can even remember the definition... 
+
+<P>
+ But, I really want to keep things a bit vague and misty for my 
+ readers - most importantly because This Week's Finds is supposed
+ to be fun, but also because a lot of the coolest stuff happens 
+ when you extend vague analogies in shocking ways.  
+
+<P>
+ For example, thinking of Spec(Z) as a plane that gets a fundamental 
+ group when you poke a hole in it and remove a prime is nice
+ for visualizing an individual Frobenius generator, but 
+ deeper results suggest that it's good to think of Spec(Z) 
+ as 3-dimensional!  This leads to the extensive analogy between 
+ Spec(Z) and knot theory discussed here...
+
+<P>
+8) Adam 
+Sikora, Analogies between group actions on 3-manifolds and number fields,
+available as <A HREF = "http://www.arXiv.org/abs/math.NT/0107210">math.GT/0107210</A>.
+
+<P>
+9) Christopher Deninger, 
+A note on arithmetic topology and dynamical systems,
+available as <A HREF = "http://www.arXiv.org/abs/math.NT/0204274">math.NT/0204274</A>.
+
+<P>
+<PRE>
+ > (Actually I think there is even a kind of Langlands philosophy 
+ > for C(z) and its finite extensions nowadays worked out recently 
+ > by Beilinson and Drinfeld.  I saw Beilinson give several lectures 
+ > on it, more than once, and still didn't really get it, I am too 
+ > number-theoretic.)
+</PRE>
+
+ Is this the "geometric Langlands program" stuff?  Physicists are
+ getting interested in that... 
+<P>
+ Best,<br>
+ jb
+</BLOCKQUOTE>
+
+To understand Kevin's reply, recall that
+any algebraic number field K has a &quot;maximal abelian extension&quot;
+K<sup>ab</sup>.  This is the
+biggest algebraic extension of K whose Galois group is
+<em>abelian</em>.  When K = Q, the Kronecker-Weber theorem says
+this is obtained by throwing in all the roots of unity.
+Since a field obtained from Q by throwing in a root of unity is called
+a &quot;cyclotomic field&quot;, people sometimes call this Q<sup>cyc</sup>.
+
+<P>
+In &quot;<A HREF = "week201.html">week201</A>&quot; I described
+the Galois group Gal(Q<sup>cyc</sup>/Q).  Unsurprisingly,
+this is the abelianization
+of the big bad Galois group Gal(Q<sup>-</sup>/Q): the Galois group
+of the algebraic closure of Q.    In what follows,
+Kevin more generally discusses Gal(K<sup>ab</sup>/K), which is
+the abelianization of Gal(K<sup>-</sup>/K).  
+
+<P>
+Understanding groups like Gal(K<sup>-</sup>/K)
+is one of the great unfulfilled dreams of number theory.  Understanding
+its abelianization is one of the great triumphs of late nineteenth
+to mid twentieth century mathematics.  This is called <em>class field
+theory</em>.
+
+<BLOCKQUOTE>
+<PRE>
+ > > The adeles were used in a really powerful way in the theorems and proofs
+ > > of global class field theory (you don't want to read the proofs. I did
+ > > this precisely once in my life and they are very unilluminating).
+
+ > Then I think there must exist nicer proofs!
+</PRE>
+
+ This is related to one of Hilbert's problems! (the 12th one). So you must
+ be thinking along the right lines :-)
+
+<P>
+ Abstract theorem: if K is a number field then the abelianisation of
+ Gal(K<sup>-</sup>/K) is isomorphic to K*\Adeles<sub>K</sub>*/(K<sub>&infin;</sub>*)<sup>0</sup>.
+
+<P>
+ Remark: the right hand group is very &quot;concrete&quot;, 
+ in the sense that one can
+ write down explicit finite quotients of it. (Why quotients? Because quotients
+ of Galois groups are again Galois groups.) For example, I can
+ just write down a big subgroup e.g. K<sub>&infin;</sub>* times the product of
+ O<sub>K<sub>&nbsp;v</sub></sub>*, where v runs through all the finite places of K, and the
+ quotient of the big group by the big subgroup can be checked to be compact
+ and discrete, so it's finite. We have hence "explicitly" written down a
+ finite quotient of Gal(K<sup>-</sup>/K), corresponding to a finite extension H of K.
+ The objects on the right hand side are rather abstract, but this is as
+ explicit a quotient group of the right hand side as you could possibly ask for---we
+ understand exactly what's going on at every place, for example. Hence this
+ is as explicit a finite extension of K as you could possibly ask for, if
+ you admit the isomorphism of class field theory. Indeed, if you know a bit
+ more about the isomorphism, you will know that this quotient H is
+ unramified at all the primes of K, and is indeed the largest
+ abelian extension of K with this property. H is (by definition) the
+ Hilbert Class Field of K. In your analogy, given a curve, a natural thing
+ to think of would be the universal covering space of the curve.
+ Unfortunately number theorists aren't good enough to understand all of
+ Gal(K<sup>-</sup>/K), they have to abelianise first, so H corresponds to the
+ maximal unramified cover of the curve with abelian covering group.
+ 
+<P>
+ Great! So we have all this machinery, this beautiful isomorphism, this
+ completely canonical description of the Galois group, and we make a very
+ explicit and natural construction on the right hand side, so now let me
+ give you a number field like Q(&radic;10) and ask you what H is!
+
+<P> 
+ Now suddenly you see a big disadvantage of the glorious proof of the
+ isomorphism which goes via all this cohomological chasing around---it
+ shows the existence of H but doesn't tell us what it is. At all. And at
+ the end of the day, there are a lot of number theorists out there that are
+ actually interested <em>in numbers</em>, rather than in abstract results which
+ hold for all number fields or whatever.
+
+<P> 
+ Hilbert's question was: &quot;well, this is all well and good, but can anyone
+ actually <em>write down</em> the isomorphism, rather than actually prove its
+ existence? Can anyone write it down sufficiently concretely so that people
+ can just read off the Hilbert Class Group of a number field, given the
+ field?&quot; And, to be honest, although a lot is known, Hilbert would probably
+ say that the answer is still &quot;no&quot;. If you were to find a 
+ &quot;better&quot; proof of
+ global class field theory then perhaps the answer would change. In fact
+ the Hilbert Class Field is just the tip of the iceberg---global class field
+ theory gives
+ us a description of the abelianisation of Gal(K<sup>-</sup>/K), and this
+ abelianisation corresponds to a field K<sup>ab</sup>, 
+ of infinite degree over K,
+ but Galois, with infinite abelian Galois group. If I give you K, can
+ you tell me K<sup>ab</sup>? Hilbert even wanted to know this (his questions
+ are maximally greedy, I guess).
+
+<P>
+ Hilbert's question was not totally out of the blue. It can be done for
+ K=Q, indeed it had been done 50 years before Hilbert's question. Kronecker
+ and Weber knew not just the Hilbert class field of Q, they even knew
+ Q<sup>ab</sup>, it's just the union of Q(1<sup>1/n</sup>), 
+ where 1<sup>1/n</sup> is exp(2&pi;i/n).
+ Let me labour a point which experts in the theory feel is highly
+ important: the exponential function is transcendental---it doesn't
+ belong in algebraic geometry because it's not in C(z). On the other
+ hand, this transcendental function, when evaluated at certain places,
+ gives algebraic numbers out, and it is these algebraic numbers which
+ explain all the class field theory of the rationals.
+ 
+<P>
+ Now a <b>TOTALLY AMAZING GENERALISATION</b>: let K be an imaginary quadratic
+ field, so Q(&radic;d) for some integer d<0.  Let L be the lattice in the
+ complex numbers with basis 1 and &radic;d (this is a lattice as d<0).
+ Quotient out the complex numbers by this lattice.  You get a 1-dimensional 
+ complex torus, so an elliptic curve. The curve has a j-invariant, which is 
+ going to be a "random" complex number.  One can compute this number to as 
+ many decimal places as one likes nowadays (in practice).  For example, if 
+ d=-5 then my computer instantly tells me that the j-invariant of the 
+ corresponding elliptic curve is
+
+<P>
+ 1264538.90947514050932022704741070342148144212156690839688175141278172815944442224994634954784218993...
+<P>
+ Equally quickly, my computer spots that this (to 100 decimal places,
+ at least) looks awfully like one of the roots of
+ 
+<P>
+ x<sup>2</sup> - 1264000x - 681472000
+ 
+<P>
+ (it agrees with it to 100 decimal places, despite the fact that the j-function
+ is again &quot;transcendental&quot;---we have put an algebraic number in and appear
+ to have got an algebraic number out).
+
+<P>
+ The awesome fact is that the splitting field of this polynomial
+ over Q(&radic;-5) (i.e. the field you get by adjoining all of the roots
+ of this polynomial to Q(&radic;-5) ) is the Hilbert Class Field of 
+ Q(&radic;5)!
+ <em>Even better</em>: 
+ I can even tell you K<sup>ab</sup>, if K is Q(&radic;-5): write
+ down a model for the elliptic curve in the form y<sup>2</sup>=f(x) 
+ with f a cubic
+ with coefficients in K (use the Weierstrass P-function and its
+ derivative), and now look at all the points of finite order
+ on this elliptic curve. The x and y coordinates of all these points
+ are algebraic numbers, and they generate K<sup>ab</sup>.
+ 
+<P>
+ I am proud now to give you a genuine analogy :-)
+ 
+<PRE>
+ RATIONAL FIELD                IMAGINARY QUADRATIC FIELD
+
+ Group C/Z                     Elliptic Curve C/(integers of the field)
+
+ Element of finite order       Element of finite order 
+ in the group                  in the group
+
+ function z &rarr; exp(2&pi;iz)        Weierstrass &weierp;-function 
+                               (and its derivative)
+</PRE>
+
+ In both cases, the function maps the group to an algebraic variety
+ (C* in the first case, y<sup>2</sup>=cubic in the second), and evaluating
+ the function at complex numbers which give torsion points of the group
+ (rational numbers in the first case, elements of the imaginary quadratic
+ field in the
+ second) gives numbers which by all rights should be random complex numbers,
+ but turn out to be not only algebraic, but to generate the maximal abelian
+ extension of the number field.
+
+<P> 
+
+ This really is an analogy because no-one has (as far as I know) a clue how
+ to do this more generally. Note that the rationals and the imaginary quadratic
+ fields are the only fields with exactly one infinite place. Is this why
+ they are the only fields we can &quot;do&quot;? This technique, of 
+ &quot;explicitly&quot;
+ generating abelian extensions of a number field, is called &quot;explicit 
+ class field theory&quot; and, other than the (non-trivial) contribution by 
+ Shimura and Taniyama where they used higher-dimensional abelian varieties 
+ to push the analogy slightly further, it's still a big mystery.
+
+<PRE>
+ > There can't possibly be such important and beautiful results where 
+ > the best possible proof is unilluminating.
+</PRE>
+
+ In the case of local class field theory, there are now some really
+ neat proofs, where you in some sense really do write down the maximal
+ abelian extension of an arbitrary finite extension of Q<sub>p</sub>, 
+ again using torsion
+ points in groups (formal groups). But people have spent a century looking
+ for more illuminating proofs, motivated by Hilbert's question.
+ Until then, we just have to rely on known algorithms for computing
+ Hilbert Class Fields (there are algorithms that work in lots of cases,
+ and they rely on known abstract theorems, but one might argue that
+ none of them are really "explicit", they just go, I think, by essentially
+ looking at lots of fields until one finds the one that works, rather than
+ working out which one is the right one by pure thought).
+
+<P>
+ You should talk about special values of L-functions! Do you know the
+ analytic class number formula? The degree of H over K is called the
+ class number of K and, totally amazingly, it is related to the special
+ value of an L-function. The Birch-Swinnerton-Dyer conjecture is just
+ a natural generalisation of this formula to elliptic curves over the
+ rationals, but again, what used to be an analogy has turned into two
+ instances of a more general piece of mathematics (ranks of K-groups,
+ Beilinson's conjectures etc.).
+
+<P> 
+ Sorry to go on! I just get quite enthusiastic about this stuff.
+
+<PRE>
+ > This sounds great.  I've always heard people rave about Tate's 
+ > thesis, and now it's time for me to read it... or at least the 
+ > book you mention - but I get the feeling the actual thesis is good.
+</PRE>
+
+ The thesis was never published, Tate I guess wasn't happy that he just
+ reproved a known theorem or something? Cassels-Froehlich is the canonical
+ reference. Serre's article in there talks about the links to elliptic
+ curves in the im quad case too. A nice book! 
+
+<P>
+ Thanks for the link to the letter of Weil---interesting stuff! I have
+ pity on his sister. I have heard that (Andre) Weil's house in Paris had a
+ plaque on it saying "Simone Weil used to live here" (because she did).
+ Funny that a genius had to live in the shadows of his sister (who by
+ all accounts might also have been a genius).
+
+<P>
+ Another funny piece of gossip. I think it was Chevalley who originally
+ started thinking about ideles (the ideles are the group of units
+ of the adeles). I am no historian so might have this wrong. Chevalley(?)
+ wrote a book on algebraic number theory where he talked about ideals
+ and also about these ideles, which he referred to as "ideal elements"
+ and which he abbreviated as "id.eles". Later on the period was dropped,
+ so they became ideles. I think it was Serre who saw that the ideles
+ were the units of a ring, and christened the ring with the name of "adeles".
+ If you get Serre's collected works and look at his CV at the beginning,
+ you will see that his mother was called Adele. Coincidence? :-)
+
+<PRE>
+ > > (Actually I think there is even a kind of Langlands 
+ > > philosophy for C(z) and its finite extensions nowadays 
+ > > worked out recently by Beilinson and Drinfeld.  I saw 
+ > > Beilinson give several lectures on it, more than once, and
+ > > still didn't really get it, I am too number-theoretic.)
+
+ > Is this the "geometric Langlands program" stuff?  Physicists are
+ > getting interested in that...
+</PRE>
+ Yes.
+<P>
+ Kevin
+</blockquote>
+
+
+<P>
+<HR>
+<em>
+ The scientific life of mathematicians can be pictured as a trip
+ inside the geography of the &quot;mathematical reality&quot; which
+ they unveil gradually in their own private mental frame.
+
+<P>
+  It often begins by an act of rebellion with respect to the existing
+ dogmatic description of that reality that one will find in existing
+ books. The young &quot;to be mathematician&quot; realize in their own
+ mind that their perception of the mathematical world captures some
+ features which do not fit with the existing dogma.  This first act is
+ often due in most cases to ignorance but it allows one to free
+ oneself from the reverence to authority by relying on one's intuition
+ provided it is backed by actual proofs. Once mathematicians get to
+ really know, in an original and &quot;personal&quot; manner, a small
+ part of the mathematical world, as esoteric as it can look at first,
+ their trip can really start. It is of course vital not to break the
+ &quot;fil d'arianne&quot; which allows one to constantly keep a fresh
+ eye on whatever one will encounter along the way, and also to go back
+ to the source if one feels lost at times...
+
+<P>
+ It is also vital to always keep moving. The risk otherwise is to confine 
+ oneself in a relatively small area of extreme technical specialization, thus 
+ shrinking one's perception of the mathematical world and its bewildering 
+ diversity.
+
+<P>
+ The really fundamental point in that respect is that while so many
+ mathematicians have been spending their entire life exploring that
+ world they all agree on its contours and on its connexity: whatever
+ the origin of one's itinerary, one day or another if one walks long
+ enough, one is bound to reach a well known town i.e. for instance to
+ meet elliptic functions, modular forms, zeta functions. &quot;All
+ roads lead to Rome&quot; and the mathematical world is
+ &quot;connected&quot;.
+
+<P>
+ In other words there is just &quot;one&quot; mathematical world, whose exploration is 
+ the task of all mathematicians, and they are all in the same boat somehow. 
+</em>  - Alain Connes
+
+
+<P>
+<P>
+<HR><P>
+<!-- BEGIN FOOTER -->
+&#169; 2005  John Baez<br>
+baez@math.removethis.ucr.andthis.edu <br>
+<P>
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week217.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week219.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE><!-- END FOOTER -->

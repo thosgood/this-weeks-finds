@@ -1,0 +1,729 @@
+<TITLE> week279 </TITLE>
+
+<!-- BEGIN HEADER -->
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week278.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week280.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE>
+<H4> September 5, 2009 </H4>
+<H2> This Week's Finds in Mathematical Physics (Week 279) </H2>
+<H4> John Baez </H4>
+<!-- END HEADER -->
+
+<P>
+I just finished a paper with John Huerta, a math grad student who 
+really likes particle physics:
+
+<P>
+1) John Baez and John Huerta, Division algebras and supersymmetry,
+available as <a href = "http://arxiv.org/abs/0909.0551">arXiv:0909.0551</a>.
+
+<P>
+You can think of this paper as our sequel to:
+
+<P>
+2) John Baez, OP<sup>1</sup> and Lorentzian geometry, <A HREF =
+"http://math.ucr.edu/home/baez/octonions/node11.html">http://math.ucr.edu/home/baez/octonions/node11.html</A>
+
+
+<P>
+A &quot;normed division algebra&quot; is an algebraic gadget where you
+can add, multiply, subtract, and divide, satisfying all the usual laws
+<i>except</i> the commutative and associative laws for multiplication,
+and where every element has an &quot;absolute value&quot; or
+&quot;norm&quot; satisfying the usual rules, including most notably:
+
+<P>
+|xy| = |x| |y| 
+
+<P>
+The most popular example is the real numbers.  The second most popular
+example is the complex numbers.  Then comes the quaternions, which are
+noncommutative... and then, trailing in a distant fourth place, 
+comes the octonions, which are noncommutative and
+nonassociative.
+
+<P>
+Our paper aims to give a clear and self-contained treatment of the
+amazing relation between normed division algebras and supersymmetric
+Yang-Mills theory.  Let me explain the basic idea!  I'll cut some
+corners, but you can see all the details in our paper.  
+
+<P>
+Suppose K is a normed division algebra of dimension n.  There
+are just four choices:
+
+<P>
+<UL>
+<LI>
+K = R, the real numbers, with n = 1.
+<LI>
+K = C, the complex numbers, with n = 2.
+<LI>
+K = H, the quaternions, with n = 4.
+<LI>
+K = O, the octonions, with n = 8.
+</UL>
+
+<P>
+We get all of these by taking the real numbers and throwing in square
+roots of minus 1.  So, any guy in K has a &quot;real part&quot; and an
+&quot;imaginary part&quot; - and we can &quot;conjugate&quot; it by
+switching the sign of its imaginary part.
+
+<P>
+This means we can talk about hermitian matrices with entries
+in K: that is, matrices that stay the same when you transpose 
+them and then conjugate each entry.  Let's use h<sub>2</sub>(K) to mean 
+the set of hermitian 2&times;2 matrices with entries in K. 
+
+<P>
+Then a nice thing happens: h<sub>2</sub>(K) is the same as (n+2)-dimensional
+Minkowski spacetime!  To see this, note that any guy in h<sub>2</sub>(K) has 
+this form:
+
+<PRE>
+A =  t+x   y
+     y*    t-x
+</PRE>
+where t and x are real elements of K, and y is an arbitrary element.
+Since K has dimension n, h<sub>2</sub>(K) has dimension n+2.   And check out 
+its determinant:
+
+<P>
+det(A) = t<sup>2</sup> - x<sup>2</sup> - yy*
+<P>
+
+Note that yy* = y*y = |y|<sup>2</sup>, just as in the complex numbers.
+So, det(A) is a Minkowski metric with one positive or
+&quot;timelike&quot; direction, namely t, and n+1 negative or
+&quot;spacelike&quot; directions, namely x and the n components of y.
+
+<P>
+So:
+
+<P>
+<UL>
+<LI>
+h<sub>2</sub>(R) is 3-dimensional Minkowski spacetime.
+<LI>
+h<sub>2</sub>(C) is 4-dimensional Minkowski spacetime. 
+<LI>
+h<sub>2</sub>(H) is 6-dimensional Minkowski spacetime. 
+<LI>
+h<sub>2</sub>(O) is 10-dimensional Minkowski spacetime. 
+</UL>
+
+<P>
+And - lo and behold! - these are just the dimensions where classical
+superstring theory and super-Yang-Mills theory work best!  
+
+<P>
+More precisely, these are the dimensions where you can write down 
+the Lagrangian for the &quot;Green-Schwarz superstring&quot; and &quot;pure
+super-Yang-Mills theory&quot;.  There are fancier tricks that give
+superstring theories and super-Yang-Mills theories in other
+dimensions, but these are mainly offshoots of the four cases listed
+here.
+
+<P>
+So now we have to ask: why do these supersymmetric theories feel so 
+happy when spacetime is secretly h<sub>2</sub>(K)?  
+
+<P>
+Well, supersymmetry is a kind of symmetry that mixes bosons and 
+fermions.  In the simple cases I'm talking about, this means mixing 
+vectors and spinors.   Since vectors are the same as points in 
+Minkowski spacetime - once we pick an origin - vectors in dimensions
+3, 4, 6, or 10 are nicely described by elements of h<sub>2</sub>(K).
+And it turns out that supersymmetry works well in these dimensions 
+because we can also describe <em>spinors</em> using K.  A spinor consists 
+of 2 guys in K: in other words, an element of K<sup>2</sup>.
+
+<P>
+Indeed, if you've studied physics, you may know that in 4d Minkowski
+spacetime, where we apparently live, we use C<sup>2</sup> to describe
+spinors.  I talked quite a bit about this example and also the example
+of 3d Minkowski spacetime back in &quot;<a href =
+"week196.html">week196</A>&quot;.  So go there if you want more
+details.  For now what matters is this:
+
+<UL>
+<LI>
+R<sup>2</sup> is the space of spinors in 3-dimensional Minkowski spacetime.
+<LI>
+C<sup>2</sup> is the space of spinors in 4-dimensional Minkowski spacetime.
+<LI>
+H<sup>2</sup> is the space of spinors in 6-dimensional Minkowski spacetime.
+<LI>
+O<sup>2</sup> is the space of spinors in 10-dimensional Minkowski spacetime.
+</UL>
+
+<P>
+This is a bit oversimplified, because physicists use various kinds of
+spinors, and I'm not saying which kinds show up here.  But I explained
+all these kinds back in &quot;<a href =
+"week93.html">week93</A>&quot;, and I don't want to distract you with
+that here.  I'll say more about it later.
+
+<P>
+Now, from what we've seen so far, there's an obvious way to take a
+vector and a spinor and get a new spinor.  This is what matrices were
+born for!  Just take your matrix in h<sub>2</sub>(K), multiply your spinor in
+K<sup>2</sup> by that matrix, and you get a new spinor in K<sup>2</sup>.
+
+<P>
+In fact, we see this process at work whenever an electron absorbs
+a photon.  Quite literally, we <i>see</i> it - because that's how our eyes
+work!  A photon is described by a vector, an electron is described 
+by a spinor, and part of the math involved when an electron absorbs
+a photon is this business of matrix multiplication.
+
+<P>
+Physicists would draw this operation using a Feynman diagram where a
+wiggly line (the vector) and a straight one (the spinor) come in and
+a straight one goes out:
+
+<P>
+<div align = "center">
+<img width = "150" src = "feynman.jpg">
+</div>
+
+<P>
+Mathematicians would write it as the operation that takes A in
+h<sub>2</sub>(K) and &psi; in K<sup>2</sup> and multiplies them to get 
+A&psi; in h<sub>2</sub>(K).
+
+<P>
+Now, one cool thing about Feynman diagrams is that you can turn 
+them around and read them in different ways, and they still make
+sense.  So as soon as we have a process where a spinor absorbs a vector,
+we also get a process where two spinors collide and form a vector:
+
+<P>
+<div align = "center">
+<img width = "150" src = "feynman_rotated.jpg">
+</div>
+
+Now what is this process, mathematically speaking?  Well, it's some
+operation that takes two spinors, say &psi; in K<sup>2</sup> and &phi;
+in K<sup>2</sup>, and creates a vector in h<sub>2</sub>(K) that I'll call
+&psi;&middot;&phi;.  If you want the explicit formula for this
+operation, read our paper.
+
+<P>
+So, we've got an operation that takes a vector and a spinor and
+creates a spinor, and an operation that takes two spinors and creates
+a vector.  Actually, these operations exist for <i>any</i> dimension of
+spacetime!  In general we need to describe them using the language of
+Clifford algebras.  Only in dimensions 3, 4, 6 and 10 can we describe
+them using the language of normed division algebras, as I've done
+here.
+
+<P>
+But it's this special language that gives the prettiest explanation of
+a certain astounding fact.  Supersymmetry for the Green-Schwarz
+superstring and pure super-Yang-Mills theory relies on a special
+identity which is true only in dimensions 3, 4, 6 and 10:
+
+<P>
+(&psi;&middot;&psi;) &psi; = 0
+
+<P>
+This is an example of a &quot;Fierz identity&quot;.  These equations
+show up whenever you work with spinors, and they should probably be
+called &quot;fierce identities&quot;, because they can be pretty
+scary.  In particular, it's a bit scary how some of them - like this
+one - hold only in certain special dimensions.
+
+<P>
+But this particular one has a beautiful proof in terms of normed
+division algebras!  It follows from a special property shared by these
+algebras: they're all &quot;alternative&quot;.  In other words, the
+&quot;associator&quot;
+
+<P>
+[x,y,z] = (xy)z - x(yz)
+
+<P>
+changes sign whenever we switch any of the two variables.  The
+associator is just zero for R, C, and H, since these algebras are
+associative.  So the only really interesting case is the octonions, 
+which are not associative, but still alternative.  And this is
+the case that matters for superstring theory in 10 dimensions!
+
+<P>
+Anyway, what our paper does is describe the basic operations involving
+spinors and vectors using the normed division algebras, then use
+this description to prove the identity
+ 
+<P>
+(&psi;&middot;&psi;) &psi; = 0,
+
+<P>
+and then explain how this identity is crucial in supersymmetric
+Yang-Mills theory.  None of this is particularly new!  What's new, we
+hope, is that we explain everything in one place, in a way that people
+who don't know about division algebras or supersymmetry can follow.
+Some of the proofs use a little Clifford algebra technology, but most
+of them amount to simple calculations.
+
+<P>
+Now let me tell you a tiny bit about the history of this subject, with
+references.  I would love to hear more details from people who were
+around at the time.  As far as I can tell, this is the first paper that
+explained super-Yang-Mills theory and why it only works in dimensions
+3, 4, 6 and 10:
+
+<P>
+3) Lars Brink, John Schwarz and Joel Scherk, Supersymmetric Yang-Mills
+theory, Nucl. Phys. B 121 (1977), 77-92.
+
+<P>
+Well, actually 2, 4, 6, and 10, but never mind!  This is the paper
+that did it for superstring theory:
+
+<P>
+4) Michael Green and John Schwarz, Covariant description of 
+superstrings, Phys. Lett. B136 (1984), 367-370.
+ 
+<P>
+The bible of string theory contains proofs of these facts, based on
+the properties of Clifford algebras in various dimensions:
+
+<P>
+5) Michael B. Green, John H. Schwarz and Edward Witten, Superstring
+Theory, Volume 1, Cambridge U. Press, Cambridge, 1987.  Appendix 4.A,
+Super Yang-Mills Theory, pages 244-247.  Section 5.1.2: The supersymmetric 
+string action, pp. 253-255.
+
+<P>
+Back in 1983, Kugo and Townsend showed how spinors in dimension 3, 4,
+6, and 10 get special properties from the normed division algebras.
+They formulated a supersymmetric model in 6 dimensions using the
+quaternions, and speculated about a similar formalism in 10 dimensions
+using the octonions: 
+
+<P>
+6) Taichiro Kugo and Paul Townsend, Supersymmetry and the division algebras,
+Nucl. Phys. B 221 (1983), 357-380.  Also available at
+<a href = "http://ccdb4fs.kek.jp/cgi-bin/img_index?198301032">http://ccdb4fs.kek.jp/cgi-bin/img_index?198301032</a>
+
+<P>
+Later, Evans showed that supersymmetry of nonabelian Yang-Mills fields
+coupled to massless spinors in (n+2)-dimensional spacetime implies the 
+existence of a normed division algebra of dimension n:
+
+<P>
+7) J. M. Evans, Supersymmetric Yang-Mills theories and division
+algebras, Nucl. Phys. B 298 (1988), 92-108.  Also available at
+<a href = "http://ccdb4fs.kek.jp/cgi-bin/img_index?8801412">http://ccdb4fs.kek.jp/cgi-bin/img_index?8801412</a>
+
+<P>
+Shortly after Kugo and Townsend's work, Tony Sudbery used division
+algebras to construct vectors, spinors and Lorentz groups in Minkowski
+spacetimes of dimensions 3, 4, 6, and 10:
+
+<P>
+8) Anthony Sudbery, Division algebras, (pseudo)orthogonal groups
+and spinors, Jour. Phys. A17 (1984), 939-955.
+
+<P>
+He then refined his construction with the help of a grad student:
+
+<P>
+9) Kwok-Wai Chung and Anthony Sudbery, Octonions and the Lorentz and
+conformal groups of ten-dimensional space-time, Phys. Lett. B198
+(1987), 161-164.
+
+<P>
+Tony Sudbery and Corinne Manogue then used these ideas to give an
+octonionic proof that (&psi; . &psi;) &psi; = 0.
+
+<P>
+10) Corinne Manogue and Anthony Sudbery, General solutions of
+covariant superstring equations of motion, Phys. Rev. D12 (1989), 
+4073-4077.
+
+<P>
+Together with her husband and Jason Janesky, Manogue later simplified
+the proof, and our argument is based on theirs:
+
+<P>
+11) Tevian Dray, Jason Janesky and Corinne Manogue, Octonionic
+hermitian matrices with non-real eigenvalues, Adv. Appl.  Clifford
+Algebras 10 (2000), 193-216.  Appendix B, The 3-&Psi;'s rule.
+Also available as <a href = "http://arXiv.org/abs/math/0006069">arXiv:math/0006069</A>.
+
+<P>
+They give a little more history of this wondrous identity.  They say
+that Manogue's student Schray called it &quot;the 3-&Psi;'s
+rule&quot; in his hard-to-obtain thesis:
+
+<P>
+12) J&ouml;rg Schray, Octonions and supersymmetry, Ph.D. thesis, Department
+of Physics, Oregon State University, 1994.
+
+<P>
+and also here:
+
+<P>
+13) J&ouml;rg Schray, The general classical solution of the superparticle,
+Class. Quant. Grav. 13 (1996), 27-38.  Also available as <a href = 
+"http://arXiv.org/abs/hep-th/9407045">arXiv:hep-th/9407045</A>.
+
+<P>
+They also write:
+
+<blockquote>
+   It is well-known that the 3-&Psi;'s rule holds for Majorana spinors in
+   3 dimensions, Majorana or Weyl spinors in 4 dimensions, Weyl spinors
+   in 6 dimensions and Majorana-Weyl spinors in 10 dimensions.  Thus,
+   the Green-Schwarz superstring exists only in those cases.  As was
+   shown by Fairlie and Manogue, the 3-&Psi;'s rule in all these cases
+   is equivalent to an identity on the gamma-matrices, which holds
+   automatically for the natural representation of the gamma-matrices
+   in terms of the 4 division algebras R, C, H and O, corresponding
+   precisely to the above 4 types of spinors.  Manogue and Sudbery
+   then showed how to rewrite these spinor expressions in terms of 2x2
+   matrices over the appropriate division algebra, thus eliminating
+   the gamma-matrices completely.
+
+</blockquote>
+Now I feel like explaining all this Majorana/Weyl business a bit
+better - leaving many details to &quot;<a href =
+"week93.html">week93</A>&quot;.
+
+<P>
+First I should admit, for the nonexperts, that I've committed a few
+sins of oversimplification for the sake of a nice clean story line.
+For starters, remember how I said that the absorption of a photon by
+an electron:
+
+<P>
+<div align = "center">
+<img width = "150" src = "feynman.jpg">
+</div>
+
+corresponds to the operation where we take a guy in h<sub>2</sub>(K)
+and a guy in K<sup>2</sup> and multiply them to get a guy in
+h<sub>2</sub>(K)?
+
+<P>
+In saying this, I was ignoring everything about energy and momentum,
+and focusing on the &quot;spin&quot; aspect of this absorption process.  It's
+only the &quot;spin&quot;, or intrinsic angular momentum, of a photon that's
+described by an element of h<sub>2</sub>(K) - with K = C, since we live in
+4-dimensional spacetime.  And it's only the spin of the electron
+that's described by an element of K<sup>2</sup>.
+ 
+<P>
+But it's even worse than that.  In 4-dimensional spacetime, spinors
+come in left- and right-handed forms.  For example, the neutrinos we
+most easily see - not that easily, actually! - are left-handed
+spinors, while antineutrinos are right-handed.  Electrons come in both
+left and right-handed forms, so we actually describe them using
+C<sup>2</sup> &oplus; C<sup>2</sup> = C<sup>4</sup>.  We call C<sup>4</sup>
+the space of &quot;Dirac spinors&quot;, and we call the two pieces
+left- and right-handed &quot;Weyl spinors&quot;.
+
+<P>
+Similar but subtly different things happen in other dimensions.  As
+far as our division algebras story goes, the crucial fact is that
+besides the &quot;obvious&quot; way for an element of h<sub>2</sub>(K)
+to act on K<sup>2</sup>, there is a less obvious way that involves the
+&quot;traced-reversed&quot; form of a 2&times;2 hermitian matrix:
+
+<P>
+A<sup>~</sup> = A - tr(A) 
+
+<P>
+where the trace tr(A) is the sum of the diagonal entries.  We get
+one kind of spinors, say
+
+<P>
+S<sub>+</sub> = K<sup>2</sup>
+
+<P>
+upon which the vectors
+
+<P>
+V = h<sub>2</sub>(K)
+
+<P>
+act in the obvious way, and another kind of spinors, say
+
+<P>
+S<sub>-</sub> = K<sup>2</sup>
+
+<P>
+in which vectors act in a nonobvious way.  As vector spaces S<sub>+</sub> and
+S<sub>-</sub> are the same - but they differ in how vectors act on them, and we
+should think of this action as interchanging the two kinds of spinor.
+Here are the formulas:
+<P>
+ V &otimes; S<sub>+</sub>  &rarr;  S<sub>-</sub><br/>
+ A &otimes; &psi; |&rarr; A&psi;
+<P>
+ V &otimes; S<sub>-</sub>  &rarr;  S<sub>+</sub><br/>
+ A &otimes; &psi; |&rarr; A<sup>~</sup> &psi;
+<P>
+These actions fit together to yield a Clifford algebra action on 
+the direct sum of S<sub>+</sub> and S<sub>-</sub>, since
+
+<P>
+A A<sup>~</sup> = A<sup>~</sup> A = -det(A)
+
+<P>
+and the determinant is related to the metric on Minkowski spacetime,
+so these are the Clifford algebra relations in deep disguise.
+
+<P>
+What all this really amounts to depends a lot on which of the four
+division algebras we're looking at!  Sometimes S<sub>+</sub> and
+S<sub>-</sub> are secretly isomorphic, sometimes not.  They always
+start out being real vector spaces, since as vector spaces they're
+just K<sup>2</sup>, and the only uniform way to think of all four
+normed division algebras is as <i>real</i> vector spaces.  But sometimes
+S<sub>+</sub> and S<sub>-</sub> admit Lorentz-invariant complex
+structures, so we can think of them as complex vector spaces!
+
+<P>
+(By &quot;Lorentz-invariant&quot; I really mean invariant under the action of 
+the <i>double cover</i> of the Lorentz group.  For brevity, let's just call
+this the Lorentz group.)
+
+<P>
+In fact, each of the four cases has its own unique personality, with
+the 4d case being the weirdest - you might call it a &quot;split
+personality&quot;.  Let me just summarize the facts, without much
+explanation.  This is one of those things where I write stuff down so
+I can forget it and look it up later:
+
+<UL>
+<LI>
+If K = R, we're in 3d Minkowski spacetime.  Then S<sub>+</sub> and
+S<sub>-</sub> are isomorphic as real representations of the Lorentz
+group - so it's not important to distinguish them.  The secret reason
+for this is that R is commutative.  Since S<sub>+</sub> &cong;
+S<sub>-</sub> does not have an invariant complex structure, we call
+elements of this space &quot;Majorana&quot; spinors, which is the name
+for real spinors that don't have a particular handedness.
+<P>
+</LI>
+<LI>
+If K = C, we're in 4d Minkowski spacetime.  Then S<sub>+</sub> and
+S<sub>-</sub> are isomorphic as real representations of the Lorentz
+group - so it's not important to distinguish them.  The secret reason
+for this is that C is commutative.  If we treat S<sub>+</sub> &cong;
+S<sub>-</sub> as a real vector space, we call elements of this space
+&quot;Majorana&quot; spinors, which is the name for real spinors that
+don't have a particular handedness.  
+<P>
+But in fact this real vector
+space has two invariant complex structures, and the resulting complex
+representations are <i>not</i> isomorphic!  If we think of S<sub>+</sub>
+and S<sub>-</sub> as two nonisomorphic complex representations we call
+their elements left- and right-handed &quot;Weyl&quot; spinors,
+respectively - since that's the name for complex spinors that do have
+a particular handedness.
+<P>
+</LI>
+<LI>
+If K = H, we're in 6d Minkowski spacetime.  Then S<sub>+</sub> and
+S<sub>-</sub> are not isomorphic as real representations of the
+Lorentz group - so it's important to distinguish them.  The secret
+reason for this is that H is not commutative.  Furthermore,
+S<sub>+</sub> and S<sub>-</sub> admit invariant complex structures.
+If we think of S<sub>+</sub> and S<sub>-</sub> as complex
+representations we call their elements left- and right-handed
+&quot;Weyl&quot; spinors, respectively - since that's the name for
+complex spinors that do have a particular handedness.
+<P>
+</LI>
+<LI>
+If K = O we're in 10d Minkowski spacetime.  Then S<sub>+</sub> and
+S<sub>-</sub> are not isomorphic as real representations of the
+Lorentz group - so it's important to distinguish them.  The secret
+reason for this is that O is not commutative.  Furthermore,
+S<sub>+</sub> and S<sub>-</sub> do not admit invariant complex
+structures.  So, we must think of S<sub>+</sub> and S<sub>-</sub> as
+real representations, and we call their elements left- and
+right-handed &quot;Majorana-Weyl&quot; spinors, respectively - since
+that's the name for real spinors that do have a particular handedness.
+</LI>
+</UL>
+
+<P>
+Wow, I bet that was thrilling!  
+
+<P>
+Now that I'm done with this paper, my life has undergone a phase
+change.  I've been finishing a lot of old papers for the last 2 years.
+This is the last of that batch - and the least old.  It comes as an
+incredible relief.  Working on old projects is tiring, especially when
+you have new things you're dying to think about.  I feel like I've
+been way behind myself, running to catch up...  but this week I finally
+caught up and ran past myself!  It's a strange sensation.
+
+<P>
+Adding to this strange sensation, I just got word that I'm free to
+take leave from UCR and visit Singapore for a year, starting in July
+2010.  I'll be working at the Centre for Quantum Technologies.  That
+should be a great adventure.
+
+<P>
+So, I'm feeling peppy, and I'm dying to tell you about all sorts of
+new cool stuff: Stirling numbers and the Poisson operad, stacks and
+noncommutative geometry, Adams operations and Galois theory, toric
+varieties, octonions and rolling balls, the windmill powered by light, 
+and the symplectic geometry of electrical circuits.  Each of these 
+deserves a whole Week, but we'll see.
+
+<P>
+For now, here are a few cool things I <i>won't</i> tell you much about,
+because I don't understand them well enough.  First, as pointed out to
+me by Mike Stay:
+
+<P>
+14) Generalized continued fractions and equal temperament,
+Doctroidal Dissertations, April 13th, 2009, 
+<a href = "http://doctroid.wordpress.com/2009/04/13/">http://doctroid.wordpress.com/2009/04/13/</a>
+
+<P>
+This starts with the old problem of trying to find a number x such
+that x<sup>n</sup> = 2 and x<sup>k</sup> is almost 3/2.  In music
+jargon, this is called &quot;finding an equal tempered scale that has
+a good fifth&quot;.  In math jargon, it amounts to finding a good
+rational approximation to
+
+<P>
+log(3/2)/log(2) ~ 0.584962501  
+
+<P>
+The theory of continued fractions gives us candidates:
+
+<PRE>
+0/1   = 0.000000
+1/1   = 1.000000
+1/2   = 0.500000
+3/5   = 0.600000
+7/12  = 0.583333
+24/41 = 0.585366
+31/53 = 0.584906
+</PRE>
+and the first really good one is 7/12.  Maybe that's why we divide
+the scale into 12 equal parts, with the the 7th one up playing a
+crucial role!  
+
+<P>
+But what if you want a scale that has a good fifth and something else
+too, like a good third?  That's where &quot;generalized&quot;
+continued fractions come in!  I won't tell you what those are.
+
+<P>
+I also won't tell you about the new revolution linking logic to 
+weak &infin;-groupoids.  For that you'll have to read these:
+
+<P>
+15) Martin Hofmann and Thomas Streicher, The groupoid interpretation
+of type theory, in Sambin, Giovanni, et al, Twenty-five years of
+constructive type theory, Clarendon Press, Oxford, 1998, pp. 83-111.
+Also available at
+<a href = "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.606">http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.606</a>
+
+<P>
+16) Steve Awodey and Michael A. Warren, Homotopy theoretic models of 
+identity types, available as <a href = "http://arxiv.org/abs/0709.0248">arXiv:0709.0248</a>.
+
+<P>
+17) Steve Awodey, Pieter Hofstra, Michael A. Warren, 
+Martin-Löf Complexes, available as <a href = "http://arxiv.org/abs/0906.4521">arXiv:0906.4521</a>.
+
+<P>
+18) Benno van den Berg and Richard Garner, Types are weak omega-groupoids,
+available at <a href = "http://www.dpmms.cam.ac.uk/~rhgg2/Typesom/Typesom.pdf">http://www.dpmms.cam.ac.uk/~rhgg2/Typesom/Typesom.pdf</a>
+
+<P>
+<HR><P>
+<b>Addendum:</b> Francesco Toppan writes:
+
+<blockquote>
+
+In relation with your recent, interesting, <a href =
+"http://arxiv.org/abs/arxiv:0909.0551">arxiv:0909.0551</a> paper I
+would like to signal that division algebras also appear in the
+N-extended supersymmetric quantum mechanics (in one dimension) for
+N=1,2,4,8. This is hardly surprising, of course (<a href =
+"http://arxiv.org/abs/hep-th/0109073">arXiv:hep-th/0109073</a> NPB
+Pr. Sup.).  Perhaps slightly more surprising is the fact that the
+octonionic structure constants enter, as coupling constants, N=8
+invariant actions, like e.g. the (1,8,7) model of <a href =
+"http://arxiv.org/abs/hep-th/0511274">arXiv:hep-th/0511274</a> (also
+in JHEP). In this example the 7 auxiliary fields can be associated
+with the 7 imaginary octonions, preserving the "octonionic
+covariance".  I should add that the representations of N-extended 1D
+superalgebra are mathematically very interesting and quite intricate.
+In the last few years basically two groups, my group and the group of
+S. Gates and his collaborators, worked out with complementary
+viewpoints and results several features of these representations:
+total number of fields, grading of the fields, graph interpretation,
+connectivity of the graphs, etc. etc.  Basic references can be found
+in <a href = "http://arxiv.org/abs/hep-th/0010135">hep-th/0010135</a>
+(in JMP), <a href =
+"http://arxiv.org/abs/hep-th/0610180">hep-th/0610180</a> (PoS), or
+typing my name (and Gates'name) in the arXiv.  Perhaps you could find
+these interesting to have a look at.
+
+</blockquote>
+
+<P>
+For more discussion visit the <a href =
+"http://golem.ph.utexas.edu/category/2009/09/this_weeks_finds_in_mathematic_40.html"><em>n</em>-Category
+Caf&eacute;</a>.
+
+<P>
+<HR><P> 
+<em>A creation of importance can only be produced when its
+author isolates himself, it is a child of solitude.</em> - Johann
+Wolfgang von Goethe
+
+
+<p>
+<HR><P>
+<!-- BEGIN FOOTER -->
+&#169; 2009  John Baez<br>
+baez@math.removethis.ucr.andthis.edu <br>
+<P>
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week278.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week280.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE><!-- END FOOTER -->

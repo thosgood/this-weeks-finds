@@ -1,0 +1,356 @@
+<TITLE> week75 </TITLE>
+
+<!-- BEGIN HEADER -->
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week74.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week76.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE>
+<H4> March 6, 1996 </H4>
+<H2> This Week's Finds in Mathematical Physics (Week 75) </H2>
+<H4> John Baez </H4>
+<!-- END HEADER -->
+
+
+<P>
+<A NAME = "tale">
+If you've been following my recent introduction to n-categories, you'll
+note that I haven't actually given the definition of n-categories!  I've
+only defined categories, and <em>hinted</em> at the definition of 2-categories
+by giving an example, namely Cat.  This is the 2-category whose objects
+are categories, whose morphisms are functors, and whose 2-morphisms are
+natural transformations.
+
+<P>
+The definition of n-categories - or maybe I should say the problem of
+defining n-categories - is actually surprisingly subtle.  Since I want
+to proceed at a gentle pace here, I think I should first get everyone
+used to the 2-category Cat, then define 2-categories in general, then
+play around with those a bit, and then move on to n-categories for
+higher n.  
+
+<P>
+So recall what the objects, morphisms and 2-morphisms in Cat are: they
+are categories, functors and natural transformations.  A functor F: C &rarr;
+D assigns to each object x of C an object F(x) of D, and to each morphism
+f of C a morphism F(f) of D, and has 
+
+<OL>
+<LI>
+If f: x &rarr; y, then F(f): F(x) &rarr; F(y).
+<LI>
+If fg = h, then F(f)F(g) = F(h). 
+<LI>
+If 1<sub>x</sub> is the identity morphism of x, then F(1<sub>x</sub>) 
+is the identity  morphism of F(x). 
+</OL>
+
+<P>
+Given two functors F: C &rarr; D and G: C &rarr; D, a &quot;natural
+transformation&quot; T: F &rarr; G assigns to each object x of C a
+morphism T<sub>x</sub>: F(x) &rarr; G(x), such that for any morphism f: x
+&rarr; y in C, the diagram
+
+<PRE>
+                               F(f)
+                         F(x) -----> F(y)
+ <sub> </sub>                        |           |
+                        T<sub>x</sub>|           |T<sub>y</sub>
+                          v           v
+                         G(x) -----> G(y)
+                               G(f)
+
+</PRE>
+commutes.  
+
+<P>
+Let me give a nice example.  Let Top be the category with topological
+spaces and continuous functions between them as morphisms.  Let Gpd be
+the category with groupoids as objects and functors between them as
+morphisms.  (Remember from &quot;<A HREF = "week74.html">week74</A>&quot; that a groupoid is a category with
+all morphisms invertible.)  Then there is a functor
+
+<P>
+                      &Pi;<sub>1</sub>: Top &rarr; Gpd
+
+<P>
+called the &quot;fundamental groupoid&quot; functor, which plays a very basic role
+in algebraic topology.  
+
+<P>
+Here's how we get from any space X its &quot;fundamental groupoid&quot;
+&Pi;<sub>1</sub>(X).  (If perchance you already know about the
+&quot;fundamental group&quot;, fear not, what we're doing now is very
+similar.)  To say what the groupoid &Pi;<sub>1</sub>(X) is, we need to say
+what its objects and morphisms are.  The objects in &Pi;<sub>1</sub>(X)
+are just the POINTS of X and the morphisms are just certain equivalence
+classes of PATHS in X.  More precisely, a morphism f: x &rarr; y in
+&Pi;<sub>1</sub>(X) is just an equivalence class of continuous paths from
+x to y, where two paths from x to y are decreed equivalent if one can be
+continuously deformed to the other while not moving the endpoints.  (If
+this equivalence relation holds we say the two paths are
+&quot;homotopic&quot;, and we call the equivalence classes
+&quot;homotopy classes of paths.&quot;)
+
+<P>
+This is a truly wonderful thing!  Recall the idea behind categories.
+A morphism f: x &rarr; y is supposed to be some abstract sort of &quot;process
+going from x to y.&quot;  The human mind often works by visual metaphors, and
+our visual image of a &quot;process&quot; from x to y is some sort of &quot;arrow&quot; from
+x to y:
+
+<PRE>
+                         f
+                x ----------------> y
+
+
+</PRE>
+That's why we write f: x &rarr; y, of course.  But now what we are doing is
+taking this visual metaphor literally!  We have a space X, like the
+piece of the computer screen on which you are actually reading this
+text.  The objects in &Pi;<sub>1</sub>(X) are then points in X, and a morphism is
+basically just a path from x to y:
+
+<PRE>
+                         f
+                x ----------------> y !
+
+
+</PRE>
+Well, not quite; it's a homotopy class of paths.  But still, something
+very interesting is going on here: we are turning something
+&quot;concrete&quot;, namely the space X, into a corresponding
+&quot;abstract&quot; thing, namely the groupoid &Pi;<sub>1</sub>(X), by
+thinking of &quot;concrete&quot; paths as &quot;abstract&quot;
+morphisms.  Here I am thinking of geometrical concepts as
+&quot;concrete&quot;, and algebraic ones as &quot;abstract&quot;.
+
+<P>
+You may wonder why we use homotopy classes of paths, rather than paths.
+One reason is that topologists want to use &Pi;<sub>1</sub> to distill a
+very abstract &quot;essence&quot; of the topological space X, an essence
+that conveys only information that's invariant under &quot;homotopy
+equivalence&quot;.  Another reason is that we can easily get homotopy
+classes of paths to compose associatively, as they must if they are to
+be morphisms in a category.  We simply glom them end to end:
+
+<PRE>
+                         f                 g
+                x ----------------> y ---------------> z
+
+</PRE>
+and there is no problem with associativity, since we can easily
+reparametrize the paths to make (fg)h = f(gh).  (If you haven't thought
+about this, please do!)  If we do not work with homotopy classes, it's a
+pain to define composition in such a way that (fg)h = f(gh).  Unless you
+are sneaky, you only get that (fg)h is <em>homotopic</em> to f(gh); there are
+ways to get composition to come out associative, but they are all somewhat
+immoral.  As we shall see, if we want to preserve the &quot;concreteness&quot; 
+of X as much as possible, and work with morphisms that are actual paths
+in X rather than homotopy equivalence classes, the best thing is to work
+with n-categories.  More on that later.
+
+<P>
+Let's see; I claimed there is a functor &Pi;<sub>1</sub>: Top &rarr; Gpd,
+but so far I have only defined &Pi;<sub>1</sub> on the objects of Top; we
+also need to define it for morphisms.  That's easy.  A morphism F: X
+&rarr; Y in Top is a continuous map from the space X to the space Y; this
+is just what we need to take points in X to points in Y, and homotopy
+classes of paths in X to homotopy classes of paths in Y.  So it gives us
+a morphism in Gpd from the fundamental groupoid &Pi;<sub>1</sub>(X) to the
+fundamental groupoid &Pi;<sub>1</sub>(Y).  There are various things to
+check here, but it's not hard.  We call this morphism &Pi;<sub>1</sub>(F):
+&Pi;<sub>1</sub>(X) &rarr; &Pi;<sub>1</sub>(Y).  With a little extra work, we
+can check that &Pi;<sub>1</sub>: Top &rarr; Gpd, defined this way, is
+really a functor.
+
+<P>
+Perhaps you are finding this confusing.  If so, it could easily be
+because there are several levels of categories and such going on here.
+For example, &Pi;<sub>1</sub>(X) is a groupoid, and thus a category, so
+there are morphisms like f: x &rarr; y in it; but on the other hand Gpd
+itself is a category, and there are morphisms like &Pi;<sub>1</sub>(F):
+&Pi;<sub>1</sub>(X) &rarr; &Pi;<sub>1</sub>(Y) in it, which are functors!  If
+you find this confusing, take heart.  Getting confused this way is
+crucial to learning n-category theory!  After all, n-category theory is
+all about how every &quot;process&quot; is also a &quot;thing&quot;
+which can undergo higher-level &quot;processes&quot;.  Complex,
+interesting structures emerge from very simple ones by the interplay of
+these different levels.  It takes work to mentally hop up and down these
+levels, and to weather the inevitable &quot;level slips&quot; one makes
+when one screws up.  If you expect it to be easy and are annoyed when
+you mess up, you will hate this subject.  When approached in the right
+spirit, it is very fun; it teaches one a special sort of agility.  (We
+are, by the way, nowhere near the really tricky stuff yet.)
+
+<P>
+Okay, so we have seen an interesting example of a functor 
+    
+<P>
+                     &Pi;<sub>1</sub>: Top &rarr; Gpd.   
+
+<P>
+As I said, we can think of this as going from the concrete world
+of spaces to the abstract world of groupoids, turning concrete paths
+into abstract &quot;morphisms&quot;.  Wonderfully, there is a kind of &quot;reverse&quot;
+functor,
+
+<P>
+                      K: Gpd &rarr; Top
+
+<P>
+which turns the abstract into the concrete, by making abstract morphisms
+into concrete paths!  Basically, it goes like this.  Say we have a
+groupoid G.  We will build the space K(G) out of simplices as follows.
+Start with one 0-simplex for each object in G.  A 0-simplex is simply a
+point.  We can draw the 0-simplex for the object x as follows:
+
+<PRE>
+                             x
+
+</PRE>
+Then put in one 1-simplex for each morphism in G.  A 1-simplex is just a
+line segment.  We can draw the 1-simplex for the morphism f: x &rarr; y as
+follows: 
+
+<PRE>
+                           x--f--y
+
+</PRE>
+Really we should draw an arrow going from left to right, but soon
+things will get too messy if I do that, so I won't.  Then, whenever we
+have fg = h in the groupoid, we stick in a 2-simplex.  A 2-simplex is just
+a triangle and we visualize it as follows: 
+
+<PRE>
+
+      y
+     / \                       f: x &rarr; y
+    f   g                      g: y &rarr; z
+   /     \                     h: x &rarr; z
+  x---h---z
+
+</PRE>
+Then, whenever we have fgh = k in the groupoid, we stick in a 3-simplex,
+which we can visualize as a tetrahedron like this
+
+<PRE>
+
+          x                      
+         /|\                    
+        / | \                  
+       /  g  \                   f: w &rarr; x      
+      f   |   gh                 g: x &rarr; y
+     /   _y_   \                 h: y &rarr; z
+    /   /   \_  \                k: w &rarr; z
+   / _fg      h_ \        
+  /_/           \_\      
+ w--------k--------z
+
+</PRE>
+And so on... we do this forever and get a big &quot;simplicial complex,&quot;
+which we can think of as the topological space KG.  The reader might
+want to compare &quot;<A HREF = "week70.html">week70</A>&quot;, where
+do the same thing for a monoid instead of a groupoid.  Really, one can
+do it for any category.
+
+<P>
+That's how we define K on objects; it's not hard to define K on
+morphisms too, so we get 
+
+<P>
+                      K: Gpd &rarr; Top
+
+<P>
+In case you study this in more detail at some point, I should add that
+folks often think of simplicial complexes as somewhat abstract
+combinatorial objects in their own right, and then they break down K 
+into two steps: first they take the &quot;nerve&quot; of a groupoid and get a
+simplicial complex, and then they take the &quot;geometrical realization&quot; of
+the simplicial complex to get a topological space.  For more on
+simplicial complexes and the like, try:
+
+<P>
+1) J. P. May, Simplicial Objects in Algebraic Topology, Van Nostrand,
+Princeton, 1968.
+
+<P>
+
+Now, in what sense is the functor K: Gpd &rarr; Top the
+&quot;reverse&quot; of the functor &Pi;<sub>1</sub>: Top &rarr; Gpd?  Is it
+just the &quot;inverse&quot; in the traditional sense?  No!  It's
+something more subtle.  As we shall see, the fact that Cat is a
+2-category means that a functor can have a more subtle and interesting
+sorts of &quot;reverse&quot; than one might expect if one were used to
+the simple &quot;inverse&quot; of a function.  This is something I
+alluded to in &quot;<A HREF = "week74.html">week74</A>&quot;: inverses
+become subtler as we march up the n-categorical hierarchy.
+
+<P>
+I'll talk about this more later.  But let me just drop a teaser...
+Quantum mechanics is all about Hilbert spaces and linear operators
+between them.  Given any (bounded) linear operator F: H &rarr; H' from
+one Hilbert space to another, there is a subtle kind of
+&quot;reverse&quot; operator, called the &quot;adjoint&quot; of F and
+written F*: H' &rarr; H, defined by
+
+<P>
+                      &lt;x,F*y&gt; = &lt;Fx,y&gt; 
+
+<P>
+for all x in H and y in H'.  This is not the same as the
+&quot;inverse&quot; of F; indeed, it exists even if F is not invertible.
+This sort of &quot;reverse&quot; operator is deeply related to the
+&quot;reverse&quot; functors I am hinting at above, and for this reason
+those &quot;reverse&quot; functors are also called &quot;adjoints&quot;.
+This is part of a profound and somewhat mysterious relationship between
+quantum theory and category theory... which I eventually need to
+describe.
+
+<P>
+<A HREF = "week76.html#tale">To continue reading the &quot;Tale of
+n-Categories&quot;, click here.</A>
+
+
+<P>
+
+
+
+
+<HR>
+<P>
+<!-- BEGIN FOOTER -->
+&#169; 1996  John Baez<br>
+baez@math.removethis.ucr.andthis.edu <br>
+<P>
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week74.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week76.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE><!-- END FOOTER -->

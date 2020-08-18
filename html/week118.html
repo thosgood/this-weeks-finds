@@ -1,0 +1,638 @@
+<TITLE> week118 </TITLE>
+
+<!-- BEGIN HEADER -->
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week117.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week119.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE>
+<H4> March 14, 1998 </H4>
+<H2> This Week's Finds in Mathematical Physics (Week 118) </H2>
+<H4> John Baez </H4>
+<!-- END HEADER -->
+
+<P>
+Like many people of a certain age, as a youth my interest in mathematics
+and physics was fed by the Scientific American, especially Martin
+Gardner's wonderful column.  Since then the magazine seems to have gone
+downhill.  For me, the last straw was a silly article on the &quot;death of
+proof&quot; in mathematics, written by someone wholly unfamiliar with the
+subject.  The author of that article later wrote a book proclaiming the
+&quot;end of science&quot;, and went on to manage a successful chain of funeral
+homes.
+
+<P>
+Recently, however, I was pleased to find a terse rebuttal of this
+fin-de-siecle pessimism in an article appearing in - none other than
+Scientific American!
+
+<P>
+1) Michael J. Duff, The theory formerly known as strings, Scientific
+American 278 (February 1998), 64-69.  
+
+<P>
+The article begins:
+
+<BLOCKQUOTE>
+    At a time when certain pundits are predicting the End of Science
+    on the grounds that all the important discoveries have already
+    been made, it is worth emphasizing that the two main pillars of
+    20th-century physics, quantum mechanics and Einstein's general 
+    theory of relativity, are mutually incompatible.  
+</BLOCKQUOTE>
+<P>
+To declare the end of science at this point, or even of particle physics
+(the two are not the same!) would thus be ridiculously
+premature.  It's true that the quest for a unified theory of all the
+forces and particles in nature is experiencing difficulties.  On the one
+hand, particle accelerators have become very expensive.  On the other
+hand, it's truly difficult to envision a consistent and elegant
+formalism subsuming both general relativity and the Standard Model
+of particle physics - much less one that makes new testable predictions.
+But hey, the course of true love never did run smooth.
+
+<P>
+Duff's own vision certainly has its charms.  He has long been advocating
+the generalization of string theory to a theory of higher-dimensional
+&quot;membranes&quot;.  Nowadays people call these &quot;p-branes&quot; to keep track of the
+dimension of the membrane: a 0-brane is a point particle, a 1-brane is a
+string, a 2-brane is a 2-dimensional surface, and so on.
+
+<P>
+For a long time, higher-dimensional membrane theories were unpopular,
+even among string theorists, because the special tricks that eliminate
+infinities in string theory don't seem to work for higher-dimensional
+membranes.  But lately membranes are all the rage: it seems they show up
+in string theory whether or not you put them in from the start!  In
+fact, they seem to be the key to showing that the 5 different
+supersymmetric string theories are really aspects of a single deeper
+theory - sometimes called &quot;M-theory&quot;.
+
+<P>
+Now, I don't really understand this stuff at all, but I've been trying
+to learn about it lately, so I'll say a bit anyway, in hopes that some
+real experts will correct my mistakes.  Much of what I'll say comes from
+the following nice review article:
+
+<P>
+2) M. J. Duff, Supermembranes, preprint available as <A HREF = "http://xxx.lanl.gov/abs/hep-th/9611203">hep-th/9611203</A>
+
+<P>
+and also the bible of string theory:
+
+<P>
+3)  Michael B. Green, John H. Schwarz, and Edward Witten, Superstring
+Theory, two volumes, Cambridge U. Press, Cambridge, 1987.  
+
+<P>
+Let's start with superstring theory.  Here the &quot;super&quot; refers to the
+fact that instead of just strings whose vibrational modes correspond to
+bosonic particles, we have strings with extra degrees of freedom
+corresponding to fermionic particles.  We can actually think of the
+superstring as a string wiggling around in a &quot;superspace&quot;: a kind of
+space with extra &quot;fermionic&quot; dimensions in addition to the usual
+&quot;bosonic&quot; ones.  These extra dimensions are described by coordinates
+that anticommute with each other, and commute with the usual bosonic
+coordinates (which of course commute with each other).  This amounts to
+taking the boson/fermion distinction so seriously that we build it into
+our description of spacetime from the very start!  For more details on
+the mathematics of superspace, try:
+
+<P>
+4) Bryce DeWitt, Supermanifolds, Cambridge U. Press, Cambridge, 
+2nd edition, 1992.
+
+<P>
+More deeply, &quot;super&quot; refers to &quot;supersymmetry&quot;, a special kind of
+symmetry transformation that mixes the bosonic and fermionic
+coordinates.  We speak of &quot;N = 1 supersymmetry&quot; if there is one
+fermionic coordinate for each bosonic coordinate, &quot;N = 2 supersymmetry&quot;
+if there are two, and so on.  
+
+<P>
+Like all nice physical theories, we can in principle derive everything
+about our theory of superstrings once we know the formula for the
+<em>action</em>.  For bosonic strings, the action is very simple.  As time
+passes, a string traces out a 2-dimensional surface in spacetime called
+the &quot;string worldsheet&quot;.  The action is just the <em>area</em> of this worldsheet.
+
+<P>
+For superstring theory, we thus want a formula for the &quot;super-area&quot; of a
+surface in superspace.  And we need this to be invariant under
+supersymmetry transformations.  Suprisingly, this is only possible if
+spacetime has dimension 3, 4, 6, or 10.  More precisely, these are the
+dimensions where N = 1 supersymmetric string theory makes sense as a
+<em>classical</em> theory.  
+
+<P>
+Note: these dimensions are just 2 more than the dimensions of the four
+normed division algebras: the reals, complexes, quaternions and
+octonions!  This is no coincidence.  Robert Helling recently posted a
+nice article about this on sci.physics.resarch, which I have appended to
+&quot;<A HREF = "week104.html">week104</A>&quot;.  The basic idea is that we can describe the vibrations of a
+string in n-dimensional spacetime by a field on the string worldsheet
+with n-2 components corresponding to the n-2 directions transverse to
+the worldsheet.  To get an action that's invariant under supersymmetry,
+we need some magical cancellations to occur.  It only works when we can
+think of this field as taking values in one of the normed division
+algebras!
+
+<P> 
+This is one of the curious things about superstring theory: the
+basic idea is simple, but when you try to get it to work, you run into
+lots of obstacles which only disappear in certain special circumstances
+- thanks to a mysterious conspiracy of beautiful mathematical facts.
+These &quot;conspiracies&quot; are probably just indications that we
+don't understand the theory as deeply as we should.  Right now I'm most
+interested in the algebraic aspects of superstring theory - and
+especially its relationships to &quot;exceptional algebraic
+structures&quot; like the octonions, the Lie group E8, and so on.  As I
+learn superstring theory, I like keeping track of the various ways these
+structures show up, like remembering the clues in a mystery novel.
+
+<P>
+Interestingly, the <em>quantum</em> version of superstring theory is more
+delicate than the classical version.  When I last checked, it only makes
+sense in dimension 10.  Thus there's something inherently octonionic
+about it!  For more on this angle, see:
+
+<P>
+5) E. Corrigan and T. J. Hollowood, The exceptional Jordan algebra and 
+the superstring, Commun. Math. Phys., 122 (1989), 393.
+
+<P>
+6) E. Corrigan and T. J. Hollowood, A string construction of a
+commutative nonassociative algebra related to the exceptional Jordan
+algebra, Phys. Lett. B203 (1988), 47.
+
+<P>
+and some more references I'll give later.
+
+<P>
+There are actually 5 variants of superstring theory in dimension 10, as
+I explained in &quot;<A HREF = "week72.html">week72</A>&quot;:
+<P>
+<OL>
+<LI> type I superstrings - these are open strings, not closed loops.
+<LI> type IIA superstrings - closed strings where the left- and
+   right-moving fermionic modes have opposite chiralities.
+<LI> type IIB superstrings - closed strings where the left- and
+   right-moving fermionic modes have the same chirality.
+<LI> E8 heterotic superstrings - closed strings where the left-moving
+   modes are purely bosonic, with symmetry group E8 x E8.
+<LI> Spin(32)/Z<sub>2</sub> heterotic superstrings - closed strings where the 
+   left-moving modes are purely bosonic, with symmetry group Spin(32)/Z<sub>2</sub>
+</OL>
+<P>
+To get 4-dimensional physics out of any of these, we need to think of our
+10-dimensional spacetime as a bundle with a little 6-dimensional
+&quot;Calabi-Yau manifold&quot; sitting over each point of good old 4-dimensional
+spacetime.  But there's another step that's very useful when trying to
+understand the implications of superstring theory for ordinary particle
+physics.  This is to look at the low-energy limit.  In this limit, only
+the lowest-energy vibrational modes of the string contribute, each mode
+acting like a different kind of massless particle.  Thus in this limit
+superstring theory acts like an ordinary quantum field theory.  
+
+<P>
+What field theory do we get?  This is a very important question.  The
+field theory looks simplest in 10-dimensional Minkowski spacetime; it
+gets more complicated when we curl up 6 of the dimensions and think of
+it as a 4-dimensional field theory, so let's just talk about the simple
+situation.  
+
+<P>
+No matter what superstring theory we start with, the low-energy limit
+looks like some form of &quot;supergravity coupled to super-Yang-Mills
+fields&quot;.  What's this?  Well, supergravity is basically what we get when
+we generalize Einstein's equations for general relativity to superspace.
+Similarly, super-Yang-Mills theory is the supersymmetric version of the
+Yang-Mills equations - which are important in particle physics because
+they describe all the forces <em>except</em> gravity.  So superstring theory
+has in it the seeds of general relativity and also the other forces of
+nature --- or at least their supersymmetric analogues.
+
+<P>
+Like superstring theory, super-Yang-Mills theory only works in spacetime
+dimensions 3, 4, 6, and 10.  (See &quot;<A HREF = "week93.html">week93</A>&quot; for more on this.)  Different
+forms of supergravity make sense in different dimensions, as explained
+in: 
+
+<P>
+7) Y. Tanii, Introduction to supergravities in diverse dimensions, preprint
+available as <A HREF = "http://xxx.lanl.gov/abs/hep-th/9802138">hep-th/9802138</A>.
+
+<P>
+In particular highest dimension in which supergravity makes sense is 11
+dimensions (where one only has N = 1 supergravity).  Note that this is
+one more than the favored dimension of superstring theory!  This puzzled
+people for a long time.  Now it seems that M-theory is beginning to
+resolve these puzzles.  Another interesting discovery is that
+11-dimensional supergravity is related to the exceptional Lie group E8:
+
+<P>
+8) Stephan Melosch and Hermann Nicolai, New canonical variables for 
+d = 11 supergravity, preprint available as <A HREF = "http://xxx.lanl.gov/abs/hep-th/9709277">hep-th/9709277</A>.
+
+<P>
+But I'm getting ahead of myself here!  Right now I'm talking about the
+low-energy limit of 10-dimensional superstring theory.  I said it
+amounts to &quot;supergravity coupled to super-Yang-Mills fields&quot;, and now
+I'm attempting to flesh that out a bit.  So: starting from N = 1
+supergravity in 11 dimensions we can get a theory of supergravity in 10
+dimensions simply by requiring that all the fields be constant in one
+direction - a trick called &quot;dimensional reduction&quot;.  This is called
+&quot;type IIA supergravity&quot;, because it appears in the low-energy limit of
+type IIA superstrings.  There are also two other forms of supergravity
+in 10 dimensions: &quot;type IIB supergravity&quot;, which appears in the
+low-energy limit of type IIB superstrings, and a third form which
+appears in the low-energy limit of the type I and heterotic
+superstrings.  These other two forms of supergravity are chiral - that
+is, they have a built-in &quot;handedness&quot;.
+
+<P> 
+Now let's turn to higher-dimensional supersymmetric membranes, or
+&quot;supermembranes&quot;.  Duff summarizes this subject in a chart he
+calls the &quot;brane scan&quot;.  This chart lists the known
+<em>classical</em> theories of supersymetric p-branes.  Of course, a p-brane
+traces out a (p+1)-dimensional surface as time passes, so from a
+spacetime point of view it's p+1 which is more interesting.  But anyway,
+here's Duff's chart of which supersymmetric p-brane theories are
+possible in which dimensions d of spacetime:
+
+<PRE>
+d
+
+11           X              X                   ?
+10 X    X    X    X    X    X    X    X    X    X    
+9  X                   X
+8                 X
+7            X              X
+6  X    X    X    X    X    X
+5  X         X
+4  X    X    X    X
+3  X    X    X    
+2  X
+1
+
+   0    1    2    3    4    5    6    7    8    9    10   p
+  
+</PRE>
+We immediately notice some patterns.  First, we see horizontal stripes
+in dimensions 3, 4, 6, and 10: all the conceivable p-brane theories
+exist in these dimensions.  I don't know why this is true, but it must be
+related to the fact that superstring and super-Yang-Mills theories make
+sense in these dimensions.  Second, there are four special p-brane
+theories:
+
+<P>
+the 2-brane in dimension 4
+<P>
+the 3-brane in dimension 6
+<P>
+the 5-brane in dimension 10
+<P>
+the 2-brane in dimension 11
+
+<P>
+which are related to the real numbers, the complex numbers, the
+quaternions and the octonions, respectively.  Duff refers us to the
+following papers for more information on this:
+
+<P>
+9) G. Sierra, An application of the theories of Jordan algebras and
+Freudenthal triple systems to particles and strings, Class. Quant. 
+Grav. 4 (1987), 227.
+
+<P>
+10) J. M. Evans, Supersymmetric Yang-Mills theories and division
+algebras, Nucl. Phys. B298 (1988), 92-108.
+
+<P>
+From these four &quot;fundamental&quot; theories of p-branes in d dimensions we
+can get theories of (p-k)-branes in d-k dimensions by dimensional
+reduction of both the spacetime and the p-brane.  Thus we see diagonal
+lines slanting down and to the left starting from these &quot;fundamental&quot;
+theories.  Note that these diagonal lines include the superstring
+theories in dimensions 3, 4, 6, and 10!
+
+<P>
+I'll wrap up by saying a bit about how M-theory, superstrings and
+supergravity fit together.  I've already said that: 1) type IIA
+supergravity in 10 dimensions is the dimensional reduction of
+11-dimensional supergravity; and 2) the type IIA superstring has type
+IIA supergravity coupled to super-Yang-Mills fields as a low-energy
+limit.  This suggests the presence of a theory in 11 dimensions that
+fills in the question mark below:
+
+<PRE>
+                      low-energy limit
+           ?  ----------------------------&gt; 11-dimensional 
+           |                                 supergravity
+           |                                    |
+dimensional|                                    |dimensional 
+  reduction|                                    |reduction
+           |                                    |
+           V          low-energy limit          V
+        type IIA  -------------------------&gt; type IIA supergravity in 
+      superstrings                             10 dimensions 
+
+</PRE>
+This conjectured theory is called &quot;M-theory&quot;.  The actual details of
+this theory are still rather mysterious, but not surprisingly, it's
+related to the theory of supersymmetric 2-branes in 11 dimensions -
+since upon dimensional reduction these give superstrings in 10
+dimensions.  More surprisingly, it's <em>also</em> related to the theory of
+<em>5-branes</em> in 11 dimensions.  The reason is that supergravity in 11
+dimensions admits &quot;soliton&quot; solutions - solutions that hold their shape
+and don't disperse - which are shaped like 5-branes.  These are now
+believed to be yet another shadow of M-theory.
+
+<P>
+While the picture I'm sketching may seem baroque, it's really just a
+small part of a much more elaborate picture that relates all 5
+superstring theories to M-theory.  But I think I'll stop here!  Maybe
+later when I know more I can fill in some more details.  By the way, I
+thank Dan Piponi for pointing out that Scientific American article.  
+
+<P>
+For more on this business, check out the following review articles:
+
+<P>
+11) W. Lerche, Recent developments in string theory, preprint available
+as <A HREF = "http://xxx.lanl.gov/abs/hep-th/9710246">hep-th/9710246</A>.  
+
+<P>
+12) John Schwarz, The status of string theory, preprint available as
+<A HREF = "http://xxx.lanl.gov/abs/hep-th/9711029">hep-th/9711029</A>.  
+
+<P>
+13) M. J. Duff, M-theory (the theory formerly known as strings),
+preprint available as <A HREF = "http://xxx.lanl.gov/abs/hep-th/9608117">hep-th/9608117</A>.
+
+<P>
+The first one is especially nice if you're interested in a nontechnical
+survey; the other two are more detailed.
+
+<P>
+Okay.  Now, back to my tour of homotopy theory!  I had promised to talk
+about classifying spaces of groups and monoids, but this post is getting
+pretty long, so I'll only talk about something else I promised: the
+foundations of homological algebra.  So, remember:
+<P>
+As soon as we can squeeze a simplicial set out of something, we have all
+sorts of methods for studying it.  We can turn the simplicial set into a
+space and then use all the methods of topology to study this space.  Or
+we can turn it into a chain complex and apply homology theory.  So it's
+very important to have tricks for turning all sorts of gadgets into
+simplicial sets: groups, rings, algebras, Lie algebras, you name it!
+And here's how....
+<P>
+<HR>
+<P>
+<STRONG> N.</STRONG>  Simplicial objects from adjunctions.  Remember from section D of
+&quot;<A HREF = "week115.html">week115</A>&quot; that a &quot;simplicial object&quot; in some category is a contravariant
+functor from &Delta; to that category.  In what follows, I'll take &Delta;
+to be the version of the category of simplices that contains the empty
+simplex.  Topologists don't usually do this, so what I'm calling a
+&quot;simplicial object&quot;, they would call an &quot;augmented simplicial object&quot;.
+Oh well.
+
+<P>
+Concretely, a simplicial object in a category amounts to a bunch of
+objects x<sub>0</sub>, x<sub>1</sub>, x<sub>2</sub>,... together with morphisms like this:
+
+<PRE>
+                         ---i<sub>1</sub>-&gt;
+              ---i<sub>0</sub>-&gt;    ---i<sub>0</sub>-&gt;
+x<sub>0</sub> &lt;--d<sub>0</sub>-- x<sub>1</sub> &lt;--d<sub>0</sub>-- x<sub>2</sub> &lt;--d<sub>0</sub>-- x<sub>3</sub> ...
+              &lt;--d<sub>1</sub>--    &lt;--d<sub>1</sub>--
+                         &lt;--d<sub>2</sub>--
+</PRE>
+The morphisms d<sub>j</sub> are called &quot;face maps&quot; and the morphisms i<sub>j</sub> are
+called &quot;degeneracies&quot;.  They are required to satisfy some equations
+which I won't bother writing down here, since you can figure them out
+yourself if you read section B of &quot;<A HREF = "week114.html">week114</A>&quot;.  
+
+<P>
+Now, suppose we have an adjunction, that is, a pair of adjoint functors:
+
+<PRE>
+  ---L--&gt;
+C         D
+  &lt;--R---
+</PRE>
+This means we have natural transformations
+
+<P>
+e: LR =&gt; 1<sub>D</sub>
+
+<P>
+i: 1<sub>C</sub> =&gt; RL
+
+<P>
+satisfying a couple of equations, which I again won't write down, since
+I explained them in &quot;<A HREF = "week79.html">week79</A>&quot; and &quot;<A HREF = "week83.html">week83</A>&quot;.  
+
+<P>
+Then an object d in the category D automatically gives a simplicial
+object as follows:
+
+<PRE>
+                                 --LRL.i.R-&gt;
+               --L.i.R-&gt;         --L.i.RLR-&gt;
+d &lt;--e-- LR(d) &lt;--e.LR-- LRLR(d) &lt;--e.LRLR-- LRLRLR(d) ...
+               &lt;--LR.e--         &lt;--LR.e.LR-
+                                 &lt;--LRLR.e--
+</PRE>
+where . denotes horizontal composition of functors and natural
+transformations.
+
+<P>
+For example, if Gp is the category of abelian groups, we have an
+adjunction
+<PRE>
+    ---L--&gt;
+Set         AbGp
+    &lt;--R---
+</PRE>
+where L assigns to each set the free group on that set, and R assigns to
+each group its underlying set.  Thus given a group, the above trick
+gives us a simplicial object in Gp - or in other words, a simplicial
+group.  This has an underlying simplicial set, and from this we can cook
+up a chain complex as in section H of &quot;<A HREF = "week116.html">week116</A>&quot;.  This lets us study
+groups using homology theory!  One can define the homology (and
+cohomology) of lots other algebraic gadgets in exactly the same way.
+
+<P>
+Note: I didn't explain why the equations in the definition of adjoint
+functors - which I didn't write down - imply the equations in the
+definition of a simplicial object - which I also didn't write down!
+
+<P>
+The point is, there's a more conceptual approach to understanding why
+this stuff works.  Remember from section K of last week that &Delta; is
+&quot;the free monoidal category on a monoid object&quot;.  This implies that
+whenever we have a monoid object in a monoidal category M, we get a
+monoidal functor
+
+<P>
+F: &Delta; &rarr; M.
+
+<P>
+This gives a functor
+
+<P>
+G: &Delta;<sup>op</sup> &rarr; M<sup>op</sup>
+
+<P>
+So: a monoid object in M gives a simplicial object in M<sup>op</sup>.  
+
+<P>
+Actually, if M is a monoidal category, M<sup>op</sup> becomes ne too, with the
+same tensor product and unit object.  So it's also true that a monoid
+object in M<sup>op</sup> gives a simplicial object in M!
+
+<P>
+Another name for a monoid object in M<sup>op</sup> is a &quot;comonoid object in M&quot;.
+Remember, M<sup>op</sup> is just like M but with all the arrows turned around.
+So if we've got a monoid object in M<sup>op</sup>, it gives us a similar gadget
+in M, but with all the arrows turned around.  More precisely, a comonoid
+object in M is an object, say m, with &quot;coproduct&quot;
+
+<P>
+c: m &rarr; m x m
+
+<P>
+and &quot;counit&quot;
+
+<P>
+e: m &rarr; 1
+
+<P>
+morphisms, satisfying &quot;coassociativity&quot; and the left and right &quot;counit
+laws&quot;.  You get these laws by taking associativity and the left/right
+unit laws, writing them out as commutative diagrams, and turning all the
+arrows around.
+
+<P>
+So: a comonoid object in a monoidal category M gives a simplicial object
+in M.  Now let's see how this is related to adjoint functors.  Suppose
+we have an adjunction, so we have some functors
+
+<PRE>
+  ---L--&gt;
+C         D
+  &lt;--R---
+</PRE>
+and natural transformations
+
+<P>
+e: LR =&gt; 1<sub>D</sub>
+
+<P>
+i: 1<sub>C</sub> =&gt; RL
+
+<P>
+satisfying the same equations I didn't write before.  
+
+<P>
+Let hom(C,C) be the category whose objects are functors from C to
+itself and whose morphisms are natural transformations between such
+functors.  This is a monoidal category, since we can compose functors
+from C to itself.  In &quot;<A HREF = "week92.html">week92</A>&quot; I showed that hom(C,C) has a monoid
+object in it, namely RL.  The product for this monoid object is
+
+<P>
+R.e.L: RLRL =&gt; RL
+
+<P>
+and the unit is
+
+<P>
+i: 1<sub>C</sub> =&gt; RL
+
+<P>
+Folks often call this sort of thing a &quot;monad&quot;.  
+
+<P>
+Similarly, hom(D,D) is a monoidal category containing a comonoid object,
+namely LR.  The coproduct for this comonoid object is
+
+<P>
+L.i.R: LR =&gt; LRLR
+
+<P>
+and the counit is
+
+<P>
+e: LR =&gt; 1<sub>D</sub>
+
+<P>
+People call this thing a &quot;comonad&quot;.  But what matters here is that we've
+seen this comonoid object automatically gives us a simplicial object in
+hom(D,D)!  If we pick any object d of D, we get a functor
+
+<P>
+hom(D,D) &rarr; D
+
+<P>
+by taking 
+
+<P>
+hom(D,D) x D &rarr; D
+
+<P>
+and plugging in d in the second argument.  This functor lets us push our
+simplicial object in hom(D,D) forwards to a simplicial object in D.
+Voila!
+
+<P>
+
+
+
+
+
+
+
+
+
+
+
+<p> <hr>
+
+<!-- BEGIN FOOTER -->
+&#169; 1998  John Baez<br>
+baez@math.removethis.ucr.andthis.edu <br>
+<P>
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week117.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week119.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE><!-- END FOOTER -->

@@ -1,0 +1,778 @@
+<TITLE> week263 </TITLE>
+
+<!-- BEGIN HEADER -->
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week262.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week264.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE>
+<H4> April 5, 2008 </H4>
+<H2> This Week's Finds in Mathematical Physics (Week 263) </H2>
+<H4> John Baez </H4>
+<!-- END HEADER -->
+
+Enough nebulae!  Today's astronomy picture is Saturn's moon Titan,
+photographed by the Cassini probe.  Red and green represent methane
+absorption bands, while blue represents ultraviolet.  Note the 
+incredibly deep atmosphere &mdash; hundreds of kilometers deep.
+That's because Titan has a dense atmosphere but not much gravity.
+The pale feature in the center here is called Xanadu.  
+
+<p>
+<div align = "center">
+<a href = "http://apod.nasa.gov/apod/ap041028.html">
+<img width = "500" src = "titan.jpg">
+</a>
+</div>
+<p>
+
+1) Astronomy Picture of the Day, Tantalizing Titan, 
+<a href = "http://apod.nasa.gov/apod/ap041028.html">
+http://apod.nasa.gov/apod/ap041028.html</a>
+
+<p>
+If you fell into Titan's atmosphere, here's what you'd see.  
+Unlike the previous picture, this is in natural colors, taken
+by the Cassini probe on March 31st, 2005 from a distance of 
+just 9,500 kilometers: 
+
+<p>
+<div align = "center">
+<a href = "http://en.wikipedia.org/wiki/Titan_(moon)#Atmosphere">
+<img src = "titan_atmosphere.jpg">
+</a>
+</div>
+<p>
+
+2) Wikipedia, Titan's atmosphere,
+<a href = "http://en.wikipedia.org/wiki/Titan_(moon)#Atmosphere">
+http://en.wikipedia.org/wiki/Titan_(moon)#Atmosphere</a>
+ 
+<p>
+The orange stuff is hydrocarbon &quot;smog&quot;, perhaps made of
+chemicals called <a href =
+"http://en.wikipedia.org/wiki/Tholin">tholins</a> which I don't really
+understand.  When you got further down the atmosphere would be so
+thick, and the gravity so low, that you could fly through it by
+flapping wings attached to your arms.  Unfortunately the atmosphere
+would be very cold, and unbreathable: mostly nitrogen, with a little
+methane and ethane.  (I wrote about the hydrocarbon rain on Titan back
+in &quot;<a href = "week160.html">week160</a>&quot;, and showed you
+the first pictures of its lakes in &quot;<a href =
+"week210.html">week210</a>&quot;.)
+
+<p>
+<div align = "center">
+<a href = "http://en.wikipedia.org/wiki/Titan_(moon)#Atmosphere">
+<img src = "titan_atmosphere_chart.jpg">
+</a>
+</div>
+<p>
+
+<p>
+Astronomy is great, but today I want to talk about group theory.
+As you may have heard, John Thompson and Jacques Tits won the
+2008 Abel prize for their work on groups:
+
+<P>
+3) Abel Prize, 2008 Laureates,
+<a href = "http://www.abelprisen.no/en/prisvinnere/2008/">http://www.abelprisen.no/en/prisvinnere/2008/</a>
+
+<P>
+If you want a fun, nontechnical book that gives a good taste of
+the sort of things Thompson thought about, try this:
+
+<P>
+4) Marcus du Sautoy, Symmetry: a Journey into the Patterns of 
+Nature, HarperCollins, 2008.
+
+<P>
+Mathematicians will enjoy this book for its many anecdotes about
+the heroes of symmetry, from Pythagoras to Thompson and other
+modern group theorists.  Nonmathematicians will learn a lot about
+group theory in a fun easy way.
+
+<P>
+As a PhD student working under Saunders Mac Lane, Thompson began 
+his career with a bang, by solving a 60-year-old conjecture posed 
+by the famous group theorist Frobenius.  
+
+<P>
+5) Mactutor History of Mathematics Archive, John Griggs Thompson,
+<a href = "http://www-history.mcs.st-andrews.ac.uk/Biographies/Thompson_John.html">http://www-history.mcs.st-andrews.ac.uk/Biographies/Thompson_John.html</a>
+
+<P>
+But, he's mainly famous for helping prove an even harder theorem 
+that's even simpler to state - one of those precious nuggets of 
+knowledge that mathematicians fight so hard to establish:
+
+<P>
+
+<div align = "center">
+&quot;Every finite group with an odd number of elements is solvable.&quot;
+</div>
+
+<P>
+We say a group is &quot;solvable&quot; if it can be built out of abelian
+groups in finitely many stages: the group at each stage mod the 
+group at the previous stage must be abelian.  The term &quot;solvable&quot;
+comes from Galois theory, since we can solve a polynomial equation
+using radicals iff its Galois group is solvable.  
+
+<P>
+Way back in 1911, Burnside conjectured that every finite group
+with an odd number of elements is solvable.  John Thompson and 
+Walter Feit proved this in 1963.  Their proof took all 255 pages 
+of an issue of the Pacific Journal of Mathematics!
+
+<P>
+The proof has been simplified a bit since then, but not much.
+Versions can be found in two different books, and there is a 
+project underway to verify it by computer:
+
+<P>
+6) Wikipedia, Feit-Thompson Theorem,
+<a href = "http://en.wikipedia.org/wiki/Feit-Thompson_theorem">http://en.wikipedia.org/wiki/Feit-Thompson_theorem</a>
+
+<P>
+This theorem, also called the &quot;odd order theorem&quot;, marked a trend 
+toward really long proofs in finite group theory, as part of a 
+quest to classify finite &quot;simple&quot; groups.  A simple group is one 
+that has no nontrivial normal subgroups.  In other words: there's 
+no way to find a smaller group inside it, mod out by that, and 
+get another smaller group.   So, more loosely speaking, we can't 
+build it up in several stages: it's a single-stage affair, a basic 
+building block.
+
+<P>
+One reason finite simple groups are important is that <em>every</em>
+finite group can be built up in stages, where the group at each 
+stage mod the group at the previous stage is a finite simple
+group.   So, the finite simple groups are like the &quot;prime 
+numbers&quot; or &quot;atoms&quot; of finite group theory.  
+
+<P>
+The first analogy is nice because <em>abelian</em> finite simple groups 
+practically <em>are</em> prime numbers.  More precisely, every abelian 
+finite simple group is Z/p, the group of integers mod p, for some 
+prime p.  So, building a finite group from simple groups is a grand 
+generalization of factoring a natural number into primes.
+
+<P>
+However, the second analogy is nice because just as you can build 
+different molecules with the same collection of atoms, you can 
+build different finite groups from the same finite simple groups.
+
+<P>
+I actually find a third analogy helpful.  As I hinted, for any finite 
+group we can find an increasing sequence of subgroups, starting with the 
+trivial group and working on up to the whole group, such that each subgroup 
+mod the previous one is a finite simple group.  So, we're building our
+group as a &quot;layer-cake&quot; with these finite simple groups as
+&quot;layers&quot;.
+
+<P>
+But: knowing the layers is not enough: each time we put on the next
+layer, we also need some &quot;frosting&quot; or &quot;jam&quot; to
+stick it on!  Depending on what kind of frosting we use, we can get
+different cakes!
+
+<P>
+To complicate the analogy, stacking the layers in different 
+orders can sometimes give the same cake.  This is reminiscent
+of how multiplying prime numbers in different orders gives the 
+same answer.  But, unlike multiplying primes, we can't <em>always</em>
+build our layer cake in any order we like. 
+
+<P>
+Apart from the order, though, the layers are uniquely determined -
+just as every natural number has a unique prime factorization.  This
+fact is called the &quot;Jordan-H&ouml;lder theorem&quot;, and these
+layer cakes are usually called &quot;composition series&quot;.  For
+more, try this:
+
+<P>
+7) Wikipedia, Composition series,
+<a href = "http://en.wikipedia.org/wiki/Composition_series">http://en.wikipedia.org/wiki/Composition_series</a>
+
+<P>
+But let's see some examples! 
+
+<P>
+Suppose we want to build a group out of just two layers, where 
+each layer is the group of integers mod 3, otherwise known as Z/3.  
+There are two ways to do this.  One gives Z/3 &oplus; Z/3, the group
+of pairs of integers mod 3.  The other gives Z/9, the group of
+integers mod 9.  
+
+<P>
+We can think of Z/3 &oplus; Z/3 as consisting of pairs of digits 0,1,2
+where we add each digit separately mod 3.  For example:
+
+<P>
+01 + 02 = 00<br/>
+12 + 11 = 20<br/>
+11 + 20 = 01
+
+<P>
+We can think of Z/9 as consisting of pairs of digits 0,1,2 where we
+add each digit mod 3, but then carry a 1 from the 1's place to the
+10's place when the sum of the digits in the 1's place exceeds 2 -
+just like you'd do when adding in base 3.  I hope you remember your
+early math teachers saying &quot;don't forget to carry a 1!&quot; It's
+like that.  For example:
+
+<P>
+01 + 02 = 10<br/>
+12 + 11 = 00<br/>
+11 + 20 = 01
+
+<P>
+So, the &quot;frosting&quot; or &quot;jam&quot; that we use to stick
+our two copies of Z/3 together is the way we carry some
+information from one to the other when adding!  If we do it trivially,
+not carrying at all, we get Z/3 &oplus; Z/3.  If we do it in a more
+interesting way we get Z/9.
+
+<P>
+In fact, this how it always works when we build a layer cake
+of groups.  The frosting at each stage tells us how to &quot;carry&quot;
+when we add.  Suppose at some stage we've got some group G.  Then 
+we want to stick on another layer, some group H.   An element of 
+the resulting bigger group is just a pair (g,h).  But we add these
+pairs like this:
+
+<P>
+(g,h) + (g',h') = (g + g' + c(h,h'), h + h')
+
+<P>
+where 
+
+<P>
+c: H &times; H &rarr; G
+
+<P>
+tells us how to &quot;carry&quot; from the &quot;H place&quot; to the
+&quot;G place&quot; when we add.  So, information percolates down when
+we add two guys in the new top layer of our group.
+
+<P>
+Of course, not any function c will give us a group: we
+need the group laws to hold, like the associative law.  To 
+make these hold, the function c needs to satisfy some equations.
+If it does, we call it a &quot;2-cocycle&quot;.  
+
+<P>
+These cocycles are studied in a subject called &quot;group cohomology&quot;.
+Usually people focus on the simplest case, when our original group 
+G is abelian, and its elements commute with everything in the big 
+new group we're building.  If this isn't true, we need something 
+more general: <i>nonabelian</i> group cohomology, often
+called &quot;Schreier theory&quot; (see &quot;<a href = "week223.html">week223</a>&quot;).
+
+<P>
+I like this layer cake business because it's charming and it
+generalizes in two nice ways.  First of all, it works for
+lots of algebraic gadgets besides groups.  Second of all, it
+works for <em>categorified</em> versions of these gadgets.  
+
+<P>
+For example, a group is a category with one object, all of whose
+morphisms are invertible.  Similarly, an &quot;n-group&quot; is an
+n-category with one object, all of whose 1-morphisms, 2-morphisms and
+so on are invertible.  We can build up n-groups as layer cakes where
+the layers are groups.  It's a more elaborate version of what I just
+described - and it uses not just &quot;2-cocycles&quot; but also
+&quot;3-cocycles&quot; and so on.  I never really understand group
+cohomology until I learned to see it this way.
+
+<P>
+But what's <em>really</em> cool is that n-groups can also be thought
+of as topological spaces.  This lets us build every space as a
+&quot;layer cake&quot; where the layers are groups!  These groups are
+called the &quot;homotopy groups&quot; of the space.  The nth homotopy
+group keeps track of how many n-dimensional holes the space has - see
+&quot;<a href = "week102.html">week102</A>&quot; for details.
+
+<P>
+But of course, they don't call the process of sticking these groups
+together a &quot;layer cake&quot;: that would be too undignified.
+They call it a &quot;Postnikov tower&quot;.  And instead of
+&quot;frosting&quot;, they speak of &quot;Postnikov invariants&quot;.
+Every space is the union of a bunch of connected pieces, each of which
+is determined by its homotopy groups and its Postnikov invariants.
+
+<P>
+(At least this is true if you count spaces as the same when they're
+&quot;weakly homotopy equivalent&quot;.  This is a fairly sloppy equivalence
+relation beloved by homotopy theorists.  You've probably heard
+how a topologist is someone who can't tell the difference between
+a doughnut and a coffee cup.  Actually they can tell: they just
+don't care!  A homotopy theorist is a more relaxed sort of guy
+who doesn't even care about the difference between a doughnut 
+and a Moebius strip.  They're both just fattened up versions of a 
+circle.)
+
+<P>
+Mike Shulman and I tried to explain this layer cake business here:
+
+<P>
+8) John Baez and Michael Shulman, Lectures on n-categories
+and cohomology, to appear in n-Categories: Foundations and 
+Applications, eds. John Baez and Peter May.  Also available
+as <a href = "http://arxiv.org/abs/math/0608420">arXiv:math/0608420</a>
+
+<P>
+Whoops!  I see I've drifted from my supposed topic - the work of 
+John Thompson - to something I actually understand.
+It was a digression, but not a completely pointless one.  From 
+what I've told you, it follows that every space with finite 
+homotopy groups can be built as a fancy &quot;layer cake&quot; made of
+finite simple groups.  
+
+<P>
+And even better, the finite simple groups have now been classified! -
+we think.  There are 18 infinite series of these groups, and also 26
+exceptions called &quot;sporadic&quot; groups, ranging in size from
+the five Mathieu groups (see &quot;<a href =
+"week234.html">week234</A>&quot;) on up to the Monster (see &quot;<a
+href = "week20.html">week20</A>&quot; and &quot;<a href =
+"week66.html">week66</A>&quot;).
+
+<P>
+9) Wikipedia, List of finite simple groups, 
+<a href = "http://en.wikipedia.org/wiki/List_of_finite_simple_groups">http://en.wikipedia.org/wiki/List_of_finite_simple_groups</a>
+
+<P>
+Proving that these are all the possibilities took mathematicians 
+about 10,000 pages of work!  The Feit-Thompson theorem is a small 
+but crucial piece in this enormous pyramid of proofs.  There could 
+still be some mistakes here and there, but experts are busy working 
+through the details more carefully.
+
+<P>
+Among the 26 sporadic groups, one is called the Thompson group.  It
+was discovered by Thompson, and it's a subgroup of a version of the
+group E<sub>8</sub> defined over F<sub>3</sub>, the field with 3
+elements.  It has about 9 &times; 10<sup>16</sup> elements, and it has
+a 248-dimensional representation over F<sub>3</sub>.  I don't know
+much about it.  I mention it just to show what crazy possibilities had
+to be considered to classify all finite simple groups - and how deeply
+Thompson was involved in this work.
+
+<P>
+But what about Jacques Tits?
+
+<P>
+10) Mactutor History of Mathematics Archive, Jacques Tits
+<a href = "http://www-history.mcs.st-andrews.ac.uk/Biographies/Tits.html">http://www-history.mcs.st-andrews.ac.uk/Biographies/Tits.html</a>
+
+<P>
+He's not mentioned in du Sautoy's book &quot;Symmetry&quot;, which is a
+pity, but not surprising, since too many mathematicians have
+studied group theory to fit comfortably in one story.  He
+has a sporadic finite simple group named after him, but his
+work leaned in a different direction, more focused on the role
+of groups in geometry.  He was an honorary member of Bourbaki,
+and in that role he helped awaken interest in the work of Coxeter.
+
+<P>
+I've mentioned his work on the &quot;magic square&quot; of exceptional
+Lie groups in &quot;<a href = "week145.html">week145</A>&quot; and
+&quot;<a href = "week253.html">week253</A>&quot;... but he's more
+famous for his work on &quot;buildings&quot;, sometimes called
+&quot;Bruhat-Tits buildings&quot;.
+
+<P>
+The subject of buildings has a reputation for being intimidating,
+perhaps because the <em>definition</em> of a building looks scary and
+unmotivated.  You can read these and decide for yourself:
+
+<P>
+11) Wikipedia, Building (mathematics),
+<a href = "http://en.wikipedia.org/wiki/Building_%28mathematics%29">http://en.wikipedia.org/wiki/Building_%28mathematics%29</a>
+
+<P>
+12) Kenneth S. Brown, What is a building?, Notices AMS, 49 
+(2002), 1244-1245.  Also available at 
+<a href = "http://www.ams.org/notices/200210/what-is.pdf">http://www.ams.org/notices/200210/what-is.pdf</a>
+
+<P>
+13) Paul Garrett, Buildings and Classical Groups, CRC Press,
+1997.  Preliminary version available at 
+<a href = "http://www.math.umn.edu/~garrett/m/buildings/">http://www.math.umn.edu/~garrett/m/buildings/</a>
+
+<P>
+14) Kenneth S. Brown, Buildings, Springer, 1989.
+
+<P>
+15) Mark Ronan, Lectures on Buildings, Academic Press, 1989.
+
+<P>
+Personally I found it a lot easier to start with <em>examples</em>.
+
+<P>
+So, start with any &quot;finite reflection group&quot; - a finite
+group of transformations of R<sup>n</sup> that's generated by reflections.  The
+possibilities have been completely worked out, and I listed them back
+in &quot;<a href = "week62.html">week62</A>&quot;.  But let's do an
+easy one: the symmetry group of an equilateral triangle.
+
+<P>
+I can't resist mentioning that this group is also S<sub>3</sub>, the
+group of all permutations of the three vertices of the triangle.  In
+fact, this group was the star of &quot;<a href =
+"week261.html">week261</A>&quot;, where it showed up as the Galois
+group of the cubic equation!  We can solve a cubic using radicals
+since this group is solvable.  In other words, we can build this group
+as a &quot;layer cake&quot; from the abelian groups Z/3 and Z/2.  The
+bottom layer is Z/3, the subgroup of even permutations.  The top layer
+is S<sub>3</sub> modulo the even permutations, namely Z/2.  Galois
+theory says you can solve a cubic by messing around a bit, then taking
+a square root, and then taking a cube root.  Why a square root
+<em>first?</em>  Because you build this sort of layer cake from the bottom
+up, but you eat it from the top down, slicing off one layer at a time.
+
+<P>
+But now we want to think about how this group is generated by 
+reflections.  You can use just two, for example the reflections 
+across the mirrors labelled r and s here:
+
+<PRE>
+                          s 
+                 \       /
+                  \     /
+                   \   /
+                    \ /
+             --------o--------r
+                    / \
+                   /   \
+                  /     \
+                 /       \
+</PRE>
+Let's call these reflections r and s.  They clearly satisfy
+
+<P>
+r<sup>2</sup> = s<sup>2</sup> = 1
+
+<P>
+but since the mirrors are at an angle of &pi;/3 from each other,
+they also satisfy
+
+<P>
+(rs)<sup>3</sup> = 1
+
+<P>
+This gives a presesentation of our group S<sub>3</sub>.  We can summarize 
+this presentation with a little &quot;Coxeter diagram&quot;:
+       
+<PRE>
+      3
+  r-------s
+</PRE>
+
+where the dots r and s are the generators, and the edge labelled
+&quot;3&quot; is the interesting relation (rs)<sup>3</sup> = 1.  I
+explained these diagrams more carefully back in &quot;<a href =
+"week62.html">week62</A>&quot;.  If you know about Dynkin diagrams,
+these are pretty similar - see &quot;<a href =
+"week63.html">week63</A>&quot; and &quot;<a href =
+"week64.html">week64</A>&quot; for details.
+
+<P>
+Note that the mirrors in this picture:
+
+<PRE>
+                          s 
+                 \       /
+                  \     /
+                   \   /
+                    \ /
+             --------o--------r
+                    / \
+                   /   \
+                  /     \
+                 /       \
+</PRE>
+chop the plane into 
+6 &quot;chambers&quot;, and the group S<sub>3</sub> has 6
+elements.  This is no coincidence - it works like this for any finite
+reflection group!  We can pick any chamber as our favorite and label
+it 1:
+
+<PRE>
+                          s 
+                 \       /
+                  \     /  
+                   \   /   1
+                    \ /
+             --------o--------r
+                    / \
+                   /   \
+                  /     \
+                 /       \
+</PRE>
+Then, we can label any other chamber by the unique element of
+our group that carries our favorite chamber to that one:
+
+<PRE>
+                          s 
+                 \       /
+                  \  s  /     
+              sr   \   /   1
+                    \ /
+             --------o--------r
+                    / \
+        rsr = srs  /   \   r
+                  / rs  \  
+                 /       \
+</PRE>
+If we start with chamber 1 and keep reflecting across mirrors, 
+we keep getting products of more and more generators until we 
+reach the diametrically opposite chamber, which corresponds to 
+the so-called &quot;long word&quot; in our finite reflection group.  In 
+this case, the long word is rsr = srs.
+
+<P>
+(Fanatical devotees will also note that this equation is the
+&quot;Yang-Baxter equation&quot; mentioned in &quot;<a href = "week261.html">week261</A>&quot;.)
+
+<P>
+Now, Coxeter thought about all this stuff, and he realized
+that it was nice to introduce a polytope with one face for 
+each chamber - in this case, just a hexagon:
+ 
+<PRE>
+                     s
+                  o-----o
+              rs /       \1 
+                /         \
+               o           o
+                \         / 
+             rsr \       /r
+                  o-----o
+                    sr
+</PRE>
+This is called the &quot;Coxeter complex&quot; of our finite reflection
+group.  Our finite reflection group acts on it, and it acts
+on the faces in a free and transitive way. 
+
+<P>
+But, you'll note we started with the symmetry group of an 
+equilateral triangle, and wound up with a hexagon!  What happened?
+
+<P>
+The quick way to say it is this: combinatorially speaking,
+the hexagon is the &quot;<a href = "http://en.wikipedia.org/wiki/Barycentric_subdivision">barycentric subdivision</a>&quot; of our original
+triangle.  Not the inside of the triangle - just its surface,
+or boundary!  The boundary of the triangle is a simplicial 
+complex made of 3 vertices and 3 edges:
+                     
+<PRE>
+                  o
+                  .  .   
+                  .     . 
+                  .        o
+                  .     .  
+                  .  .
+                  o
+</PRE>
+so if we barycentrically subdivide it, we get 6 vertices
+and 6 edges:
+                     
+<PRE>
+                  o-----o
+                 /       \
+                /         \
+               o           o
+                \         / 
+                 \       /
+                  o-----o
+</PRE>
+and that's our hexagon - drawn puffed out a bit, just for the sake
+of prettiness.
+
+<P>
+If this seems bizarre - and it probably does, given how lousy these
+pictures are - I urge you to try the next example on your own.  Take
+the symmetry group of the regular tetrahedron, also known as S<sub>4</sub>,
+the group of permutations of 4 things.  Show it's generated by 
+three reflections r,s,t with relations
+
+<P>
+r<sup>2</sup> = s<sup>2</sup> = t<sup>2</sup> = 1
+
+<P>
+(rs)<sup>3</sup> = (st)<sup>3</sup> = 1
+
+<P>
+rt = tr
+
+<P>
+We can summarize these with the following Coxeter diagram:
+
+<PRE>
+      3       3
+  r-------s-------t
+</PRE>
+Draw all mirrors corresponding to reflections in S<sub>4</sub>, and show 
+they chop 3d space into 24 chambers, one for each element of S<sub>4</sub>. 
+Then, barycentrically subdivide the boundary of the tetrahedron 
+and check that the resulting &quot;Coxeter complex&quot; has 24 faces, one 
+inside each chamber.
+
+<P>
+Anyway, one thing Tits did is realize how these Coxeter complexes 
+show up in the geometry of the <em>Lie groups</em>, or more generally
+<i>algebraic groups</i>, associated to Dynkin diagrams.  
+
+<P>
+For example, if I take this guy:
+
+<PRE>
+      3
+  r-------s
+</PRE>
+
+and remove some of the labels, I get the so-called A<sub>2</sub>
+Dynkin diagram:
+
+<PRE>
+  o-------o
+</PRE>
+which corresponds to the Lie group PSL(3).  And, this is the group 
+of symmetries of projective plane geometry!  Each dot in the Dynkin
+corresponds to a &quot;type of figure&quot;:
+
+<PRE>
+POINT    LINE
+  o-------o
+</PRE>
+and the edge corresponds to an &quot;incidence relation&quot;: in projective
+plane geometry, a point can lie on a line.   This shape, which we've
+seen before:
+
+<PRE>
+                  o
+                  .  .   
+                  .     . 
+                  .        o
+                  .     .  
+                  .  .
+                  o
+</PRE>
+is then revealed to stand for a configuration of 3 points and 3 
+lines, satisfying incidence relations obvious from the picture.  
+To put points and lines on an equal footing, we switch to the  
+the Coxeter complex:
+
+<PRE>
+               POINT    LINE      
+                  o-----o
+                 /       \
+                /         \
+          LINE o           oPOINT
+                \         / 
+                 \       /
+                  o-----o
+              POINT     LINE
+</PRE>
+where now the vertices represent &quot;figures&quot; and the edges represent
+&quot;incidence relations&quot;.  It turns out that inside any projective
+plane, we can find lots of configurations like this: 3 points and
+3 lines, each pair of points lying on one of the lines, and each 
+pair of lines intersecting in a point.  Such a configuration is
+called an &quot;apartment&quot;.  
+
+<p>
+If we take all the apartments coming from a projective plane, they
+form a simplicial complex called a &quot;building&quot;.  And this generalizes
+to any geometry corresponding to any sort of Dynkin diagram.  The
+building knows everything about the geometry: all the figures, all
+the incidence relations.
+
+
+<P>
+And that's all I have time for now, but it's just the beginning of
+the marvelous theory Jacques Tits worked out.
+
+<P>
+<HR>
+<P>
+<b>Addenda:</b> At least on Titan, tholins seem to be a complex 
+brew of compounds made by irradiation of molecular nitrogen and 
+methane in the upper atmosphere.  The same sort of compounds 
+could be an early chemical step in the formation of life on Earth - 
+that's one reason I'm interested.  They're related to PAHs, or
+&quot;polycyclic aromatic hydrocarbons&quot;, which are ubiquitous
+in outer space - I wrote about those back in &quot;<a href = 
+"week258.html">week258</a>&quot;.  I guess the main difference
+is that tholins contain nitrogen!
+
+<p> 
+I found some more information on tholins here:
+
+<p>
+16) J. H. Waite, Jr., et al, The process of tholin formation in 
+Titan's upper atmosphere, Science 316 (2007), 870-875.
+
+<p>
+Here's a picture of how tholins get made, from this paper:
+
+<p>
+<div align = "center">
+<img src = "titan_tholins.gif">
+</a>
+</div>
+<p>
+
+You can see more discussion and also <i>questions I'm dying to know
+the answers to</i> over at the
+<a href = "http://golem.ph.utexas.edu/category/2008/04/this_weeks_finds_in_mathematic_24.html"><em>n</em>-Category Caf&eacute;</a>.  Whenever I 
+write This Week's Finds, I come up with lots of questions.  If you
+can help me with some of these, I'll be really grateful.
+
+<P>
+<HR>
+<em>It was technical - there was no way to avoid it.  But it was a 
+wonderful thing.  We'd finally busted it.  But then, just before
+we were about to submit the paper, Walter noticed a mistake.</em>
+- John Thompson
+
+<p>
+<HR><P>
+<!-- BEGIN FOOTER -->
+&#169; 2008  John Baez<br>
+baez@math.removethis.ucr.andthis.edu <br>
+<P>
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week262.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week264.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE><!-- END FOOTER -->

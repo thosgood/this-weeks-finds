@@ -1,0 +1,2004 @@
+<TITLE> week236 </TITLE>
+
+<!-- BEGIN HEADER -->
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week235.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week237.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE>
+<H4> July 26, 2006 </H4>
+<H2> This Week's Finds in Mathematical Physics (Week 236) </H2>
+<H4> John Baez </H4>
+<!-- END HEADER -->
+
+ 
+<P>
+This week I'd like to catch you up on some papers about 
+categorification and quantum mechanics.  
+
+<P>
+But first, since it's summer vacation, I'd like to take you on
+a little road trip - to infinity.  And then, for fun, a little
+detective story about the history of the icosahedron.
+
+<P>
+Cantor invented two kinds of infinities: cardinals and ordinals.  
+Cardinals are more familiar.  They say how big sets are.  Two sets 
+can be put into 1-1 correspondence iff they have the same number of 
+elements - where this kind of &quot;number&quot; is a cardinal.  
+
+<P>
+But today I want to talk about ordinals.  Ordinals say how big 
+&quot;well-ordered&quot; sets are.  A set is well-ordered if it's linearly 
+ordered and every nonempty subset has a smallest element.  
+
+<P>
+For example, the empty set
+
+<P>
+{}
+
+<P>
+is well-ordered in a trivial sort of way, and the corresponding 
+ordinal is called 
+
+<P>
+0.
+
+<P>
+Similarly, any set with just one element, like this:
+
+<P>
+{0}
+
+<P>
+is well-ordered in a trivial sort of way, and the corresponding 
+ordinal is called
+
+<P>
+1.
+
+<P>
+Similarly, any set with two elements, like this:
+
+<P>
+{0,1}
+
+<P>
+becomes well-ordered as soon as we decree which element is bigger; 
+the obvious choice is to say 0 &lt; 1.  The corresponding ordinal is 
+called 
+
+<P>
+2.  
+
+<P>
+Similarly, any set with three elements, like this:
+
+<P>
+{0,1,2}
+
+<P>
+becomes well-ordered as soon as we linearly order it; the obvious
+choice here is to say 0 &lt; 1 &lt; 2.  The corresponding ordinal is called
+
+<P>
+3.  
+
+<P>
+Perhaps you're getting the pattern - you've probably seen these 
+particular ordinals before, maybe sometime in grade school.  
+They're called finite ordinals, or &quot;natural numbers&quot;.
+
+<P>
+But there's a cute trick they probably didn't teach you then: we can
+<em>define</em> each ordinal to <em>be</em> the set of all ordinals
+less than it:
+
+<PRE>
+0 = {}            (since no ordinal is less than 0) 
+1 = {0}           (since only 0 is less than 1)  
+2 = {0,1}         (since 0 and 1 are less than 2)
+3 = {0,1,2}       (since 0, 1 and 2 are less than 3)
+</PRE>
+and so on.   It's nice because now each ordinal <em>is</em> a
+well-ordered set of the size that ordinal stands for.
+And, we can define one ordinal to be &quot;less than or equal&quot; to
+another precisely when its a subset of the other.
+
+<P>
+Now, what comes after all the finite ordinals?  Well,
+the set of all finite ordinals is itself well-ordered:
+
+<P>
+{0,1,2,3,...}
+
+<P>
+So, there's an ordinal corresponding to this - and it's the first
+<em>infinite</em> ordinal.  It's usually called omega (&omega;).
+Using the cute trick I mentioned, we can actually define
+
+<P>
+&omega; = {0,1,2,3,...}
+
+<P>
+Now, what comes after this?  Well, it turns out there's a
+well-ordered set
+
+<P>
+{0,1,2,3,...,&omega;}
+
+<P>
+containing the finite ordinals together with &omega;, with the
+obvious notion of &quot;less than&quot;: &omega; is bigger than the rest.  
+Corresponding to this set there's an ordinal called
+
+<P>
+&omega;+1
+
+<P>
+As usual, we can simply define
+
+<P>
+&omega;+1 = {0,1,2,3,...,&omega;}
+
+<P>
+(At this point you could be confused if you know about cardinals,
+so let me throw in a word of reassurance.  The sets &omega; and
+&omega;+1 have the same &quot;cardinality&quot;, but they're different as 
+ordinals, since you can't find a 1-1 and onto function between 
+them that <em>preserves the ordering</em>.  This is easy to see, since
+&omega;+1 has a biggest element while &omega; does not.)
+
+<P>
+Now, what comes next?  Well, not surprisingly, it's
+
+<P>
+&omega;+2 = {0,1,2,3,...,&omega;,&omega;+1}
+ 
+<P>
+Then comes 
+
+<P>
+&omega;+3, &omega;+4, &omega;+5,...
+
+<P>
+and so on.  You get the idea.
+
+<P>
+What next?  
+
+<P>
+Well, the ordinal after all these is called &omega;+&omega;.  People
+often call it &quot;&omega; times 2&quot; or &quot;&omega;2&quot; for
+short.  So,
+
+<P>
+&omega;2 = {0,1,2,3,...,&omega;,&omega;+1,&omega;+2,&omega;+3,....}
+
+<P>
+What next?  Well, then comes 
+
+<P>
+&omega;2 + 1, &omega;2 + 2,...
+
+<P>
+and so on.  But you probably have the hang of this already, so 
+we can skip right ahead to &omega;3.
+
+<P>
+In fact, you're probably ready to skip right ahead to &omega;4,
+and &omega;5, and so on.
+
+<P>
+In fact, I bet now you're ready to skip all the way to &quot;&omega;
+times &omega;&quot;, or &omega;<sup>2</sup> for short:
+
+<P>
+&omega;<sup>2</sup> = 
+{0,1,2...&omega;,&omega;+1,&omega;+2,...,&omega;2,&omega;2+1,&omega;2+2,...}
+
+<P>
+It would be fun to have a book with &omega; pages, each page half 
+as thick as the previous page.  You can tell a nice long story 
+with an &omega;-sized book.  But it would be even more fun to have 
+an encyclopedia with &omega; volumes, each being an &omega;-sized book,
+each half as thick as the previous volume.  Then you have &omega;<sup>2</sup> 
+pages - and it can still fit in one bookshelf!
+
+<P>
+<DIV ALIGN = CENTER>
+<IMG SRC = "omega_squared.png">
+</DIV>
+
+<P>
+What comes next?  Well, we have 
+
+<P>
+&omega;<sup>2</sup>+1, &omega;<sup>2</sup>+2, ...
+
+<P>
+and so on, and after all these come 
+
+<P>
+&omega;<sup>2</sup>+&omega;, &omega;<sup>2</sup>+&omega;+1, &omega;<sup>2</sup>+&omega;+2, ...
+
+<P>
+and so on - and eventually 
+
+<P>
+&omega;<sup>2</sup> + &omega;<sup>2</sup> = &omega;<sup>2</sup> 2
+
+<P>
+and then a bunch more, and then
+
+<P>
+&omega;<sup>2</sup> 3
+
+<P>
+and then a bunch more, and then
+
+<P>
+&omega;<sup>2</sup> 4
+ 
+<P>
+and then a bunch more, and more, and eventually
+
+<P>
+&omega;<sup>2</sup> &omega; = &omega;<sup>3</sup>.
+
+<P>
+You can probably imagine a bookcase containing &omega; encyclopedias,
+each with &omega; volumes, each with &omega; pages, for a total of
+&omega;<sup>3</sup> pages.
+
+<P>
+I'm skipping more and more steps to keep you from getting bored. 
+I know you have plenty to do and can't spend an <em>infinite</em> amount 
+of time reading This Week's Finds, even if the subject is infinity.  
+
+<P>
+So, if you don't mind me just mentioning some of the high points,
+there are guys like &omega;<sup>4</sup> and &omega;<sup>5</sup> and so
+on, and after all these comes
+
+<P>
+&omega;<sup>&omega;</sup>.
+
+<P>
+And then what?
+
+<P>
+Well, then comes &omega;<sup>&omega;</sup> + 1, and so on, but I'm sure
+that's boring by now.  And then come ordinals like 
+
+<P>
+&omega;<sup>&omega;</sup> 2,..., &omega;<sup>&omega;</sup> 3, ..., &omega;<sup>&omega;</sup> 4, ...
+
+<P>
+leading up to 
+
+<P>
+&omega;<sup>&omega;</sup> &omega; = &omega;<sup>&omega; + 1</sup>
+
+<P>
+Then eventually come ordinals like
+
+<P>
+&omega;<sup>&omega;</sup> &omega;<sup>2</sup> , ..., &omega;<sup>&omega;</sup> &omega;<sup>3</sup>, ..., &omega;<sup>&omega;</sup> &omega;<sup>4</sup>, ...
+
+<P>
+and so on, leading up to:
+
+<P>
+&omega;<sup>&omega;</sup> &omega;<sup>&omega;</sup> = &omega;<sup>&omega; + &omega;</sup> = &omega;<sup>&omega; 2</sup>
+
+<P>
+This actually reminds me of something that happened driving across 
+South Dakota one summer with a friend of mine.  We were in college,
+so we had the summer off, so we drive across the country.  We drove
+across South Dakota all the way from the eastern border to the west
+on Interstate 90.  
+
+<P>
+This state is huge - about 600 kilometers across, and most of it is 
+really flat, so the drive was really boring.  We kept seeing signs 
+for a bunch of tourist attractions on the western edge of the state, 
+like the Badlands and Mt. Rushmore - a mountain that they carved 
+to look like faces of presidents, just to give people some reason to keep
+driving.  
+
+<P>
+Anyway, I'll tell you the rest of the story later - I see some more 
+ordinals coming up:
+
+<P>
+&omega;<sup>&omega;3</sup>,... &omega;<sup>&omega;4</sup>,... &omega;<sup>&omega;5</sup>,...
+
+<P>
+We're really whizzing along now just to keep from getting bored - just
+like my friend and I did in South Dakota.  You might fondly imagine
+that we had fun trading stories and jokes, like they do in road
+movies.  But we were driving all the way from Princeton to my friend
+Chip's cabin in California.  By the time we got to South Dakota, we
+were all out of stories and jokes.
+
+<P>
+Hey, look!  It's
+
+<P>
+&omega;<sup>&omega; &omega;</sup> = &omega;<sup>&omega;<sup>2</sup></sup>
+
+<P>
+That was cool.  Then comes 
+
+<P>
+&omega;<sup>&omega;<sup>3</sup></sup>, ... &omega;<sup>&omega;<sup>4</sup></sup>, ... &omega;<sup>&omega;<sup>5</sup></sup>, ...
+
+<P>
+and so on.  
+
+<P>
+Anyway, back to my story.   For the first half of our half of our 
+trip across the state, we kept seeing signs for something called 
+the South Dakota Tractor Museum.  
+
+<P>
+Oh, wait, here's an interesting ordinal - let's slow down and 
+take a look:
+
+<P>
+&omega;<sup>&omega;<sup>&omega;</sup></sup>
+
+<P>
+I like that!  Okay, let's keep driving:
+
+<P>
+&omega;<sup>&omega;<sup>&omega;</sup></sup> + 1, &omega;<sup>&omega;<sup>&omega;</sup></sup> + 2, 
+
+...
+
+<P>
+and then
+
+<P>
+&omega;<sup>&omega;<sup>&omega;</sup></sup> + &omega;, ..., &omega;<sup>&omega;<sup>&omega;</sup></sup> + &omega; 2, ..., &omega;<sup>&omega;<sup>&omega;</sup></sup> + 3, ...
+<P>
+and then
+
+<P>
+&omega;<sup>&omega;<sup>&omega;</sup></sup> + &omega;<sup>2</sup>, ..., &omega;<sup>&omega;<sup>&omega;</sup></sup> + &omega;<sup>3</sup>, ...
+
+<P>
+and eventually 
+
+<P>
+&omega;<sup>&omega;<sup>&omega;</sup></sup> + &omega;<sup>&omega;</sup>
+
+<P>
+and eventually
+
+<P>
+&omega;<sup>&omega;<sup>&omega;</sup></sup> + 
+&omega;<sup>&omega;<sup>&omega;</sup></sup> = 
+&omega;<sup>&omega;<sup>&omega;</sup></sup> 2
+
+<P>
+and then
+
+<P>
+&omega;<sup>&omega;<sup>&omega;</sup></sup> 3, ..., &omega;<sup>&omega;<sup>&omega;</sup></sup> 4, ..., &omega;<sup>&omega;<sup>&omega;</sup></sup> 5, ...
+
+<P>
+and eventually
+
+<P>
+&omega;<sup>&omega;<sup>&omega;</sup></sup> &omega; = &omega;<sup>&omega;<sup>&omega;</sup> + 1</sup>
+
+<P>
+and then 
+
+<P>
+&omega;<sup>&omega;<sup>&omega;</sup> + 2</sup>, ..., &omega;<sup>&omega;<sup>&omega;</sup> + 3</sup>, ..., &omega;<sup>&omega;<sup>&omega;</sup> + 4</sup>, ...
+
+<P>
+This is pretty boring; we're already going infinitely fast,
+but we're still just picking up speed, and it'll take a while
+before we reach something interesting.
+
+<P>
+Anyway, we started getting really curious about this South Dakota 
+Tractor Museum - it sounded sort of funny.  It took 250 kilometers 
+of driving before we passed it.   We wouldn't normally care about 
+a tractor museum, but there was really nothing else to think about 
+while we were driving.  The only thing to see were fields of grain, 
+and these signs, which kept building up the suspense, saying things
+like &quot;ONLY 100 MILES TO THE SOUTH DAKOTA TRACTOR MUSEUM!&quot;
+
+<P>
+We're zipping along really fast now:
+
+<P>
+&omega;<sup>&omega;<sup>&omega;<sup>&omega;</sup></sup></sup>, ..., &omega;<sup>&omega;<sup>&omega;<sup>&omega;<sup>&omega;</sup></sup></sup></sup>,... , 
+&omega;<sup>&omega;<sup>&omega;<sup>&omega;<sup>&omega;<sup>&omega;</sup></sup></sup></sup></sup></sup>,...
+<P>
+What comes after all these?
+
+<P>
+At this point we need to stop for gas.  Our notation for ordinals 
+runs out at this point!  
+
+<P>
+The ordinals don't stop; it's just our notation that gives out.
+The set of all ordinals listed up to now - including all the ones 
+we zipped past - is a well-ordered set called 
+
+<P>
+&epsilon;<sub>0</sub>
+
+<P>
+or &quot;epsilon-nought&quot;.
+This has the amazing property that
+
+<P>
+&epsilon;<sub>0</sub> = &omega;<sup>&epsilon;<sub>0</sub></sup>
+
+<P>
+And, it's the smallest ordinal with this property.  
+
+<P>
+In fact, all the ordinals smaller than &epsilon;<sub>0</sub> can be drawn as 
+trees.  You write them in &quot;Cantor normal form&quot; like this:
+
+<P>
+&omega;<sup>&omega;<sup>&omega;<sup>&omega;</sup>+&omega;+1</sup></sup> +
+&omega;<sup>&omega;<sup>&omega;</sup>+&omega;<sup>&omega;</sup></sup>
++ &omega;<sup>&omega;</sup> + &omega; + &omega; + 1 + 1 + 1
+
+<P>
+using just + and exponentials and 1 and &omega;, and then you turn
+this notation into a picture of a tree.  I'll leave it as a puzzle 
+to figure out how.  
+
+<P>
+So, the set of (finite, rooted) trees becomes a well-ordered set whose
+ordinal is &epsilon;<sub>0</sub>.  Trees are important in
+combinatorics and computer science, so &epsilon;<sub>0</sub> is not
+really so weird after all.
+
+<P>
+Another cool thing is that Gentzen proved the consistency of the 
+usual axioms for arithmetic - &quot;Peano arithmetic&quot; - with the help
+of &epsilon;<sub>0</sub>.  He did this by drawing proofs as trees, and using 
+this to give an inductive argument that there's no proof in Peano
+arithmetic that 0 = 1.  But, this inductive argument goes beyond 
+the simple kind you use to prove facts about all natural numbers.  
+It uses induction up to &epsilon;<sub>0</sub>.
+
+<P>
+You can't formalize Gentzen's argument in Peano arithmetic: thanks to
+G&ouml;del, this system can't proof itself consistent unless it's
+<em>not</em>.  I used to think this made Gentzen's proof pointless,
+especially since &quot;induction up to &epsilon;<sub>0</sub>&quot;
+sounded like some sort of insane logician's extrapolation of ordinary
+mathematical induction.
+
+<P>
+But now I see that induction up to &epsilon;<sub>0</sub> can be thought of as 
+induction on trees, and it seems like an obviously correct principle.
+Of course Peano's axioms also seem obviously correct, so I don't know 
+that Gentzen's proof makes me <em>more sure</em> Peano arithmetic is 
+consistent.  But, it's interesting.
+
+<P>
+Induction up to &epsilon;<sub>0</sub> also lets you prove other stuff you 
+can't prove with just Peano arithmetic.  For example, it lets you
+prove that every Goodstein sequence eventually reaches zero!
+
+<P>
+Huh?
+
+<P>
+To write down a Goodstein sequence, you start with any natural
+number and write it in &quot;recursive base 2&quot;, like this:
+
+<P>
+2<sup>2<sup>2</sup>+1</sup> + 2<sup>1</sup>
+
+<P>
+Then you replace all the 2's by 3's:
+
+<P>
+3<sup>3<sup>3</sup>+1</sup> + 3<sup>1</sup>
+
+<P>
+Then you subtract 1 and write the answer in &quot;recursive base 3&quot;:
+
+<P>
+3<sup>3<sup>3</sup>+1</sup> + 1 + 1
+
+<P>
+Then you replace all the 3's by 4's, subtract 1 and write the
+answer in recursive base 4.  Then you replace all the 4's by
+5's, subtract 1 and write the answer in recursive base 5.  And so on.
+
+
+<P>
+You can try some examples using the applet on this site:
+
+<P>
+1) National Curve Bank, Goodstein's theorem,
+<A HREF = "http://curvebank.calstatela.edu/goodstein/goodstein.htm">http://curvebank.calstatela.edu/goodstein/goodstein.htm</A>
+
+<P>
+You'll see that for any starting number bigger than 3, the
+Goodstein sequence seems to keep growing forever.  So, it's
+shocking to learn that they all eventually go to zero!
+
+<P>
+For example, if you start with the number 4, you get this sequence:
+
+<P>
+4, 26, 41, 60, 83, 109, 139, 173, 211, 253, 299, 348, ...
+
+<P>
+Believe it or not, this goes to zero after about 7 &times; 
+10<sup>121210694</sup>
+steps!  For a proof, see Kevin Buzzard's calculations in the
+Addendum at the bottom of this article.
+
+<P>
+In fact, it takes nothing but algebra, careful reasoning and
+persistence to work out when any given Goodstein sequence reaches
+zero.  But, proving they <em>all</em> eventually reach zero uses induction
+up to &epsilon;<sub>0</sub>.
+
+<P>
+How can that be?
+
+<P>
+The point is that these numbers in &quot;recursive base n&quot; look a lot
+like ordinals in Cantor normal form.  If we translate them into
+ordinals by replacing n by &omega;, the ordinals keep getting smaller
+at each step, even when the numbers get bigger!
+
+<P>
+For example, when we do the translation
+
+<PRE>
+2<sup>2<sup>2</sup>+1</sup> + 2<sup>1</sup>       &rarr;    &omega;<sup>&omega;<sup>&omega;</sup>+1</sup> + &omega;<sup>1</sup>
+3<sup>3<sup>3</sup>+1</sup> + 1 + 1    &rarr;    &omega;<sup>&omega;<sup>&omega;</sup>+1</sup> + 1 + 1
+</PRE>
+
+<P>
+we see the ordinal got smaller even though the number got bigger.
+Since &epsilon;<sub>0</sub> is well-ordered, the ordinals must bottom
+out at zero after a finite number of steps - that's what
+&quot;induction up to &epsilon;<sub>0</sub>&quot; tells us.  So, the
+numbers must too!
+
+<P>
+In short, induction up to &epsilon;<sub>0</sub> lets us prove all Goodstein
+sequences eventually reach zero.  But Kirby and Paris showed
+something much deeper: they showed that you <em>need</em> induction
+up to &epsilon;<sub>0</sub> to get the job done.
+
+<P>
+And, they noted a big consequence of this fact.  Suppose Peano
+arithmetic is consistent.  Then you can't do induction up to 
+&epsilon;<sub>0</sub>
+in this system - since if you could, Gentzen's work would let this
+system prove itself consistent, and G&ouml;del's theorem would kick in
+and say it's <em>not</em>.  But since you <em>need</em> induction up to 
+&epsilon;<sub>0</sub>
+to prove all Goodstein sequences go to zero, you can't prove this
+in Peano arithmetic.
+
+
+<P>
+So, the fact that Goodstein sequences go to zero is obvious 
+if you think about it the right way, but it's not provable in 
+Peano arithmetic.
+
+<P>
+I don't know any results in mathematical physics that use induction up
+to &epsilon;<sub>0</sub>, but these could be one - after all, trees
+show up in the theory of Feynman diagrams.  That would be pretty
+interesting.
+
+<P>
+There's a lot more to say about this, but I hear what you're asking: 
+what comes after &epsilon;<sub>0</sub>?
+
+<P>
+Well, duh!  It's
+
+<P>
+&epsilon;<sub>0</sub> + 1
+
+<P>
+Then comes 
+
+<P>
+&epsilon;<sub>0</sub> + 2
+
+<P>
+and then eventually we get to
+
+<P>
+&epsilon;<sub>0</sub> + &omega;
+ 
+<P>
+and then 
+
+<P>
+&epsilon;<sub>0</sub> + &omega;<sup>2</sup>,..., &epsilon;<sub>0</sub> + &omega;<sup>3</sup>,... &epsilon;<sub>0</sub> + &omega;<sup>4</sup>,...
+
+<P>
+and after a long time
+
+<P>
+&epsilon;<sub>0</sub> + &epsilon;<sub>0</sub> = &epsilon;<sub>0</sub> 2
+
+<P>
+and then eventually 
+
+<P>
+&epsilon;<sub>0</sub><sup>2</sup> 
+
+<P>
+and then eventually...
+
+<P>
+Oh, I see!   You want to know the first <em>really interesting</em> ordinal 
+after &epsilon;<sub>0</sub>.  
+
+<P>
+Well, this is a matter of taste, but you might be interested in
+&epsilon;<sub>1</sub>.  This is the first ordinal after &epsilon;<sub>0</sub>
+that satisfies this equation:
+
+<P>
+x = &omega;<sup>x</sup>
+
+<P>
+How do we actually reach this ordinal?  Well, just as &epsilon;<sub>0</sub>
+was the limit of this sequence:
+
+
+<P>
+&omega;, &omega;<sup>&omega;</sup>, &omega;<sup>&omega;<sup>&omega;</sup></sup>, &omega;<sup>&omega;<sup>&omega;<sup>&omega;</sup></sup></sup>,...
+
+<P>
+&epsilon;<sub>1</sub> is the limit of this:
+
+<P>
+&epsilon;<sub>0</sub> + 1, &omega;<sup>&epsilon;<sub>0</sub> + 1</sup>, 
+&omega;<sup>&omega;<sup>&epsilon;<sub>0</sub> + 1</sup></sup>,
+&omega;<sup>&omega;<sup>&omega;<sup>&epsilon;<sub>0</sub> + 1</sup></sup></sup>,...
+
+
+<P>
+In other words, it's the <em>union</em> of all these well-ordered sets.
+
+<P>
+In what sense is &epsilon;<sub>1</sub> the &quot;first really
+interesting ordinal&quot; after &epsilon;<sub>0</sub>?  I'm not sure!
+Maybe it's the first one that can't be built out of 1, &omega; and
+&epsilon;<sub>0</sub> using finitely many additions, multiplications
+and exponentiations.  Does anyone out there know?
+
+<P>
+Anyway, the next really interesting ordinal I know after 
+&epsilon;<sub>1</sub> is &epsilon;<sub>2</sub>.  It's the next solution of 
+
+<P>
+x = &omega;<sup>x</sup> 
+
+<P>
+and it's defined to be the limit of this sequence:
+
+<P>
+&epsilon;<sub>1</sub> + 1, &omega;<sup>&epsilon;<sub>1</sub> + 1</sup>, 
+&omega;<sup>&omega;<sup>&epsilon;<sub>1</sub> + 1</sup></sup>,
+&omega;<sup>&omega;<sup>&omega;<sup>&epsilon;<sub>1</sub> + 1</sup></sup></sup>,...
+
+<P>
+Maybe now you get the pattern.  In general, &epsilon;<sub>&alpha;</sub> is the 
+&alpha;th solution of 
+
+<P>
+x = &omega;<sup>x</sup>
+
+<P>
+and we can define this, if we're smart, for any ordinal &alpha;.
+
+<P>
+So, we can keep driving on through fields of ever larger ordinals:
+
+<P>
+&epsilon;<sub>2</sub>,..., &epsilon;<sub>3</sub>,..., &epsilon;<sub>4</sub>, ...
+
+<P>
+and eventually
+
+<P>
+&epsilon;<sub>&omega;,</sub>..., &epsilon;<sub>&omega;+1</sub>,..., &epsilon;<sub>&omega;+2</sub>,...
+
+<P>
+and eventually
+
+<P>
+&epsilon;<sub><sub>&omega;<sup>2</sup></sub></sub>,... , &epsilon;<sub><sub>&omega;<sup>3</sup></sub></sub>,..., &epsilon;<sub><sub>&omega;<sup>4</sup></sub></sub>,...
+
+<P>
+and eventually 
+
+<P>
+&epsilon;<sub><sub>&omega;<sup>&omega;</sup></sub></sub>,..., &epsilon;<sub><sub>&omega;<sup>&omega;<sup>&omega;</sup></sup></sub></sub>,...
+
+<P>
+As you can see, this gets boring after a while - it's suspiciously
+similar to the beginning of our trip through the ordinals, with 
+them now showing up as subscripts under this &quot;&epsilon;&quot; notation. 
+But this is misleading: we're moving much faster now.  I'm skipping 
+over much bigger gaps, not bothering to mention all sorts of ordinals 
+like
+
+<P>
+&epsilon;<sub><sub>&omega;<sup>&omega;</sup></sub></sub> + &epsilon;<sub><sub>&omega; 248</sub></sub> + &omega;<sup>&omega;<sup>&omega; + 17</sup></sup> + 1
+
+<P>
+Anyway... so finally we <em>got</em> to this South Dakota Tractor Museum, 
+driving pretty darn fast at this point, about 85 miles an hour... and guess 
+what?  
+
+<P>
+Oh - wait a minute - it's sort of interesting here:
+
+<P>
+&epsilon;<sub>&epsilon;<sub>0</sub></sub>,..., &epsilon;<sub>&epsilon;<sub>1</sub></sub>,..., &epsilon;<sub>&epsilon;<sub>2</sub></sub>,...
+
+<P>
+and now we reach
+
+<P>
+&epsilon;<sub>&epsilon;<sub>&omega;</sub></sub>
+
+<P>
+and then 
+
+<P>
+&epsilon;<sub>&epsilon;<sub>&omega;<sup>&omega;</sup></sub></sub>,..., 
+&epsilon;<sub>&epsilon;<sub>&omega;<sup>&omega;<sup>&omega;</sup></sup></sub></sub>,...
+
+<P>
+and then as we keep speeding up, we see:
+
+<P>
+&epsilon;<sub>&epsilon;<sub>&epsilon;<sub>0</sub></sub></sub>,...
+&epsilon;<sub>&epsilon;<sub>&epsilon;<sub>&epsilon;<sub>0</sub></sub></sub></sub>,...
+&epsilon;<sub>&epsilon;<sub>&epsilon;<sub>&epsilon;<sub>&epsilon;<sub>0</sub></sub></sub></sub></sub>,...
+
+<P>
+So, anyway: by the time we got that tractor museum, we were driving really fast.
+And, all we saw as we whizzed by was a bunch of rusty tractors out in 
+a field!  It was over in a split second!  It was a real anticlimax - 
+just like this little anecdote, in fact.  
+
+<P>
+But that's the way it is when you're driving through these ordinals.   
+Every ordinal, no matter how large, looks pretty pathetic and small 
+compared to the ones ahead - so you keep speeding up, looking for a 
+really big one... and when you find one, you see it's part of a new 
+pattern, and that gets boring too...
+
+<P>
+Anyway, when we reach the limit of this sequence:
+
+<P>
+
+&epsilon;<sub>0</sub>,
+&epsilon;<sub>&epsilon;<sub>0</sub></sub>,
+&epsilon;<sub>&epsilon;<sub>&epsilon;<sub>0</sub></sub></sub>,
+&epsilon;<sub>&epsilon;<sub>&epsilon;<sub>&epsilon;<sub>0</sub></sub></sub></sub>,
+&epsilon;<sub>&epsilon;<sub>&epsilon;<sub>&epsilon;<sub>&epsilon;<sub>0</sub></sub></sub></sub></sub>,...
+
+
+
+<P>
+our notation breaks down, since this is the first solution of
+
+<P>
+x = &epsilon;<sub>x</sub>
+
+<P>
+We could make up a new name for this ordinal, like &eta;<sub>0</sub>.  
+
+<P>
+Then we 
+could play the whole game again, defining &eta;<sub>&alpha;</sub> to be the 
+&alpha;th solution of
+
+<P>
+x = &epsilon;<sub>x</sub>
+
+<P>
+sort of like how we defined the epsilons.  This kind of equation, where
+something equals some function of itself, is called a &quot;fixed point&quot;
+equation.
+
+<P>
+But since we'll have to play this game infinitely often, we might 
+as well be more systematic about it! 
+
+<P>
+As you can see, we keep running into new, qualitatively different
+types of ordinals.  First we ran into the powers of &omega;, then we ran
+into the epsilons, and now these etas.  It's gonna keep happening!
+For each type of ordinal, our notation runs out when we reach the
+first &quot;fixed point&quot; - when the xth ordinal of this type is
+actually equal to x.
+
+<P>
+So, instead of making up infinitely many Greek letters, let's use
+&phi;<sub>&gamma;</sub> for the &gamma;th type of ordinal, and
+&phi;<sub>&gamma;</sub>(&alpha;) for the &alpha;th ordinal of type
+&gamma;.
+
+<P>
+We can use the fixed point equation to define
+&phi;<sub>&gamma;+1</sub> in terms of &phi;<sub>&gamma;</sub>.  In
+other words, we start off by defining
+
+<P>
+&phi;<sub>0</sub>(&alpha;) = &omega;<sup>&alpha;</sup>
+
+<P>
+and then define
+
+<P>
+&phi;<sub>&gamma;+1</sub>(&alpha;)
+
+<P>
+to be the &alpha;th solution of
+
+<P>
+x = &phi;<sub>&gamma;</sub>(x) 
+
+<P>
+We can even define this stuff when &gamma; itself is infinite.
+For a more precise definition see the Wikipedia article cited below... 
+but I hope you get the rough idea.
+
+<P>
+This defines a lot of really big ordinals, called the &quot;Veblen hierarchy&quot;.
+
+<P>
+There's a souped-up version of Cantor normal form that can handle
+every ordinal that's a finite sum of guys in the Veblen hierarchy: 
+you can write them <em>uniquely</em> as finite sums of the form
+
+<P>
+&phi;<sub>&gamma;<sub>1</sub></sub>(&alpha;<sub>1</sub>) + ... 
++ &phi;<sub>&gamma;<sub>k</sub></sub>(&alpha;<sub>k</sub>) 
+
+<P>
+where each term is less than or equal to the previous one, and each
+&alpha;<sub>i</sub> is not a fixed point of &phi;<sub>&gamma;<sub>i</sub></sub>
+
+<P>
+But as you might have suspected, not <em>all</em> ordinals can be written 
+in this way.  For one thing, every ordinal we've reached so far is
+<em>countable</em>: as a set you can put it in one-to-one correspondence 
+with the integers.  There are much bigger <em>uncountable</em> ordinals -
+at least if you believe you can well-order uncountable sets.  
+
+<P>
+But even in the realm of the countable, we're nowhere near done! 
+
+<P>
+As I hope you see, the power of the human mind to see a pattern
+and formalize it gives the quest for large countable ordinals a 
+strange quality.  As soon as we see a systematic way to generate 
+a sequence of larger and larger ordinals, we know this sequence 
+has a limit that's larger then all of those!  And this opens the 
+door to even larger ones....
+
+<P>
+So, this whole journey feels a bit like trying to outrace our car's
+own shadow - the faster we drive, the faster it chases after us.
+But, it's interesting to hear what happens next.  At this point we 
+reach something a bit like the Badlands on the western edge of South 
+Dakota - something a bit spooky!
+
+<P>
+It's called the Feferman-Sch&uuml;tte ordinal, &Gamma;<sub>0</sub>.
+This is just the limit, or union if you prefer, of all the ordinals
+mentioned so far: all the ones you can get from the Veblen hierarchy.
+You can also define &Gamma;<sub>0</sub> by a fixed point property:
+it's the smallest ordinal x with
+
+<P>
+&phi;<sub>x</sub>(0) = x
+
+<P>
+Now, we've already seen that induction up to different ordinals
+gives us different amounts of mathematical power: induction up 
+to &omega; is just ordinary mathematical induction as formalized by 
+Peano arithmetic, but induction up to &epsilon;<sub>0</sub> buys us more - 
+it lets us prove the consistency of Peano arithmetic! 
+ 
+<P>
+Logicians including Feferman and Sch&uuml;tte have carried out a detailed
+analysis of this subject.  They know a lot about how much induction up
+to different ordinals buys you.  And apparently, induction up to
+&Gamma;<sub>0</sub> lets us prove the consistency of a system called
+&quot;predicative analysis&quot;.  I don't understand this, nor do I
+understand the claim I've seen that &Gamma;<sub>0</sub> is the first
+ordinal that cannot be defined predicatively - i.e., can't be defined
+without reference to itself.  Sure, saying &Gamma;<sub>0</sub> is the
+first solution of
+
+<P>
+&phi;<sub>x</sub>(0) = x
+
+<P>
+is non-predicative.  But what about saying that &Gamma;<sub>0</sub> is
+the union of all ordinals in the Veblen hierarchy?  What's
+non-predicative about that?
+
+<P>
+If anyone could explain this in simple terms, I'd be much obliged.
+
+<P>
+As you can see, I'm getting out my depth here.  That's pretty typical 
+in This Week's Finds, but this time - just to shock the world -
+I'll take it as a cue to shut up.  So, I won't try to explain the 
+outrageously large Bachmann-Howard ordinal, or the even more 
+outrageously large Church-Kleene ordinal - the first one that can't 
+be written down using <em>any</em> computable system of notation.  You'll 
+just have to read the references.
+
+<P>
+For a fun introduction to the infinite, try
+
+<P>
+2) Rudy Rucker, Infinity and the Mind: The Science and Philosophy 
+of the Infinite, Princeton University Press, Princeton, 2004.
+
+<P>
+Rucker also wrote a novel, White Light, about a mathematician who 
+actually goes to the transfinite realms and climbs some transfinite 
+mountains.
+
+<P>
+For online self-study,
+I urge you to start by reading the Wikipedia article on ordinal
+numbers, then the article on ordinal arithmetic, and then the one
+on large countable ordinals - they're really well-written:
+
+<P>
+3) Wikipedia, Ordinal numbers, 
+<A HREF = "http://en.wikipedia.org/wiki/Ordinal_number">http://en.wikipedia.org/wiki/Ordinal_number</A>
+
+<P>
+Ordinal arithmetic,
+<A HREF = "http://en.wikipedia.org/wiki/Ordinal_arithmetic">http://en.wikipedia.org/wiki/Ordinal_arithmetic</A>
+
+<P>
+Large countable ordinals,
+<A HREF = "http://en.wikipedia.org/wiki/Large_countable_ordinals">http://en.wikipedia.org/wiki/Large_countable_ordinals</A>
+
+<P>
+The last one has a tempting bibliography, but warns us that most
+books on this subject are hard to read and out of print.  Apparently
+nobody can agree on notation for ordinals beyond the Veblen hierarchy,
+either. 
+
+<P>
+Gentzen proved the consistency of Peano arithmetic in 1936:
+
+<P>
+4) Gerhard Gentzen, Die Widerspruchfreiheit der reinen Zahlentheorie,
+Mathematische Annalen 112 (1936), 493-565.  Translated as &quot;The 
+consistency of arithmetic&quot; in M. E. Szabo ed., The Collected Works 
+of Gerhard Gentzen, North-Holland, Amsterdam, 1969.
+
+<P>
+Goodstein's theorem came shortly afterwards:
+
+<P>
+5) R. Goodstein, On the restricted ordinal theorem, Journal of 
+Symbolic Logic, 9 (1944), 33-41.
+
+<P>
+but Kirby and Paris proved it independent of Peano arithmetic
+only in 1982:
+
+<P>
+6) L. Kirby and J. Paris, Accessible independence results for Peano 
+arithmetic, Bull. London. Math. Soc. 14 (1982), 285-93.  
+
+<P>
+That marvelous guy Alan Turing wrote his PhD thesis at Princeton 
+under the logician Alonzo Church.  It was about ordinals and their 
+relation to logic:
+
+<P>
+7) Alan M. Turing, Systems of logic defined by ordinals, Proc. 
+London Math. Soc., Series 2, 45 (1939), 161-228.
+
+<P>
+This is regarded as his most difficult paper.  The idea is to 
+take a system of logic like Peano arithmetic and throw in an
+extra axiom saying that system is consistent, and then another
+axiom saying <em>that</em> system is consistent, and so on ad infinitum -
+getting a new system for each ordinal.  These systems are recursively
+axiomatizable up to (but not including) the Church-Kleene ordinal.
+
+<P>
+These ideas were later developed much further....
+
+<P>
+But, reading original articles is not so easy, especially if you're 
+in Shanghai without access to a library.  So, what about online stuff -
+especially stuff for the amateur, like me?
+
+<P>
+Well, this article is great fun if you're looking for a readable 
+overview of the grand early days of proof theory, when Hilbert was 
+battling Brouwer, and then G&ouml;del came and blew everyone away:
+
+<P>
+8) Jeremy Avigad and Erich H. Reck, &quot;Clarifying the nature of the
+infinite&quot;: the development of metamathematics and proof theory,
+Carnegie-Mellon Technical Report CMU-PHIL-120, 2001.  Also 
+available as <A HREF = "http://www.andrew.cmu.edu/user/avigad/Papers/infinite.pdf">http://www.andrew.cmu.edu/user/avigad/Papers/infinite.pdf</A>
+
+<P>
+But, it doesn't say much about the newer stuff, like the idea that
+induction up to a given ordinal can prove the consistency of a logical
+system - the bigger the ordinal, the stronger the system.  For work
+up to 1960, this is a good overview:
+
+<P>
+9) Solomon Feferman, Highlights in proof theory, in Proof Theory,
+eds. V. F. Hendricks et al, Kluwer, Dordrecht (2000), pp. 11-31.
+Also available at <A HREF = "http://math.stanford.edu/~feferman/papers.html">http://math.stanford.edu/~feferman/papers.html</A>
+
+<P>
+For newer stuff, try this:
+
+<P>
+10) Solomon Feferman, Proof theory since 1960, prepared for the 
+Encyclopedia of Philosophy Supplement, Macmillan Publishing Co., 
+New York.  Also available at
+<A HREF = "http://math.stanford.edu/~feferman/papers.html">http://math.stanford.edu/~feferman/papers.html</A>
+
+<P>
+Also try the stuff on proof theory, trees and categories mentioned in
+&quot;<A HREF = "week227.html">week227</A>&quot;, and this
+book mentioned in &quot;<A HREF = "week70.html">week70</A>&quot; -
+now you can get it free online:
+
+<P>
+11)
+Jean-Yves Girard, Y. Lafont and P. Taylor, Proofs and Types, Cambridge
+Tracts in Theoretical Computer Science 7, Cambridge U. Press, 1989.
+Also available at <A HREF =" http://www.cs.man.ac.uk/~pt/stable/Proofs+Types.htm
+l">http://www.cs.man.ac.uk/~pt/stable/Proofs+Types.html</A>
+
+<P>
+Finally, sometime I want to get ahold of this book by someone who 
+always enlivened logic discussions on the internet until his death in 
+April this year:
+
+<P>
+12) Torkel Franzen, Inexhaustibility: A Non-Exhaustive Treatment,
+Lecture Notes in Logic 16, A. K. Peters, Ltd., 2004.
+
+<P>
+The blurb sounds nice: &quot;The inexhaustibility of mathematical 
+knowledge is treated based on the concept of transfinite 
+progressions of theories as conceived by Turing and Feferman.&quot;
+
+<P>
+Okay, now for a bit about the icosahedron - my favorite Platonic solid.  
+
+<P>
+I've been thinking about the &quot;geometric McKay
+correspondence&quot; lately, and among other things this sets up a
+nice relationship between the symmetry group of the icosahedron and an
+amazing entity called E<sub>8</sub>.  E<sub>8</sub> is the largest of
+the exceptional Lie groups - it's 248-dimensional.  It's related to
+the octonions (the number &quot;8&quot; is no coincidence) and it shows
+up in string theory.  It's very beautiful how this complicated
+sounding stuff can be seen in distilled form in the icosahedron.
+
+<P>
+I have a lot to say about this, but you're probably worn out by our
+road trip through the land of big ordinals.  So for now, try &quot;<A
+HREF = "week164.html">week164</A>&quot; and &quot;<A HREF =
+"week230.html">week230</A>&quot; if you're curious.  Let's talk about
+something less stressful - the early history of the icosahedron.
+
+<P>
+I spoke about the early history of the dodecahedron in &quot;<A HREF =
+"week63.html">week63</A>&quot;.  It's conjectured that the Greeks got
+interested in this shape from looking at crystals of iron pyrite.
+These aren't regular dodecahedra, since normal crystals can't have
+5-fold symmetry - though &quot;quasicrystals&quot; can.  Instead,
+they're &quot;pyritohedra&quot;.  The Greeks' love of mathematical
+perfection led them to the regular dodecahedron....
+
+<P>
+... and it also led them to invent the icosahedron:
+
+<P>
+13) Benno Artmann, About the cover: the mathematical conquest of
+the third dimension, Bulletin of the AMS, 43 (2006), 231-235.
+Also available at 
+<A HREF = "http://www.ams.org/bull/2006-43-02/S0273-0979-06-01111-6/">http://www.ams.org/bull/2006-43-02/S0273-0979-06-01111-6/</A>
+
+<P>
+According to Artmann, an ancient note written in the margins of a copy 
+of Euclid's Elements says the regular icosahedron and octahedron 
+were discovered by Theaetetus!  
+
+<P>
+If you're a cultured sort, you may know Theaetetus through Plato's 
+dialog of the same name, where he's described as a mathematical 
+genius.  He's also mentioned in Plato's &quot;The Sophist&quot;.  He probably 
+discovered the icosahedron between 380 and 370 BC, and died at an 
+early age in 369.  Euclid wrote his construction of the icosahedron 
+that we find in Euclid's Elements:
+
+<P>
+14) Euclid, Elements, Book XIII, Proposition 16, online version
+due to David Joyce at 
+<A HREF = "http://aleph0.clarku.edu/~djoyce/java/elements/bookXIII/propXIII16.html">http://aleph0.clarku.edu/~djoyce/java/elements/bookXIII/propXIII16.html</A>
+
+<P>
+Artmann says this was the first time a geometrical entity appeared 
+in pure thought before it was seen!  An interesting thought.
+
+<P>
+Book XIII also contains a complete classification of the Platonic 
+solids - perhaps the first really interesting classification 
+theorem in mathematics, and certainly the first &quot;ADE classification&quot;:
+
+<P>
+15) Euclid, Elements, Book XIII, Proposition 18, online version
+due to David Joyce at 
+<A HREF = "http://aleph0.clarku.edu/~djoyce/java/elements/bookXIII/propXIII18.html">http://aleph0.clarku.edu/~djoyce/java/elements/bookXIII/propXIII18.html</A>
+
+<P>
+If you don't know about ADE classifications, see &quot;<A HREF = "week62.html">week62</A>&quot;.
+
+<P>
+I got curious about the &quot;ancient note written in the margins of a
+copy of Euclid&quot; that Artmann mentions.  It seemed too good to be
+true.  Just for fun, I tried to track down the facts about this,
+using only my web browser here in Shanghai.
+
+<P>
+First of all, if you're imagining an old book in a library somewhere
+with marginal notes scribbled by a pal of Theaetetus, dream on.  
+It ain't that simple!  Our knowledge of Euclid's original Elements 
+relies on copies of copies of copies... and centuries of detective 
+work, with each detective having to root through obscure journals 
+and dim-lit library basements to learn what the previous detectives 
+did.  
+
+<P>
+The oldest traces of Euclid's Elements are pathetic fragments of
+papyrus.  People found some in a library roasted by the eruption of
+Mount Vesuvius in 79 AD, some more in a garbage dump in the Egyptian
+town of Oxyrhynchus (see &quot;<A HREF =
+"week221.html">week221</A>&quot;), and a couple more in the Fayum region
+near the Nile.  All these were written centuries after Euclid died.
+Here's one from Oxyrhynchus, photographed by Bill Casselman, who 
+kindly let me include this picture:
+
+<P>
+<DIV ALIGN = CENTER>
+<IMG SRC = "euclid_oxyrhynchus.jpg">
+</DIV>
+
+
+<P>
+What math is being discussed here?
+What's that red &quot;29&quot; doing there?  For the answer to these
+and other questions, check out his website!
+
+<P>
+16) Bill Casselman, One of the oldest extant diagrams from Euclid, 
+<A HREF = "http://www.math.ubc.ca/~cass/Euclid/papyrus/">http://www.math.ubc.ca/~cass/Euclid/papyrus/</A>
+
+<P>
+The oldest nearly complete copy of the Elements lurks in a museum
+called the Bodleian at Oxford.  It dates back to 888 AD, about a 
+millennium after Euclid.  
+
+<P>
+More copies date back to the 10th century; you can find their stories
+here:
+
+<P>
+17) Thomas L. Heath, editor, Euclid's Elements, chap. V: the text,
+Cambridge U. Press, Cambridge, 1925.  Also available at
+<A HREF = "http://www.perseus.tufts.edu/cgi-bin/ptext?lookup=Euc.+5">http://www.perseus.tufts.edu/cgi-bin/ptext?lookup=Euc.+5</A>
+
+<P>
+18) Menso Folkerts, Euclid's Elements in Medieval Europe, 
+<A HREF = "http://www.math.ubc.ca/~cass/Euclid/folkerts/folkerts.html">http://www.math.ubc.ca/~cass/Euclid/folkerts/folkerts.html</A>
+
+<P>
+All these copies are somewhat different.  So, getting at Euclid's 
+original Elements is as hard as sequencing the genome of Neanderthal
+man, seeing a quark, or peering back to the Big Bang!  
+
+<P>
+A lot of these copies contain &quot;scholia&quot;: comments inserted by 
+various usually unnamed copyists.  These were collected and
+classified by a scholar named Heiberg in the late 1800s:
+
+<P>
+19) Thomas L. Heath, editor, Euclid's Elements, chap. VI: the scholia,
+Cambridge U. Press, Cambridge, 1925.  Also available at
+<A HREF = "http://www.perseus.tufts.edu/cgi-bin/ptext?lookup=Euc.+6">http://www.perseus.tufts.edu/cgi-bin/ptext?lookup=Euc.+6</A>
+
+<P>
+One or more copies contains a scholium about Platonic solids in 
+book XIII.  Which copies?  Ah, for that I'll have to read Heiberg's 
+book when I get back to UC Riverside - our library has it, I'm
+proud to say.
+
+<P>
+And, it turns out that another scholar named Hultsch argued 
+that this scholium was written by Geminus of Rhodes.
+
+<P>
+Geminus of Rhodes was an astronomer and mathematician who may have 
+lived between 130 and 60 BC.  He seems like a cool dude.  In his 
+Introduction to Astronomy, he broke open the &quot;celestial sphere&quot;, 
+writing:
+
+<blockquote>
+  ... we must not suppose that all the stars lie on one surface, 
+  but rather that some of them are higher and some are lower.
+</blockquote>
+And in his Theory of Mathematics, he proved a classification theorem
+stating that the helix, the circle and the straight line are the only 
+curves for which any portion is the same shape as any other portion 
+with the same length.  
+
+<P>
+Anyway, the first scholium in book XIII of Euclid's Elements, which
+Hultsch attributes to Geminus, mentions
+
+<blockquote>
+  ... the five so-called Platonic figures which, however, do not 
+  belong to Plato, three of the five being due to the Pythagoreans, 
+  namely the cube, the pyramid, and the dodecahedron, while the 
+  octahedron and the icosahedron are due to Theaetetus. 
+</blockquote>
+So, that's what I know about the origin of the icosahedron! 
+Someday I'll read more, so let me make a note to myself:
+
+<P>
+20) Benno Artmann, Antike Darstellungen des Ikosaeders, Mitt. 
+DMV 13 (2005), 45-50.  (Here the drawing of the icosahedron in 
+Euclid's elements is analysed in detail.)
+
+<P>
+21) A. E. Taylor, Plato: the Man and His Work, Dover Books, New
+York, 2001, page 322.  (This discusses traditions concerning 
+Theaetetus and Platonic solids.)
+
+<P>
+22) Euclid, Elementa: Libri XI-XIII cum appendicibus, postscript 
+by Johan Ludvig Heiberg, edited by Euangelos S. Stamatis, 
+Teubner BSB, Leipzig, 1969.  (Apparently this contains information 
+on the scholium in book XIII of the Elements.)
+
+<P>
+Now for something a bit newer: categorification and quantum mechanics.
+I've said so much about this already that I'm pretty much talked out:
+
+<P>
+23) John Baez and James Dolan, From finite sets to Feynman diagrams, 
+in Mathematics Unlimited - 2001 and Beyond, vol. 1, eds. Bj&ouml;rn 
+Engquist and Wilfried Schmid, Springer, Berlin, 2001, pp. 29-50.
+
+<P>
+24) John Baez and Derek Wise, Quantization and Categorification,
+Quantum Gravity Seminar lecture notes, available at:
+<A HREF = "http://math.ucr.edu/home/baez/qg-fall2003/">http://math.ucr.edu/home/baez/qg-fall2003/</A>
+<A HREF = "http://math.ucr.edu/home/baez/qg-winter2004/">http://math.ucr.edu/home/baez/qg-winter2004/</A>
+<A HREF = "http://math.ucr.edu/home/baez/qg-spring2004/">http://math.ucr.edu/home/baez/qg-spring2004/</A>
+
+<P>
+As I explained in &quot;<A HREF = "week185.html">week185</A>&quot;, many basic facts about harmonic 
+oscillators, Fock space and Feynman diagrams have combinatorial 
+interpretations.  For example, the commutation relation between 
+the annihilation operator a and the creation operator a*:
+
+<P>
+aa* - a*a = 1
+
+<P>
+comes from the fact that if you have some balls in a box, there's one
+more way to put a ball in and then take one out than to take one out
+and then put one in!  This way of thinking amounts to using finite
+sets as a substitute for the usual eigenstates of the number operator,
+so we're really &quot;categorifying&quot; the harmonic oscillator:
+giving it a category of states instead of a set of states.
+
+<P>
+Working out the detailed consequences takes us through Joyal's theory
+of &quot;structure types&quot; or &quot;species&quot; - see &quot;<A
+HREF = "week202.html">week202</A>&quot; - and on to more general
+&quot;stuff types&quot;.  Some nice category and 2-category theory is
+needed to make the ideas precise.  For a careful treatment, see this
+thesis by a student of Ross Street:
+
+<P>
+25) Simon Byrne, On Groupoids and Stuff, honors thesis, 
+Macquarie University, 2005, available at 
+<A HREF = "http://www.maths.mq.edu.au/~street/ByrneHons.pdf">http://www.maths.mq.edu.au/~street/ByrneHons.pdf</A> and
+<A HREF = "http://math.ucr.edu/home/baez/qg-spring2004/ByrneHons.pdf">
+http://math.ucr.edu/home/baez/qg-spring2004/ByrneHons.pdf</A>
+
+<P>
+However, none of this work dealt with the all-important <em>phases</em>
+in quantum mechanics!  For that, we'd need a generalization of
+finite sets whose cardinality can be be complex.  And that's what
+my student Jeffrey Morton introduces here:
+
+<P>
+26) Jeffrey Morton, Categorified algebra and quantum mechanics, 
+Theory and Application of Categories 16 (2006), 785-854.  Available
+at <a href = "http://www.emis.de/journals/TAC/volumes/16/29/16-29abs.html">http://www.emis.de/journals/TAC/volumes/16/29/16-29abs.html</a>;
+also available as <A HREF = "http://arxiv.org/abs/math.QA/0601458">math.QA/0601458</A>.
+
+<P>
+He starts from the beginning, explains how and why one would try to
+categorify the harmonic oscillator, introduces the
+&quot;U(1)-sets&quot; and &quot;U(1)-stuff types&quot; needed to do
+this, and shows how the usual theorem expressing time evolution of a
+perturbed oscillator as a sum over Feynman diagrams can be
+categorified.  His paper is now <em>the</em> place to read about this
+subject.  Take a look!  <P>
+	
+<P>
+<HR>
+<b>Addendum:</b> 
+I thank Tim Chow, Phillip Helbig, Rudy Rucker, Jeffrey Winkler
+and especially Kevin Buzzard for interesting comments. 
+
+<P>
+Jeffrey Winkler wrote:
+
+<blockquote>
+ Are the ridiculously infinite forms of infinity you discuss in your
+ article ever used for anything?
+
+<P>
+ If they only refer to themselves, if the only thing these infinite
+ sets refer to is other infinite sets, then it's pointless self-reflexive
+ recursive circular reasoning. A set that has the same number of elements
+ as the number of apples on your table, or the number of points in a line
+ or a plane, or in infinitely dimensional Hilbert space, could be said to
+ refer to something, but give an example of something, other than one of
+ the sets you're talking about, which would have &epsilon;<sub>0</sub> 
+ elements. Where
+ in mathematics or physics would you ever use such a concept? If you never
+ would, then what's the point? In other words, is there anything where you
+ could have &epsilon;<sub>0</sub> 
+ "many" of something, other than the sets themselves,
+ and if there isn't, then are these actually numbers? If nothing is ever
+ "that many", then is it a number? Of course, we've expanded the concept
+ of "number" to include complex numbers, quaternions, octonions, vectors,
+ tensors, matrices, etc. where they don't literally correspond to "how
+ many" something is, yet in all those examples, they have uses in various
+ fields of mathematics and physics, other than just when talking about
+ themselves, so there is a reason for inventing them.
+
+<P>
+ Jeffery
+</blockquote>
+I replied:
+
+<blockquote>
+ Jeffery Winkler wrote:
+<PRE>
+ > Are the ridiculously infinite forms of infinity you discuss 
+ > in your article ever used for anything?
+</PRE>
+ 
+ Without &epsilon;<sub>0</sub> you can't prove that Goodstein sequences 
+ converge to zero - an obviously true fact.  As I mentioned, the main use 
+ of these ordinals is to measure the strength of axiom systems.  But, 
+ I didn't write about these ordinals because they're useful.  I wrote 
+ about them because they're fun.   
+
+<P>
+ They're not &quot;ridiculously infinite&quot;, though.  The ordinals 
+ I mentioned
+ are all countable ordered sets, and you can describe them all 
+ <em>explicitly</em> as subsets of the rational numbers.  
+
+<P>
+ More precisely: any one of the ordinals I mentioned, up to and including
+ the Feferman-Sch&uuml;tte ordinal (and quite a ways beyond), is isomorphic 
+ as an ordered set to a subset of the rational numbers.  Moreover, you 
+ can write a computer program that will decide whether or not any given 
+ fraction is in this subset.  As a consequence, you can also write a 
+ computer program that lists the fractions in this set.  
+
+<P>
+ It's pretty obvious how to do this for &omega;<sup>2</sup>:
+
+<P>
+<DIV ALIGN = CENTER>
+<IMG SRC = "omega_squared.png">
+</DIV>
+
+ But you can do it for any one of the ordinals I mentioned!  David
+ Madore has drawn a picture of &epsilon;<sub>0</sub>, for example.
+
+<P>
+ So, for someone to reject these ordinals as "ridiculously infinite",
+ they must have some doubts about the legitimacy of computable subsets 
+ of the rational numbers as valid objects of study.  That seems like 
+ an extreme position.
+
+<P>
+ The Church-Kleene ordinal is much larger than any of the ordinals
+ I discussed in detail.  It's still countable.  Any ordinal below it
+ can be described in a computable way - but it itself can't.  So, if
+ you believe that only computable mathematical entities are worth 
+ studying, you might want to stop shy of this one.   I stopped <em>far</em>
+ short of this one.
+
+<PRE>
+ > If they only refer to themselves, if the only thing these 
+ > infinite sets refer to is other infinite sets, then it's 
+ > pointless self-reflexive recursive circular reasoning. 
+</PRE>
+
+ I hope you see that this is not true for the countable ordinals I 
+ was discussing.  I deliberately refrained from mentioning the large 
+ cardinals that logicians often discuss, precisely because I share 
+ your distaste for such stuff.
+
+<P>
+ I realized after I posted &quot;<A HREF = "week236.html">week236</A>&quot; 
+ that some people might think I was
+ talking about mystical entities, when I was actually talking about very
+ concrete things.  So, I'm glad you brought this up.
+
+<P>
+ Best, <br>
+ jb
+</blockquote>
+
+<P>
+And now for Kevin Buzzard's wonderful calculation! 
+In the original version of this Week's Finds, I wrote:
+
+<blockquote>
+if you start with the number 4, you get this Goodstein sequence:
+<P>
+ 4, 26, 41, 60, 83, 109, 139, 173, 211, 253, 299, 348, ...
+<P>
+ and apparently it takes about 3 &times; 10<sup>60605351</sup> 
+steps to reach zero!
+</blockquote>
+
+I got this figure from the &quot;National Curve Bank&quot; website mentioned
+above, but I got the details wrong: they said the sequence
+&quot;can increase for approximately 2.6 &times; 10<sup>60605351</sup>
+steps&quot;, whatever that means.
+
+<P>
+Kevin Buzzard then sent me an email in which he worked out the
+number himself.  After correcting a few small mistakes, we seem
+to have settled on a different answer.  
+
+<P>
+Kevin writes:
+
+<PRE>
+ You write this as if it were some kind of mystery. I remember working
+ out this number explicitly when I was a graduate student!  There is
+ some nice form for it, as I recall.  Let's see if I can reconstruct
+ what I did.
+
+ If I've understood the sequence correctly, it should be (where "n)" 
+ at the beginning of a line denotes we're working in base n on this 
+ line, so strictly speaking it's probably the n-1st term in the sequence)
+ 
+ 2) 2^2 = 4
+ 3) 3^3-1 = 2.3^2+2.3+2 = 26 [note: base 3, ends in 2, and 3+2=5]
+ 4) 2.4^2+2.4+1 = 41 [note: base 4, ends in 1, and 4+1=5]
+ 5) 2.5^2+2.5 = 60 [we're at a limit ordinal here, note 3+2=4+1=5]
+ 6) 2.6^2+2.6-1 = 2.6^2+6+5 = 83 [note: base 6, ends in 5]
+ 7) 2.7^2+7+4 [note: base 7, ends in 4]
+ 8) 2.8^2+8+3 [note: base 8, ends in 3, so we next get a limit ordinal at...]
+ .
+ .
+ 11) 2.11^2+11
+ 12) 2.12^2+12-1 = 2.12^2+11
+ 13) 2.13^2+10
+ .
+ .
+ .
+ 23) 2.23^2 (as 23 = 12+11 = 13+10= ...)
+ 24) 24^2+23.24+23
+ .
+ .
+ .
+ 47) 47^2+23.47
+ 48) 48^2+22.48+47
+ .
+ .
+ .
+ 95) 95^2+22.95
+ 96) 96^2+21.96+95
+ .
+ .
+ .
+ 
+ and now we spot a pattern: we're just doubling---getting a limit ordinal
+ at bases 24-1, 48-1, 96-1 and so on. Let's look again at those limit
+ ordinals:
+ 
+ 47) 47^2+23.47
+ 95) 95^2+22.95
+ .
+ .
+ .
+ 24*2^t-1) (24*2^t-1)^2+(24-t)*(24*2^t-1)
+ .
+ .
+ .
+ 
+ so the last one with a square in it will be the case t=24, corresponding 
+ to
+ 
+ r) r^2
+ 
+ where 
+ 
+ r = 24 * 2^24 - 1 = 402653183. 
+ 
+ All those 24s, but I'm sure you'll not get carried away.  Let's define 
+
+ n = r+1 = 24 * 2^24 
+
+ and continue on. At the next step, the ordinal decreases sharply:
+
+ n)      n^2-1 = (n-1)n + (n-1)
+ n+1)   (n-1)(n+1) + (n-2) [note: now back to the usual tricks]
+ .
+ .
+ .
+ 2n-1) (n-1)(2n-1)        [the next limit, at base 2n-1]
+ 2n)   (n-2)(2n) + (2n-1)
+ .
+ .
+ .
+ 4n-1) (n-2)(4n-1)
+ 4n)   (n-2)(4n)+(4n-1)
+ .
+ .
+ .
+ 
+ and the limit ordinals we're running into now (and we're going to
+ run into about n of them, which is a lot), are
+ 
+ 2n-1)      (n-1)(2n-1)
+ 4n-1)      (n-2)(4n-1)
+ 8n-1)      (n-3)(8n-1)
+ .
+ .
+ .
+ n2^s-1)    (n-s)(n2^s - 1)
+ .
+ .
+ .
+ 
+ and finally when s = n-1
+ 
+ m)           m
+ 
+ where m = n 2^{n-1} - 1.  The sequence now looks like
+ 
+ m+1) (m+1)-1 = m  
+ m+2)  m-1        
+ m+3)  m-2
+ .
+ .
+ .
+ 2m+1) 0
+ 
+ So the sequence becomes zero at base n2^n - 1, where n = 24 * 2^24.
+ If 2^2 is the first term in the sequence, I guess this is
+ the (n2^n - 2)th term.  I make this about 6.9*10^{121210694} -
+ curses, you got something else!  Actually, I have about the square
+ of what you wrote and hence I have most likely made a slip.  On the 
+ other hand you can see that it's not a mystery at all, it's just an
+ elementary exercise.  It really helps you learn about why the 
+ countable ordinals are well-ordered too: as you continue working
+ out the numbers, you always have this impending sense of doom 
+ telling you that your gut feeling that the sequence tends to 
+ infinity might just be wrong...
+
+ Kevin
+</PRE>
+
+So, in simple terms, the 4th Goodstein sequence starts out by 
+shooting up faster and faster, reaching almost n<sup>2</sup> 
+by the nth term, where 
+
+<P>
+n = 24 &middot; 2<sup>24</sup> = 402653184.
+
+<P>
+By the (2n)th term it reaches almost 2n<sup>2</sup>.  
+
+<P>
+Then it grows by steps of n-2, and 
+by the (4n)th term it reaches almost 4n<sup>2</sup>.
+
+<P>
+Then it grows by steps of n-3, and
+by the (8n)th term it reaches almost 8n<sup>2</sup>.
+
+<P>
+And so on... it's slowing down now.
+
+<P>
+After about the (2<sup>n-2</sup>n)th term it levels off completely,
+and by the (2<sup>n-1</sup>n)th term it equals almost 2<sup>n-1</sup>n. 
+Note these numbers are the same.
+
+<P>
+From this point on the sequence decreases by one each time, and it 
+hits zero at about the (2<sup>n</sup> n)th term.
+
+<P>
+So, it spends the last half of its life decreasing by one each
+time.  Right before that, it spends a quarter of its life remaining
+constant.  Right before that, it spends an eighth of its life growing
+by one each time.  Right before that it, it spends a sixteenth of its
+life growning by two each time.  And so on, but not indefinitely:
+this description covers the phase after the nth term.
+
+<P>
+In particular, it reaches its maximum and then levels off after about 
+quarter of its life is done.  It spends about the next quarter of its
+life being constant, and the next half going down one step at a time.
+<P>
+
+Let's be a bit more precise.  For this let's call the ith term of 
+the 4th Goodstein sequence a<sub>i</sub>, where we count things so that
+
+<PRE>
+a<sub>1</sub> = 4, a<sub>2</sub> = 26, ...
+</PRE>
+
+<P>
+Then a<sub>i</sub> first reaches its maximum value at exactly 
+
+<PRE>
+i = (1/4) 24 2<sup>24</sup> 2<sup>(24 2<sup>24</sup>)</sup> - 2 
+
+  ~  1.72 &times; 10<sup>121210694</sup>
+</PRE>
+
+<P>
+Its value at this point is exactly 
+
+<PRE>
+a<sub>i</sub> = (1/2) 24 2<sup>24</sup> 2<sup>(24 2<sup>24</sup>)</sup> - 1
+
+  ~  3.45 &times; 10<sup>121210694</sup>
+</PRE>
+
+It then stays constant for about twice as many more terms, and 
+then goes to zero one step at a time, hitting zero precisely when
+
+<PRE>
+i = 24 2<sup>24</sup> 2<sup>(24 2<sup>24</sup>)</sup> - 2
+  
+  ~ 6.89 &times; 10<sup>121210694</sup>
+</PRE>
+
+Believe me, it's a lot more fun to figure this stuff out than to
+read it.  
+
+<P>
+I was worried that Kevin and I had made a mistake until we found
+this thesis which gets the same answer (though the author starts the
+sequence at a<sub>0</sub> = 4, so it looks one off from ours):
+
+<P>
+27) Justin T. Miller, On the Independence of Goodstein's Theorem,
+Masters thesis, University of Arizona, 2001.  Also available as 
+<A HREF = "http://www.u.arizona.edu/~miller/thesis/thesis.html">http://www.u.arizona.edu/~miller/thesis/thesis.html</A>
+
+<P>
+Tim Chow had some comments about why the Feferman-Sch&uuml;tte ordinal 
+is considered the first &quot;impredicative&quot; ordinal.  He wrote:
+
+<blockquote>
+ John Baez wrote:
+<PRE>
+ >Logicians including Feferman and Sch&uuml;tte have carried out a detailed 
+ >analysis of this subject.  They know a lot about how much induction 
+ >up to different ordinals buys you.  And apparently, induction up to 
+ >&Gamma;<sub>0</sub> lets us prove the consistency of a system called &quot;predicative
+ >analysis&quot;.  I don't understand this, nor do I understand the claim
+ >I've seen that &Gamma;<sub>0</sub> is the first ordinal that cannot be defined
+ >predicatively - i.e., can't be defined without reference to itself.  
+ >Sure, saying &Gamma;<sub>0</sub> is the first solution of
+ >
+ >&phi;<sub>x</sub>(0) = x
+ >
+ >is non-predicative.  But what about saying that &Gamma;<sub>0</sub> is the union 
+ >of all ordinals in the Veblen hierarchy?  What's non-predicative
+ >about that?
+</PRE>
+
+ The situation is somewhat akin to the situation with the
+ Church-Turing thesis, in that one is tentatively equating an informal
+ notion (predicativity or computability) with a precise mathematical
+ notion.  Therefore there is no definitive answer to your question,
+ and Feferman himself has articulated potential objections to the
+ &quot;standard view&quot; that &Gamma;<sub>0</sub> marks the boundary
+ of predicativity.
+ 
+<P>
+ Having said that, I'll also say that one of the reasons for the
+ standard view is that &Gamma;<sub>0</sub> marks the boundary of
+ &quot;autonomous progressions&quot; of arithmetical theories.  The
+ book by Torkel Franzen that you cited is probably the most accessible
+ introduction to this subject.  Roughly speaking, the idea is that if
+ anyone fully accepts first-order Peano arithmetic PA, then implicitly
+ he accepts its consistency Con(PA), as well as Con(PA+Con(PA)), etc.
+ If one tries to articulate exactly what is &quot;implicitly&quot;
+ involved in accepting PA in this sense, then one can make a
+ plausibility argument that &Gamma;<sub>0</sub> is a natural stopping
+ point.  I think you have a better shot at grasping the underlying
+ intuition via this approach than by staring at &Gamma;<sub>0</sub>
+ itself and trying to figure out what is non-predicative about its
+ definition.
+</blockquote>
+
+I replied asking if &quot;etc.&quot; means there's one theory like this
+per ordinal.  I also asked for more clues about this &quot;plausibility
+argument&quot;, and noted:
+
+<blockquote>
+ There's also someone named Nik Weaver who has debated Feferman
+ on this subject:
+<P>
+ <a href = "http://www.cs.nyu.edu/pipermail/fom/2006-April/010472.html">http://www.cs.nyu.edu/pipermail/fom/2006-April/010472.html</A> <br>
+ <a href = "http://www.math.wustl.edu/~nweaver/conceptualism.html">http://www.math.wustl.edu/~nweaver/conceptualism.html</a>
+
+<P>
+ He seems to claim that &Gamma;<sub>0</sub> 
+ and even larger ordinals have predicative
+ definitions.  However, I'm too ignorant to follow this debate.
+ Usually in physics I have a sense for when people are being reasonable
+ even if I don't follow the details.  In this debate I can't even
+ do that.
+</blockquote>
+
+Tim Chow replied:
+
+<blockquote>
+ Let's look more closely at what the notion of &quot;one theory like
+ this per ordinal&quot; means.  There's no difficulty figuring out
+ what &quot;Con(PA)&quot; means or how to express that statement in
+ the first-order language of arithmetic.  Ditto with
+ &quot;Con(PA+Con(PA))&quot;.  However, once you start ascending the
+ ordinal hierarchy, a difficulty appears.  The language of arithmetic
+ doesn't let you talk about &quot;ordinals&quot; directly---that's a
+ set-theoretical concept.  In order to express a statement like
+ &quot;Con(T)&quot; for some theory T, you need at minimum to be able
+ to give some sort of &quot;recursive description&quot; or
+ &quot;recursive axiomatization&quot; of T (where here I use the word
+ &quot;recursive&quot; in the technical sense of recursive function
+ theory) in the first-order language of arithmetic.  This observation
+ already yields the intuition that we're not going to be able to
+ ascend beyond the Church-Kleene ordinal, because we won't even be
+ able to figure out how to <em>say</em> &quot;T is consistent&quot; for a
+ theory T that requires that many iterations to reach from PA.
+
+<P>
+ There are other problems, though, that potentially get in the way before
+ we reach the Church-Kleene ordinal.  Once we realize that what we need is
+ a system of &quot;ordinal notations&quot; to &quot;fake&quot; the relevant set theory, we may
+ (if we are predicativists) worry about issues such as:
+ 
+<P>
+ 1. As we ascend the ordinal hierarchy, isn't it illegitimate to make a 
+ jump to an ordinal &alpha; unless we've already proved, at the level of some
+ ordinal &beta; that we've already reached, that an ordinal of type &alpha;
+ exists?
+
+<P>
+ 2. And isn't it illegitimate to create sets by quantification over things
+ other than the natural numbers themselves and sets that we've already
+ created?
+
+<P>
+ Condition 1 goes by the name of &quot;autonomy&quot; and condition 2
+ goes by the name of &quot;ramification.&quot; If one formalizes these
+ notions in a certain plausible manner, then one arrives at
+ &Gamma;<sub>0</sub> as the least upper bound of theories that you can
+ get to, starting with (for example) PA.
+
+<P>
+ One can of course wonder whether 1 and 2 above really capture the
+ concept of &quot;predicativity.&quot; Some secondary evidence has
+ accumulated of the following form: Some argument that intuitively
+ seems to be predicative but that is not immediately seen to be
+ provable in the Feferman-Sch&uuml;tte framework is shown, after some
+ work, to indeed be provable below &Gamma;<sub>0</sub>.
+ 
+<P>
+ It's still possible, of course, for someone---you mentioned Nik Weaver---
+ to come along and argue that our intuitive notion of predicativism, fuzzy
+ though it is, can't possibly be identified with the level &Gamma;<sub>0</sub>.  The
+ reason you can't seem to decide immediately whether Weaver's position is
+ nonsensical or not is probably because the critical questions are not
+ mathematical but philosophical, and of course it's usually harder to 
+ arrive at definitive answers in philosophy than in mathematics.
+</blockquote>
+
+Finally, let me record a number of papers that treat notations for
+ordinals above the Feferman-Sch&uuml;tte ordinal.  In the discussion
+of this Week's Finds on sci.math.research, Dave Renfro pointed out a 
+really nice readable paper on large countable ordinals which goes
+far beyond what I discussed:
+
+<P>
+28) Hilbert Levitz, Transfinite ordinals and their notations: For
+the uninitiated, available at <A HREF = "http://www.cs.fsu.edu/~levitz/research.html">http://www.cs.fsu.edu/~levitz/research.html</A>
+
+<P>
+This paper
+introduced the &quot;Sch&uuml;tte Klammersymbole&quot;, which generalize
+the Veblen hierarchy:
+
+<P>
+29) Kurt Sch&uuml;tte, Kennzeichnung von Orgnungszahlen durch rekursiv
+erkl&auml;rte Funktionen, Math. Ann 127 (1954), 15-32.
+
+<P>
+These papers discuss a general concept of &quot;ordinal notation system&quot;,
+which includes the Sch&uuml;tte Klammersymbole and also something
+called the &quot;n-ary Veblen hierarchy&quot;:
+ 
+<P>
+30) Anton Setzer, An introduction to well-ordering proofs in Martin-L&ouml;f's type theory, in Twenty-Five Years of Constructive Type Theory, 
+eds. G. Sambin and J. Smith, Clarendon Press, Oxford, 1998, pp. 245-263.
+Also available at <A HREF = "http://www.cs.swan.ac.uk/~csetzer/index.html">http://www.cs.swan.ac.uk/~csetzer/index.html</A>
+ 
+<P>
+Anton Setzer, Ordinal systems, in Sets and Proofs, Cambridge U. Press, 
+Cambridge, 2011, pp. 301-331.  Also available at 
+<A HREF = "http://www.cs.swan.ac.uk/~csetzer/index.html">http://www.cs.swan.ac.uk/~csetzer/index.html</A>
+
+<P>
+This paper has a nice expository section on generalizations of the
+Veblen hierarchy:
+
+<P>
+31) Jean H. Gallier, What's so special about Kruskal's theorem and
+the ordinal &Gamma;<sub>0</sub>?  A survey of some results in proof theory, 
+sec. 7, A glimpse at Veblen hierarchies, Ann. Pure Appl. Logic 53
+(1991), 199-260.  Also available at 
+<A HREF = "http://www.cis.upenn.edu/~jean/gallier-old-pubs.html">http://www.cis.upenn.edu/~jean/gallier-old-pubs.html</A>
+
+<P>
+This paper is very useful, since it compares different notations:
+
+<P>
+32) Larry W. Miller, Normal functions and constructive ordinal notations,
+J. Symb. Log. 41 (1976), 439-459.
+
+<P>
+You can get it through JSTOR if you have access to that.  
+
+<P>
+This webpage gives a nice definition of &quot;ordinal notation system&quot;
+as a coalgebra of a certain functor - nice if you understand categories,
+that is:
+
+<P>
+33) Peter Hancock, Ordinal notation systems,
+<A HREF = "http://homepages.inf.ed.ac.uk/v1phanc1/ordinal-notations.html">http://homepages.inf.ed.ac.uk/v1phanc1/ordinal-notations.html</A>
+
+<P>
+Kevin Watkins pointed out this website, which contains several
+papers on ordinal notations:
+
+<P>
+34) Harold Simmons, Abstracts of papers and notes,
+<A HREF = "http://www.cs.man.ac.uk/~hsimmons/DOCUMENTS/papersandnotes.html">http://www.cs.man.ac.uk/~hsimmons/DOCUMENTS/papersandnotes.html</A>
+
+<P>
+Finally, the Wikipedia article on &quot;large countable ordinals&quot; has 
+some references to books which are, alas, out of print.  
+
+<P>
+<HR>
+<em>
+Said Conrad Cornelius O'Donald O'Dell, <br>
+My very young friend who is learning to spell, <br>
+&quot;The A is for Ape. And the B is for Bear. <br>
+The C is for Camel. The H is for Hare. <br>
+The M is for Mouse. And the R is for Rat. <br>
+I know all the twenty-six letters like that... <br>
+... through to Z is for Zebra. I know them all well. <br>
+So now I know everything anyone knows <br>
+From beginning to end. From the start to the close. <br>
+Because Z is as far as the alphabet goes.&quot; <br>
+
+<p>
+Then he almost fell flat on his face on the floor <br>
+When I picked up the chalk and drew one letter more! <br>
+A letter he never had dreamed of before! <br>
+And I said, &quot;You can stop, if you want, with the Z <br>
+Because most people stop with the Z <br>
+But not me! <br>
+In the places I go there are things that I see <br>
+That I never could spell if I stopped with the Z. <br>
+I'm telling you this 'cause you're one of my friends. <br>
+My alphabet starts where your alphabet ends!&quot; </em> - Doctor Seuss
+
+
+<P>
+<HR><P>
+<!-- BEGIN FOOTER -->
+&#169; 2006  John Baez<br>
+baez@math.removethis.ucr.andthis.edu <br>
+<P>
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week235.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week237.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE><!-- END FOOTER -->

@@ -1,0 +1,351 @@
+<TITLE> week71 </TITLE>
+
+<!-- BEGIN HEADER -->
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week70.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week72.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE>
+<H4> December 3, 1995 </H4>
+<H2> This Week's Finds in Mathematical Physics (Week 71) </H2>
+<H4> John Baez </H4>
+<!-- END HEADER -->
+
+
+
+<P>
+This week I will get back to mathematical physics... but before I do, I
+can't resist adding that in my talk in that conference I announced that
+James Dolan and I had come up with a definition of weak n-categories.
+(For what these are supposed to be, and what they have to do with
+physics, see &quot;<A HREF = "week38.html">week38</A>&quot;, &quot;<A HREF = "week49.html">week49</A>&quot;, and &quot;<A HREF = "week53.html">week53</A>&quot;.)  John Power was at the
+talk, and before long his collaborator Ross Street sent me some email
+from Australia asking about the definition.  Gordon,
+Power, and Street have done a lot of work on n-categories - see
+&quot;<A HREF = "week29.html">week29</A>&quot;.  Now, Dolan and I have
+been struggling for several months to 
+put this definition onto paper in a reasonably elegant and
+comprehensible form, so Street's request was a good excuse to get
+something done quickly...  sacrificing comprehensibility for terseness.
+The result can be found in
+
+<P>
+1) John Baez and James Dolan, n-Categories, sketch of a definition, 
+<A HREF = "http://math.ucr.edu/home/baez/ncat.def.html">http://math.ucr.edu/home/baez/ncat.def.html</A>
+
+<P>
+A more readable version will appear as a paper fairly soon.  I should
+add that this will eventually be part of Dolan's thesis, and he has
+done most of the hard work on it; my role has largely been to push him
+along and get him to explain everything to me.
+
+<P>
+On to some physics...
+
+<P>
+First, it's amusing to note that Maxwell's equations are back in
+fashion!  In the following papers you will see how the duality
+symmetry of Maxwell's equations (the symmetry between electric and
+magnetic fields) plays a new role in modern work on 4-dimensional gauge
+theory.  Also, there is some good stuff in Thompson's review article
+about the Seiberg-Witten theory, which is basically just a U(1) gauge
+theory like Maxwell's equations... but with some important extra twists!
+
+<P>
+2) Erik Verlinde, Global aspects of electric-magnetic duality, Nuc.
+Phys.  B455 (1995), 211-225, available as
+<A HREF = "http://arxiv.org/abs/hep-th/9506011">arXiv:hep-th/9506011</A>.
+
+<P>
+George Thompson, New results in topological field theory and abelian
+gauge theory, 64 pages, available as
+<A HREF = "http://arxiv.org/abs/hep-th/9511038">arXiv:hep-th/9511038</A>.
+
+
+<P>
+Next, it's nice to see that work on the loop representation of quantum
+gravity continues apace:
+
+<P>
+3) Thomas Thiemann, An account of transforms on (A/G)^bar, available
+as <A HREF = "http://arxiv.org/abs/gr-qc/9511049">arXiv:gr-qc/9511049</A>.
+
+<P>
+Thomas Thiemann, Reality conditions inducing transforms for quantum
+gauge field theory and quantum gravity, available 
+as <A HREF = "http://arxiv.org/abs/gr-qc/9511057">arXiv:gr-qc/9511057</A>.  
+
+<P>
+Abhay Ashtekar, A generalized Wick transform for gravity, 
+available as <A HREF =
+"http://arxiv.org/abs/gr-qc/9511083">arXiv:gr-qc/9511083</A>.
+
+<P>
+Renate Loll, Making quantum gravity calculable, preprint available in
+LaTeX form as <A HREF =
+"http://arxiv.org/abs/gr-qc/9511080">arXiv:gr-qc/9511080</A>.
+
+<P>
+Rodolfo Gambini and Jorge Pullin, A rigorous solution of the quantum
+Einstein equations, available as <A HREF =
+"http://arxiv.org/abs/gr-qc/9511042">arXiv:gr-qc/9511042</A>.
+
+<P>
+The first three papers here discuss some new work tackling the
+&quot;reality conditions&quot; and &quot;Hamiltonian constraint&quot;,
+two of the toughest issues in the loop representation of quantum
+gravity.  First, the Hamiltonian constraint is another name for the
+Wheeler-DeWitt equation
+
+<P>
+                       H &psi; = 0
+ 
+<P>
+that every physical state of quantum gravity must satisfy (see
+&quot;<A HREF = "week11.html">week11</A>&quot; for why).  The
+&quot;reality conditions&quot; have to do with the fact that this
+constraint looks different depending on whether we are working with
+Riemannian or Lorentzian quantum gravity.  The constraint is simpler
+when we work with Riemannian quantum gravity.  Classically, in
+<em>Riemannian</em> gravity the metric on spacetime looks like
+ 
+<P>
+                dt<sup>2</sup> + dx<sup>2</sup> + dy<sup>2</sup> + dz<sup>2</sup> 
+
+<P>
+at any point, if we use suitable local coordinates.  In this Riemannian
+world, time is no different from space!  In the real world, the world of
+<em>Lorentzian</em> gravity, the metric looks like
+    
+<P>
+                -dt<sup>2</sup> + dx<sup>2</sup> + dy<sup>2</sup> + dz<sup>2</sup>
+
+<P>
+at any point, in suitable coordinates.  Folks often call the
+Riemannian world the world of &quot;imaginary time&quot;, since in
+some vague sense we can get from the Lorentzian world to the
+Riemannian world by making the transformation
+
+<P>
+                         t &rarr; it,
+
+<P>
+called a &quot;Wick transform&quot;.  It looks simple the way I have
+just written it, in local coordinates.  But a priori it's far from
+clear that this Wick transform makes any sense globally.  Apparently,
+however, there is something we can do along these lines, which
+transforms the Hamiltonian for Lorentzian quantum gravity to the
+better-understood one of Riemannian quantum gravity!  Alas, I have
+been too distracted by n-categories to keep up with the latest work on
+this, but I'll catch up in a bit.  Maybe over Christmas I can relax a
+bit, lounge in front of a nice warm fire, and read these papers.
+
+<P>
+The goal of all these machinations, of course, is to find some
+equations that make mathematical sense, have a good right to be called
+a &quot;quantized version of Einstein's equation&quot;, and let one
+compute answers to some physics problems.  We don't expect that
+quantum gravity is enough to describe what's really going on in
+interesting problems...  there are lots of other forces and particles
+out there.  Indeed, string theory is founded on the premise that
+quantum gravity is completely inseparable from the quantum theories of
+everything else.  But here we are taking a different tack, treating
+quantum gravity by itself in as simple a way as possible, expecting
+that the predictions of theory will be <em>qualitatively</em> of great
+interest even if they are quantitatively inaccurate.
+
+<P>
+As described in earlier Finds (&quot;<A HREF = "week55.html">week55</A>&quot;, &quot;<A HREF = "week68.html">week68</A>&quot;), Loll has been
+working to make quantum gravity &quot;calculable&quot;, by working on a
+discretized version of the theory called lattice quantum gravity.
+If one does it carefully, it's not too bad to treat space as a lattice
+in the loop representation of quantum gravity, because even in the
+continuum the theory is discrete in a certain sense, since the states
+are described by &quot;spin networks&quot;, certain graphs embedded in space.
+(See &quot;<A HREF = "week43.html">week43</A>&quot; for more on these.)  Her latest paper is an introduction
+to some of these issues.  
+
+<P>
+In a somewhat different vein, Gambini and Pullin have been working on
+relating the loop representation to knot theory.  One of their most
+intriguing results is that the second coefficient of the
+Alexander-Conway knot polynomial is a solution of the Hamiltonian
+constraint.  Here they argue for this result using a lattice
+regularization of the theory.
+
+<P>
+Now let me turn to a variety of other matters...
+
+<P>
+4) Matt Greenwood and Xiao-Song Lin, On Vassiliev knot invariants induced
+from finite type, available as
+<A HREF = "http://arxiv.org/abs/q-alg/9506001">arXiv:q-alg/9506001</A>.
+
+<P>
+Lev Rozansky, On finite type invariants of links and rational homology
+spheres derived from the Jones polynomial and Witten-
+Reshetikhin-Turaev invariant, available as <A HREF =
+"http://arxiv.org/abs/q-alg/9511025">arXiv:q-alg/9511025</A>.
+
+<P>
+Scott Axelrod, Overview and warmup example for perturbation theory with
+instantons, available as 
+<A HREF = "http://arxiv.org/abs/hep-th/9511196">arXiv:hep-th/9511196</A>.  
+
+<P>
+These papers all deal with perturbative Chern-Simons theory and its
+spinoffs.  The first two consider homology 3-spheres.  In Chern-Simons
+theory, this makes the moduli space of flat SU(2) connections trivial,
+thus eliminating some subtleties in the perturbation theory.  A homology
+3-sphere is a 3-manifold whose homology is the same as that of the
+3-sphere... the first one was discovered by Poincare when he was
+studying his conjecture that every 3-manifold with the homology of a
+3-sphere is a 3-sphere. It turns out that you can get a counterexample
+if you just take an ordinary 3-sphere, cut out a solid torus embedded in
+the shape of a trefoil knot, and stick it back in with the meridian and
+longitude (the short way around, and the long way around) switched ---
+making sure they wind up pointing in the correct directions.  This is
+called &quot;doing Dehn surgery on the trefoil&quot;.  It gives something
+with the homology of a 3-sphere that's not a 3-sphere.  So Poincare had
+to revise his conjecture to say that every 3-manifold <em>homotopic</em> to a
+3-sphere is (homeomorphic to) a 3-sphere.  This improved &quot;Poincare
+conjecture&quot; remains unsolved... its analog is known to be true in every
+dimension other than 3!  Since every possible counterexample to the
+Poincare conjecture is a homology 3-sphere, it makes some sense to ponder
+these manifolds carefully.
+
+<P> 
+Now, just as perturbative Chern-Simons theory gives certain special
+invariants of links, said to be of &quot;finite type&quot;, the same is
+true for homology 3-spheres.  When we say a link invariants is of finite
+type, all we mean is that it satisfies a simple property described in
+&quot;<A HREF = "week3.html">week3</A>&quot;.  There is a similar but
+subtler definition for an invariant of homology 3-spheres to be of
+finite type; they need to transform in a nice way under Dehn surgery.
+(See &quot;<A HREF = "week60.html">week60</A>&quot; for more references.)
+
+<P>
+The second paper concentrates precisely on those subtleties due to the
+moduli space of flat connections, developing perturbation theory in the
+presence of &quot;instantons&quot; (here, nontrivial flat connections).  
+
+<P>
+5) Alan Carey, Jouko Mickelsson, and Michael Murray, Index theory,
+gerbes, and Hamiltonian quantization, available as <A HREF =
+"http://arxiv.org/abs/hep-th/9511151">arXiv:hep-th/9511151</A>.
+
+<P>
+Alan Carey, M. K. Murray and B. L. Wang, Higher bundle gerbes and
+cohomology classes in gauge theories, available as
+<A HREF = "http://arxiv.org/abs/hep-th/9511169">arXiv:hep-th/9511169</A>
+
+
+<P>
+Higher-dimensional algebra is sneaking into physics in yet another way:
+gerbs!  What's a gerb?  Roughly speaking, it's a sheaf of groupoids, but
+there are some other ways of thinking of them that come in handy in
+physics.  See &quot;<A HREF = "week25.html">week25</A>&quot; for a
+review of Brylinski's excellent book on gerbs, and also:
+
+
+<P>
+6) Jean-Luc Brylinski, Holomorphic gerbes and the Beilinson regulator,
+in Proc. Int. Conf. on K-Theory (Strasbourg, 1992), to appear in
+Asterisque.  
+
+<P>
+Jean-Luc Brylinski, The geometry of degree-four characteristic classes
+and of line bundles on loop spaces I, Duke Math. Jour. 75 (1994),
+603-638.  
+
+<P>
+Jean-Luc Brylinski, Cech cocyles for characteristic classes, J.-L.
+Brylinski and D. A. McLaughlin.
+
+<P>
+7) Joe Polchinski, Recent results in string duality, available
+as <A HREF = "http://arxiv.org/abs/hep-th/9511157">arXiv:hep-th/9511157</A>.
+
+<P>
+This should help folks keep up with the ongoing burst of work on
+dualities relating superficially different string theories. 
+
+
+<P>
+8)  Leonard Susskind and John Uglum, String physics and black holes, 
+available as <A HREF = "http://arxiv.org/abs/hep-th/9511227">arXiv:hep-th/9511227</A>.
+
+<P>
+Among other things, this review discusses 
+the &quot;holographic hypothesis&quot; 
+mentioned in &quot;<A HREF = "week57.html">week57</A>&quot;:
+
+<P>
+9) Boguslaw Broda, A gauge-field approach to 3- and 4-manifold
+invariants, available in TeX form as <A HREF = "http://arxiv.org/abs/q-alg/9511010">arXiv:q-alg/9511010</A>.  
+
+<P>
+This summarizes the Reshetikhin-Turaev construction of 3d topological
+quantum field theories from quantum groups, and Broda's own closely
+related approach to 4d topological quantum field theories.  
+
+<P>
+10) John Baez and Martin Neuchl, Higher-dimensional algebra I: braided
+monoidal 2-categories, available as <A HREF =
+"http://arxiv.org/abs/q-alg/9511013">arXiv:q-alg/9511013</A>.
+
+<P>
+In this paper, we begin with a brief sketch of what is known and
+conjectured concerning 
+braided monoidal 2-categories and their applications to 4d topological
+quantum field theories and 2-tangles (surfaces embedded in 4-dimensional
+space).  Then we give concise definitions of semistrict monoidal
+2-categories and braided monoidal 2-categories, and show how these may
+be unpacked to give long explicit definitions similar to, but not quite
+the same as, those given by Kapranov and Voevodsky.  Finally, we describe
+how to construct a semistrict braided monoidal 2-category Z(C) as the
+`center' of a semistrict monoidal category C.  This is analogous to the
+construction of a braided monoidal category as the center, or `quantum
+double', of a monoidal category.  The idea is to develop algebra that
+will do for 4-dimensional topology what quantum groups and braided
+monoidal categories did for 3d topology.  As a corollary of the center
+construction, we prove a strictification theorem for braided monoidal
+2-categories.   
+
+<P>
+<HR><P>
+<!-- BEGIN FOOTER -->
+&#169; 1995  John Baez<br>
+baez@math.removethis.ucr.andthis.edu <br>
+<P>
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week70.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week72.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE><!-- END FOOTER -->

@@ -1,0 +1,801 @@
+<TITLE> week244 </TITLE>
+
+<!-- BEGIN HEADER -->
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week243.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week245.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE>
+<H4> February 2, 2007 </H4>
+<H2> This Week's Finds in Mathematical Physics (Week 244) </H2>
+<H4> John Baez </H4>
+<!-- END HEADER -->
+
+
+<P>
+In January I spent a week at this workshop at the Fields Institute
+in Toronto:
+
+<P>
+1) Higher Categories and Their Applications, <a href =
+"http://math.ucr.edu/home/baez/fields/">http://math.ucr.edu/home/baez/fields/</a>
+
+<P>
+It was really fun - lots of people working on n-categories were there.
+I'll talk about it next time.  But as usual, more happens at a fun
+conference than can possibly be reported.  So, this time I'll only
+talk about a conversation I had in a caf&eacute; before the conference
+started!
+
+<P>
+But first, here's a fun way to challenge your math pals:
+
+<P>
+Q: When the first calculus textbook was written - and in what 
+language?
+
+<P>
+A: In 1530, in Malayalam - a south Indian language!  
+
+<P>
+This book is called the <em>Ganita Yuktibhasa</em>, or
+&quot;compendium of astronomical rationales&quot;.  It was written by
+Jyesthadeva, an astronomer and mathematician from Kerala - a state on
+the southwest coast of India.  It summarizes and explains the work of
+many researchers of the Kerala school, which flourished from the
+1400's to the 1600's.  But it's unique for its time, since it contains
+proofs of many results.
+
+<P>
+For example, it has a proof that
+
+<P>
+&pi;/4 = 1 - 1/3 + 1/5 - 1/7 + 1/9 - ...
+
+<P>
+Of course, this result isn't stated in modern notation!  It's
+actually stated as a poem - a recipe for the circumference of 
+a circle, which in translation goes something like this:
+
+<blockquote>
+ <em>Multiply the diameter by four.  Subtract from it and add to it
+ alternately the quotients obtained by dividing four times the 
+ diameter by the odd numbers 3, 5, etc.</em>
+</blockquote>
+
+The proof sounds nice!  Jyesthadeva starts with something like this:
+
+<P>
+&pi;/4 = lim<sub>N &rarr; &infin;</sub> (1/N) &sum;<sub>n=1</sub><sup>N</sup> 1/(1 + (n/N)<sup>2</sup>)
+
+<P>
+In modern terms, the right-hand side is just the integral
+
+<P>
+&int;<sub>0</sub><sup>1</sup> dx/(1 + x<sup>2</sup>) 
+ 
+<P>
+You can use geometry to see this equals &pi;/4.  Then, as far as 
+I can tell, he writes
+
+<P>
+1/(1 + (n/N)<sup>2</sup>) = 1 - (n/N)<sup>2</sup> + (n/N)<sup>4</sup> - ...
+
+<P>
+and notes that 
+
+<P>
+1<sup>k</sup> + 2<sup>k</sup> + ... + N<sup>k</sup> ~ N<sup>k+1</sup>/(k+1)
+
+<P>
+for large N.  This gives
+
+<P>
+&pi;/4 = 1 - 1/3 + 1/5 - 1/7 + ...
+
+<P>
+Voila!
+
+<P>
+In fact, this result goes back to Madhava, an amazing mathematician 
+from Kerala who lived much earlier, from 1350 to 1425.  What's even
+more impressive is that Madhava also knew a formula equivalent to the
+more general result
+
+<P>
+arctan(x) = x - x<sup>3</sup>/3 + x<sup>5</sup>/5 - x<sup>7</sup>/7 + ...
+
+<P>
+He used this to compute &pi; to 11 decimal places!   
+
+<P>
+It's an interesting question whether any of the results of the
+Kerala school found their way west and influenced the development
+of mathematics in Europe.  There's been a lot of speculation, but
+nobody seems to know for sure.  For more info, try these:
+
+<P>
+2) The MacTutor History of Mathematics Archive, Madhava of 
+Sangamagramma, 
+<a href = "http://www-history.mcs.st-andrews.ac.uk/Biographies/Madhava.html">http://www-history.mcs.st-andrews.ac.uk/Biographies/Madhava.html</a>
+
+<P>
+3) The MacTutor History of Mathematics Archive, Jyesthadeva,
+<a href = "http://www-history.mcs.st-andrews.ac.uk/Biographies/Jyesthadeva.html">http://www-history.mcs.st-andrews.ac.uk/Biographies/Jyesthadeva.html</a>
+
+<P>
+4) Wikipedia, Yuktibhasa, 
+<a href = "http://en.wikipedia.org/wiki/Yuktibhasa">http://en.wikipedia.org/wiki/Yuktibhasa</a>
+
+<P>
+Before the conference started, I spent a nice morning talking with
+<a href = "fields/pictures/leinster_bloor_st.jpg">Tom Leinster</a> 
+in a caf&eacute; on Bloor Street.  There's nothing like talking
+about math in a nice warm caf&eacute; when it's cold outside!  At some 
+point my former grad student Toby Bartels showed up - he'd just taken a
+long Greyhound bus from Nebraska - and joined in the conversation.  
+
+We talked about this paper:
+
+<P>
+5) Tom Leinster, The Euler characteristic of a category, available as
+<a href =
+"http://arxiv.org/abs/math/0610260">math.CT/0610260</a>.
+
+<P>
+Everyone know how to measure the size of a set - by its number of
+elements, or &quot;cardinality&quot;.  But what's the size of a
+category?  That's the question this paper tackles!
+
+<P>
+Some categories are just sets in disguise: the &quot;discrete&quot;
+categories, whose only morphisms are identity morphisms.  We'd better
+define the size of such a category to be the cardinality of its set of
+objects.
+
+<P>
+For example, the category with just one object and its identity 
+morphism is called 1.  It looks sort of like this:
+
+<PRE>
+                          o 
+</PRE>
+where I've drawn the object but not its identity morphism.  Clearly,
+its size should be 1. 
+
+<P>
+We could also have a category with just two objects and their identity
+morphisms.  It looks like this:
+
+<PRE>
+                     o         o
+</PRE>
+and its size should be 2.
+
+<P>
+But what about this? 
+
+<PRE>
+                     o--&lt;---&gt;--o
+</PRE>
+
+Here we have a category with two objects and an invertible morphism 
+between them, which I've drawn as an arrow pointing both ways.   Again,
+I won't draw the identity morphisms.  
+
+<P>
+In other words, we have two objects that are <em>isomorphic</em> - and
+in a unique way.  How big should this category be?
+
+<P>
+Any mathematician worth her salt knows that having two things that are
+isomorphic in a unique way is just like having one: you can't do 
+anything more with them - or less.  So, the size of this category:
+
+<PRE>
+                     o--&lt;---&gt;--o
+</PRE>
+should equal the size of this one:
+
+<PRE>
+                          o 
+</PRE>
+namely, 1.   
+
+<P>
+More technically, we say these categories are &quot;equivalent&quot;.
+We'll demand that equivalent categories have the same size.
+This is a powerful principle.  If we didn't insist on this, 
+we'd be insane.
+
+<P>
+But what about this category:
+
+<PRE>
+                     o----&gt;----o
+</PRE>
+Now we have two objects and a morphism going just one way!  
+This is <em>not</em> equivalent to a discrete category, so we need 
+a new idea to define its size.  
+
+<P>
+If we were willing to make up new kinds of numbers, we could
+make up a new number for the size of this category.  But let's
+suppose that this is against the rules.  
+
+<P>
+There's a cute way to turn any category into a space, which I
+described in &quot;<A HREF = "week70.html">week70</A>&quot; - and in
+more detail in items J and K of &quot;<A HREF =
+"week117.html">week117</A>&quot;, back when I was giving a minicourse
+on homotopy theory.  If we do this to the category
+
+<PRE>
+                     o----&gt;----o
+</PRE>
+what do we get?  The unit interval, of course!   It's a pretty
+intuitive notion, at least in this example.  
+
+<P>
+We also get the unit interval if we turn this guy 
+
+<PRE>
+                     o--&lt;---&gt;--o
+</PRE>
+into a space.  So, even though these categories aren't equivalent,
+they give the same space.  So, let's declare that they have the 
+same size - namely, 1.
+
+<P>
+In fact, let's adopt this as a new principle!   We'll demand that 
+two categories have the same size whenever they give the same space.
+
+<P>
+Whenever categories are equivalent, they give the same space (where
+&quot;the same&quot; means &quot;homotopy equivalent&quot;).  So, our
+new principle includes our previous principle as a special case.  But,
+we can say more.  If you like adjoint functors, you'll enjoy this:
+whenever there's a pair of adjoint functors going between two
+categories, they give the same space.  For example, these categories
+
+<PRE>
+                     o----&gt;----o
+</PRE>
+and
+
+<PRE>
+                     o--&lt;---&gt;--o
+</PRE>
+aren't equivalent, but there's a pair of adjoint functors going between 
+them.  (If you don't like adjoint functors, oh well - just ignore this.)
+
+<P>
+Next, what's the size of this category?
+
+<PRE>
+                     ----&gt;---- 
+                    /         \
+                   o           o
+                    \         /
+                     ----&gt;----
+</PRE>
+This is my feeble attempt to draw a category with two objects, and two 
+morphisms going from the first object to the second.
+
+<P>
+If we turn this category into the space, what do we get?  The circle,
+of course!  But what's the &quot;size&quot;, or
+&quot;cardinality&quot;, of a circle?
+
+<P>
+That's a tricky puzzle, because it's hard to know what counts as a
+right answer.  It turns out the right answer is zero.  Why?  Because
+the &quot;Euler characteristic&quot; of the circle is zero!
+
+<P>
+As you may know, Euler lived in K&ouml;nigsberg, a city with lots of
+islands and bridges:
+
+<p>
+<div align = center>
+<a href = "http://www.matheory.info/konigsberg/">
+<img style="border:none;" src = "bridges_of_konigsberg.png" alt = ""/>
+</a>
+</div>
+<p>
+
+In fact, he published a paper in 1736 showing
+that you can't walk around K&ouml;nigsberg and cross each bridge
+exactly once, winding up where you started.  
+My crazy theory is that
+living there also helped him invent the concept of Euler
+characteristic.  I have no evidence for this, except for this
+apocryphal story I just made up:
+
+<P>
+Once upon a time, Euler was strolling along one of the bridges of
+K&ouml;nigsberg.  He looked across the river, and noticed that workers
+were building a bridge to a small island that had previously been
+unconnected to the rest.  He noticed that this reduced the number of
+isolated islands by one.  Of course, anyone could have seen that!
+But in a burst of genius, Euler went further - he realized this meant
+a bridge was like a &quot;negative island&quot;.  And so, he invented
+the concept of &quot;Euler characteristic&quot;.  In its simplest
+form, it's just the number of islands minus the number of bridges.
+
+<P>
+For example, if you have two islands in the sea:
+
+<PRE>
+                     o         o
+</PRE>
+the land has Euler characteristic 2.
+
+<P>
+If you build a bridge:
+
+<PRE>
+                     o---------o
+</PRE>
+
+the land now has Euler characteristic 1.  This makes sense, because
+the land is now effectively just one island.  So, a bridge acts as a
+&quot;negative island&quot;!
+
+<P>
+But now, if you build a <em>second</em> bridge:
+
+<PRE>
+                     --------- 
+                    /         \
+                   o           o
+                    \         /
+                     ---------
+</PRE>
+the land has Euler characteristic 0.  This is sort of weird.  But, Euler
+saw it was a good idea.
+
+<P>
+To understand why, you have to go further and imagine building a
+&quot;bridge between bridges&quot; - filling in the space between the
+bridges with an enormous deck:
+
+<PRE>
+                     --------- 
+                    /xxxxxxxxx\
+                   oxxxxxxxxxxxo
+                    \xxxxxxxxx/
+                     ---------
+</PRE>
+
+This reduces the number of bridges by one.  We've effectively got one
+island again, though much bigger now.  So, we're back to having Euler
+characteristic 1.
+
+<P>
+In short, adding a &quot;bridge between bridges&quot; should add 1 to
+the Euler characteristic.  Just as a bridge counts as a negative
+island, a bridge between bridges counts as a negative bridge - or an
+island:
+
+<P>
+-(-1) = 1.  
+
+<P>
+It's all consistent, in its own weird way.
+
+<P>
+So, Euler defined the Euler characteristic to be 
+
+<P>
+V - E + F
+
+<P>
+where V is the number of islands (or &quot;vertices&quot;), E is the
+number of bridges (or &quot;edges&quot;) and F is the number of
+bridges between bridges (or &quot;faces&quot;).
+
+<P>
+At least that's how the story goes.  
+
+<P>
+By the way, you must have noticed that the number 1 looks like an
+interval, while the number 0 looks like a circle.  But did you notice
+that the Euler characteristic of the interval is 1, and the Euler 
+characteristic of the circle is 0?  I can never make up my mind whether
+this is a coincidence or not.  
+
+<P>
+Anyway, we can easily generalize the Euler characteristic to higher
+dimensions, and define it as an alternating sum.  And that turns out
+to be important for us now, because it turns out that often when we
+turn a category into a space, we get something higher-dimensional!
+
+<P>
+This shouldn't be obvious, since I haven't told you the rule for turning 
+a category into a space.  You might think we always get something 
+1-dimensional, built from vertices (objects) and edges (morphisms).  
+But the rule is more subtle.  Whenever we have 2 morphisms end to end, 
+like this:
+
+<PRE>
+                        f       g
+                    o---&gt;---o---&gt;---o
+                    X       Y       Z
+</PRE>
+
+we can compose them and get a morphism fg going all the way from x to
+z.  We should draw this morphism too... so the space we get is a
+<em>triangle</em>:
+
+<PRE>
+                            Y
+                            o
+                           /x\
+                        f /xxx\ g
+                         /xxxxx\
+                      X o-------o Z
+                           fg
+</PRE>
+I haven't drawn the arrows on my morphisms, due to technical limitations 
+of this medium.  More importantly, the triangle is filled with x's, just 
+like Euler's &quot;bridge between bridges&quot;, to show that it's 
+<em>solid</em>, not hollow.
+
+<P>
+Simlarly, when we have 3 morphisms laid end to end we get a tetrahedron,
+and so on.
+
+<P>
+Using these rules, it's not hard to find a category that gives a sphere, 
+or a torus, or an n-holed torus, when you turn it into a space.  I'll 
+leave that as a puzzle.  
+
+<P>
+
+In fact, for <em>any</em> manifold, you can find a category that gives
+you that manifold when you turn it into a space!  In fact we can get
+any space at all this way, up to "weak homotopy equivalence" -
+whatever that means.  So, let's adopt a new principle: whenever our
+category gives a space whose Euler characteristic is well-defined, we
+should define the size of our category to be that.
+
+<P>
+I say &quot;when it's well-defined&quot;, because it's also possible
+for a category - even one with just finitely many objects and
+morphisms - to give an infinite-dimensional space whose Euler
+characteristic is a divergent series:
+
+<P>
+n<sub>0</sub> - n<sub>1</sub> + n<sub>2</sub> - n<sub>3</sub> +
+n<sub>4</sub> - ...
+
+<P>
+Okay.  At this point it's time for me to say what Leinster actually
+did: he came up with a <em>formula</em> that you can use to compute
+the size of a category, without using any topology.  Sometimes it
+gives divergent answers - which is no shame: after all, some
+categories are infinitely big.  But when it converges, it satisfies
+all the principles I've mentioned.
+
+<P>
+Even better, it works for a lot of categories that give spaces whose
+Euler chacteristic diverges!  For example, we can take any group G and
+think of it as a category with one object, with the group elements as
+morphisms.  When we turn this category into a space, it becomes
+something famous called the &quot;classifying space&quot; of G.  This
+is often an infinite-dimensional monstrosity whose Euler
+characteristic diverges.  But, Leinster's formula still works - and it
+gives
+
+<P>
+1/|G|
+
+<P>
+the reciprocal of the usual cardinality of G.  
+
+<P>
+Now we're getting fractions!  
+
+<P>
+For example, suppose we take G to be the group with just 2 elements,
+called Z/2.  If we think of it as a category, and then turn that into
+a space, we get a huge thing usually called &quot;infinite-dimensional
+real projective space&quot;, or RP<sup>&infin;</sup> for short.  This
+is built from one vertex, one edge, one triangle, and so on.  So, if
+we try to work out its Euler characteristic, we get the divergent
+series
+
+<P>
+1 - 1 + 1 - 1 + 1 - ...
+
+<P>
+But, if we use Leinster's formula, we get 1/2.  And that's cute, because 
+once there were heated arguments about the value of 
+
+<P>
+1 - 1 + 1 - 1 + 1 - ...
+
+<P>
+Some mathematicians said it was 0:
+
+<P>
+(1 - 1) + (1 - 1) + (1 - 1) + ... = 0
+
+<P>
+while others said it was 1:
+
+<P>
+1 + (-1 + 1) + (-1 + 1) + (-1 + 1) + ... = 1
+
+<P>
+Some said &quot;it's divergent, so forget it!&quot; But others wisely
+compromised and said it equals 1/2.  This can be justified using
+&quot;Abel summation&quot;.
+
+<P>
+All this may seem weird - and it is; that's part of the fun.  But,
+Leinster's answer matches what you'd expect from the theory of
+&quot;homotopy cardinality&quot;:
+
+<P>
+6) John Baez, The mysteries of counting: Euler characteristic versus
+homotopy cardinality, <a href = "http://math.ucr.edu/home/baez/counting/">http://math.ucr.edu/home/baez/counting/</a>
+
+<P>
+This webpage has transparencies of a talk I gave on this, and lots of 
+links to papers that generalize the concepts of cardinality and Euler
+characteristic.  I'm obsessed with this topic.  It's really exciting 
+to think about new ways to extend the simplest concepts of math, like 
+counting.  
+
+<P>
+That's why I invented a way to compute the cardinality of a groupoid -
+a category where every morphism has an inverse, so all the morphisms
+describe &quot;symmetries&quot;.  The idea is that the more symmetries
+an object has, the smaller it is.  Applying this to the above example,
+where our category has one object, and this object has 2 symmetries,
+one gets 1/2.  If this seems strange, try the explanation in &quot;<A
+HREF = "week147.html">week147</A>&quot;.
+
+<P>
+Later James Dolan took this idea, generalized it to a large class 
+of spaces that don't necessarily come from groupoids, and called the
+result &quot;homotopy cardinality&quot;.  We wrote a paper about this.
+
+<P>
+What Leinster has done is generalize the idea in another direction: from 
+groupoids to categories.  The cool thing is that his generalization 
+matches the Euler characteristic of spaces coming from categories 
+(when that's well-defined, without divergent series) and the homotopy 
+cardinality of spaces coming from groupoids (when that's well-defined).
+
+<P>
+Of course he doesn't call his thing the &quot;size&quot; of a
+category; he calls it the &quot;Euler characteristic&quot; of a
+category.
+
+<P>
+Our conversation over coffee was mainly about me trying to understand
+the formula he used to define this Euler characteristic.  One thing I
+learned is that the &quot;category algebra&quot; idea plays a key role
+here.
+
+<P>
+It's a simple idea.  Given a category X, the category algebra C[X]
+consists of all formal complex linear combinations of morphisms in X.
+To define the multiplication in this algebra, it's enough to define
+the product fg whenever f and g are morphisms in our category.  If 
+the composite of f and g is defined, we just let fg be this composite.
+If it's not, we set fg = 0.  
+
+<P>
+Mathematicians seem to be most familiar with the category algebra idea 
+when our category happens to be a group (a category with one object, all 
+of whose morphisms are invertible).  Then it's called a &quot;group 
+algebra&quot;.
+
+<P>
+Category algebras are also pretty familiar when our category is a
+&quot;quiver&quot; (a category formed from a directed graph by freely
+throwing in formal composites of edges).  Then it's called a
+&quot;quiver algebra&quot;.  These are really cool - especially if our
+graph becomes a Dynkin diagram, like this:
+
+<PRE>
+             o
+             |
+ o--o--o--o--o--o--o
+</PRE>
+when we ignore the directions of the edges.  To see what I mean, try 
+item E in &quot;<A HREF = "week230.html">week230</A>&quot;, where I sketch how these quiver algebras are 
+related to quantum groups.  There's a lot more to say about this, but 
+not today!
+
+<P>
+In combinatorics, category algebras are familiar when our category is
+a &quot;partially ordered set&quot;, or &quot;poset&quot; for short (a category with at
+most one morphism from any given object to any other).  These category
+algebras are usually called &quot;incidence algebras&quot;.
+
+<P>
+In physics, Alain Connes has given a nice explanation of how
+Heisenberg invented &quot;matrix mechanics&quot; when he was trying to
+understand how atoms jump from one state to another, emitting and
+absorbing radiation.  In modern language, Heisenberg took a groupoid
+with n objects, each one isomorphic to each other in a unique way.  He
+called the objects &quot;states&quot; of a quantum system, and he
+called the morphisms &quot;transitions&quot;.  Then, he formed its
+category algebra.  The result is the algebra of n &times; n matrices!
+
+<P>
+(This might seem like a roundabout way to get to n &times; n matrices,
+but Heisenberg <em>didn't know about matrices</em> at this time.  They
+weren't part of the math curriculum for physicists back then!)
+
+<P>
+Connes has generalized the heck out of Heisenberg's idea, studying
+the &quot;groupoid algebras&quot; of various groupoids.
+
+<P>
+So, category algebras are all over the place.  But for some reason,
+few people study all these different kinds of category algebra in a
+unified way - or even <em>realize</em> they're all category algebras!
+I feel sort of sorry for this neglected concept.  That's one reason I
+was happy to see it plays a role in Leinster's definition of the Euler
+characteristic for categories.
+
+<P>
+Suppose our category X is finite.  Then, we can define an element of
+the category algebra C[X] which is just the sum of all the morphisms
+in X.  This is called &zeta;, or the &quot;zeta function&quot; of our
+category.  Sometimes &zeta; has an inverse, and then this inverse is
+called &mu;, or the &quot;M&ouml;bius function&quot; of our category.
+
+<P>
+Actually, these terms are widely used only when our category is a 
+poset, thanks to the work of Gian-Carlo Rota, who used these ideas 
+in combinatorics:
+
+<P>
+7) Gian-Carlo Rota, On the foundations of combinatorial theory I:
+Theory of M&ouml;bius Functions, Zeitschrift f&uuml;r
+Wahrscheinlichkeitstheorie und Verwandte Gebiete 2 (1964), 340-368.
+
+<P>
+If you want to know what these ideas are good for, check this out:
+
+<P>
+8) Wikipedia, Incidence algebra, 
+<a href = "http://en.wikipedia.org/wiki/Incidence_algebra">http://en.wikipedia.org/wiki/Incidence_algebra</a>
+
+<P>
+See the stuff about Euler characteristics in this article?  That's a 
+clue!  The relation to the Riemann zeta function and its inverse
+(the original &quot;M&ouml;bius function&quot;) are clearer here:
+
+<P>
+9) Wikipedia, M&ouml;bius inversion formula,
+<a href = "http://en.wikipedia.org/wiki/M%C3%B6bius_inversion_formula">http://en.wikipedia.org/wiki/M%C3%B6bius_inversion_formula</a>
+
+<P>
+These show up when we think of the whole numbers 1,2,3,... as a poset 
+ordered by divisibility.
+
+<P>
+Anyway, Leinster has wisely generalized this terminology to more
+general categories.  And when &zeta;<sup> -1</sup> = &mu; exists, it's
+really easy to define his Euler characteristic of the category X.  You
+just write &mu; as a linear combination of morphisms in your category,
+and sum all the coefficients in this linear combination!
+
+<P>
+Unfortunately, there are lots of important categories whose zeta
+function is not invertible: for example, any group other than the
+trivial group.  So, Leinster needs a somewhat more general definition
+to handle these cases.  I don't feel I deeply understand it, but I'll
+explain it, just for the record.
+
+<P>
+Besides the category algebra C[X], consisting of linear combinations
+of morphisms in X, there's also a vector space consisting of linear
+combinations of <em>objects</em> in X.  Heisenberg would probably call
+this &quot;the space of states&quot;, and call C[X] the &quot;algebra
+of observables&quot;, since that's what they were in his applications
+to quantum physics.  Let's do that.
+
+<P>
+The algebra of observables has an obvious left action on the vector 
+space of states, where a morphism f: x &rarr; y acts on x to give y, and 
+it acts on every other object to give 0.  In Heisenberg's example, 
+this is precisely how he let the algebra of observables act on states.
+
+<P>
+The algebra of observables also has an obvious <em>right</em> action
+on the vector space of states, where f: x &rarr; y acts on y to give
+x, and it acts on every other object to give 0.
+
+<P>
+Leinster defines a &quot;weighting&quot; on X to be an element w of
+the vector space of states with
+
+<P>
+&zeta; w = 1
+
+<P>
+Here &quot;1&quot; is the linear combination of objects where all the
+coefficients equal 1.  He also defines a &quot;coweighting&quot; to be
+an element w* in the vector space of states with
+
+<P>
+w* &zeta; = 1
+
+<P>
+If &zeta; has an inverse, our category has both a weighting and a
+coweighting, since we can solve both these equations to find w and w*.
+But often there will be a weighting and coweighting even when &zeta;
+doesn't have an inverse.  When both a weighting and coweighting exist,
+the sum of the coefficients of w equals the sum of coefficients of w*
+- and this sum is what Leinster takes as the &quot;Euler
+characteristic&quot; of the category X!
+
+<P>
+This is a bit subtle, and I don't deeply understand it.  But, Leinster
+proves so many nice theorems about this &quot;Euler characteristic&quot; that 
+it's clearly the right notion of the size of a category - or, with a
+further generalization he mentions, even an n-category!  And, it has 
+nice relationships to other ideas, which are begging to be developed
+further.
+
+<P>
+We're still just learning to count.
+
+<P>
+<HR>
+<P>
+<b>Addendum:</b> For more discussion, go to the <a href = "http://golem.ph.utexas.edu/category/2007/02/this_weeks_finds_in_mathematic_5.html"><em>n</em>-Category
+Caf&eacute;</a>.
+
+
+
+
+
+<P>
+<P>
+<HR>
+<P>
+<!-- BEGIN FOOTER -->
+&#169; 2006  John Baez<br>
+baez@math.removethis.ucr.andthis.edu <br>
+<P>
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week243.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week245.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE><!-- END FOOTER -->

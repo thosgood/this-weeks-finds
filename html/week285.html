@@ -1,0 +1,974 @@
+<TITLE> week285 </TITLE>
+
+<!-- BEGIN HEADER -->
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week284.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week286.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE>
+<H4> December 5, 2009</H4>
+<H2> This Week's Finds in Mathematical Physics (Week 285) </H2>
+<H4> John Baez </H4>
+<!-- END HEADER -->
+
+A while back, my friend Dan Christensen drew a picture of all the
+roots of all the polynomials of degree at most 5 with integer
+coefficients ranging from -4 to 4:
+
+<p>
+<div align = center>
+<a href = "http://math.ucr.edu/home/baez/roots/deg5.png">
+<img border = "none" width = "600" src = "http://math.ucr.edu/home/baez/roots/deg5.png">
+</a>
+</div>
+
+1) Dan Christensen, Plots of roots of polynomials with integer
+coefficients, <a href = "http://jdc.math.uwo.ca/roots/">http://jdc.math.uwo.ca/roots/</a>
+
+<p>
+2) John Baez, The beauty of roots, <a href = "http://math.ucr.edu/home/baez/roots/">http://math.ucr.edu/home/baez/roots/</a>
+
+<p>
+Click on the picture for bigger view.  Roots of quadratic polynomials
+are in grey; roots of cubics are in cyan; roots of quartics are in red
+and roots of quintics are in black.  The horizontal axis of symmetry
+is the real axis; the vertical axis of symmetry is the imaginary axis.
+The big hole in the middle is centered at 0; the next biggest holes
+are at &plusmn;1, and there are also holes at &plusmn;i and all the
+cube roots of 1.
+
+<p>
+You can see lots of fascinating patterns here, like how the roots of
+polynomials with integer coefficients tend to avoid integers and roots
+of unity - except when they land <em>right on</em> these points!  You
+can see more patterns if you zoom in:
+
+<p>
+<div align = "center">
+<img src= "http://math.ucr.edu/home/baez/roots/deg5_closeup.jpg">
+</div>
+
+<p>
+Now you see beautiful feathers surrounding the blank area
+around the point 1 on the real axis, a hexagonal star
+around exp(i &pi; / 6), a strange red curve from this point to 
+1, smaller stars around other points, and more....
+
+<p>
+People should study this sort of thing!  Let's define the set
+C(d,n) to be the set of all roots of all polynomials of
+degree d with integer coefficients ranging from -n to n.  Clearly
+C(d,n) gets bigger as we make either d or n bigger.  It
+becomes dense in the complex plane as n &rarr; &infin;, as long as
+d &ge; 1.  We get all the rational complex numbers if we fix d &ge; 1
+and let n &rarr; &infin;, and all the algebraic complex numbers if let
+both d,n &rarr; &infin;.  
+
+<p>
+But based on the above picture, there seem to be a lot of interesting
+conjectures to make about this set as d &rarr; &infin; for fixed n.
+
+<p>
+Inspired by the pictures above, Sam Derbyshire decided to to make a
+high resolution plot of some roots of polynomials.  After some
+experimentation, he decided that his favorite were polynomials whose
+coefficients were all 1 or -1 (not 0).  He made a high-resolution plot
+by computing all the roots of all polynomials of this sort having
+degree 24.  That's 2<sup>24</sup> polynomials, and about 24 &times;
+2<sup>24</sup> roots &mdash; or about 400 million roots!  It took
+Mathematica 4 days to generate the coordinates of the roots, producing
+about 5 gigabytes of data.  He then used some Java programs to create
+this amazing image:  
+
+<br/><br/>
+<div align = center>
+<a href = "http://math.ucr.edu/home/baez/roots/polynomialrootssmall.png">
+<img border = "none" width = "600" src = "http://math.ucr.edu/home/baez/roots/polynomialrootssmall.png">
+</a>
+</div>
+<br/><br/>
+
+<p>
+The coloring shows the density of roots, from black to dark red to
+yellow to white.  The picture above is a low-resolution version of the
+original image, which is available as a 90-megabyte file on Dan's
+website.  We can zoom in to get more detail:
+
+<br/><br/><br/>
+<div align = center>
+<a href = "http://math.ucr.edu/home/baez/roots/polynomialroots_closeup.jpg">
+<img border = "none" width = "600" src = "http://math.ucr.edu/home/baez/roots/polynomialroots_closeup.jpg">
+</a>
+</div>
+
+<br/><br/>
+Note the holes at certain roots of unity, and wondrously intricate
+patterns as we move inside the unit circle.  To make all this clearer,
+Sam Derbyshire zoomed in on certain regions, marked here:
+
+<br/><br/><br/>
+<div align = center>
+<a href = "http://math.ucr.edu/home/baez/roots/polynomialrootscrops.png">
+<img border = "none" width = "600" src = "http://math.ucr.edu/home/baez/roots/polynomialrootscrops.png">
+</a>
+</div>
+
+<br/><br/><br/>
+Here's a closeup of the hole at 1:  
+
+<br/><br/><br/>
+<div align = center>
+<a href = "http://math.ucr.edu/home/baez/roots/polynomialroots1.png">
+<img border = "none" width = "500" src = "http://math.ucr.edu/home/baez/roots/polynomialroots1.png">
+</a>
+</div>
+
+<br/><br/><br/>
+Note the white line along the real axis.  That's because lots more of
+these polynomials have real roots than <i>nearly</i> real roots.
+
+<p>
+Next, here's the hole at i:
+
+<br/><br/><br/>
+<div align = center>
+<a href = "http://math.ucr.edu/home/baez/roots/polynomialrootsi.png">
+<img border = "none" width = "400" src = "http://math.ucr.edu/home/baez/roots/polynomialrootsi.png">
+</a>
+</div>
+
+<br/><br/><br/>
+And here's the hole at exp(i&pi;/4) = (1 + i)/&radic;2:
+
+<br/><br/><br/>
+<div align = center>
+<a href = "http://math.ucr.edu/home/baez/roots/polynomialrootsexpi025p.png">
+<img border = "none" width = "400" src = "http://math.ucr.edu/home/baez/roots/polynomialrootsexpi025p.png">
+</a>
+</div>
+
+<br/><br/><br/>
+Note how the density of roots increases as we get closer to
+this point, but then suddenly drops off right next to it.  Note
+also the subtle patterns in the density of roots.
+
+<p>
+But the feathery structures as move inside the unit circle are
+even more beautiful!  Here is what they look near the real axis &mdash;
+this plot is centered at the point 4/5:
+
+<br/><br/><br/>
+<div align = center>
+<a href = "http://math.ucr.edu/home/baez/roots/polynomialroots08.png">
+<img border = "none" width = "500" src = "http://math.ucr.edu/home/baez/roots/polynomialroots08.png">
+</a>
+</div>
+
+<br/><br/><br/>
+They have a very different character near the point (4/5)i:
+
+<br/><br/><br/>
+<div align = center>
+<a href = "http://math.ucr.edu/home/baez/roots/polynomialroots08i.png">
+<img border = "none" width = "600" src = "http://math.ucr.edu/home/baez/roots/polynomialroots08i.png">
+</a>
+</div>
+
+<br/><br/><br/> But I think my favorite is the region near the point
+(1/2)exp(i/5).  This image is almost a metaphor of how mathematical
+patterns emerge from confusion like sharply defined figures looming
+from the mist:
+
+<br/><br/><br/>
+<div align = center>
+<a href = "http://math.ucr.edu/home/baez/roots/polynomialroots05expi02.png">
+<img border = "none" width = "750" src = "http://math.ucr.edu/home/baez/roots/polynomialroots05expi02.png">
+</a>
+</div>
+
+<br/><br/><br/>
+Dan and Sam were not the first to explore these issues, but there's
+a lot left to do: conjectures to make, theorems to prove, and 
+pictures to draw!  If you come up with some pretty pictures, I'd
+love to include them on my webpage - and cite you.   For previous 
+research, see:
+
+<P>
+3) Loki Joergenson, Zeros of polynomials with constrained coefficients,
+<a href = "http://www.cecm.sfu.ca/~loki/Projects/Roots/">http://www.cecm.sfu.ca/~loki/Projects/Roots/</a>
+
+<P>
+4) Eric W. Weisstein, MathWorld, Polynomial roots, 
+<a href = "http://mathworld.wolfram.com/PolynomialRoots.html">http://mathworld.wolfram.com/PolynomialRoots.html</a>
+
+<P>
+My colleague the knot theorist Xiao-Song Lin - sadly no longer with us
+- plotted the zeros of the Jones polynomial for prime alternating
+knots with up to 13 crossings, and you can see his pictures here:
+
+<P>
+5) Xiao-Song Lin, Zeros of the Jones polynomial,
+<a href = "http://math.ucr.edu/~xl/abs-jk.pdf">http://math.ucr.edu/~xl/abs-jk.pdf</a>
+
+<P>
+You'll see that <i>some</i> of the patterns in his pictures just come from
+the patterns we see in the roots of polynomials with integer
+coefficients... since the Jones polynomial has integer coefficients.
+
+<P>
+This paper is also interesting:
+
+<P>
+6) Andrew M. Odlyzko and B. Poonen, Zeros of polynomials with 0,1
+coefficients, L'Enseignement Math. 39 (1993), 317-348. Also available
+at <a href = "http://dx.doi.org/10.5169/seals-60430">http://dx.doi.org/10.5169/seals-60430</a>
+
+<P>
+Odlyzko and Poonen proved some interesting things about the set of all
+roots of all polynomials with coefficients 0 or 1.  If we define the
+set C(d,p,q) to be the set of roots of all polynomials of degree d 
+with coefficients ranging from p to q, Odlyzko and Poonen are 
+studying C(d,0,1) in the limit d &rarr; &infin;.  They mention some 
+known results and prove some new ones: this set is contained in 
+the half-plane Re(z) < 3/2 and contained in the annulus 
+
+<P>
+1/&Phi; < |z| < &Phi;
+
+<P>
+where &Phi; is the golden ratio, (&radic;5 + 1)/2.  In fact they trap it,
+not just between these circles, but between two subtler curves.  They
+also show that the closure of this set is path connected but not
+simply connected.
+
+<P>
+But from the pictures above, these ideas just scratch the surface
+of the wealth of patterns to be found and theorems to be proved!
+
+<P>
+Next, let me say a bit about the talks from the second day of the 
+AMS session on homotopy theory and higher algebraic structures at 
+UC Riverside.  You can see videos of these talks here, or by clicking
+on the talk titles below:
+
+<P>
+7) Special session on homotopy theory and higher algebraic structures,
+AMS Western Section Meeting, November 7-8, 2009.  Talks available as
+Quicktime videos at <a href =
+"http://math.ucr.edu/~jbergner/amsriverside09.htm">http://math.ucr.edu/~jbergner/amsriverside09.htm</a>
+
+<P>
+It's been good for me trying to discuss all these talks - it's forced
+me to think about them a lot harder.  I'm not sure how good it is for
+you, though: lots of ideas are flashing past without adequate
+explanation.  Each talk could be the basis for a whole This Week's
+Finds.  But I'm happy to get a chance to at least <i>mention</i> all sorts
+of ideas that would be fun to explore more deeply someday.
+
+<P>
+Eric Malm of Stanford University started the show bright and early
+8:30 am on Sunday with a talk on 
+&quot;<a href = "ams_2009/Malm_AMS_UCR_2009.mov">String topology and the based loop
+space</a>&quot;.  You can see the slides here:
+
+<P>
+8) Eric Malm, String topology and the based loop space,
+<a href = "http://math.ucr.edu/~jbergner/ucr-st-present.pdf">http://math.ucr.edu/~jbergner/ucr-st-present.pdf</a>
+
+<P>
+In its original form, string topology studies the <i>unbased</i> loop space
+of an oriented d-dimensional manifold M.  This is the space LM of all
+maps from a circle into M.  In their fundamental paper on the subject:
+
+<P>
+9) Moira Chas and Dennis Sullivan, String topology, available
+as <a href = "http://arXiv.org/abs/arXiv:math/9911159">arXiv:math/9911159</A>.
+
+<P>
+Chas and Sullivan showed that the homology groups of LM with degrees
+shifted by d:
+
+<P>
+A<sub>i</sub> = H<sub>i+d</sub>(LM)
+
+<P>
+are equipped with a graded-commutative product:
+
+<P>
+o: A<sub>i</sub> &otimes; A<sub>j</sub> &rarr; A<sub>i+j</sub>
+
+<P>
+together with an operator
+
+<P>
+D: A<sub>i</sub> &rarr; A<sub>i+1</sub>
+
+<P>
+with D<sup>2</sup> = 0.  These satisfy a bunch of equations, which
+makes the degree-shifted homology of LM into a gadget called a
+&quot;Gerstenhaber algebra&quot;.  I explained such gadgets in
+&quot;<a href = "week220.html">week220</A>&quot;: they're precisely
+algebras of the homology of the little 2-cubes operad.
+
+<P>
+But the homology of the loop space has even more structure: it's a
+&quot;Batalin-Vilkovisky algebra&quot;.  That means that in addition
+to the above stuff, it has a Lie bracket of degree 1:
+
+<P>
+[&middot;,&middot;]: A<sub>i</sub> &otimes; A<sub>j</sub> &rarr; A<sub>i+j+1</sub>
+
+<P>
+which gets along with the rest in a nice way.  I also talked about
+these in &quot;<a href = "week220.html">week220</A>&quot;: they're
+precisely algebras of homology of the framed little 2-discs operad!
+
+<P>
+This is just the beginning of a big story.  Malm's talk surveys this
+story and adapts the ideas of string topology to the <i>based</i> loop 
+space of a manifold, using its relations to Hochschild homology.
+For some useful background here, try this book - or at least the
+very informative review:
+
+<P>
+10) Ralph L. Cohen, Kathryn Hess, and Alexander A. Voronov, String
+Topology and Cyclic Homology, Birkhauser, Boston, 2006.  Review by
+Janko Latschev at <a href = "http://www.ams.org/bull/0000-000-00/S0273-0979-09-01265-8/">http://www.ams.org/bull/0000-000-00/S0273-0979-09-01265-8/</a>
+
+<P>
+Next, Laura Scull of Fort Lewis College spoke on 
+&quot;<a href = "ams_2009/Scull_AMS_UCR_2009.mov">Orbifolds 
+and equivariant homotopy
+theory</a>&quot;.  This is joint work she's doing with Dorette Pronk.
+Laura is an expert on equivariant homotopy theory: that's the kind of
+homotopy theory you do for spaces on which a group acts.  Dorette is
+an expert on category theory.  So it was natural for them to team up
+and tackle orbifolds!
+
+<P>
+Why?  And what's an orbifold?  Well, just as a manifold is built up
+from patches that look like R<sup>n</sup>, an orbifold is built up
+from patches that look like R<sup>n</sup> modulo the linear action of
+a finite group.  So, most places it looks like a manifold, but it can
+have singularities of a mild sort here and there.
+
+<P>
+When people tried to define maps of orbifolds, they ran into a lot of
+trouble.  Naive approaches led to a mess.  It turns out there's a good
+reason for this.  There's not really a nice category of orbifolds.
+But there's a nice <i>2-category</i> of orbifolds!
+
+<P>
+The reason is that we shouldn't think of an orbifold as a set with
+extra structure.  We should think of it as a <i>groupoid</i> with extra
+structure.  The points of the orbifold are the objects of this
+groupoid.  For a plain old manifold, we'd only have identity
+morphisms - so it's basically just a set.  But for a more interesting
+orbifold, the singular points have extra automorphisms.
+
+<P>
+Everything likes to live in something bigger and fancier than itself.
+Groupoids, being categories, want to be objects of a 2-category.  The
+same is true for orbifolds.  However, there are extra subtleties due
+to the <i>smooth structure</i> on our orbifold.  To deal with these,
+it's nice to treat orbifolds as &quot;Lie groupoids&quot; or
+&quot;stacks&quot;.  I could say a lot more, but instead I'll just
+refer you to this very readable paper:
+
+<P>
+11) Eugene Lerman, Orbifolds as stacks?  Available as <a href =
+"http://arxiv.org/abs/0806.4160">arXiv:0806.4160</a>.
+
+<P>
+It begins by discussing easy approaches, then describes their flaws,
+and so on, leading up to the current state of the art.  After this
+warmup, try:
+
+<P>
+12) Dorette Pronk and Laura Scull, Translation groupoids and orbifold
+Bredon cohomology, <a href =
+"http://arxiv.org/abs/0705.3249">arXiv:0705.3249</a>.
+
+<P>
+Then Anssi Lahtinen of Stanford University spoke about &quot;<a href =
+"ams_2009/Lahtinen_AMS_UCR_2009.mov">The Atiyah-Segal completion
+theorem in twisted K-theory</a>&quot;.
+
+<P>
+Twisted K-theory is fascinating to folks who like categorification,
+because it involves &quot;U(1) gerbes&quot;, which are categorified
+U(1) bundles.  Just as a U(1) bundle over a space can be defined by
+chopping a space into open sets U<sub>i</sub> and giving U(1)-valued
+&quot;transition functions&quot; on the intersections U<sub>i</sub>
+&cap; U<sub>j</sub>, a U(1) gerbe over a space can be defined by
+chopping a space into open sets and giving transition functions
+
+<P>
+h<sub>ijk</sub> : U<sub>i</sub> &cap; U<sub>j</sub> &cap; U<sub>k</sub>
+&rarr; U(1)
+
+<P>
+If you have a U(1) gerbe, you can define &quot;twisted vector bundles&quot;.
+These are like vector bundles, but where the transition functions
+g<sub>ij</sub> satisfy the usual cocycle conditions only up to a phase, given
+by h<sub>ijk</sub>.  In other words, instead of the famous formula
+
+<P>
+g<sub>ij</sub> g<sub>jk</sub> = g<sub>ik</sub>
+
+<P>
+we just have
+
+<P>
+g<sub>ij</sub> g<sub>jk</sub> h<sub>ijk</sub> = g<sub>ik</sub>
+
+<P>
+Given a space X, we can form its K-theory K(X) by taking the category
+of vector bundles and forming its Grothendieck group.  We saw some
+Grothendieck group constructions last time!  Here's how it goes this
+time.  Take the category of vector bundles over X, say Vect(X).  Then
+take the set of isomorphism classes of vector bundles.  Then take
+formal linear combinations of these to get an abelian group, and then
+impose the equivalence relation
+
+<P>
+[M &oplus; N] = [M] + [N]
+
+<P>
+The result is an abelian group K(X) called the &quot;K-theory&quot; of
+X.  And in fact it's a ring, since we can also take tensor products of
+vector bundles!
+
+<P>
+The Atiyah-Segal completion theorem concerns K(X) when X is the
+classifying space of a topological group G.  As explained in &quot;<a
+href = "week151.html">week151</A>&quot;, this is a space BG with a
+principal G-bundle over it:
+
+<P>
+EG &rarr; BG
+
+<P>
+with the property that every other principal G-bundle over every other
+space is a pullback of this one.  Given any representation of G, we
+can use the &quot;associated bundle&quot; trick to create a vector bundle over
+BG.  So, we get a functor from the category of representations of G to
+the category of vector bundles over BG:
+
+<P>
+Rep(G) &rarr; Vect(BG)
+
+<P>
+Applying the Grothendieck group construction, this functor in turn
+gives a ring homomomorphism
+
+<P>
+R(G) &rarr; K(BG) 
+
+<P>
+where R(G), the so-called &quot;representation ring&quot; of G, is the
+Grothendieck group of Rep(G).
+
+<P>
+The Atiyah-Segal theorem explains how this map from R(G) to K(BG) is
+almost - though not quite - an isomorphism.  It's tempting to
+generalize this from K-theory to twisted K-theory... and that's what
+Anssi Lahtinen spoke about!
+
+<P>
+Next, Konrad Waldorf of UC Berkeley spoke on &quot;<a href =
+"ams_2009/Waldorf_AMS_UCR_2009.mov">String connections and
+supersymmetric sigma models</a>&quot;:
+
+<P>
+13) Konrad Waldorf, String connections and supersymmetric sigma models,
+<a href = "http://www.konradwaldorf.de/docs/riverside.pdf">http://www.konradwaldorf.de/docs/riverside.pdf</a>
+
+<P>
+14) Konrad Waldorf, String connections and Chern-Simons theory,
+available as <a href =
+"http://arxiv.org/abs/0906.0117">arxiv:0906.0117</a>.
+
+<P>
+His talk was a great introduction to some things I know and love, 
+and some others that I'd never quite understood before... but loved at 
+first sight now.
+
+<P>
+U(1) bundles over a space are classified by elements of its second 
+cohomology with integer coefficients.  U(1) gerbes are similarly 
+classified by the third integral cohomology group.  This story 
+keeps on going!  U(1) 2-gerbes are classified by the fourth 
+cohomology, and so on.  If you don't know what a 2-gerbe is, don't
+panic: just go back to my description of bundles and gerbes, and you
+can guess how the story continues.
+
+<P>
+But when M is a manifold, there's a nice way to get an element of its
+fourth integral cohomology group!  If it's an oriented manifold, its
+oriented frame bundle is a principal SO(n) bundle.  This has
+&quot;characteristic classes&quot;; the first interesting one is the
+&quot;first Pontryagin class&quot;, which is an element in 
+the fourth integral cohomology group of M.  You can get a
+representative of this in deRham cohomology by picking a connection,
+taking its curvature 2-form F and multiplying the closed 2-form
+
+<P>
+tr(F ^ F)
+
+<P>
+by the right number.  But in fact the first Pontryagin class lives in
+integral cohomology.  So, any oriented 4-manifold automatically gives 
+a 2-gerbe... but that's not the one we need here!
+
+<P>
+If M is equipped with a spin structure, its oriented frame bundle is
+equipped with a double cover that's a principal Spin(n) bundle.  This
+too has characteristic classes.  The first interesting one lives
+in the fourth integral cohomology group of M, and it has the 
+property that when you multiply it by 2 you get the first Pontryagin 
+class.  (In integral cohomology there can be various different
+classes with this property, coming from different spin structures.)
+
+<P>
+So: every spin structure on M gives an element of the fourth integral
+cohomology group of M, and thus a 2-gerbe.  This is called the
+&quot;Chern-Simons 2-gerbe&quot;.  The reason for this term is
+explained here:
+
+<P>
+15) Urs Schreiber, States of Chern-Simons theory,
+<a href = "http://golem.ph.utexas.edu/category/2008/02/states_of_chernsimons_theory.html">http://golem.ph.utexas.edu/category/2008/02/states_of_chernsimons_theory.html</a>
+
+<P>
+There are lots of ways to think about &quot;string structures&quot; on a spin
+manifold M, but Waldorf advocated thinking of them as <i>choices of
+trivialization</i> of its Chern-Simons 2-gerbe.  There may of course be
+none, or many.  But the really nice thing about this viewpoint is that it
+gives a nice approach to &quot;string connections&quot;.  
+
+<P>
+Next, S&oslash;ren Galatius of Stanford University gave a talk on &quot;<a
+href = "ams_2009/Galatius_AMS_UCR_2009.mov">Monoids of moduli spaces
+of manifolds</a>&quot;, explaining a paper with the same title:
+
+<p>
+16) S&oslash;ren Galatius and Oscar Randal-Williams, Monoids of
+moduli spaces of manifolds, available as <a href = "http://arxiv.org/abs/0905.2855">arXiv:0905.2855</a>.
+
+<p>
+The goal of their work was to create a title with as many
+words beginning with &quot;M&quot; as possible... no, not really.
+In fact, it's a kind of continuation of this famous paper:
+
+<p>
+17) S&oslash;ren Galatius, Ib Madsen, Ulrike Tillmann, and Michael
+Weiss, The homotopy type of the cobordism category, available as <a
+href = "http://arxiv.org/abs/math/0605249">arXiv:math/0605249</a>.
+
+<p>
+In item K of &quot;<a href = "week117.html">week117</a>" I explained
+how to turn any category into a topological space called its
+&quot;classifying space&quot;.  This construction has a nice
+generalization to &quot;topological categories&quot; - that is,
+categories where the set of morphisms from any object to any other is
+a topological space, and composition is continuous.  
+
+<p>
+For example, a topological group G is the same as a topological
+category with one object and all morphisms being invertible.  If we
+apply the construction to this example, we get the classifying space
+BG that I mentioned a while back.
+
+<p>
+The Galatius-Madsen-Tillmann-Weiss paper determined the homotopy type 
+of the classifying space of the topological category of n-dimensional 
+oriented cobordisms!  The new work constructs a topological monoid
+that has the same classifying space - a nice simplification.   
+
+<P>
+After lunch, Alissa Crans of Loyola Marymount University spoke on
+&quot;<a href = "ams_2009/Crans_AMS_UCR_2009.mov">2-Quandles:
+categorified quandles</a>&quot;.  A &quot;quandle&quot; is the sort of
+algebraic gadget when you axiomatize the properties of conjugation in
+a group.  So, start with a group and define an operation of &quot;left
+conjugation&quot;:
+
+<P>
+g &gt; h = g h g<sup>-1</sup>
+
+<P>
+and an operation of &quot;right conjugation&quot;:
+
+<P>
+h &lt; g = g<sup>-1</sup> h g
+
+<P>
+Then, figure out all the equations these obey, regardless of what
+group you've got!  Clearly these operations are inverses of
+each other:
+
+<P>
+g &gt; (h &lt; g) = h = (g &gt; h) &lt; g
+
+<P>
+If you conjugate anything by itself, nothing happens:
+
+<P>
+g &gt; g = g = g &lt; g
+
+<P>
+But more interestingly, we also have
+
+<P>
+g &gt; (h &gt; k) = (g &gt; h) &gt; (g &gt; k)
+
+<P>
+(k &lt; h) &lt; g = (k &lt; g) &lt; (h &lt; g)
+
+<P>
+Conjugation distributes over itself!  Do the calculation yourself and
+see!  As far as I know, all equations obeyed by these operations
+follow from the ones I've listed... though I've never seen a proof,
+and I'd like to.  These equations form the definition of a
+&quot;quandle&quot;.
+
+<P>
+So, we may define a quandle in a very conceptual way as an algebraic
+structure where each element acts as a symmetry of that structure, and
+every element acts trivially on itself.  Think about it.
+
+<P>
+But the magical thing about quandles is that they give invariants of
+tangles!  The easiest way to start seeing this is by pondering braids.
+Given a quandle Q there's a way to turn any n-strand braid into a
+function
+
+<P>
+Q<sup>n</sup> &rarr; Q<sup>n</sup>
+
+<P>
+Here's how.  In braids we can have two kinds of crossings:
+
+<PRE>
+ \   /
+  \ /
+   /
+  / \
+ /   \
+</PRE>
+
+and
+
+<PRE>
+ \   /
+  \ /
+   \
+  / \
+ /   \
+</PRE>
+
+Let's think of each as giving a function from Q<sup>2</sup> to itself.  To
+do this, we let the quandle element labelling one strand act on the 
+quandle element labelling the other, using our two kinds of 
+conjugation:
+
+<PRE>
+g     h
+ \   /
+  \ /
+   /
+  / \
+ /   \
+h    g&lt;h
+</PRE>
+and
+
+<PRE>
+g     h
+ \   /
+  \ /
+   \
+  / \
+ /   \
+g&gt;h   g
+</PRE>
+
+The strand above acts on the strand below, following the general
+principle that the people higher up cause trouble for the people below
+them.  Now, look at the third Reidemeister move, which says:
+
+<PRE>
+|   /    |      |    \   |
+ \ /     |      |     \ / 
+  \      |      |      \
+ / \     |      |     / \
+|   \   /        \   /   |
+|    \ /          \ /    |
+|     \      =     \     |	
+|    / \          / \    |
+|   /   \        /   \   |
+ \ /     |      /     \ / 
+  \      |      |      \  
+ / \     |      |     / \ 
+|   \    |      |    /   |
+|    \   |      |   /    |
+</PRE>
+
+If we feed in three quandle elements on top, look what happens:
+
+<PRE>
+g    h   k      g   h    k
+|   /    |      |    \   |
+ \ /     |      |     \ / 
+  \      |      |      \
+ / \     |      |  h&gt;k/ \
+|   \   /        \   /   |
+|    \ /          \ /    |
+|g&gt;h  \      =     \     |	
+|    / \          / \    |
+|   /   \        /   \   |
+ \ /g&gt;k  |      /     \ / 
+  \      |      |      \  
+ / \     |      |     / \ 
+|   \    |      |    /   |
+|    \   |      |   /    |
+*   g&gt;h  g      *  g&gt;h   g
+</PRE>
+
+Look at the strand marked with an asterisk!  On the left it should be
+labelled by
+
+<P>
+(g &gt; h) &gt; (g &gt; k)
+
+<P>
+On the right it should be labelled by 
+
+<P>
+g &gt; (h &gt; k)
+
+<P>
+But thanks to the self-distributive law, these are equal!  Similarly,
+the equation 
+
+<P>
+g &gt; (h &lt; g) = h = (g &gt; h) &lt; g
+
+<P>
+handles the second Reidemeister move:
+
+<PRE>
+ \   /      |    |       \   / 
+  \ /       |    |        \ /
+   /        |    |         \  
+  / \       |    |        / \  
+ /   \   =  |    |   =   /   \  
+ \   /      |    |       \   /
+  \ /       |    |        \ /
+   \        |    |         / 
+  / \       |    |        / \ 
+ /   \      |    |       /   \ 
+</PRE>
+while the equation 
+
+<P>
+g &gt; g = g = g &lt; g
+
+<P>
+handles the first Reidemeister move.  The first Reidemeister move is
+not really about about braids - it's about tangles: 
+
+<PRE>
+|      /\           |         |      /\
+|     /  \          |         |     /  \
+ \   /    \         |          \   /    \
+  \ /      |        |           \ /      |
+   \       |   =    |    =       /       |
+  / \      |        |           / \      |
+ /   \    /         |          /   \    /
+|     \  /          |         |     \  / 
+|      \/           |         |      \/
+|                   |         |    
+</PRE>
+
+So, there's a deep relation between crossings in tangles and
+conjugation in groups, captured by the quandle axioms.  And the
+quandle axioms also cover <i>Lie algebras</i>, with self-distributivity
+corresponding to the Jacobi identity:
+
+<P>
+16) J. Scott Carter, Alissa Crans, Mohamed Elhamdadi and Masahico
+Saito, Cohomology of categorical self-distributivity, available
+as <a href = "http://arXiv.org/abs/arXiv:math/0607417">arXiv:math/0607417</A>.
+
+<P>
+It's possible to explain this relation a lot more deeply than I just
+did... but anyway, what Alissa did is start <i>categorifying</i> this
+relation.  Together with the topologists Carter and Saito, she's
+studying &quot;2-quandles&quot;, which should relate 2-tangles to
+conjugation in 2-groups.
+
+<P>
+Next, Chad Giusti of the University of Oregon spoke on &quot;<a href =
+"ams_2009/Giusti_AMS_UCR_2009.mov">Unstable Vassiliev
+theory</a>&quot;:
+ 
+<P>
+17) Chad Giusti, Unstable Vassiliev theory,
+<a href = "http://math.ucr.edu/~jbergner/RiversideTalk.pdf">http://math.ucr.edu/~jbergner/RiversideTalk.pdf</a>
+
+<P>
+The goal here is to understand the space of &quot;long knots&quot;.  A
+long knot is a curve in R<sup>3</sup> that goes on forever and is a
+vertical straight line outside some compact set.  So, it can get
+knotted around in the middle.  One nice thing about long knots is that
+there's a multiplication defined on them, by sticking them end-to-end.
+
+<P>
+If you know about tangles, a long knot is just another way of thinking
+about a one-strand tangle with a strand coming in at top and going
+out at bottom.  Then the multiplication on long knots is a special 
+case of the composition of tangles.
+
+<P>
+(We can define even more operations if we work with
+&quot;thickened&quot; long knots.  In fact, the space of these forms
+an algebra of the little 2-cubes operad!  This gives a mystical
+relation between thickened long knots and Gerstenhaber algebras.  I
+explained this near the end of &quot;<a href =
+"week220.html">week220</A>&quot;.)
+
+<P>
+Anyway, the part of Giusti's talk that I understood best, and
+therefore liked the most, was a neat combinatorial description
+of the space of long knots. He calls them &quot;plumbers' knots&quot;,
+because they're like pipes that move only along the x, y, or z
+directions... for details, see his slides!
+
+<P>
+Then Robin Koytcheff of Stanford University gave a somewhat related
+talk on &quot;<a href = "ams_2009/Koytcheff_AMS_UCR_2009.mov">A homotopy-theoretic view of Bott-Taubes integrals and knot
+spaces</a>&quot;:
+
+<P>
+18) Robin Koytcheff, A homotopy-theoretic view of Bott-Taubes integrals
+and knot spaces, <a href = "http://math.ucr.edu/~jbergner/RKslidesUCR.pdf">http://math.ucr.edu/~jbergner/RKslidesUCR.pdf</a>
+
+<P>
+He began with a nice introduction to the Bott-Taubes approach to
+Vassiliev theory.  Then he gave a great description of how the
+little 2-cubes operad acts on the space of thickened long knots, 
+and how one can use this to underand the homology of this space.
+Then he discussed how to combine these ideas.  For more details, see:
+
+<P>
+19) Robin Koytcheff, A homotopy-theoretic view of Bott-Taubes integrals
+and knot spaces, Alg. Geom. Top. 9 (2009), 1467-1501.  Also available as
+<a href = "http://arxiv.org/abs/0810.1785">arXiv:0810.1785</a>.
+
+<P>
+Next, Chris Douglas of U.C. Berkeley gave talk charmingly entitled
+&quot;3-categories for the working mathematician&quot; - 
+unfortunately no video for this one.  It's great to see how weak
+3-categories are making their way into applications.  Douglas is
+working with Arthur Bartels and Andre Henriques on their applications
+to &quot;conformal nets&quot; - that is, algebras of local observables
+in conformal field theory.  The bulk of Douglas' talk involved a kind
+of hieroglyphic notation for operations and equations in a definition
+of weak 3-category.  This definition is close to the existing
+definitions of &quot;tricategory&quot;, but not exactly the same - at
+least, not superficially.  It's probably equivalent.
+
+<P>
+Finally, <a href = "ams_2009/Morrison_AMS_UCR_2009.mov">Scott
+Morrison</a> and <a href =
+"ams_2009/KWalker_AMS_UCR_2009.mov">Kevin Walker</a> gave a
+2-part talk on &quot;blob homology&quot; - a great introduction to
+their big paper in progress:
+
+<P>
+20) Scott Morrison and Kevin Walker, Blob homology slides:
+<a href = "http://tqft.net/UCR-blobs1">http://tqft.net/UCR-blobs1</a>
+and 
+<a href = "http://tqft.net/UCR-blobs2">http://tqft.net/UCR-blobs2</a>
+
+<P>
+21) Scott Morrison and Kevin Walker, The blob complex.  Draft
+available at <a href = "http://tqft.net/papers/blobs.pdf">http://tqft.net/papers/blobs.pdf</a>
+
+<P>
+The clever idea here is to use manifolds to provide a quick and
+practical definition of &quot;n-categories with duals&quot; - thus
+short-circuiting, at least temporarily, the need to prove some big
+conjectures linking this algebraic concept to topology.  With this
+definition, they're able to define and study &quot;blob
+homology&quot;: that is, a kind of homology for manifolds with
+coefficients in a linear n-category with duals!
+
+<P>
+This includes ordinary TQFTs and also Hochschild homology as special
+cases.  So, it's a big deal, and I'm sure we'll be seeing more of it
+in the years to come.
+
+<P>
+Next week I'll start a series of This Week's Finds on rational
+homotopy theory.  This is a great subject with connections to 
+pretty much everything: deformation theory, Lie n-groups and Lie
+n-algebras, classical mechanics, supergravity and more!  So stay
+tuned....
+
+<p>
+<hr>
+<p>
+<b>Addenda:</b> I thank Toby Bartels for some improvements, and
+Ralf Bader for a link to Odlyzko and Poonen's paper.
+
+<P>
+For more discussion visit the <a href =
+"http://golem.ph.utexas.edu/category/2009/12/this_weeks_finds_in_mathematic_46.html"><em>n</em>-Category
+Caf&eacute;</a>.
+
+<p>
+<hr>
+<p>
+<em>The author feels that this technique of deliberately lying will
+actually make it easier for you to learn the ideas.</em> - Donald Knuth
+
+<p>
+<HR><P>
+<!-- BEGIN FOOTER -->
+&#169; 2009  John Baez<br>
+baez@math.removethis.ucr.andthis.edu <br>
+<P>
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week284.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week286.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE><!-- END FOOTER -->

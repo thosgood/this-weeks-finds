@@ -1,0 +1,1020 @@
+<TITLE>week259</TITLE>
+
+<!-- BEGIN HEADER -->
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week258.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week260.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE>
+<H4> December 9, 2007 </H4>
+<H2> This Week's Finds in Mathematical Physics (Week 259) </H2>
+<H4> John Baez </H4>
+<!-- END HEADER -->
+
+<P>
+This week I'll talk about the &quot;field with one element&quot; - even though 
+it doesn't exist.  It's a mathematical phantom.
+
+<P>
+But first: the Egg Nebula.
+
+<P>
+In &quot;<a href = "week257.html">week257</A>&quot; and &quot;<a href
+= "week258.html">week258</A>&quot; I talked about interstellar dust.
+As I mentioned, lots of it comes from &quot;asymptotic giant
+branch&quot; stars - stars like our Sun, but later in their life, when
+they're big, red, pulsing, and puffing out elements like hydrogen,
+helium, carbon, nitrogen, and oxygen.
+
+<P>
+The pulsations grow wilder and wilder until the star blows off its 
+entire outer atmosphere, forming a big cloud of gas and dust 
+misleadingly called a &quot;planetary nebula&quot;.  It leaves behind 
+its dense inner core as a hot white dwarf.  Intense radiation from
+this core eventually heats the gas and dust until they glow.
+
+<P>
+Back in &quot;<a href = "week223.html">week223</A>&quot; I showed my favorite 
+example of a planetary nebula: the Cat's Eye.   
+
+<P>
+<div align = "center">
+<a href = "http://heritage.stsci.edu/2004/27/index.html">
+<img src = "cats-eye_nebula.jpg">
+</a>
+</div>
+
+<p>
+And I quoted the astronomer Bruce Balick 
+on what will happen here when our Sun becomes a planetary nebula 
+6.9 billion years from now:
+
+<blockquote>
+     Here on Earth, we'll feel the wind of the ejected gases 
+     sweeping past, slowly at first (a mere 5 miles per second!), 
+     and then picking up speed as the spasms continue - eventually 
+     to reach 1000 miles per second!!  The remnant Sun will rise as 
+     a dot of intense light, no larger than Venus, more brilliant 
+     than 100 present Suns, and an intensely hot blue-white color 
+     hotter than any welder's torch.  Light from the fiendish blue 
+     &quot;pinprick&quot; will braise the Earth and tear apart its surface 
+     molecules and atoms. A new but very thin &quot;atmosphere&quot; of free 
+     electrons will form as the Earth's surface turns to dust.
+</blockquote>
+Eerie!  
+
+<P>
+Here's a &quot;protoplanetary nebula&quot; - that is, a planetary nebula that's
+just getting started: 
+
+<P>
+<div align = "center">
+<img width = "600" src = "egg_nebula.jpg">
+</div>
+
+<P>
+1) Rainbow image of a dusty star, NASA, 
+<a href = "http://hubblesite.org/newscenter/archive/releases/nebula/planetary/2003/09/">http://hubblesite.org/newscenter/archive/releases/nebula/planetary/2003/09/</a>
+
+<P>
+It's called the &quot;Egg Nebula&quot;.  You can see layers of dust coming out
+puff after puff, shooting outwards at about 20 kilometers per second,
+stretching out for about a third of a light year.  The colors - red,
+green and blue - aren't anything you'd actually see.  They're just  
+an easy way to depict three different polarizations of light.  I 
+don't know why the light is polarized that way.
+
+<P>
+You can see a dark disk of thicker dust running around 
+the star.  It could be an "accretion disk" spiralling into the star.  The 
+&quot;beams&quot; shining out left and right are still poorly understood.  
+Maybe they're jets of matter ejected from the north and south 
+poles of the disk?  This idea seem more plausible when you look at 
+this photo taken by NICMOS, which is Hubble's &quot;Near Infrared Camera 
+and Multi-Object Spectrometer&quot;:
+
+<P>
+<div align = "center">
+<img width = "500" src = "egg_nebula_infrared.jpg">
+</div>
+
+
+<P>
+2) Raghvendra Sahai, Egg Nebula in polarized light, Hubble Heritage
+Project, <a href = "http://heritage.stsci.edu/2003/09/supplemental.html">http://heritage.stsci.edu/2003/09/supplemental.html</a>
+
+<P>
+This near-infrared image also shows a bright spot called &quot;Peak
+A&quot; about 500 AU from the central star.  An &quot;AU&quot;, or
+astronomical unit, is the distance from the Sun to the Earth.
+
+<P>
+Nobody knows what this bright spot is.  Some argue that it's just a 
+clump of dust reflecting light from the main star.  Others advocate a 
+more exciting theory: it's a white dwarf orbiting the main star, which 
+exploded in a &quot;thermonuclear burst&quot; after accreting a bunch of dust.
+
+<P>
+3) Joel H. Kastner and Noam Soker, The Egg Nebula (AFGL 2688): deepening 
+enigma, to appear in Asymmetrical Planetary Nebulae III, eds. M. Meixner, 
+J. Kastner, N. Soker, and B. Balick, ASP Conference Series.  Available 
+as <a href = "http://arXiv.org/abs/astro-ph/0309677">arXiv:astro-ph/0309677</A>. 
+
+<P>
+I hope to say more about planetary nebulae in future Weeks, mainly because
+they're so beautiful.
+
+<P>
+But now: the field with one element!
+
+<P>
+A <a href = "http://en.wikipedia.org/wiki/Field_%28mathematics%29">field</a> 
+is a mathematical structure where you can add, multiply,
+subtract and divide in ways that satisfy these familiar rules:
+
+<PRE>
+ x + y = y + x        (x + y) + z = x + (y + z)   x + 0 = x
+
+ xy = yx              (xy)z = x(yz)               1x = x
+
+ x(y + z) = xy + xz 
+
+ every element x has an element -x with x + (-x) = 0
+ 
+ every element x that's not 0 has an element 1/x with x (1/x) = 1
+</PRE>
+
+<P>
+You'll note that the last clause is the odd man out.  Addition,
+subtraction and multiplication can all be described as everywhere
+defined operations.  Division cannot, since we can't divide by 0.
+This is the funny thing about fields, which is what causes the 
+problem we'll run into.
+
+<P>
+Everyone who has studied math knows three examples of fields: 
+the rational numbers Q, the real numbers R and the complex numbers C.  
+There are a lot more, too - for example, function fields, number
+fields, and finite fields.  
+
+<P>
+Let me say a tiny bit about these three kinds of fields.
+
+<P>
+The simplest sort of &quot;<a href =
+"http://en.wikipedia.org/wiki/Function_field_of_an_algebraic_variety">function
+field</a>&quot; consists of rational functions of one variable - that
+is, ratios of polynomials, like this:
+
+<P>
+(2z<sup>3</sup> + z + 1)/(z<sup>2</sup> - 7)
+
+<P>
+Here the coefficients of your polynomials should lie in some field F
+you already know about.  The resulting field is called F(z).  If F is
+the complex numbers, we can think of F(z) = C(z) as consisting of
+functions on the Riemann sphere.  In &quot;<a href =
+"week201.html">week201</A>&quot;, I explained how the symmetries of
+this field form a group important in special relativity: the Lorentz
+group!
+
+<P>
+It's also very interesting to study the field of functions on a
+surface fancier than the sphere, but still defined by algebraic 
+equations, like the surface of a doughnut or n-holed doughnut.  
+Number theorists and  algebraic geometers spend a lot of time 
+thinking about these fields, which are called &quot;function fields 
+of complex curves&quot;.  
+
+<P>
+For example, different ways of describing the surface of a doughnut by
+algebraic equations give different &quot;<a href =
+"http://en.wikipedia.org/wiki/Elliptic_curve">elliptic
+curves</a>&quot;.  This is terminology is bound
+to puzzle beginners!  They're called &quot;curves&quot; even though
+it's 2-dimensional, because it takes one <em>complex</em> number to
+say where you are on a little patch of a surface, just as it takes one
+<em>real</em> number to say where you are on an ordinary curve like a
+circle.  That's the origin of the term &quot;complex curve&quot;.
+And, they're called &quot;elliptic&quot; because they first showed up
+when people were studying elliptic integrals, which are
+generalizations of trig functions from circles to ellipses.
+
+<P>
+I explained more about elliptic curves in &quot;<a href = "week13.html">week13</A>&quot; and &quot;<a href = "week125.html">week125</A>&quot;.  
+Lurking behind this, there's a lot of fascinating stuff about 
+function fields of elliptic curves.
+
+<P>
+The simplest sort of &quot;<a href =
+"http://en.wikipedia.org/wiki/Algebraic_number_field">number
+field</a>&quot; comes from taking the rational numbers and throwing in
+the solutions of a polynomial equation.  For example, in
+&quot;<a href = "week20.html">week20</A>&quot; I talked about the
+&quot;golden field&quot;, which consists of all numbers of the form
+
+<P>
+a + b &radic; 5
+
+<P>
+where a and b are rational.  
+
+<P>
+One of the most beautiful ideas in math is the analogy between 
+number fields and function fields - the idea that numbers are like
+functions on some sort of &quot;space&quot;.  I began explaining this in
+&quot;<a href = "week205.html">week205</A>&quot;, &quot;<a href = "week216.html">week216</A>&quot; and &quot;<a href = "week218.html">week218</A>&quot;, but there's much more to say
+about what's known... and also many things that remain mysterious.  
+
+<P>
+In particular, it's pretty well understood how number fields resemble
+function fields of complex curves, and how this relates number theory
+to <em>2-dimensional</em> topology.  But, there are also many
+analogies between number theory and <em>3-dimensional</em> topology,
+which I began listing in &quot;<a href =
+"week257.html">week257</A>&quot;.  It seems these analogies are doomed
+to remain mysterious until we get a handle on the field with one
+element.  But more on that later.
+
+<P>
+The simplest sort of &quot;<a href =
+"http://en.wikipedia.org/wiki/Finite_field">finite field</a>&quot;
+comes from choosing a prime number p and taking the integers modulo p.
+The result is sometimes called Z/p, especially when you're just
+concerned with addition.  But when you think of it as a field, it's
+better to call it F<sub>p</sub>.
+
+<P>
+The reason is that there's a finite field of size q whenever q is a
+<em>power</em> of a prime, and this field is unique - so it's called
+F<sub>q</sub>.  You build F<sub>q</sub> sort of like how you build the
+complex numbers starting from the real numbers, or number fields
+starting from the rational numbers.  Namely, to construct
+F<sub>p<sup>n</sup></sub>, you take F<sub>p</sub> and throw in the
+roots of a well-chosen polynomial of degree n: one that doesn't have
+any roots in F<sub>p</sub>, but &quot;wants&quot; to have n different
+roots.
+
+<P>
+Okay: that was a tiny bit about function fields, number fields and finite
+fields.  But now I need to point out some slight lies I told!  
+
+<P>
+I said there was a finite field with q elements whenever q was a prime
+power.  You might think this should include q = 1, since 1 is the
+<em>zeroth</em> power of <em>any</em> prime.  
+
+<P>
+So, is there a field with one element?  
+
+<P>
+If so, it must have 1 = 0.  That doesn't violate the definition of
+a field that I gave you... does it?  The definition said any element 
+that's not 0 has a reciprocal.  In this particular example, 0 also has
+a reciprocal, since we can set 1/0 = 1 and not get into any contradictions.  
+But that's not a problem: in usual math practice, saying &quot;we can divide 
+by anything that's not zero&quot; doesn't deny the possibility that we can
+divide by 0.
+
+<P>
+Unfortunately, allowing a field with 1 = 0 causes nothing but grief.
+For example, we can define vector spaces using any field (people say
+&quot;over&quot; any field), and there's a nice theorem saying two
+vector spaces are isomorphic if and only if they have the same
+dimension.  And normally, there's one vector space of each dimension.
+But the last part isn't true for a field with 1 = 0.  In a vector
+space over such a field, every vector v has
+
+<P>
+v = 1 v = 0 v = 0
+
+<P>
+So, every vector space is 0-dimensional!  
+
+<P>
+To prevent such problems, people add one extra clause to the definition
+of a field:
+
+<PRE>
+ 1 is not equal to 0
+</PRE>
+This clause looks even more tacked-on and silly than the clause
+saying everything <em>nonzero</em> has a reciprocal... but it works fairly
+well.
+
+<P>
+However, the field with one element still wants to exist!  Not the
+silly field with 1 = 0, but something else, something more mysterious...
+something that Gavin Wraith calls a &quot;mathematical phantom&quot;:
+ 
+<P>
+4) Gavin Wraith, Mathematical phantoms,
+<a href = "http://www.wra1th.plus.com/gcw/rants/math/MathPhant.html">http://www.wra1th.plus.com/gcw/rants/math/MathPhant.html</a>
+
+<P>
+What's a mathematical phantom?  According to Wraith, it's an object 
+that doesn't exist within a given mathematical framework, but 
+nonetheless &quot;obtrudes its effects so convincingly that one is forced 
+to concede a broader notion of existence&quot;.
+
+<P>
+Like a genie that talks its way out of a bottle, a sufficiently powerful 
+mathematical phantom can talk us into letting it exist by promising to
+work wonders for us.  Great examples include the number zero, irrational
+numbers, negative numbers, imaginary numbers, and quaternions.  At one 
+point all these were considered highly dubious entities.  Now they're
+widely accepted.  They &quot;exist&quot;.  Someday the field with one element 
+will exist too!
+
+<P>
+Why?
+
+<P>
+I gave a lot of reasons in &quot;<a href = "week183.html">week183</A>&quot;, &quot;<a href = "week184.html">week184</A>&quot;, &quot;<a href = "week185.html">week185</A>&quot;, &quot;<a href = "week186.html">week186</A>&quot; 
+and &quot;<a href = "week187.html">week187</A>&quot;, but let me rapidly summarize.  
+
+<P>
+It's all about &quot;q-deformation&quot;.  In physics, people talk
+about q-deformation when they're taking groups and turning them into
+&quot;quantum groups&quot;.  But it has a closely related aspect
+that's in some ways more fundamental.  When we count things involving
+n-dimensional vector spaces over the finite field F<sub>q</sub>, we
+often get answers that are polynomials in q.  If we then set q = 1,
+the resulting formulas count analogous things involving n-element
+sets!
+
+<P>
+So, finite sets want to be finite-dimensional vector spaces over the 
+(nonexistent) field with one element... or something like that.  We can
+be more precise after looking at some examples.
+
+<P>
+Here's the simplest example.  Say we count lines through the origin 
+in an n-dimensional vector space over F<sub>q</sub>.   We get the &quot;q-integer&quot;
+
+<PRE>
+ q<sup>n</sup> - 1
+------- = 1 + q + q<sup>2</sup> + ... + q<sup>n-1</sup>
+ q - 1
+</PRE>
+
+<P>
+which I'll write as [n] for short.  
+
+<P>
+Setting q = 1, we get n.  This is the number of points in an n-element
+set.  Sure, that sounds silly.  But, I'm trying to make a point here!
+At q = 1, stuff about n-dimensional vector spaces over F<sub>q</sub>
+reduces to stuff about n-element sets, and the q-integer [n] reduces
+to the ordinary integer n.
+
+<P>
+This may not be the best way to understand the pattern, though.
+Lines through the origin in an n-dimensional vector space are the 
+same as points in an (n-1)-dimensional projective space.  So, the
+real analogy may be between &quot;points in a projective space&quot; and 
+&quot;points in a set&quot;.
+
+<P>
+Here's a more impressive example.   Pick any uncombed Young diagram D 
+with n boxes.  Here's one with 8 boxes:
+
+<PRE>
+X                     1 box in the first row
+X X                   3 boxes in the first two rows
+X X X                 6 boxes in the first three rows
+X X                   8 boxes in the first four rows
+</PRE>
+
+Then, count the &quot;D-flags on an n-dimensional vector space over
+F<sub>q</sub>&quot;.  In our example, such a D-flag is:
+
+<PRE>
+    a 1-dimensional subspace
+ of a 3-dimensional subspace
+ of a 6-dimensional subspace
+ of a 8-dimensional vector space over F<sub>q</sub>
+</PRE>
+If you actually count these D-flags you'll get some formula, which is 
+a polynomial in q.  And when you set q = 1, you'll get the number of 
+&quot;D-flags on an n-element set&quot;.  In our example, such a D-flag is:
+
+<PRE>
+   a 1-element subset 
+of a 3-element subset
+of a 6-element subset
+of a 8-element set
+</PRE>
+For details, and a proof that this really works, try:
+
+<P>
+5) John Baez, Lecture 4 in the Geometric Representation Theory
+Seminar, October 9, 2007.  Available at 
+<a href = "http://math.ucr.edu/home/baez/qg-fall2007/qg-fall2007.html#f07_4">http://math.ucr.edu/home/baez/qg-fall2007/qg-fall2007.html#f07_4</a>
+
+<P>
+These examples can be generalized.  In &quot;<a href =
+"week187.html">week187</A>&quot; I showed how to get one example for
+each subset of the dots in any Dynkin diagram!  This idea goes back to
+Jacques Tits, who was the first to suggest that there should be a
+field with one element.  Dynkin diagrams give algebraic groups over
+F<sub>q</sub>... but he noticed that these groups reduce to
+&quot;Coxeter groups&quot; as q &rarr; 1.  And, if you mark some dots
+on a Dynkin diagram you get a &quot;flag variety&quot; on which your
+algebraic group acts... but as q &rarr; 1, this reduces to a finite set
+on which your Coxeter group acts.
+
+<P>
+If you don't understand the previous paragraph, don't worry - it's
+over now.  It's great stuff, but my main point is that there seems to 
+be an analogy like this:
+
+<PRE>
+ q = 1                      q = a power of a prime number    
+
+ n-element set              (n-1)-dimensional projective space over F<sub>q</sub>
+ integer n                  q-integer [n]
+ permutation groups S<sub>n</sub>      projective special linear group PSL(n,F<sub>q</sub>)
+ factorial n!               q-factorial [n]!
+</PRE>
+
+This opens up lots of questions.  For example, if projective spaces over
+F<sub>1</sub> are just finite sets, what should <em>vector spaces</em> 
+over F<sub>1</sub> be?  
+
+<P>
+People have thought about this, and the answer seems to be
+&quot;pointed sets&quot; - sets with a distinguished point, which you
+can think of as the &quot;origin&quot;.  A pointed set with n+1
+elements seems to act like an n-dimensional vector space over
+F<sub>q</sub>.
+
+<P>
+For more clues, and an attempt to do algebraic geometry using the 
+field with one element, try this:
+
+<P>
+6) Christophe Soul&eacute;, On the field with one element, Talk given at the 
+Arbeitstagung, Bonn, June 1999, IHES preprint available at
+<a href = " http://www.ihes.fr/~soule/f1-soule.pdf">http://www.ihes.fr/~soule/f1-soule.pdf</a>
+
+<P>
+Soul&eacute; tries to define &quot;algebraic varieties&quot; over
+F<sub>1</sub>, namely curves and their higher-dimensional
+generalization.  And, he talks a lot about zeta functions for such
+varieties.  He goes into more detail here:
+
+<P>
+7) Christophe Soul&eacute;, Les varietes sur le corps a un element, Moscow
+Math. Jour. 4 (2004), 217-244, 312.
+
+<P>
+The theme of zeta functions - see &quot;<a href =
+"week216.html">week216</A>&quot; - is deeply involved in this
+business.  For more, try these papers:
+
+<P>
+8) N. Kurokawa, Zeta functions over F<sub>1</sub>, Proc. Japan Acad. Ser. A
+Math. Sci. 81 (2006), 180-184.
+
+<P>
+9) Anton Deitmar, Remarks on zeta functions and K-theory over F<sub>1</sub>,
+available as <a href =
+"http://arXiv.org/abs/arXiv:math/0605429">arXiv:math/0605429</A>.
+ 
+<P>
+But instead of talking about zeta functions, I'd like to talk about
+two approaches to giving a formal definition of the field with one
+element.  Both of them involve taking the concept of field and 
+modifying it so it doesn't necessary involve the operation of addition.
+The first one, due to Deitmar, simply throws out addition!  The second,
+due to Nikolai Durov, allows for a wide choice of operations - and thus
+a wide supply of &quot;exotic fields&quot;.
+
+<P>
+For Deitmar's approach, try these:
+
+<P>
+10) Anton Deitmar, Schemes over F<sub>1</sub>, available as <a href = "http://arXiv.org/abs/arXiv:math/0404185">arXiv:math/0404185</A>.
+
+<P>
+F<sub>1</sub>-schemes and toric varieties, available as <a href = "http://arXiv.org/abs/arXiv:math/0608179">arXiv:math/0608179</A>.
+
+<P>
+The usual approach to fields treats fields as specially nice
+commutative rings.  A &quot;<a href =
+"http://en.wikipedia.org/wiki/Commutative_ring">commutative
+ring</a>&quot; is a gadget where you can add and multiply, and these
+rules hold:
+
+<PRE>
+ x + y = y + x        (x + y) + z = x + (y + z)   x + 0 = x
+
+ xy = yx              (xy)z = x(yz)               1x = x
+
+ x(y + z) = xy + xz 
+
+ every element x has an element -x with x + (-x) = 0
+</PRE>
+
+Deitmar throws out addition and treats fields as specially nice
+commutative monoids.  A commutative &quot;<a href =
+"http://en.wikipedia.org/wiki/Commutative_ring">monoid</a>&quot; is a gadget where you can multiply, and these rules
+hold:
+
+<PRE>
+ xy = yx              (xy)z = x(yz)               1x = x
+</PRE>
+
+For Deitmar, the field with one element, F<sub>1</sub>, is just the
+commutative monoid with one element, namely 1.  A &quot;vector space
+over F<sub>1</sub>&quot; is just a set on which this monoid acts via
+multiplication... but that amounts to just a plain old set.  The
+&quot;dimension&quot; of such a &quot;vector space&quot; is just its
+cardinality.
+
+<P>
+All this so far is quite trivial, but Deitmar makes a nice attempt at 
+redoing algebraic geometry to include this field with one element.  
+One reason to do this is to understand the mysterious 3-dimensional
+aspect of number theory.  
+
+<P>
+To explain this, I need to say a bit about &quot;<a href =
+"http://en.wikipedia.org/wiki/Scheme_%28mathematics%29">schemes</a>&quot;.
+In ordinary algebraic geometry, we turn commutative rings into spaces
+to think about them geometrically.  I explained this back in &quot;<a
+href = "week199.html">week199</A>&quot; and &quot;<a href =
+"week205.html">week205</A>&quot;, but let me review quickly, and go
+further:
+
+<P>
+We can think of elements of a commutative ring R as functions on
+certain space called the &quot;<a href =
+"http://en.wikipedia.org/wiki/Spectrum_of_a_ring">spectrum</a>&quot;
+of R, Spec(R).  This space has a topology, so we can also talk about
+functions that are defined, not on all of Spec(R), but just
+<em>part</em> of Spec(R) - namely some open set.  Indeed, for each
+open set U in Spec(R), there's a commutative ring O(U) consisting of
+those functions defined on U.  These commutative rings are related in
+nice ways:
+
+<P>
+<OL>
+<LI>
+If the open set V is smaller than U, we can restrict functions from 
+U to V, getting a ring homomorphism O(U) &rarr; U(V)
+</LI>
+<P>
+<LI>If U is covered by a bunch of open sets U<sub>i</sub>, and we have
+a function f<sub>i</sub> in each O(U<sub>i</sub>), such that
+f<sub>i</sub> and f<sub>j</sub> agree when restricted to the set
+U<sub>i</sub> &cap; U<sub>j</sub>, then there's a unique function f in
+O(U) that restricts to each of these functions f<sub>i</sub>.  </LI>
+</OL>
+
+Something satisfying condition 1 is called a &quot;<a href =
+"http://en.wikipedia.org/wiki/Presheaf#Definition_of_a_presheaf">presheaf</a>&quot;
+of commutative rings; something also satisfying condition 2 is called
+a &quot;<a href =
+"http://en.wikipedia.org/wiki/Sheaf_%28mathematics%29">sheaf</a>&quot;
+of commutative rings.
+
+<P>
+So, Spec(R) is not just a topological space, it's equipped with a
+sheaf of commutative rings.  People call this a &quot;<a href =
+"http://en.wikipedia.org/wiki/Ringed_space">ringed space</A>&quot;.
+
+<P>
+Whenever we have a ringed space, we can ask if it comes from a
+commutative ring R in the way I just sketched.  If so, we call it an
+&quot;affine scheme&quot;.  Affine schemes are just a fancy
+geometrical way of talking about commutative rings!
+
+<P>
+More interestingly, whenever we have a ringed space, we can ask if
+it's <em>locally</em> isomorphic to one coming from a commutative ring.  
+In other words: does every point have a neighborhood that, as a
+ringed space, looks like Spec(R) for some commutative ring R?
+Or in other words: is our ringed space <em>locally</em> isomorphic to an
+affine scheme?  If so, we call it a &quot;scheme&quot;.  
+
+<P>
+A classic example of a scheme that's not an affine scheme is the
+Riemann sphere.  There aren't any rational functions defined on the
+whole Riemann sphere, except for constants - the rest all blow up 
+somewhere.  So, it's hopeless trying to think of the Riemann sphere
+as an affine scheme.
+
+<P>
+But, for any open set U in the Riemann sphere there's a commutative
+ring O(U) consisting of rational functions that are defined on U.  So,
+the Riemann sphere becomes a ringed space.  And, it's <em>locally</em>
+isomorphic to the complex plane, which is the affine scheme
+corresponding to the commutative ring of complex polynomials in one
+variable.  So, the Riemann sphere is a scheme!
+
+<P>
+For more on schemes, try this nice introduction, which actually
+has lots of pictures:
+
+<P>
+11) David Eisenbud and Joe Harris, 
+The Geometry of Schemes, Springer, Berlin, 2000.
+
+<P>
+Now, we can talk about schemes &quot;over a field F&quot;, meaning
+that each commutative ring O(U) is also a vector space over F, in a
+well-behaved way, giving us a &quot;sheaf of commutative rings over
+F&quot;.  For example, the Riemann sphere is a scheme over C.
+
+<P>
+There's a secret 3-dimensional aspect to the affine scheme Spec(Z),
+where Z is the commutative ring of integers.  As explained in the
+Addenda to &quot;<a href = "week257.html">week257</A>&quot;, we might
+understand this if we could see Spec(Z) as a scheme over the field
+with one element!  For more, see this:
+
+<P>
+12) M. Kapranov and A. Smirnov, Cohomology determinants and 
+reciprocity laws: number field case, available at 
+<a href = "http://wwwhomes.uni-bielefeld.de/triepe/F1.html">http://wwwhomes.uni-bielefeld.de/triepe/F1.html</a>
+
+<P>
+So, we really need a theory of schemes over the field with one
+element.  The problem is, F<sub>1</sub> isn't really a field.  In
+Deitmar's approach, it's just a commutative monoid.
+
+<P>
+So, let me sketch how Deitmar gets around this.  In a nutshell, he takes
+advantage of the fact that a lot of basic algebraic geometry only requires 
+multiplication, not addition!
+
+<P>
+He starts by defining a &quot;commutative ring over
+F<sub>1</sub>&quot; to be simply a commutative monoid.  The simplest
+example is F<sub>1</sub> itself.
+
+<P>
+Now, watch how he gets away with never using addition:
+
+<P>
+He defines an &quot;ideal&quot; in a commutative monoid R to be a
+subset I for which the product of something in I with anything in R
+again lies in I.  He says an ideal P is &quot;prime&quot; if whenever
+a product of two elements in R is in P, at least one of them is in P.
+
+<P>
+He defines the &quot;spectrum&quot; Spec(R) of a commutative monoid R
+to be the set of its prime ideals.  He gives this the &quot;Zariski
+topology&quot;.  That's the topology where the closed sets are the
+whole space, or any set of prime ideals that contain a given ideal.
+
+<P>
+He then shows how to get a sheaf of commutative monoids on Spec(R).
+He defines a &quot;scheme&quot; to be a space equipped with a sheaf of 
+commutative monoids that's <em>locally</em> isomorphic to one of this sort. 
+
+<P>
+If you know algebraic geometry, these definitions should seem very
+familiar.  And if you don't, you can just replace the word &quot;monoid&quot;
+by &quot;ring&quot; everywhere in the previous three paragraphs, and you'll get
+the standard definitions in algebraic geometry!
+
+<P>
+Deitmar shows how to build a scheme over F<sub>1</sub> called the
+&quot;projective line&quot;.  The projective line over C is just the
+Riemann sphere.  The projective line over F<sub>1</sub> has just two
+points (or more precisely, two closed points).  This is good, because
+the projective line over the field with q elements has
+
+<P>
+[2] = 1 + q
+
+<P>
+points, and we're doing the q = 1 case.  
+
+<P>
+Deitmar's construction seems like a lot of work to get ahold of the 
+2-element set, if that's all it secretly is.  But, I need to think 
+about this more.  After all, he doesn't just get a space; he gets a 
+sheaf of commutative monoids on this space!  And what's that like?
+I should work it out.
+
+<P>
+Deitmar also shows how to relate schemes over F<sub>1</sub> to the usual sort
+of schemes.
+
+<P>
+From a commutative ring, we can always get a commutative monoid just
+by forgetting the addition.  This process has a kind of reverse, too.
+Namely, from a commutative monoid, we can get a commutative ring 
+simply by taking formal integral linear combinations of elements.  
+Using this, Deitmar shows how we can turn ordinary schemes into 
+schemes over F<sub>1</sub>... and conversely.  He says an ordinary scheme is 
+&quot;defined over F<sub>1</sub>&quot; if it arises in this way from a scheme over F<sub>1</sub>.  
+
+<P>
+Okay, that's a taste of Deitmar's approach.  For Durov's approach, 
+try this mammoth 568-page paper:
+
+<P>
+13) Nikolai Durov, New approach to Arakelov geometry, available as
+<a href = "http://arxiv.org/abs/0704.2030">arXiv:0704.2030</a>.
+
+<P>
+or read our discussions of it at the <em>n</em>-Category Caf&eacute;, 
+starting here:
+
+<P>
+14) David Corfield, The field with one element, 
+<a href = "http://golem.ph.utexas.edu/category/2007/04/the_field_with_one_element.html">http://golem.ph.utexas.edu/category/2007/04/the_field_with_one_element.html</a>
+
+<P>
+Durov defines a &quot;generalized ring&quot; to be what Lawvere much
+earlier called an &quot;algebraic theory&quot;.  What is it?  Nothing
+scary!  It's just a gadget with a bunch of abstract n-ary operations
+closed under composition, permutation, duplication and deletion of
+arguments, and equipped with an identity operation.
+
+<P>
+So, for example, if our gadget has a binary operation 
+
+<P>
+(x,y) |&rarr; f(x,y)
+
+<P>
+we can compose this with itself to get the ternary operation
+
+<P>
+(x,y,z) |&rarr; f(f(x,y),z)
+
+<P>
+and the 4-ary operation
+
+<P>
+(w,x,y,z) |&rarr; f(w,f(x,f(y,z)))
+
+<P>
+and so on.  We can then permute arguments in our 4-ary operation
+to get one like this:
+
+<P>
+(w,x,y,z) |&rarr; f(z,f(x,f(w,y)))
+
+<P>
+or duplicate some arguments to get a binary operation like this
+
+<P>
+(x,y) |&rarr; f(x,f(x,f(y,y)))
+
+<P>
+From this we can then form a 3-ary operation by deleting an argument,
+for example like this:
+
+<P>
+(x,y,z) |&rarr; f(x,f(x,f(y,y)))
+
+<P>
+If you know about 
+&quot;<a href = "http://en.wikipedia.org/wiki/Operad_theory">operads</a>&quot;,
+this kind of gadget is just a specially 
+nice operad where we can duplicate and delete operations.  
+ 
+<P>
+Now, a generalized ring is said to be &quot;commutative&quot; if all the 
+operations commute in a certain sense.  (I'll let you guess what
+it means for an n-ary operation to commute with an m-ary operation.)
+We get an example of a commutative generalized ring from a commutative 
+ring R if we let the n-ary operations be &quot;n-ary R-linear 
+combinations&quot;, like this:
+
+<P>
+(x<sub>1</sub>, ..., x<sub>n</sub>) |&rarr; r<sub>1</sub> x<sub>1</sub> + 
+... + r<sub>n</sub> x<sub>n</sub>           
+
+<P>
+We also get a very similar example from any commutative &quot;<a href =
+"http://en.wikipedia.org/wiki/Semiring">rig</a>&quot;,
+which is a gizmo satisfying rules like those of a commutative ring,
+but without negatives:
+
+<PRE>
+ x + y = y + x        (x + y) + z = x + (y + z)   x + 0 = x
+
+ xy = yx              (xy)z = x(yz)               1x = x
+
+ x(y + z) = xy + xz 
+</PRE>
+
+And, we get an example from any commutative monoid, where we only
+have 1-ary operations, coming from multiplication by elements of
+our monoid:
+
+<P>
+(x<sub>1</sub>) |&rarr; r x<sub>1</sub>
+
+<P>
+So, Durov's framework generalizes Deitmar's!  But, it includes a lot
+more examples: exotic hothouse flowers like the &quot;tropical rig&quot;, the
+&quot;real integers&quot;, and more.  He develops a theory of schemes for all
+these generalized rings, and builds it &quot;up to construction of algebraic 
+K-theory, intersection theory and Chern classes&quot; - fancy things that
+algebraic geometers like.
+
+<P>
+What I don't yet see is how either Deitmar's or Durov's approach
+helps us understand the secret 3-dimensional nature of Spec(Z).  
+I may just need to read their papers more carefully and think about
+them more.
+
+<P>
+Finally, here's yet another approach to the field with one element:
+
+<P>
+15) Bertrand Toen and M. Vaquie, Under Spec(Z), available as 
+<a href = "http://arxiv.org/abs/math/0509684">arXiv:math/0509684</a>.
+
+<P>
+16) Shai Haran, Non-additive geometry, Composito Mathematica 143
+(2007), 613-638.  
+
+<P>
+Toen describes interesting relations between algebra over F<sub>1</sub> and
+stable homotopy theory.  Haran even suggests that the Riemann
+Hypothesis could be proved if we understood enough about the geometry
+of schemes over F<sub>1</sub>!  This is fascinating... I don't understand it,
+but I want to.
+
+<P>
+In short, a mathematical phantom is gradually taking solid form before our
+very eyes!   In the process, a grand generalization of algebraic geometry
+is emerging, which enriches it to include some previously scorned 
+entities: rigs, monoids and the like.  And, this enrichment 
+holds the promise of shedding light on some otherwise impenetrable
+mysteries: for example, the deep inner meaning of 
+q-deformation, and the 3-dimensional nature of Spec(Z).
+
+
+<P>
+<HR>
+<P>
+<b>Addenda</b>: I thank Thomas Riepe and David Corfield for drawing my
+attention to the paper by Shai Haran.  Thomas Riepe also recommends
+the following online introduction to schemes:
+
+<p>
+17) Marc Levine, Summer course in motivic homotopy theory, available at 
+<a href = "http://www.math.neu.edu/~levine/publ/SummerSchoolAG.pdf">
+http://www.math.neu.edu/~levine/publ/SummerSchoolAG.pdf</a>
+
+<p>
+Kevin Buzzard has a word of advice about the "generic point":
+
+<blockquote>
+
+<pre>
+  We can think of elements of a commutative ring R as functions on
+  certain space called the "spectrum" of R, Spec(R).
+</pre>
+
+So this is the set of all <em>prime</em> ideals of R, right? Not just
+the maximal ones? So...
+
+<pre>
+  So, the Riemann sphere is a scheme!
+</pre>
+
+Well, you have to throw in a mystical extra "generic point" if you really
+want to make it a scheme :-) Corresponding to the zero ideal. My
+impression is that most non-algebraic geometers think that the generic
+point is either confusing or just plain daft. But believe me, it's a
+<em>really</em> good idea! For decades in the literature in algebraic geometry
+people were using the word "generic" to mean "something that was true most
+of the time" - in fact a "generic point" is probably another really good
+example of a phantom! For example a meromorphic function on the Riemann
+sphere that wasn't zero would be "generically non-zero" to people like
+Borel and Weil, and if you asked them for a definition they would say
+that it just meant something like "the zero locus in the space had a
+smaller dimension than the whole space" or "the zero locus was
+nowhere dense in any component of the space" or something, and of course
+people could even make rigorous definitions that worked in particular
+cases and so on, but then Grothendieck came along with his "generic
+point", corresponding to the zero ideal [note to sub: check to see whether the
+idea was in the literature pre-Grothendieck!] and suddenly a function that
+was "generically non-zero" was just a function which was non-zero on the
+generic point! Such a cool way of doing it :-)
+
+<p>
+Kevin
+</blockquote>
+
+<p>
+If you get stuck on my puzzle "what does it mean for
+an n-ary operation to commute with an m-ary operation?", let me just
+show you what it means for a binary operation f to commute with a 
+ternary operation g.  It means:
+
+<p>
+g(f(x<sub>1</sub>,x<sub>2</sub>), 
+f(x<sub>3</sub>,x<sub>4</sub>),
+f(x<sub>5</sub>,x<sub>6</sub>)) = 
+f(g(x<sub>1</sub>,x<sub>2</sub>,x<sub>3</sub>),
+g(x<sub>4</sub>,x<sub>5</sub>,x<sub>6</sub>))
+<p>
+
+I hope this example gives away the general pattern.
+
+<p>
+If this is confusing, look
+at the case where we start with a ring R and take as our
+n-ary operations the "n-ary R-linear combinations"
+
+<p>
+(x<sub>1</sub>, ..., x<sub>n</sub>) |&rarr; r<sub>1</sub> x<sub>1</sub> +
+... + r<sub>n</sub> x<sub>n</sub>
+<p>
+
+with r<sub>i</sub> in R.  Here an example of a binary operation is addition:
+
+<p>
+(x<sub>1</sub>, x<sub>2</sub>) |&rarr; x<sub>1</sub> + x<sub>2</sub>
+
+<p>
+while every unary operation is multiplication by some element of R:
+
+<p>
+x<sub>1</sub> |&rarr; r x<sub>1</sub>
+
+<p>
+To say "addition commutes with multiplication by an element of R"
+means that
+
+<p>
+r(x<sub>1</sub> + x<sub>2</sub>) = rx<sub>1</sub> + rx<sub>2</sub>
+
+<p>
+This is just the distributive law so it holds for any ring R.
+
+<p>
+But, for the unary operations to commute with each other, we need R
+to be commutative, since this says:
+
+<p>
+r(s x<sub>1</sub>) = s (r x<sub>1</sub>)
+
+<p>
+(In the calculations I just did, we can either think of the x<sub>i</sub>
+as elements of a specific R-module, or more abstractly as "dummy variables"
+used to describe the ring R as a generalized ring in Durov's sense -
+what Lawvere calls an algebraic theory.)
+
+<p>
+For more discussion, go to the
+<a href = "http://golem.ph.utexas.edu/category/2007/12/this_weeks_finds_in_mathematic_19.html"><em>n</em>-Category Caf&eacute;</a>.
+
+
+
+<HR>
+<em>The analogy between number fields and function fields finds a 
+basic limitation with the lack of a ground field.  One says that Spec(Z)
+(with a point at infinity added, as is familiar in Arakelov geometry) is 
+like a (complete) curve, but over which field?</em> - Christophe Soul&eacute;
+
+<p>
+<HR><P>
+<!-- BEGIN FOOTER -->
+&#169; 2007  John Baez<br>
+baez@math.removethis.ucr.andthis.edu <br>
+<P>
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week258.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week260.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE><!-- END FOOTER -->

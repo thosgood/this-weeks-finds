@@ -1,0 +1,236 @@
+<TITLE> week45 </TITLE>
+
+<!-- BEGIN HEADER -->
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week44.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week46.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE><H4>November 12, 1994</H4>
+<H2> This Week's Finds in Mathematical Physics (Week 45) </H2>
+<H4> John Baez </H4>
+<!-- END HEADER -->
+
+<P>
+This Week's Finds 45 - Donaldson Theory Update
+
+<P>
+In the previous edition of "This Week's Finds" I mentioned a burst of
+recent work on Donaldson theory. I provocatively titled it "The End of
+Donaldson Theory?", since the rumors I was hearing tended to be phrased
+in such terms.  But I hope I made it clear at the conclusion of the
+article that this recent work should lead to a lot of <em>new</em> results in
+4-dimensional topology!  An example is Kronheimer and Mrowka's proof of
+the Thom conjecture.  
+
+<P>
+Many thanks to my network of spies for obtaining a preprint of the
+following paper:
+
+
+<P>
+1) The genus of embedded surfaces in the projective plane, by 
+P. B. Kronheimer and T. S. Mrowka, 10 pages.
+
+
+<P>
+Let me simply quote the beginning of the paper:
+
+<P>
+<HR>
+"The genus of a smooth algebraic curve of degree d in CP^2 is given by
+the formula g = (d-1)(d-2)/2.  A conjecture sometimes attributed to Thom
+states that the genus of the algebraic curve is a lower bound for the
+genus of any smooth 2-manifold representing the same homology class. The
+conjecture has previously been proved for d &lt;= 4 and for d =6, and less
+sharp lower bounds for the genus are known for all degrees [references
+omitted].  In this note we confirm the conjecture.
+ 
+<P>
+Theorem 1.  Let S be an oriented 2-manifold smoothly embedded in CP^2 so
+as to represent the same homology class as an algebraic curve of degree
+d.  Then the genus g of S satisfies g &gt;= (d-1)(d-2)/2.
+
+<P>
+Very recently, Seiberg and Witten [references below] introduced new
+invariants of 4-manifolds, closely related to Donaldson's polynomial
+invariants [reference omitted], but in many respects much simpler to
+work with.  The new techniques have led to more elementary proofs of
+many theorems in the area.  Given the monopole equation and the
+vanishing theorem which holds when the scalar curvature is positive
+(something which was pointed out by Witten), the rest of the argument
+presented here is not hard to come by.  A slightly different proof of
+the Theorem, based on the same techniques, has been found by Morgan,
+Szabo and Taubes."
+<HR>
+
+<P>
+The reference to Donaldson's polynomial invariants appears in "<A HREF = "week44.html">week44</A>".
+The references to the new Seiberg-Witten invariants are:
+
+
+<P>
+2) Monopoles and four-manifolds, by Edward Witten, in preparation.  
+ 
+<P>
+Electric-magnetic duality, monopole condensation, and confinement in N=2
+supersymmetric Yang-Mills theory, by Edward Witten and Nathan Seiberg,
+45 pages, available as <A HREF = "http://xxx.lanl.gov/abs/hep-th/9407087">hep-th/9407087</A>.
+
+<P>
+Monopoles, duality and chiral symmetry breaking in N=2 supersymmetric
+QCD, by Edward Witten and Nathan Seiberg, 89 pages, available as
+<A HREF = "http://xxx.lanl.gov/abs/hep-th/9408099">hep-th/9408099</A>.  
+
+
+<P>
+Differential geometers attempting to read the second two papers will
+find that they contain no instance of the term "Donaldson theory", and
+they may be frustrated to find that these are very much <em>physics</em> papers.
+They concern the ground states of supersymmetric Yang-Mills theory in 4
+dimensions with gauge group SU(2).  The "ground states" of a field
+theory are its least-energy states, which represent candidates for the
+physical vacuum.  In certain theories there is not a unique ground
+state, but instead a "moduli space" of ground states.  Seiberg and
+Witten study these moduli spaces of ground states in both the classical
+and quantum versions of SU(2) supersymmetric Yang-Mills theory in 4
+dimensions.  They also consider the theory coupled to spinor fields,
+which they call "quarks", using the analogy of the theory to quantum
+chromodynamics, aka "QCD".
+
+<P>
+I haven't had time to go through their papers, since this isn't my main
+focus of interest.  Perhaps the most useful thing I can do at this point
+is to use Kronheimer and Mrowka's clear description of their moduli
+space (which is presumably closely related to Seiberg and Witten's
+moduli spaces) to simplify and fill in the holes of what I wrote in
+"<A HREF = "week44.html">week44</A>".  I will aim my exposition to mathematicians, but make some
+elementary digressions on physics to spice things up.
+
+<P>
+We start with a compact oriented Riemannian 4-manifold X, and assume we
+are given Spin-c structure on X.  Recall the meaning of this.  First,
+the orthonormal frame bundle of X has structure group SO(4), and a spin
+structure would be a double cover of this which is a principal bundle
+with structure group given by the double cover of SO(4), namely SU(2) x
+SU(2).  Thus we get two principal bundles with structure group SU(2),
+the left-handed and right-handed spin bundles.  Using the fundamental
+representation of SU(2), we obtain two vector bundles called the bundles
+of left-handed and right-handed spinors.  This "handedness" or
+"chirality" phenomenon for spinors is of great importance in physics,
+since neutrinos are left-handed spinors --- meaning, in down-to-earth
+terms, that they always spin clockwise relative to their direction of
+motion.  The fact that the laws of nature lack chiral symmetry came as
+quite a shock when it was first discovered, and part of Seiberg and
+Witten's motivation in their second paper is to study mechanisms for
+"spontaneous breaking" of chiral symmetry.  This means simply that while
+the theory has chiral symmetry, its ground states need not.
+
+<P>
+A Spin-c structure is a bit more subtle, but it allows us to define
+bundles of left-handed and right-handed spinors as U(2) bundles,
+which Kronheimer and Mrowka denote by W+ and W-.  The determinant
+bundle L of W+ is a line bundle on X.  The first big ingredient of the
+theory is a hermitian connection A on L.  In physics lingo this is the
+vector potential of a U(1) gauge field.  This gives a Dirac operator D_A
+mapping sections of W+ to sections of W-.  The connection A has
+curvature F, and the self-dual part F+ of F can be identified with a
+section of sl(W+).  (This is just a global version of the isomorphism
+between the self-dual part of &Lambda;^2 C^4 and sl(2,C).)
+
+<P>
+The second big ingredient of the theory is a section &Psi; of W+, i.e. a 
+left-handed spinor field.  There is a way to pair two sections of 
+W+ to get a section of sl(W+), which we write as &sigma;(.,.) and which is 
+conjugate-linear in the first argument and linear in the second.
+This is a global version of the similar pairing 
+
+<P>
+<PRE>
+                     &sigma;(.,.): C^2 x C^2 &rarr; sl(2,C)
+</PRE>
+
+<P>
+where &sigma;(v,w) given by taking the traceless part of the 2x2 matrix 
+v* tensor w.  Here v* is the element of the dual of C^2 coming from 
+v via the inner product on C^2.
+
+<P>
+To get the magical moduli space, we consider solutions (A,&psi;) of
+
+<P>
+<PRE>
+                       D_A &psi; = 0
+                       F+ = i &sigma;(&psi;,&psi;).
+</PRE>
+
+<P>
+Here we are thinking of F+ as a section of sl(W+).  These are pretty
+reasonable equations for some sort of massless left-handed spinor field
+coupled to a U(1) gauge field.  Let M be the space of solutions modulo
+gauge transformations.  Kronheimer and Mrowka show the "moduli space" M
+is compact.   
+
+<P>
+One can also perturb the equations above as follows.  If we have
+any self-dual 2-form &delta; on X we can consider
+
+<P>
+<PRE>
+                       D_A &psi; = 0
+                       F+ + i &delta; = i &sigma;(&psi;,&psi;).
+</PRE>
+
+<P>
+and get a moduli space M(&delta;).  This will still be compact if &delta; is
+nice (here I gloss over issues of analysis).  
+
+<P>
+Now, if X has an almost complex structure, Kronheimer and Mrowka show
+that one can pick a Spin-c structure for X such that, for "good" metrics
+and generic small &delta;, M(&delta;) is a compact 0-dimensional manifold.
+Using this fact and some geometrical yoga, it follows that the number n of
+points in M(&delta;), counted mod 2, is independent of (such) &delta;.
+(This is essentially a glorified version of the fact that, when you look
+at the multiple images of an object in a warped mirror and slowly bend
+the mirror, the images generically appear or disappear in pairs.)
+Moreover, if the self-dual Betti number b+ of X is &gt; 1, the space of
+good metrics is path-connected, and n mod 2 is independent of the choice
+of good metric.  Kronheimer and Mrowka call this a "simple mod 2 version
+of the invariants of Seiberg and Witten".  It is one ingredient of their
+proof of the Thom conjecture.  
+<HR><P>
+<!-- BEGIN FOOTER -->
+&#169; 1994  John Baez<br>
+baez@math.removethis.ucr.andthis.edu <br>
+<P>
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week44.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week46.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE><!-- END FOOTER -->

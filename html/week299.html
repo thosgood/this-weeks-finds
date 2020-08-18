@@ -1,0 +1,1257 @@
+<TITLE> week299 </TITLE>
+
+<!-- BEGIN HEADER -->
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week298.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week300.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE>
+<H4> June 12, 2010 </H4>
+<H2> This Week's Finds in Mathematical Physics (Week 299) </H2>
+<H4> John Baez </H4>
+<!-- END HEADER -->
+
+<P>
+Two weeks ago I went to Oxford to attend a school on Quantum
+Information and Computer Science, and then a workshop on Quantum
+Physics and Logic.  So, I'll start by telling you about those.
+
+<P>
+I'll show you where you can see videos of the talks.  You can learn
+about string diagrams and see how people use these in quantum
+physics.  You can even watch a program called &quot;Quantomatic&quot;
+automatically carry out some string diagram computations!  I'll
+explain how classical structures give Frobenius algebras, and how
+complementary classical structures almost give Hopf algebras.  And then
+I'll tell you about Aaron Fenyes' no-cloning theorem for classical
+mechanics.  There was a lot more to the conference, but that's all
+I have the energy for.
+
+<P>
+Why?  Well, after I came home, my friend the combinatorist Bill
+Schmitt paid me a visit.  He told me a lot of interesting stuff about
+about &quot;pre-Lie algebras&quot;.  These are algebraic gadgets with deep
+connections to trees, operads, and the work of Connes and Kreimer on
+renormalization in quantum field theory.  So, I want to tell you about
+that stuff, too.
+
+<P>
+Let's get started.  You can see all the talks here:
+
+<P>
+1) Oxford Quantum Talks Archive, 
+<a href = "http://www.comlab.ox.ac.uk/quantum/content/">
+http://www.comlab.ox.ac.uk/quantum/content/</a>  <br/>
+QICS Spring School 2010, talks available at <a href = "http://www.comlab.ox.ac.uk/quantum/content/events.html#QICS%20spring%20school%202010">http://www.comlab.ox.ac.uk/quantum/content/events.html#QICS%20spring%20school%202010</a><br/>
+Quantum Physics and Logic 2010, talks available at <a href = "http://www.comlab.ox.ac.uk/quantum/content/events.html#Quantum%20Physics%20and%20Logic%202010">http://www.comlab.ox.ac.uk/quantum/content/events.html#Quantum%20Physics%20and%20Logic%202010</a>
+
+<P>
+I've been using pictures called &quot;string diagrams&quot; for a long
+time here on This Week's Finds, and I've tried to explain them, but
+these talks give a nice systematic treatment:
+
+<P>
+2) Introduction to monoidal categories and graphical calculus.<br/>
+Lecture 1 by Chris Heunen, available at 
+<a href = "http://www.comlab.ox.ac.uk/quantum/content/1005005/">http://www.comlab.ox.ac.uk/quantum/content/1005005/</a> <br/>
+Lecture 2 by Jamie Vicary, available at 
+<a href = "http://www.comlab.ox.ac.uk/quantum/content/1005010/">http://www.comlab.ox.ac.uk/quantum/content/1005010/</a>
+
+<P>
+With the help of these diagrams we can think about many, many things.
+In particular, we can use them to describe processes in quantum
+mechanics.  Feynman diagrams are an example.  But now people in
+quantum information theory are using them in very different ways.  For
+example, they're using them to study &quot;classical structures&quot; in quantum
+mechanics.
+
+<P>
+What's a classical structure?  The basic idea is simple.  You can't
+&quot;clone a quantum&quot;.  In other words, you can't build a &quot;quantum copying
+machine&quot; where you feed in a quantum system in an arbitrary state and
+have two identical copies pop out, both in the same state.  
+
+<P>
+Why not?  Well, you could try to measure everything about your system
+and make a copy where all those measurements have the same values.
+But you can never succeed!  Measuring one thing will change the values
+of other things you already measured, in uncontrollable random ways.
+So you can never know everything about your system... not all at once!
+So, it's impossible to make an exact copy.
+
+<P>
+However, sometimes measuring one thing does <i>not</i> mess up the
+value of something else you measured.  Quantities that get along this
+way are called &quot;commuting&quot; observables.  A &quot;classical
+structure&quot; is a set of commuting observables that's as big as
+possible.  And for each classical structure, we can build a copying
+machine that works for <i>these</i> observables.
+
+<P>
+For example, there's no way to take an electron, stick it in a copying
+machine, and duplicate everything about it.  You can measure the spin
+of an electron along any axis.  If you measure the spin along the x
+axis you get one of two results: &quot;up&quot; or &quot;down&quot;.
+Similarly for the spin along the y axis.  However, measuring the
+spin along the x axis messes up its spin along the y axis.
+
+<P>
+So, you can build a machine that takes an electron, measures its spin
+along the x axis, and spits out two electrons in that same state:
+either &quot;spin-up&quot; or &quot;spin-down&quot; along the x axis.
+But if you put an electron with spin up along the y axis in this
+machine, it will not be correctly duplicated.
+
+<P>
+In this example, there's a classical structure consisting of the spin
+along the x axis, and every function of this observable... but this
+classical structure does <i>not</i> include the spin along the y axis.
+
+<P>
+Here's a quick sketch of how the math works.  If you're a
+mathematician, this should be far less confusing than the prose you
+just suffered through.  In fact, you may be left wondering why I
+turned such simple math into such murky prose.  But that's typical 
+of quantum mechanics: the math is crystal clear, but when you try 
+to explain how it describes the real world, it starts sounding mysterious.
+
+<P>
+Suppose H is a Hilbert space.  If we were trying to build a quantum
+copying machine, it would be nice to have a linear operator like this:
+
+<P>
+H  &rarr; H &otimes; H <br/>
+&psi; |&rarr; &psi; &otimes; &psi;
+
+<P>
+But this operator is not linear, because doubling &psi; would quadruple
+&psi; &otimes; &psi;.   
+
+<P>
+Life gets easier when we have a classical structure.  An
+&quot;observable&quot; in quantum mechanics is a self-adjoint
+operator.  So, a &quot;classical structure&quot; is a maximal set of
+commuting self-adjoint operators.  If H is finite-dimensional, we can
+get any classical structure from an orthonormal basis.  How?  Just
+take all the self-adjoint operators that are diagonal in that basis.
+
+<P>
+If you pick an orthonormal basis for H, say e<sub>i</sub>, there's a unique
+linear operator that duplicates states in that basis:
+
+<P>
+H &rarr; H &otimes; H  <br/>
+e<sub>i</sub> |&rarr; e<sub>i</sub> &otimes; e<sub>i</sub>
+
+<P>
+So, this is how a classical structure gives a &quot;duplication operator&quot;.
+
+<P>
+Here's where the string diagrams come in.  We can draw our duplication
+operator in a funny symbolic way like this:
+
+<P>
+<div align = "center">
+<img src = "comultiplication.jpg">
+</div>
+
+<P>
+This is a picture of a 2d surface where one circle comes in and two
+go out - a kind of metaphor for duplication.   We'll see why it's a 
+good metaphor in a minute.
+
+<P>
+There's another thing we can do after we've picked an orthonormal
+basis for our Hilbert space H: we can define a &quot;deletion operator&quot;
+
+<P>
+H &rarr; C <br/>
+e<sub>i</sub> |&rarr; 1
+
+<P>
+which sends each state in the basis to the number 1.  Here C is the
+complex numbers, a 1-dimensional Hilbert space.  We can think of C as
+a kind of &quot;garbage bin&quot;, and think of our operator as
+&quot;throwing out&quot; states in our basis.  We can draw it as a
+cup-shaped thing, like this:
+
+<P>
+<div align = "center">
+<img src = "counit.jpg">
+</div>
+
+<P>
+This is not really a picture of a garbage bin, though it looks like
+that too.  It's a picture of a 2d surface where one circle comes in 
+and <i>none</i> go out!
+
+<P>
+Now, the cool part is that our duplication and deletion operators
+satisfy rules that look very intuitive in terms of these pictures.
+For example, if we duplicate a state and then duplicate one of the
+copies, it doesn't matter which copy we duplicate.  And if we
+duplicate a state and then delete either copy, it's the same as not
+doing anything:
+
+<P>
+<div align = "center">
+<img src = "comonoid_laws.jpg">
+</div>
+                             
+<P>
+These rules are &quot;topologically true&quot;: to get one of these
+equations, we just take one picture and wiggle it and warp it until it
+looks like another.
+
+<P>
+There are a bunch of other rules.  Almost all of them are
+topologically true - exactly what you'd dream up by playing
+around with pictures of 2d surfaces.  But to write down these rules,
+you need to notice that any operator between Hilbert spaces has an
+adjoint going the other way.  So, besides duplication:
+
+<P>
+H &rarr; H &otimes; H
+
+<P>
+we have its adjoint:
+
+<P>
+H &otimes; H &rarr; H
+
+<P>
+which we draw just like duplication, except upside-down:
+
+<P>
+<div align = "center">
+<img src = "multiplication.jpg">
+</div>
+
+<P>
+and besides deletion:
+
+<P>
+H &rarr; C
+
+<P>
+we have its adjoint:
+
+<P>
+C &rarr; H
+
+<P>
+which we draw just like deletion, except upside-down:
+
+<P>
+<div align = "center">
+<img src = "unit.jpg">
+</div>
+
+
+<P>
+In math we call these four operators the &quot;multiplication&quot;:
+
+<P>
+m: H &otimes; H &rarr; H
+
+<P>
+the &quot;unit&quot;:
+
+<P>
+i: C &rarr; H
+
+<P>
+the &quot;comultiplication&quot;:
+
+<P>
+&Delta;: H &rarr; H &otimes; H
+
+<P>
+and the &quot;counit&quot;:
+
+<P>
+e: H &rarr; C
+
+<P>
+And we can summarize all the rules these operators obey by saying that
+H is a &quot;special commutative dagger-Frobenius algebra&quot;.  That's a
+mouthful, but as I said, almost all these rules come from topologically 
+allowed manipulations on 2d surfaces.   
+
+<P>
+What are these rules?  Well, I listed the rules for a Frobenius
+algebra back in &quot;<a href = "week268.html">week268</a>&quot;.
+There are the &quot;associative law&quot; and the &quot;left and right
+unit laws&quot;:
+
+<P>
+<div align = "center">
+<img src = "monoid_laws.jpg">
+</div>
+
+together with the &quot;coassociative law&quot; and &quot;left and
+right counit laws&quot;, which we've already seen:
+
+<P>
+<div align = "center">
+<img src = "comonoid_laws.jpg">
+</div>
+
+and, last but not least, the &quot;Frobenius laws&quot;:
+
+<P>
+<div align = "center">
+<img src = "frobenius_laws.jpg">
+</div>
+
+Next, we say a Frobenius algebra is &quot;commutative&quot; if it
+obeys this extra law, which is also topologically true:
+
+<P>
+<div align = "center">
+<img src = "commutative_law.jpg">
+</div>
+
+<P>
+We say a Frobenius algebra is &quot;special&quot; if it obeys yet
+another law, which I'll show you later.  So the only extra thing you
+need to know is what's a &quot;dagger-Frobenius&quot; algebra.  And
+that's just a Frobenius algebra that's also a Hilbert space, where the
+multiplication and unit are adjoint to the comultiplication and
+counit!  For more, try these papers:
+
+<P>
+3) Bob Coecke and Dusko Pavlovic, Quantum measurements without sums,
+in The Mathematics of Quantum Computation and Technology, eds. Chen,
+Kauffman and Lomonaco, Chapman and Hall/CRC, New York, pp. 559-596.
+Also available as <a href = "http://arXiv.org/abs/quant-ph/0608035">arXiv:quant-ph/0608035</A>.
+
+<P>
+4) Jamie Vicary, Categorical formulation of quantum algebras,
+available as <a href = "http://arXiv.org/abs/0805.0432">arXiv:0805.0432</a>.
+
+<P>
+5) Bob Coecke, Dusko Pavlovic and Jamie Vicary, A new description of
+orthogonal bases, available as <a href = "http://arXiv.org/abs/0810.0812">arXiv:0810.0812</a>
+
+<P>
+But what's really going on with all these pictures of 2d surfaces?  You
+see them a lot in topological quantum field theory.  Indeed, in
+&quot;<a href = "week268.html">week268</A>&quot; I explained that a
+commutative Frobenius algebra is exactly what we need to get a 2d
+topological quantum field theory, or TQFT for short.  This is a way of
+making precise the idea that any of these pictures gives a
+well-defined operator - and warping or wiggling the picture doesn't
+change the operator.
+
+<P>
+Even better, a commutative <i>dagger</i>-Frobenius algebra is exactly what we
+need to get a &quot;unitary&quot; 2d TQFT.  This means that the upside-down
+version of a given picture gives the adjoint operator.
+
+<P>
+So, we're seeing a curious fact: 
+
+<P>
+<div align = "center">
+       A CLASSICAL STRUCTURE ON A FINITE-DIMENSIONAL HILBERT SPACE <br/>
+         GIVES A UNITARY 2D TQFT
+</div>
+
+<P>
+This sounds like it should be important, because it links two subjects
+with very different flavors: the foundations of quantum mechanics, and
+topological quantum field theory.  But I have no idea what it really
+means.  
+
+<P>
+Maybe you can help me!  But before you try your hand at this problem,
+I should warn you that we don't get <i>all</i> unitary 2d TQFTs from
+classical structures - because we don't get <i>all</i> commutative
+dagger-Frobenius algebras.  We only get the &quot;special&quot; ones,
+which obey this extra rule:
+
+<P>
+<div align = "center">
+<img src = "separability.jpg">
+</div>
+
+<P>
+This rule is <i>not</i> topologically true.  Indeed when it holds, our 2d
+TQFT is completely insensitive to how many handles our surface has.
+That makes it sort of boring.  
+
+<P>
+For a closed surface, the number of handles is called the &quot;genus&quot;.
+So, the real puzzle is to understand this more mysterious slogan:
+
+<P>
+<div align = "center">
+       A CLASSICAL STRUCTURE ON A FINITE-DIMENSIONAL HILBERT SPACE <br/>
+           IS THE SAME AS A <b>GENUS-INDEPENDENT</b> UNITARY 2D TQFT 
+</div>
+
+<P>
+I've been mulling this over for about a year now, with no great
+insights.  Mathematically it's almost trivial.  But physically,
+I can't tell if it's the tip of an interesting iceberg, or just
+a coincidence.
+
+<P>
+These talks offered some extra clues:
+
+<P>
+6) Ross Duncan, Convexity, categorical semantics and the foundations 
+of physics, video available at 
+<a href = "http://www.comlab.ox.ac.uk/quantum/content/1005102/">http://www.comlab.ox.ac.uk/quantum/content/1005102/</a>
+ 
+<P>
+7) Chris Heunen, Complementarity in categorical quantum mechanics,
+video and slides available at 
+<a href = "http://www.comlab.ox.ac.uk/quantum/content/1005115/">http://www.comlab.ox.ac.uk/quantum/content/1005115/</a>
+
+<P>
+8) Simon Perdrix, Classical-quantum graphical calculus, video
+available at <a href = "http://www.comlab.ox.ac.uk/quantum/content/1005015/">http://www.comlab.ox.ac.uk/quantum/content/1005015/</a>
+
+<P>
+For more details, try these papers:
+
+<P>
+9) Bob Coecke, Eric Oliver Paquette and Dusko Pavlovic,
+Classical and quantum structuralism, available as 
+<a href = "http://arXiv.org/abs/0904.1997">arXiv:0904.1997</a>.
+
+<P>
+10) Bob Coecke and Ross Duncan, Interacting quantum observables:
+categorical algebra and diagrammatics, available as 
+<a href = "http://arXiv.org/abs/0906.4725">arXiv:0906.4725</a>.
+
+<P>
+11) Bob Coecke, Quantum picturalism, available as 
+<a href = "http://arXiv.org/abs/0908.1787">arXiv:0908.1787</a>.
+
+<P>
+12) Bob Coecke and Simon Perdrix, Environment and classical channels
+in categorical quantum mechanics, 
+<a href = "http://arXiv.org/abs/1004.1598">arXiv/1004.1598</a>.
+  
+<P>
+Among other things, these papers say what you can <i>do</i> with a
+classical structure.  You can do a bunch of things - and you can do
+them all very generally, because you can do them using just pictures.
+So, you don't need to be working in the category of 
+finite-dimensional Hilbert spaces: any &quot;<a href = "http://ncatlab.org/nlab/show/dagger+compact+category">dagger-compact category</a>&quot; will
+do.  You can define a special commutative dagger-Frobenius algebra in
+any such category, and this gives a very general concept of classical
+structure.  
+
+<P>
+This is the sort of thing that makes category theorists drool.  But
+I will restrain myself!  I won't work in such generality.  I'll just
+work with finite-dimensional Hilbert spaces, and just sketch a few 
+things we can do with classical structures.  I won't even explain how
+we can do them just using pictures... even though that's the really 
+cool part.
+
+<P>
+For starters, every classical structure determines a &quot;phase
+group&quot;.  If the classical structure comes from an orthonormal
+basis in the way I've described, its phase group consists of all
+unitary operators that are diagonal in this basis.  But the cool part
+is that we can define this group just using pictures, and prove it's
+abelian, and so on.
+
+<P>
+We can also use pictures to define &quot;complementarity&quot;.  In
+physics we say position and momentum are complementary because if you
+know everything about one, you cannot know anything about the other.  
+But we can also say what it means for two classical structures to be
+complementary.  For a finite-dimensional Hilbert space, any classical
+structure comes from an orthonormal basis - and two of them are
+&quot;complementary&quot; if they come from &quot;mutually
+unbiased&quot; bases, meaning bases e<sub>i</sub> and f<sub>j</sub>
+such that
+
+<P>
+|&lt;e<sub>i</sub>,f<sub>j</sub>&gt;|
+
+<P>
+is independent of i and j.  This means that if you know precisely
+which state e<sub>i</sub> your system is in, it has equal chances of being
+found in any of the states f<sub>j</sub>. 
+
+<P>
+So, for example, the spin-up and spin-down states of an electron as
+measured along the x axis form one orthonormal basis.  The spin-up and
+spin-down states as measured along the y axis form another.  And these
+bases are mutually unbiased.  So, knowing everything about the spin
+along the x axis tells you nothing about the spin along the y axis.
+And vice versa!
+
+<P>
+When we have two complementary classical structures, we get two
+ways of making our Hilbert space into a Frobenius algebra.  And these
+are related in a cool way: if we use the multiplication of the first, and
+the comultiplication of the second, we almost get a &quot;<a href = 
+"http://ncatlab.org/nlab/show/Hopf+algebra">Hopf algebra</a>&quot;!
+If we had a Hopf algebra, this relation would hold:
+
+<P>
+<div align = "center">
+<img src = "bialgebra.jpg">
+</div>
+
+<P>
+where we write the multiplication of our first Frobenius algebra as a
+red dot, and the comultiplication of the second as a green dot.  But
+in fact this holds only up to a constant factor, so we get a
+&quot;<a href = "http://arxiv.org/PS_cache/arxiv/pdf/0906/0906.4725v1.pdf#page=36">scaled Hopf algebra</a>&quot;.  I think this is fascinating because
+there's a constant interplay between Frobenius algebras and Hopf algebras
+in mathematics, and here's yet another example.
+
+<P>
+Now, if you like these pictures, you've got to see
+&quot;Quantomatic&quot; in action:
+
+<P>
+13) Lucas Dixon, Quantomatic demo, video available at
+<a href = "http://www.comlab.ox.ac.uk/quantum/content/1005019/">
+http://www.comlab.ox.ac.uk/quantum/content/1005019</a>
+
+<P>
+14) Lucas Dixon, Ross Duncan, Aleks Kissinger and Alex Merry,
+Quantomatic, <a href = "http://dream.inf.ed.ac.uk/projects/quantomatic/">http://dream.inf.ed.ac.uk/projects/quantomatic/</a>
+
+<P>
+This is a program that automatically carries out calculations
+involving these pictures that I've been drawing!  It's a lot of fun.
+If you know quantum computation, you'll see that we can describe a lot
+of <a href = "http://en.wikipedia.org/wiki/Quantum_gate">quantum logic
+gates</a>, like <a href =
+"http://en.wikipedia.org/wiki/Quantum_gate#Controlled_gates">controlled
+not gates</a> and <a href =
+"http://en.wikipedia.org/wiki/Hadamard_transform#Quantum_computing_applications">Hadamard
+gates</a>, using these pictures.  And if you know 2-categories, you'll
+realize that the <i>processes of rewriting diagrams</i> are actually
+2-morphisms in a 2-category!  So higher category is sneaking in to the
+subject here.  I bet we'll see a lot more of it in years to come.
+
+<P>
+There were many more interesting talks, but I'm running out of energy,
+so I just want to say one more thing about &quot;cloning&quot;:
+
+<P>
+15) Aaron Fenyes, There's no cloning in symplectic mechanics,
+available at <a href = "http://math.ucr.edu/home/baez/dual/no-cloning.pdf">http://math.ucr.edu/home/baez/dual/no-cloning.pdf</a>
+
+<P>
+This paper argues that the laws of classical mechanics make it
+impossible to build a &quot;cloning machine&quot;.  If we had such a
+machine, we could put two boxes with balls in them into slots on top
+of the machine.  The machine would copy the position and velocity of the
+first ball over to the second one.  When we were done, the second ball
+would be a &quot;clone&quot; of the first: a perfect copy.
+
+<P>
+Let me be a bit more precise.  The boxes and the balls inside them
+are identically made.   The first ball, the one we want to clone, has
+an arbitrary position and velocity.  Well, of course its position is
+somewhere in the box!  And if you like, we can say it's going no faster 
+than 10 miles per hour.  The second ball starts out in some fixed 
+state.  Let's say it has zero velocity and it's sitting right in a 
+little dent in the middle of the box.   
+
+<P>
+We pop the boxes into the machine. The machine can open the tops of 
+the boxes and insert sensors.  When we press a big red button, the
+machine measures the position and velocity of the first ball.  It
+then does whatever it wants, but after a while two boxes come out 
+of the bottom of the machines... and then a bell rings.
+
+<P>
+And when the bell rings, both balls have the same position and
+velocity that the first ball had when you pressed the button!
+
+<P>
+A &quot;no-cloning theorem&quot; says you can't build a machine like
+this, given some assumptions on the laws of physics.  The original
+no-cloning theorem was due to Wooters and Zurek:
+
+<P>
+16) W. K. Wootters and H. D. Zurek, A single quantum cannot be cloned,
+Nature, 299 (1982), 802-803.
+
+<P>
+You can see a statement and proof here:
+
+<P>
+17) Wikipedia, No-cloning theorem,
+<a href = "http://en.wikipedia.org/wiki/No-cloning_theorem">http://en.wikipedia.org/wiki/No-cloning_theorem</a>
+
+<P>
+This was a <i>quantum</i> no-cloning theorem.  In fact it was very
+general: it wasn't about balls in boxes, it was about <i>any</i> quantum
+system where states are described by unit vectors in a Hilbert space 
+and processes are described by unitary operators.  
+
+<P>
+There have been many no-cloning theorems since then, but what's new
+about Aaron Fenyes' result is that it applies to <i>classical</i> mechanics.
+Again, it's very general: it's about any classical system where states
+are described by points in a symplectic manifold, and processes are
+described by symplectomorphisms.  
+
+<P>
+If that sounds scary, well, be reassured that most classical mechanics 
+problems fit into this framework.  There are some that can't, but I bet 
+Fenyes' result can be generalized to cover a lot of those, too.  
+
+<P>
+So, the big question is: how does this result square with the widely
+shared intuition that we <i>can</i> copy classical information: that we 
+<i>can</i> exactly measure the position and momentum of a ball, say, and
+get two balls into that state?
+
+<P>
+I don't know the answer, but I'd like to - so let me know if you
+figure it out.  Part of the problem is that when we use phrases
+like &quot;classical structure&quot; in our study of quantum mechanics,
+we are <i>not</i> talking about full-fledged classical mechanics,
+in which symplectic structures are important.   But even after we
+work through this semantic issue, there's a physics issue left to
+ponder.
+
+
+<P>
+After I got back to Riverside, my friend Bill Schmitt visited me.  As
+usual, we spent long evenings listening to music and talking about
+math.  I told you about our last get-together in &quot;<a href =
+"week265.html">week265</A>&quot;.  Back then, he told me about an
+amazing 588-page paper on Hopf algebras, combinatorics and category
+theory by Aguiar and Mahajan.  By now that paper has grown into an
+836-page book:
+
+<P>
+18) Marcelo Aguiar and Swapneel Mahajan, Monoidal functors, species
+and Hopf algebras, available at <a href = "http://www.math.tamu.edu/~maguiar/a.pdf">http://www.math.tamu.edu/~maguiar/a.pdf</a>
+
+<P>
+In his preface, Andr&eacute; Joyal calls it &quot;a quantum leap towards the
+mathematics of the future&quot;.  Check it out!  
+
+<P>
+Now Bill is working with Aguiar on developing this theory further.
+There are some marvelous ideas here... but I'd rather tell you about
+something else: pre-Lie algebras.  
+
+<P>
+The name &quot;pre-Lie algebra&quot; suggests that we're about to do
+some &quot;centipede mathematics&quot;.  That's the cruel sport where
+you take a mathematical concept and see how many legs you can pull off
+and have it still walk.  For example: you take the concept of group,
+remove the associative law and the identity element, obtaining the
+concept of &quot;quasigroup&quot;... and then see if there are still
+any theorems left.
+
+<P>
+A &quot;pre-Lie algebra&quot; sounds like a Lie algebra with some legs pulled
+off.  But actually it's an <i>associative</i> algebra with some legs pulled
+off!  Any associative algebra gives a Lie algebra - but you don't
+need the full force of the associative law to play this game.  It's
+enough to have pre-Lie algebra.
+
+<P>
+That doesn't sound too interesting.  But Bill convinced me that
+pre-Lie algebras are important.  They were first named by 
+Gerstenhaber:
+
+<P>
+19) M. Gerstenhaber, The cohomology structure of an associative ring,
+Ann. Math. 78 (1963), 267-288.
+
+<P>
+who showed that the Hochschild chain complex of any ring, with grading
+shifted down by one, is a graded pre-Lie algebra.  Later it was
+noticed that pre-Lie algebras show up in the combinatorics of trees,
+and are implicit in this old paper by Cayley:
+
+<P>
+20) Arthur Cayley, On the theory of the analytical forms called trees,
+Phil. Mag. 13 (1857), 172-176.
+
+<P>
+The fun really starts when we relate these ideas to quantum field
+theory and operads... 
+
+<P>
+...but first things first!  The definition is simple enough.  A
+pre-Lie algebra is a vector space A equipped with a bilinear product
+such that
+
+<P>
+[L(a), L(b)] = L([a,b])
+
+<P>
+for every a, b in A.  
+
+<P>
+Huh?  Here L(a) stands for left multiplication by a:
+
+<P>
+L(a) b = ab
+
+<P>
+and the brackets denote commutators, so
+
+<P>
+[L(a), L(b)] = L(a) L(b) - L(b) L(a) 
+
+<P>
+and 
+
+<P>
+[a,b] = ab - ba
+
+<P>
+Putting together these formulas, we see the a pre-Lie algebra is
+vector space equipped with a bilinear product satisfying this 
+scary equation:
+
+<P>
+a(bc) - b(ac) = (ab)c - (ba)c
+
+<P>
+Now, it's obvious that every associative algebra is a pre-Lie algebra:
+just take this scary equation and erase the parentheses, and you'll
+get something true.  But not every pre-Lie algebra is associative.
+I'll give you some examples in a minute.
+
+<P>
+When we have an associative algebra, we get a Lie algebra with this
+bracket:
+
+<P>
+[a,b] = ab - ba
+
+<P>
+But we <i>also</i> get a Lie algebra this way from any pre-Lie algebra!
+That's why they're called &quot;pre-Lie&quot;.  To check this, take the scary
+equation above and use it to derive the Jacobi identity:
+
+<P>
+[[a,b],c] + [[b,c],a] + [[c,a,],b] = 0
+
+<P>
+Try it!  It's fun.  Honest!
+
+<P>
+Okay - so pre-Lie algebras are a cute generalization of associative
+algebras which are still good enough to give Lie algebras.  But now
+you probably want me to explain how pre-Lie algebras show up in
+nature.  I'll give three examples.  The first is from geometry.  The
+second is from quantum field theory.  The third involves operads.
+
+<P>
+First, given a manifold with a flat torsion-free connection D on its
+tangent bundle, we can make the space of tangent vector fields into 
+a pre-Lie algebra by defining
+
+<P>
+vw = D<sub>v</sub> w
+
+<P>
+Second, Connes and Kreimer noticed a certain amazing group that plays 
+an important role in the renormalization of quantum field theories:
+
+<P>
+21) Alain Connes and Dirk Kreimer, Hopf algebras, renormalization and
+noncommutative geometry, Commun. Math. Phys. 199 (1998), 203-242.
+Also available as <a href = "http://arXiv.org/abs/hep-th/9808042">arXiv:hep-th/9808042</A>.
+
+<P>
+They built this group from Feynman diagrams.  How?  As you probably
+know, it's good to build groups starting from Lie algebras.  And
+that's basically what they did.  But what Lie algebra did they use?
+
+<P>
+The answer is easy if you know about pre-Lie algebras.  But first I
+want to sketch the usual story.  This is much more lengthy and
+technical... but I want to run you through it, so you can fully
+appreciate the elegance of the slick approach.
+
+<P>
+In the usual approach, you need to know that any Lie algebra gives
+rise to something called a &quot;universal enveloping algebra&quot;.
+This is a cocommutative Hopf algebra, so its dual - defined in a
+careful way - is a commutative Hopf algebra.  Connes and Kreimer
+started by getting their hands on this commutative Hopf algebra.  Then
+they worked back to the Lie algebra.
+
+<P>
+To get their commutative Hopf algebra, they began with vector space
+whose basis consists of Feynman diagrams.  But they also found it
+helpful to consider a simpler problem, where you start with a vector
+space whose basis consists of rooted forests.
+
+<P>
+A &quot;rooted tree&quot; looks like this:
+                    
+<PRE>
+                   o o o   o
+                    \|/   /
+                     o   o
+                      \ /       
+                       o
+                       |       
+                       o 
+</PRE>
+
+The vertex at the bottom is called the &quot;root&quot;.  A finite
+collection of rooted trees is called a &quot;rooted forest&quot;:
+
+<PRE>
+                   o o     o             o
+                    \|    /              |
+                     o   o    o   o      o
+                      \ /      \ /       | 
+                       o        o    o o o 
+                       |        |     \|/
+              o        o        o      o
+</PRE>
+
+<P>
+Let me show you how to take the vector space whose basis consists of
+all rooted forests, and make that into a commutative Hopf algebra.
+To do this, we need to give our vector space a multiplication and a
+comultiplication.  And it's enough to say how these work on basis
+vectors, which are rooted forests.
+
+<P>
+To multiply two rooted forests, we simply set them side by side to get
+a new rooted forest.  This multiplication is obviously associative.
+It's also commutative, since we don't care about any &quot;ordering&quot; or
+&quot;planar structure&quot; on our rooted forests.
+
+<P>
+In short, multiplication is boring.  The fun part is comultiplication!
+To comultiply a rooted forest, we go through all ways of slicing it in
+a roughly horizontal way.  Each slice gives two rooted forests: one
+below the slice, and one above.  Then we form a big sum, where each
+slice contributes a term
+
+<P>
+(below) &otimes; (above)
+
+<P>
+where the first factor is the forest below the slice, while the second
+is the forest above the slice.  You can see pictures of how this works
+in Connes and Kreimer's paper.  The forest below the slice is
+sometimes called the &quot;pruned forest&quot;, while the forest above
+is called the &quot;fallen branches&quot;.  If you've ever trimmed trees,
+that should give you the idea.
+
+<P>
+Starting from this Hopf algebra, you can get a Lie algebra.  But
+there's a vastly quicker way to get this Lie algebra... if you know
+about pre-Lie algebras, that is.  It's:
+
+<P>
+<div align = "center">
+ THE LIE ALGEBRA COMING FROM THE FREE PRE-LIE ALGEBRA ON ONE GENERATOR!
+</div>
+
+<P>
+That's what I call slick.  Instead of paragraphs of theorems and
+pictures, a single devastatingly efficient phrase.
+
+<P>
+But of course we need to see what's lurking in this phrase.  Where did
+the rooted forests go?  To answer this, you need to check that the
+free pre-Lie algebra on one generator has a basis given by rooted
+trees.  Then its universal enveloping algebra will have a basis given
+by rooted forests!
+
+<P>
+So, the key question is: why does the free pre-Lie algebra on one
+generator have a basis given by rooted trees?  Let me quickly sketch 
+the answer Bill gave me.  This may sound a bit cryptic, but I want 
+to write it down before I forget.
+
+<P>
+Suppose you have rooted trees a and b and you attach a to b.  More
+precisely: suppose you connect the root of a to some vertex of b using
+a new edge, forming a new rooted tree.  You can do this in lots of
+ways, so you'll get a linear combination of trees, say ab.  And this
+how multiplication in the free pre-Lie algebra on one generator works!
+
+<P>
+We can summarize this as follows:
+
+<PRE>
+ ab   =     a  
+            |  
+            b  
+</PRE>
+Here the picture stands for <i>any</i> way of attaching a to b.  We
+should really sum over all of them.
+
+<P>
+When you form a product like a(bc), different things can happen.
+We can summarize the possibilities like this:
+
+<PRE>
+            a
+            |
+a(bc) =     b  +  a   b
+            |      \ /
+            c       c 
+</PRE>
+The point is that we can either attach the root of a to a vertex in 
+b, or a vertex in c.  There are fewer possibilities when we form
+a(bc):
+
+<PRE>
+            a
+            |
+(ab)c =     b  
+            |
+            c  
+</PRE>
+so 
+
+<PRE>
+a(bc) - (ab)c =   a   b
+                   \ /
+                    c 
+</PRE>
+
+Now switch a and b in this equation!  We get
+
+<PRE>
+b(ac) - (ba)c =   b   a
+                   \ /
+                    c 
+</PRE>
+Our rooted trees are not planar, so the answer is really the same:
+
+<PRE>
+   a   b        b   a
+    \ /    =     \ /
+     c            c
+</PRE>
+So, we have
+
+<P>
+a(bc) - (ab)c = b(ac) - (ba)c
+
+<P>
+and this is the definition of a pre-Lie algebra!
+
+<P>
+This calculation reveals the secret meaning of pre-Lie algebras.  The
+secret is that pre-Lie algebras are all about attaching two things by
+connecting a special point of the first to an arbitary point of the
+second!  Rooted trees are the universal example, so they give the free
+pre-Lie algebra on one generator.
+
+<P>
+This calculation also reveals that a pre-Lie algebra is really a vector
+space with a bilinear product whose &quot;associator&quot;
+
+<P>
+{a,b,c} = (ab)c - a(bc)
+
+<P>
+is symmetric in the last two variables.  
+
+<P>
+Finally, let me tell you the third way to get pre-Lie algebras: from
+operads.  I'll assume you know about linear operads, which I explained
+in &quot;<a href = "week282.html">week282</A>&quot;.
+
+<P>
+Suppose O is any linear operad.  Let A be the free O-algebra on one
+generator.  Then A becomes a pre-Lie algebra in a god-given way!
+
+<P>
+You should have seen this coming, since operads are related to
+trees.  The details are explained here:
+
+<P>
+22) Frédéric Chapoton and Muriel Livernet, Pre-Lie algebras and the
+rooted trees operad, Int. Math. Res. Not. 2001 (2001), 395-408.
+Also available as <a href = "http://arXiv.org/abs/arXiv:math/0002069">arXiv:math/0002069</A>.
+
+<P>
+The idea is that A is a lot like O, since we get elements of the free
+O-algebra on one generator by hitting that generator with operations
+in O.  More precisely, we have
+
+<P>
+A = &oplus; O<sub>n</sub>/S<sub>n</sub>
+
+<P>
+Here O<sub>n</sub> is the space of n-ary operations in O, which is acted
+on by the permutation group S<sub>n</sub>.   So, we can draw an element 
+of A like this:
+
+<PRE>
+                   o   o   o
+                    \  |  /
+                     -----
+                    |  a  | 
+                     -----
+                       |
+                       o
+</PRE>
+
+where a is an n-ary operation in O, but we don't care how the 
+branches of this little tree are permuted.  
+
+<P>
+We can multiply two guys like this by summing over all ways of 
+attaching the output of one to an input of the other and composing 
+them using our operad.  And, thanks to the &quot;secret meaning of 
+pre-Lie algebras&quot;, this makes A into a pre-Lie algebra!
+
+<P>
+This is nice.  But over dinner, James Dolan, Bill Schmitt and I came
+up with an even slicker construction which seems to give the same
+multiplication on A.  
+
+<P>
+A is the free O-algebra on one generator, say x.   So, for any 
+element a in A, there's a unique O-algebra endomorphism
+
+<P>
+f(a): A &rarr; A
+
+<P>
+sending x to a.  Note that f(x) is the identity.  By the general
+philosophy that &quot;an infinitesimal endomorphism is a
+derivation&quot;, the operator
+
+<P>
+(d/dt) f(x + ta)|<sub><sub>t = 0</sub></sub> 
+
+<P>
+is a derivation of A.  
+
+<P>
+(For certain familiar sorts of algebras, you may aready know what 
+a derivation is.  These are just special cases of a general concept 
+of derivation for O-algebras.  I leave it as an exercise to reinvent 
+this general concept.)
+
+<P>
+Now, we can define a multiplication on A by
+
+<P>
+ab = (d/dt) f(x + ta)(b)|<sub><sub>t = 0</sub></sub>
+
+<P>
+And this is the same as the multiplication I just described.  Can
+we use this slick description to more efficiently prove that A is a 
+pre-Lie algebra?  I don't know.
+
+<P>
+One last thing:
+
+<P>
+Any linear operad gives a pre-Lie algebra.  But pre-Lie algebras
+are themselves algebras of a linear operad!  This leads to curious
+self-referential situation, and a nice puzzle.
+
+<P>
+There's a linear operad whose algebras are pre-Lie algebras.  As we
+have seen, for any linear operad O, the free O-algebra with one
+generator becomes a pre-Lie algebra.  So: the free pre-Lie algebra 
+on one generator becomes a pre-Lie algebra in this way.  But of course 
+it already <i>is</i> a pre-Lie algebra!  Do these pre-Lie structures agree?
+
+<P>
+If you give up, you can find the answer here:
+
+<P>
+23) Dominique Manchon, A short survey on pre-Lie algebras, available
+at <a href = "http://math.univ-bpclermont.fr/~manchon/biblio/ESI-prelie2009.pdf">http://math.univ-bpclermont.fr/~manchon/biblio/ESI-prelie2009.pdf</a>
+
+<P>
+But if you want to solve this puzzle on your own, it helps to think
+about what the operad for pre-Lie algebras looks like.  Let's call it
+PL.  It's not hard to guess what it looks like, given everything 
+I've told you so far.
+
+<P>
+I've told you that the free pre-Lie algebra on one generator has a
+basis given by rooted trees.  And I've told you a general fact: the
+free O-algebra on one generator is
+
+<P>
+&oplus; O<sub>n</sub>/S<sub>n</sub>
+
+<P>
+So, taking O = PL, it should come as no surprise that PL<sub>n</sub>,
+the space of n-ary operations in PL, has a basis given by rooted trees
+with n vertices <i>labelled by numbers 1 through n</i>.  Modding out
+by S<sub>n</sub> just gets rid of those labels!
+
+<P>
+But how do you compose operations in PL?
+
+<P>
+<HR>
+<P>
+<b>Addendum:</b> 
+I thank Colin Backhurst, Tim van Beek, and James Stasheff
+for improvements.  Eugene Lerman pointed out that
+this paper provides a nice introduction to the Hopf algebra of rooted
+trees:
+
+
+<p>
+24) Christian Brouder, Trees, renormalization and differential equations, 
+Numerical Mathematics 44 (2004), 425-438.  Also available at
+<a href = "http://www-int.impmc.upmc.fr/~brouder/BIT.pdf">http://www-int.impmc.upmc.fr/~brouder/BIT.pdf</a>
+<p>
+
+Let me quote:
+
+<p>
+
+<blockquote>
+<b> Abstract. </b>
+The Butcher group and its underlying Hopf algebra of rooted trees were originally
+formulated to describe Runge-Kutta methods in numerical analysis. In the past 
+few
+years, these concepts turned out to have far-reaching applications in several areas
+of mathematics and physics: they were rediscovered in noncommutative geometry,
+they describe the combinatorics of renormalization in quantum field theory. The concept
+of Hopf algebra is introduced using a familiar example and the Hopf algebra of
+rooted trees is defined. Its role in Runge-Kutta methods, renormalization 
+theory and noncommutative geometry is described.
+
+<p>
+<b>Introduction</b>
+
+<p>
+This paper tells the story of a mathematical object that was created by John
+Butcher in 1972 and was rediscovered by Alain Connes, Henri Moscovici and Dirk
+Kreimer in 1998. Butcher wanted to set up a theory of Runge-Kutta methods in
+numerical analysis, Connes and Moscovici were working at an index theorem in
+noncommutative geometry, Kreimer was looking for the mathematical structure
+behind the renormalization method of quantum field theory, and all these people
+hit upon the same object: the Hopf algebra of rooted trees.
+The appearance of an object relevant to so widely different fields is not 
+common.
+And the fact that a computer scientist discovered it 26 years in advance
+shows the power of inspiration provided by numerical analysis. Connes and
+Kreimer themselves noted: &quot;We 
+regard Butcher's work on the classification
+of numerical integration methods as an impressive example that concrete
+problem-oriented work can lead to far-reaching conceptual results&quot;.
+</blockquote>
+
+<p>
+Here are some examples, 
+taken from Connes and Kreimer's paper, that
+illustrate 
+the comultiplication in the Hopf algebra of rooted forests:
+
+<P>
+<div align = "center">
+<img src = "connes_kreimer_coproduct.jpg">
+</div>
+
+<P>
+Here &Delta; stands for the comultiplication.  <i>But beware:</i> 
+these trees have their root on top - I hear that's how they grow in
+Europe.  So, these pictures are upside-down compared to the description
+I gave earlier!  Now to comultiply a rooted forest we slice it in
+lots of ways and form a sum of terms
+
+<P>
+(above) &otimes; (below)
+
+<P>
+For example, the terms in the last line of the picture
+come from these ways of slicing the given tree:
+
+<P>
+<div align = "center">
+<img src = "connes_kreimer_admissible_cuts.jpg">
+</div>
+
+The first way here is really two ways: we can have the whole tree
+be above the slice and empty set below, or the empty set above and
+the whole tree below.  So, we get 5 ways to slice the tree, and
+comultiplying it gives a sum of 5 terms, two of which are equal.
+
+<P>
+Here's another nice introduction to pre-Lie algebras and the 
+Hopf algebra of rooted forests:
+
+<P>
+25) Fr&eacute;d&eacute;ric Chapoton, Operadic point of view
+on the Hopf algebra of rooted trees, <a href = "http://www-math.unice.fr/~patras/CargeseConference/ACQFT09_FredericCHAPOTON.pdf">http://www-math.unice.fr/~patras/CargeseConference/ACQFT09_FredericCHAPOTON.pdf</a>
+
+<P>
+<i>But beware:</i> he is using right pre-Lie algebras, where I was
+using left ones.  So, his product obeys the law
+
+<P>
+[R(a), R(b)] = R([a,b])
+
+<P>
+where R(a) stands for right multiplication by a.  Right pre-Lie algebras
+work just as well as left ones.
+
+<P>
+For more discussion, visit the 
+<a href = "http://golem.ph.utexas.edu/category/2010/06/this_weeks_finds_in_mathematic_60.html"><i>n</i>-Category Caf&eacute;</i></a>.
+
+<P>
+<HR>
+<P>
+<i>I can learn only by teaching.</i> - John Wheeler
+
+<p>
+<HR><P>
+<!-- BEGIN FOOTER -->
+&#169; 2010  John Baez<br>
+baez@math.removethis.ucr.andthis.edu <br>
+<P>
+<TABLE WIDTH = 100%> <TR>
+<TD WIDTH=10%>
+<A HREF = "week298.html">
+   <img border = none; src="lastweek.png"></A>
+<TD WIDTH=80%>
+<CENTER>
+<A HREF="README.html">
+  <img border = none; src="home.png"><br>
+</A>
+<A HREF="http://math.ucr.edu/home/baez/TWF.html">
+    <img border = none; src="contents.png">
+</A>
+</CENTER>
+<TD WIDTH=10%>
+<A HREF = "week300.html">
+  <img border = none; src="nextweek.png">
+</A>
+</TABLE><!-- END FOOTER -->
+
+
