@@ -62,7 +62,7 @@ is than Ashtekar's.
 In any event, it's a fun read, and I recommend it. Of course, I'm
 biased, so don't trust me.
 
-2) Vassiliev invariants contain more information than all knot polynomials, by Sergey Piunikhin, preprint. (Piunikhin is at <serguei@math.harvard.edu>)
+2) Vassiliev invariants contain more information than all knot polynomials, by Sergey Piunikhin, preprint. (Piunikhin is at `serguei@math.harvard.edu`)
 
     Turaev-Viro and Kauffman-Lins invariants for 3-manifolds coincide, by
     Sergey Piunikhin, Journal of Knot Theory and its Ramifications, 1 (1992)

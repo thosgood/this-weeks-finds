@@ -1,9 +1,9 @@
-week11
+# Week 11
 
 I'm hitting the road again tomorrow and will be going to the Quantum
 Topology conference in Kansas until Sunday, so I thought I'd post this
 week's finds early. As a result they'll be pretty brief. Let me start
-with one that I mentioned in [week9](week9.html) but is now easier to
+with one that I mentioned in "week9" but is now easier to
 get:
 
 1) Unique determination of an inner product by adjointness relations in
@@ -16,7 +16,7 @@ gravity conference at UCSB:
 2) An algebraic approach to the quantization of constrained systems:
 finite dimensional examples, by Ranjeet S. Tate, Syracuse University
 physics department PhD dissertation, August 1992, SU-GP-92/8-1. (Tate is
-now at rstate@cosmic.physics.ucsb.edu, but please don't ask him for
+now at `rstate@cosmic.physics.ucsb.edu`, but please don't ask him for
 copies unless you're pretty serious, because it's big.)
 
 Both the technical problems of "canonical" quantum gravity and one of
@@ -29,37 +29,37 @@ Let me say a few words about these constraints and what I mean by
 "canonical" quantum gravity.
 
 First consider the wave equation in 2 dimensions. This is an equation
-for a function from R\^2 to R, say φ(t,x), where t is a timelike and x
+for a function from $\mathbb{R}^2$ to $\mathbb{R}$, say $\varphi(t,x)$, where $t$ is a timelike and $x$
 is a spacelike coordinate. The equation is simply
 
-            d^2 φ/dt^2 - d^2φ/dx^2 = 0.
+$$\frac{d^2\varphi}{dt^2} - \frac{d^2\varphi}{dx^2} = 0.$$
 
 Now this equation can be rewritten as an evolutionary equation for
-initial data as follows. We consider pairs of functions (Q,P) on R -
-which we think of φ and dφ/dt on "space", that is, on a surface t =
-constant. And we rewrite the second-order equation above as a
+initial data as follows. We consider pairs of functions $(Q,P)$ on $\mathbb{R}$ -
+which we think of $\varphi$ and $d\varphi/dt$ on "space", that is, on a surface $t = \text{constant}$.
+And we rewrite the second-order equation above as a
 first-order equation:
 
-                  d/dt (Q,P) = (P, d^2Q/dx^2).          1)
+$$\frac{d}{dt}(Q,P) = \left(P,\frac{d^2Q}{dx^2}\right).\tag{1}$$
 
-This is a standard trick. We call the space of pairs (Q,P) the "phase
+This is a standard trick. We call the space of pairs $(Q,P)$ the "phase
 space" of the theory. In canonical quantization, we treat this a lot
-like the space R\^2 of pairs (q,p) describing the initial position and
+like the space $\mathbb{R}^2$ of pairs $(q,p)$ describing the initial position and
 momentum of a particle. Note that for a harmonic oscillator we have an
-equation a whole lot like 1):
+equation a whole lot like (1):
 
-              d/dt (q,p) = (p, -q).  
+$$\frac{d}{dt}(q,p) = (p,-q).$$
 
 This is why when we quantize the wave equation it's a whole lot like
 the harmonic oscillator.
 
 Now in general relativity things are similar but more complicated. The
-analog of the pairs (φ, dφ/dt) are pairs (Q,P) where Q is the metric on
+analog of the pairs $(\varphi, d\varphi/dt)$ are pairs $(Q,P)$ where $Q$ is the metric on
 spacetime restricted to a spacelike hypersurface - that is, the "metric
-on space at a given time" - and P is concocted from the extrinsic
+on space at a given time" - and $P$ is concocted from the extrinsic
 curvature of that hypersurface as it sits in spacetime. Now the name of
 the game is to turn Einstein's equation for the metric into a
-first-order equation sort of like 1). The problem is, in general
+first-order equation sort of like (1). The problem is, in general
 relativity there is no god-given notion of time. So we need to *pick* a
 "lapse function" on our hypersurface, and a "shift vector field" on
 our hypersurface, which say how we want to push our hypersurface
@@ -78,7 +78,7 @@ or in a screwy way like
                   ----
                  /    \   /\
                 /      ---  \
-                                         ------- new
+                             ------- new
                 ____________________ old
 
 Of course, in general relativity spacetime is usually not flat, which
@@ -91,16 +91,16 @@ rewrite Einstein's equations as an evolutionary equation. This is a bit
 of a mess, and it's called the ADM (Arnowitt-Deser-Misner) formalism.
 Schematically, it goes like
 
-                  d/dt (Q,P) = (stuff, stuff').         2)
+$$\frac{d}{dt}(Q,P) = (\text{stuff},\text{stuff}').\tag{2}$$
 
-where both "stuff" and "stuff'" depend on both Q and P in a pretty
+where both "stuff" and "stuff'" depend on both $Q$ and $P$ in a pretty
 complex way.
 
 But there is a catch. While the evolutionary equations are equivalent to
 6 of Einstein's equations (Einstein's equation for general relativity
 is really 10 scalar equations packed into one tensor equation), there
-are 4 more of Einstein's equations which turn into *constraints* on Q
-and P. 1 of these constraints is called the Hamiltonian constraint and
+are 4 more of Einstein's equations which turn into *constraints* on $Q$
+and $P$. 1 of these constraints is called the Hamiltonian constraint and
 is closely related to the lapse function; the other 3 are called the
 momentum or diffeomorphism constraints and are closely related to the
 shift vector field.
@@ -108,16 +108,15 @@ shift vector field.
 For those of you who know Hamiltonian mechanics, the reason why the
 Hamiltonian constraint is called what it is is that we can write it as
 
-            H(Q,P) = 0
+$$H(Q,P) = 0$$
 
-for some combination of Q and P, and this H(Q,P) acts a lot like a
-Hamiltonian for general relativity in that we can rewrite 2) using the
-Poisson brackets on the "phase space" of all (Q,P) pairs as
+for some combination of $Q$ and $P$, and this $H(Q,P)$ acts a lot like a
+Hamiltonian for general relativity in that we can rewrite (2) using the
+Poisson brackets on the "phase space" of all $(Q,P)$ pairs as
 
-            d/dt Q = {P,H(Q,P)}
-            d/dt P = {Q,H(Q,P)}.
+$$\begin{aligned}\frac{d}{dt}Q &= \{P,H(Q,P)\} \\ \frac{d}{dt}P &= \{Q,H(Q,P)\}.\end{aligned}$$
 
-The funny thing is that H is not zero on the space of all (Q,P) pairs,
+The funny thing is that $H$ is not zero on the space of all $(Q,P)$ pairs,
 so the equations above are nontrivial, but it does vanish on the
 submanifold of pairs satisfying the constraints, so that, in a sense,
 "the Hamiltonian of general relativity is zero". But one must be
