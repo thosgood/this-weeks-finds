@@ -1,7 +1,7 @@
-week10
+# Week 10
 
 The most substantial part of this issue is some remarks by Daniel
-Ruberman (ruberman@binah.cc.brandeis.edu) on the paper I was talking
+Ruberman (<ruberman@binah.cc.brandeis.edu>) on the paper I was talking
 about last time by Boguslaw Broda. They apparently show that Broda's
 invariant is not as new as it might appear. But they're rather
 technical, so I'll put them near the end, and start off with something
@@ -62,26 +62,24 @@ is than Ashtekar's.
 In any event, it's a fun read, and I recommend it. Of course, I'm
 biased, so don't trust me.
 
-2) Vassiliev invariants contain more information than all knot
-polynomials, by Sergey Piunikhin, preprint. (Piunikhin is at
-serguei@math.harvard.edu)
+2) Vassiliev invariants contain more information than all knot polynomials, by Sergey Piunikhin, preprint. (Piunikhin is at <serguei@math.harvard.edu>)
 
-Turaev-Viro and Kauffman-Lins invariants for 3-manifolds coincide, by
-Sergey Piunikhin, Journal of Knot Theory and its Ramifications, 1 (1992)
-105 - 135.
+    Turaev-Viro and Kauffman-Lins invariants for 3-manifolds coincide, by
+    Sergey Piunikhin, Journal of Knot Theory and its Ramifications, 1 (1992)
+    105 - 135.
 
-Different presentations of 3-manifold invariants arising in rational
-conformal field theory, by Sergey Piunikhin, preprint.
+    Different presentations of 3-manifold invariants arising in rational
+    conformal field theory, by Sergey Piunikhin, preprint.
 
-Weights of Feynman diagrams, link polynomials and Vassiliev knot
-invariants, by Sergey Piunikhin, preprint.
+    Weights of Feynman diagrams, link polynomials and Vassiliev knot
+    invariants, by Sergey Piunikhin, preprint.
 
-Reshetikhin-Turaev and Crane-Kohno-Kontsevich 3-manifold invariants
-coincide, by Sergey Piunikhin, preprint.
+    Reshetikhin-Turaev and Crane-Kohno-Kontsevich 3-manifold invariants
+    coincide, by Sergey Piunikhin, preprint.
 
 I received a packet of papers by Piunikhin a while ago. The most new and
 interesting thing is the first paper listed above. In
-"[week3](week3.html)" I noted a conjecture of Bar-Natan that all
+"week3" I noted a conjecture of Bar-Natan that all
 Vassiliev invariants come from quantum group knot invariants (or in
 other words, from Lie algebra representations.) Piunikhin claims to
 refute this by showing that there is a Vassiliev invariant of degree 6
@@ -112,7 +110,7 @@ available as [hep-th/9302092](http://xxx.lanl.gov/ps/hep-th/9302092).
 
 Let me briefly recall the setup: we describe a compact 4-manifold by a
 handlebody decomposition, and represent this decomposition using a link
-in S\^3. The 2-handles are represented by framed knots, while the
+in $S^3$. The 2-handles are represented by framed knots, while the
 1-handles are represented by copies of the unknot (which we may think of
 as having the zero framing). The 1-handles and 2-handles play quite a
 different role in constructing the 4-manifold - which is why one
@@ -120,8 +118,8 @@ normally draws the former as copies of the unknot with a *dot* on them -
 but Broda's construction does NOT care about this. Broda simply takes
 the link, forgetting the dots, and cooks up a number from it, using
 cabling and the Kauffman bracket at an root of unity. Let's call
-Broda's invariant by b(M) - actually for each primitive rth root of
-unity, we have b_r(M).
+Broda's invariant by $b(M)$ - actually for each primitive $r$th root of
+unity, we have $b_r(M)$.
 
 Broda shows that this is a 4-manifold invariant by showing it doesn't
 change under the de Sa moves. One of these consists of adding or
@@ -144,12 +142,12 @@ result in Morse theory.
 But since Broda's invariant doesn't care which circles represent
 1-handles and which represent 2-handles, Broda's invariant is also
 invariant under adding two 2-handles that go this way. This amounts to
-taking a connected sum with S\^2 x S\^2. I.e., b(M) = b(M\#S\^2 x S\^2).
+taking a connected sum with $S^2 \times S^2$. I.e., $b(M) = b(M\# S^2 \times S^2)$.
 
-Now, Ruberman told me a while back that we must also have b(M) =
-b(M\#CP2\#-CP2), that is, the invariant doesn't change under taking a
-connected sum with a copy of CP2 (complex projective 2-space) and an
-orientation-reversed copy of CP2. This amounts to adding or deleting a
+Now, Ruberman told me a while back that we must also have $b(M) =
+b(M\#\mathbb{CP}^2\#-\mathbb{CP}^2)$, that is, the invariant doesn't change under taking a
+connected sum with a copy of $\mathbb{CP}^2$ (complex projective 2-space) and an
+orientation-reversed copy of $\mathbb{CP}^2$. This amounts to adding or deleting a
 Hopf link in which one component has the zero framing and the other has
 framing 1. I didn't understand this, so I pestered Ruberman some more,
 and this is what he says (modulo minor edits). I have not had time to
@@ -166,11 +164,11 @@ This is explained well (in the PL case) in Rourke-Sanderson's book.
 (Milnor's book on the h-cobordism theorem explains it in terms of Morse
 functions, in the smooth case.)
 
-From this, it follows that b(M) = b(M\#S\^2 x S\^2) = b(M\#CP2\#-CP2).
-For M is unchanged if you add a cancelling 1,2 pair, independent of the
+From this, it follows that $b(M) = b(M\#S^2 \times S^2) = b(M\#\mathbb{CP}^2\#-\mathbb{CP}^2)$.
+For $M$ is unchanged if you add a cancelling 1,2 pair, independent of the
 framing on the 2-handle. If you change the special circle to an ordinary
-one, b(M) doesn't change. On the other hand, M has been replaced by its
-sum with either S2 x S2 or CP2 \# -CP2, depending on whether the framing
+one, $b(M)$ doesn't change. On the other hand, M has been replaced by its
+sum with either $S^2 \times S^2$ or $\mathbb{CP}^2 \# -\mathbb{CP}^2$, depending on whether the framing
 on the 2-handle is even or odd. (Exercise: why is only the parity
 relevant?)
 
@@ -179,56 +177,55 @@ Now as I pointed out before, if one replaces all of the 1-handles
 change. This operation corresponds to doing surgery on the 4-manifold,
 along the cores of the 1-handles. In particular, the manifold has
 changed by a cobordism. (This is a basic construction; when you do
-surgery you produce a cobordism, in this case it's M x I U 2-handles
+surgery you produce a cobordism, in this case it's $M \times I U$**???** 2-handles
 attached along the circles which you surgered.)
 
 From this, I will now show that Broda's invariant is determined by the
 signature. (This is in the orientable case. Actually it seems that his
 invariant is really an invariant of an oriented manifold.) The argument
-above says that for any M, there is an M', with b(M) = b(M'), where
-M' has no 1-handles, and where M and M' are cobordant. In particular,
-M' is simply connected. So it suffices to show that b(N) = b(N') if N
-and N' are simply connected.
+above says that for any $M$, there is an $M'$, with $b(M) = b(M')$, where
+$M'$ has no 1-handles, and where $M$ and $M'$ are cobordant. In particular,
+$M'$ is simply connected. So it suffices to show that $b(N) = b(N')$ if $N$
+and $N'$ are simply connected.
 
-So now you can assume you have two simply connected manifolds N,N'
+So now you can assume you have two simply connected manifolds $N,N'$
 which are cobordant via a 5-dimensional cobordism W, which you can also
 assume simply connnected. By high-dimensional handlebody theory, you can
-get rid of the 1-handles and 4-handles of W, and assume that all the
+get rid of the 1-handles and 4-handles of $W$, and assume that all the
 2-handles are added, then all of the 3-handles. If you add all the
-2-handles to N, you get N\#k(S\^2 x S\^2)\#l(CP\^2\#(-CP\^2)) for some k
-and l. (Here is where simple connectivity is relevant; the attaching
+2-handles to N, you get $N\#k(S^2 \times S^2)\#l(\mathbb{CP}^2\#(-\mathbb{CP}^2))$ for some $k$
+and $l$. (Here is where simple connectivity is relevant; the attaching
 circle of a 2-handle is null-homotopic, and therefore isotopic to an
 unknotted circle. It's a simple exercise to see what happens when you
-do surgery on a trivial circle, ie you add on S2 x S2 or CP2 \# -CP2. On
+do surgery on a trivial circle, ie you add on $S^2 \times S^2$ or $\mathbb{CP}^2 \# -\mathbb{CP}^2$. On
 the other hand you get the same manifold as the result of adding
-2-handles to N'. So
+2-handles to $N'$. So
 
-N\#k(S\^2 x S\^2)\#l(CP\^2\#(-CP\^2)) = N'\#k'(S\^2 x
-S\^2)\#l'(CP\^2\#(-CP\^2)),
+$$N\#k(S^2 x S^2)\#l(\mathbb{CP}^2\#(-\mathbb{CP}^2)) = N'\#k'(S^2 x S^2)\#l'(\mathbb{CP}^2\#(-\mathbb{CP}^2)),$$
 
-so by previous remarks b(N) = b(N'), i.e b is a cobordism invariant.
+so by previous remarks $b(N) = b(N')$, i.e $b$ is a cobordism invariant.
 
-Now: b is also multiplicative under connected sum, because connected sum
-just takes the union of the link diagrams. The cobordism group is Z,
-detected by the signature, so b must be a multiple of the signature,
-modulo some number. (Maybe at this point I realize b should be b_r or
+Now: $b$ is also multiplicative under connected sum, because connected sum
+just takes the union of the link diagrams. The cobordism group is $\mathbb{Z}$,
+detected by the signature, so $b$ must be a multiple of the signature,
+modulo some number. (Maybe at this point I realize $b$ should be $b_r$ or
 some such). If you compute (as a grad student Tian-jin Li did for me)
-b_r(CP\^2), you find that b_r lives in the group of rth (or maybe 4rth;
+$b_r(\mathbb{CP}^2)$, you find that $b_r$ lives in the group of $r$th (or maybe $4r$th;
 I'm at home and don't have my note) roots of unity.
 
 My conclusion: this invariant is a rather complicated way to compute the
-signature of a 4-manifold (modulo r or 4r) from a link diagram of the
+signature of a 4-manifold (modulo $r$ or $4r$) from a link diagram of the
 manifold.
 
 There is an important moral of the story, which is perhaps not obvious
 to someone outside of 4-manifolds. Any invariant which purports to go
 beyond classical ones (ie invariants of the intersection form) must
-treat CP\^2 and -CP\^2 very differently. It seems to be the case that
+treat $\mathbb{CP}^2$ and $-\mathbb{CP}^2$ very differently. It seems to be the case that
 many manifolds which are different (ie nondiffeomorphic) become
-diffeomorphic after you add on CP\^2. Thus any useful invariant should
-get rather obliterated by adding CP\^2. On the other hand,
+diffeomorphic after you add on $\mathbb{CP}^2$. Thus any useful invariant should
+get rather obliterated by adding $\mathbb{CP}^2$. On the other hand,
 non-diffeomorphic manifolds seem to stay non-diffeomorphic, no matter
-how many -CP2's you add on. This phenomenon doesn't seem to be
+how many $-\mathbb{CP}^2$'s you add on. This phenomenon doesn't seem to be
 exhibited by any of the quantum-group type constructions for
 3-manifolds; as it shouldn't, since (from the 3-manifold point of view)
 an unknot with framing + or -1 doesn't change the 3-manifold. So if
@@ -236,7 +233,7 @@ you're looking for a combinatorial invariant, it seems critical that
 you try to build in the asymmetry wrt orientation which 4-manifolds seem
 to possess.
 
-Exercise: do the nonorientable case. The answer should be that b is
+Exercise: do the nonorientable case. The answer should be that $b$ is
 determined by the Euler characteristic, mod 2.
 
 ------------------------------------------------------------------------
