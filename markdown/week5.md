@@ -1,4 +1,4 @@
-week5
+# Week 5
 
 I think I'll start out this week's list of finds with an elementary
 introduction to Lie algebras, so that people who aren't "experts" can
@@ -6,11 +6,11 @@ get the drift of what these are about. Then I'll gradually pick up
 speed...
 
 1) Vyjayanathi Chari and Alexander Premet, Indecomposable restricted
-representations of quantum sl~2~, University of California at Riverside
+representations of quantum $\mathfrak{sl}_2$, University of California at Riverside
 preprint.
 
 Vyjayanathi is our resident expert on quantum groups, and Sasha, who's
-visiting, is an expert on Lie algebras in characteristic p. They have
+visiting, is an expert on Lie algebras in characteristic $p$. They have
 been talking endlessly across the hall from me and now I see that it has
 born fruit. This is a pretty technical paper and I am afraid I'll never
 really understand it, but I can see why it's important, so I'll try to
@@ -18,124 +18,115 @@ explain that!
 
 Let me start with the prehistory, which is the sort of thing everyone
 should learn. Recall what a Lie algebra is... a vector space with a
-"bracket" operation such that the bracket [x,y] of any two vectors x
-and y is again a vector, and such that the following hold:
+"bracket" operation such that the bracket $[x,y]$ of any two vectors $x$
+and $y$ is again a vector, and such that the following hold:
 
-    a) skew-symmetry:  [x,y] = -[y,x].
-    b) bilinearity:    [x,ay] = a[x,y],  
-                       [x,y+z] = [x,y] + [x,z].  (a is any number) 
-    c) Jacobi identity: [x,[y,z]] + [y,[z,x]] + [z,[x,y]] = 0.
+a) skew-symmetry: $[x,y] = -[y,x]$.
+b) bilinearity: $[x,ay] = a[x,y]$, $[x,y+z] = [x,y] + [x,z]$. ($a$ is any number)
+c) Jacobi identity: $[x,[y,z]] + [y,[z,x]] + [z,[x,y]] = 0$.
 
 These conditions, especially the third, may look sort of weird if you
 are not used to them, but the examples make it all clear. The easiest
-example of a Lie algebra is gl(n,C), which just means all n×n complex
+example of a Lie algebra is $\mathfrak{gl}(n,\mathbb{C})$, which just means all $n\times n$ complex
 matrices with the bracket defined as the "commutator":
 
-     [x,y] = xy - yx.  
+$$[x,y] = xy - yx$$.
 
 Then straightforward calculations show a)-c) hold... so these
 conditions are really encoding the essence of the commutator.
 
 Now recall that the trace of a matrix, the sum of its diagonal entries,
-satisfies tr(xy) = tr(yx). So the trace of any commutator is zero, and
-if we let sl(n,C) denote the matrices with zero trace, we see that it's
-a sub-Lie algebra of gl(n,C) - that is, if x and y are in sl(n) so is
-[x,y], so we can think of sl(n,C) as a Lie algebra in its own right.
-Going from sl(n,C) to gl(n,C) is essentially a trick for booting out the
+satisfies $\operatorname{tr}(xy)$ = $\operatorname{tr}(yx)$. So the trace of any commutator is zero, and
+if we let $\mathfrak{sl}(n,\mathbb{C})$ denote the matrices with zero trace, we see that it's
+a sub-Lie algebra of $\mathfrak{gl}(n,\mathbb{C})$ - that is, if $x$ and $y$ are in $\mathfrak{sl}(n)$ so is
+$[x,y]$, so we can think of $\mathfrak{sl}(n,\mathbb{C})$ as a Lie algebra in its own right.
+Going from $\mathfrak{sl}(n,\mathbb{C})$ to $\mathfrak{gl}(n,\mathbb{C})$ is essentially a trick for booting out the
 identity matrix, which commutes with everything else (hence has
 vanishing commutators). The identity matrix is the only one with this
 property, so it's sort of weird, and it simplifies things to get rid of
 it here.
 
-The simplest of the sl(n,C)'s is the Lie algebra sl(2,C),
-affectionately known simply as sl(2), which is a 3-dimensional Lie
-algebra with a basis given by matrices people call E, F, and H for
+The simplest of the $\mathfrak{sl}(n,\mathbb{C})$'s is the Lie algebra $\mathfrak{sl}(2,\mathbb{C})$,
+affectionately known simply as $\mathfrak{sl}(2)$, which is a 3-dimensional Lie
+algebra with a basis given by matrices people call $E$, $F$, and $H$ for
 mysterious reasons:
 
-    E = 0 1        F = 0 0        H = 1  0 
-        0 0            1 0            0 -1
+$$E=\left(\begin{array}{cc}0&1\\0&0\end{array}\right) \quad F=\left(\begin{array}{cc}0&0\\1&0\end{array}\right) \quad H=\left(\begin{array}{cc}1&0\\0&-1\end{array}\right)$$
 
 You will never be an expert on Lie algebras until you know by heart that
 
-    [H,E] = 2E,    [H,F] = -2F,     [E,F]  = H.
+$$[H,E] = 2E, \quad [H,F] = -2F, \quad [E,F]  = H.$$
 
 Typically that's the sort of remark I make before screwing up by a
 factor of two or something, so you'd better check! This is a cute
-little multiplication table... but very important, since sl(2) is the
+little multiplication table... but very important, since $\mathfrak{sl}(2)$ is the
 primordial Lie algebra from which the whole theory of "simple" Lie
 algebras unfolds.
 
-Physicists are probably more familiar with a different basis of sl(2),
+Physicists are probably more familiar with a different basis of $\mathfrak{sl}(2)$,
 the Pauli matrices:
 
-    σ1 = 0 1       σ2 = 0 -i       σ3 = 1  0 
-         1 0            i  0            0 -1
+$$\sigma_1=\left(\begin{array}{cc}0&1\\1&0\end{array}\right) \quad \sigma_2=\left(\begin{array}{cc}0&-i\\i&0\end{array}\right) \quad \sigma_3=\left(\begin{array}{cc}1&0\\0&-1\end{array}\right)$$
 
 For purposes of Lie algebra theory it's actually better to divide each
-of these matrices by i and call the resulting matrices I, J, and K,
+of these matrices by $i$ and call the resulting matrices $I$, $J$, and $K$,
 respectively. We then have
 
-    IJ = -JI = K,   JK = -KJ = I,    KI = -IK = J,   I2 = J2 = K2 = -1
+$$IJ = -JI = K, \quad JK = -KJ = I, \quad KI = -IK = J, \quad I2 = J2 = K2 = -1$$
 
 which is just the multiplication table of the quaternions! From the
 point of view of Lie algebras, though, all that matters is
 
-    [I,J] = 2K,    [J,K] = 2I,    [K,I] = 2J.
+$$[I,J] = 2K, \quad [J,K] = 2I, \quad [K,I] = 2J.$$
 
 Given the relation of these things and cross products, it should be no
 surprise that the Pauli matrices have a lot to with angular momentum
-around the x, y, and z axes in quantum mechanics.
+around the $x$, $y$, and $z$ axes in quantum mechanics.
 
-If we take all *real* linear combinations of E,F,H we get a Lie algebra
-over the *real* numbers called sl(2,R), and if we take all real linear
-combinations of I,J,K we get a Lie algebra over the reals called su(2).
-These two Lie algebras are two different "real forms" of sl(2).
+If we take all *real* linear combinations of $E$,$F$,$H$ we get a Lie algebra
+over the *real* numbers called $\mathfrak{sl}(2,\mathbb{R})$, and if we take all real linear
+combinations of $I$,$J$,$K$ we get a Lie algebra over the reals called $\mathfrak{su}(2)$.
+These two Lie algebras are two different "real forms" of $\mathfrak{sl}(2)$.
 
-Now, people know just about everything about sl(2) that they might want
+Now, people know just about everything about $\mathfrak{sl}(2)$ that they might want
 to. Well, there's always something more, but I'm certainly personally
 satisfied! I recall when as an impressionable student I saw a book by
-Serge Lang titled simply "SL(2,R)," big and fat and scary inside. I
-knew what SL(2,R) was, but not how one could think of a whole book's
+Serge Lang titled simply "$SL(2,\mathbb{R})$", big and fat and scary inside. I
+knew what $SL(2,\mathbb{R})$ was, but not how one could think of a whole book's
 worth of things to write about it! A whole book on 2×2 matrices??
 
 Part of how one gets so much to say about a puny little Lie algebra like
-sl(2) is by talking about its representations. What's a representation?
-Well, first you have to temporarily shelve the idea that sl(2) consists
-of 2×2 matrices, and think of it more abstractly simply as a
-3-dimensional vector space with basis E,F,H, equipped with a Lie algebra
-structure given by the multiplication table [H,E] = 2E, [H,F] = -2F,
-[E,F] = H. If this is how I'd originally defined it, it would then be
-a little *theorem* that this Lie algebra has a "representation" as 2×2
+$\mathfrak{sl}(2)$ is by talking about its representations. What's a representation?
+Well, first you have to temporarily shelve the idea that $\mathfrak{sl}(2)$ consists
+of $2\times2$ matrices, and think of it more abstractly simply as a
+3-dimensional vector space with basis $E$,$F$,$H$, equipped with a Lie algebra
+structure given by the multiplication table $[H,E] = 2E$, $[H,F] = -2F$,
+$[E,F] = H$. If this is how I'd originally defined it, it would then be
+a little *theorem* that this Lie algebra has a "representation" as $2\times2$
 matrices. And it would turn out to have other representations too. For
-example, there's a representation as 3×3 matrices given by sending E to
+example, there's a representation as $3\times3$ matrices given by sending $E$ to
 
-    0 1 0
-    0 0 2
-    0 0 0, 
+$$\left(\begin{array}{ccc}0&1&0\\0&0&2\\0&0&0\end{array}\right)$$
 
-F to
+$F$ to
 
-    0 0 0 
-    2 0 0 
-    0 1 0, 
+$$\left(\begin{array}{ccc}0&0&0\\2&0&0\\0&1&0\end{array}\right)$$
 
-and H to
+and $H$ to
 
-    2 0  0 
-    0 0  0 
-    0 0 -2
+$$\left(\begin{array}{ccc}2&0&0\\0&0&0\\0&0&-2\end{array}\right)$$
 
 In other words, these matrices satisfy the same commutation relations as
-E,F, and H do.
+$E$,$F$, and $H$ do.
 
-More generally, and more precisely, we say an n-dimensional
-representation of a Lie algebra L (over the complex numbers) is a linear
-function R from L to n×n matrices such that
+More generally, and more precisely, we say an $n$-dimensional
+representation of a Lie algebra $L$ (over the complex numbers) is a linear
+function $R$ from $L$ to $n\times n$ matrices such that
 
-    R([x,y]) = [R(x),R(y)]
+$$R([x,y]) = [R(x),R(y)]$$
 
-for all x,y in L. Note that on the left the brackets are the brackets in
-L, while on the right they denote the commutator of n×n matrices.
+for all $x,y$ in $L$. Note that on the left the brackets are the brackets in
+$L$, while on the right they denote the commutator of $n\times n$ matrices.
 
 One good way to understand the essence of a Lie algebra is to figure out
 what representations it has. And in quantum physics, Lie algebra
@@ -151,8 +142,8 @@ So the name of the game is classifying Lie algebra representations...
 and many tomes have been written on this by now. To keep things from
 becoming too much of a mess it's crucial to make two observations.
 First, there's an easy way to get new representations by taking the
-"direct sum" of old ones: the sum of an n-dimensional representation
-and an m-dimensional one is an (n+m)-dimensional one, for example.
+"direct sum" of old ones: the sum of an $n$-dimensional representation
+and an $m$-dimensional one is an $(n+m)$-dimensional one, for example.
 Another way, not so easy, to get new representations from an old one is
 to look for "subrepresentations" of the given representation. In
 particular, a direct sum of two representations has them as
@@ -169,18 +160,18 @@ bit messier, alas. We say a representation is "completely reducible"
 if it is a direct sum of irreducible representations. Unfortunately, not
 all representations need be completely reducible!
 
-Let's consider the representations of sl(2,C). (The more sophisticated
+Let's consider the representations of $\mathfrak{sl}(2,\mathbb{C})$. (The more sophisticated
 reader should note that I am implicitly only considering finite-
 dimensional complex representations!) Here life is as nice as could be:
 all representations are completely reducible, and there is just one
-irreducible n-dimensional representation for each n, with the
+irreducible $n$-dimensional representation for each $n$, with the
 2-dimensional and 3-dimensional representations as above. (By the way, I
-really mean that there is only one irreducible n-dimensional
+really mean that there is only one irreducible $n$-dimensional
 representation up to a certain equivalence relation!) Physicists - who
-more often work with the real form su(2) - call these the spin-0,
-spin-1/2, spin-1, etc. representations. The "spin" of a particle is,
+more often work with the real form $\mathfrak{su}(2)$ - call these the spin-$0$,
+spin-$1/2$, spin-$1$, etc. representations. The "spin" of a particle is,
 in mathematical terms, just the thing that tells you which
-representation of su(2) it corresponds to!
+representation of $\mathfrak{su}(2)$ it corresponds to!
 
 Now let me jump up several levels of sophistication. In the last few
 years people have realized that Lie groups are just a special case of
@@ -191,21 +182,19 @@ Lie algebras, but they have a generalization of them - so-called
 quantized enveloping algebras.
 
 Quantum groups can be formed from simple Lie algebras, and they depend
-on a parameter q, a nonzero complex parameter. This parameter - q is for
+on a parameter $q$, a nonzero complex parameter. This parameter - $q$ is for
 quantum, naturally - can be thought of as
 
-::: {align="center"}
-e^ħ^
-:::
+$$e^\hbar$$
 
-The exponential of Planck's constant! When we set ħ = 0 we get q = 1,
+The exponential of Planck's constant! When we set $\hbar = 0$ we get $q = 1$,
 and we get back to the "classical case" of plain old-fashioned Lie
 algebras and groups. Every representation of a quantum group gives an
 invariant of links (actually even tangles), and these link invariants
-are functions of q. If we take the nth derivative of one of these
-invariants with respect to ħ and evaluate it at ħ = 0 we get a
-"Vassiliev invariant of degree n" (see "[week3](week3.html)" for the
-definition). Better than that, when q is a root of unity each quantum
+are functions of $q$. If we take the nth derivative of one of these
+invariants with respect to $\hbar$ and evaluate it at $\hbar = 0$ we get a
+"Vassiliev invariant of degree $n$" (see "week3" for the
+definition). Better than that, when $q$ is a root of unity each quantum
 group gives us a 3-dimensional "topological quantum field theory," or
 TQFT known as Chern-Simons theory. In particular, we get an invariant of
 compact oriented 3-manifolds. So there is a hefty bunch of mathematical
@@ -215,24 +204,24 @@ physics of 2 and 3 dimensions. If string theory *or* the loop variables
 approach to quantum gravity have any truth to them, quantum groups play
 a sneaky role in honest 4-dimensional physics too.
 
-In particular, there is a quantum version of sl(2) called sl~q~(2). When
-q = 1 we essentially have the good old sl(2). Chari and Premet have just
-worked out a lot of the representation theory of sl~q~(2). First of all,
-it's been known for some time that as long as q is not a root of unity
+In particular, there is a quantum version of $\mathfrak{sl}(2)$ called $\mathfrak{sl}_q(2)$. When
+$q = 1$ we essentially have the good old $\mathfrak{sl}(2)$. Chari and Premet have just
+worked out a lot of the representation theory of $\mathfrak{sl}_q(2)$. First of all,
+it's been known for some time that as long as $q$ is not a root of unity
 - that is, as long as we don't have
 
-q^n^ = 1
+$$q^n = 1$$
 
-for some integer n - the story is almost like that for ordinary sl(2).
+for some integer $n$ - the story is almost like that for ordinary $\mathfrak{sl}(2)$.
 Namely, there is one irreducible representation of each dimension, and
 all representations are completely reducible. This fails at roots of
 unity - which turns out to be the reason why one can cook up TQFTs in
-this case. It turns out that if q is an nth root of unity one can still
+this case. It turns out that if $q$ is an $n$th root of unity one can still
 define representations of dimension 0,1,2,3, etc., more or less just
-like the classical case, but only those of dimension \< n are
-irreducible. There are, in fact, exactly n irreducible representations,
+like the classical case, but only those of dimension $\leqslant n$ are
+irreducible. There are, in fact, exactly $n$ irreducible representations,
 and the fact that there are only finitely many is what makes all sorts
-of neat things happen. The k-dimensional representations with k ≥ n are
+of neat things happen. The $k$-dimensional representations with $k \geqslant n$ are
 not completely reducible. And, besides the representations that are
 analogous to the classical case, there are a bunch more. They have not
 been completely classified - they are, according to Chari, a mess! But
@@ -267,7 +256,7 @@ topological quantum field theories"
 ([arXiv:hep-th/9301062](http://arxiv.org/abs/hep-th/9301062)) is
 trivial! In particular, he says the resulting invariant of compact
 oriented 4-manifolds is identically equal to 1. If so, it's back to the
-drawing board. Crane and Yetter took the 3d TQFT coming from sl~q~(2) at
+drawing board. Crane and Yetter took the 3d TQFT coming from $\mathfrak{sl}_q(2)$ at
 roots of unity and then used a clever trick to get 3-manifolds from a
 simplicial decomposition of a 4-manifold to get a 4d TQFT. Ocneanu
 claims this trick, which he calls "simplicial dimension shifting,"
@@ -306,11 +295,11 @@ integration, available as
 The idea here is to provide a firm mathematical foundation for the loop
 variables representation of gauge theories, particularly quantum
 gravity. Ashtekar and Lewandowski consider an algebra of gauge-invariant
-observables on the space of su(2) connections on any real-analytic
+observables on the space of $\mathfrak{su}(2)$ connections on any real-analytic
 manifold, namely that generated by piecewise analytic Wilson loops. This
 is the sort of thing meant by a "holonomy algebra". They manage to
 construct an explicit diffeomorphism-invariant state on this algebra.
-They also relate this algebra to a similar algebra for sl(2) connections
+They also relate this algebra to a similar algebra for $\mathfrak{sl}(2)$ connections
 - the latter being what really comes up in quantum gravity. And they do
 a number of other interesting things, all quite rigorously. My paper
 dealt instead with an algebra generated by "regularized" or

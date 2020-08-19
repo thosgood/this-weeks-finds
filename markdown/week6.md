@@ -1,4 +1,4 @@
-week6
+# Week 6
 
 1) Alexander Vilenkin, Quantum cosmology, talk given at Texas/Pascos
 1992 at Berkeley by available as
@@ -40,56 +40,56 @@ completely homogeneous and isotropic - and let's say it's a closed
 universe in the shape of a 3-sphere, to be specific - the metric is
 given by
 
-dt^2^ - r(t)^2^[(dψ)^2^ + (sin ψ)^2^{(dθ)^2^ + (sin θ)^2^ (dφ)^2^}]
+$$dt^2 - r(t)^2[(d\psi)^2 + (\sin \psi)^2{(d\theta)^2 + (\sin \theta)^2 (d\varphi)^2}]$$
 
-What does all this mean? Here r(t) is the radius of the universe as a
+What does all this mean? Here $r(t)$ is the radius of the universe as a
 function of time, the following stuff is just the usual metric on the
-unit 3-sphere with hyperspherical coordinates ψ, θ, φ generalizing the
+unit 3-sphere with hyperspherical coordinates $\psi$, $\theta$, $\varphi$ generalizing the
 standard coordinates on the 2-sphere we all learn in college:
 
-(dψ)^2^ + (sin ψ)^2^{(dθ)^2^ + (sin θ)^2^ (dφ)^2^}
+$$(d\psi)^2 + (\sin \psi)^2{(d\theta)^2 + (\sin \theta)^2 (d\varphi)^2}$$
 
-and the fact that the metric on spacetime is dt^2^ minus a bunch of
+and the fact that the metric on spacetime is $dt^2$ minus a bunch of
 stuff reflects the fact that spacetime geometry is "Lorentzian," just
 as in flat Minkowski space the metric is
 
-dt^2^ - dx^2^ - dy^2^ - dz^2^.
+$$dt^2 - dx^2 - dy^2 - dz^2.$$
 
 The name of the game in this simple sort of big bang cosmology is thus
-finding the function r(t)! To do this, of course, we need to see what
+finding the function $r(t)$! To do this, of course, we need to see what
 Einstein's equations reduce to in this special case, and since
 Einstein's equations tell us how spacetime curves in response to the
 stress-energy tensor, this will depend on what sort of matter we have
 around. We are assuming that it's homogeneous and isotropic, whatever
-it is, so it turns out that all we need to know is its density ρ and
-pressure P (which are functions of time). We get the equations
+it is, so it turns out that all we need to know is its density $\rho$ and
+pressure $P$ (which are functions of time). We get the equations
 
-    r"/r = -(4π/3)(ρ + 3P)              (r')2 = (8π/3) ρ r2 - 1 
+$$\begin{aligned}r''/r &= -\frac{4\pi}{3}(\rho+3P) \\ (r')^2 &= \frac{8\pi}{3}\rho r^2 - 1\end{aligned}$$
 
-Here primes denote differentiation with respect to t, and I'm using
+Here primes denote differentiation with respect to $t$, and I'm using
 units in which the gravitational constant and speed of light are equal
 to 1.
 
 Let's simplify this even more. Let's assume our matter is "dust,"
 which is the technical term for zero pressure. We get two equations:
 
-    r"/r = -(4π/3)ρ               (r')2 = (8π/3) ρ r2 - 1.       (1)
+$$\begin{aligned}r''/r &= -\frac{4\pi}{3}\rho \\ (r')^2 &= \frac{8\pi}{3}\rho r^2 - 1\end{aligned}\tag{1}$$
 
-Now let's take the second one, differentiate with respect to t,
+Now let's take the second one, differentiate with respect to $t$,
 
-2r" r' = (8π/3)(ρ' r^2^ + 2 ρ r r')
+$$2r''r' = \frac{8\pi}{3}(\rho'r^2 + 2 \rho r r')$$
 
-plug in what the first equation said about r",
+plug in what the first equation said about r'',
 
--(8π/3) ρ r r' = (8π/3)(ρ' r^2^ + 2 ρ r r')
+$$-\frac{8\pi}{3} \rho r r' = \frac{8\pi}{3}(\rho' r^2 + 2 \rho r r')$$
 
 clear out the crud, and lo:
 
-3 ρ r' = - ρ' r
+$$3 \rho r' = - \rho' r$$
 
 or, more enlighteningly,
 
-d(ρ r^3^)/dt = 0.
+$$\frac{d(\rho r^3)}{dt} = 0.$$
 
 This is just "conservation of dust" - the dust density times the
 volume of the universe is staying constant. This, by the way, is a
@@ -97,29 +97,29 @@ special case of the fact that Einstein's equations *automatically
 imply* local conservation of energy (i.e., that the stress-energy tensor
 is divergence-free).
 
-Okay, so let's say ρ r^3^ = D, with D being the total amount of dust.
-Then we can eliminate ρ from equations (1) and get:
+Okay, so let's say $\rho r^3 = D$, with $D$ being the total amount of dust.
+Then we can eliminate $\rho$ from equations (1) and get:
 
-    r" = -4πD/3r2          (r')2 - (8π/3) D/r = - 1                (2)
+$$\begin{aligned}r'' &= -\frac{4\pi D}{3r^2} \\ (r')^2-\frac{8\pi}{3}\frac{D}{r} &= -1 \end{aligned}\tag{2}$$
 
 What does this mean? Well, the first one looks like it's saying
 there's a force trying to make the universe collapse, and that the
-strength of this force is proportional to 1/r^2^. Sound vaguely
+strength of this force is proportional to $1/r^2$. Sound vaguely
 familiar? It's actually misleadingly simple - if we had put in
 something besides dust it wouldn't work quite this way - but as long as
 we don't take it too seriously, we can just think of this as gravity
 trying to get the universe to collapse. And the second one looks like
-it's saying that the "kinetic" energy proportional to (r')^2^, plus
-the "potential" energy proportional to -1/r, is constant! In other
+it's saying that the "kinetic" energy proportional to $(r')^2$, plus
+the "potential" energy proportional to $-1/r$, is constant! In other
 words, we have a nice analogy between the big bang cosmology and a very
 old-fashioned system, a classical particle in one dimension attracted to
-the origin by a 1/r^2^ force!
+the origin by a $1/r^2$ force!
 
 It's easy enough to solve this equation, and easier still to figure it
 out qualitatively. The key thing is that since the total "energy" in
 the second equation of (2) is negative, there won't be enough
-"energy" for r to go to infinity, that is, there'll be a big bang and
-then a big crunch. Here's r as a function of t, roughly:
+"energy" for $r$ to go to infinity, that is, there'll be a big bang and
+then a big crunch. Here's $r$ as a function of $t$, roughly:
 
                |                .     .
                |        .                     .
@@ -134,7 +134,7 @@ well, is just a cycloid, which is the curve traced out by a point on the
 rim of rolling wheel. So, succumbing to romanticism momentarily we could
 call this picture ONE TURN OF THE GREAT WHEEL OF TIME.... But there is
 *no* reason to expect further turns, because the differential equation
-simply becomes singular when r = 0. We may either say it doesn't make
+simply becomes singular when $r = 0$. We may either say it doesn't make
 sense to speak of "before the big bang" or "after the big crunch" -
 or we can look for improved laws that avoid these singularities. (I
 should repeat that we are dealing with unrealistic models here, since
@@ -170,12 +170,12 @@ case-by-case finesse.
 
 The idea of "canonical quantization" of a classical system with one
 degree of freedom - like our big bang model above, where the one degree
-of freedom is r - is to turn the "position" (that's r) into a
+of freedom is $r$ - is to turn the "position" (that's $r$) into a
 multiplication operator and the "momentum" (often that's something
-like r', but watch out!) into a differentation operator, say -i ħ d/dr,
+like $r'$, but watch out!) into a differentation operator, say $-i \hbar \frac{d}{dr}$,
 so that we get the "canonical commutation relations"
 
-                [-i ħ d/dr, r] = -i ħ.
+$$[-i \hbar \frac{d}{dr}, r] = -i \hbar.$$
 
 We then take the formula for the energy, or Hamiltonian, in terms of
 position and momentum, and plug in these operators, so that the
@@ -186,77 +186,77 @@ don't I just do it!
 
 So: I said that the formula
 
-      (r')2 - (8π/3) D/r = - 1                        (3)
+$$(r')^2 - \frac{8\pi}{3} \frac{D}{r} = - 1 \tag{3}$$
 
 looks a lot like a formula of the form "kinetic energy plus potential
 energy is constant". Of course, we could multiply the whole equation by
 anything and get a valid equation, so it's not obvious that the
 "right" Hamiltonian is
 
-      (r')2 - (8π/3) D/r
+$$(r')^2 - \frac{8\pi}{3} \frac{D}{r}$$
 
 or (adding 1 doesn't hurt)
 
-      (r')2 - (8π/3) D/r + 1
+$$(r')^2 - \frac{8\pi}{3} \frac{D}{r} + 1$$
 
-In fact, note that multiplying the Hamiltonian by some function of r
+In fact, note that multiplying the Hamiltonian by some function of $r$
 just amounts to reparametrizing time, which is perfectly fine in general
 relativity. In fact, Vilenkin and other before him have decided it's
-better to multiply the Hamiltonian above by r^2^. Why? Well, it has to
+better to multiply the Hamiltonian above by $r^2$. Why? Well, it has to
 do with figuring out what the right notion of "momentum" is
-corresponding to the "position" r. Let's do that. We use the old
+corresponding to the "position" $r$. Let's do that. We use the old
 formula
 
-         p = dL/dq'
+$$p = \frac{dL}{dq'}$$
 
 relating momentum to the Lagrangian, where for us the position, usually
-called q, is really r.
+called $q$, is really $r$.
 
-The Lagrangian of general relativity is the "Ricci scalar" R - a
+The Lagrangian of general relativity is the "Ricci scalar" $R$ - a
 measure of curvature of the metric - and in the present problem it turns
 out to be
 
-       R = 6 (r"/r + (r')2/r2)
+$$R = 6 \left(\frac{r''}{r} + \frac{(r')^2}{r^2}\right)$$
 
 But we are reducing the full field theory problem down to a problem with
 one degree of freedom, so our Lagrangian should be the above integrated
-over the 3-sphere, which has volume 16 π r^3^/3, giving us
+over the 3-sphere, which has volume $16 \pi r^3/3$, giving us
 
-       32π (r" r2 + (r')2 r)
+$$32\pi (r''r^2 + (r')^2 r)$$
 
-However, the a" is a nuisance, and we only use the integral of the
+However, the $r''$ is a nuisance, and we only use the integral of the
 Lagrangian with respect to time (that's the action, which classically
 is extremized to get the equations of motion), so let's do an
 integration by parts, or in other words add a total divergence, to get
 the Lagrangian
 
-       L = -32π (r')2 r.
+$$L = -32\pi (r')^2 r.$$
 
-Differentiating with respect to r' we get the momentum "conjugate to
-r",
+Differentiating with respect to $r'$ we get the momentum "conjugate to
+$r$",
 
-       p = -64π r'r.
+$$p = -64\pi r'r.$$
 
-Now I notice that Vilenkin uses as the momentum simply -r'r, somehow
-sweeping the monstrous 64π under the rug. I have the feeling that this
-amounts to pushing this factor into the definition of ħ in the canonical
-commutation relations. Since I was going to set ħ to 1 in a minute
+Now I notice that Vilenkin uses as the momentum simply $-r'r$, somehow
+sweeping the monstrous $64\pi$ under the rug. I have the feeling that this
+amounts to pushing this factor into the definition of $\hbar$ in the canonical
+commutation relations. Since I was going to set $\hbar$ to 1 in a minute
 anyway, this is okay (honest). So let's keep life simple and use
 
-       p = -r'r.
+$$p = -r'r.$$
 
 Okay! Now here's the point, we want to exploit the analogy with good
 old quantum mechanics, which typically has Hamiltonians containing
-something like p^2^. So let's take our preliminary Hamiltonian
+something like $p^2$. So let's take our preliminary Hamiltonian
 
-       (r')2 - (8π/3) D/r + 1
+$$(r')^2 - \frac{8\pi}{3} \frac{D}{r} + 1$$
 
-and multiply it by r^2^, getting
+and multiply it by $r^2$, getting
 
-       H = p2 - (8π D/3)r + r2.
+$$H = p^2 - \frac{8\pi D}{3}r + r^2.$$
 
 Hey, what's this? A harmonic oscillator! (Slightly shifted by the term
-proportional to r.) So the universe is just a harmonic oscillator... I
+proportional to $r$.) So the universe is just a harmonic oscillator... I
 guess that's why they stressed that so much in all my classes!
 
 Actually, despite the fact that we are working with a very simple model
@@ -265,14 +265,14 @@ recall our original classical equation, (3). This constrained the energy
 to have a certain value. I.e., we are dealing not with a Hamiltonian in
 the ordinary sense, but a "Hamiltonian constraint" - typical of
 systems with time reparametrization invariance. So our quantized
-equation says that the "wavefunction of the universe," ψ(r), must
+equation says that the "wavefunction of the universe," $\psi(r)$, must
 satisfy
 
-      H ψ = 0.
+$$H \psi = 0.$$
 
 Also, unlike the ordinary harmonic oscillator we have the requirement
-that r \> 0. In other word, we're working with a problem that's like a
-harmonic oscillator and a "wall" that keeps r \> 0. Think of a
+that $r\geqslant0$. In other word, we're working with a problem that's like a
+harmonic oscillator and a "wall" that keeps $r\geqslant0$. Think of a
 particle in a potential like this:
 
                |
@@ -284,14 +284,13 @@ particle in a potential like this:
                |.-----.-------------
                    .         r 
 
-Here V(r) = - (8π D/3)r + r^2^. The minimum of V is at r = 4 π D/3 and
-the zeroes are at r = 0 and 8 π D/3. Classically, a particle with zero
-energy starting at r = 0 will roll to the right and make it out to r = 4
-π D/3 before rolling back to r = 0. This is basically the picture we had
+Here $V(r) = - (8\pi D/3)r + r^2$. The minimum of $V$ is at $r = 4 \pi D/3$ and
+the zeroes are at $r = 0$ and $8 \pi D/3$. Classically, a particle with zero
+energy starting at $r = 0$ will roll to the right and make it out to $r = 4\pi D/3$ before rolling back to $r = 0$. This is basically the picture we had
 in Figure 1, except that we've reparametrized time so we have simple
 harmonic motion instead of cycloid.
 
-Quantum mechanically, however one must pick boundary conditions at r = 0
+Quantum mechanically, however one must pick boundary conditions at $r = 0$
 to make the problem well-defined!
 
 This is where the fur begins to fly!! Hawking and Vilenkin have very
@@ -310,17 +309,17 @@ early stage. So his equations are slightly different from those above
 
 [Let me just interject a question to the experts if I may - since I've
 written this long article primarily to educate myself. It would seem to
-me that the equation H ψ = 0 above would only have a normalizable
+me that the equation $H \psi = 0$ above would only have a normalizable
 solution if the boundary conditions were fine-tuned! I.e., maybe the
-equation H ψ = 0 itself determines the boundary conditions! This would
+equation $H \psi = 0$ itself determines the boundary conditions! This would
 be very nice; has anyone thought of this? It seems reasonable because,
-with typical boundary conditions, the operator H above will have pure
+with typical boundary conditions, the operator $H$ above will have pure
 point spectrum (only eigenvalues) and it would be rather special for one
-of them to be 0, allowing a normalizable solution of H ψ = 0. Also,
+of them to be $0$, allowing a normalizable solution of $H \psi = 0$. Also,
 corrections and education of any sort are welcomed. I would love to
 discuss this with some experts.]
 
-Anyway, suppose we find some boundary conditions and calculate ψ, the
+Anyway, suppose we find some boundary conditions and calculate $\psi$, the
 "wavefunction of the universe." (I like repeating that phrase because
 it sounds so momentous, despite the fact that we are working with a
 laughably oversimplified toy model.) What then? What are the
@@ -360,7 +359,7 @@ viewpoint is that the "physical" observables, that is, the really
 observable observables, in general relativity are those that are
 invariant under all diffeomorphisms of spacetime. I.e., those that are
 independent of any choice of coordinates. For example, saying "My
-position is (242,2361,12,-17)" is not diffeomorphism-invariant, but
+position is $(242,2361,12,-17)$" is not diffeomorphism-invariant, but
 saying "I'm having the time of my life" is. It's hard to find lots
 of (tractable) diffeomorphism invariant observables - or even any! Try
 figuring out how you would precisely describe the shape of a rock
@@ -392,7 +391,7 @@ various proposed solutions, including Rovelli's, is given in
 125 pages, available as
 [gr-qc/9210011](http://xxx.lanl.gov/abs/gr-qc/9210011).
 
-Anyway, in a paper I very briefly described in "[week1](week1.html)":
+Anyway, in a paper I very briefly described in "week1":
 
 5) Lee Smolin, Time, measurement and information loss in quantum
 cosmology, available as
@@ -447,7 +446,7 @@ quoting Smolin's abstract:
 
 ------------------------------------------------------------------------
 
-*In the Space and Time marriage we have the greatest Boy meets Girl
+> *In the Space and Time marriage we have the greatest Boy meets Girl
 story of the age. To our great-grandchildren this will be as poetical a
 union as the ancient Greek marriage of Cupid and Psyche seems to us.* -
 Lawrence Durrell
