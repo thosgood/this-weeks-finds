@@ -1,4 +1,4 @@
-week19
+# Week 19
 
 I will now start catching up on some of the papers that have accumulated
 over the summer. This time I'll say a bit about recent developments in
@@ -8,13 +8,13 @@ The quantum field theories that describe three of the forces of nature
 (electromagnetic, strong and weak) depend for their formulation on a
 fixed metric on spacetime - that is, a way of measuring distance and
 time. Indeed, it seems pretty close to being true that spacetime is
-R\^4, and that the "interval" between any two points in 4-dimensional
+$\mathbb{R}^4$, and that the "interval" between any two points in 4-dimensional
 space is given by the Minkowski metric
 
-                     dt^2 - dx^2 - dy^2 - dz^2  
+$$dt^2 - dx^2 - dy^2 - dz^2$$
 
-where dt is the change in the time, or t, coordinate, dx is the change
-in the spatial x coordinate, and so on. However, it's apparently not
+where $dt$ is the change in the time, or $t$, coordinate, $dx$ is the change
+in the spatial $x$ coordinate, and so on. However, it's apparently not
 quite true. In fact, the presence of matter or energy distorts this
 metric a little, and the effect of the resulting "curvature of
 spacetime" is perceived as gravity. This is the basic idea of general
@@ -81,13 +81,13 @@ is unlikely to be so simple. A number of people have recently tried to
 construct 4d TQFTs copying tricks that worked in 3d. Some papers along
 these lines that I have mentioned before are:
 
-A categorical construction of 4d topological quantum field theories, by
+> A categorical construction of 4d topological quantum field theories, by
 Louis Crane and David Yetter, preprint available as
-[hep-th/9301062](http://xxx.lanl.gov/abs/hep-th/9301062) in latex. (Week
+[`hep-th/9301062`](http://xxx.lanl.gov/abs/hep-th/9301062) in latex. (Week
 2)
 
-Surgical invariants of four-manifolds, by Boguslaw Broda, preprint
-available as [hep-th/9302092](http://xxx.lanl.gov/abs/hep-th/9302092).
+> Surgical invariants of four-manifolds, by Boguslaw Broda, preprint
+available as [`hep-th/9302092`](http://xxx.lanl.gov/abs/hep-th/9302092).
 (Weeks 9 and 10)
 
 (I have listed which "Week" I discussed these in case anyone wants to
@@ -101,15 +101,15 @@ spacetime manifold was 1. (This number is called the partition function
 of the quantum field theory, and having it be 1 for all spacetimes means
 the theory is deadly dull.)
 
-A note on simplicial dimension shifting, Adrian Ocneanu, preprint,
+> A note on simplicial dimension shifting, Adrian Ocneanu, preprint,
 available in AMSLaTeX as
-[hep-th/9302028](http://xxx.lanl.gov/abs/hep-th/9302028). (Week 5)
+[`hep-th/9302028`](http://xxx.lanl.gov/abs/hep-th/9302028). (Week 5)
 
 Crane and Yetter wrote a rebuttal noting that Ocneanu was not dealing
 with quite the same theory:
 
-We are not stuck with gluing, by David Yetter and Louis Crane, preprint
-available as [hep-th/9302118](http://xxx.lanl.gov/abs/hep-th/9302118) in
+> We are not stuck with gluing, by David Yetter and Louis Crane, preprint
+available as [`hep-th/9302118`](http://xxx.lanl.gov/abs/hep-th/9302118) in
 latex form, 2 pages. (Week 7)
 
 They also presented, at their conference this spring, calculations
@@ -123,9 +123,9 @@ just a function of its signature and possibly some Betti numbers - these
 being well-known invariants, it's not especially exciting from the
 point of view of topology. This was also shown by Justin Roberts:
 
-Skein theory and Turaev-Viro invariants, by Justin Roberts, Pembroke
+> Skein theory and Turaev-Viro invariants, by Justin Roberts, Pembroke
 College preprint, April 14, 1993. (Roberts is at
-J.D.Roberts@pmms.cam.ac.uk) (Week 14).
+`J.D.Roberts@pmms.cam.ac.uk`) (Week 14).
 
 He suggested that the Crane-Yetter partition function was also a
 function of the signature and Betti numbers, but did not check their
@@ -135,37 +135,37 @@ shown this themselves:
 
 1) Evaluating the Crane-Yetter Invariant, Louis Crane, Louis H.
 Kauffman, David N. Yetter, 4 pages, AMSTeX, preprint available as
-[hep-th/9309063](http://xxx.lanl.gov/abs/hep-th/9309063).
+[`hep-th/9309063`](http://xxx.lanl.gov/abs/hep-th/9309063).
 
-    Abstract:  We provide an explicit formula for the invariant of 4-manifolds
-    introduced by Crane and Yetter (in hep-th 9301062). A consequence of our
-    result is the existence of a combinatorial formula for the signature of
-    a 4-manifold in terms of local data from a triangulation.  Potential
-    physical applications of our result exist in light of the fact that the
-    Crane-Yetter invariant is a rigorous version of ideas of Ooguri on
-    B wedge F theory.
+> Abstract:  We provide an explicit formula for the invariant of 4-manifolds
+  introduced by Crane and Yetter (in `hep-th/9301062`). A consequence of our
+  result is the existence of a combinatorial formula for the signature of
+  a 4-manifold in terms of local data from a triangulation.  Potential
+  physical applications of our result exist in light of the fact that the
+  Crane-Yetter invariant is a rigorous version of ideas of Ooguri on
+  $B \wedge F$ theory.
 
 They also have shown that Broda's original construction, and also a
 souped-up construction of his, give a partition function that depends
 only on the signature:
 
-2) On the Classicality of Broda's SU(2) Invariants of 4-Manifolds,
+2) On the Classicality of Broda's $SU(2)$ Invariants of 4-Manifolds,
 Louis Crane, Louis H. Kauffman, David N. Yetter, 4 pages LaTeX version
 2.09, preprint available as
-[hep-th/9309102](http://xxx.lanl.gov/abs/hep-th/9309102).
+[`hep-th/9309102`](http://xxx.lanl.gov/abs/hep-th/9309102).
 
-    Abstract: Recent work of Roberts has shown that the first surgical 4-manifold
-    invariant of Broda and (up to an unspecified normalization factor)
-    the state-sum invariant arising from the TQFT of Crane-Yetter are
-    equivalent to the signature of the 4-manifold.  Subsequently Broda
-    defined another surgical invariant in which the 1- and 2- handles
-    are treated differently.  We use a refinement of Roberts' techniques
-    developed by the authors in hep-th/9309063 to show that the
-    "improved" surgical invariant of Broda also depends only on the
-    signature and Euler character.
+> Abstract: Recent work of Roberts has shown that the first surgical 4-manifold
+  invariant of Broda and (up to an unspecified normalization factor)
+  the state-sum invariant arising from the TQFT of Crane-Yetter are
+  equivalent to the signature of the 4-manifold.  Subsequently Broda
+  defined another surgical invariant in which the 1- and 2- handles
+  are treated differently.  We use a refinement of Roberts' techniques
+  developed by the authors in `hep-th/9309063` to show that the
+  "improved" surgical invariant of Broda also depends only on the
+  signature and Euler character.
 
 Now let me say just a little bit about what this episode might mean for
-physics as well as mathematics. The key is the "B wedge F" theory
+physics as well as mathematics. The key is the "$B \wedge F$" theory
 alluded to above. This is a quantum field theory that makes sense in 4
 dimensions. I have found that the nicest place to read about it is:
 
@@ -184,11 +184,11 @@ spacetime!
 
 What Crane and Yetter were dreaming of doing was constructing 4d quantum
 gravity as a TQFT using triangulations of spacetime. What they really
-did, it turns out, was to construct B wedge F theory as a TQFT using
+did, it turns out, was to construct $B\wedge F$ theory as a TQFT using
 triangulations. (Broda constructed it another way.) On the one hand, the
-simplicity of B wedge F theory compared to honest-to-goodness 4d quantum
+simplicity of $B\wedge F$ theory compared to honest-to-goodness 4d quantum
 gravity makes it possible to understand it a lot better, and calculate
-it out explicitly. On the other hand, B wedge F theory is so simple that
+it out explicitly. On the other hand, $B\wedge F$ theory is so simple that
 it doesn't tell us much new about topology, at least not the topology
 of 4-dimensional manifolds per se. Via Donaldson theory and the work of
 Kronheimer and Mrowka it's probably telling us a lot about the topology

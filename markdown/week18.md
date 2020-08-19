@@ -1,4 +1,4 @@
-week18
+# Week 18
 
 I will be resuming this series of articles this fall, though perhaps not
 at a rate of one "Week" per week, as I'll be pretty busy. For those
@@ -15,7 +15,7 @@ describing what I did over my summer vacation:
 
 1) Strings, loops, knots, and gauge fields, by John Baez, preprint
 available in LaTeX form as
-[hep-th/9309067](http://xxx.lanl.gov/abs/hep-th/9309067), 34 pages.
+[`hep-th/9309067`](http://xxx.lanl.gov/abs/hep-th/9309067), 34 pages.
 
 When I tell layfolk that I'm working on the loop representation of
 quantum gravity, and try to describe its relation to knot theory, I
@@ -39,7 +39,7 @@ conservative project. It simply attempts to use some new mathematics to
 reconcile two theories which both seem true, but up to now have been as
 immiscible as oil and water: quantum field theory, and general
 relativity. If it works, it will still be only the first step towards
-uniftying gravity with the other forces. If the questioner has the gall
+unifying gravity with the other forces. If the questioner has the gall
 to ask if *it* has made any testable predictions, I say that so far it
 is essentially a mathematics project. On the one hand, here are
 Einstein's equations; on the other hand, here are the rules of thumb
@@ -71,7 +71,7 @@ The odd thing is that there are a lot of mathematical connections
 between string theory and the loop representation. Gradually, as time
 went on, I became more and more convinced that maybe the layfolk were
 right - maybe the loop representation of quantum gravity really WAS
-string theory in disguise, or vice versa. This made a little embarassed
+string theory in disguise, or vice versa. This made a little embarrassed
 by how much I had been making fun of string theory. Still, it could be a
 very good thing. On the one hand, the loop representation of quantum
 gravity is much more well-motivated from basic physical principles than
@@ -94,7 +94,7 @@ Here's what I wound up saying:
 > hadron interactions. Unfortunately this theory had a number of
 > undesirable features; in particular, it predicted massless spin-2
 > particles. It was soon supplanted by quantum chromodynamics (QCD),
-> which models the strong force by an SU(3) Yang-Mills field. However,
+> which models the strong force by an $SU(3)$ Yang-Mills field. However,
 > string models continued to be popular as an approximation of the
 > confining phase of QCD. Two quarks in a meson, for example, can be
 > thought of as connected by a string-like flux tube in which the gauge
@@ -200,7 +200,7 @@ category theory may provide the links between *modern* string theory
 with its conformal fields and the loop representation of quantum
 gravity. This is not as outre as it may appear. The categories being
 discussed here are really just ways of talking about *symmetries* (see
-my stuff on [categories](categories.html) and
-[symmetries](symmetries.html) for more on this). As usual in physics,
+my stuff on [categories](http://math.ucr.edu/home/baez/categories.html) and
+[symmetries](http://math.ucr.edu/home/baez/symmetries.html) for more on this). As usual in physics,
 the clearest way to grasp the connection between two seemingly disparate
 problems is often by recognizing that they have the same symmetries.

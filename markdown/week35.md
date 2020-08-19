@@ -74,7 +74,7 @@ highly nontrivial affair! And it gets more complicated as n increases! A
 basically just a *set*, if we allow ourselves to ignore certain problems
 about classes that are too big to qualify as sets. A 1-category is
 nothing but a category. Recall the definition of a
-[category](categories.html):
+[category](http://math.ucr.edu/home/baez/categories.html):
 
 A category consists of a set of **objects** and a set of **morphisms**.
 Every morphism has a **source** object and a **target** object. (A good
