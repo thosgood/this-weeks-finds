@@ -234,6 +234,4 @@ you try to build in the asymmetry wrt orientation which 4-manifolds seem
 to possess.
 
 Exercise: do the nonorientable case. The answer should be that $b$ is
-determined by the Euler characteristic, mod 2.
-
-------------------------------------------------------------------------
+determined by the Euler characteristic, $\mod 2$.

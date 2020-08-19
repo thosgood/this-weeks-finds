@@ -1,4 +1,4 @@
-week13
+# Week 13
 
 Well, folks, this'll be the last "This Week's Finds" for a while,
 since I'm getting rather busy preparing for my conference on knots and
@@ -26,19 +26,19 @@ to number theory. For other approaches one might try
 Okay, where to start? Well, how about this: the sine function is an
 analytic function on the complex plane with the property that
 
-sin(z + 2π) = sin z
+$$\sin(z + 2\pi) = \sin z.$$
 
 It also satisfies a nice differential equation
 
-(sin' z)^2^ = 1 - (sin z)^2^
+$$(\sin' z)^2 = 1 - (\sin z)^2$$
 
 and for this reason, we could, if we hadn't noticed the sine function
 otherwise, have run into it when we tried to integrate
 
-(1 - u^2^)^-1/2^
+$$\frac{(1 - u^2)^{-1}}{2}$$
 
 The differential equation above implies that the integral is nice to do
-by the substitution u = sin z, and we get the answer arcsin u. If the
+by the substitution $u = \sin z$, and we get the answer $\arcsin u$. If the
 sine function - or more generally, trig functions - didn't exist yet,
 we would have invented them when we tried to do integrals involving
 square roots of quadratic polynomials.
@@ -47,15 +47,15 @@ Elliptic functions are a beautiful generalization of all of this stuff.
 Say we wanted, just for the heck of it, an analytic function that was
 periodic not just in one direction on the complex plane, like the sine
 function, but in *two* directions. For example, we might want some
-function P(z) with
+function $P(z)$ with
 
-P(z + 2π) = P(z)
+$$P(z + 2\pi) = P(z)$$
 
 and also
 
-P(z + 2πi) = P(z)
+$$P(z + 2\pi i) = P(z).$$
 
-This function would look just the same on each 2π-by-2π square:
+This function would look just the same on each $2\pi$-by-$2\pi$ square:
 
                     x       x       x       x       x
 
@@ -73,16 +73,14 @@ its bottom side, and its left side with its right side.
 
 More generally - while we're fantasizing about this wonderful
 doubly-periodic function - we could ask for one that was periodic in any
-old two directions. That is, fixing two numbers ω~1~ and ω~2~ that
+old two directions. That is, fixing two numbers $\omega_1$ and $\omega_2$ that
 aren't just real-valued multiples of each other, we could hope to find
-an analytic function on the complex plane with ω~1~ and ω~2~ as periods:
+an analytic function on the complex plane with $\omega_1$ and $\omega_2$ as periods:
 
-P(z + ω~1~) = P(z)
+$$\begin{aligned}P(z + \omega_1) &= P(z) \\ P(z + \omega_2) &= P(z).\end{aligned}$$
 
-P(z + ω~2~) = P(z).
-
-Then P(z) would be the same at all points on the "lattice" of points n
-ω~1~ + m ω~2~ which might look like the square above or might be like
+Then $P(z)$ would be the same at all points on the "lattice" of points $n\omega_1 + m \omega_2$
+which might look like the square above or might be like
 
                       x
                           x
@@ -99,7 +97,7 @@ Then P(z) would be the same at all points on the "lattice" of points n
 
 or some such thing.
 
-Let's think about this nice function P(z) we are fantasizing about.
+Let's think about this nice function $P(z)$ we are fantasizing about.
 Alas, if it were analytic on the whole plane (no poles), it would be
 bounded on each little parallelogram, and since it's doubly periodic,
 it would be a bounded analytic function on the complex plane, hence
@@ -109,11 +107,11 @@ the wonderful properties we want - but that's too boring!
 So let's allow it to have poles! But let's keep it as nice as
 possible, so let's have the only poles occur at the lattice points
 
-L = {n ω~1~ + m ω~2~}
+$$L = \{n \omega_1 + m \omega_2\}.$$
 
 And let's make the poles as nice as possible. Can we have each pole be
-of order one? That is, can we make P(z) blow up like 1/(z - ω) at each
-lattice point ω in L? No, because if it did, the integral of P around a
+of order one? That is, can we make $P(z)$ blow up like $1/(z - \omega)$ at each
+lattice point $\omega$ in $L$? No, because if it did, the integral of $P$ around a
 nicely chosen parallelogram around the pole would be zero, because the
 contributions from opposite sides of the parallelogram would cancel by
 symmetry. (A fun exercise.) But by the Cauchy residue formula this means
@@ -121,76 +119,75 @@ that the residue of the pole vanishes, so it can't be of order one.
 
 Okay, try again. Let's try to make the pole at each lattice point be of
 order two. How can we cook up such a function? We might try something
-obvious: just sum up, for all ω in the lattice L, the functions
+obvious: just sum up, for all $\omega$ in the lattice $L$, the functions
 
-1/(z - ω)^2^
+$$\frac{1}{(z - \omega)^2}$$
 
-We get something periodic with poles like 1/(z - ω)^2^ at each lattice
-point ω. But there's a big problem - the sum doesn't converge!
+We get something periodic with poles like $1/(z - \omega)^2$ at each lattice
+point $\omega$. But there's a big problem - the sum doesn't converge!
 (Another fun exercise.)
 
 Oh well, try again. Let's act like physicists and RENORMALIZE the sum
 by subtracting off an infinite constant! Just subtract the sum over all
-ω in L of 1/ω^2^. Well, all ω except zero, anyway. This turns out to
+$\omega$ in $L$ of $1/\omega^2$. Well, all $\omega$ except zero, anyway. This turns out to
 work, but we really should be careful about the order of summation here:
-really, we should let P(z) be 1/z^2^ plus the sum for all nonzero ω in
-the lattice L of 1/(z - ω)^2^ - 1/ω^2^. This sum does converge and the
-limit is a function P(z) that's analytic except for poles of order two
+really, we should let $P(z)$ be $1/z^2$ plus the sum for all nonzero $\omega$ in
+the lattice $L$ of $1/(z - \omega)^2 - 1/\omega^2$. This sum does converge and the
+limit is a function $P(z)$ that's analytic except for poles of order two
 at the lattice points. This is none other than the Weierstrass elliptic
-function, usually written with a fancy Gothic P to intimidate people.
-Note that it really depends on the two periods ω~1~ and ω~2~, not just
-z.
+function, usually written with a fancy Gothic $\mathfrak{P}$ to intimidate people.
+Note that it really depends on the two periods $\omega_1$ and $\omega_2$, not just $z$.
 
-Now, it turns out that P(z) really *is* a cool generalization of the
+Now, it turns out that $P(z)$ really *is* a cool generalization of the
 sine function. Namely, it satisfies a differential equation like the one
 the sine does, but fancier:
 
-P'(z)^2^ = 4 P(z)^3^ - g~2~ P(z) - g~3~
+$$P'(z)^2 = 4 P(z)^3 - g_2 P(z) - g_3$$
 
-where g~2~ and g~3~ are some constants that depend on the periods ω~1~
-and ω~2~. Just as with the sine function we can use the *inverse* of
-Weierstrass P function to do some integrals, but this time we can do
+where $g_2$ and $g_3$ are some constants that depend on the periods $\omega_1$
+and $\omega_2$. Just as with the sine function we can use the *inverse* of
+Weierstrass $\mathfrak{P}$ function to do some integrals, but this time we can do
 integrals involving square roots of cubic polynomials! If you look in
 big nasty books of special functions or tables of integrals, you will
 see that there's a big theory of this kind of thing that was developed
 in the 1800's - back when heavy-duty calculus was hip.
 
 There are, however, some other cool ways of thinking about what's going
-on here. First of all, remember that we can think of P(z) as a function
+on here. First of all, remember that we can think of $P(z)$ as a function
 on the torus. We can think of this torus as being "coordinatized" - I
-use the word loosely - by P(z) and its first derivative P'(z). I.e., if
-we know x = P(z) and y = P'(z) we can figure out where the point z is
-on the torus. But of course x and y can't be any old thing; the
+use the word loosely - by $P(z)$ and its first derivative $P'(z)$. I.e., if
+we know $x = P(z)$ and $y = P'(z)$ we can figure out where the point $z$ is
+on the torus. But of course $x$ and $y$ can't be any old thing; the
 differential equation above says they have to satisfy
 
-y^2^ = 4x^3^ - g~2~ x - g~3~
+$$y^2 = 4x^3 - g_2 x - g_3.$$
 
-Here x and y are complex numbers of course. But look what this means: it
-means that if we look at the pairs of complex numbers (x,y) satisfying
+Here $x$ and $y$ are complex numbers of course. But look what this means: it
+means that if we look at the pairs of complex numbers $(x,y)$ satisfying
 the above cubic equation, we get something that looks just like a torus!
 This is called an elliptic curve, since for algebraic geometers a
-"curve" is the set of solutions (x,y) of some polynomial in two
+"curve" is the set of solutions $(x,y)$ of some polynomial in two
 *complex* variables - not two real variables.
 
 So - an "elliptic curve" is basically just the solutions of a cubic
 equation in two variables. Actually, we want to rule out curves that
 have singularities, that is, places where there's no unique tangent
-line to the curve, as in y^2^ = x^3^ or y^2^ = x^2^(x+1) - draw these in
+line to the curve, as in $y^2 = x^3$ or $y^2 = x^2(x+1)$ - draw these in
 the real plane and you'll see what I mean. Anyway, all elliptic curves
 can, by change of variables, be made to look like our favorite one,
 
-y^2^ = 4x^3^ - g~2~ x - g~3~
+$$y^2 = 4x^3 - g_2 x - g_3.$$
 
 There are lots of more fancy ways of thinking about elliptic curves, and
 one is to think of the fact that they look like a torus as the key part.
 In a book on algebraic geometry you might see an elliptic curve as a
 curve with genus one (i.e., with one "handle," like a torus has). One
 nice thing about a torus is that is a group. That is, we know how to add
-complex numbers, and we can add modulo elements of the lattice L, so the
-torus becomes a group with addition mod L as the group operation. This
+complex numbers, and we can add modulo elements of the lattice $L$, so the
+torus becomes a group with addition $\mod L$ as the group operation. This
 is simple enough, but it means that when we look at the solutions of
 
-y^2^ = 4x^3^ - g~2~ x - g~3~
+$$y^2 = 4x^3 - g_2 x - g_3$$
 
 they must form a group somehow, and viewed this way it's not at all
 obvious! Nonetheless, there is a beautiful geometric description of the
@@ -199,19 +196,19 @@ group operation in these terms - I'll leave this for Knapp to explain..
 Let me wrap this up - the story goes on and on, but I'm getting tired -
 with a bit about what it has to do with number theory. It has a lot to
 do with Diophantine equations, where one wants integer, or rational
-solutions to a polynomial equation. Suppose that g~2~ and g~3~ are
+solutions to a polynomial equation. Suppose that $g_2$ and $g_3$ are
 rational, and one has some solutions to the equation
 
-y^2^ = 4x^3^ - g~2~ x - g~3~
+$$y^2 = 4x^3 - g_2 x - g_3.$$
 
 Then it turns out that one can use the group operation on the elliptic
 curve to get new solutions! Actually, it seems as if Diophantus knew
 this way back when in some special cases. For example, for the problem
 
-y(6 - y) = x^3^ - x
+$$y(6 - y) = x^3 - x$$
 
-Diophantus could start with the trivial solution (x,y) = (-1,0), do some
-mysterious stuff, and get the solution (17/9,26/27). Knapp explains how
+Diophantus could start with the trivial solution $(x,y) = (-1,0)$, do some
+mysterious stuff, and get the solution $(17/9,26/27)$. Knapp explains how
 this works in the Overview section, but then more deeply later.
 Basically, it uses the fact that this curve is an elliptic curve, and
 uses the group structure.
@@ -219,11 +216,11 @@ uses the group structure.
 In fact, one can solve mighty hard-seeming Diophantine problems using
 these ideas. Knapp talks a bit about a problem Fermat gave to Mersenne
 in 1643 - this increased my respect for Fermat a bit. He asked, find a
-Pythagorean triple (X,Y,Z), that is:
+Pythagorean triple $(X,Y,Z)$, that is:
 
-X^2^ + Y^2^ = Z^2^,
+$$X^2 + Y^2 = Z^2$$,
 
-such that Z is a square number and X + Y is too! One can solve this
+such that $Z$ is a square number and $X + Y$ is too! One can solve this
 using elliptic curves. I don't know if Mersenne got it - the answer is
 at the end of this post, but heavy-duty number theorists out there might
 enjoy trying this one if they don't know it already.
@@ -236,9 +233,9 @@ operad actions of moduli spaces, by Jim Stasheff, preprint available as
 
 One conceptually pleasing approach to string theory is closed string
 field theory, where one takes as the basic object unparametrized maps
-from circle into a manifold M representing "space", i.e., elements of
+from circle into a manifold $M$ representing "space", i.e., elements of
 
-Maps(S^1^,M)/Diff^+^(S^1^).
+$$\mathsf{Maps}(S^1,M)/\mathsf{Diff}^+(S^1).$$
 
 A state of closed string field theory would be roughly a function on the
 above set. Then one tries to define all sorts of operations on these
@@ -250,7 +247,7 @@ a homotopy Lie algebra. Physicists would say that the Jacobi identity
 holds modulo a BRST exact term. This is just the beginning of quite a
 big bunch of mathematics being developed by Stasheff, Zwiebach, Getzler,
 Kapranov and many others. My main complaint with the physics is that all
-these structures seem to depend on choosing a Riemannian metric on M - a
+these structures seem to depend on choosing a Riemannian metric on $M$ - a
 so-called "background metric." Since string theory is supposed to
 include a theory of quantum gravity it is annoying to have this
 God-given background metric stuck in at the very start. Perhaps I just
@@ -289,10 +286,8 @@ too, by the way.
 
 ##### Answer to puzzle:
 
-X = 1061652293520
+$$X = 1061652293520$$
 
-Y = 4565486027761
+$$Y = 4565486027761$$
 
-Z = 4687298610289
-
-------------------------------------------------------------------------
+$$Z = 4687298610289$$

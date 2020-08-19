@@ -1,4 +1,4 @@
-week12
+# Week 12
 
 I had a lot of fun at the "Quantum Topology" conference at Kansas
 State University, in Manhattan (yes, that's right, Manhattan, Kansas,
@@ -15,7 +15,7 @@ covariant quantum field theory, one that thinks all coordinate systems
 are equally good, just as general relativity is a generally covariant
 classical field theory. For a more precise definition of TQFTs (which
 even mathematicians who know nothing of physics can probably follow),
-see my article [symmetries](symmetries.html). In any event, I don't
+see my article "symmetries"**???**. In any event, I don't
 think Viro's work exists in printed form yet; I'll let you all know
 when something appears.
 
@@ -38,8 +38,8 @@ So, on popular demand, Crane and Yetter had a special talk at 8 pm in
 which they described their TQFT and presented results of calculations
 that showed the invariant did NOT equal 1 for all compact oriented
 4-manifolds. So far they have only calculated it in some special cases:
-S\^4, S\^3 x S\^1, and S\^2 x S\^2. Amusingly, Yetter ran through the
-calculation in the simplest case, S\^4, in which the invariant *does*
+$S^4$, $S^3 \times S^1$, and $S^2 \times S^2$. Amusingly, Yetter ran through the
+calculation in the simplest case, $S^4$, in which the invariant *does*
 happen to equal 1. But he persuaded most of us (me at least) that the
 invariant really is an invariant and that he can calculate it. I say
 "persuade" rather than prove because he didn't present a proof that
@@ -66,7 +66,7 @@ using simplices. During the conference he was busy trying to figure out
 the relation of his ideas to Crane and Yetter's.
 
 Also while at the conference, I found a terrible error in
-"[week10](week10.html)" in my description of
+"week10" in my description of
 
 Vassiliev invariants contain more information than all knot polynomials,
 by Sergey Piunikhin, preprint.
@@ -76,7 +76,7 @@ could distinguish knots from their orientation-reversed versions. No!
 The problem was a very hasty reading on my part, together with the
 following typo in the paper, that tricked my eyes:
 
-Above constructed Vassiliev knot invariant w of order six does knot
+Above constructed Vassiliev knot invariant $w$ of order six does knot
 detect orientation of knots.
 
 Ugh! Also, people at the conference said that Piunikhin's claim in this
@@ -102,11 +102,11 @@ many other experts! It is a controversial problem.
 
 Briefly, many people believe that physical observables in quantum
 gravity should commute with the Hamiltonian constraint (cf
-"[week11](week11.html)"); this means that they are time-independent,
+"week11"); this means that they are time-independent,
 or constants of motion, and this makes the dynamics of quantum gravity
 hard to ferrett out. Kuchar calls such quantities "perennials." But
 Rovelli has made a proposal for how to recover dynamics from perennials,
-basically by considering 1-parameter families A_t of perennials,
+basically by considering 1-parameter families $A_t$ of perennials,
 ironically called "evolving constants of motion." Kuchar argues
 against this proposal on two grounds: first, he does not think physical
 observables need to commute with the Hamiltonian constraint, and second,
@@ -116,7 +116,7 @@ is much more convincing to me than the former, at least at the
 close to the complete integrability of general relativity, which is most
 unlikely. But on the quantum level things are likely to be quite
 different, and Smolin has recently been at work attempting to construct
-perennials in quantum gravity (cf "[week1](week1.html)"). As for
+perennials in quantum gravity (cf "week1"). As for
 Kuchar's former point, that observables in quantum gravity need not be
 perennials, his arguments seem rather weak. In any event, read and
 enjoy, but realize that the subject is a tricky one!
@@ -125,8 +125,8 @@ enjoy, but realize that the subject is a tricky one!
 Feb. 6 1993. (Fischer is at fischer-john@math.yale.edu)
 
 This is the easiest way to learn about the 2-category of 2-knots. Recall
-(from "[week1](week1.html)" and "[week4](week4.html)") that a 2-knot
-is a surface embedded in R\^4, which may visualized as a "movie" of
+(from "week1" and "week4") that a 2-knot
+is a surface embedded in $\mathbb{R}^4$, which may visualized as a "movie" of
 knots evolving in time. Fischer shows that the algebraic structure of
 2-knots is captured by a braided monoidal 2-category, and he describes
 this 2-category.
@@ -150,8 +150,8 @@ it results from the application of the exact equations to a restricted
 class of geometries. Both a Lagrangian and Hamiltonian formulation are
 proposed and we report partial results about the constraint algebra of
 the Hamiltonian formulation. We find that in the limit that the
-\$SO(3)\$ gauge symmetry of frame rotations is reduced to the abelian
-\$U(1)\^3\$, the discrete versions of the diffeomorphism constraints
+$SO(3)$ gauge symmetry of frame rotations is reduced to the abelian
+$U(1)^3$, the discrete versions of the diffeomorphism constraints
 commute with each other and with the Hamiltonian constraint.
 
 ------------------------------------------------------------------------
