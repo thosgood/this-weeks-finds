@@ -1,4 +1,4 @@
-week2
+# Week 2
 
 Well, this week I have had guests and have not been keeping up with the
 literature. So "this week's finds" are mostly papers that have been
@@ -17,7 +17,7 @@ vertices, that is, transverse double points, like
     \  /
      \/
      /\
-    /  \,
+    /  \
 
 and transverse triple points. This involves working with a
 generalization of the braid group that includes generators for these
@@ -34,9 +34,9 @@ operators such as the "total volume of the universe".
 It is thus quite interesting that the authors make progress on
 determining the "right" extension of the HOMFLY polynomial invariant
 of links to links with transverse triple points - that is, the extension
-that one gets by doing calculations in SU(n) Chern-Simons theory. In a
+that one gets by doing calculations in $SU(n)$ Chern-Simons theory. In a
 special case, namely when the HOMFLY polynomial reduces to the Kauffman
-bracket (which corresponds to the Lie group SU(2)), one gets a state of
+bracket (which corresponds to the Lie group $SU(2)$), one gets a state of
 quantum gravity that has been under extensive investigation these days.
 The authors compute the Kaufmann bracket of links with triple points
 using first order perturbation theory in Chern-Simons theory. A
@@ -74,7 +74,7 @@ minus the invariant of the link with the double point changed to
 Note that the link has to be oriented for this rule to make sense, and
 the strands shown in the pictures above should be pointing *downwards*.
 Now, having made this extension, we say a link invariant is a Vassiliev
-invariant of degree n if it vanishes on all links with n+1 or more
+invariant of degree $n$ if it vanishes on all links with $n+1$ or more
 double points.
 
 It is interesting that this rule for extending link invariants to links
@@ -89,8 +89,8 @@ Vogel, Jour. of Knot Theory and its Ramifications, 1 (1992), 59-104.
 
 This is another nice treatment of link invariants for generalized links
 with self-intersections. It concentrates on the famous link invariants
-coming from Chern-Simons theory - the HOMFLY polynomial (from SU(n)) and
-the Kauffman polynomial (from SO(n)). Lots of good pictures.
+coming from Chern-Simons theory - the HOMFLY polynomial (from $SU(n)$) and
+the Kauffman polynomial (from $SO(n)$). Lots of good pictures.
 
 And, switching back to the category theory, 2-categories, and the like,
 let me list these before filing them away:
@@ -98,23 +98,23 @@ let me list these before filing them away:
 4) Categorical physics, by Louis Crane, preprint available as
 [hep-th/9301061](http://xxx.lanl.gov/abs/hep-th/9301061) in amstex.
 
-A Categorical construction of 4d topological quantum field theories, by
-Louis Crane and David Yetter, preprint available as
-[hep-th/9301062](http://xxx.lanl.gov/abs/hep-th/9301062) in latex.
+    A Categorical construction of 4d topological quantum field theories, by
+    Louis Crane and David Yetter, preprint available as
+    [hep-th/9301062](http://xxx.lanl.gov/abs/hep-th/9301062) in latex.
 
-Hopf Categories and their representations, Louis Crane and Igor Frenkel,
-draft version.
+    Hopf Categories and their representations, Louis Crane and Igor Frenkel,
+    draft version.
 
-Categorification and the construction of topological quantum field
-theory, Louis Crane and Igor Frenkel, draft version.
+    Categorification and the construction of topological quantum field
+    theory, Louis Crane and Igor Frenkel, draft version.
 
 These outline Louis Crane's vision of an approach to generally
 covariant 4-dimensional quantum field theories (e.g. quantum gravity or
 a "theory of everything") based on 2-categories. "Categorical
 physics" sketches the big picture, while the paper with Yetter provides
 a juicy mathematical spinoff - the first known four-dimensional TQFT,
-based on the representations of quantum SU(2) and very similar in spirit
-to the Turaev-Viro construction of a 3d TQFT from quantum SU(2). The
+based on the representations of quantum $SU(2)$ and very similar in spirit
+to the Turaev-Viro construction of a 3d TQFT from quantum $SU(2)$. The
 papers with Frenkel (apparently still not in their final form) describe
 the game plan and hint at marvelous things still to come. The conjecture
 is stated: "a 4d TQFT can be reconstructed from a tensor 2-category".
@@ -127,7 +127,7 @@ categories of a Hopf category is a tensor 2-category, and use
 quantum group into a Hopf category. Sound abstract? Indeed it is. But
 the aim is clear: to cook up 4d TQFTs from quantum groups. Such quantum
 field theories might be physically important; indeed, the one associated
-to SU(2) is likely to have a lot to do with quantum gravity.
+to $SU(2)$ is likely to have a lot to do with quantum gravity.
 
 I am currently perusing Kapranov and Voevodsky's massive paper on
 2-categories, which seems to be the starting point for Crane's above
@@ -197,23 +197,23 @@ Presumably it should be possible to express a no boundary condition in
 purely string theory terms but we do not yet know how to do this.
 However the recent COBE observations indicate that the perturbations
 that lead to the arrow of time arise at a time during inflation when the
-energy density is about 10\^{-12} of the Planck density. In this regime,
+energy density is about $10^{-12}$ of the Planck density. In this regime,
 Einstein gravity should be a good approximation.
 
 ------------------------------------------------------------------------
 
-[I'll skip some more technical stuff on the validity of perturbative
-calculations in quantum gravity...]
+\[I'll skip some more technical stuff on the validity of perturbative
+calculations in quantum gravity...\]
 
 ------------------------------------------------------------------------
 
 One can estimate the wave functions for the perturbation modes by
 considering complex metrics and scalar fields that are solutions of the
-Einstein equations whose only boundary is the surface \$S\$. When \$S\$
+Einstein equations whose only boundary is the surface $S$. When $S$
 is a small three sphere, the complex metric can be close to that of part
 of a Euclidean four sphere. In this case the wave functions for the
 tensor and scalar modes correspond to them being in their ground state.
-As the three sphere \$S\$ becomes larger, these complex metrics change
+As the three sphere $S$ becomes larger, these complex metrics change
 continuously to become almost Lorentzian. They represent universes with
 an initial period of inflation driven by the potential energy of the
 scalar field. During the inflationary phase the perturbation modes
@@ -230,7 +230,7 @@ when they come within the horizon are not in a general state but in a
 very special state with a small amplitude that is determined by the
 parameters of the inflationary model, in this case, the mass of the
 scalar field. The recent observations by COBE indicate this amplitude is
-about \$10\^{-5}\$. After the density perturbations come within the
+about $10^{-5}$. After the density perturbations come within the
 horizon, they will grow until they cause some regions to collapse as
 proto-galaxies and clusters. The dynamics will become highly non linear
 and chaotic and the coarse grained entropy will increase. There will be
@@ -245,9 +245,9 @@ phase?
 
 ------------------------------------------------------------------------
 
-[I'll skip some stuff on why Hawking originally thought entropy had to
+\[I'll skip some stuff on why Hawking originally thought entropy had to
 decrease during the Big Crunch if the no-boundary proposal were
-correct... and why he no longer thinks so.]
+correct... and why he no longer thinks so.\]
 
 ------------------------------------------------------------------------
 
