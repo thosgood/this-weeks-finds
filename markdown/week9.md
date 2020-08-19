@@ -1,4 +1,4 @@
-week9
+# Week 9
 
 1. Surgical invariants of four-manifolds, by Boguslaw Broda, preprint
 available as [hep-th/9302092](http://xxx.lanl.gov/abs/hep-th/9302092).
@@ -60,41 +60,40 @@ than I do!
 
 Recall:
 
-    D^n = unit ball in R^n
-    S^n = unit sphere in R^{n+1}
+$$\begin{aligned}D^n &= \mbox{unit ball in $\mathbb{R}^n$} \\ S^n &= \mbox{unit sphere in $\mathbb{R}^{n+1}$}\end{aligned}$$
 
-In particular note that S\^0 is just two points. Note that:
+In particular note that $S^0$ is just two points. Note that:
 
-    the boundary of D^4 is S^3
-    the boundary of D^3 x D^1 is D^3 x S^0 union S^2 x D^1
-    the boundary of D^2 x D^2 is D^2 x S^1 union S^1 x D^2
-    the boundary of D^1 x D^3 is D^1 x S^2 union S^0 x D^3
-    the boundary of D^4 is S^3
+- the boundary of $D^4$ is $S^3$
+- the boundary of $D^3 \times D^1$ is $D^3 \times S^0 \cup S^2 \times D^1$
+- the boundary of $D^2 \times D^2$ is $D^2 \times S^1 \cup S^1 \times D^2$
+- the boundary of $D^1 \times D^3$ is $D^1 \times S^2 \cup S^0 \times D^3$
+- the boundary of $D^4$ is $S^3$
 
 I have written this rather redundant chart in a way that makes the
 pattern very clear and will come in handy below for those who aren't
 used to this stuff.
 
-To build up a 4-manifold we can start with a "0-handle," D\^4, which
-has as boundary S\^3.
+To build up a 4-manifold we can start with a "0-handle," $D^4$, which
+has as boundary $S^3$.
 
-Then we glue on "1-handles," that is, copies of D\^3 x D\^1. Note that
-part of the boundary of D\^1 x D\^3 is D\^3 x S\^0, which is two
-D\^3's; when we glue on a 1-handle we simply attach these two D\^3's
-to the S\^3 by a diffeomorphism. The resulting space is not really a
+Then we glue on "1-handles," that is, copies of $D^3 \times D^1$. Note that
+part of the boundary of $D^1 \times D^3$ is $D^3 \times S^0$, which is two
+$D^3$'s; when we glue on a 1-handle we simply attach these two $D^3$'s
+to the $S^3$ by a diffeomorphism. The resulting space is not really a
 smooth manifold, but it can be smoothed. It then becomes a smooth
 4-manifold with boundary.
 
-Then we glue on "2-handles" by attaching copies of D\^2 x D\^2 along
-the part of their boundary that is D\^2 x S\^1. Then we smooth things
+Then we glue on "2-handles" by attaching copies of $D^2 \times D^2$ along
+the part of their boundary that is $D^2 \times S^1$. Then we smooth things
 out.
 
-Then we glue on "3-handles" by attaching copies of D\^1 x D\^3 along
-the part of their boundary that is D\^1 x S\^2. Then we smooth things
+Then we glue on "3-handles" by attaching copies of $D^1 \times D^3$ along
+the part of their boundary that is $D^1 \times S^2$. Then we smooth things
 out.
 
-Then we glue on "4-handles" by attaching copies of D\^4 along their
-boundary, i.e. S\^3.
+Then we glue on "4-handles" by attaching copies of $D^4$ along their
+boundary, i.e. $S^3$.
 
 We can get any compact oriented 4-manifold this way using attaching maps
 that are compatible with the orientations. The reader who is new to this
@@ -114,18 +113,18 @@ somewhat sketchy here (sorry for the pun, too). I am a bit rushed since
 I'm heading off somewhere else next weekend... and I am not as
 familiar with this stuff as I should be.
 
-So, when we start with our 0-handle, or D\^4, we "draw" its boundary,
-S\^3. Think of S\^3 as R\^3 and a point at infinity. Since we use
+So, when we start with our 0-handle, or $D^4$, we "draw" its boundary,
+$S^3$. Think of $S^3$ as $\mathbb{R}^3$ and a point at infinity. Since we use
 perspective when drawing pictures of 3-d objects, this boils down to
-pretending that our blackboard is a picture of S\^3!
+pretending that our blackboard is a picture of $S^3$!
 
 As we add handles we continue to "draw" what's happening at the
 boundary of the 4-manifold we have at each stage of the game. 1-handles
-are attached by gluing a D\^3 x D\^1 onto the boundary along two D\^3's
+are attached by gluing a $D^3 \times D^1$ onto the boundary along two $D^3$'s
 - or balls - so we can just draw the two balls.
 
-2-handles are attached by gluing a D\^2 x D\^2 onto the boundary of the
-4-manifold we have so far along a D\^2 x S\^1 - or solid torus, so we
+2-handles are attached by gluing a $D^2 \times D^2$ onto the boundary of the
+4-manifold we have so far along a $D^2 \times S^1$ - or solid torus, so we
 just need to figure out how to draw an embedded solid torus. Well, for
 this we just need to draw a knot (that is, an embedded circle), and
 write an integer next to it saying how many times the embedded solid
@@ -140,21 +139,21 @@ through one of the 1-handles that we've already added. It's easier to
 draw this situation if we resort to another method of drawing the
 1-handles. It's a bit more subtle, and took me quite a while to be able
 to visualize (unfortunately I seem to have to visualize this stuff to
-believe it). So let's go back to the situation where we have D\^4, with
-S\^3 as its boundary, and we are adding 1-handles. Instead of drawing
+believe it). So let's go back to the situation where we have $D^4$, with
+$S^3$ as its boundary, and we are adding 1-handles. Instead of drawing
 two balls, we draw an unknotted circle with a dot on it! The dot is just
 to distinguish this kind of circle from the framed links we already
 have. But what the circle *means* is this. The circle is the boundary of
-an obvious D\^2, and we can push the interior of this D\^2 (which is
-sitting in the S\^3) into the interior of D\^4. If we then remove a
-neighborhood of the D\^2, what we have left is S\^1 x D\^3, which is
-just the result of adding a 1-handle to D\^4.
+an obvious $D^2$, and we can push the interior of this $D^2$ (which is
+sitting in the $S^3$) into the interior of $D^4$. If we then remove a
+neighborhood of the $D^2$, what we have left is $S^1 \times D^3$, which is
+just the result of adding a 1-handle to $D^4$.
 
 This is probably easier to visualize one dimension down: if we have a
-good old unit ball, D\^3, and slap an interval, or D\^1, onto its
+good old unit ball, $D^3$, and slap an interval, or $D^1$, onto its
 boundary, and then push the interior of the interval into the interior
 of the ball, and remove a neighborhood of the interval, what we have
-left is just an S\^1 x D\^2.
+left is just an $S^1 \times D^2$.
 
 So in short, we can draw all the 1-handles by drawing unlinked,
 unknotted circles with dots on them, and then draw all the 2-handles by
@@ -181,10 +180,10 @@ contained in the 1- and 2-handles, so we can *draw* 4-manifolds by first
 drawing a batch of unknotted unlinked circles with dots on them and then
 drawing a framed link in the complement.
 
-[A question for the experts, since I'm just learning this stuff: in
+\[A question for the experts, since I'm just learning this stuff: in
 the above we seem to be assuming that there's only one 0-handle. Is
 this an okay assumption or do we need something fancier if there's
-more?]
+more?\]
 
 Now a given 4-manifold may have lots of different handlebody
 decompositions. So, as usual, we would like to have a finite set of
@@ -201,9 +200,9 @@ And what Broda did was precisely to use the Kauffman bracket invariant
 of framed links to cook up an invariant of 4-manifolds from the
 handlebody decomposition - which, note, involves lots of links. Recall
 that the Kauffman bracket assigns to each link a polynomial in one
-variable, q. Here "q" is just the same q that appears in the quantum
-group SU_q(2). As I mentioned in "[week5](week5.html)," this acts
-quite differently when q is a root of unity, and the 3d topological
+variable, $q$. Here "$q$" is just the same $q$ that appears in the quantum
+group $SU_q(2)$. As I mentioned in "week5", this acts
+quite differently when $q$ is a root of unity, and the 3d topological
 quantum field theories coming from quantum groups, as well as Crane and
 Yetter's 4d topological quantum field theory, come from considering
 this root-of-unity case. So it's no surprise that Broda requires q to
@@ -217,16 +216,16 @@ Ranjeet S. Tate and Claes Uggla Syracuse University preprint
 SU-GP-92/2-5, 14 pages, available in latex form as
 [gr-qc/9302026](http://xxx.lanl.gov/abs/gr-qc/9302026)
 
-Minisuperspaces: observables and quantization, Abhay Ashtekar, Ranjeet
-S. Tate and Claes Uggla Syracuse University preprint SU-GP-92/2-6, 34
-pages, available in latex form as
-[gr-qc/9302027](http://xxx.lanl.gov/abs/gr-qc/9302027)
+    Minisuperspaces: observables and quantization, Abhay Ashtekar, Ranjeet
+    S. Tate and Claes Uggla Syracuse University preprint SU-GP-92/2-6, 34
+    pages, available in latex form as
+    [gr-qc/9302027](http://xxx.lanl.gov/abs/gr-qc/9302027)
 
 I was just at the Pacific Coast Gravity Meeting last weekend and heard
 Ranjeet Tate talk on this work. Recall first of all that minisuperspaces
 are finite-dimensional approximations to the phase space of general
 relativity, and are used to get some insight into quantum gravity. I
-went through an example in "[week6](week6.html)". In these papers, the
+went through an example in "week6". In these papers, the
 authors quantize various "Bianchi type" minisuperspace models. The
 "Bianchi type" business comes from a standard classification of
 homogeneous (but not necessarily isotropic) cosmologies and having a lot
@@ -265,15 +264,15 @@ earlier somewhere.
 
 Ashtekar's idea is to fix the inner product by requiring that the
 physical observables, which are operators on the space of states, be
-self-adjoint. Rendall shows the following. Let A be a \*-algebra acting
-on a vector space V. Let us say that an inner product on V is "strongly
+self-adjoint. Rendall shows the following. Let $A$ be a \*-algebra acting
+on a vector space $V$. Let us say that an inner product on $V$ is "strongly
 admissable" if 1) the representation is a \*-representation with
-respect to this inner product, 2) for each element of A, the
-corresponding linear transformation on V is bounded relative to the norm
-given by this inner product, and 3) the completion of V in the inner
-product is a topologically irreducible representation of A. Rendall
+respect to this inner product, 2) for each element of $A$, the
+corresponding linear transformation on $V$ is bounded relative to the norm
+given by this inner product, and 3) the completion of $V$ in the inner
+product is a topologically irreducible representation of $A$. Rendall
 shows the uniqueness of a strongly admissable inner product on any
-representation V of A (up to a constant multiple). Of course, such an
+representation $V$ of $A$ (up to a constant multiple). Of course, such an
 inner product need not exist, but when it does, it is unique. This is as
 nice a result along these lines as one could hope for. He also has a
 more complicated result that applies to unbounded operators. A good
@@ -288,7 +287,7 @@ meeting who have clearly been keeping up with the recent work on the
 problem of time and other conceptual problems in quantum gravity. In
 very brief terms, the problem of time is that in general relativity, we
 have not a Hamiltonian in the traditional sense, but a "Hamiltonian
-constraint" H = 0, so when we quantize it superficially appears that
+constraint" $H = 0$, so when we quantize it superficially appears that
 there are no dynamics whatsoever (as it seems like we have a zero
 Hamiltonian!). That's the reason for the term "frozen formalism" -
 and the desire to "thaw" it, or find the dynamics lurking in it. In
