@@ -177,7 +177,7 @@ can *calculate* the lengths of edges of triangles in a given state of
 space (space here is a 2-dimensional triangulated surface) and *show*
 that lengths are quantized in units of the Planck length over 2. (Here
 the Planck length $L$ is the fundamental length scale in quantum gravity,
-about $1.6 \times 10\^{-33}$ meters.)
+about $1.6 \times 10^{-33}$ meters.)
 
 And, most tantalizing of all, he sketches a generalization of the above
 to 4d. In 4d it is known that in the loop representation of quantum

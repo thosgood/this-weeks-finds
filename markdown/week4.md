@@ -269,7 +269,7 @@ and here is an element of $\mathrm{Hom}(4,0)$:
                    / \/ \
                    \____/
 
-Note that we can "compose" these tangles to get one in \mathrm{Hom}(2,0):
+Note that we can "compose" these tangles to get one in $\mathrm{Hom}(2,0)$:
 
             |   |
             \   /
