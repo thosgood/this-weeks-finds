@@ -1,4 +1,4 @@
-week15
+# Week 15
 
 Last weekend we had a conference on Knots and Quantum Gravity here at
 Riverside. I will briefly describe the talks, many of which will
@@ -50,20 +50,20 @@ quantum theory, the significance of the vector potential is as follows.
 If we take a particle and carry it around a loop, its wavefunction gets
 multiplied by a phase, that is, a complex number of absolute value 1.
 These "phases" form a group, since the product of two phases is a
-phase. This group is called U(1), since we can think of phases as 1x1
+phase. This group is called $U(1)$, since we can think of phases as $1\times1$
 unitary matrices. A key idea in modern physics is to generalize the heck
 out of electromagnetism by allowing other groups to play the role of
 phases. The group we choose is called the "gauge group." The second
-simplest choice after U(1) is SU(2), the 2x2 unitary matrices with
+simplest choice after $U(1)$ is $SU(2)$, the $2\times2$ unitary matrices with
 determinant = 1.
 
 You can do Chern-Simons theory with any gauge group but it's especially
-simple with gauge group SU(2). An SU(2) connection is just a kind of
+simple with gauge group $SU(2)$. An $SU(2)$ connection is just a kind of
 field that lets one do "parallel translation" around a loop in space
-and get an element of SU(2). Mathematicians call this the holonomy of
+and get an element of $SU(2)$. Mathematicians call this the holonomy of
 the connection around the loop. Physicists typically take the trace of
 the group element (in this case, just the sum of the diagonal entries of
-the 2x2 matrix), and call that the "Wilson loop observable," a
+the $2\times2$ matrix), and call that the "Wilson loop observable," a
 function of the connection that depends on the loop.
 
 Now the great thing about Chern-Simons theory is that the theory is
@@ -74,39 +74,39 @@ calculate the expectation value of a Wilson loop in the vacuum state.
 The idea one should have is that the connection is undergoing all sorts
 of "quantum fluctuations" in the vacuum state, but that we can ask for
 the *average* value for the trace of the connection of the holonomy
-around a loop in the vacuum state. Given a knot K, we write this
-expectation value as \<K\>. Now the great thing about Chern-Simons
+around a loop in the vacuum state. Given a knot $K$, we write this
+expectation value as $\langle K \rangle$. Now the great thing about Chern-Simons
 theory is that the vacuum state does not care what coordinates you use
-to describe it. Thus \<K\> does not depend on the *geometry* of the knot
-K (which would take coordinates or a metric to describe), but only on
-its topology. In other words, \<K\> is a knot invariant. In fact we can
-define \<K\> not just for knots, but also for links (bunches of knots,
+to describe it. Thus $\langle K \rangle$ does not depend on the *geometry* of the knot
+$K$ (which would take coordinates or a metric to describe), but only on
+its topology. In other words, $\langle K \rangle$ is a knot invariant. In fact we can
+define $\langle K \rangle$ not just for knots, but also for links (bunches of knots,
 possibly intertangled), by taking the expectation value of the product
 of the Wilson loops, one for each knot. So Chern-Simons theory really
 gives a link invariant. Witten showed that this link invariant is just
 the Kauffman bracket, which is an invariant easily calculated using the
 rules:
 
-Rule 1: If K is the "empty link," the link with NO components
+Rule 1: If $K$ is the "empty link," the link with NO components
 whatsoever - i.e., just the empty set - we have
 
-\<K\> = 1.
+$$\langle K \rangle = 1.$$
 
 This is sort of a normalization rule.
 
-Rule 2: If K' is obtained from K by adding an unlinked copy of the
-unknot (an unknotted circle) to K,
+Rule 2: If $K'$ is obtained from $K$ by adding an unlinked copy of the
+unknot (an unknotted circle) to $K$,
 
-\<K'\> = -(a\^2 + a\^{-2})\<K\>.
+$$\langle K' \rangle = -(a^2 + a^{-2})\langle K \rangle.$$
 
-Here a is an adjustable parameter that appears in Chern-Simons theory -
+Here $a$ is an adjustable parameter that appears in Chern-Simons theory -
 a function of the coupling constant.
 
-Rule 3: Suppose K, L, and L' are 3 knots or links differing at just one
+Rule 3: Suppose $K$, $L$, and $L'$ are 3 knots or links differing at just one
 crossing (we're supposing them to be drawn as pictures in 2
 dimensions). And suppose at this crossing they look as follows.
 
-K looks like:
+$K$ looks like:
 
     \   /
      \ /
@@ -114,14 +114,14 @@ K looks like:
      / \
     /   \
 
-L looks like:
+$L$ looks like:
 
     |   |
     |   |
     |   |
     |   |
 
-and L' looks like
+and $L'$ looks like
 
     \   /
      _/
@@ -134,9 +134,9 @@ Any rotated version of this picture is fine too.
 
 Then
 
-\<K\> = a\<L\> + a\^{-1}\<L'\>.
+$$\langle K \rangle = a\langle L\rangle + a^{-1}\langle L'\rangle.$$
 
-That's it! I leave as an exercise for the reader to calculate \<K\> for
+That's it! I leave as an exercise for the reader to calculate $\langle K \rangle$ for
 the trefoil knot,
 
      ________________________
@@ -158,18 +158,18 @@ the trefoil knot,
     /   ________________/    |
     _________________________/
 
-and get -A\^5 - A\^{-3} - A\^{-7}. Then try the mirror-image trefoil, or
+and get $-A^5 - A^{-3} - A^{-7}$. Then try the mirror-image trefoil, or
 "left-handed trefoil," and see what you get.
 
 Now in quantum field theory people like doing perturbative calculations,
 and that's interesting here even though we know the exact answer.
-Namely, there is a coupling constant c in Chern-Simons theory such that
-A = exp(c), and if one uses Feynman diagrams and the rest of the usual
+Namely, there is a coupling constant $c$ in Chern-Simons theory such that
+$A = \exp(c)$, and if one uses Feynman diagrams and the rest of the usual
 machinery for quantum field theory and does a perturbative calculation
 of the vacuum expectation value of Wilson loops, one gets the same
-answer, but as a power series in c. The coefficient of the c\^n is a
+answer, but as a power series in $c$. The coefficient of the $c^n$ is a
 special sort of link invariant called a "Vassiliev invariant" of
-degree n. I discussed these a lot in "[week3](week3.html)" (see below
+degree $n$. I discussed these a lot in "week3" (see below
 for how to get that article), so I won't repeat myself here. In any
 event, Kauffman gave a nice discussion of this sort of thing.
 
@@ -237,11 +237,10 @@ Dana Fine's talk offered one approach, and my own talk offered another
 Perhaps the most novel talk was by Paolo Cotta-Ramusino ("4d quantum
 gravity and knot theory") describing his work with Maurizio Martellini
 on 4-dimensional TQFTs and invariants of 2-knots, that is, embedded
-surfaces in R\^4 (or more general 4-manifolds). This is an attempt to
+surfaces in $\mathbb{R}^4$ (or more general 4-manifolds). This is an attempt to
 push the Wilson loop story up one dimension, in an effort to make it
 applicable to theories similar to quantum gravity. These theories are
-the so-called "BF theories," whose Lagrangian is of the form tr(B
-wedge F), where B is a Lie algebra valued 2-form and F is the curvature
+the so-called "BF theories," whose Lagrangian is of the form $\operatorname{tr}(B \wedge F)$, where $B$ is a Lie algebra valued 2-form and $F$ is the curvature
 of a connection. Martellini and Cotta-Ramusino's work on this is still
 in a preliminary stage but it seems rather promising.
 
@@ -283,8 +282,8 @@ in latex form as
 [hep-th/9305097](http://xxx.lanl.gov/abs/hep-th/9305097).
 
 Apparently this builds on work by Gross, Taylor, and Minahan which
-treated SU(n) Yang-Mills theories in 2 dimensions as string theories,
-and does something similar for the gauge groups SO(n) and Sp(n).
+treated $SU(n)$ Yang-Mills theories in 2 dimensions as string theories,
+and does something similar for the gauge groups $SO(n)$ and $Sp(n)$.
 
 I have a pack of interesting papers to describe but I am already worn
 out, so I will put that off until next week, except for the following
