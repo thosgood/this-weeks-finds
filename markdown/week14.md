@@ -1,4 +1,4 @@
-week14
+# Week 14
 
 Things are moving very fast in the quantum gravity/4d topology game, so
 I feel I should break my vow not to continue this series until after
@@ -18,19 +18,19 @@ But it is worth stepping back from the mathematics and trying to put
 into simple words why this makes general relativity so special. Of
 course, it's very hard to put this sort of thing into words. But
 roughly, we can say this: in Newtonian mechanics, there is a universal
-notion of time, the "t" coordinate that appears in all the equations
+notion of time, the "$t$" coordinate that appears in all the equations
 of physics, and we assume that anyone with a decent watch will be able
 to keep in synch with everyone else, so there is no confusion about what
-this "t" is (apart from choosing when to call t = 0, which is a small
+this "$t$" is (apart from choosing when to call $t = 0$, which is a small
 sort of arbitrariness one has to live with). In special relativity this
 is no longer true; watches moving relative to each other will no longer
 stay in synch, so we need to pick an "inertial frame," a notion of
-rest, in order to have a "t" coordinate to play with. Once we pick
+rest, in order to have a "$t$" coordinate to play with. Once we pick
 this inertial frame, we can write the laws of physics as equations
-involving "t". This is not too bad, because there is only a
+involving "$t$". This is not too bad, because there is only a
 finite-parameter family of inertial frames, and simple recipes to
 translate between them, and also because nothing going on will screw up
-the functioning of our (idealized) clocks: that is, the "t" coordinate
+the functioning of our (idealized) clocks: that is, the "$t$" coordinate
 doesn't give a damn about the *state* of the universe. That's what is
 meant by saying a "background structure" - it's some aspect of the
 universe that is unaffected by everything else that's going on.
@@ -52,13 +52,13 @@ Trying to do *quantum* theory in this context has always been too hard
 for people. Part of the reason why is that built into the heart of
 traditional quantum theory is the "Hamiltonian," which describes the
 evolution of the state of the system relative to a God-given
-"background" notion of "t". Anyone who has taken quantum mechanics
+"background" notion of "$t$". Anyone who has taken quantum mechanics
 will know that the star of the show is the Schrodinger equation:
 
-                          i dPsi/dt = H Ψ
+$$i\frac{d\psi}{dt} = H\psi$$
 
-saying how the wavefunction Ψ changes with time in a way depending on
-the Hamiltonian H. No "t," no "H" - this is one basic problem with
+saying how the wavefunction $\psi$ changes with time in a way depending on
+the Hamiltonian $H$. No "$t$," no "$H$" - this is one basic problem with
 trying to reconcile quantum theory with general relativity.
 
 Actually, it turns out that the analog to Schrodinger's equation for
@@ -66,9 +66,9 @@ quantum gravity is the Wheeler-DeWitt equation. The Hamiltonian is
 replaced by an operator called the "Hamiltonian constraint" and we
 have
 
-                             H Ψ = 0.
+$$H\psi = 0.$$
 
-Note how this cleverly avoids mentioning "t"! The problem is, people
+Note how this cleverly avoids mentioning "$t$"! The problem is, people
 still aren't quite sure what to do with the solutions to this equation
 - we're so used to working with Schrodinger's equation.
 
@@ -79,8 +79,8 @@ should be like. Actually, Witten was working on a different theory
 called Donaldson theory, which also has the property of having no
 background structures. Shortly thereafter the mathematician Atiyah came
 up with a formal definition of a TQFT. To get an idea of this
-definition, try my notes on [symmetries](symmetries.html) and (if you
-don't know what categories are) [categories](categories.html). For a
+definition, try my notes on "symmetries"**???** and (if you
+don't know what categories are) "categories"**???**. For a
 serious tour of TQFTs and the like, try his book:
 
 The Geometry and Physics of Knots, by Michael Atiyah, Cambridge U.
@@ -140,10 +140,10 @@ does not normalize his version of the Crane-Yetter invariant in the same
 way that Crane and Yetter do, so it is hard to compare results. But
 Roberts says: "The normalisations here do not agree with those in Crane
 and Yetter, and I have not checked the relationship. However, when
-dealing with the [3d TQFT] invariants, different normalisations of the
+dealing with the \[3d TQFT\] invariants, different normalisations of the
 initial data change the invariants by factors depending on standard
 topological invariants (for example Betti numbers), so there is every
-reason to belive that these [4d TQFT] invariants are trivial (that is,
+reason to belive that these \[4d TQFT\] invariants are trivial (that is,
 they differ from 1 only by standard invariant factors) in all
 normalisations."
 
@@ -163,25 +163,25 @@ First it goes over 3d quantum gravity - which *has* been made into a
 rigorous TQFT. It works with the simplicial formulation of the theory.
 That is, we consider our (3-dimensional) spacetime as being chopped up
 into tetrahedra, and assign to each edge a length, which is required to
-be 0,1/2,1,3/2,.... This idea of quantized edge-lengths goes back to 4d
+be $0,1/2,1,3/2,\ldots$. This idea of quantized edge-lengths goes back to 4d
 work of Ponzano and Regge, but recently Ooguri showed that in 3d this
 assumption gives the same answers as Witten's continuum approach to 3d
-quantum gravity. The "half-integers" 0,1/2,1,3/2, etc. should remind
+quantum gravity. The "half-integers" $0,1/2,1,3/2,\ldots$ should remind
 physicists of spin, which is quantized in the same way, and
 mathematically this is exactly what is going on: we are really labelling
-edges with representations of the group SU(2), that is, spins. What
+edges with representations of the group $SU(2)$, that is, spins. What
 Rovelli shows is that if one starts with the loop representation of 3d
 quantum gravity (yet another approach), one can prove it equivalent to
 Ooguri's approach, and what's more, using the loop representation one
 can *calculate* the lengths of edges of triangles in a given state of
 space (space here is a 2-dimensional triangulated surface) and *show*
 that lengths are quantized in units of the Planck length over 2. (Here
-the Planck length L is the fundamental length scale in quantum gravity,
-about 1.6 times 10\^{-33} meters.)
+the Planck length $L$ is the fundamental length scale in quantum gravity,
+about $1.6 \times 10\^{-33}$ meters.)
 
 And, most tantalizing of all, he sketches a generalization of the above
 to 4d. In 4d it is known that in the loop representation of quantum
-gravity it is areas of surfaces that are quantized in units of L\^2/2,
+gravity it is areas of surfaces that are quantized in units of $L^2/2$,
 rather than lengths. Rovelli considers an approach where one chops
 4-dimensional spacetime up into simplices and assigns to each
 2-dimensional face a half-integer area. He uses this to write down a
@@ -216,30 +216,29 @@ worth it...
 > manifold has a finite number of degrees of freedom. Witten's gravity
 > in 3-d is given by the action
 >
-> S[A,E] = integral(F \^ E)
+> $$S[A,E] = \int(F^E)$$
 >
 > which has finite number of degrees of freedom. Consider the action
 >
-> S[A,E] = integral(F \^ e \^ e)
+> $$S[A,E] = integral(F^e)$$**???**
 >
-> in 3+1 dimensions, for a (self dual) SO(3,1) connection A and a (real)
-> one form e with values in the vector representation of SO(3,1). This
+> in 3+1 dimensions, for a (self dual) $SO(3,1)$ connection $A$ and a (real)
+> one form $e$ with values in the vector representation of $SO(3,1)$. This
 > theory has a strong resemblance with its 2+1 dimensional analog: it is
 > still defined on a differential manifold without any fixed metric
 > structure, and is diffeomorphism invariant. We expect that a
 > consistent quantization of such a theory should be found along lines
-> which are more similar to the quantization of the integral(F \^ E),
+> which are more similar to the quantization of the $\int(F^E)$,
 > theory than to the quantization of theories on flat space, based on
 > the Wightman axioms namely on n-points functions and related objects.
-> Still, the theory integral(F \^ e \^ e) has genuine field degrees of
+> Still, the theory $\int(F^e)$**???** has genuine field degrees of
 > freedom: its physical phase space is infinite dimensional, and we
 > expect that its Hilbert state space will also be infinite dimensional.
 > There is a popular belief that a theory defined on a differential
 > manifold without metric and diffeomorphism invariant has necessarily a
 > finite number of degrees of freedom ("because thanks to general
 > covariance we can gauge away any local excitation"). This belief is
-> of course wrong. A theory as the one defined by the action integral(F
-> \^ e \^ e) is a theory that shares many features with the topological
+> of course wrong. A theory as the one defined by the action $\int(F^e)$**???** is a theory that shares many features with the topological
 > theories, in particular, no quantity defined "in a specific point"
 > is gauge invariant; but at the same time it has genuinely infinite
 > degrees of freedom. Indeed, this theory is of course nothing but
@@ -266,7 +265,7 @@ worth it...
 >
 > The theory we have sketched is an example of such a generalized
 > topological theory. We associate to the connected components of the
-> boundary of M the infinite dimensional state space of the Loop
+> boundary of $M$ the infinite dimensional state space of the Loop
 > Representation of quantum gravity. Eq. 5 [the magic formula I alluded
 > to - jb], then, provides a map, in Atiyah's sense, between the state
 > spaces constructed on two of these boundary components. Equivalently,
@@ -276,7 +275,7 @@ worth it...
 > consistent, because it cannot allow us to recover the "broken phase
 > of gravity" in which we have a nondegenerate background metric: in
 > the proposed framework one has only non-local observables on the
-> boundaries, while in the broken phase a *local* field in M has
+> boundaries, while in the broken phase a *local* field in $M$ has
 > non-vanishing vacuum expectation value. We think that this argument is
 > weak because it disregards the diffeomorphism invariance of the
 > theory: in classical general relativity no experiment can distinguish
@@ -306,12 +305,12 @@ Next, let me take the liberty of describing some work of my own:
 3) Diffeomorphism-invariant generalized measures on the space of
 connections modulo gauge transformations, by John Baez, to appear in the
 proceedings of the Conference on Quantum Topology, Manhattan, Kansas,
-May 8, 1993, available as [state.tex](state.tex).
+May 8, 1993, available as "state.tex"**???**.
 
 This is an extremely interesting paper by a very good mathematician.
 Whoops! Let's be objective here. In the loop representation of quantum
 gravity, states of quantum gravity are given naively by certain
-"measures" on a space A/G of connections modulo gauge transformations.
+"measures" on a space $A/G$ of connections modulo gauge transformations.
 The Chern-Simons path integral is also such a "measure". In both
 cases, the "measure" in question is invariant under diffeomorphisms of
 space. And in both cases, the loop transform allows one to think of
@@ -322,12 +321,12 @@ The problem, as always in quantum field theory, is that the notion of
 "measure" must be taken with a big grain of salt - it's not the sort
 of measure they taught you about in real analysis. Instead, these
 measures are a kind of "generalized measure" that allows you to
-integrate not all continuous functions on A/G but only those lying in an
+integrate not all continuous functions on $A/G$ but only those lying in an
 algebra called the "holonomy algebra," defined by Ashtekar, Isham and
 Lewandowski. To be precise and technical, this is the closure in the
-L\^infty norm of the algebra of functions on A/G generated by "Wilson
+$L^\infty$ norm of the algebra of functions on $A/G$ generated by "Wilson
 loops," or traced holonomies around loops. So what we are really
-interested in is not diffeomorphism-invariant measures on A/G, but
+interested in is not diffeomorphism-invariant measures on $A/G$, but
 diffeomorphism invariant elements of the dual of the holonomy algebra. I
 begin with a review of generalized measures, introduce the holonomy
 algebra, and then do a bunch of new work in which I show how to
@@ -337,9 +336,9 @@ embedded in space. Again, as with the work discussed above, we see that
 the discrete and continuum approaches to space go hand-in-hand! And we
 see that there are some interesting connections between singularity
 theory and group representation theory showing up when we try to
-understand "measures" on the space A/G.
+understand "measures" on the space $A/G$.
 
-The following is a part of a paper discussed in "[week5](week5.html)",
+The following is a part of a paper discussed in "week5",
 now available from gr-qc:
 
 4) Completeness of Wilson loop functionals on the moduli space of
@@ -350,15 +349,15 @@ Plain TeX, 7 pages, available as
 I didn't discuss this aspect of the paper, so let me quote the
 abstract:
 
-> The structure of the moduli spaces M := A/G of (all, not just flat)
-> SL(2,C) and SU(1,1) connections on a n-manifold is analysed. For any
-> topology on the corresponding spaces A of all connections which
+> The structure of the moduli spaces $M := A/G$ of (all, not just flat)
+> $SL(2,C)$ and $SU(1,1)$ connections on a $n$-manifold is analysed. For any
+> topology on the corresponding spaces $A$ of all connections which
 > satisfies the weak requirement of compatibility with the affine
-> structure of A, the moduli space M is shown to be non-Hausdorff. It is
+> structure of $A$, the moduli space $M$ is shown to be non-Hausdorff. It is
 > then shown that the Wilson loop functionals - i.e., the traces of
 > holonomies of connections around closed loops - are complete in the
-> sense that they suffice to separate all separable points of M. The
-> methods are general enough to allow the underlying n-manifold to be
+> sense that they suffice to separate all separable points of $M$. The
+> methods are general enough to allow the underlying $n$-manifold to be
 > topologically non-trivial and for connections to be defined on
 > non-trivial bundles. The results have implications for canonical
 > quantum general relativity in 4 and 3 dimensions.
@@ -367,10 +366,10 @@ By the way, someone should extend this result to more general noncompact
 semisimple Lie groups, and also show that for all compact semisimple Lie
 groups the Wilson loop functionals in any faithful representation *do*
 separate points (this is known for the fundamental representation of
-SU(n)). If I had a bunch of grad students I would get one to do so.
+$SU(n)$). If I had a bunch of grad students I would get one to do so.
 
 The following was discussed in an earlier edition of this series,
-"[week11](week11.html)," but is now available from gr-qc:
+"week11", but is now available from gr-qc:
 
 5) An algebraic approach to the quantization of constrained systems:
 finite dimensional examples, by Ranjeet S. Tate, (Ph.D. Dissertation,
@@ -382,7 +381,7 @@ application of loop variables to more down-to-earth physics; Gambini was
 one of the originators of the loop representation, and intended it for
 use in QCD:
 
-6) SU(2) QCD in the path representation, by Rodolfo Gambini and
+6) $SU(2)$ QCD in the path representation, by Rodolfo Gambini and
 Leonardo Setaro, LaTeX 37 pages (7 figures included), available as
 [hep-lat/9305001](http://xxx.lanl.gov/abs/hep-lat/9305001). ("hep-lat"
 is the computational and lattice physics preprint list, at
@@ -391,7 +390,7 @@ hep-lat@ftp.scri.fsu.edu.)
 Let me quote the abstract:
 
 > We introduce a path-dependent hamiltonian representation (the path
-> representation) for SU(2) with fermions in 3 + 1 dimensions. The
+> representation) for $SU(2)$ with fermions in 3 + 1 dimensions. The
 > gauge-invariant operators and hamiltonian are realized in a Hilbert
 > space of open path and loop functionals. We obtain a new type of
 > relation, analogous to the Mandelstam identity of second kind, that
