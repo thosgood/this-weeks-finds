@@ -1,4 +1,4 @@
-week4
+# Week 4
 
 I will begin with a couple of small things and then talk about the work
 of Kapranov and Voevodsky.
@@ -13,7 +13,7 @@ grad students in the Physics of Computation group build special-purpose
 computers for simulating cellular automata, the so-called CAM machines.
 I have spent many enjoyable hours watching beautiful patterns do their
 thing on a big-screen color TV while CAM 6 busily simulates them on a
-256 x 256 lattice at the rate of many generations a second. (The CAM 8
+$256 \times 256$ lattice at the rate of many generations a second. (The CAM 8
 chip was still being debugged when I last checked.) More recently, Jim
 Gilliam, a grad student here at UCR, found a very nice program for the
 game of Life on Xwindows, called xlife. On my Sparcstation it is even
@@ -21,7 +21,7 @@ bigger and faster than CAM6. One can zoom in and out, and, zooming all
 the way out, one sees something vaguely reminiscent of nebulae of
 distant stars twinkling in the night sky... My computer science pal,
 Nate Osgood, muttered something about the author, Chuck Silvers
-(cs4n@andrew.cmu.edu), using cleverly optimized loops. It apparently
+(`cs4n@andrew.cmu.edu`), using cleverly optimized loops. It apparently
 can be found using the program archie. Please don't ask *me* for a
 copy, since it involves many files.
 
@@ -43,9 +43,9 @@ at work in earthquakes. The above paper cites
 Bac, Chen and Creutz, Nature 342 (1989) p. 780,
 
 which claims that in the final state of the game of Life, the density of
-clusters D(s) of size s scales as about s\^{-1.4}, and that the
+clusters $D(s)$ of size $s$ scales as about $s^{-1.4}$, and that the
 probability that a small perturbation will cause a flurry of activity
-lasting a time t scales as about t\^{-1.6}. I'm no expert, but I guess
+lasting a time $t$ scales as about $t^{-1.6}$. I'm no expert, but I guess
 that the fact that the latter is a power law rather than an exponential
 would be a signal of self-organized criticality. But the paper also
 cites
@@ -103,43 +103,43 @@ hunch that it will become required reading for many people fairly soon,
 so I'd like to describe the main ideas in fairly simple terms.
 
 I will start from scratch and then gradually accelerate. First, what's
-a category? A category consists of a set of \`objects' and a set of
-\`morphisms'. Every morphism has a \`source' object and a \`target'
+a category? A category consists of a set of 'objects' and a set of
+'morphisms'. Every morphism has a 'source' object and a 'target'
 object. (The easiest example is the category in which the objects are
-sets and the morphisms are functions. If f:X → Y, we call X the source
-and Y the target.) Given objects X and Y, we write Hom(X,Y) for the set
-of morphisms \`from' X \`to' Y (i.e., having X as source and Y as
+sets and the morphisms are functions. If $f\colon X\to Y$, we call $X$ the source
+and $Y$ the target.) Given objects $X$ and $Y$, we write $\mathrm{Hom}(X,Y)$ for the set
+of morphisms 'from' $X$ 'to' $Y$ (i.e., having $X$ as source and $Y$ as
 target).
 
 The axioms for a category are that it consist of a set of objects and
-for any 2 objects X and Y a set Hom(X,Y) of morphisms from X to Y, and
+for any 2 objects $X$ and $Y$ a set $\mathrm{Hom}(X,Y)$ of morphisms from $X$ to $Y$, and
 
-a) Given a morphism g in Hom(X,Y) and a morphism f in Hom(Y,Z), there
-is morphism which we call fog in Hom(X,Z). (This binary operation o is
-called \`composition'.)
+a) Given a morphism $g$ in $\mathrm{Hom}(X,Y)$ and a morphism $f$ in $\mathrm{Hom}(Y,Z)$, there
+is morphism which we call $f\circ g$ in $\mathrm{Hom}(X,Z)$. (This binary operation $\circ$ is
+called 'composition'.)
 
-b) Composition is associative: (fog)oh = fo(goh).
+b) Composition is associative: $(f\circ g)\circ h = f\circ (g\circ h)$.
 
-c) For each object X there is a morphism id\|X from X to X, called the
-\`identity' on X.
+c) For each object $X$ there is a morphism $\mathrm{id}_X$ from $X$ to $X$, called the
+'identity' on $X$.
 
-d) Given any f in Hom(X,Y), f o id\|X = f and id\|Y o f = f.
+d) Given any $f$ in $\mathrm{Hom}(X,Y)$, $f \circ \mathrm{id}_X = f$ and $\mathrm{id}_Y \circ f = f$.
 
-Again, the classic example is Set, the category with sets as objects and
+Again, the classic example is $\mathsf{Set}$, the category with sets as objects and
 functions as morphisms, and the usual composition as composition! But
 lots of the time in mathematics one is some category or other, e.g.:
 
-    Vect --- vector spaces as objects, linear maps as morphisms
-    Group ---- groups as objects, homomorphisms as morphisms
-    Top ---  topological spaces as objects, continuous functions as morphisms
-    Diff --- smooth manifolds as objects, smooth maps as morphisms
-    Ring --- rings as objects, ring homomorphisms as morphisms
+    $\mathsf{Vect}$ --- vector spaces as objects, linear maps as morphisms
+    $\mathsf{Group}$ ---- groups as objects, homomorphisms as morphisms
+    $\mathsf{Top}$ ---  topological spaces as objects, continuous functions as morphisms
+    $\mathsf{Diff}$ --- smooth manifolds as objects, smooth maps as morphisms
+    $\mathsf{Ring}$ --- rings as objects, ring homomorphisms as morphisms
 
 or in physics:
 
-    Symp --- symplectic manifolds as objects, symplectomorphisms as morphisms
-    Poiss --- Poisson manifolds as objects, Poisson maps as morphisms
-    Hilb --- Hilbert spaces as objects, unitary operators as morphisms
+    $\mathsf{Symp}$ --- symplectic manifolds as objects, symplectomorphisms as morphisms
+    $\mathsf{Poiss}$ --- Poisson manifolds as objects, Poisson maps as morphisms
+    $\mathsf{Hilb}$ --- Hilbert spaces as objects, unitary operators as morphisms
 
 (The first two are categories in which one can do classical physics. The
 third is a category in which one can do quantum physics.)
@@ -151,22 +151,22 @@ theory is rather dizzying until one has some good examples to lean on
 (at least for down-to-earth people such as myself), so let us get some
 examples right away, and leave the definition to Kapranov and Voevodsky!
 My favorite example comes from homotopy theory. Take a topological space
-X and let the objects of our category be points of X. Given x and y in
-X, let Hom(x,y) be the set of all unparametrized paths from x to y. We
-compose such paths simply by sticking a path from x to y and a path from
-y to z to get a path from x to z, and we need unparametrized paths to
-make composition associative. Now given two paths from x to y, say f and
-g, let HOM(f,g), the set of 2-morphisms from f to g, be the set of
-unparametrized homotopies from f to g - that is, ways of deforming the
-path f continuously to get the path g, while leaving the endpoints
+$X$ and let the objects of our category be points of $X$. Given $x$ and $y$ in
+$X$, let $\mathrm{Hom}(x,y)$ be the set of all unparametrized paths from $x$ to $y$. We
+compose such paths simply by sticking a path from $x$ to $y$ and a path from
+$y$ to $z$ to get a path from $x$ to $z$, and we need unparametrized paths to
+make composition associative. Now given two paths from $x$ to $y$, say $f$ and
+$g$, let $\mathrm{Hom}(f,g)$, the set of 2-morphisms from $f$ to $g$, be the set of
+unparametrized homotopies from $f$ to $g$ - that is, ways of deforming the
+path $f$ continuously to get the path $g$, while leaving the endpoints
 fixed.
 
 This is a very enlightening example since homotopies of paths are really
 just "paths of paths," making the name 2-morphism quite appropriate.
 (Some of you will already be pondering 3-morphisms, 4-morphisms, but
 it's too late, they've already been invented! I won't discuss them
-here.) The notation for 2-morphisms is quite cute: given f,g in
-Hom(x,y), we write F in HOM(f,g) as the following diagram:
+here.) The notation for 2-morphisms is quite cute: given $f,g$ in
+$\mathrm{Hom}(x,y)$, we write $F$ in $\mathrm{Hom}(f,g)$ as the following diagram:
 
                           f
                       ---->---
@@ -177,8 +177,8 @@ Hom(x,y), we write F in HOM(f,g) as the following diagram:
                           g
 
 Ugh, that's not cute, that's ugly - the joys of ASCII! What this is
-supposed to be is two arrows from x to y, namely f and g, and then a big
-fat double arrow labelled F going down from f to g. In other words,
+supposed to be is two arrows from $x$ to $y$, namely $f$ and $g$, and then a big
+fat double arrow labelled $F$ going down from $f$ to $g$. In other words,
 while ordinary morphisms are 1-dimensional objects (arrows), 2-morphisms
 are 2-dimensional "cells" filling in the space between two ordinary
 morphisms. We thus see that going up to "morphisms between morphisms"
@@ -200,8 +200,8 @@ First of all, given the following situation:
                       ---->----   ---->----
                           g           g'
 
-we can compose F and F' horizontally to get a 2-morphism from f'of to
-g o g'. (Check this out in the example of homotopies!) But also, given
+we can compose $F$ and $F'$ horizontally to get a 2-morphism from $f'\circ f$ to
+$g \circ g'$. (Check this out in the example of homotopies!) But also, given
 the following situation:
 
                               f
@@ -214,8 +214,8 @@ the following situation:
                           ---->---
                               h
 
-(f,g,h in Hom(x,y), F in HOM(f,g), and G in HOM(g,h)), we can compose F
-and G vertically to get a 2-morphism from f to g.
+($f,g,h$ in $\mathrm{Hom}(x,y)$, $F$ in $\mathrm{Hom}(f,g)$, and $G$ in $\mathrm{Hom}(g,h)$), we can compose $F$
+and $G$ vertically to get a 2-morphism from $f$ to $g$.
 
 As Kapranov and Voevodsky note: "Thus 2-categories can be seen as
 belonging to the realm of a new mathematical discipline which may be
@@ -246,13 +246,13 @@ physics. Here there is a nice 2-category, namely the category of
 something that appears in the file "tangles" in the collection of my
 papers):
 
-The objects are simply the natural numbers {0,1,2,3,...}. We think of
-the object n as a horizontal row of n points. The morphisms in Hom(n,m)
-are tangles connecting a row of n points above to a row of m points
+The objects are simply the natural numbers $\{0,1,2,3,\ldots\}$. We think of
+the object $n$ as a horizontal row of $n$ points. The morphisms in $\mathrm{Hom}(n,m)$
+are tangles connecting a row of $n$ points above to a row of $m$ points
 below. Rather than define "tangles" I will simply draw pictures of
-some examples. Here is an element of Hom(2,4):
+some examples. Here is an element of $\mathrm{Hom}(2,4)$:
 
-        |   |
+            |   |
             \   /
              \ /
               \     /\
@@ -261,17 +261,17 @@ some examples. Here is an element of Hom(2,4):
             |    \      |
             |   / \     |
 
-and here is an element of Hom(4,0):
+and here is an element of $\mathrm{Hom}(4,0)$:
 
             |  |   |    |
             \  /   \ /\ /
              \/     \  \
                    / \/ \
-                   ____/
+                   \____/
 
-Note that we can "compose" these tangles to get one in Hom(2,0):
+Note that we can "compose" these tangles to get one in \mathrm{Hom}(2,0):
 
-        |   |
+            |   |
             \   /
              \ /
               \     /\
@@ -283,12 +283,12 @@ Note that we can "compose" these tangles to get one in Hom(2,0):
             \  /   \ /\ /
              \/     \  \
                    / \/ \
-                   ____/
+                   \____/
 
-Now, given tangles f,g in Hom(m,n), a 2-morphism from f to g is a
+Now, given tangles $f,g$ in $\mathrm{Hom}(m,n)$, a 2-morphism from $f$ to $g$ is a
 "2-tangle." I won't define these either, but we may think of a
-2-tangle from f to g roughly as a "movie" whose first frame is the
-tangle f and last frame is the tangle g, and each of whose intermediate
+2-tangle from $f$ to $g$ roughly as a "movie" whose first frame is the
+tangle $f$ and last frame is the tangle $g$, and each of whose intermediate
 frames is a tangle except at certain times when a catastrophe occurs.
 For example, here's a 2-tangle shown as a movie...
 
@@ -328,14 +328,14 @@ Frame 4 (the exciting scene - the catastrophe!)
 Frame 5
 
           \     /
-           ___/
+           \___/
             ___
            /   \
           /     \
 
 Frame 6
 
-          _____/
+           \_____/
           
           
            ______     
@@ -345,7 +345,7 @@ Well, it'll never win an Academy Award, but this movie is pretty
 important. It's a picture of the 3-dimensional slices of a
 2-dimensional surface in (3+1)-dimensional spacetime, and this surface
 is perfectly smooth but has a saddle point which we are seeing in frame
-4. It is one of what Carter and Saito (see [week2](week2.html)) call the
+4. It is one of what Carter and Saito (see "week2") call the
 "elementary string interactions." The relevance to string theory is
 pretty obvious: we are seeing a movie of part of a string worldsheet,
 which is a surface in (3+1)-dimensional spacetime. My interest in
@@ -370,7 +370,7 @@ solutions of the Yang-Baxter equation, braided monoidal 2-categories, as
 defined by Kapranov and Voevodsky, seem to be a good way for finding
 solutions for the Zamolodchikov equation. (I will post in a while about
 a new paper by Soibelman and Kazhdan that does this. Also see the paper
-by Crane and Frenkel in "[week2](week2.html)".)
+by Crane and Frenkel in "week2".)
 
 There are also lots of tantalizing ties between the loop variables
 approach to quantum gravity and 2-categories; one can see some of these
