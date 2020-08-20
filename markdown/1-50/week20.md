@@ -477,7 +477,7 @@ spheres around a central one is precisely the "obvious" subgroup, that
 is, the subgroup of $SO(8)$ that preserves the $E_8$ lattice. This turns
 out to be just the Weyl group of $E_8$, which has
 
-$$2^14^ 3^5^ 5^2^ 7 = 696729600$$
+$$2^{14}\cdot 3^5\cdot 5^2\cdot 7 = 696729600$$
 
 elements.
 
@@ -503,7 +503,7 @@ $SO(24)$ that preserves the Leech lattice. The isomorphism group of the
 Leech lattice is an interesting group called $Co_0$ or $.0$ (pronounced
 "dotto"). It has
 
-$$2^22^ 3^9^ 5^4^ 7^2^ 11 13 23 = 8315553613086720000$$
+$$2^{22}\cdot 3^9\cdot 5^4\cdot 7^2\cdot 11\cdot 13\cdot 23 = 8315553613086720000$$
 
 elements. The Monster group can also be produced using the Leech
 lattice.

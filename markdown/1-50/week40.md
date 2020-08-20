@@ -1,7 +1,3 @@
----
-header-includes: \usepackage{bussproofs}
-...
-
 # Week 40 (1994-10-19)
 
 When I was an undergraduate I was quite interested in logic and the
