@@ -31,6 +31,10 @@
 \date{}
 
 \usepackage{bussproofs}
+\usepackage{tikz}
+\usetikzlibrary{braids}
+\usepackage{environ}
+\NewEnviron{vc}{\vcenter{\hbox{\BODY}}}
 
 \begin{document}
 
@@ -86,22 +90,27 @@ a lot of fascinating pictures! And there does seem to be more than a
 minor relation to string theory. For example, one of the movie moves is
 very analogous to the 3rd Reidemeister move - which goes
 
-\begin{verbatim}
-\   /   |       |    \ /
- \ /    |       |     \
-  \     |       |    / \
- / \    |       |    /  \
-/   \   |       \   /   |
-|    \ /         \ /    |
-|     \     =     \     |
-|    / \           \    |
-|    |  \        /  \   |
-\   /   |       |    \ /
- \ /    |       |     \
-  \     |       |    / \
- / \    |       |   /   \
-/   \   |       |  /     \
-\end{verbatim}
+\[
+  \begin{vc}
+    \begin{tikzpicture}
+      \pic[
+        braid/.cd,
+        every strand/.style=thick,
+        gap=0.1,
+      ]{braid={s_1 s_2 s_1}};
+    \end{tikzpicture}
+  \end{vc}
+  =
+  \begin{vc}
+    \begin{tikzpicture}
+    \pic[
+      braid/.cd,
+      every strand/.style=thick,
+      gap=0.1,
+    ]{braid={s_2 s_1 s_2}};
+  \end{tikzpicture}
+  \end{vc}
+\]
 
 I won't try to draw the corresponding movie move, but just as the 3rd
 Reidemeister move is the basis for the Yang-Baxter equation
@@ -15092,9 +15101,20 @@ think of our \((n+k)\)-category as an \(n\)-category of a special sort.
 Let's call this kind a ``\(k\)-tuply monoidal \(n\)-category''. Now we
 can make a chart of these:
 
-\textbf{\(k\)-tuply monoidal \(n\)-categories}
-
 \begin{longtable}[]{@{}llll@{}}
+\caption{\(k\)-tuply monoidal \(n\)-categories}\tabularnewline
+\toprule
+\begin{minipage}[b]{0.26\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[b]{0.21\columnwidth}\raggedright
+\(n=0\)\strut
+\end{minipage} & \begin{minipage}[b]{0.21\columnwidth}\raggedright
+\(n=1\)\strut
+\end{minipage} & \begin{minipage}[b]{0.21\columnwidth}\raggedright
+\(n=2\)\strut
+\end{minipage}\tabularnewline
+\midrule
+\endfirsthead
 \toprule
 \begin{minipage}[b]{0.26\columnwidth}\raggedright
 \strut
@@ -15137,7 +15157,7 @@ braided monoidal 2-categories\strut
 \begin{minipage}[t]{0.26\columnwidth}\raggedright
 \(k=3\)\strut
 \end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
-""\strut
+" "\strut
 \end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
 symmetric monoidal categories\strut
 \end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
@@ -15146,20 +15166,20 @@ weakly involutory monoidal 2-categories\strut
 \begin{minipage}[t]{0.26\columnwidth}\raggedright
 \(k=4\)\strut
 \end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
-""\strut
+" "\strut
 \end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
-""\strut
+" "\strut
 \end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
 strongly involutory monoidal 2-categories\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.26\columnwidth}\raggedright
 \(k=5\)\strut
 \end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
-""\strut
+" "\strut
 \end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
-""\strut
+" "\strut
 \end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
-""\strut
+" "\strut
 \end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}

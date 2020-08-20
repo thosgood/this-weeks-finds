@@ -111,16 +111,16 @@ morphism, and we can actually think of our $(n+k)$-category as an
 $n$-category of a special sort. Let's call this kind a "$k$-tuply monoidal
 $n$-category". Now we can make a chart of these:
 
-**$k$-tuply monoidal $n$-categories**
-
 |       | $n=0$ | $n=1$ | $n=2$ |
 | ----- | :--- | :--- | :--- |
 | $k=0$ | sets | categories | 2-categories |[1em]
 | $k=1$ | monoids | monoidal categories | monoidal 2-categories |
 | $k=2$ | commutative monoids | braided monoidal categories | braided monoidal 2-categories |
-| $k=3$ | "" | symmetric monoidal categories | weakly involutory monoidal 2-categories |
-| $k=4$ | "" | "" | strongly involutory monoidal 2-categories |
-| $k=5$ | "" | "" | "" |
+| $k=3$ | " " | symmetric monoidal categories | weakly involutory monoidal 2-categories |
+| $k=4$ | " " | " " | strongly involutory monoidal 2-categories |
+| $k=5$ | " " | " " | " " |
+
+:$k$-tuply monoidal $n$-categories
 
 First, I should emphasize that some parts of the chart as I've drawn it
 here are a bit conjectural; since we don't know what the most general

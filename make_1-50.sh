@@ -44,6 +44,10 @@ printf '%s\n' '\date{}' >> $TEX
 
 printf "\n" >> $TEX
 printf '%s\n' '\usepackage{bussproofs}' >> $TEX
+printf '%s\n' '\usepackage{tikz}' >> $TEX
+printf '%s\n' '\usetikzlibrary{braids}' >> $TEX
+printf '%s\n' '\usepackage{environ}' >> $TEX
+printf '%s\n' '\NewEnviron{vc}{\vcenter{\hbox{\BODY}}}' >> $TEX
 
 printf "\n" >> $TEX
 printf '%s\n' '\begin{document}' >> $TEX
