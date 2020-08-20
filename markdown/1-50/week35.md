@@ -1,9 +1,8 @@
 # Week 35
 
-1) Pursuing stacks (A la poursuite des champs), 1983 letter from
+1) "Pursuing stacks (A la poursuite des champs)", 1983 letter from
 Alexandre Grothendieck to Daniel Quillen, 593 pages. Scanned version
-available from the Grothendieck Circle at
-<http://www.grothendieckcircle.org/>
+available from the Grothendieck Circle at <`http://www.grothendieckcircle.org/`>
 
 I owe somebody enormous thanks for sending this to me, but I won't
 mention his name, since I don't want people pestering him for copies.
@@ -49,10 +48,10 @@ field theories." The basic idea is that, just as a traditional quantum
 field theory is (among other things) a representation of the symmetry
 group of spacetime, a topological quantum field theory is a
 representation of a more sophisticated algebraic structure, a
-"cobordism n-category." An n-category is a wonderfully recursive sort
+"cobordism $n$-category." An $n$-category is a wonderfully recursive sort
 of thing in which there are objects, 1-morphisms between objects,
-2-morphisms between morphisms, and so on up to n-morphisms. In a
-"cobordism n-category" the objects are 0-manifolds, the 1-morphisms
+2-morphisms between morphisms, and so on up to $n$-morphisms. In a
+"cobordism $n$-category" the objects are 0-manifolds, the 1-morphisms
 are 1-dimensional manifolds that go between 0-manifolds (as the unit
 interval goes from one endpoint to another), the 2-morphisms are
 2-dimensional manifolds that go between 1-manifolds (as a cylinder goes
@@ -60,15 +59,15 @@ from on circle to another), etc. In practice one must work with
 manifolds admitting certain types of "corners", and equipped with
 extra structures that topologists and physicist like, such as
 orientations, framings, or spin structures. The idea is that all the
-cutting-and-pasting constructions in n-dimensional topology can be
-described algebraically in the cobordism n-category. To wax rhapsodic
-for a moment, we can think of an n-category as exemplifying the notion
+cutting-and-pasting constructions in $n$-dimensional topology can be
+described algebraically in the cobordism $n$-category. To wax rhapsodic
+for a moment, we can think of an $n$-category as exemplifying the notion
 of "ways to go between ways to go between ways to go between..... ways
-to go between things," and cobordism n-categories are the particular
-n-categories that algebraically encode the possibilities along these
-lines that are implicit in the notion of n-dimensional spacetime.
+to go between things," and cobordism $n$-categories are the particular
+$n$-categories that algebraically encode the possibilities along these
+lines that are implicit in the notion of $n$-dimensional spacetime.
 
-Now, the problem is that the correct *definition* of an n-category is a
+Now, the problem is that the correct *definition* of an $n$-category is a
 highly nontrivial affair! And it gets more complicated as n increases! A
 0-category is nothing but a bunch of objects. In other words, it's
 basically just a *set*, if we allow ourselves to ignore certain problems
@@ -79,20 +78,18 @@ nothing but a category. Recall the definition of a
 A category consists of a set of **objects** and a set of **morphisms**.
 Every morphism has a **source** object and a **target** object. (A good
 example to think of is the category in which the objects are sets and
-the morphisms are functions. If f:X → Y, we call X the source and Y the
-target.) Given objects X and Y, we write Hom(X,Y) for the set of
-morphisms from X to Y (i.e., having X as source and Y as target).
+the morphisms are functions. If $f\colon X\to Y$, we call $X$ the source and $Y$ the
+target.) Given objects $X$ and $Y$, we write $\mathrm{Hom}(X,Y)$ for the set of
+morphisms from $X$ to $Y$ (i.e., having $X$ as source and $Y$ as target).
 
 The axioms for a category are that it consist of a set of objects and
-for any 2 objects X and Y a set Hom(X,Y) of morphisms from X to Y, and
+for any 2 objects $X$ and $Y$ a set $\mathrm{Hom}(X,Y)$ of morphisms from $X$ to $Y$, and
 
-1.  Given a morphism g in Hom(X,Y) and a morphism f in Hom(Y,Z), there
-    is morphism which we call f o g in Hom(X,Z). (This binary operation
-    o is called **composition**.)
-2.  Composition is associative: (f o g) o h = f o (g o h).
-3.  For each object X there is a morphism id\|X from X to X, called the
-    **identity on** X.
-4.  Given any f in Hom(X,Y), f o id\|X = f and id\|Y o f = f.
+1.  Given a morphism $g$ in $\mathrm{Hom}(X,Y)$ and a morphism $f$ in $\mathrm{Hom}(Y,Z)$, there
+    is morphism which we call $f \circ g$ in $\mathrm{Hom}(X,Z)$. (This binary operation $\circ$ is called **composition**.)
+2.  Composition is associative: $(f \circ g) \circ h = f \circ (g \circ h)$.
+3.  For each object $X$ there is a morphism $\mathrm{id}_X$ from $X$ to $X$, called the **identity on** $X$.
+4.  Given any $f$ in $\mathrm{Hom}(X,Y)$, $f \circ \mathrm{id}_X = f$ and $\mathrm{id}_Y \circ f = f$.
 
 Now, a 2-category is more complicated. There are objects, 1-morphisms,
 and 2-morphisms, and one can compose morphisms and also compose
@@ -105,16 +102,16 @@ one can choose between "strict" 2-categories, usually just called
 "bicategories."
 
 What do I mean by giving the 1-morphisms some "slack"? This is a very
-important aspect of the n-categorical philosophy... I mean that in a
+important aspect of the $n$-categorical philosophy... I mean that in a
 2-category one has the option of replacing *equations* between
-1-morphisms by *isomorphisms* \-\-- that is, by 2-morphisms that have
+1-morphisms by *isomorphisms* --- that is, by 2-morphisms that have
 inverses! The basic idea here is that in many situations when we like to
 pretend things are equal, they are really just *isomorphic*, and we
 should openly admit this when it occurs. So, for example, in a "weak"
 2-category one doesn't have associativity of 1-morphisms. Instead, one
 has "associators", which are 2-morphisms like this:
 
-a~f,g,h~: (f o g) o h → f o (g o h)
+$$a_{f,g,h}: (f \circ g) \circ h \to f \circ (g \circ h)$$
 
 In other words, the associator is the *process of rebracketing* made
 concrete. Now, when one replaces equations between 1-morphisms by
@@ -123,20 +120,19 @@ relations" if we're going to expect to be able to manipulate them more
 or less as if they *were* equations. For example, in the case of the
 associators above, one can use associators to go from
 
-f o (g o (h o k))
+$$f \circ (g \circ (h \circ k))$$
 
 to
 
-((f o g) o h) o k
+$$((f \circ g) \circ h) \circ k$$
 
 in two different ways: either
 
-f o (g o (h o k)) → (f o g) o (h o k) → ((f o g) o h) o k
+$$f \circ (g \circ (h \circ k)) \to (f \circ g) \circ (h \circ k) \to ((f \circ g) \circ h) \circ k$$
 
 or
 
-f o (g o (h o k)) → f o ((g o h) o k) → (f o (g o h)) o k → ((f o g) o
-h) o k
+$$f \circ (g \circ (h \circ k)) \to f \circ ((g \circ h) \circ k) \to (f \circ (g \circ h)) \circ k \to ((f \circ g) \circ h) \circ k$$
 
 Actually there are other ways, but in an important sense these are the
 basic two. In a "weak" 2-category one requires that these two ways are
@@ -150,25 +146,24 @@ theorem.)
 To learn about weak 2-categories, which as I said people usually call
 bicategories, try:
 
-2) J. Benabou, Introduction to bicategories, Lect. Notes in Math., vol.
-47, Berlin, Springer-Verlag, 1968, pp. 1-71.
+2) J. Benabou, _Introduction to bicategories_, Lect. Notes in Math., vol. **47**, Berlin, Springer-Verlag, 1968, pp. 1--71.
 
 Now, one can continue this game, but it gets increasingly complex if one
-goes the "weak" route. In a "weak n-category" the idea is to replace
-all basic identities that one might expect between j-morphisms, such as
-the associative law, by (j+1)-isomorphisms. These, in turn, satisfy
+goes the "weak" route. In a "weak $n$-category" the idea is to replace
+all basic identities that one might expect between $j$-morphisms, such as
+the associative law, by $(j+1)$-isomorphisms. These, in turn, satisfy
 certain "coherence relations" that are really not equations, but
-(j+2)-morphisms, and so on... up to level n. This becomes so
+$(j+2)$-morphisms, and so on... up to level $n$. This becomes so
 complicated that only recently have "weak 3-categories" been properly
 defined, by Gordon, Power and Street, who call them tricategories (see
-"[week29](week29.html)").
+"week29").
 
 A bit earlier, Kapranov and Voevodsky succeeded in defining a certain
 class of weak 4-categories, which happen to be called "braided monoidal
-2-categories" (see "[week4](week4.html)"). The interesting thing, you
+2-categories" (see "week4"). The interesting thing, you
 see, which justifies getting involved in this business, is that a lot of
-topology *automatically pops out* of the definition of an n-category. In
-particular, n-categories have a lot to do with n-dimensional space. A
+topology *automatically pops out* of the definition of an $n$-category. In
+particular, $n$-categories have a lot to do with $n$-dimensional space. A
 weak 3-category with only one object and one 1-morphism is usually known
 as a "braided monoidal category," and the theory of these turns out to
 be roughly the same as the study of knots, links and tangles! (See
@@ -181,152 +176,109 @@ morphisms, and 2-morphisms.)
 
 In any event, these marvelous algebraic structures have been cropping up
 more and more in physics (see especially Crane's stuff listed in
-"[week2](week2.html)" and Freed's paper listed in
-"[week12](week12.html)"), so I got ahold of a copy of Grothendieck's
+"week2" and Freed's paper listed in
+"week12"), so I got ahold of a copy of Grothendieck's
 letter and have begun trying to understand it.
 
-Actually, it's worth noting that these n-categorical ideas have been
+Actually, it's worth noting that these $n$-categorical ideas have been
 lurking around homotopy theory for quite some time now. As Grothendieck
 wrote:
 
 > At first sight it had seemed to me that the Bangor group had indeed
 > come to work out (quite independently) one basic intuition of the
 > program I had envisioned in those letters to Larry Breen - namely,
-> that the study of n-truncated homotopy types (of semisimplicial sets,
+> that the study of $n$-truncated homotopy types (of semisimplicial sets,
 > or of topological spaces) was essentially equivalent to the study of
-> so-called n-groupoids (where n is any natural integer). This is
-> expected to be achieved by associating to any space (say) X its
-> "fundamental n-groupoid" Π~n~(X), generalizing the familiar Poincare
-> fundamental groupoid for n = 1. The obvious idea is that 0-objects of
-> Π~n~(X) should be the points of X, 1-objects should be "homotopies"
+> so-called $n$-groupoids (where $n$ is any natural integer). This is
+> expected to be achieved by associating to any space (say) $X$ its
+> "fundamental $n$-groupoid" $\Pi_n(X)$, generalizing the familiar Poincare
+> fundamental groupoid for $n = 1$. The obvious idea is that 0-objects of
+> $\Pi_n(X)$ should be the points of $X$, 1-objects should be "homotopies"
 > or paths between points, 2-objects should be homotopies between
-> 1-objects, etc. This Π~n~(X) should embody the n-truncated homotopy
-> type of X, in much the same way as for n = 1 the usual fundamental
-> groupoid embodies the 1-truncated homotopy type. For two spaces X, Y,
-> the set of homotopy-classes of maps X → Y (more correctly, for general
-> X, Y, the maps of X into Y in the homotopy category) should correspond
-> to n-equivalence classes of n-functors from Π~n~(X) to Π~n~(Y) - etc.
+> 1-objects, etc. This $\Pi_n(X)$ should embody the $n$-truncated homotopy
+> type of $X$, in much the same way as for $n = 1$ the usual fundamental
+> groupoid embodies the 1-truncated homotopy type. For two spaces $X$, $Y$,
+> the set of homotopy-classes of maps $X \to Y$ (more correctly, for general
+> $X$, $Y$, the maps of $X$ into $Y$ in the homotopy category) should correspond
+> to $n$-equivalence classes of $n$-functors from $\Pi_n(X)$ to $\Pi_n(Y)$ - etc.
 > There are some very strong suggestions for a nice formalism including
 > a notion of geometric realization of an n-groupoid, which should imply
-> that any n-groupoid is n-equivalent to a Π~n~(X). Moreover when the
-> notion of an n-groupoid (or more generally of an n-category) is
-> relativized over an arbitrary topos to the notion of an n-gerbe (or
-> more generally, an n-stack), these become the natural "coefficients"
+> that any $n$-groupoid is $n$-equivalent to a $\Pi_n(X)$. Moreover when the
+> notion of an $n$-groupoid (or more generally of an $n$-category) is
+> relativized over an arbitrary topos to the notion of an $n$-gerbe (or
+> more generally, an $n$-stack), these become the natural "coefficients"
 > for a formalism of non commutative cohomological algebra, in the
 > spirit of Giraud's thesis.
 
 The "Bangor group" referred to includes Ronnie Brown, who has done a
-lot of work on "ω-groupoids". A while back he sent me a nice long list
+lot of work on "$\omega$-groupoids". A while back he sent me a nice long list
 of references on this subject; here are some that seemed particularly
 relevant to me (though I haven't looked at all of them).
 
-3) G. Abramson, J.-P.Meyer, J.Smith, A higher dimensional analogue of
-the fundamental groupoid, in Recent developments of algebraic topology,
-RIMS Kokyuroku 781, Kyoto, 38-45, 1992.
+3) G. Abramson, J.-P.Meyer, J.Smith, "A higher dimensional analogue of
+the fundamental groupoid", in _Recent developments of algebraic topology_, RIMS Kokyuroku **781**, Kyoto, 38--45, 1992.
 
-F.Al-Agl, Aspects of multiple categories, University of Wales PhD
-Thesis, 1989.
+    F.Al-Agl, "Aspects of multiple categories", University of Wales PhD Thesis, 1989.
 
-F.Al-Agl and R.J.Steiner, Nerves of multiple categories, Proc. London
-Math. Soc., 66, 92-128, 1992.
+    F.Al-Agl and R.J.Steiner, "Nerves of multiple categories", _Proc. London Math. Soc._, **66**, 92--128, 1992.
 
-N.Ashley, Simplicial T-complexes, University of Wales PhD Thesis, 1976,
-published as Simplicial T-complexes: a non-abelian version of a theorem
-of Dold-Kan, Diss. Math. 165, 11-58 (1988).
+    N.Ashley, "Simplicial T-complexes", University of Wales PhD Thesis, 1976, published as "Simplicial T-complexes: a non-abelian version of a theorem of Dold-Kan", _Diss. Math._ **165**, 11--58 (1988).
 
-H.J.Baues, Algebraic homotopy, Cambridge University Press, 1989.
+    H.J.Baues, _Algebraic homotopy_, Cambridge University Press, 1989.
 
-H.J.Baues, Combinatorial homotopy and 4-dimensional complexes, De
-Gruyter, 1991.
+    H.J.Baues, _Combinatorial homotopy and 4-dimensional complexes_, De Gruyter, 1991.
 
-L.Breen, Bitorseurs et cohomologie non-Abélienne, The Grothendieck
-Festschrift: a collection of articles written in honour of the 60th
-birthday of Alexander Grothendieck, Vol. I, edited P.Cartier, et al.,
-Birkhauser, Boston, Basel, Berlin, 401-476, 1990.
+    L.Breen, Bitorseurs et cohomologie non-Abélienne, _The Grothendieck Festschrift: a collection of articles written in honour of the 60th birthday of Alexander Grothendieck, Vol. I_, edited P.Cartier, et al., Birkhauser, Boston, Basel, Berlin, 401-476, 1990.
 
-R.Brown, Higher dimensional group theory, in Low-dimensional topology,
-ed. R.Brown and T.L.Thickstun, London Math. Soc. Lect. Notes 46,
-Cambridge University Press, 215-238, 1982.
+    R.Brown, "Higher dimensional group theory", in _Low-dimensional topology_, ed. R.Brown and T.L.Thickstun, _London Math. Soc. Lect. Notes_ **46**, Cambridge University Press, 215--238, 1982.
 
-R.Brown, From groups to groupoids: a brief survey, Bull. London Math.
-Soc., 19, 113-134, 1987.
+    R.Brown, "From groups to groupoids: a brief survey", _Bull. London Math. Soc._, **19**, 113--134, 1987.
 
-R.Brown, Elements of Modern Topology, McGraw Hill, Maidenhead, 1968;
-Topology: a geometric account of general topology, homotopy types and
-the fundamental groupoid, Ellis Horwood, Chichester, 1988.
+    R.Brown, _Elements of Modern Topology_, McGraw Hill, Maidenhead, 1968; _Topology: a geometric account of general topology, homotopy types and the fundamental groupoid_, Ellis Horwood, Chichester, 1988.
 
-R.Brown, Some problems in non-Abelian homological and homotopical
-algebra, Homotopy theory and related topics: Proceedings Kinosaki, 1988,
-Edited M.Mimura, Springer Lecture Notes in Math. 1418, 105-129, 1990.
+    R.Brown, "Some problems in non-Abelian homological and homotopical algebra", _Homotopy theory and related topics: Proceedings Kinosaki_, 1988, Edited M.Mimura, _Springer Lecture Notes in Math._ **1418**, 105--129, 1990.
 
-R.Brown, P.J.Higgins, The equivalence of ω-groupoids and cubical
-T-complexes, Cah. Top. G\\eom. Diff. 22, 349-370, 1981.
+    R.Brown, P.J.Higgins, "The equivalence of $\omega$-groupoids and cubical T-complexes", _Cah. Top. Geom. Diff._ **22**, 349--370, 1981.
 
-R.Brown, P.J.Higgins, The equivalence of ∞-groupoids and crossed
-complexes, Cah. Top. G\\eom. Diff. 22, 371-386, 1981.
+    R.Brown, P.J.Higgins, "The equivalence of $\infty$-groupoids and crossed complexes", _Cah. Top. Geom. Diff._ **22**, 371--386, 1981.
 
-R.Brown, P.J.Higgins, The algebra of cubes, J. Pure Appl. Algebra, 21,
-233-260, 1981.
+    R.Brown, P.J.Higgins, "The algebra of cubes", _J. Pure Appl. Algebra_, **21**, 233--260, 1981.
 
-R.Brown, P.J.Higgins, Tensor products and homotopies for ω-groupoids and
-crossed complexes, J. Pure Appl. Algebra, 47, 1-33, 1987.
+    R.Brown, P.J.Higgins, "Tensor products and homotopies for $\omega$-groupoids and crossed complexes", _J. Pure Appl. Algebra_, **47**, 1--33, 1987.
 
-R.Brown, J.Huebschmann, Identities among relations, in Low-dimensional
-topology, ed. R.Brown and T.L.Thickstun, London Math. Soc. Lect. Notes
-46, Cambridge University Press, 153-202, 1982.
+    R.Brown, J.Huebschmann, "Identities among relations", in _Low-dimensional topology_, ed. R.Brown and T.L.Thickstun, _London Math. Soc. Lect. Notes_ **46**, Cambridge University Press, 153--202, 1982.
 
-R.A.Brown, Generalised group presentations, Trans. Amer. Math. Soc.,
-334, 519-549, 1992.
+    R.A.Brown, "Generalised group presentations", _Trans. Amer. Math. Soc._, **334**, 519--549, 1992.
 
-M.Bullejos, A.M.Cegarra, J.Duskin, On cat^n^-groups and homotopy types,
-J. Pure Appl. Algebra 86 (1993) 135-154.
+    M.Bullejos, A.M.Cegarra, J.Duskin, "On $\mathrm{cat}^n$-groups and homotopy types", _J. Pure Appl. Algebra_ **86** (1993) 135--154.
 
-M.Bullejos, P. Carrasco, A.Cegarra, Cohomology with coefficients in
-symmetric cat^n^-groups. An extension of Eilenberg-Mac Lanes
-classification theorem. Granada Preprint, 1992.
+    M.Bullejos, P. Carrasco, A.Cegarra, "Cohomology with coefficients in symmetric $\mathrm{cat}^n$-groups. An extension of Eilenberg-Mac Lanes classification theorem." Granada Preprint, 1992.
 
-P.J.Ehlers and T. Porter, From simplicial groupoids to crossed
-complexes, UCNW Maths Preprint 92.19, 35pp, 1992.
+    P.J.Ehlers and T. Porter, "From simplicial groupoids to crossed complexes", UCNW Maths Preprint `92.19`, 35pp, 1992.
 
-D.W.Jones, Polyhedral T-complexes, University of Wales PhD Thesis, 1984;
-published as A general theory of polyhedral sets and their corresponding
-T-complexes, Diss. Math. 266, 1988.
+    D.W.Jones, "Polyhedral T-complexes", University of Wales PhD Thesis, 1984; published as "A general theory of polyhedral sets and their corresponding T-complexes", _Diss. Math._ **266**, 1988.
 
-M.M.Kapranov, V.Voevodsky, Combinatorial-geometric aspects of
-polycategory theory: pasting schemes and higher Bruhat orders (list of
-results), Cah. Top. Geom. Diff. Cat. 32, 11-27, 1991.
+    M.M.Kapranov, V.Voevodsky, "Combinatorial-geometric aspects of polycategory theory: pasting schemes and higher Bruhat orders (list of results)", _Cah. Top. Geom. Diff. Cat._ **32**, 11--27, 1991.
 
-M.M.Kapranov, V. Voevodsky, ∞-groupoids and homotopy types Cah. Top.
-G\\eom. Diff. Cat. 32, 29-46, 1991.
+    M.M.Kapranov, V. Voevodsky, "$\infty$-groupoids and homotopy types", _Cah. Top. Geom. Diff. Cat._ **32**, 29--46, 1991.
 
-M.M.Kapranov, V. Voevodsky, 2-categories and Zamolodchikov tetrahedra
-equations, preprint, 102pp, 1992.
+    M.M.Kapranov, V. Voevodsky, "2-categories and Zamolodchikov tetrahedra equations", preprint, 102pp, 1992.
 
-J.-L.Loday, Spaces with finitely many non-trivial homotopy groups, J.
-Pure Appl. Algebra, 24, 179-202, 1982.
+    J.-L.Loday, "Spaces with finitely many non-trivial homotopy groups", _J. Pure Appl. Algebra_, **24**, 179--202, 1982.
 
-G.Nan Tie, Iterated W and T-groupoids, J. Pure Appl. Algebra, 56,
-195-209, 1989.
+    G.Nan Tie, "Iterated W and T-groupoids", _J. Pure Appl. Algebra_, **56**, 195--209, 1989.
 
-T.Porter, A combinatorial definition of ∞-types, Topology 22 (1993)
-5-24.
+    T.Porter, "A combinatorial definition of $\infty$-types", _Topology_ **22** (1993) 5--24.
 
-S.J.Pride, Identities among relations of group presentations, in E.Ghys,
-A.Haefliger, A. Verjodsky, eds. Proc. Workshop on Group Theory from a
-Geometrical Viewpoint, International Centre of Theoretical Physics,
-Trieste, 1990, World Scientific, (1991) 687-716.
+    S.J.Pride, "Identities among relations of group presentations", in E.Ghys, A.Haefliger, A. Verjodsky, eds. _Proc. Workshop on Group Theory from a Geometrical Viewpoint_, International Centre of Theoretical Physics, Trieste, 1990, World Scientific, (1991) 687--716.
 
-R.Steiner, The algebra of directed complexes, University of Glasgow Math
-Preprint, 29pp, 1992.
+    R.Steiner, "The algebra of directed complexes", University of Glasgow Math Preprint, 29pp, 1992.
 
-A.Tonks, Cubical groups which are Kan, J. Pure Appl. Algebra 81, 83-87,
-1992.
+    A.Tonks, "Cubical groups which are Kan", _J. Pure Appl. Algebra_ **81**, 83--87, 1992.
 
-A.Tonks and R.Brown, Calculation with simplicial and cubical groups in
-Axiom, UCNW Math Preprint 93.04.
+    A.Tonks and R.Brown, "Calculation with simplicial and cubical groups in Axiom", UCNW Math Preprint `93.04`.
 
-A.R.Wolf, Inherited asphericity, links and identities among relations,
-J. Pure Appl. Algebra 71 (1991) 99-107.
+    A.R.Wolf, "Inherited asphericity, links and identities among relations", _J. Pure Appl. Algebra_ **71** (1991) 99--107.
 
 ------------------------------------------------------------------------
 
