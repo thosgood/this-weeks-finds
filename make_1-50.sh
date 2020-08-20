@@ -1,7 +1,7 @@
 #!/bin/bash
 
 MDS="./markdown/1-50/*.md"
-TEX="./markdown/1-50/TWF_1-50.tex"
+TEX="./latex/TWF_1-50.tex"
 
 printf '%s\n' '\documentclass{article}' > $TEX
 
