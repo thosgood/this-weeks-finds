@@ -2,7 +2,7 @@
 
 1) "Pursuing stacks (A la poursuite des champs)", 1983 letter from
 Alexandre Grothendieck to Daniel Quillen, 593 pages. Scanned version
-available from the Grothendieck Circle at <`http://www.grothendieckcircle.org/`>
+available from the Grothendieck Circle at `<http://www.grothendieckcircle.org/>`
 
 I owe somebody enormous thanks for sending this to me, but I won't
 mention his name, since I don't want people pestering him for copies.
