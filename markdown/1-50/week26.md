@@ -1,4 +1,4 @@
-week26
+# Week 26
 
 I have been struggling to learn the rudiments of Teichmueller theory,
 and it's almost time for me to face up to my ignorance of it by posting
@@ -8,11 +8,11 @@ different subjects...
 
 ------------------------------------------------------------------------
 
-1) Cosmology, time's arrow, and that old double standard, by Huw
+1) "Cosmology, time's arrow, and that old double standard", by Huw
 Price, 26 pages, in LaTeX with 3 figures appended as postscript file,
-available as [gr-qc/9310022](http://xxx.lanl.gov/abs/gr-qc/9310022).
+available as [`gr-qc/9310022`](http://xxx.lanl.gov/abs/gr-qc/9310022).
 (Written for Time's Arrows Today Conference, UBC, Vancouver, June 1992;
-forthcoming in Savitt, S., ed., "Time's Arrows Today," Cambridge
+forthcoming in Savitt, S., ed., _Time's Arrows Today_, Cambridge
 University Press, 1994.)
 
 Why is the future different from the past? Because it hasn't happened
@@ -36,7 +36,7 @@ a state of very low entropy. (His statistical treatment of
 thermodynamics implied that although such states are extremely
 improbable, they are bound to occur occasionally, if the universe lasts
 a sufficiently long time.) This is a rather desperate solution to the
-problem of temporal asymmetry, howevet, and one of the great
+problem of temporal asymmetry, however, and one of the great
 achievements of modern cosmology has been to offer us an alternative. It
 now appears that temporal asymmetry is cosmological in origin, a
 consequence of the fact that entropy is much lower than its theoretical
@@ -58,12 +58,12 @@ statistical arguments concerned are inherently insensitive to temporal
 direction, and hence unable to account for temporal asymmetry. And
 writers who did notice this mistake commonly fell for another:
 recognising the need to justify the double standard - the application of
-the arguments in question \`towards the future' but not \`towards the
+the arguments in question 'towards the future' but not 'towards the
 past' - they appealed to additional premisses, without noticing that in
 order to do the job, these additions must effectively embody the very
 temporal asymmetry which was problematic in the first place. To assume
 the uncorrelated nature of initial particle motions (or incoming
-\`external influences'), for example, is simply to move the problem
+'external influences'), for example, is simply to move the problem
 from one place to another. (It may *look* less mysterious as a result,
 but this is no real indication of progress. The fundamental lesson of
 these endeavours is that much of what needs to be explained about
@@ -99,12 +99,12 @@ discuss, briefly and rather speculatively, some issues that arise if we
 take the view seriously. (Could we observe a time-reversing future, for
 example?)
 
-[And now let me jump forward to a very interesting issue, Hawking's
+\[And now let me jump forward to a very interesting issue, Hawking's
 attempt to derive the arrow of time from his "no-boundary boundary
 conditions" choice of the wavefunction of the universe. (See
-"[week3](week3.html).") I found this rather unsatisfying when I read
+"week3") I found this rather unsatisfying when I read
 it, and had a sneaking suspicion that he was falling into the fallacy
-Gold describes above. Let's hear what Price has to say about it. - jb]
+Gold describes above. Let's hear what Price has to say about it. - jb\]
 
 Our second example is better known, having been described in Stephen
 Hawking's best seller, A Brief History of Time. It is Hawking's
@@ -120,14 +120,14 @@ additional assumptions or boundary conditions) by a time-symmetric
 physics. The dilemma is particularly acute for Hawking, because he has a
 more reason than most to avoid resorting to additional boundary
 conditions. They conflict with the spirit of his NBC, namely that one
-restrict possible histories for the universe to those that \`are finite
+restrict possible histories for the universe to those that 'are finite
 in extent but have no boundaries, edges, or singularities.'
 
 Hawking tells us how initially he thought that this proposal favoured
-the former horn of the above dilemma: \`I thought at first that the no
+the former horn of the above dilemma: 'I thought at first that the no
 boundary condition did indeed imply that disorder would decrease in the
 contracting phase.' He changed his mind, however, in response to
-objections from two colleagues: \`I realized that I had made a mistake:
+objections from two colleagues: 'I realized that I had made a mistake:
 the no boundary condition implied that disorder would in fact continue
 to increase during the contraction. The thermodynamic and psychological
 arrows of time would not reverse when the universe begins to contract or
@@ -178,7 +178,7 @@ moment I'll describe my attempts to find a solution in Hawking's
 technical papers. What seems clear is that it can't be done by
 reflecting on the consequences of the NBC for the state of one temporal
 extremity of the universe, considered in isolation. For if that worked
-for the \`initial' state it would also work for the \`final' state;
+for the 'initial' state it would also work for the 'final' state;
 unless of course the argument had illicitly assumed an objective
 distinction between initial state and final state, and hence applied
 some constraint to the former that it didn't apply to the latter. What
@@ -204,15 +204,15 @@ exclude disorder at either temporal extremity of the universe, in which
 case his mistake is to think that the NBC accounts for the low entropy
 Big Bang.
 
-[And, eventually, Price concludes that there is indeed something
-lacking in Hawking's attempts to derive an arrow of time. - jb]
+\[And, eventually, Price concludes that there is indeed something
+lacking in Hawking's attempts to derive an arrow of time. - jb\]
 
 ------------------------------------------------------------------------
 
 I have said this many times here and there, but I'll say it again. For
 a good introduction to these issues, read:
 
-2) The Physical Basis of the Direction of Time, by H. D. Zeh, Second
+2) _The Physical Basis of the Direction of Time_, by H. D. Zeh, Second
 Edition, Springer-Verlag, 1992.
 
 Zeh is one of the most clear-headed writers I know on this vexing
@@ -220,9 +220,9 @@ problem. Interestingly, Price acknowledges Zeh in his paper.
 
 ------------------------------------------------------------------------
 
-3) Chromodynamics and gravity as theories on loop space, by R. Loll, 56
+3) "Chromodynamics and gravity as theories on loop space", by R. Loll, 56
 pages, 10 figures (postscript, compressed and uuencoded), TeX, available
-as [hep-th/9309056](http://xxx.lanl.gov/abs/hep-th/9309056).
+as [`hep-th/9309056`](http://xxx.lanl.gov/abs/hep-th/9309056).
 
 This is an especially thorough review of work on the loop representation
 of gauge theories, especially the theories of the strong force and
@@ -235,10 +235,10 @@ problems just because they are difficult and can be temporarily ignored.
 
 ------------------------------------------------------------------------
 
-4) Intersecting braids and intersecting knot theory, by Daniel
+4) "Intersecting braids and intersecting knot theory", by Daniel
 Armand-Ugon, Rodolfo Gambini and Pablo Mora, Latex 14 pages (6 figures
 included), available as
-[hep-th/9309136](http://xxx.lanl.gov/abs/hep-th/9309136).
+[`hep-th/9309136`](http://xxx.lanl.gov/abs/hep-th/9309136).
 
 There are a lot of hints that classical knot theory, which only
 considers a circle smoothly embedded in space, is only the tip of a very
@@ -273,7 +273,7 @@ of self-intersections, calculating these extensions directly from the
 path-integral formula for the Jones polynomial as a Wilson loop
 expectation value in Chern-Simons theory. The relationship of this
 extension to the theory of Vassiliev invariants was recently clarified
-by Kauffman (see "[week23](week23.html)"), but there is much more to
+by Kauffman (see "week23"), but there is much more to
 do. Here Gambini and collaborators look at loops with transverse triple
 points. I guess I'll just quote the abstract:
 
