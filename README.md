@@ -4,6 +4,7 @@
 
 - longtable -> table?
     + more generally, custom pandoc latex template
+- header (current section) + footer (page number of)
 
 ## 1--50
 - diagrams

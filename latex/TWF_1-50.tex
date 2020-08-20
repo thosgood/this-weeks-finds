@@ -38,6 +38,8 @@
 \usepackage{environ}
 \NewEnviron{braid}{\vcenter{\hbox{\begin{tikzpicture}\BODY\end{tikzpicture}}}}
 
+\usepackage{tikz-cd}
+
 \begin{document}
 
 \maketitle
@@ -264,12 +266,11 @@ from solutions of the Yang-Baxter equations, and show how to get link
 invariants applicable to generalized links with 4-valent or 6-valent
 vertices, that is, transverse double points, like
 
-\begin{verbatim}
-\  /
- \/
- /\
-/  \
-\end{verbatim}
+\[
+  \begin{tikzpicture}
+    \pic[braid/.cd,gap=0]{braid={s_1}};
+  \end{tikzpicture}
+\]
 
 and transverse triple points. This involves working with a
 generalization of the braid group that includes generators for these
@@ -309,32 +310,27 @@ links. Given an invariant of oriented links, one can extend it to links
 with arbitrarily many double points by setting the value of the
 invariant on a link with a double point
 
-\begin{verbatim}
-\  /
- \/
- /\
-/  \
-\end{verbatim}
+\[
+  \begin{tikzpicture}
+    \pic[braid/.cd,gap=0]{braid={s_1}};
+  \end{tikzpicture}
+\]
 
 to be the invariant of the link with the double point changed to
 
-\begin{verbatim}
-\   /
- \ /
-  /
- / \
-/   \
-\end{verbatim}
+\[
+  \begin{braid}
+    \pic{braid={s_1^{-1}}};
+  \end{braid}
+\]
 
 minus the invariant of the link with the double point changed to
 
-\begin{verbatim}
-\   /
- \ /
-  \
- / \
-/   \
-\end{verbatim}
+\[
+  \begin{braid}
+    \pic{braid={s_1}};
+  \end{braid}
+\]
 
 Note that the link has to be oriented for this rule to make sense, and
 the strands shown in the pictures above should be pointing
@@ -680,32 +676,27 @@ Recall from last week that given an invariant of oriented knots, one can
 extend it to knot with arbitrarily many nice crossings by setting the
 value of the invariant on a knot with a crossing like
 
-\begin{verbatim}
-\  /
- \/
- /\
-/  \
-\end{verbatim}
+\[
+  \begin{tikzpicture}
+    \pic[braid/.cd,gap=0]{braid={s_1}};
+  \end{tikzpicture}
+\]
 
 to be the invariant of the knot with the crossing changed to
 
-\begin{verbatim}
-\   /
- \ /
-  /
- / \
-/   \
-\end{verbatim}
+\[
+  \begin{braid}
+    \pic{braid={s_1^{-1}}};
+  \end{braid}
+\]
 
 minus the invariant of the knot with the crossing changed to
 
-\begin{verbatim}
-\   /
- \ /
-  \
- / \
-/   \
-\end{verbatim}
+\[
+  \begin{braid}
+    \pic{braid={s_1}};
+  \end{braid}
+\]
 
 (Again, the knot has to be oriented for this rule to make sense, and the
 strands shown in the pictures above should be pointing downwards.)
@@ -812,12 +803,13 @@ these are abstract graphs, not graphs embedded in space.)
 Now, let \(B_m\) be the vector space spanned by ``labelled'' finite
 graphs with univalent and oriented trivalent vertices, modulo some
 relations\ldots{} but first I have to say what ``labelled'' means. It
-means that each edge is labelled with a 1 or -1. The relations are: 1)
-if we reverse the orientation of a trivalent vertex, it's the same as
-multiplying the labellings of all three incident edges by -1. 2)
+means that each edge is labelled with a \(1\) or \(-1\). The relations
+are: 1) if we reverse the orientation of a trivalent vertex, it's the
+same as multiplying the labellings of all three incident edges by
+\(-1\). 2)
 
 \begin{verbatim}
-         ------       |    |     
+     ------       |    |     
         |     =   |____|  
         |         |    |     
      ------       |    |     
@@ -828,7 +820,7 @@ edges can have any labellings and we don't mess with that.)
 
 Now, define a linear map from \(B\) to \(B_m\) by mapping any graph to
 the signed sum of the \(2^\text{number of edges}\) ways of labelling the
-edges with -1 or -1. Symbolically,
+edges with \(1\) or \(-1\). Symbolically,
 
 \begin{verbatim}
                                 1            -1
@@ -1115,15 +1107,15 @@ here.) The notation for 2-morphisms is quite cute: given \(f,g\) in
 \(\mathrm{Hom}(x,y)\), we write \(F\) in \(\mathrm{Hom}(f,g)\) as the
 following diagram:
 
-\begin{verbatim}
-                      f
-                  ---->---
-                 /         \
-                x     F     y
-                 \         /
-                  ---->----
-                      g
-\end{verbatim}
+\[
+  \begin{tikzcd}[sep=huge]
+    x
+      \rar[bend left=50,"f"{name=U}]
+      \rar[bend right=50,swap,"g"{name=D}]
+    & y
+      \arrow[Rightarrow,shorten=5pt,from=U,to=D,"F"]
+  \end{tikzcd}
+\]
 
 Ugh, that's not cute, that's ugly - the joys of ASCII! What this is
 supposed to be is two arrows from \(x\) to \(y\), namely \(f\) and

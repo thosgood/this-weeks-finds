@@ -14,10 +14,11 @@ from solutions of the Yang-Baxter equations, and show how to get link
 invariants applicable to generalized links with 4-valent or 6-valent
 vertices, that is, transverse double points, like
 
-    \  /
-     \/
-     /\
-    /  \
+$$
+  \begin{tikzpicture}
+    \pic[braid/.cd,gap=0]{braid={s_1}};
+  \end{tikzpicture}
+$$
 
 and transverse triple points. This involves working with a
 generalization of the braid group that includes generators for these
@@ -50,26 +51,27 @@ links. Given an invariant of oriented links, one can extend it to links
 with arbitrarily many double points by setting the value of the
 invariant on a link with a double point
 
-    \  /
-     \/
-     /\
-    /  \
+$$
+  \begin{tikzpicture}
+    \pic[braid/.cd,gap=0]{braid={s_1}};
+  \end{tikzpicture}
+$$
 
 to be the invariant of the link with the double point changed to
 
-    \   /
-     \ /
-      /
-     / \
-    /   \
+$$
+  \begin{braid}
+    \pic{braid={s_1^{-1}}};
+  \end{braid}
+$$
 
 minus the invariant of the link with the double point changed to
 
-    \   /
-     \ /
-      \
-     / \
-    /   \
+$$
+  \begin{braid}
+    \pic{braid={s_1}};
+  \end{braid}
+$$
 
 Note that the link has to be oriented for this rule to make sense, and
 the strands shown in the pictures above should be pointing *downwards*.

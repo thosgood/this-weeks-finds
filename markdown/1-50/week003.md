@@ -99,26 +99,27 @@ invariant of oriented knots, one can extend it to knot with arbitrarily
 many nice crossings by setting the value of the invariant on a knot with
 a crossing like
 
-    \  /
-     \/
-     /\
-    /  \
+$$
+  \begin{tikzpicture}
+    \pic[braid/.cd,gap=0]{braid={s_1}};
+  \end{tikzpicture}
+$$
 
 to be the invariant of the knot with the crossing changed to
 
-    \   /
-     \ /
-      /
-     / \
-    /   \
+$$
+  \begin{braid}
+    \pic{braid={s_1^{-1}}};
+  \end{braid}
+$$
 
 minus the invariant of the knot with the crossing changed to
 
-    \   /
-     \ /
-      \
-     / \
-    /   \
+$$
+  \begin{braid}
+    \pic{braid={s_1}};
+  \end{braid}
+$$
 
 (Again, the knot has to be oriented for this rule to make sense, and the
 strands shown in the pictures above should be pointing downwards.)
@@ -221,11 +222,11 @@ since these are abstract graphs, not graphs embedded in space.)
 Now, let $B_m$ be the vector space spanned by "labelled" finite graphs
 with univalent and oriented trivalent vertices, modulo some
 relations... but first I have to say what "labelled" means. It means
-that each edge is labelled with a 1 or -1. The relations are: 1) if we
+that each edge is labelled with a $1$ or $-1$. The relations are: 1) if we
 reverse the orientation of a trivalent vertex, it's the same as
-multiplying the labellings of all three incident edges by -1. 2)
+multiplying the labellings of all three incident edges by $-1$. 2)
 
-             ------       |    |     
+         ------       |    |     
             |     =   |____|  
             |         |    |     
          ------       |    |     
@@ -235,7 +236,7 @@ can have any labellings and we don't mess with that.)
 
 Now, define a linear map from $B$ to $B_m$ by mapping any graph to the
 signed sum of the $2^\text{number of edges}$ ways of labelling the edges with
--1 or -1. Symbolically,
+$1$ or $-1$. Symbolically,
 
                                     1            -1
             -------- → ---------  -  --------- .

@@ -53,6 +53,9 @@ printf '%s\n' '\usepackage{environ}' >> $TEX
 printf '%s\n' '\NewEnviron{braid}{\vcenter{\hbox{\begin{tikzpicture}\BODY\end{tikzpicture}}}}' >> $TEX
 
 printf "\n" >> $TEX
+printf '%s\n' '\usepackage{tikz-cd}' >> $TEX
+
+printf "\n" >> $TEX
 printf '%s\n' '\begin{document}' >> $TEX
 
 printf "\n" >> $TEX

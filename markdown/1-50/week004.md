@@ -167,13 +167,15 @@ it's too late, they've already been invented! I won't discuss them
 here.) The notation for 2-morphisms is quite cute: given $f,g$ in
 $\mathrm{Hom}(x,y)$, we write $F$ in $\mathrm{Hom}(f,g)$ as the following diagram:
 
-                          f
-                      ---->---
-                     /         \
-                    x     F     y
-                     \         /
-                      ---->----
-                          g
+$$
+  \begin{tikzcd}[sep=huge]
+    x
+      \rar[bend left=50,"f"{name=U}]
+      \rar[bend right=50,swap,"g"{name=D}]
+    & y
+      \arrow[Rightarrow,shorten=5pt,from=U,to=D,"F"]
+  \end{tikzcd}
+$$
 
 Ugh, that's not cute, that's ugly - the joys of ASCII! What this is
 supposed to be is two arrows from $x$ to $y$, namely $f$ and $g$, and then a big
