@@ -43,25 +43,13 @@ theory. For example, one of the movie moves is very analogous to the 3rd
 Reidemeister move - which goes
 
 $$
-  \begin{vc}
-    \begin{tikzpicture}
-      \pic[
-        braid/.cd,
-        every strand/.style=thick,
-        gap=0.1,
-      ]{braid={s_1 s_2 s_1}};
-    \end{tikzpicture}
-  \end{vc}
-  =
-  \begin{vc}
-    \begin{tikzpicture}
-    \pic[
-      braid/.cd,
-      every strand/.style=thick,
-      gap=0.1,
-    ]{braid={s_2 s_1 s_2}};
-  \end{tikzpicture}
-  \end{vc}
+  \begin{braid}
+    \pic{braid={s_1 s_2 s_1}};
+  \end{braid}
+  \quad=\quad
+  \begin{braid}
+    \pic{braid={s_2 s_1 s_2}};
+  \end{braid}
 $$
 
 I won't try to draw the corresponding movie move, but just as the 3rd
