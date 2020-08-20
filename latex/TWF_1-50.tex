@@ -1,13 +1,24 @@
 \documentclass{article}
 
+\usepackage{charter}
+
 \usepackage{amsmath,amssymb}
 \usepackage{hyperref}
+
+\renewcommand{\texttt}[1]{%
+  \begingroup
+  \ttfamily
+  \begingroup\lccode`~=`/\lowercase{\endgroup\def~}{/\discretionary{}{}{}}%
+  \begingroup\lccode`~=`[\lowercase{\endgroup\def~}{[\discretionary{}{}{}}%
+  \begingroup\lccode`~=`.\lowercase{\endgroup\def~}{.\discretionary{}{}{}}%
+  \catcode`/=\active\catcode`[=\active\catcode`.=\active
+  \scantokens{#1\noexpand}%
+  \endgroup
+}
 
 \usepackage{longtable}
 \usepackage{booktabs}
 \def\tightlist{}
-
-\usepackage{bussproofs}
 
 \renewcommand{\thesection}{}
 
@@ -18,6 +29,8 @@
 \title{This Week's Finds in Mathematical Physics (1--50)}
 \author{John Baez}
 \date{}
+
+\usepackage{bussproofs}
 
 \begin{document}
 
