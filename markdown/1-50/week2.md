@@ -1,4 +1,4 @@
-# Week 2
+# Week 2 (1993-01-24)
 
 Well, this week I have had guests and have not been keeping up with the
 literature. So "this week's finds" are mostly papers that have been

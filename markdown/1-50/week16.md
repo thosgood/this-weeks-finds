@@ -1,4 +1,4 @@
-# Week 16
+# Week 16 (1993-05-30)
 
 A nice crop of papers has built up while I've been taking a break...
 In "week15" I talked a bit about constructing

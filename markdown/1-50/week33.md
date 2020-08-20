@@ -1,4 +1,4 @@
-# Week 33
+# Week 33 (1994-05-10)
 
 With tremendous relief, I have finished writing a book, and will return
 to putting out This Week's Finds on a roughly weekly basis. Let me

@@ -1,4 +1,4 @@
-# Week 4
+# Week 4 (1993-02-08)
 
 I will begin with a couple of small things and then talk about the work
 of Kapranov and Voevodsky.

@@ -1,4 +1,4 @@
-# Week 22
+# Week 22 (1993-10-16)
 
 Lately I've been having fun in this series discussing some things that
 I don't really know much about, like lattice packings of spheres. Next

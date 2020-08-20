@@ -1,4 +1,4 @@
-# Week 5
+# Week 5 (1993-02-13)
 
 I think I'll start out this week's list of finds with an elementary
 introduction to Lie algebras, so that people who aren't "experts" can

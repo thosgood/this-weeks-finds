@@ -2,7 +2,7 @@
 header-includes: \usepackage{bussproofs}
 ...
 
-# Week 40
+# Week 40 (1994-10-19)
 
 When I was an undergraduate I was quite interested in logic and the
 foundations of mathematics --- I was always looking for the most

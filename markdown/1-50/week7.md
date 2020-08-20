@@ -1,4 +1,4 @@
-# Week 7
+# Week 7 (1993-03-01)
 
 1) "Mathematical problems of non-perturbative quantum general relativity
 (lectures delivered at the 1992 Les Houches summer school on Gravitation

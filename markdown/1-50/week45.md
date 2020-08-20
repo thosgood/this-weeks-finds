@@ -1,6 +1,4 @@
-week45
-
-# Week 45
+# Week 45 (1994-11-12)
 
 Donaldson Theory Update
 =======================

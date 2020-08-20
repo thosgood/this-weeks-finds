@@ -1,4 +1,4 @@
-# Week 15
+# Week 15 (1993-05-23)
 
 Last weekend we had a conference on Knots and Quantum Gravity here at
 Riverside. I will briefly describe the talks, many of which will

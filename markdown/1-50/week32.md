@@ -1,4 +1,4 @@
-# Week 32
+# Week 32 (1994-03-10)
 
 Well, I visited Georgia Tech last week to spread the gospel of "knots
 and quantum gravity," and came across a most fascinating development.

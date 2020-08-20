@@ -1,4 +1,4 @@
-# Week 28
+# Week 28 (1994-01-04)
 
 I think I'll finally break my New Year's resolution to stop making a
 fool of myself on the net, and attempt an explanation of some things I

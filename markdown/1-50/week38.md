@@ -1,4 +1,4 @@
-# Week 38
+# Week 38 (1994-08-19)
 
 I've been busy, and papers have been piling up; there are lots of
 interesting ones that I really should describe in detail, but I had
