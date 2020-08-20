@@ -4,7 +4,7 @@ Well, this week I have had guests and have not been keeping up with the
 literature. So "this week's finds" are mostly papers that have been
 sitting around in my office and that I am now filing away.
 
-1) Link invariants for intersecting loops, by Daniel Armand Ugon,
+1) "Link invariants for intersecting loops", by Daniel Armand Ugon,
 Rodolfo Gambini, and Pablo Mora, October 1992 preprint, available from
 Gambini, Instituto de Fi'sica, Facultad de Ciencias, Trista'n Narvaja
 1674, Montevideo, Uruguay.
@@ -42,8 +42,8 @@ The authors compute the Kaufmann bracket of links with triple points
 using first order perturbation theory in Chern-Simons theory. A
 nonperturbative calculation would be very good to have!
 
-2) New points of view in knot theory, by Joan Birman, preprint, to
-appear in the Bulletin of the AMS.
+2) "New points of view in knot theory", by Joan Birman, preprint, to
+appear in the _Bulletin of the AMS_.
 
 This is a nice review of the recent work on Vassiliev invariants of
 links. Given an invariant of oriented links, one can extend it to links
@@ -84,8 +84,8 @@ is not surprising, actually, but it shows that some interesting things
 are going on in the subject of invariants for links with
 self-intersections and Chern-Simons theory.)
 
-3) Link polynomials and a graphical calculus, by Louis Kauffman and P.
-Vogel, Jour. of Knot Theory and its Ramifications, 1 (1992), 59-104.
+3) "Link polynomials and a graphical calculus", by Louis Kauffman and P.
+Vogel, _Jour. of Knot Theory and its Ramifications_, **1** (1992), 59--104.
 
 This is another nice treatment of link invariants for generalized links
 with self-intersections. It concentrates on the famous link invariants
@@ -95,8 +95,8 @@ the Kauffman polynomial (from $SO(n)$). Lots of good pictures.
 And, switching back to the category theory, 2-categories, and the like,
 let me list these before filing them away:
 
-4) Categorical physics, by Louis Crane, preprint available as
-[hep-th/9301061](http://xxx.lanl.gov/abs/hep-th/9301061) in amstex.
+4) "Categorical physics", by Louis Crane, preprint available as
+[`hep-th/9301061`](http://xxx.lanl.gov/abs/hep-th/9301061) in amstex.
 
     A Categorical construction of 4d topological quantum field theories, by
     Louis Crane and David Yetter, preprint available as
@@ -134,9 +134,9 @@ I am currently perusing Kapranov and Voevodsky's massive paper on
 papers and also those of Carter/Saito that I mentioned last week. Next
 week I should post an outline of what this paper does.
 
-5) The origin of time asymmetry, by S W Hawking, R Laflamme and G W
+5) "The origin of time asymmetry", by S W Hawking, R Laflamme and G W
 Lyons, preprint available as
-[gr-qc/9301017](http://xxx.lanl.gov/abs/gr-qc/9301017), in tex.
+[`gr-qc/9301017`](http://xxx.lanl.gov/abs/gr-qc/9301017), in tex.
 
 I haven't had a chance to read this one yet but it looks very ambitious
 and is likely to be interesting. Let me just quote from the introduction

@@ -3,9 +3,8 @@
 I will begin with a couple of small things and then talk about the work
 of Kapranov and Voevodsky.
 
-1) Self-organized criticality in Monte Carlo simulated ecosystems, by
-R. Sole, D. Lopez, M. Ginovart and J. Valls, Phys. Lett. A172 (1992), p.
-56.
+1) "Self-organized criticality in Monte Carlo simulated ecosystems", by
+R. Sole, D. Lopez, M. Ginovart and J. Valls, _Phys. Lett._ **A172** (1992), p. 56.
 
 This is mainly of interest to me thanks to a reference to some earlier
 work on Conway's game of Life. At MIT, Tom Toffoli, Norm Margolus, and
@@ -40,7 +39,7 @@ on it and you can get a surprisingly wide distribution of possible sizes
 for the resulting sandslide! Similar but more formidable effects may be
 at work in earthquakes. The above paper cites
 
-Bac, Chen and Creutz, Nature 342 (1989) p. 780,
+> Bac, Chen and Creutz, _Nature_ **342** (1989) p. 780,
 
 which claims that in the final state of the game of Life, the density of
 clusters $D(s)$ of size $s$ scales as about $s^{-1.4}$, and that the
@@ -50,7 +49,7 @@ that the fact that the latter is a power law rather than an exponential
 would be a signal of self-organized criticality. But the paper also
 cites
 
-Bennett and Bourzutschy, Nature 350 (1991) 468,
+> Bennett and Bourzutschy, _Nature_ **350** (1991) 468,
 
 who claim that the work of Bac, Chen and Creutz is wrong. I haven't
 gotten to read these papers; if anyone wants to report on them I'd be
@@ -64,8 +63,8 @@ consequences if it turned out that the "balance of nature," far from
 being a stable equilibrium, was typically teetering on the brink of
 drastic change.
 
-2) There are no quantum jumps, nor are there particles!, by H. D. Zeh,
-Phys. Lett. A173, p. 189
+2) "There are no quantum jumps, nor are there particles!", by H. D. Zeh,
+_Phys. Lett._ **A173**, p. 189
 
 Having greatly enjoyed Zeh's book The Physical Basis for the Direction
 of Time - perhaps the clearest account of a famously murky subject - I
@@ -87,11 +86,11 @@ far; it's published by Routledge. The contents include such curious
 things as "the ontological interpretation of boson fields." Read it at
 your own risk.
 
-3) Braided monoidal 2-categories, 2-vector spaces and Zamolodchikov
-tetrahedra equations, by M. M. Kapranov and V. A. Voevodsky. Preliminary
+3) "Braided monoidal 2-categories, 2-vector spaces and Zamolodchikov
+tetrahedra equations", by M. M. Kapranov and V. A. Voevodsky. Preliminary
 incomplete version, September 1991. (Kapranov is at
-kapranov@chow.math.nwu.edu, and Voevodsky is at
-vladimir@math.ias.edu.)
+`kapranov@chow.math.nwu.edu`, and Voevodsky is at
+`vladimir@math.ias.edu`.)
 
 This serious and rather dry paper is the basis for a lot of physicists
 are just beginning to try to do: burst from the confines of 3
@@ -129,17 +128,17 @@ Again, the classic example is $\mathsf{Set}$, the category with sets as objects 
 functions as morphisms, and the usual composition as composition! But
 lots of the time in mathematics one is some category or other, e.g.:
 
-    $\mathsf{Vect}$ --- vector spaces as objects, linear maps as morphisms
-    $\mathsf{Group}$ ---- groups as objects, homomorphisms as morphisms
-    $\mathsf{Top}$ ---  topological spaces as objects, continuous functions as morphisms
-    $\mathsf{Diff}$ --- smooth manifolds as objects, smooth maps as morphisms
-    $\mathsf{Ring}$ --- rings as objects, ring homomorphisms as morphisms
+- $\mathsf{Vect}$ --- vector spaces as objects, linear maps as morphisms
+- $\mathsf{Group}$ ---- groups as objects, homomorphisms as morphisms
+- $\mathsf{Top}$ ---  topological spaces as objects, continuous functions as morphisms
+- $\mathsf{Diff}$ --- smooth manifolds as objects, smooth maps as morphisms
+- $\mathsf{Ring}$ --- rings as objects, ring homomorphisms as morphisms
 
 or in physics:
 
-    $\mathsf{Symp}$ --- symplectic manifolds as objects, symplectomorphisms as morphisms
-    $\mathsf{Poiss}$ --- Poisson manifolds as objects, Poisson maps as morphisms
-    $\mathsf{Hilb}$ --- Hilbert spaces as objects, unitary operators as morphisms
+- $\mathsf{Symp}$ --- symplectic manifolds as objects, symplectomorphisms as morphisms
+- $\mathsf{Poiss}$ --- Poisson manifolds as objects, Poisson maps as morphisms
+- $\mathsf{Hilb}$ --- Hilbert spaces as objects, unitary operators as morphisms
 
 (The first two are categories in which one can do classical physics. The
 third is a category in which one can do quantum physics.)

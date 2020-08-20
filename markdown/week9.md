@@ -1,7 +1,7 @@
 # Week 9
 
-1. Surgical invariants of four-manifolds, by Boguslaw Broda, preprint
-available as [hep-th/9302092](http://xxx.lanl.gov/abs/hep-th/9302092).
+1. "Surgical invariants of four-manifolds", by Boguslaw Broda, preprint
+available as [`hep-th/9302092`](http://xxx.lanl.gov/abs/hep-th/9302092).
 
 There a number of attempts underway to get invariants of
 four-dimensional manifolds (and 4d topological quantum field theories)
@@ -20,9 +20,9 @@ different way, allowing one to define invariants of 3-manifolds from
 link invariants). In the case of 3 dimensions a nice paper relating the
 Heegard splitting and the surgery on links approaches is
 
-Reshetikhin-Turaev and Crane-Kohno-Kontsevich 3-manifold invariants
-coincide, by Sergey Piunikhin, preprint, 1992. (Piunikhin is at
-serguei@math.harvard.edu.)
+> "Reshetikhin-Turaev and Crane-Kohno-Kontsevich 3-manifold invariants
+coincide", by Sergey Piunikhin, preprint, 1992. (Piunikhin is at
+`serguei@math.harvard.edu`).
 
 People are now trying to generalize all these ideas to 4-manifolds.
 There is already an interesting bunch of 4-manifold invariants out
@@ -39,9 +39,8 @@ misunderstandings of what he said - caveat emptor! Broda's paper is
 quite terse - probably due to the race that is going on - and is based
 on:
 
-A link calculus for 4-manifolds, by E. Cesar de Sa, in Topology of
-Low-Dimensional Manifolds, Proc. Second Sussex Conf., Lecture Notes in
-Math., vol. 722, Springer, Berlin, 1979, pp. 16-30,
+> _A link calculus for 4-manifolds_, by E. Cesar de Sa, in "Topology of
+Low-Dimensional Manifolds, Proc. Second Sussex Conf.", _Lecture Notes in Math._, vol. **722**, Springer, Berlin, 1979, pp. 16--30,
 
 so I should start by describing what little I understand of de Sa's
 work.
@@ -170,8 +169,7 @@ a 0-handle with some 1-handles stuck on. So when we now glue this thing
 are doing so using a diffeomorphism of its boundary. But a theorem of
 Laudenbach and Poenaru,
 
-A note on 4-dimensional handlebodies, by F. Laudenbach and V. Poenaru,
-Bull. Math. Soc. France 100 (1972), pp. 337-344,
+> "A note on 4-dimensional handlebodies", by F. Laudenbach and V. Poenaru, _Bull. Math. Soc. France_ **100** (1972), pp. 337--344,
 
 says that any such diffeomorphism extends to one of the interior. This
 means that it doesn't make a darn bit of difference which
@@ -211,15 +209,15 @@ be a root of unity.
 Ruberman had some other remarks about Broda's invariant, but I think I
 would prefer to wait until I understand them....
 
-2) Minisuperspaces: symmetries and quantization, by Abhay Ashtekar,
-Ranjeet S. Tate and Claes Uggla Syracuse University preprint
-SU-GP-92/2-5, 14 pages, available in latex form as
-[gr-qc/9302026](http://xxx.lanl.gov/abs/gr-qc/9302026)
+2) "Minisuperspaces: symmetries and quantization", by Abhay Ashtekar,
+Ranjeet S. Tate and Claes Uggla, Syracuse University preprint
+`SU-GP-92/2-5`, 14 pages, available in latex form as
+[`gr-qc/9302026`](http://xxx.lanl.gov/abs/gr-qc/9302026)
 
-    Minisuperspaces: observables and quantization, Abhay Ashtekar, Ranjeet
-    S. Tate and Claes Uggla Syracuse University preprint SU-GP-92/2-6, 34
+    "Minisuperspaces: observables and quantization", by Abhay Ashtekar, Ranjeet
+    S. Tate and Claes Uggla, Syracuse University preprint `SU-GP-92/2-6`, 34
     pages, available in latex form as
-    [gr-qc/9302027](http://xxx.lanl.gov/abs/gr-qc/9302027)
+    [`gr-qc/9302027`](http://xxx.lanl.gov/abs/gr-qc/9302027)
 
 I was just at the Pacific Coast Gravity Meeting last weekend and heard
 Ranjeet Tate talk on this work. Recall first of all that minisuperspaces
@@ -246,9 +244,8 @@ singularities. So it's good to look at models, however simple, where
 one can work things out in detail, and not just argue about
 generalities.
 
-3) Unique determination of an inner product by adjointness relations in
-the algebra of quantum observables, by Alan D. Rendall,
-Max-Planck-Institut fuer Astrophysik preprint.
+3) "Unique determination of an inner product by adjointness relations in
+the algebra of quantum observables", by Alan D. Rendall, Max-Planck-Institut fuer Astrophysik preprint.
 
 I had known Rendall from his work on the perturbative expansion of the
 time evolution operators in classical general relativity. He became
@@ -278,9 +275,9 @@ nice a result along these lines as one could hope for. He also has a
 more complicated result that applies to unbounded operators. A good
 piece of work on the foundations of quantum theory!
 
-4) Thawing the frozen formalism: the difference between observables and
-what we observe, by Arlen Anderson, preprint available in latex form as
-[gr-qc/9211028](http://xxx.lanl.gov/abs/gr-qc/9211028).
+4) "Thawing the frozen formalism: the difference between observables and
+what we observe", by Arlen Anderson, preprint available in latex form as
+[`gr-qc/9211028`](http://xxx.lanl.gov/abs/gr-qc/9211028).
 
 There were a number of youngish folks giving talks at the gravity
 meeting who have clearly been keeping up with the recent work on the
@@ -297,9 +294,8 @@ learning how to deal with the quantum theory of such systems. For a good
 survey of the problem and some new proposed solutions, I again refer
 everyone to Isham's paper:
 
-5) Canonical Quantum Gravity and the Problem of Time, Chris J. Isham,
-125 pages of LaTeX output, preprint available as
-[gr-qc/9210011](http://xxx.lanl.gov/abs/gr-qc/9210011).
+5) "Canonical Quantum Gravity and the Problem of Time", Chris J. Isham,
+125 pages of LaTeX output, preprint available as [`gr-qc/9210011`](http://xxx.lanl.gov/abs/gr-qc/9210011).
 
 In particular, one interesting approach is due to Rovelli, and is called
 "evolving constants of motion" (a deliberate and very accurate
@@ -312,10 +308,9 @@ Anderson is one of these younger folks, and his paper develops
 Rovelli's approach in terms of in a toy model, namely the case of two
 free particles satisfying the Schrodinger equation.
 
-6) The extended loop group: an infinite dimensional manifold associated
-with the loop space, by Cayetano Di Bartolo, Rodolfo Gambini and Jorge
-Griego, 42 pages, preprint available as
-[gr-qc/9303010](http://xxx.lanl.gov/abs/gr-qc/9303010).
+6) "The extended loop group: an infinite dimensional manifold associated
+with the loop space", by Cayetano Di Bartolo, Rodolfo Gambini and Jorge
+Griego, 42 pages, preprint available as [`gr-qc/9303010`](http://xxx.lanl.gov/abs/gr-qc/9303010).
 
 Unfortunately I don't have the time now to give this paper the
 discussion it deserves. Gambini is one of the original inventors of the

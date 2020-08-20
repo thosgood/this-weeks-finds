@@ -5,9 +5,8 @@ introduction to Lie algebras, so that people who aren't "experts" can
 get the drift of what these are about. Then I'll gradually pick up
 speed...
 
-1) Vyjayanathi Chari and Alexander Premet, Indecomposable restricted
-representations of quantum $\mathfrak{sl}_2$, University of California at Riverside
-preprint.
+1) Vyjayanathi Chari and Alexander Premet, "Indecomposable restricted
+representations of quantum $\mathfrak{sl}_2$", University of California at Riverside, preprint.
 
 Vyjayanathi is our resident expert on quantum groups, and Sasha, who's
 visiting, is an expert on Lie algebras in characteristic $p$. They have
@@ -229,9 +228,9 @@ she and Premet have classified a large batch of the "indecomposable"
 ones, that is, the ones that aren't direct sums of other ones. I guess
 I'll leave it at that.
 
-2) David Kazhdan and Iakov Soibelman, Representations of the quantized
-function algebras, 2-categories and Zamolodchikov tetrahedra equations,
-Harvard University preprint.
+2) David Kazhdan and Iakov Soibelman, "Representations of the quantized
+function algebras, 2-categories and Zamolodchikov tetrahedra equations",
+Harvard University, preprint.
 
 In this terse paper, Kazhdan and Soibelman construct a braided monoidal
 2-category using quantum groups at roots of unity. As I've said a few
@@ -246,14 +245,13 @@ construction of a braided monoidal 2-category from the category of
 quantum group representations given by Crane and Frenkel (see
 "[week2](week2.html)").
 
-3) Adrian Ocneanu, A note on simplicial dimension shifting, available
-in AMSLaTeX as
-[arXiv:hep-th/9302028](http://arxiv.org/abs/hep-th/9302028).
+3) Adrian Ocneanu, "A note on simplicial dimension shifting", available
+in AMSLaTeX as [`arXiv:hep-th/9302028`](http://arxiv.org/abs/hep-th/9302028).
 
 Ouch! This paper claims to show that the very charming 4d TQFT
 constructed by Crane and Yetter in "A categorical construction of 4d
 topological quantum field theories"
-([arXiv:hep-th/9301062](http://arxiv.org/abs/hep-th/9301062)) is
+([`arXiv:hep-th/9301062`](http://arxiv.org/abs/hep-th/9301062)) is
 trivial! In particular, he says the resulting invariant of compact
 oriented 4-manifolds is identically equal to 1. If so, it's back to the
 drawing board. Crane and Yetter took the 3d TQFT coming from $\mathfrak{sl}_q(2)$ at
@@ -275,22 +273,17 @@ after all. In late March I will go to the Conference on Quantum Topology
 thrown by Crane and Yetter (at Kansas State U. at Manhattan), and I'm
 sure everyone will try to thrash this stuff out.
 
-4) Abhay Ashtekar and Jerzy Lewandowski, Representation theory of
-analytic holonomy C\*-algebras, available as
-[arXiv:gr-qc/9311010](http://arxiv.org/abs/gr-qc/9311010).
+4) Abhay Ashtekar and Jerzy Lewandowski, "Representation theory of analytic holonomy C\*-algebras", available as [`arXiv:gr-qc/9311010`](http://arxiv.org/abs/gr-qc/9311010).
 
 This paper is a follow-up of the paper
 
-5) Abhay Ashtekar and Chris Isham, Representations of the holonomy
-algebras of gravity and non-Abelian gauge theories, Journal of Classical
-and Quantum Gravity 9 (1992), 1069-1100. Also available as
-[arXiv:hep-th/9202053](http://arxiv.org/abs/hep-th/9202053).
+5) Abhay Ashtekar and Chris Isham, "Representations of the holonomy algebras of gravity and non-Abelian gauge theories", _Journal of Classical and Quantum Gravity_ **9** (1992), 1069--1100. Also available as [`arXiv:hep-th/9202053`](http://arxiv.org/abs/hep-th/9202053).
 
 and sort of complements another,
 
-6) John Baez, Link invariants, holonomy algebras and functional
-integration, available as
-[arXiv:hep-th/9301063](http://arxiv.org/hep-th/9301063).
+6) John Baez, "Link invariants, holonomy algebras and functional
+integration", available as
+[`arXiv:hep-th/9301063`](http://arxiv.org/hep-th/9301063).
 
 The idea here is to provide a firm mathematical foundation for the loop
 variables representation of gauge theories, particularly quantum

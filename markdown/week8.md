@@ -5,13 +5,13 @@ workshop at UCR on knots and quantum gravity; he'll be talking on
 "Temperley Lieb recoupling theory and quantum invariants of links and
 manifolds". His books
 
-On knots, by Louis H. Kauffman, Princeton, N.J., Princeton University
-Press, 1987 (Annals of Mathematics Studies, no. 115)
+> _On knots_, by Louis H. Kauffman, Princeton, N.J., Princeton University
+Press, 1987 (_Annals of Mathematics Studies_, no. **115**)
 
 and more recently
 
-Knots and physics, by Louis H. Kauffman, Teaneck, NJ, World Scientific
-Press, 1991 (K & E Series on Knots and Everything, vol. 1)
+> _Knots and physics_, by Louis H. Kauffman, Teaneck, NJ, World Scientific
+Press, 1991 (_K&E Series on Knots and Everything_, vol. **1**)
 
 are a lot of fun to read, and convinced me to turn my energies towards
 the intersection of knot theory and mathematical physics. As you can see
@@ -29,20 +29,16 @@ delightful reformulation of the 4-color theorem in terms of cross
 products that he discovered! I am strongly tempted to assign it to my
 linear algebra class for homework....
 
-1) Map coloring and the vector cross product, by Louis Kauffman, J.
-Comb. Theory B, 48 (1990) 45.
+1) "Map coloring and the vector cross product", by Louis Kauffman, _J. Comb. Theory_, **48** (1990) 145--154.
 
-Map coloring, 1-deformed spin networks, and Turaev-Viro invariants for
-3-manifolds, by Louis Kauffman, Int. Jour. of Mod. Phys. B, 6 (1992)
-1765-1794.
+    "Map coloring, 1-deformed spin networks, and Turaev-Viro invariants for 3-manifolds", by Louis Kauffman, _Int. Jour. of Mod. Phys._, **6** (1992) 1765--1794.
 
-An algebraic approach to the planar colouring problem, by Louis Kauffman
-and H. Saleur, in Comm. Math. Phys. 152 (1993), 565-590.
+    "An algebraic approach to the planar colouring problem", by Louis Kauffman and H. Saleur, in _Comm. Math. Phys._ **152** (1993), 565--590.
 
 As we all know, the usual cross product of vectors in $\mathbb{R}^3$ is not
 associative, so the following theorem is slightly interesting:
 
-Theorem: Consider any two bracketings of a product of any finite number
+**Theorem.** Consider any two bracketings of a product of any finite number
 of vectors, e.g.:
 
 $$L = a \times (b \times ((c \times d) \times e) \quad\text{and}\quad  R = ((a \times b) \times c) \times (d \times e).$$
@@ -56,7 +52,7 @@ that $L = R$ and both are nonzero.
 
 But what's really interesting is:
 
-Meta-Theorem: The above proposition is equivalent to the 4-color
+**Meta-Theorem.** The above proposition is equivalent to the 4-color
 theorem. Recall that this theorem says that any map on the plane may be
 colored with 4 colors in such a way that no two regions with the same
 color share a border (an edge).
@@ -68,8 +64,8 @@ probably know, the 4-color theorem was a difficult conjecture that
 resisted proof for about a century before succumbing to a computer-based
 proof require the consideration of many, many special cases:
 
-Every planar map is four colorable, by K. I. Appel and W. Haken, Bull.
-Amer. Math. Soc. 82 (1976) 711.
+> "Every planar map is four colorable", by K. I. Appel and W. Haken, _Bull.
+Amer. Math. Soc._ **82** (1976) 711.
 
 So the Theorem above may be regarded as a *profoundly* subtle result
 about the "associativity" of the cross product!
@@ -171,10 +167,10 @@ Okay, very cute, one might say, but so what? Well, this algebra was
 actually first discovered in statistical mechanics, when Temperley and
 Lieb were solving a 2-dimensional problem:
 
-Relations between the 'percolation' and 'coloring' problem and other
+> "Relations between the 'percolation' and 'coloring' problem and other
 graph-theoretical problems associated with tregular planar lattices:
-some exact results on the 'percolation' problem, by H. N. V. Temperley
-and E. H. Lieb, Proc. Roy. Soc. Lond. A 322 (1971), 251 - 280.
+some exact results on the 'percolation' problem", by H. N. V. Temperley
+and E. H. Lieb, _Proc. Roy. Soc. Lond._ **322** (1971), 251--280.
 
 It gained a lot more fame when it appeared as the explanation for the
 Jones polynomial invariant of knots - although Jones had been using it
@@ -187,23 +183,22 @@ paper on quantum gravity and the algebra of tangles. So it is nice to
 see that there is also a formulation of the 4-color theorem in terms of
 the Temperley-Lieb algebra (which I won't present here).
 
-2) Knots and physics, by Louis Kauffman, Proc. Symp. Appl. Math. 45
-(1992), 131-246.
+2) "Knots and physics", by Louis Kauffman, _Proc. Symp. Appl. Math._ **45**
+(1992), 131--246.
 
-    Spin networks, topology and discrete physics, by Louis Kauffman,
+    "Spin networks, topology and discrete physics", by Louis Kauffman,
     University of Illinois at Chicago preprint.
 
-    Vassiliev invariants and the Jones polynomial, by Louis Kauffman,
+    "Vassiliev invariants and the Jones polynomial", by Louis Kauffman,
     University of Illinois at Chicago preprint.
 
-    Gauss codes and quantum groups, by Louis Kauffman, University of
+    "Gauss codes and quantum groups", by Louis Kauffman, University of
     Illinois at Chicago preprint.
 
-    Fermions and link invariants, by Louis Kauffman and H. Saleur, Yale
+    "Fermions and link invariants", by Louis Kauffman and H. Saleur, Yale
     University preprint YCTP-P21-91, July 5, 1991.
 
-    State models for link polynomials, by Louis Kauffman, L'Enseignement
-    Mathematique, 36 (1990), 1 - 37.
+    "State models for link polynomials", by Louis Kauffman, _L'Enseignement Mathematique_, **36** (1990), 1--37.
 
     The Conway polynomial in $\mathbb{R}^3$ and in thickened surfaces: a new
     determinant formulation, by F. Jaeger, Louis Kauffman and H. Saleur,

@@ -3,7 +3,7 @@
 Here's this week's reading material. The first test will be in two
 weeks. :-)
 
-1) On the Vassiliev Knot Invariants by Dror Bar-Natan, Harvard
+1) "On the Vassiliev Knot Invariants", by Dror Bar-Natan, Harvard
 University "pre-preprint."
 
 I went to UC San Diego this week to give a talk, and the timing was

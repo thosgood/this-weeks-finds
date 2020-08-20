@@ -8,7 +8,7 @@ technical, so I'll put them near the end, and start off with something
 on the light side, and then note some interesting progress on the
 Vassiliev invariant scene.
 
-1) Beyond Einstein - is space loopy? by Marcia Bartusiak, Discover,
+1) "Beyond Einstein - is space loopy?" by Marcia Bartusiak, _Discover_,
 April 1993.
 
 In the airport in Montreal I ran into this article, which was the cover
@@ -18,8 +18,8 @@ perhaps the most "pop" exposition of the loop representation of
 quantum gravity so far. Those interested in the popularization of modern
 physics might want to compare
 
-Gravity quantized? A radical theory of gravity weaves space from tiny
-loops, by John Horgan, Scientific American, September 1992.
+> "Gravity quantized? A radical theory of gravity weaves space from tiny
+loops", by John Horgan, _Scientific American_, September 1992.
 
 Given the incredible hype concerning superstring theory, which seems to
 have faded out by now, I sort of dread the same thing happening to the
@@ -62,20 +62,16 @@ is than Ashtekar's.
 In any event, it's a fun read, and I recommend it. Of course, I'm
 biased, so don't trust me.
 
-2) Vassiliev invariants contain more information than all knot polynomials, by Sergey Piunikhin, preprint. (Piunikhin is at `serguei@math.harvard.edu`)
+2) "Vassiliev invariants contain more information than all knot polynomials", by Sergey Piunikhin, preprint. (Piunikhin is at `serguei@math.harvard.edu`)
 
-    Turaev-Viro and Kauffman-Lins invariants for 3-manifolds coincide, by
-    Sergey Piunikhin, Journal of Knot Theory and its Ramifications, 1 (1992)
-    105 - 135.
+    "Turaev-Viro and Kauffman-Lins invariants for 3-manifolds coincide", by
+    Sergey Piunikhin, _Journal of Knot Theory and its Ramifications_, **1** (1992) 105--135.
 
-    Different presentations of 3-manifold invariants arising in rational
-    conformal field theory, by Sergey Piunikhin, preprint.
+    "Different presentations of 3-manifold invariants arising in rational conformal field theory", by Sergey Piunikhin, preprint.
 
-    Weights of Feynman diagrams, link polynomials and Vassiliev knot
-    invariants, by Sergey Piunikhin, preprint.
+    "Weights of Feynman diagrams, link polynomials and Vassiliev knot invariants", by Sergey Piunikhin, preprint.
 
-    Reshetikhin-Turaev and Crane-Kohno-Kontsevich 3-manifold invariants
-    coincide, by Sergey Piunikhin, preprint.
+    "Reshetikhin-Turaev and Crane-Kohno-Kontsevich 3-manifold invariants coincide", by Sergey Piunikhin, preprint.
 
 I received a packet of papers by Piunikhin a while ago. The most new and
 interesting thing is the first paper listed above. In
@@ -86,10 +82,9 @@ refute this by showing that there is a Vassiliev invariant of degree 6
 that does not. (However, other people have told me his claim is
 misleading!) I have been too busy to read this paper yet.
 
-3) Bibliography of publications related to classical and quantum
-gravity in terms of the Ashtekar variables, by Bernd Bruegmann, 14 pages
-(LaTeX, 1 figure), available as
-[gr-qc/9303015](http://xxx.lanl.gov/abs/gr-qc/9303015).
+3) "Bibliography of publications related to classical and quantum
+gravity in terms of the Ashtekar variables", by Bernd Bruegmann, 14 pages
+(LaTeX, 1 figure), available as [`gr-qc/9303015`](http://xxx.lanl.gov/abs/gr-qc/9303015).
 
 Let me just quote the abstract; this should be a handy thing:
 
@@ -104,9 +99,9 @@ welcome.
 
 ------------------------------------------------------------------------
 
-4) Surgical invariants of four-manifolds, by Boguslaw Broda, preprint
-available as [hep-th/9302092](http://xxx.lanl.gov/ps/hep-th/9302092).
-(Revisited - see "[week9](week9.html)")
+4) "Surgical invariants of four-manifolds", by Boguslaw Broda, preprint
+available as [`hep-th/9302092`](http://xxx.lanl.gov/ps/hep-th/9302092).
+(Revisited - see "week9")
 
 Let me briefly recall the setup: we describe a compact 4-manifold by a
 handlebody decomposition, and represent this decomposition using a link

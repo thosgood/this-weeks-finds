@@ -1,15 +1,15 @@
-week7
+# Week 7
 
-1) Mathematical problems of non-perturbative quantum general relativity
+1) "Mathematical problems of non-perturbative quantum general relativity
 (lectures delivered at the 1992 Les Houches summer school on Gravitation
-and Quantization), by Abhay Ashtekar, 87 pp, Plain TeX, available as
-[gr-qc/9302024](http://xxx.lanl.gov/abs/gr-qc/9302024).
+and Quantization)", by Abhay Ashtekar, 87 pp, Plain TeX, available as
+[`gr-qc/9302024`](http://xxx.lanl.gov/abs/gr-qc/9302024).
 
 I described this paper in "week3", but now it's
 available from gr-qc. It's a good quick introduction to the loop
 representation of quantum gravity.
 
-2) Lectures on Non-perturbative Canonical Gravity, by Abhay Ashtekar,
+2) _Lectures on Non-perturbative Canonical Gravity_, by Abhay Ashtekar,
 World Scientific Press, 1991.
 
 This book, which I finally obtained, is *the* introduction to the loop
@@ -188,10 +188,8 @@ What's utterly unclear from what I've said so far is why this helps so
 much in trying to quantize gravity. I may eventually get around to
 writing about that, but for now, read the book!
 
-3) We are not stuck with gluing, by David Yetter and Louis Crane,
-preprint available as
-[hep-th/9302118](http://xxx.lanl.gov/abs/hep-th/9302118) in latex form,
-2 pages.
+3) "We are not stuck with gluing", by David Yetter and Louis Crane,
+preprint available as [`hep-th/9302118`](http://xxx.lanl.gov/abs/hep-th/9302118) in latex form, 2 pages.
 
 Well, in "week2" I mentioned Crane and Yetter's
 marvelous construction of a 4d topological quantum field theory using
@@ -204,9 +202,9 @@ paper incorrectly. I look forward to the conference on quantum topology
 in Kansas at the end of May, where the full story will doubtless come
 out.
 
-4) The initial value problem in light of Ashtekar's variables, by R.
+4) "The initial value problem in light of Ashtekar's variables", by R.
 Capovilla, J. Dell and T. Jacobson, preprint available as
-[gr-qc/9302020](http://xxx.lanl.gov/abs/gr-qc/9302020), 15 pages.
+[`gr-qc/9302020`](http://xxx.lanl.gov/abs/gr-qc/9302020), 15 pages.
 
 The advantage of Ashtekar's new variables is that the simplify the form
 of the constraint equations one gets in the initial-value problem for
@@ -215,17 +213,15 @@ theories. Rovelli and Smolin used this to find, for the first time, lots
 of states of quantum gravity defined by link invariants. Here the above
 authors are trying to apply the new variables to the *classical* theory.
 
-5) Combinatorial expression for universal Vassiliev link invariant, by
-Sergey Piunikhin, preprint available as
-[hep-th/9302084](http://xxx.lanl.gov/abs/hep-th/9302084)
+5) "Combinatorial expression for universal Vassiliev link invariant", by
+Sergey Piunikhin, preprint available as [`hep-th/9302084`](http://xxx.lanl.gov/abs/hep-th/9302084)
 
 Somebody ought to teach those Russians how to use the word "the" now
 that the cold war is over. Anyway, this paper defines a kind of
 universal object for Vassiliev invariants, which is sort of similar to
 what I was trying to do in
 
-Link invariants of finite type and perturbation theory, by John Baez,
-Lett. Math. Phys. 26 (1992) 43-51
+> "Link invariants of finite type and perturbation theory", by John Baez, _Lett. Math. Phys._ **26** (1992) 43--51
 
 but more concrete, and (supposedly) simpler than Kontsevich's approach.
 My parenthesis simply indicates that I haven't had time to figure out

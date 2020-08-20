@@ -1,8 +1,7 @@
 # Week 6
 
-1) Alexander Vilenkin, Quantum cosmology, talk given at Texas/Pascos
-1992 at Berkeley by available as
-[gr-qc/9302016](http://xxx.lanl.gov/abs/gr-qc/9302016)
+1) Alexander Vilenkin, _Quantum cosmology_, talk given at Texas/Pascos
+1992 at Berkeley, available as [`gr-qc/9302016`](http://xxx.lanl.gov/abs/gr-qc/9302016).
 
 This is, as Vilenkin notes, an elementary review of quantum cosmology.
 It won't be news to anyone who has kept up on that subject (except
@@ -347,9 +346,8 @@ stuff makes large numbers of assumptions with very little supporting
 evidence, it is science that's just on the brink of being mythology.
 Still, it's very interesting.
 
-2) Lee Smolin, Finite, diffeomorphism invariant observables in quantum
-gravity, available as
-[gr-qc/9302011](http://xxx.lanl.gov/abs/gr-qc/9302011).
+2) Lee Smolin, "Finite, diffeomorphism invariant observables in quantum
+gravity", available as [`gr-qc/9302011`](http://xxx.lanl.gov/abs/gr-qc/9302011).
 
 The big problem in canonical quantization of gravity, once one gets
 beyond "mini-" and "midisuperspace" models, is to find enough
@@ -381,21 +379,18 @@ evolution in a coordinate-free manner on a spacetime that's not flat
 and, worse, whose geometry is "uncertain" a la Heisenberg? This is
 treated, by the way, in
 
-3) Carlo Rovelli, Time in quantum gravity: an hypothesis, Phys. Rev.
-D43 (1991), 442-456.
+3) Carlo Rovelli, "Time in quantum gravity: an hypothesis", _Phys. Rev._ **D43** (1991), 442--456.
 
 Also, an excellent and very thorough review of the problem of time and
 various proposed solutions, including Rovelli's, is given in
 
-4) Chris J. Isham, Canonical quantum gravity and the problem of time,
-125 pages, available as
-[gr-qc/9210011](http://xxx.lanl.gov/abs/gr-qc/9210011).
+4) Chris J. Isham, "Canonical quantum gravity and the problem of time", 125 pages, available as [`gr-qc/9210011`](http://xxx.lanl.gov/abs/gr-qc/9210011).
 
 Anyway, in a paper I very briefly described in "week1":
 
-5) Lee Smolin, Time, measurement and information loss in quantum
-cosmology, available as
-[gr-qc/9301016](http://xxx.lanl.gov/abs/gr-qc/9301016).
+5) Lee Smolin, "Time, measurement and information loss in quantum
+cosmology", available as
+[`gr-qc/9301016`](http://xxx.lanl.gov/abs/gr-qc/9301016).
 
 Smolin showed, how, using a clever trick sketched in the present paper
 to get "observables" invariant under spatial but not temporal
@@ -409,8 +404,8 @@ actually be taken as a free massless scalar field, but in so doing there
 is the likelihood of serious technical problems. Some of these are
 discussed in
 
-6) P. Hajicek, Comment on "Time in quantum gravity - an hypothesis",
-Phys. Rev. D44 (1991), 1337-1338.
+6) P. Hajicek, "Comment on "Time in quantum gravity - an hypothesis"",
+_Phys. Rev._ **D44** (1991), 1337--1338.
 
 (But I haven't actually read this, just Isham's description.) Also,
 the clever trick of the present paper is to couple gravity to an
