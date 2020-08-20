@@ -274,7 +274,7 @@ permutations) there are a finite number of "sporadic" simple groups
 such as the Mathieu groups, the Fischer groups, the Suzuki groups, and,
 biggest of all, the Monster group, which has
 
-$$246 320 59 76 112 133 17 19 23 29 31 41 47 59 71 = 808017424794512875886459904961710757005754368000000000$$
+$$\begin{gathered}246\cdot320\cdot59\cdot76\cdot112\cdot133\cdot17\cdot19\cdot23\cdot29\cdot31\cdot41\cdot47\cdot59\cdot71 \\= 808017424794512875886459904961710757005754368000000000\end{gathered}$$
 
 elements!
 

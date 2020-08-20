@@ -202,10 +202,10 @@ the vertex
               |
 
 by drawing a little clockwise or counterclockwise-pointing circle at the
-vertex. (Or, for those of an algebraic bent, label the edges by 1,2,3
+vertex. (Or, for those of an algebraic bent, label the edges by $1$,$2$,$3$
 but then mod out by cyclic permutations.) The relations are: 1) if we
 reverse the orientation of a trivalent vertex, that's equivalent to
-multiplying the graph by -1. (Remember we're in a vector space spanned
+multiplying the graph by $-1$. (Remember we're in a vector space spanned
 by graphs.) 2)
 
          ------       |    |     \  /
