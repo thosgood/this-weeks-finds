@@ -104,8 +104,7 @@ in the case of 3-manifolds and 4-manifolds. Here I'll just describe how
 it goes for 4-manifolds, since that's what Cesar de Sa and Broda are
 thinking about. By the way, a good introduction to this stuff is
 
-The Topology of 4-manifolds, by Robion C. Kirby, Springer-Verlag Lecture
-Notes in Mathematics (1989), vol. 1374.
+> _The Topology of 4-manifolds_, by Robion C. Kirby, Springer-Verlag Lecture Notes in Mathematics (1989), vol. **1374**.
 
 So - here is how we *draw* what's going on. I apologize for being
 somewhat sketchy here (sorry for the pun, too). I am a bit rushed since
