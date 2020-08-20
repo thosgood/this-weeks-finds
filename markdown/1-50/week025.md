@@ -220,7 +220,7 @@ the structure group $G$ for such bundles is the group $Aut(H)/\mathbb{C}^*$, tha
 invertible operators on the Hilbert space $H$, modulo invertible complex
 numbers. In other words, we have an exact sequence
 
-$$1 \to C^* \to Aut(H) \to G \to 1$$
+$$1 \to \mathbb{C}^* \to Aut(H) \to G \to 1$$
 
 This gives an exact sequence of sheaves on $M$, which, combined with the
 marvelous fact that $Aut(H)$ is contractible, gives an isomorphism between
