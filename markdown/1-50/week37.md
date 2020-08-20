@@ -1,4 +1,4 @@
-week37
+# Week 37
 
 Mainly this week I have various bits of news to report from the 7th
 Marcel Grossman Meeting on general relativity. It was big and had lots
