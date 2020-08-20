@@ -4,7 +4,7 @@ This'll be the last "This Week's Finds" for a few weeks, as I am
 going up to disappear until July. I've gotten some requests for
 introductory material on gauge theory, knot theory, general relativity,
 TQFTs and such recently, so I just made a list of [some of my favorite
-books](books.html)**???** on this kind of thing - with an emphasis on the
+books](http://math.ucr.edu/home/baez/books.html) on this kind of thing - with an emphasis on the
 readable ones.
 
 Also, just as a little plug here, a graduate student here at UCR (Javier

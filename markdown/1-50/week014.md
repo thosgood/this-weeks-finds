@@ -79,8 +79,8 @@ should be like. Actually, Witten was working on a different theory
 called Donaldson theory, which also has the property of having no
 background structures. Shortly thereafter the mathematician Atiyah came
 up with a formal definition of a TQFT. To get an idea of this
-definition, try my notes on "symmetries"**???** and (if you
-don't know what categories are) "categories"**???**. For a
+definition, try my notes on ["symmetries"](http://math.ucr.edu/home/baez/symmetries.html) and (if you
+don't know what categories are) ["categories"](http://math.ucr.edu/home/baez/categories.html). For a
 serious tour of TQFTs and the like, try his book:
 
 > _The Geometry and Physics of Knots_, by Michael Atiyah, Cambridge U.
