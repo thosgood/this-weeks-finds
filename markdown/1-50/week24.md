@@ -1,14 +1,12 @@
-week24
-
-This Week's Finds in Mathematical Physics (Week 24) John Baez
+# Week 24
 
 I will now revert to topics more directly connected to physics and start
 catching on the papers that have been accumulating. First, two very nice
 review papers:
 
-1) Prima facie questions in quantum gravity, by Chris Isham, lecture at
+1) "Prima facie questions in quantum gravity", by Chris Isham, lecture at
 Bad Honeff, September 1993, preprint available in LaTeX form as
-[gr-qc/9310031](http://xxx.lanl.gov/abs/gr-qc/9310031).
+[`gr-qc/9310031`](http://xxx.lanl.gov/abs/gr-qc/9310031).
 
 If one wants to know why people make such a fuss about quantum gravity,
 one could not do better than to start here. There are many approaches to
@@ -35,12 +33,12 @@ normal physical domains.
 **Gravitational singularities.** The classical theory of general
 relativity is notorious for the existence of unavoidable spacetime
 singularities. It has long been suggested that a quantum theory of
-gravity might cure this disease by some sort of \`quantum smearing'.
+gravity might cure this disease by some sort of 'quantum smearing'.
 
 **Quantum cosmology.** A particularly interesting singularity is that at
 the beginning of a cosmological model described by, say, a
 Robertson-Walker metric. Classical physics breaks down here, but one of
-the aims of quantum gravity has always been to describe the \`origin'
+the aims of quantum gravity has always been to describe the 'origin'
 of the universe as some type of quantum event.
 
 **The end state of the Hawking radiation process.** One of the most
@@ -66,10 +64,10 @@ subject.
 
 ------------------------------------------------------------------------
 
-2) Lectures on 2d gauge theories: topological aspects and path integral
-techniques, by Matthias Blau and George Thompson, 70 pages, preprint
+2) "Lectures on 2d gauge theories: topological aspects and path integral
+techniques", by Matthias Blau and George Thompson, 70 pages, preprint
 available in LaTeX form as
-[hep-th/9310144](http://xxx.lanl.gov/abs/hep-th/9310144).
+[`hep-th/9310144`](http://xxx.lanl.gov/abs/hep-th/9310144).
 
 Most of the basic laws of physics appear to be gauge theories. Gauge
 theories are tricky to deal with because they are inherently nonlinear.
@@ -99,27 +97,27 @@ quote): solution of Yang-Mills theory on arbitrary surfaces; calculation
 of intersection numbers of moduli spaces of flat connections; coupling
 of Yang-Mills theory to coadjoint orbits and intersection numbers of
 moduli spaces of parabolic bundles; derivation of the Verlinde formula
-from the G/G model; derivation of the shift k to k+h in the G/G model
+from the G/G model; derivation of the shift $k$ to $k+h$ in the G/G model
 via the index of the twisted Dolbeault complex.
 
-3) Semi-classical limits of simplicial quantum gravity, by J. W.
+3) "Semi-classical limits of simplicial quantum gravity", by J. W.
 Barrett and T. J. Foxon, preprint available as
-[gr-qc/9310016](http://xxx.lanl.gov/abs/gr-qc/9310016).
+[`gr-qc/9310016`](http://xxx.lanl.gov/abs/gr-qc/9310016).
 
 This paper looks at quantum gravity in 3 spacetime dimesions formulated
 along the lines of Ponzano and Regge, that is, with the spacetime
 manifold replaced by a bunch of tetrahedra (a "simplicial complex"). I
-describe some work along these lines in "[week16](week16.html)". Here
+describe some work along these lines in "week16". Here
 the Feynman path integral is replaced by a discrete sum over states, in
 which the edges of the tetrahedra are assigned integer or half-integer
 lengths, which really correspond to "spins," and the formula for the
-action is given in terms of 6j-symbols. The authors look for stationary
+action is given in terms of $6j$-symbols. The authors look for stationary
 points of this action and find that some correspond to Riemannian
 metrics and some correspond to Lorentzian metrics. This is strongly
 reminiscent of Hartle and Hawking's work on quantum cosmology,
 
-4) Wave function of the universe, by J. B. Hartle and S. W. Hawking,
-Phys. Rev. D28 (1983), 2960.
+4) "Wave function of the universe", by J. B. Hartle and S. W. Hawking,
+_Phys. Rev._ **D28** (1983), 2960.
 
 in which there is both a Euclidean and a Lorentzian regime (providing a
 most fascinating answer to the old question, "what came before the big
@@ -127,8 +125,8 @@ bang!). Here, however, the path integral is oscillatory in the Euclidean
 regime and exponential in the Lorentzian one - the opposite of what
 Hartle and Hawking had. This puzzles me.
 
-5) Generalized measures in gauge theory, by John Baez, available in
-LaTeX as [hep-th/9310201](http://xxx.lanl.gov/abs/hep-th/9310201).
+5) "Generalized measures in gauge theory", by John Baez, available in
+LaTeX as [`hep-th/9310201`](http://xxx.lanl.gov/abs/hep-th/9310201).
 
 Path integrals in gauge theory typically invoke the concept of Lebesgue
 measure on the space of connections. This is roughly an
@@ -157,9 +155,9 @@ is a "uniform" generalized measure on the space of connections
 that projects down to the measure constructed by Ashtekar and
 Lewandowski. This generalized measure is in some respects a rigorous
 substitute for the ill-defined "Lebesgue measure," but it is
-actually built using Haar measure on G. I also define generalized
+actually built using Haar measure on $G$. I also define generalized
 measures on the group of gauge transformations (which is an
-infinite-dimensional group), and when G is compact I construct a natural
+infinite-dimensional group), and when $G$ is compact I construct a natural
 example that is a rigorous substitute for Haar measure on the group of
 gauge transformations . As an application of this "generalized Haar
 measure" I show that any generalized measure on the space of
