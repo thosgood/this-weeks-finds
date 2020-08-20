@@ -1,11 +1,11 @@
-week27
+# Week 27
 
 This week I would like to describe some of the essays from the following
 volume:
 
-1) Conceptual Problems of Quantum Gravity, edited by Abhay Ashtekar and
+1) _Conceptual Problems of Quantum Gravity_, edited by Abhay Ashtekar and
 John Stachel, based on the proceedings of the 1988 Osgood Hill
-Conference, 15-19 May 1988, Birhhaueser, Boston, 1991.
+Conference, 15--19 May 1988, Birhhaueser, Boston, 1991.
 
 As the title indicates, this conference concentrated not on technical,
 mathematical aspects of quantum gravity but on issues with a more
@@ -20,20 +20,19 @@ perhaps a bit daunting).
 
 The talks have been divided into a number of groups:
 
-    Quantum mechanics, measurement, and the universe
-    The issue of time in quantum gravity
-    Strings and gravity
-    Approaches to the quantization of gravity
-    Role of topology and black holes in quantum gravity
+- Quantum mechanics, measurement, and the universe
+- The issue of time in quantum gravity
+- Strings and gravity
+- Approaches to the quantization of gravity
+- Role of topology and black holes in quantum gravity
 
 Let me describe a few of the talks, or at least their background, in
 some detail rather than remaining general and vague.
 
-2) Quantum measurements and the environment-induced transition from
-quantum to classical, by Wojciech H. Zurek, the volume above.
+2) "Quantum measurements and the environment-induced transition from
+quantum to classical", by Wojciech H. Zurek, the volume above.
 
-Loss of quantum coherence for a damped oscillator, by W. G. Unruh, the
-volume above.
+    "Loss of quantum coherence for a damped oscillator", by W. G. Unruh, the volume above.
 
 These talks by Zurek and Unruh fit into what one might call the
 "post-Everett school" of research on the foundations of quantum
@@ -59,12 +58,12 @@ this we can, if we want, calculate the mean of this probability
 distribution (let us assume it exists!), which we call the expectation
 value of the observable in the state.
 
-Given two states Ψ and Φ, and a number c between 0 and 1 there is a
-recipe for getting a new state, called c Ψ + (1-c)Φ. This can be
-described roughly in words as follows: "with probability c, the system
-is in state Ψ; with probability 1-c it is in state Φ." This is called a
-**mixture** of the states Ψ and Φ. If a state is a mixture of two
-different states, with c not equal to 0 or 1, we call that state a
+Given two states $\psi$ and $\phi$, and a number $c$ between $0$ and $1$ there is a
+recipe for getting a new state, called $c \psi + (1-c)\phi$. This can be
+described roughly in words as follows: "with probability $c$, the system
+is in state $\psi$; with probability $1-c$ it is in state $\phi$." This is called a
+**mixture** of the states $\psi$ and $\phi$. If a state is a mixture of two
+different states, with $c$ not equal to $0$ or $1$, we call that state a
 **mixed** state. If a state is not mixed it is **pure**. Roughly
 speaking, a pure state is a state with as little randomness as possible.
 (More precisely, it has as little entropy as possible.)
@@ -76,8 +75,8 @@ say there are six pure states: the state in which the side of the die
 showing one dot is up, the state in which the side showing two dots is
 up, etc.. Call these states 1,2,3,4,5, and 6. If it's a fair die, and
 we roll it and don't look at it, the best state we can use to describe
-what we know about the die is a mixed state which is a mixture: 1/6 of
-state 1 plus 1/6 of state 2, etc.. Note that if you peek at the die and
+what we know about the die is a mixed state which is a mixture: $1/6$ of
+state 1 plus $1/6$ of state 2, etc.. Note that if you peek at the die and
 see that side 4 is actually up, you will be inclined to use a different
 state to describe your knowledge: a pure state, state 4. Your honest
 friend, who didn't peek, will still want to use a mixed state. There is
@@ -89,8 +88,8 @@ reflects your knowledge, and some people may know more than others.
 Things get trickier in quantum mechanics. They also get trickier when
 the system being described includes the person doing the describing.
 They get even trickier when the system being described is the whole
-universe \-- for example, some people rebel at the thought that the
-universe has "many different states" \-- after all, it is how it is,
+universe -- for example, some people rebel at the thought that the
+universe has "many different states" -- after all, it is how it is,
 isn't it? (Gell-Mann gave a talk at this conference, which
 unfortunately does not appear in this volume, entitled "Quantum
 mechanics of this specific universe." I have a hunch it deals with this
@@ -98,7 +97,7 @@ issue, which falls under the heading of "quantum cosmology.")
 
 The first way things get trickier in quantum mechanics is that something
 we are used to in classical mechanics fails. In classical mechanics,
-pure states are always dispersion-free \-- that is, for *every*
+pure states are always dispersion-free -- that is, for *every*
 observable, the probability measure assigned by the state to that
 observable is a Dirac delta measure, that is, the observable has a 100%
 chance of being some specific value and a 0% chance of having any other
@@ -137,7 +136,7 @@ subsystems have become "entangled."
 In fact, this is the sort of thing that often happens when one of the
 systems is a measuring apparatus and the other is something measured.
 Studying this issue, by the way, does *not* require a general definition
-of what counts as a "measuring apparatus" or a "measurement" \-- on
+of what counts as a "measuring apparatus" or a "measurement" -- on
 the contrary, this is exactly what is not needed, and is probably
 impossible to attain. What is needed is a description in quantum theory
 of a *particular* kind of measuring apparatus, possibly quite idealized,
@@ -182,7 +181,7 @@ be an atom in outer space, and the other subsystem might be its
 environment (a bunch of other atoms or radiation). If one started out in
 a state which restricted to a pure state of each subsystem, how fast
 would the subsystems become entangled? And exactly *how* would they
-become entangled? \-- this is very interesting. When we are doing a
+become entangled? -- this is very interesting. When we are doing a
 scientific measurement, it's pretty clear what sort of correlation is
 involved in the entanglement. In the above example, say, the detector
 reading is becoming correlated to the electron's spin about the z axis.
@@ -203,62 +202,62 @@ mean many things to many people, and nothing in particular to many more,
 so one must always be on the alert.
 
 Now for a little math to ground the above discussion. To keep life
-simple suppose we have a quantum system described by a n-dimensional
-Hilbert space H which we" just think of as C\^n, n-dimensional
+simple suppose we have a quantum system described by a $n$-dimensional
+Hilbert space $H$ which we just think of as $\mathbb{C}^n$, $n$-dimensional
 complex space. The main thing to get straight is the difference between
 superpositions and mixtures of quantum states. An observable in quantum
-theory is described by a self-adjoint operator A, which for us is just
-an nxn self-adjoint matrix. A state is something that assigns to each
+theory is described by a self-adjoint operator $A$, which for us is just
+an $n\times n$ self-adjoint matrix. A state is something that assigns to each
 observable a number called its expectation value, in a manner that is 1)
 linear, 2) positive, and 3) normalized. To explain this let us call our
-state Ψ. Linearity means Ψ(A + B) = Ψ(A) + Ψ(B) and Ψ(cA) = c Ψ(A) for
-all observables A,B and real numbers c. Positivity means Ψ(A) \> 0 when
-A is a nonzero matrix that has non-negative eigenvalues (a so-called
-non-negative matrix). And the normalization condition is that Ψ(1) = 1.
+state $\psi$. Linearity means $\psi(A + B) = \psi(A) + \psi(B)$ and $\psi(cA) = c \psi(A)$ for
+all observables $A$,$B$ and real numbers $c$. Positivity means $\psi(A) > 0$ when
+$A$ is a nonzero matrix that has non-negative eigenvalues (a so-called
+non-negative matrix). And the normalization condition is that $\psi(1) = 1$.
 
 This may seem unfamiliar, and that is because elementary quantum
 mechanics only considers states of the form
 
-Ψ(A) = \<v, Av\>
+$$\psi(A) = \langle v, Av\rangle$$
 
-where v is a unit vector in H. Not all states are of this form, but they
+where $v$ is a unit vector in $H$. Not all states are of this form, but they
 are an extremely important special class of states. It is also important
 to consider states that are represented as "density matrices,"
-which are non-negative matrices D with trace 1:
+which are non-negative matrices $D$ with trace 1:
 
-tr(D) = Sum_i D_{ii} = 1
+$$\operatorname{tr}(D) = \sum_i D_{ii} = 1$$
 
-Such a density matrix defines a state Ψ by
+Such a density matrix defines a state $\psi$ by
 
-Ψ(A) = tr(AD).
+$$\psi(A) = \operatorname{tr}(AD).$$
 
 It's worth checking that this really meets the definition of a
 "state" given above!
 
-The states corresponding to unit vectors in H are in fact a special case
-of the density matrices. Namely, if v is a unit vector in H we can let D
-be the self-adjoint matrix corresponding to projection onto v. I.e., the
-matrix D acts on any other vector, say w, by
+The states corresponding to unit vectors in $H$ are in fact a special case
+of the density matrices. Namely, if $v$ is a unit vector in $H$ we can let $D$
+be the self-adjoint matrix corresponding to projection onto $v$. I.e., the
+matrix $D$ acts on any other vector, say $w$, by
 
-Dw = \<v,w\> v.
+$$Dw = \langle v,w \rangle v.$$
 
-It's not to hard to check that the matrix D really is a density matrix
+It's not to hard to check that the matrix $D$ really is a density matrix
 (do it!) and that this density matrix defines the same state as does the
-vector v, that is,
+vector $v$, that is,
 
-tr(AD) = \<v, Av\>
+$$\operatorname{tr}(AD) = \langle v, Av\rangle$$
 
-for any observable A.
+for any observable $A$.
 
-The entropy of a state Ψ corresponding to the density matrix D is
+The entropy of a state $\psi$ corresponding to the density matrix $D$ is
 defined to be
 
-S(Ψ) = -tr(D lnD)
+$$S(\psi) = -\operatorname{tr}(D \ln D)$$
 
-where one calculates D lnD by working in a basis where D is diagonal and
-replacing each eigenvalue x of D by the number x lnx, which we decree to
-be 0 if x = 0. Check that if D corresponds to a *pure* state as above
-then D lnD = 0 so the entropy is zero.
+where one calculates $D \ln D$ by working in a basis where $D$ is diagonal and
+replacing each eigenvalue $x$ of $D$ by the number $x \ln x$, which we decree to
+be $0$ if $x = 0$. Check that if $D$ corresponds to a *pure* state as above
+then $D \ln D = 0$ so the entropy is zero.
 
 Now about superpositions versus mixtures. They teach you how to take
 superpositions in basic quantum mechanics. They usually don't tell you
@@ -268,23 +267,23 @@ H, one can take any linear combination of them and, if it's not zero,
 normalize it to be a unit vector again, which we call a superposition.
 
 Mixtures are an utterly different sort of linear combination. Given two
-states Ψ and Φ \-- which recall are things that assign numbers to
-observables in a linear way \-- and given any number c between 0 and 1,
+states $\psi$ and $\phi$ -- which recall are things that assign numbers to
+observables in a linear way -- and given any number $c$ between $0$ and $1$,
 we can form a new state by taking
 
-c Ψ + (1-c) Φ
+$$c \psi + (1-c) \phi$$
 
-This is called a mixture of Ψ and Φ. Finally, some nontrivial exercises:
+This is called a mixture of $\psi$ and $\phi$. Finally, some nontrivial exercises:
 
-Exercise: Recall that a pure state is defined to be a state which is not
-a mixture of two different states with 0 \< c \< 1. Show that the states
+**Exercise:** Recall that a pure state is defined to be a state which is not
+a mixture of two different states with $0 < c < 1$. Show that the states
 corresponding to unit vectors in Hilbert space are pure.
 
-Exercise: Conversely, show (in the finite-dimensional case we are
+**Exercise:** Conversely, show (in the finite-dimensional case we are
 considering) that all the pure states correspond to unit vectors in
 Hilbert space.
 
-Exercise: Show that every density matrix is a mixture of states
+**Exercise:** Show that every density matrix is a mixture of states
 corresponding to unit vectors in Hilbert space.
 
 Exercise: Show (in the finite-dimensional case we are considering) that
@@ -296,17 +295,17 @@ pure if and only if its entropy is zero.
 Well, this took longer than expected, so let me quickly say a bit more
 about a few other papers in the conference proceedings....
 
-3) Is there incompatibility between the ways time is treated in general
-relativity and in standard quantum mechanics?, by Carlo Rovelli, the
+3) "Is there incompatibility between the ways time is treated in general
+relativity and in standard quantum mechanics?", by Carlo Rovelli, the
 volume above.
 
-The problem of time in canonical quantization of relativistic systems,
-by Karel V. Kuchar, the volume above.
+    "The problem of time in canonical quantization of relativistic systems",
+    by Karel V. Kuchar, the volume above.
 
-Time and prediction in quantum cosmology, by James B. Hartle, the volume
-above.
+    "Time and prediction in quantum cosmology", by James B. Hartle, the volume
+    above.
 
-Space and time in the quantum universe, by Lee Smolin, the volume above.
+    "Space and time in the quantum universe", by Lee Smolin, the volume above.
 
 In the section on the problem of time in quantum gravity, these papers
 in particular show a lively contrast between points of view. One nice
@@ -314,72 +313,73 @@ thing is that discussions after the papers were presented have been
 transcribed; these make the disagreements even more clear. Let me simply
 give some quotes that highlight the issues:
 
-Rovelli: A **partial observable** is an operation on the system that
+> **Rovelli:** A **partial observable** is an operation on the system that
 produces a number. But this number may be totally unpredictable even if
 the sates is perfectly known. Equivalently, this number by itself may
-give no information on the state of the system [in the Heisenberg
-picture - jb]. For example, the reading of a clock, or the vluae of a
+give no information on the state of the system \[in the Heisenberg
+picture - jb\]. For example, the reading of a clock, or the vluae of a
 field, not knowing where and when it has been measured, are partial
 observables.
-
-A **true observable** or simply an **observable** is an operation on the
+> 
+> A **true observable** or simply an **observable** is an operation on the
 system that produces a number than can be predicted (or whose
 probability distribution may be predicted) if the (Heisenberg) state is
 known. Equivalently, it is an observable that gives information about
 the state of the system.
-
-....
-
-Time is an experimental fact of nature, a very basic and general
+> 
+> ....
+> 
+> Time is an experimental fact of nature, a very basic and general
 experimental fact, but just an experimental fact. The formal development
 of mechanics, and in particular Heisenberg quantum mechanics and the
 presymplectic formulation of classical mechanics, suggests that it is
 possible to give a coherent description of the world that is independent
 of the presence of time.
-
-....
-
-From the mathematical point of view, **time** is a structure on the set
+> 
+> ....
+> 
+> From the mathematical point of view, **time** is a structure on the set
 of observables (the foliation that I called a time structure).
-
-From the physical point of view, time is the *experimental fact* that,
+> 
+> From the physical point of view, time is the *experimental fact* that,
 in the nature as we see it, meaningful observables are always
 constructed out of two partial observables. That is, it is the
 experimental fact (not a priori required), that knowing the position of
-a paritlce is meaningless unless we also know "at what time" a
+a particle is meaningless unless we also know "at what time" a
 particle was at that position.
-
-In the formulation of the theory, this experimental fact is coded inthe
+> 
+> In the formulation of the theory, this experimental fact is coded in the
 time structure of the set of observables. If true observables are
 composed of correspondences of partial observables, one of which is the
 reading of a clock, then the set of true observables can be foliated
 into one-parameter families that are given by the same partial
 observables at different clock readings.
-
-From an operational point of view, mechanics is perfectly well defined
+> 
+> From an operational point of view, mechanics is perfectly well defined
 in the absence of this time structure. It will describe a world (maybe
 one slightly unfamiliar to us) in which observables are not arranged
 along one-parameter lines, in which they have no such time structure (a
 kind of fixed-time world), or have more complicated structures. We must
-not confuse the phsychological difficulties in visualizing such worlds
+not confuse the psychological difficulties in visualizing such worlds
 with their logical impossibility.
-
-... Heisenberg states, observables, measurement theory \-- none of
+> 
+> ... Heisenberg states, observables, measurement theory -- none of
 these require time.
-
-The notion of probability does not require time....
-
-What I am proposing is that there may exist a coherent description of a
+> 
+> The notion of probability does not require time....
+> 
+> What I am proposing is that there may exist a coherent description of a
 system in the framework of standard quantum mechanics even if it does
 not have a standard "time evolution."
-
-Why should we be interested in mechanics with no time structure? Because
+> 
+> Why should we be interested in mechanics with no time structure? Because
 general relativity *is* a system (a classical system) with no time
 structure. At least, it has no clearly defined time structure.
+> 
+> ... What we have to do is simple: "forget time."
 
-... What we have to do is simple: "forget time."
 
-Kuchar: For myself, I want to see observables changing along my world
+> **Kuchar:** For myself, I want to see observables changing along my world
 line and therefor associated with individual leaves of a foliation. In
 that sense, the problem of time is shifted to the problem of constucting
 an appropriate class of quantities one would like to call observables.
@@ -397,19 +397,20 @@ momenta at the time of measurement. You thus have a hard time to design
 an apparatus that would measure such a constant of motion at a time
 different from the moment for which it was originally designed.
 
-Smolin: Now, as I discussed above, and as Jim Hartle argues at length,
+
+> **Smolin:** Now, as I discussed above, and as Jim Hartle argues at length,
 there can be no strict implementation of the principle of conservation
 of probability for a time that this the value of a dynamical variable of
 a quantum system. Therefore, a sensible measurement theory for quantum
 cosmology can only be constructed if there is a time variable that is
 not a dynamical variable of the quantum system that describes the
 universe.
-
-Does this mean that quantum cosmology is impossible, since there is no
+> 
+> Does this mean that quantum cosmology is impossible, since there is no
 possibility of a clock outside of the system?
-
-There is, as far as I know, exactly one loophole in this argument, which
-sit eh one exploited by the program ofintrinsic time. This is that one
+> 
+> There is, as far as I know, exactly one loophole in this argument, which
+sit eh one exploited by the program of intrinsic time. This is that one
 coordinate on the phase space of general relativity might be singled out
 and called time in such a way that the states, represented by functions
 on the configuration space, could be read as time-dependent functions
@@ -420,29 +421,29 @@ coordinate is excluded.
 
 Jokes:
 
-Kuchar: Because Leibniz didn't believe in the ontological significance
+> Kuchar: Because Leibniz didn't believe in the ontological significance
 of time, he dropped the letter "t" from his name.
-
-Smolin: Is that true?
-
-Kuchar: Yes! He spelled his name with a "z".
-
-DeWitt: It's a good thing that he did believe in space because the
+> 
+> Smolin: Is that true?
+> 
+> Kuchar: Yes! He spelled his name with a "z".
+> 
+> DeWitt: It's a good thing that he did believe in space because the
 "z" would've gone too.
-
-[Of course, time is "Zeit" in German, which complicates things. -
-jb]
+> 
+> \[Of course, time is "Zeit" in German, which complicates things. -
+jb\]
 
 ------------------------------------------------------------------------
 
-4) Old problems in the light of new variables, by Abhay Ashtekar, the
+4) "Old problems in the light of new variables", by Abhay Ashtekar, the
 volume above.
 
-Loop representation in quantum gravity, by Carlo Rovelli, the volume
-above.
+    "Loop representation in quantum gravity", by Carlo Rovelli, the volume
+    above.
 
-Nonperturbative quantum gravity via the loop representation, by Lee
-Smolin, the volume above.
+    "Nonperturbative quantum gravity via the loop representation", by Lee
+    Smolin, the volume above.
 
 These are a bit more technical papers that give nice introductions to
 various aspects of the loop representation.
