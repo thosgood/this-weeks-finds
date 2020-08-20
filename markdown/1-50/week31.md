@@ -1,13 +1,13 @@
-week31
+# Week 31
 
 Well, I'm really busy these days trying to finish up a big project,
 hence the low number of "Weeks" per week, but papers are piling up,
 and there are some pretty interesting ones, so I thought I'd quickly
 mention a few. This bunch will mainly concern quantum gravity.
 
-1) Possible implications of the quantum theory of gravity, by Louis
+1) "Possible implications of the quantum theory of gravity", by Louis
 Crane, 5 pages in LaTeX format, available as
-[hep-th/9402104](http://xxx.lanl.gov/abs/hep-th/9402104).
+[`hep-th/9402104`](http://xxx.lanl.gov/abs/hep-th/9402104).
 
 This is one paper that everyone can read and enjoy, for although one may
 find it too close to science fiction for comfort, it is far more
@@ -42,22 +42,19 @@ mixed state. Hawking's original solution to this problem was to bite
 the bullet and accept the nonunitarity, even though it goes against the
 basic principles of quantum theory. This appears in:
 
-2) S. W. Hawking, Phys. Rev. D13, 191 (1976).
+2) S. W. Hawking, _Phys. Rev.__ D13, **191** (1976).
 
 The "baby universe" solution simply says that the matter seeds a baby
 universe and the information goes *there*. Many other solutions have
 been proposed; two recent review articles are
 
-3) Do Black Holes Destroy Information? by J. Preskill, Caltech report
-CALT-68-1819, available as
-[hep-th/9209058](http://xxx.lanl.gov/abs/hep-th/9209058), Sept. 1992.
+3) "Do Black Holes Destroy Information?", by J. Preskill, Caltech report
+`CALT-68-1819`, available as [`hep-th/9209058`](http://xxx.lanl.gov/abs/hep-th/9209058), Sept. 1992.
 
-4) Black hole information, by Don Page, review lecture to be published
-in Proceedings of the 5th Canadian Conference on General Relativity and
-Relativistic Astrophysics, University of Waterloo, 13-15 May, 1993},
+4) "Black hole information", by Don Page, review lecture to be published
+in _Proceedings of the 5th Canadian Conference on General Relativity and Relativistic Astrophysics, University of Waterloo, 13--15 May, 1993_,
 edited by R. B. Mann and R. G. McLenaghan (World Scientific, Singapore,
-1994), now available in LaTeX form as
-[hep-th/9305040](http://xxx.lanl.gov/abs/hep-th/9305040).
+1994), now available in LaTeX form as [`hep-th/9305040`](http://xxx.lanl.gov/abs/hep-th/9305040).
 
 Personally, I am a complete agnostic about this problem, since it rests
 upon so many phenomena that are hypothesized but not yet observed, and
@@ -97,13 +94,13 @@ know no suggested mechanism for this. This is perhaps the weakest link
 in Smolin's argument (though I haven't seen his book yet). But it is
 at least conceivable.
 
-Now, given these hypotheses a marvelous consequence ensues: Darwinian
+Now, given these hypotheses a marvellous consequence ensues: Darwinian
 evolution! Those universes whose parameters are such that many black
 holes are formed will have many progeny, so the constants of physics can
 be expected to be "tuned" for the formation of many black holes. As
 Smolin emphasizes, while the hypotheses A and B may seem impossible to
 test directly at present, we do at least have a hope of testing this
-consequence. He has studied the marvelously intricate process of star
+consequence. He has studied the marvellously intricate process of star
 formation in the galaxy and attempted to see whether altering the
 constants of physics appear "tuned" for maximizing black hole
 production, and he argues in his book that they do appear so tuned. Of
@@ -115,23 +112,17 @@ universes in which the fundamental constants take different values.
 Crane enters the fray at this point, and proposes an additional
 conjecture:
 
-::: {align="center"}
-SUCCESSFUL INDUSTRIAL CIVILIZATIONS WILL EVENTUALLY CREATE BLACK HOLES.
-:::
+> SUCCESSFUL INDUSTRIAL CIVILIZATIONS WILL EVENTUALLY CREATE BLACK HOLES.
 
 (The capital letters are his.) He breaks it up into two parts for us:
 
-::: {align="center"}
-SUBCONJECTURE 1: SUCCESSFUL INDUSTRIAL CIVILIZATIONS WILL EVENTUALLY
+> SUBCONJECTURE 1: SUCCESSFUL INDUSTRIAL CIVILIZATIONS WILL EVENTUALLY
 WANT TO MAKE BLACK HOLES
-:::
 
 and
 
-::: {align="center"}
-SUBCONJECTURE 2: SUCCESSFUL INDUSTRIAL CIVILIZATIONS WILL EVENTUALLY BE
+> SUBCONJECTURE 2: SUCCESSFUL INDUSTRIAL CIVILIZATIONS WILL EVENTUALLY BE
 ABLE TO PRODUCE BLACK HOLES.
-:::
 
 and argues for each. The result, as any good evolutionist will
 recognize, is a kind of feedback loop whereby intelligence and baby
@@ -155,13 +146,12 @@ and let me *gradually* turn towards slightly less speculative realms,
 eventually finishing with some papers containing rigorous mathematics!
 To begin with, some more on black hole entropy:
 
-5) Some Speculations about Black Hole Entropy in String Theory, Leonard
+5) "Some Speculations about Black Hole Entropy in String Theory", Leonard
 Susskind, 11 pages in AMSTeX, available as
-[hep-th/9309145](http://xxx.lanl.gov/abs/hep-th/9309145).
+[`hep-th/9309145`](http://xxx.lanl.gov/abs/hep-th/9309145).
 
-Black hole entropy in canonical quantum gravity and superstring theory,
-by L. Susskind and J. Uglum, 29 pages, available as
-[hep-th/9401070](http://xxx.lanl.gov/abs/hep-th/9401070).
+    "Black hole entropy in canonical quantum gravity and superstring theory", by L. Susskind and J. Uglum, 29 pages, available as
+    [`hep-th/9401070`](http://xxx.lanl.gov/abs/hep-th/9401070).
 
 The fact that the entropy of a black hole is (at least under certain
 circumstances) proportional to the area of its event horizon is a
@@ -174,19 +164,17 @@ of entropy is difficult to understand. These authors suggest that in
 string theory it can be explained in terms of open strings having both
 ends attached to the horizon.
 
-6) Black hole evaporation without information loss, by C.R. Stephens,
+6) "Black hole evaporation without information loss", by C.R. Stephens,
 G. 't Hooft and B. F. Whiting, 35 pages in TeX format, 3 figures in
-postscript, available as
-[gr-qc/9310006](http://xxx.lanl.gov/abs/gr-qc/9310006).
+postscript, available as [`gr-qc/9310006`](http://xxx.lanl.gov/abs/gr-qc/9310006).
 
 This is an attempt to make black holes radiate away and disappear in a
 manner that preserves unitarity. I've been too busy to read it. And now
 for some wormholes:
 
-7) Complementarity in Wormhole Chromodynamics, by Hoi-Kwong Lo,
+7) "Complementarity in Wormhole Chromodynamics", by Hoi-Kwong Lo,
 Kai-Ming Lee, and John Preskill, 12 pages and 2 figures, phyzzx macros
-required, available as
-[hep-th/9308044](http://xxx.lanl.gov/abs/hep-th/9308044).
+required, available as [`hep-th/9308044`](http://xxx.lanl.gov/abs/hep-th/9308044).
 
 Let me just quote the abstract and note that there is probably some
 quite interesting topology to be obtained by applying this sort of idea
@@ -205,9 +193,9 @@ to mathematics:
 Finally, lest the mathematicians think I have abandoned ship, some
 rigorous results:
 
-8) "No Hair" Theorems - Folklore, Conjectures, Results, by Piotr T.
+8) ""No Hair" Theorems - Folklore, Conjectures, Results", by Piotr T.
 Chrusciel, Garching preprint MPA 792, 30 pages available in LaTeX form
-as [gr-qc/9402032](http://xxx.lanl.gov/abs/gr-qc/9402032).
+as [`gr-qc/9402032`](http://xxx.lanl.gov/abs/gr-qc/9402032).
 
 The famous "no hair" theorem says that in general relativity static
 black hole solutions are determined by very few parameters - typically
@@ -219,19 +207,15 @@ but Chrusciel is a very careful person so I expect it will be up to the
 standards of his nice review of work on the cosmic censorship
 hypothesis,
 
-9) On uniqueness in the large of solutions of Einstein's equations
-("Strong cosmic censorship"), by Piotr T. Chrusciel, in Mathematical
-Aspects of Classical Field Theory, Contemp. Math. 132, eds. Gotay,
-Marsden and Moncrief, AMS, Rhode Island, 1992, pp. 235-274.
+9) "On uniqueness in the large of solutions of Einstein's equations
+("Strong cosmic censorship")", by Piotr T. Chrusciel, in _Mathematical Aspects of Classical Field Theory_, Contemp. Math. **132**, eds. Gotay, Marsden and Moncrief, AMS, Rhode Island, 1992, pp. 235--274.
 
 ------------------------------------------------------------------------
 
-**Addendum**: See "[week33](week33.html)" for a paper by Smolin on his
-evolutionary cosmology theory. His book came out in 1997 under the title
-"The Life of the Cosmos" - see "[week101](week101.html)" for
+**Addendum**: See "week33" for a paper by Smolin on his
+evolutionary cosmology theory. His book came out in 1997 under the title "The Life of the Cosmos" - see "week101" for
 details.
 
 ------------------------------------------------------------------------
 
-*The thing that makes things and the thing that makes things fall apart
-- they're the same thing. Entropy maximization!* - Chris Lee
+*The thing that makes things and the thing that makes things fall apart - they're the same thing. Entropy maximization!* - Chris Lee
