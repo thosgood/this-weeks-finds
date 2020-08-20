@@ -118,7 +118,7 @@ unity, we have $b_r(M)$.
 
 Broda shows that this is a 4-manifold invariant by showing it doesn't
 change under the de Sa moves. One of these consists of adding or
-deleting a Hopf link -
+deleting a Hopf link
 
                 /\   /\
                /  \ /  \

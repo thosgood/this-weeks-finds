@@ -1,7 +1,6 @@
 # Week 44 (1994-11-06)
 
-Special edition: the end of Donaldson theory?
-=============================================
+**Special edition: the end of Donaldson theory?**
 
 I got some news today from Allen Knutson. Briefly, it appears that
 Witten has come up with a new way of doing Donaldson theory that is far

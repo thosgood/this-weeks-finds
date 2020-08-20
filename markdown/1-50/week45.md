@@ -1,7 +1,6 @@
 # Week 45 (1994-11-12)
 
-Donaldson Theory Update
-=======================
+**Donaldson Theory Update**
 
 In the previous edition of "This Week's Finds" I mentioned a burst of
 recent work on Donaldson theory. I provocatively titled it "The End of
