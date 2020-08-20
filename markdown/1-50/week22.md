@@ -45,8 +45,7 @@ understand the structure of the Appel-Haken proof - for that, one should
 probably try:
 
 3) "Every Planar Map is Four Colorable", by Kenneth Appel and Wolfgang
-Haken, _Contemporary Mathematics_ (American Mathematical Society), v. **98**,
-1989.
+Haken, _Contemporary Mathematics_ (American Mathematical Society), v. **98**, 1989.
 
 Instead, I'd like to talk about some tantalizing hints of relationships
 between the 4-color problem and physics!
@@ -305,8 +304,7 @@ This all leads up to a paper that, unfortunately, I have not yet read,
 in part because our library doesn't get this journal!
 
 5) "Zeroes of chromatic polynomials: a new approach to the Beraha
-conjecture using quantum groups", by H. Saleur, _Comm. Math. Phys._ **132**
-(1990) 657.
+conjecture using quantum groups", by H. Saleur, _Comm. Math. Phys._ **132** (1990) 657.
 
 This apparently gives a "physicist's proof" of the Beraha conjecture,
 and makes use of conformal field theory, that is, quantum field theory

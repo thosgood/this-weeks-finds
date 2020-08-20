@@ -1,4 +1,4 @@
-week23
+# Week 23
 
 I will soon revert to my older style, in which I list piles of new
 papers as they accumulate on my desk. This time, though, I want to
@@ -9,15 +9,13 @@ editing. It is such a relief to be done that I cannot resist.
 
 So -
 
-1) Topological quantum invariants and the Andrews-Curtis conjecture
-(Progress report), by Frank Quinn, preprint, Sept. 1993.
+1) "Topological quantum invariants and the Andrews-Curtis conjecture
+(Progress report)", by Frank Quinn, preprint, Sept. 1993.
 
-2) Lectures on axiomatic topological quantum field theory, by Frank
+2) "Lectures on axiomatic topological quantum field theory", by Frank
 Quinn, to appear in the proceedings of the Park City Geometry Institute.
 
-3) On the Andrews-Curtis conjecture and related problems, by Wolfgang
-Metzler, in Combinatorial Methods in Topology and Algebraic Geometry,
-Contemporary Mathematics 44, AMS, 1985.
+3) "On the Andrews-Curtis conjecture and related problems", by Wolfgang Metzler, in _Combinatorial Methods in Topology and Algebraic Geometry_, Contemporary Mathematics **44**, AMS, 1985.
 
 Last week I described - in a pretty sketchy way - how the 4-color
 theorem and the Beraha conjecture are related to TQFTs. These can be
@@ -32,13 +30,13 @@ inevitable mistakes.
 Actually, this conjecture is easiest to describe in a purely algebraic
 way, so I'll start there. Hopefully most of you know the concept of a
 "presentation" of a group in terms of generators and relations. For
-example, the group Z_n (integers mod n) has the presentation
-\<x\|x\^n\>. This means, roughly, that we form all products of the
-"generator" x and its inverse, and then mod out by the "relation"
-x\^n = 1. A bit more interesting is the dihedral group D_n of symmetries
-of a regular n-gon, counting rotations and reflections, with
-presentation \<x, y\|x\^n, y\^2, (xy)\^2\>. Here x corresponds to a
-clockwise rotation by 1/n-th of a turn, and y corresponds to a
+example, the group $\mathbb{Z}_n$ (integers $\mod n$) has the presentation
+$\langle x \mid x^n\rangle$. This means, roughly, that we form all products of the
+"generator" $x$ and its inverse, and then mod out by the "relation"
+$x^n = 1$. A bit more interesting is the dihedral group $D_n$ of symmetries
+of a regular $n$-gon, counting rotations and reflections, with
+presentation $\langle x,y \mid x^n, y^2, (xy)^2 \rangle$. Here $x$ corresponds to a
+clockwise rotation by $(1/n)$-th of a turn, and $y$ corresponds to a
 reflection.
 
 A group always has lots of different presentations, so a natural problem
@@ -50,14 +48,13 @@ mathematical logic that there is no such algorithm!
 If two presentations give the same group, one can get from one to the
 other by a sequence of the following easy steps, called Tietze moves:
 
-    1)   Throw in an extra new generator x together with the extra new
-    relation xg^{-1} where g is a product of the previous generators and
-    their inverses.
-    2)  The inverse of 1) - remove a generator x together with the relation
-    xg^{-1}, if possible (the relation xg^{-1} needs to be there!).
-    3)  Throw in a new relation that's a consequence of existing relations.
-    4)  The inverse of 2) - remove a relation that's a consequence of other
-    relations.  
+1)   Throw in an extra new generator $x$ together with the extra new
+relation $xg^{-1}$ where $g$ is a product of the previous generators and
+their inverses.
+2)  The inverse of 1) - remove a generator $x$ together with the relation $xg^{-1}$, if possible (the relation $xg^{-1}$ needs to be there!).
+3)  Throw in a new relation that's a consequence of existing relations.
+4)  The inverse of 2) - remove a relation that's a consequence of other
+relations.  
 
 So if one has two presentations and wants to see if they give same
 group, you could always set up a program that blindly tries using these
@@ -70,26 +67,26 @@ problem.
 
 In one form, the Andrews-Curtis conjecture goes as follows. Remember
 that the trivial group is the group with just the identity element; it
-has a presentation \<x\|x\>. Suppose we have some other "balanced"
+has a presentation $\langle x \mid x \rangle$. Suppose we have some other "balanced"
 presentation of the trivial group, that is a presentation with just as
-many generators as relations: \<x_1,...,x_n\|r_1,...,r_n\>. Then the
-conjecture is that it can be reduced to the presentation \<x\|x\> by a
+many generators as relations: $\langle x_1,...,x_n \mid r_1,...,r_n \rangle$. Then the
+conjecture is that it can be reduced to the presentation $\langle x \mid x \rangle$ by a
 sequence of the following moves that keep the presentation balanced:
 
-    1)  Throw in an extra new generator x together with the extra new
-    relation x.
-    2)  The inverse of 1).
-    3)  Permute the relations
-    4)  Change r_1 to r_1^{-1}
-    5)  Change r_1 to r_1r_2
-    6)  Change r_1 to gr_1g^{-1} for any g.
+1)  Throw in an extra new generator $x$ together with the extra new
+relation x.
+2)  The inverse of 1).
+3)  Permute the relations
+4)  Change $r_1$ to $r_1^{-1}$
+5)  Change $r_1$ to $r_1r_2$
+6)  Change $r_1$ to $gr_1g^{-1}$ for any $g$.
 
 The experts seem to think this conjecture is probably false - but nobody
 has disproved it. Metzler lists a few presentations of the trivial group
 that might be counterexamples: nobody has ever found a way to use moves
-1)-6) to boil them down to the presentation \<x\|x\>. For example,
+1)-6) to boil them down to the presentation $\langle x \mid x \rangle$. For example,
 
-    <a, b|b^5a^{-4}, aba(bab)^{-1}>.
+$$\langle a, b \mid b^5a^{-4}, aba(bab)^{-1}\rangle.$$
 
 Try it!
 
@@ -101,7 +98,7 @@ more. For example, it would shed some light on the Poincare conjecture
 says every 3-dimensional manifold homotopic to a 3-sphere is
 homeomorphic to a 3-sphere. The Andrews-Curtis conjecture implies that
 if the Poincare conjecture is false, any counterexample can in fact be
-embedded (topologically) in R\^4!
+embedded (topologically) in $\mathbb{R}^4$!
 
 It was the referee (does anyone know who that was) who noted that the
 Andrews-Curtis conjecture can be formulated in terms of "CW
@@ -115,12 +112,12 @@ the 0-cells in any way we want. In other words, we get a graph, possibly
 with some edges having both ends at the same vertex. To get a 2-complex,
 we take a set of "2-cells," that is, 2-dimensional closed disks, and
 glue their boundaries onto our 1-complex by any continuous map. And so
-on, with the "n-cells" being just copies of the closed unit ball in
-R\^n.
+on, with the "$n$-cells" being just copies of the closed unit ball in
+$\mathbb{R}^n$.
 
 CW complexes were invented by J. H. C. Whitehead in 1949 and are a key
 tool in algebraic topology. (The word "CW," by the way, seems to come
-from "closure-finite" and "weak" \-- as in "weak topology.") They
+from "closure-finite" and "weak" -- as in "weak topology.") They
 are a nice class of topological spaces since on the one hand, being
 built up by gluing simple pieces together, one can really understand
 them, and on the other hand, they are actually quite general. In fact,
@@ -132,12 +129,12 @@ topological space (i.e., any "compactly generated" space) is "weakly
 homotopy equivalent" to a CW complex. I won't burden you with the
 definitions here; I learned this stuff once upon a time from
 
-4) Elements of Homotopy Theory, by George W. Whitehead,
-Springer-Verlag, Berlin, 1978. ISBN 0-387-90336-4
+4) _Elements of Homotopy Theory_, by George W. Whitehead,
+Springer-Verlag, Berlin, 1978. ISBN `0-387-90336-4`
 
 Anyway, the Andrews-Curtis conjecture can be thought of as being about
 2-complexes. In fact, a group presentation can be regarded as
-instructions for building up a 2-complex \-- start with a point, glue on
+instructions for building up a 2-complex -- start with a point, glue on
 1-cells, one for each generator (obtaining a "bouquet of circles") and
 then glue on 2-cells, one for each relation, attaching their boundaries
 to the 1-cells in the manner presecribed by the relation. This 2-complex
@@ -151,23 +148,23 @@ One topological statement of the Andrews-Curtis conjecture is that "if
 two 2-complexes are simply equivalent then one can be 2-deformed to the
 other." I don't understand this as well as I want, so I won't explain
 it; instead, I'll briefly explain the (weaker?) version corresponding
-more closely to the algebraic statement above, namely "if X is a
+more closely to the algebraic statement above, namely "if $X$ is a
 contractible 2-complex, it can be 2-deformed to a point." Being
-"contractible" means that as far as homotopy theory goes X is just
+"contractible" means that as far as homotopy theory goes $X$ is just
 like a point. (E.g., the unit disk is contractible, while the circle is
 not.) And a "2-deformation" roughly means a sequence of moves
 consisting of adding or deleting 1-cells or 2-cells in a way that
 doesn't affect things as far as homotopy goes, or doing homotopies of
 attaching maps of 2-cells. The interesting thing about these
 formulations of the Andrews-Curtis conjecture is that their analogs for
-n \> 2 are true and in fact were shown by J H C Whitehead in 1939!
+$n > 2$ are true and in fact were shown by J H C Whitehead in 1939!
 
 Quinn's goal is to cook up invariants of 2-complexes that might detect
 counterexamples to the Andrews-Curtis conjecture, i.e., invariants under
 2-deformation. He wants to do it using 1+1-dimensional TQFTs of a sort
 that assign vector spaces to 1-complexes and linear maps to 2-complexes.
-Traditionally, TQFTs assign vector spaces to n-manifolds and linear maps
-to (n+1)-manifolds. Quinn calls his TQFTs "modular" because they have
+Traditionally, TQFTs assign vector spaces to $n$-manifolds and linear maps
+to $(n+1)$-manifolds. Quinn calls his TQFTs "modular" because they have
 a lot of formal similarities to the kind of TQFTs that come up in string
 theory (where the modular group reigns supreme). He gives a thorough
 axiomatic description of modular TQFTs in his lecture notes, and this is
@@ -178,26 +175,25 @@ The problem with coming up with an TQFT invariant that can catch
 counterexamples to the Andrews-Curtis conjecture is an interesting
 "stabilization" property that 2-complexes have. Namely, if two
 2-complexes are simply equivalent, one can can wedge them both with some
-large number k of 2-spheres and get complexes which are 2-deformable to
+large number $k$ of 2-spheres and get complexes which are 2-deformable to
 each other. It turns out that this means we want to find a TQFT such
-that Z(S\^2)\^k = 0. And so Quinn considers TQFTs based, not on the
-complex numbers, but on integers mod p.
+that $Z(S^2)^k = 0$. And so Quinn considers TQFTs based, not on the
+complex numbers, but on integers $\mod p$.
 
 A TQFT of his sort amounts to finding a symmetric tensor category of
 vector spaces and an object A in this category with some special
 properties corresponding to the fact that it is the vector space
-corresponding to the unit interval [0,1], which is the basic 1-complex
+corresponding to the unit interval $[0,1]$, which is the basic 1-complex
 from which one can build up more fancy ones. The kind of category he
 uses has been described by:
 
-5) S. Gelfand and D. Kazhdan, Examples of tensor categories, Invent.
-Math. 109 (1992) 595-617.
+5) S. Gelfand and D. Kazhdan, "Examples of tensor categories", _Invent. Math._ **109** (1992) 595--617.
 
 It is formed by starting with the category of representations of an
-algebraic group in characteristic p, and then making a semisimple
+algebraic group in characteristic $p$, and then making a semisimple
 category out of this in a manner strongly reminiscent of what they do in
 the theory of quantum groups at roots of unity. (See
-"[week5](week5.html)" for a bit more about this.) The object A is
+"week5" for a bit more about this.) The object $A$ is
 taken to be the sum of one copy of each irreducible representation.
 (Again, this is strikingly reminiscent, and no doubt based on, what
 occurs in the physics of the Wess-Zumino-Witten model, where quantum
@@ -206,46 +202,46 @@ groups at roots of unity play the role a finite group is playing here.)
 So, to round off a long story, Quinn and Ivelini Bobtcheva are currently
 engaged in some rather massive computer calculations in order to
 actually explicitly obtain the data necessary to calculate in the TQFTs
-of this form. They have been looking at the groups SL(2), SL(3), Sp(4)
-and G_2 over Z_p, where p is small (up to 19 for the SL(2) case). They
+of this form. They have been looking at the groups $SL(2)$, $SL(3)$, $Sp(4)$
+and $G_2$ over $\mathbb{Z}_p$, where $p$ is small (up to 19 for the $SL(2)$ case). They
 are finding some interesting stuff just by calculating the TQFT
 invariants of the 2-complexes corresponding to the presentations
-\<x\|x\^n\>. (Note that n = 0 gives a space that's a wedge of a circle
-and S\^2, while n = 1 gives a disk.) Namely, they are finding
-periodicity in n.
+$\langle x \mid x^n \rangle$. (Note that $n = 0$ gives a space that's a wedge of a circle
+and $S^2$, while $n = 1$ gives a disk.) Namely, they are finding
+periodicity in $n$.
 
 But they haven't found any counterexamples to the Andrews-Curtis
 conjecture yet!
 
-6) Knots and Quantum Gravity, ed. John Baez, Oxford University Press
+6) _Knots and Quantum Gravity_, ed. John Baez, Oxford University Press
 (to appear).
 
 This is the proceedings of a workshop held at U.C. Riverside; a large
 percentage of the papers contain new results. Let me simply list them:
 
-    The Loop Formulation of Gauge Theory and Gravity, by Renate Loll
+> "The Loop Formulation of Gauge Theory and Gravity", by Renate Loll
 
-    Representation Theory of Analytic Holonomy C* Algebras, by Abhay
-    Ashtekar and Jerzy Lewandowski 
+> "Representation Theory of Analytic Holonomy C\* Algebras", by Abhay
+> Ashtekar and Jerzy Lewandowski 
 
-    The Gauss Linking Number in Quantum Gravity, by Rodolfo Gambini and Jorge
-    Pullin (currently available as gr-qc/9310025)
+> "The Gauss Linking Number in Quantum Gravity", by Rodolfo Gambini and Jorge
+> Pullin (currently available as `gr-qc/9310025`)
 
-    Vassiliev Invariants and the Loop States in Quantum Gravity, by Louis H.
-    Kauffman (soon to be on gr-qc)
+> "Vassiliev Invariants and the Loop States in Quantum Gravity", by Louis H.
+> Kauffman (soon to be on gr-qc)
 
-    Geometric Structures and Loop Variables in (2+1)-Dimensional Gravity,
-    by Steven Carlip (currently available as gr-qc/9309020)
+> "Geometric Structures and Loop Variables in (2+1)-Dimensional Gravity",
+> by Steven Carlip (currently available as gr-qc/9309020)
 
-    From Chern-Simons to WZW via Path Integrals, by Dana S. Fine
+> "From Chern-Simons to WZW via Path Integrals", by Dana S. Fine
 
-    Topological Field Theory as the Key to Quantum Gravity, by Louis Crane
-    (currently available as hep-th/9308126)
+> "Topological Field Theory as the Key to Quantum Gravity", by Louis Crane
+> (currently available as `hep-th/9308126`)
 
-    Strings, Loops, Knots and Gauge Fields, by John Baez (currently
-    available as hep-th/9309067)
+> "Strings, Loops, Knots and Gauge Fields", by John Baez (currently
+> available as `hep-th/9309067`)
 
-    BF Theories and 2-knots, by Paolo Cotta-Ramusino and Maurizio Martellini
+> "BF Theories and 2-knots", by Paolo Cotta-Ramusino and Maurizio Martellini
 
-    Knotted Surfaces, Braid Movies, and Beyond, by J. Scott Carter and
-    Masahico Saito 
+> "Knotted Surfaces, Braid Movies, and Beyond", by J. Scott Carter and
+> Masahico Saito 
