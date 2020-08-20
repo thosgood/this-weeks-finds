@@ -1,4 +1,4 @@
-week21
+# Week 21
 
 Louis Kauffman is editing a series of volumes called "Series on Knots
 and Everything," published by World Scientific. The first volume was
@@ -12,13 +12,13 @@ such as the "Zamolodchikov tetrahedron equations" (which first
 appeared in string theory). A nice review of this subject and their work
 on it will appear in a while:
 
-1) Knotted surfaces, braid movies, and beyond, by J. Scott Carter and
-M. Saito, to appear in Knots and Quantum Gravity, ed. John Baez, Oxford
+1) "Knotted surfaces, braid movies, and beyond", by J. Scott Carter and
+M. Saito, to appear in _Knots and Quantum Gravity_, ed. John Baez, Oxford
 U. Press.
 
 but for the non-expert, a great way to get started is:
 
-2) How Surfaces Intersect in Space: An Introduction to Topology, by J.
+2) "How Surfaces Intersect in Space: An Introduction to Topology", by J.
 Scott Carter, World Scientific Press, Singapore 1993.
 
 You can tell this isn't a run-of-the-mill introductory topology book as
@@ -40,7 +40,7 @@ topology without taking itself too seriously.
 
 I remember first reading about topology as the study of doughnuts,
 Moebius strips and the like, and then being in a way disappointed as an
-undergrad \-- although in another way quite excited \-- when it seemed
+undergrad -- although in another way quite excited -- when it seemed
 that what topologists *really* did was a lot of "diagram-chasing," the
 algebraic technique widely used in homology and homotopy theory. Once,
 however, as a grad student, I took a course in "geometric topology" by
@@ -76,7 +76,7 @@ is called the "genus." All these surfaces are orientable, that is, one
 can define a consistent notion of "right" and "left" on them, so
 that if one writes a little word on them and slides the word around
 it'll never come back mirror-imaged. And in fact, all orientable
-surfaces are just n-handled tori, so they are classified by their genus.
+surfaces are just $n$-handled tori, so they are classified by their genus.
 
 A nice example of a nonorientable surface is the projective plane. One
 way to visualize this is to take the surface of the sphere and
@@ -143,9 +143,9 @@ way is to have triple points. Carter discusses a charming immersion of
 the projective plane in 3d space that only has curves of double points
 and a single triple point. This is known as "Boy's surface." A
 somewhat sneakier way immersions fail to be embeddings is by having
-"branch points." Think, for example, of the function sqrt(z) on the
+"branch points." Think, for example, of the function $\sqrt{z}$ on the
 complex plane. This is a two-valued function, so its graph consists of
-two "sheets" which glom together in a funny way at z = 0, the branch
+two "sheets" which glom together in a funny way at $z = 0$, the branch
 point. Carter also talks about another neat immersion of the projective
 plane in R\^3 that just has double points and a branch point - the
 "cross cap." Another immersion, the "Roman surface," has both triple
@@ -224,7 +224,7 @@ terminology)."
 I should add that the following book also has a lot of interesting
 pictures of surfaces in it:
 
-3) A Topological Picturebook, by George Francis, Springer-Verlag, 1987.
+3) _A Topological Picturebook_, by George Francis, Springer-Verlag, 1987.
 
 Problems:
 
@@ -234,15 +234,15 @@ left is a Moebius strip.
 B. Take two projective planes, cut out a little disc from each one and
 attach them along the resulting circles. This is called taking the
 "connected sum" of two projective planes. Show that the result is a
-Klein bottle. In symbols, P + P = K, or 2P = K.
+Klein bottle. In symbols, $P + P = K$, or $2P = K$.
 
 C. Now take the connected sum of a projective plane and a Klein bottle.
 Show that this is the same as a projective plane with a handle attached.
 A projective plane with a handle attached is just the connected sum of a
-projective plane and a torus, so we have: 3P = P + K = P + T.
+projective plane and a torus, so we have: $3P = P + K = P + T$.
 
-D. Show: 4P = K + K = K + T.
+D. Show: $4P = K + K = K + T$.
 
-E. Show: (2n+1)P = P + nT.
+E. Show: $(2n+1)P = P + nT$.
 
-F. Show: (2n+2)P = K + nT.
+F. Show: $(2n+2)P = K + nT$.
