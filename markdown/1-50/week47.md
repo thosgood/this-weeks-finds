@@ -1,13 +1,13 @@
-week47
+# Week 47
 
 Hi. I know I'm supposed to be taking a break from "This Week's
 Finds," but it's a habit that's hard to quit. I just want to briefly
 mention a couple of new electronic venues for mathematics and physics.
 First, there are a couple new preprint servers along the lines of
-hep-th:
+`hep-th`:
 
-       Nuclear Experiment (nucl-ex@xxx.lanl.gov), started 12/94 
-       Quantum Physics (quant-ph@xxx.lanl.gov), started 12/94 
+- Nuclear Experiment (`nucl-ex@xxx.lanl.gov`), started 12/94 
+- Quantum Physics (`quant-ph@xxx.lanl.gov`), started 12/94 
 
 To check these out, send email with subject header "help" and no
 message body to the address listed, or use more slick modern method.
@@ -16,13 +16,12 @@ There are also a bunch of math preprint servers I have been neglecting
 to mention. The newest one is devoted to "quantum algebra" (quantum
 groups and the like) and knot theory! Here are some:
 
-      Algebraic Geometry (alg-geom@eprints.math.duke.edu), started 2/92 
-      Functional Analysis (funct-an@xxx.lanl.gov), started 4/92
-      Differential Geometry and Global Analysis (dg-ga@msri.org), started 6/94 
-      Automorphic Forms (auto-fms@msri.org), started 6/94 
-      Complex Dynamics and Hyperbolic Geometry (cd-hg@msri.org), started 6/94 
-      Quantum Algebra (Including Knot Theory) (q-alg@eprints.math.duke.edu),
-        started 12/94 
+- Algebraic Geometry (`alg-geom@eprints.math.duke.edu`), started 2/92 
+- Functional Analysis (`funct-an@xxx.lanl.gov`), started 4/92
+- Differential Geometry and Global Analysis (`dg-ga@msri.org`), started 6/94 
+- Automorphic Forms (`auto-fms@msri.org`), started 6/94 
+- Complex Dynamics and Hyperbolic Geometry (`cd-hg@msri.org`), started 6/94 
+- Quantum Algebra (Including Knot Theory) (`q-alg@eprints.math.duke.edu`), started 12/94 
 
 Also, there is a new electronic journal on the theory and applications
 of category theory. This is a subject dear to my heart since much of the
