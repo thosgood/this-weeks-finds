@@ -6,7 +6,14 @@ TEX="./latex/TWF_1-50.tex"
 printf '%s\n' '\documentclass{article}' > $TEX
 
 printf "\n" >> $TEX
+printf '%s\n' '\usepackage{longtable}' >> $TEX
+printf '%s\n' '\usepackage{booktabs}' >> $TEX
+printf '%s\n' '\def\tightlist{}' >> $TEX
+
+printf "\n" >> $TEX
 printf '%s\n' '\usepackage{charter}' >> $TEX
+printf '%s\n' '\usepackage{fancyhdr}' >> $TEX
+printf '%s\n' '\pagestyle{fancy}' >> $TEX
 
 printf "\n" >> $TEX
 printf '%s\n' '\usepackage{amsmath,amssymb}' >> $TEX
@@ -23,11 +30,6 @@ printf '%s\n' '  \catcode`/=\active\catcode`[=\active\catcode`.=\active' >> $TEX
 printf '%s\n' '  \scantokens{#1\noexpand}%' >> $TEX
 printf '%s\n' '  \endgroup' >> $TEX
 printf '%s\n' '}' >> $TEX
-
-printf "\n" >> $TEX
-printf '%s\n' '\usepackage{longtable}' >> $TEX
-printf '%s\n' '\usepackage{booktabs}' >> $TEX
-printf '%s\n' '\def\tightlist{}' >> $TEX
 
 printf "\n" >> $TEX
 printf '%s\n' '\renewcommand{\thesection}{}' >> $TEX
