@@ -1,4 +1,4 @@
-week38
+# Week 38
 
 I've been busy, and papers have been piling up; there are lots of
 interesting ones that I really should describe in detail, but I had
@@ -7,11 +7,9 @@ day when I will have time to do them justice.
 
 So:
 
-1) B. Durhuus, H. P. Jakobsen and R. Nest, Topological quantum field
-theories from generalized 6j-symbols, Reviews in Math. Physics 5 (1993),
-1-67.
+1) B. Durhuus, H. P. Jakobsen and R. Nest, "Topological quantum field theories from generalized 6j-symbols", _Reviews in Math. Physics_ **5** (1993), 1--67.
 
-In "[week16](week16.html)" I explained a paper by Fukuma, Hosono and
+In "week16" I explained a paper by Fukuma, Hosono and
 Kawai in which they obtained topological quantum field theories in 2
 dimensions starting with a triangulation of a 2d surface. The theories
 were "topological" in the sense that the final answers one computed
@@ -52,7 +50,7 @@ call "higher-dimensional algebra" (following Ronnie Brown), in which
 the distinction between algebra and topology is largely erased, or, one
 might say, revealed for the sham it always was.
 
-For example, as explained more carefully in "[week16](week16.html)",
+For example, as explained more carefully in "week16",
 the (2,2) move is really just the same as the *associative* law for
 multiplication. The idea is that we are in a 2-dimensional spacetime,
 and a triangle represents multiplication: two "incoming states" go in
@@ -84,7 +82,7 @@ Then the (2,2) move represents associativity:
 
 Of course, the distinction between "incoming" and "outgoing" sides
 of the triangle is conventional, and the more detailed explanation in
-"[week16](week16.html)" shows how that fits into the formalism.
+"week16" shows how that fits into the formalism.
 Roughly speaking, what we have is not just any old algebra, but an
 algebra that, thought of as a vector space, is equipped with an
 isomorphism between it and its dual. This isomorphism allows us to
@@ -104,8 +102,8 @@ interesting point is that when we think about 3-dimensional topology and
        \|/               \ /
         O                 O
 
-as representing *equal* operations (the 3-fold multiplication of A, B,
-and C); instead, we should think of them as merely *isomorphic*, with
+as representing *equal* operations (the 3-fold multiplication of $A$, $B$,
+and $C$); instead, we should think of them as merely *isomorphic*, with
 the tetrahedron of which they are the front and back being the
 isomorphism. The basic philosophy is that in higher-dimensional algebra,
 as one ascends the ladder of dimensions, certain things which had been
@@ -121,38 +119,36 @@ deal with such issues first.)
 
 Now, it turns out that in 3-dimensional algebra, the isomorphism
 corresponding to the (2,2) move is not something marvelously obscure. It
-is in fact precisely what physicists call the "6j symbol", a gadget
+is in fact precisely what physicists call the "$6j$ symbol", a gadget
 they've been using to study angular momentum in quantum mechanics for a
 long time! In quantum mechanics, the study of angular momentum is just
-the study of representations of the group SU(2), and if one has
-representations A, B, and C of this group (or any other), the tensor
-products (A tensor B) tensor C and A tensor (B tensor C) are not
+the study of representations of the group $SU(2)$, and if one has
+representations $A$, $B$, and $C$ of this group (or any other), the tensor
+products $(A \otimes B) \otimes C$ and $A \otimes (B \otimes C)$ are not
 *equal*, but merely *isomorphic*. It should come as no surprise that
 this isomorphism is represented by physicists as a big gadget with 6
-indices dangling on it, the "6j symbol".
+indices dangling on it, the "$6j$ symbol".
 
 Quite a while back, Regge and Ponzano tried to cook up a theory of
-quantum gravity in 3 dimensions using the 6j symbols for SU(2). More
+quantum gravity in 3 dimensions using the $6j$ symbols for $SU(2)$. More
 recently, Turaev and Viro built a 3-dimensional topological quantum
-field theory using the 6j-symbols of the *quantum group* SU~q~(2), and
+field theory using the $6j$-symbols of the *quantum group* $SU_q(2)$, and
 this led to lots of work, which the above article explains in a
 distilled sort of way.
 
 The original Ponzano-Regge and Turaev-Viro papers, and various other
 ones clarifying the relation of the Turaev/Viro theory to quantum
 gravity in spacetimes of dimension 3, are listed in
-"[week16](week16.html)". It's also worth checking out the paper by
-Barrett and Foxon listed in "[week24](week24.html)", as well as the
+"week16". It's also worth checking out the paper by
+Barrett and Foxon listed in "week24", as well as the
 following paper, for which I'll just quote the abstract:
 
-2) Timothy J. Foxon, Spin networks, Turaev-Viro theory and the loop
-representation, available as
-[gr-qc/9408013](http://xxx.lanl.gov/abs/gr-qc/9408013).
+2) Timothy J. Foxon, "Spin networks, Turaev-Viro theory and the loop representation", available as [`gr-qc/9408013`](http://xxx.lanl.gov/abs/gr-qc/9408013).
 
 > We investigate the Ponzano-Regge and Turaev-Viro topological field
-> theories using spin networks and their q-deformed analogues. I propose
+> theories using spin networks and their $q$-deformed analogues. I propose
 > a new description of the state space for the Turaev-Viro theory in
-> terms of skein space, to which q-spin networks belong, and give a
+> terms of skein space, to which $q$-spin networks belong, and give a
 > similar description of the Ponzano-Regge state space using spin
 > networks. I give a definition of the inner product on the skein space
 > and show that this corresponds to the topological inner product,
@@ -164,17 +160,16 @@ representation, available as
 
 (Concerning the last point I cannot resist mentioning my own paper on
 knot theory and the inner product in quantum gravity, available as
-[tang.tex](http://math.ucr.edu/home/baez/tang.tex).)
+[`tang.tex`](http://math.ucr.edu/home/baez/tang.tex).)
 
 In addition to the papers by Turaev-Viro and Fukuma-Shapere listed in
-"[week16](week16.html)", there are some other papers on Hopf algebras
+"week16", there are some other papers on Hopf algebras
 and 3d topological quantum field theories that I should list:
 
-3) Greg Kuperberg, Involutory Hopf algebras and three-manifold
-invariants, Internat. Jour. Math 2 (1991), 41-66.
+3) Greg Kuperberg, "Involutory Hopf algebras and three-manifold invariants", _Internat. Jour. Math_ **2** (1991), 41--66.
 
-A definition of \#(M,H) in the non-involutory case, by Greg Kuperberg,
-unpublished.
+    "A definition of $\#(M,H)$ in the non-involutory case", by Greg Kuperberg,
+    unpublished.
 
 Greg Kuperberg is one of the few experts on this subject who is often
 found on the net; he is frequently known to counteract my rhetorical
@@ -184,16 +179,11 @@ which is sadly still unpublished, make it beautifully clear how
 structures on Hopf algebras have a pleasant tendency to interact just as
 needed to give 3d topological quantum field theories.
 
-4) John W. Barrett and Bruce W. Westbury, Spherical categories,
-available as [hep-th/9310164](http://xxx.lanl.gov/abs/hep-th/9310164).
+4) John W. Barrett and Bruce W. Westbury, "Spherical categories", available as [`hep-th/9310164`](http://xxx.lanl.gov/abs/hep-th/9310164).
 
-John W. Barrett and Bruce W. Westbury, Invariants of piecewise-linear
-3-manifolds, Trans. Amer. Math. Soc. 348 (1996), 3997-4022. Also
-available as [hep-th/9311155](http://xxx.lanl.gov/abs/hep-th/9311155).
+    John W. Barrett and Bruce W. Westbury, "Invariants of piecewise-linear 3-manifolds", _Trans. Amer. Math. Soc._ **348** (1996), 3997--4022. Also available as [`hep-th/9311155`](http://xxx.lanl.gov/abs/hep-th/9311155).
 
-John W. Barrett and Bruce W. Westbury, The equality of 3-manifold
-invariants, available as
-[hep-th/9406019](http://xxx.lanl.gov/abs/hep-th/9406019).
+    John W. Barrett and Bruce W. Westbury, "The equality of 3-manifold invariants", available as [`hep-th/9406019`](http://xxx.lanl.gov/abs/hep-th/9406019).
 
 Let me quote the abstract for the first one; the second one gives a
 construction of 3-manifold invariants, and the third shows that the
@@ -203,7 +193,7 @@ defined.
 > This paper is a study of monoidal categories with duals where the
 > tensor product need not be commutative. The motivating examples are
 > categories of representations of Hopf algebras and the motivating
-> application is the definition of 6j-symbols as used in topological
+> application is the definition of $6j$-symbols as used in topological
 > field theories.
 >
 > We introduce the new notion of a spherical category. In the first
@@ -218,9 +208,7 @@ defined.
 > Finally we study the natural quotient in these cases and show it is
 > semisimple.
 
-5) Louis H. Kauffman and David E. Radford, Invariants of 3-Manifolds
-derived from finite dimensional Hopf algebras, by available as
-[hep-th/9406065](http://xxx.lanl.gov/abs/hep-th/9406065).
+5) Louis H. Kauffman and David E. Radford, "Invariants of 3-Manifolds derived from finite dimensional Hopf algebras", by available as [`hep-th/9406065`](http://xxx.lanl.gov/abs/hep-th/9406065).
 
 This is paper also relates 3d topology and certain finite-dimensional
 Hopf algebras, and it shows they give 3-manifold invariants distinct
@@ -229,9 +217,7 @@ I have not had time to think about how they relate to the above ones,
 but I have a hunch that they are the same, since all of them make heavy
 use of special grouplike elements associated to the antipode.
 
-6) Louis Crane and Igor Frenkel, Four dimensional topological quantum
-field theory, Hopf categories, and the canonical bases, available as
-[hep-th/9405183](http://xxx.lanl.gov/abs/hep-th/9405183).
+6) Louis Crane and Igor Frenkel, "Four dimensional topological quantum field theory, Hopf categories, and the canonical bases", available as [`hep-th/9405183`](http://xxx.lanl.gov/abs/hep-th/9405183).
 
 Work in 4 dimensions is, as one expect, still more subtle than in 3,
 since again various things that were equalities becomes isomorphisms. In
@@ -239,14 +225,14 @@ particular, this means that various things one thought were vector
 spaces - which are *sets* that have *elements* that you can *add* and
 *multiply by numbers*, and which satisfy *equations* like
 
-A + B = B + A
+$$A + B = B + A$$
 
 are now reinterpreted as "2-vector spaces", which are *categories*
 that have *objects* that you can *direct sum* and *tensor with vector
 spaces*, and which have certain *natural isomorphisms* like the
 isomorphism
 
-A ⊕ B ≅ B ⊕ A.
+$$A \oplus B \cong B \oplus A.$$
 
 In particular, using Lusztig's canonical basis, Crane and Frenkel start
 with quantum groups (which are Hopf algebras of a certain sort) and
@@ -266,36 +252,20 @@ papers I'm writing) a bit more about how the loop representation of a
 gauge theory is interesting from the viewpoint of higher-dimensional
 algebra!
 
-7) A. Ashtekar, J. Lewandowski, D. Marolf, J. Mourao and T. Thiemann, A
-manifestly gauge-invariant approach to quantum theories of gauge fields,
-contribution to the Cambridge meeting proceedings, available as
-[hep-th/9408108](http://xxx.lanl.gov/abs/hep-th/9408108).
+7) A. Ashtekar, J. Lewandowski, D. Marolf, J. Mourao and T. Thiemann, "A manifestly gauge-invariant approach to quantum theories of gauge fields", contribution to the Cambridge meeting proceedings, available as [`hep-th/9408108`](http://xxx.lanl.gov/abs/hep-th/9408108).
 
-Jerzy Lewandowski, Topological measure and graph-differential geometry
-on the quotient space of connections, Proceedings of "Journees
-Relativistes 1993", available as
-[gr-qc/9406025](http://xxx.lanl.gov/abs/gr-qc/9406025).
+    Jerzy Lewandowski, "Topological measure and graph-differential geometry on the quotient space of connections", _Proceedings of "Journees Relativistes 1993"_, available as [`gr-qc/9406025`](http://xxx.lanl.gov/abs/gr-qc/9406025).
 
-Abhay Ashtekar, Donald Marolf and Jose Mourao, Integration on the space
-of connections modulo gauge transformations, available as
-[gr-qc/9403042](http://xxx.lanl.gov/abs/gr-qc/9403042).
+    Abhay Ashtekar, Donald Marolf and Jose Mourao, "Integration on the space of connections modulo gauge transformations", available as [`gr-qc/9403042`](http://xxx.lanl.gov/abs/gr-qc/9403042).
 
-A. Ashtekar and R. Loll, New loop representations for 2+1 gravity,
-available as [gr-qc/9405031](http://xxx.lanl.gov/abs/gr-qc/9405031).
+    A. Ashtekar and R. Loll, "New loop representations for 2+1 gravity", available as [`gr-qc/9405031`](http://xxx.lanl.gov/abs/gr-qc/9405031).
 
-R. Loll, Independent loop invariants for 2+1 gravity, available as
-[gr-qc/9408007](http://xxx.lanl.gov/abs/gr-qc/9408007).
+    R. Loll, "Independent loop invariants for 2+1 gravity", available as [`gr-qc/9408007`](http://xxx.lanl.gov/abs/gr-qc/9408007).
 
-R. Loll, J.M. Mourão and J.N. Tavares, Generalized coordinates on the
-phase space of Yang-Mills theory, available as
-[gr-qc/9404060](http://xxx.lanl.gov/abs/gr-qc/9404060).
+    R. Loll, J.M. Mourão and J.N. Tavares, "Generalized coordinates on the phase space of Yang-Mills theory", available as [`gr-qc/9404060`](http://xxx.lanl.gov/abs/gr-qc/9404060).
 
-C. Di Bartolo, R. Gambini and J. Griego, The extended loop
-representation of quantum gravity, available as
-[gr-qc/9406039](http://xxx.lanl.gov/abs/gr-qc/9406039).
+    C. Di Bartolo, R. Gambini and J. Griego, "The extended loop representation of quantum gravity", available as [`gr-qc/9406039`](http://xxx.lanl.gov/abs/gr-qc/9406039).
 
-Rodolfo Gambini, Alcides Garat and Jorge Pullin, The constraint algebra
-of quantum gravity in the loop representation, available as
-[gr-qc/9404059](http://xxx.lanl.gov/abs/gr-qc/9404059).
+    Rodolfo Gambini, Alcides Garat and Jorge Pullin, "The constraint algebra of quantum gravity in the loop representation", available as [`gr-qc/9404059`](http://xxx.lanl.gov/abs/gr-qc/9404059).
 
 ------------------------------------------------------------------------
