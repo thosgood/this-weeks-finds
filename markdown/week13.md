@@ -5,7 +5,7 @@ since I'm getting rather busy preparing for my conference on knots and
 quantum gravity, and I have a paper that seems to be taking forever to
 finish.
 
-1) Elliptic Curves by Anthony W. Knapp, Mathematical Notes, Princeton
+1) _Elliptic Curves_ by Anthony W. Knapp, Mathematical Notes, Princeton
 University Press, 1992.
 
 This is a shockingly user-friendly introduction to a subject that can
@@ -18,10 +18,9 @@ What I will say will perhaps appeal to people who like complex analysis
 or mathematical physics, but Knapp concentrates on the aspects related
 to number theory. For other approaches one might try
 
-2) Elliptic Functions by Serge Lang, Springer-Verlag, 2nd edition,
-1987.
+2) _Elliptic Functions_ by Serge Lang, Springer-Verlag, 2nd edition, 1987.
 
-3) Elliptic Curves by Dale Husemoeller, Springer-Verlag, 1987.
+3) _Elliptic Curves_ by Dale Husemoeller, Springer-Verlag, 1987.
 
 Okay, where to start? Well, how about this: the sine function is an
 analytic function on the complex plane with the property that
@@ -227,9 +226,8 @@ enjoy trying this one if they don't know it already.
 
 Some more stuff:
 
-4) Closed string field theory, strong homotopy Lie algebras and the
-operad actions of moduli spaces, by Jim Stasheff, preprint available as
-[hep-th/9304061](http://xxx.lanl.gov/abs/hep-th/9304061).
+4) "Closed string field theory, strong homotopy Lie algebras and the operad actions of moduli spaces", by Jim Stasheff, preprint available as
+[`hep-th/9304061`](http://xxx.lanl.gov/abs/hep-th/9304061).
 
 One conceptually pleasing approach to string theory is closed string
 field theory, where one takes as the basic object unparametrized maps
@@ -258,15 +256,14 @@ quantum gravity. Unfortunately, I scarcely know the subject - I had
 hoped Stasheff's work would help me, but it seems that this metric
 always enters.
 
-5) A geometrical presentation of the surface mapping class group and
-surgery, by Sergey Matveev and Michael Polyak, preprint.
+5) "A geometrical presentation of the surface mapping class group and surgery", by Sergey Matveev and Michael Polyak, preprint.
 
 This paper shows how to express the mapping class group of a surface in
 terms of tangles. This gives a nice relationship between two approaches
 to 3d TQFTs (topological quantum field theories): the Heegard
 decomposition approach, and the surgery on links approach.
 
-6) Invariants of 3-manifolds and conformal field theories, by Micheal
+6) "Invariants of 3-manifolds and conformal field theories", by Micheal
 Polyak, preprint.
 
 The main good thing about this paper in my opinion is that it simplifies

@@ -19,8 +19,8 @@ at which point one could read more serious stuff on the subject.
 
 A while back Lee Rudolph asked my opinion of the following article:
 
-1) "Theoretical Mathematics": Toward a cultural synthesis of
-mathematics and theoretical physics, by Arthur Jaffe and Frank Quinn, to
+1) ""Theoretical Mathematics": Toward a cultural synthesis of
+mathematics and theoretical physics", by Arthur Jaffe and Frank Quinn, to
 appear in the July 1993 Bulletin of the AMS (apparently available by
 gopher at `e-math.ams.com`, but don't ask me how since I couldn't get it
 that way).
@@ -52,8 +52,8 @@ a look at this.
 
 Now for two books:
 
-2) New Scientific Applications of Geometry and Topology, ed. DeWitt L.
-Sumner, Proc. Symp. Appl. Math. 45, published by the AMS.
+2) _New Scientific Applications of Geometry and Topology_, ed. DeWitt L.
+Sumner, _Proc. Symp. Appl. Math._ **45**, published by the AMS.
 
 This volume has a variety of introductory papers on applications of knot
 theory; the titles are roughly "Evolution of DNA topology," "Geometry
@@ -61,7 +61,7 @@ and topology of DNA and DNA-protein interactions," "Knot theory and
 DNA," "Topology of polymers," "Knots and Chemistry," and "Knots
 and physics."
 
-3) Temperley-Lieb Recoupling Theory and Invariants of 3-Manifolds, by
+3) _Temperley-Lieb Recoupling Theory and Invariants of 3-Manifolds_, by
 Louis Kauffman and Sostenes Lins, to be published by Princeton U. Press.
 
 This is an elegant exposition of the 3-manifold invariants obtained from
@@ -71,7 +71,7 @@ interesting new ideas.
 
 And now for some papers:
 
-4) 12j-symbols and four-dimensional quantum gravity, by M. Carfora, M.
+4) "12j-symbols and four-dimensional quantum gravity", by M. Carfora, M.
 Martellini (`martellini@milano.infn.it`), and A. Marzuoli, Dipartimento
 di Fisica, Universita di Roma "La Sapienza" preprint.
 
@@ -80,15 +80,15 @@ company so nicely did for 3d quantum gravity (see
 "week16") - describe it using triangulated manifolds
 and angular momentum theory.
 
-5) Selected topics in quantum groups, by Y. S. Soibelman
+5) "Selected topics in quantum groups", by Y. S. Soibelman
 (`soibel@math.harvard.edu`), Lectures for the European School of Group
 Theory, Harvard University preprint.
 
 This is a nice review of Soibelman's work on quantum groups, quantum
 spheres, and other aspects of "quantum geometry."
 
-6) Braids and movies, by J. Scott Carter
-(carter@mathstat.usouthal.edu) and Masahico Saito, preprint.
+6)" Braids and movies", by J. Scott Carter
+(`carter@mathstat.usouthal.edu`) and Masahico Saito, preprint.
 
 Just as every knot or link is given as the closure of a braid - for
 example, the trefoil knot
@@ -135,7 +135,7 @@ the closure of a "2-braid". Just as there are "Markov moves" that
 say when two links come from the same braid, there are moves for
 2-braids - as discussed here.
 
-7) Combinatorial Invariants from Four Dimensional Lattice Models: II,
+7) "Combinatorial Invariants from Four Dimensional Lattice Models: II",
 by Danny Birmingham and Mark Rakowski, preprint available in LaTeX form
 as [`hep-th/9305022`](http://xxx.lanl.gov/abs/hep-th/9305022).
 
@@ -155,8 +155,8 @@ similar lines was discussed here in "week9" and
 trivial. This is a new attempt and Broda has told me that the arguments
 for the earlier invariant being trivial do not apply. Here's hoping!
 
-9) Solutions to the Wheeler DeWitt Constraint of Canonical Gravity
-Coupled to Scalar Matter Fields, by H.-J. Matschull, preprint, 7 pages
+9) "Solutions to the Wheeler DeWitt Constraint of Canonical Gravity
+Coupled to Scalar Matter Fields", by H.-J. Matschull, preprint, 7 pages
 in LaTeX available as
 [`gr-qc/9305025`](http://xxx.lanl.gov/abs/gr-qc/9305025).
 
@@ -170,27 +170,27 @@ loops in the three dimensional hypersurface and which are extensions of
 the well known Wilson loop solutions found by Jacobson, Rovelli and
 Smolin.
 
-10) Hilbert space of wormholes, by Luis J. Garay, preprint, 23 pages (2
+10) "Hilbert space of wormholes", by Luis J. Garay, preprint, 23 pages (2
 figures available upon request from `garay@cc.csic.es`) available in
 REVTEX as [`gr-qc/9306002`](http://xxx.lanl.gov/abs/gr-qc/9306002).
 
 I think I'll just quote the abstract on this one:
 
-    Wormhole boundary conditions for the Wheeler--DeWitt equation
-    can be  derived from the path integral formulation. It is
-    proposed that the wormhole wave function must be square
-    integrable in the maximal analytic extension of minisuperspace.
-    Quantum wormholes can be invested with a Hilbert space
-    structure, the inner product being naturally induced by the
-    minisuperspace metric, in which the Wheeler--DeWitt operator is
-    essentially self--adjoint. This provides us  with a kind of
-    probabilistic interpretation.  In particular, giant wormholes
-    will give extremely small contributions to any wormhole state.
-    We also study the whole spectrum of the Wheeler--DeWitt
-    operator and its role in the calculation of Green's functions
-    and effective low energy interactions.
+> Wormhole boundary conditions for the Wheeler--DeWitt equation
+  can be  derived from the path integral formulation. It is
+  proposed that the wormhole wave function must be square
+  integrable in the maximal analytic extension of minisuperspace.
+  Quantum wormholes can be invested with a Hilbert space
+  structure, the inner product being naturally induced by the
+  minisuperspace metric, in which the Wheeler--DeWitt operator is
+  essentially self--adjoint. This provides us  with a kind of
+  probabilistic interpretation.  In particular, giant wormholes
+  will give extremely small contributions to any wormhole state.
+  We also study the whole spectrum of the Wheeler--DeWitt
+  operator and its role in the calculation of Green's functions
+  and effective low energy interactions.
 
-11) Chern-Simons theory as topological closed string, Vipul Periwal,
+11) "Chern-Simons theory as topological closed string", Vipul Periwal,
 preprint, 7 pages available as
 [`hep-th/9305115`](http://xxx.lanl.gov/abs/hep-th/9305115).
 
@@ -212,7 +212,7 @@ able to understand it. It starts:
   intractable) of all planar diagrams.  The topological classification of
   diagrams has nothing a priori to do with approximating the dynamics with
   a theory of strings evolving in spacetime.
-
+> 
 > Gross (see also refs...) has shown recently that the large $N$ expansion
   does actually provide a way of associating a theory of strings in QCD.
   Maps of two-dimensional string worldsheets into two-dimensional

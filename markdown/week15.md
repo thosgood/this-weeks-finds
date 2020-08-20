@@ -264,9 +264,9 @@ are in a sense dual descriptions of certain TQFTs.
 A rather technical introduction to currently interesting topics in
 closed string field theory has just appeared:
 
-1) Closed string field theory - an introduction, by Barton Zwiebach,
+1) "Closed string field theory - an introduction", by Barton Zwiebach,
 preprint available as
-[hep-th/9305026](http://xxx.lanl.gov/abs/hep-th/9305026) (requires the
+[`hep-th/9305026`](http://xxx.lanl.gov/abs/hep-th/9305026) (requires the
 phyzzx macros to print; these macros are also available from hep-th; see
 below).
 
@@ -276,10 +276,10 @@ representation of quantum gravity is very like a "background-free"
 string field theory. A paper that recently came out and appears to
 support my notions is the following:
 
-2) Two-dimensional Yang-Mills Theories Are String Theories, by S.G.
+2) "Two-dimensional Yang-Mills Theories Are String Theories", by S.G.
 Naculich, H.A. Riggs, and H.J. Schnitzer, 14 pages, preprint available
 in latex form as
-[hep-th/9305097](http://xxx.lanl.gov/abs/hep-th/9305097).
+[`hep-th/9305097`](http://xxx.lanl.gov/abs/hep-th/9305097).
 
 Apparently this builds on work by Gross, Taylor, and Minahan which
 treated $SU(n)$ Yang-Mills theories in 2 dimensions as string theories,
@@ -289,9 +289,9 @@ I have a pack of interesting papers to describe but I am already worn
 out, so I will put that off until next week, except for the following
 paper by Smolin that I seem to have neglected:
 
-3) What can we learn from the study of non-perturbative quantum general
-relativity? by Lee Smolin, 37 pages, preprint available in latex form as
-[gr-qc/9211019](http://xxx.lanl.gov/abs/gr-qc/9211019).
+3) "What can we learn from the study of non-perturbative quantum general
+relativity?" by Lee Smolin, 37 pages, preprint available in latex form as
+[`gr-qc/9211019`](http://xxx.lanl.gov/abs/gr-qc/9211019).
 
 This is a nice introduction to current issues associated to the loop
 representation of quantum gravity and nonperturbative quantum gravity in

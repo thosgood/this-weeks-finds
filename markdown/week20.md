@@ -3,9 +3,9 @@
 I think I'll depart from my usual concerns this week and talk about a
 book I'd been meaning to get my hands on for ages:
 
-1) John H. Conway and Neil J. A. Sloane, Sphere Packings, Lattices and
-Groups, second edition, Grundlehren der mathematischen Wissenschaften
-290, Springer-Verlag, 1993.
+1) John H. Conway and Neil J. A. Sloane, _Sphere Packings, Lattices and
+Groups_, second edition, _Grundlehren der mathematischen Wissenschaften_
+**290**, Springer-Verlag, 1993.
 
 This is a mind-boggling book. I have always regarded research in
 combinatorics as a pleasure I must deny myself, for the study of the
@@ -315,8 +315,8 @@ Sloane have a lot to say about them and their relations to lattices and
 error-correcting codes. For more about Monstrous Moonshine and string
 theory, the reader should try this:
 
-2) Igor Frenkel, James Lepowsky, and Arne Meurman, Vertex Operator
-Algebras and the Monster, Academic Press, New York, 1988.
+2) Igor Frenkel, James Lepowsky, and Arne Meurman, _Vertex Operator
+Algebras and the Monster_, Academic Press, New York, 1988.
 
 Rather than attempt to describe this work, which I am not really
 qualified to do (not that that usually stops me!), I think I will finish

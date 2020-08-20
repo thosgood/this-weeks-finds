@@ -10,9 +10,9 @@ while, which treats exactly this issue. Then I'll describe two review
 articles, one on gravity in 2+1 dimensions (which is closely related to
 the lattice business), and one on Lagrangians for quantum gravity.
 
-1) Structure of Topological Lattice Field Theories in Three Dimensions,
+1) "Structure of Topological Lattice Field Theories in Three Dimensions",
 by Stephen-wei Chung, Masafumi Fukuma and Alfred Shapere, preprint,
-available as [hep-th/9305080](http://xxx.lanl.gov/abs/hep-th/9305080)
+available as [`hep-th/9305080`](http://xxx.lanl.gov/abs/hep-th/9305080)
 (make sure to get the pictures if possible)!
 
 What's a 2-dimensional "topological lattice field theory"? According
@@ -206,13 +206,13 @@ finite-dimensional semsimple algebras over the complex numbers!
 
 Actually this was apparently already shown by
 
-2) C. Bachas and P. M. S. Petropoulos, Comm. Math. Phys. 152 (1993) 191.
+2) C. Bachas and P. M. S. Petropoulos, _Comm. Math. Phys._ **152** (1993) 191.
 
 and
 
-3) Lattice topological field theory in two-dimensions, by M. Fukuma, S.
+3) "Lattice topological field theory in two-dimensions", by M. Fukuma, S.
 Hosono and H. Kawai, preprint available as
-[hep-th/921254](http://xxx.lanl.gov/abs/hep-th/921254).
+[`hep-th/921254`](http://xxx.lanl.gov/abs/hep-th/921254).
 
 The big result of the present paper is to generalize this to 3
 dimensions. The authors consider a specific definition of 3d topological
@@ -255,9 +255,9 @@ are only beginning to understand.
 
 ------------------------------------------------------------------------
 
-4) Six ways to quantize (2+1)-dimensional gravity, by Steven Carlip
+4) "Six ways to quantize (2+1)-dimensional gravity", by Steven Carlip
 (`carlip@nsfitp.itp.ucsb.edu`), 21 pages, preprint available in LaTeX
-form as gr-qc/9305020.
+form as `gr-qc/9305020`.
 
 While we have no real way to quantize gravity in 3+1 dimensions -
 although lots of good ideas - we have six, count 'em, six, ways to do
@@ -402,20 +402,20 @@ lattice 2+1 gravity, a subject I'm fascinated by these days.
 
 The grandaddy of the all, the Ponzano-Regge paper, is:
 
-6) G. Ponzano and T. Regge: in Bloch, F. (ed.), Spectroscopic and Group
-Theoretical Methods in Physics, Amsterdam: North-Holland 1968.
+6) G. Ponzano and T. Regge: in Bloch, F. (ed.), _Spectroscopic and Group
+Theoretical Methods in Physics_, Amsterdam: North-Holland 1968.
 
 Then there are:
 
-7) E. Witten, Nucl. Phys. B311 (1988), 46.
+7) E. Witten, _Nucl. Phys._ **B311** (1988), 46.
 
-8) State sum invariants of 3-manifolds and quantum 6j-symbols, by V. G.
-Turaev and O. Y. Viro, Topology 31 (1992), 865.
+8) "State sum invariants of 3-manifolds and quantum 6j-symbols", by V. G.
+Turaev and O. Y. Viro, _Topology_ **31** (1992), 865.
 
 Also Ooguri wrote a paper on 3+1 lattice gravity that has been quite
 influential:
 
-9) H. Ooguri, Mod. Phys. Lett. A7 (1992), 2799.
+9) H. Ooguri, _Mod. Phys. Lett._ **A7** (1992), 2799.
 
 And there is also the recent paper by Rovelli, which I discussed in
 "week14". This is very readable (once you know what's
@@ -423,9 +423,9 @@ going on!) and conceptual.
 
 ------------------------------------------------------------------------
 
-10) Actions for Gravity, with Generalizations: A Review, by Peter
-Peldan (tfepp@fy.chalmers.se), 61 pages, preprint available as
-gr-qc/9305011
+10) "Actions for Gravity, with Generalizations: A Review", by Peter
+Peldan (`tfepp@fy.chalmers.se`), 61 pages, preprint available as
+`gr-qc/9305011`.
 
 The classic action principle for general relativity is the
 Einstein-Hilbert action: the Ricci scalar times the volume form

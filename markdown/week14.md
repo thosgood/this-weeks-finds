@@ -83,7 +83,7 @@ definition, try my notes on "symmetries"**???** and (if you
 don't know what categories are) "categories"**???**. For a
 serious tour of TQFTs and the like, try his book:
 
-The Geometry and Physics of Knots, by Michael Atiyah, Cambridge U.
+> _The Geometry and Physics of Knots_, by Michael Atiyah, Cambridge U.
 Press, 1990.
 
 One can think of a TQFT as a framework in which a Wheeler-DeWitt-like
@@ -126,9 +126,8 @@ enough.
 
 In the following paper:
 
-1) Skein theory and Turaev-Viro invariants, by Justin Roberts, Pembroke
-College preprint, April 14, 1993 (Roberts is at
-J.D.Roberts@pmms.cam.ac.uk)
+1) "Skein theory and Turaev-Viro invariants", by Justin Roberts, Pembroke
+College preprint, April 14, 1993 (Roberts is at `J.D.Roberts@pmms.cam.ac.uk`)
 
 Roberts *almost* claims to show that the Crane-Yetter invariant is
 trivial in the same sense, namely that the partition function of any
@@ -154,9 +153,8 @@ rigorous analog of some work by Ooguri on simplicial quantum gravity.
 
 Then, about a week ago, Rovelli put a paper onto the net:
 
-2) The basis of the Ponzano-Regge-Turaev-Viro-Ooguri model is the loop
-representation basis, 16 pages in LaTeX, Friday April 30, available as
-[hep-th/9304164](http://xxx.lanl.gov/abs/hep-th/9304164).
+2) "The basis of the Ponzano-Regge-Turaev-Viro-Ooguri model is the loop representation basis", 16 pages in LaTeX, Friday April 30, available as
+[`hep-th/9304164`](http://xxx.lanl.gov/abs/hep-th/9304164).
 
 This is a remarkable paper that I have not been able to absorb yet.
 First it goes over 3d quantum gravity - which *has* been made into a
@@ -302,10 +300,10 @@ worth it...
 
 Next, let me take the liberty of describing some work of my own:
 
-3) Diffeomorphism-invariant generalized measures on the space of
-connections modulo gauge transformations, by John Baez, to appear in the
+3) "Diffeomorphism-invariant generalized measures on the space of
+connections modulo gauge transformations", by John Baez, to appear in the
 proceedings of the Conference on Quantum Topology, Manhattan, Kansas,
-May 8, 1993, available as "state.tex"**???**.
+May 8, 1993.
 
 This is an extremely interesting paper by a very good mathematician.
 Whoops! Let's be objective here. In the loop representation of quantum
@@ -341,10 +339,10 @@ understand "measures" on the space $A/G$.
 The following is a part of a paper discussed in "week5",
 now available from gr-qc:
 
-4) Completeness of Wilson loop functionals on the moduli space of
-SL(2,C) and SU(1,1)-connections, Abhay Ashtekar and Jerzy Lewandowski,
+4) "Completeness of Wilson loop functionals on the moduli space of
+$SL(2,\mathbb{C})$ and $SU(1,1)$-connections", Abhay Ashtekar and Jerzy Lewandowski,
 Plain TeX, 7 pages, available as
-[gr-qc/9304044](http://xxx.lanl.gov/abs/gr-qc/9304044).
+[`gr-qc/9304044`](http://xxx.lanl.gov/abs/gr-qc/9304044).
 
 I didn't discuss this aspect of the paper, so let me quote the
 abstract:
@@ -371,21 +369,21 @@ $SU(n)$). If I had a bunch of grad students I would get one to do so.
 The following was discussed in an earlier edition of this series,
 "week11", but is now available from gr-qc:
 
-5) An algebraic approach to the quantization of constrained systems:
-finite dimensional examples, by Ranjeet S. Tate, (Ph.D. Dissertation,
+5) "An algebraic approach to the quantization of constrained systems:
+finite dimensional examples", by Ranjeet S. Tate, (Ph.D. Dissertation,
 Syracuse University), 124 pages, LaTeX (run thrice before printing),
-available as [gr-qc/9304043](http://xxx.lanl.gov/abs/gr-qc/9304043).
+available as [`gr-qc/9304043`](http://xxx.lanl.gov/abs/gr-qc/9304043).
 
 I haven't read the following one but it seems like an interesting
 application of loop variables to more down-to-earth physics; Gambini was
 one of the originators of the loop representation, and intended it for
 use in QCD:
 
-6) $SU(2)$ QCD in the path representation, by Rodolfo Gambini and
+6) "$SU(2)$ QCD in the path representation", by Rodolfo Gambini and
 Leonardo Setaro, LaTeX 37 pages (7 figures included), available as
-[hep-lat/9305001](http://xxx.lanl.gov/abs/hep-lat/9305001). ("hep-lat"
+[`hep-lat/9305001`](http://xxx.lanl.gov/abs/hep-lat/9305001). ("hep-lat"
 is the computational and lattice physics preprint list, at
-hep-lat@ftp.scri.fsu.edu.)
+`hep-lat@ftp.scri.fsu.edu`.)
 
 Let me quote the abstract:
 

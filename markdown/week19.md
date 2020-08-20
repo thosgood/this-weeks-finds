@@ -81,12 +81,12 @@ is unlikely to be so simple. A number of people have recently tried to
 construct 4d TQFTs copying tricks that worked in 3d. Some papers along
 these lines that I have mentioned before are:
 
-> A categorical construction of 4d topological quantum field theories, by
+> "A categorical construction of 4d topological quantum field theories", by
 Louis Crane and David Yetter, preprint available as
 [`hep-th/9301062`](http://xxx.lanl.gov/abs/hep-th/9301062) in latex. (Week
 2)
 
-> Surgical invariants of four-manifolds, by Boguslaw Broda, preprint
+> "Surgical invariants of four-manifolds", by Boguslaw Broda, preprint
 available as [`hep-th/9302092`](http://xxx.lanl.gov/abs/hep-th/9302092).
 (Weeks 9 and 10)
 
@@ -101,14 +101,14 @@ spacetime manifold was 1. (This number is called the partition function
 of the quantum field theory, and having it be 1 for all spacetimes means
 the theory is deadly dull.)
 
-> A note on simplicial dimension shifting, Adrian Ocneanu, preprint,
+> "A note on simplicial dimension shifting", Adrian Ocneanu, preprint,
 available in AMSLaTeX as
 [`hep-th/9302028`](http://xxx.lanl.gov/abs/hep-th/9302028). (Week 5)
 
 Crane and Yetter wrote a rebuttal noting that Ocneanu was not dealing
 with quite the same theory:
 
-> We are not stuck with gluing, by David Yetter and Louis Crane, preprint
+> "We are not stuck with gluing", by David Yetter and Louis Crane, preprint
 available as [`hep-th/9302118`](http://xxx.lanl.gov/abs/hep-th/9302118) in
 latex form, 2 pages. (Week 7)
 
@@ -123,7 +123,7 @@ just a function of its signature and possibly some Betti numbers - these
 being well-known invariants, it's not especially exciting from the
 point of view of topology. This was also shown by Justin Roberts:
 
-> Skein theory and Turaev-Viro invariants, by Justin Roberts, Pembroke
+> "Skein theory and Turaev-Viro invariants", by Justin Roberts, Pembroke
 College preprint, April 14, 1993. (Roberts is at
 `J.D.Roberts@pmms.cam.ac.uk`) (Week 14).
 
@@ -133,7 +133,7 @@ precise normalization conventions, and so did not quite *prove* this.
 However, more recently Crane and Yetter, together with Kauffman, have
 shown this themselves:
 
-1) Evaluating the Crane-Yetter Invariant, Louis Crane, Louis H.
+1) "Evaluating the Crane-Yetter Invariant", by Louis Crane, Louis H.
 Kauffman, David N. Yetter, 4 pages, AMSTeX, preprint available as
 [`hep-th/9309063`](http://xxx.lanl.gov/abs/hep-th/9309063).
 
@@ -149,7 +149,7 @@ They also have shown that Broda's original construction, and also a
 souped-up construction of his, give a partition function that depends
 only on the signature:
 
-2) On the Classicality of Broda's $SU(2)$ Invariants of 4-Manifolds,
+2) "On the Classicality of Broda's $SU(2)$ Invariants of 4-Manifolds", by
 Louis Crane, Louis H. Kauffman, David N. Yetter, 4 pages LaTeX version
 2.09, preprint available as
 [`hep-th/9309102`](http://xxx.lanl.gov/abs/hep-th/9309102).
@@ -169,8 +169,8 @@ physics as well as mathematics. The key is the "$B \wedge F$" theory
 alluded to above. This is a quantum field theory that makes sense in 4
 dimensions. I have found that the nicest place to read about it is:
 
-3) Exactly soluble diffeomorphism-invariant theories, Gary Horowitz,
-Comm. Math. Phys., 125 (1989) 417-437.
+3) "Exactly soluble diffeomorphism-invariant theories", Gary Horowitz,
+_Comm. Math. Phys._, **125** (1989) 417--437.
 
 This theory is a kind of simplified version of 4d quantum gravity that
 is a lot closer in *character* to Chern-Simons theory. Like Chern-Simons

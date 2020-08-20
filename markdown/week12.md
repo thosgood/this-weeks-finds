@@ -68,7 +68,7 @@ the relation of his ideas to Crane and Yetter's.
 Also while at the conference, I found a terrible error in
 "week10" in my description of
 
-Vassiliev invariants contain more information than all knot polynomials,
+> "Vassiliev invariants contain more information than all knot polynomials",
 by Sergey Piunikhin, preprint.
 
 I had said that Piunikhin had discovered a Vassiliev invariant that
@@ -76,7 +76,7 @@ could distinguish knots from their orientation-reversed versions. No!
 The problem was a very hasty reading on my part, together with the
 following typo in the paper, that tricked my eyes:
 
-Above constructed Vassiliev knot invariant $w$ of order six does knot
+> Above constructed Vassiliev knot invariant $w$ of order six does knot
 detect orientation of knots.
 
 Ugh! Also, people at the conference said that Piunikhin's claim in this
@@ -85,9 +85,8 @@ knot polynomials is misleading. I don't understand that yet.
 
 Here are some papers that have recently shown up...
 
-1) Canonical quantum gravity, by Karel Kuchar, preprint in LaTeX form,
-35 pages, available as
-[gr-qc/9304012](http://xxx.lanl.gov/abs/gr-qc/9304012).
+1) "Canonical quantum gravity", by Karel Kuchar, preprint in LaTeX form,
+35 pages, available as [`gr-qc/9304012`](http://xxx.lanl.gov/abs/gr-qc/9304012).
 
 Kuchar (pronounced Koo-kahsh, by the way) is one of the grand old men of
 quantum gravity, one of the people who stuck with the subject for the
@@ -121,8 +120,8 @@ Kuchar's former point, that observables in quantum gravity need not be
 perennials, his arguments seem rather weak. In any event, read and
 enjoy, but realize that the subject is a tricky one!
 
-2) 2-categories and 2-knots, by John Fischer, preprint, last revised
-Feb. 6 1993. (Fischer is at fischer-john@math.yale.edu)
+2) "2-categories and 2-knots", by John Fischer, preprint, last revised
+Feb. 6 1993. (Fischer is at `fischer-john@math.yale.edu`)
 
 This is the easiest way to learn about the 2-category of 2-knots. Recall
 (from "week1" and "week4") that a 2-knot
@@ -131,9 +130,9 @@ knots evolving in time. Fischer shows that the algebraic structure of
 2-knots is captured by a braided monoidal 2-category, and he describes
 this 2-category.
 
-3) A new discretization of classical and quantum general relativity, by
+3) "A new discretization of classical and quantum general relativity", by
 Mark Miller and Lee Smolin, 22 pages in LaTeX form, available as
-[gr-qc/9304005](http://xxx.lanl.gov/abs/gr-qc/9304005).
+[`gr-qc/9304005`](http://xxx.lanl.gov/abs/gr-qc/9304005).
 
 Here Smolin proposes a new simplicial approach to general relativity
 (there is an older one known as the Regge calculus) which uses
@@ -156,9 +155,9 @@ commute with each other and with the Hamiltonian constraint.
 
 ------------------------------------------------------------------------
 
-4) Higher algebraic structures and quantization, by Dan Freed,
+4) "Higher algebraic structures and quantization", by Dan Freed,
 preprint, December 18, 1992, available as
-[hep-th/9212115](http://xxx.lanl.gov/abs/hep-th/9212115).
+[`hep-th/9212115`](http://xxx.lanl.gov/abs/hep-th/9212115).
 
 This is about TQFTs and the high-powered algebra needed to do justice to
 the "ladder of field theories" that one can obtain starting with a

@@ -13,7 +13,7 @@ theories, knot theory, and the like.
 Quite a pile of papers has built up over the summer, but I will start by
 describing what I did over my summer vacation:
 
-1) Strings, loops, knots, and gauge fields, by John Baez, preprint
+1) "Strings, loops, knots, and gauge fields", by John Baez, preprint
 available in LaTeX form as
 [`hep-th/9309067`](http://xxx.lanl.gov/abs/hep-th/9309067), 34 pages.
 

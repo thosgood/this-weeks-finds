@@ -6,16 +6,16 @@ week's finds early. As a result they'll be pretty brief. Let me start
 with one that I mentioned in "week9" but is now easier to
 get:
 
-1) Unique determination of an inner product by adjointness relations in
-the algebra of quantum observables, by Alan D. Rendall, 10 pages, now
-available as [gr-qc/9303026](http://xxx.lanl.gov/abs/gr-qc/9303026).
+1) "Unique determination of an inner product by adjointness relations in
+the algebra of quantum observables", by Alan D. Rendall, 10 pages, now
+available as [`gr-qc/9303026`](http://xxx.lanl.gov/abs/gr-qc/9303026).
 
 and then mention another thing I've gotten as a spinoff from the
 gravity conference at UCSB:
 
-2) An algebraic approach to the quantization of constrained systems:
-finite dimensional examples, by Ranjeet S. Tate, Syracuse University
-physics department PhD dissertation, August 1992, SU-GP-92/8-1. (Tate is
+2) "An algebraic approach to the quantization of constrained systems:
+finite dimensional examples", by Ranjeet S. Tate, Syracuse University
+physics department PhD dissertation, August 1992, `SU-GP-92/8-1`. (Tate is
 now at `rstate@cosmic.physics.ucsb.edu`, but please don't ask him for
 copies unless you're pretty serious, because it's big.)
 
@@ -35,8 +35,7 @@ is a spacelike coordinate. The equation is simply
 $$\frac{d^2\varphi}{dt^2} - \frac{d^2\varphi}{dx^2} = 0.$$
 
 Now this equation can be rewritten as an evolutionary equation for
-initial data as follows. We consider pairs of functions $(Q,P)$ on $\mathbb{R}$ -
-which we think of $\varphi$ and $d\varphi/dt$ on "space", that is, on a surface $t = \text{constant}$.
+initial data as follows. We consider pairs of functions $(Q,P)$ on $\mathbb{R} - which we think of $\varphi$ and $d\varphi/dt$ on "space", that is, on a surface $t = \text{constant}$.
 And we rewrite the second-order equation above as a
 first-order equation:
 
