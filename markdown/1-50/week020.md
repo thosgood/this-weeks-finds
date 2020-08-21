@@ -25,36 +25,42 @@ Let's begin with sphere packings. Say one is stacking cannonballs on
 ones lawn, which is a quaint custom now that cannons have been replaced
 by far more horrible weapons. A nice way to do it is to lay out a
 triangle of cannonballs thus:
-
-                       x   x   x   x
-
-                         x   x   x
-
-                           x   x
-
-                             x
-
+$$
+  \begin{array}{ccccccc}
+    \bullet&&\bullet&&\bullet&&\bullet
+  \\
+  \\&\bullet&&\bullet&&\bullet&
+  \\
+  \\&&\bullet&&\bullet&&
+  \\
+  \\&&&\bullet&&&
+  \end{array}
+$$
 and then set down another triangle of cannonballs on top of the first
 layer, one in every other hole, thus:
-
-                       x   x   x   x
-                         o   o   o
-                         x   x   x
-                           o   o
-                           x   x
-                             o
-                             x
-
+$$
+  \begin{array}{ccccccc}
+    \bullet&&\bullet&&\bullet&&\bullet
+  \\&\circ&&\circ&&\circ&
+  \\&\bullet&&\bullet&&\bullet&
+  \\&&\circ&&\circ&&
+  \\&&\bullet&&\bullet&&
+  \\&&&\circ&&&
+  \\&&&\bullet&&&
+  \end{array}
+$$
 and another:
-
-                       x   x   x   x
-                         o   o   o
-                         x * x * x
-                           o   o
-                           x * x
-                             o
-                             x
-
+$$
+  \begin{array}{ccccccc}
+    \bullet&&\bullet&&\bullet&&\bullet
+  \\&\circ&&\circ&&\circ&
+  \\&\bullet&\star&\bullet&\star&\bullet&
+  \\&&\circ&&\circ&&
+  \\&&\bullet&\star&\bullet&&
+  \\&&&\circ&&&
+  \\&&&\bullet&&&
+  \end{array}
+$$
 and finally one on top --- which I won't attempt to draw. Very nice
 stack! There are many mathematical reflections it could lead one to, one
 of which is: is this the *densest* possible way one can pack spheres of

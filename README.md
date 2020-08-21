@@ -8,7 +8,6 @@
 ## 1--50
 - diagrams
 - search for **???**
-- sort out empty lines after `$$`
 
 ## 51--100
 
