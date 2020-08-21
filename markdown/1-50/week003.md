@@ -194,12 +194,16 @@ relations... first of all, a trivalent vertex is "oriented" if there
 is a cyclic ordering of the three incident edges. That is, we "orient"
 the vertex
 
-           \     /
-            \   /
-             \ /
-              |
-              |
-              |
+$$
+  \begin{tikzpicture}
+    \draw[thick] (50:1.5) to (0:0);
+    \draw[thick] (130:1.5) to (0,0);
+    \draw[thick] (270:1.5) to (0,0);
+    \draw[ultra thick,white] (0,0) circle (6pt);
+    \draw[ultra thick,white] (0,0) circle (7pt);
+    \node[scale=2,rotate=150] at (0,0) {$\circlearrowleft$};
+  \end{tikzpicture}
+$$
 
 by drawing a little clockwise or counterclockwise-pointing circle at the
 vertex. (Or, for those of an algebraic bent, label the edges by $1$,$2$,$3$
@@ -208,10 +212,24 @@ reverse the orientation of a trivalent vertex, that's equivalent to
 multiplying the graph by $-1$. (Remember we're in a vector space spanned
 by graphs.) 2)
 
-         ------       |    |     \  /
-            |     =   |____|  -   \/
-            |         |    |      /\
-         ------       |    |     /  \
+$$
+  \vcenter{\hbox{\begin{tikzpicture}
+    \draw[thick] (-1,1) to (1,1);
+    \draw[thick] (0,-1) to (0,1);
+    \draw[thick] (-1,-1) to (1,-1);
+  \end{tikzpicture}}}
+  \quad=\quad
+  \vcenter{\hbox{\begin{tikzpicture}[rotate=90]
+    \draw[thick] (-1,0.85) to (1,0.85);
+    \draw[thick] (0,-0.85) to (0,0.85);
+    \draw[thick] (-1,-0.85) to (1,-0.85);
+  \end{tikzpicture}}}
+  \quad-
+  \vcenter{\hbox{\begin{tikzpicture}
+    \draw[thick] (-0.7,1) to (0.7,-1);
+    \draw[thick] (0.7,1) to (-0.7,-1);
+  \end{tikzpicture}}}
+$$
 
 (That is, we can make this substitution anywhere we want; these pictures
 might be part of a bigger graph. Note that the "X" is not a vertex,
@@ -226,10 +244,19 @@ that each edge is labelled with a $1$ or $-1$. The relations are: 1) if we
 reverse the orientation of a trivalent vertex, it's the same as
 multiplying the labellings of all three incident edges by $-1$. 2)
 
-         ------       |    |     
-            |     =   |____|  
-            |         |    |     
-         ------       |    |     
+$$
+  \vcenter{\hbox{\begin{tikzpicture}
+    \draw[thick] (-1,1) to (1,1);
+    \draw[thick] (0,-1) to (0,1);
+    \draw[thick] (-1,-1) to (1,-1);
+  \end{tikzpicture}}}
+  \quad=\quad
+  \vcenter{\hbox{\begin{tikzpicture}[rotate=90]
+    \draw[thick] (-1,0.85) to (1,0.85);
+    \draw[thick] (0,-0.85) to (0,0.85);
+    \draw[thick] (-1,-0.85) to (1,-0.85);
+  \end{tikzpicture}}}
+$$
 
 *if* the internal edge is labelled with a 1. (Here the 4 external edges
 can have any labellings and we don't mess with that.)
@@ -238,8 +265,21 @@ Now, define a linear map from $B$ to $B_m$ by mapping any graph to the
 signed sum of the $2^\text{number of edges}$ ways of labelling the edges with
 $1$ or $-1$. Symbolically,
 
-                                    1            -1
-            -------- → ---------  -  --------- .
+$$
+  \begin{tikzpicture}
+    \draw[thick] (-1,0) to (1,0);
+  \end{tikzpicture}
+  \quad\mapsto\quad
+  \begin{tikzpicture}
+    \draw[thick] (-1,0) to (1,0);
+    \node at (0,0.3) {$1$};
+  \end{tikzpicture}
+  \quad-\quad
+  \begin{tikzpicture}
+    \draw[thick] (-1,0) to (1,0);
+    \node at (0,0.3) {$-1$};
+  \end{tikzpicture}
+$$
 
 Of course, one must work a bit to show this map is well-defined. (This
 just takes a paragraph - see Proposition 6.5 of Dror's paper.)
