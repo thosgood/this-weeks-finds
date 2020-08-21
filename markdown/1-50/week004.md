@@ -193,27 +193,36 @@ Kapranov and Voevodsky, let me note the key new thing about 2-morphisms:
 there are two ways to compose them, "horizontally" and "vertically".
 First of all, given the following situation:
 
-                          f           f'
-                      ---->---    ---->---
-                     /         \ /         \
-                    x     F     y     F'    z
-                     \         / \         /
-                      ---->----   ---->----
-                          g           g'
+$$
+  \begin{tikzcd}[sep=huge]
+    x
+      \rar[bend left=50,"f"{name=U}]
+      \rar[bend right=50,swap,"g"{name=D}]
+    & y
+      \rar[bend left=50,"f'"{name=U'}]
+      \rar[bend right=50,swap,"g'"{name=D'}]
+      \arrow[Rightarrow,shorten=5pt,from=U,to=D,"F"]
+    & z
+      \arrow[Rightarrow,shorten=5pt,from=U',to=D',"F'"]
+  \end{tikzcd}
+$$
 
 we can compose $F$ and $F'$ horizontally to get a 2-morphism from $f'\circ f$ to
 $g \circ g'$. (Check this out in the example of homotopies!) But also, given
 the following situation:
 
-                              f
-                          ---->----
-                         /  F      \
-                        /     g     \
-                       x ----->----- y
-                        \   G       /
-                         \         /
-                          ---->---
-                              h
+$$
+  \begin{tikzcd}[sep=huge]
+    x
+      \rar[bend left=80,"f"{name=U}]
+      \rar[""{name=M,below}]
+      \rar[near start,"g"]
+      \rar[bend right=80,swap,"h"{name=D}]
+    & y
+      \arrow[Rightarrow,shorten=3pt,from=U,to=M,"F"]
+      \arrow[Rightarrow,shorten=2pt,from=M,to=D,"G"]
+  \end{tikzcd}
+$$
 
 ($f,g,h$ in $\mathrm{Hom}(x,y)$, $F$ in $\mathrm{Hom}(f,g)$, and $G$ in $\mathrm{Hom}(g,h)$), we can compose $F$
 and $G$ vertically to get a 2-morphism from $f$ to $g$.
@@ -253,38 +262,78 @@ are tangles connecting a row of $n$ points above to a row of $m$ points
 below. Rather than define "tangles" I will simply draw pictures of
 some examples. Here is an element of $\mathrm{Hom}(2,4)$:
 
-            |   |
-            \   /
-             \ /
-              \     /\
-             / \   /  \
-            |   \ /    \
-            |    \      |
-            |   / \     |
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=5]
+      \strand[thick] (0,0)
+        to [out=down,in=up] (1,-1)
+        to [out=down,in=up] (2,-2);
+      \strand[thick] (1,0)
+        to [out=down,in=up] (0,-1)
+        to (0,-2);
+      \strand[thick] (1,-2)
+        to [out=up,in=up,looseness=1.5] (3,-2);
+    \end{knot}
+  \end{tikzpicture}
+$$
 
 and here is an element of $\mathrm{Hom}(4,0)$:
 
-            |  |   |    |
-            \  /   \ /\ /
-             \/     \  \
-                   / \/ \
-                   \____/
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=5]
+      \strand[thick] (0,0)
+        to (0,-0.5)
+        to [out=down,in=down,looseness=1.5] (1,-0.5)
+        to (1,0);
+      \strand[thick] (2,0)
+        to (2,-0.5)
+        to [out=down,in=down,looseness=1.5] (3,-0.5)
+        to (3,0);
+      \strand[thick] (2,-1.5)
+        to [out=up,in=left] (2.5,-0.5);
+      \strand[thick] (2.5,-0.5)
+        to [out=right,in=up] (3,-1.5);
+      \strand[thick] (2,-1.5)
+        to [out=down,in=down] (3,-1.5);
+      \flipcrossings{2}
+    \end{knot}
+  \end{tikzpicture}
+$$
 
 Note that we can "compose" these tangles to get one in $\mathrm{Hom}(2,0)$:
 
-            |   |
-            \   /
-             \ /
-              \     /\
-             / \   /  \
-            |   \ /    \
-            |    \      |
-            |   / \     |
-            |  |   |    |
-            \  /   \ /\ /
-             \/     \  \
-                   / \/ \
-                   \____/
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=5]
+      \strand[thick] (0,0)
+        to [out=down,in=up] (1,-1)
+        to [out=down,in=up] (2,-2);
+      \strand[thick] (1,0)
+        to [out=down,in=up] (0,-1)
+        to (0,-2);
+      \strand[thick] (1,-2)
+        to [out=up,in=up,looseness=1.5] (3,-2);
+    \end{knot}
+    \begin{knot}[clip width=5]
+      \strand[thick] (0,-2)
+        to (0,-2.5)
+        to [out=down,in=down,looseness=1.5] (1,-2.5)
+        to (1,-2);
+      \strand[thick] (2,-2)
+        to (2,-2.5)
+        to [out=down,in=down,looseness=1.5] (3,-2.5)
+        to (3,-2);
+      \strand[thick] (2,-3.5)
+        to [out=up,in=left] (2.5,-2.5);
+      \strand[thick] (2.5,-2.5)
+        to [out=right,in=up] (3,-3.5);
+      \strand[thick] (2,-3.5)
+        to [out=down,in=down] (3,-3.5);
+      \flipcrossings{2}
+    \end{knot}
+  \end{tikzpicture}
+$$
 
 Now, given tangles $f,g$ in $\mathrm{Hom}(m,n)$, a 2-morphism from $f$ to $g$ is a
 "2-tangle." I won't define these either, but we may think of a
@@ -293,54 +342,70 @@ tangle $f$ and last frame is the tangle $g$, and each of whose intermediate
 frames is a tangle except at certain times when a catastrophe occurs.
 For example, here's a 2-tangle shown as a movie...
 
-Frame 1
-
-          |    |
-          |    |
-          |    |
-          |    |
-          |    |
-
-Frame 2
-
-          \    /
-           |  |
-           |  |
-           |  |
-          /    \
-
-Frame 3
-
-          \    /
-           \  /
-            ||
-           /  \
-          /    \
-
-Frame 4 (the exciting scene - the catastrophe!)
-
-          \    /
-           \  /
-            \/
-            /\
-           /  \
-          /    \
-
-Frame 5
-
-          \     /
-           \___/
-            ___
-           /   \
-          /     \
-
-Frame 6
-
-           \_____/
-          
-          
-           ______     
-          /      \
+$$
+  \begin{array}{p{8em}p{8em}p{8em}}
+    \begin{tikzpicture}
+      \begin{knot}
+        \strand[thick] (0,0)
+          to (0,-2);
+        \strand[thick] (1,0)
+          to (1,-2);
+      \end{knot}
+      \node at (0.5,-2.5) {Frame 1};
+    \end{tikzpicture}
+    &
+    \begin{tikzpicture}
+      \begin{knot}
+        \strand[thick] (0,0)
+          to[out=right,in=right,looseness=0.4] (0,-2);
+        \strand[thick] (1,0)
+          to[out=left,in=left,looseness=0.4] (1,-2);
+      \end{knot}
+      \node at (0.5,-2.5) {Frame 2};
+    \end{tikzpicture}
+    &
+    \begin{tikzpicture}
+      \begin{knot}
+        \strand[thick] (0,0)
+          to[out=right,in=right,looseness=0.7] (0,-2);
+        \strand[thick] (1,0)
+          to[out=left,in=left,looseness=0.7] (1,-2);
+      \end{knot}
+      \node at (0.5,-2.5) {Frame 3};
+    \end{tikzpicture}
+    \\
+    \begin{tikzpicture}
+      \begin{knot}[clip width=0]
+        \strand[thick] (0,0)
+          to (1,-2);
+        \strand[thick] (1,0)
+          to (0,-2);
+      \end{knot}
+      \node at (0.5,-2.5) {Frame 4};
+      \node at (0.5,-3) {(catastrophe!)};
+    \end{tikzpicture}
+    &
+    \begin{tikzpicture}
+      \begin{knot}
+        \strand[thick] (0,0)
+          to[out=down,in=down,looseness=3] (1,0);
+        \strand[thick] (0,-2)
+          to[out=up,in=up,looseness=3] (1,-2);
+      \end{knot}
+      \node at (0.5,-2.5) {Frame 5};
+    \end{tikzpicture}
+    &
+    \begin{tikzpicture}
+      \begin{knot}
+        \strand[thick] (0,0)
+          to[out=down,in=down,looseness=1.5] (1,0);
+        \strand[thick] (0,-2)
+          to[out=up,in=up,looseness=1.5] (1,-2);
+      \end{knot}
+      \node at (0.5,-2.5) {Frame 6};
+    \end{tikzpicture}
+  \end{array}
+$$
 
 Well, it'll never win an Academy Award, but this movie is pretty
 important. It's a picture of the 3-dimensional slices of a

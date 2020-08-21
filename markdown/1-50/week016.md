@@ -270,11 +270,12 @@ independent components of the Riemann tensor $R_{ijkl}$ which vanishes
 when spacetime is flat, and the Einstein tensor, which vanishes when the
 vacuum Einstein equations hold:
 
-    dimension        Riemann    Einstein
-        1               0          0
-        2               1          1
-        3               6          6
-        4              20         10  
+| dimension | Riemann | Einstein |
+| :-------: | :------ | :------- |
+| 1 | 0 | 0 |
+| 2 | 1 | 1 |
+| 3 | 6 | 6 |
+| 4 | 20 | 10 |
 
 What this means is that, until one gets up to dimension 4, the vacuum
 Einstein equations imply that spacetime is flat. That means that there
@@ -302,7 +303,7 @@ comment on them briefly below. But one point to make is that these
 approaches have *not* all been shown to be equivalent; on the contrary,
 they seem to give different answers. Part of the problem in my opinion
 is that we do not have enough criteria for a "good" theory of 2+1
-quantum gravity. Certainly one would like to see that in the h → 0 limit
+quantum gravity. Certainly one would like to see that in the $\hbar\to 0$ limit
 the theory reduces to classical gravity in some sense or other (but this
 is a bit vague). Perhaps another thing one could hope for is that the
 theory be a 2+1-dimensional TQFT. I am not sure which of the approaches

@@ -226,7 +226,7 @@ pictures of surfaces in it:
 
 3) _A Topological Picturebook_, by George Francis, Springer-Verlag, 1987.
 
-Problems:
+**Problems:**
 
 A. Take a projective plane and cut out a little disc. Show that what's
 left is a Moebius strip.

@@ -294,7 +294,7 @@ newsletter Jorge Pullin puts together at considerable effort, to keep
 people informed about general relativity and the like, experimental and
 theoretical:
 
-7) ""Matters of Gravity", a newsletter for the gravity community", Number **4**, edited by Jorge Pullin, 24 pages in Plain TeX, available as [`gr-qc/9409004`](http://xxx.lanl.gov/abs/gr-qc/9409004), or from WWW by `<http://vishnu.nirvana.phys.psu.edu/>`
+7) ""Matters of Gravity", a newsletter for the gravity community", Number **4**, edited by Jorge Pullin, 24 pages in Plain TeX, available as [`gr-qc/9409004`](http://xxx.lanl.gov/abs/gr-qc/9409004), or from WWW by `http://vishnu.nirvana.phys.psu.edu/`
 
 Here's the table of contents of this issue:
 

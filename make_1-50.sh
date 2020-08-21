@@ -49,6 +49,7 @@ printf '%s\n' '\usepackage{bussproofs}' >> $TEX
 
 printf "\n" >> $TEX
 printf '%s\n' '\usepackage{tikz}' >> $TEX
+printf '%s\n' '\usetikzlibrary{knots}' >> $TEX
 printf '%s\n' '\usetikzlibrary{braids}' >> $TEX
 printf '%s\n' '\tikzset{braid/.cd,every strand/.style=thick,gap=0.1}' >> $TEX
 printf '%s\n' '\usepackage{environ}' >> $TEX

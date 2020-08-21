@@ -106,7 +106,7 @@ rotations $J_1$, $J_2$, and $J_3$ around the three axes, and the three
 infinitesimal Lorentz transformations or "boosts" $K_1$, $K_2$, $K_3$. The
 bracket in this most important Lie algebra is given by
 
-$$\begin{aligned}[J_i,J_j] & = J_k \\ [K_i,K_j] &= -J_k \\ [J_i,K_j] &= K_k\end{aligned}$$
+$$\begin{aligned}\,[J_i,J_j] & = J_k \\ [K_i,K_j] &= -J_k \\ [J_i,K_j] &= K_k\end{aligned}$$
 
 where $(i,j,k)$ is a cyclic permutation of $(1,2,3)$. (I hope I haven't
 screwed up the signs.) Note that the $J$'s by themselves form a Lie
@@ -134,7 +134,7 @@ $$\begin{aligned}M_i &= (J_i + iK_i)/2 \\ N_i &= (J_i - iK_i)/2\end{aligned}$$
 (please don't mix up the subscript $i = 1,2,3$ with the other $i$, the
 square root of minus one) we get the following brackets:
 
-$$\begin{aligned}[M_i,M_j] &= M_k \\ [N_i,N_j] &= N_k \\ [M_i,N_j] &= 0\end{aligned}$$
+$$\begin{aligned}\,[M_i,M_j] &= M_k \\ [N_i,N_j] &= N_k \\ [M_i,N_j] &= 0\end{aligned}$$
 
 I think the signs all work but I wouldn't trust me if I were you. The
 wonderful thing here is that the $M$'s and $N$'s commute with each other,

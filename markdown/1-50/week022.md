@@ -260,14 +260,6 @@ These are
 
 $$\begin{aligned}B(1) &= 4 \\ B(2) &= 0 \\ B(3) &= 1 \\ B(4) &= 2 \\ B(5) &= G+1 \\ B(6) &= 3 \\ B(7) &= S \\ \end{aligned}$$
 
-    B(1) = 4
-    B(2) = 0
-    B(3) = 1
-    B(4) = 2
-    B(5) = G + 1
-    B(6) = 3
-    B(7) = S
-
 etc.. Note by the way that $B(n)$ approaches 4 as $n$ approaches $\infty$. (What's
 $S$, you ask? Well, folks call $B(7)$ the "silver root," a term I find
 most poetic and eagerly want to spread!

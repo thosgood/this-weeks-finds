@@ -3,8 +3,7 @@
 I think I'll depart from my usual concerns this week and talk about a
 book I'd been meaning to get my hands on for ages:
 
-1) John H. Conway and Neil J. A. Sloane, _Sphere Packings, Lattices and
-Groups_, second edition, _Grundlehren der mathematischen Wissenschaften_
+1) John H. Conway and Neil J. A. Sloane, _Sphere Packings, Lattices and Groups_, second edition, Grundlehren der mathematischen Wissenschaften
 **290**, Springer-Verlag, 1993.
 
 This is a mind-boggling book. I have always regarded research in

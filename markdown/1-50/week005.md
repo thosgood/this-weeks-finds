@@ -29,7 +29,7 @@ are not used to them, but the examples make it all clear. The easiest
 example of a Lie algebra is $\mathfrak{gl}(n,\mathbb{C})$, which just means all $n\times n$ complex
 matrices with the bracket defined as the "commutator":
 
-$$[x,y] = xy - yx$$.
+$$[x,y] = xy - yx.$$
 
 Then straightforward calculations show a)-c) hold... so these
 conditions are really encoding the essence of the commutator.
@@ -37,7 +37,7 @@ conditions are really encoding the essence of the commutator.
 Now recall that the trace of a matrix, the sum of its diagonal entries,
 satisfies $\operatorname{tr}(xy)$ = $\operatorname{tr}(yx)$. So the trace of any commutator is zero, and
 if we let $\mathfrak{sl}(n,\mathbb{C})$ denote the matrices with zero trace, we see that it's
-a sub-Lie algebra of $\mathfrak{gl}(n,\mathbb{C})$ - that is, if $x$ and $y$ are in $\mathfrak{sl}(n)$ so is
+a sub-Lie algebra of $\mathfrak{gl}(n,\mathbb{C})$ --- that is, if $x$ and $y$ are in $\mathfrak{sl}(n)$ so is
 $[x,y]$, so we can think of $\mathfrak{sl}(n,\mathbb{C})$ as a Lie algebra in its own right.
 Going from $\mathfrak{sl}(n,\mathbb{C})$ to $\mathfrak{gl}(n,\mathbb{C})$ is essentially a trick for booting out the
 identity matrix, which commutes with everything else (hence has
@@ -103,17 +103,8 @@ structure given by the multiplication table $[H,E] = 2E$, $[H,F] = -2F$,
 $[E,F] = H$. If this is how I'd originally defined it, it would then be
 a little *theorem* that this Lie algebra has a "representation" as $2\times2$
 matrices. And it would turn out to have other representations too. For
-example, there's a representation as $3\times3$ matrices given by sending $E$ to
-
-$$\left(\begin{array}{ccc}0&1&0\\0&0&2\\0&0&0\end{array}\right)$$
-
-$F$ to
-
-$$\left(\begin{array}{ccc}0&0&0\\2&0&0\\0&1&0\end{array}\right)$$
-
-and $H$ to
-
-$$\left(\begin{array}{ccc}2&0&0\\0&0&0\\0&0&-2\end{array}\right)$$
+example, there's a representation as $3\times3$ matrices given by sending
+$$E\mapsto\left(\begin{array}{ccc}0&1&0\\0&0&2\\0&0&0\end{array}\right) \quad F\mapsto\left(\begin{array}{ccc}0&0&0\\2&0&0\\0&1&0\end{array}\right) \quad H\mapsto\left(\begin{array}{ccc}2&0&0\\0&0&0\\0&0&-2\end{array}\right)$$
 
 In other words, these matrices satisfy the same commutation relations as
 $E$,$F$, and $H$ do.
