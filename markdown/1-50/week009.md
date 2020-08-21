@@ -58,9 +58,7 @@ set topology and your algebraic topology, I'm afraid --- and much better
 than I do!
 
 Recall:
-
 $$\begin{aligned}D^n &= \mbox{unit ball in $\mathbb{R}^n$} \\ S^n &= \mbox{unit sphere in $\mathbb{R}^{n+1}$}\end{aligned}$$
-
 In particular note that $S^0$ is just two points. Note that:
 
 - the boundary of $D^4$ is $S^3$

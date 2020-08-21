@@ -54,9 +54,7 @@ traditional quantum theory is the "Hamiltonian," which describes the
 evolution of the state of the system relative to a God-given
 "background" notion of "$t$". Anyone who has taken quantum mechanics
 will know that the star of the show is the Schrodinger equation:
-
 $$i\frac{d\psi}{dt} = H\psi$$
-
 saying how the wavefunction $\psi$ changes with time in a way depending on
 the Hamiltonian $H$. No "$t$," no "$H$" --- this is one basic problem with
 trying to reconcile quantum theory with general relativity.
@@ -65,9 +63,7 @@ Actually, it turns out that the analog to Schrodinger's equation for
 quantum gravity is the Wheeler-DeWitt equation. The Hamiltonian is
 replaced by an operator called the "Hamiltonian constraint" and we
 have
-
 $$H\psi = 0.$$
-
 Note how this cleverly avoids mentioning "$t$"! The problem is, people
 still aren't quite sure what to do with the solutions to this equation
 --- we're so used to working with Schrodinger's equation.

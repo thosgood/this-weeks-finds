@@ -25,14 +25,10 @@ spacetime is a 4-dimensional manifold, and a Lorentzian metric allows
 you to calculate the "dot product" of any two tangent vectors at a
 point. This is in quotes because, while a normal dot product might look
 like
-
 $$(v_0,v_1,v_2,v_3)\cdot(w_0,w_1,w_2,w_3) = v_0w_0 + v_1w_1 + v_2w_2 + v_3w_3$$
-
 relative to some basis, for a Lorentzian metric we can always find a
 basis of the tangent space such that
-
 $$(v_0,v_1,v_2,v_3)\cdot(w_0,w_1,w_2,w_3) = v_0w_0 -v_1w_1 -v_2w_2 -v_3w_3$$
-
 Now the metric in general relativity defines a "connection," which
 tells you a tangent vector might "twist around" as you parallel
 translate it, that is, move it along while trying to keep it from
@@ -54,9 +50,7 @@ direction when you move it around a teeny little square in the $j$-$k$
 plane. The Lagrangian in ordinary GR is just the integral of the "Ricci
 scalar curvature," $R$, which is gotten from the Riemann tensor by
 "contraction", i.e. summing over the indices in a certain way:
-
 $$R = R^i_{ji}{}^j$$
-
 where we are raising indices using the metric in a manner beloved by
 physicists and feared by many mathematicians. If you integrate the
 Lagrangian over a region of spacetime you get the "action", and in
@@ -86,9 +80,7 @@ on spacetime which at each point consists of an (ordered) orthonormal
 basis of the tangent space. If we express the metric in terms of a
 tetrad, it looks just like the formula for the standard "inner
 product"
-
 $$(v_0,v_1,v_2,v_3)\cdot(w_0,w_1,w_2,w_3) = v_0w_0 -v_1w_1 -v_2w_2 -v_3w_3$$
-
 This allows us to identify the group of linear transformations of the
 tangent space that preserve the metric with the group of linear
 transfomations preserving the standard "inner product," which is
@@ -105,9 +97,7 @@ rotations and Lorentz transformations. More precisely, $\mathfrak{so}(1,3)$ is a
 rotations $J_1$, $J_2$, and $J_3$ around the three axes, and the three
 infinitesimal Lorentz transformations or "boosts" $K_1$, $K_2$, $K_3$. The
 bracket in this most important Lie algebra is given by
-
 $$\begin{aligned}\,[J_i,J_j] & = J_k \\ [K_i,K_j] &= -J_k \\ [J_i,K_j] &= K_k\end{aligned}$$
-
 where $(i,j,k)$ is a cyclic permutation of $(1,2,3)$. (I hope I haven't
 screwed up the signs.) Note that the $J$'s by themselves form a Lie
 subalgebra called $\mathfrak{so}(3)$, the Lie algebra of the rotation group $SO(3)$.
@@ -128,14 +118,10 @@ Ashtekar's "new variables" --- from this point of view --- rely on a
 curious and profound fact about $\mathfrak{so}(1,3)$. Note that $\mathfrak{so}(1,3)$ is a Lie
 algebra over the real numbers. But if we allow ourselves to form
 *complex* linear combinations of the $J$'s and $K$'s, thus:
-
 $$\begin{aligned}M_i &= (J_i + iK_i)/2 \\ N_i &= (J_i -iK_i)/2\end{aligned}$$
-
 (please don't mix up the subscript $i = 1,2,3$ with the other $i$, the
 square root of minus one) we get the following brackets:
-
 $$\begin{aligned}\,[M_i,M_j] &= M_k \\ [N_i,N_j] &= N_k \\ [M_i,N_j] &= 0\end{aligned}$$
-
 I think the signs all work but I wouldn't trust me if I were you. The
 wonderful thing here is that the $M$'s and $N$'s commute with each other,
 and each set has commutation relations just like the $J$'s! The $J$'s,
@@ -171,17 +157,13 @@ similar-looking they are. In the Palatini approach we have a tetrad
 field, which now we write in its full glory as $e_I^i$, and the curvature
 of the $\mathfrak{so}(1,3)$ connection, which now we write as $\Omega_{ij}^{IJ}$. The
 Lagrangian is then
-
 $$e_I^i e_J^j \Omega_{ij}^{IJ}$$
-
 (which we integrate against the usual volume form to get the action). In
 the new variables approach we have a tetrad field again, and we write
 the curvature of the $\mathfrak{so}(3,\mathbb{C})$ connection as $F_{ij}^{IJ}$. (This turns
 out to be just the "right-handed" part of $\Omega_{ij}^{IJ}$.) The
 Lagrangian is
-
 $$e_I^i e_J^j F_{ij}^{IJ} !$$
-
 Miraculously, this also gives Einstein's equations.
 
 What's utterly unclear from what I've said so far is why this helps so

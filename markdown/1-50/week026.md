@@ -245,7 +245,6 @@ considers a circle smoothly embedded in space, is only the tip of a very
 interesting iceberg. Namely, if one looks at the space of all loops,
 this has the knots as an open dense subset, but then it has loops with a
 single "transverse double point" like
-
 $$
   \begin{tikzpicture}
     \begin{knot}[clip width=0]
@@ -256,7 +255,6 @@ $$
     \end{knot}
   \end{tikzpicture}
 $$
-
 as a codimension 1 subset (like a hypersurface in the space of all
 loops), and more fancy singularities appear as still smaller subsets, or
 as the jargon has it, strata of higher codimension. The recent flurry of

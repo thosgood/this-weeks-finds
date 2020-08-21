@@ -119,7 +119,6 @@ unity, we have $b_r(M)$.
 Broda shows that this is a 4-manifold invariant by showing it doesn't
 change under the de Sa moves. One of these consists of adding or
 deleting a Hopf link
-
 $$
   \begin{tikzpicture}
     \begin{knot}[clip width=7pt]
@@ -133,7 +132,6 @@ $$
     \end{knot}
   \end{tikzpicture}
 $$
-
 in which both components have the zero framing and one represents a
 1-handle and the other a 2-handle. This move depends on the fact that we
 can "cancel" a 1-handle and 2-handle pair, a special case of a general
@@ -200,9 +198,7 @@ unknotted circle. It's a simple exercise to see what happens when you
 do surgery on a trivial circle, ie you add on $S^2 \times S^2$ or $\mathbb{CP}^2 \# -\mathbb{CP}^2$. On
 the other hand you get the same manifold as the result of adding
 2-handles to $N'$. So
-
 $$N\#k(S^2 x S^2)\#l(\mathbb{CP}^2\#(-\mathbb{CP}^2)) = N'\#k'(S^2 x S^2)\#l'(\mathbb{CP}^2\#(-\mathbb{CP}^2)),$$
-
 so by previous remarks $b(N) = b(N')$, i.e $b$ is a cobordism invariant.
 
 Now: $b$ is also multiplicative under connected sum, because connected sum

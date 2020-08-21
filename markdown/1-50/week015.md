@@ -89,23 +89,18 @@ rules:
 
 **Rule 1:** If $K$ is the "empty link," the link with NO components
 whatsoever --- i.e., just the empty set --- we have
-
 $$\langle K \rangle = 1.$$
-
 This is sort of a normalization rule.
 
 **Rule 2:** If $K'$ is obtained from $K$ by adding an unlinked copy of the
 unknot (an unknotted circle) to $K$,
-
 $$\langle K' \rangle = -(a^2 + a^{-2})\langle K \rangle.$$
-
 Here $a$ is an adjustable parameter that appears in Chern-Simons theory ---
  a function of the coupling constant.
 
 **Rule 3:** Suppose $K$, $L$, and $L'$ are 3 knots or links differing at just one
 crossing (we're supposing them to be drawn as pictures in 2
 dimensions). And suppose at this crossing they look as follows:
-
 $$
   \begin{tikzpicture}
     \begin{knot}[clip width=7pt]
@@ -139,16 +134,12 @@ $$
     \node at (0.5,-1.5) {$L'$};
   \end{tikzpicture}
 $$
-
 Any rotated version of this picture is fine too.
 
 Then
-
 $$\langle K \rangle = a\langle L\rangle + a^{-1}\langle L'\rangle.$$
-
 That's it! I leave as an exercise for the reader to calculate $\langle K \rangle$ for
 the trefoil knot,
-
 $$
   \begin{tikzpicture}
     \begin{knot}[clip width=7pt]
@@ -172,7 +163,6 @@ $$
     \end{knot}
   \end{tikzpicture}
 $$
-
 and get $-A^5 -A^{-3} -A^{-7}$. Then try the mirror-image trefoil, or
 "left-handed trefoil," and see what you get.
 

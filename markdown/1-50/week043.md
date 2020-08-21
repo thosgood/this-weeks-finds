@@ -37,9 +37,7 @@ observables, which takes an inner product.
 
 In what follows I'll talk about the simplest situation, where we have
 the *vacuum* Einstein equations
-
 $$G = 0$$
-
 where $G$ is the "Einstein tensor" cooked up from the curvature of
 spacetime. Say spacetime is of the form $\mathbb{R} \times S$, where $\mathbb{R}$ is the real numbers (time) and $S$ is a 3-dimensional manifold (space). We will think
 of $S$ as the "$t = 0$ slice" of $\mathbb{R} \times S$.
@@ -54,9 +52,7 @@ bit more clever, but let's move on and then come back to that.
 
 II) The second stage is getting the space of "diffeomorphism-invariant
 states". In fact, Einstein's equations in coordinates look like
-
 $$G_{\mu \nu} = 0$$
-
 where the indices $\mu$, $\nu$ range from 0 to 3. It's customary to work in
 coordinates $x_{\mu}$ where $x_0$ is "time" and the other three coordinates
 are the "space" coordinates on $S$. Then classically, the equations
@@ -253,9 +249,7 @@ bunch of edges and vertices --- where each edge is labelled by a spin
 that can be $0$,$1/2$,$1$,$3/2$, etc. In the simplest flavor of spin network,
 one only allows 3 edges to meet at each vertex, and requires $j_3$ to be of
 the form
-
 $$j_3 = |j_1-j_2|, |j_1-j_2| + 1, \ldots, j_1+j_2-1, j_1+j_2.$$
-
 where $j_1$, $j_2$, $j_3$ are the spins labelling the edges adjacent to the given
 vertex. For example, we can have the the three spins be $1/2$,$3$, and $5/2$,
 because it's possible for a spin-$\frac12$ particle and a spin-3 particle to

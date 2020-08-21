@@ -90,16 +90,12 @@ incident to the same vertex have the same color. For suppose we have a
 don't look like colors, they look like the quaternions. True! Now color
 each edge either $i$, $j$, or $k$ according to product of the the colors of
 the two faces it is incident to, where we define products by:
-
 $$\begin{gathered}1i = i1 = i, \quad 1j = j1 = j, \quad 1k = k1 = k \\ ij = ji = k, \quad jk = kj = i, \quad ki = ik = j.\end{gathered}$$
-
 These are *almost* the rules for multiplying quaternions, but with some
 minus signs missing. Since today (October 16th, 1993) is the 150th
 birthday of the quaternions, I suppose I should remind the reader what
 the right signs are:
-
 $$ij = -ji = k, \quad jk = -kj = i, \quad  ki = -ik = j, \quad i^2 = j^2 = k^2 = -1.$$
-
 Anyway, I leave it to the reader to check that this trick really gives
 us a 3-coloring of the edges, and conversely that a 3-coloring of the
 edges gives a 4-coloring of the faces.
@@ -224,9 +220,7 @@ that for no planar graph does the polynomial $P(n)$ have a root at $n = 4$.
 
 $P(n)$ is called the "chromatic polynomial" and has been intensively
 investigated. One very curious thing is this. Remember the golden mean
-
 $$G = \frac{\sqrt{5} + 1}{2} = 1.61803398874989484820458683437\ldots?$$
-
 Well, $G + 1$ is never a root of the chromatic polynomial of a graph!
 (Unless the polynomial vanishes identically, which happens just when the
 graph has loops.) The proof is not all that hard, and it's in Saaty and
@@ -244,28 +238,20 @@ least 5 decimal places.
 This curious situation was at least partially explained by Tutte in
 1970. He showed that for a triangular planar graph (that is, one all of
 whose faces are triangles) with $n$ vertices one has
-
 $$|P(G + 1)| \leqslant G^{5-n}.$$
-
 This is apparently not a *complete* explanation, though, because the truncated
 icosahedron is not triangular.
 
 This is not an isolated freak curiosity, either! In 1974 Beraha
 suggested checking out the behavior of chromatic polynomials at what are
 now called the "Beraha numbers"
-
 $$B(n) = 4 \cos^2(\pi/n).$$
-
 These are
-
 $$\begin{aligned}B(1) &= 4 \\ B(2) &= 0 \\ B(3) &= 1 \\ B(4) &= 2 \\ B(5) &= G+1 \\ B(6) &= 3 \\ B(7) &= S \\ \end{aligned}$$
-
 etc.. Note by the way that $B(n)$ approaches 4 as $n$ approaches $\infty$. (What's
 $S$, you ask? Well, folks call $B(7)$ the "silver root," a term I find
 most poetic and eagerly want to spread!
-
 $$S =  3.246979603717467061050009768008479621265\ldots$$
-
 If anyone knows charming properties of the silver root, I'd be
 interested.) Anyway, it turns out that the roots of chromatic
 polynomials seem to cluster near Beraha numbers. For example, the four

@@ -224,16 +224,12 @@ since again various things that were equalities becomes isomorphisms. In
 particular, this means that various things one thought were vector
 spaces --- which are *sets* that have *elements* that you can *add* and
 *multiply by numbers*, and which satisfy *equations* like
-
 $$A + B = B + A$$
-
 are now reinterpreted as "2-vector spaces", which are *categories*
 that have *objects* that you can *direct sum* and *tensor with vector
 spaces*, and which have certain *natural isomorphisms* like the
 isomorphism
-
 $$A \oplus B \cong B \oplus A.$$
-
 In particular, using Lusztig's canonical basis, Crane and Frenkel start
 with quantum groups (which are Hopf algebras of a certain sort) and
 build marvelous "Hopf categories" out of them. While they do not

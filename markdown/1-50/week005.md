@@ -28,10 +28,8 @@ These conditions, especially the third, may look sort of weird if you
 are not used to them, but the examples make it all clear. The easiest
 example of a Lie algebra is $\mathfrak{gl}(n,\mathbb{C})$, which just means all $n\times n$ complex
 matrices with the bracket defined as the "commutator":
-
 $$[x,y] = xy-yx.$$
-
-Then straightforward calculations show a)-c) hold... so these
+Then straightforward calculations show a)--c) hold... so these
 conditions are really encoding the essence of the commutator.
 
 Now recall that the trace of a matrix, the sum of its diagonal entries,
@@ -49,13 +47,9 @@ The simplest of the $\mathfrak{sl}(n,\mathbb{C})$'s is the Lie algebra $\mathfra
 affectionately known simply as $\mathfrak{sl}(2)$, which is a 3-dimensional Lie
 algebra with a basis given by matrices people call $E$, $F$, and $H$ for
 mysterious reasons:
-
 $$E=\left(\begin{array}{cc}0&1\\0&0\end{array}\right) \quad F=\left(\begin{array}{cc}0&0\\1&0\end{array}\right) \quad H=\left(\begin{array}{cc}1&0\\0&-1\end{array}\right)$$
-
 You will never be an expert on Lie algebras until you know by heart that
-
 $$[H,E] = 2E, \quad [H,F] = -2F, \quad [E,F]  = H.$$
-
 Typically that's the sort of remark I make before screwing up by a
 factor of two or something, so you'd better check! This is a cute
 little multiplication table... but very important, since $\mathfrak{sl}(2)$ is the
@@ -64,20 +58,14 @@ algebras unfolds.
 
 Physicists are probably more familiar with a different basis of $\mathfrak{sl}(2)$,
 the Pauli matrices:
-
 $$\sigma_1=\left(\begin{array}{cc}0&1\\1&0\end{array}\right) \quad \sigma_2=\left(\begin{array}{cc}0&-i\\i&0\end{array}\right) \quad \sigma_3=\left(\begin{array}{cc}1&0\\0&-1\end{array}\right)$$
-
 For purposes of Lie algebra theory it's actually better to divide each
 of these matrices by $i$ and call the resulting matrices $I$, $J$, and $K$,
 respectively. We then have
-
 $$IJ = -JI = K, \quad JK = -KJ = I, \quad KI = -IK = J, \quad I2 = J2 = K2 = -1$$
-
 which is just the multiplication table of the quaternions! From the
 point of view of Lie algebras, though, all that matters is
-
 $$[I,J] = 2K, \quad [J,K] = 2I, \quad [K,I] = 2J.$$
-
 Given the relation of these things and cross products, it should be no
 surprise that the Pauli matrices have a lot to with angular momentum
 around the $x$, $y$, and $z$ axes in quantum mechanics.
@@ -105,16 +93,13 @@ a little *theorem* that this Lie algebra has a "representation" as $2\times2$
 matrices. And it would turn out to have other representations too. For
 example, there's a representation as $3\times3$ matrices given by sending
 $$E\mapsto\left(\begin{array}{ccc}0&1&0\\0&0&2\\0&0&0\end{array}\right) \quad F\mapsto\left(\begin{array}{ccc}0&0&0\\2&0&0\\0&1&0\end{array}\right) \quad H\mapsto\left(\begin{array}{ccc}2&0&0\\0&0&0\\0&0&-2\end{array}\right)$$
-
 In other words, these matrices satisfy the same commutation relations as
 $E$,$F$, and $H$ do.
 
 More generally, and more precisely, we say an $n$-dimensional
 representation of a Lie algebra $L$ (over the complex numbers) is a linear
 function $R$ from $L$ to $n\times n$ matrices such that
-
 $$R([x,y]) = [R(x),R(y)]$$
-
 for all $x,y$ in $L$. Note that on the left the brackets are the brackets in
 $L$, while on the right they denote the commutator of $n\times n$ matrices.
 
@@ -174,9 +159,7 @@ quantized enveloping algebras.
 Quantum groups can be formed from simple Lie algebras, and they depend
 on a parameter $q$, a nonzero complex parameter. This parameter --- $q$ is for
 quantum, naturally --- can be thought of as
-
 $$e^\hbar$$
-
 The exponential of Planck's constant! When we set $\hbar = 0$ we get $q = 1$,
 and we get back to the "classical case" of plain old-fashioned Lie
 algebras and groups. Every representation of a quantum group gives an
@@ -199,9 +182,7 @@ $q = 1$ we essentially have the good old $\mathfrak{sl}(2)$. Chari and Premet ha
 worked out a lot of the representation theory of $\mathfrak{sl}_q(2)$. First of all,
 it's been known for some time that as long as $q$ is not a root of unity
 --- that is, as long as we don't have
-
 $$q^n = 1$$
-
 for some integer $n$ --- the story is almost like that for ordinary $\mathfrak{sl}(2)$.
 Namely, there is one irreducible representation of each dimension, and
 all representations are completely reducible. This fails at roots of

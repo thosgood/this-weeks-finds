@@ -78,9 +78,7 @@ mean. I guess it is something required to make the right-hand side of
 the formula below be self-dual in the indices $a,b$.) Consider now two
 equations. The first is the Dirac equation for $\psi$. The second is that the
 self-dual part $F^+$ of the curvature of $A$ be given in coordinates as
-
 $$F^+_{ab} = -\frac12 \langle\psi, e^a e^b \psi\rangle$$
-
 where the basis 1-forms $e^a$, $e^b$ act on $\psi$ by Clifford multiplication.
 
 Next form the moduli space $M$ of solutions $(A, \psi)$ modulo the action of

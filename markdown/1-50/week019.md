@@ -10,9 +10,7 @@ fixed metric on spacetime --- that is, a way of measuring distance and
 time. Indeed, it seems pretty close to being true that spacetime is
 $\mathbb{R}^4$, and that the "interval" between any two points in 4-dimensional
 space is given by the Minkowski metric
-
 $$dt^2 -dx^2 -dy^2 -dz^2$$
-
 where $dt$ is the change in the time, or $t$, coordinate, $dx$ is the change
 in the spatial $x$ coordinate, and so on. However, it's apparently not
 quite true. In fact, the presence of matter or energy distorts this

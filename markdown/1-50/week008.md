@@ -40,13 +40,9 @@ associative, so the following theorem is slightly interesting:
 
 **Theorem.** Consider any two bracketings of a product of any finite number
 of vectors, e.g.:
-
 $$L = a \times (b \times ((c \times d) \times e) \quad\text{and}\quad  R = ((a \times b) \times c) \times (d \times e).$$
-
 Let $i$, $j$, and $k$ be the usual canonical basis for $\mathbb{R}^3$:
-
 $$i = (1,0,0), \quad j = (0,1,0), \quad k = (0,0,1).$$
-
 Then we may assign $a,b,c,\ldots$ values taken from $\{i,j,k\}$ in such a way
 that $L = R$ and both are nonzero.
 
@@ -84,12 +80,9 @@ algebraic formulation of the 4-color theorem in terms of the
 Temperley-Lieb algebra. The Temperley-Lieb algebra $TL_n$ is a cute
 algebra with generators $e_1, \ldots, e_{n-1}$ and relations that depend on
 a constant $d$ called the "loop value":
-
 $$\begin{aligned}e_i^2 &= de_i \\ e_i e_{i+1} e_i &= e_i \\ e_i e_{i-1} e_i &= e_i \\ e_i e_j &= e_j e_i \quad\text{for } |i-j| > 1.\end{aligned}$$
-
 The point of it becomes clear if we draw the $e_i$ as tangles on $n$
 strands. Let's take $n = 3$ to keep life simple. Then $e_1$ is
-
 $$
   \begin{tikzpicture}
     \begin{knot}[clip width=7]
@@ -102,9 +95,7 @@ $$
     \end{knot}
   \end{tikzpicture}
 $$
-
 while $e_2$ is
-
 $$
   \begin{tikzpicture}
     \begin{knot}[clip width=7]
@@ -117,10 +108,8 @@ $$
     \end{knot}
   \end{tikzpicture}
 $$
-
 In general, $e_i$ "folds over" the $i$th and $(i+1)$st strands. Note that if
 we square $e_i$ we get a loop --- e.g., $e_1$ squared is
-
 $$
   \begin{tikzpicture}
     \begin{knot}[clip width=7]
@@ -137,14 +126,12 @@ $$
     \end{knot}
   \end{tikzpicture}
 $$
-
 Here we are using the usual product of tangles (see the article
 ["tangles"](http://math.ucr.edu/home/baez/tangles.html) in the collection of my expository posts, which can be
 obtained in a manner described at the end of this post). Now the rule in
 Temperley-Lieb land is that we can get rid of a loop if we multiply by
 the loop value $d$; that is, the loop "equals" $d$. So $e_1$ squared is just
 $d$ times
-
 $$
   \begin{tikzpicture}
     \begin{knot}[clip width=7]
@@ -157,13 +144,11 @@ $$
     \end{knot}
   \end{tikzpicture}
 $$
-
 which --- since we are doing topology --- is the same as $e_1$. That's why
 $e_i^2 = de_i$.
 
 The other relations are even more obvious. For example, $e_1 e_2 e_1$ is
 just
-
 $$
   \begin{tikzpicture}
     \begin{knot}[clip width=7]
@@ -182,7 +167,6 @@ $$
     \end{knot}
   \end{tikzpicture}
 $$
-
 which, since we are doing topology, is just $e_1$! Similarly, $e_2 e_1 e_2 = e_1$, and $e_i$ and $e_j$ commute if they are far enough away to keep from
 running into each other.
 

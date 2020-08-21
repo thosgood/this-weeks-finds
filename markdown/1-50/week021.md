@@ -158,7 +158,6 @@ is that of movies. Calling the 4th coordinate "time," we can draw
 slices at different times and get frames of a movie. Most of the frames
 of a movie of an embedded surface will show simply a bunch of knots. At
 a few times, however, a "catastrophe" will occur, e.g.:
-
 $$
   \begin{array}{p{8em}p{8em}p{8em}}
     \begin{tikzpicture}
@@ -226,7 +225,6 @@ $$
     \end{tikzpicture}
   \end{array}
 $$
-
 However, there are always many different movies of essentially the same
 embedding. We can, however, always relate these by a sequence of
 transformations called "movie moves." I wish I could draw these, but

@@ -38,22 +38,16 @@ relative to the galaxies. Then, since we are pretending the universe is
 completely homogeneous and isotropic --- and let's say it's a closed
 universe in the shape of a 3-sphere, to be specific --- the metric is
 given by
-
 $$dt^2-r(t)^2[(d\psi)^2 + (\sin \psi)^2{(d\theta)^2 + (\sin \theta)^2 (d\varphi)^2}]$$
-
 What does all this mean? Here $r(t)$ is the radius of the universe as a
 function of time, the following stuff is just the usual metric on the
 unit 3-sphere with hyperspherical coordinates $\psi$, $\theta$, $\varphi$ generalizing the
 standard coordinates on the 2-sphere we all learn in college:
-
 $$(d\psi)^2 + (\sin \psi)^2{(d\theta)^2 + (\sin \theta)^2 (d\varphi)^2}$$
-
 and the fact that the metric on spacetime is $dt^2$ minus a bunch of
 stuff reflects the fact that spacetime geometry is "Lorentzian," just
 as in flat Minkowski space the metric is
-
 $$dt^2-dx^2-dy^2-dz^2.$$
-
 The name of the game in this simple sort of big bang cosmology is thus
 finding the function $r(t)$! To do this, of course, we need to see what
 Einstein's equations reduce to in this special case, and since
@@ -62,34 +56,22 @@ stress-energy tensor, this will depend on what sort of matter we have
 around. We are assuming that it's homogeneous and isotropic, whatever
 it is, so it turns out that all we need to know is its density $\rho$ and
 pressure $P$ (which are functions of time). We get the equations
-
 $$\begin{aligned}r''/r &= -\frac{4\pi}{3}(\rho+3P) \\ (r')^2 &= \frac{8\pi}{3}\rho r^2-1\end{aligned}$$
-
 Here primes denote differentiation with respect to $t$, and I'm using
 units in which the gravitational constant and speed of light are equal
 to 1.
 
 Let's simplify this even more. Let's assume our matter is "dust,"
 which is the technical term for zero pressure. We get two equations:
-
 $$\begin{aligned}r''/r &= -\frac{4\pi}{3}\rho \\ (r')^2 &= \frac{8\pi}{3}\rho r^2-1\end{aligned}\tag{1}$$
-
 Now let's take the second one, differentiate with respect to $t$,
-
 $$2r''r' = \frac{8\pi}{3}(\rho'r^2 + 2 \rho r r')$$
-
 plug in what the first equation said about r'',
-
 $$-\frac{8\pi}{3} \rho r r' = \frac{8\pi}{3}(\rho' r^2 + 2 \rho r r')$$
-
 clear out the crud, and lo:
-
 $$3 \rho r' = -\rho' r$$
-
 or, more enlighteningly,
-
 $$\frac{d(\rho r^3)}{dt} = 0.$$
-
 This is just "conservation of dust" --- the dust density times the
 volume of the universe is staying constant. This, by the way, is a
 special case of the fact that Einstein's equations *automatically
@@ -98,9 +80,7 @@ is divergence-free).
 
 Okay, so let's say $\rho r^3 = D$, with $D$ being the total amount of dust.
 Then we can eliminate $\rho$ from equations (1) and get:
-
 $$\begin{aligned}r'' &= -\frac{4\pi D}{3r^2} \\ (r')^2-\frac{8\pi}{3}\frac{D}{r} &= -1 \end{aligned}\tag{2}$$
-
 What does this mean? Well, the first one looks like it's saying
 there's a force trying to make the universe collapse, and that the
 strength of this force is proportional to $1/r^2$. Sound vaguely
@@ -119,7 +99,6 @@ out qualitatively. The key thing is that since the total "energy" in
 the second equation of (2) is negative, there won't be enough
 "energy" for $r$ to go to infinity, that is, there'll be a big bang and
 then a big crunch. Here's $r$ as a function of $t$, roughly:
-
 $$
   \begin{tikzpicture}
     \draw[->] (0,0) to (5,0) node[label=below left:{$t$}]{};
@@ -128,7 +107,6 @@ $$
   \end{tikzpicture}
   \text{Figure 1}
 $$
-
 What goes up, must come down! This curve, which I haven't drawn too
 well, is just a cycloid, which is the curve traced out by a point on the
 rim of rolling wheel. So, succumbing to romanticism momentarily we could
@@ -174,9 +152,7 @@ of freedom is $r$ --- is to turn the "position" (that's $r$) into a
 multiplication operator and the "momentum" (often that's something
 like $r'$, but watch out!) into a differentation operator, say $-i \hbar \frac{d}{dr}$,
 so that we get the "canonical commutation relations"
-
 $$[-i \hbar \frac{d}{dr}, r] = -i \hbar.$$
-
 We then take the formula for the energy, or Hamiltonian, in terms of
 position and momentum, and plug in these operators, so that the
 Hamiltonian becomes an operator. (Here various "operator-ordering"
@@ -185,20 +161,14 @@ original classical system but not anymore!) To explain what I mean, why
 don't I just do it!
 
 So: I said that the formula
-
 $$(r')^2-\frac{8\pi}{3} \frac{D}{r} = -1 \tag{3}$$
-
 looks a lot like a formula of the form "kinetic energy plus potential
 energy is constant". Of course, we could multiply the whole equation by
 anything and get a valid equation, so it's not obvious that the
 "right" Hamiltonian is
-
 $$(r')^2-\frac{8\pi}{3} \frac{D}{r}$$
-
 or (adding 1 doesn't hurt)
-
 $$(r')^2-\frac{8\pi}{3} \frac{D}{r} + 1$$
-
 In fact, note that multiplying the Hamiltonian by some function of $r$
 just amounts to reparametrizing time, which is perfectly fine in general
 relativity. In fact, Vilenkin and other before him have decided it's
@@ -206,55 +176,39 @@ better to multiply the Hamiltonian above by $r^2$. Why? Well, it has to
 do with figuring out what the right notion of "momentum" is
 corresponding to the "position" $r$. Let's do that. We use the old
 formula
-
 $$p = \frac{dL}{dq'}$$
-
 relating momentum to the Lagrangian, where for us the position, usually
 called $q$, is really $r$.
 
 The Lagrangian of general relativity is the "Ricci scalar" $R$ --- a
 measure of curvature of the metric --- and in the present problem it turns
 out to be
-
 $$R = 6 \left(\frac{r''}{r} + \frac{(r')^2}{r^2}\right)$$
-
 But we are reducing the full field theory problem down to a problem with
 one degree of freedom, so our Lagrangian should be the above integrated
 over the 3-sphere, which has volume $16 \pi r^3/3$, giving us
-
 $$32\pi (r''r^2 + (r')^2 r)$$
-
 However, the $r''$ is a nuisance, and we only use the integral of the
 Lagrangian with respect to time (that's the action, which classically
 is extremized to get the equations of motion), so let's do an
 integration by parts, or in other words add a total divergence, to get
 the Lagrangian
-
 $$L = -32\pi (r')^2 r.$$
-
 Differentiating with respect to $r'$ we get the momentum "conjugate to
 $r$",
-
 $$p = -64\pi r'r.$$
-
 Now I notice that Vilenkin uses as the momentum simply $-r'r$, somehow
 sweeping the monstrous $64\pi$ under the rug. I have the feeling that this
 amounts to pushing this factor into the definition of $\hbar$ in the canonical
 commutation relations. Since I was going to set $\hbar$ to 1 in a minute
 anyway, this is okay (honest). So let's keep life simple and use
-
 $$p = -r'r.$$
-
 Okay! Now here's the point, we want to exploit the analogy with good
 old quantum mechanics, which typically has Hamiltonians containing
 something like $p^2$. So let's take our preliminary Hamiltonian
-
 $$(r')^2-\frac{8\pi}{3} \frac{D}{r} + 1$$
-
 and multiply it by $r^2$, getting
-
 $$H = p^2-\frac{8\pi D}{3}r + r^2.$$
-
 Hey, what's this? A harmonic oscillator! (Slightly shifted by the term
 proportional to $r$.) So the universe is just a harmonic oscillator... I
 guess that's why they stressed that so much in all my classes!
@@ -267,14 +221,11 @@ the ordinary sense, but a "Hamiltonian constraint" --- typical of
 systems with time reparametrization invariance. So our quantized
 equation says that the "wavefunction of the universe," $\psi(r)$, must
 satisfy
-
 $$H \psi = 0.$$
-
 Also, unlike the ordinary harmonic oscillator we have the requirement
 that $r\geqslant0$. In other word, we're working with a problem that's like a
 harmonic oscillator and a "wall" that keeps $r\geqslant0$. Think of a
 particle in a potential like this:
-
 $$
   \begin{tikzpicture}
     \draw[->] (0,0) to (5,0) node [label=below left:{$r$}]{};
@@ -283,7 +234,6 @@ $$
   \end{tikzpicture}
   \text{Figure 2}
 $$
-
 Here $V(r) = -(8\pi D/3)r + r^2$. The minimum of $V$ is at $r = 4 \pi D/3$ and
 the zeroes are at $r = 0$ and $8 \pi D/3$. Classically, a particle with zero
 energy starting at $r = 0$ will roll to the right and make it out to $r = 4\pi D/3$ before rolling back to $r = 0$. This is basically the picture we had

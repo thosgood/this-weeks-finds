@@ -85,9 +85,7 @@ The experts seem to think this conjecture is probably false --- but nobody
 has disproved it. Metzler lists a few presentations of the trivial group
 that might be counterexamples: nobody has ever found a way to use moves
 1)-6) to boil them down to the presentation $\langle x \mid x \rangle$. For example,
-
 $$\langle a, b \mid b^5a^{-4}, aba(bab)^{-1}\rangle.$$
-
 Try it!
 
 The Andrews-Curtis conjecture is interesting mainly for its implications

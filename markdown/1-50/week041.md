@@ -108,28 +108,20 @@ Chern-Simons theory on a manifold with boundary induces a dynamical
 Wess-Zumino-Witten (WZW) theory on the boundary. In the presence of a
 cosmological constant $\Lambda = -1/L^2$ appropriate for the
 (2+1)-dimensional black hole, one obtains a slightly modified $SO(2,1) \times SO(2,1)$ WZW model, with coupling constant
-
 $$k = \frac{L\sqrt{2}}{8G}$$
-
 This model is not completely understood, but in the large $k$ --- i.e.,
 small $\Lambda$ --- limit, it may be approximated by a theory of six
 independent bosonic oscillators. I show below that the Virasoro operator
 $L_0$ for this theory takes the form
-
 $$L_0 \sim N -\left(\frac{r}{4G}\right)^2,$$
-
 where $N$ is a number operator and $r$ is the horizon radius. It is a
 standard result of string theory that the number of states of such a
 system behaves asymptotically as
-
 $$n(N) \sim \exp(\pi \sqrt{4} N)$$
-
 If we demand that $L_0$ vanish --- physically, requiring states to be
 independent of the choice of origin of the angular coordinate at the
 horizon --- we thus obtain
-
 $$\log n(r) \sim \frac{2 \pi r}{4G},$$
-
 precisely the right expression for the entropy of the (2+1)-dimensional
 black hole.
 
@@ -144,9 +136,7 @@ things in quantum gravity. The simplest sort of spin network is just a
 trivalent graph (i.e., 3 edges adjacent to each vertex) with edges
 labelled by "spins" $0,1/2,1,3/2,\ldots$, and satisfying the "triangle
 inequality" at each vertex:
-
 $$j_1 + j_2 \leqslant j_3, \quad j_2 + j_3 \leqslant j_1, \quad j_3 + j_1 \leqslant j_2,$$
-
 where $j_1$, $j_2$, $j_3$ are the spins labelling the edges adjacent to the given
 vertex. Really, the spins should be thought of as irreducible
 representations of $SU(2)$, and the triangle inequalities is necessary for
@@ -188,26 +178,18 @@ in quantum gravity, at least not in any simple way, because there is no
 Hamiltonian in general relativity, but only a "Hamiltonian
 constraint" --- which in quantum gravity becomes the Wheeler-DeWitt
 equation
-
 $$H \psi = 0.$$
-
 Now, people know there is a mystical relationship between time and
 temperature that might be written
-
 $$it = \frac{1}{kT}$$
-
 where $t$ is time, $T$ is temperature, and $k$ is Boltzmann's constant. This
 equation is a bit of an exaggeration! But the point is that in quantum
 theory, when there is a Hamiltonian $H$ around one evolves states using
 the operator
-
 $$\exp(-itH)$$
-
 while the Gibbs state, that is, the equilibrium state at temperature $T$,
 is given by the density matrix
-
 $$\exp(-H/kT).$$
-
 It is this fact that relates statistical mechanics and quantum field
 theory so closely.
 
@@ -226,9 +208,7 @@ understands about all these connections!
 In any event, Rovelli was prompted to use thermodynamics to DEFINE time
 in quantum gravity as follows. Given a mixed state with density matrix
 $D$, *find* some operator $H$ such that $D$ is the Gibbs state $\exp(-H/kT)$. In lots of cases this isn't hard; it basically amounts to
-
 $$H = -kT \ln D$$
-
 Of course, $H$ will depend on $T$, but this really is just saying that
 fixing your units of temperature fixes your units of time!
 

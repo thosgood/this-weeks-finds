@@ -13,7 +13,6 @@ The authors generalize the standard trick for getting link invariants
 from solutions of the Yang-Baxter equations, and show how to get link
 invariants applicable to generalized links with 4-valent or 6-valent
 vertices, that is, transverse double points, like
-
 $$
   \begin{tikzpicture}
     \begin{knot}[clip width=0]
@@ -87,7 +86,6 @@ $$
     \end{knot}
   \end{tikzpicture}
 $$
-
 Note that the link has to be oriented for this rule to make sense, and
 the strands shown in the pictures above should be pointing *downwards*.
 Now, having made this extension, we say a link invariant is a Vassiliev

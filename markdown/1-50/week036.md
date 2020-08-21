@@ -34,44 +34,30 @@ $\mathrm{Lie}(G)$-valued one-form --- and a $\mathrm{Lie}(G)$-valued $(n-2)$-for
 $F$ denotes the curvature of $A$, which is a $\mathrm{Lie}(G)$-valued 2-form, we can
 take the wedge product $B\wedge F$ and get a $\mathrm{Lie}(G)$-valued $n$-form, which
 gives the Lagrangian
-
 $$\operatorname{tr}(B \wedge F),$$
-
 an $n$-form we can integrate over $M$ to get the action. Since we don't
 need any metric to integrate an $n$-form over our spacetime $M$, this action
 is "generally covariant". (Note also that it's gauge-invariant.) If
 we vary $B$ and $F$ to get the classical equations of motion, varying $B$
 gives us
-
 $$F = 0,$$
-
 that is, the connection $A$ is flat, and varying $A$ gives us
-
 $$d_A B = 0,$$
-
 that is, the exterior covariant derivative of $B$ vanishes.
 
 In 4 dimensions we can soup up our BF theory a bit by adding terms
 proportional to
-
 $$\operatorname{tr}(B \wedge B)$$
-
 and
-
 $$\operatorname{tr}(F \wedge F)$$
-
 to the Lagrangian. If we take as our Lagrangian
-
 $$\operatorname{tr}(B \wedge F) + a \operatorname{tr}(B \wedge B) + b \operatorname{tr}(F \wedge F),$$
-
 the third term, when integrated over $M$, is proportional to an invariant
 called the second Chern class of $E$, that is, it's independent of the
 connection $A$, so it really doesn't affect the equations of motion at
 all! In a sense it's utterly useless. The second term does something,
 though; our equations of motion become
-
 $$F = -2aB, \quad d_A B = 0.$$
-
 Note that if we plug the first equation into the Lagrangian, we get that
 for solutions of the equations of motion, the action is a constant times
 the second Chern class (if $a$ is nonzero).

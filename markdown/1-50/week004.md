@@ -166,7 +166,6 @@ just "paths of paths," making the name 2-morphism quite appropriate.
 it's too late, they've already been invented! I won't discuss them
 here.) The notation for 2-morphisms is quite cute: given $f,g$ in
 $\mathrm{Hom}(x,y)$, we write $F$ in $\mathrm{Hom}(f,g)$ as the following diagram:
-
 $$
   \begin{tikzcd}[sep=huge]
     x
@@ -176,7 +175,6 @@ $$
       \arrow[Rightarrow,shorten=5pt,from=U,to=D,"F"]
   \end{tikzcd}
 $$
-
 Ugh, that's not cute, that's ugly --- the joys of ASCII! What this is
 supposed to be is two arrows from $x$ to $y$, namely $f$ and $g$, and then a big
 fat double arrow labelled $F$ going down from $f$ to $g$. In other words,
@@ -192,7 +190,6 @@ Rather than write down the axioms for a 2-category, which are in
 Kapranov and Voevodsky, let me note the key new thing about 2-morphisms:
 there are two ways to compose them, "horizontally" and "vertically".
 First of all, given the following situation:
-
 $$
   \begin{tikzcd}[sep=huge]
     x
@@ -206,11 +203,9 @@ $$
       \arrow[Rightarrow,shorten=5pt,from=U',to=D',"F'"]
   \end{tikzcd}
 $$
-
 we can compose $F$ and $F'$ horizontally to get a 2-morphism from $f'\circ f$ to
 $g \circ g'$. (Check this out in the example of homotopies!) But also, given
 the following situation:
-
 $$
   \begin{tikzcd}[sep=huge]
     x
@@ -223,7 +218,6 @@ $$
       \arrow[Rightarrow,shorten=2pt,from=M,to=D,"G"]
   \end{tikzcd}
 $$
-
 ($f,g,h$ in $\mathrm{Hom}(x,y)$, $F$ in $\mathrm{Hom}(f,g)$, and $G$ in $\mathrm{Hom}(g,h)$), we can compose $F$
 and $G$ vertically to get a 2-morphism from $f$ to $g$.
 
@@ -261,7 +255,6 @@ the object $n$ as a horizontal row of $n$ points. The morphisms in $\mathrm{Hom}
 are tangles connecting a row of $n$ points above to a row of $m$ points
 below. Rather than define "tangles" I will simply draw pictures of
 some examples. Here is an element of $\mathrm{Hom}(2,4)$:
-
 $$
   \begin{tikzpicture}
     \begin{knot}[clip width=7]
@@ -276,9 +269,7 @@ $$
     \end{knot}
   \end{tikzpicture}
 $$
-
 and here is an element of $\mathrm{Hom}(4,0)$:
-
 $$
   \begin{tikzpicture}
     \begin{knot}[clip width=7]
@@ -300,9 +291,7 @@ $$
     \end{knot}
   \end{tikzpicture}
 $$
-
 Note that we can "compose" these tangles to get one in $\mathrm{Hom}(2,0)$:
-
 $$
   \begin{tikzpicture}
     \begin{knot}[clip width=7]
@@ -334,14 +323,12 @@ $$
     \end{knot}
   \end{tikzpicture}
 $$
-
 Now, given tangles $f,g$ in $\mathrm{Hom}(m,n)$, a 2-morphism from $f$ to $g$ is a
 "2-tangle." I won't define these either, but we may think of a
 2-tangle from $f$ to $g$ roughly as a "movie" whose first frame is the
 tangle $f$ and last frame is the tangle $g$, and each of whose intermediate
 frames is a tangle except at certain times when a catastrophe occurs.
 For example, here's a 2-tangle shown as a movie...
-
 $$
   \begin{array}{p{8em}p{8em}p{8em}}
     \begin{tikzpicture}
@@ -409,7 +396,6 @@ $$
     \end{tikzpicture}
   \end{array}
 $$
-
 Well, it'll never win an Academy Award, but this movie is pretty
 important. It's a picture of the 3-dimensional slices of a
 2-dimensional surface in (3+1)-dimensional spacetime, and this surface

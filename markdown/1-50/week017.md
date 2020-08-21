@@ -92,7 +92,6 @@ spheres, and other aspects of "quantum geometry."
 
 Just as every knot or link is given as the closure of a braid --- for
 example, the trefoil knot
-
 $$
   \begin{tikzpicture}
     \begin{knot}[clip width=7pt]
@@ -116,9 +115,7 @@ $$
     \end{knot}
   \end{tikzpicture}
 $$
-
 is the closure of
-
 $$
   \begin{tikzpicture}
     \begin{knot}[clip width=7pt]
@@ -134,8 +131,7 @@ $$
     \end{knot}
   \end{tikzpicture}
 $$
-
-every "2-knot" or "2-link" --- that is, a surface embedded in $\mathbb{R}^4$, is
+--- every "2-knot" or "2-link" --- that is, a surface embedded in $\mathbb{R}^4$, is
 the closure of a "2-braid". Just as there are "Markov moves" that
 say when two links come from the same braid, there are moves for
 2-braids --- as discussed here.

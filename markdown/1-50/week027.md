@@ -217,20 +217,14 @@ non-negative matrix). And the normalization condition is that $\psi(1) = 1$.
 
 This may seem unfamiliar, and that is because elementary quantum
 mechanics only considers states of the form
-
 $$\psi(A) = \langle v, Av\rangle$$
-
 where $v$ is a unit vector in $H$. Not all states are of this form, but they
 are an extremely important special class of states. It is also important
 to consider states that are represented as "density matrices,"
 which are non-negative matrices $D$ with trace 1:
-
 $$\operatorname{tr}(D) = \sum_i D_{ii} = 1$$
-
 Such a density matrix defines a state $\psi$ by
-
 $$\psi(A) = \operatorname{tr}(AD).$$
-
 It's worth checking that this really meets the definition of a
 "state" given above!
 
@@ -238,22 +232,16 @@ The states corresponding to unit vectors in $H$ are in fact a special case
 of the density matrices. Namely, if $v$ is a unit vector in $H$ we can let $D$
 be the self-adjoint matrix corresponding to projection onto $v$. I.e., the
 matrix $D$ acts on any other vector, say $w$, by
-
 $$Dw = \langle v,w \rangle v.$$
-
 It's not to hard to check that the matrix $D$ really is a density matrix
 (do it!) and that this density matrix defines the same state as does the
 vector $v$, that is,
-
 $$\operatorname{tr}(AD) = \langle v, Av\rangle$$
-
 for any observable $A$.
 
 The entropy of a state $\psi$ corresponding to the density matrix $D$ is
 defined to be
-
 $$S(\psi) = -\operatorname{tr}(D \ln D)$$
-
 where one calculates $D \ln D$ by working in a basis where $D$ is diagonal and
 replacing each eigenvalue $x$ of $D$ by the number $x \ln x$, which we decree to
 be $0$ if $x = 0$. Check that if $D$ corresponds to a *pure* state as above
@@ -270,9 +258,7 @@ Mixtures are an utterly different sort of linear combination. Given two
 states $\psi$ and $\phi$ -- which recall are things that assign numbers to
 observables in a linear way -- and given any number $c$ between $0$ and $1$,
 we can form a new state by taking
-
 $$c \psi + (1-c) \phi$$
-
 This is called a mixture of $\psi$ and $\phi$. Finally, some nontrivial exercises:
 
 **Exercise:** Recall that a pure state is defined to be a state which is not

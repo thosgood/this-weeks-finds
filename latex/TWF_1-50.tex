@@ -91,9 +91,7 @@ interactions.'' They have developed a set of ``movie moves'' that
 connect any two movies of the same knotted surface. These papers contain
 a lot of fascinating pictures! And there does seem to be more than a
 minor relation to string theory. For example, one of the movie moves is
-very analogous to the 3rd Reidemeister move --- which goes
-
-\[
+very analogous to the 3rd Reidemeister move --- which goes \[
   \begin{tikzpicture}
     \begin{knot}[clip width=7]
       \strand[thick] (0,0)
@@ -127,9 +125,7 @@ very analogous to the 3rd Reidemeister move --- which goes
         to (0,-3);
     \end{knot}
   \end{tikzpicture}
-\]
-
-I won't try to draw the corresponding movie move, but just as the 3rd
+\] I won't try to draw the corresponding movie move, but just as the 3rd
 Reidemeister move is the basis for the Yang-Baxter equation
 \(R_{23}R_{13}R_{12} = R_{12}R_{13}R_{23}\) (the subscripts indicate
 which strand is crossing which), the corresponding movie move is the
@@ -289,9 +285,7 @@ sitting around in my office and that I am now filing away.
 The authors generalize the standard trick for getting link invariants
 from solutions of the Yang-Baxter equations, and show how to get link
 invariants applicable to generalized links with 4-valent or 6-valent
-vertices, that is, transverse double points, like
-
-\[
+vertices, that is, transverse double points, like \[
   \begin{tikzpicture}
     \begin{knot}[clip width=0]
       \strand[thick] (0,0)
@@ -364,10 +358,8 @@ invariant on a link with a double point \[
       to [out=down,in=up] (0,-1);
     \end{knot}
   \end{tikzpicture}
-\]
-
-Note that the link has to be oriented for this rule to make sense, and
-the strands shown in the pictures above should be pointing
+\] Note that the link has to be oriented for this rule to make sense,
+and the strands shown in the pictures above should be pointing
 \emph{downwards}. Now, having made this extension, we say a link
 invariant is a Vassiliev invariant of degree \(n\) if it vanishes on all
 links with \(n+1\) or more double points.
@@ -709,9 +701,7 @@ polynomials in a variable \(q\) (for ``quantum''), and if one writes
 coefficient of \(\hbar^n\) is a ``Vassiliev invariant of degree \(n\)''.
 Recall from last week that given an invariant of oriented knots, one can
 extend it to knot with arbitrarily many nice crossings by setting the
-value of the invariant on a knot with a crossing like
-
-\[
+value of the invariant on a knot with a crossing like \[
   \begin{tikzpicture}
     \begin{knot}[clip width=0]
       \strand[thick] (0,0)
@@ -720,11 +710,7 @@ value of the invariant on a knot with a crossing like
       to [out=down,in=up] (0,-1);
     \end{knot}
   \end{tikzpicture}
-\]
-
-to be the invariant of the knot with the crossing changed to
-
-\[
+\] to be the invariant of the knot with the crossing changed to \[
   \begin{tikzpicture}
     \begin{knot}[clip width=7]
       \strand[thick] (0,0)
@@ -734,11 +720,7 @@ to be the invariant of the knot with the crossing changed to
       \flipcrossings{1}
     \end{knot}
   \end{tikzpicture}
-\]
-
-minus the invariant of the knot with the crossing changed to
-
-\[
+\] minus the invariant of the knot with the crossing changed to \[
   \begin{tikzpicture}
     \begin{knot}[clip width=7]
       \strand[thick] (0,0)
@@ -747,10 +729,8 @@ minus the invariant of the knot with the crossing changed to
       to [out=down,in=up] (0,-1);
     \end{knot}
   \end{tikzpicture}
-\]
-
-(Again, the knot has to be oriented for this rule to make sense, and the
-strands shown in the pictures above should be pointing downwards.)
+\] (Again, the knot has to be oriented for this rule to make sense, and
+the strands shown in the pictures above should be pointing downwards.)
 Having made this extension, one says a knot invariant is a Vassiliev
 invariant of degree \(n\) if it vanishes on all knot with \(n+1\) or
 more double points.
@@ -821,9 +801,7 @@ combinatorial form. Let \(B\) be the vector space spanned by finite
 graphs with univalent and ``oriented'' trivalent vertices, modulo some
 relations\ldots{} first of all, a trivalent vertex is ``oriented'' if
 there is a cyclic ordering of the three incident edges. That is, we
-``orient'' the vertex
-
-\[
+``orient'' the vertex \[
   \begin{tikzpicture}
     \draw[thick] (50:1.5) to (0:0);
     \draw[thick] (130:1.5) to (0,0);
@@ -832,10 +810,8 @@ there is a cyclic ordering of the three incident edges. That is, we
     \draw[ultra thick,white] (0,0) circle (7pt);
     \node[scale=2,rotate=150] at (0,0) {$\circlearrowleft$};
   \end{tikzpicture}
-\]
-
-by drawing a little clockwise or counterclockwise-pointing circle at the
-vertex. (Or, for those of an algebraic bent, label the edges by
+\] by drawing a little clockwise or counterclockwise-pointing circle at
+the vertex. (Or, for those of an algebraic bent, label the edges by
 \(1\),\(2\),\(3\) but then mod out by cyclic permutations.) The
 relations are:
 
@@ -900,9 +876,7 @@ are:
 
 Now, define a linear map from \(B\) to \(B_m\) by mapping any graph to
 the signed sum of the \(2^\text{number of edges}\) ways of labelling the
-edges with \(1\) or \(-1\). Symbolically,
-
-\[
+edges with \(1\) or \(-1\). Symbolically, \[
   \begin{tikzpicture}
     \draw[thick] (-1,0) to (1,0);
   \end{tikzpicture}
@@ -916,10 +890,8 @@ edges with \(1\) or \(-1\). Symbolically,
     \draw[thick] (-1,0) to (1,0);
     \node at (0,0.3) {$-1$};
   \end{tikzpicture}
-\]
-
-Of course, one must work a bit to show this map is well-defined. (This
-just takes a paragraph --- see Proposition 6.5 of Dror's paper.)
+\] Of course, one must work a bit to show this map is well-defined.
+(This just takes a paragraph --- see Proposition 6.5 of Dror's paper.)
 
 Okay, the conjecture is:
 
@@ -1196,9 +1168,7 @@ just ``paths of paths,'' making the name 2-morphism quite appropriate.
 it's too late, they've already been invented! I won't discuss them
 here.) The notation for 2-morphisms is quite cute: given \(f,g\) in
 \(\mathrm{Hom}(x,y)\), we write \(F\) in \(\mathrm{Hom}(f,g)\) as the
-following diagram:
-
-\[
+following diagram: \[
   \begin{tikzcd}[sep=huge]
     x
       \rar[bend left=50,"f"{name=U}]
@@ -1206,9 +1176,7 @@ following diagram:
     & y
       \arrow[Rightarrow,shorten=5pt,from=U,to=D,"F"]
   \end{tikzcd}
-\]
-
-Ugh, that's not cute, that's ugly --- the joys of ASCII! What this is
+\] Ugh, that's not cute, that's ugly --- the joys of ASCII! What this is
 supposed to be is two arrows from \(x\) to \(y\), namely \(f\) and
 \(g\), and then a big fat double arrow labelled \(F\) going down from
 \(f\) to \(g\). In other words, while ordinary morphisms are
@@ -1222,9 +1190,7 @@ as ``braided monoidal categories'' do in three-dimensional field theory!
 Rather than write down the axioms for a 2-category, which are in
 Kapranov and Voevodsky, let me note the key new thing about 2-morphisms:
 there are two ways to compose them, ``horizontally'' and ``vertically''.
-First of all, given the following situation:
-
-\[
+First of all, given the following situation: \[
   \begin{tikzcd}[sep=huge]
     x
       \rar[bend left=50,"f"{name=U}]
@@ -1236,13 +1202,9 @@ First of all, given the following situation:
     & z
       \arrow[Rightarrow,shorten=5pt,from=U',to=D',"F'"]
   \end{tikzcd}
-\]
-
-we can compose \(F\) and \(F'\) horizontally to get a 2-morphism from
+\] we can compose \(F\) and \(F'\) horizontally to get a 2-morphism from
 \(f'\circ f\) to \(g \circ g'\). (Check this out in the example of
-homotopies!) But also, given the following situation:
-
-\[
+homotopies!) But also, given the following situation: \[
   \begin{tikzcd}[sep=huge]
     x
       \rar[bend left=80,"f"{name=U}]
@@ -1253,10 +1215,8 @@ homotopies!) But also, given the following situation:
       \arrow[Rightarrow,shorten=3pt,from=U,to=M,"F"]
       \arrow[Rightarrow,shorten=2pt,from=M,to=D,"G"]
   \end{tikzcd}
-\]
-
-(\(f,g,h\) in \(\mathrm{Hom}(x,y)\), \(F\) in \(\mathrm{Hom}(f,g)\), and
-\(G\) in \(\mathrm{Hom}(g,h)\)), we can compose \(F\) and \(G\)
+\] (\(f,g,h\) in \(\mathrm{Hom}(x,y)\), \(F\) in \(\mathrm{Hom}(f,g)\),
+and \(G\) in \(\mathrm{Hom}(g,h)\)), we can compose \(F\) and \(G\)
 vertically to get a 2-morphism from \(f\) to \(g\).
 
 As Kapranov and Voevodsky note: ``Thus 2-categories can be seen as
@@ -1293,9 +1253,7 @@ think of the object \(n\) as a horizontal row of \(n\) points. The
 morphisms in \(\mathrm{Hom}(n,m)\) are tangles connecting a row of \(n\)
 points above to a row of \(m\) points below. Rather than define
 ``tangles'' I will simply draw pictures of some examples. Here is an
-element of \(\mathrm{Hom}(2,4)\):
-
-\[
+element of \(\mathrm{Hom}(2,4)\): \[
   \begin{tikzpicture}
     \begin{knot}[clip width=7]
       \strand[thick] (0,0)
@@ -1308,11 +1266,7 @@ element of \(\mathrm{Hom}(2,4)\):
         to [out=up,in=up,looseness=1.5] (3,-2);
     \end{knot}
   \end{tikzpicture}
-\]
-
-and here is an element of \(\mathrm{Hom}(4,0)\):
-
-\[
+\] and here is an element of \(\mathrm{Hom}(4,0)\): \[
   \begin{tikzpicture}
     \begin{knot}[clip width=7]
       \strand[thick] (0,0)
@@ -1332,12 +1286,8 @@ and here is an element of \(\mathrm{Hom}(4,0)\):
       \flipcrossings{2}
     \end{knot}
   \end{tikzpicture}
-\]
-
-Note that we can ``compose'' these tangles to get one in
-\(\mathrm{Hom}(2,0)\):
-
-\[
+\] Note that we can ``compose'' these tangles to get one in
+\(\mathrm{Hom}(2,0)\): \[
   \begin{tikzpicture}
     \begin{knot}[clip width=7]
       \strand[thick] (0,0)
@@ -1367,17 +1317,13 @@ Note that we can ``compose'' these tangles to get one in
       \flipcrossings{2}
     \end{knot}
   \end{tikzpicture}
-\]
-
-Now, given tangles \(f,g\) in \(\mathrm{Hom}(m,n)\), a 2-morphism from
-\(f\) to \(g\) is a ``2-tangle.'' I won't define these either, but we
-may think of a 2-tangle from \(f\) to \(g\) roughly as a ``movie'' whose
-first frame is the tangle \(f\) and last frame is the tangle \(g\), and
-each of whose intermediate frames is a tangle except at certain times
-when a catastrophe occurs. For example, here's a 2-tangle shown as a
-movie\ldots{}
-
-\[
+\] Now, given tangles \(f,g\) in \(\mathrm{Hom}(m,n)\), a 2-morphism
+from \(f\) to \(g\) is a ``2-tangle.'' I won't define these either, but
+we may think of a 2-tangle from \(f\) to \(g\) roughly as a ``movie''
+whose first frame is the tangle \(f\) and last frame is the tangle
+\(g\), and each of whose intermediate frames is a tangle except at
+certain times when a catastrophe occurs. For example, here's a 2-tangle
+shown as a movie\ldots{} \[
   \begin{array}{p{8em}p{8em}p{8em}}
     \begin{tikzpicture}
       \begin{knot}
@@ -1443,9 +1389,7 @@ movie\ldots{}
       \node at (0.5,-2.5) {Frame 6};
     \end{tikzpicture}
   \end{array}
-\]
-
-Well, it'll never win an Academy Award, but this movie is pretty
+\] Well, it'll never win an Academy Award, but this movie is pretty
 important. It's a picture of the 3-dimensional slices of a 2-dimensional
 surface in (3+1)-dimensional spacetime, and this surface is perfectly
 smooth but has a saddle point which we are seeing in frame 4. It is one
@@ -1526,12 +1470,9 @@ These conditions, especially the third, may look sort of weird if you
 are not used to them, but the examples make it all clear. The easiest
 example of a Lie algebra is \(\mathfrak{gl}(n,\mathbb{C})\), which just
 means all \(n\times n\) complex matrices with the bracket defined as the
-``commutator'':
-
-\[[x,y] = xy-yx.\]
-
-Then straightforward calculations show a)-c) hold\ldots{} so these
-conditions are really encoding the essence of the commutator.
+``commutator'': \[[x,y] = xy-yx.\] Then straightforward calculations
+show a)--c) hold\ldots{} so these conditions are really encoding the
+essence of the commutator.
 
 Now recall that the trace of a matrix, the sum of its diagonal entries,
 satisfies \(\operatorname{tr}(xy)\) = \(\operatorname{tr}(yx)\). So the
@@ -1552,38 +1493,28 @@ The simplest of the \(\mathfrak{sl}(n,\mathbb{C})\)'s is the Lie algebra
 \(\mathfrak{sl}(2)\), which is a 3-dimensional Lie algebra with a basis
 given by matrices people call \(E\), \(F\), and \(H\) for mysterious
 reasons:
-
 \[E=\left(\begin{array}{cc}0&1\\0&0\end{array}\right) \quad F=\left(\begin{array}{cc}0&0\\1&0\end{array}\right) \quad H=\left(\begin{array}{cc}1&0\\0&-1\end{array}\right)\]
-
 You will never be an expert on Lie algebras until you know by heart that
-
-\[[H,E] = 2E, \quad [H,F] = -2F, \quad [E,F]  = H.\]
-
-Typically that's the sort of remark I make before screwing up by a
-factor of two or something, so you'd better check! This is a cute little
-multiplication table\ldots{} but very important, since
-\(\mathfrak{sl}(2)\) is the primordial Lie algebra from which the whole
-theory of ``simple'' Lie algebras unfolds.
+\[[H,E] = 2E, \quad [H,F] = -2F, \quad [E,F]  = H.\] Typically that's
+the sort of remark I make before screwing up by a factor of two or
+something, so you'd better check! This is a cute little multiplication
+table\ldots{} but very important, since \(\mathfrak{sl}(2)\) is the
+primordial Lie algebra from which the whole theory of ``simple'' Lie
+algebras unfolds.
 
 Physicists are probably more familiar with a different basis of
 \(\mathfrak{sl}(2)\), the Pauli matrices:
-
 \[\sigma_1=\left(\begin{array}{cc}0&1\\1&0\end{array}\right) \quad \sigma_2=\left(\begin{array}{cc}0&-i\\i&0\end{array}\right) \quad \sigma_3=\left(\begin{array}{cc}1&0\\0&-1\end{array}\right)\]
-
 For purposes of Lie algebra theory it's actually better to divide each
 of these matrices by \(i\) and call the resulting matrices \(I\), \(J\),
 and \(K\), respectively. We then have
-
 \[IJ = -JI = K, \quad JK = -KJ = I, \quad KI = -IK = J, \quad I2 = J2 = K2 = -1\]
-
 which is just the multiplication table of the quaternions! From the
 point of view of Lie algebras, though, all that matters is
-
-\[[I,J] = 2K, \quad [J,K] = 2I, \quad [K,I] = 2J.\]
-
-Given the relation of these things and cross products, it should be no
-surprise that the Pauli matrices have a lot to with angular momentum
-around the \(x\), \(y\), and \(z\) axes in quantum mechanics.
+\[[I,J] = 2K, \quad [J,K] = 2I, \quad [K,I] = 2J.\] Given the relation
+of these things and cross products, it should be no surprise that the
+Pauli matrices have a lot to with angular momentum around the \(x\),
+\(y\), and \(z\) axes in quantum mechanics.
 
 If we take all \emph{real} linear combinations of \(E\),\(F\),\(H\) we
 get a Lie algebra over the \emph{real} numbers called
@@ -1613,19 +1544,15 @@ this is how I'd originally defined it, it would then be a little
 representations too. For example, there's a representation as
 \(3\times3\) matrices given by sending
 \[E\mapsto\left(\begin{array}{ccc}0&1&0\\0&0&2\\0&0&0\end{array}\right) \quad F\mapsto\left(\begin{array}{ccc}0&0&0\\2&0&0\\0&1&0\end{array}\right) \quad H\mapsto\left(\begin{array}{ccc}2&0&0\\0&0&0\\0&0&-2\end{array}\right)\]
-
 In other words, these matrices satisfy the same commutation relations as
 \(E\),\(F\), and \(H\) do.
 
 More generally, and more precisely, we say an \(n\)-dimensional
 representation of a Lie algebra \(L\) (over the complex numbers) is a
 linear function \(R\) from \(L\) to \(n\times n\) matrices such that
-
-\[R([x,y]) = [R(x),R(y)]\]
-
-for all \(x,y\) in \(L\). Note that on the left the brackets are the
-brackets in \(L\), while on the right they denote the commutator of
-\(n\times n\) matrices.
+\[R([x,y]) = [R(x),R(y)]\] for all \(x,y\) in \(L\). Note that on the
+left the brackets are the brackets in \(L\), while on the right they
+denote the commutator of \(n\times n\) matrices.
 
 One good way to understand the essence of a Lie algebra is to figure out
 what representations it has. And in quantum physics, Lie algebra
@@ -1684,11 +1611,8 @@ quantized enveloping algebras.
 
 Quantum groups can be formed from simple Lie algebras, and they depend
 on a parameter \(q\), a nonzero complex parameter. This parameter ---
-\(q\) is for quantum, naturally --- can be thought of as
-
-\[e^\hbar\]
-
-The exponential of Planck's constant! When we set \(\hbar = 0\) we get
+\(q\) is for quantum, naturally --- can be thought of as \[e^\hbar\] The
+exponential of Planck's constant! When we set \(\hbar = 0\) we get
 \(q = 1\), and we get back to the ``classical case'' of plain
 old-fashioned Lie algebras and groups. Every representation of a quantum
 group gives an invariant of links (actually even tangles), and these
@@ -1711,20 +1635,17 @@ In particular, there is a quantum version of \(\mathfrak{sl}(2)\) called
 \(\mathfrak{sl}(2)\). Chari and Premet have just worked out a lot of the
 representation theory of \(\mathfrak{sl}_q(2)\). First of all, it's been
 known for some time that as long as \(q\) is not a root of unity ---
-that is, as long as we don't have
-
-\[q^n = 1\]
-
-for some integer \(n\) --- the story is almost like that for ordinary
-\(\mathfrak{sl}(2)\). Namely, there is one irreducible representation of
-each dimension, and all representations are completely reducible. This
-fails at roots of unity --- which turns out to be the reason why one can
-cook up TQFTs in this case. It turns out that if \(q\) is an \(n\)th
-root of unity one can still define representations of dimension 0,1,2,3,
-etc., more or less just like the classical case, but only those of
-dimension \(\leqslant n\) are irreducible. There are, in fact, exactly
-\(n\) irreducible representations, and the fact that there are only
-finitely many is what makes all sorts of neat things happen. The
+that is, as long as we don't have \[q^n = 1\] for some integer \(n\) ---
+the story is almost like that for ordinary \(\mathfrak{sl}(2)\). Namely,
+there is one irreducible representation of each dimension, and all
+representations are completely reducible. This fails at roots of unity
+--- which turns out to be the reason why one can cook up TQFTs in this
+case. It turns out that if \(q\) is an \(n\)th root of unity one can
+still define representations of dimension 0,1,2,3, etc., more or less
+just like the classical case, but only those of dimension
+\(\leqslant n\) are irreducible. There are, in fact, exactly \(n\)
+irreducible representations, and the fact that there are only finitely
+many is what makes all sorts of neat things happen. The
 \(k\)-dimensional representations with \(k \geqslant n\) are not
 completely reducible. And, besides the representations that are
 analogous to the classical case, there are a bunch more. They have not
@@ -1898,24 +1819,17 @@ relative to the galaxies. Then, since we are pretending the universe is
 completely homogeneous and isotropic --- and let's say it's a closed
 universe in the shape of a 3-sphere, to be specific --- the metric is
 given by
-
 \[dt^2-r(t)^2[(d\psi)^2 + (\sin \psi)^2{(d\theta)^2 + (\sin \theta)^2 (d\varphi)^2}]\]
-
 What does all this mean? Here \(r(t)\) is the radius of the universe as
 a function of time, the following stuff is just the usual metric on the
 unit 3-sphere with hyperspherical coordinates \(\psi\), \(\theta\),
 \(\varphi\) generalizing the standard coordinates on the 2-sphere we all
 learn in college:
-
 \[(d\psi)^2 + (\sin \psi)^2{(d\theta)^2 + (\sin \theta)^2 (d\varphi)^2}\]
-
 and the fact that the metric on spacetime is \(dt^2\) minus a bunch of
 stuff reflects the fact that spacetime geometry is ``Lorentzian,'' just
-as in flat Minkowski space the metric is
-
-\[dt^2-dx^2-dy^2-dz^2.\]
-
-The name of the game in this simple sort of big bang cosmology is thus
+as in flat Minkowski space the metric is \[dt^2-dx^2-dy^2-dz^2.\] The
+name of the game in this simple sort of big bang cosmology is thus
 finding the function \(r(t)\)! To do this, of course, we need to see
 what Einstein's equations reduce to in this special case, and since
 Einstein's equations tell us how spacetime curves in response to the
@@ -1923,45 +1837,29 @@ stress-energy tensor, this will depend on what sort of matter we have
 around. We are assuming that it's homogeneous and isotropic, whatever it
 is, so it turns out that all we need to know is its density \(\rho\) and
 pressure \(P\) (which are functions of time). We get the equations
-
 \[\begin{aligned}r''/r &= -\frac{4\pi}{3}(\rho+3P) \\ (r')^2 &= \frac{8\pi}{3}\rho r^2-1\end{aligned}\]
-
 Here primes denote differentiation with respect to \(t\), and I'm using
 units in which the gravitational constant and speed of light are equal
 to 1.
 
 Let's simplify this even more. Let's assume our matter is ``dust,''
 which is the technical term for zero pressure. We get two equations:
-
 \[\begin{aligned}r''/r &= -\frac{4\pi}{3}\rho \\ (r')^2 &= \frac{8\pi}{3}\rho r^2-1\end{aligned}\tag{1}\]
-
 Now let's take the second one, differentiate with respect to \(t\),
-
-\[2r''r' = \frac{8\pi}{3}(\rho'r^2 + 2 \rho r r')\]
-
-plug in what the first equation said about r'\,',
-
+\[2r''r' = \frac{8\pi}{3}(\rho'r^2 + 2 \rho r r')\] plug in what the
+first equation said about r'\,',
 \[-\frac{8\pi}{3} \rho r r' = \frac{8\pi}{3}(\rho' r^2 + 2 \rho r r')\]
-
-clear out the crud, and lo:
-
-\[3 \rho r' = -\rho' r\]
-
-or, more enlighteningly,
-
-\[\frac{d(\rho r^3)}{dt} = 0.\]
-
-This is just ``conservation of dust'' --- the dust density times the
-volume of the universe is staying constant. This, by the way, is a
-special case of the fact that Einstein's equations \emph{automatically
-imply} local conservation of energy (i.e., that the stress-energy tensor
-is divergence-free).
+clear out the crud, and lo: \[3 \rho r' = -\rho' r\] or, more
+enlighteningly, \[\frac{d(\rho r^3)}{dt} = 0.\] This is just
+``conservation of dust'' --- the dust density times the volume of the
+universe is staying constant. This, by the way, is a special case of the
+fact that Einstein's equations \emph{automatically imply} local
+conservation of energy (i.e., that the stress-energy tensor is
+divergence-free).
 
 Okay, so let's say \(\rho r^3 = D\), with \(D\) being the total amount
 of dust. Then we can eliminate \(\rho\) from equations (1) and get:
-
 \[\begin{aligned}r'' &= -\frac{4\pi D}{3r^2} \\ (r')^2-\frac{8\pi}{3}\frac{D}{r} &= -1 \end{aligned}\tag{2}\]
-
 What does this mean? Well, the first one looks like it's saying there's
 a force trying to make the universe collapse, and that the strength of
 this force is proportional to \(1/r^2\). Sound vaguely familiar? It's
@@ -1979,18 +1877,14 @@ It's easy enough to solve this equation, and easier still to figure it
 out qualitatively. The key thing is that since the total ``energy'' in
 the second equation of (2) is negative, there won't be enough ``energy''
 for \(r\) to go to infinity, that is, there'll be a big bang and then a
-big crunch. Here's \(r\) as a function of \(t\), roughly:
-
-\[
+big crunch. Here's \(r\) as a function of \(t\), roughly: \[
   \begin{tikzpicture}
     \draw[->] (0,0) to (5,0) node[label=below left:{$t$}]{};
     \draw[->] (0,0) to (0,2.5) node[label=below left:{$r$}]{};
     \draw[thick] plot [smooth,tension=1] coordinates {(0,0) (2,1.5) (4,0)};
   \end{tikzpicture}
   \text{Figure 1}
-\]
-
-What goes up, must come down! This curve, which I haven't drawn too
+\] What goes up, must come down! This curve, which I haven't drawn too
 well, is just a cycloid, which is the curve traced out by a point on the
 rim of rolling wheel. So, succumbing to romanticism momentarily we could
 call this picture ONE TURN OF THE GREAT WHEEL OF TIME\ldots. But there
@@ -2036,11 +1930,8 @@ degree of freedom is \(r\) --- is to turn the ``position'' (that's
 \(r\)) into a multiplication operator and the ``momentum'' (often that's
 something like \(r'\), but watch out!) into a differentation operator,
 say \(-i \hbar \frac{d}{dr}\), so that we get the ``canonical
-commutation relations''
-
-\[[-i \hbar \frac{d}{dr}, r] = -i \hbar.\]
-
-We then take the formula for the energy, or Hamiltonian, in terms of
+commutation relations'' \[[-i \hbar \frac{d}{dr}, r] = -i \hbar.\] We
+then take the formula for the energy, or Hamiltonian, in terms of
 position and momentum, and plug in these operators, so that the
 Hamiltonian becomes an operator. (Here various ``operator-ordering''
 problems can arise, because the position and momentum commuted in the
@@ -2048,81 +1939,48 @@ original classical system but not anymore!) To explain what I mean, why
 don't I just do it!
 
 So: I said that the formula
-
-\[(r')^2-\frac{8\pi}{3} \frac{D}{r} = -1 \tag{3}\]
-
-looks a lot like a formula of the form ``kinetic energy plus potential
-energy is constant''. Of course, we could multiply the whole equation by
-anything and get a valid equation, so it's not obvious that the
-``right'' Hamiltonian is
-
-\[(r')^2-\frac{8\pi}{3} \frac{D}{r}\]
-
-or (adding 1 doesn't hurt)
-
-\[(r')^2-\frac{8\pi}{3} \frac{D}{r} + 1\]
-
-In fact, note that multiplying the Hamiltonian by some function of \(r\)
-just amounts to reparametrizing time, which is perfectly fine in general
-relativity. In fact, Vilenkin and other before him have decided it's
-better to multiply the Hamiltonian above by \(r^2\). Why? Well, it has
-to do with figuring out what the right notion of ``momentum'' is
-corresponding to the ``position'' \(r\). Let's do that. We use the old
-formula
-
-\[p = \frac{dL}{dq'}\]
-
-relating momentum to the Lagrangian, where for us the position, usually
-called \(q\), is really \(r\).
+\[(r')^2-\frac{8\pi}{3} \frac{D}{r} = -1 \tag{3}\] looks a lot like a
+formula of the form ``kinetic energy plus potential energy is
+constant''. Of course, we could multiply the whole equation by anything
+and get a valid equation, so it's not obvious that the ``right''
+Hamiltonian is \[(r')^2-\frac{8\pi}{3} \frac{D}{r}\] or (adding 1
+doesn't hurt) \[(r')^2-\frac{8\pi}{3} \frac{D}{r} + 1\] In fact, note
+that multiplying the Hamiltonian by some function of \(r\) just amounts
+to reparametrizing time, which is perfectly fine in general relativity.
+In fact, Vilenkin and other before him have decided it's better to
+multiply the Hamiltonian above by \(r^2\). Why? Well, it has to do with
+figuring out what the right notion of ``momentum'' is corresponding to
+the ``position'' \(r\). Let's do that. We use the old formula
+\[p = \frac{dL}{dq'}\] relating momentum to the Lagrangian, where for us
+the position, usually called \(q\), is really \(r\).
 
 The Lagrangian of general relativity is the ``Ricci scalar'' \(R\) --- a
 measure of curvature of the metric --- and in the present problem it
 turns out to be
-
-\[R = 6 \left(\frac{r''}{r} + \frac{(r')^2}{r^2}\right)\]
-
-But we are reducing the full field theory problem down to a problem with
-one degree of freedom, so our Lagrangian should be the above integrated
-over the 3-sphere, which has volume \(16 \pi r^3/3\), giving us
-
-\[32\pi (r''r^2 + (r')^2 r)\]
-
-However, the \(r''\) is a nuisance, and we only use the integral of the
-Lagrangian with respect to time (that's the action, which classically is
-extremized to get the equations of motion), so let's do an integration
-by parts, or in other words add a total divergence, to get the
-Lagrangian
-
-\[L = -32\pi (r')^2 r.\]
-
+\[R = 6 \left(\frac{r''}{r} + \frac{(r')^2}{r^2}\right)\] But we are
+reducing the full field theory problem down to a problem with one degree
+of freedom, so our Lagrangian should be the above integrated over the
+3-sphere, which has volume \(16 \pi r^3/3\), giving us
+\[32\pi (r''r^2 + (r')^2 r)\] However, the \(r''\) is a nuisance, and we
+only use the integral of the Lagrangian with respect to time (that's the
+action, which classically is extremized to get the equations of motion),
+so let's do an integration by parts, or in other words add a total
+divergence, to get the Lagrangian \[L = -32\pi (r')^2 r.\]
 Differentiating with respect to \(r'\) we get the momentum ``conjugate
-to \(r\)'',
-
-\[p = -64\pi r'r.\]
-
-Now I notice that Vilenkin uses as the momentum simply \(-r'r\), somehow
-sweeping the monstrous \(64\pi\) under the rug. I have the feeling that
-this amounts to pushing this factor into the definition of \(\hbar\) in
-the canonical commutation relations. Since I was going to set \(\hbar\)
-to 1 in a minute anyway, this is okay (honest). So let's keep life
-simple and use
-
-\[p = -r'r.\]
-
-Okay! Now here's the point, we want to exploit the analogy with good old
-quantum mechanics, which typically has Hamiltonians containing something
-like \(p^2\). So let's take our preliminary Hamiltonian
-
-\[(r')^2-\frac{8\pi}{3} \frac{D}{r} + 1\]
-
-and multiply it by \(r^2\), getting
-
-\[H = p^2-\frac{8\pi D}{3}r + r^2.\]
-
-Hey, what's this? A harmonic oscillator! (Slightly shifted by the term
-proportional to \(r\).) So the universe is just a harmonic
-oscillator\ldots{} I guess that's why they stressed that so much in all
-my classes!
+to \(r\)'', \[p = -64\pi r'r.\] Now I notice that Vilenkin uses as the
+momentum simply \(-r'r\), somehow sweeping the monstrous \(64\pi\) under
+the rug. I have the feeling that this amounts to pushing this factor
+into the definition of \(\hbar\) in the canonical commutation relations.
+Since I was going to set \(\hbar\) to 1 in a minute anyway, this is okay
+(honest). So let's keep life simple and use \[p = -r'r.\] Okay! Now
+here's the point, we want to exploit the analogy with good old quantum
+mechanics, which typically has Hamiltonians containing something like
+\(p^2\). So let's take our preliminary Hamiltonian
+\[(r')^2-\frac{8\pi}{3} \frac{D}{r} + 1\] and multiply it by \(r^2\),
+getting \[H = p^2-\frac{8\pi D}{3}r + r^2.\] Hey, what's this? A
+harmonic oscillator! (Slightly shifted by the term proportional to
+\(r\).) So the universe is just a harmonic oscillator\ldots{} I guess
+that's why they stressed that so much in all my classes!
 
 Actually, despite the fact that we are working with a very simple model
 of quantum cosmology, it's not quite \emph{that} simple. First of all,
@@ -2131,25 +1989,18 @@ to have a certain value. I.e., we are dealing not with a Hamiltonian in
 the ordinary sense, but a ``Hamiltonian constraint'' --- typical of
 systems with time reparametrization invariance. So our quantized
 equation says that the ``wavefunction of the universe,'' \(\psi(r)\),
-must satisfy
-
-\[H \psi = 0.\]
-
-Also, unlike the ordinary harmonic oscillator we have the requirement
-that \(r\geqslant0\). In other word, we're working with a problem that's
-like a harmonic oscillator and a ``wall'' that keeps \(r\geqslant0\).
-Think of a particle in a potential like this:
-
-\[
+must satisfy \[H \psi = 0.\] Also, unlike the ordinary harmonic
+oscillator we have the requirement that \(r\geqslant0\). In other word,
+we're working with a problem that's like a harmonic oscillator and a
+``wall'' that keeps \(r\geqslant0\). Think of a particle in a potential
+like this: \[
   \begin{tikzpicture}
     \draw[->] (0,0) to (5,0) node [label=below left:{$r$}]{};
     \draw[->] (0,-0.7) to (0,2.5) node[label=below left:{$V(r)$}]{};
     \draw[thick] plot [smooth,tension=1] coordinates {(0,0) (1.8,-0.5) (4,2.5)};
   \end{tikzpicture}
   \text{Figure 2}
-\]
-
-Here \(V(r) = -(8\pi D/3)r + r^2\). The minimum of \(V\) is at
+\] Here \(V(r) = -(8\pi D/3)r + r^2\). The minimum of \(V\) is at
 \(r = 4 \pi D/3\) and the zeroes are at \(r = 0\) and \(8 \pi D/3\).
 Classically, a particle with zero energy starting at \(r = 0\) will roll
 to the right and make it out to \(r = 4\pi D/3\) before rolling back to
@@ -2392,14 +2243,10 @@ Here spacetime is a 4-dimensional manifold, and a Lorentzian metric
 allows you to calculate the ``dot product'' of any two tangent vectors
 at a point. This is in quotes because, while a normal dot product might
 look like
-
 \[(v_0,v_1,v_2,v_3)\cdot(w_0,w_1,w_2,w_3) = v_0w_0 + v_1w_1 + v_2w_2 + v_3w_3\]
-
 relative to some basis, for a Lorentzian metric we can always find a
 basis of the tangent space such that
-
 \[(v_0,v_1,v_2,v_3)\cdot(w_0,w_1,w_2,w_3) = v_0w_0 -v_1w_1 -v_2w_2 -v_3w_3\]
-
 Now the metric in general relativity defines a ``connection,'' which
 tells you a tangent vector might ``twist around'' as you parallel
 translate it, that is, move it along while trying to keep it from
@@ -2421,23 +2268,19 @@ direction (here the indices range from 0 to 3) twists towards the
 \(j\)-\(k\) plane. The Lagrangian in ordinary GR is just the integral of
 the ``Ricci scalar curvature,'' \(R\), which is gotten from the Riemann
 tensor by ``contraction'', i.e.~summing over the indices in a certain
-way:
-
-\[R = R^i_{ji}{}^j\]
-
-where we are raising indices using the metric in a manner beloved by
-physicists and feared by many mathematicians. If you integrate the
-Lagrangian over a region of spacetime you get the ``action'', and in
-classical general relativity (in a vacuum, for simplicity) one can
-formulate the laws of motion simply by saying: any teeny change in the
-metric that vanishes on the boundary of the region should leave the
-action constant to first order. In other words, the solutions of the
-equations of general relativity are the *stationary points* of the
-action. If you know how to do variational calculus you can derive
-Einstein's equations from this variational principle, as it's called.
-Mathematicians will be pleased to know that Hilbert beat Einstein to the
-punch here, so the integral of \(R\) is called the ``Einstein-Hilbert''
-action for general relativity.
+way: \[R = R^i_{ji}{}^j\] where we are raising indices using the metric
+in a manner beloved by physicists and feared by many mathematicians. If
+you integrate the Lagrangian over a region of spacetime you get the
+``action'', and in classical general relativity (in a vacuum, for
+simplicity) one can formulate the laws of motion simply by saying: any
+teeny change in the metric that vanishes on the boundary of the region
+should leave the action constant to first order. In other words, the
+solutions of the equations of general relativity are the *stationary
+points* of the action. If you know how to do variational calculus you
+can derive Einstein's equations from this variational principle, as it's
+called. Mathematicians will be pleased to know that Hilbert beat
+Einstein to the punch here, so the integral of \(R\) is called the
+``Einstein-Hilbert'' action for general relativity.
 
 But there's another formulation of general relativity in terms of an
 action principle. This is called the ``Palatini'' action --- and
@@ -2454,9 +2297,7 @@ tetrad, or ``vierbein,'' is a just a kind of field on spacetime which at
 each point consists of an (ordered) orthonormal basis of the tangent
 space. If we express the metric in terms of a tetrad, it looks just like
 the formula for the standard ``inner product''
-
 \[(v_0,v_1,v_2,v_3)\cdot(w_0,w_1,w_2,w_3) = v_0w_0 -v_1w_1 -v_2w_2 -v_3w_3\]
-
 This allows us to identify the group of linear transformations of the
 tangent space that preserve the metric with the group of linear
 transfomations preserving the standard ``inner product,'' which is
@@ -2474,9 +2315,7 @@ as a basis the three infinitesimal rotations \(J_1\), \(J_2\), and
 \(J_3\) around the three axes, and the three infinitesimal Lorentz
 transformations or ``boosts'' \(K_1\), \(K_2\), \(K_3\). The bracket in
 this most important Lie algebra is given by
-
 \[\begin{aligned}\,[J_i,J_j] & = J_k \\ [K_i,K_j] &= -J_k \\ [J_i,K_j] &= K_k\end{aligned}\]
-
 where \((i,j,k)\) is a cyclic permutation of \((1,2,3)\). (I hope I
 haven't screwed up the signs.) Note that the \(J\)'s by themselves form
 a Lie subalgebra called \(\mathfrak{so}(3)\), the Lie algebra of the
@@ -2500,14 +2339,10 @@ curious and profound fact about \(\mathfrak{so}(1,3)\). Note that
 \(\mathfrak{so}(1,3)\) is a Lie algebra over the real numbers. But if we
 allow ourselves to form \emph{complex} linear combinations of the
 \(J\)'s and \(K\)'s, thus:
-
 \[\begin{aligned}M_i &= (J_i + iK_i)/2 \\ N_i &= (J_i -iK_i)/2\end{aligned}\]
-
 (please don't mix up the subscript \(i = 1,2,3\) with the other \(i\),
 the square root of minus one) we get the following brackets:
-
 \[\begin{aligned}\,[M_i,M_j] &= M_k \\ [N_i,N_j] &= N_k \\ [M_i,N_j] &= 0\end{aligned}\]
-
 I think the signs all work but I wouldn't trust me if I were you. The
 wonderful thing here is that the \(M\)'s and \(N\)'s commute with each
 other, and each set has commutation relations just like the \(J\)'s! The
@@ -2547,18 +2382,13 @@ similar-looking they are. In the Palatini approach we have a tetrad
 field, which now we write in its full glory as \(e_I^i\), and the
 curvature of the \(\mathfrak{so}(1,3)\) connection, which now we write
 as \(\Omega_{ij}^{IJ}\). The Lagrangian is then
-
-\[e_I^i e_J^j \Omega_{ij}^{IJ}\]
-
-(which we integrate against the usual volume form to get the action). In
-the new variables approach we have a tetrad field again, and we write
-the curvature of the \(\mathfrak{so}(3,\mathbb{C})\) connection as
-\(F_{ij}^{IJ}\). (This turns out to be just the ``right-handed'' part of
-\(\Omega_{ij}^{IJ}\).) The Lagrangian is
-
-\[e_I^i e_J^j F_{ij}^{IJ} !\]
-
-Miraculously, this also gives Einstein's equations.
+\[e_I^i e_J^j \Omega_{ij}^{IJ}\] (which we integrate against the usual
+volume form to get the action). In the new variables approach we have a
+tetrad field again, and we write the curvature of the
+\(\mathfrak{so}(3,\mathbb{C})\) connection as \(F_{ij}^{IJ}\). (This
+turns out to be just the ``right-handed'' part of \(\Omega_{ij}^{IJ}\).)
+The Lagrangian is \[e_I^i e_J^j F_{ij}^{IJ} !\] Miraculously, this also
+gives Einstein's equations.
 
 What's utterly unclear from what I've said so far is why this helps so
 much in trying to quantize gravity. I may eventually get around to
@@ -2686,14 +2516,9 @@ is not associative, so the following theorem is slightly interesting:
 
 \textbf{Theorem.} Consider any two bracketings of a product of any
 finite number of vectors, e.g.:
-
 \[L = a \times (b \times ((c \times d) \times e) \quad\text{and}\quad  R = ((a \times b) \times c) \times (d \times e).\]
-
 Let \(i\), \(j\), and \(k\) be the usual canonical basis for
-\(\mathbb{R}^3\):
-
-\[i = (1,0,0), \quad j = (0,1,0), \quad k = (0,0,1).\]
-
+\(\mathbb{R}^3\): \[i = (1,0,0), \quad j = (0,1,0), \quad k = (0,0,1).\]
 Then we may assign \(a,b,c,\ldots\) values taken from \(\{i,j,k\}\) in
 such a way that \(L = R\) and both are nonzero.
 
@@ -2733,13 +2558,9 @@ algebraic formulation of the 4-color theorem in terms of the
 Temperley-Lieb algebra. The Temperley-Lieb algebra \(TL_n\) is a cute
 algebra with generators \(e_1, \ldots, e_{n-1}\) and relations that
 depend on a constant \(d\) called the ``loop value'':
-
 \[\begin{aligned}e_i^2 &= de_i \\ e_i e_{i+1} e_i &= e_i \\ e_i e_{i-1} e_i &= e_i \\ e_i e_j &= e_j e_i \quad\text{for } |i-j| > 1.\end{aligned}\]
-
 The point of it becomes clear if we draw the \(e_i\) as tangles on \(n\)
-strands. Let's take \(n = 3\) to keep life simple. Then \(e_1\) is
-
-\[
+strands. Let's take \(n = 3\) to keep life simple. Then \(e_1\) is \[
   \begin{tikzpicture}
     \begin{knot}[clip width=7]
       \strand[thick] (0,0)
@@ -2750,11 +2571,7 @@ strands. Let's take \(n = 3\) to keep life simple. Then \(e_1\) is
         to (2,-2);
     \end{knot}
   \end{tikzpicture}
-\]
-
-while \(e_2\) is
-
-\[
+\] while \(e_2\) is \[
   \begin{tikzpicture}
     \begin{knot}[clip width=7]
       \strand[thick] (1,0)
@@ -2765,13 +2582,9 @@ while \(e_2\) is
         to (0,-2);
     \end{knot}
   \end{tikzpicture}
-\]
-
-In general, \(e_i\) ``folds over'' the \(i\)th and \((i+1)\)st strands.
-Note that if we square \(e_i\) we get a loop --- e.g., \(e_1\) squared
-is
-
-\[
+\] In general, \(e_i\) ``folds over'' the \(i\)th and \((i+1)\)st
+strands. Note that if we square \(e_i\) we get a loop --- e.g., \(e_1\)
+squared is \[
   \begin{tikzpicture}
     \begin{knot}[clip width=7]
       \strand[thick] (0,0)
@@ -2786,17 +2599,13 @@ is
         to (2,-4);
     \end{knot}
   \end{tikzpicture}
-\]
-
-Here we are using the usual product of tangles (see the article
+\] Here we are using the usual product of tangles (see the article
 \href{http://math.ucr.edu/home/baez/tangles.html}{``tangles''} in the
 collection of my expository posts, which can be obtained in a manner
 described at the end of this post). Now the rule in Temperley-Lieb land
 is that we can get rid of a loop if we multiply by the loop value \(d\);
 that is, the loop ``equals'' \(d\). So \(e_1\) squared is just \(d\)
-times
-
-\[
+times \[
   \begin{tikzpicture}
     \begin{knot}[clip width=7]
       \strand[thick] (0,0)
@@ -2807,15 +2616,11 @@ times
         to (2,-4);
     \end{knot}
   \end{tikzpicture}
-\]
-
-which --- since we are doing topology --- is the same as \(e_1\). That's
-why \(e_i^2 = de_i\).
+\] which --- since we are doing topology --- is the same as \(e_1\).
+That's why \(e_i^2 = de_i\).
 
 The other relations are even more obvious. For example, \(e_1 e_2 e_1\)
-is just
-
-\[
+is just \[
   \begin{tikzpicture}
     \begin{knot}[clip width=7]
       \strand[thick] (0,0)
@@ -2832,9 +2637,7 @@ is just
         to (2,-4);
     \end{knot}
   \end{tikzpicture}
-\]
-
-which, since we are doing topology, is just \(e_1\)! Similarly,
+\] which, since we are doing topology, is just \(e_1\)! Similarly,
 \(e_2 e_1 e_2 = e_1\), and \(e_i\) and \(e_j\) commute if they are far
 enough away to keep from running into each other.
 
@@ -2971,9 +2774,7 @@ topology and your algebraic topology, I'm afraid --- and much better
 than I do!
 
 Recall:
-
 \[\begin{aligned}D^n &= \mbox{unit ball in $\mathbb{R}^n$} \\ S^n &= \mbox{unit sphere in $\mathbb{R}^{n+1}$}\end{aligned}\]
-
 In particular note that \(S^0\) is just two points. Note that:
 
 \begin{itemize}
@@ -3444,9 +3245,7 @@ root of unity, we have \(b_r(M)\).
 
 Broda shows that this is a 4-manifold invariant by showing it doesn't
 change under the de Sa moves. One of these consists of adding or
-deleting a Hopf link
-
-\[
+deleting a Hopf link \[
   \begin{tikzpicture}
     \begin{knot}[clip width=7pt]
       \strand[thick] (0,0)
@@ -3458,9 +3257,7 @@ deleting a Hopf link
       \flipcrossings{2}
     \end{knot}
   \end{tikzpicture}
-\]
-
-in which both components have the zero framing and one represents a
+\] in which both components have the zero framing and one represents a
 1-handle and the other a 2-handle. This move depends on the fact that we
 can ``cancel'' a 1-handle and 2-handle pair, a special case of a general
 result in Morse theory.
@@ -3533,9 +3330,7 @@ to an unknotted circle. It's a simple exercise to see what happens when
 you do surgery on a trivial circle, ie you add on \(S^2 \times S^2\) or
 \(\mathbb{CP}^2 \# -\mathbb{CP}^2\). On the other hand you get the same
 manifold as the result of adding 2-handles to \(N'\). So
-
 \[N\#k(S^2 x S^2)\#l(\mathbb{CP}^2\#(-\mathbb{CP}^2)) = N'\#k'(S^2 x S^2)\#l'(\mathbb{CP}^2\#(-\mathbb{CP}^2)),\]
-
 so by previous remarks \(b(N) = b(N')\), i.e \(b\) is a cobordism
 invariant.
 
@@ -3619,27 +3414,20 @@ First consider the wave equation in 2 dimensions. This is an equation
 for a function from \(\mathbb{R}^2\) to \(\mathbb{R}\), say
 \(\varphi(t,x)\), where \(t\) is a timelike and \(x\) is a spacelike
 coordinate. The equation is simply
-
-\[\frac{d^2\varphi}{dt^2} -\frac{d^2\varphi}{dx^2} = 0.\]
-
-Now this equation can be rewritten as an evolutionary equation for
-initial data as follows. We consider pairs of functions \((Q,P)\) on
-\(\mathbb{R}\) --- which we think of \(\varphi\) and \(d\varphi/dt\) on
-``space'', that is, on a surface \(t = \text{constant}\). And we rewrite
-the second-order equation above as a first-order equation:
-
-\[\frac{d}{dt}(Q,P) = \left(P,\frac{d^2Q}{dx^2}\right).\tag{1}\]
-
-This is a standard trick. We call the space of pairs \((Q,P)\) the
-``phase space'' of the theory. In canonical quantization, we treat this
-a lot like the space \(\mathbb{R}^2\) of pairs \((q,p)\) describing the
+\[\frac{d^2\varphi}{dt^2} -\frac{d^2\varphi}{dx^2} = 0.\] Now this
+equation can be rewritten as an evolutionary equation for initial data
+as follows. We consider pairs of functions \((Q,P)\) on \(\mathbb{R}\)
+--- which we think of \(\varphi\) and \(d\varphi/dt\) on ``space'', that
+is, on a surface \(t = \text{constant}\). And we rewrite the
+second-order equation above as a first-order equation:
+\[\frac{d}{dt}(Q,P) = \left(P,\frac{d^2Q}{dx^2}\right).\tag{1}\] This is
+a standard trick. We call the space of pairs \((Q,P)\) the ``phase
+space'' of the theory. In canonical quantization, we treat this a lot
+like the space \(\mathbb{R}^2\) of pairs \((q,p)\) describing the
 initial position and momentum of a particle. Note that for a harmonic
 oscillator we have an equation a whole lot like (1):
-
-\[\frac{d}{dt}(q,p) = (p,-q).\]
-
-This is why when we quantize the wave equation it's a whole lot like the
-harmonic oscillator.
+\[\frac{d}{dt}(q,p) = (p,-q).\] This is why when we quantize the wave
+equation it's a whole lot like the harmonic oscillator.
 
 Now in general relativity things are similar but more complicated. The
 analog of the pairs \((\varphi, d\varphi/dt)\) are pairs \((Q,P)\) where
@@ -3656,25 +3444,17 @@ point how much we push it in the normal direction, while the shift
 vector field says at each point how much we push it in some tangential
 direction. These are utterly arbitrary and give us complete flexibility
 in how we want to push the hypersurface forwards. Even if spacetime was
-flat, we could push the hypersurface forwards in a dull way like:
-
-\[
+flat, we could push the hypersurface forwards in a dull way like: \[
   \begin{tikzpicture}
     \draw[thick] (0,0) to (3,0) node[label=right:{new}]{};
     \draw[thick] (0,-0.5) to (3,-0.5) node[label=right:{old}]{};
   \end{tikzpicture}
-\]
-
-or in a screwy way like
-
-\[
+\] or in a screwy way like \[
   \begin{tikzpicture}
     \draw[thick] plot [smooth] coordinates {(0,0) (0.7,1) (1.5,0) (2.5,0.5) (2.8,0) (3,0)} node[label=right:{new}]{};
     \draw[thick] (0,-0.5) to (3,-0.5) node[label=right:{old}]{};
   \end{tikzpicture}
-\]
-
-Of course, in general relativity spacetime is usually not flat, which
+\] Of course, in general relativity spacetime is usually not flat, which
 makes it ultimately impossible to decide what counts as a ``dull way''
 and what counts as a ``screwy way,'' which is why we simply allow all
 possible ways.
@@ -3683,11 +3463,9 @@ Anyway, having \emph{chosen} a lapse function and shift vector field, we
 can rewrite Einstein's equations as an evolutionary equation. This is a
 bit of a mess, and it's called the ADM (Arnowitt-Deser-Misner)
 formalism. Schematically, it goes like
-
-\[\frac{d}{dt}(Q,P) = (\text{stuff},\text{stuff}').\tag{2}\]
-
-where both ``stuff'' and ``stuff''' depend on both \(Q\) and \(P\) in a
-pretty complex way.
+\[\frac{d}{dt}(Q,P) = (\text{stuff},\text{stuff}').\tag{2}\] where both
+``stuff'' and ``stuff''' depend on both \(Q\) and \(P\) in a pretty
+complex way.
 
 But there is a catch. While the evolutionary equations are equivalent to
 6 of Einstein's equations (Einstein's equation for general relativity is
@@ -3700,16 +3478,11 @@ shift vector field.
 
 For those of you who know Hamiltonian mechanics, the reason why the
 Hamiltonian constraint is called what it is is that we can write it as
-
-\[H(Q,P) = 0\]
-
-for some combination of \(Q\) and \(P\), and this \(H(Q,P)\) acts a lot
-like a Hamiltonian for general relativity in that we can rewrite (2)
-using the Poisson brackets on the ``phase space'' of all \((Q,P)\) pairs
-as
-
+\[H(Q,P) = 0\] for some combination of \(Q\) and \(P\), and this
+\(H(Q,P)\) acts a lot like a Hamiltonian for general relativity in that
+we can rewrite (2) using the Poisson brackets on the ``phase space'' of
+all \((Q,P)\) pairs as
 \[\begin{aligned}\frac{d}{dt}Q &= \{P,H(Q,P)\} \\ \frac{d}{dt}P &= \{Q,H(Q,P)\}.\end{aligned}\]
-
 The funny thing is that \(H\) is not zero on the space of all \((Q,P)\)
 pairs, so the equations above are nontrivial, but it does vanish on the
 submanifold of pairs satisfying the constraints, so that, in a sense,
@@ -3972,40 +3745,23 @@ to number theory. For other approaches one might try
 
 Okay, where to start? Well, how about this: the sine function is an
 analytic function on the complex plane with the property that
-
-\[\sin(z + 2\pi) = \sin z.\]
-
-It also satisfies a nice differential equation
-
-\[(\sin' z)^2 = 1 -(\sin z)^2\]
-
-and for this reason, we could, if we hadn't noticed the sine function
-otherwise, have run into it when we tried to integrate
-
-\[\frac{(1 -u^2)^{-1}}{2}\]
-
-The differential equation above implies that the integral is nice to do
-by the substitution \(u = \sin z\), and we get the answer \(\arcsin u\).
-If the sine function --- or more generally, trig functions --- didn't
-exist yet, we would have invented them when we tried to do integrals
-involving square roots of quadratic polynomials.
+\[\sin(z + 2\pi) = \sin z.\] It also satisfies a nice differential
+equation \[(\sin' z)^2 = 1 -(\sin z)^2\] and for this reason, we could,
+if we hadn't noticed the sine function otherwise, have run into it when
+we tried to integrate \[\frac{(1 -u^2)^{-1}}{2}\] The differential
+equation above implies that the integral is nice to do by the
+substitution \(u = \sin z\), and we get the answer \(\arcsin u\). If the
+sine function --- or more generally, trig functions --- didn't exist
+yet, we would have invented them when we tried to do integrals involving
+square roots of quadratic polynomials.
 
 Elliptic functions are a beautiful generalization of all of this stuff.
 Say we wanted, just for the heck of it, an analytic function that was
 periodic not just in one direction on the complex plane, like the sine
 function, but in \emph{two} directions. For example, we might want some
-function \(P(z)\) with
-
-\[P(z + 2\pi) = P(z)\]
-
-and also
-
-\[P(z + 2\pi i) = P(z).\]
-
-This function would look just the same on each \(2\pi\)-by-\(2\pi\)
-square:
-
-\[
+function \(P(z)\) with \[P(z + 2\pi) = P(z)\] and also
+\[P(z + 2\pi i) = P(z).\] This function would look just the same on each
+\(2\pi\)-by-\(2\pi\) square: \[
   \begin{tikzpicture}
     \draw[->] (-0.4,0) to (4,0) node [label=below:{$\Re(z)$}]{};
     \draw[->] (0,-0.4) to (0,4) node[label=left:{$\Im(z)$}]{};
@@ -4022,11 +3778,9 @@ square:
     \draw[<->] (0.1,-0.2) to node[label=below:{$2\pi$}]{} (0.9,-0.2);
     \draw[<->] (-0.2,0.1) to node[label=left:{$2\pi$}]{} (-0.2,0.9);
   \end{tikzpicture}
-\]
-
-so if we wanted, we could think of it as being a function on the torus
-formed by taking one of these squares and identifying its top side with
-its bottom side, and its left side with its right side.
+\] so if we wanted, we could think of it as being a function on the
+torus formed by taking one of these squares and identifying its top side
+with its bottom side, and its left side with its right side.
 
 More generally --- while we're fantasizing about this wonderful
 doubly-periodic function --- we could ask for one that was periodic in
@@ -4034,14 +3788,10 @@ any old two directions. That is, fixing two numbers \(\omega_1\) and
 \(\omega_2\) that aren't just real-valued multiples of each other, we
 could hope to find an analytic function on the complex plane with
 \(\omega_1\) and \(\omega_2\) as periods:
-
 \[\begin{aligned}P(z + \omega_1) &= P(z) \\ P(z + \omega_2) &= P(z).\end{aligned}\]
-
 Then \(P(z)\) would be the same at all points on the ``lattice'' of
 points \(n\omega_1 + m \omega_2\), which might look like the squares
-above or might be like
-
-\[
+above or might be like \[
   \begin{tikzpicture}
     \draw[->] (-0.4,0) to (4,0) node [label=below:{$\Re(z)$}]{};
     \draw[->] (0,-0.4) to (0,4) node[label=left:{$\Im(z)$}]{};
@@ -4082,28 +3832,22 @@ the wonderful properties we want --- but that's too boring!
 
 So let's allow it to have poles! But let's keep it as nice as possible,
 so let's have the only poles occur at the lattice points
-
-\[L = \{n \omega_1 + m \omega_2\}.\]
-
-And let's make the poles as nice as possible. Can we have each pole be
-of order one? That is, can we make \(P(z)\) blow up like
-\(1/(z -\omega)\) at each lattice point \(\omega\) in \(L\)? No, because
-if it did, the integral of \(P\) around a nicely chosen parallelogram
-around the pole would be zero, because the contributions from opposite
-sides of the parallelogram would cancel by symmetry. (A fun exercise.)
-But by the Cauchy residue formula this means that the residue of the
-pole vanishes, so it can't be of order one.
+\[L = \{n \omega_1 + m \omega_2\}.\] And let's make the poles as nice as
+possible. Can we have each pole be of order one? That is, can we make
+\(P(z)\) blow up like \(1/(z -\omega)\) at each lattice point \(\omega\)
+in \(L\)? No, because if it did, the integral of \(P\) around a nicely
+chosen parallelogram around the pole would be zero, because the
+contributions from opposite sides of the parallelogram would cancel by
+symmetry. (A fun exercise.) But by the Cauchy residue formula this means
+that the residue of the pole vanishes, so it can't be of order one.
 
 Okay, try again. Let's try to make the pole at each lattice point be of
 order two. How can we cook up such a function? We might try something
 obvious: just sum up, for all \(\omega\) in the lattice \(L\), the
-functions
-
-\[\frac{1}{(z -\omega)^2}\]
-
-We get something periodic with poles like \(1/(z -\omega)^2\) at each
-lattice point \(\omega\). But there's a big problem --- the sum doesn't
-converge! (Another fun exercise.)
+functions \[\frac{1}{(z -\omega)^2}\] We get something periodic with
+poles like \(1/(z -\omega)^2\) at each lattice point \(\omega\). But
+there's a big problem --- the sum doesn't converge! (Another fun
+exercise.)
 
 Oh well, try again. Let's act like physicists and RENORMALIZE the sum by
 subtracting off an infinite constant! Just subtract the sum over all
@@ -4121,12 +3865,10 @@ intimidate people. Note that it really depends on the two periods
 Now, it turns out that \(P(z)\) really \emph{is} a cool generalization
 of the sine function. Namely, it satisfies a differential equation like
 the one the sine does, but fancier:
-
-\[P'(z)^2 = 4 P(z)^3 --- g_2 P(z) --- g_3\]
-
-where \(g_2\) and \(g_3\) are some constants that depend on the periods
-\(\omega_1\) and \(\omega_2\). Just as with the sine function we can use
-the \emph{inverse} of Weierstrass \(\mathfrak{P}\) function to do some
+\[P'(z)^2 = 4 P(z)^3 --- g_2 P(z) --- g_3\] where \(g_2\) and \(g_3\)
+are some constants that depend on the periods \(\omega_1\) and
+\(\omega_2\). Just as with the sine function we can use the
+\emph{inverse} of Weierstrass \(\mathfrak{P}\) function to do some
 integrals, but this time we can do integrals involving square roots of
 cubic polynomials! If you look in big nasty books of special functions
 or tables of integrals, you will see that there's a big theory of this
@@ -4140,10 +3882,7 @@ function on the torus. We can think of this torus as being
 first derivative \(P'(z)\). I.e., if we know \(x = P(z)\) and
 \(y = P'(z)\) we can figure out where the point \(z\) is on the torus.
 But of course \(x\) and \(y\) can't be any old thing; the differential
-equation above says they have to satisfy
-
-\[y^2 = 4x^3 -g_2 x -g_3.\]
-
+equation above says they have to satisfy \[y^2 = 4x^3 -g_2 x -g_3.\]
 Here \(x\) and \(y\) are complex numbers of course. But look what this
 means: it means that if we look at the pairs of complex numbers
 \((x,y)\) satisfying the above cubic equation, we get something that
@@ -4158,53 +3897,38 @@ have singularities, that is, places where there's no unique tangent line
 to the curve, as in \(y^2 = x^3\) or \(y^2 = x^2(x+1)\) --- draw these
 in the real plane and you'll see what I mean. Anyway, all elliptic
 curves can, by change of variables, be made to look like our favorite
-one,
-
-\[y^2 = 4x^3 -g_2 x -g_3.\]
-
-There are lots of more fancy ways of thinking about elliptic curves, and
-one is to think of the fact that they look like a torus as the key part.
-In a book on algebraic geometry you might see an elliptic curve as a
-curve with genus one (i.e., with one ``handle,'' like a torus has). One
-nice thing about a torus is that is a group. That is, we know how to add
-complex numbers, and we can add modulo elements of the lattice \(L\), so
-the torus becomes a group with addition \(\mod L\) as the group
-operation. This is simple enough, but it means that when we look at the
-solutions of
-
-\[y^2 = 4x^3 -g_2 x -g_3\]
-
-they must form a group somehow, and viewed this way it's not at all
-obvious! Nonetheless, there is a beautiful geometric description of the
-group operation in these terms --- I'll leave this for Knapp to
-explain..
+one, \[y^2 = 4x^3 -g_2 x -g_3.\] There are lots of more fancy ways of
+thinking about elliptic curves, and one is to think of the fact that
+they look like a torus as the key part. In a book on algebraic geometry
+you might see an elliptic curve as a curve with genus one (i.e., with
+one ``handle,'' like a torus has). One nice thing about a torus is that
+is a group. That is, we know how to add complex numbers, and we can add
+modulo elements of the lattice \(L\), so the torus becomes a group with
+addition \(\mod L\) as the group operation. This is simple enough, but
+it means that when we look at the solutions of
+\[y^2 = 4x^3 -g_2 x -g_3\] they must form a group somehow, and viewed
+this way it's not at all obvious! Nonetheless, there is a beautiful
+geometric description of the group operation in these terms --- I'll
+leave this for Knapp to explain..
 
 Let me wrap this up --- the story goes on and on, but I'm getting tired
 --- with a bit about what it has to do with number theory. It has a lot
 to do with Diophantine equations, where one wants integer, or rational
 solutions to a polynomial equation. Suppose that \(g_2\) and \(g_3\) are
 rational, and one has some solutions to the equation
-
-\[y^2 = 4x^3 --- g_2 x --- g_3.\]
-
-Then it turns out that one can use the group operation on the elliptic
-curve to get new solutions! Actually, it seems as if Diophantus knew
-this way back when in some special cases. For example, for the problem
-
-\[y(6 -y) = x^3 -x\]
-
-Diophantus could start with the trivial solution \((x,y) = (-1,0)\), do
-some mysterious stuff, and get the solution \((17/9,26/27)\). Knapp
-explains how this works in the Overview section, but then more deeply
-later. Basically, it uses the fact that this curve is an elliptic curve,
-and uses the group structure.
+\[y^2 = 4x^3 --- g_2 x --- g_3.\] Then it turns out that one can use the
+group operation on the elliptic curve to get new solutions! Actually, it
+seems as if Diophantus knew this way back when in some special cases.
+For example, for the problem \[y(6 -y) = x^3 -x\] Diophantus could start
+with the trivial solution \((x,y) = (-1,0)\), do some mysterious stuff,
+and get the solution \((17/9,26/27)\). Knapp explains how this works in
+the Overview section, but then more deeply later. Basically, it uses the
+fact that this curve is an elliptic curve, and uses the group structure.
 
 In fact, one can solve mighty hard-seeming Diophantine problems using
 these ideas. Knapp talks a bit about a problem Fermat gave to Mersenne
 in 1643 --- this increased my respect for Fermat a bit. He asked, find a
-Pythagorean triple \((X,Y,Z)\), that is:
-
-\[X^2 + Y^2 = Z^2\],
+Pythagorean triple \((X,Y,Z)\), that is: \[X^2 + Y^2 = Z^2\],
 
 such that \(Z\) is a square number and \(X + Y\) is too! One can solve
 this using elliptic curves. I don't know if Mersenne got it --- the
@@ -4227,23 +3951,20 @@ Some more stuff:
 One conceptually pleasing approach to string theory is closed string
 field theory, where one takes as the basic object unparametrized maps
 from circle into a manifold \(M\) representing ``space'', i.e., elements
-of
-
-\[\mathsf{Maps}(S^1,M)/\mathsf{Diff}^+(S^1).\]
-
-A state of closed string field theory would be roughly a function on the
-above set. Then one tries to define all sorts of operations on these
-states, in order to define write down ways the strings can interact. For
-example, there is a ``convolution product'' on these functions which
-almost defines a Lie algebra structure. However, the Jacobi identity
-only holds ``up to homotopy,'' so we have an algebraic structure called
-a homotopy Lie algebra. Physicists would say that the Jacobi identity
-holds modulo a BRST exact term. This is just the beginning of quite a
-big bunch of mathematics being developed by Stasheff, Zwiebach, Getzler,
-Kapranov and many others. My main complaint with the physics is that all
-these structures seem to depend on choosing a Riemannian metric on \(M\)
---- a so-called ``background metric.'' Since string theory is supposed
-to include a theory of quantum gravity it is annoying to have this
+of \[\mathsf{Maps}(S^1,M)/\mathsf{Diff}^+(S^1).\] A state of closed
+string field theory would be roughly a function on the above set. Then
+one tries to define all sorts of operations on these states, in order to
+define write down ways the strings can interact. For example, there is a
+``convolution product'' on these functions which almost defines a Lie
+algebra structure. However, the Jacobi identity only holds ``up to
+homotopy,'' so we have an algebraic structure called a homotopy Lie
+algebra. Physicists would say that the Jacobi identity holds modulo a
+BRST exact term. This is just the beginning of quite a big bunch of
+mathematics being developed by Stasheff, Zwiebach, Getzler, Kapranov and
+many others. My main complaint with the physics is that all these
+structures seem to depend on choosing a Riemannian metric on \(M\) --- a
+so-called ``background metric.'' Since string theory is supposed to
+include a theory of quantum gravity it is annoying to have this
 God-given background metric stuck in at the very start. Perhaps I just
 don't understand this stuff. I am looking around for stuff on
 background-independent closed string field theory, since I have lots of
@@ -4293,11 +4014,7 @@ too, by the way.
 \hypertarget{answer-to-puzzle}{%
 \subparagraph{Answer to puzzle:}\label{answer-to-puzzle}}
 
-\[X = 1061652293520\]
-
-\[Y = 4565486027761\]
-
-\[Z = 4687298610289\]
+\[X = 1061652293520\] \[Y = 4565486027761\] \[Z = 4687298610289\]
 \hypertarget{week14}{%
 \section{Week 14 (1993-05-08)}\label{week14}}
 
@@ -4356,25 +4073,18 @@ traditional quantum theory is the ``Hamiltonian,'' which describes the
 evolution of the state of the system relative to a God-given
 ``background'' notion of ``\(t\)''. Anyone who has taken quantum
 mechanics will know that the star of the show is the Schrodinger
-equation:
-
-\[i\frac{d\psi}{dt} = H\psi\]
-
-saying how the wavefunction \(\psi\) changes with time in a way
-depending on the Hamiltonian \(H\). No ``\(t\),'' no ``\(H\)'' --- this
-is one basic problem with trying to reconcile quantum theory with
-general relativity.
+equation: \[i\frac{d\psi}{dt} = H\psi\] saying how the wavefunction
+\(\psi\) changes with time in a way depending on the Hamiltonian \(H\).
+No ``\(t\),'' no ``\(H\)'' --- this is one basic problem with trying to
+reconcile quantum theory with general relativity.
 
 Actually, it turns out that the analog to Schrodinger's equation for
 quantum gravity is the Wheeler-DeWitt equation. The Hamiltonian is
 replaced by an operator called the ``Hamiltonian constraint'' and we
-have
-
-\[H\psi = 0.\]
-
-Note how this cleverly avoids mentioning ``\(t\)''! The problem is,
-people still aren't quite sure what to do with the solutions to this
-equation --- we're so used to working with Schrodinger's equation.
+have \[H\psi = 0.\] Note how this cleverly avoids mentioning ``\(t\)''!
+The problem is, people still aren't quite sure what to do with the
+solutions to this equation --- we're so used to working with
+Schrodinger's equation.
 
 Now in 1988 Witten wrote a paper in which he coined the term
 ``topological quantum field theory,'' or TQFT, for short. This was meant
@@ -4844,25 +4554,18 @@ the rules:
 
 \textbf{Rule 1:} If \(K\) is the ``empty link,'' the link with NO
 components whatsoever --- i.e., just the empty set --- we have
-
-\[\langle K \rangle = 1.\]
-
-This is sort of a normalization rule.
+\[\langle K \rangle = 1.\] This is sort of a normalization rule.
 
 \textbf{Rule 2:} If \(K'\) is obtained from \(K\) by adding an unlinked
 copy of the unknot (an unknotted circle) to \(K\),
-
-\[\langle K' \rangle = -(a^2 + a^{-2})\langle K \rangle.\]
-
-Here \(a\) is an adjustable parameter that appears in Chern-Simons
-theory --- a function of the coupling constant.
+\[\langle K' \rangle = -(a^2 + a^{-2})\langle K \rangle.\] Here \(a\) is
+an adjustable parameter that appears in Chern-Simons theory --- a
+function of the coupling constant.
 
 \textbf{Rule 3:} Suppose \(K\), \(L\), and \(L'\) are 3 knots or links
 differing at just one crossing (we're supposing them to be drawn as
 pictures in 2 dimensions). And suppose at this crossing they look as
-follows:
-
-\[
+follows: \[
   \begin{tikzpicture}
     \begin{knot}[clip width=7pt]
       \strand[thick] (0,0)
@@ -4894,18 +4597,12 @@ follows:
     \end{knot}
     \node at (0.5,-1.5) {$L'$};
   \end{tikzpicture}
-\]
-
-Any rotated version of this picture is fine too.
+\] Any rotated version of this picture is fine too.
 
 Then
-
 \[\langle K \rangle = a\langle L\rangle + a^{-1}\langle L'\rangle.\]
-
 That's it! I leave as an exercise for the reader to calculate
-\(\langle K \rangle\) for the trefoil knot,
-
-\[
+\(\langle K \rangle\) for the trefoil knot, \[
   \begin{tikzpicture}
     \begin{knot}[clip width=7pt]
       \strand[thick] (0,0)
@@ -4927,10 +4624,8 @@ That's it! I leave as an exercise for the reader to calculate
         to [out=up,in=up] (0,0);
     \end{knot}
   \end{tikzpicture}
-\]
-
-and get \(-A^5 -A^{-3} -A^{-7}\). Then try the mirror-image trefoil, or
-``left-handed trefoil,'' and see what you get.
+\] and get \(-A^5 -A^{-3} -A^{-7}\). Then try the mirror-image trefoil,
+or ``left-handed trefoil,'' and see what you get.
 
 Now in quantum field theory people like doing perturbative calculations,
 and that's interesting here even though we know the exact answer.
@@ -5347,8 +5042,8 @@ understand.
 \tightlist
 \item
   ``Six ways to quantize (2+1)-dimensional gravity'', by Steven Carlip
-  (at \texttt{carlip@nsfitp.itp.ucsb.edu}), 21 pages, preprint available in
-  LaTeX form as \texttt{gr-qc/9305020}.
+  (at \texttt{carlip@nsfitp.itp.ucsb.edu}), 21 pages, preprint available
+  in LaTeX form as \texttt{gr-qc/9305020}.
 \end{enumerate}
 
 While we have no real way to quantize gravity in 3+1 dimensions ---
@@ -5723,9 +5418,7 @@ spheres, and other aspects of ``quantum geometry.''
 (\texttt{carter@mathstat.usouthal.edu}) and Masahico Saito, preprint.
 
 Just as every knot or link is given as the closure of a braid --- for
-example, the trefoil knot
-
-\[
+example, the trefoil knot \[
   \begin{tikzpicture}
     \begin{knot}[clip width=7pt]
       \strand[thick] (0,0)
@@ -5747,11 +5440,7 @@ example, the trefoil knot
         to [out=up,in=up] (0,0);
     \end{knot}
   \end{tikzpicture}
-\]
-
-is the closure of
-
-\[
+\] is the closure of \[
   \begin{tikzpicture}
     \begin{knot}[clip width=7pt]
       \strand[thick] (0,0)
@@ -5765,9 +5454,7 @@ is the closure of
       \flipcrossings{1,3}
     \end{knot}
   \end{tikzpicture}
-\]
-
-every ``2-knot'' or ``2-link'' --- that is, a surface embedded in
+\] --- every ``2-knot'' or ``2-link'' --- that is, a surface embedded in
 \(\mathbb{R}^4\), is the closure of a ``2-braid''. Just as there are
 ``Markov moves'' that say when two links come from the same braid, there
 are moves for 2-braids --- as discussed here.
@@ -6132,16 +5819,14 @@ fixed metric on spacetime --- that is, a way of measuring distance and
 time. Indeed, it seems pretty close to being true that spacetime is
 \(\mathbb{R}^4\), and that the ``interval'' between any two points in
 4-dimensional space is given by the Minkowski metric
-
-\[dt^2 -dx^2 -dy^2 -dz^2\]
-
-where \(dt\) is the change in the time, or \(t\), coordinate, \(dx\) is
-the change in the spatial \(x\) coordinate, and so on. However, it's
-apparently not quite true. In fact, the presence of matter or energy
-distorts this metric a little, and the effect of the resulting
-``curvature of spacetime'' is perceived as gravity. This is the basic
-idea of general relativity, which is nicely illustrated by the way in
-which the presence of the sun bends starlight that passes nearby.
+\[dt^2 -dx^2 -dy^2 -dz^2\] where \(dt\) is the change in the time, or
+\(t\), coordinate, \(dx\) is the change in the spatial \(x\) coordinate,
+and so on. However, it's apparently not quite true. In fact, the
+presence of matter or energy distorts this metric a little, and the
+effect of the resulting ``curvature of spacetime'' is perceived as
+gravity. This is the basic idea of general relativity, which is nicely
+illustrated by the way in which the presence of the sun bends starlight
+that passes nearby.
 
 Gravity is thus quite different from the other forces, at least to our
 limited understanding. The other forces we have quantum theories of, and
@@ -6510,24 +6195,17 @@ article \href{http://math.ucr.edu/home/baez/six.html}{Some Thoughts on
 the Number Six}. But I hope you have an icosahedron available, or at
 least a good mental image of one. It's easy to describe the vertices of
 the icosahedron mathematically in terms of the golden ratio,
-
-\[\frac{\sqrt{5} + 1}{2} = 1.61803398874989484820458683437\ldots\]
-
-This usually goes by the name of ``\(\varphi\)'', or sometimes
-``\(\tau\)'', but for brevity I'll use ``\(G\)'' for this number. The
-magic properties of \(G\) are too numerous to list here, but what counts
-is that one gets the 12 vertices of a (regular) icosahedron by taking
-the points
-
-\[
+\[\frac{\sqrt{5} + 1}{2} = 1.61803398874989484820458683437\ldots\] This
+usually goes by the name of ``\(\varphi\)'', or sometimes ``\(\tau\)'',
+but for brevity I'll use ``\(G\)'' for this number. The magic properties
+of \(G\) are too numerous to list here, but what counts is that one gets
+the 12 vertices of a (regular) icosahedron by taking the points \[
   \begin{gathered}
     (\pm G, \pm1, 0),
   \\(\pm1, 0, \pm G),
   \\(0, \pm G, \pm1).
   \end{gathered}
-\]
-
-This is easy to check.
+\] This is easy to check.
 
 Now the \emph{interesting} thing is that when one gets 12 spheres to
 touch a central one using the icosahedron, the 12 sphere don't touch
@@ -6537,23 +6215,14 @@ wrong, but one can do something pretty cool with this wiggle room.
 First, though, let's check that there really \emph{is} a little space
 between those outer spheres. First, compute the distance between
 neighboring vertices of the icosahedron by taking two and working it
-out:
-
-\[\|(G,1,0) -(G,-1,0)\| = 2\]
-
-Then, compute the distance from any of the vertices to the origin, which
-is the center of the central sphere:
-
-\[\|(G,1,0)\| = \sqrt{G^2 + 1}\]
-
-Using the charming fact that \(G^2 = G + 1\) this simplifies to
-\(\sqrt{G + 2}\), but then I guess we just need to grind it out:
-
-\[\sqrt{G + 2} =  1.902\ldots\]
-
-The point is that this is less than 2, so two neighboring spheres
-surrounding the central one are farther from each other than from the
-central one, i.e., they don't touch.
+out: \[\|(G,1,0) -(G,-1,0)\| = 2\] Then, compute the distance from any
+of the vertices to the origin, which is the center of the central
+sphere: \[\|(G,1,0)\| = \sqrt{G^2 + 1}\] Using the charming fact that
+\(G^2 = G + 1\) this simplifies to \(\sqrt{G + 2}\), but then I guess we
+just need to grind it out: \[\sqrt{G + 2} =  1.902\ldots\] The point is
+that this is less than 2, so two neighboring spheres surrounding the
+central one are farther from each other than from the central one, i.e.,
+they don't touch.
 
 Now here's an interesting question: say we labelled the 12 spheres
 touching the central one with numbers 1-12. Is there enough room to roll
@@ -6563,30 +6232,23 @@ roll them around in a way that amounts to rotating the icosahedron, but
 are there more interesting permutations one can get?
 
 Recall that the group of permutations of 12 things is called \(S_{12}\),
-and it has
-
-\[12! = 479001600\]
-
-elements. The rotational symmetry group of the icosahedron is much
-smaller. One can count its elements as follows: pick a vertex and say
-which new vertex it gets rotated to --- there are 12 possibilities ---
-and then note that there are 5 ways that could have happened, for a
-total of 60. In fact (as I show in the article
-\href{http://math.ucr.edu/home/baez/six.html}{``Six''}) the rotational
-symmetry group of the icosahedron is \(A_5\), the group of \emph{even}
-permutations of 5 things. So we have a nice embedding of the group
-\(A_5\) into \(S_{12}\), but we are hoping that by some clever wiggling
-we can get a bigger subgroup of \(S_{12}\) as the group of permutations
-we can achieve by rolling spheres around.
+and it has \[12! = 479001600\] elements. The rotational symmetry group
+of the icosahedron is much smaller. One can count its elements as
+follows: pick a vertex and say which new vertex it gets rotated to ---
+there are 12 possibilities --- and then note that there are 5 ways that
+could have happened, for a total of 60. In fact (as I show in the
+article \href{http://math.ucr.edu/home/baez/six.html}{``Six''}) the
+rotational symmetry group of the icosahedron is \(A_5\), the group of
+\emph{even} permutations of 5 things. So we have a nice embedding of the
+group \(A_5\) into \(S_{12}\), but we are hoping that by some clever
+wiggling we can get a bigger subgroup of \(S_{12}\) as the group of
+permutations we can achieve by rolling spheres around.
 
 In fact, one can achieve all EVEN permutations of the 12 spheres this
 way! In other words, we get the group \(A_{12}\), with
-
-\[\frac{12!}{2} = 239500800\]
-
-elements. How? Well, I wish I could draw an icosahedron for you, but I
-can't really do so well on this medium. The best way is to draw a top
-view:
+\[\frac{12!}{2} = 239500800\] elements. How? Well, I wish I could draw
+an icosahedron for you, but I can't really do so well on this medium.
+The best way is to draw a top view:
 
 \begin{verbatim}
                            *
@@ -6654,24 +6316,19 @@ the fact that \(A_{12}\) is generated by the 5-cycles.
 
 Anyway, what this indicates is that there is an interesting relation
 between the icosahedron and a certain finite group, the Mathieu group
-\(M_{12}\). This group has
-
-\[12!/7! = 95040\]
-
-elements and it is a ``simple'' group, in the technical sense. The
-simple groups are to finite groups roughly as the prime numbers are to
-the counting numbers; that is, they are the elementary building blocks
-from which other finite groups are made (although one has to specify
-\emph{how} one gloms them together to get other groups). One of the
-remarkable achievements of this century is the classification of these
-simple groups. In addition to various infinite families of simple
-groups, like the alternating groups \(A_n\) (consisting of even
-permutations) there are a finite number of ``sporadic'' simple groups
-such as the Mathieu groups, the Fischer groups, the Suzuki groups, and,
-biggest of all, the Monster group, which has
-
+\(M_{12}\). This group has \[12!/7! = 95040\] elements and it is a
+``simple'' group, in the technical sense. The simple groups are to
+finite groups roughly as the prime numbers are to the counting numbers;
+that is, they are the elementary building blocks from which other finite
+groups are made (although one has to specify \emph{how} one gloms them
+together to get other groups). One of the remarkable achievements of
+this century is the classification of these simple groups. In addition
+to various infinite families of simple groups, like the alternating
+groups \(A_n\) (consisting of even permutations) there are a finite
+number of ``sporadic'' simple groups such as the Mathieu groups, the
+Fischer groups, the Suzuki groups, and, biggest of all, the Monster
+group, which has
 \[\begin{gathered}246\cdot320\cdot59\cdot76\cdot112\cdot133\cdot17\cdot19\cdot23\cdot29\cdot31\cdot41\cdot47\cdot59\cdot71 \\= 808017424794512875886459904961710757005754368000000000\end{gathered}\]
-
 elements!
 
 Here's a fun story about this number.
@@ -6738,14 +6395,9 @@ elements as \(A_5\), for a total of 120.
 
 Now the group \(SU(2)\) has a nice description as the group of
 \emph{unit quaternions}, that is, things of the form
-
-\[a + bI + cJ + dK\]
-
-where \(a,b,c,d\) are real numbers with \(a^2 + b^2 + c^2 + d^2 = 1\),
-and \(I\),\(J\), and \(K\) satisfy
-
+\[a + bI + cJ + dK\] where \(a,b,c,d\) are real numbers with
+\(a^2 + b^2 + c^2 + d^2 = 1\), and \(I\),\(J\), and \(K\) satisfy
 \[IJ = -JI = K, \quad JK = -KJ = I, \quad KI = -IK = J, \quad I^2 = J^2 = K^2 = -1\]
-
 (Physicists in the 20th century usually use the Pauli matrices instead,
 which are basically the same thing; for the relationship, read
 \protect\hyperlink{week5}{``Week 5''}.)
@@ -6755,60 +6407,42 @@ explicitly in terms of the unit quaternions. Conway and Sloane give a
 nice description. Let's write \((a,b,c,d)\) for \(a + bI + cJ + dK\),
 write \(G\) for the golden ratio as before, and \(g\) for the inverse of
 the golden ratio:
-
-\[g = G^{-1} = G -1 = 0.61803398874989484820458683437\ldots\]
-
-Then the elements of the double cover of \(A_5\) are of the form
-
-\[
+\[g = G^{-1} = G -1 = 0.61803398874989484820458683437\ldots\] Then the
+elements of the double cover of \(A_5\) are of the form \[
   \begin{gathered}
     (\pm 1, 0, 0, 0),
   \\(\pm1/2, \pm1/2, \pm1/2, \pm1/2),
   \\(0, \pm1/2, \pm g/2, \pm G/2).
   \end{gathered}
-\]
-
-and everything else that can be gotten by \emph{even} permutations of
+\] and everything else that can be gotten by \emph{even} permutations of
 the coordinates. (Check that there are 120 and that they are closed
 under multiplication!)
 
 Charming, but what does it have to do with \(E_8\)? Well, note that if
 we take all finite sums of elements of the double cover of \(A_5\) we
 get a subring of the quaternions that Conway and Sloane calls the
-``icosians.'' Any icosian is of the form
-
-\[a + bI + cJ + dK\]
-
-where \(a\),\(b\),\(c\), and \(d\) live in the ``golden field''
+``icosians.'' Any icosian is of the form \[a + bI + cJ + dK\] where
+\(a\),\(b\),\(c\), and \(d\) live in the ``golden field''
 \(\mathbb{Q}(G)\) --- this is the field of numbers of the form
-
-\[x + \sqrt{5} y\]
-
-where \(x\) and \(y\) are rational. Thus we can think of an icosian as
-an 8-tuple of rational numbers. We don't get all 8-tuples, however, but
-only those lying in a given lattice.
+\[x + \sqrt{5} y\] where \(x\) and \(y\) are rational. Thus we can think
+of an icosian as an 8-tuple of rational numbers. We don't get all
+8-tuples, however, but only those lying in a given lattice.
 
 In fact, we can put a norm on the icosians as follows. First of all,
 there is usual quaternionic norm
-
-\[\|a + bI + cJ + dK\|^2 = a^2 + b^2 + c^2 + d^2\]
-
-But for an icosian this is always of the form \(x + \sqrt{5} y\) for
-some rational \(x\) and \(y\). It turns out we can define a new norm on
-the icosians by setting
-
-\[|a + bI + cJ + dK|^2 = x + y.\]
-
-With respect to this norm, the icosians form a lattice that fits
-isometrically in 8-dimensional Euclidean space and is the famous one
-called \(E_8\)! \(E_8\) is known to yield the densest lattice packing of
-spheres in 8 dimensions, a fact that is not only useful for
-8-dimensional greengrocers, but also is apparently used in
-error-correcting codes in a number of commercially available modems! (If
-anyone knows \emph{which} modems use \(E_8\), let me know --- I might
-just buy one!) The density with which one can pack spheres in 8
-dimensions using \(E_8\), by the way, is \(\pi^4/384\), or about
-\(.2537\).
+\[\|a + bI + cJ + dK\|^2 = a^2 + b^2 + c^2 + d^2\] But for an icosian
+this is always of the form \(x + \sqrt{5} y\) for some rational \(x\)
+and \(y\). It turns out we can define a new norm on the icosians by
+setting \[|a + bI + cJ + dK|^2 = x + y.\] With respect to this norm, the
+icosians form a lattice that fits isometrically in 8-dimensional
+Euclidean space and is the famous one called \(E_8\)! \(E_8\) is known
+to yield the densest lattice packing of spheres in 8 dimensions, a fact
+that is not only useful for 8-dimensional greengrocers, but also is
+apparently used in error-correcting codes in a number of commercially
+available modems! (If anyone knows \emph{which} modems use \(E_8\), let
+me know --- I might just buy one!) The density with which one can pack
+spheres in 8 dimensions using \(E_8\), by the way, is \(\pi^4/384\), or
+about \(.2537\).
 
 Group theorists and some physicists, of course, will know that \(E_8\)
 is also the root lattice of the largest exceptional Lie group, also
@@ -6890,10 +6524,7 @@ a central one in 8 dimensions. (Also, one cannot get \emph{more} than
 can get by rolling 240 spheres around a central one is precisely the
 ``obvious'' subgroup, that is, the subgroup of \(SO(8)\) that preserves
 the \(E_8\) lattice. This turns out to be just the Weyl group of
-\(E_8\), which has
-
-\[2^{14}\cdot 3^5\cdot 5^2\cdot 7 = 696729600\]
-
+\(E_8\), which has \[2^{14}\cdot 3^5\cdot 5^2\cdot 7 = 696729600\]
 elements.
 
 Dimension 24 is probably the most interesting for lattice theory, and
@@ -6905,21 +6536,17 @@ theory; to get it, start with the unique even unimodular lattice in
 26-dimensional Minkowski space, and then look at \(M\), the set of
 vectors in the lattice perpendicular to the vector
 \(w = (70,1,2,3,...,24)\). This is a null vector since
-
-\[1^2 + 2^2 + ... + 24^2 = 70^2,\]
-
-i.e., it is perpendicular to itself. Taking the quotient of \(M\) by
-\(w\) itself, we get the Leech lattice. In this lattice each sphere
-touches 196560 others, which is the most one can attain, and again this
-is the \emph{only} way to get 196560 spheres to touch a central one in
-24 dimensions. This should be obvious by visualizing it. :-) So again
-the answer to the rolling spheres permutation problem is the subgroup of
-\(SO(24)\) that preserves the Leech lattice. The isomorphism group of
-the Leech lattice is an interesting group called \(Co_0\) or \(.0\)
-(pronounced ``dotto''). It has
-
+\[1^2 + 2^2 + ... + 24^2 = 70^2,\] i.e., it is perpendicular to itself.
+Taking the quotient of \(M\) by \(w\) itself, we get the Leech lattice.
+In this lattice each sphere touches 196560 others, which is the most one
+can attain, and again this is the \emph{only} way to get 196560 spheres
+to touch a central one in 24 dimensions. This should be obvious by
+visualizing it. :-) So again the answer to the rolling spheres
+permutation problem is the subgroup of \(SO(24)\) that preserves the
+Leech lattice. The isomorphism group of the Leech lattice is an
+interesting group called \(Co_0\) or \(.0\) (pronounced ``dotto''). It
+has
 \[2^{22}\cdot 3^9\cdot 5^4\cdot 7^2\cdot 11\cdot 13\cdot 23 = 8315553613086720000\]
-
 elements. The Monster group can also be produced using the Leech
 lattice.
 
@@ -6936,9 +6563,7 @@ radius \(r=1.04557\ldots\) This is thought to be optimal but has not
 been proved optimal.
 
 This \(r\) is an algebraic number and is a root of the polynomial
-
 \[4096 x^{16} -18432 x^{12} +24576 x^{10} -13952 x^8 +4096 x^6 -608x^4 +32 x^2 +1\]
-
 They computed \(r\) but did not publish the polynomial.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
@@ -7121,9 +6746,7 @@ these. If we are studying embeddings into 4 dimensions, a nice technique
 is that of movies. Calling the 4th coordinate ``time,'' we can draw
 slices at different times and get frames of a movie. Most of the frames
 of a movie of an embedded surface will show simply a bunch of knots. At
-a few times, however, a ``catastrophe'' will occur, e.g.:
-
-\[
+a few times, however, a ``catastrophe'' will occur, e.g.: \[
   \begin{array}{p{8em}p{8em}p{8em}}
     \begin{tikzpicture}
       \begin{knot}
@@ -7189,10 +6812,8 @@ a few times, however, a ``catastrophe'' will occur, e.g.:
       \node at (0.5,-2.5) {Frame 6};
     \end{tikzpicture}
   \end{array}
-\]
-
-However, there are always many different movies of essentially the same
-embedding. We can, however, always relate these by a sequence of
+\] However, there are always many different movies of essentially the
+same embedding. We can, however, always relate these by a sequence of
 transformations called ``movie moves.'' I wish I could draw these, but
 it would take too long, so look at Carter's book!
 
@@ -7356,16 +6977,12 @@ Wait --- you say --- those don't look like colors, they look like the
 quaternions. True! Now color each edge either \(i\), \(j\), or \(k\)
 according to product of the the colors of the two faces it is incident
 to, where we define products by:
-
 \[\begin{gathered}1i = i1 = i, \quad 1j = j1 = j, \quad 1k = k1 = k \\ ij = ji = k, \quad jk = kj = i, \quad ki = ik = j.\end{gathered}\]
-
 These are \emph{almost} the rules for multiplying quaternions, but with
 some minus signs missing. Since today (October 16th, 1993) is the 150th
 birthday of the quaternions, I suppose I should remind the reader what
 the right signs are:
-
 \[ij = -ji = k, \quad jk = -kj = i, \quad  ki = -ik = j, \quad i^2 = j^2 = k^2 = -1.\]
-
 Anyway, I leave it to the reader to check that this trick really gives
 us a 3-coloring of the edges, and conversely that a 3-coloring of the
 edges gives a 4-coloring of the faces.
@@ -7507,9 +7124,7 @@ polynomial \(P(n)\) have a root at \(n = 4\).
 
 \(P(n)\) is called the ``chromatic polynomial'' and has been intensively
 investigated. One very curious thing is this. Remember the golden mean
-
 \[G = \frac{\sqrt{5} + 1}{2} = 1.61803398874989484820458683437\ldots?\]
-
 Well, \(G + 1\) is never a root of the chromatic polynomial of a graph!
 (Unless the polynomial vanishes identically, which happens just when the
 graph has loops.) The proof is not all that hard, and it's in Saaty and
@@ -7527,38 +7142,27 @@ least 5 decimal places.
 This curious situation was at least partially explained by Tutte in
 1970. He showed that for a triangular planar graph (that is, one all of
 whose faces are triangles) with \(n\) vertices one has
-
-\[|P(G + 1)| \leqslant G^{5-n}.\]
-
-This is apparently not a \emph{complete} explanation, though, because
-the truncated icosahedron is not triangular.
+\[|P(G + 1)| \leqslant G^{5-n}.\] This is apparently not a
+\emph{complete} explanation, though, because the truncated icosahedron
+is not triangular.
 
 This is not an isolated freak curiosity, either! In 1974 Beraha
 suggested checking out the behavior of chromatic polynomials at what are
-now called the ``Beraha numbers''
-
-\[B(n) = 4 \cos^2(\pi/n).\]
-
-These are
-
+now called the ``Beraha numbers'' \[B(n) = 4 \cos^2(\pi/n).\] These are
 \[\begin{aligned}B(1) &= 4 \\ B(2) &= 0 \\ B(3) &= 1 \\ B(4) &= 2 \\ B(5) &= G+1 \\ B(6) &= 3 \\ B(7) &= S \\ \end{aligned}\]
-
 etc.. Note by the way that \(B(n)\) approaches 4 as \(n\) approaches
 \(\infty\). (What's \(S\), you ask? Well, folks call \(B(7)\) the
 ``silver root,'' a term I find most poetic and eagerly want to spread!
-
-\[S =  3.246979603717467061050009768008479621265\ldots\]
-
-If anyone knows charming properties of the silver root, I'd be
-interested.) Anyway, it turns out that the roots of chromatic
-polynomials seem to cluster near Beraha numbers. For example, the four
-nonintegral real roots of the chromatic polynomial of the truncated
-icosahedron are awfully close to \(B(5)\), \(B(7)\), \(B(8)\) and
-\(B(9)\). Beraha made the following conjecture: let \(P_i\) be a
-sequence of chromatic polynomials of graphs such whose number of
-vertices approaches \(\infty\) as \(i\to\infty\). Suppose \(r_i\) is a
-real root of \(P_i\) and suppose the \(r_i\) approach some number \(x\).
-Then \(x\) is a Beraha number.
+\[S =  3.246979603717467061050009768008479621265\ldots\] If anyone knows
+charming properties of the silver root, I'd be interested.) Anyway, it
+turns out that the roots of chromatic polynomials seem to cluster near
+Beraha numbers. For example, the four nonintegral real roots of the
+chromatic polynomial of the truncated icosahedron are awfully close to
+\(B(5)\), \(B(7)\), \(B(8)\) and \(B(9)\). Beraha made the following
+conjecture: let \(P_i\) be a sequence of chromatic polynomials of graphs
+such whose number of vertices approaches \(\infty\) as \(i\to\infty\).
+Suppose \(r_i\) is a real root of \(P_i\) and suppose the \(r_i\)
+approach some number \(x\). Then \(x\) is a Beraha number.
 
 In work in the late 60's and early 70's, Tutte proved some results
 showing that there really was a deep connection between chromatic
@@ -7719,10 +7323,7 @@ nobody has disproved it. Metzler lists a few presentations of the
 trivial group that might be counterexamples: nobody has ever found a way
 to use moves 1)-6) to boil them down to the presentation
 \(\langle x \mid x \rangle\). For example,
-
-\[\langle a, b \mid b^5a^{-4}, aba(bab)^{-1}\rangle.\]
-
-Try it!
+\[\langle a, b \mid b^5a^{-4}, aba(bab)^{-1}\rangle.\] Try it!
 
 The Andrews-Curtis conjecture is interesting mainly for its implications
 in topology. When they first stated their conjecture they noted a number
@@ -8309,20 +7910,18 @@ special element in the 2nd cohomology of \(LG\). This then gives a line
 bundle over \(LG\). Alternatively, it gives a circle bundle over \(LG\),
 in fact a central extension of \(LG\), that is, a bigger group
 \(\widehat{LG}\) and an exact sequence
-
-\[1 \to S^1 \to \widehat{LG} \to LG \to 1\]
-
-This group is called a Kac-Moody group, and these are well-loved by
-string theorists since it turns out that when one wants to quantize a
-gauge theory on the string worldsheet (a kind of conformal field theory)
-one gets, not a representation of the gauge group \(LG\) on the Hilbert
-space of quantum states, but merely a projective representation, or in
-other words, a representation of the central extension \(\widehat{LG}\).
-Brylinski also notes that in some sense the canonical element in the 3rd
-cohomology of \(G\) is responsible for the existence of quantum groups;
-this is probably the deep reason for the association between quantum
-group representations and Kac-Moody group representations, but, alas,
-this is still quite murky to me.
+\[1 \to S^1 \to \widehat{LG} \to LG \to 1\] This group is called a
+Kac-Moody group, and these are well-loved by string theorists since it
+turns out that when one wants to quantize a gauge theory on the string
+worldsheet (a kind of conformal field theory) one gets, not a
+representation of the gauge group \(LG\) on the Hilbert space of quantum
+states, but merely a projective representation, or in other words, a
+representation of the central extension \(\widehat{LG}\). Brylinski also
+notes that in some sense the canonical element in the 3rd cohomology of
+\(G\) is responsible for the existence of quantum groups; this is
+probably the deep reason for the association between quantum group
+representations and Kac-Moody group representations, but, alas, this is
+still quite murky to me.
 
 Second, we can do better if we restrict ourself to knots (possibly with
 nice self-intersections) rather than loops. Namely, given a 3-manifold
@@ -8375,12 +7974,9 @@ elements of \(H^3(M,\mathbb{Z})\). The reason is roughly this: the
 structure group \(G\) for such bundles is the group
 \(Aut(H)/\mathbb{C}^*\), that is, invertible operators on the Hilbert
 space \(H\), modulo invertible complex numbers. In other words, we have
-an exact sequence
-
-\[1 \to \mathbb{C}^* \to Aut(H) \to G \to 1\]
-
-This gives an exact sequence of sheaves on \(M\), which, combined with
-the marvelous fact that \(Aut(H)\) is contractible, gives an isomorphism
+an exact sequence \[1 \to \mathbb{C}^* \to Aut(H) \to G \to 1\] This
+gives an exact sequence of sheaves on \(M\), which, combined with the
+marvelous fact that \(Aut(H)\) is contractible, gives an isomorphism
 between \(H^1(M,\mathrm{sh}(G))\) (the cohomology of the sheaf of smooth
 G-valued functions on \(M\)) and \(H^2(M,\mathrm{sh}(\mathbb{C}^*))\).
 But the latter is isomorphic to \(H^3(M,\mathbb{Z})\).
@@ -8400,20 +7996,16 @@ Cech cohomology. Recall that we can patch a line bundle together by
 covering our manifold \(M\) with charts \(O(i)\) and assigning to each
 intersection \(O(i) \cap O(j)\) a \(\mathbb{C}^*\)-valued function
 \(g(ij)\). These ``transition functions'' must satisfy the compatibility
-condition
-
-\[g(ij) g(jk) g(ki) = 1\]
-
-We say then that the functions \(g(ij)\) define a 1-cocycle in Cech
-cohomology --- think of this as just jargon, if you like. Note that we
-will get an isomorphic line bundle if we take some
-\(\mathbb{C}^*\)-valued functions \(f(i)\), one on each chart \(O(i)\),
-and multiply \(g(ij)\) by \(f(i)f(j)^{-1}\). This simply amounts to
-changing the trivialization of the bundle on each chart. We say that the
-new Cech cocycle differs by a coboundary. So line bundles are in 1-1
-correspondence with the 1st Cech cohomology with values in
-\(\mathrm{sh}(\mathbb{C}^*)\). This turns out to be the same thing as
-\(H^2(M,\mathbb{Z})\), as noted above.
+condition \[g(ij) g(jk) g(ki) = 1\] We say then that the functions
+\(g(ij)\) define a 1-cocycle in Cech cohomology --- think of this as
+just jargon, if you like. Note that we will get an isomorphic line
+bundle if we take some \(\mathbb{C}^*\)-valued functions \(f(i)\), one
+on each chart \(O(i)\), and multiply \(g(ij)\) by \(f(i)f(j)^{-1}\).
+This simply amounts to changing the trivialization of the bundle on each
+chart. We say that the new Cech cocycle differs by a coboundary. So line
+bundles are in 1-1 correspondence with the 1st Cech cohomology with
+values in \(\mathrm{sh}(\mathbb{C}^*)\). This turns out to be the same
+thing as \(H^2(M,\mathbb{Z})\), as noted above.
 
 Now, there is a marvelous thing called a gerbe, which is like a bundle,
 but is pieced together using Cech 2-cocyles! These will be classified by
@@ -8757,9 +8349,7 @@ There are a lot of hints that classical knot theory, which only
 considers a circle smoothly embedded in space, is only the tip of a very
 interesting iceberg. Namely, if one looks at the space of all loops,
 this has the knots as an open dense subset, but then it has loops with a
-single ``transverse double point'' like
-
-\[
+single ``transverse double point'' like \[
   \begin{tikzpicture}
     \begin{knot}[clip width=0]
       \strand[thick] (0,0)
@@ -8768,9 +8358,7 @@ single ``transverse double point'' like
       to [out=down,in=up] (0,-1);
     \end{knot}
   \end{tikzpicture}
-\]
-
-as a codimension 1 subset (like a hypersurface in the space of all
+\] as a codimension 1 subset (like a hypersurface in the space of all
 loops), and more fancy singularities appear as still smaller subsets, or
 as the jargon has it, strata of higher codimension. The recent flurry of
 work on Vassiliev invariants points out the importance of these other
@@ -9046,49 +8634,33 @@ condition is that \(\psi(1) = 1\).
 
 This may seem unfamiliar, and that is because elementary quantum
 mechanics only considers states of the form
-
-\[\psi(A) = \langle v, Av\rangle\]
-
-where \(v\) is a unit vector in \(H\). Not all states are of this form,
-but they are an extremely important special class of states. It is also
-important to consider states that are represented as ``density
-matrices,'' which are non-negative matrices \(D\) with trace 1:
-
-\[\operatorname{tr}(D) = \sum_i D_{ii} = 1\]
-
-Such a density matrix defines a state \(\psi\) by
-
-\[\psi(A) = \operatorname{tr}(AD).\]
-
-It's worth checking that this really meets the definition of a ``state''
+\[\psi(A) = \langle v, Av\rangle\] where \(v\) is a unit vector in
+\(H\). Not all states are of this form, but they are an extremely
+important special class of states. It is also important to consider
+states that are represented as ``density matrices,'' which are
+non-negative matrices \(D\) with trace 1:
+\[\operatorname{tr}(D) = \sum_i D_{ii} = 1\] Such a density matrix
+defines a state \(\psi\) by \[\psi(A) = \operatorname{tr}(AD).\] It's
+worth checking that this really meets the definition of a ``state''
 given above!
 
 The states corresponding to unit vectors in \(H\) are in fact a special
 case of the density matrices. Namely, if \(v\) is a unit vector in \(H\)
 we can let \(D\) be the self-adjoint matrix corresponding to projection
 onto \(v\). I.e., the matrix \(D\) acts on any other vector, say \(w\),
-by
-
-\[Dw = \langle v,w \rangle v.\]
-
-It's not to hard to check that the matrix \(D\) really is a density
-matrix (do it!) and that this density matrix defines the same state as
-does the vector \(v\), that is,
-
-\[\operatorname{tr}(AD) = \langle v, Av\rangle\]
-
-for any observable \(A\).
+by \[Dw = \langle v,w \rangle v.\] It's not to hard to check that the
+matrix \(D\) really is a density matrix (do it!) and that this density
+matrix defines the same state as does the vector \(v\), that is,
+\[\operatorname{tr}(AD) = \langle v, Av\rangle\] for any observable
+\(A\).
 
 The entropy of a state \(\psi\) corresponding to the density matrix
-\(D\) is defined to be
-
-\[S(\psi) = -\operatorname{tr}(D \ln D)\]
-
-where one calculates \(D \ln D\) by working in a basis where \(D\) is
-diagonal and replacing each eigenvalue \(x\) of \(D\) by the number
-\(x \ln x\), which we decree to be \(0\) if \(x = 0\). Check that if
-\(D\) corresponds to a \emph{pure} state as above then \(D \ln D = 0\)
-so the entropy is zero.
+\(D\) is defined to be \[S(\psi) = -\operatorname{tr}(D \ln D)\] where
+one calculates \(D \ln D\) by working in a basis where \(D\) is diagonal
+and replacing each eigenvalue \(x\) of \(D\) by the number \(x \ln x\),
+which we decree to be \(0\) if \(x = 0\). Check that if \(D\)
+corresponds to a \emph{pure} state as above then \(D \ln D = 0\) so the
+entropy is zero.
 
 Now about superpositions versus mixtures. They teach you how to take
 superpositions in basic quantum mechanics. They usually don't tell you
@@ -9101,11 +8673,8 @@ Mixtures are an utterly different sort of linear combination. Given two
 states \(\psi\) and \(\phi\) -- which recall are things that assign
 numbers to observables in a linear way -- and given any number \(c\)
 between \(0\) and \(1\), we can form a new state by taking
-
-\[c \psi + (1-c) \phi\]
-
-This is called a mixture of \(\psi\) and \(\phi\). Finally, some
-nontrivial exercises:
+\[c \psi + (1-c) \phi\] This is called a mixture of \(\psi\) and
+\(\phi\). Finally, some nontrivial exercises:
 
 \textbf{Exercise:} Recall that a pure state is defined to be a state
 which is not a mixture of two different states with \(0 < c < 1\). Show
@@ -10641,20 +10210,15 @@ are various things one might mean. The simplest is that if we start the
 combined system in some tensor product state \(u(i) \otimes v\), where
 \(v\) is the ``waiting and ready'' state of the apparatus and \(u(i)\)
 is a state of the observed system that's an eigenvector of \(A\):
-
-\[Au(i) = a(i)u(i),\]
-
-then the unitary operator \(U\) corresponding to time evolution does the
-following:
-
-\[U(u(i) \otimes v) = u(i) \otimes v(i)\]
-
-where the state \(v(i)\) of the apparatus is one in which it can be said
-to have measured the observable \(A\) to have value \(a(i)\). E.g., the
-apparatus might have a dial on it, and in the state \(v(i)\) the dial
-reads ``\(a(i)\)''. Of course, we are really only justified in saying a
-measurement has occurred if the states \(v(i)\) are \emph{distinct} for
-different values of \(i\).
+\[Au(i) = a(i)u(i),\] then the unitary operator \(U\) corresponding to
+time evolution does the following:
+\[U(u(i) \otimes v) = u(i) \otimes v(i)\] where the state \(v(i)\) of
+the apparatus is one in which it can be said to have measured the
+observable \(A\) to have value \(a(i)\). E.g., the apparatus might have
+a dial on it, and in the state \(v(i)\) the dial reads ``\(a(i)\)''. Of
+course, we are really only justified in saying a measurement has
+occurred if the states \(v(i)\) are \emph{distinct} for different values
+of \(i\).
 
 Note: here the WAY theorem seems to be restricting itself to
 nondestructive measurements, since the observed system is remaining in
@@ -10664,28 +10228,16 @@ not the case.
 
 Okay, we have to show that we can only ``measure \(A\)'' in this sense
 if \(A\) commutes with \(B\). We are assuming that \(B + C\) is
-conserved, i.e.,
-
-\[U^*(B + C)U = B + C.\]
-
-First note that
-
+conserved, i.e., \[U^*(B + C)U = B + C.\] First note that
 \[\langle u(i), [A,B] u(j)\rangle = (a(i)-a(j)) \langle u(i), Bu(j)\rangle.\]
-
 On the other hand, since \(A\) and \(B\) only act on the Hilbert space
 for the particle, we also have
-
 \[\begin{aligned}\langle u(i),[A,B]u(j) \rangle &= \langle u(i)\otimes v,[A,B]u(j) \rangle \\ &= \langle u(i)\otimes v,[A,B+C]u(j) \rangle \\ &= (a(i)-a(j))\langle u(i)\otimes v,(B+C)u(j)\otimes v \rangle\end{aligned}\]
-
 It follows that if \(a(i)-a(j)\) isn't zero,
-
 \[\begin{aligned}\langle u(i),Bu(j) \rangle &= \langle u(i)\otimes v,(B+C)u(j)\otimes v \rangle \\ &= \langle u(i)\otimes v, U^*(B+C)Uu(j)\otimes v \rangle \\ &= \langle u(i)\otimes v(i),(B+C)u(j)\otimes v(j) \rangle \\ &= \langle u(i),Bu(j) \rangle\langle v(i),v(j) \rangle + \langle u(i),u(j) \rangle\langle v(i),Cv(j) \rangle\end{aligned}\]
-
 but the second term vanishes since \(u(i)\) are a basis of eigenvectors
 and \(u(i)\) and \(u(j)\) correspond to different eigenvalues, so
-
 \[\langle u(i), Bu(j)\rangle = \langle u(i), Bu(j)\rangle \langle v(i), v(j)\rangle\]
-
 which means that either \(\langle v(i), v(j)\rangle = 1\), hence
 \(v(i) = v(j)\) (since they are unit vectors), so that no measurement
 has really been done, OR that \(\langle u(i), B u(j)\rangle = 0\), which
@@ -11009,10 +10561,7 @@ easiest to see why machines that take advantage of quantum theory might
 be efficient at computation if we think in terms of path integrals. In
 Feynman's path-integral approach to quantum theory, the probability of
 getting from state \(A\) at time zero to state \(B\) some later time is
-obtained by integrating the exponential of the action
-
-\[exp(iS/\hbar)\]
-
+obtained by integrating the exponential of the action \[exp(iS/\hbar)\]
 over \emph{all} paths from \(A\) to \(B\), and then taking the absolute
 value squared. (Here we are thinking of states \(A\) and \(B\) that
 correspond to points in the classical configuration space.) We can think
@@ -11310,30 +10859,18 @@ pretend things are equal, they are really just \emph{isomorphic}, and we
 should openly admit this when it occurs. So, for example, in a ``weak''
 2-category one doesn't have associativity of 1-morphisms. Instead, one
 has ``associators'', which are 2-morphisms like this:
-
-\[a_{f,g,h}: (f \circ g) \circ h \to f \circ (g \circ h)\]
-
-In other words, the associator is the \emph{process of rebracketing}
-made concrete. Now, when one replaces equations between 1-morphisms by
+\[a_{f,g,h}: (f \circ g) \circ h \to f \circ (g \circ h)\] In other
+words, the associator is the \emph{process of rebracketing} made
+concrete. Now, when one replaces equations between 1-morphisms by
 isomorphisms, one needs these isomorphisms to satisfy ``coherence
 relations'' if we're going to expect to be able to manipulate them more
 or less as if they \emph{were} equations. For example, in the case of
 the associators above, one can use associators to go from
-
-\[f \circ (g \circ (h \circ k))\]
-
-to
-
-\[((f \circ g) \circ h) \circ k\]
-
+\[f \circ (g \circ (h \circ k))\] to \[((f \circ g) \circ h) \circ k\]
 in two different ways: either
-
 \[f \circ (g \circ (h \circ k)) \to (f \circ g) \circ (h \circ k) \to ((f \circ g) \circ h) \circ k\]
-
 or
-
 \[f \circ (g \circ (h \circ k)) \to f \circ ((g \circ h) \circ k) \to (f \circ (g \circ h)) \circ k \to ((f \circ g) \circ h) \circ k\]
-
 Actually there are other ways, but in an important sense these are the
 basic two. In a ``weak'' 2-category one requires that these two ways are
 equal\ldots{} i.e., this is an identity that the associator must
@@ -11605,48 +11142,29 @@ invariant trace on it. The two fields in BF theory are a connection
 \((n-2)\)-form called \(B\). If \(F\) denotes the curvature of \(A\),
 which is a \(\mathrm{Lie}(G)\)-valued 2-form, we can take the wedge
 product \(B\wedge F\) and get a \(\mathrm{Lie}(G)\)-valued \(n\)-form,
-which gives the Lagrangian
-
-\[\operatorname{tr}(B \wedge F),\]
-
-an \(n\)-form we can integrate over \(M\) to get the action. Since we
-don't need any metric to integrate an \(n\)-form over our spacetime
-\(M\), this action is ``generally covariant''. (Note also that it's
+which gives the Lagrangian \[\operatorname{tr}(B \wedge F),\] an
+\(n\)-form we can integrate over \(M\) to get the action. Since we don't
+need any metric to integrate an \(n\)-form over our spacetime \(M\),
+this action is ``generally covariant''. (Note also that it's
 gauge-invariant.) If we vary \(B\) and \(F\) to get the classical
-equations of motion, varying \(B\) gives us
-
-\[F = 0,\]
-
-that is, the connection \(A\) is flat, and varying \(A\) gives us
-
-\[d_A B = 0,\]
-
-that is, the exterior covariant derivative of \(B\) vanishes.
+equations of motion, varying \(B\) gives us \[F = 0,\] that is, the
+connection \(A\) is flat, and varying \(A\) gives us \[d_A B = 0,\] that
+is, the exterior covariant derivative of \(B\) vanishes.
 
 In 4 dimensions we can soup up our BF theory a bit by adding terms
-proportional to
-
-\[\operatorname{tr}(B \wedge B)\]
-
-and
-
-\[\operatorname{tr}(F \wedge F)\]
-
-to the Lagrangian. If we take as our Lagrangian
-
+proportional to \[\operatorname{tr}(B \wedge B)\] and
+\[\operatorname{tr}(F \wedge F)\] to the Lagrangian. If we take as our
+Lagrangian
 \[\operatorname{tr}(B \wedge F) + a \operatorname{tr}(B \wedge B) + b \operatorname{tr}(F \wedge F),\]
-
 the third term, when integrated over \(M\), is proportional to an
 invariant called the second Chern class of \(E\), that is, it's
 independent of the connection \(A\), so it really doesn't affect the
 equations of motion at all! In a sense it's utterly useless. The second
 term does something, though; our equations of motion become
-
-\[F = -2aB, \quad d_A B = 0.\]
-
-Note that if we plug the first equation into the Lagrangian, we get that
-for solutions of the equations of motion, the action is a constant times
-the second Chern class (if \(a\) is nonzero).
+\[F = -2aB, \quad d_A B = 0.\] Note that if we plug the first equation
+into the Lagrangian, we get that for solutions of the equations of
+motion, the action is a constant times the second Chern class (if \(a\)
+is nonzero).
 
 Horowitz showed, in this four-dimensional case, that if \(a\) is
 nonzero, there is a single state of the \emph{quantum} version of BF
@@ -12275,24 +11793,18 @@ since again various things that were equalities becomes isomorphisms. In
 particular, this means that various things one thought were vector
 spaces --- which are \emph{sets} that have \emph{elements} that you can
 \emph{add} and \emph{multiply by numbers}, and which satisfy
-\emph{equations} like
-
-\[A + B = B + A\]
-
-are now reinterpreted as ``2-vector spaces'', which are
-\emph{categories} that have \emph{objects} that you can \emph{direct
-sum} and \emph{tensor with vector spaces}, and which have certain
-\emph{natural isomorphisms} like the isomorphism
-
-\[A \oplus B \cong B \oplus A.\]
-
-In particular, using Lusztig's canonical basis, Crane and Frenkel start
-with quantum groups (which are Hopf algebras of a certain sort) and
-build marvelous ``Hopf categories'' out of them. While they do not
-construct a 4d TQFT in this paper, they indicate the game plan in terms
-clear enough that they will probably now have to race other workers in
-the field to see who can get the first interesting 4d TQFT\ldots{} or
-perhaps something a bit subtler than a 4d TQFT (e.g.~Donaldson theory).
+\emph{equations} like \[A + B = B + A\] are now reinterpreted as
+``2-vector spaces'', which are \emph{categories} that have
+\emph{objects} that you can \emph{direct sum} and \emph{tensor with
+vector spaces}, and which have certain \emph{natural isomorphisms} like
+the isomorphism \[A \oplus B \cong B \oplus A.\] In particular, using
+Lusztig's canonical basis, Crane and Frenkel start with quantum groups
+(which are Hopf algebras of a certain sort) and build marvelous ``Hopf
+categories'' out of them. While they do not construct a 4d TQFT in this
+paper, they indicate the game plan in terms clear enough that they will
+probably now have to race other workers in the field to see who can get
+the first interesting 4d TQFT\ldots{} or perhaps something a bit subtler
+than a 4d TQFT (e.g.~Donaldson theory).
 
 Finally, let me turn to a subject that is closely related (though
 unfortunately this has not yet been made sufficiently clear), namely,
@@ -12421,10 +11933,7 @@ the last two relations, obtaining something folks call the
 graded algebra'' over \(A\) --- which is pleasant but quite boring by
 itself --- and then to consider ``chains'' which are linear maps \(F\)
 from this gadget to the complex numbers (or whatever field you're
-working in) satisfying the cyclic property
-
-\[F(uv) = (-1)^{ij} F(vu)\]
-
+working in) satisfying the cyclic property \[F(uv) = (-1)^{ij} F(vu)\]
 where \(u\) is something that looks like \(f_0 df_1 df_2 \ldots df_i\),
 and \(v\) is something like \(g_0 dg_1 dg_2 \ldots dg_j\). There are
 charming things one can do with chains that wind up letting one do most
@@ -12626,9 +12135,7 @@ won't worry about the ``\(!\)'' here.) One key idea, which finally
 penetrated my thick skull, is that there is a good reason why ``tensor''
 does not satisfy the following deduction rule so characteristic of
 ``and'':
-
 \[\AxiomC{$S\vdash p$}\AxiomC{$S\vdash q$}\BinaryInfC{$S\vdash p\&q$}\DisplayProof\]
-
 meaning: if from the set of premisses \(S\) we can deduce \(p\), and
 from \(S\) we can also deduce \(q\), then from \(S\) we can deduce
 \(p\&q\). The point is that in linear logic one should not think of
@@ -12638,24 +12145,16 @@ use one premiss in \(S\) to deduce something, we *use it up*, and we can
 only use it again if \(S\) has several copies of that premiss in it. As
 they say, linear logic is ``resource-sensitive'' (which is apparently
 why computer scientists like it). So the idea is that in linear logic,
-
-\[S\vdash p\&q\]
-
-means something like ``from the premisses \(S\) one can deduce \(p\) if
-one feels like it, or alternatively one can deduce \(q\) if one feels
-like it, but not necessarily both''at once``, since there may not be
-enough copies of the premisses to do that.'' On the other hand,
-
-\[S\vdash p\otimes q\]
-
-is stronger, since it means something like ``from the premisses \(S\)
-one can deduce both \(p\) and \(q\) at once, since there are enough
-copies of all the premisses in \(S\) to do it.'' Thus ``\(\&\)''
-satisfies the above deduction rule in linear logic just as in classical
-logic, but ``tensor'' does not; instead, it satisfies
-
+\[S\vdash p\&q\] means something like ``from the premisses \(S\) one can
+deduce \(p\) if one feels like it, or alternatively one can deduce \(q\)
+if one feels like it, but not necessarily both''at once``, since there
+may not be enough copies of the premisses to do that.'' On the other
+hand, \[S\vdash p\otimes q\] is stronger, since it means something like
+``from the premisses \(S\) one can deduce both \(p\) and \(q\) at once,
+since there are enough copies of all the premisses in \(S\) to do it.''
+Thus ``\(\&\)'' satisfies the above deduction rule in linear logic just
+as in classical logic, but ``tensor'' does not; instead, it satisfies
 \[\AxiomC{$S\vdash p$}\AxiomC{$T\vdash q$}\BinaryInfC{$S\cup T\vdash p\otimes q$}\DisplayProof\]
-
 where \(S \cup T\) denotes the union of the multisets \(S\) and \(T\)
 (so that if both \(S\) and \(T\) have one copy of a premiss,
 \(S \cup T\) has two copies of it).
@@ -12835,30 +12334,18 @@ Wess-Zumino-Witten (WZW) theory on the boundary. In the presence of a
 cosmological constant \(\Lambda = -1/L^2\) appropriate for the
 (2+1)-dimensional black hole, one obtains a slightly modified
 \(SO(2,1) \times SO(2,1)\) WZW model, with coupling constant
-
-\[k = \frac{L\sqrt{2}}{8G}\]
-
-This model is not completely understood, but in the large \(k\) ---
-i.e., small \(\Lambda\) --- limit, it may be approximated by a theory of
-six independent bosonic oscillators. I show below that the Virasoro
-operator \(L_0\) for this theory takes the form
-
-\[L_0 \sim N -\left(\frac{r}{4G}\right)^2,\]
-
-where \(N\) is a number operator and \(r\) is the horizon radius. It is
-a standard result of string theory that the number of states of such a
-system behaves asymptotically as
-
-\[n(N) \sim \exp(\pi \sqrt{4} N)\]
-
-If we demand that \(L_0\) vanish --- physically, requiring states to be
-independent of the choice of origin of the angular coordinate at the
-horizon --- we thus obtain
-
-\[\log n(r) \sim \frac{2 \pi r}{4G},\]
-
-precisely the right expression for the entropy of the (2+1)-dimensional
-black hole.
+\[k = \frac{L\sqrt{2}}{8G}\] This model is not completely understood,
+but in the large \(k\) --- i.e., small \(\Lambda\) --- limit, it may be
+approximated by a theory of six independent bosonic oscillators. I show
+below that the Virasoro operator \(L_0\) for this theory takes the form
+\[L_0 \sim N -\left(\frac{r}{4G}\right)^2,\] where \(N\) is a number
+operator and \(r\) is the horizon radius. It is a standard result of
+string theory that the number of states of such a system behaves
+asymptotically as \[n(N) \sim \exp(\pi \sqrt{4} N)\] If we demand that
+\(L_0\) vanish --- physically, requiring states to be independent of the
+choice of origin of the angular coordinate at the horizon --- we thus
+obtain \[\log n(r) \sim \frac{2 \pi r}{4G},\] precisely the right
+expression for the entropy of the (2+1)-dimensional black hole.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -12871,9 +12358,7 @@ things in quantum gravity. The simplest sort of spin network is just a
 trivalent graph (i.e., 3 edges adjacent to each vertex) with edges
 labelled by ``spins'' \(0,1/2,1,3/2,\ldots\), and satisfying the
 ``triangle inequality'' at each vertex:
-
 \[j_1 + j_2 \leqslant j_3, \quad j_2 + j_3 \leqslant j_1, \quad j_3 + j_1 \leqslant j_2,\]
-
 where \(j_1\), \(j_2\), \(j_3\) are the spins labelling the edges
 adjacent to the given vertex. Really, the spins should be thought of as
 irreducible representations of \(SU(2)\), and the triangle inequalities
@@ -12940,29 +12425,16 @@ is to realize that anything you are used to doing with Hamiltonians in
 quantum mechanics or quantum field theory, you CAN'T do in quantum
 gravity, at least not in any simple way, because there is no Hamiltonian
 in general relativity, but only a ``Hamiltonian constraint'' --- which
-in quantum gravity becomes the Wheeler-DeWitt equation
-
-\[H \psi = 0.\]
-
+in quantum gravity becomes the Wheeler-DeWitt equation \[H \psi = 0.\]
 Now, people know there is a mystical relationship between time and
-temperature that might be written
-
-\[it = \frac{1}{kT}\]
-
-where \(t\) is time, \(T\) is temperature, and \(k\) is Boltzmann's
-constant. This equation is a bit of an exaggeration! But the point is
-that in quantum theory, when there is a Hamiltonian \(H\) around one
-evolves states using the operator
-
-\[\exp(-itH)\]
-
-while the Gibbs state, that is, the equilibrium state at temperature
-\(T\), is given by the density matrix
-
-\[\exp(-H/kT).\]
-
-It is this fact that relates statistical mechanics and quantum field
-theory so closely.
+temperature that might be written \[it = \frac{1}{kT}\] where \(t\) is
+time, \(T\) is temperature, and \(k\) is Boltzmann's constant. This
+equation is a bit of an exaggeration! But the point is that in quantum
+theory, when there is a Hamiltonian \(H\) around one evolves states
+using the operator \[\exp(-itH)\] while the Gibbs state, that is, the
+equilibrium state at temperature \(T\), is given by the density matrix
+\[\exp(-H/kT).\] It is this fact that relates statistical mechanics and
+quantum field theory so closely.
 
 Now, in quantum gravity things aren't so simple, since there isn't a
 Hamiltonian (just a Hamiltonian constraint). However, people \emph{do}
@@ -12980,12 +12452,9 @@ In any event, Rovelli was prompted to use thermodynamics to DEFINE time
 in quantum gravity as follows. Given a mixed state with density matrix
 \(D\), \emph{find} some operator \(H\) such that \(D\) is the Gibbs
 state \(\exp(-H/kT)\). In lots of cases this isn't hard; it basically
-amounts to
-
-\[H = -kT \ln D\]
-
-Of course, \(H\) will depend on \(T\), but this really is just saying
-that fixing your units of temperature fixes your units of time!
+amounts to \[H = -kT \ln D\] Of course, \(H\) will depend on \(T\), but
+this really is just saying that fixing your units of temperature fixes
+your units of time!
 
 Operator theorists have pondered this notion very carefully for a long
 time and generalized it into something called the Tomita-Takesaki
@@ -13519,14 +12988,11 @@ when we're done do we want to be able to compute expectation values of
 observables, which takes an inner product.
 
 In what follows I'll talk about the simplest situation, where we have
-the \emph{vacuum} Einstein equations
-
-\[G = 0\]
-
-where \(G\) is the ``Einstein tensor'' cooked up from the curvature of
-spacetime. Say spacetime is of the form \(\mathbb{R} \times S\), where
-\(\mathbb{R}\) is the real numbers (time) and \(S\) is a 3-dimensional
-manifold (space). We will think of \(S\) as the ``\(t = 0\) slice'' of
+the \emph{vacuum} Einstein equations \[G = 0\] where \(G\) is the
+``Einstein tensor'' cooked up from the curvature of spacetime. Say
+spacetime is of the form \(\mathbb{R} \times S\), where \(\mathbb{R}\)
+is the real numbers (time) and \(S\) is a 3-dimensional manifold
+(space). We will think of \(S\) as the ``\(t = 0\) slice'' of
 \(\mathbb{R} \times S\).
 
 \begin{enumerate}
@@ -13543,21 +13009,19 @@ manifold (space). We will think of \(S\) as the ``\(t = 0\) slice'' of
 \item
   The second stage is getting the space of ``diffeomorphism-invariant
   states''. In fact, Einstein's equations in coordinates look like
+  \[G_{\mu \nu} = 0\] where the indices \(\mu\), \(\nu\) range from 0 to
+  3. It's customary to work in coordinates \(x_{\mu}\) where \(x_0\) is
+  ``time'' and the other three coordinates are the ``space'' coordinates
+  on \(S\). Then classically, the equations \(G_{0 \mu} = 0\) serve as
+  \emph{constraints} on the initial data for Einstein's equations, while
+  the remaining equations describe time evolution. I.e., only for
+  certain choices of a metric and its first time derivative at \(t = 0\)
+  can we get a solution of Einstein's equations. In fact, \(G_{0 \mu}\)
+  can be calculated knowing only the metric and its first time
+  derivative at \(t = 0\), and the equations saying they are zero are
+  the constraints that this data must satisfy to get a solution of
+  Einstein's equations.
 \end{enumerate}
-
-\[G_{\mu \nu} = 0\]
-
-where the indices \(\mu\), \(\nu\) range from 0 to 3. It's customary to
-work in coordinates \(x_{\mu}\) where \(x_0\) is ``time'' and the other
-three coordinates are the ``space'' coordinates on \(S\). Then
-classically, the equations \(G_{0 \mu} = 0\) serve as \emph{constraints}
-on the initial data for Einstein's equations, while the remaining
-equations describe time evolution. I.e., only for certain choices of a
-metric and its first time derivative at \(t = 0\) can we get a solution
-of Einstein's equations. In fact, \(G_{0 \mu}\) can be calculated
-knowing only the metric and its first time derivative at \(t = 0\), and
-the equations saying they are zero are the constraints that this data
-must satisfy to get a solution of Einstein's equations.
 
 Following the usual recipes of quantum theory, we want to turn these
 constaints into \emph{operators} on the kinematical Hilbert space of
@@ -13781,18 +13245,16 @@ of edges and vertices --- where each edge is labelled by a spin that can
 be \(0\),\(1/2\),\(1\),\(3/2\), etc. In the simplest flavor of spin
 network, one only allows 3 edges to meet at each vertex, and requires
 \(j_3\) to be of the form
-
-\[j_3 = |j_1-j_2|, |j_1-j_2| + 1, \ldots, j_1+j_2-1, j_1+j_2.\]
-
-where \(j_1\), \(j_2\), \(j_3\) are the spins labelling the edges
-adjacent to the given vertex. For example, we can have the the three
-spins be \(1/2\),\(3\), and \(5/2\), because it's possible for a
-spin-\(\frac12\) particle and a spin-3 particle to interact and form a
-spin-\(5/2\) particle. Here by ``possible'' I simply mean that it
-doesn't violate conservation of angular momentum. Mathematicians would
-say the spins should be thought of as irreducible representations of
-\(SU(2)\), and the condition above is just the condition that the
-representation \(j_3\) appears as a summand in the tensor product of the
+\[j_3 = |j_1-j_2|, |j_1-j_2| + 1, \ldots, j_1+j_2-1, j_1+j_2.\] where
+\(j_1\), \(j_2\), \(j_3\) are the spins labelling the edges adjacent to
+the given vertex. For example, we can have the the three spins be
+\(1/2\),\(3\), and \(5/2\), because it's possible for a spin-\(\frac12\)
+particle and a spin-3 particle to interact and form a spin-\(5/2\)
+particle. Here by ``possible'' I simply mean that it doesn't violate
+conservation of angular momentum. Mathematicians would say the spins
+should be thought of as irreducible representations of \(SU(2)\), and
+the condition above is just the condition that the representation
+\(j_3\) appears as a summand in the tensor product of the
 representations \(j_1\) and \(j_2\).
 
 Just as we can compute a kind of ``Wilson loop'' number from a knot that
@@ -14012,11 +13474,8 @@ make the right-hand side of the formula below be self-dual in the
 indices \(a,b\).) Consider now two equations. The first is the Dirac
 equation for \(\psi\). The second is that the self-dual part \(F^+\) of
 the curvature of \(A\) be given in coordinates as
-
-\[F^+_{ab} = -\frac12 \langle\psi, e^a e^b \psi\rangle\]
-
-where the basis 1-forms \(e^a\), \(e^b\) act on \(\psi\) by Clifford
-multiplication.
+\[F^+_{ab} = -\frac12 \langle\psi, e^a e^b \psi\rangle\] where the basis
+1-forms \(e^a\), \(e^b\) act on \(\psi\) by Clifford multiplication.
 
 Next form the moduli space \(M\) of solutions \((A, \psi)\) modulo the
 action of the automorphisms of \(L\). The wonderful fact is that this
@@ -14179,18 +13638,14 @@ i.e.~a left-handed spinor field. There is a way to pair two sections of
 \(W+\) to get a section of \(\mathfrak{sl}(W+)\), which we write as
 \(\sigma(.,.)\) and which is conjugate-linear in the first argument and
 linear in the second. This is a global version of the similar pairing
-
 \[\sigma(.,.)\colon \mathbb{C}^2 \times \mathbb{C}^2 \to \mathfrak{sl}(2,\mathbb{C})\]
-
 where \(\sigma(v,w)\) given by taking the traceless part of the
 \(2\times2\) matrix \(v^* \otimes w\). Here \(v^*\) is the element of
 the dual of \(\mathbb{C}^2\) coming from \(v\) via the inner product on
 \(\mathbb{C}^2\).
 
 To get the magical moduli space, we consider solutions \((A,\psi)\) of
-
 \[\begin{aligned}D_A\psi &= 0 \\ F^+ &= i\sigma(\psi,\psi).\end{aligned}\]
-
 Here we are thinking of \(F^+\) as a section of \(\mathfrak{sl}(W+)\).
 These are pretty reasonable equations for some sort of massless
 left-handed spinor field coupled to a \(U(1)\) gauge field. Let \(M\) be
@@ -14199,9 +13654,7 @@ Mrowka show the ``moduli space'' \(M\) is compact.
 
 One can also perturb the equations above as follows. If we have any
 self-dual 2-form \(\delta\) on \(X\) we can consider
-
 \[\begin{aligned}D_A\psi &= 0 \\ F^+ +i\delta &= i\sigma(\psi,\psi).\end{aligned}\]
-
 and get a moduli space \(M(\delta)\). This will still be compact if
 \(\delta\) is nice (here I gloss over issues of analysis).
 
@@ -15040,24 +14493,20 @@ Chern-Simons theory one should be able to get ahold of the quantum
 theory by some ``quantization'' business just as one does in elementary
 quantum mechanics, where the ``classical phase space'' is the space of
 \(p\)'s and \(q\)'s, and to quantize one merely decrees that these no
-longer commute:
-
-\[pq-qp = -i \hbar.\]
-
-So one should be able to get ahold of quantum groups this way too:
-starting with the ``moduli space of flat bundles'' and ``quantizing''
-it. I had long why nobody did this in the way which seemed most tempting
-and plausible to me. To lapse into jargon for a bit here, since the
-quantum group is obtained from the group by deformation quantization,
-where the Poisson structure of the group itself is described by some
-``classical r-matrices'', and since Chern-Simons theory is in some sense
-obtained by quantizing the moduli space, where the Poisson structure was
-explicitly described by Goldman, it seemed natural to me that somehow
-the classical r-matrices should be \emph{derivable} from Goldman's
-formulas. But after a few wimpy tries at figuring it out, with not much
-success, I gave up. Luckily it turns out someone else succeeded nicely,
-as I found out in a talk by Alekseev here at the Mathematisches Institut
-of the Universitaet Muenchen:
+longer commute: \[pq-qp = -i \hbar.\] So one should be able to get ahold
+of quantum groups this way too: starting with the ``moduli space of flat
+bundles'' and ``quantizing'' it. I had long why nobody did this in the
+way which seemed most tempting and plausible to me. To lapse into jargon
+for a bit here, since the quantum group is obtained from the group by
+deformation quantization, where the Poisson structure of the group
+itself is described by some ``classical r-matrices'', and since
+Chern-Simons theory is in some sense obtained by quantizing the moduli
+space, where the Poisson structure was explicitly described by Goldman,
+it seemed natural to me that somehow the classical r-matrices should be
+\emph{derivable} from Goldman's formulas. But after a few wimpy tries at
+figuring it out, with not much success, I gave up. Luckily it turns out
+someone else succeeded nicely, as I found out in a talk by Alekseev here
+at the Mathematisches Institut of the Universitaet Muenchen:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -15174,16 +14623,11 @@ paths between points, etc. That's a pretty broad territory!
 little weird at first. But in fact they show up in a lot of places if
 you look for them. Perhaps the most obvious place is topology. If you
 think of a point in a space as an object, and a path between two points
-as a morphism:
-
-\[x\xrightarrow{\quad f\quad}g\]
-
-you are easily tempted to think of a ``path of paths'' as a 2-morphism.
-Here a ``path of paths'' is just a continuous 1-parameter family of
-paths from x to y, which you can think of as tracing out a 2-dimensional
-surface, as follows:
-
-\[
+as a morphism: \[x\xrightarrow{\quad f\quad}g\] you are easily tempted
+to think of a ``path of paths'' as a 2-morphism. Here a ``path of
+paths'' is just a continuous 1-parameter family of paths from x to y,
+which you can think of as tracing out a 2-dimensional surface, as
+follows: \[
   \begin{tikzcd}[sep=huge]
     x
       \rar[bend left=50,"f"{name=U}]
@@ -15191,10 +14635,8 @@ surface, as follows:
     & y
       \arrow[Rightarrow,shorten=5pt,from=U,to=D,"F"]
   \end{tikzcd}
-\]
-
-And one can keep on going and look at ``paths of paths of paths'', etc.
-In fact, people in homotopy theory do this all the time.
+\] And one can keep on going and look at ``paths of paths of paths'',
+etc. In fact, people in homotopy theory do this all the time.
 
 There is another example, equally primordial, which is a bit more
 ``inbred'' in flavor. In other words, if you already know and love
@@ -15563,24 +15005,17 @@ concept of symmetry gets deeper and deeper. This isn't surprising. When
 all we knew about was 0-categories --- that is, sets! --- our concept of
 symmetry revolved around the notion of a ``group''. This is a set \(G\)
 where you can multiply elements in an associative way, with an identity
-element 1 such that
-
-\[1g = g1 = g\]
-
-for all elements \(g\) of \(G\), and where every element \(g\) has an
-inverse \(g^{-1}\) with
-
-\[gg^{-1} = g{^-1}g = 1.\]
-
-For example, the group of rotations in \(n\)-dimensional Euclidean
-space. When we started understanding 1-categories --- that is,
-categories! --- the real idea behind groups and symmetry could be more
-clearly expressed. Sets have elements, and they are either equal or not
---- no two ways about it. Categories have ``objects'', and even though
-two objects aren't equal, they can still be ``isomorphic''. An object
-can be isomorphic to itself in lots of different ways: these are its
-symmetries, and the symmetries form a group. But this is really just the
-tip of a still mysterious iceberg.
+element 1 such that \[1g = g1 = g\] for all elements \(g\) of \(G\), and
+where every element \(g\) has an inverse \(g^{-1}\) with
+\[gg^{-1} = g{^-1}g = 1.\] For example, the group of rotations in
+\(n\)-dimensional Euclidean space. When we started understanding
+1-categories --- that is, categories! --- the real idea behind groups
+and symmetry could be more clearly expressed. Sets have elements, and
+they are either equal or not --- no two ways about it. Categories have
+``objects'', and even though two objects aren't equal, they can still be
+``isomorphic''. An object can be isomorphic to itself in lots of
+different ways: these are its symmetries, and the symmetries form a
+group. But this is really just the tip of a still mysterious iceberg.
 
 For example, in a 2-category, even though two objects aren't equal, or
 even isomorphic, they can be ``equivalent'', or maybe I should say

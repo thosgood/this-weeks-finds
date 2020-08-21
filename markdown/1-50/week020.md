@@ -129,14 +129,11 @@ article [Some Thoughts on the Number Six](http://math.ucr.edu/home/baez/six.html
 an icosahedron available, or at least a good mental image of one. It's
 easy to describe the vertices of the icosahedron mathematically in terms
 of the golden ratio,
-
 $$\frac{\sqrt{5} + 1}{2} = 1.61803398874989484820458683437\ldots$$
-
 This usually goes by the name of "$\varphi$", or sometimes "$\tau$", but for
 brevity I'll use "$G$" for this number. The magic properties of $G$ are
 too numerous to list here, but what counts is that one gets the 12
 vertices of a (regular) icosahedron by taking the points
-
 $$
   \begin{gathered}
     (\pm G, \pm1, 0),
@@ -144,7 +141,6 @@ $$
   \\(0, \pm G, \pm1).
   \end{gathered}
 $$
-
 This is easy to check.
 
 Now the *interesting* thing is that when one gets 12 spheres to touch a
@@ -156,18 +152,12 @@ First, though, let's check that there really *is* a little space
 between those outer spheres. First, compute the distance between
 neighboring vertices of the icosahedron by taking two and working it
 out:
-
 $$\|(G,1,0) -(G,-1,0)\| = 2$$
-
 Then, compute the distance from any of the vertices to the origin, which
 is the center of the central sphere:
-
 $$\|(G,1,0)\| = \sqrt{G^2 + 1}$$
-
 Using the charming fact that $G^2 = G + 1$ this simplifies to $\sqrt{G + 2}$, but then I guess we just need to grind it out:
-
 $$\sqrt{G + 2} =  1.902\ldots$$
-
 The point is that this is less than 2, so two neighboring spheres
 surrounding the central one are farther from each other than from the
 central one, i.e., they don't touch.
@@ -181,9 +171,7 @@ are there more interesting permutations one can get?
 
 Recall that the group of permutations of 12 things is called $S_{12}$, and
 it has
-
 $$12! = 479001600$$
-
 elements. The rotational symmetry group of the icosahedron is much
 smaller. One can count its elements as follows: pick a vertex and say
 which new vertex it gets rotated to --- there are 12 possibilities --- and
@@ -197,9 +185,7 @@ achieve by rolling spheres around.
 
 In fact, one can achieve all EVEN permutations of the 12 spheres this
 way! In other words, we get the group $A_{12}$, with
-
 $$\frac{12!}{2} = 239500800$$
-
 elements. How? Well, I wish I could draw an icosahedron for you, but I
 can't really do so well on this medium. The best way is to draw a top
 view:
@@ -262,9 +248,7 @@ conjugating $t(i)$ with elements of the Mathieu group we can get *any*
 Anyway, what this indicates is that there is an interesting relation
 between the icosahedron and a certain finite group, the Mathieu group
 $M_{12}$. This group has
-
 $$12!/7! = 95040$$
-
 elements and it is a "simple" group, in the technical sense. The
 simple groups are to finite groups roughly as the prime numbers are to
 the counting numbers; that is, they are the elementary building blocks
@@ -276,9 +260,7 @@ groups, like the alternating groups $A_n$ (consisting of even
 permutations) there are a finite number of "sporadic" simple groups
 such as the Mathieu groups, the Fischer groups, the Suzuki groups, and,
 biggest of all, the Monster group, which has
-
 $$\begin{gathered}246\cdot320\cdot59\cdot76\cdot112\cdot133\cdot17\cdot19\cdot23\cdot29\cdot31\cdot41\cdot47\cdot59\cdot71 \\= 808017424794512875886459904961710757005754368000000000\end{gathered}$$
-
 elements!
 
 Here's a fun story about this number.
@@ -335,14 +317,10 @@ cover. So we can find a corresponding double cover of $A_5$ as a subgroup
 of $SU(2)$; this has twice as many elements as $A_5$, for a total of 120.
 
 Now the group $SU(2)$ has a nice description as the group of *unit quaternions*, that is, things of the form
-
 $$a + bI + cJ + dK$$
-
 where $a,b,c,d$ are real numbers with $a^2 + b^2 + c^2 + d^2 = 1$, and
 $I$,$J$, and $K$ satisfy
-
 $$IJ = -JI = K, \quad JK = -KJ = I, \quad KI = -IK = J, \quad I^2 = J^2 = K^2 = -1$$
-
 (Physicists in the 20th century usually use the Pauli matrices instead,
 which are basically the same thing; for the relationship, read
 ["Week 5"](#week5).)
@@ -351,11 +329,8 @@ It's natural to ask what the double cover of $A_5$ looks like explicitly
 in terms of the unit quaternions. Conway and Sloane give a nice
 description. Let's write $(a,b,c,d)$ for $a + bI + cJ + dK$, write $G$ for
 the golden ratio as before, and $g$ for the inverse of the golden ratio:
-
 $$g = G^{-1} = G -1 = 0.61803398874989484820458683437\ldots$$
-
 Then the elements of the double cover of $A_5$ are of the form
-
 $$
   \begin{gathered}
     (\pm 1, 0, 0, 0),
@@ -363,7 +338,6 @@ $$
   \\(0, \pm1/2, \pm g/2, \pm G/2).
   \end{gathered}
 $$
-
 and everything else that can be gotten by *even* permutations of the
 coordinates. (Check that there are 120 and that they are closed under
 multiplication!)
@@ -372,29 +346,21 @@ Charming, but what does it have to do with $E_8$? Well, note that if we
 take all finite sums of elements of the double cover of $A_5$ we get a
 subring of the quaternions that Conway and Sloane calls the
 "icosians." Any icosian is of the form
-
 $$a + bI + cJ + dK$$
-
 where $a$,$b$,$c$, and $d$ live in the "golden field" $\mathbb{Q}(G)$ --- this is the field
 of numbers of the form
-
 $$x + \sqrt{5} y$$
-
 where $x$ and $y$ are rational. Thus we can think of an icosian as an
 8-tuple of rational numbers. We don't get all 8-tuples, however, but
 only those lying in a given lattice.
 
 In fact, we can put a norm on the icosians as follows. First of all,
 there is usual quaternionic norm
-
 $$\|a + bI + cJ + dK\|^2 = a^2 + b^2 + c^2 + d^2$$
-
 But for an icosian this is always of the form $x + \sqrt{5} y$ for some rational
 $x$ and $y$. It turns out we can define a new norm on the icosians by
 setting
-
 $$|a + bI + cJ + dK|^2 = x + y.$$
-
 With respect to this norm, the icosians form a lattice that fits
 isometrically in 8-dimensional Euclidean space and is the famous one
 called $E_8$! $E_8$ is known to yield the densest lattice packing of
@@ -483,9 +449,7 @@ central one.) So the subgroup of $S_{240}$ that one can get by rolling 240
 spheres around a central one is precisely the "obvious" subgroup, that
 is, the subgroup of $SO(8)$ that preserves the $E_8$ lattice. This turns
 out to be just the Weyl group of $E_8$, which has
-
 $$2^{14}\cdot 3^5\cdot 5^2\cdot 7 = 696729600$$
-
 elements.
 
 Dimension 24 is probably the most interesting for lattice theory, and
@@ -497,9 +461,7 @@ theory; to get it, start with the unique even unimodular lattice in
 26-dimensional Minkowski space, and then look at $M$, the set of vectors
 in the lattice perpendicular to the vector $w = (70,1,2,3,...,24)$. This
 is a null vector since
-
 $$1^2 + 2^2 + ... + 24^2 = 70^2,$$
-
 i.e., it is perpendicular to itself. Taking the quotient of $M$ by $w$
 itself, we get the Leech lattice. In this lattice each sphere touches
 196560 others, which is the most one can attain, and again this is the
@@ -509,9 +471,7 @@ answer to the rolling spheres permutation problem is the subgroup of
 $SO(24)$ that preserves the Leech lattice. The isomorphism group of the
 Leech lattice is an interesting group called $Co_0$ or $.0$ (pronounced
 "dotto"). It has
-
 $$2^{22}\cdot 3^9\cdot 5^4\cdot 7^2\cdot 11\cdot 13\cdot 23 = 8315553613086720000$$
-
 elements. The Monster group can also be produced using the Leech
 lattice.
 
@@ -528,9 +488,7 @@ radius $r=1.04557\ldots$ This is thought to be optimal but has not been
 proved optimal.
 
 This $r$ is an algebraic number and is a root of the polynomial
-
 $$4096 x^{16} -18432 x^{12} +24576 x^{10} -13952 x^8 +4096 x^6 -608x^4 +32 x^2 +1$$
-
 They computed $r$ but did not publish the polynomial.
 
 ------------------------------------------------------------------------

@@ -109,9 +109,7 @@ theory by some "quantization" business just as one does in elementary
 quantum mechanics, where the "classical phase space" is the space of
 $p$'s and $q$'s, and to quantize one merely decrees that these no longer
 commute:
-
 $$pq-qp = -i \hbar.$$
-
 So one should be able to get ahold of quantum groups this way too:
 starting with the "moduli space of flat bundles" and "quantizing"
 it. I had long why nobody did this in the way which seemed most tempting

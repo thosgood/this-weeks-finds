@@ -24,18 +24,12 @@ to number theory. For other approaches one might try
 
 Okay, where to start? Well, how about this: the sine function is an
 analytic function on the complex plane with the property that
-
 $$\sin(z + 2\pi) = \sin z.$$
-
 It also satisfies a nice differential equation
-
 $$(\sin' z)^2 = 1 -(\sin z)^2$$
-
 and for this reason, we could, if we hadn't noticed the sine function
 otherwise, have run into it when we tried to integrate
-
 $$\frac{(1 -u^2)^{-1}}{2}$$
-
 The differential equation above implies that the integral is nice to do
 by the substitution $u = \sin z$, and we get the answer $\arcsin u$. If the
 sine function --- or more generally, trig functions --- didn't exist yet,
@@ -47,15 +41,10 @@ Say we wanted, just for the heck of it, an analytic function that was
 periodic not just in one direction on the complex plane, like the sine
 function, but in *two* directions. For example, we might want some
 function $P(z)$ with
-
 $$P(z + 2\pi) = P(z)$$
-
 and also
-
 $$P(z + 2\pi i) = P(z).$$
-
 This function would look just the same on each $2\pi$-by-$2\pi$ square:
-
 $$
   \begin{tikzpicture}
     \draw[->] (-0.4,0) to (4,0) node [label=below:{$\Re(z)$}]{};
@@ -74,7 +63,6 @@ $$
     \draw[<->] (-0.2,0.1) to node[label=left:{$2\pi$}]{} (-0.2,0.9);
   \end{tikzpicture}
 $$
-
 so if we wanted, we could think of it as being a function on the torus
 formed by taking one of these squares and identifying its top side with
 its bottom side, and its left side with its right side.
@@ -84,12 +72,9 @@ doubly-periodic function --- we could ask for one that was periodic in any
 old two directions. That is, fixing two numbers $\omega_1$ and $\omega_2$ that
 aren't just real-valued multiples of each other, we could hope to find
 an analytic function on the complex plane with $\omega_1$ and $\omega_2$ as periods:
-
 $$\begin{aligned}P(z + \omega_1) &= P(z) \\ P(z + \omega_2) &= P(z).\end{aligned}$$
-
 Then $P(z)$ would be the same at all points on the "lattice" of points $n\omega_1 + m \omega_2$,
 which might look like the squares above or might be like
-
 $$
   \begin{tikzpicture}
     \draw[->] (-0.4,0) to (4,0) node [label=below:{$\Re(z)$}]{};
@@ -132,9 +117,7 @@ the wonderful properties we want --- but that's too boring!
 
 So let's allow it to have poles! But let's keep it as nice as
 possible, so let's have the only poles occur at the lattice points
-
 $$L = \{n \omega_1 + m \omega_2\}.$$
-
 And let's make the poles as nice as possible. Can we have each pole be
 of order one? That is, can we make $P(z)$ blow up like $1/(z -\omega)$ at each
 lattice point $\omega$ in $L$? No, because if it did, the integral of $P$ around a
@@ -146,9 +129,7 @@ that the residue of the pole vanishes, so it can't be of order one.
 Okay, try again. Let's try to make the pole at each lattice point be of
 order two. How can we cook up such a function? We might try something
 obvious: just sum up, for all $\omega$ in the lattice $L$, the functions
-
 $$\frac{1}{(z -\omega)^2}$$
-
 We get something periodic with poles like $1/(z -\omega)^2$ at each lattice
 point $\omega$. But there's a big problem --- the sum doesn't converge!
 (Another fun exercise.)
@@ -167,9 +148,7 @@ Note that it really depends on the two periods $\omega_1$ and $\omega_2$, not ju
 Now, it turns out that $P(z)$ really *is* a cool generalization of the
 sine function. Namely, it satisfies a differential equation like the one
 the sine does, but fancier:
-
 $$P'(z)^2 = 4 P(z)^3 --- g_2 P(z) --- g_3$$
-
 where $g_2$ and $g_3$ are some constants that depend on the periods $\omega_1$
 and $\omega_2$. Just as with the sine function we can use the *inverse* of
 Weierstrass $\mathfrak{P}$ function to do some integrals, but this time we can do
@@ -185,9 +164,7 @@ use the word loosely --- by $P(z)$ and its first derivative $P'(z)$. I.e., if
 we know $x = P(z)$ and $y = P'(z)$ we can figure out where the point $z$ is
 on the torus. But of course $x$ and $y$ can't be any old thing; the
 differential equation above says they have to satisfy
-
 $$y^2 = 4x^3 -g_2 x -g_3.$$
-
 Here $x$ and $y$ are complex numbers of course. But look what this means: it
 means that if we look at the pairs of complex numbers $(x,y)$ satisfying
 the above cubic equation, we get something that looks just like a torus!
@@ -201,9 +178,7 @@ have singularities, that is, places where there's no unique tangent
 line to the curve, as in $y^2 = x^3$ or $y^2 = x^2(x+1)$ --- draw these in
 the real plane and you'll see what I mean. Anyway, all elliptic curves
 can, by change of variables, be made to look like our favorite one,
-
 $$y^2 = 4x^3 -g_2 x -g_3.$$
-
 There are lots of more fancy ways of thinking about elliptic curves, and
 one is to think of the fact that they look like a torus as the key part.
 In a book on algebraic geometry you might see an elliptic curve as a
@@ -212,9 +187,7 @@ nice thing about a torus is that is a group. That is, we know how to add
 complex numbers, and we can add modulo elements of the lattice $L$, so the
 torus becomes a group with addition $\mod L$ as the group operation. This
 is simple enough, but it means that when we look at the solutions of
-
 $$y^2 = 4x^3 -g_2 x -g_3$$
-
 they must form a group somehow, and viewed this way it's not at all
 obvious! Nonetheless, there is a beautiful geometric description of the
 group operation in these terms --- I'll leave this for Knapp to explain..
@@ -224,15 +197,11 @@ Let me wrap this up --- the story goes on and on, but I'm getting tired ---
 do with Diophantine equations, where one wants integer, or rational
 solutions to a polynomial equation. Suppose that $g_2$ and $g_3$ are
 rational, and one has some solutions to the equation
-
 $$y^2 = 4x^3 --- g_2 x --- g_3.$$
-
 Then it turns out that one can use the group operation on the elliptic
 curve to get new solutions! Actually, it seems as if Diophantus knew
 this way back when in some special cases. For example, for the problem
-
 $$y(6 -y) = x^3 -x$$
-
 Diophantus could start with the trivial solution $(x,y) = (-1,0)$, do some
 mysterious stuff, and get the solution $(17/9,26/27)$. Knapp explains how
 this works in the Overview section, but then more deeply later.
@@ -243,7 +212,6 @@ In fact, one can solve mighty hard-seeming Diophantine problems using
 these ideas. Knapp talks a bit about a problem Fermat gave to Mersenne
 in 1643 --- this increased my respect for Fermat a bit. He asked, find a
 Pythagorean triple $(X,Y,Z)$, that is:
-
 $$X^2 + Y^2 = Z^2$$,
 
 such that $Z$ is a square number and $X + Y$ is too! One can solve this
@@ -259,9 +227,7 @@ Some more stuff:
 One conceptually pleasing approach to string theory is closed string
 field theory, where one takes as the basic object unparametrized maps
 from circle into a manifold $M$ representing "space", i.e., elements of
-
 $$\mathsf{Maps}(S^1,M)/\mathsf{Diff}^+(S^1).$$
-
 A state of closed string field theory would be roughly a function on the
 above set. Then one tries to define all sorts of operations on these
 states, in order to define write down ways the strings can interact. For
@@ -309,9 +275,6 @@ eventually be able to prove it. There are lots of nice pictures here,
 too, by the way.
 
 ##### Answer to puzzle:
-
 $$X = 1061652293520$$
-
 $$Y = 4565486027761$$
-
 $$Z = 4687298610289$$

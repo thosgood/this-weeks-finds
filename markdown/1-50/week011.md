@@ -31,24 +31,18 @@ Let me say a few words about these constraints and what I mean by
 First consider the wave equation in 2 dimensions. This is an equation
 for a function from $\mathbb{R}^2$ to $\mathbb{R}$, say $\varphi(t,x)$, where $t$ is a timelike and $x$
 is a spacelike coordinate. The equation is simply
-
 $$\frac{d^2\varphi}{dt^2} -\frac{d^2\varphi}{dx^2} = 0.$$
-
 Now this equation can be rewritten as an evolutionary equation for
 initial data as follows. We consider pairs of functions $(Q,P)$ on $\mathbb{R}$ --- which we think of $\varphi$ and $d\varphi/dt$ on "space", that is, on a surface $t = \text{constant}$.
 And we rewrite the second-order equation above as a
 first-order equation:
-
 $$\frac{d}{dt}(Q,P) = \left(P,\frac{d^2Q}{dx^2}\right).\tag{1}$$
-
 This is a standard trick. We call the space of pairs $(Q,P)$ the "phase
 space" of the theory. In canonical quantization, we treat this a lot
 like the space $\mathbb{R}^2$ of pairs $(q,p)$ describing the initial position and
 momentum of a particle. Note that for a harmonic oscillator we have an
 equation a whole lot like (1):
-
 $$\frac{d}{dt}(q,p) = (p,-q).$$
-
 This is why when we quantize the wave equation it's a whole lot like
 the harmonic oscillator.
 
@@ -68,23 +62,19 @@ point how much we push it in some tangential direction. These are
 utterly arbitrary and give us complete flexibility in how we want to
 push the hypersurface forwards. Even if spacetime was flat, we could
 push the hypersurface forwards in a dull way like:
-
 $$
   \begin{tikzpicture}
     \draw[thick] (0,0) to (3,0) node[label=right:{new}]{};
     \draw[thick] (0,-0.5) to (3,-0.5) node[label=right:{old}]{};
   \end{tikzpicture}
 $$
-
 or in a screwy way like
-
 $$
   \begin{tikzpicture}
     \draw[thick] plot [smooth] coordinates {(0,0) (0.7,1) (1.5,0) (2.5,0.5) (2.8,0) (3,0)} node[label=right:{new}]{};
     \draw[thick] (0,-0.5) to (3,-0.5) node[label=right:{old}]{};
   \end{tikzpicture}
 $$
-
 Of course, in general relativity spacetime is usually not flat, which
 makes it ultimately impossible to decide what counts as a "dull way"
 and what counts as a "screwy way," which is why we simply allow all
@@ -94,9 +84,7 @@ Anyway, having *chosen* a lapse function and shift vector field, we can
 rewrite Einstein's equations as an evolutionary equation. This is a bit
 of a mess, and it's called the ADM (Arnowitt-Deser-Misner) formalism.
 Schematically, it goes like
-
 $$\frac{d}{dt}(Q,P) = (\text{stuff},\text{stuff}').\tag{2}$$
-
 where both "stuff" and "stuff'" depend on both $Q$ and $P$ in a pretty
 complex way.
 
@@ -111,15 +99,11 @@ shift vector field.
 
 For those of you who know Hamiltonian mechanics, the reason why the
 Hamiltonian constraint is called what it is is that we can write it as
-
 $$H(Q,P) = 0$$
-
 for some combination of $Q$ and $P$, and this $H(Q,P)$ acts a lot like a
 Hamiltonian for general relativity in that we can rewrite (2) using the
 Poisson brackets on the "phase space" of all $(Q,P)$ pairs as
-
 $$\begin{aligned}\frac{d}{dt}Q &= \{P,H(Q,P)\} \\ \frac{d}{dt}P &= \{Q,H(Q,P)\}.\end{aligned}$$
-
 The funny thing is that $H$ is not zero on the space of all $(Q,P)$ pairs,
 so the equations above are nontrivial, but it does vanish on the
 submanifold of pairs satisfying the constraints, so that, in a sense,

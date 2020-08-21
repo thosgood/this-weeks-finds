@@ -159,9 +159,7 @@ be quite significant!) This gives rise to a special element in the 2nd
 cohomology of $LG$. This then gives a line bundle over $LG$. Alternatively,
 it gives a circle bundle over $LG$, in fact a central extension of $LG$,
 that is, a bigger group $\widehat{LG}$ and an exact sequence
-
 $$1 \to S^1 \to \widehat{LG} \to LG \to 1$$
-
 This group is called a Kac-Moody group, and these are well-loved by
 string theorists since it turns out that when one wants to quantize a
 gauge theory on the string worldsheet (a kind of conformal field theory)
@@ -219,9 +217,7 @@ that correspond to elements of $H^3(M,\mathbb{Z})$. The reason is roughly this:
 the structure group $G$ for such bundles is the group $Aut(H)/\mathbb{C}^*$, that is,
 invertible operators on the Hilbert space $H$, modulo invertible complex
 numbers. In other words, we have an exact sequence
-
 $$1 \to \mathbb{C}^* \to Aut(H) \to G \to 1$$
-
 This gives an exact sequence of sheaves on $M$, which, combined with the
 marvelous fact that $Aut(H)$ is contractible, gives an isomorphism between
 $H^1(M,\mathrm{sh}(G))$ (the cohomology of the sheaf of smooth G-valued functions
@@ -240,9 +236,7 @@ Here the best way to see the analogy to the line bundle case is through
 Cech cohomology. Recall that we can patch a line bundle together by
 covering our manifold $M$ with charts $O(i)$ and assigning to each
 intersection $O(i) \cap O(j)$ a $\mathbb{C}^*$-valued function $g(ij)$. These "transition functions" must satisfy the compatibility condition
-
 $$g(ij) g(jk) g(ki) = 1$$
-
 We say then that the functions $g(ij)$ define a 1-cocycle in Cech
 cohomology --- think of this as just jargon, if you like. Note that we
 will get an isomorphic line bundle if we take some $\mathbb{C}^*$-valued functions

@@ -15,9 +15,7 @@ be efficient at computation if we think in terms of path integrals. In
 Feynman's path-integral approach to quantum theory, the probability of
 getting from state $A$ at time zero to state $B$ some later time is obtained
 by integrating the exponential of the action
-
 $$exp(iS/\hbar)$$
-
 over *all* paths from $A$ to $B$, and then taking the absolute value
 squared. (Here we are thinking of states $A$ and $B$ that correspond to
 points in the classical configuration space.) We can think of the

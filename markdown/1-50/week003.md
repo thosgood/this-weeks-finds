@@ -98,7 +98,6 @@ $e^\hbar$ and expands a power series in $\hbar$, the coefficient of $\hbar^n$ is
 invariant of oriented knots, one can extend it to knot with arbitrarily
 many nice crossings by setting the value of the invariant on a knot with
 a crossing like
-
 $$
   \begin{tikzpicture}
     \begin{knot}[clip width=0]
@@ -109,9 +108,7 @@ $$
     \end{knot}
   \end{tikzpicture}
 $$
-
 to be the invariant of the knot with the crossing changed to
-
 $$
   \begin{tikzpicture}
     \begin{knot}[clip width=7]
@@ -123,9 +120,7 @@ $$
     \end{knot}
   \end{tikzpicture}
 $$
-
 minus the invariant of the knot with the crossing changed to
-
 $$
   \begin{tikzpicture}
     \begin{knot}[clip width=7]
@@ -136,7 +131,6 @@ $$
     \end{knot}
   \end{tikzpicture}
 $$
-
 (Again, the knot has to be oriented for this rule to make sense, and the
 strands shown in the pictures above should be pointing downwards.)
 Having made this extension, one says a knot invariant is a Vassiliev
@@ -209,7 +203,6 @@ with univalent and "oriented" trivalent vertices, modulo some
 relations... first of all, a trivalent vertex is "oriented" if there
 is a cyclic ordering of the three incident edges. That is, we "orient"
 the vertex
-
 $$
   \begin{tikzpicture}
     \draw[thick] (50:1.5) to (0:0);
@@ -220,7 +213,6 @@ $$
     \node[scale=2,rotate=150] at (0,0) {$\circlearrowleft$};
   \end{tikzpicture}
 $$
-
 by drawing a little clockwise or counterclockwise-pointing circle at the
 vertex. (Or, for those of an algebraic bent, label the edges by $1$,$2$,$3$
 but then mod out by cyclic permutations.) The relations are:
@@ -282,7 +274,6 @@ that each edge is labelled with a $1$ or $-1$. The relations are:
 Now, define a linear map from $B$ to $B_m$ by mapping any graph to the
 signed sum of the $2^\text{number of edges}$ ways of labelling the edges with
 $1$ or $-1$. Symbolically,
-
 $$
   \begin{tikzpicture}
     \draw[thick] (-1,0) to (1,0);
@@ -298,7 +289,6 @@ $$
     \node at (0,0.3) {$-1$};
   \end{tikzpicture}
 $$
-
 Of course, one must work a bit to show this map is well-defined. (This
 just takes a paragraph --- see Proposition 6.5 of Dror's paper.)
 

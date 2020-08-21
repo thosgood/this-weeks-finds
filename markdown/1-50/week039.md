@@ -60,9 +60,7 @@ envelope" of $A$ or the "universal differential graded algebra" over $A$
 consider "chains" which are linear maps $F$ from this gadget to the
 complex numbers (or whatever field you're working in) satisfying the
 cyclic property
-
 $$F(uv) = (-1)^{ij} F(vu)$$
-
 where $u$ is something that looks like $f_0 df_1 df_2 \ldots df_i$, and $v$ is
 something like $g_0 dg_1 dg_2 \ldots dg_j$. There are charming things one
 can do with chains that wind up letting one do most of what one could do

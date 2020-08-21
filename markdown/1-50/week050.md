@@ -31,14 +31,10 @@ deeper. This isn't surprising. When all we knew about was 0-categories
 --- that is, sets! --- our concept of symmetry revolved around the notion of
 a "group". This is a set $G$ where you can multiply elements in an
 associative way, with an identity element 1 such that
-
 $$1g = g1 = g$$
-
 for all elements $g$ of $G$, and where every element $g$ has an inverse $g^{-1}$
 with
-
 $$gg^{-1} = g{^-1}g = 1.$$
-
 For example, the group of rotations in $n$-dimensional Euclidean space.
 When we started understanding 1-categories --- that is, categories! --- the
 real idea behind groups and symmetry could be more clearly expressed.

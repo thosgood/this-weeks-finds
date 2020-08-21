@@ -41,7 +41,6 @@ the same knotted surface. These papers contain a lot of fascinating
 pictures! And there does seem to be more than a minor relation to string
 theory. For example, one of the movie moves is very analogous to the 3rd
 Reidemeister move --- which goes
-
 $$
   \begin{tikzpicture}
     \begin{knot}[clip width=7]
@@ -77,7 +76,6 @@ $$
     \end{knot}
   \end{tikzpicture}
 $$
-
 I won't try to draw the corresponding movie move, but just as the 3rd
 Reidemeister move is the basis for the Yang-Baxter equation
 $R_{23}R_{13}R_{12} = R_{12}R_{13}R_{23}$ (the subscripts indicate

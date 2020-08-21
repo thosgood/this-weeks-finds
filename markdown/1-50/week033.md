@@ -108,14 +108,10 @@ various things one might mean. The simplest is that if we start the
 combined system in some tensor product state $u(i) \otimes v$, where $v$ is the
 "waiting and ready" state of the apparatus and $u(i)$ is a state of the
 observed system that's an eigenvector of $A$:
-
 $$Au(i) = a(i)u(i),$$
-
 then the unitary operator $U$ corresponding to time evolution does the
 following:
-
 $$U(u(i) \otimes v) = u(i) \otimes v(i)$$
-
 where the state $v(i)$ of the apparatus is one in which it can be said to
 have measured the observable $A$ to have value $a(i)$. E.g., the apparatus
 might have a dial on it, and in the state $v(i)$ the dial reads "$a(i)$".
@@ -130,27 +126,17 @@ case.
 
 Okay, we have to show that we can only "measure $A$" in this sense if $A$
 commutes with $B$. We are assuming that $B + C$ is conserved, i.e.,
-
 $$U^*(B + C)U = B + C.$$
-
 First note that
-
 $$\langle u(i), [A,B] u(j)\rangle = (a(i)-a(j)) \langle u(i), Bu(j)\rangle.$$
-
 On the other hand, since $A$ and $B$ only act on the Hilbert space for the
 particle, we also have
-
 $$\begin{aligned}\langle u(i),[A,B]u(j) \rangle &= \langle u(i)\otimes v,[A,B]u(j) \rangle \\ &= \langle u(i)\otimes v,[A,B+C]u(j) \rangle \\ &= (a(i)-a(j))\langle u(i)\otimes v,(B+C)u(j)\otimes v \rangle\end{aligned}$$
-
 It follows that if $a(i)-a(j)$ isn't zero,
-
 $$\begin{aligned}\langle u(i),Bu(j) \rangle &= \langle u(i)\otimes v,(B+C)u(j)\otimes v \rangle \\ &= \langle u(i)\otimes v, U^*(B+C)Uu(j)\otimes v \rangle \\ &= \langle u(i)\otimes v(i),(B+C)u(j)\otimes v(j) \rangle \\ &= \langle u(i),Bu(j) \rangle\langle v(i),v(j) \rangle + \langle u(i),u(j) \rangle\langle v(i),Cv(j) \rangle\end{aligned}$$
-
 but the second term vanishes since $u(i)$ are a basis of eigenvectors and
 $u(i)$ and $u(j)$ correspond to different eigenvalues, so
-
 $$\langle u(i), Bu(j)\rangle = \langle u(i), Bu(j)\rangle \langle v(i), v(j)\rangle$$
-
 which means that either $\langle v(i), v(j)\rangle = 1$, hence $v(i) = v(j)$ (since
 they are unit vectors), so that no measurement has really been done, OR
 that $\langle u(i), B u(j)\rangle = 0$, which means (if true for all $i,j$) that $A$

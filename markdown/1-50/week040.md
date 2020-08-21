@@ -64,9 +64,7 @@ won't worry about the "$!$" here.) One key idea, which finally
 penetrated my thick skull, is that there is a good reason why "tensor"
 does not satisfy the following deduction rule so characteristic of
 "and":
-
 $$\AxiomC{$S\vdash p$}\AxiomC{$S\vdash q$}\BinaryInfC{$S\vdash p\&q$}\DisplayProof$$
-
 meaning: if from the set of premisses $S$ we can deduce $p$, and from $S$ we
 can also deduce $q$, then from $S$ we can deduce $p\&q$. The point is that in
 linear logic one should not think of $S$ as a *set* of premisses, but
@@ -76,24 +74,18 @@ we \*use it up\*, and we can only use it again if $S$ has several copies
 of that premiss in it. As they say, linear logic is
 "resource-sensitive" (which is apparently why computer scientists like
 it). So the idea is that in linear logic,
-
 $$S\vdash p\&q$$
-
 means something like "from the premisses $S$ one can deduce $p$ if one
 feels like it, or alternatively one can deduce $q$ if one feels like it,
 but not necessarily both "at once", since there may not be enough
 copies of the premisses to do that." On the other hand,
-
 $$S\vdash p\otimes q$$
-
 is stronger, since it means something like "from the premisses $S$ one
 can deduce both $p$ and $q$ at once, since there are enough copies of all
 the premisses in $S$ to do it." Thus "$\&$" satisfies the above deduction
 rule in linear logic just as in classical logic, but "tensor" does
 not; instead, it satisfies
-
 $$\AxiomC{$S\vdash p$}\AxiomC{$T\vdash q$}\BinaryInfC{$S\cup T\vdash p\otimes q$}\DisplayProof$$
-
 where $S \cup T$ denotes the union of the multisets $S$ and $T$ (so that if both
 $S$ and $T$ have one copy of a premiss, $S \cup T$ has two copies of it).
 

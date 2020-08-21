@@ -110,30 +110,20 @@ pretend things are equal, they are really just *isomorphic*, and we
 should openly admit this when it occurs. So, for example, in a "weak"
 2-category one doesn't have associativity of 1-morphisms. Instead, one
 has "associators", which are 2-morphisms like this:
-
 $$a_{f,g,h}: (f \circ g) \circ h \to f \circ (g \circ h)$$
-
 In other words, the associator is the *process of rebracketing* made
 concrete. Now, when one replaces equations between 1-morphisms by
 isomorphisms, one needs these isomorphisms to satisfy "coherence
 relations" if we're going to expect to be able to manipulate them more
 or less as if they *were* equations. For example, in the case of the
 associators above, one can use associators to go from
-
 $$f \circ (g \circ (h \circ k))$$
-
 to
-
 $$((f \circ g) \circ h) \circ k$$
-
 in two different ways: either
-
 $$f \circ (g \circ (h \circ k)) \to (f \circ g) \circ (h \circ k) \to ((f \circ g) \circ h) \circ k$$
-
 or
-
 $$f \circ (g \circ (h \circ k)) \to f \circ ((g \circ h) \circ k) \to (f \circ (g \circ h)) \circ k \to ((f \circ g) \circ h) \circ k$$
-
 Actually there are other ways, but in an important sense these are the
 basic two. In a "weak" 2-category one requires that these two ways are
 equal... i.e., this is an identity that the associator must satisfy,

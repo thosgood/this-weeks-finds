@@ -110,16 +110,12 @@ left-handed spinor field. There is a way to pair two sections of $W+$ to
 get a section of $\mathfrak{sl}(W+)$, which we write as $\sigma(.,.)$ and which is
 conjugate-linear in the first argument and linear in the second. This is
 a global version of the similar pairing
-
 $$\sigma(.,.)\colon \mathbb{C}^2 \times \mathbb{C}^2 \to \mathfrak{sl}(2,\mathbb{C})$$
-
 where $\sigma(v,w)$ given by taking the traceless part of the $2\times2$ matrix $v^* \otimes w$. Here $v^*$ is the element of the dual of $\mathbb{C}^2$ coming from $v$ via
 the inner product on $\mathbb{C}^2$.
 
 To get the magical moduli space, we consider solutions $(A,\psi)$ of
-
 $$\begin{aligned}D_A\psi &= 0 \\ F^+ &= i\sigma(\psi,\psi).\end{aligned}$$
-
 Here we are thinking of $F^+$ as a section of $\mathfrak{sl}(W+)$. These are pretty
 reasonable equations for some sort of massless left-handed spinor field
 coupled to a $U(1)$ gauge field. Let $M$ be the space of solutions modulo
@@ -128,9 +124,7 @@ is compact.
 
 One can also perturb the equations above as follows. If we have any
 self-dual 2-form $\delta$ on $X$ we can consider
-
 $$\begin{aligned}D_A\psi &= 0 \\ F^+ +i\delta &= i\sigma(\psi,\psi).\end{aligned}$$
-
 and get a moduli space $M(\delta)$. This will still be compact if $\delta$ is nice
 (here I gloss over issues of analysis).
 
