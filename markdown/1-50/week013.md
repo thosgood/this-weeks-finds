@@ -56,6 +56,25 @@ $$P(z + 2\pi i) = P(z).$$
 
 This function would look just the same on each $2\pi$-by-$2\pi$ square:
 
+$$
+  \begin{tikzpicture}
+    \draw[->] (-0.4,0) to (4,0) node [label=below:{$\Re(z)$}]{};
+    \draw[->] (0,-0.4) to (0,4) node[label=left:{$\Im(z)$}]{};
+    \foreach \x in {1,2,3} {
+      \draw[thick,dotted] (\x,-0.4) to (\x,-0.1);
+      \draw[thick] (\x,-0.1) to (\x,3.5);
+      \draw[thick,dotted] (\x,3.5) to (\x,4);
+    }
+    \foreach \y in {1,2,3} {
+      \draw[thick,dotted] (-0.4,\y) to (-0.1,\y);
+      \draw[thick] (-0.1,\y) to (3.5,\y);
+      \draw[thick,dotted] (3.5,\y) to (4,\y);
+    }
+    \draw[<->] (0.1,-0.2) to node[label=below:{$2\pi$}]{} (0.9,-0.2);
+    \draw[<->] (-0.2,0.1) to node[label=left:{$2\pi$}]{} (-0.2,0.9);
+  \end{tikzpicture}
+$$
+
                     x       x       x       x       x
 
 

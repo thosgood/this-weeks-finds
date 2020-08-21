@@ -1992,15 +1992,14 @@ the second equation of (2) is negative, there won't be enough ``energy''
 for \(r\) to go to infinity, that is, there'll be a big bang and then a
 big crunch. Here's \(r\) as a function of \(t\), roughly:
 
-\begin{verbatim}
-           |                .     .
-           |        .                     .
-        r  |    .                            .            Figure 1
-           |  .                                .
-           | .                                  .
-           |------------------------------------
-                          t
-\end{verbatim}
+\[
+  \begin{tikzpicture}
+    \draw[->] (0,0) to (5,0) node[label=below left:{$t$}]{};
+    \draw[->] (0,0) to (0,2.5) node[label=below left:{$r$}]{};
+    \draw[thick] plot [smooth,tension=1] coordinates {(0,0) (2,1.5) (4,0)};
+  \end{tikzpicture}
+  \text{Figure 1}
+\]
 
 What goes up, must come down! This curve, which I haven't drawn too
 well, is just a cycloid, which is the curve traced out by a point on the
@@ -2009,7 +2008,7 @@ call this picture ONE TURN OF THE GREAT WHEEL OF TIME\ldots. But there
 is \emph{no} reason to expect further turns, because the differential
 equation simply becomes singular when \(r = 0\). We may either say it
 doesn't make sense to speak of ``before the big bang'' or ``after the
-big crunch'' - or we can look for improved laws that avoid these
+big crunch'' --- or we can look for improved laws that avoid these
 singularities. (I should repeat that we are dealing with unrealistic
 models here, since for example there is no evidence that there is enough
 matter around to ``close the universe'' and make this solution
@@ -2152,16 +2151,14 @@ that \(r\geqslant0\). In other word, we're working with a problem that's
 like a harmonic oscillator and a ``wall'' that keeps \(r\geqslant0\).
 Think of a particle in a potential like this:
 
-\begin{verbatim}
-           |
-           |           .   
-           |                           
-     V(r)  |                                              Figure 2 
-           |         .                                
-           |        .                                 
-           |.-----.-------------
-               .         r 
-\end{verbatim}
+\[
+  \begin{tikzpicture}
+    \draw[->] (0,0) to (5,0) node [label=below left:{$r$}]{};
+    \draw[->] (0,-0.7) to (0,2.5) node[label=below left:{$V(r)$}]{};
+    \draw[thick] plot [smooth,tension=1] coordinates {(0,0) (1.8,-0.5) (4,2.5)};
+  \end{tikzpicture}
+  \text{Figure 2}
+\]
 
 Here \(V(r) = -(8\pi D/3)r + r^2\). The minimum of \(V\) is at
 \(r = 4 \pi D/3\) and the zeroes are at \(r = 0\) and \(8 \pi D/3\).
@@ -2321,8 +2318,8 @@ discussed in
 \setcounter{enumi}{5}
 \tightlist
 \item
-  P. Hajicek, ``Comment on''Time in quantum gravity --- an hypothesis"",
-  \emph{Phys. Rev.} \textbf{D44} (1991), 1337--1338.
+  P. Hajicek, `Comment on ``Time in quantum gravity --- an
+  hypothesis''\,', \emph{Phys. Rev.} \textbf{D44} (1991), 1337--1338.
 \end{enumerate}
 
 (But I haven't actually read this, just Isham's description.) Also, the
@@ -4018,6 +4015,25 @@ and also
 
 This function would look just the same on each \(2\pi\)-by-\(2\pi\)
 square:
+
+\[
+  \begin{tikzpicture}
+    \draw[->] (-0.4,0) to (4,0) node [label=below:{$\Re(z)$}]{};
+    \draw[->] (0,-0.4) to (0,4) node[label=left:{$\Im(z)$}]{};
+    \foreach \x in {1,2,3} {
+      \draw[thick,dotted] (\x,-0.4) to (\x,-0.1);
+      \draw[thick] (\x,-0.1) to (\x,3.5);
+      \draw[thick,dotted] (\x,3.5) to (\x,4);
+    }
+    \foreach \y in {1,2,3} {
+      \draw[thick,dotted] (-0.4,\y) to (-0.1,\y);
+      \draw[thick] (-0.1,\y) to (3.5,\y);
+      \draw[thick,dotted] (3.5,\y) to (4,\y);
+    }
+    \draw[<->] (0.1,-0.2) to node[label=below:{$2\pi$}]{} (0.9,-0.2);
+    \draw[<->] (-0.2,0.1) to node[label=left:{$2\pi$}]{} (-0.2,0.9);
+  \end{tikzpicture}
+\]
 
 \begin{verbatim}
                 x       x       x       x       x

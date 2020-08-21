@@ -120,13 +120,14 @@ the second equation of (2) is negative, there won't be enough
 "energy" for $r$ to go to infinity, that is, there'll be a big bang and
 then a big crunch. Here's $r$ as a function of $t$, roughly:
 
-               |                .     .
-               |        .                     .
-            r  |    .                            .            Figure 1
-               |  .                                .
-               | .                                  .
-               |------------------------------------
-                              t
+$$
+  \begin{tikzpicture}
+    \draw[->] (0,0) to (5,0) node[label=below left:{$t$}]{};
+    \draw[->] (0,0) to (0,2.5) node[label=below left:{$r$}]{};
+    \draw[thick] plot [smooth,tension=1] coordinates {(0,0) (2,1.5) (4,0)};
+  \end{tikzpicture}
+  \text{Figure 1}
+$$
 
 What goes up, must come down! This curve, which I haven't drawn too
 well, is just a cycloid, which is the curve traced out by a point on the
@@ -134,7 +135,7 @@ rim of rolling wheel. So, succumbing to romanticism momentarily we could
 call this picture ONE TURN OF THE GREAT WHEEL OF TIME.... But there is
 *no* reason to expect further turns, because the differential equation
 simply becomes singular when $r = 0$. We may either say it doesn't make
-sense to speak of "before the big bang" or "after the big crunch" -
+sense to speak of "before the big bang" or "after the big crunch" ---
 or we can look for improved laws that avoid these singularities. (I
 should repeat that we are dealing with unrealistic models here, since
 for example there is no evidence that there is enough matter around to
@@ -274,14 +275,14 @@ that $r\geqslant0$. In other word, we're working with a problem that's like a
 harmonic oscillator and a "wall" that keeps $r\geqslant0$. Think of a
 particle in a potential like this:
 
-               |
-               |           .   
-               |                           
-         V(r)  |                                              Figure 2 
-               |         .                                
-               |        .                                 
-               |.-----.-------------
-                   .         r 
+$$
+  \begin{tikzpicture}
+    \draw[->] (0,0) to (5,0) node [label=below left:{$r$}]{};
+    \draw[->] (0,-0.7) to (0,2.5) node[label=below left:{$V(r)$}]{};
+    \draw[thick] plot [smooth,tension=1] coordinates {(0,0) (1.8,-0.5) (4,2.5)};
+  \end{tikzpicture}
+  \text{Figure 2}
+$$
 
 Here $V(r) = -(8\pi D/3)r + r^2$. The minimum of $V$ is at $r = 4 \pi D/3$ and
 the zeroes are at $r = 0$ and $8 \pi D/3$. Classically, a particle with zero
@@ -404,7 +405,7 @@ actually be taken as a free massless scalar field, but in so doing there
 is the likelihood of serious technical problems. Some of these are
 discussed in
 
-6) P. Hajicek, "Comment on "Time in quantum gravity --- an hypothesis"",
+6) P. Hajicek, 'Comment on "Time in quantum gravity --- an hypothesis"',
 _Phys. Rev._ **D44** (1991), 1337--1338.
 
 (But I haven't actually read this, just Isham's description.) Also,
