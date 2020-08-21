@@ -28,7 +28,7 @@ I discussed this paper a wee bit in ["Week 38"](#week38). Now you
 can actually see the pictures. As we begin to understand $n$-categories
 (see ["Week 49"](#week49)) our concept of symmetry gets deeper and
 deeper. This isn't surprising. When all we knew about was 0-categories
-- that is, sets! --- our concept of symmetry revolved around the notion of
+--- that is, sets! --- our concept of symmetry revolved around the notion of
 a "group". This is a set $G$ where you can multiply elements in an
 associative way, with an identity element 1 such that
 
@@ -71,7 +71,7 @@ And now, to wax technical for a bit (skip this paragraph if the last one
 made you dizzy), it's beginning to seem that the symmetry groups
 physicists know and love have glorious reincarnations, or avatars if one
 prefers, at these higher $n$-categorical levels. Take your favorite group
-- mine is $SU(2)$, which describes 3d rotational symmetry hence angular
+--- mine is $SU(2)$, which describes 3d rotational symmetry hence angular
 momentum in quantum mechanics. It's category of representations isn't
 just any old category, its a symmetric monoidal category! See the chart
 in ["Week 49"](#week49) if you forget what this is. Now, there are

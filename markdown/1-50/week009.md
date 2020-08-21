@@ -119,7 +119,7 @@ pretending that our blackboard is a picture of $S^3$!
 As we add handles we continue to "draw" what's happening at the
 boundary of the 4-manifold we have at each stage of the game. 1-handles
 are attached by gluing a $D^3 \times D^1$ onto the boundary along two $D^3$'s
-- or balls --- so we can just draw the two balls.
+--- or balls --- so we can just draw the two balls.
 
 2-handles are attached by gluing a $D^2 \times D^2$ onto the boundary of the
 4-manifold we have so far along a $D^2 \times S^1$ --- or solid torus, so we

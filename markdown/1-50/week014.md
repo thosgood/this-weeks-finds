@@ -70,7 +70,7 @@ $$H\psi = 0.$$
 
 Note how this cleverly avoids mentioning "$t$"! The problem is, people
 still aren't quite sure what to do with the solutions to this equation
-- we're so used to working with Schrodinger's equation.
+--- we're so used to working with Schrodinger's equation.
 
 Now in 1988 Witten wrote a paper in which he coined the term
 "topological quantum field theory," or TQFT, for short. This was meant
@@ -190,7 +190,7 @@ gravity, here one must sum over ways of dividing spacetime into
 simplices, so the formula for the inner product involves a sum that does
 not obviously converge. This is however sort of what one might expect,
 since in 4d quantum gravity, unlike 3d, there are "local excitations"
-- local wigglings of the metric, if you will --- and this makes the
+--- local wigglings of the metric, if you will --- and this makes the
 Hilbert space be infinite-dimensional, whereas the 3d TQFTs have
 finite-dimensional Hilbert spaces.
 

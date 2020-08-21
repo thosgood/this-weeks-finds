@@ -62,7 +62,7 @@ Tietze moves in all possible ways to transform one presentation into the
 other. If they are the same it'll eventually catch on! But if they're
 not it'll chug on forever. There's no algorithmic way to tell *when*
 it should give up and admit the two presentations give different groups!
-- which is why we say there is no "decision procedure" for this
+--- which is why we say there is no "decision procedure" for this
 problem.
 
 In one form, the Andrews-Curtis conjecture goes as follows. Remember

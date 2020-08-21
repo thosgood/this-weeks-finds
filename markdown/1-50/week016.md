@@ -77,7 +77,7 @@ like this
                  \  /          
                   \/     
 
-- with opposite edges of the parallelogram identified --- we would
+--- with opposite edges of the parallelogram identified --- we would
 dissasemble $M$ and label the edges like this, say:
 
                   /\

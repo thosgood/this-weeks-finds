@@ -162,7 +162,7 @@ representation of a simple Lie algebra. In fact, Dror conjectures that
 every Vassiliev invariant comes from a representation of a classical
 simple Lie algebra. Now there is another conjecture floating around
 these days, namely that Vassiliev invariants almost form a complete set
-- that is, that if two knots cannot be distinguished by any Vassiliev
+--- that is, that if two knots cannot be distinguished by any Vassiliev
 invariants, they must either be the same or differ simply by reversing
 the orientation of all the strands. If BOTH these conjectures are true,
 one has in some sense practically reduced the theory of knots to the
