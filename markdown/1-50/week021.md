@@ -60,17 +60,16 @@ the sphere (by which, of course, mathematicians mean the *surface* of a
 ball, not the ball itself). The next is the torus, that is, the surface
 of the doughnut. One can also think of the torus as what you get by
 taking a square and gluing together the edges as below:
-
-         ----->>----
-        |           |n
-        |           |  
-        v           v
-        |           |
-        |           |
-         ----->>----
-
-gluing the two horizontal edges together so the single arrows match up,
-and gluing the two verticle edges together so the double arrows match
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to node{$\blacktriangleright\blacktriangleright$} (2,0);
+    \draw[thick] (0,-2) to node{$\blacktriangleright\blacktriangleright$} (2,-2);
+    \draw[thick] (0,0) to node{$\blacktriangledown$} (0,-2);
+    \draw[thick] (2,0) to node{$\blacktriangledown$} (2,-2);
+  \end{tikzpicture}
+$$
+gluing the two horizontal edges together so the double arrows match up,
+and gluing the two vertical edges together so the single arrows match
 up. There is also a two-handled torus, and so on. The number of handles
 is called the "genus." All these surfaces are orientable, that is, one
 can define a consistent notion of "right" and "left" on them, so
@@ -94,25 +93,25 @@ opposite points along the boundary. Since we're doing topology, a
 square is just as good as a disc, so we can think of the projective
 plane as the result of identifying the points on the boundary of a
 square as follows:
-
-         -----<<----
-        |           |
-        |           |  
-        v           ^
-        |           |
-        |           |
-         ----->>----
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to node{$\blacktriangleleft\blacktriangleleft$} (2,0);
+    \draw[thick] (0,-2) to node{$\blacktriangleright\blacktriangleright$} (2,-2);
+    \draw[thick] (0,0) to node{$\blacktriangledown$} (0,-2);
+    \draw[thick] (2,0) to node{$\blacktriangle$} (2,-2);
+  \end{tikzpicture}
+$$
 
 Another famous example of a nonorientable surface is the Klein bottle,
 which is given by
-
-         -----<<----
-        |           |
-        |           |
-        v           v
-        |           |
-        |           |
-         ----->>----
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to node{$\blacktriangleleft\blacktriangleleft$} (2,0);
+    \draw[thick] (0,-2) to node{$\blacktriangleright\blacktriangleright$} (2,-2);
+    \draw[thick] (0,0) to node{$\blacktriangledown$} (0,-2);
+    \draw[thick] (2,0) to node{$\blacktriangledown$} (2,-2);
+  \end{tikzpicture}
+$$
 
 We can take either the Klein bottle or the projective plane and get more
 nonorientable surfaces by adding handles. Every nonorientable surface is
