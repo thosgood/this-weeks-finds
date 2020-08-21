@@ -101,24 +101,40 @@ a crossing like
 
 $$
   \begin{tikzpicture}
-    \pic[braid/.cd,gap=0]{braid={s_1}};
+    \begin{knot}[clip width=0]
+      \strand[thick] (0,0)
+      to [out=down,in=up] (1,-1);
+      \strand[thick] (1,0)
+      to [out=down,in=up] (0,-1);
+    \end{knot}
   \end{tikzpicture}
 $$
 
 to be the invariant of the knot with the crossing changed to
 
 $$
-  \begin{braid}
-    \pic{braid={s_1^{-1}}};
-  \end{braid}
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7]
+      \strand[thick] (0,0)
+      to [out=down,in=up] (1,-1);
+      \strand[thick] (1,0)
+      to [out=down,in=up] (0,-1);
+      \flipcrossings{1}
+    \end{knot}
+  \end{tikzpicture}
 $$
 
 minus the invariant of the knot with the crossing changed to
 
 $$
-  \begin{braid}
-    \pic{braid={s_1}};
-  \end{braid}
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7]
+      \strand[thick] (0,0)
+      to [out=down,in=up] (1,-1);
+      \strand[thick] (1,0)
+      to [out=down,in=up] (0,-1);
+    \end{knot}
+  \end{tikzpicture}
 $$
 
 (Again, the knot has to be oriented for this rule to make sense, and the

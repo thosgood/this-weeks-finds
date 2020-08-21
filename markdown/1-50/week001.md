@@ -40,16 +40,42 @@ have developed a set of "movie moves" that connect any two movies of
 the same knotted surface. These papers contain a lot of fascinating
 pictures! And there does seem to be more than a minor relation to string
 theory. For example, one of the movie moves is very analogous to the 3rd
-Reidemeister move - which goes
+Reidemeister move --- which goes
 
 $$
-  \begin{braid}
-    \pic{braid={s_1 s_2 s_1}};
-  \end{braid}
-  \quad=\quad
-  \begin{braid}
-    \pic{braid={s_2 s_1 s_2}};
-  \end{braid}
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7]
+      \strand[thick] (0,0)
+        to [out=down,in=up] (1,-1)
+        to [out=down,in=up] (2,-2)
+        to (2,-3);
+      \strand[thick] (1,0)
+        to [out=down,in=up] (0,-1)
+        to (0,-2)
+        to [out=down,in=up] (1,-3);
+      \strand[thick] (2,0)
+        to (2,-1)
+        to [out=down,in=up] (1,-2)
+        to [out=down,in=up] (0,-3);
+    \end{knot}
+  \end{tikzpicture}
+  \raisebox{4em}{\quad=\quad}
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7]
+      \strand[thick] (0,0)
+        to (0,-1)
+        to [out=down,in=up] (1,-2)
+        to [out=down,in=up] (2,-3);
+      \strand[thick] (1,0)
+        to [out=down,in=up] (2,-1)
+        to (2,-2)
+        to [out=down,in=up] (1,-3);
+      \strand[thick] (2,0)
+        to [out=down,in=up] (1,-1)
+        to [out=down,in=up] (0,-2)
+        to (0,-3);
+    \end{knot}
+  \end{tikzpicture}
 $$
 
 I won't try to draw the corresponding movie move, but just as the 3rd
@@ -68,7 +94,7 @@ that this is the right way to tackle the "problem of time" in quantum
 gravity (which, in the loop variables approach, amounts to studying the
 relationship of knot theory to the 4th dimension, time.) In particular,
 Carter and Saito are investigating how to construct solutions of the
-Zamolodchikov equations from solutions of the Yang-Baxter equation - the
+Zamolodchikov equations from solutions of the Yang-Baxter equation --- the
 goal presumably being to find invariants of knotted surfaces that are
 closely related to the link invariants coming from quantum groups. This
 looks promising, since Crane and Yetter have just constructed a
@@ -136,7 +162,7 @@ time it is impossible to say that something is being lost. In a quantum
 theory of gravity, time is a problematic concept which makes it
 difficult to even ask such questions at the nonperturbative level,
 without reference to a fixed spacetime manifold. [I would prefer to say
-"fixed background metric" - JB] The main idea, which it is the
+"fixed background metric" --- JB] The main idea, which it is the
 purpose of this paper to develop, is that the problem of time in the
 nonperturbative framework is more than an obstacle that blocks any easy
 approach to the problem of loss of information in black hole

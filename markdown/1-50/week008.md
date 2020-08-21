@@ -92,7 +92,7 @@ strands. Let's take $n = 3$ to keep life simple. Then $e_1$ is
 
 $$
   \begin{tikzpicture}
-    \begin{knot}[clip width=5]
+    \begin{knot}[clip width=7]
       \strand[thick] (0,0)
         to [out=down,in=down,looseness=2] (1,0);
       \strand[thick] (0,-2)
@@ -107,7 +107,7 @@ while $e_2$ is
 
 $$
   \begin{tikzpicture}
-    \begin{knot}[clip width=5]
+    \begin{knot}[clip width=7]
       \strand[thick] (1,0)
         to [out=down,in=down,looseness=2] (2,0);
       \strand[thick] (1,-2)
@@ -123,7 +123,7 @@ we square $e_i$ we get a loop - e.g., $e_1$ squared is
 
 $$
   \begin{tikzpicture}
-    \begin{knot}[clip width=5]
+    \begin{knot}[clip width=7]
       \strand[thick] (0,0)
         to [out=down,in=down,looseness=2] (1,0);
       \strand[thick] (0,-2)
@@ -147,7 +147,7 @@ $d$ times
 
 $$
   \begin{tikzpicture}
-    \begin{knot}[clip width=5]
+    \begin{knot}[clip width=7]
       \strand[thick] (0,0)
         to [out=down,in=down,looseness=2] (1,0);
       \strand[thick] (0,-4)
@@ -166,7 +166,7 @@ just
 
 $$
   \begin{tikzpicture}
-    \begin{knot}[clip width=5]
+    \begin{knot}[clip width=7]
       \strand[thick] (0,0)
         to [out=down,in=down,looseness=2] (1,0);
       \strand[thick] (0,-4)

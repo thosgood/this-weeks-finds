@@ -16,7 +16,12 @@ vertices, that is, transverse double points, like
 
 $$
   \begin{tikzpicture}
-    \pic[braid/.cd,gap=0]{braid={s_1}};
+    \begin{knot}[clip width=0]
+      \strand[thick] (0,0)
+      to [out=down,in=up] (1,-1);
+      \strand[thick] (1,0)
+      to [out=down,in=up] (0,-1);
+    \end{knot}
   \end{tikzpicture}
 $$
 
@@ -53,24 +58,40 @@ invariant on a link with a double point
 
 $$
   \begin{tikzpicture}
-    \pic[braid/.cd,gap=0]{braid={s_1}};
+    \begin{knot}[clip width=0]
+      \strand[thick] (0,0)
+      to [out=down,in=up] (1,-1);
+      \strand[thick] (1,0)
+      to [out=down,in=up] (0,-1);
+    \end{knot}
   \end{tikzpicture}
 $$
 
 to be the invariant of the link with the double point changed to
 
 $$
-  \begin{braid}
-    \pic{braid={s_1^{-1}}};
-  \end{braid}
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7]
+      \strand[thick] (0,0)
+      to [out=down,in=up] (1,-1);
+      \strand[thick] (1,0)
+      to [out=down,in=up] (0,-1);
+      \flipcrossings{1}
+    \end{knot}
+  \end{tikzpicture}
 $$
 
 minus the invariant of the link with the double point changed to
 
 $$
-  \begin{braid}
-    \pic{braid={s_1}};
-  \end{braid}
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7]
+      \strand[thick] (0,0)
+      to [out=down,in=up] (1,-1);
+      \strand[thick] (1,0)
+      to [out=down,in=up] (0,-1);
+    \end{knot}
+  \end{tikzpicture}
 $$
 
 Note that the link has to be oriented for this rule to make sense, and
@@ -100,15 +121,11 @@ let me list these before filing them away:
 4) "Categorical physics", by Louis Crane, preprint available as
 [`hep-th/9301061`](http://xxx.lanl.gov/abs/hep-th/9301061) in amstex.
 
-    A Categorical construction of 4d topological quantum field theories, by
-    Louis Crane and David Yetter, preprint available as
-    [hep-th/9301062](http://xxx.lanl.gov/abs/hep-th/9301062) in latex.
+    "A Categorical construction of 4d topological quantum field theories", by Louis Crane and David Yetter, preprint available as [`hep-th/9301062`](http://xxx.lanl.gov/abs/hep-th/9301062) in latex.
 
-    Hopf Categories and their representations, Louis Crane and Igor Frenkel,
-    draft version.
+    "Hopf Categories and their representations", Louis Crane and Igor Frenkel, draft version.
 
-    Categorification and the construction of topological quantum field
-    theory, Louis Crane and Igor Frenkel, draft version.
+    "Categorification and the construction of topological quantum field theory", Louis Crane and Igor Frenkel, draft version.
 
 These outline Louis Crane's vision of an approach to generally
 covariant 4-dimensional quantum field theories (e.g. quantum gravity or

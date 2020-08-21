@@ -264,7 +264,7 @@ some examples. Here is an element of $\mathrm{Hom}(2,4)$:
 
 $$
   \begin{tikzpicture}
-    \begin{knot}[clip width=5]
+    \begin{knot}[clip width=7]
       \strand[thick] (0,0)
         to [out=down,in=up] (1,-1)
         to [out=down,in=up] (2,-2);
@@ -281,7 +281,7 @@ and here is an element of $\mathrm{Hom}(4,0)$:
 
 $$
   \begin{tikzpicture}
-    \begin{knot}[clip width=5]
+    \begin{knot}[clip width=7]
       \strand[thick] (0,0)
         to (0,-0.5)
         to [out=down,in=down,looseness=1.5] (1,-0.5)
@@ -305,7 +305,7 @@ Note that we can "compose" these tangles to get one in $\mathrm{Hom}(2,0)$:
 
 $$
   \begin{tikzpicture}
-    \begin{knot}[clip width=5]
+    \begin{knot}[clip width=7]
       \strand[thick] (0,0)
         to [out=down,in=up] (1,-1)
         to [out=down,in=up] (2,-2);
@@ -315,7 +315,7 @@ $$
       \strand[thick] (1,-2)
         to [out=up,in=up,looseness=1.5] (3,-2);
     \end{knot}
-    \begin{knot}[clip width=5]
+    \begin{knot}[clip width=7]
       \strand[thick] (0,-2)
         to (0,-2.5)
         to [out=down,in=down,looseness=1.5] (1,-2.5)

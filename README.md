@@ -10,7 +10,6 @@
 - that table of k-tuply monoidal n-categories (and its title)
     + this may be done when we switch to a custom pandoc latex template
 - search for **???**
-- redo \begin{braids} with \begin{knots}?
 
 ## 51--100
 
