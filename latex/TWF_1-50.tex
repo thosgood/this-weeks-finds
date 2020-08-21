@@ -7,6 +7,10 @@
 \usepackage{charter}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
+\usepackage{color}
+\definecolor{myurlcolor}{rgb}{0.6,0,0}
+\definecolor{mycitecolor}{rgb}{0,0,0.8}
+\definecolor{myrefcolor}{rgb}{0,0,0.8}
 
 \usepackage{amsmath,amssymb}
 \usepackage{hyperref}
@@ -40,6 +44,7 @@
 \usepackage{tikz-cd}
 
 \begin{document}
+\hypersetup{linkcolor=myrefcolor,citecolor=mycitecolor,urlcolor=myurlcolor}
 
 \maketitle
 \tableofcontents

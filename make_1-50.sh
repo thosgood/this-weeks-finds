@@ -14,6 +14,10 @@ printf "\n" >> $TEX
 printf '%s\n' '\usepackage{charter}' >> $TEX
 printf '%s\n' '\usepackage{fancyhdr}' >> $TEX
 printf '%s\n' '\pagestyle{fancy}' >> $TEX
+printf '%s\n' '\usepackage{color}' >> $TEX
+printf '%s\n' '\definecolor{myurlcolor}{rgb}{0.6,0,0}' >> $TEX
+printf '%s\n' '\definecolor{mycitecolor}{rgb}{0,0,0.8}' >> $TEX
+printf '%s\n' '\definecolor{myrefcolor}{rgb}{0,0,0.8}' >> $TEX
 
 printf "\n" >> $TEX
 printf '%s\n' '\usepackage{amsmath,amssymb}' >> $TEX
@@ -56,6 +60,9 @@ printf '%s\n' '\usepackage{tikz-cd}' >> $TEX
 
 printf "\n" >> $TEX
 printf '%s\n' '\begin{document}' >> $TEX
+
+printf "\n" >> $TEX
+printf '%s\n' '\hypersetup{linkcolor=myrefcolor,citecolor=mycitecolor,urlcolor=myurlcolor}' >> $TEX
 
 printf "\n" >> $TEX
 printf '%s\n' '\maketitle' >> $TEX
