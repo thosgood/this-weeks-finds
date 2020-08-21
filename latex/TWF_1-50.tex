@@ -12650,19 +12650,13 @@ The operad elegantly keeps track of these parametrizations. So, for each
 \(n\), an operad has a set \(X(n)\) which we think of as all the
 \(n\)-ary operations. Think of something in \(X(n)\) as a black box that
 has \(n\) ``input'' tubes and one ``output'' tube, or a tree-shaped
-thing
-
-\begin{verbatim}
-       \  |  /
-        \ | /
-         \|/
-          |
-          |
-          |
-\end{verbatim}
-
-with \(n\) branches and one root (here \(n = 3\)). Then suppose we have
-a bunch of these black boxes. Say we have something in \(X(n_1)\),
+thing \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (1,-1.5) to (2,0);
+    \draw[thick] (1,0) to (1,-3);
+  \end{tikzpicture}
+\] with \(n\) branches and one root (here \(n = 3\)). Then suppose we
+have a bunch of these black boxes. Say we have something in \(X(n_1)\),
 something in \(X(n_2)\), \ldots. and so on up to something in
 \(X(n_k)\). Thus we've got a pile of black boxes with a total of
 \(n_1 + \ldots + n_k\) input tubes and \(k\) output tubes. Now if we
@@ -12674,26 +12668,16 @@ operation from
 \(X(n_1)\times \ldots\times X(n_k)\times X(k) \to X(n_1 + \ldots + n_k)\).
 For example, if we take the tree up there, which represents something in
 \(X(3)\), and another thing in \(X(3)\), we can hook up their outputs to
-the inputs of something in \(X(2)\), to get something that looks like
-
-\begin{verbatim}
-       \  |  /   \  |  /
-        \ | /     \ | /
-         \|/       \|/
-          |         |
-          |         |
-          |         |
-          \         /
-           \       /
-            \     / 
-             \   /
-              \ /
-               |
-               |
-               |
-\end{verbatim}
-
-which is in \(X(6)\). The closed string field theorists like operads
+the inputs of something in \(X(2)\), to get something that looks like \[
+  \begin{tikzpicture}[scale=0.7]
+    \draw[thick] (0,0) to (1,-1.5) to (2,0);
+    \draw[thick] (1,0) to (1,-3);
+    \draw[thick] (3,0) to (4,-1.5) to (5,0);
+    \draw[thick] (4,0) to (4,-3);
+    \draw[thick] (1,-3) to (2.5,-4.5) to (4,-3);
+    \draw[thick] (2.5,-4.5) to (2.5,-6);
+  \end{tikzpicture}
+\] which is in \(X(6)\). The closed string field theorists like operads
 because there are lots of parametrized ways of gluing together Riemann
 surfaces with punctures together. It's a handy language,
 apparently\ldots{} I am a bit more familiar with operads (though not
