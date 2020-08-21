@@ -16,30 +16,31 @@ were "topological" in the sense that the final answers one computed
 didn't depend on the triangulation. One can get between any two
 triangulations of a surface by using a sequence of the following two
 moves (and their inverses), called the (2,2) move:
-
-        O                 O
-       /|\               / \
-      / | \             /   \
-     /  |  \           /     \
-    O   |   O <---->  O-------O
-     \  |  /           \     /
-      \ | /             \   /
-       \|/               \ /
-        O                 O
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1,1.5) node{$\bullet$} to (2,0) node{$\bullet$} to (1,-1.5) node{$\bullet$} to cycle;
+    \draw[thick] (1,1.5) to (1,-1.5);
+  \end{tikzpicture}
+  \raisebox{4.5em}{$\qquad\longleftrightarrow\qquad$}
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1,1.5) node{$\bullet$} to (2,0) node{$\bullet$} to (1,-1.5) node{$\bullet$} to cycle;
+    \draw[thick] (0,0) to (2,0);
+  \end{tikzpicture}
+$$
 and the (3,1) move:
-
-              O                      O
-             /|\                    / \
-            / | \                  /   \
-           /  |  \                /     \
-          /   |   \              /       \
-         /   _O_   \   <---->   /         \
-        /  _/   _  \          /           \
-       / _/       _ \        /             \
-      /_/           _\      /               \
-     O-----------------O    O-----------------O
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1.8,3) node{$\bullet$} to (3.6,0) node{$\bullet$} to cycle;
+    \node at (1.8,1.1) {$\bullet$};
+    \draw[thick] (0,0) to (1.8,1.1);
+    \draw[thick] (1.8,3) to (1.8,1.1);
+    \draw[thick] (3.6,0) to (1.8,1.1);
+  \end{tikzpicture}
+  \raisebox{4.5em}{$\qquad\longleftrightarrow\qquad$}
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1.8,3) node{$\bullet$} to (3.6,0) node{$\bullet$} to cycle;
+  \end{tikzpicture}
+$$
 Note that in either case these moves amount to replacing one part of the
 surface of a tetrahedron with the other part! In fact, similar moves
 work in any dimension, and they are often called the Pachner moves.
@@ -56,30 +57,23 @@ multiplication. The idea is that we are in a 2-dimensional spacetime,
 and a triangle represents multiplication: two "incoming states" go in
 two sides and their product, the "outgoing state", pops out the third
 side:
-
-                          O
-                         / \
-                        /   \
-                       /     \
-                      A       B
-                     /         \
-                    /           \
-                   /             \
-                  /               \
-                 O--------AB-------O
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to node[fill=white]{$A$} (2,3) node{$\bullet$} to node[fill=white]{$B$} (4,0) node{$\bullet$} to node[fill=white]{$AB$} cycle;
+  \end{tikzpicture}
+$$
 Then the (2,2) move represents associativity:
-
-        O                   O
-       /|\                 / \
-      A | (AB)C           A   A(BC)
-     /  |  \             /     \
-    O   AB  O   <---->  O--BC---O
-     \  |  /             \     /
-      B | C               B   C
-       \|/                 \ /
-        O                   O
-
+$$
+  \begin{tikzpicture}[scale=1.5]
+    \draw[thick] (0,0) node{$\bullet$} to node[fill=white]{$A$} (1,1.5) node{$\bullet$} to node[fill=white]{$(AB)C$} (2,0) node{$\bullet$} to node[fill=white]{$C$} (1,-1.5) node{$\bullet$} to node[fill=white]{$B$} cycle;
+    \draw[thick] (1,1.5) to node[fill=white]{$AB$} (1,-1.5);
+  \end{tikzpicture}
+  \raisebox{6.5em}{$\qquad\longleftrightarrow\qquad$}
+  \begin{tikzpicture}[scale=1.5]
+    \draw[thick] (0,0) node{$\bullet$} to node[fill=white]{$A$} (1,1.5) node{$\bullet$} to node[fill=white]{$A(BC)$} (2,0) node{$\bullet$} to node[fill=white]{$C$} (1,-1.5) node{$\bullet$} to node[fill=white]{$B$} cycle;
+    \draw[thick] (0,0) to node[fill=white]{$BC$} (2,0);
+  \end{tikzpicture}
+$$
 Of course, the distinction between "incoming" and "outgoing" sides
 of the triangle is conventional, and the more detailed explanation in
 ["Week 16"](#week16) shows how that fits into the formalism.
@@ -91,17 +85,17 @@ forget whether we are coming or going, so to speak.
 Hmm, and here I was planning on being terse! Anyway, the still *more*
 interesting point is that when we think about 3-dimensional topology and
 "3-dimensional algebra," we should no longer think of
-
-        O                 O
-       /|\               / \
-      / | \             /   \
-     /  |  \           /     \
-    O   |   O   and   O-------O
-     \  |  /           \     /
-      \ | /             \   /
-       \|/               \ /
-        O                 O
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1,1.5) node{$\bullet$} to (2,0) node{$\bullet$} to (1,-1.5) node{$\bullet$} to cycle;
+    \draw[thick] (1,1.5) to (1,-1.5);
+  \end{tikzpicture}
+  \raisebox{4.5em}{$\qquad\text{and}\qquad$}
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1,1.5) node{$\bullet$} to (2,0) node{$\bullet$} to (1,-1.5) node{$\bullet$} to cycle;
+    \draw[thick] (0,0) to (2,0);
+  \end{tikzpicture}
+$$
 as representing *equal* operations (the 3-fold multiplication of $A$, $B$,
 and $C$); instead, we should think of them as merely *isomorphic*, with
 the tetrahedron of which they are the front and back being the

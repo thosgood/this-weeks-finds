@@ -4902,7 +4902,7 @@ similar (3,1) move that takes 3 faces of a tetrahedron and replaces them
 with the other 1, as follows: \[
   \begin{tikzpicture}
     \draw[thick] (0,0) node{$\bullet$} to (1.8,3) node{$\bullet$} to (3.6,0) node{$\bullet$} to cycle;
-    \node at (1.8,1.2) {$\bullet$};
+    \node at (1.8,1.1) {$\bullet$};
     \draw[thick] (0,0) to (1.8,1.1);
     \draw[thick] (1.8,3) to (1.8,1.1);
     \draw[thick] (3.6,0) to (1.8,1.1);
@@ -8995,23 +8995,15 @@ called the ``moduli space of curves.'')
 Let me say how these coordinates go, rather sketchily, just so the
 mysterious number \(6g-6\) becomes not so mysterious! Take your surface
 of genus \(g\) -- just think of it as a doughnut with \(n\) holes -- and
-cut it up into ``pairs of pants,'' that is, pieces that look like
-
-\begin{verbatim}
-                    |    |
-                    |    |
-                    |    |
-                    |    |
-                   /      \
-                  /        \
-                 /          \
-                /     /\     \
-               /     /  \     \
-\end{verbatim}
-
-from above. Topologically, a pair of pants is just a sphere with three
-discs cut out of it! A more dignified term for a pair of pants is a
-``trinion,'' by the way.
+cut it up into ``pairs of pants,'' that is, pieces that look like \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (0,-1) to (-0.5,-2);
+    \draw[thick] (0.75,0) to (0.75,-1) to (1.25,-2);
+    \draw[thick] (0.125,-2) to (0.375,-1.5) to (0.625,-2);
+  \end{tikzpicture}
+\] from above. Topologically, a pair of pants is just a sphere with
+three discs cut out of it! A more dignified term for a pair of pants is
+a ``trinion,'' by the way.
 
 The idea now is to describe the complex structure on each pair of pants
 separately, and then describe how the pairs of pants are glued together.
@@ -9072,21 +9064,17 @@ metric) until it goes away.
 
 Third, when studying the triangulation of Teichmueller space one
 repeatedly runs across a certain ``Pachner move'' which goes from one
-triangulation of a surface to another:
-
-\begin{verbatim}
-    O                 O
-   /|\               / \    
-  / | \             /   \  
- /  |  \           /     \ 
-O   |   O <---->  O-------O
- \  |  /           \     /   
-  \ | /             \   /          
-   \|/               \ /     
-    O                 O
-\end{verbatim}
-
-which reminds me of lattice field theories in 2 dimensions (see
+triangulation of a surface to another: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1,1.5) node{$\bullet$} to (2,0) node{$\bullet$} to (1,-1.5) node{$\bullet$} to cycle;
+    \draw[thick] (1,1.5) to (1,-1.5);
+  \end{tikzpicture}
+  \raisebox{4.5em}{$\qquad\longleftrightarrow\qquad$}
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1,1.5) node{$\bullet$} to (2,0) node{$\bullet$} to (1,-1.5) node{$\bullet$} to cycle;
+    \draw[thick] (0,0) to (2,0);
+  \end{tikzpicture}
+\] which reminds me of lattice field theories in 2 dimensions (see
 \protect\hyperlink{week16}{``Week 16''} for an explanation) and the
 ``pentagon diagram'' showing how to get between the 5 simplest ways to
 triangulate a pentagon using this move (see, for example, Figure 3 in
@@ -9104,7 +9092,7 @@ theory and chopping up surfaces into pairs of pants:
 \end{enumerate}
 
 and in category theory, with the relationship \emph{there} now pretty
-well understood in terms of ``modular tensor categories'' -- see e.g.
+well understood in terms of ``modular tensor categories'' --- see e.g.
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -11448,37 +11436,30 @@ field theories in 2 dimensions starting with a triangulation of a 2d
 surface. The theories were ``topological'' in the sense that the final
 answers one computed didn't depend on the triangulation. One can get
 between any two triangulations of a surface by using a sequence of the
-following two moves (and their inverses), called the (2,2) move:
-
-\begin{verbatim}
-    O                 O
-   /|\               / \
-  / | \             /   \
- /  |  \           /     \
-O   |   O <---->  O-------O
- \  |  /           \     /
-  \ | /             \   /
-   \|/               \ /
-    O                 O
-\end{verbatim}
-
-and the (3,1) move:
-
-\begin{verbatim}
-          O                      O
-         /|\                    / \
-        / | \                  /   \
-       /  |  \                /     \
-      /   |   \              /       \
-     /   _O_   \   <---->   /         \
-    /  _/   _  \          /           \
-   / _/       _ \        /             \
-  /_/           _\      /               \
- O-----------------O    O-----------------O
-\end{verbatim}
-
-Note that in either case these moves amount to replacing one part of the
-surface of a tetrahedron with the other part! In fact, similar moves
+following two moves (and their inverses), called the (2,2) move: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1,1.5) node{$\bullet$} to (2,0) node{$\bullet$} to (1,-1.5) node{$\bullet$} to cycle;
+    \draw[thick] (1,1.5) to (1,-1.5);
+  \end{tikzpicture}
+  \raisebox{4.5em}{$\qquad\longleftrightarrow\qquad$}
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1,1.5) node{$\bullet$} to (2,0) node{$\bullet$} to (1,-1.5) node{$\bullet$} to cycle;
+    \draw[thick] (0,0) to (2,0);
+  \end{tikzpicture}
+\] and the (3,1) move: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1.8,3) node{$\bullet$} to (3.6,0) node{$\bullet$} to cycle;
+    \node at (1.8,1.1) {$\bullet$};
+    \draw[thick] (0,0) to (1.8,1.1);
+    \draw[thick] (1.8,3) to (1.8,1.1);
+    \draw[thick] (3.6,0) to (1.8,1.1);
+  \end{tikzpicture}
+  \raisebox{4.5em}{$\qquad\longleftrightarrow\qquad$}
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1.8,3) node{$\bullet$} to (3.6,0) node{$\bullet$} to cycle;
+  \end{tikzpicture}
+\] Note that in either case these moves amount to replacing one part of
+the surface of a tetrahedron with the other part! In fact, similar moves
 work in any dimension, and they are often called the Pachner moves.
 
 The really \emph{wonderful} thing is that these moves are also very
@@ -11492,38 +11473,23 @@ For example, as explained more carefully in
 the same as the \emph{associative} law for multiplication. The idea is
 that we are in a 2-dimensional spacetime, and a triangle represents
 multiplication: two ``incoming states'' go in two sides and their
-product, the ``outgoing state'', pops out the third side:
-
-\begin{verbatim}
-                      O
-                     / \
-                    /   \
-                   /     \
-                  A       B
-                 /         \
-                /           \
-               /             \
-              /               \
-             O--------AB-------O
-\end{verbatim}
-
-Then the (2,2) move represents associativity:
-
-\begin{verbatim}
-    O                   O
-   /|\                 / \
-  A | (AB)C           A   A(BC)
- /  |  \             /     \
-O   AB  O   <---->  O--BC---O
- \  |  /             \     /
-  B | C               B   C
-   \|/                 \ /
-    O                   O
-\end{verbatim}
-
-Of course, the distinction between ``incoming'' and ``outgoing'' sides
-of the triangle is conventional, and the more detailed explanation in
-\protect\hyperlink{week16}{``Week 16''} shows how that fits into the
+product, the ``outgoing state'', pops out the third side: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to node[fill=white]{$A$} (2,3) node{$\bullet$} to node[fill=white]{$B$} (4,0) node{$\bullet$} to node[fill=white]{$AB$} cycle;
+  \end{tikzpicture}
+\] Then the (2,2) move represents associativity: \[
+  \begin{tikzpicture}[scale=1.5]
+    \draw[thick] (0,0) node{$\bullet$} to node[fill=white]{$A$} (1,1.5) node{$\bullet$} to node[fill=white]{$(AB)C$} (2,0) node{$\bullet$} to node[fill=white]{$C$} (1,-1.5) node{$\bullet$} to node[fill=white]{$B$} cycle;
+    \draw[thick] (1,1.5) to node[fill=white]{$AB$} (1,-1.5);
+  \end{tikzpicture}
+  \raisebox{6.5em}{$\qquad\longleftrightarrow\qquad$}
+  \begin{tikzpicture}[scale=1.5]
+    \draw[thick] (0,0) node{$\bullet$} to node[fill=white]{$A$} (1,1.5) node{$\bullet$} to node[fill=white]{$A(BC)$} (2,0) node{$\bullet$} to node[fill=white]{$C$} (1,-1.5) node{$\bullet$} to node[fill=white]{$B$} cycle;
+    \draw[thick] (0,0) to node[fill=white]{$BC$} (2,0);
+  \end{tikzpicture}
+\] Of course, the distinction between ``incoming'' and ``outgoing''
+sides of the triangle is conventional, and the more detailed explanation
+in \protect\hyperlink{week16}{``Week 16''} shows how that fits into the
 formalism. Roughly speaking, what we have is not just any old algebra,
 but an algebra that, thought of as a vector space, is equipped with an
 isomorphism between it and its dual. This isomorphism allows us to
@@ -11531,21 +11497,17 @@ forget whether we are coming or going, so to speak.
 
 Hmm, and here I was planning on being terse! Anyway, the still
 \emph{more} interesting point is that when we think about 3-dimensional
-topology and ``3-dimensional algebra,'' we should no longer think of
-
-\begin{verbatim}
-    O                 O
-   /|\               / \
-  / | \             /   \
- /  |  \           /     \
-O   |   O   and   O-------O
- \  |  /           \     /
-  \ | /             \   /
-   \|/               \ /
-    O                 O
-\end{verbatim}
-
-as representing \emph{equal} operations (the 3-fold multiplication of
+topology and ``3-dimensional algebra,'' we should no longer think of \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1,1.5) node{$\bullet$} to (2,0) node{$\bullet$} to (1,-1.5) node{$\bullet$} to cycle;
+    \draw[thick] (1,1.5) to (1,-1.5);
+  \end{tikzpicture}
+  \raisebox{4.5em}{$\qquad\text{and}\qquad$}
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1,1.5) node{$\bullet$} to (2,0) node{$\bullet$} to (1,-1.5) node{$\bullet$} to cycle;
+    \draw[thick] (0,0) to (2,0);
+  \end{tikzpicture}
+\] as representing \emph{equal} operations (the 3-fold multiplication of
 \(A\), \(B\), and \(C\)); instead, we should think of them as merely
 \emph{isomorphic}, with the tetrahedron of which they are the front and
 back being the isomorphism. The basic philosophy is that in

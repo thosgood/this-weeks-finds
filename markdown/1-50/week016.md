@@ -113,7 +113,7 @@ with the other 1, as follows:
 $$
   \begin{tikzpicture}
     \draw[thick] (0,0) node{$\bullet$} to (1.8,3) node{$\bullet$} to (3.6,0) node{$\bullet$} to cycle;
-    \node at (1.8,1.2) {$\bullet$};
+    \node at (1.8,1.1) {$\bullet$};
     \draw[thick] (0,0) to (1.8,1.1);
     \draw[thick] (1.8,3) to (1.8,1.1);
     \draw[thick] (3.6,0) to (1.8,1.1);

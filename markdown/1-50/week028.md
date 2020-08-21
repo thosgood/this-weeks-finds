@@ -169,17 +169,13 @@ Let me say how these coordinates go, rather sketchily, just so the
 mysterious number $6g-6$ becomes not so mysterious! Take your surface of
 genus $g$ -- just think of it as a doughnut with $n$ holes -- and cut it
 up into "pairs of pants," that is, pieces that look like
-
-                        |    |
-                        |    |
-                        |    |
-                        |    |
-                       /      \
-                      /        \
-                     /          \
-                    /     /\     \
-                   /     /  \     \
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (0,-1) to (-0.5,-2);
+    \draw[thick] (0.75,0) to (0.75,-1) to (1.25,-2);
+    \draw[thick] (0.125,-2) to (0.375,-1.5) to (0.625,-2);
+  \end{tikzpicture}
+$$
 from above. Topologically, a pair of pants is just a sphere with three
 discs cut out of it! A more dignified term for a pair of pants is a
 "trinion," by the way.
@@ -236,17 +232,17 @@ until it goes away.
 Third, when studying the triangulation of Teichmueller space one
 repeatedly runs across a certain "Pachner move" which goes from one
 triangulation of a surface to another:
-
-        O                 O
-       /|\               / \    
-      / | \             /   \  
-     /  |  \           /     \ 
-    O   |   O <---->  O-------O
-     \  |  /           \     /   
-      \ | /             \   /          
-       \|/               \ /     
-        O                 O
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1,1.5) node{$\bullet$} to (2,0) node{$\bullet$} to (1,-1.5) node{$\bullet$} to cycle;
+    \draw[thick] (1,1.5) to (1,-1.5);
+  \end{tikzpicture}
+  \raisebox{4.5em}{$\qquad\longleftrightarrow\qquad$}
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1,1.5) node{$\bullet$} to (2,0) node{$\bullet$} to (1,-1.5) node{$\bullet$} to cycle;
+    \draw[thick] (0,0) to (2,0);
+  \end{tikzpicture}
+$$
 which reminds me of lattice field theories in 2 dimensions (see
 ["Week 16"](#week16) for an explanation) and the "pentagon
 diagram" showing how to get between the 5 simplest ways to triangulate
@@ -258,7 +254,7 @@ chopping up surfaces into pairs of pants:
 8) "Classical and quantum conformal field theory", by G. Moore and S. Seiberg, _Comm. Math. Phys._ **123** (1989) 177--254
 
 and in category theory, with the relationship *there* now pretty well
-understood in terms of "modular tensor categories" -- see e.g.
+understood in terms of "modular tensor categories" --- see e.g.
 
 9) "2-d physics and 3-d topology", by Louis Crane, _Comm. Math. Phys._ **135** (1991) 615-640.
 
