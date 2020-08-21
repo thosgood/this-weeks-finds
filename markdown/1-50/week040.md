@@ -1,4 +1,4 @@
-# (1994-10-19) {#week40}
+# October 19, 1994 {#week40}
 
 When I was an undergraduate I was quite interested in logic and the
 foundations of mathematics --- I was always looking for the most

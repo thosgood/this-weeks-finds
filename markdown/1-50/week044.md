@@ -1,4 +1,4 @@
-# (1994-11-06) {#week44}
+# November 6, 1994 {#week44}
 
 **Special edition: the end of Donaldson theory?**
 

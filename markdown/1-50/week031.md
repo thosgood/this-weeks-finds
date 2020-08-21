@@ -1,4 +1,4 @@
-# (1994-02-18) {#week31}
+# February 18, 1994 {#week31}
 
 Well, I'm really busy these days trying to finish up a big project,
 hence the low number of ["Week s"](#weeks) per week, but papers are piling up,

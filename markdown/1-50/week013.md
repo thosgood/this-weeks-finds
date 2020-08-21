@@ -1,4 +1,4 @@
-# (1993-04-20) {#week13}
+# April 20, 1993 {#week13}
 
 Well, folks, this'll be the last "This Week's Finds" for a while,
 since I'm getting rather busy preparing for my conference on knots and

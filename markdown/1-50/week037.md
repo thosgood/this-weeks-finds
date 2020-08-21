@@ -1,4 +1,4 @@
-# (1994-08-10) {#week37}
+# August 10, 1994 {#week37}
 
 Mainly this week I have various bits of news to report from the 7th
 Marcel Grossman Meeting on general relativity. It was big and had lots

@@ -1,4 +1,4 @@
-# (1993-10-16) {#week22}
+# October 16, 1993 {#week22}
 
 Lately I've been having fun in this series discussing some things that
 I don't really know much about, like lattice packings of spheres. Next

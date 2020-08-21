@@ -1,4 +1,4 @@
-# (1994-10-17) {#week41}
+# October 17, 1994 {#week41}
 
 In the beginning of September I went to a conference at the Center for
 Gravitational Physics and Geometry at Penn State. This is the center run

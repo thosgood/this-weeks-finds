@@ -1,4 +1,4 @@
-# (1993-09-27) {#week19}
+# September 27, 1993 {#week19}
 
 I will now start catching up on some of the papers that have accumulated
 over the summer. This time I'll say a bit about recent developments in

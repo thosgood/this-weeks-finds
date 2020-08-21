@@ -1,4 +1,4 @@
-# (1993-04-10) {#week12}
+# April 10, 1993 {#week12}
 
 I had a lot of fun at the "Quantum Topology" conference at Kansas
 State University, in Manhattan (yes, that's right, Manhattan, Kansas,

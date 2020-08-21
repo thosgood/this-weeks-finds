@@ -1,4 +1,4 @@
-# (1994-08-19) {#week38}
+# August 19, 1994 {#week38}
 
 I've been busy, and papers have been piling up; there are lots of
 interesting ones that I really should describe in detail, but I had

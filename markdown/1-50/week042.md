@@ -1,4 +1,4 @@
-# (1994-11-03) {#week42}
+# November 3, 1994 {#week42}
 
 String theory means different things to different people. The original
 theory of strings -- at least if I've got my history right -- was a

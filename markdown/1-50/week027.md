@@ -1,4 +1,4 @@
-# (1993-12-16) {#week27}
+# December 16, 1993 {#week27}
 
 This week I would like to describe some of the essays from the following
 volume:

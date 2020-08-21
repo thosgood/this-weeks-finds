@@ -2,9 +2,7 @@
 
 ## General
 
-- change date format to `%B %d, %Y`
-    + display date underneath section title **but** still keep it in the TOC
-    + make sure TOC and header both say "Week N"
+- make sure TOC and header both say "Week N"
 - search for **???**
 
 ## 1--50

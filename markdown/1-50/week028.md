@@ -1,4 +1,4 @@
-# (1994-01-04) {#week28}
+# January 4, 1994 {#week28}
 
 I think I'll finally break my New Year's resolution to stop making a
 fool of myself on the net, and attempt an explanation of some things I

@@ -1,4 +1,4 @@
-# (1994-11-12) {#week45}
+# November 12, 1994 {#week45}
 
 **Donaldson Theory Update**
 

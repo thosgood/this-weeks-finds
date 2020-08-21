@@ -1,4 +1,4 @@
-# (1995-02-27) {#week49}
+# February 27, 1995 {#week49}
 
 For the last year or so I've been really getting interested in
 $n$-categories as a possible tool for unifying a lot of strands in

@@ -1,4 +1,4 @@
-# (1994-09-24) {#week39}
+# September 24, 1994 {#week39}
 
 I want to say a bit about Alain Connes' book, newly out in English, and
 then some about Yang-Mills theory in 2 dimensions.

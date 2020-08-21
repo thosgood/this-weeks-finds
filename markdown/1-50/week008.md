@@ -1,4 +1,4 @@
-# (1993-03-05) {#week8}
+# March 5, 1993 {#week8}
 
 I was delighted to find that Louis Kauffman wants to speak at the
 workshop at UCR on knots and quantum gravity; he'll be talking on

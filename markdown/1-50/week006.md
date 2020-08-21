@@ -1,4 +1,4 @@
-# (1993-02-20) {#week6}
+# February 20, 1993 {#week6}
 
 1) Alexander Vilenkin, _Quantum cosmology_, talk given at Texas/Pascos
 1992 at Berkeley, available as [`gr-qc/9302016`](http://xxx.lanl.gov/abs/gr-qc/9302016).

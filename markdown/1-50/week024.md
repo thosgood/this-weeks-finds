@@ -1,4 +1,4 @@
-# (1993-10-31) {#week24}
+# October 31, 1993 {#week24}
 
 I will now revert to topics more directly connected to physics and start
 catching on the papers that have been accumulating. First, two very nice

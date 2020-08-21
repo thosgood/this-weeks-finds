@@ -1,4 +1,4 @@
-# (1995-01-17) {#week47}
+# January 17, 1995 {#week47}
 
 Hi. I know I'm supposed to be taking a break from "This Week's
 Finds," but it's a habit that's hard to quit. I just want to briefly

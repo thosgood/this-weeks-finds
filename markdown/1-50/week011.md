@@ -1,4 +1,4 @@
-# (1993-03-23) {#week11}
+# March 23, 1993 {#week11}
 
 I'm hitting the road again tomorrow and will be going to the Quantum
 Topology conference in Kansas until Sunday, so I thought I'd post this

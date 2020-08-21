@@ -1,4 +1,4 @@
-# (1993-05-08) {#week14}
+# May 8, 1993 {#week14}
 
 Things are moving very fast in the quantum gravity/4d topology game, so
 I feel I should break my vow not to continue this series until after

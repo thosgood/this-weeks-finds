@@ -1,4 +1,4 @@
-# (1994-01-14) {#week30}
+# January 14, 1994 {#week30}
 
 For the most part, this is a terse description of some papers dealing
 with quantum gravity. Some look to be quite important, but as I have not
