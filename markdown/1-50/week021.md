@@ -159,54 +159,73 @@ slices at different times and get frames of a movie. Most of the frames
 of a movie of an embedded surface will show simply a bunch of knots. At
 a few times, however, a "catastrophe" will occur, e.g.:
 
-Frame 1
-
-          |    |
-          |    |
-          |    |
-          |    |
-          |    |
-
-Frame 2
-
-          \    /
-           |  |
-           |  |
-           |  |
-          /    \
-
-Frame 3
-
-          \    /
-           \  /
-            ||
-           /  \
-          /    \
-
-Frame 4 (the exciting scene - the catastrophe!)
-
-          \    /
-           \  /
-            \/
-            /\
-           /  \
-          /    \
-
-Frame 5
-
-          \     /
-           ___/
-            ___
-           /   \
-          /     \
-
-Frame 6
-
-          _____/
-          
-          
-           ______     
-          /      \
+$$
+  \begin{array}{p{8em}p{8em}p{8em}}
+    \begin{tikzpicture}
+      \begin{knot}
+        \strand[thick] (0,0)
+          to (0,-2);
+        \strand[thick] (1,0)
+          to (1,-2);
+      \end{knot}
+      \node at (0.5,-2.5) {Frame 1};
+    \end{tikzpicture}
+    &
+    \begin{tikzpicture}
+      \begin{knot}
+        \strand[thick] (0,0)
+          to[out=right,in=right,looseness=0.4] (0,-2);
+        \strand[thick] (1,0)
+          to[out=left,in=left,looseness=0.4] (1,-2);
+      \end{knot}
+      \node at (0.5,-2.5) {Frame 2};
+    \end{tikzpicture}
+    &
+    \begin{tikzpicture}
+      \begin{knot}
+        \strand[thick] (0,0)
+          to[out=right,in=right,looseness=0.7] (0,-2);
+        \strand[thick] (1,0)
+          to[out=left,in=left,looseness=0.7] (1,-2);
+      \end{knot}
+      \node at (0.5,-2.5) {Frame 3};
+    \end{tikzpicture}
+    \\[1em]
+    \hspace*{-1.8em}
+    \raisebox{-1.6em}{
+    \begin{tikzpicture}
+      \begin{knot}[clip width=0]
+        \strand[thick] (0,0)
+          to (1,-2);
+        \strand[thick] (1,0)
+          to (0,-2);
+      \end{knot}
+      \node at (0.5,-2.5) {Frame 4};
+      \node at (0.5,-3) {(catastrophe!)};
+    \end{tikzpicture}
+    }
+    &
+    \begin{tikzpicture}
+      \begin{knot}
+        \strand[thick] (0,0)
+          to[out=down,in=down,looseness=3] (1,0);
+        \strand[thick] (0,-2)
+          to[out=up,in=up,looseness=3] (1,-2);
+      \end{knot}
+      \node at (0.5,-2.5) {Frame 5};
+    \end{tikzpicture}
+    &
+    \begin{tikzpicture}
+      \begin{knot}
+        \strand[thick] (0,0)
+          to[out=down,in=down,looseness=1.5] (1,0);
+        \strand[thick] (0,-2)
+          to[out=up,in=up,looseness=1.5] (1,-2);
+      \end{knot}
+      \node at (0.5,-2.5) {Frame 6};
+    \end{tikzpicture}
+  \end{array}
+$$
 
 However, there are always many different movies of essentially the same
 embedding. We can, however, always relate these by a sequence of

@@ -246,12 +246,16 @@ interesting iceberg. Namely, if one looks at the space of all loops,
 this has the knots as an open dense subset, but then it has loops with a
 single "transverse double point" like
 
-    \    /
-     \  /
-      \/
-      /\
-     /  \
-    /    \
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=0]
+      \strand[thick] (0,0)
+      to [out=down,in=up] (1,-1);
+      \strand[thick] (1,0)
+      to [out=down,in=up] (0,-1);
+    \end{knot}
+  \end{tikzpicture}
+$$
 
 as a codimension 1 subset (like a hypersurface in the space of all
 loops), and more fancy singularities appear as still smaller subsets, or

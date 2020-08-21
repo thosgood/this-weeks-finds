@@ -137,9 +137,13 @@ brevity I'll use "$G$" for this number. The magic properties of $G$ are
 too numerous to list here, but what counts is that one gets the 12
 vertices of a (regular) icosahedron by taking the points
 
-                    (+-G, +-1, 0),
-                    (+-1, 0, +-G),
-                    (0, +-G, +-1).
+$$
+  \begin{gathered}
+    (\pm G, \pm1, 0),
+  \\(\pm1, 0, \pm G),
+  \\(0, \pm G, \pm1).
+  \end{gathered}
+$$
 
 This is easy to check.
 
@@ -352,9 +356,13 @@ $$g = G^{-1} = G - 1 = 0.61803398874989484820458683437\ldots$$
 
 Then the elements of the double cover of $A_5$ are of the form
 
-    (+-1,       0,     0,     0),
-    (+-1/2, +-1/2, +-1/2, +-1/2),
-    (    0, +-1/2, +-g/2, +-G/2)
+$$
+  \begin{gathered}
+    (\pm 1, 0, 0, 0),
+  \\(\pm1/2, \pm1/2, \pm1/2, \pm1/2),
+  \\(0, \pm1/2, \pm g/2, \pm G/2).
+  \end{gathered}
+$$
 
 and everything else that can be gotten by *even* permutations of the
 coordinates. (Check that there are 120 and that they are closed under

@@ -6536,11 +6536,13 @@ magic properties of \(G\) are too numerous to list here, but what counts
 is that one gets the 12 vertices of a (regular) icosahedron by taking
 the points
 
-\begin{verbatim}
-                (+-G, +-1, 0),
-                (+-1, 0, +-G),
-                (0, +-G, +-1).
-\end{verbatim}
+\[
+  \begin{gathered}
+    (\pm G, \pm1, 0),
+  \\(\pm1, 0, \pm G),
+  \\(0, \pm G, \pm1).
+  \end{gathered}
+\]
 
 This is easy to check.
 
@@ -6775,11 +6777,13 @@ the golden ratio:
 
 Then the elements of the double cover of \(A_5\) are of the form
 
-\begin{verbatim}
-(+-1,       0,     0,     0),
-(+-1/2, +-1/2, +-1/2, +-1/2),
-(    0, +-1/2, +-g/2, +-G/2)
-\end{verbatim}
+\[
+  \begin{gathered}
+    (\pm 1, 0, 0, 0),
+  \\(\pm1/2, \pm1/2, \pm1/2, \pm1/2),
+  \\(0, \pm1/2, \pm g/2, \pm G/2).
+  \end{gathered}
+\]
 
 and everything else that can be gotten by \emph{even} permutations of
 the coordinates. (Check that there are 120 and that they are closed
@@ -7135,66 +7139,73 @@ slices at different times and get frames of a movie. Most of the frames
 of a movie of an embedded surface will show simply a bunch of knots. At
 a few times, however, a ``catastrophe'' will occur, e.g.:
 
-Frame 1
-
-\begin{verbatim}
-      |    |
-      |    |
-      |    |
-      |    |
-      |    |
-\end{verbatim}
-
-Frame 2
-
-\begin{verbatim}
-      \    /
-       |  |
-       |  |
-       |  |
-      /    \
-\end{verbatim}
-
-Frame 3
-
-\begin{verbatim}
-      \    /
-       \  /
-        ||
-       /  \
-      /    \
-\end{verbatim}
-
-Frame 4 (the exciting scene - the catastrophe!)
-
-\begin{verbatim}
-      \    /
-       \  /
-        \/
-        /\
-       /  \
-      /    \
-\end{verbatim}
-
-Frame 5
-
-\begin{verbatim}
-      \     /
-       ___/
-        ___
-       /   \
-      /     \
-\end{verbatim}
-
-Frame 6
-
-\begin{verbatim}
-      _____/
-      
-      
-       ______     
-      /      \
-\end{verbatim}
+\[
+  \begin{array}{p{8em}p{8em}p{8em}}
+    \begin{tikzpicture}
+      \begin{knot}
+        \strand[thick] (0,0)
+          to (0,-2);
+        \strand[thick] (1,0)
+          to (1,-2);
+      \end{knot}
+      \node at (0.5,-2.5) {Frame 1};
+    \end{tikzpicture}
+    &
+    \begin{tikzpicture}
+      \begin{knot}
+        \strand[thick] (0,0)
+          to[out=right,in=right,looseness=0.4] (0,-2);
+        \strand[thick] (1,0)
+          to[out=left,in=left,looseness=0.4] (1,-2);
+      \end{knot}
+      \node at (0.5,-2.5) {Frame 2};
+    \end{tikzpicture}
+    &
+    \begin{tikzpicture}
+      \begin{knot}
+        \strand[thick] (0,0)
+          to[out=right,in=right,looseness=0.7] (0,-2);
+        \strand[thick] (1,0)
+          to[out=left,in=left,looseness=0.7] (1,-2);
+      \end{knot}
+      \node at (0.5,-2.5) {Frame 3};
+    \end{tikzpicture}
+    \\[1em]
+    \hspace*{-1.8em}
+    \raisebox{-1.6em}{
+    \begin{tikzpicture}
+      \begin{knot}[clip width=0]
+        \strand[thick] (0,0)
+          to (1,-2);
+        \strand[thick] (1,0)
+          to (0,-2);
+      \end{knot}
+      \node at (0.5,-2.5) {Frame 4};
+      \node at (0.5,-3) {(catastrophe!)};
+    \end{tikzpicture}
+    }
+    &
+    \begin{tikzpicture}
+      \begin{knot}
+        \strand[thick] (0,0)
+          to[out=down,in=down,looseness=3] (1,0);
+        \strand[thick] (0,-2)
+          to[out=up,in=up,looseness=3] (1,-2);
+      \end{knot}
+      \node at (0.5,-2.5) {Frame 5};
+    \end{tikzpicture}
+    &
+    \begin{tikzpicture}
+      \begin{knot}
+        \strand[thick] (0,0)
+          to[out=down,in=down,looseness=1.5] (1,0);
+        \strand[thick] (0,-2)
+          to[out=up,in=up,looseness=1.5] (1,-2);
+      \end{knot}
+      \node at (0.5,-2.5) {Frame 6};
+    \end{tikzpicture}
+  \end{array}
+\]
 
 However, there are always many different movies of essentially the same
 embedding. We can, however, always relate these by a sequence of
@@ -8759,14 +8770,16 @@ interesting iceberg. Namely, if one looks at the space of all loops,
 this has the knots as an open dense subset, but then it has loops with a
 single ``transverse double point'' like
 
-\begin{verbatim}
-\    /
- \  /
-  \/
-  /\
- /  \
-/    \
-\end{verbatim}
+\[
+  \begin{tikzpicture}
+    \begin{knot}[clip width=0]
+      \strand[thick] (0,0)
+      to [out=down,in=up] (1,-1);
+      \strand[thick] (1,0)
+      to [out=down,in=up] (0,-1);
+    \end{knot}
+  \end{tikzpicture}
+\]
 
 as a codimension 1 subset (like a hypersurface in the space of all
 loops), and more fancy singularities appear as still smaller subsets, or
@@ -15140,28 +15153,22 @@ you look for them. Perhaps the most obvious place is topology. If you
 think of a point in a space as an object, and a path between two points
 as a morphism:
 
-\begin{verbatim}
-                            f
-         x ----------------->-------------------- y
-\end{verbatim}
+\[x\xrightarrow{\quad f\quad}g\]
 
 you are easily tempted to think of a ``path of paths'' as a 2-morphism.
 Here a ``path of paths'' is just a continuous 1-parameter family of
 paths from x to y, which you can think of as tracing out a 2-dimensional
 surface, as follows:
 
-\begin{verbatim}
-                          f
-             ------------>-----------------
-           /                                \
-          /              |                   \
-         /               | F                  \
-        x                |                     y
-         \               V                    /
-          \                                  /
-           \             g                  /
-             ----------->------------------  
-\end{verbatim}
+\[
+  \begin{tikzcd}[sep=huge]
+    x
+      \rar[bend left=50,"f"{name=U}]
+      \rar[bend right=50,swap,"g"{name=D}]
+    & y
+      \arrow[Rightarrow,shorten=5pt,from=U,to=D,"F"]
+  \end{tikzcd}
+\]
 
 And one can keep on going and look at ``paths of paths of paths'', etc.
 In fact, people in homotopy theory do this all the time.
