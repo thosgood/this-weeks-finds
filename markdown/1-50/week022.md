@@ -40,7 +40,7 @@ found an error in Kempe's proof. And then the real fun starts....
 
 But I don't want to tell the whole story leading up to how Appel and
 Haken proved it in 1976 (with the help of a computer calculation
-involving $10^10$ operations and taking 1200 hours). I don't even
+involving $10^{10}$ operations and taking 1200 hours). I don't even
 understand the structure of the Appel-Haken proof --- for that, one should
 probably try:
 
@@ -53,25 +53,22 @@ between the 4-color problem and physics!
 First, note that to prove the 4-color theorem, it suffices to consider
 the case where only three countries meet at any "corner," since if
 more meet, say four:
-
-                   |
-                   |
-                   |
-            --------------
-                   |
-                   |
-                   |
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (3,0);
+    \draw[thick] (1.5,1.5) to (1.5,-1.5);
+  \end{tikzpicture}
+$$
 we can stick in a little country at each corner:
-
-                   |
-                   |
-                  / \
-            -----    ------
-                  \ /
-                   |
-                   |
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (1,0);
+    \draw[thick] (2,0) to (3,0);
+    \draw[thick] (1.5,1.5) to (1.5,0.5);
+    \draw[thick] (1.5,-0.5) to (1.5,-1.5);
+    \draw[thick] (1,0) to (1.5,0.5) to (2,0) to (1.5,-0.5) to cycle;
+  \end{tikzpicture}
+$$
 so that now only three meet at each corner. If we can color the
 resulting map, it's easy to check that the same coloring with the
 little countries deleted gives a coloring of the original map.
@@ -136,61 +133,53 @@ reminiscent of those satisfied by the quantum group knot invariants.
 Namely, we can recursively calculate Penrose's number for any trivalent
 graph using the following three rules:
 
-A. Wherever you see
-
-        \     /
-         \   /
-          \ /
-           |
-           |
-           |
-          / \
-         /   \
-        /     \
-
+1) Wherever you see
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (1,-0.5) to (2,0);
+    \draw[thick] (1,-0.5) to (1,-1.5);
+    \draw[thick] (0,-2) to (1,-1.5) to (2,-2);
+  \end{tikzpicture}
+$$
 you can replace it with
-
-       |      |         \     /
-       |      |          \   /
-       |      |           \ /
-       |      |     ---      \ 
-       |      |           / \
-       |      |          /   \
-       |      |         /     \
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (0,-2);
+    \draw[thick] (1.5,0) to (1.5,-2);
+  \end{tikzpicture}
+  \raisebox{2.5em}{$\qquad-\qquad$}
+  \begin{tikzpicture}
+    \draw[thick] (1.5,0) to node[fill=white]{} (0,-2);
+    \draw[thick] (0,0) to (1.5,-2);
+  \end{tikzpicture}
+$$
 In other words, replace the problem of computing Penrose's number for
 the original graph by the problem computing the difference of the
 Penrose numbers for the two graphs with the above changes made. For knot
 theory fans I should emphasize that we are talking about abstract graphs
 here, not graphs in 3d space, so there's no real difference between an
 "overcrossing" and an "undercrossing" --- i.e., we could have said
-
-                \     /
-                 \   /
-                  \ /
-                   / 
-                  / \
-                 /   \
-                /     \
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to node[fill=white]{} (1.5,-2);
+    \draw[thick] (1.5,0) to (0,-2);
+  \end{tikzpicture}
+$$
 instead of
-
-                \     /
-                 \   /
-                  \ /
-                   \ 
-                  / \
-                 /   \
-                /     \
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (1.5,0) to node[fill=white]{} (0,-2);
+    \draw[thick] (0,0) to (1.5,-2);
+  \end{tikzpicture}
+$$
 above, and it wouldn't matter.
 
-B. If you do this you will start getting weird loops that have NO
+2) If you do this you will start getting weird loops that have NO
 vertices on them. You are allowed to dispose of such a loop if you
 correct for that by multiplying by 3. (This is not magic, this is just
 because there were 3 ways to color that loop!)
 
-C. Finally, when you are down to the empty graph, use the rule that the
+3) Finally, when you are down to the empty graph, use the rule that the
 empty graph equals 1.
 
 Greg Kuperberg pointed out to me that this is a case of the quantum
