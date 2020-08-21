@@ -24,8 +24,8 @@ we will run into some obstacle, which is bound to be enlightening.
 
 Let me briefly review the loop representation, without too many
 technical details. For more details try the original paper by Rovelli
-and Smolin (see "week42" for a reference), the book by
-Ashtekar (see "week7"), or, especially if you're a
+and Smolin (see ["Week 42"](#week42) for a reference), the book by
+Ashtekar (see ["Week 7"](#week7)), or, especially if you're a
 mathematician, my review article ["Knots and quantum gravity: progress
 and prospects"](http://math.ucr.edu/home/baez/knot.ps).
 
@@ -138,7 +138,7 @@ variables, not the metric on $S$ and its first time derivative, but the
 "chiral spin connection" on $S$ and a "complex frame field". To
 describe these would require a digression into differential geometry
 that I'm not in the mood for right now, especially since I already
-explained this stuff a bit in "week7". (There I call the
+explained this stuff a bit in ["Week 7"](#week7). (There I call the
 chiral spin connection the "right-handed" connection.)
 
 I do, however, want to emphasize that the new variables rely heavily
@@ -279,7 +279,7 @@ Turaev-Viro model) and a 4d TQFT field theory called the Crane-Yetter
 model using spin networks.
 
 However, Rovelli's talk on spin network states in quantum gravity (see
-"week41"), followed by some good conversations, got me
+["Week 41"](#week41)), followed by some good conversations, got me
 motivated to write up something on spin network states:
 
 5) "Spin network states in gauge theory", by John Baez, 19 pages in LaTeX format available as [`gr-qc/9411007`](http://xxx.lanl.gov/abs/gr-qc/9411007) (or as "`spin.tex`" by ftp as described at the end of this article).

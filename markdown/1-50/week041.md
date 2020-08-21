@@ -45,7 +45,7 @@ there are SEVERAL DIFFERENT WAYS to set up 3-dimensional quantum
 gravity, corresponding to different approaches people have to
 4-dimensional quantum gravity. For this, check out Carlip's paper "Six
 ways to quantize (2+1)-dimensional gravity," mentioned in
-"week16". However, I think the "best" way to quantize
+["Week 16"](#week16). However, I think the "best" way to quantize
 gravity in 3 dimensions is the way involving Chern-Simons theory,
 because this way is the most closely related to Ashtekar's approach to
 quantizing gravity in 4 dimensions, hence it sheds the most light on the
@@ -152,7 +152,7 @@ vertex. Really, the spins should be thought of as irreducible
 representations of $SU(2)$, and the triangle inequalities is necessary for
 the representation $j_3$ to appear as a summand in the tensor product of
 the representations $j_1$ and $j_2$. (If the last sentence was meaningless to
-you, reading "week5" will help a little, though probably
+you, reading ["Week 5"](#week5) will help a little, though probably
 not quite enough.)
 
 Penrose introduced spin networks as part of a purely combinatorial
@@ -170,7 +170,7 @@ them is:
 3) "Conformal field theory, spin geometry, and quantum gravity", by Louis Crane, _Phys. Lett._ **B259** (1991), 243--248.
 
 I will be coming out with a paper on them next week if I get my act
-together, and I may say a bit more about them in future "weeks".
+together, and I may say a bit more about them in future ["Week s"](#weeks).
 
 Rovelli also mentioned an interesting paper he wrote about the problem
 of time in quantum gravity with the operator-algebra/noncommutative-
@@ -181,7 +181,7 @@ geometry guru Alain Connes:
 The problem of time in quantum gravity is a bit tricky to describe,
 since it takes different guises in different approaches to quantum
 gravity, but I have attempted to give a rough introduction to it in
-"week11" and "week27". One way to get
+["Week 11"](#week11) and ["Week 27"](#week27). One way to get
 a feeling for it is to realize that anything you are used to doing with
 Hamiltonians in quantum mechanics or quantum field theory, you CAN'T do
 in quantum gravity, at least not in any simple way, because there is no

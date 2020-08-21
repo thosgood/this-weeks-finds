@@ -412,7 +412,7 @@ available in LaTeX format as
 [`gr-qc/9404011`](http://xxx.lanl.gov/abs/gr-qc/9404011).
 
 This is about Smolin's "evolutionary cosmology" scenario, which I
-already discussed in "week31". Let me just quote the
+already discussed in ["Week 31"](#week31). Let me just quote the
 abstract:
 
 > A cosmological scenario which explains the values of the parameters of

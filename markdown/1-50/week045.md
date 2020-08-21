@@ -45,7 +45,7 @@ Taubes."
 ------------------------------------------------------------------------
 
 The reference to Donaldson's polynomial invariants appears in
-"week44". The references to the new Seiberg-Witten
+["Week 44"](#week44). The references to the new Seiberg-Witten
 invariants are:
 
 2) "Monopoles and four-manifolds", by Edward Witten, in preparation.
@@ -73,7 +73,7 @@ main focus of interest. Perhaps the most useful thing I can do at this
 point is to use Kronheimer and Mrowka's clear description of their
 moduli space (which is presumably closely related to Seiberg and
 Witten's moduli spaces) to simplify and fill in the holes of what I
-wrote in "week44". I will aim my exposition to
+wrote in ["Week 44"](#week44). I will aim my exposition to
 mathematicians, but make some elementary digressions on physics to spice
 things up.
 

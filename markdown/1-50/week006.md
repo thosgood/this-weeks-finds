@@ -386,7 +386,7 @@ various proposed solutions, including Rovelli's, is given in
 
 4) Chris J. Isham, "Canonical quantum gravity and the problem of time", 125 pages, available as [`gr-qc/9210011`](http://xxx.lanl.gov/abs/gr-qc/9210011).
 
-Anyway, in a paper I very briefly described in "week1":
+Anyway, in a paper I very briefly described in ["Week 1"](#week1):
 
 5) Lee Smolin, "Time, measurement and information loss in quantum
 cosmology", available as

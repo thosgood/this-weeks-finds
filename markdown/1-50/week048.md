@@ -70,7 +70,7 @@ of finite gauge group. For example, the resulting "finite quantum
 group" does *not* depend on $\hbar$; it's just the "quantum double" of the
 group algebra of the group. For more on what this has to do with
 marvelous algebraic things like $n$-categories, the reader should check
-out the paper by Freed cited in "week12", which has
+out the paper by Freed cited in ["Week 12"](#week12), which has
 subsequently been published:
 
 2) "Higher algebraic structures and quantization", by Daniel Freed, _Comm. Math. Phys._ **159** (1994), 343--398.

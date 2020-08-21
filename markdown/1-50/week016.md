@@ -1,7 +1,7 @@
 # Week 16 (1993-05-30) {#week16}
 
 A nice crop of papers has built up while I've been taking a break...
-In "week15" I talked a bit about constructing
+In ["Week 15"](#week15) I talked a bit about constructing
 topological quantum field theories starting with a triangulation of
 spacetime, and how this seems to sneak around the old "is spacetime
 continuous or discrete" argument. Let me describe a bit about one of
@@ -184,7 +184,7 @@ and have the "product" pop out on the third side. Then the equation
         O                 O
 
 really is just associativity! To understand this in a deeper way, read
-Kapranov and Voevodsky's paper (reviewed in "week4"),
+Kapranov and Voevodsky's paper (reviewed in ["Week 4"](#week4)),
 especially the section on the "associahedron".
 
 Requiring that $Z(M)$ be invariant under the bubble move amounts to the
@@ -393,7 +393,7 @@ from these spins and then add it up for all tetrahedra. In the
 Turaev-Viro version, we have replaced the gauge group $SU(2)$ by the
 corresponding quantum group, with the quantum parameter $q$ a root of
 unity, so there are only finitely many irreducible representations, or
-spins, to sum over. (See "week5" for the vaguest of
+spins, to sum over. (See ["Week 5"](#week5) for the vaguest of
 introductions to quantum groups and their representations!) The beauty
 of this theory is that the answer one gets is independent of the
 triangulation one has chosen.
@@ -419,7 +419,7 @@ influential:
 9) H. Ooguri, _Mod. Phys. Lett._ **A7** (1992), 2799.
 
 And there is also the recent paper by Rovelli, which I discussed in
-"week14". This is very readable (once you know what's
+["Week 14"](#week14). This is very readable (once you know what's
 going on!) and conceptual.
 
 ------------------------------------------------------------------------
@@ -455,6 +455,6 @@ gravity, and on page 3 of this large manuscript there is a large diagram
 of the main Lagrangian and Hamiltonian approaches to gravity in 3+1
 dimensions, while on page 35 there is a somewhat smaller chart for 2+1
 gravity. (A very brief preliminary warmup on some of these formulations
-appears in my earlier article, "week7".) I plan on going
+appears in my earlier article, ["Week 7"](#week7).) I plan on going
 through this carefully in order to be able to make up for years of
 neglect on my part of this sort of thing.

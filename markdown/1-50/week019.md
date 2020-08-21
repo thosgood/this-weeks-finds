@@ -90,9 +90,9 @@ Louis Crane and David Yetter, preprint available as
 available as [`hep-th/9302092`](http://xxx.lanl.gov/abs/hep-th/9302092).
 (Weeks 9 and 10)
 
-(I have listed which "Week" I discussed these in case anyone wants to
+(I have listed which ["Week "](#week) I discussed these in case anyone wants to
 go back and check out some of the details. See below for how to find old
-"Weeks".)
+["Week s"](#weeks).)
 
 These papers ran into stiff opposition as soon as they came out! First
 Ocneanu claimed that the Crane-Yetter construction was trivial, in the

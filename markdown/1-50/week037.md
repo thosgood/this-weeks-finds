@@ -10,7 +10,7 @@ away all their mass in the form of completely random Hawking radiation,
 then there's a question about where the information has gone that you
 threw into the black hole in the form of, say, old issues of _Phys. Rev. Lett._. Some people think the information goes into a new "baby
 universe" formed at the heart of the black hole - see
-"week31" for more. The information would still, of
+["Week 31"](#week31) for more. The information would still, of
 course, be gone from *our* point of view in this picture. Strominger
 proposed a set up in which one had a quantum theory of gravity with
 annihilation and creation operators for baby universes, and proposed
@@ -64,7 +64,7 @@ The two developments Ashtekar presented concerned mathematically
 rigorous treatments of the "reality conditions" in his approach to
 quantum gravity, and the "loop states" used by Rovelli and Smolin.
 First let me try to describe the issue of "reality conditions". As I
-described in "week7", one trick that's important in the
+described in ["Week 7"](#week7), one trick that's important in the
 loop representation is to use the "new variables" for general
 relativity introduced by Ashtekar (though Sen and Plebanski already had
 worked with similar ideas). In the older Palatini approach to general
@@ -85,7 +85,7 @@ determinant one. (For people who've read previous posts of mine, I
 should add that the Lie algebra of $SL(2,\mathbb{C})$ is called $\mathfrak{sl}(2,\mathbb{C})$ and is the
 same as the complexification of the Lie algebra $\mathfrak{so}(3)$, which allows one
 to introduce the new variables in a different but equivalent way, as I
-did in "week7".) Ignoring topological niceties for now,
+did in ["Week 7"](#week7).) Ignoring topological niceties for now,
 this lets one reformulate *complex* general relativity (that is, general
 relativity where the metric can be complex-valued) in terms of a
 *complex-valued* frame field and an $SL(2,\mathbb{C})$ connection that is just the
@@ -93,7 +93,7 @@ Lorentz connection in disguise. The latter is called either the "Sen
 connection", the "Ashtekar connection", or the "chiral spin
 connection" depending on who you're talking to. The advantage of this
 shows up when one tries to canonically quantize the theory in terms of
-initial data. (For a bit on this, try "week11".) Here
+initial data. (For a bit on this, try ["Week 11"](#week11).) Here
 we assume our 4-dimensional spacetime can be split up into "space" and
 "time", so that space is a 3-dimensional manifold, and we take as our
 canonically conjugate fields the restriction of the chiral spin
@@ -104,7 +104,7 @@ subtle, especially because one doesn't really want a frame field or
 "triad field", but really a "densitized cotriad field" - but let's
 not worry about this here. I explain this in terms even a mathematician
 can understand in my paper "`string.tex`", available by ftp along with
-all my "week" files as described below.) The point is, first, that the
+all my ["Week "](#week) files as described below.) The point is, first, that the
 $A$ and $E$ fields are mathematically very analogous to the vector potential
 and electric field in electromagnetism - or really in $SL(2,\mathbb{C})$ Yang-Mills
 theory - and secondly, that if you compute their Poisson brackets, you
@@ -116,7 +116,7 @@ time derivative must satisfy at $t = 0$ in order to get a solution at
 later times. In quantum gravity, these constraints are a big technical
 problem one has to deal with, and the point of Ashtekar's new variables
 is precisely that the constraints simplify in terms of these variables.
-(There's more on these constraints in "week11".)
+(There's more on these constraints in ["Week 11"](#week11).)
 
 The price one has paid, however, is that one now seems to be talking
 about *complex-valued* general relativity, which isn't what one had

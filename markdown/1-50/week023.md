@@ -193,7 +193,7 @@ It is formed by starting with the category of representations of an
 algebraic group in characteristic $p$, and then making a semisimple
 category out of this in a manner strongly reminiscent of what they do in
 the theory of quantum groups at roots of unity. (See
-"week5" for a bit more about this.) The object $A$ is
+["Week 5"](#week5) for a bit more about this.) The object $A$ is
 taken to be the sum of one copy of each irreducible representation.
 (Again, this is strikingly reminiscent, and no doubt based on, what
 occurs in the physics of the Wess-Zumino-Witten model, where quantum

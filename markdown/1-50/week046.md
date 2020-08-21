@@ -95,7 +95,7 @@ Libraries, +1 (202) 296-2296, fax +1 (202) 872 0884.
     "The genus of embedded surfaces in the projective plane", by P. B. Kronheimer and T. S. Mrowka, preprint number `#19941128001`, available from the AMS preprint server under subject 57 in the Mathematical Reviews Subject Classification Scheme.
 
 I don't have anything interesting to say about these papers that
-wasn't in "week44" and "week45", but
+wasn't in ["Week 44"](#week44) and ["Week 45"](#week45), but
 anyone interested in following the revolution in Donaldson theory
 initiated by Seiberg and Witten will have to read them.
 
@@ -129,7 +129,7 @@ has roughly similar effects.
 This paper is closely related to the earlier one in which Rovelli and
 Smolin argue that discreteness of area and volume arise naturally in the
 loop representation of quantum gravity, and also to my own paper on spin
-networks. (See "week43" for more on these, and a brief
+networks. (See ["Week 43"](#week43) for more on these, and a brief
 intro to spin networks.) Basically, while my paper shows that spin
 networks give a kind of basis of states for gauge theories with
 arbitrary (compact, connected) gauge group, in this paper Rovelli and
@@ -139,9 +139,9 @@ this case, in more of a physicist's style. This makes spin networks
 into a practical computational tool in quantum gravity, used to great
 effect in the paper on the discreteness of area and volume.
 
-4) "Recent mathematical developments in quantum general relativity", by Abhay Ashtekar, 14 pages in TeX format available as [`gr-qc/9411055`](http://xxx.lanl.gov/abs/gr-qc/9411055) (discussed in "week37").
+4) "Recent mathematical developments in quantum general relativity", by Abhay Ashtekar, 14 pages in TeX format available as [`gr-qc/9411055`](http://xxx.lanl.gov/abs/gr-qc/9411055) (discussed in ["Week 37"](#week37)).
 
-    "Coherent state transforms for spaces of connections", by Abhay Ashtekar, Jerzy Lewandowski, Donald Marolf, Jose Mourao and Thomas Thiemann, 38 pages in LaTeX format, available as [`gr-qc/9412014`](http://xxx.lanl.gov/abs/gr-qc/9412014) (discussed in "week43").
+    "Coherent state transforms for spaces of connections", by Abhay Ashtekar, Jerzy Lewandowski, Donald Marolf, Jose Mourao and Thomas Thiemann, 38 pages in LaTeX format, available as [`gr-qc/9412014`](http://xxx.lanl.gov/abs/gr-qc/9412014) (discussed in ["Week 43"](#week43)).
 
 These are two papers on the loop representation of quantum gravity which
 I talked about in earlier "finds", and are out now. The former is a
@@ -157,8 +157,8 @@ treats functional *derivatives* and other things that are more
 differential than integral in nature. This is crucial in quantum gravity
 because the main remaining mystery, the Wheeler-DeWitt equation or
 Hamiltonian constraint, involves a differential operator on the space of
-connections. (For a wee bit more, try "week11" or
-"week43", where the Hamiltonian constraint is simply
+connections. (For a wee bit more, try ["Week 11"](#week11) or
+["Week 43"](#week43), where the Hamiltonian constraint is simply
 written as $G_{00} = 0$.)
 
 Let me quote their abstract:
@@ -196,7 +196,7 @@ many physicists have sought a better understanding of this entropy. In
 many ways, the nicest sort of explanation would say that the entropy was
 due to degrees of freedom living on the event horizon. A concrete
 calculation along these lines was recently made by Steve Carlip (see
-"week41") in the context of 2+1-dimensional gravity.
+["Week 41"](#week41)) in the context of 2+1-dimensional gravity.
 The mechanism is mathematically very similar to what happens in (a
 widely popular theory of) the fractional quantum Hall effect! In both
 cases, Chern-Simons theory on a 3d manifold with boundary gives rise to
@@ -255,13 +255,13 @@ representations, which are certain braided monoidal 2-categories.
 
 This preprint, which I obtained through my network of spies, *seems* to
 be implicitly claiming that the work of Fischer describing 2d surfaces
-in $\mathbb{R}^4$ via on braided monoidal 2-categories (see "week12") is a bit wrong, but they don't come out and
+in $\mathbb{R}^4$ via on braided monoidal 2-categories (see ["Week 12"](#week12)) is a bit wrong, but they don't come out and
 say quite what if anything is really wrong.
 
 10) "Non-involutory Hopf algebras and 3-manifold invariants", by Greg Kuperberg, preprint `#19941128002`, available from the AMS preprint server under subject 57 or 16 in the Mathematical Reviews Subject Classification Scheme.
 
 I noted the existence of a draft of this paper, and related work, in
-"week38". Let me quote:
+["Week 38"](#week38). Let me quote:
 
 ------------------------------------------------------------------------
 

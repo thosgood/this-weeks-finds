@@ -9,7 +9,7 @@ So:
 
 1) B. Durhuus, H. P. Jakobsen and R. Nest, "Topological quantum field theories from generalized 6j-symbols", _Reviews in Math. Physics_ **5** (1993), 1--67.
 
-In "week16" I explained a paper by Fukuma, Hosono and
+In ["Week 16"](#week16) I explained a paper by Fukuma, Hosono and
 Kawai in which they obtained topological quantum field theories in 2
 dimensions starting with a triangulation of a 2d surface. The theories
 were "topological" in the sense that the final answers one computed
@@ -50,7 +50,7 @@ call "higher-dimensional algebra" (following Ronnie Brown), in which
 the distinction between algebra and topology is largely erased, or, one
 might say, revealed for the sham it always was.
 
-For example, as explained more carefully in "week16",
+For example, as explained more carefully in ["Week 16"](#week16),
 the (2,2) move is really just the same as the *associative* law for
 multiplication. The idea is that we are in a 2-dimensional spacetime,
 and a triangle represents multiplication: two "incoming states" go in
@@ -82,7 +82,7 @@ Then the (2,2) move represents associativity:
 
 Of course, the distinction between "incoming" and "outgoing" sides
 of the triangle is conventional, and the more detailed explanation in
-"week16" shows how that fits into the formalism.
+["Week 16"](#week16) shows how that fits into the formalism.
 Roughly speaking, what we have is not just any old algebra, but an
 algebra that, thought of as a vector space, is equipped with an
 isomorphism between it and its dual. This isomorphism allows us to
@@ -139,8 +139,8 @@ distilled sort of way.
 The original Ponzano-Regge and Turaev-Viro papers, and various other
 ones clarifying the relation of the Turaev/Viro theory to quantum
 gravity in spacetimes of dimension 3, are listed in
-"week16". It's also worth checking out the paper by
-Barrett and Foxon listed in "week24", as well as the
+["Week 16"](#week16). It's also worth checking out the paper by
+Barrett and Foxon listed in ["Week 24"](#week24), as well as the
 following paper, for which I'll just quote the abstract:
 
 2) Timothy J. Foxon, "Spin networks, Turaev-Viro theory and the loop representation", available as [`gr-qc/9408013`](http://xxx.lanl.gov/abs/gr-qc/9408013).
@@ -163,7 +163,7 @@ knot theory and the inner product in quantum gravity, available as
 [`tang.tex`](http://math.ucr.edu/home/baez/tang.tex).)
 
 In addition to the papers by Turaev-Viro and Fukuma-Shapere listed in
-"week16", there are some other papers on Hopf algebras
+["Week 16"](#week16), there are some other papers on Hopf algebras
 and 3d topological quantum field theories that I should list:
 
 3) Greg Kuperberg, "Involutory Hopf algebras and three-manifold invariants", _Internat. Jour. Math_ **2** (1991), 41--66.

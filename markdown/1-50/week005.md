@@ -183,7 +183,7 @@ algebras and groups. Every representation of a quantum group gives an
 invariant of links (actually even tangles), and these link invariants
 are functions of $q$. If we take the nth derivative of one of these
 invariants with respect to $\hbar$ and evaluate it at $\hbar = 0$ we get a
-"Vassiliev invariant of degree $n$" (see "week3" for the
+"Vassiliev invariant of degree $n$" (see ["Week 3"](#week3) for the
 definition). Better than that, when $q$ is a root of unity each quantum
 group gives us a 3-dimensional "topological quantum field theory," or
 TQFT known as Chern-Simons theory. In particular, we get an invariant of

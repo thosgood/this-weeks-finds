@@ -3,7 +3,7 @@
 I'm hitting the road again tomorrow and will be going to the Quantum
 Topology conference in Kansas until Sunday, so I thought I'd post this
 week's finds early. As a result they'll be pretty brief. Let me start
-with one that I mentioned in "week9" but is now easier to
+with one that I mentioned in ["Week 9"](#week9) but is now easier to
 get:
 
 1) "Unique determination of an inner product by adjointness relations in

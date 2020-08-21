@@ -75,7 +75,7 @@ biased, so don't trust me.
 
 I received a packet of papers by Piunikhin a while ago. The most new and
 interesting thing is the first paper listed above. In
-"week3" I noted a conjecture of Bar-Natan that all
+["Week 3"](#week3) I noted a conjecture of Bar-Natan that all
 Vassiliev invariants come from quantum group knot invariants (or in
 other words, from Lie algebra representations.) Piunikhin claims to
 refute this by showing that there is a Vassiliev invariant of degree 6
@@ -101,7 +101,7 @@ welcome.
 
 4) "Surgical invariants of four-manifolds", by Boguslaw Broda, preprint
 available as [`hep-th/9302092`](http://xxx.lanl.gov/ps/hep-th/9302092).
-(Revisited - see "week9")
+(Revisited - see ["Week 9"](#week9))
 
 Let me briefly recall the setup: we describe a compact 4-manifold by a
 handlebody decomposition, and represent this decomposition using a link

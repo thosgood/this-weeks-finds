@@ -156,11 +156,11 @@ certain "coherence relations" that are really not equations, but
 $(j+2)$-morphisms, and so on... up to level $n$. This becomes so
 complicated that only recently have "weak 3-categories" been properly
 defined, by Gordon, Power and Street, who call them tricategories (see
-"week29").
+["Week 29"](#week29)).
 
 A bit earlier, Kapranov and Voevodsky succeeded in defining a certain
 class of weak 4-categories, which happen to be called "braided monoidal
-2-categories" (see "week4"). The interesting thing, you
+2-categories" (see ["Week 4"](#week4)). The interesting thing, you
 see, which justifies getting involved in this business, is that a lot of
 topology *automatically pops out* of the definition of an $n$-category. In
 particular, $n$-categories have a lot to do with $n$-dimensional space. A
@@ -176,8 +176,8 @@ morphisms, and 2-morphisms.)
 
 In any event, these marvelous algebraic structures have been cropping up
 more and more in physics (see especially Crane's stuff listed in
-"week2" and Freed's paper listed in
-"week12"), so I got ahold of a copy of Grothendieck's
+["Week 2"](#week2) and Freed's paper listed in
+["Week 12"](#week12)), so I got ahold of a copy of Grothendieck's
 letter and have begun trying to understand it.
 
 Actually, it's worth noting that these $n$-categorical ideas have been

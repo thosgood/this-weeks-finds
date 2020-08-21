@@ -345,7 +345,7 @@ $$IJ = -JI = K, \quad JK = -KJ = I, \quad KI = -IK = J, \quad I^2 = J^2 = K^2 = 
 
 (Physicists in the 20th century usually use the Pauli matrices instead,
 which are basically the same thing; for the relationship, read
-"week5".)
+["Week 5"](#week5).)
 
 It's natural to ask what the double cover of $A_5$ looks like explicitly
 in terms of the unit quaternions. Conway and Sloane give a nice

@@ -136,7 +136,7 @@ As one can gather from this title there is a close connection between
 mapping class groups and the braid group and knot theory, which is the
 main reason why string theory allowed Witten to get new insights into
 knots. (The more mundane connection, namely that one ties knots out of
-string, seems largely unexplored, but see "week18".)
+string, seems largely unexplored, but see ["Week 18"](#week18).)
 Let me not digress into this fascinating realm, however! The point I
 want to make here is just that:
 
@@ -161,8 +161,8 @@ dull, since Teichmueller space is a point, and the case $g = 1$ is
 beautifully treated using the fact that any Riemann surface of genus 1
 is biholomorphically equivalent to the quotient of the complex plane by
 a lattice, relating this case to the subject of elliptic functions, as
-touched upon in "week13". I should also add that
-"week13" indicates, at least in the $g = 1$ case, why
+touched upon in ["Week 13"](#week13). I should also add that
+["Week 13"](#week13) indicates, at least in the $g = 1$ case, why
 moduli space is often called the "moduli space of curves.")
 
 Let me say how these coordinates go, rather sketchily, just so the
@@ -248,7 +248,7 @@ triangulation of a surface to another:
         O                 O
 
 which reminds me of lattice field theories in 2 dimensions (see
-"week16" for an explanation) and the "pentagon
+["Week 16"](#week16) for an explanation) and the "pentagon
 diagram" showing how to get between the 5 simplest ways to triangulate
 a pentagon using this move (see, for example, Figure 3 in Penner's
 paper above, or Figure 3.2 of Harer's paper). The pentagon diagram

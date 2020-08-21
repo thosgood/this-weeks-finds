@@ -107,7 +107,7 @@ Barrett and T. J. Foxon, preprint available as
 This paper looks at quantum gravity in 3 spacetime dimesions formulated
 along the lines of Ponzano and Regge, that is, with the spacetime
 manifold replaced by a bunch of tetrahedra (a "simplicial complex"). I
-describe some work along these lines in "week16". Here
+describe some work along these lines in ["Week 16"](#week16). Here
 the Feynman path integral is replaced by a discrete sum over states, in
 which the edges of the tetrahedra are assigned integer or half-integer
 lengths, which really correspond to "spins," and the formula for the

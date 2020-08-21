@@ -414,7 +414,7 @@ Well, it'll never win an Academy Award, but this movie is pretty
 important. It's a picture of the 3-dimensional slices of a
 2-dimensional surface in (3+1)-dimensional spacetime, and this surface
 is perfectly smooth but has a saddle point which we are seeing in frame
-4. It is one of what Carter and Saito (see "week2") call the
+4. It is one of what Carter and Saito (see ["Week 2"](#week2)) call the
 "elementary string interactions." The relevance to string theory is
 pretty obvious: we are seeing a movie of part of a string worldsheet,
 which is a surface in (3+1)-dimensional spacetime. My interest in
@@ -439,7 +439,7 @@ solutions of the Yang-Baxter equation, braided monoidal 2-categories, as
 defined by Kapranov and Voevodsky, seem to be a good way for finding
 solutions for the Zamolodchikov equation. (I will post in a while about
 a new paper by Soibelman and Kazhdan that does this. Also see the paper
-by Crane and Frenkel in "week2".)
+by Crane and Frenkel in ["Week 2"](#week2).)
 
 There are also lots of tantalizing ties between the loop variables
 approach to quantum gravity and 2-categories; one can see some of these

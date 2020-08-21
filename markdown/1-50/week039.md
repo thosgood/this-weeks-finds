@@ -99,7 +99,7 @@ gives rise to a cornucopia of deep results about 4-dimensional topology,
 2d Yang-Mills theory has traditionally been considered "trivial" in
 that one can exactly compute pretty much whatever one wants. However,
 Witten, in "On quantum gauge theories in two dimensions" (see
-"week36"), showed that precisely because 2d Yang-Mills
+["Week 36"](#week36)), showed that precisely because 2d Yang-Mills
 theory was exactly soluble, one could use it to study a lot of
 interesting mathematics problems relating to "moduli spaces of flat
 connections." (More about those below.) And Gross, Taylor and others
@@ -113,9 +113,9 @@ I can't help but add that Taylor and I did some work a while back in
 which we formulated $SU(N)$ 2d Yang-Mills theory for *finite* N as a
 string theory. This was meant as evidence for my proposal that the loop
 representation of quantum gravity is a kind of string theory, a proposal
-described in "week18". For more on this sort of thing,
+described in ["Week 18"](#week18). For more on this sort of thing,
 try my paper in the book _Knots and Quantum Gravity_ (see
-"week23") --- which by the way is finally out ---
+["Week 23"](#week23)) --- which by the way is finally out ---
 and also the following:
 
 3) "Strings and two-dimensional QCD for finite $N$", by J. Baez and W. Taylor, 19 pages in LaTeX format available as [`hep-th/9401041`](http://xxx.lanl.gov/abs/hep-th/9401041), or by ftp from `math.ucr.edu` as "`baez/string2.tex`", to appear in _Nuc. Phys. B_.
@@ -143,7 +143,7 @@ world to do with Chern-Simons theory, as summarized so deftly by Atiyah:
 5) _The Geometry and Physics of Knots_, by Michael Atiyah, Cambridge U. Press, Cambridge, 1990.
 
 On the other hand, lately people have been using 2d Yang-Mills theory,
-BF theory, and the like (see "week36") to get a really
+BF theory, and the like (see ["Week 36"](#week36)) to get a really
 thorough handle on the cohomology of the moduli space of flat
 connections. For a mathematical approach to this problem that doesn't
 talk much about gauge theory, try:

@@ -47,7 +47,7 @@ error to understand what the universe is really like!
 Louis Kauffman and Sostenes Lins, Annals of Mathematics Studies No. **133**,
 Princeton U. Press, 304 pages, available July 1994.
 
-I described this briefly in "week17", before I had
+I described this briefly in ["Week 17"](#week17), before I had
 spent much time on it. Let me recall the main point: in the late 80's
 Jones invented a new invariant of knots and links in ordinary 3d space,
 but then Witten recognized that this invariant came from a quantum field
@@ -83,7 +83,7 @@ described to play the role of a clock is a standard idea for dealing
 with the "problem of time," which arises in quantum theories on
 spacetimes having no preferred coordinates, like quantum gravity.
 However, getting this idea to actually work is not at all easy. For a
-bit on this issue see "week27".) Only after choosing
+bit on this issue see ["Week 27"](#week27).) Only after choosing
 this "clock field" can one work out a Hamiltonian for the theory,
 write down the analog of Schrodinger's equation, and examine the
 dynamics. Before, there is only a "Hamiltonian constraint" equation,
@@ -115,14 +115,14 @@ Lie groups. In fact, this analogy is a deep one, since the extended loop
 representation also permits perturbative calculations in Chern-Simons
 theory, allowing one to calculate "Vassiliev invariants" starting just
 from Lie-algebraic data. In fact this was done by Bar-Natan (cf
-"week3"), who was using the extended loop representation
+["Week 3"](#week3)), who was using the extended loop representation
 without particularly knowing about that fact!
 
 This paper puts the extended loop representation to practical use by
 finding some new solutions to the quantum version of Einstein's
 equations. These solutions are essentially Vassiliev invariants! (See
 also the paper by Gambini and Pullin listed in
-"week23").
+["Week 23"](#week23)).
 
 6) Ashtekar variables in classical general relativity, by Domenico
 Giulini, 43 pages, preprint available in TeX form as

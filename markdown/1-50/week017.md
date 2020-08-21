@@ -77,7 +77,7 @@ di Fisica, Universita di Roma "La Sapienza" preprint.
 
 This is an attempt to do for 4d quantum gravity what Regge, Ponzano and
 company so nicely did for 3d quantum gravity (see
-"week16") - describe it using triangulated manifolds
+["Week 16"](#week16)) - describe it using triangulated manifolds
 and angular momentum theory.
 
 5) "Selected topics in quantum groups", by Y. S. Soibelman
@@ -146,7 +146,7 @@ as [`hep-th/9305022`](http://xxx.lanl.gov/abs/hep-th/9305022).
 
 The previous paper obtains some invariants of 4-manifolds by
 triangulating them and doing a kind of "state sum" much like those I
-described in "week16". This paper shows those
+described in ["Week 16"](#week16). This paper shows those
 invariants are trivial - at least for compact manifolds, where one just
 gets the answer "1". This seems to be happening a lot lately.
 
@@ -155,8 +155,8 @@ preprint, 5 pages in TeX available as
 [`hep-th/9305101`](http://xxx.lanl.gov/abs/hep-th/9305101).
 
 An earlier attempt by Broda to construct 4-manifold invariants along
-similar lines was discussed here in "week9" and
-"week10" - the upshot being that the invariant was
+similar lines was discussed here in ["Week 9"](#week9) and
+["Week 10"](#week10) - the upshot being that the invariant was
 trivial. This is a new attempt and Broda has told me that the arguments
 for the earlier invariant being trivial do not apply. Here's hoping!
 

@@ -13,7 +13,7 @@ about some of the papers in it.
 This paper concerns the relation between supersymmetric Yang-Mills
 theory and Donaldson theory, discovered by Seiberg and Witten, which not
 too long ago hit the front page of various newspapers. (See
-"week44" and "week45" for my own
+["Week 44"](#week44) and ["Week 45"](#week45) for my own
 yellow journalism on the subject.) I don't have anything new to say
 about this stuff, of which I am quite ignorant. If you are an expert on
 $N = 2$ supersymmetric Yang-Mills theory, hyper-Kaehler manifolds, cosmic
@@ -24,9 +24,9 @@ looking at.
 
 2) Louis Crane and Igor Frenkel, "Four-dimensional topological quantum field theory, Hopf categories, and the canonical bases", _Jour. Math. Phys._ **35** (1994), 5136--5154. Also available as [`hep-th/9405183`](http://xxx.lanl.gov/abs/hep-th/9405183).
 
-I discussed this paper a wee bit in "week38". Now you
+I discussed this paper a wee bit in ["Week 38"](#week38). Now you
 can actually see the pictures. As we begin to understand $n$-categories
-(see "week49") our concept of symmetry gets deeper and
+(see ["Week 49"](#week49)) our concept of symmetry gets deeper and
 deeper. This isn't surprising. When all we knew about was 0-categories
 - that is, sets! - our concept of symmetry revolved around the notion of
 a "group". This is a set $G$ where you can multiply elements in an
@@ -54,7 +54,7 @@ even isomorphic, they can be "equivalent", or maybe I should say
 "2-equivalent". This is a still more general notion of "sameness". I
 won't try to define it just now, but I'll just note that it arises
 from the fact that in a 2-category one can ask whether two morphisms are
-isomorphic! (For people who followed "week49" and know
+isomorphic! (For people who followed ["Week 49"](#week49) and know
 some category theory, let me note that the standard notion of
 equivalence of categories is a good example of this "equivalence"
 business.)
@@ -74,7 +74,7 @@ prefers, at these higher $n$-categorical levels. Take your favorite group
 - mine is $SU(2)$, which describes 3d rotational symmetry hence angular
 momentum in quantum mechanics. It's category of representations isn't
 just any old category, its a symmetric monoidal category! See the chart
-in "week49" if you forget what this is. Now, there are
+in ["Week 49"](#week49) if you forget what this is. Now, there are
 more general things than groups whose categories of representations are
 symmetric monoidal categories - for example, cocommutative Hopf
 algebras. And there are other kinds of Hopf algebras -
@@ -82,12 +82,12 @@ algebras. And there are other kinds of Hopf algebras -
 categories of representations are *braided* monoidal categories. The
 cool thing is that $SU(2)$ has an avatar called "quantum $SU(2)$" which is
 one of these quantum groups. Again, eyeball the chart in
-"week49". Symmetric monoidal categories are a special
+["Week 49"](#week49). Symmetric monoidal categories are a special
 kind of 4-categories, which is why they show up so much in 4d physics,
 while braided monoidal categories are a special kind of 3-categories,
 which is why they (and quantum groups) show up in 3d physics. For
 example, quantum $SU(2)$ shows up in the study of 3d quantum gravity (see
-"week16"). Now the even cooler thing is that while a
+["Week 16"](#week16)). Now the even cooler thing is that while a
 quaistriangular Hopf algebra is a set with a bunch of operations, there
 is a souped-up gadget, a "quasitriangular Hopf category", which is a
 *category* with an analogous bunch of operations, and these have a

@@ -184,7 +184,7 @@ machinery for quantum field theory and does a perturbative calculation
 of the vacuum expectation value of Wilson loops, one gets the same
 answer, but as a power series in $c$. The coefficient of the $c^n$ is a
 special sort of link invariant called a "Vassiliev invariant" of
-degree $n$. I discussed these a lot in "week3" (see below
+degree $n$. I discussed these a lot in ["Week 3"](#week3) (see below
 for how to get that article), so I won't repeat myself here. In any
 event, Kauffman gave a nice discussion of this sort of thing.
 

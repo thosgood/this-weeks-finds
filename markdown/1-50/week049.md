@@ -78,9 +78,9 @@ in many ways. So far people only know about "strict" $n$-categories for
 all $n$, which one can think of as a special case of the ultimate ones;
 the ultimate 1-categories are just categories, the ultimate 2-categories
 are often called bicategories (see the reference to Benabou in
-"week35"), and ultimate 3-categories are usually called
+["Week 35"](#week35)), and ultimate 3-categories are usually called
 tricategories (see the reference to the paper by Gordon, Power and
-Street) in "week29". Tricategories were just defined last
+Street) in ["Week 29"](#week29). Tricategories were just defined last
 year! They have a whole lot to do with knots, Chern-Simons theory, and
 other 3-dimensional phenomena, as one might expect. If we could
 understand the ultimate 4-categories - tetracategories? - it would
@@ -161,7 +161,7 @@ fact, just the category of representations of the "quantum double" of
 $G$, which is an example of what one might call a "finite quantum
 group". These play a big role in the study of Chern-Simons theory with
 finite gauge group (see the papers by Freed and Quinn in
-"week48"). One can also get the other quantum groups with
+["Week 48"](#week48)). One can also get the other quantum groups with
 the aid of this "quantum double" trick. A good description of this
 case appears in:
 
@@ -178,7 +178,7 @@ Right now I'm busily working out the details of how to get braided
 monoidal 2-categories from monoidal 2-categories by the same trick, with
 the aid of Martin Neuchl and Frank Halanke here. These should have a lot
 to do with 4-dimensional topological quantum field theories (see e.g.
-the paper by Crane and Yetter cited in "week46"). And here
+the paper by Crane and Yetter cited in ["Week 46"](#week46)). And here
 I can't resist mentioning a very nice paper by Neuchl and Schauenburg,
 
 4) "Reconstruction in braided categories and a notion of commutative bialgebra", Martin Neuchl and Peter Schauenburg,_ Mathematisches Institut, Theresienstr._ **39**, 80333 Muenchen, Feb. 20, 1995.

@@ -15,7 +15,7 @@ covariant quantum field theory, one that thinks all coordinate systems
 are equally good, just as general relativity is a generally covariant
 classical field theory. For a more precise definition of TQFTs (which
 even mathematicians who know nothing of physics can probably follow),
-see my article "symmetries"**???**. In any event, I don't
+see my article ["symmetries"](http://math.ucr.edu/home/baez/symmetries.html). In any event, I don't
 think Viro's work exists in printed form yet; I'll let you all know
 when something appears.
 
@@ -66,7 +66,7 @@ using simplices. During the conference he was busy trying to figure out
 the relation of his ideas to Crane and Yetter's.
 
 Also while at the conference, I found a terrible error in
-"week10" in my description of
+["Week 10"](#week10) in my description of
 
 > "Vassiliev invariants contain more information than all knot polynomials",
 by Sergey Piunikhin, preprint.
@@ -101,7 +101,7 @@ many other experts! It is a controversial problem.
 
 Briefly, many people believe that physical observables in quantum
 gravity should commute with the Hamiltonian constraint (cf
-"week11"); this means that they are time-independent,
+["Week 11"](#week11)); this means that they are time-independent,
 or constants of motion, and this makes the dynamics of quantum gravity
 hard to ferrett out. Kuchar calls such quantities "perennials." But
 Rovelli has made a proposal for how to recover dynamics from perennials,
@@ -115,7 +115,7 @@ is much more convincing to me than the former, at least at the
 close to the complete integrability of general relativity, which is most
 unlikely. But on the quantum level things are likely to be quite
 different, and Smolin has recently been at work attempting to construct
-perennials in quantum gravity (cf "week1"). As for
+perennials in quantum gravity (cf ["Week 1"](#week1)). As for
 Kuchar's former point, that observables in quantum gravity need not be
 perennials, his arguments seem rather weak. In any event, read and
 enjoy, but realize that the subject is a tricky one!
@@ -124,7 +124,7 @@ enjoy, but realize that the subject is a tricky one!
 Feb. 6 1993. (Fischer is at `fischer-john@math.yale.edu`)
 
 This is the easiest way to learn about the 2-category of 2-knots. Recall
-(from "week1" and "week4") that a 2-knot
+(from ["Week 1"](#week1) and ["Week 4"](#week4)) that a 2-knot
 is a surface embedded in $\mathbb{R}^4$, which may visualized as a "movie" of
 knots evolving in time. Fischer shows that the algebraic structure of
 2-knots is captured by a braided monoidal 2-category, and he describes

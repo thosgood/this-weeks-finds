@@ -28,13 +28,13 @@ will require still further "higher-dimensional algebra." One approach,
 which is still being born, involves the use of "$n$-categories," which
 are generalizations of braided tensor categories suited for higher-
 dimensional physics. (See for example the papers by Crane in
-"week2", by Kapranov and Voevodsky in
-"week4", by Fischer and Freed (separately) in
-"week12", and the one by Gordon, Power, and Street below.)
+["Week 2"](#week2), by Kapranov and Voevodsky in
+["Week 4"](#week4), by Fischer and Freed (separately) in
+["Week 12"](#week12), and the one by Gordon, Power, and Street below.)
 Lawrence has instead chosen to invent "$n$-algebras," which are vector
 spaces equipped with operations corresponding to the ways one can
 subdivide $(n-1)$-dimensional simplices into more such simplices. (See the
-paper by Chung, Fukuma and Shapere in "week16" for some
+paper by Chung, Fukuma and Shapere in ["Week 16"](#week16) for some
 of the physics motivation here.)
 
 These alternative approaches should someday be seen as different aspects
@@ -61,7 +61,7 @@ An "$n$-category" is a kind of algebraic structure that has "objects,"
 on up to "$n$-morphisms." However, the *correct* definition of an
 n-category for the purposes of physics is still unclear! I gave a rough
 explanation of the importance of 2-categories in physics in
-"week4", where I discussed Kapranov and Voevodsky's nice
+["Week 4"](#week4), where I discussed Kapranov and Voevodsky's nice
 definition of braided tensor 2-categories. However, it seems likely that
 we will need to understand the situation for larger n as well. This
 paper makes a big step in this direction, by defining "tricategories"

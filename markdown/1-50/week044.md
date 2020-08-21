@@ -100,7 +100,7 @@ the stuff of many erudite and difficult papers. On the other hand,
 Donaldson invariants were always notoriously difficult to compute.
 Taubes predicted that a purely combinatorial formula for them may be
 around within a year. (Here it is interesting to note the work of Crane,
-Frenkel, and Yetter in that direction; see "week2" and
-"week38".) This is sure to lead to a deeper
+Frenkel, and Yetter in that direction; see ["Week 2"](#week2) and
+["Week 38"](#week38).) This is sure to lead to a deeper
 understanding of 4-dimensional topology, and quite possibly,
 4-dimensional physics as well.

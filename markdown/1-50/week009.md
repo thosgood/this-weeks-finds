@@ -198,7 +198,7 @@ of framed links to cook up an invariant of 4-manifolds from the
 handlebody decomposition - which, note, involves lots of links. Recall
 that the Kauffman bracket assigns to each link a polynomial in one
 variable, $q$. Here "$q$" is just the same $q$ that appears in the quantum
-group $SU_q(2)$. As I mentioned in "week5", this acts
+group $SU_q(2)$. As I mentioned in ["Week 5"](#week5), this acts
 quite differently when $q$ is a root of unity, and the 3d topological
 quantum field theories coming from quantum groups, as well as Crane and
 Yetter's 4d topological quantum field theory, come from considering
@@ -222,7 +222,7 @@ I was just at the Pacific Coast Gravity Meeting last weekend and heard
 Ranjeet Tate talk on this work. Recall first of all that minisuperspaces
 are finite-dimensional approximations to the phase space of general
 relativity, and are used to get some insight into quantum gravity. I
-went through an example in "week6". In these papers, the
+went through an example in ["Week 6"](#week6). In these papers, the
 authors quantize various "Bianchi type" minisuperspace models. The
 "Bianchi type" business comes from a standard classification of
 homogeneous (but not necessarily isotropic) cosmologies and having a lot

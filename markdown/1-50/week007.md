@@ -5,7 +5,7 @@
 and Quantization)", by Abhay Ashtekar, 87 pp, Plain TeX, available as
 [`gr-qc/9302024`](http://xxx.lanl.gov/abs/gr-qc/9302024).
 
-I described this paper in "week3", but now it's
+I described this paper in ["Week 3"](#week3), but now it's
 available from gr-qc. It's a good quick introduction to the loop
 representation of quantum gravity.
 
@@ -112,7 +112,7 @@ where $(i,j,k)$ is a cyclic permutation of $(1,2,3)$. (I hope I haven't
 screwed up the signs.) Note that the $J$'s by themselves form a Lie
 subalgebra called $\mathfrak{so}(3)$, the Lie algebra of the rotation group $SO(3)$.
 Note that $\mathfrak{so}(3)$ is isomorphic to the the cute little Lie algebra $\mathfrak{su}(2)$ I
-described in my post "week5"; $J_1$, $J_2$, and $J_3$
+described in my post ["Week 5"](#week5); $J_1$, $J_2$, and $J_3$
 correspond to the guys $I$, $J$, and $K$ divided by two.
 
 The $\mathfrak{so}(1,3)$ connection has a curvature, and using the tetrads again we
@@ -191,10 +191,10 @@ writing about that, but for now, read the book!
 3) "We are not stuck with gluing", by David Yetter and Louis Crane,
 preprint available as [`hep-th/9302118`](http://xxx.lanl.gov/abs/hep-th/9302118) in latex form, 2 pages.
 
-Well, in "week2" I mentioned Crane and Yetter's
+Well, in ["Week 2"](#week2) I mentioned Crane and Yetter's
 marvelous construction of a 4d topological quantum field theory using
 the representations of the quantum group $SU_q(2)$ - and in
-"week5" I mentioned Ocneanu's "proof" that the
+["Week 5"](#week5) I mentioned Ocneanu's "proof" that the
 resulting 4-manifold invariants were utterly trivial (equal to 1 for all
 4-manifolds). Now Crane and Yetter have replied, saying that their
 4-manifold invariants are not trivial and that Ocneanu interpreted their

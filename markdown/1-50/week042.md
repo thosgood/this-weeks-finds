@@ -26,7 +26,7 @@ strings with quark and antiquark on each end. So here the "string"
 idea is revived but as an approximation to a theory of gauge fields. One
 can even try to derive approximate string equations from the equations
 for the strong force: the Yang-Mills equations. In my paper on strings,
-loops, knots and gauge fields (see "week18"), I gave
+loops, knots and gauge fields (see ["Week 18"](#week18)), I gave
 references to some early papers on the subject:
 
 1) "QCD and the string model", by Y. Nambu, _Phys. Lett._ **B80** (1979) 372--376.
@@ -203,7 +203,7 @@ Let's see what we've got here:
 10) "A reformulation of the Ponzano-Regge quantum gravity model in terms of surfaces", Junichi Iwasaki, University of Pittsburgh, 11 pages in LaTeX format available as [`gr-qc/9410010`](http://xxx.lanl.gov/abs/gr-qc/9410010).
 
 I've discussed the Ponzano-Regge model quite a bit in
-"week16" and "week38". It's an approach to
+["Week 16"](#week16) and ["Week 38"](#week38). It's an approach to
 quantum gravity that is especially successful in 3 dimensions, and
 involves chopping spacetime up into simplices. The exact partition
 function, as they say, can be computed using this combinatorial discrete

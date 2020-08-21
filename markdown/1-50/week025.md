@@ -278,7 +278,7 @@ of why this category looks so much like a group appears in
 preprint, December 18, 1992, available as
 [`hep-th/9212115`](http://xxx.lanl.gov/abs/hep-th/9212115).
 
-which I already mentioned in "week12".
+which I already mentioned in ["Week 12"](#week12).
 
 Just as a group can act on a set, a category of torsors can act on a
 category. If we "sheafify" this notion, we get the concept of a gerbe.
@@ -298,7 +298,7 @@ integrality condition turns out to be related to Dirac's original
 argument for quantization of electric charge. Whew!
 
 To wrap up, let me note that the following paper, mentioned in
-"week23", has shown up on gr-qc:
+["Week 23"](#week23), has shown up on gr-qc:
 
 6) "Representation Theory of Analytic Holonomy C\* Algebras", by Abhay
 Ashtekar and Jerzy Lewandowski, to appear in _Knots and Quantum Gravity_,

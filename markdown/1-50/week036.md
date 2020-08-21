@@ -101,11 +101,11 @@ poorly understood manner.
 
 Now for some references: the reference that got me started on these was
 
-> "Exactly soluble diffeomorphism-invariant theories", by Gary Horowitz, _Comm. Math. Phys._, **125** (1989) 417-437. (Listed in "week19")
+> "Exactly soluble diffeomorphism-invariant theories", by Gary Horowitz, _Comm. Math. Phys._, **125** (1989) 417-437. (Listed in ["Week 19"](#week19))
 
 I got more interested in them when I read
 
-> "BF Theories and 2-knots", by Paolo Cotta-Ramusino and Maurizio Martellini, to appear in _Knots and Quantum Gravity_, ed. J. Baez, Oxford U. Press. (Listed in "week23")
+> "BF Theories and 2-knots", by Paolo Cotta-Ramusino and Maurizio Martellini, to appear in _Knots and Quantum Gravity_, ed. J. Baez, Oxford U. Press. (Listed in ["Week 23"](#week23))
 
 which indicated that BF theories may give invariants of surfaces
 embedded in 4-dimensional manifolds, much as Chern-Simons theory gives

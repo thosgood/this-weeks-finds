@@ -102,7 +102,7 @@ example?)
 \[And now let me jump forward to a very interesting issue, Hawking's
 attempt to derive the arrow of time from his "no-boundary boundary
 conditions" choice of the wavefunction of the universe. (See
-"week3") I found this rather unsatisfying when I read
+["Week 3"](#week3)) I found this rather unsatisfying when I read
 it, and had a sneaking suspicion that he was falling into the fallacy
 Gold describes above. Let's hear what Price has to say about it. - jb\]
 
@@ -277,7 +277,7 @@ of self-intersections, calculating these extensions directly from the
 path-integral formula for the Jones polynomial as a Wilson loop
 expectation value in Chern-Simons theory. The relationship of this
 extension to the theory of Vassiliev invariants was recently clarified
-by Kauffman (see "week23"), but there is much more to
+by Kauffman (see ["Week 23"](#week23)), but there is much more to
 do. Here Gambini and collaborators look at loops with transverse triple
 points. I guess I'll just quote the abstract:
 

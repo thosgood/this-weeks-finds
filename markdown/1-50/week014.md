@@ -336,7 +336,7 @@ see that there are some interesting connections between singularity
 theory and group representation theory showing up when we try to
 understand "measures" on the space $A/G$.
 
-The following is a part of a paper discussed in "week5",
+The following is a part of a paper discussed in ["Week 5"](#week5),
 now available from gr-qc:
 
 4) "Completeness of Wilson loop functionals on the moduli space of
@@ -367,7 +367,7 @@ separate points (this is known for the fundamental representation of
 $SU(n)$). If I had a bunch of grad students I would get one to do so.
 
 The following was discussed in an earlier edition of this series,
-"week11", but is now available from gr-qc:
+["Week 11"](#week11), but is now available from gr-qc:
 
 5) "An algebraic approach to the quantization of constrained systems:
 finite dimensional examples", by Ranjeet S. Tate, (Ph.D. Dissertation,

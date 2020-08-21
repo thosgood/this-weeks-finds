@@ -24,7 +24,7 @@ and
     "An algebraic approach to the planar colouring problem", by Louis Kauffman
     and H. Saleur, Yale University preprint `YCTP-P27-91`, November 8, 1991.
 
-(I discussed this work of Kauffman already in "week8", where I described a way to reformulate the 4-color theorem as a property of the vector cross product.)
+(I discussed this work of Kauffman already in ["Week 8"](#week8), where I described a way to reformulate the 4-color theorem as a property of the vector cross product.)
 
 Where to start? Well, probably back in October, 1852. When Francis
 Guthrie was coloring a map of England, he wondered whether it was always
@@ -107,7 +107,7 @@ edges gives a 4-coloring of the faces.
 So, we see that the edge-coloring formulation of the 4-color problem
 points to some relation with the quaternions, or, pretty much the same
 thing, the group $SU(2)$! (For what $SU(2)$ has to do with quaternions, see
-"week5".) Those wrong signs look distressing, but in the
+["Week 5"](#week5).) Those wrong signs look distressing, but in the
 following paper Penrose showed they weren't really so bad:
 
 4) "Applications of negative dimensional tensors", by Roger Penrose, in

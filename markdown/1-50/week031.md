@@ -1,7 +1,7 @@
 # Week 31 (1994-02-18) {#week31}
 
 Well, I'm really busy these days trying to finish up a big project,
-hence the low number of "Weeks" per week, but papers are piling up,
+hence the low number of ["Week s"](#weeks) per week, but papers are piling up,
 and there are some pretty interesting ones, so I thought I'd quickly
 mention a few. This bunch will mainly concern quantum gravity.
 
@@ -212,7 +212,7 @@ hypothesis,
 
 ------------------------------------------------------------------------
 
-**Addendum**: See "week33" for a paper by Smolin on his
+**Addendum**: See ["Week 33"](#week33) for a paper by Smolin on his
 evolutionary cosmology theory. His book came out in 1997 under the title "The Life of the Cosmos" - see "week101" for
 details.
 
