@@ -87,14 +87,14 @@ gives a link invariant. Witten showed that this link invariant is just
 the Kauffman bracket, which is an invariant easily calculated using the
 rules:
 
-Rule 1: If $K$ is the "empty link," the link with NO components
+**Rule 1:** If $K$ is the "empty link," the link with NO components
 whatsoever - i.e., just the empty set - we have
 
 $$\langle K \rangle = 1.$$
 
 This is sort of a normalization rule.
 
-Rule 2: If $K'$ is obtained from $K$ by adding an unlinked copy of the
+**Rule 2:** If $K'$ is obtained from $K$ by adding an unlinked copy of the
 unknot (an unknotted circle) to $K$,
 
 $$\langle K' \rangle = -(a^2 + a^{-2})\langle K \rangle.$$
@@ -102,33 +102,43 @@ $$\langle K' \rangle = -(a^2 + a^{-2})\langle K \rangle.$$
 Here $a$ is an adjustable parameter that appears in Chern-Simons theory -
 a function of the coupling constant.
 
-Rule 3: Suppose $K$, $L$, and $L'$ are 3 knots or links differing at just one
+**Rule 3:** Suppose $K$, $L$, and $L'$ are 3 knots or links differing at just one
 crossing (we're supposing them to be drawn as pictures in 2
-dimensions). And suppose at this crossing they look as follows.
+dimensions). And suppose at this crossing they look as follows:
 
-$K$ looks like:
-
-    \   /
-     \ /
-      /
-     / \
-    /   \
-
-$L$ looks like:
-
-    |   |
-    |   |
-    |   |
-    |   |
-
-and $L'$ looks like
-
-    \   /
-     _/
-
-      _
-     / \
-    /   \
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7pt]
+      \strand[thick] (0,0)
+        to [out=down,in=up] (1,-1);
+      \strand[thick] (1,0)
+        to [out=down,in=up] (0,-1);
+      \flipcrossings{1}
+    \end{knot}
+    \node at (0.5,-1.5) {$K$};
+  \end{tikzpicture}
+  \qquad\qquad
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+        to (0,-1);
+      \strand[thick] (1,0)
+        to (1,-1);
+    \end{knot}
+    \node at (0.5,-1.5) {$L$};
+  \end{tikzpicture}
+  \qquad\qquad
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+        to [out=down,in=down,looseness=1.3] (1,0);
+      \strand[thick] (1,-1)
+        to [out=up,in=up,looseness=1.3] (0,-1);
+      \flipcrossings{1}
+    \end{knot}
+    \node at (0.5,-1.5) {$L'$};
+  \end{tikzpicture}
+$$
 
 Any rotated version of this picture is fine too.
 
@@ -139,24 +149,29 @@ $$\langle K \rangle = a\langle L\rangle + a^{-1}\langle L'\rangle.$$
 That's it! I leave as an exercise for the reader to calculate $\langle K \rangle$ for
 the trefoil knot,
 
-     ________________________
-    /    _______________     \ 
-    \   /               \     |
-     \ /                 |    |
-      /                  |    |    
-     / \                 |    |
-    /   \                |    |
-    \   /                |    |
-     \ /                 |    |
-      /                  |    |    
-     / \                 |    |
-    /   \                |    |
-    \   /                |    |
-     \ /                 |    |
-      /                  |    |    
-     / \                 |    |
-    /   ________________/    |
-    _________________________/
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7pt]
+      \strand[thick] (0,0)
+        to [out=down,in=up] (1,-1)
+        to [out=down,in=up] (0,-2)
+        to [out=down,in=up] (1,-3);
+      \strand[thick] (1,0)
+        to [out=down,in=up] (0,-1)
+        to [out=down,in=up] (1,-2)
+        to [out=down,in=up] (0,-3);
+      \flipcrossings{1,3}
+      \strand[thick] (1,-3)
+        to [out=down,in=down] (2,-3)
+        to (2,0)
+        to [out=up,in=up] (1,0);
+      \strand[thick] (0,-3)
+        to [out=down,in=down] (3,-3)
+        to (3,0)
+        to [out=up,in=up] (0,0);
+    \end{knot}
+  \end{tikzpicture}
+$$
 
 and get $-A^5 - A^{-3} - A^{-7}$. Then try the mirror-image trefoil, or
 "left-handed trefoil," and see what you get.
