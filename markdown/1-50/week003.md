@@ -1,4 +1,4 @@
-# Week 3 (1993-01-30) {#week3}
+# (1993-01-30) {#week3}
 
 Here's this week's reading material. The first test will be in two
 weeks. :-)

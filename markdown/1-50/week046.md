@@ -1,4 +1,4 @@
-# Week 46 (1994-12-12) {#week46}
+# (1994-12-12) {#week46}
 
 I will be on sabbatical during the first half of 1995. I'll be roaming
 hither and thither, and also trying to get some work done on

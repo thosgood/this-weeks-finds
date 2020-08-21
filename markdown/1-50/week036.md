@@ -1,4 +1,4 @@
-# Week 36 (1994-07-15) {#week36}
+# (1994-07-15) {#week36}
 
 I am attempting to keep my nose to the grindstone these days, in part
 since I'm getting ready for the Knots and Quantum Gravity session of

@@ -1,4 +1,4 @@
-# Week 23 (1993-10-24) {#week23}
+# (1993-10-24) {#week23}
 
 I will soon revert to my older style, in which I list piles of new
 papers as they accumulate on my desk. This time, though, I want to

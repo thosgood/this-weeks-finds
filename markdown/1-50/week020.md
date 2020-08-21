@@ -1,4 +1,4 @@
-# Week 20 (1993-10-02) {#week20}
+# (1993-10-02) {#week20}
 
 I think I'll depart from my usual concerns this week and talk about a
 book I'd been meaning to get my hands on for ages:

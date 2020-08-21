@@ -1,4 +1,4 @@
-# Week 43 (1994-11-05) {#week43}
+# (1994-11-05) {#week43}
 
 It is very exciting, yet somewhat scary, as work continues on the loop
 representation of quantum gravity. On the one hand, researches are busy

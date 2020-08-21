@@ -36,11 +36,9 @@ printf '%s\n' '  \endgroup' >> $TEX
 printf '%s\n' '}' >> $TEX
 
 printf "\n" >> $TEX
-printf '%s\n' '\renewcommand{\thesection}{}' >> $TEX
-
-printf "\n" >> $TEX
 printf '%s\n' '\usepackage{titlesec}' >> $TEX
 printf '%s\n' '\newcommand{\sectionbreak}{\clearpage}' >> $TEX
+printf '%s\n' '\titleformat{\section}[display]{\normalfont}{\Large\bfseries Week~\thesection}{1em}{\large\normalfont}' >> $TEX
 
 printf "\n" >> $TEX
 printf '%s\n' '\usepackage[toc]{multitoc}' >> $TEX

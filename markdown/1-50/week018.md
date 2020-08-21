@@ -1,4 +1,4 @@
-# Week 18 (1993-09-11) {#week18}
+# (1993-09-11) {#week18}
 
 I will be resuming this series of articles this fall, though perhaps not
 at a rate of one ["Week "](#week) per week, as I'll be pretty busy. For those

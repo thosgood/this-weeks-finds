@@ -1,4 +1,4 @@
-# Week 26 (1993-11-21) {#week26}
+# (1993-11-21) {#week26}
 
 I have been struggling to learn the rudiments of Teichmueller theory,
 and it's almost time for me to face up to my ignorance of it by posting

@@ -1,4 +1,4 @@
-# Week 1 (1993-01-19) {#week1}
+# January 19, 1993 {#week1}
 
 I thought I might try something that may become a regular feature on
 `sci.physics.research`, if that group comes to be. The idea is that I'll
