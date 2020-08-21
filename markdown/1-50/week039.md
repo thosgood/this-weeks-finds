@@ -16,7 +16,7 @@ on it, the coordinate functions $x$ and y, which commute: $xy = yx$. We can
 think of $x$ and $y$ as representing the position and momentum of a
 classical particle. But when we consider a quantum-mechanical particle,
 we must give up commutativity and instead impose the "canonical
-commutation relations" $xy - yx = i \hbar$, where $\hbar$ is Planck's constant.
+commutation relations" $xy-yx = i \hbar$, where $\hbar$ is Planck's constant.
 Now $x$ and $y$ are not really functions on any space at all, but simply
 elements of a noncommutative algebra. Still, we can try our best to
 *pretend* that they are functions on some mysterious sort of "quantum

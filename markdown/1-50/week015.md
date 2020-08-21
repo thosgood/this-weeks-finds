@@ -173,7 +173,7 @@ $$
   \end{tikzpicture}
 $$
 
-and get $-A^5 - A^{-3} - A^{-7}$. Then try the mirror-image trefoil, or
+and get $-A^5 -A^{-3} -A^{-7}$. Then try the mirror-image trefoil, or
 "left-handed trefoil," and see what you get.
 
 Now in quantum field theory people like doing perturbative calculations,

@@ -31,7 +31,7 @@ $$(v_0,v_1,v_2,v_3)\cdot(w_0,w_1,w_2,w_3) = v_0w_0 + v_1w_1 + v_2w_2 + v_3w_3$$
 relative to some basis, for a Lorentzian metric we can always find a
 basis of the tangent space such that
 
-$$(v_0,v_1,v_2,v_3)\cdot(w_0,w_1,w_2,w_3) = v_0w_0 - v_1w_1 - v_2w_2 - v_3w_3$$
+$$(v_0,v_1,v_2,v_3)\cdot(w_0,w_1,w_2,w_3) = v_0w_0 -v_1w_1 -v_2w_2 -v_3w_3$$
 
 Now the metric in general relativity defines a "connection," which
 tells you a tangent vector might "twist around" as you parallel
@@ -87,7 +87,7 @@ basis of the tangent space. If we express the metric in terms of a
 tetrad, it looks just like the formula for the standard "inner
 product"
 
-$$(v_0,v_1,v_2,v_3)\cdot(w_0,w_1,w_2,w_3) = v_0w_0 - v_1w_1 - v_2w_2 - v_3w_3$$
+$$(v_0,v_1,v_2,v_3)\cdot(w_0,w_1,w_2,w_3) = v_0w_0 -v_1w_1 -v_2w_2 -v_3w_3$$
 
 This allows us to identify the group of linear transformations of the
 tangent space that preserve the metric with the group of linear
@@ -129,7 +129,7 @@ curious and profound fact about $\mathfrak{so}(1,3)$. Note that $\mathfrak{so}(1
 algebra over the real numbers. But if we allow ourselves to form
 *complex* linear combinations of the $J$'s and $K$'s, thus:
 
-$$\begin{aligned}M_i &= (J_i + iK_i)/2 \\ N_i &= (J_i - iK_i)/2\end{aligned}$$
+$$\begin{aligned}M_i &= (J_i + iK_i)/2 \\ N_i &= (J_i -iK_i)/2\end{aligned}$$
 
 (please don't mix up the subscript $i = 1,2,3$ with the other $i$, the
 square root of minus one) we get the following brackets:

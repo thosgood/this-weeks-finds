@@ -201,15 +201,15 @@ measure you waistlength and the lengths around the two cuffs, not the
 inseams!
 
 Now it's a fun exercise to show that we can chop up a surface of genus
-$g > 1$ into exactly $2g - 2$ pairs of pants. Doing so, moreover, requires
-that we cut the surface along $3g - 3$ circles. (Draw some pictures!)
-Thus, we have a total of $3g - 3$ geodesic length functions. However, we
+$g > 1$ into exactly $2g-2$ pairs of pants. Doing so, moreover, requires
+that we cut the surface along $3g-3$ circles. (Draw some pictures!)
+Thus, we have a total of $3g-3$ geodesic length functions. However, we
 also need to describe how the pairs of pants are attached to each other.
 We can glue them together with any amount of twisting, and this twisting
-is a real-valued parameter. So there are $3g - 3$ "twisting parameters"
+is a real-valued parameter. So there are $3g-3$ "twisting parameters"
 required to describe how the pairs of pants are attached. We thus have a
-total of $6g - 6$ parameters, the Fenchel-Nielsen coordinates, and
-Teichmueller space is diffeomorphic to $\mathbb{R}^{6g - 6}$ (since the positive
+total of $6g-6$ parameters, the Fenchel-Nielsen coordinates, and
+Teichmueller space is diffeomorphic to $\mathbb{R}^{6g-6}$ (since the positive
 real numbers are diffeomorphic to $\mathbb{R}$ itself).
 
 I think I want to quit here but not before making a few random remarks.

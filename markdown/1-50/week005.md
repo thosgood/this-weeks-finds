@@ -29,7 +29,7 @@ are not used to them, but the examples make it all clear. The easiest
 example of a Lie algebra is $\mathfrak{gl}(n,\mathbb{C})$, which just means all $n\times n$ complex
 matrices with the bracket defined as the "commutator":
 
-$$[x,y] = xy - yx.$$
+$$[x,y] = xy-yx.$$
 
 Then straightforward calculations show a)-c) hold... so these
 conditions are really encoding the essence of the commutator.

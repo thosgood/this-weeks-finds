@@ -39,7 +39,7 @@ completely homogeneous and isotropic - and let's say it's a closed
 universe in the shape of a 3-sphere, to be specific - the metric is
 given by
 
-$$dt^2 - r(t)^2[(d\psi)^2 + (\sin \psi)^2{(d\theta)^2 + (\sin \theta)^2 (d\varphi)^2}]$$
+$$dt^2-r(t)^2[(d\psi)^2 + (\sin \psi)^2{(d\theta)^2 + (\sin \theta)^2 (d\varphi)^2}]$$
 
 What does all this mean? Here $r(t)$ is the radius of the universe as a
 function of time, the following stuff is just the usual metric on the
@@ -52,7 +52,7 @@ and the fact that the metric on spacetime is $dt^2$ minus a bunch of
 stuff reflects the fact that spacetime geometry is "Lorentzian," just
 as in flat Minkowski space the metric is
 
-$$dt^2 - dx^2 - dy^2 - dz^2.$$
+$$dt^2-dx^2-dy^2-dz^2.$$
 
 The name of the game in this simple sort of big bang cosmology is thus
 finding the function $r(t)$! To do this, of course, we need to see what
@@ -63,7 +63,7 @@ around. We are assuming that it's homogeneous and isotropic, whatever
 it is, so it turns out that all we need to know is its density $\rho$ and
 pressure $P$ (which are functions of time). We get the equations
 
-$$\begin{aligned}r''/r &= -\frac{4\pi}{3}(\rho+3P) \\ (r')^2 &= \frac{8\pi}{3}\rho r^2 - 1\end{aligned}$$
+$$\begin{aligned}r''/r &= -\frac{4\pi}{3}(\rho+3P) \\ (r')^2 &= \frac{8\pi}{3}\rho r^2-1\end{aligned}$$
 
 Here primes denote differentiation with respect to $t$, and I'm using
 units in which the gravitational constant and speed of light are equal
@@ -72,7 +72,7 @@ to 1.
 Let's simplify this even more. Let's assume our matter is "dust,"
 which is the technical term for zero pressure. We get two equations:
 
-$$\begin{aligned}r''/r &= -\frac{4\pi}{3}\rho \\ (r')^2 &= \frac{8\pi}{3}\rho r^2 - 1\end{aligned}\tag{1}$$
+$$\begin{aligned}r''/r &= -\frac{4\pi}{3}\rho \\ (r')^2 &= \frac{8\pi}{3}\rho r^2-1\end{aligned}\tag{1}$$
 
 Now let's take the second one, differentiate with respect to $t$,
 
@@ -84,7 +84,7 @@ $$-\frac{8\pi}{3} \rho r r' = \frac{8\pi}{3}(\rho' r^2 + 2 \rho r r')$$
 
 clear out the crud, and lo:
 
-$$3 \rho r' = - \rho' r$$
+$$3 \rho r' = -\rho' r$$
 
 or, more enlighteningly,
 
@@ -185,18 +185,18 @@ don't I just do it!
 
 So: I said that the formula
 
-$$(r')^2 - \frac{8\pi}{3} \frac{D}{r} = - 1 \tag{3}$$
+$$(r')^2-\frac{8\pi}{3} \frac{D}{r} = -1 \tag{3}$$
 
 looks a lot like a formula of the form "kinetic energy plus potential
 energy is constant". Of course, we could multiply the whole equation by
 anything and get a valid equation, so it's not obvious that the
 "right" Hamiltonian is
 
-$$(r')^2 - \frac{8\pi}{3} \frac{D}{r}$$
+$$(r')^2-\frac{8\pi}{3} \frac{D}{r}$$
 
 or (adding 1 doesn't hurt)
 
-$$(r')^2 - \frac{8\pi}{3} \frac{D}{r} + 1$$
+$$(r')^2-\frac{8\pi}{3} \frac{D}{r} + 1$$
 
 In fact, note that multiplying the Hamiltonian by some function of $r$
 just amounts to reparametrizing time, which is perfectly fine in general
@@ -248,11 +248,11 @@ Okay! Now here's the point, we want to exploit the analogy with good
 old quantum mechanics, which typically has Hamiltonians containing
 something like $p^2$. So let's take our preliminary Hamiltonian
 
-$$(r')^2 - \frac{8\pi}{3} \frac{D}{r} + 1$$
+$$(r')^2-\frac{8\pi}{3} \frac{D}{r} + 1$$
 
 and multiply it by $r^2$, getting
 
-$$H = p^2 - \frac{8\pi D}{3}r + r^2.$$
+$$H = p^2-\frac{8\pi D}{3}r + r^2.$$
 
 Hey, what's this? A harmonic oscillator! (Slightly shifted by the term
 proportional to $r$.) So the universe is just a harmonic oscillator... I
@@ -283,7 +283,7 @@ particle in a potential like this:
                |.-----.-------------
                    .         r 
 
-Here $V(r) = - (8\pi D/3)r + r^2$. The minimum of $V$ is at $r = 4 \pi D/3$ and
+Here $V(r) = -(8\pi D/3)r + r^2$. The minimum of $V$ is at $r = 4 \pi D/3$ and
 the zeroes are at $r = 0$ and $8 \pi D/3$. Classically, a particle with zero
 energy starting at $r = 0$ will roll to the right and make it out to $r = 4\pi D/3$ before rolling back to $r = 0$. This is basically the picture we had
 in Figure 1, except that we've reparametrized time so we have simple

@@ -110,7 +110,7 @@ quantum mechanics, where the "classical phase space" is the space of
 $p$'s and $q$'s, and to quantize one merely decrees that these no longer
 commute:
 
-$$pq - qp = -i \hbar.$$
+$$pq-qp = -i \hbar.$$
 
 So one should be able to get ahold of quantum groups this way too:
 starting with the "moduli space of flat bundles" and "quantizing"

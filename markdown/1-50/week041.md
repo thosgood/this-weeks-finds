@@ -116,7 +116,7 @@ small $\Lambda$ --- limit, it may be approximated by a theory of six
 independent bosonic oscillators. I show below that the Virasoro operator
 $L_0$ for this theory takes the form
 
-$$L_0 \sim N - \left(\frac{r}{4G}\right)^2,$$
+$$L_0 \sim N -\left(\frac{r}{4G}\right)^2,$$
 
 where $N$ is a number operator and $r$ is the horizon radius. It is a
 standard result of string theory that the number of states of such a

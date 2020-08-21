@@ -32,7 +32,7 @@ First consider the wave equation in 2 dimensions. This is an equation
 for a function from $\mathbb{R}^2$ to $\mathbb{R}$, say $\varphi(t,x)$, where $t$ is a timelike and $x$
 is a spacelike coordinate. The equation is simply
 
-$$\frac{d^2\varphi}{dt^2} - \frac{d^2\varphi}{dx^2} = 0.$$
+$$\frac{d^2\varphi}{dt^2} -\frac{d^2\varphi}{dx^2} = 0.$$
 
 Now this equation can be rewritten as an evolutionary equation for
 initial data as follows. We consider pairs of functions $(Q,P)$ on $\mathbb{R}$ - which we think of $\varphi$ and $d\varphi/dt$ on "space", that is, on a surface $t = \text{constant}$.

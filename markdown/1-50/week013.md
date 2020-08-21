@@ -29,12 +29,12 @@ $$\sin(z + 2\pi) = \sin z.$$
 
 It also satisfies a nice differential equation
 
-$$(\sin' z)^2 = 1 - (\sin z)^2$$
+$$(\sin' z)^2 = 1 -(\sin z)^2$$
 
 and for this reason, we could, if we hadn't noticed the sine function
 otherwise, have run into it when we tried to integrate
 
-$$\frac{(1 - u^2)^{-1}}{2}$$
+$$\frac{(1 -u^2)^{-1}}{2}$$
 
 The differential equation above implies that the integral is nice to do
 by the substitution $u = \sin z$, and we get the answer $\arcsin u$. If the
@@ -109,7 +109,7 @@ possible, so let's have the only poles occur at the lattice points
 $$L = \{n \omega_1 + m \omega_2\}.$$
 
 And let's make the poles as nice as possible. Can we have each pole be
-of order one? That is, can we make $P(z)$ blow up like $1/(z - \omega)$ at each
+of order one? That is, can we make $P(z)$ blow up like $1/(z -\omega)$ at each
 lattice point $\omega$ in $L$? No, because if it did, the integral of $P$ around a
 nicely chosen parallelogram around the pole would be zero, because the
 contributions from opposite sides of the parallelogram would cancel by
@@ -120,9 +120,9 @@ Okay, try again. Let's try to make the pole at each lattice point be of
 order two. How can we cook up such a function? We might try something
 obvious: just sum up, for all $\omega$ in the lattice $L$, the functions
 
-$$\frac{1}{(z - \omega)^2}$$
+$$\frac{1}{(z -\omega)^2}$$
 
-We get something periodic with poles like $1/(z - \omega)^2$ at each lattice
+We get something periodic with poles like $1/(z -\omega)^2$ at each lattice
 point $\omega$. But there's a big problem - the sum doesn't converge!
 (Another fun exercise.)
 
@@ -131,7 +131,7 @@ by subtracting off an infinite constant! Just subtract the sum over all
 $\omega$ in $L$ of $1/\omega^2$. Well, all $\omega$ except zero, anyway. This turns out to
 work, but we really should be careful about the order of summation here:
 really, we should let $P(z)$ be $1/z^2$ plus the sum for all nonzero $\omega$ in
-the lattice $L$ of $1/(z - \omega)^2 - 1/\omega^2$. This sum does converge and the
+the lattice $L$ of $1/(z -\omega)^2 -1/\omega^2$. This sum does converge and the
 limit is a function $P(z)$ that's analytic except for poles of order two
 at the lattice points. This is none other than the Weierstrass elliptic
 function, usually written with a fancy Gothic $\mathfrak{P}$ to intimidate people.
@@ -159,7 +159,7 @@ we know $x = P(z)$ and $y = P'(z)$ we can figure out where the point $z$ is
 on the torus. But of course $x$ and $y$ can't be any old thing; the
 differential equation above says they have to satisfy
 
-$$y^2 = 4x^3 - g_2 x - g_3.$$
+$$y^2 = 4x^3 -g_2 x -g_3.$$
 
 Here $x$ and $y$ are complex numbers of course. But look what this means: it
 means that if we look at the pairs of complex numbers $(x,y)$ satisfying
@@ -175,7 +175,7 @@ line to the curve, as in $y^2 = x^3$ or $y^2 = x^2(x+1)$ - draw these in
 the real plane and you'll see what I mean. Anyway, all elliptic curves
 can, by change of variables, be made to look like our favorite one,
 
-$$y^2 = 4x^3 - g_2 x - g_3.$$
+$$y^2 = 4x^3 -g_2 x -g_3.$$
 
 There are lots of more fancy ways of thinking about elliptic curves, and
 one is to think of the fact that they look like a torus as the key part.
@@ -186,7 +186,7 @@ complex numbers, and we can add modulo elements of the lattice $L$, so the
 torus becomes a group with addition $\mod L$ as the group operation. This
 is simple enough, but it means that when we look at the solutions of
 
-$$y^2 = 4x^3 - g_2 x - g_3$$
+$$y^2 = 4x^3 -g_2 x -g_3$$
 
 they must form a group somehow, and viewed this way it's not at all
 obvious! Nonetheless, there is a beautiful geometric description of the
@@ -204,7 +204,7 @@ Then it turns out that one can use the group operation on the elliptic
 curve to get new solutions! Actually, it seems as if Diophantus knew
 this way back when in some special cases. For example, for the problem
 
-$$y(6 - y) = x^3 - x$$
+$$y(6 -y) = x^3 -x$$
 
 Diophantus could start with the trivial solution $(x,y) = (-1,0)$, do some
 mysterious stuff, and get the solution $(17/9,26/27)$. Knapp explains how

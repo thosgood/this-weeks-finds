@@ -157,7 +157,7 @@ between those outer spheres. First, compute the distance between
 neighboring vertices of the icosahedron by taking two and working it
 out:
 
-$$\|(G,1,0) - (G,-1,0)\| = 2$$
+$$\|(G,1,0) -(G,-1,0)\| = 2$$
 
 Then, compute the distance from any of the vertices to the origin, which
 is the center of the central sphere:
@@ -352,7 +352,7 @@ in terms of the unit quaternions. Conway and Sloane give a nice
 description. Let's write $(a,b,c,d)$ for $a + bI + cJ + dK$, write $G$ for
 the golden ratio as before, and $g$ for the inverse of the golden ratio:
 
-$$g = G^{-1} = G - 1 = 0.61803398874989484820458683437\ldots$$
+$$g = G^{-1} = G -1 = 0.61803398874989484820458683437\ldots$$
 
 Then the elements of the double cover of $A_5$ are of the form
 
@@ -529,7 +529,7 @@ proved optimal.
 
 This $r$ is an algebraic number and is a root of the polynomial
 
-$$4096 x^{16} - 18432 x^{12} + 24576 x^{10} - 13952 x^8 + 4096 x^6 - 608x^4 + 32 x^2 + 1$$
+$$4096 x^{16} -18432 x^{12} +24576 x^{10} -13952 x^8 +4096 x^6 -608x^4 +32 x^2 +1$$
 
 They computed $r$ but did not publish the polynomial.
 

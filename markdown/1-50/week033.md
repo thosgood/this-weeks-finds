@@ -86,7 +86,7 @@ with position $Q$ and momentum $P$. Let's suppose that the total momentum $p + P
 of the "apparatus" everything that exerts a force on the particle.
 Then as a consequence of the WAY theorem we can see that (in a certain
 sense) it is impossible to measure the particle's position $q$; all we
-can measure is its position *relative* to the apparatus, $q - Q$.
+can measure is its position *relative* to the apparatus, $q-Q$.
 
 Of course, whenever a "physics theorem" states that something is
 impossible one must peer into it and determine the exact assumptions and
@@ -135,14 +135,14 @@ $$U^*(B + C)U = B + C.$$
 
 First note that
 
-$$\langle u(i), [A,B] u(j)\rangle = (a(i) - a(j)) \langle u(i), Bu(j)\rangle.$$
+$$\langle u(i), [A,B] u(j)\rangle = (a(i)-a(j)) \langle u(i), Bu(j)\rangle.$$
 
 On the other hand, since $A$ and $B$ only act on the Hilbert space for the
 particle, we also have
 
 $$\begin{aligned}\langle u(i),[A,B]u(j) \rangle &= \langle u(i)\otimes v,[A,B]u(j) \rangle \\ &= \langle u(i)\otimes v,[A,B+C]u(j) \rangle \\ &= (a(i)-a(j))\langle u(i)\otimes v,(B+C)u(j)\otimes v \rangle\end{aligned}$$
 
-It follows that if $a(i) - a(j)$ isn't zero,
+It follows that if $a(i)-a(j)$ isn't zero,
 
 $$\begin{aligned}\langle u(i),Bu(j) \rangle &= \langle u(i)\otimes v,(B+C)u(j)\otimes v \rangle \\ &= \langle u(i)\otimes v, U^*(B+C)Uu(j)\otimes v \rangle \\ &= \langle u(i)\otimes v(i),(B+C)u(j)\otimes v(j) \rangle \\ &= \langle u(i),Bu(j) \rangle\langle v(i),v(j) \rangle + \langle u(i),u(j) \rangle\langle v(i),Cv(j) \rangle\end{aligned}$$
 
