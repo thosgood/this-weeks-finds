@@ -21,7 +21,7 @@ quark and the antiquark in a meson apart, the strong force effectively
 formed an elastic "string" with constant tension. This would mean that
 pulling them apart took energy proportional to how far you pulled them
 apart. Past a certain point, the energy would be enough to create a new
-quark-antiquark pair and *snap* - the string would split into two new
+quark-antiquark pair and *snap* --- the string would split into two new
 strings with quark and antiquark on each end. So here the "string"
 idea is revived but as an approximation to a theory of gauge fields. One
 can even try to derive approximate string equations from the equations

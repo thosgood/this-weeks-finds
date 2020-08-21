@@ -26,7 +26,7 @@ lazy and quote the beginning of the paper:
 
 A century or so ago, Ludwig Boltzmann and others attempted to explain
 the temporal asymmetry of the second law of thermodynamics. The hard-won
-lesson of that endeavour - a lesson still commonly misunderstood - was
+lesson of that endeavour --- a lesson still commonly misunderstood --- was
 that the real puzzle of thermodynamics lies not in the question why
 entropy increases with time, but in that as to why it was ever so low in
 the first place. To the extent that Boltzmann himself appreciated that
@@ -40,7 +40,7 @@ problem of temporal asymmetry, however, and one of the great
 achievements of modern cosmology has been to offer us an alternative. It
 now appears that temporal asymmetry is cosmological in origin, a
 consequence of the fact that entropy is much lower than its theoretical
-maximum in the region of the Big Bang - i.e., in what we regard as the
+maximum in the region of the Big Bang --- i.e., in what we regard as the
 *early* stages of the universe.
 
 The task of explaining temporal asymmetry thus becomes the task of
@@ -57,9 +57,9 @@ other. Thus writers on thermodynamics often failed to notice that the
 statistical arguments concerned are inherently insensitive to temporal
 direction, and hence unable to account for temporal asymmetry. And
 writers who did notice this mistake commonly fell for another:
-recognising the need to justify the double standard - the application of
+recognising the need to justify the double standard --- the application of
 the arguments in question 'towards the future' but not 'towards the
-past' - they appealed to additional premisses, without noticing that in
+past' --- they appealed to additional premisses, without noticing that in
 order to do the job, these additions must effectively embody the very
 temporal asymmetry which was problematic in the first place. To assume
 the uncorrelated nature of initial particle motions (or incoming
@@ -74,7 +74,7 @@ priority.)
 One of the main tasks of this paper is to show that mistakes of these
 kinds are widespread in modern cosmology, even in the work of some of
 the contemporary physicists who have been most concerned with the
-problem of the cosmological basis of temporal asymmetry - in the course
+problem of the cosmological basis of temporal asymmetry --- in the course
 of the paper we shall encounter illicit applications of a temporal
 double standard by Paul Davies, Stephen Hawking and Roger Penrose, among
 others. Interdisciplinary point- scoring is not the primary aim, of
@@ -104,12 +104,12 @@ attempt to derive the arrow of time from his "no-boundary boundary
 conditions" choice of the wavefunction of the universe. (See
 ["Week 3"](#week3)) I found this rather unsatisfying when I read
 it, and had a sneaking suspicion that he was falling into the fallacy
-Gold describes above. Let's hear what Price has to say about it. - jb\]
+Gold describes above. Let's hear what Price has to say about it. --- jb\]
 
 Our second example is better known, having been described in Stephen
 Hawking's best seller, A Brief History of Time. It is Hawking's
 proposal to account for temporal asymmetry in terms of what he calls the
-No Boundary Condition (NBC) - a proposal concerning the quantum wave
+No Boundary Condition (NBC) --- a proposal concerning the quantum wave
 function of the universe. To see what is puzzling about Hawking's
 claim, let us keep in mind the basic dilemma. It seemed that provided we
 avoid double standard fallacies, any argument for the smoothness of the
@@ -159,7 +159,7 @@ one temporal extremity of the universe, without excluding disorder at
 both extremities. Why is this combination the important one? Because if
 we can't exclude universes with disorder at both extremities, then we
 haven't explained why our universe doesn't have disorder at both
-extremities - we know that it has order at least one temporal extremity,
+extremities --- we know that it has order at least one temporal extremity,
 namely the extremity we think of as at the beginning of time. And if we
 do exclude disorder at both extremities, we are back to the answer that
 Hawking gave up, namely that order will increase when the universe
@@ -185,7 +185,7 @@ some constraint to the former that it didn't apply to the latter. What
 Hawking needs is a more general argument, to the effect that
 disorder-disorder universes are impossible (or at least overwhelmingly
 improbable). It needs to be shown that almost all possible universes
-have at at least one ordered temporal extremity - or equivalently, at
+have at at least one ordered temporal extremity --- or equivalently, at
 most one disordered extremity. (As Hawking points out, it will then be
 quite legitimate to invoke a weak anthropic argument to explain why we
 regard the ordered extremity thus guaranteed as an *initial* extremity.
@@ -205,7 +205,7 @@ case his mistake is to think that the NBC accounts for the low entropy
 Big Bang.
 
 \[And, eventually, Price concludes that there is indeed something
-lacking in Hawking's attempts to derive an arrow of time. - jb\]
+lacking in Hawking's attempts to derive an arrow of time. --- jb\]
 
 ------------------------------------------------------------------------
 
@@ -261,7 +261,7 @@ as a codimension 1 subset (like a hypersurface in the space of all
 loops), and more fancy singularities appear as still smaller subsets, or
 as the jargon has it, strata of higher codimension. The recent flurry of
 work on Vassiliev invariants points out the importance of these other
-strata - or at least a few - to knot theory. Namely, knot invariants
+strata --- or at least a few --- to knot theory. Namely, knot invariants
 that extend nicely to knots with arbitrarily many transverse double
 points include the famous quantum group knot invariants like the Jones
 polynomial, and there is a close relationship between these "Vassiliev

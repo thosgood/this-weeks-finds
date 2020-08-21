@@ -83,7 +83,7 @@ tricategories (see the reference to the paper by Gordon, Power and
 Street) in ["Week 29"](#week29). Tricategories were just defined last
 year! They have a whole lot to do with knots, Chern-Simons theory, and
 other 3-dimensional phenomena, as one might expect. If we could
-understand the ultimate 4-categories - tetracategories? - it would
+understand the ultimate 4-categories --- tetracategories? --- it would
 probably help us with some of the riddles of topology and physics in 4
 dimensions. (Indeed, what little we *do* understand is already helping a
 bit.)
@@ -131,7 +131,7 @@ here are a bit conjectural; since we don't know what the most general
 5-tuply monoidal 2-categories are like. The exact status of all the
 entries on the table is made more clear in the paper. For now, let me
 just say, first, that these various flavors of $n$-categories turn out to
-be of great interest in topology - some have already been used a lot in
+be of great interest in topology --- some have already been used a lot in
 topological quantum field theory and knot theory, other less, so far,
 but they all seem to have lot to do with generalizations of knot theory
 to different dimensions. Second, it seems that the $n$th column

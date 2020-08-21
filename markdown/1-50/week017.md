@@ -4,7 +4,7 @@ This'll be the last "This Week's Finds" for a few weeks, as I am
 going up to disappear until July. I've gotten some requests for
 introductory material on gauge theory, knot theory, general relativity,
 TQFTs and such recently, so I just made a list of [some of my favorite
-books](http://math.ucr.edu/home/baez/books.html) on this kind of thing - with an emphasis on the
+books](http://math.ucr.edu/home/baez/books.html) on this kind of thing --- with an emphasis on the
 readable ones.
 
 Also, just as a little plug here, a graduate student here at UCR (Javier
@@ -30,7 +30,7 @@ string theory the interaction between mathematicians and physicists,
 especially mathematicians who haven't traditionally been close to
 physics (e.g. algebraic geometers), has strengthened steadily for the
 last 10 years or so. Physicists are coming up with lots of exciting
-mathematical "results" - often NOT rigorously proved! - and
+mathematical "results" --- often NOT rigorously proved! --- and
 mathematicians are getting very interested. Let me quote the abstract:
 
 > Is speculative mathematics dangerous? Recent interactions between
@@ -45,7 +45,7 @@ mathematicians are getting very interested. Let me quote the abstract:
 
 Replies have been solicited, so there may be a debate on this timely
 subject in the AMS Bulletin. This subject has a great potential for
-flame wars - or, as Greeks and academics refer to them, "polemics."
+flame wars --- or, as Greeks and academics refer to them, "polemics."
 Luckily Jaffe and Quinn take a rather careful and balanced tone. I think
 anyone interested in the culture of mathematics and physics should take
 a look at this.
@@ -65,7 +65,7 @@ and physics."
 Louis Kauffman and Sostenes Lins, to be published by Princeton U. Press.
 
 This is an elegant exposition of the 3-manifold invariants obtained from
-the quantum group $SU_q(2)$ - or in other words, from Chern-Simons theory.
+the quantum group $SU_q(2)$ --- or in other words, from Chern-Simons theory.
 In part this is a polishing of existing work, but it also contains some
 interesting new ideas.
 
@@ -77,7 +77,7 @@ di Fisica, Universita di Roma "La Sapienza" preprint.
 
 This is an attempt to do for 4d quantum gravity what Regge, Ponzano and
 company so nicely did for 3d quantum gravity (see
-["Week 16"](#week16)) - describe it using triangulated manifolds
+["Week 16"](#week16)) --- describe it using triangulated manifolds
 and angular momentum theory.
 
 5) "Selected topics in quantum groups", by Y. S. Soibelman
@@ -90,7 +90,7 @@ spheres, and other aspects of "quantum geometry."
 6)" Braids and movies", by J. Scott Carter
 (`carter@mathstat.usouthal.edu`) and Masahico Saito, preprint.
 
-Just as every knot or link is given as the closure of a braid - for
+Just as every knot or link is given as the closure of a braid --- for
 example, the trefoil knot
 
 $$
@@ -135,10 +135,10 @@ $$
   \end{tikzpicture}
 $$
 
-every "2-knot" or "2-link" - that is, a surface embedded in $\mathbb{R}^4$, is
+every "2-knot" or "2-link" --- that is, a surface embedded in $\mathbb{R}^4$, is
 the closure of a "2-braid". Just as there are "Markov moves" that
 say when two links come from the same braid, there are moves for
-2-braids - as discussed here.
+2-braids --- as discussed here.
 
 7) "Combinatorial Invariants from Four Dimensional Lattice Models: II",
 by Danny Birmingham and Mark Rakowski, preprint available in LaTeX form
@@ -147,7 +147,7 @@ as [`hep-th/9305022`](http://xxx.lanl.gov/abs/hep-th/9305022).
 The previous paper obtains some invariants of 4-manifolds by
 triangulating them and doing a kind of "state sum" much like those I
 described in ["Week 16"](#week16). This paper shows those
-invariants are trivial - at least for compact manifolds, where one just
+invariants are trivial --- at least for compact manifolds, where one just
 gets the answer "1". This seems to be happening a lot lately.
 
 8) A note on the four-dimensional Kirby calculus, by Boguslaw Broda,
@@ -156,7 +156,7 @@ preprint, 5 pages in TeX available as
 
 An earlier attempt by Broda to construct 4-manifold invariants along
 similar lines was discussed here in ["Week 9"](#week9) and
-["Week 10"](#week10) - the upshot being that the invariant was
+["Week 10"](#week10) --- the upshot being that the invariant was
 trivial. This is a new attempt and Broda has told me that the arguments
 for the earlier invariant being trivial do not apply. Here's hoping!
 

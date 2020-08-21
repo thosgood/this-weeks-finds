@@ -13,7 +13,7 @@ famous of these is due to Turaev and Viro. Witten showed that this one
 is the same as quantum gravity in 2+1 dimensions. The nice thing is that
 this gives an alternate description of the Turaev-Viro theory in terms
 of more traditional ideas from field theory, so the same theory has a
-"discrete" and a "continuum" formulation - some evidence for my
+"discrete" and a "continuum" formulation --- some evidence for my
 notion that quantum gravity will resolve the old "is space continuous
 or discrete" argument by saying "both, and neither," just as quantum
 mechanics resolved the old "is light a wave or a particle" dispute!
@@ -22,7 +22,7 @@ mechanics resolved the old "is light a wave or a particle" dispute!
 When constructing simplicial topological quantum field theories, one has
 to prove that the answer you get is independent of the triangulation.
 Viro reviewed a couple sets of "moves" whereby one can get between any
-two triangulations of the same manifold - the Alexander moves, and the
+two triangulations of the same manifold --- the Alexander moves, and the
 Pachner moves. He also discussed an alternate, and more convenient, way
 of describing manifolds by "special spines". Here the idea is as
 follows. Pick a bunch of points in the manifold. From each one, start
@@ -88,7 +88,7 @@ the Kauffman bracket, which is an invariant easily calculated using the
 rules:
 
 **Rule 1:** If $K$ is the "empty link," the link with NO components
-whatsoever - i.e., just the empty set - we have
+whatsoever --- i.e., just the empty set --- we have
 
 $$\langle K \rangle = 1.$$
 
@@ -216,8 +216,8 @@ Ashtekar and Smolin are there, as are a bunch of good grad students
 (Bernd Bruegmann was there until very recently) and postdocs, including
 Jerzy Lewandowski and Renate Loll. The whole gang is moving down to Penn
 State this summer, and they will be hiring Jorge Pullin, now at Utah
-State. There are not many people working on quantum gravity - and not
-many jobs in the field - so Penn State will become arguably *the*
+State. There are not many people working on quantum gravity --- and not
+many jobs in the field --- so Penn State will become arguably *the*
 center, at least in the US (let us not forget Penrose, Hawking, Isham,
 et al!), for work on this subject.
 
@@ -239,7 +239,7 @@ polynomial". He outlined his work with Gambini and Bruegmann in which
 they show perturbatively that the Kaufmann bracket (or, alternatively,
 Chern-Simons theory) gives a state of 4-d quantum gravity. This is
 perhaps the most exciting aspect of the "ladder of field theories"
-mentioned above, since it touches upon the real world - or at least
+mentioned above, since it touches upon the real world --- or at least
 comes darn close.
 
 On Sunday, Gerald Johnson started things off with an introduction to his
@@ -279,7 +279,7 @@ are in a sense dual descriptions of certain TQFTs.
 A rather technical introduction to currently interesting topics in
 closed string field theory has just appeared:
 
-1) "Closed string field theory - an introduction", by Barton Zwiebach,
+1) "Closed string field theory --- an introduction", by Barton Zwiebach,
 preprint available as
 [`hep-th/9305026`](http://xxx.lanl.gov/abs/hep-th/9305026) (requires the
 phyzzx macros to print; these macros are also available from hep-th; see

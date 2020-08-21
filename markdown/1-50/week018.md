@@ -5,7 +5,7 @@ at a rate of one ["Week "](#week) per week, as I'll be pretty busy. For those
 of you who haven't seen this series before, let me explain. It's meant
 to be a guide to some papers, mostly in preprint form, that I have found
 interesting. I should emphasize that it's an utterly personal and
-biased selection - if more people did this sort of thing, we might get a
+biased selection --- if more people did this sort of thing, we might get a
 fairer sample, but I'll be unashamed in focussing on my own obsessions,
 which these days lean towards quantum gravity, topological quantum field
 theories, knot theory, and the like.
@@ -70,15 +70,15 @@ wonderful development is for real....
 The odd thing is that there are a lot of mathematical connections
 between string theory and the loop representation. Gradually, as time
 went on, I became more and more convinced that maybe the layfolk were
-right - maybe the loop representation of quantum gravity really WAS
+right --- maybe the loop representation of quantum gravity really WAS
 string theory in disguise, or vice versa. This made a little embarrassed
 by how much I had been making fun of string theory. Still, it could be a
 very good thing. On the one hand, the loop representation of quantum
 gravity is much more well-motivated from basic physical principles than
-string theory - it's not as baroque - a point I still adhere to. So
+string theory --- it's not as baroque --- a point I still adhere to. So
 maybe one could use it to understand string theory a lot more clearly.
 On the other hand, string theory really attempts to explain, not just
-gravity, but a whole lot more - so maybe it might help people see what
+gravity, but a whole lot more --- so maybe it might help people see what
 the loop representation of quantum gravity has to do with the other
 forces and particles (if in fact it actually works).
 
@@ -151,7 +151,7 @@ Here's what I wound up saying:
 > resemblance of these states to wavefunctions of a string field theory
 > is striking. It is natural, therefore, to ask whether the loop
 > representation of quantum gravity might be a string theory in disguise
-> - or vice versa.
+> --- or vice versa.
 >
 > The present paper does not attempt a definitive answer to this
 > question. Rather, we begin by describing a general framework relating
@@ -166,7 +166,7 @@ usually concern themselves with. It treats strings only as maps from a
 surface (the string worldsheet) into spacetime, and only cares about
 such maps up to diffeomorphism, i.e., smooth change of coordinates. In
 most modern string theory the string worldsheet is equipped with more
-geometrical structure (a conformal structure) - it looks locally like
+geometrical structure (a conformal structure) --- it looks locally like
 the complex plane, so one can talk about holomorphic functions on it and
 the like. This is why string theorists are always muttering about
 conformal field theory. But the sort of string theory that Gross and
@@ -186,14 +186,14 @@ Seiberg, and Crane, a rational conformal field theory gives rise to a
 particularly beautiful sort of category called a modular tensor
 category. This contains, as it were, the barest essence of the theory.
 Any modular tensor category gives rise in turn to a 3d topological
-quantum field theory - examples of which are Chern-Simons theory and
+quantum field theory --- examples of which are Chern-Simons theory and
 quantum gravity in 3 dimensions. And Crane and Frenkel have shown (or
 perhaps it's fairer to say that if they ever finish their paper they
 *will* have shown) that the nicest modular tensor categories give rise
 to braided tensor 2-categories, which should, if there be justice, give
 4d topological quantum field theories. (For more information on all
-these wonderful things - which no doubt seem utterly intimidating to the
-uninitiated - check out previous "This Week's Finds.") Quantum
+these wonderful things --- which no doubt seem utterly intimidating to the
+uninitiated --- check out previous "This Week's Finds.") Quantum
 gravity in 4 dimensions is presumably something roughly of this sort, if
 it exists. So what I'm hinting at, in brief, is that a bunch of
 category theory may provide the links between *modern* string theory

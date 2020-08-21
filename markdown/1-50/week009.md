@@ -35,8 +35,8 @@ I've already been trying to keep you all updated on the story about
 Crane and Yetter's 4d TQFT. This week I'll discuss another approach,
 with a vast amount of help from Daniel Ruberman, a topologist at
 Brandeis. Any errors in what I write on this are likely to be due to my
-misunderstandings of what he said - caveat emptor! Broda's paper is
-quite terse - probably due to the race that is going on - and is based
+misunderstandings of what he said --- caveat emptor! Broda's paper is
+quite terse --- probably due to the race that is going on --- and is based
 on:
 
 > _A link calculus for 4-manifolds_, by E. Cesar de Sa, in "Topology of
@@ -53,8 +53,8 @@ strips, and other Dali-esque wiggly objects in hyperspace. Then, when
 they take courses in it, they are confronted with nasty separation
 axioms and cohomology theories! This is just to scare away outsiders!
 Handlebody theory really *is* about wiggly objects in hyperspace, and
-it's lots of fun - though to be good in it you need to know your point
-set topology and your algebraic topology, I'm afraid - and much better
+it's lots of fun --- though to be good in it you need to know your point
+set topology and your algebraic topology, I'm afraid --- and much better
 than I do!
 
 Recall:
@@ -106,7 +106,7 @@ thinking about. By the way, a good introduction to this stuff is
 
 > _The Topology of 4-manifolds_, by Robion C. Kirby, Springer-Verlag Lecture Notes in Mathematics (1989), vol. **1374**.
 
-So - here is how we *draw* what's going on. I apologize for being
+So --- here is how we *draw* what's going on. I apologize for being
 somewhat sketchy here (sorry for the pun, too). I am a bit rushed since
 I'm heading off somewhere else next weekend... and I am not as
 familiar with this stuff as I should be.
@@ -119,15 +119,15 @@ pretending that our blackboard is a picture of $S^3$!
 As we add handles we continue to "draw" what's happening at the
 boundary of the 4-manifold we have at each stage of the game. 1-handles
 are attached by gluing a $D^3 \times D^1$ onto the boundary along two $D^3$'s
-- or balls - so we can just draw the two balls.
+- or balls --- so we can just draw the two balls.
 
 2-handles are attached by gluing a $D^2 \times D^2$ onto the boundary of the
-4-manifold we have so far along a $D^2 \times S^1$ - or solid torus, so we
+4-manifold we have so far along a $D^2 \times S^1$ --- or solid torus, so we
 just need to figure out how to draw an embedded solid torus. Well, for
 this we just need to draw a knot (that is, an embedded circle), and
 write an integer next to it saying how many times the embedded solid
-torus "twists" - plus or minus depending on clockwise or
-counterclockwise - as we go around the circle. In other words, an
+torus "twists" --- plus or minus depending on clockwise or
+counterclockwise --- as we go around the circle. In other words, an
 embedded solid torus is (up to diffeomorphism) essentially the same as a
 framed knot. If we are attaching a bunch of 2-handles we need to draw a
 framed link.
@@ -187,7 +187,7 @@ decompositions. So, as usual, we would like to have a finite set of
 "moves" that allow us to get between any pair of handlebody
 decompositions of the same 4-manifold. Then we can construct a
 4-manifold invariant by cooking up a number from a handlebody
-decomposition - presented as a picture as above, if we want - and
+decomposition --- presented as a picture as above, if we want --- and
 showing that it doesn't change under these "moves".
 
 So, what de Sa did was precisely to find such a set of moves. (There,
@@ -195,7 +195,7 @@ that's what I understand of his work!)
 
 And what Broda did was precisely to use the Kauffman bracket invariant
 of framed links to cook up an invariant of 4-manifolds from the
-handlebody decomposition - which, note, involves lots of links. Recall
+handlebody decomposition --- which, note, involves lots of links. Recall
 that the Kauffman bracket assigns to each link a polynomial in one
 variable, $q$. Here "$q$" is just the same $q$ that appears in the quantum
 group $SU_q(2)$. As I mentioned in ["Week 5"](#week5), this acts
@@ -254,7 +254,7 @@ is by doing. There he wrote this paper on Ashtekar's approach to
 finding the right inner product for the space of states of quantum
 gravity. I had heard about this paper, but hadn't seen it until I met
 Rendall at the gravity meeting last weekend. He gave me a copy and
-explained it. It is a simple and beautiful paper - such nice
+explained it. It is a simple and beautiful paper --- such nice
 mathematical results that I am afraid someone else may have found them
 earlier somewhere.
 
@@ -299,7 +299,7 @@ everyone to Isham's paper:
 In particular, one interesting approach is due to Rovelli, and is called
 "evolving constants of motion" (a deliberate and very accurate
 oxymoron). While there are serious technical problems with this
-approach, it's very natural from a physical point of view - at least
+approach, it's very natural from a physical point of view --- at least
 once you get used to it. I have the feeling that the younger physicists
 are, as usual, getting used to it a lot more quickly than the older
 folks who have been pondering the problem of time for many years.
@@ -317,7 +317,7 @@ loop representation of gauge theories, so his work is especially worth
 paying attention to. He explained the idea of this paper to me a while
 back. Its aim is to provide a workable "calculus" for the loop
 representation by enlarging the ordinary loop group to a larger group
-which is actually an infinite-dimensional Lie group - the point being
+which is actually an infinite-dimensional Lie group --- the point being
 that the usual loop group doesn't have a Lie algebra, but this one
 does. As one might expect, the Lie algebra of this group is closely
 related to the theory of Vassiliev invariants. The paper considers some

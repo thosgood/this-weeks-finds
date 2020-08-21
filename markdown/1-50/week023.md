@@ -17,9 +17,9 @@ Quinn, to appear in the proceedings of the Park City Geometry Institute.
 
 3) "On the Andrews-Curtis conjecture and related problems", by Wolfgang Metzler, in _Combinatorial Methods in Topology and Algebraic Geometry_, Contemporary Mathematics **44**, AMS, 1985.
 
-Last week I described - in a pretty sketchy way - how the 4-color
+Last week I described --- in a pretty sketchy way --- how the 4-color
 theorem and the Beraha conjecture are related to TQFTs. These can be
-regarded as two very hard problems in 2-dimensional topology - one
+regarded as two very hard problems in 2-dimensional topology --- one
 solved by a mixture of cleverness and extreme brute force, the other
 still open. There is another hard problem in 2-dimensional topology
 called the Andrews-Curtis conjecture, which Quinn is working on using
@@ -51,9 +51,9 @@ other by a sequence of the following easy steps, called Tietze moves:
 1)   Throw in an extra new generator $x$ together with the extra new
 relation $xg^{-1}$ where $g$ is a product of the previous generators and
 their inverses.
-2)  The inverse of 1) - remove a generator $x$ together with the relation $xg^{-1}$, if possible (the relation $xg^{-1}$ needs to be there!).
+2)  The inverse of 1) --- remove a generator $x$ together with the relation $xg^{-1}$, if possible (the relation $xg^{-1}$ needs to be there!).
 3)  Throw in a new relation that's a consequence of existing relations.
-4)  The inverse of 2) - remove a relation that's a consequence of other
+4)  The inverse of 2) --- remove a relation that's a consequence of other
 relations.  
 
 So if one has two presentations and wants to see if they give same
@@ -81,7 +81,7 @@ relation x.
 5)  Change $r_1$ to $r_1r_2$
 6)  Change $r_1$ to $gr_1g^{-1}$ for any $g$.
 
-The experts seem to think this conjecture is probably false - but nobody
+The experts seem to think this conjecture is probably false --- but nobody
 has disproved it. Metzler lists a few presentations of the trivial group
 that might be counterexamples: nobody has ever found a way to use moves
 1)-6) to boil them down to the presentation $\langle x \mid x \rangle$. For example,

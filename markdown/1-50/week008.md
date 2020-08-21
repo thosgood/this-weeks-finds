@@ -119,7 +119,7 @@ $$
 $$
 
 In general, $e_i$ "folds over" the $i$th and $(i+1)$st strands. Note that if
-we square $e_i$ we get a loop - e.g., $e_1$ squared is
+we square $e_i$ we get a loop --- e.g., $e_1$ squared is
 
 $$
   \begin{tikzpicture}
@@ -198,7 +198,7 @@ some exact results on the 'percolation' problem", by H. N. V. Temperley
 and E. H. Lieb, _Proc. Roy. Soc. Lond._ **322** (1971), 251--280.
 
 It gained a lot more fame when it appeared as the explanation for the
-Jones polynomial invariant of knots - although Jones had been using it
+Jones polynomial invariant of knots --- although Jones had been using it
 not for knot theory, but in the study of von Neumann algebras, and the
 Jones polynomial was just an unexpected spinoff. Its importance in knot
 theory comes from the fact that it is a quotient of the group algebra of

@@ -106,7 +106,7 @@ constants of physics appear "tuned" for maximizing black hole
 production, and he argues in his book that they do appear so tuned. Of
 course, this is an extremely delicate business, since our understanding
 of galaxy formation, star formation and black hole formation even in
-*this* universe is still rather weak - much less for other conceivable
+*this* universe is still rather weak --- much less for other conceivable
 universes in which the fundamental constants take different values.
 
 Crane enters the fray at this point, and proposes an additional
@@ -193,12 +193,12 @@ to mathematics:
 Finally, lest the mathematicians think I have abandoned ship, some
 rigorous results:
 
-8) ""No Hair" Theorems - Folklore, Conjectures, Results", by Piotr T.
+8) ""No Hair" Theorems --- Folklore, Conjectures, Results", by Piotr T.
 Chrusciel, Garching preprint MPA 792, 30 pages available in LaTeX form
 as [`gr-qc/9402032`](http://xxx.lanl.gov/abs/gr-qc/9402032).
 
 The famous "no hair" theorem says that in general relativity static
-black hole solutions are determined by very few parameters - typically
+black hole solutions are determined by very few parameters --- typically
 listed as mass, angular momentum and charge in "rest frame" of the
 black hole. There have been many attempts to extend this result,
 especially because no *actual* black hole is likely to be utterly
@@ -213,9 +213,9 @@ hypothesis,
 ------------------------------------------------------------------------
 
 **Addendum**: See ["Week 33"](#week33) for a paper by Smolin on his
-evolutionary cosmology theory. His book came out in 1997 under the title "The Life of the Cosmos" - see "week101" for
+evolutionary cosmology theory. His book came out in 1997 under the title "The Life of the Cosmos" --- see "week101" for
 details.
 
 ------------------------------------------------------------------------
 
-*The thing that makes things and the thing that makes things fall apart - they're the same thing. Entropy maximization!* - Chris Lee
+*The thing that makes things and the thing that makes things fall apart --- they're the same thing. Entropy maximization!* --- Chris Lee

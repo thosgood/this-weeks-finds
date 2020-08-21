@@ -317,7 +317,7 @@ give some quotes that highlight the issues:
 produces a number. But this number may be totally unpredictable even if
 the sates is perfectly known. Equivalently, this number by itself may
 give no information on the state of the system \[in the Heisenberg
-picture - jb\]. For example, the reading of a clock, or the vluae of a
+picture --- jb\]. For example, the reading of a clock, or the vluae of a
 field, not knowing where and when it has been measured, are partial
 observables.
 > 

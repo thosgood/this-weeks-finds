@@ -6,7 +6,7 @@ quantum field theory and 4-dimensional topology.
 
 The quantum field theories that describe three of the forces of nature
 (electromagnetic, strong and weak) depend for their formulation on a
-fixed metric on spacetime - that is, a way of measuring distance and
+fixed metric on spacetime --- that is, a way of measuring distance and
 time. Indeed, it seems pretty close to being true that spacetime is
 $\mathbb{R}^4$, and that the "interval" between any two points in 4-dimensional
 space is given by the Minkowski metric
@@ -119,7 +119,7 @@ examples.
 In my discussions of Broda's work I extensively quoted some
 correspondence with Dan Ruberman, who showed that in Broda's original
 construction, the partition function of a 4-dimensional manifold was
-just a function of its signature and possibly some Betti numbers - these
+just a function of its signature and possibly some Betti numbers --- these
 being well-known invariants, it's not especially exciting from the
 point of view of topology. This was also shown by Justin Roberts:
 
@@ -174,12 +174,12 @@ _Comm. Math. Phys._, **125** (1989) 417--437.
 
 This theory is a kind of simplified version of 4d quantum gravity that
 is a lot closer in *character* to Chern-Simons theory. Like Chern-Simons
-theory, there are no "local degrees of freedom" - every solution looks
+theory, there are no "local degrees of freedom" --- every solution looks
 pretty much like every other one as long as we don't take a big tour of
 space and notice that funny things happen when we go around a
 noncontractible loop, which is the sort of thing that can only exist if
 space has a nontrivial topology. 4d quantum gravity, on the other hand,
-should have loads of local degrees of freedom - the local curving of
+should have loads of local degrees of freedom --- the local curving of
 spacetime!
 
 What Crane and Yetter were dreaming of doing was constructing 4d quantum
@@ -192,7 +192,7 @@ it out explicitly. On the other hand, $B\wedge F$ theory is so simple that
 it doesn't tell us much new about topology, at least not the topology
 of 4-dimensional manifolds per se. Via Donaldson theory and the work of
 Kronheimer and Mrowka it's probably telling us a lot about the topology
-of 2-dimensional surfaces embedded in 4-dimensional manifolds - but
+of 2-dimensional surfaces embedded in 4-dimensional manifolds --- but
 alas, I don't understand this stuff very well yet!
 
 Getting our hands on 4d quantum gravity as a TQFT along these lines is

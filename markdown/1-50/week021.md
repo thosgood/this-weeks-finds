@@ -47,7 +47,7 @@ however, as a grad student, I took a course in "geometric topology" by
 Tim Cochran, and was immensely pleased to find that *some* topologists
 really did draw wild pictures of many-handled doughnuts and the like in
 4 dimensions, and prove things by sliding handles around. The nice thing
-about this book is that it is readable by any undergraduate - it
+about this book is that it is readable by any undergraduate --- it
 doesn't assume or even mention the definition of a topological space! -
 but covers some very nontrivial geometric topology. It is not a
 substitute for the usual introductory course; instead, it concentrates
@@ -121,7 +121,7 @@ classification of surfaces as puzzles at the end of this article.
 
 Now, the intrinsic topology of surfaces considers them as abstract
 spaces in their own right, but the "extrinsic topology" of them
-considers the ways they may be mapped into other spaces - for example,
+considers the ways they may be mapped into other spaces --- for example,
 3- or 4-dimensional Euclidean space. And here things get much more
 interesting and subtle. For example, while one can embed any orientable
 surface in 3d space, one cannot embed any of the nonorientable ones.
@@ -147,7 +147,7 @@ somewhat sneakier way immersions fail to be embeddings is by having
 complex plane. This is a two-valued function, so its graph consists of
 two "sheets" which glom together in a funny way at $z = 0$, the branch
 point. Carter also talks about another neat immersion of the projective
-plane in R\^3 that just has double points and a branch point - the
+plane in R\^3 that just has double points and a branch point --- the
 "cross cap." Another immersion, the "Roman surface," has both triple
 points and a branch point.
 

@@ -61,7 +61,7 @@ each $i,j,k$ in $S$, we fix a number $c_{ijk}$. This number comes in because
 each triangle has three edges.
 
 Here's how we calculate $Z(M)$. Write down one index next to each edge of
-the dissasembled $M$ - by "index" I mean something like $i,j,k$ running
+the dissasembled $M$ --- by "index" I mean something like $i,j,k$ running
 over $S$. Then write down the obvious factor of $g$ for each pair of edges
 that get glued together when we form $M$, and write down the obvious
 factor of $c$ for each triangle in $M$. Finally, sum over all colorings to
@@ -77,7 +77,7 @@ like this
                  \  /          
                   \/     
 
-- with opposite edges of the parallelogram identified - we would
+- with opposite edges of the parallelogram identified --- we would
 dissasemble $M$ and label the edges like this, say:
 
                   /\
@@ -95,7 +95,7 @@ $$g^{ij}g^{kl}g^{mn}c_{jml}c_{ink}$$
 and then sum over $i,j,k,l,m,n$ to get $Z(M)$. Notice that for this
 procedure to be well defined it had better not matter whether we write
 $g^{ij}$ or $g^{ji}$, since we have no way of knowing which to use. So $g$
-had better be symmetric. Similarly, we had better have $c_{ijk} = c_{jki}$ - invariance under cyclic permutations. Note that since $M$ is
+had better be symmetric. Similarly, we had better have $c_{ijk} = c_{jki}$ --- invariance under cyclic permutations. Note that since $M$ is
 oriented we can (and will) require that we go around each triangle
 counterclockwise when writing down things like $c_{ink}$, as we have done
 above.
@@ -158,7 +158,7 @@ move and the bubble move that you can do with the (2,2) move and the
 (3,1) move.
 
 Requiring that $Z(M)$ be invariant under the (2,2) moves amounts to the
-following equation - if you check it, you will make sure you understand
+following equation --- if you check it, you will make sure you understand
 what's going on:
 
 $$c_{xy}^u c_{uz}^w = c_{xu}^w c_{yz}^u.$$
@@ -229,7 +229,7 @@ algebra.
 
 (In fact, I am a little worried that the authors haven't stated the
 theorem quite precisely enough to have it be quite true, but it's
-basically right - I am afraid only only gets a particular class of Hopf
+basically right --- I am afraid only only gets a particular class of Hopf
 algebras, those which are semisimple and cosemisimple. I may be missing
 something.)
 
@@ -242,10 +242,10 @@ to the dual Hopf algebra this way! But if one considers theories in
 which colors are assigned BOTH to edges AND faces one apparently gets a
 larger class of 3d examples. What algebraic structure do these
 correspond to?
-B. The Turaev-Viro theory of quantum gravity - described below - is a 3d
+B. The Turaev-Viro theory of quantum gravity --- described below --- is a 3d
 topological lattice field theory of some sort. Where does it fit into
 this picture? The authors ask this question but don't answer it. Also,
-a more difficult problem - where does Chern-Simons gauge theory fit into
+a more difficult problem --- where does Chern-Simons gauge theory fit into
 this picture?
 C. The 64,000 dollar question: how does all this generalize to 4
 dimensions? What sort of algebraic structure corresponds to a 4d
@@ -260,7 +260,7 @@ are only beginning to understand.
 form as `gr-qc/9305020`.
 
 While we have no real way to quantize gravity in 3+1 dimensions -
-although lots of good ideas - we have six, count 'em, six, ways to do
+although lots of good ideas --- we have six, count 'em, six, ways to do
 it in 2+1 dimensions! Sometimes this sort of thing makes one yearn to be
 a physicist in some other, lower-dimensional universe. However, lest one
 make such wish prematurely to a genie passing by, one should note that
@@ -283,9 +283,9 @@ are no gravitational waves in empty space; there are only global,
 topological effects. Typically this means that if space is compact there
 are only finitely many degrees of freedom. This means that 2+1 quantum
 gravity is really quantum mechanics, not full-fledged quantum field
-theory (which deals with *local* excitations - wiggles in the metric and
-such - and infinitely many degrees of freedom). The good news is, this
-means that 2+1 gravity is somewhat understandable - no nasty infinities
+theory (which deals with *local* excitations --- wiggles in the metric and
+such --- and infinitely many degrees of freedom). The good news is, this
+means that 2+1 gravity is somewhat understandable --- no nasty infinities
 or ill-defined integrals needed, etc.. The bad news is, it means 2+1
 gravity is not too much like 3+1 gravity. But still, many of the most
 puzzling qualitative features of quantum gravity are present in the 2+1
@@ -343,7 +343,7 @@ brackets into commutators.
 
 The loop representation of quantum gravity starts with the connection
 representation and then takes traces of holonomies around loops -
-so-called Wilson loops - as the basic variables to quantize. This
+so-called Wilson loops --- as the basic variables to quantize. This
 suffers irritating technical problems in 2+1 dimensions, as noted in the
 following recent paper:
 
@@ -360,7 +360,7 @@ Here we proceed as in approach \#1 but attempt to impose the Hamiltonian
 and diffeomorphism constraints after quantizing. That is, we start with
 an overly large phase space of initial data for general relativity -
 overly large because a given solution of Einstein's equations will have
-many different initial data on different spacelike slices - quantize by
+many different initial data on different spacelike slices --- quantize by
 turning Poisson brackets into commutators, and THEN try to take care of
 the mistake we made by defining the "physical" states to be those
 annihilated by certain operators, the Hamiltonian and diffeomorphism
@@ -382,7 +382,7 @@ sight is finite and discrete. A "history of the world" in this theory
 amounts to labelling each edge with a length, or "spin", that must be
 $0,1/2,1,3/2,\ldots$ or $j/2$. There are thus finitely many possible
 histories. To do calculations in this theory, we follow Feynman's
-procedure and "sum over histories" - write down a formula for the
+procedure and "sum over histories" --- write down a formula for the
 quantity we are interested in, and add up its value for all histories,
 weighted by a quantity depending on the history, the exponential of the
 action of that history, to obtain the vacuum expectation value of the
@@ -447,7 +447,7 @@ theory of gravity. Of course, the correct response to such a
 traditionalist is "well, you come up with the 'right' quantum theory
 of gravity and then we can compare!" The point is that the good old
 Einstein-Hilbert action is extremely intractable when it comes to
-quantization - so perhaps it is not the "right" one, and *any*
+quantization --- so perhaps it is not the "right" one, and *any*
 quantization is more enlightening than none at this stage.
 
 Peldan presents a grand tour of the various Lagrangian formulations of

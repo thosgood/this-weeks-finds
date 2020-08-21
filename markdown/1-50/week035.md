@@ -18,9 +18,9 @@ philosophy and a bit of personal chat. Let me quote a bit:
 > I write you under the assumption that you have not entirely lost
 > interest for those foundational questions you were looking at more
 > than fifteen years ago. One thing which strikes me, is that (as far as
-> I know) there has not been any substantial progress since - it looks
+> I know) there has not been any substantial progress since --- it looks
 > to me that understanding of the basic structures underlying homotopy
-> theory, or even homological algebra only, is still lacking - probably
+> theory, or even homological algebra only, is still lacking --- probably
 > because the few people who have a wide enough background and
 > perspective enabling them to feel the main questions, are devoting
 > their energies to things which seem more directly rewarding. Maybe
@@ -38,7 +38,7 @@ philosophy and a bit of personal chat. Let me quote a bit:
 > algebra (or for schemes), but merely the inrooted inertia which
 > prevents us so stubbornly from looking innocently, with fresh eyes,
 > upon things, without being dulled and emprisoned by standing habits of
-> thought, going with a familiar context - *too* familiar a context!
+> thought, going with a familiar context --- *too* familiar a context!
 
 One reason why I'm interested in this letter is that Grothendieck seems
 to have understood the importance of "higher algebraic structures"
@@ -186,7 +186,7 @@ wrote:
 
 > At first sight it had seemed to me that the Bangor group had indeed
 > come to work out (quite independently) one basic intuition of the
-> program I had envisioned in those letters to Larry Breen - namely,
+> program I had envisioned in those letters to Larry Breen --- namely,
 > that the study of $n$-truncated homotopy types (of semisimplicial sets,
 > or of topological spaces) was essentially equivalent to the study of
 > so-called $n$-groupoids (where $n$ is any natural integer). This is
@@ -200,7 +200,7 @@ wrote:
 > groupoid embodies the 1-truncated homotopy type. For two spaces $X$, $Y$,
 > the set of homotopy-classes of maps $X \to Y$ (more correctly, for general
 > $X$, $Y$, the maps of $X$ into $Y$ in the homotopy category) should correspond
-> to $n$-equivalence classes of $n$-functors from $\Pi_n(X)$ to $\Pi_n(Y)$ - etc.
+> to $n$-equivalence classes of $n$-functors from $\Pi_n(X)$ to $\Pi_n(Y)$ --- etc.
 > There are some very strong suggestions for a nice formalism including
 > a notion of geometric realization of an n-groupoid, which should imply
 > that any $n$-groupoid is $n$-equivalent to a $\Pi_n(X)$. Moreover when the

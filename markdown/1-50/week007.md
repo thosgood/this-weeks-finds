@@ -20,7 +20,7 @@ form the basis for Rovelli and Smolin's construction of the loop
 representation.
 
 First, recall that general relativity is usually thought of as a theory
-about a metric on spacetime - more precisely, a Lorentzian metric. Here
+about a metric on spacetime --- more precisely, a Lorentzian metric. Here
 spacetime is a 4-dimensional manifold, and a Lorentzian metric allows
 you to calculate the "dot product" of any two tangent vectors at a
 point. This is in quotes because, while a normal dot product might look
@@ -43,7 +43,7 @@ relative to some coordinate system. For example, if you used polar
 coordinates to describe parallel translation on the plane, it might seem
 that the unit vector in the r direction "twisted around" towards the $\theta$
 direction as you dragged it along. But in another coordinate system -
-say the usual $x$-$y$ system - it would not appear to be "twisting
+say the usual $x$-$y$ system --- it would not appear to be "twisting
 around". This fact is expressed by saying "the connection is not a
 tensor".
 
@@ -72,7 +72,7 @@ punch here, so the integral of $R$ is called the "Einstein-Hilbert"
 action for general relativity.
 
 But there's another formulation of general relativity in terms of an
-action principle. This is called the "Palatini" action - and actually
+action principle. This is called the "Palatini" action --- and actually
 I'm going to describe a slight variation on it, that is conceptually
 simpler, and apparently appears for the first time in Ashtekar's book.
 The Palatini approach turns out to be more elegant and is a nice
@@ -124,7 +124,7 @@ unphysical, we can treat it and the $\mathfrak{so}(1,3)$ connection as independe
 fields and, doing calculus of variations to find stationary points of
 the action, we get equations equivalent to Einstein's equations.
 
-Ashtekar's "new variables" - from this point of view - rely on a
+Ashtekar's "new variables" --- from this point of view --- rely on a
 curious and profound fact about $\mathfrak{so}(1,3)$. Note that $\mathfrak{so}(1,3)$ is a Lie
 algebra over the real numbers. But if we allow ourselves to form
 *complex* linear combinations of the $J$'s and $K$'s, thus:
@@ -193,7 +193,7 @@ preprint available as [`hep-th/9302118`](http://xxx.lanl.gov/abs/hep-th/9302118)
 
 Well, in ["Week 2"](#week2) I mentioned Crane and Yetter's
 marvelous construction of a 4d topological quantum field theory using
-the representations of the quantum group $SU_q(2)$ - and in
+the representations of the quantum group $SU_q(2)$ --- and in
 ["Week 5"](#week5) I mentioned Ocneanu's "proof" that the
 resulting 4-manifold invariants were utterly trivial (equal to 1 for all
 4-manifolds). Now Crane and Yetter have replied, saying that their

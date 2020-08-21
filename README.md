@@ -8,7 +8,6 @@
 ## 1--50
 - diagrams
 - search for **???**
-- replace `-` with `---` **(where needed!)**
 
 ## 51--100
 

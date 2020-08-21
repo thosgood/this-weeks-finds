@@ -41,7 +41,7 @@ found an error in Kempe's proof. And then the real fun starts....
 But I don't want to tell the whole story leading up to how Appel and
 Haken proved it in 1976 (with the help of a computer calculation
 involving $10^10$ operations and taking 1200 hours). I don't even
-understand the structure of the Appel-Haken proof - for that, one should
+understand the structure of the Appel-Haken proof --- for that, one should
 probably try:
 
 3) "Every Planar Map is Four Colorable", by Kenneth Appel and Wolfgang
@@ -79,14 +79,14 @@ little countries deleted gives a coloring of the original map.
 Let us talk in the language of graph theory, calling the map a
 "graph," the countries "faces," their borders "edges," and the
 corners "vertices." What we've basically shown is it suffices to
-consider trivalent planar graphs without loops - that is, graphs on the
+consider trivalent planar graphs without loops --- that is, graphs on the
 plane that have three edges meeting at any vertex, and never have both
 ends of the same edge incident to the same vertex.
 
 Now, it's easy to see that 4-coloring the faces of such a graph is
 equivalent to 3-coloring the *edges* in such a way that no two edges
 incident to the same vertex have the same color. For suppose we have a
-4-coloring of faces with colors $1$, $i$, $j$, and $k$. Wait - you say - those
+4-coloring of faces with colors $1$, $i$, $j$, and $k$. Wait --- you say --- those
 don't look like colors, they look like the quaternions. True! Now color
 each edge either $i$, $j$, or $k$ according to product of the the colors of
 the two faces it is incident to, where we define products by:
@@ -124,7 +124,7 @@ graph. And THEN sum over all labellings!
 
 This recipe may sound complicated, but only if you haven't ever studied
 statistical mechanics of lattice systems. It's exactly the same as how
-one computes the "partition function" of such a system - the partition
+one computes the "partition function" of such a system --- the partition
 function being the philosopher's stone of statistical mechanics, since
 one can squeeze out so much information from it. (If we could compute
 the partition function of water we could derive its melting point.) To
@@ -157,7 +157,7 @@ you can replace it with
        |      |         \     /
        |      |          \   /
        |      |           \ /
-       |      |     -      \ 
+       |      |     ---      \ 
        |      |           / \
        |      |          /   \
        |      |         /     \
@@ -167,7 +167,7 @@ the original graph by the problem computing the difference of the
 Penrose numbers for the two graphs with the above changes made. For knot
 theory fans I should emphasize that we are talking about abstract graphs
 here, not graphs in 3d space, so there's no real difference between an
-"overcrossing" and an "undercrossing" - i.e., we could have said
+"overcrossing" and an "undercrossing" --- i.e., we could have said
 
                 \     /
                  \   /
@@ -202,7 +202,7 @@ group knot invariant called the Yamada polynomal. This is associated to
 the spin-1 representation of the quantum group $SU(2)$, and it is a
 polynomial in a variable $q$ that represents $e^\hbar$, where $\hbar$ is Planck's
 constant. But the "Penrose number" is just the value at $q = 1$ of the
-Yamada polynomial - the "classical case" when $\hbar = 0$. This makes
+Yamada polynomial --- the "classical case" when $\hbar = 0$. This makes
 perfect sense if one knows about quantum group knot invariants: the
 factor of 3 in rule B above comes from the fact that the spin-1
 representation of $SU(2)$ is 3-dimensional; this representation is really
@@ -214,11 +214,11 @@ Now let me turn to a different but related issue. Consider the problem
 of trying to color the *vertices* of a graph with $n$ colors in such a way
 that no two vertices at opposite ends of any given edge have the same
 color. Let $P(n)$ denote the number of such $n$-colorings. This turns out to
-be a polynomial in $n$ - it's not hard to see using recursion relations
+be a polynomial in $n$ --- it's not hard to see using recursion relations
 similar to the skein relations above. It also turns out that the 4-color
 theorem is equivalent to saying that the vertices of any planar graph
 can be 4-colored. (To see this, just use the idea of the "dual graph"
-of a graph - the vertices of the one being in 1-1 correspondence with
+of a graph --- the vertices of the one being in 1-1 correspondence with
 the edges of the other.) So another way to state the 4-color theorem is
 that for no planar graph does the polynomial $P(n)$ have a root at $n = 4$.
 
@@ -230,8 +230,8 @@ $$G = \frac{\sqrt{5} + 1}{2} = 1.61803398874989484820458683437\ldots?$$
 Well, $G + 1$ is never a root of the chromatic polynomial of a graph!
 (Unless the polynomial vanishes identically, which happens just when the
 graph has loops.) The proof is not all that hard, and it's in Saaty and
-Kainen's book. However - and here's where things get *really*
-interesting - in 1965, Hall, Siry and Vanderslice figured out the
+Kainen's book. However --- and here's where things get *really*
+interesting --- in 1965, Hall, Siry and Vanderslice figured out the
 chromatic polynomial of a truncated icosahedron. (This looks like a
 soccer ball or buckyball.) They found that of the four real roots that
 weren't integers, one agreed with $G + 1$ up to 8 decimal places! Of
@@ -307,5 +307,5 @@ field theory and knot polynomials, about the Kauffman/Saleur translation
 of the 4-color theorem into a statement about the Temperley-Lieb
 algebra, etc.. But I won't! It's time for dinner. Next week, if all
 goes according to plan, I'll move on to another puzzle in 2-dimensional
-topology - the Andrew-Curtis conjecture - and Frank Quinn's ideas on
+topology --- the Andrew-Curtis conjecture --- and Frank Quinn's ideas on
 tackling *that* using quantum field theory.

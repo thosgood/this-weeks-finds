@@ -19,32 +19,32 @@ all that, and then various other goodies....
 Among other things, the above articles show that Paul Ginsparg is
 starting to get the popular recognition he deserves for starting up
 `hep-th`. In case anyone out there doesn't know yet, `hep-th` is the
-"high-energy physics - theoretical" preprint archive, which
+"high-energy physics --- theoretical" preprint archive, which
 revolutionized communications within this field by making preprints
 easily available world-wide, thus rendering many (but not all) aspects
 of traditional journals obsolete. The idea was so good it quickly spread
 to other subjects. Within physics it went like this:
 
-- High Energy Physics - Theory (`hep-th`), started 8/91 
-- High Energy Physics - Lattice (`hep-lat`), started 2/92 
-- High Energy Physics - Phenomenology (`hep-ph`), started 3/92 
+- High Energy Physics --- Theory (`hep-th`), started 8/91 
+- High Energy Physics --- Lattice (`hep-lat`), started 2/92 
+- High Energy Physics --- Phenomenology (`hep-ph`), started 3/92 
 - Astrophysics (`astro-ph`), started 4/92 
 - Condensed Matter Theory (`cond-mat`), started 4/92 
 - General Relativity & Quantum Cosmology (`gr-qc`), started 7/92 
 - Nuclear Theory (`nucl-th`), started 10/92 
 - Chemical Physics (`chem-ph`), started 3/94 
-- High Energy Physics - Experiment (`hep-ex`), started 4/94 
+- High Energy Physics --- Experiment (`hep-ex`), started 4/94 
 - Accelerator Physics (`acc-phys`), started 11/94 
 - Nuclear Experiment (`nucl-ex`), started 11/94 
 - Materials Theory (`mtrl-th`), started 11/94 
 - Superconductivity (`supr-con`), started 11/94 
 
-Similar archives are sprouting up in mathematics (see below - but also
+Similar archives are sprouting up in mathematics (see below --- but also
 note the existence of the American Mathematical Society preprint server,
 described later in this week's finds).
 
 There are many ways to access these preprint archives, since Ginsparg
-has kept up very well with the times - indeed, so much better than I
+has kept up very well with the times --- indeed, so much better than I
 that I'm afraid to go into any details for fear of making a fool of
 myself. The dernier cri, I suppose, is to access the archives using the
 World-Wide Web, which is conveniently done by opening the document
@@ -293,7 +293,7 @@ coincidence... but it *would* be nice, wouldn't it?
 
     "Reminiscences about many pitfalls and some successes of QFT within the last three decades", by B. Schroer, 52 pages, 'shar'-shell-archiv, consisting of 5 files, available as [`hep-th/9410085`](http://xxx.lanl.gov/abs/hep-th/9410085).
 
-    "My encounters - as a physicist - with mathematics, R. Jackiw", 13 pages in LaTeX format, available as [`hep-th/9410151`](http://xxx.lanl.gov/abs/hep-th/9410151).
+    "My encounters --- as a physicist --- with mathematics, R. Jackiw", 13 pages in LaTeX format, available as [`hep-th/9410151`](http://xxx.lanl.gov/abs/hep-th/9410151).
 
 These are some interesting historical/biographical pieces.
 

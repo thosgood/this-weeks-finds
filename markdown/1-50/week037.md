@@ -9,7 +9,7 @@ one believes, as most people seem to believe, that black holes radiate
 away all their mass in the form of completely random Hawking radiation,
 then there's a question about where the information has gone that you
 threw into the black hole in the form of, say, old issues of _Phys. Rev. Lett._. Some people think the information goes into a new "baby
-universe" formed at the heart of the black hole - see
+universe" formed at the heart of the black hole --- see
 ["Week 31"](#week31) for more. The information would still, of
 course, be gone from *our* point of view in this picture. Strominger
 proposed a set up in which one had a quantum theory of gravity with
@@ -43,7 +43,7 @@ than a billion degrees Kelvin). There are some protons and electrons
 mixed in with the neutrons in the core, and both the protons and
 neutrons go superfluid, but the electrons form a normal fluid. That
 means that there are actually *two* kinds of superfluid vortices -
-proton and neutron - in addition to the magnetic vortices. These
+proton and neutron --- in addition to the magnetic vortices. These
 vortices mainly line up along the axis of rotation, and their density is
 about $10^6$ per square centimeter. Rather curiously, since the proton,
 neutron, and electron fluids are coupled due to $\beta$ decay (and the reverse
@@ -101,13 +101,13 @@ connection to space, call it $A$, and something like the restriction of
 the complex frame field to a complex frame field $E$ on space.
 (Restricting the complex frame field to one on space is a wee bit
 subtle, especially because one doesn't really want a frame field or
-"triad field", but really a "densitized cotriad field" - but let's
+"triad field", but really a "densitized cotriad field" --- but let's
 not worry about this here. I explain this in terms even a mathematician
 can understand in my paper "`string.tex`", available by ftp along with
 all my ["Week "](#week) files as described below.) The point is, first, that the
 $A$ and $E$ fields are mathematically very analogous to the vector potential
-and electric field in electromagnetism - or really in $SL(2,\mathbb{C})$ Yang-Mills
-theory - and secondly, that if you compute their Poisson brackets, you
+and electric field in electromagnetism --- or really in $SL(2,\mathbb{C})$ Yang-Mills
+theory --- and secondly, that if you compute their Poisson brackets, you
 really do see that they're canonically conjugate. Third and best of
 all, the constraint equations in general relativity can be written down
 very simply in terms of $A$ and $E$. Recall that in general relativity, 6 of
@@ -121,7 +121,7 @@ is precisely that the constraints simplify in terms of these variables.
 The price one has paid, however, is that one now seems to be talking
 about *complex-valued* general relativity, which isn't what one had
 started out being interested in. One needs to get back to reality, as it
-were - and this is the problem of the so-called "reality conditions".
+were --- and this is the problem of the so-called "reality conditions".
 One approach is to write down extra constraints on the $E$ field that say
 that it comes from a *real* frame field. These are a little messy.
 Ashtekar, however, has proposed another approach especially suited to
@@ -131,7 +131,7 @@ the crucial details.
 Here, to save time, I will allow myself to become a bit more technical.
 In the quantum version of the theory one expects the space of
 wavefunctions to be something like $L^2$ functions on the space of
-connections modulo gauge transformations - actually this is the
+connections modulo gauge transformations --- actually this is the
 "kinematical state space" one gets before writing the constraints as
 operators and looking for wavefunctions annihilated by these
 constraints. The problem had always been that this space of $L^2$
@@ -150,7 +150,7 @@ adjoints of Wilson loop operators to reflect that fact that the $SL(2,\mathbb{C}
 connection $A$ in quantum gravity is really equal to $\Gamma + iK$, where $\Gamma$ is
 the Levi-Civita connection on space, and $K$ is the extrinsic curvature.
 Both $\Gamma$ and $K$ are real in the classical theory, so the adjoint of the
-quantum version of $A$ should be $\Gamma - iK$, and this should reflect itself in
+quantum version of $A$ should be $\Gamma --- iK$, and this should reflect itself in
 the adjoints of Wilson loop operators.
 
 The trick, it turns out, is to use some work of Hall which appeared in
@@ -158,7 +158,7 @@ the Journal of Functional Analysis in 1994 (I don't have a precise
 reference on me). The point is that $SL(2,\mathbb{C})$ is the complexification of
 $SU(2)$, and can also be viewed as the cotangent bundle of $SU(2)$. This
 allows one to copy a trick people use for the quantum mechanics of a
-point particle on $\mathbb{R}^n$ - a trick called the Bargmann-Segal-Fock
+point particle on $\mathbb{R}^n$ --- a trick called the Bargmann-Segal-Fock
 representation. Recall that in the ordinary Schrodinger representation
 of a quantum particle on $\mathbb{R}^n$, one takes as the space of states
 $L^2(\mathbb{R}^n)$. However, the phase space for a particle in $\mathbb{R}^n$, which is

@@ -25,7 +25,7 @@ admits any smooth structure other than the usual one. (Technically, a
 smooth structure for a manifold is a maximal set of coordinate charts
 covering the manifold which have smooth transition functions. Loosely,
 it's a definition of what counts as a smooth function.) The answer is
-no - EXCEPT if $n = 4$, where there are uncountably many smooth
+no --- EXCEPT if $n = 4$, where there are uncountably many smooth
 structures! These "exotic $\mathbb{R}^4$'s" were discovered in the 1980's, and
 their existence was shown using the work of Donaldson using the
 self-dual solutions of the Yang-Mills equation, together with work of

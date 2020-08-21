@@ -12,11 +12,11 @@ started.
 Let's get warmed up....
 
 Quantizing gravity is mighty hard. For one thing, there's the "problem
-of time" - the lack of a distinguished time parameter in *classical*
+of time" --- the lack of a distinguished time parameter in *classical*
 general relativity means that the usual recipe for quantizing a
-dynamical system - "represent time evolution by the unitary operators
+dynamical system --- "represent time evolution by the unitary operators
 exp(-iHt) on the Hilbert space of states, where t is the time and H, the
-Hamiltonian, is a self-adjoint operator" - breaks down! As Wheeler so
+Hamiltonian, is a self-adjoint operator" --- breaks down! As Wheeler so
 picturesquely put it, in general relativity we have "many-fingered
 time"; there are lots of ways of pushing a spacelike surface forwards
 in time.
@@ -27,16 +27,16 @@ it's really justified, it's often the only thing one can do!) For one
 thing, note that in the big bang cosmology there is a distinguished
 "rest frame" (or more precisely, field of timelike vectors) given by
 the galaxies, if we discount their small random motions. In reality
-these are maybe not so small, and maybe not so random - such things as
-the "Virgo flow" show this - but we're talking strictly theory here,
-okay? - so don't bother us with facts! So, if we imagine that things go
+these are maybe not so small, and maybe not so random --- such things as
+the "Virgo flow" show this --- but we're talking strictly theory here,
+okay? --- so don't bother us with facts! So, if we imagine that things go
 the way the simplest big bang models predict, the galaxies just sit
 there like dots on a balloon that is being inflated, defining a notion
 of "rest" at each point in spacetime. This gives a corresponding
 notion of time, since one can measure time using clocks that are at rest
 relative to the galaxies. Then, since we are pretending the universe is
-completely homogeneous and isotropic - and let's say it's a closed
-universe in the shape of a 3-sphere, to be specific - the metric is
+completely homogeneous and isotropic --- and let's say it's a closed
+universe in the shape of a 3-sphere, to be specific --- the metric is
 given by
 
 $$dt^2-r(t)^2[(d\psi)^2 + (\sin \psi)^2{(d\theta)^2 + (\sin \theta)^2 (d\varphi)^2}]$$
@@ -90,7 +90,7 @@ or, more enlighteningly,
 
 $$\frac{d(\rho r^3)}{dt} = 0.$$
 
-This is just "conservation of dust" - the dust density times the
+This is just "conservation of dust" --- the dust density times the
 volume of the universe is staying constant. This, by the way, is a
 special case of the fact that Einstein's equations *automatically
 imply* local conservation of energy (i.e., that the stress-energy tensor
@@ -104,8 +104,8 @@ $$\begin{aligned}r'' &= -\frac{4\pi D}{3r^2} \\ (r')^2-\frac{8\pi}{3}\frac{D}{r}
 What does this mean? Well, the first one looks like it's saying
 there's a force trying to make the universe collapse, and that the
 strength of this force is proportional to $1/r^2$. Sound vaguely
-familiar? It's actually misleadingly simple - if we had put in
-something besides dust it wouldn't work quite this way - but as long as
+familiar? It's actually misleadingly simple --- if we had put in
+something besides dust it wouldn't work quite this way --- but as long as
 we don't take it too seriously, we can just think of this as gravity
 trying to get the universe to collapse. And the second one looks like
 it's saying that the "kinetic" energy proportional to $(r')^2$, plus
@@ -138,7 +138,7 @@ sense to speak of "before the big bang" or "after the big crunch" -
 or we can look for improved laws that avoid these singularities. (I
 should repeat that we are dealing with unrealistic models here, since
 for example there is no evidence that there is enough matter around to
-"close the universe" and make this solution qualitatively valid - it
+"close the universe" and make this solution qualitatively valid --- it
 may well be that there's a big bang but no big crunch. In this case,
 there's only one singularity to worry about, not two.)
 
@@ -146,9 +146,9 @@ People have certainly not been too ashamed to study the *quantum* theory
 of this system (and souped-up variants) in an effort to get a little
 insight into quantum gravity. We would expect that quantum effects
 wouldn't matter much until the radius of the universe is very small,
-but when it *is* very small they would matter a lot, and maybe - one
-might hope - they would save the day, preventing the nasty
-singularities. I'm not saying they DO - this is hotly debated - but
+but when it *is* very small they would matter a lot, and maybe --- one
+might hope --- they would save the day, preventing the nasty
+singularities. I'm not saying they DO --- this is hotly debated --- but
 certainly some people hope they do. Of course, serious quantum gravity
 should take into account the fact that geometry of spacetime has all
 sorts of wiggles in it -it isn't just a symmetrical sphere. This may
@@ -168,8 +168,8 @@ of methods of quantization, but all of them require a certain amount of
 case-by-case finesse.
 
 The idea of "canonical quantization" of a classical system with one
-degree of freedom - like our big bang model above, where the one degree
-of freedom is $r$ - is to turn the "position" (that's $r$) into a
+degree of freedom --- like our big bang model above, where the one degree
+of freedom is $r$ --- is to turn the "position" (that's $r$) into a
 multiplication operator and the "momentum" (often that's something
 like $r'$, but watch out!) into a differentation operator, say $-i \hbar \frac{d}{dr}$,
 so that we get the "canonical commutation relations"
@@ -211,8 +211,8 @@ $$p = \frac{dL}{dq'}$$
 relating momentum to the Lagrangian, where for us the position, usually
 called $q$, is really $r$.
 
-The Lagrangian of general relativity is the "Ricci scalar" $R$ - a
-measure of curvature of the metric - and in the present problem it turns
+The Lagrangian of general relativity is the "Ricci scalar" $R$ --- a
+measure of curvature of the metric --- and in the present problem it turns
 out to be
 
 $$R = 6 \left(\frac{r''}{r} + \frac{(r')^2}{r^2}\right)$$
@@ -262,7 +262,7 @@ Actually, despite the fact that we are working with a very simple model
 of quantum cosmology, it's not quite *that* simple. First of all,
 recall our original classical equation, (3). This constrained the energy
 to have a certain value. I.e., we are dealing not with a Hamiltonian in
-the ordinary sense, but a "Hamiltonian constraint" - typical of
+the ordinary sense, but a "Hamiltonian constraint" --- typical of
 systems with time reparametrization invariance. So our quantized
 equation says that the "wavefunction of the universe," $\psi(r)$, must
 satisfy
@@ -306,7 +306,7 @@ as Vilenkin) think powered the exponential growth of the universe at an
 early stage. So his equations are slightly different from those above
 (and are only meant to apply to the early history of the universe).
 
-[Let me just interject a question to the experts if I may - since I've
+[Let me just interject a question to the experts if I may --- since I've
 written this long article primarily to educate myself. It would seem to
 me that the equation $H \psi = 0$ above would only have a normalizable
 solution if the boundary conditions were fine-tuned! I.e., maybe the
@@ -329,13 +329,13 @@ universe as analogous to a particle moving in the potential of Figure 2.
 In the current state of affairs classical mechanics is an excellent
 approximation, so it seems to trace out a classical trajectory. Of
 course it is really obeying the laws of quantum mechanics, so the
-trajectory is really a "wave packet" - technically, we use the WKB
+trajectory is really a "wave packet" --- technically, we use the WKB
 approximation to see how the wave packet can seem like a classical
 trajectory. But near the big bang or big crunch, quantum mechanics
 matters a lot: there the potential is rapidly varying (in our simple
 model it just becomes a "wall") and the wave packet may smear out
 noticeably. (Think of how when you shoot an electron at a nucleus it
-bounces off in an unpredictable direction - it's wavefunction just
+bounces off in an unpredictable direction --- it's wavefunction just
 tells you the *probability* that it'll go this way or that!) So some
 quantum cosmologists have suggested that if there is a big crunch, the
 universe will pop back out in a highly unpredictable, random kind of
@@ -359,7 +359,7 @@ invariant under all diffeomorphisms of spacetime. I.e., those that are
 independent of any choice of coordinates. For example, saying "My
 position is $(242,2361,12,-17)$" is not diffeomorphism-invariant, but
 saying "I'm having the time of my life" is. It's hard to find lots
-of (tractable) diffeomorphism invariant observables - or even any! Try
+of (tractable) diffeomorphism invariant observables --- or even any! Try
 figuring out how you would precisely describe the shape of a rock
 without introducing any coordinates, and you'll begin to see the
 problem. (The quantum mechanical aspects make it harder.)
@@ -369,11 +369,11 @@ It's rather artificial but still a big start. Using a "field of
 clocks" he was able to come up with interesting diffeomorphism
 invariant observables. The idea is simply that if you had clocks all
 around you could say "when the bells rang 2 a.m. I was having the time
-of my life" - and this would be a diffeomorphism-invariant statement,
+of my life" --- and this would be a diffeomorphism-invariant statement,
 since rather than referring to an abstract coordinate system it
 expresses the coincidence of two physical occurences, just like "the
 baseball broke through the window". Then he pushed this idea to define
-"evolving constants of motion" - a deliberate oxymoron - to deal with
+"evolving constants of motion" --- a deliberate oxymoron --- to deal with
 the famous "problem of time" in general relativity: how to treat time
 evolution in a coordinate-free manner on a spacetime that's not flat
 and, worse, whose geometry is "uncertain" a la Heisenberg? This is
@@ -399,18 +399,18 @@ REAL observables, invariant under spacetime diffeomorphisms that is,
 thus making a serious bite into this problem.
 
 I warn the reader that there is a fair amount that is not too realistic
-about these methods. First there's the "clock field" - this can
+about these methods. First there's the "clock field" --- this can
 actually be taken as a free massless scalar field, but in so doing there
 is the likelihood of serious technical problems. Some of these are
 discussed in
 
-6) P. Hajicek, "Comment on "Time in quantum gravity - an hypothesis"",
+6) P. Hajicek, "Comment on "Time in quantum gravity --- an hypothesis"",
 _Phys. Rev._ **D44** (1991), 1337--1338.
 
 (But I haven't actually read this, just Isham's description.) Also,
 the clever trick of the present paper is to couple gravity to an
 antisymmetric tensor gauge field so that in addition to having loops as
-part of ones "loop representation," one has surfaces - a "surface
+part of ones "loop representation," one has surfaces --- a "surface
 representation". But this antisymmetric tensor gauge field is not the
 sort of thing that actually seems to arise in physics (unless I'm
 missing something). Still, it's a start. I think I'll finish by

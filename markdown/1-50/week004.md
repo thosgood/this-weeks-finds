@@ -67,20 +67,20 @@ drastic change.
 _Phys. Lett._ **A173**, p. 189
 
 Having greatly enjoyed Zeh's book The Physical Basis for the Direction
-of Time - perhaps the clearest account of a famously murky subject - I
+of Time --- perhaps the clearest account of a famously murky subject --- I
 naturally took a look at this particle despite its overheated title.
 (Certainly exclamation marks in titles should add to ones crackpot
 index.) It is a nice little discussion of "quantum jumps" and the
 "collapse of the wavefunction" that takes roughly the viewpoint I
 espouse, namely, that all one needs is Schrodinger's equation (and lots
-of hard work) to understand what's going on in quantum theory - no
+of hard work) to understand what's going on in quantum theory --- no
 extra dynamical mechanisms. It's not likely to convince anyone who
 thinks otherwise, but it has references that might be useful no matter
 which side of the debate one is on.
 
-Also, this just in - what you've all been waiting for - another
+Also, this just in --- what you've all been waiting for --- another
 interpretation of quantum mechanics! It's a book by David Bohm and
-Basil Hiley, entitled "The Undivided Universe - An Ontological
+Basil Hiley, entitled "The Undivided Universe --- An Ontological
 Interpretation of Quantum Theory." I have only seen an advertisement so
 far; it's published by Routledge. The contents include such curious
 things as "the ontological interpretation of boson fields." Read it at
@@ -156,7 +156,7 @@ compose such paths simply by sticking a path from $x$ to $y$ and a path from
 $y$ to $z$ to get a path from $x$ to $z$, and we need unparametrized paths to
 make composition associative. Now given two paths from $x$ to $y$, say $f$ and
 $g$, let $\mathrm{Hom}(f,g)$, the set of 2-morphisms from $f$ to $g$, be the set of
-unparametrized homotopies from $f$ to $g$ - that is, ways of deforming the
+unparametrized homotopies from $f$ to $g$ --- that is, ways of deforming the
 path $f$ continuously to get the path $g$, while leaving the endpoints
 fixed.
 
@@ -177,7 +177,7 @@ $$
   \end{tikzcd}
 $$
 
-Ugh, that's not cute, that's ugly - the joys of ASCII! What this is
+Ugh, that's not cute, that's ugly --- the joys of ASCII! What this is
 supposed to be is two arrows from $x$ to $y$, namely $f$ and $g$, and then a big
 fat double arrow labelled $F$ going down from $f$ to $g$. In other words,
 while ordinary morphisms are 1-dimensional objects (arrows), 2-morphisms
@@ -238,16 +238,16 @@ incorporated aspects of geometry into the notation itself.
 The theory of 2-categories is not new; it was apparently invented by
 Ehresmann, Benabou and Grothendieck in an effort to formalize the
 structure possessed by the category of all categories. (If this notion
-seems dangerously close to Russell's paradox, you are right - but I
+seems dangerously close to Russell's paradox, you are right --- but I
 will not worry about such issues in what follows.) This category has as
 its objects categories and as its morphisms "functors" between
 categories. It is, in fact, a 2-category, taking as the 2-morphisms
 "natural transformations" between functors. (For a brief intro to
 functors and natural transformations, try the file "categories" in the
-collection of my expository papers - see the end of this post.) What is
+collection of my expository papers --- see the end of this post.) What is
 new to Kapranov and Voevodsky is the notion of a monoidal 2-category -
 where one can take tensor products of objects, morphisms, and
-2-morphisms - and "braided" monoidal 2-category - where one has
+2-morphisms --- and "braided" monoidal 2-category --- where one has
 "braidings" that switch around the two factors in a tensor product.
 
 Let me turn to the possible relevance of all this to mathematical
@@ -428,8 +428,8 @@ The reader may have fun figuring out what the two ways of composing
 
 There are, in fact, many clues as to the relation between string theory
 and 2-categories, one being the Zamolodchikov equation. This is the
-analog of the Yang-Baxter equation - an equation important in the theory
-of braids - one dimension up. It was discovered by Zamolodchikov in
+analog of the Yang-Baxter equation --- an equation important in the theory
+of braids --- one dimension up. It was discovered by Zamolodchikov in
 1980; a 1981 paper that might be a bit easier to get is "Tetrahedron
 equations and relativistic S-matrix for straight strings in 2+1
 dimensions," Comm. Math. Phys. 79 (1981), 489-505. (It plays a

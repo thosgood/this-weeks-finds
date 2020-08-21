@@ -38,7 +38,7 @@ $$\frac{(1 -u^2)^{-1}}{2}$$
 
 The differential equation above implies that the integral is nice to do
 by the substitution $u = \sin z$, and we get the answer $\arcsin u$. If the
-sine function - or more generally, trig functions - didn't exist yet,
+sine function --- or more generally, trig functions --- didn't exist yet,
 we would have invented them when we tried to do integrals involving
 square roots of quadratic polynomials.
 
@@ -70,8 +70,8 @@ so if we wanted, we could think of it as being a function on the torus
 formed by taking one of these squares and identifying its top side with
 its bottom side, and its left side with its right side.
 
-More generally - while we're fantasizing about this wonderful
-doubly-periodic function - we could ask for one that was periodic in any
+More generally --- while we're fantasizing about this wonderful
+doubly-periodic function --- we could ask for one that was periodic in any
 old two directions. That is, fixing two numbers $\omega_1$ and $\omega_2$ that
 aren't just real-valued multiples of each other, we could hope to find
 an analytic function on the complex plane with $\omega_1$ and $\omega_2$ as periods:
@@ -101,7 +101,7 @@ Alas, if it were analytic on the whole plane (no poles), it would be
 bounded on each little parallelogram, and since it's doubly periodic,
 it would be a bounded analytic function on the complex plane, hence
 CONSTANT by Liouville's theorem. Well, so a constant function has all
-the wonderful properties we want - but that's too boring!
+the wonderful properties we want --- but that's too boring!
 
 So let's allow it to have poles! But let's keep it as nice as
 possible, so let's have the only poles occur at the lattice points
@@ -123,7 +123,7 @@ obvious: just sum up, for all $\omega$ in the lattice $L$, the functions
 $$\frac{1}{(z -\omega)^2}$$
 
 We get something periodic with poles like $1/(z -\omega)^2$ at each lattice
-point $\omega$. But there's a big problem - the sum doesn't converge!
+point $\omega$. But there's a big problem --- the sum doesn't converge!
 (Another fun exercise.)
 
 Oh well, try again. Let's act like physicists and RENORMALIZE the sum
@@ -141,7 +141,7 @@ Now, it turns out that $P(z)$ really *is* a cool generalization of the
 sine function. Namely, it satisfies a differential equation like the one
 the sine does, but fancier:
 
-$$P'(z)^2 = 4 P(z)^3 - g_2 P(z) - g_3$$
+$$P'(z)^2 = 4 P(z)^3 --- g_2 P(z) --- g_3$$
 
 where $g_2$ and $g_3$ are some constants that depend on the periods $\omega_1$
 and $\omega_2$. Just as with the sine function we can use the *inverse* of
@@ -149,12 +149,12 @@ Weierstrass $\mathfrak{P}$ function to do some integrals, but this time we can d
 integrals involving square roots of cubic polynomials! If you look in
 big nasty books of special functions or tables of integrals, you will
 see that there's a big theory of this kind of thing that was developed
-in the 1800's - back when heavy-duty calculus was hip.
+in the 1800's --- back when heavy-duty calculus was hip.
 
 There are, however, some other cool ways of thinking about what's going
 on here. First of all, remember that we can think of $P(z)$ as a function
-on the torus. We can think of this torus as being "coordinatized" - I
-use the word loosely - by $P(z)$ and its first derivative $P'(z)$. I.e., if
+on the torus. We can think of this torus as being "coordinatized" --- I
+use the word loosely --- by $P(z)$ and its first derivative $P'(z)$. I.e., if
 we know $x = P(z)$ and $y = P'(z)$ we can figure out where the point $z$ is
 on the torus. But of course $x$ and $y$ can't be any old thing; the
 differential equation above says they have to satisfy
@@ -166,12 +166,12 @@ means that if we look at the pairs of complex numbers $(x,y)$ satisfying
 the above cubic equation, we get something that looks just like a torus!
 This is called an elliptic curve, since for algebraic geometers a
 "curve" is the set of solutions $(x,y)$ of some polynomial in two
-*complex* variables - not two real variables.
+*complex* variables --- not two real variables.
 
-So - an "elliptic curve" is basically just the solutions of a cubic
+So --- an "elliptic curve" is basically just the solutions of a cubic
 equation in two variables. Actually, we want to rule out curves that
 have singularities, that is, places where there's no unique tangent
-line to the curve, as in $y^2 = x^3$ or $y^2 = x^2(x+1)$ - draw these in
+line to the curve, as in $y^2 = x^3$ or $y^2 = x^2(x+1)$ --- draw these in
 the real plane and you'll see what I mean. Anyway, all elliptic curves
 can, by change of variables, be made to look like our favorite one,
 
@@ -190,15 +190,15 @@ $$y^2 = 4x^3 -g_2 x -g_3$$
 
 they must form a group somehow, and viewed this way it's not at all
 obvious! Nonetheless, there is a beautiful geometric description of the
-group operation in these terms - I'll leave this for Knapp to explain..
+group operation in these terms --- I'll leave this for Knapp to explain..
 
-Let me wrap this up - the story goes on and on, but I'm getting tired -
+Let me wrap this up --- the story goes on and on, but I'm getting tired -
 with a bit about what it has to do with number theory. It has a lot to
 do with Diophantine equations, where one wants integer, or rational
 solutions to a polynomial equation. Suppose that $g_2$ and $g_3$ are
 rational, and one has some solutions to the equation
 
-$$y^2 = 4x^3 - g_2 x - g_3.$$
+$$y^2 = 4x^3 --- g_2 x --- g_3.$$
 
 Then it turns out that one can use the group operation on the elliptic
 curve to get new solutions! Actually, it seems as if Diophantus knew
@@ -214,13 +214,13 @@ uses the group structure.
 
 In fact, one can solve mighty hard-seeming Diophantine problems using
 these ideas. Knapp talks a bit about a problem Fermat gave to Mersenne
-in 1643 - this increased my respect for Fermat a bit. He asked, find a
+in 1643 --- this increased my respect for Fermat a bit. He asked, find a
 Pythagorean triple $(X,Y,Z)$, that is:
 
 $$X^2 + Y^2 = Z^2$$,
 
 such that $Z$ is a square number and $X + Y$ is too! One can solve this
-using elliptic curves. I don't know if Mersenne got it - the answer is
+using elliptic curves. I don't know if Mersenne got it --- the answer is
 at the end of this post, but heavy-duty number theorists out there might
 enjoy trying this one if they don't know it already.
 
@@ -245,14 +245,14 @@ a homotopy Lie algebra. Physicists would say that the Jacobi identity
 holds modulo a BRST exact term. This is just the beginning of quite a
 big bunch of mathematics being developed by Stasheff, Zwiebach, Getzler,
 Kapranov and many others. My main complaint with the physics is that all
-these structures seem to depend on choosing a Riemannian metric on $M$ - a
+these structures seem to depend on choosing a Riemannian metric on $M$ --- a
 so-called "background metric." Since string theory is supposed to
 include a theory of quantum gravity it is annoying to have this
 God-given background metric stuck in at the very start. Perhaps I just
 don't understand this stuff. I am looking around for stuff on
 background-independent closed string field theory, since I have lots of
 reason to believe that it's related to the loop representation of
-quantum gravity. Unfortunately, I scarcely know the subject - I had
+quantum gravity. Unfortunately, I scarcely know the subject --- I had
 hoped Stasheff's work would help me, but it seems that this metric
 always enters.
 

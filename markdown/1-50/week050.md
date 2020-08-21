@@ -28,7 +28,7 @@ I discussed this paper a wee bit in ["Week 38"](#week38). Now you
 can actually see the pictures. As we begin to understand $n$-categories
 (see ["Week 49"](#week49)) our concept of symmetry gets deeper and
 deeper. This isn't surprising. When all we knew about was 0-categories
-- that is, sets! - our concept of symmetry revolved around the notion of
+- that is, sets! --- our concept of symmetry revolved around the notion of
 a "group". This is a set $G$ where you can multiply elements in an
 associative way, with an identity element 1 such that
 
@@ -40,9 +40,9 @@ with
 $$gg^{-1} = g{^-1}g = 1.$$
 
 For example, the group of rotations in $n$-dimensional Euclidean space.
-When we started understanding 1-categories - that is, categories! - the
+When we started understanding 1-categories --- that is, categories! --- the
 real idea behind groups and symmetry could be more clearly expressed.
-Sets have elements, and they are either equal or not - no two ways about
+Sets have elements, and they are either equal or not --- no two ways about
 it. Categories have "objects", and even though two objects aren't
 equal, they can still be "isomorphic". An object can be isomorphic to
 itself in lots of different ways: these are its symmetries, and the
@@ -76,9 +76,9 @@ momentum in quantum mechanics. It's category of representations isn't
 just any old category, its a symmetric monoidal category! See the chart
 in ["Week 49"](#week49) if you forget what this is. Now, there are
 more general things than groups whose categories of representations are
-symmetric monoidal categories - for example, cocommutative Hopf
+symmetric monoidal categories --- for example, cocommutative Hopf
 algebras. And there are other kinds of Hopf algebras -
-"quasitriangular" ones, often known as "quantum groups" - whose
+"quasitriangular" ones, often known as "quantum groups" --- whose
 categories of representations are *braided* monoidal categories. The
 cool thing is that $SU(2)$ has an avatar called "quantum $SU(2)$" which is
 one of these quantum groups. Again, eyeball the chart in
@@ -94,7 +94,7 @@ is a souped-up gadget, a "quasitriangular Hopf category", which is a
 *category* of representations, but not just any old 2-category, but in
 fact a *braided monoidal 2-category*. If you again eyeball the chart,
 you'll see this is a special kind of 4-category, so it should be
-related to 4d topology and - this is the big hope - 4d physics. Now the
+related to 4d topology and --- this is the big hope --- 4d physics. Now the
 *really* cool thing, which is what Crane and Frenkel show here, is that
 $SU(2)$ has yet another avatar which is one of these quasitriangular Hopf
 categories.
@@ -111,7 +111,7 @@ I'd need to look at this a few more times before I could say anything
 intelligent about it, but it looks to be a very exciting way of
 understanding what the heck is really going on as far as Vassiliev
 invariants, Feynman diagrams in Chern-Simons theory, and so on are
-concerned - especially if you wanted to generalize it all to higher
+concerned --- especially if you wanted to generalize it all to higher
 dimensions.
 
 Alas, I'm getting worn out, so let me simply *list* a few more papers,

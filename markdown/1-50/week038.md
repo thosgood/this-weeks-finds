@@ -222,7 +222,7 @@ use of special grouplike elements associated to the antipode.
 Work in 4 dimensions is, as one expect, still more subtle than in 3,
 since again various things that were equalities becomes isomorphisms. In
 particular, this means that various things one thought were vector
-spaces - which are *sets* that have *elements* that you can *add* and
+spaces --- which are *sets* that have *elements* that you can *add* and
 *multiply by numbers*, and which satisfy *equations* like
 
 $$A + B = B + A$$

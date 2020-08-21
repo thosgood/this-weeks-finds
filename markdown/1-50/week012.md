@@ -26,7 +26,7 @@ who was working on 4-dimensional quantum gravity. This would be very
 exciting as long as it isn't "trivial" in some sense, because all the
 TQFTs developed so far only work in 3-dimensional spacetime. A rigorous
 4-dimensional TQFT might bring us within striking distance of a theory
-of quantum gravity - this is certainly Crane's goal. Ocneanu, however,
+of quantum gravity --- this is certainly Crane's goal. Ocneanu, however,
 had fired off a note claiming to prove that the Crane-Yetter TQFT was
 trivial, in the sense that the partition function of the field theory
 for any compact oriented 4-manifold equalled 1! In a TQFT, the partition
@@ -161,5 +161,5 @@ preprint, December 18, 1992, available as
 
 This is about TQFTs and the high-powered algebra needed to do justice to
 the "ladder of field theories" that one can obtain starting with a
-d-dimensional TQFT - gerbs, torsors, n-categories and other such scary
+d-dimensional TQFT --- gerbs, torsors, n-categories and other such scary
 things. I am too beat to do this justice.

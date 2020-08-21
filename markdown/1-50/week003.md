@@ -32,7 +32,7 @@ c) Jacobi identity: $[x,[y,z]] + [y,[z,x]] + [z,[x,y]] = 0$.
 
 The best known example is good old $\mathbb{R}^3$ with the cross product as the
 bracket. But the real importance of Lie algebras is that one can get one
-from any Lie group - roughly speaking, a group that's also a manifold,
+from any Lie group --- roughly speaking, a group that's also a manifold,
 and such that the group operations are smooth maps. And the importance
 of Lie groups is that they are what crop up as the groups of symmetries
 in physics. The Lie algebra is essentially the "infinitesimal version"
@@ -47,8 +47,8 @@ something very special about three dimensions.)
 
 Similarly, if one uses complex numbers instead of real numbers, one gets
 a group $SU(n)$ and Lie algebra $\mathfrak{su}(n)$. And if one looks at the symmetries
-of a 2n-dimensional classical phase space - so-called canonical
-transformations, or symplectic transformations - one gets the group
+of a 2n-dimensional classical phase space --- so-called canonical
+transformations, or symplectic transformations --- one gets the group
 $Sp(n)$ and Lie algebra $\mathfrak{sp}(n)$. To be precise, $SO(n)$ consists of all $n\times n$
 orthogonal real matrices with determinant 1, $SU(n)$ consists of all $n\times n$
 unitary complex matrices with determinant 1, and $Sp(n)$ consists of all
@@ -298,7 +298,7 @@ $$
 $$
 
 Of course, one must work a bit to show this map is well-defined. (This
-just takes a paragraph - see Proposition 6.5 of Dror's paper.)
+just takes a paragraph --- see Proposition 6.5 of Dror's paper.)
 
 Okay, the conjecture is:
 
@@ -325,15 +325,15 @@ time and its first time derivative, or really "extrinsic curvature").
 So Ashtekar reviews Dirac's ideas on quantizing constrained systems
 before sketching how this program is carried out for general relativity.
 
-Then he considers a "toy model" - quantum gravity in 2+1 dimensions.
+Then he considers a "toy model" --- quantum gravity in 2+1 dimensions.
 This is a funny theory because *classically* Einstein's equations in
 2+1 dimensions simply say that spacetime is flat (in a vacuum)! No
 gravitational waves exist as in 3+1 dimensions, and one can say that the
-information in the gravitational field is "purely global" - locally,
+information in the gravitational field is "purely global" --- locally,
 everywhere looks the same as everywhere else (like Iowa), but there may
 be global "twists" that you notice when going around a noncontractible
-loop. There has been a lot of work on 2+1 gravity recently - in a sense
-this problem has been solved, by a number of methods - and this allows
+loop. There has been a lot of work on 2+1 gravity recently --- in a sense
+this problem has been solved, by a number of methods --- and this allows
 one to understand *some* of the conceptual difficulties of honest
 3+1-dimensional quantum gravity without getting caught in an endless net
 of technical complications.

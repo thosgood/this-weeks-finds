@@ -13,7 +13,7 @@ one could not do better than to start here. There are many approaches to
 the project of reconciling quantum mechanics with gravity, all of them
 rather technical, but here Isham focuses on the "prima facie"
 questions that present themselves no matter *what* approach one uses. He
-even explains why we should study quantum gravity - a nontrivial
+even explains why we should study quantum gravity --- a nontrivial
 question, given how difficult it has been and how little practical
 payoff there has been so far! Let me quote his answers and urge you to
 read the rest of this paper:
@@ -71,7 +71,7 @@ available in LaTeX form as
 
 Most of the basic laws of physics appear to be gauge theories. Gauge
 theories are tricky to deal with because they are inherently nonlinear.
-(At least the "nonabelian" ones are - the main example of an abelian
+(At least the "nonabelian" ones are --- the main example of an abelian
 gauge theory is Maxwell's equations.) People have been working hard for
 quite some time trying to develop tools to study gauge theories on their
 own terms, and *one* reason for the interest in gauge theories in
@@ -122,7 +122,7 @@ _Phys. Rev._ **D28** (1983), 2960.
 in which there is both a Euclidean and a Lorentzian regime (providing a
 most fascinating answer to the old question, "what came before the big
 bang!). Here, however, the path integral is oscillatory in the Euclidean
-regime and exponential in the Lorentzian one - the opposite of what
+regime and exponential in the Lorentzian one --- the opposite of what
 Hartle and Hawking had. This puzzles me.
 
 5) "Generalized measures in gauge theory", by John Baez, available in
@@ -133,7 +133,7 @@ measure on the space of connections. This is roughly an
 infinite-dimensional vector space, and there *is* no "Lebesgue
 measure" on an infinite-dimensional vector space. So what is going
 on? Physicists are able to do calculations using this concept and get
-useful answers - mixed in with infinities that have to be carefully
+useful answers --- mixed in with infinities that have to be carefully
 "renormalized." Some of the infinities here are supposedly due to
 the fact that one should really be working no on the space of
 connections, but on a quotient space, the connections modulo gauge

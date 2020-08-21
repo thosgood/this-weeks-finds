@@ -32,20 +32,20 @@ finite-parameter family of inertial frames, and simple recipes to
 translate between them, and also because nothing going on will screw up
 the functioning of our (idealized) clocks: that is, the "$t$" coordinate
 doesn't give a damn about the *state* of the universe. That's what is
-meant by saying a "background structure" - it's some aspect of the
+meant by saying a "background structure" --- it's some aspect of the
 universe that is unaffected by everything else that's going on.
 
 In general relativity, things get much more interesting: there is no
 such thing as an inertial frame that defines coordinates on spacetime,
 because there is no way you can get a lot of things at different places
-to remain at rest with each other - this is what is meant by saying that
+to remain at rest with each other --- this is what is meant by saying that
 spacetime is curved. You can measure time with your watch, so-called
 "proper time," but this applies only near you. More interestingly
 still, to compare what your watch is doing to what someone else's is
 doing, you actually need to know a lot about the state of the universe,
 e.g., whether there are any heavy masses around that are curving
 spacetime. The "metric," whereby one measures distances and proper
-time, depends on the state of the universe - or more properly, it is
+time, depends on the state of the universe --- or more properly, it is
 part of the state of the universe.
 
 Trying to do *quantum* theory in this context has always been too hard
@@ -58,7 +58,7 @@ will know that the star of the show is the Schrodinger equation:
 $$i\frac{d\psi}{dt} = H\psi$$
 
 saying how the wavefunction $\psi$ changes with time in a way depending on
-the Hamiltonian $H$. No "$t$," no "$H$" - this is one basic problem with
+the Hamiltonian $H$. No "$t$," no "$H$" --- this is one basic problem with
 trying to reconcile quantum theory with general relativity.
 
 Actually, it turns out that the analog to Schrodinger's equation for
@@ -157,7 +157,7 @@ Then, about a week ago, Rovelli put a paper onto the net:
 [`hep-th/9304164`](http://xxx.lanl.gov/abs/hep-th/9304164).
 
 This is a remarkable paper that I have not been able to absorb yet.
-First it goes over 3d quantum gravity - which *has* been made into a
+First it goes over 3d quantum gravity --- which *has* been made into a
 rigorous TQFT. It works with the simplicial formulation of the theory.
 That is, we consider our (3-dimensional) spacetime as being chopped up
 into tetrahedra, and assign to each edge a length, which is required to
@@ -190,7 +190,7 @@ gravity, here one must sum over ways of dividing spacetime into
 simplices, so the formula for the inner product involves a sum that does
 not obviously converge. This is however sort of what one might expect,
 since in 4d quantum gravity, unlike 3d, there are "local excitations"
-- local wigglings of the metric, if you will - and this makes the
+- local wigglings of the metric, if you will --- and this makes the
 Hilbert space be infinite-dimensional, whereas the 3d TQFTs have
 finite-dimensional Hilbert spaces.
 
@@ -265,7 +265,7 @@ worth it...
 > topological theory. We associate to the connected components of the
 > boundary of $M$ the infinite dimensional state space of the Loop
 > Representation of quantum gravity. Eq. 5 [the magic formula I alluded
-> to - jb], then, provides a map, in Atiyah's sense, between the state
+> to --- jb], then, provides a map, in Atiyah's sense, between the state
 > spaces constructed on two of these boundary components. Equivalently,
 > it provides the definition of the Hilbert product in the state space.
 >
@@ -316,7 +316,7 @@ these measures as instead being functions of multiloops (collections of
 loops in space). This is the origin of the relationship to knot theory.
 
 The problem, as always in quantum field theory, is that the notion of
-"measure" must be taken with a big grain of salt - it's not the sort
+"measure" must be taken with a big grain of salt --- it's not the sort
 of measure they taught you about in real analysis. Instead, these
 measures are a kind of "generalized measure" that allows you to
 integrate not all continuous functions on $A/G$ but only those lying in an
@@ -352,8 +352,8 @@ abstract:
 > topology on the corresponding spaces $A$ of all connections which
 > satisfies the weak requirement of compatibility with the affine
 > structure of $A$, the moduli space $M$ is shown to be non-Hausdorff. It is
-> then shown that the Wilson loop functionals - i.e., the traces of
-> holonomies of connections around closed loops - are complete in the
+> then shown that the Wilson loop functionals --- i.e., the traces of
+> holonomies of connections around closed loops --- are complete in the
 > sense that they suffice to separate all separable points of $M$. The
 > methods are general enough to allow the underlying $n$-manifold to be
 > topologically non-trivial and for connections to be defined on

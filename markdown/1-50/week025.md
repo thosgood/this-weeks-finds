@@ -31,8 +31,8 @@ start by listing the contents, and then talk about it a bit.
 1.  Complexes of Sheaves and Their Hypercohomology
 2.  Line Bundles and Geometric Quantization
 3.  Kaehler Geometry of the Space of Knots
-4.  Degree 3 Cohomology - The Dixmier-Douady Theory
-5.  Degree 3 Cohomology - Sheaves of Groupoids
+4.  Degree 3 Cohomology --- The Dixmier-Douady Theory
+5.  Degree 3 Cohomology --- Sheaves of Groupoids
 6.  Line Bundles over Loop Spaces
 7.  The Dirac Monopole
 
@@ -42,8 +42,8 @@ serving to goad mathematics to new heights!
 
 The first two chapters are largely, but not entirely, "standard"
 material. I put the word in quotes because while Brylinski's treatment
-of it starts with the basics - the definition of sheaves, sheaf
-cohomology, Cech cohomology, deRham theory and the like - even these
+of it starts with the basics --- the definition of sheaves, sheaf
+cohomology, Cech cohomology, deRham theory and the like --- even these
 "basics" are rather demanding, and the slope of the ascent is rather
 steep. Really, the reader should already be fairly familiar with these
 ideas, since Brylinski is mainly introducing them in order to describe a
@@ -81,7 +81,7 @@ Extremely roughly, the idea is to first look at the space of all $L^2$
 complex functions on phase space, and then use a "polarization" to cut
 down this "prequantum" Hilbert space to "half the size," by which
 one means something vaguely like how $L^2(\mathbb{R}^n)$ is "half the size" of
-$L^2(\mathbb{R}^{2n})$ - this being the classic example. But in fact, it turns
+$L^2(\mathbb{R}^{2n})$ --- this being the classic example. But in fact, it turns
 out one doesn't really want to use *functions* on phase space, but
 instead sections of a certain complex line bundle. The point is that the
 classification of line bundles fits in beautifully with symplectic
@@ -154,7 +154,7 @@ The ramifications of this are multiple.
 
 First, every compact simple Lie group G has 3rd cohomology equal to $\mathbb{Z}$.
 (In fact, Brylinski notes that the cohomology group is not merely
-isomorphic to $\mathbb{Z}$, but canonically so - and this extra nuance turns out to
+isomorphic to $\mathbb{Z}$, but canonically so --- and this extra nuance turns out to
 be quite significant!) This gives rise to a special element in the 2nd
 cohomology of $LG$. This then gives a line bundle over $LG$. Alternatively,
 it gives a circle bundle over $LG$, in fact a central extension of $LG$,
@@ -244,7 +244,7 @@ intersection $O(i) \cap O(j)$ a $\mathbb{C}^*$-valued function $g(ij)$. These "t
 $$g(ij) g(jk) g(ki) = 1$$
 
 We say then that the functions $g(ij)$ define a 1-cocycle in Cech
-cohomology - think of this as just jargon, if you like. Note that we
+cohomology --- think of this as just jargon, if you like. Note that we
 will get an isomorphic line bundle if we take some $\mathbb{C}^*$-valued functions
 $f(i)$, one on each chart $O(i)$, and multiply $g(ij)$ by $f(i)f(j)^{-1}$. This
 simply amounts to changing the trivialization of the bundle on each

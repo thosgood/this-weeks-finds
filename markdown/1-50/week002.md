@@ -39,7 +39,7 @@ operators such as the "total volume of the universe".
 
 It is thus quite interesting that the authors make progress on
 determining the "right" extension of the HOMFLY polynomial invariant
-of links to links with transverse triple points - that is, the extension
+of links to links with transverse triple points --- that is, the extension
 that one gets by doing calculations in $SU(n)$ Chern-Simons theory. In a
 special case, namely when the HOMFLY polynomial reduces to the Kauffman
 bracket (which corresponds to the Lie group $SU(2)$), one gets a state of
@@ -112,7 +112,7 @@ Vogel, _Jour. of Knot Theory and its Ramifications_, **1** (1992), 59--104.
 
 This is another nice treatment of link invariants for generalized links
 with self-intersections. It concentrates on the famous link invariants
-coming from Chern-Simons theory - the HOMFLY polynomial (from $SU(n)$) and
+coming from Chern-Simons theory --- the HOMFLY polynomial (from $SU(n)$) and
 the Kauffman polynomial (from $SO(n)$). Lots of good pictures.
 
 And, switching back to the category theory, 2-categories, and the like,
@@ -131,7 +131,7 @@ These outline Louis Crane's vision of an approach to generally
 covariant 4-dimensional quantum field theories (e.g. quantum gravity or
 a "theory of everything") based on 2-categories. "Categorical
 physics" sketches the big picture, while the paper with Yetter provides
-a juicy mathematical spinoff - the first known four-dimensional TQFT,
+a juicy mathematical spinoff --- the first known four-dimensional TQFT,
 based on the representations of quantum $SU(2)$ and very similar in spirit
 to the Turaev-Viro construction of a 3d TQFT from quantum $SU(2)$. The
 papers with Frenkel (apparently still not in their final form) describe

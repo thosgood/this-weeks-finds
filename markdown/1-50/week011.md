@@ -20,7 +20,7 @@ now at `rstate@cosmic.physics.ucsb.edu`, but please don't ask him for
 copies unless you're pretty serious, because it's big.)
 
 Both the technical problems of "canonical" quantum gravity and one of
-the main conceptual problems - the problem of time - stem from the fact
+the main conceptual problems --- the problem of time --- stem from the fact
 that general relativity is a system in which the initial data have
 constraints. So improving our understanding of quantizing constrained
 classical systems is important in understanding quantum gravity.
@@ -35,7 +35,7 @@ is a spacelike coordinate. The equation is simply
 $$\frac{d^2\varphi}{dt^2} -\frac{d^2\varphi}{dx^2} = 0.$$
 
 Now this equation can be rewritten as an evolutionary equation for
-initial data as follows. We consider pairs of functions $(Q,P)$ on $\mathbb{R}$ - which we think of $\varphi$ and $d\varphi/dt$ on "space", that is, on a surface $t = \text{constant}$.
+initial data as follows. We consider pairs of functions $(Q,P)$ on $\mathbb{R}$ --- which we think of $\varphi$ and $d\varphi/dt$ on "space", that is, on a surface $t = \text{constant}$.
 And we rewrite the second-order equation above as a
 first-order equation:
 
@@ -54,8 +54,8 @@ the harmonic oscillator.
 
 Now in general relativity things are similar but more complicated. The
 analog of the pairs $(\varphi, d\varphi/dt)$ are pairs $(Q,P)$ where $Q$ is the metric on
-spacetime restricted to a spacelike hypersurface - that is, the "metric
-on space at a given time" - and $P$ is concocted from the extrinsic
+spacetime restricted to a spacelike hypersurface --- that is, the "metric
+on space at a given time" --- and $P$ is concocted from the extrinsic
 curvature of that hypersurface as it sits in spacetime. Now the name of
 the game is to turn Einstein's equation for the metric into a
 first-order equation sort of like (1). The problem is, in general
@@ -126,7 +126,7 @@ submanifold of pairs satisfying the constraints, so that, in a sense,
 "the Hamiltonian of general relativity is zero". But one must be
 careful in saying this because it can be confusing! It has confused lots
 of people worrying about the problem of time in quantum gravity, where
-they naively think "What - the Hamiltonian is zero? That means there's
+they naively think "What --- the Hamiltonian is zero? That means there's
 no dynamics at all!"
 
 The problem in quantizing general relativity in the "canonical"

@@ -8,12 +8,12 @@ technical, so I'll put them near the end, and start off with something
 on the light side, and then note some interesting progress on the
 Vassiliev invariant scene.
 
-1) "Beyond Einstein - is space loopy?" by Marcia Bartusiak, _Discover_,
+1) "Beyond Einstein --- is space loopy?" by Marcia Bartusiak, _Discover_,
 April 1993.
 
 In the airport in Montreal I ran into this article, which was the cover
 story, with an upside-down picture of Einstein worked into a bunch of
-linked key-rings. I bought it - how could I resist? - since it is
+linked key-rings. I bought it --- how could I resist? --- since it is
 perhaps the most "pop" exposition of the loop representation of
 quantum gravity so far. Those interested in the popularization of modern
 physics might want to compare
@@ -27,7 +27,7 @@ loop representation of quantum gravity. It is intrinsically less
 hype-able, since it does not purport to be a theory of everything, and
 comes right after superstrings were supposed to have solved all the
 mysteries of the universe. Also, its proponents are (so far) a more
-cautious breed than the string theorists - note the question marks in
+cautious breed than the string theorists --- note the question marks in
 both titles! But we will see....
 
 Marcia Bartusiak is a contributing editor of Discover and the author of
@@ -50,7 +50,7 @@ with gee-whiz remarks like
                    FOR EQUATIONS
                          THOUGHT IMPOSSIBLE TO SOLVE
 
-(which is, after all, true - nobody had previously found solutions to
+(which is, after all, true --- nobody had previously found solutions to
 the constraint equations in canonical quantum gravity, and all of a
 sudden here were lots of 'em!). And there are some amusing discussions
 of personality: "Affable, creative, and easy-going, Rovelli quickly
@@ -101,19 +101,19 @@ welcome.
 
 4) "Surgical invariants of four-manifolds", by Boguslaw Broda, preprint
 available as [`hep-th/9302092`](http://xxx.lanl.gov/ps/hep-th/9302092).
-(Revisited - see ["Week 9"](#week9))
+(Revisited --- see ["Week 9"](#week9))
 
 Let me briefly recall the setup: we describe a compact 4-manifold by a
 handlebody decomposition, and represent this decomposition using a link
 in $S^3$. The 2-handles are represented by framed knots, while the
 1-handles are represented by copies of the unknot (which we may think of
 as having the zero framing). The 1-handles and 2-handles play quite a
-different role in constructing the 4-manifold - which is why one
+different role in constructing the 4-manifold --- which is why one
 normally draws the former as copies of the unknot with a *dot* on them -
 but Broda's construction does NOT care about this. Broda simply takes
 the link, forgetting the dots, and cooks up a number from it, using
 cabling and the Kauffman bracket at an root of unity. Let's call
-Broda's invariant by $b(M)$ - actually for each primitive $r$th root of
+Broda's invariant by $b(M)$ --- actually for each primitive $r$th root of
 unity, we have $b_r(M)$.
 
 Broda shows that this is a 4-manifold invariant by showing it doesn't

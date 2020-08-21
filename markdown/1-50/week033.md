@@ -9,7 +9,7 @@ stuff that's cluttering my desk!
 1) _Gauge Fields, Knots and Gravity_, by John Baez and Javier de Muniain, World Scientific Press, to appear in summer 1994.
 
 This book is based on a seminar I taught in 1992--93. We start out
-assuming the reader is familiar with basic stuff - Maxwell's equations,
+assuming the reader is familiar with basic stuff --- Maxwell's equations,
 special relativity, linear algebra and calculus of several variables -
 and try to prepare the reader to understand recent work on quantum
 gravity and its relation to knot theory. It proved difficult to do this
@@ -82,7 +82,7 @@ Roughly, the WAY theorem states that it is impossible to measure an
 operator that fails to commute with an additive conserved quantity. Let
 me give an example to clarify this and then give the proof. Say we have
 a particle with position $q$ and momentum $p$, and a measuring apparatus
-with position $Q$ and momentum $P$. Let's suppose that the total momentum $p + P$ is conserved - which will typically be the case if we count as part
+with position $Q$ and momentum $P$. Let's suppose that the total momentum $p + P$ is conserved --- which will typically be the case if we count as part
 of the "apparatus" everything that exerts a force on the particle.
 Then as a consequence of the WAY theorem we can see that (in a certain
 sense) it is impossible to measure the particle's position $q$; all we
@@ -95,8 +95,8 @@ theorems that seem to show something is impossible without reading the
 fine print. So let's see what the WAY theorem *really* says!
 
 It assumes that the Hilbert space for the system is the tensor product
-of the Hilbert space for the thing being observed - for short, let's
-call it the "particle" - and the Hilbert space for the measuring
+of the Hilbert space for the thing being observed --- for short, let's
+call it the "particle" --- and the Hilbert space for the measuring
 apparatus. Assume also that $A$ and $B$ are two observables belonging to the
 observed system, while $C$ is an observable belonging to the measuring
 apparatus; suppose that $B + C$ is conserved, and let's try to show that
