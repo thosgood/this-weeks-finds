@@ -1,4 +1,4 @@
-# Week 49 (1995-02-27)
+# Week 49 (1995-02-27) {#week49}
 
 For the last year or so I've been really getting interested in
 $n$-categories as a possible tool for unifying a lot of strands in
@@ -111,11 +111,16 @@ $n$-category". Now we can make a chart of these:
 
 |       | $n=0$ | $n=1$ | $n=2$ |
 | ----- | :--- | :--- | :--- |
-| $k=0$ | sets | categories | 2-categories |[1em]
+| $k=0$ | sets | categories | 2-categories |
+| | | | |
 | $k=1$ | monoids | monoidal categories | monoidal 2-categories |
+| | | | |
 | $k=2$ | commutative monoids | braided monoidal categories | braided monoidal 2-categories |
+| | | | |
 | $k=3$ | " " | symmetric monoidal categories | weakly involutory monoidal 2-categories |
+| | | | |
 | $k=4$ | " " | " " | strongly involutory monoidal 2-categories |
+| | | | |
 | $k=5$ | " " | " " | " " |
 
 :$k$-tuply monoidal $n$-categories

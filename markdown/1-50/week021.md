@@ -1,4 +1,4 @@
-# Week 21 (1993-10-10)
+# Week 21 (1993-10-10) {#week21}
 
 Louis Kauffman is editing a series of volumes called "Series on Knots
 and Everything," published by World Scientific. The first volume was

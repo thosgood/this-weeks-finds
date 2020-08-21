@@ -1,4 +1,4 @@
-# Week 25 (1993-11-14)
+# Week 25 (1993-11-14) {#week25}
 
 Lately, many things give me the feeling that we're on the brink of some
 deeper understanding of the relations between geometry, topology, and

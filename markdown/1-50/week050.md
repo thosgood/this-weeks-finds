@@ -1,4 +1,4 @@
-# Week 50 (1995-03-12)
+# Week 50 (1995-03-12) {#week50}
 
 Your roving mathematical physics reporter is now in Milan, where (when
 not busy eating various kinds of cheese) he is discussing BF theory with

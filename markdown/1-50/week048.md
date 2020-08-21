@@ -1,4 +1,4 @@
-# Week 48 (1995-02-26)
+# Week 48 (1995-02-26) {#week48}
 
 There are a few things I've bumped into that I feel I should let folks
 know about, so here's a special issue from Munich, where the Weissbier

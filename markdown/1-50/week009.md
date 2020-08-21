@@ -1,4 +1,4 @@
-# Week 9 (1993-03-12)
+# Week 9 (1993-03-12) {#week9}
 
 1. "Surgical invariants of four-manifolds", by Boguslaw Broda, preprint
 available as [`hep-th/9302092`](http://xxx.lanl.gov/abs/hep-th/9302092).

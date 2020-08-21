@@ -1,4 +1,4 @@
-# Week 17 (1993-06-13)
+# Week 17 (1993-06-13) {#week17}
 
 This'll be the last "This Week's Finds" for a few weeks, as I am
 going up to disappear until July. I've gotten some requests for

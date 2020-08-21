@@ -1,4 +1,4 @@
-# Week 35 (1994-06-05)
+# Week 35 (1994-06-05) {#week35}
 
 1) "Pursuing stacks (A la poursuite des champs)", 1983 letter from
 Alexandre Grothendieck to Daniel Quillen, 593 pages. Scanned version

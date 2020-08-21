@@ -1,4 +1,4 @@
-# Week 29 (1994-01-14)
+# Week 29 (1994-01-14) {#week29}
 
 I'm awfully busy this week, but feel like attempting to keep up with
 the pile of literature that is accumulating on my desk, so this will be

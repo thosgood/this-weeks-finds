@@ -1,4 +1,4 @@
-# Week 10 (1993-03-20)
+# Week 10 (1993-03-20) {#week10}
 
 The most substantial part of this issue is some remarks by Daniel
 Ruberman (<ruberman@binah.cc.brandeis.edu>) on the paper I was talking

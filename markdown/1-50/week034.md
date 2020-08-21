@@ -1,4 +1,4 @@
-# Week 34 (1994-05-24)
+# Week 34 (1994-05-24) {#week34}
 
 A bit of a miscellany this week....
 
