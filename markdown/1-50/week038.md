@@ -111,7 +111,7 @@ regarded as *equal* are revealed to be merely isomorphic. This gets
 tricky, since certain *isomorphisms* that were regarded as equal at one
 level are revealed to be merely isomorphic at the next level... leading
 us into a subtle world of isomorphisms between isomorphisms between
-isomorphisms... which the theory of n-categories attempts to
+isomorphisms... which the theory of $n$-categories attempts to
 systematize. (I should note, however, that in the particular case of
 associativity this business was worked out by Jim Stasheff quite a while
 back: it's the homotopy theorists who were the ones with the guts to

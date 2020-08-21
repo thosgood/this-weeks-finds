@@ -300,9 +300,7 @@ vertices, that is, transverse double points, like
       to [out=down,in=up] (0,-1);
     \end{knot}
   \end{tikzpicture}
-\]
-
-and transverse triple points. This involves working with a
+\] and transverse triple points. This involves working with a
 generalization of the braid group that includes generators for these
 vertices as well as the usual generators for crossings. In this case of
 4-valent vertices, rigorously working out the generators and relations
@@ -338,9 +336,7 @@ have!
 This is a nice review of the recent work on Vassiliev invariants of
 links. Given an invariant of oriented links, one can extend it to links
 with arbitrarily many double points by setting the value of the
-invariant on a link with a double point
-
-\[
+invariant on a link with a double point \[
   \begin{tikzpicture}
     \begin{knot}[clip width=0]
       \strand[thick] (0,0)
@@ -349,11 +345,7 @@ invariant on a link with a double point
       to [out=down,in=up] (0,-1);
     \end{knot}
   \end{tikzpicture}
-\]
-
-to be the invariant of the link with the double point changed to
-
-\[
+\] to be the invariant of the link with the double point changed to \[
   \begin{tikzpicture}
     \begin{knot}[clip width=7]
       \strand[thick] (0,0)
@@ -363,11 +355,7 @@ to be the invariant of the link with the double point changed to
       \flipcrossings{1}
     \end{knot}
   \end{tikzpicture}
-\]
-
-minus the invariant of the link with the double point changed to
-
-\[
+\] minus the invariant of the link with the double point changed to \[
   \begin{tikzpicture}
     \begin{knot}[clip width=7]
       \strand[thick] (0,0)
@@ -2932,7 +2920,7 @@ not rigorous a number of ways were devised to make it so. These seem
 different at first glance but all give the same answer. Two approaches
 that use a lot of category theory are the Heegard splitting approach
 (due to Crane, Kohno and Kontsevich, in which one writes a 3-manifold as
-two solid n-holed tori glued together by a diffeomorphism of their
+two solid \(n\)-holed tori glued together by a diffeomorphism of their
 boundaries), and the surgery on links approach (due to Reshetikhin and
 Turaev, in which one builds up 3-manifolds by starting with the
 3-sphere, cutting out thickened links and gluing them back in a
@@ -3033,7 +3021,7 @@ boundary, i.e.~\(S^3\).
 We can get any compact oriented 4-manifold this way using attaching maps
 that are compatible with the orientations. The reader who is new to this
 may enjoy constructing 2-manifolds in an analogous way. Compact oriented
-2-manifolds with boundary are just n-holed tori.
+2-manifolds with boundary are just \(n\)-holed tori.
 
 What's cool is that with some tricks one can still \emph{draw} what's
 going in the case of 3-manifolds and 4-manifolds. Here I'll just
@@ -3944,8 +3932,8 @@ commute with each other and with the Hamiltonian constraint.
 
 This is about TQFTs and the high-powered algebra needed to do justice to
 the ``ladder of field theories'' that one can obtain starting with a
-d-dimensional TQFT --- gerbs, torsors, n-categories and other such scary
-things. I am too beat to do this justice.
+d-dimensional TQFT --- gerbs, torsors, \(n\)-categories and other such
+scary things. I am too beat to do this justice.
 \hypertarget{week13}{%
 \section{Week 13 (1993-04-20)}\label{week13}}
 
@@ -4564,7 +4552,7 @@ without any fixed metric structure, and is diffeomorphism invariant. We
 expect that a consistent quantization of such a theory should be found
 along lines which are more similar to the quantization of the
 \(\int(F^E)\), theory than to the quantization of theories on flat
-space, based on the Wightman axioms namely on n-points functions and
+space, based on the Wightman axioms namely on \(n\)-points functions and
 related objects. Still, the theory \(\int(F^e)\)\textbf{???} has genuine
 field degrees of freedom: its physical phase space is infinite
 dimensional, and we expect that its Hilbert state space will also be
@@ -4579,8 +4567,8 @@ point'' is gauge invariant; but at the same time it has genuinely
 infinite degrees of freedom. Indeed, this theory is of course nothing
 but (Ashtekar's form of) standard general relativity.
 
-The fact that ``local'' quantities like the n-point functions are not
-appropriate to describe quantum gravity non-perturbatively has been
+The fact that ``local'' quantities like the \(n\)-point functions are
+not appropriate to describe quantum gravity non-perturbatively has been
 repeatedly noted in the literature. As a consequence, the issue of what
 are the quantities in terms of which a quantum theory of gravity can be
 constructed is a much debated issue. The above discussion indicates a
@@ -5137,33 +5125,21 @@ boundary, but to keep life simple we won't here.) We want to calculate a
 number \(Z(M)\), the partition function of \(M\), since the partition
 function is a basic ingredient in Feynman's approach to quantum field
 theory. We first triangulate \(M\)\ldots{} so a patch might look like:
-
-\begin{verbatim}
-                ____
-              /\    /
-             /  \  /
-            /____\/ 
-            \    /   
-             \  /          
-              \/     
-\end{verbatim}
-
-Then ``disassemble'' \(M\) into separate triangles, like this:
-
-\begin{verbatim}
-                  ____
-              /\ \    /
-             /  \ \  /
-            /____\ \/
-             ____ 
-            \    /   
-             \  /          
-              \/     
-\end{verbatim}
-
-Now assign to each edge of the disassembled version of \(M\) a ``color''
-taken from a fixed finite set \(S\). Note that there are twice as many
-edges in the disassembled version of \(M\) as in the original
+\[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (1,1.6) to (2,0) to cycle;
+    \draw[thick] (2,0) to (1,1.6) to (3,1.6) to cycle;
+    \draw[thick] (0,0) to (2,0) to (1,-1.6) to cycle;
+  \end{tikzpicture}
+\] Then ``disassemble'' \(M\) into separate triangles, like this: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (1,1.6) to (2,0) to cycle;
+    \draw[thick] (2.5,0) to (1.5,1.6) to (3.5,1.6) to cycle;
+    \draw[thick] (0,-0.5) to (2,-0.5) to (1,-2.1) to cycle;
+  \end{tikzpicture}
+\] Now assign to each edge of the disassembled version of \(M\) a
+``color'' taken from a fixed finite set \(S\). Note that there are twice
+as many edges in the disassembled version of \(M\) as in the original
 triangulation of \(M\). Any way of assigning a color to each edge of the
 disassembled \(M\) will be called a ``coloring''. We think of a coloring
 as a ``history of the world'' and we will compute \(Z(M)\) by summing a
@@ -5187,39 +5163,23 @@ and write down the obvious factor of \(c\) for each triangle in \(M\).
 Finally, sum over all colorings to get \(Z(M)\).
 
 For example, if \(M\) were a torus that we triangulated with two
-triangles like this
-
-\begin{verbatim}
-              /\
-             /  \
-            /____\
-            \    /   
-             \  /          
-              \/     
-\end{verbatim}
-
---- with opposite edges of the parallelogram identified --- we would
-dissasemble \(M\) and label the edges like this, say:
-
-\begin{verbatim}
-              /\
-             l  m
-            /__j_\
-             _i__
-            \    /   
-             n  k          
-              \/     
-\end{verbatim}
-
-To form \(M\) we glue \(i\) to \(j\), \(k\) to \(l\), and \(m\) to
-\(n\). So we write down
-
-\[g^{ij}g^{kl}g^{mn}c_{jml}c_{ink}\]
-
-and then sum over \(i,j,k,l,m,n\) to get \(Z(M)\). Notice that for this
-procedure to be well defined it had better not matter whether we write
-\(g^{ij}\) or \(g^{ji}\), since we have no way of knowing which to use.
-So \(g\) had better be symmetric. Similarly, we had better have
+triangles like this \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (1,1.6) to (2,0) to cycle;
+    \draw[thick] (0,0) to (2,0) to (1,-1.6) to cycle;
+  \end{tikzpicture}
+\] --- with opposite edges of the parallelogram identified --- we would
+dissasemble \(M\) and label the edges like this, say: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to node[fill=white]{$l$} (1,1.6) to node[fill=white]{$m$} (2,0) to node[fill=white]{$j$} cycle;
+    \draw[thick] (0,-0.5) to node[fill=white]{$i$} (2,-0.5) to node[fill=white]{$k$} (1,-2.1) to node[fill=white]{$n$} cycle;
+  \end{tikzpicture}
+\] To form \(M\) we glue \(i\) to \(j\), \(k\) to \(l\), and \(m\) to
+\(n\). So we write down \[g^{ij}g^{kl}g^{mn}c_{jml}c_{ink}\] and then
+sum over \(i,j,k,l,m,n\) to get \(Z(M)\). Notice that for this procedure
+to be well defined it had better not matter whether we write \(g^{ij}\)
+or \(g^{ji}\), since we have no way of knowing which to use. So \(g\)
+had better be symmetric. Similarly, we had better have
 \(c_{ijk} = c_{jki}\) --- invariance under cyclic permutations. Note
 that since \(M\) is oriented we can (and will) require that we go around
 each triangle counterclockwise when writing down things like
@@ -5231,69 +5191,54 @@ something that deserves to be called ``topological.'' This imposes extra
 conditions on \(g\) and \(c\). Here it is handy to know that we can get
 between any two triangulations of \(M\) using a sequence of two moves
 and their inverses. The first move is called the ``(2,2) move.'' It
-looks like this, where I will draw the vertices as \(O\)'s:
-
-\begin{verbatim}
-    O                 O
-   /|\               / \    
-  / | \             /   \  
- /  |  \           /     \ 
-O   |   O <---->  O-------O
- \  |  /           \     /   
-  \ | /             \   /          
-   \|/               \ /     
-    O                 O
-\end{verbatim}
-
-It is called the (2,2) move since it really amounts to taking 2 faces of
-a tetrahedron and replacing them with the other 2 faces! There is a
+looks like this: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1,1.5) node{$\bullet$} to (2,0) node{$\bullet$} to (1,-1.5) node{$\bullet$} to cycle;
+    \draw[thick] (1,1.5) to (1,-1.5);
+  \end{tikzpicture}
+  \raisebox{4.5em}{$\qquad\longleftrightarrow\qquad$}
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1,1.5) node{$\bullet$} to (2,0) node{$\bullet$} to (1,-1.5) node{$\bullet$} to cycle;
+    \draw[thick] (0,0) to (2,0);
+  \end{tikzpicture}
+\] It is called the (2,2) move since it really amounts to taking 2 faces
+of a tetrahedron and replacing them with the other 2 faces! There is a
 similar (3,1) move that takes 3 faces of a tetrahedron and replaces them
-with the other 1, as follows:
-
-\begin{verbatim}
-          O                      O
-         /|\                    / \
-        / | \                  /   \
-       /  |  \                /     \
-      /   |   \              /       \
-     /   _O_   \   <---->   /         \
-    /  _/   \_  \          /           \
-   / _/       \_ \        /             \
-  /_/           \_\      /               \
- O-----------------O    O-----------------O
-\end{verbatim}
-
-(This drawing done by my friend Bruce Smith in a fit of insomnia!) These
-are examples of the ``Pachner moves,'' and the same idea works in any
-dimension. But in 2 dimensions we can use a move called the ``bubble
+with the other 1, as follows: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1.8,3) node{$\bullet$} to (3.6,0) node{$\bullet$} to cycle;
+    \node at (1.8,1.2) {$\bullet$};
+    \draw[thick] (0,0) to (1.8,1.1);
+    \draw[thick] (1.8,3) to (1.8,1.1);
+    \draw[thick] (3.6,0) to (1.8,1.1);
+  \end{tikzpicture}
+  \raisebox{4.5em}{$\qquad\longleftrightarrow\qquad$}
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1.8,3) node{$\bullet$} to (3.6,0) node{$\bullet$} to cycle;
+  \end{tikzpicture}
+\] (This drawing done by my friend Bruce Smith in a fit of insomnia!)
+These are examples of the ``Pachner moves,'' and the same idea works in
+any dimension. But in 2 dimensions we can use a move called the ``bubble
 move'' instead of the (3,1) move. Here is where drawing vertices as
-\(O\)'s is crucial:
-
-\begin{verbatim}
-    O             O
-   /|\            |
-  / | \           |
- /  |  \          |
-|   O   | <-----> |
- \  |  /          |
-  \ | /           |
-   \|/            |
-    O             O
-\end{verbatim}
-
-In the left, we have two hideously deformed triangles (remember, this is
-topology!) that are attached along TWO edges, leaving two edges exposed,
-and in the right we have collapsed them down to a single edge. We leave
-it as a fun exercise to show that you can do anything with the (2,2)
-move and the bubble move that you can do with the (2,2) move and the
-(3,1) move.
+\(\bullet\)'s is crucial: \[
+  \begin{tikzpicture}
+    \draw[thick] (1,1.5) to [bend left=70] (1,-1.5) to [bend left=70] cycle;
+    \draw[thick] (1,1.5) node{$\bullet$} to node{$\bullet$} (1,-1.5) node{$\bullet$};
+  \end{tikzpicture}
+  \raisebox{4.5em}{$\qquad\longleftrightarrow\qquad$}
+  \begin{tikzpicture}
+    \draw[thick] (1,1.5) node{$\bullet$} to (1,-1.5) node{$\bullet$};
+  \end{tikzpicture}
+\] On the left, we have two hideously deformed triangles (remember, this
+is topology!) that are attached along TWO edges, leaving two edges
+exposed, and in the right we have collapsed them down to a single edge.
+We leave it as a fun exercise to show that you can do anything with the
+(2,2) move and the bubble move that you can do with the (2,2) move and
+the (3,1) move.
 
 Requiring that \(Z(M)\) be invariant under the (2,2) moves amounts to
 the following equation --- if you check it, you will make sure you
-understand what's going on:
-
-\[c_{xy}^u c_{uz}^w = c_{xu}^w c_{yz}^u.\]
-
+understand what's going on: \[c_{xy}^u c_{uz}^w = c_{xu}^w c_{yz}^u.\]
 Here I have raised indices using the ``metric'' \(g\). This equation
 looks sort of hairy, but it's actually something very nice in disguise.
 We need to tease out its inner essence! Suppose we take a vector space
@@ -5303,38 +5248,31 @@ the equation above says this map is an associative product! If you
 ponder the picture of the (2,2) move for a while, this should become
 obvious to you. Think of each triangle as being a gadget that you can
 feed vectors into from two sides and have the ``product'' pop out on the
-third side. Then the equation
-
-\begin{verbatim}
-    O                 O
-   /|\               / \    
-  / | \             /   \  
- /  |  \           /     \ 
-O   |   O    =    O-------O
- \  |  /           \     /   
-  \ | /             \   /          
-   \|/               \ /     
-    O                 O
-\end{verbatim}
-
-really is just associativity! To understand this in a deeper way, read
-Kapranov and Voevodsky's paper (reviewed in
+third side. Then the equation \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1,1.5) node{$\bullet$} to (2,0) node{$\bullet$} to (1,-1.5) node{$\bullet$} to cycle;
+    \draw[thick] (1,1.5) to (1,-1.5);
+  \end{tikzpicture}
+  \raisebox{4.5em}{$\qquad=\qquad$}
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1,1.5) node{$\bullet$} to (2,0) node{$\bullet$} to (1,-1.5) node{$\bullet$} to cycle;
+    \draw[thick] (0,0) to (2,0);
+  \end{tikzpicture}
+\] really is just associativity! To understand this in a deeper way,
+read Kapranov and Voevodsky's paper (reviewed in
 \protect\hyperlink{week4}{``Week 4''}), especially the section on the
 ``associahedron''.
 
 Requiring that \(Z(M)\) be invariant under the bubble move amounts to
-the following:
-
-\[c_{xu}^v c_{yv}^u = g_{xy}\]
-
-Here \(g_{xy}\) is the matrix inverse of \(g^{xy}\). Again, I leave it
-as an exercise to show this is the right equation. It is a formula
-expressing the ``metric'' \(g\) on \(A\) in terms of the product on
-\(A\)! In fact, it has a beautiful algebraic interpretation: it says
-that the algebra \(A\) is ``semisimple.'' A semisimple algebra is just a
-direct sum of matrix algebras, and in such algebras the inner product
-\(g(a,b)\) of any two elements is just equal to
-\(\operatorname{tr}(a^T b)\), where \(a^T\) is the transpose of \(a\).
+the following: \[c_{xu}^v c_{yv}^u = g_{xy}\] Here \(g_{xy}\) is the
+matrix inverse of \(g^{xy}\). Again, I leave it as an exercise to show
+this is the right equation. It is a formula expressing the ``metric''
+\(g\) on \(A\) in terms of the product on \(A\)! In fact, it has a
+beautiful algebraic interpretation: it says that the algebra \(A\) is
+``semisimple.'' A semisimple algebra is just a direct sum of matrix
+algebras, and in such algebras the inner product \(g(a,b)\) of any two
+elements is just equal to \(\operatorname{tr}(a^T b)\), where \(a^T\) is
+the transpose of \(a\).
 
 So we discover a charming fact: there is a one-to-one correspondence
 between topological lattice field theories in 2 dimensions and
@@ -5409,7 +5347,7 @@ understand.
 \tightlist
 \item
   ``Six ways to quantize (2+1)-dimensional gravity'', by Steven Carlip
-  (\texttt{carlip@nsfitp.itp.ucsb.edu}), 21 pages, preprint available in
+  (at \texttt{carlip@nsfitp.itp.ucsb.edu}), 21 pages, preprint available in
   LaTeX form as \texttt{gr-qc/9305020}.
 \end{enumerate}
 
@@ -6503,7 +6441,7 @@ Hsiang announced that he had a proof, but I am not sure how many experts
 have read it and been convinced.
 
 This packing is a very regular sort of packing, what people call a
-lattice packing. A lattice is a discrete subset of n-dimensional
+lattice packing. A lattice is a discrete subset of \(n\)-dimensional
 Euclidean space closed under addition, and the packing above corresponds
 to a lattice called the ``face-centered cubic'' or fcc lattice, which is
 the set of all points \((x,y,z)\) where \(x\), \(y\), and \(z\) are
@@ -11473,13 +11411,14 @@ of maps \(X \to Y\) (more correctly, for general \(X\), \(Y\), the maps
 of \(X\) into \(Y\) in the homotopy category) should correspond to
 \(n\)-equivalence classes of \(n\)-functors from \(\Pi_n(X)\) to
 \(\Pi_n(Y)\) --- etc. There are some very strong suggestions for a nice
-formalism including a notion of geometric realization of an n-groupoid,
-which should imply that any \(n\)-groupoid is \(n\)-equivalent to a
-\(\Pi_n(X)\). Moreover when the notion of an \(n\)-groupoid (or more
-generally of an \(n\)-category) is relativized over an arbitrary topos
-to the notion of an \(n\)-gerbe (or more generally, an \(n\)-stack),
-these become the natural ``coefficients'' for a formalism of non
-commutative cohomological algebra, in the spirit of Giraud's thesis.
+formalism including a notion of geometric realization of an
+\(n\)-groupoid, which should imply that any \(n\)-groupoid is
+\(n\)-equivalent to a \(\Pi_n(X)\). Moreover when the notion of an
+\(n\)-groupoid (or more generally of an \(n\)-category) is relativized
+over an arbitrary topos to the notion of an \(n\)-gerbe (or more
+generally, an \(n\)-stack), these become the natural ``coefficients''
+for a formalism of non commutative cohomological algebra, in the spirit
+of Giraud's thesis.
 \end{quote}
 
 The ``Bangor group'' referred to includes Ronnie Brown, who has done a
@@ -12177,7 +12116,7 @@ be merely isomorphic. This gets tricky, since certain
 \emph{isomorphisms} that were regarded as equal at one level are
 revealed to be merely isomorphic at the next level\ldots{} leading us
 into a subtle world of isomorphisms between isomorphisms between
-isomorphisms\ldots{} which the theory of n-categories attempts to
+isomorphisms\ldots{} which the theory of \(n\)-categories attempts to
 systematize. (I should note, however, that in the particular case of
 associativity this business was worked out by Jim Stasheff quite a while
 back: it's the homotopy theorists who were the ones with the guts to
@@ -15085,7 +15024,7 @@ models like Chern-Simons theory.
 
 Now if we take a 3-dimensional spacetime and look at the \(t = 0\)
 slice, we will with some luck get a 2-dimensional manifold, such as a
-sphere, torus, or more general n-holed doughnut. This is where the
+sphere, torus, or more general \(n\)-holed doughnut. This is where the
 complex analysis comes in, because the complex plane is 2-dimensional,
 and we can cover these surfaces with coordinate systems that look
 locally like the complex plane, making them into ``Riemann surfaces''

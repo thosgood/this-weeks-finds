@@ -161,5 +161,5 @@ preprint, December 18, 1992, available as
 
 This is about TQFTs and the high-powered algebra needed to do justice to
 the "ladder of field theories" that one can obtain starting with a
-d-dimensional TQFT --- gerbs, torsors, n-categories and other such scary
+d-dimensional TQFT --- gerbs, torsors, $n$-categories and other such scary
 things. I am too beat to do this justice.

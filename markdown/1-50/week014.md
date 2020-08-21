@@ -228,7 +228,7 @@ worth it...
 > consistent quantization of such a theory should be found along lines
 > which are more similar to the quantization of the $\int(F^E)$,
 > theory than to the quantization of theories on flat space, based on
-> the Wightman axioms namely on n-points functions and related objects.
+> the Wightman axioms namely on $n$-points functions and related objects.
 > Still, the theory $\int(F^e)$**???** has genuine field degrees of
 > freedom: its physical phase space is infinite dimensional, and we
 > expect that its Hilbert state space will also be infinite dimensional.
@@ -242,7 +242,7 @@ worth it...
 > degrees of freedom. Indeed, this theory is of course nothing but
 > (Ashtekar's form of) standard general relativity.
 >
-> The fact that "local" quantities like the n-point functions are not
+> The fact that "local" quantities like the $n$-point functions are not
 > appropriate to describe quantum gravity non-perturbatively has been
 > repeatedly noted in the literature. As a consequence, the issue of
 > what are the quantities in terms of which a quantum theory of gravity

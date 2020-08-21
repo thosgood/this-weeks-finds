@@ -202,7 +202,7 @@ wrote:
 > $X$, $Y$, the maps of $X$ into $Y$ in the homotopy category) should correspond
 > to $n$-equivalence classes of $n$-functors from $\Pi_n(X)$ to $\Pi_n(Y)$ --- etc.
 > There are some very strong suggestions for a nice formalism including
-> a notion of geometric realization of an n-groupoid, which should imply
+> a notion of geometric realization of an $n$-groupoid, which should imply
 > that any $n$-groupoid is $n$-equivalent to a $\Pi_n(X)$. Moreover when the
 > notion of an $n$-groupoid (or more generally of an $n$-category) is
 > relativized over an arbitrary topos to the notion of an $n$-gerbe (or

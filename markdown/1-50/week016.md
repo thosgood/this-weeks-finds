@@ -23,26 +23,21 @@ keep life simple we won't here.) We want to calculate a number $Z(M)$,
 the partition function of $M$, since the partition function is a basic
 ingredient in Feynman's approach to quantum field theory. We first
 triangulate $M$... so a patch might look like:
-
-                    ____
-                  /\    /
-                 /  \  /
-                /____\/ 
-                \    /   
-                 \  /          
-                  \/     
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (1,1.6) to (2,0) to cycle;
+    \draw[thick] (2,0) to (1,1.6) to (3,1.6) to cycle;
+    \draw[thick] (0,0) to (2,0) to (1,-1.6) to cycle;
+  \end{tikzpicture}
+$$
 Then "disassemble" $M$ into separate triangles, like this:
-
-                      ____
-                  /\ \    /
-                 /  \ \  /
-                /____\ \/
-                 ____ 
-                \    /   
-                 \  /          
-                  \/     
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (1,1.6) to (2,0) to cycle;
+    \draw[thick] (2.5,0) to (1.5,1.6) to (3.5,1.6) to cycle;
+    \draw[thick] (0,-0.5) to (2,-0.5) to (1,-2.1) to cycle;
+  \end{tikzpicture}
+$$
 Now assign to each edge of the disassembled version of $M$ a "color"
 taken from a fixed finite set $S$. Note that there are twice as many edges
 in the disassembled version of $M$ as in the original triangulation of $M$.
@@ -69,29 +64,22 @@ get $Z(M)$.
 
 For example, if $M$ were a torus that we triangulated with two triangles
 like this
-
-                  /\
-                 /  \
-                /____\
-                \    /   
-                 \  /          
-                  \/     
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (1,1.6) to (2,0) to cycle;
+    \draw[thick] (0,0) to (2,0) to (1,-1.6) to cycle;
+  \end{tikzpicture}
+$$
 --- with opposite edges of the parallelogram identified --- we would
 dissasemble $M$ and label the edges like this, say:
-
-                  /\
-                 l  m
-                /__j_\
-                 _i__
-                \    /   
-                 n  k          
-                  \/     
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to node[fill=white]{$l$} (1,1.6) to node[fill=white]{$m$} (2,0) to node[fill=white]{$j$} cycle;
+    \draw[thick] (0,-0.5) to node[fill=white]{$i$} (2,-0.5) to node[fill=white]{$k$} (1,-2.1) to node[fill=white]{$n$} cycle;
+  \end{tikzpicture}
+$$
 To form $M$ we glue $i$ to $j$, $k$ to $l$, and $m$ to $n$. So we write down
-
 $$g^{ij}g^{kl}g^{mn}c_{jml}c_{ink}$$
-
 and then sum over $i,j,k,l,m,n$ to get $Z(M)$. Notice that for this
 procedure to be well defined it had better not matter whether we write
 $g^{ij}$ or $g^{ji}$, since we have no way of knowing which to use. So $g$
@@ -106,51 +94,51 @@ that deserves to be called "topological." This imposes extra
 conditions on $g$ and $c$. Here it is handy to know that we can get between
 any two triangulations of $M$ using a sequence of two moves and their
 inverses. The first move is called the "(2,2) move." It looks like
-this, where I will draw the vertices as $O$'s:
-
-        O                 O
-       /|\               / \    
-      / | \             /   \  
-     /  |  \           /     \ 
-    O   |   O <---->  O-------O
-     \  |  /           \     /   
-      \ | /             \   /          
-       \|/               \ /     
-        O                 O
-
+this:
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1,1.5) node{$\bullet$} to (2,0) node{$\bullet$} to (1,-1.5) node{$\bullet$} to cycle;
+    \draw[thick] (1,1.5) to (1,-1.5);
+  \end{tikzpicture}
+  \raisebox{4.5em}{$\qquad\longleftrightarrow\qquad$}
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1,1.5) node{$\bullet$} to (2,0) node{$\bullet$} to (1,-1.5) node{$\bullet$} to cycle;
+    \draw[thick] (0,0) to (2,0);
+  \end{tikzpicture}
+$$
 It is called the (2,2) move since it really amounts to taking 2 faces of
 a tetrahedron and replacing them with the other 2 faces! There is a
 similar (3,1) move that takes 3 faces of a tetrahedron and replaces them
 with the other 1, as follows:
-
-              O                      O
-             /|\                    / \
-            / | \                  /   \
-           /  |  \                /     \
-          /   |   \              /       \
-         /   _O_   \   <---->   /         \
-        /  _/   \_  \          /           \
-       / _/       \_ \        /             \
-      /_/           \_\      /               \
-     O-----------------O    O-----------------O
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1.8,3) node{$\bullet$} to (3.6,0) node{$\bullet$} to cycle;
+    \node at (1.8,1.2) {$\bullet$};
+    \draw[thick] (0,0) to (1.8,1.1);
+    \draw[thick] (1.8,3) to (1.8,1.1);
+    \draw[thick] (3.6,0) to (1.8,1.1);
+  \end{tikzpicture}
+  \raisebox{4.5em}{$\qquad\longleftrightarrow\qquad$}
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1.8,3) node{$\bullet$} to (3.6,0) node{$\bullet$} to cycle;
+  \end{tikzpicture}
+$$
 (This drawing done by my friend Bruce Smith in a fit of insomnia!) These
 are examples of the "Pachner moves," and the same idea works in any
 dimension. But in 2 dimensions we can use a move called the "bubble
-move" instead of the (3,1) move. Here is where drawing vertices as $O$'s
+move" instead of the (3,1) move. Here is where drawing vertices as $\bullet$'s
 is crucial:
-
-        O             O
-       /|\            |
-      / | \           |
-     /  |  \          |
-    |   O   | <-----> |
-     \  |  /          |
-      \ | /           |
-       \|/            |
-        O             O
-
-In the left, we have two hideously deformed triangles (remember, this is
+$$
+  \begin{tikzpicture}
+    \draw[thick] (1,1.5) to [bend left=70] (1,-1.5) to [bend left=70] cycle;
+    \draw[thick] (1,1.5) node{$\bullet$} to node{$\bullet$} (1,-1.5) node{$\bullet$};
+  \end{tikzpicture}
+  \raisebox{4.5em}{$\qquad\longleftrightarrow\qquad$}
+  \begin{tikzpicture}
+    \draw[thick] (1,1.5) node{$\bullet$} to (1,-1.5) node{$\bullet$};
+  \end{tikzpicture}
+$$
+On the left, we have two hideously deformed triangles (remember, this is
 topology!) that are attached along TWO edges, leaving two edges exposed,
 and in the right we have collapsed them down to a single edge. We leave
 it as a fun exercise to show that you can do anything with the (2,2)
@@ -160,9 +148,7 @@ move and the bubble move that you can do with the (2,2) move and the
 Requiring that $Z(M)$ be invariant under the (2,2) moves amounts to the
 following equation --- if you check it, you will make sure you understand
 what's going on:
-
 $$c_{xy}^u c_{uz}^w = c_{xu}^w c_{yz}^u.$$
-
 Here I have raised indices using the "metric" $g$. This equation looks
 sort of hairy, but it's actually something very nice in disguise. We
 need to tease out its inner essence! Suppose we take a vector space $A$
@@ -172,26 +158,24 @@ map is an associative product! If you ponder the picture of the (2,2)
 move for a while, this should become obvious to you. Think of each
 triangle as being a gadget that you can feed vectors into from two sides
 and have the "product" pop out on the third side. Then the equation
-
-        O                 O
-       /|\               / \    
-      / | \             /   \  
-     /  |  \           /     \ 
-    O   |   O    =    O-------O
-     \  |  /           \     /   
-      \ | /             \   /          
-       \|/               \ /     
-        O                 O
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1,1.5) node{$\bullet$} to (2,0) node{$\bullet$} to (1,-1.5) node{$\bullet$} to cycle;
+    \draw[thick] (1,1.5) to (1,-1.5);
+  \end{tikzpicture}
+  \raisebox{4.5em}{$\qquad=\qquad$}
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1,1.5) node{$\bullet$} to (2,0) node{$\bullet$} to (1,-1.5) node{$\bullet$} to cycle;
+    \draw[thick] (0,0) to (2,0);
+  \end{tikzpicture}
+$$
 really is just associativity! To understand this in a deeper way, read
 Kapranov and Voevodsky's paper (reviewed in ["Week 4"](#week4)),
 especially the section on the "associahedron".
 
 Requiring that $Z(M)$ be invariant under the bubble move amounts to the
 following:
-
 $$c_{xu}^v c_{yv}^u = g_{xy}$$
-
 Here $g_{xy}$ is the matrix inverse of $g^{xy}$. Again, I leave it as an
 exercise to show this is the right equation. It is a formula expressing
 the "metric" $g$ on $A$ in terms of the product on $A$! In fact, it has a
@@ -256,7 +240,7 @@ are only beginning to understand.
 ------------------------------------------------------------------------
 
 4) "Six ways to quantize (2+1)-dimensional gravity", by Steven Carlip
-(`carlip@nsfitp.itp.ucsb.edu`), 21 pages, preprint available in LaTeX
+(at `carlip@nsfitp.itp.ucsb.edu`), 21 pages, preprint available in LaTeX
 form as `gr-qc/9305020`.
 
 While we have no real way to quantize gravity in 3+1 dimensions ---

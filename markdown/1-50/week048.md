@@ -92,7 +92,7 @@ models like Chern-Simons theory.
 
 Now if we take a 3-dimensional spacetime and look at the $t = 0$ slice, we
 will with some luck get a 2-dimensional manifold, such as a sphere,
-torus, or more general n-holed doughnut. This is where the complex
+torus, or more general $n$-holed doughnut. This is where the complex
 analysis comes in, because the complex plane is 2-dimensional, and we
 can cover these surfaces with coordinate systems that look locally like
 the complex plane, making them into "Riemann surfaces" upon which we

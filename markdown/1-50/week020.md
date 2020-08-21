@@ -65,7 +65,7 @@ that he had a proof, but I am not sure how many experts have read it and
 been convinced.
 
 This packing is a very regular sort of packing, what people call a
-lattice packing. A lattice is a discrete subset of n-dimensional
+lattice packing. A lattice is a discrete subset of $n$-dimensional
 Euclidean space closed under addition, and the packing above corresponds
 to a lattice called the "face-centered cubic" or fcc lattice, which is
 the set of all points $(x,y,z)$ where $x$, $y$, and $z$ are integers adding up

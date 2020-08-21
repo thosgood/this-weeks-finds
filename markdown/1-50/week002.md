@@ -24,7 +24,6 @@ $$
     \end{knot}
   \end{tikzpicture}
 $$
-
 and transverse triple points. This involves working with a
 generalization of the braid group that includes generators for these
 vertices as well as the usual generators for crossings. In this case of
@@ -55,7 +54,6 @@ This is a nice review of the recent work on Vassiliev invariants of
 links. Given an invariant of oriented links, one can extend it to links
 with arbitrarily many double points by setting the value of the
 invariant on a link with a double point
-
 $$
   \begin{tikzpicture}
     \begin{knot}[clip width=0]
@@ -66,9 +64,7 @@ $$
     \end{knot}
   \end{tikzpicture}
 $$
-
 to be the invariant of the link with the double point changed to
-
 $$
   \begin{tikzpicture}
     \begin{knot}[clip width=7]
@@ -80,9 +76,7 @@ $$
     \end{knot}
   \end{tikzpicture}
 $$
-
 minus the invariant of the link with the double point changed to
-
 $$
   \begin{tikzpicture}
     \begin{knot}[clip width=7]

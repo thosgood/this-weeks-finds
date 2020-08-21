@@ -12,7 +12,7 @@ not rigorous a number of ways were devised to make it so. These seem
 different at first glance but all give the same answer. Two approaches
 that use a lot of category theory are the Heegard splitting approach
 (due to Crane, Kohno and Kontsevich, in which one writes a 3-manifold as
-two solid n-holed tori glued together by a diffeomorphism of their
+two solid $n$-holed tori glued together by a diffeomorphism of their
 boundaries), and the surgery on links approach (due to Reshetikhin and
 Turaev, in which one builds up 3-manifolds by starting with the
 3-sphere, cutting out thickened links and gluing them back in a
@@ -97,7 +97,7 @@ boundary, i.e. $S^3$.
 We can get any compact oriented 4-manifold this way using attaching maps
 that are compatible with the orientations. The reader who is new to this
 may enjoy constructing 2-manifolds in an analogous way. Compact oriented
-2-manifolds with boundary are just n-holed tori.
+2-manifolds with boundary are just $n$-holed tori.
 
 What's cool is that with some tricks one can still *draw* what's going
 in the case of 3-manifolds and 4-manifolds. Here I'll just describe how
