@@ -71,7 +71,7 @@ interesting new ideas.
 
 And now for some papers:
 
-4) "12j-symbols and four-dimensional quantum gravity", by M. Carfora, M.
+4) "$12j$-symbols and four-dimensional quantum gravity", by M. Carfora, M.
 Martellini (`martellini@milano.infn.it`), and A. Marzuoli, Dipartimento
 di Fisica, Universita di Roma "La Sapienza" preprint.
 
@@ -93,42 +93,47 @@ spheres, and other aspects of "quantum geometry."
 Just as every knot or link is given as the closure of a braid - for
 example, the trefoil knot
 
-     ________________________
-    /    _______________     \ 
-    \   /               \     |
-     \ /                 |    |
-      /                  |    |    
-     / \                 |    |
-    /   \                |    |
-    \   /                |    |
-     \ /                 |    |
-      /                  |    |    
-     / \                 |    |
-    /   \                |    |
-    \   /                |    |
-     \ /                 |    |
-      /                  |    |    
-     / \                 |    |
-    /   ________________/    |
-    _________________________/
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7pt]
+      \strand[thick] (0,0)
+        to [out=down,in=up] (1,-1)
+        to [out=down,in=up] (0,-2)
+        to [out=down,in=up] (1,-3);
+      \strand[thick] (1,0)
+        to [out=down,in=up] (0,-1)
+        to [out=down,in=up] (1,-2)
+        to [out=down,in=up] (0,-3);
+      \flipcrossings{1,3}
+      \strand[thick] (1,-3)
+        to [out=down,in=down] (2,-3)
+        to (2,0)
+        to [out=up,in=up] (1,0);
+      \strand[thick] (0,-3)
+        to [out=down,in=down] (3,-3)
+        to (3,0)
+        to [out=up,in=up] (0,0);
+    \end{knot}
+  \end{tikzpicture}
+$$
 
 is the closure of
 
-    \   /       
-     \ /        
-      /         
-     / \        
-    /   \       
-    \   /       
-     \ /        
-      /         
-     / \        
-    /   \       
-    \   /       
-     \ /        
-      /         
-     / \        
-    /   \ 
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7pt]
+      \strand[thick] (0,0)
+        to [out=down,in=up] (1,-1)
+        to [out=down,in=up] (0,-2)
+        to [out=down,in=up] (1,-3);
+      \strand[thick] (1,0)
+        to [out=down,in=up] (0,-1)
+        to [out=down,in=up] (1,-2)
+        to [out=down,in=up] (0,-3);
+      \flipcrossings{1,3}
+    \end{knot}
+  \end{tikzpicture}
+$$
 
 every "2-knot" or "2-link" - that is, a surface embedded in $\mathbb{R}^4$, is
 the closure of a "2-braid". Just as there are "Markov moves" that

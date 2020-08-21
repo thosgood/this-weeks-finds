@@ -847,9 +847,9 @@ there is a cyclic ordering of the three incident edges. That is, we
 by drawing a little clockwise or counterclockwise-pointing circle at the
 vertex. (Or, for those of an algebraic bent, label the edges by
 \(1\),\(2\),\(3\) but then mod out by cyclic permutations.) The
-relations are: 1) if we reverse the orientation of a trivalent vertex,
-that's equivalent to multiplying the graph by \(-1\). (Remember we're in
-a vector space spanned by graphs.) 2)
+relations are: \textbf{1)} if we reverse the orientation of a trivalent
+vertex, that's equivalent to multiplying the graph by \(-1\). (Remember
+we're in a vector space spanned by graphs.) \textbf{2)}
 
 \[
   \vcenter{\hbox{\begin{tikzpicture}
@@ -880,9 +880,9 @@ Now, let \(B_m\) be the vector space spanned by ``labelled'' finite
 graphs with univalent and oriented trivalent vertices, modulo some
 relations\ldots{} but first I have to say what ``labelled'' means. It
 means that each edge is labelled with a \(1\) or \(-1\). The relations
-are: 1) if we reverse the orientation of a trivalent vertex, it's the
-same as multiplying the labellings of all three incident edges by
-\(-1\). 2)
+are: \textbf{1)} if we reverse the orientation of a trivalent vertex,
+it's the same as multiplying the labellings of all three incident edges
+by \(-1\). \textbf{2)}
 
 \[
   \vcenter{\hbox{\begin{tikzpicture}
@@ -5714,9 +5714,10 @@ And now for some papers:
 \setcounter{enumi}{3}
 \tightlist
 \item
-  ``12j-symbols and four-dimensional quantum gravity'', by M. Carfora,
-  M. Martellini (\texttt{martellini@milano.infn.it}), and A. Marzuoli,
-  Dipartimento di Fisica, Universita di Roma ``La Sapienza'' preprint.
+  ``\(12j\)-symbols and four-dimensional quantum gravity'', by M.
+  Carfora, M. Martellini (\texttt{martellini@milano.infn.it}), and A.
+  Marzuoli, Dipartimento di Fisica, Universita di Roma ``La Sapienza''
+  preprint.
 \end{enumerate}
 
 This is an attempt to do for 4d quantum gravity what Regge, Ponzano and
@@ -5742,46 +5743,47 @@ spheres, and other aspects of ``quantum geometry.''
 Just as every knot or link is given as the closure of a braid - for
 example, the trefoil knot
 
-\begin{verbatim}
- ________________________
-/    _______________     \ 
-\   /               \     |
- \ /                 |    |
-  /                  |    |    
- / \                 |    |
-/   \                |    |
-\   /                |    |
- \ /                 |    |
-  /                  |    |    
- / \                 |    |
-/   \                |    |
-\   /                |    |
- \ /                 |    |
-  /                  |    |    
- / \                 |    |
-/   ________________/    |
-_________________________/
-\end{verbatim}
+\[
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7pt]
+      \strand[thick] (0,0)
+        to [out=down,in=up] (1,-1)
+        to [out=down,in=up] (0,-2)
+        to [out=down,in=up] (1,-3);
+      \strand[thick] (1,0)
+        to [out=down,in=up] (0,-1)
+        to [out=down,in=up] (1,-2)
+        to [out=down,in=up] (0,-3);
+      \flipcrossings{1,3}
+      \strand[thick] (1,-3)
+        to [out=down,in=down] (2,-3)
+        to (2,0)
+        to [out=up,in=up] (1,0);
+      \strand[thick] (0,-3)
+        to [out=down,in=down] (3,-3)
+        to (3,0)
+        to [out=up,in=up] (0,0);
+    \end{knot}
+  \end{tikzpicture}
+\]
 
 is the closure of
 
-\begin{verbatim}
-\   /       
- \ /        
-  /         
- / \        
-/   \       
-\   /       
- \ /        
-  /         
- / \        
-/   \       
-\   /       
- \ /        
-  /         
- / \        
-/   \ 
-\end{verbatim}
+\[
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7pt]
+      \strand[thick] (0,0)
+        to [out=down,in=up] (1,-1)
+        to [out=down,in=up] (0,-2)
+        to [out=down,in=up] (1,-3);
+      \strand[thick] (1,0)
+        to [out=down,in=up] (0,-1)
+        to [out=down,in=up] (1,-2)
+        to [out=down,in=up] (0,-3);
+      \flipcrossings{1,3}
+    \end{knot}
+  \end{tikzpicture}
+\]
 
 every ``2-knot'' or ``2-link'' - that is, a surface embedded in
 \(\mathbb{R}^4\), is the closure of a ``2-braid''. Just as there are

@@ -223,10 +223,10 @@ $$
 
 by drawing a little clockwise or counterclockwise-pointing circle at the
 vertex. (Or, for those of an algebraic bent, label the edges by $1$,$2$,$3$
-but then mod out by cyclic permutations.) The relations are: 1) if we
+but then mod out by cyclic permutations.) The relations are: **1)** if we
 reverse the orientation of a trivalent vertex, that's equivalent to
 multiplying the graph by $-1$. (Remember we're in a vector space spanned
-by graphs.) 2)
+by graphs.) **2)**
 
 $$
   \vcenter{\hbox{\begin{tikzpicture}
@@ -256,9 +256,9 @@ since these are abstract graphs, not graphs embedded in space.)
 Now, let $B_m$ be the vector space spanned by "labelled" finite graphs
 with univalent and oriented trivalent vertices, modulo some
 relations... but first I have to say what "labelled" means. It means
-that each edge is labelled with a $1$ or $-1$. The relations are: 1) if we
+that each edge is labelled with a $1$ or $-1$. The relations are: **1)** if we
 reverse the orientation of a trivalent vertex, it's the same as
-multiplying the labellings of all three incident edges by $-1$. 2)
+multiplying the labellings of all three incident edges by $-1$. **2)**
 
 $$
   \vcenter{\hbox{\begin{tikzpicture}
