@@ -3446,16 +3446,19 @@ Broda shows that this is a 4-manifold invariant by showing it doesn't
 change under the de Sa moves. One of these consists of adding or
 deleting a Hopf link
 
-\begin{verbatim}
-            /\   /\
-           /  \ /  \
-          /    \    \       
-         /    / \    \       
-         \    \ /    /
-          \    \    /
-           \  / \  /
-            \/   \/
-\end{verbatim}
+\[
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7pt]
+      \strand[thick] (0,0)
+        to [out=up,in=up,looseness=2] (1,0)
+        to [out=down,in=down,looseness=2] (0,0);
+      \strand[thick] (0.5,0)
+        to [out=up,in=up,looseness=2] (1.5,0)
+        to [out=down,in=down,looseness=2] (0.5,0);
+      \flipcrossings{2}
+    \end{knot}
+  \end{tikzpicture}
+\]
 
 in which both components have the zero framing and one represents a
 1-handle and the other a 2-handle. This move depends on the fact that we
@@ -3654,20 +3657,21 @@ direction. These are utterly arbitrary and give us complete flexibility
 in how we want to push the hypersurface forwards. Even if spacetime was
 flat, we could push the hypersurface forwards in a dull way like:
 
-\begin{verbatim}
-            -------------------- new
-            ____________________ old
-\end{verbatim}
+\[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (3,0) node[label=right:{new}]{};
+    \draw[thick] (0,-0.5) to (3,-0.5) node[label=right:{old}]{};
+  \end{tikzpicture}
+\]
 
 or in a screwy way like
 
-\begin{verbatim}
-              ----
-             /    \   /\
-            /      ---  \
-                         ------- new
-            ____________________ old
-\end{verbatim}
+\[
+  \begin{tikzpicture}
+    \draw[thick] plot [smooth] coordinates {(0,0) (0.7,1) (1.5,0) (2.5,0.5) (2.8,0) (3,0)} node[label=right:{new}]{};
+    \draw[thick] (0,-0.5) to (3,-0.5) node[label=right:{old}]{};
+  \end{tikzpicture}
+\]
 
 Of course, in general relativity spacetime is usually not flat, which
 makes it ultimately impossible to decide what counts as a ``dull way''

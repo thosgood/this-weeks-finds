@@ -69,16 +69,21 @@ utterly arbitrary and give us complete flexibility in how we want to
 push the hypersurface forwards. Even if spacetime was flat, we could
 push the hypersurface forwards in a dull way like:
 
-                -------------------- new
-                ____________________ old
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (3,0) node[label=right:{new}]{};
+    \draw[thick] (0,-0.5) to (3,-0.5) node[label=right:{old}]{};
+  \end{tikzpicture}
+$$
 
 or in a screwy way like
 
-                  ----
-                 /    \   /\
-                /      ---  \
-                             ------- new
-                ____________________ old
+$$
+  \begin{tikzpicture}
+    \draw[thick] plot [smooth] coordinates {(0,0) (0.7,1) (1.5,0) (2.5,0.5) (2.8,0) (3,0)} node[label=right:{new}]{};
+    \draw[thick] (0,-0.5) to (3,-0.5) node[label=right:{old}]{};
+  \end{tikzpicture}
+$$
 
 Of course, in general relativity spacetime is usually not flat, which
 makes it ultimately impossible to decide what counts as a "dull way"

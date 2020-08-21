@@ -120,14 +120,19 @@ Broda shows that this is a 4-manifold invariant by showing it doesn't
 change under the de Sa moves. One of these consists of adding or
 deleting a Hopf link
 
-                /\   /\
-               /  \ /  \
-              /    \    \       
-             /    / \    \       
-             \    \ /    /
-              \    \    /
-               \  / \  /
-                \/   \/
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7pt]
+      \strand[thick] (0,0)
+        to [out=up,in=up,looseness=2] (1,0)
+        to [out=down,in=down,looseness=2] (0,0);
+      \strand[thick] (0.5,0)
+        to [out=up,in=up,looseness=2] (1.5,0)
+        to [out=down,in=down,looseness=2] (0.5,0);
+      \flipcrossings{2}
+    \end{knot}
+  \end{tikzpicture}
+$$
 
 in which both components have the zero framing and one represents a
 1-handle and the other a 2-handle. This move depends on the fact that we

@@ -4,6 +4,7 @@
 
 - longtable -> table?
     + more generally, custom pandoc latex template
+- replace "week n" with link to Week n
 
 ## 1--50
 - diagrams
