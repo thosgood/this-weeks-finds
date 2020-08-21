@@ -90,73 +90,98 @@ $$\begin{aligned}e_i^2 &= de_i \\ e_i e_{i+1} e_i &= e_i \\ e_i e_{i-1} e_i &= e
 The point of it becomes clear if we draw the $e_i$ as tangles on $n$
 strands. Let's take $n = 3$ to keep life simple. Then $e_1$ is
 
-    \  /   |
-     \/    |
-           |
-     /\    |
-    /  \   |
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=5]
+      \strand[thick] (0,0)
+        to [out=down,in=down,looseness=2] (1,0);
+      \strand[thick] (0,-2)
+        to [out=up,in=up,looseness=2] (1,-2);
+      \strand[thick] (2,0)
+        to (2,-2);
+    \end{knot}
+  \end{tikzpicture}
+$$
 
 while $e_2$ is
 
-    |   \  /  
-    |    \/   
-    |      
-    |    /\   
-    |   /  \  
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=5]
+      \strand[thick] (1,0)
+        to [out=down,in=down,looseness=2] (2,0);
+      \strand[thick] (1,-2)
+        to [out=up,in=up,looseness=2] (2,-2);
+      \strand[thick] (0,0)
+        to (0,-2);
+    \end{knot}
+  \end{tikzpicture}
+$$
 
 In general, $e_i$ "folds over" the $i$th and $(i+1)$st strands. Note that if
 we square $e_i$ we get a loop - e.g., $e_1$ squared is
 
-    \  /   |
-     \/    |
-           |
-     /\    |
-    /  \   |
-    \  /   |
-     \/    |
-           |
-     /\    |
-    /  \   |
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=5]
+      \strand[thick] (0,0)
+        to [out=down,in=down,looseness=2] (1,0);
+      \strand[thick] (0,-2)
+        to [out=up,in=up,looseness=2] (1,-2);
+      \strand[thick] (0,-2)
+        to [out=down,in=down,looseness=2] (1,-2);
+      \strand[thick] (0,-4)
+        to [out=up,in=up,looseness=2] (1,-4);
+      \strand[thick] (2,0)
+        to (2,-4);
+    \end{knot}
+  \end{tikzpicture}
+$$
 
 Here we are using the usual product of tangles (see the article
-"tangles" in the collection of my expository posts, which can be
+["tangles"](http://math.ucr.edu/home/baez/tangles.html) in the collection of my expository posts, which can be
 obtained in a manner described at the end of this post). Now the rule in
 Temperley-Lieb land is that we can get rid of a loop if we multiply by
 the loop value $d$; that is, the loop "equals" $d$. So $e_1$ squared is just
 $d$ times
 
-    \  /   |
-     \/    |
-           |
-           |
-           |
-           |
-           |
-           |
-     /\    |
-    /  \   |
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=5]
+      \strand[thick] (0,0)
+        to [out=down,in=down,looseness=2] (1,0);
+      \strand[thick] (0,-4)
+        to [out=up,in=up,looseness=2] (1,-4);
+      \strand[thick] (2,0)
+        to (2,-4);
+    \end{knot}
+  \end{tikzpicture}
+$$
 
-which - since we are doing topology - is the same as $e_1$. That's why
+which --- since we are doing topology --- is the same as $e_1$. That's why
 $e_i^2 = de_i$.
 
 The other relations are even more obvious. For example, $e_1 e_2 e_1$ is
 just
 
-    \  /   |
-     \/    |
-           |
-     /\    |
-    /  \   |
-    |   \  /  
-    |    \/   
-    |      
-    |    /\   
-    |   /  \  
-    \  /   |
-     \/    |
-           |
-     /\    |
-    /  \   |
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=5]
+      \strand[thick] (0,0)
+        to [out=down,in=down,looseness=2] (1,0);
+      \strand[thick] (0,-4)
+        to [out=up,in=up,looseness=2] (1,-4);
+      \strand[thick] (2,0)
+        to (2,-1.5)
+        to [out=down,in=down,looseness=1.4] (1,-1.5)
+        to [out=up,in=up,looseness=1.4] (0,-1.5)
+        to (0,-2.5)
+        to [out=down,in=down,looseness=1.4] (1,-2.5)
+        to [out=up,in=up,looseness=1.4] (2,-2.5)
+        to (2,-4);
+    \end{knot}
+  \end{tikzpicture}
+$$
 
 which, since we are doing topology, is just $e_1$! Similarly, $e_2 e_1 e_2 = e_1$, and $e_i$ and $e_j$ commute if they are far enough away to keep from
 running into each other.
