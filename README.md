@@ -11,7 +11,6 @@
     + this may be done when we switch to a custom pandoc latex template
 - search for **???**
 - redo \begin{braids} with \begin{knots}?
-- centring of the array of frames in week4
 
 ## 51--100
 

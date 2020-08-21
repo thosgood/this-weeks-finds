@@ -373,7 +373,9 @@ $$
       \end{knot}
       \node at (0.5,-2.5) {Frame 3};
     \end{tikzpicture}
-    \\
+    \\[1em]
+    \hspace*{-1.8em}
+    \raisebox{-1.6em}{
     \begin{tikzpicture}
       \begin{knot}[clip width=0]
         \strand[thick] (0,0)
@@ -384,6 +386,7 @@ $$
       \node at (0.5,-2.5) {Frame 4};
       \node at (0.5,-3) {(catastrophe!)};
     \end{tikzpicture}
+    }
     &
     \begin{tikzpicture}
       \begin{knot}
