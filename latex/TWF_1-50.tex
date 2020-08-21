@@ -28,13 +28,16 @@
 
 \renewcommand{\thesection}{}
 
+\usepackage{titlesec}
+\newcommand{\sectionbreak}{\clearpage}
+
 \usepackage[toc]{multitoc}
 \renewcommand*{\multicolumntoc}{2}
 \setlength{\columnseprule}{0.5pt}
 
 \title{This Week's Finds in Mathematical Physics (1--50)}
 \author{John Baez}
-\date{}
+\date{January 19, 1993 to March 12, 1995}
 
 \usepackage{bussproofs}
 
@@ -44,10 +47,11 @@
 \usepackage{tikz-cd}
 
 \begin{document}
+
 \hypersetup{linkcolor=myrefcolor,citecolor=mycitecolor,urlcolor=myurlcolor}
 
 \maketitle
-\tableofcontents
+{\small\tableofcontents}
 
 \hypertarget{week1}{%
 \section{Week 1 (1993-01-19)}\label{week1}}

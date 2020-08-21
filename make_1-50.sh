@@ -39,6 +39,10 @@ printf "\n" >> $TEX
 printf '%s\n' '\renewcommand{\thesection}{}' >> $TEX
 
 printf "\n" >> $TEX
+printf '%s\n' '\usepackage{titlesec}' >> $TEX
+printf '%s\n' '\newcommand{\sectionbreak}{\clearpage}' >> $TEX
+
+printf "\n" >> $TEX
 printf '%s\n' '\usepackage[toc]{multitoc}' >> $TEX
 printf '%s\n' '\renewcommand*{\multicolumntoc}{2}' >> $TEX
 printf '%s\n' '\setlength{\columnseprule}{0.5pt}' >> $TEX
@@ -46,7 +50,7 @@ printf '%s\n' '\setlength{\columnseprule}{0.5pt}' >> $TEX
 printf "\n" >> $TEX
 printf '%s\n' "\title{This Week's Finds in Mathematical Physics (1--50)}" >> $TEX
 printf '%s\n' '\author{John Baez}' >> $TEX
-printf '%s\n' '\date{}' >> $TEX
+printf '%s\n' '\date{January 19, 1993 to March 12, 1995}' >> $TEX
 
 printf "\n" >> $TEX
 printf '%s\n' '\usepackage{bussproofs}' >> $TEX
@@ -66,7 +70,7 @@ printf '%s\n' '\hypersetup{linkcolor=myrefcolor,citecolor=mycitecolor,urlcolor=m
 
 printf "\n" >> $TEX
 printf '%s\n' '\maketitle' >> $TEX
-printf '%s\n' '\tableofcontents' >> $TEX
+printf '%s\n' '{\small\tableofcontents}' >> $TEX
 
 printf "\n" >> $TEX
 

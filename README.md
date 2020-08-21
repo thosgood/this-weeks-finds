@@ -4,7 +4,6 @@
 
 - longtable -> table?
     + more generally, custom pandoc latex template
-- each week starts on a new page
 - change date format to `%B %d, %Y`
     + display date underneath section title **but** still keep it in the TOC
 
