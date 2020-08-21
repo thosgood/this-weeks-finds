@@ -1,0 +1,297 @@
+week53
+
+Near the end of April I was invited by Ronnie Brown to Bangor, Wales for
+a very exciting get-together. Readers of \"This Week\'s Finds\" will
+know I\'m interested in n-categories and higher-dimensional algebra
+these days. Brown is the originator of the term \"higher-dimensional
+algebra\" and has been sort of a prophet of the subject for many years.
+Tim Porter at Bangor also works on this subject; I\'ll try to say a bit
+more about his stuff next week. And visiting Bangor at the time were
+John Power and Ross Street, two category theorists who do a lot of work
+on n-categories. So I had a chance to learn some more higher-dimensional
+algebra and category theory and see what these folks thought of my crazy
+ideas.
+
+1\) Ronald Brown, Out of line, Royal Institution Proceedings 64,
+207-243.
+
+Brown is very interested in explaining mathematics to the public, and
+this paper is based on a talk he gave to a general audience. It is a
+very accessible introduction to what mathematics is really all about,
+and what higher-dimensional algebra is about in particular. \"Out of
+line\" is a pun, of course, because not only does higher-dimensional
+algebra seek to burst free of certain habits of \"linear thinking\" that
+tend to go along with symbol string manipulation, it also has been a bit
+outside the mainstream of mathematics until recently.
+
+Now, when I speak of \"linear thinking\" I am not indulging in some
+vague new-agey complaint against rationality. I mean something very
+precise: the tendency to focus ones energy on operations that are easily
+modelled by the juxtaposition of symbols in a line. The primordial
+example is addition: we have a bunch of sticks in a row:
+
+                            |||||
+
+and we say there are \"5\" sticks and write
+
+                         1+1+1+1+1 = 5.
+
+Fine. But when we have a 2-dimensional array of sticks:
+
+                            ||||
+                            ||||
+
+we are in a hurry to bring the situation to linear form by making up a
+new operation, \"multiplication\", and saying we have 2 x 4 sticks. This
+isn\'t so bad for plenty of purposes; it\'s not as if I\'m against times
+tables! But certain things, particular in topology, can get obscured by
+neglecting operations that correspond most naturally to
+higher-dimensional forms of juxtaposition, and Brown\'s paper explains
+some of these, and how to deal with these problems. The point is not to
+avoid linear notation; it\'s to avoid falling into certain mental traps
+it can lead you into if you\'re not careful!
+
+2\) A. J. Power, Why tricategories?, preprint available as
+ECS-LFCS-94-289 from Laboratory for Foundations of Computer Science,
+University of Edinburgh. Also available at
+<http://www.ima.umn.edu/talks/workshops/SP6.7-18.04/power/power.pdf>
+
+When I mentioned this paper to a friend, she puzzledly asked \"\`Why try
+categories?\'?\" And indeed, one must have tried categories and enjoyed
+them before moving on to bicategories, tricategories and that great
+beckoning terra incognita of mathematics, n-category theory.
+
+In a sense I already know \"why tricategories\". I think they\'re great,
+and in a paper with James Dolan \-\-- summarized in
+\"[week49](week49.html)\" \-\-- I did my best to get everyone else
+interested in general n-categories. For me, the great thing about
+n-category theory is that it strives to formalize the notion of
+\"process\" in all its recursive splendor. An n-category is a
+mathematical structure containing not only objects, which one might
+think of as \"things\", and morphisms, which one might think of as
+\"processes leading from one thing to another\", but also 2-morphisms,
+which are \"processes leading from one process to another\", and then
+3-morphisms, etc., on up to n-morphisms.
+
+In physics and topology applications, the k-morphisms can often be
+thought of as k-dimensional geometrical objects, since (as the Greeks
+knew) the process of motion of a point traces out a 1-dimensional
+figure, and similarly the motion of a 1-dimensional figure traces out a
+2-dimensional surface\... and n-dimensional spacetime is in some rough
+sense \"traced out\" by the motion of (n-1)-dimensional spacelike slices
+through time. If you think this is vague, you\'re right \-\-- and
+that\'s why one needs n-category theory, to make it precise! When one
+understands n-categories (which so far we really do only up to n = 3)
+one sees that the possibilities inherent in n-dimensional topology match
+up very nicely with one might have stumbled on not knowing topology at
+all, but just playing around with this iterated notion of processes
+between processes between processes\... This \"natural correspondence\"
+between purely algebraic concepts and topological ones is what makes
+topological quantum field theory tick, and I can\'t help but feel that
+it will have quite a bit to say about physics eventually.
+
+Power, however, gives a quite different set of reasons for being
+interested in tricategories. These are drawn from computer science and
+logic, and they make me realize yet again how poor and outdated my
+education in logic was, and how much interesting stuff there is going on
+in the subject!
+
+At a completely naive level, one might already expect that relation
+between \"processes\" and \"things\" is subtle and interesting in
+computer science. For after all, we can think of a program either as a
+process that turns one thing into another, or as data, a sort of thing,
+which other programs can act on. Power does not really emphasize this
+issue explicitly, but I can\'t help remarking on it, especially because
+it reminds me of the curious fact that in mathematical physics, \"time
+is the last dimension\".
+
+That is, in topological quantum field theory, the n-morphisms in an
+n-category, which are the processes having no further processes going
+between them, represent the passage of time. And indeed, for many
+practical purposes it appears that n = 4 is where things leave off,
+since spacetime appears 4-dimensional. On the other hand, nobody knows
+any mathematical reason why one has to stop at any given n. So
+ultimately we should try to understand \"ω-categories\", having
+n-morphisms for all n greater than or equal to zero (0-morphisms being
+simply objects, and 1-morphisms being morphisms). This corresponds
+philosophically to the notion that every \"process\" can also be
+regarded as a \"thing\" which other processes can transform. Moreover,
+we should also try to understand \"Z-categories\", having n-morphisms
+for all integers n, even negative ones! In this world, where there is no
+bottom as well as no top, every \"thing\" can also be regarded as a
+\"process\".
+
+But I digress. Power is actually more interested in a different (though
+perhaps related) hierarchy. Sometimes people like to say computers just
+do stuff with bunches of numbers, but that\'s pretty misleading. Of
+course computers *can* do things with numbers, but that\'s one of the
+simpler mathematical things they can do. A number is an element of a set
+(the set of real numbers, or some set of more computer-manageable
+numbers.) And computers have no problem dealing with elements of sets.
+But computers can also deal with sets themselves \-\-- and more fancy
+mathematical objects.
+
+Many mathematical objects are sets, or bunches of sets, equipped with
+operations satisfying equational laws. For example, a group is a set
+equipped with a product and inverse operation satisfying various laws.
+Sometimes these operations are only defined if certain conditions hold,
+of course. For example, a category is a set of \"objects\" and a set of
+\"morphisms\", together with various operations like composition of
+morphisms, but one i can only compose two morphisms f: x → y and g: w →
+z if y = w. Other examples might include graphs, partially ordered
+sets\... and all sorts of things computer scientists know and love.
+
+We could call all of these \"sets with essentially algebraic
+structure.\" Mathematically sophisticated computer scientists want to be
+able define data types corresponding to arbitrary sorts of sets with
+essentially algebraic structure, and to play around with them easily. So
+they need to ponder such things in considerable generality.
+
+Note that in all cases, there is not just a bunch of objects to play
+with \-\-- like \"groups\" or \"partially ordered sets\" \-\-- but a
+*category* in which the morphisms are structure-preserving maps between
+the objects in question. For example, there is a category Grp whose
+objects are groups and whose morphisms are group homomorphisms.
+
+The categories one gets this way are of a certain sort. Power calls them
+\"categories of models of finite limit theories\". To define this
+requires a bit of know-how, but it\'s basically simple. For example,
+suppose I were trying to explain the definition of a category to a
+computer scientist; I might say, every category has a set ob of objects
+and a set mor of morphisms; every morphism has an object called its
+source (or domain), so there is a function
+
+                      source: mor → ob
+
+and similarly every morphism has an object called its target (or
+codomain) so there is a function
+
+                      target: mor → ob
+
+Now, we can compose a morphism f and a morphism g to get fg if target(f)
+= source(g), so we have a composition function
+
+                  composition: C → mor
+
+defined only on the subset C of mor x mor that is the biggest subset
+making the following diagram commute:
+
+                       C  ------p1----> mor
+                       |                 |             p1(f,g) = f
+                      p2               target          p2(f,g) = g
+                       |                 |
+                       V                 V
+                      mor ----source---> ob 
+
+Now category theorists have a slick way of dealing with these functions
+defined only a subset satisfying equational conditions; instead of
+talking about the \"biggest subset\" C they would say that C is the
+\"limit\" of the diagram
+
+                                     mor
+                                      |
+                                   target
+                                      |
+                                      V
+                      mor -source---> ob 
+
+If you don\'t get this, don\'t worry; in a sense it\'s just another way
+of talking about the same thing, with the advantage of being infinitely
+more general, since one can talk about the limit of any diagram, though
+here we will only need limits of *finite* diagrams.
+
+Then, after having lined up these ingredients (and I have left some
+out!), I could go ahead and say what equational laws they need to
+satisfy, like associativity of composition; and if I wanted I could
+write all these laws out using commutative diagrams, too! Then I would
+have laid out the \"theory of categories\" \-\-- a complete description
+of the operations in a category and the laws they obey.
+
+The theory of categories is a typical example of a \"finite limit
+theory\", because what I really did above, in describing the \"theory of
+categories\", is describe a CATEGORY, say Th, having objects called ob
+and mor, and morphisms called source, target, composition, and so on,
+such that various diagrams commute! Moreover, we should think of Th as a
+category with all finite limits, that is, one in which all finite
+diagrams have limits. That allows us to deal with things like the object
+C above, which are defined as limits of finite diagrams.
+
+So we have this thing Th, the \"theory of categories\". And then, any
+*particular* category is a \"model\" of this theory Th. A \"model\"
+assigns to each object in Th a particular set \-\-- for example, \"mor\"
+above gets assigned the set of morphisms in some particular category C
+\-\-- and assigns to each morphism in Th a particular function \-\-- for
+example, \"composition\" above gets assigned the function representing
+composition in C. Moreover, this assignment satisfies a bunch of utterly
+obvious consistency conditions which one summarizes by saying that a
+\"model of the theory Th is a functor from Th to Set that preserves
+finite limits\". In logic, you know, a model of a theory is something
+that assigns to each thingie in the theory an actual thingie, in such a
+way that all the stuff the theory SAYS is true about these thingies, IS
+true!
+
+Now if you are with me thus far you either know this stuff better than I
+do, or else I congratulate you, because the example I picked was
+deliberately self-referential and confusing \-\-- I was using category
+theory to describe the theory of categories, and also, the theory Th
+itself was a category! But the world of thought does have a funny way of
+wrapping back on itself like that\... so it\'s good to get used to it.
+
+In fact there is a big literature on \"sets with essentially algebraic
+structure\" and \"categories of models of finite limit theories\"\...
+this is a branch of logic they never taught me about in school, but it
+definitely exists, and Power gives some references to it:
+
+3\) P. Gabriel and F. Ulmer, Lokal praesentierbare Kategorien, in
+Springer Lecture Notes in Math 221 (1971).
+
+G. Kelly, Structures defined by finite limits in the enriched context I,
+Cahiers de Top. et. Geom. Diff. 23 (1982), 3-41.
+
+Michael Makkai and Robert Pare, Accessible categories: the foundations
+of categorical model theory, in Contemp. Math. 104 (1989).
+
+But let\'s dig in a bit further, since really the fun is just starting.
+Now, I told you what a model of one of these finite limit theories Th
+was, but not what a morphism between models is! Well, if a model is a
+sort of functor, a morphism between them should be a sort of natural
+transformation between functors; that\'s how it usually goes. So there
+is really a category Mod(Th) of models of one of these theories Th. If
+Th were the theory of categories as above, Mod(Th) would be the category
+of (small) categories, which is called Cat. To take a less fiendish
+example, if Th were the theory of groups, Mod(Th) would the category
+Grp.
+
+But now suppose one wanted to build a computer language that could not
+only deal with all sorts of data types corresponding to different \"sets
+with essentially algebraic structure\", but also various \"categories
+with essentially algebraic structure\". For if one likes category theory
+well enough to do a lot of computer science using it, it makes sense to
+let the computer itself join the fun, by creating a language in which
+it\'s easy to talk about categories. After all, our eventual goal with
+computers is to have them completely replace computer scientists, right?
+
+Well, in a way \"categories with essentially algebraic structure\"
+aren\'t terribly different from sets with essentially algebraic
+structure. Roughly, the idea is that instead of having a data type that
+consists of a bunch of sets with functions between them satisfying some
+equational laws, we have a data type consisting of a bunch of
+categories, functors between them, and natural transformations between
+THEM satisfying equational laws. What this means is that if we try to
+copy the above stuff, instead of a \"theory\" we will have a
+\"2-theory\" Th, which is some sort of 2-category, and then a model of
+this would be a 2-functor from Th to Cat. We want to wind up getting a
+2-category Mod(Th) of models of Th.
+
+But actually carrying this out is a bit tricky, and much of Power\'s
+paper goes into the details of various proposed schemes. Of course there
+is no reason in principle to stop here, other than our limited
+understanding of n-categories, sheer bewilderment, or boredom. Reasoning
+about n-categories always tends to drag in (n+1)-categories, because the
+collection of all n-categories with some particular structure (such as
+the \"essentially algebraic structures\" I\'ve focussed on here, but
+also other sorts) typically forms an (n+1)-category. This is how Power
+motivates tricategories. Right now we are stuck at n = 3, but there are
+good reasons to expect that pretty soon we\'ll go beyond that. In fact,
+Power and Street showed me a sketch of their ideas on
+tetracategories\....

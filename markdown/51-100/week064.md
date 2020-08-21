@@ -1,0 +1,343 @@
+week64
+
+I have been talking about different \"ADE classifications\". This time
+I\'ll start by continuing the theme of last Week, namely simple Lie
+algebras, and then move on to discuss affine Lie algebras and quantum
+groups. These are algebraic structures that describe the symmetries
+appearing in quantum field theory in 2 and 3 dimensions. They are very
+important in string theory and topological quantum field theory, and
+it\'s largely physics that has gotten people interested in them.
+
+Remember, we began by classifying finite reflection groups. A finite
+reflection group is simply a finite group of linear transformations of
+R^n^, every element of which is a product of reflections. Finite
+reflection groups are in 1-1 correspondence with the following \"Coxeter
+diagrams\", together with disjoint unions of such diagrams:
+
+    An, which has n dots like this:
+
+    o---o---o---o
+
+    Bn, which has n dots, where n > 1:
+
+              4
+    o---o---o---o
+
+    Dn, which has n dots, where n > 3:
+
+                  o
+                 /
+    o---o---o---o
+                 \
+                  o
+
+    E6, E7, and E8:
+
+          o               o                   o
+          |               |                   |
+    o--o--o--o--o   o--o--o--o--o--o    o--o--o--o--o--o---o
+
+
+    F4:                   G2:               H3 and H4:
+
+          4                6                5                5
+    o---o---o---o        o---o            o---o---o        o---o---o---o
+
+
+    Im, where m = 5 or m > 6:
+
+      m
+    o---o
+
+Not all of these finite reflection groups satisfy the \"crystallographic
+condition\", namely that they act as symmetries of some lattice. The
+ones that do are of types A,B,D,E,F, and G, and disjoint unions thereof
+\-\-- but I\'m going to stop reminding you about disjoint unions all the
+time!
+
+Now, if we have a finite reflection group that\'s the symmetries of some
+lattice, we can take the dimension of the lattice to be the number of
+dots in the Coxeter diagram. In fact, the dots correspond to a basis of
+the lattice, and the lines between them (and their numberings) keep
+track of the angles between the basis vectors. These basis vectors are
+called \"roots\". To describe the lattice completely, in principle we
+need to know the lengths of the roots as well as the angles between
+them. But it turns out that except for type B, there is just one choice
+of lengths that works (up to overall scale). For type B there are two
+choices, which people call B~n~ and C~n~, respectively. People keep
+track of the lengths with a \"Dynkin diagram\" like this:
+
+    Bn has n dots, where n > 1:       Cn has n dots, where n > 2:
+
+              4                                  4
+    o---o---o->-o                      o---o---o-<-o
+
+The arrow points to the shorter root; for B~n~ all the roots except the
+last one are sqrt(2) times as long as the last one, while for C~n~ all
+the roots except the last one are 1 / √2 as long. (In fact, the lattices
+corresponding to B~n~ and C~n~ are \"dual\", in the hopefully obvious
+sense.) The only reason why we require n \> 2 for C~n~ is that B~2~ is
+basically the same as C~2~!
+
+Now last Week, I also sketched how the Lie algebras of the compact
+simple Lie groups were *also* classified by the same Dynkin diagrams of
+types A, B, C, D, E, F, and G. These were real Lie algebras; we can also
+switch viewpoint and work with complex Lie algebras if we like, in which
+case we simply say we\'re studying the complex simple Lie algebras, as
+opposed to their \"compact real forms\".
+
+Unfortunately, I didn\'t say much about what these Lie algebras actually
+are! Basically, they go like this:
+
+A~n~ - The Lie algebra A~n~ is just sl~n+1~(C), the (n+1) × (n+1)
+complex matrices with vanishing trace, which form a Lie algebra with the
+usual bracket \[x,y\] = xy - yx. The compact real form of sl~n~(C) is
+su~n~, and the corresponding compact Lie group is SU(n), the n × n
+unitary matrices with determinant 1. The symmetry group of the
+electroweak force is U(1) x SU(2), where U(1) is the 1 × 1 unitary
+matrices. The symmetry group of the strong force is SU(3). The study of
+A~n~ is thus a big deal in particle physics. People have also considered
+\"grand unified theories\" with symmetry groups like SU(5).
+
+B~n~ - The Lie algebra B~n~ is so~2n+1~(C), the (2n+1) × (2n+1) skew-
+symmetric complex matrices with vanishing trace. The compact real form
+of so~n~(C) is so~n~, and the corresponding compact Lie group is SO(n),
+the n × n real orthogonal matrices with determinant 1, that is, the
+rotation group in Euclidean n-space. For some basic cool facts about
+SO(n), check out \"[week61](week61.html)\".
+
+C~n~ - The Lie algebra C~n~ is sp~n~(C), the 2n × 2n complex matrices of
+the form
+
+         A  B
+         C  D
+
+where B and C are symmetric, and D is minus the transpose of A. The
+compact real form of sp~n~(C) is sp~n~, and the corresponding compact
+Lie group is called Sp(n). This is the group of n × n quaternionic
+matrices which preserve the usual inner product on the space H^n^ of
+n-tuples of quaternions.
+
+D~n~ - The Lie algebra D~n~ is so~2n~(C), the 2n × 2n skew-symmetric
+complex matrices with vanishing trace. See B~n~ above for more about
+this. It may seem weird that SO(n) acts so differently depending on
+whether n is even or odd, but it\'s true: for example, there are
+\"left-handed\" and \"right-handed\" spinors in even dimensions, but not
+in odd dimensions. Some clues as to why are given in
+\"[week61](week61.html)\".
+
+Those are the \"classical\" Lie algebras, and they are things that are
+pretty easy to reinvent for yourself, and to get interested in for all
+sorts of reasons. As you can see, they are all about \"rotations\" in
+real, complex, and quaternionic vector spaces.
+
+The remaining ones are called \"exceptional\", and they are much more
+mysterious. They were only discovered when people figured out the
+classification of simple Lie algebras. As it turns out, they tend to be
+related to the octonions! Some other week I will say more about them,
+but for now, let me just say:
+
+F~4~ - This is a 52-dimensional Lie algebra. Its smallest representation
+is 26-dimensional, consisting of the traceless 3×3 hermitian matrices
+over the octonions, on which it preserves a trilinear form.
+
+G~2~ - This is a 14-dimensional Lie algebra, and the compact Lie group
+corresponding to its compact real form is also often called G~2~. This
+group is just the group of symmetries (automorphisms) of the octonions!
+In fact, the smallest representation of this Lie algebra is
+7-dimensional, corresponding to the purely imaginary octonions.
+
+E~6~ - This is a 78-dimensional Lie algebra. Its smallest representation
+is 27-dimensional, consisting of all the 3x3 hermitian matrices over the
+octonions this time, on which it preserves the anticommutator.
+
+E~7~ - This is a 133-dimensional Lie algebra. Its smallest
+representation is 56-dimensional, on which it preserves a tetralinear
+form.
+
+E~8~ - This is a 248-dimensional Lie algebra, the biggest of the
+exceptional Lie algebras. Its smallest representation is
+248-dimensional, the so-called \"adjoint\" representation, in which it
+acts on itself. Thus in some vague sense, the simplest way to understand
+the Lie group corresponding to E~8~ is as the symmetries of itself!
+(Thanks go to Dick Gross for this charming information; I think he said
+all the other exceptional Lie algebras have representations smaller than
+themselves, but I forget the sizes.) In \"[week20](week20.html)\" I
+described a way to get its root lattice (the 8-dimensional lattice
+spanned by the roots) by playing around with the icosahedron and the
+quaternions.
+
+People have studied simple Lie algebras a lot this century, basically
+studied the hell out of them, and in fact some people were getting a
+teeny bit sick of it recently, when along came some new physics that put
+a lot of new life into the subject. A lot of this new physics is related
+to string theory and quantum gravity. Some of this physics is
+\"conformal field theory\", the study of quantum fields in 2 dimensional
+spacetime that are invariant under all conformal (angle-preserving)
+transformations. This is important in string theory because the string
+worldsheet is 2-dimensional. Some other hunks of this physics go by the
+name of \"topological quantum field theory\", which is the study of
+quantum fields, usually in 3 dimensions so far, that are invariant under
+*all* transformations (or more precisely, all diffeomorphisms).
+
+Every simple Lie algebra gives rise to an \"affine Lie algebra\" and a
+\"quantum group\". The symmetries of conformal field theories are
+closely related to affine Lie algebras, and the symmetries of
+topological quantum field theories are quantum groups. I won\'t tell you
+what affine Lie algebras and quantum groups ARE, since it would take
+quite a while. Instead I\'ll refer you to a good good introduction to
+this stuff:
+
+1\) Juergen Fuchs, Affine Lie Algebras and Quantum Groups, Cambridge
+Monographs on Mathematical Physics, Cambridge U. Press, Cambridge 1992.
+
+Let me whiz through his table of contents and very roughly sketch what
+it\'s all about.
+
+##### 1. Semisimple Lie algebras
+
+This is a nice summary of the theory of semisimple Lie algebras
+(remember, those are just direct sums of simple Lie algebras) and their
+representations. Especially if you are a physicist, a slick summary like
+this might be a better way to start learning the subject than a big fat
+textbook on the subject. He covers the Dynkin diagram stuff and much,
+much more.
+
+##### 2. Affine Lie algebras
+
+This starts by describing Kac-Moody algebras, which are certain
+*infinite-dimensional* analogs of the simple Lie algebras. Fuchs
+concentrates on a special class of these, the affine Lie algebras, and
+describes the classification of these using Dynkin diagrams. The main
+nice thing about the affine Lie algebras is that their corresponding
+infinite-dimensional Lie groups are very nice: they are almost \"loop
+groups\". If we have a Lie group G, the loop group LG is just the set of
+all smooth functions from the circle to G, which we make into a group by
+pointwise multiplication. If you\'re a physicist, this is obviously
+relevant to string theory, because at each time, a string is just a
+circle (or bunch of circles), and if you are doing gauge theory on the
+string, with symmetry group G, the gauge group is then just the loop
+group LG. So you\'d expect the representation theory of loop groups and
+their Lie algebras to be really important.
+
+You\'d *almost* be right, but there is a slight catch. In quantum
+theory, what counts are the \"projective\" representations of a group,
+that is, representations that satisfy the rule g(h(v)) = (gh)(v) *up to
+a phase*. (This is because \"phases are unobservable in quantum theory\"
+- one of those mottoes that needs to be carefully interpreted to be
+correct.) The projective representations of the loop group LG correspond
+to the honest-to-goodness representations of a \"central extensions\" of
+LG, a slightly fancier group than LG itself. And the Lie algebra of
+*this* group is called an affine Lie algebra.
+
+So, people who like gauge theory and string theory need to know a lot
+about affine Lie algebras and their representations, and that\'s what
+this chapter covers. A real heavy-duty string theorist will need to know
+more about Kac-Moody algebras, so if you\'re planning on becoming one of
+those, you\'d better also try:
+
+2\) Victor Kac, Infinite Dimensional Lie Algebras, 3rd ed., Cambridge
+University Press, Cambridge, 1990.
+
+You\'ll also need to know more about loop groups, so try:
+
+3\) Loop groups, by Andrew Pressley and Graeme Segal, Oxford University
+Press, Oxford, 1986.
+
+##### 3. WZW theories
+
+Well, I just said that physicists liked affine Lie algebras because they
+were the symmetries of conformal field theories that were also gauge
+theories. Guess what: a Wess-Zumino-Witten, or WZW, theory, is a
+conformal field theory that\'s also a gauge theory! You can think of it
+as the natural generalization of the wave equation in 2 dimension (which
+is conformally invariant, btw) from the case of real-valued fields, to
+general G-valued fields, where G is our favorite Lie group.
+
+##### 4. Quantum groups
+
+When you quantize a WZW theory whose symmetry group G is some simple Lie
+group, something funny happens. In a sense, the group itself also gets
+quantized! In other words, the algebraic structure of the group, or its
+Lie algebra, gets \"deformed\" in a way that depends on the parameter ħ
+(Planck\'s constant). I have muttered much about quantum groups on This
+Week\'s Finds, especially concerning their relevance to topological
+quantum field theory, and I will not try to explain them any better
+here! Eventually I will discuss a bunch of books that have come out on
+quantum groups, and I hope to give a mini-introduction to the subject in
+the process.
+
+##### 5. Duality, fusion rules, and modular invariance
+
+The previous chapter described quantum groups as abstract algebraic
+structures, showing how you can get one from any simple Lie algebra.
+Here Fuchs really shows how you get them from quantizing a WZW theory.
+WZW theories are invariant under conformal transformations, and quantum
+groups inherit lots of cool properties from this fact. For example,
+suppose you form a torus by taking the complex plane and identifying two
+points if they differ by any number of the form n z~1~ + m z~2~, where
+z~1~ and z~2~ are fixed complex numbers and n, m are arbitrary integers.
+For example, we might identify all these points:
+
+                    x      x      x      x      x
+
+
+
+                    x      x      x      x      x
+
+
+
+                    x      x      x      x      x
+
+The resulting torus is a \"Riemann surface\" and it has lots of
+transformations, called \"modular transformations\". The group of
+modular transformations is the discrete group SL(2,Z) of 2×2 integer
+matrices with determinant 1; I leave it as an easy exercise to guess how
+these give transformations of the torus. (This is an example of a
+\"mapping class group\" as discussed in \"[week28](week28.html)\".) In
+any event, the way the the WZW theory transforms under modular
+transformations translates into some cool properties of the
+corresponding quantum group, which Fuchs discusses. That\'s roughly what
+\"modular invariance\" means.
+
+Similarly, \"fusion rules\" have to do with the thrice-punctured sphere,
+or \"trinion\", which is another Riemann surface. And \"duality\" has to
+do with the sphere with four punctures, which can be viewed as built up
+from trinions in either of two \"dual\" ways:
+
+        0\          /0
+         \\________//
+          )________(
+         //        \\
+        0/          \0
+
+or
+
+          O    O
+          \\  //
+           \\//
+            ||                 
+            ||
+           //\\
+          //  \\
+          O    O
+
+This is one of the reasons string theory was first discovered - we can
+think of the above pictures as two Feynman diagrams for interacting
+strings, and the fact that they are really just distorted versions of
+each other gives rise to identities among Feynman diagrams. Similarly,
+this fact gives rise to identities satisfied by the fusion rules of
+quantum groups.
+
+So - Fuchs\' book should make clear how, starting from the austere
+beauty of the Dynkin diagrams, we get not only simple Lie groups, but
+also a wealth of more complicated structures that people find important
+in modern theoretical physics.
+
+------------------------------------------------------------------------
+
+*Mathematics, rightly viewed, possesses not only truth, but supreme
+beauty - a beauty cold and austere, like that of sculpture, without
+appeal to any part of our weaker nature, without the gorgeous trappings
+of painting or music, yet sublimely pure, and capable of a stern
+perfection such as only the greatest art can show.* - Bertrand Russell.
