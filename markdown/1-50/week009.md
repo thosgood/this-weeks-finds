@@ -285,8 +285,8 @@ very brief terms, the problem of time is that in general relativity, we
 have not a Hamiltonian in the traditional sense, but a "Hamiltonian
 constraint" $H = 0$, so when we quantize it superficially appears that
 there are no dynamics whatsoever (as it seems like we have a zero
-Hamiltonian!). That's the reason for the term "frozen formalism" -
-and the desire to "thaw" it, or find the dynamics lurking in it. In
+Hamiltonian!). That's the reason for the term "frozen formalism" ---
+ and the desire to "thaw" it, or find the dynamics lurking in it. In
 fact, the Hamiltonian constraint is just a reflection of the fact that
 general relativity has no preferred time coordinate, and we are just
 learning how to deal with the quantum theory of such systems. For a good

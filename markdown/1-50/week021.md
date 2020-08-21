@@ -48,8 +48,8 @@ Tim Cochran, and was immensely pleased to find that *some* topologists
 really did draw wild pictures of many-handled doughnuts and the like in
 4 dimensions, and prove things by sliding handles around. The nice thing
 about this book is that it is readable by any undergraduate --- it
-doesn't assume or even mention the definition of a topological space! -
-but covers some very nontrivial geometric topology. It is not a
+doesn't assume or even mention the definition of a topological space! ---
+ but covers some very nontrivial geometric topology. It is not a
 substitute for the usual introductory course; instead, it concentrates
 on the study of surfaces embedded or immersed in 3 and 4 dimensional
 space, and shows how much there is to ponder about them. It is *packed*

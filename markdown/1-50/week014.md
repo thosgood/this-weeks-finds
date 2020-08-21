@@ -183,8 +183,8 @@ gravity it is areas of surfaces that are quantized in units of $L^2/2$,
 rather than lengths. Rovelli considers an approach where one chops
 4-dimensional spacetime up into simplices and assigns to each
 2-dimensional face a half-integer area. He uses this to write down a
-formula for the inner product in the Hilbert space of quantum gravity -
-thus, at least formally, answering the long-standing "inner product
+formula for the inner product in the Hilbert space of quantum gravity ---
+ thus, at least formally, answering the long-standing "inner product
 problem" in quantum gravity. The problem is that, unlike in 3d quantum
 gravity, here one must sum over ways of dividing spacetime into
 simplices, so the formula for the inner product involves a sum that does

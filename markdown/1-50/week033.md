@@ -10,8 +10,8 @@ stuff that's cluttering my desk!
 
 This book is based on a seminar I taught in 1992--93. We start out
 assuming the reader is familiar with basic stuff --- Maxwell's equations,
-special relativity, linear algebra and calculus of several variables -
-and try to prepare the reader to understand recent work on quantum
+special relativity, linear algebra and calculus of several variables ---
+ and try to prepare the reader to understand recent work on quantum
 gravity and its relation to knot theory. It proved difficult to do this
 well in a mere 460 pages. Lots of tantalizing loose ends are left
 dangling. However, there are copious references so that the reader can

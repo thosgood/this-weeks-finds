@@ -77,8 +77,8 @@ just any old category, its a symmetric monoidal category! See the chart
 in ["Week 49"](#week49) if you forget what this is. Now, there are
 more general things than groups whose categories of representations are
 symmetric monoidal categories --- for example, cocommutative Hopf
-algebras. And there are other kinds of Hopf algebras -
-"quasitriangular" ones, often known as "quantum groups" --- whose
+algebras. And there are other kinds of Hopf algebras ---
+ "quasitriangular" ones, often known as "quantum groups" --- whose
 categories of representations are *braided* monoidal categories. The
 cool thing is that $SU(2)$ has an avatar called "quantum $SU(2)$" which is
 one of these quantum groups. Again, eyeball the chart in

@@ -42,7 +42,7 @@ since you are parallel translating the vector, it's not really
 relative to some coordinate system. For example, if you used polar
 coordinates to describe parallel translation on the plane, it might seem
 that the unit vector in the r direction "twisted around" towards the $\theta$
-direction as you dragged it along. But in another coordinate system -
+direction as you dragged it along. But in another coordinate system ---
 say the usual $x$-$y$ system --- it would not appear to be "twisting
 around". This fact is expressed by saying "the connection is not a
 tensor".

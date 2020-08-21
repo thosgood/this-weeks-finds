@@ -259,8 +259,8 @@ are only beginning to understand.
 (`carlip@nsfitp.itp.ucsb.edu`), 21 pages, preprint available in LaTeX
 form as `gr-qc/9305020`.
 
-While we have no real way to quantize gravity in 3+1 dimensions -
-although lots of good ideas --- we have six, count 'em, six, ways to do
+While we have no real way to quantize gravity in 3+1 dimensions ---
+ although lots of good ideas --- we have six, count 'em, six, ways to do
 it in 2+1 dimensions! Sometimes this sort of thing makes one yearn to be
 a physicist in some other, lower-dimensional universe. However, lest one
 make such wish prematurely to a genie passing by, one should note that
@@ -326,8 +326,8 @@ precisely, something cooked up from it).
 This is essentially the 2+1 analog of Ashtekar's approach in 3+1
 dimensions, in that a connection and triad field play the main role,
 rather than the metric. However, in 2+1 dimensions we can lump the triad
-field and the connection together to get an "$ISO(2,1)$ connection" -
-where $ISO(2,1)$ is mildly terrifying notation for the Poincare group in
+field and the connection together to get an "$ISO(2,1)$ connection" ---
+ where $ISO(2,1)$ is mildly terrifying notation for the Poincare group in
 2+1 dimensions (or "inhomogeneous Lorentz group," hence the "I").
 The action for the theory then becomes the Chern-Simons action, as noted
 by Witten.
@@ -342,8 +342,8 @@ brackets into commutators.
 ##### \#4 Loop representation
 
 The loop representation of quantum gravity starts with the connection
-representation and then takes traces of holonomies around loops -
-so-called Wilson loops --- as the basic variables to quantize. This
+representation and then takes traces of holonomies around loops ---
+ so-called Wilson loops --- as the basic variables to quantize. This
 suffers irritating technical problems in 2+1 dimensions, as noted in the
 following recent paper:
 
@@ -358,8 +358,8 @@ now; Loll discussed this a bit in a lecture she gave in my seminar.
 
 Here we proceed as in approach \#1 but attempt to impose the Hamiltonian
 and diffeomorphism constraints after quantizing. That is, we start with
-an overly large phase space of initial data for general relativity -
-overly large because a given solution of Einstein's equations will have
+an overly large phase space of initial data for general relativity ---
+ overly large because a given solution of Einstein's equations will have
 many different initial data on different spacelike slices --- quantize by
 turning Poisson brackets into commutators, and THEN try to take care of
 the mistake we made by defining the "physical" states to be those

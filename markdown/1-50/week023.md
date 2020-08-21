@@ -7,8 +7,8 @@ topological quantum field theories (TQFTs), as promised. Then, if
 you'll pardon me, I'll list the contents of a book I've just finished
 editing. It is such a relief to be done that I cannot resist.
 
-So -
-
+So ---
+ 
 1) "Topological quantum invariants and the Andrews-Curtis conjecture
 (Progress report)", by Frank Quinn, preprint, Sept. 1993.
 

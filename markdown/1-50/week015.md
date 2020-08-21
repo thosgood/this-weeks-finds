@@ -99,8 +99,8 @@ unknot (an unknotted circle) to $K$,
 
 $$\langle K' \rangle = -(a^2 + a^{-2})\langle K \rangle.$$
 
-Here $a$ is an adjustable parameter that appears in Chern-Simons theory -
-a function of the coupling constant.
+Here $a$ is an adjustable parameter that appears in Chern-Simons theory ---
+ a function of the coupling constant.
 
 **Rule 3:** Suppose $K$, $L$, and $L'$ are 3 knots or links differing at just one
 crossing (we're supposing them to be drawn as pictures in 2

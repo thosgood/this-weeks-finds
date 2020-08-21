@@ -14,8 +14,8 @@ introduction to these subjects. This will eventually be published by
 World Scientific if all goes well. It will gently remind the reader
 about manifolds, differential forms, Lagrangians, etc., develop a little
 gauge theory, knot theory, and general relativity, and at the very end
-it'll get to the relationship between knot theory and quantum gravity -
-at which point one could read more serious stuff on the subject.
+it'll get to the relationship between knot theory and quantum gravity ---
+ at which point one could read more serious stuff on the subject.
 
 A while back Lee Rudolph asked my opinion of the following article:
 

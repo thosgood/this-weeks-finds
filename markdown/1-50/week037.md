@@ -42,8 +42,8 @@ neutron star cores, which are superfluid if they are cool enough (less
 than a billion degrees Kelvin). There are some protons and electrons
 mixed in with the neutrons in the core, and both the protons and
 neutrons go superfluid, but the electrons form a normal fluid. That
-means that there are actually *two* kinds of superfluid vortices -
-proton and neutron --- in addition to the magnetic vortices. These
+means that there are actually *two* kinds of superfluid vortices ---
+ proton and neutron --- in addition to the magnetic vortices. These
 vortices mainly line up along the axis of rotation, and their density is
 about $10^6$ per square centimeter. Rather curiously, since the proton,
 neutron, and electron fluids are coupled due to $\beta$ decay (and the reverse

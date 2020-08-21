@@ -4035,18 +4035,6 @@ square:
   \end{tikzpicture}
 \]
 
-\begin{verbatim}
-                x       x       x       x       x
-
-
-
-                x       x       x       x       x
-
-
-
-                x       x       x       x       x
-\end{verbatim}
-
 so if we wanted, we could think of it as being a function on the torus
 formed by taking one of these squares and identifying its top side with
 its bottom side, and its left side with its right side.
@@ -4061,25 +4049,40 @@ could hope to find an analytic function on the complex plane with
 \[\begin{aligned}P(z + \omega_1) &= P(z) \\ P(z + \omega_2) &= P(z).\end{aligned}\]
 
 Then \(P(z)\) would be the same at all points on the ``lattice'' of
-points \(n\omega_1 + m \omega_2\) which might look like the square above
-or might be like
+points \(n\omega_1 + m \omega_2\), which might look like the squares
+above or might be like
 
-\begin{verbatim}
-                  x
-                      x
-               x          x
-                   x          x 
-            x          x
-                x          x
-         x          x
-             x          x
-      x          x   
-          x          x
-              x 
-                  x
-\end{verbatim}
-
-or some such thing.
+\[
+  \begin{tikzpicture}
+    \draw[->] (-0.4,0) to (4,0) node [label=below:{$\Re(z)$}]{};
+    \draw[->] (0,-0.4) to (0,4) node[label=left:{$\Im(z)$}]{};
+    \foreach \x in {-0.3,0.7,1.7,2.7} {
+      \draw[thick,dotted] (\x,-0.5) to ({\x+0.1},-0.2);
+      \draw[thick] ({\x+0.1},-0.2) to ({\x+1.4},3.7);
+      \draw[thick,dotted] ({\x+1.4},3.7) to ({\x+1.5},4);
+    }
+    \foreach \y in {0.6} {
+      \draw[thick,dotted] (-0.6,\y) to (-0.3,{\y-0.05});
+      \draw[thick] (-0.3,{\y-0.05}) to (3.6,{\y-0.7});
+      \draw[thick,dotted] (3.6,{\y-0.7}) to (3.9,{\y-0.75});
+    }
+    \foreach \y in {1.6} {
+      \draw[thick,dotted] (-0.4,\y) to (-0.1,{\y-0.05});
+      \draw[thick] (-0.1,{\y-0.05}) to (3.8,{\y-0.7});
+      \draw[thick,dotted] (3.8,{\y-0.7}) to (4.1,{\y-0.75});
+    }
+    \foreach \y in {2.6} {
+      \draw[thick,dotted] (-0.2,\y) to (0.1,{\y-0.05});
+      \draw[thick] (0.1,{\y-0.05}) to (4,{\y-0.7});
+      \draw[thick,dotted] (4,{\y-0.7}) to (4.3,{\y-0.75});
+    }
+    \foreach \y in {3.6} {
+      \draw[thick,dotted] (0,\y) to (0.3,{\y-0.05});
+      \draw[thick] (0.3,{\y-0.05}) to (4.2,{\y-0.7});
+      \draw[thick,dotted] (4.2,{\y-0.7}) to (4.5,{\y-0.75});
+    }
+  \end{tikzpicture}
+\] or some such thing.
 
 Let's think about this nice function \(P(z)\) we are fantasizing about.
 Alas, if it were analytic on the whole plane (no poles), it would be

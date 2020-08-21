@@ -431,8 +431,8 @@ of time, he dropped the letter "t" from his name.
 > DeWitt: It's a good thing that he did believe in space because the
 "z" would've gone too.
 > 
-> \[Of course, time is "Zeit" in German, which complicates things. -
-jb\]
+> \[Of course, time is "Zeit" in German, which complicates things. ---
+ jb\]
 
 ------------------------------------------------------------------------
 

@@ -294,6 +294,6 @@ the manuscript of the whole of the two volumes, which I hope to finish
 definitively in the course of this year, will be about 1500 typed pages
 in length. These two volumes are moreover for me the first in a vaster
 series, under the overall title* **Mathematical Reflections***, in which
-I intend to develop some of the themes sketched in the present report* -
-Alexander Grothendieck, [Sketch of a
+I intend to develop some of the themes sketched in the present report* ---
+ Alexander Grothendieck, [Sketch of a
 Program](http://www.grothendieckcircle.org/) (1983)

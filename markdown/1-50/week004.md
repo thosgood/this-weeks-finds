@@ -245,7 +245,7 @@ categories. It is, in fact, a 2-category, taking as the 2-morphisms
 "natural transformations" between functors. (For a brief intro to
 functors and natural transformations, try the file "categories" in the
 collection of my expository papers --- see the end of this post.) What is
-new to Kapranov and Voevodsky is the notion of a monoidal 2-category -
+new to Kapranov and Voevodsky is the notion of a monoidal 2-category ---
 where one can take tensor products of objects, morphisms, and
 2-morphisms --- and "braided" monoidal 2-category --- where one has
 "braidings" that switch around the two factors in a tensor product.

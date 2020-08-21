@@ -75,16 +75,6 @@ $$
   \end{tikzpicture}
 $$
 
-                    x       x       x       x       x
-
-
-
-                    x       x       x       x       x
-
-
-
-                    x       x       x       x       x
-
 so if we wanted, we could think of it as being a function on the torus
 formed by taking one of these squares and identifying its top side with
 its bottom side, and its left side with its right side.
@@ -97,22 +87,40 @@ an analytic function on the complex plane with $\omega_1$ and $\omega_2$ as peri
 
 $$\begin{aligned}P(z + \omega_1) &= P(z) \\ P(z + \omega_2) &= P(z).\end{aligned}$$
 
-Then $P(z)$ would be the same at all points on the "lattice" of points $n\omega_1 + m \omega_2$
-which might look like the square above or might be like
+Then $P(z)$ would be the same at all points on the "lattice" of points $n\omega_1 + m \omega_2$,
+which might look like the squares above or might be like
 
-                      x
-                          x
-                   x          x
-                       x          x 
-                x          x
-                    x          x
-             x          x
-                 x          x
-          x          x   
-              x          x
-                  x 
-                      x
-
+$$
+  \begin{tikzpicture}
+    \draw[->] (-0.4,0) to (4,0) node [label=below:{$\Re(z)$}]{};
+    \draw[->] (0,-0.4) to (0,4) node[label=left:{$\Im(z)$}]{};
+    \foreach \x in {-0.3,0.7,1.7,2.7} {
+      \draw[thick,dotted] (\x,-0.5) to ({\x+0.1},-0.2);
+      \draw[thick] ({\x+0.1},-0.2) to ({\x+1.4},3.7);
+      \draw[thick,dotted] ({\x+1.4},3.7) to ({\x+1.5},4);
+    }
+    \foreach \y in {0.6} {
+      \draw[thick,dotted] (-0.6,\y) to (-0.3,{\y-0.05});
+      \draw[thick] (-0.3,{\y-0.05}) to (3.6,{\y-0.7});
+      \draw[thick,dotted] (3.6,{\y-0.7}) to (3.9,{\y-0.75});
+    }
+    \foreach \y in {1.6} {
+      \draw[thick,dotted] (-0.4,\y) to (-0.1,{\y-0.05});
+      \draw[thick] (-0.1,{\y-0.05}) to (3.8,{\y-0.7});
+      \draw[thick,dotted] (3.8,{\y-0.7}) to (4.1,{\y-0.75});
+    }
+    \foreach \y in {2.6} {
+      \draw[thick,dotted] (-0.2,\y) to (0.1,{\y-0.05});
+      \draw[thick] (0.1,{\y-0.05}) to (4,{\y-0.7});
+      \draw[thick,dotted] (4,{\y-0.7}) to (4.3,{\y-0.75});
+    }
+    \foreach \y in {3.6} {
+      \draw[thick,dotted] (0,\y) to (0.3,{\y-0.05});
+      \draw[thick] (0.3,{\y-0.05}) to (4.2,{\y-0.7});
+      \draw[thick,dotted] (4.2,{\y-0.7}) to (4.5,{\y-0.75});
+    }
+  \end{tikzpicture}
+$$
 or some such thing.
 
 Let's think about this nice function $P(z)$ we are fantasizing about.
@@ -211,8 +219,8 @@ they must form a group somehow, and viewed this way it's not at all
 obvious! Nonetheless, there is a beautiful geometric description of the
 group operation in these terms --- I'll leave this for Knapp to explain..
 
-Let me wrap this up --- the story goes on and on, but I'm getting tired -
-with a bit about what it has to do with number theory. It has a lot to
+Let me wrap this up --- the story goes on and on, but I'm getting tired ---
+ with a bit about what it has to do with number theory. It has a lot to
 do with Diophantine equations, where one wants integer, or rational
 solutions to a polynomial equation. Suppose that $g_2$ and $g_3$ are
 rational, and one has some solutions to the equation

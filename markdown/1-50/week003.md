@@ -74,7 +74,7 @@ which play the role of "elementary building blocks" in the world of
 Lie algebras. They cannot be written as the direct sum of other Lie
 algebras (and in fact there is an even stronger sense in which they
 cannot be decomposed). On the other hand, the Lie algebra of any compact
-Lie group is a direct sum of simple Lie algebras and copies of $\mathfrak{u}(1)$ -
+Lie group is a direct sum of simple Lie algebras and copies of $\mathfrak{u}(1)$ ---
 the one-dimensional Lie algebra with zero Lie bracket which, for
 technical reasons, people don't call "simple".
 
@@ -175,9 +175,9 @@ physics, as I hope all my chatting about knots, gauge theories and
 quantum gravity makes clear, might also be profound.
 
 Well, we *certainly* don't understand all this stuff yet, since we
-don't know how to prove these conjectures! But Dror's conjecture -
+don't know how to prove these conjectures! But Dror's conjecture ---
 that all weight systems come from representations of simple Lie algebras
-- is tantalizingly close to being within grasp, since he has reduced it
+--- is tantalizingly close to being within grasp, since he has reduced it
 to a fairly elementary combinatorial problem, which I will now state.
 Note that "elementary" does not mean easy to solve! Just easy to
 state.

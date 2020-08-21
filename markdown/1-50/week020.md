@@ -284,8 +284,8 @@ elements!
 Here's a fun story about this number.
 
 In the 1970s, the mathematicians Fricke, Ogg and Thompson were studying
-the quotient of the hyperbolic plane by various subgroups of $SL(2,\mathbb{R})$ -
-the group of $2\times2$ real matrices with determinant one --- which acts as
+the quotient of the hyperbolic plane by various subgroups of $SL(2,\mathbb{R})$ ---
+ the group of $2\times2$ real matrices with determinant one --- which acts as
 isometries of the hyperbolic plane. Sitting inside $SL(2,\mathbb{R})$ is the group
 of $2\times2$ integer matrices with determinant one, called $SL(2,\mathbb{Z})$. Sitting
 inside that is the group $\Gamma_0(p)$ consisting of matrices whose lower left

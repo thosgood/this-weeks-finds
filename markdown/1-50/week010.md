@@ -109,8 +109,8 @@ in $S^3$. The 2-handles are represented by framed knots, while the
 1-handles are represented by copies of the unknot (which we may think of
 as having the zero framing). The 1-handles and 2-handles play quite a
 different role in constructing the 4-manifold --- which is why one
-normally draws the former as copies of the unknot with a *dot* on them -
-but Broda's construction does NOT care about this. Broda simply takes
+normally draws the former as copies of the unknot with a *dot* on them ---
+ but Broda's construction does NOT care about this. Broda simply takes
 the link, forgetting the dots, and cooks up a number from it, using
 cabling and the Kauffman bracket at an root of unity. Let's call
 Broda's invariant by $b(M)$ --- actually for each primitive $r$th root of
