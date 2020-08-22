@@ -146,7 +146,7 @@ object in $(n+k)\mathsf{Cat}$. But $(n+k)\mathsf{Cat}$, remember, is an $(n+k+1)
 look at the largest sub-$(n+k+1)$-category of $(n+k)\mathsf{Cat}$ which has $\mathcal{C}$ as its
 only object, $1_{\mathcal{C}}$ (the identity of $\mathcal{C}$) as its only morphism, $1_{1_{\mathcal{C}}}$ as
 its only 2-morphism, $1_{1_{1_{\mathcal{C}}}}$ as its only 3-morphism, and so on, up to
-$1_{1_{1_{\ddots}}}$ as its only $k$-morphism. Let's call this $\mathcal{C}'$. If one
+$1_{1_{1_{\scriptsize\ldots}}}$ as its only $k$-morphism. Let's call this $\mathcal{C}'$. If one
 keeps count, this should be a $(k+1)$-tuply monoidal $n$-category. That's
 how it goes.
 
