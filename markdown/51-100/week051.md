@@ -14,8 +14,8 @@ research. There are lots of conferences and workshops at Trieste, and I
 was lucky enough to be invited to Trieste while one I found interesting
 was going on.
 
-As I described to some extent in ["week44"](#week44) and
-["week45"](#week45), Seiberg and Witten have recently shaken up
+As I described to some extent in ["Week 44"](#week44) and
+["Week 45"](#week45), Seiberg and Witten have recently shaken up
 the subject of Donaldson theory by using some physical reasoning to
 radically simplify the computations involved. Donaldson theory has
 always had a lot to do with physics, since it uses the special features
@@ -41,14 +41,14 @@ Chern-Simons theory, which is a 3-dimensional TQFT:
 
 However, when *mathematicians* talk about TQFTs they usually mean
 something satisfying Atiyah's axioms for a TQFT (which are nicely
-presented in his book --- see ["week39"](#week39)). Now it turns out
+presented in his book --- see ["Week 39"](#week39)). Now it turns out
 that Chern-Simons theory can be rigorously constructed as a TQFT
 satisfying these axioms most efficiently using braided monoidal
 categories, which play a big role in 3d topology. So it makes quite a
 bit of sense in a *general* sort of way that Crane and Frenkel are
 trying to construct Donaldson theory using braided monoidal
 2-categories, which seem to play a comparable role in 4d topology. In
-the paper which I cite in ["week50"](#week50), they begin to
+the paper which I cite in ["Week 50"](#week50), they begin to
 construct a braided monoidal 2-category related to the group $SU(2)$,
 which they conjecture gives a TQFT related to Donaldson theory. That
 also makes some *general* sense, because Donaldson theory, at least
@@ -141,7 +141,7 @@ gravity there is a big space of "kinematical states" on which $H$ is an
 operator, but the really meaningful "physical states" are just those
 in the subspace
 $$Z(M) = {\psi: H \psi = 0}.$$
-Read ["week11"](#week11) for more on this.
+Read ["Week 11"](#week11) for more on this.
 
 But there is a clever answer involving supersymmetry! You might hope
 that there were some more interesting self-adjoint operators $H$ such that
