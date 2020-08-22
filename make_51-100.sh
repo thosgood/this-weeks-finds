@@ -57,6 +57,9 @@ printf '%s\n' '\author{John Baez}' >> $TEX
 printf '%s\n' '\date{April 23, 1995 to March 23, 1997}' >> $TEX
 
 printf "\n" >> $TEX
+printf '%s\n' '\usepackage{tikz-cd}' >> $TEX
+
+printf "\n" >> $TEX
 printf '%s\n' '\setcounter{section}{50}' >> $TEX
 
 printf "\n" >> $TEX
