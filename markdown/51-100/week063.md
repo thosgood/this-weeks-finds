@@ -1,21 +1,21 @@
 week63
 
-Let me continue the tale of \"ADE classifications\". Last week I
-described an \"ABDEFGHI classification\" of all finite reflection groups
+Let me continue the tale of "ADE classifications". Last week I
+described an "ABDEFGHI classification" of all finite reflection groups
 - that is, finite symmetry groups of Euclidean space, every element of
-which is a product of reflections. Now we\'ll build on that to get other
+which is a product of reflections. Now we'll build on that to get other
 related classifications.
 
 So, recall:
 
 Every element of a finite reflection group is a product of reflections
-through certain special vectors, which people call \"roots\". These
+through certain special vectors, which people call "roots". These
 roots are all at angles π/n from each other, where n \> 1 is an integer.
 To describe the group, we draw a diagram with one dot for each root. If
-two roots are perpendicular we don\'t draw a line between them, but
+two roots are perpendicular we don't draw a line between them, but
 otherwise, if they are at an angle π/n from each other, we draw a line
 and label it with the integer n. Actually, the integer n = 3 comes up so
-often that we don\'t bother labelling the line in this case.
+often that we don't bother labelling the line in this case.
 
 Now, not all of these diagrams correspond to finite reflection groups.
 The following ones, together with disjoint unions of them, are all the
@@ -66,39 +66,39 @@ Now you may know that there are no perfect crystals in the shape of a
 regular dodecahedron. However, iron pyrite comes close. In his wonderful
 book:
 
-1\) Hermann Weyl, Symmetry, Princeton University Press, Princeton, New
+1) Hermann Weyl, Symmetry, Princeton University Press, Princeton, New
 Jersey, 1989.
 
 Weyl suggests that this is how people discovered the regular
 dodecahedron:
 
-> \...the discovery of the last two \[Platonic solids\] is certainly one
+> ...the discovery of the last two \[Platonic solids\] is certainly one
 > of the most beautiful and singular discoveries made in the whole
 > history of mathematics. With a fair amount of certainty, it can be
 > traced to the colonial Greeks in southern Italy. The suggestion has
 > been made that they abstracted the regular dodecahedron from the
 > crystals of pyrite, a sulfurous mineral abundant in Sicily.
 
-Thus while iron pyrite is nothing but \"fool\'s gold\" to the miner, it
+Thus while iron pyrite is nothing but "fool's gold" to the miner, it
 may have done a good deed by fooling the Greeks into discovering the
 regular dodecahedron. Could this be why the ratio of the diagonal to the
 side of a regular pentagon, (√5 + 1)/2, is called the golden ratio? Or
 am I just getting carried away? One is tempted to call the shape of
-pyrite crystals the \"fool\'s dodecahedron,\" but in fact it\'s called a
-\"pyritohedron\". (All this information on pyrite, as well as the puns,
+pyrite crystals the "fool's dodecahedron," but in fact it's called a
+"pyritohedron". (All this information on pyrite, as well as the puns,
 I owe to Michael Weiss.)
 
-More recently, I think people have discovered \"quasicrystals\" (related
+More recently, I think people have discovered "quasicrystals" (related
 to Penrose tiles) having true dodecahedral symmetry. But no perfectly
 repetitive crystals form dodecahedra! And the reason is that there is no
 lattice having H~3~ as its symmetries.
 
-Recall that we get a \"lattice\" by taking n linearly independent
+Recall that we get a "lattice" by taking n linearly independent
 vectors in n-dimensional Euclidean space and forming all linear
 combinations with integer coefficients. If someone hands us a finite
 reflection group, we can look for a lattice having it as symmetries. If
-one exists, we say the group satisfies the \"crystallographic
-condition\". The only ones that do are
+one exists, we say the group satisfies the "crystallographic
+condition". The only ones that do are
 
 A~n~, B~n~, D~n~, E~6~, E~7~, E~8~, F~4~, and G~2~
 
@@ -108,14 +108,14 @@ on (I~m~ with m \> 6), and the dodecahedron and its 4-dimensional
 relative (H~3~ and H~4~) are ruled out.
 
 Now let us turn to the theory of Lie groups. Lie groups are the most
-important \"continuous\" (as opposed to discrete) symmetry groups.
+important "continuous" (as opposed to discrete) symmetry groups.
 Examples include the real line (with addition as the group operation),
 the circle (with addition mod 2π), and the groups SO(n) and SU(n)
-discussed in \"[week61](week61.html)\". These groups are incredibly
+discussed in "[week61](week61.html)". These groups are incredibly
 important in both physics and mathematics. Thus it is wonderful, and
 charmingly ironic, that the same diagrams that classify the
 oh-so-discrete finite reflection groups also classify some of the most
-beautiful of Lie groups: the \"simple\" Lie groups. It turns out that
+beautiful of Lie groups: the "simple" Lie groups. It turns out that
 the simple Lie groups correspond to the diagrams of forms A,B,D,E,F, and
 G. Oh yes, and C. I have to tell you what happend to C.
 
@@ -129,22 +129,22 @@ preferred the more geometrical aspects of Lie groups. Part of the reason
 is that the treatment I learned emphasized the Lie algebras and
 downplayed the groups. A nice treatment that emphasizes the groups is:
 
-2\) John Frank Adams, Lectures on Lie groups, Benjamin, New York, 1969.
+2) John Frank Adams, Lectures on Lie groups, Benjamin, New York, 1969.
 
-So what\'s the basic idea? Let me summarize two semesters of grad
+So what's the basic idea? Let me summarize two semesters of grad
 school, and tell you the basic stuff about Lie groups and the
-classification of simple Lie groups. Forgive me if it\'s a bit rushed,
+classification of simple Lie groups. Forgive me if it's a bit rushed,
 sketchy, and even mildly inaccurate: hopefully the main ideas will shine
 through the murk this way.
 
-A Lie group is a group that\'s also a manifold, for which the group
+A Lie group is a group that's also a manifold, for which the group
 operations (multiplication and taking inverses) are smooth functions.
 This lets you form the tangent space to any point in the group, and the
-tangent space at the identity plays a special role. It\'s called the Lie
+tangent space at the identity plays a special role. It's called the Lie
 algebra of the group. If we have any element x in the Lie algebra, we
 can exponentiate it to get an element exp(x) in the group, and we can
 keep track of the noncommutativity of the group by forming the
-\"bracket\" of elements x and y in the Lie algebra:
+"bracket" of elements x and y in the Lie algebra:
 
 \[x,y\] = (d/dt)(d/ds) exp(sx) exp(ty) exp(-sx) exp(-ty)
 
@@ -154,7 +154,7 @@ operation satisfies some axioms, and algebraists call anything a Lie
 algebra that satisfies those axioms. For example, you could take n x n
 matrices and let \[x,y\] = xy - yx.
 
-Now a Lie algebra is called \"semisimple\" if for any z, there are x and
+Now a Lie algebra is called "semisimple" if for any z, there are x and
 y with z = \[x,y\]. This is sort of the opposite of an abelian, or
 commutative, Lie algebra, where \[x,y\] = 0 for all x and y. It turns
 out that we can take direct sums of Lie algebras by defining operations
@@ -162,26 +162,26 @@ componentwise, and it turns out that if you have a *compact* Lie group,
 its Lie algebra is always the direct sum of a semsimple Lie algebra and
 an abelian one. The abelian ones are pretty trivial, so all the hard
 works lies in understanding the semisimple ones. Any semisimple one is
-the direct sum of a bunch of semisimple ones that aren\'t sums of
-anything else, and these basic building blocks are called the \"simple\"
+the direct sum of a bunch of semisimple ones that aren't sums of
+anything else, and these basic building blocks are called the "simple"
 ones. They are like the prime numbers of Lie algebra theory. Unlike the
 prime numbers, though, we can completely classify all of them!
 
 Now how does one classify the simple Lie algebras? Basically, it goes
-like this. We\'ll assume our simple Lie algebra is the Lie algebra of a
+like this. We'll assume our simple Lie algebra is the Lie algebra of a
 compact Lie group G - it turns out that they all are. Now, sitting
-inside G there is a maximal commutative subgroup T that\'s a torus: a
+inside G there is a maximal commutative subgroup T that's a torus: a
 product of a bunch of circles. Let Lie(T) stand for the Lie algebra of
 this torus T. Now, sitting inside Lie(T) there is a lattice, consisting
 of all elements x with exp(x) = 1. This is how lattices sneak into the
 picture!
 
-Moreover, for some elements g in G, if we \"conjugate\" T by g, that is,
+Moreover, for some elements g in G, if we "conjugate" T by g, that is,
 form the set of all elements gtg^-1^ where t is in T, we get T back. In
 other words, these elements of g act as symmetries of the torus T. Now,
 if something acts as symmetries of something else, it also acts as
 symmetries of everything naturally cooked up from that something else.
-(Roughly speaking, \"naturally\" means \"without dependence on arbitrary
+(Roughly speaking, "naturally" means "without dependence on arbitrary
 choices.) For this reason, these special elements of G also act as
 symmetries of Lie(T) and of the lattice sitting inside Lie(T). So we
 have a lattice together with a group of symmetries, which by the way is
@@ -192,12 +192,12 @@ algebra of G is determined by the lattice together with its Weyl group.
 
 The upshot is that to classify semisimple Lie algebras, all we need is
 the classification of finite reflection groups satisfying the
-crystallographic condition - which we\'ve done already using diagrams -
+crystallographic condition - which we've done already using diagrams -
 together with a classification of lattices having such finite reflection
 groups as symmetries. It turns out that the operation of taking direct
 sums of semisimple Lie algebras corresponds to taking disjoint unions of
-diagrams, so to get the \"building blocks\" - the *simple* Lie algebras
-- we only need to worry about the diagrams we\'ve drawn above, not
+diagrams, so to get the "building blocks" - the *simple* Lie algebras
+- we only need to worry about the diagrams we've drawn above, not
 disjoint unions of them. Now it turns out that for every type except B,
 there is (up to isomorphism) only *one* lattice having that group of
 symmetries, but for B there are two. Recall the diagram B~n~ looks like:
@@ -205,7 +205,7 @@ symmetries, but for B there are two. Recall the diagram B~n~ looks like:
               4
     o---o---o---o
 
-with n dots. And recall that the dots correspond to \"roots\", which in
+with n dots. And recall that the dots correspond to "roots", which in
 the present context are vectors in Lie(T). Now it turns out that
 whenever we have a finite reflection group satisfying the
 crystallographic condition, we can get a lattice having it as symmetries
@@ -238,20 +238,20 @@ In other words, all the simple Lie algebras are of the form:
 Okay, so what *are* these things, really? What do they *mean*, and what
 are the implications of the fact that the symmetries of the forces of
 nature are given by the some of the corresponding Lie groups? Why are 4
-infinite series of them and 5 \"exceptional\" Lie algebras? What\'s so
-special about A, D, and E, that makes people keep talking about \"ADE
-classifications\"? What do the exceptional Lie algebras (and their
+infinite series of them and 5 "exceptional" Lie algebras? What's so
+special about A, D, and E, that makes people keep talking about "ADE
+classifications"? What do the exceptional Lie algebras (and their
 corresponding Lie groups) have to do with octonions? Why do some string
 theorists think the symmetry group of nature is E~8~, the largest
 exceptional Lie group???
 
-Well, I\'m afraid that I\'m going camping in a couple of hours, so I\'ll
+Well, I'm afraid that I'm going camping in a couple of hours, so I'll
 have to leave you hanging, even though I do know the answers to *some*
-of these questions. I\'ll try to finish talking about ADE
+of these questions. I'll try to finish talking about ADE
 classifications in the next couple of issues.
 
 ------------------------------------------------------------------------
 
-*\... without fantasy one would never become a mathematician, and what
+*... without fantasy one would never become a mathematician, and what
 gave me a place among the mathematicians of our day, despite my lack of
 knowledge and form, was the audacity of my thinking.* - Sophus Lie

@@ -2,7 +2,7 @@ week55
 
 I recently went to a workshop on canonical quantum gravity in Warsaw,
 organized by Jerzy Kijowski and Jerzy Lewandowski, and I learned some
-interesting things. I\'ll talk about some of them in this issue, and
+interesting things. I'll talk about some of them in this issue, and
 some in the next.
 
 Conferences are a funny thing. On science newsgroups on the net, there
@@ -15,7 +15,7 @@ For example, a big plenary lecture on an impressive stage, preceded by a
 little warmup where someone explains how great you are, counts for
 infinitely many talks in those parallel sessions where dozens of people
 get 10 minutes each to explain their work before the moderator begins to
-make little coughs indicating that it\'s time for the next one, while
+make little coughs indicating that it's time for the next one, while
 all the while people drift in and out in a feeble attempt to find the
 really interesting talks. Still, giving any sort of talk is regarded as
 better than giving none, so academics spend a lot of time doing this
@@ -24,23 +24,23 @@ sort of thing.
 One of the great dangers of being a successful academic, in fact, is
 that one may get invited to so many conferences that one never has time
 to think. Winning the Nobel prize is purported to be the kiss of death
-in this respect. Of course, it\'s a universal platitude that the real
+in this respect. Of course, it's a universal platitude that the real
 thinking at conferences gets done not during the talks, but informally
 in small groups. But the funny thing is that at most conferences people
-are so worn out after going to a day\'s worth of talks that they have
+are so worn out after going to a day's worth of talks that they have
 limited energy for serious conversation afterwards: they usually seem
 more interested in finding the good local restaurants and scenic
 attractions. If people could have conferences with no lectures
 whatsoever, or maybe one a day, it would probably be more productive.
 But the idea that a bunch of people could figure something out just by
 sitting around and chatting informally is absolutely foreign to our
-conception of \"work\". People expect to receive money from bureaucrats
+conception of "work". People expect to receive money from bureaucrats
 to go to conferences, but to convince a bureaucrat that you are deserve
 the money, you need to give a lecture, so of course all conferences have
 too many lectures.
 
 Turning back towards Warsaw, a city with a marvelous mathematical
-history, I am reminded of Gian-Carlo Rota\'s biographical sketch of
+history, I am reminded of Gian-Carlo Rota's biographical sketch of
 Stanislaw Ulam, in which (as a master of irony) he talks about how lazy
 Ulam was: all he wanted to do was sit around in cafes and come up with
 interesting conjectures and research rograms, and leave it to others to
@@ -63,28 +63,28 @@ Before going into what I learned there, I should say that I just found a
 fun thing for people to read who are interested in quantum gravity, but
 are not necessarily specialists:
 
-1\) Gary Au, The quest for quantum gravity, available as gr/qc-9506001.
+1) Gary Au, The quest for quantum gravity, available as gr/qc-9506001.
 
 This consists mainly of interviews with Chris Isham, Abhay Ashtekar and
-Edward Witten. What\'s nice is that the interviews are conducted by
+Edward Witten. What's nice is that the interviews are conducted by
 someone who knows physics. The questions and answers are technical
 enough to convey some of the real substance of the subject, while still
-(I hope) non- technical enough so that you don\'t have to be an expert
-to get a lot out of them. Isham talks mainly about the \"problem of
-time\" in quantum gravity, Ashtekar talks mainly about the loop
+(I hope) non- technical enough so that you don't have to be an expert
+to get a lot out of them. Isham talks mainly about the "problem of
+time" in quantum gravity, Ashtekar talks mainly about the loop
 representation of quantum gravity, and Witten talks about string theory.
 
 Anyway, Ashtekar and a bunch of other good people were at this Warsaw
 conference, which is why I went. The main topics of conversation were
 spin networks and their use in studying the area and volume operators in
-quantum gravity. As I explained earlier in \"[week43](week43.html)\",
+quantum gravity. As I explained earlier in "[week43](week43.html)",
 one may very roughly think of a spin network as a graph whose edges are
-labelled with \"spins\" 0,1/2,1,3/2, and so on, and who vertices are
-labelled with certain gadgets called \"intertwining operators\" (which
+labelled with "spins" 0,1/2,1,3/2, and so on, and who vertices are
+labelled with certain gadgets called "intertwining operators" (which
 in the simplest case are just the Clebsch-Gordon coefficients you learn
 about when studying angular momentum in quantum mechanics). Penrose
-introduced these as abstract graphs (see \"[week22](week22.html)\" and
-\"[week41](week41.html)\"), as a kind of substitute for thinking of
+introduced these as abstract graphs (see "[week22](week22.html)" and
+"[week41](week41.html)"), as a kind of substitute for thinking of
 space as a manifold, but more recently Rovelli and Smolin started
 thinking of them as graphs embedded into 3d space, and saw that these
 were a really natural way to describe states of quantum gravity: even
@@ -96,41 +96,41 @@ the eigenvalues of the observables in quantum gravity corresponding to
 the area of a surface in space, or the volume of a region.
 
 Now there are all sorts of technical caveats and subtleties that I
-don\'t want to get into here, but in a really rough sort of sense, what
+don't want to get into here, but in a really rough sort of sense, what
 their answers suggest is that IF the loop representation of quantum
 gravity is right, and we are on the right track about how it works, then
 the area of surfaces comes in certain (not integer, but discrete)
 multiples of the Planck length squared, and the volume of regions comes
-in multiples of the Planck length cubed. Note: that was a big \"IF\".
-This is especially interesting because it doesn\'t arise by assuming
+in multiples of the Planck length cubed. Note: that was a big "IF".
+This is especially interesting because it doesn't arise by assuming
 from the start that spacetime has a discrete structure. In fact, their
 computations assume spacetime is a continuous manifold. Nonetheless this
-discreteness pops out. It\'s not completely surprising: after all,
-Schrodinger\'s equation for the hydrogen atom is a perfectly
-\"continuous\" sort of thing, a partial differential equation, but the
+discreteness pops out. It's not completely surprising: after all,
+Schrodinger's equation for the hydrogen atom is a perfectly
+"continuous" sort of thing, a partial differential equation, but the
 energy of the bound states winds up being a discrete sort of thing.
-Still, it\'s sort of exciting and new.
+Still, it's sort of exciting and new.
 
 An interesting thing happened at the conference. Renate Loll, who works
 on the loop representation of gauge theories and also lattice gauge
 theory, has recently developed a lattice formulation of quantum gravity
 closely modelled after the loop representation:
 
-2\) Renate Loll, Nonperturbative solutions for lattice quantum gravity,
+2) Renate Loll, Nonperturbative solutions for lattice quantum gravity,
 preprint available as
 [gr-qc/9502006](http://xxx.lanl.gov/abs/gr-qc/9502006).
 
-This has the wonderful feature that it\'s perfectly rigorous and also
+This has the wonderful feature that it's perfectly rigorous and also
 one can start using computers to start calculating things with it. For
 example, the most subtle aspect of the loop representation of quantum
 gravity is the Wheeler-DeWitt equation
 
                                      H ψ = 0
 
-where H is an operator called the \"Hamiltonian constraint\". More on
+where H is an operator called the "Hamiltonian constraint". More on
 this later; my point here is just that physical states of quantum
 gravity need to satisfy this equation. Getting H to be well-defined is
-tricky when space is a continuum, but in Loll\'s lattice version of
+tricky when space is a continuum, but in Loll's lattice version of
 theory (which is an approximation to the full continuum theory) she has
 already done this, so one can now start trying numerically to find
 solutions and see what they look like. She has also found some explicit
@@ -138,14 +138,14 @@ solutions.
 
 *Also*, she did some work on the volume operator in her lattice
 approach, and came up with a result in contradiction to Rovelli and
-Smolin\'s paper on the subject (cited in \"[week43](week43.html)\").
+Smolin's paper on the subject (cited in "[week43](week43.html)").
 They had said that states corresponding to trivalent spin networks
-\-\-\-- spin networks with only 3 edges at each vertex \-\-- could have
+---- spin networks with only 3 edges at each vertex --- could have
 nonzero volume. But using her version of the theory she computed that
-trivalent states \-\-- states with only 3 nonzero spins at the edges of
-the lattice incident to any vertex \-\-- all had zero volume, and that
+trivalent states --- states with only 3 nonzero spins at the edges of
+the lattice incident to any vertex --- all had zero volume, and that
 she needed at least 4 nonzero spins to get volume! The volume operator,
-in case you\'re wondering, acts as a certain sum over vertices: each one
+in case you're wondering, acts as a certain sum over vertices: each one
 winds up contributing a certain finite amount of volume, which the
 theory allows you to compute.
 
@@ -155,7 +155,7 @@ physicists drawing pictures of spin networks and doing graphical
 computations just the way a knot theorist like Kauffman does all the
 time. It was as if the universe had this spin network aspect to it, and
 everyone was finally starting to catch on. Either that or mass delusion!
-I hadn\'t quite gotten the hang of how to compute these volume operators
+I hadn't quite gotten the hang of how to compute these volume operators
 before, so it was a great chance to learn: one person would do a
 computation, then someone else would do it a different way and get a
 different answer, then someone else would do it yet another way and get
@@ -166,7 +166,7 @@ votes in favor of trivalent vertices having zero volume kept piling up.
 Finally Smolin noticed that he and Rovelli had made a sign mistake. This
 is incredibly easy to do, since there are lots of tricky sign
 conventions in spin network theory. Fundamentally these are due to the
-fact that spin-1/2 particles are fermions\... but I don\'t think people
+fact that spin-1/2 particles are fermions... but I don't think people
 fully understand the physical implications of this. (There is also a
 marvelous category-theoretic explanation of it, but I fear that if I go
 into that all the physicists will stop reading. Maybe some other time.)
@@ -178,71 +178,71 @@ So perhaps we know a little more about the meaning of volume in a
 quantum theory of spacetime.
 
 Spin networks are very beautiful and simple things. To learn about them,
-in addition to the various papers listed in the \"weeks\" above, one can
-now turn to Rovelli and Smolin\'s paper:
+in addition to the various papers listed in the "weeks" above, one can
+now turn to Rovelli and Smolin's paper:
 
-3\) C. Rovelli and L. Smolin, Spin networks in quantum gravity, preprint
+3) C. Rovelli and L. Smolin, Spin networks in quantum gravity, preprint
 available in LaTeX form as gr/qc-9505006.
 
 If you are more of a mathematician, or less of an expert on quantum
 gravity, you might also try a review article I wrote about them, which
 starts with a quick summary of what the heck canonical quantum gravity
-is about, why it\'s hard to do, and why the loop representation seems to
+is about, why it's hard to do, and why the loop representation seems to
 help:
 
-4\) J. Baez, Spin networks in nonperturbative canonical quantum gravity,
+4) J. Baez, Spin networks in nonperturbative canonical quantum gravity,
 preprint available in LaTeX form as gr-qg/9504036, or via ftp from
 math.ucr.edu, as the file net.tex in the directory baez.
 
 Now so far I have been trying to make things sound simple, but here I
-should point out that when one talks about \"states of quantum gravity\"
+should point out that when one talks about "states of quantum gravity"
 there are at least three quite different things one might mean. This is
-because the loop representation follows Dirac\'s general philosophy of
+because the loop representation follows Dirac's general philosophy of
 quantizing systems with constraints, with some extra twists here and
-there. As I\'ve repeatedly explained (e.g. \"[week43](week43.html)\"),
-Einstein\'s equation for general relativity has 10 components, and if
+there. As I've repeatedly explained (e.g. "[week43](week43.html)"),
+Einstein's equation for general relativity has 10 components, and if
 you split spacetime up into space and time (more or less arbitrarily
-\-\-- there\'s no \"best\" way) 4 of these can be seen as constraints
+--- there's no "best" way) 4 of these can be seen as constraints
 that the metric on space and its first time derivative must satisfy (at
 any given time), while the remaining 6 describe how the metric on space
 evolves in time (which makes sense, because the metric has 6
-components). When you follow Dirac\'s procedure for quantizing the
+components). When you follow Dirac's procedure for quantizing the
 equations what you do is this. First you forget about the constraint and
-get a big space of states, the \"kinematical state space\". There are
+get a big space of states, the "kinematical state space". There are
 lots of mathematical choices involved here, but Ashtekar and Lewandowski
 came up with a particular nice way of doing this rigorously, and one
-calls this space of states \"L\^2 of the space of SU(2) connections
+calls this space of states "L\^2 of the space of SU(2) connections
 modulo gauge transformations with respect to the Ashtekar-Lewandowski
-generalized measure\". Spin networks form an orthonormal basis of this
+generalized measure". Spin networks form an orthonormal basis of this
 Hilbert space. All the stuff about area and volume operators above
 refers to operators on this space.
 
 Then, however, you need to deal with the constraints. Now 3 of the 4
 constraints simply amount to requiring that your states be invariant
 under all diffeomorphisms of space, so these are usually dealt with
-first, and called the \"diffeomorphism constraint\". Imposing these
+first, and called the "diffeomorphism constraint". Imposing these
 constraints are a bit tricky; naively one would first guess that this
-\"diffeomorphism- invariant state space\" is just a subspace of the
-original kinematical state space, but actually it\'s not quite so
+"diffeomorphism- invariant state space" is just a subspace of the
+original kinematical state space, but actually it's not quite so
 simple. In any event, there are also spin network states at the
 diffeomorphism-invariant level, corresponding not to *particular*
 embeddings of graphs in space, but to diffeomorphism equivalence classes
 thereof. This again has been used by Rovelli, Smolin and others for a
 while now, but it was first rigorously shown in the following paper:
 
-5\) Abhay Ashtekar, Jerzy Lewandowski, Don Marolf, Jose Mourao, and
+5) Abhay Ashtekar, Jerzy Lewandowski, Don Marolf, Jose Mourao, and
 Thomas Thiemann, Quantization of diffeomorphism invariant theories of
 connections with local degrees of freedom, to appear in the November
 1995 Jour. Math. Phys. special issue on diffeomorphism-invariant field
 theory, preprint available as
 [gr-qc/9504018](http://xxx.lanl.gov/abs/gr-qc/9504018).
 
-This paper is nice in part because it doesn\'t assume you already have
+This paper is nice in part because it doesn't assume you already have
 read every previous paper about this stuff; instead, it describes the
 general plan of the loop representation before constructing the
 diffeomorphism- invariant spin network states. Also, buried in an
 appendix somewhere, it gives nice conceptual formulas for the area and
-volume operators, which serve as a complement to Rovelli and Smolin\'s
+volume operators, which serve as a complement to Rovelli and Smolin's
 explicit computations of their matrix elements in terms of the spin
 network basis.
 
@@ -250,9 +250,9 @@ Anyway, after taking care of the diffeomorphism constraint, one finally
 needs to take care of the Hamiltonian constraint, meaning one needs to
 find states satisfying the Wheeler-DeWitt equation. This is the hardest
 thing to make rigorous, and the most exciting aspect of the whole
-subject, because it expresses the fact that \"physical states\" of
+subject, because it expresses the fact that "physical states" of
 quantum gravity are invariant under diffeomorphisms of space-TIME, not
-just space. There is much more to say about this, but I won\'t go into
+just space. There is much more to say about this, but I won't go into
 it here.
 
 Now besides Loll and Rovelli and Smolin, all the authors of the above
@@ -261,7 +261,7 @@ large contingent of spin network fans around, not even counting some
 other folks whose work I will get to in a while. This is why I was so
 eager to go there, especially because my own talk was on a rather
 esoteric subject which only these experts could be expected to give a
-darn about. Namely\....
+darn about. Namely....
 
 The breakthrough of Ashtekar and Lewandowski, when it came to making the
 loop representation rigorous, involved working with piecewise
@@ -279,7 +279,7 @@ like the Ashtekar-Lewandowski generalized measure). Our paper will be
 out pretty soon, but for now anyone who wants a taste of the
 mathematical technology involved should look at:
 
-6\) Steve Sawin, Path integration in two-dimensional topological quantum
+6) Steve Sawin, Path integration in two-dimensional topological quantum
 field theory, to appear in the October 1995 Jour. Math. Phys. issue on
 diffeomorphism-invariant field theory, preprint available as
 gr/qc-9505040.
@@ -288,11 +288,11 @@ Loop representation ideas are applicable not only to canonical quantum
 gravity but also to path integrals in gauge theory, because in both
 cases one is doing integrals over a space of connections mod gauge
 transformations. Here Sawin uses them to give a rigorous formulation of
-2d TQFTs in terms of path integrals. There aren\'t many unitary 2d
+2d TQFTs in terms of path integrals. There aren't many unitary 2d
 TQFTs, and all of them are isomorphic to 2-dimensional quantum gravity
 with the usual Einstein-Hilbert action, with different values of the
 coupling constant, or else direct sums of such theories.
 
-Next \"week\" I\'ll talk about cool new idea Smolin has about TQFTs,
-quantum gravity, and Bekenstein\'s bound on the entropy of a physical
+Next "week" I'll talk about cool new idea Smolin has about TQFTs,
+quantum gravity, and Bekenstein's bound on the entropy of a physical
 system in terms of its surface area.

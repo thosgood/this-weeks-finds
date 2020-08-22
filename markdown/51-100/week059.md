@@ -3,13 +3,13 @@ week59
 > As you crack your eyes one morning your reason is assaulted by a
 > strange sight. Over your head, humming quietly, there floats a
 > monitor, an ethereal otherworldly screen on which is written a curious
-> message. \"I am the Screen of ultimate Truth. I am bulging with
-> information and ask nothing better than to be allowed to impart it.\"
+> message. "I am the Screen of ultimate Truth. I am bulging with
+> information and ask nothing better than to be allowed to impart it."
 
 It would be nice if more math books started with something
 attention-grabbing like this. In fact, it appears near the beginning of
 
-1\) Geoffrey M. Dixon, Division Algebras: Octonions, Quaternions,
+1) Geoffrey M. Dixon, Division Algebras: Octonions, Quaternions,
 Complex Numbers and the Algebraic Design of Physics, Springer Verlag,
 1994.
 
@@ -21,10 +21,10 @@ commutativity, just the reals themselves and the complex numbers. If we
 drop the demand for commutativity, we also get a 4-dimensional algebra
 called the quaternions, invented by Hamilton. If in addition we drop the
 demand for associativity, and ask only that our algebra be
-\"alternative\", we also get an 8-dimensional algebra called the
-octonions, or Cayley numbers. (I\'ll say what \"alternative\" means in
-\"[week61](week61.html)\".) Clearly these are very special structures,
-and also clearly they play an important role in physics\... or do they?
+"alternative", we also get an 8-dimensional algebra called the
+octonions, or Cayley numbers. (I'll say what "alternative" means in
+"[week61](week61.html)".) Clearly these are very special structures,
+and also clearly they play an important role in physics... or do they?
 
 Well, few people doubt that the real numbers are fundamental to physics
 (though some advocates of the discrete might prefer the integers), and
@@ -56,17 +56,17 @@ mathematics, with its unique and beautiful structures that are pure
 expressions of logical necessity, is trying to tell us something about
 this?
 
-On the one hand this seems outrageous\... especially to the hard-nosed
+On the one hand this seems outrageous... especially to the hard-nosed
 pragmatist or empiricist in us. It seems old-fashioned, naive, and too
-good to be true. On the other hand, the universe *is* outrageous! It\'s
+good to be true. On the other hand, the universe *is* outrageous! It's
 outrageous that it exists in the first place, and doubly outrageous that
 it has the particular physical laws it does and no others. It has only
 been through the old-fashioned, naive belief that we can understand it
 using mathematics that we discovered what we have of its physical laws.
 So maybe eventually we *will* see that the basic structures of
 mathematics determine, in some mysterious sense, all the basic laws of
-physics. Or maybe we won\'t. In either case, there is a long way yet to
-go. As Dixon\'s Screen of Truth comments, before it departs:
+physics. Or maybe we won't. In either case, there is a long way yet to
+go. As Dixon's Screen of Truth comments, before it departs:
 
 > Do you believe that were I to explain as much of what I know as you
 > could comprehend that you would recognize it, that you would say, oh
@@ -79,27 +79,27 @@ Anyway, it is at least worth considering all the beautiful mathematical
 structures one runs into for their potential importance. For example,
 the octonions.
 
-In order to write this week\'s Finds, I needed to learn a little about
+In order to write this week's Finds, I needed to learn a little about
 the octonions. I wanted some good descriptions of the octonions, that
-hopefully would \"explain\" them or at least make them easy to remember.
+hopefully would "explain" them or at least make them easy to remember.
 So I asked for help on sci.physics.research, and I got some help from
 Greg Kuperberg, Ezra Getzler, Matthew Wiener, and Alexander Vlasov.
 After a while Geoffrey Dixon got wind of this and referred me to his
-work! I\'ll probably talk to him later this summer when I go back to
-Cambridge Massachusetts, and hopefully I\'ll learn more about octonions
+work! I'll probably talk to him later this summer when I go back to
+Cambridge Massachusetts, and hopefully I'll learn more about octonions
 and the like.
 
-But for now let me just give a quick beginner\'s introduction to the
+But for now let me just give a quick beginner's introduction to the
 octonions. A lot of this appears in
 
-2\) William Fulton and Joe Harris, Representation Theory - a First
+2) William Fulton and Joe Harris, Representation Theory - a First
 Course, Springer Verlag, Berlin, 1991.
 
 I should add that this book is a very good place to learn about Lie
-groups, Lie algebras, and their representations\... I wish I had taken a
+groups, Lie algebras, and their representations... I wish I had taken a
 course based on this book when I was in grad school!
 
-Let\'s start with the real numbers. Then the complex number
+Let's start with the real numbers. Then the complex number
 
 a+bi
 
@@ -127,7 +127,7 @@ like this
 (a,b)(c,d) = (ac - d\*b, da + bc\*)
 
 This is just like how we defined multiplication of complex numbers, but
-with a couple of conjugates (\*\'s) thrown in. To emphasize how similar
+with a couple of conjugates (\*'s) thrown in. To emphasize how similar
 the two multiplications are, we could have included the conjugates in
 the first formula, since the conjugate of a real number is just itself.
 
@@ -151,25 +151,25 @@ the complex numbers, you can check that
 
 (a,b)\* (a,b) = (a,b) (a,b)\* = K (1,0)
 
-where K is a real number called the \"norm squared\" of (a,b). The
+where K is a real number called the "norm squared" of (a,b). The
 multiplicative identity for the complex numbers is (1,0). This means
 that the multiplicative inverse of (a,b) is (a,b)\*/K. You can check
 that the same holds for the quaternions and octonions!
 
 This game of getting new algebras from old is called the
-\"Cayley-Dickson\" construction. Of course, the fun we\'ve had so far
+"Cayley-Dickson" construction. Of course, the fun we've had so far
 should make you want to keep playing this game and develop a
-16-dimensional algebra, the \"hexadecanions,\" consisting of pairs of
+16-dimensional algebra, the "hexadecanions," consisting of pairs of
 octonions equipped with the same sor of multiplication law. What do you
-get? Why aren\'t there multiplicative inverses anymore? I haven\'t
+get? Why aren't there multiplicative inverses anymore? I haven't
 checked, because this is my summer vacation! I am learning about
 octonions just for fun, since I just finished writing some rather
 technical papers, and my idea of fun does not presently include
 multiplying two hexadecanions together to see why the norm-squared law
-(a,b) (a,b)\* = (a,b)\* (a,b) = K (1,0) breaks down. But I\'m sure
-someone out there will enjoy doing this\... and I\'m sure someone else
+(a,b) (a,b)\* = (a,b)\* (a,b) = K (1,0) breaks down. But I'm sure
+someone out there will enjoy doing this... and I'm sure someone else
 out there has already done it! So they should let me know what happens.
-There is something out there called \"Pfister forms\", which I think
+There is something out there called "Pfister forms", which I think
 might be related.
 
 \[Toby Bartels did some nice work on hexadecanions in response to the
@@ -186,30 +186,30 @@ and
 ij = -ji = k,     jk = -kj = i,     ki = -ik = j.
 
 For more about the inner meaning of these rules, see
-\"[week5](week5.html)\". Similarly, we can unravel the above definition
+"[week5](week5.html)". Similarly, we can unravel the above definition
 of octonions by writing the octonion (a+bi+cj+dk,e+fi+gj+hk) as
 
 a + b e~1~ + c e~2~ + d e~3~ + e e~4~ + f e~5~ + g e~6~ + h e~7~.
 
 Note: since mathematicians are very impersonal, they usually call these
-seven dwarves e~1~,\...,e~7~ instead of Sleepy, Grumpy, etc. as in the
+seven dwarves e~1~,...,e~7~ instead of Sleepy, Grumpy, etc. as in the
 Disney movie. Any one of these 7 guys times himself is -1. Also, any two
 distinct ones anticommute; for example, e~3~ e~7~ = -e~7~ e~3~. There is
-a nice way to remember how to multiply them using the \"Fano plane\".
-This is a projective plane with 7 points, where by a \"projective
-plane\" I mean that any two points determine an abstract sort of
-\"line\", which in this case consists of just 3 points, and any two
+a nice way to remember how to multiply them using the "Fano plane".
+This is a projective plane with 7 points, where by a "projective
+plane" I mean that any two points determine an abstract sort of
+"line", which in this case consists of just 3 points, and any two
 lines intersect in a point. It looks like this:
 
 ::: {align="center"}
 ![](fano.jpg)
 :::
 
-The \"lines\" are the 3 edges of the big triangle, the 3 lines going
+The "lines" are the 3 edges of the big triangle, the 3 lines going
 through a vertex, the center and the midpoint of the opposite edge, and
-the circle including e~1~, e~2~, and e~3~. All the \"lines\" are
+the circle including e~1~, e~2~, and e~3~. All the "lines" are
 cyclically ordered, and that tells you how to multiply the seven
-dwarves. For example, the line that\'s actually a circle goes clockwise,
+dwarves. For example, the line that's actually a circle goes clockwise,
 so e~1~ e~2~ = e~4~, e~2~ e~4~ = e~1~, and e~4~ e~1~ = e~2~. The lines
 that are edges of the big triangle also point clockwise, so for example
 e~5~ e~2~ = e~3~, and cyclic permutations thereof, and e~6~ e~3~ = e~4~.
@@ -218,7 +218,7 @@ midpoint of the opposite edge, so for example e~3~ e~7~ = e~1~. I hope
 that made sense; you can work it out yourself, of course.
 
 My convention for numbering the seven dwarves in the picture above is
-*completely arbitrary*, so don\'t bother remembering it - make up your
+*completely arbitrary*, so don't bother remembering it - make up your
 own if you prefer! The convention I chose looks sort of weird at first,
 but it has a couple of endearing features:
 
@@ -235,7 +235,7 @@ to lattices like E~8~, Λ~16~ and the Leech lattice. But I will postpone
 that; for now you can consult Fulton and Harris, and also various papers
 by Dixon:
 
-3\) Geoffrey Dixon, Octonion X-product orbits, preprint available as
+3) Geoffrey Dixon, Octonion X-product orbits, preprint available as
 [hep-th/9410202](http://xxx.lanl.gov/abs/hep-th/9410202).
 
 Octonion X-product and E~8~ lattices, preprint available as
@@ -250,18 +250,18 @@ available as [hep-th/9504040](http://xxx.lanl.gov/abs/hep-th/9504040).
 Octonions: invariant Leech lattice exposed, preprint available as
 [hep-th/9506080](http://xxx.lanl.gov/abs/hep-th/9506080).
 
-I am not presently in a position to assess these papers or Dixon\'s work
+I am not presently in a position to assess these papers or Dixon's work
 relating division algebras and the Standard Model, but hopefully
 sometime I will be able to say a bit more.
 
 Let me wrap up by saying a bit about the Leech lattice. As described in
-my review of Conway and Sloane\'s book (\"[week20](week20.html)\"),
+my review of Conway and Sloane's book ("[week20](week20.html)"),
 there is a wonderful branch of mathematics that studies the densest ways
 of packing spheres in n dimensions. Most of the results so far concern
 lattice packings, packings in which the centers of the spheres form a
 subset of R^n^ closed under addition and scalar multiplication by
 integers. When n = 8, the densest known packing is given by the
-so-called E~8~ lattice. In \"[week20](week20.html)\" I described how to
+so-called E~8~ lattice. In "[week20](week20.html)" I described how to
 get this lattice using the quaternions and the icosahedron. Briefly, it
 goes as follows. The group of rotational symmetries of the icosahedron
 (not counting reflections) is a subgroup of the rotation group SO(3)
@@ -270,7 +270,7 @@ the group SU(2) of unit quaternions. So there is a 120-element subgroup
 of SU(2) consisting of elements that map to elements of SO(3) that are
 symmetries of the icosahedron. Now form all integer linear combinations
 of these 120 special elements of SU(2). We get a subring of the
-quaternions known as the \"icosians\'\'.
+quaternions known as the "icosians''.
 
 We can think of icosians as special quaternions, but we can also think
 of them as special vectors in R^8^, as follows. Every icosian is of the
@@ -278,7 +278,7 @@ form
 
 (a + √5 b) + (c + √5 d)i + (e + √5 f)j + (g + √5 h)k
 
-with a,b,c,d,e,f,g,h rational - but not all rational values of a,\...,h
+with a,b,c,d,e,f,g,h rational - but not all rational values of a,...,h
 give icosians. The set of all vectors x = (a,b,c,d,e,f,g,h) in R^8^ that
 correspond to icosians in this way is the E~8~ lattice!
 
@@ -295,10 +295,10 @@ x + y + z = 0 mod h\*
 
 where h is the quaternion (-√5 + i + j + k)/2. Since we can think of an
 icosian as a vector in R^8^, we can think of L as a subset of R^24^. It
-is a lattice, and in fact, it\'s the Leech lattice! I have a bit more to
-say about the Leech lattice in \"[week20](week20.html)\'\', but the real
-place to go for information on this beast is Conway and Sloane\'s book.
-It turns out to be related to all sorts of other \"exceptional\'\'
+is a lattice, and in fact, it's the Leech lattice! I have a bit more to
+say about the Leech lattice in "[week20](week20.html)'', but the real
+place to go for information on this beast is Conway and Sloane's book.
+It turns out to be related to all sorts of other "exceptional''
 algebraic structures. People have found uses for many of these in string
 theory, so if string theory is right, maybe they are important in
 physics. Personally, I want to understand them more deeply as pure
@@ -580,8 +580,8 @@ Here is what Toby Bartels wrote:
 By the way, in a post to sci.physics.research on November 2, 1999, Ralph
 Hartley pointed out that even if we start with a field of characteristic
 2, repeatedly applying the Cayley-Dickson construction will *not* lead
-to an infinite sequence of division algebras, because it\'s not true in
+to an infinite sequence of division algebras, because it's not true in
 this case that if x is nonzero, xx\* is nonzero. The problem is that a
-field of characteristic 2 can\'t be an ordered field.
+field of characteristic 2 can't be an ordered field.
 
 ------------------------------------------------------------------------
