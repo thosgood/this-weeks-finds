@@ -7,6 +7,7 @@
 ## 1--50
 
 - search for **???**
+- use Simon Burton's diagrams for week20
 
 ## 51--100
 
