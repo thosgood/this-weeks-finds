@@ -210,11 +210,11 @@ worth it...
 > manifold has a finite number of degrees of freedom. Witten's gravity
 > in 3-d is given by the action
 >
-> $$S[A,E] = \int(F^E)$$
+> $$S[A,E] = \int(F\wedgeE)$$
 >
 > which has finite number of degrees of freedom. Consider the action
 >
-> $$S[A,E] = integral(F^e)$$**???**
+> $$S[A,E] = integral(F\wedge e\wedge e)$$
 >
 > in 3+1 dimensions, for a (self dual) $SO(3,1)$ connection $A$ and a (real)
 > one form $e$ with values in the vector representation of $SO(3,1)$. This
@@ -222,17 +222,17 @@ worth it...
 > still defined on a differential manifold without any fixed metric
 > structure, and is diffeomorphism invariant. We expect that a
 > consistent quantization of such a theory should be found along lines
-> which are more similar to the quantization of the $\int(F^E)$,
+> which are more similar to the quantization of the $\int(F\wedge E)$,
 > theory than to the quantization of theories on flat space, based on
 > the Wightman axioms namely on $n$-points functions and related objects.
-> Still, the theory $\int(F^e)$**???** has genuine field degrees of
+> Still, the theory $\int(F\wedge e\wedge e)$ has genuine field degrees of
 > freedom: its physical phase space is infinite dimensional, and we
 > expect that its Hilbert state space will also be infinite dimensional.
 > There is a popular belief that a theory defined on a differential
 > manifold without metric and diffeomorphism invariant has necessarily a
 > finite number of degrees of freedom ("because thanks to general
 > covariance we can gauge away any local excitation"). This belief is
-> of course wrong. A theory as the one defined by the action $\int(F^e)$**???** is a theory that shares many features with the topological
+> of course wrong. A theory as the one defined by the action $\int(F\wedge e\wedge e)$ is a theory that shares many features with the topological
 > theories, in particular, no quantity defined "in a specific point"
 > is gauge invariant; but at the same time it has genuinely infinite
 > degrees of freedom. Indeed, this theory is of course nothing but

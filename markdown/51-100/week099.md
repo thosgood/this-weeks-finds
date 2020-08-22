@@ -220,7 +220,7 @@ is really the essence of a Hilbert space, may seem a bit more mysterious
 at first, but as we shall see, it's really the key to the whole
 business.
 
-1) The analog of the zero vector is a \`zero object'. A zero object in
+1) The analog of the zero vector is a 'zero object'. A zero object in
 a category is an object that is both initial and terminal. That is,
 there is exactly one morphism from it to any object, and exactly one
 morphism to it from any object. Consider for example the category Hilb
@@ -289,7 +289,7 @@ n-categories, nCat, is the primordial (n+1)-category. The real
 significance of this pattern remains mysterious.
 
 5) Finally, what is the categorification of the inner product in a
-Hilbert space? It's the \`hom functor'! The inner product in a Hilbert
+Hilbert space? It's the 'hom functor'! The inner product in a Hilbert
 space eats two vectors v and w and spits out a complex number
 
 \<v,w\>
@@ -371,5 +371,5 @@ nonsense, it's good to check that the coproduct of sets or topological
 spaces is just their disjoint union, while the coproduct of vector
 spaces or Hilbert spaces is their direct sum.
 
-[To continue reading the \`Tale of n-Categories', click
+[To continue reading the 'Tale of n-Categories', click
 here.](week100.html#tale)

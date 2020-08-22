@@ -52,7 +52,7 @@ For more historical details, see the review in
 (1996), 72-79.
 
 Unfortunately, I haven't seen these proofs of Lucas' claim, so I
-don\`t know why it's true. I do know a little about its relation to
+don't know why it's true. I do know a little about its relation to
 string theory, so I'll talk about that.
 
 There are two main flavors of string theory, "bosonic" and

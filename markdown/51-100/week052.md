@@ -1,4 +1,4 @@
-week52
+# May 9, 1995 {#week52}
 
 So, last "week", I said a bit about how supersymmetry could be handy
 for constructing topological quantum field theories, and this week I
@@ -8,8 +8,7 @@ combinatorial description of Donaldson theory.
 But first, I want to lighten things up a bit by mentioning a good
 science fiction novel!
 
-1) Permutation City, by Greg Egan, published in Britain by Millenium
-(should be available in the U.S. by autumn).
+1) _Permutation City_, by Greg Egan, published in Britain by Millenium (should be available in the U.S. by autumn).
 
 There is a lot of popular interest these days in the anthropic
 principle. Roughly, this claims to explain certain features of the
@@ -19,14 +18,14 @@ we are here and asking certain questions guarantees that the questions
 will have certain answers.
 
 Of course, the anthropic principle is controversial. Suppose one could
-really show that if the universe didn't have property X, there would be
+really show that if the universe didn't have property $X$, there would be
 no intelligent life. Does this really count as an "explanation" of
-property X? People like arguing about this. But this question is much
+property $X$? People like arguing about this. But this question is much
 too subtle for a simple-minded soul such as myself. I'm still stuck on
 more basic things!
 
 For example, are there any examples where we *can* really show that if
-the universe didn't have property X, there would be no intelligent
+the universe didn't have property $X$, there would be no intelligent
 life? It seems that to answer this, we need to have some idea about what
 we're counting as "all possible universes", and what counts as
 "intelligent life". So far we only know ONE example of a universe and
@@ -99,7 +98,7 @@ roughly speaking, a canonical isomorphism is a "God-given best one",
 but one can use some category theory to make this precise.) If you think
 about this carefully you'll see that our universe could be isomorphic
 to some very different-seeming ones, or could have some very
-different-seeming ones \`embedded' in it.
+different-seeming ones 'embedded' in it.
 
 Greg Egan takes this issue and runs with it -- in a very interesting
 direction. Everyone interested in cellular automata, artificial life,
@@ -108,12 +107,9 @@ as anyone who likes philosophy or just a good story.
 
 Okay, back to business here...
 
-2) Alberto Cattaneo, Teorie topologiche di tipo BF ed invarianti dei
-nodi, doctoral thesis, department of physics, University of Milan.
+2) Alberto Cattaneo, "Teorie topologiche di tipo BF ed invarianti dei nodi", doctoral thesis, department of physics, University of Milan.
 
-Alberto Cattaneo, Paolo Cotta-Ramusino, Juerg Froehlich, and Maurizio
-Martellini, Topological BF theories in 3 and 4 dimensions, preprint
-available as [hep-th/9505027](http://xxx.lanl.gov/abs/hep-th/9505027).
+    Alberto Cattaneo, Paolo Cotta-Ramusino, Juerg Froehlich, and Maurizio Martellini, "Topological BF theories in 3 and 4 dimensions", preprint available as [`hep-th/9505027`](http://xxx.lanl.gov/abs/hep-th/9505027).
 
 So, last week I said a wee bit about Blau and Thompson's paper on
 supersymmetry and the Casson invariant. All I said was that suitably
@@ -121,40 +117,36 @@ concocted supersymmetric field theories could be used to compute the
 Euler characteristics of your favorite spaces, and that Blau and
 Thompson talked about one which computed the Casson invariant, which is
 (in a rather subtle sense) the Euler characteristic of the moduli space
-of flat connections on a trivial SU(2) bundle over a 3-manifold.
+of flat connections on a trivial $SU(2)$ bundle over a 3-manifold.
 Traditionally one requires that the 3-manifold be a homology 3-sphere,
 but Kevin Walker showed how to do it for rational homology spheres, and
 Blau and Thompson mention other work in which the Casson invariant is
 generalized still further.
 
 But I didn't say *which* supersymmetric field theory computes the
-Casson invariant for you. The answer is, N = 2 supersymmetric BF theory
-with gauge group SU(2). So now I should say a little about BF theory.
+Casson invariant for you. The answer is, $N = 2$ supersymmetric BF theory
+with gauge group $SU(2)$. So now I should say a little about BF theory.
 Actually I have already mentioned it here and there, especially in
-"[week36](week36.html)". But I should say a bit more. This is going to
+["Week 36"](#week36). But I should say a bit more. This is going to
 be pretty technical, though, so fasten your seatbelts.
 
 The people I know who are the most excited about BF theory are the folks
 I was visiting at Milan, namely Cotta-Ramusino, Martellini and his
 student Cattaneo. They are working on BF theory in 3 and 4 dimensions.
 Let me talk about BF theory in 3 dimensions, which is what's most
-directly relevant here. Well, in *any* dimension, say n, the fields in
-BF theory are a connection A on a trivial bundle (take your favorite
-gauge group G), whose curvature F we'll think of as a 2-form taking
-values in the Lie algebra of G, and Lie-algebra-valued (n-2)-form B.
+directly relevant here. Well, in *any* dimension, say $n$, the fields in
+BF theory are a connection $A$ on a trivial bundle (take your favorite
+gauge group $G$), whose curvature $F$ we'll think of as a 2-form taking
+values in the Lie algebra of $G$, and Lie-algebra-valued $(n-2)$-form $B$.
 Then the Lagrangian of the theory is
-
-L(B,F) = tr(B \^ F)
-
+$$L(B,F) = \operatorname{tr}(B \wedge F)$$
 where in the "trace" we're using something like the Killing form to
 get an honest n-form which we can integrate over spacetime.
 
-But in 3 dimensions, since B is a 1-form, you can add an extra
+But in 3 dimensions, since $B$ is a 1-form, you can add an extra
 "cosmological constant" term and take as your Lagrangian
-
-L(B,F,c) = tr(B \^ F + (c^2^/3) B \^ B \^ B)
-
-where I have put in "c^2^/3" as my "cosmological constant" for
+$$L(B,F,c) = \operatorname{tr}(B \wedge F + (c^2/3) B \wedge B \wedge B)$$ **???**
+where I have put in "c^2/3" as my "cosmological constant" for
 insidious reasons to become clear momentarily. Now what the article by
 Cattaneo, Cotta-Ramusino, Froehlich and Martellini makes really clear is
 how BF theory is related to Chern-Simons theory. This is implicit in
@@ -163,7 +155,7 @@ just the special case where G is SO(2,1) or SO(3), and where the
 cosmological constant really is the usual cosmological constant. But
 I'd never noticed it. Recall that the Chern-Simons action is
 
-L(A) = tr(A \^ dA + (2/3)A \^ A \^ A)
+L(A) = \operatorname{tr}(A ^ dA + (2/3)A ^ A ^ A)
 
 Thus if we have 1-form B around as well, we can set
 

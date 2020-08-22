@@ -237,9 +237,9 @@ definitions of semistrict monoidal 2-categories and braided monoidal
 2-categories, and show how these may be unpacked to give long explicit
 definitions similar to, but not quite the same as, those given by
 Kapranov and Voevodsky. Finally, we describe how to construct a
-semistrict braided monoidal 2-category Z(C) as the \`center' of a
+semistrict braided monoidal 2-category Z(C) as the 'center' of a
 semistrict monoidal category C. This is analogous to the construction of
-a braided monoidal category as the center, or \`quantum double', of a
+a braided monoidal category as the center, or 'quantum double', of a
 monoidal category. The idea is to develop algebra that will do for
 4-dimensional topology what quantum groups and braided monoidal
 categories did for 3d topology. As a corollary of the center

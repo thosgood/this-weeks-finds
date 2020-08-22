@@ -56,7 +56,7 @@ ECS-LFCS-94-289 from Laboratory for Foundations of Computer Science,
 University of Edinburgh. Also available at
 <http://www.ima.umn.edu/talks/workshops/SP6.7-18.04/power/power.pdf>
 
-When I mentioned this paper to a friend, she puzzledly asked "\`Why try
+When I mentioned this paper to a friend, she puzzledly asked "'Why try
 categories?'?" And indeed, one must have tried categories and enjoyed
 them before moving on to bicategories, tricategories and that great
 beckoning terra incognita of mathematics, n-category theory.

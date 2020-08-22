@@ -56,7 +56,7 @@ physically the same if they differ only by a coordinate transformation,
 or - *roughly* the same thing - a diffeomorphism. The third constraint
 is the real killer. It's meaning is that ψ(A) doesn't change when we
 do a diffeomorphism of spaceTIME to the connection A, but it's usually
-formulated \`infinitesimally' as the Wheeler-DeWitt equation
+formulated 'infinitesimally' as the Wheeler-DeWitt equation
 
                             H ψ = 0
 
@@ -93,7 +93,7 @@ to get too excited about having found a state of quantum gravity with
 this extra term thrown in! Luckily it turns out that you can take the
 limit as the cosmological constant goes to zero, and get a state of the
 theory where the cosmological constant is zero. I like to call this the
-\`flat state', because it's zero except where the connection A is
+'flat state', because it's zero except where the connection A is
 flat.
 
 (In fact, if the space S is not simply connected, there are lots of
@@ -128,7 +128,7 @@ too much; depending on how you set up various things you might get
 different numbers, and I can never keep certain factors of 2 straight in
 this particular calculation. Note however that it looks as if things go
 completely haywire as Λ approaches zero, which is why my earlier remark
-about the \`flat state' is a bit nontrivial.
+about the 'flat state' is a bit nontrivial.
 
 Why does this satisfy the constraints? Well, I just said above that the
 Chern-Simons action was hand-tailored to have the gauge-invariance and

@@ -271,7 +271,7 @@ could possibly be special about 4 dimensions?
 Well, it turns out that there *are* some special things about 4
 dimensions. But more on that later.
 
-[To continue reading the \`Tale of n-Categories', click
+[To continue reading the 'Tale of n-Categories', click
 here.](week74.html#tale)
 
 ------------------------------------------------------------------------

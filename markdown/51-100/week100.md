@@ -246,7 +246,7 @@ Workshop on Higher Category Theory and Physics, which is taking place
 next weekend at Northwestern University.
 
 This is the end of the 'Tale n-Categories'. If you want more, try
-[\`An Introduction to n-Categories', available in Postscript form by
+['An Introduction to n-Categories', available in Postscript form by
 clicking here,](ncat.ps) or else read the above papers.
 
 ------------------------------------------------------------------------

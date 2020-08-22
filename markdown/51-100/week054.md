@@ -91,8 +91,8 @@ from S^6^ to S^5^, and so on.
 Now, the famous topologist J. H. C. Whitehead put forth an important
 program in 1950, as follows: "The ultimate aim of *algebraic homotopy*
 is to construct a purely algebraic theory, which is equivalent to
-homotopy theory in the same way that \`analytic' is equivalent to
-\`pure' projective geometry." Since then a lot of people have
+homotopy theory in the same way that 'analytic' is equivalent to
+'pure' projective geometry." Since then a lot of people have
 approached this program from various angles, and Porter's paper tours
 some of the key ideas involved.
 

@@ -301,7 +301,7 @@ us on to the definition of (n+1)-categories....
 
 But that's enough for now. Typing those diagrams is hard work.
 
-[To continue reading the \`Tale of n-Categories', click
+[To continue reading the 'Tale of n-Categories', click
 here.](week83.html#tale)
 
 ------------------------------------------------------------------------

@@ -311,7 +311,7 @@ monoidal categories, and much much more in here:
 1994. Volume 1: Basic Category Theory. Volume 2: Categories and
 Structure. Volume 3: Categories of Sheaves.
 
-[To continue reading the \`Tale of n-Categories', click
+[To continue reading the 'Tale of n-Categories', click
 here.](week84.html#tale)
 
 ------------------------------------------------------------------------

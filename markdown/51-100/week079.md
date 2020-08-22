@@ -372,7 +372,7 @@ So I will continue next time and explain the recipes for composing
 natural transformations, and the associated string diagrams, more
 carefully.
 
-[To continue reading the \`Tale of n-Categories', click
+[To continue reading the 'Tale of n-Categories', click
 here.](week80.html#tale)
 
 ------------------------------------------------------------------------

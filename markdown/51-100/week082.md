@@ -217,7 +217,7 @@ Ross Street, Fusion operators and cocycloids in monoidal categories,
 preprints.
 
 Street is one of the gurus of n-category theory, which he notes "might
-be called post-modern algebra (or even \`post-modern mathematics' since
+be called post-modern algebra (or even 'post-modern mathematics' since
 geometry and algebra are handled equally well by higher categories)."
 His paper on "Descent theory" serves as a rapid introduction to
 n-categories. But the real point of the paper is to explain the role

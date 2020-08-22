@@ -9,9 +9,9 @@ nonperturbative quantum gravity, available as
 
 So: recall where we were. Let me not repeat the details, but simply note
 that we were playing around with quantum gravity on a 4-dimensional
-spacetime, using the Ashtekar \`new variables' formalism, and we'd
+spacetime, using the Ashtekar 'new variables' formalism, and we'd
 noticed that in the theory with nonzero cosmological constant Λ, there
-is an explicit solution of the theory, the \`Chern-Simons' state.
+is an explicit solution of the theory, the 'Chern-Simons' state.
 Actually I hadn't really shown that this state satisfies the key
 equation, the Wheeler-DeWitt equation, but if you know the formulas
 it's easy to check.
@@ -22,18 +22,18 @@ these discoveries. However, as I began to explain last time, one can get
 a whole slew of states if one takes as ones space S, not a closed
 3-dimensional manifold (as we were doing at first) but a 3-manifold with
 boundary. This is where Lee Smolin starts. He considers quantum gravity
-with certain \`self-dual boundary conditions' that are specially
+with certain 'self-dual boundary conditions' that are specially
 compatible with Chern-Simons theory.
 
 There is presumably an enormous space of states of quantum gravity
 satisfying these boundary conditions, although we don't really know
 what they look like. Say we want to understand these states as much as
 possible. What do they look like? Well, first of all, the loop
-representation gives us a nice picture of the \`kinematical states'
+representation gives us a nice picture of the 'kinematical states'
 --- i.e., states not necessarily satisfying the diffeomorphism
 constraint or the Wheeler-DeWitt equation. (This picture may be wrong,
 of course, but let me throw caution to the winds and just explain the
-picture.) Every kinematical state is a linear combination of \`spin
+picture.) Every kinematical state is a linear combination of 'spin
 network states'. For more on spin networks, check out
 "[week55](week55.html)" and the references in there, but let me remind
 you what spin networks look like in this case.
@@ -44,9 +44,9 @@ embedded in this ball, possibly with some edges ending on the the
 boundary, with all the edges labelled by spins j = 0,1/2,1,3/2, etc.,
 and with the vertices labelled by some extra numbers that we won't
 worry about here. Let's call the points where edges end on the boundary
-\`punctures', because the idea is that they really poke through the
+'punctures', because the idea is that they really poke through the
 boundary and keep on going. Physically, these edges graph represent
-\`flux tubes of area': if we measure the area of some surface in this
+'flux tubes of area': if we measure the area of some surface in this
 state (or at least a surface that doesn't intersect the vertices), the
 area is just the quantity
 
@@ -65,9 +65,9 @@ But we want to understand, not the kinematical states in general, but
 the actual physical states, which satisfy the diffeomorphism constraint
 and the Wheeler-DeWitt equation. We can start by measuring everything we
 measure by doing experiments right at the boundary of S. More precisely,
-we can try to find a maximal set of commuting observables that \`live on
+we can try to find a maximal set of commuting observables that 'live on
 the boundary' in this sense. For example, the area of any patch of S
-counts as one of these observables, and all these \`surface patch area'
+counts as one of these observables, and all these 'surface patch area'
 observables commute. If we measure all of them, we know everything there
 is to know about the area of all regions on the boundary of S. Thanks to
 spin network technology, as described above, specifying all their
@@ -76,16 +76,16 @@ on the boundary of S, together with the spins labelling the edges ending
 there.
 
 Now Chern-Simons theory gives an obvious candidate for the space of
-physical states of quantum gravity for which these \`surface patch
+physical states of quantum gravity for which these 'surface patch
 area' observables have specified eigenvalues. In fact, if you hand
 Chern-Simons theory a surface like the boundary of S, together with a
 bunch of punctures labelled by spins, it gives you a FINITE-DIMENSIONAL
 state space. Let's not explain just now how it gives you this state
 space; let's simply mumble that it gives you this space by virtue of
-being an \`extended topological quantum field theory.' If you want, you
-can think of these states as being the \`relative states' I discussed
+being an 'extended topological quantum field theory.' If you want, you
+can think of these states as being the 'relative states' I discussed
 in last week's Finds, but not all of them: only those for which the
-\`surface patch area' observables have specified eigenvalues. There is
+'surface patch area' observables have specified eigenvalues. There is
 a wonderfully simple combinatorial recipe for describing all these
 states in terms of spin networks living in S, having edges that end at
 the punctures, with the right spins at these ends.
@@ -110,7 +110,7 @@ be proportional to A. The basic idea is this. For various reasons, one
 expects that the entropy of a black hole is proportional to the area of
 its event horizon. For example, when you smash some black holes together
 it turns out that the total area of the event horizons goes up ---
-this is called the \`second law of black hole thermodynamics'. This and
+this is called the 'second law of black hole thermodynamics'. This and
 many more fancy thought experiments suggest that when you have some
 black holes around the right notion of entropy should include a term
 proportional to the total area of their event horizons. Now suppose you
@@ -126,7 +126,7 @@ the more mathematical problem of relating quantum gravity and
 Chern-Simons theory.
 
 Now the maximum entropy of a system is proportional to the logarithm of
-the total number of states it can assume. So if the \`Bekenstein bound'
+the total number of states it can assume. So if the 'Bekenstein bound'
 holds, the dimension of the space of states of a system contained in a
 region with surface area A is proportional to exp(A/c) for some constant
 c (which should be about the Planck length squared). Now the remarkable
@@ -139,7 +139,7 @@ states of a bounded region should have dimensional proportional to
 exp(A/c), called the 't Hooft-Susskind holographic hypothesis. I was
 going to bone up on this for This Week's Finds, but I have been too
 busy! It's getting late and I'm getting bleary-eyed, so I'll stop
-here. I will simply give the references to this \`holographic
+here. I will simply give the references to this 'holographic
 hypothesis'; if anyone wants to explain it, please post to
 sci.physics.research --- I'd be immensely grateful.
 

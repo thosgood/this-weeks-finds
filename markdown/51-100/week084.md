@@ -389,5 +389,5 @@ of fancy ways mathematicians have of studying this sort of process -
 "monoids", "monoidal categories", and "monads" - are special cases
 of this sort of situation.
 
-[To continue reading the \`Tale of n-Categories', click
+[To continue reading the 'Tale of n-Categories', click
 here.](week89.html#tale)
