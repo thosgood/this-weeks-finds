@@ -28,7 +28,11 @@
 
 \usepackage{titlesec}
 \newcommand{\sectionbreak}{\clearpage}
-\titleformat{\section}[display]{\normalfont}{\Large\bfseries Week~\thesection}{1em}{\large\normalfont}
+\renewcommand{\thesection}{Week~\arabic{section}}
+\titleformat{\section}[display]{\normalfont}{\Large\bfseries\thesection}{1em}{\large\normalfont}
+
+\usepackage{titletoc}
+\titlecontents{section}[0em]{\normalfont}{\bfseries\thecontentslabel\hspace{1em}\normalfont\small}{}{\titlerule*[0.3pc]{.}\small\itshape\thecontentspage}[\vspace{0.5em}]
 
 \usepackage[toc]{multitoc}
 \renewcommand*{\multicolumntoc}{2}
@@ -50,7 +54,7 @@
 \hypersetup{linkcolor=myrefcolor,citecolor=mycitecolor,urlcolor=myurlcolor}
 
 \maketitle
-{\small\tableofcontents}
+\tableofcontents
 
 \hypertarget{week1}{%
 \section{January 19, 1993}\label{week1}}

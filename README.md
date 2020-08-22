@@ -2,7 +2,6 @@
 
 ## General
 
-- make sure TOC and header both say "Week N"
 - search for **???**
 
 ## 1--50

@@ -38,7 +38,13 @@ printf '%s\n' '}' >> $TEX
 printf "\n" >> $TEX
 printf '%s\n' '\usepackage{titlesec}' >> $TEX
 printf '%s\n' '\newcommand{\sectionbreak}{\clearpage}' >> $TEX
-printf '%s\n' '\titleformat{\section}[display]{\normalfont}{\Large\bfseries Week~\thesection}{1em}{\large\normalfont}' >> $TEX
+printf '%s\n' '\renewcommand{\thesection}{Week~\arabic{section}}' >> $TEX
+printf '%s\n' '\titleformat{\section}[display]{\normalfont}{\Large\bfseries\thesection}{1em}{\large\normalfont}' >> $TEX
+
+
+printf "\n" >> $TEX
+printf '%s\n' '\usepackage{titletoc}' >> $TEX
+printf '%s\n' '\titlecontents{section}[0em]{\normalfont}{\bfseries\thecontentslabel\hspace{1em}\normalfont\small}{}{\titlerule*[0.3pc]{.}\small\itshape\thecontentspage}[\vspace{0.5em}]' >> $TEX
 
 printf "\n" >> $TEX
 printf '%s\n' '\usepackage[toc]{multitoc}' >> $TEX
@@ -68,7 +74,7 @@ printf '%s\n' '\hypersetup{linkcolor=myrefcolor,citecolor=mycitecolor,urlcolor=m
 
 printf "\n" >> $TEX
 printf '%s\n' '\maketitle' >> $TEX
-printf '%s\n' '{\small\tableofcontents}' >> $TEX
+printf '%s\n' '\tableofcontents' >> $TEX
 
 printf "\n" >> $TEX
 
