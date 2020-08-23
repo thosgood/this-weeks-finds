@@ -185,7 +185,7 @@ starts with a quick summary of what the heck canonical quantum gravity
 is about, why it's hard to do, and why the loop representation seems to
 help:
 
-4) J. Baez, "Spin networks in nonperturbative canonical quantum gravity", preprint available in LaTeX form as `gr-qg/9504036`, or via ftp from `math.ucr.edu`, as the file `net.tex` in the directory `baez`.
+4) J. Baez, "Spin networks in nonperturbative canonical quantum gravity", preprint available in LaTeX form as `gr-qg/9504036`, or via ftp from `math.ucr.edu`, as the file [`net.tex`](http://math.ucr.edu/home/baez/net.tex) in the directory `baez`.
 
 Now so far I have been trying to make things sound simple, but here I
 should point out that when one talks about "states of quantum gravity"
