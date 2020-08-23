@@ -1,10 +1,10 @@
 # August 3, 1995 {#week59}
 
-> As you crack your eyes one morning your reason is assaulted by a
-> strange sight. Over your head, humming quietly, there floats a
-> monitor, an ethereal otherworldly screen on which is written a curious
-> message. "I am the Screen of ultimate Truth. I am bulging with
-> information and ask nothing better than to be allowed to impart it."
+> _As you crack your eyes one morning your reason is assaulted by a_
+> _strange sight. Over your head, humming quietly, there floats a_
+> _monitor, an ethereal otherworldly screen on which is written a curious_
+> _message. "I am the Screen of ultimate Truth. I am bulging with_
+> _information and ask nothing better than to be allowed to impart it."_
 
 It would be nice if more math books started with something
 attention-grabbing like this. In fact, it appears near the beginning of
@@ -66,12 +66,12 @@ mathematics determine, in some mysterious sense, all the basic laws of
 physics. Or maybe we won't. In either case, there is a long way yet to
 go. As Dixon's Screen of Truth comments, before it departs:
 
-> Do you believe that were I to explain as much of what I know as you
-> could comprehend that you would recognize it, that you would say, oh
-> yes, this is but an extension of what we have already done, and though
-> the mathematics is broader, the principles deeper, I am not surprised?
-> Do you think you have asked even a fraction of the questions you need
-> to ask?
+> "Do you believe that were I to explain as much of what I know as you"
+> "could comprehend that you would recognize it, that you would say, oh"
+> "yes, this is but an extension of what we have already done, and though"
+> "the mathematics is broader, the principles deeper, I am not surprised?"
+> "Do you think you have asked even a fraction of the questions you need"
+> "to ask?"
 
 Anyway, it is at least worth considering all the beautiful mathematical
 structures one runs into for their potential importance. For example,
@@ -155,7 +155,7 @@ above challenge, which appears at the end of this article.\]
 Now if we unravel the above definition of quaternions, by writing the
 quaternion $(a+bi,c+di)$ as $a+bi+cj+dk$, we see that the multiplication law
 is
-$$i^2^ = j^2^ = k^2^ = -1,$$
+$$i^2 = j^2 = k^2 = -1,$$
 and
 $$ij = -ji = k, \quad jk = -kj = i, \quad ki = -ik = j.$$
 
@@ -173,7 +173,7 @@ plane" I mean that any two points determine an abstract sort of
 "line", which in this case consists of just 3 points, and any two
 lines intersect in a point. It looks like this:
 
-::: {align="center"}
+:::
 ![](images/fano.jpg)
 :::
 
@@ -321,7 +321,6 @@ Here is what Toby Bartels wrote:
 > $$((a, b)^*)^* = (a^*, -b)^* = ((a^*)^*, -(-b)).$$
 > By the induction hypothesis and the nature of addition (an Abelian group),
 > $$((a^*)^*, -(-b)) = (a, b).$$
-> 
 > $$((a, b) + (c, d))^* = (a + c, b + d)^* = ((a + c)^*, -(b + d)).$$
 > By the induction hypothesis and addition again,
 > $$((a + c)^*, -(b + d)) = (a^* + c^*, -b + -d) = (a^*, -b) + (c^*, -d) = (a, b)^* + (c, d)^*.$$
@@ -330,29 +329,41 @@ Here is what Toby Bartels wrote:
 > $$(a, b) ((c, d) + (e, f)) = (a, b) (c + e, d + f) = (a (c + e) - (d + f)^* b, (d + f) a + b (c + e)^*).$$
 > By the induction hypothesis and the identity immediately above,
 > $$
->   \begin{aligned}
+>   \begin{gathered}
 >     (a (c + e) - (d + f)^* b, (d + f) a + b (c + e)^*)
->     &= (a c + a e - d^* b - f^* b, d a + f a + b c^* + b e^*)
->   \\&= (a c - d^* b, d a + b c^*) + (a e - f^* b, f a + b e^*)
->   \\&= (a, b) (c, d) + (a, b) (e, f).
->   \end{aligned}
+>   \\= (a c + a e - d^* b - f^* b, d a + f a + b c^* + b e^*)
+>   \\= (a c - d^* b, d a + b c^*) + (a e - f^* b, f a + b e^*)
+>   \\= (a, b) (c, d) + (a, b) (e, f).
+>   \end{gathered}
 > $$
 > Also,
-> $$((a, b) + (c, d)) (e, f) = (a + c, b + d) (e, f) = ((a + c) e - f^* (b + d), f (a + c) + (b + d) e^*).$$
+> $$
+>   \begin{gathered}
+>     ((a, b) + (c, d)) (e, f)
+>   \\= (a + c, b + d) (e, f)
+>   \\= ((a + c) e - f^* (b + d), f (a + c) + (b + d) e^*).
+>   \end{gathered}
+> $$
 > By the induction hypothesis again,
 > $$
->   \begin{aligned}
+>   \begin{gathered}
 >     ((a + c) e - f^* (b + d), f (a + c) + (b + d) e^*)
->     &= (a e + c e - f^* b - f^* d, f a + f c + b e^* + d e^*)
->   \\&= (a e - f^* b, f a + b e^*) + (c e - f^* d, f c + d e^*)
->   \\&= (a, b) (e, f) + (c, d) (e, f).
->   \end{aligned}
+>   \\= (a e + c e - f^* b - f^* d, f a + f c + b e^* + d e^*)
+>   \\= (a e - f^* b, f a + b e^*) + (c e - f^* d, f c + d e^*)
+>   \\= (a, b) (e, f) + (c, d) (e, f).
+>   \end{gathered}
 > $$
 > 
 > $$((a, b) (c, d))^* = (a c - d^* b, d a + b c^*)^* = ((a c - d^* b)^*, -(d a + b c^*)).$$
 > Using the induction hypothesis and each of the above identities,
-> $$((a c - d^* b)^*, -(d a + b c^*)) = (c^* a^* - (-b)^* (-d), -d a + (-b) c^*)
-> = (c^*, -d) (a^*, -b) = (c, d)^* (a, b)^*.$$
+> $$
+>   \begin{gathered}
+>     ((a c - d^* b)^*, -(d a + b c^*))
+>   \\= (c^* a^* - (-b)^* (-d), -d a + (-b) c^*)
+>   \\= (c^*, -d) (a^*, -b)
+>   \\= (c, d)^* (a, b)^*.
+>   \end{gathered}
+> $$
 > 
 > In light of the above identities, if I ever come across, say, $(x y^* + z)^*$,
 > I'll simply write $y x^* + z^*$ without a moment's hesitation.
@@ -406,21 +417,21 @@ Here is what Toby Bartels wrote:
 > iff the $2^{n-1}$ onions are a division algebra and are associative.
 > So, let's try to prove associativity of $2^n$ onions by induction.
 > $$
->   \begin{aligned}
+>   \begin{gathered}
 >     ((a, b) (c, d)) (e, f)
->     &= (a c - d^* b, d a + b c^*) (e, f)
->   \\&= ((a c - d^* b) e - f^* (d a + b c^*), f (a c - d^* b) + (d a + b c^*) e^*)
->   \\&=((ac)e - (d^* b)e - f^* (da) - f^* (b c^*), f(ac) - f(d^* b) + (da) e^* + (b c^*) e^*).
->   \end{aligned}
+>   \\= (a c - d^* b, d a + b c^*) (e, f)
+>   \\= ((a c - d^* b) e - f^* (d a + b c^*), f (a c - d^* b) + (d a + b c^*) e^*)
+>   \\=((ac)e - (d^* b)e - f^* (da) - f^* (b c^*), f(ac) - f(d^* b) + (da) e^* + (b c^*) e^*).
+>   \end{gathered}
 > $$
 > On the other hand,
 > $$
->   \begin{aligned}
+>   \begin{gathered}
 >     (a, b) ((c, d) (e, f))
->     &= (a, b) (c e - f^* d, f c + d e^*)
->   \\&= (a (c e - f^* d) - (f c + d e^*)^* b, (f c + d e^*) a + b (c e - f^* d)^*)
->   \\&= (a(ce) - a(f^* d) - (c^* f^*)b - (e d^*)b, (fc)a + (d e^*)a + b(e^* c^*) - b(d^* f)).
->   \end{aligned}
+>   \\= (a, b) (c e - f^* d, f c + d e^*)
+>   \\= (a (c e - f^* d) - (f c + d e^*)^* b, (f c + d e^*) a + b (c e - f^* d)^*)
+>   \\= (a(ce) - a(f^* d) - (c^* f^*)b - (e d^*)b, (fc)a + (d e^*)a + b(e^* c^*) - b(d^* f)).
+>   \end{gathered}
 > $$
 > Assuming the induction hypothesis that $2^{n-1}$ onions are associative,
 > these are equal in general iff $2^{n-1}$ onions also are commutative.
@@ -508,16 +519,21 @@ Here is what Toby Bartels wrote:
 > 
 > Let's attempt to prove by induction that $2^n$ onions are always alternative.
 > $$
->   \begin{aligned}
+>   \begin{gathered}
 >     (a, b) ((a, b) (c, d))
->     &= (a, b) (a c - d^* b, d a + b c^*)
->   \\&= (a (a c - d^* b) - (d a + b c^*)^* b, (d a + b c^*) a + b (a c - d^* b)^*)
->   \\&= (a(ac) - a(d^* b) - (a^* d^*)b - (c b^*)b, (da)a + (b c^*)a + b(c^* a^*) - b(b^* d)).
->   \end{aligned}
+>   \\= (a, b) (a c - d^* b, d a + b c^*)
+>   \\= (a (a c - d^* b) - (d a + b c^*)^* b, (d a + b c^*) a + b (a c - d^* b)^*)
+>   \\= (a(ac) - a(d^* b) - (a^* d^*)b - (c b^*)b, (da)a + (b c^*)a + b(c^* a^*) - b(b^* d)).
+>   \end{gathered}
 > $$
 > Meanwhile,
-> $$((a, b) (a, b)) (c, d) = (a a - b^* b, b a + b a^*) (c, d) =((aa)c - (b^* b)c - d^* (ba) - d^* (b a^*),$$
-> $$d(aa) - d(b^* b) + (ba) c^* + (b a^*) c^*).$$
+> $$
+>   \begin{gathered}
+>     ((a, b) (a, b)) (c, d)
+>   \\= (a a - b^* b, b a + b a^*) (c, d)
+>   \\= ((aa)c - (b^* b)c - d^* (ba) - d^* (b a^*),d(aa) - d(b^* b) + (ba) c^* + (b a^*) c^*).
+>   \end{gathered}
+> $$
 > These are indeed equal in general iff $2^{n-1}$ onions are associative.
 > 
 > The last sentence may not be immediately obvious.
@@ -560,7 +576,13 @@ Here is what Toby Bartels wrote:
 > I'm forced to exhibit non-$0$ $x$ and $y$ such that $x y = 0$.
 > 
 > Just playing around, I found
-> $$(e_1, e_4) (-1, e_5) = (e_1 (-1) - (e_5)* e_4, e_5 e_1 + e_4 (-1)*) = (-e_1 + e_5 e_4, e_5 e_1 - e_4).$$
+> $$
+>   \begin{gathered}
+>     (e_1, e_4) (-1, e_5)
+>   \\= (e_1 (-1) - (e_5)* e_4, e_5 e_1 + e_4 (-1)*)
+>   \\= (-e_1 + e_5 e_4, e_5 e_1 - e_4).
+>   \end{gathered}
+> $$
 > Since $e_5 e_4 = (0, i) (0, 1) = (i, 0) = e_1$
 > and $e_5 e_1 = (0, i) (i, 0) = (0, i* i) = (0, 1) = e_4$,
 > $$(e_1, e_4) (-1, e_5) = (0, 0) = 0.$$
