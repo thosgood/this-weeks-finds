@@ -42,45 +42,78 @@ quantum mechanics". In particular, in a TQFT, every way of combining
 manifolds --- spaces or spacetimes --- yields a corresponding rule for
 composing amplitudes. For example, if we have two spacetimes that look
 like
-
-     O
-    | |
-    | |
-    | |
-    | |
-     O
-
+$$
+  \begin{tikzpicture}[scale=0.5]
+    \draw[thick] (0,0) ellipse (2cm and 1cm);
+    \draw[thick] (-2,0) to (-2,-6);
+    \draw[thick] (2,0) to (2,-6);
+    \begin{scope}[shift={(0,-6)}]
+      \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
+      \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+    \end{scope}
+  \end{tikzpicture}
+$$
 (that's supposed to look like a pipe!) and
-
-     O       O
-     \ \   / /
-      \ \ / /
-       \   /
-        | |
-         O
-
-- that is, a cylinder and a "trinion" (or upside-down pair of pants)
-- we can combine them either "horizontally" like this:
-
-     O       O      O
-     \ \   / /     | |
-      \ \ / /      | |
-       \   /       | |
-        | |        | | 
-         O          O
-
+$$
+  \begin{tikzpicture}[scale=0.5]
+    \draw[thick] (-3,0) ellipse (2cm and 1cm);
+    \draw[thick] (3,0) ellipse (2cm and 1cm);
+    \draw[thick] (-5,0) .. controls (-5,-2) and (-2,-4) .. (-2,-6);
+    \draw[thick] (5,0) .. controls (5,-2) and (2,-4) .. (2,-6);
+    \draw[thick] (-1,0) .. controls (-1,-1) .. (0,-2);
+    \draw[thick] (1,0) .. controls (1,-1) .. (0,-2);
+    \begin{scope}[shift={(0,-6)}]
+      \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
+      \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+    \end{scope}
+  \end{tikzpicture}
+$$
+--- that is, a cylinder and a "trinion" (or upside-down pair of pants)
+--- we can combine them either "horizontally" like this:
+$$
+  \begin{tikzpicture}[scale=0.5]
+    \begin{scope}[shift={(8,0)}]
+      \draw[thick] (0,0) ellipse (2cm and 1cm);
+      \draw[thick] (-2,0) to (-2,-6);
+      \draw[thick] (2,0) to (2,-6);
+      \begin{scope}[shift={(0,-6)}]
+        \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
+        \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+      \end{scope}
+    \end{scope}
+    \draw[thick] (-3,0) ellipse (2cm and 1cm);
+    \draw[thick] (3,0) ellipse (2cm and 1cm);
+    \draw[thick] (-5,0) .. controls (-5,-2) and (-2,-4) .. (-2,-6);
+    \draw[thick] (5,0) .. controls (5,-2) and (2,-4) .. (2,-6);
+    \draw[thick] (-1,0) .. controls (-1,-1) .. (0,-2);
+    \draw[thick] (1,0) .. controls (1,-1) .. (0,-2);
+    \begin{scope}[shift={(0,-6)}]
+      \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
+      \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+    \end{scope}
+  \end{tikzpicture}
+$$
 or "vertically" like this:
-
-     O       O
-     \ \   / /
-      \ \ / /
-       \   /
-        | |
-        | |
-        | |
-        | |
-        | |
-         O
+$$
+  \begin{tikzpicture}[scale=0.5]
+    \draw[thick] (-3,0) ellipse (2cm and 1cm);
+    \draw[thick] (3,0) ellipse (2cm and 1cm);
+    \draw[thick] (-5,0) .. controls (-5,-2) and (-2,-4) .. (-2,-6);
+    \draw[thick] (5,0) .. controls (5,-2) and (2,-4) .. (2,-6);
+    \draw[thick] (-1,0) .. controls (-1,-1) .. (0,-2);
+    \draw[thick] (1,0) .. controls (1,-1) .. (0,-2);
+    \begin{scope}[shift={(0,-6)}]
+      \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
+      \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+    \end{scope}
+    \draw[thick] (-2,-6) to (-2,-10);
+    \draw[thick] (2,-6) to (2,-10);
+    \begin{scope}[shift={(0,-10)}]
+      \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
+      \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+    \end{scope}
+  \end{tikzpicture}
+$$
 
 Corresponding to each spacetime we have a "time evolution operator" ---
 a linear operator that describes how states going in one end pop out the
