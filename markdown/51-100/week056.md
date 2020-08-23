@@ -127,7 +127,7 @@ But clearly nature, or at least the goddess of mathematics, is trying to
 tell us something if this Chern-Simons state, which has all sorts of
 wonderful properties relating to *3-dimensional* geometry, is also a
 solution of the Wheeler-DeWitt equation, which is all about
-*4-dimensional* geometry, since it expresses the invariance of \psi under
+*4-dimensional* geometry, since it expresses the invariance of $\psi$ under
 evolution in TIME. I have been thinking about this for several years now
 and I think I finally really understand it. There are probably people
 out there to whom it's perfectly obvious, because it's not really all
