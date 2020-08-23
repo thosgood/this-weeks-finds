@@ -18,7 +18,7 @@ conferences are, where the postdoctoral positions are, what the latest
 books are, and so on.
 
 2) MacCallum's gravity mailing list: to subscribe send polite email to
-M.A.H.MacCallum\@qmw.ac.uk
+M.A.H.MacCallum@qmw.ac.uk
 
 By the way, a bunch of math and physics preprints are available from the
 Schroedinger Institute, including a lot of new stuff on quantum gravity
