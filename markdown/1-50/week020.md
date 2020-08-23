@@ -316,7 +316,7 @@ bit more technical here.
 The group of rotational symmetries of the icosahedron is, as we have
 said, $A_5$. This is a subgroup of the 3d rotation group $SO(3)$. As all
 physicists know, whether they know it or not, the group $SO(3)$ has the
-group $SU(2)$ of $2\times2$ unitary matrices with determinant 1 as its double
+group $SU(2)$ of $2\times2$ unitary matrices with determinant $1$ as its double
 cover. So we can find a corresponding double cover of $A_5$ as a subgroup
 of $SU(2)$; this has twice as many elements as $A_5$, for a total of 120.
 

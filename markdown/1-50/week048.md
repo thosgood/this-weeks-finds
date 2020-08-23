@@ -41,7 +41,7 @@ normally want to do are then permitted. The marvelous thing about
 Chern-Simons theory is that one can show the TQFT axioms hold starting
 from some beautiful algebraic structures called quantum groups.
 Corresponding to every "semisimple Lie group" --- examples being the
-groups SU(n) of unitary complex nxn matrices with determinant 1 ---
+groups $SU(n)$ of unitary complex nxn matrices with determinant $1$ ---
 there is a quantum group, which is not really a group, but a so-called
 "quasitriangular Hopf algebra." Amusingly these quantum groups really
 depend on Planck's constant $\hbar$, and reduce to the ordinary groups in the

@@ -1,7 +1,7 @@
-week61
+# August 24, 1995 {#week61}
 
 I'd like to return to the theme of octonions, which I began to explore
-in "[week59](week59.html)". The recipe I described there, which starts
+in ["Week 59"](#week59). The recipe I described there, which starts
 with the real numbers, and then builds up the complex numbers,
 quaternions, octonions, hexadecanions etc. by a recursive process, is
 called the "Cayley-Dickson process". Now let me describe a way to
@@ -9,47 +9,44 @@ obtain the octonions using a special property of rotations in
 8-dimensional space, called "triality". I'll start with a gentle
 introduction to the theory of rotation groups; for this, a nice
 reference is the book by Fulton and Harris that I mentioned in
-"[week59](week59.html)". Then I will turn up the heat a bit and
+["Week 59"](#week59). Then I will turn up the heat a bit and
 describe triality and how to use it to get the octonions. I learned some
 of this stuff from:
 
-1) Alex J. Feingold, Igor B. Frenkel, and John F. X. Rees, Spinor
-construction of vertex operator algebras, triality, and E~8~^(1)^,
-Contemp. Math. 121, AMS, Providence Rhode Island.
+1) Alex J. Feingold, Igor B. Frenkel, and John F. X. Rees, _Spinor construction of vertex operator algebras, triality, and $E_8^{(1)}$_, Contemp. Math. **121**, AMS, Providence Rhode Island.
 
 I should emphasize, however, that what I will talk about is older, while
 the above book starts with triality and then does far more sophisticated
 things. An older reference for what I'll talk about is
 
-2) Claude Chevalley, The algebraic theory of spinors, Columbia U.
-Press, New York, 1954.
+2) Claude Chevalley, _The algebraic theory of spinors_, Columbia U. Press, New York, 1954.
 
 I think the concept of triality goes back to Cartan, but I don't really
 know the history. By the way, I'd really appreciate any corrections to
 what I say below.
 
 Okay, so, how should we start? Well, probably we should start with the
-group of rotations in n-dimensional Euclidean space. This group is
-called SO(n). It is not simply connected if n \> 1, meaning that there
+group of rotations in $n$-dimensional Euclidean space. This group is
+called $SO(n)$. It is not simply connected if $n > 1$, meaning that there
 are loops in it which cannot be continuously shrunk to a point. This is
-easy to see for SO(2), which is just the circle - or, if you prefer, the
-unit complex numbers. It's a bit trickier to see for SO(3), but it is
-easy enough to demonstrate - either mathematically or via the famous
-"belt trick" - that the loop consisting of a 360 degree rotation
+easy to see for $SO(2)$, which is just the circle --- or, if you prefer, the
+unit complex numbers. It's a bit trickier to see for $SO(3)$, but it is
+easy enough to demonstrate --- either mathematically or via the famous
+"belt trick" --- that the loop consisting of a 360 degree rotation
 around an axis cannot be continuously shrunk to a point, while the loop
 consisting of a 720 degree rotation around an axis can.
 
-This "doubly connected" property of SO(3) implies that it has an
-interesting "double cover", a group G in which all loops *can* be
-contracted to a point, together with a two-to-one function F: G → SO(3)
-with F(gh) = F(g)F(h). (This sort of function, the nice kind of function
-between groups, is called a "homomorphism".) And this double cover G
-is just SU(2), the group of 2x2 complex matrices which are unitary and
-have determinant 1. Better yet - if we are warming up for the octonions
-- we can think of SU(2) as the unit quaternions!
+This "doubly connected" property of $SO(3)$ implies that it has an
+interesting "double cover", a group $G$ in which all loops *can* be
+contracted to a point, together with a two-to-one function $F\colon G \to SO(3)$
+with $F(gh) = F(g)F(h)$. (This sort of function, the nice kind of function
+between groups, is called a "homomorphism".) And this double cover $G$
+is just $SU(2)$, the group of $2\times2$ complex matrices which are unitary and
+have determinant $1$. Better yet --- if we are warming up for the octonions
+--- we can think of $SU(2)$ as the unit quaternions!
 
-Now elements of SO(n) are just nxn real matrices which are orthogonal
-and have determinant 1, so given an element g of SO(n) and a vector v in
+Now elements of $SO(n)$ are just $n\times n$ real matrices which are orthogonal
+and have determinant $1$, so given an element g of SO(n) and a vector v in
 R\^n, we can do matrix multiplication to get a new vector gv in R\^n,
 which of course is just the result of rotating v by the rotation g. This
 makes R\^n into a "representation" of SO(n), meaning simply that
@@ -71,12 +68,12 @@ also interesting representations of dimensions 5, 7, 9, etc.. The
 interesting representation of dimension 2j+1 is called the "spin-j"
 representation by physicists. All representations of SO(3) can be built
 up from these representations, and none of these representations can be
-broken down into smaller ones - one says they are irreducible.
+broken down into smaller ones --- one says they are irreducible.
 
 But the double cover of SO(3), namely SU(2), has more representations!
-Using the two-to-one homomorphism F: SU(2) → SO(3) we can convert any
+Using the two-to-one homomorphism F\colon SU(2) \to SO(3) we can convert any
 representation of SO(3) into one of SU(2), but not vice versa. For
-example, since SU(2) consists of 2x2 complex matrices, it has a
+example, since SU(2) consists of $2\times2$ complex matrices, it has a
 representation on C\^2, given by the obvious matrix multiplication. This
 is called the "spinor" or "spin-1/2" representation of SU(2). It
 doesn't come from a representation of SO(3).
@@ -105,7 +102,7 @@ particular, they aren't just classified by "spin"), but it is still
 quite comprehensible and charming. Just to head off any confusions that
 might occur, let me emphasize that it's sort of a lucky coincidence
 that Spin(3) = SU(2). In general, the spin groups don't have too much
-to do with the groups SU(n) of nxn unitary complex matrices with
+to do with the groups SU(n) of $n\times n$ unitary complex matrices with
 determinant 1.
 
 There is, however, a doubly lucky coincidence in dimension 4; namely,
@@ -131,7 +128,7 @@ can have a "handedness" or "chirality".
 More generally, it turns out that the representation theory of Spin(n)
 depends strongly on whether n is even or odd. When n is even (and bigger
 than 2), it turns out that Spin(n) has left-handed and right-handed
-spinor representations, each of dimension 2\^{n/2 - 1}. When n is odd
+spinor representations, each of dimension 2^{n/2-1}. When n is odd
 there is just one spinor representation. Of course, there is always the
 representation of Spin(n) coming from the vector representation of
 SO(n), which is n-dimensional.
@@ -141,7 +138,7 @@ This leads to something very curious. If you are an ordinary
 "smaller" than vectors, since the spinor representations are
 2-dimensional, while the vector representation is 3-dimensional.
 However, in general, when the dimension n of space (or spacetime) is
-even, the dimension of the spinor representations is 2\^(n/2 - 1), while
+even, the dimension of the spinor representations is 2^{n/2-1}, while
 that of the vector representation is n, so after a while the spinor
 representation catches up with the vector representation and becomes
 bigger!
@@ -149,7 +146,7 @@ bigger!
 This is a little bit curious, or at least it may seem so at first, but
 what's *really* curious is what happens exactly when the spinor
 representation catches up with the vector representation. That's when
-2\^(n/2 - 1) = n, or n = 8. The group Spin(8) has three 8-dimensional
+2^{n/2-1} = n, or n = 8. The group Spin(8) has three 8-dimensional
 irreducible representations: the vector, left-handed spinor, and
 right-handed spinor representation. While they are not equivalent to
 each other, they are darn close; they are related by a symmetry of
@@ -185,7 +182,7 @@ the holes.) Pick a nonzero vector v in Λ\^4 V-, the top exterior power
 of V-. Let S denote the subspace of Cliff consisting of all elements of
 the form uv with u in Cliff. Note that Cliff and S are representations
 of Cliff by left multiplication, and therefore are representations of
-Spin(8) - because Spin(8) sits inside Cliff. (This is a standard way to
+Spin(8) --- because Spin(8) sits inside Cliff. (This is a standard way to
 get ones hands on the spin groups.)
 
 Note that Λ V+ and Λ V- both have dimension 2\^4 = 16. We can think of
@@ -276,7 +273,7 @@ F(a,b,c) = \<ab,c\>
 using the fact that we already know how to multiply a guy in V with a
 guy in S+, and get a guy in S-.
 
-You probably know - if you've survived this far! - that from a
+You probably know --- if you've survived this far! --- that from a
 quadratic form you can get a symmetric bilinear form by
 "polarization". Well, similarly, we can get a symmetric trilinear form
 f on Chev by polarizing F. Explicitly, for any u1,u2,u3 in Chev, we have
@@ -341,7 +338,7 @@ quaternions, or octonions, and these are also all the alternative
 division algebras over R, as well... where an "alternative" algebra
 is one for which any two elements generate an associative algebra. Nota
 bene: here a division algebra is one such that for all nonzero x, the
-map y → xy is invertible. In the finite-dimensional case, this implies
+map y \to xy is invertible. In the finite-dimensional case, this implies
 that every element has a left and right inverse. If assume
 associativity, the converse is true, but in the nonassociative case it
 ain't. Whew! Nonassociative algebras are tricky, if you're used to
@@ -350,7 +347,7 @@ associative ones, so you're interested, you might try:
 4) R. D. Schafer, An Introduction to Non-Associative Algebras, Dover,
 New York, 1995.
 
-In addition to the people listed in "[week59](week59.html)", I should
+In addition to the people listed in ["Week 59"](#week59), I should
 thank Dan Asimov, Michael Kinyon, Frank Smith, and Dave Rusin for help
 with this post. I also thank Doug Merritt for reminding me about the
 following nice book on quaternions, octonions, and all sorts of similar

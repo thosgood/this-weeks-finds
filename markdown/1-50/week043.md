@@ -140,15 +140,15 @@ chiral spin connection the "right-handed" connection.)
 I do, however, want to emphasize that the new variables rely heavily
 upon some of the basic group-theoretic facts about 3 and 4 dimensions.
 The group of rotations in 3d space is called $SO(3)$, because
-mathematically these are $3\times3$ orthogonal matrices with determinant 1.
+mathematically these are $3\times3$ orthogonal matrices with determinant $1$.
 Now, a key fact in math and physics is that this group has the group
-$SU(2)$ of $2\times2$ complex unitary matrices with determinant 1 as a "double
+$SU(2)$ of $2\times2$ complex unitary matrices with determinant $1$ as a "double
 cover". This means roughly that there are two elements of this other
 group corresponding to each element of $SO(3)$. It's this fact that
 allows the existence of spin-$\frac12$ particles!
 
 Now, $SU(2)$ is sitting inside a bigger group, $SL(2,\mathbb{C})$, the group of all
-$2\times2$ complex matrices with determinant 1, not necessarily unitary. Just
+$2\times2$ complex matrices with determinant $1$, not necessarily unitary. Just
 as SU(2) is used to describe the symmetries of spin-$\frac12$ particles in
 space, $SL(2,\mathbb{C})$ describes the symmetries of spin-$\frac12$ particles in
 spacetime. The reason is that $SL(2,\mathbb{C})$ is the double cover of the group

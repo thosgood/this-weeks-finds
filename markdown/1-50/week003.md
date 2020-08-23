@@ -50,8 +50,8 @@ a group $SU(n)$ and Lie algebra $\mathfrak{su}(n)$. And if one looks at the symm
 of a 2n-dimensional classical phase space --- so-called canonical
 transformations, or symplectic transformations --- one gets the group
 $Sp(n)$ and Lie algebra $\mathfrak{sp}(n)$. To be precise, $SO(n)$ consists of all $n\times n$
-orthogonal real matrices with determinant 1, $SU(n)$ consists of all $n\times n$
-unitary complex matrices with determinant 1, and $Sp(n)$ consists of all
+orthogonal real matrices with determinant $1$, $SU(n)$ consists of all $n\times n$
+unitary complex matrices with determinant $1$, and $Sp(n)$ consists of all
 $(2n)\times(2n)$ real matrices preserving a nondegenerate skew-symmetric form.
 
 These are all very important in physics. Indeed, all the "gauge
