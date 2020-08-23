@@ -150,7 +150,7 @@ for Riemannian gravity and the total volume and total extrinsic
 curvature of the universe (which we assume is compact).
 
 You see, quantum gravity comes in two flavors, Lorentzian and
-Riemannian, depending on whether we work with real time ---- the
+Riemannian, depending on whether we work with real time --- the
 obviously sensible thing to do --- or imaginary time --- not at all
 obviously sensible, but with a curious mathematical charm to it, which
 has won many hearts. The interplay between these two has long been a

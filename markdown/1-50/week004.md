@@ -129,7 +129,7 @@ functions as morphisms, and the usual composition as composition! But
 lots of the time in mathematics one is some category or other, e.g.:
 
 - $\mathsf{Vect}$ --- vector spaces as objects, linear maps as morphisms
-- $\mathsf{Group}$ ---- groups as objects, homomorphisms as morphisms
+- $\mathsf{Group}$ --- groups as objects, homomorphisms as morphisms
 - $\mathsf{Top}$ ---  topological spaces as objects, continuous functions as morphisms
 - $\mathsf{Diff}$ --- smooth manifolds as objects, smooth maps as morphisms
 - $\mathsf{Ring}$ --- rings as objects, ring homomorphisms as morphisms

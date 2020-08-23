@@ -1,4 +1,4 @@
-week55
+# June 4, 1995 {#week55}
 
 I recently went to a workshop on canonical quantum gravity in Warsaw,
 organized by Jerzy Kijowski and Jerzy Lewandowski, and I learned some
@@ -43,7 +43,7 @@ Turning back towards Warsaw, a city with a marvelous mathematical
 history, I am reminded of Gian-Carlo Rota's biographical sketch of
 Stanislaw Ulam, in which (as a master of irony) he talks about how lazy
 Ulam was: all he wanted to do was sit around in cafes and come up with
-interesting conjectures and research rograms, and leave it to others to
+interesting conjectures and research programs, and leave it to others to
 work them out. And this in turn reminds me of the Scottish Cafe, where
 Polish mathematicians used to hang out and write on the tablecloths,
 until the owner provided them with a notebook, in which many famous
@@ -63,13 +63,13 @@ Before going into what I learned there, I should say that I just found a
 fun thing for people to read who are interested in quantum gravity, but
 are not necessarily specialists:
 
-1) Gary Au, The quest for quantum gravity, available as gr/qc-9506001.
+1) Gary Au, "The quest for quantum gravity", available as `gr/qc-9506001`.
 
 This consists mainly of interviews with Chris Isham, Abhay Ashtekar and
 Edward Witten. What's nice is that the interviews are conducted by
 someone who knows physics. The questions and answers are technical
 enough to convey some of the real substance of the subject, while still
-(I hope) non- technical enough so that you don't have to be an expert
+(I hope) non-technical enough so that you don't have to be an expert
 to get a lot out of them. Isham talks mainly about the "problem of
 time" in quantum gravity, Ashtekar talks mainly about the loop
 representation of quantum gravity, and Witten talks about string theory.
@@ -77,14 +77,14 @@ representation of quantum gravity, and Witten talks about string theory.
 Anyway, Ashtekar and a bunch of other good people were at this Warsaw
 conference, which is why I went. The main topics of conversation were
 spin networks and their use in studying the area and volume operators in
-quantum gravity. As I explained earlier in "[week43](week43.html)",
+quantum gravity. As I explained earlier in ["Week 43"](#week43),
 one may very roughly think of a spin network as a graph whose edges are
-labelled with "spins" 0,1/2,1,3/2, and so on, and who vertices are
+labelled with "spins" $0$,$1/2$,$1$,$3/2$, and so on, and who vertices are
 labelled with certain gadgets called "intertwining operators" (which
 in the simplest case are just the Clebsch-Gordon coefficients you learn
 about when studying angular momentum in quantum mechanics). Penrose
-introduced these as abstract graphs (see "[week22](week22.html)" and
-"[week41](week41.html)"), as a kind of substitute for thinking of
+introduced these as abstract graphs (see ["Week 22"](#week22) and
+["Week 41"](#week41)), as a kind of substitute for thinking of
 space as a manifold, but more recently Rovelli and Smolin started
 thinking of them as graphs embedded into 3d space, and saw that these
 were a really natural way to describe states of quantum gravity: even
@@ -116,20 +116,16 @@ on the loop representation of gauge theories and also lattice gauge
 theory, has recently developed a lattice formulation of quantum gravity
 closely modelled after the loop representation:
 
-2) Renate Loll, Nonperturbative solutions for lattice quantum gravity,
-preprint available as
-[gr-qc/9502006](http://xxx.lanl.gov/abs/gr-qc/9502006).
+2) Renate Loll, "Nonperturbative solutions for lattice quantum gravity", preprint available as [`gr-qc/9502006`](http://xxx.lanl.gov/abs/gr-qc/9502006).
 
 This has the wonderful feature that it's perfectly rigorous and also
 one can start using computers to start calculating things with it. For
 example, the most subtle aspect of the loop representation of quantum
 gravity is the Wheeler-DeWitt equation
-
-                                     H ψ = 0
-
-where H is an operator called the "Hamiltonian constraint". More on
+$$H\psi=0$$
+where $H$ is an operator called the "Hamiltonian constraint". More on
 this later; my point here is just that physical states of quantum
-gravity need to satisfy this equation. Getting H to be well-defined is
+gravity need to satisfy this equation. Getting $H$ to be well-defined is
 tricky when space is a continuum, but in Loll's lattice version of
 theory (which is an approximation to the full continuum theory) she has
 already done this, so one can now start trying numerically to find
@@ -138,9 +134,9 @@ solutions.
 
 *Also*, she did some work on the volume operator in her lattice
 approach, and came up with a result in contradiction to Rovelli and
-Smolin's paper on the subject (cited in "[week43](week43.html)").
+Smolin's paper on the subject (cited in ["Week 43"](#week43)).
 They had said that states corresponding to trivalent spin networks
----- spin networks with only 3 edges at each vertex --- could have
+--- spin networks with only 3 edges at each vertex --- could have
 nonzero volume. But using her version of the theory she computed that
 trivalent states --- states with only 3 nonzero spins at the edges of
 the lattice incident to any vertex --- all had zero volume, and that
@@ -181,8 +177,7 @@ Spin networks are very beautiful and simple things. To learn about them,
 in addition to the various papers listed in the "weeks" above, one can
 now turn to Rovelli and Smolin's paper:
 
-3) C. Rovelli and L. Smolin, Spin networks in quantum gravity, preprint
-available in LaTeX form as gr/qc-9505006.
+3) C. Rovelli and L. Smolin, "Spin networks in quantum gravity", preprint available in LaTeX form as `gr/qc-9505006`.
 
 If you are more of a mathematician, or less of an expert on quantum
 gravity, you might also try a review article I wrote about them, which
@@ -190,16 +185,14 @@ starts with a quick summary of what the heck canonical quantum gravity
 is about, why it's hard to do, and why the loop representation seems to
 help:
 
-4) J. Baez, Spin networks in nonperturbative canonical quantum gravity,
-preprint available in LaTeX form as gr-qg/9504036, or via ftp from
-math.ucr.edu, as the file net.tex in the directory baez.
+4) J. Baez, "Spin networks in nonperturbative canonical quantum gravity", preprint available in LaTeX form as `gr-qg/9504036`, or via ftp from `math.ucr.edu`, as the file `net.tex` in the directory `baez`.
 
 Now so far I have been trying to make things sound simple, but here I
 should point out that when one talks about "states of quantum gravity"
 there are at least three quite different things one might mean. This is
 because the loop representation follows Dirac's general philosophy of
 quantizing systems with constraints, with some extra twists here and
-there. As I've repeatedly explained (e.g. "[week43](week43.html)"),
+there. As I've repeatedly explained (e.g. ["Week 43"](#week43)),
 Einstein's equation for general relativity has 10 components, and if
 you split spacetime up into space and time (more or less arbitrarily
 --- there's no "best" way) 4 of these can be seen as constraints
@@ -211,7 +204,7 @@ equations what you do is this. First you forget about the constraint and
 get a big space of states, the "kinematical state space". There are
 lots of mathematical choices involved here, but Ashtekar and Lewandowski
 came up with a particular nice way of doing this rigorously, and one
-calls this space of states "L\^2 of the space of SU(2) connections
+calls this space of states "$L^2$ of the space of $SU(2)$ connections
 modulo gauge transformations with respect to the Ashtekar-Lewandowski
 generalized measure". Spin networks form an orthonormal basis of this
 Hilbert space. All the stuff about area and volume operators above
@@ -230,12 +223,7 @@ embeddings of graphs in space, but to diffeomorphism equivalence classes
 thereof. This again has been used by Rovelli, Smolin and others for a
 while now, but it was first rigorously shown in the following paper:
 
-5) Abhay Ashtekar, Jerzy Lewandowski, Don Marolf, Jose Mourao, and
-Thomas Thiemann, Quantization of diffeomorphism invariant theories of
-connections with local degrees of freedom, to appear in the November
-1995 Jour. Math. Phys. special issue on diffeomorphism-invariant field
-theory, preprint available as
-[gr-qc/9504018](http://xxx.lanl.gov/abs/gr-qc/9504018).
+5) Abhay Ashtekar, Jerzy Lewandowski, Don Marolf, Jose Mourao, and Thomas Thiemann, "Quantization of diffeomorphism invariant theories of connections with local degrees of freedom", to appear in the November 1995 _Jour. Math. Phys._ special issue on diffeomorphism-invariant field theory, preprint available as [`gr-qc/9504018`](http://xxx.lanl.gov/abs/gr-qc/9504018).
 
 This paper is nice in part because it doesn't assume you already have
 read every previous paper about this stuff; instead, it describes the
@@ -279,10 +267,7 @@ like the Ashtekar-Lewandowski generalized measure). Our paper will be
 out pretty soon, but for now anyone who wants a taste of the
 mathematical technology involved should look at:
 
-6) Steve Sawin, Path integration in two-dimensional topological quantum
-field theory, to appear in the October 1995 Jour. Math. Phys. issue on
-diffeomorphism-invariant field theory, preprint available as
-gr/qc-9505040.
+6) Steve Sawin, "Path integration in two-dimensional topological quantum field theory", to appear in the October 1995 _Jour. Math. Phys._ issue on diffeomorphism-invariant field theory, preprint available as `gr/qc-9505040`.
 
 Loop representation ideas are applicable not only to canonical quantum
 gravity but also to path integrals in gauge theory, because in both
