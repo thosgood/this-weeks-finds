@@ -1,7 +1,3 @@
----
-header-includes: \usepackage{tikz}
-...
-
 # August 28, 1995 {#week62}
 
 Now I'd like to talk about a fascinating subject of importance in both
