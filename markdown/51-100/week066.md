@@ -107,129 +107,113 @@ Even before the Monster was proved to exist, it started casting its
 enormous shadow over mathematics. For example, consider the theory of
 modular functions. What are those? Well, consider a lattice in the
 complex plane, like
-
-                      x
-                          x
-                   x          x
-                       x          x 
-                x          x
-                    x          x
-             x          x
-                 x          x
-          x          x   
-              x          x
-                  x 
-                      x
-
+$$
+  \begin{tikzpicture}[scale=0.7]
+    \draw[->] (-2,0) to (4,0) node[label=below:{$\Re(z)$}]{};
+    \draw[->] (0,-3) to (0,4) node[label=left:{$\Im(z)$}]{};
+    \foreach \m in {-1,0,1,2}
+    {
+      \foreach \n in {-1,0,1,2}
+      {
+        \node at ({\m*1.5-\n/3-0.2},{1.5*\n+\m-0.5}) {$\bullet$};
+      }
+    }
+  \end{tikzpicture}
+$$
 These are important in complex analysis, as described in
 ["Week 13"](#week13). To describe one of these you can specify two
-"periods" \omega_1 and \omega_2, complex numbers such that every point in the
+"periods" $\omega_1$ and $\omega_2$, complex numbers such that every point in the
 lattice of the form
-
-                       n \omega1 + m \omega2.
-
+$$n \omega1 + m \omega2.$$
 But this description is redundant, because if we choose instead to use
-
-                     \omega'1 = a \omega1 + b \omega2
-
-                     \omega'2 = c \omega1 + d \omega2
-
+$$
+  \begin{aligned}
+    \omega'_1 &= a\omega_1+b\omega_2
+  \\\omega'_2 &= c\omega_1+b\omega_2
+  \end{aligned}
+$$
 we'll get the same lattice as long as the matrix of integers
-
-                              a   b 
-
-                              c   d
-
+$$
+  \left(
+    \begin{array}{cc}
+      a&b\\c&d
+    \end{array}
+  \right)
+$$
 is invertible and its inverse also consists of integers. These
-transformations preserve the "handedness" of the basis \omega_1, \omega_2 if
-they have determinant 1, and that's generally a good thing to require.
-The group of 2x2 invertible matrices over the integers with determinant
-1 is called SL(2,Z), or the "modular group" in this context. I said a
+transformations preserve the "handedness" of the basis $\omega_1$, $\omega_2$ if
+they have determinant $1$, and that's generally a good thing to require.
+The group of $2\times2$ invertible matrices over the integers with determinant
+$1$ is called $SL(2,\mathbb{Z})$, or the "modular group" in this context. I said a
 bit about it and its role in string theory in ["Week 64"](#week64).
 
 Now, if we are only interested in parametrizing the different *shapes*
 of lattices, where two rotated or dilated versions of the same lattice
 count as having the same shape, it suffices to use one complex number,
 the ratio
-
-                           \tau = \omega1/\omega2.
-
-We might as well assume \tau is in the upper halfplane, H, while we're at
+$$\tau=\frac{\omega_1}{\omega_2}.$$
+We might as well assume $\tau$ is in the upper halfplane, $H$, while we're at
 it. But for the reason given above, this description is redundant; if we
-have a lattice described by \tau, and a matrix in SL(2,Z), we get a new guy
-\tau' which really describes the same shaped lattice. If you work it out,
-
-                       \tau' = (a \tau + b)/(c \tau + d).
-
+have a lattice described by $\tau$, and a matrix in $SL(2,\mathbb{Z})$, we get a new guy
+$\tau'$ which really describes the same shaped lattice. If you work it out,
+$$\tau' = \frac{a\tau + b}{c\tau + d}.$$
 So the space of different possible shapes of lattices in the complex
 plane is really the quotient
-
-                             H/SL(2,Z)
-
-Now, a function on this space is just a function of \tau that doesn't
-change when you replace \tau by \tau' as above. In other words, it's
+$$H/SL(2,\mathbb{Z}).$$
+Now, a function on this space is just a function of $\tau$ that doesn't
+change when you replace $\tau$ by $\tau'$ as above. In other words, it's
 basically just a function depending only on the shape of a 2d lattice.
 Now it turns out that there is essentially just one "nice" function of
-this sort, called j; all other "nice" functions of this sort are
-functions of j. (For experts, what I mean is that the meromorphic
-SL(2,Z)-invariant functions on H union the point at infinity are all
-rational functions of this function j.)
+this sort, called $j$; all other "nice" functions of this sort are
+functions of $j$. (For experts, what I mean is that the meromorphic
+$SL(2,\mathbb{Z})$-invariant functions on $H$ union the point at infinity are all
+rational functions of this function $j$.)
 
 It looks like this:
-
-               j(\tau) = q-1 + 744 + 196884 q + 21493706 q2 + ....
-
-where q = exp(2 \pi i \tau). In fact, starting from a simple situation, we
+$$j(\tau) = q^{-1} + 744 + 196884 q + 21493706 q^2 + \ldots$$
+where $q = \exp(2\pi i\tau)$. In fact, starting from a simple situation, we
 have quickly gotten into quite deep waters. The simplest explicit
-formula I know for j involves lattices in 24-dimensional space! This
+formula I know for $j$ involves lattices in 24-dimensional space! This
 could easily be due to my limited knowledge of this stuff, but it suits
-my present purpose: first, we get a vague glimpse of where E_8 and the
+my present purpose: first, we get a vague glimpse of where $E_8$ and the
 Leech lattice come in, and second, we get a vague glimpse of the
 mysterious significance of the numbers 24 and 26 in string theory.
 
-So what is this j function, anyway? Well, it turns out we can define it
+So what is this $j$ function, anyway? Well, it turns out we can define it
 as follows. First form the Dedekind eta function
-
-                                ∞
-                  \eta(q) = q1/24   ∏    (1 - qn)
-                              n = 1
-
+$$\eta(q) = q^{\frac{1}{24}}\prod_{n=1}^\infty(1-q^n).$$
 This is not invariant under the modular group, but it transforms in a
-pretty simple way. Then take the $E_8$ lattice - remember, that's a very
+pretty simple way. Then take the $E_8$ lattice --- remember, that's a very
 nice lattice in 8 dimensions, in fact the only "even unimodular"
 lattice in 8 dimensions, meaning that the inner product of any two
 vectors in the lattice is even, and the volume of each fundamental
-domain in it equals 1. Now take the direct sum of 3 copies of $E_8$ to
-get an even unimodular lattice L in 24 dimensions. Then form the theta
+domain in it equals $1$. Now take the direct sum of 3 copies of $E_8$ to
+get an even unimodular lattice $L$ in 24 dimensions. Then form the theta
 function
-
-                        \theta(q)   =   ∑   q<x,x>/2
-                                 x in L
-
-In other words, we take all lattice points x and sum q to the power of
-their norm squared over 2. Now we have
-
-                          j(\tau) = \theta(q)/\eta(q)24
+$$\theta(q) = \sum_{x\in L}q^{\langle x,x\rangle/2}.$$
+In other words, we take all lattice points $x$ and sum $q$ to the power of
+their norm squared over $2$. Now we have
+$$j(\tau) = \frac{\theta(q)}{\eta(q)^24}$$
 
 Quite a witches' brew of a formula, no? If someone could explain to me
 the deep inner reason for *why* this works, I'd be delighted, but right
-now I am clueless. I will say this, though: we could replace L with any
+now I am clueless. I will say this, though: we could replace $L$ with any
 other even unimodular lattice in 24 dimensions and get a function
-differing from j only by a constant. Guess how many even unimodular
+differing from $j$ only by a constant. Guess how many even unimodular
 lattices there are in 24 dimensions? Why, 24, of course! These
 "Niemeier lattices" were classified by Niemeier in 1968. All but one
-of them have vectors with length squared equal to 2, but there is one
-whose shortest vector has length squared equal to 4, and that's the
+of them have vectors with length squared equal to $2$, but there is one
+whose shortest vector has length squared equal to $4$, and that's the
 Leech lattice. This one has a very charming relation to 26-dimensional
 spacetime, described in ["Week 20"](#week20).
 
-Since the constant term in j can be changed by picking different
+Since the constant term in $j$ can be changed by picking different
 lattices in 24 dimensions, and constant functions aren't very
 interesting anyway, we can say that the first interesting coefficient in
-the above power series for j is 196884. Then, right around when the
+the above power series for $j$ is 196884. Then, right around when the
 Monster was being dreamt up, McKay noticed that the dimension of its
 smallest nontrivial representation, namely 196883, was suspiciously
-similar. Coincidence? No. It turns out that all the coefficients of j
+similar. Coincidence? No. It turns out that all the coefficients of $j$
 can be computed from the dimensions of the irreducible representations
 of the Monster! Similarly, Ogg noticed in the study of the modular
 group, the primes 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 47, 59 and
@@ -243,8 +227,7 @@ Well, as it eventually turned out, one way to get ahold of the Monster
 is as a group of symmetries of a certain algebra of observables for a
 string theory, or more precisely, a "vertex operator algebra":
 
-5) Igor Frenkel, James Lepowsky, and Arne Meurman, Vertex Operator
-Algebras and the Monster, Academic Press, Boston, 1988.
+5) Igor Frenkel, James Lepowsky, and Arne Meurman, _Vertex Operator Algebras and the Monster_, Academic Press, Boston, 1988.
 
 The relation of string theory to modular invariance and 26 dimensional
 spacetime then "explains" some of the mysterious stuff mentioned
@@ -261,7 +244,7 @@ the string worldsheet to this "Monster manifold", so that the
 associated vertex operator algebra would have a good reason for having
 the Monster as symmetries. Apparently Hirzebruch has offered a prize for
 anyone who could do this in a nice way, by finding a "24-manifold with
-p_1=0 whose Witten genus is (j-744) Δ" on which the Monster acts.
+$p_1=0$ whose Witten genus is $(j-744)\Delta$" on which the Monster acts.
 Recently, Mike Hopkins at MIT and Mark Mahowald at Northwestern have
 succeeded in doing the first part, the part in quotes above. They
 haven't gotten a Monster action yet. Their construction uses a lot of
@@ -270,18 +253,14 @@ homotopy theory.
 I don't have much of a clue about any of this stuff, but Allen Knutson
 suggests that I read
 
-6) Friedrich Hirzebruch, Thomas Berger, and Rainer Jung, Manifolds and
-modular forms, translated by Peter S. Landweber, pub. Braunschweig,
-Vieweg, 1992.
+6) Friedrich Hirzebruch, Thomas Berger, and Rainer Jung, _Manifolds and modular forms_, translated by Peter S. Landweber, pub. Braunschweig, Vieweg, 1992.
 
 for more about this "Witten genus" stuff. He also has referred me to
 the following articles by Borcherds:
 
-7) Richard E. Borcherds, The Monster Lie-algebra, Adv. Math. 83 (1990),
-30-47.
+7) Richard E. Borcherds, "The Monster Lie-algebra", _Adv. Math._ **83** (1990), 30--47.
 
-Richard E. Borcherds, Monstrous Moonshine and monstrous
-Lie-superalgebras, Invent. Math. 109 (1992), 405-444.
+    Richard E. Borcherds, "Monstrous Moonshine and monstrous Lie-superalgebras", _Invent. Math._ **109** (1992), 405--444.
 
 For your entertainment and edification I include the abstract of the
 second one below:

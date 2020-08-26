@@ -210,7 +210,7 @@ worth it...
 > manifold has a finite number of degrees of freedom. Witten's gravity
 > in 3-d is given by the action
 >
-> $$S[A,E] = \int(F\wedgeE)$$
+> $$S[A,E] = \int(F\wedge E)$$
 >
 > which has finite number of degrees of freedom. Consider the action
 >
