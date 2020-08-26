@@ -3,56 +3,53 @@
 Well, I want to get back to talking about some honest physics, but I
 think this week I won't get around to it, since I can't resist
 mentioning two tidbits of a more mathematical sort. The first one is
-about π, and the second one is about the Monster. The second one *does*
+about $\pi$, and the second one is about the Monster. The second one *does*
 have a lot to do with string theory, if only indirectly.
 
 First, thanks to my friend Steven Finch, I just found out that Simon
 Plouffe, Peter Borwein and David Bailey have computed the ten billionth
-digit in the hexadecimal (i.e., base 16) expansion of π. They use a
-wonderful formula which lets one compute a given digit of π in base 16
-without needing to compute all the preceding digits! Namely, π is the
-sum from n = 0 to ∞ of
-
-\[(4/8n+1) - (2/8n+4) - (1/8n+5) - (1/8n + 6)\] (1/16)^n^
-
+digit in the hexadecimal (i.e., base 16) expansion of $\pi$. They use a
+wonderful formula which lets one compute a given digit of $\pi$ in base 16
+without needing to compute all the preceding digits! Namely, $\pi$ is the
+sum from $n = 0$ to $\infty$ of
+$$
+  \left[
+    \frac{4}{8n+1} -\frac{2}{8n+4} -\frac{1}{8n+5} -\frac{1}{8n+6}
+  \right] \frac{1}{16^n}
+$$
 Since the quantity in square brackets is not an integer, it requires
-cleverness to use this formula to get a given digit of π, but they
+cleverness to use this formula to get a given digit of $\pi$, but they
 figured out a way. Moreover, their method generalizes to a variety of
 other constants. If you can use the World-Wide Web, try the following
 sites:
 
-1) The ten billionth hexadecimal digit of π is 9, by Simon Plouffe,
-<http://groups.google.com/groups?selm=451p8p%24qcr%40morgoth.sfu.ca&output=gplain>
+1) "The ten billionth hexadecimal digit of $\pi$ is 9", by Simon Plouffe, `http://groups.google.com/groups?selm=451p8p%24qcr%40morgoth.sfu.ca&output=gplain`
 
-2) David Bailey, Peter Borwein and Simon Plouffe, On the rapid
-computation of various polylogarithmic constants, available in
-postscript form from
-<http://www.cecm.sfu.ca/personal/pborwein/PISTUFF/Apistuff.html>
+2) David Bailey, Peter Borwein and Simon Plouffe, "On the rapid computation of various polylogarithmic constants", available in postscript form from `http://www.cecm.sfu.ca/personal/pborwein/PISTUFF/Apistuff.html`
 
-3) The miraculous Bailey-Borwein-Plouffe π algorithm, by Steven Finch,
-<http://www.lacim.uqam.ca/~plouffe/Simon/Miraculous.pdf>
+3) "The miraculous Bailey-Borwein-Plouffe $\pi$ algorithm", by Steven Finch, `http://www.lacim.uqam.ca/~plouffe/Simon/Miraculous.pdf`
 
-The first one is an announcement that appeared on sci.math, and lists
-the billionth digits of π^2^, ln(2), and some other constants. The
+The first one is an announcement that appeared on `sci.math`, and lists
+the billionth digits of $\pi^2$, $\ln(2)$, and some other constants. The
 second one has the details. The third one gives a good overview of
 what's up.
 
 Can we hope for a similar formula in base 10? More importantly, could
-these ideas let us prove that π is "normal", that is, that every
+these ideas let us prove that $\pi$ is "normal", that is, that every
 possible string of digits appears in it with the frequency one would
 expect of a "random" number? It seems that this would be a natural
 avenue of attack.
 
 Next, a tidbit of a more erudite sort concerning the elusive Monster
-manifold. Recall from "[week63](week63.html)" and
-"[week64](week64.html)" that the compact simple Lie groups can
+manifold. Recall from ["Week 63"](#week63) and
+["Week 64"](#week64) that the compact simple Lie groups can
 classified into 4 infinite families and 5 exceptions. I have always been
 puzzled by these "exceptional Lie groups", so I tried to explain a bit
 about how they are related to some other "exceptional structures" in
 mathematics, such as the icosahedron and the octonions. In physics,
 Witten has suggested that the correct theory of our universe might also
 be an exceptional structure of some sort. This idea has found some
-support in string theory, which uses the exceptional Lie group E8 and
+support in string theory, which uses the exceptional Lie group $E_8$ and
 other structures I'll mention a bit later. In a more hand-waving way,
 one may argue that the theory of our universe must be incredibly
 special, since out of all the theories we can write down, just this
@@ -63,7 +60,7 @@ reason, even though it's complicated.
 
 Anyway, as a hard-nosed mathematician, vague musings along these lines
 get tiresome to me rather quickly. Instead, what interests me most about
-this stuff is the whole idea of "exceptional structures" - symmetrical
+this stuff is the whole idea of "exceptional structures" --- symmetrical
 structures that don't fit into the neat regular families in
 classification theorems. The remarkable fact is that many of them are
 deeply related. As Geoffrey Dixon put it to me, they seem to have a
@@ -71,37 +68,38 @@ deeply related. As Geoffrey Dixon put it to me, they seem to have a
 some of the information needed to construct all the rest! It thus seems
 pointless to hope that one is "the explanation" for the rest, but I
 would still like some conceptual "explanation" for the whole
-collection of them - though I have no idea what it should be.
+collection of them --- though I have no idea what it should be.
 
 Surely a clue must lie in the theory of finite simple groups. Just as
 the simple Lie groups are the building blocks of the theory of
 continuous symmetries, these are the building blocks of the theory of
-discrete - indeed finite - symmetries. More precisely "finite simple"
-group is a group G with finitely many elements and no normal subgroups,
-that is, no nontrivial subgroups H such that h in H implies ghg^-1^ in H
-for all g in G. This condition means that you cannot form the "quotient
-group" G/H, which one can think of as a "more simplified" version of
-G.
+discrete --- indeed finite --- symmetries. More precisely "finite simple"
+group is a group $G$ with finitely many elements and no normal subgroups,
+that is, no nontrivial subgroups $H$ such that $h$ in $H$ implies $ghg^{-1}$ in $H$
+for all $g$ in $G$. This condition means that you cannot form the "quotient
+group" $G/H$, which one can think of as a "more simplified" version of
+$G$.
 
 The classification of the finite simple groups is one of remarkable
 achievements of 20th-century mathematics. The entire proof of the
 classification theorem is estimated to take 10,000 pages, done by many
 mathematicians. To start learning about it, try:
 
-4) Ron Solomon, On finite simple groups and their classification, AMS
-Notices Vol. 45, February 1995, 231-239.
+4) Ron Solomon, "On finite simple groups and their classification", _AMS Notices Vol._ **45**, February 1995, 231--239.
 
 and the references therein. Again, there are some infinite families and
 26 exceptions called the "sporadic" groups. The biggest of these is
 the Monster, with
-
-     246 320 59 76 112 133 17 19 23 29 31 41 47 59 71  = 
-     808017424794512875886459904961710757005754368000000000
-
+$$
+  \begin{gather}
+    246\cdot 320\cdot 59\cdot 76\cdot 112\cdot 133\cdot 17\cdot 19\cdot 23\cdot 29\cdot 31\cdot 41\cdot 47\cdot 59\cdot 71
+    \\= 808017424794512875886459904961710757005754368000000000
+  \end{gather}
+$$
 elements. It is a kind of Mt. Everest of the sporadic groups, and all
 the routes to it I know involve a tough climb through all sorts of
-exceptional structures: E~8~ (see "[week65](week65.html)"), the Leech
-lattice (see "[week20](week20.html)"), the Golay code, the Parker
+exceptional structures: $E_8$ (see ["Week 65"](#week65)), the Leech
+lattice (see ["Week 20"](#week20)), the Golay code, the Parker
 loop, the Griess algebra, and more. I certainly don't understand this
 stuff....
 
@@ -124,17 +122,17 @@ complex plane, like
                       x
 
 These are important in complex analysis, as described in
-"[week13](week13.html)". To describe one of these you can specify two
-"periods" ω~1~ and ω~2~, complex numbers such that every point in the
+["Week 13"](#week13). To describe one of these you can specify two
+"periods" \omega_1 and \omega_2, complex numbers such that every point in the
 lattice of the form
 
-                       n ω1 + m ω2.
+                       n \omega1 + m \omega2.
 
 But this description is redundant, because if we choose instead to use
 
-                     ω'1 = a ω1 + b ω2
+                     \omega'1 = a \omega1 + b \omega2
 
-                     ω'2 = c ω1 + d ω2
+                     \omega'2 = c \omega1 + d \omega2
 
 we'll get the same lattice as long as the matrix of integers
 
@@ -143,33 +141,33 @@ we'll get the same lattice as long as the matrix of integers
                               c   d
 
 is invertible and its inverse also consists of integers. These
-transformations preserve the "handedness" of the basis ω~1~, ω~2~ if
+transformations preserve the "handedness" of the basis \omega_1, \omega_2 if
 they have determinant 1, and that's generally a good thing to require.
 The group of 2x2 invertible matrices over the integers with determinant
 1 is called SL(2,Z), or the "modular group" in this context. I said a
-bit about it and its role in string theory in "[week64](week64.html)".
+bit about it and its role in string theory in ["Week 64"](#week64).
 
 Now, if we are only interested in parametrizing the different *shapes*
 of lattices, where two rotated or dilated versions of the same lattice
 count as having the same shape, it suffices to use one complex number,
 the ratio
 
-                           τ = ω1/ω2.
+                           \tau = \omega1/\omega2.
 
-We might as well assume τ is in the upper halfplane, H, while we're at
+We might as well assume \tau is in the upper halfplane, H, while we're at
 it. But for the reason given above, this description is redundant; if we
-have a lattice described by τ, and a matrix in SL(2,Z), we get a new guy
-τ' which really describes the same shaped lattice. If you work it out,
+have a lattice described by \tau, and a matrix in SL(2,Z), we get a new guy
+\tau' which really describes the same shaped lattice. If you work it out,
 
-                       τ' = (a τ + b)/(c τ + d).
+                       \tau' = (a \tau + b)/(c \tau + d).
 
 So the space of different possible shapes of lattices in the complex
 plane is really the quotient
 
                              H/SL(2,Z)
 
-Now, a function on this space is just a function of τ that doesn't
-change when you replace τ by τ' as above. In other words, it's
+Now, a function on this space is just a function of \tau that doesn't
+change when you replace \tau by \tau' as above. In other words, it's
 basically just a function depending only on the shape of a 2d lattice.
 Now it turns out that there is essentially just one "nice" function of
 this sort, called j; all other "nice" functions of this sort are
@@ -179,9 +177,9 @@ rational functions of this function j.)
 
 It looks like this:
 
-               j(τ) = q-1 + 744 + 196884 q + 21493706 q2 + ....
+               j(\tau) = q-1 + 744 + 196884 q + 21493706 q2 + ....
 
-where q = exp(2 π i τ). In fact, starting from a simple situation, we
+where q = exp(2 \pi i \tau). In fact, starting from a simple situation, we
 have quickly gotten into quite deep waters. The simplest explicit
 formula I know for j involves lattices in 24-dimensional space! This
 could easily be due to my limited knowledge of this stuff, but it suits
@@ -193,25 +191,25 @@ So what is this j function, anyway? Well, it turns out we can define it
 as follows. First form the Dedekind eta function
 
                                 ∞
-                  η(q) = q1/24   ∏    (1 - qn)
+                  \eta(q) = q1/24   ∏    (1 - qn)
                               n = 1
 
 This is not invariant under the modular group, but it transforms in a
-pretty simple way. Then take the E~8~ lattice - remember, that's a very
+pretty simple way. Then take the $E_8$ lattice - remember, that's a very
 nice lattice in 8 dimensions, in fact the only "even unimodular"
 lattice in 8 dimensions, meaning that the inner product of any two
 vectors in the lattice is even, and the volume of each fundamental
-domain in it equals 1. Now take the direct sum of 3 copies of E~8~ to
+domain in it equals 1. Now take the direct sum of 3 copies of $E_8$ to
 get an even unimodular lattice L in 24 dimensions. Then form the theta
 function
 
-                        Θ(q)   =   ∑   q<x,x>/2
+                        \theta(q)   =   ∑   q<x,x>/2
                                  x in L
 
 In other words, we take all lattice points x and sum q to the power of
 their norm squared over 2. Now we have
 
-                          j(τ) = Θ(q)/η(q)24
+                          j(\tau) = \theta(q)/\eta(q)24
 
 Quite a witches' brew of a formula, no? If someone could explain to me
 the deep inner reason for *why* this works, I'd be delighted, but right
@@ -223,7 +221,7 @@ lattices there are in 24 dimensions? Why, 24, of course! These
 of them have vectors with length squared equal to 2, but there is one
 whose shortest vector has length squared equal to 4, and that's the
 Leech lattice. This one has a very charming relation to 26-dimensional
-spacetime, described in "[week20](week20.html)".
+spacetime, described in ["Week 20"](#week20).
 
 Since the constant term in j can be changed by picking different
 lattices in 24 dimensions, and constant functions aren't very
@@ -263,7 +261,7 @@ the string worldsheet to this "Monster manifold", so that the
 associated vertex operator algebra would have a good reason for having
 the Monster as symmetries. Apparently Hirzebruch has offered a prize for
 anyone who could do this in a nice way, by finding a "24-manifold with
-p~1~=0 whose Witten genus is (j-744) Δ" on which the Monster acts.
+p_1=0 whose Witten genus is (j-744) Δ" on which the Monster acts.
 Recently, Mike Hopkins at MIT and Mark Mahowald at Northwestern have
 succeeded in doing the first part, the part in quotes above. They
 haven't gotten a Monster action yet. Their construction uses a lot of
