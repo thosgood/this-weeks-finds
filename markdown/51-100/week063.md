@@ -24,7 +24,7 @@ possibilities.
 > $A_n$, which has $n$ dots like this:
 > $$
 >   \begin{tikzpicture}
->     \draw[thick] (0,0) node{$\bullet$} to (1,0) node{$\bullet$} to (2,0) node {$\bullet$} to node[fill=white]{$\,\cdots$} (4,0) node{$\bullet$} to (5,0) node{$\bullet$};
+>     \draw[thick] (0,0) node{$\bullet$} to (1,0) node{$\bullet$} to (2,0) node {$\bullet$} to (4,0) node{$\bullet$};
 >   \end{tikzpicture}
 > $$
 > $B_n$, which has $n$ dots, where $n > 1$:
