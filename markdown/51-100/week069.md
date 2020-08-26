@@ -1,4 +1,4 @@
-week69
+# November 11, 1995 {#week69}
 
 One of the great things about starting to work on quantum gravity was
 getting to know some of the people in the field. Ever since the

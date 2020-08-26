@@ -1,4 +1,4 @@
-week98
+# February 27, 1997 {#week98}
 
 I feel guilty for slacking off on This Week's Finds, so I should
 explain the reason. Lots of things have been building up that I'm dying

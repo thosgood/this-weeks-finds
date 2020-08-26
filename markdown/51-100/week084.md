@@ -1,4 +1,4 @@
-week84
+# June 27, 1996 {#week84}
 
 While I try to limit myself to mathematical physics in This Week's
 Finds, I can't always keep it from spilling over into other

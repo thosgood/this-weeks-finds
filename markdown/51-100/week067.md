@@ -1,4 +1,4 @@
-week67
+# October 23, 1995 {#week67}
 
 I'm pretty darn busy now, so the forthcoming Weeks will probably be
 pretty hastily written. This time I'll mainly write about quantum

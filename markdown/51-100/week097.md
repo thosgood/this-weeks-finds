@@ -1,4 +1,4 @@
-week97
+# February 8, 1997 {#week97}
 
 I've taken a break from writing This Week's Finds in order to finish
 up a paper with James Dolan in which we give a definition of "weak

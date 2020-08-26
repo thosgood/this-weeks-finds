@@ -1,4 +1,4 @@
-week85
+# July 14, 1996 {#week85}
 
 I'm spending this month at the Erwin Schroedinger Institute in Vienna,
 where Abhay Ashtekar and Peter Aichelburg are running a workshop called

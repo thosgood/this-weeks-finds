@@ -1,4 +1,4 @@
-week96
+# December 16, 1996 {#week96}
 
 Lots of cool papers have been appearing which I've been neglecting in
 my attempts to write expository stuff about string theory, lattices,

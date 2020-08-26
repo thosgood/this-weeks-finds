@@ -1,4 +1,4 @@
-week71
+# December 3, 1995 {#week71}
 
 This week I will get back to mathematical physics... but before I do, I
 can't resist adding that in my talk in that conference I announced that

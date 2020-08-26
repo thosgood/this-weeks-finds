@@ -1,4 +1,4 @@
-week78
+# March 28, 1996 {#week78}
 
 [Last Week I began explaining the concept of "adjoint functor". This
 Week I want to finish explaining it - or at least finish one round of

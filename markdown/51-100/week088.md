@@ -1,4 +1,4 @@
-week88
+# August 26, 1996 {#week88}
 
 This issue concludes my report of what happened at the Mathematical
 Problems of Quantum Gravity workshop in Vienna. I left the workshop at

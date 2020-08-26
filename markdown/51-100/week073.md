@@ -1,4 +1,4 @@
-week73
+# February 24, 1996 {#week73}
 
 In this and future issues of This Week's Finds, I'd like to talk a bit
 more about higher-dimensional algebra, and how it should lead to many

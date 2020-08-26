@@ -1,4 +1,4 @@
-week94
+# November 11, 1996 {#week94}
 
 Today I want to talk a bit about asymptotic freedom.
 

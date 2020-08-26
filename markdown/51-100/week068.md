@@ -1,4 +1,4 @@
-week68
+# October 29, 1995 {#week68}
 
 Okay, now the time has come to speak of many things: of topoi,
 glueballs, communication between branches in the many-worlds

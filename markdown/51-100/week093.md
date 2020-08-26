@@ -1,4 +1,4 @@
-week93
+# October 27, 1996 {#week93}
 
 Lately I've been trying to learn more about string theory. I've always
 had grave doubts about string theory, but it seems worth knowing about.

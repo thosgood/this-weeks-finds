@@ -1,4 +1,4 @@
-week91
+# October 6, 1996 {#week91}
 
 For a while now I've been meaning to finish talking about monads and
 adjunctions, and explain what that has to do with the 4-color theorem.

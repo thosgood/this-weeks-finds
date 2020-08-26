@@ -1,4 +1,4 @@
-week72
+# February 1, 1996 {#week72}
 
 It's been a while since I've written an issue of This Week's
 Finds... due to holiday distractions and a bunch of papers that need

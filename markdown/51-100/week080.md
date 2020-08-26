@@ -1,4 +1,4 @@
-week80
+# April 20, 1996 {#week80}
 
 There are a number of interesting books I want to mention.
 

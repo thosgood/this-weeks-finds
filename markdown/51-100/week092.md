@@ -1,4 +1,4 @@
-week92
+# October 17, 1996 {#week92}
 
 [I'm sure most of you have lost interest in my "tale of
 n-categories", because it takes a fair amount of work to keep up with

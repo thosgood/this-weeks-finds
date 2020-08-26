@@ -1,4 +1,4 @@
-week66
+# October 10, 1995 {#week66}
 
 Well, I want to get back to talking about some honest physics, but I
 think this week I won't get around to it, since I can't resist

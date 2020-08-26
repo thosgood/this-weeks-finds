@@ -1,4 +1,4 @@
-week89
+# September 17, 1996 {#week89}
 
 This week I want to return to the tale of n-categories, from which I
 have been taking a break during summer vacation. But first, here are a

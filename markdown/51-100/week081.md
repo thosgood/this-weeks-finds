@@ -1,4 +1,4 @@
-week81
+# May 12, 1996 {#week81}
 
 I think I'll take a little break on the continuing saga of
 n-categories. Instead I'll talk about something which is secretly the

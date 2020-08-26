@@ -1,4 +1,4 @@
-week74
+# March 5, 1996 {#week74}
 
 Before continuing my story about higher-dimensional algebra, let me say
 a bit about gravity. Probably far fewer people study general relativity

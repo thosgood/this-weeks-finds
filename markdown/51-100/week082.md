@@ -1,4 +1,4 @@
-week82
+# May 17, 1996 {#week82}
 
 I will continue to take a break from the tale of n-categories. As the
 academic year winds to an end, an enormous pile of articles and books is

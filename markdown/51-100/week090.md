@@ -1,4 +1,4 @@
-week90
+# September 30, 1996 {#week90}
 
 If you've been following This Week's Finds, you know that I'm in love
 with symmetry. Lately I've been making up for my misspent youth by

@@ -1,4 +1,4 @@
-week99
+# March 15, 1997 {#week99}
 
 Life here at the Center for Gravitational Physics and Geometry is
 tremendously exciting. In two weeks I have to return to U. C. Riverside

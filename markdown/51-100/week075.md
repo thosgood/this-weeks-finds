@@ -1,4 +1,4 @@
-week75
+# March 6, 1996 {#week75}
 
 [If you've been following my recent introduction to n-categories,
 you'll note that I haven't actually given the definition of

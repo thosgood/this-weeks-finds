@@ -1,4 +1,4 @@
-week83
+# June 10, 1996 {#week83}
 
 I'll return to the tale of n-categories this week, and continue to
 explain the mysteries of duals and inverses. But first let me describe

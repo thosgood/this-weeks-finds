@@ -1,4 +1,4 @@
-week86
+# August 6, 1996 {#week86}
 
 Let me continue my reportage of what happened at the Mathematical
 Problems of Quantum Gravity workshop in Vienna. I will only write about

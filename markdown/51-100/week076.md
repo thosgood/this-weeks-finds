@@ -1,4 +1,4 @@
-week76
+# March 9, 1996 {#week76}
 
 Yesterday I went to the oral exam of Hong Xiang, a student of Richard
 Seto who is looking for evidence of quark-gluon plasma at Brookhaven.

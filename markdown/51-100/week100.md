@@ -1,4 +1,4 @@
-week100
+# March 23, 1997 {#week100}
 
 [Pretty much ever since I started writing "This Week's Finds" I've
 been trying to get folks interested in n-categories and other aspects of

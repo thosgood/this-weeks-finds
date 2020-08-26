@@ -1,4 +1,4 @@
-week70
+# November 26, 1995 {#week70}
 
 Probably many of the mathematicians reading this know about the Newton
 Institute in Cambridge, a mathematics institute run by Sir Michael

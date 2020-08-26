@@ -1,4 +1,4 @@
-week77
+# March 23, 1996 {#week77}
 
 I spent last week at Penn State visiting the CGPG - the Center for
 Gravitational Physics and Geometry. I like to visit this place whenever

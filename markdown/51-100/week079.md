@@ -1,4 +1,4 @@
-week79
+# April 1, 1996 {#week79}
 
 Before I continue my tale of adjoint functors I want to say a little bit
 about icosahedra, buckyballs, and last letter Galois wrote before his

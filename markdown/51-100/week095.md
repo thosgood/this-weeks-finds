@@ -1,4 +1,4 @@
-week95
+# November 26, 1996 {#week95}
 
 Last week I talked about asymptotic freedom - how the "strong" force
 gets weak at high energies. Basically, I was trying to describe an

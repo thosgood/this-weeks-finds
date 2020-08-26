@@ -1,4 +1,4 @@
-week87
+# August 20, 1996 {#week87}
 
 Let me continue summarizing what happened during July at the
 Mathematical Problems of Quantum Gravity workshop in Vienna. The first
