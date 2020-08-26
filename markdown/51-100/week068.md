@@ -4,9 +4,7 @@ Okay, now the time has come to speak of many things: of topoi,
 glueballs, communication between branches in the many-worlds
 interpretation of quantum theory, knots, and quantum gravity.
 
-1) Robert Goldblatt, Topoi, the Categorial Analysis of Logic, Studies
-in logic and the foundations of mathematics vol. 98, North-Holland, New
-York, 1984.
+1) Robert Goldblatt, _Topoi: the Categorial Analysis of Logic_, Studies in logic and the foundations of mathematics vol. **98**, North-Holland, New York, 1984.
 
 If you've ever been interested in logic, you've got to read this book.
 Unless you learn a bit about topoi, you are really missing lots of the
@@ -42,76 +40,68 @@ headings reveal some of the delights in store: "elementary truth",
 What is a topos, precisely? Well, most people would need to limber up a
 little bit before getting the precise definition... so let me just
 start you off with some mental stretching exercises. In classical logic
-we are used to working with two truth values, True and False. Let's
-call the set of truth values Ω, just to make it sound impressive ---
+we are used to working with two truth values, $\mathrm{True}$ and $\mathrm{False}$. Let's
+call the set of truth values $\Omega$, just to make it sound impressive ---
 and because it's traditional in topos theory. So, we are used to doing
 all our logic with
-
-Ω = {True, False}.
-
-In set theory, one of the things we do with Ω is describe subsets of a
-given set X. In other words, to describe a subset Y of X, we can say for
-each member of X, whether it is True or False that it is a member of Y.
-Thus we can describe the subset Y by giving a function
-
-f: X → Ω.
-
-We say x is in Y if f(x) = True, but x is not in Y if f(x) = False.
+$$\Omega = \{\mathrm{True}, \mathrm{False}\}.$$
+In set theory, one of the things we do with $\Omega$ is describe subsets of a
+given set $X$. In other words, to describe a subset $Y$ of $X$, we can say for
+each member of $X$, whether it is $\mathrm{True}$ or $\mathrm{False}$ that it is a member of $Y$.
+Thus we can describe the subset $Y$ by giving a function
+$$f\colon X \to \Omega.$$
+We say $x$ is in $Y$ if $f(x) = \mathrm{True}$, but $x$ is not in $Y$ if $f(x) = \mathrm{False}$.
 
 Now say we wanted to describe a topos of "time-dependent sets". But
 instead of "time-dependent sets", let's act like topos theorists and
 call them simply "objects", and instead of talking about one being a
 "subset" of another, let's say one is a "subobject" of another. To
 keep life simple, let's consider only two times: today and tomorrow. So
-we can think of an object X in this topos as a pair (X1, X2) of sets:
-one set X1 today, and another set X2 tomorrow. We say that an object Y
-is a "subobject" of X if Y1 is a subset of X1 and Y2 is a subset of
-X2. The idea is that we want Y to be contained in X both today and
+we can think of an object $X$ in this topos as a pair $(X_1, X_2)$ of sets:
+one set $X_1$ today, and another set $X_2$ tomorrow. We say that an object $Y$
+is a "subobject" of $X$ if $Y_1$ is a subset of $X_1$ and $Y_2$ is a subset of
+$X_2$. The idea is that we want $Y$ to be contained in $X$ both today and
 tomorrow.
 
-Now, to describe a subobject Y of X, we can what's in Y today, and also
-what's in Y tomorrow. We would like to do so using some kind of
+Now, to describe a subobject $Y$ of $X$, we can what's in $Y$ today, and also
+what's in $Y$ tomorrow. We would like to do so using some kind of
 function, or what topos theorists call a "morphism",
-
-f: X → Ω.
-
-Clearly we can't do this with our old truth values set {True, False}.
-Instead, we should use a truth values *object* Ω that keeps track of
+$$f: X \to \Omega.$$
+Clearly we can't do this with our old truth values set $\{\mathrm{True},\mathrm{False}\}$.
+Instead, we should use a truth values *object* $\Omega$ that keeps track of
 what's true or false today and what's true or false tomorrow. In other
-words, Ω should now be the pair of sets
-
-({True, False}, {True, False})
-
-Now what is that "morphism" f exactly? Well, it's like one function
+words, $\Omega$ should now be the pair of sets
+$$(\{\mathrm{True}, \mathrm{False}\}, \{\mathrm{True}, \mathrm{False}\})$$
+Now what is that "morphism" $f$ exactly? Well, it's like one function
 today and another function tomorrow, or in other words, a pair of
-functions! In general, a morphism f: S → T between objects in this topos
-is a pair of functions (f1,f2), with f1: S1 → T1 and f2: S2 → T2. Then
-in our particular case, the morphism f: X → Ω will say which elements of
-X1 are in Y1, and which elements of X2 are in Y2.
+functions! In general, a morphism $f\colon S \to T$ between objects in this topos
+is a pair of functions $(f_1,f_2)$, with $f_1\colon S_1 \to T_1$ and $f_2\colon S_2 \to T_2$. Then
+in our particular case, the morphism $f\colon X \to \Omega$ will say which elements of
+$X_1$ are in $Y_1$, and which elements of $X_2$ are in $Y_2$.
 
 This is a pretty simple example of what the objects and morphisms in a
 topos can be like. They can be a lot weirder. The key thing is that you
 can do a lot of the same things with them that you can do with sets and
-functions. Also, you can do a lot of the same things with Ω that you can
-with {True, False}. Note that in our example, like in the classical
-example where Ω = {True, False}, the subobject classifier has a bunch of
+functions. Also, you can do a lot of the same things with $\Omega$ that you can
+with $\{\mathrm{True}, \mathrm{False}\}$. Note that in our example, like in the classical
+example where $\Omega = \{\mathrm{True}, \mathrm{False}\}$, the subobject classifier has a bunch of
 logical operations on it: morphisms like
-
-Not: Ω → Ω
-
-And: Ω x Ω → Ω
-
-Or: Ω x Ω → Ω
-
-and so on. In our example, and in the classical example, these make Ω
+$$
+  \begin{aligned}
+    \mathrm{Not}&\colon \Omega \to \Omega
+    \mathrm{And}&\colon \Omega \times \Omega \to \Omega
+    \mathrm{Or}&\colon \Omega \times \Omega \to \Omega
+  \end{aligned}
+$$
+and so on. In our example, and in the classical example, these make \Omega
 into what folks call a boolean algebra. Basically, all the usual rule of
-logic apply. In general, though, Ω only needs to be a Heyting algebra.
+logic apply. In general, though, $\Omega$ only needs to be a Heyting algebra.
 This is more general than a boolean algebra, and it can be sort of
-intuitionistic in flavor; for example, Not Not doesn't need to equal
-the identity morphism 1: Ω → Ω, so proof by contradiction doesn't
-necessarily work. A typical example of a Heyting algebra Ω is the set of
-open sets in a topological space, with And and Or being intersection and
-union, and with Not being the *interior* of the complement. This gives a
+intuitionistic in flavor; for example, $\mathrm{Not} \mathrm{Not}$ doesn't need to equal
+the identity morphism $1\colon \Omega \to \Omega$, so proof by contradiction doesn't
+necessarily work. A typical example of a Heyting algebra $\Omega$ is the set of
+open sets in a topological space, with $\mathrm{And}$ and $\mathrm{Or}$ being intersection and
+union, and with $\mathrm{Not}$ being the *interior* of the complement. This gives a
 little hint as to what topoi have to do with topology.
 
 After studying this sort of thing a while, it's rather hard to go on
@@ -125,8 +115,7 @@ mathematics.
 For a deeper but still friendly and expository introduction to topoi,
 try
 
-2) Saunders Mac Lane and Ieke Moerdijk, Sheaves in Geometry and Logic:
-A First Introduction to Topos Theory, Springer-Verlag, New York, 1992.
+2) Saunders Mac Lane and Ieke Moerdijk, _Sheaves in Geometry and Logic: A First Introduction to Topos Theory_, Springer-Verlag, New York, 1992.
 
 Here you can learn about "Brouwer's theorem: all functions are
 continuous" (in a suitably intuitionistic topos, of course). You can
@@ -139,23 +128,17 @@ let me give the precise definition of a topos (or more precisely, an
 elementary topos, to distinguish it from a "Grothendieck topos"):
 it's a category with finite limits and power objects. This
 automatically implies a lot of things, such as the existence of the
-subobject classifier Ω that I was talking about.
+subobject classifier $\Omega$ that I was talking about.
 
 To get deeper into topos theory, try:
 
-3) Michael Barr and Charles Wells, Toposes, Triples and Theories,
-Springer-Verlag, New York, 1983. Available for free electronically at
-http://www.cwru.edu/artsci/math/wells/pub/ttt.html
+3) Michael Barr and Charles Wells, _Toposes, Triples and Theories_, Springer-Verlag, New York, 1983. Available for free electronically at `http://www.cwru.edu/artsci/math/wells/pub/ttt.html`
 
 Now let me catch up on some things more directly related to physics:
 
-4) Frank Close, Are glueballs and hybrids found?, available as
-[hep-ph/9509245](http://xxx.lanl.gov/abs/hep-ph/9509245). To appear in
-Proceedings of Hadron95.
+4) Frank Close, "Are glueballs and hybrids found?", available as [`hep-ph/9509245`](http://xxx.lanl.gov/abs/hep-ph/9509245). To appear in Proceedings of Hadron95.
 
-J. Sexton, A. Vaccarino, D. Weingarten, Numerical evidence for the
-observation of a scalar glueball, available as
-[hep-lat/9510022](http://xxx.lanl.gov/abs/hep-lat/9510022).
+J. Sexton, A. Vaccarino, D. Weingarten, "Numerical evidence for the observation of a scalar glueball", available as [`hep-lat/9510022`](http://xxx.lanl.gov/abs/hep-lat/9510022).
 
 Thanks go to Greg Kilcup for bringing these to my attention. Have they
 found a glueball??? That would be really exciting. What's a glueball,
