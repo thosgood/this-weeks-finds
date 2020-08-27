@@ -153,7 +153,7 @@ digest it yet:
 
 ------------------------------------------------------------------------
 
-The first question you asked was about the different framings on a
+> The first question you asked was about the different framings on a
 2-handle which goes geometrically once over a 1-handle, i.e. makes a
 Hopf link in which one of the circles is special (i.e is really a
 1-handle, i.e. in Akbulut-Kirby's notation is drawn with a dot.) The
@@ -162,7 +162,7 @@ This is explained well (in the PL case) in Rourke-Sanderson's book.
 (Milnor's book on the h-cobordism theorem explains it in terms of Morse
 functions, in the smooth case.)
 
-From this, it follows that $b(M) = b(M\#S^2 \times S^2) = b(M\#\mathbb{CP}^2\#-\mathbb{CP}^2)$.
+> From this, it follows that $b(M) = b(M\#S^2 \times S^2) = b(M\#\mathbb{CP}^2\#-\mathbb{CP}^2)$.
 For $M$ is unchanged if you add a cancelling 1,2 pair, independent of the
 framing on the 2-handle. If you change the special circle to an ordinary
 one, $b(M)$ doesn't change. On the other hand, M has been replaced by its
@@ -170,15 +170,14 @@ sum with either $S^2 \times S^2$ or $\mathbb{CP}^2 \# -\mathbb{CP}^2$, depending
 on the 2-handle is even or odd. (Exercise: why is only the parity
 relevant?)
 
-Now as I pointed out before, if one replaces all of the 1-handles
+> Now as I pointed out before, if one replaces all of the 1-handles
 (special circles) of a 4-manifold with 2-handles, the invariant doesn't
 change. This operation corresponds to doing surgery on the 4-manifold,
 along the cores of the 1-handles. In particular, the manifold has
 changed by a cobordism. (This is a basic construction; when you do
-surgery you produce a cobordism, in this case it's $M \times I U$**???** 2-handles
-attached along the circles which you surgered.)
+surgery you produce a cobordism, in this case it's $M \times I$ with 2-handles attached to it along the circles which you surgered.)
 
-From this, I will now show that Broda's invariant is determined by the
+> From this, I will now show that Broda's invariant is determined by the
 signature. (This is in the orientable case. Actually it seems that his
 invariant is really an invariant of an oriented manifold.) The argument
 above says that for any $M$, there is an $M'$, with $b(M) = b(M')$, where
@@ -186,7 +185,7 @@ $M'$ has no 1-handles, and where $M$ and $M'$ are cobordant. In particular,
 $M'$ is simply connected. So it suffices to show that $b(N) = b(N')$ if $N$
 and $N'$ are simply connected.
 
-So now you can assume you have two simply connected manifolds $N,N'$
+> So now you can assume you have two simply connected manifolds $N,N'$
 which are cobordant via a 5-dimensional cobordism W, which you can also
 assume simply connnected. By high-dimensional handlebody theory, you can
 get rid of the 1-handles and 4-handles of $W$, and assume that all the
@@ -201,7 +200,7 @@ the other hand you get the same manifold as the result of adding
 $$N\#k(S^2 x S^2)\#l(\mathbb{CP}^2\#(-\mathbb{CP}^2)) = N'\#k'(S^2 x S^2)\#l'(\mathbb{CP}^2\#(-\mathbb{CP}^2)),$$
 so by previous remarks $b(N) = b(N')$, i.e $b$ is a cobordism invariant.
 
-Now: $b$ is also multiplicative under connected sum, because connected sum
+> Now: $b$ is also multiplicative under connected sum, because connected sum
 just takes the union of the link diagrams. The cobordism group is $\mathbb{Z}$,
 detected by the signature, so $b$ must be a multiple of the signature,
 modulo some number. (Maybe at this point I realize $b$ should be $b_r$ or
@@ -209,11 +208,11 @@ some such). If you compute (as a grad student Tian-jin Li did for me)
 $b_r(\mathbb{CP}^2)$, you find that $b_r$ lives in the group of $r$th (or maybe $4r$th;
 I'm at home and don't have my note) roots of unity.
 
-My conclusion: this invariant is a rather complicated way to compute the
+> My conclusion: this invariant is a rather complicated way to compute the
 signature of a 4-manifold (modulo $r$ or $4r$) from a link diagram of the
 manifold.
 
-There is an important moral of the story, which is perhaps not obvious
+> There is an important moral of the story, which is perhaps not obvious
 to someone outside of 4-manifolds. Any invariant which purports to go
 beyond classical ones (ie invariants of the intersection form) must
 treat $\mathbb{CP}^2$ and $-\mathbb{CP}^2$ very differently. It seems to be the case that
@@ -229,5 +228,5 @@ you're looking for a combinatorial invariant, it seems critical that
 you try to build in the asymmetry wrt orientation which 4-manifolds seem
 to possess.
 
-Exercise: do the nonorientable case. The answer should be that $b$ is
+> Exercise: do the nonorientable case. The answer should be that $b$ is
 determined by the Euler characteristic, $\mod 2$.
