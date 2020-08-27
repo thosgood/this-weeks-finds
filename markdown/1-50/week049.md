@@ -29,15 +29,7 @@ you are easily tempted to think of a "path of paths" as a 2-morphism.
 Here a "path of paths" is just a continuous 1-parameter family of
 paths from x to y, which you can think of as tracing out a 2-dimensional
 surface, as follows:
-$$
-  \begin{tikzcd}[sep=huge]
-    x
-      \rar[bend left=50,"f"{name=U}]
-      \rar[bend right=50,swap,"g"{name=D}]
-    & y
-      \arrow[Rightarrow,shorten=5pt,from=U,to=D,"F"]
-  \end{tikzcd}
-$$
+$$\includegraphics[scale=0.3]{../images/Fnatftog.pdf}$$
 And one can keep on going and look at "paths of paths of paths", etc.
 In fact, people in homotopy theory do this all the time.
 

@@ -166,19 +166,8 @@ just "paths of paths," making the name 2-morphism quite appropriate.
 it's too late, they've already been invented! I won't discuss them
 here.) The notation for 2-morphisms is quite cute: given $f,g$ in
 $\mathrm{Hom}(x,y)$, we write $F$ in $\mathrm{Hom}(f,g)$ as the following diagram:
-$$
-  \begin{tikzcd}[sep=huge]
-    x
-      \rar[bend left=50,"f"{name=U}]
-      \rar[bend right=50,swap,"g"{name=D}]
-    & y
-      \arrow[Rightarrow,shorten=5pt,from=U,to=D,"F"]
-  \end{tikzcd}
-$$
-Ugh, that's not cute, that's ugly --- the joys of ASCII! What this is
-supposed to be is two arrows from $x$ to $y$, namely $f$ and $g$, and then a big
-fat double arrow labelled $F$ going down from $f$ to $g$. In other words,
-while ordinary morphisms are 1-dimensional objects (arrows), 2-morphisms
+$$\includegraphics[scale=0.3]{../images/Fnatftog.pdf}$$
+In other words, while ordinary morphisms are 1-dimensional objects (arrows), 2-morphisms
 are 2-dimensional "cells" filling in the space between two ordinary
 morphisms. We thus see that going up to "morphisms between morphisms"
 is closely related to going up to higher dimensions. And this is really
@@ -190,34 +179,11 @@ Rather than write down the axioms for a 2-category, which are in
 Kapranov and Voevodsky, let me note the key new thing about 2-morphisms:
 there are two ways to compose them, "horizontally" and "vertically".
 First of all, given the following situation:
-$$
-  \begin{tikzcd}[sep=huge]
-    x
-      \rar[bend left=50,"f"{name=U}]
-      \rar[bend right=50,swap,"g"{name=D}]
-    & y
-      \rar[bend left=50,"f'"{name=U'}]
-      \rar[bend right=50,swap,"g'"{name=D'}]
-      \arrow[Rightarrow,shorten=5pt,from=U,to=D,"F"]
-    & z
-      \arrow[Rightarrow,shorten=5pt,from=U',to=D',"F'"]
-  \end{tikzcd}
-$$
+$$\includegraphics[scale=0.3]{../images/FF'nat.pdf}$$
 we can compose $F$ and $F'$ horizontally to get a 2-morphism from $f'\circ f$ to
 $g \circ g'$. (Check this out in the example of homotopies!) But also, given
 the following situation:
-$$
-  \begin{tikzcd}[sep=huge]
-    x
-      \rar[bend left=80,"f"{name=U}]
-      \rar[""{name=M,below}]
-      \rar[near start,"g"]
-      \rar[bend right=80,swap,"h"{name=D}]
-    & y
-      \arrow[Rightarrow,shorten=3pt,from=U,to=M,"F"]
-      \arrow[Rightarrow,shorten=2pt,from=M,to=D,"G"]
-  \end{tikzcd}
-$$
+$$\includegraphics[scale=0.3]{../images/FGnat.pdf}$$
 ($f,g,h$ in $\mathrm{Hom}(x,y)$, $F$ in $\mathrm{Hom}(f,g)$, and $G$ in $\mathrm{Hom}(g,h)$), we can compose $F$
 and $G$ vertically to get a 2-morphism from $f$ to $g$.
 

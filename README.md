@@ -7,8 +7,6 @@
 ## 1--50
 
 - search for **???**
-- use Simon Burton's diagrams for week20
-- turn the two tikzcd diagrams with `shorten` into images and just include them
 
 ## 51--100
 
