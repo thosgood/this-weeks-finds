@@ -91,10 +91,10 @@ and the references therein. Again, there are some infinite families and
 26 exceptions called the "sporadic" groups. The biggest of these is
 the Monster, with
 $$
-  \begin{gather}
+  \begin{gathered}
     246\cdot 320\cdot 59\cdot 76\cdot 112\cdot 133\cdot 17\cdot 19\cdot 23\cdot 29\cdot 31\cdot 41\cdot 47\cdot 59\cdot 71
     \\= 808017424794512875886459904961710757005754368000000000
-  \end{gather}
+  \end{gathered}
 $$
 elements. It is a kind of Mt. Everest of the sporadic groups, and all
 the routes to it I know involve a tough climb through all sorts of

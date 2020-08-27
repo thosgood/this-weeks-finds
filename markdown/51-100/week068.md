@@ -93,7 +93,7 @@ $$
     \mathrm{Or}&\colon \Omega \times \Omega \to \Omega
   \end{aligned}
 $$
-and so on. In our example, and in the classical example, these make \Omega
+and so on. In our example, and in the classical example, these make $\Omega$
 into what folks call a boolean algebra. Basically, all the usual rule of
 logic apply. In general, though, $\Omega$ only needs to be a Heyting algebra.
 This is more general than a boolean algebra, and it can be sort of

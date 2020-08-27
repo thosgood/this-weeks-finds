@@ -17,21 +17,19 @@ new ideas.
 However, before I get into that, I'd like to say a bit about something
 completely different: biology.
 
-1) Biological Asymmetry and Handedness, Ciba Foundation Symposium 162,
-John Wiley and Sons, 1991.
+1) _Biological Asymmetry and Handedness_, Ciba Foundation Symposium **162**, John Wiley and Sons, 1991.
 
-D. K. Kondepudi and D. K. Nelson, Weak neutral currents and the origins
-of molecular chirality, Nature 314, pp. 438-441.
+    D. K. Kondepudi and D. K. Nelson, "Weak neutral currents and the origins of molecular chirality", _Nature_ **314**, pp. 438--441.
 
 It's always puzzled me how humans and other animals could be
 consistently asymmetric. A 50-50 mix of two mirror-image forms could
 easily be explained by "spontaneously broken symmetry", but in fact
 there are many instances of populations with a uniform handedness. Many
 examples appear in Weyl's book "Symmetry" (see
-"[week63](week63.html)"). To take an example close to home, the human
+["Week 63"](#week63)). To take an example close to home, the human
 brain appears to be lateralized in a fairly consistent manner; for
 example, most people have the speech functions concentrated in the left
-hemisphere of their cerebrum - even most, though not all, left-handers.
+hemisphere of their cerebrum --- even most, though not all, left-handers.
 
 One might find this unsurprising: it just means that the asymmetry is
 encoded in the genes. But think about it: how are the genes supposed to
@@ -55,7 +53,7 @@ sketchy way. I'm sure most of you know about the fondness geneticists
 have for the fruit fly, but Caenorhabditis elegans is a far simpler
 critter: it only has 959 cells, all of which have been individually
 named and studied! There are over 1000 people studying it by now, there
-is a journal devoted to it - The Worm Breeder's Gazette - and it has
+is a journal devoted to it --- The Worm Breeder's Gazette --- and it has
 its own world-wide web server. Moreover, folks are busily sequencing not
 only the complete human genome but also all 100 million bases of the DNA
 of *C. elegans*.
@@ -73,17 +71,17 @@ handedness.
 The question of exactly how the embryo's asymmetry originates from some
 asymmetry at the molecular still seems shrouded in mystery. And there is
 another puzzle: how did the biomolecules choose their handedness in the
-first place? Here spontaneous symmetry breaking - an essentially random
-choice later amplified by selection - seems a natural hypothesis. But
+first place? Here spontaneous symmetry breaking --- an essentially random
+choice later amplified by selection --- seems a natural hypothesis. But
 physicists should be interested to note that another alternative has
 been seriously proposed. Weak interactions violate parity and thus endow
 the laws of nature with an intrinsic handedness. This means there is a
 slight difference in energies between any biomolecule and its
 enantiomer, or mirror-image version. According to S. F. Mason's article
 in the conference proceedings, this difference indeed favors the
-observed forms of amino acids and sugars - the left-handed or "L"
+observed forms of amino acids and sugars --- the left-handed or "L"
 amino acids and the right-handed or "D" sugars. But the difference is
-is incredibly puny - typically it amounts to 10^-14^ joules per mole!
+is incredibly puny --- typically it amounts to $10^{-14}$ joules per mole!
 How could such a small difference matter? Well, Kondepudi and Nelson
 have done calculations suggesting that in certain situations where there
 is both autocatalysis of both L and D forms of these molecules, and also
@@ -107,35 +105,18 @@ nothing much to a set except its cardinality, the number of elements it
 has. Of course, set theorists work hard to build up the universe of sets
 from the empty set, each set being a set of sets, with its own
 distinctive personality:
-
-     {}
-     {{}}
-     {{{}}}
-     {{},{{}}}
-     {{},{{{}}}}
-     {{},{{}},{{},{{}}}}
-
+$$\{\} ,\, \{\{\}\} ,\, \{\{\{\}\}\} ,\, \{\{\},\{\{\}\}\} ,\, \{\{\},\{\{\{\}\}\}\} ,\, \{\{\},\{\{\}\},\{\{\},\{\{\}\}\}\}$$
 and the like. But for many purposes, a one-to-one and onto function
 between two sets allows us to treat them as the same. So if necessary,
 we could actually get by with just one set of each cardinality. For
 example
-
-      {}
-      {{}}
-      {{},{{}}}
-      {{},{{}},{{},{{}}}}
-
+$$\{\} ,\, \{\{\}\} ,\, \{\{\},\{\{\}\}\} ,\, \{\{\},\{\{\}\},\{\{\},\{\{\}\}\}\}$$
 and so on. For short, people like to call these
-
-      0
-      1
-      2
-      3
-
+$$0 ,\, 1 ,\, 2 ,\, 3$$
 and so on. We could wonder what comes after all these finite cardinals,
 and what comes after that, and so on, but let's not. Instead, let's
-ponder what we've done so far. We started with the universe of sets -
-not exactly the set of all sets, but pretty close - but very soon we
+ponder what we've done so far. We started with the universe of sets ---
+not exactly the set of all sets, but pretty close --- but very soon we
 started playing with functions between sets. This is what allowed us to
 speak of two sets with the same cardinality as being isomorphic.
 
@@ -146,23 +127,23 @@ objects, in this case the functions between sets.
 
 Some of you might not know the precise definition of a category; let me
 state it just for completeness. A category consists of a collection of
-"objects" and a collection of "morphisms". Every morphism f has a
-"source" object and a "target" object. If the source of f is X and
-its target is Y, we write f: X → Y. In addition, we have:
+"objects" and a collection of "morphisms". Every morphism $f$ has a
+"source" object and a "target" object. If the source of $f$ is $X$ and
+its target is $Y$, we write $f\colon X \to Y$. In addition, we have:
 
-1) Given a morphism f: X → Y and a morphism g: Y → Z, there is a
-morphism fg: X → Z, which we call the "composite" of f and g.
+1) Given a morphism $f\colon X \to Y$ and a morphism $g\colon Y \to Z$, there is a
+morphism $fg\colon X \to Z$, which we call the "composite" of $f$ and $g$.
 
-2) Composition is associative: (fg)h = f(gh).
+2) Composition is associative: $(fg)h = f(gh)$.
 
-3) For each object X there is a morphism 1~X~: X → X, called the
-"identity" of X. For any f: X → Y we have 1~X~ f = f 1~Y~ = f.
+3) For each object $X$ there is a morphism $1_X\colon X \to X$, called the
+"identity" of $X$. For any $f\colon X \to Y$ we have $1_X f = f 1_Y = f$.
 
 That's it.
 
-(Note that we are writing the composite of f: X → Y and g: Y → Z as fg,
+(Note that we are writing the composite of $f\colon X \to Y$ and $g\colon Y \to Z$ as $fg$,
 which is backwards from the usual order. This will make life easier in
-the long run, though, since fg will mean "first do f, then g".)
+the long run, though, since $fg$ will mean "first do $f$, then $g$".)
 
 Now, there are lots of things one can do with sets, which lead to all
 sorts of interesting examples of categories, but in a sense the
@@ -182,22 +163,22 @@ really counts is the *2-category* of all categories.
 
 To understand this, note that there is a very sensible notion of a
 morphism between categories. It's called a "functor", and a functor
-F: C → D from a category C to a category D is just something that
-assigns to each object x of C an object F(x) of D, and to each morphism
+$F\colon \mathcal{C} \to \mathcal{D}$ from a category $\mathcal{C}$ to a category $\mathcal{D}$ is just something that
+assigns to each object $x$ of $\mathcal{C}$ an object $F(x)$ of $\mathcal{D}$, and to each morphism
 f of C a morphism F(f) of D, in such a way that "all structure in sight
 is preserved". More precisely, we want:
 
-1) If f: x → y, then F(f): F(x) → F(y).
+1) If f: $x$ \to y, then F(f): F(x) \to F(y).
 
 2) If fg = h, then F(f)F(g) = F(h).
 
-3) If 1~x~ is the identity morphism of x, then F(1~x~) is the identity
+3) If 1_x is the identity morphism of x, then F(1_x) is the identity
 morphism of F(x).
 
-It's good to think of a category as a bunch of dots - objects - and
-arrows going between them - morphisms. I would draw one for you if I
+It's good to think of a category as a bunch of dots --- objects --- and
+arrows going between them --- morphisms. I would draw one for you if I
 could here. Category theorists love drawing these pictures. In these
-terms, we can think of the functor F: C → D as putting a little picture
+terms, we can think of the functor F: C \to D as putting a little picture
 of the category C inside the category D. Each dot of C gets drawn as a
 particular dot in D, and each arrow in C gets drawn as a particular
 arrow in D. (Two dots or arrows in C can get drawn as the same dot or
@@ -206,13 +187,13 @@ arrow in D, though.)
 In addition, however, there is a very sensible notion of a
 "2-morphism", that is, a morphism between morphisms between
 categories! It's called a "natural transformation". The idea is this.
-Suppose we have two functors F: C → D and G: C → D. We can think of
+Suppose we have two functors F: C \to D and G: C \to D. We can think of
 these as giving two pictures of C inside D. So for example, if we have
-any object x in C, we get two objects in D, F(x) and G(x). A "natural
+any object $x$ in C, we get two objects in D, F(x) and G(x). A "natural
 transformation" is then a gadget that draws an arrow from each dot like
 F(x) to the dot like G(x). In other words, for each x, the natural
-transformation T gives a morphism T~x~: F(x) → G(x). But we want a kind
-of compatibility to occur: if we have a morphism f: x → y in C, we want
+transformation T gives a morphism T~x~: F(x) \to G(x). But we want a kind
+of compatibility to occur: if we have a morphism f: $x$ \to y in C, we want
 
                                    F(f)
                              F(x) -----> F(y)
@@ -257,8 +238,8 @@ wonder what comes after all these n-categories. The answer is
 What comes after these? Well, let us leave that for another time. I'd
 rather conclude by mentioning the part that's the most fascinating to
 me as a mathematical physicist. Namely, the various dimensions of
-category turn out to correspond in a very beautiful - but still
-incompletely understood - way to the various dimensions of spacetime. In
+category turn out to correspond in a very beautiful --- but still
+incompletely understood --- way to the various dimensions of spacetime. In
 other words, the study of physics in imaginary 2-dimensional spacetimes
 uses lots of 2-categories, the study of physics in a 3d spacetimes uses
 3-categories, the study of physics in 4d spacetimes appears to use

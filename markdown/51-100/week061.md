@@ -176,7 +176,7 @@ the holes.) Pick a nonzero vector $v$ in $\bigwedge^4 V_-$, the top exterior pow
 of $V_-$. Let $S$ denote the subspace of $\mathrm{Cliff}$ consisting of all elements of
 the form $uv$ with $u$ in $\mathrm{Cliff}$. Note that $\mathrm{Cliff}$ and $S$ are representations
 of $\mathrm{Cliff}$ by left multiplication, and therefore are representations of
-$\mathrm{Spin}(8)$ --- because $\mathrm{Spin}(8)$ sits inside $\mathrm{Cliff}. (This is a standard way to
+$\mathrm{Spin}(8)$ --- because $\mathrm{Spin}(8)$ sits inside $\mathrm{Cliff}$. (This is a standard way to
 get one's hands on the spin groups.)
 
 Note that $\bigwedge V_+$ and $\bigwedge V_-$ both have dimension $2^4 = 16$. We can think of
@@ -233,7 +233,7 @@ sits inside the tensor product of the left- and right-handed spinor
 representations when space is even-dimensional, and that this is what
 we're looking for. But explicitly, here's what we do in this case.
 There is a kind of ${}^*$ operation on $\mathrm{Cliff}$ given by
-$$(abc \ldotsdef)^* = fed\ldots cba$$
+$$(abc \ldots def)^* = fed\ldots cba$$
 where $a,b,c,\ldots,d,e,f$ lie in $V$. This lets us define a symmetric
 bilinear form on $S$ by
 $$\langle x,y\rangle v = x^* y$$

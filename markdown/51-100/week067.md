@@ -83,7 +83,7 @@ depending on whether the intersection form on the second cohomology is
 even or odd. If our 4-manifold has an odd intersection form, Donaldson
 showed that it is an connected sum of copies of $\mathbb{CP}^2$ and $-\mathbb{CP}^2$. If its
 intersection form is even, we don't know yet, but if the "11/8
-conjecture" is true, it must be a connected sum of $K3$'s and $S^2 \times S^2's$.
+conjecture" is true, it must be a connected sum of $K3$'s and $S^2 \times S^2$'s.
 Here I cannot resist adding that $K3$ is a 4-manifold whose
 intersection is $E_8 \oplus E_8 \oplus H \oplus H \oplus H$, where $H$ is the $2\times2$ matrix
 $$
