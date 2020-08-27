@@ -155,12 +155,12 @@ entirely of gluons, held together by their self-interactions. These are
 called glueballs, but we don't know if these exist.
 
 However, to my surprise, it turns out that there are now some candidates
-out there! The first paper suggests that the f_0(1500), a neutral
+out there! The first paper suggests that the $f_0(1500)$, a neutral
 spin-zero particle with mass around 1500 MeV, is a glueball. The second
 paper argues instead that this is basically a quark-antiquark pair (made
 of a strange quark and a strange antiquark... where "strange" is the
 technical name for one of the 6 quarks!). It presents evidence from a
-numerical simulation and argues that the "θ" or f_J(1710), a neutral
+numerical simulation and argues that the "$\theta$" or $f_J(1710)$, a neutral
 particle with even spin and mass 1710 MeV, is a glueball. Part of the
 subtlety here is that, thanks to the superposition principle, there is
 not a perfectly sharp distinction between a glueball with some virtual
@@ -172,16 +172,14 @@ linear combination of a meson and a glueball! (This phenomenon of
 It's tough to do nonperturbative computations in nonlinear gauge field
 theories --- basically one needs to approximately compute a path
 integral, using Monte Carlo technique, approximating spacetime by a
-lattice (in this case, a 16 x 16 x 16 x 24 lattice). Computing the
+lattice (in this case, a $16\times16\times16\times24$ lattice). Computing the
 properties of a glueball and matching it with an experimentally observed
 particle would be a marvelous confirmation of quantum chromodynamics. In
 addition, I find there to be something charming about the idea that in a
 nonabelian gauge theory we could have a particle made simply of the
 gauge field itself.
 
-5) R. Plaga, Proposal for an experimental test of the many-worlds
-interpretation of quantum mechanics, preprint available as
-[quant-ph/9510007](http://xxx.lanl.gov/abs/quant-ph/9510007).
+5) R. Plaga, "Proposal for an experimental test of the many-worlds interpretation of quantum mechanics", preprint available as [`quant-ph/9510007`](http://xxx.lanl.gov/abs/quant-ph/9510007).
 
 John Gribbin brought this one to my attention and asked me what I
 thought about it. Basically, the idea here is to isolate an ion from its
@@ -220,22 +218,21 @@ from the hat, as it were. I haven't put much time into analyzing it,
 but some people interested in this sort of thing might enjoy having a go
 at it.
 
-6) Nicholas Landsman, Against the Wheeler-DeWitt equation, preprint
-available as [gr-qc/9510033](http://xxx.lanl.gov/abs/gr-qc/9510033).
+6) Nicholas Landsman, "Against the Wheeler-DeWitt equation", preprint available as [`gr-qc/9510033`](http://xxx.lanl.gov/abs/gr-qc/9510033).
 
 I haven't read this one yet, but I had some nice talks with Landsman
 about his ideas on quantization of constrained systems (see
-"[week60](week60.html)") back when I was in Cambridge England.
+["Week 60"](#week60)) back when I was in Cambridge, England.
 Quantizing constrained systems is the main problem with the so-called
 "canonical" approach to quantum gravity (see
-"[week43](week43.html)"), so I was eager to see it applied to gravity,
+["Week 43"](#week43)), so I was eager to see it applied to gravity,
 and I guess that's what he's done. The title of the paper is
 deliberately provocative... hmmm, I guess I'd better read it soon!
 Here's the abstract:
 
 ------------------------------------------------------------------------
 
-The ADM approach to canonical general relativity combined with Dirac's
+> The ADM approach to canonical general relativity combined with Dirac's
 method of quantizing constrained systems leads to the Wheeler-DeWitt
 equation. A number of mathematical as well as physical difficulties that
 arise in connection with this equation may be circumvented if one
@@ -253,13 +250,9 @@ but happens to coincide with the latter in the open case.
 
 ------------------------------------------------------------------------
 
-7) Pavel Etingof and David Kazhdan, Quantization of Lie bialgebras, I,
-preprint available in AMSTeX form as
-[q-alg/9506005](http://xxx.lanl.gov/abs/q-alg/9506005).
+7) Pavel Etingof and David Kazhdan, "Quantization of Lie bialgebras, I", preprint available in AMSTeX form as [`q-alg/9506005`](http://xxx.lanl.gov/abs/q-alg/9506005).
 
-Quantization of Poisson algebraic groups and Poisson homogeneous spaces,
-preprint available in AMSTeX form as
-[q-alg/9510020](http://xxx.lanl.gov/abs/q-alg/9510020).
+    "Quantization of Poisson algebraic groups and Poisson homogeneous spaces", preprint available in AMSTeX form as [`q-alg/9510020`](http://xxx.lanl.gov/abs/q-alg/9510020).
 
 It sounds like Etinghof and Kazhdan are making serious progress on some
 questions of Drinfeld about when you can quantize Lie bialgebras and
@@ -267,12 +260,9 @@ their kin. More stuff I need to read! I need to invent a time machine
 and keep running it backwards to make my weekends longer and read this
 stuff!
 
-8) Steve Carlip, Statistical mechanics and black hole entropy, preprint
-available as [gr-qc/9509024](http://xxx.lanl.gov/abs/gr-qc/9509024).
+8) Steve Carlip, "Statistical mechanics and black hole entropy", preprint available as [`gr-qc/9509024`](http://xxx.lanl.gov/abs/gr-qc/9509024).
 
-Claudio Teitelboim, Statistical thermodynamics of a black hole in terms
-of surface fields, preprint available as
-[hep-th/9510180](http://xxx.lanl.gov/abs/hep-th/9510180).
+    Claudio Teitelboim, "Statistical thermodynamics of a black hole in terms of surface fields", preprint available as [`hep-th/9510180`](http://xxx.lanl.gov/abs/hep-th/9510180).
 
 Steve Carlip's paper is a nice introduction to recent ideas, many of
 them his, on deriving black hole area/entropy relations by thinking of
@@ -280,13 +270,9 @@ the entropy as associated to degrees of freedom of a field living on the
 event horizon. I haven't read Teitelboim's paper, but it sounds
 related.
 
-9) Jorge Griego, Is the third coefficient of the Jones knot polynomial
-a quantum state of gravity?, preprint available as
-[gr-qc/9510051](http://xxx.lanl.gov/abs/gr-qc/9510051).
+9) Jorge Griego, "Is the third coefficient of the Jones knot polynomial a quantum state of gravity?", preprint available as [`gr-qc/9510051`](http://xxx.lanl.gov/abs/gr-qc/9510051).
 
-The Kauffman bracket and the Jones polynomial in quantum gravity,
-preprint available as
-[gr-qc/9510050](http://xxx.lanl.gov/abs/gr-qc/9510050).
+    "The Kauffman bracket and the Jones polynomial in quantum gravity", preprint available as [`gr-qc/9510050`](http://xxx.lanl.gov/abs/gr-qc/9510050).
 
 In the loop representation of quantum gravity, states of quantum gravity
 give rise to link invariants. Which link invariants, though? The
