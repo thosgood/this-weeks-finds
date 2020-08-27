@@ -281,18 +281,14 @@ $$
 $$
 Then, whenever we have $abc = d$ in the monoid, we stick in a 3-simplex,
 which we can visualize as a tetrahedron like this
-
-              O                      
-             /|\                    
-            / | \                  
-           /  b  \                
-          a   |   bc             
-         /   _O_   \  
-        /   /   \_  \          
-       / _ab      c_ \        
-      /_/           \_\      
-     O--------d--------O    
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to node[fill=white]{$d$} (3,0) node{$\bullet$} to node[fill=white]{$bc$} (1.5,2.6) node{$\bullet$} to node[fill=white]{$a$} cycle;
+    \draw[thick] (0,0) to node[fill=white]{$ab$} (1.5,1) node{$\bullet$};
+    \draw[thick] (1.5,2.6) to node[fill=white]{$b$} (1.5,1);
+    \draw[thick] (3,0) to node[fill=white]{$c$} (1.5,1);
+  \end{tikzpicture}
+$$
 And so on... This is a wonderful space whose homology groups depend
 only on the monoid, so we can call them $H_k(M)$. If we have a
 presentation of $M$ with only finitely many generators, we can build $KM$
