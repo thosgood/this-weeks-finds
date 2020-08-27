@@ -88,7 +88,7 @@ while *not* finding it might point the way to better theories.
 
 Indeed, while the Standard Model has passed many stringent experimental
 tests, and successfully predicted the existence of many particles which
-were later observed (like the W, the Z, and the charm and top quarks),
+were later observed (like the W, the Z, and the charm and\mathsf{Top}quarks),
 it is a most puzzling sort of hodgepodge. Could nature really be this
 baroque at its most fundamental level? Few people seem to think so; most
 hope for some deeper, simpler theory.
