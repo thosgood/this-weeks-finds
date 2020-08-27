@@ -147,10 +147,10 @@ the long run, though, since $fg$ will mean "first do $f$, then $g$".)
 
 Now, there are lots of things one can do with sets, which lead to all
 sorts of interesting examples of categories, but in a sense the
-primordial category is Set, the category of sets and functions. (One
+primordial category is $\mathsf{Set}$, the category of sets and functions. (One
 might try to make this precise, by trying to prove that every category
-is a subcategory of Set, or something like that. Actually the right way
-to say how Set is primordial is called the "Yoneda lemma". But to
+is a subcategory of $\mathsf{Set}$, or something like that. Actually the right way
+to say how $\mathsf{Set}$ is primordial is called the "Yoneda lemma". But to
 understand this lemma, one needs to understand categories a little bit.)
 
 When we get to thinking about categories a lot, it's natural to think
@@ -165,45 +165,44 @@ To understand this, note that there is a very sensible notion of a
 morphism between categories. It's called a "functor", and a functor
 $F\colon \mathcal{C} \to \mathcal{D}$ from a category $\mathcal{C}$ to a category $\mathcal{D}$ is just something that
 assigns to each object $x$ of $\mathcal{C}$ an object $F(x)$ of $\mathcal{D}$, and to each morphism
-f of C a morphism F(f) of D, in such a way that "all structure in sight
+$f$ of $\mathcal{C}$ a morphism $F(f)$ of $\mathcal{D}$, in such a way that "all structure in sight
 is preserved". More precisely, we want:
 
-1) If f: $x$ \to y, then F(f): F(x) \to F(y).
+1) If $f\colon x \to y$, then $F(f)\colon F(x) \to F(y)$.
 
-2) If fg = h, then F(f)F(g) = F(h).
+2) If $fg = h$, then $F(f)F(g) = F(h)$.
 
-3) If 1_x is the identity morphism of x, then F(1_x) is the identity
-morphism of F(x).
+3) If $1_x$ is the identity morphism of $x$, then $F(1_x)$ is the identity
+morphism of $F(x)$.
 
 It's good to think of a category as a bunch of dots --- objects --- and
 arrows going between them --- morphisms. I would draw one for you if I
 could here. Category theorists love drawing these pictures. In these
-terms, we can think of the functor F: C \to D as putting a little picture
-of the category C inside the category D. Each dot of C gets drawn as a
-particular dot in D, and each arrow in C gets drawn as a particular
-arrow in D. (Two dots or arrows in C can get drawn as the same dot or
-arrow in D, though.)
+terms, we can think of the functor $F\colon \mathcal{C} \to \mathcal{D}$ as putting a little picture
+of the category $\mathcal{C}$ inside the category $\mathcal{D}$. Each dot of $\mathcal{C}$ gets drawn as a
+particular dot in $\mathcal{D}$, and each arrow in $\mathcal{C}$ gets drawn as a particular
+arrow in $\mathcal{D}$. (Two dots or arrows in $\mathcal{C}$ can get drawn as the same dot or
+arrow in $\mathcal{D}$, though.)
 
 In addition, however, there is a very sensible notion of a
 "2-morphism", that is, a morphism between morphisms between
 categories! It's called a "natural transformation". The idea is this.
-Suppose we have two functors F: C \to D and G: C \to D. We can think of
-these as giving two pictures of C inside D. So for example, if we have
-any object $x$ in C, we get two objects in D, F(x) and G(x). A "natural
+Suppose we have two functors $F\colon \mathcal{C} \to \mathcal{D}$ and $G\colon \mathcal{C} \to \mathcal{D}$. We can think of
+these as giving two pictures of $\mathcal{C}$ inside $\mathcal{D}$. So for example, if we have
+any object $x$ in $\mathcal{C}$, we get two objects in $\mathcal{D}$, $F(x)$ and $G(x)$. A "natural
 transformation" is then a gadget that draws an arrow from each dot like
-F(x) to the dot like G(x). In other words, for each x, the natural
-transformation T gives a morphism T~x~: F(x) \to G(x). But we want a kind
-of compatibility to occur: if we have a morphism f: $x$ \to y in C, we want
-
-                                   F(f)
-                             F(x) -----> F(y)
-                              |           |
-                            Tx|           |Ty
-                              v           v
-                             G(x) -----> G(y)
-                                   G(f)
-
-to commute; in other words, we want T~x~ G(f) = F(f) T~y~.
+$F(x)$ to the dot like $G(x)$. In other words, for each $x$, the natural
+transformation $T$ gives a morphism $T_x\colon F(x) \to G(x)$. But we want a kind
+of compatibility to occur: if we have a morphism $f\colon x \to y$ in $\mathcal{C}$, we want
+$$
+  \begin{tikzcd}
+    F(x) \rar["F(f)"] \dar[swap,"T_x"]
+    & F(y) \dar["T_y"]
+  \\G(x) \rar[swap,"G(f)"]
+    & G(y)
+  \end{tikzcd}
+$$
+to commute; in other words, we want $T_x G(f) = F(f) T_y$.
 
 This must seem very boring to the people who understand it and very
 mystifying to those who don't. I'll need to explain it more later. For
@@ -218,9 +217,9 @@ the collection of all categories into a "two-dimensional" structure, a
 2-category having objects, morphisms between objects, and 2-morphisms
 between morphisms.
 
-This process never stops. The collection of all n-categories is an
-(n+1)-category, a thing with objects, morphisms, 2-morphisms, and so on
-all the way up to n-morphisms. To study sets carefully we need
+This process never stops. The collection of all $n$-categories is an
+$(n+1)$-category, a thing with objects, morphisms, 2-morphisms, and so on
+all the way up to $n$-morphisms. To study sets carefully we need
 categories, to study categories well we need 2-categories, to study
 2-categories well we need 3-categories, and so on... so "higher-
 dimensional algebra", as this subject is called, is automatically
@@ -228,12 +227,12 @@ generated in a recursive process starting with a careful study of set
 theory.
 
 If you want to show off, you can call the 2-category of all categories
-Cat, and more generally, you can call the (n+1)-category of all
-n-categories nCat. nCat is the primordial example of an (n+1)-category!
+$\mathsf{Cat}$, and more generally, you can call the $(n+1)$-category of all
+$n$-categories $n\mathsf{Cat}$. $n\mathsf{Cat}$ is the primordial example of an $(n+1)$-category!
 
-Now, just as you might wonder what comes after 0,1,2,3,..., you might
-wonder what comes after all these n-categories. The answer is
-"ω-categories".
+Now, just as you might wonder what comes after $0,1,2,3,\ldots$, you might
+wonder what comes after all these $n$-categories. The answer is
+"$\omega$-categories".
 
 What comes after these? Well, let us leave that for another time. I'd
 rather conclude by mentioning the part that's the most fascinating to
@@ -245,23 +244,21 @@ uses lots of 2-categories, the study of physics in a 3d spacetimes uses
 3-categories, the study of physics in 4d spacetimes appears to use
 4-categories, and so on. It's very surprising at first that something
 so simple and abstract as the process of starting with sets and
-recursively being led to study the (n+1)-category of all n-categories
+recursively being led to study the $(n+1)$-category of all $n$-categories
 could be related to the dimensionality of spacetime. In particular, what
 could possibly be special about 4 dimensions?
 
 Well, it turns out that there *are* some special things about 4
 dimensions. But more on that later.
 
-[To continue reading the 'Tale of n-Categories', click
-here.](week74.html#tale)
+To continue reading the 'Tale of $n$-Categories', see ["Week 74"](#week74).
 
 ------------------------------------------------------------------------
 
 **Addendum**: Long after writing the above, I just saw an interesting
 article on chirality in biology:
 
-2) N. Hirokawa, Y. Tanaka, Y. Okada and S. Takeda, Nodal flow and the
-generation of left-right asymmetry, Cell 125 1 (2006), 33-45.
+2) N. Hirokawa, Y. Tanaka, Y. Okada and S. Takeda, "Nodal flow and the generation of left-right asymmetry", _Cell_ **125** 1 (2006), 33--45.
 
 It reports on detailed studies of how left-right asymmetry first shows
 in the development of animal embryos. It turns out this asymmetry is
