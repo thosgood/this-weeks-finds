@@ -137,7 +137,7 @@ paper, reviewed in ["Week 56"](#week56) and
 ["Week 57"](#week57). Particularly interesting is the general
 notion of "pluralistic quantum field theory", in which different
 observers have different Hilbert spaces. This falls out naturally in the
-n-categorical approach pursued by Crane (see ["Week 56"](#week56)),
+$n$-categorical approach pursued by Crane (see ["Week 56"](#week56)),
 which I am also busily studying.
 
 6) Rodolfo Gambini, Octavio Obregon and Jorge Pullin, "Towards a loop representation for quantum canonical supergravity", available as [`hep-th/9508036`](http://xxx.lanl.gov/abs/hep-th/9508036).

@@ -59,7 +59,7 @@ in the most interesting cases.
 An "$n$-category" is a kind of algebraic structure that has "objects,"
 "morphisms" between objects, "2-morphisms" between morphisms, and so
 on up to "$n$-morphisms." However, the *correct* definition of an
-n-category for the purposes of physics is still unclear! I gave a rough
+$n$-category for the purposes of physics is still unclear! I gave a rough
 explanation of the importance of 2-categories in physics in
 ["Week 4"](#week4), where I discussed Kapranov and Voevodsky's nice
 definition of braided tensor 2-categories. However, it seems likely that

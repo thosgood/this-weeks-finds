@@ -18,14 +18,14 @@ I just got back from a conference there on New Connections between
 Mathematics and Computer Science. It was organized by Jeremy
 Gunawardena, who was eager to expose computer scientists and
 mathematicians to a wide gamut of new interactions between the two
-subjects. I spoke about n-categories in logic, topology and physics.
+subjects. I spoke about $n$-categories in logic, topology and physics.
 Since I don't know anything about computer science, when I first got
 the invitation I thought it was a mistake: a wrong email address or
 something! But Gunawardena assured me otherwise. I assumed the idea was
-that n-categories, being so abstract, must have *some* application to
+that $n$-categories, being so abstract, must have *some* application to
 just about *everything*, even computer science. Luckily, some other
 speakers at the conference gave some very nice applications of
-n-category theory to computer science, so now I know they really exist.
+$n$-category theory to computer science, so now I know they really exist.
 
 Unfortunately I had to miss the beginning of the conference, and
 therefore missed some interesting talks of a geometrical nature by
@@ -147,7 +147,7 @@ give a general framework for studying situations with "dots" or
 "objects", "arrows between dots" or "morphisms", and "arrows
 between arrows between dots" or "2-morphisms". Similarly, when we
 study concurrency with more than 2 tasks at a time we can think of it in
-terms of n-categories.
+terms of $n$-categories.
 
 By the way, since I don't know much about parallel processing, I'm not
 sure how much the above formalism actually helps the "working man".
@@ -172,7 +172,7 @@ Science 630, Springer, 1992. Also available at
 computation, in Proc. Theory and Practice of Parallel Programming,
 Sendai, Japan, 1994.
 
-Yves Lafont also gave a talk with strong connections to n-category
+Yves Lafont also gave a talk with strong connections to $n$-category
 theory. Recall that a monoid is a set with an associative product having
 a unit element. One way to describe a monoid is by giving a presentation
 with "generators", say
@@ -283,7 +283,7 @@ and Applications, ed. J. P. Jouannuad, Lecture Notes in Computer Science
 
 which gave general conditions which must hold for there to be a finite
 terminating and confluent set of rewrite rules for a monoid. The nice
-thing is that this relies heavily on ideas from n-category theory. Note:
+thing is that this relies heavily on ideas from $n$-category theory. Note:
 we started with a monoid in which the relations are *equations*, but we
 then started thinking of the relations as rewrite rules or *morphisms*,
 so what we really have is a monoidal category. We then started worrying

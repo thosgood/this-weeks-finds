@@ -193,7 +193,7 @@ grand scheme he has in mind:
 
 This grand scheme involves a thorough refashioning of quantum gravity in
 terms of category theory, and uses some of the very beautiful
-mathematics of n-categories, but neglecting all these subtleties, let us
+mathematics of $n$-categories, but neglecting all these subtleties, let us
 simply say that he argues that if the universe is IN the Chern-Simons
 state, there is no need to understand any other states! He doesn't
 really think all there is in the universe is gravity, of course, so he
