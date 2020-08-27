@@ -55,7 +55,7 @@ printf '%s\n' '\setlength{\columnseprule}{0.5pt}' >> $TEX
 
 printf "\n" >> $TEX
 printf '%s\n' "\title{This Week's Finds in Mathematical Physics (1--50)}" >> $TEX
-printf '%s\n' '\author{Written by John Baez\\Typeset by Tim Hosgood}' >> $TEX
+printf '%s\n' '\author{John Baez}' >> $TEX
 printf '%s\n' '\date{January 19, 1993 to March 12, 1995}' >> $TEX
 
 printf "\n" >> $TEX
@@ -75,7 +75,18 @@ printf "\n" >> $TEX
 printf '%s\n' '\begin{document}' >> $TEX
 
 printf "\n" >> $TEX
-printf '%s\n' '\maketitle' >> $TEX
+printf '%s\n' '\begin{titlepage}' >> $TEX
+printf '%s\n' '  \begin{center}' >> $TEX
+printf '%s\n' "    {\Huge\textbf{This Week's Finds in}}" >> $TEX
+printf '%s\n' '  \\[0.7em]{\Huge\textbf{Mathematical Physics}}' >> $TEX
+printf '%s\n' '  \\[1em]{\Huge\textit{Weeks 1 to 50}}' >> $TEX
+printf '%s\n' '  \\[4em]{\LARGE January 19, 1993 \textit{to} March 12, 1995}' >> $TEX
+printf '%s\n' '  \\[4em]{\huge by John Baez}' >> $TEX
+printf '%s\n' '  \\[0.5em]{\Large{Typeset by Tim Hosgood}}' >> $TEX
+printf '%s\n' '  \end{center}' >> $TEX
+printf '%s\n' '\end{titlepage}' >> $TEX
+
+printf "\n" >> $TEX
 printf '%s\n' '\tableofcontents' >> $TEX
 
 printf "\n" >> $TEX
