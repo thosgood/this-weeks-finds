@@ -267,5 +267,4 @@ symmetry.
 I will continue along these lines next time and try to fill in some of
 the big gaping holes.
 
-[To continue reading the 'Tale of n-Categories', click
-here.](week75.html#tale)
+To continue reading the "Tale of $n$-Categories", see ["Week 75"](#week75).

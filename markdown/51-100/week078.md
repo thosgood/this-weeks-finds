@@ -1,12 +1,12 @@
 # March 28, 1996 {#week78}
 
-[Last Week I began explaining the concept of "adjoint functor". This
+Last Week I began explaining the concept of "adjoint functor". This
 Week I want to finish explaining it - or at least finish one round of
 explanation! Then we'll begin to be able to see the unity of category
 theory, topology, and quantum theory. These may seem rather distinct
 subjects, but they have an interesting tendency to blur together when
 one is doing topological quantum field theory. Part of the point of
-higher-dimensional algebra is to explain this.]{#tale}
+higher-dimensional algebra is to explain this.
 
 So, remember the idea of adjoint functors. Say we have categories C and
 D and functors L: C → D and R: D → C. Then we say L is the "left
@@ -254,7 +254,6 @@ Freed's work on torsors, which are a categorified version of phases:
 Commun. Math. Phys. 159 (1994), 343-398, also available as
 [hep-th/9212115](http://xxx.lanl.gov/abs/hep-th/9212115).
 
-[To continue reading the "Tale of n-Categories", click
-here.](week79.html#tale)
+To continue reading the "Tale of $n$-Categories", see ["Week 79"](#week79).
 
 ------------------------------------------------------------------------

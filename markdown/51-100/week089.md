@@ -107,9 +107,11 @@ so far to understand it. I haven't read this yet, but I should:
 
 It's an expository article.
 
-[Okay, now let's go back to the tale of n-categories. As promised, I
+------------------------------------------------------------------------
+
+Okay, now let's go back to the tale of n-categories. As promised, I
 will tell you all about monads, monoids, monoid objects, and monoidal
-categories.]{#tale}
+categories.
 
 You may or may not remember, but in "[week80](week80.html)" I
 explained the idea of a "2-category" pretty precisely. This is a
@@ -381,5 +383,4 @@ reading this) of a Feynman diagram, in particular a 3-gluon vertex in
 QCD. It's no coincidence! I'll have to say more about that later,
 though.
 
-[To continue reading the 'Tale of n-Categories', click
-here.](week92.html#tale)
+To continue reading the "Tale of $n$-Categories", see ["Week 92"](#week92).

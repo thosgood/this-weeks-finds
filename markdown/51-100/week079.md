@@ -171,13 +171,13 @@ this is one way group theory entered chemistry in the first place.)
 
 ------------------------------------------------------------------------
 
-[Now let me return to the tale of adjoint functors! I have been
+Now let me return to the tale of adjoint functors! I have been
 stressing the fact that two functors L: C → D and R: D → C are adjoint
 if there is a natural isomorphism between hom(Lc,d) and hom(c,Rd). We
 can say that an "adjunction" is a pair of functors L: C → D and R: D →
 C together with a natural isomorphism between hom(Lc,d) and hom(c,Rd).
 But there is another way to think about adjunctions which is also
-good.]{#tale}
+good.
 
 In "[week76](week76.html)" we talked about an "equivalence" of
 categories. We can summarize it this way: an "equivalence" of the
@@ -372,7 +372,6 @@ So I will continue next time and explain the recipes for composing
 natural transformations, and the associated string diagrams, more
 carefully.
 
-[To continue reading the 'Tale of n-Categories', click
-here.](week80.html#tale)
+To continue reading the "Tale of $n$-Categories", see ["Week 80"](#week80).
 
 ------------------------------------------------------------------------

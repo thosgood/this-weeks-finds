@@ -251,7 +251,7 @@ could possibly be special about 4 dimensions?
 Well, it turns out that there *are* some special things about 4
 dimensions. But more on that later.
 
-To continue reading the 'Tale of $n$-Categories', see ["Week 74"](#week74).
+To continue reading the "Tale of $n$-Categories", see ["Week 74"](#week74).
 
 ------------------------------------------------------------------------
 

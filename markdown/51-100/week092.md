@@ -1,12 +1,12 @@
 # October 17, 1996 {#week92}
 
-[I'm sure most of you have lost interest in my "tale of
+I'm sure most of you have lost interest in my "tale of
 n-categories", because it takes a fair amount of work to keep up with
 all the abstract concepts involved. However, we are now at a point where
 we can have some fun with what we've got, even if you haven't really
 followed all the previous stuff. So what follows is a rambling tour
 through monads, adjunctions, the 4-color theorem and the large-N limit
-of SU(N) gauge theory....]{#tale}
+of SU(N) gauge theory....
 
 Okay, so in "[week89](week89.html)" we defined a gadget called a
 "monad". Using the string diagrams we talked about, you can think of a
@@ -420,8 +420,7 @@ of the American Mathematical Society 2 (1996), 17-25. Available at
 I'm still hoping for the 2-page "physicist's proof" using path
 integrals. ![:-)](emoticons/tongue.gif)
 
-[To continue reading the "Tale of n-Categories", click
-here.](week99.html#tale)
+To continue reading the "Tale of $n$-Categories", see ["Week 99"](#week99).
 
 For more on adjunctions and monoid objects, try
 "[week173](week173.html)" and especially "[week174](week174.html)".

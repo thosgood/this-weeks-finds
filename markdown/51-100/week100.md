@@ -1,13 +1,13 @@
 # March 23, 1997 {#week100}
 
-[Pretty much ever since I started writing "This Week's Finds" I've
+Pretty much ever since I started writing "This Week's Finds" I've
 been trying to get folks interested in n-categories and other aspects of
 higher-dimensional algebra. There is really an enormous world out there
 that only becomes visible when you break out of "linear thinking" -
 the mental habits that go along with doing math by writing strings of
 symbols in a line. For example, when we write things in a line, the sums
 a+b and b+a look very different. Then we introduce a profound and
-mysterious equation, the "commutative law":]{#tale}
+mysterious equation, the "commutative law":
 
     a + b = b + a
 
@@ -245,8 +245,7 @@ other week or weeks. Perhaps I'll mix it in with my report on the
 Workshop on Higher Category Theory and Physics, which is taking place
 next weekend at Northwestern University.
 
-This is the end of the 'Tale n-Categories'. If you want more, try
-['An Introduction to n-Categories', available in Postscript form by
-clicking here,](ncat.ps) or else read the above papers.
+This is the end of the "Tale of $n$-Categories". If you want more, try
+['An Introduction to n-Categories'](http://math.ucr.edu/home/baez/ncat.ps) (in Postscript form), or else read the above papers.
 
 ------------------------------------------------------------------------

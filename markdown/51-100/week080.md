@@ -140,14 +140,16 @@ membrane paradigm, and is useful for calculations and understanding what
 black holes are really like. The book "Black Holes: The Membrane
 Paradigm" is a good place to learn about this.
 
-[Now let me return to the tale of 2-categories. So far I've said only
+------------------------------------------------------------------------
+
+Now let me return to the tale of 2-categories. So far I've said only
 that a 2-category is some sort of structure with objects, morphisms
 between objects, and 2-morphisms between morphisms. But I have been
 attempting to develop your intuition for Cat, the primordial example of
 a 2-category. Remember, Cat is the 2-category of all categories! Its
 objects are categories, its morphisms are functors, and its 2-morphisms
 are natural transformations --- these being defined in
-"]{#tale}[week73](week73.html)" and again in
+"[week73](week73.html)" and again in
 "[week75](week75.html)".
 
 How can you learn more about 2-categories? Well, a really good place is
@@ -301,8 +303,7 @@ us on to the definition of (n+1)-categories....
 
 But that's enough for now. Typing those diagrams is hard work.
 
-[To continue reading the 'Tale of n-Categories', click
-here.](week83.html#tale)
+To continue reading the "Tale of $n$-Categories", see ["Week 83"](#week83).
 
 ------------------------------------------------------------------------
 

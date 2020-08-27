@@ -284,7 +284,9 @@ For more on this stuff try the paper by Crane and Frenkel referred to in
 some amazing relationships between this stuff and 4-dimensional
 topology....
 
-[Let me conclude by reminding you where I am in "the tale of
+------------------------------------------------------------------------
+
+Let me conclude by reminding you where I am in "the tale of
 n-categories" and where I want to go next. So far I have spoken mainly
 of 0-categories, 1-categories, and 2-categories, with lots of vague
 allusions as to how various patterns generalize to higher n. Also, I
@@ -302,7 +304,7 @@ equivalent). Another exciting thing about adjointness is that it really
 highlights the relation between 2-categories and 2-dimensional topology
 - thus pointing the way to a more general relation between n-categories
 and n-dimensional topology. From this point of view, adjointness is all
-about "folds":]{#tale}
+about "folds":
 
                       \    /
                        \  /
@@ -389,5 +391,4 @@ of fancy ways mathematicians have of studying this sort of process -
 "monoids", "monoidal categories", and "monads" - are special cases
 of this sort of situation.
 
-[To continue reading the 'Tale of n-Categories', click
-here.](week89.html#tale)
+To continue reading the "Tale of $n$-Categories", see ["Week 89"](#week89).

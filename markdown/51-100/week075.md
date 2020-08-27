@@ -1,11 +1,11 @@
 # March 6, 1996 {#week75}
 
-[If you've been following my recent introduction to n-categories,
+If you've been following my recent introduction to n-categories,
 you'll note that I haven't actually given the definition of
 n-categories! I've only defined categories, and *hinted* at the
 definition of 2-categories by giving an example, namely Cat. This is the
 2-category whose objects are categories, whose morphisms are functors,
-and whose 2-morphisms are natural transformations.]{#tale}
+and whose 2-morphisms are natural transformations.
 
 The definition of n-categories - or maybe I should say the problem of
 defining n-categories - is actually surprisingly subtle. Since I want to
@@ -235,7 +235,6 @@ also called "adjoints". This is part of a profound and somewhat
 mysterious relationship between quantum theory and category theory...
 which I eventually need to describe.
 
-[To continue reading the "Tale of n-Categories", click
-here.](week76.html#tale)
+To continue reading the "Tale of $n$-Categories", see ["Week 76"](#week76).
 
 ------------------------------------------------------------------------

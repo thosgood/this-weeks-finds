@@ -103,13 +103,15 @@ around to the really cool stuff, everyone out there will know what the
 heck I'm talking about. In theory, anyway. You gotta work a bit to wrap
 your mind around these concepts!
 
-[So, let's recall where we are in our tale of n-categories. We were
+------------------------------------------------------------------------
+
+So, let's recall where we are in our tale of n-categories. We were
 studying increasingly subtle variations on the theme of identity and
 difference. Given two categories C and D, we can ask if they are *equal*
 or not. We can also discuss *isomorphisms* between C and D. An
 isomorphism is a functor F: C → D having an inverse: a functor G: D → C
 such that FG is equal to the identity functor on D and GF is equal to
-the identity on C.]{#tale}
+the identity on C.
 
 We can also discuss *equivalences* between C and D. An equivalence is a
 functor F: C → D together with a functor G: D → C such that FG is
@@ -286,7 +288,6 @@ topological equations:
             \  /       |       |
              \/        |       |
 
-[To continue reading the "Tale of n-Categories", click
-here.](week78.html#tale)
+To continue reading the "Tale of $n$-Categories", see ["Week 78"](#week78).
 
 ------------------------------------------------------------------------

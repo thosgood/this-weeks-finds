@@ -46,8 +46,6 @@ People might also enjoy looking at this review article:
 2) Adriano Di Giacomo, Mechanisms of colour confinement, preprint
 available as [hep-th/9603029](http://xxx.lanl.gov/abs/hep-th/9603029).
 
-[]{#tale}
-
 Okay, let me continue the tale of n-categories. I want to lead up to
 their role in physics, but to do it well, there are quite a few things I
 need to explain first. One of the important things about n-category
@@ -219,7 +217,6 @@ If the reader hasn't thought about this, she may enjoy figuring out
 what this might mean... perhaps keeping the adjoint operators mentioned
 in "[week75](week75.html)" in mind.
 
-[To continue reading the "Tale of n-Categories", click
-here.](week77.html#tale)
+To continue reading the "Tale of $n$-Categories", see ["Week 77"](#week77)
 
 ------------------------------------------------------------------------

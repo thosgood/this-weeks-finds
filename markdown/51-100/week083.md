@@ -93,7 +93,7 @@ Well worth pondering!
 
 ------------------------------------------------------------------------
 
-[There is an interesting analogy between the dual of a vector space and
+There is an interesting analogy between the dual of a vector space and
 the inverse of a number which I would like to explain now. I assume you
 know that multiplying numbers is a lot like tensoring vector spaces. For
 example, just as multiplication distributes over addition, tensoring
@@ -103,7 +103,7 @@ space, the ground field itself, which is the unit for tensoring. Let me
 take the unusual liberty of writing tensor products by juxtaposition, so
 that xy is the tensor product of the vector space x and the vector space
 y, and let me call the 1-dimensional vector space that's the unit for
-tensoring simply "1".]{#tale}
+tensoring simply "1".
 
 Now, if a number x has an inverse y, we have
 
@@ -311,7 +311,6 @@ monoidal categories, and much much more in here:
 1994. Volume 1: Basic Category Theory. Volume 2: Categories and
 Structure. Volume 3: Categories of Sheaves.
 
-[To continue reading the 'Tale of n-Categories', click
-here.](week84.html#tale)
+To continue reading the "Tale of $n$-Categories", see ["Week 84"](#week84).
 
 ------------------------------------------------------------------------

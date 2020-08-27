@@ -81,7 +81,9 @@ daunting, but it seems likely that no matter how one proceeds to pursue
 a spin-network-based theory of quantum gravity, one will need to develop
 such techniques at some point.
 
-[Now I'd like to switch gears and return to...]{#tale}
+------------------------------------------------------------------------
+
+Now I'd like to switch gears and return to...
 
 THE TALE OF N-CATEGORIES!
 
@@ -371,5 +373,4 @@ nonsense, it's good to check that the coproduct of sets or topological
 spaces is just their disjoint union, while the coproduct of vector
 spaces or Hilbert spaces is their direct sum.
 
-[To continue reading the 'Tale of n-Categories', click
-here.](week100.html#tale)
+To continue reading the "Tale of $n$-Categories", see ["Week 100"](#week100).
