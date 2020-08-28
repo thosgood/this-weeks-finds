@@ -172,16 +172,16 @@ this is one way group theory entered chemistry in the first place.)
 ------------------------------------------------------------------------
 
 Now let me return to the tale of adjoint functors! I have been
-stressing the fact that two functors L: C → D and R: D → C are adjoint
+stressing the fact that two functors L: C \to D and R: D \to C are adjoint
 if there is a natural isomorphism between hom(Lc,d) and hom(c,Rd). We
-can say that an "adjunction" is a pair of functors L: C → D and R: D →
+can say that an "adjunction" is a pair of functors L: C \to D and R: D \to
 C together with a natural isomorphism between hom(Lc,d) and hom(c,Rd).
 But there is another way to think about adjunctions which is also
 good.
 
 In ["Week 76"](#week76) we talked about an "equivalence" of
 categories. We can summarize it this way: an "equivalence" of the
-categories C and D is a pair of functors F: C → D and G: D → C together
+categories C and D is a pair of functors F: C \to D and G: D \to C together
 with natural transformations e: FG =\> 1~D~ and i: 1~C~ =\> GF that are
 themselves invertible. (Note that we are now writing products of
 functors in the order that ordinary mortals typically do, instead of the
@@ -196,10 +196,10 @@ hom(Rd,Rd). Now there is a special element of hom(Rd,Rd), namely the
 identity 1~Rd~. This gives us a special element of hom(LRd,d). Let's
 call this
 
-e~d~: LRd → d
+e~d~: LRd \to d
 
-What is this morphism like in an example? Say L: Set → Grp takes each
-set to the free group on that set, and R: Grp → Set takes each group to
+What is this morphism like in an example? Say L: Set \to Grp takes each
+set to the free group on that set, and R: Grp \to Set takes each group to
 its underlying set. Then if d is a group, LRd is the free group on the
 underlying set of d. There's an obvious homomorphism from LRd to d,
 taking each word of elements in d and their inverses to their product in
@@ -217,7 +217,7 @@ hom(Lc,Lc). Now there is a special element in hom(Lc,Lc), namely the
 identity 1~Lc~. This gives us a special element in hom(c,RLc). Let's
 call this
 
-i~c~: c → RLc
+i~c~: c \to RLc
 
 Again, it's good to consider the example of sets and groups: if c is a
 set, RLc is the underlying set of the free group on c. There is an
@@ -307,7 +307,7 @@ together i and e and some identity natural transformations gives 1~R~: R
 
 I will explain these more carefully next time, but for now I mainly want
 to state that we can also *define* an adjunction to be a pair of
-functors L: C → D and R: D → C together with natural transformations e:
+functors L: C \to D and R: D \to C together with natural transformations e:
 LR =\> 1~D~ and i: 1~C~ =\> RL making the above 2 equations hold! This
 is the definition of "adjunction" that is the most similar to the
 definition of "equivalence".

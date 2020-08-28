@@ -16,7 +16,7 @@ amazing story has been unfolding about the relation between algebra and
 groups": certain noncommutative algebras analogous to the commutative
 algebras of functions on groups. In fact, not merely are they analogous,
 they depend on a parameter, usually called Planck's constant or ħ, and
-in the classical limit where ħ → 0 they actually reduce to algebras of
+in the classical limit where ħ \to 0 they actually reduce to algebras of
 functions on familiar groups. The simplest case is "quantum SU(2)",
 which reduces in the classical limit to the group SU(2) of 2x2 unitary
 matrices with determinant 1. Ironically, it's good old "classical

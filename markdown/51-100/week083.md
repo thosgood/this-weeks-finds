@@ -115,18 +115,18 @@ and
 
 Similarly, if a vector space x has a dual y, we have linear maps
 
-e: yx → 1
+e: yx \to 1
 
 and
 
-i: 1 → xy
+i: 1 \to xy
 
 What are these linear maps? Well, the whole point of the dual vector
 space y is that a vector in y is a linear functional from x to 1. This
 "dual pairing" between vectors in y and those in x defines a linear
-map e: yx → 1, often called the "counit". On the other hand, the space
+map e: yx \to 1, often called the "counit". On the other hand, the space
 xy can be thought of as the space of linear transformations of x. The
-linear map i: 1 → xy sends any scalar (i.e., any vector in 1) to the
+linear map i: 1 \to xy sends any scalar (i.e., any vector in 1) to the
 corresponding scalar multiple of the identity transformation of x.
 
 So we see that dual vector spaces are a bit like inverse numbers, except
@@ -135,21 +135,21 @@ is *isomorphic* to 1 and 1 is *isomorphic* to xy. We just have some maps
 going from yx to 1, and from 1 to xy.
 
 These maps satisfy two equations, though. Here's the first. We start
-with x, use the obvious isomorphism to map to 1x, then use i: 1 → xy to
-map this to xyx, then use e: yx → 1 to map this to x1, and then use the
+with x, use the obvious isomorphism to map to 1x, then use i: 1 \to xy to
+map this to xyx, then use e: yx \to 1 to map this to x1, and then use the
 other obvious isomorphism to map back to x. This composite of maps
 should be the identity on x. What this says is that the identity linear
 transformation of x really acts as the identity!
 
 Stealing a trick from ["Week 79"](#week79), we can draw this as
-follows. Draw the counit e: yx → 1 as follows:
+follows. Draw the counit e: yx \to 1 as follows:
 
                      y      x
                       \    /
                        \  / 
                         \/
 
-and draw the unit i: 1 → xy as follows:
+and draw the unit i: 1 \to xy as follows:
 
                        /\
                       /  \
@@ -168,9 +168,9 @@ Then the above equation says that
            x                   x
 
 Here the left side, which we read from top to bottom, corresponds to the
-composite x → 1x → xyx → x1 → x. (The factors of 1 are invisible in the
+composite x \to 1x \to xyx \to x1 \to x. (The factors of 1 are invisible in the
 picture, since they don't do much.) The left side corresponds to the
-identity map x → x.
+identity map x \to x.
 
 The second equation goes like this. We start with y, use the obvious
 isomorphism to map to y1, then use the unit to map this to yxy, then use
@@ -227,11 +227,11 @@ any 2-category by analogy as follows:
 Suppose a and b are objects in a 2-category. Then we say that the
 morphism
 
-L: a → b
+L: a \to b
 
 is a "left adjoint" of the morphism
 
-R: b → a
+R: b \to a
 
 (and R is a "right adjoint" of L) if there are 2-morphisms
 

@@ -197,9 +197,9 @@ each object, one edge for each morphism, one triangle for each
 composable pair of morphisms:
 
           y
-         / \                       f: x → y
-        f   g                      g: y → z
-       /     \                    fg: x → z
+         / \                       f: x \to y
+        f   g                      g: y \to z
+       /     \                    fg: x \to z
       x--fg---z
 
 and so on. The only new trick is to make sure this space gets a topology

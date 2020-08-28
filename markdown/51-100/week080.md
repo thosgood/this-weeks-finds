@@ -181,17 +181,17 @@ an extra level on top, the 2-morphisms.
 So: first of all, a 2-category consists of a collection of "objects"
 and a collection of "morphisms". Every morphism f has a "source"
 object and a "target" object. If the source of f is X and its target
-is Y, we write f: X → Y. In addition, we have:
+is Y, we write f: X \to Y. In addition, we have:
 
-1) Given a morphism f: X → Y and a morphism g: Y → Z, there is a
-morphism fg: X → Z, which we call the "composite" of f and g.
+1) Given a morphism f: X \to Y and a morphism g: Y \to Z, there is a
+morphism fg: X \to Z, which we call the "composite" of f and g.
 
 2) Composition is associative: (fg)h = f(gh).
 
-3) For each object X there is a morphism 1~X~: X → X, called the
-"identity" of X. For any f: X → Y we have 1~X~ f = f 1~Y~ = f.
+3) For each object X there is a morphism 1~X~: X \to X, called the
+"identity" of X. For any f: X \to Y we have 1~X~ f = f 1~Y~ = f.
 
-You should visualize the composite of f: X → Y and g: Y → Z as follows:
+You should visualize the composite of f: X \to Y and g: Y \to Z as follows:
 
                          f           g
                    X ---->---- Y ---->---- Z
@@ -200,8 +200,8 @@ So far this is exactly the definition of a category! But a 2-category
 ALSO consists of a collection of "2-morphisms". Every 2-morphism T has
 a "source" morphism f and a target morphism g. If the source of T is f
 and its target is g, we write T: f =\> g. If T: f =\> g, we require that
-f and g have the same source and the same target; for example, f: x → y
-and g: x → y. You should visualize T as follows:
+f and g have the same source and the same target; for example, f: x \to y
+and g: x \to y. You should visualize T as follows:
 
                           f
                       ---->---
@@ -252,14 +252,14 @@ Now for a twist. We also require that we can "horizontally" compose
 
 So we also demand:
 
-1'') Given morphisms f,g: x → y and f',g': y → z, and 2-morphisms S:
+1'') Given morphisms f,g: x \to y and f',g': y \to z, and 2-morphisms S:
 f =\> g and T: f' =\> g', there is a 2-morphism S.T: ff' =\> gg',
 which we call the "horizontal composite" of S and T.
 
 2'') Horizontal composition is associative: (S.T).U = S.(T.U).
 
 3'') The identities for vertical composition are also the identities
-for horizontal composition. That is, given f,g: x → y and T: f =\> g we
+for horizontal composition. That is, given f,g: x \to y and T: f =\> g we
 have 1~1~x~~.T = T.1~1~y~~ = T.
 
 Finally, we demand the "exchange law" relating horizontal and vertical

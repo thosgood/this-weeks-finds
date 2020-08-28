@@ -298,7 +298,7 @@ applications of other sorts.
 Now let me drift over to a related subject, the large-N limit of SU(N)
 gauge theory. Quantum chromodynamics, or QCD, is an SU(N) gauge theory
 with N = 3, but it turns out that things simplify a lot in the limit as
-N → ∞, and one gets some nice qualitative insight into the strong force
+N \to ∞, and one gets some nice qualitative insight into the strong force
 by considering this simplified theory. One can even treat the number 3
 as a small perturbation around the number ∞ and get some decent answers!
 A good introduction to this appears in Coleman's delightful book,
@@ -320,7 +320,7 @@ be drawn on a surface of genus g grow like N^2\ -\ 2g^ as N increases.
 This number 2 - 2g is called the Euler characteristic and it's biggest
 when your surface has no handles.
 
-Even better, in the N → ∞ limit we can think of the Feynman diagrams
+Even better, in the N \to ∞ limit we can think of the Feynman diagrams
 using diagrams like the ones above. For example, we can think of the
 cubic self-interaction in Yang-Mills theory as simply matrix
 multiplication:
@@ -370,18 +370,18 @@ that lets us calculate an invariant of trivalent graphs, which is zero
 for some *planar* graph only if some corresponding map can't be
 4-colored. This recipe involves the vector cross product, or
 equivalently, the Lie algebra of the group SU(2). You can generalize it
-to work for SU(N). And if you then consider the N → ∞ limit, you get the
+to work for SU(N). And if you then consider the N \to ∞ limit, you get the
 above stuff! (The point is that the above stuff also gives a rule for
 computing a number from any trivalent graph.)
 
-Now as I said, in the N → ∞ limit all the nonplanar Feynman diagrams
+Now as I said, in the N \to ∞ limit all the nonplanar Feynman diagrams
 give negligible results compared to the planar ones. So another way to
 state the 4-color theorem is this: if the SU(2) invariant of a trivalent
-graph is zero, the SU(N) invariant is negligible in the N → ∞ limit.
+graph is zero, the SU(N) invariant is negligible in the N \to ∞ limit.
 
 This doesn't yet give a new proof of the 4-color theorem. But it makes
 it into sort of a *physics* problem: a problem about the relation of
-SU(2) Chern-Simons theory and the N → ∞ limit of Chern-Simons theory.
+SU(2) Chern-Simons theory and the N \to ∞ limit of Chern-Simons theory.
 
 Now, the 4-color theorem is one of the two deep mysteries of
 2-dimensional topology - a subject too often considered trivial. The
@@ -402,7 +402,7 @@ describe 2-dimensional ways of glomming things together. Starting from
 the study of 2-categories, we very naturally get the notions of
 "monad" and "adjunction". And before we know it, this leads us to
 some interesting questions about 2-dimensional quantum field theory: for
-really, the dominance of planar diagrams in the N → ∞ limit of gauge
+really, the dominance of planar diagrams in the N \to ∞ limit of gauge
 theory is saying that in this limit the theory becomes essentially a
 2-dimensional field theory, in some funny sense. And then, lo and
 behold, this turns out to be related to the 4-color theorem!

@@ -109,12 +109,12 @@ So, let's recall where we are in our tale of n-categories. We were
 studying increasingly subtle variations on the theme of identity and
 difference. Given two categories C and D, we can ask if they are *equal*
 or not. We can also discuss *isomorphisms* between C and D. An
-isomorphism is a functor F: C → D having an inverse: a functor G: D → C
+isomorphism is a functor F: C \to D having an inverse: a functor G: D \to C
 such that FG is equal to the identity functor on D and GF is equal to
 the identity on C.
 
 We can also discuss *equivalences* between C and D. An equivalence is a
-functor F: C → D together with a functor G: D → C such that FG is
+functor F: C \to D together with a functor G: D \to C such that FG is
 naturally isomorphic to the identity functor on D, and GF is naturally
 isomorphic to the identity functor on C. Remember, two functors from one
 category to another are "naturally isomorphic" if there is a natural
@@ -143,59 +143,59 @@ downwards induction leaves off when we define equivalence for
 
 We have also begun talking about a curious situation where the
 categories C and D are not at all "the same," but there are
-"adjoint" functors L: C → D and R: D → C. Let me list some examples
+"adjoint" functors L: C \to D and R: D \to C. Let me list some examples
 before defining the concept of adjoint functor and talking about it:
 
 1.  First for the one we discussed in ["Week 76"](#week76). Let Set
     be the category of sets, and Grp the category of groups. Let L: Set
-    → Grp be the functor taking each set S to the free group on S, and
-    doing the obvious thing to morphisms. Let R: Grp → Set be the
+    \to Grp be the functor taking each set S to the free group on S, and
+    doing the obvious thing to morphisms. Let R: Grp \to Set be the
     functor taking each group to its underlying set.
 2.  Let Ab be the category of abelian (i.e., commutative) groups. Let L:
-    Set → Ab be the functor taking each set S to the free abelian group
+    Set \to Ab be the functor taking each set S to the free abelian group
     on S. The "free abelian group" on S is what we get by taking the
     free group on S and imposing commutativity relations like xy = yx
-    for all elements x,y in S. Let R: Ab → Set be the functor taking
+    for all elements x,y in S. Let R: Ab \to Set be the functor taking
     each abelian group to its underlying set.
-3.  Let L: Grp → Ab be the functor taking each group G to its
+3.  Let L: Grp \to Ab be the functor taking each group G to its
     "abelianization". The abelianization of G is what we get when we
     impose the extra relations xy = yx for all elements x,y in G. Let R:
-    Ab → Grp be the functor taking each abelian group to its underlying
+    Ab \to Grp be the functor taking each abelian group to its underlying
     group.
 4.  Let Mon be the category of monoids, where the objects are monoids
     and the morphisms are monoid homomorphisms. (Remember that a monoid
     is a set with an associative product and a unit; a monoid morphism
-    f: M → N is a function between monoids such that f(xy) = f(x)f(y)
-    and f(1) = 1.) Let L: Set → Mon be the functor taking each set S to
+    f: M \to N is a function between monoids such that f(xy) = f(x)f(y)
+    and f(1) = 1.) Let L: Set \to Mon be the functor taking each set S to
     the free monoid on S. This is simply the set of words whose letters
     are elements of S, with the product given by concatenation of words,
-    and the unit being the empty word. Let R: Mon → Set be the functor
+    and the unit being the empty word. Let R: Mon \to Set be the functor
     taking each monoid to its underlying set.
-5.  Let L: Mon → Grp be the functor taking each monoid M to the group
+5.  Let L: Mon \to Grp be the functor taking each monoid M to the group
     obtained by throwing in formal inverses for every element of M. The
     famous example of this is when N = {0,1,2,...}, which is a monoid
     whose "product" is addition. Then L(N) = Z, the integers, since we
-    have thrown in the negative integers. Let R: Grp → Mon be the
+    have thrown in the negative integers. Let R: Grp \to Mon be the
     functor taking each group to its underlying monoid. I.e., R simply
     forgets that our group has inverses and thinks of it as a monoid.
 
-Note the common aspects of these examples! In most of them, L: C → D
-gives us a "free" object of D for every object of C, while R: D → C
+Note the common aspects of these examples! In most of them, L: C \to D
+gives us a "free" object of D for every object of C, while R: D \to C
 gives us an "underlying" object of C for every object of D. This is an
 especially good way to think about it when the objects of D are objects
 of C equipped with extra structure, as in examples 1, 2, 4, and 5. For
 example, a group is a set equipped with some extra structure, the group
-operations. In this case, the functor L: C → D turns an object of C into
+operations. In this case, the functor L: C \to D turns an object of C into
 an object of D by "freely throwing in whatever extra stuff is
 necessary, without putting in any relations other than those needed to
 get an object of D".
 
 It's not quite the same when the objects of D are objects of C with
-extra *properties*, as in example 3. In this case, the functor L: C → D
+extra *properties*, as in example 3. In this case, the functor L: C \to D
 forces an object of C to have the properties needed to be an object of
 D. It does so in as nonviolent a manner as possible.
 
-In either of these situations, R: D → C has the flavor of what we call a
+In either of these situations, R: D \to C has the flavor of what we call a
 "forgetful" functor. This is not a precisely defined term, but folks
 use it whenever we can simply "forget" something about an object of D
 and think of it as an object of C. For example, we can take a group, and
@@ -241,12 +241,12 @@ In other words, why is the set of homomorphisms from the free group on S
 to G naturally isomorphic to the set of functions from S to the
 underlying set of G?
 
-Well, say we have a homomorphism f: LS → G. Since LS is a free group, we
+Well, say we have a homomorphism f: LS \to G. Since LS is a free group, we
 know f if we know what it does to each element of S... and it can do
 whatever it wants to these elements! So we can think of it as just a
 function from S to the underlying set of G. In other words, we can think
-of it as a function f': S → RG. Conversely, any function f': S → RG
-gives us a homomorphism f: LS → G.
+of it as a function f': S \to RG. Conversely, any function f': S \to RG
+gives us a homomorphism f: LS \to G.
 
 So this is the idea. Say we have an object c of C and an object d of D.
 Then:

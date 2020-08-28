@@ -359,7 +359,7 @@ This is probably even more powerful than the concept of "folding": it
 shows up whenever we add numbers, multiply numbers, or in many other
 ways combine things. The 2-categorical way to understand this is as
 follows. Suppose we have an object x in a 2-category, and a morphism f:
-x → x. Then we can ask for a 2-morphism
+x \to x. Then we can ask for a 2-morphism
 
 M: f^2^ =\> f
 

@@ -351,7 +351,7 @@ list a few chapters that I can understand and like.
 Chapter 1, "Homotopy types" by Hans-Joachim Baues, is a great survey
 of different models of homotopy types. Remember, we say two topological
 spaces X and Y are homotopy equivalent if there are continuous functions
-f: X → Y and g: Y → X that are inverses "up to homotopy". In other
+f: X \to Y and g: Y \to X that are inverses "up to homotopy". In other
 words, we don't require that fg and gf are *equal* to identity
 functions, but merely that they can both be *continuously deformed* to
 identity functions. So for example the circle and an annulus are
@@ -367,11 +367,11 @@ something that has
 
 objects like x
 
-morphisms between objects like f: x → y
+morphisms between objects like f: x \to y
 
-2-morphisms between morphisms like F: f → g
+2-morphisms between morphisms like F: f \to g
 
-3-morphisms between 2-morphisms like T: F → G
+3-morphisms between 2-morphisms like T: F \to G
 
 ...
 

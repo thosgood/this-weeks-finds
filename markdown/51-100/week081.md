@@ -227,7 +227,7 @@ is completely well-defined. This is nice in quantum physics, where the
 exponential of the action is what really matters. Note also that this
 exponential is just a phase! So we are getting a function
 
-A: Maps(S\^2,G) → U(1)
+A: Maps(S\^2,G) \to U(1)
 
 assigning a phase to any map f from S\^2 to G.
 
@@ -246,7 +246,7 @@ Here's a useful way to think of a central extensions: a central
 extension H\~ of the group H by the group U(1) is a special sort of
 short exact sequence of groups:
 
-                     1 → U(1) → H~ → H → 1
+                     1 \to U(1) \to H~ \to H \to 1
 
 By "short exact sequence of groups" I simply mean that U(1) is a
 subgroup of H\~ and that H\~ modulo U(1) is H. What's special about
@@ -257,7 +257,7 @@ more lowbrow definition.
 Now how do we get this short exact sequence? Well, it comes from a short
 exact sequence of spaces:
 
-                     * → S^1 → D^2 → S^2 → *
+                     * \to S^1 \to D^2 \to S^2 \to *
 
 This diagram means simply that we can think of the circle as a subspace
 of the 2-dimensional disc D\^2 in an obvious way, and then if we
@@ -265,19 +265,19 @@ collapse this circle to a point the disc gets squashed down to a
 2-sphere. Now, from this short exact sequence we get a short exact
 sequence of groups
 
-            1 → Maps(S^2,G) → Maps(D^2,G) → Maps(S^1,G) → 1
+            1 \to Maps(S^2,G) \to Maps(D^2,G) \to Maps(S^1,G) \to 1
 
 In other words, Maps(S\^2,G) is a normal subgroup of Maps(D\^2,G), and
 if we mod out by this subgroup we get Maps(S\^1,G). Now we can use the
-homomorphism A: Maps(S\^2,G) → U(1) to get ourselves another exact
+homomorphism A: Maps(S\^2,G) \to U(1) to get ourselves another exact
 sequence like this:
 
                               i               j
-            1 → Maps(S^2,G) → Maps(D^2,G) → Maps(S^1,G) → 1
+            1 \to Maps(S^2,G) \to Maps(D^2,G) \to Maps(S^1,G) \to 1
                     |              |              |
                   A |              |              | 1
                     v              v              v
-            1 →  U(1) ----------> L~  --------> Maps(S^1,G) → 1
+            1 \to  U(1) ----------> L~  --------> Maps(S^1,G) \to 1
 
 Remembering that Maps(S\^1,G) is the loop group, L\~ turns out to be the
 desired central extension! Concretely we can think of L\~ as a quotient

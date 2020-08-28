@@ -233,12 +233,12 @@ is a zero object.
 Note: there isn't really a unique zero object in the "strict" sense
 of the term. Instead, any two zero objects are canonically isomorphic.
 The reason is that if you have two zero objects, say 0 and 0', there is
-a unique morphism f: 0 → 0' and a unique morphism g: 0' -\> 0. These
+a unique morphism f: 0 \to 0' and a unique morphism g: 0' -\> 0. These
 morphisms are inverses of each other so they are isomorphisms. Why are
-they inverses? Well, fg: 0 → 0' must be the identity morphism 1~0~: 0 →
+they inverses? Well, fg: 0 \to 0' must be the identity morphism 1~0~: 0 \to
 0, because there is only one morphism from 0 to 0! Similarly, gf is the
 identity on 0'. (Note that I am using category theorist's notation,
-where the composite of f: x -\> y and g: y → z is denoted fg: x → z.)
+where the composite of f: x -\> y and g: y \to z is denoted fg: x \to z.)
 
 This is typical in category theory. We don't expect stuff to be unique;
 it should only be unique up to a canonical isomorphism.
@@ -254,7 +254,7 @@ unique up to canonical isomorphism, which is what matters. It's a good
 little exercise to show this.
 
 3) The analog of subtracting vectors is forming the "cokernel" of a
-morphism f: x → y. If x and y are Hilbert spaces, the cokernel of f is
+morphism f: x \to y. If x and y are Hilbert spaces, the cokernel of f is
 just the orthogonal complement of the range of f. In other words, for
 Hilbert spaces we have "direct differences" as well as direct sums.
 However, the notion of cokernel makes sense in any category with a zero
@@ -313,8 +313,8 @@ get from here to there. So when physicists do Feynman path integration -
 just like a shepherd counting sheep - they are engaged in a process of
 decategorification!
 
-To understand this analogy better, note that any morphism f: x → y in
-Hilb can be turned around or "dualized" to obtain a morphism f\*: y →
+To understand this analogy better, note that any morphism f: x \to y in
+Hilb can be turned around or "dualized" to obtain a morphism f\*: y \to
 x. This is usually called the "adjoint" of f, and it satisfies
 
 \<fv,w\> = \<v,f\*w\>
@@ -327,8 +327,8 @@ morphisms, whose adjoint equals their inverse.
 However, it should now be clear - at least to the categorically minded -
 that this sort of adjoint is just a decategorified version of the
 "adjoint functors" so important in category theory. As I explained in
-["Week 79"](#week79), a functor F\*: D → C is a "right adjoint"
-of F: C → D if there is, not an equation, but a natural isomorphism
+["Week 79"](#week79), a functor F\*: D \to C is a "right adjoint"
+of F: C \to D if there is, not an equation, but a natural isomorphism
 
 hom(Fc,d) \~ hom(c,F\*d)
 
@@ -344,22 +344,22 @@ some reason they don't. It's a bit dry but it'll be good for you. A
 coproduct of the objects x and y is an object x+y equipped with
 morphisms
 
-i: x → x+y
+i: x \to x+y
 
 and
 
-j: y → x+y,
+j: y \to x+y,
 
 that is universal with respect to this property. In other words, if we
 have any *other* object, say z, and morphisms
 
-i': x → z
+i': x \to z
 
 and
 
-j': y → z,
+j': y \to z,
 
-then there is a unique morphism f: x+y → z such that
+then there is a unique morphism f: x+y \to z such that
 
 i' = if
 

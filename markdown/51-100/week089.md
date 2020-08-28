@@ -117,12 +117,12 @@ You may or may not remember, but in ["Week 80"](#week80) I
 explained the idea of a "2-category" pretty precisely. This is a
 gadget with a bunch of objects, a bunch of morphisms going from one
 object to another, and a bunch of 2-morphisms going from one morphism to
-another. We write i f: x → y to denote a morphism f from the object x to
+another. We write i f: x \to y to denote a morphism f from the object x to
 the object y, and we write F: f =\> g to denote a 2-morphism F from the
 morphism f to the morphism g.
 
-Just as in a category, in a 2-category we can compose a morphism f: x →
-y with a morphism g: y → z to get a morphism fg: x → z. (Note that I
+Just as in a category, in a 2-category we can compose a morphism f: x \to
+y with a morphism g: y \to z to get a morphism fg: x \to z. (Note that I
 write fg instead of gf; I'm going to use this ordering most of the
 time, though I may occaisionally change my mind just to confuse you
 more.) Similarly, we can compose a 2-morphism F: f =\> g with a
@@ -142,7 +142,7 @@ more.) Similarly, we can compose a 2-morphism F: f =\> g with a
 We stick F on top of G to get FG, which is why it's called "vertical"
 composition.
 
-Also, if we have morphisms f,f': x → y and g,g': y → z, and
+Also, if we have morphisms f,f': x \to y and g,g': y \to z, and
 2-morphisms F: f =\> f' and G: g =\> g', we can "horizontally
 compose" F and G to get F.G: fg =\> f'g'. It looks like this:
 
@@ -169,7 +169,7 @@ fundamental. I want to show how all sorts of concepts of
 2-categories. The basic idea is really simple: we often think of
 multiplication as some sort of function
 
-M: s x s → s
+M: s x s \to s
 
 where we take two elements a and b from some set s, and "multiply"
 them to get a new one M(a,b). But we can visualize this as follows:
@@ -211,7 +211,7 @@ to make it clear that s is a morphism from x to itself. Here x, being
 This hocus-pocus may seem mystifying, but if you bear with me and work
 at it you'll see what I'm up to. I'm saying that essence of
 "multiplication" can be described very generally in a situation where
-you have a 2-category with an object x in it, a morphism s: x → x, and a
+you have a 2-category with an object x in it, a morphism s: x \to x, and a
 2-morphism M: ss =\> s. Often we are interested in situations like this
 where the "multiplication" M is associative, meaning that the
 composite
@@ -227,7 +227,7 @@ equals
 (Here 1~s~: s =\> s is the identity 2-morphism from s to itself... the
 axioms for a 2-category say that this exists.) Also, we're often
 interested in situations where there is a "multiplicative unit", that
-is, a 2-morphism I: 1~x~ → s for which
+is, a 2-morphism I: 1~x~ \to s for which
 
                              I.1s         M
                  s = 1x s  =======> ss =======> s
