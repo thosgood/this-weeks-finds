@@ -147,7 +147,7 @@ They also have shown that Broda's original construction, and also a
 souped-up construction of his, give a partition function that depends
 only on the signature:
 
-2) "On the Classicality of Broda's $SU(2)$ Invariants of 4-Manifolds", by
+2) "On the Classicality of Broda's $\mathrm{SU}(2)$ Invariants of 4-Manifolds", by
 Louis Crane, Louis H. Kauffman, David N. Yetter, 4 pages LaTeX version
 2.09, preprint available as
 [`hep-th/9309102`](http://xxx.lanl.gov/abs/hep-th/9309102).

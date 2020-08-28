@@ -30,14 +30,14 @@ So...
     define this Hilbert space $L^2(\mathrm{Met})$. In the "new variables" approach
     to quantum gravity, the kinematical state space is taken instead to be
     $L^2(\mathcal{A})$, where $\mathcal{A}$ is the space of connections on space on some trivial
-    $SU(2)$ bundle over $S$. This *can* be defined rigorously.
+    $\mathrm{SU}(2)$ bundle over $S$. This *can* be defined rigorously.
 
     Here's the idea, roughly. Fix any graph $g$, with finitely many edges and
     vertices, embedded in $S$. Let $\mathcal{A}_g$, the space of connections on that
-    graph, be $SU(2)^n$ where $n$ is the number of edges in $e$. Thus a
+    graph, be $\mathrm{SU}(2)^n$ where $n$ is the number of edges in $e$. Thus a
     connection on a graph tells us how to parallel transport things along
     each edge of that graph --- an idea familiar from lattice gauge
-    theory. $L^2(\mathcal{A}_g)$ is well-defined because $SU(2)$ has a nice measure on
+    theory. $L^2(\mathcal{A}_g)$ is well-defined because $\mathrm{SU}(2)$ has a nice measure on
     it, namely Haar measure, so $\mathcal{A}_g$ gets a nice measure on it as well.
 
     Now if one graph $g$ is contained in another graph $h$, the space $L^2(\mathcal{A}_g)$
@@ -85,15 +85,15 @@ So...
     analytic --- an annoying technicality that I have been seeking to
     eliminate.)
 
-    The area operator is built using three operators on $L^2(SU(2))$ called
+    The area operator is built using three operators on $L^2(\mathrm{SU}(2))$ called
     $J_1$, $J_2$, and $J_3$, the self-adjoint operators corresponding to the 3
-    generators of $SU(2)$ --- which often show up in physics as the three
+    generators of $\mathrm{SU}(2)$ --- which often show up in physics as the three
     components of angular momentum! Alternatively, we can think of all three
     together as one vector-valued operator $J$, the "angular momentum
     operator". Note that $L^2(\mathcal{A}_g)$ is just the tensor product of one copy
-    of the Hilbert space $L^2(SU(2))$ for each edge of our graph $g$. Thus for
+    of the Hilbert space $L^2(\mathrm{SU}(2))$ for each edge of our graph $g$. Thus for
     any edge $e$ we get an angular momentum operator $J(e)$ that acts on the
-    copy of $L^2(SU(2))$ corresponding to the edge $e$ in question, leaving the
+    copy of $L^2(\mathrm{SU}(2))$ corresponding to the edge $e$ in question, leaving the
     other copies alone.
 
     This, then, is how we define the operator on $L^2(\mathcal{A}_g)$ corresponding to
@@ -130,7 +130,7 @@ So...
     Mike has been working on a very interesting "state sum model" for
     quantum gravity; that is, a discretized model in which spacetime is made
     of 4-simplices (the 4d version of tetrahedra), fields are thought of
-    ways of labelling the faces, edges and so on by spins, elements of $SU(2)$
+    ways of labelling the faces, edges and so on by spins, elements of $\mathrm{SU}(2)$
     and the like, and the path integral is replaced by a sum over these
     labellings. This works out quite nicely for quantum gravity in 3
     dimensions --- see ["Week 16"](#week16) --- but it's much more

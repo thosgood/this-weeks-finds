@@ -113,8 +113,8 @@ A projective unitary representation of a group $H$ can also be thought of
 as a representation of a bigger group $\widetilde{H}$ called a "central extension"
 of $H$. The idea is that this bigger group has a bunch of phases built
 into it to absorb the phase ambiguities in the projective representation
-of $H$. Let $U(1)$ be the unit circle in the complex plane, a group under
-multiplication. This is the group of phases. We can think of $\widetilde{H}$ as $H \times U(1)$
+of $H$. Let $\mathrm{U}(1)$ be the unit circle in the complex plane, a group under
+multiplication. This is the group of phases. We can think of $\widetilde{H}$ as $H \times \mathrm{U}(1)$
 given a sneaky product designed to soak up the phases produced by
 the cocycle:
 $$(g, a)(h, b) = (gh, ab c(g,h)).$$
@@ -133,7 +133,7 @@ ahold of these? There is a nice trick which Brylinski described in his
 talk. To get this trick, we need to assume a bit about the group $G$.
 Let's assume it's a connected and simply-connected simple Lie group.
 I'll explain that in a minute, but some good examples to keep in mind
-are $SU(n)$ and $\mathrm{Spin}(n)$; see ["Week 61"](#week61) for the definitions
+are $\mathrm{SU}(n)$ and $\mathrm{Spin}(n)$; see ["Week 61"](#week61) for the definitions
 and a bit of information about these groups.
 
 Now remember that $S^k$ stands for the $k$-dimensional sphere, and $\pi_k(X)$
@@ -149,8 +149,8 @@ by a continuous path.
 
 Saying that $G$ is simply connected means that $\pi_1(G) = 0$. In other words,
 all loops in $G$ can be "pulled tight". A good example of a group
-that's NOT simply connected is the group $SO(n)$ of rotations in $n$
-dimensional space.. This flaw with $SO(n)$ is why they needed to invent
+that's NOT simply connected is the group $\mathrm{SO}(n)$ of rotations in $n$
+dimensional space.. This flaw with $\mathrm{SO}(n)$ is why they needed to invent
 $\mathrm{Spin}(n)$; see ["Week 61"](#week61).
 
 As it turns out, every Lie group has $\pi_2(G) = 0$. So all 2-spheres in $G$
@@ -200,7 +200,7 @@ $$\exp(2 \pi i S(f))$$
 is completely well-defined. This is nice in quantum physics, where the
 exponential of the action is what really matters. Note also that this
 exponential is just a phase! So we are getting a function
-$$A\colon\mathrm{Maps}(S^2,G)\to U(1)$$
+$$A\colon\mathrm{Maps}(S^2,G)\to \mathrm{U}(1)$$
 assigning a phase to any map $f$ from $S^2$ to $G$.
 
 Now $\mathrm{Maps}(S^2,G)$ is sort of like the loop group, since the loop group is
@@ -213,12 +213,12 @@ loop group. Here's how we do it. By now everyone but the experts has
 probably fallen asleep at the screen, so I can pull out all the stops.
 
 Here's a useful way to think of a central extensions: a central
-extension $\widetilde{H}$ of the group $H$ by the group $U(1)$ is a special sort of
+extension $\widetilde{H}$ of the group $H$ by the group $\mathrm{U}(1)$ is a special sort of
 short exact sequence of groups:
-$$1 \to U(1) \to \widetilde{H} \to H \to 1$$
-By "short exact sequence of groups" I simply mean that $U(1)$ is a
-subgroup of $\widetilde{H}$ and that $\widetilde{H}$ modulo $U(1)$ is $H$. What's special about
-central extensions is that $U(1)$ is in the *center* of $\widetilde{H}$. You can check
+$$1 \to \mathrm{U}(1) \to \widetilde{H} \to H \to 1$$
+By "short exact sequence of groups" I simply mean that $\mathrm{U}(1)$ is a
+subgroup of $\widetilde{H}$ and that $\widetilde{H}$ modulo $\mathrm{U}(1)$ is $H$. What's special about
+central extensions is that $\mathrm{U}(1)$ is in the *center* of $\widetilde{H}$. You can check
 that this definition of central extension matches up with our earlier
 more lowbrow definition.
 
@@ -235,7 +235,7 @@ $$1 \to \mathrm{Maps}(S^2,G) \to \mathrm{Maps}(D^2,G) \to \mathrm{Maps}(S^1,G) \
 
 In other words, $\mathrm{Maps}(S^2,G)$ is a normal subgroup of $\mathrm{Maps}(D^2,G)$, and
 if we mod out by this subgroup we get $\mathrm{Maps}(S^1,G)$. Now we can use the
-homomorphism $A\colon\mathrm{Maps}(S^2,G)\to U(1)$ to get ourselves another exact
+homomorphism $A\colon\mathrm{Maps}(S^2,G)\to \mathrm{U}(1)$ to get ourselves another exact
 sequence like this:
 $$
   \begin{tikzcd}
@@ -248,7 +248,7 @@ $$
       \rar \dar["1"]
     & 1
   \\1 \rar
-    & U(1)
+    & \mathrm{U}(1)
       \rar["i"]
     & \widetilde{L}
       \rar["j"]
@@ -259,7 +259,7 @@ $$
 $$
 Remembering that $\mathrm{Maps}(S^1,G)$ is the loop group, $\widetilde{L}$ turns out to be the
 desired central extension! Concretely we can think of $\widetilde{L}$ as a quotient
-group of $\mathrm{Maps}(D^2,G)\times U(1)$ by the subgroup of pairs of the form
+group of $\mathrm{Maps}(D^2,G)\times \mathrm{U}(1)$ by the subgroup of pairs of the form
 $(i(f),A(f))$ with $f$ in $\mathrm{Maps}(S^2,G)$.
 
 There is something fascinating about how spheres of different dimensions
@@ -269,7 +269,7 @@ $LG$. It appears that what we are really studying are the closely related
 cohomology groups:
 
 - $H^0(\mathrm{Maps}(S^3,G))$ which is just another way of saying $\pi_3(G)$
-- $H^1(\mathrm{Maps}(S^2,G))$ which describes homomorphisms from $\mathrm{Maps}(S^2,G)$ to $U(1)$
+- $H^1(\mathrm{Maps}(S^2,G))$ which describes homomorphisms from $\mathrm{Maps}(S^2,G)$ to $\mathrm{U}(1)$
 - $H^2(\mathrm{Maps}(S^1,G))$ which describes central extensions of $\mathrm{Maps}(S^1,G)$
 - $H^3(\mathrm{Maps}(S^0,G))$ which is just another way of saying $H^3(G)$, where $W$ lives.
 
@@ -277,7 +277,7 @@ There is a fourth term in this series which I didn't get around to
 talking about; it's
 
 - $H^4(\mathcal{B}G)$ where the degree 4 characteristic class for $G$-bundles, e.g. the
-2nd Chern class for $SU(n)$, lives.
+2nd Chern class for $\mathrm{SU}(n)$, lives.
 
 Here $\mathcal{B}G$ is the "classifying space" of $G$. I would like to understand
 more deeply what's going on with this series, because the different

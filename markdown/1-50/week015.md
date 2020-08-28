@@ -50,17 +50,17 @@ quantum theory, the significance of the vector potential is as follows.
 If we take a particle and carry it around a loop, its wavefunction gets
 multiplied by a phase, that is, a complex number of absolute value 1.
 These "phases" form a group, since the product of two phases is a
-phase. This group is called $U(1)$, since we can think of phases as $1\times1$
+phase. This group is called $\mathrm{U}(1)$, since we can think of phases as $1\times1$
 unitary matrices. A key idea in modern physics is to generalize the heck
 out of electromagnetism by allowing other groups to play the role of
 phases. The group we choose is called the "gauge group." The second
-simplest choice after $U(1)$ is $SU(2)$, the $2\times2$ unitary matrices with
+simplest choice after $\mathrm{U}(1)$ is $\mathrm{SU}(2)$, the $2\times2$ unitary matrices with
 determinant = 1.
 
 You can do Chern-Simons theory with any gauge group but it's especially
-simple with gauge group $SU(2)$. An $SU(2)$ connection is just a kind of
+simple with gauge group $\mathrm{SU}(2)$. An $\mathrm{SU}(2)$ connection is just a kind of
 field that lets one do "parallel translation" around a loop in space
-and get an element of $SU(2)$. Mathematicians call this the holonomy of
+and get an element of $\mathrm{SU}(2)$. Mathematicians call this the holonomy of
 the connection around the loop. Physicists typically take the trace of
 the group element (in this case, just the sum of the diagonal entries of
 the $2\times2$ matrix), and call that the "Wilson loop observable," a
@@ -287,8 +287,8 @@ in latex form as
 [`hep-th/9305097`](http://xxx.lanl.gov/abs/hep-th/9305097).
 
 Apparently this builds on work by Gross, Taylor, and Minahan which
-treated $SU(n)$ Yang-Mills theories in 2 dimensions as string theories,
-and does something similar for the gauge groups $SO(n)$ and $Sp(n)$.
+treated $\mathrm{SU}(n)$ Yang-Mills theories in 2 dimensions as string theories,
+and does something similar for the gauge groups $\mathrm{SO}(n)$ and $Sp(n)$.
 
 I have a pack of interesting papers to describe but I am already worn
 out, so I will put that off until next week, except for the following

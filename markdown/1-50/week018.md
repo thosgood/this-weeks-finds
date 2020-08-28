@@ -94,7 +94,7 @@ Here's what I wound up saying:
 > hadron interactions. Unfortunately this theory had a number of
 > undesirable features; in particular, it predicted massless spin-2
 > particles. It was soon supplanted by quantum chromodynamics (QCD),
-> which models the strong force by an $SU(3)$ Yang-Mills field. However,
+> which models the strong force by an $\mathrm{SU}(3)$ Yang-Mills field. However,
 > string models continued to be popular as an approximation of the
 > confining phase of QCD. Two quarks in a meson, for example, can be
 > thought of as connected by a string-like flux tube in which the gauge

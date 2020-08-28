@@ -132,19 +132,19 @@ are! Basically, they go like this:
 $A_n$ --- The Lie algebra $A_n$ is just $\mathfrak{sl}_{n+1}(\mathbb{C})$, the $(n+1) \times (n+1)$
 complex matrices with vanishing trace, which form a Lie algebra with the
 usual bracket $[x,y] = xy -yx$. The compact real form of $\mathfrak{sl}_n(\mathbb{C})$ is
-$\mathfrak{su}_n$, and the corresponding compact Lie group is $SU(n)$, the $n\times n$
+$\mathfrak{su}_n$, and the corresponding compact Lie group is $\mathrm{SU}(n)$, the $n\times n$
 unitary matrices with determinant $1$. The symmetry group of the
-electroweak force is $U(1) \times SU(2)$, where $U(1)$ is the $1 \times 1$ unitary
-matrices. The symmetry group of the strong force is $SU(3)$. The study of
+electroweak force is $\mathrm{U}(1) \times \mathrm{SU}(2)$, where $\mathrm{U}(1)$ is the $1 \times 1$ unitary
+matrices. The symmetry group of the strong force is $\mathrm{SU}(3)$. The study of
 $A_n$ is thus a big deal in particle physics. People have also considered
-"grand unified theories" with symmetry groups like $SU(5)$.
+"grand unified theories" with symmetry groups like $\mathrm{SU}(5)$.
 
 $B_n$ --- The Lie algebra $B_n$ is $\mathfrak{so}_{2n+1}(\mathbb{C})$, the $(2n+1) \times (2n+1)$ skew-symmetric
 complex matrices with vanishing trace. The compact real form
-of $\mathfrak{so}_n(\mathbb{C})$ is $\mathfrak{so}_n$, and the corresponding compact Lie group is $SO(n)$,
+of $\mathfrak{so}_n(\mathbb{C})$ is $\mathfrak{so}_n$, and the corresponding compact Lie group is $\mathrm{SO}(n)$,
 the $n \times n$ real orthogonal matrices with determinant $1$, that is, the
 rotation group in Euclidean $n$-space. For some basic cool facts about
-$SO(n)$, check out ["Week 61"](#week61).
+$\mathrm{SO}(n)$, check out ["Week 61"](#week61).
 
 $C_n$ --- The Lie algebra $C_n$ is $\mathfrak{sp}_n(\mathbb{C})$, the $2n \times 2n$ complex matrices of
 the form
@@ -163,7 +163,7 @@ $n$-tuples of quaternions.
 
 $D_n$ --- The Lie algebra $D_n$ is $\mathfrak{so}_{2n}(\mathbb{C})$, the $2n \times 2n$ skew-symmetric
 complex matrices with vanishing trace. See $B_n$ above for more about
-this. It may seem weird that $SO(n)$ acts so differently depending on
+this. It may seem weird that $\mathrm{SO}(n)$ acts so differently depending on
 whether $n$ is even or odd, but it's true: for example, there are
 "left-handed" and "right-handed" spinors in even dimensions, but not
 in odd dimensions. Some clues as to why are given in
@@ -334,7 +334,7 @@ it's all about.
     $$
     The resulting torus is a "Riemann surface" and it has lots of
     transformations, called "modular transformations". The group of
-    modular transformations is the discrete group $SL(2,\mathbb{Z})$ of $2\times2$ integer
+    modular transformations is the discrete group $\mathrm{SL}(2,\mathbb{Z})$ of $2\times2$ integer
     matrices with determinant $1$; I leave it as an easy exercise to guess how
     these give transformations of the torus. (This is an example of a
     "mapping class group" as discussed in ["Week 28"](#week28).) In

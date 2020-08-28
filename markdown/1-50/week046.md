@@ -133,7 +133,7 @@ networks. (See ["Week 43"](#week43) for more on these, and a brief
 intro to spin networks.) Basically, while my paper shows that spin
 networks give a kind of basis of states for gauge theories with
 arbitrary (compact, connected) gauge group, in this paper Rovelli and
-Smolin concentrate on the gauge groups $SL(2,\mathbb{C})$ and $SU(2)$, which are
+Smolin concentrate on the gauge groups $\mathrm{SL}(2,\mathbb{C})$ and $\mathrm{SU}(2)$, which are
 relevant to quantum gravity, and work out a lot of aspects particular to
 this case, in more of a physicist's style. This makes spin networks
 into a practical computational tool in quantum gravity, used to great
@@ -284,7 +284,7 @@ side-interest in mathematical physics. This paper is, first of all, a
 physics (prior to World War II) can be expressed concisely in the
 labguage of quaternions, thus suggesting how they might have been
 discovered if Hamilton's views had prevailed." But there is a very
-interesting new thing, too: a way in which the group $SU(3) \times SU(2) \times U(1)$ shows up naturally when considering Dirac's equation a la
+interesting new thing, too: a way in which the group $\mathrm{SU}(3) \times \mathrm{SU}(2) \times \mathrm{U}(1)$ shows up naturally when considering Dirac's equation a la
 quaternions. This group is the gauge group of the Standard Model! Lambek
 modestly says that there does not appear to be any significance to this
 coincidence... but it *would* be nice, wouldn't it?

@@ -41,7 +41,7 @@ normally want to do are then permitted. The marvelous thing about
 Chern-Simons theory is that one can show the TQFT axioms hold starting
 from some beautiful algebraic structures called quantum groups.
 Corresponding to every "semisimple Lie group" --- examples being the
-groups $SU(n)$ of unitary complex nxn matrices with determinant $1$ ---
+groups $\mathrm{SU}(n)$ of unitary complex nxn matrices with determinant $1$ ---
 there is a quantum group, which is not really a group, but a so-called
 "quasitriangular Hopf algebra." Amusingly these quantum groups really
 depend on Planck's constant $\hbar$, and reduce to the ordinary groups in the
@@ -163,7 +163,7 @@ exciting remark penetrated my thick skull, namely that you really need
 to take into account the so-called "metaplectic correction", as one
 usually does in geometric quantization, and that in the case of no
 punctures, this has the sole effect of accomplishing the mysterious
-"level shift" $(k \to k + N)$ that pervades $SU(N)$ Chern-Simons theory. (Of
+"level shift" $(k \to k + N)$ that pervades $\mathrm{SU}(N)$ Chern-Simons theory. (Of
 course, I bet this must be what's going on for other gauge groups too.)
 Also, when there are punctures, you apparently really need the
 metaplectic correction to get the right answers from geometric

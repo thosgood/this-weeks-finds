@@ -33,8 +33,8 @@ in 3-dimensional space. They fell out of favor somewhat when the vectors
 of Gibbs proved simpler for many purposes, but their deeper importance
 became clear when people started studying spin: indeed, the Pauli
 matrices so important in physics are closely related to the quaternions,
-and it is the group of unit quaternions, $SU(2)$, rather than the group of
-rotations in 3d space, $SO(3)$, which turns out to be the symmetry group
+and it is the group of unit quaternions, $\mathrm{SU}(2)$, rather than the group of
+rotations in 3d space, $\mathrm{SO}(3)$, which turns out to be the symmetry group
 whose different representations correspond to particles of different
 spin. But what about the octonions?
 
@@ -198,8 +198,8 @@ Here we add and multiply $\mod 7$. Index doubling corresponds to rotating
 the Fano plane.
 
 So those are the octonions in a nutshell. I should say a bit about how
-they relate to triality for $SO(8)$, the exceptional Lie group $G_2$, the
-group $SU(3)$ which is so important in the study of the strong force, and
+they relate to triality for $\mathrm{SO}(8)$, the exceptional Lie group $G_2$, the
+group $\mathrm{SU}(3)$ which is so important in the study of the strong force, and
 to lattices like $E_8$, $\Lambda 16$ and the Leech lattice. But I will postpone
 that; for now you can consult Fulton and Harris, and also various papers
 by Dixon:
@@ -228,12 +228,12 @@ integers. When $n = 8$, the densest known packing is given by the
 so-called $E_8$ lattice. In ["Week 20"](#week20) I described how to
 get this lattice using the quaternions and the icosahedron. Briefly, it
 goes as follows. The group of rotational symmetries of the icosahedron
-(not counting reflections) is a subgroup of the rotation group $SO(3)$
-containing 60 elements. As mentioned above, $SO(3)$ has as a double cover
-the group $SU(2)$ of unit quaternions. So there is a 120-element subgroup
-of $SU(2)$ consisting of elements that map to elements of $SO(3)$ that are
+(not counting reflections) is a subgroup of the rotation group $\mathrm{SO}(3)$
+containing 60 elements. As mentioned above, $\mathrm{SO}(3)$ has as a double cover
+the group $\mathrm{SU}(2)$ of unit quaternions. So there is a 120-element subgroup
+of $\mathrm{SU}(2)$ consisting of elements that map to elements of $\mathrm{SO}(3)$ that are
 symmetries of the icosahedron. Now form all integer linear combinations
-of these 120 special elements of $SU(2)$. We get a subring of the
+of these 120 special elements of $\mathrm{SU}(2)$. We get a subring of the
 quaternions known as the "icosians''.
 
 We can think of icosians as special quaternions, but we can also think

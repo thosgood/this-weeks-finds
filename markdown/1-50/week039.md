@@ -102,13 +102,13 @@ theory was exactly soluble, one could use it to study a lot of
 interesting mathematics problems relating to "moduli spaces of flat
 connections." (More about those below.) And Gross, Taylor and others
 have recently shown that 2d Yang-Mills theory, at least working with
-gauge groups like $SU(N)$ or $SO(N)$ and taking the "large N limit", could
+gauge groups like $\mathrm{SU}(N)$ or $\mathrm{SO}(N)$ and taking the "large N limit", could
 be formulated as a string theory. So people respect 2d Yang-Mills theory
 more these days; its complexities stand as a strong clue that we've
 just begun to tap the depths of 4d Yang-Mills theory!
 
 I can't help but add that Taylor and I did some work a while back in
-which we formulated $SU(N)$ 2d Yang-Mills theory for *finite* N as a
+which we formulated $\mathrm{SU}(N)$ 2d Yang-Mills theory for *finite* N as a
 string theory. This was meant as evidence for my proposal that the loop
 representation of quantum gravity is a kind of string theory, a proposal
 described in ["Week 18"](#week18). For more on this sort of thing,

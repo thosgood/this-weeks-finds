@@ -16,7 +16,7 @@ The Yang-Mills equations describe most of the forces we know and love
 (not gravity), but only in 4 dimensions can one get solutions of them of
 a special form, known as self-dual solutions. (In physics these
 self-dual solutions are known as instantons, and they were used by 't
-Hooft to solve a problem plaguing particle physics, called the $U(1)$
+Hooft to solve a problem plaguing particle physics, called the $\mathrm{U}(1)$
 puzzle.)
 
 Mathematically, 4-dimensional manifolds are very different from

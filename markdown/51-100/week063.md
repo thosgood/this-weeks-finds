@@ -142,7 +142,7 @@ relative ($H_3$ and $H_4$) are ruled out.
 Now let us turn to the theory of Lie groups. Lie groups are the most
 important "continuous" (as opposed to discrete) symmetry groups.
 Examples include the real line (with addition as the group operation),
-the circle (with addition $\mod 2\pi$), and the groups $SO(n)$ and $SU(n)$
+the circle (with addition $\mod 2\pi$), and the groups $\mathrm{SO}(n)$ and $\mathrm{SU}(n)$
 discussed in ["Week 61"](#week61). These groups are incredibly
 important in both physics and mathematics. Thus it is wonderful, and
 charmingly ironic, that the same diagrams that classify the

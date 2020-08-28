@@ -22,17 +22,17 @@ article and read backwards until it becomes boring.
 
 A Lie group is a group that can be given coordinates for which all the
 group operations are infinitely differentiable. A good example is the
-group $SO(n)$ of rotations in $n$-dimensional Euclidean space. You can
+group $\mathrm{SO}(n)$ of rotations in $n$-dimensional Euclidean space. You can
 multiply rotations by doing first one and then the other, or
 mathematically by doing matrix multiplication. Every rotation has an
 inverse, given mathematically by the inverse matrix. Since matrices are
-just bunches of numbers, you can coordinatize $SO(n)$, at least locally,
+just bunches of numbers, you can coordinatize $\mathrm{SO}(n)$, at least locally,
 and in terms of these coordinates the operations of multiplication and
-taking inverses are infinitely differentiable, or "smooth", so $SO(n)$
+taking inverses are infinitely differentiable, or "smooth", so $\mathrm{SO}(n)$
 is a Lie group.
 
 Using the magic of calculus, we can think of tangent vectors at the
-identity element of $SO(n)$ as "infinitesimal rotations". So for
+identity element of $\mathrm{SO}(n)$ as "infinitesimal rotations". So for
 example, taking $n = 3$, let's start with the rotation by the angle $t$
 about the $z$ axis, given by the matrix:
 $$
@@ -132,7 +132,7 @@ some heroic work by Killing and Cartan, in the early part of the 20th
 century. To keep life simple (ahem) I'll only give the classification
 of those simple Lie algebras whose corresponding Lie groups are
 *compact* --- meaning roughly that they are finite in size. (For example,
-$SO(n)$ is compact.) It turns out that if we understand the compact ones,
+$\mathrm{SO}(n)$ is compact.) It turns out that if we understand the compact ones,
 we can understand the noncompact ones too.
 
 So, here are the Lie algebras of the compact simple Lie groups! There
@@ -144,20 +144,20 @@ seemed very mysterious to me.
 
 The 4 infinite families are:
 
-- $A_n$: This is the Lie algebra of $SU(n)$, the group of $n\times n$ complex
+- $A_n$: This is the Lie algebra of $\mathrm{SU}(n)$, the group of $n\times n$ complex
     matrices that preserve lengths (i.e., are unitary) and have determinant
     $1$. This Lie algebra is also called $\mathfrak{su}(n)$.
-- $B_n$: This is the Lie algebra of $SO(2n+1)$, the group of $(2n+1)\times(2n+1)$
+- $B_n$: This is the Lie algebra of $\mathrm{SO}(2n+1)$, the group of $(2n+1)\times(2n+1)$
     real matrices that preserve lengths (i.e., are orthogonal) and have
     determinant $1$. This Lie algebra is also called $\mathfrak{so}(2n+1)$.
 - $C_n$: This is the Lie algebra of $Sp(n)$, the group of $n\times n$ quaternionic
     matrices that preserve lengths. This Lie algebra is also called $\mathfrak{sp}(n)$.
-- $D_n$: This is the Lie algebra of $SO(2n)$, the group of $2n\times 2n$ real
+- $D_n$: This is the Lie algebra of $\mathrm{SO}(2n)$, the group of $2n\times 2n$ real
     matrices that preserve lengths and have determinant $1$. This Lie algebra
     is also called $\mathfrak{so}(2n)$.
 
 You may justly wonder why the heck they are called $A_n$, $B_n$, $C_n$, and
-$D_n$, and why we separated out the even and odd cases of $SO(n)$ as we did!
+$D_n$, and why we separated out the even and odd cases of $\mathrm{SO}(n)$ as we did!
 This is explained in ["Week 64"](#week64), and I don't want to
 worry about it here. Anyway, glossing over some nuances, we see that
 these guys are all pretty much just groups of rotations in real,
@@ -282,14 +282,14 @@ spinor representation to it to turn it into a matrix, we get the same
 thing as if we just used the vector representation to turn $x$ into a
 matrix.
 
-Now $\mathfrak{so}(8)$ is the Lie algebra of the Lie group $SO(8)$, but $SO(8)$ is not
+Now $\mathfrak{so}(8)$ is the Lie algebra of the Lie group $\mathrm{SO}(8)$, but $\mathrm{SO}(8)$ is not
 "simply connected" in the sense defined above. The simply connected
-group whose Lie algebra is $SO(n)$ is called $\mathrm{Spin}(n)$. I gave an
+group whose Lie algebra is $\mathrm{SO}(n)$ is called $\mathrm{Spin}(n)$. I gave an
 introduction to these "spin groups" in ["Week 61"](#week61), and
 I don't want to say much about them here, except for this: the triality
-symmetries of $\mathfrak{so}(8)$ do not give symmetries of $SO(8)$, but they do give
+symmetries of $\mathfrak{so}(8)$ do not give symmetries of $\mathrm{SO}(8)$, but they do give
 symmetries of $\mathrm{Spin}(8)$. Experts say the group of outer automorphisms
-modulo inner automorphisms of $SO(8)$ is $S_3$ (the group of permutations of
+modulo inner automorphisms of $\mathrm{SO}(8)$ is $S_3$ (the group of permutations of
 3 things).
 
 Pretty sneaky, how a group of symmetries can have its own group of
@@ -534,8 +534,8 @@ neat way to get triality symmetry *from* $F_4$, if you happen to have $F_4$
 around: the long roots of $F_4$ form a root system of type $D_4$, which
 defines an embedding of $\mathrm{Spin}(8)$ into the Lie group $F_4$ (more precisely,
 the compact real form). On the other hand, the two short simple roots
-define an embedding of $SU(3)$ in $F_4$. The Weyl group of $SU(3)$ is $S_3$ and
-can be lifted to $SU(3)$, so we have an $S_3$ subgroup of $F_4$. This acts by
+define an embedding of $\mathrm{SU}(3)$ in $F_4$. The Weyl group of $\mathrm{SU}(3)$ is $S_3$ and
+can be lifted to $\mathrm{SU}(3)$, so we have an $S_3$ subgroup of $F_4$. This acts by
 conjutation on the $\mathrm{Spin}(8)$ subgroup, implementing the triality
 symmetries!
 

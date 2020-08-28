@@ -96,7 +96,7 @@ Zamolodchikov equations from solutions of the Yang-Baxter equation --- the
 goal presumably being to find invariants of knotted surfaces that are
 closely related to the link invariants coming from quantum groups. This
 looks promising, since Crane and Yetter have just constructed a
-4-dimensional topological quantum field theory from the quantum $SU(2)$.
+4-dimensional topological quantum field theory from the quantum $\mathrm{SU}(2)$.
 But apparently nobody has yet done it.
 
 Lovers of category theory will be pleased to learn that the correct
@@ -125,7 +125,7 @@ representation of quantum gravity. Pullin is among a group who has been
 carefully studying the "Chern-Simons state" of quantum gravity, so his
 presentation, which starts with a nice treatment of the basics, leads
 towards the study of the Chern-Simons state. This is by far the
-best-understood state of quantum gravity, and is defined by $SU(2)$
+best-understood state of quantum gravity, and is defined by $\mathrm{SU}(2)$
 Chern-Simons theory in terms of the connection representation, or by the
 Kauffman bracket invariant of knots in the loop representation. It is a
 state of Euclideanized quantum gravity with nonzero cosmological

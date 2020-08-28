@@ -28,7 +28,7 @@ fashion! In the following papers you will see how the duality symmetry
 of Maxwell's equations (the symmetry between electric and magnetic
 fields) plays a new role in modern work on 4-dimensional gauge theory.
 Also, there is some good stuff in Thompson's review article about the
-Seiberg-Witten theory, which is basically just a $U(1)$ gauge theory like
+Seiberg-Witten theory, which is basically just a $\mathrm{U}(1)$ gauge theory like
 Maxwell's equations... but with some important extra twists!
 
 2) Erik Verlinde, "Global aspects of electric-magnetic duality", _Nuc. Phys._ **B455** (1995), 211--225, available as
@@ -121,7 +121,7 @@ Now let me turn to a variety of other matters...
 
 These papers all deal with perturbative Chern-Simons theory and its
 spinoffs. The first two consider homology 3-spheres. In Chern-Simons
-theory, this makes the moduli space of flat $SU(2)$ connections trivial,
+theory, this makes the moduli space of flat $\mathrm{SU}(2)$ connections trivial,
 thus eliminating some subtleties in the perturbation theory. A homology
 3-sphere is a 3-manifold whose homology is the same as that of the
 3-sphere... the first one was discovered by Poincare when he was

@@ -230,7 +230,7 @@ very clear in this special case.
     G. Masbaum and Justin Roberts, "On central extensions of mapping class groups", _Mathematica Gottingensis, Schriftenreihe des Sonderforschungsbereichs Geometrie und Analysis_, Heft **42** (1993).
 
 The first two papers here might be the most interesting for physicists.
-They both deal with 3d and 4d TQFTs constructed using quantum $SU(2)$: in
+They both deal with 3d and 4d TQFTs constructed using quantum $\mathrm{SU}(2)$: in
 particular, the Turaev-Viro theory in dimension 3, and the
 Crane-Yetter-Broda theory in dimension 4. The first theory is
 interesting physically because it corresponds to 3d Euclidean quantum

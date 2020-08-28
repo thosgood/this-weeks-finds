@@ -67,7 +67,7 @@ And now, to wax technical for a bit (skip this paragraph if the last one
 made you dizzy), it's beginning to seem that the symmetry groups
 physicists know and love have glorious reincarnations, or avatars if one
 prefers, at these higher $n$-categorical levels. Take your favorite group
---- mine is $SU(2)$, which describes 3d rotational symmetry hence angular
+--- mine is $\mathrm{SU}(2)$, which describes 3d rotational symmetry hence angular
 momentum in quantum mechanics. It's category of representations isn't
 just any old category, its a symmetric monoidal category! See the chart
 in ["Week 49"](#week49) if you forget what this is. Now, there are
@@ -76,13 +76,13 @@ symmetric monoidal categories --- for example, cocommutative Hopf
 algebras. And there are other kinds of Hopf algebras ---
  "quasitriangular" ones, often known as "quantum groups" --- whose
 categories of representations are *braided* monoidal categories. The
-cool thing is that $SU(2)$ has an avatar called "quantum $SU(2)$" which is
+cool thing is that $\mathrm{SU}(2)$ has an avatar called "quantum $\mathrm{SU}(2)$" which is
 one of these quantum groups. Again, eyeball the chart in
 ["Week 49"](#week49). Symmetric monoidal categories are a special
 kind of 4-categories, which is why they show up so much in 4d physics,
 while braided monoidal categories are a special kind of 3-categories,
 which is why they (and quantum groups) show up in 3d physics. For
-example, quantum $SU(2)$ shows up in the study of 3d quantum gravity (see
+example, quantum $\mathrm{SU}(2)$ shows up in the study of 3d quantum gravity (see
 ["Week 16"](#week16)). Now the even cooler thing is that while a
 quaistriangular Hopf algebra is a set with a bunch of operations, there
 is a souped-up gadget, a "quasitriangular Hopf category", which is a
@@ -92,7 +92,7 @@ fact a *braided monoidal 2-category*. If you again eyeball the chart,
 you'll see this is a special kind of 4-category, so it should be
 related to 4d topology and --- this is the big hope --- 4d physics. Now the
 *really* cool thing, which is what Crane and Frenkel show here, is that
-$SU(2)$ has yet another avatar which is one of these quasitriangular Hopf
+$\mathrm{SU}(2)$ has yet another avatar which is one of these quasitriangular Hopf
 categories.
 
 Regardless of whether it has anything to do with physics, this business

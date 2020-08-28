@@ -58,12 +58,12 @@ Differential geometers attempting to read the second two papers will
 find that they contain no instance of the term "Donaldson theory", and
 they may be frustrated to find that these are very much *physics*
 papers. They concern the ground states of supersymmetric Yang-Mills
-theory in 4 dimensions with gauge group $SU(2)$. The "ground states" of
+theory in 4 dimensions with gauge group $\mathrm{SU}(2)$. The "ground states" of
 a field theory are its least-energy states, which represent candidates
 for the physical vacuum. In certain theories there is not a unique
 ground state, but instead a "moduli space" of ground states. Seiberg
 and Witten study these moduli spaces of ground states in both the
-classical and quantum versions of $SU(2)$ supersymmetric Yang-Mills theory
+classical and quantum versions of $\mathrm{SU}(2)$ supersymmetric Yang-Mills theory
 in 4 dimensions. They also consider the theory coupled to spinor fields,
 which they call "quarks", using the analogy of the theory to quantum
 chromodynamics, aka "QCD".
@@ -79,11 +79,11 @@ things up.
 
 We start with a compact oriented Riemannian 4-manifold $X$, and assume we
 are given Spin-c structure on $X$. Recall the meaning of this. First, the
-orthonormal frame bundle of $X$ has structure group $SO(4)$, and a spin
+orthonormal frame bundle of $X$ has structure group $\mathrm{SO}(4)$, and a spin
 structure would be a double cover of this which is a principal bundle
-with structure group given by the double cover of $SO(4)$, namely $SU(2) \times SU(2)$. Thus we get two principal bundles with structure group $SU(2)$, the
+with structure group given by the double cover of $\mathrm{SO}(4)$, namely $\mathrm{SU}(2) \times \mathrm{SU}(2)$. Thus we get two principal bundles with structure group $\mathrm{SU}(2)$, the
 left-handed and right-handed spin bundles. Using the fundamental
-representation of $SU(2)$, we obtain two vector bundles called the bundles
+representation of $\mathrm{SU}(2)$, we obtain two vector bundles called the bundles
 of left-handed and right-handed spinors. This "handedness" or
 "chirality" phenomenon for spinors is of great importance in physics,
 since neutrinos are left-handed spinors --- meaning, in down-to-earth
@@ -95,11 +95,11 @@ Witten's motivation in their second paper is to study mechanisms for
 while the theory has chiral symmetry, its ground states need not.
 
 A Spin-c structure is a bit more subtle, but it allows us to define
-bundles of left-handed and right-handed spinors as $U(2)$ bundles, which
+bundles of left-handed and right-handed spinors as $\mathrm{U}(2)$ bundles, which
 Kronheimer and Mrowka denote by $W+$ and $W-$. The determinant bundle $L$ of
 $W+$ is a line bundle on $X$. The first big ingredient of the theory is a
 hermitian connection $A$ on $L$. In physics lingo this is the vector
-potential of a $U(1)$ gauge field. This gives a Dirac operator $D_A$ mapping
+potential of a $\mathrm{U}(1)$ gauge field. This gives a Dirac operator $D_A$ mapping
 sections of $W+$ to sections of $W-$. The connection $A$ has curvature $F$, and
 the self-dual part $F^+$ of $F$ can be identified with a section of $\mathfrak{sl}(W+)$.
 (This is just a global version of the isomorphism between the self-dual
@@ -118,7 +118,7 @@ To get the magical moduli space, we consider solutions $(A,\psi)$ of
 $$\begin{aligned}D_A\psi &= 0 \\ F^+ &= i\sigma(\psi,\psi).\end{aligned}$$
 Here we are thinking of $F^+$ as a section of $\mathfrak{sl}(W+)$. These are pretty
 reasonable equations for some sort of massless left-handed spinor field
-coupled to a $U(1)$ gauge field. Let $M$ be the space of solutions modulo
+coupled to a $\mathrm{U}(1)$ gauge field. Let $M$ be the space of solutions modulo
 gauge transformations. Kronheimer and Mrowka show the "moduli space" $M$
 is compact.
 

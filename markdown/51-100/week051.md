@@ -49,11 +49,11 @@ bit of sense in a *general* sort of way that Crane and Frenkel are
 trying to construct Donaldson theory using braided monoidal
 2-categories, which seem to play a comparable role in 4d topology. In
 the paper which I cite in ["Week 50"](#week50), they begin to
-construct a braided monoidal 2-category related to the group $SU(2)$,
+construct a braided monoidal 2-category related to the group $\mathrm{SU}(2)$,
 which they conjecture gives a TQFT related to Donaldson theory. That
 also makes some *general* sense, because Donaldson theory, at least
 "old" Donaldson theory, is closely related to gauge theory with gauge
-group $SU(2)$. Still, I've always wanted to see a more *specific* reason
+group $\mathrm{SU}(2)$. Still, I've always wanted to see a more *specific* reason
 why Donaldson theory should be related to the Crane-Frenkel ideas, not
 necessarily a proof, but at least a good heuristic argument.
 
@@ -234,7 +234,7 @@ is too weird, it gets hard to say what its Euler characteristic should
 be! But as Blau and Thompson's paper and the references in it point
 out, one can often still make it make sense, with enough work. In
 particular, when we are dealing with Donaldson theory, $C(M)$ is just the
-moduli space of flat $SU(2)$ connections on $M$. This means that the
+moduli space of flat $\mathrm{SU}(2)$ connections on $M$. This means that the
 partition function of $S^1\times M$ should be the Euler characteristic of
 moduli space, better known as the Casson invariant. And what is the
 vector space our superTQFT assigns to $M$? Well, it's called Floer

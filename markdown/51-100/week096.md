@@ -17,18 +17,18 @@ groups": certain noncommutative algebras analogous to the commutative
 algebras of functions on groups. In fact, not merely are they analogous,
 they depend on a parameter, usually called Planck's constant or ħ, and
 in the classical limit where ħ \to 0 they actually reduce to algebras of
-functions on familiar groups. The simplest case is "quantum SU(2)",
-which reduces in the classical limit to the group SU(2) of 2x2 unitary
+functions on familiar groups. The simplest case is "quantum \mathrm{SU}(2)",
+which reduces in the classical limit to the group \mathrm{SU}(2) of 2x2 unitary
 matrices with determinant 1. Ironically, it's good old "classical
-SU(2)" that governs the quantum mechanical theory of angular momentum.
-Quantum SU(2) was first discovered by people working on physics in
+\mathrm{SU}(2)" that governs the quantum mechanical theory of angular momentum.
+Quantum \mathrm{SU}(2) was first discovered by people working on physics in
 2-dimensional spacetime, where when you quantize certain systems you
 also need to quantize their group of symmetries!
 
 Nowadays, mathematicians find it simpler to work with the closely
-related "quantum SL(2)", a quantization of the the group SL(2) of all
+related "quantum \mathrm{SL}(2)", a quantization of the the group \mathrm{SL}(2) of all
 2x2 complex matrices with determinant 1. The above book is largely about
-quantum SL(2) and its applications to topology.
+quantum \mathrm{SL}(2) and its applications to topology.
 
 All quantum groups give rise to invariants of knots, links, and tangles.
 They also give rise to 3-dimensional topological quantum field theories
@@ -39,7 +39,7 @@ in a quantum field theory is the "partition function", and we say the
 Turaev-Viro theories are "topological" because you get the same answer
 for the partition function no matter how you triangulate the
 3-dimensional manifold corresponding to your spacetime: the partition
-function only depends on the topology of the manifold. The SU(2)
+function only depends on the topology of the manifold. The \mathrm{SU}(2)
 Turaev-Viro theory, the first one to be discovered, is also one of the
 most interesting because, modulo a few subtle points, this theory is
 just quantum gravity in 3 dimensions (see ["Week 16"](#week16)).
@@ -57,7 +57,7 @@ taking advantage of all the structure of the quantum group. Using the
 extra structure, you can also use quantum groups to define certain
 *4-dimensional* topological quantum field theories, those of
 "Crane-Yetter-Broda" type. Here you triangulate a 4-dimensional
-manifold and, in the SU(2) case, you label both the 2d faces the 3d
+manifold and, in the \mathrm{SU}(2) case, you label both the 2d faces the 3d
 tetrahedra with spins. Actually, lots of people think the
 Crane-Yetter-Broda theories are boring, because they look sort of boring
 if you only examine their implications for 4-dimensional topology.
@@ -73,7 +73,7 @@ topological quantum field theories of
 *these* are interesting. I like to emphasize, however, that a deep
 understanding of these 3-dimensional progeny requires an understanding
 of their seemingly innocuous 4-dimensional ancestors. Also, there are a
-lot of interesting relationships between the SU(2) Crane-Yetter-Broda
+lot of interesting relationships between the \mathrm{SU}(2) Crane-Yetter-Broda
 model and quantum gravity in 4 dimensions, which we are just beginning
 to understand. See ["Week 56"](#week56) for a bit about this.
 
@@ -87,9 +87,9 @@ category theory, path integrals, and all that jazz.
 
 What are the 6j symbols, anyway? Here I need to get a wee bit more
 technical. The "classical" 6j symbols are important in the
-representation theory of plain old classical SU(2), while the
-"quantum" ones are analogous gadgets applicable to quantum SU(2). In
-either case the idea is the same. SU(2), classical or quantum, has
+representation theory of plain old classical \mathrm{SU}(2), while the
+"quantum" ones are analogous gadgets applicable to quantum \mathrm{SU}(2). In
+either case the idea is the same. \mathrm{SU}(2), classical or quantum, has
 different representations corresponding to different spins j = 0, 1/2,
 1, 3/2, etc.. (If you don't know what I mean by this, try
 ["Week 5"](#week5).) If we take three representations j1, j2, and
@@ -129,7 +129,7 @@ this paper the authors give evidence for the conjecture that among
 absolute value \|CS(M)\| only depends on the fundamental group of M.
 Chern-Simons theory depends on a choice of group; they prove the
 conjecture for certain manifolds ("lens spaces") when the group is
-SU(2), and give numerical evidence when the gauge group is SU(3).
+\mathrm{SU}(2), and give numerical evidence when the gauge group is \mathrm{SU}(3).
 
 What's interesting about this to me is that \|CS(M)\|\^2 is just the
 Turaev-Viro theory partition function, so this conjecture is saying that

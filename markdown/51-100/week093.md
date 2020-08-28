@@ -120,15 +120,15 @@ decades poring over the standard model and trying to understand what
 it's telling us. It's so full of suggestive patterns and partial
 symmetries! First, why are there 3 forces here? Each force goes along
 with a group of symmetries called a "gauge group", and
-electromagnetism corresponds to U(1), while the weak force corresponds
-to SU(2) and the strong force corresponds to SU(3). (Here U(n) is the
-group of n × n unitary complex matrices, while SU(n) is the subgroup
+electromagnetism corresponds to \mathrm{U}(1), while the weak force corresponds
+to \mathrm{SU}(2) and the strong force corresponds to \mathrm{SU}(3). (Here \mathrm{U}(n) is the
+group of n × n unitary complex matrices, while \mathrm{SU}(n) is the subgroup
 consisting of those with determinant equal to 1.) Well, actually the
 Standard Model partially unifies the electromagnetic and weak force into
 the "electroweak force", and then resorts to the Higgs to explain why
 these forces are so different in practice. Various "grand unified
 theories" or "GUTs" try to unify the forces further by sticking the
-group SU(3) × SU(2) × U(1) into a bigger group - but then resort to
+group \mathrm{SU}(3) × \mathrm{SU}(2) × \mathrm{U}(1) into a bigger group - but then resort to
 still more Higgses to break the symmetry between them!
 
 Then, there is the curious parallel between the leptons and quarks in
@@ -141,7 +141,7 @@ it would be ruined by "anomalies" - certain nightmarish problems that
 can beset a quantum field theory - if one idly tried to mess with the
 generations by leaving out a quark or the like. It's natural to try to
 "unify" the quarks and leptons, and indeed, in grand unified theories
-like the SU(5) theory proposed in 1974 of Georgi and Glashow, the quarks
+like the \mathrm{SU}(5) theory proposed in 1974 of Georgi and Glashow, the quarks
 and leptons are treated in a unified way.
 
 Another interesting pattern is the repetition of generations itself. Why
@@ -182,7 +182,7 @@ bosons and fermions, unified via supersymmetry. To deal with the
 fermions in nature, most work in physics has focused on the
 supersymmetric case. Just for completeness, I should point out that
 there are 5 different supersymmetric string theories: type I, type IIA,
-type IIB, E8 × E8 heterotic and SO(32) heterotic. For more on these, see
+type IIB, E8 × E8 heterotic and \mathrm{SO}(32) heterotic. For more on these, see
 ["Week 72"](#week72). We won't be getting into them here. Instead,
 I just want to explain how fermions work in different dimensions, and
 why nice things happen in dimensions of the form 8k + 2. Most of what I
@@ -315,9 +315,9 @@ the quantum version that only works in dimension 10.)
 So: part of the point of these Clifford algebras is that they give
 representations of the double cover of the Lorentz group in different
 dimensions. In ["Week 61"](#week61) I explained this double cover
-business, and how the group SO(n) of rotations of n-dimensional
+business, and how the group \mathrm{SO}(n) of rotations of n-dimensional
 Euclidean space has a double cover called Spin(n). Similarly, the
-Lorentz group of n-dimensional Minkowski space, written SO(n-1,1), has a
+Lorentz group of n-dimensional Minkowski space, written \mathrm{SO}(n-1,1), has a
 double cover we could call Spin(n-1,1). The spinors we'll discuss are
 all representations of this group.
 
@@ -496,7 +496,7 @@ Lubos Motl explained where the number 18 shows up in string theory:
 > and Γ~8~+Γ~8~, with an added Lorentzian Γ~1,1~, become isometric.
 > There is a single even self-dual lattice in 17+1 dimensions, Γ~17,1~.
 > This is the reason why two heterotic string theories are T-dual to
-> each other. The compactification on a circle adds two extra U(1)s
+> each other. The compactification on a circle adds two extra \mathrm{U}(1)s
 > (from Kaluza-Klein graviphoton and the B-field), and with appropriate
 > Wilson lines, a compactification of one heterotic string theory on
 > radius R is equivalent to the other on radius 1/R, using correct

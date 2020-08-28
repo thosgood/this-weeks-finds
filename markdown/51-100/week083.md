@@ -42,13 +42,13 @@ copies of standard 4-dimensional spacetime, very close together. In
 normal geometry it doesn't even make sense to speak of two separate
 copies of spacetime being "close together", since there is no way to
 get from one to the other! Tricks from noncommutative geometry allow it
-to make sense. They found something amazing: if you do $U(1)\times SU(2)$
+to make sense. They found something amazing: if you do $\mathrm{U}(1)\times \mathrm{SU}(2)$
 Yang-Mills theory on this spacetime, you get the Higgs particle for
 free!
 
 Sorry for the jargon. What it means is this: in the Standard Model of
 particle physics we describe the electromagnetic force and the weak
-nuclear force in a unified way using a theory called "$U(1)\times SU(2)$
+nuclear force in a unified way using a theory called "$\mathrm{U}(1)\times \mathrm{SU}(2)$
 Yang-Mills theory", but then we postulate an extra particle, the Higgs
 particle, which has the effect of making the electromagnetic force work
 quite differently from the weak force. We say it "breaks the symmetry"

@@ -99,7 +99,7 @@ edges gives a 4-coloring of the faces.
 
 So, we see that the edge-coloring formulation of the 4-color problem
 points to some relation with the quaternions, or, pretty much the same
-thing, the group $SU(2)$! (For what $SU(2)$ has to do with quaternions, see
+thing, the group $\mathrm{SU}(2)$! (For what $\mathrm{SU}(2)$ has to do with quaternions, see
 ["Week 5"](#week5).) Those wrong signs look distressing, but in the
 following paper Penrose showed they weren't really so bad:
 
@@ -184,13 +184,13 @@ empty graph equals 1.
 
 Greg Kuperberg pointed out to me that this is a case of the quantum
 group knot invariant called the Yamada polynomal. This is associated to
-the spin-$1$ representation of the quantum group $SU(2)$, and it is a
+the spin-$1$ representation of the quantum group $\mathrm{SU}(2)$, and it is a
 polynomial in a variable $q$ that represents $e^\hbar$, where $\hbar$ is Planck's
 constant. But the "Penrose number" is just the value at $q = 1$ of the
 Yamada polynomial --- the "classical case" when $\hbar = 0$. This makes
 perfect sense if one knows about quantum group knot invariants: the
 factor of 3 in rule B above comes from the fact that the spin-$1$
-representation of $SU(2)$ is 3-dimensional; this representation is really
+representation of $\mathrm{SU}(2)$ is 3-dimensional; this representation is really
 just another way of talking about the vector space spanned by the
 quaternions $i$, $j$, and $k$. Also, quantum group knot invariants fail to
 distinguish between overcrossings and undercrossings when $\hbar = 0$.
@@ -256,7 +256,7 @@ showing that there really was a deep connection between chromatic
 polynomials and the Beraha numbers.
 
 Well, to make a long story short (I'm getting tired), the Beraha
-numbers *also* have a lot to do with the quantum group $SU(2)$. This
+numbers *also* have a lot to do with the quantum group $\mathrm{SU}(2)$. This
 actually goes back to some important work of Jones right before he
 discovered the first of the quantum group knot polynomials, the Jones
 polynomial. He found that -- pardon the jargon burst -- the Markov

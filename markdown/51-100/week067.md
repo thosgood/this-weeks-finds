@@ -143,11 +143,11 @@ which I am also busily studying.
 6) Rodolfo Gambini, Octavio Obregon and Jorge Pullin, "Towards a loop representation for quantum canonical supergravity", available as [`hep-th/9508036`](http://xxx.lanl.gov/abs/hep-th/9508036).
 
 Some knot theorists and quantum group theorists had better take a look
-at this! This paper considers the analog of $SU(2)$ Chern-Simons theory
-where you use the supergroup $GSU(2)$, and perturbatively work out the
+at this! This paper considers the analog of $\mathrm{SU}(2)$ Chern-Simons theory
+where you use the supergroup $G\mathrm{SU}(2)$, and perturbatively work out the
 skein relations of the associated link invariant (up to a certain low
 order in $\hbar$). If someone understood the quantum supergroup "quantum
-$GSU(2)$", they could do this stuff nonperturbatively, and maybe get an
+$G\mathrm{SU}(2)$", they could do this stuff nonperturbatively, and maybe get an
 interesting invariant of links and 3-manifolds, and make some physicists
 happy in the process.
 

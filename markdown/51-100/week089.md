@@ -25,7 +25,7 @@ that came out of that workshop I've been talking about:
 
     Abhay Ashtekar and Alejandro Corichi, "Photon inner-product and the Gauss linking number".
 
-    Abhay Ashtekar, Donald Marolf, Jose Mourao and Thomas Thiemann, "$SU(N)$ quantum Yang-Mills theory in 2 dimensions: a complete solution".
+    Abhay Ashtekar, Donald Marolf, Jose Mourao and Thomas Thiemann, "$\mathrm{SU}(N)$ quantum Yang-Mills theory in 2 dimensions: a complete solution".
 
     Hugo Fort, Rodolfo Gambini and Jorge Pullin, "Lattice knot theory and quantum gravity in the loop representation", also available as [`gr-qc/9608033`](http://xxx.lanl.gov/abs/gr-qc/9608033).
 

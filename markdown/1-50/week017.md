@@ -206,7 +206,7 @@ simpler, although it uses some serious mathematics. I think I might be
 able to understand it. It starts:
 
 > The perturbative expansion of any quantum field theory (qft) with fields
-  transforming in the adjoint representation of $SU(N)$ is
+  transforming in the adjoint representation of $\mathrm{SU}(N)$ is
   a topological expansion in surfaces, with $N^{-2}$ playing the role
   of a handle-counting parameter.  For $N$ large, one hopes that the
   dynamics of the qft is approximated by the sum (albeit largely
@@ -225,7 +225,7 @@ able to understand it. It starts:
   energy of the qft. There is no guaranty that such an association will exist.
 
 The author argues that Chern-Simons theory is a "rara avis among QFTs"
-for which such an association exists. He takes the free energy for $SU(N)$
+for which such an association exists. He takes the free energy for $\mathrm{SU}(N)$
 Chern-Simons theory on $S^3$, does a large-$N$ expansion on it, and shows
 that the coefficient of the $N^{2-2g}$ term is the (virtual) Euler
 characteristics of the moduli space of surfaces with g handles. I wish I

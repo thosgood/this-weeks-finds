@@ -144,7 +144,7 @@ is invertible and its inverse also consists of integers. These
 transformations preserve the "handedness" of the basis $\omega_1$, $\omega_2$ if
 they have determinant $1$, and that's generally a good thing to require.
 The group of $2\times2$ invertible matrices over the integers with determinant
-$1$ is called $SL(2,\mathbb{Z})$, or the "modular group" in this context. I said a
+$1$ is called $\mathrm{SL}(2,\mathbb{Z})$, or the "modular group" in this context. I said a
 bit about it and its role in string theory in ["Week 64"](#week64).
 
 Now, if we are only interested in parametrizing the different *shapes*
@@ -154,19 +154,19 @@ the ratio
 $$\tau=\frac{\omega_1}{\omega_2}.$$
 We might as well assume $\tau$ is in the upper halfplane, $H$, while we're at
 it. But for the reason given above, this description is redundant; if we
-have a lattice described by $\tau$, and a matrix in $SL(2,\mathbb{Z})$, we get a new guy
+have a lattice described by $\tau$, and a matrix in $\mathrm{SL}(2,\mathbb{Z})$, we get a new guy
 $\tau'$ which really describes the same shaped lattice. If you work it out,
 $$\tau' = \frac{a\tau + b}{c\tau + d}.$$
 So the space of different possible shapes of lattices in the complex
 plane is really the quotient
-$$H/SL(2,\mathbb{Z}).$$
+$$H/\mathrm{SL}(2,\mathbb{Z}).$$
 Now, a function on this space is just a function of $\tau$ that doesn't
 change when you replace $\tau$ by $\tau'$ as above. In other words, it's
 basically just a function depending only on the shape of a 2d lattice.
 Now it turns out that there is essentially just one "nice" function of
 this sort, called $j$; all other "nice" functions of this sort are
 functions of $j$. (For experts, what I mean is that the meromorphic
-$SL(2,\mathbb{Z})$-invariant functions on $H$ union the point at infinity are all
+$\mathrm{SL}(2,\mathbb{Z})$-invariant functions on $H$ union the point at infinity are all
 rational functions of this function $j$.)
 
 It looks like this:

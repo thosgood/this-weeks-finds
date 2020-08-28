@@ -27,86 +27,86 @@ what I say below.
 
 Okay, so, how should we start? Well, probably we should start with the
 group of rotations in $n$-dimensional Euclidean space. This group is
-called $SO(n)$. It is not simply connected if $n > 1$, meaning that there
+called $\mathrm{SO}(n)$. It is not simply connected if $n > 1$, meaning that there
 are loops in it which cannot be continuously shrunk to a point. This is
-easy to see for $SO(2)$, which is just the circle --- or, if you prefer, the
-unit complex numbers. It's a bit trickier to see for $SO(3)$, but it is
+easy to see for $\mathrm{SO}(2)$, which is just the circle --- or, if you prefer, the
+unit complex numbers. It's a bit trickier to see for $\mathrm{SO}(3)$, but it is
 easy enough to demonstrate --- either mathematically or via the famous
 "belt trick" --- that the loop consisting of a 360 degree rotation
 around an axis cannot be continuously shrunk to a point, while the loop
 consisting of a 720 degree rotation around an axis can.
 
-This "doubly connected" property of $SO(3)$ implies that it has an
+This "doubly connected" property of $\mathrm{SO}(3)$ implies that it has an
 interesting "double cover", a group $G$ in which all loops *can* be
-contracted to a point, together with a two-to-one function $F\colon G \to SO(3)$
+contracted to a point, together with a two-to-one function $F\colon G \to \mathrm{SO}(3)$
 with $F(gh) = F(g)F(h)$. (This sort of function, the nice kind of function
 between groups, is called a "homomorphism".) And this double cover $G$
-is just $SU(2)$, the group of $2\times2$ complex matrices which are unitary and
+is just $\mathrm{SU}(2)$, the group of $2\times2$ complex matrices which are unitary and
 have determinant $1$. Better yet --- if we are warming up for the octonions
---- we can think of $SU(2)$ as the unit quaternions!
+--- we can think of $\mathrm{SU}(2)$ as the unit quaternions!
 
-Now elements of $SO(n)$ are just $n\times n$ real matrices which are orthogonal
-and have determinant $1$, so given an element $g$ of $SO(n)$ and a vector $v$ in
+Now elements of $\mathrm{SO}(n)$ are just $n\times n$ real matrices which are orthogonal
+and have determinant $1$, so given an element $g$ of $\mathrm{SO}(n)$ and a vector $v$ in
 $\mathbb{R}^n$, we can do matrix multiplication to get a new vector $gv$ in $\mathbb{R}^n$,
 which of course is just the result of rotating $v$ by the rotation $g$. This
-makes $\mathbb{R}^n$ into a "representation" of $SO(n)$, meaning simply that
+makes $\mathbb{R}^n$ into a "representation" of $\mathrm{SO}(n)$, meaning simply that
 $$(gh)v = g(hv)$$
 and
 $$1v = v.$$
-We call $\mathbb{R}^n$ the "vector" representation of the rotation group $SO(n)$,
+We call $\mathbb{R}^n$ the "vector" representation of the rotation group $\mathrm{SO}(n)$,
 for obvious reasons.
 
-Now $SO(n)$ has lots of other representations, too. If we consider $SO(3)$,
+Now $\mathrm{SO}(n)$ has lots of other representations, too. If we consider $\mathrm{SO}(3)$,
 for example, there is in addition to the vector representation (which is
 3-dimensional) also the trivial 1-dimensional representation (where the
 group element $g$ acts on a complex number $v$ by leaving it alone!) and
 also interesting representations of dimensions 5, 7, 9, etc.. The
 interesting representation of dimension $2j+1$ is called the "spin-$j$"
-representation by physicists. All representations of $SO(3)$ can be built
+representation by physicists. All representations of $\mathrm{SO}(3)$ can be built
 up from these representations, and none of these representations can be
 broken down into smaller ones --- one says they are irreducible.
 
-But the double cover of $SO(3)$, namely $SU(2)$, has more representations!
-Using the two-to-one homomorphism $F\colon SU(2) \to SO(3)$ we can convert any
-representation of $SO(3)$ into one of $SU(2)$, but not vice versa. For
-example, since $SU(2)$ consists of $2\times2$ complex matrices, it has a
+But the double cover of $\mathrm{SO}(3)$, namely $\mathrm{SU}(2)$, has more representations!
+Using the two-to-one homomorphism $F\colon \mathrm{SU}(2) \to \mathrm{SO}(3)$ we can convert any
+representation of $\mathrm{SO}(3)$ into one of $\mathrm{SU}(2)$, but not vice versa. For
+example, since $\mathrm{SU}(2)$ consists of $2\times2$ complex matrices, it has a
 representation on $\mathbb{C}^2$, given by the obvious matrix multiplication. This
-is called the "spinor" or "spin-$1/2$" representation of $SU(2)$. It
-doesn't come from a representation of $SO(3)$.
+is called the "spinor" or "spin-$1/2$" representation of $\mathrm{SU}(2)$. It
+doesn't come from a representation of $\mathrm{SO}(3)$.
 
-To digress a bit, the reason physicists got so interested in $SU(2)$ is
+To digress a bit, the reason physicists got so interested in $\mathrm{SU}(2)$ is
 that to describe what happens when you rotate a particle (in the
 framework of quantum theory) it turns out you need, not just the
-representations of $SO(3)$, but of its double cover, $SU(2)$. E.g., an
+representations of $\mathrm{SO}(3)$, but of its double cover, $\mathrm{SU}(2)$. E.g., an
 electron, proton or neutron is described by the spin-$1/2$ representation.
 This implies that when you turn an electron around 360 degrees about an
 axis, its wavefunction changes sign, but when you rotate it another 360
 degrees, its wavefunction is back to where it started. You can't
-describe this behavior using representations of $SO(3)$, but you can using
-$SU(2)$. In general, for any $j = 0, 1/2, 1, 3/2, 2, \ldots$, there is an
-irreducible representation of $SU(2)$, called the "spin-$j$"
+describe this behavior using representations of $\mathrm{SO}(3)$, but you can using
+$\mathrm{SU}(2)$. In general, for any $j = 0, 1/2, 1, 3/2, 2, \ldots$, there is an
+irreducible representation of $\mathrm{SU}(2)$, called the "spin-$j$"
 representation, which is $(2j+1)$-dimensional. Only when the spin is an
-integer does the representation come from one of $SO(3)$.
+integer does the representation come from one of $\mathrm{SO}(3)$.
 
 Things get more complicated when we consider rotations in higher
-dimensional space. For any $n$ greater than or equal to 3, the group $SO(n)$
+dimensional space. For any $n$ greater than or equal to 3, the group $\mathrm{SO}(n)$
 is doubly connected, and has a simply connected double cover, which in
 general is called $\mathrm{Spin}(n)$. Folks have figured out all the
 representations of $\mathrm{Spin}(n)$ and which of these come from representations
-of $SO(n)$. It is more complicated for $n > 3$ than for $n = 3$ (in
+of $\mathrm{SO}(n)$. It is more complicated for $n > 3$ than for $n = 3$ (in
 particular, they aren't just classified by "spin"), but it is still
 quite comprehensible and charming. Just to head off any confusions that
 might occur, let me emphasize that it's sort of a lucky coincidence
-that $\mathrm{Spin}(3) = SU(2)$. In general, the spin groups don't have too much
-to do with the groups $SU(n)$ of $n\times n$ unitary complex matrices with
+that $\mathrm{Spin}(3) = \mathrm{SU}(2)$. In general, the spin groups don't have too much
+to do with the groups $\mathrm{SU}(n)$ of $n\times n$ unitary complex matrices with
 determinant $1$.
 
 There is, however, a doubly lucky coincidence in dimension 4; namely,
-$\mathrm{Spin}(4) = SU(2) \times SU(2)$. In other words, an element of $\mathrm{Spin}(4)$ can be
-thought of as a pair of $SU(2)$ matrices, and we multiply these pairs like
+$\mathrm{Spin}(4) = \mathrm{SU}(2) \times \mathrm{SU}(2)$. In other words, an element of $\mathrm{Spin}(4)$ can be
+thought of as a pair of $\mathrm{SU}(2)$ matrices, and we multiply these pairs like
 $(g,g')(h,h') = (gh,g'h')$. This implies that the irreducible
 representations of $\mathrm{Spin}(4)$ are given by a "tensor product" of two
-irreducible representations of $SU(2)$, so we can classify them by pairs
+irreducible representations of $\mathrm{SU}(2)$, so we can classify them by pairs
 of spins, say $(j,j')$. The dimension of the $(j,j')$ representation is
 $(2j+1)(2j'+1)$, since the dimension of a tensor product is the product
 of the dimensions. In particular, we call the $(1/2,0)$ representation the
@@ -127,7 +127,7 @@ than 2), it turns out that $\mathrm{Spin}(n)$ has left-handed and right-handed
 spinor representations, each of dimension $2^{n/2-1}$. When $n$ is odd
 there is just one spinor representation. Of course, there is always the
 representation of $\mathrm{Spin}(n)$ coming from the vector representation of
-$SO(n)$, which is $n$-dimensional.
+$\mathrm{SO}(n)$, which is $n$-dimensional.
 
 This leads to something very curious. If you are an ordinary
 4-dimensional physicist you undoubtedly tend to think of spinors as
@@ -161,8 +161,8 @@ $\mathrm{Spin}(8)$!
 
 Start with an 8-dimensional *complex* vector space $V$ with a
 nondegenerate symmetric bilinear form on it. We can think of $V$ as the
-representation of $SO(8)$, hence $\mathrm{Spin}(8)$, where now I've switched
-notation and write $SO(8)$ to mean $SO(8,\mathbb{C})$, and $\mathrm{Spin}(8)$ to mean $\mathrm{Spin}(8,\mathbb{C})$.
+representation of $\mathrm{SO}(8)$, hence $\mathrm{Spin}(8)$, where now I've switched
+notation and write $\mathrm{SO}(8)$ to mean $\mathrm{SO}(8,\mathbb{C})$, and $\mathrm{Spin}(8)$ to mean $\mathrm{Spin}(8,\mathbb{C})$.
 We can split $V$ into two 4-dimensional subspaces $V_+$ and $V_-$ such that
 $\langle v,w\rangle = 0$ whenever $v$ and $w$ are either both in $V_+$, or both in $V_-$. Let
 $\mathrm{Cliff}$ be the Clifford algebra over $V$. Note that as a vector space, there
@@ -285,8 +285,8 @@ kind of ring-around-the-rosie process using triality!
 
 Note: what we just obtained was a *complex* 8-dimensional algebra, which
 is the complexification of the octonions. Using the fact that the vector
-representation of $SO(8,\mathbb{C})$ on $\mathbb{C}^8$ contains the vector representation of
-$SO(8,\mathbb{R})$ on $\mathbb{R}^8$ as a "real part", we should be able to get the
+representation of $\mathrm{SO}(8,\mathbb{C})$ on $\mathbb{C}^8$ contains the vector representation of
+$\mathrm{SO}(8,\mathbb{R})$ on $\mathbb{R}^8$ as a "real part", we should be able to get the
 octonions themselves.
 
 One can work out the details following the book of Fulton and Harris,

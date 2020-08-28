@@ -6,7 +6,7 @@ all the abstract concepts involved. However, we are now at a point where
 we can have some fun with what we've got, even if you haven't really
 followed all the previous stuff. So what follows is a rambling tour
 through monads, adjunctions, the 4-color theorem and the large-N limit
-of SU(N) gauge theory....
+of \mathrm{SU}(N) gauge theory....
 
 Okay, so in ["Week 89"](#week89) we defined a gadget called a
 "monad". Using the string diagrams we talked about, you can think of a
@@ -295,8 +295,8 @@ Academic Press, 1971.
 But most of the work on this sort of thing has been aimed at
 applications of other sorts.
 
-Now let me drift over to a related subject, the large-N limit of SU(N)
-gauge theory. Quantum chromodynamics, or QCD, is an SU(N) gauge theory
+Now let me drift over to a related subject, the large-N limit of \mathrm{SU}(N)
+gauge theory. Quantum chromodynamics, or QCD, is an \mathrm{SU}(N) gauge theory
 with N = 3, but it turns out that things simplify a lot in the limit as
 N \to ∞, and one gets some nice qualitative insight into the strong force
 by considering this simplified theory. One can even treat the number 3
@@ -312,7 +312,7 @@ the dominance of planar graphs". Coleman considers Yang-Mills theories,
 like QCD, but many of the same ideas apply to other gauge theories.
 
 The idea is that if we start out studying the Feynman diagrams for a
-gauge field theory with gauge group SU(N), and see how much various
+gauge field theory with gauge group \mathrm{SU}(N), and see how much various
 diagrams contribute to any process for large N, the diagrams that
 contribute the most are those that can be drawn on a plane without any
 lines crossing. Technically, the reason is that diagrams that can only
@@ -369,19 +369,19 @@ about trivalent graphs. In particular, Penrose invented a little recipe
 that lets us calculate an invariant of trivalent graphs, which is zero
 for some *planar* graph only if some corresponding map can't be
 4-colored. This recipe involves the vector cross product, or
-equivalently, the Lie algebra of the group SU(2). You can generalize it
-to work for SU(N). And if you then consider the N \to ∞ limit, you get the
+equivalently, the Lie algebra of the group \mathrm{SU}(2). You can generalize it
+to work for \mathrm{SU}(N). And if you then consider the N \to ∞ limit, you get the
 above stuff! (The point is that the above stuff also gives a rule for
 computing a number from any trivalent graph.)
 
 Now as I said, in the N \to ∞ limit all the nonplanar Feynman diagrams
 give negligible results compared to the planar ones. So another way to
-state the 4-color theorem is this: if the SU(2) invariant of a trivalent
-graph is zero, the SU(N) invariant is negligible in the N \to ∞ limit.
+state the 4-color theorem is this: if the \mathrm{SU}(2) invariant of a trivalent
+graph is zero, the \mathrm{SU}(N) invariant is negligible in the N \to ∞ limit.
 
 This doesn't yet give a new proof of the 4-color theorem. But it makes
 it into sort of a *physics* problem: a problem about the relation of
-SU(2) Chern-Simons theory and the N \to ∞ limit of Chern-Simons theory.
+\mathrm{SU}(2) Chern-Simons theory and the N \to ∞ limit of Chern-Simons theory.
 
 Now, the 4-color theorem is one of the two deep mysteries of
 2-dimensional topology - a subject too often considered trivial. The

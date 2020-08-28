@@ -116,7 +116,7 @@ corresponding to the (2,2) move is not something marvelously obscure. It
 is in fact precisely what physicists call the "$6j$ symbol", a gadget
 they've been using to study angular momentum in quantum mechanics for a
 long time! In quantum mechanics, the study of angular momentum is just
-the study of representations of the group $SU(2)$, and if one has
+the study of representations of the group $\mathrm{SU}(2)$, and if one has
 representations $A$, $B$, and $C$ of this group (or any other), the tensor
 products $(A \otimes B) \otimes C$ and $A \otimes (B \otimes C)$ are not
 *equal*, but merely *isomorphic*. It should come as no surprise that
@@ -124,7 +124,7 @@ this isomorphism is represented by physicists as a big gadget with 6
 indices dangling on it, the "$6j$ symbol".
 
 Quite a while back, Regge and Ponzano tried to cook up a theory of
-quantum gravity in 3 dimensions using the $6j$ symbols for $SU(2)$. More
+quantum gravity in 3 dimensions using the $6j$ symbols for $\mathrm{SU}(2)$. More
 recently, Turaev and Viro built a 3-dimensional topological quantum
 field theory using the $6j$-symbols of the *quantum group* $SU_q(2)$, and
 this led to lots of work, which the above article explains in a

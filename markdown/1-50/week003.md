@@ -38,19 +38,19 @@ of Lie groups is that they are what crop up as the groups of symmetries
 in physics. The Lie algebra is essentially the "infinitesimal version"
 of the corresponding Lie group, as anyone has seen who has taken physics
 and seen the relation between the group of rotations in $\mathbb{R}^3$ and the
-cross product. Here the group is called $SO(3)$ and the Lie algebra is
+cross product. Here the group is called $\mathrm{SO}(3)$ and the Lie algebra is
 called $\mathfrak{so}(3)$. (So $\mathbb{R}^3$ with its cross product is called $\mathfrak{so}(3)$.) One can
-generalize this to any number of dimensions, letting $SO(n)$ denote the
+generalize this to any number of dimensions, letting $\mathrm{SO}(n)$ denote the
 group of rotations in $\mathbb{R}^n$ and $\mathfrak{so}(n)$ the corresponding Lie algebra.
 (However, $\mathfrak{so}(n)$ is not isomorphic to $\mathbb{R}^n$ except for $n = 3$, so there is
 something very special about three dimensions.)
 
 Similarly, if one uses complex numbers instead of real numbers, one gets
-a group $SU(n)$ and Lie algebra $\mathfrak{su}(n)$. And if one looks at the symmetries
+a group $\mathrm{SU}(n)$ and Lie algebra $\mathfrak{su}(n)$. And if one looks at the symmetries
 of a 2n-dimensional classical phase space --- so-called canonical
 transformations, or symplectic transformations --- one gets the group
-$Sp(n)$ and Lie algebra $\mathfrak{sp}(n)$. To be precise, $SO(n)$ consists of all $n\times n$
-orthogonal real matrices with determinant $1$, $SU(n)$ consists of all $n\times n$
+$Sp(n)$ and Lie algebra $\mathfrak{sp}(n)$. To be precise, $\mathrm{SO}(n)$ consists of all $n\times n$
+orthogonal real matrices with determinant $1$, $\mathrm{SU}(n)$ consists of all $n\times n$
 unitary complex matrices with determinant $1$, and $Sp(n)$ consists of all
 $(2n)\times(2n)$ real matrices preserving a nondegenerate skew-symmetric form.
 
@@ -58,13 +58,13 @@ These are all very important in physics. Indeed, all the "gauge
 groups" of physics are Lie groups of a certain sort, so-called compact
 Lie groups, and in the standard model all the forces are symmetrical
 under some gauge group or other. Electromagnetism a la Maxwell is
-symmetric under the group $U(1)$ of complex numbers of unit magnitude, or
+symmetric under the group $\mathrm{U}(1)$ of complex numbers of unit magnitude, or
 "phases". The electroweak force (unified electromagnetism and weak
-force) is symmetric under $U(1) \times SU(2)$, where one uses the fact that one
+force) is symmetric under $\mathrm{U}(1) \times \mathrm{SU}(2)$, where one uses the fact that one
 can build up bigger semisimple Lie groups as direct sums (also called
 products) of smaller ones. The gauge group for the strong force is
-$SU(3)$. And, finally, the gauge group of the whole standard model is
-simply $U(1) \times SU(2) \times SU(3)$, which results from lumping the electroweak
+$\mathrm{SU}(3)$. And, finally, the gauge group of the whole standard model is
+simply $\mathrm{U}(1) \times \mathrm{SU}(2) \times \mathrm{SU}(3)$, which results from lumping the electroweak
 and strong gauge groups together. This direct sum business also works
 for the Lie algebras, so the Lie algebra relevant to the standard model
 is written $\mathfrak{u}(1) \times \mathfrak{su}(2) \times \mathfrak{su}(3)$.

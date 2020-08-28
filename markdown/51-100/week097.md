@@ -181,7 +181,7 @@ transports a little arrow around a loop.
 
 The theories of the electroweak and strong forces are similar but the
 analog of the "phase" is a bit more abstract: an element of the group
-SU(2) x U(1) or SU(3), respectively.
+\mathrm{SU}(2) x \mathrm{U}(1) or \mathrm{SU}(3), respectively.
 
 The idea of the loop representation is to take these "phases acquired
 around loops" as basic variables for describing the laws of physics.
@@ -281,9 +281,9 @@ think, you may know that the Wilson loops are keeping track of a kind of
 the Wilson loops by introducing some other operators he called
 "disorder operators".
 
-Chromodynamics is an SU(3) gauge theory but it's a little clearer if we
-work with any SU(N) gauge theory. Notice that the center of the group
-SU(N) consists of the matrices of the form
+Chromodynamics is an \mathrm{SU}(3) gauge theory but it's a little clearer if we
+work with any \mathrm{SU}(N) gauge theory. Notice that the center of the group
+\mathrm{SU}(N) consists of the matrices of the form
 
 exp(2 π i n/N)
 
@@ -292,7 +292,7 @@ operator that does the following thing: it modifies the connection, or
 vector potential, in such a way that if you do parallel transport around
 a tiny loop linking h once, the holonomy changes to exp(2 π i/N) times
 what it had been. Note: this is a gauge-invariant thing to do, because
-that exp(2 π i/N) is in the center of SU(N)! So just as the Wilson loop
+that exp(2 π i/N) is in the center of \mathrm{SU}(N)! So just as the Wilson loop
 observables are gauge-invariant, we can hope for some some "disorder
 operators" V(h) that modify the connection in this way.
 

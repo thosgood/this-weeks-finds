@@ -149,8 +149,8 @@ it results from the application of the exact equations to a restricted
 class of geometries. Both a Lagrangian and Hamiltonian formulation are
 proposed and we report partial results about the constraint algebra of
 the Hamiltonian formulation. We find that in the limit that the
-$SO(3)$ gauge symmetry of frame rotations is reduced to the abelian
-$U(1)^3$, the discrete versions of the diffeomorphism constraints
+$\mathrm{SO}(3)$ gauge symmetry of frame rotations is reduced to the abelian
+$\mathrm{U}(1)^3$, the discrete versions of the diffeomorphism constraints
 commute with each other and with the Hamiltonian constraint.
 
 ------------------------------------------------------------------------

@@ -215,7 +215,7 @@ manageable:
 
 11) "Lattice QCD as a theory of interacting surfaces", by B. Rusakov, `TAUP-2204-94`, 12 pages in LaTeX format available as [`hep-th/9410004`](http://xxx.lanl.gov/abs/hep-th/9410004).
 
-    "$U(N)$ Gauge Theory and Lattice Strings", by Ivan K. Kostov, 26 pages, 8 figures not included, available by mail upon request, `T93-079` (talk at the _Workshop on string theory, gauge theory and quantum gravity_, 28--29 April 1993, Trieste, Italy), available as [`hep-th/9308158`](http://xxx.lanl.gov/abs/hep-th/9308158).
+    "$\mathrm{U}(N)$ Gauge Theory and Lattice Strings", by Ivan K. Kostov, 26 pages, 8 figures not included, available by mail upon request, `T93-079` (talk at the _Workshop on string theory, gauge theory and quantum gravity_, 28--29 April 1993, Trieste, Italy), available as [`hep-th/9308158`](http://xxx.lanl.gov/abs/hep-th/9308158).
 
 Also, if there were any gauge theory that deserved to be a string
 theory, it's probably Chern-Simons theory, which has so much to do with

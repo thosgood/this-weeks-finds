@@ -38,9 +38,9 @@ operators such as the "total volume of the universe".
 It is thus quite interesting that the authors make progress on
 determining the "right" extension of the HOMFLY polynomial invariant
 of links to links with transverse triple points --- that is, the extension
-that one gets by doing calculations in $SU(n)$ Chern-Simons theory. In a
+that one gets by doing calculations in $\mathrm{SU}(n)$ Chern-Simons theory. In a
 special case, namely when the HOMFLY polynomial reduces to the Kauffman
-bracket (which corresponds to the Lie group $SU(2)$), one gets a state of
+bracket (which corresponds to the Lie group $\mathrm{SU}(2)$), one gets a state of
 quantum gravity that has been under extensive investigation these days.
 The authors compute the Kaufmann bracket of links with triple points
 using first order perturbation theory in Chern-Simons theory. A
@@ -104,8 +104,8 @@ Vogel, _Jour. of Knot Theory and its Ramifications_, **1** (1992), 59--104.
 
 This is another nice treatment of link invariants for generalized links
 with self-intersections. It concentrates on the famous link invariants
-coming from Chern-Simons theory --- the HOMFLY polynomial (from $SU(n)$) and
-the Kauffman polynomial (from $SO(n)$). Lots of good pictures.
+coming from Chern-Simons theory --- the HOMFLY polynomial (from $\mathrm{SU}(n)$) and
+the Kauffman polynomial (from $\mathrm{SO}(n)$). Lots of good pictures.
 
 And, switching back to the category theory, 2-categories, and the like,
 let me list these before filing them away:
@@ -124,8 +124,8 @@ covariant 4-dimensional quantum field theories (e.g. quantum gravity or
 a "theory of everything") based on 2-categories. "Categorical
 physics" sketches the big picture, while the paper with Yetter provides
 a juicy mathematical spinoff --- the first known four-dimensional TQFT,
-based on the representations of quantum $SU(2)$ and very similar in spirit
-to the Turaev-Viro construction of a 3d TQFT from quantum $SU(2)$. The
+based on the representations of quantum $\mathrm{SU}(2)$ and very similar in spirit
+to the Turaev-Viro construction of a 3d TQFT from quantum $\mathrm{SU}(2)$. The
 papers with Frenkel (apparently still not in their final form) describe
 the game plan and hint at marvelous things still to come. The conjecture
 is stated: "a 4d TQFT can be reconstructed from a tensor 2-category".
@@ -138,7 +138,7 @@ categories of a Hopf category is a tensor 2-category, and use
 quantum group into a Hopf category. Sound abstract? Indeed it is. But
 the aim is clear: to cook up 4d TQFTs from quantum groups. Such quantum
 field theories might be physically important; indeed, the one associated
-to $SU(2)$ is likely to have a lot to do with quantum gravity.
+to $\mathrm{SU}(2)$ is likely to have a lot to do with quantum gravity.
 
 I am currently perusing Kapranov and Voevodsky's massive paper on
 2-categories, which seems to be the starting point for Crane's above

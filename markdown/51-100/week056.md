@@ -20,12 +20,12 @@ $S$, is a space of *connections* on $S$. A connection is just what a
 physicist often calls a vector potential, but for any old gauge theory,
 not just electromagnetism. Different gauge theories have different gauge
 groups, so I had better tell you the gauge group of Ashtekar's version
-of general relativity: it's $SL(2,\mathbb{C})$, the group of $2\times2$ complex matrices
+of general relativity: it's $\mathrm{SL}(2,\mathbb{C})$, the group of $2\times2$ complex matrices
 with determinant equal to $1$. And I should probably tell you which bundle
-over $S$ we have an $SL(2,\mathbb{C})$ connection on... but luckily, all $SL(2,\mathbb{C})$
+over $S$ we have an $\mathrm{SL}(2,\mathbb{C})$ connection on... but luckily, all $\mathrm{SL}(2,\mathbb{C})$
 bundles over 3-manifolds are trivial, so I can cut corners by saying
 it's the trivial bundle. We can think of a connection $A$ on the trivial
-$SL(2,\mathbb{C})$ bundle over $S$ as 1-forms taking values in the Lie algebra
+$\mathrm{SL}(2,\mathbb{C})$ bundle over $S$ as 1-forms taking values in the Lie algebra
 $\mathfrak{sl}(2,\mathbb{C})$, consisting of $2\times2$ complex matrices with trace zero.
 
 Okay, so naively you might think a state in the *quantum* version of

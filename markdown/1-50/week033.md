@@ -111,7 +111,7 @@ observed system that's an eigenvector of $A$:
 $$Au(i) = a(i)u(i),$$
 then the unitary operator $U$ corresponding to time evolution does the
 following:
-$$U(u(i) \otimes v) = u(i) \otimes v(i)$$
+$$\mathrm{U}(u(i) \otimes v) = u(i) \otimes v(i)$$
 where the state $v(i)$ of the apparatus is one in which it can be said to
 have measured the observable $A$ to have value $a(i)$. E.g., the apparatus
 might have a dial on it, and in the state $v(i)$ the dial reads "$a(i)$".

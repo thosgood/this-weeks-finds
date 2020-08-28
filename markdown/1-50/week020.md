@@ -194,14 +194,14 @@ elements!
 Here's a fun story about this number.
 
 In the 1970s, the mathematicians Fricke, Ogg and Thompson were studying
-the quotient of the hyperbolic plane by various subgroups of $SL(2,\mathbb{R})$ ---
+the quotient of the hyperbolic plane by various subgroups of $\mathrm{SL}(2,\mathbb{R})$ ---
  the group of $2\times2$ real matrices with determinant one --- which acts as
-isometries of the hyperbolic plane. Sitting inside $SL(2,\mathbb{R})$ is the group
-of $2\times2$ integer matrices with determinant one, called $SL(2,\mathbb{Z})$. Sitting
+isometries of the hyperbolic plane. Sitting inside $\mathrm{SL}(2,\mathbb{R})$ is the group
+of $2\times2$ integer matrices with determinant one, called $\mathrm{SL}(2,\mathbb{Z})$. Sitting
 inside that is the group $\Gamma_0(p)$ consisting of matrices whose lower left
 corner is congruent to zero $\mod p$ for the prime $p$. But Fricke, Ogg and
 Thompson were actually considering a somewhat larger group $\Gamma_0(p)+$,
-which is the normalizer of $\Gamma_0(p)$ inside $SL(2,\mathbb{R})$.
+which is the normalizer of $\Gamma_0(p)$ inside $\mathrm{SL}(2,\mathbb{R})$.
 
 If you don't know what this stuff means, don't worry! The point is
 that they asked this question: if we take the quotient of the hyperbolic
@@ -215,7 +215,7 @@ were precisely the prime factors of the size of the Monster! He wrote a
 paper offering a bottle of Jack Daniels whiskey to anyone who could
 explain this fact. This was the beginning of a subject which Conway
 dubbed "Monstrous Moonshine": the mysterious relation between the
-Monster group, the group $SL(2,\mathbb{R})$, and Riemann surfaces.
+Monster group, the group $\mathrm{SL}(2,\mathbb{R})$, and Riemann surfaces.
 
 It turns out that lying behind Monstrous Moonshine is a certain string
 theory having the Monster as symmetries, and this was the key to
@@ -238,13 +238,13 @@ and a lattice in 8 dimensions that goes by the name of $E_8$. I'll be a
 bit more technical here.
 
 The group of rotational symmetries of the icosahedron is, as we have
-said, $A_5$. This is a subgroup of the 3d rotation group $SO(3)$. As all
-physicists know, whether they know it or not, the group $SO(3)$ has the
-group $SU(2)$ of $2\times2$ unitary matrices with determinant $1$ as its double
+said, $A_5$. This is a subgroup of the 3d rotation group $\mathrm{SO}(3)$. As all
+physicists know, whether they know it or not, the group $\mathrm{SO}(3)$ has the
+group $\mathrm{SU}(2)$ of $2\times2$ unitary matrices with determinant $1$ as its double
 cover. So we can find a corresponding double cover of $A_5$ as a subgroup
-of $SU(2)$; this has twice as many elements as $A_5$, for a total of 120.
+of $\mathrm{SU}(2)$; this has twice as many elements as $A_5$, for a total of 120.
 
-Now the group $SU(2)$ has a nice description as the group of *unit quaternions*, that is, things of the form
+Now the group $\mathrm{SU}(2)$ has a nice description as the group of *unit quaternions*, that is, things of the form
 $$a + bI + cJ + dK$$
 where $a,b,c,d$ are real numbers with $a^2 + b^2 + c^2 + d^2 = 1$, and
 $I$,$J$, and $K$ satisfy
@@ -364,7 +364,7 @@ is, up to rotation, the *only* way to get 240 spheres to touch a central
 one in 8 dimensions. (Also, one cannot get *more* than 240 to touch the
 central one.) So the subgroup of $S_{240}$ that one can get by rolling 240
 spheres around a central one is precisely the "obvious" subgroup, that
-is, the subgroup of $SO(8)$ that preserves the $E_8$ lattice. This turns
+is, the subgroup of $\mathrm{SO}(8)$ that preserves the $E_8$ lattice. This turns
 out to be just the Weyl group of $E_8$, which has
 $$2^{14}\cdot 3^5\cdot 5^2\cdot 7 = 696729600$$
 elements.
@@ -385,7 +385,7 @@ itself, we get the Leech lattice. In this lattice each sphere touches
 *only* way to get 196560 spheres to touch a central one in 24
 dimensions. This should be obvious by visualizing it. :-) So again the
 answer to the rolling spheres permutation problem is the subgroup of
-$SO(24)$ that preserves the Leech lattice. The isomorphism group of the
+$\mathrm{SO}(24)$ that preserves the Leech lattice. The isomorphism group of the
 Leech lattice is an interesting group called $Co_0$ or $.0$ (pronounced
 "dotto"). It has
 $$2^{22}\cdot 3^9\cdot 5^4\cdot 7^2\cdot 11\cdot 13\cdot 23 = 8315553613086720000$$

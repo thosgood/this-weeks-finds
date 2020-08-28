@@ -204,7 +204,7 @@ equations what you do is this. First you forget about the constraint and
 get a big space of states, the "kinematical state space". There are
 lots of mathematical choices involved here, but Ashtekar and Lewandowski
 came up with a particular nice way of doing this rigorously, and one
-calls this space of states "$L^2$ of the space of $SU(2)$ connections
+calls this space of states "$L^2$ of the space of $\mathrm{SU}(2)$ connections
 modulo gauge transformations with respect to the Ashtekar-Lewandowski
 generalized measure". Spin networks form an orthonormal basis of this
 Hilbert space. All the stuff about area and volume operators above

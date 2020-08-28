@@ -139,27 +139,27 @@ chiral spin connection the "right-handed" connection.)
 
 I do, however, want to emphasize that the new variables rely heavily
 upon some of the basic group-theoretic facts about 3 and 4 dimensions.
-The group of rotations in 3d space is called $SO(3)$, because
+The group of rotations in 3d space is called $\mathrm{SO}(3)$, because
 mathematically these are $3\times3$ orthogonal matrices with determinant $1$.
 Now, a key fact in math and physics is that this group has the group
-$SU(2)$ of $2\times2$ complex unitary matrices with determinant $1$ as a "double
+$\mathrm{SU}(2)$ of $2\times2$ complex unitary matrices with determinant $1$ as a "double
 cover". This means roughly that there are two elements of this other
-group corresponding to each element of $SO(3)$. It's this fact that
+group corresponding to each element of $\mathrm{SO}(3)$. It's this fact that
 allows the existence of spin-$\frac12$ particles!
 
-Now, $SU(2)$ is sitting inside a bigger group, $SL(2,\mathbb{C})$, the group of all
+Now, $\mathrm{SU}(2)$ is sitting inside a bigger group, $\mathrm{SL}(2,\mathbb{C})$, the group of all
 $2\times2$ complex matrices with determinant $1$, not necessarily unitary. Just
-as SU(2) is used to describe the symmetries of spin-$\frac12$ particles in
-space, $SL(2,\mathbb{C})$ describes the symmetries of spin-$\frac12$ particles in
-spacetime. The reason is that $SL(2,\mathbb{C})$ is the double cover of the group
-$SO(3,1)$ of Lorentz transformations.
+as \mathrm{SU}(2) is used to describe the symmetries of spin-$\frac12$ particles in
+space, $\mathrm{SL}(2,\mathbb{C})$ describes the symmetries of spin-$\frac12$ particles in
+spacetime. The reason is that $\mathrm{SL}(2,\mathbb{C})$ is the double cover of the group
+$\mathrm{SO}(3,1)$ of Lorentz transformations.
 
-Given a Riemannian metric on the space $S$, there is always an "$SO(3)$
+Given a Riemannian metric on the space $S$, there is always an "$\mathrm{SO}(3)$
 connection" describing how objects rotate when you move them around a
 loop, due to the curvature of space. This is called the Levi-Civita
-connection. With a little work we can also think of this as an $SU(2)$
+connection. With a little work we can also think of this as an $\mathrm{SU}(2)$
 connection. However, Ashtekar works instead with the chiral spin
-connection, which is an $SL(2,\mathbb{C})$ connection cooked up from the
+connection, which is an $\mathrm{SL}(2,\mathbb{C})$ connection cooked up from the
 Levi-Civita connection and the first time derivative of the metric
 (which turns out to be closely related to the "extrinsic curvature" of
 $S$ as it sits in the spacetime $\mathbb{R} \times S$.)
@@ -168,8 +168,8 @@ The great advantage of Ashtekar's "new variables" is that the
 Hamiltonian and diffeomorphism constraints are simpler in these
 variables. Unfortunately, they lead to a curious new issue which at
 first seemed very nasty --- the problem of "reality conditions".
-This has a lot to do with going from $SU(2)$, which is a "real" group in
-a technical sense, to $SL(2,\mathbb{C})$, which is a "complex" group that's
+This has a lot to do with going from $\mathrm{SU}(2)$, which is a "real" group in
+a technical sense, to $\mathrm{SL}(2,\mathbb{C})$, which is a "complex" group that's
 roughly twice as big. Essentially, Ashtekar's formalism seems at first
 to be better suited to general relativity with a complex-valued metric
 than to good old "real" general relativity. For quite a while people
@@ -184,8 +184,8 @@ hopefully by mid-November:
     "Quantum geometrodynamics", by A. Ashtekar, J. Lewandowski, D. Marolf, J. Mourao and T. Thiemann, in progress, to appear on `gr/qc`.
 
 The first paper constructs a kind of transform that takes functions on
-the space of $SU(2)$ connections on $S$ into functions on the space of
-$SL(2,\mathbb{C})$ connections on $S$. The "kinematical states" in Ashtekar's
+the space of $\mathrm{SU}(2)$ connections on $S$ into functions on the space of
+$\mathrm{SL}(2,\mathbb{C})$ connections on $S$. The "kinematical states" in Ashtekar's
 approach are, roughly speaking, functions of the latter kind. (Really
 they are more like "measures".) This is some really pretty mathematics
 --- it's a kind of generalization of the Bargmann-Segal transform to
@@ -193,7 +193,7 @@ the case of functions on spaces of connections.
 
 Physically, the transform allows us to relate Ashtekar's approach to
 the traditional "metric" approach much more clearly, since, as I
-described, $SU(2)$ connections are closely related to metrics on $S$. The
+described, $\mathrm{SU}(2)$ connections are closely related to metrics on $S$. The
 second paper should treat the physics behind this in more detail, and
 also describe a rigorous construction of "loop states" --- a large
 class of diffeomorphism-invariant states which Rovelli and Smolin have
@@ -220,7 +220,7 @@ the identity.)
 What is the physical meaning of these loop states? Roughly it's this.
 Say you take a spin-$\frac12$ particle and move it around in a path that
 traces out a knot. When you do this using the Levi-Civita connection, it
-comes back "rotated" by some $SU(2)$ matrix. If you take the trace of
+comes back "rotated" by some $\mathrm{SU}(2)$ matrix. If you take the trace of
 this matrix (sum of diagonal entries) and divide by two, you get a
 number between -1 and 1. This number is called a "Wilson loop".
 
@@ -256,7 +256,7 @@ because it's possible for a spin-$\frac12$ particle and a spin-3 particle to
 interact and form a spin-$5/2$ particle. Here by "possible" I simply
 mean that it doesn't violate conservation of angular momentum.
 Mathematicians would say the spins should be thought of as irreducible
-representations of $SU(2)$, and the condition above is just the condition
+representations of $\mathrm{SU}(2)$, and the condition above is just the condition
 that the representation $j_3$ appears as a summand in the tensor product of
 the representations $j_1$ and $j_2$.
 

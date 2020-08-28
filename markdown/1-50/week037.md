@@ -69,26 +69,26 @@ loop representation is to use the "new variables" for general
 relativity introduced by Ashtekar (though Sen and Plebanski already had
 worked with similar ideas). In the older Palatini approach to general
 relativity, the idea was to view general relativity as something like a
-gauge theory with gauge group given by the Lorentz group, $SO(3,1)$. But
+gauge theory with gauge group given by the Lorentz group, $\mathrm{SO}(3,1)$. But
 to do this one actually uses two different fields: a "frame field",
 also called a "tetrad", "vierbein" or "soldering form" depending
 on who you're talking to, and the gauge field itself, usually called a
-"Lorentz connection" or "$SO(3,1)$ connection". Technically, the frame
+"Lorentz connection" or "$\mathrm{SO}(3,1)$ connection". Technically, the frame
 field is an isomorphism between the tangent bundle of spacetime and some
 other bundle having a fixed metric of signature +---, usually called
 the "internal space", and the Lorentz connection is a
 metric-preserving connection on the internal space.
 
-The "new variables" trick is to use the fact that $SO(3,1)$ has as a
-double cover the group $SL(2,\mathbb{C})$ of two-by-two complex matrices with
+The "new variables" trick is to use the fact that $\mathrm{SO}(3,1)$ has as a
+double cover the group $\mathrm{SL}(2,\mathbb{C})$ of two-by-two complex matrices with
 determinant one. (For people who've read previous posts of mine, I
-should add that the Lie algebra of $SL(2,\mathbb{C})$ is called $\mathfrak{sl}(2,\mathbb{C})$ and is the
+should add that the Lie algebra of $\mathrm{SL}(2,\mathbb{C})$ is called $\mathfrak{sl}(2,\mathbb{C})$ and is the
 same as the complexification of the Lie algebra $\mathfrak{so}(3)$, which allows one
 to introduce the new variables in a different but equivalent way, as I
 did in ["Week 7"](#week7).) Ignoring topological niceties for now,
 this lets one reformulate *complex* general relativity (that is, general
 relativity where the metric can be complex-valued) in terms of a
-*complex-valued* frame field and an $SL(2,\mathbb{C})$ connection that is just the
+*complex-valued* frame field and an $\mathrm{SL}(2,\mathbb{C})$ connection that is just the
 Lorentz connection in disguise. The latter is called either the "Sen
 connection", the "Ashtekar connection", or the "chiral spin
 connection" depending on who you're talking to. The advantage of this
@@ -106,7 +106,7 @@ not worry about this here. I explain this in terms even a mathematician
 can understand in my paper "`string.tex`", available by ftp along with
 all my ["Week "](#week) files as described below.) The point is, first, that the
 $A$ and $E$ fields are mathematically very analogous to the vector potential
-and electric field in electromagnetism --- or really in $SL(2,\mathbb{C})$ Yang-Mills
+and electric field in electromagnetism --- or really in $\mathrm{SL}(2,\mathbb{C})$ Yang-Mills
 theory --- and secondly, that if you compute their Poisson brackets, you
 really do see that they're canonically conjugate. Third and best of
 all, the constraint equations in general relativity can be written down
@@ -141,12 +141,12 @@ space of connections. This problem is addressed (it's premature to say
 of connections and proving the existence of a canonical generalized
 measure that deserves the name "Lebesgue measure" if anything does.
 One can then define $L^2$ functions and work with them. For compact gauge
-groups, like $SU(2)$, this was done by Ashtekar, Lewandowski and myself;
+groups, like $\mathrm{SU}(2)$, this was done by Ashtekar, Lewandowski and myself;
 see e.g. the papers "`state.tex`" and "`conn.tex`" available by ftp. In
-the case of $SU(2)$, Wilson loops act as self-adjoint multiplication
+the case of $\mathrm{SU}(2)$, Wilson loops act as self-adjoint multiplication
 operators on the resulting $L^2$ space. But in quantum gravity we really
-want to use gauge group $SL(2,\mathbb{C})$, which is not compact, and we want the
-adjoints of Wilson loop operators to reflect that fact that the $SL(2,\mathbb{C})$
+want to use gauge group $\mathrm{SL}(2,\mathbb{C})$, which is not compact, and we want the
+adjoints of Wilson loop operators to reflect that fact that the $\mathrm{SL}(2,\mathbb{C})$
 connection $A$ in quantum gravity is really equal to $\Gamma + iK$, where $\Gamma$ is
 the Levi-Civita connection on space, and $K$ is the extrinsic curvature.
 Both $\Gamma$ and $K$ are real in the classical theory, so the adjoint of the
@@ -155,8 +155,8 @@ the adjoints of Wilson loop operators.
 
 The trick, it turns out, is to use some work of Hall which appeared in
 the Journal of Functional Analysis in 1994 (I don't have a precise
-reference on me). The point is that $SL(2,\mathbb{C})$ is the complexification of
-$SU(2)$, and can also be viewed as the cotangent bundle of $SU(2)$. This
+reference on me). The point is that $\mathrm{SL}(2,\mathbb{C})$ is the complexification of
+$\mathrm{SU}(2)$, and can also be viewed as the cotangent bundle of $\mathrm{SU}(2)$. This
 allows one to copy a trick people use for the quantum mechanics of a
 point particle on $\mathbb{R}^n$ --- a trick called the Bargmann-Segal-Fock
 representation. Recall that in the ordinary Schrodinger representation
@@ -169,10 +169,10 @@ respect to a Gaussian measure on $\mathbb{C}^n$. In the Bargmann representation
 for a particle on the line, for example, the creation operator is
 represented simply as multiplication by the complex coordinate $z$, while
 the annihilation operator is $d/dz$. Similarly, there is an isomorphism
-between $L^2(SU(2))$ and a certain space $HL^2(SL(2,\mathbb{C}))$. Using this, one
+between $L^2(\mathrm{SU}(2))$ and a certain space $HL^2(\mathrm{SL}(2,\mathbb{C}))$. Using this, one
 can obtain an isomorphism between the space of $L^2$ functions on the
-space of $SU(2)$ connections modulo gauge transformations, and the space
-of holomorphic $L^2$ functions on the space of $SL(2,\mathbb{C})$ connections modulo
+space of $\mathrm{SU}(2)$ connections modulo gauge transformations, and the space
+of holomorphic $L^2$ functions on the space of $\mathrm{SL}(2,\mathbb{C})$ connections modulo
 gauge transformations. Applying this to the loop representation,
 Ashtekar has found a very natural way to take into account the fact that
 the chiral spin connection $A$ is really $\Gamma + iK$, basically analogous to

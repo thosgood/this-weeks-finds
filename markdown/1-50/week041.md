@@ -107,7 +107,7 @@ Chern-Simons theory, and it is also a standard result that a
 Chern-Simons theory on a manifold with boundary induces a dynamical
 Wess-Zumino-Witten (WZW) theory on the boundary. In the presence of a
 cosmological constant $\Lambda = -1/L^2$ appropriate for the
-(2+1)-dimensional black hole, one obtains a slightly modified $SO(2,1) \times SO(2,1)$ WZW model, with coupling constant
+(2+1)-dimensional black hole, one obtains a slightly modified $\mathrm{SO}(2,1) \times \mathrm{SO}(2,1)$ WZW model, with coupling constant
 $$k = \frac{L\sqrt{2}}{8G}$$
 This model is not completely understood, but in the large $k$ --- i.e.,
 small $\Lambda$ --- limit, it may be approximated by a theory of six
@@ -139,7 +139,7 @@ inequality" at each vertex:
 $$j_1 + j_2 \leqslant j_3, \quad j_2 + j_3 \leqslant j_1, \quad j_3 + j_1 \leqslant j_2,$$
 where $j_1$, $j_2$, $j_3$ are the spins labelling the edges adjacent to the given
 vertex. Really, the spins should be thought of as irreducible
-representations of $SU(2)$, and the triangle inequalities is necessary for
+representations of $\mathrm{SU}(2)$, and the triangle inequalities is necessary for
 the representation $j_3$ to appear as a summand in the tensor product of
 the representations $j_1$ and $j_2$. (If the last sentence was meaningless to
 you, reading ["Week 5"](#week5) will help a little, though probably

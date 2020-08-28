@@ -85,7 +85,7 @@ $C_{60}$ at the following site:
 But I digress. Coming back to the 3 Platonic groups... there is much
 more that's special about them. Most of it requires a little knowledge
 of group theory to understand. For example, they are the 3 different
-finite subgroups of $SO(3)$ having irreducible representations on $\mathbb{R}^3$.
+finite subgroups of $\mathrm{SO}(3)$ having irreducible representations on $\mathbb{R}^3$.
 And they are nice examples of finite reflection groups. For more about
 them from this viewpoint, try ["Week 62"](#week62) and
 ["Week 63"](#week63). Also, via the McKay correspondence they
@@ -95,24 +95,24 @@ correspond to the exceptional Lie groups $E_6$, $E_7$, and $E_8$ --- see
 Yet another interesting fact about these groups is buried in Galois'
 last letter, written to the mathematician Chevalier on the night before
 Galois' fatal duel. He was thinking about some groups we'd now call
-$PSL(2,F)$. Here $F$ is a field (for example, the real numbers, the complex
-numbers, or $\mathbb{Z}_p$, the integers $\mod p$ where $p$ is prime). $PSL(2,F)$ is a
+$\mathrm{PSL}(2,F)$. Here $F$ is a field (for example, the real numbers, the complex
+numbers, or $\mathbb{Z}_p$, the integers $\mod p$ where $p$ is prime). $\mathrm{PSL}(2,F)$ is a
 "projective special linear group over $F$." What does that mean? Well,
-first of all, $SL(2,F)$ is the $2\times2$ matrices with entries in $F$ having
+first of all, $\mathrm{SL}(2,F)$ is the $2\times2$ matrices with entries in $F$ having
 determinant equal to $1$. These form a group under good old matrix
-multiplication. The matrices in $SL(2,F)$ that are scalar multiples of the
-identity matrix form the "center" $Z$ of $SL(2,F)$ --- the group of guys who
-commute with everyone else. We can form the quotient group $SL(2,F)/Z$,
-and get a new group called $PSL(2,F)$.
+multiplication. The matrices in $\mathrm{SL}(2,F)$ that are scalar multiples of the
+identity matrix form the "center" $Z$ of $\mathrm{SL}(2,F)$ --- the group of guys who
+commute with everyone else. We can form the quotient group $\mathrm{SL}(2,F)/Z$,
+and get a new group called $\mathrm{PSL}(2,F)$.
 
-Now Galois was thinking about $PSL(2,\mathbb{Z}_p)$ where $p$ is prime. There's an
+Now Galois was thinking about $\mathrm{PSL}(2,\mathbb{Z}_p)$ where $p$ is prime. There's an
 obvious way to get this group to act as permutations of $p+1$ things.
-Here's how! For any field $F$, the group $SL(2,F)$ acts as linear
+Here's how! For any field $F$, the group $\mathrm{SL}(2,F)$ acts as linear
 transformations of the 2-dimensional vector space over $F$, and it thus
 acts on the set of lines through the origin in this vector space...
-which is called the "projective line" over $F$. But anything in $SL(2,F)$
+which is called the "projective line" over $F$. But anything in $\mathrm{SL}(2,F)$
 that's a scalar multiple of the identity doesn't move lines around, so
-we can mod out by the center and think of the quotient group $PSL(2,F)$ as
+we can mod out by the center and think of the quotient group $\mathrm{PSL}(2,F)$ as
 acting on projective line. (By the way, this explains the point of
 working with $PSL$ instead of plain old $SL$.)
 
@@ -122,34 +122,34 @@ in $F^2$ and drawing the line through the origin and this vector.
 However, $(x',y')$ and $(x,y)$ determine the same line if $(x',y')$ is a
 scalar multiple of $(x,y)$. Thus lines are in 1-1 correspondence with
 vectors of the form $(1,y)$ or $(x,1)$. When our field $F$ is $\mathbb{Z}_p$, there are
-just $p+1$ of these. So $PSL(2,\mathbb{Z}_p)$ acts naturally on a set of $p+1$ things.
+just $p+1$ of these. So $\mathrm{PSL}(2,\mathbb{Z}_p)$ acts naturally on a set of $p+1$ things.
 
-What Galois told Chevalier is that $PSL(2,\mathbb{Z}_p)$ doesn't act nontrivially
+What Galois told Chevalier is that $\mathrm{PSL}(2,\mathbb{Z}_p)$ doesn't act nontrivially
 as permutation of any set with fewer than $p+1$ elements if $p > 11$. This
-presumably means he knew that $PSL(2,\mathbb{Z}_p)$ *does* act nontrivially on a
-set with only $p$ elements if $p = 5$, $7$, or $11$. For example, $PSL(2,5)$ turns
+presumably means he knew that $\mathrm{PSL}(2,\mathbb{Z}_p)$ *does* act nontrivially on a
+set with only $p$ elements if $p = 5$, $7$, or $11$. For example, $\mathrm{PSL}(2,5)$ turns
 out to be isomorphic to $A_5$, which acts on a set of 5 elements in an
-obvious way. $PSL(2,7)$ and $PSL(2,11)$ act on a 7-element set and an
+obvious way. $\mathrm{PSL}(2,7)$ and $\mathrm{PSL}(2,11)$ act on a 7-element set and an
 11-element set, respectively, in sneaky ways which Kostant describes.
 
 These cases, $p = 5$, $7$ and $11$, are the the only cases where this happens
-and $PSL(2,\mathbb{Z}_p)$ is simple. (See ["Week 66"](#week66) if you don't
+and $\mathrm{PSL}(2,\mathbb{Z}_p)$ is simple. (See ["Week 66"](#week66) if you don't
 know what "simple" means.) In each case it is very amusing to look at
-how $PSL(2,\mathbb{Z}_p)$ acts nontrivially on a set with $p$ elements and consider
+how $\mathrm{PSL}(2,\mathbb{Z}_p)$ acts nontrivially on a set with $p$ elements and consider
 the subgroup that doesn't move a particular element of this set. For
-example, when $p = 5$ we have $PSL(2,5) = A_5$, and if we look at the
+example, when $p = 5$ we have $\mathrm{PSL}(2,5) = A_5$, and if we look at the
 subgroup of even permutations of 5 things that leaves a particular thing
 alone, we get $A_4$. Kostant explains how if we play this game with
-$PSL(2,7)$ we get $S_4$, and if we play this game with $PSL(2,11)$ we get
+$\mathrm{PSL}(2,7)$ we get $S_4$, and if we play this game with $\mathrm{PSL}(2,11)$ we get
 $A_5$. These are the 3 Platonic groups again!!
 
-But notice an extra curious coincidence. $A_5$ is both $PSL(2,5)$ and the
-subgroup of $PSL(2,11)$ that fixes a point of an 11-element set. This
-gives a lot of relationships between $A_5$, $PSL(2,5)$, and $PSL(2,11)$. What
+But notice an extra curious coincidence. $A_5$ is both $\mathrm{PSL}(2,5)$ and the
+subgroup of $\mathrm{PSL}(2,11)$ that fixes a point of an 11-element set. This
+gives a lot of relationships between $A_5$, $\mathrm{PSL}(2,5)$, and $\mathrm{PSL}(2,11)$. What
 Kostant does is take this and milk it for all it's worth! In
 particular, it turns out that one can think of $A_5$ as the vertices of
 the buckyball, and describe which vertices are connected by an edge
-using the embedding of $A_5$ in $PSL(2,11)$. I won't say how this goes...
+using the embedding of $A_5$ in $\mathrm{PSL}(2,11)$. I won't say how this goes...
 read his paper!
 
 This may even have some applications for fullerene spectroscopy, since

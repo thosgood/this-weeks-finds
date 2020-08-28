@@ -55,7 +55,7 @@ solids have as their symmetries finite subgroups of the rotation group
 in 3 dimensions, while the study of quantum-mechanical atoms instead
 involves the theory of "representations" of this group, which are in
 some sense dual. The rotation group in $n$ dimensions, by the way, is
-called $SO(n)$. See ["Week 61"](#week61) for a bit more about it. For
+called $\mathrm{SO}(n)$. See ["Week 61"](#week61) for a bit more about it. For
 a grand tour of the inverse square law, both classical and quantum,
 read:
 
@@ -63,7 +63,7 @@ read:
 
 You will see, among other things, that the real reason the inverse
 square force law problem is exactly solvable is that it has a hidden
-symmetry under $SO(4)$, not just $SO(3)$.
+symmetry under $\mathrm{SO}(4)$, not just $\mathrm{SO}(3)$.
 
 But I digress! Recall how I said that "obviously" a regular polyhedron
 has to have 3 faces meeting at each vertex? What would happen if you

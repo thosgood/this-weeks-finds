@@ -310,8 +310,8 @@ precisely, something cooked up from it).
 This is essentially the 2+1 analog of Ashtekar's approach in 3+1
 dimensions, in that a connection and triad field play the main role,
 rather than the metric. However, in 2+1 dimensions we can lump the triad
-field and the connection together to get an "$ISO(2,1)$ connection" ---
- where $ISO(2,1)$ is mildly terrifying notation for the Poincare group in
+field and the connection together to get an "$I\mathrm{SO}(2,1)$ connection" ---
+ where $I\mathrm{SO}(2,1)$ is mildly terrifying notation for the Poincare group in
 2+1 dimensions (or "inhomogeneous Lorentz group," hence the "I").
 The action for the theory then becomes the Chern-Simons action, as noted
 by Witten.
@@ -374,7 +374,7 @@ quantity. The formula for the action is very familiar to folks
 knowledgeable about quantum theory. Each tetrahedron has 6 edges
 labelled by spins, and we calculate a quantity called the "$6j$ symbol"
 from these spins and then add it up for all tetrahedra. In the
-Turaev-Viro version, we have replaced the gauge group $SU(2)$ by the
+Turaev-Viro version, we have replaced the gauge group $\mathrm{SU}(2)$ by the
 corresponding quantum group, with the quantum parameter $q$ a root of
 unity, so there are only finitely many irreducible representations, or
 spins, to sum over. (See ["Week 5"](#week5) for the vaguest of

@@ -200,8 +200,8 @@ groups at roots of unity play the role a finite group is playing here.)
 So, to round off a long story, Quinn and Ivelini Bobtcheva are currently
 engaged in some rather massive computer calculations in order to
 actually explicitly obtain the data necessary to calculate in the TQFTs
-of this form. They have been looking at the groups $SL(2)$, $SL(3)$, $Sp(4)$
-and $G_2$ over $\mathbb{Z}_p$, where $p$ is small (up to 19 for the $SL(2)$ case). They
+of this form. They have been looking at the groups $\mathrm{SL}(2)$, $\mathrm{SL}(3)$, $Sp(4)$
+and $G_2$ over $\mathbb{Z}_p$, where $p$ is small (up to 19 for the $\mathrm{SL}(2)$ case). They
 are finding some interesting stuff just by calculating the TQFT
 invariants of the 2-complexes corresponding to the presentations
 $\langle x \mid x^n \rangle$. (Note that $n = 0$ gives a space that's a wedge of a circle

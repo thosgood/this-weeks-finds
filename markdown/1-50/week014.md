@@ -163,7 +163,7 @@ assumption gives the same answers as Witten's continuum approach to 3d
 quantum gravity. The "half-integers" $0,1/2,1,3/2,\ldots$ should remind
 physicists of spin, which is quantized in the same way, and
 mathematically this is exactly what is going on: we are really labelling
-edges with representations of the group $SU(2)$, that is, spins. What
+edges with representations of the group $\mathrm{SU}(2)$, that is, spins. What
 Rovelli shows is that if one starts with the loop representation of 3d
 quantum gravity (yet another approach), one can prove it equivalent to
 Ooguri's approach, and what's more, using the loop representation one
@@ -216,8 +216,8 @@ worth it...
 >
 > $$S[A,E] = integral(F\wedge e\wedge e)$$
 >
-> in 3+1 dimensions, for a (self dual) $SO(3,1)$ connection $A$ and a (real)
-> one form $e$ with values in the vector representation of $SO(3,1)$. This
+> in 3+1 dimensions, for a (self dual) $\mathrm{SO}(3,1)$ connection $A$ and a (real)
+> one form $e$ with values in the vector representation of $\mathrm{SO}(3,1)$. This
 > theory has a strong resemblance with its 2+1 dimensional analog: it is
 > still defined on a differential manifold without any fixed metric
 > structure, and is diffeomorphism invariant. We expect that a
@@ -336,7 +336,7 @@ The following is a part of a paper discussed in ["Week 5"](#week5),
 now available from gr-qc:
 
 4) "Completeness of Wilson loop functionals on the moduli space of
-$SL(2,\mathbb{C})$ and $SU(1,1)$-connections", Abhay Ashtekar and Jerzy Lewandowski,
+$\mathrm{SL}(2,\mathbb{C})$ and $\mathrm{SU}(1,1)$-connections", Abhay Ashtekar and Jerzy Lewandowski,
 Plain TeX, 7 pages, available as
 [`gr-qc/9304044`](http://xxx.lanl.gov/abs/gr-qc/9304044).
 
@@ -344,7 +344,7 @@ I didn't discuss this aspect of the paper, so let me quote the
 abstract:
 
 > The structure of the moduli spaces $M := A/G$ of (all, not just flat)
-> $SL(2,C)$ and $SU(1,1)$ connections on a $n$-manifold is analysed. For any
+> $\mathrm{SL}(2,C)$ and $\mathrm{SU}(1,1)$ connections on a $n$-manifold is analysed. For any
 > topology on the corresponding spaces $A$ of all connections which
 > satisfies the weak requirement of compatibility with the affine
 > structure of $A$, the moduli space $M$ is shown to be non-Hausdorff. It is
@@ -360,7 +360,7 @@ By the way, someone should extend this result to more general noncompact
 semisimple Lie groups, and also show that for all compact semisimple Lie
 groups the Wilson loop functionals in any faithful representation *do*
 separate points (this is known for the fundamental representation of
-$SU(n)$). If I had a bunch of grad students I would get one to do so.
+$\mathrm{SU}(n)$). If I had a bunch of grad students I would get one to do so.
 
 The following was discussed in an earlier edition of this series,
 ["Week 11"](#week11), but is now available from gr-qc:
@@ -375,7 +375,7 @@ application of loop variables to more down-to-earth physics; Gambini was
 one of the originators of the loop representation, and intended it for
 use in QCD:
 
-6) "$SU(2)$ QCD in the path representation", by Rodolfo Gambini and
+6) "$\mathrm{SU}(2)$ QCD in the path representation", by Rodolfo Gambini and
 Leonardo Setaro, LaTeX 37 pages (7 figures included), available as
 [`hep-lat/9305001`](http://xxx.lanl.gov/abs/hep-lat/9305001). ("hep-lat"
 is the computational and lattice physics preprint list, at
@@ -384,7 +384,7 @@ is the computational and lattice physics preprint list, at
 Let me quote the abstract:
 
 > We introduce a path-dependent hamiltonian representation (the path
-> representation) for $SU(2)$ with fermions in 3 + 1 dimensions. The
+> representation) for $\mathrm{SU}(2)$ with fermions in 3 + 1 dimensions. The
 > gauge-invariant operators and hamiltonian are realized in a Hilbert
 > space of open path and loop functionals. We obtain a new type of
 > relation, analogous to the Mandelstam identity of second kind, that

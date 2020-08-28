@@ -78,8 +78,8 @@ These two Lie algebras are two different "real forms" of $\mathfrak{sl}(2)$.
 Now, people know just about everything about $\mathfrak{sl}(2)$ that they might want
 to. Well, there's always something more, but I'm certainly personally
 satisfied! I recall when as an impressionable student I saw a book by
-Serge Lang titled simply "$SL(2,\mathbb{R})$", big and fat and scary inside. I
-knew what $SL(2,\mathbb{R})$ was, but not how one could think of a whole book's
+Serge Lang titled simply "$\mathrm{SL}(2,\mathbb{R})$", big and fat and scary inside. I
+knew what $\mathrm{SL}(2,\mathbb{R})$ was, but not how one could think of a whole book's
 worth of things to write about it! A whole book on 2×2 matrices??
 
 Part of how one gets so much to say about a puny little Lie algebra like
