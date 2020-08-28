@@ -108,17 +108,13 @@ We compose it with f' on the left and f on the right! Composing on the
 left is a nice covariant thing to do, but composing on the right is
 contravariant, which is why we needed the opposite category $\mathcal{C}^\mathrm{op}$.
 
-Okay, now back to our adjoint functors L\colon\mathcal{C}\to\mathcal{D} and R\colon\mathcal{D}\to\mathcal{C}. Now we are
-ready to say what we mean by \operatorname{Hom}(Lc,d) and \operatorname{Hom}(c,Rd) being naturally
+Okay, now back to our adjoint functors $L\colon\mathcal{C}\to\mathcal{D}$ and $R\colon\mathcal{D}\to\mathcal{C}$. Now we are
+ready to say what we mean by $\operatorname{Hom}(Lc,d)$ and $\operatorname{Hom}(c,Rd)$ being naturally
 isomorphic. Using the stuff we have set up, we can define two functors
-
-\operatorname{Hom}(L-,-): \mathcal{C}^\mathrm{op}\times \mathcal{D} \to Sets
-
+$$\operatorname{Hom}(L-,-)\colon\mathcal{C}^\mathrm{op}\times\mathcal{D}\to\mathsf{Set}$$
 and
-
-\operatorname{Hom}(-,R-): \mathcal{C}^\mathrm{op}\times \mathcal{D} \to Sets
-
-and we are simply saying that for L and R to be adjoints, we demand the
+$$\operatorname{Hom}(-,R-)\colon\mathcal{C}^\mathrm{op}\times \mathcal{D} \to\mathsf{Set}$$
+and we are simply saying that for $L$ and $R$ to be adjoints, we demand the
 existence of a natural isomorphism between these functors!
 
 Of course, this seems abstract, but if you work it out in some of the
@@ -126,79 +122,70 @@ examples of adjoint functors given in ["Week 76"](#week76) you'll
 see it all makes good sense.
 
 Now let me start explaining what this all has to do with quantum theory.
-(I'll put off the topology until next Week.) First of all, the "hom
+(I'll put off the topology until next Week.) First of all, the "$\operatorname{Hom}$
 functor" we introduced,
-
-\operatorname{Hom}(-,-): \mathcal{C}^\mathrm{op}\times \mathcal{C} \to Set
-
-should remind you a whole lot of the inner product on a Hilbert space H.
+$$\operatorname{Hom}(-,-)\colon\mathcal{C}^\mathrm{op}\times\mathcal{C}\to\mathsf{Set}$$
+should remind you a whole lot of the inner product on a Hilbert space $H$.
 The inner product is linear in one slot and conjugate-linear in the
-other, just like hom is covariant in one slot and contravariant in the
+other, just like $\operatorname{Hom}$ is covariant in one slot and contravariant in the
 other. In fact, the inner product can be thought of as a bilinear map
-
-\<-,-\>: H^\mathrm{op}\times H \to C
-
-where H^\mathrm{op}, the "opposite" Hilbert space, is like H but with a
+$$\langle -,- \rangle\colon H^\mathrm{op}\times H \to\mathbb{C}$$
+where $H^\mathrm{op}$, the "opposite" Hilbert space, is like $H$ but with a
 complex conjugate thrown into the definition of scalar multiplication,
-and here \mathcal{C} denotes the complex numbers!
+and here $\mathbb{C}$ denotes the complex numbers!
 
-Second of all, the definition of adjoint functor, with \operatorname{Hom}(Lc,d) and
-\operatorname{Hom}(c,Rd) being naturally isomorphic, should remind you of adjoint
-linear operators on Hilbert spaces. If we have a linear operator L: H \to
-K from a Hilbert space H to a Hilbert space K, its adjoint R: K \to H is
+Second of all, the definition of adjoint functor, with $\operatorname{Hom}(Lc,d)$ and
+$\operatorname{Hom}(c,Rd)$ being naturally isomorphic, should remind you of adjoint
+linear operators on Hilbert spaces. If we have a linear operator $L\colon H\to K$ from a Hilbert space $H$ to a Hilbert space $K$, its adjoint $R\colon K \to H$ is
 given by
-
-\<Lh,k\> = \<h,Rk\>
-
-for all h in H and k in K.
+$$\langle Lh,k \rangle = \langle h,Rk \rangle$$
+for all $h$ in $H$ and $k$ in $K$.
 
 In fact, the whole situation with adjoint functors is a kind of
 "categorified" version of the situation with adjoint linear operators.
-Everything has been boosted up one notch on the n-categorical ladder.
-What I mean is this: the Hilbert spaces H and K above are *sets*, with
-*elements* h and k, while the categories \mathcal{C} and \mathcal{D} are *categories*, with
-*objects* c and d. The inner product of two elements of a Hilbert space
+Everything has been boosted up one notch on the $n$-categorical ladder.
+What I mean is this: the Hilbert spaces $H$ and $K$ above are *sets*, with
+*elements* $h$ and $k$, while the categories $\mathcal{C}$ and $\mathcal{D}$ are *categories*, with
+*objects* $c$ and $d$. The inner product of two elements of a Hilbert space
 is a *number*, while the hom of two objects in a category is a *set*.
 Most interesting, the definition of adjoint operators requires that
-\<Lh,k\> and \<h,Rk\> be *equal*, while the definition of adjoint
-functors requires only that \<Lc,d\> and \<c,Rd\> be *naturally
+$\langle Lh,k \rangle$ and $\langle h,Rk \rangle$ be *equal*, while the definition of adjoint
+functors requires only that $\langle Lc,d \rangle$ and $\langle c,Rd \rangle$ be *naturally
 isomorphic*.
 
 So we can think of adjoints in category theory as a boosted-up version
 of the adjoints in quantum theory. But these days, I prefer to think of
 the adjoints in quantum theory as a watered-down or "decategorified"
 version of the adjoints in category theory. The reason is that
-categorification - as noted by Louis Crane, who I believe invented the
-term - is a risky, hit-or-miss business, while decategorification is
+categorification --- as noted by Louis Crane, who I believe invented the
+term --- is a risky, hit-or-miss business, while decategorification is
 much more systematic. Decategorification is the simply the process of
 neglecting the difference between isomorphism and equality. If we start
-with an n-category and then get lazy and decide to think of invertible
-n-morphisms as *equations* between the (n-1)-morphisms, we get an
-(n-1)-category. If we keep slacking off like this, before you know it
+with an $n$-category and then get lazy and decide to think of invertible
+$n$-morphisms as *equations* between the $(n-1)$-morphisms, we get an
+$(n-1)$-category. If we keep slacking off like this, before you know it
 we're doing set theory! The final stage of decategorification is when
 we get sloppy and instead of keeping track of *set*, we merely record
 the *number* of its elements.
 
 It's amusing to imagine this process of decategorification as one of
 those elaborate Gnostic myths about the Fall. We start in the paradise
-of ω-categories (or perhaps even higher up), but by the repeated sin of
+of $\omega$-categories (or perhaps even higher up), but by the repeated sin of
 confusing equality with isomorphism we fall all the way down the
-n-categorical ladder to the crude world of sets, or worse, simply
+$n$-categorical ladder to the crude world of sets, or worse, simply
 numbers. But all this happened a long time ago: now we need to work our
 butt off to climb back up! In other words, historically our early
 ancestors dealt with finite sets by replacing them with something
 cruder: their numbers of elements. Counting is actually very handy, of
 course, but it can only tell if the cardinalities of two sets are
 *equal*; it doesn't address the problem of specific *isomorphisms*
-between sets. To climb back up the n-categorical ladder, we needed to
-start with the set N of natural numbers
-
-0, 1, 2, 3, ...
-
+between sets. To climb back up the $n$-categorical ladder, we needed to
+start with the set $\mathbb{N}$ of natural numbers
+$$0, 1, 2, 3, \ldots$$
 and by dint of strenous mental effort realize that this is just the
-decategorification of the category FinSet of finite sets. (In fact,
-category-theorists routinely use 2 to stand for the 2-element set in the
-skeletal category equivalent to FinSet, and so on - see
+decategorification of the category $\mathsf{FinSet}$ of finite sets. (In fact,
+category-theorists routinely use $2$ to stand for the 2-element set in the
+skeletal category equivalent to $\mathsf{FinSet}$, and so on --- see
 ["Week 76"](#week76).)
 
 Now, you are certainly entitled to wonder if this elaborate
@@ -207,7 +194,7 @@ practical spinoffs. For example, is there anything we can *do* with the
 analogy between adjoint operators and adjoint functors? As it turns out,
 there is. The point is that the analogy is not quite precise. For
 example, every linear operator has an adjoint, but not every functor has
-an adjoint - nor need it be "linear" in any sense. If we endeavor to
+an adjoint --- nor need it be "linear" in any sense. If we endeavor to
 make the analogy precise, we will invent a special sort of category
 called a "2-Hilbert space" which is the precise categorified analog of
 a Hilbert space. And we will invent a nice sort of "linear" functor
@@ -215,19 +202,19 @@ between these, and all such functors will have adjoints. Furthermore, in
 this situation all left adjoints will also be right adjoints... fixing
 another funny discrepancy. And these 2-Hilbert spaces turn out to be
 closely related to 2-dimensional topological quantum field theories (in
-general, n-Hilbert spaces appear to be related to n-dimensional TQFTs),
+general, $n$-Hilbert spaces appear to be related to $n$-dimensional TQFTs),
 as well as some interesting aspects of group representation theory.
 
 I'm busily writing a paper on exactly this stuff, but I have not
 explained enough category theory here to describe it in detail yet. For
-now, let me just make the connection between the \operatorname{Hom}(-,-) of category
-theory and the \<-,-\> of quantum theory more clear, and hopefully more
-plausible. If we have states h and h' in a Hilbert space, \<h,h'\>
-keeps track of the *amplitude* of getting from h to h'. (Often people
-will say "from h' to h", but here I think I really want to go the
-other way.) This is a mere *number*. If we have objects c and c' in a
-category, \operatorname{Hom}(c,c') is the actual *set* of ways to get from c to c',
-that is, the set of morphisms from c to c'.
+now, let me just make the connection between the $\operatorname{Hom}(-,-)$ of category
+theory and the $\langle -,-\rangle$ of quantum theory more clear, and hopefully more
+plausible. If we have states $h$ and $h'$ in a Hilbert space, $\langle h,h'\rangle$
+keeps track of the *amplitude* of getting from $h$ to $h'$. (Often people
+will say "from $h'$ to $h$", but here I think I really want to go the
+other way.) This is a mere *number*. If we have objects $c$ and $c'$ in a
+category, $\operatorname{Hom}(c,c')$ is the actual *set* of ways to get from $c$ to $c'$,
+that is, the set of morphisms from $c$ to $c'$.
 
 When one computes transition amplitudes by summing over paths, as in
 Feynman path integrals, one is in a sense decategorifying, that is,
@@ -238,9 +225,7 @@ counting them "with phase".... and I must admit that the role of the
 viewpoint. For some food for thought, you might want to check out Dan
 Freed's work on torsors, which are a categorified version of phases:
 
-1) Higher algebraic structures and quantization, by Daniel Freed,
-Commun. Math. Phys. 159 (1994), 343-398, also available as
-[hep-th/9212115](http://xxx.lanl.gov/abs/hep-th/9212115).
+1) "Higher algebraic structures and quantization", by Daniel Freed, _Commun. Math. Phys._ **159** (1994), 343--398, also available as [`hep-th/9212115`](http://xxx.lanl.gov/abs/hep-th/9212115).
 
 To continue reading the "Tale of $n$-Categories", see ["Week 79"](#week79).
 
