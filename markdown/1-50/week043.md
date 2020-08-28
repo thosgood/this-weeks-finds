@@ -149,7 +149,7 @@ allows the existence of spin-$\frac12$ particles!
 
 Now, $\mathrm{SU}(2)$ is sitting inside a bigger group, $\mathrm{SL}(2,\mathbb{C})$, the group of all
 $2\times2$ complex matrices with determinant $1$, not necessarily unitary. Just
-as \mathrm{SU}(2) is used to describe the symmetries of spin-$\frac12$ particles in
+as $\mathrm{SU}(2)$ is used to describe the symmetries of spin-$\frac12$ particles in
 space, $\mathrm{SL}(2,\mathbb{C})$ describes the symmetries of spin-$\frac12$ particles in
 spacetime. The reason is that $\mathrm{SL}(2,\mathbb{C})$ is the double cover of the group
 $\mathrm{SO}(3,1)$ of Lorentz transformations.

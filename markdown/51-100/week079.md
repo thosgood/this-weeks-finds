@@ -49,7 +49,7 @@ solid because, while not quite Platonic in its beauty, every face is a
 regular polygon and every vertex looks alike: two pentagons abutting one
 hexagon.
 
-$$\href{http://en.wikipedia.org/wiki/Truncated_icosahedron}{\includegraphics{../images/Truncatedicosahedron.gif}}$$
+$$\href{http://en.wikipedia.org/wiki/Truncated_icosahedron}{\includegraphics[scale=0.6]{../images/Truncatedicosahedron.png}}$$
 
 The truncated icosahedron has $5 \times 12 = 60$ vertices. Every symmetry of
 the icosahedron is a symmetry of the truncated icosahedron, so $A_5$ acts
@@ -65,7 +65,7 @@ $C_{60}$ molecules with the atoms at the vertices of this solid, and a
 while ago they found this was true. In fact, while $C_{60}$ in this shape
 took a bit of work to get ahold of at first, it turns out that lowly
 soot contains lots of this stuff!
-$$\href{http://en.wikipedia.org/wiki/Fullerene#Buckminsterfullerene}{\includegraphics{../images/160px-C60a.png}}$$
+$$\href{http://en.wikipedia.org/wiki/Fullerene#Buckminsterfullerene}{\includegraphics[scale=0.8]{../images/160px-C60a.png}}$$
 Since Buckminster Fuller was fond of using truncated icosahedra in his
 geodesic domes, $C_{60}$ and its relatives are called fullerenes, and the
 shape is affectionately called a buckyball. For more about this stuff,
