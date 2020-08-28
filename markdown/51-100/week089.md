@@ -300,19 +300,18 @@ and draw a "dual" picture like this:
 $$
   \begin{tikzpicture}
     \begin{knot}
-      \strand[thick] (0,0)
+      \strand[thick] (0,0.5)
+        to (0,0)
         to [out=down,in=up] (0.5,-1)
-        to (0.5,-1.5);
-      \strand[thick] (1,0)
+        to (0.5,-2);
+      \strand[thick] (1,0.5)
+        to (1,0)
         to [out=down,in=up] (0.5,-1);
     \end{knot}
-    \node[label=above:{$s$}] at (0,0) {};
-    \node[label=above:{$s$}] at (1,0) {};
+    \node[fill=white] at (0,0) {$s$};
+    \node[fill=white] at (1,0) {$s$};
     \node[label=left:{$M$}] at (0.5,-1) {};
-    \node[label=below:{$s$}] at (0.5,-1.5) {};
-    \node at (0.5,-0.2) {\scriptsize$x$};
-    \node at (-0.5,-0.5) {\scriptsize$x$};
-    \node at (1.5,-0.5) {\scriptsize$x$};
+    \node[fill=white] at (0.5,-1.5) {$s$};
   \end{tikzpicture}
 $$
 which illustrates perhaps more vividly how $M$ is the process of two

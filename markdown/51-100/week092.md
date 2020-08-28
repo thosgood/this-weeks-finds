@@ -6,40 +6,39 @@ all the abstract concepts involved. However, we are now at a point where
 we can have some fun with what we've got, even if you haven't really
 followed all the previous stuff. So what follows is a rambling tour
 through monads, adjunctions, the 4-color theorem and the large-N limit
-of \mathrm{SU}(N) gauge theory....
+of $\mathrm{SU}(N)$ gauge theory....
 
 Okay, so in ["Week 89"](#week89) we defined a gadget called a
 "monad". Using the string diagrams we talked about, you can think of a
 monad as involving a process like this:
-
-                         \               /
-                          \             /
-                          s\          s/
-                            \         /
-                             \       /
-                              \     /
-                               \   /
-                                \ /
-                                 |M               
-                                 |
-                                 |
-                                 |
-                                 |
-                                 |
-                                s|
-                                 |
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0.5)
+        to (0,0)
+        to [out=down,in=up] (0.5,-1)
+        to (0.5,-2);
+      \strand[thick] (1,0.5)
+        to (1,0)
+        to [out=down,in=up] (0.5,-1);
+    \end{knot}
+    \node[fill=white] at (0,0) {$s$};
+    \node[fill=white] at (1,0) {$s$};
+    \node[label=left:{$M$}] at (0.5,-1) {};
+    \node[fill=white] at (0.5,-1.5) {$s$};
+  \end{tikzpicture}
+$$
 which we read downwards as describing the "fusion" of two copies of
-something called s into one copy of the same thing s. The fusion process
-itself is called M.
+something called $s$ into one copy of the same thing $s$. The fusion process
+itself is called $M$.
 
 I can hear you wonder, what exactly *is* this thing s? What *is* this
 process M? Well, I gave the technical answer in
-["Week 89"](#week89) - but the point is that $n$-category theory is
+["Week 89"](#week89) --- but the point is that $n$-category theory is
 deliberately designed to be so general that it covers pretty much
-anything you could want! For example, s could be the set of real numbers
-and M could be multiplication of real numbers, which is a function from
-s × s to s. Or we could be doing topology in the plane, in which case
+anything you could want! For example, $s$ could be the set of real numbers
+and $M$ could be multiplication of real numbers, which is a function from
+$s\times s$ to $s$. Or we could be doing topology in the plane, in which case
 the picture above stands for exactly what it looks like: two lines
 merging to form one line! These and many other situations are analogous,
 and the formalism allows us to treat them all at once. Here I will not
@@ -48,77 +47,120 @@ everything will be all right. If you don't trust me, go back and check
 the definitions.
 
 Let me turn to the axioms for a monad. In addition to the multiplication
-M we want to have a "multiplicative identity", I, looking like this:
-
-                               I
-                               |
-                               |
-                               |
-                               |
-                               |s
-
-Here nothing is coming in, and a copy of s is going out. Because
-ordinary multiplication has 1x = x and x1 = x for all x, we want the
+$M$ we want to have a "multiplicative identity", $I$, looking like this:
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,1)
+        to (0,0);
+    \end{knot}
+    \node[label=above:{$I$}] at (0,1) {};
+    \node[fill=white] at (0,0.5) {$s$};
+  \end{tikzpicture}
+$$
+Here nothing is coming in, and a copy of $s$ is going out. Because
+ordinary multiplication has $1x = x$ and $x1 = x$ for all $x$, we want the
 following axioms to hold:
-
-                                    /              |
-                                   /               |
-                                 s/                |s
-                       I         /                 |  
-                        \       /                  | 
-                         \     /                   |
-                          \   /                    | 
-                           \ /                     |
-                            |M               =     | 
-                            |                      |
-                            |                      |
-                            |                      |
-                            |                      |
-                            |                      | 
-                           s|                      |
-                            |                      | 
-
-       
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+        to [out=down,in=up] (0.5,-1)
+        to (0.5,-2);
+      \strand[thick] (1,1)
+        to (1,0)
+        to [out=down,in=up] (0.5,-1);
+    \end{knot}
+    \node[label=above:{$I$}] at (0,0) {};
+    \node[fill=white] at (1,0.5) {$s$};
+    \node[label=left:{$M$}] at (0.5,-1) {};
+    \node[fill=white] at (0.5,-1.5) {$s$};
+    \node at (2,-0.5) {$=$};
+    \begin{knot}
+      \strand[thick] (3,1) to (3,-2);
+    \end{knot}
+    \node[fill=white] at (3,0) {$s$};
+  \end{tikzpicture}
+$$
 and
-
-                    \                              |
-                     \                             |
-                      \                            |s
-                      s\         I                 |  
-                        \       /                  | 
-                         \     /                   |
-                          \   /                    | 
-                           \ /                     |
-                            |M               =     | 
-                            |                      |
-                            |                      |
-                            |                      |
-                            |                      |
-                            |                      | 
-                           s|                      |
-                            |                      | 
-
-Also, since ordinary multiplication has (xy)z = x(yz), we want the
+$$
+  \begin{tikzpicture}
+    \begin{scope}[xscale=-1,shift={(-1,0)}]
+      \begin{knot}
+        \strand[thick] (0,0)
+          to [out=down,in=up] (0.5,-1)
+          to (0.5,-2);
+        \strand[thick] (1,1)
+          to (1,0)
+          to [out=down,in=up] (0.5,-1);
+      \end{knot}
+      \node[label=above:{$I$}] at (0,0) {};
+      \node[fill=white] at (1,0.5) {$s$};
+      \node[label=left:{$M$}] at (0.5,-1) {};
+      \node[fill=white] at (0.5,-1.5) {$s$};
+    \end{scope}
+    \node at (2,-0.5) {$=$};
+      \begin{knot}
+        \strand[thick] (3,1) to (3,-2);
+      \end{knot}
+    \node[fill=white] at (3,0) {$s$};
+  \end{tikzpicture}
+$$
+Also, since ordinary multiplication has $(xy)z = x(yz)$, we want the
 following associativity law to hold, too:
-
-                 \      /        /        \        \      /
-                  \    /        /          \        \    /
-                  s\  /s      s/           s\       s\  /s
-                    \/        /              \        \/
-                    M\       /                \       /M 
-                      \     /                  \     /
-                      s\   /                    \   /s
-                        \ /                      \ /
-                         |M                       |M
-                         |                        |
-                         |            =           |
-                         |                        |
-                         |                        |
-                         |                        |
-                        s|                       s|
-                         |                        |
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0.5)
+        to (0,0)
+        to [out=down,in=up] (0.5,-1)
+        to (0.5,-1.5)
+        to [out=down,in=up] (1,-2.5)
+        to (1,-3.5);
+      \strand[thick] (1,0.5)
+        to (1,0)
+        to [out=down,in=up] (0.5,-1);
+      \strand[thick] (2,0.5)
+        to (2,0)
+        to [out=down,in=up] (1.5,-1)
+        to (1.5,-1.5)
+        to [out=down,in=up] (1,-2.5);
+    \end{knot}
+    \node[fill=white] at (0,0) {$s$};
+    \node[fill=white] at (1,0) {$s$};
+    \node[fill=white] at (2,0) {$s$};
+    \node[label=left:{$M$}] at (0.5,-1) {};
+    \node[label=left:{$M$}] at (1,-2.5) {};
+    \node[fill=white] at (0.5,-1.5) {$s$};
+    \node[fill=white] at (1,-3) {$s$};
+    \node at (3,-1.75) {$=$};
+    \begin{scope}[xscale=-1,shift={(-6,0)}]
+    \begin{knot}
+      \strand[thick] (0,0.5)
+        to (0,0)
+        to [out=down,in=up] (0.5,-1)
+        to (0.5,-1.5)
+        to [out=down,in=up] (1,-2.5)
+        to (1,-3.5);
+      \strand[thick] (1,0.5)
+        to (1,0)
+        to [out=down,in=up] (0.5,-1);
+      \strand[thick] (2,0.5)
+        to (2,0)
+        to [out=down,in=up] (1.5,-1)
+        to (1.5,-1.5)
+        to [out=down,in=up] (1,-2.5);
+    \end{knot}
+    \node[fill=white] at (0,0) {$s$};
+    \node[fill=white] at (1,0) {$s$};
+    \node[fill=white] at (2,0) {$s$};
+    \node[label=left:{$M$}] at (0.5,-1) {};
+    \node[label=left:{$M$}] at (1,-2.5) {};
+    \node[fill=white] at (0.5,-1.5) {$s$};
+    \node[fill=white] at (1,-3) {$s$};
+    \end{scope}
+  \end{tikzpicture}
+$$
 These rules are a translation of the rules given in
 ["Week 89"](#week89) into string diagram form.
 
