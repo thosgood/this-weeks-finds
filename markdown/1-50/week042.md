@@ -119,8 +119,14 @@ operations. Think of something in $X(n)$ as a black box that has $n$
 "input" tubes and one "output" tube, or a tree-shaped thing
 $$
   \begin{tikzpicture}
-    \draw[thick] (0,0) to (1,-1.5) to (2,0);
-    \draw[thick] (1,0) to (1,-3);
+    \begin{knot}
+      \strand[thick] (0.75,0)
+        to (0.75,-2);
+      \strand[thick] (0,0)
+        to [out=down,in=up] (0.75,-1);
+      \strand[thick] (1.5,0)
+        to [out=down,in=up] (0.75,-1);
+    \end{knot}
   \end{tikzpicture}
 $$
 with $n$ branches and one root (here $n = 3$). Then suppose we have a bunch
@@ -136,12 +142,33 @@ $X(3)$, we can hook up their outputs to the inputs of something in $X(2)$,
 to get something that looks like
 $$
   \begin{tikzpicture}[scale=0.7]
-    \draw[thick] (0,0) to (1,-1.5) to (2,0);
-    \draw[thick] (1,0) to (1,-3);
-    \draw[thick] (3,0) to (4,-1.5) to (5,0);
-    \draw[thick] (4,0) to (4,-3);
-    \draw[thick] (1,-3) to (2.5,-4.5) to (4,-3);
-    \draw[thick] (2.5,-4.5) to (2.5,-6);
+    \begin{knot}
+      \strand[thick] (0.75,0)
+        to (0.75,-1.5);
+      \strand[thick] (0,0)
+        to [out=down,in=up] (0.75,-1);
+      \strand[thick] (1.5,0)
+        to [out=down,in=up] (0.75,-1);
+    \end{knot}
+    \begin{scope}[shift={(2,0)}]
+      \begin{knot}
+        \strand[thick] (0.75,0)
+          to (0.75,-1.5);
+        \strand[thick] (0,0)
+          to [out=down,in=up] (0.75,-1);
+        \strand[thick] (1.5,0)
+          to [out=down,in=up] (0.75,-1);
+      \end{knot}
+    \end{scope}
+    \begin{scope}[shift={(0.75,-1.5)}]
+      \begin{knot}
+        \strand[thick] (0,0)
+          to [out=down,in=up] (1,-1)
+          to (1,-2);
+        \strand[thick] (2,0)
+          to [out=down,in=up] (1,-1);
+      \end{knot}
+    \end{scope}
   \end{tikzpicture}
 $$
 which is in $X(6)$. The closed string field theorists like operads because
