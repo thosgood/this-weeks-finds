@@ -6,7 +6,7 @@ Mathematical Problems of Quantum Gravity.
 
 Ashtekar is one of the founders of an approach to quantizing gravity
 called the loop representation. I've explained this approach in
-"[week7](week7.html)", "[week43](week43.html)", and other places,
+["Week 7](week7.html)", "[week43"](#week7](week7.html)", "[week43), and other places,
 but let me just remind you of the basic idea. In the traditional
 approach to reconciling general relativity with quantum theory,
 excitations of the gravitational field were described by small ripples
@@ -20,7 +20,7 @@ speaking, a spin network is a graph whose edges are labelled by spins
 carrying area equal to sqrt(j(j+1)) times the square of the Planck
 length --- the fundamental length scale in quantum gravity, about
 10\^{-35} meters. For more on spin networks, try
-"[week55](week55.html)".
+["Week 55"](#week55).
 
 Quantum gravity has always been a tough subject. After a lot of work, a
 lot of people concluded that the traditional approach to quantum gravity
@@ -88,7 +88,7 @@ that gauge-invariance is rigorously maintained by certain extended
 loops, e.g. those for which the power series has finitely many terms.
 The most famous examples of functions of extended loops with only
 finitely many terms are the Vassiliev invariants, which come up in knot
-theory (see "[week3](week3.html)"). Gambini and Pullin have claimed
+theory (see ["Week 3"](#week3)). Gambini and Pullin have claimed
 that certain Vassiliev invariants are states of quantum gravity, so
 these are of special interest.
 
@@ -96,7 +96,7 @@ The feeling was that we needed to compare these different loop
 representations more carefully because they both have advantages.
 
 Also, Renate Loll spoke about "Lattice Gravity". See
-"[week55](week55.html)" for a bit more on this. Her talk led to an
+["Week 55"](#week55) for a bit more on this. Her talk led to an
 interesting discussion of the meaning of the limit, as the lattice
 spacing goes to zero, of quantum gravity as done on a lattice. Does it
 make sense? One needs, apparently, to look at ones formula for the

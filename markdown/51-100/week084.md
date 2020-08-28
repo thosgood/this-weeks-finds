@@ -145,7 +145,7 @@ like 2 trillion degrees, and densities comparable to that of nuclear
 matter! This should yield a "quark-gluon plasma" in which quarks can
 zip around freely at enormous energies. That's what the folks at the
 Relativistic Heavy Ion Collider are doing - see
-"[week76](week76.html)" for more.
+["Week 76"](#week76) for more.
 
 This should certainly keep the experimentalists entertained. On the
 other hand, theorists can have lots of fun trying to understand more
@@ -164,7 +164,7 @@ sites or so, since currently calculations take too long when the lattice
 gets much bigger than that.
 
 Numerical calculations like these have a lot of potential. In
-"[week68](week68.html)", for example, I talked about how people found
+["Week 68"](#week68), for example, I talked about how people found
 numerical evidence for the existence of a "glueball" - a hadron made
 of no quarks, just gluons, the gluon being the particle that carries the
 strong force. This glueball candidate seems to match the features of an
@@ -181,7 +181,7 @@ confinement, even if it's not quite rigorous. One way people try to
 understand it is in terms of "dual superconductivity". In certain
 superconductors, magnetic fields can only penetrate as long narrow tubes
 of magnetic flux. (For example, this happens in neutron stars - see
-"[week37](week37.html)".) Now, just as electromagnetism consists of an
+["Week 37"](#week37).) Now, just as electromagnetism consists of an
 "electric" part and a "magnetic" part, so does the strong force. But
 the idea is that confinement is due to the *electric* part of the strong
 force only being able to penetrate the vacuum in the form of long narrow
@@ -271,7 +271,7 @@ the edges as morphisms, like this:
 o-\>-o-\>-o-\>-o-\>-o
 
 If you do this to a graph that's the Dynkin diagram of a Lie group -
-see "[week62](week62.html)" and the weeks following that - then the
+see ["Week 62"](#week62) and the weeks following that - then the
 fun starts! Dynkin diagrams give Lie groups, but also quantum groups,
 and now it turns out that they also give rise to certain categories of
 which the quantum groups are decategoried, boiled-down versions.... I
@@ -280,7 +280,7 @@ simply amazing how a world of complex symmetry emerges from these Dynkin
 diagrams.
 
 For more on this stuff try the paper by Crane and Frenkel referred to in
-"[week38](week38.html)" and "[week50](week50.html)". It suggests
+["Week 38](week38.html)" and "[week50"](#week38](week38.html)" and "[week50). It suggests
 some amazing relationships between this stuff and 4-dimensional
 topology....
 
@@ -344,7 +344,7 @@ understood most generally in the language of 2-categories.
 as particle moving backwards in time, and appears in the Feynman
 diagrams for annihilation and creation of particle/antiparticle pairs.
 For those familiar with the category-theoretic approach to Feynman
-diagrams, the stuff in "[week83](week83.html)" about dual vector
+diagrams, the stuff in ["Week 83"](#week83) about dual vector
 spaces should suffice to make this connection precise.)
 
 Next I will talk about another 2-dimensional concept, the concept of

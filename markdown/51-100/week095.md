@@ -66,7 +66,7 @@ correspond to different particles, but the theory is called "bosonic"
 because these particles are all bosons. That's no good for a realistic
 theory of physics, because the real world has lots of fermions, too.
 (For a bit about bosons and fermions in particle physics, see
-"[week93](week93.html)".)
+["Week 93"](#week93).)
 
 For a more realistic theory people use "supersymmetric" string theory.
 The idea here is to let the string be a bit more abstract: it vibrates
@@ -96,7 +96,7 @@ subject try:
 As it so happens, supersymmetric string theory - often abbreviated to
 "superstring theory" - works best in 10 dimensions. There are five
 main versions of superstring theory, which I described in
-"[week74](week74.html)". The type I string theory involves open
+["Week 74"](#week74). The type I string theory involves open
 strings - little segments rather than loops. The type IIA and type IIB
 theories involve closed strings, that is, loops. But the most popular
 sort of superstring theories are the "heterotic strings". A nice
@@ -213,7 +213,7 @@ higher dimensions, these little holes gets bigger! By the time you get
 up to dimension 8, there's enough room to put another sphere OF THE
 SAME SIZE AS THE REST in each hole! If you do that, you get the lattice
 E8. (I explained this and a bunch of other lattices in
-"[week65](week65.html)", so more info take a look at that.)
+["Week 65"](#week65), so more info take a look at that.)
 
 In dimension 16 there are only *two* even unimodular lattices. One is E8
 + E8. A vector in this is just a pair of vectors in E8. The other is
@@ -227,12 +227,12 @@ even integer. (A "half-integer" is an integer plus 1/2.)
 So E8 + E8 and D16+ give us the two kinds of heterotic string theory!
 They are often called the E8 + E8 and SO(32) heterotic theories.
 
-In "[week63](week63.html)" and "[week64](week64.html)" I explained a
+In ["Week 63](week63.html)" and "[week64"](#week63](week63.html)" and "[week64) I explained a
 bit about lattices and Lie groups, and if you know about that stuff, I
 can explain why the second sort of string theory is called "SO(32)".
 Any compact Lie group has a maximal torus, which we can think of as some
 Euclidean space modulo a lattice. There's a group called E8, described
-in "[week90](week90.html)", which gives us the E8 lattice this way,
+in ["Week 90"](#week90), which gives us the E8 lattice this way,
 and the product of two copies of this group gives us E8 + E8. On the
 other hand, we can also get a lattice this way from the group SO(32) of
 rotations in 32 dimensions, and after a little finagling this gives us
@@ -267,7 +267,7 @@ the only one having no vectors of length 2. This is related to a whole
 WORLD of bizarre and perversely fascinating mathematics, like the
 "Monster group", the largest sporadic finite simple group - and also
 to string theory. I said a bit about this stuff in
-"[week66](week66.html)", and I will say more in the future, but for
+["Week 66"](#week66), and I will say more in the future, but for
 now let me just describe how to get the Leech lattice.
 
 First of all, let's think about Lorentzian lattices, that is, lattices
@@ -285,7 +285,7 @@ number.
 
 Note that the dimensions of this form: 2, 10, 18, 26, etc., are
 precisely the dimensions I said were specially important in
-"[week93](week93.html)" for some *other* string-theoretic reason. Is
+["Week 93"](#week93) for some *other* string-theoretic reason. Is
 this a "coincidence"? Well, all I can say is that I don't understand
 it.
 

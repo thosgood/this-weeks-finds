@@ -26,7 +26,7 @@ higher energies, the constituent quarks act almost as free particles,
 indicating that the strong force gets weak when the quarks get really
 close to each other.
 
-Now in "[week76](week76.html)" and "[week84](week84.html)" I talked
+Now in ["Week 76](week76.html)" and "[week84"](#week76](week76.html)" and "[week84) I talked
 about another phenomenon, called "confinement". This simply means that
 at lower energies, or larger distance scales, the strong force becomes
 so strong that it is *impossible* to pull a quark out of a hadron.

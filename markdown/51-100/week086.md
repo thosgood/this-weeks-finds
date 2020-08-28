@@ -20,7 +20,7 @@ discrete. In other words, area is quantized!
 
 Let me describe the area operator a bit more precisely. Before I tell
 you what the area operator is, I have to tell you what it operates on.
-Remember from "[week43](week43.html)" that there are various Hilbert
+Remember from ["Week 43"](#week43) that there are various Hilbert
 spaces floating around in the canonical quantization of gravity. First
 there is the "kinematical state space". In the old-fashioned metric
 approach to quantum gravity, known as geometrodynamics, this was
@@ -58,12 +58,12 @@ transformations and gauge transformations --- the really physical
 information.
 
 I explained these constraints to some extent in
-"[week43](week43.html)", and I don't really want to worry about them
+["Week 43"](#week43), and I don't really want to worry about them
 here. But let me just mention that the Gauss law constraint is easy to
 impose in a mathematically rigorous way. The diffeomorphism constraint
 is harder but still possible, and the Hamiltonian constraint is the big
 thorny question plaguing quantum gravity --- see
-"[week85](week85.html)" for some recent progress on this. The area
+["Week 85"](#week85) for some recent progress on this. The area
 operators I'll be talking about are self-adjoint operators on the space
 of kinematical states, L\^2(A), and are a preliminary version of some
 related operators one hopes eventually to get on the physical state
@@ -140,7 +140,7 @@ of 4-simplices (the 4d version of tetrahedra), fields are thought of
 ways of labelling the faces, edges and so on by spins, elements of SU(2)
 and the like, and the path integral is replaced by a sum over these
 labellings. This works out quite nicely for quantum gravity in 3
-dimensions --- see "[week16](week16.html)" --- but it's much more
+dimensions --- see ["Week 16"](#week16) --- but it's much more
 challenging in 4 dimensions.
 
 One nice feature of these state sum models for quantum gravity is that
@@ -218,7 +218,7 @@ and since I am getting a bit tired out, I won't describe it here.
 
 Monday, July 15th - Renate Loll gave a talk on the volume and area
 operators in lattice gravity. I wrote a bit about her work on the volume
-operator in "[week55](week55.html)", and more can be found in:
+operator in ["Week 55"](#week55), and more can be found in:
 
 5) Renate Loll, The volume operator in discretized quantum gravity,
 preprint available as

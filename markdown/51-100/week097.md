@@ -126,7 +126,7 @@ Now on to some more technical stuff....
 
 I am now visiting the Center for Gravitational Physics and Geometry here
 at Penn State, which is a delightful place for people interested in the
-loop representation of quantum gravity (see "[week77](week77.html)").
+loop representation of quantum gravity (see ["Week 77"](#week77)).
 Right now everyone is working on using the loop representation to derive
 Hawking's formula which says that the entropy of a black hole is
 proportional to the surface area of its event horizon.
@@ -196,7 +196,7 @@ would like to understand better: Gerard 't Hooft's work on confinement
 in chromodynamics using his "order and disorder operators".
 
 I explained some basic ideas about confinement and asymptotic freedom in
-"[week84](week84.html)" and "[week94](week94.html)", so I'll assume
+["Week 84](week84.html)" and "[week94"](#week84](week84.html)" and "[week94), so I'll assume
 you've read that stuff. Remember, the basic idea of confinement is that
 if you take a meson and try to pull the quark and antiquark it contains
 apart, the force required does not decrease with distance like 1/r\^2,
@@ -347,7 +347,7 @@ in his work on magnetism, it's all quite fitting.
 
 And that leads me to the last paper I want to mention this week. It
 should be of great interest to Vassiliev invariant fans; see
-"[week3](week3.html)" if you don't know what a Vassiliev invariant
+["Week 3"](#week3) if you don't know what a Vassiliev invariant
 is.
 
 7) Dror Bar-Natan and Alexander Stoimenow, The fundamental theorem of

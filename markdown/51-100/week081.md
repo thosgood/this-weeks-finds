@@ -155,7 +155,7 @@ ahold of these? There is a nice trick which Brylinski described in his
 talk. To get this trick, we need to assume a bit about the group G.
 Let's assume it's a connected and simply-connected simple Lie group.
 I'll explain that in a minute, but some good examples to keep in mind
-are SU(n) and Spin(n); see "[week61](week61.html)" for the definitions
+are SU(n) and Spin(n); see ["Week 61"](#week61) for the definitions
 and a bit of information about these groups.
 
 Now remember that S\^k stands for the k-dimensional sphere, and π_k(X)
@@ -173,7 +173,7 @@ Saying that G is simply connected means that π_1(G) = 0. In other words,
 all loops in G can be "pulled tight". A good example of a group
 that's NOT simply connected is the group SO(n) of rotations in n
 dimensional space.. This flaw with SO(n) is why they needed to invent
-Spin(n); see "[week61](week61.html)".
+Spin(n); see ["Week 61"](#week61).
 
 As it turns out, every Lie group has π_2(G) = 0. So all 2-spheres in G
 can be pulled tight too. Imagine taking a balloon and sticking it in G;
@@ -181,7 +181,7 @@ then you can always shrink it down to a point in a continuous way
 without it getting stuck around a hole in G.
 
 Saying that G is simple is an algebraic rather than topological
-condition, and I explained this condition in "[week63](week63.html)".
+condition, and I explained this condition in ["Week 63"](#week63).
 But it has topological ramifications. It implies, for example, that
 π_3(G) = Z, the group of integers. So to each way of sticking a 3-sphere
 in G we can associate an integer. One way to compute this integer

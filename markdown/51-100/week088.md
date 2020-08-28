@@ -9,7 +9,7 @@ out that they solved all the problems with quantum gravity after I left.
 Before I launch into my day-by-day account of what happened, let me note
 that I've written a little introduction to Thiemann's work on the
 Hamiltonian constraint, which he presented at the workshop (see
-"[week85](week85.html)"):
+["Week 85"](#week85)):
 
 1) John Baez, The Hamiltonian constraint in the loop representation of
 quantum gravity, available at
@@ -172,7 +172,7 @@ with the details. Basically I summarized what is known about BF theory
 4, and the discrete formulation of BF theory where you chop spacetime
 into simplices and label the edges and so on with spins and the like
 --- so-called "state sum models". You can read more about this in
-"[week38](week38.html)".
+["Week 38"](#week38).
 
 Later that day, Jerzy Lewandowski spoke on "Degenerate Metrics". Being
 somewhat less degenerate than Ted Jacobson, he spoke about extending
@@ -216,13 +216,13 @@ Saturday, July 27th - Carlo Rovelli explained some things about the
 problem of time to me.
 
 Monday, July 30th - I spoke about relative states and entanglement
-entropy in two-part quantum systems (see "[week27](week27.html)" and
+entropy in two-part quantum systems (see ["Week 27"](#week27) and
 the applications of these ideas to topological quantum field theory and
 quantum gravity. A lot of this came from my attempts to understand the
 relation between quantum gravity and Chern-Simons theory, and Lee
 Smolin's work where he tries to use this relation to derive the
 Bekenstein bound on the entropy of a system in terms of its surface area
-(see "[week56](week56.html)").
+(see ["Week 56"](#week56)).
 
 An interesting little fact that I needed to use is that if you have a
 two-part quantum system in a pure state --- a state of zero entropy

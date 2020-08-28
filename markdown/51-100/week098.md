@@ -82,8 +82,8 @@ different lines of reasoning using only general relativity and quantum
 theory lead to this formula.
 
 I've already mentioned a few attempts to do this in
-"[week56](week56.html)","[week57](week57.html)", and
-"[week87](week87.html)". These were promising, but they didn't get
+["Week 56](week56.html)","[week57"](#week56](week56.html)","[week57), and
+["Week 87"](#week87). These were promising, but they didn't get
 the magical number 1/4. Also, they are rather rough, in that they do
 computations on some region with boundary, but don't use anything that
 ensures the boundary is an event horizon.
@@ -101,7 +101,7 @@ Schwarzschild black hole are closely related to Chern-Simons theory. Now
 is not the time for me to go into Chern-Simons theory, but basically, it
 lets you apply a lot of neat mathematics to calculate everything to your
 heart's content, very much as Carlip did on his work on the toy model
-of a 2+1-dimensional black hole (see "[week41](week41.html)"). Also,
+of a 2+1-dimensional black hole (see ["Week 41"](#week41)). Also,
 it sheds new light on the relationship between topological quantum field
 theory and quantum gravity, something I am always trying to understand
 better.
@@ -133,7 +133,7 @@ insanely technical.
 
 A while ago Rovelli and Smolin introduced Penrose's notion of "spin
 network" into the loop representation of quantum gravity. I described
-spin networks pretty carefully in "[week43](week43.html)", but here
+spin networks pretty carefully in ["Week 43"](#week43), but here
 let me just say that they are graphs embedded in space with edges
 labelled by spins j = 0, 1/2, 1, 3/2, and so on, just as in the quantum
 mechanics of angular momentum, and with vertices labelled by
@@ -165,7 +165,7 @@ equation. There is a lot of controversy over the Wheeler-DeWitt equation
 and what's the right way to write it down in the loop representation.
 The really annoying thing, however, is that even if you feel you know
 how to write it down - for example, Thomas Thiemann has worked out one
-way (see "[week85](week85.html)") - and can find solutions, you still
+way (see ["Week 85"](#week85)) - and can find solutions, you still
 don't necessarily have a good intuition as to what the solutions
 *mean*. For example, almost everyone seems to agree that spin networks
 with no vertices should satisfy the Wheeler-DeWitt equation. These are
@@ -184,7 +184,7 @@ that the "3-metric", the tensor you use to measure distances in
 warn you that ordinary general relativity doesn't allow degenerate
 metrics like this. The loop representation works with an extension of
 general relativity that covers the case of degenerate metrics; for more
-on this, see "[week88](week88.html)".
+on this, see ["Week 88"](#week88).
 
 More precisely, if you look at these "flux tube" solutions at a
 typical time, the 3-metric vanishes outside a collection of solid tori
@@ -397,11 +397,11 @@ inverses, at least "up to homotopy". We call it an "ω-groupoid".
 This ω-groupoid keeps track of the homotopy type of X in a very nice
 way. (If this "ω" stuff is too mind-boggling, you may want to start by
 reading a bit about plain old categories and groupoids in
-"[week74](week74.html)".)
+["Week 74"](#week74).)
 
 Conversely, given any ω-groupoid there should be a nice way to cook up a
 homotopy corresponding to it. This is just the infinite- dimensional
-generalization of something I described in "[week75](week75.html)".
+generalization of something I described in ["Week 75"](#week75).
 There, I showed how you could get a groupoid from a "homotopy 1-type"
 and vice versa. Here there 1-morphisms but no interesting 2-morphisms,
 3-morphisms, and so on, because the topology of a "homotopy 1-type" is

@@ -6,7 +6,7 @@ I can, because I've never found anywhere else that's as good for
 talking about quantum gravity.
 
 The CGPG is run by Abhay Ashtekar, who introduced the "new variables"
-for general relativity (see "[week7](week7.html)"). This formulation
+for general relativity (see ["Week 7"](#week7)). This formulation
 of general relativity allowed Carlo Rovelli and Lee Smolin to develop a
 new approach to quantum gravity, called the "loop representation".
 Smolin is at the CGPG, while Rovelli teaches at Pittsburgh, only a brief
@@ -18,7 +18,7 @@ postdocs wandering about the place, and some interesting mathematicians
 across the street. I have a particular interest in the work of Jean-Luc
 Brylinski, since he has thought a lot about the relationships between
 conformal field theory and category theory (see
-"[week25](week25.html)").
+["Week 25"](#week25)).
 
 You can find out more about the CGPG and the new variables at the
 following web sites:
@@ -39,7 +39,7 @@ of collaborators on getting the loop representation set up on a
 mathematically rigorous basis, and making good progress. There is a
 natural order in which to set things up, and the next problem to deal
 with is the so-called Hamiltonian constraint (see
-"[week43](week43.html)"). I have always been very worried about this,
+["Week 43"](#week43)). I have always been very worried about this,
 and I'm not alone, since this all the dynamics of quantum gravity is in
 this operator. Ashtekar and Lewandowski have a paper partially written
 in which they rigorously define an operator along these lines, using
@@ -82,7 +82,7 @@ I also talked to Lee Smolin. He has been very interested in the relation
 between the loop representation and certain simplified versions of
 quantum gravity called topological quantum field theories (TQFTs). He
 has ideas on how to derive the Bekenstein bound using this relationship
-- see "[week56](week56.html)" and "[week57](week57.html)" for a
+- see ["Week 56](week56.html)" and "[week57"](#week56](week56.html)" and "[week57) for a
 description.
 
 The funny thing is, some of the mathematics connecting TQFTs to the loop
@@ -91,12 +91,12 @@ well-known approach to quantum gravity - string theory! Smolin has been
 boning up on string theory lately, in part by giving a course on the
 subject, and presently he is eager to bring string theory and the loop
 representation closer together. So we can also expect to see more work
-on attempts to unify string and loops. (See "[week18](week18.html)"
+on attempts to unify string and loops. (See ["Week 18"](#week18)
 for a bit more on strings and loops.)
 
 So I left feeling reinvigorated and eager to continue my own work on
 higher-dimensional algebra and physics... which is what I have talking
-about here ever since "[week73](week73.html)". In fact, I have been
+about here ever since ["Week 73"](#week73). In fact, I have been
 engaging in a lengthy warmup, a minicourse in category theory, with an
 eye to the basic themes of n-category theory. That way, when I get
 around to the really cool stuff, everyone out there will know what the
@@ -146,7 +146,7 @@ categories C and D are not at all "the same," but there are
 "adjoint" functors L: C → D and R: D → C. Let me list some examples
 before defining the concept of adjoint functor and talking about it:
 
-1.  First for the one we discussed in "[week76](week76.html)". Let Set
+1.  First for the one we discussed in ["Week 76"](#week76). Let Set
     be the category of sets, and Grp the category of groups. Let L: Set
     → Grp be the functor taking each set S to the free group on S, and
     doing the obvious thing to morphisms. Let R: Grp → Set be the

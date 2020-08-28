@@ -3,7 +3,7 @@
 For a while now I've been meaning to finish talking about monads and
 adjunctions, and explain what that has to do with the 4-color theorem.
 But first I want to say a little bit more about "triality", which was
-the subject of "[week90](week90.html)".
+the subject of ["Week 90"](#week90).
 
 Triality is a cool symmetry of the infinitesimal rotations in
 8-dimensional space. It was only last night, however, that I figured out
@@ -96,7 +96,7 @@ just a differently coordinatized version of the 4-dimensional lattice
 D~4~! So we have gotten triality to act as symmetries of the D~4~
 lattice, and hence as automorphisms of the Lie algebra D~4~, or in other
 words so(8), the Lie algebra of infinitesimal rotations in 8 dimensions.
-(For more on the D~4~ lattice see "[week65](week65.html)", where I
+(For more on the D~4~ lattice see ["Week 65"](#week65), where I
 describe it using different, more traditional coordinates.)
 
 Actually I didn't invent all this stuff, I sort of dug it out of the
@@ -131,7 +131,7 @@ sure I buy his theory of everything, but that's not unusual: I don't
 think I buy *anyone's* theory of everything!
 
 Let me wrap up by passing on something he told me about triality and the
-exceptional groups. In "[week90](week90.html)" I described how you
+exceptional groups. In ["Week 90"](#week90) I described how you
 could get the Lie groups G2, F4 and E8 from triality. I didn't know how
 E6 and E7 fit into the picture. He emailed me, saying:
 

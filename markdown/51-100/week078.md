@@ -134,7 +134,7 @@ and we are simply saying that for L and R to be adjoints, we demand the
 existence of a natural isomorphism between these functors!
 
 Of course, this seems abstract, but if you work it out in some of the
-examples of adjoint functors given in "[week76](week76.html)" you'll
+examples of adjoint functors given in ["Week 76"](#week76) you'll
 see it all makes good sense.
 
 Now let me start explaining what this all has to do with quantum theory.
@@ -211,7 +211,7 @@ and by dint of strenous mental effort realize that this is just the
 decategorification of the category FinSet of finite sets. (In fact,
 category-theorists routinely use 2 to stand for the 2-element set in the
 skeletal category equivalent to FinSet, and so on - see
-"[week76](week76.html)".)
+["Week 76"](#week76).)
 
 Now, you are certainly entitled to wonder if this elaborate
 mathematical-theological fantasy is just a joke or if it has some

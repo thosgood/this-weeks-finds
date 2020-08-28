@@ -42,7 +42,7 @@ Michael Reisenberger, A left-handed simplicial action for Euclidean GR.
 Carlo Rovelli, Loop quantum gravity and black hole physics.
 
 I described the ideas behind some of these papers in
-"[week85](week85.html)" - "[week88](week88.html)". I didn't mention
+["Week 85](week85.html)" - "[week88"](#week85](week85.html)" - "[week88). I didn't mention
 the paper by Ashtekar and Corichi. It gives nice formula for the inner
 product in the Hilbert space for photons in terms of the Gauss linking
 number - a thing that counts how many times one knot links another.
@@ -61,7 +61,7 @@ commutation relations in a free field theory always come from the
 imaginary part of the inner product in the single-particle Hilbert
 space.
 
-In "[week88](week88.html)" I also mentioned a talk by Jerzy
+In ["Week 88"](#week88) I also mentioned a talk by Jerzy
 Lewandowski, which has now appeared as a preprint:
 
 4) Jerzy Lewandowski and Jacek Wilsniewski, 2+1 sector of 3+1 gravity,
@@ -99,7 +99,7 @@ have occurred to me. Smolin suggests it might possibly be related to how
 supergravity in 11 dimensions is related to string theory in 10
 dimensions, but unfortunately I don't know enough about all that to
 know where to go with it. I need to learn more about this string theory
-duality stuff - see "[week72](week72.html)" for my pathetic attempts
+duality stuff - see ["Week 72"](#week72) for my pathetic attempts
 so far to understand it. I haven't read this yet, but I should:
 
 7) Michael Dine, String theory dualities, preprint available as
@@ -113,7 +113,7 @@ Okay, now let's go back to the tale of n-categories. As promised, I
 will tell you all about monads, monoids, monoid objects, and monoidal
 categories.
 
-You may or may not remember, but in "[week80](week80.html)" I
+You may or may not remember, but in ["Week 80"](#week80) I
 explained the idea of a "2-category" pretty precisely. This is a
 gadget with a bunch of objects, a bunch of morphisms going from one
 object to another, and a bunch of 2-morphisms going from one morphism to
@@ -155,7 +155,7 @@ compose" F and G to get F.G: fg =\> f'g'. It looks like this:
                           f'          g' 
 
 There are some axioms all this stuff has to satisfy, which I described
-in "[week80](week80.html)", but I won't repeat them here. The main
+in ["Week 80"](#week80), but I won't repeat them here. The main
 thing to keep in mind is that a 2-category is like an abstract
 2-dimensional world... and the axioms for a 2-category are algebraic
 distillations of the rules for putting things together in 2 dimensions.
@@ -258,7 +258,7 @@ serves as the left and right identity for multiplication.
 
 So we have a set with an associative multiplication and a unit for this
 multiplication. That's what folks call a "monoid" - see
-"[week74](week74.html)" for more on these. So a monoid is a special
+["Week 74"](#week74) for more on these. So a monoid is a special
 sort of monad!
 
 The point, however, is that there are lots of other kinds of monads, and

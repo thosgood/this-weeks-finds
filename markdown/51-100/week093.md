@@ -183,7 +183,7 @@ fermions in nature, most work in physics has focused on the
 supersymmetric case. Just for completeness, I should point out that
 there are 5 different supersymmetric string theories: type I, type IIA,
 type IIB, E8 × E8 heterotic and SO(32) heterotic. For more on these, see
-"[week72](week72.html)". We won't be getting into them here. Instead,
+["Week 72"](#week72). We won't be getting into them here. Instead,
 I just want to explain how fermions work in different dimensions, and
 why nice things happen in dimensions of the form 8k + 2. Most of what I
 say is in Section 3 of
@@ -195,7 +195,7 @@ House, Oxford, 1985.
 
 but mathematicians may also want to supplement this with material from
 the book "Spin Geometry" by Lawson and Michelson, cited in
-"[week82](week82.html)".
+["Week 82"](#week82).
 
 To understand fermions in different dimensions we need to understand
 Clifford algebras. As far as I know, when Clifford originally invented
@@ -212,7 +212,7 @@ for all i, and
 e~i~ e~j~ = - e~j~ e~i~
 
 whenever i is not equal to j. I discussed these algebras in
-"[week82](week82.html)" and I said what they all were - they all have
+["Week 82"](#week82) and I said what they all were - they all have
 nice descriptions in terms of the reals, the complexes, and the
 quaternions.
 
@@ -314,7 +314,7 @@ the quantum version that only works in dimension 10.)
 
 So: part of the point of these Clifford algebras is that they give
 representations of the double cover of the Lorentz group in different
-dimensions. In "[week61](week61.html)" I explained this double cover
+dimensions. In ["Week 61"](#week61) I explained this double cover
 business, and how the group SO(n) of rotations of n-dimensional
 Euclidean space has a double cover called Spin(n). Similarly, the
 Lorentz group of n-dimensional Minkowski space, written SO(n-1,1), has a

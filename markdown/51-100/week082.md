@@ -40,8 +40,8 @@ and mathematician Arthur Cayley heard Hamilton lecture on quaternions
 and - I imagine - was influenced by this to invent his "octonions", an
 8-dimensional nonassociative algebra in which division still works
 nicely. For more on quaternions, octonions, and the general subject of
-division algebras, try "[week59](week59.html)" and
-"[week61](week61.html)".
+division algebras, try ["Week 59"](#week59) and
+["Week 61"](#week61).
 
 In 1845, two years after the birth of the quaternions, the visionary
 William Clifford was born in Exeter, England. He only lived to the age
@@ -154,7 +154,7 @@ sometime, but for now let me leave it as a tantalizing mystery.
 I will also have to take a rain check when it comes to describing the
 importance of Clifford algebras in physics... let me simply note that
 they are crucial for understanding spin-1/2 particles. I talked a bit
-about this in "[week61](week61.html)".
+about this in ["Week 61"](#week61).
 
 The "Spin Geometry" book goes into a lot of detail on Clifford
 algebras, spinors, the Dirac equation and more. The "Fibre Bundles"
@@ -190,8 +190,8 @@ in the following paper:
 IHES 34 (1968), 105-112.
 
 I described classifying spaces for discrete groups in
-"[week70](week70.html)", and the more general case of discrete
-groupoids in "[week75](week75.html)". The construction for topological
+["Week 70"](#week70), and the more general case of discrete
+groupoids in ["Week 75"](#week75). The construction for topological
 categories is similar: we make a big space by sticking in one point for
 each object, one edge for each morphism, one triangle for each
 composable pair of morphisms:

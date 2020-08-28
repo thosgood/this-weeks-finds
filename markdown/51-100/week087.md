@@ -46,7 +46,7 @@ in this case all of the black hole entropy is "entanglement entropy"
 system can each have entropy due to correlations, even though the whole
 system has zero entropy. Unfortunately my notes do not allow me to
 reconstruct the wonderful argument whereby he showed this. (See
-"[week27](week27.html)" for a more detailed explanation of
+["Week 27"](#week27) for a more detailed explanation of
 entanglement entropy.)
 
 Wednesday July 17th - There was a talk on "Colombeau theory" by a
@@ -82,7 +82,7 @@ Notes in Mathematics 1532, Springer, Berlin, 1992.
 
 Later that day I had nice conversation with Jerzy Lewandowski on the
 approach to the loop representation where one uses smooth, rather than
-analytic, loops. (See "[week55](week55.html)" for more on this issue.)
+analytic, loops. (See ["Week 55"](#week55) for more on this issue.)
 
 Thursday, July 18th - Carlo Rovelli spoke on "Black Hole Entropy",
 reporting some work he did with Kirill Krasnov. They have a nice
@@ -96,7 +96,7 @@ logarithm of the number of microstates some system can have in a given
 macrostate. So one wants to count states somehow. Basically what Rovelli
 and Krasnov do is count the number of ways a surface can be pierced by a
 spin network so as to give it a certain area. (This uses the formula for
-the area operator I descrbed in "[week86](week86.html)".) They get an
+the area operator I descrbed in ["Week 86"](#week86).) They get an
 entropy proportional to the area, but not with the same constant as in
 the Bekenstein-Hawking formula.
 
@@ -205,7 +205,7 @@ Ted Jacobson's second talk was even more interesting to me, but I'll
 postpone that for next Week.
 
 Here, by the way, is a paper related to the talk by Pullin discussed in
-"[week86](week86.html)":
+["Week 86"](#week86):
 
 5) Hugo Fort, Rodolfo Gambini and Jorge Pullin, Lattice knot theory and
 quantum gravity in the loop representation, preprint available as

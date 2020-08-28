@@ -41,7 +41,7 @@ the curiously twisting history of spin networks from their origin up to
 the present day, where they play a major role in topological quantum
 field theory and the loop representation - now more appropriately called
 the spin network representation! - of quantum gravity. (See
-"[week55](week55.html)" for more on spin networks.)
+["Week 55"](#week55) for more on spin networks.)
 
 Note however that the title of the paper refers to the *future* of spin
 networks. Smolin argues that spin networks are a major clue about the
@@ -70,7 +70,7 @@ work to the work of Rafael Sorkin on causal sets, e.g.:
 Space-time as a causal set, Phys. Rev. Lett. 59 (1987), 521.
 
 Unlike the related work of Reisenberger and Rovelli (see
-"[week96](week96.html)"), Markopolou and Smolin do not attempt to
+["Week 96"](#week96)), Markopolou and Smolin do not attempt to
 "derive" their rules from general relativity by standard quantization
 techniques. Instead, they hope that some theory of the sort they
 consider will approximate general relativity in the large-scale limit.
@@ -87,7 +87,7 @@ Now I'd like to switch gears and return to...
 
 THE TALE OF N-CATEGORIES!
 
-Recall that in our last episode, in "[week92](week92.html)", we had
+Recall that in our last episode, in ["Week 92"](#week92), we had
 worked our way up to 2-categories, and we were beginning to see what
 they had to do with 2-dimensional physics and toplogy. I described how
 to get monads from adjunctions, and what this has to do with matrix
@@ -112,7 +112,7 @@ morphisms between objects, 2-morphisms between morphisms, and so on up
 to n-morphisms. A 0-category is just a set, with its objects usually
 being called "elements". Things get trickier as n increases. For a
 precise definition of n-categories for n = 1 and 2, see
-"[week73](week73.html)" and "[week80](week80.html)", respectively.
+["Week 73](week73.html)" and "[week80"](#week73](week73.html)" and "[week80), respectively.
 
 Most familiar mathematical gadgets are sets equipped with extra bells
 and whistles: groups, vector spaces, Hilbert spaces, and so on all have
@@ -130,7 +130,7 @@ multiplication, and the multiplicative identity is the number 1.
 We may categorify the notion of "monoid" and define a "monoidal
 category" to be a *category* equipped with an associative product and
 multiplicative identity. I gave the precise definition back in
-"[week89](week89.html)"; the point here is that while they may sound
+["Week 89"](#week89); the point here is that while they may sound
 scary, monoidal categories are actually very familiar. For example, the
 category of Hilbert spaces is a monoidal category where the product of
 Hilbert spaces is the tensor product and the multiplicative identity is
@@ -145,7 +145,7 @@ categories are just sets. We "decategorify" a category by forgetting
 about the morphisms and pretending that isomorphic objects are equal. We
 are left with a mere set: the set of isomorphism classes of objects.
 
-I gave an example in "[week73](week73.html)". There is a category
+I gave an example in ["Week 73"](#week73). There is a category
 FinSet whose objects are finite sets and whose morphisms are functions.
 If we decategorify this, we get the set of natural numbers! Why? Well,
 two finite sets are isomorphic if they have the same number of elements.
@@ -327,7 +327,7 @@ morphisms, whose adjoint equals their inverse.
 However, it should now be clear - at least to the categorically minded -
 that this sort of adjoint is just a decategorified version of the
 "adjoint functors" so important in category theory. As I explained in
-"[week79](week79.html)", a functor F\*: D → C is a "right adjoint"
+["Week 79"](#week79), a functor F\*: D → C is a "right adjoint"
 of F: C → D if there is, not an equation, but a natural isomorphism
 
 hom(Fc,d) \~ hom(c,F\*d)

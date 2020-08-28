@@ -8,7 +8,7 @@ followed all the previous stuff. So what follows is a rambling tour
 through monads, adjunctions, the 4-color theorem and the large-N limit
 of SU(N) gauge theory....
 
-Okay, so in "[week89](week89.html)" we defined a gadget called a
+Okay, so in ["Week 89"](#week89) we defined a gadget called a
 "monad". Using the string diagrams we talked about, you can think of a
 monad as involving a process like this:
 
@@ -35,7 +35,7 @@ itself is called M.
 
 I can hear you wonder, what exactly *is* this thing s? What *is* this
 process M? Well, I gave the technical answer in
-"[week89](week89.html)" - but the point is that n-category theory is
+["Week 89"](#week89) - but the point is that n-category theory is
 deliberately designed to be so general that it covers pretty much
 anything you could want! For example, s could be the set of real numbers
 and M could be multiplication of real numbers, which is a function from
@@ -120,7 +120,7 @@ following associativity law to hold, too:
                          |                        |
 
 These rules are a translation of the rules given in
-"[week89](week89.html)" into string diagram form.
+["Week 89"](#week89) into string diagram form.
 
 If you are a physicist, you can think of these diagrams as being funny
 Feynman diagrams where you've got some kind of particle s and two
@@ -139,7 +139,7 @@ elaborate setups. However, we could flesh out the analogy to make it
 very precise and accurate if we wanted, and this is especially important
 in topological quantum field theory. More later about that.
 
-Now in "[week83](week83.html)" I discussed a different sort of gadget,
+Now in ["Week 83"](#week83) I discussed a different sort of gadget,
 called an "adjunction". Here you have two guys x and x\*, and two
 processes U and C called the "unit" and "counit", which look like
 this:
@@ -194,7 +194,7 @@ space x and its dual vector space x\*. This is really the same example,
 since if the behavior of a particle under symmetry transformations is
 described by some group representation, its antiparticle is described by
 the dual representation. For more details on the math, see
-"[week83](week83.html)".
+["Week 83"](#week83).
 
 Now, let's see how to get a monad from an adjunction! We need to get s,
 M, and I from x, x\*, U, and C. To do this, we first define s to be
@@ -363,7 +363,7 @@ formulation of the famous 4-color theorem:
 3) Dror Bar-Natan, Lie algebras and the four color theorem, preprint
 available as [q-alg/9606016](http://xxx.lanl.gov/ps/q-alg/9606016).
 
-As I explained in "[week8](week8.html)" and "[week22](week22.html)",
+As I explained in ["Week 8](week8.html)" and "[week22"](#week8](week8.html)" and "[week22),
 there is a way to formulate about the 4-color theorem as a statement
 about trivalent graphs. In particular, Penrose invented a little recipe
 that lets us calculate an invariant of trivalent graphs, which is zero
@@ -386,7 +386,7 @@ SU(2) Chern-Simons theory and the N → ∞ limit of Chern-Simons theory.
 Now, the 4-color theorem is one of the two deep mysteries of
 2-dimensional topology - a subject too often considered trivial. The
 other mystery is the Andrews-Curtis conjecture, discussed in
-"[week23](week23.html)". Often a problem is hard or unsolvable until
+["Week 23"](#week23). Often a problem is hard or unsolvable until
 you get the right tools. Topological quantum field theory is a new tool
 in topology, so one could hope it'll shed some light on these problems.
 Bar-Natan's paper is a tantalizing piece of evidence that maybe, just
@@ -409,7 +409,7 @@ behold, this turns out to be related to the 4-color theorem!
 
 By the way, I guess you all know that the 4-color theorem was proved
 using a computer, by breaking things down into lots of separate cases.
-(See "[week22](week22.html)" for references.) Well, there's a new
+(See ["Week 22"](#week22) for references.) Well, there's a new
 proof out, which also uses a computer, but is supposed to be simpler:
 
 4) Neil Robertson, Daniel P. Sanders, Paul Seymour, and Robin Thomas, A
@@ -423,4 +423,4 @@ integrals. ![:-)](emoticons/tongue.gif)
 To continue reading the "Tale of $n$-Categories", see ["Week 99"](#week99).
 
 For more on adjunctions and monoid objects, try
-"[week173](week173.html)" and especially "[week174](week174.html)".
+["Week 173](week173.html)" and especially "[week174"](#week173](week173.html)" and especially "[week174).

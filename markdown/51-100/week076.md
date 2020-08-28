@@ -7,7 +7,7 @@ gluons; these have an associated kind of "charge" known as color.
 Under normal conditions, quarks and gluons are confined to lie within
 particles with zero total color, such as protons and neutrons, and more
 generally the baryons and mesons seen in particle acccelerators - and
-possibly glueballs, as well. (See "[week68](week68.html)" for more on
+possibly glueballs, as well. (See ["Week 68"](#week68) for more on
 glueballs.)
 
 However, the current theory of the strong force - quantum chromodynamics
@@ -59,7 +59,7 @@ In a category, two objects x and y can be equal or not equal, but more
 interestingly, they can be *isomorphic* or not, and if they are, they
 can be isomorphic in many different ways. An isomorphism between x and y
 is simply a morphism f: x → y which has an inverse g: y → x. (For a
-discussion of inverse morphisms, see "[week74](week74.html)".)
+discussion of inverse morphisms, see ["Week 74"](#week74).)
 
 For example, in the category Set an isomorphism is just a one-to-one and
 onto function. If we know two sets x and y are isomorphic we know that
@@ -142,7 +142,7 @@ identity functor on D, the functor GF is *naturally isomorphic* to it.
 We can define a natural transformation b: GF → 1~D~ by setting b~y~ =
 1~y~ and b~z~ = f. Here some folks may want to refresh themselves on the
 definition of natural transformation, given in
-"[week75](week75.html)", and check that b is really one of these, and
+["Week 75"](#week75), and check that b is really one of these, and
 that b is a natural isomorphism because it has an inverse.
 
 The point is, basically, that having two uniquely isomorphic things with
@@ -166,7 +166,7 @@ sets
 3 = {0,1,2}
 
 etc., and functions between them as morphisms (see
-"[week73](week73.html)"). Essentially all the mathematics that can be
+["Week 73"](#week73)). Essentially all the mathematics that can be
 done in FinSet can be done in this skeletal category. This may seem
 shocking, but it's true.... Similarly, the category Set is equivalent
 to the category Card having one set of each cardinality. Also, the
@@ -182,9 +182,9 @@ know of lots more finite-dimensional vector spaces.
 
 However, there is another thing we can do in Cat, another refinement of
 the notion of isomorphism, which I alluded to in
-"[week75](week75.html)". This is the notion of "adjoint functor".
+["Week 75"](#week75). This is the notion of "adjoint functor".
 Let me mention a few examples (in addition to the example given in
-"[week75](week75.html)") and let the reader ponder them before giving
+["Week 75"](#week75)) and let the reader ponder them before giving
 the definition. Let Grp denote the category with groups as objects and
 homomorphisms as morphisms, a homomorphism f: G → H between groups being
 a function with f(1) = 1 and f(gh) = f(g)f(h) for all g, h in G. Then
@@ -215,7 +215,7 @@ delicate. They certainly aren't inverses, and they aren't even part of
 an equivalence between Set and Grp. Nonetheless they are "adjoints".
 If the reader hasn't thought about this, she may enjoy figuring out
 what this might mean... perhaps keeping the adjoint operators mentioned
-in "[week75](week75.html)" in mind.
+in ["Week 75"](#week75) in mind.
 
 To continue reading the "Tale of $n$-Categories", see ["Week 77"](#week77)
 

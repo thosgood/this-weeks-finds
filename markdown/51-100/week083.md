@@ -37,7 +37,7 @@ simultaneously measure all the coordinates of a point with arbitrary
 accuracy, because they do not commute!
 
 For the definitive introduction to noncommutative geometry, see Connes'
-book "Noncommutative Geometry", reviewed in "[week39](week39.html)".
+book "Noncommutative Geometry", reviewed in ["Week 39"](#week39).
 Already in this book Connes, working with Lott, was beginning to explore
 the idea that the geometry of our physical universe is noncommutative.
 Actually, they used ideas from noncommutative geometry to study a weird
@@ -77,7 +77,7 @@ where C is the complex numbers, H is the quaternions, and M_3(C) is the
 with the octonions. Hint: develop nonassociative geometry and use
 Geoffrey Dixon's theory relating the electromagnetic, weak, and strong
 forces to the complex numbers, quaternions, and octonions, respectively.
-See "[week59](week59.html)" for references to Dixon's work, and an
+See ["Week 59"](#week59) for references to Dixon's work, and an
 explanation of quaternions and octonions.)
 
 The Chamseddine-Connes model predicts that the sine squared of the
@@ -141,7 +141,7 @@ other obvious isomorphism to map back to x. This composite of maps
 should be the identity on x. What this says is that the identity linear
 transformation of x really acts as the identity!
 
-Stealing a trick from "[week79](week79.html)", we can draw this as
+Stealing a trick from ["Week 79"](#week79), we can draw this as
 follows. Draw the counit e: yx → 1 as follows:
 
                      y      x
@@ -188,7 +188,7 @@ the identity on y! We can draw this as follows:
              \/        |       |
                        y       y
 
-If you now steal a peek at "[week79](week79.html)", you'll see that
+If you now steal a peek at ["Week 79"](#week79), you'll see that
 these two equations are just the same equations used to define adjoint
 functors in category theory! What's going on? Well, dual vector spaces
 are analogous to adjoint functors, clearly. But more deeply, what we
@@ -198,7 +198,7 @@ or "monoidal category" - and adjoints in any 2-category.
 What's a monoidal category, exactly? Roughly it's a category with some
 sort of "tensor product" and "unit object". But we can precisely
 define the so-called "strict" monoidal categories as follows: they are
-simply 2-categories with one object. (Turn to "[week80](week80.html)"
+simply 2-categories with one object. (Turn to ["Week 80"](#week80)
 for a definition of 2-categories.) A 2-category has objects, morphisms,
 and 2-morphisms, but if there is only one object, we can do the
 following relabelling trick:
@@ -215,9 +215,9 @@ category with "tensor product", and similarly, a "unit object".
 
 So, just as a category with one object is just a monoid, a 2-category
 with one object is a monoidal category! This is one instance of a trick
-that I sketched many more cases of in "[week74](week74.html)".
+that I sketched many more cases of in ["Week 74"](#week74).
 
-Now, in "[week79](week79.html)" I defined left and right adjoints of
+Now, in ["Week 79"](#week79) I defined left and right adjoints of
 functors between categories. Here the only thing I really needed about
 category theory was that Cat is a 2-category with categories as its
 objects, functors as its morphisms, and natural transformations as its
@@ -275,7 +275,7 @@ and
                        R       R
 
 Alternatively, we can state these equations using the 2-categorical
-notation described in "[week80](week80.html)", by saying that the
+notation described in ["Week 80"](#week80), by saying that the
 following vertical composites of 2-morphisms are identity morphisms:
 
                i.1L       1L.e

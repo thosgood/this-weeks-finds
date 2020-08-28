@@ -26,7 +26,7 @@ this time-asymmetric assumption, the world looks rather different...
 but I'll let Price explain that to you.
 
 Anyway, Price is an expert at spotting covertly time-asymmetric
-assumptions. You may remember from "[week26](week26.html)" that he
+assumptions. You may remember from ["Week 26"](#week26) that he
 even got into a nice argument with Stephen Hawking about the arrow of
 time, thanks to this habit of his. You can read more about it in:
 
@@ -149,8 +149,8 @@ attempting to develop your intuition for Cat, the primordial example of
 a 2-category. Remember, Cat is the 2-category of all categories! Its
 objects are categories, its morphisms are functors, and its 2-morphisms
 are natural transformations --- these being defined in
-"[week73](week73.html)" and again in
-"[week75](week75.html)".
+["Week 73"](#week73) and again in
+["Week 75"](#week75).
 
 How can you learn more about 2-categories? Well, a really good place is
 the following article by Ross Street, who is one of the great gurus of

@@ -42,7 +42,7 @@ for the partition function no matter how you triangulate the
 function only depends on the topology of the manifold. The SU(2)
 Turaev-Viro theory, the first one to be discovered, is also one of the
 most interesting because, modulo a few subtle points, this theory is
-just quantum gravity in 3 dimensions (see "[week16](week16.html)").
+just quantum gravity in 3 dimensions (see ["Week 16"](#week16)).
 The basic idea, though, is that you compute the partition function by
 summing over all ways of labelling the edges of your tetrahedra by
 "spins" j = 0, 1/2, 1, 3/2, etc.. Ponzano and Regge had tried to set
@@ -75,7 +75,7 @@ understanding of these 3-dimensional progeny requires an understanding
 of their seemingly innocuous 4-dimensional ancestors. Also, there are a
 lot of interesting relationships between the SU(2) Crane-Yetter-Broda
 model and quantum gravity in 4 dimensions, which we are just beginning
-to understand. See "[week56](week56.html)" for a bit about this.
+to understand. See ["Week 56"](#week56) for a bit about this.
 
 If you haven't yet joined the fun, Carter, Saito, and Flath's book is
 a great place to start learning about the marvelous interplay between
@@ -92,7 +92,7 @@ representation theory of plain old classical SU(2), while the
 either case the idea is the same. SU(2), classical or quantum, has
 different representations corresponding to different spins j = 0, 1/2,
 1, 3/2, etc.. (If you don't know what I mean by this, try
-"[week5](week5.html)".) If we take three representations j1, j2, and
+["Week 5"](#week5).) If we take three representations j1, j2, and
 j3, we can tensor them either like this:
 
 (j1 tensor j2) tensor j3
@@ -115,7 +115,7 @@ number: the 6j symbol. Then we multiply all these together, one for each
 tetrahedron, and finally we sum over labellings to get the partition
 function. Marvelously, the identities satisfied by the 6j symbols are
 precisely what's needed to make the result independent of the
-triangulation! See "[week38](week38.html)" for an explanation of this
+triangulation! See ["Week 38"](#week38) for an explanation of this
 seeming miracle: it's actually no miracle at all.
 
 2) E. Guadagnini, L. Pilo, Three-manifold invariants and their relation
@@ -142,7 +142,7 @@ of loop quantum gravity, preprint available as
 
 This wonderful paper should really push forwards our understanding of
 the loop representation of quantum gravity. I talked a little bit about
-the basic idea in "[week86](week86.html)". In the loop representation,
+the basic idea in ["Week 86"](#week86). In the loop representation,
 a state of quantum gravity at a given moment is represented by a bunch
 of knotted loops or "spin networks" in space. What's the spacetime
 picture? Well, if you have a surface in spacetime and look at it at one
@@ -153,7 +153,7 @@ very reminiscent of the picture of quantum gravity in string theory!
 
 I've been working on this sort of idea ever since I wrote a paper
 suggesting that the loop representation and string theory might be two
-faces of the same ideas (see "[week18](week18.html)"). Since then,
+faces of the same ideas (see ["Week 18"](#week18)). Since then,
 most of the time I've been trying to understand how these ideas relate
 to the Crane-Yetter-Broda theories, and trying to set up the necessary
 *algebra* (n-category theory) to deal nicely with surfaces in
@@ -167,7 +167,7 @@ surfaces. Reisenberger has already begun work on this in the context of
 "simplicial quantum gravity" - where you chop spacetime up into the
 4-dimensional analog of tetrahedra. But during the Vienna workshop on
 canonical quantum gravity this summer, we talked about a different,
-still more direct approach (see "[week89](week89.html)"). The idea is
+still more direct approach (see ["Week 89"](#week89)). The idea is
 to copy standard quantum field theory, write the propagator describing
 time evolution as a time-ordered exponential, and interpret the terms in
 the resulting sum as surfaces in spacetime. It's all very analogous to

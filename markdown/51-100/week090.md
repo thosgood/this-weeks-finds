@@ -15,7 +15,7 @@ In my youth, I found the classification of simple Lie groups to be
 unintuitive and annoying. I still do, but over the years I've realized
 that suffering through this classification theorem is the necessary
 entrance fee to a whole world of symmetry. I gave a tour of this world
-in "[week62](week62.html)" - "[week65](week63.html)", but here I
+in ["Week 62](week62.html)" - "[week65"](#week62](week62.html)" - "[week65), but here I
 want to make everything as simple as possible, so I won't assume
 you've read that stuff. Experts should jump directly to the end of this
 article and read backwards until it becomes boring.
@@ -82,14 +82,14 @@ understanding rotations in 3-dimensional space; they let us describe
 infinitesimal rotations and their failure to commute. Here we are
 calling a spade a spade and working directly with the algebra of
 infinitesimal rotations, which folks call so(3). (For related stuff, see
-"[week5](week5.html)".)
+["Week 5"](#week5).)
 
 Okay. The point is, we can do this trick for any Lie group! The space of
 "infinitesimal group elements", or more precisely tangent vectors at
 the identity element of a Lie group, is called the "Lie algebra of the
 group". It's a vector space whose dimension is the dimension of the
 group, and it always has a bracket operation on it satisfying certain
-axioms (listed in "[week3](week3.html)").
+axioms (listed in ["Week 3"](#week3)).
 
 The classification of Lie groups can be reduced to the classification of
 Lie algebras, because the Lie algebra almost determines the Lie group.
@@ -98,7 +98,7 @@ group that is "simply connected" - i.e., one for which every loop in
 it can be continuously shrunk to a point. People understand how to get
 from any Lie group to a simply connected one (called its "universal
 cover"), so if we understand simply connected Lie groups, we pretty
-much understand all Lie groups. See "[week61](week61.html)" for an
+much understand all Lie groups. See ["Week 61"](#week61) for an
 instance of this philosophy.
 
 Now classifying Lie algebras is just a matter of heavy-duty linear
@@ -154,7 +154,7 @@ is also called so(2n).
 
 You may justly wonder why the heck they are called A_n, B_n, C_n, and
 D_n, and why we separated out the even and odd cases of SO(n) as we did!
-This is explained in "[week64](week64.html)", and I don't want to
+This is explained in ["Week 64"](#week64), and I don't want to
 worry about it here. Anyway, glossing over some nuances, we see that
 these guys are all pretty much just groups of rotations in real,
 complex, and quaternionic vector spaces.
@@ -191,8 +191,8 @@ the octonions! The real numbers, complex numbers, quaternions and
 octonions are the only "normed division algebras" - a property which
 makes it easy to define rotation groups - but the octonions are weirder
 than the other three because, unlike the others, they are not
-associative. (See "[week59](week59.html)" and
-"[week61](week61.html)" for details.) One might expect a series of
+associative. (See ["Week 59"](#week59) and
+["Week 61"](#week61) for details.) One might expect a series of
 simple Lie groups coming from rotations in octonionic vector spaces,
 like the other classical series... but there isn't one! The only
 simple Lie group like this is the group of rotations of a
@@ -205,7 +205,7 @@ The idea that the exceptional groups are all related to octonions is
 sort of pleasing, because one might easily *expect* that the reals,
 complexes and quaternions give nice infinite series of "classical" Lie
 groups, while the octonions, being much more bizarre, give only 5
-bizarre "exceptional" Lie groups. Indeed, in "[week64](week64.html)"
+bizarre "exceptional" Lie groups. Indeed, in ["Week 64"](#week64)
 I described how F4 and E6 are related to the octonions... but in a
 pretty complicated way! As for E7 and E8, here until recently I had
 always been completely in the dark. This is all the more irksome because
@@ -214,13 +214,13 @@ important role in string theory!
 
 Luckily, on Thursday July 11th I ran into Bertram Kostant, who had been
 attending the previous workshop here at the Erwin Schroedinger
-Institute. As I described in "[week79](week79.html)", Kostant is one
+Institute. As I described in ["Week 79"](#week79), Kostant is one
 of the expert's experts on group theory. So I got up my nerve and asked
 him, "Why does E8 exist?" And he told me! Best of all, he explained
 both E8 and F4 in terms of a principle that I knew was crucial for
 understanding G2 and the octonions ... the principle of triality!
 
-I sketched a description of triality in "[week61](week61.html)". Let
+I sketched a description of triality in ["Week 61"](#week61). Let
 me just summarize the idea here. One of the main way to understand Lie
 algebras is to understand their "representations". A representation of
 a Lie algebra is simply a function from it to the space of nxn matrices
@@ -285,7 +285,7 @@ matrix.
 Now so(8) is the Lie algebra of the Lie group SO(8), but SO(8) is not
 "simply connected" in the sense defined above. The simply connected
 group whose Lie algebra is SO(n) is called Spin(n). I gave an
-introduction to these "spin groups" in "[week61](week61.html)", and
+introduction to these "spin groups" in ["Week 61"](#week61), and
 I don't want to say much about them here, except for this: the triality
 symmetries of so(8) do not give symmetries of SO(8), but they do give
 symmetries of Spin(8). Experts say the group of outer automorphisms
@@ -398,7 +398,7 @@ octonions, G2, F4, and E8. That leaves E8's "little brothers" E6 and
 E7. These are contained in E8 as Lie subalgebras, but apart from that I
 don't know any especially beautiful way to get ahold of them, except
 for the way to get E6 from 3x3 matrices of octonions, which I described
-in "[week64](week64.html)".
+in ["Week 64"](#week64).
 
 For some references to this stuff, try:
 
@@ -438,7 +438,7 @@ reals, the complexes, the quaternions and octonions each give rise to a
 family of simple Lie algebras, and one gets *all* of them this way.
 
 On the other hand, don't think I'm knocking the Dynkin diagram stuff.
-As I explained in "[week62](week62.html)" - "[week64](week64.html)",
+As I explained in ["Week 62](week62.html)" - "[week64"](#week62](week62.html)" - "[week64),
 what's really fundamental to the Dynkin diagram approach seems to be
 the not the Lie algebras themselves but their root lattices. Taking
 lattices as fundamental to the study of symmetry *does* seem to be a

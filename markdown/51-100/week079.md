@@ -100,10 +100,10 @@ more that's special about them. Most of it requires a little knowledge
 of group theory to understand. For example, they are the 3 different
 finite subgroups of SO(3) having irreducible representations on R^3^.
 And they are nice examples of finite reflection groups. For more about
-them from this viewpoint, try "[week62](week62.html)" and
-"[week63](week63.html)". Also, via the McKay correspondence they
+them from this viewpoint, try ["Week 62"](#week62) and
+["Week 63"](#week63). Also, via the McKay correspondence they
 correspond to the exceptional Lie groups E~6~, E~7~, and E~8~ - see
-"[week65](week65.html)" for an explanation of this!
+["Week 65"](#week65) for an explanation of this!
 
 Yet another interesting fact about these groups is buried in Galois'
 last letter, written to the mathematician Chevalier on the night before
@@ -146,7 +146,7 @@ obvious way. PSL(2,7) and PSL(2,11) act on a 7-element set and an
 11-element set, respectively, in sneaky ways which Kostant describes.
 
 These cases, p = 5, 7 and 11, are the the only cases where this happens
-and PSL(2,Z~p~) is simple. (See "[week66](week66.html)" if you don't
+and PSL(2,Z~p~) is simple. (See ["Week 66"](#week66) if you don't
 know what "simple" means.) In each case it is very amusing to look at
 how PSL(2,Z~p~) acts nontrivially on a set with p elements and consider
 the subgroup that doesn't move a particular element of this set. For
@@ -179,7 +179,7 @@ C together with a natural isomorphism between hom(Lc,d) and hom(c,Rd).
 But there is another way to think about adjunctions which is also
 good.
 
-In "[week76](week76.html)" we talked about an "equivalence" of
+In ["Week 76"](#week76) we talked about an "equivalence" of
 categories. We can summarize it this way: an "equivalence" of the
 categories C and D is a pair of functors F: C → D and G: D → C together
 with natural transformations e: FG =\> 1~D~ and i: 1~C~ =\> GF that are
