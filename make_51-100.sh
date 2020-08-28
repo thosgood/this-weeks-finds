@@ -60,6 +60,7 @@ printf '%s\n' '\date{April 23, 1995 to March 23, 1997}' >> $TEX
 printf "\n" >> $TEX
 printf '%s\n' '\usepackage{tikz}' >> $TEX
 printf '%s\n' '\usetikzlibrary{knots}' >> $TEX
+printf '%s\n' '\usetikzlibrary{arrows}' >> $TEX
 
 printf "\n" >> $TEX
 printf '%s\n' '\usepackage{tikz-cd}' >> $TEX
