@@ -34,7 +34,7 @@ that came out of that workshop I've been talking about:
     Carlo Rovelli, "Loop quantum gravity and black hole physics".
 
 I described the ideas behind some of these papers in
-["Week 85](week85.html) -- ["Week 88"](#week88). I didn't mention
+["Week 85](#week85) -- ["Week 88"](#week88). I didn't mention
 the paper by Ashtekar and Corichi. It gives nice formula for the inner
 product in the Hilbert space for photons in terms of the Gauss linking
 number --- a thing that counts how many times one knot links another.

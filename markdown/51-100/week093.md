@@ -475,7 +475,7 @@ Lubos Motl explained where the number 18 shows up in string theory:
 > radius $R$ is equivalent to the other on radius $1/R$, using correct
 > units.
 
-Also, in [week104](week104.html), and especially in the Addendum written
+Also, in ["Week 104"](#week104), and especially in the Addendum written
 by Robert Helling, we'll see that it's *not* a coincidence that
 super-Yang-Mills theory works nicely in dimensions that are 2 more than
 the dimensions of the reals, complex numbers, quaternions and octonions.

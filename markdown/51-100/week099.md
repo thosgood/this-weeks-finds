@@ -112,7 +112,7 @@ morphisms between objects, 2-morphisms between morphisms, and so on up
 to n-morphisms. A 0-category is just a set, with its objects usually
 being called "elements". Things get trickier as n increases. For a
 precise definition of n-categories for n = 1 and 2, see
-["Week 73](week73.html)" and "[week80"](#week73](week73.html)" and "[week80), respectively.
+["Week 73"](#week73) and ["Week 80"](#week80), respectively.
 
 Most familiar mathematical gadgets are sets equipped with extra bells
 and whistles: groups, vector spaces, Hilbert spaces, and so on all have
@@ -182,7 +182,7 @@ quantum field theory:
 5) Higher algebraic structures and quantization, by Dan Freed, Comm.
 Math. Phys. 159 (1994), 343-398, preprint available as
 [hep-th/9212115](http://xxx.lanl.gov/ps/hep-th/9212115); see also
-[week48](week48.html).
+["Week 48"](#week48).
 
 Later, Louis Crane adopted this notion as part of his program to reduce
 quantum gravity to $n$-category theory:

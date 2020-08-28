@@ -266,7 +266,7 @@ simply amazing how a world of complex symmetry emerges from these Dynkin
 diagrams.
 
 For more on this stuff try the paper by Crane and Frenkel referred to in
-["Week 38"](week38.html) and ["Week 50"](#week50). It suggests
+["Week 38"](#week38) and ["Week 50"](#week50). It suggests
 some amazing relationships between this stuff and 4-dimensional
 topology....
 

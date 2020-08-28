@@ -15,7 +15,7 @@ In my youth, I found the classification of simple Lie groups to be
 unintuitive and annoying. I still do, but over the years I've realized
 that suffering through this classification theorem is the necessary
 entrance fee to a whole world of symmetry. I gave a tour of this world
-in ["Week 62"](week62.html) -- ["Week 65"](#week65), but here I
+in ["Week 62"](#week62) -- ["Week 65"](#week65), but here I
 want to make everything as simple as possible, so I won't assume
 you've read that stuff. Experts should jump directly to the end of this
 article and read backwards until it becomes boring.

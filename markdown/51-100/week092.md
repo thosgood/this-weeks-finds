@@ -401,7 +401,7 @@ formulation of the famous 4-color theorem:
 
 3) Dror Bar-Natan, "Lie algebras and the four color theorem", preprint available as [`q-alg/9606016`](http://xxx.lanl.gov/ps/q-alg/9606016).
 
-As I explained in ["Week 8"](week8.html) and ["Week 22"](#week22),
+As I explained in ["Week 8"](#week8) and ["Week 22"](#week22),
 there is a way to formulate about the 4-color theorem as a statement
 about trivalent graphs. In particular, Penrose invented a little recipe
 that lets us calculate an invariant of trivalent graphs, which is zero
@@ -458,4 +458,4 @@ integrals!
 To continue reading the "Tale of $n$-Categories", see ["Week 99"](#week99).
 
 For more on adjunctions and monoid objects, try
-["Week 173"](week173.html) and especially ["Week 174"](#week174).
+["Week 173"](#week173) and especially ["Week 174"](#week174).

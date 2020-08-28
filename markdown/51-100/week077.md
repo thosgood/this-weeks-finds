@@ -77,7 +77,7 @@ I also talked to Lee Smolin. He has been very interested in the relation
 between the loop representation and certain simplified versions of
 quantum gravity called topological quantum field theories (TQFTs). He
 has ideas on how to derive the Bekenstein bound using this relationship
---- see ["Week 56"](week56.html) and ["Week 57"](#week57)" for a
+--- see ["Week 56"](#week56) and ["Week 57"](#week57) for a
 description.
 
 The funny thing is, some of the mathematics connecting TQFTs to the loop

@@ -196,7 +196,7 @@ would like to understand better: Gerard 't Hooft's work on confinement
 in chromodynamics using his "order and disorder operators".
 
 I explained some basic ideas about confinement and asymptotic freedom in
-["Week 84](week84.html)" and "[week94"](#week84](week84.html)" and "[week94), so I'll assume
+["Week 84"](week84) and ["Week 94"](#week94), so I'll assume
 you've read that stuff. Remember, the basic idea of confinement is that
 if you take a meson and try to pull the quark and antiquark it contains
 apart, the force required does not decrease with distance like 1/r\^2,

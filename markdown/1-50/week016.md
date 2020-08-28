@@ -348,7 +348,7 @@ many different initial data on different spacelike slices --- quantize by
 turning Poisson brackets into commutators, and THEN try to take care of
 the mistake we made by defining the "physical" states to be those
 annihilated by certain operators, the Hamiltonian and diffeomorphism
-constraints. I gave a brief intro to this in "[week11](week11.html)".
+constraints. I gave a brief intro to this in ["Week 11"](#week11).
 This is the most traditional approach in 3+1 gravity.
 
 ##### \#6 Lattice approaches

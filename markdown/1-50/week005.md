@@ -215,7 +215,7 @@ details.) I don't feel I understand this construction well enough yet
 to want to say much about it, but it is clearly related to the
 construction of a braided monoidal 2-category from the category of
 quantum group representations given by Crane and Frenkel (see
-"[week2](week2.html)").
+["Week 2"](#week2)).
 
 3) Adrian Ocneanu, "A note on simplicial dimension shifting", available
 in AMSLaTeX as [`arXiv:hep-th/9302028`](http://arxiv.org/abs/hep-th/9302028).

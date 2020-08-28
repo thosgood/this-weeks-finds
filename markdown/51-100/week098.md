@@ -82,7 +82,7 @@ different lines of reasoning using only general relativity and quantum
 theory lead to this formula.
 
 I've already mentioned a few attempts to do this in
-["Week 56](week56.html)","[week57"](#week56](week56.html)","[week57), and
+["Week 56](#week56)", ["Week 57](#week57)", and
 ["Week 87"](#week87). These were promising, but they didn't get
 the magical number 1/4. Also, they are rather rough, in that they do
 computations on some region with boundary, but don't use anything that

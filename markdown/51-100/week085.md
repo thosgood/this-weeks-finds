@@ -6,7 +6,7 @@ Mathematical Problems of Quantum Gravity.
 
 Ashtekar is one of the founders of an approach to quantizing gravity
 called the loop representation. I've explained this approach in
-["Week 7"](week7.html), ["Week 43"](#week43), and other places,
+["Week 7"](#week7), ["Week 43"](#week43), and other places,
 but let me just remind you of the basic idea. In the traditional
 approach to reconciling general relativity with quantum theory,
 excitations of the gravitational field were described by small ripples
