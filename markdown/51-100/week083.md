@@ -166,18 +166,18 @@ $$
       to [out=down,in=down,looseness=2] (2,1)
       to (2,2);
     \end{knot}
-    \node[label=below:{$x$}] at (0,0) {};
-    \node[label=above:{$x$}] at (2,2) {};
-    \node[label=left:{$x$}] at (0,1) {};
-    \node[label=left:{$y$}] at (1,1) {};
-    \node[label=left:{$x$}] at (2,1) {};
+    \node[fill=white] at (0,0.25) {$x$};
+    \node[fill=white] at (2,1.75) {$x$};
+    \node[fill=white] at (0,1) {$x$};
+    \node[fill=white] at (1,1) {$y$};
+    \node[fill=white] at (2,1) {$x$};
     \node at (3,1) {$=$};
     \begin{scope}[shift={(4,0)}]
       \begin{knot}
         \strand[thick] (0,0) to (0,2);
       \end{knot}
-      \node[label=below:{$x$}] at (0,0) {};
-      \node[label=above:{$x$}] at (0,2) {};
+      \node[fill=white] at (0,0.25) {$x$};
+      \node[fill=white] at (0,1.75) {$x$};
     \end{scope}
   \end{tikzpicture}
 $$
@@ -202,19 +202,19 @@ $$
         to [out=down,in=down,looseness=2] (2,1)
         to (2,2);
       \end{knot}
-      \node[label=below:{$y$}] at (0,0) {};
-      \node[label=above:{$y$}] at (2,2) {};
-      \node[label=left:{$y$}] at (2,1) {};
-      \node[label=left:{$x$}] at (1,1) {};
-      \node[label=left:{$y$}] at (0,1) {};
+      \node[fill=white] at (0,0.3) {$y$};
+      \node[fill=white] at (2,1.7) {$y$};
+      \node[fill=white] at (2,1) {$y$};
+      \node[fill=white] at (1,1) {$x$};
+      \node[fill=white] at (0,1) {$y$};
     \end{scope}
     \node at (3,1) {$=$};
     \begin{scope}[shift={(4,0)}]
       \begin{knot}
         \strand[thick] (0,0) to (0,2);
       \end{knot}
-      \node[label=below:{$y$}] at (0,0) {};
-      \node[label=above:{$y$}] at (0,2) {};
+      \node[fill=white] at (0,0.3) {$y$};
+      \node[fill=white] at (0,1.7) {$y$};
     \end{scope}
   \end{tikzpicture}
 $$
@@ -268,28 +268,30 @@ $$
   \\i&\colon 1_a\Rightarrow LR
   \end{aligned}
 $$
-satisfying two magic equations. If we draw e and i as we did above,
+satisfying two magic equations. If we draw $e$ and $i$ as we did above,
 $$
   \begin{tikzpicture}
-    \node at (-1,0) {$e$};
-    \node at (-0.5,0) {$=$};
     \begin{knot}
-      \strand[thick] (0,0)
-      to [out=down,in=down,looseness=2] (1,0);
+      \strand[thick] (0,0.5)
+        to (0,0)
+        to [out=down,in=down,looseness=2] (1,0)
+        to (1,0.5);
     \end{knot}
-    \node[label=above:{$R$}] at (0,0) {};
-    \node[label=above:{$L$}] at (1,0) {};
+    \node[fill=white] at (0,0) {$y$};
+    \node[fill=white] at (1,0) {$x$};
+    \node[label=below:{$e$}] at (0.5,-0.6) {$\bullet$};
   \end{tikzpicture}
   \qquad
   \begin{tikzpicture}
-    \node at (-1,0) {$i$};
-    \node at (-0.5,0) {$=$};
     \begin{knot}
-      \strand[thick] (0,0)
-      to [out=up,in=up,looseness=2] (1,0);
+      \strand[thick] (0,-0.5)
+        to (0,0)
+        to [out=up,in=up,looseness=2] (1,0)
+        to (1,-0.5);
     \end{knot}
-    \node[label=below:{$L$}] at (0,0) {};
-    \node[label=below:{$R$}] at (1,0) {};
+    \node[fill=white] at (0,0) {$x$};
+    \node[fill=white] at (1,0) {$y$};
+    \node[label=above:{$i$}] at (0.5,0.57) {$\bullet$};
   \end{tikzpicture}
 $$
 then the two magic equations are
@@ -302,18 +304,18 @@ $$
       to [out=down,in=down,looseness=2] (2,1)
       to (2,2);
     \end{knot}
-    \node[label=below:{$L$}] at (0,0) {};
-    \node[label=above:{$L$}] at (2,2) {};
-    \node[label=left:{$L$}] at (0,1) {};
-    \node[label=left:{$R$}] at (1,1) {};
-    \node[label=left:{$L$}] at (2,1) {};
+    \node[fill=white] at (0,0.25) {$L$};
+    \node[fill=white] at (2,1.75) {$L$};
+    \node[fill=white] at (0,1) {$L$};
+    \node[fill=white] at (1,1) {$R$};
+    \node[fill=white] at (2,1) {$L$};
     \node at (3,1) {$=$};
     \begin{scope}[shift={(4,0)}]
       \begin{knot}
         \strand[thick] (0,0) to (0,2);
       \end{knot}
-      \node[label=below:{$L$}] at (0,0) {};
-      \node[label=above:{$L$}] at (0,2) {};
+      \node[fill=white] at (0,0.25) {$L$};
+      \node[fill=white] at (0,1.75) {$L$};
     \end{scope}
   \end{tikzpicture}
 $$
@@ -328,19 +330,19 @@ $$
         to [out=down,in=down,looseness=2] (2,1)
         to (2,2);
       \end{knot}
-      \node[label=below:{$R$}] at (0,0) {};
-      \node[label=above:{$R$}] at (2,2) {};
-      \node[label=left:{$R$}] at (2,1) {};
-      \node[label=left:{$L$}] at (1,1) {};
-      \node[label=left:{$R$}] at (0,1) {};
+      \node[fill=white] at (0,0.3) {$R$};
+      \node[fill=white] at (2,1.7) {$R$};
+      \node[fill=white] at (2,1) {$R$};
+      \node[fill=white] at (1,1) {$L$};
+      \node[fill=white] at (0,1) {$R$};
     \end{scope}
     \node at (3,1) {$=$};
     \begin{scope}[shift={(4,0)}]
       \begin{knot}
         \strand[thick] (0,0) to (0,2);
       \end{knot}
-      \node[label=below:{$R$}] at (0,0) {};
-      \node[label=above:{$R$}] at (0,2) {};
+      \node[fill=white] at (0,0.3) {$R$};
+      \node[fill=white] at (0,1.7) {$R$};
     \end{scope}
   \end{tikzpicture}
 $$
