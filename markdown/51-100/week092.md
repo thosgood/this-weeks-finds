@@ -185,6 +185,19 @@ Now in ["Week 83"](#week83) I discussed a different sort of gadget,
 called an "adjunction". Here you have two guys $x$ and $x^*$, and two
 processes $U$ and $C$ called the "unit" and "counit", which look like
 this:
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,-0.5)
+        to (0,0)
+        to [out=up,in=up,looseness=2] (1,0)
+        to (1,-0.5);
+    \end{knot}
+    \node[fill=white] at (0,0) {$x$};
+    \node[fill=white] at (1,0) {$x^*$};
+    \node[label=above:{$U$}] at (0.5,0.57) {$\bullet$};
+  \end{tikzpicture}
+$$
 
                         U
                        / \

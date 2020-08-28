@@ -17,28 +17,29 @@ the same state at the same time.
 Why is spin related to what happens when you try to put a bunch of
 particles in the same state? Well, it all has to do with the relation
 between twisting something around:
-
-    |
-    |
-     \
-      \  /\
-        /  \
-       /   /
-      /  \/
-     /
-    |
-    |
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=5]
+      \strand[thick] (0,0)
+        to (0,-0.5)
+        to [out=down,in=left] (0.3,-1)
+        to [out=right,in=right,looseness=2] (0.3,-0.5);
+      \strand[thick] (0.3,-0.5)
+        to [out=left,in=up] (0,-1)
+        to (0,-1.5);
+    \flipcrossings{1}
+    \end{knot}
+  \end{tikzpicture}
+$$
 and switching two things:
-
-    \     /
-     \   /
-      \ /
-       /
-      / \
-     /   \
-    /     \
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7]
+      \strand[thick] (1,0) to (0,-2);
+      \strand[thick] (0,0) to (1,-2);
+    \end{knot}
+  \end{tikzpicture}
+$$
 To understand this, try
 
 1) Spin, statistics, CPT and all that jazz, `http://math.ucr.edu/home/baez/spin.stat.html`

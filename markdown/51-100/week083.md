@@ -132,22 +132,28 @@ follows. Draw the counit $e\colon yx\to 1$ as follows:
 $$
   \begin{tikzpicture}
     \begin{knot}
-      \strand[thick] (0,0)
-      to [out=down,in=down,looseness=2] (1,0);
+      \strand[thick] (0,0.5)
+        to (0,0)
+        to [out=down,in=down,looseness=2] (1,0)
+        to (1,0.5);
     \end{knot}
-    \node[label=above:{$y$}] at (0,0) {};
-    \node[label=above:{$x$}] at (1,0) {};
+    \node[fill=white] at (0,0) {$y$};
+    \node[fill=white] at (1,0) {$x$};
+    \node[label=below:{$e$}] at (0.5,-0.6) {$\bullet$};
   \end{tikzpicture}
 $$
 and draw the unit $i\colon1\to xy$ as follows:
 $$
   \begin{tikzpicture}
     \begin{knot}
-      \strand[thick] (0,0)
-      to [out=up,in=up,looseness=2] (1,0);
+      \strand[thick] (0,-0.5)
+        to (0,0)
+        to [out=up,in=up,looseness=2] (1,0)
+        to (1,-0.5);
     \end{knot}
-    \node[label=below:{$x$}] at (0,0) {};
-    \node[label=below:{$y$}] at (1,0) {};
+    \node[fill=white] at (0,0) {$x$};
+    \node[fill=white] at (1,0) {$y$};
+    \node[label=above:{$i$}] at (0.5,0.57) {$\bullet$};
   \end{tikzpicture}
 $$
 Then the above equation says that
