@@ -24,7 +24,7 @@ $$
     \end{knot}
     \node[fill=white] at (0,0) {$s$};
     \node[fill=white] at (1,0) {$s$};
-    \node[label=left:{$M$}] at (0.5,-1) {};
+    \node[label=left:{$M$}] at (0.5,-0.95) {$\bullet$};
     \node[fill=white] at (0.5,-1.5) {$s$};
   \end{tikzpicture}
 $$
@@ -73,7 +73,7 @@ $$
     \end{knot}
     \node[label=above:{$I$}] at (0,0) {};
     \node[fill=white] at (1,0.5) {$s$};
-    \node[label=left:{$M$}] at (0.5,-1) {};
+    \node[label=left:{$M$}] at (0.5,-0.95) {$\bullet$};
     \node[fill=white] at (0.5,-1.5) {$s$};
     \node at (2,-0.5) {$=$};
     \begin{knot}
@@ -96,7 +96,7 @@ $$
       \end{knot}
       \node[label=above:{$I$}] at (0,0) {};
       \node[fill=white] at (1,0.5) {$s$};
-      \node[label=left:{$M$}] at (0.5,-1) {};
+      \node[label=left:{$M$}] at (0.5,-0.95) {$\bullet$};
       \node[fill=white] at (0.5,-1.5) {$s$};
     \end{scope}
     \node at (2,-0.5) {$=$};
@@ -129,8 +129,8 @@ $$
     \node[fill=white] at (0,0) {$s$};
     \node[fill=white] at (1,0) {$s$};
     \node[fill=white] at (2,0) {$s$};
-    \node[label=left:{$M$}] at (0.5,-1) {};
-    \node[label=left:{$M$}] at (1,-2.5) {};
+    \node[label=left:{$M$}] at (0.5,-0.95) {$\bullet$};
+    \node[label=left:{$M$}] at (1,-2.45) {$\bullet$};
     \node[fill=white] at (0.5,-1.5) {$s$};
     \node[fill=white] at (1,-3) {$s$};
     \node at (3,-1.75) {$=$};
@@ -154,8 +154,8 @@ $$
     \node[fill=white] at (0,0) {$s$};
     \node[fill=white] at (1,0) {$s$};
     \node[fill=white] at (2,0) {$s$};
-    \node[label=left:{$M$}] at (0.5,-1) {};
-    \node[label=left:{$M$}] at (1,-2.5) {};
+    \node[label=left:{$M$}] at (0.5,-0.95) {$\bullet$};
+    \node[label=left:{$M$}] at (1,-2.45) {$\bullet$};
     \node[fill=white] at (0.5,-1.5) {$s$};
     \node[fill=white] at (1,-3) {$s$};
     \end{scope}

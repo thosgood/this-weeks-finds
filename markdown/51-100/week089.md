@@ -167,7 +167,7 @@ $$
     \node at (1,0.7) {$M$};
   \end{tikzpicture}
 $$
-to make it clear that $s$ is a morphism ,->from $x$ to itself. Here $x$, being
+to make it clear that $s$ is a morphism from $x$ to itself. Here $x$, being
 0-dimensional, is an object.
 
 This hocus-pocus may seem mystifying, but if you bear with me and work
@@ -310,7 +310,7 @@ $$
     \end{knot}
     \node[fill=white] at (0,0) {$s$};
     \node[fill=white] at (1,0) {$s$};
-    \node[label=left:{$M$}] at (0.5,-1) {};
+    \node[label=left:{$M$}] at (0.5,-0.95) {$\bullet$};
     \node[fill=white] at (0.5,-1.5) {$s$};
   \end{tikzpicture}
 $$

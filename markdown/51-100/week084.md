@@ -393,16 +393,18 @@ or dually as a "string diagram"
 $$
   \begin{tikzpicture}
     \begin{knot}
-      \strand[thick] (0,0)
+      \strand[thick] (0,0.5)
+        to (0,0)
         to [out=down,in=up] (0.5,-1)
-        to (0.5,-1.5);
-      \strand[thick] (1,0)
+        to (0.5,-2);
+      \strand[thick] (1,0.5)
+        to (1,0)
         to [out=down,in=up] (0.5,-1);
     \end{knot}
-    \node[label=above:{$f$}] at (0,0) {};
-    \node[label=above:{$f$}] at (1,0) {};
-    \node[label=left:{$M$}] at (0.5,-1) {};
-    \node[label=below:{$f$}] at (0.5,-1.5) {};
+    \node[fill=white] at (0,0) {$f$};
+    \node[fill=white] at (1,0) {$f$};
+    \node[label=left:{$M$}] at (0.5,-0.95) {$\bullet$};
+    \node[fill=white] at (0.5,-1.5) {$f$};
   \end{tikzpicture}
 $$
 Regardless of how you draw it, the 2-morphism $M\colon f^2 \Rightarrow f$ represents a
