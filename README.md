@@ -1,4 +1,4 @@
 # TODO
 
 - search for **???**
-- SO, SU, GL, PSL, SL, O etc. all as `\mathrm`?
+- SO, SU, GL, PSL, SL, O, Spin, etc. all as `\mathrm`?
