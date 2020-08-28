@@ -204,9 +204,9 @@ chromomagnetic field, so ε = 1/μ here too.
 So to understand asymptotic freedom it is sufficient to see why the
 vacuum acts like a paramagnet for the strong force! This depends on a
 big difference between the strong force and electromagnetism. Just as
-the electromagnetic field is carried by photons, which are spin-1
+the electromagnetic field is carried by photons, which are spin-$1$
 particles, the strong force is carried by "gluons", which are also
-spin-1 particles. But while the photon is electrically uncharged, the
+spin-$1$ particles. But while the photon is electrically uncharged, the
 gluon is charged as far as the strong force goes: we say it has
 "color".
 

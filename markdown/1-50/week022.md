@@ -184,12 +184,12 @@ empty graph equals 1.
 
 Greg Kuperberg pointed out to me that this is a case of the quantum
 group knot invariant called the Yamada polynomal. This is associated to
-the spin-1 representation of the quantum group $SU(2)$, and it is a
+the spin-$1$ representation of the quantum group $SU(2)$, and it is a
 polynomial in a variable $q$ that represents $e^\hbar$, where $\hbar$ is Planck's
 constant. But the "Penrose number" is just the value at $q = 1$ of the
 Yamada polynomial --- the "classical case" when $\hbar = 0$. This makes
 perfect sense if one knows about quantum group knot invariants: the
-factor of 3 in rule B above comes from the fact that the spin-1
+factor of 3 in rule B above comes from the fact that the spin-$1$
 representation of $SU(2)$ is 3-dimensional; this representation is really
 just another way of talking about the vector space spanned by the
 quaternions $i$, $j$, and $k$. Also, quantum group knot invariants fail to

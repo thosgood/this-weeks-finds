@@ -33,7 +33,7 @@ density and pressure might be enough to cause deconfinement and create a
 "quark-gluon plasma". Colliding gold on gold at high energies produces
 a enormous spray of particles, but amidst this they are looking for a
 particular signal of deconfinement. They are looking for $\varphi$-mesons and
-looking to see if their lifetime is modified. A $\varphi$-meson is a spin-1
+looking to see if their lifetime is modified. A $\varphi$-meson is a spin-$1$
 particle made of a strange quark / strange antiquark pair; strange
 quarks and antiquarks are supposed to be common in the quark-gluon
 plasma formed by the collision. Folks think the lifetime of a $\varphi$-meson will be

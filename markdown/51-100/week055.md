@@ -162,7 +162,7 @@ votes in favor of trivalent vertices having zero volume kept piling up.
 Finally Smolin noticed that he and Rovelli had made a sign mistake. This
 is incredibly easy to do, since there are lots of tricky sign
 conventions in spin network theory. Fundamentally these are due to the
-fact that spin-1/2 particles are fermions... but I don't think people
+fact that spin-$1/2$ particles are fermions... but I don't think people
 fully understand the physical implications of this. (There is also a
 marvelous category-theoretic explanation of it, but I fear that if I go
 into that all the physicists will stop reading. Maybe some other time.)

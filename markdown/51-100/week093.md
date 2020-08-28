@@ -278,10 +278,10 @@ dimensions and especially 10 dimensions.
 
 Before I get technical, though, let me just summarize the point for
 those of you who don't want all the gory details. "Dirac spinors" are
-what you use to describe spin-1/2 particles that come in both
+what you use to describe spin-$1/2$ particles that come in both
 left-handed and right-handed forms and aren't their own antiparticle -
 like the electron. Weyl spinors have half as many components, and
-describe spin-1/2 particles with an intrinsic handedness that aren't
+describe spin-$1/2$ particles with an intrinsic handedness that aren't
 their own antiparticle - like the neutrino. "Weyl spinors" are only
 possible in even dimensions!
 
@@ -290,9 +290,9 @@ components. But there are also real spinors. These are used for
 describing particles that are their own antiparticle, because the
 operation of turning a particle into an antiparticle is described
 mathematically by complex conjugation. "Majorana spinors" describe
-spin-1/2 particles that come in both left-handed and right-handed forms
+spin-$1/2$ particles that come in both left-handed and right-handed forms
 and are their own antiparticle. Finally, "Majorana-Weyl spinors" are
-used to describe spin-1/2 particles with an intrinsic handedness that
+used to describe spin-$1/2$ particles with an intrinsic handedness that
 are their own antiparticle.
 
 As far as we can tell, none of the particles we've seen are Majorana or
