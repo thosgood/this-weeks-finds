@@ -26,12 +26,11 @@ this time-asymmetric assumption, the world looks rather different...
 but I'll let Price explain that to you.
 
 Anyway, Price is an expert at spotting covertly time-asymmetric
-assumptions. You may remember from ["Week 26"](#week26) that he
+assumptions. you may remember from ["Week 26"](#week26) that he
 even got into a nice argument with Stephen Hawking about the arrow of
-time, thanks to this habit of his. You can read more about it in:
+time, thanks to this habit of his. you can read more about it in:
 
-1) Huw Price, Time's Arrow and Archimedes' Point: New Directions for
-a Physics of Time, Oxford University Press, 1996.
+1) Huw Price, _Time's Arrow and Archimedes' Point: New Directions for a Physics of Time_, Oxford University Press, 1996.
 
 Also, there is a new book out by Hawking and Roger Penrose on quantum
 gravity. First they each present their own ideas, and then they duke it
@@ -69,26 +68,22 @@ time-asymmetric law built into physics from the very start.
 
 To see them argue it out, read
 
-2) Stephen Hawking and Roger Penrose, The Nature of Space and Time,
-Princeton University Press, 1996.
+2) Stephen Hawking and Roger Penrose, _The Nature of Space and Time_, Princeton University Press, 1996.
 
 There are also a couple of more technical books on general relativity
 that I'd been meaning to get ahold of for a long time. They both
 feature authors of that famous book,
 
-3) Charles Misner, Kip Thorne and John Wheeler, Gravitation, Freeman
-Press, 1973,
+3) Charles Misner, Kip Thorne and John Wheeler, _Gravitation_, Freeman Press, 1973,
 
 which was actually the book that made me decide to work on quantum
 gravity, back at the end of my undergraduate days. They are:
 
-4) Ignazio Ciufolini and John Archibald Wheeler, Gravitation and
-Inertia, Princeton University Press, 1995.
+4) Ignazio Ciufolini and John Archibald Wheeler, _Gravitation and Inertia_, Princeton University Press, 1995.
 
 and
 
-5) Kip Thorne, Richard Price and Douglas Macdonald, eds., Black Holes:
-The Membrane Paradigm, 1986.
+5) Kip Thorne, Richard Price and Douglas Macdonald, eds., _Black Holes: The Membrane Paradigm_, 1986.
 
 The book by Ciufolini and Wheeler is full of interesting stuff, but it
 concentrates on "gravitomagnetism": the tendency, predicted by general
@@ -113,10 +108,9 @@ Probe B is expected to fly in 1995", but now it's 1996, right? Maybe
 someone can clue me in to the latest news.... I seem to remember some
 arguments about funding the program.
 
-6) Gravity Probe B, http://stugyro.stanford.edu/RELATIVITY/GPB/
+6) Gravity Probe B, `http://stugyro.stanford.edu/RELATIVITy/GPB/`
 
-(Note added in 2002: now this webpage is gone; see
-<http://einstein.stanford.edu/> for the latest story.)
+(Note added in 2002: now this webpage is gone; see `http://einstein.stanford.edu/` for the latest story.)
 
 Kip Thorne's name comes up a lot in conjuction with black holes and the
 LIGO --- or Laser-Interferometer Gravitational-Wave Observatory ---
@@ -128,10 +122,10 @@ their ecstatic union is complete. The LIGO project aims to observe these
 chirps, and any other sufficiently strong gravitational radiation that
 happens to be passing by our way. LIGO aims to do this by using laser
 interferometry to measure the distance between two points about 4
-kilometers apart to an accuracy of about 10\^{-18} meters, thus
+kilometers apart to an accuracy of about $10^{-18}$ meters, thus
 detecting tiny ripples in the spaceteim metric. For more on LIGO, try
 
-7) LIGO project home page, <http://www.ligo.caltech.edu/>
+7) LIGO project home page, `http://www.ligo.caltech.edu/`
 
 Thorne helped develop a nice way to think of black holes by envisioning
 their event horizon as a kind of "membrane" with well-defined
@@ -145,8 +139,8 @@ Paradigm" is a good place to learn about this.
 Now let me return to the tale of 2-categories. So far I've said only
 that a 2-category is some sort of structure with objects, morphisms
 between objects, and 2-morphisms between morphisms. But I have been
-attempting to develop your intuition for Cat, the primordial example of
-a 2-category. Remember, Cat is the 2-category of all categories! Its
+attempting to develop your intuition for $\mathsf{Cat}$, the primordial example of
+a 2-category. Remember, $\mathsf{Cat}$ is the 2-category of all categories! Its
 objects are categories, its morphisms are functors, and its 2-morphisms
 are natural transformations --- these being defined in
 ["Week 73"](#week73) and again in
@@ -154,24 +148,21 @@ are natural transformations --- these being defined in
 
 How can you learn more about 2-categories? Well, a really good place is
 the following article by Ross Street, who is one of the great gurus of
-n-category theory. For example, he was the one who invented
-ω-categories!
+$n$-category theory. For example, he was the one who invented
+$\omega$-categories!
 
-8) Ross Street, Categorical structures, in Handbook of Algebra, vol. 1,
-ed. M. Hazewinkel, Elsevier, 1996.
+8) Ross Street, "Categorical structures", in _Handbook of Algebra_, vol. **1**, ed. M. Hazewinkel, Elsevier, 1996.
 
-Physicists should note his explanation of the Yang-Baxter and
+Physicists should note his explanation of the yang-Baxter and
 Zamolodchikov equations in terms of category theory. If you have trouble
 finding this, you might try
 
-9) G. Maxwell Kelly and Ross Street, Review of the elements of
-2-categories, Springer Lecture Notes in Mathematics 420, Berlin, 1974,
-pp. 75-103.
+9) G. Maxwell Kelly and Ross Street, _Review of the elements of 2-categories_, Springer Lecture Notes in Mathematics **420**, Berlin, 1974, pp. 75--103.
 
 I can't really compete with these for thoroughness, but at least let me
 give the definition of a 2-category. I'll give a pretty nuts-and-bolts
 definition; later I'll give a more elegant and abstract one. Readers
-who are familiar with Cat should keep this example in mind at all times!
+who are familiar with $\mathsf{Cat}$ should keep this example in mind at all times!
 
 This definition is sort of long, so if you get tired of it, concentrate
 on the pictures! They convey the basic idea. Also, keep in mind is that
@@ -179,106 +170,61 @@ this is going to be sort of like the definition of a category, but with
 an extra level on top, the 2-morphisms.
 
 So: first of all, a 2-category consists of a collection of "objects"
-and a collection of "morphisms". Every morphism f has a "source"
-object and a "target" object. If the source of f is X and its target
-is Y, we write f: X \to Y. In addition, we have:
+and a collection of "morphisms". Every morphism $f$ has a "source"
+object and a "target" object. If the source of $f$ is $x$ and its target
+is y, we write $f\colon x\to y$. In addition, we have:
 
-1) Given a morphism f: X \to Y and a morphism g: Y \to Z, there is a
-morphism fg: X \to Z, which we call the "composite" of f and g.
+1) Given a morphism $f\colon x\to y$ and a morphism $g\colon y\to Z$, there is a
+morphism $fg\colon x\to Z$, which we call the "composite" of $f$ and $g$.
 
-2) Composition is associative: (fg)h = f(gh).
+2) Composition is associative: $(fg)h = f(gh)$.
 
-3) For each object X there is a morphism 1~X~: X \to X, called the
-"identity" of X. For any f: X \to Y we have 1~X~ f = f 1~Y~ = f.
+3) For each object $x$ there is a morphism $1_x\colon x \to x$, called the
+"identity" of x. For any $f\colon x\to y$ we have $1_x f = f 1_y = f$.
 
-You should visualize the composite of f: X \to Y and g: Y \to Z as follows:
-
-                         f           g
-                   X ---->---- Y ---->---- Z
-
+you should visualize the composite of $f\colon x\to y$ and $g\colon y\to Z$ as follows:
+$$x\xrightarrow{f}y\xrightarrow{g}Z.$$
 So far this is exactly the definition of a category! But a 2-category
-ALSO consists of a collection of "2-morphisms". Every 2-morphism T has
-a "source" morphism f and a target morphism g. If the source of T is f
-and its target is g, we write T: f =\> g. If T: f =\> g, we require that
-f and g have the same source and the same target; for example, f: x \to y
-and g: x \to y. You should visualize T as follows:
-
-                          f
-                      ---->---
-                     /         \
-                    x     T     y
-                     \         /
-                      ---->----
-                          g
-
-People usually draw a double arrow like =\> going down next to the T,
-but I can't do that here.
-
+ALSO consists of a collection of "2-morphisms". Every 2-morphism $T$ has
+a "source" morphism $f$ and a target morphism $g$. If the source of $T$ is $f$
+and its target is $g$, we write $T\colon f\Rightarrow g$. If $T\colon f\Rightarrow g$, we require that
+$f$ and $g$ have the same source and the same target; for example, $f\colon x\to y$
+and $g\colon x\to y$. you should visualize $T$ as follows:
+$$\includegraphics[scale=0.3]{../images/Tnatftog.pdf}$$
 In addition, we have:
 
-1') Given a 2-morphism S: f =\> g and a 2-morphism T: g =\> h, there is
-a 2-morphism ST: f =\> h, which we call the "vertical composite" of S
-and T.
+1') Given a 2-morphism $S\colon f\Rightarrow g$ and a 2-morphism $T\colon g\Rightarrow h$, there is
+a 2-morphism $ST\colon f\Rightarrow h$, which we call the "vertical composite" of $S$
+and $T$.
 
-2') Vertical composition is associative: (ST)U = S(TU).
+2') Vertical composition is associative: $(ST)U = S(TU)$.
 
-3') For each morphism f there is a 2-morphism 1~f~: f =\> f, called the
-"identity" of f. For any T: f =\> g we have 1~f~ T = T 1~g~ = T.
+3') For each morphism $f$ there is a 2-morphism $1_f\colon f\Rightarrow f$, called the
+"identity" of $f$. For any $T\colon f\Rightarrow g$ we have $1_f T = T 1_g = T$.
 
 Note that these are just like the previous 3 rules. We draw the vertical
-composite of S: f =\> g and T: g =\> h like this:
-
-                              f
-                          ---->----
-                         /  S      \
-                        /     g     \
-                       x ----->----- y
-                        \   T       /
-                         \         /
-                          ---->----
-                              h
-
+composite of $S\colon f\Rightarrow g$ and $T\colon g\Rightarrow h$ like this:
+$$\includegraphics[scale=0.3]{../images/STvertical.pdf}$$
 Now for a twist. We also require that we can "horizontally" compose
 2-morphisms as follows:
-
-     
-                          f           f'
-                      ---->---    ---->---
-                     /         \ /         \
-                    x     S     y     T     z
-                     \         / \         /
-                      ---->----   ---->----
-                          g           g'
-
+$$\includegraphics[scale=0.3]{../images/SThorizontal.pdf}$$
 So we also demand:
 
-1'') Given morphisms f,g: x \to y and f',g': y \to z, and 2-morphisms S:
-f =\> g and T: f' =\> g', there is a 2-morphism S.T: ff' =\> gg',
-which we call the "horizontal composite" of S and T.
+1'') Given morphisms $f,g\colon x\to y$ and $f',g'\colon y\to z$, and 2-morphisms $S\colon f\Rightarrow g$
+and $T\colon f'\Rightarrow g'$, there is a 2-morphism $S\cdot T\colon ff' \Rightarrow gg'$,
+which we call the "horizontal composite" of $S$ and $T$.
 
-2'') Horizontal composition is associative: (S.T).U = S.(T.U).
+2'') Horizontal composition is associative: $(S\cdot T)\cdot U = S\cdot (T\cdot U)$.
 
 3'') The identities for vertical composition are also the identities
-for horizontal composition. That is, given f,g: x \to y and T: f =\> g we
-have 1~1~x~~.T = T.1~1~y~~ = T.
+for horizontal composition. That is, given $f,g\colon x\to y$ and $T\colon f\Rightarrow g$ we
+have $1_{1_x}\cdot T = T\cdot 1_{1_y} = T$.
 
 Finally, we demand the "exchange law" relating horizontal and vertical
 composition:
-
-(ST).(S'T') = (S.S')(T.T')
-
+$$(ST)\cdot (S'T') = (S\cdot S')(T\cdot T')$$
 This makes the following 2-morphism unambiguous:
-
-                              f             f'
-                          ---->----     ---->----
-                         /  S      \   /  S'     \
-                        /     g     \ /     g'    \
-                       x ----->----- y ----->----- z
-                        \   T       / \   T'      /
-                         \         /   \         /
-                          ---->----     ---->----
-                              h             h'
-
+$$\includegraphics[scale=0.3]{../images/STS'T'.pdf}$$
 We can think of it either as the result of first doing two vertical
 composites, and then one horizontal composite, or as the result of first
 doing two horizontal composites, and then one vertical composite!
@@ -288,18 +234,18 @@ Unlike category theory, where we can visualize morphisms as
 1-dimensional arrows, here we have 2-morphisms which are intrinsically
 2-dimensional, and can be composed both vertically and horizontally.
 
-Now if you are familiar with Cat, you may be wondering how we vertically
+Now if you are familiar with $\mathsf{Cat}$, you may be wondering how we vertically
 and horizontally compose natural transformations, which are the
-2-morphisms in Cat. Let me leave this as an exercise for now...
-there's a nice way to do it that makes Cat into a 2-category. This
+2-morphisms in $\mathsf{Cat}$. Let me leave this as an exercise for now...
+there's a nice way to do it that makes $\mathsf{Cat}$ into a 2-category. This
 exercise is a good one to build up your higher-dimensional algebra
 muscles.
 
 In fact, we could have invented the above definition of 2-category
-simply by thinking a lot about Cat and what you can do with categories,
+simply by thinking a lot about $\mathsf{Cat}$ and what you can do with categories,
 functors, and natural transformations. I'm pretty sure that's more or
 less what happened, historically! Thinking hard enough about nCat leads
-us on to the definition of (n+1)-categories....
+us on to the definition of $(n+1)$-categories....
 
 But that's enough for now. Typing those diagrams is hard work.
 
