@@ -35,7 +35,7 @@ itself is called M.
 
 I can hear you wonder, what exactly *is* this thing s? What *is* this
 process M? Well, I gave the technical answer in
-["Week 89"](#week89) - but the point is that n-category theory is
+["Week 89"](#week89) - but the point is that $n$-category theory is
 deliberately designed to be so general that it covers pretty much
 anything you could want! For example, s could be the set of real numbers
 and M could be multiplication of real numbers, which is a function from

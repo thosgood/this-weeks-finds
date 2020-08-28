@@ -105,9 +105,9 @@ and Mikhail Kapranov; program available at
 But before doing this, I want to say a bit about what category theory
 has to do with quantum mechanics!
 
-First remember the big picture: n-category theory is a language to talk
+First remember the big picture: $n$-category theory is a language to talk
 about processes that turn processes into other processes. Roughly
-speaking, an n-category is some sort of structure with objects,
+speaking, an $n$-category is some sort of structure with objects,
 morphisms between objects, 2-morphisms between morphisms, and so on up
 to n-morphisms. A 0-category is just a set, with its objects usually
 being called "elements". Things get trickier as n increases. For a
@@ -185,7 +185,7 @@ Math. Phys. 159 (1994), 343-398, preprint available as
 [week48](week48.html).
 
 Later, Louis Crane adopted this notion as part of his program to reduce
-quantum gravity to n-category theory:
+quantum gravity to $n$-category theory:
 
 6) Louis Crane: Clock and category: is quantum gravity algebraic?,
 Jour. Math. Phys. 36 (1995), 6180-6193, preprint available as

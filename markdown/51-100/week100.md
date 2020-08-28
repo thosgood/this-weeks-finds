@@ -102,7 +102,7 @@ To really understand this, we probably need to understand
 "4-dimensional algebra". Unfortunately, not enough is known about
 4-dimensional algebra. The problem is that we don't know much about
 4-categories! To do n-dimensional algebra in a really nice way, you need
-to know about n-categories. Roughly speaking, an n-category is an
+to know about n-categories. Roughly speaking, an $n$-category is an
 algebraic structure that has a bunch of things called "objects", a
 bunch of things called "morphisms" that go between objects, and
 similarly 2-morphisms going between morphisms, 3-morphisms going between
@@ -110,7 +110,7 @@ similarly 2-morphisms going between morphisms, 3-morphisms going between
 as "things" of whatever sort you like, the morphisms as processes
 going from one thing to another, the 2-morphisms as meta-processes going
 from one process to another, and so on. Depending on how you play the
-n-category game, there are either no morphisms after level n, or only
+$n$-category game, there are either no morphisms after level n, or only
 simple and bland ones playing the role of "equations". The idea is
 that in the world of n-categories, one keeps track of things, processes,
 meta-processes, and so on to the nth level, but after that one calls it
@@ -177,7 +177,7 @@ Since then, however, he and his students and collaborators seem to have
 been working to translate this definition into the "globular"
 formalism... while also making some other important adjustments too
 technical to discuss here. In particular, Dominic Verity and Todd
-Trimble have done a lot of work on getting the definition of n-category
+Trimble have done a lot of work on getting the definition of $n$-category
 worked out, and a while ago I learned that Trimble came up with a
 definition of "tetracategory" (or what I'm calling simply
 "4-category") in August of 1995. I don't think this has been
@@ -186,7 +186,7 @@ published, however.
 James Dolan came to U. C. Riverside in the fall of 1993, and ever since
 then, he and have been talking about n-categories and their role in
 physics. Most of the category theory I know, I learned in this process.
-It soon became clear that we needed a nice definition of n-category for
+It soon became clear that we needed a nice definition of $n$-category for
 all n in order to turn our hopes and dreams into theorems. After a while
 we started working pretty hard on this. His job was to come up with all
 the bright ideas, and mine was to get him to explain them, to try to
@@ -218,7 +218,7 @@ which is part of the reason for their name. (By the way, the first two
 syllables are pronounced exactly as in "operation".)
 
 In the meantime, Michael Makkai and John Power had begun work using our
-definition. Also, other definitions of "n-category" have appeared on
+definition. Also, other definitions of "$n$-category" have appeared on
 the scene! Zouhair Tamsamani came up with one in terms of
 "multi-simplicial sets":
 
@@ -232,7 +232,7 @@ Michael Batanin also has a definition of $\omega$-categories, of the
 9) M. A. Batanin, On the definition of weak $\omega$-category, Macquarie
 Mathematics Report number 96/207.
 
-Now the fun will begin! These different definitions of (weak) n-category
+Now the fun will begin! These different definitions of (weak) $n$-category
 should be equivalent, albeit in a rather subtle sense, so we should
 check to see if they really are. Also, we need to develop many more
 tools for working with n-categories. Then we can really start using them

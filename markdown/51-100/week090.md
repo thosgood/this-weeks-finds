@@ -549,7 +549,7 @@ triality, which links the "classical" world to the "exceptional"
 world. But it is also nice to try to understand these in a somewhat more
 "conceptual" way. This is one of the reasons I'm interested in
 2-Hilbert spaces... they seem to help one understand this stuff from a
-new angle. But more on those, later. They tie into the n-category stuff
+new angle. But more on those, later. They tie into the $n$-category stuff
 I'm always talking about. I will return to that tale soon, and I'll
 keep building up some of the tools we need, until we are ready to launch
 into a description of 2-Hilbert spaces.

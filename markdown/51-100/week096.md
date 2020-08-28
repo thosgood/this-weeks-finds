@@ -156,7 +156,7 @@ suggesting that the loop representation and string theory might be two
 faces of the same ideas (see ["Week 18"](#week18)). Since then,
 most of the time I've been trying to understand how these ideas relate
 to the Crane-Yetter-Broda theories, and trying to set up the necessary
-*algebra* (n-category theory) to deal nicely with surfaces in
+*algebra* ($n$-category theory) to deal nicely with surfaces in
 4-dimensional spacetime.
 
 But there are many other angles from which one can attack this problem,

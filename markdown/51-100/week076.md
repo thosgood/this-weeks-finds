@@ -46,7 +46,7 @@ People might also enjoy looking at this review article:
 
 Okay, let me continue the tale of $n$-categories. I want to lead up to
 their role in physics, but to do it well, there are quite a few things I
-need to explain first. One of the important things about n-category
+need to explain first. One of the important things about $n$-category
 theory is that they allow a much more fine-grained approach to the
 notion of "sameness" than we would otherwise be able to achieve.
 
