@@ -71,8 +71,8 @@ printf '%s\n' '\begin{titlepage}' >> $TEX
 printf '%s\n' '  \begin{center}' >> $TEX
 printf '%s\n' "    {\Huge\textbf{This Week's Finds in}}" >> $TEX
 printf '%s\n' '  \\[0.7em]{\Huge\textbf{Mathematical Physics}}' >> $TEX
-printf '%s\n' '  \\[1em]{\Huge\textit{Weeks 51 to 100}}' >> $TEX
-printf '%s\n' '  \\[4em]{\LARGE April 23, 1995 \textit{to} March 23, 1997}' >> $TEX
+printf '%s\n' '  \\[1em]{\huge\textit{Weeks 51 to 100}}' >> $TEX
+printf '%s\n' '  \\[4em]{\LARGE \textit{April 23, 1995} to \textit{March 23, 1997}}' >> $TEX
 printf '%s\n' '  \\[4em]{\huge by John Baez}' >> $TEX
 printf '%s\n' '  \\[0.5em]{\Large{Typeset by Tim Hosgood}}' >> $TEX
 printf '%s\n' '  \end{center}' >> $TEX

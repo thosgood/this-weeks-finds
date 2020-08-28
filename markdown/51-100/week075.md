@@ -223,7 +223,7 @@ I'll talk about this more later. But let me just drop a teaser...
 Quantum mechanics is all about Hilbert spaces and linear operators
 between them. Given any (bounded) linear operator $F\colon H\to H'$ from one
 Hilbert space to another, there is a subtle kind of "reverse"
-operator, called the "adjoint" of $F$ and written F^*\colon H'\to H$, defined
+operator, called the "adjoint" of $F$ and written $F^*\colon H'\to H$, defined
 by
 $$\langle x,F^*y \rangle = \langle Fx,y \rangle$$
 for all $x$ in $H$ and $y$ in $H'$. This is not the same as the "inverse" of

@@ -7,13 +7,14 @@
 \usepackage{charter}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
+
+\usepackage{amsmath,amssymb}
+\usepackage[colorlinks=true]{hyperref}
 \usepackage{color}
 \definecolor{myurlcolor}{rgb}{0.6,0,0}
 \definecolor{mycitecolor}{rgb}{0,0,0.8}
 \definecolor{myrefcolor}{rgb}{0,0,0.8}
-
-\usepackage{amsmath,amssymb}
-\usepackage{hyperref}
+\hypersetup{linkcolor=myrefcolor,citecolor=mycitecolor,urlcolor=myurlcolor}
 
 \renewcommand{\texttt}[1]{%
   \begingroup
@@ -48,9 +49,17 @@
 
 \begin{document}
 
-\hypersetup{linkcolor=myrefcolor,citecolor=mycitecolor,urlcolor=myurlcolor}
+\begin{titlepage}
+  \begin{center}
+    {\Huge\textbf{This Week's Finds in}}
+  \\[0.7em]{\Huge\textbf{Mathematical Physics}}
+  \\[1em]{\huge\textit{Weeks 51 to 100}}
+  \\[4em]{\LARGE \textit{April 23, 1995} to \textit{March 23, 1997}}
+  \\[4em]{\huge by John Baez}
+  \\[0.5em]{\Large{Typeset by Tim Hosgood}}
+  \end{center}
+\end{titlepage}
 
-\maketitle
 \tableofcontents
 
 \hypertarget{week51}{%
@@ -3487,8 +3496,8 @@ elements of the form \(uv\) with \(u\) in \(\mathrm{Cliff}\). Note that
 \(\mathrm{Cliff}\) and \(S\) are representations of \(\mathrm{Cliff}\)
 by left multiplication, and therefore are representations of
 \(\mathrm{Spin}(8)\) --- because \(\mathrm{Spin}(8)\) sits inside
-\(\mathrm{Cliff}\). (This is a standard way to get one's hands on the spin
-groups.)
+\(\mathrm{Cliff}\). (This is a standard way to get one's hands on the
+spin groups.)
 
 Note that \(\bigwedge V_+\) and \(\bigwedge V_-\) both have dimension
 \(2^4 = 16\). We can think of both of these as subspace of
@@ -5702,10 +5711,10 @@ has a bunch of logical operations on it: morphisms like \[
     \mathrm{Or}&\colon \Omega \times \Omega \to \Omega
   \end{aligned}
 \] and so on. In our example, and in the classical example, these make
-\(\Omega\) into what folks call a boolean algebra. Basically, all the usual
-rule of logic apply. In general, though, \(\Omega\) only needs to be a
-Heyting algebra. This is more general than a boolean algebra, and it can
-be sort of intuitionistic in flavor; for example,
+\(\Omega\) into what folks call a boolean algebra. Basically, all the
+usual rule of logic apply. In general, though, \(\Omega\) only needs to
+be a Heyting algebra. This is more general than a boolean algebra, and
+it can be sort of intuitionistic in flavor; for example,
 \(\mathrm{Not} \mathrm{Not}\) doesn't need to equal the identity
 morphism \(1\colon \Omega \to \Omega\), so proof by contradiction
 doesn't necessarily work. A typical example of a Heyting algebra
@@ -7066,4 +7075,986 @@ In future editions of This Week's Finds I will say more about
 that while I've discussed these a lot, I have never really explained the
 basic ideas very well. As I gradually understand the basic ideas better,
 they seem simpler and simpler to me, so I think I should try to explain
-them.\end{document}
+them.
+\hypertarget{week73}{%
+\section{February 24, 1996}\label{week73}}
+
+In this and future issues of This Week's Finds, I'd like to talk a bit
+more about higher-dimensional algebra, and how it should lead to many
+exciting developments in mathematics and physics in the 21st century.
+I've talked quite a bit about this already, but I hear from some people
+that the ``big picture'' remained rather obscure. The main reason, I
+suppose, is that I was just barely beginning to see the big picture
+myself! As Louis Crane noted, in this subject it often feels that we are
+unearthing the fossilized remains of some enormous prehistoric beast,
+still unsure of its extent or how it all fits together. Of course that's
+what makes it so exciting, but I'll try to make sense what we've found
+so far, and where it may lead. In the Weeks to come, I'll start out
+describing some basic stuff, and work my way up to some very new ideas.
+
+However, before I get into that, I'd like to say a bit about something
+completely different: biology.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\item
+  \emph{Biological Asymmetry and Handedness}, Ciba Foundation Symposium
+  \textbf{162}, John Wiley and Sons, 1991.
+
+  D. K. Kondepudi and D. K. Nelson, ``Weak neutral currents and the
+  origins of molecular chirality'', \emph{Nature} \textbf{314},
+  pp.~438--441.
+\end{enumerate}
+
+It's always puzzled me how humans and other animals could be
+consistently asymmetric. A 50-50 mix of two mirror-image forms could
+easily be explained by ``spontaneously broken symmetry'', but in fact
+there are many instances of populations with a uniform handedness. Many
+examples appear in Weyl's book ``Symmetry'' (see
+\protect\hyperlink{week63}{``Week 63''}). To take an example close to
+home, the human brain appears to be lateralized in a fairly consistent
+manner; for example, most people have the speech functions concentrated
+in the left hemisphere of their cerebrum --- even most, though not all,
+left-handers.
+
+One might find this unsurprising: it just means that the asymmetry is
+encoded in the genes. But think about it: how are the genes supposed to
+tell the embryo to develop in an asymmetric way? How do they explain the
+difference between right and left? That's what intrigues me.
+
+Of course, genes code for proteins, and most proteins are themselves
+asymmetric. Presumably the answer lurks somewhere around here. Indeed,
+even the amino acids of which the proteins are composed are asymmetric,
+as are many sugars and for that matter, the DNA itself, which is
+composed of two spirals, each of which has an intrinsic directionality
+and hence a handedness. The handedness of many of these basic
+biomolecules is uniform for all life on the globe, as far as I know.
+
+In the conference proceedings on biological asymmetry, there is an
+interesting article on the development of asymmetry in \emph{C.
+elegans}. Ever since the 1960s, this little nematode has been a favorite
+among biologists because of its simplicity, and because of the
+advantages understanding one organism thoroughly rather than many
+organisms in a sketchy way. I'm sure most of you know about the fondness
+geneticists have for the fruit fly, but Caenorhabditis elegans is a far
+simpler critter: it only has 959 cells, all of which have been
+individually named and studied! There are over 1000 people studying it
+by now, there is a journal devoted to it --- The Worm Breeder's Gazette
+--- and it has its own world-wide web server. Moreover, folks are busily
+sequencing not only the complete human genome but also all 100 million
+bases of the DNA of \emph{C. elegans}.
+
+But I digress! The point here is that \emph{C. elegans} is asymmetric,
+and exhibits a consistent handedness. And the cool thing is that in the
+conference proceedings, Wood and Kevshan report on experiments where
+they artificially changed the handedness of \emph{C. elegans} embryos
+when they consisted of only 6 cells! The embryos look symmetric when
+they have 4 cells; by the time they have 8 cells the asymmetry is
+marked. By moving some cells around at the 6-cell stage, Wood and
+Kevshan were able to create fully functional \emph{C. elegans} having
+opposite the usual handedness.
+
+The question of exactly how the embryo's asymmetry originates from some
+asymmetry at the molecular still seems shrouded in mystery. And there is
+another puzzle: how did the biomolecules choose their handedness in the
+first place? Here spontaneous symmetry breaking --- an essentially
+random choice later amplified by selection --- seems a natural
+hypothesis. But physicists should be interested to note that another
+alternative has been seriously proposed. Weak interactions violate
+parity and thus endow the laws of nature with an intrinsic handedness.
+This means there is a slight difference in energies between any
+biomolecule and its enantiomer, or mirror-image version. According to S.
+F. Mason's article in the conference proceedings, this difference indeed
+favors the observed forms of amino acids and sugars --- the left-handed
+or ``L'' amino acids and the right-handed or ``D'' sugars. But the
+difference is is incredibly puny --- typically it amounts to
+\(10^{-14}\) joules per mole! How could such a small difference matter?
+Well, Kondepudi and Nelson have done calculations suggesting that in
+certain situations where there is both autocatalysis of both L and D
+forms of these molecules, and also competition between them, random
+fluctuations can be averaged out, while small energy level differences
+can make a big difference.
+
+That would be rather satisfying to me: knowing that my heart is where it
+is for the same reason that neutrinos are left-handed. But in fact this
+theory is very controversial\ldots. I mention it only because of its
+charm.
+
+If we think of the universe as passing through the course of history
+from simplicity to complexity, from neutrinos to nematodes to humans,
+it's natural to wonder what's at the bottom, where things get very
+simple, where physics blurs into pure logic\ldots. far from the ``spires
+of form''. Ironically, even the simplest things may be hard to
+understand, because they are so abstract.
+
+Let's begin with the world of sets. In a certain sense, there is nothing
+much to a set except its cardinality, the number of elements it has. Of
+course, set theorists work hard to build up the universe of sets from
+the empty set, each set being a set of sets, with its own distinctive
+personality:
+\[\{\} ,\, \{\{\}\} ,\, \{\{\{\}\}\} ,\, \{\{\},\{\{\}\}\} ,\, \{\{\},\{\{\{\}\}\}\} ,\, \{\{\},\{\{\}\},\{\{\},\{\{\}\}\}\}\]
+and the like. But for many purposes, a one-to-one and onto function
+between two sets allows us to treat them as the same. So if necessary,
+we could actually get by with just one set of each cardinality. For
+example
+\[\{\} ,\, \{\{\}\} ,\, \{\{\},\{\{\}\}\} ,\, \{\{\},\{\{\}\},\{\{\},\{\{\}\}\}\}\]
+and so on. For short, people like to call these \[0 ,\, 1 ,\, 2 ,\, 3\]
+and so on. We could wonder what comes after all these finite cardinals,
+and what comes after that, and so on, but let's not. Instead, let's
+ponder what we've done so far. We started with the universe of sets ---
+not exactly the set of all sets, but pretty close --- but very soon we
+started playing with functions between sets. This is what allowed us to
+speak of two sets with the same cardinality as being isomorphic.
+
+In short, we are really working with the \emph{category} of sets. A
+category is something just as abstract as a set, but a bit more
+structured. It's not a mere collection of objects; there are also
+morphisms between objects, in this case the functions between sets.
+
+Some of you might not know the precise definition of a category; let me
+state it just for completeness. A category consists of a collection of
+``objects'' and a collection of ``morphisms''. Every morphism \(f\) has
+a ``source'' object and a ``target'' object. If the source of \(f\) is
+\(X\) and its target is \(Y\), we write \(f\colon X \to Y\). In
+addition, we have:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\item
+  Given a morphism \(f\colon X \to Y\) and a morphism
+  \(g\colon Y \to Z\), there is a morphism \(fg\colon X \to Z\), which
+  we call the ``composite'' of \(f\) and \(g\).
+\item
+  Composition is associative: \((fg)h = f(gh)\).
+\item
+  For each object \(X\) there is a morphism \(1_X\colon X \to X\),
+  called the ``identity'' of \(X\). For any \(f\colon X \to Y\) we have
+  \(1_X f = f 1_Y = f\).
+\end{enumerate}
+
+That's it.
+
+(Note that we are writing the composite of \(f\colon X \to Y\) and
+\(g\colon Y \to Z\) as \(fg\), which is backwards from the usual order.
+This will make life easier in the long run, though, since \(fg\) will
+mean ``first do \(f\), then \(g\)''.)
+
+Now, there are lots of things one can do with sets, which lead to all
+sorts of interesting examples of categories, but in a sense the
+primordial category is \(\mathsf{Set}\), the category of sets and
+functions. (One might try to make this precise, by trying to prove that
+every category is a subcategory of \(\mathsf{Set}\), or something like
+that. Actually the right way to say how \(\mathsf{Set}\) is primordial
+is called the ``Yoneda lemma''. But to understand this lemma, one needs
+to understand categories a little bit.)
+
+When we get to thinking about categories a lot, it's natural to think
+about the ``category of all categories''. Now just as it's a bit bad to
+speak of the set of all sets, it's bad to speak of the category of all
+categories. This is true, not only because Russell's paradox tends to
+ruin attempts at a consistent theory of the ``thing of all things'', but
+because, just as what really counts is the \emph{category} of all sets,
+what really counts is the \emph{2-category} of all categories.
+
+To understand this, note that there is a very sensible notion of a
+morphism between categories. It's called a ``functor'', and a functor
+\(F\colon \mathcal{C} \to \mathcal{D}\) from a category \(\mathcal{C}\)
+to a category \(\mathcal{D}\) is just something that assigns to each
+object \(x\) of \(\mathcal{C}\) an object \(F(x)\) of \(\mathcal{D}\),
+and to each morphism \(f\) of \(\mathcal{C}\) a morphism \(F(f)\) of
+\(\mathcal{D}\), in such a way that ``all structure in sight is
+preserved''. More precisely, we want:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\item
+  If \(f\colon x \to y\), then \(F(f)\colon F(x) \to F(y)\).
+\item
+  If \(fg = h\), then \(F(f)F(g) = F(h)\).
+\item
+  If \(1_x\) is the identity morphism of \(x\), then \(F(1_x)\) is the
+  identity morphism of \(F(x)\).
+\end{enumerate}
+
+It's good to think of a category as a bunch of dots --- objects --- and
+arrows going between them --- morphisms. I would draw one for you if I
+could here. Category theorists love drawing these pictures. In these
+terms, we can think of the functor
+\(F\colon \mathcal{C} \to \mathcal{D}\) as putting a little picture of
+the category \(\mathcal{C}\) inside the category \(\mathcal{D}\). Each
+dot of \(\mathcal{C}\) gets drawn as a particular dot in
+\(\mathcal{D}\), and each arrow in \(\mathcal{C}\) gets drawn as a
+particular arrow in \(\mathcal{D}\). (Two dots or arrows in
+\(\mathcal{C}\) can get drawn as the same dot or arrow in
+\(\mathcal{D}\), though.)
+
+In addition, however, there is a very sensible notion of a
+``2-morphism'', that is, a morphism between morphisms between
+categories! It's called a ``natural transformation''. The idea is this.
+Suppose we have two functors \(F\colon \mathcal{C} \to \mathcal{D}\) and
+\(G\colon \mathcal{C} \to \mathcal{D}\). We can think of these as giving
+two pictures of \(\mathcal{C}\) inside \(\mathcal{D}\). So for example,
+if we have any object \(x\) in \(\mathcal{C}\), we get two objects in
+\(\mathcal{D}\), \(F(x)\) and \(G(x)\). A ``natural transformation'' is
+then a gadget that draws an arrow from each dot like \(F(x)\) to the dot
+like \(G(x)\). In other words, for each \(x\), the natural
+transformation \(T\) gives a morphism \(T_x\colon F(x) \to G(x)\). But
+we want a kind of compatibility to occur: if we have a morphism
+\(f\colon x \to y\) in \(\mathcal{C}\), we want \[
+  \begin{tikzcd}
+    F(x) \rar["F(f)"] \dar[swap,"T_x"]
+    & F(y) \dar["T_y"]
+  \\G(x) \rar[swap,"G(f)"]
+    & G(y)
+  \end{tikzcd}
+\] to commute; in other words, we want \(T_x G(f) = F(f) T_y\).
+
+This must seem very boring to the people who understand it and very
+mystifying to those who don't. I'll need to explain it more later. For
+now, let me just say a bit about what's going on. Sets are
+``zero-dimensional'' in that they only consist of objects, or ``dots''.
+There is no way to ``go from one dot to another'' within a set.
+Nonetheless, we can go from one set to another using a function. So the
+category of all sets is ``one-dimensional'': it has both objects or
+``dots'' and morphisms or ``arrows between dots''. In general,
+categories are ``one-dimensional'' in this sense. But this in turn makes
+the collection of all categories into a ``two-dimensional'' structure, a
+2-category having objects, morphisms between objects, and 2-morphisms
+between morphisms.
+
+This process never stops. The collection of all \(n\)-categories is an
+\((n+1)\)-category, a thing with objects, morphisms, 2-morphisms, and so
+on all the way up to \(n\)-morphisms. To study sets carefully we need
+categories, to study categories well we need 2-categories, to study
+2-categories well we need 3-categories, and so on\ldots{} so ``higher-
+dimensional algebra'', as this subject is called, is automatically
+generated in a recursive process starting with a careful study of set
+theory.
+
+If you want to show off, you can call the 2-category of all categories
+\(\mathsf{Cat}\), and more generally, you can call the
+\((n+1)\)-category of all \(n\)-categories \(n\mathsf{Cat}\).
+\(n\mathsf{Cat}\) is the primordial example of an \((n+1)\)-category!
+
+Now, just as you might wonder what comes after \(0,1,2,3,\ldots\), you
+might wonder what comes after all these \(n\)-categories. The answer is
+``\(\omega\)-categories''.
+
+What comes after these? Well, let us leave that for another time. I'd
+rather conclude by mentioning the part that's the most fascinating to me
+as a mathematical physicist. Namely, the various dimensions of category
+turn out to correspond in a very beautiful --- but still incompletely
+understood --- way to the various dimensions of spacetime. In other
+words, the study of physics in imaginary 2-dimensional spacetimes uses
+lots of 2-categories, the study of physics in a 3d spacetimes uses
+3-categories, the study of physics in 4d spacetimes appears to use
+4-categories, and so on. It's very surprising at first that something so
+simple and abstract as the process of starting with sets and recursively
+being led to study the \((n+1)\)-category of all \(n\)-categories could
+be related to the dimensionality of spacetime. In particular, what could
+possibly be special about 4 dimensions?
+
+Well, it turns out that there \emph{are} some special things about 4
+dimensions. But more on that later.
+
+To continue reading the ``Tale of \(n\)-Categories'', see
+\protect\hyperlink{week74}{``Week 74''}.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Addendum}: Long after writing the above, I just saw an
+interesting article on chirality in biology:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  N. Hirokawa, Y. Tanaka, Y. Okada and S. Takeda, ``Nodal flow and the
+  generation of left-right asymmetry'', \emph{Cell} \textbf{125} 1
+  (2006), 33--45.
+\end{enumerate}
+
+It reports on detailed studies of how left-right asymmetry first shows
+in the development of animal embryos. It turns out this asymmetry is
+linked to certain genes with names like \emph{Lefty-1}, \emph{Lefty-2},
+\emph{Nodal} and \emph{Pitx2}. About half of the people with a genetic
+disorder called Kartagener's Syndrome have their organs in the reversed
+orientation. These people also have immotile sperm and defective cilia
+in their airway. This suggests that the genes controlling left-right
+asymmetry also affect the development of cilia! And the link has
+recently been understood\ldots{}
+
+The first visible sign of left-right asymmetry in mammal embryos is the
+formation of a structure called the ``ventral node'' after the
+front-back (dorsal-ventral) and top-bottom (anterior-posterior)
+symmetries have been broken. This node is a small bump on the front of
+the embryo.
+
+It has recently been found that cilia on this bump wiggle in a way that
+makes the fluid the embryo is floating in flow towards the \emph{left}.
+It seems to be this leftward flow that generates many of the more fancy
+left-right asymmetries that come later.
+
+How do these cilia generate a leftward flow? It seems they spin around
+\emph{clockwise}, and are tilted in such a way that they make a leftward
+swing when they are near the surface of the embryo, and a rightward
+swing when they are far away. This manages to do the job\ldots{} the
+article discusses the hydrodynamics involved.
+
+I guess now the question becomes: why do these cilia spin clockwise?
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\hypertarget{week74}{%
+\section{March 5, 1996}\label{week74}}
+
+Before continuing my story about higher-dimensional algebra, let me say
+a bit about gravity. Probably far fewer people study general relativity
+than quantum mechanics, which is partially because quantum mechanics is
+more practical, but also because general relativity is mathematically
+more sophisticated. This is a pity, because general relativity is so
+beautiful!
+
+Recently, I have been spending time on \texttt{sci.physics} leading an
+informal (nay, chaotic) ``general relativity tutorial''. The goal is to
+explain the subject with a minimum of complicated equations, while still
+getting to the mathematical heart of the subject. For example, what does
+Einstein's equation REALLY MEAN? It's been a lot of fun and I've learned
+a lot! Now I've gathered up some of the posts and put them on a web
+site:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\tightlist
+\item
+  John Baez et al, ``General relativity tutorial'',
+  \href{http://math.ucr.edu/home/baez/gr/gr.html}{\texttt{gr/gr.html}}
+\end{enumerate}
+
+I hope to improve this as time goes by, but it should already be fun to
+look at.
+
+Let me also list a couple new papers on the loop representation of
+quantum gravity, dealing with ways to make volume and area into
+observables in quantum gravity:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{1}
+\item
+  Abhay Ashtekar and Jerzy Lewandowski, ``Quantum Theory of Geometry I:
+  Area Operators'', 31 pages in LaTeX format, to appear in Classical and
+  Quantum Gravity, preprint available as
+  \href{http://xxx.lanl.gov/abs/gr-qc/9602046}{\texttt{gr-qc/9602046}}.
+
+  Jerzy Lewandowski, ``Volume and Quantizations'', preprint available as
+  \href{http://xxx.lanl.gov/abs/gr-qc/9602035}{\texttt{gr-qc/9602035}}.
+
+  Roberto De Pietri and Carlo Rovelli, ``Geometry Eigenvalues and Scalar
+  Product from Recoupling Theory in Loop Quantum Gravity'', 38 pages, 5
+  Postscript figures, uses RevTeX 3.0 and \texttt{epsfig.sty}, preprint
+  available as
+  \href{http://xxx.lanl.gov/abs/gr-qc/9602023}{\texttt{gr-qc/9602023}}.
+\end{enumerate}
+
+I won't say anything about these now, but see
+\protect\hyperlink{week55}{``Week 55''} for some information on area
+operators.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Okay, where were we? We had started messing around with sets, and we
+noted that sets and functions between sets form a category, called Set.
+Then we started messing around with categories, and we noted that not
+only are there ``functors'' between categories, there are things that
+ply their trade between functors, called ``natural transformations''. I
+then said that categories, functors, and natural transformations form a
+2-category. I didn't really say what a 2-category is, except to say that
+it has objects, morphisms between objects, and 2-morphisms between
+morphisms. Finally, I said that this pattern continues:
+\(n\mathsf{Cat}\) forms an \((n+1)\)-category.
+
+By the way, I said last time that \(\mathsf{Set}\) was ``the primordial
+category''. Keith Ramsay reminded me by email that this can be
+misleading. There are other categories that act a whole lot like
+\(\mathsf{Set}\) and can serve equally well as ``the primordial
+category''. These are called topoi. Poetically speaking, we can think of
+these as alternate universes in which to do mathematics. For more on
+topoi, see \protect\hyperlink{week68}{``Week 68''}. All I meant by
+saying that \(\mathsf{Set}\) was ``the primordial category'' is that, if
+we start from \(\mathsf{Set}\) and various categories of structures
+built using sets --- groups, rings, vector spaces, topological spaces,
+manifolds, and so on --- we can then abstract the notion of
+``category'', and thus obtain \(\mathsf{Cat}\). In the same sense,
+\(\mathsf{Cat}\) is the primordial 2-category, and so on.
+
+I mention this because it is part of a very important broad pattern in
+higher-dimensional algebra. For example, we will see that the complex
+numbers are the primordial Hilbert space, and that the category of
+Hilbert spaces is the primordial ``2-Hilbert space'', and that the
+2-category of 2-Hilbert spaces is the primordial ``3-Hilbert space'',
+and so on. This leads to a quantum-theoretic analog of the hierarchy of
+\(n\)-categories, which plays an important role in mathematical physics.
+But I'm getting ahead of myself!
+
+Let's start by considering a few examples of categories. I want to pick
+some examples that will lead us naturally to the main themes of
+higher-dimensional algebra. Beware: it will take us a while to get
+rolling. For a while --- maybe a few issues of This Week's Finds ---
+everything may seem somewhat dry, pointless and abstract, except for
+those of you who are already clued in. It has the flavor of
+``foundations of mathematics,'' but eventually we'll see these new
+foundations reveal topology, representation theory, logic, and quantum
+theory to be much more tightly interknit than we might have thought. So
+hang in there.
+
+For starters, let's keep the idea of ``symmetry'' in mind. The typical
+way to think about symmetry is with the concept of a ``group''. But to
+get a concept of symmetry that's really up to the demands put on it by
+modern mathematics and physics, we need --- at the very least --- to
+work with a \emph{category} of symmetries, rather than a group of
+symmetries.
+
+To see this, first ask: what is a category with one object? It is a
+``monoid''. The \emph{usual} definition of a monoid is this: a set \(M\)
+with an associative binary product and a unit element \(1\) such that
+\(a1 = 1a = a\) for all \(a\) in \(M\). Monoids abound in mathematics;
+they are in a sense the most primitive interesting algebraic structures.
+
+To check that a category with one object is ``essentially just a
+monoid'', note that if our category \(\mathcal{C}\) has one object
+\(x\), the set \(\operatorname{hom}(x,x)\) of all morphisms from \(x\)
+to \(x\) is indeed a set with an associative binary product, namely
+composition, and a unit element, namely \(1_x\). (Actually, in an
+arbitrary category \(\operatorname{hom}(x,y)\) could be a class rather
+than a set. But let's not worry about such nuances.) Conversely, if you
+hand me a monoid \(M\) in the traditional sense, I can easily cook up a
+category with one object \(x\) and \(\operatorname{hom}(x,x) = M\).
+
+How about categories in which every morphism is invertible? We say a
+morphism \(f\colon x\to y\) in a category has inverse \(g\colon y\to x\)
+if \(fg = 1_x\) and \(gf = 1_y\). Well, a category in which every
+morphism is invertible is called a ``groupoid''.
+
+Finally, a group is a category with one object in which every morphism
+is invertible. It's both a monoid and a groupoid!
+
+When we use groups in physics to describe symmetry, we think of each
+element \(g\) of the group \(G\) as a ``process''. The element \(1\)
+corresponds to the ``process of doing nothing at all''. We can compose
+processes \(g\) and \(h\) --- do \(h\) and then \(g\) --- and get the
+product \(gh\). Crucially, every process \(g\) can be ``undone'' using
+its inverse \(g^{-1}\).
+
+We tend to think of this ability to ``undo'' any process as a key aspect
+of symmetry. I.e., if we rotate a beer bottle, we can rotate it back so
+it was just as it was before. We don't tend to think of SMASHING the
+beer bottle as a symmetry, because it can't be undone. But while
+processes that can be undone are especially interesting, it's also nice
+to consider other ones\ldots{} so for a full understanding of symmetry
+we should really study monoids as well as groups.
+
+But we also should be interested in ``partially defined'' processes,
+processes that can be done only if the initial conditions are right.
+This is where categories come in! Suppose that we have a bunch of boxes,
+and a bunch of processes we can do to a bottle in one box to turn it
+into a bottle in another box: for example, ``take the bottle out of box
+\(x\), rotate it 90 degrees clockwise, and put it in box \(y\)''. We can
+then think of the boxes as objects and the processes as morphisms: a
+process that turns a bottle in box \(x\) to a bottle in box \(y\) is a
+morphism \(f\colon x\to y\). We can only do a morphism
+\(f\colon x\to y\) to a bottle in box \(x\), not to a bottle in any
+other box, so \(f\) is a ``partially defined'' process. This implies we
+can only compose \(f\colon x\to y\) and \(g\colon u \to v\) to get
+\(fg\colon x \to v\) if \(y = u\).
+
+So: a monoid is like a group, but the ``symmetries'' no longer need be
+invertible; a category is like a monoid, but the ``symmetries'' no
+longer need to be composable!
+
+Note for physicists: the operation of ``evolving initial data from one
+spacelike slice to another'' is a good example of a ``partially
+defined'' process: it only applies to initial data on that particular
+spacelike slice. So dynamics in special relativity is most naturally
+described using groupoids. Only after pretending that all the spacelike
+slices are the same can we pretend we are using a group. It is very
+common to pretend that groupoids are groups, since groups are more
+familiar, but often insight is lost in the process. Also, one can only
+pretend a groupoid is a group if all its objects are isomorphic.
+Groupoids really are more general.
+
+Physicists wanting to learn more about groupoids might try:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Alan Weinstein, ``Groupoids: unifying internal and external
+  symmetry'', available as
+  \texttt{http://math.berkeley.edu/\textasciitilde{}alanw/Groupoids.ps}
+  or \texttt{http://www.ams.org/notices/199607/weinstein.pdf}
+\end{enumerate}
+
+So: in contrast to a set, which consists of a static collection of
+``things'', a category consists not only of objects or ``things'' but
+also morphisms which can viewed as ``processes'' transforming one thing
+into another. Similarly, in a 2-category, the 2-morphisms can be
+regarded as ``processes between processes'', and so on. The eventual
+goal of basing mathematics upon \(\omega\)-categories is thus to allow
+us the freedom to think of any process as the sort of thing higher-level
+processes can go between. By the way, it should also be very interesting
+to consider ``\(\mathbb{Z}\)-categories'' (where \(\mathbb{Z}\) denotes
+the integers), having \(j\)-morphisms not only for \(j = 0,1,2,\ldots\)
+but also for negative \(j\). Then we may also think of any thing as a
+kind of process.
+
+How do the above remarks about groups, monoids, groupoids and categories
+generalize to the \(n\)-categorical context? Well, all we did was start
+with the notion of category and consider two sorts of requirement: that
+the category have just one object, or that all morphisms be invertible.
+
+A category with just one object --- a monoid --- could also be seen as a
+set with extra algebraic structure, namely a product and unit. Suppose
+we look at an \(n\)-category with just one object? Well, it's very
+similar: then we get a special sort of \((n-1)\)-category, one with a
+product and unit! We call this a ``monoidal \((n-1)\)-category''. I will
+explain this more thoroughly later, but let me just note that we can
+keep playing this game, and consider a monoidal \((n-1)\)-category with
+just one object, which is a special sort of \((n-2)\)-category, which we
+could call a ``doubly monoidal \((n-2)\)-category'', and so on. This
+game must seem very abstract and mysterious when one first hears of it.
+But it turns out to yield a remarkable set of concepts, some already
+very familiar in mathematics, and it turns out to greatly deepen our
+notion of ``commutativity''. For now, let me simply display a chart of
+``\(k\)-tuply monoidal \(n\)-categories'' for certain low values of
+\(n\) and \(k\):
+
+\begin{longtable}[]{@{}llll@{}}
+\caption{\(k\)-tuply monoidal \(n\)-categories}\tabularnewline
+\toprule
+\begin{minipage}[b]{0.26\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[b]{0.21\columnwidth}\raggedright
+\(n=0\)\strut
+\end{minipage} & \begin{minipage}[b]{0.21\columnwidth}\raggedright
+\(n=1\)\strut
+\end{minipage} & \begin{minipage}[b]{0.21\columnwidth}\raggedright
+\(n=2\)\strut
+\end{minipage}\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+\begin{minipage}[b]{0.26\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[b]{0.21\columnwidth}\raggedright
+\(n=0\)\strut
+\end{minipage} & \begin{minipage}[b]{0.21\columnwidth}\raggedright
+\(n=1\)\strut
+\end{minipage} & \begin{minipage}[b]{0.21\columnwidth}\raggedright
+\(n=2\)\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+\(k=0\)\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+sets\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+categories\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+2-categories\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+\(k=1\)\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+monoids\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+monoidal categories\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+monoidal 2-categories\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+\(k=2\)\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+commutative monoids\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+braided monoidal categories\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+braided monoidal 2-categories\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+\(k=3\)\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+" "\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+symmetric monoidal categories\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+weakly involutory monoidal 2-categories\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+\(k=4\)\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+" "\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+" "\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+strongly involutory monoidal 2-categories\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+\(k=5\)\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+" "\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+" "\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+" "\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+The quotes indicate that each column ``stabilizes'' past a certain
+point. If you can't wait to read more about this, you might try
+\protect\hyperlink{week49}{``Week 49''} for more, but I will explain it
+all in more detail in future issues.
+
+What if we take an \(n\)-category and demand that all \(j\)-morphisms
+(\(j > 0\)) be invertible? Well, then we get something we could call an
+``\(n\)-groupoid''. However, there are some important subtle issues
+about the precise sense in which we might want all \(j\)-morphisms to be
+invertible. I will have to explain that, too.
+
+Let me conclude, though, by mentioning something the experts should
+enjoy. If we define \(n\)-groupoids correctly, and then figure out how
+to define \(\omega\)-groupoids correctly, the homotopy category of
+\(\omega\)-groupoids turns out to be equivalent to the homotopy category
+of topological spaces. The latter category is something algebraic
+topologists have spent decades studying. This is one of the main ways
+\(n\)-categories are important in topology. Using this correspondence
+between \(n\)-groupoid theory and homotopy theory, the ``stabilization''
+property described above is then related to a subject called ``stable
+homotopy theory'', and ``\(\mathbb{Z}\)-groupoids'' are a way of talking
+about ``spectra'' --- another important tool in homotopy theory.
+
+The above paragraph is overly erudite and obscure, so let me explain the
+gist: there is a way to think of a topological space as giving us an
+\(\omega\)-groupoid, and the \(\omega\)-groupoid then captures all the
+information about its topology that homotopy theorists find interesting.
+(I will explain in more detail how this works later.) If this is
+\emph{all} \(n\)-category theory did, it would simply be an interesting
+language for doing topology. But as we shall see, it does a lot more.
+One reason is that, not only can we use \(n\)-categories to think about
+spaces, we can also use them to think about symmetries, as described
+above. Of course, physicists are very interested in space and also
+symmetry. So from the viewpoint of a mathematical physicist, one
+interesting thing about \(n\)-categories is that they \emph{unify} the
+study of space (or spacetime) with the study of symmetry.
+
+I will continue along these lines next time and try to fill in some of
+the big gaping holes.
+
+To continue reading the ``Tale of \(n\)-Categories'', see
+\protect\hyperlink{week75}{``Week 75''}.
+\hypertarget{week75}{%
+\section{March 6, 1996}\label{week75}}
+
+If you've been following my recent introduction to \(n\)-categories,
+you'll note that I haven't actually given the definition of
+\(n\)-categories! I've only defined categories, and \emph{hinted} at the
+definition of 2-categories by giving an example, namely
+\(\mathsf{Cat}\). This is the 2-category whose objects are categories,
+whose morphisms are functors, and whose 2-morphisms are natural
+transformations.
+
+The definition of \(n\)-categories --- or maybe I should say the problem
+of defining \(n\)-categories --- is actually surprisingly subtle. Since
+I want to proceed at a gentle pace here, I think I should first get
+everyone used to the 2-category \(\mathsf{Cat}\), then define
+2-categories in general, then play around with those a bit, and then
+move on to \(n\)-categories for higher \(n\).
+
+So recall what the objects, morphisms and 2-morphisms in
+\(\mathsf{Cat}\) are: they are categories, functors and natural
+transformations. A functor \(F\colon \mathcal{C}\to\mathcal{D}\) assigns
+to each object \(x\) of \(\mathcal{C}\) an object \(F(x)\) of
+\(\mathcal{D}\), and to each morphism \(f\) of \(\mathcal{C}\) a
+morphism \(F(f)\) of \(\mathcal{D}\), and has
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  If \(f\colon x \to y\), then \(F(f)\colon F(x) \to F(y)\).
+\item
+  If \(fg = h\), then \(F(f)F(g) = F(h)\).
+\item
+  If \(1_x\) is the identity morphism of \(x\), then \(F(1_x)\) is the
+  identity morphism of \(F(x)\).
+\end{enumerate}
+
+Given two functors \(F\colon\mathcal{C}\to\mathcal{D}\) and
+\(G\colon\mathcal{C}\to\mathcal{D}\), a ``natural transformation''
+\(T\colon F\to G\) assigns to each object \(x\) of \(\mathcal{C}\) a
+morphism \(T_x\colon F(x)\to G(x)\), such that for any morphism
+\(f\colon x\to y in C\), the diagram \[
+  \begin{tikzcd}
+    F(x) \rar["F(f)"] \dar[swap,"T_x"]
+    & F(y) \dar["T_y"]
+  \\G(x) \rar[swap,"G(f)"]
+    & G(y)
+  \end{tikzcd}
+\] commutes.
+
+Let me give a nice example. Let \(\mathsf{Top}\) be the category with
+topological spaces and continuous functions between them as morphisms.
+Let \(\mathsf{Gpd}\) be the category with groupoids as objects and
+functors between them as morphisms. (Remember from
+\protect\hyperlink{week74}{``Week 74''} that a groupoid is a category
+with all morphisms invertible.) Then there is a functor
+\[\Pi_1\colon\mathsf{Top}\to\mathsf{Gpd}\] called the ``fundamental
+groupoid'' functor, which plays a very basic role in algebraic topology.
+
+Here's how we get from any space \(X\) its ``fundamental groupoid''
+\(\Pi_1(X)\). (If perchance you already know about the ``fundamental
+group'', fear not, what we're doing now is very similar.) To say what
+the groupoid \(\Pi_1(X)\) is, we need to say what its objects and
+morphisms are. The objects in \(\Pi_1(X)\) are just the POINTS of \(X\)
+and the morphisms are just certain equivalence classes of PATHS in X.
+More precisely, a morphism \(f\colon x\to y\) in \(\Pi_1(X)\) is just an
+equivalence class of continuous paths from \(x\) to \(y\), where two
+paths from \(x\) to \(y\) are decreed equivalent if one can be
+continuously deformed to the other while not moving the endpoints. (If
+this equivalence relation holds we say the two paths are ``homotopic'',
+and we call the equivalence classes ``homotopy classes of paths.'')
+
+This is a truly wonderful thing! Recall the idea behind categories. A
+morphism \(f\colon x\to y\) is supposed to be some abstract sort of
+``process going from \(x\) to \(y\).'' The human mind often works by
+visual metaphors, and our visual image of a ``process'' from \(x\) to
+\(y\) is some sort of ``arrow'' from \(x\) to \(y\):
+\[x\xrightarrow{f}y.\] That's why we write \(f\colon x\to y\), of
+course. But now what we are doing is taking this visual metaphor
+literally! We have a space \(X\), like the piece of the computer screen
+on which you are actually reading this text. The objects in \(\Pi_1(X)\)
+are then points in \(X\), and a morphism is basically just a path from
+\(x\) to \(y\): \[x\xrightarrow{f}y.\] Well, not quite; it's a homotopy
+class of paths. But still, something very interesting is going on here:
+we are turning something ``concrete'', namely the space \(X\), into a
+corresponding ``abstract'' thing, namely the groupoid \(\Pi_1(X)\), by
+thinking of ``concrete'' paths as ``abstract'' morphisms. Here I am
+thinking of geometrical concepts as ``concrete'', and algebraic ones as
+``abstract''.
+
+You may wonder why we use homotopy classes of paths, rather than paths.
+One reason is that topologists want to use \(\Pi_1\) to distill a very
+abstract ``essence'' of the topological space \(X\), an essence that
+conveys only information that's invariant under ``homotopy
+equivalence''. Another reason is that we can easily get homotopy classes
+of paths to compose associatively, as they must if they are to be
+morphisms in a category. We simply glom them end to end:
+\[x\xrightarrow{f}y\xrightarrow{g}z\] and there is no problem with
+associativity, since we can easily reparametrize the paths to make
+\((fg)h = f(gh)\). (If you haven't thought about this, please do!) If we
+do not work with homotopy classes, it's a pain to define composition in
+such a way that \((fg)h = f(gh)\). Unless you are sneaky, you only get
+that \((fg)h\) is \emph{homotopic} to \(f(gh)\); there are ways to get
+composition to come out associative, but they are all somewhat immoral.
+As we shall see, if we want to preserve the ``concreteness'' of \(X\) as
+much as possible, and work with morphisms that are actual paths in \(X\)
+rather than homotopy equivalence classes, the best thing is to work with
+\(n\)-categories. More on that later.
+
+Let's see; I claimed there is a functor
+\(\Pi_1\colon\mathsf{Top}\to\mathsf{Gpd}\), but so far I have only
+defined \(\Pi_1\) on the objects of \(\mathsf{Top}\); we also need to
+define it for morphisms. That's easy. A morphism \(F\colon X\to Y\) in
+\(\mathsf{Top}\) is a continuous map from the space \(X\) to the space
+\(Y\); this is just what we need to take points in \(X\) to points in
+\(Y\), and homotopy classes of paths in \(X\) to homotopy classes of
+paths in \(Y\). So it gives us a morphism in \(\mathsf{Gpd}\) from the
+fundamental groupoid \(\Pi_1(X)\) to the fundamental groupoid
+\(\Pi_1(Y)\). There are various things to check here, but it's not hard.
+We call this morphism \(\Pi_1(F)\colon\Pi_1(X)\to\Pi_1(Y)\). With a
+little extra work, we can check that
+\(\Pi_1\colon\mathsf{Top}\to\mathsf{Gpd}\), defined this way, is really
+a functor.
+
+Perhaps you are finding this confusing. If so, it could easily be
+because there are several levels of categories and such going on here.
+For example, \(\Pi_1(X)\) is a groupoid, and thus a category, so there
+are morphisms like \(f\colon x\to y\) in it; but on the other hand
+\(\mathsf{Gpd}\) itself is a category, and there are morphisms like
+\(\Pi_1(F)\colon\Pi_1(X)\to\Pi_1(Y)\) in it, which are functors! If you
+find this confusing, take heart. Getting confused this way is crucial to
+learning \(n\)-category theory! After all, \(n\)-category theory is all
+about how every ``process'' is also a ``thing'' which can undergo
+higher-level ``processes''. Complex, interesting structures emerge from
+very simple ones by the interplay of these different levels. It takes
+work to mentally hop up and down these levels, and to weather the
+inevitable ``level slips'' one makes when one screws up. If you expect
+it to be easy and are annoyed when you mess up, you will hate this
+subject. When approached in the right spirit, it is very fun; it teaches
+one a special sort of agility. (We are, by the way, nowhere near the
+really tricky stuff yet.)
+
+Okay, so we have seen an interesting example of a functor
+\[\Pi_1\colon\mathsf{Top}\to\mathsf{Gpd}\]. As I said, we can think of
+this as going from the concrete world of spaces to the abstract world of
+groupoids, turning concrete paths into abstract ``morphisms''.
+Wonderfully, there is a kind of ``reverse'' functor,
+\[K\colon\mathsf{Gpd}\to\mathsf{Top}\] which turns the abstract into the
+concrete, by making abstract morphisms into concrete paths! Basically,
+it goes like this. Say we have a groupoid \(G\). We will build the space
+\(K(G)\) out of simplices as follows. Start with one 0-simplex for each
+object in \(G\). A 0-simplex is simply a point. We can draw the
+0-simplex for the object \(x\) as follows: \[x\] Then put in one
+1-simplex for each morphism in \(G\). A 1-simplex is just a line
+segment. We can draw the 1-simplex for the morphism \(f\colon x\to y\)
+as follows: \[
+  \begin{tikzpicture}
+    \node (x) at (0,0) {$x$};
+    \node (y) at (1.5,0) {$y$};
+    \draw[thick] (x) to node[fill=white]{$f$} (y);
+  \end{tikzpicture}
+\] Really we should draw an arrow going from left to right, but soon
+things will get too messy if I do that, so I won't. Then, whenever we
+have \(fg=h\) in the groupoid, we stick in a 2-simplex. A 2-simplex is
+just a triangle and we visualize it as follows: \[
+  \begin{tikzpicture}
+    \node (x) at (0,0) {$x$};
+    \node (y) at (1,1.7) {$y$};
+    \node (z) at (2,0) {$z$};
+    \draw[thick] (x) to node[fill=white]{$f$} (y);
+    \draw[thick] (x) to node[fill=white]{$h$} (z);
+    \draw[thick] (y) to node[fill=white]{$g$} (z);
+    \node at (4,0.8) {$
+      \begin{aligned}
+        f&\colon x\to y
+      \\g&\colon x\to z
+      \\h&\colon y\to z
+      \end{aligned}
+    $};
+  \end{tikzpicture}
+\] Then, whenever we have \(fgh = k\) in the groupoid, we stick in a
+3-simplex, which we can visualize as a tetrahedron like this \[
+  \begin{tikzpicture}
+    \node (w) at (0,0) {$x$};
+    \node (x) at (1.5,2.6,0) {$x$};
+    \node (y) at (1.5,1) {$y$};
+    \node (z) at (3,0) {$z$};
+    \draw[thick] (w) to node[fill=white]{$f$} (x);
+    \draw[thick] (x) to node[fill=white]{$g$} (y);
+    \draw[thick] (y) to node[fill=white]{$h$} (z);
+    \draw[thick] (w) to node[fill=white]{$k$} (z);
+    \draw[thick] (w) to node[fill=white]{$fg$} (y);
+    \draw[thick] (x) to node[fill=white]{$gh$} (z);
+    \node at (5.5,1.2) {$
+      \begin{aligned}
+        f&\colon w\to x
+      \\g&\colon x\to y
+      \\h&\colon y\to z
+      \\k&\colon w\to z
+      \end{aligned}
+    $};
+  \end{tikzpicture}
+\] And so on\ldots{} we do this forever and get a big ``simplicial
+complex,'' which we can think of as the topological space \(KG\). The
+reader might want to compare \protect\hyperlink{week70}{``Week 70''},
+where do the same thing for a monoid instead of a groupoid. Really, one
+can do it for any category.
+
+That's how we define \(K\) on objects; it's not hard to define \(K\) on
+morphisms too, so we get \[K\colon\mathsf{Gpd}\to\mathsf{Top}\] In case
+you study this in more detail at some point, I should add that folks
+often think of simplicial complexes as somewhat abstract combinatorial
+objects in their own right, and then they break down K into two steps:
+first they take the ``nerve'' of a groupoid and get a simplicial
+complex, and then they take the ``geometrical realization'' of the
+simplicial complex to get a topological space. For more on simplicial
+complexes and the like, try:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\tightlist
+\item
+  J. P. May, \emph{Simplicial Objects in Algebraic Topology}, Van
+  Nostrand, Princeton, 1968.
+\end{enumerate}
+
+Now, in what sense is the functor \(K\colon\mathsf{Gpd}\to\mathsf{Top}\)
+the ``reverse'' of the functor
+\(\Pi_1\colon\mathsf{Top}\to\mathsf{Gpd}\)? Is it just the ``inverse''
+in the traditional sense? No! It's something more subtle. As we shall
+see, the fact that \(\mathsf{Cat}\) is a 2-category means that a functor
+can have a more subtle and interesting sorts of ``reverse'' than one
+might expect if one were used to the simple ``inverse'' of a function.
+This is something I alluded to in \protect\hyperlink{week74}{``Week
+74''}: inverses become subtler as we march up the \(n\)-categorical
+hierarchy.
+
+I'll talk about this more later. But let me just drop a teaser\ldots{}
+Quantum mechanics is all about Hilbert spaces and linear operators
+between them. Given any (bounded) linear operator \(F\colon H\to H'\)
+from one Hilbert space to another, there is a subtle kind of ``reverse''
+operator, called the ``adjoint'' of \(F\) and written
+\(F^*\colon H'\to H\), defined by
+\[\langle x,F^*y \rangle = \langle Fx,y \rangle\] for all \(x\) in \(H\)
+and \(y\) in \(H'\). This is not the same as the ``inverse'' of \(F\);
+indeed, it exists even if \(F\) is not invertible. This sort of
+``reverse'' operator is deeply related to the ``reverse'' functors I am
+hinting at above, and for this reason those ``reverse'' functors are
+also called ``adjoints''. This is part of a profound and somewhat
+mysterious relationship between quantum theory and category
+theory\ldots{} which I eventually need to describe.
+
+To continue reading the ``Tale of \(n\)-Categories'', see
+\protect\hyperlink{week76}{``Week 76''}.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\end{document}
