@@ -5,14 +5,12 @@ Today I want to talk a bit about asymptotic freedom.
 First of all, remember that in quantum field theory, studying very small
 things is the same as studying things at very high energies. The reason
 is that in quantum mechanics you need to collide two particles at a
-large relative momentum p to make sure the distance x between them gets
+large relative momentum p to make sure the distance $x$ between them gets
 small, thanks to the uncertainty principle. But in special relativity
-the energy E and momentum p of a particle of mass m are related by
-
-E^2^ = p^2^ + m^2^,
-
-in God's units, where the speed of light is 1. So small x also
-corresponds to large E.
+the energy $E$ and momentum $p$ of a particle of mass $m$ are related by
+$$E^2 = p^2 + m^2,$$
+in God's units, where the speed of light is $1$. So small $x$ also
+corresponds to large $E$.
 
 "Asymptotic freedom" refers to fact that some forces become very weak
 at high energies, or equivalently, at very short distances. The most
@@ -20,20 +18,20 @@ interesting example of this is the so-called "strong force", which
 holds the quarks together in a hadron, like a proton or neutron. True to
 its name, it is very strong at distances comparable to the radius of
 proton, or at energies comparable to the mass of the proton (where if we
-don't use God's units, we have to use E = mc\^2 to convert units of
+don't use God's units, we have to use $E = mc^2$ to convert units of
 mass to units of energy). But if we smash protons at each other at much
 higher energies, the constituent quarks act almost as free particles,
 indicating that the strong force gets weak when the quarks get really
 close to each other.
 
-Now in ["Week 76](week76.html)" and "[week84"](#week76](week76.html)" and "[week84) I talked
+Now in ["Week 76](week76.html)" and ["Week 84"](#week84) I talked
 about another phenomenon, called "confinement". This simply means that
 at lower energies, or larger distance scales, the strong force becomes
 so strong that it is *impossible* to pull a quark out of a hadron.
 Asymptotic freedom and confinement are two aspects of the same thing:
 the dependence of the strength of the strong force on the energy scale.
 Asymptotic freedom is better understood, though, because the weaker a
-force is, the better we can apply the methods of perturbation theory - a
+force is, the better we can apply the methods of perturbation theory --- a
 widely used approach where we try to calculate everything as a Taylor
 series in the "coupling constant" measuring the strength of the force
 in question. This is often successful when the coupling constant is
@@ -45,7 +43,7 @@ depend on the energy scale at which we measure them. "Asymptotic
 freedom" happens when the coupling constant runs down to zero as we
 move up to higher and higher energy scales. If you want to impress
 someone about your knowledge of this, just mutter something about the
-"beta function" being negative - this is a fancy way of saying the
+"beta function" being negative --- this is a fancy way of saying the
 coupling constant decreases as you go to higher energies. You'll sound
 like a real expert.
 
@@ -53,21 +51,20 @@ Now, Frank Wilczek is one of the original discoverers of asymptotic
 freedom. He *is* a real expert. He recently won a prize for this work,
 and he gave a nice talk which he made into a paper:
 
-1) Frank Wilczek, Asymptotic freedom, preprint available as
-[hep-th/9609099](http://xxx.lanl.gov/abs/hep-th/9609099).
+1) Frank Wilczek, "Asymptotic freedom", preprint available as [`hep-th/9609099`](http://xxx.lanl.gov/abs/hep-th/9609099).
 
 Among other things, he gives a nice summary of the work of Nielsen and
 Hughes, which gave the first really easy to understand explanation of
 asymptotic freedom. For the original work, try:
 
-2) N. K. Nielsen, Am. J. Phys. 49, 1171 (1981).
+2) N. K. Nielsen, _Am. J. Phys._ **49**, 1171 (1981).
 
-3) R. J. Hughes, Nucl. Phys. B186, 376 (1981).
+3) R. J. Hughes, _Nucl. Phys. B186_, **376** (1981).
 
 Why would a force get weak at short distance scales? Actually it's
-easier to imagine why it would get *strong* - and sometimes that is what
+easier to imagine why it would get *strong* --- and sometimes that is what
 happens. Of course there are lots of forces that decrease with distance
-like 1/r\^2, but I'm talking about something more drastic: I'm talking
+like $1/r^2$, but I'm talking about something more drastic: I'm talking
 about "screening".
 
 For example, say you have an electron in some water. It'll make an
@@ -89,36 +86,38 @@ molecules. But this will create a counteracting sort of electric field,
 since it means that if you draw any sphere around your electron, there
 will be a bit more *positively* charged other stuff in that sphere than
 negatively charged other stuff. The bigger the sphere is, the more this
-effect occurs - though there is a limit to how much it occurs. We say
+effect occurs --- though there is a limit to how much it occurs. We say
 that the further you go from your electron, the more its electric charge
 is "screened", or hidden, behind the effect of the polarization.
 
 This effect is very common in materials that don't conduct electricity,
 like water or plastics or glass. They're called "dielectrics", and
-the dielectric constant, ε, measures the strength of this screening
-effect. Unlike in math, this ε is typically bigger than 1. If you apply
+the dielectric constant, $\varepsilon$, measures the strength of this screening
+effect. Unlike in math, this $\varepsilon$ is typically bigger than $1$. If you apply
 an electric field to a dielectric material, the electric field inside
-the material is only 1/ε as big as you'd expect if this polarization
+the material is only $1/\varepsilon$ as big as you'd expect if this polarization
 wasn't happening.
 
 What's cool is that according to quantum field theory, screening occurs
 even in the vacuum, thanks to "vacuum polarization". One can visualize
 it rather vaguely as due to a constant buzz of virtual
-particle-antiparticle pairs getting created and then annihilating -
+particle-antiparticle pairs getting created and then annihilating ---
 called "vacuum bubbles" in the charming language of Feynman diagrams,
 because you can draw them like this:
-
-
-                      /\
-                   e+/  \e-
-                    /    \
-                    \    /
-                     \  /
-                      \/
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+        to [out=up,in=up,looseness=2] (1.5,0);
+      \strand[thick] (0,0)
+        to [out=down,in=down,looseness=2] (1.5,0);
+    \end{knot}
+    \node[fill=white] at (0.2,0.5) {e\textsuperscript{+}};
+    \node[fill=white] at (1.3,0.5) {e\textsuperscript{-}};
+  \end{tikzpicture}
+$$
 Here I've drawn a positron-electron pair getting created and then
-annihilating as time passes - unfortunately, this bubble is square,
-thanks to the wonders of ASCII art.
+annihilating as time passes.
 
 There is a lot I should say about virtual particles, and how despite the
 fact that they aren't "real" they can produce very real effects like
@@ -126,8 +125,8 @@ vacuum polarization. A strong enough electric field will even "spark
 the vacuum" and make the virtual particles *become* real! But
 discussing this would be too big of a digression. Suffice it to say that
 you have to learn quantum field theory to see how something that starts
-out as a kind of mathematical book-keeping device - a line in a Feynman
-diagram - winds up acting a bit like a real honest particle. It's a
+out as a kind of mathematical book-keeping device --- a line in a Feynman
+diagram --- winds up acting a bit like a real honest particle. It's a
 case of a metaphor gone berserk, but in an exceedingly useful way.
 
 Anyway, so much for screening. Asymptotic freedom requires something
@@ -137,25 +136,25 @@ understand.
 Nielsen and Hughes realized that anti-screening is easier to understand
 using magnetism than electricity. In analogy to dielectrics, there are
 some materials that screen magnetic fields, and these are called
-"diamagnetic" - for example, one of the strongest diamagnets is
+"diamagnetic" --- for example, one of the strongest diamagnets is
 bismuth. But in addition, there are materials that "anti-screen"
-magnetic fields - the magnetic field inside them is stronger than the
-externally applied magnetic field - and these are called
+magnetic fields --- the magnetic field inside them is stronger than the
+externally applied magnetic field --- and these are called
 "paramagnetic". For example, aluminum is paramagnetic. People keep
 track of paramagnetism using a constant called the magnetic
-permeability, μ. Just to confuse you, this works the opposite way from
+permeability, $\mu$. Just to confuse you, this works the opposite way from
 the dielectric constant. If you apply a magnetic field to some material,
-the magnetic field inside it is μ times as big as you'd expect if there
+the magnetic field inside it is $\mu$ times as big as you'd expect if there
 were no magnetic effects going on.
 
 The nice thing is that there are lots of examples of paramagnetism and
 we can sort of understand it if we think about it. It turns out that
 paramagnetism in ordinary matter is due to the spin of the electrons in
-it. The electrons are like little magnets - they have a little
+it. The electrons are like little magnets --- they have a little
 "magnetic moment" pointing along the axis of their spin. Actually,
 purely by convention it points in the direction opposite their spin,
 since for some stupid reason Benjamin Franklin decided to decree that
-electrons were *negative*. But don't worry about this - it doesn't
+electrons were *negative*. But don't worry about this --- it doesn't
 really matter. The point is that when you put electrons in a magnetic
 field, their spins like to line up in such a way that their magnetic
 field points the same way as the externally applied magnetic field, just
@@ -186,11 +185,9 @@ versa. We say that the electric and magnetic fields transform into each
 other... they are two aspects of single thing, the electromagnetic
 field. So the amount of *electric* screening or antiscreening in the
 vacuum has to equal the amount of the *magnetic* screening or
-antiscreening. In other words, thanks to the silly way we defined ε
-differently from μ, we must have
-
-                           ε = 1/μ
-
+antiscreening. In other words, thanks to the silly way we defined $\varepsilon$
+differently from $\mu$, we must have
+$$\varepsilon = 1/\mu$$
 in the vacuum.
 
 Now the cool thing is that the Yang-Mills equations, which describe the
@@ -199,7 +196,7 @@ the strong force, also known as the "color" force, consists of two
 aspects, the "chromoelectric" field and "chromomagnetic" field.
 Moreover, the same argument above applies here: the vacuum must give the
 same antiscreening for the chromoelectric field as it does for the
-chromomagnetic field, so ε = 1/μ here too.
+chromomagnetic field, so $\varepsilon = 1/\mu$ here too.
 
 So to understand asymptotic freedom it is sufficient to see why the
 vacuum acts like a paramagnet for the strong force! This depends on a
@@ -213,13 +210,13 @@ gluon is charged as far as the strong force goes: we say it has
 The vacuum is bustling with virtual gluons. When we apply a
 chromomagnetic field to the vacuum, we get two competing effects:
 paramagnetism thanks to the *spin* of the gluons, and diamagnetism due
-to their *orbital angular momentum*. But - the spin effect is stronger.
+to their *orbital angular momentum*. But --- the spin effect is stronger.
 The vacuum acts like a paramagnet for the strong force. So we get
 asymptotic freedom!
 
 That's the basic idea. Of course, there are some loose ends. To see why
 the spin effect is stronger, you have to calculate a bit. At least I
-don't know how to see it without calculating - but Wilczek sketches the
+don't know how to see it without calculating --- but Wilczek sketches the
 calculation, and it doesn't look too bad. It's also true in most
 metals that the spin effect wins, so they are paramagnetic.
 
@@ -230,27 +227,26 @@ involve quantum mechanics. \[Note: later I realized some very basic
 things about this, which I append below.\] In volume II of his
 magnificent series:
 
-4) Richard Feynman, Robert Leighton, and Matthew Sands, "The Feynman
-Lectures on Physics", Addison-Wesley, Reading, Mass., 1964.
+4) Richard Feynman, Robert Leighton, and Matthew Sands, _The Feynman Lectures on Physics_, Addison-Wesley, Reading, Mass., 1964.
 
 Feynman notes: "It is a consequence of classical mechanics that if you
-have any kind of system - a gas with electrons, protons, and whatever -
+have any kind of system --- a gas with electrons, protons, and whatever ---
 kept in a box so that the whole thing can't turn, there will be no
 magnetic effect. \[....\] The theorem then says that if you turn on a
 magnetic field and wait for the system to get into thermal equilibrium,
-there will be no paramagnetism or diamagnetism - there will be no
+there will be no paramagnetism or diamagnetism --- there will be no
 induced magnetic moment. Proof: According to statistical mechanics, the
 probability that a system will have any given state of motion is
-proportional to exp(-U/kT), where U is the energy of that motion. Now
+proportional to $\exp(-U/kT)$, where $U$ is the energy of that motion. Now
 what is the energy of motion. For a particle moving in a constant
 magnetic field, the energy is the ordinary potential energy plus
-mv\^2/2, with nothing additional for the magnetic field. (You know that
-the forces from electromagnetic fields are q(E + v x B), and that the
-rate of work F.v is just qE.v, which is not affected by the magnetic
+$mv^2/2$, with nothing additional for the magnetic field. (You know that
+the forces from electromagnetic fields are $q(E + v \times B)$, and that the
+rate of work $F\cdot v$ is just $qE\cdot v$, which is not affected by the magnetic
 field.) So the energy of a system, whether it is in a magnetic field or
 not, is always given by the kinetic energy plus the potential energy.
-Since the probability of any motion depends only on the energy - that
-is, on the velocity and position - it is the same whether or not there
+Since the probability of any motion depends only on the energy --- that
+is, on the velocity and position --- it is the same whether or not there
 is a magnetic field. For *thermal* equilibrium, therefore, the magnetic
 field has no effect."
 
@@ -259,8 +255,7 @@ Laurence Yaffe has brought to my attention a nice path-integral argument
 as to why orbital angular momentum can only yield diamagnetism; this can
 be found in his charming book:
 
-5) Barry Simon, "Functional Integration and Quantum Physics",
-Academic Press, 1979.
+5) Barry Simon, _Functional Integration and Quantum Physics_, Academic Press, 1979.
 
 This argument is very simple if you know about path integrals, but I
 think there should be some more lowbrow way to see it, too. I think
@@ -274,13 +269,13 @@ understand this stuff.
 
 ------------------------------------------------------------------------
 
-### Addendum
+**Addendum**
 
-#### November 13, 1996
+_November 13, 1996_
 
 Thanks to email from Yehuda Naveh and Bruce Smith I'm beginning to
 understand this stuff at the 13-year-old level it deserves. If you want
-to jump to the punchline, skip down to the stuff between double lines -
+to jump to the punchline, skip down to the stuff between double lines ---
 that's the part I should have known ages ago!
 
 Here's the deal. Feynman's theorem deals with classical systems made
@@ -290,8 +285,8 @@ always exerts a force perpendicular to the velocity of an electrically
 charged particle. So the energy of such a system is independent of the
 externally applied magnetic field. Now, in statistical mechanics the
 equilibrium state of a system depends only on the energy of each state,
-since the probability of being in a state with energy E is proportional
-to exp(-E/kT). So an external magnetic field doesn't affect the
+since the probability of being in a state with energy $E$ is proportional
+to $\exp(-E/kT)$. So an external magnetic field doesn't affect the
 equilibrium state of this sort of system. So there can't be anything
 like paramagnetism or diamagnetism, where the equilibrium state is
 affected by an external magnetic field.
@@ -309,13 +304,13 @@ Note: If we tried to make a current loop out of classical electrically
 charged point particles, the current loop would tend to fall apart! A
 loop is not going to be the equilibrium state of a bunch of charged
 particles. So we are going to get around this by taking current loops as
-new primitives - simply *assuming* they exist and have the properties
+new primitives --- simply *assuming* they exist and have the properties
 given above.
 
 If we build our system out of current loops and point particles,
 Feynman's theorem no longer applies. Why? Well, a constant magnetic
 field exerts a force perpendicular to the direction of the current, and
-this applies a *torque* to the current loop - no net force, just a
+this applies a *torque* to the current loop --- no net force, just a
 torque. But since the current loop is made out of stuff that has a
 constant mass per unit length, when the current loop is rotating it will
 have kinetic energy. So by applying a torque to the current loop, the
@@ -341,7 +336,7 @@ spin can give paramagnetism.
 Great. But what had always been bugging me is this! If you put a charged
 particle in a constant magnetic field, it moves in a circular or spiral
 orbit. For simplicity let's say it moves in a circle. You can think of
-this, if you like, as a kind of current loop - but a very different sort
+this, if you like, as a kind of current loop --- but a very different sort
 of current loop than the one we've just been considering! In
 particular, if you work it out, this particle circling around will
 produce a magnetic field that *opposes* the external magnetic field. On
@@ -351,16 +346,16 @@ with* the external field.
 
 What's the deal? Well, it's just something about how the vector cross
 product works; you gotta work it out yourself to believe it. All you
-need to know is that the force on a charged particle is q v x B. It
+need to know is that the force on a charged particle is $q v \times B$. It
 boils down to this:
 
 ------------------------------------------------------------------------
 
-A positively charged particle orbiting in a magnetic field pointing
-along the z axis will orbit CLOCKWISE in the xy plane. However, a
-primitive current loop in a magnetic field pointing along the z axis
+> A positively charged particle orbiting in a magnetic field pointing
+along the $z$-axis will orbit CLOCKWISE in the $x$-$y$ plane. However, a
+primitive current loop in a magnetic field pointing along the $z$-axis
 will be in its state of least energy when the current runs
-COUNTERCLOCKWISE in the xy plane.
+COUNTERCLOCKWISE in the $x$-$y$ plane.
 
 ------------------------------------------------------------------------
 
@@ -380,11 +375,11 @@ There are a couple other things perhaps worth saying about this:
 2.  A little current loop acts like a magnetic dipole. We'd also get
     interesting effects if we had magnetic monopoles. Here I simply
     assume that, just as an electric field exerts a force on a
-    electrically charged particle equal to q E, a magnetic field exerts
-    a force on a magnetically charged particle equal to m B, where m is
+    electrically charged particle equal to $q E$, a magnetic field exerts
+    a force on a magnetically charged particle equal to $m B$, where $m$ is
     the magnetic charge. A magnetic field would then be able to do work
     on a magnetic monopole, and again Feynman's theorem would not
     apply. So it's perhaps not so surprising that Feynmans' theorem
     fails when we have magnetic dipoles as primitive constituents of our
-    system, too (although these dipoles had better not be points - they
+    system, too (although these dipoles had better not be points --- they
     need a moment of inertia for a torque on them to do work).
