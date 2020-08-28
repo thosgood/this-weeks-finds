@@ -8,13 +8,13 @@ subjects, but they have an interesting tendency to blur together when
 one is doing topological quantum field theory. Part of the point of
 higher-dimensional algebra is to explain this.
 
-So, remember the idea of adjoint functors. Say we have categories C and
-D and functors L: C \to D and R: D \to C. Then we say L is the "left
-adjoint" of R, or that R is the "right adjoint" of L, if for any
-object c of C and object d of D, there is a natural one-to-one
-correspondence between \operatorname{Hom}(Lc,d) and \operatorname{Hom}(c,Rd). An example to keep in
-mind is when C is the category of sets and D is the category of groups.
-Then L turns any set into the free group on that set, while R turns any
+So, remember the idea of adjoint functors. Say we have categories $\mathcal{C}$ and
+$\mathcal{D}$ and functors $L\colon\mathcal{C}\to\mathcal{D}$ and $R\colon\mathcal{D}\to\mathcal{C}$. Then we say $L$ is the "left
+adjoint" of $R$, or that $R$ is the "right adjoint" of $L$, if for any
+object $c$ of $\mathcal{C}$ and object $d$ of $\mathcal{D}$, there is a natural one-to-one
+correspondence between $\operatorname{Hom}(Lc,d)$ and $\operatorname{Hom}(c,Rd)$. An example to keep in
+mind is when $\mathcal{C}$ is the category of sets and $\mathcal{D}$ is the category of groups.
+Then $L$ turns any set into the free group on that set, while $R$ turns any
 group into the underlying set of that group. All sorts of other "free"
 and "underlying" constructions are also left and right adjoints,
 respectively.
@@ -23,12 +23,12 @@ Now the only thing I didn't make very precise is what I mean by
 "natural" in the above paragraph. Informally, the idea of a
 "natural" one-to-one correspondence is that doesn't depend on any
 arbitrary choices. The famous example is that if we have a
-finite-dimensional vector space V, it's always isomorphic to its dual
-V\*, but not naturally so: to set up an isomorphism we need to pick a
-basis e~i~ of V, and this gives a dual basis f^i^ of V\*, and then we
-get an isomorphism sending e~i~ to f^i^, but this isomorphism depends on
-our choice of basis. But V is *naturally* isomorphic to its double dual
-V\*\*.
+finite-dimensional vector space $V$, it's always isomorphic to its dual
+$V^*$, but not naturally so: to set up an isomorphism we need to pick a
+basis $e_i$ of $V$, and this gives a dual basis $f^i$ of $V^*$, and then we
+get an isomorphism sending $e_i$ to $f^i$, but this isomorphism depends on
+our choice of basis. But $V$ is *naturally* isomorphic to its double dual
+$(V^*)^*$.
 
 Now, it's hard to formalize the idea of "not depending on any
 arbitrary choices" directly, so one needs to reflect on why it's bad
@@ -38,26 +38,22 @@ and Mac Lane invented category theory in order to formalize this idea of
 "naturality as absence of symmetry-breaking". Of course, they needed
 the notion of category to get a sufficiently general concept of
 "symmetry". They realized that a nice way to turn things in the
-category C into things in the category D is typically a functor F: C \to
-D. And then, if we have two functors F,G: C \to D, they defined a
-"natural transformation" from F to G to be a bunch of morphisms
-
-T~c~ : F(c) \to G(c),
-
-one for each object c of C, such that the following diagram commutes for
-every morphism f: c \to c' in C:
-
-                                  F(f)
-                           F(c) -------> F(c') 
-                            |             |
-                         Tc |             | Tc'
-                            |             |
-                            V             V
-                           G(c) -------> G(c')
-                                  G(f)
-
-This condition says that the transformation T gets along with all the
-"symmetries", or more precisely morphisms f, in the category C. We can
+category $\mathcal{C}$ into things in the category $\mathcal{D}$ is typically a functor $F\colon\mathcal{C}\to\mathcal{D}$.
+And then, if we have two functors $F,G\colon\mathcal{C}\to\mathcal{D}$, they defined a
+"natural transformation" from $F$ to $G$ to be a bunch of morphisms
+$$T_c\colon F(c)\to G(c),$$
+one for each object $c$ of $\mathcal{C}$, such that the following diagram commutes for
+every morphism $f\colon c\to c'$ in $\mathcal{C}$:
+$$
+  \begin{tikzcd}
+    F(c) \rar["F(f)"] \dar[swap,"T_c"]
+    & F(c') \dar["T_{c'}"]
+  \\G(c) \rar[swap,"G(f)"]
+    & G(c')
+  \end{tikzcd}
+$$
+This condition says that the transformation $T$ gets along with all the
+"symmetries", or more precisely morphisms $f$, in the category $\mathcal{D}$. We can
 do it either before or after applying one of these symmetries, and we
 get the same result. For example, a vector space construction which
 depends crucially on a choice of basis will fail this condition if we
@@ -69,66 +65,58 @@ isomorphisms.
 
 Okay. Hopefully that explains the idea of "naturality" a bit better.
 But right now we are trying to figure out what we mean by saying that
-\operatorname{Hom}(Lc,d) and \operatorname{Hom}(c,Rd) are naturally isomorphic. To do this, we need to
+$\operatorname{Hom}(Lc,d)$ and $\operatorname{Hom}(c,Rd)$ are naturally isomorphic. To do this, we need to
 introduce a couple more ideas: the product of categories, and the
 opposite of a category.
 
 First, just as you can take the Cartesian product of two sets, you can
-take the Cartesian product of two categories, say C and D. It's not
-hard. An object of C × D is just a pair of objects, one from C and one
-from D. A morphism in C × D is just a pair of morphisms, one from C and
-one from D. And everything works sort of the way you'd expect.
+take the Cartesian product of two categories, say $\mathcal{C}$ and $\mathcal{D}$. It's not
+hard. An object of $\mathcal{C}\times\mathcal{D}$ is just a pair of objects, one from $\mathcal{C}$ and one
+from $\mathcal{D}$. A morphism in $\mathcal{C}\times\mathcal{D}$ is just a pair of morphisms, one from $\mathcal{C}$ and
+one from $\mathcal{D}$. And everything works sort of the way you'd expect.
 
-Second, if you have a category C, you can form a new category C^op^, the
-opposite of C, which has the same objects as C, and has the arrows in C
-turned around backwards. In other words, a morphism f: × \to y in C^op^ is
-defined to be a morphism f: y \to x in C, and the composite fg of
-morphisms in C^op^ is defined to be their composite gf in C. C^op^ is
-like a through-the-looking-glass version of C where they do everything
-backwards. A functor F: C^op^ \to D is also called a "contravariant"
-functor from C to D, since we can think of it as a screwy functor from C
-to D with F(fg) = F(g)F(f) instead of the usual F(fg) = F(f)F(g).
+Second, if you have a category $\mathcal{C}$, you can form a new category $\mathcal{C}^\mathrm{op}$, the
+opposite of $\mathcal{C}$, which has the same objects as $\mathcal{C}$, and has the arrows in $\mathcal{C}$
+turned around backwards. In other words, a morphism $f\colon x\to y in \mathcal{C}^\mathrm{op}$ is
+defined to be a morphism $f\colon y\to x in \mathcal{C}$, and the composite $fg$ of
+morphisms in $\mathcal{C}^\mathrm{op}$ is defined to be their composite $gf$ in $\mathcal{C}$. So $\mathcal{C}^\mathrm{op}$ is
+like a through-the-looking-glass version of $\mathcal{C}$ where they do everything
+backwards. A functor $F\colon\mathcal{C}^\mathrm{op}\to\mathcal{D}$ is also called a "contravariant"
+functor from $\mathcal{C}$ to $\mathcal{D}$, since we can think of it as a screwy functor from $\mathcal{C}$
+to $\mathcal{D}$ with $F(fg) = F(g)F(f)$ instead of the usual $F(fg) = F(f)F(g)$.
 Whenever you see this perverse contravariant behavior going on, you
 should suspect an opposite category is to blame.
 
-Now, it turns out that we can think of the "hom" in a category C as a
+Now, it turns out that we can think of the "$\operatorname{Hom}$" in a category $\mathcal{C}$ as a
 functor
-
-\operatorname{Hom}(-,-): C^op^ × C \to Set
-
-Here the -'s denote blanks to be filled in. Obviously, for any object
-(x,x') in C^op^ × C, there is a nice juicy set \operatorname{Hom}(x,x'), the set of
-all morphisms from × to x'. But what if we have a morphism
-
-(f,f'): (x,x') \to (y,y')
-
-in C^op^ × C? For \operatorname{Hom}(-,-) to be a functor, we should get a nice juicy
+$$\operatorname{Hom}(-,-)\colon\mathcal{C}^\mathrm{op}\times\mathcal{C}\to\mathsf{Set}$$
+Here the $-$'s denote blanks to be filled in. Obviously, for any object
+$(x,x')$ in $\mathcal{C}^\mathrm{op}\times\mathcal{C}$, there is a nice juicy set $\operatorname{Hom}(x,x')$, the set of
+all morphisms from $x to x'$. But what if we have a morphism
+$$(f,f')\colon(x,x')\to(y,y')$$
+in $\mathcal{C}^\mathrm{op}\times\mathcal{C}$? For $\operatorname{Hom}(-,-)$ to be a functor, we should get a nice juicy
 function
-
-\operatorname{Hom}(f,f'): \operatorname{Hom}(x,x') \to \operatorname{Hom}(y,y').
-
-How does this work? Well, remember that a morphism (f,f') as above is
-really just a pair consisting of a morphism f: × \to y in C^op^ and a
-morphism f': x' \to y' in C. A morphism f: × \to y in C^op^ is just a
-morphism f: y \to × in C. Now say we have an unsuspecting element g of
-\operatorname{Hom}(x,x') and we want to hit it with \operatorname{Hom}(f,f') to get something in
-\operatorname{Hom}(y,y'). Here's how we do it:
-
-\operatorname{Hom}(f,f'): g \|\to f'gf
-
+$$\operatorname{Hom}(f,f')\colon\operatorname{Hom}(x,x')\to\operatorname{Hom}(y,y').$$
+How does this work? Well, remember that a morphism $(f,f')$ as above is
+really just a pair consisting of a morphism $f\colon x\to y$ in $\mathcal{C}^\mathrm{op}$ and a
+morphism $f'\colon x'\to y'$ in $\mathcal{D}$. A morphism $f\colon x\to y$ in $\mathcal{C}^\mathrm{op}$ is just a
+morphism $f\colon y\to x$ in $\mathcal{D}$. Now say we have an unsuspecting element $g$ of
+$\operatorname{Hom}(x,x')$ and we want to hit it with $\operatorname{Hom}(f,f')$ to get something in
+$\operatorname{Hom}(y,y')$. Here's how we do it:
+$$\operatorname{Hom}(f,f')\colon g \mapsto f'gf$$
 We compose it with f' on the left and f on the right! Composing on the
 left is a nice covariant thing to do, but composing on the right is
-contravariant, which is why we needed the opposite category C^op^.
+contravariant, which is why we needed the opposite category $\mathcal{C}^\mathrm{op}$.
 
-Okay, now back to our adjoint functors L: C \to D and R: D \to C. Now we are
+Okay, now back to our adjoint functors L\colon\mathcal{C}\to\mathcal{D} and R\colon\mathcal{D}\to\mathcal{C}. Now we are
 ready to say what we mean by \operatorname{Hom}(Lc,d) and \operatorname{Hom}(c,Rd) being naturally
 isomorphic. Using the stuff we have set up, we can define two functors
 
-\operatorname{Hom}(L-,-): C^op^ × D \to Sets
+\operatorname{Hom}(L-,-): \mathcal{C}^\mathrm{op}\times \mathcal{D} \to Sets
 
 and
 
-\operatorname{Hom}(-,R-): C^op^ × D \to Sets
+\operatorname{Hom}(-,R-): \mathcal{C}^\mathrm{op}\times \mathcal{D} \to Sets
 
 and we are simply saying that for L and R to be adjoints, we demand the
 existence of a natural isomorphism between these functors!
@@ -141,18 +129,18 @@ Now let me start explaining what this all has to do with quantum theory.
 (I'll put off the topology until next Week.) First of all, the "hom
 functor" we introduced,
 
-\operatorname{Hom}(-,-): C^op^ × C \to Set
+\operatorname{Hom}(-,-): \mathcal{C}^\mathrm{op}\times \mathcal{C} \to Set
 
 should remind you a whole lot of the inner product on a Hilbert space H.
 The inner product is linear in one slot and conjugate-linear in the
 other, just like hom is covariant in one slot and contravariant in the
 other. In fact, the inner product can be thought of as a bilinear map
 
-\<-,-\>: H^op^ × H \to C
+\<-,-\>: H^\mathrm{op}\times H \to C
 
-where H^op^, the "opposite" Hilbert space, is like H but with a
+where H^\mathrm{op}, the "opposite" Hilbert space, is like H but with a
 complex conjugate thrown into the definition of scalar multiplication,
-and here C denotes the complex numbers!
+and here \mathcal{C} denotes the complex numbers!
 
 Second of all, the definition of adjoint functor, with \operatorname{Hom}(Lc,d) and
 \operatorname{Hom}(c,Rd) being naturally isomorphic, should remind you of adjoint
@@ -168,7 +156,7 @@ In fact, the whole situation with adjoint functors is a kind of
 "categorified" version of the situation with adjoint linear operators.
 Everything has been boosted up one notch on the n-categorical ladder.
 What I mean is this: the Hilbert spaces H and K above are *sets*, with
-*elements* h and k, while the categories C and D are *categories*, with
+*elements* h and k, while the categories \mathcal{C} and \mathcal{D} are *categories*, with
 *objects* c and d. The inner product of two elements of a Hilbert space
 is a *number*, while the hom of two objects in a category is a *set*.
 Most interesting, the definition of adjoint operators requires that

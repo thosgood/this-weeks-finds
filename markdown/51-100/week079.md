@@ -172,9 +172,9 @@ this is one way group theory entered chemistry in the first place.)
 ------------------------------------------------------------------------
 
 Now let me return to the tale of adjoint functors! I have been
-stressing the fact that two functors L: C \to D and R: D \to C are adjoint
+stressing the fact that two functors L\colon\mathcal{C}\to\mathcal{D} and R\colon\mathcal{D}\to\mathcal{C} are adjoint
 if there is a natural isomorphism between \operatorname{Hom}(Lc,d) and \operatorname{Hom}(c,Rd). We
-can say that an "adjunction" is a pair of functors L: C \to D and R: D \to
+can say that an "adjunction" is a pair of functors L\colon\mathcal{C}\to\mathcal{D} and R: D \to
 C together with a natural isomorphism between \operatorname{Hom}(Lc,d) and \operatorname{Hom}(c,Rd).
 But there is another way to think about adjunctions which is also
 good.
@@ -307,7 +307,7 @@ together i and e and some identity natural transformations gives 1~R~: R
 
 I will explain these more carefully next time, but for now I mainly want
 to state that we can also *define* an adjunction to be a pair of
-functors L: C \to D and R: D \to C together with natural transformations e:
+functors L\colon\mathcal{C}\to\mathcal{D} and R\colon\mathcal{D}\to\mathcal{C} together with natural transformations e:
 LR =\> 1~D~ and i: 1~C~ =\> RL making the above 2 equations hold! This
 is the definition of "adjunction" that is the most similar to the
 definition of "equivalence".
