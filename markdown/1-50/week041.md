@@ -261,7 +261,7 @@ gravity, or more generally, 3-dimensional topology and 4-dimensional
 generally covariant physics. We review how some of these relationships
 arise from a 'ladder of field theories' including quantum gravity and
 BF theory in 4 dimensions, Chern-Simons theory in 3 dimensions, and the
-G/G gauged WZW model in 2 dimensions. We also describe the relation
+$G/G$ gauged WZW model in 2 dimensions. We also describe the relation
 between link (or multiloop) invariants and generalized measures on the
 space of connections. In addition, we pose some research problems and
 describe some new results, including a proof (due to Sawin) that the

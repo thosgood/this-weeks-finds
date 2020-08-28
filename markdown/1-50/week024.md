@@ -82,10 +82,10 @@ living on the 2-dimesional "string worldsheet."
 
 This paper is a thorough review of two kinds of gauge theories in 2
 dimensions: topological Yang-Mills theory (also called BF theory) and
-the G/G gauged Wess-Zumino-Witten model. Both of these are of great
+the $G/G$ gauged Wess-Zumino-Witten model. Both of these are of great
 mathematical interest in addition to their physical relevance. Studying
 the BF theory gives a way to do integrals on the moduli space of flat
-connections on a bundle over a Riemann surface, while studying the G/G
+connections on a bundle over a Riemann surface, while studying the $G/G$
 model amounts to a geometric construction of the categories of
 representations of quantum groups at roots of unity. (Take my word for
 it, mathematicians find these important!)
@@ -97,7 +97,7 @@ quote): solution of Yang-Mills theory on arbitrary surfaces; calculation
 of intersection numbers of moduli spaces of flat connections; coupling
 of Yang-Mills theory to coadjoint orbits and intersection numbers of
 moduli spaces of parabolic bundles; derivation of the Verlinde formula
-from the G/G model; derivation of the shift $k$ to $k+h$ in the G/G model
+from the $G/G$ model; derivation of the shift $k$ to $k+h$ in the $G/G$ model
 via the index of the twisted Dolbeault complex.
 
 3) "Semi-classical limits of simplicial quantum gravity", by J. W.
