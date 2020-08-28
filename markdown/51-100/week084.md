@@ -380,7 +380,7 @@ diagram:
 $$
   \begin{tikzpicture}
     \node (xl) at (0,0) {$x$};
-    \node (xt) at (1.25,1.7) {$x$};
+    \node (xt) at (1.25,2) {$x$};
     \node (xr) at (2.5,0) {$x$};
     \draw[thick] (xl) to node[fill=white]{$f$} (xt);
     \draw[thick] (xt) to node[fill=white]{$f$} (xr);
