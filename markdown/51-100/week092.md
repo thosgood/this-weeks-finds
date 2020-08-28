@@ -198,47 +198,69 @@ $$
     \node[label=above:{$U$}] at (0.5,0.57) {$\bullet$};
   \end{tikzpicture}
 $$
-
-                        U
-                       / \
-                      /   \
-                    x/     \x*
-                    /       \
-
 and
-
-                    \       /
-                   x*\     /x
-                      \   / 
-                       \ /
-                        C
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0.5)
+        to (0,0)
+        to [out=down,in=down,looseness=2] (1,0)
+        to (1,0.5);
+    \end{knot}
+    \node[fill=white] at (0,0) {$x^*$};
+    \node[fill=white] at (1,0) {$x$};
+    \node[label=below:{$C$}] at (0.5,-0.6) {$\bullet$};
+  \end{tikzpicture}
+$$
 They satisfy the following axioms:
-
-                            |       |
-                 U         x|      x|
-                / \         |       |
-               /   \        |       |
-              /     \       |       |
-             |     x*\     /   =    | 
-             |        \   /         |
-             |         \ /          |
-            x|          C           |
-             |                      |
-
-
-
-             |                      |
-           x*|          U         x*|
-             |         / \          |
-             |        /   \         |
-             |       /     \        |
-              \    x/       |  =    | 
-               \   /        |       |
-                \ /         |       |
-                 C        x*|       |
-                            |       |
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+      to (0,1)
+      to [out=up,in=up,looseness=2] (1,1)
+      to [out=down,in=down,looseness=2] (2,1)
+      to (2,2);
+    \end{knot}
+    \node[fill=white] at (0,0.3) {$x$};
+    \node[fill=white] at (2,1.7) {$x$};
+    \node[fill=white] at (1,1) {$x^*$};
+    \node[label=above:{$U$}] at (0.5,1.57) {$\bullet$};
+    \node[label=below:{$C$}] at (1.5,0.4) {$\bullet$};
+    \node at (3,1) {$=$};
+    \begin{scope}[shift={(4,0)}]
+      \begin{knot}
+        \strand[thick] (0,0) to (0,2);
+      \end{knot}
+      \node[fill=white] at (0,1.7) {$x$};
+    \end{scope}
+  \end{tikzpicture}
+$$
+$$
+  \begin{tikzpicture}
+    \begin{scope}[xscale=-1,shift={(-2,0)}]
+      \begin{knot}
+        \strand[thick] (0,0)
+        to (0,1)
+        to [out=up,in=up,looseness=2] (1,1)
+        to [out=down,in=down,looseness=2] (2,1)
+        to (2,2);
+      \end{knot}
+      \node[fill=white] at (0,0.3) {$x^*$};
+      \node[fill=white] at (2,1.7) {$x^*$};
+      \node[fill=white] at (1,1) {$x$};
+      \node[label=above:{$U$}] at (0.5,1.57) {$\bullet$};
+      \node[label=below:{$C$}] at (1.5,0.4) {$\bullet$};
+    \end{scope}
+    \node at (3,1) {$=$};
+    \begin{scope}[shift={(4,0)}]
+      \begin{knot}
+        \strand[thick] (0,0) to (0,2);
+      \end{knot}
+      \node[fill=white] at (0,1.7) {$x^*$};
+    \end{scope}
+  \end{tikzpicture}
+$$
 Physically, we can think of $x^*$ as the antiparticle of $x$, and then $U$ is
 the process of creation of a particle-antiparticle pair, while $C$ is the
 process of annihilation. The axioms just say that for a particle or
