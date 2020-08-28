@@ -6,19 +6,19 @@ the following diagrams correspond to the simple Lie algebras, and they
 also define certain lattices, the "root lattices" of those Lie
 algebras:
 
-> $A_n$, which has $n$ dots like this:
+> $\mathrm{A}_n$, which has $n$ dots like this:
 > $$
 >   \begin{tikzpicture}
 >     \draw[thick] (0,0) node{$\bullet$} to (1,0) node{$\bullet$} to (2,0) node {$\bullet$} to (4,0) node{$\bullet$};
 >   \end{tikzpicture}
 > $$
-> $B_n$, which has $n$ dots, where $n > 1$:
+> $\mathrm{B}_n$, which has $n$ dots, where $n > 1$:
 > $$
 >   \begin{tikzpicture}
 >     \draw[thick] (0,0) node{$\bullet$} to (1,0) node{$\bullet$} to (2,0) node{$\bullet$} to node[label=above:{4}]{} (3,0) node {$\bullet$};
 >   \end{tikzpicture}
 > $$
-> $D_n$, which has $n$ dots, where $n > 3$:
+> $\mathrm{D}_n$, which has $n$ dots, where $n > 3$:
 > $$
 >   \begin{tikzpicture}
 >     \draw[thick] (0,0) node{$\bullet$} to (1,0) node{$\bullet$} to (2,0) node{$\bullet$} to (3,0) node {$\bullet$};
@@ -26,7 +26,7 @@ algebras:
 >     \draw[thick] (3,0) to (4,-1) node {$\bullet$};
 >   \end{tikzpicture}
 > $$
-> $E_6$, $E_7$, and $E_8$:
+> $\mathrm{E}_6$, $\mathrm{E}_7$, and $\mathrm{E}_8$:
 > $$
 >   \begin{gathered}
 >     \begin{tikzpicture}
@@ -44,13 +44,13 @@ algebras:
 >     \end{tikzpicture}
 >   \end{gathered}
 > $$
-> $F_4$:
+> $\mathrm{F}_4$:
 > $$
 >   \begin{tikzpicture}
 >     \draw[thick] (0,0) node{$\bullet$} to (1,0) node{$\bullet$} to node[label=above:{4}]{} (2,0) node{$\bullet$} to (3,0) node {$\bullet$};
 >   \end{tikzpicture}
 > $$
-> $G_2$:
+> $\mathrm{G}_2$:
 > $$
 >   \begin{tikzpicture}
 >     \draw[thick] (0,0) node{$\bullet$} to node[label=above:{6}]{} (1,0) node{$\bullet$};
@@ -83,7 +83,7 @@ which I described in more detail in ["Week 20"](#week20).
 
 So, what are A, D, and E like?
 
-**A**. We can describe the lattice $A_n$ as the set of all $(n+1)$-tuples of
+**A**. We can describe the lattice $\mathrm{A}_n$ as the set of all $(n+1)$-tuples of
 integers $(x_1,...,x_{n+1})$ such that
 $$x_1+\ldots+x_{n+1}=0.$$
 It's a fun exercise to show that $A_2$ is a 2-dimensional hexagonal
@@ -93,7 +93,7 @@ which is in fact the densest lattice packing of spheres in 3 dimensions.
 (Hsiang has claimed to have shown it's the densest packing, lattice or
 not, but this remains controversial.)
 
-**D**. We can describe $D_n$ as the set of all $n$-tuples of integers
+**D**. We can describe $\mathrm{D}_n$ as the set of all $n$-tuples of integers
 $(x_1,...,x_n)$ such that
 $$x_1+\ldots+x_n\quad\text{is even}.$$
 Or, if you like, you can imagine taking an $n$-dimensional checkerboard,
@@ -101,17 +101,17 @@ coloring the cubes alternately red and black, and taking the center of
 each red cube. In four dimensions, $D_4$ gives a denser packing of
 spheres than $A_4$; in fact, it gives the densest lattice packing
 possible. Moreover, $D_5$ gives the densest lattice packing of in
-dimension 5. However, in dimensions 6, 7, and 8, the $E_n$ lattices are
+dimension 5. However, in dimensions 6, 7, and 8, the $\mathrm{E}_n$ lattices are
 the best!
 
-**E**. We can describe $E_8$ as the set of 8-tuples $(x_1,...,x_8)$ such
+**E**. We can describe $\mathrm{E}_8$ as the set of 8-tuples $(x_1,...,x_8)$ such
 that the $x_i$ are either all integers or all half-integers --- a
 half-integer being an integer plus $1/2$ --- and
 $$x_1+\ldots+x_8\quad\text{is even}.$$
 Each point has 240 closest neighbors. Alternatively, as described in
-["Week 20"](#week20), we can describe $E_8$ in a slick way in terms
-of the quaternions. Another neat way to think of $E_8$ is in terms of the
-octonions! Not too surprising, perhaps, since the octonions and $E_8$ are
+["Week 20"](#week20), we can describe $\mathrm{E}_8$ in a slick way in terms
+of the quaternions. Another neat way to think of $\mathrm{E}_8$ is in terms of the
+octonions! Not too surprising, perhaps, since the octonions and $\mathrm{E}_8$ are
 both 8-dimensional, but it's still sorta neat. For the details, check
 out
 
@@ -130,17 +130,17 @@ exactly 480 choices of the unit octonion $a$, the $\times$-product gives us a ne
 multiplication table for the seven dwarves, such that we get an algebra
 isomorphic to the octonions again! 240 of these choices have all
 rational coordinates (in terms of the seven dwarves), and these are
-precisely the 240 closest neighbors of the origin in a copy of the $E_8$
+precisely the 240 closest neighbors of the origin in a copy of the $\mathrm{E}_8$
 lattice! The other 240 have all irrational coordinates, and these are
-the closest neighbors to the origin of a *different* copy of the $E_8$
-lattice. (Here we've rescaled the $E_8$ lattice so the nearest neighbors
+the closest neighbors to the origin of a *different* copy of the $\mathrm{E}_8$
+lattice. (Here we've rescaled the $\mathrm{E}_8$ lattice so the nearest neighbors
 have distance $1$ from the origin, instead of $\sqrt{2}$ as above.)
 
-Once we have $E_8$ in hand, we can get its little pals $E_7$ and $E_6$ as
-follows. To get $E_7$, just take all the vectors in $E_8$ that are
-perpendicular to some closest neighbor of the origin. To get $E_6$, find
-a copy of the lattice $A_2$ in $E_8$ (there are lots) and then take all
-the vectors in $E_8$ perpendicular to everything in that copy of $A_2$.
+Once we have $\mathrm{E}_8$ in hand, we can get its little pals $\mathrm{E}_7$ and $\mathrm{E}_6$ as
+follows. To get $\mathrm{E}_7$, just take all the vectors in $\mathrm{E}_8$ that are
+perpendicular to some closest neighbor of the origin. To get $\mathrm{E}_6$, find
+a copy of the lattice $A_2$ in $\mathrm{E}_8$ (there are lots) and then take all
+the vectors in $\mathrm{E}_8$ perpendicular to everything in that copy of $A_2$.
 
 So, now that we have a nodding acquaintance with A, D, and E, let me
 describe some of the many places they show up. First, what's so great

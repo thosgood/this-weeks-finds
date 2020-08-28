@@ -7,7 +7,7 @@ speaking, the basic building blocks of the symmetry groups of physics.
 
 In trying to learn about them, certain puzzles come up. In July I asked
 Bertram Kostant about one that's been bugging me for years: "Why does
-$E_8$ exist?" In a word, his answer was: "Triality!" This was incredibly
+$\mathrm{E}_8$ exist?" In a word, his answer was: "Triality!" This was incredibly
 exciting to me; it completely blew my mind. But I should start at the
 beginning....
 
@@ -144,20 +144,20 @@ seemed very mysterious to me.
 
 The 4 infinite families are:
 
-- $A_n$: This is the Lie algebra of $\mathrm{SU}(n)$, the group of $n\times n$ complex
+- $\mathrm{A}_n$: This is the Lie algebra of $\mathrm{SU}(n)$, the group of $n\times n$ complex
     matrices that preserve lengths (i.e., are unitary) and have determinant
     $1$. This Lie algebra is also called $\mathfrak{su}(n)$.
-- $B_n$: This is the Lie algebra of $\mathrm{SO}(2n+1)$, the group of $(2n+1)\times(2n+1)$
+- $\mathrm{B}_n$: This is the Lie algebra of $\mathrm{SO}(2n+1)$, the group of $(2n+1)\times(2n+1)$
     real matrices that preserve lengths (i.e., are orthogonal) and have
     determinant $1$. This Lie algebra is also called $\mathfrak{so}(2n+1)$.
-- $C_n$: This is the Lie algebra of $Sp(n)$, the group of $n\times n$ quaternionic
+- $\mathrm{C}_n$: This is the Lie algebra of $Sp(n)$, the group of $n\times n$ quaternionic
     matrices that preserve lengths. This Lie algebra is also called $\mathfrak{sp}(n)$.
-- $D_n$: This is the Lie algebra of $\mathrm{SO}(2n)$, the group of $2n\times 2n$ real
+- $\mathrm{D}_n$: This is the Lie algebra of $\mathrm{SO}(2n)$, the group of $2n\times 2n$ real
     matrices that preserve lengths and have determinant $1$. This Lie algebra
     is also called $\mathfrak{so}(2n)$.
 
-You may justly wonder why the heck they are called $A_n$, $B_n$, $C_n$, and
-$D_n$, and why we separated out the even and odd cases of $\mathrm{SO}(n)$ as we did!
+You may justly wonder why the heck they are called $\mathrm{A}_n$, $\mathrm{B}_n$, $\mathrm{C}_n$, and
+$\mathrm{D}_n$, and why we separated out the even and odd cases of $\mathrm{SO}(n)$ as we did!
 This is explained in ["Week 64"](#week64), and I don't want to
 worry about it here. Anyway, glossing over some nuances, we see that
 these guys are all pretty much just groups of rotations in real,
@@ -165,11 +165,11 @@ complex, and quaternionic vector spaces.
 
 The 5 exceptions are as follows:
 
-- $F_4$: A 52-dimensional Lie algebra.
-- $G_2$: A 14-dimensional Lie algebra.
-- $E_6$: A 78-dimensional Lie algebra.
-- $E_7$: A 133-dimensional Lie algebra.
-- $E_8$: A 248-dimensional Lie algebra.
+- $\mathrm{F}_4$: A 52-dimensional Lie algebra.
+- $\mathrm{G}_2$: A 14-dimensional Lie algebra.
+- $\mathrm{E}_6$: A 78-dimensional Lie algebra.
+- $\mathrm{E}_7$: A 133-dimensional Lie algebra.
+- $\mathrm{E}_8$: A 248-dimensional Lie algebra.
 
 Here I am being rather reticent about what these Lie algebras --- or the
 corresponding Lie groups, which go by the same names --- actually ARE! The
@@ -186,7 +186,7 @@ imagine life without it.
 
 In any case, I have long been asking people why the exceptional Lie
 groups exist, but without much luck. Until recently I only felt happy
-about one of them, the one called $G_2$: it's the group of rotations of
+about one of them, the one called $\mathrm{G}_2$: it's the group of rotations of
 the octonions! The real numbers, complex numbers, quaternions and
 octonions are the only "normed division algebras" --- a property which
 makes it easy to define rotation groups --- but the octonions are weirder
@@ -196,8 +196,8 @@ associative. (See ["Week 59"](#week59) and
 simple Lie groups coming from rotations in octonionic vector spaces,
 like the other classical series... but there isn't one! The only
 simple Lie group like this is the group of rotations of a
-ONE-dimensional octonionic vector space, $G_2$. (More precisely, we say
-that $G_2$ is the group of automorphisms of the octonions, that is, the
+ONE-dimensional octonionic vector space, $\mathrm{G}_2$. (More precisely, we say
+that $\mathrm{G}_2$ is the group of automorphisms of the octonions, that is, the
 linear transformations that preserve the octonion product. These all
 preserve lengths.)
 
@@ -206,19 +206,19 @@ sort of pleasing, because one might easily *expect* that the reals,
 complexes and quaternions give nice infinite series of "classical" Lie
 groups, while the octonions, being much more bizarre, give only 5
 bizarre "exceptional" Lie groups. Indeed, in ["Week 64"](#week64)
-I described how $F_4$ and $E_6$ are related to the octonions... but in a
-pretty complicated way! As for $E_7$ and $E_8$, here until recently I had
+I described how $\mathrm{F}_4$ and $\mathrm{E}_6$ are related to the octonions... but in a
+pretty complicated way! As for $\mathrm{E}_7$ and $\mathrm{E}_8$, here until recently I had
 always been completely in the dark. This is all the more irksome because
-the biggest, most mysterious exceptional Lie group of all, $E_8$, plays an
+the biggest, most mysterious exceptional Lie group of all, $\mathrm{E}_8$, plays an
 important role in string theory!
 
 Luckily, on Thursday July 11th I ran into Bertram Kostant, who had been
 attending the previous workshop here at the Erwin Schroedinger
 Institute. As I described in ["Week 79"](#week79), Kostant is one
 of the expert's experts on group theory. So I got up my nerve and asked
-him, "Why does $E_8$ exist?" And he told me! Best of all, he explained
-both $E_8$ and $F_4$ in terms of a principle that I knew was crucial for
-understanding $G_2$ and the octonions ... the principle of triality!
+him, "Why does $\mathrm{E}_8$ exist?" And he told me! Best of all, he explained
+both $\mathrm{E}_8$ and $\mathrm{F}_4$ in terms of a principle that I knew was crucial for
+understanding $\mathrm{G}_2$ and the octonions ... the principle of triality!
 
 I sketched a description of triality in ["Week 61"](#week61). Let
 me just summarize the idea here. One of the main way to understand Lie
@@ -293,12 +293,12 @@ modulo inner automorphisms of $\mathrm{SO}(8)$ is $S_3$ (the group of permutatio
 3 things).
 
 Pretty sneaky, how a group of symmetries can have its own group of
-symmetries, no? As we'll now see, this is what gives birth to $G_2$, $F_4$,
-$E_8$, and the octonions.
+symmetries, no? As we'll now see, this is what gives birth to $\mathrm{G}_2$, $\mathrm{F}_4$,
+$\mathrm{E}_8$, and the octonions.
 
-To get $G_2$ is pretty simple; we look at those elements of $\mathrm{Spin}(8)$ that
+To get $\mathrm{G}_2$ is pretty simple; we look at those elements of $\mathrm{Spin}(8)$ that
 are fixed (i.e., unaffected) by all the triality symmetries, and these
-form a subgroup, which is $G_2$.
+form a subgroup, which is $\mathrm{G}_2$.
 
 For the rest, we need one more fact: there is a way to "multiply" a
 left-handed spinor and a right-handed spinor and get a vector. This is
@@ -323,7 +323,7 @@ that different.
 So in particular, you can multiply two 8-dimensional vectors and get
 another vector. And this gives us the octonions!
 
-Now how about $F_4$ and $E_8$? This is the cool stuff Kostant told me about.
+Now how about $\mathrm{F}_4$ and $\mathrm{E}_8$? This is the cool stuff Kostant told me about.
 Here I will describe the Lie algebras, not the Lie groups.
 
 Let's call the right-handed and left-handed spinor representations $S_+$
@@ -341,10 +341,10 @@ $\mathfrak{so}(8)$, a guy in $S_+$, a guy in $S_-$, and a guy in $V. The dimensi
 vector space is therefore
 $$28+8+8+8=52$$
 since it takes $n(n-1)/2$ numbers to describe a rotation in $n$ dimensions.
-Hey! Look! 52 is the dimension of $F_4$! So maybe this thing is $F_4$.
+Hey! Look! 52 is the dimension of $\mathrm{F}_4$! So maybe this thing is $\mathrm{F}_4$.
 
 Yes, it is! Here's how it works. To make this gadget into a Lie algebra
---- which turns out to be $F_4$ --- we need a way to take the "bracket" of
+--- which turns out to be $\mathrm{F}_4$ --- we need a way to take the "bracket" of
 any two elements in it. We already know how to take the bracket of two
 guys in $\mathfrak{so}(8)$, so that's no problem. Since $\mathfrak{so}(8)$ acts as
 transformations of $S_+$ and $S_-$ and $V$, we also know how to multiply a guy
@@ -362,7 +362,7 @@ So taking all these multiplication operations together, we can cook up a
 way to take the bracket of any two guys in $\mathfrak{so}(8)\oplus S_+\oplus S_-\oplus V$ and get
 another such guy. If you do it right --- I've been pretty vague, so I
 leave it to you to fill in the details --- you can get this bracket to
-satisfy the Lie algebra axioms, and you get $F_4$!
+satisfy the Lie algebra axioms, and you get $\mathrm{F}_4$!
 
 Emboldened with our success, we now look at the vector space
 $$\mathfrak{so}(8)\oplus\mathfrak{so}(8)\oplus\operatorname{End}(S_+)\oplus\operatorname{End}(S_-)\oplus\operatorname{End}(V).$$
@@ -370,7 +370,7 @@ Here $\operatorname{End}(S_+)$ is the space of all linear transformations of the
 space $S_+$, so if you like, it's just the space of $8\times8$ matrices.
 Similarly for $\operatorname{End}(S_-)$ and $\operatorname{End}(V)$. Now the dimension of this space is
 $$28+28+64+64+64=248$$
-Hey! This is just the dimension of $E_8$! Maybe this space is $E_8$!
+Hey! This is just the dimension of $\mathrm{E}_8$! Maybe this space is $\mathrm{E}_8$!
 
 Yes indeed. Again, you can cook up a bracket operation on this space
 using all the stuff we've got. Here's the basic idea. $\operatorname{End}(S_+)$,
@@ -382,14 +382,14 @@ corresponding to left and right matrix multiplication; glomming these
 two together we get a representation of $\mathfrak{so}(8)\oplus\mathfrak{so}(8)$ on $\operatorname{End}(V)$.
 Similarly we have representations of $\mathfrak{so}(8)\oplus\mathfrak{so}(8)$ on $\operatorname{End}(S_+)$ and
 $\operatorname{End}(S_-)$. Putting all this stuff together we get a Lie algebra, if we do
-it right --- and it's $E_8$. At least that's what Kostant said; I haven't
+it right --- and it's $\mathrm{E}_8$. At least that's what Kostant said; I haven't
 checked it.
 
 So now we see, at least roughly, how triality gives birth to the
-octonions, $G_2$, $F_4$, and $E_8$. That leaves $E_8$'s "little brothers" $E_6$ and
-$E_7$. These are contained in $E_8$ as Lie subalgebras, but apart from that I
+octonions, $\mathrm{G}_2$, $\mathrm{F}_4$, and $\mathrm{E}_8$. That leaves $\mathrm{E}_8$'s "little brothers" $\mathrm{E}_6$ and
+$\mathrm{E}_7$. These are contained in $\mathrm{E}_8$ as Lie subalgebras, but apart from that I
 don't know any especially beautiful way to get ahold of them, except
-for the way to get $E_6$ from 3x3 matrices of octonions, which I described
+for the way to get $\mathrm{E}_6$ from 3x3 matrices of octonions, which I described
 in ["Week 64"](#week64).
 
 For some references to this stuff, try:
@@ -404,10 +404,10 @@ For some references to this stuff, try:
 
 5) Hans Freudenthal and H. de Vries, _Linear Lie groups_, Academic Press, New York, 1969.
 
-6) Alex J. Feingold, Igor B. Frenkel, and John F. X. Rees, "Spinor construction of vertex operator algebras", triality, and $E_8^{(1)}$, _Contemp. Math._ **121**, AMS, Providence Rhode Island.
+6) Alex J. Feingold, Igor B. Frenkel, and John F. X. Rees, "Spinor construction of vertex operator algebras", triality, and $\mathrm{E}_8^{(1)}$, _Contemp. Math._ **121**, AMS, Providence Rhode Island.
 
 I haven't looked at all these books lately, and the only source I
-*know* contains the above construction of $E_8$ from triality is the last
+*know* contains the above construction of $\mathrm{E}_8$ from triality is the last
 one, by Feingold, Frenkel, and Rees.
 
 Now let me allow myself to get a bit more technical.
@@ -435,10 +435,10 @@ marvelous things like the Leech lattice and the Monster group.
 The Dynkin diagram approach also makes it clear *why* triality exists:
 symmetries of Dynkin diagrams always give outer automorphisms of the
 corresponding Lie algebras, and as you examine the Dynkin diagrams of
-$D_n$, you get
+$\mathrm{D}_n$, you get
 $$
   \begin{tikzpicture}
-    \node at (2,0) {$D_2=\mathfrak{so}(4)$};
+    \node at (2,0) {$\mathrm{D}_2=\mathfrak{so}(4)$};
     \node at (3.25,0) {$=$};
     \draw[thick] (4,1) node {$\bullet$};
     \draw[thick] (4,-1) node {$\bullet$};
@@ -446,7 +446,7 @@ $$
 $$
 $$
   \begin{tikzpicture}
-    \node at (1,0) {$D_3=\mathfrak{so}(6)$};
+    \node at (1,0) {$\mathrm{D}_3=\mathfrak{so}(6)$};
     \node at (2.25,0) {$=$};
     \draw[thick] (3,0) node {$\bullet$};
     \draw[thick] (3,0) to (4,1) node {$\bullet$};
@@ -455,7 +455,7 @@ $$
 $$
 $$
   \begin{tikzpicture}
-    \node at (0,0) {$D_4=\mathfrak{so}(8)$};
+    \node at (0,0) {$\mathrm{D}_4=\mathfrak{so}(8)$};
     \node at (1.25,0) {$=$};
     \draw[thick] (2,0) node{$\bullet$} to (3,0) node {$\bullet$};
     \draw[thick] (3,0) to (4,1) node {$\bullet$};
@@ -464,7 +464,7 @@ $$
 $$
 $$
   \begin{tikzpicture}
-    \node at (-1,0) {$D_6=\mathfrak{so}(10)$};
+    \node at (-1,0) {$\mathrm{D}_6=\mathfrak{so}(10)$};
     \node at (0.25,0) {$=$};
     \draw[thick] (1,0) node{$\bullet$} to (2,0) node{$\bullet$} to (3,0) node {$\bullet$};
     \draw[thick] (3,0) to (4,1) node {$\bullet$};
@@ -478,22 +478,22 @@ right-handed spinor representations, corresponding to the two dots on
 the far right of the Dynkin diagram. (The dot on the far left
 corresponds to the vector representation.)
 
-Of course, people don't usually talk about $D_2$ or $D_3$, because $D_2$ is
-two copies of $A_1$, and $D_3$ is the same as $A_3$. However, there is no
+Of course, people don't usually talk about $\mathrm{D}_2$ or $\mathrm{D}_3$, because $\mathrm{D}_2$ is
+two copies of $\mathrm{A}_1$, and $\mathrm{D}_3$ is the same as $\mathrm{A}_3$. However, there is no
 shame in doing so, and indeed a lot of insight to be gained: the fact
-that $D_2$ consists of two copies of $A_1$ corresponds to the isomorphism
+that $\mathrm{D}_2$ consists of two copies of $\mathrm{A}_1$ corresponds to the isomorphism
 $$\mathfrak{so}(4) = \mathfrak{su}(2) \oplus \mathfrak{su}(2),$$
-while the fact that $D_3$ is the same as $A_3$ corresponds to the
+while the fact that $\mathrm{D}_3$ is the same as $\mathrm{A}_3$ corresponds to the
 isomorphism
 $$\mathfrak{so}(6) = \mathfrak{su}(4).$$
 
 Each of these could easily serve as the springboard for a very long and
 interesting discussion. However, I will refrain. Here let me simply note
 that you can always "fold" a Dynkin diagram using one of its
-symmetries, and if you do this to $D_4$ using triality you go from
+symmetries, and if you do this to $\mathrm{D}_4$ using triality you go from
 $$
   \begin{tikzpicture}
-    \node at (0,0) {$D_4$};
+    \node at (0,0) {$\mathrm{D}_4$};
     \node at (0.75,0) {$=$};
     \draw[thick] (1.5,0) node{$\bullet$} to (3,0) node {$\bullet$};
     \draw[thick] (3,0) to (4,1) node {$\bullet$};
@@ -503,7 +503,7 @@ $$
 down to
 $$
   \begin{tikzpicture}
-    \node at (0,0) {$G_2$};
+    \node at (0,0) {$\mathrm{G}_2$};
     \node at (0.75,0) {$=$};
     \draw[thick] (1.5,0) node{$\bullet$} to node[label=above:{6}]{} (3,0) node {$\bullet$};
   \end{tikzpicture}
@@ -511,11 +511,11 @@ $$
 (Here the number 6 means that the two roots are at an angle of $\pi/6$ from
 each other. People usually just draw a triple line to indicate this. The
 arrow points from the long root to the shorter root.) This corresponds
-to how $G_2$ is the subgroup of $\mathrm{Spin}(8)$ consisting of elements that are
+to how $\mathrm{G}_2$ is the subgroup of $\mathrm{Spin}(8)$ consisting of elements that are
 invariant under triality. You can also go from
 $$
   \begin{tikzpicture}
-    \node at (-1.5,0) {$E_6$};
+    \node at (-1.5,0) {$\mathrm{E}_6$};
     \node at (-0.75,0) {$=$};
     \draw[thick] (0,0) node{$\bullet$} to (1,0) node{$\bullet$} to (2,0) node{$\bullet$} to (3,0) node {$\bullet$} to (4,0) node {$\bullet$};
     \draw[thick] (2,0) to (2,1) node{$\bullet$};
@@ -524,18 +524,18 @@ $$
 down to
 $$
   \begin{tikzpicture}
-    \node at (-1.5,0) {$F_4$};
+    \node at (-1.5,0) {$\mathrm{F}_4$};
     \node at (-0.75,0) {$=$};
     \draw[thick] (0,0) node{$\bullet$} to (1,0) node{$\bullet$} to (2,0) node{$\bullet$} to (3,0) node {$\bullet$};
   \end{tikzpicture}
 $$
 by folding along the reflection symmetry. And Friedrich Knop told me a
-neat way to get triality symmetry *from* $F_4$, if you happen to have $F_4$
-around: the long roots of $F_4$ form a root system of type $D_4$, which
-defines an embedding of $\mathrm{Spin}(8)$ into the Lie group $F_4$ (more precisely,
+neat way to get triality symmetry *from* $\mathrm{F}_4$, if you happen to have $\mathrm{F}_4$
+around: the long roots of $\mathrm{F}_4$ form a root system of type $\mathrm{D}_4$, which
+defines an embedding of $\mathrm{Spin}(8)$ into the Lie group $\mathrm{F}_4$ (more precisely,
 the compact real form). On the other hand, the two short simple roots
-define an embedding of $\mathrm{SU}(3)$ in $F_4$. The Weyl group of $\mathrm{SU}(3)$ is $S_3$ and
-can be lifted to $\mathrm{SU}(3)$, so we have an $S_3$ subgroup of $F_4$. This acts by
+define an embedding of $\mathrm{SU}(3)$ in $\mathrm{F}_4$. The Weyl group of $\mathrm{SU}(3)$ is $S_3$ and
+can be lifted to $\mathrm{SU}(3)$, so we have an $S_3$ subgroup of $\mathrm{F}_4$. This acts by
 conjutation on the $\mathrm{Spin}(8)$ subgroup, implementing the triality
 symmetries!
 

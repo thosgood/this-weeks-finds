@@ -81,8 +81,8 @@ technical reasons, people don't call "simple".
 These simple Lie algebras were classified by the monumental work of
 Killing, Cartan and others, and the classification is strikingly simple:
 there are infinite series of "classical" Lie algebras of type $\mathfrak{su}(n)$,
-$\mathfrak{so}(n)$, and $\mathfrak{sp}(n)$, and five "exceptional" Lie algebras called $G_2$, $F_4$,
-$E_6$, $E_7$, and $E_8$. Believe it or not, there is a deep connection between
+$\mathfrak{so}(n)$, and $\mathfrak{sp}(n)$, and five "exceptional" Lie algebras called $\mathrm{G}_2$, $\mathrm{F}_4$,
+$\mathrm{E}_6$, $\mathrm{E}_7$, and $\mathrm{E}_8$. Believe it or not, there is a deep connection between
 the exceptional Lie algebras and the Platonic solids. But that is
 another story, one I barely know....
 

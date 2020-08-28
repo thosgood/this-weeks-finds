@@ -33,7 +33,7 @@ way, so I'll start there. Hopefully most of you know the concept of a
 example, the group $\mathbb{Z}_n$ (integers $\mod n$) has the presentation
 $\langle x \mid x^n\rangle$. This means, roughly, that we form all products of the
 "generator" $x$ and its inverse, and then mod out by the "relation"
-$x^n = 1$. A bit more interesting is the dihedral group $D_n$ of symmetries
+$x^n = 1$. A bit more interesting is the dihedral group $\mathrm{D}_n$ of symmetries
 of a regular $n$-gon, counting rotations and reflections, with
 presentation $\langle x,y \mid x^n, y^2, (xy)^2 \rangle$. Here $x$ corresponds to a
 clockwise rotation by $(1/n)$-th of a turn, and $y$ corresponds to a
@@ -201,7 +201,7 @@ So, to round off a long story, Quinn and Ivelini Bobtcheva are currently
 engaged in some rather massive computer calculations in order to
 actually explicitly obtain the data necessary to calculate in the TQFTs
 of this form. They have been looking at the groups $\mathrm{SL}(2)$, $\mathrm{SL}(3)$, $Sp(4)$
-and $G_2$ over $\mathbb{Z}_p$, where $p$ is small (up to 19 for the $\mathrm{SL}(2)$ case). They
+and $\mathrm{G}_2$ over $\mathbb{Z}_p$, where $p$ is small (up to 19 for the $\mathrm{SL}(2)$ case). They
 are finding some interesting stuff just by calculating the TQFT
 invariants of the 2-complexes corresponding to the presentations
 $\langle x \mid x^n \rangle$. (Note that $n = 0$ gives a space that's a wedge of a circle

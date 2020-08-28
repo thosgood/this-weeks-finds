@@ -4,7 +4,7 @@ Let me continue my reportage of what happened at the Mathematical
 Problems of Quantum Gravity workshop in Vienna. I will only write about
 quantum gravity aspects here. I had an interesting conversation with
 Bertram Kostant in which he explained to me the deep inner secrets of
-the exceptional Lie group $E_8$. However, my writeup of that has grown to
+the exceptional Lie group $\mathrm{E}_8$. However, my writeup of that has grown to
 the point where I will save it for some other week.
 
 By the way, my course on $n$-category theory is not over! I'm merely

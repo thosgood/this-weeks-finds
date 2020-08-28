@@ -184,7 +184,7 @@ from which other finite groups are made (although one has to specify
 *how* one gloms them together to get other groups). One of the
 remarkable achievements of this century is the classification of these
 simple groups. In addition to various infinite families of simple
-groups, like the alternating groups $A_n$ (consisting of even
+groups, like the alternating groups $\mathrm{A}_n$ (consisting of even
 permutations) there are a finite number of "sporadic" simple groups
 such as the Mathieu groups, the Fischer groups, the Suzuki groups, and,
 biggest of all, the Monster group, which has
@@ -234,7 +234,7 @@ Algebras and the Monster_, Academic Press, New York, 1988.
 Rather than attempt to describe this work, which I am not really
 qualified to do (not that that usually stops me!), I think I will finish
 up by describing a charming connection between the beloved icosahedron
-and a lattice in 8 dimensions that goes by the name of $E_8$. I'll be a
+and a lattice in 8 dimensions that goes by the name of $\mathrm{E}_8$. I'll be a
 bit more technical here.
 
 The group of rotational symmetries of the icosahedron is, as we have
@@ -270,7 +270,7 @@ and everything else that can be gotten by *even* permutations of the
 coordinates. (Check that there are 120 and that they are closed under
 multiplication!)
 
-Charming, but what does it have to do with $E_8$? Well, note that if we
+Charming, but what does it have to do with $\mathrm{E}_8$? Well, note that if we
 take all finite sums of elements of the double cover of $A_5$ we get a
 subring of the quaternions that Conway and Sloane calls the
 "icosians." Any icosian is of the form
@@ -291,17 +291,17 @@ setting
 $$|a + bI + cJ + dK|^2 = x + y.$$
 With respect to this norm, the icosians form a lattice that fits
 isometrically in 8-dimensional Euclidean space and is the famous one
-called $E_8$! $E_8$ is known to yield the densest lattice packing of
+called $\mathrm{E}_8$! $\mathrm{E}_8$ is known to yield the densest lattice packing of
 spheres in 8 dimensions, a fact that is not only useful for
 8-dimensional greengrocers, but also is apparently used in
 error-correcting codes in a number of commercially available modems! (If
-anyone knows *which* modems use $E_8$, let me know --- I might just buy
+anyone knows *which* modems use $\mathrm{E}_8$, let me know --- I might just buy
 one!) The density with which one can pack spheres in 8 dimensions using
-$E_8$, by the way, is $\pi^4/384$, or about $.2537$.
+$\mathrm{E}_8$, by the way, is $\pi^4/384$, or about $.2537$.
 
-Group theorists and some physicists, of course, will know that $E_8$ is
+Group theorists and some physicists, of course, will know that $\mathrm{E}_8$ is
 also the root lattice of the largest exceptional Lie group, also known
-as $E_8$. This appears as the gauge group in some string theories. While
+as $\mathrm{E}_8$. This appears as the gauge group in some string theories. While
 I find those string theories a bit baroque for my taste, there is
 clearly a lot of marvelous mathematics floating around here, and anyone
 who wants more might start with Conway and Sloane.
@@ -358,14 +358,14 @@ having 24 spheres touch the central sphere is rigid, so that only the
 
 The only other cases where the rolling spheres permutation problem
 appears to be solved is in dimensions 1 and 2 (boring), 8, and 24. I
-described the $E_8$ lattice in 8 dimensions in "This Week's Finds." In
+described the $\mathrm{E}_8$ lattice in 8 dimensions in "This Week's Finds." In
 the corresponding lattice packing, each sphere touches 240 others. This
 is, up to rotation, the *only* way to get 240 spheres to touch a central
 one in 8 dimensions. (Also, one cannot get *more* than 240 to touch the
 central one.) So the subgroup of $S_{240}$ that one can get by rolling 240
 spheres around a central one is precisely the "obvious" subgroup, that
-is, the subgroup of $\mathrm{SO}(8)$ that preserves the $E_8$ lattice. This turns
-out to be just the Weyl group of $E_8$, which has
+is, the subgroup of $\mathrm{SO}(8)$ that preserves the $\mathrm{E}_8$ lattice. This turns
+out to be just the Weyl group of $\mathrm{E}_8$, which has
 $$2^{14}\cdot 3^5\cdot 5^2\cdot 7 = 696729600$$
 elements.
 

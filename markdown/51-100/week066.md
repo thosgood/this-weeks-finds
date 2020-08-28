@@ -49,7 +49,7 @@ about how they are related to some other "exceptional structures" in
 mathematics, such as the icosahedron and the octonions. In physics,
 Witten has suggested that the correct theory of our universe might also
 be an exceptional structure of some sort. This idea has found some
-support in string theory, which uses the exceptional Lie group $E_8$ and
+support in string theory, which uses the exceptional Lie group $\mathrm{E}_8$ and
 other structures I'll mention a bit later. In a more hand-waving way,
 one may argue that the theory of our universe must be incredibly
 special, since out of all the theories we can write down, just this
@@ -98,7 +98,7 @@ $$
 $$
 elements. It is a kind of Mt. Everest of the sporadic groups, and all
 the routes to it I know involve a tough climb through all sorts of
-exceptional structures: $E_8$ (see ["Week 65"](#week65)), the Leech
+exceptional structures: $\mathrm{E}_8$ (see ["Week 65"](#week65)), the Leech
 lattice (see ["Week 20"](#week20)), the Golay code, the Parker
 loop, the Griess algebra, and more. I certainly don't understand this
 stuff....
@@ -175,7 +175,7 @@ where $q = \exp(2\pi i\tau)$. In fact, starting from a simple situation, we
 have quickly gotten into quite deep waters. The simplest explicit
 formula I know for $j$ involves lattices in 24-dimensional space! This
 could easily be due to my limited knowledge of this stuff, but it suits
-my present purpose: first, we get a vague glimpse of where $E_8$ and the
+my present purpose: first, we get a vague glimpse of where $\mathrm{E}_8$ and the
 Leech lattice come in, and second, we get a vague glimpse of the
 mysterious significance of the numbers 24 and 26 in string theory.
 
@@ -183,11 +183,11 @@ So what is this $j$ function, anyway? Well, it turns out we can define it
 as follows. First form the Dedekind eta function
 $$\eta(q) = q^{\frac{1}{24}}\prod_{n=1}^\infty(1-q^n).$$
 This is not invariant under the modular group, but it transforms in a
-pretty simple way. Then take the $E_8$ lattice --- remember, that's a very
+pretty simple way. Then take the $\mathrm{E}_8$ lattice --- remember, that's a very
 nice lattice in 8 dimensions, in fact the only "even unimodular"
 lattice in 8 dimensions, meaning that the inner product of any two
 vectors in the lattice is even, and the volume of each fundamental
-domain in it equals $1$. Now take the direct sum of 3 copies of $E_8$ to
+domain in it equals $1$. Now take the direct sum of 3 copies of $\mathrm{E}_8$ to
 get an even unimodular lattice $L$ in 24 dimensions. Then form the theta
 function
 $$\theta(q) = \sum_{x\in L}q^{\langle x,x\rangle/2}.$$

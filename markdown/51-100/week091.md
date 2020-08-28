@@ -92,7 +92,7 @@ literature, in particular:
 
 and
 
-2) Frank D. (Tony) Smith, "Sets and $C^n$; quivers and $A$-$D$-$E$; triality; generalized supersymmetry; and $D_4$-$D_5$-$E_6$", preprint available as [`hep-th/9306011`](http://xxx.lanl.gov/abs/hep-th/9306011).
+2) Frank D. (Tony) Smith, "Sets and $C^n$; quivers and $A$-$D$-$E$; triality; generalized supersymmetry; and $D_4$-$D_5$-$\mathrm{E}_6$", preprint available as [`hep-th/9306011`](http://xxx.lanl.gov/abs/hep-th/9306011).
 
 But I've never quite seen anyone come right out and admit that triality
 arises from the permutations of the unit vectors $i$, $j$, and $k$ in 3d
@@ -106,7 +106,7 @@ you name it! --- on his home page:
 
 He engages in more free association than is normally deemed proper in
 scientific literature --- you may raise your eyebrows at sentences like
-"the Tarot shows the Lie algebra structure of the $D_4$-$D_5$-$E_6$ model, while
+"the Tarot shows the Lie algebra structure of the $D_4$-$D_5$-$\mathrm{E}_6$ model, while
 the I Ching shows its Clifford algebra structure" --- but don't be
 fooled; his mathematics is solid. When it comes to the physics, I'm not
 sure I buy his theory of everything, but that's not unusual: I don't
@@ -114,38 +114,38 @@ think I buy *anyone's* theory of everything!
 
 Let me wrap up by passing on something he told me about triality and the
 exceptional groups. In ["Week 90"](#week90) I described how you
-could get the Lie groups $G_2$, $F_4$ and $E_8$ from triality. I didn't know how
-$E_6$ and $E_7$ fit into the picture. He emailed me, saying:
+could get the Lie groups $\mathrm{G}_2$, $\mathrm{F}_4$ and $\mathrm{E}_8$ from triality. I didn't know how
+$\mathrm{E}_6$ and $\mathrm{E}_7$ fit into the picture. He emailed me, saying:
 
 > "Here is a nice way: Start with $D_4 = \mathrm{Spin}(8)$:
 >
 > $$28 =  28  +   0  +   0  +   0  +   0  +   0  +   0$$
 >
-> Add spinors and vector to get $F_4$:
+> Add spinors and vector to get $\mathrm{F}_4$:
 >
 > $$52 =  28  +   8  +   8  +   8  +   0  +   0  +   0$$
 >
-> Now, "complexify" the $8+8+8$ part of $F_4$ to get $E_6$:
+> Now, "complexify" the $8+8+8$ part of $\mathrm{F}_4$ to get $\mathrm{E}_6$:
 >
 > $$78 =  28  +  16  +  16  +  16  +   1  +   0  +   1$$
 >
-> Then, "quaternionify" the $8+8+8$ part of $F_4$ to get $E_7$:
+> Then, "quaternionify" the $8+8+8$ part of $\mathrm{F}_4$ to get $\mathrm{E}_7$:
 >
 > $$133 =  28  +  32  +  32  +  32  +   3  +   3  +   3$$
 >
-> Finally, "octonionify" the $8+8+8$ part of $F_4$ to get $E_8$:
+> Finally, "octonionify" the $8+8+8$ part of $\mathrm{F}_4$ to get $\mathrm{E}_8$:
 >
 > $$248 =  28  +  64  +  64  +  64  +   7  +  14  +   7$$
 >
-> This way shows you that the "second" $\mathrm{Spin}(8)$ in $E_8$ breaks down as
-> $28 = 7 + 14 + 7$ which is globally like two 7-spheres and a $G_2$, one $S_7$ for
-> left-action, one for right-action, and a $G_2$ automorphism group of
+> This way shows you that the "second" $\mathrm{Spin}(8)$ in $\mathrm{E}_8$ breaks down as
+> $28 = 7 + 14 + 7$ which is globally like two 7-spheres and a $\mathrm{G}_2$, one $S_7$ for
+> left-action, one for right-action, and a $\mathrm{G}_2$ automorphism group of
 > octonions that is needed to for "compatibility" of the two $S_7$s. The
-> $3+3+3$ of $E_7$, the $1+0+1$ of $E_6$, and the $0+0+0$ of $F_4$ and $D_4$ are the
+> $3+3+3$ of $\mathrm{E}_7$, the $1+0+1$ of $\mathrm{E}_6$, and the $0+0+0$ of $\mathrm{F}_4$ and $D_4$ are the
 > quaternionic, complex, and real analogues of the $7+14+7$."
 
 When I asked him where he got this, he said he cooked it up himself
-using the construction of $E_8$ that I learned from Kostant together with
+using the construction of $\mathrm{E}_8$ that I learned from Kostant together with
 the Freudenthal-Tits magic square. He gave some references for the
 latter:
 

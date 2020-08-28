@@ -56,8 +56,8 @@ other hand, are supersymmetric and live in 10- dimensional spacetime. It
 sounds not merely heterotic, but downright schizophrenic! But in fact,
 the 26-dimensional spacetime can also thought of as being
 10-dimensional, with 16 extra "curled-up dimensions" in the shape of a
-torus. This torus has two possible shapes: $\mathbb{R}^16$ modulo the $E_8 \times E_8$
-lattice or the $D_{16}^*$ lattice. (For some of the wonders of $E_8$ and other
+torus. This torus has two possible shapes: $\mathbb{R}^16$ modulo the $\mathrm{E}_8 \times \mathrm{E}_8$
+lattice or the $D_{16}^*$ lattice. (For some of the wonders of $\mathrm{E}_8$ and other
 lattices, check out ["Week 64"](#week64) and
 ["Week 65"](#week65). The $D_{16}^*$ lattice is related to the $D_{16}$
 lattice described in those Weeks, but not quite the same.)
@@ -103,7 +103,7 @@ M-theory:
 > coupling limit of Type IIA string theory in ten-dimensions is
 > equivalent to the low-energy limit of M-Theory on a "large" $S^1$. In
 > the paper of Witten and Horava, they establish that the strong
-> coupling limit of the ten-dimensional $E_8 \times E_8$ Heterotic string theory
+> coupling limit of the ten-dimensional $\mathrm{E}_8 \times \mathrm{E}_8$ Heterotic string theory
 > is equivalent to M-Theory on a "large" $S^1/\mathbb{Z}_2$.
 >
 > Recently, Witten, motivated by Dasgupta and Mukhi, examined M-Theory
@@ -117,7 +117,7 @@ M-theory:
 > As stated above, M-Theory on a "large" $S^1$ is equivalent to a
 > strongly coupled Type IIA string theory in ten-dimensions. Also,
 > M-theory on a "large" $S^1/\mathbb{Z}_2$ is equivalent to a strongly coupled
-> $E_8 \times E_8$ Heterotic string theory in ten dimensions. However, the
+> $\mathrm{E}_8 \times \mathrm{E}_8$ Heterotic string theory in ten dimensions. However, the
 > string-string duality conjecture in six dimensions states that the
 > strongly coupled limit of a Heterotic string theory in six dimensions
 > on a four-torus is equivalent to a weakly coupled Type II string
@@ -129,7 +129,7 @@ M-theory:
 > of M-Theory on a "large" $S^1$, the low energy limit of M-Theory on
 > $S^1 \times K3$ should be equivalent to a weakly coupled Heterotic string
 > theory on a four-torus by way of six-dimensional string-string
-> duality. Similarly, as a strongly coupled $E_8 \times E_8$ Heterotic string
+> duality. Similarly, as a strongly coupled $\mathrm{E}_8 \times \mathrm{E}_8$ Heterotic string
 > theory in ten-dimensions is equivalent to the low energy limit of
 > M-Theory on a "large" $S^1/\mathbb{Z}_2$, the low energy limit of M-Theory on
 > $S^1/\mathbb{Z}_2 \times T^4$ should be equivalent to a weakly coupled Type II

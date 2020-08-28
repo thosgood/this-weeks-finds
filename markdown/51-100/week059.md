@@ -198,17 +198,17 @@ Here we add and multiply $\mod 7$. Index doubling corresponds to rotating
 the Fano plane.
 
 So those are the octonions in a nutshell. I should say a bit about how
-they relate to triality for $\mathrm{SO}(8)$, the exceptional Lie group $G_2$, the
+they relate to triality for $\mathrm{SO}(8)$, the exceptional Lie group $\mathrm{G}_2$, the
 group $\mathrm{SU}(3)$ which is so important in the study of the strong force, and
-to lattices like $E_8$, $\Lambda 16$ and the Leech lattice. But I will postpone
+to lattices like $\mathrm{E}_8$, $\Lambda 16$ and the Leech lattice. But I will postpone
 that; for now you can consult Fulton and Harris, and also various papers
 by Dixon:
 
 3) Geoffrey Dixon, "Octonion X-product orbits", preprint available as [`hep-th/9410202`](http://xxx.lanl.gov/abs/hep-th/9410202).
 
-    "Octonion X-product and E_8 lattices", preprint available as [`hep-th/9411063`](http://xxx.lanl.gov/abs/hep-th/9411063).
+    "Octonion X-product and \mathrm{E}_8 lattices", preprint available as [`hep-th/9411063`](http://xxx.lanl.gov/abs/hep-th/9411063).
 
-    "Octonions: $E_8$ lattice to $\Lambda 16$", preprint available as [`hep-th/9501007`](http://xxx.lanl.gov/abs/hep-th/9501007).
+    "Octonions: $\mathrm{E}_8$ lattice to $\Lambda 16$", preprint available as [`hep-th/9501007`](http://xxx.lanl.gov/abs/hep-th/9501007).
 
     "Octonions: invariant representation of the Leech lattice", preprint available as [`hep-th/9504040`](http://xxx.lanl.gov/abs/hep-th/9504040).
 
@@ -225,7 +225,7 @@ of packing spheres in n dimensions. Most of the results so far concern
 lattice packings, packings in which the centers of the spheres form a
 subset of $\mathbb{R}^n$ closed under addition and scalar multiplication by
 integers. When $n = 8$, the densest known packing is given by the
-so-called $E_8$ lattice. In ["Week 20"](#week20) I described how to
+so-called $\mathrm{E}_8$ lattice. In ["Week 20"](#week20) I described how to
 get this lattice using the quaternions and the icosahedron. Briefly, it
 goes as follows. The group of rotational symmetries of the icosahedron
 (not counting reflections) is a subgroup of the rotation group $\mathrm{SO}(3)$
@@ -242,7 +242,7 @@ form
 $$(a + \sqrt{5} b) + (c + \sqrt{5} d)i + (e + \sqrt{5} f)j + (g + \sqrt{5} h)k$$
 with $a,b,c,d,e,f,g,h$ rational --- but not all rational values of $a,\ldots,h$
 give icosians. The set of all vectors $x = (a,b,c,d,e,f,g,h)$ in $\mathbb{R}^8$ that
-correspond to icosians in this way is the $E_8$ lattice!
+correspond to icosians in this way is the $\mathrm{E}_8$ lattice!
 
 The Leech lattice is the densest known packing in 24 dimensions. It has
 all sorts of remarkable properties. Here is an easy way to get ones

@@ -85,7 +85,7 @@ showed that it is an connected sum of copies of $\mathbb{CP}^2$ and $-\mathbb{CP
 intersection form is even, we don't know yet, but if the "11/8
 conjecture" is true, it must be a connected sum of $K3$'s and $S^2 \times S^2$'s.
 Here I cannot resist adding that $K3$ is a 4-manifold whose
-intersection is $E_8 \oplus E_8 \oplus H \oplus H \oplus H$, where $H$ is the $2\times2$ matrix
+intersection is $\mathrm{E}_8 \oplus \mathrm{E}_8 \oplus H \oplus H \oplus H$, where $H$ is the $2\times2$ matrix
 $$
   \left(
     \begin{array}{cc}
@@ -93,9 +93,9 @@ $$
     \end{array}
   \right)
 $$
-and $E_8$ is the nondegenerate symmetric $8\times8$ matrix describing the inner
-products of vectors in the wonderful lattice, also called $E_8$, which I
-discussed in ["Week 65"](#week65)! So $E_8$ raises its ugly head yet
+and $\mathrm{E}_8$ is the nondegenerate symmetric $8\times8$ matrix describing the inner
+products of vectors in the wonderful lattice, also called $\mathrm{E}_8$, which I
+discussed in ["Week 65"](#week65)! So $\mathrm{E}_8$ raises its ugly head yet
 again.... By the way, $H$ is just the intersection form of $S^2 \times S^2$,
 while the intersection form of $\mathbb{CP}^2$ is just the $1\times1$ matrix $(1)$.
 

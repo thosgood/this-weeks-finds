@@ -89,7 +89,7 @@ finite subgroups of $\mathrm{SO}(3)$ having irreducible representations on $\mat
 And they are nice examples of finite reflection groups. For more about
 them from this viewpoint, try ["Week 62"](#week62) and
 ["Week 63"](#week63). Also, via the McKay correspondence they
-correspond to the exceptional Lie groups $E_6$, $E_7$, and $E_8$ --- see
+correspond to the exceptional Lie groups $\mathrm{E}_6$, $\mathrm{E}_7$, and $\mathrm{E}_8$ --- see
 ["Week 65"](#week65) for an explanation of this!
 
 Yet another interesting fact about these groups is buried in Galois'

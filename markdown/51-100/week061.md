@@ -13,7 +13,7 @@ reference is the book by Fulton and Harris that I mentioned in
 describe triality and how to use it to get the octonions. I learned some
 of this stuff from:
 
-1) Alex J. Feingold, Igor B. Frenkel, and John F. X. Rees, _Spinor construction of vertex operator algebras, triality, and $E_8^{(1)}$_, Contemp. Math. **121**, AMS, Providence Rhode Island.
+1) Alex J. Feingold, Igor B. Frenkel, and John F. X. Rees, _Spinor construction of vertex operator algebras, triality, and $\mathrm{E}_8^{(1)}$_, Contemp. Math. **121**, AMS, Providence Rhode Island.
 
 I should emphasize, however, that what I will talk about is older, while
 the above book starts with triality and then does far more sophisticated

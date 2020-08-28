@@ -21,19 +21,19 @@ Now, not all of these diagrams correspond to finite reflection groups.
 The following ones, together with disjoint unions of them, are all the
 possibilities.
 
-> $A_n$, which has $n$ dots like this:
+> $\mathrm{A}_n$, which has $n$ dots like this:
 > $$
 >   \begin{tikzpicture}
 >     \draw[thick] (0,0) node{$\bullet$} to (1,0) node{$\bullet$} to (2,0) node {$\bullet$} to (4,0) node{$\bullet$};
 >   \end{tikzpicture}
 > $$
-> $B_n$, which has $n$ dots, where $n > 1$:
+> $\mathrm{B}_n$, which has $n$ dots, where $n > 1$:
 > $$
 >   \begin{tikzpicture}
 >     \draw[thick] (0,0) node{$\bullet$} to (1,0) node{$\bullet$} to (2,0) node{$\bullet$} to node[label=above:{4}]{} (3,0) node {$\bullet$};
 >   \end{tikzpicture}
 > $$
-> $D_n$, which has $n$ dots, where $n > 3$:
+> $\mathrm{D}_n$, which has $n$ dots, where $n > 3$:
 > $$
 >   \begin{tikzpicture}
 >     \draw[thick] (0,0) node{$\bullet$} to (1,0) node{$\bullet$} to (2,0) node{$\bullet$} to (3,0) node {$\bullet$};
@@ -41,7 +41,7 @@ possibilities.
 >     \draw[thick] (3,0) to (4,-1) node {$\bullet$};
 >   \end{tikzpicture}
 > $$
-> $E_6$, $E_7$, and $E_8$:
+> $\mathrm{E}_6$, $\mathrm{E}_7$, and $\mathrm{E}_8$:
 > $$
 >   \begin{gathered}
 >     \begin{tikzpicture}
@@ -59,13 +59,13 @@ possibilities.
 >     \end{tikzpicture}
 >   \end{gathered}
 > $$
-> $F_4$:
+> $\mathrm{F}_4$:
 > $$
 >   \begin{tikzpicture}
 >     \draw[thick] (0,0) node{$\bullet$} to (1,0) node{$\bullet$} to node[label=above:{4}]{} (2,0) node{$\bullet$} to (3,0) node {$\bullet$};
 >   \end{tikzpicture}
 > $$
-> $G_2$:
+> $\mathrm{G}_2$:
 > $$
 >   \begin{tikzpicture}
 >     \draw[thick] (0,0) node{$\bullet$} to node[label=above:{6}]{} (1,0) node{$\bullet$};
@@ -81,7 +81,7 @@ possibilities.
 >   \draw[thick] (0,0) node{$\bullet$} to node[label=above:{5}]{} (1,0) node{$\bullet$} to (2,0) node{$\bullet$} to (3,0) node {$\bullet$};
 > \end{tikzpicture}
 > $$
-> $I_m$, where $m = 5$ or $m > 6$:
+> $\mathrm{I}_m$, where $m = 5$ or $m > 6$:
 > $$
 >   \begin{tikzpicture}
 >     \draw[thick] (0,0) node{$\bullet$} to node[label=above:{$m$}]{} (1,0) node{$\bullet$};
@@ -89,7 +89,7 @@ possibilities.
 > $$
 
 
-Recall that $I_m$ is the symmetry group of the of regular $m$-gon, while
+Recall that $\mathrm{I}_m$ is the symmetry group of the of regular $m$-gon, while
 others of these are the symmetry groups of Platonic solids, and still
 others are symmetry groups of regular polytopes in $n$-dimensional space.
 For example, the symmetry group of the dodecahedron is $H_3$, while that
@@ -132,11 +132,11 @@ reflection group, we can look for a lattice having it as symmetries. If
 one exists, we say the group satisfies the "crystallographic
 condition". The only ones that do are
 
-$$\mbox{$A_n$, $B_n$, $D_n$, $E_6$, $E_7$, $E_8$, $F_4$, and $G_2$}$$
+$$\mbox{$\mathrm{A}_n$, $\mathrm{B}_n$, $\mathrm{D}_n$, $\mathrm{E}_6$, $\mathrm{E}_7$, $\mathrm{E}_8$, $\mathrm{F}_4$, and $\mathrm{G}_2$}$$
 
 (and those corresponding to disjoint unions of these diagrams). In other
 words, the symmetry groups of the pentagon ($I_5$), the heptagon and so
-on ($I_m$ with $m > 6$), and the dodecahedron and its 4-dimensional
+on ($\mathrm{I}_m$ with $m > 6$), and the dodecahedron and its 4-dimensional
 relative ($H_3$ and $H_4$) are ruled out.
 
 Now let us turn to the theory of Lie groups. Lie groups are the most
@@ -232,7 +232,7 @@ diagrams, so to get the "building blocks" --- the *simple* Lie algebras
 --- we only need to worry about the diagrams we've drawn above, not
 disjoint unions of them. Now it turns out that for every type except $B$,
 there is (up to isomorphism) only *one* lattice having that group of
-symmetries, but for $B$ there are two. Recall the diagram $B_n$ looks like:
+symmetries, but for $B$ there are two. Recall the diagram $\mathrm{B}_n$ looks like:
 $$
   \begin{tikzpicture}
     \draw[thick] (0,0) node{$\bullet$} to (1,0) node{$\bullet$} to (2,0) node{$\bullet$} to node[label=above:{4}]{} (3,0) node {$\bullet$};
@@ -247,7 +247,7 @@ necessarily roots that are unit vectors; the lengths of the roots
 matter. In all cases except $B$, there is basically just one way to get
 the lengths right, but for $B$ there are two. We can keep track of the
 root lengths with some extra markings on our diagrams, and then we get
-two diagrams, which we call $B_n$ and $C_n$. One of them has the root at
+two diagrams, which we call $\mathrm{B}_n$ and $\mathrm{C}_n$. One of them has the root at
 the right of the diagram being longer, and one has the root right next
 to it being longer. This makes no difference when $n = 2$, since then we
 just have
@@ -256,18 +256,18 @@ $$
     \draw[thick] (0,0) node{$\bullet$} to node[label=above:{4}]{} (1,0) node {$\bullet$};
   \end{tikzpicture}
 $$
-which is perfectly symmetrical. So folks usually consider $C_n$ only for
+which is perfectly symmetrical. So folks usually consider $\mathrm{C}_n$ only for
 $n > 2$, to avoid double counting.
 
 In other words, all the simple Lie algebras are of the form:
 
-- $A_n$, $n > 0$
-- $B_n$, $n > 1$
-- $C_n$, $n > 2$
-- $D_n$, $n > 3$
-- $E_6$, $E_7$, $E_8$
-- $F_4$
-- $G_2$
+- $\mathrm{A}_n$, $n > 0$
+- $\mathrm{B}_n$, $n > 1$
+- $\mathrm{C}_n$, $n > 2$
+- $\mathrm{D}_n$, $n > 3$
+- $\mathrm{E}_6$, $\mathrm{E}_7$, $\mathrm{E}_8$
+- $\mathrm{F}_4$
+- $\mathrm{G}_2$
 
 Okay, so what *are* these things, really? What do they *mean*, and what
 are the implications of the fact that the symmetries of the forces of
@@ -276,7 +276,7 @@ infinite series of them and 5 "exceptional" Lie algebras? What's so
 special about A, D, and E, that makes people keep talking about "ADE
 classifications"? What do the exceptional Lie algebras (and their
 corresponding Lie groups) have to do with octonions? Why do some string
-theorists think the symmetry group of nature is $E_8$, the largest
+theorists think the symmetry group of nature is $\mathrm{E}_8$, the largest
 exceptional Lie group???
 
 Well, I'm afraid that I'm going camping in a couple of hours, so I'll

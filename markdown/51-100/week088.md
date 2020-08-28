@@ -257,4 +257,4 @@ simple to ponder:
     space from Chris Isham. I had some nice talks with Isham and his
     students on quantum gravity and the decoherent histories approach to
     quantum mechanics. I'll say a bit about this in a while, but next Week
-    I am going to talk about triality and the secret inner meaning of $E_8$.
+    I am going to talk about triality and the secret inner meaning of $\mathrm{E}_8$.

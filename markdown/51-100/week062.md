@@ -154,7 +154,7 @@ reflection group.
 
 However, not every diagram we draw yields a finite group! Here are all
 the possible Coxeter diagrams giving finite groups. They have names.
-First there is $A_n$, which has $n$ dots like this:
+First there is $\mathrm{A}_n$, which has $n$ dots like this:
 $$
   \begin{tikzpicture}
     \draw[thick] (0,0) node{$\bullet$} to (1,0) node{$\bullet$} to (2,0) node {$\bullet$} to (4,0) node{$\bullet$};
@@ -163,20 +163,20 @@ $$
 For example, the group of symmetries of the equilateral triangle is
 $A_2$. The two dots can correspond to the reflections $r$ and $s$ through two
 of the altitudes of the triangle, which are at an angle of $\pi/3$ from each
-other. Thus they satisfy $(rs)^3 = 1$. More generally, $A_n$ corresponds
+other. Thus they satisfy $(rs)^3 = 1$. More generally, $\mathrm{A}_n$ corresponds
 to the group of symmetries of an $n$-dimensional simplex --- which is just
 the group of permutations of the $n+1$ vertices.
 
-Then there is $B_n$, which has $n$ dots, where $n > 1$:
+Then there is $\mathrm{B}_n$, which has $n$ dots, where $n > 1$:
 $$
   \begin{tikzpicture}
     \draw[thick] (0,0) node{$\bullet$} to (1,0) node{$\bullet$} to (2,0) node{$\bullet$} to node[label=above:{4}]{} (3,0) node {$\bullet$};
   \end{tikzpicture}
 $$
-It has just one edge labelled with a 4. $B_n$ turns out to be the group
+It has just one edge labelled with a 4. $\mathrm{B}_n$ turns out to be the group
 of symmetries of a hypercube or hyperoctahedron in $n$ dimensions.
 
-Then there is $D_n$, where $n > 3$:
+Then there is $\mathrm{D}_n$, where $n > 3$:
 $$
   \begin{tikzpicture}
     \draw[thick] (0,0) node{$\bullet$} to (1,0) node{$\bullet$} to (2,0) node{$\bullet$} to (3,0) node {$\bullet$};
@@ -184,7 +184,7 @@ $$
     \draw[thick] (3,0) to (4,-1) node {$\bullet$};
   \end{tikzpicture}
 $$
-Then there are $E_6$, $E_7$, and $E_8$:
+Then there are $\mathrm{E}_6$, $\mathrm{E}_7$, and $\mathrm{E}_8$:
 $$
   \begin{gathered}
     \begin{tikzpicture}
@@ -205,13 +205,13 @@ $$
 Interestingly, this series does *not* go on. That's what I meant about
 "classical" versus "exceptional" structures.
 
-Then there is $F_4$:
+Then there is $\mathrm{F}_4$:
 $$
   \begin{tikzpicture}
     \draw[thick] (0,0) node{$\bullet$} to (1,0) node{$\bullet$} to node[label=above:{4}]{} (2,0) node{$\bullet$} to (3,0) node {$\bullet$};
   \end{tikzpicture}
 $$
-Then there's $G_2$:
+Then there's $\mathrm{G}_2$:
 $$
   \begin{tikzpicture}
     \draw[thick] (0,0) node{$\bullet$} to node[label=above:{6}]{} (1,0) node{$\bullet$};
@@ -236,7 +236,7 @@ it itself *is* a group in a very natural way. There are no
 "hypericosahedra" or "hyperdodecahedra" in dimensions greater than
 4, which is related to the fact that the $H$ series quits at this point.
 
-Finally, there is another infinite series, $I_m$:
+Finally, there is another infinite series, $\mathrm{I}_m$:
 $$
   \begin{tikzpicture}
     \draw[thick] (0,0) node{$\bullet$} to node[label=above:{$m$}]{} (1,0) node{$\bullet$};
