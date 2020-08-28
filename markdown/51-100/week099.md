@@ -299,14 +299,14 @@ space eats two vectors v and w and spits out a complex number
 Similarly, given two objects v and w in a category, the hom functor
 gives a *set*
 
-hom(x,y)
+\operatorname{Hom}(x,y)
 
 namely the set of morphisms from x to y. Note that the inner product
 \<v,w\> is linear in w and conjugate-linear in y, and similarly, the hom
-functor hom(x,y) is covariant in y and contravariant in x. This hints at
+functor \operatorname{Hom}(x,y) is covariant in y and contravariant in x. This hints at
 the category theory secretly underlying quantum mechanics. In quantum
 theory the inner product \<v,w\> represents the *amplitude* to pass from
-v to w, while in category theory hom(x,y) is the *set* of ways to get
+v to w, while in category theory \operatorname{Hom}(x,y) is the *set* of ways to get
 from x to y. In Feynman path integrals, we do an integral over the set
 of ways to get from here to there, and get a number, the amplitude to
 get from here to there. So when physicists do Feynman path integration -
@@ -330,7 +330,7 @@ that this sort of adjoint is just a decategorified version of the
 ["Week 79"](#week79), a functor F\*: D \to C is a "right adjoint"
 of F: C \to D if there is, not an equation, but a natural isomorphism
 
-hom(Fc,d) \~ hom(c,F\*d)
+\operatorname{Hom}(Fc,d) \~ \operatorname{Hom}(c,F\*d)
 
 for all objects c in C, and d in D.
 

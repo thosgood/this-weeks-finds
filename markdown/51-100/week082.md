@@ -181,7 +181,7 @@ Here the authors refine this construction. They cook up a category C
 from the Morse function: the objects of C are critical points of the
 Morse function, and the morphisms are piecewise gradient flow lines.
 This is a topological category, meaning that for any pair of objects x
-and y the morphisms in hom(x,y) form a topological space, and
+and y the morphisms in \operatorname{Hom}(x,y) form a topological space, and
 composition is a continuous map. There is a standard recipe to construct
 the "classifying space" of any topological category, invented by Segal
 in the following paper:
@@ -203,7 +203,7 @@ composable pair of morphisms:
       x--fg---z
 
 and so on. The only new trick is to make sure this space gets a topology
-in the right way using the topologies on the spaces hom(x,y).
+in the right way using the topologies on the spaces \operatorname{Hom}(x,y).
 
 Anyway, if we form this classifying space from the topological category
 C coming from the Morse function on our manifold M, we get a space

@@ -173,9 +173,9 @@ this is one way group theory entered chemistry in the first place.)
 
 Now let me return to the tale of adjoint functors! I have been
 stressing the fact that two functors L: C \to D and R: D \to C are adjoint
-if there is a natural isomorphism between hom(Lc,d) and hom(c,Rd). We
+if there is a natural isomorphism between \operatorname{Hom}(Lc,d) and \operatorname{Hom}(c,Rd). We
 can say that an "adjunction" is a pair of functors L: C \to D and R: D \to
-C together with a natural isomorphism between hom(Lc,d) and hom(c,Rd).
+C together with a natural isomorphism between \operatorname{Hom}(Lc,d) and \operatorname{Hom}(c,Rd).
 But there is another way to think about adjunctions which is also
 good.
 
@@ -191,9 +191,9 @@ a cousin of the concept of "equivalence", and it's nice to have a
 definition of adjunction that brings out this relationship.
 
 First, consider what happens in the definition of adjunction if we take
-c = Rd. Then we have a natural isomorphism between hom(LRd,d) and
-hom(Rd,Rd). Now there is a special element of hom(Rd,Rd), namely the
-identity 1~Rd~. This gives us a special element of hom(LRd,d). Let's
+c = Rd. Then we have a natural isomorphism between \operatorname{Hom}(LRd,d) and
+\operatorname{Hom}(Rd,Rd). Now there is a special element of \operatorname{Hom}(Rd,Rd), namely the
+identity 1~Rd~. This gives us a special element of \operatorname{Hom}(LRd,d). Let's
 call this
 
 e~d~: LRd \to d
@@ -212,9 +212,9 @@ adjunction the morphisms e~d~ define a natural transformation
 e: LR =\> 1~D~
 
 Next, consider what happens in the definition of adjunction if we take d
-= Lc. Then we have a natural isomorphism between hom(c,RLc) and
-hom(Lc,Lc). Now there is a special element in hom(Lc,Lc), namely the
-identity 1~Lc~. This gives us a special element in hom(c,RLc). Let's
+= Lc. Then we have a natural isomorphism between \operatorname{Hom}(c,RLc) and
+\operatorname{Hom}(Lc,Lc). Now there is a special element in \operatorname{Hom}(Lc,Lc), namely the
+identity 1~Lc~. This gives us a special element in \operatorname{Hom}(c,RLc). Let's
 call this
 
 i~c~: c \to RLc

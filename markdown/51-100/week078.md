@@ -12,7 +12,7 @@ So, remember the idea of adjoint functors. Say we have categories C and
 D and functors L: C \to D and R: D \to C. Then we say L is the "left
 adjoint" of R, or that R is the "right adjoint" of L, if for any
 object c of C and object d of D, there is a natural one-to-one
-correspondence between hom(Lc,d) and hom(c,Rd). An example to keep in
+correspondence between \operatorname{Hom}(Lc,d) and \operatorname{Hom}(c,Rd). An example to keep in
 mind is when C is the category of sets and D is the category of groups.
 Then L turns any set into the free group on that set, while R turns any
 group into the underlying set of that group. All sorts of other "free"
@@ -69,7 +69,7 @@ isomorphisms.
 
 Okay. Hopefully that explains the idea of "naturality" a bit better.
 But right now we are trying to figure out what we mean by saying that
-hom(Lc,d) and hom(c,Rd) are naturally isomorphic. To do this, we need to
+\operatorname{Hom}(Lc,d) and \operatorname{Hom}(c,Rd) are naturally isomorphic. To do this, we need to
 introduce a couple more ideas: the product of categories, and the
 opposite of a category.
 
@@ -94,41 +94,41 @@ should suspect an opposite category is to blame.
 Now, it turns out that we can think of the "hom" in a category C as a
 functor
 
-hom(-,-): C^op^ × C \to Set
+\operatorname{Hom}(-,-): C^op^ × C \to Set
 
 Here the -'s denote blanks to be filled in. Obviously, for any object
-(x,x') in C^op^ × C, there is a nice juicy set hom(x,x'), the set of
+(x,x') in C^op^ × C, there is a nice juicy set \operatorname{Hom}(x,x'), the set of
 all morphisms from × to x'. But what if we have a morphism
 
 (f,f'): (x,x') \to (y,y')
 
-in C^op^ × C? For hom(-,-) to be a functor, we should get a nice juicy
+in C^op^ × C? For \operatorname{Hom}(-,-) to be a functor, we should get a nice juicy
 function
 
-hom(f,f'): hom(x,x') \to hom(y,y').
+\operatorname{Hom}(f,f'): \operatorname{Hom}(x,x') \to \operatorname{Hom}(y,y').
 
 How does this work? Well, remember that a morphism (f,f') as above is
 really just a pair consisting of a morphism f: × \to y in C^op^ and a
 morphism f': x' \to y' in C. A morphism f: × \to y in C^op^ is just a
 morphism f: y \to × in C. Now say we have an unsuspecting element g of
-hom(x,x') and we want to hit it with hom(f,f') to get something in
-hom(y,y'). Here's how we do it:
+\operatorname{Hom}(x,x') and we want to hit it with \operatorname{Hom}(f,f') to get something in
+\operatorname{Hom}(y,y'). Here's how we do it:
 
-hom(f,f'): g \|\to f'gf
+\operatorname{Hom}(f,f'): g \|\to f'gf
 
 We compose it with f' on the left and f on the right! Composing on the
 left is a nice covariant thing to do, but composing on the right is
 contravariant, which is why we needed the opposite category C^op^.
 
 Okay, now back to our adjoint functors L: C \to D and R: D \to C. Now we are
-ready to say what we mean by hom(Lc,d) and hom(c,Rd) being naturally
+ready to say what we mean by \operatorname{Hom}(Lc,d) and \operatorname{Hom}(c,Rd) being naturally
 isomorphic. Using the stuff we have set up, we can define two functors
 
-hom(L-,-): C^op^ × D \to Sets
+\operatorname{Hom}(L-,-): C^op^ × D \to Sets
 
 and
 
-hom(-,R-): C^op^ × D \to Sets
+\operatorname{Hom}(-,R-): C^op^ × D \to Sets
 
 and we are simply saying that for L and R to be adjoints, we demand the
 existence of a natural isomorphism between these functors!
@@ -141,7 +141,7 @@ Now let me start explaining what this all has to do with quantum theory.
 (I'll put off the topology until next Week.) First of all, the "hom
 functor" we introduced,
 
-hom(-,-): C^op^ × C \to Set
+\operatorname{Hom}(-,-): C^op^ × C \to Set
 
 should remind you a whole lot of the inner product on a Hilbert space H.
 The inner product is linear in one slot and conjugate-linear in the
@@ -154,8 +154,8 @@ where H^op^, the "opposite" Hilbert space, is like H but with a
 complex conjugate thrown into the definition of scalar multiplication,
 and here C denotes the complex numbers!
 
-Second of all, the definition of adjoint functor, with hom(Lc,d) and
-hom(c,Rd) being naturally isomorphic, should remind you of adjoint
+Second of all, the definition of adjoint functor, with \operatorname{Hom}(Lc,d) and
+\operatorname{Hom}(c,Rd) being naturally isomorphic, should remind you of adjoint
 linear operators on Hilbert spaces. If we have a linear operator L: H \to
 K from a Hilbert space H to a Hilbert space K, its adjoint R: K \to H is
 given by
@@ -232,13 +232,13 @@ as well as some interesting aspects of group representation theory.
 
 I'm busily writing a paper on exactly this stuff, but I have not
 explained enough category theory here to describe it in detail yet. For
-now, let me just make the connection between the hom(-,-) of category
+now, let me just make the connection between the \operatorname{Hom}(-,-) of category
 theory and the \<-,-\> of quantum theory more clear, and hopefully more
 plausible. If we have states h and h' in a Hilbert space, \<h,h'\>
 keeps track of the *amplitude* of getting from h to h'. (Often people
 will say "from h' to h", but here I think I really want to go the
 other way.) This is a mere *number*. If we have objects c and c' in a
-category, hom(c,c') is the actual *set* of ways to get from c to c',
+category, \operatorname{Hom}(c,c') is the actual *set* of ways to get from c to c',
 that is, the set of morphisms from c to c'.
 
 When one computes transition amplitudes by summing over paths, as in

@@ -43,6 +43,9 @@
 \author{John Baez}
 \date{April 23, 1995 to March 23, 1997}
 
+\usepackage{tikz}
+\usetikzlibrary{knots}
+
 \usepackage{tikz-cd}
 
 \setcounter{section}{50}
@@ -7523,13 +7526,13 @@ they are in a sense the most primitive interesting algebraic structures.
 
 To check that a category with one object is ``essentially just a
 monoid'', note that if our category \(\mathcal{C}\) has one object
-\(x\), the set \(\operatorname{hom}(x,x)\) of all morphisms from \(x\)
+\(x\), the set \(\operatorname{Hom}(x,x)\) of all morphisms from \(x\)
 to \(x\) is indeed a set with an associative binary product, namely
 composition, and a unit element, namely \(1_x\). (Actually, in an
-arbitrary category \(\operatorname{hom}(x,y)\) could be a class rather
+arbitrary category \(\operatorname{Hom}(x,y)\) could be a class rather
 than a set. But let's not worry about such nuances.) Conversely, if you
 hand me a monoid \(M\) in the traditional sense, I can easily cook up a
-category with one object \(x\) and \(\operatorname{hom}(x,x) = M\).
+category with one object \(x\) and \(\operatorname{Hom}(x,x) = M\).
 
 How about categories in which every morphism is invertible? We say a
 morphism \(f\colon x\to y\) in a category has inverse \(g\colon y\to x\)
@@ -8056,5 +8059,612 @@ To continue reading the ``Tale of \(n\)-Categories'', see
 \protect\hyperlink{week76}{``Week 76''}.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\hypertarget{week76}{%
+\section{March 9, 1996}\label{week76}}
+
+Yesterday I went to the oral exam of Hong Xiang, a student of Richard
+Seto who is looking for evidence of quark-gluon plasma at Brookhaven.
+The basic particles interacting via the strong force are quarks and
+gluons; these have an associated kind of ``charge'' known as color.
+Under normal conditions, quarks and gluons are confined to lie within
+particles with zero total color, such as protons and neutrons, and more
+generally the baryons and mesons seen in particle acccelerators --- and
+possibly glueballs, as well. (See \protect\hyperlink{week68}{``Week
+68''} for more on glueballs.)
+
+However, the current theory of the strong force --- quantum
+chromodynamics --- predicts that at sufficiently high densities and/or
+pressures, a plasma of protons and neutrons should undergo a phase
+transition called ``deconfinement'', past which the quarks and gluons
+will roam freely. At low densities, this is expected to happen at a
+temperature corresponding to about 200 MeV per nucleon (i.e., proton or
+neutron). If my calculation is right, this is about 2 trillion Kelvin!
+At low temperatures, it's expected to happen at about 5 to 20 times the
+density of an atomic nucleus. (Normal nuclear matter has about 0.16
+nucleons per femtometer cubed.) For more on this, check out these:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\item
+  Relativistic Heavy Ion Collider homepage,
+  \texttt{http://www.bnl.gov/RHIC/}
+
+  CERN Courier, ``Phase diagram of nuclear matter'',
+  \texttt{http://www.cerncourier.com/main/article/40/5/17/1/cernquarks1\_6-00}
+\end{enumerate}
+
+The folks at Brookhaven are attempting to get high densities \emph{and}
+temperatures by slamming two gold nuclei together. They are getting
+densities of about 9 times that of a nucleus\ldots{} and I forget what
+sort of temperature, but there is reason to hope that the combined high
+density and pressure might be enough to cause deconfinement and create a
+``quark-gluon plasma''. Colliding gold on gold at high energies produces
+a enormous spray of particles, but amidst this they are looking for a
+particular signal of deconfinement. They are looking for
+\(\varphi\)-mesons and looking to see if their lifetime is modified. A
+\(\varphi\)-meson is a spin-1 particle made of a strange quark / strange
+antiquark pair; strange quarks and antiquarks are supposed to be common
+in the quark-gluon plasma formed by the collision. Folks think the
+lifetime of a \(\varphi\)-meson will be affected by the medium it finds
+itself in, and that this should serve as a signature of deconfinement.
+In fact, they may have already seen this!
+
+People might also enjoy looking at this review article:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Adriano Di Giacomo, ``Mechanisms of colour confinement'', preprint
+  available as
+  \href{http://xxx.lanl.gov/abs/hep-th/9603029}{\texttt{hep-th/9603029}}.
+\end{enumerate}
+
+Okay, let me continue the tale of \(n\)-categories. I want to lead up to
+their role in physics, but to do it well, there are quite a few things I
+need to explain first. One of the important things about n-category
+theory is that they allow a much more fine-grained approach to the
+notion of ``sameness'' than we would otherwise be able to achieve.
+
+In a bare set, two elements \(x\) and \(y\) are either equal or not
+equal; there is nothing much more to say.
+
+In a category, two objects \(x\) and \(y\) can be equal or not equal,
+but more interestingly, they can be \emph{isomorphic} or not, and if
+they are, they can be isomorphic in many different ways. An isomorphism
+between \(x\) and \(y\) is simply a morphism \(f\colon x\to y\) which
+has an inverse \(g\colon y\to x\). (For a discussion of inverse
+morphisms, see \protect\hyperlink{week74}{``Week 74''}.)
+
+For example, in the category Set an isomorphism is just a one-to-one and
+onto function. If we know two sets \(x\) and \(y\) are isomorphic we
+know that they are ``the same in a way'', even if they are not equal.
+But specifying an isomorphism \(f\colon x\to y\) does more than say
+\(x\) and \(y\) are the same in a way; it specifies a \emph{particular
+way} to regard \(x\) and \(y\) as the same.
+
+In short, while equality is a yes-or-no matter, a mere \emph{property},
+an isomorphism is a \emph{structure}. It is quite typical, as we climb
+the categorical ladder (here from elements of a set to objects of a
+category) for properties to be reinterpreted as structures, or sometimes
+vice-versa.
+
+What about in a 2-category? Here the notion of equality sprouts still
+further nuances. Since I haven't defined 2-categories in general, let me
+work with an example, Cat. This has categories as its objects, functors
+as its morphisms, and natural transformations as its 2-morphisms.
+
+So\ldots{} we can certainly speak, as before, of the \emph{equality} of
+categories. We can also speak of the \emph{isomorphism} of categories:
+an isomorphism between \(\mathcal{C}\) and \(\mathcal{D}\) is a functor
+\(F\colon\mathcal{C}\to\mathcal{D}\) for which there is an inverse
+functor \(G\colon\mathcal{D}\to\mathcal{C}\). I.e., \(FG\) is the
+identity functor on \(\mathcal{C}\) and \(GF\) is the identity on
+\(\mathcal{D}\), where we define the composition of functors in the
+obvious way. But because we also have natural transformations, we can
+also define a subtler notion, the \emph{equivalence} of categories. An
+equivalence is a functor \(F\colon\mathcal{C}\to\mathcal{D}\) together
+with a functor \(G\colon\mathcal{D}\to\mathcal{C}\) and natural
+isomorphisms \(a\colon FG\to 1_C\) and \(b\colon GF \to 1_D\). A
+``natural isomorphism'' is a natural transformation which has an
+inverse.
+
+Abstractly, I hope you can see the pattern here: just as we can
+``relax'' the notion of equality to the notion of isomorphism when we
+pass from sets to categories, we can relax the condition that \(FG\) and
+\(GF\) equal identity functors to the condition that they be isomorphic
+to identity functors when we pass from categories to the 2-category
+\(\mathsf{Cat}\). We need to have the natural transformations to be able
+to speak of functors being isomorphic, just as we needed functions to be
+able to speak of sets being isomorphic. In fact, with each extra level
+in the theory of \(n\)-categories, we will be able to come up with a
+still more refined notion of ``\(n\)-equivalence'' in this way. That's
+what ``processes between processes between processes\ldots{}'' allow us
+to do.
+
+But let me attempt to bring this notion of equivalence of categories
+down to earth with some examples. Consider first a little category
+\(\mathcal{C}\) with only one object \(x\) and one morphism, the
+identity morphism \(1_x\colon x\to x\). We can draw \(\mathcal{C}\) as
+follows: \[x\] where we don't bother drawing the identity morphism
+\(1_x\). This category, by the way, is called the ``terminal category''.
+Next consider a little category \(\mathcal{D}\) with two objects \(y\)
+and \(z\) and only four morphisms: the identities \(1_y\) and \(1_z\),
+and two morphisms \(f\colon y\to z\) and \(g\colon z\to y\) which are
+inverse to each other. We can draw \(\mathcal{D}\) as follows: \[
+  \begin{tikzcd}
+    y \rar[bend right=40,swap,"f"] & z \lar[bend right=40,swap,"g"]
+  \end{tikzcd}
+\] where again we don't draw identities.
+
+So: \(\mathcal{C}\) is a little world with only one object, while D is a
+little world with only two isomorphic objects\ldots{} that are
+isomorphic in precisely one way! \(\mathcal{C}\) and \(\mathcal{D}\) are
+clearly not isomorphic, because for a functor
+\(F\colon\mathcal{C}\to\mathcal{D}\) to be invertible it would need to
+be one-to-one and onto on objects, and also on morphisms.
+
+However, \(\mathcal{C}\) and \(\mathcal{D}\) are equivalent. For
+example, we can let \(F\colon\mathcal{C}\to\mathcal{D}\) be the unique
+functor with \(F(x) = y\), and let \(G\colon\mathcal{D}\to\mathcal{C}\)
+be the unique functor from \(\mathcal{D}\) to \(\mathcal{C}\). (There is
+only one functor from any category to \(\mathcal{C}\), since
+\(\mathcal{C}\) has only one object and one morphism; this is why we
+call \(\mathcal{C}\) the terminal category.) Now, if we look at the
+functor \(FG\colon\mathcal{C}\to\mathcal{C}\), it's not hard to see that
+this is the identity functor on \(\mathcal{C}\). But the composite
+\(GF\colon\mathcal{D}\to\mathcal{D}\) is not the identity functor on
+\(\mathcal{D}\). Instead, it sends both \(y\) and \(z\) to \(y\), and
+sends all the morphisms in \(\mathcal{D}\) to \(1_y\). But while not
+\emph{equal} to the identity functor on \(\mathcal{D}\), the functor
+\(GF\) is \emph{naturally isomorphic} to it. We can define a natural
+transformation \(b\colon GF\to 1_D\) by setting \(b_y = 1_y\) and
+\(b_z = f\). Here some folks may want to refresh themselves on the
+definition of natural transformation, given in
+\protect\hyperlink{week75}{``Week 75''}, and check that \(b\) is really
+one of these, and that \(b\) is a natural isomorphism because it has an
+inverse.
+
+The point is, basically, that having two uniquely isomorphic things with
+no morphisms other than the isomorphisms between them and the identity
+morphisms isn't really all that different from having one thing with
+only the identity morphism. Category theorists generally regard
+equivalent categories as ``the same for all practical purposes''. For
+example, given any category we can find an equivalent category in which
+any two isomorphic objects are equal. We call these ``skeletal''
+categories because all the fat is gone and just the essential bones are
+left. For example, the category \(\mathsf{FinSet}\) of finite sets, with
+functions between them as morphisms, is equivalent to the category with
+just the sets \[
+  \begin{aligned}
+    0 &= \{\}
+  \\0 &= \{0\}
+  \\0 &= \{0,1\}
+  \\0 &= \{0,1,2\}
+  \end{aligned}
+\] etc., and functions between them as morphisms (see
+\protect\hyperlink{week73}{``Week 73''}). Essentially all the
+mathematics that can be done in \(\mathsf{FinSet}\) can be done in this
+skeletal category. This may seem shocking, but it's true\ldots.
+Similarly, the category \(\mathsf{Set}\) is equivalent to the category
+\(\mathsf{Card}\) having one set of each cardinality. Also, the category
+\(\mathsf{Vect}\) of complex finite--dimensional vector spaces, with
+linear functions between them as morphisms, is equivalent to a skeletal
+category where the only objects are those of the form \(\mathbb{C}^n\).
+\emph{This} example should not seem shocking; it's this fact which
+allows unsophisticated people to do linear algebra under the impression
+that all finite-dimensional vector spaces are of the form
+\(\mathbb{C}^n\), and still manage to do all the practical computations
+that more sophisticated people can do, who know the abstract definition
+of vector space and thus know of lots more finite-dimensional vector
+spaces.
+
+However, there is another thing we can do in \(\mathsf{Cat}\), another
+refinement of the notion of isomorphism, which I alluded to in
+\protect\hyperlink{week75}{``Week 75''}. This is the notion of ``adjoint
+functor''. Let me mention a few examples (in addition to the example
+given in \protect\hyperlink{week75}{``Week 75''}) and let the reader
+ponder them before giving the definition. Let \(\mathsf{Grp}\) denote
+the category with groups as objects and homomorphisms as morphisms, a
+homomorphism \(f\colon G\to H\) between groups being a function with
+\(f(1) = 1\) and \(f(gh) = f(g)f(h)\) for all \(g, h\) in \(G\). Then
+there is a nice functor \[L\colon\mathsf{Set}\to\mathsf{Grp}\] which
+takes any set \(S\) to the free group on \(S\): this is the group
+\(L(S)\) formed by all formal products of elements in \(S\) and inverses
+thereof, with no relations other than those in the definition of a
+group. For example, a typical element of the free group on \(\{x,y,z\}\)
+is \(xyzy^{-1}xxy\).
+
+(It's easy to see that \(f\colon S\to T\) is a function between sets,
+there is a unique homomorphism \(L(f)\colon L(S)\to L(T)\) with
+\(L(f)(x) = f(x)\) for all \(x\) in \(S\), and that this makes \(L\)
+into a functor.)
+
+There is also a nice functor \[R\colon\mathsf{Grp}\to\mathsf{Set}\]
+taking any group to its underlying set, and taking any homomorphism to
+its underlying function. We call this a ``forgetful'' functor since it
+simply amounts to forgetting that we are working with groups and just
+thinking of them as sets.
+
+Now there is a sense in which \(L\) and \(R\) are reverse processes, but
+it is delicate. They certainly aren't inverses, and they aren't even
+part of an equivalence between \(\mathsf{Set}\) and \(\mathsf{Grp}\).
+Nonetheless they are ``adjoints''. If the reader hasn't thought about
+this, she may enjoy figuring out what this might mean\ldots{} perhaps
+keeping the adjoint operators mentioned in
+\protect\hyperlink{week75}{``Week 75''} in mind.
+
+To continue reading the ``Tale of \(n\)-Categories'', see
+\protect\hyperlink{week77}{``Week 77''}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\hypertarget{week77}{%
+\section{March 23, 1996}\label{week77}}
+
+I spent last week at Penn State visiting the CGPG --- the Center for
+Gravitational Physics and Geometry. I like to visit this place whenever
+I can, because I've never found anywhere else that's as good for talking
+about quantum gravity.
+
+The CGPG is run by Abhay Ashtekar, who introduced the ``new variables''
+for general relativity (see \protect\hyperlink{week7}{``Week 7''}). This
+formulation of general relativity allowed Carlo Rovelli and Lee Smolin
+to develop a new approach to quantum gravity, called the ``loop
+representation''. Smolin is at the CGPG, while Rovelli teaches at
+Pittsburgh, only a brief plane ride away: he was heading back just when
+I showed up. Jorge Pullin, who has done a lot of work on knot theory and
+quantum gravity, is also at the CGPG. Roger Penrose visits it regularly,
+and happened to be there last week. There is always a peppy bunch of
+grad students and postdocs wandering about the place, and some
+interesting mathematicians across the street. I have a particular
+interest in the work of Jean-Luc Brylinski, since he has thought a lot
+about the relationships between conformal field theory and category
+theory (see \protect\hyperlink{week25}{``Week 25''}).
+
+You can find out more about the CGPG and the new variables at the
+following web sites:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\item
+  Center for Gravitational Physics and Geometry (CGPG) home page,
+  `http://vishnu.nirvana.phys.psu.edu/``
+
+  Reading list on the new variables:
+  \texttt{http://vishnu.nirvana.phys.psu.edu/readinglist/readinglist.html}
+\end{enumerate}
+
+I had two goals at the CGPG. One was to get people interested in the
+uses of higher-dimensional algebra in physics, and the other was to find
+out where folks were heading in quantum gravity. I made decent headway
+on the first front, but let me talk about the second one.
+
+In the last few years, Abhay Ashtekar has been working hard with a bunch
+of collaborators on getting the loop representation set up on a
+mathematically rigorous basis, and making good progress. There is a
+natural order in which to set things up, and the next problem to deal
+with is the so-called Hamiltonian constraint (see
+\protect\hyperlink{week43}{``Week 43''}). I have always been very
+worried about this, and I'm not alone, since this all the dynamics of
+quantum gravity is in this operator. Ashtekar and Lewandowski have a
+paper partially written in which they rigorously define an operator
+along these lines, using earlier ideas of Rovelli and Smolin. I have
+been hoping that this answer could be tested somehow\ldots{} for
+example, checking out its commutation relations with the other
+constraints. It turns out that they have already done this to extent
+that seems possible. So then the question is, what next? March on, or
+continue trying to make sure the Hamiltonian constraint is right?
+
+I should add that Pullin and Gambini have another proposal regarding the
+Hamiltonian constraint:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Rodolfo Gambini and Jorge Pullin, ``The general solution of the
+  quantum Einstein equations?'', preprint in Revtex format, 7 figures
+  included with \texttt{psfig}, available as
+  \href{http://xxx.lanl.gov/abs/gr-qc/9603019}{\texttt{gr-qc/9603019}}.
+\end{enumerate}
+
+This is not as fully worked out, but it has a certain mathematical charm
+to it so far. Thus we may eventually be in a situation where there are
+various competing quantizations of gravity using the loop
+representation, differing mainly in their choice of Hamiltonian
+constraint. This suggests that we need further tests for what counts as
+the ``right'' Hamiltonian constraint.
+
+When we spoke this time, Ashtekar was in favor of testing Hamiltonian
+constraints by seeing whether they implied the ``Bekenstein bound''.
+This bound says that the maximal entropy of a physical system is
+proportional to its surface area when we take quantum gravity into
+account. There are a number of heuristic derivations of this bound, so
+lots of people hope it would follow from any good theory of quantum
+gravity. Since the ``physical states'' of quantum gravity must be
+annihilated by the Hamiltonian constraint, and the maximal entropy of a
+system is just the logarithm of the number of physical states, the
+Hamiltonian constraint must have some interesting properties to get the
+Bekenstein bound to work out. So we can expect some work along these
+lines in the near future.
+
+I also talked to Lee Smolin. He has been very interested in the relation
+between the loop representation and certain simplified versions of
+quantum gravity called topological quantum field theories (TQFTs). He
+has ideas on how to derive the Bekenstein bound using this relationship
+--- see \href{week56.html}{``Week 56''} and
+\protect\hyperlink{week57}{``Week 57''}" for a description.
+
+The funny thing is, some of the mathematics connecting TQFTs to the loop
+representation of quantum gravity also connects TQFTs to another
+well-known approach to quantum gravity --- string theory! Smolin has
+been boning up on string theory lately, in part by giving a course on
+the subject, and presently he is eager to bring string theory and the
+loop representation closer together. So we can also expect to see more
+work on attempts to unify string and loops. (See
+\protect\hyperlink{week18}{``Week 18''} for a bit more on strings and
+loops.)
+
+So I left feeling reinvigorated and eager to continue my own work on
+higher-dimensional algebra and physics\ldots{} which is what I have
+talking about here ever since \protect\hyperlink{week73}{``Week 73''}.
+In fact, I have been engaging in a lengthy warmup, a minicourse in
+category theory, with an eye to the basic themes of \(n\)-category
+theory. That way, when I get around to the really cool stuff, everyone
+out there will know what the heck I'm talking about. In theory, anyway.
+You gotta work a bit to wrap your mind around these concepts!
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+So, let's recall where we are in our tale of \(n\)-categories. We were
+studying increasingly subtle variations on the theme of identity and
+difference. Given two categories \(\mathcal{C}\) and \(\mathcal{D}\), we
+can ask if they are \emph{equal} or not. We can also discuss
+\emph{isomorphisms} between \(\mathcal{C}\) and \(\mathcal{D}\). An
+isomorphism is a functor \(F\colon\mathcal{C}\to\mathcal{D}\) having an
+inverse: a functor \(G\colon\mathcal{D}\to\mathcal{C}\) such that \(FG\)
+is equal to the identity functor on \(\mathcal{D}\) and \(GF\) is equal
+to the identity on \(\mathcal{C}\).
+
+We can also discuss \emph{equivalences} between \(\mathcal{C}\) and
+\(\mathcal{D}\). An equivalence is a functor
+\(F\colon\mathcal{C}\to\mathcal{D}\) together with a functor
+\(G\colon\mathcal{D}\to\mathcal{C}\) such that \(FG\) is naturally
+isomorphic to the identity functor on \(\mathcal{D}\), and \(GF\) is
+naturally isomorphic to the identity functor on \(\mathcal{C}\).
+Remember, two functors from one category to another are ``naturally
+isomorphic'' if there is a natural transformation from the first to the
+second, and that natural transformation has an inverse.
+
+In math jargon we say it this way: two categories are equivalent if
+there is a functor from one to the other which is invertible ``up to a
+natural isomorphism''.
+
+The most useful notion of categories being ``the same'' turns out to be
+not equality, or isomorphism, but this more supple notion of
+``equivalence''!
+
+(As we shall see later, this is because \(\mathsf{Cat}\) is a
+2-category. Remember, an \(n\)-category is some sort of thing with
+objects, morphisms, 2-morphisms, and so on up to \(n\)-morphisms. One of
+the of the main themes of \(n\)-category theory is that we may regard
+two things are ``the same'', or ``equivalent'', if there is some sort of
+process to get from one to the other, and this process is
+invertible\ldots{} up to equivalence! More precisely, we say an
+\(n\)-morphism is an equivalence if it's invertible, and then we work
+our way down, inductively defining a \((j-1)\)-morphism to be an
+equivalence if it's invertible up to an equivalence. This downwards
+induction leaves off when we define equivalence for ``0-morphisms'',
+meaning objects.)
+
+We have also begun talking about a curious situation where the
+categories \(\mathcal{C}\) and \(\mathcal{D}\) are not at all ``the
+same,'' but there are ``adjoint'' functors
+\(L\colon\mathcal{C}\to\mathcal{D}\) and \(R\colon\mathcal{D}\to C\).
+Let me list some examples before defining the concept of adjoint functor
+and talking about it:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  First for the one we discussed in \protect\hyperlink{week76}{``Week
+  76''}. Let \(\mathsf{Set}\) be the category of sets, and
+  \(\mathsf{Grp}\) the category of groups. Let
+  \(L\colon\mathsf{Set}\to\mathsf{Grp}\) be the functor taking each set
+  \(S\) to the free group on \(S\), and doing the obvious thing to
+  morphisms. Let \(R\colon\mathsf{Grp}\to\mathsf{Set}\) be the functor
+  taking each group to its underlying set.
+\item
+  Let \(\mathsf{Ab}\) be the category of abelian (i.e., commutative)
+  groups. Let \(L\colon\mathsf{Set}\to\mathsf{Ab}\) be the functor
+  taking each set \(S\) to the free abelian group on \(S\). The ``free
+  abelian group'' on \(S\) is what we get by taking the free group on
+  \(S\) and imposing commutativity relations like \(xy = yx\) for all
+  elements \(x,y\) in \(S\). Let \(R\colon\mathsf{Ab}\to\mathsf{Set}\)
+  be the functor taking each abelian group to its underlying set.
+\item
+  Let \(L\colon\mathsf{Grp}\to\mathsf{Ab}\) be the functor taking each
+  group \(G\) to its ``abelianization''. The abelianization of \(G\) is
+  what we get when we impose the extra relations \(xy = yx\) for all
+  elements \(x,y\) in \(G\). Let \(R\colon\mathsf{Ab}\to\mathsf{Grp}\)
+  be the functor taking each abelian group to its underlying group.
+\item
+  Let \(\mathsf{Mon}\) be the category of monoids, where the objects are
+  monoids and the morphisms are monoid homomorphisms. (Remember that a
+  monoid is a set with an associative product and a unit; a monoid
+  morphism \(f\colon M\to N\) is a function between monoids such that
+  \(f(xy) = f(x)f(y)\) and \(f(1) = 1\).) Let
+  \(L\colon\mathsf{Set}\to\mathsf{Mon}\) be the functor taking each set
+  \(S\) to the free monoid on \(S\). This is simply the set of words
+  whose letters are elements of \(S\), with the product given by
+  concatenation of words, and the unit being the empty word. Let
+  \(R\colon\mathsf{Mon}\to\mathsf{Set}\) be the functor taking each
+  monoid to its underlying set.
+\item
+  Let \(L\colon\mathsf{Mon}\to\mathsf{Grp}\) be the functor taking each
+  monoid \(M\) to the group obtained by throwing in formal inverses for
+  every element of \(M\). The famous example of this is when
+  \(\mathbb{N} = \{0,1,2,...\}\), which is a monoid whose ``product'' is
+  addition. Then \(L(\mathbb{N}) = \mathbb{Z}\), the integers, since we
+  have thrown in the negative integers. Let
+  \(R\colon\mathsf{Grp}\to\mathsf{Mon}\) be the functor taking each
+  group to its underlying monoid. I.e., \(R\) simply forgets that our
+  group has inverses and thinks of it as a monoid.
+\end{enumerate}
+
+Note the common aspects of these examples! In most of them,
+\(L\colon\mathcal{C} \to \mathcal{D}\) gives us a ``free'' object of
+\(\mathcal{D}\) for every object of \(\mathcal{C}\), while
+\(R\colon\mathcal{D}\to\mathcal{C}\) gives us an ``underlying'' object
+of \(\mathcal{C}\) for every object of \(\mathcal{D}\). This is an
+especially good way to think about it when the objects of
+\(\mathcal{D}\) are objects of \(\mathcal{C}\) equipped with extra
+structure, as in examples 1, 2, 4, and 5. For example, a group is a set
+equipped with some extra structure, the group operations. In this case,
+the functor \(L\colon\mathcal{C}\to\mathcal{D}\) turns an object of
+\(\mathcal{C}\) into an object of \(\mathcal{D}\) by ``freely throwing
+in whatever extra stuff is necessary, without putting in any relations
+other than those needed to get an object of \(\mathcal{D}\)''.
+
+It's not quite the same when the objects of \(\mathcal{D}\) are objects
+of \(\mathcal{C}\) with extra \emph{properties}, as in example 3. In
+this case, the functor \(L\colon\mathcal{C}\to\mathcal{D}\) forces an
+object of \(\mathcal{C}\) to have the properties needed to be an object
+of \(\mathcal{D}\). It does so in as nonviolent a manner as possible.
+
+In either of these situations, \(R\colon\mathcal{D}\to\mathcal{C}\) has
+the flavor of what we call a ``forgetful'' functor. This is not a
+precisely defined term, but folks use it whenever we can simply
+``forget'' something about an object of \(\mathcal{D}\) and think of it
+as an object of \(\mathcal{C}\). For example, we can take a group, and
+forget about the group operations, thinking of it as merely a set. Here
+we are forgetting extra structure; we can also forget extra properties.
+
+The crucial thing here is that unlike in an equivalence, there is a
+built-in asymmetry here: \(L\) and \(R\) have very different flavors,
+and serve different mathematical purposes. We call \(L\) the ``left
+adjoint'' of \(R\), and we call \(R\) the ``right adjoint'' of \(L\).
+
+There are situations where adjoint functors \(L\) and \(R\) aren't so
+immediately reminiscent of the concepts ``free'' and ``underlying''. But
+it's good to keep these ideas in mind when learning about adjoint
+functors. I used to have trouble remembering which was supposed to be
+the left adjoint and which was the right. The honest way to do this is
+to remember the definition (coming up soon), but for a cheap mnemonic,
+you can think of the L in a left adjoint as standing for ``liberty'' ---
+that is, freedom!
+
+So what's the definition of ``adjoint''? Roughly speaking, it's that for
+any object \(c\) of \(\mathcal{C}\) and any object \(d\) of
+\(\mathcal{D}\), we have
+\[\operatorname{Hom}(Lc,d) = \operatorname{Hom}(c,Rd).\] Actually this
+is a slight exaggeration: we don't want these to be equal. The guy on
+the left is the set of morphisms from \(Lc\) to \(d\) in the category
+\(\mathcal{D}\). The guy on the right is the set of morphisms from \(c\)
+to \(Rd\) in the category \(\mathcal{C}\). So it's evil to want them to
+be \emph{equal}. As you might guess, it's enough for them to be
+naturally isomorphic in some sense. Let's not worry about that too much
+yet, though. Let's get the basic idea here!
+
+Consider example 1. Say \(S\) is a set and \(G\) is a group. Why is
+\[\operatorname{Hom}(LS,G)\] naturally isomorphic to
+\[\operatorname{Hom}(S,RG) \,\text{?}\]
+
+In other words, why is the set of homomorphisms from the free group on
+\(S\) to \(G\) naturally isomorphic to the set of functions from \(S\)
+to the underlying set of \(G\)?
+
+Well, say we have a homomorphism \(f\colon LS \to G\). Since \(LS\) is a
+free group, we know \(f\) if we know what it does to each element of
+\(S\)\ldots{} and it can do whatever it wants to these elements! So we
+can think of it as just a function from \(S\) to the underlying set of
+\(G\). In other words, we can think of it as a function
+\(f'\colon S \to RG\). Conversely, any function \(f'\colon S \to RG\)
+gives us a homomorphism \(f\colon LS \to G\).
+
+So this is the idea. Say we have an object \(c\) of \(\mathcal{C}\) and
+an object \(d\) of \(\mathcal{D}\). Then:
+
+\begin{quote}
+``The set of morphisms from the free \(\mathcal{D}\)-object on \(c\) to
+\(d\) is naturally isomorphic to the set of morphisms from \(c\) to the
+underlying \(\mathcal{C}\)-object of \(d\).''
+\end{quote}
+
+Next time I will finish off the definition of adjoint functors, by
+making this ``naturally isomorphic'' stuff precise. I will also begin to
+explain what adjoint functors have to do with adjoint operators in
+quantum mechanics. Remember that an ``observable'' in quantum theory is
+an operator on a Hilbert space which is its own adjoint, while a
+``symmetry'' in quantum theory is an operator whose adjoint is its
+inverse. I eventually hope to show that this, and many other shocking
+aspects of quantum theory, become less shocking when we think of the
+world in terms of categories (or \(n\)-categories) rather than sets. The
+way I think of it these days, the mysterious way quantum theory slammed
+into physics in the early 20th century was just nature's way of telling
+us we'd better learn \(n\)-category theory.
+
+I'll also explain what adjoint functors have to do with the following
+topological equations: \[
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+      to (0,1)
+      to [out=up,in=up,looseness=3] (1,1)
+      to [out=down,in=down,looseness=3] (2,1)
+      to (2,2);
+    \end{knot}
+    \node at (3,1) {$=$};
+    \begin{scope}[shift={(4,0)}]
+      \begin{knot}
+        \strand[thick] (0,0) to (0,2);
+      \end{knot}
+    \end{scope}
+  \end{tikzpicture}
+  \]\[
+  \begin{tikzpicture}
+    \begin{scope}[xscale=-1,shift={(-2,0)}]
+      \begin{knot}
+        \strand[thick] (0,0)
+        to (0,1)
+        to [out=up,in=up,looseness=3] (1,1)
+        to [out=down,in=down,looseness=3] (2,1)
+        to (2,2);
+      \end{knot}
+    \end{scope}
+    \node at (3,1) {$=$};
+    \begin{scope}[shift={(4,0)}]
+      \begin{knot}
+        \strand[thick] (0,0) to (0,2);
+      \end{knot}
+    \end{scope}
+  \end{tikzpicture}
+\]
+
+\begin{verbatim}
+          /\       |       |
+         /  \      |       |
+        /    \     |       |
+       |      \    /  =    | 
+       |       \  /        |
+       |        \/         |
+
+
+
+
+       |       /\          |
+       |      /  \         |
+       |     /    \        |
+       \    /      |  =    | 
+        \  /       |       |
+         \/        |       |
+\end{verbatim}
+
+To continue reading the ``Tale of \(n\)-Categories'', see
+\protect\hyperlink{week78}{``Week 78''}.
+
 
 \end{document}

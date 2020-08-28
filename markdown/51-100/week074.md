@@ -91,13 +91,13 @@ for all $a$ in $M$. Monoids abound in mathematics; they are in a sense the
 most primitive interesting algebraic structures.
 
 To check that a category with one object is "essentially just a
-monoid", note that if our category $\mathcal{C}$ has one object $x$, the set $\operatorname{hom}(x,x)$
+monoid", note that if our category $\mathcal{C}$ has one object $x$, the set $\operatorname{Hom}(x,x)$
 of all morphisms from $x$ to $x$ is indeed a set with an associative binary
 product, namely composition, and a unit element, namely $1_x$. (Actually,
-in an arbitrary category $\operatorname{hom}(x,y)$ could be a class rather than a set.
+in an arbitrary category $\operatorname{Hom}(x,y)$ could be a class rather than a set.
 But let's not worry about such nuances.) Conversely, if you hand me a
 monoid $M$ in the traditional sense, I can easily cook up a category with
-one object $x$ and $\operatorname{hom}(x,x) = M$.
+one object $x$ and $\operatorname{Hom}(x,x) = M$.
 
 How about categories in which every morphism is invertible? We say a
 morphism $f\colon x\to y$ in a category has inverse $g\colon y\to x$ if $fg = 1_x$ and $gf = 1_y$.
