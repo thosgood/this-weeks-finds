@@ -266,8 +266,8 @@ $$
     \begin{knot}
       \strand[thick] (0,0)
       to (0,1)
-      to [out=up,in=up,looseness=3] (1,1)
-      to [out=down,in=down,looseness=3] (2,1)
+      to [out=up,in=up,looseness=2] (1,1)
+      to [out=down,in=down,looseness=2] (2,1)
       to (2,2);
     \end{knot}
     \node at (3,1) {$=$};
@@ -284,8 +284,8 @@ $$
       \begin{knot}
         \strand[thick] (0,0)
         to (0,1)
-        to [out=up,in=up,looseness=3] (1,1)
-        to [out=down,in=down,looseness=3] (2,1)
+        to [out=up,in=up,looseness=2] (1,1)
+        to [out=down,in=down,looseness=2] (2,1)
         to (2,2);
       \end{knot}
     \end{scope}

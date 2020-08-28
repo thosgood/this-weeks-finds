@@ -44,9 +44,7 @@ interested.
 
 Later, of course, Kepler suggested that the 5 Platonic solids
 corresponded to the orbits of the 5 planets:
-
-![](../images/kepler_mysterium_cosmographicum.jpg)
-
+$$\includegraphics{../images/kepler_mysterium_cosmographicum.jpg}$$
 As it turns out, Plato and Kepler were in the right ball-park, but not
 really right. Both the solar system and atoms are described pretty well
 by similar laws - the inverse-square force laws for gravity and
