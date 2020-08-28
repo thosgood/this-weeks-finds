@@ -362,7 +362,7 @@ The cool thing is that there turn out to be very elegant algebraic and
 combinatorial ways of describing homotopy types that don't mention
 topology at all. Perhaps the most beautiful way of all is a way that in
 a sense hasn't been fully worked out yet: namely, thinking of homotopy
-types as "ω-groupoids". The idea is this. An "ω-category" is
+types as "$\omega$-groupoids". The idea is this. An "$\omega$-category" is
 something that has
 
 objects like x
@@ -378,7 +378,7 @@ morphisms between objects like f: x \to y
 and so on ad infinitum. There should be some ways of composing these,
 and these should satisfy some axioms, and that of course is the tricky
 part. But the basic idea is that if you hand me a topological space X, I
-can cook up an ω-category whose
+can cook up an $\omega$-category whose
 
 objects are points in X
 
@@ -391,15 +391,15 @@ morphisms are paths between points in X
 
 ...
 
-and so on. This is better than your garden-variety ω-category because
+and so on. This is better than your garden-variety $\omega$-category because
 all the morphisms and 2-morphisms and 3-morphisms and so on have
-inverses, at least "up to homotopy". We call it an "ω-groupoid".
-This ω-groupoid keeps track of the homotopy type of X in a very nice
-way. (If this "ω" stuff is too mind-boggling, you may want to start by
+inverses, at least "up to homotopy". We call it an "$\omega$-groupoid".
+This $\omega$-groupoid keeps track of the homotopy type of X in a very nice
+way. (If this "$\omega$" stuff is too mind-boggling, you may want to start by
 reading a bit about plain old categories and groupoids in
 ["Week 74"](#week74).)
 
-Conversely, given any ω-groupoid there should be a nice way to cook up a
+Conversely, given any $\omega$-groupoid there should be a nice way to cook up a
 homotopy corresponding to it. This is just the infinite- dimensional
 generalization of something I described in ["Week 75"](#week75).
 There, I showed how you could get a groupoid from a "homotopy 1-type"
@@ -410,10 +410,10 @@ this, what I mean is that its higher homotopy groups are trivial; its
 higher homology and cohomology groups can be very interesting.)
 
 So we can - and should - think of homotopy theory as, among other
-things, the study of ω-groupoids, and thus a very useful warmup to the
-study of ω-categories. In my occaisional series on This Week's Finds
+things, the study of $\omega$-groupoids, and thus a very useful warmup to the
+study of $\omega$-categories. In my occaisional series on This Week's Finds
 called "the tale of n-categories", I have tried to explain why
-n-categories, and ultimately ω-categories, should serve as a powerful
+n-categories, and ultimately $\omega$-categories, should serve as a powerful
 unifying approach to lots of mathematics and physics. In trying to
 understand this subject, I find time and time again that homotopy
 theorists are the ones to listen to.
@@ -422,7 +422,7 @@ Chapter 2, "Homotopy theories and model categories", by W. G. Dwyer
 and J. Spalinski, is a nice introduction to the formal idea of using
 different "models" for homotopy types. For example, above I was
 sketching how one might do homotopy theory using the "model category"
-of ω-groupoids. Other model categories include gadgets like Kan
+of $\omega$-groupoids. Other model categories include gadgets like Kan
 complexes, CW complexes, simplicial complexes, and so on.
 
 Chapter 6, "Modern foundations for stable homotopy theory", by A. D.

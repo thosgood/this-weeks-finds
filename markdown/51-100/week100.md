@@ -143,7 +143,7 @@ complicated and I won't get it right, but let me say a bit anyway.
 First of all, there are some things called "strict n-categories" that
 people have known how to define for arbitrarily high n for quite a
 while. In fact, people know how to go up to infinity and define "strict
-ω-categories"; see for example:
+$\omega$-categories"; see for example:
 
 4) S. E. Crans, On combinatorial models for higher dimensional
 homotopies, Ph.D. thesis, University of Utrecht, Utrecht, 1991.
@@ -226,10 +226,10 @@ the scene! Zouhair Tamsamani came up with one in terms of
 \$\\infty\$-groupoide non-strictes via des ensembles multi-simpliciaux,
 Ph.D. thesis, Universite Paul Sabatier, Toulouse, France, 1995.
 
-Michael Batanin also has a definition of ω-categories, of the
+Michael Batanin also has a definition of $\omega$-categories, of the
 "globular" sort:
 
-9) M. A. Batanin, On the definition of weak ω-category, Macquarie
+9) M. A. Batanin, On the definition of weak $\omega$-category, Macquarie
 Mathematics Report number 96/207.
 
 Now the fun will begin! These different definitions of (weak) n-category
