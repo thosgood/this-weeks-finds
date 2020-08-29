@@ -404,16 +404,16 @@ only get Majorana-Weyl spinors when $n = 8k + 2$.
 
 Whew! Let me summarize some of our results:
 
-    n    Dirac     Majorana       Weyl    Majorana-Weyl
-
-    1     C           R             
-    2     C2          R2           C           R
-    3     C2          R2 
-    4     C4          R4           C2
-    5     C4        
-    6     C8                       C4
-    7     C8
-    8     C16         R16          C8
+| $n$ | Dirac | Majorana | Weyl | Majorana-Weyl |
+| :-- | :---- | :------- | :--- | :------------ |
+| 1 | $\mathbb{C}$ | $\mathbb{R}$ | | |
+| 2 | $\mathbb{C}^2$ | $\mathbb{R}^2$ | $\mathbb{C}$ | $\mathbb{R}$ |
+| 3 | $\mathbb{C}^2$ | $\mathbb{R}^2$ | | |
+| 4 | $\mathbb{C}^4$ | $\mathbb{R}^4$ | $\mathbb{C}^2$ | |
+| 5 | $\mathbb{C}^4$ | | | |
+| 6 | $\mathbb{C}^8$ | | $\mathbb{C}^4$ | |
+| 7 | $\mathbb{C}^8$ | | | |
+| 8 | $\mathbb{C}^{16}$ | $\mathbb{R}^{16}$ | $\mathbb{C}^8$ | |
 
 When there are blanks here, the relevant sort of spinor doesn't exist.
 Here I'm not distinguishing Majorana spinors that come from $C_{n-1,1}$

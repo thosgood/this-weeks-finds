@@ -14919,18 +14919,24 @@ that we'll only get Majorana-Weyl spinors when \(n = 8k + 2\).
 
 Whew! Let me summarize some of our results:
 
-\begin{verbatim}
-n    Dirac     Majorana       Weyl    Majorana-Weyl
-
-1     C           R             
-2     C2          R2           C           R
-3     C2          R2 
-4     C4          R4           C2
-5     C4        
-6     C8                       C4
-7     C8
-8     C16         R16          C8
-\end{verbatim}
+\begin{longtable}[]{@{}lllll@{}}
+\toprule
+\(n\) & Dirac & Majorana & Weyl & Majorana-Weyl\tabularnewline
+\midrule
+\endhead
+1 & \(\mathbb{C}\) & \(\mathbb{R}\) & &\tabularnewline
+2 & \(\mathbb{C}^2\) & \(\mathbb{R}^2\) & \(\mathbb{C}\) &
+\(\mathbb{R}\)\tabularnewline
+3 & \(\mathbb{C}^2\) & \(\mathbb{R}^2\) & &\tabularnewline
+4 & \(\mathbb{C}^4\) & \(\mathbb{R}^4\) & \(\mathbb{C}^2\)
+&\tabularnewline
+5 & \(\mathbb{C}^4\) & & &\tabularnewline
+6 & \(\mathbb{C}^8\) & & \(\mathbb{C}^4\) &\tabularnewline
+7 & \(\mathbb{C}^8\) & & &\tabularnewline
+8 & \(\mathbb{C}^{16}\) & \(\mathbb{R}^{16}\) & \(\mathbb{C}^8\)
+&\tabularnewline
+\bottomrule
+\end{longtable}
 
 When there are blanks here, the relevant sort of spinor doesn't exist.
 Here I'm not distinguishing Majorana spinors that come from
