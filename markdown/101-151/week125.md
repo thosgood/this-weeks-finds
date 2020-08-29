@@ -1,4 +1,4 @@
-week125
+# DATE {#week125}
 
 Last week I promised to explain some mysterious connections between
 elliptic curves, string theory, and the number 24. I claimed that it all

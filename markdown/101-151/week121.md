@@ -1,4 +1,4 @@
-week121
+# DATE {#week121}
 
 This time I want to talk about higher-dimensional algebra and its
 applications to topology. Marco Mackaay has just come out with a

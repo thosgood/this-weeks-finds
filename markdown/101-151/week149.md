@@ -1,4 +1,4 @@
-week149
+# DATE {#week149}
 
 Elliptic cohomology sits at the intersection of several well-travelled
 mathematical roads. It boasts fascinating connections with homotopy

@@ -1,4 +1,4 @@
-week102
+# DATE {#week102}
 
 In ["Week 101"](#week101) I claimed to have figured out the real
 reason for the importance of the number 24 in string theory. Now I'm

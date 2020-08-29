@@ -1,4 +1,4 @@
-week109
+# DATE {#week109}
 
 In the Weeks to come I want to talk about quantum gravity. A lot of cool
 things have been happening in this subject lately. But I want to start

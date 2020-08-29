@@ -1,4 +1,4 @@
-week129
+# DATE {#week129}
 
 For the last 38 years the Austrians have been having winter workshops on
 nuclear and particle physics in a little Alpine ski resort town called

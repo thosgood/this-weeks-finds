@@ -1,4 +1,4 @@
-week118
+# DATE {#week118}
 
 Like many people of a certain age, as a youth my interest in mathematics
 and physics was fed by the Scientific American, especially Martin

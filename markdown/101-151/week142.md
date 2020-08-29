@@ -1,4 +1,4 @@
-week142
+# DATE {#week142}
 
 I was recently infected by a meme - a self-propagating pattern of human
 behavior. Now I want to pass it on to you! I like this particular meme

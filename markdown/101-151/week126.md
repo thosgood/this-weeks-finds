@@ -1,4 +1,4 @@
-week126
+# DATE {#week126}
 
 To round off some things I said in the previous two weeks, let me say a
 bit more about string theory and Euler's mysterious equation

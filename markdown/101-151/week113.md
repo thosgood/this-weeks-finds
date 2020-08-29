@@ -1,4 +1,4 @@
-week113
+# DATE {#week113}
 
 This week I'd like to talk about "spin foams". People have already
 thought a lot about using spin networks to describe the quantum geometry

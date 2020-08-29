@@ -1,4 +1,4 @@
-week120
+# DATE {#week120}
 
 Now that I'm hanging out with the gravity crowd at Penn State, I might
 as well describe what's been going on here lately.

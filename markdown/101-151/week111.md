@@ -1,4 +1,4 @@
-week111
+# DATE {#week111}
 
 This week I'll say a bit about black hole entropy, and next week I'll
 say a bit about attempts to compute it using spin networks, as promised.

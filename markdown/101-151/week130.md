@@ -1,4 +1,4 @@
-week130
+# DATE {#week130}
 
 All sorts of cool stuff is happening in physics - and I don't mean
 mathematical physics, I mean real live experimental physics! I feel

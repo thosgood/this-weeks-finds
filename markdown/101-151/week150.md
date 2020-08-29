@@ -1,4 +1,4 @@
-week150
+# DATE {#week150}
 
 First I'd like to say some stuff about Lagrange points. Then I'll
 continue talking about complex oriented cohomology theories.

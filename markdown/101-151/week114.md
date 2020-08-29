@@ -1,4 +1,4 @@
-week114
+# DATE {#week114}
 
 Classes have started! But I just flew back yesterday from the Joint
 Mathematics Meetings in Baltimore - the big annual conference organized

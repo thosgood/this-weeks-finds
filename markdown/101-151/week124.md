@@ -1,4 +1,4 @@
-week124
+# DATE {#week124}
 
 I'm just back from Tucson, where I talked a lot with my friend Minhyong
 Kim, who teaches at the math department of the University of Arizona. I

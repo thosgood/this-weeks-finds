@@ -1,4 +1,4 @@
-week 117
+# DATE {#week117}
 
 A true physicist loves matter in all its states. The phases we all
 learned about in school - solid, liquid, and gas - are just the

@@ -1,4 +1,4 @@
-week145
+# DATE {#week145}
 
 I know I promised to talk about homotopy theory and n-categories, but
 I've gotten sidetracked into thinking about projective planes, so I'll

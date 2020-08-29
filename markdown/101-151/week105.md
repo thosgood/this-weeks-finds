@@ -1,4 +1,4 @@
-week105
+# DATE {#week105}
 
 There are some spooky facts in mathematics that you'd never guess in a
 million years\... only when someone carefully works them out do they

@@ -1,4 +1,4 @@
-week134
+# DATE {#week134}
 
 My production of "This Week's Finds" has slowed to a trickle as I've
 been struggling to write up a bunch of papers. Deadlines, deadlines! I

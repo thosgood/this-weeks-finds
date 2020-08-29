@@ -1,4 +1,4 @@
-week143
+# DATE {#week143}
 
 Since this is the last Week of the millennium, I'll make sure to pack
 it full of retrospectives and prognostications. But I'd like to start
