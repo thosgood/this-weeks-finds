@@ -1,4 +1,4 @@
-# DATE {#week136}
+# August 21, 1999 {#week136}
 
 I spent most of last month in Portugal, spending time with Roger Picken
 at the Instituto Superior Tecnico in Lisbon and attending the category

@@ -1,4 +1,4 @@
-# DATE {#week105}
+# June 21, 1997 {#week105}
 
 There are some spooky facts in mathematics that you'd never guess in a
 million years... only when someone carefully works them out do they

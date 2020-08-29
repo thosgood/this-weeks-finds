@@ -1,4 +1,4 @@
-# DATE {#week139}
+# September 19, 1999 {#week139}
 
 Last time I described some of the talks at James Hartle's 60th birthday
 celebration at the Newton Institute. But I also met some people at that

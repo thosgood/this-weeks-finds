@@ -1,4 +1,4 @@
-# DATE {#week112}
+# November 3, 1997 {#week112}
 
 This week I will talk about attempts to compute the entropy of a black
 hole by counting its quantum states, using the spin network approach to

@@ -1,4 +1,4 @@
-# DATE {#week117}
+# February 14, 1998 {#week117}
 
 A true physicist loves matter in all its states. The phases we all
 learned about in school - solid, liquid, and gas - are just the

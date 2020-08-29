@@ -1,4 +1,4 @@
-# DATE {#week122}
+# June 24, 1998 {#week122}
 
 In summertime, academics leave the roost and fly hither and thither,
 seeking conferences and conversations in far-flung corners of the world.

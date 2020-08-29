@@ -1,4 +1,4 @@
-# DATE {#week110}
+# October 4, 1997 {#week110}
 
 Last time I sketched Wheeler's vision of "spacetime foam", and his
 intuition that a good theory of this would require taking spin-1/2

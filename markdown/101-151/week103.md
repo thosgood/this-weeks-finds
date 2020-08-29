@@ -1,4 +1,4 @@
-# DATE {#week103}
+# April 26, 1997 {#week103}
 
 As I segue over from the homotopy theory conference at Northwestern
 University to the conference on higher-dimensional algebra and physics

@@ -1,4 +1,4 @@
-# DATE {#week123}
+# September 19, 1998 {#week123}
 
 > It all started out as a joke. Argument for argument's sake. Alison
 > and her infuriating heresies.

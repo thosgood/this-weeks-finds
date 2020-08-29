@@ -1,4 +1,4 @@
-# DATE {#week106}
+# July 23, 1997 {#week106}
 
 Well, it seems I want to talk one more time about octonions before
 moving on to other stuff. I'm a bit afraid this obsession with

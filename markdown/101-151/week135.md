@@ -1,4 +1,4 @@
-# DATE {#week135}
+# July 31, 1999 {#week135}
 
 Well, darn it, now I'm too busy running around to conferences to write
 This Week's Finds! First I went to Vancouver, then to Santa Barbara,

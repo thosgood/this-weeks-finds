@@ -1,4 +1,4 @@
-# DATE {#week147}
+# May 20, 2000 {#week147}
 
 Various books are coming out to commemorate the millennium....
 describing the highlights of the math we've done so far, and laying out

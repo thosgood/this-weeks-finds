@@ -1,4 +1,4 @@
-# DATE {#week108}
+# September 22, 1997 {#week108}
 
 In the Weeks to come I want to talk about quantum gravity, and
 especially the relation between general relativity and spinors, since

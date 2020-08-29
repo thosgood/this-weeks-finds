@@ -1,4 +1,4 @@
-# DATE {#week115}
+# February 1, 1998 {#week115}
 
 These days I've been trying to learn more homotopy theory. James Dolan
 got me interested in it by explaining how it offers many important clues

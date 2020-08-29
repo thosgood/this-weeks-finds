@@ -1,4 +1,4 @@
-# DATE {#week107}
+# August 19, 1997 {#week107}
 
 This summer I've been hanging out in Cambridge Massachusetts, working
 on quantum gravity and also having some fun. Not so long ago I gave a

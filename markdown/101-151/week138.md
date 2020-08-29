@@ -1,4 +1,4 @@
-# DATE {#week138}
+# September 12, 1999 {#week138}
 
 I haven't been going to the Newton Institute much during my stay in
 Cambridge, even though it's right around the corner from where I live.

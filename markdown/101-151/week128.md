@@ -1,4 +1,4 @@
-# DATE {#week128}
+# January 4, 1999 {#week128}
 
 This week I'd like to catch you up on the latest developments in
 quantum gravity. First, a book that everyone can enjoy:

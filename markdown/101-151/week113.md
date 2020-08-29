@@ -1,4 +1,4 @@
-# DATE {#week113}
+# November 26, 1997 {#week113}
 
 This week I'd like to talk about "spin foams". People have already
 thought a lot about using spin networks to describe the quantum geometry

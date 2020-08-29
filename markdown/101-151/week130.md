@@ -1,4 +1,4 @@
-# DATE {#week130}
+# February 27, 1999 {#week130}
 
 All sorts of cool stuff is happening in physics - and I don't mean
 mathematical physics, I mean real live experimental physics! I feel

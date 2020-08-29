@@ -1,4 +1,4 @@
-# DATE {#week137}
+# September 4, 1999 {#week137}
 
 Now I'm in Cambridge England, chilling out with the category theorists,
 so it makes sense for me to keep talking about category theory. I'll

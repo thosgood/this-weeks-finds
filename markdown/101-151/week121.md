@@ -1,4 +1,4 @@
-# DATE {#week121}
+# May 15, 1998 {#week121}
 
 This time I want to talk about higher-dimensional algebra and its
 applications to topology. Marco Mackaay has just come out with a

@@ -1,4 +1,4 @@
-# DATE {#week140}
+# October 16, 1999 {#week140}
 
 Let's start with something fun: biographies!
 

@@ -1,4 +1,4 @@
-# DATE {#week134}
+# June 8, 1999 {#week134}
 
 My production of "This Week's Finds" has slowed to a trickle as I've
 been struggling to write up a bunch of papers. Deadlines, deadlines! I

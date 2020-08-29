@@ -1,4 +1,4 @@
-# DATE {#week148}
+# June 5, 2000 {#week148}
 
 Last week I talked about some millennium-related books. This week, some
 millennial math problems! In 1900, at the second International Congress

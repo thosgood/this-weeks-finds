@@ -1,4 +1,4 @@
-# DATE {#week133}
+# April 23, 1999 {#week133}
 
 I'd like to start with a long quote from a paper by Ashtekar:
 

@@ -1,4 +1,4 @@
-# DATE {#week141}
+# October 26, 1999 {#week141}
 
 How can you resist a book with a title like "Inconsistent
 Mathematics"?

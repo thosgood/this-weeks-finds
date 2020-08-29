@@ -1,4 +1,4 @@
-# DATE {#week150}
+# June 18, 2000 {#week150}
 
 First I'd like to say some stuff about Lagrange points. Then I'll
 continue talking about complex oriented cohomology theories.

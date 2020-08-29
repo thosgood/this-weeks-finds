@@ -1,4 +1,4 @@
-# DATE {#week116}
+# February 7, 1998 {#week116}
 
 While general relativity and the Standard Model of particle physics are
 very different in many ways, they have one important thing in common:

@@ -1,4 +1,4 @@
-# DATE {#week119}
+# April 13, 1998 {#week119}
 
 I've been slacking off on This Week's Finds lately because I was busy
 getting stuff done at Riverside so that I could visit the Center for

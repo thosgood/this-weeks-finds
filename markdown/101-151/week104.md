@@ -1,4 +1,4 @@
-# DATE {#week104}
+# June 8, 1997 {#week104}
 
 A couple of months ago I flew up to Corvallis, Oregon to an AMS meeting.
 The AMS, in case you're unfamiliar with it, is the American

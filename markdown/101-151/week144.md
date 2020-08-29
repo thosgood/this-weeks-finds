@@ -1,4 +1,4 @@
-# DATE {#week144}
+# January, 2000 {#week144}
 
 Since this is the first Week of the new millennium, I'd like to start
 with a peek into the future. Not just the next hundred or thousand

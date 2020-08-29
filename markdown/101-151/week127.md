@@ -1,4 +1,4 @@
-# DATE {#week127}
+# November 30, 1998 {#week127}
 
 If you like \pi, take a look at this book:
 
