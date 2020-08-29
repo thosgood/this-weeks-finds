@@ -14,7 +14,7 @@ into English, together with detailed and extremely intelligent
 commentary. It starts with Hermann Weyl's 1918 paper "Gravitation and
 Electricity", in which he proposed a unification of gravity and
 electromagnetism. This theory was proven wrong by Einstein in a
-one-paragraph remark which appears at the end of Weyl's paper -
+one-paragraph remark which appears at the end of Weyl's paper ---
 Einstein noticed it would predict atoms of variable size! - but it
 highlighted the common features of general relativity and Maxwell's
 equations, which were later generalized to obtain the modern concept of
@@ -52,7 +52,7 @@ possibility that the laws of physics violate parity and time reversal
 symmetry, introduced the tetrad formulation of general relativity,
 introduced the notion of a spinor connection, and explicitly derived
 electromagnetism from the gauge principle! A famously critical fellow,
-Pauli lambasted Weyl's ideas on parity and time reversal violation -
+Pauli lambasted Weyl's ideas on parity and time reversal violation ---
 which are now known to be correct. But even he conceded the importance
 of deriving Maxwell's equations from the gauge principle, saying "Here
 I must admit your ability in Physics". And he incorporated many of the
@@ -411,7 +411,7 @@ explore their uses a bit more deeply next time.
 
 *At a very early age, I made an assumption that a successful physicist
 only needs to know elementary mathematics. At a later time, to my great
-regret, I realized that this assumption of mine was completely wrong.* -
+regret, I realized that this assumption of mine was completely wrong.* ---
 Albert Einstein
 
 ------------------------------------------------------------------------

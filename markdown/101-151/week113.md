@@ -304,7 +304,7 @@ Next week I'll talk about other developments in the loop representation
 of quantum gravity, some arising from Thiemann's work on the
 Hamiltonian constraint. After that, I think I want to talk about
 something completely different, like homotopy theory. Lately I've been
-trying to make "This Week's Finds" very elementary and readable -
+trying to make "This Week's Finds" very elementary and readable ---
 relatively speaking, I mean - but I'm getting in the mood for writing
 in a more technical and incomprehensible manner, and homotopy theory is
 an ideal subject for that sort of writing.

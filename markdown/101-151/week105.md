@@ -15,7 +15,7 @@ on forever, like the plane, or the plane with a bunch of handles added
 (possibly infinitely many!), and so on.... You can classify all these
 things. 3-dimensional manifolds are a lot more complicated: nobody knows
 how to classify them. 4-dimensional manifolds are a *lot* more
-complicated: you can *prove* that it's *impossible* to classify them -
+complicated: you can *prove* that it's *impossible* to classify them ---
 that's called Markov's Theorem.
 
 Now, you probably wouldn't have guessed that a lot of things start
@@ -484,7 +484,7 @@ good when you have p dimensions of "space" and q dimensions of
 mod 8, look at what the clock says for that hour, and then take NxN
 matrices of what you see, with N chosen so that C~p,q~ gets the right
 dimension, namely 2^p+q^. So say you're a string theorist and you think
-there are 9 space dimensions and 1 time dimension. You say: "Okay, 9 -
+there are 9 space dimensions and 1 time dimension. You say: "Okay, 9 ---
 1 = 8, so I look and see what's at 8 o'clock. Okay, that's R, the
 real numbers. But my Clifford algebra C~9,1~ is supposed to have
 dimension 2^9\ +\ 1^ = 1024 = 32^2^, so my Clifford algebra must consist

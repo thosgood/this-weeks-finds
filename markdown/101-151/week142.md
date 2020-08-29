@@ -127,7 +127,7 @@ Bruce explained Go to me and showed me how it was philosophically
 interesting. But most importantly, he showed me a computer program that
 plays Go. Computers aren't great at Go, but they're good enough to
 beat an amateur like me, so they're good to learn from at first, and
-for some reason I prefer to play a computer than another person -
+for some reason I prefer to play a computer than another person ---
 perhaps because computers don't gloat.
 
 The computer program I played against is called "GNU Go". You can
@@ -229,7 +229,7 @@ curve" is the space of solutions of an equation like this:
 y^2^ = x^3^ + ax + b
 
 They come up naturally in string theory, and I've talked about them
-already in ["Week 13"](#week13) and ["Week 124"](#week124) -
+already in ["Week 13"](#week13) and ["Week 124"](#week124) ---
 ["Week 127"](#week127). If all the variables in sight are complex
 numbers, an elliptic curve looks like a torus, but number theorists like
 to consider the case where the coefficients a and b are rational. By a

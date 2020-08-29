@@ -52,7 +52,7 @@ I'd like to start with a long quote from a paper by Ashtekar:
 > procedures that have been successful in describing matter. Let us
 > begin by asking what we mean by quantization of physical quantities.
 > Take a simple example - the hydrogen atom. In this case, the answer is
-> clear: while the basic observables - energy and angular momentum -
+> clear: while the basic observables - energy and angular momentum ---
 > take on a continuous range of values classically, in quantum mechanics
 > their eigenvalues are discrete; they are quantized. So, we can ask if
 > the same is true of geometry. Classical geometrical quantities such as

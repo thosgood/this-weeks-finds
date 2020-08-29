@@ -246,7 +246,7 @@ And he draws some startling conclusions from the existence of this fixed
 point. He says it should have consequences for the missing mass problem
 and the value of the cosmological constant! However, I found it hard to
 follow his reasoning, so I decided to track down some of the references
-- starting with the above paper.
+--- starting with the above paper.
 
 Now, Ruth Williams works at Cambridge University, so I was not surprised
 to find her at Hartle's party. She was busy talking to John Barrett,

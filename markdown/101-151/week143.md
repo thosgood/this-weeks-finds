@@ -63,7 +63,7 @@ retrospective issue of the Bull. of the Amer. Math. Soc., 37 (2000),
 
 This article is based on a speech he gave in 1904. After a fascinating
 review of the development of mathematical physics, he makes some
-accurate predictions about quantum mechanics and special relativity -
+accurate predictions about quantum mechanics and special relativity ---
 but closes on a conservative note:
 
 > In what direction we are going to expand we are unable to foresee.
@@ -192,7 +192,7 @@ you're trying to detect very small distortions of the geometry of
 spacetime, it helps to measure the distance between quite distant
 points. Second, outer space is free of seismic noise and most other
 sources of vibration. This is why people are working on the LISA project
-- the Laser Interferometric Space Antenna:
+--- the Laser Interferometric Space Antenna:
 
 9) European Space Agency's homepage on the LISA project,
 <http://www.estec.esa.nl/spdwww/future/html/lisa.htm>

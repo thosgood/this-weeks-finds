@@ -12,7 +12,7 @@ flies, I should mention the following science fiction novel:
 I haven't been keeping up with science fiction too carefully lately, so
 I'm not really the best judge. But as far as I can tell, Egan is one of
 the few practitioners these days who bites off serious chunks of reality
-- who really tries to face up to the universe and its possibilies in
+--- who really tries to face up to the universe and its possibilies in
 their full strangeness. Reality is outpacing our imagination so fast
 that most attempts to imagine the future come across as miserably
 unambitious. Many have a deliberately "retro" feel to them - space

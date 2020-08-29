@@ -41,7 +41,7 @@ preprint available as
 So let me talk about this stuff a bit....
 
 As usual, the underlying theme of this paper is categorification. I've
-talked about this a lot already - e.g. in ["Week 121"](#week121) -
+talked about this a lot already - e.g. in ["Week 121"](#week121) ---
 so I'll assume you remember that when we categorify, we use this
 analogy:
 
@@ -402,7 +402,7 @@ example that is very important in string theory:
 1 + 2 + 3 + 4 + 5 + ... = ζ(-1) = -1/12
 
 So maybe some similar trickery can be used to count the elements of G
-and get a divergent sum that can be sneakily evaluated to obtain 1/(2 -
+and get a divergent sum that can be sneakily evaluated to obtain 1/(2 ---
 2g). Of course, even if we succeed in doing this, the skeptics will
 rightly question the significance of such tomfoolery. But there is
 sometimes a lot of profound truth lurking in these bizarre formal

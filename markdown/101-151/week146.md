@@ -110,7 +110,7 @@ preprint available as
 
 The Osterwalder-Shrader theorem is the result people use when they want
 to *rigorously* justify Wick rotations. Here these authors generalize it
-so that it applies to a large class of background-free field theories -
+so that it applies to a large class of background-free field theories ---
 perhaps even quantum gravity! It turns out not to be hard, once you go
 about it properly. Quite a surprise.
 

@@ -184,7 +184,7 @@ summarizing Penon's definition:
 6) Jacques Penon, Approache polygraphique des \$\\infty\$-categories
 non strictes, in Cahiers Top. Geom. Diff. 40 (1999), 31-79.
 
-It seems pretty cool, so I'd like to tell you what Leinster said -
+It seems pretty cool, so I'd like to tell you what Leinster said ---
 using his terminology rather than Penon's (which of course is in
 French). To keep this short I'm going to assume you know a reasonable
 amount of category theory.

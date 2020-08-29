@@ -216,7 +216,7 @@ diffeomorphic to S^7^ with its usual smooth structure if and only if (n
 
 For the details of the above argument you can try the following book:
 
-3) B. A. Dubrovin, A. T. Fomenko and S. P. Novikov, Modern Geometry -
+3) B. A. Dubrovin, A. T. Fomenko and S. P. Novikov, Modern Geometry ---
 Methods and Applications, Part III: Introduction to Homology Theory,
 Springer-Verlag Graduate Texts, number 125, Springer, New York, 1990.
 

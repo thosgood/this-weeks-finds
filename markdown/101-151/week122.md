@@ -154,7 +154,7 @@ on? Well, maybe S^4^ actually *is* algorithmically detectable. Or
 perhaps it's not, but the bottlenecks only occur for triangulations
 that have more than 65,536 4-simplices to begin with. Interestingly, one
 dimension up, it's known that the 5-dimensional sphere is *not*
-algorithmically detectable, so in this case bottlenecks *must* exist -
+algorithmically detectable, so in this case bottlenecks *must* exist ---
 but computer simulations still haven't seen them.
 
 I should emphasize that in addition to this funny computability stuff,

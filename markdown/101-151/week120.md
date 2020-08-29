@@ -20,7 +20,7 @@ You'll see a bunch of spin networks poking the horizon, giving it area
 and curvature. Of course, this is just a theory.
 
 Second, there's been a burst of new work studying quantum gravity in
-terms of spin foams. A spin foam looks a bit like a bunch of soap suds -
+terms of spin foams. A spin foam looks a bit like a bunch of soap suds ---
 with the faces of the bubbles and the edges where the bubbles meet
 labelled by spins j = 0, 1/2, 1, 3/2, etc.. Spin foams are an attempt at
 a quantum description of the geometry of spacetime. If you slice a spin

@@ -238,7 +238,7 @@ series"!
 
 I don't have the energy to explain Dynkin diagrams and the ABCDEFG
 classification of simple Lie groups here, but luckily I've already done
-that, so you can just look at ["Week 62"](#week62) -
+that, so you can just look at ["Week 62"](#week62) ---
 ["Week 65"](#week65) to learn about that. The point is, there is an
 infinite series of simple Lie groups associated to rotations in real
 vector spaces - the SO(n) groups, also called the B and D series. There

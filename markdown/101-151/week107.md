@@ -14,7 +14,7 @@ immiscible and ternary amphiphilic fluid, preprint available as
 As you add more and more of an amphiphilic molecule (e.g. soap) to a
 binary immiscible fluid (e.g. oil and water), the boundary layer likes
 to grow in area. This is why you wash your hands with soap. There are
-various phases depending on the concentrations of the three substances -
+various phases depending on the concentrations of the three substances ---
 a "spongy" phase, a "droplet phase", and so on - and it is very hard
 to figure out what is going on quantitatively using analytical methods.
 
@@ -120,7 +120,7 @@ per billion years. 2) They take the asteroid belt into account only as
 modification of the sun's quadrupole moment (which they also use to
 model its oblateness). 3) The most worrisome thing about the whole
 simulation - the most complicated and unpredictable aspect of the whole
-solar system in terms of its gravitational effects on everything else -
+solar system in terms of its gravitational effects on everything else ---
 is the Earth-Moon system, with its big tidal effects. 4) The sun loses
 one Earth mass per 100 million years due to radiation, and another
 quarter Earth mass due to solar wind. 5) The first planet to go is

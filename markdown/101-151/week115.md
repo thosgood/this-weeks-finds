@@ -59,7 +59,7 @@ modifications):
 > knew there were no shortcuts, no alternatives to exploring the Mines
 > first hand. Ve couldn't hope to strike out in a fresh direction, a
 > route no one had ever chosen before, without a new take on the old
-> results. Only once ve'd constructed vis own map of the Mines -
+> results. Only once ve'd constructed vis own map of the Mines ---
 > idiosyncratically crumpled and stained, adorned and annotated like no
 > one else's - could ve begin to guess where the next rich vein of
 > undiscovered truths lay buried.
@@ -282,7 +282,7 @@ basically just a bunch of simplices stuck together along their faces in
 an arbitrary way. We can think of it as a kind of purely combinatorial
 version of a "space". That's one reason simplicial sets are so
 popular in topology: they let us study spaces in a truly elegant
-algebraic context. We can define all the things topologists love -
+algebraic context. We can define all the things topologists love ---
 homology groups, homotopy groups (see ["Week 102"](#week102)), and
 so on - while never soiling our hands with open sets, continuous
 functions and the like. To see how it's done, try:

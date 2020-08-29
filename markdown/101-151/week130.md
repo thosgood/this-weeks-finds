@@ -13,7 +13,7 @@ cosmological constant.
 Let's start with neutrinos.
 
 There are three kinds of neutrinos: electron, muon, and τ neutrinos.
-They are closely akin to the charged particles whose names they borrow -
+They are closely akin to the charged particles whose names they borrow ---
 the electron, muon and τ - but unlike those particles they are
 electrically neutral and very light. They are rather elusive, since they
 interact only via the weak force and gravity. I'm sure you've all

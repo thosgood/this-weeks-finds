@@ -51,7 +51,7 @@ dimensions 5 and higher, and Freedman later solved the subtler
 is an excellent illustration of a fact that may seem surprising at
 first: many problems in topology are toughest in fairly low dimensions!
 The reason is that there's less "maneuvering room". The last couple
-decades have seen a burst of new ideas in low-dimensional topology -
+decades have seen a burst of new ideas in low-dimensional topology ---
 this has been a theme of This Week's Finds ever since it started - but
 the Poincaré conjecture remains uncracked.
 
@@ -532,5 +532,5 @@ game so that he can recall many deeply analyzed positions. This is the
 same in mathematical research. We have to play often with the masters
 (that is, try to improve on the results of famous mathematicians); we
 must learn the standard works of the game (that is, the "well-known"
-results). If we continue like this our progress becomes inevitable.* -
+results). If we continue like this our progress becomes inevitable.* ---
 Hua Loo-Keng, Introduction to Number Theory

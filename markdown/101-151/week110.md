@@ -206,7 +206,7 @@ f: j~1~ ⊗ j~2~\to j~3~ ⊗ j~4~
 
 where j~1~,...,j~4~ are the spins on these edges. If you know about the
 representation theory of SU(2), you know that j~1~ ⊗ j~2~ is a direct
-sum of representations of spin j~5~, where j~5~ goes from |j~1~ -
+sum of representations of spin j~5~, where j~5~ goes from |j~1~ ---
 j~2~| up to j~1~ + j~2~ in integer steps. So we get a basis of
 intertwining operators:
 

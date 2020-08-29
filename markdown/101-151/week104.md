@@ -15,7 +15,7 @@ about the octonions? Aren't they good for something too? This question
 has been bugging me for a while now.
 
 In fact, it bugs me so much that I decided to go to Corvallis to look
-for clues. After all, in addition to Tevian Dray and Corinne Manogue -
+for clues. After all, in addition to Tevian Dray and Corinne Manogue ---
 the former a mathematician, the latter a physicist, both deeply
 interested in octonions - a bunch of other octonion experts were going
 to be there. One was my friend Geoffrey Dixon. I told you about him in
@@ -415,7 +415,7 @@ and he writes:
 > They are all in the adjoint representation. Γ are the generators of
 > the Clifford algebra described by John Baez before.
 >
-> \[Also, ε^†^ is my feeble subsitute for an ε with a bar over it. -
+> \[Also, ε^†^ is my feeble subsitute for an ε with a bar over it. ---
 > JB\]
 >
 > For the Lagrangian we try the usual Yang-Mills term and add a

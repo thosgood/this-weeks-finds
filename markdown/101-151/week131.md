@@ -12,7 +12,7 @@ after the triumph of the Standard Model. As you probably know, the
 Standard Model is a quantum field theory describing all known particles
 and all the known forces except gravity: the electromagnetic, weak and
 strong forces. The Standard Model treats the electromagnetic and weak
-forces in a unified way - so one speaks of the "electroweak" force -
+forces in a unified way - so one speaks of the "electroweak" force ---
 but it treats the strong force seperately.
 
 In 1975, Georgi and Glashow invented a theory which fit all the known
@@ -207,7 +207,7 @@ constant, the missing mass problem, the large-scale structure of the
 universe, and even the puzzling γ-ray bursters - they're all food for
 thought along these lines.
 
-The following book caught my eye since it looked like just what I need -
+The following book caught my eye since it looked like just what I need ---
 an easy tutorial in the latest developments in cosmology:
 
 3) Greg Bothun, Modern Cosmological Observations and Problems, Taylor &
@@ -252,7 +252,7 @@ falling into denser regions and moving away from the voids. For example,
 the Milky Way is falling towards the center of the Local Supercluster at
 about 300 kilometers per second, and the Local Supercluster is also
 falling towards the next nearest one - the Hydra-Centaurus Supercluster
-- at about 300 kilometers per second.
+--- at about 300 kilometers per second.
 
 Now, if the big bang theory is right, all this stuff was once very
 small, and the universe was much more homogeneous. Obviously gravity
@@ -298,7 +298,7 @@ disks that shoot out jets of plasma from both poles.
 
 Mega masers: A laser is a source of coherent light caused by stimulated
 emission - a very quantum-mechanical gadget. A maser is the same sort of
-thing but with microwaves. In fact, masers were invented before lasers -
+thing but with microwaves. In fact, masers were invented before lasers ---
 they are easier to make because the wavelength is longer. In galaxies,
 clouds of water vapor, hydroxyl, silicon monoxide, methanol and other
 molecules can form enormous natural masers. In our galaxy the most

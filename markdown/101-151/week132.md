@@ -144,7 +144,7 @@ quantum gravity, and what a theory of quantum gravity should be like:
 > realized that the great lesson of general relativity is that a good
 > theory of physics should contain no geometrical structures that affect
 > local degrees of freedom while remaining unaffected by them. Instead,
-> all geometrical structures - and in particular the causal structure -
+> all geometrical structures - and in particular the causal structure ---
 > should themselves be local degrees of freedom. For short, one says
 > that the theory should be background-free.
 >

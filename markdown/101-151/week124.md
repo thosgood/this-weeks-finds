@@ -225,7 +225,7 @@ words, "spacetime" turns into "space". And this gives conformal
 field theory a double personality.
 
 First, conformal field theory studies quantum field theories in 2
-dimensions that are invariant under all conformal transformations -
+dimensions that are invariant under all conformal transformations ---
 transformations that preserve angles but not necessarily lengths. These
 are important in string theory because we can think of them as
 transformations of the string worldsheet that preserve its complex
@@ -257,7 +257,7 @@ theory proper, including:
     Virasoro algebra),
 -   the Coulomb-gas formalism (a way to describe minimal models in terms
     of the free boson and fermion fields),
--   modular invariance (the study of conformal field theory on tori -
+-   modular invariance (the study of conformal field theory on tori ---
     this is where the elliptic curves start sneaking into the picture,
     dragging along with them the wonderful machinery of elliptic
     functions, theta functions, the Dedekind eta function, and so
@@ -282,7 +282,7 @@ sorts of fun stuff, skipping all the yucky proofs. Then we get a 54-page
 introduction to affine Lie algebras, which are infinite- dimensional
 generalizations of the simple Lie algebras, and play a crucial role in
 string theory. Finally, we get a detailed 143-page course on WZW models
-- which are basically conformal field theories where your field takes
+--- which are basically conformal field theories where your field takes
 values in a Lie group - and coset models - where your field takes values
 in a Lie group modulo a subgroup. It sounds like all minimal models can
 be described as coset models, though I'm not quite sure.

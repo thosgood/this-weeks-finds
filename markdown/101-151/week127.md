@@ -241,7 +241,7 @@ is something familiar: it's just the moduli space of elliptic curves!
 We figured out what this space looks like in
 ["Week 125"](#week125). It's finite-dimensional and there's a
 nice way to integrate over it, called the Weil-Petersson measure. So we
-can hope to replace the outside integral - the integral over metrics -
+can hope to replace the outside integral - the integral over metrics ---
 by an integral over this moduli space.
 
 Indeed, we could hope that
@@ -400,7 +400,7 @@ is harder. Anyway, using these facts it's easy to see that
 1 / (√Im(τ) |η(τ)|^2^)
 
 is invariant under PSL(2,Z), so it's really a function on moduli space
-- but only if that factor of 1/sqrt(Im(τ)) is in there!
+--- but only if that factor of 1/sqrt(Im(τ)) is in there!
 
 Finally, I'd like to say something about why the conformal anomalies
 cancel in 26 dimensions. When I began thinking about this stuff I was

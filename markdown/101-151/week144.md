@@ -83,7 +83,7 @@ but many existing stars will be hurled out into intergalactic space, and
 many new stars will be born as gas clouds collide.
 
 You may think that I'm joking when I speak of planning ahead for such
-events, but I'm not. We have plenty of time, so it's not very urgent -
+events, but I'm not. We have plenty of time, so it's not very urgent ---
 but it's not too soon to start thinking about these things. And if you
 think it's hopelessly beyond our powers to deal with a collision of
 galaxies, please remember that 3 billion years ago we were single-celled
@@ -100,7 +100,7 @@ radiation": a diffuse X-ray glow that covers the whole sky. On
 Thursday, astronomers using Chandra discovered that most of this
 radiation actually comes from about 70 million individual point sources!
 Apparently, many of these are supermassive black holes at the center of
-galaxies. There's already a lot of evidence for such black holes -
+galaxies. There's already a lot of evidence for such black holes ---
 which seem to power quasars and other active galactic nuclei - but it's
 delightful to find them in such large numbers. It might even be taken as
 evidence for Smolin's hypothesis that the universe is optimized for

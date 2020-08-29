@@ -489,7 +489,7 @@ is the spectrum for real or complex K-theory.
 *This therefore, is mathematics: she reminds you of the invisible forms
 of the soul; she gives light to her own discoveries; she awakens the
 mind and purifies the intellect; she brings light to our intrinsic
-ideas; she abolishes oblivion and ignorance which are ours by birth.* -
+ideas; she abolishes oblivion and ignorance which are ours by birth.* ---
 Proclus
 
 ------------------------------------------------------------------------

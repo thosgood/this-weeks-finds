@@ -405,7 +405,7 @@ With the aid of Cardy's formula for the asymptotic density of states in
 a conformal field theory, I use this description to derive the
 Bekenstein-Hawking entropy. This method is universal - it holds for any
 black hole, in any dimension, and requires no details of quantum gravity
-- but it is also explicitly statistical mechanical, based on the
+--- but it is also explicitly statistical mechanical, based on the
 counting of microscopic states.
 
 On Thursday I'm flying to Schladming, Austria to attend a workshop on
