@@ -584,19 +584,56 @@ $$
   \end{tikzpicture}
 $$
 and the quartic self-interaction as something a wee bit fancier:
-                          \ \       / /
-                          x\ \x*  x/ /x*
-                            \ \   / /
-                             \ \ / /
-                              \ C /
-                               \ /
-                               / \
-                              / U \
-                             / / \ \
-                            / /   \ \
-                          x/ /x*  x\ \x*
-                          / /       \ \ 
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0.5)
+        to (0,0)
+        to [out=down,in=down,looseness=2] (1,0)
+        to (1,0.5);
+    \end{knot}
+    \node[fill=white] at (0,0) {$x^*$};
+    \node[fill=white] at (1,0) {$x$};
+    \node[label=below:{$C$}] at (0.5,-0.6) {$\bullet$};
+    \begin{knot}
+      \strand[thick] (-0.75,0.5)
+        to (-0.75,0)
+        to [out=down,in=up] (0.1,-1.75)
+        to (0.1,-2);
+      \strand[thick] (1.75,0.5)
+        to (1.75,0)
+        to [out=down,in=up] (0.9,-1.75)
+        to (0.9,-2);
+    \end{knot}
+    \node[fill=white] at (-0.75,0) {$x$};
+    \node[fill=white] at (1.75,0) {$x^*$};
+    \begin{scope}[yscale=-1,shift={(0,4)}]
+      \begin{knot}
+        \strand[thick] (0,0.5)
+          to (0,0)
+          to [out=down,in=down,looseness=2] (1,0)
+          to (1,0.5);
+      \end{knot}
+      \node[fill=white] at (0,0) {$x^*$};
+      \node[fill=white] at (1,0) {$x$};
+      \node[label=below:{$U$}] at (0.5,-0.6) {$\bullet$};
+      \begin{knot}
+        \strand[thick] (-0.75,0.5)
+          to (-0.75,0)
+          to [out=down,in=up] (0.1,-1.75)
+          to (0.1,-2);
+        \strand[thick] (1.75,0.5)
+          to (1.75,0)
+          to [out=down,in=up] (0.9,-1.75)
+          to (0.9,-2);
+      \end{knot}
+      \node[fill=white] at (-0.75,0) {$x$};
+      \node[fill=white] at (1.75,0) {$x^*$};
+    \end{scope}
+    \node[fill=white] at (0,-2) {$x$};
+    \node[fill=white] at (1,-2) {$x^*$};
+  \end{tikzpicture}
+$$
 Apparently these ideas have spawned a whole field of physics called
 "matrix models".
 
