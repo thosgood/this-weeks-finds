@@ -201,7 +201,7 @@ monoid - the elements that commute with all the others. And indeed, both
 kinds of center are special cases of a general construction that pushes
 you down the columns of the "periodic table":
 
-                       k-tuply monoidal n-categories
+                       k-tuply monoidal $n$-categories
 
                   n = 0           n = 1             n = 2
 

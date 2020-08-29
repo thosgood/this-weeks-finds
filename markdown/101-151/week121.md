@@ -256,27 +256,27 @@ spaces. The higher coherence laws in these sequences turn out to be
 crucial when we try to *iterate* the process of categorification.
 
 To *iterate* the process of categorification, we need a concept of
-"n-category" - roughly, an algebraic structure consisting of a
+"$n$-category" - roughly, an algebraic structure consisting of a
 collection of objects (or "0-morphisms"), morphisms between objects
 (or "1-morphisms"), 2-morphisms between morphisms, and so on up to
-n-morphisms. There are various ways of making this precise, and right
+$n$-morphisms. There are various ways of making this precise, and right
 now there is a lot of work going on devoted to relating these different
 approaches. But the basic thing to keep in mind is that the concept of
-"(n+1)-category" is a categorification of the concept of
-"n-category". What were equational laws between n-morphisms in an
-n-category are replaced by natural (n+1)-isomorphisms, which need to
+"$(n+1)$-category" is a categorification of the concept of
+"$n$-category". What were equational laws between $n$-morphisms in an
+$n$-category are replaced by natural (n+1)-isomorphisms, which need to
 satisfy certain coherence laws of their own.
 
 To get a feeling for how these coherence laws are related to homotopy
-theory, it's good to think about certain special kinds of n-category.
+theory, it's good to think about certain special kinds of $n$-category.
 If we have an (n+k)-category that's trivial up to but not including the
-k-morphism level, we can turn it into an n-category by a simple
+k-morphism level, we can turn it into an $n$-category by a simple
 reindexing trick: just think of its j-morphisms as (j-k)-morphisms! We
-call the n-categories we get this way "k-tuply monoidal n-categories".
+call the $n$-categories we get this way "k-tuply monoidal $n$-categories".
 Here is a little chart of what they amount to for various low values of
 n and k:
 
-                       k-tuply monoidal n-categories 
+                       k-tuply monoidal $n$-categories 
 
                   n = 0           n = 1             n = 2
 
@@ -305,7 +305,7 @@ n and k:
 One reason James Dolan and I got so interested in this chart is the
 "tangle hypothesis". Roughly speaking, this says that n-dimensional
 surfaces embedded in (n+k)-dimensional space can be described purely
-algebraically using the a certain special "k-tuply monoidal n-category
+algebraically using the a certain special "k-tuply monoidal $n$-category
 with duals". If true, this reduces lots of differential topology to
 pure algebra! It also helps you understand the parameters n and k: you
 should think of n as "dimension" and k as "codimension".
@@ -334,26 +334,26 @@ to *see* 2-dimensional surfaces knotted in 4d space. At the end it
 sketches the statement of Langford's result.
 
 Another interesting thing about the above chart is that k-tuply monoidal
-n-categories keep getting "more commutative" as k increases, until one
+$n$-categories keep getting "more commutative" as k increases, until one
 reaches k = n+2, at which point things stabilize. There is a lot of
 evidence suggesting that this "stabilization hypothesis" is true for
 all n. Assuming it's true, it makes sense to call a k-tuply monoidal
-n-category with k ³ n+2 a "stable n-category".
+$n$-category with k ³ n+2 a "stable $n$-category".
 
 Now, where does homotopy theory come in? Well, here you need to look at
-n-categories where all the j-morphisms are invertible for all j. These
+$n$-categories where all the j-morphisms are invertible for all j. These
 are called "n-groupoids". Using these, one can develop a translation
-dictionary between n-category theory and homotopy theory, which looks
+dictionary between $n$-category theory and homotopy theory, which looks
 like this:
 
 
-    ω-groupoids                    homotopy types 
+    $\omega$-groupoids                    homotopy types 
     n-groupoids                        homotopy n-types
-    k-tuply groupal ω-groupoids    homotopy types of k-fold loop spaces
+    k-tuply groupal $\omega$-groupoids    homotopy types of k-fold loop spaces
     k-tuply groupal n-groupoids        homotopy n-types of k-fold loop spaces 
-    k-tuply monoidal ω-groupoids   homotopy types of Ek spaces 
+    k-tuply monoidal $\omega$-groupoids   homotopy types of Ek spaces 
     k-tuply monoidal n-groupoids       homotopy n-types of Ek spaces
-    stable ω-groupoids             homotopy types of infinite loop spaces
+    stable $\omega$-groupoids             homotopy types of infinite loop spaces
     stable n-groupoids                 homotopy n-types of infinite loop spaces 
     Z-groupoids                        homotopy types of spectra  
 
@@ -362,31 +362,31 @@ viewpoint; the entries on the right-hand side are things topologists
 already study. We explain what all these terms mean in the paper, but
 maybe I should say something about the first two rows, which are the
 most basic in a way. A homotopy type is roughly a topological space "up
-to homotopy equivalence", and an ω-groupoid is a kind of limiting case
+to homotopy equivalence", and an $\omega$-groupoid is a kind of limiting case
 of an n-groupoid as n goes to infinity. If infinity is too scary, you
 can work with homotopy n-types, which are basically homotopy types with
 no interesting topology above dimension n. These should correspond to
 n-groupoids.
 
 Using these basic correspondences we can then relate various special
-kinds of homotopy types to various special kinds of ω-groupoids, giving
+kinds of homotopy types to various special kinds of $\omega$-groupoids, giving
 the rest of the rows of the chart. Homotopy theorists know a lot about
 the right-hand column, so we can use this to get a lot of information
 about the left-hand column. In particular, we can work out the coherence
 laws for n-groupoids, and - this is the best part, but the least
 understood - we can then *guess* a lot of stuff about the coherence laws
-for *general* n-categories. In short, we are using homotopy theory to
-get our foot in the door of n-category theory.
+for *general* $n$-categories. In short, we are using homotopy theory to
+get our foot in the door of $n$-category theory.
 
 I should emphasize, though, that this translation dictionary is
 partially conjectural. It gets pretty technical to say what exactly is
 and is not known, especially since there's pretty rapid progress going
 on. Even in the last few months there have been some interesting
 developments. For example, Breen has come out with a paper relating
-k-tuply monoidal n-categories to Postnikov towers and various far-out
+k-tuply monoidal $n$-categories to Postnikov towers and various far-out
 kinds of homological algebra:
 
-4) Lawrence Breen, Braided n-categories and Σ-structures,
+4) Lawrence Breen, Braided $n$-categories and Σ-structures,
 Prepublications Matematiques de l'Universite Paris 13, 98-06, January
 1998, to appear in the Proceedings of the Workshop on Higher Category
 Theory and Mathematical Physics at Northwestern University, Evanston,
@@ -400,7 +400,7 @@ space, just as the nerve of a category gives an arbitrary homotopy type:
 monoidal categories, available at
 [math.AT/9808082](http://arxiv.org/abs/math.AT/9808082).
 
-Anyway, in addition to explaining the relationship between n-category
+Anyway, in addition to explaining the relationship between $n$-category
 theory and homotopy theory, Dolan's and my paper discusses iterated
 categorifications of the very simplest algebraic structures: the natural
 numbers and the integers. The natural numbers are the free monoid on one
@@ -417,30 +417,30 @@ this is just the tip of the following iceberg:
         groups                                the integers
     ----------------------------------------------------------------------
      k-tuply monoidal                      the braid n-groupoid 
-       n-categories                           in codimension k
+       $n$-categories                           in codimension k
     ----------------------------------------------------------------------
-      k-tuply monoidal                    the braid ω-groupoid 
-      ω-categories                        in codimension k
+      k-tuply monoidal                    the braid $\omega$-groupoid 
+      $\omega$-categories                        in codimension k
     ----------------------------------------------------------------------
-     stable n-categories                  the braid n-groupoid 
+     stable $n$-categories                  the braid n-groupoid 
                                          in infinite codimension
     ----------------------------------------------------------------------
-    stable ω-categories               the braid ω-groupoid 
+    stable $\omega$-categories               the braid $\omega$-groupoid 
                                           in infinite codimension
     ----------------------------------------------------------------------
-      k-tuply monoidal                 the n-category of framed n-tangles
-    n-categories with duals                  in n+k dimensions
+      k-tuply monoidal                 the $n$-category of framed n-tangles
+    $n$-categories with duals                  in n+k dimensions
     ----------------------------------------------------------------------
-     stable n-categories                the framed cobordism n-category
+     stable $n$-categories                the framed cobordism $n$-category
         with duals
     ----------------------------------------------------------------------
      k-tuply groupal                         the homotopy n-type 
       n-groupoids                        of the kth loop space of Sk
     ----------------------------------------------------------------------
      k-tuply groupal                          the homotopy type  
-     ω-groupoids                    of the kth loop space of Sk
+     $\omega$-groupoids                    of the kth loop space of Sk
     ---------------------------------------------------------------------
-    stable ω-groupoids                   the homotopy type 
+    stable $\omega$-groupoids                   the homotopy type 
                                        of the infinite loop space of S\infty
     -------------------------------------------------------------------------
        Z-groupoids                          the sphere spectrum       
@@ -451,8 +451,8 @@ they are all in some sense categorified and/or stabilized versions of
 the integers and natural numbers.
 
 Whew! There is more to say, but I'll just mention a few related papers
-and then quit. If you're interested in n-categories you could also
-check out "the tale of n-categories", starting in
+and then quit. If you're interested in $n$-categories you could also
+check out "the tale of $n$-categories", starting in
 [week73](week73.html).
 
 6) Representation theory of Hopf categories, Martin Neuchl, Ph.D.
@@ -472,7 +472,7 @@ theory, preprint available as
 
 Starting with Boardman and Vogt's work, and shortly thereafter that of
 May, operads have become really important in homotopy theory, string
-theory, and now n-category theory; this review article sketches some of
+theory, and now $n$-category theory; this review article sketches some of
 the connections.
 
 8) Masoud Khalkhali, On cyclic homology of A~\infty~ algebras, preprint

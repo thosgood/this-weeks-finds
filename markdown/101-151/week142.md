@@ -324,27 +324,27 @@ and topological quantum field theory, in Functional Analysis on the Eve
 of the 21st Century, Vol. 1, Birkhaueser, Boston, pp. 119-151.
 
 For this reason - and others - it's not so surprising that David
-Carlton and some of his buddies are interested in n-categories. In fact,
-Carlton caught a small error in the definition of n-categories due to
+Carlton and some of his buddies are interested in $n$-categories. In fact,
+Carlton caught a small error in the definition of $n$-categories due to
 James Dolan and myself - it turns out that the number "1" should be
 the number "2" at one particular place in the definition! Anyone who
 can spot a problem like that is friend of mine.
 
 Even better, Carlton is now interested in understanding the
-(n+1)-category of all n-categories, which is crucial for really doing
-anything with n-categories. Makkai has a new paper on this subject, and
+$(n+1)$-category of all $n$-categories, which is crucial for really doing
+anything with $n$-categories. Makkai has a new paper on this subject, and
 I realize now that I've never mentioned this paper on This Week's
 Finds, so let me conclude by quoting the abstract. It's pretty long and
-detailed, and probably only of interest to n-category addicts....
+detailed, and probably only of interest to $n$-category addicts....
 
-15) M. Makkai, The multitopic ω-category of all multitopic
-ω-categories, preprint available at
+15) M. Makkai, The multitopic $\omega$-category of all multitopic
+$\omega$-categories, preprint available at
 <ftp://ftp.math.mcgill.ca/pub/makkai>
 
-> "The paper gives two definitions: that of "multitopic ω-category"
+> "The paper gives two definitions: that of "multitopic $\omega$-category"
 > and that of "the (large) multitopic set of all (small) multitopic
-> ω-categories". It also announces the theorem that the latter is a
-> multitopic ω-category. (The proof of the theorem will be contained in
+> $\omega$-categories". It also announces the theorem that the latter is a
+> multitopic $\omega$-category. (The proof of the theorem will be contained in
 > a sequel to this paper.)
 >
 > The work has two direct sources. One is the paper \[H/M/P\] (for the
@@ -382,7 +382,7 @@ detailed, and probably only of interest to n-category addicts....
 > The indebtedness of the present work to the work of Baez and Dolan
 > goes further than that of \[H/M/P\]. The second ingredient of the
 > Baez/Dolan definition, after "opetopic set", is the concept of
-> "universal cell". The Baez/Dolan definition of weak n-category
+> "universal cell". The Baez/Dolan definition of weak $n$-category
 > achieves the remarkable feat of specifying the composition structure
 > by universal properties taking place in an opetopic set. In
 > particular, a (weak) opetopic (higher-dimensional) category is an
@@ -430,7 +430,7 @@ detailed, and probably only of interest to n-category addicts....
 > role. The concepts of "FOLDS-signature" and "FOLDS-equivalence"
 > are fully described in section 1 of this paper.
 >
-> The definition of **multitopic ω-category** goes, in outline, as
+> The definition of **multitopic $\omega$-category** goes, in outline, as
 > follows. For an arbitrary multitope SIGMA of dimension \>=2, for a
 > multitopic set S, for a pasting diagram ALPHA in S of shape the domain
 > of SIGMA and a cell a in S of the shape the codomain of SIGMA, such
@@ -444,7 +444,7 @@ detailed, and probably only of interest to n-category addicts....
 > FOLDS-equivalence-span E between S\<a\> and S\<ALPHA\> that restricts
 > to the identity equivalence-span from S to S . Below, I'll refer to E
 > as an **equipment** for a being a composite of ALPHA. A multitopic set
-> is a **mulitopic ω-category** iff every pasting diagram ALPHA in it
+> is a **mulitopic $\omega$-category** iff every pasting diagram ALPHA in it
 > has at least one composite.
 >
 > The analog of the universal arrows in the Baez/Dolan style definition
@@ -459,19 +459,19 @@ detailed, and probably only of interest to n-category addicts....
 > weak \*ω\*-categories; the finite dimensional ones are obtained as
 > truncated versions of the full concept. The treatment in \[B/D\]
 > concerns finite dimensional weak categories. It is important to
-> emphasize that a multitopic ω-category is still just a multitopic set
+> emphasize that a multitopic $\omega$-category is still just a multitopic set
 > with additional properties, but with no extra data.
 >
-> The definition of "multitopic ω-category" is given is section 5; it
+> The definition of "multitopic $\omega$-category" is given is section 5; it
 > uses sections 1, 2 and 4, but not section 3.
 >
 > The second main thing done in this paper is the definition of
 > MltOmegaCat. This is a particular large multitopic set. Its definition
 > is completed only by the end of the paper. The 0-cells of MltOmegaCat
-> are the samll multitopic ω-categories, defined in section 5. Its
+> are the samll multitopic $\omega$-categories, defined in section 5. Its
 > 1-cells, which we call 1-transfors (thereby borrowing, and altering
 > the meaning of, a term used by Sjoerd Crans \[Cr\]) are what stand for
-> "morphisms", or "functors", of multitopic ω-categories. For
+> "morphisms", or "functors", of multitopic $\omega$-categories. For
 > instance, in the 2-dimensional case, multitopic 2-categories
 > correspond to ordinary bicategories by a certain process of
 > "cleavage", and the 1-transfors correspond to homomorphisms of
@@ -486,10 +486,10 @@ detailed, and probably only of interest to n-category addicts....
 > zero-dimensional multitope, PI-colored multitopic sets are the same as
 > ordinary multitopic sets. Thus, the definition of a transfor of an
 > arbitrary dimension and shape is a generalization of that of
-> "multitopic ω-category"; the additional properties are also similar,
+> "multitopic $\omega$-category"; the additional properties are also similar,
 > they being defined by FOLDS-based universal properties. There is one
 > new element though. For dim(PI)\>=2 , the concept of PI-transfor
-> involves a universal property which is an ω-dimensional, FOLDS-style
+> involves a universal property which is an $\omega$-dimensional, FOLDS-style
 > generalization of the concept of right Kan-extension (right lifting in
 > the terminology used by Ross Street). This is a "right-adjoint" type
 > universal property, in contrast to the "left-adjoint" type involved
@@ -497,16 +497,16 @@ detailed, and probably only of interest to n-category addicts....
 > tensor product in modules).
 >
 > The main theorem, stated but not proved here, is that MltOmegaCat is a
-> multitopic ω-category.
+> multitopic $\omega$-category.
 >
 > The material in this paper has been applied to give formulations of
-> ω-dimensional versions of various concepts of homotopy theory; details
+> $\omega$-dimensional versions of various concepts of homotopy theory; details
 > will appear elesewhere.
 >
 > References:
 >
 > \[B/D\] J. C. Baez and J. Dolan, Higher-dimensional algebra III.
-> n-categories and the algebra of opetopes. Advances in Mathematics 135
+> $n$-categories and the algebra of opetopes. Advances in Mathematics 135
 > (1998), 145-206.
 >
 > \[Be\] J. Benabou, Introduction to bicategories. In: Lecture Notes in

@@ -5,8 +5,7 @@ University to the conference on higher-dimensional algebra and physics
 that took place right after that, it's a good time to mention Ronnie
 Brown's web page:
 
-1) Ronald Brown, Higher-dimensional group theory,
-<http://www.bangor.ac.uk/~mas010/home.html>
+1) Ronald Brown, Higher-dimensional group theory, `http://www.bangor.ac.uk/~mas010/home.html`
 
 Brown is the one who coined the phrase "higher-dimensional algebra",
 and for many years he has been developing this subject, primarily as a
@@ -17,8 +16,7 @@ place to get an overview of it. It includes a nice bibliography on the
 subject. Also, if you find the math a bit strenuous, you can rest your
 brain and delight your eyes at the related site:
 
-2) Symbolic sculptures and mathematics,
-<http://www.bangor.ac.uk/SculMath/>
+2) Symbolic sculptures and mathematics, `http://www.bangor.ac.uk/SculMath/`
 
 which opens with a striking image of rotating linked tori, and includes
 pictures of the mathematical sculpture of John Robinson.
@@ -41,38 +39,38 @@ Kapranov has also done a lot of work with operads and conformal field
 theory, and many other things, but I first learned about him through his
 paper with Voevodsky on "braided monoidal 2-categories" (see
 ["Week 4"](#week4)). This got me very excited since it turned me on
-to many of the main themes of n-category theory.
+to many of the main themes of $n$-category theory.
 
 Alas, my description of this fascinating conference will be terse and
 dry in the extreme, since I am flying to Warsaw in 3 hours for a quantum
 gravity workshop. I'll just mention a few papers that cover some of the
 themes of this conference. Ross Street gave two talks on Batanin's
-definition of weak n-categories (and even weak ω-categories), which one
+definition of weak $n$-categories (and even weak $\omega$-categories), which one
 can get as follows:
 
 3) Ross Street, The role of Michael Batanin's monoidal globular
 categories. Lecture I: Globular categories and trees. Lecture II: Higher
-operads and weak ω-categories. Available in gzipped Postscript form at
+operads and weak $\omega$-categories. Available in gzipped Postscript form at
 <http://www.math.mq.edu.au/~street/Publications.html>
 
 Subsequently Batanin has written a more thorough paper on his
 definition:
 
 4) Michael Batanin, Monoidal globular categories as a natural
-environment for the theory of weak n-categories, Adv. Math 136 (1998),
+environment for the theory of weak $n$-categories, Adv. Math 136 (1998),
 39-103, preprint available at
 <http://www-math.mpce.mq.edu.au/~mbatanin/papers.html>
 
-I gave a talk on Dolan's and my definition of weak n-categories, which
+I gave a talk on Dolan's and my definition of weak $n$-categories, which
 one can get as follows:
 
-5) John Baez, An introduction to n-categories, to appear in the
+5) John Baez, An introduction to $n$-categories, to appear in the
 proceedings of Category Theory and Computer Science '97, preprint
 available as [q-alg/9705009](http://xxx.lanl.gov/abs/q-alg/9705009) or
 in Postscript form at <http://math.ucr.edu/home/baez/ncat.ps>
 
 Unfortunately Tamsamani was not there to present *his* definition of
-weak n-categories, but at least I have learned how to get his papers
+weak $n$-categories, but at least I have learned how to get his papers
 electronically:
 
 6) Zouhair Tamsamani, Sur des notions de \$\\infty\$-categorie et
@@ -88,7 +86,7 @@ available as
 Also, Carlos Simpson has written an interesting paper using Tamsamani's
 definition:
 
-7) Carlos Simpson, A closed model structure for n-categories, internal
+7) Carlos Simpson, A closed model structure for $n$-categories, internal
 Hom, n-stacks and generalized Seifert-Van Kampen, preprint available as
 [alg-geom/9704006](http://xxx.lanl.gov/abs/alg-geom/9704006).
 
@@ -102,7 +100,7 @@ combinatorial description of knotted surfaces and their isotopies, to
 appear in Adv. Math., preprint available at
 <http://www.math.usf.edu/~saito/home.html>
 
-My student Laurel Langford has translated their work into n-category
+My student Laurel Langford has translated their work into $n$-category
 theory and shown that "unframed unoriented 2-tangles form the free
 braided monoidal 2-category on one unframed self-dual object":
 
@@ -116,7 +114,7 @@ While I was there, Carter also gave me a very nice paper he'd done with
 Saito and Louis Kauffman. This paper discusses 4-manifolds and also
 2-dimensional surfaces in 3-dimensional space, again getting a purely
 combinatorial description which is begging to be translated into
-n-category theory:
+$n$-category theory:
 
 10) J. Scott Carter, Louis H. Kauffman and Masahico Saito,
 Diagrammatics, singularities, and their algebraic interpretations,

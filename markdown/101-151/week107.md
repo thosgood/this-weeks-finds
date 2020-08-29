@@ -146,22 +146,22 @@ Sussman, A digital orrery, in IEEE Transactions on Computers, C-34, No.
 \#267, Springer Verlag, 1986.
 
 Meanwhile, I've also been trying to keep up with recent developments in
-n-category theory. Some readers of "This Week's Finds" have expressed
+$n$-category theory. Some readers of "This Week's Finds" have expressed
 frustration with how I keep tantalizing all of you with the concept of
-n-category without ever quite defining it. The reason is that it's a
+$n$-category without ever quite defining it. The reason is that it's a
 lot of work to write a nice exposition of this concept!
 
 However, I eventually got around to taking a shot at it, so now you can
 read this:
 
-5) John Baez, Introduction to n-categories, to appear in 7th Conference
+5) John Baez, Introduction to $n$-categories, to appear in 7th Conference
 on Category Theory and Computer Science, eds. E. Moggi and G. Rosolini,
 Springer Lecture Notes in Computer Science vol. 1290, Springer, Berlin.
 Preprint available as
 [q-alg/9705009](http://xxx.lanl.gov/abs/q-alg/9705009) or at
 <http://math.ucr.edu/home/baez/ncat.ps>
 
-There are different definitions of "weak n-category" out there now and
+There are different definitions of "weak $n$-category" out there now and
 it will take a while of sorting through them to show a bunch are
 equivalent and get the whole machinery running smoothly. In the above
 paper I mainly talk about the definition that James Dolan and I came up
@@ -180,10 +180,10 @@ dimensional categories, 104 pages, preprint available at
 > generalization of the same-named notion introduced by Joachim Lambek
 > in 1969. Opetopic sets and multitopic sets are both intended as
 > vehicles for concepts of weak higher dimensional category. Baez and
-> Dolan define weak n-categories as (n+1)-dimensional opetopic sets
+> Dolan define weak $n$-categories as (n+1)-dimensional opetopic sets
 > satisfying certain properties. The version intended here, multitopic
-> n-category, is similarly related to multitopic sets. Multitopic
-> n-categories are not described in the present paper; they are to
+> $n$-category, is similarly related to multitopic sets. Multitopic
+> $n$-categories are not described in the present paper; they are to
 > follow in a sequel. The present paper gives complete details of the
 > definitions and basic properties of the concepts involved with
 > multitopic sets. The category of multitopes, analogs of the opetopes
@@ -199,22 +199,22 @@ computad they generate, available as postscript files at
 > that the category of its algebras is isomorphic to the category of
 > algebras of an appropriate monad on the special category (of
 > computads) constructed from the data of the initial monad. In the case
-> of the free n-category monad this definition coincides with R.
+> of the free $n$-category monad this definition coincides with R.
 > Street's definition of n-computad. In the case of a monad generated
 > by a higher operad this allows us to define a pasting operation in a
-> weak n-category. It may be also considered as the first step toward
+> weak $n$-category. It may be also considered as the first step toward
 > the proof of equivalence of the different definitions of weak
-> n-categories.
+> $n$-categories.
 
-7) Carlos Simpson, Limits in n-categories, approximately 90 pages,
+7) Carlos Simpson, Limits in $n$-categories, approximately 90 pages,
 preprint available as
 [alg-geom/9708010](http://xxx.lanl.gov/abs/alg-geom/9708010).
 
-> We define notions of direct and inverse limits in an n-category. We
-> prove that the (n+1)-category nCAT' of fibrant n-categories admits
+> We define notions of direct and inverse limits in an $n$-category. We
+> prove that the $(n+1)$-category nCAT' of fibrant $n$-categories admits
 > direct and inverse limits. At the end we speculate (without proofs) on
 > some applications of the notion of limit, including homotopy fiber
-> product and homotopy coproduct for n-categories, the notion of
+> product and homotopy coproduct for $n$-categories, the notion of
 > n-stack, representable functors, and finally on a somewhat different
 > note, a notion of relative Malcev completion of the higher homotopy at
 > a representation of the fundamental group.

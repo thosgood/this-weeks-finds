@@ -437,7 +437,7 @@ Well, I might or might not get around to talking about this next Week.
 I've learned the hard way not to *promise* to talk about things in
 future issues: my mind is too scattered to be able to stick to one
 subject in a predictable manner. For example, last week I hinted that
-I'd talk about Ross Street's work on n-categories, but now I've spent
+I'd talk about Ross Street's work on $n$-categories, but now I've spent
 so much time blabbing about this other stuff that I don't think I'll
 get around to it. Let me just list the papers he gave me:
 
@@ -452,7 +452,7 @@ multitude of trees, Macquarie Mathematics Report Number 98/233, March
 2-dimensional coherence for higher dimensional categories.
 
 The folks down in Sydney are making great progress on understanding
-n-categories from the globular point of view, and the importance of the
+$n$-categories from the globular point of view, and the importance of the
 category of *trees* has become quite clear. You can think of trees as
 generalized natural numbers, and then Batanin's operads are a natural
 generalization of the usual operads, which have operations taking a

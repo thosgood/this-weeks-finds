@@ -78,7 +78,7 @@ no telling *what* will happen!
 Well, I won't give away any more. It's fun: it made me want to run out
 and do a lot more mathematical physics. And it raises a lot of deep
 issues. At the end it gets a bit too "action-packed" for my taste, but
-then, my idea of excitement is lying in bed thinking about n-categories.
+then, my idea of excitement is lying in bed thinking about $n$-categories.
 
 Now for the black holes.
 
@@ -376,7 +376,7 @@ sqrt(j(j+1)), and such sums become very densely packed for large A.
 Let me conclude with a few technical comments about how Chern-Simons
 theory shows up here. For a long time I've been studying the "ladder
 of dimensions" relating field theories in dimensions 2, 3, and 4, in
-part because this gives some clues as to how n-categories are related to
+part because this gives some clues as to how $n$-categories are related to
 topological quantum field theory, and in part because it relates quantum
 gravity in spacetime dimension 4, which is mysterious, to Chern-Simons
 theory in spacetime dimension 3, which is well-understood. It's neat

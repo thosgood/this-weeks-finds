@@ -2,7 +2,7 @@
 
 These days I've been trying to learn more homotopy theory. James Dolan
 got me interested in it by explaining how it offers many important clues
-to n-category theory. Ever since, we've been trying to understand what
+to $n$-category theory. Ever since, we've been trying to understand what
 the homotopy theorists have been up to for the last few decades. Since
 trying to explain something is often the best way to learn it, I'll
 talk about this stuff for several Weeks to come.

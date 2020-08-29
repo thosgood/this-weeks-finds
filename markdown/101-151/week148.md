@@ -157,7 +157,7 @@ This week was good for me in two ways. First of all, Ashtekar, Krasnov
 and I finally finished a paper on black hole entropy that we've been
 struggling away on for over 3 years. I can't resist talking about this
 paper at length, since it's such a relief to be done with it. Second,
-the guru of n-category theory, Ross Street, visited Riverside and
+the guru of $n$-category theory, Ross Street, visited Riverside and
 explained a bunch of cool stuff to James Dolan and me. I may talk about
 this next time.
 

@@ -311,7 +311,7 @@ it's the same as the "B" field in BF theory. It encodes the
 information about the metric in Ashtekar's formulation to general
 relativity.
 
-Moving on to matters n-categorical, we have:
+Moving on to matters $n$-categorical, we have:
 
 8) Andre Hirschowitz, Carlos Simpson, Descente pour les n-champs
 (Descent for n-stacks), approximately 240 pages, in French, preprint
@@ -319,13 +319,13 @@ available as math.AG/9807049.
 [math.AG/9807049](http://xxx.lanl.gov/abs/math.AG/9807049).
 
 Apparently this provides a theory of "n-stacks", which are the
-n-categorical generalization of sheaves. Ever since Grothendieck's
+$n$-categorical generalization of sheaves. Ever since Grothendieck's
 600-page letter to Quillen (see ["Week 35"](#week35)), this has
-been the holy grail of n-category theory. Unfortunately I haven't
+been the holy grail of $n$-category theory. Unfortunately I haven't
 mustered sufficient courage to force my way through 240 pages of French,
 so I don't really know the details!
 
-For the following two n-category papers, exploring some themes close to
+For the following two $n$-category papers, exploring some themes close to
 my heart, I'll just quote the abstracts:
 
 9) Michael Batanin, Computads for finitary monads on globular sets,
@@ -333,13 +333,13 @@ preprint available at <http://www.ics.mq.edu.au/~mbatanin/papers.html>
 
 "This work arose as a reflection on the foundation of higher
 dimensional category theory. One of the main ingredients of any proposed
-definition of weak n-category is the shape of diagrams (pasting scheme)
+definition of weak $n$-category is the shape of diagrams (pasting scheme)
 we accept to be composable. In a globular approach \[due to Batanin\]
 each k-cell has a source and target (k-1)-cell. In the opetopic approach
 of Baez and Dolan and the multitopic approach of Hermida, Makkai and
 Power each k-cell has a unique (k-1)-cell as target and a whole
 (k-1)-dimensional pasting diagram as source. In the theory of strict
-n-categories both source and target may be a general pasting diagram.
+$n$-categories both source and target may be a general pasting diagram.
 
 The globular approach being the simplest one seems too restrictive to
 describe the combinatorics of higher dimensional compositions. Yet, we
@@ -351,10 +351,10 @@ algebras of a finitary monad on the category of n-globular sets is
 special category (of computads) constructed from the data of the
 original monad. In the case of the monad derived from the universal
 contractible operad this result may be interpreted as the equivalence of
-the definitions of weak n-categories (in the sense of Batanin) based on
+the definitions of weak $n$-categories (in the sense of Batanin) based on
 the \`globular' and general pasting diagrams. It may be also considered
 as the first step toward the proof of equivalence of the different
-definitions of weak n-category.
+definitions of weak $n$-category.
 
 We also develop a general theory of computads and investigate some
 properties of the category of generalized computads. It turned out, that
@@ -369,13 +369,13 @@ preprint available at <http://www.dpmms.cam.ac.uk/~leinster>
 "This is an exposition of some of the constructions which have arisen
 in higher-dimensional category theory. We start with a review of the
 general theory of operads and multicategories. Using this we give an
-account of Batanin's definition of n-category; we also give an informal
+account of Batanin's definition of $n$-category; we also give an informal
 definition in pictures. Next we discuss Gray-categories and their place
 in coherence problems. Finally, we present various constructions
-relevant to the opetopic definitions of n-category.
+relevant to the opetopic definitions of $n$-category.
 
 New material includes a suggestion for a definition of lax cubical
-n-category; a characterization of small Gray-categories as the small
+$n$-category; a characterization of small Gray-categories as the small
 substructures of 2-Cat; a conjecture on coherence theorems in higher
 dimensions; a construction of the category of trees and, more generally,
 of n-pasting diagrams; and an analogue of the Baez-Dolan slicing process

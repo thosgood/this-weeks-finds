@@ -230,9 +230,9 @@ Now, a category all of whose morphisms are isomorphisms is called a
 same objects but only the isomorphisms as morphisms. The cardinality of
 a category C always equals that of its underlying groupoid C~0~. This
 suggests that this notion should really be called "groupoid
-cardinality. If you're a fan of n-categories, this suggests that we
+cardinality. If you're a fan of $n$-categories, this suggests that we
 should generalize the concept of cardinality to n-groupoids, or even
-ω-groupoids. And luckily, we don't need to understand ω-groupoids very
+$\omega$-groupoids. And luckily, we don't need to understand $\omega$-groupoids very
 well to try our hand at this! Omega-groupoids are supposed to be an
 algebraic way of thinking about topological spaces up to homotopy. Thus
 we just need to invent a concept of the \`cardinality' of a topological
@@ -596,13 +596,13 @@ remarks....
 >
 > This is actually the trick you are playing, in slight disguise.
 >
-> And the real point is that a 1-object ω-groupoid can be reinterpreted
-> as an ω-groupoid by forgetting about the object and renaming all the
+> And the real point is that a 1-object $\omega$-groupoid can be reinterpreted
+> as an $\omega$-groupoid by forgetting about the object and renaming all the
 > j-morphisms "(j-1)-morphisms".
 >
 > See? When you finally get to the bottom of it, this "BG" business is
 > just a silly reindexing game!!! Of course no textbook can admit this
-> openly - partially because they don't talk about ω-groupoids.
+> openly - partially because they don't talk about $\omega$-groupoids.
 >
 >     >>So Euler characteristic is a lot like homotopy cardinality.  But
 >     >>not many spaces have both well-defined homotopy cardinality and 

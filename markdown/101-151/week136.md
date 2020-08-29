@@ -28,7 +28,7 @@ issue of the Journal of Pure and Applied Algebra honoring Mac Lane's
 90th birthday, so keep your eye out for that if you're interested. The
 school featured courses by Cristina Pedicchio, Vaughan Pratt, and some
 crazy mathematical physicist who thinks the laws of physics are based on
-n-categories. The notes can be found in the following book:
+$n$-categories. The notes can be found in the following book:
 
 2) School on Category Theory and Applications, Coimbra, July 13-17,
 199, Textos de Matematica Serie B No. 21, Departamento De Matematica da
@@ -157,9 +157,9 @@ returned to physics in more recent years - but that's another story.
 
 Okay, let me change gears now....
 
-Some n-category gossip. Ross Street has a student who has defined a
-notion of semistrict n-category up to n = 5, and Sjoerd Crans has
-defined semistrict n-categories (which he calls "teisi") for n up to
+Some $n$-category gossip. Ross Street has a student who has defined a
+notion of semistrict $n$-category up to n = 5, and Sjoerd Crans has
+defined semistrict $n$-categories (which he calls "teisi") for n up to
 6. However, the notion still seems to resist definition for general n,
 which prompted my pal Lisa Raphals to compose the following limerick:
 
@@ -169,11 +169,11 @@ which prompted my pal Lisa Raphals to compose the following limerick:
          Could find definitions 
          For n even greater than ten.
 
-Interestingly, work on weak n-categories seems to be proceeding at a
+Interestingly, work on weak $n$-categories seems to be proceeding at a
 slightly faster clip - they've gotten to n = infinity already. In fact,
 during the conference Michael Batanin came up to me and said that a
 fellow named Penon had published a really terse definition of weak
-ω-categories that seems equivalent to Batanin's own (see
+$\omega$-categories that seems equivalent to Batanin's own (see
 ["Week 103"](#week103)) - at least after some minor tweaking.
 Batanin was quite enthusiastic and said he plans to write a paper about
 this stuff.
@@ -209,13 +209,13 @@ We call the elements of X~n~ are "n-cells", and call s(x) and t(x) the
 t(x) = b, we think of x as going from a to b, and write x: a\to b.
 
 If we left out all the stuff about the maps i we would simply have a
-"globular set". These are important in n-category theory because
-strict ω-categories, and also Batanin's weak ω-categories, are globular
+"globular set". These are important in $n$-category theory because
+strict $\omega$-categories, and also Batanin's weak $\omega$-categories, are globular
 sets with extra structure. This also true of Penon's definition, but he
 starts right away with "reflexive" globular sets, which have these
 maps i that are a bit like the degeneracies in the definition of a
 simplicial set (see ["Week 115"](#week115)). In Penon's definition
-i(x) plays the role of an "identity n-morphism", so we also write i(x)
+i(x) plays the role of an "identity $n$-morphism", so we also write i(x)
 as 1~x~: x\to x.
 
 Let RGlob be the category of reflexive globular sets, where morphisms
@@ -223,7 +223,7 @@ are defined in the obvious way. (In other words, RGlob is a presheaf
 category - see ["Week 115"](#week115) for an explanation of this
 notion.)
 
-In this setup, the usual sort of strict ω-category may be defined as a
+In this setup, the usual sort of strict $\omega$-category may be defined as a
 reflexive globular set X together with various "composition"
 operations that allow us to compose n-cells x and y whenever t\^j(x) =
 s\^j(x), obtaining an n-cell
@@ -240,27 +240,27 @@ I'll assume you know these axioms or can fake it. (If you read the
 definition of strict 2-category in ["Week 80"](#week80), perhaps
 you can get an idea for what kinds of axioms I'm talking about.)
 
-Now, strict ω-categories are great, but we need to weaken this notion.
-So, first Penon defines an "ω-magma" to be something exactly like a
-strict ω-category but without the axioms of type B. You may recall that
+Now, strict $\omega$-categories are great, but we need to weaken this notion.
+So, first Penon defines an "$\omega$-magma" to be something exactly like a
+strict $\omega$-category but without the axioms of type B. You may recall that
 a "magma" is defined by Bourbaki to be a set with a binary operation
 satisyfing no laws whatsoever - the primeval algebraic object! An
-ω-magma is just as lawless, and a lot bigger and meaner.
+$\omega$-magma is just as lawless, and a lot bigger and meaner.
 
-Strict ω-categories are too strict: all laws hold as equations. Ω-magmas
+Strict $\omega$-categories are too strict: all laws hold as equations. Ω-magmas
 are too weak: no laws hold at all! How do we get what we want?
 
 We define a category Q whose objects are quadruples (M,p,C,\[.,.\])
 where:
 
-> M is an ω-magma
+> M is an $\omega$-magma
 >
-> C is a strict ω-category
+> C is a strict $\omega$-category
 >
-> p: M\to C is a morphism of ω-magmas (i.e., a morphism of reflexive
-> globular sets strictly preserving all the ω-magma operations)
+> p: M\to C is a morphism of $\omega$-magmas (i.e., a morphism of reflexive
+> globular sets strictly preserving all the $\omega$-magma operations)
 >
-> \[.,.\] is a way of lifting equations between n-morphisms in the image
+> \[.,.\] is a way of lifting equations between $n$-morphisms in the image
 > of the projection p to (n+1)-morphisms in M. More precisely: given
 > n-cells
 >
@@ -274,7 +274,7 @@ where:
 > = 1~f~.
 
 A morphism in Q is defined to be the obvious thing: a morphism f: M\to
-M' of ω-magmas and a morphism f: C\to C' of strict-ω categories,
+M' of $\omega$-magmas and a morphism f: C\to C' of strict-ω categories,
 strictly preserving all the structure in sight.
 
 Okay, now we define a functor
@@ -294,7 +294,7 @@ This adjunction defines a monad
 
 T: RGlob\to RGlob
 
-and Penon defines a "weak ω-category" to be an algebra of this monad.
+and Penon defines a "weak $\omega$-category" to be an algebra of this monad.
 
 (See ["Week 92"](#week92) and ["Week 118"](#week118) for how
 you get monads from adjunctions. Alas, I think I haven't gotten around
@@ -302,11 +302,11 @@ to explaining the concept of an algebra of a monad! So much to explain,
 so little time!)
 
 Now, if you know some category theory and think a while about this, you
-will see that in a weak ω-category defined this way, all the laws like
+will see that in a weak $\omega$-category defined this way, all the laws like
 associativity hold *up to equivalence*, with the equivalences satisfying
 the necessary coherence laws \*up to equivalence\*, and so ad infinitum.
 Crudely speaking, the lifting \[.,.\] is what turns equations into
-n-morphisms. To get a feeling for how this work, you have to figure out
+$n$-morphisms. To get a feeling for how this work, you have to figure out
 what the left adjoint F looks like. Penon works this out in detail in
 the second half of his paper.
 

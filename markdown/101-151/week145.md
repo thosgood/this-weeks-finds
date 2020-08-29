@@ -1,6 +1,6 @@
 # February 9, 2000 {#week145}
 
-I know I promised to talk about homotopy theory and n-categories, but
+I know I promised to talk about homotopy theory and $n$-categories, but
 I've gotten sidetracked into thinking about projective planes, so I'll
 talk about that this Week and go back to the other stuff later. Sorry,
 but if I don't talk about what intrigues me at the instant I'm writing

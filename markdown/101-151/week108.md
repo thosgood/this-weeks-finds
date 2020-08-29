@@ -25,7 +25,7 @@ the lazy waves of the Mediterranean, so different from the oceans I know
 and love. The vegetation was surprisingly similar to that in Riverside:
 lots of palm trees and cacti.
 
-I spoke about n-categories, with only the barest mention of their
+I spoke about $n$-categories, with only the barest mention of their
 possible relevance to computer science. But I was just the token
 mathematical physicist in the crowd; most of the other participants were
 pretty heavily into "theoretical computer science" - a subject that

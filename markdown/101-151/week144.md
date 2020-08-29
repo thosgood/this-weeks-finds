@@ -118,31 +118,31 @@ the black holes at the center of the Milky Way and Andromeda.
 
 Okay... I've been sort of goofing off in the last few Weeks, but now I
 want to return to some hardcore mathematics. In particular, I want to
-talk about n-categories and homotopy theory, so I'm going to pick up
+talk about $n$-categories and homotopy theory, so I'm going to pick up
 "The Tale of n-Categories" roughly where I left off in
 ["Week 100"](#week100), and start connecting it to the little
 introduction to homotopy theory I gave from ["Week 115"](#week115)
 to ["Week 119"](#week119).
 
-As I've said many times, the goal of n-category theory is to eliminate
+As I've said many times, the goal of $n$-category theory is to eliminate
 equations from mathematics, or at least to be able to postpone
 pretending that isomorphisms are equations for as long as you like.
 I've repeatedly described the practical benefits of this, so I won't
 bother doing so again - I'll assume you're convinced of it!
 
-To achieve this goal, an n-category is supposed to be some sort of
+To achieve this goal, an $n$-category is supposed to be some sort of
 algebraic structure with objects, morphisms between objects, 2-morphisms
-between morphisms, and so on up to and including n-morphisms, with
+between morphisms, and so on up to and including $n$-morphisms, with
 various ways of composing all these guys. The idea is thhen that we
 should never assert that two j-morphisms are *equal* except for j = n.
 Instead, we should just specify an *equivalence* between them. An
 "equivalence" is a bit like an isomorphism, but it's defined
-recursively from the top down. An n-morphism is an equivalence iff it's
+recursively from the top down. An $n$-morphism is an equivalence iff it's
 an isomorphism, that is, iff it's invertible. But for j \< n, a
 j-morphism is an equivalence if it's invertible *up to equivalence*.
 
-There are various competing definitions of n-category at present, but
-the key idea behind all the definitions of *weak* n-category is that the
+There are various competing definitions of $n$-category at present, but
+the key idea behind all the definitions of *weak* $n$-category is that the
 ways of composing j-morphisms should satisfy associativity and all the
 other usual laws only up to equivalence. For example, suppose we have
 some morphisms a: w\to x, b: w\to y and c: y\to z in a 1-category. Then
@@ -415,7 +415,7 @@ associahedron above, you can imagine the left-hand tree continuously
 point of the associahedron corresponds to a particular n-ary operation:
 a way of composing n things. To make this precise one must use the
 theory of "operads". The theory of operads is really the royal road to
-understanding n-categories, coherence laws, and their relation to
+understanding $n$-categories, coherence laws, and their relation to
 homotopy theory.... But here, alas, I must stop.
 
 ------------------------------------------------------------------------

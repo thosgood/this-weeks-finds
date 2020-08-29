@@ -1,6 +1,6 @@
 # April 2, 1999 {#week132}
 
-Today I want to talk about n-categories and quantum gravity again. For
+Today I want to talk about $n$-categories and quantum gravity again. For
 starters let me quote from a paper of mine about this stuff:
 
 1) John Baez, Higher-dimensional algebra and Planck-scale physics, to
@@ -282,7 +282,7 @@ As a result, his ideas languished in obscurity.
 
 By now it's clear that higher-dimensional algebra is useful in physics:
 examples include Feynman diagrams and the spin networks of Penrose. The
-theory of n-categories is beginning to provide a systematic language for
+theory of $n$-categories is beginning to provide a systematic language for
 all these techniques. So it's worth re-evaluating Peirce's work and
 seeing how it fits into the picture. And this is what the papers by
 Brady and Trimble do!
@@ -323,11 +323,11 @@ paper is an attempt to start seeing how things fit together.
 lecture given in 1997, available at <http://www.math.mcgill.ca/~hermida>
 
 This talk presents some of the work by Makkai, Power and Hermida on
-their definition of n-categories. For more on their work see
+their definition of $n$-categories. For more on their work see
 ["Week 107"](#week107).
 
 7) Carlos Simpson, On the Breen-Baez-Dolan stabilization hypothesis for
-Tamsamani's weak n-categories, preprint available as
+Tamsamani's weak $n$-categories, preprint available as
 [math.CT/9810058](http://xxx.lanl.gov/abs/math.CT/9810058).
 
 For quite a while now James Dolan and I have been talking about
@@ -336,7 +336,7 @@ explanation of this in ["Week 121"](#week121), but briefly, it says
 that the nth column of the following chart (which extends to infinity in
 both directions) stabilizes after 2n+2 rows:
 
-                       k-tuply monoidal n-categories 
+                       k-tuply monoidal $n$-categories 
 
                   n = 0           n = 1             n = 2
 
@@ -364,9 +364,9 @@ both directions) stabilizes after 2n+2 rows:
     k = 5         " "             " "                "  "
 
 Carlos Simpson has now made this hypothesis precise and proved it using
-Tamsamani's definition of n-categories! And he did it using the same
+Tamsamani's definition of $n$-categories! And he did it using the same
 techniques that Graeme Segal used to study k-fold loop spaces...
-exploiting the relation between n-categories and homotopy theory. This
+exploiting the relation between $n$-categories and homotopy theory. This
 makes me really happy.
 
 8) Mark Hovey, Model Categories, American Mathematical Society
@@ -375,7 +375,7 @@ Mathematical Surveys and Monographs, vol 63., Providence, Rhode Island,
 <http://www.math.uiuc.edu/K-theory/0278/index.html>
 
 Speaking of that kind of thing, the technique of model categories is
-really important for homotopy theory and n-categories, and this book is
+really important for homotopy theory and $n$-categories, and this book is
 a really great place to learn about it.
 
 9) Frank Quinn, Group-categories, preprint available as
