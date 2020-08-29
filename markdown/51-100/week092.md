@@ -288,12 +288,12 @@ $$
     \begin{knot}
       \strand[thick] (-0.75,0.5)
         to (-0.75,0)
-        to [out=down,in=up] (0,-2)
-        to (0,-2.5);
+        to [out=down,in=up] (0.1,-1.75)
+        to (0.1,-2.5);
       \strand[thick] (1.75,0.5)
         to (1.75,0)
-        to [out=down,in=up] (1,-2)
-        to (1,-2.5);
+        to [out=down,in=up] (0.9,-1.75)
+        to (0.9,-2.5);
     \end{knot}
     \node[fill=white] at (-0.75,0) {$x$};
     \node[fill=white] at (1.75,0) {$x^*$};
@@ -328,6 +328,47 @@ to know a bit about 2-categories to do it carefully, but basically you
 just let yourself deform the pictures, in part with the help of the
 axioms for an adjunction, which let you straighten out curves that
 "double back in time." So for example, we can prove the identity law
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,-0.5)
+        to (0,0)
+        to [out=up,in=up,looseness=2] (1,0)
+        to (1,-0.5);
+    \end{knot}
+    \node[fill=white] at (0,0) {$x$};
+    \node[fill=white] at (1,0) {$x^*$};
+    \node[label=above:{$U$}] at (0.5,0.57) {$\bullet$};
+    \begin{knot}
+      \strand[thick] (0,-0.5)
+        to [out=down,in=up,looseness=1.5] (1,-3)
+        to (1,-3.5);
+    \end{knot}
+    \node[fill=white] at (1,-3) {$x$};
+    \begin{knot}
+      \strand[thick] (1,-0.5)
+        to [out=down,in=down,looseness=2] (2,-0.5)
+        to (2,1.5);
+    \end{knot}
+    \node[label=below:{$C$}] at (1.5,-1.1) {$\bullet$};
+    \node[fill=white] at (2,1) {$x$};
+    \begin{knot}
+      \strand[thick] (2,-3.5)
+        to (2,-3)
+        to [out=up,in=down,looseness=1.5] (3,-0.5)
+        to (3,1.5);
+    \end{knot}
+    \node[fill=white] at (2,-3) {$x^*$};
+    \node[fill=white] at (3,1) {$x^*$};
+    \node at (4,-1) {$=$};
+    \begin{knot}
+      \strand[thick] (5,1.5) to (5,-3.5);
+      \strand[thick] (6,1.5) to (6,-3.5);
+    \end{knot}
+    \node[fill=white] at (5,1) {$x$};
+    \node[fill=white] at (6,1) {$x^*$};
+  \end{tikzpicture}
+$$
 
                                      / /              | |
                                     / /               | |
@@ -415,20 +456,34 @@ Even better, in the $N\to\infty$ limit we can think of the Feynman diagrams
 using diagrams like the ones above. For example, we can think of the
 cubic self-interaction in Yang-Mills theory as simply matrix
 multiplication:
-
-                          \ \       / /
-                          x\ \x*  x/ /x*
-                            \ \   / /
-                             \ \ / /
-                              \ C /
-                               \ /
-                               | |
-                               | |
-                              x| |x*
-                               | |
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0.5)
+        to (0,0)
+        to [out=down,in=down,looseness=2] (1,0)
+        to (1,0.5);
+    \end{knot}
+    \node[fill=white] at (0,0) {$x^*$};
+    \node[fill=white] at (1,0) {$x$};
+    \node[label=below:{$C$}] at (0.5,-0.6) {$\bullet$};
+    \begin{knot}
+      \strand[thick] (-0.75,0.5)
+        to (-0.75,0)
+        to [out=down,in=up] (0.1,-1.75)
+        to (0.1,-2.5);
+      \strand[thick] (1.75,0.5)
+        to (1.75,0)
+        to [out=down,in=up] (0.9,-1.75)
+        to (0.9,-2.5);
+    \end{knot}
+    \node[fill=white] at (-0.75,0) {$x$};
+    \node[fill=white] at (1.75,0) {$x^*$};
+    \node[fill=white] at (0,-2) {$x$};
+    \node[fill=white] at (1,-2) {$x^*$};
+  \end{tikzpicture}
+$$
 and the quartic self-interaction as something a wee bit fancier:
-
                           \ \       / /
                           x\ \x*  x/ /x*
                             \ \   / /
