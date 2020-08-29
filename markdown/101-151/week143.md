@@ -142,16 +142,16 @@ taking data sometime around 2002, it should be able to detect the final
 "chirp" of gravitational radiation produced a pair of inspiralling
 neutron stars in the Virgo Cluster, a cluster of galaxies about 15
 megaparsecs away. Such an event would distort the spacetime metric
-*here* by only about 1 part in 10\^{21}. This is why LIGO needs to
+*here* by only about 1 part in 10^{21}. This is why LIGO needs to
 compare oscillations in the lengths of two arms of an interferometer,
-each 4 kilometers long, with an accuracy of 10\^{-16} centimeters: about
+each 4 kilometers long, with an accuracy of 10^{-16} centimeters: about
 one hundred-millionth of the diameter of a hydrogen atom. To do this
 will require some *very* clever tricks to reduce noise.
 
 As the experiment continues, they intend to improve the sensitivity
 until it can detect distortions in the metric of only 1 part in
-10\^{22}, and second-generation detectors should get to 1 part in
-10\^{23}. At that point, we should be able to detect neutron star
+10^{22}, and second-generation detectors should get to 1 part in
+10^{23}. At that point, we should be able to detect neutron star
 "chirps" from a distance of 200 megaparsecs. Events of this sort
 should happen once or twice a year.
 
@@ -201,7 +201,7 @@ NASA's homepage on the LISA project: <http://lisa.jpl.nasa.gov/>
 
 The idea is to orbit 3 satellites in an equilateral triangle with sides
 5 million kilometers long, and constantly measure the distance between
-them to an accuracy of a tenth of an angstrom - 10\^{-11} meters - using
+them to an accuracy of a tenth of an angstrom - 10^{-11} meters - using
 laser interferometry. (A modified version of the plan would use 6
 satellites.) The big distances would make it possible to detect
 gravitational waves with frequencies of .0001 to .1 hertz, much lower
@@ -219,12 +219,12 @@ universe - the gravitational analogue of the cosmic microwave background
 radiation!
 
 The microwave background radiation tells us about the universe when it
-was roughly 10\^5 years old, since that's when things cooled down
+was roughly 10^5 years old, since that's when things cooled down
 enough for most of the hydrogen to stop being ionized, making it
 transparent to electromagnetic radiation. In physics jargon, that's
 when electromagnetic radiation "decoupled". But the gravitational
 background radiation would tell us about the universe when it was
-roughly 10\^{-38} seconds old, since that's when gravitational
+roughly 10^{-38} seconds old, since that's when gravitational
 radiation decoupled. This figure could be way off due to physics we
 don't understand yet, but anyway, we're talking about a window into
 the *really* early universe.

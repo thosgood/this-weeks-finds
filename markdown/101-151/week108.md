@@ -95,7 +95,7 @@ sort has a unique fixed point.
 Similarly, we can formulate the differential equation above as a fixed
 point problem by integrating both sides, obtaining:
 
-f(t) = c + integral_0\^t g(f(s)) ds
+f(t) = c + integral_0^t g(f(s)) ds
 
 which is an example of an "integral equation". If we call the function
 on the right hand side F(f), then this integral equation says
@@ -384,7 +384,7 @@ after reading the above stuff:
 > continues hot and heavy. One danger of simply assuming fixed points is
 > that there may be orbits rather than attractive basins, which I
 > alluded to briefly in my sci.math FAQ entry (which has become somewhat
-> mangled over the years) concerning the numeric solution of f(x) = x\^x
+> mangled over the years) concerning the numeric solution of f(x) = x^x
 > via direct fixed point recurrence (F(F(F(F(F...(guess)..)))). The
 > orbits cause oscillatory instability in some regions such that it
 > becomes appropriate to switch to a different technique.

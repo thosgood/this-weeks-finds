@@ -225,8 +225,8 @@ notion.)
 
 In this setup, the usual sort of strict $\omega$-category may be defined as a
 reflexive globular set X together with various "composition"
-operations that allow us to compose n-cells x and y whenever t\^j(x) =
-s\^j(x), obtaining an n-cell
+operations that allow us to compose n-cells x and y whenever t^j(x) =
+s^j(x), obtaining an n-cell
 
 x o~j~ y
 

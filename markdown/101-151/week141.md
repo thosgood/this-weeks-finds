@@ -129,7 +129,7 @@ just gave a talk on it here at U. C. Riverside, so I should pass along
 some of his wisdom while I still remember it.
 
 First, recall the "Hopf bundle". It's easy to describe starting with
-the complex numbers. The unit vectors in C\^2 form the sphere S^3^. The
+the complex numbers. The unit vectors in C^2 form the sphere S^3^. The
 unit complex numbers form a group under multiplication. As a manifold
 this is just the circle S^1^, but as a group it's better known as U(1).
 You can multiply a unit vector by a unit complex number and get a new
@@ -447,7 +447,7 @@ certain operad associated to the compactified configuration spaces.
 Different notions of homotopy Gerstenhaber algebras are discussed: one
 of them is a B_infty-algebra, another, called a homotopy G-algebra, is a
 particular case of a B_infty-algebra, the others, a G_infty-algebra, an
-E\^1-bar-algebra, and a weak G_infty-algebra, arise from the geometry of
+E^1-bar-algebra, and a weak G_infty-algebra, arise from the geometry of
 configuration spaces. Corrections to the paper math.QA/9602009 of
 Kimura, Zuckerman, and the author related to the use of a nonextant
 notion of a homotopy Gerstenhaber algebra are made.
@@ -496,7 +496,7 @@ information.
 The paper by Kervaire and Milnor has a cool formula for the *order* of
 the group of smooth structures on the (4n-1)-sphere for n \> 1. It's:
 
-2\^(2n-4) (2\^(2n-1) - 1) P(4n-1) B(n) a(n) / n
+2^(2n-4) (2^(2n-1) - 1) P(4n-1) B(n) a(n) / n
 
 where:
 

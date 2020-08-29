@@ -286,7 +286,7 @@ it as a 1-form on E taking values in the Lie algebra of G. Let's see
 what differential forms on E this gives us! Let's call the connection
 A. If we pick a basis of the Lie algebra, we can take the components of
 A in this basis, and we get a bunch of 1-forms A~i~ on E. We also get a
-bunch of 2-forms dA~i~. We also get a bunch of 2-forms A~i~ \^ A~j~. And
+bunch of 2-forms dA~i~. We also get a bunch of 2-forms A~i~ ^ A~j~. And
 so on.
 
 In general, we can form all possible linear combinations of wedge
@@ -306,7 +306,7 @@ algebras is a way of mentioning the *obvious* relations.
 Warning: people don't usually describe the Weil algebra quite this way.
 They usually seem describe it in terms of the connection 1-forms and
 curvature 2-forms. However, the curvature is related to the connection
-by the formula F = dA + A \^ A, and if you use this you can go from the
+by the formula F = dA + A ^ A, and if you use this you can go from the
 usual description of the Weil algebra to mine - I think.
 
 (Actually, people often describe the Weil algebra as an algebra

@@ -207,7 +207,7 @@ diagrams. Often these integrals give infinite answers, which forces you
 to do a trick called renormalization to cancel the infinities and get
 finite answers. Part of why this trick works is that while your
 integrals diverge, they usually diverge at a well-defined rate. For
-example, you might get something asymptotic to a constant times 1/d\^k,
+example, you might get something asymptotic to a constant times 1/d^k,
 where d is the spatial cutoff you put in to get a finite answer. And the
 constant you get here can be explicitly computed. For example, it often
 involves numbers like ζ(n), where ζ is the Riemann zeta function, much

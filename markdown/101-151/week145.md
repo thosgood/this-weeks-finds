@@ -205,7 +205,7 @@ multiplication really depends on *how* we chose these four points. But
 if our projective plane is Desarguesian, it does not!
 
 In fact, if we stick to Desarguesian projective planes, everything works
-very smoothly. For any division ring F the projective plane FP\^2 is
+very smoothly. For any division ring F the projective plane FP^2 is
 Desarguesian. Conversely, starting with a Desarguesian projective plane,
 we can use the ancient Greek method to cook up a division ring F. Best
 of all, these two constructions are inverse to each other - at least up

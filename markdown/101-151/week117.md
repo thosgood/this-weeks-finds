@@ -113,8 +113,8 @@ forms "strange quark matter" in the form of "strangelets": big bags
 of up, down, and strange quarks. This is what they're looking for at
 E864. Their experiment would only detect strangelets that live long
 enough to get to the detector. When their experiment is running they get
-10\^6 collisions per second. So far they've set an upper bound of
-10\^{-7} charged strangelets per collision, neutral strangelets being
+10^6 collisions per second. So far they've set an upper bound of
+10^{-7} charged strangelets per collision, neutral strangelets being
 harder to detect and rule out. For more on strangelets, try this:
 
 3) E. P. Gilson and R. L. Jaffe, Very small strangelets, Phys. Rev.

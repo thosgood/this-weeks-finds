@@ -34,9 +34,9 @@ I'd like to start with a long quote from a paper by Ashtekar:
 > as Planck pointed out in his celebrated paper that marks the beginning
 > of quantum mechanics, there is a unique combination,
 >
-> L = sqrt(ħ G/c\^3),
+> L = sqrt(ħ G/c^3),
 >
-> of these constants which has dimension of length. (L \~ 10\^{-33} cm.)
+> of these constants which has dimension of length. (L \~ 10^{-33} cm.)
 > It is now called the Planck length. Experience has taught us that the
 > presence of a distinguished scale in a physical theory often marks a
 > potential transition; physics below the scale can be very different
@@ -330,10 +330,10 @@ Cambridge University Press, Cambridge, 1986.
 Second, this magical group G has a nice action on a 7-dimensional
 manifold which we can use as the fiber for a 11-dimensional Kaluza-Klein
 theory that mimics the Standard Model in the low-energy limit. The way
-to get this manifold is to take S\^3 x S\^5 sitting inside C\^2 x C\^3
+to get this manifold is to take S^3 x S^5 sitting inside C^2 x C^3
 and mod out by the action of U(1) as multiplication by phases. The group
-G acts on C\^2 x C\^3 in an obvious way, and using this it's easy to
-see that it acts on (C\^2 x C\^3)/U(1).
+G acts on C^2 x C^3 in an obvious way, and using this it's easy to
+see that it acts on (C^2 x C^3)/U(1).
 
 I'm not sure where to read more about this, but you might try:
 

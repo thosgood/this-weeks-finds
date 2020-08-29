@@ -181,7 +181,7 @@ only *fundamental* scalar particle in the Standard Model is the Higgs
 boson - hypothesized but still not seen.
 
 The spin-1/2 representation is the fundamental representation, in which
-SU(2) acts on C\^2 in the obvious way. Physicists call vectors in this
+SU(2) acts on C^2 in the obvious way. Physicists call vectors in this
 representation "spinors". Examples of spin-1/2 particles include
 electrons, protons, neutrons, and neutrinos. The fundamental spin-1/2
 particles in the Standard Model are the leptons (electron, muon, tau and
@@ -205,8 +205,8 @@ is given by a symmetric 3x3 matrix. But this is not very satisfying...
 I'll give a better answer later.
 
 Now, the systematic way to get all these representations is to build
-them out of the spin-1/2 representation. SU(2) acts on C\^2 in an
-obvious way, and thus acts on the space of polynomials on C\^2. The
+them out of the spin-1/2 representation. SU(2) acts on C^2 in an
+obvious way, and thus acts on the space of polynomials on C^2. The
 space of homogeneous polynomials of degree 2j is thus a representation
 of SU(2) in its own right, called the spin-j representation. Since
 multiplication of polynomials is commutative, in math lingo we say the
@@ -228,10 +228,10 @@ fits together here, in a very pretty way.
 Now, while SU(2) has only one 2-dimensional irreducible representation,
 SL(2,C) has two, called the left-handed and right-handed spinor
 representations. The "left-handed" one is the fundamental
-representation, in which SL(2,C) acts on C\^2 in the obvious way. The
+representation, in which SL(2,C) acts on C^2 in the obvious way. The
 "right-handed" one is the conjugate of this, in which we take the
 complex conjugate of the entries of our matrix before letting it act on
-C\^2 in the obvious way. These two representations become equivalent
+C^2 in the obvious way. These two representations become equivalent
 when we restrict to SU(2)... but for SL(2,C) they're not! For example,
 when we study particles as representations of SL(2,C), it turns out that
 neutrinos are left-handed, while antineutrinos are right-handed.
@@ -259,7 +259,7 @@ example, guys in the (j,k) representation have j unprimed subscripts and
 k primed ones, and don't change when we permute the unprimed subscripts
 among themselves, or the primed ones among themselves.
 
-Now SO(3,1) has an obvious representation on R\^4, called the "vector"
+Now SO(3,1) has an obvious representation on R^4, called the "vector"
 representation for obvious reasons. If we think of this as a
 representation of SL(2,C), it's the (1,1) representation. So when
 Penrose writes a vector in 4 dimensions, he can do it either the old

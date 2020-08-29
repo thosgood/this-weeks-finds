@@ -68,10 +68,10 @@ But it's actually not so weird. The space of complex functions on the
 (n-1)-sphere is naturally a representation of SO(n). But there's
 another way to think of this representation. Consider an triangle in
 R^n^. We can associate vectors to two of its edges, say v and w, and
-form the wedge product of these vectors to get a bivector v \^ w. This
+form the wedge product of these vectors to get a bivector v ^ w. This
 bivector describes the area element associated to the triangle. If we
 pick an orientation for the triangle, this bivector is uniquely
-determined. Now, a bivector of the form v \^ w is called "simple". The
+determined. Now, a bivector of the form v ^ w is called "simple". The
 space of simple bivectors is naturally a Poisson manifold - i.e., we can
 define Poisson brackets of functions on this space - so we can think of
 it as a "classical phase space". Using geometric quantization, we can

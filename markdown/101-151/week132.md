@@ -35,9 +35,9 @@ quantum gravity, and what a theory of quantum gravity should be like:
 > mass. For example, we can define the unit of length now called the
 > \`Planck length' as follows:
 >
-> L = sqrt(ħ G /c\^3)
+> L = sqrt(ħ G /c^3)
 >
-> This is extremely small: about 1.6 x 10\^{-35} meters. Physicists have
+> This is extremely small: about 1.6 x 10^{-35} meters. Physicists have
 > long suspected that quantum gravity will become important for
 > understanding physics at about this scale. The reason is very simple:
 > any calculation that predicts a length using only the constants c, G
@@ -64,7 +64,7 @@ quantum gravity, and what a theory of quantum gravity should be like:
 >
 > and
 >
-> L_S = Gm/c\^2.
+> L_S = Gm/c^2.
 >
 > These two lengths become equal when m is the Planck mass. And when
 > this happens, they both equal the Planck length!
@@ -80,10 +80,10 @@ quantum gravity, and what a theory of quantum gravity should be like:
 > information about quantum field theory comes from observing light
 > objects like electrons and protons, for which L_C \>\> L_S. The Planck
 > mass is intermediate between these: about the mass of a largish cell.
-> But the Planck length is about 10\^{-20} times the radius of a proton!
+> But the Planck length is about 10^{-20} times the radius of a proton!
 > To study a situation where both general relativity and quantum field
 > theory are important, we could try to compress a cell to a size
-> 10\^{-20} times that of a proton. We know no reason why this is
+> 10^{-20} times that of a proton. We know no reason why this is
 > impossible in principle. But we have no idea how to actually
 > accomplish such a feat.
 >
@@ -103,7 +103,7 @@ quantum gravity, and what a theory of quantum gravity should be like:
 > What is the importance of the constant c? In special relativity, what
 > matters is the appearance of this constant in the Minkowski metric
 >
-> ds\^2 = c\^2 dt\^2 - dx\^2 - dy\^2 - dz\^2
+> ds^2 = c^2 dt^2 - dx^2 - dy^2 - dz^2
 >
 > which defines the geometry of spacetime, and in particular the
 > lightcone through each point. Stepping back from the specific
@@ -305,11 +305,11 @@ knotted curves and surfaces, preprint available as
 [math.GT/9903135](http://xxx.lanl.gov/abs/math.GT/9903135).
 
 Yet another attack on higher dimensions! This one gets invariants of
-2-links - surfaces embedded in R\^4 - from the cohomology groups of
+2-links - surfaces embedded in R^4 - from the cohomology groups of
 "quandles". I don't really understand how this fits into the overall
 scheme of higher-dimensional algebra yet. They show their invariant
 distinguishes between the 2-twist spun trefoil (a certain sphere knotted
-in R\^4) and the same sphere with the reversed orientation.
+in R^4) and the same sphere with the reversed orientation.
 
 5) Tom Leinster, Structures in higher-dimensional category theory,
 preprint available at <http://www.dpmms.cam.ac.uk/~leinster>

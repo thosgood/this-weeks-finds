@@ -196,7 +196,7 @@ Thus we expect that a black hole of area A has about
 
 N = exp(A/4)
 
-microstates. For a solar-mass black hole, that's about exp(10\^76)
+microstates. For a solar-mass black hole, that's about exp(10^76)
 microstates! Any good theory of quantum gravity must explain what these
 microstates are. Since their number is related to the event horizon's
 area, it is natural to guess that they're related to the geometry of
@@ -286,7 +286,7 @@ connection W. In fact, this boundary term is just the symplectic
 structure for U(1) Chern-Simons theory on the 2-sphere! It's the
 simplest thing you can write down:
 
-ω(δ W, δ W') = (k/2\pi) ∫ δ W \^ δ W'
+ω(δ W, δ W') = (k/2\pi) ∫ δ W ^ δ W'
 
 Here ω is the U(1) Chern-Simons symplectic structure; we're evaluating
 it on two tangent vectors to the space of U(1) connections on the
