@@ -1,4 +1,4 @@
-# DATE {#week102}
+# April 21, 1997 {#week102}
 
 In ["Week 101"](#week101) I claimed to have figured out the real
 reason for the importance of the number 24 in string theory. Now I'm
@@ -129,32 +129,30 @@ addition $\mod 2$. Why only two homotopy classes of maps from $S^4$ to $S^3$?
 Well, you can compute something like the Hopf invariant for these maps,
 exactly as we did before, but the thing is, links in 4 dimensions are
 easy to unlink. You can unlink something like
-
-    \   /
-     \ /
-      \
-     / \
-    /   \
-    \   /
-     \ /
-      \
-     / \
-    /   \
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+        to [out=down,in=up] (0.75,-1.5)
+        to [out=down,in=up] (0,-3);
+      \strand[thick] (0.75,0)
+        to [out=down,in=up] (0,-1.5)
+        to [out=down,in=up] (0.75,-3);
+      \flipcrossings{2}
+    \end{knot}
+  \end{tikzpicture}
+$$
 and make it look like
-
-    |    |
-    |    |
-    |    |
-    |    |
-    |    |
-    |    |
-    |    |
-    |    |
-    |    |
-    |    |
-    |    |
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+        to (0,-3);
+      \strand[thick] (0.75,0)
+        to (0.75,-3);
+    \end{knot}
+  \end{tikzpicture}
+$$
 so the linking number in 4 dimensions is only defined $\mod 2$. Thus the
 "Hopf invariant" is only defined $\mod 2$.
 
@@ -266,29 +264,47 @@ here: the relation between antiparticles and adjunctions.)
 Topologists prefer to speak of "positively and negatively oriented
 points". We can draw a set of positively and negatively oriented points
 like this:
-
-                       -      +    +     +    +      -    -
-
+$$
+  \begin{tikzpicture}
+    \node at (0,0) {$-$};
+    \node at (1,0) {$+$};
+    \node at (2,0) {$+$};
+    \node at (3,0) {$+$};
+    \node at (4,0) {$+$};
+    \node at (5,0) {$-$};
+    \node at (6,0) {$-$};
+  \end{tikzpicture}
+$$
 We can add them by setting them side by side. But how do the positively
 and negatively oriented points cancel? Well, remember, we're trying to
 get a category! If finite lists of positively and negatively oriented
 points are our objects, what are our morphisms? How about tangles, like
 this:
-
-                       -      +    +     +    +      -    -
-                        \    /     |     |     \    /     |
-                         \  /      |     |      \  /      |
-                          \/       |      \      \/      /
-                                   |       \            /
-                                   |        \          /
-                                   |         \        /
-                                   |          \      /    
-                          /\       |           \    /
-                         /  \      |            \  /
-                        /    \     |             \/
-                       /      \    |
-                      +        -   +
-
+$$
+  \begin{tikzpicture}
+    \node[label=above:{$-$}] at (0,0) {};
+    \node[label=above:{$+$}] at (1,0) {};
+    \node[label=above:{$+$}] at (2,0) {};
+    \node[label=above:{$+$}] at (3,0) {};
+    \node[label=above:{$+$}] at (4,0) {};
+    \node[label=above:{$-$}] at (5,0) {};
+    \node[label=above:{$-$}] at (6,0) {};
+    \begin{knot}
+      \strand[thick] (0,0)
+        to [out=down,in=down,looseness=2] (1,0);
+      \strand[thick] (0,-3)
+        to [out=up,in=up,looseness=2] (1,-3);
+      \strand[thick] (2,0) to (2,-3);
+      \strand[thick] (3,0)
+        to [out=down,in=down,looseness=2] (6,0);
+      \strand[thick] (4,0)
+        to [out=down,in=down,looseness=2] (5,0);
+    \end{knot}
+    \node[label=below:{$+$}] at (0,-3) {};
+    \node[label=below:{$-$}] at (1,-3) {};
+    \node[label=below:{$+$}] at (2,-3) {};
+  \end{tikzpicture}
+$$
 These let us cancel or create positive and negative points in pairs.
 Voila! The categorified integers! Just as the integers form a monoid
 under addition, these form a monoidal category (see
@@ -301,34 +317,42 @@ space. To understand the "commutativity" of the categorified integers
 we should work with 1-dimensional tangles in higher-dimensional space.
 If we consider them in 3-dimensional space, we have room to switch
 things around:
-
-                 +       +
-                  \     /
-                   \   /
-                    \ /
-                     /
-                    / \
-                   /   \
-                  /     \
-                 +       +
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7]
+      \node[label=above:{$+$}] at (0,0) {};
+      \node[label=above:{$+$}] at (1,0) {};
+      \begin{knot}
+        \strand[thick] (1,0)
+          to [out=down,in=up] (0,-2);
+        \strand[thick] (0,0)
+          to [out=down,in=up] (1,-2);
+      \end{knot}
+      \node[label=below:{$+$}] at (0,-2) {};
+      \node[label=below:{$+$}] at (1,-2) {};
+    \end{knot}
+  \end{tikzpicture}
+$$
 This gets us commutativity, as I explained in ["Week 100"](#week100). Technically
 speaking, we get a "braided" monoidal category. However, there are two
 different ways to switch things around; for example, in addition to the
 above way there is
-
-
-                 +       +
-                  \     /
-                   \   /
-                    \ /
-                     \
-                    / \
-                   /   \
-                  /     \
-                 +       +
-     
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7]
+      \node[label=above:{$+$}] at (0,0) {};
+      \node[label=above:{$+$}] at (1,0) {};
+      \begin{knot}
+        \strand[thick] (0,0)
+          to [out=down,in=up] (1,-2);
+        \strand[thick] (1,0)
+          to [out=down,in=up] (0,-2);
+      \end{knot}
+      \node[label=below:{$+$}] at (0,-2) {};
+      \node[label=below:{$+$}] at (1,-2) {};
+    \end{knot}
+  \end{tikzpicture}
+$$
 To get rid of this problem (if you consider it a problem) we can work
 with 1-dimensional tangles in 4-dimensional space, where we can deform
 the first way of switching things to the second. We get a "symmetric"
@@ -336,38 +360,49 @@ monoidal category. Working in higher dimensions doesn't change
 anything: things have stabilized.
 
 If we impose the extra condition that the morphisms
-
-                       /\
-                      /  \
-                     /    \
-                    /      \
-                   +        -
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+        to [out=up,in=up,looseness=2] (1,0);
+    \end{knot}
+    \node[label=below:{$+$}] at (0,0) {};
+    \node[label=below:{$-$}] at (1,0) {};
+  \end{tikzpicture}
+$$
 and
-
-                   +        -
-                    \      /
-                     \    /
-                      \  / 
-                       \/
-                        
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+        to [out=down,in=down,looseness=2] (1,0);
+    \end{knot}
+    \node[label=above:{$+$}] at (0,0) {};
+    \node[label=above:{$-$}] at (1,0) {};
+  \end{tikzpicture}
+$$
 are inverses, as are
-
-                       /\
-                      /  \
-                     /    \
-                    /      \
-                   -        +
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+        to [out=up,in=up,looseness=2] (1,0);
+    \end{knot}
+    \node[label=below:{$-$}] at (0,0) {};
+    \node[label=below:{$+$}] at (1,0) {};
+  \end{tikzpicture}
+$$
 and
-
-                   -        +
-                    \      /
-                     \    /
-                      \  /
-                       \/
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+        to [out=down,in=down,looseness=2] (1,0);
+    \end{knot}
+    \node[label=above:{$-$}] at (0,0) {};
+    \node[label=above:{$+$}] at (1,0) {};
+  \end{tikzpicture}
+$$
 then all morphisms become invertible, so we have not just a monoidal
 category but a monoidal groupoid --- a groupoid being a category with all
 morphisms invertible (see ["Week 74"](#week74)). In fact, not only
@@ -384,42 +419,43 @@ commutative group). We are treating them as a *category* (or groupal
 groupoid, or braided groupal groupoid, or symmetric groupal groupoid).
 
 On the other hand, it's a bit odd to say that
-
-                       /\
-                      /  \
-                     /    \
-                    /      \
-                   +        -
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+        to [out=up,in=up,looseness=2] (1,0);
+    \end{knot}
+    \node[label=below:{$+$}] at (0,0) {};
+    \node[label=below:{$-$}] at (1,0) {};
+  \end{tikzpicture}
+$$
 and
-
-                   +        -
-                    \      /
-                     \    /
-                      \  /
-                       \/
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+        to [out=down,in=down,looseness=2] (1,0);
+    \end{knot}
+    \node[label=above:{$+$}] at (0,0) {};
+    \node[label=above:{$-$}] at (1,0) {};
+  \end{tikzpicture}
+$$
 are inverses. This amounts to saying that the morphism:
-
-                       /\
-                      /  \
-                     /    \
-                    /      \
-                    \      /
-                    +\    /-
-                      \  /
-                       \/
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+        to [out=up,in=up,looseness=2] (1,0);
+      \strand[thick] (0,0)
+        to [out=down,in=down,looseness=2] (1,0);
+    \end{knot}
+    \node[fill=white] at (0,0) {$+$};
+    \node[fill=white] at (1,0) {$-$};
+  \end{tikzpicture}
+$$
 is equal to the identity morphism from 0 to 0, which corresponds to the
 empty picture:
-
-
-
-
-
-
-
-
+$$\phantom{.}$$
 Hmm. They sure don't *look* equal. We must be doing something wrong.
 
 What are we doing wrong? We're committing the sin of
@@ -429,30 +465,59 @@ the integers not as a mere category, but as a 2-category! See
 for now, it's enough to say that a 2-category has things called
 2-morphisms going between morphisms. If we treat the integers as a
 2-category, we can say there is a 2-morphism going from
-
-                       /\
-                      /  \
-                     /    \
-                    /      \
-                    \      /
-                    +\    /-
-                      \  /
-                       \/
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+        to [out=up,in=up,looseness=2] (1,0);
+      \strand[thick] (0,0)
+        to [out=down,in=down,looseness=2] (1,0);
+    \end{knot}
+    \node[fill=white] at (0,0) {$+$};
+    \node[fill=white] at (1,0) {$-$};
+  \end{tikzpicture}
+$$
 to the identity morphism. This 2-morphism has a nice geometrical
 description in terms of a 2-dimensional surface: the surface in 3d space
 that's traced out as the above picture shrinks down to the empty
 picture. It's hard to draw, but let me try:
-
-                       /\
-                      /  \           /\
-                     /    \         /  \       /\
-                    /      \   =>  /    \  => /  \  => /\  =>
-                    \      /       \    /     \  /    +\/-
-                    +\    /-       +\  /-     +\/-
-                      \  /           \/
-                       \/
-
+$$
+  \begin{tikzpicture}
+    \begin{scope}
+      \begin{knot}
+        \strand[thick] (0,0)
+          to [out=up,in=up,looseness=2] (1,0);
+        \strand[thick] (0,0)
+          to [out=down,in=down,looseness=2] (1,0);
+      \end{knot}
+      \node[fill=white] at (0,0) {$+$};
+      \node[fill=white] at (1,0) {$-$};
+    \end{scope}
+    \node at (1.75,0) {$\Longrightarrow$};
+    \begin{scope}[shift={(2.5,0)},scale=0.8]
+      \begin{knot}
+        \strand[thick] (0,0)
+          to [out=up,in=up,looseness=2] (1,0);
+        \strand[thick] (0,0)
+          to [out=down,in=down,looseness=2] (1,0);
+      \end{knot}
+      \node[fill=white] at (0,0) {\mbox{\scriptsize$+$}};
+      \node[fill=white] at (1,0) {\mbox{\scriptsize$-$}};
+    \end{scope}
+    \node at (4,0) {$\Longrightarrow$};
+    \begin{scope}[shift={(4.65,0)},scale=0.5]
+      \begin{knot}
+        \strand[thick] (0,0)
+          to [out=up,in=up,looseness=2] (1,0);
+        \strand[thick] (0,0)
+          to [out=down,in=down,looseness=2] (1,0);
+      \end{knot}
+      \node[fill=white] at (0,0) {\mbox{\tiny$+$}};
+      \node[fill=white] at (1,0) {\mbox{\tiny$-$}};
+    \end{scope}
+    \node at (5.75,0) {$\Longrightarrow$};
+  \end{tikzpicture}
+$$
 Okay, say we do this: treat the integers as a 2-category. We again are
 faced with a question: do we make all the 2-morphisms invertible? If we
 do, we get a "2-groupoid", or actually a "groupal 2-groupoid". But
@@ -593,8 +658,13 @@ nada, niente, right? Picture them together, then picture them
 separating, peeling part.... Now you have something, you have two
 somethings, where you once had nothing.* - John Updike, Roger's Version
 
-                       /\
-                      /  \
-                     /    \
-                    /      \
-                   +        -
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+        to [out=up,in=up,looseness=2] (1,0);
+    \end{knot}
+    \node[label=below:{$+$}] at (0,0) {};
+    \node[label=below:{$-$}] at (1,0) {};
+  \end{tikzpicture}
+$$
