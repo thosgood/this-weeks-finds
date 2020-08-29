@@ -51,9 +51,9 @@ there has been a huge struggle to come to terms with it at all levels.
 It took a while for it to make its full impact in pure mathematics, but
 now you can see it happening all over: there are lots of papers on
 quantum topology, quantum geometry, quantum cohomology, quantum groups,
-quantum logic\... even quantum set theory! There are even some
+quantum logic... even quantum set theory! There are even some
 fascinating attempts to apply quantum mechanics to unsolved problems in
-number theory like the Riemann hypothesis\... will they bear fruit? And
+number theory like the Riemann hypothesis... will they bear fruit? And
 if so, what does this mean about the world? Nobody really knows yet;
 we're in a period of experimentation - a bit of a muddle.
 
@@ -149,7 +149,7 @@ situations. When one questioner pointedly asked him whether the material
 he was presenting was useful in physics or merely a pleasant game, he
 replied "That's a very good question. I will try to answer that later.
 For now you're just like students in calculus: you don't know why
-you're learning all this stuff\...." And when Kastler and other
+you're learning all this stuff...." And when Kastler and other
 mathematicians kept hassling him over whether an operator was
 self-adjoint or merely hermitian, he begged for mercy by saying "I
 would like to be a physicist. That was my dream from the beginning."

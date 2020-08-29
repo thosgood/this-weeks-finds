@@ -122,7 +122,7 @@ my favorite way. Draw arrows on the edges of the triangle going around
 clockwise, draw arrows on the circle also going around clockwise, and
 draw arrows on the three lines pointing from each vertex of the triangle
 to the midpoint of the opposite edge. Come on, DO it! I'm doing all
-this work for you\... you should do some, too.
+this work for you... you should do some, too.
 
 Okay. Now you have your very own octonion multiplication table. Notice
 that there are six lines and a circle in your picture. Each one of these
@@ -187,7 +187,7 @@ dimensions 3, 4, 6, and 10. Basically, only in these dimensions can you
 cook up spin-1/2 particles that have as many physical degrees of freedom
 as massless spin-1 particles. I sort of explained why. This in turn
 allows a symmetry between fermions and gauge bosons. I didn't explain
-how *this* works\... it seems pretty tricky to me\... but anyway, it
+how *this* works... it seems pretty tricky to me... but anyway, it
 works.
 
 So far, so good. But Schwarz wondered: is it a coincidence that the
@@ -255,14 +255,14 @@ electromagnetic force to the complex numbers, the weak force to the
 quaternions, and the strong force to octonions. How? Well, the gauge
 group of electromagnetism is U(1), the unit complex numbers. The gauge
 group of the weak force is SU(2), the unit quaternions. The gauge group
-of the strong force is SU(3)\....
+of the strong force is SU(3)....
 
 Alas, the group SU(3) is *not* the unit octonions. The unit octonions do
 not form a group since they aren't associative. SU(3) is related to the
 octonions more indirectly. The group of symmetries (or technically,
 "automorphisms") of the octonions is the exceptional group G2, which
 contains SU(3). To get SU(3), we can take the subgroup of G2 that
-preserves a given unit imaginary octonion\... say e~1~. This is how
+preserves a given unit imaginary octonion... say e~1~. This is how
 Dixon relates SU(3) to the octonions.
 
 However, why should one unit imaginary octonion be different from the
@@ -452,7 +452,7 @@ and he writes:
 >
 > Then we write the Γ~m~ as block matrices where Γ~+~ and Γ~-~ have the
 > +/- unit matrix as blocks and the others have γ~i~ as blocks where
-> γ~i~ are the SO(8) Dirac matrices (i=1,\...,9). But they are
+> γ~i~ are the SO(8) Dirac matrices (i=1,...,9). But they are
 > intimately related to the octonions. Remember there is triality in
 > SO(8) which means that we can treat left-handed spinors, right-handed
 > spinors and vectors on an equal basis (see [week61](week61.html),

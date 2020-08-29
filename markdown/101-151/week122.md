@@ -10,7 +10,7 @@ done, were it not for the fact that I, too, flew the coop: first for
 Chicago, then Portugal, and then to one of the most isolated,
 technologically backwards areas on earth: my parents' house. Connected
 to cyberspace by only the thinnest of threads, writing new issues of
-This Week's Finds became almost impossible\....
+This Week's Finds became almost impossible....
 
 I did, however, read some newsgroups, and by this means Jim Carr
 informed me that an article on spin foam models of quantum gravity had
@@ -163,7 +163,7 @@ dynamical triangulations approach to quantum gravity. Unfortunately I
 don't have the energy to explain this now - so read those review
 articles, and check out that nice book by Ambjorn, Carfora and Marzuoli!
 
-On another front\... Ambjorn and Loll, who are both hanging out at the
+On another front... Ambjorn and Loll, who are both hanging out at the
 AEI these days, have recently teamed up to study causality in a lattice
 model of 2-dimensional Lorentzian quantum gravity:
 
@@ -183,7 +183,7 @@ I'll just quote the abstract:
 > (i.e. baby universe creation), one obtains agreement with the matrix
 > models and Liouville theory.
 
-And now for something completely different\...
+And now for something completely different...
 
 I've been hearing rumbles off in the distance about some interesting
 work by Kreimer relating renormalization, Feynman diagrams, and Hopf
@@ -213,7 +213,7 @@ constant you get here can be explicitly computed. For example, it often
 involves numbers like ζ(n), where ζ is the Riemann zeta function, much
 beloved by number theorists:
 
-ζ(n) = 1/1^n^ + 1/2^n^ + 1/3^n^ + \....
+ζ(n) = 1/1^n^ + 1/2^n^ + 1/3^n^ + ....
 
 Kreimer noticed that if you take the Feynman diagram and do some tricks
 to turn it into a drawing of a knot or link, the constant you get is

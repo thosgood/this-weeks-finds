@@ -174,7 +174,7 @@ Okay, now let me turn my attention to spin foams. Last month,
 Reisenberger and Rovelli came out with a couple of papers that push
 forward the general picture of spin foams as Feynman diagrams,
 generalizing the old work of Boulatov and Ooguri, and the newer work of
-De Pietri et al. Again, I'll just quote the abstracts\....
+De Pietri et al. Again, I'll just quote the abstracts....
 
 8) Michael Reisenberger and Carlo Rovelli, Spin foams as Feynman
 diagrams, preprint available as
@@ -223,7 +223,7 @@ diagram: the connection formulation, preprint available as
 > formulation of the spin foam models.
 
 I'm completely biased, but I think this is the way to go in quantum
-gravity\... we need to think more about the Lorentzian side of things,
+gravity... we need to think more about the Lorentzian side of things,
 like Barrett and Crane have been doing, but these spin foam models are
 so darn simple and elegant I can't help but think there's something
 right about them - especially when you see the sum over triangulations

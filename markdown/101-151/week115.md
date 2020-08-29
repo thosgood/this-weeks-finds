@@ -12,7 +12,7 @@ Egan:
 
 1) Greg Egan, Diaspora, Orion Books, 1997.
 
-The main character of this book, Yatima, is a piece of software\... and
+The main character of this book, Yatima, is a piece of software... and
 a mathematician. The tale begins in 2975 with ver birth as an
 "orphan", a citizen of the polis born of no parents, its mind seed
 chosen randomly by the conceptory. Yatima learns mathematics in a
@@ -29,7 +29,7 @@ modifications):
 > tunnel led into the cavern, providing the link to the necessary prior
 > concepts, and half a dozen tunnels led out, slanting gently \`down'
 > into the bedrock, pursuing various implications of the definition.
-> Suppose T is a topological space\... then what follows? These routes
+> Suppose T is a topological space... then what follows? These routes
 > were paved with small gemstones, each one broadcasting an intermediate
 > result on the way to a theorem.
 >
@@ -41,7 +41,7 @@ modifications):
 > along with the specialised vocabulary needed to state theorems and
 > conjectures precisely.
 >
-> \[\....\]
+> \[....\]
 >
 > The library was full of the ways past miners had fleshed out the
 > theorems, and Yatima could have had those details grafted in alongside
@@ -49,7 +49,7 @@ modifications):
 > Konishi citizens who'd travelled this route before. The right
 > mind-grafts would have enabled ver effortlessly to catch up with all
 > the living miners who were pushing the coal face ever deeper in their
-> own inspired directions\... at the cost of making ver, mathematically
+> own inspired directions... at the cost of making ver, mathematically
 > speaking, little more than a patchwork clone of them, capable only of
 > following in their shadow.
 >
@@ -119,7 +119,7 @@ Stasheff and Graeme Segal, have spent the last decade or so using it in
 string theory! I'll eventually try to say a bit about how that works,
 too.
 
-Okay\.... now I'll start listing concepts and tools, starting with the
+Okay.... now I'll start listing concepts and tools, starting with the
 more fundamental ones and then working my way up. This will probably
 only make sense if you've got plenty of that commodity known as
 "mathematical sophistication". So put on some Coltrane, make yourself
@@ -234,7 +234,7 @@ These degeneracies also give morphisms in Δ.
 We could list all the morphisms and the rules for composing them
 explicitly, but there is a much slicker way to describe them. Let's use
 the old trick of thinking of the natural number n as being the totally
-ordered n-element set {0,1,2,\...,n-1} of all natural numbers less than
+ordered n-element set {0,1,2,...,n-1} of all natural numbers less than
 n. Thus for example we think of the object 4 in Δ, the tetrahedron, as
 the totally ordered set {0,1,2,3}. These correspond to the 4 vertices of
 the tetrahedron. Then the morphisms in Δ are just all order-preserving

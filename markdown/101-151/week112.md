@@ -18,7 +18,7 @@ that most attempts to imagine the future come across as miserably
 unambitious. Many have a deliberately "retro" feel to them - space
 operas set in Galactic empires suspiciously similar to ancient Rome,
 cyberpunk stories set in dark urban environments borrowed straight from
-film noire, complete with cynical voiceovers\... is science fiction
+film noire, complete with cynical voiceovers... is science fiction
 doomed to be an essentially *nostalgic* form of literature?
 
 Perhaps we are becoming too wise, having seen how our wildest
@@ -31,12 +31,12 @@ But how do we *dare* imagine what things will be like in, say, a
 century, or a millenium? Vernor Vinge gave apt expression to this
 problem in his novel featuring the marooned survivors of a
 "singularity" at which the rate of technological advance became,
-momentarily, *infinite*, and most of civilization inexplicably\...
+momentarily, *infinite*, and most of civilization inexplicably...
 disappeared. Those who failed to catch the bus were left wondering just
 where it went. Somewhere unimaginable, that's all they know.
 
 "Distress" doesn't look too far ahead, just to 2053. Asexuality is
-catching on bigtime\... as are the "ultramale" and "ultrafemale"
+catching on bigtime... as are the "ultramale" and "ultrafemale"
 options, for those who don't like this gender ambiguity business.
 Voluntary Autists are playing around with eliminating empathy. And some
 scary radical secessionists are redoing their genetic code entirely,
@@ -63,7 +63,7 @@ subsets of T, and are equivalent when restricted to M - the space of
 n-dimensional paracompact Hausdorff manifolds - but they yield
 contradictory results for sets of more exotic spaces. However, the
 physical significance (if any) of this discrepancy remains
-obscure\...."
+obscure...."
 
 But, being a hardy soul and a good reporter, Worth is eventually able to
 explain to us readers what's at stake here, and *why* Masala's new
@@ -142,7 +142,7 @@ First consider an ordinary sphere in ordinary flat space. Imagine light
 being emitted outwards, the rays coming out normal to the surface of the
 sphere. Clearly the cross-section of each little imagined circular ray
 will *expand* as it emanates outwards. This is measured quantitatively
-in general relativity by a quantity called\... the expansion parameter!
+in general relativity by a quantity called... the expansion parameter!
 
 Now suppose your sphere surrounds a spherically symmetric black hole. If
 the sphere is huge compared to the size of the black hole, the above
@@ -185,11 +185,11 @@ field theories on a region with boundary, and imposes boundary
 conditions, one often needs to "add an extra boundary term to the
 action" - some sort of integral over the boundary - to get things to
 work out right. There is a whole yoga of finding the right boundary term
-to go along with the boundary conditions\... an arcane little art\...
+to go along with the boundary conditions... an arcane little art...
 just one of those things theoretical physicists do, that for some reason
 never find their way into the popular press.
 
-But in this case the boundary term is all-important, because it's\...
+But in this case the boundary term is all-important, because it's...
 
                           THE CHERN-SIMONS ACTION!
 
@@ -290,7 +290,7 @@ general relativity, preprint available as
 How does the Immirzi parameter affect the physics? It \*determines the
 quantization of area\*. You may notice how I keep saying "each spin-j
 edge of a spin network contributes an area proportional to sqrt(j(j+1))
-to any surface it punctures"\... without ever saying what the constant
+to any surface it punctures"... without ever saying what the constant
 of proportionality is! Well, the constant is
 
 8 π γ
@@ -338,7 +338,7 @@ S = (quantum of entropy / quantum of area) A
 
 What next? Well, one thing is to try to use these ideas to study Hawking
 radiation. That's hard, because we don't understand *Hamiltonians*
-very well in quantum gravity, but Krasnov has made some progress\....
+very well in quantum gravity, but Krasnov has made some progress....
 
 6) Kirill Krasnov, Quantum geometry and thermal radiation from black
 holes, preprint available as

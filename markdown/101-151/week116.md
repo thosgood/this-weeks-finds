@@ -145,7 +145,7 @@ pedagogical and nurturing. If I were really trying to show off, I would
 have compressed the last couple of paragraphs into the following one
 line:
 
-Sing(\--)(-) = hom(i(-),\--).
+Sing(--)(-) = hom(i(-),--).
 
 where Sing becomes a functor using the fact that for any category C
 there's a functor
@@ -352,7 +352,7 @@ Ch: SimpAb → Chain
 More surprisingly, this is an equivalence of categories! I leave you to
 show this - if you give up, look at May's book cited in section C. of
 ["Week 115"](#week115). What this means is that simplicial abelian
-groups are just another way of thinking about chain complexes\... or
+groups are just another way of thinking about chain complexes... or
 vice versa. Thus, if I were being ultra-sophisticated, I could have
 skipped the chain complexes and talked only about simplicial abelian
 groups! This would have saved time, but more people know about chain
@@ -385,7 +385,7 @@ Chain takes homotopies between maps and sends them to homotopies between
 morphisms of chain complexes! It follows that homotopic maps between
 spaces give the same homomorphisms between the singular homology groups
 of these spaces. Thus homotopy-equivalent spaces will have isomorphic
-homology groups\... so we have gotten our hands on a nice tool for
+homology groups... so we have gotten our hands on a nice tool for
 studying spaces up to homotopy equivalence.
 
 Now that we've got our hands on singular homology, we could easily

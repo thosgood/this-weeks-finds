@@ -260,7 +260,7 @@ cosmological constant! The cosmological constant is essentially the
 energy density of the vacuum. It was long assumed to be zero, but now
 there are some glimmerings of evidence that it's not. In fact, some
 people are quite convinced that it's not. The fate of the universe
-hangs in the balance\....
+hangs in the balance....
 
 Unfortunately I am too tired now to say much more about this. So let me
 just give you a nice easy starting-point:

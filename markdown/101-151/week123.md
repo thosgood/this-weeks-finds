@@ -29,18 +29,18 @@
 > particle floating in a quantum vacuum needs half the major results of
 > group theory, functional analysis, differential geometry - "
 >
-> "OK, OK! I get the point. But if that's the case\... the events in
+> "OK, OK! I get the point. But if that's the case... the events in
 > the first picosecond after the Big Bang would have \`constructed'
 > every last mathematical truth required by *any* physical system, all
 > the way to the Big Cruch. Once you've got the mathematics which
-> underpins the Theory of Everything\... that's it, that's all you
+> underpins the Theory of Everything... that's it, that's all you
 > ever need. End of story."
 >
 > "But it's not. To *apply* the Theory of Everything to a particular
 > system, you still need all the mathematics for dealing with *that
 > system* - which could include results far beyond the mathematics the
 > TOE itself requires. I mean, fifteen billion years after the Big Bang,
-> someone can still come along and prove, say\... Fermat's Last
+> someone can still come along and prove, say... Fermat's Last
 > Theorem." Andrew Wiles at Princeton had recently announced a proof of
 > the famous conjecture, although his work was still being scrutinised
 > by his colleagues, and the final verdict wasn't yet in. "Physics
@@ -57,15 +57,15 @@
 >
 > "Think about it. Once you start trying to prove a theorem, then even
 > if the mathematics is so \`pure' that it has no relevance to any
-> other object in the universe\... you've just made it relevant to
+> other object in the universe... you've just made it relevant to
 > *yourself*. You have to choose *some* physical process to test the
-> theorem - whether you use a computer, or a pen and paper\... or just
+> theorem - whether you use a computer, or a pen and paper... or just
 > close your eyes and shuffle *neurotransmitters*. There's no such
 > thing as a proof which doesn't rely on physical events, and whether
 > they're inside or outside your skull doesn't make them any less
 > real."
 
-And this is just the beginning\... the beginning of Greg Egan's tale of
+And this is just the beginning... the beginning of Greg Egan's tale of
 an inconsistency in the axioms of arithmetic - a "topological defect"
 left over in the fabric of mathematics, much like the cosmic strings or
 monopoles hypothesized by certain physicists thinking about the early
@@ -93,7 +93,7 @@ modify and copy themselves - a world familiar to readers of his novel
 "Diaspora" (see ["Week 115"](#week115)). But what I really like
 is that it's not just a hard-science extravaganza; it's a meditation
 on mortality. You can never really know what it's like to cross an
-event horizon unless you do it\....
+event horizon unless you do it....
 
 Other stories focus on biotechnology and philosophical problems of
 identity. The latter sort will especially appeal to everyone who liked
@@ -112,7 +112,7 @@ available free at the following website:
 <http://www.eidolon.net/old_site/issue_09/09_closr.htm>
 
 Whoops! I'm drifting pretty far from mathematical physics, aren't I?
-Self-reference has a lot to do with mathematical logic, but\.... To
+Self-reference has a lot to do with mathematical logic, but.... To
 gently drift back, let me point out that Egan has a website in which he
 explains special and general relativity in a nice, nontechnical way:
 
@@ -157,7 +157,7 @@ the 1960s. The science fiction part is just the description, later on in
 Grant's article, of how Little's dream is actually achieved.
 
 Okay, enough science fiction! Time for some real science! Quantum
-gravity, that is. (Stop snickering, you skeptics\....)
+gravity, that is. (Stop snickering, you skeptics....)
 
 6) Laurent Freidel and Kirill Krasnov, Spin foam models and the
 classical action principle, preprint available as
@@ -281,7 +281,7 @@ something seems right about it, so I find it very interesting.
 
 Anyway, on to some other papers. I'm afraid I don't have enough energy
 for detailed descriptions, because I'm busy moving into a new house, so
-I'll basically just point you at them\....
+I'll basically just point you at them....
 
 7) Abhay Ashtekar, Alejandro Corichi and Jose A. Zapata, Quantum theory
 of geometry III: Non-commutativity of Riemannian structures, preprint
@@ -397,7 +397,7 @@ calculations?, Talk given at the workshop "Loops and Legs in Gauge
 Theories", preprint available as
 [hep-th/9807125](http://xxx.lanl.gov/abs/hep-th/9807125).
 
-Switching over to homotopy theory and its offshoots\... when I visited
+Switching over to homotopy theory and its offshoots... when I visited
 Dan Christensen at Johns Hopkins this spring, he introduced me to all
 the homotopy theorists there, and Jack Morava gave me a paper which
 really indicates the extent to which new-fangled "quantum topology"

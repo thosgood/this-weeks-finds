@@ -67,7 +67,7 @@ to E(n). We say this list of spaces E(n) "represents" the generalized
 cohomology theory. Moreover, these spaces fit together to form a
 "spectrum", meaning that the space of based loops in E(n) is E(n-1).
 It follows that each space E(n) is an infinite loop space: a space of
-loops in a space of loops in a space of loops in\... where you can go on
+loops in a space of loops in a space of loops in... where you can go on
 as far as you like.
 
 Conversely, given an infinite loop space E(0), we can use it to cook up
@@ -137,7 +137,7 @@ Now, there's a particularly nice class of generalized cohomology
 theories called "complex oriented cohomology theories". Elliptic
 cohomology is one of these, so to understand elliptic cohomology you
 first have to study these guys a bit. Instead of just giving you the
-definition, I'll lead up to it rather gradually\....
+definition, I'll lead up to it rather gradually....
 
 Let's start with the integers, Z. These form an abelian group under
 addition, so by what I said above they are a pitifully simple special
@@ -151,7 +151,7 @@ that's good enough.
 
 Okay: so there's a space K(Z,1) such that the space of all based loops
 in K(Z,1) is Z. Similarly, there's a space K(Z,2) such that the space
-of all based loops in K(Z,2) is K(Z,1). And so on\... that's what it
+of all based loops in K(Z,2) is K(Z,1). And so on... that's what it
 means to say that Z is an infinite loop space.
 
 These spaces K(Z,n) are called "Eilenberg-MacLane spaces", and they
@@ -197,7 +197,7 @@ complex projective space are all really important in quantum theory.
 This is perhaps more obvious for the latter two spaces - the integers
 are so basic that it's hard to see what's so "quantum-mechanical"
 about them. However, since each of these spaces is just the loop space
-of the next, they're all part of tightly linked sequence\... and I want
+of the next, they're all part of tightly linked sequence... and I want
 to know what comes next!
 
 But I'm digressing. I really want to focus on K(Z,2), or in other
@@ -272,7 +272,7 @@ a monopole! But later, the physicist Yang met the mathematician Chern
 and translated Dirac's work into the language of line bundles. See
 
 11) C. N. Yang, Magnetic monopoles, fiber bundles and gauge field, in
-Selected Papers, 1945\--1980, with Commentary, W. H. Freeman and
+Selected Papers, 1945--1980, with Commentary, W. H. Freeman and
 Company, San Francisco, 1983.
 
 for the full story.

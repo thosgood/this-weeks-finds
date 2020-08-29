@@ -101,7 +101,7 @@ these other theories aren't background-free, so loop quantum gravity
 probably *should* be different. But until we know that loop quantum
 gravity really gives gravity (or some fancier theory like supergravity)
 in the large-scale limit, we can't be sure it should be different in
-this particular way. It's a legitimate worry\... but only time will
+this particular way. It's a legitimate worry... but only time will
 tell!
 
 I could continue listing approaches and their flaws, including Connes'

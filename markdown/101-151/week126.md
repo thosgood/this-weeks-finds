@@ -91,7 +91,7 @@ right-moving vibrational modes look like
 
 X(t,x) = A sin(ik(t-x)) + B cos(ik(t-x))
 
-with frequencies k = 1,2,3,\.... Abstractly, each of these vibrational
+with frequencies k = 1,2,3,.... Abstractly, each of these vibrational
 modes is just like a harmonic oscillator of frequency k, so we can think
 of the string as a big collection of harmonic oscillators.
 
@@ -102,7 +102,7 @@ is great, since the harmonic oscillator is one of the easiest physical
 systems to quantize!
 
 As you may know, the quantum harmonic oscillator has discrete energy
-levels with energies k/2, 3k/2, 5k/2,\.... (Here I'm working in units
+levels with energies k/2, 3k/2, 5k/2,.... (Here I'm working in units
 where ħ = 1; otherwise I'd need a factor of ħ.) In particular, the
 energy of the lowest-energy state is called the "zero-point energy" or
 "vacuum energy". It usually doesn't hurt much to subtract this off by
@@ -110,14 +110,14 @@ redefining the Hamiltonian, but sometimes it's important.
 
 Now, what's the total zero-point energy of all the right-moving modes?
 To figure this out, we add up the zero-point energy k/2 for all
-frequencies k = 1,2,3,\..., obtaining
+frequencies k = 1,2,3,..., obtaining
 
 (1 + 2 + 3 + ... )/2.
 
 Of course this is divergent, but there are lots of sneaky tricks for
 assigning values to divergent series, so let's not be disheartened!
 Euler figured out such a trick for calculating the sum 1 + 2 + 3 +
-\...., and he got the value -1/12. If we momentarily assume this makes
+...., and he got the value -1/12. If we momentarily assume this makes
 sense, then the total zero-point energy works out to be
 
 -1/24 !!!
@@ -156,7 +156,7 @@ matter is to explain Euler's mysterious formula
 As I said in ["Week 124"](#week124), this is an example of zeta
 function regularization. The Riemann zeta function is defined by
 
-ζ(s) = 1/1^s^ + 1/2^s^ + 1/3^s^ + \....
+ζ(s) = 1/1^s^ + 1/2^s^ + 1/3^s^ + ....
 
 when the sum converges, but it analytically continues to values of s
 where the sum doesn't converge. If we do the analytic continuation, we
@@ -173,7 +173,7 @@ where
 
 F(s) = π^-s/2^ Γ(s/2) ζ(s)
 
-and Γ is the famous function with Γ(n) = (n-1)! for n = 1,2,3,\... and
+and Γ is the famous function with Γ(n) = (n-1)! for n = 1,2,3,... and
 Γ(s+1) = s Γ(s) for all s. Using
 
 Γ(1/2) = √π
@@ -225,13 +225,13 @@ D/(1 - e^D^). The coefficients of this are closely related to the
 Bernoulli numbers, and this could easily lead us into further
 interesting digressions, but all we need to know is
 
-D/(1 - e^D^) = -1 + D/2 - D^2^/12 + \....
+D/(1 - e^D^) = -1 + D/2 - D^2^/12 + ....
 
 Applying this operator to F(x) = x^2^/2 and evaluating the result at x =
 0, the only nonzero term comes from the D^2^ term in the power series,
 so we get
 
-1 + 2 + 3 + \.... = \[(-D^2^/12) F\](0) = -1/12
+1 + 2 + 3 + .... = \[(-D^2^/12) F\](0) = -1/12
 
 Voilà!
 
@@ -261,7 +261,7 @@ of the harmonic oscillator Hamiltonian, H. Thus the eigenvalues of
 exp(-βH) are 1, exp(-βk), exp(-2βk), etc. The trace of this operator is
 just the sum of its eigenvalues, so we get
 
-Z(β) = 1 + exp(-βk) + exp(-2βk) + \...
+Z(β) = 1 + exp(-βk) + exp(-2βk) + ...
 
         = 1/(1 - exp(-βk))
 
@@ -389,6 +389,6 @@ of proof. If I had given you my methods of proof I am sure you will
 follow the London Professor. But as a fact I did not give him any proof
 but made some assertions as the following under my new theory. I told
 him that the sum of an infinite number of terms in the series* 1 + 2 + 3
-+ 4 + \... = -1/12 *under my theory. If I tell you this you will at once
++ 4 + ... = -1/12 *under my theory. If I tell you this you will at once
 point out to me the lunatic asylum as my goal.* - Srinivasa Ramanujan,
 second letter to G. H. Hardy

@@ -1,6 +1,6 @@
 # DATE {#week147}
 
-Various books are coming out to commemorate the millennium\....
+Various books are coming out to commemorate the millennium....
 describing the highlights of the math we've done so far, and laying out
 grand dreams for the future. The American Mathematical Society has come
 out with one:
@@ -38,7 +38,7 @@ pontifications, which will appear in the Springer-Verlag book:
 preprint available as
 [math.QA/0004133](http://arXiv.org/abs/math.QA/0004133)
 
-So let me talk about this stuff a bit\....
+So let me talk about this stuff a bit....
 
 As usual, the underlying theme of this paper is categorification. I've
 talked about this a lot already - e.g. in ["Week 121"](#week121) -
@@ -148,7 +148,7 @@ Lecture Notes in Mathematics 1488, Springer Verlag, Berlin, 1991, pp.
 Rendus Mathematiques de l'Academie des Sciences, La Societe Royale du
 Canada, VII (1985), 285-290.
 
-See also ["Week 102"](#week102) for more\....
+See also ["Week 102"](#week102) for more....
 
 But I don't want to talk about negative sets right now! Instead, I want
 to talk about *fractional* sets. It may seem odd to tackle division
@@ -244,7 +244,7 @@ space X.
 So: let's define the "homotopy cardinality" of a topological space X
 to be the alternating product
 
-\|X\|   =   \|π~1~(X)\|^-1^   \|π~2~(X)\|   \|π~3~(X)\|^-1^ \....
+\|X\|   =   \|π~1~(X)\|^-1^   \|π~2~(X)\|   \|π~3~(X)\|^-1^ ....
 
 when X is connected and the product converges; if X is not connected,
 let's define its homotopy cardinality to be the sum of the homotopy
@@ -315,7 +315,7 @@ something mysterious about homotopy cardinality.
 Homotopy cardinality is formally very similar to Euler characteristic.
 The Euler characteristic χ(X) is given by the alternating sum
 
-χ(X) = dim(H~0~(X)) - dim(H~1~(X)) + dim(H~2~(X)) - \....
+χ(X) = dim(H~0~(X)) - dim(H~1~(X)) + dim(H~2~(X)) - ....
 
 whenever the sum converges, where H~n~(X) is a vector space over the
 rational numbers called the nth rational homology group of X. Just as
@@ -351,7 +351,7 @@ simplices of all dimensions, we could compute the Euler characteristic
 of this space as the alternating sum of the numbers of such simplices.
 So let's try doing that here! We get:
 
-c(BG) = 1 - (\|G\|-1) + (\|G\|-1)^2^ - \....
+c(BG) = 1 - (\|G\|-1) + (\|G\|-1)^2^ - ....
 
 Of course the sum diverges, but if we go ahead and use the geometric
 formula anyway, we get
@@ -364,7 +364,7 @@ which matches our previous (rigorous) result that
 
 So maybe they're the same after all! There are similar calculations
 like this in James Propp's paper "Exponentiation and Euler
-characteristic", referred to above\... though he uses a slightly
+characteristic", referred to above... though he uses a slightly
 different notion of Euler characteristic, due to Schanuel. Clearly
 something interesting is going on with these "divergent Euler
 characteristics". For appearances of this sort of thing in physics,
@@ -394,12 +394,12 @@ Sometimes a divergent series of positive integers can be cleverly summed
 up to give a negative number. The simplest example is the geometric
 series
 
-1 + 2 + 4 + 8 + 16 + \... = 1/(1 - 2) = -1
+1 + 2 + 4 + 8 + 16 + ... = 1/(1 - 2) = -1
 
 but in ["Week 126"](#week126) I talked about a more sophisticated
 example that is very important in string theory:
 
-1 + 2 + 3 + 4 + 5 + \... = ζ(-1) = -1/12
+1 + 2 + 3 + 4 + 5 + ... = ζ(-1) = -1/12
 
 So maybe some similar trickery can be used to count the elements of G
 and get a divergent sum that can be sneakily evaluated to obtain 1/(2 -
@@ -432,7 +432,7 @@ bed-time. Good night!
 
 **Addenda:** Toby Bartels had some interesting things to say about this
 issue of This Week's Finds. Here is my reply, which quotes some of his
-remarks\....
+remarks....
 
 >     Toby Bartels (toby@ugcs.caltech.edu) wrote:
 >

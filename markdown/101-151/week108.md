@@ -125,13 +125,13 @@ and again:
 
 f = F(F(F(f)))).
 
-Are we having fun yet? It look like we're getting nowhere fast\... or
+Are we having fun yet? It look like we're getting nowhere fast... or
 even worse, getting nowhere *slowly*! Can we repeat this process so much
 that the f on the right-hand side goes away, leaving us with the
 solution we're after:
 
 f =
-F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F\..... ?
+F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F..... ?
 
 Well, actually, yes, if we're smart. What we do is this. We start by
 *guessing* the solution to our equation. How do we guess? Well, our
@@ -146,7 +146,7 @@ f~3~ = F(f~2~)
 f~4~ = F(f~3~)
 
 and so on. Now for the fun part: we show that these guesses get closer
-and closer to each other\... so that they converge to some function f
+and closer to each other... so that they converge to some function f
 with f = F(f)! Voila! With a little more work we can show that no matter
 what our initial guess was, our subsequent guesses approach the same
 function f, so that the solution f is unique.
@@ -224,10 +224,10 @@ W = L/(1 - L)
 
 and then expand the answer out as a Taylor series, getting
 
-W = L + L x L + L x L x L + \...
+W = L + L x L + L x L x L + ...
 
 This says "a word is either a letter or an ordered pair of letters or
-an ordered triple of letters or\..." Black magic, but it works!
+an ordered triple of letters or..." Black magic, but it works!
 
 Now, you may wonder exactly what's going on - when we're allowed to
 subtract and divide sets and expand functions of sets in Taylor series
@@ -244,7 +244,7 @@ induction could be thought of as guaranteeing the existence of certain
 fixed points. But underlying this is something still more basic: the set
 of natural numbers is also defined by a fixed point property! Suppose we
 take our set of letters above to be set {0} which has only one element.
-Then our set of words is {0,00,000,0000,0000,\...}. We can think of this
+Then our set of words is {0,00,000,0000,0000,...}. We can think of this
 as a funny way of writing the set of natural numbers, so let's call it
 N. Also, let's follow von Neumann and define
 
@@ -257,7 +257,7 @@ N = N + 1
 
 This is the basic fixed point property of the natural numbers.
 
-At this point some of you may be squirming\... this stuff looks a bit
+At this point some of you may be squirming... this stuff looks a bit
 weird when you first see it. To make it more rigorous I need to bring in
 some category theory, so I'll assume you've read
 ["Week 73"](#week73) and ["Week 76"](#week76) where I
@@ -292,8 +292,8 @@ point of F is thus a set x equipped with a function
 
 f: x + 1 → x
 
-so the natural numbers N = {0,00,000,\...} is a lax fixed point in an
-obvious way\... in fact a weak fixed point. So when I wrote N = N + 1
+so the natural numbers N = {0,00,000,...} is a lax fixed point in an
+obvious way... in fact a weak fixed point. So when I wrote N = N + 1
 above, I was lying: they're not equal, they're just isomorphic.
 Similarly with those other equations involving sets.
 
@@ -340,7 +340,7 @@ after reading the above stuff:
 > context-free languages, in Computer Programming and Formal Systems,
 > North-Holland Publishing Company, 1963.
 >
-> \...where Schutzenberger supplied the formal power series aspect,
+> ...where Schutzenberger supplied the formal power series aspect,
 > basically just as the usual generating function trick.
 >
 > The algebraic connection was developed through the 60's and 70's,
@@ -385,7 +385,7 @@ after reading the above stuff:
 > that there may be orbits rather than attractive basins, which I
 > alluded to briefly in my sci.math FAQ entry (which has become somewhat
 > mangled over the years) concerning the numeric solution of f(x) = x\^x
-> via direct fixed point recurrence (F(F(F(F(F\...(guess)..)))). The
+> via direct fixed point recurrence (F(F(F(F(F...(guess)..)))). The
 > orbits cause oscillatory instability in some regions such that it
 > becomes appropriate to switch to a different technique.
 >

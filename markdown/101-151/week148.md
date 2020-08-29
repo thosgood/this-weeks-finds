@@ -135,7 +135,7 @@ continuum approximation breaks down as turbulence develops.
 
 For Re(s) \> 1 the Riemann zeta function is defined by
 
-ζ(s) = 1/1^s^ + 1/2^s^ + 1/3^s^ + \....
+ζ(s) = 1/1^s^ + 1/2^s^ + 1/3^s^ + ....
 
 But we can extend it by analytic continuation to most of the complex
 plane - it has a pole at s = 1. The zeta function has a bunch of zeros
@@ -214,7 +214,7 @@ Volume 2, eds. L. Keldysh and V. Feinberg, Nova Science, New York, 1992.
 Of course, this idea sounds a bit nutty. However, the quantum state of a
 spinor contains exactly one bit of information, and loop quantum gravity
 is based on the theory of spinors, so it's not as crazy as it might
-seem\.... Still, there are some, ahem, *details* to be worked out!
+seem.... Still, there are some, ahem, *details* to be worked out!
 
 So let's work them out.
 
@@ -292,7 +292,7 @@ Here ω is the U(1) Chern-Simons symplectic structure; we're evaluating
 it on two tangent vectors to the space of U(1) connections on the
 2-sphere, which we call δ W and δ W'. These are the same as 1-forms, so
 we can wedge them and integrate the result over the 2-sphere. The number
-k is some constant depending on the area of the black hole\... but more
+k is some constant depending on the area of the black hole... but more
 about that later!
 
 I guess this Chern-Simons stuff needs some background to fully
@@ -357,7 +357,7 @@ the horizon, the E field is proportional to the curvature of the
 connection W.
 
 So: what do quantum states in the resulting theory look like? I'll
-describe a basis of states for you\....
+describe a basis of states for you....
 
 Outside the black hole, they are described by spin networks. I've
 discussed these in ["Week 110"](#week110) and elsewhere, but let me
@@ -368,7 +368,7 @@ that doesn't concern us much here. What matters more is that the spin
 network edges can puncture the horizon 2-sphere. And it turns out that
 each puncture must be labelled with a number m chosen from the set
 
-{-j, -j+1, \.... j-1, j}
+{-j, -j+1, .... j-1, j}
 
 These numbers m determine the state of the geometry of the horizon
 2-sphere.
@@ -497,7 +497,7 @@ electromagnetism, and the same γ works. That's sort of nice.
 There are a lot of interesting comparisons between our way of computing
 black hole entropy and the ways its done in string theory, and a lot of
 other things to say, too but for that, you'll have to read the
-paper\... I'm worn out now!
+paper... I'm worn out now!
 
 ------------------------------------------------------------------------
 
@@ -519,7 +519,7 @@ the beginning of ["Week 147"](#week147).
 
 ------------------------------------------------------------------------
 
-*\... for beginners engaging in research, a most difficult feature to
+*... for beginners engaging in research, a most difficult feature to
 grasp is that of quality - that is, the depth of a problem. Sometimes
 authors work courageously and at length to arrive at results which they
 believe to be significant and which experts believe to be shallow. This

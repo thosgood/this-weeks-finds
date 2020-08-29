@@ -22,7 +22,7 @@ on Mac Lane. Far from breaking into tears, he burst into song.)
 
 The conference was exquisitely well-organized, packed with top category
 theorists, and stuffed with so many cool talks I scarcely know where to
-begin describing them\... I'll probably say a bit about a random
+begin describing them... I'll probably say a bit about a random
 sampling of them next time, and the proceedings will appear in a special
 issue of the Journal of Pure and Applied Algebra honoring Mac Lane's
 90th birthday, so keep your eye out for that if you're interested. The
@@ -55,7 +55,7 @@ coming from the morphisms in C, satisfying equational laws coming from
 the equations between morphisms in C. Any sort of algebraic gadget
 that's just a set with a bunch of n-ary operations satisfying equations
 can be described using a theory of this sort. For example: monoids,
-groups, abelian groups, rings\... and so on. We can describe any of
+groups, abelian groups, rings... and so on. We can describe any of
 these using a suitable algebraic theory, and in each case, the category
 Mod(C) will be the category of these algebraic gadgets.
 
@@ -87,7 +87,7 @@ Now for the marvelous duality theorem: fgFree-Mod(C) is equivalent to
 the opposite of the category C. In other words, you can reconstruct an
 algebraic theory from its category of finitely generated free algebras
 in the simplest manner imaginable: just reversing the direction of all
-the morphisms! This is so nice I won't explain why it's true\... I
+the morphisms! This is so nice I won't explain why it's true... I
 don't want to deprive you of the pleasure of looking at some simple
 examples and seeing for yourself how it works. For example, take the
 theory of groups, and figure out how every operation appearing in the
@@ -102,7 +102,7 @@ Or: given the category of free models of an algebraic theory, can you
 fatten it up to get the category of *all* models? Pedicchio mentioned a
 process called "exact completion" that does the job. Or: starting from
 just the category of models of a theory, can you tell which are the free
-models? Alas, I don't know the answer to this\... but I'm sure people
+models? Alas, I don't know the answer to this... but I'm sure people
 do.
 
 Even better, all of this can be generalized immensely, to theories of a
@@ -133,7 +133,7 @@ title in: Proceedings of the National Academy of Sciences of the USA 50
 
 (Unfortunately I forget who is publishing it!) It was also nice to find
 out that Lawvere and Schanuel are writing a book on "objective number
-theory"\... which will presumably be more difficult, but hopefully not
+theory"... which will presumably be more difficult, but hopefully not
 less delightful, than their wonderful introduction to category theory
 for people who know *nothing* about fancy mathematics:
 
@@ -155,7 +155,7 @@ with duals replacing the categories with finite products which Lawvere
 considered! I guess he was just ahead of his time. In fact, he has
 returned to physics in more recent years - but that's another story.
 
-Okay, let me change gears now\....
+Okay, let me change gears now....
 
 Some n-category gossip. Ross Street has a student who has defined a
 notion of semistrict n-category up to n = 5, and Sjoerd Crans has

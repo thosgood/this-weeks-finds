@@ -11,7 +11,7 @@ was invented in 526 CE by Dennis the Diminutive, long before the number
 zero caught on. In my opinion, the real "millennium bug" is that
 anyone is still using the antiquated AD system!
 
-Anyway\....
+Anyway....
 
 In ["Week 73"](#week73), I mentioned a theory about why molecules
 important in biology tend to come in a consistent chirality, or
@@ -185,7 +185,7 @@ like:
 
 8) GRAVITON homepage, <http://www.das.inpe.br/graviton/project.html>
 
-There are also other gravitational wave detectors being built\... but
+There are also other gravitational wave detectors being built... but
 ultimately, the really best ones will probably be built in outer space.
 There are two good reasons for this. First, outer space is big: when
 you're trying to detect very small distortions of the geometry of
@@ -285,7 +285,7 @@ In 2005 folks plan to launch GLAST, the Gamma-Ray Large Area Space
 Telescope, designed to study γ-ray bursters and the like, and also the
 Alpha Magnetic Spectrometer, designed to search for antimatter in space.
 But there are also a bunch of interesting projects that are still
-basically just a twinkle in someone's eye\....
+basically just a twinkle in someone's eye....
 
 For example: OWL, the Orbiting Wide-Angle Light Collector, a pair of
 satellites that would trace the paths of super-high-energy cosmic rays

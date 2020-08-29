@@ -116,7 +116,7 @@ press release available online at
 You should also check out the Chandra website for nice new pictures of
 the black holes at the center of the Milky Way and Andromeda.
 
-Okay\... I've been sort of goofing off in the last few Weeks, but now I
+Okay... I've been sort of goofing off in the last few Weeks, but now I
 want to return to some hardcore mathematics. In particular, I want to
 talk about n-categories and homotopy theory, so I'm going to pick up
 "The Tale of n-Categories" roughly where I left off in
@@ -173,7 +173,7 @@ pentagon equation. It says that this diagram commutes:
                    (a(bc))d  =====================> a((bc)d)
 
 I haven't labelled the double arrows here, but they are all 2-morphisms
-built from the associator in obvious ways\... obvious if you know about
+built from the associator in obvious ways... obvious if you know about
 2-categories, at least. The pentagon equation says that the two basic
 ways of going from ((ab)c)d to a(b(cd)) by rebracketing are equal to
 each other. But in fact, MacLane's "coherence theorem" says that
@@ -211,7 +211,7 @@ my real goal, which is to explain how you can use homotopy theory to
 understand coherence laws. With any luck, I'll get around to telling
 you all sorts of wonderful stuff about Postnikov towers, the cohomology
 of Eilenberg-MacLane spaces, and so on. We'll see. So much math, so
-little time\....
+little time....
 
 Okay, here's how you build an associahedron.
 
@@ -294,7 +294,7 @@ discovered their relation to binary trees. Here they are, starting from
 the 0th one:
 
 1, 1, 2, 5, 14, 42, 132, 429, 1430, 4862, 16796, 58786, 208012, 742900,
-\...
+...
 
 The nth Catalan number is also the number of ways of taking a regular
 (n+2)-gon and chopping it into triangles by connecting the vertices by
@@ -365,7 +365,7 @@ T = (1 - sqrt(1 - 4x))/2.
 
 Now if we do a Taylor expansion we get
 
-T = x + x^2^ + 2x^3^ + 5x^4^ + 14x^5^ + 42x^6^ + \...
+T = x + x^2^ + 2x^3^ + 5x^4^ + 14x^5^ + 42x^6^ + ...
 
 Lo and behold - the Catalan numbers! If we're a bit smarter and use the
 binomial theorem and mess around a bit, we get a closed-form formula for
@@ -416,7 +416,7 @@ point of the associahedron corresponds to a particular n-ary operation:
 a way of composing n things. To make this precise one must use the
 theory of "operads". The theory of operads is really the royal road to
 understanding n-categories, coherence laws, and their relation to
-homotopy theory\.... But here, alas, I must stop.
+homotopy theory.... But here, alas, I must stop.
 
 ------------------------------------------------------------------------
 

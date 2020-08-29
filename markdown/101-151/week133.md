@@ -158,7 +158,7 @@ category theory here and there to make their ideas precise. Personally I
 feel confused about causality in loop quantum gravity - I think we'll
 have to muck around and try different things before we find out what
 works. But Markopoulou's work is the main reason I'm even *daring* to
-think about these issues\....
+think about these issues....
 
 3) Seth A. Major, Embedded graph invariants in Chern-Simons theory,
 preprint available as
@@ -170,7 +170,7 @@ Lee Smolin on q-deformed spin networks in quantum gravity (see
 as yet no firm proof, that q-deforming your spin networks corresponds to
 introducing a nonzero cosmological constant. The main technical problem
 with q-deformed spin networks is that they require a "framing" of the
-underlying graph. Here Major tackles that problem\....
+underlying graph. Here Major tackles that problem....
 
 And now for something completely different, arising from a thread on
 sci.physics.research started by Garrett Lisi. What's the gauge group of
@@ -304,7 +304,7 @@ are no *other* patterns that would make any *more* elements of U(1) x
 SU(2) x SU(3) act trivially. And if you think about the relation between
 charge and hypercharge, you'll see this pattern has a lot to do with
 the fact that quark charges in multiples of 1/3, while leptons have
-integral charge. There's more to it than that, though\....
+integral charge. There's more to it than that, though....
 
 Anyway, the "true" gauge group of the Standard Model - i.e., the
 smallest possible one - is not U(1) x SU(2) x SU(3), but the quotient of

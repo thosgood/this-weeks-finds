@@ -3,7 +3,7 @@
 Last time I described some of the talks at James Hartle's 60th birthday
 celebration at the Newton Institute. But I also met some people at that
 party that I'd been wanting to talk to. There's a long story behind
-this, so if you don't mind, I'll start at the beginning\....
+this, so if you don't mind, I'll start at the beginning....
 
 A while ago, Phillip Helbig, one of the two moderators of
 sci.physics.research who do astrophysics, drew my attention to an
@@ -198,7 +198,7 @@ dimensions, we have
      d(ln p)
 
 where a \< 0. If we ignore the higher-order terms which I have written
-as "\....", this implies something very interesting for quantum
+as "....", this implies something very interesting for quantum
 gravity in 4 dimensions. Suppose that at low momenta G is small. Then
 the right-hand side is dominated by the first term, which is positive.
 This means that as we crank up the momentum scale, G keeps getting

@@ -31,7 +31,7 @@ times as massive as the intermediate-sized one (e.g. the moon). And in
 case you're wondering, this magic number is just an approximation to
 the exact figure, which is
 
-(25/2) (1 + sqrt(1 - 4/625)) = 24.95993579437711227887\....
+(25/2) (1 + sqrt(1 - 4/625)) = 24.95993579437711227887....
 
 Here's a proof that the Lagrange points work as advertised, including a
 derivation of the above number:
@@ -175,7 +175,7 @@ at manifolds mapped into that space and its iterated suspensions. To be
 honest, this is actually how *bordism* theory works - this being a
 generalized *homology* theory. But every generalized homology theory
 goes hand-in-hand with a generalized cohomology theory, and if you
-understand one you understand the other, at least in principle\....
+understand one you understand the other, at least in principle....
 Anyway, there are various flavors of cobordism theory corresponding to
 various kinds of extra structure you can put on a manifold:
 piecewise-linear cobordism theory, smooth cobordism theory, oriented
@@ -355,7 +355,7 @@ just equivalence classes of vector bundles, and multiplying them just
 *means* tensoring them. So in this case, R\[\[c\]\] becomes the
 "multiplicative" formal group law. Of course, some fiddling around is
 required, because we don't usually think of the multiplicative unit 1
-as the origin of the line\... but we can if we want.
+as the origin of the line... but we can if we want.
 
 What are some other examples? Well, complex cobordism theory is one.
 This corresponds to the "universal" formal group law: a formal group
@@ -363,20 +363,20 @@ law that has a unique homomorphism to any other one! In this case R is
 quite big: it's called the "Lazard ring". And this universal aspect
 of complex cobordism theory makes it the king of all complex oriented
 generalized cohomology theories. I really should spend about 10 pages
-explaining it to you in detail, but I won't\....
+explaining it to you in detail, but I won't....
 
-\... because I want to finally say a word about elliptic cohomology!
+... because I want to finally say a word about elliptic cohomology!
 
 I've talked a lot about elliptic curves in ["Week 13"](#week13),
 ["Week 125"](#week125) and ["Week 126"](#week126), so I get to
 assume you know about them: an elliptic curve is a 1-dimensional compact
 complex manifold which is also an abelian group. As such, any elliptic
 curve gives a formal group law. And thus we can wonder if this formal
-group law comes from a complex oriented cohomology theory\... and it
+group law comes from a complex oriented cohomology theory... and it
 does! And this is elliptic cohomology!
 
 Now this is just the beginning of a long story: there's much more to
-say, and I don't have the energy to say it here\... but I'll just
+say, and I don't have the energy to say it here... but I'll just
 tantalize you with some of the high points. Since elliptic curves can be
 thought of as the worldsheets of strings, there are a bunch of
 interesting relationships between string theory and elliptic cohomology.
@@ -390,7 +390,7 @@ Berlin, 1999.
 We also get lots of nice relationships to the theory of modular forms.
 But the one thing we apparently don't have *yet* is a very neat
 *geometrical* description of elliptic cohomology! There's got to be
-one, since so much nice geometry is involved\... but what is it?
+one, since so much nice geometry is involved... but what is it?
 
 (For an answer to this question, see ["Week 197"](#week197).)
 

@@ -111,7 +111,7 @@ invited me to a seminar at M.I.T. where I met Gerald Sussman, who with
 Jack Wisdom has run the best long-term simulations of the solar system,
 trying to settle the old question of whether the darn thing is stable!
 It turns out that the system is afflicted with chaos and can only be
-predicted with any certainty for about 4 million years\... though their
+predicted with any certainty for about 4 million years... though their
 simulation went out to 100 million.
 
 Here are some fun facts: 1) They need to take general relativity into
@@ -137,7 +137,7 @@ of Pluto is chaotic, Science, 241, 22 July 1988.
 
 James Applegate, M. Douglas, Y. Gursel, Gerald Jay Sussman, Jack Wisdom,
 The outer solar system for 200 million years, Astronomical Journal, 92,
-pp 176-194, July 1986, reprinted in Lecture Notes in Physics \#267 \--
+pp 176-194, July 1986, reprinted in Lecture Notes in Physics \#267 --
 Use of Supercomputers in Stellar Dynamics, Springer Verlag, 1986.
 
 James Applegate, M. Douglas, Y. Gursel, P Hunter, C. Seitz, Gerald Jay
@@ -165,7 +165,7 @@ There are different definitions of "weak n-category" out there now and
 it will take a while of sorting through them to show a bunch are
 equivalent and get the whole machinery running smoothly. In the above
 paper I mainly talk about the definition that James Dolan and I came up
-with. Here are some other new papers on this sort of thing\... I'll
+with. Here are some other new papers on this sort of thing... I'll
 just list them with abstracts.
 
 6) Claudio Hermida, Michael Makkai and John Power, On weak higher

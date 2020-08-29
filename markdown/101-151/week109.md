@@ -2,7 +2,7 @@
 
 In the Weeks to come I want to talk about quantum gravity. A lot of cool
 things have been happening in this subject lately. But I want to start
-near the beginning\....
+near the beginning....
 
 In the 1960's, John Wheeler came up with the notion of "spacetime
 foam". The idea was that at very short distance scales, quantum
@@ -45,7 +45,7 @@ Press, 1973.
 It's in the famous last chapter called "Beyond the end of time".
 Strong stuff! This is what got me interested in quantum gravity in
 college. Later I came to prefer less florid writing, and realized how
-hard it was to turn gripping prose into actual theories\... but back
+hard it was to turn gripping prose into actual theories... but back
 then I ate it up uncritically.
 
 Part of Wheeler's vision was that ultimately physics is all about
@@ -77,7 +77,7 @@ There were many problems with getting this wormhole picture of particles
 to work. First, there was - and is! - no experimental evidence that
 wormholes exist, virtual or otherwise. The main reason for believing in
 virtual wormholes was the quantum-mechanical idea that "whatever is not
-forbidden is required"\... an idea which must be taken with a grain of
+forbidden is required"... an idea which must be taken with a grain of
 salt. Second, there was no mathematical model of "spacetime foam" or
 "virtual wormholes". It was just a vague notion.
 
@@ -119,7 +119,7 @@ foam, though not yet a rigorous one (see ["Week 67"](#week67)).
 
 But long before that, Newman, Penrose, and others started finding
 interesting relationships between general relativity and the mathematics
-of spin-1/2 particles\... relationships that much later would yield a
+of spin-1/2 particles... relationships that much later would yield a
 theory of spacetime foam in which spinors play a crucial part!
 
 The best place to read about spinorial techniques in general relativity
@@ -164,7 +164,7 @@ dimension, see ["Week 61"](#week61) and ["Week 93"](#week93).
 Here I'll be concentrating on stuff that only works when we start with
 \*3\* space dimensions.
 
-Now I will turn up the math level a notch\....
+Now I will turn up the math level a notch....
 
 In the quantum mechanics of angular momentum, what matters is not the
 representations of the rotation group SO(3), but of its double cover
@@ -201,7 +201,7 @@ This comes from letting SO(3), and thus SU(2), act on symmetric
 traceless 3x3 matrices in the obvious way (by conjugation). In
 perturbative quantum gravity, gravitons are expected to be spin-2
 particles. Why is this? Well, a cheap answer is that the metric on space
-is given by a symmetric 3x3 matrix. But this is not very satisfying\...
+is given by a symmetric 3x3 matrix. But this is not very satisfying...
 I'll give a better answer later.
 
 Now, the systematic way to get all these representations is to build
@@ -232,7 +232,7 @@ representation, in which SL(2,C) acts on C\^2 in the obvious way. The
 "right-handed" one is the conjugate of this, in which we take the
 complex conjugate of the entries of our matrix before letting it act on
 C\^2 in the obvious way. These two representations become equivalent
-when we restrict to SU(2)\... but for SL(2,C) they're not! For example,
+when we restrict to SU(2)... but for SL(2,C) they're not! For example,
 when we study particles as representations of SL(2,C), it turns out that
 neutrinos are left-handed, while antineutrinos are right-handed.
 
@@ -275,7 +275,7 @@ where A,A' = 1,2.
 
 Similarly, we can write *any* tensor using spinors with twice as many
 indices. This may not seem like a great step forward, but it actually
-was\... because it lets us slice and dice concepts from general
+was... because it lets us slice and dice concepts from general
 relativity in interesting new ways.
 
 For example, the Riemann curvature tensor describing the curvature of

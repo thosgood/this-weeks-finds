@@ -5,7 +5,7 @@ getting stuff done at Riverside so that I could visit the Center for
 Gravitational Physics and Geometry here at Penn State with a fairly
 clean slate. Indeed, sometimes my whole life seems like an endless
 series of distractions designed to prevent me from writing This Week's
-Finds. However, now I'm here and ready to have some fun\....
+Finds. However, now I'm here and ready to have some fun....
 
 Recently I've been trying to learn about grand unified theories, or
 "GUTs". These were popular in the late 1970s and early 1980s, when the
@@ -215,7 +215,7 @@ the Weinberg angle, which is related to the ratio of the masses of the W
 and Z bosons. It also makes testable new predictions! Most notably,
 since it allows quarks to turn into leptons, it predicts that protons
 can decay - with a halflife of somewhere around 10^29^ or 10^30^ years.
-So people set off to look for proton decay\....
+So people set off to look for proton decay....
 
 However, even when the SU(5) model was first proposed, it was regarded
 as slightly inelegant, because it didn't unify all the fermions of a
@@ -255,7 +255,7 @@ find that the E series plays a special role in grand unified theories.
 Now, people usually only talk about E6, E7, and E8, but one can work
 backwards using Dynkin diagrams to define E5, E4, E3, E2, and E1. Let's
 do it! Thanks go to Allan Adler and Robin Chapman for helping me
-understand how this works\....
+understand how this works....
 
 E8 is a big fat Lie group whose Dynkin diagram looks like this:
 
@@ -316,7 +316,7 @@ which is just SU(2) x SU(2), and E1:
           o      
                 
 
-which is just SU(2)\... but I'm not sure what's so great about these
+which is just SU(2)... but I'm not sure what's so great about these
 groups.
 
 By the way, you might wonder what's the real reason for removing the
@@ -345,8 +345,8 @@ came in.
 Theoretical particle physics never really recovered from this crushing
 blow. In a sense, particle physics gradually retreated from the goal of
 making testable predictions, drifting into the wonderland of pure
-mathematics\... first supersymmetry, then supergravity, and then
-superstrings\... ever more elegant theories, but never yet a verified
+mathematics... first supersymmetry, then supergravity, and then
+superstrings... ever more elegant theories, but never yet a verified
 experimental prediction. Perhaps we should be doing something different,
 something better? Easy to say, hard to do! If we see a superpartner at
 CERN, a lot of this "superthinking" will be vindicated - so I guess
@@ -376,9 +376,9 @@ Topics, proceedings of the 4th Kyoto Summer Institute, World Scientific,
 Singapore, 1981.
 
 Okay, now for some homotopy theory! I don't think I'm ever gonna get
-to the really cool stuff\... in my attempt to explain everything
+to the really cool stuff... in my attempt to explain everything
 systematically, I'm getting worn out doing the preliminaries. Oh well,
-on with it\... now it's time to start talking about loop spaces! These
+on with it... now it's time to start talking about loop spaces! These
 are really important, because they tie everything together. However, it
 takes a while to deeply understand their importance.
 

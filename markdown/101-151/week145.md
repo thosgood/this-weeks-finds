@@ -136,7 +136,7 @@ Then, to add two points x and y on L, draw this picture:
 In other words, draw a line M' parallel to M through the point y, draw
 a line N through x and 0', and draw a line N' parallel to N and going
 through the point where M' and L' intersect. L and N' intersect at
-the point called z\... and we define this point to be x + y!
+the point called z... and we define this point to be x + y!
 
 This is obviously the right thing, because the two triangles in the
 picture are congruent.
@@ -178,7 +178,7 @@ Then, to multiply x and y, draw this picture:
 In other words, draw a line N though 1' and x, draw a line M' parallel
 to M through the point y, and draw a line N' parallel to N through the
 point where L' and M' intersect. L and N' intersect at the point
-called z\... and we define this point to be xy!
+called z... and we define this point to be xy!
 
 This is obviously the right thing, because the triangle containing the
 points 1 and x is similar to the triangle containing y and z.
@@ -214,7 +214,7 @@ to isomorphism.
 At this point you should be pounding your desk and yelling "Great - but
 what does \`Desarguesian' mean? I want the nitty-gritty details!"
 
-Okay\....
+Okay....
 
 Given a projective plane, define a "triangle" to be three points that
 don't lie on the same line. Now suppose you have two triangles xyz and
@@ -254,7 +254,7 @@ on the choice of quadrangle when our projective plane is Desarguesian!
 An even more beautiful fact about Desarguesian planes concerns their
 relation to higher dimensions. Just as we defined projective planes
 through a list of axioms, we can also define projective spaces of any
-dimension n = 1,2,3,\.... The simplest example is FP^n^ - the space of
+dimension n = 1,2,3,.... The simplest example is FP^n^ - the space of
 lines through the origin in F^n+1^, where F is some division ring. The
 neat part is that when n \> 2, this is the *only* example. Moreover, any
 projective plane sittting inside one of these higher-dimensional

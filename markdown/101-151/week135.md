@@ -3,7 +3,7 @@
 Well, darn it, now I'm too busy running around to conferences to write
 This Week's Finds! First I went to Vancouver, then to Santa Barbara,
 and for almost a month now I've been in Portugal, bouncing between
-Lisbon and Coimbra. But let me try to catch up\....
+Lisbon and Coimbra. But let me try to catch up....
 
 From June 16th to 19th, Steve Savitt and Steve Weinstein of the
 University of British Columbia held a workshop designed to get
@@ -255,7 +255,7 @@ simplifying the calculations through "black hole excision": anything
 going on inside the event horizon can't affect what happens outside, so
 if one can get the computer to *find* the horizon, one can forget about
 simulating what's going on inside! But nobody is very good at doing
-this yet\... even using the simpler concept of "apparent horizon",
+this yet... even using the simpler concept of "apparent horizon",
 which can be defined locally. So there is some serious work left to be
 done!
 
@@ -264,7 +264,7 @@ look at the transparencies.)
 
 I also had some interesting talks with people about black hole entropy,
 some of which concerned a new paper by Steve Carlip. I'm not really
-able to do justice to the details, but it seems important\....
+able to do justice to the details, but it seems important....
 
 9) Steve Carlip, Entropy from conformal field theory at Killing
 horizons, preprint available at
@@ -319,7 +319,7 @@ correspondence, preprint available as
 
 Next time I want to talk about the big category theory conference in
 honor of MacLane's 90th birthday! Then I'll be pretty much caught up
-on the conferences\....
+on the conferences....
 
 ------------------------------------------------------------------------
 

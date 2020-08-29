@@ -197,7 +197,7 @@ Octonions are also prominent in string theory and in the grand unified
 theories proposed by my friends Geoffrey Dixon and Tony Smith - see
 ["Week 59"](#week59), ["Week 91"](#week91), and
 ["Week 104"](#week104). I'll probably say more about this
-someday\....
+someday....
 
 The reason I'm interested in neutrinos is that I want to learn what
 evidence there is for laws of physics going beyond the Standard Model

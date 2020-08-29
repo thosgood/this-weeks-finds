@@ -1,7 +1,7 @@
 # DATE {#week105}
 
 There are some spooky facts in mathematics that you'd never guess in a
-million years\... only when someone carefully works them out do they
+million years... only when someone carefully works them out do they
 become clear. One of them is called "Bott periodicity".
 
 A 0-dimensional manifold is pretty dull: just a bunch of points.
@@ -12,7 +12,7 @@ interesting, but still pretty tame: you've got your n-holed tori, your
 projective plane, your Klein bottle, variations on these with extra
 handles, and some more related things if you allow your manifold to go
 on forever, like the plane, or the plane with a bunch of handles added
-(possibly infinitely many!), and so on\.... You can classify all these
+(possibly infinitely many!), and so on.... You can classify all these
 things. 3-dimensional manifolds are a lot more complicated: nobody knows
 how to classify them. 4-dimensional manifolds are a *lot* more
 complicated: you can *prove* that it's *impossible* to classify them -
@@ -38,7 +38,7 @@ here.)
 
 Bott periodicity takes many guises, and I already described one in
 ["Week 104"](#week104). Let's start with the real numbers, and
-then throw in n square roots of -1, say e~1~,\...,e~n~. Let's make them
+then throw in n square roots of -1, say e~1~,...,e~n~. Let's make them
 "anticommute", so
 
 e~i~ e~j~ = - e~j~ e~i~
@@ -46,7 +46,7 @@ e~i~ e~j~ = - e~j~ e~i~
 when i is different from j. What we get is called the "Clifford
 algebra" C~n~. For example, when n = 1 we get the complex numbers,
 which we call C. When n = 2 we get the quaternions, which we call H, for
-Hamilton. When n = 3 we get\... the octonions?? No, not the octonions,
+Hamilton. When n = 3 we get... the octonions?? No, not the octonions,
 since we always demand that multiplication be associative! We get the
 algebra consisting of *pairs* of quaternions! We call that H + H. When n
 = 4 we get the algebra consisting of 2x2 *matrices* of quaternions! We
@@ -118,7 +118,7 @@ Now let's completely change the subject and talk about rotations in
 infinite-dimensional space! What's a rotation in infinite-dimensional
 space like? Well, let's start from the bottom and work our way up. You
 can't really rotate in 0-dimensional space. In 1-dimensional space you
-can't really rotate, you can only *reflect* things\... but we will
+can't really rotate, you can only *reflect* things... but we will
 count reflections together with rotations, and say that the operations
 of multiplying by 1 or -1 count as "rotations" in 1-dimensional space.
 In 2-dimensional space we describe rotations by 2x2 matrices like
@@ -153,7 +153,7 @@ think of any rotation in n dimensions as a rotation in n+1 dimensions.
 So we can think of O(0) as sitting inside O(1), which sits inside O(2),
 which sits inside O(3), which sits inside O(4), and so on! Let's do
 that. Then let's just take the *union* of all these guys, and we
-get\... O(∞)! This is the group of rotations, together with reflections,
+get... O(∞)! This is the group of rotations, together with reflections,
 in infinite dimensions.
 
 (Now if you know your math, or you read ["Week 82"](#week82),
@@ -578,6 +578,6 @@ reference to this fact:
 
 ------------------------------------------------------------------------
 
-*\... for geometry, you know, is the gate of science, and the gate is so
+*... for geometry, you know, is the gate of science, and the gate is so
 low and small that one can only enter it as a little child.* - William
 Clifford

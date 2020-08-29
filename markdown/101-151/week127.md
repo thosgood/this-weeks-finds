@@ -160,7 +160,7 @@ eigenvalues. Then the "zeta function" of A is defined by:
 ζ(s) = tr(A^-s^)
 
 To compute ζ(s) we just take all the eigenvalues of A, raise them to the
--s power, and add them up. For example, if A has eigenvalues 1,2,3,\...,
+-s power, and add them up. For example, if A has eigenvalues 1,2,3,...,
 then ζ(s) is just the usual Riemann zeta function, which we already
 talked about in ["Week 126"](#week126).
 
@@ -268,7 +268,7 @@ This problem is called the "conformal anomaly".
 
 Are we stuck? No! Luckily, there is *another* problem, which cancels
 this one when n = 26. They say two wrongs don't make a right, but with
-anomalies that's often the only way to get things to work\....
+anomalies that's often the only way to get things to work....
 
 So what's this other problem? It's that we shouldn't just replace the
 measure dg by the measure d\[g\] as I did in my naive formula for the
@@ -434,7 +434,7 @@ pattern, it's all just staring you in the face if you'd only notice
 it. (Chaitin has convincingly argued otherwise using Goedel's theorem,
 and certainly some patterns in mathematics seem "purely accidental",
 but right now I'm just waxing rhapsodic, expressing a feeling one
-sometimes gets\....)
+sometimes gets....)
 
 Indeed, look at the proof in Nash's book that one of these determinant
 bundles is the 13th tensor power of the other - I think this result is
@@ -443,7 +443,7 @@ works out the first Chern class of both bundles using the index theorem
 for families, and he gets something involving the Todd genus - and the
 Todd genus, as we all know, is defined using the same function
 
-x / (1 - e^x^) = -1 + x/2 - x^2^/12 + \...
+x / (1 - e^x^) = -1 + x/2 - x^2^/12 + ...
 
 that we talked about in ["Week 126"](#week126) when computing the
 zero-point energy of the bosonic string! And yet again, it's that darn
@@ -452,7 +452,7 @@ where the 13 comes from! It's all an elaborate conspiracy!
 
 But of course the conspiracy is far grander than I've even begun to let
 on. If we keep digging away at it, we're eventually led to nothing
-other than\....
+other than....
 
 ::: {align="CENTER"}
 MONSTROUS MOONSHINE!!!
@@ -474,7 +474,7 @@ this cartoon, which you'll see is quite relevant:
 <http://www.physik.uni-frankfurt.de/~jr/gif/cartoon/cart0785.gif>
 
 Second, let's calculate the determinant of an operator A whose
-eigenvalues are the numbers 1, 2, 3, \.... You can think of this
+eigenvalues are the numbers 1, 2, 3, .... You can think of this
 operator as the Hamiltonian for the wave equation on the circle, where
 we only keep the right-moving modes. As I already said, the zeta
 function of this operator is the Riemann zeta function. This function
@@ -486,7 +486,7 @@ det(A) = exp(-ζ'(0)) = (2 π)^1/2^ .
 Just for laughs, if we pretend that the determinant of A is the product
 of its eigenvalues as in the finite-dimensional case, we get:
 
-1 × 2 × 3 × \... = (2 π)^1/2^
+1 × 2 × 3 × ... = (2 π)^1/2^
 
 or if you really want to ham it up,
 

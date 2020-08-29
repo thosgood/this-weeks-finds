@@ -58,7 +58,7 @@ With this crossing of strands, the picture has become 3-dimensional!
 
 We also require that we can "compose" a morphism f: x → y and a
 morphism g: y → z and get a morphism fg: x → z. We draw this by sticking
-one picture on top of each other like this\... I'll draw a fancy
+one picture on top of each other like this... I'll draw a fancy
 example where all the objects in question are themselves tensor products
 of other objects:
 

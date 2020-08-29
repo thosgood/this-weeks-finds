@@ -15,7 +15,7 @@ holes. So spin networks are quite a flourishing business.
 Okay. Building space from spin! How does it work?
 
 Penrose's original spin networks were purely combinatorial gadgets:
-graphs with edges labelled by numbers j = 0, 1/2, 1, 3/2,\... These
+graphs with edges labelled by numbers j = 0, 1/2, 1, 3/2,... These
 numbers stand for total angular momentum or "spin". He required that
 three edges meet at each vertex, with the corresponding spins j~1~,
 j~2~, j~3~ adding up to an integer and satisfying the triangle
@@ -204,7 +204,7 @@ vertex is labelled with an intertwiner of the form
 
 f: j~1~ ⊗ j~2~ → j~3~ ⊗ j~4~
 
-where j~1~,\...,j~4~ are the spins on these edges. If you know about the
+where j~1~,...,j~4~ are the spins on these edges. If you know about the
 representation theory of SU(2), you know that j~1~ ⊗ j~2~ is a direct
 sum of representations of spin j~5~, where j~5~ goes from \|j~1~ -
 j~2~\| up to j~1~ + j~2~ in integer steps. So we get a basis of
@@ -230,8 +230,8 @@ Dually, this amounts to labelling each tetrahedron and each triangle in
 our manifold with a spin! Let's think of it this way.
 
 Now focus on a particular simplicial spin network and a particular
-tetrahedron. What do the spins j~1~,\...,j~5~ say about the geometry of
-the tetrahedron? By what I said earlier, the spins j~1~,\...,j~4~
+tetrahedron. What do the spins j~1~,...,j~5~ say about the geometry of
+the tetrahedron? By what I said earlier, the spins j~1~,...,j~4~
 describe the areas of the triangular faces: face number 1 has area
 proportional to (j~1~(j~1~+1))^½^, and so on. What about j~5~? It also
 describes an area. Take the tetrahedron and hold it so that faces 1 and
@@ -244,9 +244,9 @@ spin network state is an eigenvector with eigenvalue proportional to
 (j~5~(j~5~+1))^½^. Finally, there is also a *volume operator*
 corresponding to the tetrahedron, whose action on our spin network state
 is given by a more complicated formula involving the spins
-j~1~,\...,j~5~.
+j~1~,...,j~5~.
 
-Well, that either made sense or it didn't\... and I don't think either
+Well, that either made sense or it didn't... and I don't think either
 of us want to stick around to find out which! What's the bottom line,
 you ask? First, we're seeing how an ordinary tetrahedron is the
 classical limit of a "quantum tetrahedron" whose faces have quantized
@@ -264,7 +264,7 @@ Next week I'll say a bit about using spin networks to study quantum
 black holes. Later I'll talk about *dynamics* and spin foams.
 
 Meanwhile, I've been really lagging behind in describing new papers as
-they show up\... so here are a few interesting ones:
+they show up... so here are a few interesting ones:
 
 5) C. Nash, Topology and physics - a historical essay, to appear in A
 History of Topology, edited by Ioan James, Elsevier-North Holland,

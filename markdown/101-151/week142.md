@@ -43,7 +43,7 @@ stones of one color "dies" and is removed from the board when it is
 surrounded by stones of the other color. More precisely, we say a stone
 is "dead" when none of its nearest neighbors of the same color have
 nearest neighbors of the same color which have nearest neighbors of the
-same color which\... have nearest neighbors that are still vacant grid
+same color which... have nearest neighbors that are still vacant grid
 points.
 
 There are also two subsidary rules, designed to keep silly things from
@@ -335,7 +335,7 @@ Even better, Carlton is now interested in understanding the
 anything with n-categories. Makkai has a new paper on this subject, and
 I realize now that I've never mentioned this paper on This Week's
 Finds, so let me conclude by quoting the abstract. It's pretty long and
-detailed, and probably only of interest to n-category addicts\....
+detailed, and probably only of interest to n-category addicts....
 
 15) M. Makkai, The multitopic ω-category of all multitopic
 ω-categories, preprint available at
@@ -404,7 +404,7 @@ detailed, and probably only of interest to n-category addicts\....
 > **L-structure** is a Set-valued functor on L. To each signature L, a
 > particular relation between two variable L-structures, called
 > L-equivalence, is defined. Two L-structures M, N, are L-equivalent iff
-> there is a so-called L-equivalence span M\<\-\--P\-\--\>N between
+> there is a so-called L-equivalence span M\<---P---\>N between
 > them; here, the arrows are ordinary natural transformations, required
 > to satisfy a certain property called "fiberwise surjectivity".
 >
@@ -449,7 +449,7 @@ detailed, and probably only of interest to n-category addicts\....
 >
 > The analog of the universal arrows in the Baez/Dolan style definition
 > is as follows. A **universal arrow** is defined to be an arrow of the
-> form b:ALPHA\-\-\-\--\> a where a is a composite of ALPHA via an
+> form b:ALPHA-----\> a where a is a composite of ALPHA via an
 > equipment E that relates b with the identity arrow on a : in turn, the
 > identity arrow on a is any composite of the empty pasting diagram of
 > dimension dim(a)+1 based on a . Note that the main definition does
@@ -517,7 +517,7 @@ detailed, and probably only of interest to n-category addicts\....
 >
 > \[H/M/P\] C. Hermida, M. Makkai and J. Power, On weak higher
 > dimensional categories I. Accepted by: Journal of Pure and Applied
-> Algebra. Available electronically (when the machines work \...).
+> Algebra. Available electronically (when the machines work ...).
 >
 > \[L\] J. Lambek, Deductive systems and categories II. Lecture Notes in
 > Mathematics 86 (1969), 76-122 (Springer-Verlag).
@@ -529,6 +529,6 @@ detailed, and probably only of interest to n-category addicts\....
 > \[M3\] M. Makkai, First Order Logic with Dependent Sorts. Research
 > monograph, accepted by Lecture Notes in Logic (Springer-Verlag). Under
 > revision. Original form available electronically (when the machines
-> work \...).
+> work ...).
 
 ------------------------------------------------------------------------

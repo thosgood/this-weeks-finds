@@ -109,7 +109,7 @@ This "12-ness" has a lot to do with the magic properties of the number
 24 in string theory. But to see how this "12-ness" affects string
 theory, we need to talk about elliptic curves a bit more. It will take
 forever unless I raise the mathematical sophistication level a little.
-So\....
+So....
 
 We can define an elliptic curve to be a torus C/L formed by taking the
 complex plane C and modding out by a lattice L. Since C is an abelian

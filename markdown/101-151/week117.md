@@ -89,7 +89,7 @@ deconfinement, but as Jim Carr explained in a recent post to
 sci.physics, they're being very cautious about coming out and saying
 so. By mid-1999, the folks at Brookhaven hope to get higher energies
 with the Relativistic Heavy Ion Collider, which will collide two beams
-of gold nuclei head-on at 100 GeV per nucleon\... see
+of gold nuclei head-on at 100 GeV per nucleon... see
 ["Week 76"](#week76) for more on this.
 
 One of the hoped-for signs of deconfinement is "strangeness
@@ -173,7 +173,7 @@ functor called "geometric realization" that turns a simplicial set
 into a topological space, and another functor that turns a space into a
 simplicial set called its "singular simplicial set". I also showed how
 to turn a simplicial set into a simplicial abelian group, and how to
-turn one of *those* into a chain complex\... or vice versa.
+turn one of *those* into a chain complex... or vice versa.
 
 As you can see, the key is to have lots of functors at your disposal, so
 you can take a problem in any given context - or more precisely, any
@@ -185,11 +185,11 @@ all the games we've been playing.
 
 But first I want to describe a few more important tricks for turning
 this into that. Recall from ["Week 115"](#week115) that there's a
-category Δ whose objects 0,1,2,\... are the simplices, with n
+category Δ whose objects 0,1,2,... are the simplices, with n
 corresponding to the simplex with n vertices - the simplex with 0
 vertices being the "empty simplex". We can also define Δ in a purely
 algebraic way as the category of finite totally ordered sets, with n
-corresponding to the totally ordered set {0,1,\....,n-1}. The morphisms
+corresponding to the totally ordered set {0,1,....,n-1}. The morphisms
 in Δ are then the order-preserving maps. Using this algebraic definition
 we can do some cool stuff:
 

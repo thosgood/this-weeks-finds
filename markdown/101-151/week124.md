@@ -92,7 +92,7 @@ magical properties of the number 24 conspire to make things work out.
 
 What are these magical properties of the number 24? Well,
 
-1^2^ + 2^2^ + 3^2^ + \... + 24^2^
+1^2^ + 2^2^ + 3^2^ + ... + 24^2^
 
 is itself a perfect square, and 24 is the only integer with this
 property besides silly ones like 0 and 1. As described in
@@ -102,7 +102,7 @@ that bosonic string theory *works best* in 26 dimensions.
 
 One reason bosonic string theory works best in 26 dimensions is that
 
-1 + 2 + 3 + \.... = -1/12
+1 + 2 + 3 + .... = -1/12
 
 and 2 x 12 = 24. Of course, this explanation is unsatisfactory in many
 ways. First of all, you might wonder what the above equation means!
@@ -112,7 +112,7 @@ Actually this is the *least* unsatisfactory feature of the explanation.
 Although the sum diverges, you can still make sense of it. The Riemann
 zeta function is defined by
 
-ζ(s) = 1^-s^ + 2^-s^ + 3^-s^ + \....
+ζ(s) = 1^-s^ + 2^-s^ + 3^-s^ + ....
 
 whenever the real part of s is greater than 1, which makes the sum
 converge. But you can analytically continue it to the whole complex
@@ -120,7 +120,7 @@ plane, except for a pole at 1. If you do this, you find that
 
 ζ(-1) = -1/12.
 
-Thus we may jokingly say that 1 + 2 + 3 + \.... = -1/12. But the real
+Thus we may jokingly say that 1 + 2 + 3 + .... = -1/12. But the real
 point is how the zeta function shows up in string theory, and quantum
 field theory in general. (It's also big in number theory.)
 
@@ -130,7 +130,7 @@ want something that clearly relates strings and the number 24, something
 so simple even a child could understand it, and which, when you work out
 all the implications, implies that bosonic string theory only makes
 sense in 26 dimensions. I don't expect a child to be able to figure out
-all the implications\... but I want the essence to be childishly simple.
+all the implications... but I want the essence to be childishly simple.
 
 Here it is. Suppose the string worldsheet is an elliptic curve. Then we
 can make it by taking a "lattice" of parallelograms in the complex
@@ -290,7 +290,7 @@ be described as coset models, though I'm not quite sure.
 Whew! Believe it or not, the authors plan a second volume! Anyway, this
 is a wonderful book to have around. I was just about to buy a copy in
 Chicago last spring - on sale for a mere \$50 - when I discovered I'd
-lost my credit card. Sigh. The big ones always get away\....
+lost my credit card. Sigh. The big ones always get away....
 
 There are various formalisms for doing conformal field theory that
 aren't covered in the above text. For example, the theory of "vertex

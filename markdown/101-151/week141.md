@@ -107,7 +107,7 @@ between A and not(A); in Brazilian logic we allow a slight overlap.
 In short, this book is full of fascinating stuff. Lots of passages are
 downright amusing at first, like this:
 
-> \[\...\] there have been calls recently for inconsistent calculus,
+> \[...\] there have been calls recently for inconsistent calculus,
 > appealing to the history of calculus in which inconsistent claims
 > abound, especially about infinitesimals (Newton, Leibniz, Bernoulli,
 > l'Hospital, even Cauchy). However, inconsistent calculus has resisted
@@ -274,7 +274,7 @@ n-sphere:
 Dimension 7 is the simplest interesting case - except perhaps for
 dimension 4, where the answer is unknown! The "smooth Poincare
 conjecture" says that there's only one smooth structure on the
-4-sphere, but this remains a conjecture\....
+4-sphere, but this remains a conjecture....
 
 As you can see, there are lots of exotic 11-spheres. In fact, this is
 relevant to string theory! You can get an n-sphere with any possible
@@ -389,7 +389,7 @@ would be cool, so I'm glad some people are trying to establish
 connections.
 
 Okay, that's enough for exotic spheres, at least for now! I've got a
-few more things here that I just want to mention\....
+few more things here that I just want to mention....
 
 I've been learning a bit about Calabi-Yau manifolds and mirror symmetry
 in string theory lately. The basic idea is that string theory on
@@ -503,7 +503,7 @@ where:
 P(k) is the order of the kth stable homotopy group of spheres
 
 B(k) is the kth Bernoulli number, in the sequence 1/6, 1/30, 1/42, 1/30,
-5/66, 691/2730, 7/6, \...
+5/66, 691/2730, 7/6, ...
 
 a(k) is 1 or 2 according to whether k is even or odd.
 

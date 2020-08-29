@@ -138,6 +138,6 @@ simpler way, and Scott Carter for a fascinating letter on the themes of
 ["Week 102"](#week102). Alas, I have been too busy to reply
 adequately to these nice emails!
 
-Gotta run\....
+Gotta run....
 
 ------------------------------------------------------------------------

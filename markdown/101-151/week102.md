@@ -55,7 +55,7 @@ Unfortunately, it's far from simple. In fact, nobody knows the answer
 for all m and k! People *do* know the answer for zillions of particular
 values of m and k. But there is no simple pattern to it: instead, there
 is an incredibly complicated and beautiful weave of subtle patterns,
-which we have not gotten to the bottom of\... and perhaps never will.
+which we have not gotten to the bottom of... and perhaps never will.
 
 To get a little feel for this, let's bring in some standard notation:
 folks use π~m~(X) to denote the set of homotopy classes of maps from an
@@ -267,12 +267,12 @@ also thought about it very deeply. Joyal is famous for his work relating
 category theory, combinatorics and topology, and his way of thinking
 about the homotopy groups of spheres reflects these interests. He said a
 very fascinating thing; he said "really we should call the sphere
-spectrum the 'true integers'". I would like to explain this\... but
+spectrum the 'true integers'". I would like to explain this... but
 here things get a bit technical, and I am afraid they will get a lot
 more technical when I get around to the string theory stuff.
 
 What's the "sphere spectrum"? Well, roughly it's just the list of
-spheres S^0^, S^1^, S^2^, \..., but the word "spectrum" refers to the
+spheres S^0^, S^1^, S^2^, ..., but the word "spectrum" refers to the
 way all these spaces are all related, all aspects of one big thing.
 
 Here's a nice way to think of it. Start with the integers. Normally we
@@ -571,7 +571,7 @@ between higher-dimensional knot theory and the homotopy groups of
 spheres in a very vivid, direct way.
 
 Okay. What about string theory and the magic number 24? Well, notice
-that the pictures above started looking a bit like strings! Hmm\....
+that the pictures above started looking a bit like strings! Hmm....
 
 Here's the idea, as far as I understand it. Presumably all but the
 hardy have stopped reading this article by now, so I will pull out all
@@ -672,7 +672,7 @@ trick: composing elements of homotopy groups of spheres to get new ones!
 
 *Think of one and minus one. Together they add up to zero, nothing,
 nada, niente, right? Picture them together, then picture them
-separating, peeling part\.... Now you have something, you have two
+separating, peeling part.... Now you have something, you have two
 somethings, where you once had nothing.* - John Updike, Roger's Version
 
                        /\

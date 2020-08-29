@@ -251,7 +251,7 @@ like this:
 And if you know a little category theory, you'll see what we have here
 are two categories: the category of cobordisms and the category of
 Hilbert spaces. A topological quantum field theory is a functor from the
-first to the second\....
+first to the second....
 
 Okay, now for some other papers:
 
@@ -365,7 +365,7 @@ both directions) stabilizes after 2n+2 rows:
 
 Carlos Simpson has now made this hypothesis precise and proved it using
 Tamsamani's definition of n-categories! And he did it using the same
-techniques that Graeme Segal used to study k-fold loop spaces\...
+techniques that Graeme Segal used to study k-fold loop spaces...
 exploiting the relation between n-categories and homotopy theory. This
 makes me really happy.
 

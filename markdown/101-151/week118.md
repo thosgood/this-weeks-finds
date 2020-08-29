@@ -175,7 +175,7 @@ superspace. Similarly, super-Yang-Mills theory is the supersymmetric
 version of the Yang-Mills equations - which are important in particle
 physics because they describe all the forces *except* gravity. So
 superstring theory has in it the seeds of general relativity and also
-the other forces of nature \-\-- or at least their supersymmetric
+the other forces of nature --- or at least their supersymmetric
 analogues.
 
 Like superstring theory, super-Yang-Mills theory only works in spacetime
@@ -333,7 +333,7 @@ space and then use all the methods of topology to study this space. Or
 we can turn it into a chain complex and apply homology theory. So it's
 very important to have tricks for turning all sorts of gadgets into
 simplicial sets: groups, rings, algebras, Lie algebras, you name it! And
-here's how\....
+here's how....
 
 ------------------------------------------------------------------------
 
@@ -346,7 +346,7 @@ what I'm calling a "simplicial object", they would call an
 "augmented simplicial object". Oh well.
 
 Concretely, a simplicial object in a category amounts to a bunch of
-objects x~0~, x~1~, x~2~,\... together with morphisms like this:
+objects x~0~, x~1~, x~2~,... together with morphisms like this:
 
                              ---i1->
                   ---i0->    ---i0->

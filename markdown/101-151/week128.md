@@ -86,31 +86,31 @@ theory where we can work out everything in detail.
 
 Here's the table of contents of Carlip's book:
 
-> 1\. Why (2+1)-dimensional gravity?
+> 1. Why (2+1)-dimensional gravity?
 >
-> 2\. Classical general relativity in 2+1 dimensions
+> 2. Classical general relativity in 2+1 dimensions
 >
-> 3\. A field guide to the (2+1)-dimensional spacetimes
+> 3. A field guide to the (2+1)-dimensional spacetimes
 >
-> 4\. Geometric structures and Chern-Simons theory
+> 4. Geometric structures and Chern-Simons theory
 >
-> 5\. Canonical quantization in reduced phase space
+> 5. Canonical quantization in reduced phase space
 >
-> 6\. The connection representation
+> 6. The connection representation
 >
-> 7\. Operator algebras and loops
+> 7. Operator algebras and loops
 >
-> 8\. The Wheeler-DeWitt equation
+> 8. The Wheeler-DeWitt equation
 >
-> 9\. Lorentzian path integrals
+> 9. Lorentzian path integrals
 >
-> 10\. Euclidean path integrals and quantum cosmology
+> 10. Euclidean path integrals and quantum cosmology
 >
-> 11\. Lattice methods
+> 11. Lattice methods
 >
-> 12\. The (2+1)-dimensional black hole
+> 12. The (2+1)-dimensional black hole
 >
-> 13\. Next steps
+> 13. Next steps
 >
 > A. Appendix: The topology of manifolds
 >
@@ -325,7 +325,7 @@ preprint available as
 [gr-qc/9809067](http://xxx.lanl.gov/abs/gr-qc/9809067).
 
 But while this settled the facts of the matter, it left open the
-question of "why" \-\-- why does it take *6* numbers to describe the
+question of "why" --- why does it take *6* numbers to describe the
 shape of classical tetrahedron in 4 dimensions but only *4* numbers to
 describe the shape of a quantum one? John Barrett and I have almost
 finished a paper on this, so I'll give away the answer.
@@ -421,13 +421,13 @@ here. Happy new year!
 > Recently, Barrett and Williams came up with a nice argument saying
 > that in the limit where the triangles have large areas, the amplitude
 > for a 4-simplex in the Barrett-Crane theory is proportional, not to
-> exp(iS), but to cos(S)\....
+> exp(iS), but to cos(S)....
 >
 > This argument is not rigorous - it uses a stationary phase
 > approximation that requires further justification. But similar
 > argument to show the same sort of thing for quantum gravity in 3
 > dimensions, and their argument was recently made rigorous by Justin
-> Roberts, with a lot of help from Barrett\....
+> Roberts, with a lot of help from Barrett....
 >
 > So one expects that with work, one can make Barrett and Williams'
 > argument rigorous.

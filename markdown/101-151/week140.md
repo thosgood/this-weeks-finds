@@ -19,7 +19,7 @@ Institute for Advanced Studies! But there's so much stuff in between:
 the mathematical foundations of quantum mechanics (von Neumann algebras,
 the Stone-Von Neumann theorem and so on), ergodic theory, his work on
 Hilbert's fifth problem, the Manhattan project, game theory, the theory
-of self-reproducing cellular automata\.... You may or may not like him,
+of self-reproducing cellular automata.... You may or may not like him,
 but you can't help being awed. Hans Bethe, no dope himself, said of von
 Neumann that "I always thought his brain indicated that he belonged to
 a new species, an evolution beyond man". The mathematician Polya said
@@ -52,7 +52,7 @@ homogeneous space, preprint available as
 The Barrett-Crane model is a very interesting theory of quantum gravity.
 I've described it already in ["Week 113"](#week113),
 ["Week 120"](#week120) and ["Week 128"](#week128), so I won't
-go into much detail about it - I'll just plunge in\....
+go into much detail about it - I'll just plunge in....
 
 The original Barrett-Crane model involved a fixed triangulation of
 spacetime. One can also cook up versions where you sum over
@@ -122,7 +122,7 @@ Hilbert space for a quantum tetrahedron is a certain subspace T of H x H
 x H x H, where "x" denotes the tensor product of Hilbert spaces.
 Concretely, we can think of states in T as complex functions on the
 product of 4 copies of S^3^. These complex functions need to satisfy
-some constraints, but let's not worry about those\....
+some constraints, but let's not worry about those....
 
 Now let's "second quantize" the Hilbert space T. This is physics
 jargon for making a Hilbert space out of the algebra of polynomials on T

@@ -39,7 +39,7 @@ vertices labelled by intertwiners. If you don't know what this means,
 don't panic! If we take our symmetry group to be SU(2), things simplify
 tremendously. If we take our graph to have 4 edges meeting at every
 vertex, things simplify even more. In this case, all we need to do is
-label each vertex and each edge with a number j = 0, 1/2, 1, 3/2,\...
+label each vertex and each edge with a number j = 0, 1/2, 1, 3/2,...
 called a "spin".
 
 In this special case, we can get our spin network as a slice of a
@@ -102,7 +102,7 @@ form as <http://math.ucr.edu/home/baez/foam.ps>
 
 Perhaps I can be forgiven some personal history here. Michael
 Reisenberger has been pushing the idea of spin foams (though not the
-terminology) for quite a while\... see for example his paper:
+terminology) for quite a while... see for example his paper:
 
 4) Michael Reisenberger, Worldsheet formulations of gauge theories and
 gravity, preprint available as
@@ -164,11 +164,11 @@ don't know the dynamics of our theory!
 The "spin foam vertex amplitudes for quantum gravity" became my holy
 grail. Whenever I gave a talk on this stuff I would go around afterwards
 asking everyone if they could help me figure them out. I would lay out
-all the clues I had and beg for assistance\... or at least a spark of
+all the clues I had and beg for assistance... or at least a spark of
 inspiration. In March I gave a talk a talk at Penn State proposing a
 candidate for these vertex amplitudes - a candidate I no longer believe
 in. Afterwards Carlo Rovelli told me about his attempts to work out
-something similar with Louis Crane and Lee Smolin\... attempts that
+something similar with Louis Crane and Lee Smolin... attempts that
 never quite got anywhere. We had a crack at it together but it didn't
 quite gel. In May I asked John Barrett about the vertex amplitudes at a
 conference in Warsaw. He said he couldn't guess them. I couldn't get
@@ -228,9 +228,9 @@ phase space, obtaining the "Hilbert space of a quantum 4-simplex".
 Then you need to note that there's a special linear functional on this
 Hilbert space, called the "Penrose evaluation" - see
 ["Week 110"](#week110). Putting all this together gives the vertex
-amplitudes for quantum gravity\... we hope.
+amplitudes for quantum gravity... we hope.
 
-Anyway, back to my little personal story\....
+Anyway, back to my little personal story....
 
 Though I'd been working on my paper before Barrett and Crane started,
 and they finished before me, Michael Reisenberger started one even
@@ -269,7 +269,7 @@ reproduces, in a continuum limit, Euclidean general relativity.'
 
 To wrap up my little history, let me say what's been happening lately.
 There is still a lot of puzzlement and mystery concerning these spin
-foam models\... it's far from clear that they really work as hoped for.
+foam models... it's far from clear that they really work as hoped for.
 We may be doing things a little bit wrong, or we may be on a completely
 wrong track. The phase space of the 4-simplex involves some tricky
 constraint equations which could kill us if we're not dealing with them

@@ -149,7 +149,7 @@ black hole horizon specifies the macrostate, and that there are about N
 What are these microstates? Much ink has been spilt over this thorny
 question, but one reasonable possibility is that they are \*states of
 the geometry of the event horizon\*. If we know its area, there are
-still lots of geometries that the event horizon could have\... and
+still lots of geometries that the event horizon could have... and
 perhaps, for some reason, there are about exp(A/4) of them! For this to
 be true, we presumably need some theory of "quantum geometry", so that
 the number of geometries is finite.

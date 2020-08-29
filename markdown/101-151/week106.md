@@ -105,7 +105,7 @@ QED. The same argument works in higher dimensions too.
 Now that we know a point in RP^n^ is just a line through the origin in
 R^n+1^, it's easy to put coordinates on RP^n^. There's one line
 through the origin passing through any point in R^n+1^, but if we
-multiply the coordinates (x~1~,\...,x~n+1~) of this point by any nonzero
+multiply the coordinates (x~1~,...,x~n+1~) of this point by any nonzero
 number we get the same line. Thus we can use a list of n+1 real numbers
 to describe a point in RP^n^, with the proviso that we get the same
 point in RP^n^ if someone comes along and multiplies them all by some
@@ -115,7 +115,7 @@ If you don't like the ambiguity of homogeneous coordinates, you can go
 right ahead and divide all the coordinates by the real number x~1~,
 getting
 
-(1, x~2~/x~1~, \... , x~n+1~/x~1~)
+(1, x~2~/x~1~, ... , x~n+1~/x~1~)
 
 which lets us describe a point in RP^n^ by n real numbers, as befits an
 n-dimensional real manifold. Of course, this won't work if x~1~ happens
@@ -137,7 +137,7 @@ used as a context for "algebraic geometry".
 We can go even further and replace the real numbers by the quaternions,
 H, defining the "quaternionic projective n-space" HP^n^. If we are
 careful about writing things in the right order, it's no problem that
-the quaternions are noncommutative\... we can still divide by any
+the quaternions are noncommutative... we can still divide by any
 nonzero quaternion, so we can cover HP^n^ with n+1 different coordinate
 charts and freely change coordinates as desired.
 
@@ -471,7 +471,7 @@ which would require 4 charts.
 But, a deeper way to think about this emerged in conversations I've had
 with James Dolan. Stasheff invented a notion of "A~∞~ space", which is
 a pointed topological space with a product that is associative up to
-homotopy which satisfies the pentagon identity up to\... etc. Any A~∞~
+homotopy which satisfies the pentagon identity up to... etc. Any A~∞~
 space G has a classifying space BG such that
 
 Ω(BG) \~ G.
@@ -491,7 +491,7 @@ homeomorphic to RP^n^. Similarly, if we do this where G is the group of
 length-one elements of C or H we get CP^∞^ or HP^∞^. But if we take G to
 be the units of O, which has a product but is not even
 homotopy-associative, we get OP^1^ = S^7^ at the first step, OP^2^ at
-the second step, \... but there's no way to perform the third step!
+the second step, ... but there's no way to perform the third step!
 
 Next: here's a little more information on the octonionic, bioctonionic,
 quateroctonionic and octooctonionic projective planes. Rosenfeld claims
@@ -539,7 +539,7 @@ subalgebras of a simple Lie algebra.
 
 Next, here's some more stuff about the biquaternions, bioctonions,
 quaterquaternions, quateroctonions and octooctonions! I wrote this extra
-stuff as part of a post to sci.physics.research on November 8, 1999\....
+stuff as part of a post to sci.physics.research on November 8, 1999....
 
 > One reason people like these algebras is that some of them - the
 > associative ones - are also Clifford algebras. I talked a bit about
@@ -591,7 +591,7 @@ stuff as part of a post to sci.physics.research on November 8, 1999\....
 > And this is C~6,0~.
 >
 > If you do the same trick for the bioctonions, quateroctonions and
-> octooctonions, you get other Clifford algebras\... but I'll leave the
+> octooctonions, you get other Clifford algebras... but I'll leave the
 > question of *which ones* as a puzzle for the reader. If you need some
 > help, look at the "Footnote" in ["Week 105"](#week105).
 >

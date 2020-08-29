@@ -217,7 +217,7 @@ On the consistency of the constraint algebra in spin network quantum
 gravity, preprint available as
 [gr-qc/9710018](http://xxx.lanl.gov/abs/gr-qc/9710018).
 
-This is very worrisome\... as everything concerning quantum gravity
+This is very worrisome... as everything concerning quantum gravity
 always is. Personally these results make me want to spend less time on
 the Hamiltonian constraint, especially to the extent that it assumes a
 the old picture of spacetime as a smooth manifold, and more time on
