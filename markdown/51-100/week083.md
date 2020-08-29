@@ -202,8 +202,8 @@ $$
         to [out=down,in=down,looseness=2] (2,1)
         to (2,2);
       \end{knot}
-      \node[fill=white] at (0,0.3) {$y$};
-      \node[fill=white] at (2,1.7) {$y$};
+      \node[fill=white] at (0,0.5) {$y$};
+      \node[fill=white] at (2,1.5) {$y$};
       \node[fill=white] at (2,1) {$y$};
       \node[fill=white] at (1,1) {$x$};
       \node[fill=white] at (0,1) {$y$};
@@ -213,7 +213,7 @@ $$
       \begin{knot}
         \strand[thick] (0,0) to (0,2);
       \end{knot}
-      \node[fill=white] at (0,0.3) {$y$};
+      \node[fill=white] at (0,0.5) {$y$};
       \node[fill=white] at (0,1.7) {$y$};
     \end{scope}
   \end{tikzpicture}
@@ -330,8 +330,8 @@ $$
         to [out=down,in=down,looseness=2] (2,1)
         to (2,2);
       \end{knot}
-      \node[fill=white] at (0,0.3) {$R$};
-      \node[fill=white] at (2,1.7) {$R$};
+      \node[fill=white] at (0,0.5) {$R$};
+      \node[fill=white] at (2,1.5) {$R$};
       \node[fill=white] at (2,1) {$R$};
       \node[fill=white] at (1,1) {$L$};
       \node[fill=white] at (0,1) {$R$};
@@ -341,7 +341,7 @@ $$
       \begin{knot}
         \strand[thick] (0,0) to (0,2);
       \end{knot}
-      \node[fill=white] at (0,0.3) {$R$};
+      \node[fill=white] at (0,0.5) {$R$};
       \node[fill=white] at (0,1.7) {$R$};
     \end{scope}
   \end{tikzpicture}

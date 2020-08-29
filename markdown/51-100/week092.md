@@ -220,8 +220,8 @@ $$
       to [out=down,in=down,looseness=2] (2,1)
       to (2,2);
     \end{knot}
-    \node[fill=white] at (0,0.3) {$x$};
-    \node[fill=white] at (2,1.7) {$x$};
+    \node[fill=white] at (0,0.5) {$x$};
+    \node[fill=white] at (2,1.5) {$x$};
     \node[fill=white] at (1,1) {$x^*$};
     \node[label=above:{$U$}] at (0.5,1.57) {$\bullet$};
     \node[label=below:{$C$}] at (1.5,0.4) {$\bullet$};
@@ -244,8 +244,8 @@ $$
         to [out=down,in=down,looseness=2] (2,1)
         to (2,2);
       \end{knot}
-      \node[fill=white] at (0,0.3) {$x^*$};
-      \node[fill=white] at (2,1.7) {$x^*$};
+      \node[fill=white] at (0,0.5) {$x^*$};
+      \node[fill=white] at (2,1.5) {$x^*$};
       \node[fill=white] at (1,1) {$x$};
       \node[label=above:{$U$}] at (0.5,1.57) {$\bullet$};
       \node[label=below:{$C$}] at (1.5,0.4) {$\bullet$};
