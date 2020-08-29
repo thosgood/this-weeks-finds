@@ -164,12 +164,12 @@ a~6~ e~6~ + a~7~ e~7~
 
 to be
 
-\|x\| = sqrt(a~0~^2^ + a~1~^2^ + a~2~^2^ + a~3~^2^ + a~4~^2^ + a~5~^2^ +
+|x| = sqrt(a~0~^2^ + a~1~^2^ + a~2~^2^ + a~3~^2^ + a~4~^2^ + a~5~^2^ +
 a~6~^2^ + a~7~^2^).
 
 What makes them a "normed division algebra" is that
 
-\|xy\| = \|x\|\|y\|.
+|xy| = |x||y|.
 
 It's a wonderful fact about the world that the reals, complexes,
 quaternions and octonions are the *only* normed division algebras.

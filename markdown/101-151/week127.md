@@ -1,45 +1,45 @@
 # DATE {#week127}
 
-If you like π, take a look at this book:
+If you like \pi, take a look at this book:
 
 1) Lennart Berggren, Jonathan Borwein and Peter Borwein, Π: A Source
 Book, Springer-Verlag, New York, 1997.
 
-It's full of reprints of original papers about π, from the Rhind
+It's full of reprints of original papers about \pi, from the Rhind
 Papyrus right on up to the 1996 paper by Bailey, Borwein and Plouffe in
-which they figured out how to compute a given hexadecimal digit of π
+which they figured out how to compute a given hexadecimal digit of \pi
 without computing the previous digits - see ["Week 66"](#week66)
 for more about that. By the way, Colin Percival has recently used this
-technique to compute the 5 trillionth binary digit of π! (It's either
+technique to compute the 5 trillionth binary digit of \pi! (It's either
 zero or one, I forget which.) Percival is a 17-year old math major at
 Simon Fraser University, and now he's leading a distributed computation
-project to calculate the quadrillionth binary digit of π. Anyone with a
+project to calculate the quadrillionth binary digit of \pi. Anyone with a
 Pentium or faster computer using Windows 95, 98, or NT can join. For
 more information, see:
 
 2) PiHex project, <http://www.cecm.sfu.ca/projects/pihex/pihex.html>
 
 Anyway, the above book is *full* of fun stuff, like a one-page proof of
-the irrationality of π which uses only elementary calculus, due to
+the irrationality of \pi which uses only elementary calculus, due to
 Niven, and the following weirdly beautiful formula due to Euler, which
 unfortunately is not explained:
 
                   3   5   7   11   13   17   19
-           π/2 = - × - × - × -- × -- × -- × -- × ...
+           \pi/2 = - × - × - × -- × -- × -- × -- × ...
                   2   6   6   10   14   18   18
 
 Here the numerators are the odd primes, and the denominators are the
 closest numbers of the form 4n+2.
 
 Since I've been learning about elliptic curves and the like lately, I
-was also interested to see a lot of relations between π and modular
+was also interested to see a lot of relations between \pi and modular
 functions. For example, the book has a reprint of Ramanujan's paper
-"Modular equations and approximations to π", in which he derives a
-bunch of bizarre formulas for π, some exact but others approximate, like
+"Modular equations and approximations to \pi", in which he derives a
+bunch of bizarre formulas for \pi, some exact but others approximate, like
 this:
 
                   12
-          π ~ ---------  ln[ (2 √2 + √10) (3 + √10) ]
+          \pi ~ ---------  ln[ (2 √2 + √10) (3 + √10) ]
                sqrt(190)
 
 which is good to 18 decimal places. The strange uses to which genius can
@@ -336,7 +336,7 @@ zeta function regularization to compute its determinant. Di Francesco,
 Mathieu, and Senechal do this in the textbook I talked about in
 ["Week 124"](#week124). They get
 
-∫ exp(-\<X, laplacian X\>) dX = 1 / (√Im(τ) \|η(τ)\|^2^)
+∫ exp(-\<X, laplacian X\>) dX = 1 / (√Im(τ) |η(τ)|^2^)
 
 where "η" is the Dedekind eta function, regarded as function of τ. But
 the calculation is pretty brutal, and it seems to me that there should
@@ -384,20 +384,20 @@ function transforms under modular transformations. In
 by two elements S and T, and if you look at the formulas there you'll
 see they act in the following way on τ:
 
-S: τ \|→ -1/τ
+S: τ |→ -1/τ
 
-T: τ \|→ τ + 1
+T: τ |→ τ + 1
 
 The Dedekind eta function satisfies
 
 η(-1/τ) = (τ / i)^1/2^ η(τ)
 
-η(τ + 1) = exp(2 π i / 24) η(τ)
+η(τ + 1) = exp(2 \pi i / 24) η(τ)
 
 The second one is really easy to see from the definition; the first one
 is harder. Anyway, using these facts it's easy to see that
 
-1 / (√Im(τ) \|η(τ)\|^2^)
+1 / (√Im(τ) |η(τ)|^2^)
 
 is invariant under PSL(2,Z), so it's really a function on moduli space
 - but only if that factor of 1/sqrt(Im(τ)) is in there!
@@ -478,19 +478,19 @@ eigenvalues are the numbers 1, 2, 3, .... You can think of this
 operator as the Hamiltonian for the wave equation on the circle, where
 we only keep the right-moving modes. As I already said, the zeta
 function of this operator is the Riemann zeta function. This function
-has ζ'(0) = -ln(2 π)/2, so using our cute formula relating determinants
+has ζ'(0) = -ln(2 \pi)/2, so using our cute formula relating determinants
 and zeta functions, we get
 
-det(A) = exp(-ζ'(0)) = (2 π)^1/2^ .
+det(A) = exp(-ζ'(0)) = (2 \pi)^1/2^ .
 
 Just for laughs, if we pretend that the determinant of A is the product
 of its eigenvalues as in the finite-dimensional case, we get:
 
-1 × 2 × 3 × ... = (2 π)^1/2^
+1 × 2 × 3 × ... = (2 \pi)^1/2^
 
 or if you really want to ham it up,
 
-∞! = (2 π)^1/2^.
+\infty! = (2 \pi)^1/2^.
 
 Cute, eh? Dan Piponi told me this, as well as some of the other things
 I've been talking about. You can also find it in Bost's paper.
@@ -521,23 +521,23 @@ Notes and digressions:
     integral for higher-dimensional "branes" has not yet been made
     precise, because this magic doesn't happen there.
 
--   About Euler's weirdly beautiful formula for π, Robin Chapman
+-   About Euler's weirdly beautiful formula for \pi, Robin Chapman
     writes:
 
 
                        3   5   7   11   13   17   19
-                π/2 = - x - x - x -- x -- x -- x -- x ...               (1)
+                \pi/2 = - x - x - x -- x -- x -- x -- x ...               (1)
                        2   6   6   10   14   18   18
 
         Using the Euler product for ζ(2) gives
 
-        π^2/6 = ζ(2) = 1 + 1/2^2 + 1/3^2 + ...
+        \pi^2/6 = ζ(2) = 1 + 1/2^2 + 1/3^2 + ...
                          = (4/3) (9/8) (25/24) ... (p^2/(p^2-1)) ...
 
         and dropping the p = 2 term and dividing by (1) we see that (1) is equivalent
         to
 
-        π/4 = (3/4)(5/4)(7/8)  .... (p/(p-χ(p))) ....                  (2)
+        \pi/4 = (3/4)(5/4)(7/8)  .... (p/(p-χ(p))) ....                  (2)
 
         where the numerators are odd primes and the denominators are their adjacent
         multiples of 4. Also χ is the modulo 4 Dirichlet character. Now
@@ -548,7 +548,7 @@ Notes and digressions:
 
         1 - 1/3 + 1/5 - 1/7 + 1/9 - .....
 
-        i.e., Gregory's series for π/4. Admittedly it's not apparent that this
+        i.e., Gregory's series for \pi/4. Admittedly it's not apparent that this
         formal manipulation is valid. However for Dirichlet L-functions the
         Euler product is valid at s = 1. This requires some delicate analysis: for
         details see Landau's book on prime numbers or Davenport's Multiplicative

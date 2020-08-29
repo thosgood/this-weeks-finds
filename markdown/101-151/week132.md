@@ -42,7 +42,7 @@ quantum gravity, and what a theory of quantum gravity should be like:
 > understanding physics at about this scale. The reason is very simple:
 > any calculation that predicts a length using only the constants c, G
 > and ħ must give the Planck length, possibly multiplied by an
-> unimportant numerical factor like 2π.
+> unimportant numerical factor like 2\pi.
 >
 > For example, quantum field theory says that associated to any mass m
 > there is a length called its Compton wavelength, L_C, such that
@@ -134,7 +134,7 @@ quantum gravity, and what a theory of quantum gravity should be like:
 > Quantitatively, the interaction of the metric and other fields is
 > described by Einstein's equation
 >
-> G\_{ab} = 8 π G T\_{ab}
+> G\_{ab} = 8 \pi G T\_{ab}
 >
 > where the Einstein tensor G\_{ab} depends on the curvature of the
 > metric, while the stress-energy tensor T\_{ab} describes the flow of

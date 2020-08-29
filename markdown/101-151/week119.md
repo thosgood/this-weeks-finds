@@ -392,7 +392,7 @@ point called the "basepoint". Then we can form the space LX of all
 One reason why LX is so nice is that its homotopy groups are the same as
 those of X, but shifted:
 
-π~i~(LX) = π~i+1~(X)
+\pi~i~(LX) = \pi~i+1~(X)
 
 Another reason LX is nice is that it's almost a topological group,
 since one can compose based loops, and every loop has an "inverse".
@@ -403,17 +403,17 @@ of a loop will only be the inverse up to homotopy.
 Actually we can make composition strictly associative if we work with
 "Moore paths". A Moore path in X is a continuous map
 
-f: \[0,T\] → X
+f: \[0,T\]\to X
 
 where T is an arbitrary nonnegative real number. Given a Moore path f as
 above and another Moore path
 
-g: \[0,S\] → X
+g: \[0,S\]\to X
 
 which starts where f ends, we can compose them in an obvious way to get
 a Moore path
 
-fg: \[0,T+S\] → X
+fg: \[0,T+S\]\to X
 
 Note that this operation is associative "on the nose", not just up to
 homotopy. If we define LX using Moore paths that start and end at the
@@ -421,7 +421,7 @@ basepoint, we can easily make LX into a topological monoid - that is, a
 topological space with a continuous associative product and a unit
 element. (If you've read section L, you'll know this is just a monoid
 object in Top!) In particular, the unit element of LX is the path i:
-\[0,0\] → X that just sits there at the basepoint of X.
+\[0,0\]\to X that just sits there at the basepoint of X.
 
 LX is not a topological group, because even Moore paths don't have
 strict inverses. But LX is *close* to being a group. We can make this
@@ -435,11 +435,11 @@ pretty sure one way to say it is this: the natural map from LX to its
 category of topological monoids and let TopGp be the category of
 topological groups. There is a forgetful functor
 
-F: TopGp → TopMon
+F: TopGp\to TopMon
 
 and this has a left adjoint
 
-G: TopMon → TopGp
+G: TopMon\to TopGp
 
 which takes a topological monoid and converts it into a topological
 group by throwing in formal inverses of all the elements and giving the

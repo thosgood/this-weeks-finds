@@ -174,13 +174,13 @@ this group action?
 All sorts of things! First suppose that G acts freely on M - meaning
 that gx is different from x for any point x of M and any element g of G
 other than the identity. Then the quotient space M/G is a manifold. Even
-better, the map M → M/G gives us a principal G-bundle with total space M
+better, the map M\to M/G gives us a principal G-bundle with total space M
 and base space M/G.
 
 Can we figure out the deRham cohomology of M/G? Of course if we were
 smart enough we could do it by working out M/G and then computing its
 cohomology. But there's a sneakier way to do it using the differential
-forms on M. The map M → M/G lets us pull back any form on M/G to get a
+forms on M. The map M\to M/G lets us pull back any form on M/G to get a
 form on M. This lets us think of forms on M/G as forms on M satisfying
 certain equations - people call them "basic" differential forms
 because they come from the base space M/G.
@@ -261,7 +261,7 @@ cohomology! This is called the "Weil algebra", WG.
 To guess what this algebra is, let's just list all the obvious
 differential forms on EG that we can think of. Well, I guess none of
 them are obvious unless we know a few more facts! First of all, since
-the action of G on EG is free, the quotient map EG → BG gives us a
+the action of G on EG is free, the quotient map EG\to BG gives us a
 principal G-bundle with total space EG and base space BG. This bundle is
 very interesting. It's called the "universal" principal G-bundle. The
 reason is that any other principal G-bundle is a pullback of this one.
@@ -270,7 +270,7 @@ reason is that any other principal G-bundle is a pullback of this one.
 you know how to pull back bundles!)
 
 Even better, if we choose our space EG so that it's a manifold, then
-there is a god-given connection on the bundle EG → BG, and any other
+there is a god-given connection on the bundle EG\to BG, and any other
 principal G-bundle *with connection* is a pullback of this one.
 
 (And now I'm assuming you know how to pull back connections! However,
@@ -281,7 +281,7 @@ Okay, so how can we get a bunch of differential forms on EG just using
 the fact that it's the total space of a G-bundle equipped with a
 connection?
 
-Well, whenever we have a G-bundle E → B, we can think of a connection on
+Well, whenever we have a G-bundle E\to B, we can think of a connection on
 it as a 1-form on E taking values in the Lie algebra of G. Let's see
 what differential forms on E this gives us! Let's call the connection
 A. If we pick a basis of the Lie algebra, we can take the components of
@@ -291,7 +291,7 @@ so on.
 
 In general, we can form all possible linear combinations of wedge
 products of the A~i~'s and the dA~i~'s. We get a big fat algebra. In
-the case when our bundle is EG → BG, equipped with its god-given
+the case when our bundle is EG\to BG, equipped with its god-given
 connection, we define this algebra to be the Weil algebra, WG!
 
 Great. But let's try to define WG in a purely algebraic way, so we can
@@ -339,7 +339,7 @@ simplest posssible case, namely when M is a single point, this gives a
 nice trick for computing the deRham cohomology of EG/G = BG. Guys in
 this cohomology ring are called "characteristic classes", and they're
 really important in physics. Since any principal G-bundle is a pullback
-of EG → BG, and cohomology classes pull back, these characteristic
+of EG\to BG, and cohomology classes pull back, these characteristic
 classes give us cohomology classes in the base space of any principal
 G-bundle - thus helping us classify G-bundles. But if I started
 explaining this now, we'd be here all night.

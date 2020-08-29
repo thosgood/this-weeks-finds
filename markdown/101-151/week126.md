@@ -171,16 +171,16 @@ F(s) = F(1-s)
 
 where
 
-F(s) = π^-s/2^ Γ(s/2) ζ(s)
+F(s) = \pi^-s/2^ Γ(s/2) ζ(s)
 
 and Γ is the famous function with Γ(n) = (n-1)! for n = 1,2,3,... and
 Γ(s+1) = s Γ(s) for all s. Using
 
-Γ(1/2) = √π
+Γ(1/2) = √\pi
 
 and
 
-ζ(2) = π^2^/6,
+ζ(2) = \pi^2^/6,
 
 the functional equation implies ζ(-1) = -1/12. But of course you have to
 prove the functional equation! A nice exposition of this can be found
@@ -300,7 +300,7 @@ like this:
 η(q) = q^1/24^ ∏ (1 - q^k^)
 
 But to see the relation to elliptic curves we should switch variables
-yet again and write q = exp(2 π i τ). I already talked about this
+yet again and write q = exp(2 \pi i τ). I already talked about this
 variable τ in ["Week 125"](#week125), where we were studying the
 elliptic curve formed by curling up a parallelogram like this in the
 complex plane:
@@ -350,7 +350,7 @@ Now for the cool part: there's an explicit formula for the discriminant
 in terms of the variable τ. And it involves the 24th power of the
 Dedekind eta function! Here it is:
 
-Δ = (2 π)^12^ η^24^
+Δ = (2 \pi)^12^ η^24^
 
 If you haven't seen this before, it should seem *amazing* that the
 discriminant of a cubic equation can be computed using the 24th power of

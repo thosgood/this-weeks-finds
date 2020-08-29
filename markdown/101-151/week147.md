@@ -169,7 +169,7 @@ which interchanges the two isomorphic parts. In general, if a group G
 acts on a set S, we can "divide" the set by the group by taking the
 quotient S/G, whose points are the orbits of the action. If S and G are
 finite and G acts freely on S, this construction really corresponds to
-division, since the cardinality \|S/G\| is equal to \|S\|/\|G\|.
+division, since the cardinality |S/G| is equal to |S|/|G|.
 However, it is crucial that the action be free.
 
 For example, why is 6/2 = 3? We can take a set S consisting of six dots
@@ -179,8 +179,8 @@ in a row:
 
 let G = Z/2 act freely by reflections, and identify all the elements in
 each orbit to obtain 3-element set S/G. Pictorially, this amounts to
-folding the set S in half, so it is not surprising that \|S/G\| =
-\|S\|/\|G\| in this case. Unfortunately, if we try a similar trick
+folding the set S in half, so it is not surprising that |S/G| =
+|S|/|G| in this case. Unfortunately, if we try a similar trick
 starting with a 5-element set:
 
                          o    o    o    o   o
@@ -194,7 +194,7 @@ To do this, we should first find a better way to define the quotient of
 S by G when the action fails to be free. Following the policy of
 replacing equations by isomorphisms, let us define the "weak quotient"
 S//G to be the category with elements of S as its objects, with a
-morphism g: s → s' whenever g(s) = s', and with composition of
+morphism g: s\to s' whenever g(s) = s', and with composition of
 morphisms defined in the obvious way.
 
 Next, let us figure out a good way to define the "cardinality" of a
@@ -207,7 +207,7 @@ It is easy to see that with this definition, the point in the middle of
 the previous picture gets counted as \`half a point' because it has two
 automorphisms, so we get a category with cardinality 2.5. In general,
 
-\|S//G\| = \|S\|/\|G\|
+|S//G| = |S|/|G|
 
 whenever G is a finite group acting on a finite set S. This formula is a
 simplified version of \`Burnside's lemma', so-called because it is due
@@ -221,7 +221,7 @@ the sum to make sense. So let's try to compute the cardinality of the
 category of finite sets! Since any n-element set has n! automorphisms
 (i.e. permutations), we get following marvelous formula:
 
-\|FinSet\| = e
+|FinSet| = e
 
 This turns out to explain lots of things about the number e.
 
@@ -238,13 +238,13 @@ algebraic way of thinking about topological spaces up to homotopy. Thus
 we just need to invent a concept of the \`cardinality' of a topological
 space which has nice formal properties and which agrees with the
 groupoid cardinality in the case of homotopy 1-types. In fact, this is
-not hard to do. We just need to use the homotopy groups π~k~(X) of the
+not hard to do. We just need to use the homotopy groups \pi~k~(X) of the
 space X.
 
 So: let's define the "homotopy cardinality" of a topological space X
 to be the alternating product
 
-\|X\|   =   \|π~1~(X)\|^-1^   \|π~2~(X)\|   \|π~3~(X)\|^-1^ ....
+|X|   =   |\pi~1~(X)|^-1^   |\pi~2~(X)|   |\pi~3~(X)|^-1^ ....
 
 when X is connected and the product converges; if X is not connected,
 let's define its homotopy cardinality to be the sum of the homotopy
@@ -253,20 +253,20 @@ call spaces with well-defined homotopy cardinality "tame". The
 disjoint union or Cartesian product of tame spaces is again tame, and we
 have
 
-\|X + Y\| = \|X\| + \|Y\| ,
+|X + Y| = |X| + |Y| ,
 
-\|X × Y\| = \|X\| × \|Y\|
+|X × Y| = |X| × |Y|
 
 just as you would hope.
 
 Even better, homotopy cardinality gets along well with fibrations, which
 we can think of as \`twisted products' of spaces. Namely, if
 
-F → X → B
+F\to X\to B
 
 is a fibration and the base space B is connected, we have
 
-\|X\| = \|F\| × \|B\|
+|X| = |F| × |B|
 
 whenever two of the three spaces in question are tame (which implies the
 tameness of the third).
@@ -275,17 +275,17 @@ As a fun application of this fact, recall that any topological group G
 has a "classifying space" BG, meaning a space with a principal
 G-bundle over it
 
-G → EG → BG
+G\to EG\to BG
 
 whose total space EG is contractible. I described how to construct the
 classifying space in ["Week 117"](#week117), at least in the case
 of a discrete group G, but I didn't say much about why it's so great.
 The main reason it's great is that *any* G-bundle over *any* space is a
 pullback of the bundle EG over BG. But right now, what I want to note is
-that since EG is contractible it is tame, and \|EG\| = 1. Thus G is tame
+that since EG is contractible it is tame, and |EG| = 1. Thus G is tame
 if and only if BG is, and
 
-\|BG\| = 1 / \|G\|
+|BG| = 1 / |G|
 
 so we can think of BG as the "reciprocal" of G!
 
@@ -298,11 +298,11 @@ people usually replace it by the "homotopy quotient" X//G, which is
 defined as (EG x X)/G. This is like the ordinary quotient but with
 equations replaced by homotopies. And there is a fibration
 
-X → X//G → BG ,
+X\to X//G\to BG ,
 
 so when X and G are tame we have
 
-\|X//G\| = \|X\| × \|BG\| = \|X\|/\|G\|
+|X//G| = |X| × |BG| = |X|/|G|
 
 just as you would hope!
 
@@ -327,7 +327,7 @@ for homotopy cardinality, we have
 
 and more generally, whenever
 
-F → X → B
+F\to X\to B
 
 is a fibration and the base space B is connected, we have
 
@@ -345,22 +345,22 @@ they're really the same guy.
 But there are some weird ways to try to force the issue and compute both
 quantities for certain spaces. For example, suppose G is a finite group.
 Then we can build BG starting from a simplicial set with 1 nondegenerate
-0-simplex, \|G\|-1 nondegenerate 1-simplices, (\|G\|-1)^2^ nondegenerate
+0-simplex, |G|-1 nondegenerate 1-simplices, (|G|-1)^2^ nondegenerate
 2-simplices, and so on. If there were only finitely many nondegenerate
 simplices of all dimensions, we could compute the Euler characteristic
 of this space as the alternating sum of the numbers of such simplices.
 So let's try doing that here! We get:
 
-c(BG) = 1 - (\|G\|-1) + (\|G\|-1)^2^ - ....
+c(BG) = 1 - (|G|-1) + (|G|-1)^2^ - ....
 
 Of course the sum diverges, but if we go ahead and use the geometric
 formula anyway, we get
 
-c(BG) = 1/\|G\|
+c(BG) = 1/|G|
 
 which matches our previous (rigorous) result that
 
-\|BG\| = 1/\|G\|
+|BG| = 1/|G|
 
 So maybe they're the same after all! There are similar calculations
 like this in James Propp's paper "Exponentiation and Euler
@@ -385,7 +385,7 @@ has vanishing homotopy groups above the first, which implies that it's
 BG for G equal to its fundamental group. If homotopy cardinality and
 Euler characteristic were the same, this would imply
 
-\|G\| = 1/\|BG\| = 1/c(S) = 1/(2 - 2g)
+|G| = 1/|BG| = 1/c(S) = 1/(2 - 2g)
 
 But the fundamental group G is infinite! What's going on?
 
@@ -511,21 +511,21 @@ remarks....
 > > we will describe here: Lindenbaum's argument, after 62 years.
 >
 >     >>So: let's define the "homotopy cardinality" of a topological space X to
->     >>be the alternating product |X| = \prod_{i>0} |π_i(X)|^{(-1)^i}
+>     >>be the alternating product |X| = \prod_{i>0} |\pi_i(X)|^{(-1)^i}
 >     >>when X is connected and the product converges;
 >
 >     >What about divergence to 0?
->     >If π_i(X) is infinite for some odd i but no even i,
+>     >If \pi_i(X) is infinite for some odd i but no even i,
 >     >can we say |X| is 0?
 >
 > Well, we can, but we might regret it later. In a sense 0 is no better
-> than ∞ when one is doing products, so if you allow 0 as a legitimate
-> value for a homotopy cardinality, you should allow ∞, but if you allow
+> than \infty when one is doing products, so if you allow 0 as a legitimate
+> value for a homotopy cardinality, you should allow \infty, but if you allow
 > both, you get in trouble when you try to multiply them. This dilemma
-> is familiar from the case of infinite sums (where +∞ and -∞ are the
+> is familiar from the case of infinite sums (where +\infty and -\infty are the
 > culprits), and the resolution seems to be either:
 >
-> -   disallow both 0 and ∞ as legitimate answers for the above product,
+> -   disallow both 0 and \infty as legitimate answers for the above product,
 >
 > or
 >
@@ -537,7 +537,7 @@ remarks....
 > ```
 >     >>As a fun application of this fact, recall that any topological group G
 >     >>has a "classifying space" BG, meaning a space with a principal G-bundle 
->     >>over it G → EG → BG
+>     >>over it G\to EG\to BG
 >     >>whose total space EG is contractible.   I described how to construct
 >     >>the classifying space in "week117", at least in the case of a discrete
 >     >>group G, but I didn't say much about why it's so great.  The main 
@@ -563,11 +563,11 @@ remarks....
 > Recall that we can take a pointed space X and form a pointed space LX
 > of loops in X that start and end at the basepoint. This clearly has
 >
-> π~n+1~(X) = π~n~(LX)
+> \pi~n+1~(X) = \pi~n~(LX)
 >
 > so if X is connected and tame we'll have
 >
-> \|LX\| = 1/\|X\|
+> |LX| = 1/|X|
 >
 > Now with a little work you can make LX (or a space homotopy-equivalent
 > to it!) into a topological group with composition of loops as the
@@ -586,13 +586,13 @@ remarks....
 > G to a connected pointed space, you have to form BG, which has all the
 > same homotopy groups but just pushed up one notch:
 >
-> π~n+1~(BG) = π~n~(G)
+> \pi~n+1~(BG) = \pi~n~(G)
 >
 > And to go from a connected point space X to a topological group, you
 > have to form LX, which has all the same homotopy groups but just
 > pushed down one notch:
 >
-> π~n-1~(LX) = π~n~(X)
+> \pi~n-1~(LX) = \pi~n~(X)
 >
 > This is actually the trick you are playing, in slight disguise.
 >

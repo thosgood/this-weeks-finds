@@ -203,7 +203,7 @@ However, certain points are! The point
 corresponding to the square lattice, is preserved by S and all its
 powers. And the point
 
-                             τ = exp(2πi/3)
+                             τ = exp(2\pii/3)
 
 corresponding to the hexagonal lattice, is preserved by ST and all its
 powers. These give rise to two conical singularities in the moduli space
@@ -247,7 +247,7 @@ moduli space were smooth there.
 The reason this works is that the region shown above is a "fundamental
 domain" for the action of PSL(2,Z) on H. In other words, every elliptic
 curve is isomorphic to one where the parameter τ lies in this region.
-The point A is where τ = i, and the point B is where τ = exp(2πi/3).
+The point A is where τ = i, and the point B is where τ = exp(2\pii/3).
 
 Now let's see where the "12-ness" comes into this picture. Minhyong
 Kim explained this to me in a very nice way, but to tell you what he
@@ -365,12 +365,12 @@ But let me just briefly say a bit about stacks and the moduli stack of
 elliptic curves in particular. A stack is a weak sheaf of categories.
 For this to make sense you must already know what a sheaf is! In the
 simplest case, a sheaf over a topological space, the sheaf S gives you a
-set S(U) for each open set U, and gives you a function S(U,V): S(U) →
+set S(U) for each open set U, and gives you a function S(U,V): S(U)\to
 S(V) whenever the open set U is contained in the open set V. These
 functions must satisfy some laws. The notion of "stack" is just a
 categorification of this idea. That is, a stack S over a topological
 space gives you a *category* S(U) for each open set U, and gives you a
-*functor* S(U,V): S(U) → S(V). These functors satisfy the same laws as
+*functor* S(U,V): S(U)\to S(V). These functors satisfy the same laws as
 before, but *only up to specified natural isomorphism*. And these
 natural isomorphisms must in turn satisfy some new laws of their own,
 so-called coherence laws.

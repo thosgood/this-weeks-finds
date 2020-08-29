@@ -137,31 +137,31 @@ unit vector, so S^1^ acts on S^3^. The quotient space is the complex
 projective space CP^1^, which is just the sphere S^2^. So what we've
 got here is fiber bundle:
 
-S^1^→ S^3^ → S^2^ = CP^1^
+S^1^→ S^3^\to S^2^ = CP^1^
 
 with fiber S^1^, total space S^3^ and base space S^2^. This is the Hopf
 bundle. It's famous because the map from the total space to the base
 was the first example of a topologically nontrivial map from a sphere to
 a sphere of lower dimension. In the lingo of homotopy theory, we say
-it's the generator of the group π~3~(S^2^).
+it's the generator of the group \pi~3~(S^2^).
 
 Now in ["Week 106"](#week106) I talked about how we can mimic this
 construction by replacing the complex numbers with any other division
 algebra. If we use the real numbers we get a fiber bundle
 
-S^0^ → S^1^ → RP^1^ = S^1^
+S^0^\to S^1^\to RP^1^ = S^1^
 
 where S^0^ is the group of unit real numbers, better known as Z/2. This
 bundle looks like the edge of a Moebius strip. If we use the quaternions
 we get a more interesting fiber bundle:
 
-S^3^ → S^7^ → HP^1^ = S^4^
+S^3^\to S^7^\to HP^1^ = S^4^
 
 where S^3^ is the group of unit quaternions, better known as SU(2). We
 can even do something like this with the octonions, and we get a fiber
 bundle
 
-S^7^→ S^15^ → OP^1^ = S^8^
+S^7^→ S^15^\to OP^1^ = S^8^
 
 but now S^7^, the unit octonions, doesn't form a group - because the
 octonions aren't associative.
@@ -176,7 +176,7 @@ To glue these bundles together we need a way to attach the fibers over
 each point x of the equator. In other words, for each point x in the
 equator of S^4^ we need a map
 
-f~x~: S^3^ → S^3^
+f~x~: S^3^\to S^3^
 
 which should vary smoothly with x. But the equator of S^4^ is just S^3^,
 and S^3^ is a group - the unit quaternions - so we can take
@@ -282,7 +282,7 @@ smooth structure by taking two n-dimensional balls and gluing them
 together along their boundary using some orientation-preserving
 diffeomorphism
 
-f: S^n-1^ → S^n-1^.
+f: S^n-1^\to S^n-1^.
 
 Orientation-preserving diffeomorphisms like this form a group called
 Diff~+~(S^n-1^). Using the above trick, it turns out that the group of
@@ -521,11 +521,11 @@ dimension 9 was (Z/2)^3^ or Z/2 x Z/4, and the group in dimension 17 was
 >        [Mich. Math. J 17] stated on the first page of his paper,
 >        plus the list of the first stable homotopy groups of spheres,
 >        and the properties of Adams' J-homomorphism
->        J:π_n(SO) → π^s_n.
+>        J:\pi_n(SO)\to\pi^s_n.
 >         
 >        There is an exact sequence
 >         
->        0 → bP_k → \Gamma_{k-1} → \pi^s_{k-1}/im(J) → 0 
+>        0\to bP_k\to\Gamma_{k-1}\to\pi^s_{k-1}/im(J)\to 0 
 >         
 >        provided that k+3 is not a power of 2 (\Gamma_{k-1} is
 >        the group we are looking for). Now for k-1=8,9,10,17,

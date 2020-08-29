@@ -247,7 +247,7 @@ S = A/4
 where S is the entropy and A is the area, measured in units where c = ħ
 = G = k = 1. What we get is
 
-S = (ln 2 / 4 π γ sqrt(3)) A
+S = (ln 2 / 4 \pi γ sqrt(3)) A
 
 To compare these results, you need to know what is that mysterious "γ"
 factor in the second equation! It's often called the Immirzi parameter,
@@ -293,10 +293,10 @@ edge of a spin network contributes an area proportional to sqrt(j(j+1))
 to any surface it punctures"... without ever saying what the constant
 of proportionality is! Well, the constant is
 
-8 π γ
+8 \pi γ
 
 Until recently, everyone went around saying the constant was 1. (As for
-the factor of 8π, I'm no good at these things, but apparently at least
+the factor of 8\pi, I'm no good at these things, but apparently at least
 some people were getting that wrong, too!) Now Krasnov claims to have
 gotten these damned factors straightened out once and for all:
 
@@ -310,7 +310,7 @@ parameter. But we can, of course, use the Bekenstein-Hawking formula
 together with our formula for black hole entropy to determine γ,
 obtaining
 
-γ = ln(2) / sqrt(3) π
+γ = ln(2) / sqrt(3) \pi
 
 This may seem like cheating, but right now it's the best we can do. All
 we can say is this: we have a theory of the microstates of a black hole,
@@ -320,16 +320,16 @@ allows us to determine the Immirzi parameter.
 
 What do the funny constants in the formula
 
-S = (ln 2 / 4 π γ sqrt(3)) A
+S = (ln 2 / 4 \pi γ sqrt(3)) A
 
 mean? It's actually simple. The states that contribute most to the
 entropy of a black hole are those where nearly all spin network edges
 puncturing its surface are labelled by spin 1/2. Each spin-1/2 puncture
 can have either j~z~ = 1/2 or j~z~ = -1/2, so it contributes ln(2) to
-the entropy. On the other hand, each spin-1/2 edge contributes 4 π γ
+the entropy. On the other hand, each spin-1/2 edge contributes 4 \pi γ
 sqrt(3) to the area of the black hole. Just to be dramatic, we can call
 ln 2 the "quantum of entropy" since it's the entropy (or information)
-contained in a single bit. Similarly, we can call 4 π γ sqrt(3) the
+contained in a single bit. Similarly, we can call 4 \pi γ sqrt(3) the
 "quantum of area" since it's the area contributed by a spin-1/2 edge.
 These terms are a bit misleading since neither entropy nor area need
 come in *integral* multiples of this minimal amount. But anyway, we have
@@ -370,7 +370,7 @@ black hole, preprint available as
 [gr-qc/9505012](http://xxx.lanl.gov/abs/gr-qc/9505012).
 
 However, in the loop representation the area is not quantized in evenly
-spaced steps: the area A can be any sum of quantities like 8 π γ
+spaced steps: the area A can be any sum of quantities like 8 \pi γ
 sqrt(j(j+1)), and such sums become very densely packed for large A.
 
 Let me conclude with a few technical comments about how Chern-Simons

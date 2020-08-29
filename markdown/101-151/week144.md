@@ -145,7 +145,7 @@ There are various competing definitions of n-category at present, but
 the key idea behind all the definitions of *weak* n-category is that the
 ways of composing j-morphisms should satisfy associativity and all the
 other usual laws only up to equivalence. For example, suppose we have
-some morphisms a: w → x, b: w → y and c: y → z in a 1-category. Then
+some morphisms a: w\to x, b: w\to y and c: y\to z in a 1-category. Then
 associativity holds "on the nose", i.e., as an equation:
 
 a(bc) = (ab)c.
@@ -396,7 +396,7 @@ and in terms of trees it looks like this:
                  \  /   /     \   |   /     \   \  / 
                   \/   /       \  |  /       \   \/ 
                    \  /         \ | /         \  /
-                    \/           \|/           \/
+                    \/           |/           \/
                     .............................
      
 

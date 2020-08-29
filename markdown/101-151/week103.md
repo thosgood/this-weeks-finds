@@ -129,11 +129,11 @@ more often.)
 
 Thanks to Justin Roberts for pointing out an error in
 ["Week 102"](#week102). The phase ambiguity in conformal field
-theories is not necessarily a 24th root of unity; it's exp(2 π i c /
+theories is not necessarily a 24th root of unity; it's exp(2 \pi i c /
 24) where c is the central charge of the associated Virasoro
 representation. This is a big hint as far as my puzzle goes.
 
-Also I thank Dan Christensen for helping me understand π_4(S\^2) in a
+Also I thank Dan Christensen for helping me understand \pi_4(S\^2) in a
 simpler way, and Scott Carter for a fascinating letter on the themes of
 ["Week 102"](#week102). Alas, I have been too busy to reply
 adequately to these nice emails!

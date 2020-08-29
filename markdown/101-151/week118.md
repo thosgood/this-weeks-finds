@@ -412,11 +412,11 @@ free monoidal category on a monoid object". This implies that whenever
 we have a monoid object in a monoidal category M, we get a monoidal
 functor
 
-F: Δ → M.
+F: Δ\to M.
 
 This gives a functor
 
-G: Δ^op^ → M^op^
+G: Δ^op^\to M^op^
 
 So: a monoid object in M gives a simplicial object in M^op^.
 
@@ -430,11 +430,11 @@ if we've got a monoid object in M^op^, it gives us a similar gadget in
 M, but with all the arrows turned around. More precisely, a comonoid
 object in M is an object, say m, with "coproduct"
 
-c: m → m x m
+c: m\to m x m
 
 and "counit"
 
-e: m → 1
+e: m\to 1
 
 morphisms, satisfying "coassociativity" and the left and right
 "counit laws". You get these laws by taking associativity and the
@@ -484,11 +484,11 @@ People call this thing a "comonad". But what matters here is that
 we've seen this comonoid object automatically gives us a simplicial
 object in hom(D,D)! If we pick any object d of D, we get a functor
 
-hom(D,D) → D
+hom(D,D)\to D
 
 by taking
 
-hom(D,D) x D → D
+hom(D,D) x D\to D
 
 and plugging in d in the second argument. This functor lets us push our
 simplicial object in hom(D,D) forwards to a simplicial object in D.

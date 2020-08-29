@@ -188,7 +188,7 @@ particles in the Standard Model are the leptons (electron, muon, tau and
 their corresponding neutrinos) and quarks.
 
 The spin-1 representation comes from turning elements of SU(2) into 3x3
-matrices using the double cover SU(2) → SO(3). This is therefore also
+matrices using the double cover SU(2)\to SO(3). This is therefore also
 called the "vector" representation. The spin-1 particles in the
 Standard Model are the gauge fields: the photon, the W and Z, and the
 gluons.

@@ -128,7 +128,7 @@ But, what does it mean?
 
 Well, the integral is taken over Riemannian metrics g on a 4-ball whose
 boundary is X, but we only integrate over metrics that restrict to a
-given metric q on X - that's what I mean by writing g\|X = q. The
+given metric q on X - that's what I mean by writing g|X = q. The
 quantity S(g) is the Einstein-Hilbert action of the metric g - in other
 words, the integral of the Ricci scalar curvature of g over the 4-ball.
 Finally, of course, ħ is Planck's constant.

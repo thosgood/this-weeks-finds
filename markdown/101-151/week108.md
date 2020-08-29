@@ -47,7 +47,7 @@ the way back, when I forced him to explain his talk to me). Computer
 scientists like to define functions recursively. For example, we can
 define a function from the natural numbers to the natural numbers:
 
-f: N → N
+f: N\to N
 
 by its value at 0 together with a rule to get its value at n+1 from its
 value at n:
@@ -60,7 +60,7 @@ Similarly, physicists like to define functions by differential
 equations. For example, we can define a function from the real numbers
 to the real numbers:
 
-f: R → R
+f: R\to R
 
 by its value at 0 together with a rule to get its derivative from its
 value:
@@ -83,7 +83,7 @@ sort of equation.
 
 But how do we describe this operator F more precisely in these examples?
 In the case of the definition by recursion, here's how: for any
-function f: N → N, we define the function F(f): N → N by
+function f: N\to N, we define the function F(f): N\to N by
 
 F(f)(0) = c
 
@@ -186,9 +186,9 @@ like a, ca, bb, bca, cbabba, and on.
 
 In Backus-Naur form we might express this as follows:
 
-letter ::= a \| b \| c
+letter ::= a | b | c
 
-word ::= \<letter\> \| \<word\> \<letter\>
+word ::= \<letter\> | \<word\> \<letter\>
 
 In English the first line says "a letter is either a, b, or c", while
 the second says "a word is either a letter or a word followed by a
@@ -263,9 +263,9 @@ some category theory, so I'll assume you've read
 ["Week 73"](#week73) and ["Week 76"](#week76) where I
 explained categories and functors and isomorphisms.
 
-If you've got a function F: S → S from some set to itself, a fixed
+If you've got a function F: S\to S from some set to itself, a fixed
 point of F is just an element x for which F(x) is *equal* to x. But now
-suppose we have a functor F: C → C from some category to itself. What's
+suppose we have a functor F: C\to C from some category to itself. What's
 a fixed point of this?
 
 Well, we could define it as an object x of C for which F(x) = x. But if
@@ -273,13 +273,13 @@ you know a little category theory you'll know that this sort of
 "strict" fixed point is very boring compared to a "weak" fixed
 point: an object x of C equipped with an *isomorphism*
 
-f: F(x) → x
+f: F(x)\to x
 
 Equality is dull, isomorphism is interesting. It's also very
 interesting to consider a more general notion: a "lax" fixed point,
 meaning an object x equipped with just a *morphism*
 
-f: F(x) → x
+f: F(x)\to x
 
 Let's consider an example. Take our category C to be the category of
 sets. And take our functor F to be the functor
@@ -290,7 +290,7 @@ by which we mean "disjoint union of the set x with the one-element
 set" - I leave it to you to check that this is a functor. A lax fixed
 point of F is thus a set x equipped with a function
 
-f: x + 1 → x
+f: x + 1\to x
 
 so the natural numbers N = {0,00,000,...} is a lax fixed point in an
 obvious way... in fact a weak fixed point. So when I wrote N = N + 1
@@ -300,8 +300,8 @@ Similarly with those other equations involving sets.
 Now, just as any function from a set to itself has a *set* of fixed
 points, any functor F from a category C to itself has a *category* of
 lax fixed points. An object in this category is just an object x of C
-equipped with a morphism f: F(x) → x, and a morphism from this object to
-some other object g: F(y) → y is just a commutative square:
+equipped with a morphism f: F(x)\to x, and a morphism from this object to
+some other object g: F(y)\to y is just a commutative square:
 
                                   f
                            F(x) -----> x

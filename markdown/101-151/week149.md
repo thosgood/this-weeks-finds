@@ -97,8 +97,8 @@ a bunch of nice laws *up to homotopy*, and so on. Usually they do this
 in the context of spectra rather than infinite loop spaces - a
 distinction too technical for me to worry about here! - so they call
 this sort of thing a "ring spectrum". Similarly, corresponding to a
-commutative ring, the homotopy theorists have a notion called an "E~∞~
-ring spectrum". The word "E~∞~" is just a funny way of saying that
+commutative ring, the homotopy theorists have a notion called an "E~\infty~
+ring spectrum". The word "E~\infty~" is just a funny way of saying that
 the commutative law holds up to homotopy, with the homotopies satisfying
 a bunch of laws up to homotopy, etcetera.
 
@@ -106,7 +106,7 @@ If you start with a ring spectrum, the corresponding cohomology theory
 will have products. In other words, the cohomology groups h^n^(X) of any
 space X will fit together to form a graded ring called h^\*^(X) - the
 star stands for a little blank where you can stick in any number "n".
-And if your ring spectrum is an E~∞~ ring spectrum, h^\*^(X) will be
+And if your ring spectrum is an E~\infty~ ring spectrum, h^\*^(X) will be
 graded-commutative. This is what happens in most of really famous
 generalized cohomology theories. For example, the ordinary cohomology of
 a space is actually a graded-commutative ring with a product called the
@@ -125,8 +125,8 @@ in Mathematics, U. Chicago Press, Chicago, 1974.
 8) J. P. May, The Geometry of Iterated Loop Spaces, Lecture Notes in
 Mathematics 271, Springer Verlag, Berlin, 1972.
 
-9) J. P. May, F. Quinn, N. Ray and J. Tornehave, E~∞~ Ring Spaces and
-E~∞~ Ring Spectra, Lecture Notes in Mathematics 577, Springer Verlag,
+9) J. P. May, F. Quinn, N. Ray and J. Tornehave, E~\infty~ Ring Spaces and
+E~\infty~ Ring Spectra, Lecture Notes in Mathematics 577, Springer Verlag,
 Berlin, 1977.
 
 10) G. Carlsson and R. Milgram, Stable homotopy and iterated loop
@@ -172,14 +172,14 @@ In quantum physics, K(Z,1) usually goes by the name U(1) - the group of
 unit complex numbers, or "phases".
 
 K(Z,2) is a bit more complicated: it's infinite-dimensional complex
-projective space, CP^∞^! I talked a bunch about projective spaces in
+projective space, CP^\infty^! I talked a bunch about projective spaces in
 ["Week 106"](#week106). There I only talked about
-finite-dimensional ones like CP^n^, but you can define CP^∞^ as a
-"direct limit" of these as n approaches ∞, using the fact that CP^n^
+finite-dimensional ones like CP^n^, but you can define CP^\infty^ as a
+"direct limit" of these as n approaches \infty, using the fact that CP^n^
 sits inside CPn+1 as a subspace. Alternatively, you can take your
 favorite complex Hilbert space H with countably infinite dimension and
 form the space of all 1-dimensional subspaces in H. This gives a
-slightly fatter version of CP^∞^, but it's homotopy equivalent, and
+slightly fatter version of CP^\infty^, but it's homotopy equivalent, and
 it's a very natural thing to study if you're a physicist: it's just
 the space of all "pure states" of the quantum system whose Hilbert
 space is H.
@@ -203,16 +203,16 @@ to know what comes next!
 But I'm digressing. I really want to focus on K(Z,2), or in other
 words, infinite-dimensional complex projective space. Note that there's
 an obvious complex line bundle over this space. Remember, each point in
-CP^∞^ is really a 1-dimensional subspace in some Hilbert space H. So we
+CP^\infty^ is really a 1-dimensional subspace in some Hilbert space H. So we
 can use these 1-dimensional subspaces as the fibers of a complex line
-bundle over CP^∞^, called the "canonical bundle". I'll call this line
+bundle over CP^\infty^, called the "canonical bundle". I'll call this line
 bundle L.
 
 The complex line bundle L is important because it's "universal": all
 the rest can be obtained from this one! More precisely, suppose we have
 any topological space X and any map
 
-f: X → CP^∞^
+f: X\to CP^\infty^
 
 Then we can form a complex line bundle over X whose fiber over any point
 x is just the fiber of L over the point f(x). This bundle is called the
@@ -226,18 +226,18 @@ For example, suppose we want to classify complex line bundles over any
 space X. From what I just said, this task is equivalent to the task of
 classifying homotopy classes of maps
 
-f: X → CP^∞^.
+f: X\to CP^\infty^.
 
-But remember, CP^∞^ is the Eilenberg-Maclane space K(Z,2), and the
+But remember, CP^\infty^ is the Eilenberg-Maclane space K(Z,2), and the
 Eilenberg-Maclane spectrum represents ordinary cohomology! So
 
-\[X, CP^∞^\] = \[X, K(Z,2)\] = H^2^(X)
+\[X, CP^\infty^\] = \[X, K(Z,2)\] = H^2^(X)
 
 where H^2^(X) stands for the 2nd ordinary cohomology group of X. So the
 following things are really the same:
 
 -   isomorphism classes of complex line bundles over X
--   homotopy classes of maps from X to CP^∞^
+-   homotopy classes of maps from X to CP^\infty^
 -   elements of the ordinary cohomology group H^2^(X).
 
 This is great, because it gives us three different viewpoints to play
@@ -278,21 +278,21 @@ Company, San Francisco, 1983.
 for the full story.
 
 Next let's try a curiously self-referential example. It should be fun
-to classify complex line bundles on CP^∞^, since this is where the
-universal one lives! So let's take X = CP^∞^. Since CP^∞^ is K(Z,2), a
+to classify complex line bundles on CP^\infty^, since this is where the
+universal one lives! So let's take X = CP^\infty^. Since CP^\infty^ is K(Z,2), a
 little abstract nonsense shows that it's ordinary 2nd cohomology group
 is Z:
 
-H^2^(CP^∞^) = \[CP^∞^, CP^∞^\] = Z.
+H^2^(CP^\infty^) = \[CP^\infty^, CP^\infty^\] = Z.
 
 This means that the first Chern class of a complex line bundle over
-CP^∞^ is secretly just an integer. But what's the first Chern class of
+CP^\infty^ is secretly just an integer. But what's the first Chern class of
 the universal complex line bundle, L? Well, this bundle is the pullback
 of itself via the *identity* map
 
-1: CP^∞^ → CP^∞^
+1: CP^\infty^\to CP^\infty^
 
-and this map corresponds to the element 1 in \[CP^∞^, CP^∞^\] = Z. So
+and this map corresponds to the element 1 in \[CP^\infty^, CP^\infty^\] = Z. So
 the first Chern class of L is 1. See how tautologous this argument is?
 It sounds like it's saying something profound, but once you understand
 it, it's really just saying 1 = 1.
@@ -303,12 +303,12 @@ nice way to think of the first Chern class of *any* complex line bundle.
 Up to isomorphism, any complex line bundle over any space X comes from
 some map
 
-f: X → CP^∞^
+f: X\to CP^\infty^
 
 so to compute the first Chern class of this line bundle, we can just
 work out f^\*^(c), where
 
-f^\*^: H^2^(CP^∞^) → H^2^(X)
+f^\*^: H^2^(CP^\infty^)\to H^2^(X)
 
 is the map induced by f. If you don't see why this is true, think about
 it a while - it's just a big fat tautology!
@@ -316,21 +316,21 @@ it a while - it's just a big fat tautology!
 The ideas we've been discussing raise some obvious questions. For
 example, H^2^(X) isn't just a set: it's an abelian group. We already
 knew this from our basic course in algebraic topology, and now we also
-know another explanation: CP^∞^ is an infinite loop space, so it's like
+know another explanation: CP^\infty^ is an infinite loop space, so it's like
 an abelian group for the purposes of homotopy theory. In fact, this
 particular infinite loop space actually *is* an abelian group. Maps from
 anything into an abelian group form an abelian group, which makes
 
-H^2^(X) = \[X, CP^∞^\]
+H^2^(X) = \[X, CP^\infty^\]
 
 into an abelian group. But now you're dying to know: what exactly do
 the product map
 
-m: CP^∞^ x CP^∞^ → CP^∞^
+m: CP^\infty^ x CP^\infty^\to CP^\infty^
 
 and the inverse map
 
-i: CP^∞^ → CP^∞^
+i: CP^\infty^\to CP^\infty^
 
 look like? And what does all this mean for the set of isomorphism
 classes of complex line bundles on X? It's an abelian group - but what
@@ -354,36 +354,36 @@ bundle gives the inverse in this group.
 Putting these ideas together, we get a nice description of tensoring
 line bundles in terms of the product
 
-m: CP^∞^ x CP^∞^ → CP^∞^
+m: CP^\infty^ x CP^\infty^\to CP^\infty^
 
 which I can explain even without saying what the product looks like.
 Suppose I have two line bundles on X and I want to tensor them. I might
 as well assume they are pullbacks of the universal bundle L by some maps
 
-f: X → CP^∞^,
+f: X\to CP^\infty^,
 
-g: X → CP^∞^.
+g: X\to CP^\infty^.
 
 It follows from what we've seen that to tensor these bundles, I can
 just form the map
 
-fg: X → CP^∞^
+fg: X\to CP^\infty^
 
 given as the composite
 
          (f,g)              m
-    X ---------> CP∞ x CP∞ ---> CP∞ 
+    X ---------> CP\infty x CP\infty ---> CP\infty 
 
 and then take the pullback of L by fg.
 
-In other words: since the canonical line bundle on CP^∞^ is universal,
-CP^∞^ knows everything there is to know about complex line bundles. In
+In other words: since the canonical line bundle on CP^\infty^ is universal,
+CP^\infty^ knows everything there is to know about complex line bundles. In
 particular, it knows everything there is to know about *tensoring*
 complex line bundles: the operation of tensoring is encoded in the
-*product* on CP^∞^. Similarly, the operation of taking the *dual* of a
+*product* on CP^\infty^. Similarly, the operation of taking the *dual* of a
 complex line bundle is encoded in the *inverse* operation
 
-i: CP^∞^ → CP^∞^.
+i: CP^\infty^\to CP^\infty^.
 
 Now, if you've absorbed everything I just said - or better yet, if you
 already knew it! - you are ready for the definition of a "complex
@@ -405,19 +405,19 @@ h^n+k^(S^n^) = h^k^(point)
 
 and taking the god-given element 1 in h^0^(point), this gives gives a
 special element in h^n^(S^n^) called the "orientation" of S^n^. Now
-note that S^2^ is the same thing as CP^n^, so that it sits inside CP^∞^:
+note that S^2^ is the same thing as CP^n^, so that it sits inside CP^\infty^:
 
-S^2^ → CP^∞^
+S^2^\to CP^\infty^
 
 This gives a map
 
-h^2^(CP^∞^) → h^2^(S^2^)
+h^2^(CP^\infty^)\to h^2^(S^2^)
 
 We say our generalized cohomology is "complex oriented" if there is an
-element c in h^2^(CP^∞^) that maps to the orientation of S^2^ under the
+element c in h^2^(CP^\infty^) that maps to the orientation of S^2^ under the
 above map, and changes sign under the inverse map
 
-i^\*^: h^2^(CP^∞^) → h^2^(CP^∞^).
+i^\*^: h^2^(CP^\infty^)\to h^2^(CP^\infty^).
 
 For example, ordinary cohomology is complex oriented, where we take c to
 be the first Chern class of the universal complex line bundle! This
@@ -476,7 +476,7 @@ for n \> 0.
 Given a spectrum we can define the generalized cohomology groups H^n^(X)
 even when n is negative, via:
 
-H^n^(X) = lim~k\ →\ ∞~ \[S^k^(X), E(n+k)\]
+H^n^(X) = lim~k\\to\ \infty~ \[S^k^(X), E(n+k)\]
 
 where S^k^(X) denotes the k-fold suspension of X. If the spectrum is
 connective, these groups will vanish when n is negative. A good example

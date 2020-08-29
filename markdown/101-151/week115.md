@@ -82,9 +82,9 @@ theory is *tremendously* fun, but it takes quite a bit of persistence to
 come anywhere close to the coal face. The original problems motivating
 the subject are easy to state. Let's call a topological space simply a
 "space", and call a continuous function between these simply a
-"map". Two maps f,g: X → Y are "homotopic" if one can be
+"map". Two maps f,g: X\to Y are "homotopic" if one can be
 continuously deformed to the other, or in other words, if there is a
-"homotopy" between them: a continuous function F: \[0,1\] x X → Y with
+"homotopy" between them: a continuous function F: \[0,1\] x X\to Y with
 
 F(0,x) = f(x)
 
@@ -93,7 +93,7 @@ and
 F(1,x) = g(x).
 
 Also, two spaces X and Y are "homotopy equivalent" if there are
-functions f: X → Y and g: Y → X for which fg and gf are homotopic to the
+functions f: X\to Y and g: Y\to X for which fg and gf are homotopic to the
 identity. Thus, for example, a circle, an annulus, and a solid torus are
 all homotopy equivalent.
 
@@ -131,19 +131,19 @@ of the basic terms are defined.
 ------------------------------------------------------------------------
 
 **A.** Presheaf Categories. Given a category C, a "presheaf" on C is a
-contravariant functor F: C → Sets. The original example of this is where
+contravariant functor F: C\to Sets. The original example of this is where
 C is the category whose objects are open subsets of a topological space
-X, with a single morphism f: U → V whenever the open set U is contained
+X, with a single morphism f: U\to V whenever the open set U is contained
 in the open set V. For example, there is the presheaf of continuous
 real-valued functions, for which F(U) is the set of all continuous real
-functions on U, and for any inclusion f: U → V, F(f): F(V) → F(U) is the
+functions on U, and for any inclusion f: U\to V, F(f): F(V)\to F(U) is the
 "restriction" map which assigns to any continuous function on V its
 restriction to U. This is a great way of studying functions in all
 neighborhoods of X at once.
 
 However, I'm bringing up this subject for a different reason, related
 to a different kind of example. Suppose that C is a category whose
-objects are "shapes" of some kind, with morphisms f: x → y
+objects are "shapes" of some kind, with morphisms f: x\to y
 corresponding to ways the shape x can be included as a "piece" of the
 shape y. Then a presheaf on C can be thought of as a geometrical
 structure built by gluing together these shapes along their common
@@ -155,7 +155,7 @@ a direction specified. Since they are made of two "shapes", the vertex
 and the edge, we'll cook up a little category C with two object, V and
 E. There are two ways a vertex can be included as a piece of an edge,
 either as its "source" or its "target". Our category C, therefore,
-has two morphisms, S: V → E and T: V → E. These are the only morphisms
+has two morphisms, S: V\to E and T: V\to E. These are the only morphisms
 except for identity morphisms - which correspond to how the edge is part
 of itself, and the vertex is part of itself! Omitting identity
 morphisms, our little category C looks like this:
@@ -167,20 +167,20 @@ morphisms, our little category C looks like this:
                               T
 
 Now let's work out what a presheaf on C is. It's a contravariant
-functor F: C → Set. What does this amount to? Well, it amounts to a set
+functor F: C\to Set. What does this amount to? Well, it amounts to a set
 F(V) called the "set of vertices", a set F(E) called the "set of
-edges", a function F(S): F(E) → F(V) assigning to each edge its source,
-and a function F(T): F(E) → F(V) assigning to each edge its target.
+edges", a function F(S): F(E)\to F(V) assigning to each edge its source,
+and a function F(T): F(E)\to F(V) assigning to each edge its target.
 That's just a directed graph!
 
 Note the role played by contravariance here: if a little shape V is
 included as a piece of a big shape E, our category gets a morphism S: V
-→ E, and then in our presheaf we get a function F(S): F(E) → F(V) going
+→ E, and then in our presheaf we get a function F(S): F(E)\to F(V) going
 the *other way*, which describes how each big shape has a bunch of
 little shapes as pieces.
 
 Given any category C there is actually a *category* of presheaves on C.
-Given presheaves F,G: C → Sets, a morphism M from F to G is just a
+Given presheaves F,G: C\to Sets, a morphism M from F to G is just a
 natural transformation M: F =\> G. This is beautifully efficient way of
 saying quite a lot. For example, if C is the little category described
 above, so that F and G are directed graphs, a natural transformation M:
@@ -224,10 +224,10 @@ map a tetrahedron down into a triangle in a way that carries the
 vertices {0,1,2,3} of the tetrahedron into the vertices {0,1,2} of the
 triangle as follows:
 
-                 0 → 0
-                 1 → 0
-                 2 → 1
-                 3 → 2
+                 0\to 0
+                 1\to 0
+                 2\to 1
+                 3\to 2
 
 These degeneracies also give morphisms in Δ.
 
@@ -239,7 +239,7 @@ n. Thus for example we think of the object 4 in Δ, the tetrahedron, as
 the totally ordered set {0,1,2,3}. These correspond to the 4 vertices of
 the tetrahedron. Then the morphisms in Δ are just all order-preserving
 maps between these totally ordered sets. So for example there is a
-morphism f: {0,1,2,3} → {0,1,2} given by the order-preserving map with
+morphism f: {0,1,2,3}\to {0,1,2} given by the order-preserving map with
 
                  f(0) = 0
                  f(1) = 0
@@ -277,7 +277,7 @@ Springer, Berlin, 1988.
 
 **C.** Simplicial Sets. Now we put together the previous two ideas: a
 "simplicial set" is a presheaf on the category of simplices! In other
-words, it's a contravariant functor F: Δ → Set. Geometrically, it's
+words, it's a contravariant functor F: Δ\to Set. Geometrically, it's
 basically just a bunch of simplices stuck together along their faces in
 an arbitrary way. We can think of it as a kind of purely combinatorial
 version of a "space". That's one reason simplicial sets are so
@@ -302,7 +302,7 @@ Personally, I like both!
 **D.** Simplicial Objects. We can generalize the heck out of the notion
 of "simplicial set" by replacing the category Set with any other
 category C. A "simplical object in C" is defined to be a contravariant
-functor F: Δ → C. There's a category whose objects are such functors
+functor F: Δ\to C. There's a category whose objects are such functors
 and whose morphisms are natural transformations between them.
 
 So, for example, a "simplicial abelian group" is a simplicial object
@@ -312,16 +312,16 @@ the free simplicial abelian group on X. In fact, it's more than
 analogy: the latter construction is a spinoff of the former! There is a
 functor
 
-L: Set → Ab
+L: Set\to Ab
 
 assigning to any set the free abelian group on that set (see
 ["Week 77"](#week77)). Given a simplicial set
 
-X: Δ → Set
+X: Δ\to Set
 
 we may compose with L to obtain a simplicial abelian group
 
-XL: Δ → Ab
+XL: Δ\to Ab
 
 (where I'm writing composition in the funny order that I like to use).
 This is the free simplicial abelian group on the simplicial set X!

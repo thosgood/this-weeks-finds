@@ -24,7 +24,7 @@ dots side by side. So, for example, we can draw x tensor y like this:
                             .  .
 
 This is 1-dimensional. But in addition we have, for any pair of objects
-x and y, a bunch of "morphisms" f: x → y. We can draw a morphism from
+x and y, a bunch of "morphisms" f: x\to y. We can draw a morphism from
 a tensor product of objects to some other tensor product of objects as a
 picture like this:
 
@@ -56,8 +56,8 @@ tensor y to y tensor x. We draw it like this:
 
 With this crossing of strands, the picture has become 3-dimensional!
 
-We also require that we can "compose" a morphism f: x → y and a
-morphism g: y → z and get a morphism fg: x → z. We draw this by sticking
+We also require that we can "compose" a morphism f: x\to y and a
+morphism g: y\to z and get a morphism fg: x\to z. We draw this by sticking
 one picture on top of each other like this... I'll draw a fancy
 example where all the objects in question are themselves tensor products
 of other objects:

@@ -61,22 +61,22 @@ Well, it means that we can define a "product" of any two objects in a
 topos. That is, given objects a and b, there's an object a x b equipped
 with morphisms
 
-p: a x b → a
+p: a x b\to a
 
 and
 
-q: a x b → b
+q: a x b\to b
 
 called "projections", satisfying the following property: given
 morphisms from some object c into a and b, say
 
-f: c → a
+f: c\to a
 
 and
 
-g: c → b
+g: c\to b
 
-there's a unique morphism f x g: c → a x b such that if we follow it by
+there's a unique morphism f x g: c\to a x b such that if we follow it by
 p we get f, and if we follow it by q we get g. This is just an
 abstraction of the properties of the usual Cartesian product of sets,
 which is why we call a category "Cartesian" if any pair of objects has
@@ -85,7 +85,7 @@ a product.
 Now, it's a fun exercise to check that in a Cartesian category, every
 object has a morphism
 
-Δ: a → a x a
+Δ: a\to a x a
 
 called the "diagonal", which when composed with either of the two
 projections from a x a to a gives the identity. For example, in the
@@ -103,7 +103,7 @@ The reason is that in the category of Hilbert spaces, the tensor product
 is not a product in the above sense! In particular, given a Hilbert
 space H, there isn't a natural diagonal operator
 
-Δ: H → H tensor H
+Δ: H\to H tensor H
 
 and there aren't even natural projection operators from H tensor H to
 H. As pointed out to me by James Dolan, this non-Cartesianness of the
@@ -140,7 +140,7 @@ a) For any self-adjoint operator A, F(A) lies in the spectrum of A,
 
 and
 
-b) For any continuous f: R → R, f(F(A)) = F(f(A)).
+b) For any continuous f: R\to R, f(F(A)) = F(f(A)).
 
 This means there's no sensible consistent way of thinking of all
 observables as simultaneously having values in a quantum system!

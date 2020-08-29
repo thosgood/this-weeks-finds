@@ -68,7 +68,7 @@ summarize this analogy in one cryptic chart:
                   black hole mass M         energy E
                   event horizon area A      entropy S
                   surface gravity K         temperature T
-    FIRST LAW:    dM = K dA / 8 π + work   dE = T dS + work
+    FIRST LAW:    dM = K dA / 8 \pi + work   dE = T dS + work
     SECOND LAW:   A increases               S increases
     THIRD LAW:    can't get K = 0           can't get T = 0
 
@@ -112,7 +112,7 @@ gravity.
 
 Anyway, here is Hawking's magic formula:
 
-T = K / 2 π
+T = K / 2 \pi
 
 Here I'm working in units where ħ = c = k = G = 1, but it's important
 to note that there is secretly an ħ (Planck's constant) hiding in this

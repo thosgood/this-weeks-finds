@@ -217,7 +217,7 @@ introduction to quantum field theory and a 30-page introduction to
 statistical mechanics. The reason is that when we perform the
 substitution called the "Wick transform":
 
-it/ħ → k/T,
+it/ħ\to k/T,
 
 quantum field theory turns into statistical mechanics, and a nice
 Lorentzian manifold may turn into a Riemannian manifold - in other

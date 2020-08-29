@@ -116,7 +116,7 @@ law and a unit element satisfying the left and right unit laws. The
 categorified version of a monoid is a "monoidal category". This is a
 category C with a product
 
-⊗: C × C → C
+⊗: C × C\to C
 
 and unit object 1. If we naively impose associativity and the left and
 right unit laws as equational laws, we obtain the definition of a
@@ -125,13 +125,13 @@ categorification suggests instead that we impose them only up to natural
 isomorphism. Thus, as part of the structure of a "weak" monoidal
 category, we specify a natural isomorphism
 
-a~x,y,z~: (x ⊗ y) ⊗ z → x ⊗ (y ⊗ z)
+a~x,y,z~: (x ⊗ y) ⊗ z\to x ⊗ (y ⊗ z)
 
 called the "associator", together with natural isomorphisms
 
-l~x~: 1 ⊗ x → x,
+l~x~: 1 ⊗ x\to x,
 
-r~x~: x ⊗ 1 → x.
+r~x~: x ⊗ 1\to x.
 
 Using the associator one can construct isomorphisms between any two
 parenthesized versions of the tensor product of several objects.
@@ -196,7 +196,7 @@ an equational law of the form x ⊗ y = y ⊗ x, is almost completely
 uninteresting. It is much better to start with a weak monoidal category
 equipped with a natural isomorphism
 
-B~x,y~: x ⊗ y → y ⊗ x
+B~x,y~: x ⊗ y\to y ⊗ x
 
 called the "braiding" and then impose coherence laws called "hexagon
 identities" saying that the following two diagrams built from the
@@ -441,7 +441,7 @@ this is just the tip of the following iceberg:
      ω-groupoids                    of the kth loop space of Sk
     ---------------------------------------------------------------------
     stable ω-groupoids                   the homotopy type 
-                                       of the infinite loop space of S∞
+                                       of the infinite loop space of S\infty
     -------------------------------------------------------------------------
        Z-groupoids                          the sphere spectrum       
 
@@ -475,26 +475,26 @@ May, operads have become really important in homotopy theory, string
 theory, and now n-category theory; this review article sketches some of
 the connections.
 
-8) Masoud Khalkhali, On cyclic homology of A~∞~ algebras, preprint
+8) Masoud Khalkhali, On cyclic homology of A~\infty~ algebras, preprint
 available as [math.QA/9805051](http://xxx.lanl.gov/abs/math.QA/9805051).
 
-Masoud Khalkhali, Homology of L~∞~ algebras and cyclic homology,
+Masoud Khalkhali, Homology of L~\infty~ algebras and cyclic homology,
 preprint available as
 [math.QA/9805052](http://xxx.lanl.gov/abs/math.QA/9805052).
 
-An A~∞~ algebra is an algebra that is associative *up to an associator*
+An A~\infty~ algebra is an algebra that is associative *up to an associator*
 which satisfies the pentagon identity *up to a pentagonator* which
 satisfies it's own coherence law up to something, ad infinitum. The
-concept goes back to Stasheff's work on A~∞~ spaces - spaces with a
+concept goes back to Stasheff's work on A~\infty~ spaces - spaces with a
 homotopy equivalence to a space equipped with an associative product.
 (These are the same thing as what I called E~1~ spaces in the
 translation dictionary between n-groupoid theory and homotopy theory.)
 But here it's been transported from Top over to Vect. Similarly, an
-L~∞~ algebra is a Lie algebra "up to an infinity of higher coherence
+L~\infty~ algebra is a Lie algebra "up to an infinity of higher coherence
 laws". Loday-Quillen and Tsygan showed that that the Lie algebra
 homology of the algebra of stable matrices over an associative algebra
 is isomorphic, as a Hopf algebra, to the exterior algebra of the cyclic
 homology of the algebra. In the second paper above, Khalkali gets the
-tools set up to extend this result to the category of L~∞~ algebras.
+tools set up to extend this result to the category of L~\infty~ algebras.
 
 ------------------------------------------------------------------------

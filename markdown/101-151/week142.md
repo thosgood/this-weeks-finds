@@ -269,24 +269,24 @@ Remember, any matrix
 
 in SL(2,Z) acts on the upper half-plane as follows:
 
-τ \|→ (a τ + b)/(c τ + d)
+τ |→ (a τ + b)/(c τ + d)
 
-For an analytic function f: H → C to be a "modular form of weight k",
+For an analytic function f: H\to C to be a "modular form of weight k",
 it must transform as follows:
 
 f((a τ + b)/(c τ + d)) = (c τ + d)^k^ f(τ)
 
 for some integer k. We also require that f satisfy some growth
-conditions as τ → ∞, so we can expand it as a Taylor series
+conditions as τ\to\infty, so we can expand it as a Taylor series
 
 f(τ) = ∑ a~n~ q^n^
 
 where
 
-q = exp(2 π i τ)
+q = exp(2 \pi i τ)
 
-is a variable that equals 0 when τ = ∞. The nicest modular forms are the
-"cusp forms", which have a~0~ = 0, and thus vanish at τ = ∞.
+is a variable that equals 0 when τ = \infty. The nicest modular forms are the
+"cusp forms", which have a~0~ = 0, and thus vanish at τ = \infty.
 
 Next, we can straightforwardly generalize everything I just said if we
 replace SL(2,Z) by various subgroups thereof. (This amounts to studying

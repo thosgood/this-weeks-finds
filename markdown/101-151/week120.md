@@ -92,7 +92,7 @@ in classical general relativity. His formula applies to a triangulated
 triangle has an "angle deficit" associated to it. It's easier to
 visualize this two dimensions down, where each vertex in a triangulated
 2-manifold has an angle deficit given by adding up angles for all the
-triangles having it as a corner, and then subtracting 2 π. No angle
+triangles having it as a corner, and then subtracting 2 \pi. No angle
 deficit means no curvature: the triangles sit flat in a plane. The idea
 works similarly in 4 dimensions. Here's Regge's formula for the
 action: take each triangle in your triangulated 4-manifold, take its
@@ -255,7 +255,7 @@ Immirzi ambiguity, preprint available as
 > We draw parallels between the recently introduced \`\`Immirzi
 > ambiguity'' of the Ashtekar-like formulation of canonical quantum
 > gravity and other ambiguities that appear in Yang-Mills theories, like
-> the θ ambiguity. We also discuss ambiguities in the Maxwell case, and
+> the \theta ambiguity. We also discuss ambiguities in the Maxwell case, and
 > implication for the loop quantization of these theories.
 
 12) John Baez and Stephen Sawin, Diffeomorphism-invariant spin network
@@ -265,7 +265,7 @@ states, to appear in Jour. Funct. Analysis, preprint available as
 
 > We extend the theory of diffeomorphism-invariant spin network states
 > from the real-analytic category to the smooth category. Suppose that G
-> is a compact connected semisimple Lie group and P → M is a smooth
+> is a compact connected semisimple Lie group and P\to M is a smooth
 > principal G-bundle. A \`cylinder function' on the space of smooth
 > connections on P is a continuous complex function of the holonomies
 > along finitely many piecewise smoothly immersed curves in M. We
@@ -289,7 +289,7 @@ supersymmetric particle physics, 64 pages, preprint available as
 [hep-ph/9712322](http://xxx.lanl.gov/abs/hep-ph/9712322).
 
 I'm afraid I'll slack off on my "tour of homotopy theory" this week.
-I want to get to fun stuff like model categories and E-∞ spaces, but
+I want to get to fun stuff like model categories and E-\infty spaces, but
 it's turning out to be a fair amount of work to reach that goal!
 That's what always happens with This Week's Finds: I start learning
 about something and think "oh boy, this stuff is great; I'll write it

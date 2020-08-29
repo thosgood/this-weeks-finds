@@ -235,8 +235,8 @@ theories Kreimer was studying when he discovered this stuff: *not*
 topological quantum field theories like Chern-Simons theory, which
 already have well-understood relationship to knot theory, but instead,
 field theories that ordinary particle physicists have been thinking
-about for decades, like quantum electrodynamics, φ^4^ theory in 4
-dimensions, and φ^3^ theory in 6 dimensions - field theories where
+about for decades, like quantum electrodynamics, \varphi^4^ theory in 4
+dimensions, and \varphi^3^ theory in 6 dimensions - field theories where
 renormalization is a deadly serious business, thanks to nasty problems
 like "overlapping divergences".
 

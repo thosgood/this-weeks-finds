@@ -40,10 +40,10 @@ Vaughan Pratt.
 Pedicchio's course covered various generalizations of Lawvere's
 wonderful concept of an algebraic theory. Recall from
 ["Week 53"](#week53) that we can think of a category C with extra
-properties or structure as a kind of "theory", and functors F: C → Set
+properties or structure as a kind of "theory", and functors F: C\to Set
 preserving this structure as "models" of the theory. For example, a
 "finite products theory" C is just a category with finite products. In
-this case, a model is a functor F: C → Set preserving finite products,
+this case, a model is a functor F: C\to Set preserving finite products,
 and a morphism of models is a natural transformation between such
 functors. This gives us a category Mod(C) of models of C.
 
@@ -63,7 +63,7 @@ Now, what I didn't explain last time I discussed this was the notion of
 theory-model duality. Fans of "duality" in all its forms are sure to
 like this! There's a functor
 
-R: Mod(C) → Set
+R: Mod(C)\to Set
 
 which carries each model F to the set F(x). We can think of this as a
 functor which forgets all the operations of our algebraic gadget and
@@ -72,7 +72,7 @@ functors (see ["Week 77"](#week77)-["Week 79"](#week79)), this
 should immediately make you want to find a left adjoint for R, namely a
 functor
 
-L: Set → Mod(C)
+L: Set\to Mod(C)
 
 sending each set to the "free" algebraic gadget on this set. Indeed,
 such a left adjoint exists!
@@ -109,7 +109,7 @@ Even better, all of this can be generalized immensely, to theories of a
 more flexible sort than the "algebraic theories" I've been talking
 about so far. For example, we can study "essentially algebraic
 theories", which are just categories with finite limits. Given one of
-these, say C, we define a model to be a functor F: C → Set preserving
+these, say C, we define a model to be a functor F: C\to Set preserving
 finite limits. This allows one to study algebraic structures with
 partially defined operations. I already gave an example in
 ["Week 53"](#week53) - there's a category with finite limits
@@ -206,7 +206,7 @@ s(i(x)) = t(i(x)) = x.
 
 We call the elements of X~n~ are "n-cells", and call s(x) and t(x) the
 "source" and "target" of the n-cell x, respectively. If s(x) = a and
-t(x) = b, we think of x as going from a to b, and write x: a → b.
+t(x) = b, we think of x as going from a to b, and write x: a\to b.
 
 If we left out all the stuff about the maps i we would simply have a
 "globular set". These are important in n-category theory because
@@ -216,7 +216,7 @@ starts right away with "reflexive" globular sets, which have these
 maps i that are a bit like the degeneracies in the definition of a
 simplicial set (see ["Week 115"](#week115)). In Penon's definition
 i(x) plays the role of an "identity n-morphism", so we also write i(x)
-as 1~x~: x → x.
+as 1~x~: x\to x.
 
 Let RGlob be the category of reflexive globular sets, where morphisms
 are defined in the obvious way. (In other words, RGlob is a presheaf
@@ -257,29 +257,29 @@ where:
 >
 > C is a strict ω-category
 >
-> p: M → C is a morphism of ω-magmas (i.e., a morphism of reflexive
+> p: M\to C is a morphism of ω-magmas (i.e., a morphism of reflexive
 > globular sets strictly preserving all the ω-magma operations)
 >
 > \[.,.\] is a way of lifting equations between n-morphisms in the image
 > of the projection p to (n+1)-morphisms in M. More precisely: given
 > n-cells
 >
-> f,g: a → b
+> f,g: a\to b
 >
 > in M such that p(f) = p(g), we have an (n+1)-cell
 >
-> \[f,g\]: f → g
+> \[f,g\]: f\to g
 >
 > in M such that p(\[f,g\]) = 1~p(f)~ = 1~p(g)~. We require that \[f,f\]
 > = 1~f~.
 
-A morphism in Q is defined to be the obvious thing: a morphism f: M →
-M' of ω-magmas and a morphism f: C → C' of strict-ω categories,
+A morphism in Q is defined to be the obvious thing: a morphism f: M\to
+M' of ω-magmas and a morphism f: C\to C' of strict-ω categories,
 strictly preserving all the structure in sight.
 
 Okay, now we define a functor
 
-U: Q → RGlob
+U: Q\to RGlob
 
 by
 
@@ -288,11 +288,11 @@ U(M,p,C,\[.,.\]) = M
 where we think of M as just a reflexive globular set. Penon proves that
 U has a left adjoint
 
-F: RGlob → Q
+F: RGlob\to Q
 
 This adjunction defines a monad
 
-T: RGlob → RGlob
+T: RGlob\to RGlob
 
 and Penon defines a "weak ω-category" to be an algebra of this monad.
 

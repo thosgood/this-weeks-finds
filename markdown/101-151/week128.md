@@ -387,7 +387,7 @@ acts as a symmetry group on the phase space. This action induces a
 unitary representation on the loop state space of the Ashtekar
 formalism. Certain elements of the diffeomorphism group can be regarded
 as asymptotic rotations of space relative to its surroundings. We
-construct states that transform non-trivially under a 2 π rotation:
+construct states that transform non-trivially under a 2 \pi rotation:
 gravitational quantum states with fractional spin.
 
 14) Steve Carlip, Black hole entropy from conformal field theory in any

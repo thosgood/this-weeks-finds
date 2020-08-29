@@ -83,13 +83,13 @@ that turns such things into actual topological spaces, and also a
 process that turns topological spaces back into simplicial sets.
 
 Let's start with the first one. Given a simplicial set X, we can form a
-space \|X\| called the "geometric realization" of X by gluing spaces
+space |X| called the "geometric realization" of X by gluing spaces
 shaped like simplices together in the pattern given by X. Given a
 morphism between simplicial sets there's an obvious continuous map
 between their geometric realizations, so geometric realization is
 actually a functor
 
-\| \|: SimpSet → Top
+| |: SimpSet\to Top
 
 from the category of simplicial sets, SimpSet, to the category of
 topological space, Top.
@@ -104,7 +104,7 @@ functors - see below.
 topological space X, its "singular simplicial set" Sing(X) consists of
 all possible ways of mapping simplices into X. This gives a functor
 
-Sing: Top → SimpSet.
+Sing: Top\to SimpSet.
 
 We make this precise as follows.
 
@@ -112,11 +112,11 @@ By thinking of simplices as spaces in the obvious way, we can associate
 a space to any object of Δ, and also a continuous map to any morphism in
 Δ. Thus there's a functor
 
-i: Δ → Top.
+i: Δ\to Top.
 
 For any space X we define
 
-Sing(X): Δ → Set
+Sing(X): Δ\to Set
 
 by
 
@@ -129,7 +129,7 @@ to eat a *morphism* between simplices and spit out a *function* between
 sets.
 
 Having said what Sing does to *spaces*, what does it do to *maps*? The
-same formula works: for any map f: X → Y between topological spaces, we
+same formula works: for any map f: X\to Y between topological spaces, we
 define
 
 Sing(f)(-) = hom(i(-),f).
@@ -150,7 +150,7 @@ Sing(--)(-) = hom(i(-),--).
 where Sing becomes a functor using the fact that for any category C
 there's a functor
 
-hom: C^op^ x C → Set
+hom: C^op^ x C\to Set
 
 where C^op^ denotes the opposite of C, that is, C with all its arrows
 turned around. (See "week78" for an explanation of this.)
@@ -162,19 +162,19 @@ Or I could have said this: form the composite
 
 and dualize this to obtain
 
-                     Sing: Top → SimpSet.
+                     Sing: Top\to SimpSet.
 
 These are all different ways of saying the same thing. Forming the
 singular simplical set of a space is not really an "inverse" to
 geometric realization, since if we take a simplicial set X, form its
 geometric realization, and then form the singular simplicial set of
 that, we get something much bigger than X. However, if you think about
-it, there's an obvious map from X into Sing(\|X\|). Similarly, if we
+it, there's an obvious map from X into Sing(|X|). Similarly, if we
 start with a topological space X, there's an obvious map from
-\|Sing(X)\| down to X.
+|Sing(X)| down to X.
 
-What this means is that Sing is the right adjoint of \| \|, or in other
-words, \| \| is the left adjoint of Sing. Thus if we want to be slick,
+What this means is that Sing is the right adjoint of | |, or in other
+words, | | is the left adjoint of Sing. Thus if we want to be slick,
 we can just *define* geometric realization to be the left adjoint of
 Sing. (See ["Week 77"](#week77)-["Week 79"](#week79) for an
 exposition of adjoint functors.)
@@ -238,10 +238,10 @@ ultimately so limited.
 
 Before I keep rambling on I should describe the category of chain
 complexes, which I'll call Chain. The objects are just chain complexes,
-and given two of them, say C and C', a morphism f: C → C' is a
+and given two of them, say C and C', a morphism f: C\to C' is a
 sequence of group homomorphisms
 
-                 fi: Ci → Ci'
+                 fi: Ci\to Ci'
 
 making the following big diagram commute:
 
@@ -280,19 +280,19 @@ There is a way to define a "tensor product" C x C' of chain complexes
 C and C', which is analogous to the product of topological spaces. And
 there are morphisms
 
-                        i,j: C → I x C
+                        i,j: C\to I x C
 
 analogous to the two maps from a space into its product with the unit
 interval:
 
-                     i, j: X → [0,1] x X         
+                     i, j: X\to [0,1] x X         
                   
 
                  i(x) = (0,x),    j(x) = (1,x) 
 
 Using these analogies we can define a "chain homotopy" between chain
-complex morphisms f,g: C → C' in a way that's completely analogous to
-a homotopy between maps. Namely, it's a morphism F: I x C → C' for
+complex morphisms f,g: C\to C' in a way that's completely analogous to
+a homotopy between maps. Namely, it's a morphism F: I x C\to C' for
 which the composite
 
                         i           F
@@ -310,13 +310,13 @@ then generalize the bejeezus out of it!
 The nice thing about all this is that a morphism of chain complexes f: C
 → C' gives rise to homomorphisms of homology groups,
 
-                    Hn(f): Hn(C) → Hn(C').
+                    Hn(f): Hn(C)\to Hn(C').
 
 In fact, we've got a functor
 
-                    Hn: Chain → Ab.
+                    Hn: Chain\to Ab.
 
-And even better, if f: C → C' and g: C → C' are chain homotopic, then
+And even better, if f: C\to C' and g: C\to C' are chain homotopic, then
 H~n~(f) and H~n~(g) are equal. So we say: "homology is
 homotopy-invariant".
 
@@ -326,14 +326,14 @@ homotopy-invariant".
 explain a cool way of getting chain complexes, which goes a long way
 towards explaining why they're important. Recall from item D. in
 ["Week 115"](#week115) that a simplicial abelian group is a
-contravariant functor C: Δ → Ab. In particular, it gives us an abelian
+contravariant functor C: Δ\to Ab. In particular, it gives us an abelian
 group C~n~ for each object n of Δ, and also "face" homomorphisms
 
-             partial0, ...., partialn-1: Cn → Cn-1
+             partial0, ...., partialn-1: Cn\to Cn-1
 
 coming from all the ways the simplex with (n-1) vertices can be a face
 of the simplex with n vertices. We can thus can make C into a chain
-complex by defining d~n~: C~n~ → C~n-1~ as follows:
+complex by defining d~n~: C~n~\to C~n-1~ as follows:
 
                     dn = sum (-1)i partiali 
 
@@ -347,7 +347,7 @@ of the physicist John Wheeler, "the boundary of a boundary is zero".
 Unsurprisingly, this gives a functor from simplicial abelian groups to
 chain complexes. Let's call it
 
-Ch: SimpAb → Chain
+Ch: SimpAb\to Chain
 
 More surprisingly, this is an equivalence of categories! I leave you to
 show this - if you give up, look at May's book cited in section C. of
@@ -364,23 +364,23 @@ complexes, so I wanted to mention them.
 machines, let's hook them up and see what happens! Take the "singular
 simplicial set" functor:
 
-Sing: Top → SimpSet,
+Sing: Top\to SimpSet,
 
 the "free simplicial abelian group on a simplicial set" functor:
 
-L: SimpSet → SimpAb,
+L: SimpSet\to SimpAb,
 
 and the "chain complex of a simplicial abelian group" functor:
 
-Ch: SimpAb → Chain,
+Ch: SimpAb\to Chain,
 
 and compose them! We get the "singular chain complex" functor
 
-C: Top → Chain
+C: Top\to Chain
 
 that takes a topological space and distills a chain complex out of it.
 We can then take the homology groups of our chain complex and get the
-"singular homology" of our space. Better yet, the functor C: Top →
+"singular homology" of our space. Better yet, the functor C: Top\to
 Chain takes homotopies between maps and sends them to homotopies between
 morphisms of chain complexes! It follows that homotopic maps between
 spaces give the same homomorphisms between the singular homology groups

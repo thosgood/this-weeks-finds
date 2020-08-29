@@ -21,7 +21,7 @@ three edges meet at each vertex, with the corresponding spins j~1~,
 j~2~, j~3~ adding up to an integer and satisfying the triangle
 inequalities
 
-\|j~1~ - j~2~\| ≤ j~3~ ≤ j~1~ + j~2~
+|j~1~ - j~2~| ≤ j~3~ ≤ j~1~ + j~2~
 
 These rules are motivated by the quantum mechanics of angular momentum:
 if we combine a system with spin j~1~ and a system with spin j~2~, the
@@ -158,7 +158,7 @@ the "incoming" edges to the tensor product of representations
 labelling the "outgoing" edges. When 3 edges labelled by spins j~1~,
 j~2~, j~3~ meet at a vertex, there is at most one intertwiner
 
-f: j~1~ ⊗ j~2~ → j~3~,
+f: j~1~ ⊗ j~2~\to j~3~,
 
 at least up to a scalar multiple. The conditions I wrote down - the
 triangle inequality and so on - are just the conditions for a nonzero
@@ -202,26 +202,26 @@ edge intersecting each triangular face.
 In such a spin network there are 4 edges meeting at each vertex, and the
 vertex is labelled with an intertwiner of the form
 
-f: j~1~ ⊗ j~2~ → j~3~ ⊗ j~4~
+f: j~1~ ⊗ j~2~\to j~3~ ⊗ j~4~
 
 where j~1~,...,j~4~ are the spins on these edges. If you know about the
 representation theory of SU(2), you know that j~1~ ⊗ j~2~ is a direct
-sum of representations of spin j~5~, where j~5~ goes from \|j~1~ -
-j~2~\| up to j~1~ + j~2~ in integer steps. So we get a basis of
+sum of representations of spin j~5~, where j~5~ goes from |j~1~ -
+j~2~| up to j~1~ + j~2~ in integer steps. So we get a basis of
 intertwining operators:
 
-f: j~1~ ⊗ j~2~ → j~3~ ⊗ j~4~
+f: j~1~ ⊗ j~2~\to j~3~ ⊗ j~4~
 
 by picking one factoring through each representation j~5~:
 
-j~1~ ⊗ j~2~ → j~5~ → j~3~ ⊗ j~4~
+j~1~ ⊗ j~2~\to j~5~\to j~3~ ⊗ j~4~
 
 where:
 
-a) j~1~ + j~2~ + j~5~ is an integer and \|j~1~ - j~2~\| ≤ j~5~ ≤ j~1~ +
+a) j~1~ + j~2~ + j~5~ is an integer and |j~1~ - j~2~| ≤ j~5~ ≤ j~1~ +
 j~2~
 
-b) j~3~ + j~4~ + j~5~ is an integer and \|j~3~ - j~4~\| ≤ j~5~ ≤ j~3~ +
+b) j~3~ + j~4~ + j~5~ is an integer and |j~3~ - j~4~| ≤ j~5~ ≤ j~3~ +
 j~4~.
 
 Using this, we get a basis of simplicial spin networks by labelling all

@@ -231,13 +231,13 @@ this invariant is sufficiently powerful to completely classify such line
 bundles. Last week I described the *universal* line bundle over
 infinite-dimensional complex projective space:
 
-L → CP^∞^
+L\to CP^\infty^
 
 and showed how the first Chern class of *any* line bundle comes from the
 first Chern class of this one, which I called c.
 
 If a generalized cohomology theory is multiplicative and there's an
-element c of h^2^(CP^∞^) that acts like the first Chern class of the
+element c of h^2^(CP^\infty^) that acts like the first Chern class of the
 universal line bundle, we call the theory "complex oriented". Of
 course, to make this precise we need to isolate the key features of the
 first Chern class and abstract them. I did this in
@@ -247,12 +247,12 @@ cohomology theory.
 
 For starters, we can use the element c to get an invariant of complex
 line bundles - a kind of generalized version of the first Chern class.
-To do this, just remember from ["Week 149"](#week149) that CP^∞^ is
+To do this, just remember from ["Week 149"](#week149) that CP^\infty^ is
 the classifying space for complex line bundles. In other words, *any*
 line bundle over *any* space X is isomorphic to a pullback of the
 universal line bundle by some map
 
-f: X → CP^∞^.
+f: X\to CP^\infty^.
 
 Thus, given a line bundle we can find such a map f and use it to pull
 back the element c to get an element of h^2^(X). This is exactly like
@@ -260,11 +260,11 @@ the usual first Chern class of our line bundle, except now we're using
 a generalized cohomology theory instead of ordinary cohomology.
 
 Can we get any *other* invariants of complex line bundles from *other*
-elements of the cohomology of CP^∞^? Not really: in any complex oriented
-cohomology theory, the cohomology ring of CP^∞^ is just the algebra of
+elements of the cohomology of CP^\infty^? Not really: in any complex oriented
+cohomology theory, the cohomology ring of CP^\infty^ is just the algebra of
 formal power series in the element c:
 
-h^\*^(CP^∞^) = R\[\[c\]\]
+h^\*^(CP^\infty^) = R\[\[c\]\]
 
 where R is the coefficient ring.
 
@@ -275,14 +275,14 @@ complex oriented cohomology theory. I'd love to talk about this, but it
 would be a digression from my main goal, which is to make elliptic
 cohomology at least halfway comprehensible to the amateur.
 
-So: last time I mentioned that CP^∞^ is an abelian topological group,
+So: last time I mentioned that CP^\infty^ is an abelian topological group,
 with a multiplication map
 
-m: CP^∞^ × CP^∞^ → CP^∞^
+m: CP^\infty^ × CP^\infty^\to CP^\infty^
 
 and an inverse map
 
-i: CP^∞^ → CP^∞^.
+i: CP^\infty^\to CP^\infty^.
 
 And I explained how these represent the operations of *tensoring* two
 line bundles and taking the *dual* of a line bundle, respectively. Now
@@ -290,27 +290,27 @@ let's see what we can do with these maps when we have a complex
 oriented cohomology theory. First of all, since cohomology is
 contravariant we get homomorphisms
 
-m^\*^: h^\*^(CP^∞^) → h^\*^(CP^∞^ × CP^∞^)
+m^\*^: h^\*^(CP^\infty^)\to h^\*^(CP^\infty^ × CP^\infty^)
 
 and
 
-i^\*^: h^\*^(CP^∞^) → h^\*^(CP^∞^)
+i^\*^: h^\*^(CP^\infty^)\to h^\*^(CP^\infty^)
 
 But as I already said, we have
 
-h^\*^(CP^∞^) = R\[\[c\]\]
+h^\*^(CP^\infty^) = R\[\[c\]\]
 
 and similarly we have
 
-h^\*^(CP^∞^ × CP^∞^) = R\[\[c\]\] ⊗ R\[\[c\]\]
+h^\*^(CP^\infty^ × CP^\infty^) = R\[\[c\]\] ⊗ R\[\[c\]\]
 
 where the product "⊗" on the right side is a slightly fattened-up
 version of the usual tensor product of algebras over R. So we really
 have homomorphisms
 
-m^\*^: R\[\[c\]\] → R\[\[c\]\] ⊗ R\[\[c\]\]
+m^\*^: R\[\[c\]\]\to R\[\[c\]\] ⊗ R\[\[c\]\]
 
-i^\*^: R\[\[c\]\] → R\[\[c\]\]
+i^\*^: R\[\[c\]\]\to R\[\[c\]\]
 
 which satisfy all the usual axioms for the product and inverse in an
 abelian group - but turned around backwards.
@@ -332,11 +332,11 @@ visualize guys in R\[\[c\]\] as formal power series on the line, where
 the line has been equipped with some abelian group structure, at least
 right near the origin. This group structure is what yields the coproduct
 
-m^\*^: R\[\[c\]\] → R\[\[c\]\] ⊗ R\[\[c\]\]
+m^\*^: R\[\[c\]\]\to R\[\[c\]\] ⊗ R\[\[c\]\]
 
 and antipode
 
-i^\*^: R\[\[c\]\] → R\[\[c\]\]
+i^\*^: R\[\[c\]\]\to R\[\[c\]\]
 
 But the real point is that this group structure tells us how to compute
 the generalized "first Chern class" of a tensor product of line

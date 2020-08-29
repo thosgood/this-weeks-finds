@@ -216,7 +216,7 @@ like this:
                              /     \
                             x---h-->z 
 
-where f: x → y, g: y → z, and h: x → z. And so on. In general, the
+where f: x\to y, g: y\to z, and h: x\to z. And so on. In general, the
 n-simplices of Nerve(C) are just the commutative diagrams in C that look
 like n-simplices!
 
@@ -230,7 +230,7 @@ topology. But first, let me give a slick abstract description of this
 "nerve" process that turns categories into simplicial sets. It's
 really a functor
 
-Nerve: Cat → SimpSet
+Nerve: Cat\to SimpSet
 
 going from the category of categories to the category of simplicial
 sets.
@@ -247,7 +247,7 @@ say there's a single morphism from x to y if x \<= y. Composition of
 morphisms works out automatically, thanks to the transitivity of "less
 than or equal to". We thus obtain a functor
 
-i: Δ → Cat
+i: Δ\to Cat
 
 taking each finite totally ordered set to its corresponding category,
 and each order-preserving map to its corresponding functor.
@@ -270,7 +270,7 @@ We can say all this even more slickly as follows: take
 
 and dualize it to obtain
 
-                     Nerve: Cat → SimpSet.
+                     Nerve: Cat\to SimpSet.
 
 I should also point out that topologists usually do this stuff with the
 topologist's version of Δ, which does not include the "empty
@@ -280,11 +280,11 @@ simplex".
 
 **K.** The Classifying Space of Category. If compose our new functor
 
-Nerve: Cat → SimpSet
+Nerve: Cat\to SimpSet
 
 with the "geometric realization" functor
 
-\| \|: SimpSet → Top
+| |: SimpSet\to Top
 
 defined in section E, we get a way to turn a category into a space,
 called its "classifying space". This trick was first used by Graeme
@@ -345,11 +345,11 @@ Given a monoidal category A with tensor product x and unit object 1, we
 define a monoid object a in A to be an object equipped with a
 "product"
 
-m: a x a → a
+m: a x a\to a
 
 and a "unit"
 
-i: 1 → a
+i: 1\to a
 
 which satisfy associativity and the left and right unit laws (written
 out as commutative diagrams). A monoid object in Set is just a monoid,

@@ -194,7 +194,7 @@ transform in the adjoint representation, so the elements of the gauge
 group that act trivially are precisely those in the *center* of the
 group. U(1) is abelian so its center is all of U(1). Elements of SU(n)
 that lie in the center must be diagonal. The n x n diagonal unitary
-matrices with determinant 1 are all of the form exp(2 π i / n), and
+matrices with determinant 1 are all of the form exp(2 \pi i / n), and
 these form a subgroup isomorphic to Z/n. It follows that the center of
 U(1) x SU(2) x SU(3) is U(1) x Z/2 x Z/3.
 
@@ -265,7 +265,7 @@ Okay, let's see which elements of U(1) x Z/2 x Z/3 act trivially on all
 these representations! Note first that the generator of Z/2 acts as
 multiplication by 1 on the isospin singlets and -1 on the isospin
 doublets. Similarly, the generator of Z/3 acts as multiplication by 1 on
-the leptons and exp(2 π i / 3) on the quarks. Thus everything in Z/2 x
+the leptons and exp(2 \pi i / 3) on the quarks. Thus everything in Z/2 x
 Z/3 acts as multiplication by some sixth root of unity. So to find
 elements of U(1) x Z/2 x Z/3 that act trivially, we only need to
 consider guys in U(1) that are sixth roots of unity.
@@ -275,17 +275,17 @@ I've described:
 
 
              ACTION OF            ACTION OF             ACTION OF
-           exp(π i / 3)            -1               exp(2 π i / 3)
+           exp(\pi i / 3)            -1               exp(2 \pi i / 3)
               IN U(1)             IN SU(2)               IN SU(3)
 
     e_L         -1                  -1                     1
     ν_L        -1                  -1                     1
-    u_L     exp(π i / 3)           -1               exp(2 π i / 3)
-    d_L     exp(π i / 3)           -1               exp(2 π i / 3)
+    u_L     exp(\pi i / 3)           -1               exp(2 \pi i / 3)
+    d_L     exp(\pi i / 3)           -1               exp(2 \pi i / 3)
 
     e_R          1                   1                     1
-    u_R     exp(4 π i / 3)          1               exp(2 π i / 3)
-    d_R     exp(4 π i / 3)          1               exp(2 π i / 3)
+    u_R     exp(4 \pi i / 3)          1               exp(2 \pi i / 3)
+    d_R     exp(4 \pi i / 3)          1               exp(2 \pi i / 3)
 
 
      H          -1                  -1                     1
@@ -297,7 +297,7 @@ See any?
 The most important one for our purposes is that if we multiply all three
 numbers in each row, we get 1.
 
-This means that the element (exp(π i / 3), -1, exp(2 π i / 3)) in U(1) x
+This means that the element (exp(\pi i / 3), -1, exp(2 \pi i / 3)) in U(1) x
 SU(2) x SU(3) acts trivially on all particles. This element generates a
 subgroup isomorphic to Z/6. If you think a bit harder you'll see there
 are no *other* patterns that would make any *more* elements of U(1) x

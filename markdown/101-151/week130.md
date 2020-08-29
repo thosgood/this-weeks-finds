@@ -334,16 +334,16 @@ measurement, Phys. Rev. Lett. 77 (1996), 4708-4711.
 decay at rest, Phys. Rev. C54 (1996) 2685-2708, preprint available as
 [nucl-ex/9605001](http://xxx.lanl.gov/abs/nucl-ex/9605001).
 
-Evidence for anti-muon-neutrino → anti-electron-neutrino oscillations
+Evidence for anti-muon-neutrino\to anti-electron-neutrino oscillations
 from the LSND experiment at LAMPF, Phys. Rev. Lett 77 (1996), 3082-3085,
 preprint available as
 [nucl-ex/9605003](http://xxx.lanl.gov/abs/nucl-ex/9605003).
 
-Evidence for muon-neutrino → electron-neutrino oscillations from LSND,
+Evidence for muon-neutrino\to electron-neutrino oscillations from LSND,
 Phys. Rev. Lett. 81 (1998), 1774-1777, preprint available as
 [nucl-ex/9709006](http://xxx.lanl.gov/abs/nucl-ex/9709006).
 
-Results on muon-neutrino → electron-neutrino oscillations from pion
+Results on muon-neutrino\to electron-neutrino oscillations from pion
 decay in flight, Phys. Rev. C58 (1998), 2489-2511.
 
 13) Super-Kamiokande collaboration, Evidence for oscillation of

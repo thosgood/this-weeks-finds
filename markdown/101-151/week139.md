@@ -122,7 +122,7 @@ or shrinks with increasing momentum.
 Consider the example of general relativity. We can figure out the upper
 critical dimension using a bit of dimensional analysis and handwaving.
 Let's work in units where Planck's constant and the speed of light are
-1. The Lagrangian is the Ricci scalar curvature divided by 8 π G, where
+1. The Lagrangian is the Ricci scalar curvature divided by 8 \pi G, where
 G is Newton's gravitational constant. We need to get something
 dimensionless when we integrate the Lagrangian over spacetime to get the
 action, since we exponentiate the action when doing path integrals in
