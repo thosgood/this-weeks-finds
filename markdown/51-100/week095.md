@@ -203,7 +203,7 @@ A vector in this is just a pair of vectors in $\mathrm{E}_8$. The other is
 called $\mathrm{D}_{16}^+$, which we get the same way as we got $\mathrm{E}_8$: we take a
 checkerboard lattice in 16 dimensions and stick in extra spheres in all
 the holes. More mathematically, to get $\mathrm{E}_8$ or $\mathrm{D}_{16}^+$, we take all vectors
-in $\mathbb{R}^8$ or \mathbb{R}^{16}$, respectively, whose coordinates are either *all*
+in $\mathbb{R}^8$ or $\mathbb{R}^{16}$, respectively, whose coordinates are either *all*
 integers or *all* half-integers, for which the coordinates add up to an
 even integer. (A "half-integer" is an integer plus $1/2$.)
 

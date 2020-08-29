@@ -206,7 +206,7 @@ by Dixon:
 
 3) Geoffrey Dixon, "Octonion X-product orbits", preprint available as [`hep-th/9410202`](http://xxx.lanl.gov/abs/hep-th/9410202).
 
-    "Octonion X-product and \mathrm{E}_8 lattices", preprint available as [`hep-th/9411063`](http://xxx.lanl.gov/abs/hep-th/9411063).
+    "Octonion X-product and $\mathrm{E}_8$ lattices", preprint available as [`hep-th/9411063`](http://xxx.lanl.gov/abs/hep-th/9411063).
 
     "Octonions: $\mathrm{E}_8$ lattice to $\Lambda 16$", preprint available as [`hep-th/9501007`](http://xxx.lanl.gov/abs/hep-th/9501007).
 

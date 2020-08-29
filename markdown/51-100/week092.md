@@ -197,9 +197,7 @@ $$
     \node[fill=white] at (1,0) {$x^*$};
     \node[label=above:{$U$}] at (0.5,0.57) {$\bullet$};
   \end{tikzpicture}
-$$
-and
-$$
+  \qquad\raisebox{2em}{\text{and}}\qquad
   \begin{tikzpicture}
     \begin{knot}
       \strand[thick] (0,0.5)

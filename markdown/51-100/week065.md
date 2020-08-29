@@ -115,7 +115,7 @@ octonions! Not too surprising, perhaps, since the octonions and $\mathrm{E}_8$ a
 both 8-dimensional, but it's still sorta neat. For the details, check
 out
 
-2) Geoffrey Dixon, "Octonion X-product and E8 lattices", preprint available as [`hep-th/9411063`](http://xxx.lanl.gov/abs/hep-th/9411063).
+2) Geoffrey Dixon, "Octonion X-product and $\mathrm{E}_8$ lattices", preprint available as [`hep-th/9411063`](http://xxx.lanl.gov/abs/hep-th/9411063).
 
 Briefly, this goes as follows. In ["Week 59"](#week59) we described
 a multiplication table for the "seven dwarves" --- a basis of the
