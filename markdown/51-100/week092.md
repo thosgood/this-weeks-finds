@@ -276,33 +276,52 @@ the dual representation. For more details on the math, see
 Now, let's see how to get a monad from an adjunction! We need to get $s$,
 $M$, and $I$ from $x$, $x^*$, $U$, and $C$. To do this, we first define $s$ to be
 $xx^*$. Then define $M$ to be
-
-                          \ \       / /
-                          x\ \x*  x/ /x*
-                            \ \   / /
-                             \ \ / /
-                              \ C /
-                               \ /
-                               | |
-                               | |
-                              x| |x*
-                               | |
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0.5)
+        to (0,0)
+        to [out=down,in=down,looseness=2] (1,0)
+        to (1,0.5);
+    \end{knot}
+    \node[fill=white] at (0,0) {$x^*$};
+    \node[fill=white] at (1,0) {$x$};
+    \node[label=below:{$C$}] at (0.5,-0.6) {$\bullet$};
+    \begin{knot}
+      \strand[thick] (-0.75,0.5)
+        to (-0.75,0)
+        to [out=down,in=up] (0,-2)
+        to (0,-2.5);
+      \strand[thick] (1.75,0.5)
+        to (1.75,0)
+        to [out=down,in=up] (1,-2)
+        to (1,-2.5);
+    \end{knot}
+    \node[fill=white] at (-0.75,0) {$x$};
+    \node[fill=white] at (1.75,0) {$x^*$};
+    \node[fill=white] at (0,-2) {$x$};
+    \node[fill=white] at (1,-2) {$x^*$};
+  \end{tikzpicture}
+$$
 Again, to really understand the rules of the game you need to learn a
 bit about string diagrams and 2-categories, but the basic idea is
 supposed to be simple: we can get two $xx^*$'s to turn into one $xx^*$ by
 letting an $x^*$ and $x$ annihilate each other!
 
 Finally, we define $I$ to be
-
-                                U
-                               / \
-                               | |
-                               | |
-                               | |
-                              x| |x*
-                               | |
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,-0.5)
+        to (0,0)
+        to [out=up,in=up,looseness=2] (1,0)
+        to (1,-0.5);
+    \end{knot}
+    \node[fill=white] at (0,0) {$x$};
+    \node[fill=white] at (1,0) {$x^*$};
+    \node[label=above:{$U$}] at (0.5,0.57) {$\bullet$};
+  \end{tikzpicture}
+$$
 In other words, an $xx^*$ can be created out of nothing since it's a
 "particle/antiparticle pair".
 
