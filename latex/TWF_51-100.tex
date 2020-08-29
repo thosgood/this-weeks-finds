@@ -4649,7 +4649,7 @@ it's all about.
   and \(n\), \(m\) are arbitrary integers. For example, we might
   identify all these points: \[
      \begin{tikzpicture}[scale=0.7]
-       \draw[->] (-2,0) to (4,0) node[label=below:{$\Re(z)$}]{};
+       \draw[->] (-3,0) to (4,0) node[label=below:{$\Re(z)$}]{};
        \draw[->] (0,-3) to (0,4) node[label=left:{$\Im(z)$}]{};
        \foreach \m in {-1,0,1,2}
        {
@@ -5199,7 +5199,7 @@ enormous shadow over mathematics. For example, consider the theory of
 modular functions. What are those? Well, consider a lattice in the
 complex plane, like \[
   \begin{tikzpicture}[scale=0.7]
-    \draw[->] (-2,0) to (4,0) node[label=below:{$\Re(z)$}]{};
+    \draw[->] (-3,0) to (4,0) node[label=below:{$\Re(z)$}]{};
     \draw[->] (0,-3) to (0,4) node[label=left:{$\Im(z)$}]{};
     \foreach \m in {-1,0,1,2}
     {
@@ -10629,8 +10629,8 @@ can draw this as follows: \[
         to [out=down,in=down,looseness=2] (2,1)
         to (2,2);
       \end{knot}
-      \node[fill=white] at (0,0.3) {$y$};
-      \node[fill=white] at (2,1.7) {$y$};
+      \node[fill=white] at (0,0.5) {$y$};
+      \node[fill=white] at (2,1.5) {$y$};
       \node[fill=white] at (2,1) {$y$};
       \node[fill=white] at (1,1) {$x$};
       \node[fill=white] at (0,1) {$y$};
@@ -10640,7 +10640,7 @@ can draw this as follows: \[
       \begin{knot}
         \strand[thick] (0,0) to (0,2);
       \end{knot}
-      \node[fill=white] at (0,0.3) {$y$};
+      \node[fill=white] at (0,0.5) {$y$};
       \node[fill=white] at (0,1.7) {$y$};
     \end{scope}
   \end{tikzpicture}
@@ -10749,8 +10749,8 @@ above, \[
         to [out=down,in=down,looseness=2] (2,1)
         to (2,2);
       \end{knot}
-      \node[fill=white] at (0,0.3) {$R$};
-      \node[fill=white] at (2,1.7) {$R$};
+      \node[fill=white] at (0,0.5) {$R$};
+      \node[fill=white] at (2,1.5) {$R$};
       \node[fill=white] at (2,1) {$R$};
       \node[fill=white] at (1,1) {$L$};
       \node[fill=white] at (0,1) {$R$};
@@ -10760,7 +10760,7 @@ above, \[
       \begin{knot}
         \strand[thick] (0,0) to (0,2);
       \end{knot}
-      \node[fill=white] at (0,0.3) {$R$};
+      \node[fill=white] at (0,0.5) {$R$};
       \node[fill=white] at (0,1.7) {$R$};
     \end{scope}
   \end{tikzpicture}
@@ -13827,8 +13827,8 @@ and \(x^*\), and two processes \(U\) and \(C\) called the ``unit'' and
         to [out=down,in=down,looseness=2] (2,1)
         to (2,2);
       \end{knot}
-      \node[fill=white] at (0,0.3) {$x^*$};
-      \node[fill=white] at (2,1.7) {$x^*$};
+      \node[fill=white] at (0,0.5) {$x^*$};
+      \node[fill=white] at (2,1.5) {$x^*$};
       \node[fill=white] at (1,1) {$x$};
       \node[label=above:{$U$}] at (0.5,1.57) {$\bullet$};
       \node[label=below:{$C$}] at (1.5,0.4) {$\bullet$};
@@ -15322,14 +15322,11 @@ understand this stuff.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\textbf{Addendum}
-
-\emph{November 13, 1996}
-
-Thanks to email from Yehuda Naveh and Bruce Smith I'm beginning to
-understand this stuff at the 13-year-old level it deserves. If you want
-to jump to the punchline, skip down to the stuff between double lines
---- that's the part I should have known ages ago!
+\textbf{Addendum} \emph{(November 13, 1996)}. Thanks to emails from
+Yehuda Naveh and Bruce Smith I'm beginning to understand this stuff at
+the 13-year-old level it deserves. If you want to jump to the punchline,
+skip down to the stuff between double lines --- that's the part I should
+have known ages ago!
 
 Here's the deal. Feynman's theorem deals with classical systems made
 only of a bunch of electrically charged point particles. Remember how it
@@ -15585,7 +15582,7 @@ compact manifold needs to be flat, which means it has to be a torus - a
 Euclidean space ``modulo a lattice''. Remember, a lattice in Euclidean
 space is something that looks sort of like this: \[
   \begin{tikzpicture}[scale=0.7]
-    \draw[->] (-2,0) to (4,0) node[label=below:{$x$}]{};
+    \draw[->] (-3,0) to (4,0) node[label=below:{$x$}]{};
     \draw[->] (0,-3) to (0,4) node[label=left:{$y$}]{};
     \foreach \m in {-1,0,1,2}
     {
@@ -15877,9 +15874,10 @@ Also, here's something Michael Thayer wrote on one of the newsgroups,
 and my reply:
 
 \begin{verbatim}
->John Baez wrote:
+> John Baez wrote:
 
->> In particular, thanks to the cannonball trick of Lucas, the vector
+>> In particular, thanks to the cannonball trick of Lucas,
+>> the vector
 >>
 >>                v = (70,0,1,2,3,4,...,24)
 >>
@@ -15887,10 +15885,11 @@ and my reply:
 >>
 >>                     v.v = 0
 
->I don't see what is so significant about the vector v.  For instance,
->the 10 dimensional vector (3,1,1,1,1,1,1,1,1,1) is also light like, and
->you make no big deal about that.  Is there some reason why the ascending
->values in v are important?
+> I don't see what is so significant about the vector v.
+> For instance, the 10 dimensional vector
+> (3,1,1,1,1,1,1,1,1,1) is also light like, and you make
+> no big deal about that. Is there some reason why the
+> ascending values in v are important?
 \end{verbatim}
 
 Yikes! Thanks for catching that massive hole in the exposition.

@@ -269,11 +269,8 @@ understand this stuff.
 
 ------------------------------------------------------------------------
 
-**Addendum**
-
-_November 13, 1996_
-
-Thanks to email from Yehuda Naveh and Bruce Smith I'm beginning to
+**Addendum** _(November 13, 1996)_.
+Thanks to emails from Yehuda Naveh and Bruce Smith I'm beginning to
 understand this stuff at the 13-year-old level it deserves. If you want
 to jump to the punchline, skip down to the stuff between double lines ---
 that's the part I should have known ages ago!

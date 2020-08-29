@@ -108,7 +108,7 @@ Euclidean space "modulo a lattice". Remember, a lattice in Euclidean
 space is something that looks sort of like this:
 $$
   \begin{tikzpicture}[scale=0.7]
-    \draw[->] (-2,0) to (4,0) node[label=below:{$x$}]{};
+    \draw[->] (-3,0) to (4,0) node[label=below:{$x$}]{};
     \draw[->] (0,-3) to (0,4) node[label=left:{$y$}]{};
     \foreach \m in {-1,0,1,2}
     {
@@ -339,9 +339,10 @@ which is the sort of thing folks know how to do.
 Also, here's something Michael Thayer wrote on one of the newsgroups,
 and my reply:
 
-    >John Baez wrote:
+    > John Baez wrote:
 
-    >> In particular, thanks to the cannonball trick of Lucas, the vector
+    >> In particular, thanks to the cannonball trick of Lucas,
+    >> the vector
     >>
     >>                v = (70,0,1,2,3,4,...,24)
     >>
@@ -349,10 +350,11 @@ and my reply:
     >>
     >>                     v.v = 0
 
-    >I don't see what is so significant about the vector v.  For instance,
-    >the 10 dimensional vector (3,1,1,1,1,1,1,1,1,1) is also light like, and
-    >you make no big deal about that.  Is there some reason why the ascending
-    >values in v are important?
+    > I don't see what is so significant about the vector v.
+    > For instance, the 10 dimensional vector
+    > (3,1,1,1,1,1,1,1,1,1) is also light like, and you make
+    > no big deal about that. Is there some reason why the
+    > ascending values in v are important?
 
 Yikes! Thanks for catching that massive hole in the exposition.
 

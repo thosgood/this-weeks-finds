@@ -109,7 +109,7 @@ modular functions. What are those? Well, consider a lattice in the
 complex plane, like
 $$
   \begin{tikzpicture}[scale=0.7]
-    \draw[->] (-2,0) to (4,0) node[label=below:{$\Re(z)$}]{};
+    \draw[->] (-3,0) to (4,0) node[label=below:{$\Re(z)$}]{};
     \draw[->] (0,-3) to (0,4) node[label=left:{$\Im(z)$}]{};
     \foreach \m in {-1,0,1,2}
     {
