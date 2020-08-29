@@ -1,4 +1,4 @@
-# DATE {#week101}
+# April 9, 1997 {#week101}
 
 Darwinian evolution through natural selection is an incredibly powerful
 way to explain the emergence of complex organized structures. However,
