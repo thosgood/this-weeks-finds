@@ -116,11 +116,11 @@ about it properly. Quite a surprise.
 
 I've been working with Ashtekar and Krasnov for a couple of years now
 on computing the entropy of black holes using loop quantum gravity. I
-talked about this in "[week112](week112.html)", right after we came
+talked about this in ["Week 112"](#week112), right after we came
 out with a short paper sketching the calculation. Now we're almost done
 with the detailed paper. In the meantime, Ashtekar has written a couple
 of pedagogical accounts explaining the basic idea. I mentioned one he
-wrote with Krasnov in "[week120](week120.html)", and here's another:
+wrote with Krasnov in ["Week 120"](#week120), and here's another:
 
 6) Abhay Ashtekar, Interface of general relativity, quantum physics and
 statistical mechanics: some recent developments, to appear in Annalen

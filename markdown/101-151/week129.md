@@ -77,9 +77,9 @@ more complicated symmetry groups. These are related to \`equivariant
 cohomology' - more on that later.
 
 I talked about the spin foam approach to quantum gravity. I've already
-discussed this in "[week113](week113.html)",
-"[week114](week114.html)", "[week120](week120.html)", and
-"[week128](week128.html)", so there's no need to say more here.
+discussed this in ["Week 113"](#week113),
+["Week 114"](#week114), ["Week 120"](#week120), and
+["Week 128"](#week128), so there's no need to say more here.
 
 Cesar Gomez gave a wonderful introduction to string theory, starting
 from scratch and rapidly working up to T-duality and D-branes. The idea

@@ -18,7 +18,7 @@ various other things next week.
 
 A lot of the buzz in our session concerned the new "spin foam"
 approach to quantum gravity which I discussed in
-"[week113](week113.html)". The big questions are: how do you test this
+["Week 113"](#week113). The big questions are: how do you test this
 approach without impractical computer simulations? Lee Smolin's paper
 below suggests one way. Should you only sum over spin foams that are
 dual to a particular triangulation of spacetime, or should you sum over
@@ -138,7 +138,7 @@ better worked out than the new spin foam stuff. Abhay Ashtekar gave an
 overview of these kinematical issues in his talk on "quantum Riemannian
 geometry", and Kirill Krasnov described how our understanding of these
 already allows us to compute the entropy of black holes (see
-"[week112](week112.html)"). Here it's worth mentioning that the
+["Week 112"](#week112)). Here it's worth mentioning that the
 second part of Ashtekar's paper with Jerzy Lewandowski is finally out:
 
 6) Abhay Ashtekar and Jerzy Lewandowski, Quantum theory of geometry II:
@@ -172,7 +172,7 @@ to implement the "Hamiltonian constraint" as an operator on the
 Hilbert space of kinematical states, so you can write down the
 Wheeler-deWitt equation, which is, quite roughly speaking, the quantum
 gravity analog of Schrodinger's equation. (For a summary of this
-approach, try "[week43](week43.html)".)
+approach, try ["Week 43"](#week43).)
 
 The most careful attempt to do this so far is the work of Thiemann:
 

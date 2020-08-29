@@ -59,7 +59,7 @@ the Poincaré conjecture remains uncracked.
 
 This is a conjecture about elliptic curves, and indirectly, number
 theory. For a precise definition of an elliptic curve I'll refer you to
-"[week13](week13.html)" and "[week125](week125.html)", but
+["Week 13"](#week13) and ["Week 125"](#week125), but
 basically, it's a torus-shaped surface described by an algebraic
 equation like this:
 
@@ -167,7 +167,7 @@ isolated horizons and black hole entropy, preprint available at
 <http://math.ucr.edu/home/baez/black2.ps>
 
 I explained an earlier version of this paper in
-"[week112](week112.html)", but now I want to give a more technical
+["Week 112"](#week112), but now I want to give a more technical
 explanation. So:
 
 The goal of this paper is to understand the geometry of black holes in a
@@ -178,7 +178,7 @@ geometry of the event horizon, since we wish to compute the entropy of a
 black hole by counting the microstates of its horizon.
 
 Perhaps I should say a word about why we want to do this. As explained
-in "[week111](week111.html)", Bekenstein and Hawking found a formula
+in ["Week 111"](#week111), Bekenstein and Hawking found a formula
 relating the entropy S of a black hole to the area A of its event
 horizon. It is very simple:
 
@@ -236,7 +236,7 @@ radiation falling in for the stretch of time under consideration. To
 make this concept precise we need to impose some boundary conditions on
 the metric and other fields at the horizon. These are most elegantly
 described using Penrose's spinor formalism for general relativity, as
-discussed in "[week109](week109.html)". With the help of these
+discussed in ["Week 109"](#week109). With the help of these
 boundary conditions, we can start with the usual Lagrangian for general
 relativity, turn the crank, and work out a description of the phase
 space for an isolated black hole.
@@ -305,8 +305,8 @@ polynomial by doing a path integral in SU(2) Chern-Simons theory. It
 also turns out that Chern-Simons theory is deeply related to quantum
 gravity in 3d spacetime. For quite a while, various people have hoped
 that Chern-Simons theory was important for quantum gravity in 4d
-spacetime, too - see for example "[week56](week56.html)" and
-"[week57](week57.html)". However, there have been serious technical
+spacetime, too - see for example ["Week 56"](#week56) and
+["Week 57"](#week57). However, there have been serious technical
 problems in most attempts to relate Chern-Simons theory to physically
 realistic problems in 4d quantum gravity. I think we may finally be
 straightening out some of these problems! But the ironic twist is that
@@ -360,7 +360,7 @@ So: what do quantum states in the resulting theory look like? I'll
 describe a basis of states for you\....
 
 Outside the black hole, they are described by spin networks. I've
-discussed these in "[week110](week110.html)" and elsewhere, but let me
+discussed these in ["Week 110"](#week110) and elsewhere, but let me
 just recall the basics. A spin network is a graph whose edges are
 labelled by irreducible representations of SU(2), or in other words
 spins j = 0, 1/2, 1, and so on. Their vertices are labelled as well, but
@@ -515,7 +515,7 @@ Smale's webpage,
 <http://www.cityu.edu.hk/ma/staff/smale/bibliography.html>
 
 I believe this also appears in the book edited by Arnold mentioned at
-the beginning of "[week147](week147.html)".
+the beginning of ["Week 147"](#week147).
 
 ------------------------------------------------------------------------
 

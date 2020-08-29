@@ -105,7 +105,7 @@ which seem to power quasars and other active galactic nuclei - but it's
 delightful to find them in such large numbers. It might even be taken as
 evidence for Smolin's hypothesis that the universe is optimized for
 black hole production thanks to a process of Darwinian evolution (see
-"[week31](week31.html)" and "[week33](week33.html) for details.)
+["Week 31"](#week31) and "[week33](week33.html) for details.)
 
 For more, try this:
 
@@ -120,9 +120,9 @@ Okay\... I've been sort of goofing off in the last few Weeks, but now I
 want to return to some hardcore mathematics. In particular, I want to
 talk about n-categories and homotopy theory, so I'm going to pick up
 "The Tale of n-Categories" roughly where I left off in
-"[week100](week100.html)", and start connecting it to the little
-introduction to homotopy theory I gave from "[week115](week115.html)"
-to "[week119](week119.html)".
+["Week 100"](#week100), and start connecting it to the little
+introduction to homotopy theory I gave from ["Week 115"](#week115)
+to ["Week 119"](#week119).
 
 As I've said many times, the goal of n-category theory is to eliminate
 equations from mathematics, or at least to be able to postpone

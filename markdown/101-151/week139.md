@@ -175,7 +175,7 @@ with increasing momentum. In this case we say our theory is
 "asymptotically free". For example, this is true for the strong force
 in the Standard Model, so in collisions at high momentum quarks and
 gluons act a lot like free particles. (For more on this, try
-"[week94](week94.html)".)
+["Week 94"](#week94).)
 
 On the other hand, if a \> 0, the coupling constant G *increases* with
 increasing momentum. To make matters worse, it becomes INFINITE at a
@@ -262,7 +262,7 @@ simulate quantum gravity by chopping up a 4-dimensional torus into 16 x
 the obvious way, and then doing a Monte Carlo calculation of the path
 integral using the Regge calculus, which is a discretized version of
 general relativity suited to triangulated manifolds (see
-"[week119](week119.html)" for details). Their goal was to work out how
+["Week 119"](#week119) for details). Their goal was to work out how
 Newton's constant varies with distance. They did it by calculating
 correlations between Wilson loops that wrap around the torus. They
 explain how you can deduce Newton's constant from this information, but

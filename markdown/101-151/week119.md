@@ -97,7 +97,7 @@ the massive fermions have two helicity states, which we'll refer to as
 (Here I am discussing the Standard Model in its classic form. I'm
 ignoring any modifications needed to deal with a possible nonzero
 neutrino mass. For more on Standard Model, neutrino mass and different
-kinds of spinors, see "[week93](week93.html)".)
+kinds of spinors, see ["Week 93"](#week93).)
 
 Okay. The Standard Model lumps the left-handed neutrino and the
 left-handed electron into a single irreducible representation of SU(3) x
@@ -238,8 +238,8 @@ series"!
 
 I don't have the energy to explain Dynkin diagrams and the ABCDEFG
 classification of simple Lie groups here, but luckily I've already done
-that, so you can just look at "[week62](week62.html)" -
-"[week65](week65.html)" to learn about that. The point is, there is an
+that, so you can just look at ["Week 62"](#week62) -
+["Week 65"](#week65) to learn about that. The point is, there is an
 infinite series of simple Lie groups associated to rotations in real
 vector spaces - the SO(n) groups, also called the B and D series. There
 is an infinite series of them associated to rotations in complex vector
@@ -248,8 +248,8 @@ infintie series of them associated to rotations in quaternionic vector
 spaces - the Sp(n) groups, also called the C series. And there is a
 ragged band of 5 exceptions which are related to the octonions, called
 G2, F4, E6, E7, and E8. I'm sort of fascinated by these - see
-"[week90](week90.html)", "[week91](week91.html)", and
-"[week106](week106.html)" for more - so I was extremely delighted to
+["Week 90"](#week90), ["Week 91"](#week91), and
+["Week 106"](#week106) for more - so I was extremely delighted to
 find that the E series plays a special role in grand unified theories.
 
 Now, people usually only talk about E6, E7, and E8, but one can work
@@ -326,7 +326,7 @@ tell me. This could be an important clue.
 
 Now, this stuff about grand unified theories and the E series is one of
 the reasons why people like string theory, because heterotic string
-theory is closely related to E8 (see "[week95](week95.html)").
+theory is closely related to E8 (see ["Week 95"](#week95)).
 However, I must now tell you the *bad* news about grand unified
 theories. And it is *very* bad.
 

@@ -260,7 +260,7 @@ This is the basic fixed point property of the natural numbers.
 At this point some of you may be squirming\... this stuff looks a bit
 weird when you first see it. To make it more rigorous I need to bring in
 some category theory, so I'll assume you've read
-"[week73](week73.html)" and "[week76](week76.html)" where I
+["Week 73"](#week73) and ["Week 76"](#week76) where I
 explained categories and functors and isomorphisms.
 
 If you've got a function F: S → S from some set to itself, a fixed

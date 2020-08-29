@@ -115,7 +115,7 @@ precise mathematical model. Quite a bit later, Hawking and others
 figured out how to do calculations involving virtual wormholes, virtual
 black holes and such using a technique called "Euclidean quantum
 gravity". Pushed to its extremes, this leads to a theory of spacetime
-foam, though not yet a rigorous one (see "[week67](week67.html)").
+foam, though not yet a rigorous one (see ["Week 67"](#week67)).
 
 But long before that, Newman, Penrose, and others started finding
 interesting relationships between general relativity and the mathematics
@@ -160,7 +160,7 @@ used of these ideas. It's all about the rotation group in 3 dimensions
 and the Lorentz group in 3+1 dimensions (by which we mean 3 space
 dimensions and 1 time dimension). A lot of physics is based on these
 groups. For general stuff about rotation groups and spinors in *any*
-dimension, see "[week61](week61.html)" and "[week93](week93.html)".
+dimension, see ["Week 61"](#week61) and ["Week 93"](#week93).
 Here I'll be concentrating on stuff that only works when we start with
 \*3\* space dimensions.
 

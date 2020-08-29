@@ -229,8 +229,8 @@ curve" is the space of solutions of an equation like this:
 y^2^ = x^3^ + ax + b
 
 They come up naturally in string theory, and I've talked about them
-already in "[week13](week13.html)" and "[week124](week124.html)" -
-"[week127](week127.html)". If all the variables in sight are complex
+already in ["Week 13"](#week13) and ["Week 124"](#week124) -
+["Week 127"](#week127). If all the variables in sight are complex
 numbers, an elliptic curve looks like a torus, but number theorists like
 to consider the case where the coefficients a and b are rational. By a
 simple change of variables you can then get the coefficients to be
@@ -253,7 +253,7 @@ Shimura-Taniyama-Weil conjecture states that all elliptic curves are
 modular.
 
 Okay, so what does "modular" mean? Well, for this we need a little
-digression on modular forms. In "[week125](week125.html)" I described
+digression on modular forms. In ["Week 125"](#week125) I described
 the moduli space of elliptic curves, which is the space of all different
 shapes an elliptic curve can have. I showed that this space was
 H/SL(2,Z), where H is the upper half of the complex plane and SL(2,Z) is

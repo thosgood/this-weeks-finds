@@ -32,7 +32,7 @@ space: a primer, preprint available as
 I haven't read it yet, since I'm still in a rather low-tech portion of
 the globe, but it gives simplified derivations of some of the basic
 results of loop quantum gravity, like the formula for the eigenvalues of
-the area operator. As explained in "[week110](week110.html)", one of
+the area operator. As explained in ["Week 110"](#week110), one of
 the main predictions of loop quantum gravity is that geometrical
 observables such as the area of any surface take on a discrete spectrum
 of values, much like the energy levels of a hydrogen atom. At first the
@@ -51,7 +51,7 @@ preprint available as
 
 This is especially interesting because it fits in with other pieces of
 evidence that fermions could simply be the ends of wormholes - an old
-idea of John Wheeler (see "[week109](week109.html)").
+idea of John Wheeler (see ["Week 109"](#week109)).
 
 I should also mention some other good review articles that have turned
 up recently. Rovelli has written a survey comparing string theory, the
@@ -74,7 +74,7 @@ the usual fields appearing in general relativity. In the Regge calculus
 you triangulate your 4-dimensional spacetime - i.e., chop it into a
 bunch of 4-dimensional simplices - and use the lengths of the edges of
 these simplices as your basic variables. (For more details see
-"[week120](week120.html)".) In the dynamical triangulations approach
+["Week 120"](#week120).) In the dynamical triangulations approach
 you also triangulate spacetime, but not in a fixed way - you consider
 all possible triangulations. However, you assume all the edges of all
 the simplices have the same length - the Planck length, say. Thus all

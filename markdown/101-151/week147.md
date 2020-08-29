@@ -41,7 +41,7 @@ preprint available as
 So let me talk about this stuff a bit\....
 
 As usual, the underlying theme of this paper is categorification. I've
-talked about this a lot already - e.g. in "[week121](week121.html)" -
+talked about this a lot already - e.g. in ["Week 121"](#week121) -
 so I'll assume you remember that when we categorify, we use this
 analogy:
 
@@ -87,7 +87,7 @@ This may seem like an excessively detailed "picture proof" that 1+2
 indeed equals 2+1, perhaps suitable for not-too-bright kindergarteners.
 But in fact it's just a hop, skip and a jump from here to heavy-duty
 stuff like the homotopy groups of spheres. I sketched how this works in
-"[week102](week102.html)" so I won't do so again here. The point is,
+["Week 102"](#week102) so I won't do so again here. The point is,
 after we categorify, elementary math turns out to be pretty powerful!
 
 Now, let me make this idea of "categorifying the natural numbers" a
@@ -100,7 +100,7 @@ All the basic arithmetic operations on N come from operations on FinSet.
 I've already noted how addition comes from disjoint union. Disjoint
 union is a special case of what category theorists call the
 "coproduct", which makes sense for a bunch of categories - see
-"[week99](week99.html)" for the general definition. Similarly,
+["Week 99"](#week99) for the general definition. Similarly,
 multiplication comes from the Cartesian product of finite sets, which is
 a special case of what category theorists call the "product". To get
 the definition of a product, you just take the definition of a coproduct
@@ -148,7 +148,7 @@ Lecture Notes in Mathematics 1488, Springer Verlag, Berlin, 1991, pp.
 Rendus Mathematiques de l'Academie des Sciences, La Societe Royale du
 Canada, VII (1985), 285-290.
 
-See also "[week102](week102.html)" for more\....
+See also ["Week 102"](#week102) for more\....
 
 But I don't want to talk about negative sets right now! Instead, I want
 to talk about *fractional* sets. It may seem odd to tackle division
@@ -278,7 +278,7 @@ G-bundle over it
 G → EG → BG
 
 whose total space EG is contractible. I described how to construct the
-classifying space in "[week117](week117.html)", at least in the case
+classifying space in ["Week 117"](#week117), at least in the case
 of a discrete group G, but I didn't say much about why it's so great.
 The main reason it's great is that *any* G-bundle over *any* space is a
 pullback of the bundle EG over BG. But right now, what I want to note is
@@ -375,7 +375,7 @@ the Euler characteristic of moduli spaces, and the Casson invariant,
 Comm. Math. Phys. 152 (1993), 41-71.
 
 and the references therein. (I discussed this paper a bit in
-"[week51](week51.html)".)
+["Week 51"](#week51).)
 
 However, there are still challenging tests to the theory that homotopy
 cardinality and Euler characteristic are secretly the same. Here's a
@@ -396,7 +396,7 @@ series
 
 1 + 2 + 4 + 8 + 16 + \... = 1/(1 - 2) = -1
 
-but in "[week126](week126.html)" I talked about a more sophisticated
+but in ["Week 126"](#week126) I talked about a more sophisticated
 example that is very important in string theory:
 
 1 + 2 + 3 + 4 + 5 + \... = ζ(-1) = -1/12

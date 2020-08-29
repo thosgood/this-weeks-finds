@@ -29,7 +29,7 @@ important one was this:
 1) James Hartle and Stephen Hawking, Path integral derivation of black
 hole radiance, Phys. Rev. D13 (1976), 2188.
 
-As I explained in "[week111](week111.html)", Hawking wrote a paper in
+As I explained in ["Week 111"](#week111), Hawking wrote a paper in
 1975 establishing a remarkable link between black hole physics and
 thermodynamics. He showed that a black hole emits radiation just as if
 it had a temperature inversely proportional to its mass. However, this
@@ -135,7 +135,7 @@ Finally, of course, ħ is Planck's constant.
 
 The idea is that, formally at least, this wavefunction is a solution of
 the Wheeler-DeWitt equation, which is the basic equation of quantum
-gravity (see "[week43](week43.html)").
+gravity (see ["Week 43"](#week43)).
 
 The measure "dg" is, unfortunately, ill-defined! In other words, one
 needs to use lots of clever tricks to extract physics from this formula,

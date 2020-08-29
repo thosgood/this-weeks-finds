@@ -80,7 +80,7 @@ spacetime. If we slice such a spin foam, we generically get a spin
 network dual to a triangulation of space!
 
 I discussed Barbieri's work on such spin networks in
-"[week110](week110.html)". A spin network like this has a nice
+["Week 110"](#week110). A spin network like this has a nice
 interpretation as a "3-dimensional quantum geometry", that is, a
 quantum state of the geometry of space. Each spin network edge labelled
 by spin j gives an area proportional to sqrt(j(j+1)) to the triangle it
@@ -151,8 +151,8 @@ together.
 
 Quantum gravity is related to a simpler theory called BF theory, which
 has a spin foam formulation known as the Crane-Yetter model - see
-"[week36](week36.html)", "[week58](week58.html)", and
-"[week98](week98.html)". There are various clues suggesting that that
+["Week 36"](#week36), ["Week 58"](#week58), and
+["Week 98"](#week98). There are various clues suggesting that that
 the numbers for faces and edges - the "propagators" - should be
 computed in quantum gravity just as in the Crane-Yetter model. The
 problem is the vertex amplitudes! The vertices are crucial because these
@@ -174,7 +174,7 @@ quite gel. In May I asked John Barrett about the vertex amplitudes at a
 conference in Warsaw. He said he couldn't guess them. I couldn't get
 *anyone* to guess an answer. In June, at a quantum gravity workshop in
 Vienna, I asked Roger Penrose a bunch of questions about spinors, hoping
-that this might be the key - see "[week109](week109.html)". I learned
+that this might be the key - see ["Week 109"](#week109). I learned
 a lot of interesting stuff, but I didn't find the holy grail.
 
 I kept on thinking. I started getting some promising ideas, and by the
@@ -227,7 +227,7 @@ possible geometries of the 4-simplex. Then you need to quantize this
 phase space, obtaining the "Hilbert space of a quantum 4-simplex".
 Then you need to note that there's a special linear functional on this
 Hilbert space, called the "Penrose evaluation" - see
-"[week110](week110.html)". Putting all this together gives the vertex
+["Week 110"](#week110). Putting all this together gives the vertex
 amplitudes for quantum gravity\... we hope.
 
 Anyway, back to my little personal story\....
@@ -236,7 +236,7 @@ Though I'd been working on my paper before Barrett and Crane started,
 and they finished before me, Michael Reisenberger started one even
 earlier and finished even later! Indeed, he has been working on a spin
 foam model of quantum gravity for several years now - see
-"[week86](week86.html)". He took a purely left-handed SU(2) approach,
+["Week 86"](#week86). He took a purely left-handed SU(2) approach,
 a bit different what I'd been trying, but closely related. He told lots
 of people about it, but unfortunately he's very slow to publish.
 
@@ -287,7 +287,7 @@ Also, all the work cited above deals with so-called "Euclidean"
 quantum gravity - that's why it uses the double cover of the rotation
 group SO(4). For "Lorentzian" quantum gravity we'd need instead to
 use the double cover of the Lorentz group SO(3,1). This group is
-isomorphic to SL(2,C). As explained in "[week109](week109.html)", the
+isomorphic to SL(2,C). As explained in ["Week 109"](#week109), the
 finite-dimensional irreducible representations of SL(2,C) are also
 described by pairs of spins, so the Lorentzian theory should be similar
 to the Euclidean theory. However, most work so far has dealt with the

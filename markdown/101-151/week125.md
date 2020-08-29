@@ -30,7 +30,7 @@ with 6-fold symmetry. Now it's time for me to start backing up those
 claims.
 
 First I need to talk a bit about lattices and SL(2,Z). As I explained in
-"[week66](week66.html)", a lattice in the complex plane consists of
+["Week 66"](#week66), a lattice in the complex plane consists of
 all points that are integer linear combinations of two complex numbers,
 say ω~1~ and ω~2~. However, we can change these numbers without changing
 the lattice by letting

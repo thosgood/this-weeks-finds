@@ -50,8 +50,8 @@ homogeneous space, preprint available as
 [hep-th/9907154](http://xxx.lanl.gov/abs/hep-th/9907154).
 
 The Barrett-Crane model is a very interesting theory of quantum gravity.
-I've described it already in "[week113](week113.html)",
-"[week120](week120.html)" and "[week128](week128.html)", so I won't
+I've described it already in ["Week 113"](#week113),
+["Week 120"](#week120) and ["Week 128"](#week128), so I won't
 go into much detail about it - I'll just plunge in\....
 
 The original Barrett-Crane model involved a fixed triangulation of
@@ -94,10 +94,10 @@ everything about their geometry with perfect precision.
 
 Let me digress for a minute and sketch the history of this stuff. The
 quantum tetrahedron in 3 dimensions was invented by Barbieri - see
-"[week110](week110.html)". It quickly became important in the study of
+["Week 110"](#week110). It quickly became important in the study of
 spin foam models. Then Barrett and I systematically worked out how to
 construct the quantum tetrahedron in 3 and 4 dimensions using geometric
-quantization - see "[week134](week134.html)". Subsequently, Freidel
+quantization - see ["Week 134"](#week134). Subsequently, Freidel
 and Krasnov figured out how to generalize this stuff to higher
 dimensions:
 

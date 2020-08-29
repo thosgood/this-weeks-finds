@@ -49,7 +49,7 @@ elliptic curves!
 If you're interested to see how Fermat's last theorem was reduced to a
 problem about elliptic curves - the so-called Shimura-Taniyama-Weil
 conjecture - you can look at the textbooks on elliptic curves listed in
-"[week13](week13.html)". But I won't say anything about this, since I
+["Week 13"](#week13). But I won't say anything about this, since I
 don't understand it. Instead, I want to talk about how elliptic curves
 show up in string theory. For more on how these two applications fit
 together, try:
@@ -96,7 +96,7 @@ What are these magical properties of the number 24? Well,
 
 is itself a perfect square, and 24 is the only integer with this
 property besides silly ones like 0 and 1. As described in
-"[week95](week95.html)", this has some very profound relationships to
+["Week 95"](#week95), this has some very profound relationships to
 string theory. Unfortunately, I don't know any way to deduce from this
 that bosonic string theory *works best* in 26 dimensions.
 
@@ -195,7 +195,7 @@ November 1998, 40-41. Also available at
 
 Gibbs asked me to come up with a simple explanation of the j invariant
 for elliptic curves; you can judge how well I succeeded. For a more
-detailed attempt to do the same thing, see "[week66](week66.html)",
+detailed attempt to do the same thing, see ["Week 66"](#week66),
 which also has more references on the Monster group. By the way, John
 McKay didn't actually make his famous discovery relating the j
 invariant and Monster while reading a 19th-century book on elliptic
@@ -311,7 +311,7 @@ Society, University Lecture Series vol. 10, 1997.
 
 And then of course there is string theory proper. How do you learn that?
 There's always the bible by Green, Schwarz and Witten (see
-"[week118](week118.html)"), but a lot of stuff has happened since that
+["Week 118"](#week118)), but a lot of stuff has happened since that
 was written. Luckily, Joseph Polchinski has come out with a "new
 testament"; I haven't seen it yet but physicists say it's very good:
 

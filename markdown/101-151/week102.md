@@ -1,6 +1,6 @@
 week102
 
-In "[week101](week101.html)" I claimed to have figured out the real
+In ["Week 101"](#week101) I claimed to have figured out the real
 reason for the importance of the number 24 in string theory. Now I'm
 not so sure - some pieces of the puzzle that I thought would fit
 together don't seem to be fitting. Maybe if I explain what I know so
@@ -281,7 +281,7 @@ them. But if we avoid the sin of mistaking isomorphism for equality we
 can think of them as a category.
 
 I already began to explain this in my parable about the shepherd in
-"[week99](week99.html)". The shepherd started with the category of
+["Week 99"](#week99). The shepherd started with the category of
 finite sets and "decategorified" it to obtain the set of natural
 numbers, associating to each finite set a natural number, its number of
 elements. Taking disjoint unions of sets corresponds to addition, the
@@ -294,7 +294,7 @@ Well, we can imagine finite sets that have both "positive" and
 the number of positive elements minus the number of negative elements.
 This is a bit weird if we're talking about sheep, but perhaps not so
 weird if we talk about positrons and electrons, which can annihilate
-each other. (In "[week92](week92.html)" I explain what I'm hinting at
+each other. (In ["Week 92"](#week92) I explain what I'm hinting at
 here: the relation between antiparticles and adjunctions.)
 
 Topologists prefer to speak of "positively and negatively oriented
@@ -326,7 +326,7 @@ this:
 These let us cancel or create positive and negative points in pairs.
 Voila! The categorified integers! Just as the integers form a monoid
 under addition, these form a monoidal category (see
-"[week89](week89.html)" for these concepts). The monoidal structure
+["Week 89"](#week89) for these concepts). The monoidal structure
 here is disjoint union, which we can denote with a plus sign if we like.
 Similarly, we can write the empty set as 0.
 
@@ -404,7 +404,7 @@ and
 
 then all morphisms become invertible, so we have not just a monoidal
 category but a monoidal groupoid - a groupoid being a category with all
-morphisms invertible (see "[week74](week74.html)"). In fact, not only
+morphisms invertible (see ["Week 74"](#week74)). In fact, not only
 are morphisms invertible, so are all objects! By this I mean that every
 object x has an object -x such that x + -x and -x + x are isomorphic to
 0. For example, if x is the positively oriented point, -x is the
@@ -459,7 +459,7 @@ Hmm. They sure don't *look* equal. We must be doing something wrong.
 What are we doing wrong? We're committing the sin of
 decategorification: treating isomorphisms as equations! We should treat
 the integers not as a mere category, but as a 2-category! See
-"[week80](week80.html)" for the precise definition of this concept;
+["Week 80"](#week80) for the precise definition of this concept;
 for now, it's enough to say that a 2-category has things called
 2-morphisms going between morphisms. If we treat the integers as a
 2-category, we can say there is a 2-morphism going from
@@ -501,7 +501,7 @@ actually happening here. Normally we treat the integers as the free
 group on one generator, or else the free commutative group on one
 generator. But groups and commutative groups are just the tip of the
 iceberg! The following picture is similar to that in
-"[week74](week74.html)":
+["Week 74"](#week74):
 
                      k-tuply groupal n-groupoids
 
@@ -576,7 +576,7 @@ that the pictures above started looking a bit like strings! Hmm\....
 Here's the idea, as far as I understand it. Presumably all but the
 hardy have stopped reading this article by now, so I will pull out all
 the stops. The string worldsheet is a Riemann surface so we'll need
-some stuff about Riemann surfaces from "[week28](week28.html)". Let
+some stuff about Riemann surfaces from ["Week 28"](#week28). Let
 M(g,n) be the moduli space of Riemann surfaces with genus g and n
 punctures, and let G(g,n) be the corresponding mapping class group.
 Since M(g,n) is the quotient of Teichmueller space by G(g,n) and

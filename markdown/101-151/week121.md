@@ -323,7 +323,7 @@ described algebraically using a certain "braided monoidal 2-category
 with duals". These so-called "2-tangles" are particularly interesting
 to me because of their relation to spin foam models of quantum gravity,
 which are also all about surfaces in 4-space. For references, see
-"[week103](week103.html)". But if you want to learn about more about
+["Week 103"](#week103). But if you want to learn about more about
 this, you couldn't do better than to start with:
 
 3) J. S. Carter and M. Saito, Knotted Surfaces and Their Diagrams,

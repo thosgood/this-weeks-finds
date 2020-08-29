@@ -153,7 +153,7 @@ matter is to explain Euler's mysterious formula
 
 1 + 2 + 3 + ... = -1/12
 
-As I said in "[week124](week124.html)", this is an example of zeta
+As I said in ["Week 124"](#week124), this is an example of zeta
 function regularization. The Riemann zeta function is defined by
 
 ζ(s) = 1/1^s^ + 1/2^s^ + 1/3^s^ + \....
@@ -301,7 +301,7 @@ like this:
 
 But to see the relation to elliptic curves we should switch variables
 yet again and write q = exp(2 π i τ). I already talked about this
-variable τ in "[week125](week125.html)", where we were studying the
+variable τ in ["Week 125"](#week125), where we were studying the
 elliptic curve formed by curling up a parallelogram like this in the
 complex plane:
 
@@ -326,7 +326,7 @@ studying Euclidean quantum field theory on a spacetime where time is
 periodic with a given period. This idea is what relates the variables β
 and τ.)
 
-Now as I explained in "[week13](week13.html)", the above elliptic
+Now as I explained in ["Week 13"](#week13), the above elliptic
 curve is not just an abstract torus-shaped thingie. We can also think of
 it as the set of complex solutions of the following cubic equation in
 two variables:

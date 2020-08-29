@@ -82,7 +82,7 @@ then, my idea of excitement is lying in bed thinking about n-categories.
 
 Now for the black holes.
 
-In "[week111](week111.html)", I left off with a puzzle. In a quantum
+In ["Week 111"](#week111), I left off with a puzzle. In a quantum
 theory of gravity, the entropy of a black hole should be the logarithm
 of the number of its microstates. This should be proportional to the
 area of the event horizon. But what *are* the microstates? String theory
@@ -95,8 +95,8 @@ spin networks?
 
 Starting in 1995, Smolin, Krasnov, and Rovelli proposed some answers to
 these puzzles, which I have already mentioned in
-"[week56](week56.html)", "[week57](week57.html)", and
-"[week87](week87.html)". The ideas I'm going to talk about now are a
+["Week 56"](#week56), ["Week 57"](#week57), and
+["Week 87"](#week87). The ideas I'm going to talk about now are a
 further development of this earlier work, but instead of presenting
 everything historically, I'll just present the picture as I see it now.
 For more details, try the following paper:
@@ -213,7 +213,7 @@ Well, let's not just talk about it, let's do it! We quantize our
 theory using standard spin network techniques *outside* the black hole,
 and Chern-Simons theory *on the event horizon*, and here is what we get.
 States look like this. Outside the black hole, they are described by
-spin networks (see "[week110](week110.html)"). The spin network edges
+spin networks (see ["Week 110"](#week110)). The spin network edges
 are labelled by spins j = 0, 1/2, 1, and so on. Spin network edges can
 puncture the black hole surface, giving it area. Each spin-j edge
 contributes an area proportional to sqrt(j(j+1)). The total area is the
@@ -240,7 +240,7 @@ sum these up and take the logarithm.
 That's roughly what we do, anyway, and for black holes much bigger than
 the Planck scale we find that the entropy is proportional to the area.
 How does this compare with the result of Bekenstein and Hawking,
-described in "[week111](week111.html)"? Remember, they computed that
+described in ["Week 111"](#week111)? Remember, they computed that
 
 S = A/4
 
@@ -384,7 +384,7 @@ that one can now use this ladder to study black hole entropy. It's
 worth comparing Carlip's calculation of black hole entropy in spacetime
 dimension 3 using a 2-dimensional field theory (the Wess-Zumino-Witten
 model) on the surface traced out by the black hole event horizon - see
-"[week41](week41.html)". Both the theories we use and those Carlip
+["Week 41"](#week41). Both the theories we use and those Carlip
 uses, are all part of the same big ladder of theories! Something
 interesting is going on here.
 

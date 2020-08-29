@@ -8,7 +8,7 @@ Book, Springer-Verlag, New York, 1997.
 It's full of reprints of original papers about π, from the Rhind
 Papyrus right on up to the 1996 paper by Bailey, Borwein and Plouffe in
 which they figured out how to compute a given hexadecimal digit of π
-without computing the previous digits - see "[week66](week66.html)"
+without computing the previous digits - see ["Week 66"](#week66)
 for more about that. By the way, Colin Percival has recently used this
 technique to compute the 5 trillionth binary digit of π! (It's either
 zero or one, I forget which.) Percival is a 17-year old math major at
@@ -63,7 +63,7 @@ For a more elementary approach, try chapters IX and X.4 in this book:
 5) Charles Nash, Differential Topology and Quantum Field Theory,
 Academic Press, New York, 1991.
 
-As I explained in "[week126](week126.html)", a string traces out a
+As I explained in ["Week 126"](#week126), a string traces out a
 surface in spacetime called the "string worldsheet". Let's keep life
 simple and assume the string worldsheet is a torus and that spacetime is
 Euclidean R^n^. Then to figure out the expectation value of any physical
@@ -151,7 +151,7 @@ than simply ignoring the zero eigenvalue, but I'll talk about that
 later.)
 
 Okay, so now we have a divergent product to deal with. Well, in
-"[week126](week126.html)" I used a trick called zeta function
+["Week 126"](#week126) I used a trick called zeta function
 regularization to make sense of a divergent sum, and we can use that
 trick here to make sense of our divergent product. Suppose we have a
 self-adjoint operator A with a discrete spectrum consisting of positive
@@ -162,7 +162,7 @@ eigenvalues. Then the "zeta function" of A is defined by:
 To compute ζ(s) we just take all the eigenvalues of A, raise them to the
 -s power, and add them up. For example, if A has eigenvalues 1,2,3,\...,
 then ζ(s) is just the usual Riemann zeta function, which we already
-talked about in "[week126](week126.html)".
+talked about in ["Week 126"](#week126).
 
 This stuff doesn't quite apply if A is the Laplacian on a compact
 manifold, since one of its eigenvalues is zero. But we have already
@@ -239,7 +239,7 @@ diffeomorphisms.
 Now the space of conformal structures on a torus modulo diffeomorphisms
 is something familiar: it's just the moduli space of elliptic curves!
 We figured out what this space looks like in
-"[week125](week125.html)". It's finite-dimensional and there's a
+["Week 125"](#week125). It's finite-dimensional and there's a
 nice way to integrate over it, called the Weil-Petersson measure. So we
 can hope to replace the outside integral - the integral over metrics -
 by an integral over this moduli space.
@@ -334,7 +334,7 @@ There are at least two ways to do the calculation. One is to actually
 work out the eigenvalues of the Laplacian on this torus and then do the
 zeta function regularization to compute its determinant. Di Francesco,
 Mathieu, and Senechal do this in the textbook I talked about in
-"[week124](week124.html)". They get
+["Week 124"](#week124). They get
 
 ∫ exp(-\<X, laplacian X\>) dX = 1 / (√Im(τ) \|η(τ)\|^2^)
 
@@ -342,7 +342,7 @@ where "η" is the Dedekind eta function, regarded as function of τ. But
 the calculation is pretty brutal, and it seems to me that there should
 be a much easier way to get the answer. The left-hand side is just the
 partition function for an massless scalar field on the torus, and we
-basically did that back in "[week126](week126.html)". More precisely,
+basically did that back in ["Week 126"](#week126). More precisely,
 we considered just the right-moving modes and we got the following
 partition function:
 
@@ -380,7 +380,7 @@ factor of 1/√Im(τ), mutters something vague, and hurriedly moves on.
 
 Clearly the reason people want this factor is because of how the eta
 function transforms under modular transformations. In
-"[week125](week125.html)" I said that the group PSL(2,Z) is generated
+["Week 125"](#week125) I said that the group PSL(2,Z) is generated
 by two elements S and T, and if you look at the formulas there you'll
 see they act in the following way on τ:
 
@@ -445,7 +445,7 @@ Todd genus, as we all know, is defined using the same function
 
 x / (1 - e^x^) = -1 + x/2 - x^2^/12 + \...
 
-that we talked about in "[week126](week126.html)" when computing the
+that we talked about in ["Week 126"](#week126) when computing the
 zero-point energy of the bosonic string! And yet again, it's that darn
 -1/12 in the power series expansion that makes everything tick. That's
 where the 13 comes from! It's all an elaborate conspiracy!

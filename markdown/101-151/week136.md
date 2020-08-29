@@ -39,7 +39,7 @@ Vaughan Pratt.
 
 Pedicchio's course covered various generalizations of Lawvere's
 wonderful concept of an algebraic theory. Recall from
-"[week53](week53.html)" that we can think of a category C with extra
+["Week 53"](#week53) that we can think of a category C with extra
 properties or structure as a kind of "theory", and functors F: C → Set
 preserving this structure as "models" of the theory. For example, a
 "finite products theory" C is just a category with finite products. In
@@ -68,7 +68,7 @@ R: Mod(C) → Set
 which carries each model F to the set F(x). We can think of this as a
 functor which forgets all the operations of our algebraic gadget and
 remembers only the underlying set. Now, if you know about adjoint
-functors (see "[week77](week77.html)"-"[week79](week79.html)"), this
+functors (see ["Week 77"](#week77)-["Week 79"](#week79)), this
 should immediately make you want to find a left adjoint for R, namely a
 functor
 
@@ -112,7 +112,7 @@ theories", which are just categories with finite limits. Given one of
 these, say C, we define a model to be a functor F: C → Set preserving
 finite limits. This allows one to study algebraic structures with
 partially defined operations. I already gave an example in
-"[week53](week53.html)" - there's a category with finite limits
+["Week 53"](#week53) - there's a category with finite limits
 called "the theory of categories", whose models are categories! One
 can work out theory-model duality in this bigger context, where it's
 called Gabriel-Ulmer duality:
@@ -174,7 +174,7 @@ slightly faster clip - they've gotten to n = infinity already. In fact,
 during the conference Michael Batanin came up to me and said that a
 fellow named Penon had published a really terse definition of weak
 ω-categories that seems equivalent to Batanin's own (see
-"[week103](week103.html)") - at least after some minor tweaking.
+["Week 103"](#week103)) - at least after some minor tweaking.
 Batanin was quite enthusiastic and said he plans to write a paper about
 this stuff.
 
@@ -214,13 +214,13 @@ strict ω-categories, and also Batanin's weak ω-categories, are globular
 sets with extra structure. This also true of Penon's definition, but he
 starts right away with "reflexive" globular sets, which have these
 maps i that are a bit like the degeneracies in the definition of a
-simplicial set (see "[week115](week115.html)"). In Penon's definition
+simplicial set (see ["Week 115"](#week115)). In Penon's definition
 i(x) plays the role of an "identity n-morphism", so we also write i(x)
 as 1~x~: x → x.
 
 Let RGlob be the category of reflexive globular sets, where morphisms
 are defined in the obvious way. (In other words, RGlob is a presheaf
-category - see "[week115](week115.html)" for an explanation of this
+category - see ["Week 115"](#week115) for an explanation of this
 notion.)
 
 In this setup, the usual sort of strict ω-category may be defined as a
@@ -237,7 +237,7 @@ A: axioms determining the source and target of a composite B: strict
 associativity, unit and interchange laws
 
 I'll assume you know these axioms or can fake it. (If you read the
-definition of strict 2-category in "[week80](week80.html)", perhaps
+definition of strict 2-category in ["Week 80"](#week80), perhaps
 you can get an idea for what kinds of axioms I'm talking about.)
 
 Now, strict ω-categories are great, but we need to weaken this notion.
@@ -296,7 +296,7 @@ T: RGlob → RGlob
 
 and Penon defines a "weak ω-category" to be an algebra of this monad.
 
-(See "[week92](week92.html)" and "[week118](week118.html)" for how
+(See ["Week 92"](#week92) and ["Week 118"](#week118) for how
 you get monads from adjunctions. Alas, I think I haven't gotten around
 to explaining the concept of an algebra of a monad! So much to explain,
 so little time!)

@@ -192,7 +192,7 @@ understand, like Morava K-theory and Brown-Peterson theory.
 
 To round off this little tour, I guess I should add that there are lots
 of maps going between different generalized cohomology theories! As I
-explained in "[week149](week149.html)", each generalized cohomology
+explained in ["Week 149"](#week149), each generalized cohomology
 h^n^ corresponds to a "spectrum": a list of spaces, each being the
 loop space of the next. Spectra form a category, and given a map between
 spectra we get a map between their generalized cohomology theories. So
@@ -208,7 +208,7 @@ K-theories, Lecture Notes in Mathematics 28, Springer-Verlag, New York,
 Spheres, Academic Press, 1986.
 
 and also the books on generalized cohomology listed in
-"[week149](week149.html)".
+["Week 149"](#week149).
 
 Anyway, to bring order to this zoo, it's nice to pick out some of the
 special features of *ordinary* cohomology theory and study the
@@ -241,13 +241,13 @@ element c of h^2^(CP^∞^) that acts like the first Chern class of the
 universal line bundle, we call the theory "complex oriented". Of
 course, to make this precise we need to isolate the key features of the
 first Chern class and abstract them. I did this in
-"[week149](week149.html)", so I won't do it again here. Instead,
+["Week 149"](#week149), so I won't do it again here. Instead,
 I'll just say a bit about what we can *do* with a complex oriented
 cohomology theory.
 
 For starters, we can use the element c to get an invariant of complex
 line bundles - a kind of generalized version of the first Chern class.
-To do this, just remember from "[week149](week149.html)" that CP^∞^ is
+To do this, just remember from ["Week 149"](#week149) that CP^∞^ is
 the classifying space for complex line bundles. In other words, *any*
 line bundle over *any* space X is isomorphic to a pullback of the
 universal line bundle by some map
@@ -367,8 +367,8 @@ explaining it to you in detail, but I won't\....
 
 \... because I want to finally say a word about elliptic cohomology!
 
-I've talked a lot about elliptic curves in "[week13](week13.html)",
-"[week125](week125.html)" and "[week126](week126.html)", so I get to
+I've talked a lot about elliptic curves in ["Week 13"](#week13),
+["Week 125"](#week125) and ["Week 126"](#week126), so I get to
 assume you know about them: an elliptic curve is a 1-dimensional compact
 complex manifold which is also an abelian group. As such, any elliptic
 curve gives a formal group law. And thus we can wonder if this formal
@@ -381,7 +381,7 @@ tantalize you with some of the high points. Since elliptic curves can be
 thought of as the worldsheets of strings, there are a bunch of
 interesting relationships between string theory and elliptic cohomology.
 In addition to the references I've gave you in
-"[week149](week149.html)", see for example:
+["Week 149"](#week149), see for example:
 
 17) Hirotaka Tamanoi, Elliptic Genera and Vertex Operator
 Super-Algebras, Springer Lecture Notes in Mathematics 1704, Springer,
@@ -392,7 +392,7 @@ But the one thing we apparently don't have *yet* is a very neat
 *geometrical* description of elliptic cohomology! There's got to be
 one, since so much nice geometry is involved\... but what is it?
 
-(For an answer to this question, see "[week197](week197.html)".)
+(For an answer to this question, see ["Week 197"](#week197).)
 
 ------------------------------------------------------------------------
 

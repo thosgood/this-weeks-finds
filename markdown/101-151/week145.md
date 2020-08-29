@@ -21,7 +21,7 @@ Interestingly, 2-dimensional projective geometry has some curious
 features that don't show up in higher dimensions. To explain this, I
 need to tell you about projective planes.
 
-I talked a bit about projective planes in "[week106](week106.html)".
+I talked a bit about projective planes in ["Week 106"](#week106).
 The basic idea is to take the ordinary plane and add some points at
 infinity so that every pair of distinct lines intersects in exactly one
 point. Lines that were parallel in the ordinary plane will intersect at
@@ -47,7 +47,7 @@ In fact, you can generalize this a bit - you can make sense of the
 projective plane over F whenever F is a division ring! A division ring
 is a like a field, but where multiplication isn't necessarily
 commutative. The best example is the quaternions. In
-"[week106](week106.html)" I talked about the real, complex and
+["Week 106"](#week106) I talked about the real, complex and
 quaternionic projective planes, their symmetry groups, and their
 relation to quantum mechanics. Here's a good book about this stuff,
 emphasizing the physics applications:
@@ -299,9 +299,9 @@ nice example of a ternary ring that isn't a division ring. Namely, the
 octonions! These are almost a division ring, but their multiplication
 isn't associative.
 
-I already talked about the octonions in "[week59](week59.html)",
-"[week61](week61.html)", "[week104](week104.html)" and
-"[week105](week105.html)". In "[week106](week106.html)", I explained
+I already talked about the octonions in ["Week 59"](#week59),
+["Week 61"](#week61), ["Week 104"](#week104) and
+["Week 105"](#week105). In ["Week 106"](#week106), I explained
 how you can define OP^2^, the projective plane over the octonions. This
 is the best example of a non-Desarguesian projective plane. One reason
 it's so great is that that its group of collineations is E6. E6 is one
@@ -372,7 +372,7 @@ numbers, quaternions and octonions. In the usual way of describing it,
 you start with two of these division algebras, say F and F'. Then let
 J(F) be the space of 3x3 self-adjoint matrices with coefficients in F.
 This is a Jordan algebra with the product xy + yx. As mentioned in
-"[week106](week106.html)", Jordan algebras have a lot to do with
+["Week 106"](#week106), Jordan algebras have a lot to do with
 projective planes. In particular, the nontrivial projections in J(F)
 correspond to the 1- and 2-dimensional subspaces of F^3^, and thus to
 the points and lines in the projective plane PF^2^.
@@ -413,7 +413,7 @@ algebras M(F,F'):
 
 Here R, C, H and O stand for the reals, complexes, quaternions and
 octonions. If you don't know what all the Lie algebras in the square
-are, check out "[week64](week64.html)". (I should admit that the above
+are, check out ["Week 64"](#week64). (I should admit that the above
 square is not very precise, because I don't say which real forms of the
 Lie algebras in question are showing up.)
 

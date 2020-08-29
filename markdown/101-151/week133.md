@@ -148,8 +148,8 @@ Fotini Markopoulou, Quantum causal histories, preprint available as
 
 Fotini Markopoulou is perhaps the first person to take the issue of
 causality really seriously in loop quantum gravity. In her earlier work
-with Lee Smolin (see "[week99](week99.html)" and
-"[week114](week114.html)") she proposed a way to equip an evolving
+with Lee Smolin (see ["Week 99"](#week99) and
+["Week 114"](#week114)) she proposed a way to equip an evolving
 spin network (or what I'd call a spin foam) with a partial order on its
 vertices, representing a causal structure. In these papers she is
 further developing these ideas. The first one uses topos theory! It's
@@ -166,7 +166,7 @@ preprint available as
 
 In This Week's Finds I've already mentioned Seth Major has worked with
 Lee Smolin on q-deformed spin networks in quantum gravity (see
-"[week72](week72.html)"). There is a fair amount of evidence, though
+["Week 72"](#week72)). There is a fair amount of evidence, though
 as yet no firm proof, that q-deforming your spin networks corresponds to
 introducing a nonzero cosmological constant. The main technical problem
 with q-deformed spin networks is that they require a "framing" of the
@@ -199,7 +199,7 @@ these form a subgroup isomorphic to Z/n. It follows that the center of
 U(1) x SU(2) x SU(3) is U(1) x Z/2 x Z/3.
 
 Next let's look at the other particles. If you forget how these work,
-see "[week119](week119.html)". For the fermions, it suffices to look
+see ["Week 119"](#week119). For the fermions, it suffices to look
 at those of the first generation, since the other two generations
 transform exactly the same way. First of all, we have the left-handed
 electron and neutrino:
@@ -321,7 +321,7 @@ If we embed U(2) x U(3) in U(5) in the obvious way, then this subgroup G
 actually lies in SU(5), thanks to the above equation. And this is what
 people do in the SU(5) grand unified theory. They don't actually stuff
 all of U(1) x SU(2) x SU(3) into SU(5), just the group G! For more
-details, see "[week119](week119.html)". Better yet, try this book that
+details, see ["Week 119"](#week119). Better yet, try this book that
 Brett McInnes recommended to me:
 
 4) Lochlainn O'Raifeartaigh, Group structure of gauge theories,

@@ -297,11 +297,11 @@ Mechanics of isolated horizons, preprint available as
 available as [gr-qc/9907058](http://xxx.lanl.gov/abs/gr-qc/9907058).
 
 For more on isolated horizons try the references in
-"[week128](week128.html)".
+["Week 128"](#week128).
 
 Finally, on a completely different note, I've recently seen some new
 papers related to the McKay correspondence - see
-"[week65](week65.html)" if you don't know what *that* is! I haven't
+["Week 65"](#week65) if you don't know what *that* is! I haven't
 read them yet, but I just want to remind myself that I should, so I'll
 list them here:
 

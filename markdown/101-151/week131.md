@@ -27,7 +27,7 @@ particles of each generation. Luckily SU(5) fits inside SO(10) in a nice
 way, and Georgi used this to concoct a slightly bigger theory where all
 15 particles of each generation, AND ONE MORE, fit into a single
 irreducible representation of SO(10). I described the mathematics of all
-this in "[week119](week119.html)", so I won't do so again here.
+this in ["Week 119"](#week119), so I won't do so again here.
 
 What's the extra particle? Well, when you look at the math, one obvious
 possibility is a right-handed neutrino. As I explained last week, the
@@ -176,7 +176,7 @@ On a slightly different note, one of my little side hobbies is to study
 the octonions and dream about how they might be useful in physics. One
 place they show up is in the E6 grand unified theory - the next theory
 up from the SO(10) theory. I said a bit about this in
-"[week119](week119.html)", but I just bumped into another paper on it
+["Week 119"](#week119), but I just bumped into another paper on it
 in the same conference proceedings that Glashow's paper appears is:
 
 2) Feza Gursey, Symmetry breaking patterns in E_6, in First Workshop on
@@ -195,8 +195,8 @@ Dynkin diagram of E6.
 
 Octonions are also prominent in string theory and in the grand unified
 theories proposed by my friends Geoffrey Dixon and Tony Smith - see
-"[week59](week59.html)", "[week91](week91.html)", and
-"[week104](week104.html)". I'll probably say more about this
+["Week 59"](#week59), ["Week 91"](#week91), and
+["Week 104"](#week104). I'll probably say more about this
 someday\....
 
 The reason I'm interested in neutrinos is that I want to learn what

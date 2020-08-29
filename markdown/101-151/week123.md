@@ -90,7 +90,7 @@ challenges involved - with the help of a little 23rd-century technology.
 Another nice thing is the further exploration of a world in which
 everyone has long been uploaded to virtual "scapes" and can easily
 modify and copy themselves - a world familiar to readers of his novel
-"Diaspora" (see "[week115](week115.html)"). But what I really like
+"Diaspora" (see ["Week 115"](#week115)). But what I really like
 is that it's not just a hard-science extravaganza; it's a meditation
 on mortality. You can never really know what it's like to cross an
 event horizon unless you do it\....
@@ -164,7 +164,7 @@ classical action principle, preprint available as
 [hep-th/9807092](http://xxx.lanl.gov/abs/hep-th/9807092).
 
 I described the spin foam approach to quantum gravity in
-"[week113](week113.html)". But let me remind you how the basic idea
+["Week 113"](#week113). But let me remind you how the basic idea
 goes. A good way to get a handle on this idea is by analogy with Feynman
 diagrams. In ordinary quantum field theory there is a Hilbert space of
 states called "Fock space". This space has a basis of states in which
@@ -250,7 +250,7 @@ metric is the main variable!
 So the idea of Freidel and Krasnov is to approximate quantum graivty
 with a very different sort of "free theory", one in which the metric
 is a variable. The theory they use is called "BF theory". I said a lot
-about BF theory in "[week36](week36.html)", but here the main point is
+about BF theory in ["Week 36"](#week36), but here the main point is
 simply that it's a topological quantum field theory, or TQFT. A TQFT is
 a quantum field theory that does not presume a fixed metric, but of a
 very simple sort, because it has no local degrees of freedom. I very
@@ -265,8 +265,8 @@ spin network approach to quantum gravity we start with a nice simple
 Hilbert space of states. But this space has a basis consisting, not of
 collections of 0-dimensional particles sitting in space at specified
 positions, but of 1-dimensional "spin networks" sitting in space. (For
-more on spin networks, see "[week55](week55.html)" and
-"[week110](week110.html)".) And instead of using 1-dimensional Feynman
+more on spin networks, see ["Week 55"](#week55) and
+["Week 110"](#week110).) And instead of using 1-dimensional Feynman
 diagrams to compute transition amplitudes, the idea is now to use
 2-dimensional gadgets called "spin foams". The amplitudes for spin
 foams are easy to compute in BF theory, because there are a lot of
@@ -320,7 +320,7 @@ available as math.AG/9807049.
 
 Apparently this provides a theory of "n-stacks", which are the
 n-categorical generalization of sheaves. Ever since Grothendieck's
-600-page letter to Quillen (see "[week35](week35.html)"), this has
+600-page letter to Quillen (see ["Week 35"](#week35)), this has
 been the holy grail of n-category theory. Unfortunately I haven't
 mustered sufficient courage to force my way through 240 pages of French,
 so I don't really know the details!
@@ -382,7 +382,7 @@ of n-pasting diagrams; and an analogue of the Baez-Dolan slicing process
 in the general theory of operads."
 
 Okay - now for something completely different. In
-"[week122](week122.html)" I said how Kreimer and Connes have teamed up
+["Week 122"](#week122) I said how Kreimer and Connes have teamed up
 to write a paper relating Hopf algebras, renormalization, and
 noncommutative geometry. Now it's out:
 

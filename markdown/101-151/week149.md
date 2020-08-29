@@ -173,7 +173,7 @@ unit complex numbers, or "phases".
 
 K(Z,2) is a bit more complicated: it's infinite-dimensional complex
 projective space, CP^∞^! I talked a bunch about projective spaces in
-"[week106](week106.html)". There I only talked about
+["Week 106"](#week106). There I only talked about
 finite-dimensional ones like CP^n^, but you can define CP^∞^ as a
 "direct limit" of these as n approaches ∞, using the fact that CP^n^
 sits inside CPn+1 as a subspace. Alternatively, you can take your
@@ -190,7 +190,7 @@ to think of K(Z,3) as some sort of infinite-dimensional manifold. What
 is it? Does anyone know? Jean-Luc Brylinski raised this question at the
 Conference on Higher Category Theory and Physics in 1997, and it's been
 bugging me ever since. From the work of Brylinski which I summarized in
-"[week25](week25.html)", it's clear that a good answer should shed
+["Week 25"](#week25), it's clear that a good answer should shed
 light on stuff like quantum theory and string theory. Basically, the
 point is that the integers, the group U(1), and infinite-dimensional
 complex projective space are all really important in quantum theory.

@@ -96,8 +96,8 @@ Selection in Evolution, Oxford University Press, New York, 1993.
 
 If non-Darwinian forms of spontaneous pattern-formation can be important
 in biology, can Darwinian evolution be important in non-biological
-contexts? Well, as I mentioned in "[week31](week31.html)" and
-"[week33](week33.html)", the physicist Lee Smolin has an interesting
+contexts? Well, as I mentioned in ["Week 31"](#week31) and
+["Week 33"](#week33), the physicist Lee Smolin has an interesting
 hypothesis about how the laws of nature may have evolved to their
 present point by natural selection. The idea is that black holes beget
 new "baby universes" with laws similar but not necessarily quite the
@@ -150,7 +150,7 @@ the surface of the string itself we get 24, and it turns out that it's
 really the special properties of the number 24 that make all the magic
 happen.
 
-I began to delve into these mysteries in "[week95](week95.html)".
+I began to delve into these mysteries in ["Week 95"](#week95).
 There, however, I was mainly reporting on very fancy stuff that I barely
 understand, stuff that seems like a pile of complicated coincidences.
 Now, I am glad to report, I am beginning to understand the real essence

@@ -31,7 +31,7 @@ In Penrose's setup, a spin network represents a quantum state of the
 geometry of space. To justify this interpretation he did a lot of
 computations using a special rule for computing a number from any spin
 network, which is now called the "Penrose evaluation" or "chromatic
-evaluation". In "[week22](week22.html)" I said how this works when
+evaluation". In ["Week 22"](#week22) I said how this works when
 all the edges have spin 1, and described how this case is related to the
 four-color theorem. The general case isn't much harder, but it's a
 real pain to describe without lots of pictures, so I'll just refer you
@@ -90,8 +90,8 @@ network edge poking through it.
 
 Of course, I'm oversimplifying both the physics and the history here.
 The tale of spin networks and loop quantum gravity is rather long. I've
-discussed it already in "[week55](week55.html)" and
-"[week99](week99.html)", but only sketchily. If you want more details,
+discussed it already in ["Week 55"](#week55) and
+["Week 99"](#week99), but only sketchily. If you want more details,
 try:
 
 2) Carlo Rovelli, Loop quantum gravity, preprint available as
@@ -150,7 +150,7 @@ considered, in two important ways.
 First, they can have more than 3 edges meeting at a vertex, and the
 vertices must be labelled by "intertwining operators", or
 "intertwiners" for short. This is a concept coming from group
-representation theory; as described in "[week109](week109.html)", what
+representation theory; as described in ["Week 109"](#week109), what
 we've been calling "spins" are really irreducible representations of
 SU(2). If we orient the edges of a spin network, we should label each
 vertex with an intertwiner from the tensor product of representations on
@@ -184,7 +184,7 @@ world is quantum-mechanical, so it would be nice to have an approach to
 space based purely on quantum-mechanical concepts. Also, treating spin
 networks as fundamental seems like a better way to understand the
 "quantum fluctuations in topology" which I mentioned in
-"[week109](week109.html)". However, right now it's probably best to
+["Week 109"](#week109). However, right now it's probably best to
 hedge ones bets and work hard on both approaches.
 
 Lately I've been very excited by a third, hybrid approach:

@@ -19,7 +19,7 @@ work at the E864 experiment at the "AGS", the alternating gradient
 synchrotron at Brookhaven National Laboratory in Long Island, New York.
 
 What's "strange quark matter"? Well, first remember from
-"[week93](week93.html)" that in the Standard Model there are bosonic
+["Week 93"](#week93) that in the Standard Model there are bosonic
 particles that carry forces:
 
         ELECTROMAGNETIC FORCE          WEAK FORCE         STRONG FORCE
@@ -57,14 +57,14 @@ should be visualized roughly as a sort of bag with the quarks and a
 bunch of gluons confined inside.
 
 Why are they confined? Well, I sketched an explanation in
-"[week94](week94.html)", so you should read that for more details. For
+["Week 94"](#week94), so you should read that for more details. For
 now let's just say the strong force likes to "stick together", so
 that energy is minimized if it stays concentrated in small regions,
 rather than spreading all over the place, like the electromagnetic field
 does. Indeed, the strong force may even do something like this in the
 absence of quarks, forming short-lived "glueballs" consisting solely
 of gluons and virtual quark-antiquark pairs. (For more on glueballs, see
-"[week68](week68.html)".)
+["Week 68"](#week68).)
 
 For reasons I don't really understand, the protons and neutrons in the
 nucleus do not coalesce into one big bag of quarks. Even in a neutron
@@ -90,7 +90,7 @@ sci.physics, they're being very cautious about coming out and saying
 so. By mid-1999, the folks at Brookhaven hope to get higher energies
 with the Relativistic Heavy Ion Collider, which will collide two beams
 of gold nuclei head-on at 100 GeV per nucleon\... see
-"[week76](week76.html)" for more on this.
+["Week 76"](#week76) for more on this.
 
 One of the hoped-for signs of deconfinement is "strangeness
 enhancement". The lightest quark besides the up and down is the strange
@@ -184,7 +184,7 @@ understand that, we'll be able to see more deeply what's going on in
 all the games we've been playing.
 
 But first I want to describe a few more important tricks for turning
-this into that. Recall from "[week115](week115.html)" that there's a
+this into that. Recall from ["Week 115"](#week115) that there's a
 category Δ whose objects 0,1,2,\... are the simplices, with n
 corresponding to the simplex with n vertices - the simplex with 0
 vertices being the "empty simplex". We can also define Δ in a purely
@@ -225,7 +225,7 @@ sort of joke. Turning a category into a kind of geometrical object built
 of simplices? What nerve! What use could this possibly be?
 
 Well, for an application of this idea to computer science, see
-"[week70](week70.html)". We'll soon see lots of applications within
+["Week 70"](#week70). We'll soon see lots of applications within
 topology. But first, let me give a slick abstract description of this
 "nerve" process that turns categories into simplicial sets. It's
 really a functor
@@ -253,7 +253,7 @@ taking each finite totally ordered set to its corresponding category,
 and each order-preserving map to its corresponding functor.
 
 Now we can copy the trick we played in section F of
-"[week116](week116.html)". For any category C we define the simplicial
+["Week 116"](#week116). For any category C we define the simplicial
 set Nerve(C) by
 
 Nerve(C)(-) = hom(i(-),C)
@@ -310,7 +310,7 @@ It follows that the geometric realization of Nerve(C) is homeomorphic to
 that of S.
 
 There are lots of interesting special sorts of categories, like
-groupoids, or monoids, or groups (see "[week74](week74.html)"). These
+groupoids, or monoids, or groups (see ["Week 74"](#week74)). These
 give special cases of the "classifying space" construction, some of
 which were actually discovered before the general case. I'll talk about
 some of these more next week, since they are very important in topology.
@@ -354,7 +354,7 @@ i: 1 → a
 which satisfy associativity and the left and right unit laws (written
 out as commutative diagrams). A monoid object in Set is just a monoid,
 but a monoid object in Vect is an algebra, and I gave some very
-different examples of monoid objects in "[week89](week89.html)".
+different examples of monoid objects in ["Week 89"](#week89).
 
 Now let's consider the "free monoidal category on a monoid object".
 In other words, consider a monoidal category A with a monoid object a in

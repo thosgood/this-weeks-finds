@@ -11,7 +11,7 @@ Brown's web page:
 Brown is the one who coined the phrase "higher-dimensional algebra",
 and for many years he has been developing this subject, primarily as a
 tool for doing homotopy theory. I wrote a bit about his ideas two years
-ago, in "[week53](week53.html)". A lot has happened in
+ago, in ["Week 53"](#week53). A lot has happened in
 higher-dimensional algebra since then, and the web page above is a good
 place to get an overview of it. It includes a nice bibliography on the
 subject. Also, if you find the math a bit strenuous, you can rest your
@@ -35,12 +35,12 @@ equations on these manifolds, and thus ushered in a new age of
 applications of topology to physics. In the 1980s, working with ideas
 that Witten came up with, Getzler found a nice "supersymmetric proof"
 of the Atiyah-Singer theorem. Later Getzler turned to other things, such
-as the use of "operads" (see "[week42](week42.html)") to study
+as the use of "operads" (see ["Week 42"](#week42)) to study
 conformal field theory (which shows up naturally in string theory).
 Kapranov has also done a lot of work with operads and conformal field
 theory, and many other things, but I first learned about him through his
 paper with Voevodsky on "braided monoidal 2-categories" (see
-"[week4](week4.html)"). This got me very excited since it turned me on
+["Week 4"](#week4)). This got me very excited since it turned me on
 to many of the main themes of n-category theory.
 
 Alas, my description of this fascinating conference will be terse and
@@ -128,14 +128,14 @@ my life to give myself more spare time. I think the key is to say "no"
 more often.)
 
 Thanks to Justin Roberts for pointing out an error in
-"[week102](week102.html)". The phase ambiguity in conformal field
+["Week 102"](#week102). The phase ambiguity in conformal field
 theories is not necessarily a 24th root of unity; it's exp(2 π i c /
 24) where c is the central charge of the associated Virasoro
 representation. This is a big hint as far as my puzzle goes.
 
 Also I thank Dan Christensen for helping me understand π_4(S\^2) in a
 simpler way, and Scott Carter for a fascinating letter on the themes of
-"[week102](week102.html)". Alas, I have been too busy to reply
+["Week 102"](#week102). Alas, I have been too busy to reply
 adequately to these nice emails!
 
 Gotta run\....

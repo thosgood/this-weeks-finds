@@ -143,8 +143,8 @@ available at
 <http://vishnu.nirvana.phys.psu.edu/online/Html/Seminars/Fall1998/Barrett/>
 
 Barrett and Crane have a theory of quantum gravity, which I've also
-worked on; I discussed it last in "[week113](week113.html)" and
-"[week120](week120.html)". Before I describe it I should warn the
+worked on; I discussed it last in ["Week 113"](#week113) and
+["Week 120"](#week120). Before I describe it I should warn the
 experts that this theory deals with Riemannian rather than Lorentzian
 quantum gravity (though Barrett and Crane are working on a Lorentzian
 version, and I hear Friedel and Krasnov are also working on this). Also,
@@ -227,7 +227,7 @@ each 4-simplex by specifying the lengths of its edges. Regge invented a
 formula for the "action" of such a geometry which approaches the usual
 action for classical general relativity in the continuum limit. I
 explained the formula for this "Regge action" in
-"[week120](week120.html)".
+["Week 120"](#week120).
 
 Now if everything were working perfectly, the amplitude for a 4-simplex
 in the Barrett-Crane model would be close to exp(iS), where S is the
@@ -365,7 +365,7 @@ generalization of black hole mechanics, preprint available as
 
 This concept also serves as the basis for a forthcoming 2-part paper
 where Ashtekar, Corichi, Krasnov and I compute the entropy of a quantum
-black hole (see "[week112](week112.html)" for more on this).
+black hole (see ["Week 112"](#week112) for more on this).
 
 Finally, here are a couple more papers. I don't have time to say much
 about them, but they're both pretty neat:
@@ -436,12 +436,12 @@ In fact one can't make it rigorous: it's wrong! In the limit of large
 areas the amplitude for a 4-simplex in the Barrett-Crane model is wildly
 different from cos(S), or exp(iS), or anything like that. Dan
 Christensen, Greg Egan and I showed this in a couple of papers that I
-discuss in "[week170](week170.html)" and "[week198](week198.html)".
+discuss in ["Week 170"](#week170) and ["Week 198"](#week198).
 Our results were confirmed by John Barrett, Chris Steel, Laurent Friedel
 and David Louapre.
 
 By now --- I'm writing this in 2009 --- it's generally agreed that the
 Barrett-Crane model is wrong and another model is better. To read about
-this new model, see "[week280](week280.html)".
+this new model, see ["Week 280"](#week280).
 
 ------------------------------------------------------------------------

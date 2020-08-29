@@ -89,7 +89,7 @@ of this quantity to other forces is known as the "Chern-Simons
 functional", and Witten's work on the 3-dimensional field theory
 having this as its Lagrangian turned out to revolutionize knot theory.
 Personally, I'm mainly interested in the applications to quantum
-gravity - see "[week56](week56.html)" for a bit about this. Here are
+gravity - see ["Week 56"](#week56) for a bit about this. Here are
 some papers Kotiuga has written on the helicity functional, or what we
 mathematicians would call "U(1) Chern-Simons theory":
 

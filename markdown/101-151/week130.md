@@ -151,7 +151,7 @@ to oscillating in empty space, it's possible that neutrinos oscillate
 called the MSW effect - named after Mikheyev, Smirnov and Wolfenstein.
 And there are two different ways for neutrinos to have mass, depending
 on whether they are Dirac spinors or Majorana spinors (see
-"[week93](week93.html)").
+["Week 93"](#week93)).
 
 But I don't want to get caught up in theoretical nuances here! I want
 to talk about experiments, and I haven't even gotten to the new stuff
@@ -219,7 +219,7 @@ Wilczek recently wrote a nice easy-to-read paper describing arguments
 that *massive* neutrinos fit in quite nicely with the possibility that
 the Standard Model is just part of a bigger, better theory - a "Grand
 Unified Theory". I sketched the basic ideas of the SU(5) and SO(10)
-grand unified theories in "[week119](week119.html)". Recall that in
+grand unified theories in ["Week 119"](#week119). Recall that in
 the SU(5) theory, the left-handed parts of all fermions of a given
 generation fit into two irreducible representations of SU(5) - a
 5-dimensional rep and a 10-dimensional rep. For example, for the first

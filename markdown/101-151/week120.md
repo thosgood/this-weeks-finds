@@ -71,7 +71,7 @@ Barrett and Crane came up with a specific way to do all this stuff,
 Reisenberger came up with a different way, I came up with a general
 formalism for understanding this stuff, and now people are busy arguing
 about the merits of different approaches. Here are some papers on the
-subject - I'll pick up where I left off in "[week113](week113.html)".
+subject - I'll pick up where I left off in ["Week 113"](#week113).
 
 3) Louis Crane, David N. Yetter, On the classical limit of the balanced
 state sum, preprint available as
@@ -119,7 +119,7 @@ limit to study is the limit where you triangulate your 4-manifold with a
 huge number of 4-simplices labelled by fairly small spins. After all, in
 the spin network picture of the quantum black hole, it seems that spin
 network edges labelled by spin 1/2 contribute most of the states (see
-"[week112](week112.html)").
+["Week 112"](#week112)).
 
 When you take a spin foam living in a triangulated 4-manifold and slice
 it in a way that's compatible with the triangulation, the spin network

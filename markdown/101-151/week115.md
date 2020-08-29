@@ -125,7 +125,7 @@ only make sense if you've got plenty of that commodity known as
 "mathematical sophistication". So put on some Coltrane, make yourself
 a cafe macchiato, kick back, and read on. If at any point you feel a
 certain lack of sophistication, you might want to reread "The Tale of
-n-Categories", starting with "[week73](week73.html)", where a bunch
+n-Categories", starting with ["Week 73"](#week73), where a bunch
 of the basic terms are defined.
 
 ------------------------------------------------------------------------
@@ -250,7 +250,7 @@ The rule for composing morphisms is obvious: just compose the maps!
 Slick, eh?
 
 We can be slicker if we are willing to work with a category *equivalent*
-to Δ (in the technical sense described in "[week76](week76.html)"),
+to Δ (in the technical sense described in ["Week 76"](#week76)),
 namely, the category of *all* nonempty totally ordered sets, with
 order-preserving maps as morphisms. This has a lot more objects than
 just {0}, {0,1}, {0,1,2}, etc., but all of its objects are isomorphic to
@@ -283,7 +283,7 @@ an arbitrary way. We can think of it as a kind of purely combinatorial
 version of a "space". That's one reason simplicial sets are so
 popular in topology: they let us study spaces in a truly elegant
 algebraic context. We can define all the things topologists love -
-homology groups, homotopy groups (see "[week102](week102.html)"), and
+homology groups, homotopy groups (see ["Week 102"](#week102)), and
 so on - while never soiling our hands with open sets, continuous
 functions and the like. To see how it's done, try:
 
@@ -315,7 +315,7 @@ functor
 L: Set → Ab
 
 assigning to any set the free abelian group on that set (see
-"[week77](week77.html)"). Given a simplicial set
+["Week 77"](#week77)). Given a simplicial set
 
 X: Δ → Set
 
@@ -336,7 +336,7 @@ Just as a good firework show ends with lots of explosions going off
 simultaneously, leaving the audience stunned, deafened, and content, I
 should end with a blast of abstraction, just for the hell of it. Those
 of you who remember my discussion of "theories" in
-"[week53](week53.html)" can easily check that there is a category
+["Week 53"](#week53) can easily check that there is a category
 called the "theory of abelian groups". This allows us to define an
 "abelian group object" in any category with finite limits. In
 particular, since the category of simplicial sets has finite limits (any

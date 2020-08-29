@@ -13,7 +13,7 @@ anyone is still using the antiquated AD system!
 
 Anyway\....
 
-In "[week73](week73.html)", I mentioned a theory about why molecules
+In ["Week 73"](#week73), I mentioned a theory about why molecules
 important in biology tend to come in a consistent chirality, or
 handedness. For example, there's lots of dextrose in nature - this
 being the right-handed form of the sugar sucrose - but not much of its
@@ -128,7 +128,7 @@ experiment, I'd like to talk about some interesting physics
 and more interesting information about physics is coming from astronomy,
 so I'll concentrate on work that lies on this interface.
 
-In "[week80](week80.html)" I talked about how Gravity Probe B will try
+In ["Week 80"](#week80) I talked about how Gravity Probe B will try
 to detect an effect of general relativity called "frame-dragging"
 caused by the earth's rotation. I also talked about how LIGO - the
 Laser Interferometric Gravitational Wave Observatory - will try to
@@ -290,7 +290,7 @@ basically just a twinkle in someone's eye\....
 For example: OWL, the Orbiting Wide-Angle Light Collector, a pair of
 satellites that would trace the paths of super-high-energy cosmic rays
 through the earth's atmosphere. As I explained in
-"[week81](week81.html)", people have seen cosmic rays with
+["Week 81"](#week81), people have seen cosmic rays with
 ridiculously high energies, like 320 Eev - the energy of a 1-kilogram
 rock moving at 10 meters per second, all packed into one particle. OWL
 would orbit the earth, watch these things, and figure out where the heck

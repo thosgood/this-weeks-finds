@@ -102,7 +102,7 @@ Note: these dimensions are just 2 more than the dimensions of the four
 normed division algebras: the reals, complexes, quaternions and
 octonions! This is no coincidence. Robert Helling recently posted a nice
 article about this on sci.physics.resarch, which I have appended to
-"[week104](week104.html)". The basic idea is that we can describe the
+["Week 104"](#week104). The basic idea is that we can describe the
 vibrations of a string in n-dimensional spacetime by a field on the
 string worldsheet with n-2 components corresponding to the n-2
 directions transverse to the worldsheet. To get an action that's
@@ -137,7 +137,7 @@ algebra, Phys. Lett. B203 (1988), 47.
 and some more references I'll give later.
 
 There are actually 5 variants of superstring theory in dimension 10, as
-I explained in "[week72](week72.html)":
+I explained in ["Week 72"](#week72):
 
 1.  type I superstrings - these are open strings, not closed loops.
 2.  type IIA superstrings - closed strings where the left- and
@@ -179,7 +179,7 @@ the other forces of nature \-\-- or at least their supersymmetric
 analogues.
 
 Like superstring theory, super-Yang-Mills theory only works in spacetime
-dimensions 3, 4, 6, and 10. (See "[week93](week93.html)" for more on
+dimensions 3, 4, 6, and 10. (See ["Week 93"](#week93) for more on
 this.) Different forms of supergravity make sense in different
 dimensions, as explained in:
 
@@ -338,7 +338,7 @@ here's how\....
 ------------------------------------------------------------------------
 
 **N.** Simplicial objects from adjunctions. Remember from section D of
-"[week115](week115.html)" that a "simplicial object" in some
+["Week 115"](#week115) that a "simplicial object" in some
 category is a contravariant functor from Δ to that category. In what
 follows, I'll take Δ to be the version of the category of simplices
 that contains the empty simplex. Topologists don't usually do this, so
@@ -357,7 +357,7 @@ objects x~0~, x~1~, x~2~,\... together with morphisms like this:
 The morphisms d~j~ are called "face maps" and the morphisms i~j~ are
 called "degeneracies". They are required to satisfy some equations
 which I won't bother writing down here, since you can figure them out
-yourself if you read section B of "[week114](week114.html)".
+yourself if you read section B of ["Week 114"](#week114).
 
 Now, suppose we have an adjunction, that is, a pair of adjoint functors:
 
@@ -372,8 +372,8 @@ e: LR =\> 1~D~
 i: 1~C~ =\> RL
 
 satisfying a couple of equations, which I again won't write down, since
-I explained them in "[week79](week79.html)" and
-"[week83](week83.html)".
+I explained them in ["Week 79"](#week79) and
+["Week 83"](#week83).
 
 Then an object d in the category D automatically gives a simplicial
 object as follows:
@@ -398,7 +398,7 @@ where L assigns to each set the free group on that set, and R assigns to
 each group its underlying set. Thus given a group, the above trick gives
 us a simplicial object in Gp - or in other words, a simplicial group.
 This has an underlying simplicial set, and from this we can cook up a
-chain complex as in section H of "[week116](week116.html)". This lets
+chain complex as in section H of ["Week 116"](#week116). This lets
 us study groups using homology theory! One can define the homology (and
 cohomology) of lots other algebraic gadgets in exactly the same way.
 
@@ -460,7 +460,7 @@ satisfying the same equations I didn't write before.
 Let hom(C,C) be the category whose objects are functors from C to itself
 and whose morphisms are natural transformations between such functors.
 This is a monoidal category, since we can compose functors from C to
-itself. In "[week92](week92.html)" I showed that hom(C,C) has a monoid
+itself. In ["Week 92"](#week92) I showed that hom(C,C) has a monoid
 object in it, namely RL. The product for this monoid object is
 
 R.e.L: RLRL =\> RL

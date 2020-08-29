@@ -293,7 +293,7 @@ theories, to appear in Adv. Math., preprint available as
 [math.GT/9806023](http://xxx.lanl.gov/abs/math.GT/9806023).
 
 We can get 3-dimensional topological quantum field theories from certain
-Hopf algebras. As I described in "[week38](week38.html)", Crane and
+Hopf algebras. As I described in ["Week 38"](#week38), Crane and
 Frenkel made the suggestion that by categorifying this construction we
 should get 4-dimensional TQFTs from certain Hopf categories. This paper
 makes the suggestion precise in a certain class of examples! Basically
@@ -324,7 +324,7 @@ lecture given in 1997, available at <http://www.math.mcgill.ca/~hermida>
 
 This talk presents some of the work by Makkai, Power and Hermida on
 their definition of n-categories. For more on their work see
-"[week107](week107.html)".
+["Week 107"](#week107).
 
 7) Carlos Simpson, On the Breen-Baez-Dolan stabilization hypothesis for
 Tamsamani's weak n-categories, preprint available as
@@ -332,7 +332,7 @@ Tamsamani's weak n-categories, preprint available as
 
 For quite a while now James Dolan and I have been talking about
 something we call the "stabilization hypothesis". I gave an
-explanation of this in "[week121](week121.html)", but briefly, it says
+explanation of this in ["Week 121"](#week121), but briefly, it says
 that the nth column of the following chart (which extends to infinity in
 both directions) stabilizes after 2n+2 rows:
 

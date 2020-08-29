@@ -47,7 +47,7 @@ SU(2) symmetry of the sphere.
 Apparently Pauli got a lot of his inspiration from Weyl's 1929 paper
 "Electron and Gravitation", also reprinted in this volume. This
 masterpiece did all the following things: it introduced the concept of
-2-component spinors (see "[week109](week109.html)"), considered the
+2-component spinors (see ["Week 109"](#week109)), considered the
 possibility that the laws of physics violate parity and time reversal
 symmetry, introduced the tetrad formulation of general relativity,
 introduced the notion of a spinor connection, and explicitly derived
@@ -75,7 +75,7 @@ tools one by one:
 
 ------------------------------------------------------------------------
 
-**E.** Geometric realization. In "[week115](week115.html)" I talked
+**E.** Geometric realization. In ["Week 115"](#week115) I talked
 about simplicial sets. A simplicial set is a presheaf on the category Δ.
 Intuitively, it's a purely combinatorial way of describing a bunch of
 abstract simplices glued together along their faces. We want a process
@@ -176,7 +176,7 @@ start with a topological space X, there's an obvious map from
 What this means is that Sing is the right adjoint of \| \|, or in other
 words, \| \| is the left adjoint of Sing. Thus if we want to be slick,
 we can just *define* geometric realization to be the left adjoint of
-Sing. (See "[week77](week77.html)"-"[week79](week79.html)" for an
+Sing. (See ["Week 77"](#week77)-["Week 79"](#week79) for an
 exposition of adjoint functors.)
 
 ------------------------------------------------------------------------
@@ -325,7 +325,7 @@ homotopy-invariant".
 **H.** The Chain Complex of a Simplicial Abelian Group. Now let me
 explain a cool way of getting chain complexes, which goes a long way
 towards explaining why they're important. Recall from item D. in
-"[week115](week115.html)" that a simplicial abelian group is a
+["Week 115"](#week115) that a simplicial abelian group is a
 contravariant functor C: Δ → Ab. In particular, it gives us an abelian
 group C~n~ for each object n of Δ, and also "face" homomorphisms
 
@@ -351,7 +351,7 @@ Ch: SimpAb → Chain
 
 More surprisingly, this is an equivalence of categories! I leave you to
 show this - if you give up, look at May's book cited in section C. of
-"[week115](week115.html)". What this means is that simplicial abelian
+["Week 115"](#week115). What this means is that simplicial abelian
 groups are just another way of thinking about chain complexes\... or
 vice versa. Thus, if I were being ultra-sophisticated, I could have
 skipped the chain complexes and talked only about simplicial abelian

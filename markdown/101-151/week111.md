@@ -157,8 +157,8 @@ the number of geometries is finite.
 I presume you see what I'm leading up to: the idea of computing black
 hole entropy using spin networks, which are designed precisely to
 describe "quantum geometries", as sketched in
-"[week55](week55.html)", "[week99](week99.html)", and
-"[week110](week110.html)". I'll talk about this next week.
+["Week 55"](#week55), ["Week 99"](#week99), and
+["Week 110"](#week110). I'll talk about this next week.
 
 To be fair to other approaches, I should emphasize that string theorists
 have their own rather different ideas about computing black hole entropy

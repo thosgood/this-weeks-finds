@@ -66,7 +66,7 @@ to get around it. No way, that is, except the radical step of ceasing to
 treat the geometry of spacetime as a fixed "background". In other
 words: stop doing quantum field theory on spacetime with a
 pre-established metric, and invent a background-free theory of quantum
-gravity! But this is not so easy - see "[week132](week132.html)" for
+gravity! But this is not so easy - see ["Week 132"](#week132) for
 more on what it would entail.
 
 Apparently this issue is coming to the attention of string theorists now
@@ -240,7 +240,7 @@ horizons: the classical phase space, preprint available as
 
 This paper explains in more detail the classical aspects of the
 calculation of the entropy of a black hole in loop quantum gravity (see
-"[week112](week112.html)" for a description of this calculation). Let
+["Week 112"](#week112) for a description of this calculation). Let
 me quote the abstract:
 
 > A Hamiltonian framework is introduced to encompass non-rotating (but

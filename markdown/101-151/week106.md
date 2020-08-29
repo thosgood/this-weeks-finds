@@ -166,7 +166,7 @@ HP^1^ = S^4^
 OP^1^ = S^8^
 
 I discussed the implications of this pattern for Bott periodicity in
-"[week105](week105.html)".
+["Week 105"](#week105).
 
 We can also define OP^2^. Here we have 3 coordinate charts corresponding
 to homogeneous coordinates of the form
@@ -223,7 +223,7 @@ Witten has suggested the latter. Indeed, it crops up a lot in string
 theory. This is why I'm trying to learn about the octonions: a lot of
 exceptional objects in mathematics are tied to them.
 
-I already discussed this a bit in "[week64](week64.html)", where I
+I already discussed this a bit in ["Week 64"](#week64), where I
 sketched how there are 3 infinite sequences of "classical" simple Lie
 groups corresponding to rotations in R^n^, C^n^, and H^n^, and 5
 "exceptional" simple Lie groups related to the octonions. After
@@ -303,9 +303,9 @@ He has a bit about octonionic constructions of G2 and F4, but mostly he
 concentrates on constructions of the exceptional groups using classical
 groups and spinors.
 
-In "[week90](week90.html)" I explained Kostant's constructions of F4
+In ["Week 90"](#week90) I explained Kostant's constructions of F4
 and E8 using spinors in 8 dimensions and triality - which, as noted in
-"[week61](week61.html)", is just another way of talking about the
+["Week 61"](#week61), is just another way of talking about the
 octonions. Unfortunately I don't yet see quite how this relates to the
 above stuff, nor do I see how to get E6 and E7 in a beautiful way using
 Kostant's setup.
@@ -457,7 +457,7 @@ remarks.
 > David
 
 The theorem that fails for quaternions but holds for R and C is the
-"Pappus theorem", discussed in "[week145](week145.html)".
+"Pappus theorem", discussed in ["Week 145"](#week145).
 
 Next, a bit about OP^n^. There are different senses in which we can't
 define OP^n^ for n greater than 2. One is that if we try to define
@@ -543,7 +543,7 @@ stuff as part of a post to sci.physics.research on November 8, 1999\....
 
 > One reason people like these algebras is that some of them - the
 > associative ones - are also Clifford algebras. I talked a bit about
-> Clifford algebras in "[week105](week105.html)", but just remember
+> Clifford algebras in ["Week 105"](#week105), but just remember
 > that we define the Clifford algebra C~p,q~ to be the associative
 > algebra you get by taking the real numbers and throwing in p square
 > roots of -1 and q square roots of 1, all of which anticommute with
@@ -593,7 +593,7 @@ stuff as part of a post to sci.physics.research on November 8, 1999\....
 > If you do the same trick for the bioctonions, quateroctonions and
 > octooctonions, you get other Clifford algebras\... but I'll leave the
 > question of *which ones* as a puzzle for the reader. If you need some
-> help, look at the "Footnote" in "[week105](week105.html)".
+> help, look at the "Footnote" in ["Week 105"](#week105).
 >
 > Perhaps the fanciest example of this trick concerns the
 > biquateroctonions. Now actually, I've never heard anyone use this
@@ -612,7 +612,7 @@ stuff as part of a post to sci.physics.research on November 8, 1999\....
 > It may or may not be right, but at least it comes within shooting
 > distance!
 >
-> You can read a bit more about his work in "[week59](week59.html)".
+> You can read a bit more about his work in ["Week 59"](#week59).
 
 ------------------------------------------------------------------------
 

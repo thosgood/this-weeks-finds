@@ -145,7 +145,7 @@ was the first example of a topologically nontrivial map from a sphere to
 a sphere of lower dimension. In the lingo of homotopy theory, we say
 it's the generator of the group π~3~(S^2^).
 
-Now in "[week106](week106.html)" I talked about how we can mimic this
+Now in ["Week 106"](#week106) I talked about how we can mimic this
 construction by replacing the complex numbers with any other division
 algebra. If we use the real numbers we get a fiber bundle
 
@@ -326,7 +326,7 @@ sectional curvature, Ann. Math. 100 (1974), 401-406.
 
 The construction isn't terribly hard so let me describe it. First,
 start with the group Sp(2), consisting of 2x2 unitary quaternionic
-matrices (see "[week64](week64.html)"). As always with compact Lie
+matrices (see ["Week 64"](#week64)). As always with compact Lie
 groups, this has a metric that's invariant under right and left
 translations, and this metric is unique up to a constant scale factor.
 The group of unit quaternions acts as metric-preserving maps (aka
