@@ -17,15 +17,15 @@ Okay. Building space from spin! How does it work?
 Penrose's original spin networks were purely combinatorial gadgets:
 graphs with edges labelled by numbers j = 0, 1/2, 1, 3/2,... These
 numbers stand for total angular momentum or "spin". He required that
-three edges meet at each vertex, with the corresponding spins j~1~,
-j~2~, j~3~ adding up to an integer and satisfying the triangle
+three edges meet at each vertex, with the corresponding spins j_1,
+j_2, j_3 adding up to an integer and satisfying the triangle
 inequalities
 
-|j~1~ - j~2~| ≤ j~3~ ≤ j~1~ + j~2~
+|j_1 - j_2| ≤ j_3 ≤ j_1 + j_2
 
 These rules are motivated by the quantum mechanics of angular momentum:
-if we combine a system with spin j~1~ and a system with spin j~2~, the
-spin j~3~ of the combined system satisfies exactly these constraints.
+if we combine a system with spin j_1 and a system with spin j_2, the
+spin j_3 of the combined system satisfies exactly these constraints.
 
 In Penrose's setup, a spin network represents a quantum state of the
 geometry of space. To justify this interpretation he did a lot of
@@ -62,12 +62,12 @@ instead described as a superposition of "spin network states". In
 other words, spin networks form a basis of the Hilbert space of states
 of quantum gravity, so we can write any state Ψ as
 
-Ψ = ∑ c~i~ ψ~i~
+Ψ = ∑ c_i ψ_i
 
-where ψ~i~ ranges over all spin networks and the coefficients c~i~ are
+where ψ_i ranges over all spin networks and the coefficients c_i are
 complex numbers. The simplest state is the one corresponding to good old
-flat Euclidean space. In this state, each coefficient c~i~ is just the
-Penrose evaluation of the corresponding spin network ψ~i~.
+flat Euclidean space. In this state, each coefficient c_i is just the
+Penrose evaluation of the corresponding spin network ψ_i.
 
 Actually, this interpretation wasn't fully understood until later, when
 Rovelli and Smolin showed how spin networks arise naturally in the
@@ -155,10 +155,10 @@ we've been calling "spins" are really irreducible representations of
 SU(2). If we orient the edges of a spin network, we should label each
 vertex with an intertwiner from the tensor product of representations on
 the "incoming" edges to the tensor product of representations
-labelling the "outgoing" edges. When 3 edges labelled by spins j~1~,
-j~2~, j~3~ meet at a vertex, there is at most one intertwiner
+labelling the "outgoing" edges. When 3 edges labelled by spins j_1,
+j_2, j_3 meet at a vertex, there is at most one intertwiner
 
-f: j~1~ ⊗ j~2~\to j~3~,
+f: j_1 ⊗ j_2\to j_3,
 
 at least up to a scalar multiple. The conditions I wrote down - the
 triangle inequality and so on - are just the conditions for a nonzero
@@ -202,27 +202,27 @@ edge intersecting each triangular face.
 In such a spin network there are 4 edges meeting at each vertex, and the
 vertex is labelled with an intertwiner of the form
 
-f: j~1~ ⊗ j~2~\to j~3~ ⊗ j~4~
+f: j_1 ⊗ j_2\to j_3 ⊗ j_4
 
-where j~1~,...,j~4~ are the spins on these edges. If you know about the
-representation theory of SU(2), you know that j~1~ ⊗ j~2~ is a direct
-sum of representations of spin j~5~, where j~5~ goes from |j~1~ ---
-j~2~| up to j~1~ + j~2~ in integer steps. So we get a basis of
+where j_1,...,j_4 are the spins on these edges. If you know about the
+representation theory of SU(2), you know that j_1 ⊗ j_2 is a direct
+sum of representations of spin j~5~, where j~5~ goes from |j_1 ---
+j_2| up to j_1 + j_2 in integer steps. So we get a basis of
 intertwining operators:
 
-f: j~1~ ⊗ j~2~\to j~3~ ⊗ j~4~
+f: j_1 ⊗ j_2\to j_3 ⊗ j_4
 
 by picking one factoring through each representation j~5~:
 
-j~1~ ⊗ j~2~\to j~5~\to j~3~ ⊗ j~4~
+j_1 ⊗ j_2\to j~5~\to j_3 ⊗ j_4
 
 where:
 
-a) j~1~ + j~2~ + j~5~ is an integer and |j~1~ - j~2~| ≤ j~5~ ≤ j~1~ +
-j~2~
+a) j_1 + j_2 + j~5~ is an integer and |j_1 - j_2| ≤ j~5~ ≤ j_1 +
+j_2
 
-b) j~3~ + j~4~ + j~5~ is an integer and |j~3~ - j~4~| ≤ j~5~ ≤ j~3~ +
-j~4~.
+b) j_3 + j_4 + j~5~ is an integer and |j_3 - j_4| ≤ j~5~ ≤ j_3 +
+j_4.
 
 Using this, we get a basis of simplicial spin networks by labelling all
 the edges *and vertices* by spins satisfying the above conditions.
@@ -230,10 +230,10 @@ Dually, this amounts to labelling each tetrahedron and each triangle in
 our manifold with a spin! Let's think of it this way.
 
 Now focus on a particular simplicial spin network and a particular
-tetrahedron. What do the spins j~1~,...,j~5~ say about the geometry of
-the tetrahedron? By what I said earlier, the spins j~1~,...,j~4~
+tetrahedron. What do the spins j_1,...,j~5~ say about the geometry of
+the tetrahedron? By what I said earlier, the spins j_1,...,j_4
 describe the areas of the triangular faces: face number 1 has area
-proportional to (j~1~(j~1~+1))^½^, and so on. What about j~5~? It also
+proportional to (j_1(j_1+1))^½^, and so on. What about j~5~? It also
 describes an area. Take the tetrahedron and hold it so that faces 1 and
 2 are in front, while faces 3 and 4 are in back. Viewed this way, the
 outline of the tetrahedron is a figure with four edges. The midpoints of
@@ -244,7 +244,7 @@ spin network state is an eigenvector with eigenvalue proportional to
 (j~5~(j~5~+1))^½^. Finally, there is also a *volume operator*
 corresponding to the tetrahedron, whose action on our spin network state
 is given by a more complicated formula involving the spins
-j~1~,...,j~5~.
+j_1,...,j~5~.
 
 Well, that either made sense or it didn't... and I don't think either
 of us want to stick around to find out which! What's the bottom line,

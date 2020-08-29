@@ -146,9 +146,9 @@ I explained in ["Week 72"](#week72):
     right-moving fermionic modes have the same chirality.
 4.  E8 heterotic superstrings - closed strings where the left-moving
     modes are purely bosonic, with symmetry group E8 x E8.
-5.  Spin(32)/Z~2~ heterotic superstrings - closed strings where the
+5.  Spin(32)/Z_2 heterotic superstrings - closed strings where the
     left-moving modes are purely bosonic, with symmetry group
-    Spin(32)/Z~2~
+    Spin(32)/Z_2
 
 To get 4-dimensional physics out of any of these, we need to think of
 our 10-dimensional spacetime as a bundle with a little 6-dimensional
@@ -346,7 +346,7 @@ what I'm calling a "simplicial object", they would call an
 "augmented simplicial object". Oh well.
 
 Concretely, a simplicial object in a category amounts to a bunch of
-objects x~0~, x~1~, x~2~,... together with morphisms like this:
+objects x~0~, x_1, x_2,... together with morphisms like this:
 
                              ---i1->
                   ---i0->    ---i0->

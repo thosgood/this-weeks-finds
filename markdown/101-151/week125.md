@@ -32,7 +32,7 @@ claims.
 First I need to talk a bit about lattices and SL(2,Z). As I explained in
 ["Week 66"](#week66), a lattice in the complex plane consists of
 all points that are integer linear combinations of two complex numbers,
-say ω~1~ and ω~2~. However, we can change these numbers without changing
+say ω_1 and ω_2. However, we can change these numbers without changing
 the lattice by letting
 
                      ω'1 = a ω1 + b ω2
@@ -47,7 +47,7 @@ where
 
 is a 2×2 invertible matrix of integers whose inverse again consists of
 integers. Usually it's good to require that our transformation preserve
-the handedness of the basis (ω~1~, ω~2~), which means that this matrix
+the handedness of the basis (ω_1, ω_2), which means that this matrix
 should have determinant 1. Such matrices form a group called SL(2,Z). In
 the context of elliptic curves it's also called the "modular group".
 
@@ -87,13 +87,13 @@ words, every 2×2 integer matrix with determinant 1 can be written as a
 product of a bunch of copies of S, ST, and their inverses. Second, all
 the relations satisfied by S and ST follow from these obvious ones:
 
-S^4^ = 1
+S^4 = 1
 
 (ST)^6^ = 1
 
 together with
 
-S^2^ = (ST)^3^
+S^2 = (ST)^3
 
 which holds because both sides describe a 180 degree rotation.
 
@@ -133,7 +133,7 @@ example when you're first trying to learn this stuff. What does this
 space look like?
 
 Well, suppose we have an elliptic curve C/L. We can take our lattice L
-and describe it in terms of a right-handed basis (ω~1~, ω~2~). For the
+and describe it in terms of a right-handed basis (ω_1, ω_2). For the
 purposes of classifying the describing the elliptic curve up to
 isomorphism, it doesn't matter if we multiply these basis elements by
 some number z, so all that really matters is the ratio

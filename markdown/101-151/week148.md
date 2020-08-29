@@ -63,7 +63,7 @@ theory. For a precise definition of an elliptic curve I'll refer you to
 basically, it's a torus-shaped surface described by an algebraic
 equation like this:
 
-y^2^ = x^3^ + ax + b
+y^2 = x^3 + ax + b
 
 Any elliptic curve is naturally an abelian group, and the points on it
 with rational coordinates form a finitely generated subgroup. When are
@@ -229,7 +229,7 @@ Mathematical Physics 3 (2000), 418-471. Preprint available at
 [gr-qc/9905089](http://xxx.lanl.gov/abs/gr-qc/9905089).
 
 The idea is to consider the region of spacetime outside the black hole
-and assume that its boundary is a cylinder of the form R x S^2^. We
+and assume that its boundary is a cylinder of the form R x S^2. We
 demand that this boundary is an "isolated horizon" - crudely speaking,
 a surface that light cannot escape from, with no matter or gravitational
 radiation falling in for the stretch of time under consideration. To

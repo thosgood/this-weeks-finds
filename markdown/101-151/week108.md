@@ -136,14 +136,14 @@ F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F..... ?
 Well, actually, yes, if we're smart. What we do is this. We start by
 *guessing* the solution to our equation. How do we guess? Well, our
 solution f should have f(0) = 0, so just start with any function with
-this property. Call it f~1~. Then we improve this initial guess
+this property. Call it f_1. Then we improve this initial guess
 repeatedly by letting
 
-f~2~ = F(f~1~)
+f_2 = F(f_1)
 
-f~3~ = F(f~2~)
+f_3 = F(f_2)
 
-f~4~ = F(f~3~)
+f_4 = F(f_3)
 
 and so on. Now for the fun part: we show that these guesses get closer
 and closer to each other... so that they converge to some function f

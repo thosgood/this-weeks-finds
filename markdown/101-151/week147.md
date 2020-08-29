@@ -244,7 +244,7 @@ space X.
 So: let's define the "homotopy cardinality" of a topological space X
 to be the alternating product
 
-|X|   =   |\pi~1~(X)|^-1^   |\pi~2~(X)|   |\pi~3~(X)|^-1^ ....
+|X|   =   |\pi_1(X)|^-1^   |\pi_2(X)|   |\pi_3(X)|^-1^ ....
 
 when X is connected and the product converges; if X is not connected,
 let's define its homotopy cardinality to be the sum of the homotopy
@@ -315,9 +315,9 @@ something mysterious about homotopy cardinality.
 Homotopy cardinality is formally very similar to Euler characteristic.
 The Euler characteristic χ(X) is given by the alternating sum
 
-χ(X) = dim(H~0~(X)) - dim(H~1~(X)) + dim(H~2~(X)) - ....
+χ(X) = dim(H~0~(X)) - dim(H_1(X)) + dim(H_2(X)) - ....
 
-whenever the sum converges, where H~n~(X) is a vector space over the
+whenever the sum converges, where H_n(X) is a vector space over the
 rational numbers called the nth rational homology group of X. Just as
 for homotopy cardinality, we have
 
@@ -345,13 +345,13 @@ they're really the same guy.
 But there are some weird ways to try to force the issue and compute both
 quantities for certain spaces. For example, suppose G is a finite group.
 Then we can build BG starting from a simplicial set with 1 nondegenerate
-0-simplex, |G|-1 nondegenerate 1-simplices, (|G|-1)^2^ nondegenerate
+0-simplex, |G|-1 nondegenerate 1-simplices, (|G|-1)^2 nondegenerate
 2-simplices, and so on. If there were only finitely many nondegenerate
 simplices of all dimensions, we could compute the Euler characteristic
 of this space as the alternating sum of the numbers of such simplices.
 So let's try doing that here! We get:
 
-c(BG) = 1 - (|G|-1) + (|G|-1)^2^ - ....
+c(BG) = 1 - (|G|-1) + (|G|-1)^2 - ....
 
 Of course the sum diverges, but if we go ahead and use the geometric
 formula anyway, we get
@@ -563,7 +563,7 @@ remarks....
 > Recall that we can take a pointed space X and form a pointed space LX
 > of loops in X that start and end at the basepoint. This clearly has
 >
-> \pi~n+1~(X) = \pi~n~(LX)
+> \pi~n+1~(X) = \pi_n(LX)
 >
 > so if X is connected and tame we'll have
 >
@@ -586,13 +586,13 @@ remarks....
 > G to a connected pointed space, you have to form BG, which has all the
 > same homotopy groups but just pushed up one notch:
 >
-> \pi~n+1~(BG) = \pi~n~(G)
+> \pi~n+1~(BG) = \pi_n(G)
 >
 > And to go from a connected point space X to a topological group, you
 > have to form LX, which has all the same homotopy groups but just
 > pushed down one notch:
 >
-> \pi~n-1~(LX) = \pi~n~(X)
+> \pi~n-1~(LX) = \pi_n(X)
 >
 > This is actually the trick you are playing, in slight disguise.
 >

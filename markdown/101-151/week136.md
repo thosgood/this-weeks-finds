@@ -204,7 +204,7 @@ t(s(x)) = t(t(x))
 
 s(i(x)) = t(i(x)) = x.
 
-We call the elements of X~n~ are "n-cells", and call s(x) and t(x) the
+We call the elements of X_n are "n-cells", and call s(x) and t(x) the
 "source" and "target" of the n-cell x, respectively. If s(x) = a and
 t(x) = b, we think of x as going from a to b, and write x: a\to b.
 

@@ -17,7 +17,7 @@ has been bugging me for a while now.
 In fact, it bugs me so much that I decided to go to Corvallis to look
 for clues. After all, in addition to Tevian Dray and Corinne Manogue ---
 the former a mathematician, the latter a physicist, both deeply
-interested in octonions - a bunch of other octonion experts were going
+interested in octonions --- a bunch of other octonion experts were going
 to be there. One was my friend Geoffrey Dixon. I told you about him in
 ["Week 59"](#week59). He wrote a book on the complex numbers,
 quaternions and octonions and their role in physics. He has a theory of
@@ -62,25 +62,17 @@ need to understand this "unified theory of exceptions".
 Let's start by recalling what the octonions are!
 
 I presume you know the real numbers. The complex numbers are things like
-
-a + bi
-
-where a and b are real. We can multiply them using the rule
-
-i^2^ = -1
-
+$$a + bi$$
+where $a$ and $b$ are real. We can multiply them using the rule
+$$i^2 = -1$$
 They may seem mysterious when you first meet them, but they lose their
 mystery when you see they are just a nice way of keeping track of
 rotations in the plane.
 
 Similarly, the quaternions are guys like
-
-a + bi + cj + dk
-
+$$a + bi + cj + dk$$
 which we can multiply using the rules
-
-i^2^ = j^2^ = k^2^ = -1
-
+$$i^2 = j^2 = k^2 = -1$$
 and
 
 ij = k, jk = i, ki = j
@@ -106,7 +98,7 @@ see:
 Dame, Notre Dame, 1967.
 
 Octonions were invented by Cayley later on in the 1800s. For these, we
-start with *seven* square roots of -1, say e~1~ up to e~7~. To learn how
+start with *seven* square roots of -1, say e_1 up to e~7~. To learn how
 multiply these, draw the following diagram:
 
 ::: {align="CENTER"}
@@ -117,7 +109,7 @@ multiply these, draw the following diagram:
 
 Draw a triangle, draw a line from each vertex to the midpoint of the
 opposite edge, and inscribe a circle in the triangle. Label the 7 points
-shown with e~1~ through e~7~ - it doesn't matter how, I've just drawn
+shown with e_1 through e~7~ - it doesn't matter how, I've just drawn
 my favorite way. Draw arrows on the edges of the triangle going around
 clockwise, draw arrows on the circle also going around clockwise, and
 draw arrows on the three lines pointing from each vertex of the triangle
@@ -128,13 +120,13 @@ Okay. Now you have your very own octonion multiplication table. Notice
 that there are six lines and a circle in your picture. Each one of these
 gives us a copy of the quaternions inside the octonions. For example,
 say you want to multiply e~6~ and e~7~. You notice that the the vertical
-line says "e~6~, e~7~, e~2~" on it as we follow the arrow down. Thus,
+line says "e~6~, e~7~, e_2" on it as we follow the arrow down. Thus,
 just as for i, j, and k in the quaternions, we have
 
     e6 e7 =  e2,   e7 e2 =  e6,   e2 e6 =  e7
     e7 e6 = -e2,   e2 e7 = -e6,   e6 e2 = -e7
 
-So in particular we have e~6~ e~7~ = e~2~.
+So in particular we have e~6~ e~7~ = e_2.
 
 In case you lose your octonion table, don't worry: you don't really
 need to remember the *names* of those 7 square roots of -1 and their
@@ -159,13 +151,13 @@ octonion. Better still, they form a "normed" division algebra. Just as
 with the reals, complexes, and quaternions, we can define the norm of
 the octonion
 
-x = a~0~ + a~1~ e~1~ + a~2~ e~2~ + a~3~ e~3~ + a~4~ e~4~ + a~5~ e~5~ +
+x = a~0~ + a_1 e_1 + a_2 e_2 + a_3 e_3 + a_4 e_4 + a~5~ e~5~ +
 a~6~ e~6~ + a~7~ e~7~
 
 to be
 
-|x| = sqrt(a~0~^2^ + a~1~^2^ + a~2~^2^ + a~3~^2^ + a~4~^2^ + a~5~^2^ +
-a~6~^2^ + a~7~^2^).
+|x| = sqrt(a~0~^2 + a_1^2 + a_2^2 + a_3^2 + a_4^2 + a~5~^2 +
+a~6~^2 + a~7~^2).
 
 What makes them a "normed division algebra" is that
 
@@ -262,7 +254,7 @@ not form a group since they aren't associative. SU(3) is related to the
 octonions more indirectly. The group of symmetries (or technically,
 "automorphisms") of the octonions is the exceptional group G2, which
 contains SU(3). To get SU(3), we can take the subgroup of G2 that
-preserves a given unit imaginary octonion... say e~1~. This is how
+preserves a given unit imaginary octonion... say e_1. This is how
 Dixon relates SU(3) to the octonions.
 
 However, why should one unit imaginary octonion be different from the
@@ -296,13 +288,13 @@ this:
 
 C~0~ = R
 
-C~1~ = C
+C_1 = C
 
-C~2~ = H
+C_2 = H
 
-C~3~ = H + H
+C_3 = H + H
 
-C~4~ = H(2)
+C_4 = H(2)
 
 C~5~ = C(4)
 
@@ -316,24 +308,24 @@ where K(n) stands for n x n matrices with entries taken from K = R, C,
 or H, and "+" stands for "direct sum". Note that C~8~ is the same as
 16 x 16 matrices with entries taken from C~0~. That's part of a general
 pattern called "Bott periodicity": in general, C~n+8~ is the same as
-16 x 16 matrices with entries taken from C~n~.
+16 x 16 matrices with entries taken from C_n.
 
-Now consider the dimension of the smallest real representation of C~n~.
+Now consider the dimension of the smallest real representation of C_n.
 It's easy to work this out if you keep in mind that the smallest
-representation of K(n) or K(n) + K(n) is on K^n^ - the vector space
+representation of K(n) or K(n) + K(n) is on K^n - the vector space
 consisting of n-tuples of elements of K. We get
 
 The dimension of the smallest real representation:
 
 of C~0~ is 1
 
-of C~1~ is 2
+of C_1 is 2
 
-of C~2~ is 4
+of C_2 is 4
 
-of C~3~ is 4
+of C_3 is 4
 
-of C~4~ is 8
+of C_4 is 8
 
 of C~5~ is 8
 
@@ -346,7 +338,7 @@ of C~8~ is 16
 Note that it increases at n = 1, 2, 4, and 8. These are the dimensions
 of R, C, H, and O. Coincidence?
 
-No! Indeed, C~n~ has a representation on a k-dimensional real vector
+No! Indeed, C_n has a representation on a k-dimensional real vector
 space if and only if the unit sphere in that vector space, S^k-1^,
 admits n linearly independent smooth vector fields. So the above table
 implies that:
@@ -355,7 +347,7 @@ The sphere S^0^ admits 0 linearly independent vector fields.
 
 The sphere S^1^ admits 1 linearly independent vector fields.
 
-The sphere S^3^ admits 3 linearly independent vector fields.
+The sphere S^3 admits 3 linearly independent vector fields.
 
 The sphere S^7^ admits 7 linearly independent vector fields.
 
@@ -395,7 +387,7 @@ and he writes:
 > arbitrary dimension. This means we're looking for a way to throw in
 > some spinors to the Lagrangian of a pure gauge theory:
 >
-> -1/4 F^2^
+> -1/4 F^2
 >
 > in a way that the new Lagrangian is invariant (up to a total
 > derivative) under some infinitesimal variations. These describe
@@ -421,7 +413,7 @@ and he writes:
 > For the Lagrangian we try the usual Yang-Mills term and add a
 > minimally coupled kinetic term for the fermions:
 >
-> -1/4 F^2^ + ig/2 ψ^†^ Γ^m^ D~m~ ψ
+> -1/4 F^2 + ig/2 ψ^†^ Γ^m^ D~m~ ψ
 >
 > Here D~m~ is the gauge covariant derivative and g is some number that
 > we can tune to to make this vanish under the above variations. When we
@@ -451,13 +443,13 @@ and he writes:
 > x^-^ = x^0^ - x^1^.
 >
 > Then we write the Γ~m~ as block matrices where Γ~+~ and Γ~-~ have the
-> +/- unit matrix as blocks and the others have γ~i~ as blocks where
-> γ~i~ are the SO(8) Dirac matrices (i=1,...,9). But they are
+> +/- unit matrix as blocks and the others have γ_i as blocks where
+> γ_i are the SO(8) Dirac matrices (i=1,...,9). But they are
 > intimately related to the octonions. Remember there is triality in
 > SO(8) which means that we can treat left-handed spinors, right-handed
 > spinors and vectors on an equal basis (see [week61](week61.html),
 > [week90](week90.html), [week91](week91.html)). Now I write out all
-> three indices of γ~i~. Because of triality I can use i,j,k for spinor,
+> three indices of γ_i. Because of triality I can use i,j,k for spinor,
 > dotted spinor and vector indices. Then it is known that
 >
 >                 γijk = cijk for i,j,k<8
@@ -467,7 +459,7 @@ and he writes:
 >                       0 for more than 2 of ijk equal 8.
 >
 > is a representation of Cliff(8) if c~ijk~ are the structure constants
-> of the octonions (i.e. e~i~ e~j~ = c~ijk~ e~k~ for the 7 roots of -1
+> of the octonions (i.e. e_i e~j~ = c~ijk~ e~k~ for the 7 roots of -1
 > in the octonions).
 >
 > When you plug this representation of the Γ's in the above mentioned γ

@@ -226,7 +226,7 @@ What does the conjecture say?
 Well, first you have to know a bit about elliptic curves. An "elliptic
 curve" is the space of solutions of an equation like this:
 
-y^2^ = x^3^ + ax + b
+y^2 = x^3 + ax + b
 
 They come up naturally in string theory, and I've talked about them
 already in ["Week 13"](#week13) and ["Week 124"](#week124) ---
@@ -279,7 +279,7 @@ f((a τ + b)/(c τ + d)) = (c τ + d)^k^ f(τ)
 for some integer k. We also require that f satisfy some growth
 conditions as τ\to\infty, so we can expand it as a Taylor series
 
-f(τ) = ∑ a~n~ q^n^
+f(τ) = ∑ a_n q^n
 
 where
 
@@ -302,11 +302,11 @@ And now we can say what it means for an elliptic curve to be modular! We
 say an elliptic curve E is "modular" if for some N there's a weight 2
 level N cusp form
 
-f(τ) = ∑ a~n~ q^n^
+f(τ) = ∑ a_n q^n
 
-normalized so that a~1~ = 1, with the property that
+normalized so that a_1 = 1, with the property that
 
-a~p~ = a(E,p)
+a_p = a(E,p)
 
 for all primes p at which E has good reduction.
 

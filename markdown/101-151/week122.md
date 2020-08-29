@@ -116,7 +116,7 @@ triangulations and mathematical logic, which Ambjorn mentions in his
 review article. In computer simulations using the dynamical
 triangulations approach, one wants to compute the average of certain
 quantities over all triangulations of a fixed compact manifold - e.g.,
-the 4-dimensional sphere, S^4^. The typical way to do this is to start
+the 4-dimensional sphere, S^4. The typical way to do this is to start
 with a particular triangulation and then keep changing it using various
 operations - "Pachner moves" - that are guaranteed to eventually take
 you from any triangulation of a compact 4-dimensional manifold to any
@@ -131,26 +131,26 @@ triangulations of the same manifold, blundering about using the Pachner
 moves will eventually get you from one to the other, but if they are
 *not*, you may never know for sure.
 
-On the other hand, S^4^ may be special. It's an open question whether
-or not S^4^ is "algorithmically detectable". In other words, it's an
+On the other hand, S^4 may be special. It's an open question whether
+or not S^4 is "algorithmically detectable". In other words, it's an
 open question whether or not there's an algorithm that can decide
 whether or not a triangulation is a triangulation of the 4-dimensional
 sphere.
 
-Now, suppose S^4^ is *not* algorithmically detectable. Then the maximum
+Now, suppose S^4 is *not* algorithmically detectable. Then the maximum
 number of Pachner moves it takes to get between two triangulations of
 the 4-sphere must grow really fast: faster than any computable function!
 After all, if it didn't, we could use this upper bound to know when to
 give up when using Pachner moves to try to reduce our triangulation to a
-known triangulation of S^4^. So there must be "bottlenecks" that make
-it hard to efficiently explore the set of all triangulations of S^4^
+known triangulation of S^4. So there must be "bottlenecks" that make
+it hard to efficiently explore the set of all triangulations of S^4
 using Pachner moves. For example, there must be pairs of triangulations
 such that getting from one to other via Pachner moves requires going
 through triangulations with a *lot* more 4-simplices.
 
 However, computer simulations using triangulations with up to 65,536
 4-simplices have not yet detected such "bottlenecks". What's going
-on? Well, maybe S^4^ actually *is* algorithmically detectable. Or
+on? Well, maybe S^4 actually *is* algorithmically detectable. Or
 perhaps it's not, but the bottlenecks only occur for triangulations
 that have more than 65,536 4-simplices to begin with. Interestingly, one
 dimension up, it's known that the 5-dimensional sphere is *not*
@@ -213,7 +213,7 @@ constant you get here can be explicitly computed. For example, it often
 involves numbers like ζ(n), where ζ is the Riemann zeta function, much
 beloved by number theorists:
 
-ζ(n) = 1/1^n^ + 1/2^n^ + 1/3^n^ + ....
+ζ(n) = 1/1^n + 1/2^n + 1/3^n + ....
 
 Kreimer noticed that if you take the Feynman diagram and do some tricks
 to turn it into a drawing of a knot or link, the constant you get is
@@ -235,8 +235,8 @@ theories Kreimer was studying when he discovered this stuff: *not*
 topological quantum field theories like Chern-Simons theory, which
 already have well-understood relationship to knot theory, but instead,
 field theories that ordinary particle physicists have been thinking
-about for decades, like quantum electrodynamics, \varphi^4^ theory in 4
-dimensions, and \varphi^3^ theory in 6 dimensions - field theories where
+about for decades, like quantum electrodynamics, \varphi^4 theory in 4
+dimensions, and \varphi^3 theory in 6 dimensions - field theories where
 renormalization is a deadly serious business, thanks to nasty problems
 like "overlapping divergences".
 

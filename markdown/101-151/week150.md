@@ -150,9 +150,9 @@ complex oriented cohomology theories. Last time I left off at the
 definition. So let me start with a little review, and then plunge ahead.
 
 A generalized cohomology theory assigns to each space × a bunch of
-groups h^n^(X), one for each integer n. We impose some axioms that make
+groups h^n(X), one for each integer n. We impose some axioms that make
 them work very much like ordinary cohomology. However, when × is a
-point, we no longer require that h^n^(X) is trivial for nonzero n. It
+point, we no longer require that h^n(X) is trivial for nonzero n. It
 may not seem like much, but it turns out to make a big difference! There
 are all sorts of very interesting examples.
 
@@ -193,7 +193,7 @@ understand, like Morava K-theory and Brown-Peterson theory.
 To round off this little tour, I guess I should add that there are lots
 of maps going between different generalized cohomology theories! As I
 explained in ["Week 149"](#week149), each generalized cohomology
-h^n^ corresponds to a "spectrum": a list of spaces, each being the
+h^n corresponds to a "spectrum": a list of spaces, each being the
 loop space of the next. Spectra form a category, and given a map between
 spectra we get a map between their generalized cohomology theories. So
 we shouldn't study these one of at a time: it's better to play around
@@ -226,7 +226,7 @@ ring.
 
 Another nice feature of ordinary cohomology is the first Chern class.
 Whenever you have a complex line bundle over a space X, you get an
-invariant called its "first Chern class" which lives in H^2^(X), and
+invariant called its "first Chern class" which lives in H^2(X), and
 this invariant is sufficiently powerful to completely classify such line
 bundles. Last week I described the *universal* line bundle over
 infinite-dimensional complex projective space:
@@ -237,7 +237,7 @@ and showed how the first Chern class of *any* line bundle comes from the
 first Chern class of this one, which I called c.
 
 If a generalized cohomology theory is multiplicative and there's an
-element c of h^2^(CP^\infty^) that acts like the first Chern class of the
+element c of h^2(CP^\infty^) that acts like the first Chern class of the
 universal line bundle, we call the theory "complex oriented". Of
 course, to make this precise we need to isolate the key features of the
 first Chern class and abstract them. I did this in
@@ -255,7 +255,7 @@ universal line bundle by some map
 f: X\to CP^\infty^.
 
 Thus, given a line bundle we can find such a map f and use it to pull
-back the element c to get an element of h^2^(X). This is exactly like
+back the element c to get an element of h^2(X). This is exactly like
 the usual first Chern class of our line bundle, except now we're using
 a generalized cohomology theory instead of ordinary cohomology.
 

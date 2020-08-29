@@ -92,7 +92,7 @@ magical properties of the number 24 conspire to make things work out.
 
 What are these magical properties of the number 24? Well,
 
-1^2^ + 2^2^ + 3^2^ + ... + 24^2^
+1^2 + 2^2 + 3^2 + ... + 24^2
 
 is itself a perfect square, and 24 is the only integer with this
 property besides silly ones like 0 and 1. As described in

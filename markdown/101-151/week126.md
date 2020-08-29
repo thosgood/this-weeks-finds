@@ -59,14 +59,14 @@ simple formulas in terms of the rest. This lets us think of our string
 as a field X with only n-2 components. And when we do this, it satisfies
 the simplest equation you could imagine! Namely, the wave equation
 
-(d^2^/dt^2^ - d^2^/dx^2^) X(t,x) = 0
+(d^2/dt^2 - d^2/dx^2) X(t,x) = 0
 
 This is same equation that describes an idealized violin string. The
 only difference is that now, instead of a segment of violin string, we
 have a bunch of closed loops of string. The energy, or Hamiltonian, is
 also given by the usual wave equation Hamiltonian:
 
-H = (1/2) ∫ \[(dX/dt)^2^ + (dX/dx)^2^\] dx
+H = (1/2) ∫ \[(dX/dt)^2 + (dX/dx)^2\] dx
 
 The first term represents the kinetic energy of the string, while the
 second represents its potential energy - the energy it has due to being
@@ -180,7 +180,7 @@ and Γ is the famous function with Γ(n) = (n-1)! for n = 1,2,3,... and
 
 and
 
-ζ(2) = \pi^2^/6,
+ζ(2) = \pi^2/6,
 
 the functional equation implies ζ(-1) = -1/12. But of course you have to
 prove the functional equation! A nice exposition of this can be found
@@ -198,7 +198,7 @@ D = d/dx
 Then Taylor's formula says that translating a function to the left by a
 distance c is the same as applying the operator e^cD^ to it, since
 
-e^cD^ f = f + cf′ + (c^2^/2!)f″ + ...
+e^cD^ f = f + cf′ + (c^2/2!)f″ + ...
 
 Using some formal manipulations we obtain
 
@@ -218,20 +218,20 @@ obtaining
 
 where
 
-F(x) = x^2^/2
+F(x) = x^2/2
 
 To finish the job, we work out the beginning of the Taylor series for
 D/(1 - e^D^). The coefficients of this are closely related to the
 Bernoulli numbers, and this could easily lead us into further
 interesting digressions, but all we need to know is
 
-D/(1 - e^D^) = -1 + D/2 - D^2^/12 + ....
+D/(1 - e^D^) = -1 + D/2 - D^2/12 + ....
 
-Applying this operator to F(x) = x^2^/2 and evaluating the result at x =
-0, the only nonzero term comes from the D^2^ term in the power series,
+Applying this operator to F(x) = x^2/2 and evaluating the result at x =
+0, the only nonzero term comes from the D^2 term in the power series,
 so we get
 
-1 + 2 + 3 + .... = \[(-D^2^/12) F\](0) = -1/12
+1 + 2 + 3 + .... = \[(-D^2/12) F\](0) = -1/12
 
 Voilà!
 
@@ -331,17 +331,17 @@ curve is not just an abstract torus-shaped thingie. We can also think of
 it as the set of complex solutions of the following cubic equation in
 two variables:
 
-y^2^ = 4x^3^ - g~2~ x - g~3~
+y^2 = 4x^3 - g_2 x - g_3
 
-where the numbers g~2~ and g~3~ are certain functions of τ. Moreover,
+where the numbers g_2 and g_3 are certain functions of τ. Moreover,
 this equation defines an elliptic curve whenever the polynomial on the
 right-hand side doesn't have repeated roots. So among other things,
 elliptic curves are really just a way of studying cubic equations!
 
-But when does 4x^3^ - g~2~ x - g~3~ have repeated roots? Precisely when
+But when does 4x^3 - g_2 x - g_3 have repeated roots? Precisely when
 the "discriminant"
 
-Δ = g~2~^3^ - 27 g~3~^2^
+Δ = g_2^3 - 27 g_3^2
 
 equals zero. This is just the analog for cubics of the more familiar
 discriminant for quadratic equations.

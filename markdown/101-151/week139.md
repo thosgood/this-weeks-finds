@@ -126,7 +126,7 @@ Let's work in units where Planck's constant and the speed of light are
 G is Newton's gravitational constant. We need to get something
 dimensionless when we integrate the Lagrangian over spacetime to get the
 action, since we exponentiate the action when doing path integrals in
-quantum field theory. Curvature has dimensions of 1/length^2^, so when
+quantum field theory. Curvature has dimensions of 1/length^2, so when
 spacetime has dimension n, G must have dimensions of length^n-2^.
 
 This means that if you are a tiny little person with a ruler X times

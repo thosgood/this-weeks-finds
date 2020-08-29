@@ -332,11 +332,11 @@ technique of generating functions:
 Also available for free at <http://www.cis.upenn.edu/~wilf/>
 
 Briefly, the idea is to make up a power series T(x) where the
-coefficient of x^n^ is the number of n-leaved binary trees. Since by
+coefficient of x^n is the number of n-leaved binary trees. Since by
 some irritating accident of history people call this the (n-1)st Catalan
 number, we have:
 
-T(x) = sum C~n-1~ x^n^
+T(x) = sum C~n-1~ x^n
 
 We can do this trick whenever we're counting how many structures of
 some sort we can put on an n-element set. Nice operations on structures
@@ -350,7 +350,7 @@ So: what is a binary tree? It's either a binary tree with one leaf (the
 degenerate case) or a pair of binary trees stuck together. Now let's
 translate this fact into an equation:
 
-T = x + T^2^
+T = x + T^2
 
 Huh? Well, in this game "plus" corresponds to "or", "times"
 corresponds to "and", and the power series "x" is the generating
@@ -365,13 +365,13 @@ T = (1 - sqrt(1 - 4x))/2.
 
 Now if we do a Taylor expansion we get
 
-T = x + x^2^ + 2x^3^ + 5x^4^ + 14x^5^ + 42x^6^ + ...
+T = x + x^2 + 2x^3 + 5x^4 + 14x^5^ + 42x^6^ + ...
 
 Lo and behold - the Catalan numbers! If we're a bit smarter and use the
 binomial theorem and mess around a bit, we get a closed-form formula for
 the Catalan numbers:
 
-C~n~ = (2n choose n)/(n + 1)
+C_n = (2n choose n)/(n + 1)
 
 Neat, huh? If you want to understand the category-theoretic foundations
 of this trick, read about Joyal's concept of "species". This makes

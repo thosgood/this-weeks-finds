@@ -199,7 +199,7 @@ satisfying the magic equation
                             di di+1 x = 0
 
 This equation says that the image of d~i+1~ is contained in the kernel
-of d~i~, so we may define the "homology groups" to be the quotients
+of d_i, so we may define the "homology groups" to be the quotients
 
                      Hi(C) = ker(di) / im(di+1)   
 
@@ -263,13 +263,13 @@ unit interval. It looks like this:
                  d1      d2       d3      d4
            Z+Z <---- Z <---- 0 <----- 0 <----- ...
 
-The only nonzero boundary homomorphism is d~1~, which is given by
+The only nonzero boundary homomorphism is d_1, which is given by
 
                        d1(x) = (x,-x)
 
-(Why? We take I~1~ = Z and I~0~ = Z+Z because the interval is built out
+(Why? We take I_1 = Z and I~0~ = Z+Z because the interval is built out
 of one 1-dimensional thing, namely itself, and two 0-dimensional things,
-namely its endpoints. We define d~1~ the way we do since the boundary of
+namely its endpoints. We define d_1 the way we do since the boundary of
 an oriented interval consists of two points: its initial endpoint, which
 is positively oriented, and its final endpoint, which is negatively
 oriented. This remark is bound to be obscure to anyone who hasn't
@@ -317,7 +317,7 @@ In fact, we've got a functor
                     Hn: Chain\to Ab.
 
 And even better, if f: C\to C' and g: C\to C' are chain homotopic, then
-H~n~(f) and H~n~(g) are equal. So we say: "homology is
+H_n(f) and H_n(g) are equal. So we say: "homology is
 homotopy-invariant".
 
 ------------------------------------------------------------------------
@@ -327,13 +327,13 @@ explain a cool way of getting chain complexes, which goes a long way
 towards explaining why they're important. Recall from item D. in
 ["Week 115"](#week115) that a simplicial abelian group is a
 contravariant functor C: Δ\to Ab. In particular, it gives us an abelian
-group C~n~ for each object n of Δ, and also "face" homomorphisms
+group C_n for each object n of Δ, and also "face" homomorphisms
 
              partial0, ...., partialn-1: Cn\to Cn-1
 
 coming from all the ways the simplex with (n-1) vertices can be a face
 of the simplex with n vertices. We can thus can make C into a chain
-complex by defining d~n~: C~n~\to C~n-1~ as follows:
+complex by defining d_n: C_n\to C~n-1~ as follows:
 
                     dn = sum (-1)i partiali 
 

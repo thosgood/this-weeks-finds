@@ -487,7 +487,7 @@ which satisfies the pentagon identity *up to a pentagonator* which
 satisfies it's own coherence law up to something, ad infinitum. The
 concept goes back to Stasheff's work on A~\infty~ spaces - spaces with a
 homotopy equivalence to a space equipped with an associative product.
-(These are the same thing as what I called E~1~ spaces in the
+(These are the same thing as what I called E_1 spaces in the
 translation dictionary between n-groupoid theory and homotopy theory.)
 But here it's been transported from Top over to Vect. Similarly, an
 L~\infty~ algebra is a Lie algebra "up to an infinity of higher coherence

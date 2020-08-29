@@ -67,7 +67,7 @@ huh?
 But it's actually not so weird. The space of complex functions on the
 (n-1)-sphere is naturally a representation of SO(n). But there's
 another way to think of this representation. Consider an triangle in
-R^n^. We can associate vectors to two of its edges, say v and w, and
+R^n. We can associate vectors to two of its edges, say v and w, and
 form the wedge product of these vectors to get a bivector v ^ w. This
 bivector describes the area element associated to the triangle. If we
 pick an orientation for the triangle, this bivector is uniquely
@@ -81,10 +81,10 @@ space, so it becomes a representation of SO(n). And this representation
 is isomorphic to the space of complex functions on the (n-1)-sphere!
 
 Thus, we can think of a complex function on the (n-1)-sphere as a
-"quantum triangle" in R^n^, as long as we really just care about the
+"quantum triangle" in R^n, as long as we really just care about the
 area element associated to the triangle. One can develop this analogy in
 detail and make it really precise. In particular, one can describe a
-"quantum tetrahedron" in R^n^ as a collection of 4 quantum triangles
+"quantum tetrahedron" in R^n as a collection of 4 quantum triangles
 satisfying some constraints that say the fit together into a
 tetrahedron. These quantum tetrahedra act almost like ordinary
 tetrahedra when they are large, but when the areas of their faces
@@ -115,13 +115,13 @@ complex function on the 3-sphere. And I've told you that a "quantum
 tetrahedron" is a collection of 4 quantum triangles satisfying some
 constraints. More precisely, let
 
-H = L^2^(S^3^)
+H = L^2(S^3)
 
 be the Hilbert space for a quantum triangle in 4 dimensions. Then the
 Hilbert space for a quantum tetrahedron is a certain subspace T of H x H
 x H x H, where "x" denotes the tensor product of Hilbert spaces.
 Concretely, we can think of states in T as complex functions on the
-product of 4 copies of S^3^. These complex functions need to satisfy
+product of 4 copies of S^3. These complex functions need to satisfy
 some constraints, but let's not worry about those....
 
 Now let's "second quantize" the Hilbert space T. This is physics
@@ -129,7 +129,7 @@ jargon for making a Hilbert space out of the algebra of polynomials on T
 - usually called the "Fock space" on T. As usual, there are two
 pictures of states in this Fock space: the "field" picture and the
 "particle" picture. On the one hand, they are states of a quantum
-field theory on the product of 4 copies of S^3^. But on the other hand,
+field theory on the product of 4 copies of S^3. But on the other hand,
 they are states of an arbitrary collection of quantum tetrahedra in 4
 dimensions. In other words, we've got ourselves a quantum field theory
 whose "elementary particles" are quantum tetrahedra!
@@ -187,11 +187,11 @@ don't now have the energy to explain all that stuff. I'll just say
 this: everything I said above generalizes to the Lorentzian case. The
 main difference is that we use the 3-dimensional hyperboloid
 
-H^3^ = {t^2^ - x^2^ - y^2^ - z^2^ = 1}
+H^3 = {t^2 - x^2 - y^2 - z^2 = 1}
 
 wherever we'd been using the 3-sphere
 
-S^3^ = {t^2^ + x^2^ + y^2^ + z^2^ = 1}
+S^3 = {t^2 + x^2 + y^2 + z^2 = 1}
 
 It's sort of obvious in retrospect, but it's nice that it works out so
 neatly!

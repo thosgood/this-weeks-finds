@@ -38,13 +38,13 @@ here.)
 
 Bott periodicity takes many guises, and I already described one in
 ["Week 104"](#week104). Let's start with the real numbers, and
-then throw in n square roots of -1, say e~1~,...,e~n~. Let's make them
+then throw in n square roots of -1, say e_1,...,e_n. Let's make them
 "anticommute", so
 
-e~i~ e~j~ = - e~j~ e~i~
+e_i e~j~ = - e~j~ e_i
 
 when i is different from j. What we get is called the "Clifford
-algebra" C~n~. For example, when n = 1 we get the complex numbers,
+algebra" C_n. For example, when n = 1 we get the complex numbers,
 which we call C. When n = 2 we get the quaternions, which we call H, for
 Hamilton. When n = 3 we get... the octonions?? No, not the octonions,
 since we always demand that multiplication be associative! We get the
@@ -54,13 +54,13 @@ call that H(2). And it goes on, like this:
 
 C~0~ = R
 
-C~1~ = C
+C_1 = C
 
-C~2~ = H
+C_2 = H
 
-C~3~ = H + H
+C_3 = H + H
 
-C~4~ = H(2)
+C_4 = H(2)
 
 C~5~ = C(4)
 
@@ -72,7 +72,7 @@ C~8~ = R(16)
 
 Note that by the time we get to n = 8 we just have 16x16 matrices of
 real numbers. And that's how it keeps going: C~n+8~ is just 16x16
-matrices of guys in C~n~! That's Bott periodicity in its simplest form.
+matrices of guys in C_n! That's Bott periodicity in its simplest form.
 
 Actually right now I'm in Vienna, at the Schroedinger Institute, and
 one of the other people visiting is Andrzej Trautman, who gave a talk
@@ -112,7 +112,7 @@ symmetry about the axis from 3 o'clock to 7 o'clock. To use the clock,
 you need to know that the dimension of the Clifford algebra doubles each
 time you go up a dimension. This lets you figure out, for example, that
 the Clifford algebra in 4 dimensions is not really H, but H(2), since
-the latter has dimension 16 = 2^4^.
+the latter has dimension 16 = 2^4.
 
 Now let's completely change the subject and talk about rotations in
 infinite-dimensional space! What's a rotation in infinite-dimensional
@@ -158,7 +158,7 @@ in infinite dimensions.
 
 (Now if you know your math, or you read ["Week 82"](#week82),
 you'll realize that I didn't really change the subject, since the
-Clifford algebra C~n~ is really just a handy way to study rotations in n
+Clifford algebra C_n is really just a handy way to study rotations in n
 dimensions. But never mind.)
 
 Now O(\infty) is a very big group, but it elegantly summarizes a lot of
@@ -169,7 +169,7 @@ them a space X, and choose a point x in this space, they will work out
 all the topologically distinct ways you can stick an n-dimensional
 sphere in this space, where we require that the north pole of the sphere
 be at x. This is what they are paid to do. We call the set of all such
-ways the homotopy group \pi~n~(X). For a more precise description, try
+ways the homotopy group \pi_n(X). For a more precise description, try
 ["Week 102"](#week102) - but this will do for now.
 
 So, what are the homotopy groups of O(\infty)? Well, they start out looking
@@ -221,7 +221,7 @@ classified by the integers, Z. Actually this is true for O(n) whenever n
 is 5 or more. It's even true for all sorts of other groups, like all
 "compact simple groups". But can I summarize this entry in a snappy
 phrase like the previous nonzero entries? Not really. Actually a lot of
-applications of topology to quantum field theory rely on this \pi~3~
+applications of topology to quantum field theory rely on this \pi_3
 business. For example, it's the key to stuff like "instantons" in
 Yang-Mills theory, which are in turn crucial for understanding how the
 \pion gets its mass. It's also the basis of stuff like "Chern-Simons
@@ -244,14 +244,14 @@ is 7 or more.) But if we keep Bott periodicity in mind, there is another
 way to think of it: we can think of it as being about \pi~-1~, since 7 =
 -1 mod 8.
 
-But wait a minute! Since when can we talk about \pi~n~ when n is
+But wait a minute! Since when can we talk about \pi_n when n is
 *negative?!* What's a -1-dimensional sphere, for example?
 
 Well, the idea here is to use a trick. There is a space very related to
 O(\infty), called kO. As with O(\infty), the homotopy groups of this space repeat
 modulo 8. Moreover we have:
 
-\pi~n~(O(\infty)) = \pi~n+1~(kO)
+\pi_n(O(\infty)) = \pi~n+1~(kO)
 
 Combining these facts, we see that the very subtle \pi~7~ of O(\infty) is
 nothing but the very unsubtle \pi~0~ of kO, which just keeps track of how
@@ -269,9 +269,9 @@ To summarize:
 
 \pi~0~(O(\infty)) = Z/2 is about REFLECTING
 
-\pi~1~(O(\infty)) = Z/2 is about ROTATING 360 DEGREES
+\pi_1(O(\infty)) = Z/2 is about ROTATING 360 DEGREES
 
-\pi~3~(O(\infty)) = Z is about TOPOLOGICAL FIELD THEORY IN 4 DIMENSIONS
+\pi_3(O(\infty)) = Z is about TOPOLOGICAL FIELD THEORY IN 4 DIMENSIONS
 
 \pi~7~(O(\infty)) = Z is about DIMENSION
 
@@ -296,9 +296,9 @@ other words from the (n-1)-sphere to O(n). We thus get nice elements of
 
 \pi~0~(O(1))
 
-\pi~1~(O(2))
+\pi_1(O(2))
 
-\pi~3~(O(4))
+\pi_3(O(4))
 
 \pi~7~(O(8))
 
@@ -309,9 +309,9 @@ So now we have the following fancier chart:
 
 \pi~0~(O(\infty)) is about REFLECTING and the REAL NUMBERS
 
-\pi~1~(O(\infty)) is about ROTATING 360 DEGREES and the COMPLEX NUMBERS
+\pi_1(O(\infty)) is about ROTATING 360 DEGREES and the COMPLEX NUMBERS
 
-\pi~3~(O(\infty)) is about TOPOLOGICAL FIELD THEORY IN 4 DIMENSIONS and the
+\pi_3(O(\infty)) is about TOPOLOGICAL FIELD THEORY IN 4 DIMENSIONS and the
 QUATERNIONS
 
 \pi~7~(O(\infty)) is about DIMENSION and the OCTONIONS
@@ -365,7 +365,7 @@ up a space BG whose loop space is homotopy equivalent to G. In other
 words, the space of (base-point-preserving) maps from S^1^ to BG is
 homotopy equivalent to G. It follows that
 
-\pi~n~(G) = \pi~n+1~(BG).
+\pi_n(G) = \pi~n+1~(BG).
 
 This space BG is called the classifying space of G because it has a
 principal G-bundle over it, and given *any* decent topological space X
@@ -390,9 +390,9 @@ KX = \[X, BO(\infty)\]
 where the right-hand side means "homotopy classes of maps from X to
 BO(\infty)". If we take X to be S^n+1^, we see
 
-KS^n+1^ = \pi~n+1~(BO(\infty)) = \pi~n~(O(\infty))
+KS^n+1^ = \pi~n+1~(BO(\infty)) = \pi_n(O(\infty))
 
-It follows that we can get all elements of \pi~n~ of O(\infty) from real vector
+It follows that we can get all elements of \pi_n of O(\infty) from real vector
 bundles over S^n+1^.
 
 Of course, the above equations are true only for nonnegative n, since it
@@ -406,7 +406,7 @@ Alas, the equations don't make sense, and BO(\infty) is connected, so we
 don't have \pi~0~(BO(\infty)) = Z. However, we can cook up a slightly improved
 space kO, which has
 
-\pi~n~(kO) = \pi~n~(BO(\infty))
+\pi_n(kO) = \pi_n(BO(\infty))
 
 when n \> 0, but also has
 
@@ -419,25 +419,25 @@ kO = BO(\infty) x Z.
 So, let's use this instead of BO(\infty) from now on.
 
 Taking n = 0, we can think of S^1^ as RP^1^, the real projective line,
-i.e. the space of 1-dimensional real subspaces of R^2^. This has a
+i.e. the space of 1-dimensional real subspaces of R^2. This has a
 "canonical line bundle" over it, that is, a 1-dimensional real vector
 bundle which to each point of RP^1^ assigns the 1-dimensional subspace
-of R^2^ that *is* that point. This vector bundle over S^1^ gives the
+of R^2 that *is* that point. This vector bundle over S^1^ gives the
 generator of KS^1^, or in other words, \pi~0~(O(\infty)).
 
-Taking n = 1, we can think of S^2^ as the "Riemann sphere", or in
-other words CP^1^, the space of 1-dimensional complex subspaces of C^2^.
+Taking n = 1, we can think of S^2 as the "Riemann sphere", or in
+other words CP^1^, the space of 1-dimensional complex subspaces of C^2.
 This too has a "canonical line bundle" over it, which is a
 1-dimensional complex vector bundle, or 2-dimensional real vector
-bundle. This bundle over S^2^ gives the generator of KS^2^, or in other
-words, \pi~1~(O(\infty)).
+bundle. This bundle over S^2 gives the generator of KS^2, or in other
+words, \pi_1(O(\infty)).
 
-Taking n = 3, we can think of S^4^ as HP^1^, the space of 1-dimensional
-quaternionic subspaces of H^2^. The "canonical line bundle" over this
-gives the generator of KS^4^, or in other words, \pi~3~(O(\infty)).
+Taking n = 3, we can think of S^4 as HP^1^, the space of 1-dimensional
+quaternionic subspaces of H^2. The "canonical line bundle" over this
+gives the generator of KS^4, or in other words, \pi_3(O(\infty)).
 
 Taking n = 7, we can think of S^8^ as OP^1^, the space of 1-dimensional
-octonionic subspaces of O^2^. The "canonical line bundle" over this
+octonionic subspaces of O^2. The "canonical line bundle" over this
 gives the generator of KS^8^, or in other words, \pi~7~(O(\infty)).
 
 By Bott periodicity,
@@ -455,7 +455,7 @@ why the octonions are related to dimension.
 
 If for any pointed space we define
 
-K^n^(X) = K(S^n^ smash X)
+K^n(X) = K(S^n smash X)
 
 we get a cohomology theory called K-theory, and it turns out that
 
@@ -467,7 +467,7 @@ theories), and it is generated by elements of degrees 1, 2, 4, and 8.
 The generator of degree 8 is just the canonical line bundle over OP^1^
 and multiplication by this generator gives a map
 
-K^n^(\*)\to K^n+8^(\*)
+K^n(\*)\to K^n+8^(\*)
 
 which is an isomorphism of groups - namely, Bott periodicity! In this
 sense the octonions are responsible for Bott periodicity.
@@ -487,7 +487,7 @@ dimension, namely 2^p+q^. So say you're a string theorist and you think
 there are 9 space dimensions and 1 time dimension. You say: "Okay, 9 ---
 1 = 8, so I look and see what's at 8 o'clock. Okay, that's R, the
 real numbers. But my Clifford algebra C~9,1~ is supposed to have
-dimension 2^9\ +\ 1^ = 1024 = 32^2^, so my Clifford algebra must consist
+dimension 2^9\ +\ 1^ = 1024 = 32^2, so my Clifford algebra must consist
 of 32x32 *matrices* with real entries."
 
 By the way, it's not so easy to see that the canonical line bundle over

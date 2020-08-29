@@ -58,9 +58,9 @@ the photon corresponds to the generator of a sneakier U(1) subgroup
 sitting slantwise inside SU(2) x U(1); the basic formula to remember
 here is:
 
-Q = I~3~ + Y/2
+Q = I_3 + Y/2
 
-where Q is ordinary electric charge, I~3~ is the 3rd component of "weak
+where Q is ordinary electric charge, I_3 is the 3rd component of "weak
 isospin", i.e. the generator of SU(2) corresponding to the matrix
 
     (1/2   0)
@@ -141,11 +141,11 @@ rep, as does the right-handed down quark:
 
 That's it. If you want to study this stuff, try using the formula
 
-Q = I~3~ + Y/2
+Q = I_3 + Y/2
 
 to figure out the charges of all these particles. For example, since the
 right-handed electron transforms in the trivial rep of SU(2), it has
-I~3~ = 0, and if you look up there you'll see that it has Y = -2. This
+I_3 = 0, and if you look up there you'll see that it has Y = -2. This
 means that its electric charge is Q = -1, as we already knew.
 
 Anyway, we obviously have a bit of a mess on our hands! The Standard
@@ -392,7 +392,7 @@ point called the "basepoint". Then we can form the space LX of all
 One reason why LX is so nice is that its homotopy groups are the same as
 those of X, but shifted:
 
-\pi~i~(LX) = \pi~i+1~(X)
+\pi_i(LX) = \pi~i+1~(X)
 
 Another reason LX is nice is that it's almost a topological group,
 since one can compose based loops, and every loop has an "inverse".

@@ -66,12 +66,12 @@ Academic Press, New York, 1991.
 As I explained in ["Week 126"](#week126), a string traces out a
 surface in spacetime called the "string worldsheet". Let's keep life
 simple and assume the string worldsheet is a torus and that spacetime is
-Euclidean R^n^. Then to figure out the expectation value of any physical
+Euclidean R^n. Then to figure out the expectation value of any physical
 observable, we need to calculate its integral over the space of all maps
-from a torus to R^n^.
+from a torus to R^n.
 
 To make this precise, let's use X to denote a map from the torus to
-R^n^. Then a physical observable will be some function f(X), and its
+R^n. Then a physical observable will be some function f(X), and its
 expectation value will be
 
 (1/Z) ∫ f(X) exp(-S(X)) dX
@@ -119,7 +119,7 @@ into a double integral:
 Z = ∫ ( ∫ exp(-\<X, ΔX\>) dX) dg
 
 where Δ is the Laplacian on the torus and the angle brackets stand for
-the usual inner product of R^n^-valued functions, both defined using the
+the usual inner product of R^n-valued functions, both defined using the
 metric g.
 
 At first glance Polyakov's trick may seem like a step backwards: now we
@@ -132,7 +132,7 @@ cancel later anyway, the inside integral works out to be:
 (det Δ)^-1/2^
 
 But wait! The Laplacian here is a linear operator on the vector space of
-R^n^-valued functions on the torus. This is an infinite-dimensional
+R^n-valued functions on the torus. This is an infinite-dimensional
 vector space, so we can't blithely talk about determinants the way we
 can in finite dimensions. In finite dimensions, the determinant of a
 self-adjoint matrix is the product of its eigenvalues. But the Laplacian
@@ -207,7 +207,7 @@ Z = ∫ (det Δ)^-1/2^ dg
 
 and then we figured out a meaning for the determinant here.
 
-What next? Well, since the Laplacian on R^n^-valued functions is the
+What next? Well, since the Laplacian on R^n-valued functions is the
 direct sum of n copies of the Laplacian on real-valued functions, we
 expect that
 
@@ -336,7 +336,7 @@ zeta function regularization to compute its determinant. Di Francesco,
 Mathieu, and Senechal do this in the textbook I talked about in
 ["Week 124"](#week124). They get
 
-∫ exp(-\<X, laplacian X\>) dX = 1 / (√Im(τ) |η(τ)|^2^)
+∫ exp(-\<X, laplacian X\>) dX = 1 / (√Im(τ) |η(τ)|^2)
 
 where "η" is the Dedekind eta function, regarded as function of τ. But
 the calculation is pretty brutal, and it seems to me that there should
@@ -397,7 +397,7 @@ The Dedekind eta function satisfies
 The second one is really easy to see from the definition; the first one
 is harder. Anyway, using these facts it's easy to see that
 
-1 / (√Im(τ) |η(τ)|^2^)
+1 / (√Im(τ) |η(τ)|^2)
 
 is invariant under PSL(2,Z), so it's really a function on moduli space
 --- but only if that factor of 1/sqrt(Im(τ)) is in there!
@@ -443,7 +443,7 @@ works out the first Chern class of both bundles using the index theorem
 for families, and he gets something involving the Todd genus - and the
 Todd genus, as we all know, is defined using the same function
 
-x / (1 - e^x^) = -1 + x/2 - x^2^/12 + ...
+x / (1 - e^x^) = -1 + x/2 - x^2/12 + ...
 
 that we talked about in ["Week 126"](#week126) when computing the
 zero-point energy of the bosonic string! And yet again, it's that darn
@@ -515,8 +515,8 @@ Notes and digressions:
     Symp. Pure Math. 10 (1967), 288-307.
 
 -   Why is the Polyakov action \<X, ΔX\> conformally invariant? Because
-    the Laplacian has dimensions of 1/length^2^, while the integral used
-    to define the inner product has dimensions of length^2^, since the
+    the Laplacian has dimensions of 1/length^2, while the integral used
+    to define the inner product has dimensions of length^2, since the
     torus is 2-dimensional. This is the magic of 2 dimensions! The path
     integral for higher-dimensional "branes" has not yet been made
     precise, because this magic doesn't happen there.

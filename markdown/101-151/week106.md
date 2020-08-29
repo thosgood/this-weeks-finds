@@ -17,16 +17,16 @@ stuff that everyone should know, good nutritious mathematics, so I
 won't need to feel too guilty about serving the extravagant octonionic
 dessert which follows.
 
-Start with R^n^, good old n-dimensional Euclidean space. We can imagine
+Start with R^n, good old n-dimensional Euclidean space. We can imagine
 wanting to "compactify" this so that if you go sailing off to infinity
 in some direction you'll come sailing back from the other side like
 Magellan. There are different ways to do this. A well-known one is to
-take R^n^ and add on one extra "point at infinity", obtaining the
-n-dimensional sphere S^n^. Here the idea is that start anywhere in R^n^
+take R^n and add on one extra "point at infinity", obtaining the
+n-dimensional sphere S^n. Here the idea is that start anywhere in R^n
 and start sailing in any direction, you are sailing towards this "point
 at infinity".
 
-But there is a sneakier way to compactify R^n^, which gives us not the
+But there is a sneakier way to compactify R^n, which gives us not the
 n-dimensional sphere but "projective n-space". Here we add on a lot of
 points, one for each line through the origin. Now there are *lots* of
 points at infinity, one for every direction! The idea here is that if
@@ -37,31 +37,31 @@ infinity. It's a bit like a perspective picture where different
 families of parallel lines converge to different points on the horizon ---
 the points on the horizon being points at infinity.
 
-Projective n-space is also called RP^n^. The R is for "real", since
+Projective n-space is also called RP^n. The R is for "real", since
 this is actually "real projective n-space". Later we'll see what
 happens if we replace the real numbers by the complex numbers,
 quaternions, or octonions.
 
-There are some other ways to think about RP^n^ that are useful either
+There are some other ways to think about RP^n that are useful either
 for visualizing it or doing calculations. First a nice way to visualize
-it. First take R^n^ and squash it down so it's just the ball of radius
+it. First take R^n and squash it down so it's just the ball of radius
 1, or more precisely, the "open ball" consisting of all vectors of
 length less than 1. We can do this using a coordinate transformation
 like:
 
-x |→ x' = x/(1 + |x|^2^)^½^
+x |→ x' = x/(1 + |x|^2)^½^
 
-Here x stands for a vector in R^n^ and |x| is its length. Dividing the
-vector x by (1 + |x|^2^)^½^ gives us a vector x' whose length never
+Here x stands for a vector in R^n and |x| is its length. Dividing the
+vector x by (1 + |x|^2)^½^ gives us a vector x' whose length never
 quite gets to 1, though it can get as close at it likes. So we have
-squashed R^n^ down to the open ball of radius 1.
+squashed R^n down to the open ball of radius 1.
 
-Now say you start at the origin in this squashed version of R^n^ and
+Now say you start at the origin in this squashed version of R^n and
 sail off in any direction in a straight line. Then you are secretly
 heading towards the boundary of the open ball. So the points an the
 boundary of the open ball are like "points at infinity".
 
-We can now compactify R^n^ by including these points at infinity. In
+We can now compactify R^n by including these points at infinity. In
 other words, we can work not with the open ball but with the "closed
 ball" consisting of all vectors x' whose length is less than or equal
 to 1.
@@ -86,13 +86,13 @@ annoying exceptions: even "parallel" lines intersect in a single
 point, which just happens to be a point at infinity. This simplifies
 life enormously.
 
-Okay, so RP^n^ is the space formed by taking a closed n-dimensional ball
+Okay, so RP^n is the space formed by taking a closed n-dimensional ball
 and identifying pairs of antipodal points on its boundary.
 
-A more abstract way to think of RP^n^, which is incredibly useful in
+A more abstract way to think of RP^n, which is incredibly useful in
 computations, is as the set of all lines through the origin in R^n+1^.
 Why is this the same thing? Well, let me illustrate it in an example.
-What's the space of lines through the origin in R^3^? To keep track of
+What's the space of lines through the origin in R^3? To keep track of
 these lines, draw a sphere around the origin. Each line through the
 origin intersects this sphere in two points. Either one point is in the
 northern hemisphere and the other is in the southern hemisphere, or both
@@ -102,47 +102,47 @@ points on the equator. This is just the same as taking the closed
 2-dimensional ball and identifying antipodal points on the boundary!
 QED. The same argument works in higher dimensions too.
 
-Now that we know a point in RP^n^ is just a line through the origin in
-R^n+1^, it's easy to put coordinates on RP^n^. There's one line
+Now that we know a point in RP^n is just a line through the origin in
+R^n+1^, it's easy to put coordinates on RP^n. There's one line
 through the origin passing through any point in R^n+1^, but if we
-multiply the coordinates (x~1~,...,x~n+1~) of this point by any nonzero
+multiply the coordinates (x_1,...,x~n+1~) of this point by any nonzero
 number we get the same line. Thus we can use a list of n+1 real numbers
-to describe a point in RP^n^, with the proviso that we get the same
-point in RP^n^ if someone comes along and multiplies them all by some
+to describe a point in RP^n, with the proviso that we get the same
+point in RP^n if someone comes along and multiplies them all by some
 nonzero number! These are called "homogeneous coordinates".
 
 If you don't like the ambiguity of homogeneous coordinates, you can go
-right ahead and divide all the coordinates by the real number x~1~,
+right ahead and divide all the coordinates by the real number x_1,
 getting
 
-(1, x~2~/x~1~, ... , x~n+1~/x~1~)
+(1, x_2/x_1, ... , x~n+1~/x_1)
 
-which lets us describe a point in RP^n^ by n real numbers, as befits an
-n-dimensional real manifold. Of course, this won't work if x~1~ happens
-to be zero! But we can divide by x~2~ if x~2~ is nonzero, and so on.
-*One* of them has to be nonzero, so we can cover RP^n^ with n+1
+which lets us describe a point in RP^n by n real numbers, as befits an
+n-dimensional real manifold. Of course, this won't work if x_1 happens
+to be zero! But we can divide by x_2 if x_2 is nonzero, and so on.
+*One* of them has to be nonzero, so we can cover RP^n with n+1
 different coordinate patches corresponding to the regions where
-different x~i~'s are nonzero. It's easy to change coordinates, too.
+different x_i's are nonzero. It's easy to change coordinates, too.
 
 This makes everything very algebraic, which makes it easy to generalize
-RP^n^ by replacing the real numbers with other number systems. For
-example, to define "complex projective n-space" or CP^n^, just replace
+RP^n by replacing the real numbers with other number systems. For
+example, to define "complex projective n-space" or CP^n, just replace
 the word "real" by the word "complex" in the last two paragraphs,
-and replace "R" by "C". CP^n^ is even more of a geometer's paradise
-than RP^n^, because when you work with complex numbers you can solve all
+and replace "R" by "C". CP^n is even more of a geometer's paradise
+than RP^n, because when you work with complex numbers you can solve all
 polynomial equations. Also, now there's no big difference between an
-ellipse and a hyperbola! This sort of thing is why CP^n^ is so widely
+ellipse and a hyperbola! This sort of thing is why CP^n is so widely
 used as a context for "algebraic geometry".
 
 We can go even further and replace the real numbers by the quaternions,
-H, defining the "quaternionic projective n-space" HP^n^. If we are
+H, defining the "quaternionic projective n-space" HP^n. If we are
 careful about writing things in the right order, it's no problem that
 the quaternions are noncommutative... we can still divide by any
-nonzero quaternion, so we can cover HP^n^ with n+1 different coordinate
+nonzero quaternion, so we can cover HP^n with n+1 different coordinate
 charts and freely change coordinates as desired.
 
 We can try to go even further and use the octonions, O. Can we define
-"octonionic projective n-space", OP^n^? Well, now things get tricky!
+"octonionic projective n-space", OP^n? Well, now things get tricky!
 Remember, the octonions are nonassociative. There's no problem defining
 OP^1^; we can cover it with two coordinate charts, corresponding to
 homogeneous coordinates of the form
@@ -159,16 +159,16 @@ amounts to taking O and adding a single point at infinity, getting the
 
 RP^1^ = S^1^
 
-CP^1^ = S^2^
+CP^1^ = S^2
 
-HP^1^ = S^4^
+HP^1^ = S^4
 
 OP^1^ = S^8^
 
 I discussed the implications of this pattern for Bott periodicity in
 ["Week 105"](#week105).
 
-We can also define OP^2^. Here we have 3 coordinate charts corresponding
+We can also define OP^2. Here we have 3 coordinate charts corresponding
 to homogeneous coordinates of the form
 
 (1, y, z),
@@ -195,17 +195,17 @@ and
 Checking these equations is a good exercise for anyone who wants to
 understand the octonions.
 
-Now for the cool part: OP^2^ is where it ends!
+Now for the cool part: OP^2 is where it ends!
 
-We can't define OP^n^ for n greater than 2, because the
+We can't define OP^n for n greater than 2, because the
 nonassociativity keeps us from being able to change coordinates a bunch
 of times and get back where we started! You might hope that we could
 weasel out of this somehow, but it seems that there is a real sense in
 which the higher-dimensional octonionic projective spaces don't exist.
 
-So we have a fascinating situation: an infinite tower of RP^n^'s, an
-infinite tower of CP^n^'s, an infinite tower of HP^n^'s, but an
-abortive tower of OP^n^'s going only up to n = 2 and then fizzling out.
+So we have a fascinating situation: an infinite tower of RP^n's, an
+infinite tower of CP^n's, an infinite tower of HP^n's, but an
+abortive tower of OP^n's going only up to n = 2 and then fizzling out.
 This means that while all sorts of geometry and group theory relating to
 the reals, complexes and quaternions fits into infinite systematic
 patterns, the geometry and group theory relating to the octonions is
@@ -213,7 +213,7 @@ quirky and mysterious.
 
 We often associate mathematics with "classical" beauty, patterns
 continuing ad infinitum with the ineluctable logic of a composition by
-some divine Bach. But when we study OP^2^ and its implications, we see
+some divine Bach. But when we study OP^2 and its implications, we see
 that mathematics also has room for "exceptional" beauty, beauty that
 flares into being and quickly subsides into silence like a piece by
 Webern. Are the fundamental laws of physics based on "classical"
@@ -225,7 +225,7 @@ exceptional objects in mathematics are tied to them.
 
 I already discussed this a bit in ["Week 64"](#week64), where I
 sketched how there are 3 infinite sequences of "classical" simple Lie
-groups corresponding to rotations in R^n^, C^n^, and H^n^, and 5
+groups corresponding to rotations in R^n, C^n, and H^n, and 5
 "exceptional" simple Lie groups related to the octonions. After
 studying it all a bit more, I can now go into some more detail.
 
@@ -233,23 +233,23 @@ In order of increasing dimension, the 5 exceptional Lie groups are
 called G2, F4, E6, E7, and E8. The smallest, G2, is easy to understand
 in terms of the octonions: it's just the group of symmetries of the
 octonions as an algebra. It's a marvelous fact that all the bigger ones
-are related to OP^2^. This was discovered by people like Freudenthal and
+are related to OP^2. This was discovered by people like Freudenthal and
 Tits and Vinberg, but a great place to read about it is the following
 fascinating book:
 
 1) Boris Rosenfeld, Geometry of Lie Groups, Kluwer Academic Publishers,
 1997.
 
-The space OP^2^ has a natural metric on it, which allows us to measure
+The space OP^2 has a natural metric on it, which allows us to measure
 distances between points. This allows us to define a certain symmetry
-group OP^2^, the group of all its "isometries", which are
+group OP^2, the group of all its "isometries", which are
 transformations preserving the metric. This symmetry group is F4!
 
-However, there is another bigger symmetry group of OP^2^. As in real
-projective n-space, the notion of a "line" makes sense in OP^2^. One
+However, there is another bigger symmetry group of OP^2. As in real
+projective n-space, the notion of a "line" makes sense in OP^2. One
 has to be careful: these are octonionic "lines", which have 8 real
 dimensions. Nonetheless, this lets us define the group of all
-"collineations" of OP^2^, that is, transformations that take lines to
+"collineations" of OP^2, that is, transformations that take lines to
 lines. This symmetry group is E6! (Technically speaking, this is a
 "noncompact real form" of E6; the rest of the time I'll be talking
 about compact real forms.)
@@ -352,12 +352,12 @@ observables, and classifying Jordan algebras if possible.
 
 We can define a "projection" in a Jordan algebra to be an element A
 with A o A = A. If our Jordan algebra consists of self-adjoint operators
-on the complex Hilbert space C^n^, a projection is a self-adjoint
+on the complex Hilbert space C^n, a projection is a self-adjoint
 operator whose only eigenvalues are zero and one. Physically speaking,
 this corresponds to a "yes-or-no question" about our quantum system.
 Geometrically speaking, such an operator is a projection onto some
 subspace of our Hilbert space. All this stuff also works if we start
-with the real Hilbert space R^n^ or the quaternionic Hilbert space H^n^.
+with the real Hilbert space R^n or the quaternionic Hilbert space H^n.
 
 In these special cases, one can define a "minimal projection" to be a
 projection on a 1-dimensional subspace of our Hilbert space. Physically,
@@ -382,16 +382,16 @@ considered the quaternionic case:
 5) Stephen L. Adler, Quaternionic Quantum Mechanics and Quantum Fields,
 Oxford U. Press, Oxford, 1995.
 
-If our Hilbert space is the complex Hilbert space C^n^, its group of
+If our Hilbert space is the complex Hilbert space C^n, its group of
 symmetries is usually thought of as U(n) - the group of n×n unitary
 matrices. This group also acts as symmetries on the Jordan algebra of
 self-adjoint n×n complex matrices, and also on the space CP^n-1^.
 
-Similarly, if we start with R^n^, we get the group of orthogonal n×n
+Similarly, if we start with R^n, we get the group of orthogonal n×n
 matrices O(n), which acts on the Jordan algebra of real self-adjoint n×n
 matrices and on RP^n-1^.
 
-Likewise, if we start with H^n^, we get the group Sp(n), which acts on
+Likewise, if we start with H^n, we get the group Sp(n), which acts on
 the Jordan algebra of quaternionic self-adjoint n×n matrices and on
 HP^n-1^.
 
@@ -405,7 +405,7 @@ from getting Jordan algebras! The interesting case is the Jordan algebra
 of 3×3 self-adjoint octonionic matrices. This is called the
 "exceptional Jordan algebra", J. The group of symmetries of this is ---
 you guessed it, F4. One can also define a "minimal projection" in J
-and the space of these is OP^2^.
+and the space of these is OP^2.
 
 Is it possible that octonionic quantum mechanics plays some role in
 physics?
@@ -418,7 +418,7 @@ probably tensor the exceptional Jordan algebra with C, H, and O,
 respectively, and take the space of minimal projections in the resulting
 algebra. Rosenfeld seems to suggest this is the way to go. However, I'm
 vague about some important details, and it bugs me, because the special
-identities I needed above to define OP^2^ are related to O being an
+identities I needed above to define OP^2 are related to O being an
 alternative algebra, but C ⊗ O, H ⊗ O and O ⊗ O are not alternative.
 
 I should add that in addition to octonionic projective geometry, one can
@@ -459,13 +459,13 @@ remarks.
 The theorem that fails for quaternions but holds for R and C is the
 "Pappus theorem", discussed in ["Week 145"](#week145).
 
-Next, a bit about OP^n^. There are different senses in which we can't
-define OP^n^ for n greater than 2. One is that if we try to define
-coordinates on OP^n^ in a similar way to how we did it for OP^2^,
+Next, a bit about OP^n. There are different senses in which we can't
+define OP^n for n greater than 2. One is that if we try to define
+coordinates on OP^n in a similar way to how we did it for OP^2,
 nonassociativity keeps us from being able to change coordinates a bunch
 of times and get back where we started! It's definitely enlightening to
 see how the desired transition functions g~ij~ fail to satisfy the
-necessary cocycle condition g~ij~ g~jk~ = g~ik~ when we get up to OP^3^,
+necessary cocycle condition g~ij~ g~jk~ = g~ik~ when we get up to OP^3,
 which would require 4 charts.
 
 But, a deeper way to think about this emerged in conversations I've had
@@ -487,10 +487,10 @@ expect, since
 RP^\infty^ = B(Z/2).
 
 Even better, at the nth stage of the Milnor construction we get a space
-homeomorphic to RP^n^. Similarly, if we do this where G is the group of
+homeomorphic to RP^n. Similarly, if we do this where G is the group of
 length-one elements of C or H we get CP^\infty^ or HP^\infty^. But if we take G to
 be the units of O, which has a product but is not even
-homotopy-associative, we get OP^1^ = S^7^ at the first step, OP^2^ at
+homotopy-associative, we get OP^1^ = S^7^ at the first step, OP^2 at
 the second step, ... but there's no way to perform the third step!
 
 Next: here's a little more information on the octonionic, bioctonionic,

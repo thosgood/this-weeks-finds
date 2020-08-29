@@ -163,7 +163,7 @@ Their approach is based on a certain way to describe the geometry of a
 approach, we specify bivectors for all its faces. Geometrically, a
 bivector is just an "oriented area element"; technically, the space of
 bivectors is the dual of the space of 2-forms. If we have a 4-simplex in
-R^4^ and we choose orientations for its triangular faces, there's an
+R^4 and we choose orientations for its triangular faces, there's an
 obvious way to associate a bivector to each face. We get 10 bivectors
 this way.
 

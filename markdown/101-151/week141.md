@@ -129,21 +129,21 @@ just gave a talk on it here at U. C. Riverside, so I should pass along
 some of his wisdom while I still remember it.
 
 First, recall the "Hopf bundle". It's easy to describe starting with
-the complex numbers. The unit vectors in C^2 form the sphere S^3^. The
+the complex numbers. The unit vectors in C^2 form the sphere S^3. The
 unit complex numbers form a group under multiplication. As a manifold
 this is just the circle S^1^, but as a group it's better known as U(1).
 You can multiply a unit vector by a unit complex number and get a new
-unit vector, so S^1^ acts on S^3^. The quotient space is the complex
-projective space CP^1^, which is just the sphere S^2^. So what we've
+unit vector, so S^1^ acts on S^3. The quotient space is the complex
+projective space CP^1^, which is just the sphere S^2. So what we've
 got here is fiber bundle:
 
-S^1^→ S^3^\to S^2^ = CP^1^
+S^1^→ S^3\to S^2 = CP^1^
 
-with fiber S^1^, total space S^3^ and base space S^2^. This is the Hopf
+with fiber S^1^, total space S^3 and base space S^2. This is the Hopf
 bundle. It's famous because the map from the total space to the base
 was the first example of a topologically nontrivial map from a sphere to
 a sphere of lower dimension. In the lingo of homotopy theory, we say
-it's the generator of the group \pi~3~(S^2^).
+it's the generator of the group \pi_3(S^2).
 
 Now in ["Week 106"](#week106) I talked about how we can mimic this
 construction by replacing the complex numbers with any other division
@@ -155,9 +155,9 @@ where S^0^ is the group of unit real numbers, better known as Z/2. This
 bundle looks like the edge of a Moebius strip. If we use the quaternions
 we get a more interesting fiber bundle:
 
-S^3^\to S^7^\to HP^1^ = S^4^
+S^3\to S^7^\to HP^1^ = S^4
 
-where S^3^ is the group of unit quaternions, better known as SU(2). We
+where S^3 is the group of unit quaternions, better known as SU(2). We
 can even do something like this with the octonions, and we get a fiber
 bundle
 
@@ -169,23 +169,23 @@ octonions aren't associative.
 Anyway, it's the quaternionic version of the Hopf bundle that serves as
 the inspiration for Milnor's construction of exotic 7-spheres. These
 exotic 7-spheres are actually total spaces of *other* bundles with fiber
-S^3^ and base space S^4^. The easiest way to get your hands on these
-bundles is to take S^4^, chop it in half along the equator, put a
-trivial S^3^-bundle over each hemisphere, and then glue these together.
+S^3 and base space S^4. The easiest way to get your hands on these
+bundles is to take S^4, chop it in half along the equator, put a
+trivial S^3-bundle over each hemisphere, and then glue these together.
 To glue these bundles together we need a way to attach the fibers over
 each point x of the equator. In other words, for each point x in the
-equator of S^4^ we need a map
+equator of S^4 we need a map
 
-f~x~: S^3^\to S^3^
+f~x~: S^3\to S^3
 
-which should vary smoothly with x. But the equator of S^4^ is just S^3^,
-and S^3^ is a group - the unit quaternions - so we can take
+which should vary smoothly with x. But the equator of S^4 is just S^3,
+and S^3 is a group - the unit quaternions - so we can take
 
-f~x~(y) = x^n^ y x^m^
+f~x~(y) = x^n y x^m^
 
 for any pair of integers (n,m).
 
-This gives us a bunch of S^3^-bundles over S^4^. The total space X(n,m)
+This gives us a bunch of S^3-bundles over S^4. The total space X(n,m)
 of any one of these bundles is obviously a smooth 7-dimensional
 manifold. But when is it homeomorphic to the 7-sphere? And when is it
 *diffeomorphic* to the 7-sphere with its usual smooth structure?
@@ -204,7 +204,7 @@ homeomorphic to a sphere!
 Once we know that X(n,m) is homeomorphic to S^7^, we have to decide when
 it's diffeomorphic to S^7^ with its usual smooth structure. This is the
 hard part. Notice that X(n,m) is the unit sphere bundle of a vector
-bundle over S^4^ whose fiber is the quaternions. We can understand a
+bundle over S^4 whose fiber is the quaternions. We can understand a
 bunch about X(n,m) using the characteristic classes of this vector
 bundle. In particular, we can compute the Euler number and the
 Pontrjagin number of this vector bundle. Using the Euler number we can
@@ -212,7 +212,7 @@ show that X(n,m) is homeomorphic to a sphere *only* if n + m = 1 - you
 can't really do this using Morse theory. But more importantly, using
 the Pontrjagin number, we can show that in this case X(n,m) is
 diffeomorphic to S^7^ with its usual smooth structure if and only if (n
-- m)^2^ = 1 mod 7. Otherwise it's "exotic".
+- m)^2 = 1 mod 7. Otherwise it's "exotic".
 
 For the details of the above argument you can try the following book:
 
@@ -512,8 +512,8 @@ a(k) is 1 or 2 according to whether k is even or odd.
 Here are some remarks by Linus Kramer on exotic spheres in dimensions 9
 and 17, which he posted to sci.math.research in response to a question
 of mine. Kervaire and Milnor said the group of exotic spheres in
-dimension 9 was (Z/2)^3^ or Z/2 x Z/4, and the group in dimension 17 was
-(Z/2)^4^ or (Z/2)^2^ x Z/4. Linus writes:
+dimension 9 was (Z/2)^3 or Z/2 x Z/4, and the group in dimension 17 was
+(Z/2)^4 or (Z/2)^2 x Z/4. Linus writes:
 
 >        The list by Kervaire and Milnor seems to be correct; in
 >        dimension 9, the group is (Z/2)^3, and in dimension 17 it's

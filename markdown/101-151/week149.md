@@ -50,7 +50,7 @@ at least I'll have laid the groundwork.
 So: what's a "generalized cohomology theory"?
 
 This is a gadget that eats a topological space X and spits out a
-sequence of abelian groups h^n^(X). To be a generalized cohomology
+sequence of abelian groups h^n(X). To be a generalized cohomology
 theory, this gadget must satisfy a bunch of axioms called the
 Eilenberg-Steenrod axioms. The most basic example is so-called ordinary
 cohomology, so when you're first learning this stuff the main
@@ -60,7 +60,7 @@ various flavors of K-theory, cobordism theory, and so on. Eventually,
 you learn that underlying any generalized cohomology theory there is a
 list of spaces E(n) such that
 
-h^n^(X) = \[X, E(n)\]
+h^n(X) = \[X, E(n)\]
 
 where the right-hand side is the set of homotopy classes of maps from X
 to E(n). We say this list of spaces E(n) "represents" the generalized
@@ -103,7 +103,7 @@ the commutative law holds up to homotopy, with the homotopies satisfying
 a bunch of laws up to homotopy, etcetera.
 
 If you start with a ring spectrum, the corresponding cohomology theory
-will have products. In other words, the cohomology groups h^n^(X) of any
+will have products. In other words, the cohomology groups h^n(X) of any
 space X will fit together to form a graded ring called h^\*^(X) - the
 star stands for a little blank where you can stick in any number "n".
 And if your ring spectrum is an E~\infty~ ring spectrum, h^\*^(X) will be
@@ -174,8 +174,8 @@ unit complex numbers, or "phases".
 K(Z,2) is a bit more complicated: it's infinite-dimensional complex
 projective space, CP^\infty^! I talked a bunch about projective spaces in
 ["Week 106"](#week106). There I only talked about
-finite-dimensional ones like CP^n^, but you can define CP^\infty^ as a
-"direct limit" of these as n approaches \infty, using the fact that CP^n^
+finite-dimensional ones like CP^n, but you can define CP^\infty^ as a
+"direct limit" of these as n approaches \infty, using the fact that CP^n
 sits inside CPn+1 as a subspace. Alternatively, you can take your
 favorite complex Hilbert space H with countably infinite dimension and
 form the space of all 1-dimensional subspaces in H. This gives a
@@ -231,37 +231,37 @@ f: X\to CP^\infty^.
 But remember, CP^\infty^ is the Eilenberg-Maclane space K(Z,2), and the
 Eilenberg-Maclane spectrum represents ordinary cohomology! So
 
-\[X, CP^\infty^\] = \[X, K(Z,2)\] = H^2^(X)
+\[X, CP^\infty^\] = \[X, K(Z,2)\] = H^2(X)
 
-where H^2^(X) stands for the 2nd ordinary cohomology group of X. So the
+where H^2(X) stands for the 2nd ordinary cohomology group of X. So the
 following things are really the same:
 
 -   isomorphism classes of complex line bundles over X
 -   homotopy classes of maps from X to CP^\infty^
--   elements of the ordinary cohomology group H^2^(X).
+-   elements of the ordinary cohomology group H^2(X).
 
 This is great, because it gives us three different viewpoints to play
-with. In particular, H^2^(X) is easy to compute - anyone who has taken a
+with. In particular, H^2(X) is easy to compute - anyone who has taken a
 basic course on algebraic topology can do it. But the other two
 viewpoints are nice and geometrical, so they let us do things with
-H^2^(X) that we might not have thought of otherwise.
+H^2(X) that we might not have thought of otherwise.
 
 So now you know this: if you hand me a complex line bundle over X, I can
-cook up an element of H^2^(X). People call this the "first Chern
+cook up an element of H^2(X). People call this the "first Chern
 class" of the line bundle. If you hand me two complex line bundles, I
 can tell if they're isomorphic by seeing if their first Chern classes
-are equal. Conversely, if you hand me any element of H^2^(X), I can cook
+are equal. Conversely, if you hand me any element of H^2(X), I can cook
 up a complex line bundle over X whose first Chern class is that element.
 
 Of course, I haven't really explained *how* I cook up all these things.
 To learn that, you need to study this stuff a bit more.
 
 But let's consider a couple of examples. Suppose X is the 2-sphere
-S^2^. Since
+S^2. Since
 
-H^2^(S^2^) = Z
+H^2(S^2) = Z
 
-this means that first Chern class of a line bundle over S^2^ is secretly
+this means that first Chern class of a line bundle over S^2 is secretly
 just an integer. People call this the "first Chern number" of the line
 bundle. The first physicist to get excited about this was Dirac, who
 bumped into this idea when thinking about magnetic monopoles and charge
@@ -283,7 +283,7 @@ universal one lives! So let's take X = CP^\infty^. Since CP^\infty^ is K(Z,2), a
 little abstract nonsense shows that it's ordinary 2nd cohomology group
 is Z:
 
-H^2^(CP^\infty^) = \[CP^\infty^, CP^\infty^\] = Z.
+H^2(CP^\infty^) = \[CP^\infty^, CP^\infty^\] = Z.
 
 This means that the first Chern class of a complex line bundle over
 CP^\infty^ is secretly just an integer. But what's the first Chern class of
@@ -308,20 +308,20 @@ f: X\to CP^\infty^
 so to compute the first Chern class of this line bundle, we can just
 work out f^\*^(c), where
 
-f^\*^: H^2^(CP^\infty^)\to H^2^(X)
+f^\*^: H^2(CP^\infty^)\to H^2(X)
 
 is the map induced by f. If you don't see why this is true, think about
 it a while - it's just a big fat tautology!
 
 The ideas we've been discussing raise some obvious questions. For
-example, H^2^(X) isn't just a set: it's an abelian group. We already
+example, H^2(X) isn't just a set: it's an abelian group. We already
 knew this from our basic course in algebraic topology, and now we also
 know another explanation: CP^\infty^ is an infinite loop space, so it's like
 an abelian group for the purposes of homotopy theory. In fact, this
 particular infinite loop space actually *is* an abelian group. Maps from
 anything into an abelian group form an abelian group, which makes
 
-H^2^(X) = \[X, CP^\infty^\]
+H^2(X) = \[X, CP^\infty^\]
 
 into an abelian group. But now you're dying to know: what exactly do
 the product map
@@ -401,23 +401,23 @@ interesting to take X to be a single point: we get a ring R called the
 0, namely the multiplicative unit 1. In any generalized cohomology
 theory we have an isomorphism
 
-h^n+k^(S^n^) = h^k^(point)
+h^n+k^(S^n) = h^k^(point)
 
 and taking the god-given element 1 in h^0^(point), this gives gives a
-special element in h^n^(S^n^) called the "orientation" of S^n^. Now
-note that S^2^ is the same thing as CP^n^, so that it sits inside CP^\infty^:
+special element in h^n(S^n) called the "orientation" of S^n. Now
+note that S^2 is the same thing as CP^n, so that it sits inside CP^\infty^:
 
-S^2^\to CP^\infty^
+S^2\to CP^\infty^
 
 This gives a map
 
-h^2^(CP^\infty^)\to h^2^(S^2^)
+h^2(CP^\infty^)\to h^2(S^2)
 
 We say our generalized cohomology is "complex oriented" if there is an
-element c in h^2^(CP^\infty^) that maps to the orientation of S^2^ under the
+element c in h^2(CP^\infty^) that maps to the orientation of S^2 under the
 above map, and changes sign under the inverse map
 
-i^\*^: h^2^(CP^\infty^)\to h^2^(CP^\infty^).
+i^\*^: h^2(CP^\infty^)\to h^2(CP^\infty^).
 
 For example, ordinary cohomology is complex oriented, where we take c to
 be the first Chern class of the universal complex line bundle! This
@@ -473,10 +473,10 @@ we can cook up a spectrum, but it will be a spectrum of a special sort,
 called a "connective" spectrum, where the spaces E(n) are connected
 for n \> 0.
 
-Given a spectrum we can define the generalized cohomology groups H^n^(X)
+Given a spectrum we can define the generalized cohomology groups H^n(X)
 even when n is negative, via:
 
-H^n^(X) = lim~k\\to\ \infty~ \[S^k^(X), E(n+k)\]
+H^n(X) = lim~k\\to\ \infty~ \[S^k^(X), E(n+k)\]
 
 where S^k^(X) denotes the k-fold suspension of X. If the spectrum is
 connective, these groups will vanish when n is negative. A good example

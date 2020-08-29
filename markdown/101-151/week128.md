@@ -292,7 +292,7 @@ sounds reasonable if you think about how the shape of a 4-simplex is
 almost determined by the areas of its triangles. But if you actually
 examine the derivation of the model, it starts looking more odd. What
 you really do is take the space of geometries of a *tetrahedron*
-embedded in R^4^, and use a trick called geometric quantization to get
+embedded in R^4, and use a trick called geometric quantization to get
 something called the "Hilbert space of a quantum tetrahedron in 4
 dimensions". You then build your 4-simplices out of these quantum
 tetrahedra.
