@@ -1,29 +1,29 @@
 week105
 
-There are some spooky facts in mathematics that you\'d never guess in a
+There are some spooky facts in mathematics that you'd never guess in a
 million years\... only when someone carefully works them out do they
-become clear. One of them is called \"Bott periodicity\".
+become clear. One of them is called "Bott periodicity".
 
 A 0-dimensional manifold is pretty dull: just a bunch of points.
 1-dimensional manifolds are not much more varied: the only possibilities
 are the circle and the line, and things you get by taking a union of a
 bunch of circles and lines. 2-dimensional manifolds are more
-interesting, but still pretty tame: you\'ve got your n-holed tori, your
+interesting, but still pretty tame: you've got your n-holed tori, your
 projective plane, your Klein bottle, variations on these with extra
 handles, and some more related things if you allow your manifold to go
 on forever, like the plane, or the plane with a bunch of handles added
 (possibly infinitely many!), and so on\.... You can classify all these
 things. 3-dimensional manifolds are a lot more complicated: nobody knows
 how to classify them. 4-dimensional manifolds are a *lot* more
-complicated: you can *prove* that it\'s *impossible* to classify them -
-that\'s called Markov\'s Theorem.
+complicated: you can *prove* that it's *impossible* to classify them -
+that's called Markov's Theorem.
 
-Now, you probably wouldn\'t have guessed that a lot of things start
+Now, you probably wouldn't have guessed that a lot of things start
 getting simpler when you get up around dimension 5. Not everything, just
-some things. You still can\'t classify manifolds in these high
+some things. You still can't classify manifolds in these high
 dimensions, but if you make a bunch of simplifying assumptions you sort
-of can, in ways that don\'t work in lower dimensions. Weird, huh? But
-that\'s another story. Bott periodicity is different. It says that when
+of can, in ways that don't work in lower dimensions. Weird, huh? But
+that's another story. Bott periodicity is different. It says that when
 you get up to 8 dimensions, a bunch of things are a whole lot like in 0
 dimensions! And when you get up to dimension 9, a bunch of things are a
 lot like they were in dimension 1. And so on - a bunch of stuff keeps
@@ -37,14 +37,14 @@ But this is a whole other crazy digression and I will restrain myself
 here.)
 
 Bott periodicity takes many guises, and I already described one in
-\"[week104](week104.html)\". Let\'s start with the real numbers, and
-then throw in n square roots of -1, say e~1~,\...,e~n~. Let\'s make them
-\"anticommute\", so
+"[week104](week104.html)". Let's start with the real numbers, and
+then throw in n square roots of -1, say e~1~,\...,e~n~. Let's make them
+"anticommute", so
 
 e~i~ e~j~ = - e~j~ e~i~
 
-when i is different from j. What we get is called the \"Clifford
-algebra\" C~n~. For example, when n = 1 we get the complex numbers,
+when i is different from j. What we get is called the "Clifford
+algebra" C~n~. For example, when n = 1 we get the complex numbers,
 which we call C. When n = 2 we get the quaternions, which we call H, for
 Hamilton. When n = 3 we get\... the octonions?? No, not the octonions,
 since we always demand that multiplication be associative! We get the
@@ -71,12 +71,12 @@ C~7~ = R(8) + R(8)
 C~8~ = R(16)
 
 Note that by the time we get to n = 8 we just have 16x16 matrices of
-real numbers. And that\'s how it keeps going: C~n+8~ is just 16x16
-matrices of guys in C~n~! That\'s Bott periodicity in its simplest form.
+real numbers. And that's how it keeps going: C~n+8~ is just 16x16
+matrices of guys in C~n~! That's Bott periodicity in its simplest form.
 
-Actually right now I\'m in Vienna, at the Schroedinger Institute, and
+Actually right now I'm in Vienna, at the Schroedinger Institute, and
 one of the other people visiting is Andrzej Trautman, who gave a talk
-the other day on \"Complex Structures in Physics\", where he mentioned a
+the other day on "Complex Structures in Physics", where he mentioned a
 nice way to remember the above table. Imagine the day is only 8 hours
 long, and draw a clock with 8 hours. Then label it like this:
 
@@ -108,25 +108,25 @@ long, and draw a clock with 8 hours. Then label it like this:
 
 The idea here is that as the dimension of space goes up, you go around
 the clock. One nice thing about the clock is that it has a reflection
-symmetry about the axis from 3 o\'clock to 7 o\'clock. To use the clock,
+symmetry about the axis from 3 o'clock to 7 o'clock. To use the clock,
 you need to know that the dimension of the Clifford algebra doubles each
 time you go up a dimension. This lets you figure out, for example, that
 the Clifford algebra in 4 dimensions is not really H, but H(2), since
 the latter has dimension 16 = 2^4^.
 
-Now let\'s completely change the subject and talk about rotations in
-infinite-dimensional space! What\'s a rotation in infinite-dimensional
-space like? Well, let\'s start from the bottom and work our way up. You
-can\'t really rotate in 0-dimensional space. In 1-dimensional space you
-can\'t really rotate, you can only *reflect* things\... but we will
+Now let's completely change the subject and talk about rotations in
+infinite-dimensional space! What's a rotation in infinite-dimensional
+space like? Well, let's start from the bottom and work our way up. You
+can't really rotate in 0-dimensional space. In 1-dimensional space you
+can't really rotate, you can only *reflect* things\... but we will
 count reflections together with rotations, and say that the operations
-of multiplying by 1 or -1 count as \"rotations\" in 1-dimensional space.
+of multiplying by 1 or -1 count as "rotations" in 1-dimensional space.
 In 2-dimensional space we describe rotations by 2x2 matrices like
 
     cos t     -sin t
     sin t      cos t
 
-and since we\'re generously including reflections, also matrices like
+and since we're generously including reflections, also matrices like
 
     cos t      sin t
     sin t     -cos t
@@ -134,7 +134,7 @@ and since we\'re generously including reflections, also matrices like
 These are just the matrices whose columns are orthonormal vectors. In
 3-dimensional space we describe rotations by 3x3 matrices whose columns
 are orthonormal, and so on. In n-dimensional space we call the set of
-nxn matrices with orthonormal columns the \"orthogonal group\" O(n).
+nxn matrices with orthonormal columns the "orthogonal group" O(n).
 
 Note that we can think of a rotation in 2 dimensions
 
@@ -151,26 +151,26 @@ one column like this:
 This is just a rotation around the z axis. Using the same trick we can
 think of any rotation in n dimensions as a rotation in n+1 dimensions.
 So we can think of O(0) as sitting inside O(1), which sits inside O(2),
-which sits inside O(3), which sits inside O(4), and so on! Let\'s do
-that. Then let\'s just take the *union* of all these guys, and we
+which sits inside O(3), which sits inside O(4), and so on! Let's do
+that. Then let's just take the *union* of all these guys, and we
 get\... O(∞)! This is the group of rotations, together with reflections,
 in infinite dimensions.
 
-(Now if you know your math, or you read \"[week82](week82.html)\",
-you\'ll realize that I didn\'t really change the subject, since the
+(Now if you know your math, or you read "[week82](week82.html)",
+you'll realize that I didn't really change the subject, since the
 Clifford algebra C~n~ is really just a handy way to study rotations in n
 dimensions. But never mind.)
 
 Now O(∞) is a very big group, but it elegantly summarizes a lot of
-information about rotations in all dimensions, so it\'s not surprising
+information about rotations in all dimensions, so it's not surprising
 that topologists have studied it. One of the thing topologists do when
-studying a space is to work out its \"homotopy groups\". If you hand
+studying a space is to work out its "homotopy groups". If you hand
 them a space X, and choose a point x in this space, they will work out
 all the topologically distinct ways you can stick an n-dimensional
 sphere in this space, where we require that the north pole of the sphere
 be at x. This is what they are paid to do. We call the set of all such
 ways the homotopy group π~n~(X). For a more precise description, try
-\"[week102](week102.html)\" - but this will do for now.
+"[week102](week102.html)" - but this will do for now.
 
 So, what are the homotopy groups of O(∞)? Well, they start out looking
 like this:
@@ -201,33 +201,33 @@ has two connected components: the guys that are rotations, and the guys
 that are rotations followed by a reflection. So π~0~ of O(∞) is Z/2, the
 group with two elements. Actually this is also true for O(n) whenever n
 is higher enough, namely 1 or more. So the zeroth entry is all about
-\"reflecting\".
+"reflecting".
 
 The first entry is a bit subtler but very important in physics. It means
-that there is a loop in O(∞) that you can\'t pull tight, but if you go
+that there is a loop in O(∞) that you can't pull tight, but if you go
 around that loop *twice*, you trace out a loop that you *can* pull
 tight. In fact this is true for O(n) whenever n is 3 or more. This is
 how there can be spin-1/2 particles when space is 3-dimensional or
 higher. There are lots of nice tricks for seeing that this is true,
 which I hope the reader already knows and loves. In short, the first
-entry is all about \"rotating 360 degrees and not getting back to where
-you started\".
+entry is all about "rotating 360 degrees and not getting back to where
+you started".
 
 The second entry is zero.
 
 The third entry is even subtler but also very important in modern
 physics. It means that the ways to stick a 3-sphere into O(∞) are
 classified by the integers, Z. Actually this is true for O(n) whenever n
-is 5 or more. It\'s even true for all sorts of other groups, like all
-\"compact simple groups\". But can I summarize this entry in a snappy
+is 5 or more. It's even true for all sorts of other groups, like all
+"compact simple groups". But can I summarize this entry in a snappy
 phrase like the previous nonzero entries? Not really. Actually a lot of
 applications of topology to quantum field theory rely on this π~3~
-business. For example, it\'s the key to stuff like \"instantons\" in
+business. For example, it's the key to stuff like "instantons" in
 Yang-Mills theory, which are in turn crucial for understanding how the
-πon gets its mass. It\'s also the basis of stuff like \"Chern-Simons
-theory\" and \"BF theory\". Alas, all this takes a while to explain, but
-let\'s just say the third entry is about \"topological field theory in 4
-dimensions\".
+πon gets its mass. It's also the basis of stuff like "Chern-Simons
+theory" and "BF theory". Alas, all this takes a while to explain, but
+let's just say the third entry is about "topological field theory in 4
+dimensions".
 
 The fourth entry is zero.
 
@@ -237,7 +237,7 @@ The sixth entry is zero.
 
 The seventh entry is probably the most mysterious of all. From one point
 of view it is the subtlest, but from another point of view it is
-perfectly trivial. If we think of it as being about π~7~ it\'s very
+perfectly trivial. If we think of it as being about π~7~ it's very
 subtle: it says that the ways to stick a 7-sphere into O(∞) are
 classified by the integers. (Actually this is true for O(n) whenever n
 is 7 or more.) But if we keep Bott periodicity in mind, there is another
@@ -245,7 +245,7 @@ way to think of it: we can think of it as being about π~-1~, since 7 =
 -1 mod 8.
 
 But wait a minute! Since when can we talk about π~n~ when n is
-*negative?!* What\'s a -1-dimensional sphere, for example?
+*negative?!* What's a -1-dimensional sphere, for example?
 
 Well, the idea here is to use a trick. There is a space very related to
 O(∞), called kO. As with O(∞), the homotopy groups of this space repeat
@@ -284,13 +284,13 @@ reals, the complexes, the quaternions, and the octonions!
 And indeed, there is an obvious relationship. Let n be 1, 2, 4, or 8,
 and correspondingly let A stand for either the reals R, the complex
 numbers C, the quaternions H, or the octonions O. These guys are
-precisely all the \"normed division algebras\", meaning that the obvious
+precisely all the "normed division algebras", meaning that the obvious
 sort of absolute value satisfies
 
 \|xy\| = \|x\|\|y\|.
 
 Thus if we take any guy x in A with \|x\| = 1, the operation of
-multiplying by x is length-preserving, so it\'s a reflection or rotation
+multiplying by x is length-preserving, so it's a reflection or rotation
 in A. This gives us a function from the unit sphere in A to O(n), or in
 other words from the (n-1)-sphere to O(n). We thus get nice elements of
 
@@ -316,20 +316,20 @@ QUATERNIONS
 
 π~7~(O(∞)) is about DIMENSION and the OCTONIONS
 
-Now this is pretty weird. It\'s not so surprising that reflections and
-the real numbers are related: after all, the only \"rotations\" in the
-real line are the reflections. That\'s sort of what 1 and -1 are all
-about. It\'s also not so surprising that rotations by 360 degrees are
-related to the complex numbers. That\'s sort of what the unit circle is
-all about. While far more subtle, it\'s also not so surprising that
+Now this is pretty weird. It's not so surprising that reflections and
+the real numbers are related: after all, the only "rotations" in the
+real line are the reflections. That's sort of what 1 and -1 are all
+about. It's also not so surprising that rotations by 360 degrees are
+related to the complex numbers. That's sort of what the unit circle is
+all about. While far more subtle, it's also not so surprising that
 topological field theory in 4 dimensions is related to the quaternions.
-The shocking part is that something so basic-sounding as \"dimension\"
-should be related to something so erudite-sounding as the \"octonions\"!
+The shocking part is that something so basic-sounding as "dimension"
+should be related to something so erudite-sounding as the "octonions"!
 
 But this is what Bott periodicity does, somehow: it wraps things around
 so the most complicated thing is also the least complicated.
 
-That\'s more or less the end of what I have to say, except for some
+That's more or less the end of what I have to say, except for some
 references and some remarks of a more technical nature.
 
 Bott periodicity for O(∞) was first proved by Raoul Bott in 1959. Bott
@@ -337,21 +337,21 @@ is a wonderful explainer of mathematics and one of the main driving
 forces behind applications of topology to physics, and a lot of his
 papers have now been collected in book form:
 
-1\) The Collected Papers of Raoul Bott, ed. R. D. MacPherson. Vol. 1:
+1) The Collected Papers of Raoul Bott, ed. R. D. MacPherson. Vol. 1:
 Topology and Lie Groups (the 1950s). Vol. 2: Differential Operators (the
 1960s). Vol. 3: Foliations (the 1970s). Vol. 4: Mathematics Related to
 Physics (the 1980s). Birkhauser, Boston, 1994, 2355 pages total.
 
 A good paper on the relation between O(∞) and Clifford algebras is:
 
-2\) M. F. Atiyah, R. Bott, and A. Shaπro, Clifford modules, Topology (3)
+2) M. F. Atiyah, R. Bott, and A. Shaπro, Clifford modules, Topology (3)
 1964, 3-38.
 
 For more stuff on division algebras and Bott periodicity try Dave
-Rusin\'s web page, especially his answer to \"Q5. What\'s the question
-with the answer n = 1, 2, 4, or 8?\"
+Rusin's web page, especially his answer to "Q5. What's the question
+with the answer n = 1, 2, 4, or 8?"
 
-3\) Dave Rusin, Binary products, algebras, and division rings,
+3) Dave Rusin, Binary products, algebras, and division rings,
 [http://www
 .math.niu.edu/\~rusin/known-math/95/division.alg](http://www.math.niu.edu/~rusin/known-math/95/division.alg)
 
@@ -377,18 +377,18 @@ G-bundles over X this way.
 Now a principal O(n)-bundle is basically the same thing as an
 n-dimensional real vector bundle - there are obvious ways to go back and
 forth between these concepts. A principal O(∞)-bundle is thus very much
-like a real vector bundle of *arbitrary* dimension, but where we don\'t
+like a real vector bundle of *arbitrary* dimension, but where we don't
 care about adding on arbitrarily many 1-dimensional trivial bundles. If
 we take the collection of isomorphism classes of real vector bundles
 over X and decree two to be equivalent if they become isomorphic after
-adding on trivial bundles, we get something called KX, the \"real
-K-theory of X\". It\'s not hard to see that this is a group. Taking what
-I\'ve said and working a bit, it follows that
+adding on trivial bundles, we get something called KX, the "real
+K-theory of X". It's not hard to see that this is a group. Taking what
+I've said and working a bit, it follows that
 
 KX = \[X, BO(∞)\]
 
-where the right-hand side means \"homotopy classes of maps from X to
-BO(∞)\". If we take X to be S^n+1^, we see
+where the right-hand side means "homotopy classes of maps from X to
+BO(∞)". If we take X to be S^n+1^, we see
 
 KS^n+1^ = π~n+1~(BO(∞)) = π~n~(O(∞))
 
@@ -396,14 +396,14 @@ It follows that we can get all elements of π~n~ of O(∞) from real vector
 bundles over S^n+1^.
 
 Of course, the above equations are true only for nonnegative n, since it
-doesn\'t make sense to talk about π~-1~ of a space. However, to make
+doesn't make sense to talk about π~-1~ of a space. However, to make
 Bott periodicity work out smoothly, it would be nice if we could pretend
 that
 
 KS^-1^ = π~0~(BO(∞)) = π~-1~(O(∞)) = π~7~(O(∞)) = Z
 
-Alas, the equations don\'t make sense, and BO(∞) is connected, so we
-don\'t have π~0~(BO(∞)) = Z. However, we can cook up a slightly improved
+Alas, the equations don't make sense, and BO(∞) is connected, so we
+don't have π~0~(BO(∞)) = Z. However, we can cook up a slightly improved
 space kO, which has
 
 π~n~(kO) = π~n~(BO(∞))
@@ -412,32 +412,32 @@ when n \> 0, but also has
 
 π~0~(kO) = Z
 
-as desired. It\'s easy - we just let
+as desired. It's easy - we just let
 
 kO = BO(∞) x Z.
 
-So, let\'s use this instead of BO(∞) from now on.
+So, let's use this instead of BO(∞) from now on.
 
 Taking n = 0, we can think of S^1^ as RP^1^, the real projective line,
 i.e. the space of 1-dimensional real subspaces of R^2^. This has a
-\"canonical line bundle\" over it, that is, a 1-dimensional real vector
+"canonical line bundle" over it, that is, a 1-dimensional real vector
 bundle which to each point of RP^1^ assigns the 1-dimensional subspace
 of R^2^ that *is* that point. This vector bundle over S^1^ gives the
 generator of KS^1^, or in other words, π~0~(O(∞)).
 
-Taking n = 1, we can think of S^2^ as the \"Riemann sphere\", or in
+Taking n = 1, we can think of S^2^ as the "Riemann sphere", or in
 other words CP^1^, the space of 1-dimensional complex subspaces of C^2^.
-This too has a \"canonical line bundle\" over it, which is a
+This too has a "canonical line bundle" over it, which is a
 1-dimensional complex vector bundle, or 2-dimensional real vector
 bundle. This bundle over S^2^ gives the generator of KS^2^, or in other
 words, π~1~(O(∞)).
 
 Taking n = 3, we can think of S^4^ as HP^1^, the space of 1-dimensional
-quaternionic subspaces of H^2^. The \"canonical line bundle\" over this
+quaternionic subspaces of H^2^. The "canonical line bundle" over this
 gives the generator of KS^4^, or in other words, π~3~(O(∞)).
 
 Taking n = 7, we can think of S^8^ as OP^1^, the space of 1-dimensional
-octonionic subspaces of O^2^. The \"canonical line bundle\" over this
+octonionic subspaces of O^2^. The "canonical line bundle" over this
 gives the generator of KS^8^, or in other words, π~7~(O(∞)).
 
 By Bott periodicity,
@@ -478,24 +478,24 @@ sense the octonions are responsible for Bott periodicity.
 above, because it lets you work out the fancier Clifford algebras
 C~p,q~, which are generated by p square roots of -1 and q square roots
 of 1, which all anticommute with each other. These Clifford algebras are
-good when you have p dimensions of \"space\" and q dimensions of
-\"time\", and I described the physically important case where q = 1 in
-\"[week93](week93.html)\". To figure them out, you just work out p - q
+good when you have p dimensions of "space" and q dimensions of
+"time", and I described the physically important case where q = 1 in
+"[week93](week93.html)". To figure them out, you just work out p - q
 mod 8, look at what the clock says for that hour, and then take NxN
 matrices of what you see, with N chosen so that C~p,q~ gets the right
-dimension, namely 2^p+q^. So say you\'re a string theorist and you think
-there are 9 space dimensions and 1 time dimension. You say: \"Okay, 9 -
-1 = 8, so I look and see what\'s at 8 o\'clock. Okay, that\'s R, the
+dimension, namely 2^p+q^. So say you're a string theorist and you think
+there are 9 space dimensions and 1 time dimension. You say: "Okay, 9 -
+1 = 8, so I look and see what's at 8 o'clock. Okay, that's R, the
 real numbers. But my Clifford algebra C~9,1~ is supposed to have
 dimension 2^9\ +\ 1^ = 1024 = 32^2^, so my Clifford algebra must consist
-of 32x32 *matrices* with real entries.\"
+of 32x32 *matrices* with real entries."
 
-By the way, it\'s not so easy to see that the canonical line bundle over
+By the way, it's not so easy to see that the canonical line bundle over
 OP^1^ is the generator of KS^8^ - or equivalently, that left
 multiplication by unit octonions defines a map from S^7^ into SO(8)
-corresponding to the generator of π~7~(O(∞)). I claimed it\'s true
+corresponding to the generator of π~7~(O(∞)). I claimed it's true
 above, but when someone asked me why this was true, I realized I
-couldn\'t prove it! That made me nervous. So I asked on
+couldn't prove it! That made me nervous. So I asked on
 sci.math.research if it was really true, and I got this reply:
 
     From: Linus Kramer 

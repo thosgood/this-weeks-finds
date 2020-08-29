@@ -2,22 +2,22 @@ week127
 
 If you like π, take a look at this book:
 
-1\) Lennart Berggren, Jonathan Borwein and Peter Borwein, Π: A Source
+1) Lennart Berggren, Jonathan Borwein and Peter Borwein, Π: A Source
 Book, Springer-Verlag, New York, 1997.
 
-It\'s full of reprints of original papers about π, from the Rhind
+It's full of reprints of original papers about π, from the Rhind
 Papyrus right on up to the 1996 paper by Bailey, Borwein and Plouffe in
 which they figured out how to compute a given hexadecimal digit of π
-without computing the previous digits - see \"[week66](week66.html)\"
+without computing the previous digits - see "[week66](week66.html)"
 for more about that. By the way, Colin Percival has recently used this
-technique to compute the 5 trillionth binary digit of π! (It\'s either
+technique to compute the 5 trillionth binary digit of π! (It's either
 zero or one, I forget which.) Percival is a 17-year old math major at
-Simon Fraser University, and now he\'s leading a distributed computation
+Simon Fraser University, and now he's leading a distributed computation
 project to calculate the quadrillionth binary digit of π. Anyone with a
 Pentium or faster computer using Windows 95, 98, or NT can join. For
 more information, see:
 
-2\) PiHex project, <http://www.cecm.sfu.ca/projects/pihex/pihex.html>
+2) PiHex project, <http://www.cecm.sfu.ca/projects/pihex/pihex.html>
 
 Anyway, the above book is *full* of fun stuff, like a one-page proof of
 the irrationality of π which uses only elementary calculus, due to
@@ -31,10 +31,10 @@ unfortunately is not explained:
 Here the numerators are the odd primes, and the denominators are the
 closest numbers of the form 4n+2.
 
-Since I\'ve been learning about elliptic curves and the like lately, I
+Since I've been learning about elliptic curves and the like lately, I
 was also interested to see a lot of relations between π and modular
-functions. For example, the book has a reprint of Ramanujan\'s paper
-\"Modular equations and approximations to π\", in which he derives a
+functions. For example, the book has a reprint of Ramanujan's paper
+"Modular equations and approximations to π", in which he derives a
 bunch of bizarre formulas for π, some exact but others approximate, like
 this:
 
@@ -45,32 +45,32 @@ this:
 which is good to 18 decimal places. The strange uses to which genius can
 be put know no bounds!
 
-Okay, now I\'d like to wrap up my little story about why bosonic string
+Okay, now I'd like to wrap up my little story about why bosonic string
 theory works best in 26 dimensions. This time I want to explain how you
-do the path integral in string theory. Most of what I\'m about to say
+do the path integral in string theory. Most of what I'm about to say
 comes from some papers that my friend Minhyong Kim recommended to me
 when I started pestering him about this stuff:
 
-3\) Jean-Benoit Bost, Fibres determinants, determinants regularises, et
+3) Jean-Benoit Bost, Fibres determinants, determinants regularises, et
 mesures sur les espaces de modules des courbes complexes, Asterisque
 152-153 (1987), 113-149.
 
-4\) A. A. Beilinson and Y. I. Manin, The Mumford form and the Polyakov
+4) A. A. Beilinson and Y. I. Manin, The Mumford form and the Polyakov
 measure in string theory, Comm. Math. Phys. 107 (1986), 359-376.
 
 For a more elementary approach, try chapters IX and X.4 in this book:
 
-5\) Charles Nash, Differential Topology and Quantum Field Theory,
+5) Charles Nash, Differential Topology and Quantum Field Theory,
 Academic Press, New York, 1991.
 
-As I explained in \"[week126](week126.html)\", a string traces out a
-surface in spacetime called the \"string worldsheet\". Let\'s keep life
+As I explained in "[week126](week126.html)", a string traces out a
+surface in spacetime called the "string worldsheet". Let's keep life
 simple and assume the string worldsheet is a torus and that spacetime is
 Euclidean R^n^. Then to figure out the expectation value of any physical
 observable, we need to calculate its integral over the space of all maps
 from a torus to R^n^.
 
-To make this precise, let\'s use X to denote a map from the torus to
+To make this precise, let's use X to denote a map from the torus to
 R^n^. Then a physical observable will be some function f(X), and its
 expectation value will be
 
@@ -82,23 +82,23 @@ partition function:
 
 Z = ∫ exp(-S(X)) dX
 
-But there\'s a big problem here! As usual in quantum field thoery, the
-space we\'re trying to integrate over is infinite-dimensional, so the
+But there's a big problem here! As usual in quantum field thoery, the
+space we're trying to integrate over is infinite-dimensional, so the
 above integrals have no obvious meaning. Technically speaking, the
-problem is that there\'s no Lebesgue measure \"dX\" on an
+problem is that there's no Lebesgue measure "dX" on an
 infinite-dimensional manifold.
 
 Mathematicians might throw up our hands in despair and give up at this
 point. But physicists take a more pragmatic attitude: they just keep
 massaging the problem, breaking rules here and there if necessary, until
-they get something manageable. Physicists call this \"calculating the
-path integral\", but from a certain viewpoint what they\'re really doing
+they get something manageable. Physicists call this "calculating the
+path integral", but from a certain viewpoint what they're really doing
 is *defining* the path integral, since it only has a precise meaning
-after they\'re done.
+after they're done.
 
 In the case at hand, it was Polyakov who figured out the right massage:
 
-6\) A. M. Polyakov, Quantum geometry of bosonic strings, Phys. Lett.
+6) A. M. Polyakov, Quantum geometry of bosonic strings, Phys. Lett.
 B103 (1981), 207.
 
 He rewrote the above integral as a double integral: first an integral
@@ -108,12 +108,12 @@ course, any such map gives a metric on the torus, so this double
 integral is sort of redundant. However, introducing this redundancy
 turns out not to hurt. In fact, it helps!
 
-To keep life simple, let\'s just talk about the partition function
+To keep life simple, let's just talk about the partition function
 
 Z = ∫ exp(-S(X)) dX
 
 If we can handle this, surely we can handle the integral with the
-observable f(X) in it. Polyakov\'s trick turns the partition function
+observable f(X) in it. Polyakov's trick turns the partition function
 into a double integral:
 
 Z = ∫ ( ∫ exp(-\<X, ΔX\>) dX) dg
@@ -122,8 +122,8 @@ where Δ is the Laplacian on the torus and the angle brackets stand for
 the usual inner product of R^n^-valued functions, both defined using the
 metric g.
 
-At first glance Polyakov\'s trick may seem like a step backwards: now we
-have two ill-defined integrals instead of one! However, it\'s actually a
+At first glance Polyakov's trick may seem like a step backwards: now we
+have two ill-defined integrals instead of one! However, it's actually a
 step forward. Now we can do the inside integral by copying the formula
 for the integral of a Gaussian of finitely many variables - a standard
 trick in quantum field theory. Ignoring an infinite constant that would
@@ -133,7 +133,7 @@ cancel later anyway, the inside integral works out to be:
 
 But wait! The Laplacian here is a linear operator on the vector space of
 R^n^-valued functions on the torus. This is an infinite-dimensional
-vector space, so we can\'t blithely talk about determinants the way we
+vector space, so we can't blithely talk about determinants the way we
 can in finite dimensions. In finite dimensions, the determinant of a
 self-adjoint matrix is the product of its eigenvalues. But the Laplacian
 has infinitely many eigenvalues, which keep getting bigger and bigger.
@@ -146,29 +146,29 @@ to give up so easily. Instead, we will simply ignore the zero
 eigenvalue! That way, we only have to face the product of all the
 *rest*.
 
-(Actually there\'s something one can do which is slightly more careful
-than simply ignoring the zero eigenvalue, but I\'ll talk about that
+(Actually there's something one can do which is slightly more careful
+than simply ignoring the zero eigenvalue, but I'll talk about that
 later.)
 
 Okay, so now we have a divergent product to deal with. Well, in
-\"[week126](week126.html)\" I used a trick called zeta function
+"[week126](week126.html)" I used a trick called zeta function
 regularization to make sense of a divergent sum, and we can use that
 trick here to make sense of our divergent product. Suppose we have a
 self-adjoint operator A with a discrete spectrum consisting of positive
-eigenvalues. Then the \"zeta function\" of A is defined by:
+eigenvalues. Then the "zeta function" of A is defined by:
 
 ζ(s) = tr(A^-s^)
 
 To compute ζ(s) we just take all the eigenvalues of A, raise them to the
 -s power, and add them up. For example, if A has eigenvalues 1,2,3,\...,
 then ζ(s) is just the usual Riemann zeta function, which we already
-talked about in \"[week126](week126.html)\".
+talked about in "[week126](week126.html)".
 
-This stuff doesn\'t quite apply if A is the Laplacian on a compact
+This stuff doesn't quite apply if A is the Laplacian on a compact
 manifold, since one of its eigenvalues is zero. But we have already
-agreed to throw out the zero eigenvalue, so let\'s do that when defining
+agreed to throw out the zero eigenvalue, so let's do that when defining
 ζ(s) as a sum over eigenvalues. Then it turns out that the sum converges
-when the real part of s is positive and large. Even better, there\'s a
+when the real part of s is positive and large. Even better, there's a
 theorem saying that Ζ(s) can be analytically continued to s = 0. Thus we
 can use the following trick to define the determinant of the Laplacian.
 
@@ -178,25 +178,25 @@ Suppose that A is a self-adjoint matrix with positive eigenvalues. Then
 
 Differentiating gives
 
-ζ\'(s) = -tr(ln A exp(-s ln A))
+ζ'(s) = -tr(ln A exp(-s ln A))
 
 and setting s to zero we get
 
-ζ\'(0) = -tr(ln A).
+ζ'(0) = -tr(ln A).
 
-But there\'s a nice little formula saying that
+But there's a nice little formula saying that
 
 det(A) = exp(tr(ln A))
 
 so we get
 
-det(A) = exp(-ζ\'(0)).
+det(A) = exp(-ζ'(0)).
 
 Now we can use this formula to *define* the determinant of the Laplacian
-on a compact manifold! Sometimes this is called a \"regularized
-determinant\".
+on a compact manifold! Sometimes this is called a "regularized
+determinant".
 
-So - where are we? We used Polyakov\'s trick to write the partition
+So - where are we? We used Polyakov's trick to write the partition
 function of our torus-shaped string as
 
 Z = ∫ ( ∫ exp(-\<X, ΔX\>) dX) dg,
@@ -213,9 +213,9 @@ expect that
 
 (det Δ)^-1/2^ = (det laplacian)^-n/2^
 
-where \"laplacian\" stands for the Laplacian on ordinary real-valued
+where "laplacian" stands for the Laplacian on ordinary real-valued
 functions on the torus. One can actually check this rigorously using the
-definition in terms of zeta functions. That\'s reassuring: at least
+definition in terms of zeta functions. That's reassuring: at least
 *one* step of our calculation is rigorous! So we get
 
 Z = ∫ (det laplacian)^-n/2^ dg
@@ -231,15 +231,15 @@ Look at this formula again:
 Z = ∫ ( ∫ exp(-\<X, ΔX\>) dX) dg
 
 The Laplacian depends on the metric g, and so does the inner product.
-However, the combination \<X, ΔX\> depends only on the \"conformal
-structure\" - i.e., it doesn\'t change if we multiply the metric by a
-position-dependent scale factor. It also doesn\'t change under
+However, the combination \<X, ΔX\> depends only on the "conformal
+structure" - i.e., it doesn't change if we multiply the metric by a
+position-dependent scale factor. It also doesn't change under
 diffeomorphisms.
 
 Now the space of conformal structures on a torus modulo diffeomorphisms
-is something familiar: it\'s just the moduli space of elliptic curves!
+is something familiar: it's just the moduli space of elliptic curves!
 We figured out what this space looks like in
-\"[week125](week125.html)\". It\'s finite-dimensional and there\'s a
+"[week125](week125.html)". It's finite-dimensional and there's a
 nice way to integrate over it, called the Weil-Petersson measure. So we
 can hope to replace the outside integral - the integral over metrics -
 by an integral over this moduli space.
@@ -252,7 +252,7 @@ where now the outside integral is over moduli space and d\[g\] is the
 Weil-Petersson measure. The hope, of course, is that the stuff on the
 inside is well-defined as a function on moduli space.
 
-Actually this hope is a bit naive. Even though \<X, ΔX\> doesn\'t change
+Actually this hope is a bit naive. Even though \<X, ΔX\> doesn't change
 if we recale the metric, the whole inside integral
 
 ∫ exp(-\<X, ΔX\>) dX
@@ -264,23 +264,23 @@ anything! We basically wound up *defining* it to be
 (det Δ)^-1/2^,
 
 and one can check that this *does* change when we rescale the metric.
-This problem is called the \"conformal anomaly\".
+This problem is called the "conformal anomaly".
 
 Are we stuck? No! Luckily, there is *another* problem, which cancels
-this one when n = 26. They say two wrongs don\'t make a right, but with
-anomalies that\'s often the only way to get things to work\....
+this one when n = 26. They say two wrongs don't make a right, but with
+anomalies that's often the only way to get things to work\....
 
-So what\'s this other problem? It\'s that we shouldn\'t just replace the
+So what's this other problem? It's that we shouldn't just replace the
 measure dg by the measure d\[g\] as I did in my naive formula for the
 partition function. We need to actually figure out the relation between
-them. Of course this is hard to do, because the measure dg doesn\'t
+them. Of course this is hard to do, because the measure dg doesn't
 exist, rigorously speaking! Still, if we do a bunch more hair-raising
 heuristic manipulations, which I will spare you, we can get a formula
 relating dg and and d\[g\], and using this we get
 
 Z = ∫ ( ∫ exp(-\<X, ΔX\>) dX) f(g) d\[g\]
 
-where f(g) is some function of the metric. There\'s a perfectly explicit
+where f(g) is some function of the metric. There's a perfectly explicit
 formula for this function, but your eyeballs would fall out if I showed
 it to you. Anyway, the real point is that IN 26 DIMENSIONS AND ONLY IN
 26 DIMENSIONS, the integrand
@@ -297,27 +297,27 @@ product is a well-defined function on moduli space, so it makes sense to
 integrate it against d\[g\]. We can then go ahead and figure out the
 partition function quite explicitly.
 
-By now, if you\'re a rigorous sort of pure mathematician, you must be
+By now, if you're a rigorous sort of pure mathematician, you must be
 suffering from grave doubts about the sanity of this whole procedure.
 But physicists regard this chain of reasoning, especially the miraculous
 cancellation of anomalies at the end, as a real triumph. And indeed,
-it\'s far *better* than *most* of what happens in quantum field theory!
+it's far *better* than *most* of what happens in quantum field theory!
 
-I\'ve heard publishers of science popularizations say that each equation
-in a book diminishes its readership by a factor of 2. I don\'t know if
-this applies to This Week\'s Finds, but normally I try very hard to keep
-the equations to a minimum. This week, however, I\'ve been very bad, and
+I've heard publishers of science popularizations say that each equation
+in a book diminishes its readership by a factor of 2. I don't know if
+this applies to This Week's Finds, but normally I try very hard to keep
+the equations to a minimum. This week, however, I've been very bad, and
 if my calculations are correct, by this point I am the only one reading
 this. So I might as well drop all pretenses of expository prose and
-write in a way that only I can follow! The real reason I\'m writing
+write in a way that only I can follow! The real reason I'm writing
 this, after all, is to see if I understand this stuff.
 
-Okay, so now I\'d like to see if I understand how one explicitly
+Okay, so now I'd like to see if I understand how one explicitly
 calculates this integral:
 
 ∫ exp(-\<X, laplacian X\>) dX
 
-Since we\'re eventually going to integrate this (times some stuff) over
+Since we're eventually going to integrate this (times some stuff) over
 moduli space, we might as well assume the metric on our torus is gotten
 by curling up the following parallelogram in the complex plane:
 
@@ -334,30 +334,30 @@ There are at least two ways to do the calculation. One is to actually
 work out the eigenvalues of the Laplacian on this torus and then do the
 zeta function regularization to compute its determinant. Di Francesco,
 Mathieu, and Senechal do this in the textbook I talked about in
-\"[week124](week124.html)\". They get
+"[week124](week124.html)". They get
 
 ∫ exp(-\<X, laplacian X\>) dX = 1 / (√Im(τ) \|η(τ)\|^2^)
 
-where \"η\" is the Dedekind eta function, regarded as function of τ. But
+where "η" is the Dedekind eta function, regarded as function of τ. But
 the calculation is pretty brutal, and it seems to me that there should
 be a much easier way to get the answer. The left-hand side is just the
 partition function for an massless scalar field on the torus, and we
-basically did that back in \"[week126](week126.html)\". More precisely,
+basically did that back in "[week126](week126.html)". More precisely,
 we considered just the right-moving modes and we got the following
 partition function:
 
 1/η(τ)
 
-How about the left-moving modes? Well, I\'d guess that their partition
+How about the left-moving modes? Well, I'd guess that their partition
 function is just the complex conjugate,
 
 1/η(τ)\*
 
 since right-movers correspond to holomorphic functions and left-movers
-correspond to antiholomorphic functions in this Euclidean picture. It\'s
+correspond to antiholomorphic functions in this Euclidean picture. It's
 just a guess! And finally, what about the zero-frequency mode? I have no
 idea. But we should presumably multiply all three partition functions
-together to get the partition function of the whole system - that\'s how
+together to get the partition function of the whole system - that's how
 it usually works. And as you can see, we *almost* get the answer that Di
 Francesco, Mathieu, and Senechal got. It would work out *perfectly* if
 the partition function of the zero-frequency mode were 1/√Im(τ). By the
@@ -370,18 +370,18 @@ of the Laplacian, but as I hinted, more careful calculations of
 
 ∫ exp(-\<X, laplacian X\>) dX
 
-don\'t just ignore the zero eigenvalue. Instead, they somehow use it to
+don't just ignore the zero eigenvalue. Instead, they somehow use it to
 get an extra factor of 1/√Im(τ). Admittedly, the calculations are not
 particularly convincing: a more obvious guess would be that it gives a
 factor of infinity. Di Francesco, Mathieu, and Senechal practically
 admit that they *need* this factor just to get modular invariance, and
-that they\'ll do whatever it takes to get it. Nash just sticks in the
+that they'll do whatever it takes to get it. Nash just sticks in the
 factor of 1/√Im(τ), mutters something vague, and hurriedly moves on.
 
 Clearly the reason people want this factor is because of how the eta
 function transforms under modular transformations. In
-\"[week125](week125.html)\" I said that the group PSL(2,Z) is generated
-by two elements S and T, and if you look at the formulas there you\'ll
+"[week125](week125.html)" I said that the group PSL(2,Z) is generated
+by two elements S and T, and if you look at the formulas there you'll
 see they act in the following way on τ:
 
 S: τ \|→ -1/τ
@@ -395,17 +395,17 @@ The Dedekind eta function satisfies
 η(τ + 1) = exp(2 π i / 24) η(τ)
 
 The second one is really easy to see from the definition; the first one
-is harder. Anyway, using these facts it\'s easy to see that
+is harder. Anyway, using these facts it's easy to see that
 
 1 / (√Im(τ) \|η(τ)\|^2^)
 
-is invariant under PSL(2,Z), so it\'s really a function on moduli space
+is invariant under PSL(2,Z), so it's really a function on moduli space
 - but only if that factor of 1/sqrt(Im(τ)) is in there!
 
-Finally, I\'d like to say something about why the conformal anomalies
+Finally, I'd like to say something about why the conformal anomalies
 cancel in 26 dimensions. When I began thinking about this stuff I was
-hoping it\'d be obvious from the transformation properties of the eta
-function - since they have that promising number \"24\" in them - but
+hoping it'd be obvious from the transformation properties of the eta
+function - since they have that promising number "24" in them - but
 right now I do *not* see anything like this going on. Instead, it seems
 to be something like this: in the partition function
 
@@ -415,73 +415,73 @@ the mysterious function f is basically just the determinant of the
 Laplacian on *vector fields* on the torus. So ignoring those darn zero
 eigenvalues the whole integrand here is
 
-det(laplacian)^n/2^ det(laplacian\')
+det(laplacian)^n/2^ det(laplacian')
 
-where \"laplacian\" is the Laplacian on real-valued functions and \"
-laplacian\' \" is the Laplacian on vector fields. Now these determinants
-aren\'t well-defined functions on the space of conformal structures;
-they\'re really sections of certain \"determinant bundles\". But in this
+where "laplacian" is the Laplacian on real-valued functions and "
+laplacian' " is the Laplacian on vector fields. Now these determinants
+aren't well-defined functions on the space of conformal structures;
+they're really sections of certain "determinant bundles". But in this
 situation, the determinant bundle for the Laplacian on vector fields
 *just so happens* to be the 13th tensor power of the determinant bundle
 for the Laplacian on functions - so the whole expression above is a
 well-defined function on the space of conformal structures, and thence
 on moduli space, precisely when n = 26!!!
 
-Now this \"just so happens\" cannot really be a coincidence. There *are*
-no coincidences in mathematics. That\'s why it pays to be paranoid when
-you\'re a mathematician: nothing is random, everything fits into a grand
-pattern, it\'s all just staring you in the face if you\'d only notice
-it. (Chaitin has convincingly argued otherwise using Goedel\'s theorem,
-and certainly some patterns in mathematics seem \"purely accidental\",
-but right now I\'m just waxing rhapsodic, expressing a feeling one
+Now this "just so happens" cannot really be a coincidence. There *are*
+no coincidences in mathematics. That's why it pays to be paranoid when
+you're a mathematician: nothing is random, everything fits into a grand
+pattern, it's all just staring you in the face if you'd only notice
+it. (Chaitin has convincingly argued otherwise using Goedel's theorem,
+and certainly some patterns in mathematics seem "purely accidental",
+but right now I'm just waxing rhapsodic, expressing a feeling one
 sometimes gets\....)
 
-Indeed, look at the proof in Nash\'s book that one of these determinant
+Indeed, look at the proof in Nash's book that one of these determinant
 bundles is the 13th tensor power of the other - I think this result is
-due to Mumford, but Nash\'s proof is easy to read. What does he do? He
+due to Mumford, but Nash's proof is easy to read. What does he do? He
 works out the first Chern class of both bundles using the index theorem
 for families, and he gets something involving the Todd genus - and the
 Todd genus, as we all know, is defined using the same function
 
 x / (1 - e^x^) = -1 + x/2 - x^2^/12 + \...
 
-that we talked about in \"[week126](week126.html)\" when computing the
-zero-point energy of the bosonic string! And yet again, it\'s that darn
--1/12 in the power series expansion that makes everything tick. That\'s
-where the 13 comes from! It\'s all an elaborate conspiracy!
+that we talked about in "[week126](week126.html)" when computing the
+zero-point energy of the bosonic string! And yet again, it's that darn
+-1/12 in the power series expansion that makes everything tick. That's
+where the 13 comes from! It's all an elaborate conspiracy!
 
-But of course the conspiracy is far grander than I\'ve even begun to let
-on. If we keep digging away at it, we\'re eventually led to nothing
+But of course the conspiracy is far grander than I've even begun to let
+on. If we keep digging away at it, we're eventually led to nothing
 other than\....
 
 ::: {align="CENTER"}
 MONSTROUS MOONSHINE!!!
 :::
 
-But I don\'t have the energy to talk about *that* now. For more, try:
+But I don't have the energy to talk about *that* now. For more, try:
 
-7\) Richard E. Borcherds, What is moonshine?, talk given upon winning
+7) Richard E. Borcherds, What is moonshine?, talk given upon winning
 the Fields medal, preprint available as
 [math.QA/9809110](http://xxx.lanl.gov/abs/math.QA/9809110).
 
-8\) Peter Goddard, The work of R. E. Borcherds, preprint available as
+8) Peter Goddard, The work of R. E. Borcherds, preprint available as
 [math.QA/9808136](http://xxx.lanl.gov/abs/math.QA/9808136).
 
-Okay, if you\'ve actually read this far, you deserve a treat. First, try
-this cartoon, which you\'ll see is quite relevant:
+Okay, if you've actually read this far, you deserve a treat. First, try
+this cartoon, which you'll see is quite relevant:
 
-9\) Cartoon by J. F. Cartier,
+9) Cartoon by J. F. Cartier,
 <http://www.physik.uni-frankfurt.de/~jr/gif/cartoon/cart0785.gif>
 
-Second, let\'s calculate the determinant of an operator A whose
+Second, let's calculate the determinant of an operator A whose
 eigenvalues are the numbers 1, 2, 3, \.... You can think of this
 operator as the Hamiltonian for the wave equation on the circle, where
 we only keep the right-moving modes. As I already said, the zeta
 function of this operator is the Riemann zeta function. This function
-has ζ\'(0) = -ln(2 π)/2, so using our cute formula relating determinants
+has ζ'(0) = -ln(2 π)/2, so using our cute formula relating determinants
 and zeta functions, we get
 
-det(A) = exp(-ζ\'(0)) = (2 π)^1/2^ .
+det(A) = exp(-ζ'(0)) = (2 π)^1/2^ .
 
 Just for laughs, if we pretend that the determinant of A is the product
 of its eigenvalues as in the finite-dimensional case, we get:
@@ -493,7 +493,7 @@ or if you really want to ham it up,
 ∞! = (2 π)^1/2^.
 
 Cute, eh? Dan Piponi told me this, as well as some of the other things
-I\'ve been talking about. You can also find it in Bost\'s paper.
+I've been talking about. You can also find it in Bost's paper.
 
 ------------------------------------------------------------------------
 
@@ -501,27 +501,27 @@ Notes and digressions:
 
 -   In all of the above, I put a minus sign into my Laplacian, so that
     it has nonnegative eigenvalues. This is common among erudite
-    mathematical physics types, who like \"positive elliptic
-    operators\".
+    mathematical physics types, who like "positive elliptic
+    operators".
 
 -   The zeta function trick for defining the determinant of the
     Laplacian works for any positive elliptic operator on a compact
-    manifold. A huge amount has been written about this trick. It\'s all
+    manifold. A huge amount has been written about this trick. It's all
     based on the fact that the zeta function of a positive elliptic
     operator analytically continues to s = 0. This fact was proved by
     Seeley:
 
-    10\) R. T. Seeley, Complex powers of an elliptic operator, Proc.
+    10) R. T. Seeley, Complex powers of an elliptic operator, Proc.
     Symp. Pure Math. 10 (1967), 288-307.
 
 -   Why is the Polyakov action \<X, ΔX\> conformally invariant? Because
     the Laplacian has dimensions of 1/length^2^, while the integral used
     to define the inner product has dimensions of length^2^, since the
     torus is 2-dimensional. This is the magic of 2 dimensions! The path
-    integral for higher-dimensional \"branes\" has not yet been made
-    precise, because this magic doesn\'t happen there.
+    integral for higher-dimensional "branes" has not yet been made
+    precise, because this magic doesn't happen there.
 
--   About Euler\'s weirdly beautiful formula for π, Robin Chapman
+-   About Euler's weirdly beautiful formula for π, Robin Chapman
     writes:
 
 

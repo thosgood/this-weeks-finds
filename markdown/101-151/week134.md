@@ -1,15 +1,15 @@
 week134
 
-My production of \"This Week\'s Finds\" has slowed to a trickle as I\'ve
+My production of "This Week's Finds" has slowed to a trickle as I've
 been struggling to write up a bunch of papers. Deadlines, deadlines! I
 hate deadlines, but when you write things for other people, or with
-other people, that\'s what you get into. I\'ll do my best to avoid them
-in the future. Now I\'m done with my chores and I want to have some fun.
+other people, that's what you get into. I'll do my best to avoid them
+in the future. Now I'm done with my chores and I want to have some fun.
 
 I spent last weekend with a bunch of people talking about quantum
 gravity in a hunting lodge by a lake in Minnowbrook, New York:
 
-1\) Minnowbrook Symposium on Space-Time Structure, program and
+1) Minnowbrook Symposium on Space-Time Structure, program and
 transparencies of talks available at
 <http://www.phy.syr.edu/research/he_theory/minnowbrook/#PROGRAM>
 
@@ -17,10 +17,10 @@ The idea of this get-together, organized by Kameshwar Wali and some
 other physicists at Syracuse University, was to bring together people
 working on string theory, loop quantum gravity, noncommutative geometry,
 and various discrete approaches to spacetime. People from these
-different schools of thought don\'t talk to each other as much as they
+different schools of thought don't talk to each other as much as they
 should, so this was a good idea. People gave lots of talks, asked lots
 of tough questions, argued, and learned what each other were doing. But
-I came away with a sense that we\'re quite far from understanding
+I came away with a sense that we're quite far from understanding
 quantum gravity: every approach has obvious flaws.
 
 One big problem with string theory is that people only know how to study
@@ -35,19 +35,19 @@ manifold. There are lots of Calabi-Yau manifolds, organized in
 continuous multi-parameter families called moduli spaces. This suggests
 the idea that the geometry of the Calabi-Yau manifold could change with
 time. This idea is lurking behind a lot of interesting work. For
-example, Brian Greene gave a nice talk on \"mirror symmetry\". Different
+example, Brian Greene gave a nice talk on "mirror symmetry". Different
 Calabi-Yau manifolds sometimes give the same physics; these are called
-\"mirror manifolds\". Because of this, a curve in one moduli space of
+"mirror manifolds". Because of this, a curve in one moduli space of
 Calabi-Yau manifolds can be physically equivalent to a curve in some
 other moduli space, which sometimes lets you continue the curve beyond a
 singularity in the first moduli space. Physicists like to think of these
 curves as representing spacetime geometries where the Calabi-Yau
-manifold changes with time. The problem is, there\'s no fully worked out
+manifold changes with time. The problem is, there's no fully worked out
 version of string theory that allows for a time-dependent Calabi-Yau
 manifold!
 
-There\'s a good reason for this: one shouldn\'t expect anything so
-simple to make sense, except in the \"adiabatic approximation\" where
+There's a good reason for this: one shouldn't expect anything so
+simple to make sense, except in the "adiabatic approximation" where
 things change very slowly with time. The product of Minkowski spacetime
 with a fixed Calabi-Yau manifold is a solution of the 10-dimensional
 Einstein equations, and this is part of why this kind of spacetime
@@ -55,7 +55,7 @@ serves as a good background for string theory. But we do not get a
 solution if the geometry of the Calabi-Yau manifold varies from point to
 point in Minkowski spacetime - except in the adiabatic approximation.
 
-There are also problems with \"unitarity\" in string theory when the
+There are also problems with "unitarity" in string theory when the
 geometry of space changes with time. This is already familiar from
 ordinary quantum field theory on curved spacetime. In quantum field
 theory, people usually like to describe time evolution using unitary
@@ -63,10 +63,10 @@ operators on a Hilbert space of states. But this approach breaks down
 when the geometry of space changes with time. People have studied this
 problem in detail, and there seems to be no completely satisfactory way
 to get around it. No way, that is, except the radical step of ceasing to
-treat the geometry of spacetime as a fixed \"background\". In other
+treat the geometry of spacetime as a fixed "background". In other
 words: stop doing quantum field theory on spacetime with a
 pre-established metric, and invent a background-free theory of quantum
-gravity! But this is not so easy - see \"[week132](week132.html)\" for
+gravity! But this is not so easy - see "[week132](week132.html)" for
 more on what it would entail.
 
 Apparently this issue is coming to the attention of string theorists now
@@ -85,26 +85,26 @@ flaws. For example, loop quantum gravity is wonderfully background-free,
 but so far it is almost solely a theory of kinematics, rather than
 dynamics. In other words, it provides a description of the geometry of
 *space* at the quantum level, but says little about *spacetime*.
-Recently people have begun to study dynamics with the help of \"spin
-foams\", but we still can\'t compute anything well enough to be sure
-we\'re on the right track. So, pessimistically speaking, it\'s possible
+Recently people have begun to study dynamics with the help of "spin
+foams", but we still can't compute anything well enough to be sure
+we're on the right track. So, pessimistically speaking, it's possible
 that the background-free quality of loop quantum gravity has only been
 achieved by simplifying assumptions that will later prevent us from
 understanding dynamics.
 
-Alain Connes expressed this worry during Abhay Ashtekar\'s talk, as did
+Alain Connes expressed this worry during Abhay Ashtekar's talk, as did
 Arthur Jaffe afterwards. Technically speaking, the main issue is that
 loop quantum gravity assumes that unsmeared Wilson loops are sensible
 observables at the kinematical level, while in other theories, like
 Yang-Mills theory, one always needs to smear the Wilson loops. Of course
-these other theories aren\'t background-free, so loop quantum gravity
+these other theories aren't background-free, so loop quantum gravity
 probably *should* be different. But until we know that loop quantum
 gravity really gives gravity (or some fancier theory like supergravity)
-in the large-scale limit, we can\'t be sure it should be different in
-this particular way. It\'s a legitimate worry\... but only time will
+in the large-scale limit, we can't be sure it should be different in
+this particular way. It's a legitimate worry\... but only time will
 tell!
 
-I could continue listing approaches and their flaws, including Connes\'
+I could continue listing approaches and their flaws, including Connes'
 own approach using noncommutative geometry, but let me stop here. The
 only really good news is that different approaches have *different*
 flaws. Thus, by comparing them, one might learn something!
@@ -112,22 +112,22 @@ flaws. Thus, by comparing them, one might learn something!
 Some more papers have come out recently which delve into the
 philosophical aspects of this muddle:
 
-2\) Carlo Rovelli, Quantum spacetime: what do we know?, to appear in
+2) Carlo Rovelli, Quantum spacetime: what do we know?, to appear in
 Physics Meets Philosophy at the Planck Scale, eds. Craig Callender and
 Nick Huggett, Cambridge U. Press. Preprint available as
 [gr-qc/9903045](http://xxx.lanl.gov/abs/gr-qc/9903045).
 
-3\) J. Butterfield and C. J. Isham, Spacetime and the philosophical
+3) J. Butterfield and C. J. Isham, Spacetime and the philosophical
 challenge of quantum gravity, to appear in Physics Meets Philosophy at
 the Planck Scale, eds. Craig Callender and Nick Huggett, Cambridge U.
 Press. Preprint available as
 [gr-qc/9903072](http://xxx.lanl.gov/abs/gr-qc/9903072).
 
-Rovelli\'s paper is a bit sketchy, but it outlines ideas which I find
+Rovelli's paper is a bit sketchy, but it outlines ideas which I find
 very appealing - I always find him to be very clear-headed about the
 conceptual issues of quantum gravity. I found the latter paper a bit
 frustrating, because it lays out a wide variety of possible positions
-regarding quantum gravity, but doesn\'t make a commitment to any one of
+regarding quantum gravity, but doesn't make a commitment to any one of
 them. However, this is probably good when one is writing to an audience
 of philosophers: one should explain the problems instead of trying to
 sell them on a particular claimed solution, because the proposed
@@ -136,7 +136,7 @@ quote the abstract:
 
 > We survey some philosophical aspects of the search for a quantum
 > theory of gravity, emphasising how quantum gravity throws into doubt
-> the treatment of spacetime common to the two \`ingredient theories\'
+> the treatment of spacetime common to the two \`ingredient theories'
 > (quantum theory and general relativity), as a 4-dimensional manifold
 > equipped with a Lorentzian metric. After an introduction, we briefly
 > review the conceptual problems of the ingredient theories and
@@ -145,7 +145,7 @@ quote the abstract:
 > particular importance: the scope of standard quantum theory; the
 > nature of spacetime; spacetime diffeomorphisms, and the so-called
 > problem of time. By and large, these programmes accept most of the
-> ingredient theories\' treatment of spacetime, albeit with a metric
+> ingredient theories' treatment of spacetime, albeit with a metric
 > with some type of quantum nature; but they also suggest that the
 > treatment has fundamental limitations. This prompts the idea of going
 > further: either by quantizing structures other than the metric, such
@@ -155,7 +155,7 @@ quote the abstract:
 Now let me mention a few more technical papers that have come out in the
 last few months:
 
-4\) John Baez and John Barrett, The quantum tetrahedron in 3 and 4
+4) John Baez and John Barrett, The quantum tetrahedron in 3 and 4
 dimensions, preprint available as
 [gr-qc/9903060](http://xxx.lanl.gov/abs/gr-qc/gr-qc/9903060).
 
@@ -201,14 +201,14 @@ dimensions. Let me quote from the introduction:
 > Ponzano-Regge model, transition amplitudes between spin networks can
 > be computed as a sum over labellings of faces of the dual 2-skeleton
 > of a triangulated 3-manifold. Formulated this way, we call the theory
-> a \`spin foam model\'.
+> a \`spin foam model'.
 >
 > A similar dual picture exists for 4-dimensional quantum gravity. The
 > dual 1-skeleton of a triangulated 3-manifold is a 4-valent graph each
 > of whose edges intersect one triangle in the original triangulation.
 > The labels on the triangles in the 3-manifold can thus be thought of
 > as labelling the edges of this graph. The graph is then called a
-> \`relativistic spin network\'. Transition amplitudes between
+> \`relativistic spin network'. Transition amplitudes between
 > relativistic spin networks can be computed using a spin foam model.
 > The path integral is then a sum over labellings of faces of a
 > 2-complex interpolating between two relativistic spin networks.
@@ -234,17 +234,17 @@ might think both systems have the same number of degrees of freedom. In
 fact a very similar thing happens for the quantum tetrahedron in 3 and 4
 dimensions.
 
-5\) Abhay Ashtekar, Alejandro Corichi and Kirill Krasnov, Isolated
+5) Abhay Ashtekar, Alejandro Corichi and Kirill Krasnov, Isolated
 horizons: the classical phase space, preprint available as
 [gr-qc/9905089](http://xxx.lanl.gov/abs/gr-qc/9905089).
 
 This paper explains in more detail the classical aspects of the
 calculation of the entropy of a black hole in loop quantum gravity (see
-\"[week112](week112.html)\" for a description of this calculation). Let
+"[week112](week112.html)" for a description of this calculation). Let
 me quote the abstract:
 
 > A Hamiltonian framework is introduced to encompass non-rotating (but
-> possibly charged) black holes that are \"isolated\" near future
+> possibly charged) black holes that are "isolated" near future
 > time-like infinity or for a finite time interval. The underlying
 > space-times need not admit a stationary Killing field even in a
 > neighborhood of the horizon; rather, the physical assumption is that
@@ -269,20 +269,20 @@ me quote the abstract:
 The following are some review articles on spin networks, spin foams and
 the like:
 
-6\) Roberto De Pietri, Canonical \"loop\" quantum gravity and spin foam
+6) Roberto De Pietri, Canonical "loop" quantum gravity and spin foam
 models, to appear in the proceedings of the XXIIIth Congress of the
 Italian Society for General Relativity and Gravitational Physics
 (SIGRAV), 1998, preprint available as
 [gr-qc/9903076](http://xxx.lanl.gov/abs/gr-qc/9903076).
 
-7\) Seth Major, A spin network primer, to appear in Amer. Jour. Phys.,
+7) Seth Major, A spin network primer, to appear in Amer. Jour. Phys.,
 preprint available as
 [gr-qc/9905020](http://xxx.lanl.gov/abs/gr-qc/9905020).
 
-8\) Seth Major, Operators for quantized directions, preprint available
+8) Seth Major, Operators for quantized directions, preprint available
 as [gr-qc/9905019](http://xxx.lanl.gov/abs/gr-qc/9905019).
 
-9\) John Baez, An introduction to spin foam models of BF theory and
+9) John Baez, An introduction to spin foam models of BF theory and
 quantum gravity, in Geometry and Quantum Physics, eds. Helmut Gausterer
 and Harald Grosse, Lecture Notes in Physics, Springer-Verlag, Berlin,
 2000, pp. 25-93. Preprint available as
@@ -292,29 +292,29 @@ By the way, Barrett and Crane have come out with a paper sketching a
 spin foam model for Lorentzian (as opposed to Riemannian) quantum
 gravity:
 
-10\) John Barrett and Louis Crane, A Lorentzian signature model for
+10) John Barrett and Louis Crane, A Lorentzian signature model for
 quantum general relativity, preprint available as
 [gr-qc/9904025](http://xxx.lanl.gov/abs/gr-qc/9904025).
 
 However, this model is so far purely formal, because it involves
 infinite sums that probably diverge. We need to keep working on this!
-Now that I\'m getting a bit of free time, I want to tackle this issue.
+Now that I'm getting a bit of free time, I want to tackle this issue.
 Meanwhile, Iwasaki has come out with an alternative spin foam model of
 Riemannian quantum gravity:
 
-11\) Junichi Iwasaki, A surface theoretic model of quantum gravity,
+11) Junichi Iwasaki, A surface theoretic model of quantum gravity,
 preprint available as
 [gr-qc/9903112](http://xxx.lanl.gov/abs/gr-qc/9903112).
 
-Alas, I don\'t really understand this model yet. Finally, to wrap things
+Alas, I don't really understand this model yet. Finally, to wrap things
 up, something completely different:
 
-12\) Richard E. Borcherds, Quantum vertex algebras, preprint available
+12) Richard E. Borcherds, Quantum vertex algebras, preprint available
 as [math.QA/9903038](http://xxx.lanl.gov/abs/math.QA/9903038).
 
-I like how the abstract of this paper starts: \"The purpose of this
-paper is to make the theory of vertex algebras trivial\". Good! Trivial
-is not bad, it\'s good. Anything one understands is automatically
+I like how the abstract of this paper starts: "The purpose of this
+paper is to make the theory of vertex algebras trivial". Good! Trivial
+is not bad, it's good. Anything one understands is automatically
 trivial.
 
 ------------------------------------------------------------------------

@@ -1,11 +1,11 @@
 week 110
 
-Last time I sketched Wheeler\'s vision of \"spacetime foam\", and his
+Last time I sketched Wheeler's vision of "spacetime foam", and his
 intuition that a good theory of this would require taking spin-1/2
-particles very seriously. Now I want to talk about Penrose\'s \"spin
-networks\". These were an attempt to build a purely combinatorial
+particles very seriously. Now I want to talk about Penrose's "spin
+networks". These were an attempt to build a purely combinatorial
 description of spacetime starting from the mathematics of spin-1/2
-particles. He didn\'t get too far with this, which is why he moved on to
+particles. He didn't get too far with this, which is why he moved on to
 invent twistor theory. The problem was that spin networks gave an
 interesting theory of *space*, but not of spacetime. But recent work on
 quantum gravity shows that you can get pretty far with spin network
@@ -14,9 +14,9 @@ holes. So spin networks are quite a flourishing business.
 
 Okay. Building space from spin! How does it work?
 
-Penrose\'s original spin networks were purely combinatorial gadgets:
+Penrose's original spin networks were purely combinatorial gadgets:
 graphs with edges labelled by numbers j = 0, 1/2, 1, 3/2,\... These
-numbers stand for total angular momentum or \"spin\". He required that
+numbers stand for total angular momentum or "spin". He required that
 three edges meet at each vertex, with the corresponding spins j~1~,
 j~2~, j~3~ adding up to an integer and satisfying the triangle
 inequalities
@@ -27,17 +27,17 @@ These rules are motivated by the quantum mechanics of angular momentum:
 if we combine a system with spin j~1~ and a system with spin j~2~, the
 spin j~3~ of the combined system satisfies exactly these constraints.
 
-In Penrose\'s setup, a spin network represents a quantum state of the
+In Penrose's setup, a spin network represents a quantum state of the
 geometry of space. To justify this interpretation he did a lot of
 computations using a special rule for computing a number from any spin
-network, which is now called the \"Penrose evaluation\" or \"chromatic
-evaluation\". In \"[week22](week22.html)\" I said how this works when
+network, which is now called the "Penrose evaluation" or "chromatic
+evaluation". In "[week22](week22.html)" I said how this works when
 all the edges have spin 1, and described how this case is related to the
-four-color theorem. The general case isn\'t much harder, but it\'s a
-real pain to describe without lots of pictures, so I\'ll just refer you
+four-color theorem. The general case isn't much harder, but it's a
+real pain to describe without lots of pictures, so I'll just refer you
 to the original papers:
 
-1\) Roger Penrose, Angular momentum: an approach to combinatorial
+1) Roger Penrose, Angular momentum: an approach to combinatorial
 space-time, in Quantum Theory and Beyond, ed. T. Bastin, Cambridge U.
 Press, Cambridge, 1971, pp. 151-180. Also available at
 <http://math.ucr.edu/home/baez/penrose/>
@@ -53,12 +53,12 @@ R. Penrose, Combinatorial quantum theory and quantized directions, in
 Advances in Twistor Theory, eds. L. Hughston and R. Ward, Pitman
 Advanced Publishing Program, San Francisco, 1979, pp. 301-317.
 
-It\'s easier to explain the *physical meaning* of the Penrose
+It's easier to explain the *physical meaning* of the Penrose
 evaluation. Basically, the idea is this. In classical general
 relativity, space is described by a 3-dimensional manifold with a
 Riemannian metric: a recipe for measuring distances and angles. In the
 spin network approach to quantum gravity, the geometry of space is
-instead described as a superposition of \"spin network states\". In
+instead described as a superposition of "spin network states". In
 other words, spin networks form a basis of the Hilbert space of states
 of quantum gravity, so we can write any state Ψ as
 
@@ -69,18 +69,18 @@ complex numbers. The simplest state is the one corresponding to good old
 flat Euclidean space. In this state, each coefficient c~i~ is just the
 Penrose evaluation of the corresponding spin network ψ~i~.
 
-Actually, this interpretation wasn\'t fully understood until later, when
+Actually, this interpretation wasn't fully understood until later, when
 Rovelli and Smolin showed how spin networks arise naturally in the
-so-called \"loop representation\" of quantum gravity. They also came up
+so-called "loop representation" of quantum gravity. They also came up
 with a clearer picture of the way a spin network state corresponds to a
 possible geometry of space. The basic picture is that spin network edges
 represent flux tubes of area: an edge labelled with spin j contributes
 an area proportional to (j(j+1))^½^ to any surface it pierces.
 
-The cool thing is that Rovelli and Smolin didn\'t postulate this, they
+The cool thing is that Rovelli and Smolin didn't postulate this, they
 *derived* it. Remember, in quantum theory, observables are given by
 operators on the Hilbert space of states of the physical system in
-question. You typically get these by \"quantizing\" the formulas for the
+question. You typically get these by "quantizing" the formulas for the
 corresponding classical observables. So Rovelli and Smolin took the
 usual formula for the area of a surface in a 3-dimensional manifold with
 a Riemannian metric and quantized it. Applying this operator to a spin
@@ -88,18 +88,18 @@ network state, they found the picture I just described: the area of a
 surface is a sum of terms proportional to (j(j+1))^½^, one for each spin
 network edge poking through it.
 
-Of course, I\'m oversimplifying both the physics and the history here.
-The tale of spin networks and loop quantum gravity is rather long. I\'ve
-discussed it already in \"[week55](week55.html)\" and
-\"[week99](week99.html)\", but only sketchily. If you want more details,
+Of course, I'm oversimplifying both the physics and the history here.
+The tale of spin networks and loop quantum gravity is rather long. I've
+discussed it already in "[week55](week55.html)" and
+"[week99](week99.html)", but only sketchily. If you want more details,
 try:
 
-2\) Carlo Rovelli, Loop quantum gravity, preprint available as
+2) Carlo Rovelli, Loop quantum gravity, preprint available as
 [gr-qc/9710008](http://xxx.lanl.gov/abs/gr-qc/9710008), also available
 as a webpage on Living Reviews in Relativity at
 <http://www.livingreviews.org/Articles/Volume1/1998-1rovelli/>
 
-The abstract gives a taste of what it\'s all about:
+The abstract gives a taste of what it's all about:
 
 > The problem of finding the quantum theory of the gravitational field,
 > and thus understanding what is quantum spacetime, is still open. One
@@ -117,7 +117,7 @@ The abstract gives a taste of what it\'s all about:
 > physical space, characterized by a polymer-like Planck scale
 > discreteness. This discreteness emerges naturally from the quantum
 > theory and provides a mathematically well-defined realization of
-> Wheeler\'s intuition of a spacetime \"foam\". Longstanding open
+> Wheeler's intuition of a spacetime "foam". Longstanding open
 > problems within the approach (lack of a scalar product,
 > overcompleteness of the loop basis, implementation of reality
 > conditions) have been fully solved. The weak part of the approach is
@@ -130,70 +130,70 @@ The abstract gives a taste of what it\'s all about:
 For a nice picture of Rovelli standing in front of some spin networks,
 check out:
 
-3\) Carlo Rovelli\'s homepage,
+3) Carlo Rovelli's homepage,
 [http://www.phyast.pitt.edu/\~rovelli/](http://www.phyast.pitt.edu/~rovelli/%0A)
 
 which also has links to many of his papers.
 
-You\'ll note from this abstract that the biggest problem in loop quantum
+You'll note from this abstract that the biggest problem in loop quantum
 gravity is finding an adequate description of *dynamics*. This is
 partially because spin networks are better suited for describing space
 than spacetime. For this reason, Rovelli, Reisenberger and I have been
-trying to describe spacetime using \"spin foams\" - sort of like soap
+trying to describe spacetime using "spin foams" - sort of like soap
 suds with all the bubbles having faces labelled by spins. Every slice of
 a spin foam is a spin network.
 
-But I\'m getting ahead of myself! I should note that the spin networks
+But I'm getting ahead of myself! I should note that the spin networks
 appearing in the loop representation are different from those Penrose
 considered, in two important ways.
 
 First, they can have more than 3 edges meeting at a vertex, and the
-vertices must be labelled by \"intertwining operators\", or
-\"intertwiners\" for short. This is a concept coming from group
-representation theory; as described in \"[week109](week109.html)\", what
-we\'ve been calling \"spins\" are really irreducible representations of
+vertices must be labelled by "intertwining operators", or
+"intertwiners" for short. This is a concept coming from group
+representation theory; as described in "[week109](week109.html)", what
+we've been calling "spins" are really irreducible representations of
 SU(2). If we orient the edges of a spin network, we should label each
 vertex with an intertwiner from the tensor product of representations on
-the \"incoming\" edges to the tensor product of representations
-labelling the \"outgoing\" edges. When 3 edges labelled by spins j~1~,
+the "incoming" edges to the tensor product of representations
+labelling the "outgoing" edges. When 3 edges labelled by spins j~1~,
 j~2~, j~3~ meet at a vertex, there is at most one intertwiner
 
 f: j~1~ ⊗ j~2~ → j~3~,
 
 at least up to a scalar multiple. The conditions I wrote down - the
 triangle inequality and so on - are just the conditions for a nonzero
-intertwiner of this sort to exist. That\'s why Penrose didn\'t label his
-vertices with intertwiners: he considered the case where there\'s
+intertwiner of this sort to exist. That's why Penrose didn't label his
+vertices with intertwiners: he considered the case where there's
 essentially just one way to do it! When more edges meet at a vertex,
 there are more intertwiners, and this extra information is physically
-very important. One sees this when one works out the \"volume
-operators\" in quantum gravity. Just as the spins on edges contribute
+very important. One sees this when one works out the "volume
+operators" in quantum gravity. Just as the spins on edges contribute
 *area* to surfaces they pierce, the intertwiners at vertices contribute
 *volume* to regions containing them!
 
 Second, in loop quantum gravity the spin networks are *embedded* in some
 3-dimensional manifold representing space. Penrose was being very
-radical and considering \"abstract\" spin networks as a purely
+radical and considering "abstract" spin networks as a purely
 combinatorial replacement for space, but in loop quantum gravity, one
 traditionally starts with general relativity on some fixed spacetime and
-quantizes that. Penrose\'s more radical approach may ultimately be the
+quantizes that. Penrose's more radical approach may ultimately be the
 right one in this respect. The approach where we take classical physics
 and quantize it is very important, because we understand classical
 physics better, and we have to start somewhere. Ultimately, however, the
 world is quantum-mechanical, so it would be nice to have an approach to
 space based purely on quantum-mechanical concepts. Also, treating spin
 networks as fundamental seems like a better way to understand the
-\"quantum fluctuations in topology\" which I mentioned in
-\"[week109](week109.html)\". However, right now it\'s probably best to
+"quantum fluctuations in topology" which I mentioned in
+"[week109](week109.html)". However, right now it's probably best to
 hedge ones bets and work hard on both approaches.
 
-Lately I\'ve been very excited by a third, hybrid approach:
+Lately I've been very excited by a third, hybrid approach:
 
-4\) Andrea Barbieri, Quantum tetrahedra and simplicial spin networks,
+4) Andrea Barbieri, Quantum tetrahedra and simplicial spin networks,
 preprint available as
 [gr-qc/9707010](http://xxx.lanl.gov/abs/gr-qc/9707010).
 
-Barbieri considers \"simplicial spin networks\": spin networks living in
+Barbieri considers "simplicial spin networks": spin networks living in
 a fixed 3-dimensional manifold chopped up into tetrahedra. He only
 considers spin networks dual to the triangulation, that is, spin
 networks having one vertex in the middle of each tetrahedron and one
@@ -218,16 +218,16 @@ j~1~ ⊗ j~2~ → j~5~ → j~3~ ⊗ j~4~
 
 where:
 
-a\) j~1~ + j~2~ + j~5~ is an integer and \|j~1~ - j~2~\| ≤ j~5~ ≤ j~1~ +
+a) j~1~ + j~2~ + j~5~ is an integer and \|j~1~ - j~2~\| ≤ j~5~ ≤ j~1~ +
 j~2~
 
-b\) j~3~ + j~4~ + j~5~ is an integer and \|j~3~ - j~4~\| ≤ j~5~ ≤ j~3~ +
+b) j~3~ + j~4~ + j~5~ is an integer and \|j~3~ - j~4~\| ≤ j~5~ ≤ j~3~ +
 j~4~.
 
 Using this, we get a basis of simplicial spin networks by labelling all
 the edges *and vertices* by spins satisfying the above conditions.
 Dually, this amounts to labelling each tetrahedron and each triangle in
-our manifold with a spin! Let\'s think of it this way.
+our manifold with a spin! Let's think of it this way.
 
 Now focus on a particular simplicial spin network and a particular
 tetrahedron. What do the spins j~1~,\...,j~5~ say about the geometry of
@@ -246,56 +246,56 @@ corresponding to the tetrahedron, whose action on our spin network state
 is given by a more complicated formula involving the spins
 j~1~,\...,j~5~.
 
-Well, that either made sense or it didn\'t\... and I don\'t think either
-of us want to stick around to find out which! What\'s the bottom line,
-you ask? First, we\'re seeing how an ordinary tetrahedron is the
-classical limit of a \"quantum tetrahedron\" whose faces have quantized
-areas and whose volume is also quantized. Second, we\'re seeing how to
+Well, that either made sense or it didn't\... and I don't think either
+of us want to stick around to find out which! What's the bottom line,
+you ask? First, we're seeing how an ordinary tetrahedron is the
+classical limit of a "quantum tetrahedron" whose faces have quantized
+areas and whose volume is also quantized. Second, we're seeing how to
 put together a bunch of these quantum tetrahedra to form a 3-dimensional
-manifold equipped with a \"quantum geometry\" - which can dually be seen
+manifold equipped with a "quantum geometry" - which can dually be seen
 as a spin network. Third, all this stuff fits together in a truly
 elegant way, which suggests there is something good about it. The
 relationship between spin networks and tetrahedra connects the theory of
 spin networks with approaches to quantum gravity where one chops up
-space into tetrahedra - like the \"Regge calculus\" and \"dynamical
-triangulations\" approaches.
+space into tetrahedra - like the "Regge calculus" and "dynamical
+triangulations" approaches.
 
-Next week I\'ll say a bit about using spin networks to study quantum
-black holes. Later I\'ll talk about *dynamics* and spin foams.
+Next week I'll say a bit about using spin networks to study quantum
+black holes. Later I'll talk about *dynamics* and spin foams.
 
-Meanwhile, I\'ve been really lagging behind in describing new papers as
+Meanwhile, I've been really lagging behind in describing new papers as
 they show up\... so here are a few interesting ones:
 
-5\) C. Nash, Topology and physics - a historical essay, to appear in A
+5) C. Nash, Topology and physics - a historical essay, to appear in A
 History of Topology, edited by Ioan James, Elsevier-North Holland,
 preprint available as
 [hep-th/9709135](http://xxx.lanl.gov/abs/hep-th/9709135).
 
-6\) Luis Alvarez-Gaume and Frederic Zamora, Duality in quantum field
+6) Luis Alvarez-Gaume and Frederic Zamora, Duality in quantum field
 theory (and string theory), available as
 [hep-th/9709180](http://xxx.lanl.gov/abs/hep-th/9709180).
 
 Quoting the abstract:
 
-\"These lectures give an introduction to duality in Quantum Field
+"These lectures give an introduction to duality in Quantum Field
 Theory. We discuss the phases of gauge theories and the implications of
 the electric-magnetic duality transformation to describe the mechanism
 of confinement. We review the exact results of N=1 supersymmetric QCD
 and the Seiberg-Witten solution of N=2 super Yang-Mills. Some of its
-extensions to String Theory are also briefly discussed.\"
+extensions to String Theory are also briefly discussed."
 
-7\) Richard E. Borcherds, What is a vertex algebra?, available as
+7) Richard E. Borcherds, What is a vertex algebra?, available as
 [q-alg/9709033](http://xxx.lanl.gov/abs/q-alg/9709033).
 
-\"These are the notes of an informal talk in Bonn describing how to
-define an analogue of vertex algebras in higher dimensions.\"
+"These are the notes of an informal talk in Bonn describing how to
+define an analogue of vertex algebras in higher dimensions."
 
-8\) J. M. F. Labastida and Carlos Lozano, Lectures in topological
+8) J. M. F. Labastida and Carlos Lozano, Lectures in topological
 quantum field theory, 62 pages in LaTeX with 5 figures in encapsulated
 Postscript, available as
 [hep-th/9709192](http://xxx.lanl.gov/abs/hep-th/9709192).
 
-\"In these lectures we present a general introduction to topological
+"In these lectures we present a general introduction to topological
 quantum field theories. These theories are discussed in the framework of
 the Mathai-Quillen formalism and in the context of twisted N=2
 supersymmetric theories. We discuss in detail the recent developments in
@@ -305,16 +305,16 @@ description of the computation of Donaldson invariants in terms of
 Seiberg-Witten invariants. Generalizations of Donaldson-Witten theory
 are reviewed, and the structure of the vacuum expectation values of
 their observables is analyzed in the context of duality for the simplest
-case.\"
+case."
 
-9\) Martin Markl, Simplex, associahedron, and cyclohedron, preprint
+9) Martin Markl, Simplex, associahedron, and cyclohedron, preprint
 available as
 [alg-geom/9707009](http://xxx.lanl.gov/abs/alg-geom/9707009).
 
-\"The aim of the paper is to give an \`elementary\' introduction to the
+"The aim of the paper is to give an \`elementary' introduction to the
 theory of modules over operads and discuss three prominent examples of
 these objects - simplex, associahedron (= the Stasheff polyhedron) and
 cyclohedron (= the compactification of the space of configurations of
-points on the circle).\"
+points on the circle)."
 
 ------------------------------------------------------------------------

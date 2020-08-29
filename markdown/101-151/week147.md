@@ -1,48 +1,48 @@
 week147
 
 Various books are coming out to commemorate the millennium\....
-describing the highlights of the math we\'ve done so far, and laying out
+describing the highlights of the math we've done so far, and laying out
 grand dreams for the future. The American Mathematical Society has come
 out with one:
 
-1\) Mathematics: Frontiers and Perspectives, edited by Vladimir Arnold,
+1) Mathematics: Frontiers and Perspectives, edited by Vladimir Arnold,
 Michael Atiyah, Peter Lax and Barry Mazur, AMS, Providence, Rhode
 Island, 2000.
 
 This contains 30 articles by bigshots like Chern, Connes, Donaldson,
 Jones, Lions, Manin, Mumford, Penrose, Smale, Vafa, Wiles and Witten. I
-haven\'t actually read it yet, but I want to get ahold of it.
+haven't actually read it yet, but I want to get ahold of it.
 
 Springer Verlag is coming out with one, too:
 
-2\) Mathematics Unlimited: 2001 and Beyond, edited by Bjorn Engquist and
+2) Mathematics Unlimited: 2001 and Beyond, edited by Bjorn Engquist and
 Wilfried Schmid, Springer Verlag, New York, 2000.
 
 It should appear in the fall.
 
-I don\'t know what the physicists are doing along these lines. The
+I don't know what the physicists are doing along these lines. The
 American Physical Society has a nice timeline of 20th century physics on
 their website:
 
-3\) The American Physical Society: A Century of Physics, available at
+3) The American Physical Society: A Century of Physics, available at
 <http://timeline.aps.org/APS/home_HighRes.html>
 
-But I don\'t see anything about books.
+But I don't see anything about books.
 
-One reason I haven\'t been doing many This Week\'s Finds lately is that
-I\'ve been buying and then moving into a new house. Another is that
+One reason I haven't been doing many This Week's Finds lately is that
+I've been buying and then moving into a new house. Another is that
 James Dolan and I have been busily writing our own millennial
 pontifications, which will appear in the Springer-Verlag book:
 
-4\) John Baez and James Dolan, From finite sets to Feynman diagrams,
+4) John Baez and James Dolan, From finite sets to Feynman diagrams,
 preprint available as
 [math.QA/0004133](http://arXiv.org/abs/math.QA/0004133)
 
 So let me talk about this stuff a bit\....
 
-As usual, the underlying theme of this paper is categorification. I\'ve
-talked about this a lot already - e.g. in \"[week121](week121.html)\" -
-so I\'ll assume you remember that when we categorify, we use this
+As usual, the underlying theme of this paper is categorification. I've
+talked about this a lot already - e.g. in "[week121](week121.html)" -
+so I'll assume you remember that when we categorify, we use this
 analogy:
 
     SET THEORY                          CATEGORY THEORY
@@ -83,26 +83,26 @@ like this:
                    /   /       \
                   .   .         .
 
-This may seem like an excessively detailed \"picture proof\" that 1+2
+This may seem like an excessively detailed "picture proof" that 1+2
 indeed equals 2+1, perhaps suitable for not-too-bright kindergarteners.
-But in fact it\'s just a hop, skip and a jump from here to heavy-duty
+But in fact it's just a hop, skip and a jump from here to heavy-duty
 stuff like the homotopy groups of spheres. I sketched how this works in
-\"[week102](week102.html)\" so I won\'t do so again here. The point is,
+"[week102](week102.html)" so I won't do so again here. The point is,
 after we categorify, elementary math turns out to be pretty powerful!
 
-Now, let me make this idea of \"categorifying the natural numbers\" a
+Now, let me make this idea of "categorifying the natural numbers" a
 bit more precise. Let FinSet stand for the category whose objects are
 finite sets and whose morphisms are functions between these. If we
-\"decategorify\" this category by forming the set of isomorphism classes
+"decategorify" this category by forming the set of isomorphism classes
 of objects, we get N, the natural numbers.
 
 All the basic arithmetic operations on N come from operations on FinSet.
-I\'ve already noted how addition comes from disjoint union. Disjoint
+I've already noted how addition comes from disjoint union. Disjoint
 union is a special case of what category theorists call the
-\"coproduct\", which makes sense for a bunch of categories - see
-\"[week99](week99.html)\" for the general definition. Similarly,
+"coproduct", which makes sense for a bunch of categories - see
+"[week99](week99.html)" for the general definition. Similarly,
 multiplication comes from the Cartesian product of finite sets, which is
-a special case of what category theorists call the \"product\". To get
+a special case of what category theorists call the "product". To get
 the definition of a product, you just take the definition of a coproduct
 and turn all the arrows around. There are also nice category-theoretic
 interpretations of the numbers 0 and 1, and all the basic laws 0, 1,
@@ -110,13 +110,13 @@ addition and multiplication. Exponentiation too!
 
 Combinatorists have lots of fun thinking about how to take equations in
 N and prove them using explicite isomorphisms in FinSet - they call such
-a proof a \"bijective proof\". To read more about this, try:
+a proof a "bijective proof". To read more about this, try:
 
-5\) James Propp and David Feldman, Producing new bijections from old,
+5) James Propp and David Feldman, Producing new bijections from old,
 Adv. Math. 113 (1995), 1-44. Also available at
 <http://www.math.wisc.edu/~propp/articles.html>
 
-6\) John Conway and Peter Doyle, Division by three. Available at
+6) John Conway and Peter Doyle, Division by three. Available at
 <http://math.dartmouth.edu/~doyle/docs/three/>
 
 The latter article studies this question: if I give you an isomorphism
@@ -125,48 +125,48 @@ of course x and y are finite sets, 3 is any 3-element set, and
 multiplication means Cartesian product. Of course you can prove an
 isomorphism exists, but can you *construct* one in a natural way - i.e.,
 without making any random choices? The history of this puzzle turns out
-to be very interesting. But I don\'t want to give away the answer! See
+to be very interesting. But I don't want to give away the answer! See
 if you can do it or not.
 
 Anyway, having categorified the natural numbers, we might be inclined to
 go on and categorify the integers. Can we do it? In other words: can we
-find something like the category of finite sets that includes \"sets
-with a negative number of elements\"? There turns out be an interesting
+find something like the category of finite sets that includes "sets
+with a negative number of elements"? There turns out be an interesting
 literature on this subject:
 
-7\) Daniel Loeb, Sets with a negative number of elements, Adv. Math. 91
+7) Daniel Loeb, Sets with a negative number of elements, Adv. Math. 91
 (1992), 64-74.
 
-8\) S. Schanuel, Negative sets have Euler characteristic and dimension,
+8) S. Schanuel, Negative sets have Euler characteristic and dimension,
 Lecture Notes in Mathematics 1488, Springer Verlag, Berlin, 1991, pp.
 379-385.
 
-9\) James Propp, Exponentiation and Euler measure, available as
+9) James Propp, Exponentiation and Euler measure, available as
 [math.CO/0204009](http://www.arXiv.org/abs/math.CO/0204009).
 
-10\) Andre Joyal, Regle des signes en algebre combinatoire, Comptes
-Rendus Mathematiques de l\'Academie des Sciences, La Societe Royale du
+10) Andre Joyal, Regle des signes en algebre combinatoire, Comptes
+Rendus Mathematiques de l'Academie des Sciences, La Societe Royale du
 Canada, VII (1985), 285-290.
 
-See also \"[week102](week102.html)\" for more\....
+See also "[week102](week102.html)" for more\....
 
-But I don\'t want to talk about negative sets right now! Instead, I want
+But I don't want to talk about negative sets right now! Instead, I want
 to talk about *fractional* sets. It may seem odd to tackle division
 before subtraction, but historically, the negative numbers were invented
 quite a bit *after* the nonnegative rational numbers. Apparently half an
 apple is easier to understand than a negative apple! This suggests that
-perhaps \`sets with fractional cardinality\' are simpler than \`sets
-with negative cardinality\'.
+perhaps \`sets with fractional cardinality' are simpler than \`sets
+with negative cardinality'.
 
 The key is to think carefully about the meaning of division. The usual
-way to get half an apple is to chop one into \"two equal parts\". Of
+way to get half an apple is to chop one into "two equal parts". Of
 course, the parts are actually NOT EQUAL - if they were, there would be
 only one part! They are merely ISOMORPHIC. This suggests that
 categorification will be handy.
 
 Indeed, what we really have is a Z/2 symmetry group acting on the apple
 which interchanges the two isomorphic parts. In general, if a group G
-acts on a set S, we can \"divide\" the set by the group by taking the
+acts on a set S, we can "divide" the set by the group by taking the
 quotient S/G, whose points are the orbits of the action. If S and G are
 finite and G acts freely on S, this construction really corresponds to
 division, since the cardinality \|S/G\| is equal to \|S\|/\|G\|.
@@ -185,39 +185,39 @@ starting with a 5-element set:
 
                          o    o    o    o   o
 
-it fails miserably! We don\'t obtain a set with 2.5 elements, because
+it fails miserably! We don't obtain a set with 2.5 elements, because
 the group action is not free: the point in the middle gets mapped to
-itself. So to define \"sets with fractional cardinality\", we need a way
-to count the point in the middle as \"half a point\".
+itself. So to define "sets with fractional cardinality", we need a way
+to count the point in the middle as "half a point".
 
 To do this, we should first find a better way to define the quotient of
 S by G when the action fails to be free. Following the policy of
-replacing equations by isomorphisms, let us define the \"weak quotient\"
+replacing equations by isomorphisms, let us define the "weak quotient"
 S//G to be the category with elements of S as its objects, with a
-morphism g: s → s\' whenever g(s) = s\', and with composition of
+morphism g: s → s' whenever g(s) = s', and with composition of
 morphisms defined in the obvious way.
 
-Next, let us figure out a good way to define the \"cardinality\" of a
+Next, let us figure out a good way to define the "cardinality" of a
 category. Pondering the examples above leads us to the following recipe:
 for each isomorphism class of objects we pick a representative x and
 compute the reciprocal of the number of automorphisms of this object;
 then we sum over isomorphism classes.
 
 It is easy to see that with this definition, the point in the middle of
-the previous picture gets counted as \`half a point\' because it has two
+the previous picture gets counted as \`half a point' because it has two
 automorphisms, so we get a category with cardinality 2.5. In general,
 
 \|S//G\| = \|S\|/\|G\|
 
 whenever G is a finite group acting on a finite set S. This formula is a
-simplified version of \`Burnside\'s lemma\', so-called because it is due
-to Cauchy and Frobenius. Burnside\'s lemma gives the cardinality of the
-ordinary quotient. But the weak quotient is nicer, so Burnside\'s lemma
+simplified version of \`Burnside's lemma', so-called because it is due
+to Cauchy and Frobenius. Burnside's lemma gives the cardinality of the
+ordinary quotient. But the weak quotient is nicer, so Burnside's lemma
 simplifies when we use weak quotients.
 
 Now, the formula for the cardinality of a category makes sense even for
 some categories that have infinitely many objects - all we need is for
-the sum to make sense. So let\'s try to compute the cardinality of the
+the sum to make sense. So let's try to compute the cardinality of the
 category of finite sets! Since any n-element set has n! automorphisms
 (i.e. permutations), we get following marvelous formula:
 
@@ -226,30 +226,30 @@ category of finite sets! Since any n-element set has n! automorphisms
 This turns out to explain lots of things about the number e.
 
 Now, a category all of whose morphisms are isomorphisms is called a
-\"groupoid\". Any category C has an underlying groupoid C~0~ with the
+"groupoid". Any category C has an underlying groupoid C~0~ with the
 same objects but only the isomorphisms as morphisms. The cardinality of
 a category C always equals that of its underlying groupoid C~0~. This
-suggests that this notion should really be called \"groupoid
-cardinality. If you\'re a fan of n-categories, this suggests that we
+suggests that this notion should really be called "groupoid
+cardinality. If you're a fan of n-categories, this suggests that we
 should generalize the concept of cardinality to n-groupoids, or even
-ω-groupoids. And luckily, we don\'t need to understand ω-groupoids very
+ω-groupoids. And luckily, we don't need to understand ω-groupoids very
 well to try our hand at this! Omega-groupoids are supposed to be an
 algebraic way of thinking about topological spaces up to homotopy. Thus
-we just need to invent a concept of the \`cardinality\' of a topological
+we just need to invent a concept of the \`cardinality' of a topological
 space which has nice formal properties and which agrees with the
 groupoid cardinality in the case of homotopy 1-types. In fact, this is
 not hard to do. We just need to use the homotopy groups π~k~(X) of the
 space X.
 
-So: let\'s define the \"homotopy cardinality\" of a topological space X
+So: let's define the "homotopy cardinality" of a topological space X
 to be the alternating product
 
 \|X\|   =   \|π~1~(X)\|^-1^   \|π~2~(X)\|   \|π~3~(X)\|^-1^ \....
 
 when X is connected and the product converges; if X is not connected,
-let\'s define its homotopy cardinality to be the sum of the homotopy
+let's define its homotopy cardinality to be the sum of the homotopy
 cardinalities of its connected components, when the sum converges. We
-call spaces with well-defined homotopy cardinality \"tame\". The
+call spaces with well-defined homotopy cardinality "tame". The
 disjoint union or Cartesian product of tame spaces is again tame, and we
 have
 
@@ -260,7 +260,7 @@ have
 just as you would hope.
 
 Even better, homotopy cardinality gets along well with fibrations, which
-we can think of as \`twisted products\' of spaces. Namely, if
+we can think of as \`twisted products' of spaces. Namely, if
 
 F → X → B
 
@@ -272,29 +272,29 @@ whenever two of the three spaces in question are tame (which implies the
 tameness of the third).
 
 As a fun application of this fact, recall that any topological group G
-has a \"classifying space\" BG, meaning a space with a principal
+has a "classifying space" BG, meaning a space with a principal
 G-bundle over it
 
 G → EG → BG
 
 whose total space EG is contractible. I described how to construct the
-classifying space in \"[week117](week117.html)\", at least in the case
-of a discrete group G, but I didn\'t say much about why it\'s so great.
-The main reason it\'s great is that *any* G-bundle over *any* space is a
+classifying space in "[week117](week117.html)", at least in the case
+of a discrete group G, but I didn't say much about why it's so great.
+The main reason it's great is that *any* G-bundle over *any* space is a
 pullback of the bundle EG over BG. But right now, what I want to note is
 that since EG is contractible it is tame, and \|EG\| = 1. Thus G is tame
 if and only if BG is, and
 
 \|BG\| = 1 / \|G\|
 
-so we can think of BG as the \"reciprocal\" of G!
+so we can think of BG as the "reciprocal" of G!
 
-This idea is already lurking behind the usual approach to \"equivariant
-cohomology\". Suppose X is a space on which the topological group G
+This idea is already lurking behind the usual approach to "equivariant
+cohomology". Suppose X is a space on which the topological group G
 acts. When the action of G on X is free, it is fun to calculate
 cohomology groups (and other invariants) of the quotient space X/G. When
 the action is not free, this quotient can be very pathological, so
-people usually replace it by the \"homotopy quotient\" X//G, which is
+people usually replace it by the "homotopy quotient" X//G, which is
 defined as (EG x X)/G. This is like the ordinary quotient but with
 equations replaced by homotopies. And there is a fibration
 
@@ -308,8 +308,8 @@ just as you would hope!
 
 Now in the paper, Jim and I go on to talk about how all these ideas can
 be put to use to give a nice explanation of the combinatorics of Feynman
-diagrams. But I don\'t want to explain all that stuff here - then you
-wouldn\'t need to read the paper! Instead, I just want to point out
+diagrams. But I don't want to explain all that stuff here - then you
+wouldn't need to read the paper! Instead, I just want to point out
 something mysterious about homotopy cardinality.
 
 Homotopy cardinality is formally very similar to Euler characteristic.
@@ -334,13 +334,13 @@ is a fibration and the base space B is connected, we have
 χ(X) = χ(F) × χ(B)
 
 whenever any two of the spaces have well-defined Euler characteristic,
-which implies that the third does too (unless I\'m confused).
+which implies that the third does too (unless I'm confused).
 
 So Euler characteristic is a lot like homotopy cardinality. But not many
 spaces have *both* well-defined homotopy cardinality *and* well-defined
-Euler characteristic. So they\'re like Jekyll and Hyde - you hardly ever
-see them in the same place at the same time, so you can\'t tell if
-they\'re really the same guy.
+Euler characteristic. So they're like Jekyll and Hyde - you hardly ever
+see them in the same place at the same time, so you can't tell if
+they're really the same guy.
 
 But there are some weird ways to try to force the issue and compute both
 quantities for certain spaces. For example, suppose G is a finite group.
@@ -349,7 +349,7 @@ Then we can build BG starting from a simplicial set with 1 nondegenerate
 2-simplices, and so on. If there were only finitely many nondegenerate
 simplices of all dimensions, we could compute the Euler characteristic
 of this space as the alternating sum of the numbers of such simplices.
-So let\'s try doing that here! We get:
+So let's try doing that here! We get:
 
 c(BG) = 1 - (\|G\|-1) + (\|G\|-1)^2^ - \....
 
@@ -362,41 +362,41 @@ which matches our previous (rigorous) result that
 
 \|BG\| = 1/\|G\|
 
-So maybe they\'re the same after all! There are similar calculations
-like this in James Propp\'s paper \"Exponentiation and Euler
-characteristic\", referred to above\... though he uses a slightly
+So maybe they're the same after all! There are similar calculations
+like this in James Propp's paper "Exponentiation and Euler
+characteristic", referred to above\... though he uses a slightly
 different notion of Euler characteristic, due to Schanuel. Clearly
-something interesting is going on with these \"divergent Euler
-characteristics\". For appearances of this sort of thing in physics,
+something interesting is going on with these "divergent Euler
+characteristics". For appearances of this sort of thing in physics,
 see:
 
-11\) Matthias Blau and George Thompson, N = 2 topological gauge theory,
+11) Matthias Blau and George Thompson, N = 2 topological gauge theory,
 the Euler characteristic of moduli spaces, and the Casson invariant,
 Comm. Math. Phys. 152 (1993), 41-71.
 
 and the references therein. (I discussed this paper a bit in
-\"[week51](week51.html)\".)
+"[week51](week51.html)".)
 
 However, there are still challenging tests to the theory that homotopy
-cardinality and Euler characteristic are secretly the same. Here\'s a
+cardinality and Euler characteristic are secretly the same. Here's a
 puzzle due to James Dolan. Consider a Riemann surface of genus g \> 1.
 Such a surface has Euler characteristic 2 - 2g, but such a surface also
-has vanishing homotopy groups above the first, which implies that it\'s
+has vanishing homotopy groups above the first, which implies that it's
 BG for G equal to its fundamental group. If homotopy cardinality and
 Euler characteristic were the same, this would imply
 
 \|G\| = 1/\|BG\| = 1/c(S) = 1/(2 - 2g)
 
-But the fundamental group G is infinite! What\'s going on?
+But the fundamental group G is infinite! What's going on?
 
-Well, I\'m actually sort of glad that 1/(2 - 2g) is *negative*.
+Well, I'm actually sort of glad that 1/(2 - 2g) is *negative*.
 Sometimes a divergent series of positive integers can be cleverly summed
 up to give a negative number. The simplest example is the geometric
 series
 
 1 + 2 + 4 + 8 + 16 + \... = 1/(1 - 2) = -1
 
-but in \"[week126](week126.html)\" I talked about a more sophisticated
+but in "[week126](week126.html)" I talked about a more sophisticated
 example that is very important in string theory:
 
 1 + 2 + 3 + 4 + 5 + \... = ζ(-1) = -1/12
@@ -406,18 +406,18 @@ and get a divergent sum that can be sneakily evaluated to obtain 1/(2 -
 2g). Of course, even if we succeed in doing this, the skeptics will
 rightly question the significance of such tomfoolery. But there is
 sometimes a lot of profound truth lurking in these bizarre formal
-manipulations, and sometimes if you examine what\'s going on carefully
+manipulations, and sometimes if you examine what's going on carefully
 enough, you can discover cool stuff.
 
 To wrap up, let me mention an interesting paper on the foundations of
 categorification:
 
-12\) Claudio Hermida, From coherent structures to universal properties,
+12) Claudio Hermida, From coherent structures to universal properties,
 available at <http://www.cs.math.ist.utl.pt/cs/s84/claudio.html>
 
 and also two papers about 2-groupoids and topology:
 
-13\) K. A. Hardie, K. H. Kamps, R. W. Kieboom, A homotopy bigroupoid of
+13) K. A. Hardie, K. H. Kamps, R. W. Kieboom, A homotopy bigroupoid of
 a topological space, in: Categorical Methods in Algebra and Topology,
 pp. 209-222, Mathematik-Arbeitspapiere 48, Universitaet Bremen, 1997.
 Appl. Categ. Structures, to appear.
@@ -425,13 +425,13 @@ Appl. Categ. Structures, to appear.
 K. A. Hardie, K. H. Kamps, R. W. Kieboom, A homotopy 2-groupoid of a
 Hausdorff space, preprint.
 
-I would talk about these if I had the energy, but it\'s already past my
+I would talk about these if I had the energy, but it's already past my
 bed-time. Good night!
 
 ------------------------------------------------------------------------
 
 **Addenda:** Toby Bartels had some interesting things to say about this
-issue of This Week\'s Finds. Here is my reply, which quotes some of his
+issue of This Week's Finds. Here is my reply, which quotes some of his
 remarks\....
 
 >     Toby Bartels (toby@ugcs.caltech.edu) wrote:
@@ -462,7 +462,7 @@ remarks\....
 >     >are equipollent, but I can't remember the bijective proof.
 >     >(Presumably it can be adopted to nonsimple graphs.)
 >
-> It\'s a tricky business. Let me quote from the above article:
+> It's a tricky business. Let me quote from the above article:
 >
 > > ### History
 > >
@@ -482,15 +482,15 @@ remarks\....
 > > for it appears that twenty years later he still did not know how to
 > > divide by three. Finally, in 1949, in a paper \`dedicated to
 > > Professor Waclaw Sierpinski in celebration of his forty years as
-> > teacher and scholar\', Tarski published a proof. In this paper,
-> > Tarski explained that unfortunately he couldn\'t remember how
-> > Lindenbaum\'s proof had gone, except that it involved an argument
+> > teacher and scholar', Tarski published a proof. In this paper,
+> > Tarski explained that unfortunately he couldn't remember how
+> > Lindenbaum's proof had gone, except that it involved an argument
 > > like the one Sierpinski had used in dividing by two, and another
 > > lemma, due to Tarski, which we will describe below. Instead of
-> > Lindenbaum\'s proof, he gave another.
+> > Lindenbaum's proof, he gave another.
 > >
 > > Now when we began the investigations reported on here, we were aware
-> > that there was a proof in Tarski\'s paper, and Conway had even pored
+> > that there was a proof in Tarski's paper, and Conway had even pored
 > > over it at one time or another without achieving enlightenment. The
 > > problem was closely related to the kind of question John had looked
 > > at in his thesis, and it was also related to work that Doyle had
@@ -499,16 +499,16 @@ remarks\....
 > > much trouble we figured out how to divide by two. Our solution
 > > turned out to be substantially equivalent to that of Sierpinski,
 > > though the terms in which we will describe it below will not much
-> > resemble Sierpinski\'s. We tried and tried and tried to adapt the
+> > resemble Sierpinski's. We tried and tried and tried to adapt the
 > > method to the case of dividing by three, but we kept getting stuck
 > > at the same point in the argument. So finally we decided to look at
-> > Tarski\'s paper, and we saw that the lemma Tarski said Lindenbaum
+> > Tarski's paper, and we saw that the lemma Tarski said Lindenbaum
 > > had used was precisely what we needed to get past the point we were
 > > stuck on! So now we had a proof of division by three that combined
 > > an argument like that Sierpinski used in dividing by two with an
-> > appeal to Tarski\'s lemma, and we figured we must have hit upon an
-> > argument very much like that of Lindenbaum\'s. This is the solution
-> > we will describe here: Lindenbaum\'s argument, after 62 years.
+> > appeal to Tarski's lemma, and we figured we must have hit upon an
+> > argument very much like that of Lindenbaum's. This is the solution
+> > we will describe here: Lindenbaum's argument, after 62 years.
 >
 >     >>So: let's define the "homotopy cardinality" of a topological space X to
 >     >>be the alternating product |X| = \prod_{i>0} |π_i(X)|^{(-1)^i}
@@ -530,7 +530,7 @@ remarks\....
 > or
 >
 > -   allow both but then be extra careful when stating your theorems so
->     that you don\'t run into problems.
+>     that you don't run into problems.
 >
 > ```{=html}
 > <!-- -->
@@ -565,7 +565,7 @@ remarks\....
 >
 > π~n+1~(X) = π~n~(LX)
 >
-> so if X is connected and tame we\'ll have
+> so if X is connected and tame we'll have
 >
 > \|LX\| = 1/\|X\|
 >
@@ -577,12 +577,12 @@ remarks\....
 > connected. Conversely, given a topological group G, LBG is homotopy
 > equivalent to G.
 >
-> So what we\'re seeing is that topological groups and connected pointed
+> So what we're seeing is that topological groups and connected pointed
 > spaces are secretly the same thing, at least from the viewpoint of
 > homotopy theory. In topology, few things are as important as this
 > fact.
 >
-> But what\'s really going on here? Well, to go from a topological group
+> But what's really going on here? Well, to go from a topological group
 > G to a connected pointed space, you have to form BG, which has all the
 > same homotopy groups but just pushed up one notch:
 >
@@ -598,11 +598,11 @@ remarks\....
 >
 > And the real point is that a 1-object ω-groupoid can be reinterpreted
 > as an ω-groupoid by forgetting about the object and renaming all the
-> j-morphisms \"(j-1)-morphisms\".
+> j-morphisms "(j-1)-morphisms".
 >
-> See? When you finally get to the bottom of it, this \"BG\" business is
+> See? When you finally get to the bottom of it, this "BG" business is
 > just a silly reindexing game!!! Of course no textbook can admit this
-> openly - partially because they don\'t talk about ω-groupoids.
+> openly - partially because they don't talk about ω-groupoids.
 >
 >     >>So Euler characteristic is a lot like homotopy cardinality.  But
 >     >>not many spaces have both well-defined homotopy cardinality and 
@@ -612,8 +612,8 @@ remarks\....
 >
 >     >So, are they ever both defined but different?
 >
-> I don\'t recall any examples where they\'re both finite, but
-> different. I know very few cases where they\'re both finite! How about
+> I don't recall any examples where they're both finite, but
+> different. I know very few cases where they're both finite! How about
 > the point? How about the circle? How about the 2-sphere? I leave you
 > to ponder these cases.
 >
@@ -645,17 +645,17 @@ Ruberman! People have already figured out how to count the number of
 elements in the fundamental group of a Riemann surface, resum, and get
 1/(2 - 2g) in a nice way. Here are two references:
 
-14\) William J. Floyd and Steven P. Plotnick, Growth functions on
+14) William J. Floyd and Steven P. Plotnick, Growth functions on
 Fuchsian groups and the Euler characteristic, Invent. Math. 88 (1987),
 1-29.
 
-15\) R. I. Grigorchuk, Growth functions, rewriting systems and Euler
+15) R. I. Grigorchuk, Growth functions, rewriting systems and Euler
 characteristic, Mat. Zametki 58 (1995), 653-668, 798.
 
 You can read more about Euler characteristic and homotopy cardinality
 here:
 
-16\) John Baez, Euler characteristic versus homotopy cardinality,
+16) John Baez, Euler characteristic versus homotopy cardinality,
 lecture at the Fields Institute Program on Applied Homotopy Theory,
 September 20, 2003. Available in PDF form at
 <http://www.math.ucr.edu/home/baez/cardinality/>

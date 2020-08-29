@@ -3,27 +3,27 @@ week132
 Today I want to talk about n-categories and quantum gravity again. For
 starters let me quote from a paper of mine about this stuff:
 
-1\) John Baez, Higher-dimensional algebra and Planck-scale physics, to
+1) John Baez, Higher-dimensional algebra and Planck-scale physics, to
 appear in Physics Meets Philosophy at the Planck Scale, eds. Craig
 Callender and Nick Huggett, Cambridge U. Press. Preprint available as
 [gr-qc/9902017](http://xxx.lanl.gov/abs/gr-qc/9902017).
 
-By the way, this book should be pretty fun to read - it\'ll contain
+By the way, this book should be pretty fun to read - it'll contain
 papers by both philosophers and physicists, including a bunch who have
-already graced the pages of This Week\'s Finds, like Barbour, Isham,
-Rovelli, Unruh, and Witten. I\'ll say more about it when it comes out.
+already graced the pages of This Week's Finds, like Barbour, Isham,
+Rovelli, Unruh, and Witten. I'll say more about it when it comes out.
 
 Okay, here are some snippets from this paper. It starts out talking
 about the meaning of the Planck length, why it may be important in
 quantum gravity, and what a theory of quantum gravity should be like:
 
 > Two constants appear throughout general relativity: the speed of light
-> c and Newton\'s gravitational constant G. This should be no surprise,
+> c and Newton's gravitational constant G. This should be no surprise,
 > since Einstein created general relativity to reconcile the success of
-> Newton\'s theory of gravity, based on instantaneous action at a
+> Newton's theory of gravity, based on instantaneous action at a
 > distance, with his new theory of special relativity, in which no
 > influence travels faster than light. The constant c also appears in
-> quantum field theory, but paired with a different partner: Planck\'s
+> quantum field theory, but paired with a different partner: Planck's
 > constant ħ. The reason is that quantum field theory takes into account
 > special relativity and quantum theory, in which ħ sets the scale at
 > which the uncertainty principle becomes important.
@@ -33,7 +33,7 @@ quantum gravity, and what a theory of quantum gravity should be like:
 > and ħ. Planck noted that apart from numerical factors there is a
 > unique way to use these constants to define units of length, time, and
 > mass. For example, we can define the unit of length now called the
-> \`Planck length\' as follows:
+> \`Planck length' as follows:
 >
 > L = sqrt(ħ G /c\^3)
 >
@@ -88,7 +88,7 @@ quantum gravity, and what a theory of quantum gravity should be like:
 > accomplish such a feat.
 >
 > There are some well-known loopholes in the above argument. The
-> \`unimportant numerical factor\' I mentioned above might actually be
+> \`unimportant numerical factor' I mentioned above might actually be
 > very large, or very small. A theory of quantum gravity might make
 > testable predictions of dimensionless quantities like the ratio of the
 > muon and electron masses. For that matter, a theory of quantum gravity
@@ -112,10 +112,10 @@ quantum gravity, and what a theory of quantum gravity should be like:
 > Second, the quantities whose values we seek to predict are localized.
 > That is, we can measure them in small regions of spacetime (sometimes
 > idealized as points). Physicists call such quantities \`local degrees
-> of freedom\'. And third, to predict the value of a quantity that can
+> of freedom'. And third, to predict the value of a quantity that can
 > be measured in some region R, we only need to use values of quantities
 > measured in regions that stand in a certain geometrical relation to R.
-> This relation is called the \`causal structure\' of spacetime. For
+> This relation is called the \`causal structure' of spacetime. For
 > example, in a relativistic field theory, to predict the value of the
 > fields in some region R, it suffices to use their values in any other
 > region that intersects every timelike path passing through R. The
@@ -127,12 +127,12 @@ quantum gravity, and what a theory of quantum gravity should be like:
 > field. It takes on a deeper significance in general relativity, where
 > the gravitational field is described in terms of the curvature of the
 > spacetime metric. Unlike in special relativity, where the Minkowski
-> metric is a \`background structure\' given a priori, in general
+> metric is a \`background structure' given a priori, in general
 > relativity the metric is treated as a field which not only affects,
 > but also is affected by, the other fields present. In other words, the
 > geometry of spacetime becomes a local degree of freedom of the theory.
 > Quantitatively, the interaction of the metric and other fields is
-> described by Einstein\'s equation
+> described by Einstein's equation
 >
 > G\_{ab} = 8 π G T\_{ab}
 >
@@ -153,10 +153,10 @@ quantum gravity, and what a theory of quantum gravity should be like:
 > complete. The conflict between Ptolemaic and Copernican cosmologies,
 > the dispute between Newton and Leibniz concerning absolute and
 > relative motion, and the modern arguments concerning the \`problem of
-> time\' in quantum gravity - all are but chapters in the story of this
+> time' in quantum gravity - all are but chapters in the story of this
 > struggle. I do not have room to sketch this story here, nor even to
 > make more precise the all-important notion of \`geometrical
-> structure\'. I can only point the reader towards the literature,
+> structure'. I can only point the reader towards the literature,
 > starting perhaps with the books by Barbour and Earman, various papers
 > by Rovelli, and the many references therein.
 >
@@ -224,13 +224,13 @@ quantum gravity, and what a theory of quantum gravity should be like:
 
 Then I talk about topological quantum field theories, which are
 background-free quantum theories *without* local degrees of freedom, and
-what we have learned from them. Basically what we\'ve learned is that
-there\'s a deep analogy between the mathematics of spacetime (e.g.
+what we have learned from them. Basically what we've learned is that
+there's a deep analogy between the mathematics of spacetime (e.g.
 differential topology) and the mathematics of quantum theory. This is
 interesting because in background-free quantum theories we expect that
-spacetime, instead of serving as a \"stage\" on which events play out,
+spacetime, instead of serving as a "stage" on which events play out,
 actually becomes part of the play of events itself - and must itself be
-described using quantum theory. So it\'s very interesting to try to
+described using quantum theory. So it's very interesting to try to
 connect the concepts of spacetime and quantum theory. The analogy goes
 like this:
 
@@ -248,20 +248,20 @@ like this:
 
           identity cobordism                  identity operator         
 
-And if you know a little category theory, you\'ll see what we have here
+And if you know a little category theory, you'll see what we have here
 are two categories: the category of cobordisms and the category of
 Hilbert spaces. A topological quantum field theory is a functor from the
 first to the second\....
 
 Okay, now for some other papers:
 
-2\) Geraldine Brady and Todd H. Trimble. A string diagram calculus for
-predicate logic, and C. S. Peirce\'s system Beta, available at
+2) Geraldine Brady and Todd H. Trimble. A string diagram calculus for
+predicate logic, and C. S. Peirce's system Beta, available at
 [http://people.cs.uchicago.edu/\~
 brady](http://people.cs.uchicago.edu/~brady)
 
 Geraldine Brady and Todd H. Trimble, A categorical interpretation of
-Peirce\'s propositional logic Alpha, Jour. Pure and Appl. Alg. 149
+Peirce's propositional logic Alpha, Jour. Pure and Appl. Alg. 149
 (2000), 213-239.
 
 Geraldine Brady and Todd H. Trimble, The topology of relational
@@ -270,69 +270,69 @@ calculus.
 Charles Peirce is a famously underappreciated American philosopher who
 worked in the late 1800s. Among other things, like being the father of
 pragmatism, he is also one of the fathers of higher-dimensional algebra.
-As you surely know if you\'ve read me often enough, part of the point of
-higher-dimensional algebra is to break out of \"linear thinking\". By
-\"linear thinking\" I mean the tendency to do mathematics in ways that
+As you surely know if you've read me often enough, part of the point of
+higher-dimensional algebra is to break out of "linear thinking". By
+"linear thinking" I mean the tendency to do mathematics in ways that
 are easily expressed in terms of 1-dimensional strings of symbols. In
 his work on logic, Peirce burst free into higher dimensions. He
-developed a way of reasoning using diagrams that he called \"existential
-graphs\". Unfortunately this work by Peirce was never published! One
+developed a way of reasoning using diagrams that he called "existential
+graphs". Unfortunately this work by Peirce was never published! One
 reason is that existential graphs were difficult and expensive to print.
 As a result, his ideas languished in obscurity.
 
-By now it\'s clear that higher-dimensional algebra is useful in physics:
+By now it's clear that higher-dimensional algebra is useful in physics:
 examples include Feynman diagrams and the spin networks of Penrose. The
 theory of n-categories is beginning to provide a systematic language for
-all these techniques. So it\'s worth re-evaluating Peirce\'s work and
+all these techniques. So it's worth re-evaluating Peirce's work and
 seeing how it fits into the picture. And this is what the papers by
 Brady and Trimble do!
 
-3\) J. Scott Carter, Louis H. Kauffman, and Masahico Saito, Structures
+3) J. Scott Carter, Louis H. Kauffman, and Masahico Saito, Structures
 and diagrammatics of four dimensional topological lattice field
 theories, to appear in Adv. Math., preprint available as
 [math.GT/9806023](http://xxx.lanl.gov/abs/math.GT/9806023).
 
 We can get 3-dimensional topological quantum field theories from certain
-Hopf algebras. As I described in \"[week38](week38.html)\", Crane and
+Hopf algebras. As I described in "[week38](week38.html)", Crane and
 Frenkel made the suggestion that by categorifying this construction we
 should get 4-dimensional TQFTs from certain Hopf categories. This paper
 makes the suggestion precise in a certain class of examples! Basically
 these are categorified versions of the Dijkgraaf-Witten theory.
 
-4\) J. Scott Carter, Daniel Jelsovsky, Selichi Kamada, Laurel Langford
+4) J. Scott Carter, Daniel Jelsovsky, Selichi Kamada, Laurel Langford
 and Masahico Saito, Quandle cohomology and state-sum invariants of
 knotted curves and surfaces, preprint available as
 [math.GT/9903135](http://xxx.lanl.gov/abs/math.GT/9903135).
 
 Yet another attack on higher dimensions! This one gets invariants of
 2-links - surfaces embedded in R\^4 - from the cohomology groups of
-\"quandles\". I don\'t really understand how this fits into the overall
+"quandles". I don't really understand how this fits into the overall
 scheme of higher-dimensional algebra yet. They show their invariant
 distinguishes between the 2-twist spun trefoil (a certain sphere knotted
 in R\^4) and the same sphere with the reversed orientation.
 
-5\) Tom Leinster, Structures in higher-dimensional category theory,
+5) Tom Leinster, Structures in higher-dimensional category theory,
 preprint available at <http://www.dpmms.cam.ac.uk/~leinster>
 
 This is a nice tour of ideas in higher-dimensional algebra. Right now
 one big problem with the subject is that there are lots of approaches
-and not a clear enough picture of how they fit together. Leinster\'s
+and not a clear enough picture of how they fit together. Leinster's
 paper is an attempt to start seeing how things fit together.
 
-6\) Claudio Hermida, Higher-dimensional multicategories, slides of a
+6) Claudio Hermida, Higher-dimensional multicategories, slides of a
 lecture given in 1997, available at <http://www.math.mcgill.ca/~hermida>
 
 This talk presents some of the work by Makkai, Power and Hermida on
 their definition of n-categories. For more on their work see
-\"[week107](week107.html)\".
+"[week107](week107.html)".
 
-7\) Carlos Simpson, On the Breen-Baez-Dolan stabilization hypothesis for
-Tamsamani\'s weak n-categories, preprint available as
+7) Carlos Simpson, On the Breen-Baez-Dolan stabilization hypothesis for
+Tamsamani's weak n-categories, preprint available as
 [math.CT/9810058](http://xxx.lanl.gov/abs/math.CT/9810058).
 
 For quite a while now James Dolan and I have been talking about
-something we call the \"stabilization hypothesis\". I gave an
-explanation of this in \"[week121](week121.html)\", but briefly, it says
+something we call the "stabilization hypothesis". I gave an
+explanation of this in "[week121](week121.html)", but briefly, it says
 that the nth column of the following chart (which extends to infinity in
 both directions) stabilizes after 2n+2 rows:
 
@@ -364,12 +364,12 @@ both directions) stabilizes after 2n+2 rows:
     k = 5         " "             " "                "  "
 
 Carlos Simpson has now made this hypothesis precise and proved it using
-Tamsamani\'s definition of n-categories! And he did it using the same
+Tamsamani's definition of n-categories! And he did it using the same
 techniques that Graeme Segal used to study k-fold loop spaces\...
 exploiting the relation between n-categories and homotopy theory. This
 makes me really happy.
 
-8\) Mark Hovey, Model Categories, American Mathematical Society
+8) Mark Hovey, Model Categories, American Mathematical Society
 Mathematical Surveys and Monographs, vol 63., Providence, Rhode Island,
 1999. Preprint available as
 <http://www.math.uiuc.edu/K-theory/0278/index.html>
@@ -378,17 +378,17 @@ Speaking of that kind of thing, the technique of model categories is
 really important for homotopy theory and n-categories, and this book is
 a really great place to learn about it.
 
-9\) Frank Quinn, Group-categories, preprint available as
+9) Frank Quinn, Group-categories, preprint available as
 [math.GT/9811047](http://xxx.lanl.gov/abs/math.GT/9811047).
 
 This one is about the algebra behind certain topological quantum field
-theories. I\'ll just quote the abstract:
+theories. I'll just quote the abstract:
 
 > A group-category is an additively semisimple category with a monoidal
 > product structure in which the simple objects are invertible. For
 > example in the category of representations of a group, 1-dimensional
 > representations are the invertible simple objects. This paper gives a
-> detailed exploration of \"topological quantum field theories\" for
+> detailed exploration of "topological quantum field theories" for
 > group-categories, in hopes of finding clues to a better understanding
 > of the general situation. Group-categories are classified in several
 > ways extending results of Frohlich and Kerler. Topological field
@@ -401,7 +401,7 @@ theories. I\'ll just quote the abstract:
 > thickening. This is worked out for group-categories, and in particular
 > we determine when the normalization is possible and when it is not.
 
-10\) Sjoerd Crans, A tensor product for Gray-categories, Theory and
+10) Sjoerd Crans, A tensor product for Gray-categories, Theory and
 Applications of Categories, Vol. 5, 1999, No. 2, pp 12-69, available at
 <http://www.tac.mta.ca/tac/volumes/1999/n2/abstract.html>
 
@@ -413,10 +413,10 @@ define semistrict 4-categories one might similarly try to equip
 Gray-categories with a suitable tensor product. And this is what Crans
 is studying. Let me quote the abstract:
 
-> In this paper I extend Gray\'s tensor product of 2-categories to a new
+> In this paper I extend Gray's tensor product of 2-categories to a new
 > tensor product of Gray-categories. I give a description in terms of
 > generators and relations, one of the relations being an
-> \`\`interchange\'\' relation, and a description similar to Gray\'s
+> \`\`interchange'' relation, and a description similar to Gray's
 > description of his tensor product of 2-categories. I show that this
 > tensor product of Gray-categories satisfies a universal property with
 > respect to quasi-functors of two variables, which are defined in terms

@@ -1,28 +1,28 @@
 week102
 
-In \"[week101](week101.html)\" I claimed to have figured out the real
-reason for the importance of the number 24 in string theory. Now I\'m
+In "[week101](week101.html)" I claimed to have figured out the real
+reason for the importance of the number 24 in string theory. Now I'm
 not so sure - some pieces of the puzzle that I thought would fit
-together don\'t seem to be fitting. Maybe if I explain what I know so
+together don't seem to be fitting. Maybe if I explain what I know so
 far, some experts will hand me some of the missing pieces, or tell me
 where the ones I have go.
 
 Most of the puzzle pieces came from a talk at a conference on homotopy
 theory that I went to:
 
-1\) Ulrike Tillmann, The moduli space of Riemann surfaces - a homotopy
+1) Ulrike Tillmann, The moduli space of Riemann surfaces - a homotopy
 theory approach, talk at Northwestern University Algebraic Topology
 Conference, March 27, 1997
 
 However, some conversations with Andre Joyal during this conference
 really helped turn my attention towards what might be going on here.
 
-Let\'s start by recalling some stuff about homotopy groups of spheres.
+Let's start by recalling some stuff about homotopy groups of spheres.
 There are often lots of topologically different ways of wrapping an
 m-dimensional sphere around a k-dimensional sphere. For example, if m =
-k = 1, we\'re talking about the ways of wrapping a circle around a
-circle. These are classified by an integer called the \"winding
-number\". We can make this concrete by thinking of the circle as the
+k = 1, we're talking about the ways of wrapping a circle around a
+circle. These are classified by an integer called the "winding
+number". We can make this concrete by thinking of the circle as the
 unit circle in the complex plane. Take your favorite integer and call it
 n. Then the function
 
@@ -32,16 +32,16 @@ maps the unit circle (the complex numbers with \|z\| = 1) to itself. If
 n is positive, this function wraps the unit circle around itself n times
 in the counterclockwise direction. If n is negative, the circle gets
 wrapped around in the other direction. If n is zero, f(z) = 1, so we
-have a constant function - no \"wrapping around\" at all!
+have a constant function - no "wrapping around" at all!
 
 It turns out that any continuous function from the circle to itself can
 be continuously deformed to exactly one of these functions f(z) = z^n^.
 Homotopy theory is all about such continuous deformations. In the jargon
 of homotopy theory, we say two functions from some space to some other
-space are \"homotopic\" if we can continuously deform the first function
+space are "homotopic" if we can continuously deform the first function
 to the second. Another way of putting it is that the two functions lie
-in the same \"homotopy class\". Speaking of jargon, real topologists
-never say \"continuous function\": instead, they say \"map\". So, using
+in the same "homotopy class". Speaking of jargon, real topologists
+never say "continuous function": instead, they say "map". So, using
 this jargon: we know the homotopy class of a map from the circle to
 itself if we know its winding number.
 
@@ -51,16 +51,16 @@ k-dimensional sphere? Spheres are pretty simple spaces, so one might at
 first guess there is some simple answer to this question for all m and
 k.
 
-Unfortunately, it\'s far from simple. In fact, nobody knows the answer
+Unfortunately, it's far from simple. In fact, nobody knows the answer
 for all m and k! People *do* know the answer for zillions of particular
 values of m and k. But there is no simple pattern to it: instead, there
 is an incredibly complicated and beautiful weave of subtle patterns,
 which we have not gotten to the bottom of\... and perhaps never will.
 
-To get a little feel for this, let\'s bring in some standard notation:
+To get a little feel for this, let's bring in some standard notation:
 folks use π~m~(X) to denote the set of homotopy classes of maps from an
 m-dimensional sphere to the space X. When m \> 0, this set is actually a
-group, called the \"mth homotopy group\" of X. These groups are of major
+group, called the "mth homotopy group" of X. These groups are of major
 importance in algebraic topology.
 
 So, what we are talking about is π~m~(S^k^): the set of all homotopy
@@ -90,9 +90,9 @@ The same basic idea works in any higher dimension, too:
 π~k~(S^k^) = Z for any k ≥ 1
 
 In other words, there is always an integer n that plays the role of the
-\"winding number\" of a map from the k-sphere to itself - though only
-uncouth physicists call it the \"winding number\"; mathematicians call
-it the \"degree\".
+"winding number" of a map from the k-sphere to itself - though only
+uncouth physicists call it the "winding number"; mathematicians call
+it the "degree".
 
 So far, so good. Now, what about mapping a sphere to another sphere of
 *higher* dimension? This is nice and simple:
@@ -100,9 +100,9 @@ So far, so good. Now, what about mapping a sphere to another sphere of
 π~m~(S^k^) = {0} whenever m \< k
 
 The {0} there is just a standard way to write a set with only one
-element, which we call \"zero\". So what we mean is that there\'s only
+element, which we call "zero". So what we mean is that there's only
 *one* homotopy class of ways to map a sphere to a sphere of higher
-dimension. There is always enough \"room\" to wiggle around one map
+dimension. There is always enough "room" to wiggle around one map
 until it looks like another.
 
 What about mapping a sphere to another sphere of *lower* dimension? Here
@@ -112,31 +112,31 @@ maps from a 2-sphere to a circle:
 
 π~2~(S^1^) = {0}
 
-There is just no way a 2-sphere can get interestingly \"stuck\" on the
-\"hole\" of the circle. This may seem obvious. But it\'s not really
+There is just no way a 2-sphere can get interestingly "stuck" on the
+"hole" of the circle. This may seem obvious. But it's not really
 quite as obvious at it seems, because if we move up one dimension, we
 have:
 
 π~3~(S^2^) = Z
 
 This came as a big shock when Heinz Hopf first discovered it in the
-1930\'s; before then, people had no idea how sneaky homotopy groups
+1930's; before then, people had no idea how sneaky homotopy groups
 were!
 
-There is a beautiful way to compute an integer called the \"Hopf
-invariant\" that keeps track of the homotopy class of a map from the
+There is a beautiful way to compute an integer called the "Hopf
+invariant" that keeps track of the homotopy class of a map from the
 3-sphere to the 2-sphere. There are lots of nice ways to compute it, but
 alas, I only have time to briefly sketch one! Suppose that the map f:
 S^3^ →S^2^ is smooth (otherwise we can always smooth it up). Then most
 points p in S^2^ have the property that the points x in S^3^ with f(x) =
-p form a \"link\": a bunch of knots in S^3^. If we take two different
+p form a "link": a bunch of knots in S^3^. If we take two different
 points in S^2^ with this property, we get two links. From these two
-links we can compute an integer called the \"linking number\": for
+links we can compute an integer called the "linking number": for
 example, we can just draw these two links and count the times one
 crosses over or under the other (with appropriate plus or minus signs
 for each crossing). This number turns out not to depend on how we picked
 the two points! Moreover, it only depends on the homotopy class of f.
-It\'s called the Hopf invariant of f.
+It's called the Hopf invariant of f.
 
 Moving up one dimension, it turns out that
 
@@ -174,7 +174,7 @@ and make it look like
     |    |
 
 so the linking number in 4 dimensions is only defined mod 2. Thus the
-\"Hopf invariant\" is only defined mod 2.
+"Hopf invariant" is only defined mod 2.
 
 The exact same thing happens in higher dimensions, too, so in fact we
 have:
@@ -182,11 +182,11 @@ have:
 π~k+1~(S^k^) = Z/2 for any k \>= 3
 
 This illustrates an important general fact: when the dimensions get high
-enough, there\'s more room to wiggle things around, and as we keep
+enough, there's more room to wiggle things around, and as we keep
 jacking up the dimension, homotopy groups simplify a bit and settle down
-after a while. This is the idea behind \"stable homotopy theory\".
+after a while. This is the idea behind "stable homotopy theory".
 
-Let\'s look at some more examples. We have
+Let's look at some more examples. We have
 
 π~3~(S^1^) = {0}
 
@@ -241,13 +241,13 @@ as we jack up the dimension:
 The homotopy groups can stabilize sooner, as we saw for n = 2, but never
 later, and often they stabilize right at k = n+2. There is a simple
 reason for this. We saw that π~k+1~(S^k^) stabilized at k = 3 because
-it\'s easy to unlink links in 4 or more dimensions. Similarly,
-π~k+n~(S^k^) must stabilize by the time k = n+2, because it\'s easy to
+it's easy to unlink links in 4 or more dimensions. Similarly,
+π~k+n~(S^k^) must stabilize by the time k = n+2, because it's easy to
 untie knotted n-dimensional surfaces in 2n+2 or more dimensions!
 
 For more on stable homotopy groups of spheres, try:
 
-2\) Douglas C. Ravenel, Complex cobordism and stable homotopy groups of
+2) Douglas C. Ravenel, Complex cobordism and stable homotopy groups of
 spheres, Academic Press, Orlando, 1986.
 
 Douglas C. Ravenel, Nilpotence and periodicity in stable homotopy
@@ -266,45 +266,45 @@ at the conference at Northwestern, it became clear that Andre Joyal had
 also thought about it very deeply. Joyal is famous for his work relating
 category theory, combinatorics and topology, and his way of thinking
 about the homotopy groups of spheres reflects these interests. He said a
-very fascinating thing; he said \"really we should call the sphere
-spectrum the \'true integers\'\". I would like to explain this\... but
+very fascinating thing; he said "really we should call the sphere
+spectrum the 'true integers'". I would like to explain this\... but
 here things get a bit technical, and I am afraid they will get a lot
 more technical when I get around to the string theory stuff.
 
-What\'s the \"sphere spectrum\"? Well, roughly it\'s just the list of
-spheres S^0^, S^1^, S^2^, \..., but the word \"spectrum\" refers to the
+What's the "sphere spectrum"? Well, roughly it's just the list of
+spheres S^0^, S^1^, S^2^, \..., but the word "spectrum" refers to the
 way all these spaces are all related, all aspects of one big thing.
 
-Here\'s a nice way to think of it. Start with the integers. Normally we
+Here's a nice way to think of it. Start with the integers. Normally we
 think of these as just a set, or actually a group, since we can add
 them. But if we avoid the sin of mistaking isomorphism for equality we
 can think of them as a category.
 
 I already began to explain this in my parable about the shepherd in
-\"[week99](week99.html)\". The shepherd started with the category of
-finite sets and \"decategorified\" it to obtain the set of natural
+"[week99](week99.html)". The shepherd started with the category of
+finite sets and "decategorified" it to obtain the set of natural
 numbers, associating to each finite set a natural number, its number of
 elements. Taking disjoint unions of sets corresponds to addition, the
 empty set corresponds to zero, and so on.
 
 Okay. What are the *integers* the decategorification of?
 
-Well, we can imagine finite sets that have both \"positive\" and
-\"negative\" elements. The \"number of elements\" of such a set will be
+Well, we can imagine finite sets that have both "positive" and
+"negative" elements. The "number of elements" of such a set will be
 the number of positive elements minus the number of negative elements.
-This is a bit weird if we\'re talking about sheep, but perhaps not so
+This is a bit weird if we're talking about sheep, but perhaps not so
 weird if we talk about positrons and electrons, which can annihilate
-each other. (In \"[week92](week92.html)\" I explain what I\'m hinting at
+each other. (In "[week92](week92.html)" I explain what I'm hinting at
 here: the relation between antiparticles and adjunctions.)
 
-Topologists prefer to speak of \"positively and negatively oriented
-points\". We can draw a set of positively and negatively oriented points
+Topologists prefer to speak of "positively and negatively oriented
+points". We can draw a set of positively and negatively oriented points
 like this:
 
                        -      +    +     +    +      -    -
 
 We can add them by setting them side by side. But how do the positively
-and negatively oriented points cancel? Well, remember, we\'re trying to
+and negatively oriented points cancel? Well, remember, we're trying to
 get a category! If finite lists of positively and negatively oriented
 points are our objects, what are our morphisms? How about tangles, like
 this:
@@ -326,12 +326,12 @@ this:
 These let us cancel or create positive and negative points in pairs.
 Voila! The categorified integers! Just as the integers form a monoid
 under addition, these form a monoidal category (see
-\"[week89](week89.html)\" for these concepts). The monoidal structure
+"[week89](week89.html)" for these concepts). The monoidal structure
 here is disjoint union, which we can denote with a plus sign if we like.
 Similarly, we can write the empty set as 0.
 
-Above it looks like I\'m drawing a 1-dimensional tangle in 2-dimensional
-space. To understand the \"commutativity\" of the categorified integers
+Above it looks like I'm drawing a 1-dimensional tangle in 2-dimensional
+space. To understand the "commutativity" of the categorified integers
 we should work with 1-dimensional tangles in higher-dimensional space.
 If we consider them in 3-dimensional space, we have room to switch
 things around:
@@ -346,8 +346,8 @@ things around:
                   /     \
                  +       +
 
-This gets us commutativity, as I explained in \"week100\". Technically
-speaking, we get a \"braided\" monoidal category. However, there are two
+This gets us commutativity, as I explained in "week100". Technically
+speaking, we get a "braided" monoidal category. However, there are two
 different ways to switch things around; for example, in addition to the
 above way there is
 
@@ -365,8 +365,8 @@ above way there is
 
 To get rid of this problem (if you consider it a problem) we can work
 with 1-dimensional tangles in 4-dimensional space, where we can deform
-the first way of switching things to the second. We get a \"symmetric\"
-monoidal category. Working in higher dimensions doesn\'t change
+the first way of switching things to the second. We get a "symmetric"
+monoidal category. Working in higher dimensions doesn't change
 anything: things have stabilized.
 
 If we impose the extra condition that the morphisms
@@ -404,12 +404,12 @@ and
 
 then all morphisms become invertible, so we have not just a monoidal
 category but a monoidal groupoid - a groupoid being a category with all
-morphisms invertible (see \"[week74](week74.html)\"). In fact, not only
+morphisms invertible (see "[week74](week74.html)"). In fact, not only
 are morphisms invertible, so are all objects! By this I mean that every
 object x has an object -x such that x + -x and -x + x are isomorphic to
 0. For example, if x is the positively oriented point, -x is the
 negatively oriented point, and vice versa. So we have not just a
-monoidal groupoid but a \"groupal groupoid\". (I have adopted this
+monoidal groupoid but a "groupal groupoid". (I have adopted this
 charming terminology from James Dolan.)
 
 Very nice. We seem to have avoided the sin of decategorification, and
@@ -417,7 +417,7 @@ are no longer treating the integers as a mere *set* (or group, or
 commutative group). We are treating them as a *category* (or groupal
 groupoid, or braided groupal groupoid, or symmetric groupal groupoid).
 
-On the other hand, it\'s a bit odd to say that
+On the other hand, it's a bit odd to say that
 
                        /\
                       /  \
@@ -454,13 +454,13 @@ empty picture:
 
 
 
-Hmm. They sure don\'t *look* equal. We must be doing something wrong.
+Hmm. They sure don't *look* equal. We must be doing something wrong.
 
-What are we doing wrong? We\'re committing the sin of
+What are we doing wrong? We're committing the sin of
 decategorification: treating isomorphisms as equations! We should treat
 the integers not as a mere category, but as a 2-category! See
-\"[week80](week80.html)\" for the precise definition of this concept;
-for now, it\'s enough to say that a 2-category has things called
+"[week80](week80.html)" for the precise definition of this concept;
+for now, it's enough to say that a 2-category has things called
 2-morphisms going between morphisms. If we treat the integers as a
 2-category, we can say there is a 2-morphism going from
 
@@ -475,8 +475,8 @@ for now, it\'s enough to say that a 2-category has things called
 
 to the identity morphism. This 2-morphism has a nice geometrical
 description in terms of a 2-dimensional surface: the surface in 3d space
-that\'s traced out as the above picture shrinks down to the empty
-picture. It\'s hard to draw, but let me try:
+that's traced out as the above picture shrinks down to the empty
+picture. It's hard to draw, but let me try:
 
                        /\
                       /  \           /\
@@ -489,19 +489,19 @@ picture. It\'s hard to draw, but let me try:
 
 Okay, say we do this: treat the integers as a 2-category. We again are
 faced with a question: do we make all the 2-morphisms invertible? If we
-do, we get a \"2-groupoid\", or actually a \"groupal 2-groupoid\". But
+do, we get a "2-groupoid", or actually a "groupal 2-groupoid". But
 again, to do so amounts to committing the sin of decategorification. To
 avoid this sin, we should tread the integers as a 3-category. Etc, etc!
 
 You may have noted how worlds of ever higher-dimensional topology are
 automatically unfolding from our attempt to avoid the sin of
-decategorification. This is what\'s so neat about n-categories. I
-haven\'t told you how it all works, but let me summarize what\'s
+decategorification. This is what's so neat about n-categories. I
+haven't told you how it all works, but let me summarize what's
 actually happening here. Normally we treat the integers as the free
 group on one generator, or else the free commutative group on one
 generator. But groups and commutative groups are just the tip of the
 iceberg! The following picture is similar to that in
-\"[week74](week74.html)\":
+"[week74](week74.html)":
 
                      k-tuply groupal n-groupoids
 
@@ -547,22 +547,22 @@ iceberg! The following picture is similar to that in
 What are all these things? Well, an n-groupoid is an n-category with all
 morphisms invertible, at least up to equivalence. An (k+n)-groupoid with
 only trivial j-morphisms for j \< k can be seen as a special sort of
-n-groupoid, which we call a \"k-tuply groupal n-groupoid\".
+n-groupoid, which we call a "k-tuply groupal n-groupoid".
 
-Part of Joyal\'s point was that we should really think of the integers
-as the \"free k-tuply monoidal n-groupoid on one object\". Here the idea
+Part of Joyal's point was that we should really think of the integers
+as the "free k-tuply monoidal n-groupoid on one object". Here the idea
 is not to fix n and k once and for all - this would only prevent us from
 understanding the subtleties that show up when we increase n and k!
 Instead, we should think of them as variable, or perhaps consider the
 limit as they become large.
 
-The other part of his point was that there\'s a correspondence between
+The other part of his point was that there's a correspondence between
 n-groupoids and the information left in topological spaces when we
-ignore all homotopy groups above dimension n - so-called \"homotopy
-n-types\". Using this correspondence, the \"free k-tuply monoidal
-n-groupoid on one object\" corresponds to the homotopy (k+n)-type of the
+ignore all homotopy groups above dimension n - so-called "homotopy
+n-types". Using this correspondence, the "free k-tuply monoidal
+n-groupoid on one object" corresponds to the homotopy (k+n)-type of the
 k-sphere. Moreover, if we keep jacking up k, this stabilizes when k ≥
-n+2. Actually, as the dittos in the above chart suggest, it\'s a quite
+n+2. Actually, as the dittos in the above chart suggest, it's a quite
 general fact that the notion of k-tuply monoidal n-groupoid stabilizes
 for k ≥ n+2.
 
@@ -573,10 +573,10 @@ spheres in a very vivid, direct way.
 Okay. What about string theory and the magic number 24? Well, notice
 that the pictures above started looking a bit like strings! Hmm\....
 
-Here\'s the idea, as far as I understand it. Presumably all but the
+Here's the idea, as far as I understand it. Presumably all but the
 hardy have stopped reading this article by now, so I will pull out all
-the stops. The string worldsheet is a Riemann surface so we\'ll need
-some stuff about Riemann surfaces from \"[week28](week28.html)\". Let
+the stops. The string worldsheet is a Riemann surface so we'll need
+some stuff about Riemann surfaces from "[week28](week28.html)". Let
 M(g,n) be the moduli space of Riemann surfaces with genus g and n
 punctures, and let G(g,n) be the corresponding mapping class group.
 Since M(g,n) is the quotient of Teichmueller space by G(g,n) and
@@ -584,12 +584,12 @@ Teichmueller space is contractible, we have
 
 M(g,n) = BG(g,n)
 
-where \"B\" means \"classifying space\". There\'s a natural inclusion
+where "B" means "classifying space". There's a natural inclusion
 
 G(g,n) → G(g+1,n)
 
 defined by sewing an torus with two punctures onto your genus-g surface
-with n punctures, which increases the genus by 1. Let\'s define G(∞,n)
+with n punctures, which increases the genus by 1. Let's define G(∞,n)
 to be direct limit as g → ∞, and let
 
 M(∞,n) = BG(∞,n).
@@ -611,9 +611,9 @@ and the result Tillmann stated which got me so excited was that
 for some unknown group H. Since this is really a result about the
 mapping class groups of surfaces, it *must* have something to do with
 how conformal field theories always give projective representations of
-these mapping class groups, with the \"phase ambiguity\" being of the
-form exp(2 π c i / 24), where c is the \"central charge\". No? I just
-don\'t quite see why. Maybe someone will enlighten me.
+these mapping class groups, with the "phase ambiguity" being of the
+form exp(2 π c i / 24), where c is the "central charge". No? I just
+don't quite see why. Maybe someone will enlighten me.
 
 Anyway, the way she proved this definitely ties right into the stuff
 about stable homotopy groups of spheres. She used explicit maps between
@@ -625,19 +625,19 @@ and π~3~(M(∞,1)+)! And the way she got the map from the latter to the
 former amounts to working with pictures I was drawing above. To put it
 more precisely, in
 
-3\) Higher-dimensional algebra and topological quantum field theory, by
+3) Higher-dimensional algebra and topological quantum field theory, by
 John Baez and James Dolan, Jour. Math. Phys. 36 (1995), 6073-6105.
 
 we argue that framed n-dimensional surfaces embedded in (n+k)-dimensions
 should be described by the free k-tuply monoidal n-category with duals
 on one object. This should map down to the free k-tuply groupal
-n-groupoid on one object, by the usual yoga of \"freeness\". Taking n =
+n-groupoid on one object, by the usual yoga of "freeness". Taking n =
 3 and k sufficiently large, we should obtain a homomorphism from the
 mapping class group of any Riemann surface to the third stable homotopy
 group of spheres! Presumably the idea is that in the limit of large
 genus this homomorphism is onto!
 
-Of course, Tillmann doesn\'t prove her result using the still-nascent
+Of course, Tillmann doesn't prove her result using the still-nascent
 formalism of n-categories, but I think it will eventually be possible.
 (Also, my rough argument applies to Riemann surfaces with no punctures,
 while she considers those with one puncture, but various things she said
@@ -647,11 +647,11 @@ this: what does
 π~3~(M(∞,n)+)
 
 have to do with central extensions of G(g,n) for finite g? If I could
-figure this out I\'d be very happy.
+figure this out I'd be very happy.
 
 ------------------------------------------------------------------------
 
-**Addendum:** Dan Christensen answered a puzzle above. Here\'s how to
+**Addendum:** Dan Christensen answered a puzzle above. Here's how to
 get a nontrivial element of
 
 π~4~(S^2^).
@@ -664,7 +664,7 @@ and compose it with the map g: S^4^ → S^3^ generating
 
 π~4~(S^3^)
 
-(which, by the way, is obtained from f by \"suspension\") to obtain the
+(which, by the way, is obtained from f by "suspension") to obtain the
 desired map from S^4^ to S^2^. This is an instance of a very general
 trick: composing elements of homotopy groups of spheres to get new ones!
 
@@ -673,7 +673,7 @@ trick: composing elements of homotopy groups of spheres to get new ones!
 *Think of one and minus one. Together they add up to zero, nothing,
 nada, niente, right? Picture them together, then picture them
 separating, peeling part\.... Now you have something, you have two
-somethings, where you once had nothing.* - John Updike, Roger\'s Version
+somethings, where you once had nothing.* - John Updike, Roger's Version
 
                        /\
                       /  \

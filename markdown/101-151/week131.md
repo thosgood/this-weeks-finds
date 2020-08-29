@@ -1,7 +1,7 @@
 week131
 
-I\'ve been thinking more about neutrinos and their significance for
-grand unified theories. The term \"grand unified theory\" sounds rather
+I've been thinking more about neutrinos and their significance for
+grand unified theories. The term "grand unified theory" sounds rather
 pompous, but in its technical meaning it refers to something with
 limited goals: a quantum field theory that attempts to unify all the
 forces *except* gravity. This limitation lets you pretend spacetime is
@@ -12,7 +12,7 @@ after the triumph of the Standard Model. As you probably know, the
 Standard Model is a quantum field theory describing all known particles
 and all the known forces except gravity: the electromagnetic, weak and
 strong forces. The Standard Model treats the electromagnetic and weak
-forces in a unified way - so one speaks of the \"electroweak\" force -
+forces in a unified way - so one speaks of the "electroweak" force -
 but it treats the strong force seperately.
 
 In 1975, Georgi and Glashow invented a theory which fit all the known
@@ -21,33 +21,33 @@ SU(5). Their theory had some very nice features: for example, it unified
 the strong force with the electroweak force, and it explained why quark
 charges come in multiples of 1/3. It also made some new predictions,
 most notably that protons decay with a halflife of something like 10^29^
-or 10^30^ years. Of course, it\'s slightly inelegant that one needs
+or 10^30^ years. Of course, it's slightly inelegant that one needs
 *two* irreducible representations of SU(5) to account for all the
 particles of each generation. Luckily SU(5) fits inside SO(10) in a nice
 way, and Georgi used this to concoct a slightly bigger theory where all
 15 particles of each generation, AND ONE MORE, fit into a single
 irreducible representation of SO(10). I described the mathematics of all
-this in \"[week119](week119.html)\", so I won\'t do so again here.
+this in "[week119](week119.html)", so I won't do so again here.
 
-What\'s the extra particle? Well, when you look at the math, one obvious
+What's the extra particle? Well, when you look at the math, one obvious
 possibility is a right-handed neutrino. As I explained last week, the
 existence of a right-handed neutrino would make it easier for neutrinos
-to have mass. And this in turn would allow \"oscillations\" between
+to have mass. And this in turn would allow "oscillations" between
 neutrinos of different generations - possibly explaining the mysterious
 shortage of electron neutrinos that we see coming from the sun.
 
-This \"solar neutrino deficit\" had already been seen by 1975, so
+This "solar neutrino deficit" had already been seen by 1975, so
 everyone got very excited about grand unified theories. The order of the
 day was: look for neutrino oscillations and proton decay!
 
 A nice illustration of the mood of the time can be found in a talk
 Glashow gave in 1980:
 
-1\) Sheldon Lee Glashow, The new frontier, in First Workshop on Grand
+1) Sheldon Lee Glashow, The new frontier, in First Workshop on Grand
 Unification, eds. Paul H. Frampton, Sheldon L. Glashow and Asim Yildiz,
 Math Sci Press, Brookline Massachusetts, 1980, pp. 3-8.
 
-I\'d like to quote some of his remarks because it\'s interesting to
+I'd like to quote some of his remarks because it's interesting to
 reflect on what has happened in the intervening two decades:
 
 > Pions, muons, positrons, neutrons and strange particles were found
@@ -65,9 +65,9 @@ reflect on what has happened in the intervening two decades:
 > be a fourth family of quarks and leptons. There may even be
 > unanticipated surprises. We need the new machines.
 
-Of course we now know how the b (or \"bottom\") quark decays, we\'ve
-seen the t (or \"top\") quark, we\'ve seen the weak interaction
-intermediaries, and we\'re quite sure there is not a fourth generation
+Of course we now know how the b (or "bottom") quark decays, we've
+seen the t (or "top") quark, we've seen the weak interaction
+intermediaries, and we're quite sure there is not a fourth generation
 of quarks and leptons. There have been no unanticipated surprises.
 Accelerators grew ever more expensive until the U.S. Congress withdrew
 funding for the Superconducting Supercollider in 1993. The Higgs is
@@ -103,7 +103,7 @@ should settle that issue by 2003 or so.
 > this with the accelerator establishment. There is no labor union of
 > physicists who work at accelerators, but sometimes it seems there is.
 > It has been argued that plans for accelerator construction must depend
-> on the \"needs\" of the working force: several thousands of dedicated
+> on the "needs" of the working force: several thousands of dedicated
 > high-energy experimenters. This is nonsense. Future accelerators must
 > be built in accordance with scientific, not demographic, prioriries.
 > The new machines are not labor-intensive, must not be forced to be so.
@@ -114,53 +114,53 @@ should settle that issue by 2003 or so.
 
 Of course, the collapse of the high-energy physics job market and the
 death of the Superconducting Supercollider give these words a certain
-poignancy. But what is this \"passive frontier\" Glashow mentions? It
-means particle physics that doesn\'t depend on very high energy particle
+poignancy. But what is this "passive frontier" Glashow mentions? It
+means particle physics that doesn't depend on very high energy particle
 accelerators. He lists a number of options:
 
-A\) CP phenomenology. The Standard Model is not symmetrical under
-switching particles and their antiparticles - called \"charge
-conjugation\", or \"C\". Nor is it symmetrical under switching left and
-right - called \"parity\", or \"P\". It\'s almost, but not quite,
-symmetrical under the combination of both operations, called \"CP\".
+A) CP phenomenology. The Standard Model is not symmetrical under
+switching particles and their antiparticles - called "charge
+conjugation", or "C". Nor is it symmetrical under switching left and
+right - called "parity", or "P". It's almost, but not quite,
+symmetrical under the combination of both operations, called "CP".
 Violation of CP symmetry is evident in the behavior of the neutral kaon.
 Glashow suggests looking for CP violation in the form of a nonzero
 magnetic dipole moment for the neutron. As far as I know, this has still
 not been seen.
 
-B\) New kinds of stable matter. Glashow proposes the search for new
-stable particles as \"an ambitious and risky field of scientific
-endeavor\". People have looked and haven\'t found anything.
+B) New kinds of stable matter. Glashow proposes the search for new
+stable particles as "an ambitious and risky field of scientific
+endeavor". People have looked and haven't found anything.
 
-C\) Neutrino masses and neutrino oscilllations. Glashow claims that
-\"neutrinos should have masses, and should mix\". He now appears to be
+C) Neutrino masses and neutrino oscilllations. Glashow claims that
+"neutrinos should have masses, and should mix". He now appears to be
 right. It took almost 20 years for the trickle of experimental results
 to become the lively stream we see today, but it happened. He urges
-\"Let us not miss the next nearby supernova!\" Luckily we did not.
+"Let us not miss the next nearby supernova!" Luckily we did not.
 
-D\) Astrophysical neutrino physics. In addition to solar neutrinos and
+D) Astrophysical neutrino physics. In addition to solar neutrinos and
 neutrinos from supernovae, there are other interesting connections
 between neutrinos and astrophysics. The background radiation from the
 big bang should contain neutrinos as well as the easier-to-see photons.
 More precisely, there should be about 100 neutrinos of each generation
-per cubic centimeter of space, thanks to this effect. These \"relic
-neutrinos\" have not been seen, but that\'s okay: by now they would be
+per cubic centimeter of space, thanks to this effect. These "relic
+neutrinos" have not been seen, but that's okay: by now they would be
 too low in energy to be easily detected. Glashow notes that if neutrinos
 had a nonzero mass, relic neutrinos could contribute substantially to
 the total density of the universe. The heaviest generation weighing 30
 eV or so might be enough to make the universe eventually recollapse! On
 the other hand, for neutrinos to be gravitationally bound to galaxies,
-they\'d need to be at least 20 eV or so.
+they'd need to be at least 20 eV or so.
 
-E\) Magnetic monopoles. Most grand unified theories predict the
-existence of magnetic monopoles due to \"topological defects\" in the
+E) Magnetic monopoles. Most grand unified theories predict the
+existence of magnetic monopoles due to "topological defects" in the
 Higgs fields. Glashow urges people to look for these. This has been
-done, and they haven\'t been seen.
+done, and they haven't been seen.
 
-F\) Proton decay. As Glashow notes, proton decay would be the \"king of
-the new frontier\". Reflecting the optimism of 1980, he notes that \"to
+F) Proton decay. As Glashow notes, proton decay would be the "king of
+the new frontier". Reflecting the optimism of 1980, he notes that "to
 some, it is a foregone conclusion that proton decay is about to be seen
-by experiments now abuilding\". But alas, people looked very hard and
+by experiments now abuilding". But alas, people looked very hard and
 did not find it! This killed the SU(5) theory. Many people switched to
 supersymmetric theories, which are more compatible with very slow proton
 decay. But with the continuing lack of new experiments to explain,
@@ -176,16 +176,16 @@ On a slightly different note, one of my little side hobbies is to study
 the octonions and dream about how they might be useful in physics. One
 place they show up is in the E6 grand unified theory - the next theory
 up from the SO(10) theory. I said a bit about this in
-\"[week119](week119.html)\", but I just bumped into another paper on it
-in the same conference proceedings that Glashow\'s paper appears is:
+"[week119](week119.html)", but I just bumped into another paper on it
+in the same conference proceedings that Glashow's paper appears is:
 
-2\) Feza Gursey, Symmetry breaking patterns in E_6, in First Workshop on
+2) Feza Gursey, Symmetry breaking patterns in E_6, in First Workshop on
 Grand Unification, eds. Paul H. Frampton, Sheldon L. Glashow and Asim
 Yildiz, Math Sci Press, Brookline Massachusetts, 1980, pp. 39-55.
 
 He says something interesting that I want to understand someday - maybe
-someone can explain why it\'s true. He says that E6 is a \"complex\"
-group, E7 is a \"pseudoreal\" group, and E8 is a \"real\" group. This
+someone can explain why it's true. He says that E6 is a "complex"
+group, E7 is a "pseudoreal" group, and E8 is a "real" group. This
 use of terminology may be nonstandard, but what he means is that E6
 admits complex representations that are not their own conjugates, E7
 admits complex reps that are their own conjugates, and that all complex
@@ -195,36 +195,36 @@ Dynkin diagram of E6.
 
 Octonions are also prominent in string theory and in the grand unified
 theories proposed by my friends Geoffrey Dixon and Tony Smith - see
-\"[week59](week59.html)\", \"[week91](week91.html)\", and
-\"[week104](week104.html)\". I\'ll probably say more about this
+"[week59](week59.html)", "[week91](week91.html)", and
+"[week104](week104.html)". I'll probably say more about this
 someday\....
 
-The reason I\'m interested in neutrinos is that I want to learn what
+The reason I'm interested in neutrinos is that I want to learn what
 evidence there is for laws of physics going beyond the Standard Model
-and general relativity. This is also why I\'m trying to learn a bit of
+and general relativity. This is also why I'm trying to learn a bit of
 astrophysics. The new hints of evidence for a nonzero cosmological
 constant, the missing mass problem, the large-scale structure of the
-universe, and even the puzzling γ-ray bursters - they\'re all food for
+universe, and even the puzzling γ-ray bursters - they're all food for
 thought along these lines.
 
 The following book caught my eye since it looked like just what I need -
 an easy tutorial in the latest developments in cosmology:
 
-3\) Greg Bothun, Modern Cosmological Observations and Problems, Taylor &
+3) Greg Bothun, Modern Cosmological Observations and Problems, Taylor &
 Francis, London, 1998.
 
 On reading it, some of the remarks about particle physics made me
-unhappy. For example, Bothun says \"the observed entropy S of the
+unhappy. For example, Bothun says "the observed entropy S of the
 universe, as measured by the ratio of baryons to photons, is \~ 5 x
-10^-10^.\" But as Ted Bunn explained to me, the entropy is actually
+10^-10^." But as Ted Bunn explained to me, the entropy is actually
 correlated to the ratio of photons to baryons - the reciprocal of this
 number. Bothun also calls the kinetic energy density of the field
-postulated in inflationary cosmology, \"essentially an entropy field
+postulated in inflationary cosmology, "essentially an entropy field
 that currently drives the uniform expansion and cooling of the
-universe\". This makes no sense to me. There are also a large number of
-typos, the most embarrassing being \"virilizing\" for \"virializing\".
+universe". This makes no sense to me. There are also a large number of
+typos, the most embarrassing being "virilizing" for "virializing".
 
-But there\'s a lot of good stuff in this book! The author\'s specialty
+But there's a lot of good stuff in this book! The author's specialty
 is large-scale structure, and I learned a lot about that. Just to set
 the stage, recall that the Milky Way has a disc about 30 kiloparsecs in
 diameter and contains roughly 100 or 200 billion stars. But our galaxy
@@ -241,12 +241,12 @@ galaxies. Some famous nearby clusters include the Virgo cluster (about
 Thousands of clusters have been cataloged by Abell and collaborators.
 
 And then there are superclusters, each typically containing 3-10
-clusters in an elongated \"filament\" about 50 megaparsecs in diameter.
-I don\'t mean to make this sound more neat than it actually is, because
+clusters in an elongated "filament" about 50 megaparsecs in diameter.
+I don't mean to make this sound more neat than it actually is, because
 nobody is very sure about intergalactic distances, and the structures
 themselves are rather messy. But there are various discernible patterns.
 For example, superclusters tend to occur at the edges of larger roundish
-\"voids\" which have few galaxies in them. These voids are very large,
+"voids" which have few galaxies in them. These voids are very large,
 about 100 or 200 megaparsecs across. In general, galaxies tend to be
 falling into denser regions and moving away from the voids. For example,
 the Milky Way is falling towards the center of the Local Supercluster at
@@ -259,38 +259,38 @@ small, and the universe was much more homogeneous. Obviously gravity
 tends to amplify inhomogeneities. The problem is to understand in a
 quantitative way how these inhomogeneities formed as the universe grew.
 
-Here are a couple of other books that I\'m finding useful - they\'re a
-bit more mathematical than Bothun\'s. I\'m trying to stick to new books
+Here are a couple of other books that I'm finding useful - they're a
+bit more mathematical than Bothun's. I'm trying to stick to new books
 because this subject is evolving so rapidly:
 
-4\) Jayant V. Narlikar, Introduction to Cosmology, Cambridge U. Press,
+4) Jayant V. Narlikar, Introduction to Cosmology, Cambridge U. Press,
 Cambridge, 1993.
 
-5\) Peter Coles and Francesco Lucchin, Cosmology: The Origin and
+5) Peter Coles and Francesco Lucchin, Cosmology: The Origin and
 Evolution of Cosmic Structure, Wiley, New York, 1995.
 
 While I was looking around, I also bumped into the following book on
 black holes:
 
-6\) Sandip K. Chakrabarti, ed., Observational Evidence for Black Holes
+6) Sandip K. Chakrabarti, ed., Observational Evidence for Black Holes
 in the Universe, Kluwer, Dordrecht, 1998.
 
-It mentioned some objects I\'d never heard of before. I want to tell you
-about them, just because they\'re so cool!
+It mentioned some objects I'd never heard of before. I want to tell you
+about them, just because they're so cool!
 
-X-ray novae: First, what\'s a nova? Well, remember that a white dwarf is
+X-ray novae: First, what's a nova? Well, remember that a white dwarf is
 a small, dense, mostly burnt-out star. When one member of a binary star
 is a white dwarf, and the other dumps some of its gas on this white
 dwarf, the gas can undergo fusion and emit a huge burst of energy - as
 much as 10,000 times what the sun emits in a year. To astronomers it may
-look like a new star is suddenly born - hence the term \"nova\". But not
+look like a new star is suddenly born - hence the term "nova". But not
 all novae emit mostly visible light - some emit X-rays or even γ rays. A
-\"X-ray nova\" is an X-ray source that suddenly appears in a few days
+"X-ray nova" is an X-ray source that suddenly appears in a few days
 and then gradually fades away in a year or less. Many of these are
 probably neutron stars rather than white dwarfs. But a bunch are
 probably black holes!
 
-Blazars: A \"blazar\" is a galactic nucleus that\'s shooting out a jet
+Blazars: A "blazar" is a galactic nucleus that's shooting out a jet
 of hot plasma almost directly towards us, exhibiting rapid variations in
 power. Like quasars and other active galactic nuclei, these are probably
 black holes sucking in stars and other stuff and forming big accretion
@@ -305,7 +305,7 @@ molecules can form enormous natural masers. In our galaxy the most
 powerful such maser is W49N, which has a power equal to that of the Sun.
 But recently, still more powerful masers have been bound in other
 galaxies, usually associated with active galactic nuclei. These are
-called \"mega masers\" and they are probably powered by black holes. The
+called "mega masers" and they are probably powered by black holes. The
 first mega maser was discovered in 1982; it is a hydroxyl ion maser in
 the galaxy IC4553, with a luminosity about 1000 times that of our sun.
 Subsequently people have found a bunch of water mega masers. The most
@@ -315,7 +315,7 @@ times that of the Sun!
 ------------------------------------------------------------------------
 
 Addendum: Here is something from Allen Knutson in response to my remark
-that E6 has complex representations that aren\'t their own conjugates. I
+that E6 has complex representations that aren't their own conjugates. I
 hoped that this is related to the symmetry of the Dynkin diagram of E6,
 and Allen replied:
 
