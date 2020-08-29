@@ -161,7 +161,7 @@ gravity, that is. (Stop snickering, you skeptics....)
 
 6) Laurent Freidel and Kirill Krasnov, Spin foam models and the
 classical action principle, preprint available as
-[hep-th/9807092](http://xxx.lanl.gov/abs/hep-th/9807092).
+[`hep-th/9807092`](http://xxx.lanl.gov/abs/hep-th/9807092).
 
 I described the spin foam approach to quantum gravity in
 ["Week 113"](#week113). But let me remind you how the basic idea
@@ -285,7 +285,7 @@ I'll basically just point you at them....
 
 7) Abhay Ashtekar, Alejandro Corichi and Jose A. Zapata, Quantum theory
 of geometry III: Non-commutativity of Riemannian structures, preprint
-available as [gr-qc/9806041](http://xxx.lanl.gov/abs/gr-qc/9806041).
+available as [`gr-qc/9806041`](http://xxx.lanl.gov/abs/gr-qc/9806041).
 
 This is the long-awaited third part of a series giving a mathematically
 rigorous formalism for interpreting spin network states as "quantum
@@ -388,14 +388,14 @@ noncommutative geometry. Now it's out:
 
 11) Alain Connes and Dirk Kreimer, Hopf algebras, renormalization and
 noncommutative geometry, preprint available as
-[hep-th/9808042](http://xxx.lanl.gov/abs/hep-th/9808042).
+[`hep-th/9808042`](http://xxx.lanl.gov/abs/hep-th/9808042).
 
 Also, here's an introduction to Kreimer's work:
 
 12) Dirk Kreimer, How useful can knot and number theory be for loop
 calculations?, Talk given at the workshop "Loops and Legs in Gauge
 Theories", preprint available as
-[hep-th/9807125](http://xxx.lanl.gov/abs/hep-th/9807125).
+[`hep-th/9807125`](http://xxx.lanl.gov/abs/hep-th/9807125).
 
 Switching over to homotopy theory and its offshoots... when I visited
 Dan Christensen at Johns Hopkins this spring, he introduced me to all

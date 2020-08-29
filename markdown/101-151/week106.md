@@ -363,7 +363,7 @@ In these special cases, one can define a "minimal projection" to be a
 projection on a 1-dimensional subspace of our Hilbert space. Physically,
 minimal projections correspond to "pure states" - states of affairs in
 which the answer to some maximally informative question is "yes", like
-"is the z component of the angular momentum of this spin-1/2 particle
+"is the z component of the angular momentum of this spin-$1/2$ particle
 equal to 1/2?" Geometrically, the space of minimal projections is just
 the space of "lines" in our Hilbert space. This is either RP^n-1^, or
 CP^n-1^, or HP^n-1^, depending on whether we're working with the reals,

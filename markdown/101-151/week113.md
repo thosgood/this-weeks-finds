@@ -94,10 +94,10 @@ this can be found in the following papers:
 
 2) John Barrett and Louis Crane, Relativistic spin networks and quantum
 gravity, 9 pages, preprint available as
-[gr-qc/9709028](http://xxx.lanl.gov/abs/gr-qc/9709028).
+[`gr-qc/9709028`](http://xxx.lanl.gov/abs/gr-qc/9709028).
 
 3) John Baez, Spin foam models, 39 pages, preprint available as
-[gr-qc/9709052](http://xxx.lanl.gov/abs/gr-qc/9709052) or in Postscript
+[`gr-qc/9709052`](http://xxx.lanl.gov/abs/gr-qc/9709052) or in Postscript
 form as `http://math.ucr.edu/home/baez/foam.ps`
 
 Perhaps I can be forgiven some personal history here. Michael
@@ -106,7 +106,7 @@ terminology) for quite a while... see for example his paper:
 
 4) Michael Reisenberger, Worldsheet formulations of gauge theories and
 gravity, preprint available as
-[gr-qc/9412035](http://xxx.lanl.gov/abs/gr-qc/9412035).
+[`gr-qc/9412035`](http://xxx.lanl.gov/abs/gr-qc/9412035).
 
 More recently, Carlo Rovelli and he gave a heuristic derivation of a
 spin foam approach to quantum gravity starting with the so-called
@@ -114,7 +114,7 @@ canonical quantization approach:
 
 5) Michael Reisenberger and Carlo Rovelli, \`\`Sum over surfaces''
 form of loop quantum gravity, Phys. Rev. D56 (1997), 3490-3508, preprint
-available as [gr-qc/9612035](http://xxx.lanl.gov/abs/gr-qc/9612035).
+available as [`gr-qc/9612035`](http://xxx.lanl.gov/abs/gr-qc/9612035).
 
 I started giving talks about spin foams in the spring of this year.
 Following the ideas of Reisenberger and Rovelli, I was trying to
@@ -250,7 +250,7 @@ a version of his paper:
 
 6) Michael Reisenberger, A lattice worldsheet sum for 4-d Euclidean
 general relativity, 50 pages, preprint available as
-[gr-qc/9711052](http://xxx.lanl.gov/abs/gr-qc/9711052).
+[`gr-qc/9711052`](http://xxx.lanl.gov/abs/gr-qc/9711052).
 
 Let me quote the abstract:
 
@@ -278,7 +278,7 @@ approach which may overcome some problems with the constraints:
 
 7) Andrea Barbieri, Space of the vertices of relativistic spin
 networks, 2 pages, preprint available as
-[gr-qc/9709076](http://xxx.lanl.gov/abs/gr-qc/9709076).
+[`gr-qc/9709076`](http://xxx.lanl.gov/abs/gr-qc/9709076).
 
 John Barrett visited me last week and we made some progress on this
 issue, but it's still very touchy.
@@ -298,7 +298,7 @@ of his work with Barrett:
 
 8) Louis Crane, On the interpretation of relativistic spin networks and
 the balanced state sum, 4 pages, preprint available as
-[gr-qc/9710108](http://xxx.lanl.gov/abs/gr-qc/9710108).
+[`gr-qc/9710108`](http://xxx.lanl.gov/abs/gr-qc/9710108).
 
 Next week I'll talk about other developments in the loop representation
 of quantum gravity, some arising from Thiemann's work on the

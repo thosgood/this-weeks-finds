@@ -8,7 +8,7 @@ their work on the entropy of quantum black holes:
 
 1) Abhay Ashtekar and Kirill Krasnov, Quantum geometry and black holes,
 preprint available as
-[gr-qc/9804039](http://xxx.lanl.gov/abs/gr-qc/9804039).
+[`gr-qc/9804039`](http://xxx.lanl.gov/abs/gr-qc/9804039).
 
 But if you prefer to see a picture of a quantum black hole without any
 equations, try:
@@ -75,7 +75,7 @@ subject - I'll pick up where I left off in ["Week 113"](#week113).
 
 3) Louis Crane, David N. Yetter, On the classical limit of the balanced
 state sum, preprint available as
-[gr-qc/9712087](http://xxx.lanl.gov/abs/gr-qc/9712087).
+[`gr-qc/9712087`](http://xxx.lanl.gov/abs/gr-qc/9712087).
 
 The goal here is to show that in the limit of large spins, the amplitude
 given by Barrett and Crane's formula approaches
@@ -195,11 +195,11 @@ Two papers have recently appeared which investigate it further:
 
 7) Michael P. Reisenberger, Classical Euclidean general relativity from
 \`\`left-handed area = right-handed area'', preprint available as
-[gr-qc/9804061](http://xxx.lanl.gov/abs/gr-qc/9804061).
+[`gr-qc/9804061`](http://xxx.lanl.gov/abs/gr-qc/9804061).
 
 8) Roberto De Pietri and Laurent Freidel, so(4) Plebanski Action and
 relativistic spin foam model, preprint available as
-[gr-qc/9804071](http://xxx.lanl.gov/abs/gr-qc/9804071).
+[`gr-qc/9804071`](http://xxx.lanl.gov/abs/gr-qc/9804071).
 
 These papers study classical general relativity formulated as a
 constrained SO(4) BF theory. The constraints needed here are
@@ -217,7 +217,7 @@ Gravity here at Penn State:
 
 9) Laurent Freidel and Kirill Krasnov, Discrete space-time volume for
 3-dimensional BF theory and quantum gravity, preprint available as
-[hep-th/9804185](http://xxx.lanl.gov/abs/hep-th/9804185).
+[`hep-th/9804185`](http://xxx.lanl.gov/abs/hep-th/9804185).
 
 Freidel and Krasnov study the volume of a single 3-simplex as an
 observable in the context of the Turaev-Viro model - a topological
@@ -231,7 +231,7 @@ through. I'll just quote the abstracts of these:
 10) Ted Jacobson, Black hole thermodynamics today, to appear in
 Proceedings of the Eighth Marcel Grossmann Meeting, World Scientific,
 1998, preprint available as
-[gr-qc/9801015](http://xxx.lanl.gov/abs/gr-qc/9801015).
+[`gr-qc/9801015`](http://xxx.lanl.gov/abs/gr-qc/9801015).
 
 > A brief survey of the major themes and developments of black hole
 > thermodynamics in the 1990's is given, followed by summaries of the
@@ -240,7 +240,7 @@ Proceedings of the Eighth Marcel Grossmann Meeting, World Scientific,
 
 11) Rodolfo Gambini, Jorge Pullin, Does loop quantum gravity imply Λ =
 0?, preprint available as
-[gr-qc/9803097](http://xxx.lanl.gov/abs/gr-qc/9803097).
+[`gr-qc/9803097`](http://xxx.lanl.gov/abs/gr-qc/9803097).
 
 > We suggest that in a recently proposed framework for quantum gravity,
 > where Vassiliev invariants span the the space of states, the latter is
@@ -250,7 +250,7 @@ Proceedings of the Eighth Marcel Grossmann Meeting, World Scientific,
 
 11) R. Gambini, O. Obregon, and J. Pullin, Yang-Mills analogues of the
 Immirzi ambiguity, preprint available as
-[gr-qc/9801055](http://xxx.lanl.gov/abs/gr-qc/9801055).
+[`gr-qc/9801055`](http://xxx.lanl.gov/abs/gr-qc/9801055).
 
 > We draw parallels between the recently introduced \`\`Immirzi
 > ambiguity'' of the Ashtekar-like formulation of canonical quantum
@@ -282,11 +282,11 @@ Finally, here are two recent reviews of string theory and supersymmetry:
 13) John H. Schwarz and Nathan Seiberg, String theory, supersymmetry,
 unification, and all that, to appear in the American Physical Society
 Centenary issue of Reviews of Modern Physics, March 1999, preprint
-available as [hep-th/9803179](http://xxx.lanl.gov/abs/hep-th/9803179).
+available as [`hep-th/9803179`](http://xxx.lanl.gov/abs/hep-th/9803179).
 
 14) Keith R. Dienes and Christopher Kolda, Twenty open questions in
 supersymmetric particle physics, 64 pages, preprint available as
-[hep-ph/9712322](http://xxx.lanl.gov/abs/hep-ph/9712322).
+[`hep-ph/9712322`](http://xxx.lanl.gov/abs/hep-ph/9712322).
 
 I'm afraid I'll slack off on my "tour of homotopy theory" this week.
 I want to get to fun stuff like model categories and E-\infty spaces, but

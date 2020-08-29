@@ -382,7 +382,7 @@ gravity path integrals in 7 dimensions:
 
 11) Kristin Schleich and Donald Witt, Exotic spaces in quantum gravity,
 Class. Quant. Grav. 16 (1999) 2447-2469, preprint available as
-[gr-qc/9903086](http://xxx.lanl.gov/abs/gr-qc/9903086).
+[`gr-qc/9903086`](http://xxx.lanl.gov/abs/gr-qc/9903086).
 
 I'm not sure exotic spheres are *really* relevant to physics, but it
 would be cool, so I'm glad some people are trying to establish

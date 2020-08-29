@@ -120,7 +120,7 @@ I'll never finish writing this!
 
         Thomas Thiemann, "Quantum Spin Dynamics (QSD) II", preprint available as [`gr-qc/9606090`](http://xxx.lanl.gov/abs/gr-qc/9606090).
 
-        Thomas Thiemann, "Anomaly-free formulation of non-perturbative, four-dimensional Lorentzian quantum gravity", _Phys. Lett._ B **380** (1996) 257--264, preprint available as [`gr-qc/9606088`](http://xxx.lanl.gov/abs/gr-qc/9606088).
+        Thomas Thiemann, "Anomaly-free formulation of non-perturbative, four-dimensional Lorentzian quantum gravity", _Phys. Lett. B_ **380** (1996) 257--264, preprint available as [`gr-qc/9606088`](http://xxx.lanl.gov/abs/gr-qc/9606088).
 
         Thomas Thiemann, "Closed formula for the matrix elements of the volume operator in canonical quantum gravity", preprint available as [`gr-qc/9606091`](http://xxx.lanl.gov/abs/gr-qc/9606091).
 

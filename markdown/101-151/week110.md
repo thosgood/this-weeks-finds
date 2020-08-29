@@ -1,10 +1,10 @@
 # October 4, 1997 {#week110}
 
 Last time I sketched Wheeler's vision of "spacetime foam", and his
-intuition that a good theory of this would require taking spin-1/2
+intuition that a good theory of this would require taking spin-$1/2$
 particles very seriously. Now I want to talk about Penrose's "spin
 networks". These were an attempt to build a purely combinatorial
-description of spacetime starting from the mathematics of spin-1/2
+description of spacetime starting from the mathematics of spin-$1/2$
 particles. He didn't get too far with this, which is why he moved on to
 invent twistor theory. The problem was that spin networks gave an
 interesting theory of *space*, but not of spacetime. But recent work on
@@ -95,7 +95,7 @@ discussed it already in ["Week 55"](#week55) and
 try:
 
 2) Carlo Rovelli, Loop quantum gravity, preprint available as
-[gr-qc/9710008](http://xxx.lanl.gov/abs/gr-qc/9710008), also available
+[`gr-qc/9710008`](http://xxx.lanl.gov/abs/gr-qc/9710008), also available
 as a webpage on Living Reviews in Relativity at
 `http://www.livingreviews.org/Articles/Volume1/1998-1rovelli/`
 
@@ -191,7 +191,7 @@ Lately I've been very excited by a third, hybrid approach:
 
 4) Andrea Barbieri, Quantum tetrahedra and simplicial spin networks,
 preprint available as
-[gr-qc/9707010](http://xxx.lanl.gov/abs/gr-qc/9707010).
+[`gr-qc/9707010`](http://xxx.lanl.gov/abs/gr-qc/9707010).
 
 Barbieri considers "simplicial spin networks": spin networks living in
 a fixed 3-dimensional manifold chopped up into tetrahedra. He only
@@ -269,11 +269,11 @@ they show up... so here are a few interesting ones:
 5) C. Nash, Topology and physics - a historical essay, to appear in A
 History of Topology, edited by Ioan James, Elsevier-North Holland,
 preprint available as
-[hep-th/9709135](http://xxx.lanl.gov/abs/hep-th/9709135).
+[`hep-th/9709135`](http://xxx.lanl.gov/abs/hep-th/9709135).
 
 6) Luis Alvarez-Gaume and Frederic Zamora, Duality in quantum field
 theory (and string theory), available as
-[hep-th/9709180](http://xxx.lanl.gov/abs/hep-th/9709180).
+[`hep-th/9709180`](http://xxx.lanl.gov/abs/hep-th/9709180).
 
 Quoting the abstract:
 
@@ -293,7 +293,7 @@ define an analogue of vertex algebras in higher dimensions."
 8) J. M. F. Labastida and Carlos Lozano, Lectures in topological
 quantum field theory, 62 pages in LaTeX with 5 figures in encapsulated
 Postscript, available as
-[hep-th/9709192](http://xxx.lanl.gov/abs/hep-th/9709192).
+[`hep-th/9709192`](http://xxx.lanl.gov/abs/hep-th/9709192).
 
 "In these lectures we present a general introduction to topological
 quantum field theories. These theories are discussed in the framework of

@@ -104,7 +104,7 @@ For more details, try the following paper:
 2) Abhay Ashtekar, John Baez, Alejandro Corichi and Kirill Krasnov,
 Quantum geometry and black hole entropy, to appear in Phys. Rev. Lett.,
 preprint available as
-[gr-qc/9710007](http://xxx.lanl.gov/abs/gr-qc/9710007).
+[`gr-qc/9710007`](http://xxx.lanl.gov/abs/gr-qc/9710007).
 
 This is a summary of what will eventually be a longer paper with two
 parts, one on the "black hole sector" of classical general relativity,
@@ -255,13 +255,13 @@ because many people learned of it from the following paper:
 
 3) Giorgio Immirzi, Quantum gravity and Regge calculus, in Nucl. Phys.
 Proc. Suppl. 57 (1997) 65-72, preprint available as
-[gr-qc/9701052](http://xxx.lanl.gov/abs/gr-qc/9701052).
+[`gr-qc/9701052`](http://xxx.lanl.gov/abs/gr-qc/9701052).
 
 However, it was first discovered by Barbero:
 
 4) Fernando Barbero, Real Ashtekar variables for Lorentzian signature
 space-times, Phys. Rev. D51 (1995), 5507-5510, preprint available as
-[gr-qc/9410014](http://xxx.lanl.gov/abs/gr-qc/9410014).
+[`gr-qc/9410014`](http://xxx.lanl.gov/abs/gr-qc/9410014).
 
 It's an annoying unavoidable arbitrary dimensionless parameter that
 appears in the loop representation, which nobody had noticed before
@@ -285,7 +285,7 @@ details try:
 
 4) Carlo Rovelli and Thomas Thiemann, The Immirzi parameter in quantum
 general relativity, preprint available as
-[gr-qc/9705059](http://xxx.lanl.gov/abs/gr-qc/9705059).
+[`gr-qc/9705059`](http://xxx.lanl.gov/abs/gr-qc/9705059).
 
 How does the Immirzi parameter affect the physics? It \*determines the
 quantization of area\*. You may notice how I keep saying "each spin-j
@@ -302,7 +302,7 @@ gotten these damned factors straightened out once and for all:
 
 5) Kirill Krasnov, On the constant that fixes the area spectrum in
 canonical quantum gravity, preprint available as
-[gr-qc/9709058](http://xxx.lanl.gov/abs/gr-qc/9709058).
+[`gr-qc/9709058`](http://xxx.lanl.gov/abs/gr-qc/9709058).
 
 So: it seems we can't determine the constant of proportionality in the
 entropy-area relation, because of this arbitrariness in the Immirzi
@@ -324,13 +324,13 @@ S = (ln 2 / 4 \pi γ sqrt(3)) A
 
 mean? It's actually simple. The states that contribute most to the
 entropy of a black hole are those where nearly all spin network edges
-puncturing its surface are labelled by spin 1/2. Each spin-1/2 puncture
+puncturing its surface are labelled by spin 1/2. Each spin-$1/2$ puncture
 can have either j~z~ = 1/2 or j~z~ = -1/2, so it contributes ln(2) to
-the entropy. On the other hand, each spin-1/2 edge contributes 4 \pi γ
+the entropy. On the other hand, each spin-$1/2$ edge contributes 4 \pi γ
 sqrt(3) to the area of the black hole. Just to be dramatic, we can call
 ln 2 the "quantum of entropy" since it's the entropy (or information)
 contained in a single bit. Similarly, we can call 4 \pi γ sqrt(3) the
-"quantum of area" since it's the area contributed by a spin-1/2 edge.
+"quantum of area" since it's the area contributed by a spin-$1/2$ edge.
 These terms are a bit misleading since neither entropy nor area need
 come in *integral* multiples of this minimal amount. But anyway, we have
 
@@ -342,7 +342,7 @@ very well in quantum gravity, but Krasnov has made some progress....
 
 6) Kirill Krasnov, Quantum geometry and thermal radiation from black
 holes, preprint available as
-[gr-qc/9710006](http://xxx.lanl.gov/abs/gr-qc/9710006).
+[`gr-qc/9710006`](http://xxx.lanl.gov/abs/gr-qc/9710006).
 
 Let me just quote the abstract:
 
@@ -367,7 +367,7 @@ thermal radiation:
 
 7) Jacob D. Bekenstein and V. F. Mukhanov, Spectroscopy of the quantum
 black hole, preprint available as
-[gr-qc/9505012](http://xxx.lanl.gov/abs/gr-qc/9505012).
+[`gr-qc/9505012`](http://xxx.lanl.gov/abs/gr-qc/9505012).
 
 However, in the loop representation the area is not quantized in evenly
 spaced steps: the area A can be any sum of quantities like 8 \pi γ

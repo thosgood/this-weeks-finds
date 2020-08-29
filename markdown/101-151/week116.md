@@ -267,7 +267,7 @@ The only nonzero boundary homomorphism is d_1, which is given by
 
                        d1(x) = (x,-x)
 
-(Why? We take I_1 = Z and I~0~ = Z+Z because the interval is built out
+(Why? We take I_1 = Z and I_0 = Z+Z because the interval is built out
 of one 1-dimensional thing, namely itself, and two 0-dimensional things,
 namely its endpoints. We define d_1 the way we do since the boundary of
 an oriented interval consists of two points: its initial endpoint, which

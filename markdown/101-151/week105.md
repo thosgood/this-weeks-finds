@@ -52,7 +52,7 @@ algebra consisting of *pairs* of quaternions! We call that H + H. When n
 = 4 we get the algebra consisting of 2x2 *matrices* of quaternions! We
 call that H(2). And it goes on, like this:
 
-C~0~ = R
+C_0 = R
 
 C_1 = C
 
@@ -195,10 +195,10 @@ repeatedly in the little cafe we tend to hang out at, we came up with
 the following story. Most of it is known to various people already, but
 it came as sort of a revelation to us.
 
-The zeroth entry in the table is easy to understand. \pi~0~ keeps track of
+The zeroth entry in the table is easy to understand. \pi_0 keeps track of
 how many connected components your space has. The rotation group O(\infty)
 has two connected components: the guys that are rotations, and the guys
-that are rotations followed by a reflection. So \pi~0~ of O(\infty) is Z/2, the
+that are rotations followed by a reflection. So \pi_0 of O(\infty) is Z/2, the
 group with two elements. Actually this is also true for O(n) whenever n
 is higher enough, namely 1 or more. So the zeroth entry is all about
 "reflecting".
@@ -207,7 +207,7 @@ The first entry is a bit subtler but very important in physics. It means
 that there is a loop in O(\infty) that you can't pull tight, but if you go
 around that loop *twice*, you trace out a loop that you *can* pull
 tight. In fact this is true for O(n) whenever n is 3 or more. This is
-how there can be spin-1/2 particles when space is 3-dimensional or
+how there can be spin-$1/2$ particles when space is 3-dimensional or
 higher. There are lots of nice tricks for seeing that this is true,
 which I hope the reader already knows and loves. In short, the first
 entry is all about "rotating 360 degrees and not getting back to where
@@ -254,7 +254,7 @@ modulo 8. Moreover we have:
 \pi_n(O(\infty)) = \pi~n+1~(kO)
 
 Combining these facts, we see that the very subtle \pi~7~ of O(\infty) is
-nothing but the very unsubtle \pi~0~ of kO, which just keeps track of how
+nothing but the very unsubtle \pi_0 of kO, which just keeps track of how
 many connected components kO has.
 
 But what *is* kO?
@@ -267,7 +267,7 @@ wind up seeing that the seventh entry in the table is all about
 
 To summarize:
 
-\pi~0~(O(\infty)) = Z/2 is about REFLECTING
+\pi_0(O(\infty)) = Z/2 is about REFLECTING
 
 \pi_1(O(\infty)) = Z/2 is about ROTATING 360 DEGREES
 
@@ -294,7 +294,7 @@ multiplying by x is length-preserving, so it's a reflection or rotation
 in A. This gives us a function from the unit sphere in A to O(n), or in
 other words from the (n-1)-sphere to O(n). We thus get nice elements of
 
-\pi~0~(O(1))
+\pi_0(O(1))
 
 \pi_1(O(2))
 
@@ -307,7 +307,7 @@ O(\infty) are nontrivial.
 
 So now we have the following fancier chart:
 
-\pi~0~(O(\infty)) is about REFLECTING and the REAL NUMBERS
+\pi_0(O(\infty)) is about REFLECTING and the REAL NUMBERS
 
 \pi_1(O(\infty)) is about ROTATING 360 DEGREES and the COMPLEX NUMBERS
 
@@ -400,17 +400,17 @@ doesn't make sense to talk about \pi~-1~ of a space. However, to make
 Bott periodicity work out smoothly, it would be nice if we could pretend
 that
 
-KS^-1^ = \pi~0~(BO(\infty)) = \pi~-1~(O(\infty)) = \pi~7~(O(\infty)) = Z
+KS^-1^ = \pi_0(BO(\infty)) = \pi~-1~(O(\infty)) = \pi~7~(O(\infty)) = Z
 
 Alas, the equations don't make sense, and BO(\infty) is connected, so we
-don't have \pi~0~(BO(\infty)) = Z. However, we can cook up a slightly improved
+don't have \pi_0(BO(\infty)) = Z. However, we can cook up a slightly improved
 space kO, which has
 
 \pi_n(kO) = \pi_n(BO(\infty))
 
 when n \> 0, but also has
 
-\pi~0~(kO) = Z
+\pi_0(kO) = Z
 
 as desired. It's easy - we just let
 
@@ -423,7 +423,7 @@ i.e. the space of 1-dimensional real subspaces of R^2. This has a
 "canonical line bundle" over it, that is, a 1-dimensional real vector
 bundle which to each point of RP^1^ assigns the 1-dimensional subspace
 of R^2 that *is* that point. This vector bundle over S^1^ gives the
-generator of KS^1^, or in other words, \pi~0~(O(\infty)).
+generator of KS^1^, or in other words, \pi_0(O(\infty)).
 
 Taking n = 1, we can think of S^2 as the "Riemann sphere", or in
 other words CP^1^, the space of 1-dimensional complex subspaces of C^2.
@@ -442,12 +442,12 @@ gives the generator of KS^8^, or in other words, \pi~7~(O(\infty)).
 
 By Bott periodicity,
 
-\pi~7~(O(\infty)) = \pi~8~(kO) = \pi~0~(kO)
+\pi~7~(O(\infty)) = \pi~8~(kO) = \pi_0(kO)
 
 so the canonical line bundle over OP^1^ also defines an element of
-\pi~0~(kO). But
+\pi_0(kO). But
 
-\pi~0~(kO) = \[S^0^,kO\] = KS^0^
+\pi_0(kO) = \[S^0^,kO\] = KS^0^
 
 and KS^0^ simply records the *difference in dimension* between the two
 fibers of a vector bundle over S^0^, which can be any integer. This is

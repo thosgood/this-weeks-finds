@@ -119,7 +119,7 @@ foam, though not yet a rigorous one (see ["Week 67"](#week67)).
 
 But long before that, Newman, Penrose, and others started finding
 interesting relationships between general relativity and the mathematics
-of spin-1/2 particles... relationships that much later would yield a
+of spin-$1/2$ particles... relationships that much later would yield a
 theory of spacetime foam in which spinors play a crucial part!
 
 The best place to read about spinorial techniques in general relativity
@@ -141,7 +141,7 @@ Chicago, 1984.
 
 The second is "twistor theory", described in volume 2. This is
 mathematically more elaborate, and it includes an ambitious program to
-reformulate the laws of physics in such a way that massless spin-1/2
+reformulate the laws of physics in such a way that massless spin-$1/2$
 particles, rather than points of spacetime, play the basic role.
 
 The third is the theory of "spin networks", which was a very radical,
@@ -180,16 +180,16 @@ are also called scalars. Examples include pions and other mesons. The
 only *fundamental* scalar particle in the Standard Model is the Higgs
 boson - hypothesized but still not seen.
 
-The spin-1/2 representation is the fundamental representation, in which
+The spin-$1/2$ representation is the fundamental representation, in which
 SU(2) acts on C^2 in the obvious way. Physicists call vectors in this
-representation "spinors". Examples of spin-1/2 particles include
-electrons, protons, neutrons, and neutrinos. The fundamental spin-1/2
+representation "spinors". Examples of spin-$1/2$ particles include
+electrons, protons, neutrons, and neutrinos. The fundamental spin-$1/2$
 particles in the Standard Model are the leptons (electron, muon, tau and
 their corresponding neutrinos) and quarks.
 
-The spin-1 representation comes from turning elements of SU(2) into 3x3
+The spin-$1$ representation comes from turning elements of SU(2) into 3x3
 matrices using the double cover SU(2)\to SO(3). This is therefore also
-called the "vector" representation. The spin-1 particles in the
+called the "vector" representation. The spin-$1$ particles in the
 Standard Model are the gauge fields: the photon, the W and Z, and the
 gluons.
 
@@ -205,18 +205,18 @@ is given by a symmetric 3x3 matrix. But this is not very satisfying...
 I'll give a better answer later.
 
 Now, the systematic way to get all these representations is to build
-them out of the spin-1/2 representation. SU(2) acts on C^2 in an
+them out of the spin-$1/2$ representation. SU(2) acts on C^2 in an
 obvious way, and thus acts on the space of polynomials on C^2. The
 space of homogeneous polynomials of degree 2j is thus a representation
 of SU(2) in its own right, called the spin-j representation. Since
 multiplication of polynomials is commutative, in math lingo we say the
 spin-j representation is the "symmetrized tensor product" of 2j copies
-of the spin-1/2 representation. This is the mathematical sense in which
+of the spin-$1/2$ representation. This is the mathematical sense in which
 spin 1/2 is fundamental!
 
 (In some sense, this means we can think of a spin-j particle as built
-from 2j indistinguishable spin-1/2 bosons. But there is something odd
-about this, since in physics we usually treat spin-1/2 particles as
+from 2j indistinguishable spin-$1/2$ bosons. But there is something odd
+about this, since in physics we usually treat spin-$1/2$ particles as
 fermions and form *antisymmetrized* tensor products of them!)
 
 Now let's go from space to spacetime, and consider the Lorentz group,
@@ -337,7 +337,7 @@ write the ADM mass as an integral of an obviously nonnegative quantity.
 
 Next time I'll talk about spin networks and how they show up in recent
 work on quantum gravity. We'll see that the idea of building up
-everything from the spin-1/2 representation of SU(2) assumes grandiose
+everything from the spin-$1/2$ representation of SU(2) assumes grandiose
 proportions: in this setup, *space itself* is built from spinors!
 
 ------------------------------------------------------------------------

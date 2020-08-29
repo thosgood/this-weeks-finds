@@ -286,13 +286,13 @@ where
 q = exp(2 \pi i τ)
 
 is a variable that equals 0 when τ = \infty. The nicest modular forms are the
-"cusp forms", which have a~0~ = 0, and thus vanish at τ = \infty.
+"cusp forms", which have a_0 = 0, and thus vanish at τ = \infty.
 
 Next, we can straightforwardly generalize everything I just said if we
 replace SL(2,Z) by various subgroups thereof. (This amounts to studying
 holomorphic sections of line bundles over some moduli space of elliptic
 curves *equipped with extra structure*.) For example, we can use the
-subgroup Γ~0~(N) consisting of those matrices in SL(2,Z) whose
+subgroup Γ_0(N) consisting of those matrices in SL(2,Z) whose
 lower-left entries are divisible by N. If we use this group instead of
 SL(2,Z), we get what are called modular forms of "level N". We define
 "weight" of such a modular form just as before, and ditto for "cusp

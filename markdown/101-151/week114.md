@@ -45,10 +45,10 @@ starting to explore the relationships:
 
 1) John W. Barrett, Martin Rocek, Ruth M. Williams, A note on area
 variables in Regge calculus, preprint available as
-[gr-qc/9710056](http://xxx.lanl.gov/abs/gr-qc/9710056).
+[`gr-qc/9710056`](http://xxx.lanl.gov/abs/gr-qc/9710056).
 
 2) Jarmo Makela, Variation of area variables in Regge calculus preprint
-available as [gr-qc/9801022](http://xxx.lanl.gov/abs/gr-qc/9801022).
+available as [`gr-qc/9801022`](http://xxx.lanl.gov/abs/gr-qc/9801022).
 
 Also, there's been some progress on extracting Einstein's equation for
 general relativity as a classical limit of the Barrett-Crane state sum
@@ -56,11 +56,11 @@ model. Let me quote the abstract of this paper:
 
 3) Louis Crane and David N. Yetter, On the classical limit of the
 balanced state sum, preprint available as
-[gr-qc/9712087](http://xxx.lanl.gov/abs/gr-qc/9712087).
+[`gr-qc/9712087`](http://xxx.lanl.gov/abs/gr-qc/9712087).
 
 "The purpose of this note is to make several advances in the
 interpretation of the balanced state sum model by Barrett and Crane in
-[gr-qc/9709028](http://xxx.lanl.gov/abs/gr-qc/9709028) as a quantum
+[`gr-qc/9709028`](http://xxx.lanl.gov/abs/gr-qc/9709028) as a quantum
 theory of gravity. First, we outline a shortcoming of the definition of
 the model pointed out to us by Barrett and Baez in private
 communication, and explain how to correct it. Second, we show that the
@@ -79,7 +79,7 @@ abstract:
 
 4) Lee Smolin, Strings as perturbations of evolving spin-networks,
 preprint available as
-[hep-th/9801022](http://xxx.lanl.gov/abs/hep-th/9801022).
+[`hep-th/9801022`](http://xxx.lanl.gov/abs/hep-th/9801022).
 
 "A connection between non-perturbative formulations of quantum gravity
 and perturbative string theory is exhibited, based on a formulation of
@@ -105,7 +105,7 @@ spin foam models in a manifestly local, causal way.
 
 5) Fotini Markopoulou and Lee Smolin, Quantum geometry with intrinsic
 local causality, preprint available as
-[gr-qc/9712067](http://xxx.lanl.gov/abs/gr-qc/9712067).
+[`gr-qc/9712067`](http://xxx.lanl.gov/abs/gr-qc/9712067).
 
 "The space of states and operators for a large class of background
 independent theories of quantum spacetime dynamics is defined. The SU(2)
@@ -143,7 +143,7 @@ second part of Ashtekar's paper with Jerzy Lewandowski is finally out:
 
 6) Abhay Ashtekar and Jerzy Lewandowski, Quantum theory of geometry II:
 volume operators, preprint available as
-[gr-qc/9711031](http://xxx.lanl.gov/abs/gr-qc/9711031).
+[`gr-qc/9711031`](http://xxx.lanl.gov/abs/gr-qc/9711031).
 
 "A functional calculus on the space of (generalized) connections was
 recently introduced without any reference to a background metric. It is
@@ -177,29 +177,29 @@ approach, try ["Week 43"](#week43).)
 The most careful attempt to do this so far is the work of Thiemann:
 
 7) Thomas Thiemann, Quantum spin dynamics (QSD), preprint available as
-[gr-qc/9606089](http://xxx.lanl.gov/abs/gr-qc/9606089).
+[`gr-qc/9606089`](http://xxx.lanl.gov/abs/gr-qc/9606089).
 
 Quantum spin dynamics (QSD) II, preprint available as
-[gr-qc/9606090](http://xxx.lanl.gov/abs/gr-qc/9606090).
+[`gr-qc/9606090`](http://xxx.lanl.gov/abs/gr-qc/9606090).
 
 QSD III: Quantum constraint algebra and physical scalar product in
 quantum general relativity, preprint available as
-[gr-qc/9705017](http://xxx.lanl.gov/abs/gr-qc/9705017).
+[`gr-qc/9705017`](http://xxx.lanl.gov/abs/gr-qc/9705017).
 
 QSD IV: 2+1 Euclidean quantum gravity as a model to test 3+1 Lorentzian
 quantum gravity, preprint available as
-[gr-qc/9705018](http://xxx.lanl.gov/abs/gr-qc/9705018).
+[`gr-qc/9705018`](http://xxx.lanl.gov/abs/gr-qc/9705018).
 
 QSD V: Quantum gravity as the natural regulator of matter quantum field
 theories, preprint available as
-[gr-qc/9705019](http://xxx.lanl.gov/abs/gr-qc/9705019).
+[`gr-qc/9705019`](http://xxx.lanl.gov/abs/gr-qc/9705019).
 
 QSD VI: Quantum Poincare algebra and a quantum positivity of energy
 theorem for canonical quantum gravity, preprint available as
-[gr-qc/9705020](http://xxx.lanl.gov/abs/gr-qc/9705020)
+[`gr-qc/9705020`](http://xxx.lanl.gov/abs/gr-qc/9705020)
 
 Kinematical Hilbert spaces for fermionic and Higgs quantum field
-theories, [gr-qc/9705021](http://xxx.lanl.gov/abs/gr-qc/9705021)
+theories, [`gr-qc/9705021`](http://xxx.lanl.gov/abs/gr-qc/9705021)
 
 If everything worked as smoothly as possible, the Hamiltonian constraint
 would satisfy nice commutation relations with the other constraints of
@@ -210,12 +210,12 @@ Thiemann's:
 
 8) Jerzy Lewandowski and Donald Marolf, Loop constraints: A habitat and
 their algebra, preprint available as
-[gr-qc/9710016](http://xxx.lanl.gov/abs/gr-qc/9710016).
+[`gr-qc/9710016`](http://xxx.lanl.gov/abs/gr-qc/9710016).
 
 9) Rodolfo Gambini, Jerzy Lewandowski, Donald Marolf, and Jorge Pullin,
 On the consistency of the constraint algebra in spin network quantum
 gravity, preprint available as
-[gr-qc/9710018](http://xxx.lanl.gov/abs/gr-qc/9710018).
+[`gr-qc/9710018`](http://xxx.lanl.gov/abs/gr-qc/9710018).
 
 This is very worrisome... as everything concerning quantum gravity
 always is. Personally these results make me want to spend less time on
@@ -234,7 +234,7 @@ values of the cosmological constant. He has a paper out on this:
 
 10) Steven Carlip, Spacetime foam and the cosmological constant, Phys.
 Rev. Lett. 79 (1997) 4071-4074, preprint available as
-[gr-qc/9708026](http://xxx.lanl.gov/abs/gr-qc/9708026).
+[`gr-qc/9708026`](http://xxx.lanl.gov/abs/gr-qc/9708026).
 
 Again, I'll quote the abstract:
 

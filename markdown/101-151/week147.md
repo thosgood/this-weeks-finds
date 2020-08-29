@@ -226,9 +226,9 @@ category of finite sets! Since any n-element set has n! automorphisms
 This turns out to explain lots of things about the number e.
 
 Now, a category all of whose morphisms are isomorphisms is called a
-"groupoid". Any category C has an underlying groupoid C~0~ with the
+"groupoid". Any category C has an underlying groupoid C_0 with the
 same objects but only the isomorphisms as morphisms. The cardinality of
-a category C always equals that of its underlying groupoid C~0~. This
+a category C always equals that of its underlying groupoid C_0. This
 suggests that this notion should really be called "groupoid
 cardinality. If you're a fan of $n$-categories, this suggests that we
 should generalize the concept of cardinality to n-groupoids, or even
@@ -315,7 +315,7 @@ something mysterious about homotopy cardinality.
 Homotopy cardinality is formally very similar to Euler characteristic.
 The Euler characteristic χ(X) is given by the alternating sum
 
-χ(X) = dim(H~0~(X)) - dim(H_1(X)) + dim(H_2(X)) - ....
+χ(X) = dim(H_0(X)) - dim(H_1(X)) + dim(H_2(X)) - ....
 
 whenever the sum converges, where H_n(X) is a vector space over the
 rational numbers called the nth rational homology group of X. Just as

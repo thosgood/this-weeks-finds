@@ -311,7 +311,7 @@ For some recent general overviews, try these:
 
 8) Boris Kayser, Neutrino mass: where do we stand, and where are we
 going?, preprint available as
-[hep-ph/9810513](http://xxx.lanl.gov/abs/hep-ph/9810513).
+[`hep-ph/9810513`](http://xxx.lanl.gov/abs/hep-ph/9810513).
 
 For information on various experiments, try these:
 
@@ -348,12 +348,12 @@ decay in flight, Phys. Rev. C58 (1998), 2489-2511.
 
 13) Super-Kamiokande collaboration, Evidence for oscillation of
 atmospheric neutrinos, Phys. Rev. Lett 81 (1998), 1562-1567, preprint
-available as [hep-ex/9807003](http://xxx.lanl.gov/abs/hep-ex/9807003).
+available as [`hep-ex/9807003`](http://xxx.lanl.gov/abs/hep-ex/9807003).
 
 14) MACRO collaboration, Measurement of the atmospheric
 neutrino-induced upgoing muon flux, Phys. Lett. B434 (1998), 451-457,
 preprint available as
-[hep-ex/9807005](http://xxx.lanl.gov/abs/hep-ex/9807005).
+[`hep-ex/9807005`](http://xxx.lanl.gov/abs/hep-ex/9807005).
 
 15) IMB collaboration, A search for muon-neutrino oscillations with the
 IMB detector, Phys. Rev. Lett 69 (1992), 1010-1013.
@@ -363,20 +363,20 @@ neutrino masses from the latest crop of experiments, see:
 
 16) V. Barger, T. J. Weiler, and K. Whisnant, Inferred 4.4 eV upper
 limits on the muon- and tau-neutrino masses, preprint available as
-[hep-ph/9808367](http://xxx.lanl.gov/abs/hep-ph/9808367).
+[`hep-ph/9808367`](http://xxx.lanl.gov/abs/hep-ph/9808367).
 
 For a nice summary of the data, and an argument that it's evidence for
 the existence of a sterile neutrino, see:
 
 17) David O. Caldwell, The status of neutrino mass, preprint available
-as [hep-ph/9804367](http://xxx.lanl.gov/abs/hep-ph/9804367).
+as [`hep-ph/9804367`](http://xxx.lanl.gov/abs/hep-ph/9804367).
 
 For a very readable argument that massive neutrinos are evidence for a
 supersymmetric SO(10) grand unified theory, see
 
 18) Frank Wilczek, Beyond the Standard Model: this time for real,
 preprint available as
-[hep-ph/9809509](http://xxx.lanl.gov/abs/hep-ph/9809509).
+[`hep-ph/9809509`](http://xxx.lanl.gov/abs/hep-ph/9809509).
 
 Finally, with all these cracks developing in the Standard Model, it's
 nice to think again about the rise of the Standard Model. The following

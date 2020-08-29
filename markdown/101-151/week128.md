@@ -124,7 +124,7 @@ who wants to keep up with research on gravity should remember to read
 latest edition:
 
 3) Jorge Pullin, editor, Matters of Gravity, vol. 12, available at
-[gr-qc/9809031](http://xxx.lanl.gov/abs/gr-qc/9809031) and at
+[`gr-qc/9809031`](http://xxx.lanl.gov/abs/gr-qc/9809031) and at
 `http://vishnu.nirvana.phys.psu.edu/mog.html`
 
 There's a lot of good stuff in here. Quantum gravity buffs will
@@ -245,7 +245,7 @@ but to cos(S):
 
 5) John W. Barrett and Ruth M. Williams, The asymptotics of an
 amplitude for the 4-simplex, preprint available as
-[gr-qc/9809032](http://xxx.lanl.gov/abs/gr-qc/9809032).
+[`gr-qc/9809032`](http://xxx.lanl.gov/abs/gr-qc/9809032).
 
 This argument is not rigorous - it uses a stationary phase approximation
 that requires further justification. But Regge and Ponzano used a
@@ -313,7 +313,7 @@ all of them:
 
 7) Andrea Barbieri, Space of the vertices of relativistic spin
 networks, preprint available as
-[gr-qc/9709076](http://xxx.lanl.gov/abs/gr-qc/9709076).
+[`gr-qc/9709076`](http://xxx.lanl.gov/abs/gr-qc/9709076).
 
 While convincing, this argument was not definitive, since it assumed
 something plausible but not yet proven - namely, that the "6j symbols
@@ -322,7 +322,7 @@ up with a completely rigorous argument:
 
 8) Michael P. Reisenberger, On relativistic spin network vertices,
 preprint available as
-[gr-qc/9809067](http://xxx.lanl.gov/abs/gr-qc/9809067).
+[`gr-qc/9809067`](http://xxx.lanl.gov/abs/gr-qc/9809067).
 
 But while this settled the facts of the matter, it left open the
 question of "why" --- why does it take *6* numbers to describe the
@@ -361,7 +361,7 @@ the horizon. For more details try:
 
 10) Abhay Ashtekar, Chris Beetle and S. Fairhurst, Isolated horizons: a
 generalization of black hole mechanics, preprint available as
-[gr-qc/9812065](http://xxx.lanl.gov/abs/gr-qc/9812065).
+[`gr-qc/9812065`](http://xxx.lanl.gov/abs/gr-qc/9812065).
 
 This concept also serves as the basis for a forthcoming 2-part paper
 where Ashtekar, Corichi, Krasnov and I compute the entropy of a quantum
@@ -372,7 +372,7 @@ about them, but they're both pretty neat:
 
 11) Matthias Arnsdorf and R. S. Garcia, Existence of spinorial states
 in pure loop quantum gravity, preprint available as
-[gr-qc/9812006](http://xxx.lanl.gov/abs/gr-qc/9812006).
+[`gr-qc/9812006`](http://xxx.lanl.gov/abs/gr-qc/9812006).
 
 I'll just quote the abstract:
 
@@ -392,7 +392,7 @@ gravitational quantum states with fractional spin.
 
 14) Steve Carlip, Black hole entropy from conformal field theory in any
 dimension, preprint available as
-[hep-th/9812013](http://xxx.lanl.gov/abs/hep-th/9812013).
+[`hep-th/9812013`](http://xxx.lanl.gov/abs/hep-th/9812013).
 
 Again, here's the abstract:
 

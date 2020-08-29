@@ -268,7 +268,7 @@ able to do justice to the details, but it seems important....
 
 9) Steve Carlip, Entropy from conformal field theory at Killing
 horizons, preprint available at
-[gr-qc/9906126](http://xxx.lanl.gov/abs/gr-qc/9906126).
+[`gr-qc/9906126`](http://xxx.lanl.gov/abs/gr-qc/9906126).
 
 Let me just quote the abstract:
 
@@ -291,10 +291,10 @@ quantum gravity:
 
 10) Abhay Ashtekar, Christopher Beetle, and Stephen Fairhurst,
 Mechanics of isolated horizons, preprint available as
-[gr-qc/9907068](http://xxx.lanl.gov/abs/gr-qc/9907068).
+[`gr-qc/9907068`](http://xxx.lanl.gov/abs/gr-qc/9907068).
 
 11) Jerzy Lewandowski, Spacetimes admitting isolated horizons, preprint
-available as [gr-qc/9907058](http://xxx.lanl.gov/abs/gr-qc/9907058).
+available as [`gr-qc/9907058`](http://xxx.lanl.gov/abs/gr-qc/9907058).
 
 For more on isolated horizons try the references in
 ["Week 128"](#week128).

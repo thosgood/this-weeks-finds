@@ -77,7 +77,7 @@ For a more thorough review by someone who really knows this stuff, try:
 3) Robert M. Wald, Black holes and thermodynamics, in Symposium on
 Black Holes and Relativistic Stars (in honor of S. Chandrasekhar),
 December 14-15, 1996, preprint available as
-[gr-qc/9702022](http://xxx.lanl.gov/abs/gr-qc/9702022).
+[`gr-qc/9702022`](http://xxx.lanl.gov/abs/gr-qc/9702022).
 
 In 1973, Jacob Bekenstein suggested that we take this analogy really
 seriously. In particular, he argued that black holes really do have
@@ -166,7 +166,7 @@ using *their* approach to quantum gravity. A nice review article about
 this approach is:
 
 6) Gary Horowitz, Quantum states of black holes, preprint available as
-[gr-qc/9704072](http://xxx.lanl.gov/abs/gr-qc/9704072).
+[`gr-qc/9704072`](http://xxx.lanl.gov/abs/gr-qc/9704072).
 
 Next time, however, I will only talk about the spin network (also known
 as "loop representation") approach, because that's the one I
@@ -180,12 +180,12 @@ field theory. The others are more technical.
 
 7) Roman Jackiw, What is quantum field theory and why have some
 physicists abandoned it?, 4 pages, preprint available as
-[hep-th/9709212](http://xxx.lanl.gov/abs/hep-th/9709212).
+[`hep-th/9709212`](http://xxx.lanl.gov/abs/hep-th/9709212).
 
 "The present-day crisis in quantum field theory is described."
 
 8) Adel Bilal, M(atrix) theory: a pedagogical introduction, preprint
-available as [hep-th/9710136](http://xxx.lanl.gov/abs/hep-th/9710136).
+available as [`hep-th/9710136`](http://xxx.lanl.gov/abs/hep-th/9710136).
 
 "I attempt to give a pedagogical introduction to the matrix model of
 M-theory as developed by Banks, Fischler, Shenker and Susskind (BFSS).
@@ -203,7 +203,7 @@ Here's one on glueballs (for more on glueballs, see
 
 9) Gregory Gabadadze, Modeling the glueball spectrum by a closed
 bosonic membrane, 43 pages, preprint available as
-[hep-ph/9710402](http://xxx.lanl.gov/abs/hep-ph/9710402).
+[`hep-ph/9710402`](http://xxx.lanl.gov/abs/hep-ph/9710402).
 
 "We use an analogy between the Yang-Mills theory Hamiltonian and the
 matrix model description of the closed bosonic membrane theory to
@@ -220,7 +220,7 @@ Fans of quaternions and octonions might like the following paper:
 
 10) Jose M. Figueroa-O'Farrill, Gauge theory and the division
 algebras, preprint available as
-[hep-th/9710168](http://xxx.lanl.gov/abs/hep-th/9710168).
+[`hep-th/9710168`](http://xxx.lanl.gov/abs/hep-th/9710168).
 
 "We present a novel formulation of the instanton equations in
 8-dimensional Yang-Mills theory. This formulation reveals these

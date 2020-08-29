@@ -3,7 +3,7 @@
 I'd like to start with a long quote from a paper by Ashtekar:
 
 1) Abhay Ashtekar, Quantum Mechanics of Geometry, preprint available as
-[gr-qc/9901023](http://xxx.lanl.gov/abs/gr-qc/9901023).
+[`gr-qc/9901023`](http://xxx.lanl.gov/abs/gr-qc/9901023).
 
 > During his Goettingen inaugural address in 1854, Riemann suggested
 > that the geometry of space may be more than just a fiducial,
@@ -141,10 +141,10 @@ gravity:
 
 2) Fotini Markopoulou, The internal description of a causal set: What
 the universe looks like from the inside, preprint available as
-[gr-qc/9811053](http://xxx.lanl.gov/abs/gr-qc/9811053).
+[`gr-qc/9811053`](http://xxx.lanl.gov/abs/gr-qc/9811053).
 
 Fotini Markopoulou, Quantum causal histories, preprint available as
-[hep-th/9904009](http://xxx.lanl.gov/abs/hep-th/9904009).
+[`hep-th/9904009`](http://xxx.lanl.gov/abs/hep-th/9904009).
 
 Fotini Markopoulou is perhaps the first person to take the issue of
 causality really seriously in loop quantum gravity. In her earlier work
@@ -162,7 +162,7 @@ think about these issues....
 
 3) Seth A. Major, Embedded graph invariants in Chern-Simons theory,
 preprint available as
-[hep-th/9810071](http://xxx.lanl.gov/abs/hep-th/9810071).
+[`hep-th/9810071`](http://xxx.lanl.gov/abs/hep-th/9810071).
 
 In This Week's Finds I've already mentioned Seth Major has worked with
 Lee Smolin on q-deformed spin networks in quantum gravity (see
@@ -208,7 +208,7 @@ electron and neutrino:
 
 These form a 2-dimensional representation. This representation is the
 tensor product of the irreducible rep of U(1) with hypercharge -1, the
-isospin-1/2 rep of SU(2), and the trivial rep of SU(3).
+isospin-$1/2$ rep of SU(2), and the trivial rep of SU(3).
 
 A word about notation! People usually describe irreducible reps of U(1)
 by integers. For historical reasons, hypercharge comes in integral
@@ -216,7 +216,7 @@ multiples of 1/3. Thus to get the appropriate integer we need to
 multiply the hypercharge by 3. Also, the group SU(2) here is associated,
 not to spin in the sense of angular momentum, but to something called
 "weak isospin". That's why we say "isopin-1/2 rep" above.
-Mathematically, though, this is just the usual spin-1/2 representation
+Mathematically, though, this is just the usual spin-$1/2$ representation
 of SU(2).
 
 Next we have the left-handed up and down quarks, which come in 3 colors
@@ -225,11 +225,11 @@ each:
 (u_L, u_L, u_L, d_L, d_L, d_L)
 
 This 6-dimensional representation is the tensor product of the
-irreducible rep of U(1) with hypercharge 1/3, the isospin-1/2 rep of
+irreducible rep of U(1) with hypercharge 1/3, the isospin-$1/2$ rep of
 SU(2), and the fundamental rep of SU(3).
 
 That's all the left-handed fermions. Note that they all transform
-transform according to the isospin-1/2 rep of SU(2) - we call them
+transform according to the isospin-$1/2$ rep of SU(2) - we call them
 "isospin doublets". The right-handed fermions all transform according
 to the isospin-0 rep of SU(2) - they're "isospin singlets". First we
 have the right-handed electron:
@@ -258,7 +258,7 @@ boson:
 (H\_+, H_0)
 
 This transforms according to the tensor product of the irreducible rep
-of U(1) with hypercharge 1, the isospin-1/2 rep of SU(2), and the
+of U(1) with hypercharge 1, the isospin-$1/2$ rep of SU(2), and the
 1-dimensional trivial rep of SU(3).
 
 Okay, let's see which elements of U(1) x Z/2 x Z/3 act trivially on all

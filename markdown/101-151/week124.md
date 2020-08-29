@@ -84,7 +84,7 @@ Anyway, I don't want to get too deep into the theory of elliptic
 curves; just enough so we see why the number 24 is so important in
 string theory. You may remember that bosonic string theory works best in
 26 dimensions (while the physically more important superstring theory,
-which includes spin-1/2 particles, works best in 10). Why is this true?
+which includes spin-$1/2$ particles, works best in 10). Why is this true?
 Well, there are various answers, but one is that if you think of the
 string as wiggling in the 24 directions perpendicular to its own
 2-dimensional surface - two *real* dimensions, that is! - various
@@ -323,7 +323,7 @@ you print it out yourself:
 
 6) E. Kiritsis, Introduction to Superstring Theory, 244 pages, to be
 published by Leuven University Press, preprint available as
-[hep-th/9709062](http://xxx.lanl.gov/abs/hep-th/9709062).
+[`hep-th/9709062`](http://xxx.lanl.gov/abs/hep-th/9709062).
 
 For a more mathematical approach, you might want to try this when it
 comes out:

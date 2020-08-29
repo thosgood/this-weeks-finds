@@ -163,7 +163,7 @@ this next time.
 
 2) Abhay Ashtekar, John Baez and Kirill Krasnov, Quantum geometry of
 isolated horizons and black hole entropy, preprint available at
-[gr-qc/0005126](http://xxx.lanl.gov/abs/gr-qc/0005126) or at
+[`gr-qc/0005126`](http://xxx.lanl.gov/abs/gr-qc/0005126) or at
 `http://math.ucr.edu/home/baez/black2.ps`
 
 I explained an earlier version of this paper in
@@ -226,7 +226,7 @@ black hole. This step was done in a companion paper:
 4) Abhay Ashtekar, Alejandro Corichi and Kirill Krasnov, Isolated
 horizons: the classical phase space, Advances in Theoretical and
 Mathematical Physics 3 (2000), 418-471. Preprint available at
-[gr-qc/9905089](http://xxx.lanl.gov/abs/gr-qc/9905089).
+[`gr-qc/9905089`](http://xxx.lanl.gov/abs/gr-qc/9905089).
 
 The idea is to consider the region of spacetime outside the black hole
 and assume that its boundary is a cylinder of the form R x S^2. We
@@ -323,7 +323,7 @@ above:
 
 5) Abhay Ashtekar, Chris Beetle and Steve Fairhurst, Mechanics of
 isolated horizons, Class. and Quant. Gravity 17 (2000), 253-298.
-Available at [gr-qc/9907068](http://xxx.lanl.gov/abs/gr-qc/9907068).
+Available at [`gr-qc/9907068`](http://xxx.lanl.gov/abs/gr-qc/9907068).
 
 Originally, everyone thought that to make the action differentiable as a
 function of the fields, you had to add a boundary term to the usual
@@ -459,7 +459,7 @@ S = ln N = (ln 2 /4 \pi γ √3) A
 Believe it or not, this crude estimate asymptotically approaches the
 correct answer as A approaches infinity. In other words, when the black
 hole is in its maximum-entropy state, the vast majority of the spin
-network edges poking through the horizon are spin-1/2 edges.
+network edges poking through the horizon are spin-$1/2$ edges.
 
 So, what have we seen? Well, we've seen that the black hole entropy is
 (asymptotically!) proportional to the area, just like Bekenstein and
@@ -479,7 +479,7 @@ floating around in loop quantum gravity. In fact, we can say that we've
 determined the "quantum of area" - the smallest possible unit of area.
 That's good. And then it's almost true that in our model, each little
 patch of the black hole horizon with area 4 ln(2) contains a single bit
-of information - since a spin-1/2 puncture has area 4 ln(2), and the
+of information - since a spin-$1/2$ puncture has area 4 ln(2), and the
 angle deficit at a puncture labelled with spin 1/2 can take only 2
 values, corresponding to m = -1/2 and m = 1/2. Of course, there are also
 punctures labelled by higher values of j, but the j = 1/2 punctures

@@ -55,7 +55,7 @@ real experts will correct my mistakes. Much of what I'll say comes from
 the following nice review article:
 
 2) M. J. Duff, Supermembranes, preprint available as
-[hep-th/9611203](http://xxx.lanl.gov/abs/hep-th/9611203)
+[`hep-th/9611203`](http://xxx.lanl.gov/abs/hep-th/9611203)
 
 and also the bible of string theory:
 
@@ -185,7 +185,7 @@ dimensions, as explained in:
 
 7) Y. Tanii, Introduction to supergravities in diverse dimensions,
 preprint available as
-[hep-th/9802138](http://xxx.lanl.gov/abs/hep-th/9802138).
+[`hep-th/9802138`](http://xxx.lanl.gov/abs/hep-th/9802138).
 
 In particular highest dimension in which supergravity makes sense is 11
 dimensions (where one only has N = 1 supergravity). Note that this is
@@ -196,7 +196,7 @@ resolve these puzzles. Another interesting discovery is that
 
 8) Stephan Melosch and Hermann Nicolai, New canonical variables for d =
 11 supergravity, preprint available as
-[hep-th/9709277](http://xxx.lanl.gov/abs/hep-th/9709277).
+[`hep-th/9709277`](http://xxx.lanl.gov/abs/hep-th/9709277).
 
 But I'm getting ahead of myself here! Right now I'm talking about the
 low-energy limit of 10-dimensional superstring theory. I said it amounts
@@ -310,14 +310,14 @@ thank Dan Piponi for pointing out that Scientific American article.
 For more on this business, check out the following review articles:
 
 11) W. Lerche, Recent developments in string theory, preprint available
-as [hep-th/9710246](http://xxx.lanl.gov/abs/hep-th/9710246).
+as [`hep-th/9710246`](http://xxx.lanl.gov/abs/hep-th/9710246).
 
 12) John Schwarz, The status of string theory, preprint available as
-[hep-th/9711029](http://xxx.lanl.gov/abs/hep-th/9711029).
+[`hep-th/9711029`](http://xxx.lanl.gov/abs/hep-th/9711029).
 
 13) M. J. Duff, M-theory (the theory formerly known as strings),
 preprint available as
-[hep-th/9608117](http://xxx.lanl.gov/abs/hep-th/9608117).
+[`hep-th/9608117`](http://xxx.lanl.gov/abs/hep-th/9608117).
 
 The first one is especially nice if you're interested in a nontechnical
 survey; the other two are more detailed.
@@ -346,7 +346,7 @@ what I'm calling a "simplicial object", they would call an
 "augmented simplicial object". Oh well.
 
 Concretely, a simplicial object in a category amounts to a bunch of
-objects x~0~, x_1, x_2,... together with morphisms like this:
+objects x_0, x_1, x_2,... together with morphisms like this:
 
                              ---i1->
                   ---i0->    ---i0->

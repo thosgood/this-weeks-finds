@@ -327,7 +327,7 @@ Killing vector fields.
 
 9) Viqar Husain and Sebastian Jaimungal, Phase transition in quantum
 gravity, preprint available as
-[gr-qc/9908056](http://xxx.lanl.gov/abs/gr-qc/9908056).
+[`gr-qc/9908056`](http://xxx.lanl.gov/abs/gr-qc/9908056).
 
 But if anyone can help me clear up these issues, please let me know!
 

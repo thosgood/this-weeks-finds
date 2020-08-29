@@ -228,7 +228,7 @@ cohomology with coefficients in an $\omega$-category!
 
 7) Viqar Husain, "Intersecting-loop solutions of the hamiltonian constraint of quantum general relativity", _Nucl. Phys._ **B313** (1989), 711--724.
 
-    Viqar Husain and Karel V. "Kuchar, General covariance, new variables, and dynamics without dynamics", _Phys. Rev._ D **42** (1990), 4070--4077.
+    Viqar Husain and Karel V. "Kuchar, General covariance, new variables, and dynamics without dynamics", _Phys. Rev. D_ **42** (1990), 4070--4077.
 
     Viqar Husain, "Einstein's equations and the chiral model", to appear in _Phys. Rev._ D, preprint available as [gr-qc/9602050](http://xxx.lanl.gov/abs/gr-qc/9602050).
 

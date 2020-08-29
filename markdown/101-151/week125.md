@@ -393,7 +393,7 @@ great progress on understanding renormalization in a truly elegant way.
 
 4) D. J. Broadhurst and D. Kreimer, Renormalization automated by Hopf
 algebra, preprint available as
-[hep-th/9810087](http://xxx.lanl.gov/abs/hep-th/9810087).
+[`hep-th/9810087`](http://xxx.lanl.gov/abs/hep-th/9810087).
 
 Let me quote the abstract:
 

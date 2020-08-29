@@ -74,17 +74,18 @@ $$a + bi + cj + dk$$
 which we can multiply using the rules
 $$i^2 = j^2 = k^2 = -1$$
 and
-
-ij = k, jk = i, ki = j
-
-ji = -k, kj = -i, ik = -j
-
+$$
+  \begin{gathered}
+    ij = k, jk = i, ki = j,
+  \\ji = -k, kj = -i, ik = -j
+  \end{gathered}
+$$
 They aren't commutative, but they are still associative. Again they may
 seem mysterious at first, but they lose their mystery when you see that
 they are just a nice way of keeping track of rotations in 3 and 4
 dimensions. Rotations in more than 2 dimensions don't commute in
 general, so the quaternions had *better* not commute. In fact, Hamilton
-didn't invent the quaternions to study rotations - his goal was merely
+didn't invent the quaternions to study rotations --- his goal was merely
 to cook up a "division algebra", where you could divide by any nonzero
 element (see ["Week 82"](#week82)). However, after he discovered
 the quaternions, he used them to study rotations and angular momentum.
@@ -94,22 +95,15 @@ a big battle between the fans of quaternions and the fans of vectors,
 and the quaternion crowd lost. For more on the history of this stuff,
 see:
 
-1) Michael J. Crowe, A History of Vector Analysis, University of Notre
-Dame, Notre Dame, 1967.
+1) Michael J. Crowe, _A History of Vector Analysis_, University of Notre Dame, Notre Dame, 1967.
 
 Octonions were invented by Cayley later on in the 1800s. For these, we
-start with *seven* square roots of -1, say e_1 up to e~7~. To learn how
+start with *seven* square roots of $-1$, say $e_1$ up to $e_7$. To learn how
 multiply these, draw the following diagram:
-
-::: {align="CENTER"}
-[]{#Fano}
-
-![](fano.jpg)
-:::
-
+$$\includegraphics{../images/fano.jpg}$$
 Draw a triangle, draw a line from each vertex to the midpoint of the
 opposite edge, and inscribe a circle in the triangle. Label the 7 points
-shown with e_1 through e~7~ - it doesn't matter how, I've just drawn
+shown with $e_1$ through $e_7$ --- it doesn't matter how, I've just drawn
 my favorite way. Draw arrows on the edges of the triangle going around
 clockwise, draw arrows on the circle also going around clockwise, and
 draw arrows on the three lines pointing from each vertex of the triangle
@@ -119,17 +113,19 @@ this work for you... you should do some, too.
 Okay. Now you have your very own octonion multiplication table. Notice
 that there are six lines and a circle in your picture. Each one of these
 gives us a copy of the quaternions inside the octonions. For example,
-say you want to multiply e~6~ and e~7~. You notice that the the vertical
-line says "e~6~, e~7~, e_2" on it as we follow the arrow down. Thus,
-just as for i, j, and k in the quaternions, we have
-
+say you want to multiply $e_6$ and $e_7$. You notice that the the vertical
+line says "$e_6$, $e_7$, $e_2$" on it as we follow the arrow down. Thus,
+just as for $i$, $j$, and $k$ in the quaternions, we have
+$$
+  \begin{gathered}
     e6 e7 =  e2,   e7 e2 =  e6,   e2 e6 =  e7
-    e7 e6 = -e2,   e2 e7 = -e6,   e6 e2 = -e7
-
-So in particular we have e~6~ e~7~ = e_2.
+  \\e7 e6 = -e2,   e2 e7 = -e6,   e6 e2 = -e7
+  \end{gathered}
+$$
+So in particular we have $e_6 e_7 = e_2$.
 
 In case you lose your octonion table, don't worry: you don't really
-need to remember the *names* of those 7 square roots of -1 and their
+need to remember the *names* of those 7 square roots of $-1 $and their
 positions on the chart. You just need to remember the geometry of the
 chart itself. Names are arbitrary and don't really matter, unless
 you're talking to someone else, in which case you have to agree on
@@ -140,9 +136,7 @@ check out the following websites:
 
 2) Tony Smith, `http://galaxy.cau.edu/tsmith/TShome.html`
 
-3) Geoffrey Dixon, `http://www.7stones.com` (Warning: to really get
-into this you need to have at least Netscape 3.0 with Java and Shockwave
-stuff.)
+3) Geoffrey Dixon, `http://www.7stones.com` (Warning: to really get into this you need to have at least Netscape 3.0 with Java and Shockwave stuff.)
 
 What's so great about the octonions? They are not commutative, and
 worse, they are not even *associative*. What's great about them is that
@@ -150,19 +144,12 @@ they form a division algebra, meaning you can divide by any nonzero
 octonion. Better still, they form a "normed" division algebra. Just as
 with the reals, complexes, and quaternions, we can define the norm of
 the octonion
-
-x = a~0~ + a_1 e_1 + a_2 e_2 + a_3 e_3 + a_4 e_4 + a~5~ e~5~ +
-a~6~ e~6~ + a~7~ e~7~
-
+$$x = a_0 + a_1 e_1 + a_2 e_2 + a_3 e_3 + a_4 e_4 + a_5 e_5 + a_6 e_6 + a_7 e_7$$
 to be
-
-|x| = sqrt(a~0~^2 + a_1^2 + a_2^2 + a_3^2 + a_4^2 + a~5~^2 +
-a~6~^2 + a~7~^2).
+$$|x| = \sqrt{a_0^2 + a_1^2 + a_2^2 + a_3^2 + a_4^2 + a_5^2 + a_6^2 + a_7^2}.$$
 
 What makes them a "normed division algebra" is that
-
-|xy| = |x||y|.
-
+$$|xy| = |x||y|.$$
 It's a wonderful fact about the world that the reals, complexes,
 quaternions and octonions are the *only* normed division algebras.
 That's it!
@@ -176,30 +163,25 @@ really know. This question really bugs me.
 A while ago, in ["Week 95"](#week95), I summarized a paper by John
 Schwarz on supersymmetric Yang-Mills theory and why it works best in
 dimensions 3, 4, 6, and 10. Basically, only in these dimensions can you
-cook up spin-1/2 particles that have as many physical degrees of freedom
-as massless spin-1 particles. I sort of explained why. This in turn
+cook up spin-$1/2$ particles that have as many physical degrees of freedom
+as massless spin-$1$ particles. I sort of explained why. This in turn
 allows a symmetry between fermions and gauge bosons. I didn't explain
 how *this* works... it seems pretty tricky to me... but anyway, it
 works.
 
 So far, so good. But Schwarz wondered: is it a coincidence that the
 numbers 3, 4, 6, and 10 are just two more than the numbers 1, 2, 4, and
-8 - the dimensions of the reals, complexes, quaternions, and octonions?
+8 --- the dimensions of the reals, complexes, quaternions, and octonions?
 
 Apparently not! The following papers explain what's going on:
 
-4) Corinne A. Manogue and Joerg Schray, Finite Lorentz transformations
-automorphisms, and division algebras, Jour. Math. Phys. 34 (1993),
-3746-3767.
+4) Corinne A. Manogue and Joerg Schray, "Finite Lorentz transformations automorphisms, and division algebras", _Jour. Math. Phys._ **34** (1993), 3746--3767.
 
-Corinne A. Manogue and Joerg Schray, Octonionic representations of
-Clifford algebras and triality, preprint available as
-[hep-th/9407179](http://xxx.lanl.gov/abs/hep-th/9407179).
+    Corinne A. Manogue and Joerg Schray, "Octonionic representations of Clifford algebras and triality", preprint available as [`hep-th/9407179`](http://xxx.lanl.gov/abs/hep-th/9407179).
 
-5) Anthony Sudbery, Division algebras, (pseudo)orthogonal groups and
-spinors, Jour. Phys. A 17 (1984), 939-955.
+5) Anthony Sudbery, "Division algebras, (pseudo)orthogonal groups and spinors", _Jour. Phys. A_ **17** (1984), 939--955.
 
-Anthony Sudbery, Seven types of incongruity, handwritten notes.
+    Anthony Sudbery, "Seven types of incongruity", handwritten notes.
 
 Here's the basic idea. Let
 
@@ -286,7 +268,7 @@ opposed to the Clifford algebras relevant to n-dimensional *Lorentzian*
 geometry, which appeared in ["Week 93"](#week93). They go like
 this:
 
-C~0~ = R
+C_0 = R
 
 C_1 = C
 
@@ -296,17 +278,17 @@ C_3 = H + H
 
 C_4 = H(2)
 
-C~5~ = C(4)
+C_5 = C(4)
 
-C~6~ = R(8)
+C_6 = R(8)
 
-C~7~ = R(8) + R(8)
+C_7 = R(8) + R(8)
 
 C~8~ = R(16)
 
 where K(n) stands for n x n matrices with entries taken from K = R, C,
 or H, and "+" stands for "direct sum". Note that C~8~ is the same as
-16 x 16 matrices with entries taken from C~0~. That's part of a general
+16 x 16 matrices with entries taken from C_0. That's part of a general
 pattern called "Bott periodicity": in general, C~n+8~ is the same as
 16 x 16 matrices with entries taken from C_n.
 
@@ -317,7 +299,7 @@ consisting of n-tuples of elements of K. We get
 
 The dimension of the smallest real representation:
 
-of C~0~ is 1
+of C_0 is 1
 
 of C_1 is 2
 
@@ -327,11 +309,11 @@ of C_3 is 4
 
 of C_4 is 8
 
-of C~5~ is 8
+of C_5 is 8
 
-of C~6~ is 8
+of C_6 is 8
 
-of C~7~ is 8
+of C_7 is 8
 
 of C~8~ is 16
 

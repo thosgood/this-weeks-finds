@@ -84,7 +84,7 @@ here.
 
 Before I tell you how it works, I should remind you that all the
 fermions are, in addition to being representations of SU(3) x SU(2) x
-U(1), also spin-1/2 particles. The massive fermions - the quarks and the
+U(1), also spin-$1/2$ particles. The massive fermions - the quarks and the
 electron, muon and tauon - are Dirac spinors, meaning that they can spin
 either way along any axis. The massless fermions - the neutrinos - are
 Weyl spinors, meaning that they always spin counterclockwise along their

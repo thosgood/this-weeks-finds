@@ -103,7 +103,7 @@ They seem to be seeing strangeness enhancement at CERN:
 
 2) Juergen Eschke, NA35 Collaboration, Strangeness enhancement in
 sulphur- nucleus collisions at 200 GeV/N, preprint available as
-[hep-ph/9609242](http://xxx.lanl.gov/abs/hep-ph/9609242).
+[`hep-ph/9609242`](http://xxx.lanl.gov/abs/hep-ph/9609242).
 
 As far as I can tell, people are just about as sure that deconfinement
 occurs at high temperatures as they would be that tungsten boils at high
@@ -119,7 +119,7 @@ harder to detect and rule out. For more on strangelets, try this:
 
 3) E. P. Gilson and R. L. Jaffe, Very small strangelets, Phys. Rev.
 Lett. 71 (1993) 332-335, preprint available as
-[hep-ph/9302270](http://xxx.lanl.gov/abs/hep-ph/9302270).
+[`hep-ph/9302270`](http://xxx.lanl.gov/abs/hep-ph/9302270).
 
 Strange quark matter is also of interest in astrophysics. In 1984 Witten
 wrote a paper proposing that in the limit of large quark number, strange

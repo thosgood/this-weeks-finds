@@ -101,7 +101,7 @@ The second paper I recommend is a new one by Rovelli:
 3) Carlo Rovelli, The century of the incomplete revolution: searching
 for general relativistic quantum field theory, to appear in the Journal
 of Mathematical Physics 2000 Special Issue, preprint available as
-[hep-th/9910131](http://xxx.lanl.gov/abs/hep-th/9910131).
+[`hep-th/9910131`](http://xxx.lanl.gov/abs/hep-th/9910131).
 
 Let me just quote the abstract:
 

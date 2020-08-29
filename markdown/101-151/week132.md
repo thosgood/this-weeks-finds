@@ -6,7 +6,7 @@ starters let me quote from a paper of mine about this stuff:
 1) John Baez, Higher-dimensional algebra and Planck-scale physics, to
 appear in Physics Meets Philosophy at the Planck Scale, eds. Craig
 Callender and Nick Huggett, Cambridge U. Press. Preprint available as
-[gr-qc/9902017](http://xxx.lanl.gov/abs/gr-qc/9902017).
+[`gr-qc/9902017`](http://xxx.lanl.gov/abs/gr-qc/9902017).
 
 By the way, this book should be pretty fun to read - it'll contain
 papers by both philosophers and physicists, including a bunch who have
