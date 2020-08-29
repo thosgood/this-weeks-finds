@@ -288,12 +288,12 @@ $$
     \begin{knot}
       \strand[thick] (-0.75,0.5)
         to (-0.75,0)
-        to [out=down,in=up] (0.1,-1.75)
-        to (0.1,-2.5);
+        to [out=down,in=up] (0.125,-1.75)
+        to (0.125,-2.5);
       \strand[thick] (1.75,0.5)
         to (1.75,0)
-        to [out=down,in=up] (0.9,-1.75)
-        to (0.9,-2.5);
+        to [out=down,in=up] (0.875,-1.75)
+        to (0.875,-2.5);
     \end{knot}
     \node[fill=white] at (-0.75,0) {$x$};
     \node[fill=white] at (1.75,0) {$x^*$};
@@ -369,44 +369,144 @@ $$
     \node[fill=white] at (6,1) {$x^*$};
   \end{tikzpicture}
 $$
-
-                                     / /              | |
-                                    / /               | |
-                         U        x/ /x*             x| |x*
-                        /\        / /                 | |
-                       x\ \x*    / /                  | |
-                         \ \    / /                   | |
-                          \ \  / /                    | |
-                           \ \/ /                     | |
-                            |C |               =      | |
-                            |  |                      | |
-                            |  |                      | |
-                            |  |                      | |
-                            |  |                      | |
-                            |  |                      | |
-                           x|  |x*                    | |
-                            |  |                      | |
-
 by canceling the $U$ and the $C$ on the left using one of the axioms for an
 adjunction. Similarly, associativity holds because the following two
 pictures are topologically the same:
-
-               x\ \x* x/ /x*  / /      \ \   x\ \x* x/ /x*
-                 \ \  / /    / /        \ \    \ \  / /
-                  \ \/ /    / /          \ \    \ \/ /
-                   \ C/   x/ /x*         x\ \x*  \ C/
-                    \ \   / /              \ \   / /
-                     \ \ / /                \ \ / /
-                      \ C /                  \ C /
-                       | |                    | |
-                       | |                    | |
-                       | |            =       | |
-                       | |                    | |
-                       | |                    | |
-                       | |                    | |
-                      x| |x*                 x| |x*
-                       | |                    | |
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0.5)
+        to (0,0)
+        to [out=down,in=down,looseness=2] (1,0)
+        to (1,0.5);
+    \end{knot}
+    \node[fill=white] at (0,0) {$x^*$};
+    \node[fill=white] at (1,0) {$x$};
+    \node[label=below:{$C$}] at (0.5,-0.6) {$\bullet$};
+    \begin{knot}
+      \strand[thick] (-0.75,0.5)
+        to (-0.75,0)
+        to [out=down,in=up] (0.125,-1.75)
+        to (0.125,-2.5);
+      \strand[thick] (1.75,0.5)
+        to (1.75,0)
+        to [out=down,in=up] (0.875,-1.75)
+        to (0.875,-2.5);
+    \end{knot}
+    \node[fill=white] at (-0.75,0) {$x$};
+    \node[fill=white] at (1.75,0) {$x^*$};
+    \node[fill=white] at (0,-2) {$x$};
+    \node[fill=white] at (1,-2) {$x^*$};
+    \begin{scope}[shift={(0.875,-3)}]
+      \begin{knot}
+        \strand[thick] (0,0.5)
+          to (0,0)
+          to [out=down,in=down,looseness=2] (1,0)
+          to (1,0.5);
+      \end{knot}
+      \node[fill=white] at (0,0) {$x^*$};
+      \node[fill=white] at (1,0) {$x$};
+      \node[label=below:{$C$}] at (0.5,-0.6) {$\bullet$};
+      \begin{knot}
+        \strand[thick] (-0.75,0.5)
+          to (-0.75,0)
+          to [out=down,in=up] (0.125,-1.75)
+          to (0.125,-2.5);
+        \strand[thick] (1.75,0.5)
+          to (1.75,0)
+          to [out=down,in=up] (0.875,-1.75)
+          to (0.875,-2.5);
+      \end{knot}
+      \node[fill=white] at (-0.75,0) {$x$};
+      \node[fill=white] at (1.75,0) {$x^*$};
+      \node[fill=white] at (0,-2) {$x$};
+      \node[fill=white] at (1,-2) {$x^*$};
+    \end{scope}
+    \begin{scope}[shift={(1.875,-2.5)}]
+      \begin{knot}
+        \strand[thick] (0,0)
+          to (0,0.5)
+          to [out=up,in=down,looseness=0.75] (1,2.5)
+          to (1,3);
+        \strand[thick] (0.75,0)
+          to (0.75,0.5)
+          to [out=up,in=down,looseness=0.75] (1.75,2.5)
+          to (1.75,3);
+      \end{knot}
+      \node[fill=white] at (0,0.5) {$x$};
+      \node[fill=white] at (0.75,0.5) {$x^*$};
+      \node[fill=white] at (1,2.5) {$x$};
+      \node[fill=white] at (1.75,2.5) {$x^*$};
+    \end{scope}
+    \node at (4.5,-2.5) {$=$};
+    \begin{scope}[xscale=-1,shift={(-9,0)}]
+      \begin{knot}
+        \strand[thick] (0,0.5)
+          to (0,0)
+          to [out=down,in=down,looseness=2] (1,0)
+          to (1,0.5);
+      \end{knot}
+      \node[fill=white] at (0,0) {$x$};
+      \node[fill=white] at (1,0) {$x^*$};
+      \node[label=below:{$C$}] at (0.5,-0.6) {$\bullet$};
+      \begin{knot}
+        \strand[thick] (-0.75,0.5)
+          to (-0.75,0)
+          to [out=down,in=up] (0.125,-1.75)
+          to (0.125,-2.5);
+        \strand[thick] (1.75,0.5)
+          to (1.75,0)
+          to [out=down,in=up] (0.875,-1.75)
+          to (0.875,-2.5);
+      \end{knot}
+      \node[fill=white] at (-0.75,0) {$x^*$};
+      \node[fill=white] at (1.75,0) {$x$};
+      \node[fill=white] at (0,-2) {$x^*$};
+      \node[fill=white] at (1,-2) {$x$};
+      \begin{scope}[shift={(0.875,-3)}]
+        \begin{knot}
+          \strand[thick] (0,0.5)
+            to (0,0)
+            to [out=down,in=down,looseness=2] (1,0)
+            to (1,0.5);
+        \end{knot}
+        \node[fill=white] at (0,0) {$x$};
+        \node[fill=white] at (1,0) {$x^*$};
+        \node[label=below:{$C$}] at (0.5,-0.6) {$\bullet$};
+        \begin{knot}
+          \strand[thick] (-0.75,0.5)
+            to (-0.75,0)
+            to [out=down,in=up] (0.125,-1.75)
+            to (0.125,-2.5);
+          \strand[thick] (1.75,0.5)
+            to (1.75,0)
+            to [out=down,in=up] (0.875,-1.75)
+            to (0.875,-2.5);
+        \end{knot}
+        \node[fill=white] at (-0.75,0) {$x^*$};
+        \node[fill=white] at (1.75,0) {$x$};
+        \node[fill=white] at (0,-2) {$x^*$};
+        \node[fill=white] at (1,-2) {$x$};
+      \end{scope}
+      \begin{scope}[shift={(1.875,-2.5)}]
+        \begin{knot}
+          \strand[thick] (0,0)
+            to (0,0.5)
+            to [out=up,in=down,looseness=0.75] (1,2.5)
+            to (1,3);
+          \strand[thick] (0.75,0)
+            to (0.75,0.5)
+            to [out=up,in=down,looseness=0.75] (1.75,2.5)
+            to (1.75,3);
+        \end{knot}
+        \node[fill=white] at (0,0.5) {$x^*$};
+        \node[fill=white] at (0.75,0.5) {$x$};
+        \node[fill=white] at (1,2.5) {$x^*$};
+        \node[fill=white] at (1.75,2.5) {$x$};
+      \end{scope}
+    \end{scope}
+  \end{tikzpicture}
+$$
 Whew! Drawing these is tough work.
 
 Now, as I said, an example of an adjunction is a vector space $x$ and its
