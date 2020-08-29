@@ -25,7 +25,7 @@ American Physical Society has a nice timeline of 20th century physics on
 their website:
 
 3) The American Physical Society: A Century of Physics, available at
-<http://timeline.aps.org/APS/home_HighRes.html>
+`http://timeline.aps.org/APS/home_HighRes.html`
 
 But I don't see anything about books.
 
@@ -114,10 +114,10 @@ a proof a "bijective proof". To read more about this, try:
 
 5) James Propp and David Feldman, Producing new bijections from old,
 Adv. Math. 113 (1995), 1-44. Also available at
-<http://www.math.wisc.edu/~propp/articles.html>
+`http://www.math.wisc.edu/~propp/articles.html`
 
 6) John Conway and Peter Doyle, Division by three. Available at
-<http://math.dartmouth.edu/~doyle/docs/three/>
+`http://math.dartmouth.edu/~doyle/docs/three/`
 
 The latter article studies this question: if I give you an isomorphism
 between 3x and 3y, can you construct a isomorphism between x and y? Here
@@ -413,7 +413,7 @@ To wrap up, let me mention an interesting paper on the foundations of
 categorification:
 
 12) Claudio Hermida, From coherent structures to universal properties,
-available at <http://www.cs.math.ist.utl.pt/cs/s84/claudio.html>
+available at `http://www.cs.math.ist.utl.pt/cs/s84/claudio.html`
 
 and also two papers about 2-groupoids and topology:
 
@@ -658,7 +658,7 @@ here:
 16) John Baez, Euler characteristic versus homotopy cardinality,
 lecture at the Fields Institute Program on Applied Homotopy Theory,
 September 20, 2003. Available in PDF form at
-<http://www.math.ucr.edu/home/baez/cardinality/>
+`http://www.math.ucr.edu/home/baez/cardinality/`
 
 ------------------------------------------------------------------------
 

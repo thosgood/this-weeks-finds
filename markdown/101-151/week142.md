@@ -6,7 +6,7 @@ because it's so simple. It's even simpler than the parasites described
 on my webpage:
 
 1) John Baez, Subcellular life forms,
-<http://math.ucr.edu/home/baez/subcellular.html>
+`http://math.ucr.edu/home/baez/subcellular.html`
 
 I wrote this webpage when I was trying to understand some of the
 simplest self-reproducing entities: viruses, viroids, virusoids,
@@ -134,20 +134,20 @@ The computer program I played against is called "GNU Go". You can
 download it free from the internet, thanks to the Free Software
 Foundation:
 
-2) GNU Go, <http://www.gnu.org/software/gnugo/devel.html>
+2) GNU Go, `http://www.gnu.org/software/gnugo/devel.html`
 
 You can adjust the size of the board and also the handicap - the number
 of stones you get right away when you start. To use this program in a
 UNIX environment you need an interface program called "cgoban", which
 is also free:
 
-3) CGoban, <http://www.inetarena.com/~wms/comp/cgoban/>
+3) CGoban, `http://www.inetarena.com/~wms/comp/cgoban/`
 
 On Windows you can use an interface available from the GNU Go webpage.
 
 For more information on Go start here:
 
-4) American Go Association, <http://www.usgo.org/resources/>
+4) American Go Association, `http://www.usgo.org/resources/`
 
 You can find lots of go books listed at this website. Personally I found
 these books to be a nice introduction to the game, but they may be hard
@@ -188,7 +188,7 @@ If you want to get computational, try this:
 
 10) Markus Enzenberger, The integration of a priori knowledge into a Go
 playing neural network,
-<http://www.cgl.ucsf.edu/go/Programs/neurogo-html/NeuroGo.html>
+`http://www.cgl.ucsf.edu/go/Programs/neurogo-html/NeuroGo.html`
 
 If instead you prefer to curl up with a good novel based on a game of
 Go, try this:

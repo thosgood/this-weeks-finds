@@ -109,7 +109,7 @@ Luckily for you penny-pinchers out there, this particular story is
 available free at the following website:
 
 3) Greg Egan, Closer,
-<http://www.eidolon.net/old_site/issue_09/09_closr.htm>
+`http://www.eidolon.net/old_site/issue_09/09_closr.htm`
 
 Whoops! I'm drifting pretty far from mathematical physics, aren't I?
 Self-reference has a lot to do with mathematical logic, but.... To
@@ -117,7 +117,7 @@ gently drift back, let me point out that Egan has a website in which he
 explains special and general relativity in a nice, nontechnical way:
 
 4) Greg Egan, Foundations,
-<http://www.netspace.net.au/~gregegan/FOUNDATIONS/index.html>
+`http://www.netspace.net.au/~gregegan/FOUNDATIONS/index.html`
 
 Also, here are some interesting papers:
 
@@ -329,7 +329,7 @@ For the following two $n$-category papers, exploring some themes close to
 my heart, I'll just quote the abstracts:
 
 9) Michael Batanin, Computads for finitary monads on globular sets,
-preprint available at <http://www.ics.mq.edu.au/~mbatanin/papers.html>
+preprint available at `http://www.ics.mq.edu.au/~mbatanin/papers.html`
 
 "This work arose as a reflection on the foundation of higher
 dimensional category theory. One of the main ingredients of any proposed
@@ -364,7 +364,7 @@ observed by S. Schanuel and reproved by A. Carboni and P. Johnstone for
 2-computads in the sense of Street)."
 
 10) Tom Leinster, Structures in higher-dimensional category theory,
-preprint available at <http://www.dpmms.cam.ac.uk/~leinster>
+preprint available at `http://www.dpmms.cam.ac.uk/~leinster`
 
 "This is an exposition of some of the constructions which have arisen
 in higher-dimensional category theory. We start with a review of the
@@ -405,7 +405,7 @@ has interbred with good old- fashioned homotopy theory:
 
 12) Jack Morava, Quantum generalized cohomology, preprint available as
 [math.QA/9807058](http://xxx.lanl.gov/abs/math.QA/9807058) and
-<http://hopf.math.purdue.edu/>
+`http://hopf.math.purdue.edu/`
 
 Again, I'll just quote the abstract rather than venturing my own
 summary:

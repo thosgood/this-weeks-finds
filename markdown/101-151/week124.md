@@ -191,7 +191,7 @@ and the Monster group:
 
 2) W. Wayt Gibbs, Monstrous moonshine is true, Scientific American,
 November 1998, 40-41. Also available at
-<http://www.sciam.com/1998/1198issue/1198profile.html>.
+`http://www.sciam.com/1998/1198issue/1198profile.html`.
 
 Gibbs asked me to come up with a simple explanation of the j invariant
 for elliptic curves; you can judge how well I succeeded. For a more

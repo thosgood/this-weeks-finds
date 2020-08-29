@@ -40,7 +40,7 @@ to the original papers:
 1) Roger Penrose, Angular momentum: an approach to combinatorial
 space-time, in Quantum Theory and Beyond, ed. T. Bastin, Cambridge U.
 Press, Cambridge, 1971, pp. 151-180. Also available at
-<http://math.ucr.edu/home/baez/penrose/>
+`http://math.ucr.edu/home/baez/penrose/`
 
 Roger Penrose, Applications of negative dimensional tensors, in
 Combinatorial Mathematics and its Applications, ed. D. Welsh, Academic
@@ -97,7 +97,7 @@ try:
 2) Carlo Rovelli, Loop quantum gravity, preprint available as
 [gr-qc/9710008](http://xxx.lanl.gov/abs/gr-qc/9710008), also available
 as a webpage on Living Reviews in Relativity at
-<http://www.livingreviews.org/Articles/Volume1/1998-1rovelli/>
+`http://www.livingreviews.org/Articles/Volume1/1998-1rovelli/`
 
 The abstract gives a taste of what it's all about:
 

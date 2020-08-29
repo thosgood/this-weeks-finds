@@ -7,7 +7,7 @@ Grosse, and the theme was "Geometry and Quantum Physics":
 
 1) Geometry and Quantum Physics lectures, 38th Internationale
 Universitaetswochen fuer Kern- und Teilchenphysik,
-<http://physik.kfunigraz.ac.at/utp/iukt/iukt_99/iukt99-lect.html>
+`http://physik.kfunigraz.ac.at/utp/iukt/iukt_99/iukt99-lect.html`
 
 I was invited to give some talks about spin foam models, and the other
 talks looked interesting, so I decided to leave my warm and sunny home

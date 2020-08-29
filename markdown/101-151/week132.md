@@ -312,7 +312,7 @@ distinguishes between the 2-twist spun trefoil (a certain sphere knotted
 in R^4) and the same sphere with the reversed orientation.
 
 5) Tom Leinster, Structures in higher-dimensional category theory,
-preprint available at <http://www.dpmms.cam.ac.uk/~leinster>
+preprint available at `http://www.dpmms.cam.ac.uk/~leinster`
 
 This is a nice tour of ideas in higher-dimensional algebra. Right now
 one big problem with the subject is that there are lots of approaches
@@ -320,7 +320,7 @@ and not a clear enough picture of how they fit together. Leinster's
 paper is an attempt to start seeing how things fit together.
 
 6) Claudio Hermida, Higher-dimensional multicategories, slides of a
-lecture given in 1997, available at <http://www.math.mcgill.ca/~hermida>
+lecture given in 1997, available at `http://www.math.mcgill.ca/~hermida`
 
 This talk presents some of the work by Makkai, Power and Hermida on
 their definition of $n$-categories. For more on their work see
@@ -372,7 +372,7 @@ makes me really happy.
 8) Mark Hovey, Model Categories, American Mathematical Society
 Mathematical Surveys and Monographs, vol 63., Providence, Rhode Island,
 1999. Preprint available as
-<http://www.math.uiuc.edu/K-theory/0278/index.html>
+`http://www.math.uiuc.edu/K-theory/0278/index.html`
 
 Speaking of that kind of thing, the technique of model categories is
 really important for homotopy theory and $n$-categories, and this book is
@@ -403,7 +403,7 @@ theories. I'll just quote the abstract:
 
 10) Sjoerd Crans, A tensor product for Gray-categories, Theory and
 Applications of Categories, Vol. 5, 1999, No. 2, pp 12-69, available at
-<http://www.tac.mta.ca/tac/volumes/1999/n2/abstract.html>
+`http://www.tac.mta.ca/tac/volumes/1999/n2/abstract.html`
 
 A Gray-category is what some people call a semistrict 3-category: not as
 general as a weak 3-category, but general enough. Technically,

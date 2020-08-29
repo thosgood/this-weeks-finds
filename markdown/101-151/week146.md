@@ -46,10 +46,10 @@ ensemble theory?, Ann. Phys. 270 (1998), 1-51, preprint available as
 [gr-qc/9704009](http://xxx.lanl.gov/abs/gr-qc/9704009).
 
 Max Tegmark, Which mathematical structure is isomorphic to the
-universe?, <http://www.hep.upenn.edu/~max/toe.html>
+universe?, `http://www.hep.upenn.edu/~max/toe.html`
 
 3) Marcus Chown, Anything goes, New Scientist 158 (1998) 26-30, also
-available at <http://www.hep.upenn.edu/~max/toe_press.html>
+available at `http://www.hep.upenn.edu/~max/toe_press.html`
 
 As far as I can tell, most of the time Max Tegmark is a perfectly
 respectable physicist at the University of Pennsylvania; he works on the

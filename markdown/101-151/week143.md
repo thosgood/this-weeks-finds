@@ -59,7 +59,7 @@ Poincare:
 2) Henri Poincare, The present and future of mathematical physics,
 Bull. Amer. Math. Soc. 12 (1906), 240-260. Reprinted as part of a
 retrospective issue of the Bull. of the Amer. Math. Soc., 37 (2000),
-25-38, available at <http://www.ams.org/bull/>
+25-38, available at `http://www.ams.org/bull/`
 
 This article is based on a speech he gave in 1904. After a fascinating
 review of the development of mathematical physics, he makes some
@@ -134,7 +134,7 @@ caused by the earth's rotation. I also talked about how LIGO - the
 Laser Interferometric Gravitational Wave Observatory - will try to
 detect gravitational waves:
 
-4) LIGO homepage, <http://www.ligo.caltech.edu/>
+4) LIGO homepage, `http://www.ligo.caltech.edu/`
 
 If all works as planned, LIGO should be great for studying the final
 death spirals of binary black holes and/or neutron stars. When it starts
@@ -163,17 +163,17 @@ underway too! France and Germany are collaborating on a laser
 interferometer called VIRGO, with arms 3 kilometers long, to be built in
 Cascina, Italy:
 
-5) VIRGO homepage, <http://www.pi.infn.it/virgo/>
+5) VIRGO homepage, `http://www.pi.infn.it/virgo/`
 
 Germany and Great Britain are collaborating on a 600-meter-long one
 called GEO 600, to be built south of Hannover:
 
-6) GEO 600 homepage, <http://www.geo600.uni-hannover.de/>
+6) GEO 600 homepage, `http://www.geo600.uni-hannover.de/`
 
 The Japanese are working on one called TAMA 300, which is a 300-
 meter-long warmup for a planned kilometer-long interferometer:
 
-7) TAMA 300 homepage, <http://tamago.mtk.nao.ac.jp/>
+7) TAMA 300 homepage, `http://tamago.mtk.nao.ac.jp/`
 
 In addition, the Brazilian GRAVITON project is building something called
 the Einstein Antenna, which uses mechanical resonance rather than
@@ -183,7 +183,7 @@ original bar detectors, which tried to sense the vibrations of a
 design involves lots of hot new technology: SQUIDS, buckyballs, and the
 like:
 
-8) GRAVITON homepage, <http://www.das.inpe.br/graviton/project.html>
+8) GRAVITON homepage, `http://www.das.inpe.br/graviton/project.html`
 
 There are also other gravitational wave detectors being built... but
 ultimately, the really best ones will probably be built in outer space.
@@ -195,9 +195,9 @@ sources of vibration. This is why people are working on the LISA project
 --- the Laser Interferometric Space Antenna:
 
 9) European Space Agency's homepage on the LISA project,
-<http://www.estec.esa.nl/spdwww/future/html/lisa.htm>
+`http://www.estec.esa.nl/spdwww/future/html/lisa.htm`
 
-NASA's homepage on the LISA project: <http://lisa.jpl.nasa.gov/>
+NASA's homepage on the LISA project: `http://lisa.jpl.nasa.gov/`
 
 The idea is to orbit 3 satellites in an equilateral triangle with sides
 5 million kilometers long, and constantly measure the distance between
@@ -239,7 +239,7 @@ precision: while COBE had an angular resolution of 7 degrees, Planck
 will have a resolution of 4 arcminutes. They hope to launch it in 2007:
 
 10) Planck homepage,
-<http://astro.estec.esa.nl/SA-general/Projects/Planck/planck.html>
+`http://astro.estec.esa.nl/SA-general/Projects/Planck/planck.html`
 
 What else is coming up? Well, gravity people should be happy about the
 new satellite-based X-ray telescopes, since these should be great for
@@ -250,12 +250,12 @@ stars, black holes, and closed-form solutions of general relativity.)
 The first pictures from Chandra are already coming out - check out this
 website:
 
-11) Chandra homepage, <http://chandra.harvard.edu/>
+11) Chandra homepage, `http://chandra.harvard.edu/`
 
 On December 10th, the Europeans launched XMM, the "X-ray Multi-Mirror
 Mission":
 
-12) XMM homepage, <http://sci.esa.int/xmm/>
+12) XMM homepage, `http://sci.esa.int/xmm/`
 
 This is a set of three X-ray telescopes that will have lower angular
 resolution than Chandra, but 5-15 times more sensitivity. It'll also be
@@ -264,7 +264,7 @@ spreads the X-rays out by wavelength. And in January, the Japanese plan
 to launch Astro-E, designed to look at shorter wavelength X-rays:
 
 13) MIT's Astro-E homepage,
-<http://acis.mit.edu/syseng/astroe/xis_home.html>
+`http://acis.mit.edu/syseng/astroe/xis_home.html`
 
 Taken together, this new generation of X-ray telescopes should tell us a
 lot about the dynamics of the rapidly changing accretion disks of black
@@ -301,7 +301,7 @@ gravitational lensing to chart the "dark matter" which seems to
 account for a good percentage of the mass in the universe - if, of
 course, dark matter really exists.
 
-15) Dark Matter Telescope homepage, <http://dmtelescope.org>
+15) Dark Matter Telescope homepage, `http://dmtelescope.org`
 
 Anyway, there should be a lot of exciting experiments coming up. But as
 usual, the really exciting stuff will be the stuff we can't predict.

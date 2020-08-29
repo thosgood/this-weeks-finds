@@ -26,7 +26,7 @@ Proceedings of the Workshop on Higher Category Theory and Mathematical
 Physics at Northwestern University, Evanston, Illinois, March 1997, eds.
 Ezra Getzler and Mikhail Kapranov. Preprint available as
 [math.QA/9802029](http://xxx.lanl.gov/abs/math.QA/9802029) or at
-<http://math.ucr.edu/home/baez/cat.ps>.
+`http://math.ucr.edu/home/baez/cat.ps`.
 
 So, what's categorification? This tongue-twisting term, invented by
 Louis Crane, refers to the process of finding category-theoretic analogs
@@ -457,7 +457,7 @@ check out "the tale of $n$-categories", starting in
 
 6) Representation theory of Hopf categories, Martin Neuchl, Ph.D.
 dissertation, Department of Mathematics, University of Munich, 1997.
-Available at <http://math.ucr.edu/home/baez/neuchl.ps>
+Available at `http://math.ucr.edu/home/baez/neuchl.ps`
 
 Just as the category of representations of a Hopf algebra gives a nice
 monoidal category, the 2-category of representations of a Hopf category

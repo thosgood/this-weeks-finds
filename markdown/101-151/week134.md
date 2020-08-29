@@ -11,7 +11,7 @@ gravity in a hunting lodge by a lake in Minnowbrook, New York:
 
 1) Minnowbrook Symposium on Space-Time Structure, program and
 transparencies of talks available at
-<http://www.phy.syr.edu/research/he_theory/minnowbrook/#PROGRAM>
+`http://www.phy.syr.edu/research/he_theory/minnowbrook/#PROGRAM`
 
 The idea of this get-together, organized by Kameshwar Wali and some
 other physicists at Syracuse University, was to bring together people

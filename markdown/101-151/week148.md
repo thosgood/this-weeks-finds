@@ -9,7 +9,7 @@ Massachusetts and run by Arthur Jaffe, has just laid out a nice list of
 7 problems:
 
 1) Clay Mathematics Institute, Millennium Prize Problems,
-<http://www.claymath.org/prizeproblems/index.htm>
+`http://www.claymath.org/prizeproblems/index.htm`
 
 There is a 1 million dollar prize for each one! Unlike most of
 Hilbert's problems, these weren't cooked up specially for the
@@ -164,7 +164,7 @@ this next time.
 2) Abhay Ashtekar, John Baez and Kirill Krasnov, Quantum geometry of
 isolated horizons and black hole entropy, preprint available at
 [gr-qc/0005126](http://xxx.lanl.gov/abs/gr-qc/0005126) or at
-<http://math.ucr.edu/home/baez/black2.ps>
+`http://math.ucr.edu/home/baez/black2.ps`
 
 I explained an earlier version of this paper in
 ["Week 112"](#week112), but now I want to give a more technical
@@ -512,7 +512,7 @@ Mathematical Intelligencer, 20 (1998), 7-15. Also available in
 [Postscript](http://www.cityu.edu.hk/ma/staff/smale/pap104.ps) and
 [PDF](http://www.cityu.edu.hk/ma/staff/smale/pap104.pdf) as item 104 on
 Smale's webpage,
-<http://www.cityu.edu.hk/ma/staff/smale/bibliography.html>
+`http://www.cityu.edu.hk/ma/staff/smale/bibliography.html`
 
 I believe this also appears in the book edited by Arnold mentioned at
 the beginning of ["Week 147"](#week147).

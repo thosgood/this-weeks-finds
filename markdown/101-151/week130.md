@@ -302,12 +302,12 @@ links to lots of great neutrino websites, including websites for most of
 the experiments I mentioned, try:
 
 6) The neutrino oscillation industry,
-<http://www.hep.anl.gov/NDK/hypertext/nu_industry.html>
+`http://www.hep.anl.gov/NDK/hypertext/nu_industry.html`
 
 For some recent general overviews, try these:
 
 7) Paul Langacker, Implications of neutrino mass,
-<http://dept.physics.upenn.edu/neutrino/jhu/jhu.html>
+`http://dept.physics.upenn.edu/neutrino/jhu/jhu.html`
 
 8) Boris Kayser, Neutrino mass: where do we stand, and where are we
 going?, preprint available as
@@ -398,7 +398,7 @@ By the way, here's a cool picture of the sun, taken using neutrinos
 rather than light:
 
 20) LSU Super-Kamiokande group homepage,
-<http://beavis.phys.lsu.edu/~superk/>
+`http://beavis.phys.lsu.edu/~superk/`
 
 Thanks go to Jim Carr for pointing this out.
 

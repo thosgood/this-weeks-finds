@@ -231,7 +231,7 @@ webpage, which also gives a proof of Desargues' theorem for the real
 projective plane:
 
 2) Roger Mohr and Bill Trigs, Desargues' Theorem,
-<http://spigot.anu.edu.au/people/samer/Research/Doc/ECV_Tut_Proj_Geom/node25.html>
+`http://spigot.anu.edu.au/people/samer/Research/Doc/ECV_Tut_Proj_Geom/node25.html`
 
 Desargues' theorem is a bit complicated, but one cool thing is that its
 converse is its dual. This is easy to see if you stare at it: "three
@@ -277,7 +277,7 @@ picture is that you can move the red and green points around with your
 mouse and see how things change:
 
 3) Pappus' theorem (a JavaSketchPad demo by MathsNet),
-<http://www.anglia.co.uk/education/mathsnet/dynamic/pappus.html>
+`http://www.anglia.co.uk/education/mathsnet/dynamic/pappus.html`
 
 Now, what about the non-Desarguesian projective planes? If we try to get
 a division ring from an *arbitrary* projective plane, we fail miserably.
@@ -357,7 +357,7 @@ For a nice online introduction to projective geometry over the real
 numbers and its applications to image analysis, try this:
 
 10) Roger Mohr and Bill Triggs, Projective geometry for image analysis,
-<http://spigot.anu.edu.au/people/samer/Research/Doc/ECV_Tut_Proj_Geom/node1.html>
+`http://spigot.anu.edu.au/people/samer/Research/Doc/ECV_Tut_Proj_Geom/node1.html`
 
 Finally, for interesting relations between projective geometry and
 exceptional Lie groups, try this:

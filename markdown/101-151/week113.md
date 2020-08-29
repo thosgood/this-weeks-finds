@@ -98,7 +98,7 @@ gravity, 9 pages, preprint available as
 
 3) John Baez, Spin foam models, 39 pages, preprint available as
 [gr-qc/9709052](http://xxx.lanl.gov/abs/gr-qc/9709052) or in Postscript
-form as <http://math.ucr.edu/home/baez/foam.ps>
+form as `http://math.ucr.edu/home/baez/foam.ps`
 
 Perhaps I can be forgiven some personal history here. Michael
 Reisenberger has been pushing the idea of spin foams (though not the

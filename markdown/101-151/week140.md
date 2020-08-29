@@ -30,7 +30,7 @@ While von Neumann is one of those titans that dominated the first half
 of the 20th century, Smale is more typical of the latter half - he
 protested the Vietnam war, and now he even has his own web page!
 
-3) Stephen Smale's web page, <http://www.math.berkeley.edu/~smale/>
+3) Stephen Smale's web page, `http://www.math.berkeley.edu/~smale/`
 
 He won the Fields medal in 1966 for his work on differential topology.
 Some of his work is what you might call "pure": figuring out how to
@@ -255,7 +255,7 @@ the correct quantum theory.
 
 12) John Baez, Spin foam perturbation theory, preprint available as
 [gr-qc/9910050](http://xxx.lanl.gov/abs/gr-qc/9910050) or at
-<http://math.ucr.edu/home/baez/foam3.ps>
+`http://math.ucr.edu/home/baez/foam3.ps`
 
 We study perturbation theory for spin foam models on triangulated
 manifolds. Starting with any model of this sort, we consider an

@@ -11,7 +11,7 @@ philosophers and physicists talking about the conceptual problems of
 quantum gravity:
 
 1) Toward a New Understanding of Space, Time and Matter, workshop home
-page at <http://axion.physics.ubc.ca/Workshop/>
+page at `http://axion.physics.ubc.ca/Workshop/`
 
 After a day of lectures by Chris Isham, John Earman, Lee Smolin and
 myself, we spent the rest of the workshop sitting around in a big room
@@ -168,7 +168,7 @@ Ashtekar, Gary Horowitz and Jim Isenberg:
 
 6) Classical and Quantum Physics of Strong Gravitational Fields,
 program homepage with transparencies and audio files of talks at
-<http://www.itp.ucsb.edu/~patrick/gravity99/>
+`http://www.itp.ucsb.edu/~patrick/gravity99/`
 
 Like the whole program, the conference covered a wide range of topics
 related to gravity: string theory and loop quantum gravity,
@@ -206,10 +206,10 @@ these days - it's one of the NSF's "grand challenge" problems. The
 reason is that folks are spending a lot of money building gravitational
 wave detectors like LIGO:
 
-7) LIGO project home page, <http://www.ligo.caltech.edu/>
+7) LIGO project home page, `http://www.ligo.caltech.edu/`
 
 8) Other gravitational wave detection projects,
-<http://www.ligo.caltech.edu/LIGO_web/other_gw/gw_projects.html>
+`http://www.ligo.caltech.edu/LIGO_web/other_gw/gw_projects.html`
 
 and they need to know exactly what to look for. Now, head-on collisions
 are the easiest to understand, since one can simplify the calculation

@@ -89,7 +89,7 @@ gravity! Loll reports on the results of a lot of these:
 dimensions, preprint available as
 [gr-qc/9805049](http://xxx.lanl.gov/abs/gr-qc/9805049), also available
 as a webpage on Living Reviews in Relativity at
-<http://www.livingreviews.org/Articles/Volume1/1998-13loll/>
+`http://www.livingreviews.org/Articles/Volume1/1998-13loll/`
 
 By the way, "Living Reviews in Relativity" is a cool website run by
 the AEI, the Albert Einstein Institute for gravitational physics,
@@ -97,7 +97,7 @@ located in Potsdam, Germany. The idea is that experts will write review
 articles on various subjects and *keep them up to date* as new
 developments occur. You can find this as follows:
 
-6) Living Reviews in Relativity, <http://www.livingreviews.org>
+6) Living Reviews in Relativity, `http://www.livingreviews.org`
 
 Here are some other good places to learn about the dynamical
 triangulations approach to quantum gravity:

@@ -370,8 +370,8 @@ after reading the above stuff:
 >
 > 6) Ole Vilhelm Larsen, Computing order-independent statistical
 > characteristics of stochastic context-free languages, available as
-> <http://cwis.auc.dk/phd/fulltext/larsen/html/index.html> or acrobat
-> format in: <http://cwis.auc.dk/phd/fulltext/larsen/pdf/larsen.pdf>
+> `http://cwis.auc.dk/phd/fulltext/larsen/html/index.html` or acrobat
+> format in: `http://cwis.auc.dk/phd/fulltext/larsen/pdf/larsen.pdf`
 >
 > The html and acrobat thesis is in English, but the web pages are in
 > Danish, which is why I explicitly give both URLs. The abstract is too

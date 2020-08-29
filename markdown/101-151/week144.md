@@ -111,7 +111,7 @@ For more, try this:
 
 4) Chandra resolves cosmic X-ray glow and finds mysterious new sources,
 press release available online at
-<http://chandra.harvard.edu/press/00_releases/press_011400bg.html>
+`http://chandra.harvard.edu/press/00_releases/press_011400bg.html`
 
 You should also check out the Chandra website for nice new pictures of
 the black holes at the center of the Milky Way and Andromeda.
@@ -318,18 +318,18 @@ counted by the Catalan numbers. If you want to see nicer pictures of all
 these things, go here:
 
 7) Robert M. Dickau, Catalan numbers,
-<http://forum.swarthmore.edu/advanced/robertd/catalan.html>
+`http://forum.swarthmore.edu/advanced/robertd/catalan.html`
 
 For more problems whose answer involves the Catalan numbers, try this:
 
 8) Kevin Brown, The meanings of Catalan numbers,
-<http://www.seanet.com/~ksbrown/kmath322.htm>
+`http://www.seanet.com/~ksbrown/kmath322.htm`
 
 To figure out a formula for the Catalan numbers, we can use the
 technique of generating functions:
 
 9) Herbert Wilf, Generatingfunctionology, Academic Press, Boston, 1994.
-Also available for free at <http://www.cis.upenn.edu/~wilf/>
+Also available for free at `http://www.cis.upenn.edu/~wilf/`
 
 Briefly, the idea is to make up a power series T(x) where the
 coefficient of x^n is the number of n-leaved binary trees. Since by

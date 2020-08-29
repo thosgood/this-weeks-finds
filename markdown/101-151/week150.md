@@ -23,7 +23,7 @@ moon.
 
 Here's a nice picture of the Lagrange points:
 
-1) Lagrange points, <http://map.gsfc.nasa.gov/m_mm/ob_techorbit1.html>
+1) Lagrange points, `http://map.gsfc.nasa.gov/m_mm/ob_techorbit1.html`
 
 In general, the points L4 and L5 will be stable equilibria as long as
 the heavy body (e.g. the earth in the above example) is more than 25
@@ -37,7 +37,7 @@ Here's a proof that the Lagrange points work as advertised, including a
 derivation of the above number:
 
 2) Neil J. Cornish, The Lagrange points, available at
-<http://www.astro.princeton.edu/~njc/lagrange.ps.gz>
+`http://www.astro.princeton.edu/~njc/lagrange.ps.gz`
 
 Now, Lagrange did his calculation as a mathematical exercise and didn't
 believe it was relevant to the actual solar system. But he was wrong
@@ -54,7 +54,7 @@ city of Troy! You can see the Trojans quite clearly in this picture of
 the asteroid belt:
 
 3) Asteroid belt,
-<http://www-groups.dcs.st-and.ac.uk/~history//Diagrams/Asteroids.gif>
+`http://www-groups.dcs.st-and.ac.uk/~history//Diagrams/Asteroids.gif`
 
 The asteroid 5261 Eureka is a "Martian Trojan", occupying the L5 point
 of Mars' orbit around the sun. A second Martian Trojan was discovered
@@ -62,7 +62,7 @@ at L5 in 1998, but it doesn't have a name yet. For more information,
 try:
 
 4) Minor Planet Center, Trojan minor planets,
-<http://cfa-www.harvard.edu/cfa/ps/lists/Trojans.html>
+`http://cfa-www.harvard.edu/cfa/ps/lists/Trojans.html`
 
 There may also be a few small asteroids at the Lagrange points of Venus
 and Earth's orbits around the sun. Does anyone know more about this? My
@@ -75,7 +75,7 @@ phenomenon, see:
 
 5) Paul Wiegert, Kimmo Innanen and Seppo Mikkola, Near-earth asteroid
 3753 Cruithne - Earth's curious companion,
-<http://www.astro.queensu.ca/~wiegert/>
+`http://www.astro.queensu.ca/~wiegert/`
 
 For over 150 years, astronomers have been searching for other satellites
 of the Earth besides the big one I see out my window right now. There
@@ -85,7 +85,7 @@ satellites they thought they discovered, like "Kleinchen" and
 other hypothetical planets, see:
 
 6) Paul Schlyter, Hypothetical planets,
-<http://seds.lpl.arizona.edu/nineplanets/nineplanets/hypo.html>
+`http://seds.lpl.arizona.edu/nineplanets/nineplanets/hypo.html`
 
 Unfortunately, none of these second moons were real. But in the 1960s,
 people discovered dust clouds at the stable Lagrange points of the
@@ -99,7 +99,7 @@ right at the Lagrange point L4, there is a tiny moon called Helene.
 Here's a picture of Helene:
 
 7) Astronomy picture of the day: Dione's Lagrange moon Helene,
-<http://antwrp.gsfc.nasa.gov/apod/ap951010.html>
+`http://antwrp.gsfc.nasa.gov/apod/ap951010.html`
 
 Isn't she cute? There's also a small moon called Telesto at the L4
 point of Saturn's moon Tethys, and one called Calypso at the L5 point
@@ -107,7 +107,7 @@ of Tethys:
 
 8) Bill Arnett, Introduction to the nine planets: Tethys, Telesto and
 Calypso,
-<http://seds.lpl.arizona.edu/nineplanets/nineplanets/tethys.html>
+`http://seds.lpl.arizona.edu/nineplanets/nineplanets/tethys.html`
 
 Does anyone know other natural occupants of Lagrange points?
 
@@ -128,7 +128,7 @@ SOHO a nice clear view of sunspots, solar flares, and the solar wind.
 It's not stable, but it can exert a bit of thrust now and then to stay
 put. For more information and some pretty pictures, try:
 
-9) SOHO website, <http://sohowww.nascom.nasa.gov/>
+9) SOHO website, `http://sohowww.nascom.nasa.gov/`
 
 In April 2001, NASA plans to put a satellite called "MAP" at the
 Lagrange point L2. MAP is the Microwave Anisotropy Probe, which will
@@ -136,14 +136,14 @@ study anisotropies in the cosmic microwave background. These are
 starting to be a really interesting window into the early history of the
 universe. For more, see:
 
-10) MAP website, <http://map.gsfc.nasa.gov/>
+10) MAP website, `http://map.gsfc.nasa.gov/`
 
 Finally, for quantum analogues of the Lagrange points, see:
 
 11) T. Uzer, Ernestine A. Lee, David Farrelly, and Andrea F. Brunello,
 Synthesis of a classical atom: wavepacket analogues of the Trojan
 asteroids, Contemp. Phys. 41 (2000), 1-14. Abstract available at
-<http://www.catchword.co.uk/titles/tandf/00107514/v41n1/contp1-1.htm>
+`http://www.catchword.co.uk/titles/tandf/00107514/v41n1/contp1-1.htm`
 
 Okay, enough about Lagrange points! Now I want to talk a bit more about
 complex oriented cohomology theories. Last time I left off at the
@@ -402,7 +402,7 @@ paper on the subject:
 
 18) Daniel Quillen, On the formal group laws of unoriented and complex
 cobordism theory, Bull. Amer. Math. Soc. 75 (1969), 1293-1298. Also
-available as <http://projecteuclid.org/euclid.bams/1183530915>
+available as `http://projecteuclid.org/euclid.bams/1183530915`
 
 ------------------------------------------------------------------------
 

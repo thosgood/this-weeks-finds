@@ -159,7 +159,7 @@ on Category Theory and Computer Science, eds. E. Moggi and G. Rosolini,
 Springer Lecture Notes in Computer Science vol. 1290, Springer, Berlin.
 Preprint available as
 [q-alg/9705009](http://xxx.lanl.gov/abs/q-alg/9705009) or at
-<http://math.ucr.edu/home/baez/ncat.ps>
+`http://math.ucr.edu/home/baez/ncat.ps`
 
 There are different definitions of "weak $n$-category" out there now and
 it will take a while of sorting through them to show a bunch are
@@ -170,7 +170,7 @@ just list them with abstracts.
 
 6) Claudio Hermida, Michael Makkai and John Power, On weak higher
 dimensional categories, 104 pages, preprint available at
-<http://hypatia.dcs.qmw.ac.uk/authors/M/MakkaiM/papers/multitopicsets/>
+`http://hypatia.dcs.qmw.ac.uk/authors/M/MakkaiM/papers/multitopicsets/`
 
 > Inspired by the concept of opetopic set introduced in a recent paper
 > by John C. Baez and James Dolan, we give a modified notion called
@@ -193,7 +193,7 @@ dimensional categories, 104 pages, preprint available at
 
 7) Michael Batanin, Finitary monads on globular sets and notions of
 computad they generate, available as postscript files at
-<http://www-math.mpce.mq.edu.au/~mbatanin/papers.html>
+`http://www-math.mpce.mq.edu.au/~mbatanin/papers.html`
 
 > Consider a finitary monad on the category of globular sets. We prove
 > that the category of its algebras is isomorphic to the category of

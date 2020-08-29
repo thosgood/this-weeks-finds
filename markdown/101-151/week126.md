@@ -368,10 +368,10 @@ Meanwhile, if you want to see pictures of the Dedekind eta function,
 together with some cool formulas it satisfies, try these:
 
 4) Mathworld, Dedekind eta function,
-<http://mathworld.wolfram.com/DedekindEtaFunction.html>
+`http://mathworld.wolfram.com/DedekindEtaFunction.html`
 
 5) Wikipedia, Dedekind eta function,
-<http://en.wikipedia.org/wiki/Dedekind_eta_function>
+`http://en.wikipedia.org/wiki/Dedekind_eta_function`
 
 ------------------------------------------------------------------------
 

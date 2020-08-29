@@ -138,9 +138,9 @@ them.
 If you want to see spiffy high-tech octonion multiplication tables,
 check out the following websites:
 
-2) Tony Smith, <http://galaxy.cau.edu/tsmith/TShome.html>
+2) Tony Smith, `http://galaxy.cau.edu/tsmith/TShome.html`
 
-3) Geoffrey Dixon, <http://www.7stones.com> (Warning: to really get
+3) Geoffrey Dixon, `http://www.7stones.com` (Warning: to really get
 into this you need to have at least Netscape 3.0 with Java and Shockwave
 stuff.)
 

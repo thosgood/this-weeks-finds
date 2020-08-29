@@ -125,7 +125,7 @@ latest edition:
 
 3) Jorge Pullin, editor, Matters of Gravity, vol. 12, available at
 [gr-qc/9809031](http://xxx.lanl.gov/abs/gr-qc/9809031) and at
-<http://vishnu.nirvana.phys.psu.edu/mog.html>
+`http://vishnu.nirvana.phys.psu.edu/mog.html`
 
 There's a lot of good stuff in here. Quantum gravity buffs will
 especially be interested in Gary Horowitz's article "A nonperturbative
@@ -140,7 +140,7 @@ find it on the world-wide web. Here's one by John Barrett:
 4) John W. Barrett, State sum models for quantum gravity, Penn State
 relativity seminar, August 27, 1998, audio and text of transparencies
 available at
-<http://vishnu.nirvana.phys.psu.edu/online/Html/Seminars/Fall1998/Barrett/>
+`http://vishnu.nirvana.phys.psu.edu/online/Html/Seminars/Fall1998/Barrett/`
 
 Barrett and Crane have a theory of quantum gravity, which I've also
 worked on; I discussed it last in ["Week 113"](#week113) and
@@ -352,7 +352,7 @@ Here are some other talks available on the web:
 
 9) Abhay Ashtekar, Chris Beetle and Steve Fairhurst, Mazatlan lectures
 on black holes, slides available at
-<http://vishnu.nirvana.phys.psu.edu/online/Html/Conferences/Mazatlan/>
+`http://vishnu.nirvana.phys.psu.edu/online/Html/Conferences/Mazatlan/`
 
 These explain a new concept of "nonrotating isolated horizon" which
 allow one to formulate and prove the zeroth and first laws of black hole

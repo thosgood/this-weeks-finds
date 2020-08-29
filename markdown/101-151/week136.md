@@ -6,7 +6,7 @@ theory school and conference in Coimbra, which was organized by Manuela
 Sobral:
 
 1) Category Theory 99 website, with abstracts of talks,
-<http://www.mat.uc.pt/~ct99/>
+`http://www.mat.uc.pt/~ct99/`
 
 The conference was a big deal this year, because it celebrated the 90th
 birthday of Saunders Mac Lane, who with Samuel Eilenberg invented

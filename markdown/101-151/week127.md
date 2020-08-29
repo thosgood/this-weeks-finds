@@ -17,7 +17,7 @@ project to calculate the quadrillionth binary digit of \pi. Anyone with a
 Pentium or faster computer using Windows 95, 98, or NT can join. For
 more information, see:
 
-2) PiHex project, <http://www.cecm.sfu.ca/projects/pihex/pihex.html>
+2) PiHex project, `http://www.cecm.sfu.ca/projects/pihex/pihex.html`
 
 Anyway, the above book is *full* of fun stuff, like a one-page proof of
 the irrationality of \pi which uses only elementary calculus, due to
@@ -471,7 +471,7 @@ Okay, if you've actually read this far, you deserve a treat. First, try
 this cartoon, which you'll see is quite relevant:
 
 9) Cartoon by J. F. Cartier,
-<http://www.physik.uni-frankfurt.de/~jr/gif/cartoon/cart0785.gif>
+`http://www.physik.uni-frankfurt.de/~jr/gif/cartoon/cart0785.gif`
 
 Second, let's calculate the determinant of an operator A whose
 eigenvalues are the numbers 1, 2, 3, .... You can think of this
