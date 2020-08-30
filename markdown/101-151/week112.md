@@ -395,9 +395,9 @@ boundary conditions we use, which say the black hole surface is
 "marginally outer trapped", also say that its extrinsic curvature is
 zero. Thus the curvature tensor reduces, at the black hole surface, to
 the intrinsic curvature. Curvature on a 3-dimensional space is
-so(3)-valued, but the intrinsic curvature on the surface S is
-so(2)-valued. Since so(3) = su(2), general relativity has a lot to do
-with \mathrm{SU}(2) gauge theory. But since so(2) = u(1), the field theory on the
+\mathfrak{so}(3)-valued, but the intrinsic curvature on the surface S is
+\mathfrak{so}(2)-valued. Since \mathfrak{so}(3) = su(2), general relativity has a lot to do
+with \mathrm{SU}(2) gauge theory. But since \mathfrak{so}(2) = u(1), the field theory on the
 black hole surface can be thought of as a \mathrm{U}(1) gauge theory.
 
 (Experts will know that \mathrm{U}(1) is a subgroup of \mathrm{SU}(2) and this is why we

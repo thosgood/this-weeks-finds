@@ -146,9 +146,9 @@ I explained in ["Week 72"](#week72):
     right-moving fermionic modes have the same chirality.
 4.  E8 heterotic superstrings - closed strings where the left-moving
     modes are purely bosonic, with symmetry group E8 x E8.
-5.  Spin(32)/Z_2 heterotic superstrings - closed strings where the
+5.  \mathrm{Spin}(32)/Z_2 heterotic superstrings - closed strings where the
     left-moving modes are purely bosonic, with symmetry group
-    Spin(32)/Z_2
+    \mathrm{Spin}(32)/Z_2
 
 To get 4-dimensional physics out of any of these, we need to think of
 our 10-dimensional spacetime as a bundle with a little 6-dimensional
@@ -457,10 +457,10 @@ i: 1~C~ =\> RL
 
 satisfying the same equations I didn't write before.
 
-Let hom(C,C) be the category whose objects are functors from C to itself
+Let \operatorname{Hom}(C,C) be the category whose objects are functors from C to itself
 and whose morphisms are natural transformations between such functors.
 This is a monoidal category, since we can compose functors from C to
-itself. In ["Week 92"](#week92) I showed that hom(C,C) has a monoid
+itself. In ["Week 92"](#week92) I showed that \operatorname{Hom}(C,C) has a monoid
 object in it, namely RL. The product for this monoid object is
 
 R.e.L: RLRL =\> RL
@@ -471,7 +471,7 @@ i: 1~C~ =\> RL
 
 Folks often call this sort of thing a "monad".
 
-Similarly, hom(D,D) is a monoidal category containing a comonoid object,
+Similarly, \operatorname{Hom}(D,D) is a monoidal category containing a comonoid object,
 namely LR. The coproduct for this comonoid object is
 
 L.i.R: LR =\> LRLR
@@ -482,16 +482,16 @@ e: LR =\> 1~D~
 
 People call this thing a "comonad". But what matters here is that
 we've seen this comonoid object automatically gives us a simplicial
-object in hom(D,D)! If we pick any object d of D, we get a functor
+object in \operatorname{Hom}(D,D)! If we pick any object d of D, we get a functor
 
-hom(D,D)\to D
+\operatorname{Hom}(D,D)\to D
 
 by taking
 
-hom(D,D) x D\to D
+\operatorname{Hom}(D,D) x D\to D
 
 and plugging in d in the second argument. This functor lets us push our
-simplicial object in hom(D,D) forwards to a simplicial object in D.
+simplicial object in \operatorname{Hom}(D,D) forwards to a simplicial object in D.
 Voila!
 
 ------------------------------------------------------------------------

@@ -120,7 +120,7 @@ Sing(X): Δ\to Set
 
 by
 
-Sing(X)(-) = hom(i(-),X)
+Sing(X)(-) = \operatorname{Hom}(i(-),X)
 
 where the blank slot indicates how Sing(X) is waiting to eat a simplex
 and spit out the set of all ways of mapping it - thought of as a space!
@@ -132,7 +132,7 @@ Having said what Sing does to *spaces*, what does it do to *maps*? The
 same formula works: for any map f: X\to Y between topological spaces, we
 define
 
-Sing(f)(-) = hom(i(-),f).
+Sing(f)(-) = \operatorname{Hom}(i(-),f).
 
 It may take some headscratching to understand this, but if you work it
 out, you'll see it works out fine. If you feel like you are drowning
@@ -145,7 +145,7 @@ pedagogical and nurturing. If I were really trying to show off, I would
 have compressed the last couple of paragraphs into the following one
 line:
 
-Sing(--)(-) = hom(i(-),--).
+Sing(--)(-) = \operatorname{Hom}(i(-),--).
 
 where Sing becomes a functor using the fact that for any category C
 there's a functor

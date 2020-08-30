@@ -256,10 +256,10 @@ Now we can copy the trick we played in section F of
 ["Week 116"](#week116). For any category C we define the simplicial
 set Nerve(C) by
 
-Nerve(C)(-) = hom(i(-),C)
+Nerve(C)(-) = \operatorname{Hom}(i(-),C)
 
 Think about it! If you put the simplex n in the blank slot, we get
-hom(i(n),C), which is the set of all functors from that simplex,
+\operatorname{Hom}(i(n),C), which is the set of all functors from that simplex,
 *regarded as a category*, to the category C. This is just the set of all
 diagrams in C shaped like the simplex n, as desired!
 

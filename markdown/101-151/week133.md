@@ -193,8 +193,8 @@ Start with the gauge bosons. In any gauge theory, the gauge bosons
 transform in the adjoint representation, so the elements of the gauge
 group that act trivially are precisely those in the *center* of the
 group. \mathrm{U}(1) is abelian so its center is all of \mathrm{U}(1). Elements of \mathrm{SU}(n)
-that lie in the center must be diagonal. The n x n diagonal unitary
-matrices with determinant 1 are all of the form exp(2 \pi i / n), and
+that lie in the center must be diagonal. The $n\times n$ diagonal unitary
+matrices with determinant $1$ are all of the form exp(2 \pi i / n), and
 these form a subgroup isomorphic to Z/n. It follows that the center of
 \mathrm{U}(1) x \mathrm{SU}(2) x \mathrm{SU}(3) is \mathrm{U}(1) x Z/2 x Z/3.
 

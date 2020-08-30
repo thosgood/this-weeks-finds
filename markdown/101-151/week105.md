@@ -49,7 +49,7 @@ which we call C. When n = 2 we get the quaternions, which we call H, for
 Hamilton. When n = 3 we get... the octonions?? No, not the octonions,
 since we always demand that multiplication be associative! We get the
 algebra consisting of *pairs* of quaternions! We call that H + H. When n
-= 4 we get the algebra consisting of 2x2 *matrices* of quaternions! We
+= 4 we get the algebra consisting of $2\times2$ *matrices* of quaternions! We
 call that H(2). And it goes on, like this:
 
 C_0 = R
@@ -68,7 +68,7 @@ C~6~ = R(8)
 
 C~7~ = R(8) + R(8)
 
-C~8~ = R(16)
+C_8 = R(16)
 
 Note that by the time we get to n = 8 we just have 16x16 matrices of
 real numbers. And that's how it keeps going: C~n+8~ is just 16x16
@@ -121,7 +121,7 @@ can't really rotate in 0-dimensional space. In 1-dimensional space you
 can't really rotate, you can only *reflect* things... but we will
 count reflections together with rotations, and say that the operations
 of multiplying by 1 or -1 count as "rotations" in 1-dimensional space.
-In 2-dimensional space we describe rotations by 2x2 matrices like
+In 2-dimensional space we describe rotations by $2\times2$ matrices like
 
     cos t     -sin t
     sin t      cos t
@@ -442,7 +442,7 @@ gives the generator of KS^8^, or in other words, \pi~7~(\mathrm{O}(\infty)).
 
 By Bott periodicity,
 
-\pi~7~(\mathrm{O}(\infty)) = \pi~8~(kO) = \pi_0(kO)
+\pi~7~(\mathrm{O}(\infty)) = \pi_8(kO) = \pi_0(kO)
 
 so the canonical line bundle over OP^1^ also defines an element of
 \pi_0(kO). But

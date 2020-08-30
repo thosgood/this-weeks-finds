@@ -197,7 +197,7 @@ Two papers have recently appeared which investigate it further:
 \`\`left-handed area = right-handed area'', preprint available as
 [`gr-qc/9804061`](http://xxx.lanl.gov/abs/gr-qc/9804061).
 
-8) Roberto De Pietri and Laurent Freidel, so(4) Plebanski Action and
+8) Roberto De Pietri and Laurent Freidel, \mathfrak{so}(4) Plebanski Action and
 relativistic spin foam model, preprint available as
 [`gr-qc/9804071`](http://xxx.lanl.gov/abs/gr-qc/9804071).
 

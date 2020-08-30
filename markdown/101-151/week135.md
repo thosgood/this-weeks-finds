@@ -326,7 +326,7 @@ on the conferences....
 Robert Israel's answer to my puzzle about the Kochen-Specker theorem:
 
     It's not true in dimension 2.  Note that for a self-adjoint 
-    2x2 matrix A, any f(A) is of the form a A + b I for some 
+    $2\times2$ matrix A, any f(A) is of the form a A + b I for some 
     real scalars a and b (this is easy to see if you diagonalize 
     A).  The self-adjoint matrices that are not multiples of I 
     split into equivalence classes, where A and B are equivalent 

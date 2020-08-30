@@ -176,13 +176,13 @@ dimensions. Let me quote from the introduction:
 > procedure provides a bona fide definition of the path integral.
 >
 > State sum models for quantum gravity have been proposed based on the
-> Lie algebra so(3) and its q-deformation. Part of the labelling scheme
+> Lie algebra \mathfrak{so}(3) and its q-deformation. Part of the labelling scheme
 > is then to assign irreducible representations of this Lie algebra to
 > simplexes of the appropriate dimension. Using the q-deformation, the
 > set of irreducible representations becomes finite. However, we will
 > consider the undeformed case here as the geometry is more elementary.
 >
-> Irreducible representations of so(3) are indexed by a non-negative
+> Irreducible representations of \mathfrak{so}(3) are indexed by a non-negative
 > half-integers j called spins. The spins have different interpretations
 > in different models. In the Ponzano-Regge model of 3-dimensional
 > quantum gravity, spins label the edges of a triangulated 3-manifold,

@@ -48,7 +48,7 @@ where
 is a 2×2 invertible matrix of integers whose inverse again consists of
 integers. Usually it's good to require that our transformation preserve
 the handedness of the basis (ω_1, ω_2), which means that this matrix
-should have determinant 1. Such matrices form a group called \mathrm{SL}(2,Z). In
+should have determinant $1$. Such matrices form a group called \mathrm{SL}(2,Z). In
 the context of elliptic curves it's also called the "modular group".
 
 Now associated to the square lattice is a special element of \mathrm{SL}(2,Z)
@@ -83,7 +83,7 @@ then in *this* basis the matrix ST represents a 60 degree rotation.
 
 So far this is pretty straightforward, but now come some surprises.
 First, it turns out that \mathrm{SL}(2,Z) is *generated* by S and ST. In other
-words, every 2×2 integer matrix with determinant 1 can be written as a
+words, every 2×2 integer matrix with determinant $1$ can be written as a
 product of a bunch of copies of S, ST, and their inverses. Second, all
 the relations satisfied by S and ST follow from these obvious ones:
 

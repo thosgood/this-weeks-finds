@@ -129,7 +129,7 @@ like the quantum group SU~q~(2) where q is a 3rd root of unity. A
 quantum group is actually a kind of noncommutative algebra, but using
 Connes' ideas you can think of it as a kind of "space". If you mod
 out this particular algebra by its nilradical, you get the algebra
-M_1(C) + M_2(C) + M_3(C), where M_n(C) is the algebra of n x n
+M_1(C) + M_2(C) + M_3(C), where M_n(C) is the algebra of $n\times n$
 complex matrices. This has a tantalizing relation to the gauge group of
 the Standard Model, namely \mathrm{U}(1) x \mathrm{SU}(2) x \mathrm{SU}(3).
 

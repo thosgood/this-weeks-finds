@@ -257,7 +257,7 @@ digression on modular forms. In ["Week 125"](#week125) I described
 the moduli space of elliptic curves, which is the space of all different
 shapes an elliptic curve can have. I showed that this space was
 H/\mathrm{SL}(2,Z), where H is the upper half of the complex plane and \mathrm{SL}(2,Z) is
-the group of 2x2 integer matrices with determinant 1. A modular form is
+the group of $2\times2$ integer matrices with determinant $1$. A modular form is
 basically just a holomorphic section of some line bundle over the moduli
 space of elliptic curves. But if this sounds too high-tech, don't be
 scared! We can also think of it as an analytic function on the upper
