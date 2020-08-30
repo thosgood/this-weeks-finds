@@ -152,7 +152,7 @@ vertices must be labelled by "intertwining operators", or
 "intertwiners" for short. This is a concept coming from group
 representation theory; as described in ["Week 109"](#week109), what
 we've been calling "spins" are really irreducible representations of
-SU(2). If we orient the edges of a spin network, we should label each
+\mathrm{SU}(2). If we orient the edges of a spin network, we should label each
 vertex with an intertwiner from the tensor product of representations on
 the "incoming" edges to the tensor product of representations
 labelling the "outgoing" edges. When 3 edges labelled by spins j_1,
@@ -205,7 +205,7 @@ vertex is labelled with an intertwiner of the form
 f: j_1 ⊗ j_2\to j_3 ⊗ j_4
 
 where j_1,...,j_4 are the spins on these edges. If you know about the
-representation theory of SU(2), you know that j_1 ⊗ j_2 is a direct
+representation theory of \mathrm{SU}(2), you know that j_1 ⊗ j_2 is a direct
 sum of representations of spin j~5~, where j~5~ goes from |j_1 ---
 j_2| up to j_1 + j_2 in integer steps. So we get a basis of
 intertwining operators:

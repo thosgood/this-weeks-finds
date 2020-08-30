@@ -380,7 +380,7 @@ factor of 1/√Im(τ), mutters something vague, and hurriedly moves on.
 
 Clearly the reason people want this factor is because of how the eta
 function transforms under modular transformations. In
-["Week 125"](#week125) I said that the group PSL(2,Z) is generated
+["Week 125"](#week125) I said that the group \mathrm{PSL}(2,Z) is generated
 by two elements S and T, and if you look at the formulas there you'll
 see they act in the following way on τ:
 
@@ -399,7 +399,7 @@ is harder. Anyway, using these facts it's easy to see that
 
 1 / (√Im(τ) |η(τ)|^2)
 
-is invariant under PSL(2,Z), so it's really a function on moduli space
+is invariant under \mathrm{PSL}(2,Z), so it's really a function on moduli space
 --- but only if that factor of 1/sqrt(Im(τ)) is in there!
 
 Finally, I'd like to say something about why the conformal anomalies

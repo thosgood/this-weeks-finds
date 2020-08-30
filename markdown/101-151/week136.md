@@ -283,7 +283,7 @@ U: Q\to RGlob
 
 by
 
-U(M,p,C,\[.,.\]) = M
+\mathrm{U}(M,p,C,\[.,.\]) = M
 
 where we think of M as just a reflexive globular set. Penon proves that
 U has a left adjoint

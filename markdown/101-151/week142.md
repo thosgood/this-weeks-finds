@@ -256,18 +256,18 @@ Okay, so what does "modular" mean? Well, for this we need a little
 digression on modular forms. In ["Week 125"](#week125) I described
 the moduli space of elliptic curves, which is the space of all different
 shapes an elliptic curve can have. I showed that this space was
-H/SL(2,Z), where H is the upper half of the complex plane and SL(2,Z) is
+H/\mathrm{SL}(2,Z), where H is the upper half of the complex plane and \mathrm{SL}(2,Z) is
 the group of 2x2 integer matrices with determinant 1. A modular form is
 basically just a holomorphic section of some line bundle over the moduli
 space of elliptic curves. But if this sounds too high-tech, don't be
 scared! We can also think of it as an analytic function on the upper
-half-plane that transforms in a nice way under the action of SL(2,Z).
+half-plane that transforms in a nice way under the action of \mathrm{SL}(2,Z).
 Remember, any matrix
 
                               a b
                               c d
 
-in SL(2,Z) acts on the upper half-plane as follows:
+in \mathrm{SL}(2,Z) acts on the upper half-plane as follows:
 
 τ |→ (a τ + b)/(c τ + d)
 
@@ -289,12 +289,12 @@ is a variable that equals 0 when τ = \infty. The nicest modular forms are the
 "cusp forms", which have a_0 = 0, and thus vanish at τ = \infty.
 
 Next, we can straightforwardly generalize everything I just said if we
-replace SL(2,Z) by various subgroups thereof. (This amounts to studying
+replace \mathrm{SL}(2,Z) by various subgroups thereof. (This amounts to studying
 holomorphic sections of line bundles over some moduli space of elliptic
 curves *equipped with extra structure*.) For example, we can use the
-subgroup Γ_0(N) consisting of those matrices in SL(2,Z) whose
+subgroup Γ_0(N) consisting of those matrices in \mathrm{SL}(2,Z) whose
 lower-left entries are divisible by N. If we use this group instead of
-SL(2,Z), we get what are called modular forms of "level N". We define
+\mathrm{SL}(2,Z), we get what are called modular forms of "level N". We define
 "weight" of such a modular form just as before, and ditto for "cusp
 forms".
 

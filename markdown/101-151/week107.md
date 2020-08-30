@@ -91,7 +91,7 @@ having this as its Lagrangian turned out to revolutionize knot theory.
 Personally, I'm mainly interested in the applications to quantum
 gravity - see ["Week 56"](#week56) for a bit about this. Here are
 some papers Kotiuga has written on the helicity functional, or what we
-mathematicians would call "U(1) Chern-Simons theory":
+mathematicians would call "\mathrm{U}(1) Chern-Simons theory":
 
 3) P. R. Kotiuga, Metric dependent aspects of inverse problems and
 functionals based helicity, Journal of Applied Physics, 70 (1993),

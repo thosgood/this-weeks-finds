@@ -389,27 +389,27 @@ uses, are all part of the same big ladder of theories! Something
 interesting is going on here.
 
 But there's a twist in our calculation which really took me by
-surprise. We do not use SU(2) Chern-Simons theory on the black hole
-surface, we use U(1) Chern-Simons theory! The reason is simple. The
+surprise. We do not use \mathrm{SU}(2) Chern-Simons theory on the black hole
+surface, we use \mathrm{U}(1) Chern-Simons theory! The reason is simple. The
 boundary conditions we use, which say the black hole surface is
 "marginally outer trapped", also say that its extrinsic curvature is
 zero. Thus the curvature tensor reduces, at the black hole surface, to
 the intrinsic curvature. Curvature on a 3-dimensional space is
 so(3)-valued, but the intrinsic curvature on the surface S is
 so(2)-valued. Since so(3) = su(2), general relativity has a lot to do
-with SU(2) gauge theory. But since so(2) = u(1), the field theory on the
-black hole surface can be thought of as a U(1) gauge theory.
+with \mathrm{SU}(2) gauge theory. But since so(2) = u(1), the field theory on the
+black hole surface can be thought of as a \mathrm{U}(1) gauge theory.
 
-(Experts will know that U(1) is a subgroup of SU(2) and this is why we
+(Experts will know that \mathrm{U}(1) is a subgroup of \mathrm{SU}(2) and this is why we
 look at all values of j~z~ going from -j to j: we are decomposing
-representations of SU(2) into representations of this U(1) subgroup.)
+representations of \mathrm{SU}(2) into representations of this \mathrm{U}(1) subgroup.)
 
-Now U(1) Chern-Simons theory is a lot less exciting than SU(2)
+Now \mathrm{U}(1) Chern-Simons theory is a lot less exciting than \mathrm{SU}(2)
 Chern-Simons theory so mathematically this is a bit of a disappointment.
-But U(1) Chern-Simons theory is not utterly boring. When we are studying
-U(1) Chern-Simons theory on a punctured surface, we are studying flat
-U(1) connections modulo gauge transformations. The space of these is
-called a "Jacobian variety". When we quantize U(1) Chern-Simons theory
+But \mathrm{U}(1) Chern-Simons theory is not utterly boring. When we are studying
+\mathrm{U}(1) Chern-Simons theory on a punctured surface, we are studying flat
+\mathrm{U}(1) connections modulo gauge transformations. The space of these is
+called a "Jacobian variety". When we quantize \mathrm{U}(1) Chern-Simons theory
 using geometric quantization, we are looking for holomorphic sections of
 a certain line bundle on this Jacobian variety. These are called "theta
 functions". Theta functions have been intensively studied by string

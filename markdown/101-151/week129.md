@@ -131,7 +131,7 @@ Connes' ideas you can think of it as a kind of "space". If you mod
 out this particular algebra by its nilradical, you get the algebra
 M_1(C) + M_2(C) + M_3(C), where M_n(C) is the algebra of n x n
 complex matrices. This has a tantalizing relation to the gauge group of
-the Standard Model, namely U(1) x SU(2) x SU(3).
+the Standard Model, namely \mathrm{U}(1) x \mathrm{SU}(2) x \mathrm{SU}(3).
 
 John Madore also spoke about noncommutative geometry, but more on the
 general theory and less on the applications to physics. He concentrated
@@ -141,7 +141,7 @@ kind of "space".
 
 Julius Wess also spoke on noncommutative geometry, focussing on a
 q-deformed version of quantum mechanics. The process of
-"q-deformation" is something you can do not only to groups like SU(2)
+"q-deformation" is something you can do not only to groups like \mathrm{SU}(2)
 but also other spaces. You get noncommutative algebras, and these often
 have nice differential calculi that let you go ahead and do
 noncommutative geometry. Wess had a nice humorous way of defusing tense

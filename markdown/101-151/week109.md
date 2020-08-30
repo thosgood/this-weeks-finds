@@ -167,28 +167,28 @@ Here I'll be concentrating on stuff that only works when we start with
 Now I will turn up the math level a notch....
 
 In the quantum mechanics of angular momentum, what matters is not the
-representations of the rotation group SO(3), but of its double cover
-SU(2). This group has one irreducible unitary representation of each
+representations of the rotation group \mathrm{SO}(3), but of its double cover
+\mathrm{SU}(2). This group has one irreducible unitary representation of each
 dimension d = 1, 2, 3, etc.. Physicists prefer to call these the
 "spin-j" representations, where j = 0, 1/2, 1, etc.. The relation is
 of course that 2j + 1 = d.
 
 The spin-0 representation is the trivial representation. Physicists call
 vectors in this representation "scalars", since they are just complex
-numbers. Particles transforming in the spin-0 representation of SU(2)
+numbers. Particles transforming in the spin-0 representation of \mathrm{SU}(2)
 are also called scalars. Examples include pions and other mesons. The
 only *fundamental* scalar particle in the Standard Model is the Higgs
 boson - hypothesized but still not seen.
 
 The spin-$1/2$ representation is the fundamental representation, in which
-SU(2) acts on C^2 in the obvious way. Physicists call vectors in this
+\mathrm{SU}(2) acts on C^2 in the obvious way. Physicists call vectors in this
 representation "spinors". Examples of spin-$1/2$ particles include
 electrons, protons, neutrons, and neutrinos. The fundamental spin-$1/2$
 particles in the Standard Model are the leptons (electron, muon, tau and
 their corresponding neutrinos) and quarks.
 
-The spin-$1$ representation comes from turning elements of SU(2) into 3x3
-matrices using the double cover SU(2)\to SO(3). This is therefore also
+The spin-$1$ representation comes from turning elements of \mathrm{SU}(2) into 3x3
+matrices using the double cover \mathrm{SU}(2)\to \mathrm{SO}(3). This is therefore also
 called the "vector" representation. The spin-$1$ particles in the
 Standard Model are the gauge fields: the photon, the W and Z, and the
 gluons.
@@ -197,7 +197,7 @@ Though you can certainly make composite particles of higher spin, like
 hadrons and atomic nuclei, there are no fundamental particles of spin
 greater than 1 in the Standard Model. But the Standard Model doesn't
 cover gravity. In gravity, the spin-2 representation is very important.
-This comes from letting SO(3), and thus SU(2), act on symmetric
+This comes from letting \mathrm{SO}(3), and thus \mathrm{SU}(2), act on symmetric
 traceless 3x3 matrices in the obvious way (by conjugation). In
 perturbative quantum gravity, gravitons are expected to be spin-2
 particles. Why is this? Well, a cheap answer is that the metric on space
@@ -205,10 +205,10 @@ is given by a symmetric 3x3 matrix. But this is not very satisfying...
 I'll give a better answer later.
 
 Now, the systematic way to get all these representations is to build
-them out of the spin-$1/2$ representation. SU(2) acts on C^2 in an
+them out of the spin-$1/2$ representation. \mathrm{SU}(2) acts on C^2 in an
 obvious way, and thus acts on the space of polynomials on C^2. The
 space of homogeneous polynomials of degree 2j is thus a representation
-of SU(2) in its own right, called the spin-j representation. Since
+of \mathrm{SU}(2) in its own right, called the spin-j representation. Since
 multiplication of polynomials is commutative, in math lingo we say the
 spin-j representation is the "symmetrized tensor product" of 2j copies
 of the spin-$1/2$ representation. This is the mathematical sense in which
@@ -220,23 +220,23 @@ about this, since in physics we usually treat spin-$1/2$ particles as
 fermions and form *antisymmetrized* tensor products of them!)
 
 Now let's go from space to spacetime, and consider the Lorentz group,
-SO(3,1). Again it's not really this group but its double cover that
-matters in physics; its double cover is SL(2,C). Note that SL(2,C) has
-SU(2) as a subgroup just as SO(3,1) has SO(3) as a subgroup; everything
+\mathrm{SO}(3,1). Again it's not really this group but its double cover that
+matters in physics; its double cover is \mathrm{SL}(2,C). Note that \mathrm{SL}(2,C) has
+\mathrm{SU}(2) as a subgroup just as \mathrm{SO}(3,1) has \mathrm{SO}(3) as a subgroup; everything
 fits together here, in a very pretty way.
 
-Now, while SU(2) has only one 2-dimensional irreducible representation,
-SL(2,C) has two, called the left-handed and right-handed spinor
+Now, while \mathrm{SU}(2) has only one 2-dimensional irreducible representation,
+\mathrm{SL}(2,C) has two, called the left-handed and right-handed spinor
 representations. The "left-handed" one is the fundamental
-representation, in which SL(2,C) acts on C^2 in the obvious way. The
+representation, in which \mathrm{SL}(2,C) acts on C^2 in the obvious way. The
 "right-handed" one is the conjugate of this, in which we take the
 complex conjugate of the entries of our matrix before letting it act on
 C^2 in the obvious way. These two representations become equivalent
-when we restrict to SU(2)... but for SL(2,C) they're not! For example,
-when we study particles as representations of SL(2,C), it turns out that
+when we restrict to \mathrm{SU}(2)... but for \mathrm{SL}(2,C) they're not! For example,
+when we study particles as representations of \mathrm{SL}(2,C), it turns out that
 neutrinos are left-handed, while antineutrinos are right-handed.
 
-All the irreducible representations of SL(2,C) on complex vector spaces
+All the irreducible representations of \mathrm{SL}(2,C) on complex vector spaces
 can be built up from the left-handed and right-handed spinor
 representations. Here's how: take the symmetrized tensor product of 2j
 copies of the left-handed spin representation and tensor it with the
@@ -259,9 +259,9 @@ example, guys in the (j,k) representation have j unprimed subscripts and
 k primed ones, and don't change when we permute the unprimed subscripts
 among themselves, or the primed ones among themselves.
 
-Now SO(3,1) has an obvious representation on R^4, called the "vector"
+Now \mathrm{SO}(3,1) has an obvious representation on R^4, called the "vector"
 representation for obvious reasons. If we think of this as a
-representation of SL(2,C), it's the (1,1) representation. So when
+representation of \mathrm{SL}(2,C), it's the (1,1) representation. So when
 Penrose writes a vector in 4 dimensions, he can do it either the old
 way:
 
@@ -307,7 +307,7 @@ where ε is the matrix
                -1  0
 
 and Φ is the "Weyl spinor". The Weyl spinor is symmetric in all its 4
-indices so it lives in the (2,0) representation of SL(2,C). Note that
+indices so it lives in the (2,0) representation of \mathrm{SL}(2,C). Note that
 this is a 5-dimensional complex representation, so the Weyl spinor has
 10 real degrees of freedom, just like the Weyl tensor - but these
 degrees of freedom have been encoded in a very efficient way! Even
@@ -337,7 +337,7 @@ write the ADM mass as an integral of an obviously nonnegative quantity.
 
 Next time I'll talk about spin networks and how they show up in recent
 work on quantum gravity. We'll see that the idea of building up
-everything from the spin-$1/2$ representation of SU(2) assumes grandiose
+everything from the spin-$1/2$ representation of \mathrm{SU}(2) assumes grandiose
 proportions: in this setup, *space itself* is built from spinors!
 
 ------------------------------------------------------------------------

@@ -168,7 +168,7 @@ Well, for starters, K(Z,0) is just Z, by definition.
 K(Z,1) is just the circle, S^1^. You can check that the space of based
 loops in S^1^ is homotopy equivalent to Z - the key is that such loops
 are classified up to homotopy by an integer called the *winding number*.
-In quantum physics, K(Z,1) usually goes by the name U(1) - the group of
+In quantum physics, K(Z,1) usually goes by the name \mathrm{U}(1) - the group of
 unit complex numbers, or "phases".
 
 K(Z,2) is a bit more complicated: it's infinite-dimensional complex
@@ -192,7 +192,7 @@ Conference on Higher Category Theory and Physics in 1997, and it's been
 bugging me ever since. From the work of Brylinski which I summarized in
 ["Week 25"](#week25), it's clear that a good answer should shed
 light on stuff like quantum theory and string theory. Basically, the
-point is that the integers, the group U(1), and infinite-dimensional
+point is that the integers, the group \mathrm{U}(1), and infinite-dimensional
 complex projective space are all really important in quantum theory.
 This is perhaps more obvious for the latter two spaces - the integers
 are so basic that it's hard to see what's so "quantum-mechanical"

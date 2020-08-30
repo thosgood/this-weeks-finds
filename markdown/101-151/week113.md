@@ -36,7 +36,7 @@ Lecture Note Series 197, Cambridge U. Press, Cambridge, 1993.
 However, a spin network is not *merely* a graph: it's a graph with
 edges labelled by irreducible representations of some symmetry group and
 vertices labelled by intertwiners. If you don't know what this means,
-don't panic! If we take our symmetry group to be SU(2), things simplify
+don't panic! If we take our symmetry group to be \mathrm{SU}(2), things simplify
 tremendously. If we take our graph to have 4 edges meeting at every
 vertex, things simplify even more. In this case, all we need to do is
 label each vertex and each edge with a number j = 0, 1/2, 1, 3/2,...
@@ -200,24 +200,24 @@ explaining how their formula fit in with what I'd written already, and
 put it on the the preprint server the following weekend.
 
 What did they do to get their formula? Well, the key trick was not to
-use SU(2) as the symmetry group, but instead use SU(2) x SU(2). This is
-the double cover of SO(4), the rotation group in 4 dimensions. Following
+use \mathrm{SU}(2) as the symmetry group, but instead use \mathrm{SU}(2) x \mathrm{SU}(2). This is
+the double cover of \mathrm{SO}(4), the rotation group in 4 dimensions. Following
 the idea behind Ashtekar's new variables for general relativity, I was
 only using the "left-handed half" of this group, that is, one of the
-SU(2) factors. But the geometry of the 4-simplex, and its relation to
+\mathrm{SU}(2) factors. But the geometry of the 4-simplex, and its relation to
 quantum theory, is in some ways more easily understood using the full
-SU(2) x SU(2) symmetry group.
+\mathrm{SU}(2) x \mathrm{SU}(2) symmetry group.
 
-Not surprisingly, an irreducible representation of SU(2) x SU(2) is
+Not surprisingly, an irreducible representation of \mathrm{SU}(2) x \mathrm{SU}(2) is
 described by a pair of spins (j,k). The reason is that we can take the
-spin-j representation of the "left-handed" SU(2) and the spin-k
-representation of the "right-handed" SU(2) and tensor them to get an
-irreducible representation of SU(2) x SU(2). If we use SU(2) x SU(2) as
+spin-j representation of the "left-handed" \mathrm{SU}(2) and the spin-k
+representation of the "right-handed" \mathrm{SU}(2) and tensor them to get an
+irreducible representation of \mathrm{SU}(2) x \mathrm{SU}(2). If we use \mathrm{SU}(2) x \mathrm{SU}(2) as
 our group, our spin foams dual to triangulations will thus have every
 face and every edge labelled by a *pair* of spins. However, Barrett and
 Crane's work suggests that the only spin foams with nonzero amplitudes
 are those for which both spins labelling a face or edge are equal! Thus
-in a way we are back down to SU(2) - but we think of it all a bit
+in a way we are back down to \mathrm{SU}(2) - but we think of it all a bit
 differently.
 
 I'm tempted to go into detail and explain exactly how the model works,
@@ -236,7 +236,7 @@ Though I'd been working on my paper before Barrett and Crane started,
 and they finished before me, Michael Reisenberger started one even
 earlier and finished even later! Indeed, he has been working on a spin
 foam model of quantum gravity for several years now - see
-["Week 86"](#week86). He took a purely left-handed SU(2) approach,
+["Week 86"](#week86). He took a purely left-handed \mathrm{SU}(2) approach,
 a bit different what I'd been trying, but closely related. He told lots
 of people about it, but unfortunately he's very slow to publish.
 
@@ -261,7 +261,7 @@ networks, and an interpretation of these worldsheets as spacetime
 geometries is given, based on the geometry defined by spin networks in
 canonical loop quantized GR. The spacetime geometry has a Planck scale
 discreteness which arises "naturally" from the discrete spectrum of
-spins of SU(2) representations (and not from the use of a spacetime
+spins of \mathrm{SU}(2) representations (and not from the use of a spacetime
 lattice). The lattice model of the dynamics is a formal quantization of
 the classical lattice model of \[Reisenberger's paper "A left-handed
 simplicial action for euclidean general relativity"\], which
@@ -285,10 +285,10 @@ issue, but it's still very touchy.
 
 Also, all the work cited above deals with so-called "Euclidean"
 quantum gravity - that's why it uses the double cover of the rotation
-group SO(4). For "Lorentzian" quantum gravity we'd need instead to
-use the double cover of the Lorentz group SO(3,1). This group is
-isomorphic to SL(2,C). As explained in ["Week 109"](#week109), the
-finite-dimensional irreducible representations of SL(2,C) are also
+group \mathrm{SO}(4). For "Lorentzian" quantum gravity we'd need instead to
+use the double cover of the Lorentz group \mathrm{SO}(3,1). This group is
+isomorphic to \mathrm{SL}(2,C). As explained in ["Week 109"](#week109), the
+finite-dimensional irreducible representations of \mathrm{SL}(2,C) are also
 described by pairs of spins, so the Lorentzian theory should be similar
 to the Euclidean theory. However, most work so far has dealt with the
 Euclidean case; this needs to be addressed.

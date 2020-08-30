@@ -134,7 +134,7 @@ and since we're generously including reflections, also matrices like
 These are just the matrices whose columns are orthonormal vectors. In
 3-dimensional space we describe rotations by 3x3 matrices whose columns
 are orthonormal, and so on. In n-dimensional space we call the set of
-nxn matrices with orthonormal columns the "orthogonal group" O(n).
+nxn matrices with orthonormal columns the "orthogonal group" \mathrm{O}(n).
 
 Note that we can think of a rotation in 2 dimensions
 
@@ -150,10 +150,10 @@ one column like this:
 
 This is just a rotation around the z axis. Using the same trick we can
 think of any rotation in n dimensions as a rotation in n+1 dimensions.
-So we can think of O(0) as sitting inside O(1), which sits inside O(2),
-which sits inside O(3), which sits inside O(4), and so on! Let's do
+So we can think of \mathrm{O}(0) as sitting inside \mathrm{O}(1), which sits inside \mathrm{O}(2),
+which sits inside \mathrm{O}(3), which sits inside \mathrm{O}(4), and so on! Let's do
 that. Then let's just take the *union* of all these guys, and we
-get... O(\infty)! This is the group of rotations, together with reflections,
+get... \mathrm{O}(\infty)! This is the group of rotations, together with reflections,
 in infinite dimensions.
 
 (Now if you know your math, or you read ["Week 82"](#week82),
@@ -161,7 +161,7 @@ you'll realize that I didn't really change the subject, since the
 Clifford algebra C_n is really just a handy way to study rotations in n
 dimensions. But never mind.)
 
-Now O(\infty) is a very big group, but it elegantly summarizes a lot of
+Now \mathrm{O}(\infty) is a very big group, but it elegantly summarizes a lot of
 information about rotations in all dimensions, so it's not surprising
 that topologists have studied it. One of the thing topologists do when
 studying a space is to work out its "homotopy groups". If you hand
@@ -172,10 +172,10 @@ be at x. This is what they are paid to do. We call the set of all such
 ways the homotopy group \pi_n(X). For a more precise description, try
 ["Week 102"](#week102) - but this will do for now.
 
-So, what are the homotopy groups of O(\infty)? Well, they start out looking
+So, what are the homotopy groups of \mathrm{O}(\infty)? Well, they start out looking
 like this:
 
-    n       \pin(O(\infty))
+    n       \pin(\mathrm{O}(\infty))
 
     0         Z/2
     1         Z/2
@@ -196,17 +196,17 @@ the following story. Most of it is known to various people already, but
 it came as sort of a revelation to us.
 
 The zeroth entry in the table is easy to understand. \pi_0 keeps track of
-how many connected components your space has. The rotation group O(\infty)
+how many connected components your space has. The rotation group \mathrm{O}(\infty)
 has two connected components: the guys that are rotations, and the guys
-that are rotations followed by a reflection. So \pi_0 of O(\infty) is Z/2, the
-group with two elements. Actually this is also true for O(n) whenever n
+that are rotations followed by a reflection. So \pi_0 of \mathrm{O}(\infty) is Z/2, the
+group with two elements. Actually this is also true for \mathrm{O}(n) whenever n
 is higher enough, namely 1 or more. So the zeroth entry is all about
 "reflecting".
 
 The first entry is a bit subtler but very important in physics. It means
-that there is a loop in O(\infty) that you can't pull tight, but if you go
+that there is a loop in \mathrm{O}(\infty) that you can't pull tight, but if you go
 around that loop *twice*, you trace out a loop that you *can* pull
-tight. In fact this is true for O(n) whenever n is 3 or more. This is
+tight. In fact this is true for \mathrm{O}(n) whenever n is 3 or more. This is
 how there can be spin-$1/2$ particles when space is 3-dimensional or
 higher. There are lots of nice tricks for seeing that this is true,
 which I hope the reader already knows and loves. In short, the first
@@ -216,8 +216,8 @@ you started".
 The second entry is zero.
 
 The third entry is even subtler but also very important in modern
-physics. It means that the ways to stick a 3-sphere into O(\infty) are
-classified by the integers, Z. Actually this is true for O(n) whenever n
+physics. It means that the ways to stick a 3-sphere into \mathrm{O}(\infty) are
+classified by the integers, Z. Actually this is true for \mathrm{O}(n) whenever n
 is 5 or more. It's even true for all sorts of other groups, like all
 "compact simple groups". But can I summarize this entry in a snappy
 phrase like the previous nonzero entries? Not really. Actually a lot of
@@ -238,8 +238,8 @@ The sixth entry is zero.
 The seventh entry is probably the most mysterious of all. From one point
 of view it is the subtlest, but from another point of view it is
 perfectly trivial. If we think of it as being about \pi~7~ it's very
-subtle: it says that the ways to stick a 7-sphere into O(\infty) are
-classified by the integers. (Actually this is true for O(n) whenever n
+subtle: it says that the ways to stick a 7-sphere into \mathrm{O}(\infty) are
+classified by the integers. (Actually this is true for \mathrm{O}(n) whenever n
 is 7 or more.) But if we keep Bott periodicity in mind, there is another
 way to think of it: we can think of it as being about \pi~-1~, since 7 =
 -1 mod 8.
@@ -248,12 +248,12 @@ But wait a minute! Since when can we talk about \pi_n when n is
 *negative?!* What's a -1-dimensional sphere, for example?
 
 Well, the idea here is to use a trick. There is a space very related to
-O(\infty), called kO. As with O(\infty), the homotopy groups of this space repeat
+\mathrm{O}(\infty), called kO. As with \mathrm{O}(\infty), the homotopy groups of this space repeat
 modulo 8. Moreover we have:
 
-\pi_n(O(\infty)) = \pi~n+1~(kO)
+\pi_n(\mathrm{O}(\infty)) = \pi~n+1~(kO)
 
-Combining these facts, we see that the very subtle \pi~7~ of O(\infty) is
+Combining these facts, we see that the very subtle \pi~7~ of \mathrm{O}(\infty) is
 nothing but the very unsubtle \pi_0 of kO, which just keeps track of how
 many connected components kO has.
 
@@ -267,13 +267,13 @@ wind up seeing that the seventh entry in the table is all about
 
 To summarize:
 
-\pi_0(O(\infty)) = Z/2 is about REFLECTING
+\pi_0(\mathrm{O}(\infty)) = Z/2 is about REFLECTING
 
-\pi_1(O(\infty)) = Z/2 is about ROTATING 360 DEGREES
+\pi_1(\mathrm{O}(\infty)) = Z/2 is about ROTATING 360 DEGREES
 
-\pi_3(O(\infty)) = Z is about TOPOLOGICAL FIELD THEORY IN 4 DIMENSIONS
+\pi_3(\mathrm{O}(\infty)) = Z is about TOPOLOGICAL FIELD THEORY IN 4 DIMENSIONS
 
-\pi~7~(O(\infty)) = Z is about DIMENSION
+\pi~7~(\mathrm{O}(\infty)) = Z is about DIMENSION
 
 But wait! What do those numbers 0, 1, 3, and 7 remind you of?
 
@@ -291,30 +291,30 @@ sort of absolute value satisfies
 
 Thus if we take any guy x in A with |x| = 1, the operation of
 multiplying by x is length-preserving, so it's a reflection or rotation
-in A. This gives us a function from the unit sphere in A to O(n), or in
-other words from the (n-1)-sphere to O(n). We thus get nice elements of
+in A. This gives us a function from the unit sphere in A to \mathrm{O}(n), or in
+other words from the (n-1)-sphere to \mathrm{O}(n). We thus get nice elements of
 
-\pi_0(O(1))
+\pi_0(\mathrm{O}(1))
 
-\pi_1(O(2))
+\pi_1(\mathrm{O}(2))
 
-\pi_3(O(4))
+\pi_3(\mathrm{O}(4))
 
-\pi~7~(O(8))
+\pi~7~(\mathrm{O}(8))
 
 which turn out to be precisely why these particular homotopy groups of
-O(\infty) are nontrivial.
+\mathrm{O}(\infty) are nontrivial.
 
 So now we have the following fancier chart:
 
-\pi_0(O(\infty)) is about REFLECTING and the REAL NUMBERS
+\pi_0(\mathrm{O}(\infty)) is about REFLECTING and the REAL NUMBERS
 
-\pi_1(O(\infty)) is about ROTATING 360 DEGREES and the COMPLEX NUMBERS
+\pi_1(\mathrm{O}(\infty)) is about ROTATING 360 DEGREES and the COMPLEX NUMBERS
 
-\pi_3(O(\infty)) is about TOPOLOGICAL FIELD THEORY IN 4 DIMENSIONS and the
+\pi_3(\mathrm{O}(\infty)) is about TOPOLOGICAL FIELD THEORY IN 4 DIMENSIONS and the
 QUATERNIONS
 
-\pi~7~(O(\infty)) is about DIMENSION and the OCTONIONS
+\pi~7~(\mathrm{O}(\infty)) is about DIMENSION and the OCTONIONS
 
 Now this is pretty weird. It's not so surprising that reflections and
 the real numbers are related: after all, the only "rotations" in the
@@ -332,7 +332,7 @@ so the most complicated thing is also the least complicated.
 That's more or less the end of what I have to say, except for some
 references and some remarks of a more technical nature.
 
-Bott periodicity for O(\infty) was first proved by Raoul Bott in 1959. Bott
+Bott periodicity for \mathrm{O}(\infty) was first proved by Raoul Bott in 1959. Bott
 is a wonderful explainer of mathematics and one of the main driving
 forces behind applications of topology to physics, and a lot of his
 papers have now been collected in book form:
@@ -342,7 +342,7 @@ Topology and Lie Groups (the 1950s). Vol. 2: Differential Operators (the
 1960s). Vol. 3: Foliations (the 1970s). Vol. 4: Mathematics Related to
 Physics (the 1980s). Birkhauser, Boston, 1994, 2355 pages total.
 
-A good paper on the relation between O(\infty) and Clifford algebras is:
+A good paper on the relation between \mathrm{O}(\infty) and Clifford algebras is:
 
 2) M. F. Atiyah, R. Bott, and A. Sha\piro, Clifford modules, Topology (3)
 1964, 3-38.
@@ -356,11 +356,11 @@ with the answer n = 1, 2, 4, or 8?"
 .math.niu.edu/\~rusin/known-math/95/division.alg](http://www.math.niu.edu/~rusin/known-math/95/division.alg)
 
 Let me briefly explain this kO business. The space kO is related to a
-simpler space called BO(\infty) by means of the equation
+simpler space called B\mathrm{O}(\infty) by means of the equation
 
-kO = BO(\infty) x Z,
+kO = B\mathrm{O}(\infty) x Z,
 
-so let me first describe BO(\infty). For any topological group G you can cook
+so let me first describe B\mathrm{O}(\infty). For any topological group G you can cook
 up a space BG whose loop space is homotopy equivalent to G. In other
 words, the space of (base-point-preserving) maps from S^1^ to BG is
 homotopy equivalent to G. It follows that
@@ -374,9 +374,9 @@ isomorphism) by taking a map f: X\to BG and pulling back this principal
 G-bundle over BG. Moreover, homotopic maps to BG give isomorphic
 G-bundles over X this way.
 
-Now a principal O(n)-bundle is basically the same thing as an
+Now a principal \mathrm{O}(n)-bundle is basically the same thing as an
 n-dimensional real vector bundle - there are obvious ways to go back and
-forth between these concepts. A principal O(\infty)-bundle is thus very much
+forth between these concepts. A principal \mathrm{O}(\infty)-bundle is thus very much
 like a real vector bundle of *arbitrary* dimension, but where we don't
 care about adding on arbitrarily many 1-dimensional trivial bundles. If
 we take the collection of isomorphism classes of real vector bundles
@@ -385,14 +385,14 @@ adding on trivial bundles, we get something called KX, the "real
 K-theory of X". It's not hard to see that this is a group. Taking what
 I've said and working a bit, it follows that
 
-KX = \[X, BO(\infty)\]
+KX = \[X, B\mathrm{O}(\infty)\]
 
 where the right-hand side means "homotopy classes of maps from X to
-BO(\infty)". If we take X to be S^n+1^, we see
+B\mathrm{O}(\infty)". If we take X to be S^n+1^, we see
 
-KS^n+1^ = \pi~n+1~(BO(\infty)) = \pi_n(O(\infty))
+KS^n+1^ = \pi~n+1~(B\mathrm{O}(\infty)) = \pi_n(\mathrm{O}(\infty))
 
-It follows that we can get all elements of \pi_n of O(\infty) from real vector
+It follows that we can get all elements of \pi_n of \mathrm{O}(\infty) from real vector
 bundles over S^n+1^.
 
 Of course, the above equations are true only for nonnegative n, since it
@@ -400,13 +400,13 @@ doesn't make sense to talk about \pi~-1~ of a space. However, to make
 Bott periodicity work out smoothly, it would be nice if we could pretend
 that
 
-KS^-1^ = \pi_0(BO(\infty)) = \pi~-1~(O(\infty)) = \pi~7~(O(\infty)) = Z
+KS^-1^ = \pi_0(B\mathrm{O}(\infty)) = \pi~-1~(\mathrm{O}(\infty)) = \pi~7~(\mathrm{O}(\infty)) = Z
 
-Alas, the equations don't make sense, and BO(\infty) is connected, so we
-don't have \pi_0(BO(\infty)) = Z. However, we can cook up a slightly improved
+Alas, the equations don't make sense, and B\mathrm{O}(\infty) is connected, so we
+don't have \pi_0(B\mathrm{O}(\infty)) = Z. However, we can cook up a slightly improved
 space kO, which has
 
-\pi_n(kO) = \pi_n(BO(\infty))
+\pi_n(kO) = \pi_n(B\mathrm{O}(\infty))
 
 when n \> 0, but also has
 
@@ -414,35 +414,35 @@ when n \> 0, but also has
 
 as desired. It's easy - we just let
 
-kO = BO(\infty) x Z.
+kO = B\mathrm{O}(\infty) x Z.
 
-So, let's use this instead of BO(\infty) from now on.
+So, let's use this instead of B\mathrm{O}(\infty) from now on.
 
 Taking n = 0, we can think of S^1^ as RP^1^, the real projective line,
 i.e. the space of 1-dimensional real subspaces of R^2. This has a
 "canonical line bundle" over it, that is, a 1-dimensional real vector
 bundle which to each point of RP^1^ assigns the 1-dimensional subspace
 of R^2 that *is* that point. This vector bundle over S^1^ gives the
-generator of KS^1^, or in other words, \pi_0(O(\infty)).
+generator of KS^1^, or in other words, \pi_0(\mathrm{O}(\infty)).
 
 Taking n = 1, we can think of S^2 as the "Riemann sphere", or in
 other words CP^1^, the space of 1-dimensional complex subspaces of C^2.
 This too has a "canonical line bundle" over it, which is a
 1-dimensional complex vector bundle, or 2-dimensional real vector
 bundle. This bundle over S^2 gives the generator of KS^2, or in other
-words, \pi_1(O(\infty)).
+words, \pi_1(\mathrm{O}(\infty)).
 
 Taking n = 3, we can think of S^4 as HP^1^, the space of 1-dimensional
 quaternionic subspaces of H^2. The "canonical line bundle" over this
-gives the generator of KS^4, or in other words, \pi_3(O(\infty)).
+gives the generator of KS^4, or in other words, \pi_3(\mathrm{O}(\infty)).
 
 Taking n = 7, we can think of S^8^ as OP^1^, the space of 1-dimensional
 octonionic subspaces of O^2. The "canonical line bundle" over this
-gives the generator of KS^8^, or in other words, \pi~7~(O(\infty)).
+gives the generator of KS^8^, or in other words, \pi~7~(\mathrm{O}(\infty)).
 
 By Bott periodicity,
 
-\pi~7~(O(\infty)) = \pi~8~(kO) = \pi_0(kO)
+\pi~7~(\mathrm{O}(\infty)) = \pi~8~(kO) = \pi_0(kO)
 
 so the canonical line bundle over OP^1^ also defines an element of
 \pi_0(kO). But
@@ -492,8 +492,8 @@ of 32x32 *matrices* with real entries."
 
 By the way, it's not so easy to see that the canonical line bundle over
 OP^1^ is the generator of KS^8^ - or equivalently, that left
-multiplication by unit octonions defines a map from S^7^ into SO(8)
-corresponding to the generator of \pi~7~(O(\infty)). I claimed it's true
+multiplication by unit octonions defines a map from S^7^ into \mathrm{SO}(8)
+corresponding to the generator of \pi~7~(\mathrm{O}(\infty)). I claimed it's true
 above, but when someone asked me why this was true, I realized I
 couldn't prove it! That made me nervous. So I asked on
 sci.math.research if it was really true, and I got this reply:
@@ -508,7 +508,7 @@ sci.math.research if it was really true, and I got this reply:
 
     View this as a question in KO-theory: the claim is
     that H^8 generates the reduced real K-theory
-    \tilde KO(S^8) of the 8-sphere; the bundle
+    \tilde K\mathrm{O}(S^8) of the 8-sphere; the bundle
     H^8 over S^8 is obtained by the standard glueing
     process along the equator S^7, using the octonion
     multiplication. So H^8 is the octonion Hopf bundle.
@@ -522,7 +522,7 @@ sci.math.research if it was really true, and I got this reply:
     We have a diagram
 
             cplx         ch
-    KO(S^8) ---> K(S^8) ---> H(S^8)
+    K\mathrm{O}(S^8) ---> K(S^8) ---> H(S^8)
 
     the left arrow is complexification, the second arrow
     is the Chern character. In dimension 8, these maps form
@@ -532,7 +532,7 @@ sci.math.research if it was really true, and I got this reply:
     theorems". The constant factor is unimportant, so the
     answer is yes, \pi_7(O) is generated by the map
     S^7---> O which sends a unit octonion A to the
-    map l_A:x\to Ax in SO(8).
+    map l_A:x\to Ax in \mathrm{SO}(8).
 
     Linus Kramer
 
@@ -548,14 +548,14 @@ reference to this fact:
 
     In the book Numbers (GTM 123), there is an article by 
     Hirzebruch where the Bott periodicity result is formulated 
-    as saying that the generators of \tilde KO(S^n)  in the cases 
+    as saying that the generators of \tilde K\mathrm{O}(S^n)  in the cases 
     n = 1, 2, 4, 8  are given by [η] - 1  where η is the Hopf 
     bundle corresponding to R, C, H, O  and 1 is the trivial 
     line bundle over these scalar "fields" (of real dimension 
     1, 2, 4, 8), and is 0 for n = 3, 5, 6, 7 [p. 294].  Also that 
     the Bott periodicity isomorphism  
 
-            \tilde KO(S^n) ---> \tilde KO(S^{n+8}) 
+            \tilde K\mathrm{O}(S^n) ---> \tilde K\mathrm{O}(S^{n+8}) 
 
     is induced by  [η(O)] - 1  [p. 295].  I know you are aware 
     of this already (courtesy of the response of Linus Kramers 

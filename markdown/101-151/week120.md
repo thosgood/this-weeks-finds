@@ -150,8 +150,8 @@ networks, preprint available as
 Let me quote the abstract:
 
 > The evaluation of a relativistic spin network for the classical case
-> of the Lie group SU(2) is given by an integral formula over copies of
-> SU(2). For the graph determined by a 4-simplex this gives the
+> of the Lie group \mathrm{SU}(2) is given by an integral formula over copies of
+> \mathrm{SU}(2). For the graph determined by a 4-simplex this gives the
 > evaluation as an integral over a space of geometries for a 4-simplex.
 
 Okay, so much for the good news. What about the bad news? To explain
@@ -202,7 +202,7 @@ relativistic spin foam model, preprint available as
 [`gr-qc/9804071`](http://xxx.lanl.gov/abs/gr-qc/9804071).
 
 These papers study classical general relativity formulated as a
-constrained SO(4) BF theory. The constraints needed here are
+constrained \mathrm{SO}(4) BF theory. The constraints needed here are
 mathematically just the same as the constraints needed to ensure that 10
 bivectors come from the faces of an actual 4-simplex! This is part of
 the magic of this approach. But again, if one only imposes the three

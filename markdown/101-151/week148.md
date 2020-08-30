@@ -244,7 +244,7 @@ space for an isolated black hole.
 If we temporarily ignore the presence of matter, a point in this phase
 space describes the metric and extrinsic curvature of space outside the
 black hole at a given moment of time. Technically, we do this using an
-SU(2) connection A together with an su(2)-valued 2-form E. You can think
+\mathrm{SU}(2) connection A together with an su(2)-valued 2-form E. You can think
 of these as analogous to the vector potential and electric field in
 electromagnetism. As usual, they need to satisfy some constraints coming
 from Einstein's equations for general relativity. They also need to
@@ -253,15 +253,15 @@ horizon.
 
 Since the black hole is shaped like a ball, the boundary conditions hold
 on a 2-sphere that I'll call the "horizon 2-sphere". One thing the
-boundary conditions say is that on the horizon 2-sphere, the SU(2)
-connection A is completely determined by a U(1) connection, say W. This
-U(1) connection is really important, because it describes the intrinsic
+boundary conditions say is that on the horizon 2-sphere, the \mathrm{SU}(2)
+connection A is completely determined by a \mathrm{U}(1) connection, say W. This
+\mathrm{U}(1) connection is really important, because it describes the intrinsic
 geometry of the horizon 2-sphere. Here's a good way to think about it:
 first you restrict the spacetime metric to the horizon 2-sphere, and
 then you work out the Levi-Civita connection of this metric on the
 2-sphere. Finally, since loop quantum gravity is based on the parallel
 transport of spinors, you work out the corresponding connection for
-spinors on the 2-sphere, which is a U(1) connection. That's W!
+spinors on the 2-sphere, which is a \mathrm{U}(1) connection. That's W!
 
 The boundary conditions also say that on the horizon 2-sphere, the E
 field is proportional to the curvature of W. So on the horizon 2-sphere,
@@ -281,15 +281,15 @@ space at a given time, which makes the E field canonically conjugate to
 the A field away from the horizon 2-sphere. But then there is a boundary
 term: an integral over the horizon 2-sphere. This gives the geometry of
 the horizon a life of its own, which ultimately accounts for the black
-hole entropy. Not surprisingly, this boundary term involves the U(1)
+hole entropy. Not surprisingly, this boundary term involves the \mathrm{U}(1)
 connection W. In fact, this boundary term is just the symplectic
-structure for U(1) Chern-Simons theory on the 2-sphere! It's the
+structure for \mathrm{U}(1) Chern-Simons theory on the 2-sphere! It's the
 simplest thing you can write down:
 
 ω(δ W, δ W') = (k/2\pi) ∫ δ W ^ δ W'
 
-Here ω is the U(1) Chern-Simons symplectic structure; we're evaluating
-it on two tangent vectors to the space of U(1) connections on the
+Here ω is the \mathrm{U}(1) Chern-Simons symplectic structure; we're evaluating
+it on two tangent vectors to the space of \mathrm{U}(1) connections on the
 2-sphere, which we call δ W and δ W'. These are the same as 1-forms, so
 we can wedge them and integrate the result over the 2-sphere. The number
 k is some constant depending on the area of the black hole... but more
@@ -301,7 +301,7 @@ Week's Finds. The quantum version of Chern-Simons theory is a
 3-dimensional quantum field theory that burst into prominence thanks to
 Witten's work relating it to the Jones polynomial, which is an
 invariant of knots. At least heuristically, you can calculate the Jones
-polynomial by doing a path integral in SU(2) Chern-Simons theory. It
+polynomial by doing a path integral in \mathrm{SU}(2) Chern-Simons theory. It
 also turns out that Chern-Simons theory is deeply related to quantum
 gravity in 3d spacetime. For quite a while, various people have hoped
 that Chern-Simons theory was important for quantum gravity in 4d
@@ -310,10 +310,10 @@ spacetime, too - see for example ["Week 56"](#week56) and
 problems in most attempts to relate Chern-Simons theory to physically
 realistic problems in 4d quantum gravity. I think we may finally be
 straightening out some of these problems! But the ironic twist is that
-we're using U(1) Chern-Simons theory, which is really very simple
-compared to the sexier SU(2) version. For example, U(1) Chern-Simons
+we're using \mathrm{U}(1) Chern-Simons theory, which is really very simple
+compared to the sexier \mathrm{SU}(2) version. For example, \mathrm{U}(1) Chern-Simons
 theory also gives a knot invariant, but it's basically just the
-self-linking number. And the math of U(1) Chern-Simons theory goes back
+self-linking number. And the math of \mathrm{U}(1) Chern-Simons theory goes back
 to the 1800s - it's really just the mathematics of "theta functions".
 
 As a historical note, I should add that the really nice derivation of
@@ -350,7 +350,7 @@ basically breaks up into two separate problems: quantizing the A field
 and its canonical conjugate E outside the horizon 2-sphere, and
 quantizing the W field on this 2-sphere. The first problem is basically
 just the usual problem of loop quantum gravity - people know a lot about
-that. The second problem is basically just quantizing U(1) Chern-Simons
+that. The second problem is basically just quantizing \mathrm{U}(1) Chern-Simons
 theory - people know even *more* about that! But then you have to go
 back and put the two pieces together. For that, it's crucial that on
 the horizon, the E field is proportional to the curvature of the
@@ -362,7 +362,7 @@ describe a basis of states for you....
 Outside the black hole, they are described by spin networks. I've
 discussed these in ["Week 110"](#week110) and elsewhere, but let me
 just recall the basics. A spin network is a graph whose edges are
-labelled by irreducible representations of SU(2), or in other words
+labelled by irreducible representations of \mathrm{SU}(2), or in other words
 spins j = 0, 1/2, 1, and so on. Their vertices are labelled as well, but
 that doesn't concern us much here. What matters more is that the spin
 network edges can puncture the horizon 2-sphere. And it turns out that

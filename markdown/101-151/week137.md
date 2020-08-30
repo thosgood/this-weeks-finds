@@ -314,7 +314,7 @@ and the work of Crane and Frenkel on categorifying quantum groups (see
 "week58"). For this, I guess I should read the following papers:
 
 8) J. Bernstein, I. Frenkel and M. Khovanov, A categorification of the
-Temperley-Lieb algebra and Schur quotients of U(sl_2) by projective and
+Temperley-Lieb algebra and Schur quotients of \mathrm{U}(sl_2) by projective and
 Zuckerman functors, to appear in Selecta Mathematica.
 
 9) Mikhail Khovanov, Graphical calculus, canonical bases and

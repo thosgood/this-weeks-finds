@@ -45,46 +45,46 @@ goes:
 ------------------------------------------------------------------------
 
 The strong, electromagnetic and weak forces are all described by
-Yang-Mills fields, with the gauge group SU(3) x SU(2) x U(1). In what
+Yang-Mills fields, with the gauge group \mathrm{SU}(3) x \mathrm{SU}(2) x \mathrm{U}(1). In what
 follows I'll assume you know the rudiments of gauge theory, or at least
 that you can fake it.
 
-SU(3) is the gauge group of the strong force, and its 8 generators
-correspond to the gluons. SU(2) x U(1) is the gauge group of the
+\mathrm{SU}(3) is the gauge group of the strong force, and its 8 generators
+correspond to the gluons. \mathrm{SU}(2) x \mathrm{U}(1) is the gauge group of the
 electroweak force, which unifies electromagnetism and the weak force.
-It's *not* true that the generators of SU(2) corresponds to the W+, W-
-and Z while the generator of U(1) corresponds to the photon. Instead,
-the photon corresponds to the generator of a sneakier U(1) subgroup
-sitting slantwise inside SU(2) x U(1); the basic formula to remember
+It's *not* true that the generators of \mathrm{SU}(2) corresponds to the W+, W-
+and Z while the generator of \mathrm{U}(1) corresponds to the photon. Instead,
+the photon corresponds to the generator of a sneakier \mathrm{U}(1) subgroup
+sitting slantwise inside \mathrm{SU}(2) x \mathrm{U}(1); the basic formula to remember
 here is:
 
 Q = I_3 + Y/2
 
 where Q is ordinary electric charge, I_3 is the 3rd component of "weak
-isospin", i.e. the generator of SU(2) corresponding to the matrix
+isospin", i.e. the generator of \mathrm{SU}(2) corresponding to the matrix
 
     (1/2   0)
     (0  -1/2)
 
-and Y, "hypercharge", is the generator of the U(1) factor. The role of
-the Higgs particle is to spontaneously break the SU(2) x U(1) symmetry,
+and Y, "hypercharge", is the generator of the \mathrm{U}(1) factor. The role of
+the Higgs particle is to spontaneously break the \mathrm{SU}(2) x \mathrm{U}(1) symmetry,
 and also to give all the massive particles their mass. However, I don't
 want to talk about that here; I want to focus on the fermions and how
-they form representations of the gauge group SU(3) x SU(2) x U(1),
+they form representations of the gauge group \mathrm{SU}(3) x \mathrm{SU}(2) x \mathrm{U}(1),
 because I want to talk about how grand unified theories attempt to
 simplify this picture - at the expense of postulating more Higgs bosons.
 
 The fermions come in 3 generations, as indicated in the chart above. I
 want to explain how the fermions in a given generation are grouped into
-irreducible representations of SU(3) x SU(2) x U(1). All the generations
+irreducible representations of \mathrm{SU}(3) x \mathrm{SU}(2) x \mathrm{U}(1). All the generations
 work the same way, so I'll just talk about the first generation. Also,
 every fermion has a corresponding antiparticle, but this just transforms
 according to the dual representation, so I will ignore the antiparticles
 here.
 
 Before I tell you how it works, I should remind you that all the
-fermions are, in addition to being representations of SU(3) x SU(2) x
-U(1), also spin-$1/2$ particles. The massive fermions - the quarks and the
+fermions are, in addition to being representations of \mathrm{SU}(3) x \mathrm{SU}(2) x
+\mathrm{U}(1), also spin-$1/2$ particles. The massive fermions - the quarks and the
 electron, muon and tauon - are Dirac spinors, meaning that they can spin
 either way along any axis. The massless fermions - the neutrinos - are
 Weyl spinors, meaning that they always spin counterclockwise along their
@@ -100,15 +100,15 @@ neutrino mass. For more on Standard Model, neutrino mass and different
 kinds of spinors, see ["Week 93"](#week93).)
 
 Okay. The Standard Model lumps the left-handed neutrino and the
-left-handed electron into a single irreducible representation of SU(3) x
-SU(2) x U(1):
+left-handed electron into a single irreducible representation of \mathrm{SU}(3) x
+\mathrm{SU}(2) x \mathrm{U}(1):
 
     (νL, eL)                                 (1,2,-1)
 
 This 2-dimensional representation is called (1,2,-1), meaning that it's
-the tensor product of the 1-dimensional trivial rep of SU(3), the
-2-dimensional fundamental rep of SU(2), and the 1-dimensional rep of
-U(1) with hypercharge -1.
+the tensor product of the 1-dimensional trivial rep of \mathrm{SU}(3), the
+2-dimensional fundamental rep of \mathrm{SU}(2), and the 1-dimensional rep of
+\mathrm{U}(1) with hypercharge -1.
 
 Similarly, the left-handed up and down quarks fit together as:
 
@@ -116,11 +116,11 @@ Similarly, the left-handed up and down quarks fit together as:
 
 Here I'm writing both quarks 3 times since they also come in 3 color
 states. In other words, this 6-dimensional representation is the tensor
-product of the 3-dimensional fundamental rep of SU(3), the 2-dimensional
-fundamental rep of SU(2), and the 1-dimensional rep of U(1) with
+product of the 3-dimensional fundamental rep of \mathrm{SU}(3), the 2-dimensional
+fundamental rep of \mathrm{SU}(2), and the 1-dimensional rep of \mathrm{U}(1) with
 hypercharge 1/3. That's why we call this rep (3,2,1/3).
 
-(If you are familiar with the irreducible representations of U(1) you
+(If you are familiar with the irreducible representations of \mathrm{U}(1) you
 will know that they are usually parametrized by integers. Here we are
 using integers divided by 3. The reason is that people defined the
 charge of the electron to be -1 before quarks were discovered, at which
@@ -144,25 +144,25 @@ That's it. If you want to study this stuff, try using the formula
 Q = I_3 + Y/2
 
 to figure out the charges of all these particles. For example, since the
-right-handed electron transforms in the trivial rep of SU(2), it has
+right-handed electron transforms in the trivial rep of \mathrm{SU}(2), it has
 I_3 = 0, and if you look up there you'll see that it has Y = -2. This
 means that its electric charge is Q = -1, as we already knew.
 
 Anyway, we obviously have a bit of a mess on our hands! The Standard
 Model is full of tantalizing patterns, but annoyingly complicated. The
 idea of grand unified theories is to find a pattern lurking in all this
-data by fitting the group SU(3) x SU(2) x U(1) into a larger group. The
-smallest-dimensional "simple" Lie group that works is SU(5). Here
+data by fitting the group \mathrm{SU}(3) x \mathrm{SU}(2) x \mathrm{U}(1) into a larger group. The
+smallest-dimensional "simple" Lie group that works is \mathrm{SU}(5). Here
 "simple" is a technical term that eliminates, for example, groups that
 are products of other groups - these aren't very "unified". Georgi
-and Glashow came up with their "minimal" SU(5) grand unified theory in
-1975. The idea is to stick SU(3) x SU(2) into SU(5) in the obvious
-diagonal way, leaving just enough room to cram in the U(1) if you are
+and Glashow came up with their "minimal" \mathrm{SU}(5) grand unified theory in
+1975. The idea is to stick \mathrm{SU}(3) x \mathrm{SU}(2) into \mathrm{SU}(5) in the obvious
+diagonal way, leaving just enough room to cram in the \mathrm{U}(1) if you are
 clever.
 
 Now if you add up the dimensions of all the representations above you
 get 2 + 6 + 1 + 3 + 3 = 15. This means we need to find a 15-dimensional
-representation of SU(5) to fit all these particles. There are various
+representation of \mathrm{SU}(5) to fit all these particles. There are various
 choices, but only one that really works when you take all the physics
 into account. For a nice simple account of the detective work needed to
 figure this out, see:
@@ -172,7 +172,7 @@ Introduction to supersymmetry in particle and nuclear physics, edited by
 O. Castanos, A. Frank, L. Urrutia, Plenum Press, 1984.
 
 I'll just give the answer. First we take the 5-dimensional fundamental
-representation of SU(5) and pack fermions in as follows:
+representation of \mathrm{SU}(5) and pack fermions in as follows:
 
     (dR, dR, dR, e+R, nubarR)             5 = (3,1,-2/3) + (1,2,-1)
 
@@ -180,19 +180,19 @@ Here e+~R~ is the right-handed positron and nubar~R~ is the right-handed
 antineutrino - curiously, we need to pack some antiparticles in with
 particles to get things to work out right. Note that the first 3
 particles in the above list, the 3 states of the right-handed down
-quark, transform according to the fundamental rep of SU(3) and the
-trivial rep of SU(2), while the remaining two transform according to the
-trivial rep of SU(3) and the fundamental rep of SU(2). That's how it
-has to be, given how we stuffed SU(3) x SU(2) into SU(5).
+quark, transform according to the fundamental rep of \mathrm{SU}(3) and the
+trivial rep of \mathrm{SU}(2), while the remaining two transform according to the
+trivial rep of \mathrm{SU}(3) and the fundamental rep of \mathrm{SU}(2). That's how it
+has to be, given how we stuffed \mathrm{SU}(3) x \mathrm{SU}(2) into \mathrm{SU}(5).
 
 Note also that the charges of the 5 particles on this list add up to
-zero. That's also how it has to be, since the generators of SU(5) are
+zero. That's also how it has to be, since the generators of \mathrm{SU}(5) are
 traceless. Note that the down quark must have charge -1/3 for this to
-work! In a sense, the SU(5) model says that quarks *must* have charges
+work! In a sense, the \mathrm{SU}(5) model says that quarks *must* have charges
 in units of 1/3, because they come in 3 different colors! This is pretty
 cool.
 
-Then we take the 10-dimensional representation of SU(5) given by the 2nd
+Then we take the 10-dimensional representation of \mathrm{SU}(5) given by the 2nd
 exterior power of the fundamental representation - i.e., antisymmetric
 5x5 matrices - and pack the rest of the fermions in like this:
 
@@ -205,10 +205,10 @@ exterior power of the fundamental representation - i.e., antisymmetric
 
 Here the u-bar is the antiparticle of the up quark - again we've needed
 to use some antiparticles. However, you can easily check that these two
-representations of SU(5) together with their duals account for all the
+representations of \mathrm{SU}(5) together with their duals account for all the
 fermions and their antiparticles.
 
-The SU(5) theory has lots of nice features. As I already noted, it
+The \mathrm{SU}(5) theory has lots of nice features. As I already noted, it
 explains why the up and down quarks have charges 2/3 and -1/3,
 respectively. It also gives a pretty good prediction of something called
 the Weinberg angle, which is related to the ratio of the masses of the W
@@ -217,16 +217,16 @@ since it allows quarks to turn into leptons, it predicts that protons
 can decay - with a halflife of somewhere around 10^29^ or 10^30^ years.
 So people set off to look for proton decay....
 
-However, even when the SU(5) model was first proposed, it was regarded
+However, even when the \mathrm{SU}(5) model was first proposed, it was regarded
 as slightly inelegant, because it didn't unify all the fermions of a
 given generation in a *single* irreducible representation (together with
 its dual, for antiparticles). This is one reason why people began
 exploring still larger gauge groups. In 1975 Georgi, and independently
-Fritzsch and Minkowski, proposed a model with gauge group SO(10). You
-can stuff SU(5) into SO(10) as a subgroup in such a way that the 5- and
-10-dimensional representations of SU(5) listed above both fit into a
-single 16-dimensional rep of SO(10), namely the chiral spinor rep. Yes,
-16, not 15 - that wasn't a typo! The SO(10) theory predicts that in
+Fritzsch and Minkowski, proposed a model with gauge group \mathrm{SO}(10). You
+can stuff \mathrm{SU}(5) into \mathrm{SO}(10) as a subgroup in such a way that the 5- and
+10-dimensional representations of \mathrm{SU}(5) listed above both fit into a
+single 16-dimensional rep of \mathrm{SO}(10), namely the chiral spinor rep. Yes,
+16, not 15 - that wasn't a typo! The \mathrm{SO}(10) theory predicts that in
 addition to the 15 states listed above there is a 16th, corresponding to
 a right-handed neutrino! I'm not sure yet how the recent experiments
 indicating a nonzero neutrino mass fit into this business, but it's
@@ -241,9 +241,9 @@ classification of simple Lie groups here, but luckily I've already done
 that, so you can just look at ["Week 62"](#week62) ---
 ["Week 65"](#week65) to learn about that. The point is, there is an
 infinite series of simple Lie groups associated to rotations in real
-vector spaces - the SO(n) groups, also called the B and D series. There
+vector spaces - the \mathrm{SO}(n) groups, also called the B and D series. There
 is an infinite series of them associated to rotations in complex vector
-spaces - the SU(n) groups, also called the A series. And there is
+spaces - the \mathrm{SU}(n) groups, also called the A series. And there is
 infintie series of them associated to rotations in quaternionic vector
 spaces - the Sp(n) groups, also called the C series. And there is a
 ragged band of 5 exceptions which are related to the octonions, called
@@ -285,7 +285,7 @@ obtaining the Dynkin diagram of a subgroup we could call E5:
           |      
     o--o--o--o
 
-But this is really just good old SO(10), which we were just discussing!
+But this is really just good old \mathrm{SO}(10), which we were just discussing!
 And if we yet again remove the rightmost root, we get the Dynkin diagram
 of a subgroup we could call E4:
 
@@ -293,7 +293,7 @@ of a subgroup we could call E4:
           |      
     o--o--o
 
-This is just SU(5)! Let's again remove the rightmost root, obtaining
+This is just \mathrm{SU}(5)! Let's again remove the rightmost root, obtaining
 the Dynkin diagram for E3. Well, it may not be clear what counts as the
 rightmost root, but here's what I want to get when I remove it:
 
@@ -301,7 +301,7 @@ rightmost root, but here's what I want to get when I remove it:
                 
     o--o
 
-This is just SU(3) x SU(2), sitting inside SU(5) in the way we just
+This is just \mathrm{SU}(3) x \mathrm{SU}(2), sitting inside \mathrm{SU}(5) in the way we just
 discussed! So for some mysterious reason, the Standard Model and grand
 unified theories seem to be related to the E series!
 
@@ -311,12 +311,12 @@ We could march on and define E2:
                 
     o
 
-which is just SU(2) x SU(2), and E1:
+which is just \mathrm{SU}(2) x \mathrm{SU}(2), and E1:
 
           o      
                 
 
-which is just SU(2)... but I'm not sure what's so great about these
+which is just \mathrm{SU}(2)... but I'm not sure what's so great about these
 groups.
 
 By the way, you might wonder what's the real reason for removing the
@@ -333,9 +333,9 @@ theories. And it is *very* bad.
 The bad news is that those people who went off to detect proton decay
 never found it! It became clear in the mid-1980s that the proton
 lifetime was at least 10^32^ years or so, much larger than what the
-SU(5) theory most naturally predicts. Of course, if one is desperate to
+\mathrm{SU}(5) theory most naturally predicts. Of course, if one is desperate to
 save a beautiful theory from an ugly fact, one can resort to desperate
-measures. For example, one can get the SU(5) model to predict very slow
+measures. For example, one can get the \mathrm{SU}(5) model to predict very slow
 proton decay by making the grand unification mass scale large.
 Unfortunately, then the coupling constants of the strong and electroweak
 forces don't match at the grand unification mass scale. This became

@@ -65,7 +65,7 @@ a quantum field theory on a product of 4 copies of the 3-sphere. Weird,
 huh?
 
 But it's actually not so weird. The space of complex functions on the
-(n-1)-sphere is naturally a representation of SO(n). But there's
+(n-1)-sphere is naturally a representation of \mathrm{SO}(n). But there's
 another way to think of this representation. Consider an triangle in
 R^n. We can associate vectors to two of its edges, say v and w, and
 form the wedge product of these vectors to get a bivector v ^ w. This
@@ -77,7 +77,7 @@ define Poisson brackets of functions on this space - so we can think of
 it as a "classical phase space". Using geometric quantization, we can
 quantize this classical phase space and get a Hilbert space. Since
 rotations act on the classical phase space, they act on this Hilbert
-space, so it becomes a representation of SO(n). And this representation
+space, so it becomes a representation of \mathrm{SO}(n). And this representation
 is isomorphic to the space of complex functions on the (n-1)-sphere!
 
 Thus, we can think of a complex function on the (n-1)-sphere as a

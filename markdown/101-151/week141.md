@@ -131,7 +131,7 @@ some of his wisdom while I still remember it.
 First, recall the "Hopf bundle". It's easy to describe starting with
 the complex numbers. The unit vectors in C^2 form the sphere S^3. The
 unit complex numbers form a group under multiplication. As a manifold
-this is just the circle S^1^, but as a group it's better known as U(1).
+this is just the circle S^1^, but as a group it's better known as \mathrm{U}(1).
 You can multiply a unit vector by a unit complex number and get a new
 unit vector, so S^1^ acts on S^3. The quotient space is the complex
 projective space CP^1^, which is just the sphere S^2. So what we've
@@ -157,7 +157,7 @@ we get a more interesting fiber bundle:
 
 S^3\to S^7^\to HP^1^ = S^4
 
-where S^3 is the group of unit quaternions, better known as SU(2). We
+where S^3 is the group of unit quaternions, better known as \mathrm{SU}(2). We
 can even do something like this with the octonions, and we get a fiber
 bundle
 
@@ -361,7 +361,7 @@ of positive scalar curvature:
 So some exotic spheres are not so as "round" as you might think! In
 fact, 3 of the exotic spheres in 10 dimensions cannot be given a metric
 such that the connected component of the isometry group is bigger than
-U(1) x U(1), so these are quite "bumpy". This follows from results of
+\mathrm{U}(1) x \mathrm{U}(1), so these are quite "bumpy". This follows from results of
 Reinhard Schultz, who happens to be the department chair here:
 
 9) Reinhard Schultz, Circle actions on homotopy spheres bounding

@@ -383,12 +383,12 @@ considered the quaternionic case:
 Oxford U. Press, Oxford, 1995.
 
 If our Hilbert space is the complex Hilbert space C^n, its group of
-symmetries is usually thought of as U(n) - the group of n×n unitary
+symmetries is usually thought of as \mathrm{U}(n) - the group of n×n unitary
 matrices. This group also acts as symmetries on the Jordan algebra of
 self-adjoint n×n complex matrices, and also on the space CP^n-1^.
 
 Similarly, if we start with R^n, we get the group of orthogonal n×n
-matrices O(n), which acts on the Jordan algebra of real self-adjoint n×n
+matrices \mathrm{O}(n), which acts on the Jordan algebra of real self-adjoint n×n
 matrices and on RP^n-1^.
 
 Likewise, if we start with H^n, we get the group Sp(n), which acts on

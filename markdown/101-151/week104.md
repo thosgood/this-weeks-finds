@@ -185,16 +185,13 @@ Apparently not! The following papers explain what's going on:
 
 Here's the basic idea. Let
 
-R = real numbers
+- $\mathbb{R}$ be the real numbers
+- $\mathbb{C}$ be the complex numbers
+- $\mathbb{H}$ be the quaternions
+- $\mathbb{O}$ be the octonions
 
-C = complex numbers
-
-H = quaternions
-
-O = octonions
-
-Let SO(n,1) denote the Lorentz group in n+1 dimensions. Roughly
-speaking, this is the symmetry group of (n+1)-dimensional Minkowski
+Let \mathrm{SO}(n,1) denote the Lorentz group in $n+1$ dimensions. Roughly
+speaking, this is the symmetry group of $(n+1)$-dimensional Minkowski
 spacetime. Let so(n,1) be the corresponding Lie algebra (see
 ["Week 63"](#week63) for a lightning introduction to Lie algebras).
 Then it turns out that:
@@ -210,13 +207,13 @@ sl(2,O) = so(9,1)
 This relates reals, complexes, quaternions and octonions to the Lorentz
 group in dimensions 3, 4, 6, and 10, and explains the "coincidence"
 noted by Schwarz! But it requires some explanation. Roughly speaking, if
-SL(2,K) is the group of 2x2 matrices with determinant 1 whose entries
+\mathrm{SL}(2,K) is the group of 2x2 matrices with determinant 1 whose entries
 lie in the division algebra K = R, C, H, O, then sl(2,K) is defined to
 be the Lie algebra of this group. This is simple enough for R or C.
 However, one needs to be careful when defining the determinant of a 2x2
 quaternionic matrix, since quaternions don't commute. One needs to be
 even more careful in the octonionic case. Since octonions aren't even
-associative, it's far from obvious what the group SL(2,O) would be, so
+associative, it's far from obvious what the group \mathrm{SL}(2,O) would be, so
 defining the Lie algebra "sl(2,O)" requires a certain amount of
 finesse. For the details, read the papers.
 
@@ -227,17 +224,17 @@ ways to use octonions in 10-dimensional physics. As we all know, the
 relation to Geoffrey Dixon's theory. This theory relates the
 electromagnetic force to the complex numbers, the weak force to the
 quaternions, and the strong force to octonions. How? Well, the gauge
-group of electromagnetism is U(1), the unit complex numbers. The gauge
-group of the weak force is SU(2), the unit quaternions. The gauge group
-of the strong force is SU(3)....
+group of electromagnetism is \mathrm{U}(1), the unit complex numbers. The gauge
+group of the weak force is \mathrm{SU}(2), the unit quaternions. The gauge group
+of the strong force is \mathrm{SU}(3)....
 
-Alas, the group SU(3) is *not* the unit octonions. The unit octonions do
-not form a group since they aren't associative. SU(3) is related to the
+Alas, the group \mathrm{SU}(3) is *not* the unit octonions. The unit octonions do
+not form a group since they aren't associative. \mathrm{SU}(3) is related to the
 octonions more indirectly. The group of symmetries (or technically,
 "automorphisms") of the octonions is the exceptional group G2, which
-contains SU(3). To get SU(3), we can take the subgroup of G2 that
+contains \mathrm{SU}(3). To get \mathrm{SU}(3), we can take the subgroup of G2 that
 preserves a given unit imaginary octonion... say e_1. This is how
-Dixon relates SU(3) to the octonions.
+Dixon relates \mathrm{SU}(3) to the octonions.
 
 However, why should one unit imaginary octonion be different from the
 rest? Some sort of "symmetry breaking", presumably? It seems a bit ad
@@ -249,7 +246,7 @@ so(3,1) sitting inside so(9,1)! In other words, we get a particular copy
 of the good old 4-dimensional Lorentz group sitting inside the
 10-dimensional Lorentz group. So fixing a unit imaginary octonion not
 only breaks the octonion symmetry group G2 down to the strong force
-symmetry group SU(3), it might also get us from 10-dimensional physics
+symmetry group \mathrm{SU}(3), it might also get us from 10-dimensional physics
 down to 4-dimensional physics.
 
 Cool, no? There are obviously a lot of major issues involved in turning
@@ -426,9 +423,9 @@ and he writes:
 >
 > Then we write the Γ~m~ as block matrices where Γ~+~ and Γ~-~ have the
 > +/- unit matrix as blocks and the others have γ_i as blocks where
-> γ_i are the SO(8) Dirac matrices (i=1,...,9). But they are
+> γ_i are the \mathrm{SO}(8) Dirac matrices (i=1,...,9). But they are
 > intimately related to the octonions. Remember there is triality in
-> SO(8) which means that we can treat left-handed spinors, right-handed
+> \mathrm{SO}(8) which means that we can treat left-handed spinors, right-handed
 > spinors and vectors on an equal basis (see [week61](week61.html),
 > [week90](week90.html), [week91](week91.html)). Now I write out all
 > three indices of γ_i. Because of triality I can use i,j,k for spinor,

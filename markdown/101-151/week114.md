@@ -94,7 +94,7 @@ Minkowski spacetime, the action of the perturbation theory is given to
 leading order by the spacetime area of the surface, as in bosonic string
 theory. This map between a non-perturbative formulation of quantum
 gravity and a 1+1 dimensional theory generalizes to a large class of
-theories in which the group SU(2) is extended to any quantum group or
+theories in which the group \mathrm{SU}(2) is extended to any quantum group or
 supergroup. It is argued that a necessary condition for the
 non-perturbative theory to have a good classical limit is that the
 resulting 1+1 dimensional theory defines a consistent and stable
@@ -108,14 +108,14 @@ local causality, preprint available as
 [`gr-qc/9712067`](http://xxx.lanl.gov/abs/gr-qc/9712067).
 
 "The space of states and operators for a large class of background
-independent theories of quantum spacetime dynamics is defined. The SU(2)
+independent theories of quantum spacetime dynamics is defined. The \mathrm{SU}(2)
 spin networks of quantum general relativity are replaced by labelled
 compact two-dimensional surfaces. The space of states of the theory is
 the direct sum of the spaces of invariant tensors of a quantum group G_q
 over all compact (finite genus) oriented 2-surfaces. The dynamics is
 background independent and locally causal. The dynamics constructs
 histories with discrete features of spacetime geometry such as causal
-structure and multifingered time. For SU(2) the theory satisfies the
+structure and multifingered time. For \mathrm{SU}(2) the theory satisfies the
 Bekenstein bound and the holographic hypothesis is recast in this
 formalism."
 

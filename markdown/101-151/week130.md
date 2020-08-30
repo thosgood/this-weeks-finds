@@ -218,10 +218,10 @@ interesting.
 Wilczek recently wrote a nice easy-to-read paper describing arguments
 that *massive* neutrinos fit in quite nicely with the possibility that
 the Standard Model is just part of a bigger, better theory - a "Grand
-Unified Theory". I sketched the basic ideas of the SU(5) and SO(10)
+Unified Theory". I sketched the basic ideas of the \mathrm{SU}(5) and \mathrm{SO}(10)
 grand unified theories in ["Week 119"](#week119). Recall that in
-the SU(5) theory, the left-handed parts of all fermions of a given
-generation fit into two irreducible representations of SU(5) - a
+the \mathrm{SU}(5) theory, the left-handed parts of all fermions of a given
+generation fit into two irreducible representations of \mathrm{SU}(5) - a
 5-dimensional rep and a 10-dimensional rep. For example, for the first
 generation, the 5-dimensional rep consists of the left-handed down
 antiquark (which comes in 3 colors), the left-handed electron, and the
@@ -229,11 +229,11 @@ left-handed electron neutrino. The 10-dimensional rep consists of the
 left-handed up quark, down quark, and up antiquark (which come in 3
 colors each), together with the left-handed positron.
 
-In the SO(10) theory, all these particles AND ONE MORE fit into a single
-16-dimensional irreducible representation of SO(10). What could this
+In the \mathrm{SO}(10) theory, all these particles AND ONE MORE fit into a single
+16-dimensional irreducible representation of \mathrm{SO}(10). What could this
 extra particle be?
 
-Well, since this extra particle transforms trivially under SU(5), it
+Well, since this extra particle transforms trivially under \mathrm{SU}(5), it
 must not feel the electromagnetic, weak or strong force! Thus it's
 tempting to take this missing particle to be the left-handed electron
 antineutrino. Of course, we don't see such a particle - we only see
@@ -372,7 +372,7 @@ the existence of a sterile neutrino, see:
 as [`hep-ph/9804367`](http://xxx.lanl.gov/abs/hep-ph/9804367).
 
 For a very readable argument that massive neutrinos are evidence for a
-supersymmetric SO(10) grand unified theory, see
+supersymmetric \mathrm{SO}(10) grand unified theory, see
 
 18) Frank Wilczek, Beyond the Standard Model: this time for real,
 preprint available as

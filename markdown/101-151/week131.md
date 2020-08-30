@@ -17,16 +17,16 @@ but it treats the strong force seperately.
 
 In 1975, Georgi and Glashow invented a theory which fit all the known
 particles of each generation into two irreducible representations of
-SU(5). Their theory had some very nice features: for example, it unified
+\mathrm{SU}(5). Their theory had some very nice features: for example, it unified
 the strong force with the electroweak force, and it explained why quark
 charges come in multiples of 1/3. It also made some new predictions,
 most notably that protons decay with a halflife of something like 10^29^
 or 10^30^ years. Of course, it's slightly inelegant that one needs
-*two* irreducible representations of SU(5) to account for all the
-particles of each generation. Luckily SU(5) fits inside SO(10) in a nice
+*two* irreducible representations of \mathrm{SU}(5) to account for all the
+particles of each generation. Luckily \mathrm{SU}(5) fits inside \mathrm{SO}(10) in a nice
 way, and Georgi used this to concoct a slightly bigger theory where all
 15 particles of each generation, AND ONE MORE, fit into a single
-irreducible representation of SO(10). I described the mathematics of all
+irreducible representation of \mathrm{SO}(10). I described the mathematics of all
 this in ["Week 119"](#week119), so I won't do so again here.
 
 What's the extra particle? Well, when you look at the math, one obvious
@@ -161,7 +161,7 @@ F) Proton decay. As Glashow notes, proton decay would be the "king of
 the new frontier". Reflecting the optimism of 1980, he notes that "to
 some, it is a foregone conclusion that proton decay is about to be seen
 by experiments now abuilding". But alas, people looked very hard and
-did not find it! This killed the SU(5) theory. Many people switched to
+did not find it! This killed the \mathrm{SU}(5) theory. Many people switched to
 supersymmetric theories, which are more compatible with very slow proton
 decay. But with the continuing lack of new experiments to explain,
 enthusiasm for grand unified theories gradually evaporated, and
@@ -175,7 +175,7 @@ about neutrino oscillations. Somebody should explain them!
 On a slightly different note, one of my little side hobbies is to study
 the octonions and dream about how they might be useful in physics. One
 place they show up is in the E6 grand unified theory - the next theory
-up from the SO(10) theory. I said a bit about this in
+up from the \mathrm{SO}(10) theory. I said a bit about this in
 ["Week 119"](#week119), but I just bumped into another paper on it
 in the same conference proceedings that Glashow's paper appears is:
 

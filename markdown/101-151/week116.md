@@ -28,8 +28,8 @@ additional dimensions of spacetime. It's interesting how gauge theory
 has historical roots in this seemingly more exotic notion. The original
 Kaluza-Klein theory assumed a 5-dimensional spacetime, with the extra
 dimension curled into a small circle. Starting with 5-dimensional
-general relativity, and using the U(1) symmetry of the circle, they
-recovered 4-dimensional general relativity coupled to a U(1) gauge
+general relativity, and using the \mathrm{U}(1) symmetry of the circle, they
+recovered 4-dimensional general relativity coupled to a \mathrm{U}(1) gauge
 theory - namely, Maxwell's equations. Unfortunately, their theory also
 predicted an unobserved spin-0 particle, which was especially
 problematic back in the days before mesons were discovered.
@@ -40,9 +40,9 @@ Differential Geometry". This theory, "written down July 22-25 1953 in
 order to see how it looks", postulated 2 extra dimensions in the shape
 of a small sphere. The letter begins, "Split a 6-dimensional space into
 a (4+2)-dimensional one." At the time, meson-nucleon interactions were
-believe to have an SU(2) symmetry corresponding to conservation of
+believe to have an \mathrm{SU}(2) symmetry corresponding to conservation of
 "isospin". Pauli obtained a theory with this symmetry group using the
-SU(2) symmetry of the sphere.
+\mathrm{SU}(2) symmetry of the sphere.
 
 Apparently Pauli got a lot of his inspiration from Weyl's 1929 paper
 "Electron and Gravitation", also reprinted in this volume. This

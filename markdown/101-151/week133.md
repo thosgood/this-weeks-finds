@@ -174,29 +174,29 @@ underlying graph. Here Major tackles that problem....
 
 And now for something completely different, arising from a thread on
 sci.physics.research started by Garrett Lisi. What's the gauge group of
-the Standard Model? Everyone will tell you it's U(1) x SU(2) x SU(3),
+the Standard Model? Everyone will tell you it's \mathrm{U}(1) x \mathrm{SU}(2) x \mathrm{SU}(3),
 but as Marc Bellon pointed out, this is perhaps not the most accurate
 answer. Let me explain why and figure out a better answer.
 
 Every particle in the Standard Model transforms according to some
-representation of U(1) x SU(2) x SU(3), but some elements of this group
+representation of \mathrm{U}(1) x \mathrm{SU}(2) x \mathrm{SU}(3), but some elements of this group
 act trivially on all these representations. Thus we can find a smaller
 group which can equally well be used as the gauge group of the Standard
-Model: the quotient of U(1) x SU(2) x SU(3) by the subgroup of elements
+Model: the quotient of \mathrm{U}(1) x \mathrm{SU}(2) x \mathrm{SU}(3) by the subgroup of elements
 that act trivially.
 
 Let's figure out this subgroup! To do so we need to go through all the
-particles and figure out which elements of U(1) x SU(2) x SU(3) act
+particles and figure out which elements of \mathrm{U}(1) x \mathrm{SU}(2) x \mathrm{SU}(3) act
 trivially on all of them.
 
 Start with the gauge bosons. In any gauge theory, the gauge bosons
 transform in the adjoint representation, so the elements of the gauge
 group that act trivially are precisely those in the *center* of the
-group. U(1) is abelian so its center is all of U(1). Elements of SU(n)
+group. \mathrm{U}(1) is abelian so its center is all of \mathrm{U}(1). Elements of \mathrm{SU}(n)
 that lie in the center must be diagonal. The n x n diagonal unitary
 matrices with determinant 1 are all of the form exp(2 \pi i / n), and
 these form a subgroup isomorphic to Z/n. It follows that the center of
-U(1) x SU(2) x SU(3) is U(1) x Z/2 x Z/3.
+\mathrm{U}(1) x \mathrm{SU}(2) x \mathrm{SU}(3) is \mathrm{U}(1) x Z/2 x Z/3.
 
 Next let's look at the other particles. If you forget how these work,
 see ["Week 119"](#week119). For the fermions, it suffices to look
@@ -207,17 +207,17 @@ electron and neutrino:
 (ν_L, e_L)
 
 These form a 2-dimensional representation. This representation is the
-tensor product of the irreducible rep of U(1) with hypercharge -1, the
-isospin-$1/2$ rep of SU(2), and the trivial rep of SU(3).
+tensor product of the irreducible rep of \mathrm{U}(1) with hypercharge -1, the
+isospin-$1/2$ rep of \mathrm{SU}(2), and the trivial rep of \mathrm{SU}(3).
 
-A word about notation! People usually describe irreducible reps of U(1)
+A word about notation! People usually describe irreducible reps of \mathrm{U}(1)
 by integers. For historical reasons, hypercharge comes in integral
 multiples of 1/3. Thus to get the appropriate integer we need to
-multiply the hypercharge by 3. Also, the group SU(2) here is associated,
+multiply the hypercharge by 3. Also, the group \mathrm{SU}(2) here is associated,
 not to spin in the sense of angular momentum, but to something called
 "weak isospin". That's why we say "isopin-1/2 rep" above.
 Mathematically, though, this is just the usual spin-$1/2$ representation
-of SU(2).
+of \mathrm{SU}(2).
 
 Next we have the left-handed up and down quarks, which come in 3 colors
 each:
@@ -225,32 +225,32 @@ each:
 (u_L, u_L, u_L, d_L, d_L, d_L)
 
 This 6-dimensional representation is the tensor product of the
-irreducible rep of U(1) with hypercharge 1/3, the isospin-$1/2$ rep of
-SU(2), and the fundamental rep of SU(3).
+irreducible rep of \mathrm{U}(1) with hypercharge 1/3, the isospin-$1/2$ rep of
+\mathrm{SU}(2), and the fundamental rep of \mathrm{SU}(3).
 
 That's all the left-handed fermions. Note that they all transform
-transform according to the isospin-$1/2$ rep of SU(2) - we call them
+transform according to the isospin-$1/2$ rep of \mathrm{SU}(2) - we call them
 "isospin doublets". The right-handed fermions all transform according
-to the isospin-0 rep of SU(2) - they're "isospin singlets". First we
+to the isospin-0 rep of \mathrm{SU}(2) - they're "isospin singlets". First we
 have the right-handed electron:
 
 e_R
 
-This is the tensor product of the irreducible rep of U(1) with
-hypercharge -2, the isospin-0 rep of SU(2), and the trivial rep of
-SU(3). Then there are the right-handed up quarks:
+This is the tensor product of the irreducible rep of \mathrm{U}(1) with
+hypercharge -2, the isospin-0 rep of \mathrm{SU}(2), and the trivial rep of
+\mathrm{SU}(3). Then there are the right-handed up quarks:
 
 (u_R, u_R, u_R)
 
-which form the tensor product of the irreducible rep of U(1) with
-hypercharge 4/3, the isospin-0 rep of SU(2), and the fundamental rep of
-SU(3). And then there are the right-handed down quarks:
+which form the tensor product of the irreducible rep of \mathrm{U}(1) with
+hypercharge 4/3, the isospin-0 rep of \mathrm{SU}(2), and the fundamental rep of
+\mathrm{SU}(3). And then there are the right-handed down quarks:
 
 (d_R, d_R, d_R)
 
-which form the tensor product of the irreducible rep of U(1) with
-hypercharge 2/3, the isospin-0 rep of SU(2), and the 3-dimensional
-fundamental rep of SU(3).
+which form the tensor product of the irreducible rep of \mathrm{U}(1) with
+hypercharge 2/3, the isospin-0 rep of \mathrm{SU}(2), and the 3-dimensional
+fundamental rep of \mathrm{SU}(3).
 
 Finally, besides the fermions, there is the - so far unseen - Higgs
 boson:
@@ -258,17 +258,17 @@ boson:
 (H\_+, H_0)
 
 This transforms according to the tensor product of the irreducible rep
-of U(1) with hypercharge 1, the isospin-$1/2$ rep of SU(2), and the
-1-dimensional trivial rep of SU(3).
+of \mathrm{U}(1) with hypercharge 1, the isospin-$1/2$ rep of \mathrm{SU}(2), and the
+1-dimensional trivial rep of \mathrm{SU}(3).
 
-Okay, let's see which elements of U(1) x Z/2 x Z/3 act trivially on all
+Okay, let's see which elements of \mathrm{U}(1) x Z/2 x Z/3 act trivially on all
 these representations! Note first that the generator of Z/2 acts as
 multiplication by 1 on the isospin singlets and -1 on the isospin
 doublets. Similarly, the generator of Z/3 acts as multiplication by 1 on
 the leptons and exp(2 \pi i / 3) on the quarks. Thus everything in Z/2 x
 Z/3 acts as multiplication by some sixth root of unity. So to find
-elements of U(1) x Z/2 x Z/3 that act trivially, we only need to
-consider guys in U(1) that are sixth roots of unity.
+elements of \mathrm{U}(1) x Z/2 x Z/3 that act trivially, we only need to
+consider guys in \mathrm{U}(1) that are sixth roots of unity.
 
 To see what's going on, we make a little table using the information
 I've described:
@@ -276,7 +276,7 @@ I've described:
 
              ACTION OF            ACTION OF             ACTION OF
            exp(\pi i / 3)            -1               exp(2 \pi i / 3)
-              IN U(1)             IN SU(2)               IN SU(3)
+              IN \mathrm{U}(1)             IN \mathrm{SU}(2)               IN \mathrm{SU}(3)
 
     e_L         -1                  -1                     1
     ν_L        -1                  -1                     1
@@ -297,30 +297,30 @@ See any?
 The most important one for our purposes is that if we multiply all three
 numbers in each row, we get 1.
 
-This means that the element (exp(\pi i / 3), -1, exp(2 \pi i / 3)) in U(1) x
-SU(2) x SU(3) acts trivially on all particles. This element generates a
+This means that the element (exp(\pi i / 3), -1, exp(2 \pi i / 3)) in \mathrm{U}(1) x
+\mathrm{SU}(2) x \mathrm{SU}(3) acts trivially on all particles. This element generates a
 subgroup isomorphic to Z/6. If you think a bit harder you'll see there
-are no *other* patterns that would make any *more* elements of U(1) x
-SU(2) x SU(3) act trivially. And if you think about the relation between
+are no *other* patterns that would make any *more* elements of \mathrm{U}(1) x
+\mathrm{SU}(2) x \mathrm{SU}(3) act trivially. And if you think about the relation between
 charge and hypercharge, you'll see this pattern has a lot to do with
 the fact that quark charges in multiples of 1/3, while leptons have
 integral charge. There's more to it than that, though....
 
 Anyway, the "true" gauge group of the Standard Model - i.e., the
-smallest possible one - is not U(1) x SU(2) x SU(3), but the quotient of
+smallest possible one - is not \mathrm{U}(1) x \mathrm{SU}(2) x \mathrm{SU}(3), but the quotient of
 this by the particular Z/6 subgroup we've just found. Let's call this
 group G.
 
 There are two reasons why this might be important. First, Marc Bellon
-pointed out a nice way to think about G: it's the subgroup of U(2) x
-U(3) consisting of elements (g,h) with
+pointed out a nice way to think about G: it's the subgroup of \mathrm{U}(2) x
+\mathrm{U}(3) consisting of elements (g,h) with
 
 (det g)(det h) = 1.
 
-If we embed U(2) x U(3) in U(5) in the obvious way, then this subgroup G
-actually lies in SU(5), thanks to the above equation. And this is what
-people do in the SU(5) grand unified theory. They don't actually stuff
-all of U(1) x SU(2) x SU(3) into SU(5), just the group G! For more
+If we embed \mathrm{U}(2) x \mathrm{U}(3) in \mathrm{U}(5) in the obvious way, then this subgroup G
+actually lies in \mathrm{SU}(5), thanks to the above equation. And this is what
+people do in the \mathrm{SU}(5) grand unified theory. They don't actually stuff
+all of \mathrm{U}(1) x \mathrm{SU}(2) x \mathrm{SU}(3) into \mathrm{SU}(5), just the group G! For more
 details, see ["Week 119"](#week119). Better yet, try this book that
 Brett McInnes recommended to me:
 
@@ -331,9 +331,9 @@ Second, this magical group G has a nice action on a 7-dimensional
 manifold which we can use as the fiber for a 11-dimensional Kaluza-Klein
 theory that mimics the Standard Model in the low-energy limit. The way
 to get this manifold is to take S^3 x S^5 sitting inside C^2 x C^3
-and mod out by the action of U(1) as multiplication by phases. The group
+and mod out by the action of \mathrm{U}(1) as multiplication by phases. The group
 G acts on C^2 x C^3 in an obvious way, and using this it's easy to
-see that it acts on (C^2 x C^3)/U(1).
+see that it acts on (C^2 x C^3)/\mathrm{U}(1).
 
 I'm not sure where to read more about this, but you might try:
 
