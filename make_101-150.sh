@@ -68,6 +68,9 @@ printf "\n" >> $TEX
 printf '%s\n' '\usepackage{graphicx}' >> $TEX
 
 printf "\n" >> $TEX
+printf '%s\n' '\setcounter{section}{100}' >> $TEX
+
+printf "\n" >> $TEX
 printf '%s\n' '\begin{document}' >> $TEX
 
 printf "\n" >> $TEX

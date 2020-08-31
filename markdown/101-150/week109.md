@@ -30,7 +30,7 @@ arguments, let me quote him here:
 "No point is more central than this, that empty space is not empty. It
 is the seat of the most violent physics. The electromagnetic field
 fluctuates. Virtual pairs of positive and negative electrons, in effect,
-are constantly being created and annihilated, and likewise pairs of μ
+are constantly being created and annihilated, and likewise pairs of $\mu$
 mesons, pairs of baryons, and pairs of other particles. All these
 fluctuations coexist with the quantum fluctuations in the geometry and
 topology of space. Are they additional to those geometrodynamic

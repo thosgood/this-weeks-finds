@@ -66,11 +66,11 @@ famous work on Chern-Simons theory - though presumably this is merely a
 testament to the superiority of engineers over mathematicians and
 physicists when it comes to rapid publication. In fluid dynamics, the
 integral of the following quantity
-$$v\cdot\curl(v)$$
+$$v\cdot\operatorname{curl}(v)$$
 (where $v$ is the velocity vector field) is known as the "helicity
 functional". Kotiuga been studying applications of the same
 mathematical object in the context of magnetostatics, namely
-$$A\cdot\curl(A)$$
+$$A\cdot\operatorname{curl}(A)$$
 where $A$ is the magnetic vector potential. It shows up in impedance
 tomography, for example. But in quantum field theory, a generalization
 of this quantity to other forces is known as the "Chern-Simons

@@ -438,7 +438,7 @@ But, a deeper way to think about this emerged in conversations I've had
 with James Dolan. Stasheff invented a notion of "$A_\infty$ space", which is
 a pointed topological space with a product that is associative up to
 homotopy which satisfies the pentagon identity up to... etc. Any $A_\infty$
-space $G$ has a classifying space $\mathbcal{B}G$ such that
+space $G$ has a classifying space $\mathcal{B}G$ such that
 $$\Omega(\mathcal{B}G) \simeq G.$$
 In other words, $\mathcal{B}G$ is a pointed space such that the space of loops based
 at this point is homotopy equivalent to $G$. One can form this space $\mathcal{B}G$ by
