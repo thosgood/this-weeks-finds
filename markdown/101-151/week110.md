@@ -206,22 +206,22 @@ f: j_1 ⊗ j_2\to j_3 ⊗ j_4
 
 where j_1,...,j_4 are the spins on these edges. If you know about the
 representation theory of \mathrm{SU}(2), you know that j_1 ⊗ j_2 is a direct
-sum of representations of spin j~5~, where j~5~ goes from |j_1 ---
+sum of representations of spin j_5, where j_5 goes from |j_1 ---
 j_2| up to j_1 + j_2 in integer steps. So we get a basis of
 intertwining operators:
 
 f: j_1 ⊗ j_2\to j_3 ⊗ j_4
 
-by picking one factoring through each representation j~5~:
+by picking one factoring through each representation j_5:
 
-j_1 ⊗ j_2\to j~5~\to j_3 ⊗ j_4
+j_1 ⊗ j_2\to j_5\to j_3 ⊗ j_4
 
 where:
 
-a) j_1 + j_2 + j~5~ is an integer and |j_1 - j_2| ≤ j~5~ ≤ j_1 +
+a) j_1 + j_2 + j_5 is an integer and |j_1 - j_2| ≤ j_5 ≤ j_1 +
 j_2
 
-b) j_3 + j_4 + j~5~ is an integer and |j_3 - j_4| ≤ j~5~ ≤ j_3 +
+b) j_3 + j_4 + j_5 is an integer and |j_3 - j_4| ≤ j_5 ≤ j_3 +
 j_4.
 
 Using this, we get a basis of simplicial spin networks by labelling all
@@ -230,21 +230,21 @@ Dually, this amounts to labelling each tetrahedron and each triangle in
 our manifold with a spin! Let's think of it this way.
 
 Now focus on a particular simplicial spin network and a particular
-tetrahedron. What do the spins j_1,...,j~5~ say about the geometry of
+tetrahedron. What do the spins j_1,...,j_5 say about the geometry of
 the tetrahedron? By what I said earlier, the spins j_1,...,j_4
 describe the areas of the triangular faces: face number 1 has area
-proportional to (j_1(j_1+1))^½^, and so on. What about j~5~? It also
+proportional to (j_1(j_1+1))^½^, and so on. What about j_5? It also
 describes an area. Take the tetrahedron and hold it so that faces 1 and
 2 are in front, while faces 3 and 4 are in back. Viewed this way, the
 outline of the tetrahedron is a figure with four edges. The midpoints of
 these four edges are the corners of a parallelogram, and the area of
-this parallelogram is proportional to (j~5~(j~5~+1))^½^. In other words,
+this parallelogram is proportional to (j_5(j_5+1))^½^. In other words,
 there is an area operator corresponding to this parallelogram, and our
 spin network state is an eigenvector with eigenvalue proportional to
-(j~5~(j~5~+1))^½^. Finally, there is also a *volume operator*
+(j_5(j_5+1))^½^. Finally, there is also a *volume operator*
 corresponding to the tetrahedron, whose action on our spin network state
 is given by a more complicated formula involving the spins
-j_1,...,j~5~.
+j_1,...,j_5.
 
 Well, that either made sense or it didn't... and I don't think either
 of us want to stick around to find out which! What's the bottom line,

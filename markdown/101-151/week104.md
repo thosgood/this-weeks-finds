@@ -204,8 +204,8 @@ Then it turns out that:
 This relates reals, complexes, quaternions and octonions to the Lorentz
 group in dimensions 3, 4, 6, and 10, and explains the "coincidence"
 noted by Schwarz! But it requires some explanation. Roughly speaking, if
-$\mathrm{SL}(2,K)$ is the group of $2\times2$ matrices with determinant $1$ whose entries
-lie in the division algebra $K = \mathbb{R}, \mathbb{C}, \mathbb{H}, \mathbb{O}$, then $\mathfrak{sl}(2,K)$ is defined to
+$\mathrm{SL}(2,\mathbb{K})$ is the group of $2\times2$ matrices with determinant $1$ whose entries
+lie in the division algebra $\mathbb{K} = \mathbb{R}, \mathbb{C}, \mathbb{H}, \mathbb{O}$, then $\mathfrak{sl}(2,\mathbb{K})$ is defined to
 be the Lie algebra of this group. This is simple enough for $\mathbb{R}$ or $\mathbb{C}$.
 However, one needs to be careful when defining the determinant of a $2\times2$
 quaternionic matrix, since quaternions don't commute. One needs to be
@@ -272,7 +272,7 @@ this:
 - $C_7 = \mathbb{R}(8)\oplus\mathbb{R}(8)$
 - $C_8 = \mathbb{R}(16)$
 
-where $K(n)$ stands for $n\times n$ matrices with entries taken from $K = \mathbb{R}, \mathbb{C}, \mathbb{H}$,
+where $\mathbb{K}(n)$ stands for $n\times n$ matrices with entries taken from $\mathbb{K} = \mathbb{R}, \mathbb{C}, \mathbb{H}$,
 and "$\oplus$" stands for "direct sum". Note that $C_8$ is the same as
 $16\times16$ matrices with entries taken from $C_0$. That's part of a general
 pattern called "Bott periodicity": in general, $C_{n+8}$ is the same as
@@ -280,8 +280,8 @@ $16\times16$ matrices with entries taken from $C_n$.
 
 Now consider the dimension of the smallest real representation of $C_n$.
 It's easy to work this out if you keep in mind that the smallest
-representation of $K(n)$ or $K(n)\oplus K(n)$ is on $K^n$ --- the vector space
-consisting of $n$-tuples of elements of $K$. We get
+representation of $\mathbb{K}(n)$ or $\mathbb{K}(n)\oplus \mathbb{K}(n)$ is on $\mathbb{K}^n$ --- the vector space
+consisting of $n$-tuples of elements of $\mathbb{K}$. We get
 
 The dimension of the smallest real representation:
 
