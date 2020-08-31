@@ -435,7 +435,7 @@ Finally, there's some cool stuff going on with operads that I haven't
 been able to keep up with. Let me quote the abstracts:
 
 19) Alexander A. Voronov, Homotopy Gerstenhaber algebras, preprint
-available as [math.QA/9908040](http://xxx.lanl.gov/abs/math.QA/9908040).
+available as [`math.QA/9908040`](http://xxx.lanl.gov/abs/math.QA/9908040).
 
 The purpose of this paper is to complete Getzler-Jones' proof of
 Deligne's Conjecture, thereby establishing an explicit relationship
@@ -454,7 +454,7 @@ notion of a homotopy Gerstenhaber algebra are made.
 
 20) Maxim Kontsevich, Operads and motives in deformation quantization,
 Lett. Math. Phys. 48 (1999), 35-72, preprint available as
-[math.QA/9904055](http://xxx.lanl.gov/abs/math.QA/9904055).
+[`math.QA/9904055`](http://xxx.lanl.gov/abs/math.QA/9904055).
 
 It became clear during last 5-6 years that the algebraic world of
 associative algebras (abelian categories, triangulated categories, etc)
@@ -473,7 +473,7 @@ motives to quantum field theories.
 
 21) James E. McClure and Jeffrey H. Smith, A solution of Deligne's
 conjecture, preprint available as
-[math.QA/9910126](http://xxx.lanl.gov/abs/math.QA/9910126)
+[`math.QA/9910126`](http://xxx.lanl.gov/abs/math.QA/9910126)
 
 Deligne asked in 1993 whether the Hochschild cochain complex of an
 associative ring has a natural action by the singular chains of the

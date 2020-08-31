@@ -36,7 +36,7 @@ pontifications, which will appear in the Springer-Verlag book:
 
 4) John Baez and James Dolan, From finite sets to Feynman diagrams,
 preprint available as
-[math.QA/0004133](http://arXiv.org/abs/math.QA/0004133)
+[`math.QA/0004133`](http://arXiv.org/abs/math.QA/0004133)
 
 So let me talk about this stuff a bit....
 

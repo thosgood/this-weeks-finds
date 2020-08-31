@@ -236,7 +236,7 @@ more details, including a description of the center construction, try:
 3) John Baez and James Dolan, Categorification, in Higher Category
 Theory, eds. Ezra Getzler and Mikhail Kapranov, Contemporary Mathematics
 vol. 230, AMS, Providence, 1998, pp. 1-36. Also available at
-[math.QA/9802029](http://xxx.lanl.gov/abs/math.QA/9802029).
+[`math.QA/9802029`](http://xxx.lanl.gov/abs/math.QA/9802029).
 
 Anyway, Mueger's elegant characterization of a modular tensor category
 amounts to this: it's a braided 2-H\*-algebra whose center is
@@ -266,7 +266,7 @@ answer is again yes! For details see:
 
 5) Stephen Sawin, Jones-Witten invariants for nonsimply-connected Lie
 groups and the geometry of the Weyl alcove, preprint available as
-[math.QA/9905010](http://xxx.lanl.gov/abs/math.QA/9905010).
+[`math.QA/9905010`](http://xxx.lanl.gov/abs/math.QA/9905010).
 
 This paper uses this machinery to get topological quantum field theories
 related to Chern-Simons theory. People have thought about this a lot,
@@ -286,11 +286,11 @@ progress in unlocking these mysteries:
 
 6) Marco Mackaay, Finite groups, spherical 2-categories, and 4-manifold
 invariants, preprint available as
-[math.QA/9903003](http://xxx.lanl.gov/abs/math.QA/9903003).
+[`math.QA/9903003`](http://xxx.lanl.gov/abs/math.QA/9903003).
 
 7) Mikhail Khovanov, A categorification of the Jones polynomial,
 preprint available as
-[math.QA/9908171](http://xxx.lanl.gov/abs/math.QA/9908171).
+[`math.QA/9908171`](http://xxx.lanl.gov/abs/math.QA/9908171).
 
 Marco Mackaay spoke about his work in Coimbra, and I had grilled him
 about it in Lisbon beforehand, so I think I understand it pretty well.

@@ -404,7 +404,7 @@ really indicates the extent to which new-fangled "quantum topology"
 has interbred with good old- fashioned homotopy theory:
 
 12) Jack Morava, Quantum generalized cohomology, preprint available as
-[math.QA/9807058](http://xxx.lanl.gov/abs/math.QA/9807058) and
+[`math.QA/9807058`](http://xxx.lanl.gov/abs/math.QA/9807058) and
 `http://hopf.math.purdue.edu/`
 
 Again, I'll just quote the abstract rather than venturing my own
@@ -421,7 +421,7 @@ operads and moduli spaces:
 
 13) Satyan L. Devadoss, Tessellations of moduli spaces and the mosaic
 operad, preprint available as
-[math.QA/9807010](http://xxx.lanl.gov/abs/math.QA/9807010).
+[`math.QA/9807010`](http://xxx.lanl.gov/abs/math.QA/9807010).
 
 "We construct a new (cyclic) operad of \`mosaics' defined by polygons
 with marked diagonals. Its underlying (aspherical) spaces are the sets

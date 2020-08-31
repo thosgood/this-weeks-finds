@@ -310,7 +310,7 @@ Alas, I don't really understand this model yet. Finally, to wrap things
 up, something completely different:
 
 12) Richard E. Borcherds, Quantum vertex algebras, preprint available
-as [math.QA/9903038](http://xxx.lanl.gov/abs/math.QA/9903038).
+as [`math.QA/9903038`](http://xxx.lanl.gov/abs/math.QA/9903038).
 
 I like how the abstract of this paper starts: "The purpose of this
 paper is to make the theory of vertex algebras trivial". Good! Trivial

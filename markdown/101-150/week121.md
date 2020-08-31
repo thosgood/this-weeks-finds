@@ -7,7 +7,7 @@ certain "monoidal 2-categories".
 
 1) Marco Mackaay, Spherical 2-categories and 4-manifold invariants,
 preprint available as
-[math.QA/9805030](http://xxx.lanl.gov/abs/math.QA/9805030)
+[`math.QA/9805030`](http://xxx.lanl.gov/abs/math.QA/9805030)
 
 Beautifully, this construction is just a categorified version of Barrett
 and Westbury's construction of 3-dimensional topological quantum field
@@ -25,7 +25,7 @@ skip it.
 Proceedings of the Workshop on Higher Category Theory and Mathematical
 Physics at Northwestern University, Evanston, Illinois, March 1997, eds.
 Ezra Getzler and Mikhail Kapranov. Preprint available as
-[math.QA/9802029](http://xxx.lanl.gov/abs/math.QA/9802029) or at
+[`math.QA/9802029`](http://xxx.lanl.gov/abs/math.QA/9802029) or at
 `http://math.ucr.edu/home/baez/cat.ps`.
 
 So, what's categorification? This tongue-twisting term, invented by
@@ -476,11 +476,11 @@ theory, and now $n$-category theory; this review article sketches some of
 the connections.
 
 8) Masoud Khalkhali, On cyclic homology of A~\infty~ algebras, preprint
-available as [math.QA/9805051](http://xxx.lanl.gov/abs/math.QA/9805051).
+available as [`math.QA/9805051`](http://xxx.lanl.gov/abs/math.QA/9805051).
 
 Masoud Khalkhali, Homology of L~\infty~ algebras and cyclic homology,
 preprint available as
-[math.QA/9805052](http://xxx.lanl.gov/abs/math.QA/9805052).
+[`math.QA/9805052`](http://xxx.lanl.gov/abs/math.QA/9805052).
 
 An A~\infty~ algebra is an algebra that is associative *up to an associator*
 which satisfies the pentagon identity *up to a pentagonator* which

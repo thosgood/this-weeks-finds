@@ -307,15 +307,15 @@ list them here:
 
 12) John McKay, Semi-affine Coxeter-Dynkin graphs and \$G \\subseteq
 SU_2(C)\$, preprint available as
-[math.QA/9907089](http://xxx.lanl.gov/abs/math.QA/9907089).
+[`math.QA/9907089`](http://xxx.lanl.gov/abs/math.QA/9907089).
 
 13) Igor Frenkel, Naihuan Jing and Weiqiang Wang, Vertex
 representations via finite groups and the McKay correspondence, preprint
-available as [math.QA/9907166](http://xxx.lanl.gov/abs/math.QA/9907166).
+available as [`math.QA/9907166`](http://xxx.lanl.gov/abs/math.QA/9907166).
 
 Quantum vertex representations via finite groups and the McKay
 correspondence, preprint available as
-[math.QA/9907175](http://xxx.lanl.gov/abs/math.QA/9907175).
+[`math.QA/9907175`](http://xxx.lanl.gov/abs/math.QA/9907175).
 
 Next time I want to talk about the big category theory conference in
 honor of MacLane's 90th birthday! Then I'll be pretty much caught up
