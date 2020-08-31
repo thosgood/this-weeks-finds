@@ -341,7 +341,7 @@ elliptic curves are really just a way of studying cubic equations!
 But when does 4x^3 - g_2 x - g_3 have repeated roots? Precisely when
 the "discriminant"
 
-Δ = g_2^3 - 27 g_3^2
+\Delta = g_2^3 - 27 g_3^2
 
 equals zero. This is just the analog for cubics of the more familiar
 discriminant for quadratic equations.
@@ -350,7 +350,7 @@ Now for the cool part: there's an explicit formula for the discriminant
 in terms of the variable τ. And it involves the 24th power of the
 Dedekind eta function! Here it is:
 
-Δ = (2 \pi)^12^ η^24^
+\Delta = (2 \pi)^12^ η^24^
 
 If you haven't seen this before, it should seem *amazing* that the
 discriminant of a cubic equation can be computed using the 24th power of

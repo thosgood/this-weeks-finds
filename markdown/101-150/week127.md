@@ -116,9 +116,9 @@ If we can handle this, surely we can handle the integral with the
 observable f(X) in it. Polyakov's trick turns the partition function
 into a double integral:
 
-Z = ∫ ( ∫ exp(-\<X, ΔX\>) dX) dg
+Z = ∫ ( ∫ exp(-\<X, \DeltaX\>) dX) dg
 
-where Δ is the Laplacian on the torus and the angle brackets stand for
+where \Delta is the Laplacian on the torus and the angle brackets stand for
 the usual inner product of R^n-valued functions, both defined using the
 metric g.
 
@@ -129,7 +129,7 @@ for the integral of a Gaussian of finitely many variables - a standard
 trick in quantum field theory. Ignoring an infinite constant that would
 cancel later anyway, the inside integral works out to be:
 
-(det Δ)^-1/2^
+(det \Delta)^-1/2^
 
 But wait! The Laplacian here is a linear operator on the vector space of
 R^n-valued functions on the torus. This is an infinite-dimensional
@@ -199,11 +199,11 @@ determinant".
 So - where are we? We used Polyakov's trick to write the partition
 function of our torus-shaped string as
 
-Z = ∫ ( ∫ exp(-\<X, ΔX\>) dX) dg,
+Z = ∫ ( ∫ exp(-\<X, \DeltaX\>) dX) dg,
 
 then we did the inside integral and got this:
 
-Z = ∫ (det Δ)^-1/2^ dg
+Z = ∫ (det \Delta)^-1/2^ dg
 
 and then we figured out a meaning for the determinant here.
 
@@ -211,7 +211,7 @@ What next? Well, since the Laplacian on R^n-valued functions is the
 direct sum of n copies of the Laplacian on real-valued functions, we
 expect that
 
-(det Δ)^-1/2^ = (det laplacian)^-n/2^
+(det \Delta)^-1/2^ = (det laplacian)^-n/2^
 
 where "laplacian" stands for the Laplacian on ordinary real-valued
 functions on the torus. One can actually check this rigorously using the
@@ -228,10 +228,10 @@ Time for another massage!
 
 Look at this formula again:
 
-Z = ∫ ( ∫ exp(-\<X, ΔX\>) dX) dg
+Z = ∫ ( ∫ exp(-\<X, \DeltaX\>) dX) dg
 
 The Laplacian depends on the metric g, and so does the inner product.
-However, the combination \<X, ΔX\> depends only on the "conformal
+However, the combination \<X, \DeltaX\> depends only on the "conformal
 structure" - i.e., it doesn't change if we multiply the metric by a
 position-dependent scale factor. It also doesn't change under
 diffeomorphisms.
@@ -246,22 +246,22 @@ by an integral over this moduli space.
 
 Indeed, we could hope that
 
-Z = ∫ (∫ exp(-\<X, ΔX\>) dX) d\[g\]         \[hope!\]
+Z = ∫ (∫ exp(-\<X, \DeltaX\>) dX) d\[g\]         \[hope!\]
 
 where now the outside integral is over moduli space and d\[g\] is the
 Weil-Petersson measure. The hope, of course, is that the stuff on the
 inside is well-defined as a function on moduli space.
 
-Actually this hope is a bit naive. Even though \<X, ΔX\> doesn't change
+Actually this hope is a bit naive. Even though \<X, \DeltaX\> doesn't change
 if we recale the metric, the whole inside integral
 
-∫ exp(-\<X, ΔX\>) dX
+∫ exp(-\<X, \DeltaX\>) dX
 
 *does* change. This may seem odd, but remember, we did a lot of
 hair-raising manipulations before we even got this integral to mean
 anything! We basically wound up *defining* it to be
 
-(det Δ)^-1/2^,
+(det \Delta)^-1/2^,
 
 and one can check that this *does* change when we rescale the metric.
 This problem is called the "conformal anomaly".
@@ -278,19 +278,19 @@ exist, rigorously speaking! Still, if we do a bunch more hair-raising
 heuristic manipulations, which I will spare you, we can get a formula
 relating dg and and d\[g\], and using this we get
 
-Z = ∫ ( ∫ exp(-\<X, ΔX\>) dX) f(g) d\[g\]
+Z = ∫ ( ∫ exp(-\<X, \DeltaX\>) dX) f(g) d\[g\]
 
 where f(g) is some function of the metric. There's a perfectly explicit
 formula for this function, but your eyeballs would fall out if I showed
 it to you. Anyway, the real point is that IN 26 DIMENSIONS AND ONLY IN
 26 DIMENSIONS, the integrand
 
-( ∫ exp(-\<X, ΔX\>) dX) f(g)
+( ∫ exp(-\<X, \DeltaX\>) dX) f(g)
 
 is invariant under rescalings of the metric (as well as
 diffeomorphisms). In other words, the conformal anomaly in
 
-∫ exp(-\<X, ΔX\>) dX
+∫ exp(-\<X, \DeltaX\>) dX
 
 is precisely canceled by a similar conformal anomaly in f(g), so their
 product is a well-defined function on moduli space, so it makes sense to
@@ -409,7 +409,7 @@ function - since they have that promising number "24" in them - but
 right now I do *not* see anything like this going on. Instead, it seems
 to be something like this: in the partition function
 
-Z = ∫ (∫ exp(-\<X, ΔX\>) dX) f(g) d\[g\]
+Z = ∫ (∫ exp(-\<X, \DeltaX\>) dX) f(g) d\[g\]
 
 the mysterious function f is basically just the determinant of the
 Laplacian on *vector fields* on the torus. So ignoring those darn zero
@@ -514,7 +514,7 @@ Notes and digressions:
     10) R. T. Seeley, Complex powers of an elliptic operator, Proc.
     Symp. Pure Math. 10 (1967), 288-307.
 
--   Why is the Polyakov action \<X, ΔX\> conformally invariant? Because
+-   Why is the Polyakov action \<X, \DeltaX\> conformally invariant? Because
     the Laplacian has dimensions of 1/length^2, while the integral used
     to define the inner product has dimensions of length^2, since the
     torus is 2-dimensional. This is the magic of 2 dimensions! The path

@@ -85,13 +85,13 @@ a product.
 Now, it's a fun exercise to check that in a Cartesian category, every
 object has a morphism
 
-Δ: a\to a x a
+\Delta: a\to a x a
 
 called the "diagonal", which when composed with either of the two
 projections from a x a to a gives the identity. For example, in the
 topos of sets, the diagonal morphism is given by
 
-Δ(x) = (x,x)
+\Delta(x) = (x,x)
 
 We can think of the diagonal morphism as allowing "duplication of
 information". This is not generally possible in quantum mechanics:
@@ -103,7 +103,7 @@ The reason is that in the category of Hilbert spaces, the tensor product
 is not a product in the above sense! In particular, given a Hilbert
 space H, there isn't a natural diagonal operator
 
-Δ: H\to H tensor H
+\Delta: H\to H tensor H
 
 and there aren't even natural projection operators from H tensor H to
 H. As pointed out to me by James Dolan, this non-Cartesianness of the

@@ -339,8 +339,8 @@ here's how....
 
 **N.** Simplicial objects from adjunctions. Remember from section D of
 ["Week 115"](#week115) that a "simplicial object" in some
-category is a contravariant functor from Δ to that category. In what
-follows, I'll take Δ to be the version of the category of simplices
+category is a contravariant functor from \Delta to that category. In what
+follows, I'll take \Delta to be the version of the category of simplices
 that contains the empty simplex. Topologists don't usually do this, so
 what I'm calling a "simplicial object", they would call an
 "augmented simplicial object". Oh well.
@@ -407,16 +407,16 @@ functors - which I didn't write down - imply the equations in the
 definition of a simplicial object - which I also didn't write down!
 
 The point is, there's a more conceptual approach to understanding why
-this stuff works. Remember from section K of last week that Δ is "the
+this stuff works. Remember from section K of last week that \Delta is "the
 free monoidal category on a monoid object". This implies that whenever
 we have a monoid object in a monoidal category M, we get a monoidal
 functor
 
-F: Δ\to M.
+F: \Delta\to M.
 
 This gives a functor
 
-G: Δ^op^\to M^op^
+G: \Delta^op^\to M^op^
 
 So: a monoid object in M gives a simplicial object in M^op^.
 
