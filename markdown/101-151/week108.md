@@ -3,18 +3,16 @@
 In the Weeks to come I want to talk about quantum gravity, and
 especially the relation between general relativity and spinors, since
 Barrett and Crane and I have some new papers out about how you can
-describe "quantum 4-geometries" - geometries of spacetime which have a
-kind of quantum discreteness at the Planck scale - starting from the
+describe "quantum 4-geometries" --- geometries of spacetime which have a
+kind of quantum discreteness at the Planck scale --- starting from the
 mathematics of spinors.
 
-But first I want to say a bit about CTCS '97 - a conference on category
+But first I want to say a bit about CTCS '97 --- a conference on category
 theory and computer science organized by Eugenio Moggi and Giuseppe
 Rosolini. It was so well-organized that they handed us the conference
 proceedings when we arrived:
 
-1) Eugenio Moggi and Giuseppe Rosolini, eds., Category Theory and
-Computer Science, Lecture Notes in Computer Science 1290, Springer
-Verlag, Berlin, 1997.
+1) Eugenio Moggi and Giuseppe Rosolini, eds., _Category Theory and Computer Science_, Lecture Notes in Computer Science **1290**, Springer Verlag, Berlin, 1997.
 
 It was held in Santa Margherita Ligure, a picturesque little Italian
 beach town near Genoa - the perfect place to spend all day in the
@@ -28,14 +26,14 @@ lots of palm trees and cacti.
 I spoke about $n$-categories, with only the barest mention of their
 possible relevance to computer science. But I was just the token
 mathematical physicist in the crowd; most of the other participants were
-pretty heavily into "theoretical computer science" - a subject that
+pretty heavily into "theoretical computer science" --- a subject that
 covers a lot of new-fangled aspects of what used to be called "logic".
 What's neat is that I almost understood some of these talks, thanks to
 the fact that category theory provides a highly general language for
 talking about processes.
 
 What's a computer, after all, but a physical process that simulates
-fairly arbitrary processes - including other physical processes? As we
+fairly arbitrary processes --- including other physical processes? As we
 simulate more and more physics with better and better computers based on
 more and more physics, it seems almost inevitable that physics and
 computer science will come to be seen as two ends of a more general
@@ -46,113 +44,100 @@ mathematical physics was provided by Gordon Plotkin (in the plane, on
 the way back, when I forced him to explain his talk to me). Computer
 scientists like to define functions recursively. For example, we can
 define a function from the natural numbers to the natural numbers:
-
-f: N\to N
-
-by its value at 0 together with a rule to get its value at n+1 from its
-value at n:
-
-f(0) = c
-
-f(n+1) = g(f(n))
+$$f\colon\mathbb{N}\to\mathbb{N}$$
+by its value at $0$ together with a rule to get its value at $n+1$ from its
+value at $n$:
+$$
+  \begin{aligned}
+    f(0) &= c
+  \\f(n+1) &= g(f(n))
+  \end{aligned}
+$$
 
 Similarly, physicists like to define functions by differential
 equations. For example, we can define a function from the real numbers
 to the real numbers:
-
-f: R\to R
-
-by its value at 0 together with a rule to get its derivative from its
+$$f\colon\mathbb{R}\to\mathbb{R}$$
+by its value at $0$ together with a rule to get its derivative from its
 value:
-
-f(0) = c
-
-f'(t) = g(f(t))
+$$
+  \begin{aligned}
+    f(0) &= c
+  \\f'(t) &= g(f(t))
+  \end{aligned}
+$$
 
 In both cases a question arises: how do we know we've really defined a
 function? And in both cases, the answer involves a "fixed-point
-theorem". In both cases, the equations above define the function f \*in
-terms of itself\*. We can write this using an equation of the form:
-
-f = F(f)
-
-where F is some operator that takes functions to functions. We say f is
-a "fixed point for F" if this holds. A fixed-point theorem is
+theorem". In both cases, the equations above define the function $f$ *in
+terms of itself*. We can write this using an equation of the form:
+$$f = F(f)$$
+where $F$ is some operator that takes functions to functions. We say $f$ is
+a "fixed point for $F$" if this holds. A fixed-point theorem is
 something that says there exists a solution, preferably unique, of this
 sort of equation.
 
-But how do we describe this operator F more precisely in these examples?
+But how do we describe this operator $F$ more precisely in these examples?
 In the case of the definition by recursion, here's how: for any
-function f: N\to N, we define the function F(f): N\to N by
-
-F(f)(0) = c
-
-F(f)(n+1) = g(f(n))
-
-The principle of mathematical induction says that any operator F of this
+function $f\colon\mathbb{N}\to\mathbb{N}$, we define the function $F(f)\colon\mathbb{N}\to\mathbb{N}$ by
+$$
+  \begin{aligned}
+    F(f)(0) &= c
+  \\F(f)(n+1) &= g(f(n))
+  \end{aligned}
+$$
+The principle of mathematical induction says that any operator $F$ of this
 sort has a unique fixed point.
 
 Similarly, we can formulate the differential equation above as a fixed
 point problem by integrating both sides, obtaining:
-
-f(t) = c + integral_0^t g(f(s)) ds
-
+$$f(t) = c + \int_0^t g(f(s)) ds$$
 which is an example of an "integral equation". If we call the function
-on the right hand side F(f), then this integral equation says
-
-f = F(f)
-
+on the right hand side $F(f)$, then this integral equation says
+$$f = F(f)$$
 In this case, "Picard's theorem on the local existence and uniqueness
 of solutions of ordinary differential equations" is what comes to our
 rescue and asserts the existence of a unique fixed point.
 
 You might wonder how Picard's theorem is proved. The basic idea of the
 proof is very beautiful, because it *takes advantage* of the frightening
-circularity implicit in the equation f = F(f). I'll sketch this idea,
+circularity implicit in the equation $f = F(f)$. I'll sketch this idea,
 leaving out all the details.
 
 So, how do we solve this equation? Let's see what we can do with it.
 There's not much to do, actually, except substitute the left side into
 the right side and get:
-
-f = F(F(f)).
-
+$$f = F(F(f)).$$
 Hmm. Now what? Well, we can do it again:
-
-f = F(F(F(f)))
-
+$$f = F(F(F(f)))$$
 and again:
-
-f = F(F(F(f)))).
-
+$$f = F(F(F(f)))).$$
 Are we having fun yet? It look like we're getting nowhere fast... or
 even worse, getting nowhere *slowly*! Can we repeat this process so much
-that the f on the right-hand side goes away, leaving us with the
+that the $f$ on the right-hand side goes away, leaving us with the
 solution we're after:
-
-f =
-F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F..... ?
+$$f = F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F(F\ldots \quad\text{?}$$
 
 Well, actually, yes, if we're smart. What we do is this. We start by
 *guessing* the solution to our equation. How do we guess? Well, our
-solution f should have f(0) = 0, so just start with any function with
-this property. Call it f_1. Then we improve this initial guess
+solution $f$ should have $f(0) = 0$, so just start with any function with
+this property. Call it $f_1$. Then we improve this initial guess
 repeatedly by letting
-
-f_2 = F(f_1)
-
-f_3 = F(f_2)
-
-f_4 = F(f_3)
-
+$$
+  \begin{aligned}
+    f_2 &= F(f_1)
+  \\f_3 &= F(f_2)
+  \\f_4 &= F(f_3)
+  \end{aligned}
+$$
 and so on. Now for the fun part: we show that these guesses get closer
-and closer to each other... so that they converge to some function f
-with f = F(f)! Voila! With a little more work we can show that no matter
+and closer to each other... so that they converge to some function $f$
+with $f = F(f)$! Voila! With a little more work we can show that no matter
 what our initial guess was, our subsequent guesses approach the same
-function f, so that the solution f is unique.
+function $f$, so that the solution $f$ is unique.
 
 I'm glossing over some details, of course. To prove Picard's theorem
-we need to assume the function g is reasonably nice (continuous isn't
+we need to assume the function $g$ is reasonably nice (continuous isn't
 nice enough, we need something like "Lipschitz continuous"), and our
 initial guess should be reasonably nice (continuous will do here). Also,
 Picard's theorem only shows that there's a solution defined on some
@@ -164,10 +149,7 @@ analogy; it's too cute not to be important!)
 You can read about Picard's theorem and other related fixed-point
 theorems in any decent book on analysis. Personally I'm fond of:
 
-2) Michael Reed and Barry Simon, Methods of Modern Mathematical
-Physics. Vol. 1: Functional Analysis. Vol. 2: Fourier Analysis,
-Self-Adjointness. Vol. 3: Scattering Theory. Vol. 4: Analysis of
-Operators. Academic Press, New York, 1980.
+2) Michael Reed and Barry Simon, _Methods of Modern Mathematical Physics_. Vol. 1: _Functional Analysis_. Vol. 2: _Fourier Analysis, Self-Adjointness_. Vol. 3: _Scattering Theory_. Vol. 4: _Analysis of Operators_. Academic Press, New York, 1980.
 
 which is sort of the bible of analysis for mathematical physicists.
 
@@ -176,13 +158,13 @@ mathematical induction as a fixed point theorem. However, this way of
 looking at recursion is the basis of a lot of theoretical computer
 science. It applies not only to recursive definitions of functions but
 also recursive definitions of "types" like those given in "Backus-
-Naur form" - a staple of computer science.
+Naur form" --- a staple of computer science.
 
 Let me take a simple example that Jim Dolan told me about. Suppose we
 have some set of "letters" and we want to define the set of all
 nonempty "words" built from these letters. For example, if our set of
-letters was L = {a,b,c} then we would get an infinite set W of words
-like a, ca, bb, bca, cbabba, and on.
+letters was $L = \{a,b,c\}$ then we would get an infinite set $W$ of words
+like $a$, $ca$, $bb$, $bca$, $cbabba$, and on.
 
 In Backus-Naur form we might express this as follows:
 

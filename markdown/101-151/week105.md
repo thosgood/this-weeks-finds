@@ -313,7 +313,7 @@ is a wonderful explainer of mathematics and one of the main driving
 forces behind applications of topology to physics, and a lot of his
 papers have now been collected in book form:
 
-1) _The Collected Papers of Raoul Bott_, ed. R. D. MacPherson. "Vol. 1: Topology and Lie Groups (the 1950s)". "Vol. 2: Differential Operators (the 1960s)". "Vol. 3: Foliations (the 1970s)". "Vol. 4: Mathematics Related to Physics (the 1980s)". Birkhauser, Boston, 1994, 2355 pages total.
+1) _The Collected Papers of Raoul Bott_, ed. R. D. MacPherson. Vol. 1: _Topology and Lie Groups (the 1950s)_. Vol. 2: _Differential Operators (the 1960s)_. Vol. 3: _Foliations (the 1970s)_. Vol. 4: _Mathematics Related to Physics (the 1980s)_. Birkhauser, Boston, 1994, 2355 pages total.
 
 A good paper on the relation between $\mathrm{O}(\infty)$ and Clifford algebras is:
 
