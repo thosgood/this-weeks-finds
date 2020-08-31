@@ -287,8 +287,8 @@ Also, all the work cited above deals with so-called "Euclidean"
 quantum gravity - that's why it uses the double cover of the rotation
 group \mathrm{SO}(4). For "Lorentzian" quantum gravity we'd need instead to
 use the double cover of the Lorentz group \mathrm{SO}(3,1). This group is
-isomorphic to \mathrm{SL}(2,C). As explained in ["Week 109"](#week109), the
-finite-dimensional irreducible representations of \mathrm{SL}(2,C) are also
+isomorphic to \mathrm{SL}(2,\mathbb{C}). As explained in ["Week 109"](#week109), the
+finite-dimensional irreducible representations of \mathrm{SL}(2,\mathbb{C}) are also
 described by pairs of spins, so the Lorentzian theory should be similar
 to the Euclidean theory. However, most work so far has dealt with the
 Euclidean case; this needs to be addressed.
