@@ -18,75 +18,68 @@ The Standard Model works well but it's fairly baroque, so it's natural
 to hope for some more elegant theory underlying it. Remember how it
 goes:
 
-------------------------------------------------------------------------
+| Electromagnetic force | Weak force | Strong force |
+| :-------------------- | :--------- | :----------- |
+| photon | W\textsubscript{+}, W\textsubscript{-}, Z | 8 gluons |
 
-                                GAUGE BOSONS
-                               
-        ELECTROMAGNETIC FORCE          WEAK FORCE         STRONG FORCE
-            
-             photon                     W+                  8 gluons 
-                                        W-
-                                        Z  
+: Gauge bosons
 
-------------------------------------------------------------------------
+| **Leptons** |    | **Quarks** |    |
+| :---------- | :- | :--------- | :- |
+| electron | electron neutrino | down quark | up quark |
+| muon | muon neutrino | strange quark | charm quark |
+| tauon | tauon neutrino | bottom quark | top quark |
 
-                                FERMIONS
+: Fermions
 
-            LEPTONS                                     QUARKS
-
-    electron        electron neutrino         down quark        up quark
-    muon            muon neutrino             strange quark     charm quark
-    tauon           tauon neutrino            bottom quark      top quark
-
-------------------------------------------------------------------------
-
-                            HIGGS BOSON (not yet seen)
-
-------------------------------------------------------------------------
+|  ?  |
+| :-: |
+: Higgs boson (not yet seen)
 
 The strong, electromagnetic and weak forces are all described by
-Yang-Mills fields, with the gauge group \mathrm{SU}(3) x \mathrm{SU}(2) x \mathrm{U}(1). In what
+Yang-Mills fields, with the gauge group $\mathrm{SU}(3)\times\mathrm{SU}(2)\times\mathrm{U}(1)$. In what
 follows I'll assume you know the rudiments of gauge theory, or at least
 that you can fake it.
 
-\mathrm{SU}(3) is the gauge group of the strong force, and its 8 generators
-correspond to the gluons. \mathrm{SU}(2) x \mathrm{U}(1) is the gauge group of the
+$\mathrm{SU}(3)$ is the gauge group of the strong force, and its 8 generators
+correspond to the gluons. $\mathrm{SU}(2)\times\mathrm{U}(1)$ is the gauge group of the
 electroweak force, which unifies electromagnetism and the weak force.
-It's *not* true that the generators of \mathrm{SU}(2) corresponds to the W+, W-
-and Z while the generator of \mathrm{U}(1) corresponds to the photon. Instead,
-the photon corresponds to the generator of a sneakier \mathrm{U}(1) subgroup
-sitting slantwise inside \mathrm{SU}(2) x \mathrm{U}(1); the basic formula to remember
+It's *not* true that the generators of $\mathrm{SU}(2)$ corresponds to the W\textsubscript{+}, W\textsubscript{-}
+and Z while the generator of $\mathrm{U}(1)$ corresponds to the photon. Instead,
+the photon corresponds to the generator of a sneakier $\mathrm{U}(1)$ subgroup
+sitting slantwise inside $\mathrm{SU}(2)\times\mathrm{U}(1)$; the basic formula to remember
 here is:
-
-Q = I_3 + Y/2
-
-where Q is ordinary electric charge, I_3 is the 3rd component of "weak
+$$Q = I_3 + Y/2$$
+where $Q$ is ordinary electric charge, $I_3$ is the 3rd component of "weak
 isospin", i.e. the generator of \mathrm{SU}(2) corresponding to the matrix
-
-    (1/2   0)
-    (0  -1/2)
-
-and Y, "hypercharge", is the generator of the \mathrm{U}(1) factor. The role of
-the Higgs particle is to spontaneously break the \mathrm{SU}(2) x \mathrm{U}(1) symmetry,
+$$
+  \left(
+    \begin{array}{cc}
+      \frac12&0\\0&-\frac12
+    \end{array}
+  \right)
+$$
+and $Y$, "hypercharge", is the generator of the $\mathrm{U}(1)$ factor. The role of
+the Higgs particle is to spontaneously break the $\mathrm{SU}(2)\times\mathrm{U}(1)$ symmetry,
 and also to give all the massive particles their mass. However, I don't
 want to talk about that here; I want to focus on the fermions and how
-they form representations of the gauge group \mathrm{SU}(3) x \mathrm{SU}(2) x \mathrm{U}(1),
+they form representations of the gauge group $\mathrm{SU}(3)\times\mathrm{SU}(2)\times\mathrm{U}(1)$,
 because I want to talk about how grand unified theories attempt to
-simplify this picture - at the expense of postulating more Higgs bosons.
+simplify this picture --- at the expense of postulating more Higgs bosons.
 
 The fermions come in 3 generations, as indicated in the chart above. I
 want to explain how the fermions in a given generation are grouped into
-irreducible representations of \mathrm{SU}(3) x \mathrm{SU}(2) x \mathrm{U}(1). All the generations
+irreducible representations of $\mathrm{SU}(3)\times\mathrm{SU}(2)\times\mathrm{U}(1)$. All the generations
 work the same way, so I'll just talk about the first generation. Also,
 every fermion has a corresponding antiparticle, but this just transforms
 according to the dual representation, so I will ignore the antiparticles
 here.
 
 Before I tell you how it works, I should remind you that all the
-fermions are, in addition to being representations of \mathrm{SU}(3) x \mathrm{SU}(2) x
-\mathrm{U}(1), also spin-$1/2$ particles. The massive fermions - the quarks and the
-electron, muon and tauon - are Dirac spinors, meaning that they can spin
-either way along any axis. The massless fermions - the neutrinos - are
+fermions are, in addition to being representations of $\mathrm{SU}(3)\times\mathrm{SU}(2)\times\mathrm{U}(1)$,
+also spin-$1/2$ particles. The massive fermions --- the quarks and the
+electron, muon and tauon --- are Dirac spinors, meaning that they can spin
+either way along any axis. The massless fermions --- the neutrinos --- are
 Weyl spinors, meaning that they always spin counterclockwise along their
 axis of motion. This makes sense because, being massless, they move at
 the speed of light, so everyone can agree on their axis of motion! So
@@ -100,8 +93,7 @@ neutrino mass. For more on Standard Model, neutrino mass and different
 kinds of spinors, see ["Week 93"](#week93).)
 
 Okay. The Standard Model lumps the left-handed neutrino and the
-left-handed electron into a single irreducible representation of \mathrm{SU}(3) x
-\mathrm{SU}(2) x \mathrm{U}(1):
+left-handed electron into a single irreducible representation of $\mathrm{SU}(3)\times\mathrm{SU}(2)\times\mathrm{U}(1)$:
 
     (νL, eL)                                 (1,2,-1)
 
@@ -151,7 +143,7 @@ means that its electric charge is Q = -1, as we already knew.
 Anyway, we obviously have a bit of a mess on our hands! The Standard
 Model is full of tantalizing patterns, but annoyingly complicated. The
 idea of grand unified theories is to find a pattern lurking in all this
-data by fitting the group \mathrm{SU}(3) x \mathrm{SU}(2) x \mathrm{U}(1) into a larger group. The
+data by fitting the group $\mathrm{SU}(3)\times\mathrm{SU}(2)\times\mathrm{U}(1)$ into a larger group. The
 smallest-dimensional "simple" Lie group that works is \mathrm{SU}(5). Here
 "simple" is a technical term that eliminates, for example, groups that
 are products of other groups - these aren't very "unified". Georgi
