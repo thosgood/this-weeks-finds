@@ -168,9 +168,9 @@ like $a$, $ca$, $bb$, $bca$, $cbabba$, and on.
 
 In Backus-Naur form we might express this as follows:
 
-letter ::= a | b | c
+    letter ::= a | b | c
 
-word ::= \<letter\> | \<word\> \<letter\>
+    word ::= <letter> | <word> <letter>
 
 In English the first line says "a letter is either a, b, or c", while
 the second says "a word is either a letter or a word followed by a
@@ -178,16 +178,12 @@ letter". The second one is the interesting part because it's
 recursive.
 
 In the language of category theory we could say the same thing as
-follows. Let L be our set of letters. Given any set S, let
-
-F(S) = L + S x L
-
-where + means disjoint union and x means Cartesian product. Then the set
-of "words" built from the letters in L satisfies W = F(W), or in other
+follows. Let $L$ be our set of letters. Given any set $S$, let
+$$F(S) = L + S \times L$$
+where $+$ means disjoint union and $\times$ means Cartesian product. Then the set
+of "words" built from the letters in $L$ satisfies $W = F(W)$, or in other
 words,
-
-W = L + W x L.
-
+$$W = L + W \times L.$$
 This says "a word is either a letter or an ordered pair consisting of a
 word followed by a letter." In short, we have a fixed point on our
 hands!
@@ -195,48 +191,40 @@ hands!
 How do we solve this equation? Well, now I'm going to show you
 something they never showed you when you first learned set theory. We
 just use the usual rules of algebra:
-
-W = L + W x L
-
-W - W x L = L
-
-W x (1 - L) = L
-
-W = L/(1 - L)
-
+$$
+  \begin{aligned}
+    W &= L + W x L
+  \\W - W x L &= L
+  \\W x (1 - L) &= L
+  \\W &= L/(1 - L)
+  \end{aligned}
+$$
 and then expand the answer out as a Taylor series, getting
-
-W = L + L x L + L x L x L + ...
-
+$$W = L + L\times L + L\times L\times L + \ldots$$
 This says "a word is either a letter or an ordered pair of letters or
 an ordered triple of letters or..." Black magic, but it works!
 
-Now, you may wonder exactly what's going on - when we're allowed to
+Now, you may wonder exactly what's going on --- when we're allowed to
 subtract and divide sets and expand functions of sets in Taylor series
 and all that. I'm not an expert on this, but one place to look is in
 Joyal's work on "analytic functors" (functors that you can expand in
 Taylor series):
 
-3) Andre Joyal, Une th'eorie combinatoire des s'eries formelles,
-Advances in Mathematics 42 (1981), 1-82.
+3) Andre Joyal, 'Une théorie combinatoire des séries formelles', _Advances in Mathematics_ **42** (1981), 1--82.
 
 Before I explain a little of the idea behind this black magic, let me do
 another example. I already said that the principle of mathematical
 induction could be thought of as guaranteeing the existence of certain
 fixed points. But underlying this is something still more basic: the set
 of natural numbers is also defined by a fixed point property! Suppose we
-take our set of letters above to be set {0} which has only one element.
-Then our set of words is {0,00,000,0000,0000,...}. We can think of this
+take our set of letters above to be set $\{0\}$ which has only one element.
+Then our set of words is $\{0,00,000,0000,0000,\ldots\}$. We can think of this
 as a funny way of writing the set of natural numbers, so let's call it
-N. Also, let's follow von Neumann and define
-
-1 = {0},
-
+$\mathbb{N}$. Also, let's follow von Neumann and define
+$$1 = {0},$$
 which is sensible since it's a set with one element. Then our fixed
 point equation says:
-
-N = N + 1
-
+$$\mathbb{N} = \mathbb{N} + 1$$
 This is the basic fixed point property of the natural numbers.
 
 At this point some of you may be squirming... this stuff looks a bit
@@ -245,60 +233,51 @@ some category theory, so I'll assume you've read
 ["Week 73"](#week73) and ["Week 76"](#week76) where I
 explained categories and functors and isomorphisms.
 
-If you've got a function F: S\to S from some set to itself, a fixed
-point of F is just an element x for which F(x) is *equal* to x. But now
-suppose we have a functor F: C\to C from some category to itself. What's
+If you've got a function $F\colon S\to S$ from some set to itself, a fixed
+point of $F$ is just an element $x$ for which $F(x)$ is *equal* to $x$. But now
+suppose we have a functor $F\colon \mathcal{C}\to\mathcal{C}$ from some category to itself. What's
 a fixed point of this?
 
-Well, we could define it as an object x of C for which F(x) = x. But if
+Well, we could define it as an object $x$ of $\mathcal{C}$ for which $F(x) = x$. But if
 you know a little category theory you'll know that this sort of
 "strict" fixed point is very boring compared to a "weak" fixed
-point: an object x of C equipped with an *isomorphism*
-
-f: F(x)\to x
-
+point: an object $x$ of $\mathcal{C}$ equipped with an *isomorphism*
+$$f\colon F(x)\to x.$$
 Equality is dull, isomorphism is interesting. It's also very
 interesting to consider a more general notion: a "lax" fixed point,
 meaning an object x equipped with just a *morphism*
-
-f: F(x)\to x
-
-Let's consider an example. Take our category C to be the category of
-sets. And take our functor F to be the functor
-
-F(x) = x + 1
-
-by which we mean "disjoint union of the set x with the one-element
-set" - I leave it to you to check that this is a functor. A lax fixed
-point of F is thus a set x equipped with a function
-
-f: x + 1\to x
-
-so the natural numbers N = {0,00,000,...} is a lax fixed point in an
-obvious way... in fact a weak fixed point. So when I wrote N = N + 1
+$$f\colon F(x)\to x.$$
+Let's consider an example. Take our category $\mathcal{C}$ to be the category of
+sets. And take our functor $F$ to be the functor
+$$F(x) = x + 1$$
+by which we mean "disjoint union of the set $x$ with the one-element
+set" --- I leave it to you to check that this is a functor. A lax fixed
+point of $F$ is thus a set $x$ equipped with a function
+$$f\colon x + 1\to x$$
+so the natural numbers $\mathbb{N} = \{0,00,000,\ldots\}$ is a lax fixed point in an
+obvious way... in fact a weak fixed point. So when I wrote $\mathbb{N} = \mathbb{N} + 1$
 above, I was lying: they're not equal, they're just isomorphic.
 Similarly with those other equations involving sets.
 
 Now, just as any function from a set to itself has a *set* of fixed
-points, any functor F from a category C to itself has a *category* of
-lax fixed points. An object in this category is just an object x of C
-equipped with a morphism f: F(x)\to x, and a morphism from this object to
-some other object g: F(y)\to y is just a commutative square:
-
-                                  f
-                           F(x) -----> x
-                            |          |
-                        F(h)|          | h
-                            |          |
-                            V     g    V
-                           F(y) -----> y
-
+points, any functor $F$ from a category $\mathcal{C}$ to itself has a *category* of
+lax fixed points. An object in this category is just an object $x$ of $\mathcal{C}$
+equipped with a morphism $f\colon F(x)\to x$, and a morphism from this object to
+some other object $g\colon F(y)\to y$ is just a commutative square:
+$$
+  \begin{tikzcd}
+    F(x) \rar["f"] \dar[swap,"F(h)"]
+    & x \dar["h"]
+  \\F(y) \rar[swap,"g"]
+    & y
+  \end{tikzcd}
+$$
 In our example, the natural numbers is actually the "initial" lax
 fixed point, meaning that in the category of lax fixed points there is
 exactly one morphism from this object to any other.
 
 So that's the real meaning of these funny recursive definitions in
-Backus-Naur form: we have a functor F from some category like Set to
+Backus-Naur form: we have a functor $F$ from some category like $\mathsf{Set}$ to
 itself, and we are defining an object by saying that it's the initial
 lax fixed point of this functor. It's a souped-up version of defining
 an element of a set as the unique fixed point of a function!
@@ -318,9 +297,7 @@ after reading the above stuff:
 >
 > The original work on representing grammars as power series is
 >
-> 4) N. Chomsky and M. P. Schutzenberger, The algebraic theory of
-> context-free languages, in Computer Programming and Formal Systems,
-> North-Holland Publishing Company, 1963.
+> 4) N. Chomsky and M. P. Schutzenberger, "The algebraic theory of context-free languages", in _Computer Programming and Formal Systems_, North-Holland Publishing Company, 1963.
 >
 > ...where Schutzenberger supplied the formal power series aspect,
 > basically just as the usual generating function trick.
@@ -329,8 +306,7 @@ after reading the above stuff:
 > culminating in the work of Samuel Eilenberg, founder of category
 > theory, such as in
 >
-> 5) Samuel Eilenberg, Automata, Languages and Machines, Academic
-> Press, NY, 1974.
+> 5) Samuel Eilenberg, Automata, _Languages and Machines_, Academic Press, NY, 1974.
 >
 > A lot of the work in the area comes under the heading "syntactic
 > semigroups", which is fairly self-explanatory (and yields a lot of
@@ -350,10 +326,7 @@ after reading the above stuff:
 > (multivariable) grammars via the Generalized LIF), and that is even
 > quite readable:
 >
-> 6) Ole Vilhelm Larsen, Computing order-independent statistical
-> characteristics of stochastic context-free languages, available as
-> `http://cwis.auc.dk/phd/fulltext/larsen/html/index.html` or acrobat
-> format in: `http://cwis.auc.dk/phd/fulltext/larsen/pdf/larsen.pdf`
+> 6) Ole Vilhelm Larsen, _Computing order-independent statistical characteristics of stochastic context-free languages_, available as `http://cwis.auc.dk/phd/fulltext/larsen/html/index.html` or acrobat format in: `http://cwis.auc.dk/phd/fulltext/larsen/pdf/larsen.pdf`
 >
 > The html and acrobat thesis is in English, but the web pages are in
 > Danish, which is why I explicitly give both URLs. The abstract is too
@@ -365,9 +338,9 @@ after reading the above stuff:
 > different non-contractive situations began to appear, and research
 > continues hot and heavy. One danger of simply assuming fixed points is
 > that there may be orbits rather than attractive basins, which I
-> alluded to briefly in my sci.math FAQ entry (which has become somewhat
-> mangled over the years) concerning the numeric solution of f(x) = x^x
-> via direct fixed point recurrence (F(F(F(F(F...(guess)..)))). The
+> alluded to briefly in my `sci.math` FAQ entry (which has become somewhat
+> mangled over the years) concerning the numeric solution of $f(x) = x^x$
+> via direct fixed point recurrence $(F(F(F(F(F...(\text{guess})..))))$. The
 > orbits cause oscillatory instability in some regions such that it
 > becomes appropriate to switch to a different technique.
 >
