@@ -279,7 +279,7 @@ f((a τ + b)/(c τ + d)) = (c τ + d)^k^ f(τ)
 for some integer k. We also require that f satisfy some growth
 conditions as τ\to\infty, so we can expand it as a Taylor series
 
-f(τ) = ∑ a_n q^n
+f(τ) = \sum a_n q^n
 
 where
 
@@ -302,7 +302,7 @@ And now we can say what it means for an elliptic curve to be modular! We
 say an elliptic curve E is "modular" if for some N there's a weight 2
 level N cusp form
 
-f(τ) = ∑ a_n q^n
+f(τ) = \sum a_n q^n
 
 normalized so that a_1 = 1, with the property that
 

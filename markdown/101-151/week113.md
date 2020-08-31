@@ -39,7 +39,7 @@ vertices labelled by intertwiners. If you don't know what this means,
 don't panic! If we take our symmetry group to be \mathrm{SU}(2), things simplify
 tremendously. If we take our graph to have 4 edges meeting at every
 vertex, things simplify even more. In this case, all we need to do is
-label each vertex and each edge with a number j = 0, 1/2, 1, 3/2,...
+label each vertex and each edge with a number $j = 0, 1/2, 1, 3/2,\ldots$
 called a "spin".
 
 In this special case, we can get our spin network as a slice of a

@@ -632,7 +632,7 @@ remarks....
 >     >This doesn't seem too surprising.  1/(2 - 2g) is also infinite.
 >     >Just use the geometric series in reverse:
 >     >
->     >                  1/(2 - 2g) = (1/2) ∑i gi, 
+>     >                  1/(2 - 2g) = (1/2) \sum_i gi, 
 >     >
 >     >which diverges since g > 1.
 >

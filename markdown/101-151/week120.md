@@ -260,7 +260,7 @@ Immirzi ambiguity, preprint available as
 
 12) John Baez and Stephen Sawin, Diffeomorphism-invariant spin network
 states, to appear in Jour. Funct. Analysis, preprint available as
-[q-alg/9708005](http://xxx.lanl.gov/abs/q-alg/9708005) or at
+[`q-alg/9708005`](http://xxx.lanl.gov/abs/q-alg/9708005) or at
 `http://math.ucr.edu/home/baez/int2.ps`
 
 > We extend the theory of diffeomorphism-invariant spin network states

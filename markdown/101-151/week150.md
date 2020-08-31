@@ -302,13 +302,13 @@ h^\*^(CP^\infty^) = R\[\[c\]\]
 
 and similarly we have
 
-h^\*^(CP^\infty^ × CP^\infty^) = R\[\[c\]\] ⊗ R\[\[c\]\]
+h^\*^(CP^\infty^ × CP^\infty^) = R\[\[c\]\] \otimes R\[\[c\]\]
 
-where the product "⊗" on the right side is a slightly fattened-up
+where the product "\otimes" on the right side is a slightly fattened-up
 version of the usual tensor product of algebras over R. So we really
 have homomorphisms
 
-m^\*^: R\[\[c\]\]\to R\[\[c\]\] ⊗ R\[\[c\]\]
+m^\*^: R\[\[c\]\]\to R\[\[c\]\] \otimes R\[\[c\]\]
 
 i^\*^: R\[\[c\]\]\to R\[\[c\]\]
 
@@ -332,7 +332,7 @@ visualize guys in R\[\[c\]\] as formal power series on the line, where
 the line has been equipped with some abelian group structure, at least
 right near the origin. This group structure is what yields the coproduct
 
-m^\*^: R\[\[c\]\]\to R\[\[c\]\] ⊗ R\[\[c\]\]
+m^\*^: R\[\[c\]\]\to R\[\[c\]\] \otimes R\[\[c\]\]
 
 and antipode
 

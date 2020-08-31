@@ -192,12 +192,12 @@ a couple of the basic papers when I was in Portugal:
 
 10) Dirk Kreimer, Renormalization and knot theory, Journal of Knot
 Theory and its Ramifications, 6 (1997), 479-581. Preprint available as
-[q-alg/9607022](http://xxx.lanl.gov/abs/q-alg/9607022) - beware, this is
+[`q-alg/9607022`](http://xxx.lanl.gov/abs/q-alg/9607022) - beware, this is
 103 pages long!
 
 Dirk Kreimer, On the Hopf algebra structure of perturbative quantum
 field theories, preprint available as
-[q-alg/9707029](http://xxx.lanl.gov/abs/q-alg/9707029).
+[`q-alg/9707029`](http://xxx.lanl.gov/abs/q-alg/9707029).
 
 I'm looking through them but I don't really understand them yet. The
 basic idea seems to be something like this. In quantum field theory you

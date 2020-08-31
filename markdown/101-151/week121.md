@@ -116,7 +116,7 @@ law and a unit element satisfying the left and right unit laws. The
 categorified version of a monoid is a "monoidal category". This is a
 category C with a product
 
-⊗: C × C\to C
+\otimes: C × C\to C
 
 and unit object 1. If we naively impose associativity and the left and
 right unit laws as equational laws, we obtain the definition of a
@@ -125,13 +125,13 @@ categorification suggests instead that we impose them only up to natural
 isomorphism. Thus, as part of the structure of a "weak" monoidal
 category, we specify a natural isomorphism
 
-a~x,y,z~: (x ⊗ y) ⊗ z\to x ⊗ (y ⊗ z)
+a~x,y,z~: (x \otimes y) \otimes z\to x \otimes (y \otimes z)
 
 called the "associator", together with natural isomorphisms
 
-l~x~: 1 ⊗ x\to x,
+l~x~: 1 \otimes x\to x,
 
-r~x~: x ⊗ 1\to x.
+r~x~: x \otimes 1\to x.
 
 Using the associator one can construct isomorphisms between any two
 parenthesized versions of the tensor product of several objects.
@@ -139,17 +139,17 @@ However, we really want a *unique* isomorphism. For example, there are 5
 ways to parenthesize the tensor product of 4 objects, which are related
 by the associator as follows:
 
-    ((x ⊗ y) ⊗ z) ⊗ w ----------------> (x ⊗ (y ⊗ z)) ⊗ w
+    ((x \otimes y) \otimes z) \otimes w ----------------> (x \otimes (y \otimes z)) \otimes w
              |                                   |
              |                                   |
              |                                   |
              V                                   |
-    (x ⊗ y) ⊗ (z ⊗ w)                            |
+    (x \otimes y) \otimes (z \otimes w)                            |
              |                                   |
              |                                   |
              |                                   |
              V                                   V
-    {x ⊗ (y ⊗ (z ⊗ w)) <---------------- x ⊗ ((y ⊗ z) ⊗ w)
+    {x \otimes (y \otimes (z \otimes w)) <---------------- x \otimes ((y \otimes z) \otimes w)
 
 In the definition of a weak monoidal category we impose a coherence law,
 called the "pentagon identity", saying that this diagram commutes.
@@ -157,11 +157,11 @@ Similarly, we impose a coherence law saying that the following diagram
 built using a, l and r commutes:
 
 
-    (1 ⊗ x) ⊗ 1  ----------> 1 ⊗ (x ⊗ 1)
+    (1 \otimes x) \otimes 1  ----------> 1 \otimes (x \otimes 1)
           |                       |
           |                       | 
           V                       V
-       x ⊗ 1 ------> x <------ 1 ⊗ x
+       x \otimes 1 ------> x <------ 1 \otimes x
 
 This definition raises an obvious question: how do we know we have found
 all the right coherence laws? Indeed, what does "right" even *mean* in
@@ -192,42 +192,42 @@ coherence theorems, certain puzzles point to the need for a deeper
 understanding of the *origin* of coherence laws. For example, suppose we
 want to categorify the notion of "commutative monoid". The strictest
 possible approach, where we take a strict monoidal category and impose
-an equational law of the form x ⊗ y = y ⊗ x, is almost completely
+an equational law of the form x \otimes y = y \otimes x, is almost completely
 uninteresting. It is much better to start with a weak monoidal category
 equipped with a natural isomorphism
 
-B~x,y~: x ⊗ y\to y ⊗ x
+B~x,y~: x \otimes y\to y \otimes x
 
 called the "braiding" and then impose coherence laws called "hexagon
 identities" saying that the following two diagrams built from the
 braiding and the associator commute:
 
 
-    x ⊗ (y ⊗ z)  ------------>  (y ⊗ z) ⊗ x 
+    x \otimes (y \otimes z)  ------------>  (y \otimes z) \otimes x 
          |                            ^
          |                            |
          V                            |
 
-    (x ⊗ y) ⊗ z                 y ⊗ (z ⊗ x)
+    (x \otimes y) \otimes z                 y \otimes (z \otimes x)
          |                            ^
          |                            |
          V                            |
 
-    (y ⊗ x) ⊗ z  ------------>  y ⊗ (x ⊗ z)
+    (y \otimes x) \otimes z  ------------>  y \otimes (x \otimes z)
 
 
 
-    (x ⊗ y) ⊗ z  ------------>  z ⊗ (x ⊗ y)
+    (x \otimes y) \otimes z  ------------>  z \otimes (x \otimes y)
          |                            ^
          |                            |
          V                            |
 
-    x ⊗ (y ⊗ z)                 (z ⊗ z) ⊗ y
+    x \otimes (y \otimes z)                 (z \otimes z) \otimes y
          |                            ^
          |                            |
          V                            |
 
-    x ⊗ (z ⊗ y)  ------------>  (x ⊗ z) ⊗ y
+    x \otimes (z \otimes y)  ------------>  (x \otimes z) \otimes y
 
 This gives the definition of a weak "braided monoidal category". If we
 impose an additional coherence law saying that B~x,y~ is the inverse of

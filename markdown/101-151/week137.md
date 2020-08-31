@@ -168,7 +168,7 @@ I'll resist the temptation to tell you the details, since
 
 2) John Baez, Higher-dimensional algebra II: 2-Hilbert spaces, Adv.
 Math. 127 (1997), 125-189. Also available as
-[q-alg/9609018](http://xxx.lanl.gov/abs/q-alg/9609018).
+[`q-alg/9609018`](http://xxx.lanl.gov/abs/q-alg/9609018).
 
 In this paper I call a 2-Hilbert space with a compatible tensor product
 a "2-H\*-algebra", and if it also has a compatible braiding, I call it
