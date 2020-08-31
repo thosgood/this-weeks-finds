@@ -8,14 +8,14 @@ about two more phases that people are trying to create: quark-gluon
 plasma and strange quark matter. The first almost certainly exists; the
 second is a matter of much discussion.
 
-1) The E864 Collaboration, Search for charged strange quark matter
+1) The \mathrm{E}_864 Collaboration, Search for charged strange quark matter
 produced in 11.5 A GeV/c Au + Pb collisions, Phys. Rev. Lett. 79 (1997)
 3612-3616, preprint available as
 [nucl-ex/9706004](http://xxx.lanl.gov/abs/nucl-ex/9706004).
 
 Last week I went to a talk on the search for strange quark matter by one
 of these collaborators, Kenneth Barish. This talk was based on Barish's
-work at the E864 experiment at the "AGS", the alternating gradient
+work at the \mathrm{E}_864 experiment at the "AGS", the alternating gradient
 synchrotron at Brookhaven National Laboratory in Long Island, New York.
 
 What's "strange quark matter"? Well, first remember from
@@ -78,7 +78,7 @@ a soup of free quarks and gluons: a "quark-gluon plasma".
 To get deconfinement to happen is not easy - at low pressures, it's
 expected to occur at a temperature of 2 trillion Kelvin! According to
 the conventional wisdom in cosmology, the last time deconfinement was
-prevalent was about 1 microsecond after the big bang! In the E864
+prevalent was about 1 microsecond after the big bang! In the \mathrm{E}_864
 experiment, they are accelerating gold nuclei to energies of 11.5 GeV
 per nucleon and colliding them with a fixed target made of lead, which
 is apparently *not* enough energy to fully achieve deconfinement - they
@@ -111,7 +111,7 @@ temperatures, even if they've never actually seen it happen. A more
 speculative possibility is that as quark-gluon plasma cools down it
 forms "strange quark matter" in the form of "strangelets": big bags
 of up, down, and strange quarks. This is what they're looking for at
-E864. Their experiment would only detect strangelets that live long
+\mathrm{E}_864. Their experiment would only detect strangelets that live long
 enough to get to the detector. When their experiment is running they get
 10^6 collisions per second. So far they've set an upper bound of
 10^{-7} charged strangelets per collision, neutral strangelets being

@@ -83,7 +83,7 @@ the right hand side, which is called - surprise! - the "beta function"
 of our theory. Typically we get something like this:
 
        dG 
-     -------  = (n - d)G + aG2 + bG3 + ....
+     -------  = (n - d)G + a\mathrm{G}_2 + bG3 + ....
      d(ln p)
 
 Here n is the dimension of spacetime and d is a number called the
@@ -152,7 +152,7 @@ This is obvious for renormalizable theories, since when n = d, the beta
 function looks like
 
        dG 
-     -------  = aG2 + bG3 + ....
+     -------  = a\mathrm{G}_2 + bG3 + ....
      d(ln p)
 
 so if we ignore the higher-order terms, we are ignoring the whole
@@ -160,7 +160,7 @@ right-hand side! To see the effect of these higher-order terms let's
 just consider the simple case where
 
        dG 
-     -------  = aG2
+     -------  = a\mathrm{G}_2
      d(ln p)
 
 If you solve this you get
@@ -194,7 +194,7 @@ critical dimension), it's also asympotically free! Thus in n
 dimensions, we have
 
        dG 
-     -------  = (n - 2)G + aG2 + ....
+     -------  = (n - 2)G + a\mathrm{G}_2 + ....
      d(ln p)
 
 where a \< 0. If we ignore the higher-order terms which I have written
@@ -228,7 +228,7 @@ higher-order terms in the beta function in our last bit of reasoning.
 They can still screw things up. For example, if
 
        dG 
-     -------  = (n - 2)G + aG2 + bG3 
+     -------  = (n - 2)G + a\mathrm{G}_2 + bG3 
      d(ln p)
 
 and b is positive, there will not be a Wilson-Fisher fixed point when

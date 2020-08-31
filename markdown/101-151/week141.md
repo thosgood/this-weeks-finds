@@ -325,12 +325,12 @@ sectional curvature:
 sectional curvature, Ann. Math. 100 (1974), 401-406.
 
 The construction isn't terribly hard so let me describe it. First,
-start with the group Sp(2), consisting of $2\times2$ unitary quaternionic
+start with the group \mathrm{Sp}(2), consisting of $2\times2$ unitary quaternionic
 matrices (see ["Week 64"](#week64)). As always with compact Lie
 groups, this has a metric that's invariant under right and left
 translations, and this metric is unique up to a constant scale factor.
 The group of unit quaternions acts as metric-preserving maps (aka
-"isometries") of Sp(2) in the following way: let the quaternion q map
+"isometries") of \mathrm{Sp}(2) in the following way: let the quaternion q map
 
        (a b)  
        (c d)

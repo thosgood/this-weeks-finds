@@ -245,33 +245,33 @@ vector spaces - the \mathrm{SO}(n) groups, also called the B and D series. There
 is an infinite series of them associated to rotations in complex vector
 spaces - the \mathrm{SU}(n) groups, also called the A series. And there is
 infintie series of them associated to rotations in quaternionic vector
-spaces - the Sp(n) groups, also called the C series. And there is a
+spaces - the \mathrm{Sp}(n) groups, also called the C series. And there is a
 ragged band of 5 exceptions which are related to the octonions, called
-G2, F4, E6, E7, and E8. I'm sort of fascinated by these - see
+\mathrm{G}_2, \mathrm{F}_4, \mathrm{E}_6, \mathrm{E}_7, and \mathrm{E}_8. I'm sort of fascinated by these - see
 ["Week 90"](#week90), ["Week 91"](#week91), and
 ["Week 106"](#week106) for more - so I was extremely delighted to
 find that the E series plays a special role in grand unified theories.
 
-Now, people usually only talk about E6, E7, and E8, but one can work
+Now, people usually only talk about \mathrm{E}_6, \mathrm{E}_7, and \mathrm{E}_8, but one can work
 backwards using Dynkin diagrams to define E5, E4, E3, E2, and E1. Let's
 do it! Thanks go to Allan Adler and Robin Chapman for helping me
 understand how this works....
 
-E8 is a big fat Lie group whose Dynkin diagram looks like this:
+\mathrm{E}_8 is a big fat Lie group whose Dynkin diagram looks like this:
 
           o      
           |      
     o--o--o--o--o--o---o
 
 If we remove the rightmost root, we obtain the Dynkin diagram of a
-subgroup called E7:
+subgroup called \mathrm{E}_7:
 
           o      
           |      
     o--o--o--o--o--o
 
 If we again remove the rightmost root, we obtain the Dynkin diagram of a
-subgroup of E7, namely E6:
+subgroup of \mathrm{E}_7, namely \mathrm{E}_6:
 
           o      
           |      
@@ -326,7 +326,7 @@ tell me. This could be an important clue.
 
 Now, this stuff about grand unified theories and the E series is one of
 the reasons why people like string theory, because heterotic string
-theory is closely related to E8 (see ["Week 95"](#week95)).
+theory is closely related to \mathrm{E}_8 (see ["Week 95"](#week95)).
 However, I must now tell you the *bad* news about grand unified
 theories. And it is *very* bad.
 

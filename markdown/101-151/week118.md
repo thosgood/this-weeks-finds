@@ -118,7 +118,7 @@ to a mysterious conspiracy of beautiful mathematical facts. These
 the theory as deeply as we should. Right now I'm most interested in the
 algebraic aspects of superstring theory - and especially its
 relationships to "exceptional algebraic structures" like the
-octonions, the Lie group E8, and so on. As I learn superstring theory, I
+octonions, the Lie group \mathrm{E}_8, and so on. As I learn superstring theory, I
 like keeping track of the various ways these structures show up, like
 remembering the clues in a mystery novel.
 
@@ -144,8 +144,8 @@ I explained in ["Week 72"](#week72):
     right-moving fermionic modes have opposite chiralities.
 3.  type IIB superstrings - closed strings where the left- and
     right-moving fermionic modes have the same chirality.
-4.  E8 heterotic superstrings - closed strings where the left-moving
-    modes are purely bosonic, with symmetry group E8 x E8.
+4.  \mathrm{E}_8 heterotic superstrings - closed strings where the left-moving
+    modes are purely bosonic, with symmetry group \mathrm{E}_8 x \mathrm{E}_8.
 5.  \mathrm{Spin}(32)/Z_2 heterotic superstrings - closed strings where the
     left-moving modes are purely bosonic, with symmetry group
     \mathrm{Spin}(32)/Z_2
@@ -192,7 +192,7 @@ dimensions (where one only has N = 1 supergravity). Note that this is
 one more than the favored dimension of superstring theory! This puzzled
 people for a long time. Now it seems that M-theory is beginning to
 resolve these puzzles. Another interesting discovery is that
-11-dimensional supergravity is related to the exceptional Lie group E8:
+11-dimensional supergravity is related to the exceptional Lie group \mathrm{E}_8:
 
 8) Stephan Melosch and Hermann Nicolai, New canonical variables for d =
 11 supergravity, preprint available as

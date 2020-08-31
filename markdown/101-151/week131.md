@@ -174,7 +174,7 @@ about neutrino oscillations. Somebody should explain them!
 
 On a slightly different note, one of my little side hobbies is to study
 the octonions and dream about how they might be useful in physics. One
-place they show up is in the E6 grand unified theory - the next theory
+place they show up is in the \mathrm{E}_6 grand unified theory - the next theory
 up from the \mathrm{SO}(10) theory. I said a bit about this in
 ["Week 119"](#week119), but I just bumped into another paper on it
 in the same conference proceedings that Glashow's paper appears is:
@@ -184,14 +184,14 @@ Grand Unification, eds. Paul H. Frampton, Sheldon L. Glashow and Asim
 Yildiz, Math Sci Press, Brookline Massachusetts, 1980, pp. 39-55.
 
 He says something interesting that I want to understand someday - maybe
-someone can explain why it's true. He says that E6 is a "complex"
-group, E7 is a "pseudoreal" group, and E8 is a "real" group. This
-use of terminology may be nonstandard, but what he means is that E6
-admits complex representations that are not their own conjugates, E7
+someone can explain why it's true. He says that \mathrm{E}_6 is a "complex"
+group, \mathrm{E}_7 is a "pseudoreal" group, and \mathrm{E}_8 is a "real" group. This
+use of terminology may be nonstandard, but what he means is that \mathrm{E}_6
+admits complex representations that are not their own conjugates, \mathrm{E}_7
 admits complex reps that are their own conjugates, and that all complex
-reps of E8 are complexifications of real ones (and hence their own
+reps of \mathrm{E}_8 are complexifications of real ones (and hence their own
 conjugates). This should have something to do with the symmetry of the
-Dynkin diagram of E6.
+Dynkin diagram of \mathrm{E}_6.
 
 Octonions are also prominent in string theory and in the grand unified
 theories proposed by my friends Geoffrey Dixon and Tony Smith - see
@@ -315,8 +315,8 @@ times that of the Sun!
 ------------------------------------------------------------------------
 
 Addendum: Here is something from Allen Knutson in response to my remark
-that E6 has complex representations that aren't their own conjugates. I
-hoped that this is related to the symmetry of the Dynkin diagram of E6,
+that \mathrm{E}_6 has complex representations that aren't their own conjugates. I
+hoped that this is related to the symmetry of the Dynkin diagram of \mathrm{E}_6,
 and Allen replied:
 
     It does. The automorphism G→G that exchanges representations with their

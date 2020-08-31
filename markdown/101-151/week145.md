@@ -304,7 +304,7 @@ I already talked about the octonions in ["Week 59"](#week59),
 ["Week 105"](#week105). In ["Week 106"](#week106), I explained
 how you can define OP^2, the projective plane over the octonions. This
 is the best example of a non-Desarguesian projective plane. One reason
-it's so great is that that its group of collineations is E6. E6 is one
+it's so great is that that its group of collineations is \mathrm{E}_6. \mathrm{E}_6 is one
 of the five "exceptional simple Lie groups" - mysterious and exciting
 things that deserve all the study they can get!
 
@@ -406,10 +406,10 @@ algebras M(F,F'):
                  F = R     F = C     F = H     F = O
 
 
-    F' = R        A1        A2        C3        F4
-    F' = C        A2       A2+A2      A5        E6
-    F' = H        C3        A5        B6        E7
-    F' = O        F4        E6        E7        E8
+    F' = R        A1        A2        C3        \mathrm{F}_4
+    F' = C        A2       A2+A2      A5        \mathrm{E}_6
+    F' = H        C3        A5        B6        \mathrm{E}_7
+    F' = O        \mathrm{F}_4        \mathrm{E}_6        \mathrm{E}_7        \mathrm{E}_8
 
 Here R, C, H and O stand for the reals, complexes, quaternions and
 octonions. If you don't know what all the Lie algebras in the square
@@ -417,8 +417,8 @@ are, check out ["Week 64"](#week64). (I should admit that the above
 square is not very precise, because I don't say which real forms of the
 Lie algebras in question are showing up.)
 
-The first fun thing about this square is that F4, E6, E7 and E8 are four
-of the five exceptional simple Lie algebras - and the fifth one, G2, is
+The first fun thing about this square is that \mathrm{F}_4, \mathrm{E}_6, \mathrm{E}_7 and \mathrm{E}_8 are four
+of the five exceptional simple Lie algebras - and the fifth one, \mathrm{G}_2, is
 just Der(O). So all the exceptional Lie algebras are related to the
 octonions! And the second fun thing about this square is that it's
 symmetrical along the diagonal, even though this is not at all obvious
