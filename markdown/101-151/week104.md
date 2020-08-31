@@ -262,70 +262,51 @@ opposed to the Clifford algebras relevant to $n$-dimensional *Lorentzian*
 geometry, which appeared in ["Week 93"](#week93). They go like
 this:
 
-C_0 = R
+- $C_0 = \mathbb{R}$
+- $C_1 = \mathbb{C}$
+- $C_2 = \mathbb{H}$
+- $C_3 = \mathbb{H}\oplus\mathbb{H}$
+- $C_4 = \mathbb{H}(2)$
+- $C_5 = \mathbb{C}(4)$
+- $C_6 = \mathbb{R}(8)$
+- $C_7 = \mathbb{R}(8)\oplus\mathbb{R}(8)$
+- $C_8 = \mathbb{R}(16)$
 
-C_1 = C
+where $K(n)$ stands for $n\times n$ matrices with entries taken from $K = \mathbb{R}, \mathbb{C}, \mathbb{H}$,
+and "$\oplus$" stands for "direct sum". Note that $C_8$ is the same as
+$16\times16$ matrices with entries taken from $C_0$. That's part of a general
+pattern called "Bott periodicity": in general, $C_{n+8}$ is the same as
+$16\times16$ matrices with entries taken from $C_n$.
 
-C_2 = H
-
-C_3 = H + H
-
-C_4 = H(2)
-
-C_5 = C(4)
-
-C_6 = R(8)
-
-C_7 = R(8) + R(8)
-
-C_8 = R(16)
-
-where K(n) stands for $n\times n$ matrices with entries taken from K = R, C,
-or H, and "+" stands for "direct sum". Note that C_8 is the same as
-16 x 16 matrices with entries taken from C_0. That's part of a general
-pattern called "Bott periodicity": in general, C~n+8~ is the same as
-16 x 16 matrices with entries taken from C_n.
-
-Now consider the dimension of the smallest real representation of C_n.
+Now consider the dimension of the smallest real representation of $C_n$.
 It's easy to work this out if you keep in mind that the smallest
-representation of K(n) or K(n) + K(n) is on K^n - the vector space
-consisting of n-tuples of elements of K. We get
+representation of $K(n)$ or $K(n)\oplus K(n)$ is on $K^n$ --- the vector space
+consisting of $n$-tuples of elements of $K$. We get
 
 The dimension of the smallest real representation:
 
-of C_0 is 1
+- of $C_0$ is 1
+- of $C_1$ is 2
+- of $C_2$ is 4
+- of $C_3$ is 4
+- of $C_4$ is 8
+- of $C_5$ is 8
+- of $C_6$ is 8
+- of $C_7$ is 8
+- of $C_8$ is 16
 
-of C_1 is 2
+Note that it increases at $n = 1, 2, 4, 8$. These are the dimensions
+of $\mathbb{R}$, $\mathbb{C}$, $\mathbb{H}$, and $\mathbb{O}$. Coincidence?
 
-of C_2 is 4
-
-of C_3 is 4
-
-of C_4 is 8
-
-of C_5 is 8
-
-of C_6 is 8
-
-of C_7 is 8
-
-of C_8 is 16
-
-Note that it increases at n = 1, 2, 4, and 8. These are the dimensions
-of R, C, H, and O. Coincidence?
-
-No! Indeed, C_n has a representation on a k-dimensional real vector
-space if and only if the unit sphere in that vector space, S^k-1^,
-admits n linearly independent smooth vector fields. So the above table
+No! Indeed, $C_n$ has a representation on a $k$-dimensional real vector
+space if and only if the unit sphere in that vector space, $S^{k-1}$,
+admits $n$ linearly independent smooth vector fields. So the above table
 implies that:
 
-The sphere S^0^ admits 0 linearly independent vector fields.
-
-The sphere S^1^ admits 1 linearly independent vector fields.
-
-The sphere S^3 admits 3 linearly independent vector fields.
-
-The sphere S^7^ admits 7 linearly independent vector fields.
+- The sphere $S^0$ admits 0 linearly independent vector fields.
+- The sphere $S^1$ admits 1 linearly independent vector fields.
+- The sphere $S^3$ admits 3 linearly independent vector fields.
+- The sphere $S^7$ admits 7 linearly independent vector fields.
 
 These spheres are the unit real numbers, the unit complex numbers, the
 unit quaternions, and the unit octonions, respectively! If you know
@@ -334,7 +315,7 @@ the maximum possible number of linear independent vector fields: you can
 just take a basis of vectors at one point and "left translate" it to
 get a bunch of linearly independent vector fields.
 
-Now - Bott periodicity has period 8, and the octonions have dimension 8.
+Now --- Bott periodicity has period 8, and the octonions have dimension 8.
 And as we've seen, both have a lot to do with Clifford algebras. So
 maybe there is a deep relation between the octonions and Bott
 periodicity. Could this be true? If so, it would be good news, because
@@ -350,8 +331,7 @@ coming up next Week.
 on supersymmetric gauge theories and the division algebras, which I
 quote below. He recommends the following reference:
 
-6) J. M. Evans, Supersymmetric Yang-Mills theories and division
-algebras, Nucl. Phys. B298 (1988), 92-108.
+6) J. M. Evans, "Supersymmetric Yang-Mills theories and division algebras", _Nucl. Phys._ **B298** (1988), 92--108.
 
 and he writes:
 
@@ -362,87 +342,74 @@ and he writes:
 > when one tries to write down a supersymmetric gauge theory in
 > arbitrary dimension. This means we're looking for a way to throw in
 > some spinors to the Lagrangian of a pure gauge theory:
->
-> -1/4 F^2
->
+> $$-1/4 F^2$$
 > in a way that the new Lagrangian is invariant (up to a total
 > derivative) under some infinitesimal variations. These describe
 > supersymmetry if their commutator is a derivative (a generator of
 > spacetime translations). As usual, we parameterize this variation by a
-> parameter ε, but now ε is a spinor.
+> parameter $\varepsilon$, but now $\varepsilon$ is a spinor.
 >
 > From people that have been doing this for their whole life we learn
 > that the following Ansatz is common:
->
-> δA~m~ = i/2 ε^†^ Γ~m~ ψ
->
-> δ ψ = -1/4 F~mn~ Γ^mn^ ε
->
-> Here A is the connection, F its field strength and ψ a spinor of a
+> $$\delta A_m = i/2 \varepsilon^\dagger \Gamma_m \psi$$
+> $$\delta \psi = -1/4 F_{mn} \Gamma^{mn} \varepsilon$$
+> Here $A$ is the connection, $F$ its field strength and $\psi$ a spinor of a
 > type to be determined. I suppressed group indices on all these fields.
-> They are all in the adjoint representation. Γ are the generators of
+> They are all in the adjoint representation. $\Gamma$ are the generators of
 > the Clifford algebra described by John Baez before.
 >
-> \[Also, ε^†^ is my feeble subsitute for an ε with a bar over it. ---
+> \[Also, $\varepsilon^\dagger$ is my feeble subsitute for an $\varepsilon$ with a bar over it. ---
 > JB\]
 >
 > For the Lagrangian we try the usual Yang-Mills term and add a
 > minimally coupled kinetic term for the fermions:
->
-> -1/4 F^2 + ig/2 ψ^†^ Γ^m^ D~m~ ψ
->
-> Here D~m~ is the gauge covariant derivative and g is some number that
+> $$-1/4 F^2 + ig/2 \psi^\dagger \Gamma^m D_m \psi$$
+> Here $D_m$ is the gauge covariant derivative and $g$ is some number that
 > we can tune to to make this vanish under the above variations. When we
-> vary the first term we find g = 1. In fact everything cancels without
+> vary the first term we find $g = 1$. In fact everything cancels without
 > considering a special dimension except for the term that is trilinear
-> in ψ that comes from varying the connection in the covariant
+> in $\psi$ that comes from varying the connection in the covariant
 > derivative in the fermionic term. This reads something like
->
-> f~abc~ ε^†^ Γ~m~ ψ^a^ ψ^b^ Γ^m^ ψ^c^
->
-> where I put in the group indices and the structure constants f~abc~.
+> $$f_{abc} \varepsilon^\dagger \Gamma_m \psi^a \psi^b \Gamma^m \psi^c$$
+> where I put in the group indices and the structure constants $f_{abc}$.
 > This has to vanish for other reasons since there is no other trilinear
 > term in the fermions available. And indeed, after you've written out
-> the antisymmetry of f explicitly and take out the spinors since this
-> should vanish for all choices of ψ and ε. We are left with an
+> the antisymmetry of $f$ explicitly and take out the spinors since this
+> should vanish for all choices of $\psi$ and $\varepsilon$. We are left with an
 > expression that is only made of gammas. And in fact, this expression
 > exactly vanishes in dimensions 3, 4, 6, and 10 due to a Fierz
 > identity. (Sorry, I don't have time to work this out more
 > explicitly.)
 >
 > This is related to the division algebra as follows (as explained in
-> the papers pointed out by John Baez): Take for concreteness d = 10.
+> the papers pointed out by John Baez): Take for concreteness $d = 10$.
 > Here we go to a light-cone frame by using coordinates
->
-> x^+^ = x^0^ + x^9^ and
->
-> x^-^ = x^0^ - x^1^.
->
-> Then we write the Γ~m~ as block matrices where Γ~+~ and Γ~-~ have the
-> +/- unit matrix as blocks and the others have γ_i as blocks where
-> γ_i are the \mathrm{SO}(8) Dirac matrices (i=1,...,9). But they are
+> $$x^+ = x^0 + x^9 \quad\text{and}\quad x^- = x^0 - x^1.$$
+> Then we write the $\Gamma_m$ as block matrices where $\Gamma_+$ and $\Gamma_-$ have the
+> $+$/$-$ unit matrix as blocks and the others have $\gamma_i$ as blocks where
+> $\gamma_i$ are the $\mathrm{SO}(8)$ Dirac matrices ($i=1,...,9$). But they are
 > intimately related to the octonions. Remember there is triality in
-> \mathrm{SO}(8) which means that we can treat left-handed spinors, right-handed
+> $\mathrm{SO}(8)$ which means that we can treat left-handed spinors, right-handed
 > spinors and vectors on an equal basis (see [week61](week61.html),
 > [week90](week90.html), [week91](week91.html)). Now I write out all
-> three indices of γ_i. Because of triality I can use i,j,k for spinor,
+> three indices of $\gamma_i$. Because of triality I can use $i$,$j$,$k$ for spinor,
 > dotted spinor and vector indices. Then it is known that
->
->                 γijk = cijk for i,j,k<8
->       
->                       δij for k=8 (and ijk permuted)
->
->                       0 for more than 2 of ijk equal 8.
->
-> is a representation of Cliff(8) if c~ijk~ are the structure constants
-> of the octonions (i.e. e_i e~j~ = c~ijk~ e~k~ for the 7 roots of -1
+> $$
+>   \gamma_{ijk} =
+>   \begin{cases}
+>     c_{ijk} &\mbox{for $i,j,k<8$;}
+>   \\\delta_{ij} &\mbox{for $k=8$ (and $ijk$ permuted);}
+>   \\0 &\mbox{for more than two of $ijk$ equal to $8$.}
+>   \end{cases}
+> $$
+> is a representation of $\mathrm{Cliff}(8)$ if $c_{ijk}$ are the structure constants
+> of the octonions (i.e. $e_i e_j = c_{ijk} e_k$ for the 7 roots of $-1$
 > in the octonions).
 >
-> When you plug this representation of the Γ's in the above mentioned γ
+> When you plug this representation of the $\Gamma$'s in the above mentioned $\gamma$
 > expression you will will find that it vanishes due to the antisymmetry
 > of the associator
->
-> \[a,b,c\] = a(bc) - (ab)c
+> $$[a,b,c] = a(bc) - (ab)c$$
 >
 > in the division algebras. This is my understanding of the relation of
 > supersymmetry to the divison algebras.
