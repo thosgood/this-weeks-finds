@@ -10,11 +10,10 @@ subject. The author of that article later wrote a book proclaiming the
 homes.
 
 Recently, however, I was pleased to find a terse rebuttal of this
-fin-de-siecle pessimism in an article appearing in - none other than
+fin-de-siecle pessimism in an article appearing in --- none other than
 Scientific American!
 
-1) Michael J. Duff, The theory formerly known as strings, Scientific
-American 278 (February 1998), 64-69.
+1) Michael J. Duff, "The theory formerly known as strings", _Scientific American_ **278** (February 1998), 64--69.
 
 The article begins:
 
@@ -36,9 +35,9 @@ true love never did run smooth.
 
 Duff's own vision certainly has its charms. He has long been advocating
 the generalization of string theory to a theory of higher-dimensional
-"membranes". Nowadays people call these "p-branes" to keep track of
-the dimension of the membrane: a 0-brane is a point particle, a 1-brane
-is a string, a 2-brane is a 2-dimensional surface, and so on.
+"membranes". Nowadays people call these "$p$-branes" to keep track of
+the dimension of the membrane: a $0$-brane is a point particle, a $1$-brane
+is a string, a $2$-brane is a 2-dimensional surface, and so on.
 
 For a long time, higher-dimensional membrane theories were unpopular,
 even among string theorists, because the special tricks that eliminate
@@ -46,7 +45,7 @@ infinities in string theory don't seem to work for higher-dimensional
 membranes. But lately membranes are all the rage: it seems they show up
 in string theory whether or not you put them in from the start! In fact,
 they seem to be the key to showing that the 5 different supersymmetric
-string theories are really aspects of a single deeper theory - sometimes
+string theories are really aspects of a single deeper theory --- sometimes
 called "M-theory".
 
 Now, I don't really understand this stuff at all, but I've been trying
@@ -54,13 +53,11 @@ to learn about it lately, so I'll say a bit anyway, in hopes that some
 real experts will correct my mistakes. Much of what I'll say comes from
 the following nice review article:
 
-2) M. J. Duff, Supermembranes, preprint available as
-[`hep-th/9611203`](http://xxx.lanl.gov/abs/hep-th/9611203)
+2) M. J. Duff, "Supermembranes", preprint available as [`hep-th/9611203`](http://xxx.lanl.gov/abs/hep-th/9611203)
 
 and also the bible of string theory:
 
-3) Michael B. Green, John H. Schwarz, and Edward Witten, Superstring
-Theory, two volumes, Cambridge U. Press, Cambridge, 1987.
+3) Michael B. Green, John H. Schwarz, and Edward Witten, _Superstring Theory_, two volumes, Cambridge U. Press, Cambridge, 1987.
 
 Let's start with superstring theory. Here the "super" refers to the
 fact that instead of just strings whose vibrational modes correspond to
@@ -75,13 +72,12 @@ taking the boson/fermion distinction so seriously that we build it into
 our description of spacetime from the very start! For more details on
 the mathematics of superspace, try:
 
-4) Bryce DeWitt, Supermanifolds, Cambridge U. Press, Cambridge, 2nd
-edition, 1992.
+4) Bryce DeWitt, _Supermanifolds_, Cambridge U. Press, Cambridge, 2nd edition, 1992.
 
 More deeply, "super" refers to "supersymmetry", a special kind of
 symmetry transformation that mixes the bosonic and fermionic
-coordinates. We speak of "N = 1 supersymmetry" if there is one
-fermionic coordinate for each bosonic coordinate, "N = 2
+coordinates. We speak of "$N = 1$ supersymmetry" if there is one
+fermionic coordinate for each bosonic coordinate, "$N = 2$
 supersymmetry" if there are two, and so on.
 
 Like all nice physical theories, we can in principle derive everything
@@ -95,16 +91,16 @@ For superstring theory, we thus want a formula for the "super-area" of
 a surface in superspace. And we need this to be invariant under
 supersymmetry transformations. Suprisingly, this is only possible if
 spacetime has dimension 3, 4, 6, or 10. More precisely, these are the
-dimensions where N = 1 supersymmetric string theory makes sense as a
+dimensions where $N = 1$ supersymmetric string theory makes sense as a
 *classical* theory.
 
-Note: these dimensions are just 2 more than the dimensions of the four
+Note: these dimensions are just $2$ more than the dimensions of the four
 normed division algebras: the reals, complexes, quaternions and
 octonions! This is no coincidence. Robert Helling recently posted a nice
-article about this on sci.physics.resarch, which I have appended to
+article about this on `sci.physics.resarch`, which I have appended to
 ["Week 104"](#week104). The basic idea is that we can describe the
-vibrations of a string in n-dimensional spacetime by a field on the
-string worldsheet with n-2 components corresponding to the n-2
+vibrations of a string in $n$-dimensional spacetime by a field on the
+string worldsheet with $n-2$ components corresponding to the $n-2$
 directions transverse to the worldsheet. To get an action that's
 invariant under supersymmetry, we need some magical cancellations to
 occur. It only works when we can think of this field as taking values in
@@ -112,13 +108,13 @@ one of the normed division algebras!
 
 This is one of the curious things about superstring theory: the basic
 idea is simple, but when you try to get it to work, you run into lots of
-obstacles which only disappear in certain special circumstances - thanks
+obstacles which only disappear in certain special circumstances --- thanks
 to a mysterious conspiracy of beautiful mathematical facts. These
 "conspiracies" are probably just indications that we don't understand
 the theory as deeply as we should. Right now I'm most interested in the
-algebraic aspects of superstring theory - and especially its
+algebraic aspects of superstring theory --- and especially its
 relationships to "exceptional algebraic structures" like the
-octonions, the Lie group \mathrm{E}_8, and so on. As I learn superstring theory, I
+octonions, the Lie group $\mathrm{E}_8$, and so on. As I learn superstring theory, I
 like keeping track of the various ways these structures show up, like
 remembering the clues in a mystery novel.
 
@@ -127,28 +123,25 @@ delicate than the classical version. When I last checked, it only makes
 sense in dimension 10. Thus there's something inherently octonionic
 about it! For more on this angle, see:
 
-5) E. Corrigan and T. J. Hollowood, The exceptional Jordan algebra and
-the superstring, Commun. Math. Phys., 122 (1989), 393.
+5) E. Corrigan and T. J. Hollowood, "The exceptional Jordan algebra and the superstring", _Commun. Math. Phys._ **122** (1989), 393.
 
-6) E. Corrigan and T. J. Hollowood, A string construction of a
-commutative nonassociative algebra related to the exceptional Jordan
-algebra, Phys. Lett. B203 (1988), 47.
+6) E. Corrigan and T. J. Hollowood, "A string construction of a commutative nonassociative algebra related to the exceptional Jordan algebra", _Phys. Lett._ **B203** (1988), 47.
 
 and some more references I'll give later.
 
 There are actually 5 variants of superstring theory in dimension 10, as
 I explained in ["Week 72"](#week72):
 
-1.  type I superstrings - these are open strings, not closed loops.
-2.  type IIA superstrings - closed strings where the left- and
+1.  type I superstrings --- these are open strings, not closed loops.
+2.  type IIA superstrings --- closed strings where the left- and
     right-moving fermionic modes have opposite chiralities.
-3.  type IIB superstrings - closed strings where the left- and
+3.  type IIB superstrings --- closed strings where the left- and
     right-moving fermionic modes have the same chirality.
-4.  \mathrm{E}_8 heterotic superstrings - closed strings where the left-moving
-    modes are purely bosonic, with symmetry group \mathrm{E}_8 x \mathrm{E}_8.
-5.  \mathrm{Spin}(32)/Z_2 heterotic superstrings - closed strings where the
+4.  $\mathrm{E}_8$ heterotic superstrings --- closed strings where the left-moving
+    modes are purely bosonic, with symmetry group $\mathrm{E}_8\times\mathrm{E}_8$.
+5.  $\mathrm{Spin}(32)/\mathbb{Z}_2$ heterotic superstrings --- closed strings where the
     left-moving modes are purely bosonic, with symmetry group
-    \mathrm{Spin}(32)/Z_2
+    $\mathrm{Spin}(32)/\mathbb{Z}_2$
 
 To get 4-dimensional physics out of any of these, we need to think of
 our 10-dimensional spacetime as a bundle with a little 6-dimensional
@@ -183,122 +176,111 @@ dimensions 3, 4, 6, and 10. (See ["Week 93"](#week93) for more on
 this.) Different forms of supergravity make sense in different
 dimensions, as explained in:
 
-7) Y. Tanii, Introduction to supergravities in diverse dimensions,
-preprint available as
-[`hep-th/9802138`](http://xxx.lanl.gov/abs/hep-th/9802138).
+7) Y. Tanii, "Introduction to supergravities in diverse dimensions", preprint available as [`hep-th/9802138`](http://xxx.lanl.gov/abs/hep-th/9802138).
 
 In particular highest dimension in which supergravity makes sense is 11
-dimensions (where one only has N = 1 supergravity). Note that this is
+dimensions (where one only has $N = 1$ supergravity). Note that this is
 one more than the favored dimension of superstring theory! This puzzled
 people for a long time. Now it seems that M-theory is beginning to
 resolve these puzzles. Another interesting discovery is that
-11-dimensional supergravity is related to the exceptional Lie group \mathrm{E}_8:
+11-dimensional supergravity is related to the exceptional Lie group $\mathrm{E}_8$:
 
-8) Stephan Melosch and Hermann Nicolai, New canonical variables for d =
-11 supergravity, preprint available as
-[`hep-th/9709277`](http://xxx.lanl.gov/abs/hep-th/9709277).
+8) Stephan Melosch and Hermann Nicolai, "New canonical variables for $d = 11$ supergravity", preprint available as [`hep-th/9709277`](http://xxx.lanl.gov/abs/hep-th/9709277).
 
 But I'm getting ahead of myself here! Right now I'm talking about the
 low-energy limit of 10-dimensional superstring theory. I said it amounts
 to "supergravity coupled to super-Yang-Mills fields", and now I'm
-attempting to flesh that out a bit. So: starting from N = 1 supergravity
+attempting to flesh that out a bit. So: starting from $N = 1$ supergravity
 in 11 dimensions we can get a theory of supergravity in 10 dimensions
-simply by requiring that all the fields be constant in one direction - a
+simply by requiring that all the fields be constant in one direction --- a
 trick called "dimensional reduction". This is called "type IIA
 supergravity", because it appears in the low-energy limit of type IIA
 superstrings. There are also two other forms of supergravity in 10
 dimensions: "type IIB supergravity", which appears in the low-energy
 limit of type IIB superstrings, and a third form which appears in the
 low-energy limit of the type I and heterotic superstrings. These other
-two forms of supergravity are chiral - that is, they have a built-in
+two forms of supergravity are chiral --- that is, they have a built-in
 "handedness".
 
 Now let's turn to higher-dimensional supersymmetric membranes, or
 "supermembranes". Duff summarizes this subject in a chart he calls the
 "brane scan". This chart lists the known *classical* theories of
-supersymetric p-branes. Of course, a p-brane traces out a
+supersymetric $p$-branes. Of course, a $p$-brane traces out a
 (p+1)-dimensional surface as time passes, so from a spacetime point of
 view it's p+1 which is more interesting. But anyway, here's Duff's
-chart of which supersymmetric p-brane theories are possible in which
+chart of which supersymmetric $p$-brane theories are possible in which
 dimensions d of spacetime:
 
-    d
-
-    11           X              X                   ?
-    10 X    X    X    X    X    X    X    X    X    X    
-    9  X                   X
-    8                 X
-    7            X              X
-    6  X    X    X    X    X    X
-    5  X         X
-    4  X    X    X    X
-    3  X    X    X    
-    2  X
-    1
-
-       0    1    2    3    4    5    6    7    8    9    10   p
-      
+| ${}_d\diagdown^p$ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ | $7$ | $8$ | $9$ | $10$ |
+| ----------------: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :--: | 
+| $11$ | | | \checkmark | | | \checkmark | | | | ? | |
+| $10$ | \checkmark | \checkmark | \checkmark | \checkmark | \checkmark | \checkmark | \checkmark | \checkmark | \checkmark | \checkmark | |
+| $9$ | \checkmark | | | | \checkmark | | | | | | |
+| $8$ | | | | \checkmark | | | | | | | |
+| $7$ | | | \checkmark | | | \checkmark | | | | | |
+| $6$ | \checkmark | \checkmark | \checkmark | \checkmark | \checkmark | \checkmark | | | | | |
+| $5$ | \checkmark | | \checkmark | | | | | | | | |
+| $4$ | \checkmark | \checkmark | \checkmark | \checkmark | | | | | | | |
+| $3$ | \checkmark | \checkmark | \checkmark | | | | | | | | |
+| $2$ | \checkmark | | | | | | | | | | |
+| $1$ | | | | | | | | | | | |
 
 We immediately notice some patterns. First, we see horizontal stripes in
-dimensions 3, 4, 6, and 10: all the conceivable p-brane theories exist
+dimensions 3, 4, 6, and 10: all the conceivable $p$-brane theories exist
 in these dimensions. I don't know why this is true, but it must be
 related to the fact that superstring and super-Yang-Mills theories make
-sense in these dimensions. Second, there are four special p-brane
+sense in these dimensions. Second, there are four special $p$-brane
 theories:
 
-the 2-brane in dimension 4
-
-the 3-brane in dimension 6
-
-the 5-brane in dimension 10
-
-the 2-brane in dimension 11
+- the $2$-brane in dimension 4
+- the $3$-brane in dimension 6
+- the $5$-brane in dimension 10
+- the $2$-brane in dimension 11
 
 which are related to the real numbers, the complex numbers, the
 quaternions and the octonions, respectively. Duff refers us to the
 following papers for more information on this:
 
-9) G. Sierra, An application of the theories of Jordan algebras and
-Freudenthal triple systems to particles and strings, Class. Quant. Grav.
-4 (1987), 227.
+9) G. Sierra, "An application of the theories of Jordan algebras and Freudenthal triple systems to particles and strings", _Class. Quant. Grav._ **4** (1987), 227.
 
-10) J. M. Evans, Supersymmetric Yang-Mills theories and division
-algebras, Nucl. Phys. B298 (1988), 92-108.
+10) J. M. Evans, "Supersymmetric Yang-Mills theories and division algebras", _Nucl. Phys._ **B298** (1988), 92--108.
 
-From these four "fundamental" theories of p-branes in d dimensions we
-can get theories of (p-k)-branes in d-k dimensions by dimensional
-reduction of both the spacetime and the p-brane. Thus we see diagonal
+From these four "fundamental" theories of $p$-branes in $d$ dimensions we
+can get theories of $(p-k)$-branes in $d-k$ dimensions by dimensional
+reduction of both the spacetime and the $p$-brane. Thus we see diagonal
 lines slanting down and to the left starting from these "fundamental"
 theories. Note that these diagonal lines include the superstring
 theories in dimensions 3, 4, 6, and 10!
 
 I'll wrap up by saying a bit about how M-theory, superstrings and
-supergravity fit together. I've already said that: 1) type IIA
-supergravity in 10 dimensions is the dimensional reduction of
-11-dimensional supergravity; and 2) the type IIA superstring has type
-IIA supergravity coupled to super-Yang-Mills fields as a low-energy
-limit. This suggests the presence of a theory in 11 dimensions that
+supergravity fit together. I've already said that:
+
+1) type IIA supergravity in 10 dimensions is the dimensional reduction of
+11-dimensional supergravity; and
+2) the type IIA superstring has typeIIA supergravity coupled to super-Yang-Mills fields as a low-energy limit.
+
+This suggests the presence of a theory in 11 dimensions that
 fills in the question mark below:
-
-                          low-energy limit
-               ?  ----------------------------> 11-dimensional 
-               |                                 supergravity
-               |                                    |
-    dimensional|                                    |dimensional 
-      reduction|                                    |reduction
-               |                                    |
-               V          low-energy limit          V
-            type IIA  -------------------------> type IIA supergravity in 
-          superstrings                             10 dimensions 
-
+$$
+  \begin{tikzpicture}
+    \node (tl) at (0,0) {?};
+    \node[text width=7em,align=center] (tr) at (5,0) {11-dimensional supergravity};
+    \node[text width=7em,align=center] (bl) at (0,-3) {type IIA superstrings};
+    \node[text width=7em,align=center] (br) at (5,-3) {type IIA supergravity in 10 dimensions};
+    \draw[->] (tl) to node[label=above:{\scriptsize low-energy limit}]{} (tr);
+    \draw[->] (bl) to node[label=above:{\scriptsize low-energy limit}]{} (br);
+    \draw[->] (tl) to node[text width=4.2em,align=center,fill=white]{\scriptsize dimensional reduction} (bl);
+    \draw[->] (tr) to node[text width=4.2em,align=center,fill=white]{\scriptsize dimensional reduction} (br);
+  \end{tikzpicture}
+$$
 This conjectured theory is called "M-theory". The actual details of
 this theory are still rather mysterious, but not surprisingly, it's
 related to the theory of supersymmetric 2-branes in 11 dimensions ---
 since upon dimensional reduction these give superstrings in 10
 dimensions. More surprisingly, it's *also* related to the theory of
 *5-branes* in 11 dimensions. The reason is that supergravity in 11
-dimensions admits "soliton" solutions - solutions that hold their
-shape and don't disperse - which are shaped like 5-branes. These are
+dimensions admits "soliton" solutions --- solutions that hold their
+shape and don't disperse --- which are shaped like 5-branes. These are
 now believed to be yet another shadow of M-theory.
 
 While the picture I'm sketching may seem baroque, it's really just a
@@ -309,15 +291,11 @@ thank Dan Piponi for pointing out that Scientific American article.
 
 For more on this business, check out the following review articles:
 
-11) W. Lerche, Recent developments in string theory, preprint available
-as [`hep-th/9710246`](http://xxx.lanl.gov/abs/hep-th/9710246).
+11) W. Lerche, "Recent developments in string theory", preprint available as [`hep-th/9710246`](http://xxx.lanl.gov/abs/hep-th/9710246).
 
-12) John Schwarz, The status of string theory, preprint available as
-[`hep-th/9711029`](http://xxx.lanl.gov/abs/hep-th/9711029).
+12) John Schwarz, "The status of string theory", preprint available as [`hep-th/9711029`](http://xxx.lanl.gov/abs/hep-th/9711029).
 
-13) M. J. Duff, M-theory (the theory formerly known as strings),
-preprint available as
-[`hep-th/9608117`](http://xxx.lanl.gov/abs/hep-th/9608117).
+13) M. J. Duff, "M-theory (the theory formerly known as strings)", preprint available as [`hep-th/9608117`](http://xxx.lanl.gov/abs/hep-th/9608117).
 
 The first one is especially nice if you're interested in a nontechnical
 survey; the other two are more detailed.
