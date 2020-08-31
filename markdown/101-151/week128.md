@@ -176,9 +176,7 @@ In Barrett and Crane's theory, we chop spacetime into 4-simplices and
 describe the geometry of spacetime by specifying the area of each
 triangle. But the geometry is "quantized", meaning that the area takes
 a discrete spectrum of possible values, given by
-
-sqrt(j(j+1))
-
+$$\sqrt{j(j+1)}$$
 where the "spin" j is a number of the form 0, 1/2, 1, 3/2, etc. This
 formula will be familiar to you if you've studied the quantum mechanics
 of angular momentum. And that's no coincidence! The cool thing about

@@ -7,7 +7,7 @@ quantum gravity.
 But first, before the going gets tough and readers start dropping like
 flies, I should mention the following science fiction novel:
 
-1) Greg Egan, Distress, HarperCollins, 1995.
+1) Greg Egan, _Distress_, HarperCollins, 1995.
 
 I haven't been keeping up with science fiction too carefully lately, so
 I'm not really the best judge. But as far as I can tell, Egan is one of
@@ -47,7 +47,7 @@ more abstract and mathematical theories, with few new experiments to
 guide it. But this is the year of the Einstein Centenary Conference!
 Nobel laureate Violet Masala will unveil her new work on a Theory of
 Everything. And rumors have it that she may have finally cracked the
-problem, and found - yes, that's right - the final, correct and true
+problem, and found --- yes, that's right --- the final, correct and true
 theory of physics.
 
 As science reporter Andrew Worth tries to bone up for his interviews
@@ -101,10 +101,7 @@ further development of this earlier work, but instead of presenting
 everything historically, I'll just present the picture as I see it now.
 For more details, try the following paper:
 
-2) Abhay Ashtekar, John Baez, Alejandro Corichi and Kirill Krasnov,
-Quantum geometry and black hole entropy, to appear in Phys. Rev. Lett.,
-preprint available as
-[`gr-qc/9710007`](http://xxx.lanl.gov/abs/gr-qc/9710007).
+2) Abhay Ashtekar, John Baez, Alejandro Corichi and Kirill Krasnov, "Quantum geometry and black hole entropy", to appear in _Phys. Rev. Lett._, preprint available as [`gr-qc/9710007`](http://xxx.lanl.gov/abs/gr-qc/9710007).
 
 This is a summary of what will eventually be a longer paper with two
 parts, one on the "black hole sector" of classical general relativity,
@@ -116,7 +113,7 @@ black hole is classically, get some phase space of classical states, and
 then quantize *that*. For this, we need some way of saying which
 solutions of general relativity correspond to black holes. This is
 actually not so easy. The characteristic property of a black hole is the
-presence of an event horizon - a surface such that once you pass it you
+presence of an event horizon --- a surface such that once you pass it you
 can never get back out without going faster than light. This makes it
 tempting to find "boundary conditions" which say "this surface is an
 event horizon", and use those to pick out solutions corresponding to
@@ -128,8 +125,8 @@ in it, since your ability to "eventually get back out" after crossing
 a surface depends on what happens to the geometry of spacetime in the
 future. This is bad, technically speaking. It's a royal pain to deal
 with nonlocal boundary conditions, especially boundary conditions that
-depend on \*solving the equations of motion to see what's going to
-happen in the future just to see if the boundary conditions hold\*.
+depend on *solving the equations of motion to see what's going to
+happen in the future just to see if the boundary conditions hold*.
 
 Luckily, there is a purely local concept which is a reasonable
 substitute for the concept of event horizon, namely the concept of
@@ -159,15 +156,15 @@ event horizon itself, the expansion parameter goes to zero!
 
 That's roughly the definition of an "outer marginally trapped
 surface". A more mathematical but still rough definition is: "an outer
-marginally trapped surface is the boundary S of some region of space
+marginally trapped surface is the boundary $S$ of some region of space
 such that the expansion of the outgoing family of null geodesics normal
-to S is everywhere less than or equal to zero."
+to $S$ is everywhere less than or equal to zero."
 
-We require that our space have some sphere S in it which is an outer
+We require that our space have some sphere $S$ in it which is an outer
 marginally trapped surface. We also require other boundary conditions to
 hold on this surface. I won't explain them in detail. Instead, I'll
 say two important extra features they have: they say the black hole is
-nonrotating, and they disallow gravitational waves falling into S. The
+nonrotating, and they disallow gravitational waves falling into $S$. The
 first condition here is a simplifying assumption: we are only studying
 black holes of zero angular momentum in this paper! The second condition
 is only meant to hold for the time during which we are studying the
@@ -183,7 +180,7 @@ over spacetime to get an "action", and finds solutions of the field
 equations by looking for minima of this action. But when one studies
 field theories on a region with boundary, and imposes boundary
 conditions, one often needs to "add an extra boundary term to the
-action" - some sort of integral over the boundary - to get things to
+action" --- some sort of integral over the boundary --- to get things to
 work out right. There is a whole yoga of finding the right boundary term
 to go along with the boundary conditions... an arcane little art...
 just one of those things theoretical physicists do, that for some reason
@@ -214,9 +211,9 @@ theory using standard spin network techniques *outside* the black hole,
 and Chern-Simons theory *on the event horizon*, and here is what we get.
 States look like this. Outside the black hole, they are described by
 spin networks (see ["Week 110"](#week110)). The spin network edges
-are labelled by spins j = 0, 1/2, 1, and so on. Spin network edges can
-puncture the black hole surface, giving it area. Each spin-j edge
-contributes an area proportional to sqrt(j(j+1)). The total area is the
+are labelled by spins $j = 0, 1/2, 1,\ldots$. Spin network edges can
+puncture the black hole surface, giving it area. Each spin-$j$ edge
+contributes an area proportional to $\sqrt{j(j+1)}$. The total area is the
 sum of these contributions.
 
 Any choice of punctures labelled by spins determines a Hilbert space of
@@ -225,15 +222,15 @@ intrinsic curvature of the black hole surface. The curvature is zero
 except at the punctures, so that *classically*, near any puncture, you
 can visualize the surface as a cone with its tip at the puncture. The
 curvature is concentrated at the tip. At the *quantum* level, where the
-puncture is labelled with a spin j, the curvature at the puncture is
-described by a number j~z~ ranging -j to j in integer steps.
+puncture is labelled with a spin $j$, the curvature at the puncture is
+described by a number $j_z$ ranging from $-j$ to $j$ in integer steps.
 
 Now we ask the following question: "given a black hole whose area is
-within ε of A, what is the logarithm of the number of microstates
+within $\varepsilon$ of $A$, what is the logarithm of the number of microstates
 compatible with this area?" This should be the entropy of the black
 hole. To figure it out, first we work out all the ways to label
-punctures by spins j so that the total area comes within ε of A. For any
-way to do this, we then count the allowed ways to pick numbers j~z~
+punctures by spins $j$ so that the total area comes within $\varepsilon$ of $A$. For any
+way to do this, we then count the allowed ways to pick numbers $j_z$
 describing the intrinsic curvature of the black hole surface. Then we
 sum these up and take the logarithm.
 
@@ -241,77 +238,62 @@ That's roughly what we do, anyway, and for black holes much bigger than
 the Planck scale we find that the entropy is proportional to the area.
 How does this compare with the result of Bekenstein and Hawking,
 described in ["Week 111"](#week111)? Remember, they computed that
-
-S = A/4
-
-where S is the entropy and A is the area, measured in units where c = ħ
-= G = k = 1. What we get is
-
-S = (ln 2 / 4 \pi γ sqrt(3)) A
-
-To compare these results, you need to know what is that mysterious "γ"
-factor in the second equation! It's often called the Immirzi parameter,
+$$S = A/4$$
+where $S$ is the entropy and $A$ is the area, measured in units where
+$c = \hbar = G = k = 1$. What we get is
+$$S = \frac{\ln 2}{4\pi\gamma\sqrt{3}} A$$
+To compare these results, you need to know what that mysterious "$\gamma$"
+factor is in the second equation! It's often called the Immirzi parameter,
 because many people learned of it from the following paper:
 
-3) Giorgio Immirzi, Quantum gravity and Regge calculus, in Nucl. Phys.
-Proc. Suppl. 57 (1997) 65-72, preprint available as
-[`gr-qc/9701052`](http://xxx.lanl.gov/abs/gr-qc/9701052).
+3) Giorgio Immirzi, "Quantum gravity and Regge calculus", in _Nucl. Phys. Proc. Suppl._ **57** (1997) 65--72, preprint available as [`gr-qc/9701052`](http://xxx.lanl.gov/abs/gr-qc/9701052).
 
 However, it was first discovered by Barbero:
 
-4) Fernando Barbero, Real Ashtekar variables for Lorentzian signature
-space-times, Phys. Rev. D51 (1995), 5507-5510, preprint available as
-[`gr-qc/9410014`](http://xxx.lanl.gov/abs/gr-qc/9410014).
+4) Fernando Barbero, "Real Ashtekar variables for Lorentzian signature space-times", _Phys. Rev._ **D51** (1995), 5507--5510, preprint available as [`gr-qc/9410014`](http://xxx.lanl.gov/abs/gr-qc/9410014).
 
 It's an annoying unavoidable arbitrary dimensionless parameter that
 appears in the loop representation, which nobody had noticed before
 Barbero. It's still rather mysterious. But it works a bit like this. In
-ordinary quantum mechanics we turn the position q into an operator,
-namely multiplication by x, and also turn the momentum p into an
-operator, namely -i d/dx. The important thing is the canonical
-commutation relations: pq - qp = -i. But we could also get the canonical
+ordinary quantum mechanics we turn the position $q$ into an operator,
+namely multiplication by $x$, and also turn the momentum $p$ into an
+operator, namely $-i(d/dx)$. The important thing is the canonical
+commutation relations: $pq-qp=-i$. But we could also get the canonical
 commutation relations to hold by defining
-
-p = -i γ d/dx
-
-q = x/γ
-
-since the gammas cancel out! In this case, putting in a γ factor
+$$
+  \begin{aligned}
+    p &= -i \gamma \frac{d}{dx}
+  \\q &= \frac{x}{\gamma}
+  \end{aligned}
+$$
+since the gammas cancel out! In this case, putting in a $\gamma$ factor
 doesn't affect the physics. One gets "equivalent representations of
 the canonical commutation relations". In the loop representation,
-however, the analogous trick *does* affect the physics - different
+however, the analogous trick *does* affect the physics --- different
 choices of the Immirzi parameter give different physics! For more
 details try:
 
-4) Carlo Rovelli and Thomas Thiemann, The Immirzi parameter in quantum
-general relativity, preprint available as
-[`gr-qc/9705059`](http://xxx.lanl.gov/abs/gr-qc/9705059).
+4) Carlo Rovelli and Thomas Thiemann, "The Immirzi parameter in quantum general relativity", preprint available as [`gr-qc/9705059`](http://xxx.lanl.gov/abs/gr-qc/9705059).
 
-How does the Immirzi parameter affect the physics? It \*determines the
-quantization of area\*. You may notice how I keep saying "each spin-j
-edge of a spin network contributes an area proportional to sqrt(j(j+1))
+How does the Immirzi parameter affect the physics? It *determines the
+quantization of area*. You may notice how I keep saying "each spin-$j$
+edge of a spin network contributes an area proportional to $\sqrt{j(j+1)}$
 to any surface it punctures"... without ever saying what the constant
 of proportionality is! Well, the constant is
-
-8 \pi γ
-
-Until recently, everyone went around saying the constant was 1. (As for
-the factor of 8\pi, I'm no good at these things, but apparently at least
+$$8 \pi \gamma$$
+Until recently, everyone went around saying the constant was $1$. (As for
+the factor of $8\pi$, I'm no good at these things, but apparently at least
 some people were getting that wrong, too!) Now Krasnov claims to have
 gotten these damned factors straightened out once and for all:
 
-5) Kirill Krasnov, On the constant that fixes the area spectrum in
-canonical quantum gravity, preprint available as
-[`gr-qc/9709058`](http://xxx.lanl.gov/abs/gr-qc/9709058).
+5) Kirill Krasnov, "On the constant that fixes the area spectrum in canonical quantum gravity", preprint available as [`gr-qc/9709058`](http://xxx.lanl.gov/abs/gr-qc/9709058).
 
 So: it seems we can't determine the constant of proportionality in the
 entropy-area relation, because of this arbitrariness in the Immirzi
 parameter. But we can, of course, use the Bekenstein-Hawking formula
-together with our formula for black hole entropy to determine γ,
+together with our formula for black hole entropy to determine $\gamma$,
 obtaining
-
-γ = ln(2) / sqrt(3) \pi
-
+$$\gamma = \frac{\ln(2)}{\sqrt{3}\pi}$$
 This may seem like cheating, but right now it's the best we can do. All
 we can say is this: we have a theory of the microstates of a black hole,
 which predicts that entropy is proportional to area for largish black
@@ -319,34 +301,28 @@ holes, and which taken together with the Bekenstein-Hawking calculation
 allows us to determine the Immirzi parameter.
 
 What do the funny constants in the formula
-
-S = (ln 2 / 4 \pi γ sqrt(3)) A
-
+$$S = \frac{\ln 2}{4\pi\gamma\sqrt{3}} A$$
 mean? It's actually simple. The states that contribute most to the
 entropy of a black hole are those where nearly all spin network edges
-puncturing its surface are labelled by spin 1/2. Each spin-$1/2$ puncture
-can have either j~z~ = 1/2 or j~z~ = -1/2, so it contributes ln(2) to
-the entropy. On the other hand, each spin-$1/2$ edge contributes 4 \pi γ
-sqrt(3) to the area of the black hole. Just to be dramatic, we can call
-ln 2 the "quantum of entropy" since it's the entropy (or information)
-contained in a single bit. Similarly, we can call 4 \pi γ sqrt(3) the
+puncturing its surface are labelled by spin $1/2$. Each spin-$1/2$ puncture
+can have either $j_z = 1/2$ or $j_z = -1/2$, so it contributes $\ln(2)$ to
+the entropy. On the other hand, each spin-$1/2$ edge contributes $4\pi\gamma\sqrt{3}$
+to the area of the black hole. Just to be dramatic, we can call
+$\ln 2$ the "quantum of entropy" since it's the entropy (or information)
+contained in a single bit. Similarly, we can call $4\pi\gamma\sqrt{3}$ the
 "quantum of area" since it's the area contributed by a spin-$1/2$ edge.
 These terms are a bit misleading since neither entropy nor area need
 come in *integral* multiples of this minimal amount. But anyway, we have
-
-S = (quantum of entropy / quantum of area) A
-
+$$S = \frac{\text{quantum of entropy}}{\text{quantum of area}}) A$$
 What next? Well, one thing is to try to use these ideas to study Hawking
 radiation. That's hard, because we don't understand *Hamiltonians*
 very well in quantum gravity, but Krasnov has made some progress....
 
-6) Kirill Krasnov, Quantum geometry and thermal radiation from black
-holes, preprint available as
-[`gr-qc/9710006`](http://xxx.lanl.gov/abs/gr-qc/9710006).
+6) Kirill Krasnov, "Quantum geometry and thermal radiation from black holes", preprint available as [`gr-qc/9710006`](http://xxx.lanl.gov/abs/gr-qc/9710006).
 
 Let me just quote the abstract:
 
-"A quantum mechanical description of black hole states proposed
+> "A quantum mechanical description of black hole states proposed
 recently within the approach known as loop quantum gravity is used to
 study the radiation spectrum of a Schwarzschild black hole. We assume
 the existence of a Hamiltonian operator causing transitions between
@@ -357,7 +333,7 @@ distinct lines, the curve enveloping the spectrum is close to the Planck
 thermal distribution with temperature given by the thermodynamical
 temperature of the black hole as defined by the derivative of the
 entropy with respect to the black hole mass. We discuss possible
-implications of this result for the issue of the Immirzi γ-ambiguity in
+implications of this result for the issue of the Immirzi $\gamma$-ambiguity in
 loop quantum gravity."
 
 This is interesting, because Bekenstein and Mukhanov have recently noted
@@ -365,13 +341,11 @@ that if the area of a quantum black hole is quantized in *evenly spaced
 steps*, there will be large deviations from the Planck distribution of
 thermal radiation:
 
-7) Jacob D. Bekenstein and V. F. Mukhanov, Spectroscopy of the quantum
-black hole, preprint available as
-[`gr-qc/9505012`](http://xxx.lanl.gov/abs/gr-qc/9505012).
+7) Jacob D. Bekenstein and V. F. Mukhanov, "Spectroscopy of the quantum black hole", preprint available as [`gr-qc/9505012`](http://xxx.lanl.gov/abs/gr-qc/9505012).
 
 However, in the loop representation the area is not quantized in evenly
-spaced steps: the area A can be any sum of quantities like 8 \pi γ
-sqrt(j(j+1)), and such sums become very densely packed for large A.
+spaced steps: the area $A$ can be any sum of quantities like
+$8\pi\gamma\sqrt{j(j+1)}$, and such sums become very densely packed for large $A$.
 
 Let me conclude with a few technical comments about how Chern-Simons
 theory shows up here. For a long time I've been studying the "ladder
@@ -383,33 +357,33 @@ theory in spacetime dimension 3, which is well-understood. It's neat
 that one can now use this ladder to study black hole entropy. It's
 worth comparing Carlip's calculation of black hole entropy in spacetime
 dimension 3 using a 2-dimensional field theory (the Wess-Zumino-Witten
-model) on the surface traced out by the black hole event horizon - see
+model) on the surface traced out by the black hole event horizon --- see
 ["Week 41"](#week41). Both the theories we use and those Carlip
 uses, are all part of the same big ladder of theories! Something
 interesting is going on here.
 
 But there's a twist in our calculation which really took me by
-surprise. We do not use \mathrm{SU}(2) Chern-Simons theory on the black hole
-surface, we use \mathrm{U}(1) Chern-Simons theory! The reason is simple. The
+surprise. We do not use $\mathrm{SU}(2)$ Chern-Simons theory on the black hole
+surface, we use $\mathrm{U}(1)$ Chern-Simons theory! The reason is simple. The
 boundary conditions we use, which say the black hole surface is
 "marginally outer trapped", also say that its extrinsic curvature is
 zero. Thus the curvature tensor reduces, at the black hole surface, to
 the intrinsic curvature. Curvature on a 3-dimensional space is
-\mathfrak{so}(3)-valued, but the intrinsic curvature on the surface S is
-\mathfrak{so}(2)-valued. Since \mathfrak{so}(3) = su(2), general relativity has a lot to do
-with \mathrm{SU}(2) gauge theory. But since \mathfrak{so}(2) = u(1), the field theory on the
-black hole surface can be thought of as a \mathrm{U}(1) gauge theory.
+$\mathfrak{so}(3)$-valued, but the intrinsic curvature on the surface S is
+$\mathfrak{so}(2)$-valued. Since $\mathfrak{so}(3) = \mathfrak{su}(2)$, general relativity has a lot to do
+with $\mathrm{SU}(2)$ gauge theory. But since $\mathfrak{so}(2) = \mathfrak{u}(1)$, the field theory on the
+black hole surface can be thought of as a $\mathrm{U}(1)$ gauge theory.
 
-(Experts will know that \mathrm{U}(1) is a subgroup of \mathrm{SU}(2) and this is why we
-look at all values of j~z~ going from -j to j: we are decomposing
-representations of \mathrm{SU}(2) into representations of this \mathrm{U}(1) subgroup.)
+(Experts will know that $\mathrm{U}(1)$ is a subgroup of $\mathrm{SU}(2)$ and this is why we
+look at all values of $j_z$ going from $-j$ to $j$: we are decomposing
+representations of $\mathrm{SU}(2)$ into representations of this $\mathrm{U}(1)$ subgroup.)
 
-Now \mathrm{U}(1) Chern-Simons theory is a lot less exciting than \mathrm{SU}(2)
+Now $\mathrm{U}(1)$ Chern-Simons theory is a lot less exciting than $\mathrm{SU}(2)$
 Chern-Simons theory so mathematically this is a bit of a disappointment.
-But \mathrm{U}(1) Chern-Simons theory is not utterly boring. When we are studying
-\mathrm{U}(1) Chern-Simons theory on a punctured surface, we are studying flat
-\mathrm{U}(1) connections modulo gauge transformations. The space of these is
-called a "Jacobian variety". When we quantize \mathrm{U}(1) Chern-Simons theory
+But $\mathrm{U}(1)$ Chern-Simons theory is not utterly boring. When we are studying
+$\mathrm{U}(1)$ Chern-Simons theory on a punctured surface, we are studying flat
+$\mathrm{U}(1)$ connections modulo gauge transformations. The space of these is
+called a "Jacobian variety". When we quantize $\mathrm{U}(1)$ Chern-Simons theory
 using geometric quantization, we are looking for holomorphic sections of
 a certain line bundle on this Jacobian variety. These are called "theta
 functions". Theta functions have been intensively studied by string
@@ -417,10 +391,9 @@ theorists and number theorists, who use them do all sorts of wonderful
 things beyond my ken. All I know about theta functions can be found in
 the beginning of the following two books:
 
-8) Jun-ichi Igusa, Theta Functions, Springer-Verlag, Berlin, 1972.
+8) Jun-ichi Igusa, _Theta Functions_, Springer-Verlag, Berlin, 1972.
 
-9) David Mumford, Tata Lectures on Theta, 3 volumes, Birkhauser,
-Boston, 1983-1991.
+9) David Mumford, _Tata Lectures on Theta_, 3 volumes, Birkhauser, Boston, 1983--1991.
 
 Theta functions are nice, so it's fun to see them describing states of
 a quantum black hole!

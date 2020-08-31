@@ -83,7 +83,7 @@ I discussed Barbieri's work on such spin networks in
 ["Week 110"](#week110). A spin network like this has a nice
 interpretation as a "3-dimensional quantum geometry", that is, a
 quantum state of the geometry of space. Each spin network edge labelled
-by spin j gives an area proportional to sqrt(j(j+1)) to the triangle it
+by spin $j$ gives an area proportional to $\sqrt{j(j+1)}$ to the triangle it
 intersects. There's also a formula for the volume of each tetrahedron,
 involving the spin on the corresponding spin network vertex, together
 with the spins on the 4 spin network edges that meet there.

@@ -244,7 +244,7 @@ space for an isolated black hole.
 If we temporarily ignore the presence of matter, a point in this phase
 space describes the metric and extrinsic curvature of space outside the
 black hole at a given moment of time. Technically, we do this using an
-\mathrm{SU}(2) connection A together with an su(2)-valued 2-form E. You can think
+\mathrm{SU}(2) connection A together with an \mathfrak{su}(2)-valued 2-form E. You can think
 of these as analogous to the vector potential and electric field in
 electromagnetism. As usual, they need to satisfy some constraints coming
 from Einstein's equations for general relativity. They also need to
@@ -381,7 +381,7 @@ gravitational E field. When a spin network edge punctures the horizon
 2-sphere, it contributes *area* to the 2-sphere: a spin-j edge
 contributes an area equal to
 
-8 \pi γ sqrt(j(j+1))
+8 \pi γ \sqrt{j(j+1)}
 
 for some constant γ.
 
@@ -406,7 +406,7 @@ all, γ is an undetermined dimensionless constant, usually called the
 Barbero. This parameter sets the scale at which area is quantized! Of
 course, the formula for the area contributed by a spin-j edge:
 
-8 \pi γ sqrt(j(j+1))
+8 \pi γ \sqrt{j(j+1)}
 
 also has a factor of the Planck area lurking in it, which you can't see
 because I've set c, G, and ħ to 1. That's not surprising. What's
@@ -443,7 +443,7 @@ pick the numbers m as possible, we should concentrate on states where
 most of the spins j labelling punctures equal 1/2. If *all* these spins
 equal 1/2, each puncture contributes an area
 
-8 \pi γ sqrt(j(j+1)) = 4 \pi γ √3
+8 \pi γ \sqrt{j(j+1)} = 4 \pi γ √3
 
 to the horizon 2-sphere. Since the total area is close to A, this means
 that there are about A/(4 \pi γ √3) punctures. Then for each puncture we
