@@ -157,7 +157,8 @@ of itself, and the vertex is part of itself! Omitting identity
 morphisms, our little category $\mathcal{C}$ looks like this:
 $$
   \begin{tikzcd}
-    V \rar[bend left=50,"S"] \rar[bend right=50,"T"] & E
+    V \rar[bend left=30,"S"] \rar[bend right=30,"T"]
+    & E
   \end{tikzcd}
 $$
 Now let's work out what a presheaf on $\mathcal{C}$ is. It's a contravariant

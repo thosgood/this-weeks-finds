@@ -341,7 +341,7 @@ $$
       \rar[shift left=10,"1\otimes1\otimes i" description]
       \rar[shift left=5,"1\otimes i\otimes1" description]
       \rar["i\otimes1\otimes1" description]
-    & a\otimes a\otimes a \ldots
+    & a\otimes a\otimes a \quad \ldots
       \lar[shift left=5,"m\otimes1" description]
       \lar[shift left=10,"1\otimes m" description]
   \end{tikzcd}

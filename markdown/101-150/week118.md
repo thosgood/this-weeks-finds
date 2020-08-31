@@ -315,161 +315,166 @@ here's how....
 
 ------------------------------------------------------------------------
 
-**N.** Simplicial objects from adjunctions. Remember from section D of
+**N.** _Simplicial objects from adjunctions._ Remember from section D of
 ["Week 115"](#week115) that a "simplicial object" in some
-category is a contravariant functor from \Delta to that category. In what
-follows, I'll take \Delta to be the version of the category of simplices
+category is a contravariant functor from $\Delta$ to that category. In what
+follows, I'll take $\Delta$ to be the version of the category of simplices
 that contains the empty simplex. Topologists don't usually do this, so
 what I'm calling a "simplicial object", they would call an
 "augmented simplicial object". Oh well.
 
 Concretely, a simplicial object in a category amounts to a bunch of
-objects x_0, x_1, x_2,... together with morphisms like this:
-
-                             ---i1->
-                  ---i0->    ---i0->
-    x0 <--d0-- x1 <--d0-- x2 <--d0-- x3 ...
-                  <--d1--    <--d1--
-                             <--d2--
-
-The morphisms d~j~ are called "face maps" and the morphisms i~j~ are
+objects $x_0, x_1, x_2,\ldots$ together with morphisms like this:
+$$
+  \begin{tikzcd}[column sep=large]
+    x_0
+    & x_1
+      \rar[shift left=5,"i_0" description]
+      \lar["d_0" description]
+    & x_2
+      \rar[shift left=10,"i_1" description]
+      \rar[shift left=5,"i_0" description]
+      \lar["d_0" description]
+      \lar[shift left=5,"d_1" description]
+    & x_3\ldots
+      \lar["d_0" description]
+      \lar[shift left=5,"d_1" description]
+      \lar[shift left=10,"d_2" description]
+  \end{tikzcd}
+$$
+The morphisms $d_j$ are called "face maps" and the morphisms $i_j$ are
 called "degeneracies". They are required to satisfy some equations
 which I won't bother writing down here, since you can figure them out
 yourself if you read section B of ["Week 114"](#week114).
 
 Now, suppose we have an adjunction, that is, a pair of adjoint functors:
-
-      ---L-->
-    C         D
-      <--R---
-
+$$
+  \begin{tikzcd}
+    \mathcal{C} \rar[bend left=30,"L"]
+    & \mathcal{D} \lar[bend left=30,"R"]
+  \end{tikzcd}
+$$
 This means we have natural transformations
-
-e: LR =\> 1~D~
-
-i: 1~C~ =\> RL
-
+$$
+  \begin{aligned}
+    e&\colon LR\Rightarrow 1_{\mathcal{D}}
+  \\i&\colon 1_{\mathcal{C}} \Rightarrow RL
+  \end{aligned}
+$$
 satisfying a couple of equations, which I again won't write down, since
 I explained them in ["Week 79"](#week79) and
 ["Week 83"](#week83).
 
-Then an object d in the category D automatically gives a simplicial
+Then an object $d$ in the category $\mathcal{D}$ automatically gives a simplicial
 object as follows:
-
-                                     --LRL.i.R->
-                   --L.i.R->         --L.i.RLR->
-    d <--e-- LR(d) <--e.LR-- LRLR(d) <--e.LRLR-- LRLRLR(d) ...
-                   <--LR.e--         <--LR.e.LR-
-                                     <--LRLR.e--
-
-where . denotes horizontal composition of functors and natural
+$$
+  \begin{tikzcd}[column sep=huge]
+    d
+    & LR(d)
+      \rar[shift left=5,"L\cdot i\cdot R" description]
+      \lar["e" description]
+    & LRLR(d)
+      \rar[shift left=10,"LRL\cdot i\cdot R" description]
+      \rar[shift left=5,"L\cdot i\cdot RLR" description]
+      \lar["e\cdot LR" description]
+      \lar[shift left=5,"LR\cdot e" description]
+    & LRLRLR(d)
+      \lar["e\cdot LRLR" description]
+      \lar[shift left=5,"LR\cdot e\cdot LR" description]
+      \lar[shift left=10,"LRLR\cdot e" description]
+  \end{tikzcd}
+$$
+where $\cdot$ denotes horizontal composition of functors and natural
 transformations.
 
-For example, if Gp is the category of abelian groups, we have an
+For example, if $\mathsf{Gp}$ is the category of abelian groups, we have an
 adjunction
-
-        ---L-->
-    Set         AbGp
-        <--R---
-
-where L assigns to each set the free group on that set, and R assigns to
+$$
+  \begin{tikzcd}
+    \mathsf{Set} \rar[bend left=30,"L"]
+    & \mathsf{AbGp} \lar[bend left=30,"R"]
+  \end{tikzcd}
+$$
+where $L$ assigns to each set the free group on that set, and $R$ assigns to
 each group its underlying set. Thus given a group, the above trick gives
-us a simplicial object in Gp - or in other words, a simplicial group.
+us a simplicial object in $\mathsf{Gp}$ --- or in other words, a simplicial group.
 This has an underlying simplicial set, and from this we can cook up a
 chain complex as in section H of ["Week 116"](#week116). This lets
 us study groups using homology theory! One can define the homology (and
 cohomology) of lots other algebraic gadgets in exactly the same way.
 
 Note: I didn't explain why the equations in the definition of adjoint
-functors - which I didn't write down - imply the equations in the
-definition of a simplicial object - which I also didn't write down!
+functors --- which I didn't write down --- imply the equations in the
+definition of a simplicial object --- which I also didn't write down!
 
 The point is, there's a more conceptual approach to understanding why
-this stuff works. Remember from section K of last week that \Delta is "the
+this stuff works. Remember from section K of last week that $\Delta$ is "the
 free monoidal category on a monoid object". This implies that whenever
-we have a monoid object in a monoidal category M, we get a monoidal
+we have a monoid object in a monoidal category $\mathcal{M}$, we get a monoidal
 functor
-
-F: \Delta\to M.
-
+$$F\colon\Delta\to\mathcal{M}.$$
 This gives a functor
+$$G\colon\Delta^{\mathrm{op}}\to M^{\mathrm{op}}$$
+So: a monoid object in $\mathcal{M}$ gives a simplicial object in $\mathcal{M}^{\mathrm{op}}$.
 
-G: \Delta^op^\to M^op^
-
-So: a monoid object in M gives a simplicial object in M^op^.
-
-Actually, if M is a monoidal category, M^op^ becomes ne too, with the
+Actually, if $\mathcal{M}$ is a monoidal category, $\mathcal{M}^{\mathrm{op}}$ becomes one too, with the
 same tensor product and unit object. So it's also true that a monoid
-object in M^op^ gives a simplicial object in M!
+object in $\mathcal{M}^{\mathrm{op}}$ gives a simplicial object in $\mathcal{M}$!
 
-Another name for a monoid object in M^op^ is a "comonoid object in M".
-Remember, M^op^ is just like M but with all the arrows turned around. So
-if we've got a monoid object in M^op^, it gives us a similar gadget in
-M, but with all the arrows turned around. More precisely, a comonoid
-object in M is an object, say m, with "coproduct"
-
-c: m\to m x m
-
+Another name for a monoid object in $\mathcal{M}^{\mathrm{op}}$ is a "comonoid object in $\mathcal{M}$".
+Remember, $\mathcal{M}^{\mathrm{op}}$ is just like $\mathcal{M}$ but with all the arrows turned around. So
+if we've got a monoid object in $\mathcal{M}^{\mathrm{op}}$, it gives us a similar gadget in
+$\mathcal{M}$, but with all the arrows turned around. More precisely, a comonoid
+object in $\mathcal{M}$ is an object, say $m$, with "coproduct"
+$$c\colon m\to m\otimes m$$
 and "counit"
-
-e: m\to 1
-
+$$e\colon m\to 1$$
 morphisms, satisfying "coassociativity" and the left and right
 "counit laws". You get these laws by taking associativity and the
 left/right unit laws, writing them out as commutative diagrams, and
 turning all the arrows around.
 
-So: a comonoid object in a monoidal category M gives a simplicial object
-in M. Now let's see how this is related to adjoint functors. Suppose we
+So: a comonoid object in a monoidal category $\mathcal{M}$ gives a simplicial object
+in $\mathcal{M}$. Now let's see how this is related to adjoint functors. Suppose we
 have an adjunction, so we have some functors
-
-      ---L-->
-    C         D
-      <--R---
-
+$$
+  \begin{tikzcd}
+    \mathcal{C} \rar[bend left=30,"L"]
+    & \mathcal{D} \lar[bend left=30,"R"]
+  \end{tikzcd}
+$$
 and natural transformations
-
-e: LR =\> 1~D~
-
-i: 1~C~ =\> RL
-
+$$
+  \begin{aligned}
+    e&\colon LR\Rightarrow 1_{\mathcal{D}}
+  \\i&\colon 1_{\mathcal{C}} \Rightarrow RL
+  \end{aligned}
+$$
 satisfying the same equations I didn't write before.
 
-Let \operatorname{Hom}(C,C) be the category whose objects are functors from C to itself
+Let $\operatorname{Hom}(\mathcal{C},\mathcal{C})$ be the category whose objects are functors from $\mathcal{C}$ to itself
 and whose morphisms are natural transformations between such functors.
-This is a monoidal category, since we can compose functors from C to
-itself. In ["Week 92"](#week92) I showed that \operatorname{Hom}(C,C) has a monoid
-object in it, namely RL. The product for this monoid object is
-
-R.e.L: RLRL =\> RL
-
+This is a monoidal category, since we can compose functors from $\mathcal{C}$ to
+itself. In ["Week 92"](#week92) I showed that $\operatorname{Hom}(\mathcal{C},\mathcal{C})$ has a monoid
+object in it, namely $RL$. The product for this monoid object is
+$$R\cdot e\cdot L\colon RLRL \Rightarrow RL$$
 and the unit is
-
-i: 1~C~ =\> RL
-
+$$i\colon 1_{\mathcal{C}} \Rightarrow RL$$
 Folks often call this sort of thing a "monad".
 
-Similarly, \operatorname{Hom}(D,D) is a monoidal category containing a comonoid object,
-namely LR. The coproduct for this comonoid object is
-
-L.i.R: LR =\> LRLR
-
+Similarly, $\operatorname{Hom}(\mathcal{D},\mathcal{D})$ is a monoidal category containing a comonoid object,
+namely $LR$. The coproduct for this comonoid object is
+$$L\cdot i\cdot R\colon LR \Rightarrow LRLR$$
 and the counit is
-
-e: LR =\> 1~D~
-
+$$e\colon LR \Rightarrow 1_{\mathcal{D}}$$
 People call this thing a "comonad". But what matters here is that
 we've seen this comonoid object automatically gives us a simplicial
-object in \operatorname{Hom}(D,D)! If we pick any object d of D, we get a functor
-
-\operatorname{Hom}(D,D)\to D
-
+object in $\operatorname{Hom}(\mathcal{D},\mathcal{D})$! If we pick any object $d$ of $\mathcal{D}$, we get a functor
+$$\operatorname{Hom}(\mathcal{D},\mathcal{D})\to\mathcal{D}$$
 by taking
-
-\operatorname{Hom}(D,D) x D\to D
-
-and plugging in d in the second argument. This functor lets us push our
-simplicial object in \operatorname{Hom}(D,D) forwards to a simplicial object in D.
+$$\operatorname{Hom}(\mathcal{D},\mathcal{D})\times\mathcal{D}\to \mathcal{D}$$
+and plugging in $d$ in the second argument. This functor lets us push our
+simplicial object in $\operatorname{Hom}(\mathcal{D},\mathcal{D})$ forwards to a simplicial object in $\mathcal{D}$.
 Voila!
 
 ------------------------------------------------------------------------
