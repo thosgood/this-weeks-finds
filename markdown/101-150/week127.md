@@ -1,47 +1,38 @@
 # November 30, 1998 {#week127}
 
-If you like \pi, take a look at this book:
+If you like $\pi$, take a look at this book:
 
-1) Lennart Berggren, Jonathan Borwein and Peter Borwein, Π: A Source
-Book, Springer-Verlag, New York, 1997.
+1) Lennart Berggren, Jonathan Borwein and Peter Borwein, _$\pi$: A Source Book_, Springer-Verlag, New York, 1997.
 
-It's full of reprints of original papers about \pi, from the Rhind
+It's full of reprints of original papers about $\pi$, from the Rhind
 Papyrus right on up to the 1996 paper by Bailey, Borwein and Plouffe in
-which they figured out how to compute a given hexadecimal digit of \pi
-without computing the previous digits - see ["Week 66"](#week66)
+which they figured out how to compute a given hexadecimal digit of $\pi$
+without computing the previous digits --- see ["Week 66"](#week66)
 for more about that. By the way, Colin Percival has recently used this
-technique to compute the 5 trillionth binary digit of \pi! (It's either
+technique to compute the 5 trillionth binary digit of $\pi$! (It's either
 zero or one, I forget which.) Percival is a 17-year old math major at
 Simon Fraser University, and now he's leading a distributed computation
-project to calculate the quadrillionth binary digit of \pi. Anyone with a
+project to calculate the quadrillionth binary digit of $\pi$. Anyone with a
 Pentium or faster computer using Windows 95, 98, or NT can join. For
 more information, see:
 
 2) PiHex project, `http://www.cecm.sfu.ca/projects/pihex/pihex.html`
 
 Anyway, the above book is *full* of fun stuff, like a one-page proof of
-the irrationality of \pi which uses only elementary calculus, due to
+the irrationality of $\pi$ which uses only elementary calculus, due to
 Niven, and the following weirdly beautiful formula due to Euler, which
 unfortunately is not explained:
-
-                  3   5   7   11   13   17   19
-           \pi/2 = - × - × - × -- × -- × -- × -- × ...
-                  2   6   6   10   14   18   18
-
+$$\frac{\pi}{2} = \frac32\cdot\frac56\cdot\frac76\cdot\frac{11}{10}\cdot\frac{13}{14}\cdot\frac{17}{18}\cdot\frac{19}{18}\cdot\ldots$$
 Here the numerators are the odd primes, and the denominators are the
-closest numbers of the form 4n+2.
+closest numbers of the form $4n+2$.
 
 Since I've been learning about elliptic curves and the like lately, I
-was also interested to see a lot of relations between \pi and modular
+was also interested to see a lot of relations between $\pi$ and modular
 functions. For example, the book has a reprint of Ramanujan's paper
-"Modular equations and approximations to \pi", in which he derives a
-bunch of bizarre formulas for \pi, some exact but others approximate, like
+"Modular equations and approximations to $\pi$", in which he derives a
+bunch of bizarre formulas for $\pi$, some exact but others approximate, like
 this:
-
-                  12
-          \pi ~ ---------  ln[ (2 √2 + √10) (3 + √10) ]
-               sqrt(190)
-
+$$\pi \sim \frac{12}{\sqrt{190}}\ln((2\sqrt{2}+\sqrt{10})(3+\sqrt{10}))$$
 which is good to 18 decimal places. The strange uses to which genius can
 be put know no bounds!
 
@@ -51,41 +42,33 @@ do the path integral in string theory. Most of what I'm about to say
 comes from some papers that my friend Minhyong Kim recommended to me
 when I started pestering him about this stuff:
 
-3) Jean-Benoit Bost, Fibres determinants, determinants regularises, et
-mesures sur les espaces de modules des courbes complexes, Asterisque
-152-153 (1987), 113-149.
+3) Jean-Benoit Bost, "Fibres determinants, determinants regularises, et mesures sur les espaces de modules des courbes complexes", _Asterisque_ **152**--**153** (1987), 113--149.
 
-4) A. A. Beilinson and Y. I. Manin, The Mumford form and the Polyakov
-measure in string theory, Comm. Math. Phys. 107 (1986), 359-376.
+4) A. A. Beilinson and Y. I. Manin, "The Mumford form and the Polyakov measure in string theory", _Comm. Math. Phys._ **107** (1986), 359--376.
 
 For a more elementary approach, try chapters IX and X.4 in this book:
 
-5) Charles Nash, Differential Topology and Quantum Field Theory,
-Academic Press, New York, 1991.
+5) Charles Nash, _Differential Topology and Quantum Field Theory_, Academic Press, New York, 1991.
 
 As I explained in ["Week 126"](#week126), a string traces out a
 surface in spacetime called the "string worldsheet". Let's keep life
 simple and assume the string worldsheet is a torus and that spacetime is
-Euclidean R^n. Then to figure out the expectation value of any physical
+Euclidean $\mathbb{R}^n$. Then to figure out the expectation value of any physical
 observable, we need to calculate its integral over the space of all maps
-from a torus to R^n.
+from a torus to $\mathbb{R}^n$.
 
-To make this precise, let's use X to denote a map from the torus to
-R^n. Then a physical observable will be some function f(X), and its
+To make this precise, let's use $X$ to denote a map from the torus to
+$\mathbb{R}^n$. Then a physical observable will be some function $f(X)$, and its
 expectation value will be
-
-(1/Z) ∫ f(X) exp(-S(X)) dX
-
-Here S(X) is the action for string theory, which is just the *area* of
-the string worldsheet. The number Z is a normalizing factor called the
+$$\frac{1}{Z} \int f(X) \exp(-S(X)) dX$$
+Here $S(X)$ is the action for string theory, which is just the *area* of
+the string worldsheet. The number $Z$ is a normalizing factor called the
 partition function:
-
-Z = ∫ exp(-S(X)) dX
-
+$$Z = \int \exp(-S(X)) dX$$
 But there's a big problem here! As usual in quantum field thoery, the
 space we're trying to integrate over is infinite-dimensional, so the
 above integrals have no obvious meaning. Technically speaking, the
-problem is that there's no Lebesgue measure "dX" on an
+problem is that there's no Lebesgue measure "$dX$" on an
 infinite-dimensional manifold.
 
 Mathematicians might throw up our hands in despair and give up at this
@@ -98,41 +81,34 @@ after they're done.
 
 In the case at hand, it was Polyakov who figured out the right massage:
 
-6) A. M. Polyakov, Quantum geometry of bosonic strings, Phys. Lett.
-B103 (1981), 207.
+6) A. M. Polyakov, "Quantum geometry of bosonic strings", _Phys. Lett._ **B103** (1981), 207.
 
 He rewrote the above integral as a double integral: first an integral
-over the space of metrics g on the torus, and then inside, for each
-metric, an integral over maps X from the torus into spacetime. Of
+over the space of metrics $g$ on the torus, and then inside, for each
+metric, an integral over maps $X$ from the torus into spacetime. Of
 course, any such map gives a metric on the torus, so this double
 integral is sort of redundant. However, introducing this redundancy
 turns out not to hurt. In fact, it helps!
 
 To keep life simple, let's just talk about the partition function
-
-Z = ∫ exp(-S(X)) dX
-
+$$Z = \int \exp(-S(X)) dX$$
 If we can handle this, surely we can handle the integral with the
-observable f(X) in it. Polyakov's trick turns the partition function
+observable $f(X)$ in it. Polyakov's trick turns the partition function
 into a double integral:
-
-Z = ∫ ( ∫ exp(-\<X, \DeltaX\>) dX) dg
-
-where \Delta is the Laplacian on the torus and the angle brackets stand for
-the usual inner product of R^n-valued functions, both defined using the
-metric g.
+$$Z = \int ( \int \exp(-\langle X, \Delta X \rangle) dX) dg$$
+where $\Delta$ is the Laplacian on the torus and the angle brackets stand for
+the usual inner product of $\mathbb{R}^n$-valued functions, both defined using the
+metric $g$.
 
 At first glance Polyakov's trick may seem like a step backwards: now we
 have two ill-defined integrals instead of one! However, it's actually a
 step forward. Now we can do the inside integral by copying the formula
-for the integral of a Gaussian of finitely many variables - a standard
+for the integral of a Gaussian of finitely many variables --- a standard
 trick in quantum field theory. Ignoring an infinite constant that would
 cancel later anyway, the inside integral works out to be:
-
-(det \Delta)^-1/2^
-
+$$(\operatorname{det}\Delta)^{-\frac12}$$
 But wait! The Laplacian here is a linear operator on the vector space of
-R^n-valued functions on the torus. This is an infinite-dimensional
+$\mathbb{R}^n$-valued functions on the torus. This is an infinite-dimensional
 vector space, so we can't blithely talk about determinants the way we
 can in finite dimensions. In finite dimensions, the determinant of a
 self-adjoint matrix is the product of its eigenvalues. But the Laplacian
@@ -154,85 +130,64 @@ Okay, so now we have a divergent product to deal with. Well, in
 ["Week 126"](#week126) I used a trick called zeta function
 regularization to make sense of a divergent sum, and we can use that
 trick here to make sense of our divergent product. Suppose we have a
-self-adjoint operator A with a discrete spectrum consisting of positive
-eigenvalues. Then the "zeta function" of A is defined by:
-
-ζ(s) = tr(A^-s^)
-
-To compute ζ(s) we just take all the eigenvalues of A, raise them to the
--s power, and add them up. For example, if A has eigenvalues 1,2,3,...,
-then ζ(s) is just the usual Riemann zeta function, which we already
+self-adjoint operator $A$ with a discrete spectrum consisting of positive
+eigenvalues. Then the "zeta function" of $A$ is defined by:
+$$\zeta(s) = \operatorname{tr}(A^{-s})$$
+To compute $\zeta(s)$ we just take all the eigenvalues of $A$, raise them to the
+$-s$ power, and add them up. For example, if $A$ has eigenvalues $1,2,3,\ldots$,
+then $\zeta(s)$ is just the usual Riemann zeta function, which we already
 talked about in ["Week 126"](#week126).
 
-This stuff doesn't quite apply if A is the Laplacian on a compact
+This stuff doesn't quite apply if $A$ is the Laplacian on a compact
 manifold, since one of its eigenvalues is zero. But we have already
 agreed to throw out the zero eigenvalue, so let's do that when defining
-ζ(s) as a sum over eigenvalues. Then it turns out that the sum converges
-when the real part of s is positive and large. Even better, there's a
-theorem saying that Ζ(s) can be analytically continued to s = 0. Thus we
+$\zeta(s)$ as a sum over eigenvalues. Then it turns out that the sum converges
+when the real part of $s$ is positive and large. Even better, there's a
+theorem saying that $Ζ(s)$ can be analytically continued to $s = 0$. Thus we
 can use the following trick to define the determinant of the Laplacian.
 
-Suppose that A is a self-adjoint matrix with positive eigenvalues. Then
-
-ζ(s) = tr(exp(-s ln A))
-
+Suppose that $A$ is a self-adjoint matrix with positive eigenvalues. Then
+$$\zeta(s) = \operatorname{tr}(\exp(-s \ln A))$$
 Differentiating gives
-
-ζ'(s) = -tr(ln A exp(-s ln A))
-
-and setting s to zero we get
-
-ζ'(0) = -tr(ln A).
+$$\zeta'(s) = -\operatorname{tr}(\ln A \exp(-s \ln A))$$
+and setting $s$ to zero we get
+$$\zeta'(0) = -\operatorname{tr}(\ln A).$$
 
 But there's a nice little formula saying that
-
-det(A) = exp(tr(ln A))
-
+$$\operatorname{det}(A) = \exp(\operatorname{tr}(\ln A))$$
 so we get
-
-det(A) = exp(-ζ'(0)).
-
+$$\operatorname{det}(A) = \exp(-\zeta'(0)).$$
 Now we can use this formula to *define* the determinant of the Laplacian
 on a compact manifold! Sometimes this is called a "regularized
 determinant".
 
-So - where are we? We used Polyakov's trick to write the partition
+So --- where are we? We used Polyakov's trick to write the partition
 function of our torus-shaped string as
-
-Z = ∫ ( ∫ exp(-\<X, \DeltaX\>) dX) dg,
-
+$$Z = \int ( \int \exp(-\langle X, \Delta X\rangle) dX) dg,$$
 then we did the inside integral and got this:
-
-Z = ∫ (det \Delta)^-1/2^ dg
-
+$$Z = \int (\operatorname{det}\Delta)^{-\frac12} dg$$
 and then we figured out a meaning for the determinant here.
 
-What next? Well, since the Laplacian on R^n-valued functions is the
-direct sum of n copies of the Laplacian on real-valued functions, we
+What next? Well, since the Laplacian on $\mathbb{R}^n$-valued functions is the
+direct sum of $n$ copies of the Laplacian on real-valued functions, we
 expect that
-
-(det \Delta)^-1/2^ = (det laplacian)^-n/2^
-
-where "laplacian" stands for the Laplacian on ordinary real-valued
+$$(\operatorname{det}\Delta)^{-\frac12} = (\operatorname{det}\mathrm{laplacian})^{-\frac{n}{2}}$$
+where "$\mathrm{laplacian}$" stands for the Laplacian on ordinary real-valued
 functions on the torus. One can actually check this rigorously using the
 definition in terms of zeta functions. That's reassuring: at least
 *one* step of our calculation is rigorous! So we get
-
-Z = ∫ (det laplacian)^-n/2^ dg
-
+$$Z = \int (\operatorname{det}\mathrm{laplacian})^{-\frac{n}{2}} dg$$
 Great. But we are not out of the woods yet. We still have an integral
-over the space of metrics to do - another nasty infinite-dimensional
+over the space of metrics to do --- another nasty infinite-dimensional
 integral.
 
 Time for another massage!
 
 Look at this formula again:
-
-Z = ∫ ( ∫ exp(-\<X, \DeltaX\>) dX) dg
-
-The Laplacian depends on the metric g, and so does the inner product.
-However, the combination \<X, \DeltaX\> depends only on the "conformal
-structure" - i.e., it doesn't change if we multiply the metric by a
+$$Z = \int ( \int \exp(-\langle X, \Delta X\rangle) dX) dg$$
+The Laplacian depends on the metric $g$, and so does the inner product.
+However, the combination $\langle X, \Delta X\rangle$ depends only on the "conformal
+structure" --- i.e., it doesn't change if we multiply the metric by a
 position-dependent scale factor. It also doesn't change under
 diffeomorphisms.
 
@@ -241,27 +196,25 @@ is something familiar: it's just the moduli space of elliptic curves!
 We figured out what this space looks like in
 ["Week 125"](#week125). It's finite-dimensional and there's a
 nice way to integrate over it, called the Weil-Petersson measure. So we
-can hope to replace the outside integral - the integral over metrics ---
+can hope to replace the outside integral --- the integral over metrics ---
 by an integral over this moduli space.
 
 Indeed, we could hope that
-
-Z = ∫ (∫ exp(-\<X, \DeltaX\>) dX) d\[g\]         \[hope!\]
-
+Z = \int (\int \exp(-\langle X, \Delta X\rangle) dX) d\[g\]         \[hope!\]$$
 where now the outside integral is over moduli space and d\[g\] is the
 Weil-Petersson measure. The hope, of course, is that the stuff on the
 inside is well-defined as a function on moduli space.
 
-Actually this hope is a bit naive. Even though \<X, \DeltaX\> doesn't change
+Actually this hope is a bit naive. Even though \langle X, \Delta X\rangle doesn't change
 if we recale the metric, the whole inside integral
 
-∫ exp(-\<X, \DeltaX\>) dX
+\int \exp(-\langle X, \Delta X\rangle) dX
 
 *does* change. This may seem odd, but remember, we did a lot of
 hair-raising manipulations before we even got this integral to mean
 anything! We basically wound up *defining* it to be
 
-(det \Delta)^-1/2^,
+(\operatorname{det}\Delta)^{-\frac12},
 
 and one can check that this *does* change when we rescale the metric.
 This problem is called the "conformal anomaly".
@@ -278,19 +231,19 @@ exist, rigorously speaking! Still, if we do a bunch more hair-raising
 heuristic manipulations, which I will spare you, we can get a formula
 relating dg and and d\[g\], and using this we get
 
-Z = ∫ ( ∫ exp(-\<X, \DeltaX\>) dX) f(g) d\[g\]
+Z = \int ( \int \exp(-\langle X, \Delta X\rangle) dX) f(g) d\[g\]
 
 where f(g) is some function of the metric. There's a perfectly explicit
 formula for this function, but your eyeballs would fall out if I showed
 it to you. Anyway, the real point is that IN 26 DIMENSIONS AND ONLY IN
 26 DIMENSIONS, the integrand
 
-( ∫ exp(-\<X, \DeltaX\>) dX) f(g)
+( \int \exp(-\langle X, \Delta X\rangle) dX) f(g)
 
 is invariant under rescalings of the metric (as well as
 diffeomorphisms). In other words, the conformal anomaly in
 
-∫ exp(-\<X, \DeltaX\>) dX
+\int \exp(-\langle X, \Delta X\rangle) dX
 
 is precisely canceled by a similar conformal anomaly in f(g), so their
 product is a well-defined function on moduli space, so it makes sense to
@@ -315,7 +268,7 @@ this, after all, is to see if I understand this stuff.
 Okay, so now I'd like to see if I understand how one explicitly
 calculates this integral:
 
-∫ exp(-\<X, laplacian X\>) dX
+\int \exp(-\langle X, laplacian X\rangle) dX
 
 Since we're eventually going to integrate this (times some stuff) over
 moduli space, we might as well assume the metric on our torus is gotten
@@ -336,7 +289,7 @@ zeta function regularization to compute its determinant. Di Francesco,
 Mathieu, and Senechal do this in the textbook I talked about in
 ["Week 124"](#week124). They get
 
-∫ exp(-\<X, laplacian X\>) dX = 1 / (√Im(τ) |η(τ)|^2)
+\int \exp(-\langle X, laplacian X\rangle) dX = 1 / (√Im(τ) |η(τ)|^2)
 
 where "η" is the Dedekind eta function, regarded as function of τ. But
 the calculation is pretty brutal, and it seems to me that there should
@@ -368,7 +321,7 @@ zero-frequency mode is presumably related to the zero eigenvalue of the
 Laplacian. We threw that out when we defined the regularized determinant
 of the Laplacian, but as I hinted, more careful calculations of
 
-∫ exp(-\<X, laplacian X\>) dX
+\int \exp(-\langle X, laplacian X\rangle) dX
 
 don't just ignore the zero eigenvalue. Instead, they somehow use it to
 get an extra factor of 1/√Im(τ). Admittedly, the calculations are not
@@ -392,7 +345,7 @@ The Dedekind eta function satisfies
 
 η(-1/τ) = (τ / i)^1/2^ η(τ)
 
-η(τ + 1) = exp(2 \pi i / 24) η(τ)
+η(τ + 1) = \exp(2 \pi i / 24) η(τ)
 
 The second one is really easy to see from the definition; the first one
 is harder. Anyway, using these facts it's easy to see that
@@ -409,13 +362,13 @@ function - since they have that promising number "24" in them - but
 right now I do *not* see anything like this going on. Instead, it seems
 to be something like this: in the partition function
 
-Z = ∫ (∫ exp(-\<X, \DeltaX\>) dX) f(g) d\[g\]
+Z = \int (\int \exp(-\langle X, \Delta X\rangle) dX) f(g) d\[g\]
 
 the mysterious function f is basically just the determinant of the
 Laplacian on *vector fields* on the torus. So ignoring those darn zero
 eigenvalues the whole integrand here is
 
-det(laplacian)^n/2^ det(laplacian')
+\operatorname{det}(laplacian)^n/2^ \operatorname{det}(laplacian')
 
 where "laplacian" is the Laplacian on real-valued functions and "
 laplacian' " is the Laplacian on vector fields. Now these determinants
@@ -478,10 +431,10 @@ eigenvalues are the numbers 1, 2, 3, .... You can think of this
 operator as the Hamiltonian for the wave equation on the circle, where
 we only keep the right-moving modes. As I already said, the zeta
 function of this operator is the Riemann zeta function. This function
-has ζ'(0) = -ln(2 \pi)/2, so using our cute formula relating determinants
+has \zeta'(0) = -ln(2 \pi)/2, so using our cute formula relating determinants
 and zeta functions, we get
 
-det(A) = exp(-ζ'(0)) = (2 \pi)^1/2^ .
+\operatorname{det}(A) = \exp(-\zeta'(0)) = (2 \pi)^1/2^ .
 
 Just for laughs, if we pretend that the determinant of A is the product
 of its eigenvalues as in the finite-dimensional case, we get:
@@ -514,7 +467,7 @@ Notes and digressions:
     10) R. T. Seeley, Complex powers of an elliptic operator, Proc.
     Symp. Pure Math. 10 (1967), 288-307.
 
--   Why is the Polyakov action \<X, \DeltaX\> conformally invariant? Because
+-   Why is the Polyakov action \langle X, \Delta X\rangle conformally invariant? Because
     the Laplacian has dimensions of 1/length^2, while the integral used
     to define the inner product has dimensions of length^2, since the
     torus is 2-dimensional. This is the magic of 2 dimensions! The path
@@ -529,9 +482,9 @@ Notes and digressions:
                 \pi/2 = - x - x - x -- x -- x -- x -- x ...               (1)
                        2   6   6   10   14   18   18
 
-        Using the Euler product for ζ(2) gives
+        Using the Euler product for \zeta(2) gives
 
-        \pi^2/6 = ζ(2) = 1 + 1/2^2 + 1/3^2 + ...
+        \pi^2/6 = \zeta(2) = 1 + 1/2^2 + 1/3^2 + ...
                          = (4/3) (9/8) (25/24) ... (p^2/(p^2-1)) ...
 
         and dropping the p = 2 term and dividing by (1) we see that (1) is equivalent
