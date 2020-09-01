@@ -61,7 +61,7 @@ This is same equation that describes an idealized violin string. The
 only difference is that now, instead of a segment of violin string, we
 have a bunch of closed loops of string. The energy, or Hamiltonian, is
 also given by the usual wave equation Hamiltonian:
-$$H = \frac12\int\left[\left(\frac{dX}{dt}\right)^2+(\frac{dX}{dx}\right)^2\right]dx.$$
+$$H = \frac12\int\left[\left(\frac{dX}{dt}\right)^2+\left(\frac{dX}{dx}\right)^2\right]dx.$$
 The first term represents the kinetic energy of the string, while the
 second represents its potential energy --- the energy it has due to being
 stretched.
@@ -163,70 +163,56 @@ Then Taylor's formula says that translating a function to the left by a
 distance $c$ is the same as applying the operator $e^{cD}$ to it, since
 $$e^{cD} f = f + cf' + \left(\frac{c^2}{2!}\right)f'' + \ldots$$
 Using some formal manipulations we obtain
-
-f(0) + f(1) + f(2) + ... = \[(1 + e^D^ + e^2D^ + ... )f\](0)
-
-                                   = \[(1/(1 - e^D^)) f\](0)
-
-or if F is an integral of f, so that DF = f,
-
-f(0) + f(1) + f(2) + ... = \[(D/(1 - e^D^)) F\](0)
-
+$$
+  \begin{aligned}
+    f(0) + f(1) + f(2) + \ldots
+    & = ((1+e^D+e^{2D}+\ldots)f)(0)
+  \\& = \left(\left(\frac{1}{1-e^D}\right)f\right)(0)
+  \end{aligned}
+$$
+or if $F$ is an integral of $f$, so that $DF = f$,
+$$f(0) + f(1) + f(2) + \ldots = \left(\left(\frac{D}{1 - e^D}\right) F\right)(0)$$
 This formula can be made rigorous in certain contexts, but now we'll
-throw rigor to the winds and apply it to the function f(x) = x,
+throw rigor to the winds and apply it to the function $f(x) = x$,
 obtaining
-
-1 + 2 + 3 + ... = \[(D/(1 - e^D^)) F\](0)
-
+$$0+1+2+3+\ldots = \left(\left(\frac{D}{1 - e^D}\right) F\right)(0)$$
 where
-
-F(x) = x^2/2
-
+$$F(x) = \frac{x^2}{2}$$
 To finish the job, we work out the beginning of the Taylor series for
-D/(1 - e^D^). The coefficients of this are closely related to the
+$D/(1 - e^D)$. The coefficients of this are closely related to the
 Bernoulli numbers, and this could easily lead us into further
 interesting digressions, but all we need to know is
-
-D/(1 - e^D^) = -1 + D/2 - D^2/12 + ....
-
-Applying this operator to F(x) = x^2/2 and evaluating the result at x =
-0, the only nonzero term comes from the D^2 term in the power series,
+$$\frac{D}{1 - e^D} = -1 + \frac{D}{2} - \frac{D^2}{12} + \ldots$$
+Applying this operator to $F(x) = x^2/2$ and evaluating the result at $x=0$,
+the only nonzero term comes from the $D^2$ term in the power series,
 so we get
-
-1 + 2 + 3 + .... = \[(-D^2/12) F\](0) = -1/12
-
+$$1 + 2 + 3 + \ldots = \left(\left(-\frac{D^2}{12}\right)F\right)(0) = -\frac{1}{12}$$
 Voilà!
 
 By the way, after he came up with this proof, Dan Piponi found an almost
 identical proof in the following book:
 
-3) G. H. Hardy, Divergent Series, Chelsea Pub. Co., New York, 1991.
+3) G. H. Hardy, _Divergent Series_, Chelsea Pub. Co., New York, 1991.
 
 Now let me change gears. Besides the Riemann zeta function, there are a
 lot of other special functions that show up in the study of elliptic
 curves. Unsurprisingly, many of them are also important in string
 theory. For example, consider the partition function of bosonic string
 theory. What do I mean by a "partition function" here? Well, whenever
-we have a quantum system with a Hamiltonian H, its partition function is
+we have a quantum system with a Hamiltonian $H$, its partition function is
 defined to be
-
-Z(β) = trace(exp(-βH))
-
-where β \> 0 is the inverse temperature. This function is fundamental to
+$$Z(\beta) = \operatorname{tr}(\exp(-\beta H))$$
+where $\beta > 0$ is the inverse temperature. This function is fundamental to
 statistical mechanics, for reasons that I'm too lazy to explain here.
 
 Before tackling the bosonic string, let's work out the partition
 function for a quantum harmonic oscillator. To keep life simple, let's
-subtract off the zero-point energy so the energy levels are 0, k, 2k,
+subtract off the zero-point energy so the energy levels are $0$, $k$, $2k$,
 and so on. Mathematically, these energy levels are just the eigenvalues
-of the harmonic oscillator Hamiltonian, H. Thus the eigenvalues of
-exp(-βH) are 1, exp(-βk), exp(-2βk), etc. The trace of this operator is
+of the harmonic oscillator Hamiltonian, $H$. Thus the eigenvalues of
+$\exp(-\beta H)$ are $1$, $\exp(-\beta k)$, $\exp(-2\beta k)$, etc. The trace of this operator is
 just the sum of its eigenvalues, so we get
-
-Z(β) = 1 + exp(-βk) + exp(-2βk) + ...
-
-        = 1/(1 - exp(-βk))
-
+$$Z(\beta) = 1 + \exp(-\beta k) + \exp(-2\beta k) + \ldots = \frac{1}{1 - \exp(-\beta k)}$$
 This was first worked out by Planck, who assumed the harmonic oscillator
 had discrete, evenly spaced energy levels and computed its partition
 function as part of his struggle to understand the thermodynamics of the
@@ -234,86 +220,85 @@ electromagnetic field.
 
 Okay, now let's do the bosonic string. To keep life simple we again
 subtract off the zero-point energy. Also, we'll consider only the
-right-moving modes, and we'll start by assuming the field X describing
+right-moving modes, and we'll start by assuming the field $X$ describing
 the vibrations of the string has only one component. As we saw before,
 the string then becomes the same as a collection of quantum harmonic
-oscillators with frequencies k = 1, 2, 3, and so on. We've seen that
-the oscillator with frequency k has partition function 1/(1 - exp(-βk)).
+oscillators with frequencies $k = 1, 2, 3, \ldots$. We've seen that
+the oscillator with frequency $k$ has partition function $1/(1 - \exp(-\beta k))$.
 To get the partition function of a quantum system built from a bunch of
 noninteracting parts, you multiply the partition functions of the parts
 (since the trace of a tensor product of operators is the product of
 their traces). So the partition function of our string is
-
-∏ 1/(1 - exp(-βk))
-
-where we take the product over k = 1,2,3, .... So far, so good. But now
+$$\prod_{k\in\mathbb{N}} \frac{1}{1 -\exp(-\beta k)}$$
+So far, so good. But now
 suppose we take the zero-point energy into account. We do this by
-subtracting 1/24 from the Hamiltonian of the string, which has the
-effect of multiplying its partition function by exp(β/24). Thus we get
-
-Z(β) = exp(β/24) ∏ 1/(1 - exp(-βk))
-
+subtracting $1/24$ from the Hamiltonian of the string, which has the
+effect of multiplying its partition function by $\exp(\beta/24)$. Thus we get
+$$Z(\beta) = \exp(\beta/24) \prod \frac{1}{1 - \exp(-\beta k)}$$
 Lo and behold: the reciprocal of the Dedekind eta function!
 
 What's that, you ask? It's a very important function in the theory of
-elliptic curves. People usually write it as a function of q = exp(-β),
+elliptic curves. People usually write it as a function of $q = \exp(-\beta)$,
 like this:
-
-η(q) = q^1/24^ ∏ (1 - q^k^)
-
+$$\eta(q) = q^{\frac{1}{24}} \prod (1 - q^k)$$
 But to see the relation to elliptic curves we should switch variables
-yet again and write q = exp(2 \pi i τ). I already talked about this
-variable τ in ["Week 125"](#week125), where we were studying the
+yet again and write $q = \exp(2\pi i\tau)$. I already talked about this
+variable $\tau$ in ["Week 125"](#week125), where we were studying the
 elliptic curve formed by curling up a parallelogram like this in the
 complex plane:
-
-                             τ            τ + 1 
-                             *             *
-
-
-
-
-                          *              *
-                          0              1
-
+$$
+  \begin{tikzpicture}[scale=0.7]
+    \draw[->] (-3,0) to (4,0) node[label=below:{$\Re(z)$}]{};
+    \draw[->] (0,-2) to (0,4) node[label=left:{$\Im(z)$}]{};
+    \foreach \m in {-1,0,1,2}
+    {
+      \foreach \n in {-1,0,1,2}
+      {
+        \node (\m\n) at ({1.5*\m+0.75*\n},{1.33*\n}) {$\circ$};
+      }
+    }
+    \node at (00) {$\bullet$};
+    \node at (-0.3,-0.4) {$0$};
+    \node at (10) {$\bullet$};
+    \node at (1.5,-0.4) {$1$};
+    \node at (01) {$\bullet$};
+    \node at (0.75,0.9) {$\tau$};
+    \node at (11) {$\bullet$};
+    \node at (2.25,0.9) {$\tau+1$};
+  \end{tikzpicture}
+$$
 In physics, this elliptic curve is just one possibility for the shape of
-a surface traced out by a string. The number 1 says how far the surface
-goes in the *space* direction before it loops around, and the number τ
+a surface traced out by a string. The number $1$ says how far the surface
+goes in the *space* direction before it loops around, and the number $\tau$
 says how far it goes in the *time* direction before it loops around!
 
 (The idea of "looping around in time" may seem bizarre, but it's very
 important in physics. It turns out that studying the statistical
 mechanics of a system at a given inverse temperature is the same as
 studying Euclidean quantum field theory on a spacetime where time is
-periodic with a given period. This idea is what relates the variables β
-and τ.)
+periodic with a given period. This idea is what relates the variables $\beta$
+and $\tau$.)
 
 Now as I explained in ["Week 13"](#week13), the above elliptic
 curve is not just an abstract torus-shaped thingie. We can also think of
 it as the set of complex solutions of the following cubic equation in
 two variables:
-
-y^2 = 4x^3 - g_2 x - g_3
-
-where the numbers g_2 and g_3 are certain functions of τ. Moreover,
+$$y^2 = 4x^3 - g_2 x - g_3$$
+where the numbers $g_2$ and $g_3$ are certain functions of $\tau$. Moreover,
 this equation defines an elliptic curve whenever the polynomial on the
 right-hand side doesn't have repeated roots. So among other things,
 elliptic curves are really just a way of studying cubic equations!
 
-But when does 4x^3 - g_2 x - g_3 have repeated roots? Precisely when
+But when does $4x^3 - g_2 x - g_3$ have repeated roots? Precisely when
 the "discriminant"
-
-\Delta = g_2^3 - 27 g_3^2
-
+$$\Delta = g_2^3 - 27 g_3^2$$
 equals zero. This is just the analog for cubics of the more familiar
 discriminant for quadratic equations.
 
 Now for the cool part: there's an explicit formula for the discriminant
-in terms of the variable τ. And it involves the 24th power of the
+in terms of the variable $\tau$. And it involves the 24th power of the
 Dedekind eta function! Here it is:
-
-\Delta = (2 \pi)^12^ η^24^
-
+$$\Delta = (2 \pi)^{12}\eta^{24}$$
 If you haven't seen this before, it should seem *amazing* that the
 discriminant of a cubic equation can be computed using the 24th power of
 a partition function that shows up in string theory. Of course that's
@@ -329,20 +314,18 @@ special properties of the Dedekind eta function.
 Meanwhile, if you want to see pictures of the Dedekind eta function,
 together with some cool formulas it satisfies, try these:
 
-4) Mathworld, Dedekind eta function,
-`http://mathworld.wolfram.com/DedekindEtaFunction.html`
+4) Mathworld, "Dedekind eta function", `http://mathworld.wolfram.com/DedekindEtaFunction.html`
 
-5) Wikipedia, Dedekind eta function,
-`http://en.wikipedia.org/wiki/Dedekind_eta_function`
+5) Wikipedia, "Dedekind eta function", `http://en.wikipedia.org/wiki/Dedekind_eta_function`
 
 ------------------------------------------------------------------------
 
-*Dear Sir,*
-
-I am very much gratified on perusing your letter of the 8th February
-1913. I was expecting a reply from you similar to the one which a
+> "Dear Sir,
+> 
+> I am very much gratified on perusing your letter of the 8th February
+> 1913. I was expecting a reply from you similar to the one which a
 Mathematics Professor at London wrote asking me to study carefully
-Bromwich's Infinite Series *and not fall into the pitfall of divergent
+Bromwich's Infinite Series and not fall into the pitfall of divergent
 series. I have found a friend in you who views my labors
 sympathetically. This is already some encouragement to me to proceed
 with an onward course. I find in many a place in your letter rigourous
@@ -350,7 +333,6 @@ proofs are required and so on and you ask me to communicate the method
 of proof. If I had given you my methods of proof I am sure you will
 follow the London Professor. But as a fact I did not give him any proof
 but made some assertions as the following under my new theory. I told
-him that the sum of an infinite number of terms in the series* 1 + 2 + 3
-+ 4 + ... = -1/12 *under my theory. If I tell you this you will at once
-point out to me the lunatic asylum as my goal.* - Srinivasa Ramanujan,
+him that the sum of an infinite number of terms in the series $1+2+3+4+\ldots=-1/12$ under my theory. If I tell you this you will at once
+point out to me the lunatic asylum as my goal." --- Srinivasa Ramanujan,
 second letter to G. H. Hardy
