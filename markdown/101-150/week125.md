@@ -37,78 +37,93 @@ claims.
 First I need to talk a bit about lattices and $\mathrm{SL}(2,\mathbb{Z})$. As I explained in
 ["Week 66"](#week66), a lattice in the complex plane consists of
 all points that are integer linear combinations of two complex numbers,
-say \omega_1 and \omega_2. However, we can change these numbers without changing
+say $\omega_1$ and $\omega_2$. However, we can change these numbers without changing
 the lattice by letting
-
-                     \omega'1 = a \omega1 + b \omega2
-
-                     \omega'2 = c \omega1 + d \omega2
-
+$$
+  \begin{aligned}
+    \omega'_1 &= a\omega_1+b\omega_2
+  \\\omega'_2 &= c\omega_1+d\omega_2
+  \end{aligned}
+$$
 where
-
-                              a   b 
-
-                              c   d
-
-is a 2×2 invertible matrix of integers whose inverse again consists of
+$$
+  \left(
+    \begin{array}{cc}
+      a&b\\c&d
+    \end{array}
+  \right)
+$$
+is a $2\times2$ invertible matrix of integers whose inverse again consists of
 integers. Usually it's good to require that our transformation preserve
-the handedness of the basis (\omega_1, \omega_2), which means that this matrix
-should have determinant $1$. Such matrices form a group called \mathrm{SL}(2,\mathbb{Z}). In
+the handedness of the basis $(\omega_1,\omega_2)$, which means that this matrix
+should have determinant $1$. Such matrices form a group called $\mathrm{SL}(2,\mathbb{Z})$. In
 the context of elliptic curves it's also called the "modular group".
 
-Now associated to the square lattice is a special element of \mathrm{SL}(2,\mathbb{Z})
-that corresponds to a 90 degree rotation. Everyone calls it S:
-
-                             0  -1
-                       S =
-                             1   0
-
-Associated to the hexagonal lattice is a special element of \mathrm{SL}(2,\mathbb{Z}) that
-corresponds to a 60 degree rotation. Everyone calls it ST:
-
-                             0  -1
-                      ST =
-                             1   1
-
-(See, there's a matrix they already call T, and ST is the product of S
-and that one.) Now, you may complain that the matrix ST doesn't look
+Now associated to the square lattice is a special element of $\mathrm{SL}(2,\mathbb{Z})$
+that corresponds to a 90 degree rotation. Everyone calls it $S$:
+$$
+  S = \left(
+    \begin{array}{cc}
+      0&-1\\1&0
+    \end{array}
+  \right)
+$$
+Associated to the hexagonal lattice is a special element of $\mathrm{SL}(2,\mathbb{Z})$ that
+corresponds to a 60 degree rotation. Everyone calls it $ST$:
+$$
+  ST = \left(
+    \begin{array}{cc}
+      0&-1\\1&1
+    \end{array}
+  \right)
+$$
+(See, there's a matrix they already call $T$, and $ST$ is the product of $S$
+and that one.) Now, you may complain that the matrix $ST$ doesn't look
 like a rotation, but you have to be careful! What I mean is, if you take
 the hexagonal lattice and pick a basis for it like this:
-
-                         \omega2      
-                    *       *      *      *
-
-                                     \omega1
-                        *      0*      *                
-
-
-                    *       *      *      *
-
-then in *this* basis the matrix ST represents a 60 degree rotation.
+$$
+  \begin{tikzpicture}[scale=0.7]
+    \draw[->] (-3,0) to (4,0) node[label=below:{$\Re(z)$}]{};
+    \draw[->] (0,-2) to (0,4) node[label=left:{$\Im(z)$}]{};
+    \foreach \m in {-1,0,1,2}
+    {
+      \foreach \n in {-1,0,1,2}
+      {
+        \node (\m\n) at ({1.5*\m+0.75*\n},{1.33*\n}) {$\circ$};
+      }
+    }
+    \node at (00) {$\bullet$};
+    \node at (-0.3,-0.33) {\scriptsize$0$};
+    \node at (10) {$\bullet$};
+    \node at (1.5,-0.4) {\scriptsize$\omega_1$};
+    \node at (01) {$\bullet$};
+    \node at (0.75,0.9) {\scriptsize$\omega_2$};
+  \end{tikzpicture}
+$$
+then in *this* basis the matrix $ST$ represents a 60 degree rotation.
 
 So far this is pretty straightforward, but now come some surprises.
-First, it turns out that \mathrm{SL}(2,\mathbb{Z}) is *generated* by S and ST. In other
-words, every 2×2 integer matrix with determinant $1$ can be written as a
-product of a bunch of copies of S, ST, and their inverses. Second, all
-the relations satisfied by S and ST follow from these obvious ones:
-
-S^4 = 1
-
-(ST)^6^ = 1
-
+First, it turns out that $\mathrm{SL}(2,\mathbb{Z})$ is *generated* by $S$ and $ST$. In other
+words, every $2\times2$ integer matrix with determinant $1$ can be written as a
+product of a bunch of copies of $S$, $ST$, and their inverses. Second, all
+the relations satisfied by $S$ and $ST$ follow from these obvious ones:
+$$
+  \begin{aligned}
+    S^4 &= 1
+  \\(ST)^6 &= 1
+  \end{aligned}
+$$
 together with
-
-S^2 = (ST)^3
-
+$$S^2 = (ST)^3$$
 which holds because both sides describe a 180 degree rotation.
 
-Right away this implies that \mathrm{SL}(2,\mathbb{Z}) has a certain inherent "12-ness"
-to it. Let me explain. \mathrm{SL}(2,\mathbb{Z}) is a nonabelian group - this is how
+Right away this implies that $\mathrm{SL}(2,\mathbb{Z})$ has a certain inherent "12-ness"
+to it. Let me explain. $\mathrm{SL}(2,\mathbb{Z})$ is a nonabelian group --- this is how
 someone with a Ph.D. says that matrix multiplication doesn't commute ---
 but suppose we abelianize it by imposing extra relations *forcing*
-commutativity. Then we get a group generated by S and ST, satisfying the
-above relations together with an extra one saying that S and ST commute.
-This is the group Z/12, which has 12 elements!
+commutativity. Then we get a group generated by $S$ and $ST$, satisfying the
+above relations together with an extra one saying that $S$ and $ST$ commute.
+This is the group $\mathbb{Z}/12$, which has 12 elements!
 
 This "12-ness" has a lot to do with the magic properties of the number
 24 in string theory. But to see how this "12-ness" affects string
@@ -116,15 +131,15 @@ theory, we need to talk about elliptic curves a bit more. It will take
 forever unless I raise the mathematical sophistication level a little.
 So....
 
-We can define an elliptic curve to be a torus C/L formed by taking the
-complex plane C and modding out by a lattice L. Since C is an abelian
-group and L is a subgroup, this torus is an abelian group, but in the
+We can define an elliptic curve to be a torus $\mathbb{C}/L$ formed by taking the
+complex plane $\mathbb{C}$ and modding out by a lattice L. Since $\mathbb{C}$ is an abelian
+group and $L$ is a subgroup, this torus is an abelian group, but in the
 theory of elliptic curves we consider it not just as a group but also as
-a complex manifold. Thus two elliptic curves C/L and C/L' are
+a complex manifold. Thus two elliptic curves $\mathbb{C}/L$ and $\mathbb{C}/L'$ are
 considered isomorphic if there is a complex-analytic function from one
 to the other that's also an isomorphism of groups. This happens
-precisely when there is a nonzero number z such that zL = L', or in
-other words, whenever L' is a rotated and/or dilated version of L.
+precisely when there is a nonzero number $z$ such that $zL = L'$, or in
+other words, whenever $L'$ is a rotated and/or dilated version of $L$.
 
 There's a wonderful space called the "moduli space" of elliptic
 curves: each point on it corresponds to an isomorphism class of elliptic
@@ -137,80 +152,71 @@ interesting, but the moduli space of elliptic curves is a nice simple
 example when you're first trying to learn this stuff. What does this
 space look like?
 
-Well, suppose we have an elliptic curve C/L. We can take our lattice L
-and describe it in terms of a right-handed basis (\omega_1, \omega_2). For the
+Well, suppose we have an elliptic curve $\mathbb{C}/L$. We can take our lattice $L$
+and describe it in terms of a right-handed basis $(\omega_1, \omega_2)$. For the
 purposes of classifying the describing the elliptic curve up to
 isomorphism, it doesn't matter if we multiply these basis elements by
-some number z, so all that really matters is the ratio
-
-                           \tau = \omega1/\omega2.
-
-Since our basis was righthanded, \tau lives in the upper halfplane, which
-people like to call H.
+some number $z$, so all that really matters is the ratio
+$$\tau = \omega1/\omega2.$$
+Since our basis was right-handed, $\tau$ lives in the upper half-plane, which
+people like to call $H$.
 
 Okay, so now we have described our elliptic curve in terms of a complex
-number \tau lying in H. But the problem is, we could have chosen a
-different right-handed basis for our lattice L and gotten a different
-number \tau. We've got to think about that. Luckily, we've already seen
+number $\tau$ lying in $H$. But the problem is, we could have chosen a
+different right-handed basis for our lattice $L$ and gotten a different
+number $\tau$. We've got to think about that. Luckily, we've already seen
 how we can change bases without changing the lattice: we just apply a
-matrix in \mathrm{SL}(2,\mathbb{Z}), getting a new basis
-
-                     \omega'1 = a \omega1 + b \omega2
-
-                     \omega'2 = c \omega1 + d \omega2
-
-This has the effect of changing \tau to
-
-                    \tau' = (a \tau + b)/(c \tau + d).
-
-If you don't see why, figure it out - you've gotta understand this to
+matrix in $\mathrm{SL}(2,\mathbb{Z})$, getting a new basis
+$$
+  \begin{aligned}
+    \omega'_1 &= a\omega_1+b\omega_2
+  \\\omega'_2 &= c\omega_1+d\omega_2
+  \end{aligned}
+$$
+This has the effect of changing $\tau$ to
+$$\tau' = \frac{a \tau + b}{c \tau + d}.$$
+If you don't see why, figure it out --- you've gotta understand this to
 understand elliptic curves!
 
-Anyway, two numbers \tau and \tau' describe isomorphic elliptic curves if and
+Anyway, two numbers $\tau$ and $\tau'$ describe isomorphic elliptic curves if and
 only if they differ by the above sort of transformation. So we've
 figured out the moduli space of elliptic curves: it's the quotient
-space H/\mathrm{SL}(2,\mathbb{Z}), where \mathrm{SL}(2,\mathbb{Z}) acts on H as above!
+space $H/\mathrm{SL}(2,\mathbb{Z})$, where $\mathrm{SL}(2,\mathbb{Z})$ acts on $H$ as above!
 
-Now, the quotient space H/\mathrm{SL}(2,\mathbb{Z}) is not a smooth manifold, because
-while the upper halfplane H is a manifold and the group \mathrm{SL}(2,\mathbb{Z}) is
-discrete, the action of \mathrm{SL}(2,\mathbb{Z}) on H is not free: i.e., certain points
-in H don't move when you hit them with certain elements of \mathrm{SL}(2,\mathbb{Z}).
+Now, the quotient space $H/\mathrm{SL}(2,\mathbb{Z})$ is not a smooth manifold, because
+while the upper halfplane $H$ is a manifold and the group $\mathrm{SL}(2,\mathbb{Z})$ is
+discrete, the action of $\mathrm{SL}(2,\mathbb{Z})$ on $H$ is not free: i.e., certain points
+in $H$ don't move when you hit them with certain elements of $\mathrm{SL}(2,\mathbb{Z})$.
 
 If you don't see why this causes trouble, think about a simpler
-example, like the group G = Z/n acting as rotations of the complex
-plane, C. Most points in the plane move when you rotate them, but the
-origin doesn't. The quotient space C/G is a cone with its tip
+example, like the group $G = \mathbb{Z}/n$ acting as rotations of the complex
+plane, $\mathbb{C}$. Most points in the plane move when you rotate them, but the
+origin doesn't. The quotient space $\mathbb{C}/G$ is a cone with its tip
 corresponding to the origin. It's smooth everywhere except the tip,
 where it has a "conical singularity". The moral of the story is that
 when we mod out a manifold by a group of symmetries, we get a space with
 singularities corresponding to especially symmetrical points in the
 original manifold.
 
-So we expect that H/\mathrm{SL}(2,\mathbb{Z}) has singularities corresponding to points in
-H corresponding to especially symmetrical lattices. These, of course,
+So we expect that $H/\mathrm{SL}(2,\mathbb{Z})$ has singularities corresponding to points in
+$H$ corresponding to especially symmetrical lattices. These, of course,
 are our friends the square and hexagonal lattices!
 
-But let's be a bit more careful. First of all, *nothing* in H moves
-when you hit it with the matrix -1. But that's no big deal: we can just
-replace the group \mathrm{SL}(2,\mathbb{Z}) by
+But let's be a bit more careful. First of all, *nothing* in $H$ moves
+when you hit it with the matrix $-1$. But that's no big deal: we can just
+replace the group $\mathrm{SL}(2,\mathbb{Z})$ by
+$$\mathrm{PSL}(2,\mathbb{Z}) = \mathrm{SL}(2,\mathbb{Z})/\{\pm1\}$$
+Since $-1$ doesn't move *any* points of $H$, the action of $\mathrm{SL}(2,\mathbb{Z})$ on $H$
+gives an action of $\mathrm{PSL}(2,\mathbb{Z})$, and the moduli space of elliptic curves is
+$H/\mathrm{PSL}(2,\mathbb{Z})$.
 
-                            \mathrm{PSL}(2,\mathbb{Z}) = \mathrm{SL}(2,\mathbb{Z})/{±1}
-
-Since -1 doesn't move *any* points of H, the action of \mathrm{SL}(2,\mathbb{Z}) on H
-gives an action of \mathrm{PSL}(2,\mathbb{Z}), and the moduli space of elliptic curves is
-H/\mathrm{PSL}(2,\mathbb{Z}).
-
-Now most points in H aren't preserved by any element of \mathrm{PSL}(2,\mathbb{Z}).
+Now most points in $H$ aren't preserved by any element of $\mathrm{PSL}(2,\mathbb{Z})$.
 However, certain points are! The point
-
-                                \tau = i
-
-corresponding to the square lattice, is preserved by S and all its
+$$\tau = i$$
+corresponding to the square lattice, is preserved by $S$ and all its
 powers. And the point
-
-                             \tau = exp(2\pii/3)
-
-corresponding to the hexagonal lattice, is preserved by ST and all its
+$$\tau = \exp(2\pi i/3)$$
+corresponding to the hexagonal lattice, is preserved by $ST$ and all its
 powers. These give rise to two conical singularities in the moduli space
 of elliptic curves. Away from these points, the moduli space is smooth.
 
@@ -218,48 +224,57 @@ Lest you get the wrong impression, I should hasten to reassure you that
 the moduli space is not all that complicated: it looks almost like the
 complex plane! There's a famous one-to-one and onto function from the
 moduli space to the complex plane: it's called the "modular function"
-and denoted by j. So the moduli space is *topologically* just like the
+and denoted by $j$. So the moduli space is *topologically* just like the
 complex plane; the only difference is that it fails to be *smooth* at
 two points, where there are conical singularities.
 
 This may seem a bit hard to visualize, but it's actually not too hard.
-Here's one way. Start with the region in the upper halfplane outside
-the unit circle and between the vertical lines x = -1/2 and x = 1/2. It
+Here's one way. Start with the region in the upper half-plane outside
+the unit circle and between the vertical lines $x = -1/2$ and $x = 1/2$. It
 looks sort of like this:
-
-                       .....................
-                       .....................
-                       .....................
-                       .....................
-                       .....................   
-                       .....................
-                       .....................               
-                       .....................         
-                       ..........A..........
-                       .....           .....
-                       ...               ...
-                       .                   .
-                       B                   B'
-
-Then glue the vertical line starting at B to the one starting at B',
-and glue the arc AB to the arc AB'. We get a space that's smooth
-everywhere except at the points A and B = B', where there are conical
-singularities. The total angle around the point A is just 180 degrees ---
+$$
+  \begin{tikzpicture}[scale=0.7]
+    \draw[->] (-2.4,0) to (2.4,0) node[label=right:{$\Re(z)$}]{};
+    \draw[->] (0,-1) to (0,5) node[label=left:{$\Im(z)$}]{};
+    \node at (1,0) {\scriptsize$\bullet$};
+    \node at (1,-0.6) {\scriptsize$B'$};
+    \node at (-1,0) {\scriptsize$\bullet$};
+    \node at (-1,-0.6) {\scriptsize$B$};
+    \node at (0,1) {\scriptsize$\bullet$};
+    \node at (-0.2,0.7) {\scriptsize$A$};
+    \draw[thick] (1,0) arc(0:180:1);
+    \draw[thick] (1,0) to (1,3.5);
+    \draw[thick,dashed] (1,3.5) to (1,4.5);
+    \draw[thick] (-1,0) to (-1,3.5);
+    \draw[thick,dashed] (-1,3.5) to (-1,4.5);
+    \draw (0.4,0.9) to (1,1.2);
+    \foreach \y in {0.5,1,1.5,2,2.5}
+      \draw (-1,{\y+0.2}) to (1,{\y+1.2});
+    \draw (-1,3.2) to (0,3.7);
+    \draw[dashed] (0,3.7) to (1,4.2);
+    \draw[dashed] (-1,3.7) to (0.8,4.6);
+    \draw[dashed] (-1,4.2) to (-0.2,4.6);
+  \end{tikzpicture}
+$$
+Then glue the vertical line starting at $B$ to the one starting at $B'$,
+and glue the arc $AB$ to the arc $AB'$. We get a space that's smooth
+everywhere except at the points $A$ and $B = B'$, where there are conical
+singularities. The total angle around the point $A$ is just 180 degrees ---
 half what it would be if the moduli space were smooth there. The total
-angle around B is just 120 degrees - one third what it would be if the
+angle around $B$ is just 120 degrees --- one third what it would be if the
 moduli space were smooth there.
 
 The reason this works is that the region shown above is a "fundamental
-domain" for the action of \mathrm{PSL}(2,\mathbb{Z}) on H. In other words, every elliptic
-curve is isomorphic to one where the parameter \tau lies in this region.
-The point A is where \tau = i, and the point B is where \tau = exp(2\pii/3).
+domain" for the action of $\mathrm{PSL}(2,\mathbb{Z})$ on $H$. In other words, every elliptic
+curve is isomorphic to one where the parameter $\tau$ lies in this region.
+The point $A$ is where $\tau = i$, and the point B is where $\tau = exp(2\pi i/3)$.
 
 Now let's see where the "12-ness" comes into this picture. Minhyong
 Kim explained this to me in a very nice way, but to tell you what he
 said, I'll have to turn up the level of mathematical sophistication
 another notch. (Needless to say, all the errors will be mine.)
 
-So, I'll assume you know what a "complex line bundle" is - this is
+So, I'll assume you know what a "complex line bundle" is --- this is
 just another name for a 1-dimensional complex vector bundle. Locally a
 section of a complex line bundle looks a lot like a complex-valued
 function, but this isn't true globally unless your line bundle is
@@ -281,18 +296,18 @@ space.
 
 What's the Picard group of the moduli space of elliptic curves? Well,
 when I said "any sort of space" I was hinting that there are all sorts
-of spaces - topological spaces, smooth manifolds, algebraic varieties,
-and so on - each one of which comes with its own particular notion of
+of spaces --- topological spaces, smooth manifolds, algebraic varieties,
+and so on --- each one of which comes with its own particular notion of
 line bundle. Thus, before studying the Picard group of moduli space we
 need to decide what context we're going to work in! As a mere
 *topological space*, we've seen that the moduli space of elliptic
 curves is indistinguishable from the plane, and every *topological* line
 bundle over the plane is trivial, so in *this* context the Picard group
-is the trivial group - boring!
+is the trivial group --- boring!
 
 But the moduli space is actually much more than a mere topological
 space. It's not a smooth manifold, but it's awfully close: it's the
-quotient of the smooth manifold H by the discrete group \mathrm{SL}(2,\mathbb{Z}), and its
+quotient of the smooth manifold $H$ by the discrete group $\mathrm{SL}(2,\mathbb{Z})$, and its
 singularities are pretty mild in nature.
 
 Somehow we should take advantage of this when defining the Picard group
@@ -301,35 +316,33 @@ Without getting into the details of this theory, let me just vaguely
 sketch what it does for us here. For a much more careful treatment, with
 more of an algebraic geometry flavor, try:
 
-1) David Mumford, Picard groups of moduli problems, in Arithmetical
-Algebraic Geometry, ed. O. F. G. Schilling, Harper and Row, New York,
-1965.
+1) David Mumford, "Picard groups of moduli problems", in _Arithmetical Algebraic Geometry_, ed. O. F. G. Schilling, Harper and Row, New York, 1965.
 
-Suppose a discrete group G acts on a smooth manifold X. A
-"G-equivariant" line bundle on X is a line bundle equipped with an
-action of G that gets along with the action of G on X. If G acts freely
-on X, a line bundle on X/G is the same as a G-equivariant line bundle on
-X. This isn't true when the action of G on X isn't free. But we can
-still go ahead and *define* the Picard group of X/G to be the group of
-isomorphism classes of G-equivariant line bundles on X. Of course we
+Suppose a discrete group $G$ acts on a smooth manifold $X$. A
+"$G$-equivariant" line bundle on $X$ is a line bundle equipped with an
+action of $G$ that gets along with the action of $G$ on $X$. If $G$ acts freely
+on $X$, a line bundle on $X/G$ is the same as a $G$-equivariant line bundle on
+$X$. This isn't true when the action of $G$ on $X$ isn't free. But we can
+still go ahead and *define* the Picard group of $X/G$ to be the group of
+isomorphism classes of $G$-equivariant line bundles on $X$. Of course we
 should say something to let people know that we're using this funny
 definition. In our example, people call it the Picard group of the
 moduli *stack* of elliptic curves.
 
 So what's this group, anyway?
 
-Well, it turns out that you can get any \mathrm{SL}(2,\mathbb{Z})-equivariant line bundle
-on H, up to isomorphism, by taking the trivial line bundle on H and
-using a 1-dimensional representation of \mathrm{SL}(2,\mathbb{Z}) to say how it acts on
+Well, it turns out that you can get any $\mathrm{SL}(2,\mathbb{Z})$-equivariant line bundle
+on $H$, up to isomorphism, by taking the trivial line bundle on $H$ and
+using a 1-dimensional representation of $\mathrm{SL}(2,\mathbb{Z})$ to say how it acts on
 the fiber. So we just need to understand 1-dimensional representations
-of \mathrm{SL}(2,\mathbb{Z}). The set of isomorphism classes of these forms a group under
+of $\mathrm{SL}(2,\mathbb{Z})$. The set of isomorphism classes of these forms a group under
 tensor product, and this is the group we're after.
 
 Well, a 1-dimensional representation of a group always factors through
-the abelianization of that group. We saw the abelianization of \mathrm{SL}(2,\mathbb{Z})
-was Z/12. But everyone knows that the group of 1-dimensional
-representations of Z/n is again Z/n - this is called Pontryagin duality.
-So: the Picard group of the moduli stack of elliptic curves is Z/12.
+the abelianization of that group. We saw the abelianization of $\mathrm{SL}(2,\mathbb{Z})$
+was $\mathbb{Z}/12$. But everyone knows that the group of 1-dimensional
+representations of $\mathbb{Z}/n$ is again $\mathbb{Z}/n$ - this is called Pontryagin duality.
+So: the Picard group of the moduli stack of elliptic curves is $\mathbb{Z}/12$.
 
 So we see again an inherent "12-ness" built into the theory of
 elliptic curves! You may be wondering how this makes the number 24 so
@@ -340,8 +353,7 @@ may not manage to tie together the loose ends!
 You may also be wondering about "stacks". In this you're not alone.
 There's an amusing passage about stacks in the following book:
 
-2) Joe Harris and Ian Morrison, Moduli of Curves, Springer-Verlag, New
-York, 1998.
+2) Joe Harris and Ian Morrison, _Moduli of Curves_, Springer-Verlag, New York, 1998.
 
 They write:
 
@@ -353,7 +365,7 @@ They write:
 >
 > Who hasn't heard these words, or their equivalent, spoken in a talk?
 > And who hasn't fantasized about grabbing the speaker by the lapels
-> and shaking him until he says what - exactly - he means by them? But
+> and shaking him until he says what --- exactly --- he means by them? But
 > perhaps you're now thinking that all that is in the past, and that at
 > long last you're going to learn what a stack is and what they do.
 >
@@ -363,28 +375,27 @@ Actually Mumford's paper cited above gives a nice introduction to the
 theory of stacks without mentioning the dreaded word "stack".
 Alternatively, you can wait and read this book when it comes out:
 
-3) K. Behrend, L. Fantechi, W. Fulton, L. Goettsche and A. Kresch, An
-Introduction to Stacks, in preparation.
+3) K. Behrend, L. Fantechi, W. Fulton, L. Goettsche and A. Kresch, _An Introduction to Stacks_, in preparation.
 
 But let me just briefly say a bit about stacks and the moduli stack of
 elliptic curves in particular. A stack is a weak sheaf of categories.
 For this to make sense you must already know what a sheaf is! In the
-simplest case, a sheaf over a topological space, the sheaf S gives you a
-set S(U) for each open set U, and gives you a function S(U,V): S(U)\to
-S(V) whenever the open set U is contained in the open set V. These
+simplest case, a sheaf over a topological space, the sheaf $S$ gives you a
+set $S(U)$ for each open set U, and gives you a function
+$S(U,V)\colon S(U)\to S(V)$ whenever the open set $U$ is contained in the open set $V$. These
 functions must satisfy some laws. The notion of "stack" is just a
-categorification of this idea. That is, a stack S over a topological
-space gives you a *category* S(U) for each open set U, and gives you a
-*functor* S(U,V): S(U)\to S(V). These functors satisfy the same laws as
+categorification of this idea. That is, a stack $S$ over a topological
+space gives you a *category* $S(U)$ for each open set $U$, and gives you a
+*functor* $S(U,V)\colon S(U)\to S(V)$. These functors satisfy the same laws as
 before, but *only up to specified natural isomorphism*. And these
 natural isomorphisms must in turn satisfy some new laws of their own,
 so-called coherence laws.
 
 In the case at hand there's a stack over the moduli space of elliptic
-curves. For any open set U in the moduli space, an object of S(U) is a
-family of elliptic curves over U, such that each elliptic curve in the
+curves. For any open set $U$ in the moduli space, an object of $S(U)$ is a
+family of elliptic curves over $U$, such that each elliptic curve in the
 family sits over the point in moduli space corresponding to its
-isomorphism class. Similarly, a morphism in S(U) is a family of
+isomorphism class. Similarly, a morphism in $S(U)$ is a family of
 isomorphisms of elliptic curves. This allows us to keep track of the
 fact that some elliptic curves have more automorphisms than others! And
 it takes care of the funny stuff that happens at the singular points in
@@ -393,12 +404,10 @@ the moduli space.
 By the way, this watered-down summary leaves out a lot of the algebraic
 geometry that you usually see when people talk about stacks.
 
-Finally, one more thing - it looks like Kreimer and company are making
+Finally, one more thing --- it looks like Kreimer and company are making
 great progress on understanding renormalization in a truly elegant way.
 
-4) D. J. Broadhurst and D. Kreimer, Renormalization automated by Hopf
-algebra, preprint available as
-[`hep-th/9810087`](http://xxx.lanl.gov/abs/hep-th/9810087).
+4) D. J. Broadhurst and D. Kreimer, "Renormalization automated by Hopf algebra", preprint available as [`hep-th/9810087`](http://xxx.lanl.gov/abs/hep-th/9810087).
 
 Let me quote the abstract:
 
@@ -411,14 +420,14 @@ Let me quote the abstract:
 > the operator product expansion, which generalizes Chen's lemma for
 > iterated integrals. The subset of diagrams whose forest structure
 > entails a unique primitive subdivergence provides a representation of
-> the Hopf algebra H~R~ of undecorated rooted trees. Our undecorated
+> the Hopf algebra $H_R$ of undecorated rooted trees. Our undecorated
 > Hopf algebra program is designed to process the 24,213,878 BPHZ
 > contributions to the renormalization of 7,813 diagrams, with up to 12
 > loops. We consider 10 models, each in 9 renormalization schemes. The
 > two simplest models reveal a notable feature of the subalgebra of
 > Connes and Moscovici, corresponding to the commutative part of the
-> Hopf algebra H~T~ of the diffeomorphism group: it assigns to Feynman
-> diagrams those weights which remove ζ values from the counterterms of
+> Hopf algebra $H_T$ of the diffeomorphism group: it assigns to Feynman
+> diagrams those weights which remove $\zeta$ values from the counterterms of
 > the minimal subtraction scheme. We devise a fast algorithm for these
 > weights, whose squares are summed with a permutation factor, to give
 > rational counterterms.
