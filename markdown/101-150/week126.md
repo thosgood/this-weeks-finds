@@ -2,9 +2,7 @@
 
 To round off some things I said in the previous two weeks, let me say a
 bit more about string theory and Euler's mysterious equation
-
-1 + 2 + 3 + ... = -1/12.
-
+$$1 + 2 + 3 + \ldots = -\frac{1}{12}.$$
 For this I'll need to assume a nodding acquaintance with quantum field
 theory.
 
@@ -22,7 +20,7 @@ spacetime. In the Lagrangian approach to quantization, we start by
 choosing a formula for the action. We use the simplest possibility,
 namely the *area* of the surface. Of course, to define the area of a
 surface in spacetime, we need the spacetime to have a metric. The
-simplest thing is to work with n-dimensional Minkowski spacetime, so
+simplest thing is to work with $n$-dimensional Minkowski spacetime, so
 let's do that.
 
 We find the equations of motion of the string by extremizing the action.
@@ -32,7 +30,7 @@ material. These loops vibrate, split and join as time passes.
 
 It's perhaps a bit easier to see how the strings vibrate if we go over
 to the Hamiltonian approach. This is a bit subtle, because string theory
-has an enormous amount of "gauge symmetry" - by which physicists mean
+has an enormous amount of "gauge symmetry" --- by which physicists mean
 any symmetry that arises from the ability to switch between different
 mathematical descriptions of what counts as the same physical situation.
 There's a recipe to figure out the gauge symmetries of any theory
@@ -42,164 +40,128 @@ same" if they differ only by a reparametrization of the surface that's
 being mapped into spacetime.
 
 When going over to the Hamiltonian approach, we have to deal with this
-gauge symmetry. There are different ways to deal with it - but we can't
+gauge symmetry. There are different ways to deal with it --- but we can't
 just ignore it. Suppose we use the approach called "lightcone
 gauge-fixing". This amounts to choosing a parametrization of our
 surface so that the 2 coordinates on it are related in a simple way to 2
-of the coordinates on n-dimensional Minkowski space. We can do this
+of the coordinates on $n$-dimensional Minkowski space. We can do this
 because of the reparametrization gauge symmetry. But once we've done
 it, we no longer have any more freedom to reparametrize our surface. In
 short, we've squeezed all the juice out of our gauge symmetry: this is
 what "gauge-fixing" is all about.
 
-We started by studying a map from a surface S into n-dimensional
-spacetime, which we can think of as field on S with n components.
+We started by studying a map from a surface $S$ into $n$-dimensional
+spacetime, which we can think of as field on $S$ with $n$ components.
 However, in lightcone gauge, 2 components of this field are given by
 simple formulas in terms of the rest. This lets us think of our string
-as a field X with only n-2 components. And when we do this, it satisfies
+as a field $X$ with only $n-2$ components. And when we do this, it satisfies
 the simplest equation you could imagine! Namely, the wave equation
-
-(d^2/dt^2 - d^2/dx^2) X(t,x) = 0
-
+$$\left(\frac{d^2}{dt^2}-\frac{d^2}{dx^2}\right) X(t,x) = 0.$$
 This is same equation that describes an idealized violin string. The
 only difference is that now, instead of a segment of violin string, we
 have a bunch of closed loops of string. The energy, or Hamiltonian, is
 also given by the usual wave equation Hamiltonian:
-
-H = (1/2) ∫ \[(dX/dt)^2 + (dX/dx)^2\] dx
-
+$$H = \frac12\int\left[\left(\frac{dX}{dt}\right)^2+(\frac{dX}{dx}\right)^2\right]dx.$$
 The first term represents the kinetic energy of the string, while the
-second represents its potential energy - the energy it has due to being
+second represents its potential energy --- the energy it has due to being
 stretched.
 
 Henceforth I'll ignore the fact that loops of string can split or join,
 and only talk about the vibrations of a single loop of string. Using the
 linearity of the wave equation, we can decompose any solution of the
-wave equation into sine waves moving in either direction - so-called
-"left-movers" and "right-movers" - together with a solution of the
+wave equation into sine waves moving in either direction --- so-called
+"left-movers" and "right-movers" --- together with a solution of the
 form
-
-X(t,x) = A + Bt
-
+$$X(t,x) = A + Bt$$
 which describes the motion of the string's center of mass. The
 left-movers and right-movers don't interact with each other or with the
 center-of-mass motion, so we can learn a lot just by studying the
 right-movers.
 
-For starters, suppose the field X has just one component. Then the
+For starters, suppose the field $X$ has just one component. Then the
 right-moving vibrational modes look like
-
-X(t,x) = A sin(ik(t-x)) + B cos(ik(t-x))
-
-with frequencies k = 1,2,3,.... Abstractly, each of these vibrational
-modes is just like a harmonic oscillator of frequency k, so we can think
+$$X(t,x) = A\sin(ik(t-x)) + B\cos(ik(t-x))$$
+with frequencies $k = 1,2,3,\ldots$. Abstractly, each of these vibrational
+modes is just like a harmonic oscillator of frequency $k$, so we can think
 of the string as a big collection of harmonic oscillators.
 
-Now suppose we quantize our string - or more precisely, the right-moving
+Now suppose we quantize our string --- or more precisely, the right-moving
 modes. By what we've said, this just amounts to quantizing a bunch of
-harmonic oscillators, one of frequency k for each natural number k. This
+harmonic oscillators, one of frequency $k$ for each natural number $k$. This
 is great, since the harmonic oscillator is one of the easiest physical
 systems to quantize!
 
 As you may know, the quantum harmonic oscillator has discrete energy
-levels with energies k/2, 3k/2, 5k/2,.... (Here I'm working in units
-where ħ = 1; otherwise I'd need a factor of ħ.) In particular, the
+levels with energies $k/2, 3k/2, 5k/2,\ldots$. (Here I'm working in units
+where $\hbar = 1$; otherwise I'd need a factor of $\hbar$.) In particular, the
 energy of the lowest-energy state is called the "zero-point energy" or
 "vacuum energy". It usually doesn't hurt much to subtract this off by
 redefining the Hamiltonian, but sometimes it's important.
 
 Now, what's the total zero-point energy of all the right-moving modes?
-To figure this out, we add up the zero-point energy k/2 for all
-frequencies k = 1,2,3,..., obtaining
-
-(1 + 2 + 3 + ... )/2.
-
+To figure this out, we add up the zero-point energy $k/2$ for all
+frequencies $k = 1,2,3,\ldots$, obtaining
+$$\frac{1 + 2 + 3 + \ldots }{2}.$$
 Of course this is divergent, but there are lots of sneaky tricks for
 assigning values to divergent series, so let's not be disheartened!
-Euler figured out such a trick for calculating the sum 1 + 2 + 3 +
-...., and he got the value -1/12. If we momentarily assume this makes
+Euler figured out such a trick for calculating the sum $1 + 2 + 3 +\ldots$
+, and he got the value $-1/12$. If we momentarily assume this makes
 sense, then the total zero-point energy works out to be
-
--1/24 !!!
-
-More generally, if we have a string in n-dimensional Minkowski
-spacetime, the field X has n-2 components, so the total zero-point
+$-\frac{1}{24}$
+More generally, if we have a string in $n$-dimensional Minkowski
+spacetime, the field $X$ has $n-2$ components, so the total zero-point
 energy is
-
--(n-2)/24
-
+$$-\frac{n-2}{24}$$
 Now, for other reasons, it turns out that string theory works best when
-this zero-point energy is -1. This is a bit tricky to explain, but it
+this zero-point energy is $-1$. This is a bit tricky to explain, but it
 has to do with the subtleties of gauge-fixing in quantum field theory.
 Things that work nicely at the classical level can easily screw up at
 the quantum level; in particular, symmetries of a classical theory can
 be lost when you quantize. One has to really check that the light-cone
 gauge fixing doesn't screw up the Lorentz-invariance of string theory.
 It turns out that it *does* screw it up unless the zero-point energy of
-the right-movers is -1. So bosonic string theory works best when
-
-(n-2)/24 = 1
-
-or in other words, when n = 26.
+the right-movers is $-1$. So bosonic string theory works best when
+$$\frac{n-2}{24} = 1$$
+or in other words, when $n = 26$.
 
 You really shouldn't take my word for this stuff! You can find more
-details around pages 95-96 in volume 1 of the following book:
+details around pages 95--96 in volume 1 of the following book:
 
-1) Michael B. Green, John H. Schwarz and Edward Witten, Superstring
-Theory, 2 volumes, Cambridge University Press.
+1) Michael B. Green, John H. Schwarz and Edward Witten, _Superstring Theory_, 2 volumes, Cambridge University Press.
 
 There's a lot I should say to fill in the details, but the most urgent
 matter is to explain Euler's mysterious formula
-
-1 + 2 + 3 + ... = -1/12
-
+$$1 + 2 + 3 + \ldots = -\frac{1}{12}$$
 As I said in ["Week 124"](#week124), this is an example of zeta
 function regularization. The Riemann zeta function is defined by
-
-ζ(s) = 1/1^s^ + 1/2^s^ + 1/3^s^ + ....
-
+$$\zeta(s) = \frac{1}{1^s} + \frac{1}{2^s} + \frac{1}{3^s} + \ldots$$
 when the sum converges, but it analytically continues to values of s
 where the sum doesn't converge. If we do the analytic continuation, we
 get
-
-ζ(-1) = -1/12.
-
+$$\zeta(-1) = -\frac{1}{12}.$$
 Proving this rigorously is a bit of work. One way is to use the
 "functional equation" for the Riemann zeta function, which says that
-
-F(s) = F(1-s)
-
+$$F(s) = F(1-s)$$
 where
-
-F(s) = \pi^-s/2^ Γ(s/2) ζ(s)
-
-and Γ is the famous function with Γ(n) = (n-1)! for n = 1,2,3,... and
-Γ(s+1) = s Γ(s) for all s. Using
-
-Γ(1/2) = √\pi
-
+$$F(s) = \pi^{-\frac{s}{2}}\Gamma\left(\frac{s}{2}\right)\zeta(s)$$
+and $\Gamma$ is the famous function with $\Gamma(n) = (n-1)!$ for $n = 1,2,3,\ldots$ and
+$\Gamma(s+1) = s \Gamma(s)$ for all $s$. Using
+$$\Gamma\left(\frac12\right) = \sqrt{\pi}$$
 and
-
-ζ(2) = \pi^2/6,
-
-the functional equation implies ζ(-1) = -1/12. But of course you have to
+$$\zeta(2) = \frac{\pi^2}{6},$$
+the functional equation implies $\zeta(-1) = -1/12$. But of course you have to
 prove the functional equation! A nice exposition of this can be found
 in:
 
-2) Neal Koblitz, Introduction to Elliptic Curves and Modular Forms, 2nd
-edition, Springer-Verlag, 1993.
+2) Neal Koblitz, _Introduction to Elliptic Curves and Modular Forms_, 2nd edition, Springer-Verlag, 1993.
 
-I don't know Euler's original argument that ζ(-1) = -1/12. However,
+I don't know Euler's original argument that $\zeta(-1) = -1/12$. However,
 Dan Piponi recently gave the following "physicist's proof" on the
-newsgroup sci.physics.research. Let D be the differentiation operator:
-
-D = d/dx
-
+newsgroup `sci.physics.research`. Let $D$ be the differentiation operator:
+$$D = \frac{d}{dx}$$
 Then Taylor's formula says that translating a function to the left by a
-distance c is the same as applying the operator e^cD^ to it, since
-
-e^cD^ f = f + cf′ + (c^2/2!)f″ + ...
-
+distance $c$ is the same as applying the operator $e^{cD}$ to it, since
+$$e^{cD} f = f + cf' + \left(\frac{c^2}{2!}\right)f'' + \ldots$$
 Using some formal manipulations we obtain
 
 f(0) + f(1) + f(2) + ... = \[(1 + e^D^ + e^2D^ + ... )f\](0)

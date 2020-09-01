@@ -109,7 +109,7 @@ $$\zeta(s) = 1^{-s} + 2^{-s} + 3^{-s} + \ldots$$
 whenever the real part of $s$ is greater than $1$, which makes the sum
 converge. But you can analytically continue it to the whole complex
 plane, except for a pole at $1$. If you do this, you find that
-$$\zeta(-1) = -1/12.$$
+$$\zeta(-1) = -\frac{1}{12}.$$
 Thus we may jokingly say that $1 + 2 + 3 + \ldots = -1/12$. But the real
 point is how the zeta function shows up in string theory, and quantum
 field theory in general. (It's also big in number theory.)
