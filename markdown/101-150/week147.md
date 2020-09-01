@@ -142,7 +142,7 @@ Lecture Notes in Mathematics 1488, Springer Verlag, Berlin, 1991, pp.
 379-385.
 
 9) James Propp, Exponentiation and Euler measure, available as
-[math.CO/0204009](http://www.arXiv.org/abs/math.CO/0204009).
+[`math.CO/0204009`](http://www.arXiv.org/abs/math.CO/0204009).
 
 10) Andre Joyal, Regle des signes en algebre combinatoire, Comptes
 Rendus Mathematiques de l'Academie des Sciences, La Societe Royale du

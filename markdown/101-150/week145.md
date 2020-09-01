@@ -364,7 +364,7 @@ exceptional Lie groups, try this:
 
 11) J. M. Landsberg and L. Manivel: The projective geometry of
 Freudenthal's magic square, preprint available as
-[math.AG/9908039](http://xxx.lanl.gov/abs/math.AG/9908039).
+[`math.AG/9908039`](http://xxx.lanl.gov/abs/math.AG/9908039).
 
 The Freudenthal-Tits magic square is a strange way of describing most of
 the exceptional Lie groups in terms of the real numbers, complex
@@ -430,7 +430,7 @@ magic square in a way that makes its symmetry manifest:
 
 15) C. H. Barton and A. Sudbery, Magic squares of Lie algebras,
 preprint available as
-[math.RA/0001083](http://xxx.lanl.gov/abs/math.RA/0001083).
+[`math.RA/0001083`](http://xxx.lanl.gov/abs/math.RA/0001083).
 
 It also generalizes the magic square in a number of directions. But what
 I really want is for the connection between projective planes, division

@@ -290,7 +290,7 @@ Brady and Trimble do!
 3) J. Scott Carter, Louis H. Kauffman, and Masahico Saito, Structures
 and diagrammatics of four dimensional topological lattice field
 theories, to appear in Adv. Math., preprint available as
-[math.GT/9806023](http://xxx.lanl.gov/abs/math.GT/9806023).
+[`math.GT/9806023`](http://xxx.lanl.gov/abs/math.GT/9806023).
 
 We can get 3-dimensional topological quantum field theories from certain
 Hopf algebras. As I described in ["Week 38"](#week38), Crane and
@@ -302,7 +302,7 @@ these are categorified versions of the Dijkgraaf-Witten theory.
 4) J. Scott Carter, Daniel Jelsovsky, Selichi Kamada, Laurel Langford
 and Masahico Saito, Quandle cohomology and state-sum invariants of
 knotted curves and surfaces, preprint available as
-[math.GT/9903135](http://xxx.lanl.gov/abs/math.GT/9903135).
+[`math.GT/9903135`](http://xxx.lanl.gov/abs/math.GT/9903135).
 
 Yet another attack on higher dimensions! This one gets invariants of
 2-links - surfaces embedded in R^4 - from the cohomology groups of
@@ -328,7 +328,7 @@ their definition of $n$-categories. For more on their work see
 
 7) Carlos Simpson, On the Breen-Baez-Dolan stabilization hypothesis for
 Tamsamani's weak $n$-categories, preprint available as
-[math.CT/9810058](http://xxx.lanl.gov/abs/math.CT/9810058).
+[`math.CT/9810058`](http://xxx.lanl.gov/abs/math.CT/9810058).
 
 For quite a while now James Dolan and I have been talking about
 something we call the "stabilization hypothesis". I gave an
@@ -379,7 +379,7 @@ really important for homotopy theory and $n$-categories, and this book is
 a really great place to learn about it.
 
 9) Frank Quinn, Group-categories, preprint available as
-[math.GT/9811047](http://xxx.lanl.gov/abs/math.GT/9811047).
+[`math.GT/9811047`](http://xxx.lanl.gov/abs/math.GT/9811047).
 
 This one is about the algebra behind certain topological quantum field
 theories. I'll just quote the abstract:

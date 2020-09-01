@@ -7,7 +7,7 @@ start with some things people discussed at the conference in Coimbra
 
 1) Michael Mueger, Galois theory for braided tensor categories and the
 modular closure, preprint available as
-[math.CT/9812040](http://xxx.lanl.gov/abs/math.CT/9812040).
+[`math.CT/9812040`](http://xxx.lanl.gov/abs/math.CT/9812040).
 
 A braided monoidal category is simple algebraic gadget that captures a
 bit of the essence of 3-dimensionality in its rawest form. It has a

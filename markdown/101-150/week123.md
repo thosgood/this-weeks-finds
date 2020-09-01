@@ -316,7 +316,7 @@ Moving on to matters $n$-categorical, we have:
 8) Andre Hirschowitz, Carlos Simpson, Descente pour les n-champs
 (Descent for n-stacks), approximately 240 pages, in French, preprint
 available as math.AG/9807049.
-[math.AG/9807049](http://xxx.lanl.gov/abs/math.AG/9807049).
+[`math.AG/9807049`](http://xxx.lanl.gov/abs/math.AG/9807049).
 
 Apparently this provides a theory of "n-stacks", which are the
 $n$-categorical generalization of sheaves. Ever since Grothendieck's
