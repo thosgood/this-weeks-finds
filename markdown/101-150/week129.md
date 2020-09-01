@@ -73,7 +73,7 @@ Alekseev discussed problems where the stationary phase approximation
 gives the exact answer. There's a wonderful thing called the
 Duistermaat-Heckman formula which says that this happens in certain
 situations with circular symmetry. There are also generalizations to
-more complicated symmetry groups. These are related to \`equivariant
+more complicated symmetry groups. These are related to 'equivariant
 cohomology' - more on that later.
 
 I talked about the spin foam approach to quantum gravity. I've already

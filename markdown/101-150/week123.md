@@ -9,28 +9,28 @@
 >
 > It was June 1994. We were sitting in a small paved courtyard, having
 > just emerged from the final lecture in a one-semester course on the
-> philosophy of mathematics - a bit of light relief from the hard grind
+> philosophy of mathematics --- a bit of light relief from the hard grind
 > of the real stuff. We had fifteen minutes to to kill before meeting
-> some friends for lunch. It was a social conversation - verging on mild
-> flirtation - nothing more. Maybe there were demented academics,
+> some friends for lunch. It was a social conversation --- verging on mild
+> flirtation --- nothing more. Maybe there were demented academics,
 > lurking in dark crypts somewhere, who held views on the nature of
 > mathematical truth which they were willing to die for. But were were
 > twenty years old, and we *knew* it was all angels on the head of a
 > pin.
 >
 > I said, "Physical systems don't create mathematics. Nothing
-> *creates* mathematics - it's timeless. All of number theory would
+> *creates* mathematics --- it's timeless. All of number theory would
 > still be exactly the same, even if the universe contained nothing but
 > a single electron."
 >
 > Alison snorted. "Yes, because even *one electron*, plus a space-time
 > to put it in, needs all of quantum mechanics and all of general
-> relativity - and all the mathematical infrastructure they entail. One
+> relativity --- and all the mathematical infrastructure they entail. One
 > particle floating in a quantum vacuum needs half the major results of
-> group theory, functional analysis, differential geometry - "
+> group theory, functional analysis, differential geometry --- "
 >
 > "OK, OK! I get the point. But if that's the case... the events in
-> the first picosecond after the Big Bang would have \`constructed'
+> the first picosecond after the Big Bang would have 'constructed'
 > every last mathematical truth required by *any* physical system, all
 > the way to the Big Cruch. Once you've got the mathematics which
 > underpins the Theory of Everything... that's it, that's all you
@@ -38,7 +38,7 @@
 >
 > "But it's not. To *apply* the Theory of Everything to a particular
 > system, you still need all the mathematics for dealing with *that
-> system* - which could include results far beyond the mathematics the
+> system* --- which could include results far beyond the mathematics the
 > TOE itself requires. I mean, fifteen billion years after the Big Bang,
 > someone can still come along and prove, say... Fermat's Last
 > Theorem." Andrew Wiles at Princeton had recently announced a proof of
@@ -46,8 +46,8 @@
 > by his colleagues, and the final verdict wasn't yet in. "Physics
 > never needed *that* before."
 >
-> I protested, "What do you mean, \`before'? Fermat's Last Theorem
-> never has - and never will - have anything to do with any branch of
+> I protested, "What do you mean, 'before'? Fermat's Last Theorem
+> never has --- and never will --- have anything to do with any branch of
 > physics."
 >
 > Alison smiled sneakily. "No *branch*, no. But only because the class
@@ -56,20 +56,20 @@
 > Wiles proof."
 >
 > "Think about it. Once you start trying to prove a theorem, then even
-> if the mathematics is so \`pure' that it has no relevance to any
+> if the mathematics is so 'pure' that it has no relevance to any
 > other object in the universe... you've just made it relevant to
 > *yourself*. You have to choose *some* physical process to test the
-> theorem - whether you use a computer, or a pen and paper... or just
+> theorem --- whether you use a computer, or a pen and paper... or just
 > close your eyes and shuffle *neurotransmitters*. There's no such
 > thing as a proof which doesn't rely on physical events, and whether
 > they're inside or outside your skull doesn't make them any less
 > real."
 
 And this is just the beginning... the beginning of Greg Egan's tale of
-an inconsistency in the axioms of arithmetic - a "topological defect"
+an inconsistency in the axioms of arithmetic --- a "topological defect"
 left over in the fabric of mathematics, much like the cosmic strings or
 monopoles hypothesized by certain physicists thinking about the early
-universe - and the mathematicians who discover it and struggle to
+universe --- and the mathematicians who discover it and struggle to
 prevent a large corporation from exploiting it for their own nefarious
 purposes. This is the title story of his new collection, "Luminous".
 
@@ -77,19 +77,19 @@ I should also mention his earlier collection of stories, named after a
 sophisticated class of mind-altering nanotechnologies, the
 "axiomatics", that affect specific beliefs of anyone who uses them:
 
-1) Greg Egan, Axiomatic, Orion Books, 1995.
+1) Greg Egan, _Axiomatic_, Orion Books, 1995.
 
-Greg Egan, Luminous, Orion Books, 1998.
+    Greg Egan, _Luminous_, Orion Books, 1998.
 
 Some of the stories in these volumes concern math and physics, such as
 "The Planck Dive", about some far-future explorers who send copies of
 themselves into a black hole to study quantum gravity firsthand. One
 nice thing about this story, from a pedant's perspective, is that Egan
 actually works out a plausible scenario for meeting the technical
-challenges involved - with the help of a little 23rd-century technology.
+challenges involved --- with the help of a little 23rd-century technology.
 Another nice thing is the further exploration of a world in which
 everyone has long been uploaded to virtual "scapes" and can easily
-modify and copy themselves - a world familiar to readers of his novel
+modify and copy themselves --- a world familiar to readers of his novel
 "Diaspora" (see ["Week 115"](#week115)). But what I really like
 is that it's not just a hard-science extravaganza; it's a meditation
 on mortality. You can never really know what it's like to cross an
@@ -99,8 +99,7 @@ Other stories focus on biotechnology and philosophical problems of
 identity. The latter sort will especially appeal to everyone who liked
 this book:
 
-2) Daniel C. Dennett and Douglas R. Hofstadter, The Mind's I:
-Fantasies and Reflections on Self and Soul, Bantam Books, 1982.
+2) Daniel C. Dennett and Douglas R. Hofstadter, _The Mind's I: Fantasies and Reflections on Self and Soul_, Bantam Books, 1982.
 
 Among these, one of my favorite is called "Closer". How close can you
 be to someone without actually *being them*? Would temporarily merging
@@ -108,29 +107,22 @@ identities with someone you loved help you understand them better?
 Luckily for you penny-pinchers out there, this particular story is
 available free at the following website:
 
-3) Greg Egan, Closer,
-`http://www.eidolon.net/old_site/issue_09/09_closr.htm`
+3) Greg Egan, _Closer_, `http://www.eidolon.net/old_site/issue_09/09_closr.htm`
 
 Whoops! I'm drifting pretty far from mathematical physics, aren't I?
 Self-reference has a lot to do with mathematical logic, but.... To
 gently drift back, let me point out that Egan has a website in which he
 explains special and general relativity in a nice, nontechnical way:
 
-4) Greg Egan, Foundations,
-`http://www.netspace.net.au/~gregegan/FOUNDATIONS/index.html`
+4) Greg Egan, _Foundations_, `http://www.netspace.net.au/~gregegan/FOUNDATIONS/index.html`
 
 Also, here are some interesting papers:
 
-5) Gordon L. Kane, Experimental evidence for more dimensions reported,
-Physics Today, May 1998, 13-16.
+5) Gordon L. Kane, "Experimental evidence for more dimensions reported", _Physics Today_, May 1998, 13--16.
 
-Paul M. Grant, Researchers find extraordinarily high temperature
-superconductivity in bio-inspired nanopolymer, Physics Today, May 1998,
-17-19.
+    Paul M. Grant, "Researchers find extraordinarily high temperature superconductivity in bio-inspired nanopolymer", _Physics Today_, May 1998, 17--19.
 
-Jack Watrous, Ribosomal robotics approaches critical experiments;
-government agencies watch with mixed interest, Physics Today, May 1998,
-21-23.
+    Jack Watrous, "Ribosomal robotics approaches critical experiments; government agencies watch with mixed interest", _Physics Today_, May 1998, 21--23.
 
 What these papers have in common is that they are all works of science
 fiction, not science. They read superficially like straight science
@@ -139,10 +131,10 @@ reporting, but they are actually the winners of Physics Today's
 
 For example, Grant writes:
 
-"Little's concept involved replacing the phonons - characterized by
-the Debye temperature - with excitons, whose much higher characteristic
+> "Little's concept involved replacing the phonons --- characterized by
+the Debye temperature --- with excitons, whose much higher characteristic
 energies are on the order of 2 eV, or 23,000 K. If excitons were to
-become the electron-pairing \`glue', superconductors with T_c's as
+become the electron-pairing 'glue', superconductors with $T_c$'s as
 high as 500 K might be possible, even under weak coupling conditions.
 Little even proposed a possible realization of the idea: a structure
 composed of a conjugated polymer chain (polyene) dressed with highly
@@ -151,7 +143,7 @@ polyene chain would be a normal metal with a single mobile electron per
 C-H molecular unit; electrons on separate units would be paired by
 interacting with the exciton field on the polarizable side groups."
 
-Actually, I think this part is perfectly true - William A. Little
+Actually, I think this part is perfectly true --- William A. Little
 suggested this way to achieve high-temperature superconductivity back in
 the 1960s. The science fiction part is just the description, later on in
 Grant's article, of how Little's dream is actually achieved.
@@ -159,9 +151,7 @@ Grant's article, of how Little's dream is actually achieved.
 Okay, enough science fiction! Time for some real science! Quantum
 gravity, that is. (Stop snickering, you skeptics....)
 
-6) Laurent Freidel and Kirill Krasnov, Spin foam models and the
-classical action principle, preprint available as
-[`hep-th/9807092`](http://xxx.lanl.gov/abs/hep-th/9807092).
+6) Laurent Freidel and Kirill Krasnov, "Spin foam models and the classical action principle", preprint available as [`hep-th/9807092`](http://xxx.lanl.gov/abs/hep-th/9807092).
 
 I described the spin foam approach to quantum gravity in
 ["Week 113"](#week113). But let me remind you how the basic idea
@@ -176,14 +166,16 @@ compute the amplitude for one such state to evolve into another as time
 passes. Feynman showed that we can do it by computing a sum over graphs
 in spacetime. These graphs are called Feynman diagrams, and they
 represent "histories". For example,
-
-    \u       e/
-     \       /
-      \__W__/
-      /     \
-     /       \
-    /d      ν\
-
+$$
+  \begin{tikzpicture}[thick]
+    \draw (0,0) to node[rotate=-45,label={[label distance=-2mm]above:{u}}]{$\blacktriangleright$} (1,-1);
+    \draw (1,-1) to node[rotate=-135,label={[label distance=-3.2mm]above:{d}}]{$\blacktriangleright$} (0,-2);
+    \draw [decorate, decoration=snake] (1,-1) to node[label=above:{W}]{} (3,-1);
+    \draw (4,0) to node[rotate=-135,label={[label distance=-2mm]below:{e}}]{$\blacktriangleright$} (3,-1);
+    \draw (3,-1) to node[rotate=-45,label={[label distance=-2mm]below:{$\nu$}}]{$\blacktriangleright$} (4,-2);
+  \end{tikzpicture}
+$$
+**???**
 would represent a history in which an up quark emits a W boson and turns
 into a down quark, with the W being absorbed by an electron, turning it
 into a neutrino. Time passes as you march down the page. Quantum field
@@ -200,7 +192,7 @@ concrete calculations, except for certain very simple field theories
 called "free theories". These theories describe particles that don't
 interact at all. They are mathematically tractable but physically
 uninteresting. Uninteresting, that is, *except* as a starting-point for
-studying the theories we *are* interested in - the so-called
+studying the theories we *are* interested in --- the so-called
 "interacting theories".
 
 The trick is to think of an interacting theory as containing parameters,
@@ -244,7 +236,7 @@ theories" are formulated on a spacetime with a fixed metric - usually
 Minkowski spacetime, with its usual flat metric. Attempts to approximate
 quantum gravity by this sort of free theory failed dismally. Perhaps the
 fundamental reason is that general relativity doesn't presume that
-spacetime has a fixed metric - au contraire, it's a theory in which the
+spacetime has a fixed metric --- au contraire, it's a theory in which the
 metric is the main variable!
 
 So the idea of Freidel and Krasnov is to approximate quantum graivty
@@ -283,9 +275,7 @@ Anyway, on to some other papers. I'm afraid I don't have enough energy
 for detailed descriptions, because I'm busy moving into a new house, so
 I'll basically just point you at them....
 
-7) Abhay Ashtekar, Alejandro Corichi and Jose A. Zapata, Quantum theory
-of geometry III: Non-commutativity of Riemannian structures, preprint
-available as [`gr-qc/9806041`](http://xxx.lanl.gov/abs/gr-qc/9806041).
+7) Abhay Ashtekar, Alejandro Corichi and Jose A. Zapata, "Quantum theory of geometry III: Non-commutativity of Riemannian structures", preprint available as [`gr-qc/9806041`](http://xxx.lanl.gov/abs/gr-qc/9806041).
 
 This is the long-awaited third part of a series giving a mathematically
 rigorous formalism for interpreting spin network states as "quantum
@@ -293,9 +283,9 @@ rigorous formalism for interpreting spin network states as "quantum
 3-dimensional space together with its extrinsic curvature (as it sits
 inside 4-dimensional spacetime). Here's the abstract:
 
-"The basic framework for a systematic construction of a quantum theory
+> "The basic framework for a systematic construction of a quantum theory
 of Riemannian geometry was introduced recently. The quantum versions of
-Riemannian structures - such as triad and area operators - exhibit a
+Riemannian structures --- such as triad and area operators --- exhibit a
 non-commutativity. At first sight, this feature is surprising because it
 implies that the framework does not admit a triad representation. To
 better understand this property and to reconcile it with intuition, we
@@ -306,19 +296,16 @@ also indicate why the uncertainties associated with this
 non-commutativity become negligible in the semi-classical regime."
 
 In case you're wondering, the "triad" field is more or less what
-mathematicians would call a "frame field" or "soldering form" - and
+mathematicians would call a "frame field" or "soldering form" --- and
 it's the same as the "B" field in BF theory. It encodes the
 information about the metric in Ashtekar's formulation to general
 relativity.
 
 Moving on to matters $n$-categorical, we have:
 
-8) Andre Hirschowitz, Carlos Simpson, Descente pour les n-champs
-(Descent for n-stacks), approximately 240 pages, in French, preprint
-available as math.AG/9807049.
-[`math.AG/9807049`](http://xxx.lanl.gov/abs/math.AG/9807049).
+8) Andre Hirschowitz, Carlos Simpson, "Descente pour les $n$-champs" (Descent for $n$-stacks), approximately 240 pages, in French, preprint available as [`math.AG/9807049`](http://xxx.lanl.gov/abs/math.AG/9807049).
 
-Apparently this provides a theory of "n-stacks", which are the
+Apparently this provides a theory of "$n$-stacks", which are the
 $n$-categorical generalization of sheaves. Ever since Grothendieck's
 600-page letter to Quillen (see ["Week 35"](#week35)), this has
 been the holy grail of $n$-category theory. Unfortunately I haven't
@@ -328,17 +315,16 @@ so I don't really know the details!
 For the following two $n$-category papers, exploring some themes close to
 my heart, I'll just quote the abstracts:
 
-9) Michael Batanin, Computads for finitary monads on globular sets,
-preprint available at `http://www.ics.mq.edu.au/~mbatanin/papers.html`
+9) Michael Batanin, "Computads for finitary monads on globular sets", preprint available at `http://www.ics.mq.edu.au/~mbatanin/papers.html`
 
-"This work arose as a reflection on the foundation of higher
+> "This work arose as a reflection on the foundation of higher
 dimensional category theory. One of the main ingredients of any proposed
 definition of weak $n$-category is the shape of diagrams (pasting scheme)
 we accept to be composable. In a globular approach \[due to Batanin\]
-each k-cell has a source and target (k-1)-cell. In the opetopic approach
+each $k$-cell has a source and target $(k-1)$-cell. In the opetopic approach
 of Baez and Dolan and the multitopic approach of Hermida, Makkai and
-Power each k-cell has a unique (k-1)-cell as target and a whole
-(k-1)-dimensional pasting diagram as source. In the theory of strict
+Power each $k$-cell has a unique $(k-1)$-cell as target and a whole
+$(k-1)$-dimensional pasting diagram as source. In the theory of strict
 $n$-categories both source and target may be a general pasting diagram.
 
 The globular approach being the simplest one seems too restrictive to
@@ -352,7 +338,7 @@ special category (of computads) constructed from the data of the
 original monad. In the case of the monad derived from the universal
 contractible operad this result may be interpreted as the equivalence of
 the definitions of weak $n$-categories (in the sense of Batanin) based on
-the \`globular' and general pasting diagrams. It may be also considered
+the 'globular' and general pasting diagrams. It may be also considered
 as the first step toward the proof of equivalence of the different
 definitions of weak $n$-category.
 
@@ -363,54 +349,45 @@ under some not very restrictive conditions, the property firstly
 observed by S. Schanuel and reproved by A. Carboni and P. Johnstone for
 2-computads in the sense of Street)."
 
-10) Tom Leinster, Structures in higher-dimensional category theory,
-preprint available at `http://www.dpmms.cam.ac.uk/~leinster`
+10) Tom Leinster, "Structures in higher-dimensional category theory", preprint available at `http://www.dpmms.cam.ac.uk/~leinster`
 
-"This is an exposition of some of the constructions which have arisen
+> "This is an exposition of some of the constructions which have arisen
 in higher-dimensional category theory. We start with a review of the
 general theory of operads and multicategories. Using this we give an
 account of Batanin's definition of $n$-category; we also give an informal
 definition in pictures. Next we discuss Gray-categories and their place
 in coherence problems. Finally, we present various constructions
 relevant to the opetopic definitions of $n$-category.
-
-New material includes a suggestion for a definition of lax cubical
+> New material includes a suggestion for a definition of lax cubical
 $n$-category; a characterization of small Gray-categories as the small
-substructures of 2-Cat; a conjecture on coherence theorems in higher
+substructures of $2\text{-}\mathsf{Cat}$; a conjecture on coherence theorems in higher
 dimensions; a construction of the category of trees and, more generally,
-of n-pasting diagrams; and an analogue of the Baez-Dolan slicing process
+of $n$-pasting diagrams; and an analogue of the Baez-Dolan slicing process
 in the general theory of operads."
 
-Okay - now for something completely different. In
+Okay --- now for something completely different. In
 ["Week 122"](#week122) I said how Kreimer and Connes have teamed up
 to write a paper relating Hopf algebras, renormalization, and
 noncommutative geometry. Now it's out:
 
-11) Alain Connes and Dirk Kreimer, Hopf algebras, renormalization and
-noncommutative geometry, preprint available as
-[`hep-th/9808042`](http://xxx.lanl.gov/abs/hep-th/9808042).
+11) Alain Connes and Dirk Kreimer, "Hopf algebras, renormalization and noncommutative geometry", preprint available as [`hep-th/9808042`](http://xxx.lanl.gov/abs/hep-th/9808042).
 
 Also, here's an introduction to Kreimer's work:
 
-12) Dirk Kreimer, How useful can knot and number theory be for loop
-calculations?, Talk given at the workshop "Loops and Legs in Gauge
-Theories", preprint available as
-[`hep-th/9807125`](http://xxx.lanl.gov/abs/hep-th/9807125).
+12) Dirk Kreimer, "How useful can knot and number theory be for loop calculations?", Talk given at the workshop _Loops and Legs in Gauge Theories_, preprint available as [`hep-th/9807125`](http://xxx.lanl.gov/abs/hep-th/9807125).
 
 Switching over to homotopy theory and its offshoots... when I visited
 Dan Christensen at Johns Hopkins this spring, he introduced me to all
 the homotopy theorists there, and Jack Morava gave me a paper which
 really indicates the extent to which new-fangled "quantum topology"
-has interbred with good old- fashioned homotopy theory:
+has interbred with good old-fashioned homotopy theory:
 
-12) Jack Morava, Quantum generalized cohomology, preprint available as
-[`math.QA/9807058`](http://xxx.lanl.gov/abs/math.QA/9807058) and
-`http://hopf.math.purdue.edu/`
+12) Jack Morava, "Quantum generalized cohomology", preprint available as [`math.QA/9807058`](http://xxx.lanl.gov/abs/math.QA/9807058) and `http://hopf.math.purdue.edu/`
 
 Again, I'll just quote the abstract rather than venturing my own
 summary:
 
-"We construct a ring structure on complex cobordism tensored with the
+> "We construct a ring structure on complex cobordism tensored with the
 rationals, which is related to the usual ring structure as quantum
 cohomology is related to ordinary cohomology. The resulting object
 defines a generalized two- dimensional topological field theory taking
@@ -419,13 +396,11 @@ values in a category of spectra."
 Finally, Morava has a student who gave me an interesting paper on
 operads and moduli spaces:
 
-13) Satyan L. Devadoss, Tessellations of moduli spaces and the mosaic
-operad, preprint available as
-[`math.QA/9807010`](http://xxx.lanl.gov/abs/math.QA/9807010).
+13) Satyan L. Devadoss, "Tessellations of moduli spaces and the mosaic operad", preprint available as [`math.QA/9807010`](http://xxx.lanl.gov/abs/math.QA/9807010).
 
-"We construct a new (cyclic) operad of \`mosaics' defined by polygons
+> "We construct a new (cyclic) operad of 'mosaics' defined by polygons
 with marked diagonals. Its underlying (aspherical) spaces are the sets
-M~0,n~(R) of real points of the moduli space of punctured Riemann
+$M_{0,n}(\mathbb{R})$ of real points of the moduli space of punctured Riemann
 spheres, which are naturally tiled by Stasheff associahedra. We
 (combinatorially) describe them as iterated blow-ups and show that their
 fundamental groups form an operad with similarities to the operad of
@@ -433,5 +408,5 @@ braid groups."
 
 ------------------------------------------------------------------------
 
-*Some things are so serious that one can only jest about them.* - Niels
+*Some things are so serious that one can only jest about them.* --- Niels
 Bohr.

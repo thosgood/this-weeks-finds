@@ -212,7 +212,7 @@ of all, these two constructions are inverse to each other - at least up
 to isomorphism.
 
 At this point you should be pounding your desk and yelling "Great - but
-what does \`Desarguesian' mean? I want the nitty-gritty details!"
+what does 'Desarguesian' mean? I want the nitty-gritty details!"
 
 Okay....
 

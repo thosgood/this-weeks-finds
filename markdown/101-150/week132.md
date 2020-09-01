@@ -33,7 +33,7 @@ quantum gravity, and what a theory of quantum gravity should be like:
 > and ħ. Planck noted that apart from numerical factors there is a
 > unique way to use these constants to define units of length, time, and
 > mass. For example, we can define the unit of length now called the
-> \`Planck length' as follows:
+> 'Planck length' as follows:
 >
 > L = sqrt(ħ G /c^3)
 >
@@ -88,7 +88,7 @@ quantum gravity, and what a theory of quantum gravity should be like:
 > accomplish such a feat.
 >
 > There are some well-known loopholes in the above argument. The
-> \`unimportant numerical factor' I mentioned above might actually be
+> 'unimportant numerical factor' I mentioned above might actually be
 > very large, or very small. A theory of quantum gravity might make
 > testable predictions of dimensionless quantities like the ratio of the
 > muon and electron masses. For that matter, a theory of quantum gravity
@@ -111,11 +111,11 @@ quantum gravity, and what a theory of quantum gravity should be like:
 > time form a unified whole which can be thought of geometrically.
 > Second, the quantities whose values we seek to predict are localized.
 > That is, we can measure them in small regions of spacetime (sometimes
-> idealized as points). Physicists call such quantities \`local degrees
+> idealized as points). Physicists call such quantities 'local degrees
 > of freedom'. And third, to predict the value of a quantity that can
 > be measured in some region R, we only need to use values of quantities
 > measured in regions that stand in a certain geometrical relation to R.
-> This relation is called the \`causal structure' of spacetime. For
+> This relation is called the 'causal structure' of spacetime. For
 > example, in a relativistic field theory, to predict the value of the
 > fields in some region R, it suffices to use their values in any other
 > region that intersects every timelike path passing through R. The
@@ -127,7 +127,7 @@ quantum gravity, and what a theory of quantum gravity should be like:
 > field. It takes on a deeper significance in general relativity, where
 > the gravitational field is described in terms of the curvature of the
 > spacetime metric. Unlike in special relativity, where the Minkowski
-> metric is a \`background structure' given a priori, in general
+> metric is a 'background structure' given a priori, in general
 > relativity the metric is treated as a field which not only affects,
 > but also is affected by, the other fields present. In other words, the
 > geometry of spacetime becomes a local degree of freedom of the theory.
@@ -152,10 +152,10 @@ quantum gravity, and what a theory of quantum gravity should be like:
 > before Einstein developed general relativity, and is still not
 > complete. The conflict between Ptolemaic and Copernican cosmologies,
 > the dispute between Newton and Leibniz concerning absolute and
-> relative motion, and the modern arguments concerning the \`problem of
+> relative motion, and the modern arguments concerning the 'problem of
 > time' in quantum gravity - all are but chapters in the story of this
 > struggle. I do not have room to sketch this story here, nor even to
-> make more precise the all-important notion of \`geometrical
+> make more precise the all-important notion of 'geometrical
 > structure'. I can only point the reader towards the literature,
 > starting perhaps with the books by Barbour and Earman, various papers
 > by Rovelli, and the many references therein.
@@ -416,7 +416,7 @@ is studying. Let me quote the abstract:
 > In this paper I extend Gray's tensor product of 2-categories to a new
 > tensor product of Gray-categories. I give a description in terms of
 > generators and relations, one of the relations being an
-> \`\`interchange'' relation, and a description similar to Gray's
+> ''interchange'' relation, and a description similar to Gray's
 > description of his tensor product of 2-categories. I show that this
 > tensor product of Gray-categories satisfies a universal property with
 > respect to quasi-functors of two variables, which are defined in terms

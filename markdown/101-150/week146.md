@@ -133,7 +133,7 @@ more until the actual paper is finished:
 > The arena normally used in black holes thermodynamics was recently
 > generalized to incorporate a broad class of physically interesting
 > situations. The key idea is to replace the notion of stationary event
-> horizons by that of \`isolated horizons.' Unlike event horizons,
+> horizons by that of 'isolated horizons.' Unlike event horizons,
 > isolated horizons can be located in a space-time quasi-locally.
 > Furthermore, they need not be Killing horizons. In particular, a
 > space-time representing a black hole which is itself in equilibrium,

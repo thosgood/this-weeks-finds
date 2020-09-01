@@ -155,7 +155,7 @@ to talk about *fractional* sets. It may seem odd to tackle division
 before subtraction, but historically, the negative numbers were invented
 quite a bit *after* the nonnegative rational numbers. Apparently half an
 apple is easier to understand than a negative apple! This suggests that
-perhaps \`sets with fractional cardinality' are simpler than \`sets
+perhaps 'sets with fractional cardinality' are simpler than 'sets
 with negative cardinality'.
 
 The key is to think carefully about the meaning of division. The usual
@@ -204,13 +204,13 @@ compute the reciprocal of the number of automorphisms of this object;
 then we sum over isomorphism classes.
 
 It is easy to see that with this definition, the point in the middle of
-the previous picture gets counted as \`half a point' because it has two
+the previous picture gets counted as 'half a point' because it has two
 automorphisms, so we get a category with cardinality 2.5. In general,
 
 |S//G| = |S|/|G|
 
 whenever G is a finite group acting on a finite set S. This formula is a
-simplified version of \`Burnside's lemma', so-called because it is due
+simplified version of 'Burnside's lemma', so-called because it is due
 to Cauchy and Frobenius. Burnside's lemma gives the cardinality of the
 ordinary quotient. But the weak quotient is nicer, so Burnside's lemma
 simplifies when we use weak quotients.
@@ -235,7 +235,7 @@ should generalize the concept of cardinality to n-groupoids, or even
 $\omega$-groupoids. And luckily, we don't need to understand $\omega$-groupoids very
 well to try our hand at this! Omega-groupoids are supposed to be an
 algebraic way of thinking about topological spaces up to homotopy. Thus
-we just need to invent a concept of the \`cardinality' of a topological
+we just need to invent a concept of the 'cardinality' of a topological
 space which has nice formal properties and which agrees with the
 groupoid cardinality in the case of homotopy 1-types. In fact, this is
 not hard to do. We just need to use the homotopy groups \pi~k~(X) of the
@@ -260,7 +260,7 @@ have
 just as you would hope.
 
 Even better, homotopy cardinality gets along well with fibrations, which
-we can think of as \`twisted products' of spaces. Namely, if
+we can think of as 'twisted products' of spaces. Namely, if
 
 F\to X\to B
 
@@ -480,7 +480,7 @@ remarks....
 > > that Lindenbaum had found a proof of division by three. Their
 > > failure to give any hint of a proof must have frustrated Sierpinski,
 > > for it appears that twenty years later he still did not know how to
-> > divide by three. Finally, in 1949, in a paper \`dedicated to
+> > divide by three. Finally, in 1949, in a paper 'dedicated to
 > > Professor Waclaw Sierpinski in celebration of his forty years as
 > > teacher and scholar', Tarski published a proof. In this paper,
 > > Tarski explained that unfortunately he couldn't remember how

@@ -108,7 +108,7 @@ Let me just quote the abstract:
 > In fundamental physics, this has been the century of quantum mechanics
 > and general relativity. It has also been the century of the long
 > search for a conceptual framework capable of embracing the astonishing
-> features of the world that have been revealed by these two \`\`first
+> features of the world that have been revealed by these two ''first
 > pieces of a conceptual revolution''. I discuss the general
 > requirements on the mathematics and some specific developments towards
 > the construction of such a framework. Examples of covariant

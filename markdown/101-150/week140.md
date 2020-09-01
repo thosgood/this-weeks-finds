@@ -266,7 +266,7 @@ series can be efficiently computed when the unperturbed model is a
 topological quantum field theory. Moreover, in this case we can
 explicitly sum the whole power series in the limit where the number of
 top-dimensional simplices goes to infinity while the coupling constant
-is suitably renormalized. This \`dilute gas limit' gives spin foam
+is suitably renormalized. This 'dilute gas limit' gives spin foam
 models that are triangulation-independent but not topological quantum
 field theories. However, we show that models of this sort are rather
 trivial except in dimension 2.

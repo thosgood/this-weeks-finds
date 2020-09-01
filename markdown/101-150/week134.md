@@ -136,7 +136,7 @@ quote the abstract:
 
 > We survey some philosophical aspects of the search for a quantum
 > theory of gravity, emphasising how quantum gravity throws into doubt
-> the treatment of spacetime common to the two \`ingredient theories'
+> the treatment of spacetime common to the two 'ingredient theories'
 > (quantum theory and general relativity), as a 4-dimensional manifold
 > equipped with a Lorentzian metric. After an introduction, we briefly
 > review the conceptual problems of the ingredient theories and
@@ -201,14 +201,14 @@ dimensions. Let me quote from the introduction:
 > Ponzano-Regge model, transition amplitudes between spin networks can
 > be computed as a sum over labellings of faces of the dual 2-skeleton
 > of a triangulated 3-manifold. Formulated this way, we call the theory
-> a \`spin foam model'.
+> a 'spin foam model'.
 >
 > A similar dual picture exists for 4-dimensional quantum gravity. The
 > dual 1-skeleton of a triangulated 3-manifold is a 4-valent graph each
 > of whose edges intersect one triangle in the original triangulation.
 > The labels on the triangles in the 3-manifold can thus be thought of
 > as labelling the edges of this graph. The graph is then called a
-> \`relativistic spin network'. Transition amplitudes between
+> 'relativistic spin network'. Transition amplitudes between
 > relativistic spin networks can be computed using a spin foam model.
 > The path integral is then a sum over labellings of faces of a
 > 2-complex interpolating between two relativistic spin networks.

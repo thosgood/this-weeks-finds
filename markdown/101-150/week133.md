@@ -28,7 +28,7 @@ I'd like to start with a long quote from a paper by Ashtekar:
 > approximation which succeeds brilliantly in the macroscopic regime but
 > fails hopelessly at the atomic scale. It is therefore natural to ask:
 > Is the same true of geometry? If so, what is the analog of the
-> \`atomic scale?' We know that a quantum theory of geometry should
+> 'atomic scale?' We know that a quantum theory of geometry should
 > contain three fundamental constants of Nature, c, G, ħ, the speed of
 > light, Newton's gravitational constant and Planck's constant. Now,
 > as Planck pointed out in his celebrated paper that marks the beginning
@@ -45,7 +45,7 @@ I'd like to start with a long quote from a paper by Ashtekar:
 > picture works well. A key question then is: Will it break down at the
 > Planck length? Does geometry have constituents at this scale? If so,
 > what are its atoms? Its elementary excitations? Is the space-time
-> continuum only a \`coarse-grained' approximation? Is geometry
+> continuum only a 'coarse-grained' approximation? Is geometry
 > quantized? If so, what is the nature of its quanta?
 >
 > To probe such issues, it is natural to look for hints in the
@@ -108,9 +108,9 @@ I'd like to start with a long quote from a paper by Ashtekar:
 > densely packed in suitable configurations they can exhibit properties
 > of a three dimensional system. Similarly, the familiar continuum
 > picture of geometry arises as an approximation: one can regard the
-> fundamental excitations as \`quantum threads' with which one can
-> \`weave' continuum geometries. That is, the continuum picture arises
-> upon coarse-graining of the semi-classical \`weave states'. Gravitons
+> fundamental excitations as 'quantum threads' with which one can
+> 'weave' continuum geometries. That is, the continuum picture arises
+> upon coarse-graining of the semi-classical 'weave states'. Gravitons
 > are no longer the fundamental mediators of the gravitational
 > interaction. They now arise only as approximate notions. They
 > represent perturbations of weave states and mediate the gravitational
