@@ -165,8 +165,8 @@ But what do the spaces K(Z,n) actually look like?
 
 Well, for starters, K(Z,0) is just Z, by definition.
 
-K(Z,1) is just the circle, S^1^. You can check that the space of based
-loops in S^1^ is homotopy equivalent to Z - the key is that such loops
+K(Z,1) is just the circle, S^1. You can check that the space of based
+loops in S^1 is homotopy equivalent to Z - the key is that such loops
 are classified up to homotopy by an integer called the *winding number*.
 In quantum physics, K(Z,1) usually goes by the name \mathrm{U}(1) - the group of
 unit complex numbers, or "phases".
@@ -403,7 +403,7 @@ theory we have an isomorphism
 
 h^n+k^(S^n) = h^k^(point)
 
-and taking the god-given element 1 in h^0^(point), this gives gives a
+and taking the god-given element 1 in h^0(point), this gives gives a
 special element in h^n(S^n) called the "orientation" of S^n. Now
 note that S^2 is the same thing as CP^n, so that it sits inside CP^\infty^:
 

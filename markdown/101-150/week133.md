@@ -81,12 +81,12 @@ I'd like to start with a long quote from a paper by Ashtekar:
 > is flat and incorporates gravity --- and hence curvature --- step by step
 > by adding up small corrections. Discreteness is then hard to unravel.
 >
-> [Footnote: The situation can be illustrated by a harmonic oscillator:
+> \[Footnote: The situation can be illustrated by a harmonic oscillator:
 > While the exact energy levels of the oscillator are discrete, it would
 > be very difficult to "see" this discreteness if one began with a
 > free particle whose energy levels are continuous and then tried to
 > incorporate the effects of the oscillator potential step by step via
-> perturbation theory.]
+> perturbation theory.\]
 >
 > In the non-perturbative approach, by contrast, there is no background
 > metric at all. All we have is a bare manifold to start with. All
