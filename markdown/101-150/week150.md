@@ -243,7 +243,7 @@ Can we get any *other* invariants of complex line bundles from *other*
 elements of the cohomology of $\mathbb{CP}^\infty$? Not really: in any complex oriented
 cohomology theory, the cohomology ring of $\mathbb{CP}^\infty$ is just the algebra of
 formal power series in the element $c$:
-$$h^\bullet(\mathbb{CP}^\infty) = R[[c]]$$
+$$h^*(\mathbb{CP}^\infty) = R[[c]]$$
 where $R$ is the coefficient ring.
 
 However, we can get other invariants of complex *vector* bundles, which
@@ -263,18 +263,18 @@ line bundles and taking the *dual* of a line bundle, respectively. Now
 let's see what we can do with these maps when we have a complex
 oriented cohomology theory. First of all, since cohomology is
 contravariant we get homomorphisms
-$$m^\bullet\colon h^\bullet(\mathbb{CP}^\infty)\to h^\bullet(\mathbb{CP}^\infty \times \mathbb{CP}^\infty)$$
+$$m^*\colon h^*(\mathbb{CP}^\infty)\to h^*(\mathbb{CP}^\infty \times \mathbb{CP}^\infty)$$
 and
-$$i^\bullet\colon h^\bullet(\mathbb{CP}^\infty)\to h^\bullet(\mathbb{CP}^\infty)$$
+$$i^*\colon h^*(\mathbb{CP}^\infty)\to h^*(\mathbb{CP}^\infty)$$
 But as I already said, we have
-$$h^\bullet(\mathbb{CP}^\infty) = R[[c]]$$
+$$h^*(\mathbb{CP}^\infty) = R[[c]]$$
 and similarly we have
-$$h^\bullet(\mathbb{CP}^\infty \times \mathbb{CP}^\infty) = R[[c]] \otimes R[[c]]$$
+$$h^*(\mathbb{CP}^\infty \times \mathbb{CP}^\infty) = R[[c]] \otimes R[[c]]$$
 where the product "\otimes" on the right side is a slightly fattened-up
 version of the usual tensor product of algebras over $R$. So we really
 have homomorphisms
-$$m^\bullet\colon R[[c]]\to R[[c]] \otimes R[[c]]$$
-$$i^\bullet\colon R[[c]]\to R[[c]]$$
+$$m^*\colon R[[c]]\to R[[c]] \otimes R[[c]]$$
+$$i^*\colon R[[c]]\to R[[c]]$$
 
 which satisfy all the usual axioms for the product and inverse in an
 abelian group --- but turned around backwards.
@@ -295,9 +295,9 @@ class" when we tensor line bundles. In a vague but useful way, we can
 visualize guys in $R[[c]]$ as formal power series on the line, where
 the line has been equipped with some abelian group structure, at least
 right near the origin. This group structure is what yields the coproduct
-$$m^\bullet\colon R[[c]]\to R[[c]] \otimes R[[c]]$$
+$$m^*\colon R[[c]]\to R[[c]] \otimes R[[c]]$$
 and antipode
-$$i^\bullet\colon R[[c]]\to R[[c]]$$
+$$i^*\colon R[[c]]\to R[[c]]$$
 But the real point is that this group structure tells us how to compute
 the generalized "first Chern class" of a tensor product of line
 bundles starting from both of their generalized first Chern classes.
