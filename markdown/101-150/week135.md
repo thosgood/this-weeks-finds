@@ -10,8 +10,7 @@ University of British Columbia held a workshop designed to get
 philosophers and physicists talking about the conceptual problems of
 quantum gravity:
 
-1) Toward a New Understanding of Space, Time and Matter, workshop home
-page at `http://axion.physics.ubc.ca/Workshop/`
+1) _Toward a New Understanding of Space, Time and Matter_, workshop home page at `http://axion.physics.ubc.ca/Workshop/`
 
 After a day of lectures by Chris Isham, John Earman, Lee Smolin and
 myself, we spent the rest of the workshop sitting around in a big room
@@ -26,15 +25,15 @@ clarity and mathematical elegance than the need to fit new experimental
 data.
 
 It's pretty clear that understanding quantum gravity will make us
-rethink some fundamental concepts - the question is, which ones? By the
+rethink some fundamental concepts --- the question is, which ones? By the
 end of the conference, almost every basic belief or concept relevant to
 physics had been held up for careful scrutiny and found questionable.
-Space, time, causality, the real numbers, set theory - you name it! It
-was a bit unnerving - but it's good to do this sort of thing now and
+Space, time, causality, the real numbers, set theory --- you name it! It
+was a bit unnerving --- but it's good to do this sort of thing now and
 then, to prevent hardening of the mental arteries, and it's especially
 fun to do it with a big bunch of physicists and philosophers. However, I
 must admit that I left wanting nothing more than to do lots of grungy
-calculations in order to bring myself back down to earth - relatively
+calculations in order to bring myself back down to earth --- relatively
 speaking, of course.
 
 I particularly enjoyed Chris Isham's talk about topos theory because it
@@ -47,66 +46,48 @@ distributes over "or", and vice versa, while failure of this sort of
 distributivity is a hallmark of quantum logic. If you don't know what I
 mean, try these books, in rough order of increasing difficulty:
 
-2) David W. Cohen, An Introduction to Hilbert Space and Quantum Logic,
-Springer-Verlag, New York, 1989.
+2) David W. Cohen, _An Introduction to Hilbert Space and Quantum Logic_, Springer-Verlag, New York, 1989.
 
-3) C. Piron, Foundations of Quantum Physics, W. A. Benjamin, Reading,
-Massachusetts, 1976.
+3) C. Piron, _Foundations of Quantum Physics_, W. A. Benjamin, Reading, Massachusetts, 1976.
 
-4) C. A. Hooker, editor, The Logico-algebraic Approach to Quantum
-Mechanics, two volumes, D. Reidel, Boston, 1975-1979.
+4) C. A. Hooker, editor, _The Logico-algebraic Approach to Quantum Mechanics_, two volumes, D. Reidel, Boston, 1975-1979.
 
 Perhaps even more importantly, topoi are Cartesian! What does this mean?
 Well, it means that we can define a "product" of any two objects in a
-topos. That is, given objects a and b, there's an object a x b equipped
+topos. That is, given objects $a$ and $b$, there's an object $a\times b$ equipped
 with morphisms
-
-p: a x b\to a
-
+$$p\colon a\times b\to a$$
 and
-
-q: a x b\to b
-
+$$q\colon a\times b\to b$$
 called "projections", satisfying the following property: given
-morphisms from some object c into a and b, say
-
-f: c\to a
-
+morphisms from some object $c$ into $a$ and $b$, say
+$$f\colon c\to a$$
 and
-
-g: c\to b
-
-there's a unique morphism f x g: c\to a x b such that if we follow it by
-p we get f, and if we follow it by q we get g. This is just an
+$$g\colon c\to b$$
+there's a unique morphism $f\times g\colon c\to a\times b$ such that if we follow it by
+$p$ we get $f$, and if we follow it by $q$ we get $g$. This is just an
 abstraction of the properties of the usual Cartesian product of sets,
 which is why we call a category "Cartesian" if any pair of objects has
 a product.
 
 Now, it's a fun exercise to check that in a Cartesian category, every
 object has a morphism
-
-\Delta: a\to a x a
-
+$$\Delta\colon a\to a\times a$$
 called the "diagonal", which when composed with either of the two
-projections from a x a to a gives the identity. For example, in the
+projections from $a\times a$ to a gives the identity. For example, in the
 topos of sets, the diagonal morphism is given by
-
-\Delta(x) = (x,x)
-
+$$\Delta(x) = (x,x)$$
 We can think of the diagonal morphism as allowing "duplication of
 information". This is not generally possible in quantum mechanics:
 
-5) William Wooters and Wocjciech Zurek, A single quantum cannot be
-cloned, Nature 299 (1982), 802-803.
+5) William Wooters and Wocjciech Zurek, "A single quantum cannot be cloned", _Nature_ **299** (1982), 802--803.
 
 The reason is that in the category of Hilbert spaces, the tensor product
 is not a product in the above sense! In particular, given a Hilbert
-space H, there isn't a natural diagonal operator
-
-\Delta: H\to H tensor H
-
-and there aren't even natural projection operators from H tensor H to
-H. As pointed out to me by James Dolan, this non-Cartesianness of the
+space $H$, there isn't a natural diagonal operator
+$$\Delta\colon H\to H tensor H$$
+and there aren't even natural projection operators from $H\otimes H$ to
+$H$. As pointed out to me by James Dolan, this non-Cartesianness of the
 tensor product gives quantum theory much of its special flavor. Besides
 making it impossible to "clone a quantum", it's closely related to
 how quantum theory violates Bell's inequality, because it means we
@@ -118,34 +99,34 @@ sufficiently "quantum" to be useful in understanding the peculiar
 special features of quantum physics. However, after Isham and I gave our
 talks, someone pointed out to me that one can think of a topological
 quantum field theory as a presheaf of Hilbert spaces over the category
-nCob whose morphisms are n-dimensional cobordisms. Now, presheaves over
+$\mathsf{nCob}$ whose morphisms are $n$-dimensional cobordisms. Now, presheaves over
 any category form a topos, so this means we should be able to think of a
 topological quantum field theory as a "Hilbert space object" in the
-topos of presheaves over nCob. From this point of view, the peculiar
+topos of presheaves over $\mathsf{nCob}$. From this point of view, the peculiar
 "quantumness" of topological quantum field theory comes from it being
-a Hilbert space object, while its peculiar "variability" - i.e., the
-fact that it assigns a different Hilbert space to each (n-1)-dimensional
-manifold representing space - comes from the fact that it's an object
+a Hilbert space object, while its peculiar "variability" --- i.e., the
+fact that it assigns a different Hilbert space to each $(n-1)$-dimensional
+manifold representing space --- comes from the fact that it's an object
 in a topos. (Topoi are known for being very good at handling things like
 "variable sets".) I'm not sure how useful this is, but it's worth
 keeping in mind.
 
 While I'm talking about quantum logic, let me raise a puzzle concerning
 the Kochen-Specker theorem. Remember what this says: if you have a
-Hilbert space H with dimension but more than 2, there's no map F from
-self-adjoint operators on H to real numbers with the following
+Hilbert space $H$ with dimension more than $2$, there's no map $F$ from
+self-adjoint operators on $H$ to real numbers with the following
 properties:
 
-a) For any self-adjoint operator A, F(A) lies in the spectrum of A,
+a) For any self-adjoint operator $A$, $F(A)$ lies in the spectrum of $A$,
 
 and
 
-b) For any continuous f: R\to R, f(F(A)) = F(f(A)).
+b) For any continuous $f\colon\mathbb{R}\to\mathbb{R}$, $f(F(A)) = F(f(A))$.
 
 This means there's no sensible consistent way of thinking of all
 observables as simultaneously having values in a quantum system!
 
-Okay, the puzzle is: what happens if the dimension of H equals 2? I
+Okay, the puzzle is: what happens if the dimension of $H$ equals $2$? I
 don't actually know the answer, so I'd be glad to hear it if someone
 can figure it out!
 
@@ -166,13 +147,11 @@ Fields" at the Institute for Theoretical Physics at U. C. Santa
 Barbara. This finished up a wonderful semester-long program by Abhay
 Ashtekar, Gary Horowitz and Jim Isenberg:
 
-6) Classical and Quantum Physics of Strong Gravitational Fields,
-program homepage with transparencies and audio files of talks at
-`http://www.itp.ucsb.edu/~patrick/gravity99/`
+6) _Classical and Quantum Physics of Strong Gravitational Fields_, program homepage with transparencies and audio files of talks at `http://www.itp.ucsb.edu/~patrick/gravity99/`
 
 Like the whole program, the conference covered a wide range of topics
 related to gravity: string theory and loop quantum gravity,
-observational and computational black hole physics, and γ ray bursters.
+observational and computational black hole physics, and $\gamma$-ray bursters.
 I can't summarize all this stuff; since I usually spend a lot of
 talking about quantum gravity here, let me say a bit about other things
 instead.
@@ -194,7 +173,7 @@ angular momentum, since they rotate slower than the star. If you think
 about it carefully, you'll see this means that gravitational radiation
 should tend to amplify such modes! I asked for a lowbrow analog of this
 mechanism and it turns out that a similar sort of thing is at work in
-the formation of water waves by the wind - with linear momentum taking
+the formation of water waves by the wind --- with linear momentum taking
 the place of angular momentum. Anyway, it's not clear that this process
 really ever has a chance to happen, because it only works when the
 neutron star is not too hot and not too cold, but it's pretty cool.
@@ -202,14 +181,13 @@ neutron star is not too hot and not too cold, but it's pretty cool.
 Richard Price gave a nice talk on computer simulation of black hole
 collisions. Quantitatively understanding the gravitational radiation
 emitted in black hole and neutron star collisions is a big business
-these days - it's one of the NSF's "grand challenge" problems. The
+these days --- it's one of the NSF's "grand challenge" problems. The
 reason is that folks are spending a lot of money building gravitational
 wave detectors like LIGO:
 
 7) LIGO project home page, `http://www.ligo.caltech.edu/`
 
-8) Other gravitational wave detection projects,
-`http://www.ligo.caltech.edu/LIGO_web/other_gw/gw_projects.html`
+8) Other gravitational wave detection projects, `http://www.ligo.caltech.edu/LIGO_web/other_gw/gw_projects.html`
 
 and they need to know exactly what to look for. Now, head-on collisions
 are the easiest to understand, since one can simplify the calculation
@@ -220,7 +198,7 @@ There are two extreme cases: the case of black holes of equal mass, and
 the case of a very light black hole of mass falling into a heavy one.
 
 The latter case is 95% understood, since we can think of the light black
-hole as a "test particle" - ignoring its effect on the heavy one. The
+hole as a "test particle" --- ignoring its effect on the heavy one. The
 light one slowly spirals into the heavy one until it reaches the
 innermost stable orbit, and then falls in. We can use the theory of a
 relativistic test particle falling into a black hole to understand the
@@ -266,9 +244,7 @@ I also had some interesting talks with people about black hole entropy,
 some of which concerned a new paper by Steve Carlip. I'm not really
 able to do justice to the details, but it seems important....
 
-9) Steve Carlip, Entropy from conformal field theory at Killing
-horizons, preprint available at
-[`gr-qc/9906126`](http://xxx.lanl.gov/abs/gr-qc/9906126).
+9) Steve Carlip, "Entropy from conformal field theory at Killing horizons", preprint available at [`gr-qc/9906126`](http://xxx.lanl.gov/abs/gr-qc/9906126).
 
 Let me just quote the abstract:
 
@@ -278,9 +254,9 @@ Let me just quote the abstract:
 > Killing horizon, a natural set of boundary conditions leads to a
 > Virasoro subalgebra with a calculable central charge. Conformal field
 > theory methods may then be used to determine the density of states at
-> the boundary. I consider a number of cases - black holes, Rindler
+> the boundary. I consider a number of cases --- black holes, Rindler
 > space, de Sitter space, Taub-NUT and Taub-Bolt spaces, and dilaton
-> gravity - and show that the resulting density of states yields the
+> gravity --- and show that the resulting density of states yields the
 > expected Bekenstein-Hawking entropy. The statistical mechanics of
 > black hole entropy may thus be fixed by symmetry arguments,
 > independent of details of quantum gravity.
@@ -289,33 +265,24 @@ There was also a lot of talk about "isolated horizons", a concept that
 plays a fundamental role in certain treatments of black holes in loop
 quantum gravity:
 
-10) Abhay Ashtekar, Christopher Beetle, and Stephen Fairhurst,
-Mechanics of isolated horizons, preprint available as
-[`gr-qc/9907068`](http://xxx.lanl.gov/abs/gr-qc/9907068).
+10) Abhay Ashtekar, Christopher Beetle, and Stephen Fairhurst, "Mechanics of isolated horizons", preprint available as [`gr-qc/9907068`](http://xxx.lanl.gov/abs/gr-qc/9907068).
 
-11) Jerzy Lewandowski, Spacetimes admitting isolated horizons, preprint
-available as [`gr-qc/9907058`](http://xxx.lanl.gov/abs/gr-qc/9907058).
+11) Jerzy Lewandowski, "Spacetimes admitting isolated horizons", preprint available as [`gr-qc/9907058`](http://xxx.lanl.gov/abs/gr-qc/9907058).
 
 For more on isolated horizons try the references in
 ["Week 128"](#week128).
 
 Finally, on a completely different note, I've recently seen some new
-papers related to the McKay correspondence - see
+papers related to the McKay correspondence --- see
 ["Week 65"](#week65) if you don't know what *that* is! I haven't
 read them yet, but I just want to remind myself that I should, so I'll
 list them here:
 
-12) John McKay, Semi-affine Coxeter-Dynkin graphs and \$G \\subseteq
-SU_2(C)\$, preprint available as
-[`math.QA/9907089`](http://xxx.lanl.gov/abs/math.QA/9907089).
+12) John McKay, "Semi-affine Coxeter-Dynkin graphs and $G\subseteq\mathrm{SU}_2(\mathbb{C})$", preprint available as [`math.QA/9907089`](http://xxx.lanl.gov/abs/math.QA/9907089).
 
-13) Igor Frenkel, Naihuan Jing and Weiqiang Wang, Vertex
-representations via finite groups and the McKay correspondence, preprint
-available as [`math.QA/9907166`](http://xxx.lanl.gov/abs/math.QA/9907166).
+13) Igor Frenkel, Naihuan Jing and Weiqiang Wang, "Vertex representations via finite groups and the McKay correspondence", preprint available as [`math.QA/9907166`](http://xxx.lanl.gov/abs/math.QA/9907166).
 
-Quantum vertex representations via finite groups and the McKay
-correspondence, preprint available as
-[`math.QA/9907175`](http://xxx.lanl.gov/abs/math.QA/9907175).
+    "Quantum vertex representations via finite groups and the McKay correspondence", preprint available as [`math.QA/9907175`](http://xxx.lanl.gov/abs/math.QA/9907175).
 
 Next time I want to talk about the big category theory conference in
 honor of MacLane's 90th birthday! Then I'll be pretty much caught up
@@ -325,25 +292,25 @@ on the conferences....
 
 Robert Israel's answer to my puzzle about the Kochen-Specker theorem:
 
-    It's not true in dimension 2.  Note that for a self-adjoint 
-    $2\times2$ matrix A, any f(A) is of the form a A + b I for some 
-    real scalars a and b (this is easy to see if you diagonalize 
-    A).  The self-adjoint matrices that are not multiples of I 
-    split into equivalence classes, where A and B are equivalent 
-    if B = a A + b I for some scalars a, b (a <> 0).  Pick a 
-    representative A from each equivalence class, choose F(A) 
-    as one of the eigenvalues of A, and then F(a A + b I) = 
-    a F(A) + b.  Of course, F(b I) = b.  Then F satisfies the 
-    two conditions.
+> It's not true in dimension $2$.  Note that for a self-adjoint 
+> $2\times2$ matrix $A$, any $f(A)$ is of the form $a A + b I$ for some 
+> real scalars $a$ and $b$ (this is easy to see if you diagonalize 
+> $A$).  The self-adjoint matrices that are not multiples of $I$ 
+> split into equivalence classes, where $A$ and $B$ are equivalent 
+> if $B = a A + b I$ for some scalars $a, b$ ($a <> 0$).  Pick a 
+> representative $A$ from each equivalence class, choose $F(A)$ 
+> as one of the eigenvalues of $A, and then $F(a A + b I) = a F(A) + b.$
+> Of course, $F(b I) = b$.  Then $F$ satisfies the 
+> two conditions.
 
-    The reason this doesn't work in higher dimensions is that 
-    in higher dimensions you can have two self-adjoint matrices 
-    A and B which don't commute,  F(A) = G(B) for some functions 
-    F and G, and F(A) is not a multiple of I.
+> The reason this doesn't work in higher dimensions is that 
+> in higher dimensions you can have two self-adjoint matrices 
+> $A$ and $B$ which don't commute, $F(A) = G(B)$ for some functions 
+> $F$ and $G$, and $F(A)$ is not a multiple of $I$.
 
-    Robert Israel                               israel@math.ubc.ca
-    Department of Mathematics       http://www.math.ubc.ca/~israel 
-    University of British Columbia            
-    Vancouver, BC, Canada V6T 1Z2
+> Robert Israel                               israel@math.ubc.ca
+> Department of Mathematics       http://www.math.ubc.ca/~israel 
+> University of British Columbia
+> Vancouver, BC, Canada V6T 1Z2
 
 ------------------------------------------------------------------------

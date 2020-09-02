@@ -274,7 +274,7 @@ about them, just because they're so cool!
     dwarf, the gas can undergo fusion and emit a huge burst of energy --- as
     much as 10,000 times what the sun emits in a year. To astronomers it may
     look like a new star is suddenly born --- hence the term "nova". But not
-    all novae emit mostly visible light --- some emit X-rays or even $\gamma$ rays. A
+    all novae emit mostly visible light --- some emit X-rays or even $\gamma$-rays. A
     "X-ray nova" is an X-ray source that suddenly appears in a few days
     and then gradually fades away in a year or less. Many of these are
     probably neutron stars rather than white dwarfs. But a bunch are
