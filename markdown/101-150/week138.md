@@ -26,8 +26,7 @@ Volkswagen beetle with Hawking's wheelchair crammed into the back seat.
 I think Hawking said he wrote 4 papers with Hartle. The first really
 important one was this:
 
-1) James Hartle and Stephen Hawking, Path integral derivation of black
-hole radiance, Phys. Rev. D13 (1976), 2188.
+1) James Hartle and Stephen Hawking, "Path integral derivation of black hole radiance", _Phys. Rev._ **D13** (1976), 2188.
 
 As I explained in ["Week 111"](#week111), Hawking wrote a paper in
 1975 establishing a remarkable link between black hole physics and
@@ -36,10 +35,10 @@ it had a temperature inversely proportional to its mass. However, this
 paper was regarded with some suspicion at the time, not only because the
 result was so amazing, but because the calculation involved modes of the
 electromagnetic field of extremely short wavelengths near the event
-horizon - much shorter than the Planck length.
+horizon --- much shorter than the Planck length.
 
 For this reason, Hartle and Hawking decided to redo the calculation
-using path integrals - a widely accepted technique in particle physics.
+using path integrals --- a widely accepted technique in particle physics.
 Hawking's background was in general relativity, so he wasn't too good
 at path integrals; Hartle had more experience with particle physics and
 knew how to do that kind of stuff.
@@ -63,13 +62,13 @@ imaginary time direction. And the period is proportional to the black
 hole's mass.
 
 Now, if you are good at physics, you know that doing quantum field
-theory calculations where imaginary time is periodic with period 1/T is
+theory calculations where imaginary time is periodic with period $1/T$ is
 the same as doing statistical mechanics calculations where the
-temperature is T. So right away, you see that a black hole acts like it
+temperature is $T$. So right away, you see that a black hole acts like it
 has a temperature inversely proportional to its mass!
 
-(In case you're worried, I'm using units where ħ, c, G, and k are
-equal to 1.)
+(In case you're worried, I'm using units where $\hbar$, $c$, $G$, and $k$ are
+equal to $1$.)
 
 Anyway, that's how people think about the Hartle-Hawking paper these
 days. I haven't actually read it, so my description may be a bit
@@ -77,11 +76,10 @@ anachronistic. Things usually look simpler and clearer in retrospect.
 
 The other really important paper by Hartle and Hawking is this one:
 
-2) James Hartle and Stephen Hawking, Wavefunction of the universe,
-Phys. Rev. D28 (1983), 2960.
+2) James Hartle and Stephen Hawking, "Wavefunction of the universe", _Phys. Rev._ **D28** (1983), 2960.
 
 In quantum mechanics, we often describe the state of a physical system
-by a wavefunction - a complex-valued function on the classical
+by a wavefunction --- a complex-valued function on the classical
 configuration space. If quantum mechanics applies to the whole universe,
 this naturally leads to the question: what's the wavefunction of the
 universe? In the above paper, Hartle and Hawking propose an answer.
@@ -102,42 +100,39 @@ tomorrow, or even how many planets orbit the sun.
 That will either make sense to you, or it won't, and I'm not sure
 anything *short* I might write will help you understand it if you don't
 already. A full explanation of this business would lead me down paths I
-don't want to tread just now - right into that morass they call "the
+don't want to tread just now --- right into that morass they call "the
 interpretation of quantum mechanics".
 
 So instead of worrying too much about what it would *mean* to know the
 wavefunction of the universe, let me just explain Hartle and Hawking's
 formula for it. Mind you, this formula may or may not be correct, or
-even rigorously well-defined - there's been a lot of argument about it
+even rigorously well-defined --- there's been a lot of argument about it
 in the physics literature. However, it's pretty cool, and definitely
 worth knowing.
 
 Here things get a wee bit more technical. Suppose that space is a
-3-sphere, say X. The classical configuration space of general relativity
-is the space of metrics on X. The wavefunction of the universe should be
+3-sphere, say $X$. The classical configuration space of general relativity
+is the space of metrics on $X$. The wavefunction of the universe should be
 some complex-valued function on this classical configuration space. And
 here's Hartle and Hawking's formula for it:
-
-                  ψ(q) = integral exp(-S(g)/ħ) dg
-                           g|X = q
-
+$$\psi(q) = \int_{g|X=q} \exp(-S(g)/\hbar)dg.$$
 Now you can wow your friends by writing down this formula and saying
 "Here's the wavefunction of the universe!"
 
 But, what does it mean?
 
-Well, the integral is taken over Riemannian metrics g on a 4-ball whose
-boundary is X, but we only integrate over metrics that restrict to a
-given metric q on X - that's what I mean by writing g|X = q. The
-quantity S(g) is the Einstein-Hilbert action of the metric g - in other
-words, the integral of the Ricci scalar curvature of g over the 4-ball.
-Finally, of course, ħ is Planck's constant.
+Well, the integral is taken over Riemannian metrics $g$ on a 4-ball whose
+boundary is $X$, but we only integrate over metrics that restrict to a
+given metric $q$ on $X$ --- that's what I mean by writing $g|X = q$. The
+quantity $S(g)$ is the Einstein-Hilbert action of the metric $g$ --- in other
+words, the integral of the Ricci scalar curvature of $g$ over the 4-ball.
+Finally, of course, $\hbar$ is Planck's constant.
 
 The idea is that, formally at least, this wavefunction is a solution of
 the Wheeler-DeWitt equation, which is the basic equation of quantum
 gravity (see ["Week 43"](#week43)).
 
-The measure "dg" is, unfortunately, ill-defined! In other words, one
+The measure "$dg$" is, unfortunately, ill-defined! In other words, one
 needs to use lots of clever tricks to extract physics from this formula,
 as usual for path integrals. But one can do it, and Hawking and others
 have spent a lot of time ever since 1983 doing exactly this. This led to
@@ -146,17 +141,17 @@ a subject called "quantum cosmology".
 I should add that there are lots of ways to soup up the basic
 Hartle-Hawking formula. If we have other fields around besides gravity,
 we just throw them into the action in the action in the obvious way and
-integrate over them too. If our manifold X representing space is not a
+integrate over them too. If our manifold $X$ representing space is not a
 3-sphere, we can pick some other 4-manifold having it as boundary. If we
 can't make up our mind which 4-manifold to use, we can try a "sum over
-topologies", summing over all 4-manifolds with X as boundary. We can do
-this even when X is a 3-sphere, actually - but it's a bit controversial
+topologies", summing over all 4-manifolds with $X$ as boundary. We can do
+this even when $X$ is a 3-sphere, actually --- but it's a bit controversial
 whether we should, and also whether the sum converges.
 
 Well, there's a lot more to say, like what the physical interpretation
 of the Hartle-Hawking formula is, and what predicts. It's actually
-quite cool - in a sense, it says that the universe tunnelled into being
-out of nothingness! But that sounds like a bunch of nonsense - the sort
+quite cool --- in a sense, it says that the universe tunnelled into being
+out of nothingness! But that sounds like a bunch of nonsense --- the sort
 of fluff they write on the front of science magazines to sell copies. To
 really explain it takes quite a bit more work. And unfortunately, it's
 just about dinner-time, so I want to stop now.
