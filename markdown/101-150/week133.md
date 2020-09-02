@@ -174,19 +174,19 @@ underlying graph. Here Major tackles that problem....
 
 And now for something completely different, arising from a thread on
 sci.physics.research started by Garrett Lisi. What's the gauge group of
-the Standard Model? Everyone will tell you it's \mathrm{U}(1) x \mathrm{SU}(2) x \mathrm{SU}(3),
+the Standard Model? Everyone will tell you it's $\mathrm{U}(1)\times\mathrm{SU}(2)\times\mathrm{SU}(3)$,
 but as Marc Bellon pointed out, this is perhaps not the most accurate
 answer. Let me explain why and figure out a better answer.
 
 Every particle in the Standard Model transforms according to some
-representation of \mathrm{U}(1) x \mathrm{SU}(2) x \mathrm{SU}(3), but some elements of this group
+representation of $\mathrm{U}(1)\times\mathrm{SU}(2)\times\mathrm{SU}(3)$, but some elements of this group
 act trivially on all these representations. Thus we can find a smaller
 group which can equally well be used as the gauge group of the Standard
-Model: the quotient of \mathrm{U}(1) x \mathrm{SU}(2) x \mathrm{SU}(3) by the subgroup of elements
+Model: the quotient of $\mathrm{U}(1)\times\mathrm{SU}(2)\times\mathrm{SU}(3)$ by the subgroup of elements
 that act trivially.
 
 Let's figure out this subgroup! To do so we need to go through all the
-particles and figure out which elements of \mathrm{U}(1) x \mathrm{SU}(2) x \mathrm{SU}(3) act
+particles and figure out which elements of $\mathrm{U}(1)\times\mathrm{SU}(2)\times\mathrm{SU}(3)$ act
 trivially on all of them.
 
 Start with the gauge bosons. In any gauge theory, the gauge bosons
@@ -196,7 +196,7 @@ group. \mathrm{U}(1) is abelian so its center is all of \mathrm{U}(1). Elements 
 that lie in the center must be diagonal. The $n\times n$ diagonal unitary
 matrices with determinant $1$ are all of the form exp(2 \pi i / n), and
 these form a subgroup isomorphic to Z/n. It follows that the center of
-\mathrm{U}(1) x \mathrm{SU}(2) x \mathrm{SU}(3) is \mathrm{U}(1) x Z/2 x Z/3.
+$\mathrm{U}(1)\times\mathrm{SU}(2)\times\mathrm{SU}(3)$ is \mathrm{U}(1) x Z/2 x Z/3.
 
 Next let's look at the other particles. If you forget how these work,
 see ["Week 119"](#week119). For the fermions, it suffices to look
@@ -307,7 +307,7 @@ the fact that quark charges in multiples of 1/3, while leptons have
 integral charge. There's more to it than that, though....
 
 Anyway, the "true" gauge group of the Standard Model - i.e., the
-smallest possible one - is not \mathrm{U}(1) x \mathrm{SU}(2) x \mathrm{SU}(3), but the quotient of
+smallest possible one - is not $\mathrm{U}(1)\times\mathrm{SU}(2)\times\mathrm{SU}(3)$, but the quotient of
 this by the particular Z/6 subgroup we've just found. Let's call this
 group G.
 
@@ -320,7 +320,7 @@ pointed out a nice way to think about G: it's the subgroup of \mathrm{U}(2) x
 If we embed \mathrm{U}(2) x \mathrm{U}(3) in \mathrm{U}(5) in the obvious way, then this subgroup G
 actually lies in \mathrm{SU}(5), thanks to the above equation. And this is what
 people do in the \mathrm{SU}(5) grand unified theory. They don't actually stuff
-all of \mathrm{U}(1) x \mathrm{SU}(2) x \mathrm{SU}(3) into \mathrm{SU}(5), just the group G! For more
+all of $\mathrm{U}(1)\times\mathrm{SU}(2)\times\mathrm{SU}(3)$ into \mathrm{SU}(5), just the group G! For more
 details, see ["Week 119"](#week119). Better yet, try this book that
 Brett McInnes recommended to me:
 
