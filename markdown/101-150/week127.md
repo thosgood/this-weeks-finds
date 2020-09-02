@@ -446,35 +446,20 @@ Notes and digressions:
 
 - About Euler's weirdly beautiful formula for $\pi$, Robin Chapman
     writes:
-
-
-                       3   5   7   11   13   17   19
-                \pi/2 = - x - x - x -- x -- x -- x -- x ...               (1)
-                       2   6   6   10   14   18   18
-
-        Using the Euler product for \zeta(2) gives
-
-        \pi^2/6 = \zeta(2) = 1 + 1/2^2 + 1/3^2 + ...
-                         = (4/3) (9/8) (25/24) ... (p^2/(p^2-1)) ...
-
-        and dropping the p = 2 term and dividing by (1) we see that (1) is equivalent
-        to
-
-        \pi/4 = (3/4)(5/4)(7/8)  .... (p/(p-χ(p))) ....                  (2)
-
-        where the numerators are odd primes and the denominators are their adjacent
-        multiples of 4. Also χ is the modulo 4 Dirichlet character. Now
-
-        p/(p - χ(p)) = 1 + χ(p)/p + χ(p^2)/p^2 + .... 
-
-        and if we multiply these formally the RHS of (2) becomes
-
-        1 - 1/3 + 1/5 - 1/7 + 1/9 - .....
-
-        i.e., Gregory's series for \pi/4. Admittedly it's not apparent that this
-        formal manipulation is valid. However for Dirichlet L-functions the
-        Euler product is valid at s = 1. This requires some delicate analysis: for
-        details see Landau's book on prime numbers or Davenport's Multiplicative
-        Number Theory.
+    
+    > $$\frac{\pi}{2} = \frac32\cdot\frac56\cdot\frac76\cdot\frac{11}{10}\cdot\frac{13}{14}\cdot\frac{17}{18}\cdot\frac{19}{18}\cdot\ldots\tag{1}$$
+    > Using the Euler product for $\zeta(2)$ gives
+    > $$\frac{\pi^2}{6} = \zeta(2) = 1+\frac{1}{2^2}+\frac{1}{3^2}+\ldots = \left(\frac{4}{3}\right)\left(\frac{9}{8}\right)\left(\frac{25}{24}\right)\cdots\left(\frac{p^2}{p^2-1}\right)\cdots$$
+    > and dropping the $p=2$ term and dividing by ($1$) we see that ($1$) is equivalent to
+    > $$\frac{\pi}{4} = \left(\frac{3}{4}\right)\left(\frac{5}{4}\right)\left(\frac{7}{8}\right)\cdots\left(\frac{p}{p-\chi(p)}\right)\cdots \tag{2}$$
+    > where the numerators are odd primes and the denominators are their adjacent
+    > multiples of $4$. Also $\chi$ is the modulo $4$ Dirichlet character. Now
+    > $$\frac{p}{p-\chi(p)} = 1+\frac{\chi(p)}{p}+\frac{\chi(p^2)}{p^2}+\ldots$$
+    > and if we multiply these formally the RHS of ($2$) becomes
+    > $$1-\frac13+\frac15-\frac17+\frac19-\ldots$$
+    > i.e., Gregory's series for $\pi/4$. Admittedly it's not apparent that this
+    > formal manipulation is valid. However for Dirichlet L-functions the
+    > Euler product is valid at $s = 1$. This requires some delicate analysis: for
+    > details see Landau's book on prime numbers or Davenport's _Multiplicative Number Theory_.
 
 ------------------------------------------------------------------------
