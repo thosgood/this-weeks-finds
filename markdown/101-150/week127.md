@@ -200,54 +200,44 @@ can hope to replace the outside integral --- the integral over metrics ---
 by an integral over this moduli space.
 
 Indeed, we could hope that
-Z = \int (\int \exp(-\langle X, \Delta X\rangle) dX) d\[g\]         \[hope!\]$$
-where now the outside integral is over moduli space and d\[g\] is the
+$$Z \overset{\text{we hope!}}{=} \int (\int \exp(-\langle X, \Delta X\rangle) dX) d[g]$$
+where now the outside integral is over moduli space and $d[g]$ is the
 Weil-Petersson measure. The hope, of course, is that the stuff on the
 inside is well-defined as a function on moduli space.
 
-Actually this hope is a bit naive. Even though \langle X, \Delta X\rangle doesn't change
-if we recale the metric, the whole inside integral
-
-\int \exp(-\langle X, \Delta X\rangle) dX
-
+Actually this hope is a bit naive. Even though $\langle X, \Delta X\rangle$ doesn't change
+if we rescale the metric, the whole inside integral
+$$\int \exp(-\langle X, \Delta X\rangle) dX$$
 *does* change. This may seem odd, but remember, we did a lot of
 hair-raising manipulations before we even got this integral to mean
 anything! We basically wound up *defining* it to be
-
-(\operatorname{det}\Delta)^{-\frac12},
-
+$$(\operatorname{det}\Delta)^{-\frac12},$$
 and one can check that this *does* change when we rescale the metric.
 This problem is called the "conformal anomaly".
 
 Are we stuck? No! Luckily, there is *another* problem, which cancels
-this one when n = 26. They say two wrongs don't make a right, but with
+this one when $n = 26$. They say two wrongs don't make a right, but with
 anomalies that's often the only way to get things to work....
 
 So what's this other problem? It's that we shouldn't just replace the
-measure dg by the measure d\[g\] as I did in my naive formula for the
+measure $dg$ by the measure $d[g]$ as I did in my naive formula for the
 partition function. We need to actually figure out the relation between
-them. Of course this is hard to do, because the measure dg doesn't
+them. Of course this is hard to do, because the measure $dg$ doesn't
 exist, rigorously speaking! Still, if we do a bunch more hair-raising
 heuristic manipulations, which I will spare you, we can get a formula
-relating dg and and d\[g\], and using this we get
-
-Z = \int ( \int \exp(-\langle X, \Delta X\rangle) dX) f(g) d\[g\]
-
-where f(g) is some function of the metric. There's a perfectly explicit
+relating $dg$ and and $d[g]$, and using this we get
+$$Z = \int ( \int \exp(-\langle X, \Delta X\rangle) dX) f(g) d[g]$$
+where $f(g)$ is some function of the metric. There's a perfectly explicit
 formula for this function, but your eyeballs would fall out if I showed
 it to you. Anyway, the real point is that IN 26 DIMENSIONS AND ONLY IN
 26 DIMENSIONS, the integrand
-
-( \int \exp(-\langle X, \Delta X\rangle) dX) f(g)
-
+$$( \int \exp(-\langle X, \Delta X\rangle) dX) f(g)$$
 is invariant under rescalings of the metric (as well as
 diffeomorphisms). In other words, the conformal anomaly in
-
-\int \exp(-\langle X, \Delta X\rangle) dX
-
-is precisely canceled by a similar conformal anomaly in f(g), so their
+$$\int \exp(-\langle X, \Delta X\rangle) dX$$
+is precisely canceled by a similar conformal anomaly in $f(g)$, so their
 product is a well-defined function on moduli space, so it makes sense to
-integrate it against d\[g\]. We can then go ahead and figure out the
+integrate it against $d[g]$. We can then go ahead and figure out the
 partition function quite explicitly.
 
 By now, if you're a rigorous sort of pure mathematician, you must be
@@ -257,7 +247,7 @@ cancellation of anomalies at the end, as a real triumph. And indeed,
 it's far *better* than *most* of what happens in quantum field theory!
 
 I've heard publishers of science popularizations say that each equation
-in a book diminishes its readership by a factor of 2. I don't know if
+in a book diminishes its readership by a factor of $2$. I don't know if
 this applies to This Week's Finds, but normally I try very hard to keep
 the equations to a minimum. This week, however, I've been very bad, and
 if my calculations are correct, by this point I am the only one reading
@@ -267,118 +257,115 @@ this, after all, is to see if I understand this stuff.
 
 Okay, so now I'd like to see if I understand how one explicitly
 calculates this integral:
-
-\int \exp(-\langle X, laplacian X\rangle) dX
-
+$$\int \exp(-\langle X, \mathrm{laplacian} X\rangle) dX$$
 Since we're eventually going to integrate this (times some stuff) over
 moduli space, we might as well assume the metric on our torus is gotten
 by curling up the following parallelogram in the complex plane:
-
-                             τ           τ + 1 
-                             *             *
-
-
-
-
-                          *              *
-                          0              1
-
+$$
+  \begin{tikzpicture}[scale=0.7]
+    \draw[->] (-3,0) to (4,0) node[label=below:{$\Re(z)$}]{};
+    \draw[->] (0,-2) to (0,4) node[label=left:{$\Im(z)$}]{};
+    \foreach \m in {-1,0,1,2}
+    {
+      \foreach \n in {-1,0,1,2}
+      {
+        \node (\m\n) at ({1.5*\m+0.75*\n},{1.33*\n}) {$\circ$};
+      }
+    }
+    \node at (00) {$\bullet$};
+    \node at (-0.3,-0.4) {$0$};
+    \node at (10) {$\bullet$};
+    \node at (1.5,-0.4) {$1$};
+    \node at (01) {$\bullet$};
+    \node at (0.75,0.9) {$\tau$};
+    \node at (11) {$\bullet$};
+    \node at (2.25,0.9) {$\tau+1$};
+  \end{tikzpicture}
+$$
 There are at least two ways to do the calculation. One is to actually
 work out the eigenvalues of the Laplacian on this torus and then do the
 zeta function regularization to compute its determinant. Di Francesco,
 Mathieu, and Senechal do this in the textbook I talked about in
 ["Week 124"](#week124). They get
-
-\int \exp(-\langle X, laplacian X\rangle) dX = 1 / (√Im(τ) |η(τ)|^2)
-
-where "η" is the Dedekind eta function, regarded as function of τ. But
+$$\int \exp(-\langle X, \mathrm{laplacian} X\rangle) dX = \frac{1}{\sqrt{\Im(\tau)} |\eta(\tau)|^2}$$
+where "$\eta$" is the Dedekind eta function, regarded as function of $\tau$. But
 the calculation is pretty brutal, and it seems to me that there should
 be a much easier way to get the answer. The left-hand side is just the
 partition function for an massless scalar field on the torus, and we
 basically did that back in ["Week 126"](#week126). More precisely,
 we considered just the right-moving modes and we got the following
 partition function:
-
-1/η(τ)
-
+$$\frac{1}{\eta(\tau)}$$
 How about the left-moving modes? Well, I'd guess that their partition
 function is just the complex conjugate,
-
-1/η(τ)\*
-
+$$\frac{1}{\eta(\tau)^*}$$
 since right-movers correspond to holomorphic functions and left-movers
 correspond to antiholomorphic functions in this Euclidean picture. It's
 just a guess! And finally, what about the zero-frequency mode? I have no
 idea. But we should presumably multiply all three partition functions
-together to get the partition function of the whole system - that's how
+together to get the partition function of the whole system --- that's how
 it usually works. And as you can see, we *almost* get the answer that Di
 Francesco, Mathieu, and Senechal got. It would work out *perfectly* if
-the partition function of the zero-frequency mode were 1/√Im(τ). By the
-way, Im(τ) is just the *area* of the torus.
+the partition function of the zero-frequency mode were $1/\sqrt{\Im(\tau)}$. By the
+way, $\Im(\tau)$ is just the *area* of the torus.
 
 As evidence that something like this might work, consider this: the
 zero-frequency mode is presumably related to the zero eigenvalue of the
 Laplacian. We threw that out when we defined the regularized determinant
 of the Laplacian, but as I hinted, more careful calculations of
-
-\int \exp(-\langle X, laplacian X\rangle) dX
-
+$$\int \exp(-\langle X, \mathrm{laplacian} X\rangle) dX$$
 don't just ignore the zero eigenvalue. Instead, they somehow use it to
-get an extra factor of 1/√Im(τ). Admittedly, the calculations are not
+get an extra factor of $1/\sqrt{\Im(\tau)}$. Admittedly, the calculations are not
 particularly convincing: a more obvious guess would be that it gives a
 factor of infinity. Di Francesco, Mathieu, and Senechal practically
 admit that they *need* this factor just to get modular invariance, and
 that they'll do whatever it takes to get it. Nash just sticks in the
-factor of 1/√Im(τ), mutters something vague, and hurriedly moves on.
+factor of $1/\sqrt{\Im(\tau)}$, mutters something vague, and hurriedly moves on.
 
 Clearly the reason people want this factor is because of how the eta
 function transforms under modular transformations. In
-["Week 125"](#week125) I said that the group \mathrm{PSL}(2,Z) is generated
-by two elements S and T, and if you look at the formulas there you'll
-see they act in the following way on τ:
-
-S: τ |→ -1/τ
-
-T: τ |→ τ + 1
-
+["Week 125"](#week125) I said that the group $\mathrm{PSL}(2,\mathbb{Z})$ is generated
+by two elements $S$ and $T$, and if you look at the formulas there you'll
+see they act in the following way on $\tau$:
+$$
+  \begin{aligned}
+    S &\colon \tau \mapsto -\frac{1}{\tau}
+  \\T &\colon \tau \mapsto \tau+1
+  \end{aligned}
+$$
 The Dedekind eta function satisfies
-
-η(-1/τ) = (τ / i)^1/2^ η(τ)
-
-η(τ + 1) = \exp(2 \pi i / 24) η(τ)
-
+$$
+  \begin{aligned}
+    \eta\left(-\frac{1}{\tau}\right) &= \left(\frac{\tau}{i}\right)^{\frac12}\eta(\tau)
+  \\\eta(\tau+1) &= \exp\left(\frac{2\pi i}{24}\right)\eta\tau
+  \end{aligned}
+$$
 The second one is really easy to see from the definition; the first one
 is harder. Anyway, using these facts it's easy to see that
-
-1 / (√Im(τ) |η(τ)|^2)
-
-is invariant under \mathrm{PSL}(2,Z), so it's really a function on moduli space
---- but only if that factor of 1/sqrt(Im(τ)) is in there!
+$$\frac{1}{\sqrt{\Im(\tau)} |\eta(\tau)|^2}$$
+is invariant under $\mathrm{PSL}(2,\mathbb{Z})$, so it's really a function on moduli space
+--- but only if that factor of $1/\sqrt{\Im(\tau)}$ is in there!
 
 Finally, I'd like to say something about why the conformal anomalies
 cancel in 26 dimensions. When I began thinking about this stuff I was
 hoping it'd be obvious from the transformation properties of the eta
-function - since they have that promising number "24" in them - but
+function --- since they have that promising number "24" in them --- but
 right now I do *not* see anything like this going on. Instead, it seems
 to be something like this: in the partition function
-
-Z = \int (\int \exp(-\langle X, \Delta X\rangle) dX) f(g) d\[g\]
-
-the mysterious function f is basically just the determinant of the
+$$Z = \int (\int \exp(-\langle X, \Delta X\rangle) dX) f(g) d[g]$$
+the mysterious function $f$ is basically just the determinant of the
 Laplacian on *vector fields* on the torus. So ignoring those darn zero
 eigenvalues the whole integrand here is
-
-\operatorname{det}(laplacian)^n/2^ \operatorname{det}(laplacian')
-
-where "laplacian" is the Laplacian on real-valued functions and "
-laplacian' " is the Laplacian on vector fields. Now these determinants
+$$\operatorname{det}(\mathrm{laplacian})^{\frac{n}{2}} \operatorname{det}(\mathrm{laplacian}')$$
+where "$\mathrm{laplacian}$" is the Laplacian on real-valued functions and "
+$\mathrm{laplacian'}$" is the Laplacian on vector fields. Now these determinants
 aren't well-defined functions on the space of conformal structures;
 they're really sections of certain "determinant bundles". But in this
 situation, the determinant bundle for the Laplacian on vector fields
 *just so happens* to be the 13th tensor power of the determinant bundle
-for the Laplacian on functions - so the whole expression above is a
+for the Laplacian on functions --- so the whole expression above is a
 well-defined function on the space of conformal structures, and thence
-on moduli space, precisely when n = 26!!!
+on moduli space, precisely when $n = 26$!!!
 
 Now this "just so happens" cannot really be a coincidence. There *are*
 no coincidences in mathematics. That's why it pays to be paranoid when
@@ -390,61 +377,45 @@ but right now I'm just waxing rhapsodic, expressing a feeling one
 sometimes gets....)
 
 Indeed, look at the proof in Nash's book that one of these determinant
-bundles is the 13th tensor power of the other - I think this result is
+bundles is the 13th tensor power of the other --- I think this result is
 due to Mumford, but Nash's proof is easy to read. What does he do? He
 works out the first Chern class of both bundles using the index theorem
-for families, and he gets something involving the Todd genus - and the
+for families, and he gets something involving the Todd genus --- and the
 Todd genus, as we all know, is defined using the same function
-
-x / (1 - e^x^) = -1 + x/2 - x^2/12 + ...
-
+$$\frac{x}{1 - e^x} = -1 + \frac{x}{2} - \frac{x^2}{12} + \ldots$$
 that we talked about in ["Week 126"](#week126) when computing the
 zero-point energy of the bosonic string! And yet again, it's that darn
--1/12 in the power series expansion that makes everything tick. That's
-where the 13 comes from! It's all an elaborate conspiracy!
+$-1/12$ in the power series expansion that makes everything tick. That's
+where the $13$ comes from! It's all an elaborate conspiracy!
 
 But of course the conspiracy is far grander than I've even begun to let
 on. If we keep digging away at it, we're eventually led to nothing
 other than....
-
-::: {align="CENTER"}
-MONSTROUS MOONSHINE!!!
-:::
-
+$$\text{MONSTROUS MOONSHINE!!!}$$
 But I don't have the energy to talk about *that* now. For more, try:
 
-7) Richard E. Borcherds, What is moonshine?, talk given upon winning
-the Fields medal, preprint available as
-[`math.QA/9809110`](http://xxx.lanl.gov/abs/math.QA/9809110).
+7) Richard E. Borcherds, "What is moonshine?", talk given upon winning the Fields medal, preprint available as [`math.QA/9809110`](http://xxx.lanl.gov/abs/math.QA/9809110).
 
-8) Peter Goddard, The work of R. E. Borcherds, preprint available as
-[`math.QA/9808136`](http://xxx.lanl.gov/abs/math.QA/9808136).
+8) Peter Goddard, "The work of R. E. Borcherds", preprint available as [`math.QA/9808136`](http://xxx.lanl.gov/abs/math.QA/9808136).
 
 Okay, if you've actually read this far, you deserve a treat. First, try
 this cartoon, which you'll see is quite relevant:
 
-9) Cartoon by J. F. Cartier,
-`http://www.physik.uni-frankfurt.de/~jr/gif/cartoon/cart0785.gif`
+9) Cartoon by J. F. Cartier, `http://www.physik.uni-frankfurt.de/~jr/gif/cartoon/cart0785.gif`
 
-Second, let's calculate the determinant of an operator A whose
-eigenvalues are the numbers 1, 2, 3, .... You can think of this
+Second, let's calculate the determinant of an operator $A$ whose
+eigenvalues are the numbers $1, 2, 3, \ldots$. You can think of this
 operator as the Hamiltonian for the wave equation on the circle, where
 we only keep the right-moving modes. As I already said, the zeta
 function of this operator is the Riemann zeta function. This function
-has \zeta'(0) = -ln(2 \pi)/2, so using our cute formula relating determinants
+has $\zeta'(0) = -ln(2 \pi)/2$, so using our cute formula relating determinants
 and zeta functions, we get
-
-\operatorname{det}(A) = \exp(-\zeta'(0)) = (2 \pi)^1/2^ .
-
-Just for laughs, if we pretend that the determinant of A is the product
+$$\operatorname{det}(A) = \exp(-\zeta'(0)) = (2\pi)^{\frac12}.$$
+Just for laughs, if we pretend that the determinant of $A$ is the product
 of its eigenvalues as in the finite-dimensional case, we get:
-
-1 × 2 × 3 × ... = (2 \pi)^1/2^
-
+$$1\cdot 2\cdot 3\cdot \ldots = (2 \pi)^{\frac12}$$
 or if you really want to ham it up,
-
-\infty! = (2 \pi)^1/2^.
-
+$$\infty! = (2 \pi)^{\frac12}.$$
 Cute, eh? Dan Piponi told me this, as well as some of the other things
 I've been talking about. You can also find it in Bost's paper.
 
@@ -452,29 +423,28 @@ I've been talking about. You can also find it in Bost's paper.
 
 Notes and digressions:
 
--   In all of the above, I put a minus sign into my Laplacian, so that
+- In all of the above, I put a minus sign into my Laplacian, so that
     it has nonnegative eigenvalues. This is common among erudite
     mathematical physics types, who like "positive elliptic
     operators".
 
--   The zeta function trick for defining the determinant of the
+- The zeta function trick for defining the determinant of the
     Laplacian works for any positive elliptic operator on a compact
     manifold. A huge amount has been written about this trick. It's all
     based on the fact that the zeta function of a positive elliptic
-    operator analytically continues to s = 0. This fact was proved by
+    operator analytically continues to $s = 0$. This fact was proved by
     Seeley:
 
-    10) R. T. Seeley, Complex powers of an elliptic operator, Proc.
-    Symp. Pure Math. 10 (1967), 288-307.
+    10) R. T. Seeley, "Complex powers of an elliptic operator", _Proc. Symp. Pure Math._ **10** (1967), 288--307.
 
--   Why is the Polyakov action \langle X, \Delta X\rangle conformally invariant? Because
-    the Laplacian has dimensions of 1/length^2, while the integral used
-    to define the inner product has dimensions of length^2, since the
+- Why is the Polyakov action $\langle X, \Delta X\rangle$ conformally invariant? Because
+    the Laplacian has dimensions of $1/\mathrm{length}^2$, while the integral used
+    to define the inner product has dimensions of $\mathrm{length}^2$, since the
     torus is 2-dimensional. This is the magic of 2 dimensions! The path
     integral for higher-dimensional "branes" has not yet been made
     precise, because this magic doesn't happen there.
 
--   About Euler's weirdly beautiful formula for \pi, Robin Chapman
+- About Euler's weirdly beautiful formula for $\pi$, Robin Chapman
     writes:
 
 
