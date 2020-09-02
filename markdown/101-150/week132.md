@@ -3,12 +3,9 @@
 Today I want to talk about $n$-categories and quantum gravity again. For
 starters let me quote from a paper of mine about this stuff:
 
-1) John Baez, Higher-dimensional algebra and Planck-scale physics, to
-appear in Physics Meets Philosophy at the Planck Scale, eds. Craig
-Callender and Nick Huggett, Cambridge U. Press. Preprint available as
-[`gr-qc/9902017`](http://xxx.lanl.gov/abs/gr-qc/9902017).
+1) John Baez, "Higher-dimensional algebra and Planck-scale physics", to appear in _Physics Meets Philosophy at the Planck Scale_, eds. Craig Callender and Nick Huggett, Cambridge U. Press. Preprint available as [`gr-qc/9902017`](http://xxx.lanl.gov/abs/gr-qc/9902017).
 
-By the way, this book should be pretty fun to read - it'll contain
+By the way, this book should be pretty fun to read --- it'll contain
 papers by both philosophers and physicists, including a bunch who have
 already graced the pages of This Week's Finds, like Barbour, Isham,
 Rovelli, Unruh, and Witten. I'll say more about it when it comes out.
@@ -18,55 +15,49 @@ about the meaning of the Planck length, why it may be important in
 quantum gravity, and what a theory of quantum gravity should be like:
 
 > Two constants appear throughout general relativity: the speed of light
-> c and Newton's gravitational constant G. This should be no surprise,
+> $c$ and Newton's gravitational constant $G$. This should be no surprise,
 > since Einstein created general relativity to reconcile the success of
 > Newton's theory of gravity, based on instantaneous action at a
 > distance, with his new theory of special relativity, in which no
-> influence travels faster than light. The constant c also appears in
+> influence travels faster than light. The constant $c$ also appears in
 > quantum field theory, but paired with a different partner: Planck's
-> constant ħ. The reason is that quantum field theory takes into account
-> special relativity and quantum theory, in which ħ sets the scale at
+> constant $\hbar$. The reason is that quantum field theory takes into account
+> special relativity and quantum theory, in which $\hbar$ sets the scale at
 > which the uncertainty principle becomes important.
 >
 > It is reasonable to suspect that any theory reconciling general
-> relativity and quantum theory will involve all three constants c, G,
-> and ħ. Planck noted that apart from numerical factors there is a
+> relativity and quantum theory will involve all three constants $c$, $G$,
+> and $\hbar$. Planck noted that apart from numerical factors there is a
 > unique way to use these constants to define units of length, time, and
 > mass. For example, we can define the unit of length now called the
 > 'Planck length' as follows:
->
-> L = sqrt(ħ G /c^3)
->
-> This is extremely small: about 1.6 x 10^{-35} meters. Physicists have
+> $$L = \sqrt{\frac{\hbar G}{c^3}}$$
+> This is extremely small: about $1.6\times 10^{-35}$ meters. Physicists have
 > long suspected that quantum gravity will become important for
 > understanding physics at about this scale. The reason is very simple:
-> any calculation that predicts a length using only the constants c, G
-> and ħ must give the Planck length, possibly multiplied by an
-> unimportant numerical factor like 2\pi.
+> any calculation that predicts a length using only the constants $c$, $G$
+> and $\hbar$ must give the Planck length, possibly multiplied by an
+> unimportant numerical factor like $2\pi$.
 >
-> For example, quantum field theory says that associated to any mass m
-> there is a length called its Compton wavelength, L_C, such that
-> determining the position of a particle of mass m to within one Compton
+> For example, quantum field theory says that associated to any mass $m$
+> there is a length called its Compton wavelength, $L_C$, such that
+> determining the position of a particle of mass $m$ to within one Compton
 > wavelength requires enough energy to create another particle of that
 > mass. Particle creation is a quintessentially quantum-field-theoretic
 > phenomenon. Thus we may say that the Compton wavelength sets the
 > distance scale at which quantum field theory becomes crucial for
 > understanding the behavior of a particle of a given mass. On the other
-> hand, general relativity says that associated to any mass m there is a
-> length called the Schwarzschild radius, L_S, such that compressing an
-> object of mass m to a size smaller than this results in the formation
+> hand, general relativity says that associated to any mass $m$ there is a
+> length called the Schwarzschild radius, $L_S$, such that compressing an
+> object of mass $m$ to a size smaller than this results in the formation
 > of a black hole. The Schwarzschild radius is roughly the distance
 > scale at which general relativity becomes crucial for understanding
 > the behavior of an object of a given mass. Now, ignoring some
 > numerical factors, we have
->
-> L_C = ħ/mc
->
+> $$L_C = \frac{\hbar}{mc}$$
 > and
->
-> L_S = Gm/c^2.
->
-> These two lengths become equal when m is the Planck mass. And when
+> $$L_S = \frac{Gm}{c^2}.$$
+> These two lengths become equal when $m$ is the Planck mass. And when
 > this happens, they both equal the Planck length!
 >
 > At least naively, we thus expect that both general relativity and
@@ -76,14 +67,14 @@ quantum gravity, and what a theory of quantum gravity should be like:
 > the Planck scale, but also some of the difficulties in obtaining
 > experimental evidence about physics at this scale. Most of our
 > information about general relativity comes from observing heavy
-> objects like planets and stars, for which L_S \>\> L_C. Most of our
+> objects like planets and stars, for which $L_S\gg L_C$. Most of our
 > information about quantum field theory comes from observing light
-> objects like electrons and protons, for which L_C \>\> L_S. The Planck
+> objects like electrons and protons, for which $L_C\gg L_S$. The Planck
 > mass is intermediate between these: about the mass of a largish cell.
-> But the Planck length is about 10^{-20} times the radius of a proton!
+> But the Planck length is about $10^{-20}$ times the radius of a proton!
 > To study a situation where both general relativity and quantum field
 > theory are important, we could try to compress a cell to a size
-> 10^{-20} times that of a proton. We know no reason why this is
+> $10^{-20}$ times that of a proton. We know no reason why this is
 > impossible in principle. But we have no idea how to actually
 > accomplish such a feat.
 >
@@ -92,19 +83,17 @@ quantum gravity, and what a theory of quantum gravity should be like:
 > very large, or very small. A theory of quantum gravity might make
 > testable predictions of dimensionless quantities like the ratio of the
 > muon and electron masses. For that matter, a theory of quantum gravity
-> might involve physical constants other than c, G, and ħ. The latter
+> might involve physical constants other than $c$, $G$, and $\hbar$. The latter
 > two alternatives are especially plausible if we study quantum gravity
 > as part of a larger theory describing other forces and particles.
 > However, even though we cannot prove that the Planck length is
 > significant for quantum gravity, I think we can glean some wisdom from
-> pondering the constants c,G, and ħ - and more importantly, the
+> pondering the constants $c$, $G$, and $\hbar$ --- and more importantly, the
 > physical insights that lead us to regard these constants as important.
 >
-> What is the importance of the constant c? In special relativity, what
+> What is the importance of the constant $c$? In special relativity, what
 > matters is the appearance of this constant in the Minkowski metric
->
-> ds^2 = c^2 dt^2 - dx^2 - dy^2 - dz^2
->
+> $$ds^2 = c^2 dt^2 - dx^2 - dy^2 - dz^2$$
 > which defines the geometry of spacetime, and in particular the
 > lightcone through each point. Stepping back from the specific
 > formalism here, we can see several ideas at work. First, space and
@@ -113,17 +102,17 @@ quantum gravity, and what a theory of quantum gravity should be like:
 > That is, we can measure them in small regions of spacetime (sometimes
 > idealized as points). Physicists call such quantities 'local degrees
 > of freedom'. And third, to predict the value of a quantity that can
-> be measured in some region R, we only need to use values of quantities
-> measured in regions that stand in a certain geometrical relation to R.
+> be measured in some region $R$, we only need to use values of quantities
+> measured in regions that stand in a certain geometrical relation to $R$.
 > This relation is called the 'causal structure' of spacetime. For
 > example, in a relativistic field theory, to predict the value of the
-> fields in some region R, it suffices to use their values in any other
-> region that intersects every timelike path passing through R. The
+> fields in some region $R$, it suffices to use their values in any other
+> region that intersects every timelike path passing through $R$. The
 > common way of summarizing this idea is to say that nothing travels
 > faster than light. I prefer to say that a good theory of physics
-> should have \*local degrees of freedom propagating causally\*.
+> should have *local degrees of freedom propagating causally*.
 >
-> In Newtonian gravity, G is simply the strength of the gravitational
+> In Newtonian gravity, $G$ is simply the strength of the gravitational
 > field. It takes on a deeper significance in general relativity, where
 > the gravitational field is described in terms of the curvature of the
 > spacetime metric. Unlike in special relativity, where the Minkowski
@@ -133,18 +122,16 @@ quantum gravity, and what a theory of quantum gravity should be like:
 > geometry of spacetime becomes a local degree of freedom of the theory.
 > Quantitatively, the interaction of the metric and other fields is
 > described by Einstein's equation
->
-> G\_{ab} = 8 \pi G T\_{ab}
->
-> where the Einstein tensor G\_{ab} depends on the curvature of the
-> metric, while the stress-energy tensor T\_{ab} describes the flow of
+> $$G_{ab} = 8 \pi G T_{ab}$$
+> where the Einstein tensor $G_{ab}$ depends on the curvature of the
+> metric, while the stress-energy tensor $T_{ab}$ describes the flow of
 > energy and momentum due to all the other fields. The role of the
-> constant G is thus simply to quantify how much the geometry of
+> constant $G$ is thus simply to quantify how much the geometry of
 > spacetime is affected by other fields. Over the years, people have
 > realized that the great lesson of general relativity is that a good
 > theory of physics should contain no geometrical structures that affect
 > local degrees of freedom while remaining unaffected by them. Instead,
-> all geometrical structures - and in particular the causal structure ---
+> all geometrical structures --- and in particular the causal structure ---
 > should themselves be local degrees of freedom. For short, one says
 > that the theory should be background-free.
 >
@@ -153,25 +140,23 @@ quantum gravity, and what a theory of quantum gravity should be like:
 > complete. The conflict between Ptolemaic and Copernican cosmologies,
 > the dispute between Newton and Leibniz concerning absolute and
 > relative motion, and the modern arguments concerning the 'problem of
-> time' in quantum gravity - all are but chapters in the story of this
+> time' in quantum gravity --- all are but chapters in the story of this
 > struggle. I do not have room to sketch this story here, nor even to
 > make more precise the all-important notion of 'geometrical
 > structure'. I can only point the reader towards the literature,
 > starting perhaps with the books by Barbour and Earman, various papers
 > by Rovelli, and the many references therein.
 >
-> Finally, what of ħ? In quantum theory, this appears most prominently
-> in the commutation relation between the momentum p and position q of a
+> Finally, what of $\hbar$? In quantum theory, this appears most prominently
+> in the commutation relation between the momentum $p$ and position $q$ of a
 > particle:
->
-> pq - qp = -i ħ,
->
+> $$pq - qp = -i \hbar,$$
 > together with similar commutation relations involving other pairs of
 > measurable quantities. Because our ability to measure two quantities
 > simultaneously with complete precision is limited by their failure to
-> commute, ħ quantifies our inability to simultaneously know everything
+> commute, $\hbar$ quantifies our inability to simultaneously know everything
 > one might choose to know about the world. But there is far more to
-> quantum theory than the uncertainty principle. In practice, ħ comes
+> quantum theory than the uncertainty principle. In practice, $\hbar$ comes
 > along with the whole formalism of complex Hilbert spaces and linear
 > operators.
 >
@@ -188,25 +173,25 @@ quantum gravity, and what a theory of quantum gravity should be like:
 > quaternionic ones? Is this decision made solely to fit the
 > experimental data, or is there a deeper reason? Since questions like
 > this do not yet have clear answers, I shall summarize the physical
-> insight behind ħ by saying simply that a good theory of the physical
-> universe should be a *quantum theory* - leaving open the possibility
+> insight behind $\hbar$ by saying simply that a good theory of the physical
+> universe should be a *quantum theory* --- leaving open the possibility
 > of eventually saying something more illuminating.
 >
-> Having attempted to extract the ideas lying behind the constants c, G,
-> and ħ, we are in a better position to understand the task of
+> Having attempted to extract the ideas lying behind the constants $c$, $G$,
+> and $\hbar$, we are in a better position to understand the task of
 > constructing a theory of quantum gravity. General relativity
-> acknowledges the importance of c and G but idealizes reality by
-> treating ħ as negligibly small. From our discussion above, we see that
+> acknowledges the importance of $c$ and $G$ but idealizes reality by
+> treating $\hbar$ as negligibly small. From our discussion above, we see that
 > this is because general relativity is a background-free classical
 > theory with local degrees of freedom propagating causally. On the
-> other hand, quantum field theory as normally practiced acknowledges c
-> and ħ but treats G as negligible, because it is a background-dependent
+> other hand, quantum field theory as normally practiced acknowledges $c$
+> and $\hbar$ but treats $G$ as negligible, because it is a background-dependent
 > quantum theory with local degrees of freedom propagating causally.
 >
 > The most conservative approach to quantum gravity is to seek a theory
 > that combines the best features of general relativity and quantum
-> field theory. To do this, we must try to find a \*background-free
-> quantum theory with local degrees of freedom propagating causally\*.
+> field theory. To do this, we must try to find a *background-free
+> quantum theory with local degrees of freedom propagating causally*.
 > While this approach may not succeed, it is definitely worth pursuing.
 > Given the lack of experimental evidence that would point us towards
 > fundamentally new principles, we should do our best to understand the
@@ -229,24 +214,17 @@ there's a deep analogy between the mathematics of spacetime (e.g.
 differential topology) and the mathematics of quantum theory. This is
 interesting because in background-free quantum theories we expect that
 spacetime, instead of serving as a "stage" on which events play out,
-actually becomes part of the play of events itself - and must itself be
+actually becomes part of the play of events itself --- and must itself be
 described using quantum theory. So it's very interesting to try to
 connect the concepts of spacetime and quantum theory. The analogy goes
 like this:
 
-
-         DIFFERENTIAL TOPOLOGY                  QUANTUM THEORY            
-
-      (n-1)-dimensional manifold                Hilbert space             
-              (space)                             (states)                  
-
-    cobordism between (n-1)-dimensional           operator    
-              manifolds                           (process)                 
-             (spacetime)                         
-
-      composition of cobordisms            composition of operators  
-
-          identity cobordism                  identity operator         
+| Differential topology | Quantum theory |
+| :-------------------- | :------------- |
+| $(n-1)$-dimensional manifold (space) | Hilbert space (states) |
+| cobordism between $(n-1)$-dimensional manifolds (spacetime) | operator (process) |
+| composition of cobordisms | composition of operators |
+| identity cobordism | identity operator |
 
 And if you know a little category theory, you'll see what we have here
 are two categories: the category of cobordisms and the category of
@@ -255,17 +233,11 @@ first to the second....
 
 Okay, now for some other papers:
 
-2) Geraldine Brady and Todd H. Trimble. A string diagram calculus for
-predicate logic, and C. S. Peirce's system Beta, available at
-[http://people.cs.uchicago.edu/\~
-brady](http://people.cs.uchicago.edu/~brady)
+2) Geraldine Brady and Todd H. Trimble, "A string diagram calculus for predicate logic", and C. S. Peirce's system Beta, available at `http://people.cs.uchicago.edu/~brady`
 
-Geraldine Brady and Todd H. Trimble, A categorical interpretation of
-Peirce's propositional logic Alpha, Jour. Pure and Appl. Alg. 149
-(2000), 213-239.
+    Geraldine Brady and Todd H. Trimble, "A categorical interpretation of Peirce's propositional logic Alpha", _Jour. Pure and Appl. Alg._ **149** (2000), 213--239.
 
-Geraldine Brady and Todd H. Trimble, The topology of relational
-calculus.
+    Geraldine Brady and Todd H. Trimble, "The topology of relational calculus".
 
 Charles Peirce is a famously underappreciated American philosopher who
 worked in the late 1800s. Among other things, like being the father of
@@ -287,10 +259,7 @@ all these techniques. So it's worth re-evaluating Peirce's work and
 seeing how it fits into the picture. And this is what the papers by
 Brady and Trimble do!
 
-3) J. Scott Carter, Louis H. Kauffman, and Masahico Saito, Structures
-and diagrammatics of four dimensional topological lattice field
-theories, to appear in Adv. Math., preprint available as
-[`math.GT/9806023`](http://xxx.lanl.gov/abs/math.GT/9806023).
+3) J. Scott Carter, Louis H. Kauffman, and Masahico Saito, "Structures and diagrammatics of four dimensional topological lattice field theories", to appear in _Adv. Math._, preprint available as [`math.GT/9806023`](http://xxx.lanl.gov/abs/math.GT/9806023).
 
 We can get 3-dimensional topological quantum field theories from certain
 Hopf algebras. As I described in ["Week 38"](#week38), Crane and
@@ -299,87 +268,66 @@ should get 4-dimensional TQFTs from certain Hopf categories. This paper
 makes the suggestion precise in a certain class of examples! Basically
 these are categorified versions of the Dijkgraaf-Witten theory.
 
-4) J. Scott Carter, Daniel Jelsovsky, Selichi Kamada, Laurel Langford
-and Masahico Saito, Quandle cohomology and state-sum invariants of
-knotted curves and surfaces, preprint available as
-[`math.GT/9903135`](http://xxx.lanl.gov/abs/math.GT/9903135).
+4) J. Scott Carter, Daniel Jelsovsky, Selichi Kamada, Laurel Langford and Masahico Saito, "Quandle cohomology and state-sum invariants of knotted curves and surfaces", preprint available as [`math.GT/9903135`](http://xxx.lanl.gov/abs/math.GT/9903135).
 
 Yet another attack on higher dimensions! This one gets invariants of
-2-links - surfaces embedded in R^4 - from the cohomology groups of
+2-links --- surfaces embedded in $\mathbb{R}^4$ --- from the cohomology groups of
 "quandles". I don't really understand how this fits into the overall
 scheme of higher-dimensional algebra yet. They show their invariant
 distinguishes between the 2-twist spun trefoil (a certain sphere knotted
 in R^4) and the same sphere with the reversed orientation.
 
-5) Tom Leinster, Structures in higher-dimensional category theory,
-preprint available at `http://www.dpmms.cam.ac.uk/~leinster`
+5) Tom Leinster, "Structures in higher-dimensional category theory", preprint available at `http://www.dpmms.cam.ac.uk/~leinster`
 
 This is a nice tour of ideas in higher-dimensional algebra. Right now
 one big problem with the subject is that there are lots of approaches
 and not a clear enough picture of how they fit together. Leinster's
 paper is an attempt to start seeing how things fit together.
 
-6) Claudio Hermida, Higher-dimensional multicategories, slides of a
-lecture given in 1997, available at `http://www.math.mcgill.ca/~hermida`
+6) Claudio Hermida, "Higher-dimensional multicategories", slides of a lecture given in 1997, available at `http://www.math.mcgill.ca/~hermida`
 
 This talk presents some of the work by Makkai, Power and Hermida on
 their definition of $n$-categories. For more on their work see
 ["Week 107"](#week107).
 
-7) Carlos Simpson, On the Breen-Baez-Dolan stabilization hypothesis for
-Tamsamani's weak $n$-categories, preprint available as
+7) Carlos Simpson, "On the Breen-Baez-Dolan stabilization hypothesis for Tamsamani's weak $n$-categories", preprint available as
 [`math.CT/9810058`](http://xxx.lanl.gov/abs/math.CT/9810058).
 
 For quite a while now James Dolan and I have been talking about
 something we call the "stabilization hypothesis". I gave an
 explanation of this in ["Week 121"](#week121), but briefly, it says
 that the nth column of the following chart (which extends to infinity in
-both directions) stabilizes after 2n+2 rows:
+both directions) stabilizes after $2n+2$ rows:
 
-                       k-tuply monoidal $n$-categories 
+|       | $n=0$ | $n=1$ | $n=2$ |
+| ----- | :--- | :--- | :--- |
+| $k=0$ | sets | categories | 2-categories |
+| | | | |
+| $k=1$ | monoids | monoidal categories | monoidal 2-categories |
+| | | | |
+| $k=2$ | commutative monoids | braided monoidal categories | braided monoidal 2-categories |
+| | | | |
+| $k=3$ | " " | symmetric monoidal categories | weakly involutory monoidal 2-categories |
+| | | | |
+| $k=4$ | " " | " " | strongly involutory monoidal 2-categories |
+| | | | |
+| $k=5$ | " " | " " | " " |
 
-                  n = 0           n = 1             n = 2
-
-    k = 0         sets          categories         2-categories
-         
-
-    k = 1        monoids         monoidal           monoidal
-                                categories        2-categories
-
-    k = 2       commutative      braided            braided
-                 monoids         monoidal           monoidal
-                                categories        2-categories 
-
-
-    k = 3         " "           symmetric            weakly
-                                 monoidal          involutory
-                                categories          monoidal
-                                                  2-categories
-
-    k = 4         " "             " "               strongly 
-                                                   involutory
-                                                    monoidal
-                                                  2-categories
-
-    k = 5         " "             " "                "  "
+:$k$-tuply monoidal $n$-categories
 
 Carlos Simpson has now made this hypothesis precise and proved it using
 Tamsamani's definition of $n$-categories! And he did it using the same
-techniques that Graeme Segal used to study k-fold loop spaces...
+techniques that Graeme Segal used to study $k$-fold loop spaces...
 exploiting the relation between $n$-categories and homotopy theory. This
 makes me really happy.
 
-8) Mark Hovey, Model Categories, American Mathematical Society
-Mathematical Surveys and Monographs, vol 63., Providence, Rhode Island,
-1999. Preprint available as
-`http://www.math.uiuc.edu/K-theory/0278/index.html`
+8) Mark Hovey, _Model Categories_, American Mathematical Society Mathematical Surveys and Monographs, vol. **63**, Providence, Rhode Island, 1999. Preprint available as `http://www.math.uiuc.edu/K-theory/0278/index.html`
 
 Speaking of that kind of thing, the technique of model categories is
 really important for homotopy theory and $n$-categories, and this book is
 a really great place to learn about it.
 
-9) Frank Quinn, Group-categories, preprint available as
-[`math.GT/9811047`](http://xxx.lanl.gov/abs/math.GT/9811047).
+9) Frank Quinn, _Group-categories_, preprint available as [`math.GT/9811047`](http://xxx.lanl.gov/abs/math.GT/9811047).
 
 This one is about the algebra behind certain topological quantum field
 theories. I'll just quote the abstract:
@@ -401,9 +349,7 @@ theories. I'll just quote the abstract:
 > thickening. This is worked out for group-categories, and in particular
 > we determine when the normalization is possible and when it is not.
 
-10) Sjoerd Crans, A tensor product for Gray-categories, Theory and
-Applications of Categories, Vol. 5, 1999, No. 2, pp 12-69, available at
-`http://www.tac.mta.ca/tac/volumes/1999/n2/abstract.html`
+10) Sjoerd Crans, "A tensor product for Gray-categories", _Theory and Applications of Categories_, Vol. **5**, 1999, No. 2, pp 12--69, available at `http://www.tac.mta.ca/tac/volumes/1999/n2/abstract.html`
 
 A Gray-category is what some people call a semistrict 3-category: not as
 general as a weak 3-category, but general enough. Technically,
