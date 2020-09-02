@@ -1,12 +1,11 @@
 # December 5, 1999 {#week142}
 
-I was recently infected by a meme - a self-propagating pattern of human
+I was recently infected by a meme --- a self-propagating pattern of human
 behavior. Now I want to pass it on to you! I like this particular meme
 because it's so simple. It's even simpler than the parasites described
 on my webpage:
 
-1) John Baez, Subcellular life forms,
-`http://math.ucr.edu/home/baez/subcellular.html`
+1) John Baez, "Subcellular life forms", `http://math.ucr.edu/home/baez/subcellular.html`
 
 I wrote this webpage when I was trying to understand some of the
 simplest self-reproducing entities: viruses, viroids, virusoids,
@@ -19,7 +18,7 @@ Diener discovered the first viroid in 1971: the potato spindle tuber
 viroid, which makes potatoes abnormally long and sometimes cracked. At
 first people doubted the possibility of a life form smaller than a
 virus. But by now the complete molecular structure of this viroid has
-been worked out. It consists of only 359 nucleotides - or in other
+been worked out. It consists of only 359 nucleotides --- or in other
 words, about 12,000 atoms!
 
 But since a meme relies on the complex apparatus of human culture to
@@ -31,13 +30,13 @@ A good example is the game of tic-tac-toe. It's not very interesting,
 but it's just interesting enough to keep propagating itself through
 human children, who are highly susceptible to the charm of simple games.
 Most children soon develop an immunity to tic-tac-toe, just like measles
-and mumps - but only after passing it on to some other child.
+and mumps --- but only after passing it on to some other child.
 
 Unfortunately, the meme that infected me is a lot harder to shake,
 because it's a lot more interesting. I'm talking about the game of Go.
 
-This game is played on a 19 x 19 square grid. Each player starts with a
-large supply of stones - black for the first player, white for the
+This game is played on a $19\times19$ square grid. Each player starts with a
+large supply of stones --- black for the first player, white for the
 second. They take turns putting a stone on a grid point. A group of
 stones of one color "dies" and is removed from the board when it is
 surrounded by stones of the other color. More precisely, we say a stone
@@ -51,7 +50,7 @@ happening.
 
 First, you are not allowed to put a stone someplace where it will
 immediately die, *unless* doing so immediately kills one or more of the
-other player's stones - in which case their stones die, and yours
+other player's stones --- in which case their stones die, and yours
 lives.
 
 Second, if putting down your stone kills a stone of the other player,
@@ -69,7 +68,7 @@ stones of the other color that are "doomed to die".)
 That's basically it!
 
 The cool part is that starting from these simple rules, a whole world of
-strategy unfolds, full of specific tricks - but also quite general
+strategy unfolds, full of specific tricks --- but also quite general
 philosophical lessons about "power", "territory", and "threat". In
 a good game, both players start by efficiently marking out some
 territory, putting stones down in a widely separated way that looks
@@ -95,10 +94,10 @@ People say Go was developed in China between 4 and 6 thousand years ago.
 Its early history is obscure, but it is said to have started, not as a
 game, but as a tool for divination and the teaching of military
 strategy. I'm no expert, but to me Go seems like a nice illustration of
-yin-yang philosophy - the idea that the dynamic complexity of the
+yin-yang philosophy --- the idea that the dynamic complexity of the
 universe arises from the dialectic interplay of binary opposites. For a
 good introduction to what I'm talking about, you can't beat the I
-Ching - the "Classic of Changes", a Chinese divination text compiled
+Ching --- the "Classic of Changes", a Chinese divination text compiled
 in the 9th century B.C., but containing material that probably dates
 back at least a few centuries earlier. This book describes the
 significance of 64 "hexagrams", which are patterns built from 6 bits
@@ -136,7 +135,7 @@ Foundation:
 
 2) GNU Go, `http://www.gnu.org/software/gnugo/devel.html`
 
-You can adjust the size of the board and also the handicap - the number
+You can adjust the size of the board and also the handicap --- the number
 of stones you get right away when you start. To use this program in a
 UNIX environment you need an interface program called "cgoban", which
 is also free:
@@ -153,58 +152,49 @@ You can find lots of go books listed at this website. Personally I found
 these books to be a nice introduction to the game, but they may be hard
 to find:
 
-5) The Nihon Kiin, Go: The World's Most Fascinating Game, 2 volumes,
-Sokosha Printing Co., Tokyo, 1973.
+5) The Nihon Kiin, _Go: The World's Most Fascinating Game_, 2 volumes, Sokosha Printing Co., Tokyo, 1973.
 
 When you get more advanced, there are a lot of books to read, with fun
 titles like "Get Strong at Invading", "Reducing Territorial
 Frameworks", and "Utilizing Outward Influence". It pays to study
 "joseki", or openings:
 
-6) Ishida Yoshio, Dictionary of Basic Joseki, 3 volumes, Ishi Press
-International, San Jose, California, 1977.
+6) Ishida Yoshio, _Dictionary of Basic Joseki_, 3 volumes, Ishi Press International, San Jose, California, 1977.
 
 It's also good to study "tsume-go", or "life and death problems",
 where you figure out which player can win in various configurations. A
 mathematician would call this the "local" analysis of Go:
 
-7) Cho Chikun, All About Life and Death, 2 volumes, Ishi Press
-International, San Jose, California, 1993.
+7) Cho Chikun, _All About Life and Death_, 2 volumes, Ishi Press International, San Jose, California, 1993.
 
 Ishi Press puts out a lot of other books on Go, but I haven't been able
 to get ahold of them yet. I'm sort of fascinated by one that talks
 about a difficult abstract concept called "thickness", since I suspect
 this is a global rather than local concept:
 
-8) Ishidea Yoshio, All About Thickness: Understanding Moyo and
-Influence, Ishi Press International, San Jose, California.
+8) Ishidea Yoshio, _All About Thickness: Understanding Moyo and Influence_, Ishi Press International, San Jose, California.
 
 If you want to get mathematical about Go endgames, try this:
 
-9) Elwyn Berlekamp and David Wolfe, Mathematical Go: Chilling Gets the
-Last Point, A. K. Peters, Wellesley Massachusetts, 1994.
+9) Elwyn Berlekamp and David Wolfe, _Mathematical Go: Chilling Gets the Last Point_, A. K. Peters, Wellesley Massachusetts, 1994.
 
 If you want to get computational, try this:
 
-10) Markus Enzenberger, The integration of a priori knowledge into a Go
-playing neural network,
-`http://www.cgl.ucsf.edu/go/Programs/neurogo-html/NeuroGo.html`
+10) Markus Enzenberger, _The integration of a priori knowledge into a Go playing neural network_, `http://www.cgl.ucsf.edu/go/Programs/neurogo-html/NeuroGo.html`
 
 If instead you prefer to curl up with a good novel based on a game of
 Go, try this:
 
-11) Yasunari Kawabata, The Master of Go, trans. Edward G.
-Seidensticker, Knopf, New York, 1972.
+11) Yasunari Kawabata, _The Master of Go_, trans. Edward G. Seidensticker, Knopf, New York, 1972.
 
 On a different note, here are two good editions of the I Ching:
 
-12) The I Ching or Book of Changes, trans. Richard Wilhelm and Cary F.
-Baynes, Princeton U. Press, Princeton, 1969.
+12) _The I Ching or Book of Changes_, trans. Richard Wilhelm and Cary F. Baynes, Princeton U. Press, Princeton, 1969.
 
-The Classic of Changes: A New Translation of the I Ching as Interpreted
-by Wang Bi, trans. Richard John Lynn, Columbia U. Press, 1994.
+    _The Classic of Changes: A New Translation of the I Ching as Interpreted
+    by Wang Bi_, trans. Richard John Lynn, Columbia U. Press, 1994.
 
-Okay. Enough culture - time for some math!
+Okay. Enough culture --- time for some math!
 
 I was invited to Stanford University by David Carlton, who works on
 modular forms, and I found out from him and his friends that the
@@ -212,9 +202,7 @@ Shimura-Taniyama-Weil conjecture has been proved! This might have been a
 nice scoop for This Week's Finds, but by now it's appeared in the
 Notices of the AMS, so everyone knows about it:
 
-13) Henri Darmon, A proof of the full Shimura-Taniyama-Weil conjecture
-is announced, Notices of the American Mathematical Society, 46 no. 11
-(December 1999), 1397-1401.
+13) Henri Darmon, "A proof of the full Shimura-Taniyama-Weil conjecture is announced", _Notices of the American Mathematical Society_, **46** no. 11 (December 1999), 1397--1401.
 
 Andrew Wiles proved part of this conjecture in order to prove Fermat's
 Last Theorem, but the conjecture is actually much more interesting than
@@ -225,28 +213,23 @@ What does the conjecture say?
 
 Well, first you have to know a bit about elliptic curves. An "elliptic
 curve" is the space of solutions of an equation like this:
-
-y^2 = x^3 + ax + b
-
+$$y^2 = x^3 + ax + b$$
 They come up naturally in string theory, and I've talked about them
-already in ["Week 13"](#week13) and ["Week 124"](#week124) ---
-["Week 127"](#week127). If all the variables in sight are complex
+already in ["Week 13"](#week13) and ["Week 124"](#week124)--["Week 127"](#week127). If all the variables in sight are complex
 numbers, an elliptic curve looks like a torus, but number theorists like
 to consider the case where the coefficients a and b are rational. By a
 simple change of variables you can then get the coefficients to be
-integers. Then it makes sense to work modulo a prime number p: in other
+integers. Then it makes sense to work modulo a prime number $p$: in other
 words, to think of all the variables as living in the field of integers
-mod p, better known as Z/p. If you're smart, you can tell if an
-elliptic curve mod p is "singular" or not: being nonsingular is like
+$\mod p$, better known as $\mathbb{Z}/p$. If you're smart, you can tell if an
+elliptic curve $\mod p$ is "singular" or not: being nonsingular is like
 being a smooth manifold. People say an elliptic curve has "good
-reduction at p" if it's nonsingular mod p. For any given elliptic
+reduction at $p$" if it's nonsingular $\mod p$. For any given elliptic
 curve, this is true except for finitely many primes.
 
-Any elliptic curve E has finitely many points mod p. Let's call the
-number of points N(E,p) and set
-
-a(E,p) = p - N(E,p)
-
+Any elliptic curve $E$ has finitely many points $\mod p$. Let's call the
+number of points $N(E,p)$ and set
+$$a(E,p) = p - N(E,p).$$
 If this list of numbers satisfies a certain condition, which I'll
 describe in a minute, we say our elliptic curve is "modular". The
 Shimura-Taniyama-Weil conjecture states that all elliptic curves are
@@ -256,59 +239,50 @@ Okay, so what does "modular" mean? Well, for this we need a little
 digression on modular forms. In ["Week 125"](#week125) I described
 the moduli space of elliptic curves, which is the space of all different
 shapes an elliptic curve can have. I showed that this space was
-H/\mathrm{SL}(2,Z), where H is the upper half of the complex plane and \mathrm{SL}(2,Z) is
+$H/\mathrm{SL}(2,\mathbb{Z})$, where $H$ is the upper half of the complex plane and $\mathrm{SL}(2,\mathbb{Z})$ is
 the group of $2\times2$ integer matrices with determinant $1$. A modular form is
 basically just a holomorphic section of some line bundle over the moduli
 space of elliptic curves. But if this sounds too high-tech, don't be
 scared! We can also think of it as an analytic function on the upper
-half-plane that transforms in a nice way under the action of \mathrm{SL}(2,Z).
+half-plane that transforms in a nice way under the action of $\mathrm{SL}(2,\mathbb{Z})$.
 Remember, any matrix
-
-                              a b
-                              c d
-
-in \mathrm{SL}(2,Z) acts on the upper half-plane as follows:
-
-τ |→ (a τ + b)/(c τ + d)
-
-For an analytic function f: H\to C to be a "modular form of weight k",
+$$
+  \left(
+    \begin{array}{cc}
+      a&b\\c&d
+    \end{array}
+  \right)
+$$
+in $\mathrm{SL}(2,\mathbb{Z})$ acts on the upper half-plane as follows:
+$$\tau \mapsto \frac{a \tau + b}{c \tau + d}$$
+For an analytic function $f\colon H\to\mathbb{C}$ to be a "modular form of weight $k$",
 it must transform as follows:
-
-f((a τ + b)/(c τ + d)) = (c τ + d)^k^ f(τ)
-
-for some integer k. We also require that f satisfy some growth
-conditions as τ\to\infty, so we can expand it as a Taylor series
-
-f(τ) = \sum a_n q^n
-
+$$f\left(\frac{a \tau + b}{c \tau + d}\right) = (c \tau + d)^k f(\tau)$$
+for some integer $k$. We also require that $f$ satisfy some growth
+conditions as $\tau\to\infty$, so we can expand it as a Taylor series
+$$f(\tau) = \sum a_n q^n$$
 where
-
-q = exp(2 \pi i τ)
-
-is a variable that equals 0 when τ = \infty. The nicest modular forms are the
-"cusp forms", which have a_0 = 0, and thus vanish at τ = \infty.
+$$q = \exp(2 \pi i \tau)$$
+is a variable that equals $0$ when $\tau = \infty$. The nicest modular forms are the
+"cusp forms", which have $a_0 = 0$, and thus vanish at $\tau = \infty$.
 
 Next, we can straightforwardly generalize everything I just said if we
-replace \mathrm{SL}(2,Z) by various subgroups thereof. (This amounts to studying
+replace $\mathrm{SL}(2,\mathbb{Z})$ by various subgroups thereof. (This amounts to studying
 holomorphic sections of line bundles over some moduli space of elliptic
 curves *equipped with extra structure*.) For example, we can use the
-subgroup Γ_0(N) consisting of those matrices in \mathrm{SL}(2,Z) whose
-lower-left entries are divisible by N. If we use this group instead of
-\mathrm{SL}(2,Z), we get what are called modular forms of "level N". We define
+subgroup $\Gamma_0(N)$ consisting of those matrices in $\mathrm{SL}(2,\mathbb{Z})$ whose
+lower-left entries are divisible by $N$. If we use this group instead of
+$\mathrm{SL}(2,\mathbb{Z})$, we get what are called modular forms of "level $N$". We define
 "weight" of such a modular form just as before, and ditto for "cusp
 forms".
 
 And now we can say what it means for an elliptic curve to be modular! We
-say an elliptic curve E is "modular" if for some N there's a weight 2
-level N cusp form
-
-f(τ) = \sum a_n q^n
-
-normalized so that a_1 = 1, with the property that
-
-a_p = a(E,p)
-
-for all primes p at which E has good reduction.
+say an elliptic curve $E$ is "modular" if for some $N$ there's a weight $2$
+level $N$ cusp form
+$$f(\tau) = \sum a_n q^n$$
+normalized so that $a_1 = 1$, with the property that
+$$a_p = a(E,p)$$
+for all primes $p$ at which $E$ has good reduction.
 
 So now you know what the Shimura-Taniyama-Weil conjecture says: all
 elliptic curves are modular! It's not obvious that this implies
@@ -319,15 +293,13 @@ There turn out to be fascinating but mysterious relationships between
 the Shimura-Taniyama-Weil conjecture, something called the Langlands
 program, and topological quantum field theory:
 
-14) Mikhail Kapranov, Analogies between the Langlands correspondence
-and topological quantum field theory, in Functional Analysis on the Eve
-of the 21st Century, Vol. 1, Birkhaueser, Boston, pp. 119-151.
+14) Mikhail Kapranov, "Analogies between the Langlands correspondence and topological quantum field theor"y, in _Functional Analysis on the Eve of the 21st Century_, Vol. **1**, Birkhaueser, Boston, pp. 119--151.
 
-For this reason - and others - it's not so surprising that David
+For this reason --- and others --- it's not so surprising that David
 Carlton and some of his buddies are interested in $n$-categories. In fact,
 Carlton caught a small error in the definition of $n$-categories due to
-James Dolan and myself - it turns out that the number "1" should be
-the number "2" at one particular place in the definition! Anyone who
+James Dolan and myself --- it turns out that the number "$1$" should be
+the number "$2$" at one particular place in the definition! Anyone who
 can spot a problem like that is friend of mine.
 
 Even better, Carlton is now interested in understanding the
@@ -337,9 +309,7 @@ I realize now that I've never mentioned this paper on This Week's
 Finds, so let me conclude by quoting the abstract. It's pretty long and
 detailed, and probably only of interest to $n$-category addicts....
 
-15) M. Makkai, The multitopic $\omega$-category of all multitopic
-$\omega$-categories, preprint available at
-<ftp://ftp.math.mcgill.ca/pub/makkai>
+15) M. Makkai, The multitopic $\omega$-category of all multitopic $\omega$-categories, preprint available at `ftp://ftp.math.mcgill.ca/pub/makkai`
 
 > "The paper gives two definitions: that of "multitopic $\omega$-category"
 > and that of "the (large) multitopic set of all (small) multitopic
@@ -367,9 +337,9 @@ $\omega$-categories, preprint available at
 > of the two concepts ("multitopic set" and "opetopic set") is still
 > not clarified. The main aspect in which the theory of multitopic sets
 > is in a more advanced state than that of opetopic sets is that, in
-> \[H/M/P\], there is an explicitly defined category Mlt of
+> \[H/M/P\], there is an explicitly defined category $\mathsf{Mlt}$ of
 > **multitopes**, with the property that the category of multitopic sets
-> is equivalent to the category of Set-valued functors on Mlt, a result
+> is equivalent to the category of $\mathsf{Set}$-valued functors on $\mathsf{Mlt}$, a result
 > given a detailed proof in \[H/M/P\]. The corresponding statement on
 > opetopic sets and opetopes is asserted in \[B/D\], but the category of
 > opetopes is not described. In this paper, the category of multitopes
@@ -400,63 +370,63 @@ $\omega$-categories, preprint available at
 >
 > In \[M2\], the concepts of "FOLDS-signature" and
 > "FOLDS-equivalence" are introduced. A (FOLDS-) signature is a
-> category with certain special properties. For a signature L , an
-> **L-structure** is a Set-valued functor on L. To each signature L, a
-> particular relation between two variable L-structures, called
-> L-equivalence, is defined. Two L-structures M, N, are L-equivalent iff
-> there is a so-called L-equivalence span M\<---P---\>N between
+> category with certain special properties. For a signature $L$ , an
+> **$L$-structure** is a $\mathsf{Set}$-valued functor on $L$. To each signature $L$, a
+> particular relation between two variable $L$-structures, called
+> $L$-equivalence, is defined. Two $L$-structures M, N, are $L$-equivalent iff
+> there is a so-called $L$-equivalence span $M\leftarrow P\rightarrow N$ between
 > them; here, the arrows are ordinary natural transformations, required
 > to satisfy a certain property called "fiberwise surjectivity".
 >
-> The slogan of the work \[M2\], \[M3\] on FOLDS is that \*all
-> meaningful properties of L-structures are invariant under
-> L-equivalence\*. As with all slogans, it is both a normative statement
-> ("you should not look at properties of L-structures that are not
-> invariant under L-equivalence"), and a statement of fact, namely that
-> the "interesting" properties of L-structures are in fact invariant
-> under L-equivalence. (For some slogans, the "statement of fact" may
+> The slogan of the work \[M2\], \[M3\] on FOLDS is that *all
+> meaningful properties of $L$-structures are invariant under
+> $L$-equivalence*. As with all slogans, it is both a normative statement
+> ("you should not look at properties of $L$-structures that are not
+> invariant under $L$-equivalence"), and a statement of fact, namely that
+> the "interesting" properties of $L$-structures are in fact invariant
+> under $L$-equivalence. (For some slogans, the "statement of fact" may
 > be false.) The usual concepts of "equivalence" in category theory,
 > including the higher dimensional ones such as "biequivalence", are
-> special cases of L-equivalence, upon suitable, and natural, choices of
-> the signature L; \[M3\] works out several examples of this. Thus, in
+> special cases of $L$-equivalence, upon suitable, and natural, choices of
+> the signature $L$; \[M3\] works out several examples of this. Thus, in
 > these cases, the slogan above becomes a tenet widely held true by
 > category theorists. I claim its validity in the generality stated
 > above.
 >
 > The main effort in \[M3\] goes into specifying a language, First Order
 > Logic with Dependent Sorts, and showing that the first order
-> properties invariant under L-equivalence are precisely the ones that
+> properties invariant under $L$-equivalence are precisely the ones that
 > can be defined in FOLDS. In this paper, the language of FOLDS plays no
 > role. The concepts of "FOLDS-signature" and "FOLDS-equivalence"
 > are fully described in section 1 of this paper.
 >
 > The definition of **multitopic $\omega$-category** goes, in outline, as
-> follows. For an arbitrary multitope SIGMA of dimension \>=2, for a
-> multitopic set S, for a pasting diagram ALPHA in S of shape the domain
-> of SIGMA and a cell a in S of the shape the codomain of SIGMA, such
-> that a and ALPHA are parallel, we define what it means to say that a
-> is a **composite** of ALPHA. First, we define an auxiliary FOLDS
-> signature L\<SIGMA\> extending Mlt, the signature of multitopic sets.
-> Next, we define structures S\<a\> and S\<ALPHA\>, both of the
-> signature L\<SIGMA\>, the first constructed from the data S and a ,
-> the second from S and ALPHA, both structures extending S itself. We
-> say that a is a composite of ALPHA if there is a
-> FOLDS-equivalence-span E between S\<a\> and S\<ALPHA\> that restricts
-> to the identity equivalence-span from S to S . Below, I'll refer to E
-> as an **equipment** for a being a composite of ALPHA. A multitopic set
-> is a **mulitopic $\omega$-category** iff every pasting diagram ALPHA in it
+> follows. For an arbitrary multitope $\Sigma$ of dimension $\geqslant2$, for a
+> multitopic set $S$, for a pasting diagram $\alpha$ in $S$ of shape the domain
+> of $\Sigma$ and a cell $a$ in $S$ of the shape the codomain of $\Sigma$, such
+> that $a$ and $\alpha$ are parallel, we define what it means to say that a
+> is a **composite** of $\alpha$. First, we define an auxiliary FOLDS
+> signature $L\langle \Sigma\rangle$ extending $\mathsf{Mlt}$, the signature of multitopic sets.
+> Next, we define structures $S\langle a\rangle$ and $S\langle \alpha\rangle$, both of the
+> signature $L\langle \Sigma\rangle$, the first constructed from the data $S$ and $a$ ,
+> the second from $S$ and $\alpha$, both structures extending $S$ itself. We
+> say that $a$ is a composite of $\alpha$ if there is a
+> FOLDS-equivalence-span $E$ between $S\langle a\rangle$ and $S\langle \alpha\rangle$ that restricts
+> to the identity equivalence-span from $S$ to $S$. Below, I'll refer to $E$
+> as an **equipment** for a being a composite of $\alpha$. A multitopic set
+> is a **mulitopic $\omega$-category** iff every pasting diagram $\alpha$ in it
 > has at least one composite.
 >
 > The analog of the universal arrows in the Baez/Dolan style definition
 > is as follows. A **universal arrow** is defined to be an arrow of the
-> form b:ALPHA-----\> a where a is a composite of ALPHA via an
-> equipment E that relates b with the identity arrow on a : in turn, the
-> identity arrow on a is any composite of the empty pasting diagram of
-> dimension dim(a)+1 based on a . Note that the main definition does
+> form $b\colon\alpha\to a$ where $a$ is a composite of $\alpha$ via an
+> equipment $E$ that relates $b$ with the identity arrow on $a$ : in turn, the
+> identity arrow on $a$ is any composite of the empty pasting diagram of
+> dimension $\dim(a)+1$ based on $a$. Note that the main definition does
 > *not* go through first defining "universal arrow".
 >
 > A new feature in the present treatment is that it aims directly at
-> weak \*ω\*-categories; the finite dimensional ones are obtained as
+> weak $\omega$-categories; the finite dimensional ones are obtained as
 > truncated versions of the full concept. The treatment in \[B/D\]
 > concerns finite dimensional weak categories. It is important to
 > emphasize that a multitopic $\omega$-category is still just a multitopic set
@@ -466,8 +436,8 @@ $\omega$-categories, preprint available at
 > uses sections 1, 2 and 4, but not section 3.
 >
 > The second main thing done in this paper is the definition of
-> MltOmegaCat. This is a particular large multitopic set. Its definition
-> is completed only by the end of the paper. The 0-cells of MltOmegaCat
+> $\mathsf{MltOmegaCat}$. This is a particular large multitopic set. Its definition
+> is completed only by the end of the paper. The 0-cells of $\mathsf{MltOmegaCat}$
 > are the samll multitopic $\omega$-categories, defined in section 5. Its
 > 1-cells, which we call 1-transfors (thereby borrowing, and altering
 > the meaning of, a term used by Sjoerd Crans \[Cr\]) are what stand for
@@ -475,20 +445,20 @@ $\omega$-categories, preprint available at
 > instance, in the 2-dimensional case, multitopic 2-categories
 > correspond to ordinary bicategories by a certain process of
 > "cleavage", and the 1-transfors correspond to homomorphisms of
-> bicategories \[Be\]. There are n-dimensional transfors for each n in N
-> . For each multitope (that is, "shape" of a higher dimensional cell)
-> PI, we have the **PI-transfors**, the cells of shape PI in
-> MltOmegaCat.
+> bicategories \[Be\]. There are $n$-dimensional transfors for each $n$ in $\mathbb{N}$.
+> For each multitope (that is, "shape" of a higher dimensional cell)
+> $PI$, we have the **$PI$-transfors**, the cells of shape $PI$ in
+> $\mathsf{MltOmegaCat}$.
 >
-> For each fixed multitope PI, a PI-transfor is a \*PI-colored
-> multitopic set\* with additional properties. "PI-colored multitopic
-> sets" are defined in section 3; when PI is the unique
-> zero-dimensional multitope, PI-colored multitopic sets are the same as
+> For each fixed multitope $PI$, a $PI$-transfor is a *$PI$-colored
+> multitopic set* with additional properties. "$PI$-colored multitopic
+> sets" are defined in section 3; when $PI$ is the unique
+> zero-dimensional multitope, $PI$-colored multitopic sets are the same as
 > ordinary multitopic sets. Thus, the definition of a transfor of an
 > arbitrary dimension and shape is a generalization of that of
 > "multitopic $\omega$-category"; the additional properties are also similar,
 > they being defined by FOLDS-based universal properties. There is one
-> new element though. For dim(PI)\>=2 , the concept of PI-transfor
+> new element though. For $\dim(PI)\geqslant2$ , the concept of $PI$-transfor
 > involves a universal property which is an $\omega$-dimensional, FOLDS-style
 > generalization of the concept of right Kan-extension (right lifting in
 > the terminology used by Ross Street). This is a "right-adjoint" type
@@ -496,7 +466,7 @@ $\omega$-categories, preprint available at
 > in the concept of composite (which is a generalization of the usual
 > tensor product in modules).
 >
-> The main theorem, stated but not proved here, is that MltOmegaCat is a
+> The main theorem, stated but not proved here, is that $\mathsf{MltOmegaCat}$ is a
 > multitopic $\omega$-category.
 >
 > The material in this paper has been applied to give formulations of
@@ -505,30 +475,18 @@ $\omega$-categories, preprint available at
 >
 > References:
 >
-> \[B/D\] J. C. Baez and J. Dolan, Higher-dimensional algebra III.
-> $n$-categories and the algebra of opetopes. Advances in Mathematics 135
-> (1998), 145-206.
+> \[B/D\] J. C. Baez and J. Dolan, "Higher-dimensional algebra III. $n$-categories and the algebra of opetopes". _Advances in Mathematics_ **135** (1998), 145--206.
 >
-> \[Be\] J. Benabou, Introduction to bicategories. In: Lecture Notes in
-> Mathematics 47 (1967), 1-77 (Springer-Verlag).
+> \[Be\] J. Benabou, "Introduction to bicategories". In: _Lecture Notes in Mathematics_ **47** (1967), 1--77 (Springer-Verlag).
 >
-> \[Cr\] S. Crans, Localizations of transfors. Macquarie Mathematics
-> Reports no. 98/237.
+> \[Cr\] S. Crans, "Localizations of transfors". _Macquarie Mathematics Reports_ no. **98/237**.
 >
-> \[H/M/P\] C. Hermida, M. Makkai and J. Power, On weak higher
-> dimensional categories I. Accepted by: Journal of Pure and Applied
-> Algebra. Available electronically (when the machines work ...).
+> \[H/M/P\] C. Hermida, M. Makkai and J. Power, "On weak higher dimensional categories I". Accepted by: _Journal of Pure and Applied Algebra_. Available electronically (when the machines work ...).
 >
-> \[L\] J. Lambek, Deductive systems and categories II. Lecture Notes in
-> Mathematics 86 (1969), 76-122 (Springer-Verlag).
+> \[L\] J. Lambek, "Deductive systems and categories II". _Lecture Notes in Mathematics_ **86** (1969), 76--122 (Springer-Verlag).
 >
-> \[M2\] M. Makkai, Towards a categorical foundation of mathematics. In:
-> Logic Colloquium '95 (J. A. Makowski and E. V. Ravve, editors).
-> Lecture Notes in Logic 11 (1998) (Springer-Verlag).
+> \[M2\] M. Makkai, "Towards a categorical foundation of mathematics". In: _Logic Colloquium '95_ (J. A. Makowski and E. V. Ravve, editors). _Lecture Notes in Logic_ **11** (1998) (Springer-Verlag).
 >
-> \[M3\] M. Makkai, First Order Logic with Dependent Sorts. Research
-> monograph, accepted by Lecture Notes in Logic (Springer-Verlag). Under
-> revision. Original form available electronically (when the machines
-> work ...).
+> \[M3\] M. Makkai, "First Order Logic with Dependent Sorts". Research monograph, accepted by _Lecture Notes in Logic_ (Springer-Verlag). Under revision. Original form available electronically (when the machines work ...).
 
 ------------------------------------------------------------------------
