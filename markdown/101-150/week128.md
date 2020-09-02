@@ -3,8 +3,7 @@
 This week I'd like to catch you up on the latest developments in
 quantum gravity. First, a book that everyone can enjoy:
 
-1) John Archibald Wheeler and Kenneth Ford, Geons, Black Holes, and
-Quantum Foam: A Life in Physics, Norton, New York, 1998.
+1) John Archibald Wheeler and Kenneth Ford, _Geons, Black Holes, and Quantum Foam: A Life in Physics_, Norton, New York, 1998.
 
 This is John Wheeler's autobiography. If Wheeler's only contribution
 to physics was being Bohr's student and Feynman's thesis advisor, that
@@ -20,7 +19,7 @@ black holes, but he was one of the first people to take them seriously,
 and he invented the term "black hole". And the reason he is *my* hero
 is that he took seriously the challenge of reconciling general
 relativity and quantum theory. Moreover, he recognized how radical the
-ideas needed to accomplish this would be - for example, the idea that
+ideas needed to accomplish this would be --- for example, the idea that
 spacetime might not be truly be a continuum at short distance scales,
 but instead some sort of "quantum foam".
 
@@ -29,12 +28,12 @@ century should read this book! Here is the story of how he first met
 Feynman:
 
 > Dick Feynman, who had earned his bachelor's degree at MIT, showed up
-> at my office door as a brash and appealing twenty-one- year-old in the
+> at my office door as a brash and appealing twenty-one-year-old in the
 > fall of 1939 because, as a new student with a teaching assistantship,
 > he had been assigned to grade papers for me in my mechanics course. As
 > we sat down to talk about the course and his duties, I pulled out and
 > placed on the table between us a pocket watch. Inspired by my
-> father's keenness for time-and- motion studies, I was keeping track
+> father's keenness for time-and-motion studies, I was keeping track
 > of how much time I spent on teaching and teaching-related activities,
 > how much on research, and how much on departmental or university
 > chores. This meeting was in the category of teaching-related. Feynman
@@ -51,8 +50,7 @@ Feynman:
 
 Next for something a wee bit more technical:
 
-2) Steven Carlip, Quantum Gravity in 2+1 Dimensions, Cambridge
-University Press, 1998.
+2) Steven Carlip, _Quantum Gravity in 2+1 Dimensions_, Cambridge University Press, 1998.
 
 If you want to learn about quantum gravity in 2+1 dimensions this is the
 place to start, because Carlip is the world's expert on this subject,
@@ -63,7 +61,7 @@ can't add, but to emphasize that they are talking about 2 dimensions of
 space and 1 dimension of time.)
 
 Quantum gravity in 2+1 dimensions is just a warmup for what physicists
-are really interested in - quantum gravity in 3+1 dimensions. Going down
+are really interested in --- quantum gravity in 3+1 dimensions. Going down
 a dimension really simplifies things, because Einstein's equations in
 2+1 dimensions say that the energy and momentum flowing through a given
 point of spacetime completely determine the curvature there, unlike in
@@ -87,35 +85,20 @@ theory where we can work out everything in detail.
 Here's the table of contents of Carlip's book:
 
 > 1. Why (2+1)-dimensional gravity?
->
 > 2. Classical general relativity in 2+1 dimensions
->
 > 3. A field guide to the (2+1)-dimensional spacetimes
->
 > 4. Geometric structures and Chern-Simons theory
->
 > 5. Canonical quantization in reduced phase space
->
 > 6. The connection representation
->
 > 7. Operator algebras and loops
->
 > 8. The Wheeler-DeWitt equation
->
 > 9. Lorentzian path integrals
->
 > 10. Euclidean path integrals and quantum cosmology
->
 > 11. Lattice methods
->
 > 12. The (2+1)-dimensional black hole
->
 > 13. Next steps
->
 > A. Appendix: The topology of manifolds
->
 > B. Appendix: Lorentzian metrics and causal structure
->
 > C. Appendix: Differential geometry and fiber bundles
 
 And now for some stuff that's available online. First of all, anyone
@@ -123,24 +106,19 @@ who wants to keep up with research on gravity should remember to read
 "Matters of Gravity". I've talked about it before, but here's the
 latest edition:
 
-3) Jorge Pullin, editor, Matters of Gravity, vol. 12, available at
-[`gr-qc/9809031`](http://xxx.lanl.gov/abs/gr-qc/9809031) and at
-`http://vishnu.nirvana.phys.psu.edu/mog.html`
+3) Jorge Pullin, editor, _Matters of Gravity_, vol. 12, available at [`gr-qc/9809031`](http://xxx.lanl.gov/abs/gr-qc/9809031) and at `http://vishnu.nirvana.phys.psu.edu/mog.html`
 
 There's a lot of good stuff in here. Quantum gravity buffs will
 especially be interested in Gary Horowitz's article "A nonperturbative
 formulation of string theory?" and Lee Smolin's "Neohistorical
 approaches to quantum gravity". The curious title of Smolin's article
 refers to *new* work on quantum gravity involving a sum over *histories*
-- or in other words, spin foam models.
+--- or in other words, spin foam models.
 
 Even if you can't go to a physics talk, these days you can sometimes
 find it on the world-wide web. Here's one by John Barrett:
 
-4) John W. Barrett, State sum models for quantum gravity, Penn State
-relativity seminar, August 27, 1998, audio and text of transparencies
-available at
-`http://vishnu.nirvana.phys.psu.edu/online/Html/Seminars/Fall1998/Barrett/`
+4) John W. Barrett, "State sum models for quantum gravity", Penn State relativity seminar, August 27, 1998, audio and text of transparencies available at `http://vishnu.nirvana.phys.psu.edu/online/Html/Seminars/Fall1998/Barrett/`
 
 Barrett and Crane have a theory of quantum gravity, which I've also
 worked on; I discussed it last in ["Week 113"](#week113) and
@@ -148,7 +126,7 @@ worked on; I discussed it last in ["Week 113"](#week113) and
 experts that this theory deals with Riemannian rather than Lorentzian
 quantum gravity (though Barrett and Crane are working on a Lorentzian
 version, and I hear Friedel and Krasnov are also working on this). Also,
-it only deals with vacuum quantum gravity - empty spacetime, no matter.
+it only deals with vacuum quantum gravity --- empty spacetime, no matter.
 
 In this theory, spacetime is chopped up into 4-simplices. A 4-simplex is
 the 4-dimensional analog of a tetrahedron. To understand what I'm going
@@ -177,7 +155,7 @@ describe the geometry of spacetime by specifying the area of each
 triangle. But the geometry is "quantized", meaning that the area takes
 a discrete spectrum of possible values, given by
 $$\sqrt{j(j+1)}$$
-where the "spin" j is a number of the form 0, 1/2, 1, 3/2, etc. This
+where the "spin" $j$ is a number of the form $0, 1/2, 1, 3/2, \ldots$. This
 formula will be familiar to you if you've studied the quantum mechanics
 of angular momentum. And that's no coincidence! The cool thing about
 this theory of quantum gravity is that you can discover it just by
@@ -196,8 +174,8 @@ The meat of the theory is a formula for computing a complex number
 called an "amplitude" for any quantum 4-geometry. This number plays
 the usual role that amplitudes do in quantum theory. In quantum theory,
 if you want to compute the probability that the world starts in some
-state ψ and ends up in some state ψ', you just look at all the ways the
-world can get from ψ to ψ', compute an amplitude for each way, add them
+state $\psi$ and ends up in some state $\psi'$, you just look at all the ways the
+world can get from $\psi$ to $\psi'$, compute an amplitude for each way, add them
 all up, and take the square of the absolute value of the result. In the
 special case of quantum gravity, the states are quantum 3-geometries,
 and the ways to get from one state to another are quantum 4-geometries.
@@ -228,7 +206,7 @@ explained the formula for this "Regge action" in
 ["Week 120"](#week120).
 
 Now if everything were working perfectly, the amplitude for a 4-simplex
-in the Barrett-Crane model would be close to exp(iS), where S is the
+in the Barrett-Crane model would be close to $\exp(iS)$, where $S$ is the
 Regge action of that 4-simplex. This would mean that the Barrett-Crane
 model was really a lot like a path integral in quantum gravity. Of
 course, in the Barrett-Crane model all we know is the areas of the
@@ -238,26 +216,23 @@ generically, so this is no big deal.
 
 Recently, Barrett and Williams came up with a nice argument saying that
 in the limit where the triangles have large areas, the amplitude for a
-4-simplex in the Barrett-Crane theory is proportional, not to exp(iS),
-but to cos(S):
+4-simplex in the Barrett-Crane theory is proportional, not to $\exp(iS)$,
+but to $\cos(S)$:
 
-5) John W. Barrett and Ruth M. Williams, The asymptotics of an
-amplitude for the 4-simplex, preprint available as
-[`gr-qc/9809032`](http://xxx.lanl.gov/abs/gr-qc/9809032).
+5) John W. Barrett and Ruth M. Williams, "The asymptotics of an amplitude for the 4-simplex", preprint available as [`gr-qc/9809032`](http://xxx.lanl.gov/abs/gr-qc/9809032).
 
-This argument is not rigorous - it uses a stationary phase approximation
+This argument is not rigorous --- it uses a stationary phase approximation
 that requires further justification. But Regge and Ponzano used a
 similar argument to show the same sort of thing for quantum gravity in 3
 dimensions, and their argument was recently made rigorous by Justin
 Roberts, with a lot of help from Barrett:
 
-6) Justin Roberts, Classical 6j-symbols and the tetrahedron, preprint
-available as [math-ph/9812013](http://xxx.lanl.gov/abs/math-ph/9812013).
+6) Justin Roberts, "Classical $6j$-symbols and the tetrahedron", preprint available as [math-ph/9812013](http://xxx.lanl.gov/abs/math-ph/9812013).
 
 So one expects that with work, one can make Barrett and Williams'
 argument rigorous.
 
-But what does it mean? Why does he get cos(S) instead of exp(iS)? Well,
+But what does it mean? Why does he get $\cos(S)$ instead of $\exp(iS)$? Well,
 as I said, the same thing happens one dimension down in the so-called
 Ponzano-Regge model of 3-dimensional Riemannian quantum gravity, and
 people have been scratching their heads for decades trying to figure out
@@ -266,15 +241,13 @@ Barrett-Crane model.
 
 The problem is that if you describe 4-simplex using the areas of its
 triangles, you don't *completely* know its shape. (See, I lied to you
-before - that's why you gotta read the whole thing.) You only know it
+before --- that's why you gotta read the whole thing.) You only know it
 *up to reflection*. You can't tell the difference between a 4-simplex
 and its mirror-image twin using only the areas of its triangles! When
-one of these has Regge action S, the other has action -S. The Barrett-
+one of these has Regge action $S$, the other has action $-S$. The Barrett-
 Crane model, not knowing any better, simply averages over both of them,
 getting
-
-(1/2)(exp(iS) + exp(-iS)) = cos(S)
-
+$$\frac12(\exp(iS) + \exp(-iS)) = \cos(S)$$
 So it's not really all that bad; it's doing the best it can under the
 circumstances. Whether this is good enough remains to be seen.
 
@@ -290,7 +263,7 @@ sounds reasonable if you think about how the shape of a 4-simplex is
 almost determined by the areas of its triangles. But if you actually
 examine the derivation of the model, it starts looking more odd. What
 you really do is take the space of geometries of a *tetrahedron*
-embedded in R^4, and use a trick called geometric quantization to get
+embedded in $\mathbb{R}^4$, and use a trick called geometric quantization to get
 something called the "Hilbert space of a quantum tetrahedron in 4
 dimensions". You then build your 4-simplices out of these quantum
 tetrahedra.
@@ -309,18 +282,14 @@ tetrahedron than the ones Barrett and Crane found. But Barbieri came up
 with a nice argument suggesting that Barrett and Crane had really found
 all of them:
 
-7) Andrea Barbieri, Space of the vertices of relativistic spin
-networks, preprint available as
-[`gr-qc/9709076`](http://xxx.lanl.gov/abs/gr-qc/9709076).
+7) Andrea Barbieri, "Space of the vertices of relativistic spin networks", preprint available as [`gr-qc/9709076`](http://xxx.lanl.gov/abs/gr-qc/9709076).
 
 While convincing, this argument was not definitive, since it assumed
-something plausible but not yet proven - namely, that the "6j symbols
+something plausible but not yet proven --- namely, that the "$6j$ symbols
 don't have too many exceptional zeros". Later, Mike Reisenberger came
 up with a completely rigorous argument:
 
-8) Michael P. Reisenberger, On relativistic spin network vertices,
-preprint available as
-[`gr-qc/9809067`](http://xxx.lanl.gov/abs/gr-qc/9809067).
+8) Michael P. Reisenberger, "On relativistic spin network vertices", preprint available as [`gr-qc/9809067`](http://xxx.lanl.gov/abs/gr-qc/9809067).
 
 But while this settled the facts of the matter, it left open the
 question of "why" --- why does it take *6* numbers to describe the
@@ -348,18 +317,14 @@ know as much about its shape.
 
 Here are some other talks available on the web:
 
-9) Abhay Ashtekar, Chris Beetle and Steve Fairhurst, Mazatlan lectures
-on black holes, slides available at
-`http://vishnu.nirvana.phys.psu.edu/online/Html/Conferences/Mazatlan/`
+9) Abhay Ashtekar, Chris Beetle and Steve Fairhurst, "Mazatlan lectures on black holes", slides available at `http://vishnu.nirvana.phys.psu.edu/online/Html/Conferences/Mazatlan/`
 
 These explain a new concept of "nonrotating isolated horizon" which
 allow one to formulate and prove the zeroth and first laws of black hole
 mechanics in a way that only refers to the geometry of spacetime near
 the horizon. For more details try:
 
-10) Abhay Ashtekar, Chris Beetle and S. Fairhurst, Isolated horizons: a
-generalization of black hole mechanics, preprint available as
-[`gr-qc/9812065`](http://xxx.lanl.gov/abs/gr-qc/9812065).
+10) Abhay Ashtekar, Chris Beetle and S. Fairhurst, "Isolated horizons: a generalization of black hole mechanics", preprint available as [`gr-qc/9812065`](http://xxx.lanl.gov/abs/gr-qc/9812065).
 
 This concept also serves as the basis for a forthcoming 2-part paper
 where Ashtekar, Corichi, Krasnov and I compute the entropy of a quantum
@@ -368,13 +333,11 @@ black hole (see ["Week 112"](#week112) for more on this).
 Finally, here are a couple more papers. I don't have time to say much
 about them, but they're both pretty neat:
 
-11) Matthias Arnsdorf and R. S. Garcia, Existence of spinorial states
-in pure loop quantum gravity, preprint available as
-[`gr-qc/9812006`](http://xxx.lanl.gov/abs/gr-qc/9812006).
+11) Matthias Arnsdorf and R. S. Garcia, "Existence of spinorial states in pure loop quantum gravity", preprint available as [`gr-qc/9812006`](http://xxx.lanl.gov/abs/gr-qc/9812006).
 
 I'll just quote the abstract:
 
-We demonstrate the existence of spinorial states in a theory of
+> We demonstrate the existence of spinorial states in a theory of
 canonical quantum gravity without matter. This should be regarded as
 evidence towards the conjecture that bound states with particle
 properties appear in association with spatial regions of non-trivial
@@ -385,16 +348,14 @@ acts as a symmetry group on the phase space. This action induces a
 unitary representation on the loop state space of the Ashtekar
 formalism. Certain elements of the diffeomorphism group can be regarded
 as asymptotic rotations of space relative to its surroundings. We
-construct states that transform non-trivially under a 2 \pi rotation:
+construct states that transform non-trivially under a $2\pi$ rotation:
 gravitational quantum states with fractional spin.
 
-14) Steve Carlip, Black hole entropy from conformal field theory in any
-dimension, preprint available as
-[`hep-th/9812013`](http://xxx.lanl.gov/abs/hep-th/9812013).
+14) Steve Carlip, "Black hole entropy from conformal field theory in any dimension", preprint available as [`hep-th/9812013`](http://xxx.lanl.gov/abs/hep-th/9812013).
 
 Again, here's the abstract:
 
-When restricted to the horizon of a black hole, the 'gauge' algebra of
+> When restricted to the horizon of a black hole, the 'gauge' algebra of
 surface deformations in general relativity contains a physically
 important Virasoro subalgebra with a calculable central charge. The
 fields in any quantum theory of gravity must transform under this
@@ -419,9 +380,9 @@ here. Happy new year!
 > Recently, Barrett and Williams came up with a nice argument saying
 > that in the limit where the triangles have large areas, the amplitude
 > for a 4-simplex in the Barrett-Crane theory is proportional, not to
-> exp(iS), but to cos(S)....
+> $\exp(iS)$, but to $\cos(S)$....
 >
-> This argument is not rigorous - it uses a stationary phase
+> This argument is not rigorous --- it uses a stationary phase
 > approximation that requires further justification. But similar
 > argument to show the same sort of thing for quantum gravity in 3
 > dimensions, and their argument was recently made rigorous by Justin
@@ -432,7 +393,7 @@ here. Happy new year!
 
 In fact one can't make it rigorous: it's wrong! In the limit of large
 areas the amplitude for a 4-simplex in the Barrett-Crane model is wildly
-different from cos(S), or exp(iS), or anything like that. Dan
+different from $\cos(S)$, or $\exp(iS)$, or anything like that. Dan
 Christensen, Greg Egan and I showed this in a couple of papers that I
 discuss in ["Week 170"](#week170) and ["Week 198"](#week198).
 Our results were confirmed by John Barrett, Chris Steel, Laurent Friedel
