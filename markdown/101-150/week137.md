@@ -10,48 +10,57 @@ start with some things people discussed at the conference in Coimbra
 A braided monoidal category is simple algebraic gadget that captures a
 bit of the essence of 3-dimensionality in its rawest form. It has a
 bunch of "objects" which we can draw a labelled dots like this:
-
-                              x
-                              .   
-
+$$
+  \begin{tikzpicture}
+    \node[label=above:{$x$}] at (0,0) {$\bullet$};
+  \end{tikzpicture}
+$$
 So far this is just 0-dimensional. Next, given a bunch of objects we get
 a new object, their "tensor product", which we can draw by setting the
 dots side by side. So, for example, we can draw $x\otimes y$ like this:
-
-                            x  y
-                            .  .
-
+$$
+  \begin{tikzpicture}
+    \node[label=above:{$x$}] at (0,0) {$\bullet$};
+    \node[label=above:{$y$}] at (1,0) {$\bullet$};
+  \end{tikzpicture}
+$$
 This is 1-dimensional. But in addition we have, for any pair of objects
 $x$ and $y$, a bunch of "morphisms" $f\colon x\to y$. We can draw a morphism from
 a tensor product of objects to some other tensor product of objects as a
 picture like this:
-
-                           x  y  z
-                           |  |  |
-                           |  |  |
-                           |  |  |
-                           -------
-                          |   f   |
-                           -------
-                            |   |   
-                            |   |   
-                            |   |   
-                            u   v   
-
+$$
+  \begin{tikzpicture}
+    \node[label=above:{$x$}] at (0,0) {$\bullet$};
+    \node[label=above:{$y$}] at (1,0) {$\bullet$};
+    \node[label=above:{$z$}] at (2,0) {$\bullet$};
+    \draw[thick] (0,0) to (0,-1.5);
+    \draw[thick] (1,0) to (1,-1.5);
+    \draw[thick] (2,0) to (2,-1.5);
+    \draw[rounded corners] (-0.2,-1.5) rectangle ++(2.4,-1);
+    \node at (1,-2) {$f$};
+    \draw[thick] (0.5,-2.5) to (0.5,-4);
+    \draw[thick] (1.5,-2.5) to (1.5,-4);
+    \node[label=below:{$u$}] at (0.5,-4) {$\bullet$};
+    \node[label=below:{$v$}] at (1.5,-4) {$\bullet$};
+  \end{tikzpicture}
+$$
 This picture is 2-dimensional. In addition, we require that for any pair
 of objects $x$ and $y$ there is a "braiding", a special morphism from
 $x\otimes y$ to $y\otimes x$. We draw it like this:
-
-                            x     y
-                            |     |
-                             \   /
-                              \ /
-                               /
-                              / \
-                             /   \
-                            |     |
-                            y     x
-
+$$
+  \begin{tikzpicture}
+    \node[label=above:{$x$}] at (0,0) {$\bullet$};
+    \node[label=above:{$y$}] at (1,0) {$\bullet$};
+    \begin{knot}
+      \strand[thick] (1,0)
+        to [out=down,in=up] (0,-2);
+      \strand[thick] (0,0)
+        to [out=down,in=up] (1,-2);
+    \end{knot}
+    \node[label=below:{$y$}] at (0,-2) {$\bullet$};
+    \node[label=below:{$x$}] at (1,-2) {$\bullet$};
+  \end{tikzpicture}
+$$
 With this crossing of strands, the picture has become 3-dimensional!
 
 We also require that we can "compose" a morphism $f\colon x\to y$ and a
@@ -59,24 +68,30 @@ morphism $g\colon y\to z$ and get a morphism $fg\colon x\to z$. We draw this by 
 one picture on top of each other like this... I'll draw a fancy
 example where all the objects in question are themselves tensor products
 of other objects:
-
-                           x  y  z
-                           |  |  |
-                           |  |  |
-                           |  |  |
-                           -------
-                          |   f   |
-                           -------
-                            |   |
-                            |   |
-                            |   |  
-                           -------
-                          |   g   |
-                           -------
-                           | | | |  
-                           | | | |  
-                           | | | |  
-                           a b c d
+$$
+  \begin{tikzpicture}
+    \node[label=above:{$x$}] at (0,0) {$\bullet$};
+    \node[label=above:{$y$}] at (1,0) {$\bullet$};
+    \node[label=above:{$z$}] at (2,0) {$\bullet$};
+    \draw[thick] (0,0) to (0,-1);
+    \draw[thick] (1,0) to (1,-1);
+    \draw[thick] (2,0) to (2,-1);
+    \draw[rounded corners] (-0.2,-1) rectangle ++(2.4,-1);
+    \node at (1,-1.5) {$f$};
+    \draw[thick] (0.5,-2) to (0.5,-3);
+    \draw[thick] (1.5,-2) to (1.5,-3);
+    \draw[rounded corners] (-0.2,-3) rectangle ++(2.4,-1);
+    \node at (1,-3.5) {$g$};
+    \draw[thick] (0,-4) to (0,-5);
+    \draw[thick] (0.66,-4) to (0.66,-5);
+    \draw[thick] (1.33,-4) to (1.33,-5);
+    \draw[thick] (2,-4) to (2,-5);
+    \node[label=below:{$a$}] at (0,-5) {$\bullet$};
+    \node[label=below:{$b$}] at (0.66,-5) {$\bullet$};
+    \node[label=below:{$c$}] at (1.33,-5) {$\bullet$};
+    \node[label=below:{$d$}] at (2,-5) {$\bullet$};
+  \end{tikzpicture}
+$$
 
 Finally, we require that the tensor product, braiding and composition
 satisfy a bunch of axioms. I won't write these down because I already
@@ -89,17 +104,33 @@ and circuit diagrams and Feynman diagrams and all sorts of things like
 that --- and it's true, you can understand all these things very
 elegantly in terms of braided monoidal categories! Sometimes it's nice
 to throw in another rule:
-
-                      x     y                x     y
-                      |     |                |     |
-                       \   /                  \   /
-                        \ /                    \ /
-                         /          =           \
-                        / \                    / \
-                       /   \                  /   \
-                      |     |                |     |
-                      y     x                y     x
-
+$$
+  \begin{tikzpicture}
+    \node[label=above:{$x$}] at (0,0) {$\bullet$};
+    \node[label=above:{$y$}] at (1,0) {$\bullet$};
+    \begin{knot}
+      \strand[thick] (1,0)
+        to [out=down,in=up] (0,-2);
+      \strand[thick] (0,0)
+        to [out=down,in=up] (1,-2);
+    \end{knot}
+    \node[label=below:{$y$}] at (0,-2) {$\bullet$};
+    \node[label=below:{$x$}] at (1,-2) {$\bullet$};
+    \node at (2,-1) {$=$};
+    \begin{scope}[shift={(3,0)}]
+      \node[label=above:{$x$}] at (0,0) {$\bullet$};
+      \node[label=above:{$y$}] at (1,0) {$\bullet$};
+      \begin{knot}
+        \strand[thick] (0,0)
+          to [out=down,in=up] (1,-2);
+        \strand[thick] (1,0)
+          to [out=down,in=up] (0,-2);
+      \end{knot}
+      \node[label=below:{$y$}] at (0,-2) {$\bullet$};
+      \node[label=below:{$x$}] at (1,-2) {$\bullet$};
+    \end{scope}
+  \end{tikzpicture}
+$$
 where we cook up the second picture using the inverse of the braiding.
 This rule is good when you don't care about the difference between
 overcrossings and undercrossings. If this rule holds we say our braided
@@ -113,29 +144,35 @@ smoothly in 4-dimensional spacetime.
 But 3-dimensional spacetime is a bit different. For example, when we
 interchange two identical particles, it really makes a difference
 whether we do it like this:
-
-                      x     y               
-                      |     |         
-                       \   /         
-                        \ /         
-                         /         
-                        / \       
-                       /   \     
-                      |     |   
-                      y     x               
-
+$$
+  \begin{tikzpicture}
+    \node[label=above:{$x$}] at (0,0) {$\bullet$};
+    \node[label=above:{$y$}] at (1,0) {$\bullet$};
+    \begin{knot}
+      \strand[thick] (1,0)
+        to [out=down,in=up] (0,-2);
+      \strand[thick] (0,0)
+        to [out=down,in=up] (1,-2);
+    \end{knot}
+    \node[label=below:{$y$}] at (0,-2) {$\bullet$};
+    \node[label=below:{$x$}] at (1,-2) {$\bullet$};
+  \end{tikzpicture}
+$$
 or like this:
-
-                      x     y               
-                      |     |         
-                       \   /         
-                        \ /         
-                         \         
-                        / \       
-                       /   \     
-                      |     |   
-                      y     x               
-
+$$
+  \begin{tikzpicture}
+    \node[label=above:{$x$}] at (0,0) {$\bullet$};
+    \node[label=above:{$y$}] at (1,0) {$\bullet$};
+    \begin{knot}
+      \strand[thick] (0,0)
+        to [out=down,in=up] (1,-2);
+      \strand[thick] (1,0)
+        to [out=down,in=up] (0,-2);
+    \end{knot}
+    \node[label=below:{$y$}] at (0,-2) {$\bullet$};
+    \node[label=below:{$x$}] at (1,-2) {$\bullet$};
+  \end{tikzpicture}
+$$
 Thus in 3d spacetime, besides bosons and fermions, we have other sorts
 of particles that act differently when we interchange them --- sometimes
 people call them "anyons", and sometimes people talk about "exotic
@@ -179,17 +216,33 @@ following very elegant one.
 
 Let's define the "center" of a braided monoidal category to be the
 category consisting of all objects $x$ such that
-
-                      x     y                x     y
-                      |     |                |     |
-                       \   /                  \   /
-                        \ /                    \ /
-                         /          =           \
-                        / \                    / \
-                       /   \                  /   \
-                      |     |                |     |
-                      y     x                y     x
-
+$$
+  \begin{tikzpicture}
+    \node[label=above:{$x$}] at (0,0) {$\bullet$};
+    \node[label=above:{$y$}] at (1,0) {$\bullet$};
+    \begin{knot}
+      \strand[thick] (1,0)
+        to [out=down,in=up] (0,-2);
+      \strand[thick] (0,0)
+        to [out=down,in=up] (1,-2);
+    \end{knot}
+    \node[label=below:{$y$}] at (0,-2) {$\bullet$};
+    \node[label=below:{$x$}] at (1,-2) {$\bullet$};
+    \node at (2,-1) {$=$};
+    \begin{scope}[shift={(3,0)}]
+      \node[label=above:{$x$}] at (0,0) {$\bullet$};
+      \node[label=above:{$y$}] at (1,0) {$\bullet$};
+      \begin{knot}
+        \strand[thick] (0,0)
+          to [out=down,in=up] (1,-2);
+        \strand[thick] (1,0)
+          to [out=down,in=up] (0,-2);
+      \end{knot}
+      \node[label=below:{$y$}] at (0,-2) {$\bullet$};
+      \node[label=below:{$x$}] at (1,-2) {$\bullet$};
+    \end{scope}
+  \end{tikzpicture}
+$$
 for all $y$, and all morphisms between such objects. The center of a
 braided monoidal category is obviously a symmetric monoidal category.
 The term "center" is supposed to remind you of the usual center of a
