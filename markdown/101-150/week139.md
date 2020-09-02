@@ -9,7 +9,7 @@ A while ago, Phillip Helbig, one of the two moderators of
 `sci.physics.research` who do astrophysics, drew my attention to an
 interesting paper:
 
-1) Vipul Periwal, "Cosmological and astrophysical tests of quantum gravity", preprint available at [astro-ph/9906253](http://xxx.lanl.gov/abs/astro-ph/9906253)
+1) Vipul Periwal, "Cosmological and astrophysical tests of quantum gravity", preprint available at [`astro-ph/9906253`](http://xxx.lanl.gov/abs/astro-ph/9906253)
 
 The basic idea behind this is that quantum gravity effects could cause
 deviations from Newton's inverse square law at large distance scales,

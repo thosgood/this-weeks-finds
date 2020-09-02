@@ -41,15 +41,11 @@ Of course, it's fun to think about such ideas and difficult to get
 anywhere with them. But tonight when I was nosing around the web, I
 found out that someone has already developed and published this idea:
 
-1) Max Tegmark, Is the "theory of everything" merely the ultimate
-ensemble theory?, Ann. Phys. 270 (1998), 1-51, preprint available as
-[`gr-qc/9704009`](http://xxx.lanl.gov/abs/gr-qc/9704009).
+1) Max Tegmark, 'Is the "theory of everything" merely the ultimate ensemble theory?', _Ann. Phys._ **270** (1998), 1--51, preprint available as [`gr-qc/9704009`](http://xxx.lanl.gov/abs/gr-qc/9704009).
 
-Max Tegmark, Which mathematical structure is isomorphic to the
-universe?, `http://www.hep.upenn.edu/~max/toe.html`
+    Max Tegmark, "Which mathematical structure is isomorphic to the universe?", `http://www.hep.upenn.edu/~max/toe.html`
 
-3) Marcus Chown, Anything goes, New Scientist 158 (1998) 26-30, also
-available at `http://www.hep.upenn.edu/~max/toe_press.html`
+3) Marcus Chown, "Anything goes", _New Scientist_ **158** (1998) 26--30, also available at `http://www.hep.upenn.edu/~max/toe_press.html`
 
 As far as I can tell, most of the time Max Tegmark is a perfectly
 respectable physicist at the University of Pennsylvania; he works on the
@@ -66,47 +62,38 @@ more energy on the physically realistic Lorentzian case. Of course, if
 the metric is fixed you can often use a trick called "Wick rotation"
 to turn results about quantum field theory on Riemannian spacetime into
 results for Lorentzian spacetime. But it's never been clear that this
-works when the geometry of spacetime is a variable - and quantized, for
+works when the geometry of spacetime is a variable --- and quantized, for
 that matter. So we need both more work on Wick rotation in this context
 and also work that goes straight for the jugular: the Lorentzian
 context.
 
 Here are some of their papers:
 
-4) J. Ambjorn, J. Correia, C. Kristjansen, and R. Loll, On the relation
-between Euclidean and Lorentzian 2d quantum gravity, preprint avilable
-as [`hep-th/9912267`](http://xxx.lanl.gov/abs/hep-th/9912267).
+4) J. Ambjorn, J. Correia, C. Kristjansen, and R. Loll, "On the relation between Euclidean and Lorentzian 2d quantum gravity", preprint avilable as [`hep-th/9912267`](http://xxx.lanl.gov/abs/hep-th/9912267).
 
-J. Ambjorn, J. Jurkiewicz and R. Loll, Lorentzian and Euclidean quantum
-gravity - analytical and numerical results, preprint available as
-[`hep-th/0001124`](http://xxx.lanl.gov/abs/hep-th/0001124).
+    J. Ambjorn, J. Jurkiewicz and R. Loll, "Lorentzian and Euclidean quantum gravity --- analytical and numerical results", preprint available as [`hep-th/0001124`](http://xxx.lanl.gov/abs/hep-th/0001124).
 
-J. Ambjorn, J. Jurkiewicz and R. Loll, A non-perturbative Lorentzian
-path integral for gravity, preprint avilable as
-[`hep-th/0002050`](http://xxx.lanl.gov/abs/hep-th/0002050).
+    J. Ambjorn, J. Jurkiewicz and R. Loll, "A non-perturbative Lorentzian path integral for gravity", preprint avilable as [`hep-th/0002050`](http://xxx.lanl.gov/abs/hep-th/0002050).
 
 The last paper is especially interesting to me, since it tackles the
 problem of defining a path integral for 3+1-dimensional Lorentzian
 quantum gravity. They describe a path integral where you first slice
 spacetime like a salami using surfaces of constant time, and then pack
-each slice with simplices having edges with specified lengths - the
+each slice with simplices having edges with specified lengths --- the
 edges being spacelike within each surface, and timelike when they go
 from one surface to the next. They allow the number of simplices in each
 slice to be variable. Actually they focus on the 2+1-dimensional case,
 but they say the 3+1-dimensional case works similarly, and I actually
-trust them enough to believe them about this - especially since nothing
+trust them enough to believe them about this --- especially since nothing
 they do relies on the fact that 2+1-dimensional gravity lacks local
 degrees of freedom. They can Wick-rotate this picture and get a time
 evolution operator that's self-adjoint and positive, just like you'd
-expect of an operator of the form exp(-tH).
+expect of an operator of the form $\exp(-tH)$.
 
 Speaking of Wick rotations in quantum gravity, here's another paper to
 think about:
 
-5) Abhay Ashtekar, Donald Marolf, Jose Mourao and Thomas Thiemann,
-Osterwalder-Schrader reconstruction and diffeomorphism invariance,
-preprint available as
-[quant-ph/9904094](http://xxx.lanl.gov/abs/quant-ph/9904094).
+5) Abhay Ashtekar, Donald Marolf, Jose Mourao and Thomas Thiemann, "Osterwalder-Schrader reconstruction and diffeomorphism invariance", preprint available as [`quant-ph/9904094`](http://xxx.lanl.gov/abs/quant-ph/9904094).
 
 The Osterwalder-Shrader theorem is the result people use when they want
 to *rigorously* justify Wick rotations. Here these authors generalize it
@@ -122,12 +109,9 @@ with the detailed paper. In the meantime, Ashtekar has written a couple
 of pedagogical accounts explaining the basic idea. I mentioned one he
 wrote with Krasnov in ["Week 120"](#week120), and here's another:
 
-6) Abhay Ashtekar, Interface of general relativity, quantum physics and
-statistical mechanics: some recent developments, to appear in Annalen
-der Physik, preprint available as
-[`gr-qc/9910101`](http://xxx.lanl.gov/abs/gr-qc/9910101).
+6) Abhay Ashtekar, "Interface of general relativity, quantum physics and statistical mechanics: some recent developments", to appear in _Annalen der Physik_, preprint available as [`gr-qc/9910101`](http://xxx.lanl.gov/abs/gr-qc/9910101).
 
-Let me just quote the abstract - I can't bear to talk about this any
+Let me just quote the abstract --- I can't bear to talk about this any
 more until the actual paper is finished:
 
 > The arena normally used in black holes thermodynamics was recently
@@ -147,26 +131,19 @@ more until the actual paper is finished:
 > briefly summarized.
 
 There have also been a number of papers working out the details of the
-classical notion of "isolated horizon" - I've mentioned some already,
+classical notion of "isolated horizon" --- I've mentioned some already,
 but let me just list them all here:
 
-7) Abhay Ashtekar, Alejandro Corichi, and Kirill Krasnov, Isolated
-horizons: the classical phase space, preprint available as
-[`gr-qc/9905089`](http://xxx.lanl.gov/abs/gr-qc/9905089).
+7) Abhay Ashtekar, Alejandro Corichi, and Kirill Krasnov, "Isolated horizons: the classical phase space", preprint available as [`gr-qc/9905089`](http://xxx.lanl.gov/abs/gr-qc/9905089).
 
-Abhay Ashtekar, Christopher Beetle, and Stephen Fairhurst, Mechanics of
-isolated horizons, Class. Quant. Grav. 17 (2000) 253-298, preprint
-available as [`gr-qc/9907068`](http://xxx.lanl.gov/abs/gr-qc/9907068).
+    Abhay Ashtekar, Christopher Beetle, and Stephen Fairhurst, "Mechanics of isolated horizons", _Class. Quant. Grav._ **17** (2000) 253--298, preprint available as [`gr-qc/9907068`](http://xxx.lanl.gov/abs/gr-qc/9907068).
 
-Abhay Ashtekar and Alejandro Corichi, Laws governing isolated horizons:
-inclusion of dilaton couplings, preprint available as
-[`gr-qc/9910068`](http://xxx.lanl.gov/abs/gr-qc/9910068).
+    Abhay Ashtekar and Alejandro Corichi, "Laws governing isolated horizons: inclusion of dilaton couplings", preprint available as [`gr-qc/9910068`](http://xxx.lanl.gov/abs/gr-qc/9910068).
 
-Jerzy Lewandowski, Space-times admitting isolated horizons, preprint
-available as [`gr-qc/9907058`](http://xxx.lanl.gov/abs/gr-qc/9907058).
+    Jerzy Lewandowski, "Space-times admitting isolated horizons", preprint available as [`gr-qc/9907058`](http://xxx.lanl.gov/abs/gr-qc/9907058).
 
 Lewandowski's paper is important because it gets serious about studying
-rotating isolated horizons - this makes me feel a lot more optimistic
+rotating isolated horizons --- this makes me feel a lot more optimistic
 that we'll eventually be able to extend the entropy calculation to
 rotating black holes (so far it's just done for the nonrotating case).
 
@@ -176,9 +153,7 @@ forward the general picture of spin foams as Feynman diagrams,
 generalizing the old work of Boulatov and Ooguri, and the newer work of
 De Pietri et al. Again, I'll just quote the abstracts....
 
-8) Michael Reisenberger and Carlo Rovelli, Spin foams as Feynman
-diagrams, preprint available as
-[`gr-qc/0002083`](http://xxx.lanl.gov/abs/gr-qc/0002083).
+8) Michael Reisenberger and Carlo Rovelli, "Spin foams as Feynman diagrams", preprint available as [`gr-qc/0002083`](http://xxx.lanl.gov/abs/gr-qc/0002083).
 
 > It has been recently shown that a certain non-topological spin foam
 > model can be obtained from the Feynman expansion of a field theory
@@ -193,9 +168,7 @@ diagrams, preprint available as
 > extended to a sum over triangulations. More precisely, it is extended
 > to a sum over 2-complexes.
 
-9) Michael Reisenberger and Carlo Rovelli, Spacetime as a Feynman
-diagram: the connection formulation, preprint available as
-[`gr-qc/0002095`](http://xxx.lanl.gov/abs/gr-qc/0002095).
+9) Michael Reisenberger and Carlo Rovelli, "Spacetime as a Feynman diagram: the connection formulation", preprint available as [`gr-qc/0002095`](http://xxx.lanl.gov/abs/gr-qc/0002095).
 
 > Spin foam models are the path integral counterparts to loop quantized
 > canonical theories. In the last few years several spin foam models of
@@ -226,44 +199,34 @@ I'm completely biased, but I think this is the way to go in quantum
 gravity... we need to think more about the Lorentzian side of things,
 like Barrett and Crane have been doing, but these spin foam models are
 so darn simple and elegant I can't help but think there's something
-right about them - especially when you see the sum over triangulations
+right about them --- especially when you see the sum over triangulations
 pop out automatically from the Feynman diagram expansion of the relevant
 path integral.
 
 There's also been some good work on the relation between canonical
 quantum gravity and Vassiliev invariants. The idea is to use this class
 of knot invariants as a basis for a Hilbert space of diffeomorphism-
-invariant states - a tempting alternative to the Hilbert space having
+invariant states --- a tempting alternative to the Hilbert space having
 spin networks as a basis. Maybe everything will start making sense when
 we see how these two choices fit together. But anyway, these papers
 tackle the crucial issue of the Hamiltonian constraint using this
 Vassiliev approach, and get results startlingly similar to those
 obtained by Thiemann using the spin network approach:
 
-10) Cayetano Di Bartolo, Rodolfo Gambini, Jorge Griego, and Jorge
-Pullin, Consistent canonical quantization of general relativity in the
-space of Vassiliev invariants, preprint available as
-[`gr-qc/9909063`](http://xxx.lanl.gov/abs/gr-qc/9909063).
+10) Cayetano Di Bartolo, Rodolfo Gambini, Jorge Griego, and Jorge Pullin, "Consistent canonical quantization of general relativity in the space of Vassiliev invariants", preprint available as [`gr-qc/9909063`](http://xxx.lanl.gov/abs/gr-qc/9909063).
 
-Canonical quantum gravity in the Vassiliev invariants arena: I.
-Kinematical structure, preprint available as
-[`gr-qc/9911009`](http://xxx.lanl.gov/abs/gr-qc/9911009).
+    "Canonical quantum gravity in the Vassiliev invariants arena: I. Kinematical structure", preprint available as [`gr-qc/9911009`](http://xxx.lanl.gov/abs/gr-qc/9911009).
 
-Canonical quantum gravity in the Vassiliev invariants arena: II.
-Constraints, habitats and consistency of the constraint algebra,
-preprint available as
-[`gr-qc/9911010`](http://xxx.lanl.gov/abs/gr-qc/9911010).
+    "Canonical quantum gravity in the Vassiliev invariants arena: II. Constraints, habitats and consistency of the constraint algebra", preprint available as [`gr-qc/9911010`](http://xxx.lanl.gov/abs/gr-qc/9911010).
 
 Finally, Martin Bojowald has written a couple of papers applying the
 loop approach to quantum cosmology. The idea is to apply loop
-quantization to a "minisuperspace" - a phase space describing only
+quantization to a "minisuperspace" --- a phase space describing only
 those solutions of general relativity that have a certain large symmetry
 group.
 
-11) Martin Bojowald, Loop Quantum Cosmology I: Kinematics, preprint
-available as [`gr-qc/9910103`](http://xxx.lanl.gov/abs/gr-qc/9910103).
+11) Martin Bojowald, "Loop Quantum Cosmology I: Kinematics", preprint available as [`gr-qc/9910103`](http://xxx.lanl.gov/abs/gr-qc/9910103).
 
-Martin Bojowald, Loop Quantum Cosmology II: Volume Operators,
-[`gr-qc/9910104`](http://xxx.lanl.gov/abs/gr-qc/9910104).
+    Martin Bojowald, "Loop Quantum Cosmology II: Volume Operators", [`gr-qc/9910104`](http://xxx.lanl.gov/abs/gr-qc/9910104).
 
 ------------------------------------------------------------------------

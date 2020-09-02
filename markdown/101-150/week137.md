@@ -199,7 +199,7 @@ almost precisely what's needed to construct topological quantum field
 theories in 3 dimensions! It's a great illustration of the power of
 category theory. It's almost like getting something for nothing! But
 I'll resist the temptation to tell you the details, since
-[week99](week99.html) explains a bunch of it, and the rest is in here:
+["Week 99"](#week99) explains a bunch of it, and the rest is in here:
 
 2) John Baez, "Higher-dimensional algebra II: 2-Hilbert spaces", _Adv. Math._ **127** (1997), 125--189. Also available as [`q-alg/9609018`](http://xxx.lanl.gov/abs/q-alg/9609018).
 

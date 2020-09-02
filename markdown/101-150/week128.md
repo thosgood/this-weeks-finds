@@ -227,7 +227,7 @@ similar argument to show the same sort of thing for quantum gravity in 3
 dimensions, and their argument was recently made rigorous by Justin
 Roberts, with a lot of help from Barrett:
 
-6) Justin Roberts, "Classical $6j$-symbols and the tetrahedron", preprint available as [math-ph/9812013](http://xxx.lanl.gov/abs/math-ph/9812013).
+6) Justin Roberts, "Classical $6j$-symbols and the tetrahedron", preprint available as [`math-ph/9812013`](http://xxx.lanl.gov/abs/math-ph/9812013).
 
 So one expects that with work, one can make Barrett and Williams'
 argument rigorous.

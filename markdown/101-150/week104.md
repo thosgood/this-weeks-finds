@@ -390,8 +390,8 @@ and he writes:
 > $\gamma_i$ are the $\mathrm{SO}(8)$ Dirac matrices ($i=1,...,9$). But they are
 > intimately related to the octonions. Remember there is triality in
 > $\mathrm{SO}(8)$ which means that we can treat left-handed spinors, right-handed
-> spinors and vectors on an equal basis (see [week61](week61.html),
-> [week90](week90.html), [week91](week91.html)). Now I write out all
+> spinors and vectors on an equal basis (see ["Week 61"](#week61),
+> ["Week 90"](#week90), ["Week 91"](#week91)). Now I write out all
 > three indices of $\gamma_i$. Because of triality I can use $i$,$j$,$k$ for spinor,
 > dotted spinor and vector indices. Then it is known that
 > $$

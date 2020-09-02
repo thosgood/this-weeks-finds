@@ -101,7 +101,7 @@ which seem to power quasars and other active galactic nuclei --- but it's
 delightful to find them in such large numbers. It might even be taken as
 evidence for Smolin's hypothesis that the universe is optimized for
 black hole production thanks to a process of Darwinian evolution (see
-["Week 31"](#week31) and "[week33](week33.html) for details.)
+["Week 31"](#week31) and ["Week 33"](#week33) for details.)
 
 For more, try this:
 

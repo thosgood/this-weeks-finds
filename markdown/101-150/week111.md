@@ -182,7 +182,7 @@ The emphasis is not on most recent developments but on a hopefully
 pedagogical presentation."
 
 Here's one on glueballs (for more on glueballs, see
-"[week68](week68.html))":
+["Week 68"](#week68)):
 
 9) Gregory Gabadadze, "Modeling the glueball spectrum by a closed bosonic membrane", 43 pages, preprint available as [`hep-ph/9710402`](http://xxx.lanl.gov/abs/hep-ph/9710402).
 

@@ -400,7 +400,7 @@ the integers and natural numbers.
 Whew! There is more to say, but I'll just mention a few related papers
 and then quit. If you're interested in $n$-categories you could also
 check out "the tale of $n$-categories", starting in
-[week73](week73.html).
+["Week 73"](#week73).
 
 6) _Representation theory of Hopf categories_, Martin Neuchl, Ph.D. dissertation, Department of Mathematics, University of Munich, 1997. Available at `http://math.ucr.edu/home/baez/neuchl.ps`
 
