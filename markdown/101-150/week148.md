@@ -381,9 +381,9 @@ gravitational E field. When a spin network edge punctures the horizon
 2-sphere, it contributes *area* to the 2-sphere: a spin-j edge
 contributes an area equal to
 
-8 \pi γ \sqrt{j(j+1)}
+8 \pi \gamma \sqrt{j(j+1)}
 
-for some constant γ.
+for some constant \gamma.
 
 But due to the boundary conditions relating the E field to the curvature
 of the connection W, each spin network edge also contributes *curvature*
@@ -401,12 +401,12 @@ where k is the same constant appearing in the formula for the Chern-
 Simons symplectic structure.
 
 I guess now it's time to explain these mysterious constants! First of
-all, γ is an undetermined dimensionless constant, usually called the
+all, \gamma is an undetermined dimensionless constant, usually called the
 "Immirzi parameter" because it was first discovered by Fernando
 Barbero. This parameter sets the scale at which area is quantized! Of
 course, the formula for the area contributed by a spin-j edge:
 
-8 \pi γ \sqrt{j(j+1)}
+8 \pi \gamma \sqrt{j(j+1)}
 
 also has a factor of the Planck area lurking in it, which you can't see
 because I've set c, G, and ħ to 1. That's not surprising. What's
@@ -417,7 +417,7 @@ first principles.
 Secondly, the number k, called the "level" in Chern-Simons theory, is
 given by
 
-k = A / 4 \pi γ
+k = A / 4 \pi \gamma
 
 Okay, that's all for my quick description of what we get when we
 quantize the phase space for an isolated black hole. I didn't explain
@@ -443,18 +443,18 @@ pick the numbers m as possible, we should concentrate on states where
 most of the spins j labelling punctures equal 1/2. If *all* these spins
 equal 1/2, each puncture contributes an area
 
-8 \pi γ \sqrt{j(j+1)} = 4 \pi γ √3
+8 \pi \gamma \sqrt{j(j+1)} = 4 \pi \gamma √3
 
 to the horizon 2-sphere. Since the total area is close to A, this means
-that there are about A/(4 \pi γ √3) punctures. Then for each puncture we
+that there are about A/(4 \pi \gamma √3) punctures. Then for each puncture we
 can pick m = -1/2 or m = 1/2. This gives
 
-N = 2 ^A/4\ \pi\ γ\ √3^
+N = 2 ^A/4\ \pi\ \gamma\ √3^
 
 ways to choose the m values. If this were *exactly* right, the entropy
 of the black hole would be
 
-S = ln N = (ln 2 /4 \pi γ √3) A
+S = ln N = (ln 2 /4 \pi \gamma √3) A
 
 Believe it or not, this crude estimate asymptotically approaches the
 correct answer as A approaches infinity. In other words, when the black
@@ -472,7 +472,7 @@ because there is an undetermined parameter in our formula - the
 Barbero-Immirzi parameter. That's bad. However, our answer will match
 the Bekenstein-Hawking formula if we take
 
-γ = ln 2 / \pi √3
+\gamma = ln 2 / \pi √3
 
 If we do this, we no longer have that annoying undetermined constant
 floating around in loop quantum gravity. In fact, we can say that we've
@@ -488,11 +488,11 @@ dominate the count of the microstates.
 Of course, one might object to this procedure on the following grounds:
 "You've been ignoring matter thus far. What if you include, say,
 electromagnetic fields in the game? This will change the calculation,
-and now you'll probably need a different value of γ to match the
+and now you'll probably need a different value of \gamma to match the
 Bekenstein-Hawking result!"
 
 However, this is not true: we can redo the calculation including
-electromagnetism, and the same γ works. That's sort of nice.
+electromagnetism, and the same \gamma works. That's sort of nice.
 
 There are a lot of interesting comparisons between our way of computing
 black hole entropy and the ways its done in string theory, and a lot of

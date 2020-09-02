@@ -15,8 +15,8 @@ Anyway....
 
 In ["Week 73"](#week73), I mentioned a theory about why molecules
 important in biology tend to come in a consistent chirality, or
-handedness. For example, there's lots of dextrose in nature - this
-being the right-handed form of the sugar sucrose - but not much of its
+handedness. For example, there's lots of dextrose in nature --- this
+being the right-handed form of the sugar sucrose --- but not much of its
 left-handed counterpart, levulose. It's no surprise that *one or the
 other* would dominate, but you might guess that *which one* was just an
 accident of history. After all, there's no fundamental difference
@@ -25,14 +25,13 @@ between right and left, right?
 Or is there? Actually there is: the weak nuclear force distinguishes
 between the two! So some people theorized that very slight differences
 in energy levels, due to the weak force, favor the formation of
-left-handed amino acids and right-handed sugars - which is what we see
+left-handed amino acids and right-handed sugars --- which is what we see
 in nature.
 
 Recently people have found evidence for a somewhat different version of
 this theory:
 
-1) Robert F. Service, Does life's handedness come from within?,
-Science 286 (November 12, 1999), 1282-1283.
+1) Robert F. Service, "Does life's handedness come from within?", _Science_ **286** (November 12, 1999), 1282--1283.
 
 When radioactive atoms decay via the weak force, the electrons they
 shoot off tend to have a left-handed spin. Could this affect the
@@ -45,21 +44,18 @@ handedness of the crystals! Blasting the stuff with right-handed
 positrons favored formation of crystals of the opposite handedness. The
 strangest part was that the effect was even bigger than expected.
 
-I still think the whole business is pretty iffy - after all, the flux of
+I still think the whole business is pretty iffy --- after all, the flux of
 radiation in this experiment was a lot bigger than what we normally see
 on earth. But it would sure be neat if the origin of chirality in
 biology was related to the deeper mystery of chirality in particle
 physics.
 
-Okay, now for a little retrospective. Don't worry - I won't list the
+Okay, now for a little retrospective. Don't worry --- I won't list the
 top ten developments in mathematical physics of the last millennium!
 Instead, I just want to recommend two papers. First, an old paper by
 Poincare:
 
-2) Henri Poincare, The present and future of mathematical physics,
-Bull. Amer. Math. Soc. 12 (1906), 240-260. Reprinted as part of a
-retrospective issue of the Bull. of the Amer. Math. Soc., 37 (2000),
-25-38, available at `http://www.ams.org/bull/`
+2) Henri Poincare, "The present and future of mathematical physics", _Bull. Amer. Math. Soc._ **12** (1906), 240--260. Reprinted as part of a retrospective issue of the _Bull. of the Amer. Math. Soc_., **37** (2000), 25--38, available at `http://www.ams.org/bull/`
 
 This article is based on a speech he gave in 1904. After a fascinating
 review of the development of mathematical physics, he makes some
@@ -98,10 +94,7 @@ Einstein and Weyl.
 
 The second paper I recommend is a new one by Rovelli:
 
-3) Carlo Rovelli, The century of the incomplete revolution: searching
-for general relativistic quantum field theory, to appear in the Journal
-of Mathematical Physics 2000 Special Issue, preprint available as
-[`hep-th/9910131`](http://xxx.lanl.gov/abs/hep-th/9910131).
+3) Carlo Rovelli, "The century of the incomplete revolution: searching for general relativistic quantum field theory", to appear in the _Journal of Mathematical Physics_ 2000 Special Issue, preprint available as [`hep-th/9910131`](http://xxx.lanl.gov/abs/hep-th/9910131).
 
 Let me just quote the abstract:
 
@@ -130,8 +123,8 @@ so I'll concentrate on work that lies on this interface.
 
 In ["Week 80"](#week80) I talked about how Gravity Probe B will try
 to detect an effect of general relativity called "frame-dragging"
-caused by the earth's rotation. I also talked about how LIGO - the
-Laser Interferometric Gravitational Wave Observatory - will try to
+caused by the earth's rotation. I also talked about how LIGO --- the
+Laser Interferometric Gravitational Wave Observatory --- will try to
 detect gravitational waves:
 
 4) LIGO homepage, `http://www.ligo.caltech.edu/`
@@ -142,17 +135,17 @@ taking data sometime around 2002, it should be able to detect the final
 "chirp" of gravitational radiation produced a pair of inspiralling
 neutron stars in the Virgo Cluster, a cluster of galaxies about 15
 megaparsecs away. Such an event would distort the spacetime metric
-*here* by only about 1 part in 10^{21}. This is why LIGO needs to
+*here* by only about $1$ part in $10^{21}$. This is why LIGO needs to
 compare oscillations in the lengths of two arms of an interferometer,
-each 4 kilometers long, with an accuracy of 10^{-16} centimeters: about
+each $4$ kilometers long, with an accuracy of $10^{-16}$ centimeters: about
 one hundred-millionth of the diameter of a hydrogen atom. To do this
 will require some *very* clever tricks to reduce noise.
 
 As the experiment continues, they intend to improve the sensitivity
-until it can detect distortions in the metric of only 1 part in
-10^{22}, and second-generation detectors should get to 1 part in
-10^{23}. At that point, we should be able to detect neutron star
-"chirps" from a distance of 200 megaparsecs. Events of this sort
+until it can detect distortions in the metric of only $1$ part in
+$10^{22}$, and second-generation detectors should get to $1$ part in
+$10^{23}$. At that point, we should be able to detect neutron star
+"chirps" from a distance of $200$ megaparsecs. Events of this sort
 should happen once or twice a year.
 
 Since it's crucial to rule out spurious signals, LIGO will have two
@@ -201,10 +194,10 @@ NASA's homepage on the LISA project: `http://lisa.jpl.nasa.gov/`
 
 The idea is to orbit 3 satellites in an equilateral triangle with sides
 5 million kilometers long, and constantly measure the distance between
-them to an accuracy of a tenth of an angstrom - 10^{-11} meters - using
+them to an accuracy of a tenth of an angstrom --- $10^{-11}$ meters --- using
 laser interferometry. (A modified version of the plan would use 6
 satellites.) The big distances would make it possible to detect
-gravitational waves with frequencies of .0001 to .1 hertz, much lower
+gravitational waves with frequencies of 0.0001 to 0.1 hertz, much lower
 than the frequencies for which the ground-based detectors are optimized.
 The plan involves a really cool technical trick to keep the satellites
 from being pushed around by solar wind and the like: each satellite will
@@ -215,7 +208,7 @@ and thrusters will push the satellite back on course.
 I don't think LISA has been funded yet, but if all goes well, it may
 fly within 10 years or so. Eventually, a project called LISA 2 might be
 sensitive enough to detect gravitational waves left over from the early
-universe - the gravitational analogue of the cosmic microwave background
+universe --- the gravitational analogue of the cosmic microwave background
 radiation!
 
 The microwave background radiation tells us about the universe when it
@@ -224,7 +217,7 @@ enough for most of the hydrogen to stop being ionized, making it
 transparent to electromagnetic radiation. In physics jargon, that's
 when electromagnetic radiation "decoupled". But the gravitational
 background radiation would tell us about the universe when it was
-roughly 10^{-38} seconds old, since that's when gravitational
+roughly $10^{-38}$ seconds old, since that's when gravitational
 radiation decoupled. This figure could be way off due to physics we
 don't understand yet, but anyway, we're talking about a window into
 the *really* early universe.
@@ -238,8 +231,7 @@ background radiation. Now people are going to redo this with much more
 precision: while COBE had an angular resolution of 7 degrees, Planck
 will have a resolution of 4 arcminutes. They hope to launch it in 2007:
 
-10) Planck homepage,
-`http://astro.estec.esa.nl/SA-general/Projects/Planck/planck.html`
+10) Planck homepage, `http://astro.estec.esa.nl/SA-general/Projects/Planck/planck.html`
 
 What else is coming up? Well, gravity people should be happy about the
 new satellite-based X-ray telescopes, since these should be great for
@@ -247,7 +239,7 @@ looking at black holes. In July 1999, NASA launched one called
 "Chandra". (This is the nickname of Subrahmanyan Chandrasekhar, who
 won the Nobel prize in 1983 for his work on stellar evolution, neutron
 stars, black holes, and closed-form solutions of general relativity.)
-The first pictures from Chandra are already coming out - check out this
+The first pictures from Chandra are already coming out --- check out this
 website:
 
 11) Chandra homepage, `http://chandra.harvard.edu/`
@@ -258,19 +250,18 @@ Mission":
 12) XMM homepage, `http://sci.esa.int/xmm/`
 
 This is a set of three X-ray telescopes that will have lower angular
-resolution than Chandra, but 5-15 times more sensitivity. It'll also be
+resolution than Chandra, but 5--15 times more sensitivity. It'll also be
 able to study X-ray spectra, thanks to a diffraction grating that
 spreads the X-rays out by wavelength. And in January, the Japanese plan
 to launch Astro-E, designed to look at shorter wavelength X-rays:
 
-13) MIT's Astro-E homepage,
-`http://acis.mit.edu/syseng/astroe/xis_home.html`
+13) MIT's Astro-E homepage, `http://acis.mit.edu/syseng/astroe/xis_home.html`
 
 Taken together, this new generation of X-ray telescopes should tell us a
 lot about the dynamics of the rapidly changing accretion disks of black
 holes, where infalling gas and dust spirals in and heats up to the point
 of emitting X-rays. They may also help us better understand the X-ray
-afterglow of γ ray bursters. As you probably have heard, these rascals
+afterglow of \gamma ray bursters. As you probably have heard, these rascals
 make ordinary supernovae look like wet firecrackers! Some folks think
 they're caused when a supernova creates a black hole. But nobody is
 sure.
@@ -282,7 +273,7 @@ projects people are dreaming up to study physics using astronomy:
 2060-2062.
 
 In 2005 folks plan to launch GLAST, the Gamma-Ray Large Area Space
-Telescope, designed to study γ-ray bursters and the like, and also the
+Telescope, designed to study $\gamma$-ray bursters and the like, and also the
 Alpha Magnetic Spectrometer, designed to search for antimatter in space.
 But there are also a bunch of interesting projects that are still
 basically just a twinkle in someone's eye....
@@ -291,14 +282,14 @@ For example: OWL, the Orbiting Wide-Angle Light Collector, a pair of
 satellites that would trace the paths of super-high-energy cosmic rays
 through the earth's atmosphere. As I explained in
 ["Week 81"](#week81), people have seen cosmic rays with
-ridiculously high energies, like 320 Eev - the energy of a 1-kilogram
+ridiculously high energies, like 320 Eev --- the energy of a 1-kilogram
 rock moving at 10 meters per second, all packed into one particle. OWL
 would orbit the earth, watch these things, and figure out where the heck
 they're coming from.
 
 Or how about this: The Dark Matter Telescope! This would use
 gravitational lensing to chart the "dark matter" which seems to
-account for a good percentage of the mass in the universe - if, of
+account for a good percentage of the mass in the universe --- if, of
 course, dark matter really exists.
 
 15) Dark Matter Telescope homepage, `http://dmtelescope.org`

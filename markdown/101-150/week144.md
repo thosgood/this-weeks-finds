@@ -13,7 +13,7 @@ parochial! Events outside our solar system can also affect us. For
 example, a nearby supernova could be a real bummer. It wouldn't be the
 first time: it seems that about 340,000 years ago there was one only 180
 lightyears away. At this distance it would have been as bright as a full
-moon, and its X-rays and γ rays would have stripped off the Earth's
+moon, and its X-rays and \gamma rays would have stripped off the Earth's
 ozone layer pretty badly for a while. A closer one could be a lot worse.
 
 How we do know about this supernova? It's an interesting story. We
