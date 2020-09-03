@@ -1,0 +1,179 @@
+week171
+
+There isn\'t a Nobel prize for mathematics. You\'ve probably heard why:
+Alfred Nobel was annoyed that the famous mathematician Mittag-Leffler
+had an affair with his wife. Well, that\'s what they say, anyway. It
+makes a great story. The only problem is, Nobel was never married! So
+it\'s just another urban legend. For more details, see:
+
+1\) Urban legends reference pages, The Prize\'s Rite,
+<http://www.snopes2.com/science/nobel.htm>
+
+More likely, Nobel just didn\'t consider mathematics sufficiently
+practical. In any event, mathematicians have always felt a bit grumpy
+about this slight. Their adoption of the Fields Medal as a kind of
+substitute has never been completely satisfying. For one thing, the
+Fields Medal is only for work done before the age of 40 - a condition
+that seems ever more silly with the wisdom of age. For another, the
+Fields prize gives you a measly 15,000 Canadian dollars, while the Nobel
+prize keeps going up: this year, it was 10 million Swedish crowns, or
+almost a million bucks.
+
+Anyway, now there may be a better substitute: the Abel Prize.
+
+Norway Establishes Abel Prize in Mathematics,
+<http://www.maa.org/news/abel_prize.html>
+
+It even almost rhymes with Nobel! Abel, of course, was a famous
+Norwegian mathematician, and this prize will be awarded annually by the
+government of Norway, starting in 2003. It will have a value of about
+\$500,000, at least initially. Even better, it will be awarded on a
+first-come, first-serve basis\... so send in your application now.
+
+When I was in Cambridge this summer, I visited Tom Leinster and Eugenia
+Cheng, who showed me around the new mathematics buildings. The Cambridge
+system is too Byzantine for a mere American to understand, but there are
+two main things resembling a \"mathematics department\": DPMSS, the
+Department of Pure Mathematics and Mathematical Statistics, and DAMTP,
+the Department of Applied Mathematics and Theoretical Physics. They used
+to be in separate dilapidated buildings downtown on Silver Street, but
+now they occupy two towers in a huge complex near the Newton Institute,
+on the outskirts of town.
+
+The new setup is pretty cool. Parts of it are still under construction,
+but you can get the idea already. Different breeds of mathematicians
+will be housed in different towers, all surrounding a central building
+resembling an airplane hanger, which is actually an enormous cafeteria.
+The univeral human interest in food will lure otherwise aloof
+specialists to mingle and chat. I even saw Hawking there one day.
+However, there is also a separate coffee lounge at the base of each
+tower, so the different groups can have slightly more private chats.
+Futuristic light sensors lower curtains in the cafeteria whenver the sun
+comes out, to enhance the visitor\'s impression that it\'s always cloudy
+in England. But the really cool thing is that every tower has a door on
+the second floor which opens out to the *roof* of the cafeteria. The
+roof is covered with grass, like a little park! Finally, people working
+on fluid dynamics are kept in the basement, which gurgles mysteriously
+with the sound of experiments.
+
+Leinster and Cheng are both students of Martin Hyland, and they both
+work on n-categories. I\'ve talked about their work before in
+\"[week165](week165.html)\". Leinster has just come out with a nice
+paper on n-categories:
+
+1\) Tom Leinster, A survey of definitions of n-category, available at
+[math.CT/0107188](http://xxx.lanl.gov/abs/math.CT/0107188).
+
+By now, there are lots of definitions of \"weak n-category\", and our
+job is to understand how they\'re related. This paper is required
+reading for anyone interested in this business: it goes through 10
+different definitions, giving each definition in two pages and then
+using two more pages to show how it works for n less than or equal to 2.
+It also has a nice annotated bibliography giving some of the history of
+the subject.
+
+While I\'m talking about review articles, here are some review articles
+on quantum gravity:
+
+2\) Steve Carlip, Quantum gravity: a progress report, Rep. Prog. Phys.
+64 (2001) 885-942, also available at
+[gr-qc/0108040](http://xxx.lanl.gov/abs/gr-qc/0108040).
+
+This is an excellent *long* description of where we stand on quantum
+gravity, with a strong focus on the big conceptual problems. Again,
+it\'s required reading for anyone in this field. It doesn\'t do justice
+to string theory, which is a mammoth subject in its own. For that, you
+might try this article which I bumped into in the same journal:
+
+3\) Ulf Daniellson, Introduction to string theory, Rep. Prog. Phys. 64
+(2001) 51-96.
+
+It seems to do a pretty good job of the impossible - explaining all of
+string theory in less than 50 pages. Of course, if you want to get
+serious, you\'ll eventually have to read some of the string theory
+textbooks listed in \"[week124](week124.html)\" and elsewhere.
+
+There is also a new introduction to loop quantum gravity available
+online. It\'s more of a book than an article:
+
+4\) Thomas Thiemann, Introduction to modern canonical quantum general
+relativity, 301 pages, available at
+[gr-qc/0110034](http://xxx.lanl.gov/abs/gr-qc/0110034).
+
+This is really *the* place to go if you want to catch up on the last 15
+years of work on loop quantum gravity. It\'s truly impressive. It\'ll
+make fairly substantial demands on the average physicist\'s mathematical
+know-how: for example, not just differential geometry, which everyone
+into gravity must know, but also functional analysis. Luckily, it has an
+appendix over 40 pages long which explains much of the needed math. For
+the would-be grad student or postdoc, a very helpful feature is the list
+of institutions where loop quantum gravity is studied, in the
+Introduction.
+
+Speaking of loop quantum gravity, here are a few interesting new papers
+on that subject:
+
+5\) Rodolfo Gambini and Jorge Pullin, Consistent discretizations for
+classical and quantum general relativity, available as
+[gr-qc/0108062](http://xxx.lanl.gov/abs/gr-qc/0108062).
+
+6\) Luca Bombelli, Statistical geometry of random weave states,
+available as [gr-qc/0101080](http://xxx.lanl.gov/abs/gr-qc/0101080).
+
+7\) Michael Seifert, Angle and volume studies in quantized space, 85
+pages, available as
+[gr-qc/0108047](http://xxx.lanl.gov/abs/gr-qc/0108047).
+
+The paper by Gambini and Pullin argues that good spin foam models will
+come from quantizing \"consistent\" discretizations of general
+relativity, that is, those where the discretized equations of motion
+preserve the constraints on initial data, and where the solutions
+converge to solutions of the continuum equations in the limit where the
+discretization is made ever more fine.
+
+The paper by Bombelli presents a proposal for states of loop quantum
+gravity that should be good approximations to classical geometries. The
+idea is to take a Riemannian manifold, sprinkle points on it randomly
+form the corresponding Voronoi diagram, and label the edges with spins
+in a certain way to get a spin network. If we then average over all
+possible ways of randomly sprinkling these points, we get Bombelli\'s
+\"random weave state\" - a kinematical state of quantum gravity that
+approximates of the Riemannian geometry we started with.
+
+I don\'t know if that made sense to you. Do you at least know what a
+Voronoi diagram is? To explain that, a picture is worth a thousand
+words, so I won\'t explain the concept - I\'ll just urge you to play
+with this applet:
+
+9\) Paul Chew, Voronoi/Delaunay Applet,
+<http://www.cs.cornell.edu/Info/People/chew/Delaunay.html>
+
+If you click the mouse to sprinkle the rectangle with points, you\'ll
+see a bunch of edges appear, which intersect in vertices, forming a
+graph called the Voronoi diagram. By epxerimenting a bit you can figure
+out how it works - or else you can cheat and read the text. You\'ll see
+that generically the vertices of this graph are trivalent: they have
+three edges coming out of them. If you click on the button that says
+\"Delaunay Triangulation\", you\'ll see the dual graph, which
+generically consists of a bunch of triangles. Each edge of these
+triangles intersects exactly one edge of the Voronoi diagram.
+
+In the theory of quantum gravity where space is just 2-dimensional (a
+toy model), we can take the Voronoi diagram and label its edges by spins
+j = 0, 1/2, 1, \... which match, as well as possible, the lengths of the
+edge of the Delaunay triangulation which it intersects. This will give
+us a spin network. Averaging over all ways of sprinking the points, we
+then get Bombelli\'s \"random weave state\". The same sort of idea works
+in higher dimensions, too.
+
+Finally, Michael Seifert\'s paper is an excellent undergraduate thesis
+on loop quantum gravity, done with the help of Seth Major. After a nice
+review of the basics, it studies some operators that act on the Hilbert
+space of states of a single spin network vertex: in particular, the
+volume operator and some less familiar operators that measure the angles
+between spin network edges. He proves some nice things about these, and
+also gets some interesting numerical results - which someone should make
+into theorems. The relation between 3d geometry and the representation
+theory of SU(2) still has unexplored wrinkles!
+
+------------------------------------------------------------------------
