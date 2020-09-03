@@ -261,7 +261,7 @@ Taken together, this new generation of X-ray telescopes should tell us a
 lot about the dynamics of the rapidly changing accretion disks of black
 holes, where infalling gas and dust spirals in and heats up to the point
 of emitting X-rays. They may also help us better understand the X-ray
-afterglow of \gamma ray bursters. As you probably have heard, these rascals
+afterglow of $\gamma$-ray bursters. As you probably have heard, these rascals
 make ordinary supernovae look like wet firecrackers! Some folks think
 they're caused when a supernova creates a black hole. But nobody is
 sure.

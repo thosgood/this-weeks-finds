@@ -270,12 +270,11 @@ But as I already said, we have
 $$h^*(\mathbb{CP}^\infty) = R[[c]]$$
 and similarly we have
 $$h^*(\mathbb{CP}^\infty \times \mathbb{CP}^\infty) = R[[c]] \otimes R[[c]]$$
-where the product "\otimes" on the right side is a slightly fattened-up
+where the product "$\otimes$" on the right side is a slightly fattened-up
 version of the usual tensor product of algebras over $R$. So we really
 have homomorphisms
 $$m^*\colon R[[c]]\to R[[c]] \otimes R[[c]]$$
 $$i^*\colon R[[c]]\to R[[c]]$$
-
 which satisfy all the usual axioms for the product and inverse in an
 abelian group --- but turned around backwards.
 

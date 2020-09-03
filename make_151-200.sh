@@ -1,7 +1,7 @@
 #!/bin/bash
 
-MDS="./markdown/101-150/*.md"
-TEX="./latex/TWF_101-150.tex"
+MDS="./markdown/151-200/*.md"
+TEX="./latex/TWF_151-200.tex"
 
 printf '%s\n' '\documentclass{article}' > $TEX
 
@@ -53,15 +53,13 @@ printf '%s\n' '\renewcommand*{\multicolumntoc}{2}' >> $TEX
 printf '%s\n' '\setlength{\columnseprule}{0.5pt}' >> $TEX
 
 printf "\n" >> $TEX
-printf '%s\n' "\title{This Week's Finds in Mathematical Physics (101--150)}" >> $TEX
+printf '%s\n' "\title{This Week's Finds in Mathematical Physics (151--200)}" >> $TEX
 printf '%s\n' '\author{John Baez}' >> $TEX
-printf '%s\n' '\date{April 9, 1997 to June 18, 2000}' >> $TEX
+printf '%s\n' '\date{June 26, 2000 to December 31, 2003}' >> $TEX
 
 printf "\n" >> $TEX
 printf '%s\n' '\usepackage{tikz}' >> $TEX
 printf '%s\n' '\usetikzlibrary{knots}' >> $TEX
-printf '%s\n' '\usetikzlibrary{arrows}' >> $TEX
-printf '%s\n' '\usetikzlibrary{decorations.pathmorphing}' >> $TEX
 
 printf "\n" >> $TEX
 printf '%s\n' '\usepackage{tikz-cd}' >> $TEX
@@ -70,7 +68,7 @@ printf "\n" >> $TEX
 printf '%s\n' '\usepackage{graphicx}' >> $TEX
 
 printf "\n" >> $TEX
-printf '%s\n' '\setcounter{section}{100}' >> $TEX
+printf '%s\n' '\setcounter{section}{150}' >> $TEX
 
 printf "\n" >> $TEX
 printf '%s\n' '\begin{document}' >> $TEX
@@ -80,8 +78,8 @@ printf '%s\n' '\begin{titlepage}' >> $TEX
 printf '%s\n' '  \begin{center}' >> $TEX
 printf '%s\n' "    {\Huge\textbf{This Week's Finds in}}" >> $TEX
 printf '%s\n' '  \\[0.7em]{\Huge\textbf{Mathematical Physics}}' >> $TEX
-printf '%s\n' '  \\[1em]{\huge\textit{Weeks 101 to 150}}' >> $TEX
-printf '%s\n' '  \\[4em]{\LARGE \textit{April 9, 1997} to \textit{June 18, 2000}}' >> $TEX
+printf '%s\n' '  \\[1em]{\huge\textit{Weeks 151 to 200}}' >> $TEX
+printf '%s\n' '  \\[4em]{\LARGE \textit{June 26, 2000} to \textit{December 31, 2003}}' >> $TEX
 printf '%s\n' '  \\[4em]{\huge by John Baez}' >> $TEX
 printf '%s\n' '  \\[0.5em]{\Large{Typeset by Tim Hosgood}}' >> $TEX
 printf '%s\n' '  \end{center}' >> $TEX

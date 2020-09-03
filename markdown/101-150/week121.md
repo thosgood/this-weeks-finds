@@ -109,7 +109,7 @@ For example, a monoid is a set with a product satisfying the associative
 law and a unit element satisfying the left and right unit laws. The
 categorified version of a monoid is a "monoidal category". This is a
 category $\mathcal{C}$ with a product
-$$\otimes\colons\mathcal{C}\times\mathcal{C}\to \mathcal{C}$$
+$$\otimes\colon\mathcal{C}\times\mathcal{C}\to \mathcal{C}$$
 and unit object $1$. If we naively impose associativity and the left and
 right unit laws as equational laws, we obtain the definition of a
 "strict" monoidal category. However, the philosophy of

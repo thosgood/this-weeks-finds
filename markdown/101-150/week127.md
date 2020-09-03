@@ -143,7 +143,7 @@ manifold, since one of its eigenvalues is zero. But we have already
 agreed to throw out the zero eigenvalue, so let's do that when defining
 $\zeta(s)$ as a sum over eigenvalues. Then it turns out that the sum converges
 when the real part of $s$ is positive and large. Even better, there's a
-theorem saying that $Ζ(s)$ can be analytically continued to $s = 0$. Thus we
+theorem saying that $\zeta(s)$ can be analytically continued to $s = 0$. Thus we
 can use the following trick to define the determinant of the Laplacian.
 
 Suppose that $A$ is a self-adjoint matrix with positive eigenvalues. Then

@@ -51,7 +51,7 @@ sitting slantwise inside $\mathrm{SU}(2)\times\mathrm{U}(1)$; the basic formula 
 here is:
 $$Q = I_3 + Y/2$$
 where $Q$ is ordinary electric charge, $I_3$ is the 3rd component of "weak
-isospin", i.e. the generator of \mathrm{SU}(2) corresponding to the matrix
+isospin", i.e. the generator of $\mathrm{SU}(2)$ corresponding to the matrix
 $$
   \left(
     \begin{array}{cc}
@@ -179,8 +179,8 @@ $$
       0 & \bar{\mathrm{u}}_L & \bar{\mathrm{u}}_L & \mathrm{u}_L & \mathrm{d}_L
     \\-\bar{\mathrm{u}_L} & 0 & \bar{\mathrm{u}_L} & \mathrm{u}_L & \mathrm{d}_L
     \\-\bar{\mathrm{u}_L} & -\bar{\mathrm{u}_L} & 0 & \mathrm{u}_L & \mathrm{d}_L
-    \\-\mathrm{u}_L & -\mathrm{u}_L & -\mathrm{u}_L & 0 & \mathr{e}^+_L
-    \\-\mathrm{d}_L & -\mathrm{u}_L & -\mathrm{d}_L & \mathr{e}^+_L & 0
+    \\-\mathrm{u}_L & -\mathrm{u}_L & -\mathrm{u}_L & 0 & \mathrm{e}^+_L
+    \\-\mathrm{d}_L & -\mathrm{u}_L & -\mathrm{d}_L & \mathrm{e}^+_L & 0
     \end{array}
   \right)
   \qquad\qquad
@@ -228,7 +228,7 @@ vector spaces --- the $\mathrm{SO}(n)$ groups, also called the $\mathrm{B}$ and 
 is an infinite series of them associated to rotations in complex vector
 spaces --- the $\mathrm{SU}(n)$ groups, also called the $\mathrm{A}$ series. And there is
 infintie series of them associated to rotations in quaternionic vector
-spaces --- the \mathrm{Sp}(n) groups, also called the $\mathrm{C}$ series. And there is a
+spaces --- the $\mathrm{Sp}(n)$ groups, also called the $\mathrm{C}$ series. And there is a
 ragged band of 5 exceptions which are related to the octonions, called
 $mathrm{G}_2$, $\mathrm{F}_4$, $\mathrm{E}_6$, $\mathrm{E}_7$, and $\mathrm{E}_8$. I'm sort of fascinated by these --- see
 ["Week 90"](#week90), ["Week 91"](#week91), and

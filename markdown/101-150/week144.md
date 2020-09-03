@@ -405,7 +405,7 @@ Next, let's solve this equation for $T$. It's just a quadratic equation,
 so any high school student can solve it:
 $$T = \frac{1-\sqrt{1-4x}}{2}.$$
 Now if we do a Taylor expansion we get
-$$T = x + x^2 + 2x^3 + 5x^4 + 14x^5^ + 42x^6^ + \ldots$$
+$$T = x + x^2 + 2x^3 + 5x^4 + 14x^5 + 42x^6 + \ldots$$
 Lo and behold --- the Catalan numbers! If we're a bit smarter and use the
 binomial theorem and mess around a bit, we get a closed-form formula for
 the Catalan numbers:

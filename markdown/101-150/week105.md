@@ -336,7 +336,7 @@ $$\pi_n(G) = \pi_{n+1}(BG).$$
 This space $BG$ is called the classifying space of $G$ because it has a
 principal $G$-bundle over it, and given *any* decent topological space $X$
 (say a CW complex) you can get all principal $G$-bundles over $X$ (up to
-isomorphism) by taking a map $f\colon X\toBG$ and pulling back this principal
+isomorphism) by taking a map $f\colon X\to BG$ and pulling back this principal
 $G$-bundle over $BG$. Moreover, homotopic maps to $BG$ give isomorphic
 $G$-bundles over $X$ this way.
 

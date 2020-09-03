@@ -253,22 +253,16 @@ consider guys in $\mathrm{U}(1)$ that are sixth roots of unity.
 To see what's going on, we make a little table using the information
 I've described:
 
-
-             ACTION OF            ACTION OF             ACTION OF
-            exp(\pi i / 3)            -1               exp(2 \pi i / 3)
-           IN \mathrm{U}(1)   IN \mathrm{SU}(2)     IN \mathrm{SU}(3)
-
-    e_L         -1                  -1                     1
-    ν_L        -1                  -1                     1
-    u_L     exp(\pi i / 3)           -1               exp(2 \pi i / 3)
-    d_L     exp(\pi i / 3)           -1               exp(2 \pi i / 3)
-
-    e_R          1                   1                     1
-    u_R     exp(4 \pi i / 3)          1               exp(2 \pi i / 3)
-    d_R     exp(4 \pi i / 3)          1               exp(2 \pi i / 3)
-
-
-     H          -1                  -1                     1
+|      | Action of $\exp(\pi i/3)$ in $\mathrm{U}(1)$ | Action of $-1$ in $\mathrm{SU}(2)$ | Action of $\exp(2\pi i/3)$ in $\mathrm{SU}(3)$ |
+| :--- | :-----------------------------------------: | :-------------------------------: | :----------------------------------------------: |
+| $\mathrm{e}_L$ | $-1$ | $-1$ | $1$ |
+| $\nu_L$ | $-1$ | $-1$ | $1$ |
+| $\mathrm{u}_L$ | $\exp(\pi i/3)$ | $-1$ | $\exp(2\pi i/3)$ |
+| $\mathrm{d}_L$ | $\exp(\pi i/3)$ | $-1$ | $\exp(2\pi i/3)$ |
+| $\mathrm{e}_R$ | $1$ | $1$ | $1$ |
+| $\mathrm{u}_R$ | $\exp(4\pi i/3)$ | $1$ | $\exp(2\pi i/3)$ |
+| $\mathrm{d}_R$ | $\exp(4\pi i/3)$ | $1$ | $\exp(2\pi i/3)$ |
+| H | $-1$ | $-1$ | $1$ |
 
 And we look for patterns!
 
