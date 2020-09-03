@@ -329,15 +329,15 @@ Let me briefly explain this $k\mathrm{O}$ business. The space $k\mathrm{O}$ is r
 simpler space called $\mathcal{B}\mathrm{O}(\infty)$ by means of the equation
 $$k\mathrm{O} = \mathcal{B}\mathrm{O}(\infty)\times\mathbb{Z},$$
 so let me first describe $\mathcal{B}\mathrm{O}(\infty)$. For any topological group $G$ you can cook
-up a space $\mathcal{B}G$ whose loop space is homotopy equivalent to $G$. In other
-words, the space of (base-point-preserving) maps from $S^1$ to $\mathcal{B}G$ is
+up a space $BG$ whose loop space is homotopy equivalent to $G$. In other
+words, the space of (base-point-preserving) maps from $S^1$ to $BG$ is
 homotopy equivalent to $G$. It follows that
-$$\pi_n(G) = \pi_{n+1}(\mathcal{B}G).$$
-This space $\mathcal{B}G$ is called the classifying space of $G$ because it has a
+$$\pi_n(G) = \pi_{n+1}(BG).$$
+This space $BG$ is called the classifying space of $G$ because it has a
 principal $G$-bundle over it, and given *any* decent topological space $X$
 (say a CW complex) you can get all principal $G$-bundles over $X$ (up to
-isomorphism) by taking a map $f\colon X\to\mathcal{B}G$ and pulling back this principal
-$G$-bundle over $\mathcal{B}G$. Moreover, homotopic maps to $\mathcal{B}G$ give isomorphic
+isomorphism) by taking a map $f\colon X\toBG$ and pulling back this principal
+$G$-bundle over $BG$. Moreover, homotopic maps to $BG$ give isomorphic
 $G$-bundles over $X$ this way.
 
 Now a principal $\mathrm{O}(n)$-bundle is basically the same thing as an

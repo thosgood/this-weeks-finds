@@ -587,13 +587,13 @@ $M(g,n)$ be the moduli space of Riemann surfaces with genus $g$ and $n$
 punctures, and let $G(g,n)$ be the corresponding mapping class group.
 Since $M(g,n)$ is the quotient of Teichmueller space by $G(g,n)$ and
 Teichmueller space is contractible, we have
-$$M(g,n) = \mathcal{B}G(g,n)$$
+$$M(g,n) = BG(g,n)$$
 where "$\mathcal{B}$" means "classifying space". There's a natural inclusion
 $$G(g,n)\hookrightarrow G(g+1,n)$$
 defined by sewing an torus with two punctures onto your genus-$g$ surface
 with $n$ punctures, which increases the genus by 1. Let's define $G(\infty,n)$
 to be direct limit as $g\to\infty$, and let
-$$M(\infty,n) = \mathcal{B}G(\infty,n).$$
+$$M(\infty,n) = BG(\infty,n).$$
 Now it turns out $M(\infty,1)$ has a kind of product on it. The reason is that
 there are products
 $$M(g,1)\times M(h,1)\to M(g+h,1)$$

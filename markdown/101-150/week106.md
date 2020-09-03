@@ -438,10 +438,10 @@ But, a deeper way to think about this emerged in conversations I've had
 with James Dolan. Stasheff invented a notion of "$A_\infty$ space", which is
 a pointed topological space with a product that is associative up to
 homotopy which satisfies the pentagon identity up to... etc. Any $A_\infty$
-space $G$ has a classifying space $\mathcal{B}G$ such that
-$$\Omega(\mathcal{B}G) \simeq G.$$
-In other words, $\mathcal{B}G$ is a pointed space such that the space of loops based
-at this point is homotopy equivalent to $G$. One can form this space $\mathcal{B}G$ by
+space $G$ has a classifying space $BG$ such that
+$$\Omega(BG) \simeq G.$$
+In other words, $BG$ is a pointed space such that the space of loops based
+at this point is homotopy equivalent to $G$. One can form this space $BG$ by
 the Milnor construction: sticking in one 0-simplex, one 1-simplex for
 every point of $G$, one 2-simplex for every triple $(g,h,k)$ with $gh = k$,
 one 3-simplex for every associator, and so on. If we do this where $G$ is
