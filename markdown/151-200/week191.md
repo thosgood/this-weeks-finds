@@ -308,10 +308,10 @@ I said that a structure type is "any sort of structure you can put on
 finite sets", but let me make that more precise. A structure type is
 really a functor
 
-F\colon  \mathsf{Fin\mathsf{Set}}~0~ \to  \mathsf{Set}
+F\colon  \mathsf{FinSet}~0~ \to  \mathsf{Set}
 
-where \mathsf{Fin\mathsf{Set}}~0~ is the groupoid of finite sets and bijections, and \mathsf{Set}
-is the category of sets and functions. \mathsf{Fin\mathsf{Set}}~0~ is equivalent to the
+where \mathsf{FinSet}~0~ is the groupoid of finite sets and bijections, and \mathsf{Set}
+is the category of sets and functions. \mathsf{FinSet}~0~ is equivalent to the
 category that has one object, "the $n$-element set", for each n, with
 the morphisms from this object to itself forming the permutation group
 S_n. So, we can also think of a structure type as consisting of a set
@@ -323,7 +323,7 @@ We also have morphisms between structure types, which are just natural
 transformations between functors of the above sort. So, the category of
 structure types is the functor category
 
-\operatorname{Hom}(\mathsf{Fin\mathsf{Set}}~0~, \mathsf{Set})
+\operatorname{Hom}(\mathsf{FinSet}~0~, \mathsf{Set})
 
 To understand why this category acts like the ring of formal power
 series in one variable, it's crucial to understand the analogy between
@@ -342,7 +342,7 @@ get a feel for this may be a big chart, which starts like this:
     no generators: N                no generators: \mathsf{Set}
 
     the free commutative rig on     the free symmetric 2-rig on
-    one generator: N[x]             on generator: \mathsf{Set}[[x]] = \operatorname{Hom}(\mathsf{Fin\mathsf{Set}}0, \mathsf{Set}) 
+    one generator: N[x]             on generator: \mathsf{Set}[[x]] = \operatorname{Hom}(\mathsf{FinSet}0, \mathsf{Set}) 
 
 I'll assume you understand the first three lines of the chart, e.g.
 that just as a monoid is a set equipped with an associative
@@ -379,7 +379,7 @@ category \mathsf{Set}.
 
 (If we prefer an analogy between natural numbers and *finite* sets, we
 should say "finite colimits" instead of colimits in the definition of
-2-rig: then \mathsf{Fin\mathsf{Set}} will be the free 2-rig on no generators.)
+2-rig: then \mathsf{FinSet} will be the free 2-rig on no generators.)
 
 Now, what's the free commutative rig on *one* generator?
 

@@ -513,12 +513,12 @@ Categories 15 (Proceedings of CT2004), 164-177. Available at
 makes that sad fact seem good! Namely:
 
 ::: {align="center"}
-Cospan(\mathsf{Fin\mathsf{Set}}) IS THE\
+Cospan(\mathsf{FinSet}) IS THE\
 FREE SYMMETRIC MONOIDAL CATEGORY\
 ON A COMMUTATIVE SPECIAL FROBENIUS ALGEBRA.
 :::
 
-Here Cospan(\mathsf{Fin\mathsf{Set}}) is the category of "cospans" of finite sets. The
+Here Cospan(\mathsf{FinSet}) is the category of "cospans" of finite sets. The
 objects are finite sets, and a morphism from X to Y looks like this:
 
                       X         Y
@@ -710,7 +710,7 @@ So, the category with:
 -   commutative special complex Frobenius algebras as objects;
 -   algebra homomorphisms as morphisms
 
-is equivalent to \mathsf{Fin\mathsf{Set}}^op^. This means we can find the category of
+is equivalent to \mathsf{FinSet}^op^. This means we can find the category of
 finite sets - or at least its opposite, which is just as good - lurking
 inside the world of Frobenius algebras!
 
@@ -753,8 +753,8 @@ So, the category with:
 -   commutative special complex Frobenius algebras as objects;
 -   Frobenius homomorphisms as morphisms
 
-is equivalent to the *groupoid* of finite sets. We get \mathsf{Fin\mathsf{Set}}^op^ if we
-take algebra homomorphisms, and I guess we get \mathsf{Fin\mathsf{Set}} if we take
+is equivalent to the *groupoid* of finite sets. We get \mathsf{FinSet}^op^ if we
+take algebra homomorphisms, and I guess we get \mathsf{FinSet} if we take
 coalgebra homomorphisms.
 
 Finally, a bit about categorified Frobenius algebras and logic!

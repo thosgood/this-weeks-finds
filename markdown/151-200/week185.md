@@ -451,9 +451,9 @@ level a notch now.
 First, here's how Joyal's theory works. A "structure type" is really
 a functor
 
-    F\colon  \mathsf{Fin\mathsf{Set}}0 \to  \mathsf{Set}
+    F\colon  \mathsf{FinSet}0 \to  \mathsf{Set}
 
-where \mathsf{Fin\mathsf{Set}}~0~ is the groupoid of finite sets and bijections, and \mathsf{Set}
+where \mathsf{FinSet}~0~ is the groupoid of finite sets and bijections, and \mathsf{Set}
 is the category of sets and functions.
 
 So: if you feed F a finite set X it spits out F(X), the set of all
@@ -469,7 +469,7 @@ Y.
 There is actually a category of structure types, where the objects are
 functors
 
-F\colon  \mathsf{Fin\mathsf{Set}}~0~ \to  \mathsf{Set}
+F\colon  \mathsf{FinSet}~0~ \to  \mathsf{Set}
 
 and the morphisms are natural transformations between these. I'll call
 this category \mathsf{Set}\[\[x\]\], because it's really a categorification of

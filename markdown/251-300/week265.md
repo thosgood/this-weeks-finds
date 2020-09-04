@@ -290,9 +290,9 @@ Let me sketch the simplest result in this paper! For starters, recall
 that a structure type is any sort of structure you can put on finite
 sets. In other words, it's a functor
 
-F\colon  \mathsf{Fin\mathsf{Set}}~0~ \to  \mathsf{Set}
+F\colon  \mathsf{FinSet}~0~ \to  \mathsf{Set}
 
-where \mathsf{Fin\mathsf{Set}}~0~ is the groupoid of finite sets and bijections. The idea
+where \mathsf{FinSet}~0~ is the groupoid of finite sets and bijections. The idea
 is that for any finite set X, F(X) is the set all of structures of the
 given type that we can put on X. A good example is F(X) = 2^X^, the set
 of 2-colorings of X.
@@ -419,7 +419,7 @@ immediately gripping portions:
 -   Chapter 7, "Hopf monoids in species". Here they use "species" to
     mean what I'd call "linear structure types", that is, functors
 
-    F\colon  \mathsf{Fin\mathsf{Set}}~0~ \to  Vect
+    F\colon  \mathsf{FinSet}~0~ \to  Vect
 
     where Vect is the category of vector spaces. In Section 7.9 they
     take Bill Schmitt's trick for getting cocommutative coalgebras from
