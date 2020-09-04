@@ -1,4 +1,4 @@
-week211
+# DATE {#week211}
 
 The last time I wrote an issue of this column, the Huyghens probe was
 bringing back cool photos of Titan. Now the European "Mars Express"

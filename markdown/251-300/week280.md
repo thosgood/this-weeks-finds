@@ -1,4 +1,4 @@
-week280
+# DATE {#week280}
 
 I have a lot to talk about, since I just got back from this quantum
 gravity summer school in Corfu:

@@ -1,4 +1,4 @@
-week217
+# DATE {#week217}
 
 Last week I described lots of different zeta functions, but didn't say
 much about what they're good for. This week I'd like to get started on

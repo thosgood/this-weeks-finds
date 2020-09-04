@@ -1,4 +1,4 @@
-week165
+# DATE {#week165}
 
 A few weeks ago I went to the University of Wisconsin at Milwaukee to
 give some talks at their Center for Gravitation and Cosmology. They have

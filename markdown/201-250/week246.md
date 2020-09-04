@@ -1,4 +1,4 @@
-week246
+# DATE {#week246}
 
 I've been gearing up to tell a big, wonderful story about the quest to
 generalize quantum knot invariants to higher dimensions by categorifying

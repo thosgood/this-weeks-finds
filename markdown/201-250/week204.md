@@ -1,4 +1,4 @@
-week204
+# DATE {#week204}
 
 The star we know as GRB030329 was named after the day the news of its
 death reached Earth. About 2,650 million years ago, this star exploded.

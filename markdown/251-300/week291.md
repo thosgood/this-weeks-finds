@@ -1,4 +1,4 @@
-week291
+# DATE {#week291}
 
 This week I want to ask for references - references on a cool
 relationship between Julia sets and the Mandelbrot set. Then, we'll

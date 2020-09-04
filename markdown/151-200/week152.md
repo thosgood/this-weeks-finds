@@ -1,4 +1,4 @@
-week152
+# DATE {#week152}
 
 I've been reading about the mathematical physicist William Rowan
 Hamilton lately, because I'm writing a review article about the

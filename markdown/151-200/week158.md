@@ -1,4 +1,4 @@
-week158
+# DATE {#week158}
 
 Like lots of mathematicians these days, I'm trying to understand
 M-theory. It's a bit difficult, partially because the theory doesn't

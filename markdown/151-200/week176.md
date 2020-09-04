@@ -1,4 +1,4 @@
-week176
+# DATE {#week176}
 
 A team of astronomers has found evidence that a dwarf galaxy near the
 Milky Way is surrounded by an enormous halo of dark matter, which may be

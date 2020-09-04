@@ -1,6 +1,4 @@
-week258
-
-week258
+# DATE {#week258}
 
 Happy Thanksgiving! Today I'll talk about a conjecture by Deligne on
 Hochschild cohomology and the little 2-cubes operad.

@@ -1,4 +1,4 @@
-week237
+# DATE {#week237}
 
 This Week I'd like to talk about math books in Shanghai, and Urs
 Schreiber's blog entry on the gauge 3-group of M-theory. But first:

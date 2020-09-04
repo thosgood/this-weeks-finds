@@ -1,4 +1,4 @@
-week197
+# DATE {#week197}
 
 I've been away from This Week's Finds for a long time, so I have a lot
 to talk about... so much that I scarcely know where to begin!

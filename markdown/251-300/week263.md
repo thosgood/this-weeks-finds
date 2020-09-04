@@ -1,4 +1,4 @@
-week263
+# DATE {#week263}
 
 Enough nebulae! Today's astronomy picture is Saturn's moon Titan,
 photographed by the Cassini probe. Red and green represent methane

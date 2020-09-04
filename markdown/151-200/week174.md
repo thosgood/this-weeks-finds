@@ -1,4 +1,4 @@
-week174
+# DATE {#week174}
 
 Groups are how mathematicians and physicists talk about symmetry, and
 Lie groups are how they talk about *continuously varying* symmetries,

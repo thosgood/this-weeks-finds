@@ -1,4 +1,4 @@
-week188
+# DATE {#week188}
 
 I've been talking about q-mathematics, and last week the story reached
 a kind of climax when I combined the themes of q-deformation,

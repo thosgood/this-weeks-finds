@@ -1,4 +1,4 @@
-week236
+# DATE {#week236}
 
 This week I'd like to catch you up on some papers about
 categorification and quantum mechanics.

@@ -1,4 +1,4 @@
-week265
+# DATE {#week265}
 
 Today I'd like to talk about the Pythagorean pentagram, Bill Schmitt's
 work on Hopf algebras in combinatorics, the magnum opus of Aguiar and

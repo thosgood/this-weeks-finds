@@ -1,4 +1,4 @@
-week300
+# DATE {#week300}
 
 This is the last of the old series of This Week's Finds. Soon the new
 series will start, focused on technology and environmental issues ---

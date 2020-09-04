@@ -1,4 +1,4 @@
-week225
+# DATE {#week225}
 
 Happy holidays! I'll start with some gift suggestions for people who
 put off their Christmas shopping a bit too long, before moving on to

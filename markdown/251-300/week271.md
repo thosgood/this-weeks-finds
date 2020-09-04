@@ -1,4 +1,4 @@
-week271
+# DATE {#week271}
 
 This week I'll talk about quasicrystals and how they arise from the
 interplay between crystallographic and noncrystallographic Coxeter

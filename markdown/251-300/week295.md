@@ -1,4 +1,4 @@
-week295
+# DATE {#week295}
 
 This week I'll talk about the principle of least power, and Poincaré
 duality for electrical circuits, and a generalization of Hamiltonian

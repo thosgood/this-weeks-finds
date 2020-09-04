@@ -1,4 +1,4 @@
-week196
+# DATE {#week196}
 
 Today I'd like to talk about the Big Bang and Pythagorean spinors. But
 first, a book! If you want to start learning general relativity without

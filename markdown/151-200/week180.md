@@ -1,4 +1,4 @@
-week180
+# DATE {#week180}
 
 First, a news flash: they may have found a quark star... or two!
 

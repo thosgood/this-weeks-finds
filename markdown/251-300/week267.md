@@ -1,4 +1,4 @@
-week267
+# DATE {#week267}
 
 After the workshop on categorical groups in Barcelona, I went to Granada
 - the world capital of categorical groups! Pilar Carrasco, an expert on

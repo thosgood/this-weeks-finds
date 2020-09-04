@@ -1,4 +1,4 @@
-week224
+# DATE {#week224}
 
 This week I want to mention a couple of papers lying on the interface of
 physics, topology, and higher-dimensional algebra. But first, some

@@ -1,4 +1,4 @@
-week250
+# DATE {#week250}
 
 Right now I'm in a country estate called Les Treilles in southern
 France, at a conference organized by Alexei Grinbaum and Michel Bitbol:

@@ -1,4 +1,4 @@
-week162
+# DATE {#week162}
 
 Since the winter solstice is coming soon, I'll start with some gift
 suggestions... for the physicist who has everything.

@@ -1,4 +1,4 @@
-week297
+# DATE {#week297}
 
 This week I'll talk about electrical circuits and Dirichlet forms. But
 first: knot sculptures, special relativity in finance, lazulinos, some

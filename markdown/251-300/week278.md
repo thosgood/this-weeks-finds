@@ -1,4 +1,4 @@
-week278
+# DATE {#week278}
 
 Mathematicians love to use groups to describe symmetries. Symmetries
 like to be symmetries *of* something, so groups like to act as

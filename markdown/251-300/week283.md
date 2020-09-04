@@ -1,4 +1,4 @@
-week283
+# DATE {#week283}
 
 We had a great AMS meeting this weekend at UCR, with far too many
 interesting talks going on simultaneously. For example, there were two

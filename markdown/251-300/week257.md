@@ -1,4 +1,4 @@
-week257
+# DATE {#week257}
 
 Time flies! This week I'll finally finish saying what I did on my
 summer vacation. After my trip to Oslo I stayed in London, or more

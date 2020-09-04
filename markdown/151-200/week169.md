@@ -1,4 +1,4 @@
-week169
+# DATE {#week169}
 
 When I write This Week's Finds as rarely as I do these days, so much
 stuff builds up that I completely despair of ever getting to all of

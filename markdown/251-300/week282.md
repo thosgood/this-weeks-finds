@@ -1,4 +1,4 @@
-week282
+# DATE {#week282}
 
 This week I'll get back to explaining some serious math: the relation
 between associative, commutative, Lie and Poisson algebras, and how this

@@ -1,4 +1,4 @@
-week203
+# DATE {#week203}
 
 Last week I posed this puzzle: to find a "Golden Object".
 

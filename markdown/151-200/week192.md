@@ -1,4 +1,4 @@
-week192
+# DATE {#week192}
 
 As Bush prepares to bomb Hussein's weapons of mass destruction into
 oblivion, along with an unknown number of Iraqis, I've been reading

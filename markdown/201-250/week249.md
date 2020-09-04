@@ -1,4 +1,4 @@
-week249
+# DATE {#week249}
 
 As you may recall, I'm telling a long story about symmetry, geometry,
 and algebra. Some of this tale is new work done by James Dolan, Todd

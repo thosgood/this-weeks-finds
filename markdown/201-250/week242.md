@@ -1,4 +1,4 @@
-week242
+# DATE {#week242}
 
 This week I'd like to talk about a paper by Jeffrey Morton. Jeff is a
 grad student now working with me on topological quantum field theory and

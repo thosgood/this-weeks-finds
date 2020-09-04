@@ -1,4 +1,4 @@
-week256
+# DATE {#week256}
 
 My European wanderings continue. I'm in Greenwich again, just back from
 a mind-blowing conference in Vienna, part of a bigger program that's

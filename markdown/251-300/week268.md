@@ -1,4 +1,4 @@
-week268
+# DATE {#week268}
 
 This Week will be all about Frobenius algebras and modular tensor
 categories. But first, here's a beautiful photo of Io, the volcanic

@@ -1,4 +1,4 @@
-week252
+# DATE {#week252}
 
 Today I want to tell you about the electromagnetic snake at the center
 of our Galaxy, and continue the Tale of Groupoidification.

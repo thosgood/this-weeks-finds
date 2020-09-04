@@ -1,4 +1,4 @@
-week216
+# DATE {#week216}
 
 There are lots of different things called "zeta functions" in
 mathematics and physics. The grand-daddy of them all is the Riemann zeta

@@ -1,4 +1,4 @@
-week294
+# DATE {#week294}
 
 Sorry, I've been busy writing papers for the last couple of months. But
 I'm not done with my story of electrical circuits! It will take a few

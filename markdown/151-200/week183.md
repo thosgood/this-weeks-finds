@@ -1,4 +1,4 @@
-week183
+# DATE {#week183}
 
 I'm now in England, visiting the category theorists in Cambridge.
 Before coming here I went to a wonderful conference in honor of Graeme

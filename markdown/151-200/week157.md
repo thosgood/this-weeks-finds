@@ -1,4 +1,4 @@
-week157
+# DATE {#week157}
 
 I never write issues of This Week's Finds about topics that people
 request. I only write about what I happen to be studying at a given

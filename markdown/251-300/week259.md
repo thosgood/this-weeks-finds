@@ -1,4 +1,4 @@
-week259
+# DATE {#week259}
 
 This week I'll talk about the "field with one element" - even though
 it doesn't exist. It's a mathematical phantom.

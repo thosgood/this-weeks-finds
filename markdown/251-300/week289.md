@@ -1,4 +1,4 @@
-week289
+# DATE {#week289}
 
 This week I'll tell you some news about E~8~. Then I'll continue
 expanding the grand analogy between different kinds of physics. We'll

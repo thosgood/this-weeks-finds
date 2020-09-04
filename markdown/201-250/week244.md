@@ -1,4 +1,4 @@
-week244
+# DATE {#week244}
 
 In January I spent a week at this workshop at the Fields Institute in
 Toronto:

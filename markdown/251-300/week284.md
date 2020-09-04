@@ -1,4 +1,4 @@
-week284
+# DATE {#week284}
 
 A couple of weeks ago there was a meeting of the American Mathematical
 Society here at UC Riverside. Mathematicians flooded in from across the

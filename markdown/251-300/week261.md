@@ -1,4 +1,4 @@
-week261
+# DATE {#week261}
 
 Sorry for the long pause! I've been busy writing. For example: a gentle
 introduction to category theory, focusing on its role as a "Rosetta

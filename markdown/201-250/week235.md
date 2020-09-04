@@ -1,4 +1,4 @@
-week235
+# DATE {#week235}
 
 After leaving the Perimeter Institute near the end of June, I went home
 to Riverside and then took off for a summer in Shanghai. That's where I

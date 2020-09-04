@@ -1,4 +1,4 @@
-week239
+# DATE {#week239}
 
 David Corfield, Urs Schreiber and I have started up a new blog!
 

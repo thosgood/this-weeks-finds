@@ -1,4 +1,4 @@
-week160
+# DATE {#week160}
 
 Anyone who grew up on science fiction in the 1960s probably read a bunch
 about adventures on strange planets, and dreamt of our future in space.

@@ -1,4 +1,4 @@
-week175
+# DATE {#week175}
 
 I spent this Christmas in Greenwich, England. Over repeated visits to
 England I have discovered many fascinating things of which many

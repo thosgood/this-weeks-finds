@@ -1,4 +1,4 @@
-week233
+# DATE {#week233}
 
 On Tuesday I'm supposed to talk with Lee Smolin about an idea he's
 been working on with Fotini Markopoulou and Sundance Bilson-Thompson.

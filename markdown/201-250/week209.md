@@ -1,4 +1,4 @@
-week209
+# DATE {#week209}
 
 Time flies! This June, Peter May and I organized a workshop on
 n-categories at the Institute for Mathematics and its Applications:

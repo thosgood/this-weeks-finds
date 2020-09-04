@@ -1,4 +1,4 @@
-week218
+# DATE {#week218}
 
 Classes are over! Summer is here! Now I can finally get some work done!
 I'll be travelling to Sydney, Canberra, Beijing, Chengdu and Calgary,

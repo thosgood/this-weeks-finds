@@ -1,4 +1,4 @@
-week248
+# DATE {#week248}
 
 This week I'll continue the Tale of Groupoidification. But first: some
 new views of the Sun!

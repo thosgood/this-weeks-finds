@@ -1,4 +1,4 @@
-week207
+# DATE {#week207}
 
 I'm spending the summer in Cambridge, but last week I was in Dublin
 attending "GR17", which is short for the 17th International Conference

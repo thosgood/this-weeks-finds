@@ -1,4 +1,4 @@
-week172
+# DATE {#week172}
 
 I recently went to a conference on "Discrete Random Geometries and
 Quantum Gravity", organized by Renate Loll:

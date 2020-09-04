@@ -1,4 +1,4 @@
-week206
+# DATE {#week206}
 
 I just got back from Marseille, where Carlo Rovelli, Laurent Freidel and
 Phillipe Roche held the first really big conference on loop quantum

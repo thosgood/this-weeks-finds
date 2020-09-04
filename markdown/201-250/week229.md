@@ -1,4 +1,4 @@
-week229
+# DATE {#week229}
 
 I'm visiting Chicago now. I came just in time for a conference in honor
 of Saunders Mac Lane, one of the founders of category theory, who taught

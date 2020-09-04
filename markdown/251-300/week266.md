@@ -1,4 +1,4 @@
-week266
+# DATE {#week266}
 
 I'm at this workshop now, and I want to talk about it:
 

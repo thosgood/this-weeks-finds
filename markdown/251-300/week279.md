@@ -1,4 +1,4 @@
-week279
+# DATE {#week279}
 
 I just finished a paper with John Huerta, a math grad student who really
 likes particle physics:

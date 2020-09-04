@@ -1,4 +1,4 @@
-week226
+# DATE {#week226}
 
 This month I'm hanging out at CIRM, the "Centre International de
 Recontres Mathematiques" near Marseille. It's like a little hotel with

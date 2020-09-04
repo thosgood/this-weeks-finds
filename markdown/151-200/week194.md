@@ -1,4 +1,4 @@
-week194
+# DATE {#week194}
 
 I recently flew from Sydney, Australia to Waterloo, Canada. All of a
 sudden day became night and steamy 30 Celsius summertime suddenly

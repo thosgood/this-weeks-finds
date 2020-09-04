@@ -1,4 +1,4 @@
-week270
+# DATE {#week270}
 
 Greg Egan has a new novel out, called "Incandescence" - so I want to
 talk about that. Then I'll talk about three of my favorite numbers: 5,

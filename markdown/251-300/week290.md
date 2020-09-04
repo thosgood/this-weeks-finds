@@ -1,4 +1,4 @@
-week290
+# DATE {#week290}
 
 This week we'll start with a math puzzle, then a paper about
 categorification in analysis. Then we'll continue learning about

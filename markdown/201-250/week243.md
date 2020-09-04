@@ -1,4 +1,4 @@
-week243
+# DATE {#week243}
 
 Today I'd like to talk a bit about the first stars in the Universe, and
 some hotly contested possible observations of these stars. Then I want

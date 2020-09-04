@@ -1,4 +1,4 @@
-week287
+# DATE {#week287}
 
 This week: a fascinating history of categorical logic, and more about
 rational homotopy theory. But first, guess what this is a picture of:

@@ -1,4 +1,4 @@
-week186
+# DATE {#week186}
 
 Okay, now let's pull together all the strands of our story about Dynkin
 diagrams and q-mathematics. The story can be summarized in a rather

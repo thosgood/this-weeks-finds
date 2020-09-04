@@ -1,4 +1,4 @@
-week292
+# DATE {#week292}
 
 I've been telling a long tale about analogies between different
 physical systems. Now I finally want to tell you about "bond graphs" -

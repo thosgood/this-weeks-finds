@@ -1,4 +1,4 @@
-week170
+# DATE {#week170}
 
 I've been travelling around a lot lately. For a couple of weeks I was
 in Turkey, resisting the lure of the many internet cafes. I urge you all

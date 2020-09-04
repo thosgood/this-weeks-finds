@@ -1,4 +1,4 @@
-week254
+# DATE {#week254}
 
 This week I'd like to talk about exceptional Lie algebras and the
 Standard Model, Witten's new paper on the Monster group and black holes

@@ -1,4 +1,4 @@
-week274
+# DATE {#week274}
 
 Whew! It's been a long time since I wrote my last Week's Finds. I've
 been too busy. But luckily, I've been too busy writing papers about

@@ -1,4 +1,4 @@
-week228
+# DATE {#week228}
 
 Last week I showed you some pretty pictures of dunes on Mars. This week
 I'll talk about dunes called "barchans" and their relation to

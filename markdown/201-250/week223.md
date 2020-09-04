@@ -1,4 +1,4 @@
-week223
+# DATE {#week223}
 
 This week I'd like to talk about two aspects of higher gauge theory:
 p-form electromagnetism and nonabelian cohomology. Lurking behind both

@@ -1,4 +1,4 @@
-week264
+# DATE {#week264}
 
 Here's a puzzle. Guess the next term of this sequence:
 

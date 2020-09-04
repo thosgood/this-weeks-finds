@@ -1,4 +1,4 @@
-week299
+# DATE {#week299}
 
 Two weeks ago I went to Oxford to attend a school on Quantum Information
 and Computer Science, and then a workshop on Quantum Physics and Logic.

@@ -1,4 +1,4 @@
-week241
+# DATE {#week241}
 
 I've been working too hard, and running around too much, to write This
 Week's Finds for a while. A bunch of stuff has built up that I want to

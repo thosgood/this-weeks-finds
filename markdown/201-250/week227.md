@@ -1,4 +1,4 @@
-week227
+# DATE {#week227}
 
 Today I want to say a bit about physics, and then a bit about about
 logic, since that's what I was studying for the last month in

@@ -1,4 +1,4 @@
-week177
+# DATE {#week177}
 
 This week I want to talk about some new developments in quantum gravity.
 But first, here's a little taste of Greg Egan's new novel:
