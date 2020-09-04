@@ -107,7 +107,7 @@ Okay, so we'll use a frame field and spin connection to describe the
 graviton. What about the gravitino? I'm less clear about this, but I
 guess the idea is that we think of the spin-3/2 representation of the
 Lorentz group \mathrm{SO}(10,1) as sitting inside the tensor product of the
-spin-1 representation and the spin-1/2 representation. This allows us to
+spin-$1$ representation and the spin-$1/2$ representation. This allows us to
 think of the gravitino as a spinor-valued 1-form on spacetime. That's
 why people write it as \psi~N~: the subscript indicates that we've got
 some sort of 1-form on our hands. One thing I don't understand is what,
@@ -426,7 +426,7 @@ sci.physics.research, which answers some of my questions above....
 >     > graviton.  What about the gravitino?  I'm less clear about this, but I
 >     > guess the idea is that we think of the spin-3/2 representation of the
 >     > Lorentz group \mathrm{SO}(10,1) as sitting inside the tensor product of the
->     > spin-1 representation and the spin-1/2 representation.  This allows us
+>     > spin-$1$ representation and the spin-$1/2$ representation.  This allows us
 >     > to think of the gravitino as a spinor-valued 1-form on spacetime.
 >     > That's why people write it as \psiN: the subscript indicates that we've
 >     > got some sort of 1-form on our hands.  One thing I don't understand is

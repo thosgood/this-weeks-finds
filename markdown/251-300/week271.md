@@ -164,7 +164,7 @@ similarly the symmetries of a hexagon:
        6
      o---o  
 
-sit inside the A~5~ Coxeter group:
+sit inside the A_5 Coxeter group:
 
      o---o---o---o---o
 

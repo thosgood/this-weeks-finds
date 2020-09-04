@@ -429,12 +429,12 @@ Noam Elkies writes:
 > symmetric group of order 5, using the action of SL_2(Z/5Z) by
 > conjugation on the 5 conjugates of the 24-element group. This turns
 > out to be one way to see the isomorphism of PSL_2(Z/5Z) with the
-> alternating group A~5~.
+> alternating group A_5.
 >
-> Likewise the octahedral and icosahedral groups S_4 and A~5~ can be
+> Likewise the octahedral and icosahedral groups S_4 and A_5 can be
 > found in PSL_2(Z/7Z) and PSL_2(Z/11Z), which gives the permutation
 > representations of those two groups on 7 and 11 letters respectively;
-> and A~5~ is also an index-6 subgroup of PSL_2(F~9~), which yields the
+> and A_5 is also an index-6 subgroup of PSL_2(F~9~), which yields the
 > identification of that group with A~6~.
 >
 > NDE

@@ -53,7 +53,7 @@ electric field going in one end and out the other, the ends will look
 like particles of equal and opposite charge! So, the formation of a
 wormhole could mimic the creation of a particle-antiparticle pair. But
 there were big problems with this idea: for example, getting the
-wormhole ends to act like spin-1/2 particles.
+wormhole ends to act like spin-$1/2$ particles.
 
 More recently this idea was reincarnated in the spin network formalism
 by Lee Smolin, with spin network edges replacing wormholes:
@@ -67,13 +67,13 @@ thing for other forces, including gravity. If a spin network edge goes
 between vertices that would otherwise be far apart, it acts a bit like a
 wormhole. It will be hidden from observers in the rest of spacetime, and
 its ends will look like particles of equal and opposite charge. Even
-better, it seems easy to get spin-1/2 particles this way: they don't
+better, it seems easy to get spin-$1/2$ particles this way: they don't
 call them "spin networks" for nothing!
 
 A variant on this idea is to have spin networks with "loose ends":
 edges that just fizzle out. This is more ad hoc, but easier to study in
 some ways. A decade ago, Kirill Krasnov and I showed how to describe the
-kinematics of charged spin-1/2 particles this way:
+kinematics of charged spin-$1/2$ particles this way:
 
 4) John Baez and Kirill Krasnov, Quantization of diffeomorphism-
 invariant theories with fermions,

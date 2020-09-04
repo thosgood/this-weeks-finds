@@ -278,7 +278,7 @@ representation. For more details, try this:
 `http://math.ucr.edu/home/baez/symplectic.html`
 
 Now, after I mentioned this, someone who goes by the name of "squark"
-suggested that the CPT operator for massive spin-1/2 particles was a an
+suggested that the CPT operator for massive spin-$1/2$ particles was a an
 antiunitary intertwiner with (CPT)^2 = -1. I'm not sure this is true,
 but it's definitely antiunitary, so we have an intesting question:
 which unitary irreducible representations of the Poincare group are

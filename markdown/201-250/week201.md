@@ -441,7 +441,7 @@ splitting field, and note
 
 Then, show that if we build up an algebraic number field by starting
 with Q and repeatedly throwing in nth roots of numbers we've already
-got, we just can't get S~5~ as its Galois group over the rationals!
+got, we just can't get S_5 as its Galois group over the rationals!
 We've already seen this in the case where we throw in a square root of
 n, or an nth root of 1. The general case is a bit more work. But instead
 of giving the details, I'll just mention a good textbook on Galois

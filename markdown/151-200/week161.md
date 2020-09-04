@@ -249,7 +249,7 @@ Let me just quote the beginning:
 > this reason the seemingly more demanding problem of studying QFT
 > directly in AdS within a curved spacetime formalism can be bypassed.
 > The natural question whose answer would have led directly from CQFT_4
-> to AdS~5~ in the particle physics setting (without string theory as a
+> to AdS_5 in the particle physics setting (without string theory as a
 > midwife) is: Does there exist a quantum field theory which has the
 > same \mathrm{SO}(4,2) symmetry and just reprocesses the CQFT_4 matter content
 > in such a way that the "conformal hamiltonian" (the timelike

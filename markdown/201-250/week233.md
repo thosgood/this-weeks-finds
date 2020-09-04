@@ -141,7 +141,7 @@ This reminds me of spinors... since you have to twist an electron
 around *twice* to get its wavefunction back to where it started. And
 indeed, \mathrm{SL}(2,\mathbb{Z}) is a subgroup of \mathrm{SL}(2,\mathbb{C}), which is the double cover of
 the Lorentz group. So, 3-strand braids indeed act on the state space of
-a spin-1/2 particle, with double twists acting trivially!
+a spin-$1/2$ particle, with double twists acting trivially!
 
 (For more on this, check out Trautman's work on "Pythagorean spinors"
 in ["Week 196"](#week196). There's also a version where we use

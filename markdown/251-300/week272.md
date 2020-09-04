@@ -271,7 +271,7 @@ A_3                                       8/9           
 
 \mathrm{PSL}(2,3) ≅ A_4                     2/3                       \~ .667
 
-\mathrm{PSL}(2,4) ≅ \mathrm{PSL}(2,5) ≅ A~5~   19/30                   \~ .633
+\mathrm{PSL}(2,4) ≅ \mathrm{PSL}(2,5) ≅ A_5   19/30                   \~ .633
 
 \mathrm{PSL}(2,7) ≅ \mathrm{PSL}(3,2)           19/28                   \~ .679
 

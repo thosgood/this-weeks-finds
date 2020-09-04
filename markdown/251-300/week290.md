@@ -601,10 +601,10 @@ finite simple groups. Anyway, here we go:
 -   How many minutes are in an hour?
 
     60, which is the number of elements in the smallest nonabelian
-    finite simple group, namely A~5~. Here A_n is an an "[alternating
+    finite simple group, namely A_5. Here A_n is an an "[alternating
     group](http://en.wikipedia.org/wiki/Alternating_group)": the group
     of even permutations of the set with n elements. By some wonderful
-    freak of nature, A~5~ is isomorphic to both \mathrm{PSL}(2,4) and \mathrm{PSL}(2,5).
+    freak of nature, A_5 is isomorphic to both \mathrm{PSL}(2,4) and \mathrm{PSL}(2,5).
     Here \mathrm{PSL}(n,q) is a "[projective special linear
     group](http://en.wikipedia.org/wiki/Projective_linear_group)": the
     group of determinant-1 linear transformations of an $n$-dimensional

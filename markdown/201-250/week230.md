@@ -327,7 +327,7 @@ Then I'll explain how the correspondence works:
     S_4.
 -   The diagram E~8~ corresponds to the group of rotational symmetries
     of the icosahedron or dodecahedron: the "icosahedral group". This
-    is also the group of even permutations of 5 elements, called A~5~.
+    is also the group of even permutations of 5 elements, called A_5.
     Darn!
 
 So, the exceptional Lie groups E~6~, E~7~ and E~8~ correspond to
@@ -377,7 +377,7 @@ w = f(z)
 then Klein showed that knowing how to solve for z as a function of w
 lets you solve every quintic equation! The reason is that the Galois
 group of the general quintic is a close relative of the icosahedral
-group: the former is S~5~, the latter is A~5~.
+group: the former is S_5, the latter is A_5.
 
 Anyway, when I said that "every such function depends on a single
 one", what I really meant was this. Let C(z) be the field of rational

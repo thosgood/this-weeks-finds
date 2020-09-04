@@ -111,7 +111,7 @@ For starters, though, let's just look at some pretty pictures by John
 Stembridge that hint at the majesty of E~8~. Then I'll sketch the real
 subject of Weeks to come: symmetry, geometry, and "groupoidification".
 
-To warm up to E~8~, let's first take a look at D_4, D~5~, E~6~, and
+To warm up to E~8~, let's first take a look at D_4, D_5, E~6~, and
 E~7~.
 
 In ["Week 91"](#week91) I spoke about the D_4 lattice. To get
@@ -142,7 +142,7 @@ down to 2. The coordinate axes are drawn as dashed lines; the solid
 lines are the edges of the 24-cell.
 
 How about in 5 dimensions? Here the densest known packing of spheres
-uses the "D~5~ lattice". This is a lot like the D_4 lattice... but
+uses the "D_5 lattice". This is a lot like the D_4 lattice... but
 only if you think about it the right way.
 
 Imagine a 4-dimensional checkerboard with "squares" - really
@@ -152,7 +152,7 @@ lattice. It's not instantly obvious that this matches my previous
 description, but it's true.
 
 If you do the same thing with a 5-dimensional checkerboard, you get the
-"D~5~ lattice", by definition. This gives the densest known packing of
+"D_5 lattice", by definition. This gives the densest known packing of
 spheres in 5 dimensions. In this packing, each sphere has 40 nearest
 neighbors. The centers of these nearest neighbors are the vertices of a
 solid that looks like this:
@@ -161,7 +161,7 @@ solid that looks like this:
 [![](d5_stembridge.jpg)](http://www.math.lsa.umich.edu/~jrs/)
 :::
 
-9) John Stembridge, D~5~ root system, available at
+9) John Stembridge, D_5 root system, available at
 `http://www.math.lsa.umich.edu/~jrs/data/coxplanes/`
 
 If you do the same thing with a 6-dimensional checkerboard, you get the
@@ -505,10 +505,10 @@ bit like how in category theory, we can only understand an object in the
 context of the category it inhabits.
 
 Finally, here's a puzzle for lattice and Lie group fans. The dots in
-Stembridge's pictures are the shortest nonzero vectors in the D~5~,
+Stembridge's pictures are the shortest nonzero vectors in the D_5,
 E~6~, E~7~, and E~8~ lattices - or in technical terms, the "roots". Of
 course, only for ADE Dynkin diagrams are the roots all of equal length -
-but those are the kind we have here. Anyway: in the D~5~ case, only 32
+but those are the kind we have here. Anyway: in the D_5 case, only 32
 of the 40 roots are visible. The other 8 are hidden in back somewhere.
 Where are they?
 
@@ -541,7 +541,7 @@ other reasons, too! Here's how it goes:
        F4               12
        G2               6
 
-For D~5~ the Coxeter number is 8, which accounts for the 8-fold symmetry
+For D_5 the Coxeter number is 8, which accounts for the 8-fold symmetry
 of Stembridge's picture in that case. The E~8~ picture has 30-fold
 symmetry! My D_4 picture has 8-fold symmetry, so I must not have been
 projecting down to the Coxeter plane.

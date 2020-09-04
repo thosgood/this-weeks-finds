@@ -277,7 +277,7 @@ triangles contribute only a tiny amount to the partition function! A
 more detailed analysis shows that for a larger triangulated manifold,
 the sum over spin foams would be dominated by those where all triangles
 have zero area except for small, widely separated "islands" of
-higher-spin triangles. The simplest such island has four spin-1/2
+higher-spin triangles. The simplest such island has four spin-$1/2$
 triangles arranged as the faces of a tetrahedron; compared to tetrahedra
 labelled by spin zero, the amplitude for this to occur works out to be
 2^-20^.

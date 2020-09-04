@@ -65,7 +65,7 @@ atmosphere would be destroyed in only 10 million years if it were not
 renewed somehow. In the first article cited above, the author writes:
 "For the methane we see today not to be a bizarre fluke, it must be
 continuously resupplied from a surface reservoir or by cryovolcanism
-(that is, volcanism where the molten \`rock' is just ice)." And this
+(that is, volcanism where the molten 'rock' is just ice)." And this
 made me wonder: where is Lovelock when we need him? Maybe *life* is
 responsible for this out-of-equilibrium condition.
 

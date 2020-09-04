@@ -84,7 +84,7 @@ By rotating the whole picture, we get some other ways of putting a cube
 in a dodecahedron: 5 in all. Any rotation of the dodecahedron permutes
 these 5 cubes, and we get all even permutations of the cubes this way:
 this is one nice way to prove that the rotational symmetry group of the
-dodecahedron is A~5~ (the group of even permutations of 5 things).
+dodecahedron is A_5 (the group of even permutations of 5 things).
 
 If we put all 5 cubes inside the dodecahedron, we get a fancy shape that
 would make a marvelous Christmas tree decoration - I don't know what
@@ -136,14 +136,14 @@ some other way?)
 Anyway, it's also true that any way of fitting the tetrahedron in the
 dodecahedron lets us turn any symmetry of the tetrahedron into a
 symmetry of the dodecahedron. So we've also got a trick for making A_4
-into a subgroup of A~5~.
+into a subgroup of A_5.
 
 (You might also think that our trick for fitting the cube in the
 dodecahedron gives a way to turn any symmetry of the cube into a
 symmetry of the dodecahedron. I thought this for a while, but it's not
 true! For starters, if it *were* true, we'd get a trick for making S_4
-into a subgroup of A~5~ - which is impossible, since the order of the
-group S_4 doesn't divide that of A~5~. And the problem turns out to be
+into a subgroup of A_5 - which is impossible, since the order of the
+group S_4 doesn't divide that of A_5. And the problem turns out to be
 this: a 90 degree rotation of the cube does not correspond to a symmetry
 of the dodecahedron.)
 

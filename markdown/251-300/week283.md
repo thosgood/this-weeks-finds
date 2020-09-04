@@ -747,7 +747,7 @@ He wrote:
 >
 > ...and *that's* because the Galois group of that *specific*
 > irreducible polynomial is "only" cyclic of order 4. The splitting
-> field is Q(\zeta~5~), which is a cyclotomic field, so has Galois group
+> field is Q(\zeta_5), which is a cyclotomic field, so has Galois group
 > (Z/5Z)*. No Z/3Z factors so no messing around with cube roots, for
 > example...
 >
@@ -757,13 +757,13 @@ He wrote:
 > With this observation above, I'm trying to convince you that the
 > proof really *is* completely uninspired ![](emoticons/tongue2.gif) To
 > solve the quartic by solving two quadratics, you need to locate the
-> degree 2 subfield of Q(z) (z=\zeta~5~) and aim towards it (because it's
+> degree 2 subfield of Q(z) (z=\zeta_5) and aim towards it (because it's
 > your route to the solution). This subfield is clearly the real numbers
 > in Q(z), and the real numbers in Q(z) contains z+z*=z+z^-1^. So
 > that's sort of a completely conceptual explanation of why the trick
 > works and why it's crucial to introduce z+z^-1^.
 
-Here \zeta~5~ is number-theorist's jargon for a "primitive 5th root of
+Here \zeta_5 is number-theorist's jargon for a "primitive 5th root of
 unity", which in turn is number-theorist's jargon for any 5th root of
 1 except for 1 itself.
 

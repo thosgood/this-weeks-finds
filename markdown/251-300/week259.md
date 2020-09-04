@@ -712,8 +712,8 @@ to commute with an m-ary operation?", let me just show you what it
 means for a binary operation f to commute with a ternary operation g. It
 means:
 
-g(f(x_1,x_2), f(x_3,x_4), f(x~5~,x~6~)) = f(g(x_1,x_2,x_3),
-g(x_4,x~5~,x~6~))
+g(f(x_1,x_2), f(x_3,x_4), f(x_5,x~6~)) = f(g(x_1,x_2,x_3),
+g(x_4,x_5,x~6~))
 
 I hope this example gives away the general pattern.
 

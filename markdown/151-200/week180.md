@@ -251,7 +251,7 @@ Spin(3,C) = \mathrm{SL}(2,\mathbb{C}).
 The fundamental representation corresponding to the single dot in the
 Dynkin diagram is called the "spinor" representation of Spin(3,C):
 it's just the obvious rep of \mathrm{SL}(2,\mathbb{C}) on C^2. This fact is crucial for
-understanding spin-1/2 particles in 3d space.
+understanding spin-$1/2$ particles in 3d space.
 
 The Dynkin diagram of Spin(4,C) is two dots, not connected by an edge:
 
@@ -270,7 +270,7 @@ they're isomorphic:
 The fundamental reps coresponding to the two dots are called the
 "left-handed" and "right-handed" spinor representations of
 Spin(4,C): they're just the obvious reps of \mathrm{SL}(2,\mathbb{C}) x \mathrm{SL}(2,\mathbb{C}) on C^2.
-This fact is crucial for understanding spin-1/2 particles in 4d
+This fact is crucial for understanding spin-$1/2$ particles in 4d
 spacetime.
 
 The Dynkin diagram of Spin(5,C) is two dots connected by a double edge:
@@ -290,7 +290,7 @@ comes from the obvious rep of \mathrm{SO}(5,C) on C^5 - what physicists would
 call the "vector" rep. The fundamental rep corresponding to the right
 dot comes from the obvious rep of Sp(4,C) on C^4 - it's called the
 "spinor" rep of Spin(5,C). This would be fundamental for studying
-spin-1/2 particles in 5-dimensional spacetime if anyone were
+spin-$1/2$ particles in 5-dimensional spacetime if anyone were
 interested... but not many people are.
 
 The Dynkin diagram of Spin(6,C) has three dots:
@@ -314,7 +314,7 @@ The fundamental rep corresponding to the left dot comes from the obvious
 rep of \mathrm{SO}(6,C) on C^6 - the "vector" rep again. The reps
 corresponding to the other dots are the left- and right-handed spinor
 reps of Spin(6,C), coming from the obvious rep of \mathrm{SL}(4,C) on C^4 and
-its dual. This is fundamental for understanding spin-1/2 particles in
+its dual. This is fundamental for understanding spin-$1/2$ particles in
 6-dimensional space - for example, the 6 extra curled-up dimensions in
 string theory. And as we'll see, it's also basic to Penrose's theory
 of twistors!

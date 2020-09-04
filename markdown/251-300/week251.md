@@ -74,7 +74,7 @@ Is the system's state in {1,4} or {2,3}?
 You can only answer one of these questions.
 
 This has a cute resemblance to how you can measure the angular momentum
-of a spin-1/2 particle along the x, y, or z axis, in each case getting
+of a spin-$1/2$ particle along the x, y, or z axis, in each case getting
 two choices. Spekkens has a nice picture in his paper:
 
                       {1,2}
@@ -90,21 +90,21 @@ two choices. Spekkens has a nice picture in his paper:
                       {3,4} 
 
 This octahedron is a discrete version of the "Bloch ball" describing
-mixed states of a spin-1/2 particle in honest quantum mechanics. If you
+mixed states of a spin-$1/2$ particle in honest quantum mechanics. If you
 don't know about that, I should remind you:
 
-A "pure state" of a spin-1/2 particle is a unit vector in C^2, modulo
+A "pure state" of a spin-$1/2$ particle is a unit vector in C^2, modulo
 phase. The set of these is just the Riemann sphere!
 
 In a pure state, we know as much as we can know. In a "mixed state",
-we know less. Mathematically, a mixed state of a spin-1/2 particle is a
+we know less. Mathematically, a mixed state of a spin-$1/2$ particle is a
 2\times2 "density matrix" - a self-adjoint matrix with nonnegative
 eigenvalues and trace 1. These form a 3-dimensional ball, the "Bloch
 ball", whose boundary is the Riemann sphere.
 
 The x, y, and z coordinates of a point in the Bloch ball are the
 expected values of the three components of angular momentum for a
-spin-1/2 particle in the given mixed state. The center of the Bloch ball
+spin-$1/2$ particle in the given mixed state. The center of the Bloch ball
 is the state of complete ignorance.
 
 In honest quantum mechanics, the rotation group \mathrm{SO}(3) acts as symmetries
@@ -242,7 +242,7 @@ Some nice examples of Jordan algebras are the 2\times2 self-adjoint matrices
 with real, complex, quaternionic or octonionic entries. Each of these
 algebras has a cone consisting of the nonnegative matrices, and the
 trace gives a linear functional P. The nonnegative matrices with trace =
-1 are the mixed states of a spin-1/2 particle in 3, 4, 6, and
+1 are the mixed states of a spin-$1/2$ particle in 3, 4, 6, and
 10-dimensional spacetime, respectively! In each case these mixed states
 form a convex set: a round ball generalizing the Bloch ball. Similarly,
 the pure states form a sphere generalizing the Riemann sphere.
@@ -255,7 +255,7 @@ Our universe seems to like complex quantum mechanics. And, the space of
 2\times2 self-adjoint complex matrices - let's call it h_2(C) - is
 isomorphic to 4-dimensional Minkowski spacetime! The cone of positive
 matrices is isomorphic to the future lightcone. The set of pure states
-of a spin-1/2 particle is the Riemann sphere \mathbb{CP}^1, and this is
+of a spin-$1/2$ particle is the Riemann sphere \mathbb{CP}^1, and this is
 isomorphic to the "heavenly sphere": the set of light rays through a
 point in Minkowski spacetime.
 

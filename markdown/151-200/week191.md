@@ -110,7 +110,7 @@ give you some references for further study... and then pull out all the
 stops and explain how they're related to structure types.
 
 So: what's an operad? An operad O consists of a set O_n of abstract
-\`n-ary operations' for each natural number n, together with rules for
+'n-ary operations' for each natural number n, together with rules for
 composing these operations. We can think of an $n$-ary operation as a
 little black box with n wires coming in and one wire coming out:
 

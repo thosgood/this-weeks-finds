@@ -472,7 +472,7 @@ i~v~ vol = μ \^ ν
 
 Here vol is the volume form:
 
-vol = dx_1 \^ dx_2 \^ dx_3 \^ dx_4 \^ dx~5~
+vol = dx_1 \^ dx_2 \^ dx_3 \^ dx_4 \^ dx_5
 
 and i~v~ vol is the "interior product", which feeds v into vol and
 leaves us with a 4-form. You can check that this vector field v is

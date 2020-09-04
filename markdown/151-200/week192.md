@@ -305,7 +305,7 @@ quasinormal frequencies, available at
 [gr-qc/0212096](http://xxx.lanl.gov/abs/gr-qc/0212096).
 
 Alejandro Corichi has tried to explain why Dreyer's work using \mathrm{SO}(3)
-loop quantum gravity is consistent with the existence of spin-1/2
+loop quantum gravity is consistent with the existence of spin-$1/2$
 particles:
 
 8) Alejandro Corichi, On quasinormal modes, black hole entropy, and

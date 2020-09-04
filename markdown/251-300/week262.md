@@ -175,7 +175,7 @@ larger structures called "platelets".
 diamond, in Properties, Growth and Application of Diamond, eds. Maria
 Helena Nazare and A. J. Neves, EMIS Datareviews Series, 2001, 127-130.
 
-A nice thing about nitrogen-vacancy centers is that they act like spin-1
+A nice thing about nitrogen-vacancy centers is that they act like spin-$1$
 particles. In fact, these spins interact very little with their
 environment, thanks to the remarkable properties of diamond. So, they
 might be a good way to store quantum information: they can last 50

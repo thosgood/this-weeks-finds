@@ -419,7 +419,7 @@ Wang have subsequently shown that a certain topological quantum field
 theory called Chern-Simons theory, built using the quantum group
 SU~q~(2), can serve as a universal quantum computer when the parameter q
 is a fifth root of unity. And, this is exactly the case where the
-spin-1/2 representation of SU~q~(2) has quantum dimension equal to the
+spin-$1/2$ representation of SU~q~(2) has quantum dimension equal to the
 golden number!
 
 14) Michael Freedman, Michael Larsen, Zhenghan Wang, A modular functor

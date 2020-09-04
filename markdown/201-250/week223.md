@@ -1017,7 +1017,7 @@ Ronnie Brown wrote:
 > crossed complexes. Note that a convenient monoidal closed structure on
 > the category of crossed complexes has been explicitly written down,
 > and this allows convenient calculation and representations of
-> homotopies, using the \`unit interval' groupid, as a crossed complex.
+> homotopies, using the 'unit interval' groupid, as a crossed complex.
 >
 > One of the problems I have with the globular approach is the
 > difficulty of writing down homotopies, and higher homotopies. For

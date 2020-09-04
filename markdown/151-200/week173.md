@@ -96,7 +96,7 @@ it's a minimal surface: there's no way to wiggle it a bit to make the
 "area" less! It's the analogue for OP^2 of the 2-sphere in \mathbb{CP}^2
 defined by the equation x^2 + y^2 + z^2 = 0. (Püttman and Rigas also
 describe an analogous 5-sphere in the quaternionic projective plane that
-generates \pi ~5~(HP^2) = Z/2.)
+generates \pi _5(HP^2) = Z/2.)
 
 Could this geometrical fact have some application to M-theory? I bet it
 will. Could it be a useful clue to the math linking these special

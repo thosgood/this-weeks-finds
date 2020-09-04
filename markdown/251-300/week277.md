@@ -65,7 +65,7 @@ tape, and hope a thin layer sticks:
 `http://www.youtube.com/watch?v=rphiCdR68TE`
 
 Graphene has some amazing properties. For starters, it acts like a toy
-universe containing massless spin-1/2 particles, which zip around at the
+universe containing massless spin-$1/2$ particles, which zip around at the
 speed of light. But in this toy universe, light moves 300 times slower
 than in the real universe!
 
@@ -290,9 +290,9 @@ the Klein paradox in graphene, Nature Physics 2 (2006), 620.
 Anyway, the upshot is that near one of these special points, graphene
 acts like it has two kinds of massless particles in it: "black" and
 "white". They are approximately described by the usual equation for
-massless spin-1/2 particles, the Dirac equation - but in a universe with
+massless spin-$1/2$ particles, the Dirac equation - but in a universe with
 just 2 dimensions of space! The speed c is about 1/300th of the
-real-world speed of light. Also, a spin-1/2 particle in 2d space usually
+real-world speed of light. Also, a spin-$1/2$ particle in 2d space usually
 comes in two states: it can rotate clockwise or counterclockwise. But
 here those two states are certain linear combinations of "black" and
 "white".

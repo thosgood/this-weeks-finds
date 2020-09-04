@@ -38,7 +38,7 @@ Sounds of Space-Time, Joseph Henry Press, Washington D.C., 2000.
 
 My host was at Milwaukee was John Friedman. I was surprised and pleased
 to find that he was one of the people who discovered how to make
-spin-1/2 particles out of topological defects in spacetime!
+spin-$1/2$ particles out of topological defects in spacetime!
 Theoretically speaking, that is. I'd heard about this trick, but I
 never knew where it came from:
 

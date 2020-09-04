@@ -54,7 +54,7 @@ different responses otherwise.
 
 Classically the best you can do is both say "yes" - or, if you prefer,
 both say "no". Then you'll have a 3/4 chance of winning. But, if
-before playing the game you and your friend prepare a pair of spin-1/2
+before playing the game you and your friend prepare a pair of spin-$1/2$
 particles in the Bell state, and you each keep one, you can use these to
 boost your chance of winning to about 85%!
 

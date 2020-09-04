@@ -357,7 +357,7 @@ a^2 + b^2 = c^2.
 
 I think I'll explain this in detail....
 
-Spinors are used to describe spin-1/2 particles, so-called because they
+Spinors are used to describe spin-$1/2$ particles, so-called because they
 don't come back to where they were when you turn them around 360
 degrees - you have to rotate them *twice* to get back where you started!
 Thus, mathematically, spinors are representations of the double cover of

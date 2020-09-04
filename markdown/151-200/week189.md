@@ -407,9 +407,9 @@ This matches Hawking's S = A/4 if we take
 Again, the same number works for electrically charged and other black
 holes, as long as use the \mathrm{SO}(3) version of loop quantum gravity. Indeed,
 the \mathrm{SO}(3) theory seems just as good as the \mathrm{SU}(2) theory unless you want
-to include spin-1/2 particles. As long as you don't do that, they're
+to include spin-$1/2$ particles. As long as you don't do that, they're
 different but equally good quantum theories that look the same
-classically. But since we *did* want to eventually include spin-1/2
+classically. But since we *did* want to eventually include spin-$1/2$
 particles, we focused on the \mathrm{SU}(2) theory.
 
 Now for the big news. Last Sunday, Olaf Dreyer, a postdoc at the
@@ -453,7 +453,7 @@ so we have
 
 Now for something from loop quantum gravity: if we work in the \mathrm{SO}(3)
 theory, it's natural to guess that this change in area comes from the
-appearance or disappearance of a single spin-1 edge puncturing the
+appearance or disappearance of a single spin-$1$ edge puncturing the
 horizon, so that
 
     Δ A = 8 \pi  γ sqrt(2)
@@ -516,7 +516,7 @@ frequencies for Schwarzschild black holes, Class. Quant. Grav. 10
 Technically the vibrational modes of a black hole are called
 "quasinormal modes". You can read more about them here:
 
-13) Hans-Peter Nollert, Quasinormal modes: the characteristic \`sound'
+13) Hans-Peter Nollert, Quasinormal modes: the characteristic 'sound'
 of black holes and neutron stars, Class. Quant. Grav. 16 (1999),
 R159-R216.
 
@@ -538,7 +538,7 @@ principle, Gen. Rel. Grav. 31 (1999) 1639, also available as
 [gr-qc/0002002](http://xxx.lanl.gov/abs/gr-qc/0002002).
 
 He goes so far as to argue that the "quantum of area" is 4 ln 3. This
-matches the area due to a spin-1 puncture if the Barbero-Immirzi
+matches the area due to a spin-$1$ puncture if the Barbero-Immirzi
 parameter has the value obtained by Dreyer:
 
                 ln 3

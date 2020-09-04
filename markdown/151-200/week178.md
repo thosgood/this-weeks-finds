@@ -133,13 +133,13 @@ n unitary matrices with determinant 1.
 
 The simplest nontrivial example is n = 2, so let's look at that. Every
 student of quantum mechanics knows C^2 under the name of the Hilbert
-space for a spin-1/2 particle. Every student of complex analysis knows
+space for a spin-$1/2$ particle. Every student of complex analysis knows
 \mathbb{CP}^1 under the name of the Riemann sphere. So, the space of states of a
-spin-1/2 particle is the Riemann sphere! Acting on this space we have
+spin-$1/2$ particle is the Riemann sphere! Acting on this space we have
 two symmetry groups: \mathrm{SL}(2,\mathbb{C}), which is the double cover of the Lorentz
 group in 4d spacetime, and \mathrm{SU}(2), which is the double cover of the
 rotation group in 3d space. So, we're basically recovering rotations as
-the symmetries of the quantum logic associated to a spin-1/2 particle -
+the symmetries of the quantum logic associated to a spin-$1/2$ particle -
 which is not so surprising - but also recovering Lorentz transformations
 as the symmetries of the implicational fragment of this logic!
 
