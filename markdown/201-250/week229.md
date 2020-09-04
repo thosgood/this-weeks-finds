@@ -708,7 +708,7 @@ bit, for cosmetic reasons.
 > group on 3 generators, F_3. I believe the "specially nice"
 > homomorphism
 >
-> f: F_3 \to Z/2
+> f\colon  F_3 \to  Z/2
 >
 > is the one that sends each generator to -1, where I'm thinking
 > multiplicatively:
@@ -733,7 +733,7 @@ bit, for cosmetic reasons.
 > The inclusion of the 4-punctured sphere in B^3 - C gives a
 > homomorphism
 >
-> g: F_3 \to F_2
+> g\colon  F_3 \to  F_2
 >
 > as follows:
 >
@@ -744,7 +744,7 @@ bit, for cosmetic reasons.
 >
 > So, to extend our branched cover, we need to write our homomorphism
 >
-> f: F_3 \to Z/2
+> f\colon  F_3 \to  Z/2
 >
 > as
 >
@@ -752,7 +752,7 @@ bit, for cosmetic reasons.
 >
 > for some homomorphism
 >
-> h: F_2 \to Z/2
+> h\colon  F_2 \to  Z/2
 >
 > The obvious nice thing to try for h is
 >

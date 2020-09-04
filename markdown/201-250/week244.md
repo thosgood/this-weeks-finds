@@ -26,7 +26,7 @@ unique for its time, since it contains proofs of many results.
 
 For example, it has a proof that
 
-π/4 = 1 - 1/3 + 1/5 - 1/7 + 1/9 - ...
+\pi /4 = 1 - 1/3 + 1/5 - 1/7 + 1/9 - ...
 
 Of course, this result isn't stated in modern notation! It's actually
 stated as a poem - a recipe for the circumference of a circle, which in
@@ -38,13 +38,13 @@ translation goes something like this:
 
 The proof sounds nice! Jyesthadeva starts with something like this:
 
-π/4 = lim~N\ \to\ \infty~ (1/N) \sum~n=1~^N^ 1/(1 + (n/N)^2)
+\pi /4 = lim~N\ \to\ \infty~ (1/N) \sum~n=1~^N^ 1/(1 + (n/N)^2)
 
 In modern terms, the right-hand side is just the integral
 
 ∫~0~^1 dx/(1 + x^2)
 
-You can use geometry to see this equals π/4. Then, as far as I can tell,
+You can use geometry to see this equals \pi /4. Then, as far as I can tell,
 he writes
 
 1/(1 + (n/N)^2) = 1 - (n/N)^2 + (n/N)^4 - ...
@@ -55,7 +55,7 @@ and notes that
 
 for large N. This gives
 
-π/4 = 1 - 1/3 + 1/5 - 1/7 + ...
+\pi /4 = 1 - 1/3 + 1/5 - 1/7 + ...
 
 Voila!
 
@@ -66,7 +66,7 @@ general result
 
 arctan(x) = x - x^3/3 + x^5/5 - x^7/7 + ...
 
-He used this to compute π to 11 decimal places!
+He used this to compute \pi  to 11 decimal places!
 
 It's an interesting question whether any of the results of the Kerala
 school found their way west and influenced the development of
@@ -538,12 +538,12 @@ since that's what they were in his applications to quantum physics.
 Let's do that.
 
 The algebra of observables has an obvious left action on the vector
-space of states, where a morphism f: x \to y acts on x to give y, and it
+space of states, where a morphism f\colon  x \to  y acts on x to give y, and it
 acts on every other object to give 0. In Heisenberg's example, this is
 precisely how he let the algebra of observables act on states.
 
 The algebra of observables also has an obvious *right* action on the
-vector space of states, where f: x \to y acts on y to give x, and it acts
+vector space of states, where f\colon  x \to  y acts on y to give x, and it acts
 on every other object to give 0.
 
 Leinster defines a "weighting" on X to be an element w of the vector

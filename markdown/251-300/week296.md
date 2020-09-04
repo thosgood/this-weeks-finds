@@ -144,14 +144,14 @@ they have the same number of outputs, say n
 the currents on their input and output wires are given by the same
 function of the electrostatic potentials on those wires, say
 
-f: R^m+n^ \to R^m+n^
+f\colon  R^m+n^ \to  R^m+n^
 
 Since we're looking at linear circuits, the function f will be linear.
 However, not every linear function f is allowed! To understand which
 ones are, it's good to use the principle of least power. Here we
 describe a lumped circuit using a function
 
-Q: R^m+n^ \to R
+Q\colon  R^m+n^ \to  R
 
 This gives the power as a function of the potentials at the inputs and
 outputs. We can recover f by taking the gradient of Q. Since Q is
@@ -203,10 +203,10 @@ to arbitrary nonnegative quadratic forms. So, let's try to describe a
 category where:
 
 -   An object is a finite-dimensional real vector space.
--   A morphism Q: V \to W is a nonnegative quadratic form Q on V+W.
+-   A morphism Q\colon  V \to  W is a nonnegative quadratic form Q on V+W.
 
 How do we compose these morphisms? Using the principle of minimum power!
-Given morphisms P: U \to V and Q: V \to W, we define their composite QP: U \to
+Given morphisms P: U \to V and Q: V \to W, we define their composite QP\colon  U \to 
 W by
 
 QP(u,w) = min~v\ ∈\ V~ P(u,v) + Q(v,w)
@@ -230,7 +230,7 @@ action.
 
 There's just one slight glitch. Our would-be category doesn't have
 identity morphisms! This is easy to check mathematically. Physically,
-the reason is clear. The identity morphism 1: R \to R should correspond to
+the reason is clear. The identity morphism 1\colon  R \to  R should correspond to
 a perfectly conductive wire, like this:
 
       x  
@@ -286,13 +286,13 @@ The tensor product corresponds to setting two circuits side by side:
           |  |            |  |  |  |
 
 Mathematically, the tensor product of objects V and W is their direct
-sum V+W, while the tensor product of morphisms Q:V \to W and Q':V' \to W'
+sum V+W, while the tensor product of morphisms Q:V \to W and Q'\colon V' \to  W'
 is the quadratic form Q+Q' given by:
 
 (Q+Q')(v,v',w,w') = Q(v,w) + Q'(v',w')
 
 Our category also has "duals for morphisms". Intuitively, this means
-that we can take any circuit Q: V \to W built from resistors:
+that we can take any circuit Q\colon  V \to  W built from resistors:
 
             |             
         --------        
@@ -309,7 +309,7 @@ like this:
         --------        
             |             
 
-to obtain a new circuit Q^†^: W \to V. Mathematically this operation is
+to obtain a new circuit Q^†^\colon  W \to  V. Mathematically this operation is
 defined as follows:
 
 Q^†^(v,w) = Q(w,v)
@@ -454,7 +454,7 @@ its differential dQ is a one-form, so it gives an element of V* for
 each point of V. But since Q is quadratic, its differential depends
 linearly on the point of Q, so we get a linear map
 
-dQ: V \to V*
+dQ\colon  V \to  V*
 
 This is a highbrow formulation of something I already told you in
 lowbrow way. But now let's go a bit further. The graph of dQ is a
@@ -483,7 +483,7 @@ made of resistors.
 So, we can try a category where:
 
 -   An object is a finite-dimensional real vector space.
--   A morphism S: V \to W is a Lagrangian subspace of T*(V+W).
+-   A morphism S\colon  V \to  W is a Lagrangian subspace of T*(V+W).
 
 Remember that an element of V describes the potentials on the input
 wires of our circuit, while W does the same job for the output wires. An
@@ -496,7 +496,7 @@ allowed by our circuit.
 We can also change perspective and say:
 
 -   An object is a finite-dimensional real vector space.
--   A morphism S: V \to W is a Lagrangian subspace of T*V \times T*W.
+-   A morphism S\colon  V \to  W is a Lagrangian subspace of T*V \times T*W.
 
 Here an element of T*V describes the potentials and currents on the
 input wires, while T*W does the same job for the output wires. As
@@ -552,7 +552,7 @@ to start by checking my claim:
 > **Claim:** there is a compact dagger-category where:
 >
 > -   An object is a finite-dimensional real vector space.
-> -   A morphism S: V \to W is a Lagrangian subspace of T*V \times T*W.
+> -   A morphism S\colon  V \to  W is a Lagrangian subspace of T*V \times T*W.
 > -   We compose morphisms using composition of relations.
 > -   The tensor product is given by direct sum.
 > -   The symmetry is the obvious thing.

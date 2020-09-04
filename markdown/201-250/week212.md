@@ -219,7 +219,7 @@ the real numbers, and said it was Z/8.
 
 Indeed, the central super division algebras are a complete set of
 representatives for this super Brauer group! In particular, the Clifford
-algebra C~n~ is super Morita equivalent to the nth algebra on this
+algebra C_n is super Morita equivalent to the nth algebra on this
 circle:
 
      C0 = R           ~ R
@@ -285,7 +285,7 @@ just in case I never get around to a decent explanation.
 Two super algebras are super Morita equivalent precisely when they have
 equivalent categories of super representations. So, the super Brauer
 group really consists of 8 different *categories*: the categories
-SuperRep(C~n~), where Bott periodicity says
+SuperRep(C_n), where Bott periodicity says
 
     SuperRep(Cn+8) ~ SuperRep(Cn)
 
@@ -302,7 +302,7 @@ try:
 Theory and Applications of Categories 1 (1995), 78-118. Available at
 `http://www.tac.mta.ca/tac/volumes/1995/n5/1-05abs.html`
 
-If we do this to SuperRep(C~n~), I think we get something like
+If we do this to SuperRep(C_n), I think we get something like
 
 Ω^n(kO)
 
@@ -318,14 +318,14 @@ of Bott periodicity from the algebraic version by turning symmetric
 monoidal categories into infinite loop spaces!
 
 But, the interesting puzzle here is: what process can we do to
-SuperRep(C~n~) to get SuperRep(C~n+1~), which is the algebraic version
+SuperRep(C_n) to get SuperRep(C~n+1~), which is the algebraic version
 of looping? And I think the answer is: "taking super representations of
 C_1 in it". You see,
 
-C_1 \otimes C~n~ = C~n+1~
+C_1 \otimes C_n = C~n+1~
 
 where I'm using the super tensor product of superalgebras, and this
-means that the category of representations of C_1 in SuperRep(C~n~) is
+means that the category of representations of C_1 in SuperRep(C_n) is
 SuperRep(C~n+1~).
 
 And, if I were trying to really explain this instead of merely
@@ -422,7 +422,7 @@ notes in which he outlines proofs of some results above.
 >     1.  Let V be the category of finite-dimensional super vector 
 >     spaces over R.  By super algebra I mean a monoid in this 
 >     category.  There's a bicategory whose objects are super 
->     algebras A, whose 1-cells  M: A \to B  are left A- right B-
+>     algebras A, whose 1-cells  M\colon  A \to  B  are left A- right B-
 >     modules in V, and whose 2-cells are homomorphisms
 >     between modules.  This is a symmetric monoidal bicategory 
 >     under the usual tensor product on V.  
@@ -590,7 +590,7 @@ super division algebras!
 >     A) by saying that the odd part M is an A-bimodule equipped 
 >     with a A-bimodule map pairing 
 >      
->          < -, - >:  M tensor_A M \to A
+>          < -, - >\colon   M tensor_A M \to  A
 >      
 >     such that:
 >
@@ -613,7 +613,7 @@ super division algebras!
 >     and that the A-bimodule structure forces  (ab)' = a'b'.  Hence we 
 >     have an automorphism (fixing the real field) 
 >      
->                   (--)': A \to A
+>                   (--)'\colon  A \to  A
 >      
 >     and we can easily enumerate (up to isomorphism) the possibilities 
 >     for associative super division algebras over R: 

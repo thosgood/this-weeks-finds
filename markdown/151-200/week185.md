@@ -451,17 +451,17 @@ level a notch now.
 First, here's how Joyal's theory works. A "structure type" is really
 a functor
 
-    F: FinSet0 \to Set
+    F\colon  \mathsf{Fin\mathsf{Set}}0 \to  \mathsf{Set}
 
-where FinSet~0~ is the groupoid of finite sets and bijections, and Set
+where \mathsf{Fin\mathsf{Set}}~0~ is the groupoid of finite sets and bijections, and \mathsf{Set}
 is the category of sets and functions.
 
 So: if you feed F a finite set X it spits out F(X), the set of all
 structures on X of the given type. For example, if F is the structure
 type of "orderings", F(X) would be the set of all orderings of X.
 
-But also: if you feed your structure type a bijection f: X \to Y, it spits
-out a function F(f): F(X) \to F(Y). This describes how we can transfer any
+But also: if you feed your structure type a bijection f\colon  X \to  Y, it spits
+out a function F(f)\colon  F(X) \to  F(Y). This describes how we can transfer any
 structure on X to a structure on Y using the bijection f. For example,
 we can use our bijection to turn any ordering of X into an ordering of
 Y.
@@ -469,10 +469,10 @@ Y.
 There is actually a category of structure types, where the objects are
 functors
 
-F: FinSet~0~ \to Set
+F\colon  \mathsf{Fin\mathsf{Set}}~0~ \to  \mathsf{Set}
 
 and the morphisms are natural transformations between these. I'll call
-this category Set\[\[x\]\], because it's really a categorification of
+this category \mathsf{Set}\[\[x\]\], because it's really a categorification of
 the set of formal power series with natural number coefficients,
 N\[\[x\]\]. But I want to explain exactly what this means!
 
@@ -491,7 +491,7 @@ categorify all sorts of concepts. It starts out something like this:
 
 ... and it goes on forever. In particular, if you look further down
 this chart, you'll see that N appears in the left-hand column as the
-free commutative rig on no generators, Set appears in the right-hand
+free commutative rig on no generators, \mathsf{Set} appears in the right-hand
 column as the free symmetric 2-rig on no generators.
 
 Huh?
@@ -509,7 +509,7 @@ category with colimits equipped with a monoidal structure that
 distributes over the colimits. Having colimits is like having addition;
 the monoidal structure is like multiplication. We call a 2-rig
 "symmetric" if the monoidal structure is symmetric; this is like being
-commutative. The most important 2-rig of all is the category Set, since
+commutative. The most important 2-rig of all is the category \mathsf{Set}, since
 this is the free 2-rig on no generators. It's also the free symmetric
 2-rig on no generators.
 
@@ -518,12 +518,12 @@ polynomials in x with natural number coefficients. We need to do a kind
 of "completion" process, throwing in certain infinite sums, to get
 N\[\[x\]\], the rig of formal power series in x with natural number
 coefficients. The theory of 2-rigs allows infinite sums automatically,
-so the free symmetric 2-rig on one generator is called Set\[\[x\]\] -
+so the free symmetric 2-rig on one generator is called \mathsf{Set}\[\[x\]\] -
 and this is the category of structure types! Addition and multiplication
 in this 2-rig turn out to work exactly as I've already described.
 
 There's a lot more to say about this, but the interesting thing to me
-now is that when we q-deform Set\[\[x\]\], we get the category of
+now is that when we q-deform \mathsf{Set}\[\[x\]\], we get the category of
 structures on projective spaces over the field with q elements. And the
 *really* interesting part is that while this is a monoidal category,
 it's no longer symmetric. However, it's almost *braided*. Actually,
@@ -556,12 +556,12 @@ I hope the general picture is clear:
 
 We're thinking of the groupoid formed by the projective spaces and
 their symmetry groups \mathrm{PSL}(n,F~q~) as a q-deformed version of the
-groupoid formed by the finite sets and their symmetry groups S~n~. The
-functors from these groupoids to Set are "structure types", and taking
+groupoid formed by the finite sets and their symmetry groups S_n. The
+functors from these groupoids to \mathsf{Set} are "structure types", and taking
 generating functions of these we get the Fock representation.
 
 In a sense, all this relies on the analogy between the permutation
-groups S~n~ and the groups \mathrm{PSL}(n). The groups \mathrm{PSL}(n) have Dynkin
+groups S_n and the groups \mathrm{PSL}(n). The groups \mathrm{PSL}(n) have Dynkin
 diagrams like this:
 
 

@@ -54,7 +54,7 @@ generalization of Mac Lane's coherence theorem - that every weak
 *if* your notion of equivalence is suitably weak! In short, what we've
 got is an inclusion of weak 3-categories:
 
-i: Strict2Cat \to Weak2Cat
+i\colon  Strict2Cat \to  Weak2Cat
 
 where
 
@@ -80,11 +80,11 @@ Steve Lack spoke about Gray-categories, also known as "semistrict"
 The idea here goes back to John Gray. In the usual Cartesian product of
 categories, whenever we have a morphism
 
-f: A \to B
+f\colon  A \to  B
 
 in the first category and a morphism
 
-f ': A' \to B'
+f '\colon  A' \to  B'
 
 in the second, we get a commuting square:
 
@@ -107,13 +107,13 @@ weakening of the Cartesian product to weaken the concept of strict
 Here's how. A strict 3-category is a gizmo with:
 
 -   a bunch of objects,
--   for any pair of objects x,y, a 2-category hom(x,y),
+-   for any pair of objects x,y, a 2-category \operatorname{Hom}(x,y),
 
 and
 
 -   for any triple of objects x,y,z, a 2-functor
 
-    o: hom(x,y) \times hom(y,z) \to hom(x,z)
+    o\colon  \operatorname{Hom}(x,y) \times \operatorname{Hom}(y,z) \to  \operatorname{Hom}(x,z)
 
 such that
 
@@ -122,13 +122,13 @@ such that
 A semistrict 3-category is a gizmo with:
 
 -   a bunch of objects,
--   for any pair of objects x,y, a 2-category hom(x,y),
+-   for any pair of objects x,y, a 2-category \operatorname{Hom}(x,y),
 
 and
 
 -   for any triple of objects x,y,z, a 2-functor
 
-    o: hom(x,y) \otimes hom(y,z) \to hom(x,z)
+    o\colon  \operatorname{Hom}(x,y) \otimes \operatorname{Hom}(y,z) \to  \operatorname{Hom}(x,z)
 
 where \otimes is the Gray tensor product, such that
 
@@ -145,18 +145,18 @@ Lack has recently noted:
 [math.CT/0612299](http://xxx.lanl.gov/abs/math.CT/0612299).
 
 To understand this, you may need a little warmup. Given strict
-2-categories B and C there's a strict 2-category hom(B,C) such that
+2-categories B and C there's a strict 2-category \operatorname{Hom}(B,C) such that
 strict 2-functors
 
 A \times B \to C
 
 are in natural 1-1 correspondence with strict 2-functors
 
-A \to hom(B,C)
+A \to \operatorname{Hom}(B,C)
 
-Here's what hom(B,C) is like:
+Here's what \operatorname{Hom}(B,C) is like:
 
-    hom(B,C) has strict 2-functors from B to C as objects,
+    \operatorname{Hom}(B,C) has strict 2-functors from B to C as objects,
                  strict natural transformations between these as morphisms,
                  modifications between these as 2-morphisms.
 
@@ -211,11 +211,11 @@ a semistrict one.
 An interesting theme of all three talks was the idea of treating the
 "strictification" functor implicit in Mac Lane's coherence theorem:
 
-st: Weak2Cat \to Strict2Cat
+st\colon  Weak2Cat \to  Strict2Cat
 
 as the left adjoint of the inclusion
 
-i: Strict2Cat \to Weak2Cat
+i\colon  Strict2Cat \to  Weak2Cat
 
 where now we think of both Strict2Cat and Weak2Cat as mere 1-categories.
 You can read more about this idea here:
@@ -247,21 +247,21 @@ we often use a weaker concept of equivalence!
 
 In homotopy theory, we say a map between spaces
 
-f: X \to Y
+f\colon  X \to  Y
 
 is a "weak homotopy equivalence" if it induces isomorphisms on
 homotopy groups:
 
-π~n~(f): π~n~(X) \to π~n~(Y)
+\pi _n(f)\colon  \pi _n(X) \to  \pi _n(Y)
 
 In homological algebra, we say a map between chain complexes
 
-f: X \to Y
+f\colon  X \to  Y
 
 is a "quasi-isomorphism" if it induces isomorphisms on homology
 groups:
 
-H~n~(f): H~n~(X) \to H~n~(Y)
+H_n(f)\colon  H_n(X) \to  H_n(Y)
 
 Model category theory formalizes this by speaking of a category C
 equipped with a classes of morphisms called "weak equivalences". We

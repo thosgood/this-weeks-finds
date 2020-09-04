@@ -513,7 +513,7 @@ equivalent, roughly this:
 >
 > a symmetric 2-group instead has an isomorphism
 >
-> S~x,y~: x \otimes y \to y \otimes x
+> S~x,y~\colon  x \otimes y \to  y \otimes x
 >
 > with the property that doing it twice gives the identity:
 >

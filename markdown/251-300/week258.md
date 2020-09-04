@@ -189,21 +189,21 @@ set of all endomorphisms of this unit object.
 
 Given two such endomorphisms, say
 
-f: I \to I
+f\colon  I \to  I
 
 and
 
-g: I \to I
+g\colon  I \to  I
 
 we can compose them, getting
 
-f o g: I \to I
+f o g\colon  I \to  I
 
 This makes end(I) into a monoid. But we can also tensor f and g, and
 since I \otimes I is isomorphic to I in a specified way, we can write the
 result simply as
 
-f \otimes g: I \to I
+f \otimes g\colon  I \to  I
 
 This makes end(I) into a monoid in another, seemingly different way.
 
@@ -226,7 +226,7 @@ Then the Eckmann-Hilton argument goes as follows:
              =         =   g f   =         = 
          g       g 1                 1 f       f
 
-Here 1 means the identity morphism 1: I \to I. Each step in the argument
+Here 1 means the identity morphism 1\colon  I \to  I. Each step in the argument
 follows from standard stuff about monoidal categories. In particular, an
 expression like
 
@@ -334,7 +334,7 @@ are zero except for H^0^, which equals X. You should think of a
 projective resolution as a "puffed-up" version of X that's better for
 mapping out of than X itself.
 
-Given this, besides the usual set hom(X,Y) of morphisms from the object
+Given this, besides the usual set \operatorname{Hom}(X,Y) of morphisms from the object
 X to the object Y, we also get a cochain complex which I'll call the
 "puffed-up hom":
 
@@ -346,7 +346,7 @@ How does this work? Simple: replace X by a chosen projective resolution
 
 and then map this whole thing to Y, getting a cochain complex
 
-    hom(X0,Y) ---> hom(X1,Y) ---> hom(X2,Y) --- >
+    \operatorname{Hom}(X0,Y) ---> \operatorname{Hom}(X1,Y) ---> \operatorname{Hom}(X2,Y) --- >
 
 This cochain complex is the puffed-up hom, HOM(X,Y).
 
@@ -354,7 +354,7 @@ Now, you might hope that the puffed-up hom gives us a new category where
 the hom-sets are actually cochain complexes. This is morally true, but
 the composition
 
-o: HOM(X,Y) \times HOM(Y,Z) \to HOM(X,Z)
+o\colon  HOM(X,Y) \times HOM(Y,Z) \to  HOM(X,Z)
 
 probably isn't associative "on the nose". However, I think it should
 be associative up to homotopy! This homotopy probably won't satisfy the
@@ -387,11 +387,11 @@ that holds "up to coherent homotopy".
 
 Let I be the unit object, as before. In addition to composition:
 
-o: END(I) \times END(I) \to END(I)
+o\colon  END(I) \times END(I) \to  END(I)
 
 tensoring should give us another product:
 
-\otimes: END(I) \times END(I) \to END(I)
+\otimes\colon  END(I) \times END(I) \to  END(I)
 
 which is also associative up to coherent homotopy. So, END(I) should be
 an A~\infty~-algebra in two ways. But, since composition and tensoring in our
@@ -705,7 +705,7 @@ Johansson wrote:
 > A~\infty~-algebra structure.
 
 Note the great technical simplification of working with what I called
-hom(PX,PX) instead of hom(PX,X) - composition becomes strictly
+\operatorname{Hom}(PX,PX) instead of \operatorname{Hom}(PX,X) - composition becomes strictly
 associative!
 
 For more discussion, go to the [*n*-Category

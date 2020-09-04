@@ -439,7 +439,7 @@ finite field.
 We can define Minkowski spacetime of any dimension over any field F:
 it's just F^n+1^ with the quadratic form
 
-x^2 = x~0~^2 - x_1^2 - ... - x~n~^2
+x^2 = x~0~^2 - x_1^2 - ... - x_n^2
 
 We define \mathrm{O}(n,1) to be the group of transformations of F^n+1^ that
 preserve the above quadratic form, and define the "Lorentz group"

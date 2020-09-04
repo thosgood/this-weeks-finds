@@ -264,7 +264,7 @@ I don't understand this stuff well enough to try a full-fledged
 explanation yet, so I'll just give a vague sketch. A "prime geodesic"
 in a Riemannian manifold X is a closed geodesic
 
-f: S^1 \to X
+f\colon  S^1 \to  X
 
 that cycles around just once. In other words, f should be one-to-one.
 
@@ -293,7 +293,7 @@ And indeed, Darin Brown has found a big mysterious analogy that goes
 like this:
 
 >     Number field K                   Hyperbolic surface H/G
->     Field extension K' of K          Covering p: H/G' \to H/G
+>     Field extension K' of K          Covering p\colon  H/G' \to  H/G
 >     Galois group Gal(K'/K)           Deck transformation group Aut(p)
 >     Prime ideal Q of K               Prime geodesic f in H/G
 >     Prime ideal Q' lying over Q      Prime geodesic f' lying over f

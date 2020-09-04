@@ -117,7 +117,7 @@ to summarize the main result.
 
 I explained the idea of homotopy groups back in
 ["Week 102"](#week102). Very roughly, the nth homotopy group of a
-space X, usually denoted π~n~(X), is the set of ways you can map an
+space X, usually denoted \pi _n(X), is the set of ways you can map an
 n-sphere into that space, where we count two ways as the same if you can
 continuously deform one to the other. If a space has holes, homotopy
 groups are one way to detect those holes.
@@ -127,21 +127,21 @@ a space as the 2-sphere, S^2, there's a sense in which "nobody
 knows" all its homotopy groups. People know the first 64, though. Here
 are a few:
 
-π_1(S^2) = 0\
-π_2(S^2) = Z\
-π_3(S^2) = Z\
-π_4(S^2) = Z/2\
-π~5~(S^2) = Z/2\
-π~6~(S^2) = Z/4 \times Z/3\
-π~7~(S^2) = Z/2\
-π~8~(S^2) = Z/2\
-π~9~(S^2) = Z/3\
-π~10~(S^2) = Z/3 \times Z/5\
-π~11~(S^2) = Z/2\
-π~12~(S^2) = Z/2 \times Z/2\
-π~13~(S^2) = Z/2 \times Z/2 \times Z/3\
-π~14~(S^2) = Z/2 \times Z/2 \times Z/4 \times Z/3 \times Z/7\
-π~15~(S^2) = Z/2 \times Z/2\
+\pi _1(S^2) = 0\
+\pi _2(S^2) = Z\
+\pi _3(S^2) = Z\
+\pi _4(S^2) = Z/2\
+\pi ~5~(S^2) = Z/2\
+\pi ~6~(S^2) = Z/4 \times Z/3\
+\pi ~7~(S^2) = Z/2\
+\pi ~8~(S^2) = Z/2\
+\pi ~9~(S^2) = Z/3\
+\pi ~10~(S^2) = Z/3 \times Z/5\
+\pi ~11~(S^2) = Z/2\
+\pi ~12~(S^2) = Z/2 \times Z/2\
+\pi ~13~(S^2) = Z/2 \times Z/2 \times Z/3\
+\pi ~14~(S^2) = Z/2 \times Z/2 \times Z/4 \times Z/3 \times Z/7\
+\pi ~15~(S^2) = Z/2 \times Z/2\
 
 Apart from the fact that they're all abelian groups, all finite except
 for the first two, it's hard to spot any pattern!
@@ -153,7 +153,7 @@ cohomology. But, many of these patterns are too complex for present-day
 mathematics until we use some tricks to "water down" or simplify the
 homotopy groups.
 
-So, what people often do first is take the limit of π~n+k~(S^n) as n \to
+So, what people often do first is take the limit of \pi ~n+k~(S^n) as n \to
 \infty, getting what's called the kth "stable" homotopy group of spheres.
 It's a wonderful but well-understood fact that these limits really
 exist. But so far, even these are too complicated to understand until we
@@ -161,7 +161,7 @@ work "at a prime p". This means that we take the kth stable homotopy
 group of spheres and see which groups of the form Z/p^n show up in it.
 For example,
 
-π~14~(S^2) = Z/2 \times Z/2 \times Z/4 \times Z/3 \times Z/7
+\pi ~14~(S^2) = Z/2 \times Z/2 \times Z/4 \times Z/3 \times Z/7
 
 but if we work "at the prime 2" we just see the Z/2 \times Z/2 \times Z/4.
 
@@ -196,7 +196,7 @@ homotopy groups of S^2, in terms of braids:
 braids and homotopy groups, J. Amer. Math. Soc., 19 (2006), 265-326.
 Also available at `http://www.math.nus.edu.sg/~matwujie/BCWWfinal.pdf`
 
-For this you need to realize that for any n, there's a group B~n~ whose
+For this you need to realize that for any n, there's a group B_n whose
 elements are $n$-strand braids. For example, here's an element of B_3:
 
     |   |  |  
@@ -264,7 +264,7 @@ running around the plane, never bumping into each other. This gives an
 interesting way to generalize the concept of a braid! Instead of points
 running around the plane, we can have points running around S^2, or
 some other surface X. So, for any surface X and any number n of strands,
-we get a "surface braid group", called B~n~(X).
+we get a "surface braid group", called B_n(X).
 
 As I hinted in ["Week 261"](#week261), these surface braid groups
 have cool relationships to Dynkin diagrams. I urged you to read this
@@ -273,23 +273,23 @@ paper, and I'll urge you again:
 10) Daniel Allcock, Braid pictures for Artin groups, available as
 [`arXiv:math.GT/9907194`](http://arxiv.org/abs/math.GT/9907194).
 
-But for now, we just need the "spherical braid group" B~n~(S^2)
-together with the usual braid group B~n~.
+But for now, we just need the "spherical braid group" B_n(S^2)
+together with the usual braid group B_n.
 
 Let's say a braid is "Brunnian" if when you remove any one strand,
 the remaining braid becomes the identity: you can straighten out all the
 remaining strands to make them vertical. It's a fun little exercise to
 check that Brunnian braids form a subgroup of all braids. So, we have an
-n-strand Brunnian braid group BB~n~.
+n-strand Brunnian braid group BB_n.
 
 The same idea works for braids on other surface, like the 2-sphere. So,
-we also have an $n$-strand *spherical* Brunnian braid group BB~n~(S^2).
+we also have an $n$-strand *spherical* Brunnian braid group BB_n(S^2).
 
 Now, there's obvious map
 
-B~n~ \to B~n~(S^2)
+B_n \to B_n(S^2)
 
-Why? An element of B~n~ describes the motion of a bunch of points
+Why? An element of B_n describes the motion of a bunch of points
 running around the plane, but the plane sits inside the 2-sphere: the
 2-sphere is just the plane with an extra point tacked on. So, an
 ordinary braid gives a spherical braid.
@@ -297,12 +297,12 @@ ordinary braid gives a spherical braid.
 This map clearly sends Brunnian braids to spherical Brunnian braids, so
 we get a map
 
-f: BB~n~ \to BB~n~(S^2)
+f\colon  BB_n \to  BB_n(S^2)
 
 And now we're ready for the shocking theorem of Berrick, Cohen, Wong
 and Wu:
 
-**Theorem:** For n > 3, π~n~(S^2) is BB~n~(S^2) modulo the image of
+**Theorem:** For n > 3, \pi _n(S^2) is BB_n(S^2) modulo the image of
 f.
 
 In something more like plain English: when n is big enough, the nth
@@ -312,7 +312,7 @@ modulo ordinary Brunnian braids!
 Zounds! What do the homotopy groups of S^2 have to do with braids?
 It's not supposed to be obvious! The proof of this result is long and
 deep, making use of flows on metric spaces, and also the fact that all
-the Brunnian braid groups BB~n~ fit together into a "simplicial group"
+the Brunnian braid groups BB_n fit together into a "simplicial group"
 whose nth homology is the nth homotopy group of S^2. I'd love to
 understand all this stuff, but I don't yet.
 
@@ -364,15 +364,15 @@ S^1 \to S^3 \to S^2
 Like any fiber bundle, it gives a long exact sequence of homotopy groups
 as explained in ["Week 151"](#week151):
 
-... \to π~n~(S^1) \to π~n~(S^3) \to π~n~(S^2) \to π~n-1~(S^1) \to ...
+... \to \pi _n(S^1) \to \pi _n(S^3) \to \pi _n(S^2) \to \pi ~n-1~(S^1) \to ...
 
 but the homotopy groups of S^1 vanishes after the first, so we get
 
-... \to 0 \to π~n~(S^3) \to π~n~(S^2) \to 0 \to ...
+... \to 0 \to \pi _n(S^3) \to \pi _n(S^2) \to 0 \to ...
 
 for n > 2, which says that
 
-π~n~(S^3) ≅ π~n~(S^2)
+\pi _n(S^3) ≅ \pi _n(S^2)
 
 Okay, now for this mysterious sequence:
 
@@ -547,7 +547,7 @@ forms. But, I want to quit here for now.
 
 **Addenda:** I thank David Corfield for pointing out how to get ahold of
 Wu's papers free online - and earlier, for telling me Wu's
-combinatorial description of π_3(S^2).
+combinatorial description of \pi _3(S^2).
 
 Martin Ouwehand told me that some of Coleman's lecture notes on quantum
 field theory are available in TeX here:

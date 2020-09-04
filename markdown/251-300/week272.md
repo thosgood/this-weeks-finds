@@ -206,7 +206,7 @@ six-element set has a symmetry group with an EXTRA symmetry - a symmetry
 that doesn't come from a symmetry of that set! This is called an
 "outer automorphism".
 
-In more jargonesque terms: of all the permutation groups S~n~, only S~6~
+In more jargonesque terms: of all the permutation groups S_n, only S~6~
 has an outer automorphism. It has just one, and I described it here:
 
 12) John Baez, Some thoughts on the number six,
@@ -287,12 +287,12 @@ A~7~                                       229/315       �
 
 A~9~                                       15403/18144       \~ .849
 
-Here A~n~ is the group of even permutations of an $n$-element set, while
+Here A_n is the group of even permutations of an $n$-element set, while
 \mathrm{PSL}(n,q) is the group of n \times n matrices with determinant 1 having
 entries in the field with q elements, mod multiples of the identity
 matrix. Of the groups listed above, only A_4 is not simple. I included
 this one just because I wanted to list *all* the unexpected isomorphisms
-between "alternating" groups (A~n~'s) and "projective special
+between "alternating" groups (A_n's) and "projective special
 linear" groups (PSL's).
 
 (Each of these isomorphisms makes a wonderful story in itself - but not
@@ -530,7 +530,7 @@ For standard Borel spaces and von Neumann algebras, try this:
 And for really hard-core results on standard Borel spaces and Polish
 groups, try this:
 
-19) H. Becker and A. S. Kechris, Descriptive Set Theory of Polish Group
+19) H. Becker and A. S. Kechris, Descriptive \mathsf{Set} Theory of Polish Group
 Actions, Cambridge U. Press, Cambridge, 1996.
 
 I can't imagine any of the normal readers of This Week's Finds will

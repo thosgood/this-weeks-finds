@@ -126,9 +126,9 @@ in 1999 by Breuil, Conrad, Diamond, and Taylor.
 I don't want to say what L-functions of curves are yet... but they are
 a lot like Dirichlet L-functions.
 
-**G) The Langlands Conjectures - any automorphic representation π of a
+**G) The Langlands Conjectures - any automorphic representation \pi  of a
 connected reductive group G, together with a finite-dimensional
-representation of its L-group, gives an automorphic L-function L(s,π).**
+representation of its L-group, gives an automorphic L-function L(s,\pi ).**
 Also: these L-functions all satisfy functional equations. Furthermore,
 they depend functorially on the group G, its L-group, and their
 representations.
@@ -139,7 +139,7 @@ wrote:
 
 > The conjectures of Langlands just alluded to amount (roughly) to the
 > assertion that the other zeta-functions arising in number theory are
-> but special realizations of these L(s,π).
+> but special realizations of these L(s,\pi ).
 >
 > Herein lies the agony as well as the ecstacy of Langlands' program.
 > To merely state the conjectures correctly requires much of the
@@ -176,7 +176,7 @@ we multiply the zeta function by an extra fudge factor.
 
 To be precise: if we form the function
 
-π^-s/2^ Γ(s/2) \zeta(s)
+\pi ^-s/2^ Γ(s/2) \zeta(s)
 
 then this function is unchanged by the transformation
 
@@ -217,7 +217,7 @@ z^1 + z^4 + z^9 + z^25^ + ....
 
 Weird, huh? This is almost the "theta function"
 
-θ(t) = \sum~n~ e^π\ i\ n^2\ t^
+θ(t) = \sum_n e^\pi \ i\ n^2\ t^
 
 where we sum over all integers n. Indeed, it's easy to see that
 
@@ -225,7 +225,7 @@ where we sum over all integers n. Indeed, it's easy to see that
 
 when
 
-z = e^π\ i\ t^
+z = e^\pi \ i\ t^
 
 The theta function transforms in a very simple way when we replace t by
 -1/t, as one can show using Fourier analysis.
@@ -251,7 +251,7 @@ but also when we do this:
 
 t \mapsto t + 2
 
-Indeed, it doesn't change at all when we add 2 to t, since e^2π\ i^ =
+Indeed, it doesn't change at all when we add 2 to t, since e^2\pi \ i^ =
 1.
 
 Now, the maps
@@ -406,7 +406,7 @@ or
 
 > "how many ideals of order n are there in this number field?"
 
-and they call the answer a~n~.
+and they call the answer a_n.
 
 Then they encode this sequence as either a Dirichlet series:
 
@@ -522,14 +522,14 @@ He replied:
 
 > Yeah, that's a really key question. I'm not sure that there is an
 > elementary answer. Here is another question: given a sequence of
-> complex numbers a_1, a_2,...,a~n~,..., with
+> complex numbers a_1, a_2,...,a_n,..., with
 >
-> a~n~ = \mathrm{O}(n^r ^),
+> a_n = \mathrm{O}(n^r ^),
 >
 > what is a neat easy-to-understand property of this sequence which
 > implies (or is implied by, or is equivalent to) the statement that
 >
-> \sum a~n~/n^s^
+> \sum a_n/n^s^
 >
 > has analytic (or meromorphic) continuation beyond Re(s)>r? Maybe even
 > this is hard---or maybe there is no such elementary criterion.
@@ -542,7 +542,7 @@ He replied:
 > is periodic with prime period p (primality probably isn't necessary
 > but it simplifies the combinatorics). Then the associated L-function
 >
-> \sum a~n~/n^s^
+> \sum a_n/n^s^
 >
 > has meromorphic continuation with at worst a simple pole at s=1 and no
 > other poles, and one could even argue that the a_i "came from an
@@ -554,7 +554,7 @@ He replied:
 > the trivial character χ(n)=1 for all n, and then the p-1 Dirichlet
 > characters of level p, those defined by group homomorphisms
 >
-> χ:(Z/pZ)* \to C*
+> χ\colon (Z/pZ)* \to  C*
 >
 > and extended to functions on Z by χ(n)=0 for n a multiple of p. These
 > p functions on Z form a basis of the vector space of periodic
@@ -564,29 +564,29 @@ He replied:
 > are a vector space so you can add them together and get an automorphic
 > form for any periodic function. However the Dirichlet characters are
 > the most interesting such forms because these are the ones which are
-> eigenforms. The eigenforms give multiplicative a~n~, but it's
+> eigenforms. The eigenforms give multiplicative a_n, but it's
 > certainly not true in general that a periodic function is
 > multiplicative.
 >
 > But I can't really enlighten you much further. I know that the
 > L-function of an automorphic form has meromorphic continuation and
 > that we understand the poles (but we only conjecturally understand the
-> zeroes). However if someone put some a~n~ in front of me I would
-> demand that they told me where the a~n~ had come from before I put my
+> zeroes). However if someone put some a_n in front of me I would
+> demand that they told me where the a_n had come from before I put my
 > money on whether there was an automorphic form.
 >
 > The example where I actually proved something was in the case where
-> the a~n~ came from a finite-dimensional complex representation of
+> the a_n came from a finite-dimensional complex representation of
 > Gal(K/Q) with K a number field, Galois over Q. (In fact my only
 > contribution was in the 2-dimensional case, the 1-dimensional case
-> having been understood for some time.) The a~n~ are then related to
+> having been understood for some time.) The a_n are then related to
 > traces of the representation. Artin conjectured in the 1930s that
 >
-> \sum a~n~/n^s^
+> \sum a_n/n^s^
 >
 > should have analytic continuation to all of the complex plane if the
 > representation was irreducible and not the trivial 1-dimensional
-> representation. Langlands conjectured much later that the a~n~ should
+> representation. Langlands conjectured much later that the a_n should
 > come from an automorphic form, and we knew by then that Langlands'
 > conjecture implied Artin's. But none of the analytic guys know how to
 > prove Artin's conjecture without essentially deducing it from
@@ -604,7 +604,7 @@ He replied:
 > But unfortunately this is only true for "level 1" modular forms: you
 > can build all modular forms of level 1 from the Eisenstein series E_4
 > and E~6~. There is no neat analogous result for modular forms for the
-> group Γ~0~(N) for general N. In particular you will never see the a~n~
+> group Γ~0~(N) for general N. In particular you will never see the a_n
 > for an elliptic curve built up from Eisenstein series in this way :-(
 >
 >      > What I'd like is a really "conceptual" answer... or else for someone
@@ -629,12 +629,12 @@ He replied:
 >
 > Then K has a Galois group Gal(K/Q), which is the field automorphisms
 > of K that fix Q. Say f has degree n and n roots z_1, z_2, ... ,
-> z~n~. Then any automorphism of K fixes f, so it permutes the roots of
+> z_n. Then any automorphism of K fixes f, so it permutes the roots of
 > f. So we get an embedding
 >
-> Gal(K/Q) \to S~n~
+> Gal(K/Q) \to S_n
 >
-> where S~n~ is the symmetric group on the set z_1, z_2, ... , z~n~.
+> where S_n is the symmetric group on the set z_1, z_2, ... , z_n.
 > Then any automorphism of K fixes f, so it permutes the roots of f. So
 > we get an embedding
 >
@@ -659,7 +659,7 @@ He replied:
 > extension of degree 2, with Galois group S_2 which is abelian.
 >
 > The splitting field of x^n-1, called the nth cyclotomic field, also
-> turns out to have abelian Galois group; if z = exp(2πin) then any
+> turns out to have abelian Galois group; if z = exp(2\pi in) then any
 > automorphism of K must send z to another nth root of unity and
 > furthermore the nth root of unity must have "exact order n", i.e.
 > its nth power must be 1 but none of its mth powers can be 1 for 0 < m
@@ -692,9 +692,9 @@ He replied:
 >
 > so a map
 >
-> Gal(K~n~/Q) \to C*,
+> Gal(K_n/Q) \to C*,
 >
-> with K~n~ the nth cyclotomic field, so a continuous group homomorphism
+> with K_n the nth cyclotomic field, so a continuous group homomorphism
 >
 > Gal(Q^-^/Q) \to C*.
 >
@@ -710,7 +710,7 @@ He replied:
 > so Gal(K/Q) is abelian, so K is contained in a K^n for some n, so we
 > get a map
 >
-> Gal(K~n~/Q) \to C*
+> Gal(K_n/Q) \to C*
 >
 > so it's a Dirichlet character.
 >
@@ -741,9 +741,9 @@ He replied:
 >
 > ***
 >
-> I know some facts about the sequence a~n~ coming from, say, an
+> I know some facts about the sequence a_n coming from, say, an
 > elliptic curve over the rationals, but the killer, and one that is
-> really hard to "read off" from the a~n~, is that the a~n~ are
+> really hard to "read off" from the a_n, is that the a_n are
 > related to the traces of Frobenius elements on a 2-dimensional p-adic
 > Galois representation (the Tate module of the curve). The moment I see
 > a Galois representation I think that this must be something to do with
@@ -752,8 +752,8 @@ He replied:
 > other hand, if you give me any finite set of primes p, and any
 > integers a~p~ with p running through the set, such that
 > |a~p~|^2≤4p, then I can concoct an elliptic curve with these a~p~,
-> so at the very least one has to look at infinitely many of the a~n~
-> before one can begin to guess whether the a~n~ come from an
+> so at the very least one has to look at infinitely many of the a_n
+> before one can begin to guess whether the a_n come from an
 > automorphic form.
 >
 > Kevin

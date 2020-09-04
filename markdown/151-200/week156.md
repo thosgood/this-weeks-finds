@@ -269,7 +269,7 @@ you can find lots of details here:
 That's basically it for this week. I just have a couple of questions
 about CPT. A while back on sci.physics.research I emphasized a little
 theorem that says: any self-dual irreducible unitary group
-representation H must admit an antiunitary intertwiner J: H \to H with
+representation H must admit an antiunitary intertwiner J\colon  H \to  H with
 either J^2 = 1 or J^2 = -1. In the first case H comes from a real
 representation; in the second case it comes from a quaternionic
 representation. For more details, try this:

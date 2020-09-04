@@ -16,7 +16,7 @@ rational numbers.
 But if you think about it, that's pretty weird!
 
 For example, the first homotopy group of a space X, usually called the
-"fundamental group" of X and denoted π_1(X), consists of equivalence
+"fundamental group" of X and denoted \pi _1(X), consists of equivalence
 classes of loops in X that start and end at our favorite point. Two
 loops count as equivalent if you can continuously deform one until it
 looks like the other. If you can do this, we say these loops are
@@ -90,25 +90,25 @@ but the group of integers is "torsion-free".
 
 Look at some homotopy groups of spheres and you'll see what I mean:
 
-    π3(S2)   = Z  
+    \pi 3(S2)   = Z  
 
-    π5(S3)   =     Z/2 
+    \pi 5(S3)   =     Z/2 
 
-    π7(S4)   = Z x Z/12 
+    \pi 7(S4)   = Z x Z/12 
 
-    π9(S5)   =     Z/2  
+    \pi 9(S5)   =     Z/2  
 
-    π11(S6)  = Z  
+    \pi 11(S6)  = Z  
 
-    π13(S7)  =     Z/2  
+    \pi 13(S7)  =     Z/2  
 
-    π15(S8)  = Z x Z/120  
+    \pi 15(S8)  = Z x Z/120  
 
-    π17(S9)  =     Z/8   
+    \pi 17(S9)  =     Z/8   
 
-    π19(S10) = Z x Z/8  
+    \pi 19(S10) = Z x Z/8  
 
-These are the homotopy groups π~2n-1~(S^n). If you were asked to make a
+These are the homotopy groups \pi ~2n-1~(S^n). If you were asked to make a
 guess about the torsion-free part of these groups, you could easily
 formulate a conjecture: it's Z when n is even, and trivial when n is
 odd. And this is true.
@@ -157,7 +157,7 @@ abelian, so we don't have to worry about nonabelian groups.
 Now, I've made it sound like the right way to "kill off torsion" in
 an abelian group is to mod out by its torsion subgroup. This makes me
 wonder if there's a systematic way to take a space X and turn it into a
-space X' such that π~n~(X') is π~n~(X) mod its torsion subgroup. Does
+space X' such that \pi _n(X') is \pi _n(X) mod its torsion subgroup. Does
 anyone know?
 
 But anyway, this is *not* how we kill off torsion in rational homotopy
@@ -207,7 +207,7 @@ notoriously well-behaved.
 Next let me sketch how we can take a 1-connected space X and
 "rationalize" it, obtaining a new space X~Q~ with
 
-π~n~(X~Q~) = π~n~(X) \otimes Q
+\pi _n(X~Q~) = \pi _n(X) \otimes Q
 
 for all n.
 
@@ -304,7 +304,7 @@ satisfying two properties. First, X' is a "rational space": a
 1-connected pointed space whose homotopy groups are rational vector
 spaces. Second, the induced map
 
-Q \otimes π~n~(X) \to Q \otimes π~n~(X')
+Q \otimes \pi _n(X) \to Q \otimes \pi _n(X')
 
 is isomorphism for all n.
 
@@ -319,12 +319,12 @@ into one of these. But as I already admitted, this misses the point.
 To come closer to the point, we need to recall an amazing old theorem
 due to J. H. C. Whitehead, which says a map
 
-f: X \to Y
+f\colon  X \to  Y
 
 between connected CW complexes is a homotopy equivalence if and only if
 the induced maps
 
-π~n~(f): π~n~(X) \to π~n~(Y)
+\pi _n(f)\colon  \pi _n(X) \to  \pi _n(Y)
 
 are isomorphisms for all n. This is why for more general connected
 spaces we define any map that induces isomorphisms on homotopy groups to
@@ -338,12 +338,12 @@ These ideas are very powerful, so it's good to generalize them to
 rational homotopy theory. So now suppose X and Y are 1-connected pointed
 spaces. And let's say a map
 
-f: X \to Y
+f\colon  X \to  Y
 
 is a "rational homotopy equivalence" if the induced maps on rational
 homotopy groups
 
-Q \otimes π~n~(f): Q \otimes π~n~(X) \to Q \otimes π~n~(Y)
+Q \otimes \pi _n(f)\colon  Q \otimes \pi _n(X) \to  Q \otimes \pi _n(Y)
 
 are isomorphisms for all n. There's a nice category where we formally
 throw in inverses to all rational homotopy equivalences. This is called
@@ -393,11 +393,11 @@ of Serre of torsion abelian groups".
 Let me say this with less jargon. Start with the category of 1-connected
 pointed spaces. Throw in formal inverses of all maps
 
-f: X \to Y
+f\colon  X \to  Y
 
 for which the induced maps
 
-π~n~(f): π~n~(X) \to π~n~(Y)
+\pi _n(f)\colon  \pi _n(X) \to  \pi _n(Y)
 
 have kernels and cokernels where all elements are torsion. This gives
 the rational homotopy category!

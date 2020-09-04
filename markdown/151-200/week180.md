@@ -217,7 +217,7 @@ If you don't know these guys, first think about \mathrm{SO}(n,C). This is the
 group of all linear transformations of C^n preserving the symmetric
 bilinear form
 
-x.y = x_1 y_1 + ... + x~n~ y~n~
+x.y = x_1 y_1 + ... + x_n y_n
 
 Unfortunately \mathrm{SO}(n,C) is not simply connected, so not all reps of its
 Lie algebra give reps of the group. So, to get group representations
@@ -391,7 +391,7 @@ To see how the dots correspond to different types of geometrical figures
 in some incidence geometry, first remember that we're starting with
 C^n equipped with a symmetric bilinear form:
 
-x⋅y = x_1 y_1 + ... + x~n~ y~n~
+x⋅y = x_1 y_1 + ... + x_n y_n
 
 This is really different than R^n with its usual inner product, since
 it's perfectly possible for a vector to have x⋅x = 0, and we can even
@@ -705,7 +705,7 @@ doesn't matter how many space or time directions we had to begin with;
 after complexifying them, all the spaces R^p,q^ look just like C^n (n =
 p+q) with the metric
 
-x.y = x_1 y_1 + ... + x~n~ y~n~
+x.y = x_1 y_1 + ... + x_n y_n
 
 In other words, all these spaces R^p,q^ are sitting inside C^n as
 different "real parts".

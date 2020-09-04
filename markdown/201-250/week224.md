@@ -228,8 +228,8 @@ He sent me this email:
 > > on this point."
 >
 > Well, I have an answer. Hamilton, the first physicist to actually
-> understand the importance of the concept of momentum, chose π to stand
-> for momentum (actually, it's not the usual π, but what TeX calls
+> understand the importance of the concept of momentum, chose \pi  to stand
+> for momentum (actually, it's not the usual \pi , but what TeX calls
 > varpi, a lower-case ω with a top, kinda like the top of a lower-case
 > τ). Jacobi changed this to p in one of his seminal papers on the
 > subject; he also used q in the same paper to stand for position. In
@@ -244,7 +244,7 @@ So, now the question is why Hamilton chose the letter "varpi":
 ![](varpi.png)
 :::
 
-for momentum. This variant of π was fairly common in the mathematical
+for momentum. This variant of \pi  was fairly common in the mathematical
 literature of the day, so there may be no special explanation. For some
 further detective work, see:
 

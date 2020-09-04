@@ -436,7 +436,7 @@ section usually *isn't* a homomorphism.
 
 Given the section s, we get a function
 
-α: B \to Aut(F)
+α\colon  B \to  Aut(F)
 
 where Aut(F) is the group of automorphisms of F. Here's how:
 
@@ -448,7 +448,7 @@ So far this seems a bit sad: functions between groups want to be
 homomorphisms. But, we can measure how much s fails to be a homomorphism
 using the function
 
-g: B^2 \to F
+g\colon  B^2 \to  F
 
 defined by
 
@@ -627,7 +627,7 @@ In particular, he wanted to know the definition of "2-group" and
 >       group, and we're classifying extensions 1\toF\toE\toB\to1 where F lies in the
 >       centre of E. We know the answer here: such E's are classified by H2(B,F)
 >       which, for me, means 2-cocycles over 2-coboundaries. Recall that
->       a 2-cocycle is g:B2\toF satisfying g(a,bc)+g(b,c)=g(a,b)+g(ab,c).
+>       a 2-cocycle is g\colon B2\to F satisfying g(a,bc)+g(b,c)=g(a,b)+g(ab,c).
 >
 > Right.
 >
@@ -642,7 +642,7 @@ In particular, he wanted to know the definition of "2-group" and
 > set: the morphisms of our category get called "elements" of this
 > set. This set then has a multiplication function
 >
-> m: G \times G \to G
+> m\colon  G \times G \to  G
 >
 > and an identity element
 >
@@ -659,7 +659,7 @@ In particular, he wanted to know the definition of "2-group" and
 > "objects" of this category, and the 2-morphisms get called
 > "morphisms". This category then has a multiplication functor
 >
-> m: G \times G \to G
+> m\colon  G \times G \to  G
 >
 > and an identity object
 >
@@ -675,7 +675,7 @@ In particular, he wanted to know the definition of "2-group" and
 > Now, how does a group become a 2-group? Simple: we take the *elements*
 > of our group and make them the *objects* of our 2-group; then we say
 > the only morphisms of our 2-group are identity morphisms. The 2-group
-> multiplication m: G \times G \to G comes from the multiplication in our
+> multiplication m\colon  G \times G \to  G comes from the multiplication in our
 > group, and so on.
 >
 >       Let's stick to F abelian. You think of AUT(F) as being the 2-category with
@@ -690,7 +690,7 @@ In particular, he wanted to know the definition of "2-group" and
 > Here's how we get this. Think of our group F as a category. Then let
 > AUT(F) has F as its only object, invertible functors
 >
-> a: F \to F
+> a\colon  F \to  F
 >
 > as its morphisms, and natural isomorphisms between these as its
 > 2-morphisms.
@@ -700,9 +700,9 @@ In particular, he wanted to know the definition of "2-group" and
 > multiplication and inverses". Given a group F, our 2-group AUT(F)
 > will be the category where the objects are automorphisms
 >
-> a: F \to F
+> a\colon  F \to  F
 >
-> and where a morphism f: a \to a' is an element f of F that conjugates a
+> and where a morphism f\colon  a \to  a' is an element f of F that conjugates a
 > to give a':
 >
 > f a(g) f^-1^ = a'(g) for all g ∈ F
@@ -726,7 +726,7 @@ In particular, he wanted to know the definition of "2-group" and
 > So, let's think of B and AUT(F) as "categories with multiplication
 > and inverses". Then a homomorphism
 >
-> α: B \to AUT(F)
+> α\colon  B \to  AUT(F)
 >
 > is a functor that preserves multiplication of objects *up to a
 > specified isomorphism*, which must satisfy some laws of its own.
@@ -738,7 +738,7 @@ In particular, he wanted to know the definition of "2-group" and
 >
 > Instead, we have an isomorphism
 >
-> g(b,b'): α(bb') \to α(b) α(b')
+> g(b,b')\colon  α(bb') \to  α(b) α(b')
 >
 > This needs to satisfy some equations. I can tell you these if you
 > want, but for starters you can check that in our application, this

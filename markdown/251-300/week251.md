@@ -280,29 +280,29 @@ can't help it.
 
 String theorists occasionally think about 10d physics using the
 octonions, but not much. The strange thing about the octonions is that
-the self-adjoint nxn octonionic matrices h~n~(O) only form a Jordan
+the self-adjoint nxn octonionic matrices h_n(O) only form a Jordan
 algebra when n = 1, 2, or 3. So, it seems we can only describe very
 small systems in octonionic quantum mechanics! Nobody knows what this
 means.
 
 People working on the foundations of quantum mechanics have also thought
-about real and quaternionic quantum mechanics. h~n~(R), h~n~(C) and
-h~n~(H) are Jordan algebras for all n, so the strange limitation
+about real and quaternionic quantum mechanics. h_n(R), h_n(C) and
+h_n(H) are Jordan algebras for all n, so the strange limitation
 afflicting the octonions doesn't affect these cases. But, I wound up
 sharing a little cottage with Lucien Hardy at Les Treilles, and he turns
 out to have thought about this issue. He pointed out that something
 interesting happens when we try to combine two quantum systems by
-tensoring them. The dimensions of h~n~(C) behave quite nicely:
+tensoring them. The dimensions of h_n(C) behave quite nicely:
 
-dim(h~nm~(C)) = dim(h~n~(C)) dim(h~m~(C))
+dim(h~nm~(C)) = dim(h_n(C)) dim(h~m~(C))
 
 But, for the real numbers we usually have
 
-dim(h~nm~(R)) > dim(h~n~(R)) dim(h~m~(R))
+dim(h~nm~(R)) > dim(h_n(R)) dim(h~m~(R))
 
 and for the quaternions we usually have
 
-dim(h~nm~(H)) < dim(h~n~(H)) dim(h~m~(H))
+dim(h~nm~(H)) < dim(h_n(H)) dim(h~m~(H))
 
 So, it seems that when we combine two systems in real quantum mechanics,
 they sprout mysterious new degrees of freedom! More precisely, we can't
@@ -382,7 +382,7 @@ think about left modules, right modules, and bimodules to understand the
 theory of tensor products. And, the quaternions have more bimodules than
 you might expect: for example, for any automorphism of the quaternions:
 
-f: H \to H
+f\colon  H \to  H
 
 there's a way to make H into an H-bimodule with the obvious left action
 and a "twisted" right action, where q acts on x to give
@@ -404,8 +404,8 @@ numbers. Here:
 
 -   there's one object, the real numbers R.
 -   the 1-morphisms are algebras A over R.
--   the 2-morphisms M: A \to B are (A,B)-bimodules.
--   the 3-morphisms f: M \to N are (A,B)-bimodule morphisms.
+-   the 2-morphisms M\colon  A \to  B are (A,B)-bimodules.
+-   the 3-morphisms f\colon  M \to  N are (A,B)-bimodule morphisms.
 
 This could let us treat real, complex and quaternionic quantum mechanics
 as part of a single structure.
@@ -442,15 +442,15 @@ that's not only invariant under permutations of the copies, but lacking
 correlations between the different copies!
 
 Here's the quantum de Finetti theorem. Suppose you have an
-"exchangeable" density operator ρ~n~ on H^\otimes\ n^ - that is, one such
+"exchangeable" density operator ρ_n on H^\otimes\ n^ - that is, one such
 that for each N ≥ n, there's a density operator ρ~N~ on H^\otimes\ N^ which
 1) is invariant under permutations in S~N~ and 2) has ρ as its marginal,
 meaning that
 
-Tr (ρ~N~) = ρ~n~
+Tr (ρ~N~) = ρ_n
 
 where Tr is the partial trace map sending operators on H^\otimes\ N^ to
-operators on H^\otimes\ n^. Then, ρ~n~ is a mixture of density matrices of the
+operators on H^\otimes\ n^. Then, ρ_n is a mixture of density matrices of the
 form ρ \otimes ... \otimes ρ: a tensor product of n copies of a density matrix on
 H.
 

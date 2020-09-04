@@ -216,27 +216,27 @@ thing to the E8 lattice you're likely to see in this 3-dimensional
 world.
 
 The reason is that in any dimension you can define a checkerboard
-lattice called D~n~, consisting of all $n$-tuples of integers that sum to
-an even integer. Then you can define a set called D~n~^+^ by taking two
-copies of the D~n~ lattice: the original and another shifted by the
+lattice called D_n, consisting of all $n$-tuples of integers that sum to
+an even integer. Then you can define a set called D_n^+^ by taking two
+copies of the D_n lattice: the original and another shifted by the
 vector (1/2,...,1/2). D~8~^+^ is the E~8~ lattice, but D_3 is the
 face-centered cubic, and D_3^+^ is the pattern formed by carbons in a
 diamond!
 
 In case you're wondering: in math, unlike crystallography, we reserve
 the term "lattice" for a discrete subgroup of R^n that's isomorphic
-to Z^n. The set D~n~^+^ is only closed under addition when n is even.
+to Z^n. The set D_n^+^ is only closed under addition when n is even.
 So, the carbons in a diamond don't form a lattice in the strict
 mathematical sense. On the other hand, the face-centered cubic really is
 a lattice, the D_3 lattice - and this is secretly the same as the A_3
 lattice, familiar from stacking oranges. It's one of the densest ways
 to pack spheres, with a density of
 
-π /(3√2)   ≈   0.74
+\pi  /(3√2)   ≈   0.74
 
 The D_3^+^ pattern, on the other hand, has a density of just
 
-(π√3)/16   ≈   0.34
+(\pi √3)/16   ≈   0.34
 
 This is why ice becomes denser when it melts: it's packed in a close
 relative of the D_3^+^ pattern, with an equally low density.

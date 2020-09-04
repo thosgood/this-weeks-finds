@@ -294,9 +294,9 @@ and doubly special relativity, Phys. Rev. D69 (2004) 044001. Also
 available as [hep-th/0307085](http://xxx.lanl.gov/abs/hep-th/0307085).
 
 This effect is a bit less shocking if we put the units back in. I've
-secretly been setting 4πG = 1, where G is Newton's gravitational
+secretly been setting 4\pi G = 1, where G is Newton's gravitational
 constant. If we put that constant back in - let's call it k instead of
-4πG - we get
+4\pi G - we get
 
 exp(kp") = exp(kp) exp(kp')
 

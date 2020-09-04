@@ -569,11 +569,11 @@ z = (φ + (φ^2 - 4)^½^)/2
 I've sneakily chosen the solution that's my favorite 5th root of
 unity:
 
-z = exp(2πi/5) = cos(2π/5) + i sin(2π/5)
+z = exp(2\pi i/5) = cos(2\pi /5) + i sin(2\pi /5)
 
 So, we're getting
 
-cos(2π/5) = φ/2
+cos(2\pi /5) = φ/2
 
 A fact we should have learned in high school, but probably never did.
 
@@ -582,9 +582,9 @@ inscribed in the unit circle:
 
 P^2 = |1 - z|^2\
 \
-     = (1 - cos(2π/5))^2 + (sin(2π/5))^2\
+     = (1 - cos(2\pi /5))^2 + (sin(2\pi /5))^2\
 \
-     = 2 - 2 cos(2π/5)\
+     = 2 - 2 cos(2\pi /5)\
 \
      = 2 - φ
 
@@ -592,11 +592,11 @@ Next let's compute D, the length of the side of a decagon inscribed in
 the unit circle! We can mimic the last stage of the above calculation,
 but with an angle half as big:
 
-D^2 = 2 - 2 cos(π/5)
+D^2 = 2 - 2 cos(\pi /5)
 
 To go further, we can use a half-angle formula:
 
-cos(π/5) = ((1 + cos(2π/5))/2)^½^\
+cos(\pi /5) = ((1 + cos(2\pi /5))/2)^½^\
 \
             = (½ + φ/4)^½^
 

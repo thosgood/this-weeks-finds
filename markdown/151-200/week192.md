@@ -579,7 +579,7 @@ For that matter, I think there's a nicer way to characterize the operad
 SpecialJordan! Here's a little conjecture. The operad Associative has
 an automorphism
 
-    R: Associative \to Associative
+    R\colon  Associative \to  Associative
 
 which "reverses" any operation. For example, if we take the operation
 sending (W,X,Y,Z) to the product YWXZ, and hit it with R, we get the

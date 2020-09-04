@@ -258,14 +258,14 @@ multiply by the square root of 2, for reasons explained here:
 
 That's where the square root of 2 comes from. Also, in electrical
 engineering, a frequency of 60 hertz means you've got a wave that makes
-60 full cycles per second, so we need a 2π in the above formula.
+60 full cycles per second, so we need a 2\pi  in the above formula.
 Physicists often define frequency a different way, that doesn't require
-the 2π. This causes violent fistfights when engineers meet physicists.
+the 2\pi . This causes violent fistfights when engineers meet physicists.
 
 In most of the rest of the world, outlets try to produce 240 volts at a
 frequency of 50 hertz, so
 
-V(t) = √2 240 sin(2π 50t + c)
+V(t) = √2 240 sin(2\pi  50t + c)
 
 But humans can never agree on anything. So, there are also countries
 that do lots of other things - and countries like Brazil that do a

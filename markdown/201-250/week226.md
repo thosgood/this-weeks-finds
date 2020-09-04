@@ -193,7 +193,7 @@ another important cryptographic hash function, called SHA-1. This is a
 function that takes any string of up to 2^64^ bits and gives a digest
 that's 160 bits long. So, it's just some function
 
-f: S \to T
+f\colon  S \to  T
 
 from a set S of size 2^(2^64^\ +\ 1)^ to a set T of size 2^160^.
 
@@ -485,7 +485,7 @@ built of "and", "or" and "not" gates, without any loops. We can
 think of this as computing a Boolean function, meaning a function of the
 form:
 
-f: {0,1}^n \to {0,1}
+f\colon  {0,1}^n \to  {0,1}
 
 Razborov and Rudich start by studying a common technique for proving
 lower bounds on the size of a Boolean circuit that computes a given
@@ -717,7 +717,7 @@ Next, some email from the man himself: Scott Aaronson!
 > interested in the following abstraction of the collision-finding
 > problem. Suppose we have a two-to-one function
 >
-> f: {0,1}^n \to {0,1}^n-1^,
+> f\colon  {0,1}^n \to  {0,1}^n-1^,
 >
 > which we can only access in a "black-box" fashion - i.e., we can
 > feed it an input and get an output. The goal is to find distinct x and
@@ -999,10 +999,10 @@ Next, here's yet another email from Scott Aaronson, dated July 22,
 > and so on. Of course I'm skipping lots of technicalities, like what I
 > mean by A\[x=x*\].
 >
-> Anyway, one can prove that, if T~n~(A)=T~n~(B)=1, and if C is
+> Anyway, one can prove that, if T_n(A)=T_n(B)=1, and if C is
 > derivable from A and B via a first-order inference rule, then
-> T~n~(C)=1 as well. Also, if A is an axiom of our proof system, then
-> (reasoning *within* the system) A is true, and hence T~n~(A)=1.
+> T_n(C)=1 as well. Also, if A is an axiom of our proof system, then
+> (reasoning *within* the system) A is true, and hence T_n(A)=1.
 >
 > It follows that, as long as we restrict ourselves to statements of
 > length £n, no contradiction can be proved. Furthermore, we can

@@ -225,7 +225,7 @@ The point is that to talk about an $n$-ary operation, we just need to be
 able to take the product of an object G with itself n times and consider
 a morphism
 
-    f: G x  ...  x G \to G
+    f\colon  G x  ...  x G \to  G
        |- n times -|
 
 For example, the category of smooth manifolds has finite products, so we
@@ -244,15 +244,15 @@ Since our category has finite products this automatically means it gets
 objects 1, G, G x G, G x G x G, and so on. Next, we put in a binary
 operation called "multiplication", namely a morphism
 
-    m: G x G \to G
+    m\colon  G x G \to  G
 
 We also put in a unary operation called "inverse":
 
-    inv: G \to G
+    inv\colon  G \to  G
 
 and a nullary operation called the "unit":
 
-    i: 1 \to G
+    i\colon  1 \to  G
 
 And then we say a bunch of diagrams commute, which express all the
 axioms for a group listed above.
@@ -266,7 +266,7 @@ theory of the traditional sort, it can have models - and indeed it can!
 A "model" of theory of groups in some category X with finite products
 is just a product-preserving functor
 
-    F: Th(Grp) \to X
+    F\colon  Th(Grp) \to  X
 
 By the way things are set up, this gives us an object
 
@@ -274,11 +274,11 @@ By the way things are set up, this gives us an object
 
 in C, together with morphisms
 
-    F(m): F(G) x F(G) \to F(G)
+    F(m)\colon  F(G) x F(G) \to  F(G)
 
-    F(inv): F(G) \to F(G)
+    F(inv)\colon  F(G) \to  F(G)
 
-    F(i): F(1) \to F(G)
+    F(i)\colon  F(1) \to  F(G)
 
 that serve as the multiplication, inverse and identity element for
 F(G)... all making a bunch of diagrams commute, that express the axioms
@@ -290,7 +290,7 @@ Whew. So far I've just explained the *title* of Lawvere's PhD thesis:
 "Functorial Semantics of Algebraic Theories". In Lawvere's approach,
 an "algebraic theory" is given not by writing down a list of axioms,
 but by specifying a category C with finite products. And the semantics
-of such theories is all about product-preserving functors F: C \to X.
+of such theories is all about product-preserving functors F\colon  C \to  X.
 Hence the term "functorial semantics".
 
 Lawvere did a lot starting with these ideas. Let me just briefly
@@ -300,15 +300,15 @@ physics.
 Wise mathematicians are interested not just in models, but also the
 homomorphisms between these. So, given an algebraic theory C, Lawvere
 defined its category of models in X, say Mod(C,X), to have
-product-preserving functors F: C \to X as objects and natural
+product-preserving functors F\colon  C \to  X as objects and natural
 transformations between these as morphisms. For example, taking C to be
 the theory of groups and X to be the category of sets, we get the usual
 category of groups:
 
-    Mod(Th(Grp),Set) = Grp
+    Mod(Th(Grp),\mathsf{Set}) = Grp
 
 That's reassuring, and that's how it always works. What's less
-obvious, though, is that one can always recover C from Mod(C,Set)
+obvious, though, is that one can always recover C from Mod(C,\mathsf{Set})
 together with its forgetful functor to the category of sets.
 
 In other words: not only can we get the models from the theory, but we
@@ -407,7 +407,7 @@ geometry work in here?
 It's very nice. The first nice thing is that given any smooth space X,
 a "tangent vector in X" is just a smooth map
 
-    f: T \to X
+    f\colon  T \to  X
 
 that is, a way of drawing an infinitesimal arrow in X. In general, the
 maps from any object A of a topos to any other object B form an object
@@ -418,12 +418,12 @@ And this is what people usually call the "tangent bundle" of X!
 
 So, the tangent bundle is pathetically simple in this setup: it's just
 a space of maps. This means we can compose a tangent vector f: T -> X
-with any smooth map g: X \to Y to get a tangent vector gf: T -> Y. This
+with any smooth map g\colon  X \to  Y to get a tangent vector gf: T -> Y. This
 is what people usually call "pushing forward tangent vectors". This
 trick gives a smooth map between tangent bundles, the "differential of
 g", which it makes sense to call
 
-    gT: XT \to YT
+    gT\colon  XT \to  YT
 
 Moreover, it's pathetically easy to check the chain rule:
 
@@ -436,7 +436,7 @@ We can also define higher derivatives using T. For second derivatives we
 start with T x T, which looks like an "infinitesimal square". Then we
 mod out by the map
 
-    ST,T: T x T \to T x T
+    ST,T\colon  T x T \to  T x T
 
 that switches the two factors. You should visualize this map as
 "reflection across the diagonal". When we mod out by it, we get a
@@ -446,7 +446,7 @@ quotient space that deserves the name
 
 and if we now use some axioms about T, it turns out that a smooth map
 
-    f: T2/2! \to X
+    f\colon  T2/2! \to  X
 
 picks out what's called a "second-order jet" in X. This is a concept
 familiar from traditional geometry, but not as familiar as it should be.
@@ -468,12 +468,12 @@ bundle"
 
 There's a map called the "diagonal":
 
-    diag: T \to T2/2! 
+    diag\colon  T \to  T2/2! 
 
 and composing this with any 2nd-order jet turns it into a tangent
 vector. This defines a smooth map
 
-    pX: XT2/2! \to XT
+    pX\colon  XT2/2! \to  XT
 
 from the 2nd-order jet bundle to the tangent bundle. Intuitively you can
 think of this as sending any position-velocity-acceleration triple, say
@@ -482,7 +482,7 @@ think of this as sending any position-velocity-acceleration triple, say
 Now for the fun part: Lawvere defines a "dynamical law" to be a smooth
 map going the other way:
 
-    sX: XT \to XT2/2!
+    sX\colon  XT \to  XT2/2!
 
 such that s~X~ followed by p~X~ is the identity. In other words, it's a
 way of mapping any position-velocity pair (q,q') to a triple
@@ -493,7 +493,7 @@ There is a category where an object is a smooth space equipped with a
 dynamical law and a morphism is a "lawful motion": that is, a smooth
 map
 
-    f: X \to Y
+    f\colon  X \to  Y
 
 that makes the obvious diagram commute:
 
@@ -516,7 +516,7 @@ equip it with the law saying
 
 meaning that "time ticks at an unchanging rate", then a lawful motion
 
-    f: R \to X
+    f\colon  R \to  X
 
 is precisely a trajectory in X that "follows the law", meaning that
 the acceleration of the trajectory is the desired function of position
@@ -560,7 +560,7 @@ textbooks you don't need a degree in math to read:
 3) F. William Lawvere and Steve Schanuel, Conceptual Mathematics: A
 First Introduction to Categories, Cambridge U. Press, Cambridge, 1997.
 
-4) F. William Lawvere and Robert Rosebrugh, Sets for Mathematics,
+4) F. William Lawvere and Robert Rosebrugh, \mathsf{Set}s for Mathematics,
 Cambridge U. Press, Cambridge, 2002.
 
 And third, the great thing about topos theory is that you don't need to
@@ -692,7 +692,7 @@ theory:
 23) Colin McLarty, Elementary Categories, Elementary Toposes, Clarendon
 Press, Oxford, 1995.
 
-Along with Lawvere's books "Conceptual Mathematics" and "Sets for
+Along with Lawvere's books "Conceptual Mathematics" and "\mathsf{Set}s for
 Mathematics", this is the one reference that's really good for
 beginners!
 
@@ -726,14 +726,14 @@ Suppose we've got two categories C and D, and the objects of D are
 objects of C equipped with extra structure. Then we get a pair of
 adjoint functors:
 
-    R: D \to C
-    L: C \to D
+    R\colon  D \to  C
+    L\colon  C \to  D
 
 The right adjoint R sends each D-object to its "underlying" C-object,
 and the left adjoint L sends each C-object to the "free" D-object on
 it. Often R is called a "forgetful" functor. For example, if
 
-    C = Set
+    C = \mathsf{Set}
 
 and
 
@@ -744,7 +744,7 @@ any set.
 
 We get a "monad on C" by letting
 
-    T = LR: C \to C
+    T = LR\colon  C \to  C
 
 Then, we can use facts about adjoint functors to get natural
 transformations called "multiplication"
@@ -792,10 +792,10 @@ say a bit of fancier stuff to fill in a couple gaps for the
 semi-experts.
 
 First, when I said "in nice cases", I really meant that the category
-of T-algebras is equivalent to D when the forgetful functor R: D \to C is
+of T-algebras is equivalent to D when the forgetful functor R\colon  D \to  C is
 "monadic". A bit more precisely: for any monad T on C there's a
 category of T-algebras, which is usually called C^T^ for some silly
-reason. And, whenever we have a pair of adjoint functors R: D \to C and L:
+reason. And, whenever we have a pair of adjoint functors R\colon  D \to  C and L:
 C \to D, we get a monad T = LR and a functor from D to C^T^. This is just
 a careful way of saying that any D-object gives us a T-algebra. And
 finally, we say that R is "monadic" if this functor from D to C^T^ is
@@ -804,7 +804,7 @@ to tell when a functor is monadic, just by looking at it.
 
 Second, to make the analogy between monoids and monads precise, we just
 need to realize that a monad on C is a monoid object in the monoidal
-category hom(C,C). I already explained this in
+category \operatorname{Hom}(C,C). I already explained this in
 ["Week 92"](#week92), in even greater generality than we need here,
 but we need this now because I'm about to categorify monads and get
 "doctrines".
@@ -855,16 +855,16 @@ Yuck! So, let's be very general and sketch how to define a weak 2-monad
 in any weak 3-category (aka tricategory).
 
 Given a weak 3-category C and an object c of C, a "weak 2-monad on c"
-is just a weak monoidal category object in hom(c,c).
+is just a weak monoidal category object in \operatorname{Hom}(c,c).
 
-Huh? Well, hom(c,c) is a weak monoidal 2-category, which is precisely
+Huh? Well, \operatorname{Hom}(c,c) is a weak monoidal 2-category, which is precisely
 the right environment in which to define a "weak monoidal category
 object", and that's what we're doing here. Start with the usual
 definition of a weak monoidal category, which is a gadget living in Cat.
 Cat is an example of a weak monoidal 2-category, and we can write down
 the same definition in *any* weak monoidal 2-category X, getting the
 concept of "weak monoidal category object in X". Then, take X =
-hom(c,c).
+\operatorname{Hom}(c,c).
 
 (Of course I'm lying slightly here: Cat is more strict than your
 average weak monoidal 2-category, so it may not be immediately obvious
@@ -901,7 +901,7 @@ extra structure of type T". The classic example would be "categories
 with finite products". Just as Lawvere thought of these as algebraic
 theories, we can think of *any* T-algebra as a "theory of type T", and
 define its category of models: given T-algebras C and D, the category of
-models of C in D is hom(C,D), where the hom is taken in Cat^T^.
+models of C in D is \operatorname{Hom}(C,D), where the hom is taken in Cat^T^.
 
 Depending on what doctrine T we consider, we get many different forms of
 logic, and I'll just list a few to whet your appetite:

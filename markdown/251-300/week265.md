@@ -290,9 +290,9 @@ Let me sketch the simplest result in this paper! For starters, recall
 that a structure type is any sort of structure you can put on finite
 sets. In other words, it's a functor
 
-F: FinSet~0~ \to Set
+F\colon  \mathsf{Fin\mathsf{Set}}~0~ \to  \mathsf{Set}
 
-where FinSet~0~ is the groupoid of finite sets and bijections. The idea
+where \mathsf{Fin\mathsf{Set}}~0~ is the groupoid of finite sets and bijections. The idea
 is that for any finite set X, F(X) is the set all of structures of the
 given type that we can put on X. A good example is F(X) = 2^X^, the set
 of 2-colorings of X.
@@ -307,11 +307,11 @@ you're not a hotshot yet, I should explain this.
 An object of elt(F) is a finite set X together with an element a in
 F(X). A morphism of elt(F), say
 
-f: (X,a) \to (X',a')
+f\colon  (X,a) \to  (X',a')
 
 is a bijection
 
-f: X \to X'
+f\colon  X \to  X'
 
 such that
 
@@ -333,23 +333,23 @@ with restriction".
 
 Technically, a structure type with restriction is a functor
 
-F: Inj^op^ \to Set
+F\colon  Inj^op^ \to  \mathsf{Set}
 
 where Inj is the category of finite sets and injections. When we have
 such a thing, the inclusion
 
-i: X \to X'
+i\colon  X \to  X'
 
 of a little set X in a bigger set X' gives a map
 
-F(i): F(X') \to F(X)
+F(i)\colon  F(X') \to  F(X)
 
 that says how to restrict F-structures on X' to F-structures on X.
 
 In this situation, Bill shows that the vector space B~F~ becomes a
 cocommutative coalgebra. In particular, it gets a comultiplication
 
-Δ: B~F~ \to B~F~ \otimes B~F~
+Δ\colon  B~F~ \to  B~F~ \otimes B~F~
 
 which satisfies laws just like the commutative and associative laws for
 ordinary multiplication, only "backwards".
@@ -419,7 +419,7 @@ immediately gripping portions:
 -   Chapter 7, "Hopf monoids in species". Here they use "species" to
     mean what I'd call "linear structure types", that is, functors
 
-    F: FinSet~0~ \to Vect
+    F\colon  \mathsf{Fin\mathsf{Set}}~0~ \to  Vect
 
     where Vect is the category of vector spaces. In Section 7.9 they
     take Bill Schmitt's trick for getting cocommutative coalgebras from
@@ -439,7 +439,7 @@ immediately gripping portions:
     kind of generalized Fock space.
 
 -   Chapter 11, "Hopf monoids from geometry". Here they get Hopf
-    monoids from the A~n~ Coxeter complexes, using a lot of ideas
+    monoids from the A_n Coxeter complexes, using a lot of ideas
     related to Jacques Tits' theory of buildings. There's a lot of
     q-deformation going on here! All these ideas are close to my heart.
 

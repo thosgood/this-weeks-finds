@@ -795,7 +795,7 @@ John Baez wrote:
 >     >     and w is a 2-form on X_R;
 >     >
 >     >(#) and that each of h,g,w determines the other two via the R-vector
->     >     bundle morphism J: T(X_R) \to T(X_R) given by Jv = iv (where the
+>     >     bundle morphism J\colon  T(X_R) \to  T(X_R) given by Jv = iv (where the
 >     >     holomorphic tangent bundle TX is canonically identified as a real
 >     >     vector bundle with T(X_R)). E.g. g(u,v) = w(u,Jv) up to a sign that
 >     >     depends on our definition of hermiticity.

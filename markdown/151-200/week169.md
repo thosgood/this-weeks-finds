@@ -80,11 +80,11 @@ to full power of the category of sets - as long as we use the tensor
 product in Vect. We start by saying an algebra is an object A in Vect
 together with a product
 
-m: A tensor A \to A
+m\colon  A tensor A \to  A
 
 and unit
 
-i: I \to A
+i\colon  I \to  A
 
 where I is the unit object for the tensor product - that is, the real
 numbers. In case you're confused: the map i here is just the linear
@@ -128,7 +128,7 @@ fine in any monoidal category, so the right doctrine is again that of
 monoidal categories. But instead of speaking of an "associative
 algebra" in a monoidal category, folks usually call a gadget of this
 sort a "monoid object"- see ["Week 89"](#week89) for more on
-this. The reason is that if we take our monoidal category to be Set, a
+this. The reason is that if we take our monoidal category to be \mathsf{Set}, a
 monoid object boils down to a "monoid": a set with an associative
 product and unit element.
 
@@ -239,11 +239,11 @@ seminar, `http://math.ucr.edu/home/baez/qg.html`
 Okay. Now that you've read those notes, you know what to do! We assume
 our algebra A is equipped with maps
 
-g: A tensor A \to I
+g\colon  A tensor A \to  I
 
 and
 
-h: I \to A tensor A
+h\colon  I \to  A tensor A
 
 which we draw as
 
@@ -545,7 +545,7 @@ categories we also want tensoring morphisms to be bilinear. The ring
 Z\[1/2\] consists of all fractions with a power of 2 in the denominator
 - Boos needs this because he needs to divide by 2 at some point in his
 argument. For an R-linear category, an object I is "simple" if
-hom(I,I) = R. This allows us to interpret the dimension of our vector
+\operatorname{Hom}(I,I) = R. This allows us to interpret the dimension of our vector
 product algebra as an element of R - which Boos shows is actually one of
 the integers 0, 1, 3, or 7.
 

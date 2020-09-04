@@ -315,7 +315,7 @@ In the rest of his thesis, Jeff will use this formalism to construct
 some examples of "extended TQFTs", which are roughly maps of weak
 2-categories
 
-Z: nCob_2 \to 2Vect
+Z\colon  nCob_2 \to  2Vect
 
 where 2Vect is the weak 2-category of "2-vector spaces". He's
 focusing on some extended TQFTs called the Dijkgraaf-Witten models,
@@ -399,9 +399,9 @@ to isomorphism whenever possible.
 
 A few more details might help....
 
-A 2-category has a set of objects, a set of morphisms f: X \to Y going
+A 2-category has a set of objects, a set of morphisms f\colon  X \to  Y going
 from any object X to to any object Y, and a set of 2-morphisms T: f =>
-g going from any morphism f: X \to Y to any morphism g: X \to Y. We can
+g going from any morphism f: X \to Y to any morphism g\colon  X \to  Y. We can
 visualize the objects as dots:
 
                        o 

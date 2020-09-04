@@ -537,10 +537,10 @@ He's recently been working on voice leading and orbifolds. They're
 related topics, because if you have a choir of n indistinguishable
 angels, each singing a note, the set of possibilities is:
 
-T^n/S~n~
+T^n/S_n
 
 where T^n is the $n$-torus - the product of n copies of the pitch class
-circle - and S~n~ is the permutation group, acting on $n$-tuples of notes
+circle - and S_n is the permutation group, acting on $n$-tuples of notes
 in the obvious way. This quotient is not usually a manifold, because it
 has singularities at certain points where more than one voice sings the
 same note. But, it's an *orbifold*. This kind of slightly singular
@@ -806,7 +806,7 @@ Lavelle, and [Steve Lubin](http://www.youtube.com/watch?v=-tPuwCUulBQ).
 Dave Rusin explained the logic behind having 12 notes in the chromatic
 scale. David Corfield mentioned a book on topos theory in music, and a
 paper by Noam Elkies on Mathieu groups. Mike Stay pointed out William
-Sethares' work on how the timbre of an instrument affects which scales
+\mathsf{Set}hares' work on how the timbre of an instrument affects which scales
 sound good. Dmitri Tymoczko had more comments on this issue. Cris Moore
 mentioned an interesting microtonal composer named Easley Blackwood.
 Robert Israel pointed out an unusual fact about Riemann and Einstein.
@@ -937,20 +937,20 @@ My student Mike Stay wrote:
 > scale and then come up with a timbre for which it sounds natural and
 > right:
 >
-> 26) William Sethares, Relating tuning and timbre,
+> 26) William \mathsf{Set}hares, Relating tuning and timbre,
 > `http://eceserv0.ece.wisc.edu/~sethares/consemi.html`
 >
-> Sethares' home page has a bunch of MP3's on it for people who want
+> \mathsf{Set}hares' home page has a bunch of MP3's on it for people who want
 > to listen:
 >
-> 27) William Sethares, MP3 Download Central,
+> 27) William \mathsf{Set}hares, MP3 Download Central,
 > `http://eceserv0.ece.wisc.edu/~sethares/otherperson/all_mp3s.html`
 >
 > I like "Truth on a Bus", played in a 19-note scale.
 >
 > There are some tracks from the CD mentioned above here:
 >
-> 28) William Sethares, Tuning, Timbre, Spectrum, Scale, 2nd edition,
+> 28) William \mathsf{Set}hares, Tuning, Timbre, Spectrum, Scale, 2nd edition,
 > Springer Verlag, Berlin, 2004. Author's guide available at
 > `http://eceserv0.ece.wisc.edu/~sethares/ttss.html`. Sound examples
 > available at
@@ -968,7 +968,7 @@ My student Mike Stay wrote:
 In response to my comment "Every tuning system is thus a compromise. I
 would like to understand this better...", Dmitri Tymoczko wrote:
 
-> William Sethares' "Tuning, Timbre, Spectrum, Scale" is the best
+> William \mathsf{Set}hares' "Tuning, Timbre, Spectrum, Scale" is the best
 > book about this. He has a convincing demonstration that "pure
 > ratios" are not in themselves important: what's important is that
 > the overtones of two simultaneously-sounding notes match. Since
@@ -977,10 +977,10 @@ would like to understand this better...", Dmitri Tymoczko wrote:
 >
 > However, for inharmonic tones, such as bell-sounds, the overtones are
 > not integer multiples of the lowest tone. Hence, to get the partials
-> to match you often need to use non-integer ratios. Sethares' book
+> to match you often need to use non-integer ratios. \mathsf{Set}hares' book
 > comes with a CD demonstrating this. It has to be heard to be believed.
 
-It seems that a bunch of the music on Sethares' CD is available online,
+It seems that a bunch of the music on \mathsf{Set}hares' CD is available online,
 as Mike pointed out above. I find most of his music interesting but
 unpleasant, not because of the tuning systems, but because it lacks
 soul. I haven't listened to "Truth on a Bus" yet.

@@ -76,9 +76,9 @@ in ["Week 144"](#week144), ["Week 147"](#week147),
 ["Week 185"](#week185), ["Week 190"](#week190), so I'll start
 with a review.
 
-Suppose F is a structure type. Let F~n~ be the *set* of ways we can put
-this structure on a $n$-element set, and let |F~n~| be the *number* of
-ways to do it. In combinatorics, people take all these numbers |F~n~|
+Suppose F is a structure type. Let F_n be the *set* of ways we can put
+this structure on a $n$-element set, and let |F_n| be the *number* of
+ways to do it. In combinatorics, people take all these numbers |F_n|
 and pack them into a single power series. It's called the generating
 function of F, and it's defined like this:
 
@@ -524,7 +524,7 @@ ideas on $n$-categories which sheds new light on their applications to
 homotopy theory:
 
 11) Michael A. Batanin, The Eckmann-Hilton argument, higher operads and
-E~n~ spaces, available as
+E_n spaces, available as
 [`arXiv:math.CT/0207281`](http://arxiv.org/abs/math.CT/0207281).
 
 Michael A. Batanin, The combinatorics of iterated loop spaces, available
@@ -743,7 +743,7 @@ description of what Gates actually did:
 > (3) If p is as in (2) and of degree at least 2, the algebra of the
 > rig R is made by J. B. to seem mysterious. It is more easily
 > understood in the way the X=2X+1 case was treated in my "Negative
-> Sets..." paper; just show that the Euler and dimension
+> \mathsf{Set}s..." paper; just show that the Euler and dimension
 > homomorphisms, tensoring with Z and with 2 (the rig true/false)
 > respectively, are jointly injective. In this case the dimension rig
 > has only three elements, which explains why the Euler characteristic

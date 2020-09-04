@@ -318,12 +318,12 @@ much if you don't know about model categories and Quillen equivalence.
 The point is that we have a functor that converts spaces into simplicial
 sets:
 
-Sing: \[topological spaces\] \to \[simplicial sets\]
+Sing\colon  \[topological spaces\] \to  \[simplicial sets\]
 
 and its right adjoint going back the other way, called "geometric
 realization":
 
-|   | : \[simplicial sets\] \to \[topological spaces\]
+|   | \colon  \[simplicial sets\] \to  \[topological spaces\]
 
 which we also saw last time. And, these let us freely switch viewpoints
 between topological spaces and simplicial sets.
@@ -571,7 +571,7 @@ subscript. I'll show you the usual way to get a chain complex
 C~~*~~(S) from a simplicial set, and then show you a way to
 *comultiply* chains. Then you can get the cochains by taking duals:
 
-C^n(S) = C~n~(S)*
+C^n(S) = C_n(S)*
 
 This will give a way to multiply chains.
 
@@ -579,23 +579,23 @@ Here's how it goes. The idea is that we define the comultiplication
 directly at the level of simplicial sets and then feed it through a
 couple of functors. There's a functor
 
-F: \[simplicial sets\] \to \[simplicial vector spaces\]
+F\colon  \[simplicial sets\] \to  \[simplicial vector spaces\]
 
 and a functor
 
-N: \[simplicial vector spaces\] \to \[chain complexes\]
+N\colon  \[simplicial vector spaces\] \to  \[chain complexes\]
 
 Composing these will give the chains C~~*~~(S) for a simplicial set S.
 
 The first functor
 
-F: \[simplicial sets\] \to \[simplicial vector spaces\]
+F\colon  \[simplicial sets\] \to  \[simplicial vector spaces\]
 
 creates the free simplicial vector space on a simplicial set. This
 functor is symmetric monoidal: it carries products of simplicial spaces
 to tensor products of simplicial vector spaces. The second functor
 
-N: \[simplicial vector spaces\] \to \[chain complexes\]
+N\colon  \[simplicial vector spaces\] \to  \[chain complexes\]
 
 is called the "normalized chain complex" or "normalized Moore
 complex" functor. This functor is an equivalence of categories! It's
@@ -605,12 +605,12 @@ subtlety lies.
 The category of simplicial sets has finite products. So, every
 simplicial set has a diagonal map:
 
-Δ: S \to S \times S
+Δ\colon  S \to  S \times S
 
 It also a unique map to the simplicial set called 1, which consists of
 single 0-simplex:
 
-ε: S \to 1
+ε\colon  S \to  1
 
 These two maps satisfy the usual axioms of a commutative monoid, written
 out as commutative diagrams, except with the arrows pointing backwards.
@@ -623,7 +623,7 @@ object in it becomes a cocommutative comonoid - and in a unique way!
 So far, this is a completely bland fact of life. If we feed our
 simplicial set S through the functor
 
-F: \[simplicial sets\] \to \[simplicial vector spaces\]
+F\colon  \[simplicial sets\] \to  \[simplicial vector spaces\]
 
 what happens? Well, because this functor is monoidal it sends comonoids
 to comonoids. And because it's *symmetric* monoidal, it sends
@@ -637,7 +637,7 @@ for the very end of each Week's Finds.)
 So, we've turned our simplicial set S into a simplicial cocommutative
 coalgebra F(S). Now feed this gizmo into the next functor:
 
-N: \[simplicial vector spaces\] \to \[chain complexes\]
+N\colon  \[simplicial vector spaces\] \to  \[chain complexes\]
 
 By definition, we get the chains on S:
 
@@ -646,7 +646,7 @@ N(F(S)) = C~~*~~(S)
 And thanks to the wonders of functoriality, these chains are blessed
 with a comultiplication
 
-C~~*~~(Δ): C~~*~~(S) \to C~~*~~(S) \otimes C~~*~~(S)
+C~~*~~(Δ)\colon  C~~*~~(S) \to  C~~*~~(S) \otimes C~~*~~(S)
 
 and counit
 
@@ -668,7 +668,7 @@ quite.
 For starters, it's a "lax monoidal functor", which implies among
 other things that there's a natural transformation
 
-EZ: N(X) \otimes N(Y) \to N(X \otimes Y)
+EZ\colon  N(X) \otimes N(Y) \to  N(X \otimes Y)
 
 This is called the Eilenberg-Zilber map. The word "lax" means that
 this map isn't necessarily an isomorphism. A lax monoidal functor is
@@ -679,7 +679,7 @@ On the other hand, N is also an "oplax monoidal functor", which
 implies among other things that there's a natural transformation going
 the other way
 
-AW: N(X \otimes Y) \to N(X) \otimes N(Y)
+AW\colon  N(X \otimes Y) \to  N(X) \otimes N(Y)
 
 This is called the Alexander-Whitney map. The word "oplax" means that
 this map isn't necessarily an isomorphism - but now it's going the
@@ -718,16 +718,16 @@ over the rational numbers, everything I've said about the functors F
 and N generalize to R-modules for an arbitrary commutative ring R. So,
 we have
 
-F: \[simplicial sets\] \to \[simplicial R-modules\]
+F\colon  \[simplicial sets\] \to  \[simplicial R-modules\]
 
-N: \[simplicial R-modules\] \to \[chain complexes of R-modules\]
+N\colon  \[simplicial R-modules\] \to  \[chain complexes of R-modules\]
 
 with all the good (or frustrating) properties that I just described. The
 nLab pages focus somewhat on the case where R = Z, where we get
 
-F: \[simplicial sets\] \to \[simplicial abelian groups\]
+F\colon  \[simplicial sets\] \to  \[simplicial abelian groups\]
 
-N: \[simplicial abelian groups\] \to \[chain complexes of abelian groups\]
+N\colon  \[simplicial abelian groups\] \to  \[chain complexes of abelian groups\]
 
 This is indeed the most fundamental case.
 

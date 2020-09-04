@@ -179,7 +179,7 @@ just a pair (g,h). But we add these pairs like this:
 
 where
 
-c: H \times H \to G
+c\colon  H \times H \to  G
 
 tells us how to "carry" from the "H place" to the "G place" when
 we add. So, information percolates down when we add two guys in the new
@@ -346,7 +346,7 @@ Let's call these reflections r and s. They clearly satisfy
 
 r^2 = s^2 = 1
 
-but since the mirrors are at an angle of π/3 from each other, they also
+but since the mirrors are at an angle of \pi /3 from each other, they also
 satisfy
 
 (rs)^3 = 1

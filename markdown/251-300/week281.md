@@ -196,10 +196,10 @@ In the 1970's, Penrose discovered quasiperiodic patterns with
 approximate 5-fold symmetry - for example, patterns made of two tiles,
 called "kites" and "darts":
 
--   kite: a convex quadrilateral with interior angles of 2π/5, 2π/5,
-    2π/5 and 4π/5 as you march around it.
--   dart: a nonconvex quadrilateral with interior angles of 2π/5, π/5,
-    6π/5 and π/5.
+-   kite: a convex quadrilateral with interior angles of 2\pi /5, 2\pi /5,
+    2\pi /5 and 4\pi /5 as you march around it.
+-   dart: a nonconvex quadrilateral with interior angles of 2\pi /5, \pi /5,
+    6\pi /5 and \pi /5.
 
 ::: {align="center"}
 [![](penrose_kite_dart.png)](http://en.wikipedia.org/wiki/Penrose_tiling)
@@ -215,13 +215,13 @@ tilings in medieval Islamic architecture, Science 315 (2007), 1106-1110.
 Lu and Steinhardt described a set of 5 tiles which seem to underlie a
 lot of Timurid designs:
 
--   a regular pentagon with five interior angles of 3π/5.
--   a regular decagon with ten interior angles of 4π/5.
--   a rhombus with interior angles of 2π/5, 3π/5, 2π/5, 3π/5.
--   an elongated hexagon with interior angles of 2π/5, 4π/5, 4π/5, 2π/5,
-    4π/5, 4π/5.
--   a bow tie (non-convex hexagon) with interior angles of 2π/5, 2π/5,
-    6π/5, 2π/5, 2π/5, 6π/5.
+-   a regular pentagon with five interior angles of 3\pi /5.
+-   a regular decagon with ten interior angles of 4\pi /5.
+-   a rhombus with interior angles of 2\pi /5, 3\pi /5, 2\pi /5, 3\pi /5.
+-   an elongated hexagon with interior angles of 2\pi /5, 4\pi /5, 4\pi /5, 2\pi /5,
+    4\pi /5, 4\pi /5.
+-   a bow tie (non-convex hexagon) with interior angles of 2\pi /5, 2\pi /5,
+    6\pi /5, 2\pi /5, 2\pi /5, 6\pi /5.
 
 All the edges of all these tiles have the same length:
 

@@ -174,7 +174,7 @@ I'll start with a quick but unenlightening definition. First, a
 "modular function of weight n" is an analytic function on the upper
 half of the complex plane, say
 
-    f: H \to C                      
+    f\colon  H \to  C                      
 
 where H is the upper half-plane, which transforms as follows:
 
@@ -307,7 +307,7 @@ Okay, now you're an expert on elliptic curves.
 A while back, I defined a "modular function of weight n" to be an
 analytic function on the upper half-plane
 
-    f: H \to C                  
+    f\colon  H \to  C                  
 
 such that
 
@@ -387,7 +387,7 @@ Now think what this implies! Remember that tmf(n) is space of conformal
 field theories with central charge -n. Since the partition function of
 any such thing is a modular form of weight n, we get a map
 
-    Z: tmf(n) \to {modular forms of weight n}
+    Z\colon  tmf(n) \to  {modular forms of weight n}
 
 This is a step towards seeing that
 
@@ -413,7 +413,7 @@ To see this, we'd just need to show four amazing things:
     path in the space of conformal field theories of central charge -n.
     Thus, the partition function defines a map
 
-        Z: [point,tmf(n)] \to {modular forms of weight n}
+        Z\colon  [point,tmf(n)] \to  {modular forms of weight n}
 
 -   The set of connected components of the space of conformal field
     theories of central charge -n forms an abelian group, and the above
@@ -422,13 +422,13 @@ To see this, we'd just need to show four amazing things:
 -   The kernel of the above homomorphism consists precisely of the
     torsion elements, so we get a 1-1 homomorphism
 
-        Z: [point,tmf(n)] tensor C \to {modular forms of weight n}
+        Z\colon  [point,tmf(n)] tensor C \to  {modular forms of weight n}
 
 -   Any modular form of weight n is a linear combination of partition
     functions of conformal field theories of central charge -n, so the
     homomorphism
 
-        Z: [point,tmf(n)] tensor C \to {modular forms of weight n}
+        Z\colon  [point,tmf(n)] tensor C \to  {modular forms of weight n}
 
     is also onto.
 
@@ -568,7 +568,7 @@ cohomology tensored with the complex numbers on the 0th level, complex
 K-theory on the 1st level, elliptic cohomology on the 2nd level, and so
 on up to infinity, where something called "complex cobordism theory"
 sits grinning down at us. Theories on the nth level "detect
-v~n~-periodic phenomena". Despite the best efforts of several homotopy
+v_n-periodic phenomena". Despite the best efforts of several homotopy
 theorists, I still don't understand what this means. But, Bott
 periodicity for complex K-theory is the paradigm of a "v_1-periodic
 phenomenon", so we're talking about some heavy-duty generalization of

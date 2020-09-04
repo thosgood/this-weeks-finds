@@ -210,7 +210,7 @@ infinite families and one exception:
     This is called the "exceptional Jordan algebra".
 
 This classification raises some obvious questions. Why does nature
-prefer the Jordan algebras h~n~(C) over all the rest? Or does it? Could
+prefer the Jordan algebras h_n(C) over all the rest? Or does it? Could
 the other Jordan algebras - even the exceptional one - have some role to
 play in quantum physics? Despite much research, these questions remain
 unanswered to this day.
@@ -218,7 +218,7 @@ unanswered to this day.
 The paper by Jordan, von Neumann and Wigner appears to have been
 uninfluenced by Moufang's discovery of OP^2, but in fact the two are
 related! A "projection" in a formally real Jordan algebra is defined
-to be an element p with p^2 = p. In the usual case of h~n~(C), these
+to be an element p with p^2 = p. In the usual case of h_n(C), these
 correspond to hermitian matrices with eigenvalues 0 and 1, so they are
 used to describe observables that assume only two values - e.g.,
 "true" and "false".
@@ -249,7 +249,7 @@ of C^n. This sets up a relationship to projective geometry, since the
 projections onto 1-dimensional subspaces correspond to points in \mathbb{CP}^n,
 while the projections onto 2-dimensional subspaces correspond to lines.
 Even better, we can work out the dimension of a subspace V from the
-corresponding projection p: C^n \to V using only the partial order on
+corresponding projection p\colon  C^n \to  V using only the partial order on
 projections: V has dimension d iff the longest chain of distinct
 projections
 
@@ -407,7 +407,7 @@ x o y = (xy + yx)/2
 Moreover, this Jordan algebra is secretly a spin factor! There is an
 isomorphism
 
-f: h_2(K) \to J(K + R) = K + R + R
+f\colon  h_2(K) \to  J(K + R) = K + R + R
 
 which sends the hermitian matrix
 

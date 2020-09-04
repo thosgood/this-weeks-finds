@@ -3,12 +3,11 @@
 Recently I've been talking a bit about elliptic cohomology, but I've
 really just been nibbling around the edges so far. Sometime I want to
 dig deeper, but not just now. Right now, I instead want to say a bit
-more about the physics lurking in the space K(Z,2).
+more about the physics lurking in the space $K(\mathbb{Z},2)$.
 
 But first, here's a cool article on violins:
 
-1) Colin Gough, Science and the Stradivarius, Physics World, vol. 13
-no. 4, April 2000, 27-33.
+1) Colin Gough, "Science and the Stradivarius", _Physics World_, vol. **13** no. 4, April 2000, 27--33.
 
 Before reading this, I never knew how a string on a violin vibrates!
 Lots of well-known European physicists have studied the violin, and in
@@ -61,7 +60,7 @@ string can slide against the motion of the bow in this regime.
 
 The really nice thing is that the string is vibrating almost freely: the
 violinist just needs to apply the right amount of pressure to keep this
-vibrational mode excited - too much pressure will ruin it! Being able to
+vibrational mode excited --- too much pressure will ruin it! Being able to
 delicately control the Helmholtz waveform is part of what distinguishes
 the virtuoso from the blood-curdling amateur.
 
@@ -70,48 +69,42 @@ of course. The vibrating string excites the bridge which excites the
 sound box, and *that* produces most of the sound we hear. For more
 information try these:
 
-2) A. H. Benade, Fundamentals of Musical Acoustics, Oxford University
-Press, Oxford, 1976.
+2) A. H. Benade, _Fundamentals of Musical Acoustics_, Oxford University Press, Oxford, 1976.
 
-L. Cremer, The Physics of the Violin, MIT Press, Cambridge,
-Massachusetts, 1984.
+    L. Cremer, _The Physics of the Violin_, MIT Press, Cambridge, Massachusetts, 1984.
 
-N. H. Fletcher and T. D. Rossing, The Physics of Musical Instruments,
-2nd edition, Springer, New York, 1998.
+    N. H. Fletcher and T. D. Rossing, _The Physics of Musical Instruments_, 2nd edition, Springer, New York, 1998.
 
-C. Hutchins and V. Benade, editors, Research Papers on Violin Acoustics
-1975-1993, 2 volumes, Acoustical Society of America, New York, 1997.
+    C. Hutchins and V. Benade, editors, _Research Papers on Violin Acoustics 1975--1993_, 2 volumes, Acoustical Society of America, New York, 1997.
 
-Okay, now on to K(Z,2)! I explained a bit about this space in
+Okay, now on to $K(\mathbb{Z},2)$! I explained a bit about this space in
 ["Week 149"](#week149), but I've been pondering it a lot lately,
 so I'd like to say a bit more.
 
 First let me review and elaborate on some basic stuff I said already. If
-G is any topological group, there is a topological space BG with a
-basepoint such that the space of loops in BG starting and ending at this
-point is homotopy equivalent to G. This space BG is unique up to
+G is any topological group, there is a topological space $BG$ with a
+basepoint such that the space of loops in $BG$ starting and ending at this
+point is homotopy equivalent to $G$. This space $BG$ is unique up to
 homotopy equivalence. \[1\]
 
-BG is important because it's the "classifying space for G-bundles".
-What this means is that there's a principal G-bundle over BG called the
-"universal G-bundle", with the marvelous property that *any* principal
-G-bundle over *any* space X is a pullback of this one by some map
-
-f: X \to BG.
-
+$BG$ is important because it's the "classifying space for $G$-bundles".
+What this means is that there's a principal $G$-bundle over $BG$ called the
+"universal $G$-bundle", with the marvelous property that *any* principal
+$G$-bundle over *any* space $X$ is a pullback of this one by some map
+$$f\colon X \to BG.$$
 (I explained in ["Week 149"](#week149) how to pull back complex
-line bundles, and pulling back principal G-bundles works the same way.)
-Even better, two G-bundles that we get this way are isomorphic if and
+line bundles, and pulling back principal $G$-bundles works the same way.)
+Even better, two $G$-bundles that we get this way are isomorphic if and
 only if the maps they come from are homotopic! So there is a one-to-one
 correspondence between:
 
-A) isomorphism classes of principal G-bundles over X
+A) isomorphism classes of principal $G$-bundles over $X$
 
 and
 
-B) homotopy classes of maps from X to BG.
+B) homotopy classes of maps from $X$ to $BG$.
 
-Now, suppose G is an *abelian* topological group. Then BG is better than
+Now, suppose $G$ is an *abelian* topological group. Then BG is better than
 a topological space with basepoint. It's an abelian topological group!
 
 This means that we can *iterate* this trick. Starting with an abelian
@@ -158,13 +151,13 @@ come down to earth a bit. Just a little bit....
 So: let's take A to be the integers, Z. As I said in
 ["Week 149"](#week149), we then get
 
-K(Z,0) = Z,
+K(\mathbb{Z},0) = Z,
 
-K(Z,1) = \mathrm{U}(1),
+K(\mathbb{Z},1) = \mathrm{U}(1),
 
 where \mathrm{U}(1) is the group of "phases" or unit complex numbers, and
 
-K(Z,2) = \mathbb{CP}^\infty
+K(\mathbb{Z},2) = \mathbb{CP}^\infty
 
 where \mathbb{CP}^\infty is infinite-dimensional complex projective space. There are
 a couple of slightly different versions of this. Topologists like to
@@ -172,31 +165,31 @@ start with the direct limit of the spaces C^n, which they call C^\infty.
 Then they take the space of all 1-dimensional subspaces and call that
 \mathbb{CP}^\infty. Mathematical physicists prefer to start with a Hilbert space of
 countable dimension. Then they take the space of unit vectors modulo
-phase. Both these versions are equally good models of K(Z,2). The first
+phase. Both these versions are equally good models of K(\mathbb{Z},2). The first
 one is a lean, stripped-down version of the second.
 
 Now \mathrm{U}(1) is very important in quantum theory, and so are unit vectors
 modulo phase in a Hilbert space - physicists call these "pure states".
 So something cool is going on here. For some mysterious reason, it looks
-like K(Z,n)'s are important quantum physics! This is especially
-interesting because the abstract definition of the K(Z,n)'s has nothing
+like K(\mathbb{Z},n)'s are important quantum physics! This is especially
+interesting because the abstract definition of the K(\mathbb{Z},n)'s has nothing
 to do with the complex numbers - just the integers. The complex numbers
 show up on their own accord. So maybe this hints at some explanation of
 why the complex numbers are important in quantum mechanics.
 
-Why are K(Z,n)'s connected to quantum theory? I don't really know. But
+Why are K(\mathbb{Z},n)'s connected to quantum theory? I don't really know. But
 we can get some clues by asking some more specific questions.
 
-First of all, why is K(Z,2) the same as \mathbb{CP}^\infty? In
+First of all, why is K(\mathbb{Z},2) the same as \mathbb{CP}^\infty? In
 ["Week 149"](#week149) I just asserted this without proof. That's
 one of the fun things I'm allowed to do in this column. But let me
 sketch why it's true.
 
 First I need to remind you of some more basic facts about topology.
 Suppose G is any topological group, and let P \to X be any principal
-G-bundle. This gives us a long exact sequence of homotopy groups:
+$G$-bundle. This gives us a long exact sequence of homotopy groups:
 
-... \to π~n+1~(X) \to π~n~(G) \to π~n~(P) \to π~n~(X) \to π~n-1~(G) \to ...
+... \to \pi ~n+1~(X) \to \pi _n(G) \to \pi _n(P) \to \pi _n(X) \to \pi ~n-1~(G) \to ...
 
 Two-thirds of the arrows in this sequence come from the maps
 
@@ -210,7 +203,7 @@ sending each loop in the base space to the holonomy of some connection
 on our bundle. Here LX means the space of based loops in X, and we're
 using the fact that
 
-π~n~(LX) = π~n+1~(X)
+\pi _n(LX) = \pi ~n+1~(X)
 
 which is obvious from the definition of the homotopy groups.
 
@@ -218,25 +211,25 @@ But now suppose P is contractible! Then all its homotopy groups vanish,
 so the above long exact sequence breaks up into lots of puny exact
 sequences like this:
 
-0 \to π~n+1~(X) \to π~n~(G) \to 0
+0 \to \pi ~n+1~(X) \to \pi _n(G) \to 0
 
 or in other words:
 
-0 \to π~n~(LX) \to π~n~(G) \to 0
+0 \to \pi _n(LX) \to \pi _n(G) \to 0
 
 This says that the map from LX to G induces isomorphisms on all homotopy
 groups. By the Whitehead theorem, this implies that this map is a
 homotopy equivalence! So LX is really just G!! So X is just BG!!!
 
-In short: if we have a space X with a principal G-bundle P over it, and
+In short: if we have a space X with a principal $G$-bundle P over it, and
 P is contractible, X must be BG. \[2\]
 
-Now let's use this fact to show that \mathbb{CP}^\infty is K(Z,2). Remember that by
+Now let's use this fact to show that \mathbb{CP}^\infty is K(\mathbb{Z},2). Remember that by
 our recursive definition,
 
-K(Z,2) = B(K(Z,1)) = B(\mathrm{U}(1))
+K(\mathbb{Z},2) = B(K(\mathbb{Z},1)) = B(\mathrm{U}(1))
 
-so to show that \mathbb{CP}^\infty is K(Z,2), we just need to find a principal
+so to show that \mathbb{CP}^\infty is K(\mathbb{Z},2), we just need to find a principal
 \mathrm{U}(1)-bundle over it with a contractible total space.
 
 In ["Week 149"](#week149) we discussed a complex line bundle over
@@ -254,7 +247,7 @@ mod phase. Since there's a circle of unit vectors for each pure state,
 this is indeed a principal \mathrm{U}(1)-bundle. But now for the cool part: the
 unit sphere in an infinite-dimensional Hilbert space is contractible! So
 we've got a principal \mathrm{U}(1)-bundle with a contractible total space
-sitting over \mathbb{CP}^\infty, proving that \mathbb{CP}^\infty is K(Z,2). Even better, the
+sitting over \mathbb{CP}^\infty, proving that \mathbb{CP}^\infty is K(\mathbb{Z},2). Even better, the
 bundle
 
 S^\infty \to \mathbb{CP}^\infty
@@ -316,9 +309,9 @@ nothing, and they annihilate when they collide... it's very nice!
 By the way, there's something called the Thom-Dold theorem that lets us
 generalize the heck out of this. We just showed that if you take the
 2-sphere and consider the space of particle-antiparticle swarms in it,
-you get K(Z,2). But suppose instead we started with the $n$-sphere and
+you get K(\mathbb{Z},2). But suppose instead we started with the $n$-sphere and
 considered the space of particle-antiparticle swarms in *that*. Then
-we'd get K(Z,n)!
+we'd get K(\mathbb{Z},n)!
 
 More generally, suppose we didn't use integers to say how many
 particles were at each point in the $n$-sphere - suppose we used elements
@@ -329,7 +322,7 @@ For more tricks like this, try this paper:
 3) Dusa McDuff, Configuration spaces of positive and negative
 particles, Topology 14 (1975), 91-107.
 
-Now let me mention a different picture of K(Z,2), that's also nice, and
+Now let me mention a different picture of K(\mathbb{Z},2), that's also nice, and
 also related to quantum theory. Take any countable-dimensional Hilbert
 space H and let \mathrm{U}(H) be the group of unitary operators on H. Just like
 the unit sphere in this Hilbert space is contractible, it turns out that
@@ -343,9 +336,9 @@ the group of unitary operators modulo phase. There's an obvious map
 
 sending a circle's worth of points to each point in \mathrm{PU}(H). It's easy
 to check that this is a principal \mathrm{U}(1)-bundle. Since the total space
-\mathrm{U}(H) is contractible, it follows that \mathrm{PU}(H) is K(Z,2)!
+\mathrm{U}(H) is contractible, it follows that \mathrm{PU}(H) is K(\mathbb{Z},2)!
 
-This give a *nonabelian* group structure on K(Z,2), which may seem kind
+This give a *nonabelian* group structure on K(\mathbb{Z},2), which may seem kind
 of weird, given that we just made it into an *abelian* group a minute
 ago. But I guess this other product is "abelian up to homotopy" in a
 very strong sense, so it's just as good as abelian for the purposes of
@@ -361,7 +354,7 @@ bundles and the Dixmier-Douady class, Comm. Math. Physics 193 (1998)
 
 Here's how it goes, at least in part. We say a linear operator
 
-A: H \to H
+A\colon  H \to  H
 
 is "Hilbert-Schmidt" if the trace of AA* is finite. The space of
 Hilbert-Schmidt operators is a Hilbert space in its own right, with this
@@ -385,19 +378,19 @@ this means that
 
 but we just saw that
 
-\mathrm{PU}(H) = K(Z,2)
+\mathrm{PU}(H) = K(\mathbb{Z},2)
 
 so
 
-\mathrm{U}(X)/\mathrm{PU}(H) = B(\mathrm{PU}(H)) = B(K(Z,2)) = K(Z,3) !
+\mathrm{U}(X)/\mathrm{PU}(H) = B(\mathrm{PU}(H)) = B(K(\mathbb{Z},2)) = K(\mathbb{Z},3) !
 
-In ["Week 149"](#week149), I said I'd like K(Z,3) to be some sort
+In ["Week 149"](#week149), I said I'd like K(\mathbb{Z},3) to be some sort
 of infinite- dimensional manifold closely related to quantum physics.
 I'm happier now, because here we are getting just that - technically,
 we're getting it to be a "Banach manifold". Of course, I could still
 complain that this description doesn't make the *abelian group
-structure* on K(Z,3) obvious. But it's definitely a big step towards
-understanding what K(Z,n)'s have to do with quantum theory.
+structure* on K(\mathbb{Z},3) obvious. But it's definitely a big step towards
+understanding what K(\mathbb{Z},n)'s have to do with quantum theory.
 
 While I'm at it, I should report some other things people have told me
 via email. If you ponder what I've said, you can see that \mathbb{CP}^\infty has 2nd
@@ -406,11 +399,11 @@ homology equal to Z, and that the generator of this homology group - the
 sticking the sphere \mathbb{CP}^1 inside \mathbb{CP}^\infty. This is nice because \mathbb{CP}^1 is
 actually a submanifold of the manifold \mathbb{CP}^\infty. But according to email
 from Mark Goresky, Rene Thom has shown that for n > 6, we cannot make
-K(Z,n) into a manifold in such a way that the universal cycle is
+K(\mathbb{Z},n) into a manifold in such a way that the universal cycle is
 represented by a submanifold!
 
 On the other hand, Michael Murray reports that Pawel Gajer has managed
-to make K(Z,n) into something called a "differential space", which is
+to make K(\mathbb{Z},n) into something called a "differential space", which is
 not quite a manifold, but good enough to do geometry on. I'm not sure
 how this relates to Thom's work... but anyway, I should read this
 stuff:
@@ -428,7 +421,7 @@ abstract nonsense, so you'll probably like gerbes. Very roughly
 speaking, a gerbe is a categorified version of a principal bundle!
 Actually it's a categorified version of a sheaf, but sometimes we can
 think of it as analogous to the sheaf of sections of a bundle. And just
-as K(Z,2) is the classifying space for \mathrm{U}(1) bundles, K(Z,3) is the
+as K(\mathbb{Z},2) is the classifying space for \mathrm{U}(1) bundles, K(\mathbb{Z},3) is the
 classifying space for a certain sort of gerbe!
 
 I sort of explained how this works in ["Week 25"](#week25), but you
@@ -437,10 +430,10 @@ can read the details here:
 6) Jean-Luc Brylinski, Loop Spaces, Characteristic Classes and
 Geometric Quantization, Birkhauser, Boston, 1993.
 
-What this means is that as we explore the meaning of these K(Z,n)'s for
+What this means is that as we explore the meaning of these K(\mathbb{Z},n)'s for
 quantum theory, we are really *categorifying* familiar ideas from
 quantum theory. In particular, this story should keep going on forever:
-K(Z,4) should be the classifying space for a certain sort of 2-gerbe,
+K(\mathbb{Z},4) should be the classifying space for a certain sort of 2-gerbe,
 and so on. But I don't think people have worked out the details beyond
 the case of 2-gerbes. If you want to learn about 2-gerbes, you have to
 read this:
@@ -480,14 +473,16 @@ Murray and Diarmuid Crowley of the University of Adelaide, and Mark
 Goresky of IHES for educating me about these matters... all remaining
 errors are mine!
 
+---
+
 Footnotes:
 
 \[1\] I'm being sloppy here. Throughout this discussion, when I say
-"homotopy equivalent", I really mean "weakly homotopy equivalent" -
+"homotopy equivalent", I really mean "weakly homotopy equivalent" ---
 a technical nuance that you can read about in any good book on homotopy
 theory.
 
-\[2\] Moreover, P must be the universal principal G-bundle. Conversely,
-for any topological group G the total space of the universal principal
-G-bundle is contractible. Everything fits together very neatly! But I
-don't need all this stuff now.\
+\[2\] Moreover, $P$ must be the universal principal $G$-bundle. Conversely,
+for any topological group $G$ the total space of the universal principal
+$G$-bundle is contractible. Everything fits together very neatly! But I
+don't need all this stuff now.

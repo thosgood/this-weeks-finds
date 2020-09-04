@@ -302,7 +302,7 @@ I've already hinted that zeta functions are an example of
 Let's think about the zeta function of a set X equipped with a
 one-to-one and onto function
 
-f: X \to X
+f\colon  X \to  X
 
 If you're a physicist, you might call this a "discrete dynamical
 system", with f describing one step of "time evolution". If you're a
@@ -396,13 +396,13 @@ So, I think this third example of decategorification is great. But, I'm
 not going to explain it in much detail here - just enough to say how
 it's related to zeta functions!
 
-A stucture type F is a gadget that gives a set F~n~ for each n =
-0,1,2,.... We think of the elements of F~n~ as "structures of type F"
+A stucture type F is a gadget that gives a set F_n for each n =
+0,1,2,.... We think of the elements of F_n as "structures of type F"
 on an $n$-element set - for example, orderings, or cyclic orderings, or
 n-colorings, or whatever type of structure you like. We only require
 that permutations of the $n$-element set act on this set of structures.
 
-Let's say a structure type is "finite" if all the sets F~n~ are
+Let's say a structure type is "finite" if all the sets F_n are
 finite. Any finite structure type has a "generating function", which
 is a formal power series |F| given by
 
@@ -747,7 +747,7 @@ This is called *class field theory*.
 > for K=Q, indeed it had been done 50 years before Hilbert's question.
 > Kronecker and Weber knew not just the Hilbert class field of Q, they
 > even knew Q^ab^, it's just the union of Q(1^1/n^), where 1^1/n^ is
-> exp(2πi/n). Let me labour a point which experts in the theory feel is
+> exp(2\pi i/n). Let me labour a point which experts in the theory feel is
 > highly important: the exponential function is transcendental---it
 > doesn't belong in algebraic geometry because it's not in C(z). On
 > the other hand, this transcendental function, when evaluated at
@@ -794,7 +794,7 @@ This is called *class field theory*.
 >      Element of finite order       Element of finite order 
 >      in the group                  in the group
 >
->      function z \to exp(2πiz)        Weierstrass ℘-function 
+>      function z \to exp(2\pi iz)        Weierstrass ℘-function 
 >                                    (and its derivative)
 >
 > In both cases, the function maps the group to an algebraic variety

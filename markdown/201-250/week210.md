@@ -155,8 +155,8 @@ fact, this idea works great: it's the main idea behind gauge theories,
 which do an excellent job of describing all the forces in nature.
 
 To set up a gauge theory, the first thing you need to do is pick a group
-G and pick a "principal G-bundle" over spacetime. Spacetime will be
-some manifold X. A principal G-bundle over X is gadget that assigns a
+G and pick a "principal $G$-bundle" over spacetime. Spacetime will be
+some manifold X. A principal $G$-bundle over X is gadget that assigns a
 G-torsor to each point of X. A G-torsor is a space where if you pick two
 points in it, you get an element of G which describes their
 "difference".
@@ -164,13 +164,13 @@ points in it, you get an element of G which describes their
 I'm being fairly sloppy here, so don't take these as precise
 definitions! I give a precise definition of a G-torsor in the above
 webpage, and any decent book on differential geometry will give you a
-definition of a principal G-bundle. However, only rather highbrow books
-define principal G-bundles with the help of G-torsors... which is sad,
+definition of a principal $G$-bundle. However, only rather highbrow books
+define principal $G$-bundles with the help of G-torsors... which is sad,
 because it's not that hard, and rather enlightening.
 
 Anyway, in gauge theory the forces of nature are described by
-"connections" on principal G-bundles. Let's say we have a principal
-G-bundle P which assigns to each point x of our manifold a G-torsor
+"connections" on principal $G$-bundles. Let's say we have a principal
+$G$-bundle P which assigns to each point x of our manifold a G-torsor
 P(x). Then a "connection" on P is a gadget that says how any path from
 x to y gives a map from P(x) to P(y). If G is \mathrm{U}(1), for example, this
 gadget says how the phase of a charged particle changes as we move it
@@ -201,7 +201,7 @@ when you carry it along a path:
 
                 f
       x--------->-------y     a path f from the point x to the point y:
-                                      we write this as f: x \to y
+                                      we write this as f\colon  x \to  y
 
 Now we need a gadget that'll describe how a *path* transforms when you
 carry it along a *path of paths:*
@@ -215,7 +215,7 @@ carry it along a *path of paths:*
                    g
 
 To do this, we need to boost our level of thinking a notch, working not
-with "G-torsors" and "principal G-bundles" but instead with
+with "G-torsors" and "principal $G$-bundles" but instead with
 "G-2-torsors" and "G-gerbes".
 
 Here's how it goes:
@@ -248,11 +248,11 @@ What's that? Well, it's a gadget that for each path from x to y gives
 us a map from the G-2-torsor P(x) to the G-2-torsor P(y). If we call the
 path
 
-    f: x \to y
+    f\colon  x \to  y
 
 then we call this map
 
-    P(f): P(x) \to P(y)
+    P(f)\colon  P(x) \to  P(y)
 
 Moroever, this sort of connection also gives a "map between maps" for
 each path-of-paths! So, from
@@ -266,15 +266,15 @@ it gives
 I haven't explained enough stuff to say yet what these "maps between
 maps" are, so let's just see what happens if we have a loop
 
-    f: x \to x
+    f\colon  x \to  x
 
 and then a loop-of-loops
 
     F: f => f
 
-From the loop f: x \to x, our connection gives us a map:
+From the loop f\colon  x \to  x, our connection gives us a map:
 
-    P(f): P(x) \to P(x)
+    P(f)\colon  P(x) \to  P(x)
 
 If we start with a point in P(x), and apply this map, we get another
 point in P(x). Since P(x) is a G-2-torsor, these two points determine a

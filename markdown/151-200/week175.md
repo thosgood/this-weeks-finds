@@ -277,7 +277,7 @@ can apply functions to observables and get new observables, which is
 something we do all the time in physics.
 
 More precisely, given any self-adjoint operator A in our von Neumann
-algebra and any measurable function f: R \to R, we want there to be a
+algebra and any measurable function f\colon  R \to  R, we want there to be a
 self-adjoint operator f(A) that again lies in our von Neumann algebra.
 To make sure this works, we need our von Neumann algebra to be
 "closed" in a certain sense. The nice thing is that we can state this
@@ -327,7 +327,7 @@ the form xx* for some element x. The nonnegative elements form a
 nonnegative scalars. Let P be the cone of nonnegative elements. Then a
 "trace" is a function
 
-    tr: P \to [0, +\infty]
+    tr\colon  P \to  [0, +\infty]
 
 which is linear in the obvious sense and satisfies
 
@@ -353,11 +353,11 @@ infinite, or even nonintegral!
 
 We say a factor is type I if it admits a nonzero trace for which the
 trace of a projection lies in the set {0,1,2,...,+\infty}. We say it's type
-I~n~ if we can normalize the trace so we get the values {0,1,...,n}.
+I_n if we can normalize the trace so we get the values {0,1,...,n}.
 Otherwise, we say it's type I~\infty~, and we can normalize the trace to get
 all the values {0,1,2,...,+\infty}.
 
-It turn out that every type I~n~ factor is isomorphic to the algebra of
+It turn out that every type I_n factor is isomorphic to the algebra of
 n x n matrices. Also, every type I~\infty~ factor is isomorphic to the
 algebra of all bounded operators on a Hilbert space of countably
 infinite dimension.

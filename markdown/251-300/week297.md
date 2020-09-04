@@ -116,19 +116,19 @@ Alexander Craigie - there's a link at the end of Mike's post.
 
 Next, an observation from Robert Baillie. Take this series:
 
-π/√8 = 1 + 1/3 - 1/5 - 1/7 + 1/9 + 1/11 - ...
+\pi /√8 = 1 + 1/3 - 1/5 - 1/7 + 1/9 + 1/11 - ...
 
 Square each term, add them up... and you get the square of the previous
 sum:
 
-π^2/8 = 1 + 1/3^2 + 1/5^2 + 1/7^2 + 1/9^2 + 1/11^2 + ...
+\pi ^2/8 = 1 + 1/3^2 + 1/5^2 + 1/7^2 + 1/9^2 + 1/11^2 + ...
 
 Don't tell undergraduates about this - they are already confused
 enough!
 
 And finally, a comment from Nora Ganter. If you look at the cohomology
 of the symmetric groups, you find an element of order 12 in
-H^3(S~n~,Q/Z) for n greater or equal to 4. But the third cohomology of
+H^3(S_n,Q/Z) for n greater or equal to 4. But the third cohomology of
 a group classifies ways of extending it to a 2-group. So whenever you
 realize a finite group as a group of permutations of 4 or more things,
 you automatically get a way of extending it to a 2-group!
@@ -136,7 +136,7 @@ you automatically get a way of extending it to a 2-group!
 I would like to understand this better. In particular, the number 12
 here should be related to the fact that
 
-π~k+3~(S^k^) = Z/24
+\pi ~k+3~(S^k^) = Z/24
 
 for k ≥ 5. After all, stable homotopy groups of spheres are related to
 the cohomology of symmetric groups, since the group completion of the
@@ -161,7 +161,7 @@ all "terminals".
 
 We saw last time that our circuit gives a function
 
-Q: R^n \to R
+Q\colon  R^n \to  R
 
 This tells you how much power the circuit uses as a function of the
 electrostatic potential at each terminal.
@@ -269,7 +269,7 @@ Also available at
 Among other things, he mentions a simpler characterization of Dirichlet
 forms. We're only considering quadratic forms
 
-Q: R^n \to R
+Q\colon  R^n \to  R
 
 and it turns out such a form is Dirichlet iff
 
@@ -324,7 +324,7 @@ This follows from Sabot's Proposition 1.8. Let me explain the idea.
 Suppose, for example, that we have a nonnegative quadratic form in 3
 variables
 
-Q: R^3 \to R
+Q\colon  R^3 \to  R
 
 Then we can get a quadratic form in 2 variables by taking the minimum of
 Q as the third variable ranges freely:
@@ -464,7 +464,7 @@ said:
 > **Claim:** there is a dagger-compact category where:
 >
 > -   An object is a finite-dimensional real vector space.
-> -   A morphism S: V \to W is a Lagrangian subspace of T*V \times T*W.
+> -   A morphism S\colon  V \to  W is a Lagrangian subspace of T*V \times T*W.
 > -   We compose morphisms using composition of relations.
 > -   The tensor product is given by direct sum.
 > -   The symmetry is the obvious thing.
@@ -480,7 +480,7 @@ subset C(R^m^ \times R^n). So, let's try:
 > **Claim:** there is a dagger-compact category where:
 >
 > -   An object is a natural number.
-> -   A morphism S: m \to n is a point in C(R^m^ \times R^n).
+> -   A morphism S\colon  m \to  n is a point in C(R^m^ \times R^n).
 > -   We compose morphisms using composition of relations.
 > -   The tensor product is given by direct sum.
 > -   The symmetry is the obvious thing.

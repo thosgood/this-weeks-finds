@@ -71,7 +71,7 @@ a and b,
 
 two morphisms:
 
-L: a \to b and R: b \to a,
+L: a \to b and R\colon  b \to  a,
 
 and two 2-morphisms, called the "unit" and "counit":
 
@@ -106,7 +106,7 @@ while the counit e looks like this:
 Note that as you cross a line labelled "L" from left to right, you go
 from region a to region b, which is our way of saying that L: a -> b.
 Similarly, as you cross a line labelled "R" from left to right, you go
-from region b to region a, since R: b \to a.
+from region b to region a, since R\colon  b \to  a.
 
 In terms of string diagrams, the triangle equations just say that we can
 straighten out a zig-zag:
@@ -186,11 +186,11 @@ Okay, so we've got this 2-category, the walking adjunction: let's call
 it Ad for short. It's pretty simple. How can we understand it better?
 
 Well, for any two objects a and b in a 2-category we get a
-"hom-category" hom(a,b), whose objects are the morphisms from a to b,
+"hom-category" \operatorname{Hom}(a,b), whose objects are the morphisms from a to b,
 and whose morphisms are the 2-morphisms between those. If we work out
 these hom-categories in Ad, we get some cool stuff.
 
-First let's look at the hom-category hom(a,a). In this category, the
+First let's look at the hom-category \operatorname{Hom}(a,a). In this category, the
 objects are
 
 1~a~, LR, LRLR, LRLRLR, ....
@@ -228,7 +228,7 @@ stripes and the appearance of a black stripe.
 
 If you read ["Week 89"](#week89), you'll know another way to
 describe this! Our ability to stick together pictures vertically and
-horizontally makes hom(a,a) into a "monoidal category". LR is a
+horizontally makes \operatorname{Hom}(a,a) into a "monoidal category". LR is a
 "monoid object", with merging of two black stripes being
 "multiplication", and the appearance of a black stripe being the
 "multiplicative identity". Being a "monoid object" simply means that
@@ -270,12 +270,12 @@ associative law:
                        | |                    | |
                        | |                    | |
 
-There aren't any other laws, so hom(a,a) is the "free monoidal
+There aren't any other laws, so \operatorname{Hom}(a,a) is the "free monoidal
 category on a monoid object", or if you prefer, the "walking monoid"!
 
 I touched upon the immense consequences of this fact for algebraic
 topology in ["Week 117"](#week117) and ["Week 118"](#week118).
-They mainly rely on another way of thinking about hom(a,a): it's the
+They mainly rely on another way of thinking about \operatorname{Hom}(a,a): it's the
 category of order-preserving maps between finite ordinals!
 
 For example, these black tiger stripes on an orange background:
@@ -297,7 +297,7 @@ For example, these black tiger stripes on an orange background:
 
 correspond to the order-preserving map
 
-f: {0,1,2,3} \to {0,1,2}
+f\colon  {0,1,2,3} \to  {0,1,2}
 
 with
 
@@ -305,7 +305,7 @@ f(0) = 0, f(1) = 0, f(2) = 0, f(3) = 2.
 
 Just read the stripes down!
 
-A more geometrical way to say the same thing is to call hom(a,a) the
+A more geometrical way to say the same thing is to call \operatorname{Hom}(a,a) the
 category of "simplices", usually denoted Δ. Here the object
 
                              |---n+1 of them---|
@@ -393,7 +393,7 @@ Similarly we can define T.f in this sort of situation:
                           g'     
 
 Anyway, once you're an expert on this 2-categorical yoga, you can
-easily see that these morphisms in hom(a,a), which are really
+easily see that these morphisms in \operatorname{Hom}(a,a), which are really
 2-morphisms in Ad:
 
                                      -i.LRLR-->
@@ -408,8 +408,8 @@ stripe", or i - and drawing some extra black stripes on both sides.
 That's what those LR's are for. After all, no tiger is complete
 without whiskers!
 
-Okay. Now, having understood hom(a,a) in all these ways, let's turn to
-hom(b,b). Luckily, this is very similar! Here the objects are
+Okay. Now, having understood \operatorname{Hom}(a,a) in all these ways, let's turn to
+\operatorname{Hom}(b,b). Luckily, this is very similar! Here the objects are
 
 1~b~, RL, RLRL, RLRLRL, ....
 
@@ -452,12 +452,12 @@ or disappear:
                                  \ /
                                   e
 
-as we march down the page. This means is that hom(b,b) is Δ^op^: the
+as we march down the page. This means is that \operatorname{Hom}(b,b) is Δ^op^: the
 *opposite* of the category of simplices, the *opposite* of the category
 of finite ordinals, or the walking *comonoid* - which is just like a
 monoid, only upside down!
 
-Here is another picture of hom(b,b):
+Here is another picture of \operatorname{Hom}(b,b):
 
                                       --R.i.LRL->
                      --R.i.L->        --RLR.i.L->
@@ -474,9 +474,9 @@ certain old-fashioned reasons. But the idea is exactly the same! The
 morphisms above give the usual "face and degeneracy maps" we always
 have in a simplicial set, since a simplicial set is a functor
 
-F: Δ^op^ \to Set.
+F\colon  Δ^op^ \to  \mathsf{Set}.
 
-By the way, you may have noticed that to get from hom(a,a) to hom(b,b),
+By the way, you may have noticed that to get from \operatorname{Hom}(a,a) to \operatorname{Hom}(b,b),
 we had to switch the colors orange and black AND read the pictures
 upside-down. The reason is that if we turn around all the 1-morphisms
 AND 2-morphisms in the walking adjunction, we get the walking adjunction
@@ -486,13 +486,13 @@ We can summarize what we've learned so far using the "Platonic idea"
 jargon I introduced last week:
 
 The Platonic idea of a monoid and the Platonic idea of a comonoid are
-the hom-categories hom(a,a) and hom(b,b) sitting inside the Platonic
+the hom-categories \operatorname{Hom}(a,a) and \operatorname{Hom}(b,b) sitting inside the Platonic
 idea of an adjunction!
 
-(By the way, to round this off we should really describe hom(a,b) and
-hom(b,a), too. I think hom(a,b) is the Platonic idea of "an object with
+(By the way, to round this off we should really describe \operatorname{Hom}(a,b) and
+\operatorname{Hom}(b,a), too. I think \operatorname{Hom}(a,b) is the Platonic idea of "an object with
 a left action of a monoid and a right coaction of a comonoid, in a
-compatible way". If so, hom(b,a) would be the Platonic idea of "an
+compatible way". If so, \operatorname{Hom}(b,a) would be the Platonic idea of "an
 object with a right action of a monoid and a left coaction of a
 comonoid, in a compatible way". By "compatible" I'm saying that we
 can act on one side and coact on the other side in either order, and get
@@ -510,11 +510,11 @@ But what's an "ambidextrous adjunction"?
 
 A ambidextrous adjunction is where you have a morphism
 
-L: a \to b
+L\colon  a \to  b
 
 in a 2-category that is both left and right adjoint to
 
-R: b \to a.
+R\colon  b \to  a.
 
 More precisely, it is a setup
 
@@ -577,7 +577,7 @@ defines... I don't want to be too precise here, since it would be
 boring. Hopefully you get the idea: AmbAd has a purely topological
 description!
 
-Now for the punchline: in AmbAd, what is the category hom(a,a) like? As
+Now for the punchline: in AmbAd, what is the category \operatorname{Hom}(a,a) like? As
 in Ad, the objects are
 
 1~a~, LR, LRLR, LRLRLR, ...
@@ -638,10 +638,10 @@ which make it into a monoid object *and* a comonoid object. Even better,
 there are some extra relations between the multiplication and
 comultiplication, which make LR into a so-called "Frobenius object"!
 
-In short, hom(a,a) is the walking Frobenius object! So is hom(b,b),
+In short, \operatorname{Hom}(a,a) is the walking Frobenius object! So is \operatorname{Hom}(b,b),
 since there is no real asymmetry between the objects a and b in an
 ambidextrous adjunction, as there was with an adjunction. I haven't
-thought much about hom(a,b) and hom(b,a) yet, but one obvious thing is
+thought much about \operatorname{Hom}(a,b) and \operatorname{Hom}(b,a) yet, but one obvious thing is
 that they're isomorphic.
 
 Next time I'll talk about examples of Frobenius objects and why they

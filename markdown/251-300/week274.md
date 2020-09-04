@@ -93,25 +93,25 @@ do it again, isomorphism becomes "equivalence".)
 What's Vect^n, you ask? Well, what's C^n? It's the set where an
 element is an $n$-tuple of numbers:
 
-(x_1, ..., x~n~)
+(x_1, ..., x_n)
 
 So, Vect^n is the category where an object is an $n$-tuple of vector
 spaces:
 
-(X_1, ..., X~n~)
+(X_1, ..., X_n)
 
 It's all pathetically straightforward. Of course we also need to know
 what's a morphism in Vect^n. What's a morphism from
 
-(X_1, ..., X~n~)
+(X_1, ..., X_n)
 
 to
 
-(Y_1, ..., Y~n~)?
+(Y_1, ..., Y_n)?
 
 It's just the obvious thing: an $n$-tuple of linear operators
 
-(f_1: X_1 \to Y_1, ..., f~n~: X~n~ \to Y~n~)
+(f_1: X_1 \to Y_1, ..., f_n\colon  X_n \to  Y_n)
 
 And we compose these in the obvious way, namely "componentwise".
 

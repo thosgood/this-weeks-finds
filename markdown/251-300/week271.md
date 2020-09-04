@@ -267,12 +267,12 @@ Vect^n for some n, where Vect is the category of finite-dimensional
 vector spaces. A "linear functor" is one that's linear on each
 homset. More concretely, we can describe a linear functor
 
-F: Vect^n \to Vect^m^
+F\colon  Vect^n \to  Vect^m^
 
 as an m \times n matrix of finite-dimensional vector spaces, just as we can
 describe a linear operator
 
-F: C^n \to C^m^
+F\colon  C^n \to  C^m^
 
 as a m \times n matrix of complex numbers.
 

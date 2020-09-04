@@ -46,7 +46,7 @@ identities can be directly reconstructed from the group lattice;
 Kaluza-Klein modifications and Chern-Simons terms are encoded in the
 group structure. Manipulations of extended Dynkin diagrams encode matter
 content and (string) dualities. The reflection symmetry of the "magic
-triangle" for E~n~ gravities, and approximate reflection symmetry of
+triangle" for E_n gravities, and approximate reflection symmetry of
 the older "magic triangle" of supergravities in 4 dimensions, are
 easily understood in this framework."
 
@@ -109,7 +109,7 @@ not, so I'll start out with an elementary introduction to operads, then
 give you some references for further study... and then pull out all the
 stops and explain how they're related to structure types.
 
-So: what's an operad? An operad O consists of a set O~n~ of abstract
+So: what's an operad? An operad O consists of a set O_n of abstract
 \`n-ary operations' for each natural number n, together with rules for
 composing these operations. We can think of an $n$-ary operation as a
 little black box with n wires coming in and one wire coming out:
@@ -143,9 +143,9 @@ We're allowed to compose these operations like this:
                            |
                            |
 
-feeding the outputs of n operations g_1,..,g~n~ into the inputs of an
+feeding the outputs of n operations g_1,..,g_n into the inputs of an
 n-ary operation f, obtaining a new operation which we call f o
-(g_1,...,g~n~). We demand that there be a unary operation serving as
+(g_1,...,g_n). We demand that there be a unary operation serving as
 the identity for composition, and we impose an "associative law" that
 makes a composite of composites like this well-defined:
 
@@ -189,8 +189,8 @@ new operation:
                            |
                            |
 
-We demand that this give an action of each permutation group S~n~ on
-each set O~n~. Finally, we demand that these actions be compatible with
+We demand that this give an action of each permutation group S_n on
+each set O_n. Finally, we demand that these actions be compatible with
 composition, in a way that's supposed to be obvious from the pictures.
 For example:
 
@@ -265,7 +265,7 @@ a manner that gets ever more complicated for higher k!
 
 After more than decade of hard work, it became clear that operads are
 the easiest way to organize all these higher homotopies. Just as a group
-can act on a set, so can an operad O, each abstract operation in O~n~
+can act on a set, so can an operad O, each abstract operation in O_n
 being realized as actual $n$-ary operation on the set in a manner
 preserving composition, the identity, and the permutation group actions.
 A set equipped with an action of the operad O is usually called an
@@ -282,7 +282,7 @@ algebraic structures", in which all laws hold up to an infinite
 sequence of higher homotopies.
 
 For an operad to do this job, it must really have a *topological space*
-of operations O~n~ for each n, since the fact that various laws hold up
+of operations O_n for each n, since the fact that various laws hold up
 to homotopy is expressed by the existence of certain continuous paths in
 these spaces. Similarly, composition and the permutation group actions
 should be *continuous maps*. Finally, we should only consider algebras
@@ -308,14 +308,14 @@ I said that a structure type is "any sort of structure you can put on
 finite sets", but let me make that more precise. A structure type is
 really a functor
 
-F: FinSet~0~ \to Set
+F\colon  \mathsf{Fin\mathsf{Set}}~0~ \to  \mathsf{Set}
 
-where FinSet~0~ is the groupoid of finite sets and bijections, and Set
-is the category of sets and functions. FinSet~0~ is equivalent to the
+where \mathsf{Fin\mathsf{Set}}~0~ is the groupoid of finite sets and bijections, and \mathsf{Set}
+is the category of sets and functions. \mathsf{Fin\mathsf{Set}}~0~ is equivalent to the
 category that has one object, "the $n$-element set", for each n, with
 the morphisms from this object to itself forming the permutation group
-S~n~. So, we can also think of a structure type as consisting of a set
-F(n) for each n, together with an action of S~n~ on this set F(n). This
+S_n. So, we can also think of a structure type as consisting of a set
+F(n) for each n, together with an action of S_n on this set F(n). This
 latter viewpoint is good for calculation, while the original viewpoint
 is better for conceptual work.
 
@@ -323,7 +323,7 @@ We also have morphisms between structure types, which are just natural
 transformations between functors of the above sort. So, the category of
 structure types is the functor category
 
-hom(FinSet~0~, Set)
+\operatorname{Hom}(\mathsf{Fin\mathsf{Set}}~0~, \mathsf{Set})
 
 To understand why this category acts like the ring of formal power
 series in one variable, it's crucial to understand the analogy between
@@ -339,10 +339,10 @@ get a feel for this may be a big chart, which starts like this:
     commutative rigs                symmetric 2-rigs
 
     the free commutative rig on     the free symmetric 2-rig on
-    no generators: N                no generators: Set
+    no generators: N                no generators: \mathsf{Set}
 
     the free commutative rig on     the free symmetric 2-rig on
-    one generator: N[x]             on generator: Set[[x]] = hom(FinSet0, Set) 
+    one generator: N[x]             on generator: \mathsf{Set}[[x]] = \operatorname{Hom}(\mathsf{Fin\mathsf{Set}}0, \mathsf{Set}) 
 
 I'll assume you understand the first three lines of the chart, e.g.
 that just as a monoid is a set equipped with an associative
@@ -375,11 +375,11 @@ to define a "2-rig" as a monoidal category with colimits, where the
 monoidal structure preserves colimits in each argument. The colimits act
 like addition and the monoidal structure acts like multiplication. Given
 this, it's easy to check that the free 2-rig on no generators is the
-category Set.
+category \mathsf{Set}.
 
 (If we prefer an analogy between natural numbers and *finite* sets, we
 should say "finite colimits" instead of colimits in the definition of
-2-rig: then FinSet will be the free 2-rig on no generators.)
+2-rig: then \mathsf{Fin\mathsf{Set}} will be the free 2-rig on no generators.)
 
 Now, what's the free commutative rig on *one* generator?
 

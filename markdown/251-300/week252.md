@@ -468,7 +468,7 @@ You've shown how mysterious these irreps actually are!"
 
 Georg replies, "Actually in some cases there *is* a nice way to read
 off irreps from conjugacy classes. For example, you can do it for the
-symmetric groups S~n~. But, I admit you can't in general... or at
+symmetric groups S_n. But, I admit you can't in general... or at
 least, I don't know how."
 
 William laughs, "So, I win!"
@@ -586,14 +586,14 @@ language of categories, just to help you practice your vocabulary.
 
 A G-set is the same as a functor
 
-A: G \to Set
+A\colon  G \to  \mathsf{Set}
 
 where we think of G as a 1-object category. There's a category of
 G-sets, namely
 
-hom(G,Set)
+\operatorname{Hom}(G,\mathsf{Set})
 
-This has functors A: G \to Set as objects, and natural transformations
+This has functors A\colon  G \to  \mathsf{Set} as objects, and natural transformations
 between these as morphisms. Usually the objects are called "G-sets",
 and the morphisms are called "maps of G-sets".
 
@@ -601,39 +601,39 @@ We can also play this whole game with the category of vector spaces
 replacing the category of sets. A representation of G is the same as a
 functor
 
-A: G \to Vect
+A\colon  G \to  Vect
 
 As before, there's a category of such things, namely
 
-hom(G,Vect)
+\operatorname{Hom}(G,Vect)
 
-This has functors A: G \to Vect as objects, and natural transformations
+This has functors A\colon  G \to  Vect as objects, and natural transformations
 between these as morphisms. Now the objects are called "representations
 of G" and the morphisms are called "intertwining operators".
 
 We could let any groupoid take the place of the group G. We could also
-let any other category take the place of Set or Vect.
+let any other category take the place of \mathsf{Set} or Vect.
 
 Part of what William and Georg were debating was: how similar are
-hom(G,Set) and hom(G,Vect)? How are they related?
+\operatorname{Hom}(G,\mathsf{Set}) and \operatorname{Hom}(G,Vect)? How are they related?
 
 First of all, there's a functor
 
-F: Set \to Vect
+F\colon  \mathsf{Set} \to  Vect
 
 sending each set S to the vector space C\[S\] with that set as basis.
 So, given an action of G on a set:
 
-A: G \to Set
+A\colon  G \to  \mathsf{Set}
 
 we can compose it with F and get a representation of G:
 
-FA: G \to Vect
+FA\colon  G \to  Vect
 
 This kind of representation is called a "permutation representation".
 And, this trick gives a functor from G-sets to representations of G:
 
-    hom(G,Set) \to hom(G,Vect) 
+    \operatorname{Hom}(G,\mathsf{Set}) \to \operatorname{Hom}(G,Vect) 
             A |-> FA
 
 If this functor were an equivalence of categories, it would have to be
@@ -641,7 +641,7 @@ essentially surjective, full and faithful. But, not every representation
 of G is isomorphic to a permutation representation! In other words, the
 functor
 
-hom(G,Set) \to hom(G,Vect)
+\operatorname{Hom}(G,\mathsf{Set}) \to \operatorname{Hom}(G,Vect)
 
 is not "essentially surjective".
 
@@ -649,7 +649,7 @@ Moreover, not every intertwining operator between permutation
 representations comes from a map between their underlying G-sets! In
 other words, the functor
 
-hom(G,Set) \to hom(G,Vect)
+\operatorname{Hom}(G,\mathsf{Set}) \to \operatorname{Hom}(G,Vect)
 
 is not "full".
 
@@ -658,8 +658,8 @@ different intertwining operators. So, at least our functor is
 "faithful".
 
 Maps of G-sets are a special case of invariant relations. So, to get a
-category that more closely resembles hom(G,Vect), while remaining purely
-combinatorial, we can replace hom(G,Set) by the category with G-sets as
+category that more closely resembles \operatorname{Hom}(G,Vect), while remaining purely
+combinatorial, we can replace \operatorname{Hom}(G,\mathsf{Set}) by the category with G-sets as
 objects and invariant binary relations as morphisms. This is the basic
 idea of "Hecke operators".
 

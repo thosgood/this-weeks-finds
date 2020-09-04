@@ -20,7 +20,7 @@ many primes are less than a given number as a sum over the *zeros* of
 the Riemann zeta function. Instead of showing you this formula, I'll
 just urge you to watch a *movie* of how it works:
 
-1) Matthew Watkins, Animation: the prime counting function π(x),
+1) Matthew Watkins, Animation: the prime counting function \pi (x),
 `http://www.maths.ex.ac.uk/~mwatkins/zeta/pianim.htm`
 
 Thanks to this formula, information about the Riemann zeta function is
@@ -189,12 +189,12 @@ theory.
 dynamical system" consists of a set X together with a one-to-one and
 onto function
 
-f: X \to X
+f\colon  X \to  X
 
 Here X is the set of "states" of some physical system, and f describes
 one step of time evolution. For each integer n we get a function
 
-f^ n^: X \to X
+f^ n^\colon  X \to  X
 
 Since the integers are called Z, mathematicians would call our discrete
 dynamical system a "Z-set".
@@ -224,13 +224,13 @@ We can also rewrite this zeta function as a sum:
 \zeta(s) = \sum |I|^-s^
 
 where I ranges over all formal products of periodic orbits, and we
-define |P_1 ... P~n~| = |P_1| ... |P~n~|.
+define |P_1 ... P_n| = |P_1| ... |P_n|.
 
 Even better, examples A) and B) overlap. I'll explain how later, but
 the key is to associate to any number field and any prime p a discrete
 dynamical system
 
-f: X \to X
+f\colon  X \to  X
 
 called the "Frobenius automorphism". This gives a zeta function. It
 works best if we take the exponential of the size of each periodic orbit
@@ -241,7 +241,7 @@ our number field!
 **C) The zeta function of a continuous dynamical system.** Now suppose X
 is some topological space and we have a time evolution map
 
-f~ t~: X \to X
+f~ t~\colon  X \to  X
 
 for each real number t. We can define a zeta function
 
@@ -262,7 +262,7 @@ M, any prime geodesic P in M defines a deck transformation of M'. This
 transformation acts on the set X of prime geodesics sitting over P, so
 we get a one-to-one and onto map
 
-f: X \to X
+f\colon  X \to  X
 
 This is exactly like the "Frobenius automorphism" in number theory!
 
@@ -288,7 +288,7 @@ what it means for a graph G' to be a covering space of a graph G. Any
 prime loop P in G defines a deck transformation of G'. This acts on the
 set X of prime loops sitting over P, so we get a one-to-one and onto map
 
-f: X \to X
+f\colon  X \to  X
 
 which again deserves to be called the "Frobenius automorphism".
 
@@ -316,7 +316,7 @@ affine scheme Spec(R). Then comes something wonderful: if x is a
 k-point, so is x^p^, since "raising to the pth power" is an
 automorphism of k. So, we get a map
 
-f: X \to X
+f\colon  X \to  X
 
 sending x to x^p^. This is called the "Frobenius automorphism"!
 
@@ -341,7 +341,7 @@ definition works for them too.
 If you know someone else's definition of the zeta function of a scheme,
 it may not look like what I wrote here! But don't panic. The reason is
 that people like to express the zeta function of a discrete dynamical
-system f: X \to X in terms of the number of fixed points of f^ n^. When f
+system f\colon  X \to  X in terms of the number of fixed points of f^ n^. When f
 is the Frobenius automorphism, these are usually called "points defined
 over the field with p^n elements". So, you'll see lots of formulas
 for zeta functions phrased in terms of these....
@@ -397,7 +397,7 @@ Finally, I should explain some more technical stuff about \zeta functions
 and fixed points, just so I don't forget it. Suppose we have a discrete
 dynamical system
 
-f: X \to X
+f\colon  X \to  X
 
 and let
 

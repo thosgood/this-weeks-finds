@@ -365,13 +365,13 @@ Ramanujan is the one to go to. Check these out:
 
                1
           --------------
-           1 +  exp(-2π)
+           1 +  exp(-2\pi )
                -------------
-                1 + exp(-4π)          =     exp(2π/5) [sqrt(G sqrt(5)) - G]
+                1 + exp(-4\pi )          =     exp(2\pi /5) [sqrt(G sqrt(5)) - G]
                     ------------
-                     1 + exp(-6π)
+                     1 + exp(-6\pi )
                          -----------
-                          1 + exp(-8π)  
+                          1 + exp(-8\pi )  
                               ---------   
                                      .
                                        .
@@ -379,13 +379,13 @@ Ramanujan is the one to go to. Check these out:
 
 and
 
-       1 +  exp(-2π sqrt(5))
+       1 +  exp(-2\pi  sqrt(5))
            -------------------
-            1 + exp(-4π sqrt(5))                                         sqrt(5)
-                -----------------             =   exp(2π/5) [ ---------------------------- - G]
-                 1 + exp(-6π sqrt(5))                          1 + [53/4 (G - 1)5/2 - 1]1/5
+            1 + exp(-4\pi  sqrt(5))                                         sqrt(5)
+                -----------------             =   exp(2\pi /5) [ ---------------------------- - G]
+                 1 + exp(-6\pi  sqrt(5))                          1 + [53/4 (G - 1)5/2 - 1]1/5
                      ------------------
-                      1 + exp(-8π sqrt(5))  
+                      1 + exp(-8\pi  sqrt(5))  
                           ------------------   
                                   .
                                     .
@@ -466,7 +466,7 @@ is a golden tree, but
 
 is not. Let G be the set of golden trees. We define an isomorphism
 
-    f: G2 \to G + {@} 
+    f\colon  G2 \to  G + {@} 
 
 as follows. First we define f(X, Y) when both X and Y are golden trees
 with just one node, this node being labelled by a bit. We can identify
@@ -800,7 +800,7 @@ with various replies, concluding with my own.
     The "nasty sets" of which Steve speaks fail to satisy such expected
     equations as 2^2X ~ X.  (The power set of a set is a Boolean algebra,
     for heaven's sake.  Why on earth forget that structure prior to taking the
-    second exponentiation?  Set theorists seem to think that they can simply
+    second exponentiation?  \mathsf{Set} theorists seem to think that they can simply
     forget structure without paying for it, but in the real world it costs
     kT/2 joules per element of X to forget that structure.  If set theorists
     aren't willing to pay real-world prices in their modeling, why should we
@@ -855,7 +855,7 @@ with various replies, concluding with my own.
     A nice solution T would be the set of finite, binary, planar trees
     together with the usual isomorphism T -~-> 1 + T^2; a nasty solution
     would be a random infinite set T with a random isomorphism to 1 + T^2. 
-    (Both these solutions are in the rig category Set with its standard +
+    (Both these solutions are in the rig category \mathsf{Set} with its standard +
     and x.)  I regard the first solution as nice because I can see some
     combinatorial content to it (and maybe, at the back of my mind, because
     it has a constructive feel), and the second as nasty because I can't. 

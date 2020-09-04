@@ -118,7 +118,7 @@ as it winds twice in the other direction:
 `http://www.popmath.org.uk/sculpmath/pagesm/torus2.html`
 
 Mathematically, the surface of a doughnut is called a "torus". We can
-describe a point on the torus by two angles running from 0 to 2π - the
+describe a point on the torus by two angles running from 0 to 2\pi  - the
 "latitude" and "longitude". But another name for such an angle is a
 "point on the unit circle". If we think of the unit circle in the
 complex plane, this gives us a nice equation for the trefoil:
@@ -563,7 +563,7 @@ So, the fundamental group of the complement of this knot is the braid
 group on n strands.
 
 This relation between higher-dimensional knots and singularities was
-investigated by Milnor, not just for the A~n~ series of Coxeter diagrams
+investigated by Milnor, not just for the A_n series of Coxeter diagrams
 but more generally:
 
 7) John W. Milnor, Singular Points of Complex Hypersurfaces, Princeton

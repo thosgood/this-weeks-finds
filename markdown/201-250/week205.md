@@ -57,7 +57,7 @@ geometry far enough!
 If we do this, we'll see some cool things. First of all, we'll see
 that algebra is just like geometry, only backwards.
 
-What do I mean by this? Well, whenever you have a map T: X \to Y going
+What do I mean by this? Well, whenever you have a map T\colon  X \to  Y going
 from the space X to the space Y, you can use it to take functions on Y
 and turn them into functions on X. Since this goes backwards, it's
 called "pulling back along T". Here's how it goes: if f is a function
@@ -73,7 +73,7 @@ meaning that it preserves all the structure of a commutative ring:
     T*(fg) = T*(f) T*(g)                     T*(1) = 1
 
 Conversely, any sufficiently nice homomorphism from functions on Y to
-functions on X will come from some map T: X \to Y this way! Here I'm
+functions on X will come from some map T\colon  X \to  Y this way! Here I'm
 summarizing a whole bunch of different theorems, each of which goes
 along with its own precise definition of "space", "map", and
 "nice".
@@ -92,7 +92,7 @@ But be careful: this translation turns maps into homomorphisms going
 backwards: it's "contravariant". This is really important in two
 ways. First, suppose we have a point x in a space X. This gives a map
 
-    i: {x} \to X
+    i\colon  {x} \to  X
 
 This, in turn, gives a homomorphism i* sending functions on X to
 functions on {x}. Functions on a one-point space are like numbers, so
@@ -101,7 +101,7 @@ that's the backwards analogue of the fact that i is one-to-one!
 
 Second, suppose we have a map from a space E onto the space X:
 
-    p: E \to X.
+    p\colon  E \to  X.
 
 If you know some topology, think of E as a "covering space" of X. Then
 we get a homomorphism p* from functions on X to functions on E.
@@ -139,11 +139,11 @@ is a field.
 This means that the algebraic analogue of a map from a one-point space
 into some other space:
 
-    i: {x} \to X
+    i\colon  {x} \to  X
 
 should be a homomorphism from a commutative ring R to a field k:
 
-    f: R \to k
+    f\colon  R \to  k
 
 Our translation dictionary now looks like this:
 
@@ -163,8 +163,8 @@ Moreover, there are homomorphisms between different fields. These act
 like "flavor changing" maps - maps from a point of one flavor to a
 point of some other flavor.
 
-If we have a homomorphism f: R \to k and a homomorphism from k to some
-other field k', we can compose them to get a homomorphism f ': R \to
+If we have a homomorphism f\colon  R \to  k and a homomorphism from k to some
+other field k', we can compose them to get a homomorphism f '\colon  R \to 
 k'. So, we're doing some funny sort of geometry where if we have a
 point mapped into our space, we can convert it into a point of some
 other flavor, using a "flavor changing" map.
@@ -180,13 +180,13 @@ commutative ring R, or Spec(R) for short. What are the points of
 Spec(R)? They're not just all possible homomorphisms from R to all
 possible fields. Instead, we count two such homomorphisms as the same
 point of Spec(R) if they're related by a "flavor changing process".
-In other words, f ': R \to k' gives the same point as f: R \to k if you
+In other words, f ': R \to k' gives the same point as f\colon  R \to  k if you
 can get f ' by composing f with a homomorphism from k to k'.
 
 This is a bit ungainly, but luckily there's a quick and easy way to
-tell when f: R \to k and f ': R \to k' are related by such a flavor
+tell when f: R \to k and f '\colon  R \to  k' are related by such a flavor
 changing process, or a sequence of such processes. You just see if they
-have the same kernel! The "kernel" of f: R \to k is the subset of R
+have the same kernel! The "kernel" of f\colon  R \to  k is the subset of R
 consisting of elements r with
 
     f(r) = 0
@@ -223,7 +223,7 @@ If you don't know what a branched covering space is, don't worry:
 we'll start with the very simplest example. We'll look at this map
 from the complex plane to itself:
 
-    p: C \to C
+    p\colon  C \to  C
 
     p(z) = z2
 
@@ -250,7 +250,7 @@ the z plane is called C\[z\]; the ring of polynomial functions on the w
 plane is called C\[w\]. We can pull functions from the w plane back up
 to the z plane:
 
-    p*: C[w] \to C[z]
+    p*\colon  C[w] \to  C[z]
 
 and p* works in the obvious way, taking any function f(w) to the
 function f(z^2).
@@ -316,13 +316,13 @@ Similarly,
 
 Now let's think about our branched cover
 
-    p: C \to C
+    p\colon  C \to  C
 
 in different ways. It starts out life as a map from the z plane down to
 the w plane. We can use this to pull back functions on the w plane up to
 the z plane:
 
-    p*: C[w] \to C[z]
+    p*\colon  C[w] \to  C[z]
 
 But then, by general abstract baloney, the inverse image under p* of
 any prime ideal in C\[z\] is a prime ideal back in C\[w\]. This gives a
@@ -347,7 +347,7 @@ viewpoint sheds an interesting new light on this.
 
 What we'll do is take a prime ideal in C\[w\] and push it forwards via
 
-    p*: C[w] \to C[z]
+    p*\colon  C[w] \to  C[z]
 
 The resulting subset won't be an ideal, but it will "generate" an
 ideal, meaning we can take the smallest ideal containing it. This ideal
@@ -411,7 +411,7 @@ some function on the complex plane. But if we take the analogy between
 geometry and algebra seriously, this extension should still give some
 sort of "branched double cover"
 
-    p: Spec(Z[i]) \to Spec(Z)
+    p\colon  Spec(Z[i]) \to  Spec(Z)
 
 What's this like?
 
@@ -519,11 +519,11 @@ homomorphisms from R to any *field*, but also to any *commutative ring*.
 For each commutative ring k we get a set consisting of all "k-points"
 of R, namely homomorphisms
 
-    f: R \to k
+    f\colon  R \to  k
 
-And, for each homomorphism g: k \to k' we get a "flavor changing
+And, for each homomorphism g\colon  k \to  k' we get a "flavor changing
 operation" that sends k-points to k'-points. So, we get a functor from
-CommRing to Set! He called such a functor a "scheme". We can get
+CommRing to \mathsf{Set}! He called such a functor a "scheme". We can get
 schemes from commutative rings as just described - these are called
 "affine schemes" - but there are also others, for example those coming
 from projective varieties.

@@ -265,7 +265,7 @@ other irreps from these.
 Now let me illustrate all this stuff by going through all the classical
 series of simple Lie groups and seeing what we get.
 
-A~n~: Here are the Grassmannians for some of the A~n~ series, that is,
+A_n: Here are the Grassmannians for some of the A_n series, that is,
 the groups \mathrm{SL}(n+1,C). I've drawn the Dynkin diagrams with each dot
 labelled by the corresponding type of geometrical figure and the
 dimension of the Grassmannian of all figures of this type. We can think
@@ -329,7 +329,7 @@ that Pascal's triangle is a quantized version of the multiplication
 table. (That was the answer to the previous puzzle, by the way - our
 triangle was just the multiplication table viewed from a funny angle.)
 
-B~n~: Next let's look at the B~n~ series. B~n~ is another name for the
+B_n: Next let's look at the B_n series. B_n is another name for the
 complexified rotation group \mathrm{SO}(2n+1,C), or if you prefer, its double
 cover Spin(2n+1,C). A Grassmannian for this group is a space consisting
 of all p-dimensional "isotropic" subspaces of C^2n+1^ - that is,
@@ -423,11 +423,11 @@ As before, the dimension of the space of p-vectors in q-dimensional
 space comes straight from Pascal's triangle: it's q choose p. But now
 we also have spinor reps; the dimensions of these are powers of 2.
 
-C~n~: Next let's look at the Grassmannians for the C~n~ series, that
+C_n: Next let's look at the Grassmannians for the C_n series, that
 is, the symplectic groups Sp(2n,C). This is the only series of classical
-groups I haven't touched yet! Just as the A~n~ series are symmetry
-groups of projective geometry and the B~n~ and D~n~ series are symmetry
-groups of conformal geometry, the C~n~ series are symmetry groups of
+groups I haven't touched yet! Just as the A_n series are symmetry
+groups of projective geometry and the B_n and D_n series are symmetry
+groups of conformal geometry, the C_n series are symmetry groups of
 "projective symplectic" geometry. Unfortunately I don't know much
 about this subject - at least not consciously. It should be important in
 physics, but I'm not sure where!
@@ -463,7 +463,7 @@ Here's a little table of these Grassmannians:
     Sp(8,C)          o-------------o---------------o=======<======o
                      7            11              12             10 
 
-You'll notice the dimensions are the same as in the B~n~ case! That's
+You'll notice the dimensions are the same as in the B_n case! That's
 because their Dynkin diagrams are almost the same: for reasons I may
 someday explain, dimensions of flag manifolds don't care which way the
 little arrows on the Dynkin diagrams point, since they depend only on
@@ -471,7 +471,7 @@ the *reflection group* associated to this diagram (see
 ["Week 62"](#week62)).
 
 However, the dimensions of the fundamental representations are different
-from the B~n~ case - and I don't even know what they are! The basic
+from the B_n case - and I don't even know what they are! The basic
 idea is this: the space of p-vectors is no longer an irrep for Sp(2n,C),
 but contracting with the symplectic form maps p-vectors to
 (p-2)-vectors, and the kernel of this map is the pth fundamental rep of
@@ -505,7 +505,7 @@ of the (p-2)-vectors. Here's a table of these guesses:
 
 Maybe someone can tell if they're right.
 
-D~n~: Finally, D~n~ is another name for the complexified rotation group
+D_n: Finally, D_n is another name for the complexified rotation group
 \mathrm{SO}(2n,C) or its double cover Spin(2n,C). The pth Grassmannian for this
 group consists of all p-dimensional isotropic subspaces of the space
 C^2n^ equipped with a nondegenerate symmetric bilinear form - *except*
@@ -575,7 +575,7 @@ You'll notice that the numbers on the "fishtails" are triangular
 numbers: 1, 3, 6, 10... I'll say more later about how to calculate the
 rest of these numbers.
 
-As explained last week, the fundamental reps of the D~n~ consist of
+As explained last week, the fundamental reps of the D_n consist of
 p-vectors, except for those at the fishtails, which are left- and
 right-handed spinor reps:
 

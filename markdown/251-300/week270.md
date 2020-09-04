@@ -538,7 +538,7 @@ mistakes.
 
 The only noncrystallographic Coxeter groups are the symmetry groups of
 the 120-cell (H_4), the dodecahedron (H_3), and the regular $n$-gons
-where n = 5,7,8,9,... The last list of groups is usually called I~n~ -
+where n = 5,7,8,9,... The last list of groups is usually called I_n -
 or better, I_2(n), so that the subscript denotes the number of dots in
 the Dynkin diagram, as usual. But Fring and Korff use "H_2" as a
 special name for I_2(5), and that's nice if you're focused on 5-fold

@@ -304,7 +304,7 @@ group H(LM). Then, for each homology class C on the moduli space of
 Riemann surfaces that go from n circles to m circles, they got an
 operation with n inputs and m outputs:
 
-Z(C): H(LM)^\otimesn^ \to H(LM)^\otimesm^
+Z(C)\colon  H(LM)^\otimesn^ \to  H(LM)^\otimesm^
 
 All these operations fit together into a slight generalization of an
 operad, called a "PROP".
@@ -424,11 +424,11 @@ For X a point, such a thing is just an ordinary $n$-dimensional QFT.
 Roughly speaking, this is a gadget Z that assigns:
 
 -   a Hilbert space Z(S) to any $(n-1)$-dimensional Riemannian manifold S;
--   a linear operator Z(M): Z(S) \to Z(S') to any $n$-dimensional
+-   a linear operator Z(M)\colon  Z(S) \to  Z(S') to any $n$-dimensional
     Riemannian manifold M going from S to S'.
 
 If you're a mathematician, you may know that M is really a
-"cobordism" from S to S', written M: S \to S'. And if you're really
+"cobordism" from S to S', written M\colon  S \to  S'. And if you're really
 cool, you'll know that cobordisms form a symmetric monoidal category
 nCob, and that Z should be a symmetric monoidal functor.
 
@@ -441,7 +441,7 @@ not topological ones.
 Given a spacetime M, we try to compute the operator Z(M) as a path
 integral; for example, an integral over all maps
 
-f: M \to T
+f\colon  M \to  T
 
 where f is a "field" taking values in a "target space" T.
 
@@ -458,9 +458,9 @@ generalization:
 Roughly speaking, an $n$-dimensional QFT "parametrized by X" assigns:
 
 -   a Hilbert space Z(S) to any $(n-1)$-dimensional Riemannian manifold S
-    *equipped with a map* g: S \to X;
--   a linear operator Z(M): Z(S) \to Z(S') to any $n$-dimensional
-    Riemannian cobordism M: S \to S' *equipped with a map* g: M \to X.
+    *equipped with a map* g\colon  S \to  X;
+-   a linear operator Z(M)\colon  Z(S) \to  Z(S') to any $n$-dimensional
+    Riemannian cobordism M: S \to S' *equipped with a map* g\colon  M \to  X.
 
 If you're a mathematician, you may see we've switched to using
 cobordisms "over X". It's a straightforward generalization.
@@ -468,11 +468,11 @@ cobordisms "over X". It's a straightforward generalization.
 But what does it mean physically? Here the path integral picture is
 helpful. Now we're doing a path integral over all fields
 
-f: M \to T \times X
+f\colon  M \to  T \times X
 
 where we demand that the second component of this function is
 
-g: M \to X
+g\colon  M \to  X
 
 For example, if we've got a 1d QFT, we're letting a particle roam over
 T \times X, but demanding that its X coordinates follow a specific path g.
@@ -495,11 +495,11 @@ This is called "pushing forward to a point".
 
 More generally, we could hope that any map
 
-F: X \to X'
+F\colon  X \to  X'
 
 gives a "pushforward" map
 
-F~~*~~: QFT(X) \to QFT(X')
+F~~*~~\colon  QFT(X) \to  QFT(X')
 
 Let's see if this makes any sense. In fact, I've been overlooking some
 important issues. An example will shed light on this.
@@ -519,15 +519,15 @@ finite set of points mapped into X. Furthermore, this assignment must be
 multiplicative. So, it's enough to know a number for each point in X.
 In short, our QFT is just a function:
 
-Z: X \to C
+Z\colon  X \to  C
 
 Now suppose we map X to a point:
 
-F: X \to point
+F\colon  X \to  point
 
 What should the pushforward
 
-F~~*~~: QFT(X) \to QFT(point)
+F~~*~~\colon  QFT(X) \to  QFT(point)
 
 do to the function Z?
 
@@ -542,7 +542,7 @@ and p-dimensional, we can integrate a *p-form* over X.
 
 More generally, if we have a bundle
 
-F: X \to X'
+F\colon  X \to  X'
 
 with compact d-dimensional fibers, we can take a p-form on X and
 integrate it over the fibers to get a (p-d)-form on X'. This is how you
@@ -557,16 +557,16 @@ QFT^p^(X)
 I won't define them, but for n = 0 they're just p-forms on X. Anyway:
 if we have a bundle
 
-F: X \to X'
+F\colon  X \to  X'
 
 with compact d-dimensional fibers, we can hope there's a pushforward
 map
 
-F~~*~~: QFT^p^(X) \to QFT^p-d^(X')
+F~~*~~\colon  QFT^p^(X) \to  QFT^p-d^(X')
 
 There should also be a pullback map
 
-F^*^: QFT^p^(X') \to QFT^p^(X)
+F^*^\colon  QFT^p^(X') \to  QFT^p^(X)
 
 This is a lot less tricky, and I'll let you figure out how it works.
 
@@ -606,7 +606,7 @@ a point!
 
 This parametrized QFT is called the "nonlinear σ model", for stupid
 historic reasons. All the fun happens when we push this QFT forwards to
-a point. Then we integrate over all the maps g: M \to X. The result -
+a point. Then we integrate over all the maps g\colon  M \to  X. The result -
 usually called the "partition function" of the nonlinear σ model -
 should be an interesting invariant of X.
 
@@ -691,9 +691,9 @@ algebraic varieties over k. Then, they consider the category of
 
 A simplicial presheaf on Sm(k) is just a functor
 
-F: Sm(k)^op^ \to SimpSet
+F\colon  Sm(k)^op^ \to  Simp\mathsf{Set}
 
-where SimpSet is the category of simplicial sets (see item C of
+where Simp\mathsf{Set} is the category of simplicial sets (see item C of
 ["Week 115"](#week115)) We think of F as specifying some sort of
 space by telling us for each smooth algebraic variety X the simplicial
 set F(X) of all maps into this space.

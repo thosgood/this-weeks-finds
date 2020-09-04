@@ -130,7 +130,7 @@ the most rapid is this.
 
 The smooth real-valued functions
 
-f: X \to R
+f\colon  X \to  R
 
 on a manifold X form an algebra over the real numbers. In other words:
 you can add and multiply them, and multiply them by real numbers, and a
@@ -146,7 +146,7 @@ differentiate functions, people call them
 [derivations](http://en.wikipedia.org/wiki/Derivation_%28abstract_algebra%29)
 in this algebraic approach. A "derivation of A" is a linear map
 
-v: A \to A
+v\colon  A \to  A
 
 which obeys the product rule
 
@@ -160,7 +160,7 @@ Next let's define 1-forms. Since the job of these is to eat vector
 fields and spit out functions, let's define a "1-form" to be a linear
 map
 
-ω: Der(A) \to A
+ω\colon  Der(A) \to  A
 
 which is actually a module homomorphism, meaning
 
@@ -171,7 +171,7 @@ module of A.
 
 Just as you'd expect, there's a map
 
-d: A \to Ω^1(A)
+d\colon  A \to  Ω^1(A)
 
 defined by
 
@@ -268,7 +268,7 @@ generalize them to apply to spaces of many kinds.
 It's easy to generalize them from manifolds to spaces X where you have
 a reasonable idea of when a real-valued function
 
-f: X \to R
+f\colon  X \to  R
 
 counts as "smooth". Just take the commutative algebra A of smooth
 real-valued functions on X and construct Ω(A) following my instructions!
@@ -313,12 +313,12 @@ Remember, a simplicial set is a bunch of
 and so on, all stuck together. Given a topological space X, we can form
 an enormous simplicial set whose $n$-simplices are all possible maps
 
-f: Δ^n \to X
+f\colon  Δ^n \to  X
 
 where Δ^n is the standard $n$-simplex, that is, the intersection of the
 hyperplane
 
-x~0~ + x_1 + ... + x~n~ = 1
+x~0~ + x_1 + ... + x_n = 1
 
 with the set where all the coordinates x_i are nonnegative.
 
@@ -418,7 +418,7 @@ use the rational numbers to be specific.
 Just as you can tensor vector spaces, you can tensor cochain complexes.
 The tensor product of cochain complexes C and C' will have
 
-(C \otimes C')~n~ = &oplus~~p+q\ =\ n~~ C~p~ \otimes C'~q~
+(C \otimes C')_n = &oplus~~p+q\ =\ n~~ C~p~ \otimes C'~q~
 
 and we define
 
@@ -538,19 +538,19 @@ Kähler differentials - let's call this Ω~K~^1(A). The Kähler forms
 By how we've set things up, the Kähler differentials are blessed with a
 map
 
-d: A \to Ω~K~^1(A)\
+d\colon  A \to  Ω~K~^1(A)\
 
 And this map is a "derivation", meaning it satisfies the 3 rules
 listed above. But here's the cool part: the Kähler differentials are
 the *universal* A-module with a derivation. In other words, suppose M is
 any A-module equipped with a map
 
-v: A \to M
+v\colon  A \to  M
 
 that's a derivation in the above sense. Then there's a unique A-module
 homomorphism
 
-j: Ω~K~^1(A) \to M
+j\colon  Ω~K~^1(A) \to  M
 
 such that
 
@@ -584,7 +584,7 @@ For starters, let me explain what I mean! We've got a commutative
 algebra A. If we have an A-module M, its "dual" M* is the set of all
 A-module maps
 
-w: M \to A
+w\colon  M \to  A
 
 The dual becomes a module in its own right by
 
@@ -593,7 +593,7 @@ The dual becomes a module in its own right by
 So, we can take the dual of the dual, M**. And then there's always a
 module homomorphism
 
-j: M \to M**
+j\colon  M \to  M**
 
 given by
 
@@ -619,7 +619,7 @@ Putting these facts together, we get
 
 So, we always have a module homomorphism
 
-j: Ω~K~^1(A) \to Ω^1(A)
+j\colon  Ω~K~^1(A) \to  Ω^1(A)
 
 This is *both* the map we always get from a module to its double dual,
 *and* the map we get from the universal property of Kähler
@@ -651,7 +651,7 @@ are *not* the same as the Kähler differentials!
 Indeed, let A be the algebra of smooth functions on the real line. Then
 one can show
 
-j: Ω~K~^1(A) \to Ω^1(A)
+j\colon  Ω~K~^1(A) \to  Ω^1(A)
 
 is not one-to-one. In fact, David Speyer showed this after Maarten
 Bergvelt noticed I was being overoptimistic in assuming otherwise. You
@@ -671,7 +671,7 @@ as I just made it sound! After all, Ω^1(A) was *also* defined purely
 algebraically, and in here we *do* have d(e^x^) = e^x^ dx. Indeed, this
 is *why* Speyer's argument shows that
 
-j: Ω~K~^1(A) \to Ω^1(A)
+j\colon  Ω~K~^1(A) \to  Ω^1(A)
 
 fails to be one-to-one.
 
@@ -748,7 +748,7 @@ that, in turn, guarantees that Ω(A) as defined algebraically matches the
 ordinary concept of differential forms on X. The Kähler forms are
 different, but as we've seen, there's a surjection of DGCAs
 
-j: Ω~K~(A) \to Ω(A)
+j\colon  Ω~K~(A) \to  Ω(A)
 
 sending any function f in Kähler land to the same function f in ordinary
 differential form land.
@@ -781,12 +781,12 @@ Here's the point: this process is a lot like "geometric realization".
 In geometric realization we start with a simplicial set S, which is
 really a functor
 
-S: Δ^op^ \to Set
+S\colon  Δ^op^ \to  \mathsf{Set}
 
 where Δ is the category of simplices. And we know how to turn any
 simplex into a topological space, so we also have a functor
 
-F: Δ \to Top
+F\colon  Δ \to  Top
 
 We can then take the "weighted colimit" of F with S as our "weight".
 This creates a topological space |S|, the "geometric realization" of
@@ -799,7 +799,7 @@ work, all we need is that the category Top has colimits.
 Similarly, we know how to turn any simplex into a DGCA, namely the
 rational differential forms on that simplex! So we also have a functor
 
-F ′: Δ \to \[DGCAs\]^op^
+F ′\colon  Δ \to  \[DGCAs\]^op^
 
 There's an "op" here because of the usual contravariant relation
 between algebra and geometry. But never mind: what matters is that
@@ -814,7 +814,7 @@ should say "coglue", because of that "op".
 While we're playing these games, I should point out a simpler version.
 We also have a functor
 
-F": Δ \to \[commutative algebras\]^op^
+F"\colon  Δ \to  \[commutative algebras\]^op^
 
 and we can pull the same stunt to turn our simplicial set into a
 commutative algebra, which is the algebra of functions that restrict to

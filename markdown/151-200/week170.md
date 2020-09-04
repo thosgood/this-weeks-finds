@@ -180,7 +180,7 @@ The notion of "algebraic theory" is just a slick way to study sets
 equipped with extra algebraic structure. We call a category C with
 finite products an "algebraic theory" if its objects are all of the
 form 1, X, X^2, X^3, ... for some particular object X. We call a
-product-preserving functor F: C \to Set a "model" of the theory. And we
+product-preserving functor F\colon  C \to  \mathsf{Set} a "model" of the theory. And we
 call a natural transformation between such functors a "homomorphism"
 between models. This gives us a category Mod(C) consisting of models and
 homomorphisms between them, and it turns out that many categories of
@@ -194,7 +194,7 @@ concept of "algebraic 2-theories" which is good for studying
 John Gray defined an "algebraic 2-theory" to be a 2-category C with
 finite products, all of whose objects are of the form 1, X, X^2, X^3,
 ... for some particular object X. Define a "model" of this 2-theory
-to be a product-preserving 2-functor F: C \to Cat. And define a
+to be a product-preserving 2-functor F\colon  C \to  Cat. And define a
 "homomorphism" between models to be a pseudonatural transformation
 between such 2-functors.
 
@@ -233,9 +233,9 @@ working with pseudonatural rather than natural transformations. Without
 this nuance, some of the stuff I'm about to say would be false.)
 
 Now, whenever we have a product-preserving 2-functor between 2-theories,
-say F: C \to C', we get an induced 2-functor going the other way,
+say F\colon  C \to  C', we get an induced 2-functor going the other way,
 
-F*: Mod(C') \to Mod(C).
+F*\colon  Mod(C') \to  Mod(C).
 
 For example, there's a product-preserving 2-functor from the theory of
 weak monoidal categories to the theory of strict monoidal categories,
@@ -258,10 +258,10 @@ biequivalences.
 
 So: is there a super-general strictification theorem where we can start
 from any 2-theory C and get a "strictified" version C' together with
-an F: C \to C' such that F* is a biequivalence?
+an F\colon  C \to  C' such that F* is a biequivalence?
 
 As a step in this direction, Yanofsky has cooked up a model category of
-algebraic 2-theories, in which F: C \to C' is a weak equivalence
+algebraic 2-theories, in which F\colon  C \to  C' is a weak equivalence
 precisely when F* is a biequivalence.
 
 Huh? "Model category"??

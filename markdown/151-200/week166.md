@@ -72,10 +72,10 @@ nonetheless:
                                                         .
                                                            .
 
-It continues on predictably after that initial hiccup. The number π, on
-the other hand, gives a random-looking mess. This is a hint that π is
+It continues on predictably after that initial hiccup. The number \pi , on
+the other hand, gives a random-looking mess. This is a hint that \pi  is
 number-theoretically more complicated than e, which is also apparent
-when you compare the proofs that e and π are transcendental - the proof
+when you compare the proofs that e and \pi  are transcendental - the proof
 for e is much easier.
 
 Pondering all this, it's natural to ask about the "average" behavior
@@ -103,7 +103,7 @@ One can prove this using some ideas from ergodic theory.
 
 Now, there is much more to say about continued fraction expansions, but
 my real goal is simply to point out that there are lots of interesting
-constants in mathematics besides π, e, the golden ratio, and Euler's
+constants in mathematics besides \pi , e, the golden ratio, and Euler's
 number. Where can you read about them? Here:
 
 1) Steven Finch, MathSoft Constants,
@@ -242,7 +242,7 @@ if not officially.
 But who was Gudermann? He's the guy they named the "gudermannian"
 after! That's this function:
 
-gd(u) = 2 arctan(exp(u)) - π/2.
+gd(u) = 2 arctan(exp(u)) - \pi /2.
 
 Now, if you're wondering why such a silly function deserves a name, you
 should work out its inverse function:

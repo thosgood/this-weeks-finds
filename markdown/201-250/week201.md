@@ -174,7 +174,7 @@ Instead, I hope you're reeling with horror at thought of this vast
 complicated wilderness of fields containing Q but contained in C. First
 there's a huge infinite thicket of algebraic number fields... and
 then, there's an ever scarier jungle of fields that contain
-transcendental numbers like π and e! I won't even talk about *that*
+transcendental numbers like \pi  and e! I won't even talk about *that*
 jungle, it's so dark and scary. Physicists usually zip straight past
 this whole wilderness and work with C.
 
@@ -427,7 +427,7 @@ have
 
     Gal(K/Q) = Sn
 
-where S~n~ is the group of all permutations of n things.
+where S_n is the group of all permutations of n things.
 
 Sometimes of course the Galois group will be smaller, since our
 polynomial could have repeated roots or, more subtly, algebraic
@@ -720,7 +720,7 @@ corrects some mistakes I made:
 > you provide directly the relevant system of quadratics; I think that
 > is what Gauss did - his proof also preceded Galois). Squaring the
 > circle is, of course, a different matter. Here we need the
-> transcendence of π.
+> transcendence of \pi .
 >
 > Best wishes from wet Jerusalem,
 >

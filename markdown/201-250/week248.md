@@ -230,10 +230,10 @@ groupoid!
 Here's the formal definition: a groupoid consists of a set of
 "objects", and for any objects x and y, a set of "morphisms"
 
-f: x \to y
+f\colon  x \to  y
 
 which we think of as symmetries taking x to y. We can compose a morphism
-f: x \to y and a morphism g: y \to z to get a morphism fg: x \to z. We think
+f: x \to y and a morphism g: y \to z to get a morphism fg\colon  x \to  z. We think
 of fg as the result of doing first f and then g. So, we demand the
 associative law
 
@@ -242,17 +242,17 @@ associative law
 whenever either side is well-defined. We also demand that every object x
 has an identity morphism
 
-1~x~: x \to x
+1~x~\colon  x \to  x
 
 We think of this as the symmetry that doesn't do anything to x. So,
-given any morphism f: x \to y, we demand that
+given any morphism f\colon  x \to  y, we demand that
 
 f 1~y~ = f = 1~x~ f
 
 So far this is the definition of a "category". What makes it a
-"groupoid" is that every morphism f: x \to y has an "inverse"
+"groupoid" is that every morphism f\colon  x \to  y has an "inverse"
 
-f ^-1^: y \to x
+f ^-1^\colon  y \to  x
 
 with the property that
 
@@ -279,16 +279,16 @@ groupoids: that is, "functors"!
 
 What's a functor? Given groupoids A and B, clearly a functor
 
-F: A \to B
+F\colon  A \to  B
 
 should send any object x in A to an object F(x) in B. But also, it
 should send any morphism in A:
 
-f: x \to y
+f\colon  x \to  y
 
 to a morphism in B:
 
-F(f): F(x) \to F(y)
+F(f)\colon  F(x) \to  F(y)
 
 And, it should preserve all the structure that a groupoid has, namely
 composition:
@@ -329,15 +329,15 @@ F(s) = x and G(s) = y
 
 Also suppose we have a symmetry sending s to some other object of S:
 
-f: s \to s'
+f\colon  s \to  s'
 
 This gives morphisms
 
-F(f): F(s) \to F(s')
+F(f)\colon  F(s) \to  F(s')
 
 in X and
 
-G(f): G(s) \to G(s')
+G(f)\colon  G(s) \to  G(s')
 
 in Y. And if we define
 
@@ -368,7 +368,7 @@ like to review ["Week 178"](#week178), ["Week 180"](#week180),
 ["Week 181"](#week181), ["Week 186"](#week186) and
 ["Week 187"](#week187), where I explained how any Dynkin diagram
 gives rise to a flavor of incidence geometry. For example, the
-simplest-looking Dynkin diagrams, the A~n~ series, like this for n = 3:
+simplest-looking Dynkin diagrams, the A_n series, like this for n = 3:
 
                                o------o------o
                             points  lines  planes      

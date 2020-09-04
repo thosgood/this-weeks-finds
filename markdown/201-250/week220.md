@@ -356,15 +356,15 @@ each way of stuffing little k-cubes in a big one!
 By the way:
 
 Speaking of bumper stickers, I'm in Montreal now, and there's a funky
-hangout on the Boulevard Saint-Laurent called Cafe π where people play
+hangout on the Boulevard Saint-Laurent called Cafe \pi  where people play
 chess - and they sell T-shirts, key rings, baseball caps and coffee mugs
-decorated with the Greek letter π! The T-shirts are great if you're
+decorated with the Greek letter \pi ! The T-shirts are great if you're
 going for a kind of math-nerd/punk look; I got one to wow the students
 in my undergraduate courses. I don't usually provide links to
 commercial websites, but I made an exception for Acme Klein Bottles, and
-I'll make an exception for Cafe π:
+I'll make an exception for Cafe \pi :
 
-6) Cafe π, `http://www.cafepi.ca/`
+6) Cafe \pi , `http://www.cafepi.ca/`
 
 Unfortunately they don't sell bumper stickers.
 
@@ -561,7 +561,7 @@ knots.
 What's a thickened long knot? In k dimensions, it's an embedding of a
 little k-cube in a big one:
 
-f: \[0,1\]^k^ \to \[0,1\]^k^
+f\colon  \[0,1\]^k^ \to  \[0,1\]^k^
 
 subject to the condition that the top and bottom of the little cube get
 mapped to the top and bottom of the big one via the identity map. So,

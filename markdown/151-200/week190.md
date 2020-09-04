@@ -370,7 +370,7 @@ everything, we might use the other formula for |T|(x) and guess
 
     |T|(1) = (1 - sqrt(-3))/2
 
-           = exp(-i π/6)
+           = exp(-i \pi /6)
 
 This is pretty odd: it's a complex number! The problem is, we're
 outside the radius of convergence of the power series. However, this
@@ -496,12 +496,12 @@ about it.
 
 The way I like to think about it, structure types are really functors
 
-F: C \to Set
+F\colon  C \to  \mathsf{Set}
 
 where C is the category of finite sets and bijections. But we also have
 "structure types on ordered sets" (don't know a good name for them)
 
-F: D \to Set
+F\colon  D \to  \mathsf{Set}
 
 where D is the category of linearly ordered finite sets and
 order-preserving bijections. The exponential generating function applies
@@ -524,7 +524,7 @@ structure types into structure types on ordered sets, or vice versa,
 before you take the generating function!
 
 After all, there is a forgetful functor from D to C. This induces a
-functor from hom(C,Set) to hom(D,Set): given a structure on a set S, we
+functor from \operatorname{Hom}(C,\mathsf{Set}) to \operatorname{Hom}(D,\mathsf{Set}): given a structure on a set S, we
 automatically get a structure on any linearly ordered set we obtain by
 slapping an ordering on S. Furthermore, *this* functor has an adjoint -
 in fact, both right and left adjoints.
@@ -543,8 +543,8 @@ And if you want to do it in an elegant way:
 Both "structure types" and "ordered structure types" form 2-rigs -
 i.e. categories with + and x, satisfying some obvious ring-ish axioms up
 to isomorphism, but without additive inverses. Let's call these 2-rigs
-hom(C,Set) and hom(D,Set). If we decategorify a 2-rig we get a rig, so
-there are rigs I'll call |hom(C,Set)| and |hom(D,Set)|. Elements of
+\operatorname{Hom}(C,\mathsf{Set}) and \operatorname{Hom}(D,\mathsf{Set}). If we decategorify a 2-rig we get a rig, so
+there are rigs I'll call |\operatorname{Hom}(C,\mathsf{Set})| and |\operatorname{Hom}(D,\mathsf{Set})|. Elements of
 the first are just isomorphism classes of structure types; elements of
 the second are isomorphism classes of ordered structure types; in both
 cases the + and x operations are hopefully obvious.
@@ -552,22 +552,22 @@ cases the + and x operations are hopefully obvious.
 Now, the exponential generating function is best thought of as a rig
 homomorphism
 
-egf: |hom(C,Set)| \to N{{x}}
+egf\colon  |\operatorname{Hom}(C,\mathsf{Set})| \to  N{{x}}
 
 where N{{x}} is the rig of formal power series where the coefficient of
 the nth term is a natural number divided by n!, while the ordinary
 generating function is best thought of as a rig homomorphism
 
-ogf: |hom(D,Set)| \to N\[\[x\]\]
+ogf\colon  |\operatorname{Hom}(D,\mathsf{Set})| \to  N\[\[x\]\]
 
 The relations between exponential and ordinary generating functions are
-really relations between the rigs |hom(C,Set)| and |hom(D,Set)|. And
-these, in turn, are *really* relations between the 2-rigs hom(C,Set) and
-hom(D,Set).
+really relations between the rigs |\operatorname{Hom}(C,\mathsf{Set})| and |\operatorname{Hom}(D,\mathsf{Set})|. And
+these, in turn, are *really* relations between the 2-rigs \operatorname{Hom}(C,\mathsf{Set}) and
+\operatorname{Hom}(D,\mathsf{Set}).
 
 I've already said that there is a functor
 
-hom(C,Set) \to hom(D,Set)
+\operatorname{Hom}(C,\mathsf{Set}) \to \operatorname{Hom}(D,\mathsf{Set})
 
 and two going the other way. The question is, which of these functors
 are 2-rig homomorphisms? I.e., which get along with + and x? These are
@@ -578,25 +578,25 @@ I leave this as a little puzzle, partially because I am too lazy to work
 out the answer and explain it nicely.
 
 But for category mavens, here's an extra hint. To see if these functors
-between hom(C,Set) and hom(D,Set) are 2-rig homomorphisms, we need to
+between \operatorname{Hom}(C,\mathsf{Set}) and \operatorname{Hom}(D,\mathsf{Set}) are 2-rig homomorphisms, we need to
 see whether they preserve + (colimits) and x (the monoidal structure).
 
 Preserving colimits is a very general question. Given any functor from D
 to C we always get three functors going between the categories
-hom(C,Set) and hom(D,Set), and the question is: which of these preserve
+\operatorname{Hom}(C,\mathsf{Set}) and \operatorname{Hom}(D,\mathsf{Set}), and the question is: which of these preserve
 colimits?
 
 Preserving the monoidal structure is a slightly less general (but still
 bloody frigging general!) question. The point is that C and D are
-monoidal categories and hom(C,Set) and hom(D,Set) get their
+monoidal categories and \operatorname{Hom}(C,\mathsf{Set}) and \operatorname{Hom}(D,\mathsf{Set}) get their
 multiplication from that, via a trick called "Day convolution", which
 is just a categorified version of ordinary convolution of functions. (By
 now I'm at Macquarie University in Australia, and Brian Day's office
 is right across the hall, so I had to say this.)
 
 So, here the question is: when you have a *monoidal* functor from D to
-C, as we do here, which of the three functors between hom(C,Set) and
-hom(D,Set) are monoidal with respect to Day convolution?
+C, as we do here, which of the three functors between \operatorname{Hom}(C,\mathsf{Set}) and
+\operatorname{Hom}(D,\mathsf{Set}) are monoidal with respect to Day convolution?
 
 As usual, I learned most of this category theory stuff from James Dolan,
 so any errors in the above are his fault, not mine.

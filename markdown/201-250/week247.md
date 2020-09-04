@@ -264,7 +264,7 @@ guess might be *functions*. And indeed, functions between sets do give
 linear operators between their vector spaces. For example, suppose we
 have a function
 
-f: {livecat, deadcat} \to {livecat, deadcat}
+f\colon  {livecat, deadcat} \to  {livecat, deadcat}
 
 which "makes sure the cat is dead":
 
@@ -289,7 +289,7 @@ is *not* unitary.)
 
 So, we get some linear operators from functions... but not all! We only
 get operators whose matrices have exactly a single 1 in each column, the
-rest of the entries being 0. That's because a function f: X \to Y sends
+rest of the entries being 0. That's because a function f\colon  X \to  Y sends
 each element of X to a single element of Y.
 
 This is very limiting. We can do better if we get operators from
@@ -297,7 +297,7 @@ This is very limiting. We can do better if we get operators from
 of X can be related to any number of elements of Y, and vice versa. For
 example, let the relation
 
-R: {1,2,3,4} ---/\to {1,2,3,4}
+R\colon  {1,2,3,4} ---/\to  {1,2,3,4}
 
 be "is a divisor of". Then 1 is a divisor of everybody, 2 is a divisor
 of itself and 4, 3 is only a divisor of itself, and 4 is only a divisor
@@ -316,7 +316,7 @@ numbers. Unfortunately we're still far from getting *all* matrices of
 numbers!
 
 We can do better if we get matrices from *spans* of sets. A span of
-sets, written S: X ---/\to Y, is just a set S equipped with functions to X
+sets, written S\colon  X ---/\to  Y, is just a set S equipped with functions to X
 and Y. We can draw it like this:
 
                          S
@@ -527,7 +527,7 @@ plane on which the Coxeter element acts as a rotation.
 
 A rotation by how much? The order of the Coxeter element is called the
 "Coxeter number" and denoted h, so the Coxeter element acts on the
-Coxeter plane as a rotation of 2π/h. The Coxeter number is important for
+Coxeter plane as a rotation of 2\pi /h. The Coxeter number is important for
 other reasons, too! Here's how it goes:
 
     Coxeter group   Coxeter number

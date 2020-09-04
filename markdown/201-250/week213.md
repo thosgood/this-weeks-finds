@@ -195,7 +195,7 @@ covering space of X, like this:
                                                    
                                 ----------------   X
 
-We've got a function p: Y \to X, and sitting over each point of X are the
+We've got a function p\colon  Y \to  X, and sitting over each point of X are the
 same number of points of Y, living on different "sheets" that look
 locally just like X. You should imagine the sheets being able to twist
 around from place to place, like the edges of a Moebius strip.
@@ -262,11 +262,11 @@ space knows everything about the group we started with. In particular,
 the fundamental group of this space will be the group we started with!
 
 Using this idea, we can do some fiendish things. For example, for each n
-we can form a set C~n~(G,A) consisting of all functions that eat
+we can form a set C_n(G,A) consisting of all functions that eat
 n-dimensional simplices in the Eilenberg-Mac Lane space of G and spit
 out elements of some abelian group A. There are maps
 
-d: C~n~(G,A) \to C~n+1~(G,A)
+d\colon  C_n(G,A) \to  C~n+1~(G,A)
 
 reflecting the fact that each $(n+1)$-simplex has a bunch of $n$-simplices
 as its faces. Since the boundary of a boundary is zero,
@@ -275,11 +275,11 @@ d^2 = 0
 
 Guys who live in the kernel of
 
-d: C~n~(G,A) \to C~n+1~(G,A)
+d\colon  C_n(G,A) \to  C~n+1~(G,A)
 
 are called "n-cocycles", and guys who live in the image of
 
-d: C~n-1~(G,A) \to C~n~(G,A)
+d\colon  C~n-1~(G,A) \to  C_n(G,A)
 
 are called "n-coboundaries". Since d^2 = 0, every coboundary is a
 cocycle, but not always vice versa. So, we can form the group of
@@ -612,7 +612,7 @@ In fact, Kevin Buzzard's email was packed with wisdom. He wrote:
 >     (c d)
 >
 > sends z to (az+b)/(cz+d). Now draw dots at the points i=√-1 and
-> ρ=exp(2πi/6), the primitive 6th root of unity in the upper half plane,
+> ρ=exp(2\pi i/6), the primitive 6th root of unity in the upper half plane,
 > and draw the obvious arc between them (the one that lies on the circle
 > |z|=1), this is our first edge, and now look at the image of what
 > you have under the \mathrm{SL}(2,\mathbb{Z}) action. It's a rather pretty tree, with
@@ -661,11 +661,11 @@ In fact, Kevin Buzzard's email was packed with wisdom. He wrote:
 > compute how many cusps were added to compactify it. So in practice you
 > just have to find a friendly modular forms person and then say "hey,
 > what's the genus of X_1(5) and how many cusps does it have?" and
-> then you have a complete description of Γ_1(5) because it's π_1 of
+> then you have a complete description of Γ_1(5) because it's \pi _1 of
 > the answer.
 >
 > OK, the upper half plane modulo Γ_1(5) is the sphere minus 4 points,
-> so Γ_1(5) is π_1 of this, i.e. it's free on three generators. That
+> so Γ_1(5) is \pi _1 of this, i.e. it's free on three generators. That
 > makes the Euler characteristic of Γ_1(5) equal to 1-3=-2. And we
 > already checked that the index was 24, so the Euler Characteristic of
 > \mathrm{SL}(2,\mathbb{Z}) works out to be -1/12. Grothendieck wouldn't have chosen

@@ -362,7 +362,7 @@ Just as we can try to classify principal bundles over some space with
 any fixed group as gauge group, we can try to classify "principal
 2-bundles" with a given "gauge 2-group". It's a famous old theorem
 that for any topological group G, we can find a space BG such that
-principal G-bundles over any mildly nice space X are classified by maps
+principal $G$-bundles over any mildly nice space X are classified by maps
 from X to BG. (Homotopic maps correspond to isomorphic bundles.) A
 similar result holds for topological 2-groups!
 
@@ -473,7 +473,7 @@ avilable as
 As the last paper explains, we can also think of this TQFT as a field
 theory where the "field" on a spacetime X is a map
 
-f: X \to BG
+f\colon  X \to  BG
 
 where BG is the classifying space of the 2-group G.
 
@@ -649,12 +649,12 @@ F \to E \to B
 
 we get a long exact sequence of homotopy groups
 
-... \to π~n~(F) \to π~n~(E) \to π~n~(B) \to π~n-1~(F) \to ...
+... \to \pi _n(F) \to \pi _n(E) \to \pi _n(B) \to \pi ~n-1~(F) \to ...
 
 This is a standard tool in algebraic topology; I sketched how it works
 in ["Week 151"](#week151).
 
-Now, the nth homotopy group of a space X, written π~n~(X), is just the
+Now, the nth homotopy group of a space X, written \pi _n(X), is just the
 fundamental group of the $(n-1)$-fold loop space of X. So, the Spanish
 categorical group experts define the nth "homotopy 2-group" of a space
 X to be the fundamental 2-group of an iterated loop space of X. And, it

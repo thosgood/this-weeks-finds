@@ -95,7 +95,7 @@ make nonzero values of the vacuum energy possible, and even typical. A
 closely related cool fact is that the partition function of a conformal
 field theory is only a well-defined number up to multiples of
 
-exp(2 π i c / 24)
+exp(2 \pi  i c / 24)
 
 This means the partition function is a well-defined number when c is a
 multiple of 24. This happens in certain especially nice conformal field
@@ -197,7 +197,7 @@ ln(196883) ≈ 12.19
 
 On the other hand, Hawking's semiclassical calculation gives
 
-4 π ≈ 12.57
+4 \pi  ≈ 12.57
 
 The match is not perfect - but it doesn't need to be, since we expect
 quantum corrections to Hawking's formula for small black holes.
@@ -213,7 +213,7 @@ ln(81026609426) ≈ 25.12
 
 while Hawking's formula gives
 
-8 π ≈ 25.13
+8 \pi  ≈ 25.13
 
 Much better! And, using a formula of Petersson and Rademacher for
 asymptotics of coefficients of the j-function, together with some facts
@@ -745,17 +745,17 @@ Now, how do we get a linear operator in this situation?
 
 Easy! We start with a real-valued function on our space X:
 
-f: X \to R
+f\colon  X \to  R
 
 Then we take f and "pull it back along P" to get a function on S.
 "Pulling back along P" is just impressive jargon for composing with P:
 
-f o P: S \to R
+f o P\colon  S \to  R
 
 Next, we take f o P and "push it forwards along Q" to get a function
 on Y. The result is our final answer, some function
 
-Tf: Y \to R
+Tf\colon  Y \to  R
 
 "Pushing forwards along Q" is just impressive jargon for integrating:
 Tf(y) is the integral over all s in S with Q(s) = y. For this we need a
@@ -800,7 +800,7 @@ operator constructed this way a "Hecke operator".
 If you're a nitpicky person, e.g. a mathematician, you may wonder what
 I mean by "a suitable sense". Well, each "fiber" Q^-1^(y) of the map
 
-Q: S \to Y
+Q\colon  S \to  Y
 
 needs a measure on it, so we can take a function on S and integrate it
 over these fibers to get a function on Y. We need this family of

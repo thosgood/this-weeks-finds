@@ -198,7 +198,7 @@ For any type of gadget like this, there's an algebraic theory C; I
 explained how you get this back in ["Week 200"](#week200). If we
 have a functor
 
-F: C \to Set
+F\colon  C \to  \mathsf{Set}
 
 that preserves finite products, then F(c) becomes a specific gadget of
 the given type. Conversely, any specific gadget of the given type
@@ -206,18 +206,18 @@ determines a functor like this.
 
 So, we define a "model" of the theory C to be a functor
 
-F: C \to Set
+F\colon  C \to  \mathsf{Set}
 
 that preserves finite products. But actually, this is just a model of C
-in the world of sets! We could replace Set by any other category with
+in the world of sets! We could replace \mathsf{Set} by any other category with
 finite products, say X, and define a "model of the theory C in the
 environment X" to be a functor
 
-F: C \to X
+F\colon  C \to  X
 
 that preserves finite products.
 
-For example, if C is the theory of groups and X is Set, a model of C in
+For example, if C is the theory of groups and X is \mathsf{Set}, a model of C in
 X is a group. If instead X is the category of topological spaces, a
 model of C in X is a topological group. And so on. In general people
 call a model of this particular theory C in any old X a "group object
@@ -228,7 +228,7 @@ C in X. As category theorists, we want to understand the whole
 *category* of models of C in X. This category, which I'll call
 Mod(C,X), has:
 
--   functors F: C \to X that preserve finite products as its objects;
+-   functors F\colon  C \to  X that preserve finite products as its objects;
 -   natural transformations between these as its morphisms.
 
 For example, if C is the theory of groups and X is the category of
@@ -238,17 +238,17 @@ continuous homomorphisms.
 So far I've just been reviewing at a fast pace. What happens next?
 Well, there's always a forgetful functor
 
-R: Mod(C,X) \to X
+R\colon  Mod(C,X) \to  X
 
 sending any model to its underlying object in X. But what we'd really
 like is for R to have a left adjoint
 
-L: X \to Mod(C,X)
+L\colon  X \to  Mod(C,X)
 
 sending any object of X to the free gadget on that object. Then we could
 follow L by R to get a functor
 
-RL: X \to X
+RL\colon  X \to  X
 
 called a "monad". One reason this would be great is that monads are
 another popular way to study algebraic gadgets. I explained monads very
@@ -260,41 +260,41 @@ say more about monads now: I'll just assume you love them. Given this,
 you must be dying to know when the functor R has a left adjoint.
 
 In fact it does whenever X has colimits that distribute over the finite
-products! For example, it does when X = Set. And Mélliès and Tabareau
+products! For example, it does when X = \mathsf{Set}. And Mélliès and Tabareau
 give a very nice modern explanation of this fact before generalizing the
 heck out of it.
 
 The key is to note that
 
-R: Mod(C,X) \to X
+R\colon  Mod(C,X) \to  X
 
 is just an extreme case of forgetting *some* of the structure on an
 algebraic gadget: namely, forgetting *all* of it. More generally,
 suppose we have any map of algebraic theories
 
-Q: B \to C
+Q\colon  B \to  C
 
 that is, a finite-product-preserving functor that sends the special
 object b in B to the special object c in C. Then composition with Q
 gives a functor
 
-Q*: Mod(C,X) \to Mod(B,X)
+Q*\colon  Mod(C,X) \to  Mod(B,X)
 
 For example, if B is the theory of groups and C is the theory of rings,
 C is "bigger", so we get an inclusion
 
-Q: B \to C
+Q\colon  B \to  C
 
 and then Q* is the functor that takes a ring object in X and forgets
 some of its structure, leaving us a group object in X. But when B is is
 the most boring algebraic theory in the world, the "theory of a bare
 object", then Q* forgets everything: it's our forgetful functor
 
-R: Mod(C,X) \to Mod(B,X) = X
+R\colon  Mod(C,X) \to  Mod(B,X) = X
 
 So, we should ask quite generally when any functor like
 
-Q*: Mod(C,X) \to Mod(B,X)
+Q*\colon  Mod(C,X) \to  Mod(B,X)
 
 has a left adjoint. And, the answer is: it always does!
 
@@ -304,7 +304,7 @@ miracle they want to understand and generalize.
 
 Here's the basic idea. If we write Hom(C,X) for the category with
 
--   arbitrary functors F: C \to X as its objects;
+-   arbitrary functors F\colon  C \to  X as its objects;
 -   natural transformations between these as its morphisms
 
 then composition with Q gives a functor
@@ -328,7 +328,7 @@ Mod(B,X) \to Mod(C,X)
 
 which turns out to be what we wanted: the left adjoint of
 
-Q*: Mod(C,X) \to Mod(B,X)
+Q*\colon  Mod(C,X) \to  Mod(B,X)
 
 Kan extensions are a very general concept, so the hard part is
 understanding and generalizing this miracle.
@@ -373,7 +373,7 @@ thereof: Richard Wood's concept of "proarrow equipment". This lets
 them generalize the "miracle" to any situation where we have a little
 T-algebraic theory sitting inside a bigger one
 
-Q: B \to C
+Q\colon  B \to  C
 
 and the bigger one only has extra operations, not co-operations.
 

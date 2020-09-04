@@ -305,7 +305,7 @@ What's a cone point? It's like the tip of a cone. Take a piece of
 paper, cut it like a pie into n equal wedges, take one wedge, and glue
 its edges together! This gives a cone - and the tip of this cone is a
 "cone point". We say it has "order n", because the angle around it
-is not 2π but 2π/n.
+is not 2\pi  but 2\pi /n.
 
 Here's a more sophisticated way to say the same thing: take a regular
 n-gon and mod out by its rotational symmetries, which form a group with
@@ -462,7 +462,7 @@ with Euler characteristic 0 fits together with things like the
 ["Week 182"](#week182). Here I used the Euler characteristic to
 list all ways to regularly tile a sphere with regular polygons. This
 gave the McKay correspondence linking Platonic solids to the
-simply-laced Lie algebras A~n~, D~n~, E~6~, E~7~ and E~8~. Taking
+simply-laced Lie algebras A_n, D_n, E~6~, E~7~ and E~8~. Taking
 different values of the Euler characteristic, the same idea let us
 classify regular tilings of the plane or hyperbolic plane by regular
 polygons, and see how these correspond to "affine" or "hyperbolic"
@@ -697,7 +697,7 @@ wrote:
 > the answer for X = point then the above would be your first guess. The
 > reason the guess is correct is thanks to the assumption that X is
 > connected and simply connected: all G-valued functions on X are
-> constant, and all G-bundles are trivial.
+> constant, and all $G$-bundles are trivial.
 >
 > Maybe if you're interested I can go into more detail.
 
@@ -706,7 +706,7 @@ Then he wrote:
 > Hmm, John and David's discussion has reminded me of a result I once
 > proved:
 >
-> Suppose we are given a morphism f:X \to Y of orbifolds and a
+> Suppose we are given a morphism f\colon X \to  Y of orbifolds and a
 > 2-automorphism φ:f => f. Then φ is trivial if and only if its
 > restriction to any point of X is trivial.
 >

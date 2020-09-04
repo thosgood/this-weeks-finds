@@ -258,7 +258,7 @@ Also available at `http://www.ams.org/online_bks/surv57/`
 Or, if you're interested in using category theory to make analysis
 clearer and more beautiful, try this:
 
-19) Andreas Kriegl and Peter W. Michor, The Convenient Setting of
+19) Andreas Kriegl and Peter W. Michor, The Convenient \mathsf{Set}ting of
 Global Analysis, AMS, Providence, Rhode Island, 1997. Also available at
 `http://www.ams.org/online_bks/surv53/`
 

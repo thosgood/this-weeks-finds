@@ -139,13 +139,13 @@ infinities show up as a pole at z = d. Connes and Kreimer use this trick
 to get a map from a little circle around the point z = d to the group G.
 Let's call this map
 
-g: S^1 \to G
+g\colon  S^1 \to  G
 
 where S^1 is the circle. Using some old ideas from complex analysis
 (buzzword: the "Riemann-Hilbert problem") they write g as the product
 of two maps
 
-g+, g-: S^1 \to G
+g+, g-\colon  S^1 \to  G
 
 where g+ is well-defined and analytic *inside* the circle, and g- is
 well-defined and analytic *outside*. The punchline is that evaluating g+
@@ -166,7 +166,7 @@ pointwise multiplication:
 5) Andrew Pressley and Graeme Segal, Loop Groups, Oxford University
 Press, Oxford, 1986.
 
-The factorization of a map g: S^1 \to G into parts that are analytic
+The factorization of a map g\colon  S^1 \to  G into parts that are analytic
 inside and outside the unit disk plays a big role in string theory: it
 corresponds to taking certain 2d field theories called
 Wess-Zumino-Witten models and splitting the solutions into left-moving

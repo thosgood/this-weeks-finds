@@ -158,7 +158,7 @@ changes when we move it along that path:
 
                  f
       x------------>-----y    a path f from the point x to the point y:
-                                     we write this as f: x \to y
+                                     we write this as f\colon  x \to  y
 
 Believe it or not, this is the basis of all modern ideas on
 electromagnetism!

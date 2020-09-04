@@ -280,7 +280,7 @@ an $n$-dimensional vector space over F~q~. We get the "q-integer"
 
 which I'll write as \[n\] for short.
 
-Setting q = 1, we get n. This is the number of points in an $n$-element
+\mathsf{Set}ting q = 1, we get n. This is the number of points in an $n$-element
 set. Sure, that sounds silly. But, I'm trying to make a point here! At
 q = 1, stuff about $n$-dimensional vector spaces over F~q~ reduces to
 stuff about $n$-element sets, and the q-integer \[n\] reduces to the
@@ -614,7 +614,7 @@ an example of a commutative generalized ring from a commutative ring R
 if we let the $n$-ary operations be "n-ary R-linear combinations", like
 this:
 
-(x_1, ..., x~n~) \mapsto r_1 x_1 + ... + r~n~ x~n~
+(x_1, ..., x_n) \mapsto r_1 x_1 + ... + r_n x_n
 
 We also get a very similar example from any commutative
 "[rig](http://en.wikipedia.org/wiki/Semiring)", which is a gizmo
@@ -720,7 +720,7 @@ I hope this example gives away the general pattern.
 If this is confusing, look at the case where we start with a ring R and
 take as our $n$-ary operations the "n-ary R-linear combinations"
 
-(x_1, ..., x~n~) \mapsto r_1 x_1 + ... + r~n~ x~n~
+(x_1, ..., x_n) \mapsto r_1 x_1 + ... + r_n x_n
 
 with r_i in R. Here an example of a binary operation is addition:
 

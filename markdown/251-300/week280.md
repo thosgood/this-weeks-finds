@@ -399,7 +399,7 @@ have a name for this bundle, but they call any of its fibers the
 We then equip T with a Lorentzian metric and orientation. This lets us
 describe a Lorentzian metric on M using a vector bundle map
 
-e: TM \to T
+e\colon  TM \to  T
 
 This map has lots of names: the "cotetrad", the "soldering form", or
 the "coframe field". Whatever we call it, we can use it to pull the

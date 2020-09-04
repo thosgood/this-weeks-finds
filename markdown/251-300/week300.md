@@ -97,11 +97,11 @@ The base of the natural logarithm is the number of finite sets! You
 learn something new every day.
 
 Spurred on by our success, you might want to find a groupoid whose
-cardinality is π. It's not hard to do: you can just find a groupoid
+cardinality is \pi . It's not hard to do: you can just find a groupoid
 whose cardinality is 3, and a groupoid whose cardinality is .1, and a
 groupoid whose cardinality is .04, and so on, and lump them all together
 to get a groupoid whose cardinality is 3.14... But this is a silly
-solution: it doesn't shed any light on the nature of π.
+solution: it doesn't shed any light on the nature of \pi .
 
 I don't want to go into it in detail now, but the previous problem
 really *does* shed light on the nature of e: it explains why this number
@@ -122,10 +122,10 @@ gets larger and larger. That's well-known - but the neat part is how
 it's related to the cardinality of the groupoid of finite sets.
 
 Anyway, I have not succeeded in finding a really illuminating groupoid
-whose cardinality is π, but recently James Dolan found a nice one whose
-cardinality is π^2/6, and I want to lead up to that.
+whose cardinality is \pi , but recently James Dolan found a nice one whose
+cardinality is \pi ^2/6, and I want to lead up to that.
 
-Here's a not-so-nice groupoid whose cardinality is π^2/6. You can
+Here's a not-so-nice groupoid whose cardinality is \pi ^2/6. You can
 build a groupoid as the "disjoint union" of a collection of groups.
 How? Well, you can think of a group as a groupoid with one object: just
 one object having that group of symmetries. And you can build more
@@ -141,10 +141,10 @@ where Z/n is the integers mod n, also called the "cyclic group" with n
 elements. Then I'll take their disjoint union and get a groupoid, and
 the cardinality of this groupoid is
 
-1/1^2 + 1/2^2 + 1/3^2 + ... = π^2/6
+1/1^2 + 1/2^2 + 1/3^2 + ... = \pi ^2/6
 
 This is not as silly as the trick I used to get a groupoid whose
-cardinality is π, but it's still not perfectly satisfying, because I
+cardinality is \pi , but it's still not perfectly satisfying, because I
 haven't given you a groupoid of "interesting mathematical gadgets and
 isomorphisms between them", as I did for e. Later we'll see Jim's
 better answer.
@@ -157,7 +157,7 @@ not sure, that could be infinite too.
 
 But suppose we restrict ourselves to abelian groups whose size is some
 power of a fixed prime p? Then we're in business! The answer isn't a
-famous number like π, but it was computed by Philip Hall here:
+famous number like \pi , but it was computed by Philip Hall here:
 
 4) Philip Hall, A partition formula connected with Abelian groups,
 Comment. Math. Helv. 11 (1938), 126-129.
@@ -327,7 +327,7 @@ function is
 It's an example of a "Dirichlet series", meaning a series of this
 form:
 
-\sum~n\ >\ 0~ a~n~ n^-s^
+\sum~n\ >\ 0~ a_n n^-s^
 
 In fact, any reasonable way of equipping finite sets with extra stuff
 gives a Dirichlet series - and if this extra stuff is "being a
@@ -402,7 +402,7 @@ z(s) = \zeta(s)
 So, we've categorified the Riemann zeta function! Using this, we can
 construct an interesting groupoid whose cardinality is
 
-\zeta(2) = \sum~n\ >\ 0~ n^-2^ = π^2/6
+\zeta(2) = \sum~n\ >\ 0~ n^-2^ = \pi ^2/6
 
 How? Well, let's step back and consider a more general problem. Any
 stuff type Z gives a Dirichlet series
@@ -539,7 +539,7 @@ has *24* extra dimensions to wiggle around in. For more details, try:
 But suppose we don't want to mess with divergent sums: suppose we want
 a groupoid whose cardinality is, say,
 
-\zeta(2) = 1^-2^ + 2^-2^ + 3^-2^ + ... = π^2/6
+\zeta(2) = 1^-2^ + 2^-2^ + 3^-2^ + ... = \pi ^2/6
 
 Then we need to categorify the evalution of Dirichlet series at
 *positive* integers. We can only do this for *certain* stuff types - for
@@ -592,7 +592,7 @@ S = 2
 
 for short and get
 
-|Z(2)| = \zeta(2) = π^2/6
+|Z(2)| = \zeta(2) = \pi ^2/6
 
 Can we describe the groupoid Z(2) in simple English, suitable for a nice
 bumper sticker? It's a bit tricky. One reason is that I haven't
@@ -623,8 +623,7 @@ R together with an S-tuple of R-torsors.
 
 But what about the morphisms between these? We define a morphism between
 these to be a ring isomorphism together with an S-tuple of torsor
-isomorphisms. There's a trick hiding here: a ring isomorphism f: R \to
-R' lets us take any R-torsor and turn it into an R'-torsor, or vice
+isomorphisms. There's a trick hiding here\colon  a ring isomorphism f\colon  R \to R' lets us take any R-torsor and turn it into an R'-torsor, or vice
 versa. So, it lets us talk about an isomorphism from an R-torsor to an
 R'-torsor - a concept that at first might have seemed nonsensical.
 
@@ -646,7 +645,7 @@ While we're selling bumper stickers, we might as well include this one:
 ::: {align="center"}
 THE GROUPOID OF FINITE SEMISIMPLE COMMUTATIVE RINGS\
 EQUIPPED WITH A PAIR OF TORSORS\
-HAS CARDINALITY π^2/6
+HAS CARDINALITY \pi ^2/6
 :::
 
 Now, you might think this fact is just a curiosity. But I don't think
@@ -688,7 +687,7 @@ Why do we get points of different colors? I explained this back in
 ["Week 205"](#week205). The idea is
 that for any commutative ring k, we can look at the homomorphisms
 
-f: R \to k
+f\colon  R \to  k
 
 and these are called the "k-points" of our affine scheme. In
 particular, we can take k to be a finite field, say F~p^n~. So, we get
@@ -699,7 +698,7 @@ prime power p^n.
 Given all this, you shouldn't be surprised that we can get the
 Hasse-Weil zeta function of R by taking the Dirichlet series of the
 stuff type Z~R~, where an object is a finite semisimple commutative ring
-k together with a homomorphism f: R \to k. Especially if you remember that
+k together with a homomorphism f\colon  R \to  k. Especially if you remember that
 finite semisimple commutative rings are built from finite fields!
 
 In fact, this whole theory of Hasse-Weil zeta functions works for

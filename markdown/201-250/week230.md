@@ -41,8 +41,8 @@ sometimes fools around with math identities and tries to categorify them
 don't know what that means. Anyway, maybe that's how he stumbled on
 this:
 
-3) Jonathan Sondow, A faster product for π and a new integral for
-ln(π/2), Amer. Math. Monthly 112 (2005), 729-734. Also available as
+3) Jonathan Sondow, A faster product for \pi  and a new integral for
+ln(\pi /2), Amer. Math. Monthly 112 (2005), 729-734. Also available as
 [math.NT/0401406](http://arxiv.org/abs/math.NT/0401406).
 
 In this paper, Sondow gives eerily similar formulas for some of our
@@ -52,9 +52,9 @@ favorite math constants. First, one for e:
     e =  ( - )     ( ----- )     ( ------- )     ( ------------ )     ...
            1         1 \times 3          1 \times 33          1 \times 36 \times 5
 
-Then, one for π/2:
+Then, one for \pi /2:
 
-    π     2  1/2      22    1/4      23 \times 4   1/8        24 \times 44    1/16
+    \pi      2  1/2      22    1/4      23 \times 4   1/8        24 \times 44    1/16
     - = ( - )     ( ------ )     ( --------- )     ( ------------- )     ...
     2     1         1 \times 3            1 \times 33            1 \times 36 \times 5
 
@@ -64,9 +64,9 @@ Then one for e^γ^, where γ is Euler's constant:
     e  = ( - )     ( ----- )     ( ------- )     ( ----------- )     ...
            1         1 \times 3         1 \times 33          1 \times 36 \times 5
 
-He also points out Wallis' product for π/2 and Pippenger's for e:
+He also points out Wallis' product for \pi /2 and Pippenger's for e:
 
-    π     2  1/1    2\times4  1/1    4\times6\times6\times8  1/1
+    \pi      2  1/1    2\times4  1/1    4\times6\times6\times8  1/1
     - = ( - )     ( --- )     ( ------- )     ...
     2     1         3\times3         5\times5\times7\times7
 
@@ -142,14 +142,14 @@ This sounds like a silly puzzle that only a mathematician could give a
 hoot about. It takes a while to see its magnificent depth. But anyway,
 it turns out you can solve this problem only for certain special
 diagrams called "simply-laced Dynkin diagrams". The basic kinds are
-called A~n~, D~n~, E~6~, E~7~, and E~8~.
+called A_n, D_n, E~6~, E~7~, and E~8~.
 
-The A~n~ Dynkin diagram is a line of n dots connected by edges like
+The A_n Dynkin diagram is a line of n dots connected by edges like
 this:
 
      o---o---o---o---o    
 
-The D~n~ diagram has n dots arranged like this:
+The D_n diagram has n dots arranged like this:
 
                        o
                       /
@@ -158,7 +158,7 @@ The D~n~ diagram has n dots arranged like this:
                        o
 
 A line of them but then a little fishtail at the end! We should take n
-to be at least 4, to make the diagram connected and different from A~n~.
+to be at least 4, to make the diagram connected and different from A_n.
 
 The E~6~, E~7~, and E~8~ diagrams look like this:
 
@@ -199,7 +199,7 @@ and form the lattice of their integer linear combinations.
 
 Here are the lattices you get:
 
--   The diagram A~n~ gives the $n$-dimensional lattice of all $(n+1)$-tuples
+-   The diagram A_n gives the $n$-dimensional lattice of all $(n+1)$-tuples
     of integers (x_1,...,x~n+1~) with
 
     x_1 + ... + x~n+1~ = 0.
@@ -208,10 +208,10 @@ Here are the lattices you get:
     use to pack pennies as densely as possible. Similarly, A_3 gives a
     standard way of packing grapefruit.
 
--   The diagram D~n~ gives the $n$-dimensional lattice of all $n$-tuples of
-    integers (x_1,...,x~n~) where
+-   The diagram D_n gives the $n$-dimensional lattice of all $n$-tuples of
+    integers (x_1,...,x_n) where
 
-    x_1 + ... + x~n~
+    x_1 + ... + x_n
 
     is even. To visualize this, just take an $n$-dimensional checkerboard,
     color the cubes alternately red and black, and take the center of
@@ -262,10 +262,10 @@ such diagrams.
 
 Here's how it goes:
 
--   The diagram A~n~ gives the compact Lie group \mathrm{SU}(n+1), consisting of
+-   The diagram A_n gives the compact Lie group \mathrm{SU}(n+1), consisting of
     (n+1) \times (n+1) unitary matrices with determinant 1. It's the
     isometry group of complex projective $n$-space.
--   The diagram D~n~ gives the compact Lie group \mathrm{SO}(2n), consisting of
+-   The diagram D_n gives the compact Lie group \mathrm{SO}(2n), consisting of
     2n \times 2n orthogonal matrices with determinant 1. It's the isometry
     group of real projective (2n)-space.
 -   The diagram E~6~ gives a 78-dimensional compact Lie group that
@@ -309,17 +309,17 @@ So, Platonic solids turn out to fit into the game we're playing here!
 First I'll say which diagram corresponds to which subgroup of \mathrm{SO}(3).
 Then I'll explain how the correspondence works:
 
--   The diagram A~n~ corresponds to the group of obvious rotational
+-   The diagram A_n corresponds to the group of obvious rotational
     symmetries of the regular $n$-gon. This group is called the "cyclic
     group" Z/n.
--   The diagram D~n~ corresponds to the group of rotational symmetries
+-   The diagram D_n corresponds to the group of rotational symmetries
     of the regular $n$-gon where you can turn it and also flip it over. By
-    sheer coincidence, this group is called the "dihedral group" D~n~.
+    sheer coincidence, this group is called the "dihedral group" D_n.
     A cosmic stroke of good luck!
 -   The diagram E~6~ corresponds to the group of rotational symmetries
     of the tetrahedron: the "tetrahedral group". This is also the
     group of even permutations of 4 elements, the "alternating group"
-    A_4 - not to be confused with the A~n~'s we were just talking
+    A_4 - not to be confused with the A_n's we were just talking
     about. A cosmic stroke of bad luck!
 -   The diagram E~7~ corresponds to the group of rotational symmetries
     of the octahedron or cube: the "octahedral group". This is also
@@ -343,10 +343,10 @@ slippery way, to finite subgroups of \mathrm{SO}(3).
 
 You'll see how if I list the finite subgroups of \mathrm{SU}(2):
 
--   The diagram A~n~ corresponds to the cyclic subgroup Z/n of \mathrm{SU}(2).
+-   The diagram A_n corresponds to the cyclic subgroup Z/n of \mathrm{SU}(2).
     This double covers a cyclic subgroup of \mathrm{SO}(3) when n is even.
--   The diagram D~n~ corresponds to a subgroup of \mathrm{SU}(2) that double
-    covers the dihedral group D~n~.
+-   The diagram D_n corresponds to a subgroup of \mathrm{SU}(2) that double
+    covers the dihedral group D_n.
 -   The diagram E~6~ corresponds to a subgroup of \mathrm{SU}(2) that double
     covers the rotational symmetries of the tetrahedron. This subgroup
     has 24 elements and it's called the "binary tetrahedral group".
@@ -399,7 +399,7 @@ don't get a smooth manifold: the quotient has a singularity at 0. But
 we can "resolve" the singularity, finding a smooth complex manifold
 with a holomorphic map
 
-p: M \to C^2/G
+p\colon  M \to  C^2/G
 
 that has a holomorphic inverse on a dense open set. There may be lots of
 ways to do this, but in the present case there's just one "minimal"
@@ -433,7 +433,7 @@ Now we're well on the road to the next item...
 **D)** Simply-laced Dynkin diagrams also classify the simple critical
 points of holomorphic functions
 
-f: C^3 \to C
+f\colon  C^3 \to  C
 
 A "critical point" is just a place where the gradient of f vanishes.
 We can try to classify critical points up to a holomorphic change of
@@ -454,9 +454,9 @@ point. To do this, I'll give a polynomial f(x,y,z) that has a certain
 type of critical point at x = y = z = 0. Then I'll explain how the
 correspondence works:
 
--   The diagram A~n~ corresponds to the critical point of x^n+1^ +
+-   The diagram A_n corresponds to the critical point of x^n+1^ +
     y^2 + z^2.
--   The diagram D~n~ corresponds to the critical point of x^n-1^ +
+-   The diagram D_n corresponds to the critical point of x^n-1^ +
     xy^2 + z^2.
 -   The diagram E~6~ corresponds to the critical point of x^4 + y^3 +
     z^2.
@@ -474,7 +474,7 @@ one relation, given by the polynomial above!
 
 Conversely, we can start with the polynomial
 
-f: C^3 \to C
+f\colon  C^3 \to  C
 
 The zero set
 
@@ -483,7 +483,7 @@ The zero set
 has an isolated singularity at the origin. But, we can resolve this
 singularity, finding a smooth complex manifold N with a holomorphic map
 
-q: N \to {f = 0}
+q\colon  N \to  {f = 0}
 
 that has a holomorphic inverse on a dense open set. There may be lots of
 ways to do this, but in the present case there's just one "minimal"
@@ -508,7 +508,7 @@ morphisms.
 
 A representation of a quiver Q is just a functor
 
-F: Q \to Vect
+F\colon  Q \to  Vect
 
 So, we get a vector space for each dot and a linear map for each arrow,
 with no extra restrictions. There's an obvious category of
@@ -601,7 +601,7 @@ nilpotent subalgebra of the Lie algebra associated to the given Dynkin
 diagram.
 
 That's a mouthful, but it's cool. For example, the Lie algebra
-associated to A~n~ is sl(n+1), and the maximal nilpotent subalgebra
+associated to A_n is sl(n+1), and the maximal nilpotent subalgebra
 consists of strictly upper triangular matrices. We're q-deforming the
 universal enveloping algebra of this. One cool thing is that the "q"
 of q-deformation gets interpreted as a prime power - something we've
@@ -684,7 +684,7 @@ correspondence. For example, if we take a finite subgroup G of \mathrm{SU}(3), w
 get a quotient C^3/G, which has singularities. If we take a "crepant"
 resolution of
 
-p: M \to C^3/G,
+p\colon  M \to  C^3/G,
 
 which is the right generalization of a minimal resolution, then M is a
 Calabi-Yau manifold. This gets string theory into the act! Around 1985,

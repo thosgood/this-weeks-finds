@@ -574,7 +574,7 @@ Dolan and Trimble consider the set of elements of any object in
 CCC\[x\], where an "element" is a morphism from the terminal object,
 e.g.
 
-f: 1 \to x x^x\ x^x^x^^^ x^x\ x^x^x^^^
+f\colon  1 \to  x x^x\ x^x^x^^^ x^x\ x^x^x^^^
 
 And, they show these elements are in 1-1 correspondence with
 second-player winning strategies for the holodeck version of the game
@@ -582,12 +582,12 @@ whose tree is constructed as above.
 
 If we pick any set X, the universal property of CCC\[x\] gives a functor
 
-F: CCC\[x\] \to Set
+F\colon  CCC\[x\] \to  \mathsf{Set}
 
 This maps elements of any object in CCC\[x\] to elements of the
-corresponding object in Set:
+corresponding object in \mathsf{Set}:
 
-F(f): 1 \to X X^X\ X^X^X^^^ X^X\ X^X^X^^^
+F(f)\colon  1 \to  X X^X\ X^X^X^^^ X^X\ X^X^X^^^
 
 So, the element f gives a systematic way of picking elements of any set
 built from any arbitrary set X using finite products and exponentials.
@@ -595,11 +595,11 @@ built from any arbitrary set X using finite products and exponentials.
 By the way, in a cartesian closed category, there's a 1-1
 correspondence between morphisms
 
-f: B \to A
+f\colon  B \to  A
 
 and elements
 
-f: 1 \to A^B^
+f\colon  1 \to  A^B^
 
 So, one can use games to describe *all* the objects and morphisms in the
 free cartesian closed category on one object! One can also describe
@@ -628,7 +628,7 @@ Algebra, available at
 
 Lawvere modernized universal algebra by realizing that an algebraic
 theory is just a cartesian category, and a model is a product-preserving
-functor from this theory into Set or some other cartesian category -
+functor from this theory into \mathsf{Set} or some other cartesian category -
 hence his thesis title, "Functorial Semantics". I explained this in
 much more detail back in [week200](week200.html).
 
@@ -698,7 +698,7 @@ Lambek's discovery introduced a semantics for the λ calculus, since it
 lets us to speak of "models" of theories formulated in the λ calculus,
 just as we could for algebraic theories. In computer programming, the
 importance of a model is that it gives a picture of what a program
-actually accomplishes. A model in the category of Sets, for example,
+actually accomplishes. A model in the category of \mathsf{Set}s, for example,
 sends any program to an actual function between sets.
 
 There's no way to list all the interesting references to CCCs and the
@@ -879,7 +879,7 @@ category theory mailing list:
 >       (*) Whenever first player plays an occurrence of X, the second player
 >           must play an occurrence of X.
 >
->     [Try it: see how X \to Y \to X has just one winning strategy.] Although the
+>     [Try it\colon  see how X \to  Y \to X has just one winning strategy.] Although the
 >     LICS'97 paper cited above appears to be the first place the Copycat
 >     Condition appears in print, I like to think it was already understood at
 >     the time by people working in the area.  Technically speaking, winning

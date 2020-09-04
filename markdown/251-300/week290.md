@@ -512,11 +512,11 @@ several ways. Here's one. Start with the category where:
 Then, throw in formal inverses to all "rational homotopy equivalences"
 - that is, maps
 
-f: X \to X'
+f\colon  X \to  X'
 
 that give isomorphisms between rational homotopy groups:
 
-Q \otimes π~n~(f): Q \otimes π~n~(X) \to Q \otimes π~n~(X')
+Q \otimes \pi _n(f)\colon  Q \otimes \pi _n(X) \to  Q \otimes \pi _n(X')
 
 This gives the rational homotopy category.
 
@@ -542,11 +542,11 @@ Why? Because our spaces are 1-connected, so their bottom two homology
 groups are boring. Then, let's throw in formal inverses to
 "quasi-isomorphisms" - that is, maps between DGCCs
 
-f: C \to C'
+f\colon  C \to  C'
 
 that give isomorphisms between homology groups:
 
-H~n~(f): H~n~(C) \to H~n~(C')
+H_n(f)\colon  H_n(C) \to  H_n(C')
 
 The resulting category is *equivalent* to the rational homotopy
 category!
@@ -563,11 +563,11 @@ a DGLA from the group of *loops* in our rational space, and looping
 pushes down dimensions by one. Then, we throw in formal inverses to
 "quasi-isomorphisms" - that is, maps between DGLAs:
 
-f: L \to L'
+f\colon  L \to  L'
 
 that give isomorphisms between homology groups:
 
-H~n~(f): H~n~(L) \to H~n~(L')
+H_n(f)\colon  H_n(L) \to  H_n(L')
 
 Again, the resulting category is *equivalent* to the rational homotopy
 category!
@@ -601,7 +601,7 @@ finite simple groups. Anyway, here we go:
 -   How many minutes are in an hour?
 
     60, which is the number of elements in the smallest nonabelian
-    finite simple group, namely A~5~. Here A~n~ is an an "[alternating
+    finite simple group, namely A~5~. Here A_n is an an "[alternating
     group](http://en.wikipedia.org/wiki/Alternating_group)": the group
     of even permutations of the set with n elements. By some wonderful
     freak of nature, A~5~ is isomorphic to both \mathrm{PSL}(2,4) and \mathrm{PSL}(2,5).
@@ -729,7 +729,7 @@ Why? According to Don Davis and the Wikipedia article on
 [gallons](http://en.wikipedia.org/wiki/Gallon#Historyhttp://en.wikipedia.org/wiki/Gallon#History))
 the reason is that once upon a time, a British wine gallon was 7 inches
 across and 6 inches deep - for some untold reason that deserves further
-investigation. If we approximate π by 22/7, the volume then comes out to
+investigation. If we approximate \pi  by 22/7, the volume then comes out to
 3 \times 7 \times 11 cubic inches!
 
 This 11-ness of the gallon then infects other units of volume. For

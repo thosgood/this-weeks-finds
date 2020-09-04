@@ -22,7 +22,7 @@ important in string theory, knot theory, and loop quantum gravity. In
 this case it's best if q is a unit complex number, especially an nth
 root of unity:
 
-    q = exp(2πi/n)
+    q = exp(2\pi i/n)
 
 You'll notice that in string theory, knot theory and loop quantum
 gravity, *loops* play a big role. This is no coincidence; in a way,

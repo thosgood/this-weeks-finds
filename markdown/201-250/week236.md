@@ -1415,13 +1415,13 @@ These papers discuss a general concept of "ordinal notation system",
 which includes the Schütte Klammersymbole and also something called the
 "n-ary Veblen hierarchy":
 
-30) Anton Setzer, An introduction to well-ordering proofs in
+30) Anton \mathsf{Set}zer, An introduction to well-ordering proofs in
 Martin-Löf's type theory, in Twenty-Five Years of Constructive Type
 Theory, eds. G. Sambin and J. Smith, Clarendon Press, Oxford, 1998, pp.
 245-263. Also available at
 `http://www.cs.swan.ac.uk/~csetzer/index.html`
 
-Anton Setzer, Ordinal systems, in Sets and Proofs, Cambridge U. Press,
+Anton \mathsf{Set}zer, Ordinal systems, in \mathsf{Set}s and Proofs, Cambridge U. Press,
 Cambridge, 2011, pp. 301-331. Also available at
 `http://www.cs.swan.ac.uk/~csetzer/index.html`
 

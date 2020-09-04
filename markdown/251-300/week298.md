@@ -347,7 +347,7 @@ C^2 \otimes C^2 \to C
 sending any vector to its inner product with this element. We can then
 regard this linear functional as a function
 
-f: C^2 \times C^2 \to C
+f\colon  C^2 \times C^2 \to  C
 
 that's linear in each argument. Is there a nonzero point in C^2 \times C^2
 where the gradient of f vanishes? The answer is yes if and only if the
@@ -365,7 +365,7 @@ C^2 \otimes C^2 \otimes C^2 \to C
 sending any vector to its inner product with this element. We can then
 regard this linear functional as a function
 
-f: C^2 \times C^2 \times C^2 \to C
+f\colon  C^2 \times C^2 \times C^2 \to  C
 
 that's linear in each argument. Is there a nonzero point in C^2 \times C^2
 \times C^2 where the gradient of f vanishes? The answer is yes if and only

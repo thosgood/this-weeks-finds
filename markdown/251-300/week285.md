@@ -31,7 +31,7 @@ more patterns if you zoom in:
 :::
 
 Now you see beautiful feathers surrounding the blank area around the
-point 1 on the real axis, a hexagonal star around exp(i π / 6), a
+point 1 on the real axis, a hexagonal star around exp(i \pi  / 6), a
 strange red curve from this point to 1, smaller stars around other
 points, and more....
 
@@ -115,7 +115,7 @@ Next, here's the hole at i:\
 \
 \
 \
-And here's the hole at exp(iπ/4) = (1 + i)/√2:\
+And here's the hole at exp(i\pi /4) = (1 + i)/√2:\
 \
 \
 
@@ -249,11 +249,11 @@ A_i = H~i+d~(LM)
 
 are equipped with a graded-commutative product:
 
-o: A_i \otimes A~j~ \to A~i+j~
+o\colon  A_i \otimes A~j~ \to  A~i+j~
 
 together with an operator
 
-D: A_i \to A~i+1~
+D\colon  A_i \to  A~i+1~
 
 with D^2 = 0. These satisfy a bunch of equations, which makes the
 degree-shifted homology of LM into a gadget called a "Gerstenhaber
@@ -265,7 +265,7 @@ But the homology of the loop space has even more structure: it's a
 "Batalin-Vilkovisky algebra". That means that in addition to the above
 stuff, it has a Lie bracket of degree 1:
 
-\[·,·\]: A_i \otimes A~j~ \to A~i+j+1~
+\[·,·\]\colon  A_i \otimes A~j~ \to  A~i+j+1~
 
 which gets along with the rest in a nice way. I also talked about these
 in ["Week 220"](#week220): they're precisely algebras of homology
@@ -335,7 +335,7 @@ functions" on the intersections U_i ∩ U~j~, a \mathrm{U}(1) gerbe over a space
 can be defined by chopping a space into open sets and giving transition
 functions
 
-h~ijk~ : U_i ∩ U~j~ ∩ U~k~ \to \mathrm{U}(1)
+h~ijk~ \colon  U_i ∩ U~j~ ∩ U~k~ \to  \mathrm{U}(1)
 
 If you have a \mathrm{U}(1) gerbe, you can define "twisted vector bundles".
 These are like vector bundles, but where the transition functions g~ij~
@@ -365,11 +365,11 @@ bundles!
 The Atiyah-Segal completion theorem concerns K(X) when X is the
 classifying space of a topological group G. As explained in
 ["Week 151"](#week151), this is a space BG with a principal
-G-bundle over it:
+$G$-bundle over it:
 
 EG \to BG
 
-with the property that every other principal G-bundle over every other
+with the property that every other principal $G$-bundle over every other
 space is a pullback of this one. Given any representation of G, we can
 use the "associated bundle" trick to create a vector bundle over BG.
 So, we get a functor from the category of representations of G to the

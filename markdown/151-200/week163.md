@@ -216,7 +216,7 @@ the Jordan product in h_3(O) is built using the structure of O as a
 normed division algebra, it can actually be defined using just the
 natural map
 
-    t: V8  x  S8+  x  S8- \to R
+    t\colon  V8  x  S8+  x  S8- \to  R
 
 and the inner products on these 3 spaces. It follows that any element of
 Spin(8) gives an automorphism of h_3(O). Indeed, Spin(8) becomes a

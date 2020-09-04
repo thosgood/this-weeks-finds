@@ -201,7 +201,7 @@ C. Balteanu, Z. Fiedorowicz, R. Schwaenzl and R. Vogt, Iterated monoidal
 categories, available at
 [math.AT/9808082](http://www.arXiv.org/abs/math.AT/9808082)
 
-Z. Fiedorowicz, Constructions of E~n~ operads, available at
+Z. Fiedorowicz, Constructions of E_n operads, available at
 [math.AT/9808089](http://www.arXiv.org/abs/math.AT/9808089).
 
 Stefan Forcey continued this theme by discussing enrichment over $n$-fold
@@ -258,7 +258,7 @@ work relating $n$-categories to $n$-fold loop spaces. Again no notes, but
 you can read these papers:
 
 21) Michael Batanin, The Eckmann-Hilton argument, higher operads and
-E~n~-spaces, available at
+E_n-spaces, available at
 `http://www.ics.mq.edu.au/~mbatanin/papers.html`
 
 Michael Batanin, The combinatorics of iterated loop spaces, available at
@@ -368,8 +368,8 @@ Starting with a commutative ring R, we can form a weak 2-category Alg(R)
 where:
 
 -   an object A is an associative algebra over R,
--   a 1-morphism M: A \to B is an (A,B)-bimodule,
--   a 2-morphism f: M \to N is a homomorphism between (A,B)-bimodules.
+-   a 1-morphism M\colon  A \to  B is an (A,B)-bimodule,
+-   a 2-morphism f\colon  M \to  N is a homomorphism between (A,B)-bimodules.
 
 This has all the structure you need to get a 2-category. In particular,
 we can "compose" an (A,B)-bimodule and a (B,C)-bimodule by tensoring
@@ -385,9 +385,9 @@ monoidal 2-category. But using a standard trick we can reinterpret this
 as a weak 3-category with one object, as follows:
 
 -   there's only one object, R
--   a 1-morphism A: R \to R is an associative algebra over R
--   a 2-morphism M: A \to B is an (A,B)-bimodule
--   a 3-morphism f: M \to N is a homomorphism between (A,B)-bimodules.
+-   a 1-morphism A\colon  R \to  R is an associative algebra over R
+-   a 2-morphism M\colon  A \to  B is an (A,B)-bimodule
+-   a 3-morphism f\colon  M \to  N is a homomorphism between (A,B)-bimodules.
 
 Note how all the morphisms have shifted up a notch. What used to be
 called objects, the associative algebras over R, are now called
@@ -402,11 +402,11 @@ that an $n$-morphism is an equivalence iff it's invertible.
 What does equivalence amount to in the 3-category Alg(R)? It's easiest
 to figure this out from the top down:
 
--   A 3-morphism f: M \to N is an equivalence iff it's invertible, so
+-   A 3-morphism f\colon  M \to  N is an equivalence iff it's invertible, so
     it's an isomorphism between (A,B)-bimodules.
 
--   A 2-morphism M: A \to B is an equivalence iff it's invertible up to
-    isomorphism, meaning there exists N: B \to A such that:
+-   A 2-morphism M\colon  A \to  B is an equivalence iff it's invertible up to
+    isomorphism, meaning there exists N\colon  B \to  A such that:
 
     -   M \otimes~B~ N is isomorphic to A as an (A,A)-bimodule,
     -   N \otimes~A~ M is isomorphic to B as a (B,B)-bimodule.
@@ -414,8 +414,8 @@ to figure this out from the top down:
     In this situation people say M is a "Morita equivalence" from A
     to B.
 
--   A 1-morphism A: R \to R is an equivalence iff it's invertible up to
-    Morita equivalence, meaning there exists a 1-morphism B: x \to x such
+-   A 1-morphism A\colon  R \to  R is an equivalence iff it's invertible up to
+    Morita equivalence, meaning there exists a 1-morphism B\colon  x \to  x such
     that:
 
     -   A \otimes~R~ B is Morita equivalent to R as an associative algebra
@@ -430,9 +430,9 @@ commutative ring R there's an algebra R\[n\] consisting of n x n
 matrices with entries in R. R\[n\] isn't usually isomorphic to R\[m\],
 but they're always Morita equivalent! To see this, suppose
 
-M: R\[n\] \to R\[m\] is the space of n x m matrices with entries in R,
+M\colon  R\[n\] \to  R\[m\] is the space of n x m matrices with entries in R,
 
-N: R\[m\] \to R\[n\] is the space of m x n matrices with entries in R.
+N\colon  R\[m\] \to  R\[n\] is the space of m x n matrices with entries in R.
 
 These become bimodules in an obvious way via matrix multiplication, and
 a little calculation shows that they're inverses up to isomorphism!
@@ -470,9 +470,9 @@ So, let's take the core of Alg(R) and get a weak 3-groupoid. Here's
 what it's like:
 
 -   There's one object, R.
--   The 1-morphisms A: x \to x are Azumaya algebras over R.
--   The 2-morphisms M: A \to B are Morita equivalences.
--   The 3-morphisms f: M \to N are bimodule isomorphisms.
+-   The 1-morphisms A\colon  x \to  x are Azumaya algebras over R.
+-   The 2-morphisms M\colon  A \to  B are Morita equivalences.
+-   The 3-morphisms f\colon  M \to  N are bimodule isomorphisms.
 
 Since as a groupoid with one object is a group, this weak 3-groupoid
 with one object deserves to be called a "3-group".
@@ -482,11 +482,11 @@ compute its "homotopy groups". These are easy to define in general,
 but I'll just do it for the core of Alg(R) and let you guess the
 general pattern. First, notice that:
 
--   The identity 1-morphism 1~R~: R \to R is just R, regarded as an
+-   The identity 1-morphism 1~R~\colon  R \to  R is just R, regarded as an
     associative algebra over itself in the obvious way.
--   The identity 2-morphism 1_1R~~: 1~R~ \to 1~R~ is just R, regarded as
+-   The identity 2-morphism 1_1R~~\colon  1~R~ \to  1~R~ is just R, regarded as
     an (R,R)-bimodule in the obvious way.
--   The identity 3-morphism 1_11~R~~~: 1_1R~~ \to 1_1R~~ is just the
+-   The identity 3-morphism 1_11~R~~~\colon  1_1R~~ \to  1_1R~~ is just the
     identity function on R, regarded as an isomorphism of
     (R,R)-bimodules.
 
@@ -532,11 +532,11 @@ picture. It's a great example of how $n$-categories unify mathematics.
 For example, everything we've done is functorial. So, if you have a
 homomorphism between commutative rings, say
 
-f: R \to S
+f\colon  R \to  S
 
 then you get a weak 3-functor
 
-Alg(f): Alg(R) \to Alg(S)
+Alg(f)\colon  Alg(R) \to  Alg(S)
 
 This gives a weak 3-functor from the core of Alg(R) to the core of
 Alg(S), and thus a map between spaces... which in turn gives a long

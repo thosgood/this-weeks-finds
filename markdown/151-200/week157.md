@@ -28,22 +28,22 @@ transformations of an N-dimensional complex vector space that preserve
 an inner product and volume form. In less elevated language, \mathrm{SU}(N) is
 the group of all N x N unitary matrices with determinant 1.
 
-The symmetric group S~n~ may also be considered an honorary classical
+The symmetric group S_n may also be considered an honorary classical
 group, even though it's defined in terms of a *set* rather than a
-*vector space*. S~n~ is the group of all permutations of an $n$-element
+*vector space*. S_n is the group of all permutations of an $n$-element
 set.
 
 Rather amazingly, Young diagrams can be used to classify all 3 of these
 things, which at first seem quite different in flavor:
 
--   conjugacy classes in S~n~
--   irreducible representations of S~n~
+-   conjugacy classes in S_n
+-   irreducible representations of S_n
 -   irreducible representations of \mathrm{SU}(N)
 
 Let me sketch how this goes, and then say a bit about the *other* things
 you can do with Young diagrams.
 
-Say we have any permutation g in S~n~, like this:
+Say we have any permutation g in S_n, like this:
 
     1 \to 2
     2 \to 4 
@@ -94,15 +94,15 @@ This is called a "Young diagram"! But instead of X's, people usually
 draw boxes. So a Young diagram is just a bunch of rows of boxes,
 arranged in order of decreasing length.
 
-Okay: so far I've shown how conjugacy classes of permutations in S~n~
+Okay: so far I've shown how conjugacy classes of permutations in S_n
 correspond to Young diagrams with a total of n boxes. Now I want to do
-the same for irreducible representations of S~n~.
+the same for irreducible representations of S_n.
 
 This is cool for the following reason: for any finite group, the number
 of irreducible representations is the same as the number of conjugacy
 classes of group elements. But in general there's no natural way to
 match up irreducible representations with conjugacy classes. The group
-S~n~ just happens to be specially nice in this way.
+S_n just happens to be specially nice in this way.
 
 Here I must turn up the math level slightly... for example, I'll
 assume you know what "irreducible representations" means! I'll even
@@ -171,7 +171,7 @@ to the problem of finding "minimal central idempotents" in the group
 algebra C\[G\].
 
 To go further, we need to know more about our group G. So now I'll take
-G to be the permutation group S~n~ and tell you how to get the minimal
+G to be the permutation group S_n and tell you how to get the minimal
 central idempotents. We'll get one for each Young diagram with n boxes!
 
 Say we have a Young diagram with n boxes, like this:
@@ -188,22 +188,22 @@ Then we can pack it with numbers from 1 to n like this:
     6
     7
 
-There are a bunch of permutations in S~n~ called "column
+There are a bunch of permutations in S_n called "column
 permutations", that only permute the numbers within each column of our
 Young diagram. And there are a bunch called "row permutations", that
 only permute the numbers within each row.
 
-We can form an idempotent p in C\[S~n~\] that antisymmetrizes over all
+We can form an idempotent p in C\[S_n\] that antisymmetrizes over all
 column permutations. We get p by taking the sum of all *even* column
 permutations minus the sum of all *odd* column permutations, and then
 dividing by the total number of column permutations.
 
-Similarly, we can form an idempotent q in C\[S~n~\] that symmetrizes
+Similarly, we can form an idempotent q in C\[S_n\] that symmetrizes
 over all row permutations. We get q by taking the sum of all row
 permutations divided by the number of row permutations.
 
 Now here's the cool part: pq is a minimal central idempotent in
-C\[S~n~\], and we get all minimal central idempotents this way! This
+C\[S_n\], and we get all minimal central idempotents this way! This
 isn't very obvious, but I went over the proof before writing this, so I
 know it's true.
 
@@ -250,9 +250,9 @@ Here's how it works. The space
                |------------------n copies-------------------|
 
 is not only a representation of \mathrm{SU}(N); it's also a representation of
-S~n~. And the actions of these two groups commute! This means that we
+S_n. And the actions of these two groups commute! This means that we
 can chop up V into subspaces using the minimal central idempotents in
-S~n~, and each of these subspaces will be a representation of \mathrm{SU}(N).
+S_n, and each of these subspaces will be a representation of \mathrm{SU}(N).
 
 This much is obvious. The really cool part is that all these subspaces
 are *irreducible* representations of \mathrm{SU}(N). Even better, we get *all*
@@ -285,15 +285,15 @@ So here's the bottom line: irreps of \mathrm{SU}(N) correspond in a 1-1 way with
 Young diagrams having fewer than N rows.
 
 Okay, I've shown you how Young diagrams classify conjugacy classes of
-S~n~, irreps of S~n~, and irreps of \mathrm{SU}(N). But this is really just the
+S_n, irreps of S_n, and irreps of \mathrm{SU}(N). But this is really just the
 tip of the iceberg!
 
 First of all, we can use Young diagrams packed with numbers, called
 "Young tableaux", to do all sorts of calculations involving irreps of
-S~n~ and \mathrm{SU}(N). Say we tensor two irreps and want to decompose it as a
+S_n and \mathrm{SU}(N). Say we tensor two irreps and want to decompose it as a
 direct sum of irreps: how do we do it? Well, we play a little game with
 Young tableaux and out pops the answer. One relevant buzzword is
-"Littlewood-Richardson rules". Or say we have an irrep of S~n~ and
+"Littlewood-Richardson rules". Or say we have an irrep of S_n and
 want to know how it decomposes into irreps when we restrict it to a
 subgroup like S~n-1~. Or the same for \mathrm{SU}(N) and \mathrm{SU}(N-1). How do we do
 this? More messing with Young tableaux. Here one relevant buzzword is
@@ -311,13 +311,13 @@ representations of other classical groups, notably \mathrm{GL}(N), \mathrm{SL}(N
 \mathrm{SO}(N), \mathrm{U}(N) and Sp(N). All these groups have an obvious "fundamental
 representation", and we can cook up lots of reps by taking the nth
 tensor power of the fundamental representation and hitting it with
-minimal central idempotents in C\[S~n~\]. The story I just told you for
+minimal central idempotents in C\[S_n\]. The story I just told you for
 \mathrm{SU}(N) can be repeated with slight or not-so-slight variations for all
 these other groups.
 
 Third, we can "q-deform" the whole story, replacing any one of these
 classical groups by the associated "quantum group", and replacing
-C\[S~n~\] by the corresponding "Hecke algebra". This is really
+C\[S_n\] by the corresponding "Hecke algebra". This is really
 important in topological quantum field theory and the theory of type II
 subfactors.
 

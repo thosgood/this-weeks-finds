@@ -63,7 +63,7 @@ scalar multiplication, closed under taking adjoints and also closed in
 the norm topology, it's called a "C*-algebra". The "spectrum" of a
 C*-algebra A is the set of all homomorphisms
 
-    x: A \to C, 
+    x\colon  A \to  C, 
 
 where C is the complex numbers. Though it's not immediately obvious,
 this sort of spectrum reduces to the previous one when A is the
@@ -76,7 +76,7 @@ once we know its spectrum!
 
 This amazing fact is called the Gelfand-Naimark theorem. Here's the
 idea. There's an easy way to make the spectrum of a commutative
-C*-algebra A into a topological space: we say x_i \to x precisely when
+C*-algebra A into a topological space\colon  we say x_i \to  x precisely when
 
     xi(a) \to x(a)
 
@@ -118,11 +118,11 @@ extract a space from it: its "spectrum". As we've seen, one option is
 to take the spectrum to consist of all homomorphisms to the complex
 numbers:
 
-    x: A \to C
+    x\colon  A \to  C
 
 Another would be to use the real numbers:
 
-    x: A \to R.
+    x\colon  A \to  R.
 
 Both the real and complex numbers are "fields": commutative rings
 where we can divide by anything nonzero. But there are a lot of other
@@ -145,7 +145,7 @@ product of two elements of A lies in the ideal, at least one of them
 must be in the ideal. Conversely, given a prime ideal in A, there's
 always a field k and a homomorphism
 
-    x: A \to k 
+    x\colon  A \to  k 
 
 whose kernel is that prime ideal. So, it's reasonable to define the
 spectrum of A, Spec(A) to be the set of all prime ideals in A.
@@ -156,7 +156,7 @@ ring of integers, Z, most prime ideals come from prime numbers. If we
 take all the multiples of any prime number, we get a prime ideal, which
 is the kernel of the obvious homomorphism
 
-    x: Z \to Z/p
+    x\colon  Z \to  Z/p
 
 There's just one other prime ideal in Z, namely all the multiples of 0.
 In other words, the set consisting of just 0 alone! This is the kernel
@@ -406,7 +406,7 @@ monoid; turning this into a group by throwing in inverses is called
 "group completion". A braided monoidal category is roughly a monoidal
 category with an isomorphism
 
-    Bx,y: x tensor y \to y tensor x
+    Bx,y\colon  x tensor y \to  y tensor x
 
 for any pair of objects; we require this isomorphism satisfy some rules
 motivated by thinking it as a "braiding", like this:
@@ -500,11 +500,11 @@ Rene Meyer wrote:
 >      John Baez wrote:
 >
 >      > The "spectrum" of a C*-algebra A is the set of all homomorphisms
->      > x: A \to C,
+>      > x\colon  A \to  C,
 >      > where C is the complex numbers.  
 >      >
 >      > There's an easy way to make the spectrum of a commutative
->      > C*-algebra A into a topological space: we say xi \to x precisely when
+>      > C*-algebra A into a topological space\colon  we say xi \to  x precisely when
 >      > xi(a) \to x(a)
 >      > for all elements a of A.  With this topology any element a of A gives
 >      > a continuous complex function on the spectrum, defined by this clever
@@ -534,11 +534,11 @@ Rene Meyer wrote:
 > > > x_i of points in the spectrum converges to some point x. So, I
 > > > took a sequence of homomorphisms
 > > >
-> > >      xi: A \to C
+> > >      xi\colon  A \to  C
 > > >
 > > > and told you when it converges to a homomorphism
 > > >
-> > >      x: A \to C
+> > >      x\colon  A \to  C
 > > >
 > > > And here's what I said: x_i converges to x precisely when the
 > > > sequence of numbers x_i(a) converges to the number x(a) for all a
@@ -571,7 +571,7 @@ Rene Meyer wrote:
 > > > >     > take all the multiples of any prime number, we get a prime ideal, which 
 > > > >     > is the kernel of the obvious homomorphism
 > > > >     >
-> > > >     > x: Z \to Z/p
+> > > >     > x\colon  Z \to  Z/p
 > > > >     >
 > > > >     > There's just one other prime ideal in Z, namely all the multiples of
 > > > >     > 0.  In other words, the set consisting of just 0 alone!  This is the

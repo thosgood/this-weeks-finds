@@ -167,7 +167,7 @@ then get Bombelli's "random weave state". The same sort of idea works
 in higher dimensions, too.
 
 Finally, Michael Seifert's paper is an excellent undergraduate thesis
-on loop quantum gravity, done with the help of Seth Major. After a nice
+on loop quantum gravity, done with the help of \mathsf{Set}h Major. After a nice
 review of the basics, it studies some operators that act on the Hilbert
 space of states of a single spin network vertex: in particular, the
 volume operator and some less familiar operators that measure the angles

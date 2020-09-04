@@ -279,7 +279,7 @@ spins
 Any surface in space gets its area from the spin network edges that
 puncture it, and a spin-j edge contributes an area of
 
-    8 π γ sqrt(j(j+1))
+    8 \pi  γ sqrt(j(j+1))
 
 Here γ is a dimensionless constant called the "Barbero-Immirzi
 parameter" - a puzzling, annoying but so far unavoidable feature of
@@ -288,7 +288,7 @@ light on this puzzling parameter.
 
 If we have a black hole of area close to A, we have
 
-    A ~ SUM 8 π γ sqrt(j(j+1))
+    A ~ SUM 8 \pi  γ sqrt(j(j+1))
 
 where \~ means "approximately equal to", and we sum over spin network
 edges puncturing the event horizon. But it turns out that the geometry
@@ -307,7 +307,7 @@ product is taken over all punctures. To get the *total* number of
 microstates, we must then sum this quantity over all choices of the
 spins j satisfying
 
-    A ~ SUM 8 π γ sqrt(j(j+1)).
+    A ~ SUM 8 \pi  γ sqrt(j(j+1)).
 
 This is a nice math problem. It turns out that for a large black hole,
 the whopping majority of all microstates come from taking all the spins
@@ -318,13 +318,13 @@ state like this, m can take just two values at each puncture.
 In a state where all the spins are 1/2, the number of spin network edges
 puncturing the horizon, say n, must satisfy
 
-    A ~ 8 π γ sqrt(3/4) n 
+    A ~ 8 \pi  γ sqrt(3/4) n 
 
-      = 4 π γ sqrt(3) n
+      = 4 \pi  γ sqrt(3) n
 
 so the number of punctures must be
 
-    n ~ A / 4 π γ sqrt(3)
+    n ~ A / 4 \pi  γ sqrt(3)
 
 Since m can take two values at each puncture, the number of microstates
 we get this way is
@@ -340,7 +340,7 @@ and the entropy is
 
                ln 2 
       ~ ------------------ A
-        4 π γ sqrt(3)  
+        4 \pi  γ sqrt(3)  
 
 Good! Entropy is proportional to area, at least for large black holes!
 For very small ones we need to do a more careful count of microstates,
@@ -351,7 +351,7 @@ formula S = A/4 we need
 
                ln 2
     γ = ----------
-            π sqrt(3)
+            \pi  sqrt(3)
 
 On the one hand this is good: we've determined γ! We can also check
 that the same value works for electrically charged black holes and other
@@ -377,11 +377,11 @@ Instead, it's j = 1. We can easily redo the whole calculation using
 Barbero-Immirzi parameter. When all the spin network edges puncturing
 the event horizon have j = 1, we get
 
-    A ~ 8 π γ sqrt(2) n 
+    A ~ 8 \pi  γ sqrt(2) n 
 
 and thus
 
-    n ~ A / 8 π γ sqrt(2)
+    n ~ A / 8 \pi  γ sqrt(2)
 
 There are now three allowed m values for each puncture, so
 
@@ -396,13 +396,13 @@ and the entropy is
 
                ln 3
       ~ ------------------ A
-        8 π γ sqrt(2)      
+        8 \pi  γ sqrt(2)      
 
 This matches Hawking's S = A/4 if we take
 
                 ln 3
     γ = -----------
-            2 π sqrt(2)
+            2 \pi  sqrt(2)
 
 Again, the same number works for electrically charged and other black
 holes, as long as use the \mathrm{SO}(3) version of loop quantum gravity. Indeed,
@@ -443,20 +443,20 @@ But the energy of a nonrotating black hole is just its mass:
 
 and this is related to the area of its event horizon by
 
-    A = 16 π M2
+    A = 16 \pi  M2
 
 so we have
 
-    Δ A = 32 π M Δ M
+    Δ A = 32 \pi  M Δ M
 
-            = 32 π M ω
+            = 32 \pi  M ω
 
 Now for something from loop quantum gravity: if we work in the \mathrm{SO}(3)
 theory, it's natural to guess that this change in area comes from the
 appearance or disappearance of a single spin-1 edge puncturing the
 horizon, so that
 
-    Δ A = 8 π γ sqrt(2)
+    Δ A = 8 \pi  γ sqrt(2)
 
 Putting these equations together, we get
 
@@ -476,7 +476,7 @@ hole:
 
 In 1998, Shahar Hod noticed that the number here may equal
 
-    ln(3) / 8 π = 0.043712394070757472250... 
+    ln(3) / 8 \pi  = 0.043712394070757472250... 
 
 They agree to 6 significant figures!
 
@@ -484,7 +484,7 @@ Assuming Hod is right, Dreyer concludes that
 
                 ln 3
     γ = -----------
-            2 π sqrt(2)
+            2 \pi  sqrt(2)
 
 This is the same result that we got before!!! But it comes from very
 different reasoning.
@@ -543,7 +543,7 @@ parameter has the value obtained by Dreyer:
 
                 ln 3
     γ = -----------
-            2 π sqrt(2)
+            2 \pi  sqrt(2)
 
 However, Hod believes the area eigenvalues of a black hole are evenly
 spaced, which disagrees with the results of loop quantum gravity. The
@@ -566,7 +566,7 @@ argued that this is implausible. In loop quantum gravity, the area
 eigenvalues get very densely packed for a large black hole, since one is
 adding up lots of different numbers of the form
 
-    8 π γ sqrt(j(j+1)), 
+    8 \pi  γ sqrt(j(j+1)), 
 
 so one would not see widely spaced spectral lines in Hawking radiation
 from a large black hole.

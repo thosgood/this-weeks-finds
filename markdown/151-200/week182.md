@@ -96,12 +96,12 @@ actually good to study *all* unordered pairs of natural numbers with
 since they correspond to *all* the isomorphism classes of finite
 subgroups of the rotation group! The Platonic solids have their symmetry
 groups, which don't change when we switch n and m. The solution (n,1)
-corresponds to the cyclic group Z~n~: the symmetries of a regular $n$-gon,
+corresponds to the cyclic group Z_n: the symmetries of a regular $n$-gon,
 where you're not allowed to flip it over. The solution (n,2)
-corresponds to the dihedral group D~n~: the symmetries of a regular
+corresponds to the dihedral group D_n: the symmetries of a regular
 n-gon where you *are* allowed to flip it over.
 
-In some weird sense, maybe we should think of Z~n~ and D~n~ as the
+In some weird sense, maybe we should think of Z_n and D_n as the
 symmetry groups of Platonic solids with only 1 or 2 faces. I'll leave
 you to ponder the Platonic solids with only 1 or 2 vertices. If you get
 stuck, look up the word "hosohedron"!
@@ -549,16 +549,16 @@ more. How are these constrained by the fact that M is complex?
 Unfortunately, to describe the answer - even a little teeny part of the
 answer - I need to turn up the math level a notch.
 
-For starters we can consider the fundamental group π_1(M). But this is
+For starters we can consider the fundamental group \pi _1(M). But this is
 hard to relate to differential geometry, so we will immediately water it
 down by picking an algebraic group G and looking at homomorphisms of
-π_1(M) into G. These are basically the same thing as flat G-bundles
+\pi _1(M) into G. These are basically the same thing as flat $G$-bundles
 over M, so it's easier to see how M being a complex manifold affects
 things. We can even be sneaky and study this for all G at once by
 forming a group Π_1(M) called the "proalgebraic completion" of
-π_1(M). This is a proalgebraic group - an inverse limit of algebraic
-groups - which contains π_1(M) and has the property that any
-homomorphism from π_1(M) into an algebraic group G extends uniquely to
+\pi _1(M). This is a proalgebraic group - an inverse limit of algebraic
+groups - which contains \pi _1(M) and has the property that any
+homomorphism from \pi _1(M) into an algebraic group G extends uniquely to
 a proalgebraic group homomorphism from Π_1(M) to G.
 
 It's nice to ask what extra structure Π_1(M) gets when M is a complex

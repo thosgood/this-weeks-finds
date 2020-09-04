@@ -464,7 +464,7 @@ You'll also see that around 1655, Wallis came up with his wonderful
 formula:
 
            2 4 4 6 6 8 8 
-    π/4 = - - - - - - - ...
+    \pi /4 = - - - - - - - ...
            3 3 5 5 7 7 9 
 
 by relating Pascal's triangle to the integral for the area of a
@@ -472,19 +472,19 @@ quarter-circle! His method was ingenious and daring: it consisted of
 taking an integral formula for binomial coefficients, extrapolating it
 to guess that
 
-    4/π = (1 choose 1/2)
+    4/\pi  = (1 choose 1/2)
 
 and then using properties of Pascal's triangle to express the
 right-hand side as an infinite product! One reason I like this is that I
-want to categorify the number π. Let me explain....
+want to categorify the number \pi . Let me explain....
 
 Jim Dolan and I have a way to assign non-integral cardinalities to
 groupoids (see ["Week 147"](#week147)). The cardinality of the
 groupoid of finite sets is e, and this actually explains lots of things
 about e once you understand it. So, I'm always on the lookout for a
-really nice groupoid whose cardinality is related to π. It's easy to
+really nice groupoid whose cardinality is related to \pi . It's easy to
 find groupoids that do the job; the hard part is finding one that does
-so in an enlightening way. Of course π is a subtler number than e, so
+so in an enlightening way. Of course \pi  is a subtler number than e, so
 this may be hard.
 
 The philosopher David Corfield has gotten interested in this challenge.
@@ -496,12 +496,12 @@ generating function was
                      2.3        2.4.5        2.4.6.7
 
 and evaluating this at the 1-element set to get a groupoid whose
-cardinality is π/4. (If this is utterly mystifying, see
+cardinality is \pi /4. (If this is utterly mystifying, see
 ["Week 185"](#week185) and the references there.) I've discussed
 this with him, and I also talked about it with my friend the
 combinatorist Bill Schmitt, and we made a little progress, but not
 enough. So, right now I like the idea of going back to Wallis' original
-formula for π, and seeing how it relates to Pascal's triangle, and
+formula for \pi , and seeing how it relates to Pascal's triangle, and
 seeing if I can get anywhere with that!
 
 Embarrassingly, I don't know how the formula for arcsin(1) is related

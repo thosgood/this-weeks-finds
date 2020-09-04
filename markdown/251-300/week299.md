@@ -189,19 +189,19 @@ which we draw just like deletion, except upside-down:
 
 In math we call these four operators the "multiplication":
 
-m: H \otimes H \to H
+m\colon  H \otimes H \to  H
 
 the "unit":
 
-i: C \to H
+i\colon  C \to  H
 
 the "comultiplication":
 
-Δ: H \to H \otimes H
+Δ\colon  H \to  H \otimes H
 
 and the "counit":
 
-e: H \to C
+e\colon  H \to  C
 
 And we can summarize all the rules these operators obey by saying that H
 is a "special commutative dagger-Frobenius algebra". That's a
@@ -777,10 +777,10 @@ The idea is that A is a lot like O, since we get elements of the free
 O-algebra on one generator by hitting that generator with operations in
 O. More precisely, we have
 
-A = \oplus  O~n~/S~n~
+A = \oplus  O_n/S_n
 
-Here O~n~ is the space of $n$-ary operations in O, which is acted on by
-the permutation group S~n~. So, we can draw an element of A like this:
+Here O_n is the space of $n$-ary operations in O, which is acted on by
+the permutation group S_n. So, we can draw an element of A like this:
 
                        o   o   o
                         \  |  /
@@ -805,7 +805,7 @@ multiplication on A.
 A is the free O-algebra on one generator, say x. So, for any element a
 in A, there's a unique O-algebra endomorphism
 
-f(a): A \to A
+f(a)\colon  A \to  A
 
 sending x to a. Note that f(x) is the identity. By the general
 philosophy that "an infinitesimal endomorphism is a derivation", the
@@ -854,11 +854,11 @@ I've told you that the free pre-Lie algebra on one generator has a
 basis given by rooted trees. And I've told you a general fact: the free
 O-algebra on one generator is
 
-\oplus  O~n~/S~n~
+\oplus  O_n/S_n
 
-So, taking O = PL, it should come as no surprise that PL~n~, the space
+So, taking O = PL, it should come as no surprise that PL_n, the space
 of $n$-ary operations in PL, has a basis given by rooted trees with n
-vertices *labelled by numbers 1 through n*. Modding out by S~n~ just
+vertices *labelled by numbers 1 through n*. Modding out by S_n just
 gets rid of those labels!
 
 But how do you compose operations in PL?

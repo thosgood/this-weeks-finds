@@ -138,7 +138,7 @@ this attaching map:
 (x,y) \to (y,-x+2y)
 
 where x and y are the obvious coordinates on the torus, numbers between
-0 and 2π, and we do the arithmetic mod 2π. We now have a new 3-manifold
+0 and 2\pi , and we do the arithmetic mod 2\pi . We now have a new 3-manifold
 without boundary... and this is the Poincare homology sphere.
 
 We see here a strange and indirect connection between E8 and the
@@ -298,7 +298,7 @@ homology sphere; now you know its intersection form.
 Anyway, what I find exciting is that all this stuff generalizes to
 higher dimensions if we restrict attention to manifolds that have
 trivial homotopy groups up to a certain point! For example, it works for
-compact oriented smooth 7-manifolds that have trivial π_1 and π_2. Any
+compact oriented smooth 7-manifolds that have trivial \pi _1 and \pi _2. Any
 such manifold can be obtained by doing surgery on some framed 3-spheres
 embedded in S^7. Just as 1-spheres can link in 3d space since 1+1 is
 one less than 3, 3-spheres can link in 7d space since 3+3 is one less

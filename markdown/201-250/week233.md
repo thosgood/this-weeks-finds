@@ -312,7 +312,7 @@ short exact sequences:
 
         1 ----> Z ---> \mathrm{SL}(2,R)~ ---> \mathrm{SL}(2,R) ----> 1
 
-Here \mathrm{SL}(2,R)^\~^ is the universal cover of \mathrm{SL}(2,R). Since π_1(\mathrm{SL}(2,R))
+Here \mathrm{SL}(2,R)^\~^ is the universal cover of \mathrm{SL}(2,R). Since \pi _1(\mathrm{SL}(2,R))
 = Z, this is a Z-fold cover. You can describe this cover explicitly
 using the Maslov index, which is a formula that actually computes an
 integer for any loop in \mathrm{SL}(2,R), or indeed any symplectic group.
@@ -320,7 +320,7 @@ integer for any loop in \mathrm{SL}(2,R), or indeed any symplectic group.
 But anyway, fiddling around with this diagram and the long exact
 sequence of homotopy groups for a fibration, you can show that indeed:
 
-π_1(\mathrm{SL}(2,R)/\mathrm{SL}(2,\mathbb{Z})) = B_3.
+\pi _1(\mathrm{SL}(2,R)/\mathrm{SL}(2,\mathbb{Z})) = B_3.
 
 This also follows from the fact that \mathrm{SL}(2,R)/\mathrm{SL}(2,\mathbb{Z}) looks like S^3
 minus a trefoil.
@@ -492,7 +492,7 @@ Swiatoslaw Gal writes:
 >
 > Looking for
 >
-> f: \mathrm{GL}(2,R)/\mathrm{SL}(2,\mathbb{Z}) \to C^2 - {x^2=y^3}
+> f\colon  \mathrm{GL}(2,R)/\mathrm{SL}(2,\mathbb{Z}) \to  C^2 - {x^2=y^3}
 >
 > (there is an obvious action of R+ on both sides:
 >

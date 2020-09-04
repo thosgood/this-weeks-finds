@@ -83,14 +83,14 @@ numbers were invented for!
 I explained this using the "parable of the shepherd" in
 ["Week 121"](#week121), so I won't run through that spiel again.
 Instead, I'll just remind you of the basic facts: there's a category
-FinSet whose objects are finite sets and whose morphisms are functions.
+\mathsf{Fin\mathsf{Set}} whose objects are finite sets and whose morphisms are functions.
 We can "decategorify" any category by forming the set of isomorphism
-classes of objects. When we do this to FinSet we get the set of natural
+classes of objects. When we do this to \mathsf{Fin\mathsf{Set}} we get the set of natural
 numbers, N. So given any finite set S, its isomorphism class |S| is
 just a natural number - its cardinality!
 
 Via this trick the natural numbers inherit all their basic operations
-from corresponding operations in FinSet. For example, given two finite
+from corresponding operations in \mathsf{Fin\mathsf{Set}}. For example, given two finite
 sets S and T we can form their disjoint union S + T and their Cartesian
 product, and these operations give birth to addition and multiplication
 of natural numbers, via these formulas:
@@ -102,7 +102,7 @@ of natural numbers, via these formulas:
 Now the advantage of this rather esoteric view of basic arithmetic is
 that it suggests vast generalizations which unify all sorts of seemingly
 disparate stuff. For example, we can play this "decategorification"
-game to categories other than FinSet. For example, we can do it to the
+game to categories other than \mathsf{Fin\mathsf{Set}}. For example, we can do it to the
 category Vect whose objects are vector spaces and whose morphisms are
 linear functions - and what do we get? The set N again! But this time we
 don't call the isomorphism class of a vector space its "cardinality"
@@ -159,10 +159,10 @@ set! Decategorifying and then throwing in additive inverses, we get
 something called the "Burnside ring" of G.
 
 In fact, the last two examples are special cases of something more
-general: we can start with the category hom(G,C) where the objects are
+general: we can start with the category \operatorname{Hom}(G,C) where the objects are
 actions of G on objects in some category C! Different choices of C give
 different views of the group G, and different structures on C will give
-us a group, or a rig, when we decategorify hom(G,C). I am tempted to
+us a group, or a rig, when we decategorify \operatorname{Hom}(G,C). I am tempted to
 launch into a detailed disquisition on how this works, but I fear such
 generality will exhaust the patience of all but the true lovers of
 abstraction - who can figure it out for themselves anyway! So let me

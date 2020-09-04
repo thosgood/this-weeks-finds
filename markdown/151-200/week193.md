@@ -102,24 +102,24 @@ description.
 A more user-friendly description is this. In any dimension we can make a
 "checkerboard" with alternating red and black hypercubes, and we get a
 lattice by taking the centers of all the red ones. In n dimensions this
-is called the D~n~ lattice. We can pack spheres by centering one at each
+is called the D_n lattice. We can pack spheres by centering one at each
 point of this lattice and making them just big enough so they touch.
 There will of course be some space left over. But when we get up to
 dimension 8, there's enough room left over so we can slip another
 identical array of spheres in the gaps between the ones we've got! This
 gives the E~8~ lattice.
 
-We can translate this into formulas without too much work. The D~n~
+We can translate this into formulas without too much work. The D_n
 lattice consists of all $n$-tuples of integers that sum to an even
 integer: requiring that they sum to an even integer picks out the center
 of every other hypercube in our checkerboard. Then, to get E~8~, we take
 the union of two copies of the D~8~ lattice: the original one and
 another one shifted by (1/2, ..., 1/2).
 
-(Actually this "doubled D~n~" is interesting in any dimension, and
-it's called D~n~^+^. In 3 dimensions this is how carbon atoms are
+(Actually this "doubled D_n" is interesting in any dimension, and
+it's called D_n^+^. In 3 dimensions this is how carbon atoms are
 arranged in a diamond! In any dimension, the volume of the unit cell of
-D~n~^+^ is 1, so we can say it's "unimodular". But D~n~^+^ is only a
+D_n^+^ is 1, so we can say it's "unimodular". But D_n^+^ is only a
 lattice in even dimensions. In dimensions that are multiples of 4, it's
 an "integral" lattice, meaning that the dot product of any two vectors
 in the lattice is an integer. And in dimensions that are multiples of 8,

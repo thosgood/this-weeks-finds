@@ -301,7 +301,7 @@ By the way we constructed it, the Maurer-Cartan form is
 "left-invariant", meaning it doesn't change when you translate it
 using maps like this:
 
-    Lg: G \to G
+    Lg\colon  G \to  G
         x \mapsto gx
 
 that is, left multiplication by any element g of G. So, how can we

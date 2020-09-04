@@ -252,7 +252,7 @@ A good name for T would be the "fake tangent bundle", but physicists
 usually call its fiber the "internal space". The trick is then to
 describe a Lorentzian metric on M by means of a vector bundle map
 
-    e: TM \to T  
+    e\colon  TM \to  T  
 
 which we call a "coframe field". We can use this to pull the metric on
 T back to the tangent bundle. If e is an isomorphism, this gives a
@@ -361,7 +361,7 @@ The translation group part is a T-valued 2-form:
 
     t = de + A ^ e.
 
-Using e: TM \to T we can pull all this stuff back to the tangent bundle,
+Using e\colon  TM \to  T we can pull all this stuff back to the tangent bundle,
 where its meaning becomes evident. The metric on T pulls back to a
 metric on the tangent bundle, A pulls back to a metric-compatible
 connection on the tangent bundle, F pulls back to the curvature of this
@@ -490,7 +490,7 @@ category of groups, where the objects are groups and the morphisms are
 homomorphisms. But there is also a 2-category lurking around here!
 Between any morphisms
 
-    f,f': G \to H
+    f,f'\colon  G \to  H
 
 we can define a 2-morphism
 

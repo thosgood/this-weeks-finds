@@ -46,7 +46,7 @@ networks", and area is quantized. Each edge of a spin network is
 labelled by some spin j = 0, 1/2, 1, ..., and when a spin-j edge
 punctures a surface, it gives that surface an area equal to
 
-                    8 π γ sqrt(j(j+1))
+                    8 \pi  γ sqrt(j(j+1))
 
 times the Planck length squared. Here γ is a constant called the
 "Immirzi parameter" - see ["Week 112"](#week112) and
