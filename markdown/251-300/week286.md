@@ -365,7 +365,7 @@ To learn more, I urge you to grab this and take a look:
 Interactions Between Homotopy Theory and Algebra, ed. Luchezar L.
 Avramov, Contemp. Math 436, AMS, Providence, Rhode Island, 2007. Also
 available as
-[arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626).
+[`arXiv:math.AT/0604626`](http://arxiv.org/abs/math.AT/0604626).
 
 For even more detail, I recommend:
 

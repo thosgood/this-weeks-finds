@@ -78,7 +78,7 @@ paper about the Red Rectangle:
 3\) F. Markwick-Kemper, J. D. Green, E. Peeters, Spitzer detections of
 new dust components in the outflow of the Red Rectangle, Astrophys. J.
 628 (2005) L119-L122. Also available as
-[arXiv:astro-ph/0506473](http://xxx.lanl.gov/abs/astro-ph/0506473).
+[`arXiv:astro-ph/0506473`](http://xxx.lanl.gov/abs/astro-ph/0506473).
 
 They used the Spitzer Space Telescope - an infrared telescope on a
 satellite in earth orbit - to find evidence of magnesium and iron oxides
@@ -95,7 +95,7 @@ Markwick-Kemper and coauthors have also tackled that question:
 4\) F. Markwick-Kemper, S. C. Gallagher, D. C. Hines and J. Bouwman,
 Dust in the wind: crystalline silicates, corundum and periclase in PG
 2112+059, Astrophys. J. 668 (2007), L107-L110. Also available as
-[arXiv:0710.2225](http://xxx.lanl.gov/abs/0710.2225).
+[`arXiv:0710.2225`](http://xxx.lanl.gov/abs/0710.2225).
 
 They used spectroscopy to identify various kinds of dust in a distant
 galaxy: a magnesium silicate that geologists call "forsterite", a
@@ -299,7 +299,7 @@ introduction:
 
 11\) Adam S. Sikora, Analogies between group actions on 3-manifolds and
 number fields, available as
-[arXiv:math/0107210](http://arxiv.org/abs/math/0107210).
+[`arXiv:math/0107210`](http://arxiv.org/abs/math/0107210).
 
 I need to study it. These might also be good - I haven't looked at them
 yet:
@@ -377,16 +377,16 @@ Anyway, he and Döring have just come out with a series of papers:
 
 14\) Andreas Döring and Christopher Isham, A topos foundation for
 theories of physics: I. Formal languages for physics, available as
-[arXiv:quant-ph/0703060](http://xxx.lanl.gov/abs/quant-ph/0703060).
+[`arXiv:quant-ph/0703060`](http://xxx.lanl.gov/abs/quant-ph/0703060).
 
 II. Daseinisation and the liberation of quantum theory, available as
-[arXiv:quant-ph/0703062](http://xxx.lanl.gov/abs/quant-ph/0703062).
+[`arXiv:quant-ph/0703062`](http://xxx.lanl.gov/abs/quant-ph/0703062).
 
 III. The representation of physical quantities with arrows, available
-as [arXiv:quant-ph/0703064](http://xxx.lanl.gov/abs/quant-ph/0703064).
+as [`arXiv:quant-ph/0703064`](http://xxx.lanl.gov/abs/quant-ph/0703064).
 
 IV. Categories of systems, available as
-[arXiv:quant-ph/0703066](http://xxx.lanl.gov/abs/quant-ph/0703066).
+[`arXiv:quant-ph/0703066`](http://xxx.lanl.gov/abs/quant-ph/0703066).
 
 Though they probably don't think of it this way, you can think of their
 work as making precise Bohr's ideas on seeing the quantum world through
@@ -449,7 +449,7 @@ is neither true nor false! It's just not defined.
 Their work has inspired this very nice paper:
 
 15\) Chris Heunen and Bas Spitters, A topos for algebraic quantum
-theory, available as [arXiv:0709.4364.](http://arxiv.org/abs/0709.4364)
+theory, available as [`arXiv:0709.4364.`](http://arxiv.org/abs/0709.4364)
 
 so let me explain that too.
 
@@ -765,7 +765,7 @@ That's already mindbogglingly beautiful. According to Eugenia, it's
 practically the last sentence in Street's paper. But in her new work:
 
 21\) Eugenia Cheng, Iterated distributive laws, available as
-[arXiv:0710.1120](http://arxiv.org/abs/0710.1120).
+[`arXiv:0710.1120`](http://arxiv.org/abs/0710.1120).
 
 she goes a bit further: she considers monads in Mnd(Mnd(C)), and so on.
 Here's the punchline, at least for today: she shows that a monad in
@@ -865,22 +865,22 @@ Jordan Ellenberg sent me the following comments about knots and primes:
 >     model of "random 3-manifold" and shows that the behavior of the
 >     first homology of a random 3-manifold mod p is exactly the same as
 >     the *predicted* behavior of the mod p class group of a random
->     number field under the Cohen\--Lenstra heuristics. In other words,
+>     number field under the Cohen--Lenstra heuristics. In other words,
 >     you should not think of Spec Z or Spec Z\[1/N\] as being anything
->     like a *particular* 3-manifold \-- better to think of the class of
+>     like a *particular* 3-manifold -- better to think of the class of
 >     3-manifolds as being like the class of number fields.
 
 Here's one of Deninger's papers:
 
 25\) Christopher Deninger, Number theory and dynamical systems on
 foliated spaces, available as
-[arXiv:math/0204110](http://arxiv.org/abs/math/0204110).
+[`arXiv:math/0204110`](http://arxiv.org/abs/math/0204110).
 
 And here's the paper by Dunfield and Thurston:
 
 26\) Nathan M. Dunfield and William P. Thurston, Finite covers of random
 3-manifolds, available as
-[arXiv:math/0502567](http://arxiv.org/abs/math/0502567).
+[`arXiv:math/0502567`](http://arxiv.org/abs/math/0502567).
 
 On the *n*-Category Café, a number theorist named James corrected some
 serious mistakes in the original version of this Week's Finds. Here are

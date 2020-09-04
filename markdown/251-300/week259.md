@@ -85,7 +85,7 @@ exploded in a "thermonuclear burst" after accreting a bunch of dust.
 deepening enigma, to appear in Asymmetrical Planetary Nebulae III, eds.
 M. Meixner, J. Kastner, N. Soker, and B. Balick, ASP Conference Series.
 Available as
-[arXiv:astro-ph/0309677](http://arXiv.org/abs/astro-ph/0309677).
+[`arXiv:astro-ph/0309677`](http://arXiv.org/abs/astro-ph/0309677).
 
 I hope to say more about planetary nebulae in future Weeks, mainly
 because they're so beautiful.
@@ -373,7 +373,7 @@ Math. Sci. 81 (2006), 180-184.
 
 9\) Anton Deitmar, Remarks on zeta functions and K-theory over F_1,
 available as
-[arXiv:math/0605429](http://arXiv.org/abs/arXiv:math/0605429).
+[`arXiv:math/0605429`](http://arXiv.org/abs/arXiv:math/0605429).
 
 But instead of talking about zeta functions, I'd like to talk about two
 approaches to giving a formal definition of the field with one element.
@@ -386,10 +386,10 @@ of "exotic fields".
 For Deitmar's approach, try these:
 
 10\) Anton Deitmar, Schemes over F_1, available as
-[arXiv:math/0404185](http://arXiv.org/abs/arXiv:math/0404185).
+[`arXiv:math/0404185`](http://arXiv.org/abs/arXiv:math/0404185).
 
 F_1-schemes and toric varieties, available as
-[arXiv:math/0608179](http://arXiv.org/abs/arXiv:math/0608179).
+[`arXiv:math/0608179`](http://arXiv.org/abs/arXiv:math/0608179).
 
 The usual approach to fields treats fields as specially nice commutative
 rings. A "[commutative
@@ -563,7 +563,7 @@ Okay, that's a taste of Deitmar's approach. For Durov's approach, try
 this mammoth 568-page paper:
 
 13\) Nikolai Durov, New approach to Arakelov geometry, available as
-[arXiv:0704.2030](http://arxiv.org/abs/0704.2030).
+[`arXiv:0704.2030`](http://arxiv.org/abs/0704.2030).
 
 or read our discussions of it at the *n*-Category Café, starting here:
 
@@ -646,7 +646,7 @@ just need to read their papers more carefully and think about them more.
 Finally, here's yet another approach to the field with one element:
 
 15\) Bertrand Toen and M. Vaquie, Under Spec(Z), available as
-[arXiv:math/0509684](http://arxiv.org/abs/math/0509684).
+[`arXiv:math/0509684`](http://arxiv.org/abs/math/0509684).
 
 16\) Shai Haran, Non-additive geometry, Composito Mathematica 143
 (2007), 613-638.

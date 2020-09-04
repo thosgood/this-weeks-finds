@@ -37,7 +37,7 @@ These force chains look like bolts of lightning:
 
 1\) Brian Utter and R. P. Behringer, Self-diffusion in dense granular
 shear flows, Physical Review E 69, 031308 (2004). Also available as
-[arXiv:cond-mat/0402669](http://arXiv.org/abs/cond-mat/0402669).
+[`arXiv:cond-mat/0402669`](http://arXiv.org/abs/cond-mat/0402669).
 
 I wonder if conformal field theory could help us understand these
 simplified 2-dimensional models of granular flow, at least near some
@@ -111,7 +111,7 @@ in space:
 3\) Uma P. Vijh, Adolf N. Witt, and Karl D. Gordon, Small polycyclic
 aromatic hydrocarbons in the Red Rectangle, The Astrophysical Journal,
 619 (2005) 368-378. Also available as
-[arXiv:astro-ph/0410130](http://arXiv.org/abs/astro-ph/0410130).
+[`arXiv:astro-ph/0410130`](http://arXiv.org/abs/astro-ph/0410130).
 
 By now, lots of organic molecules have been found in interstellar or
 circumstellar space. There's a whole "ecology" of organic chemicals
@@ -150,7 +150,7 @@ required to simulate the motion of this dust:
 
 7\) A. T. Deller and S. T. Maddison, Numerical modelling of dusty debris
 disks, Astrophys. J. 625 (2005), 398-413. Also available as
-[arXiv:astro-ph/0502135](http://xxx.lanl.gov/abs/astro-ph/0502135)
+[`arXiv:astro-ph/0502135`](http://xxx.lanl.gov/abs/astro-ph/0502135)
 
 Okay... now for a bit about Hochschild cohomology. I want to outline a
 conceptual proof of Deligne's conjecture that the cochain complex for
@@ -159,7 +159,7 @@ are a bunch of proofs of this by now. Here's a great introduction to
 the story:
 
 8\) Maxim Kontsevich, Operads and motives in deformation quantization,
-available as [arXiv:math/9904055](http://arXiv.org/abs/math/9904055).
+available as [`arXiv:math/9904055`](http://arXiv.org/abs/math/9904055).
 
 I was inspired to seek a more conceptual proof by some conversations I
 had with Simon Willerton in Sheffield this summer, and this paper of
@@ -167,14 +167,14 @@ his:
 
 9\) Andrei Caldararu and Simon Willerton, The Mukai pairing, I: a
 categorical approach, available as
-[arXiv:0707.2052](http://arXiv.org/abs/0707.2052).
+[`arXiv:0707.2052`](http://arXiv.org/abs/0707.2052).
 
 But, while trying to write up a sketch of this more conceptual proof, I
 discovered that it had already been worked out:
 
 10\) Po Hu, Igor Kriz and Alexander A. Voronov, On Kontsevich's
 Hochschild cohomology conjecture, available at
-[arXiv:math.AT/0309369](http://arXiv.org/abs/math.AT/0309369).
+[`arXiv:math.AT/0309369`](http://arXiv.org/abs/math.AT/0309369).
 
 This was a bit of a disappointment - but also a relief. It means I
 don't need to worry about the technical details: you can just look them
@@ -471,7 +471,7 @@ be an A~\infty~-algebra. Here's a reference:
 
 12\) D.-M. Lu, J. H. Palmieri, Q.-S. Wu and J. J. Zhang, A~\infty~-structure
 on Ext-algebras, available as
-[arXiv:math.KT/0606144](http://arXiv.org/abs/math.KT/0606144).
+[`arXiv:math.KT/0606144`](http://arXiv.org/abs/math.KT/0606144).
 
 I hope they're secretly getting this A~\infty~-structure on H(HOM(X,X)) from
 an A~\infty~-structure on HOM(X,X). They don't come out and say this is what
@@ -595,9 +595,9 @@ Modulo some typographical changes, Michael Batanin wrote:
 > proof I know is provided by Tamarkin in
 >
 > 14\) Dmitry Tamarkin, What do DG categories form?, available as
-> [arXiv:math.CT/0606553](http://arXiv.org/abs/math.CT/0606553).
+> [`arXiv:math.CT/0606553`](http://arXiv.org/abs/math.CT/0606553).
 >
-> And it uses my up to homotopy Eckmann\--Hilton argument. This argument
+> And it uses my up to homotopy Eckmann--Hilton argument. This argument
 > is based on a techniques of compactification of configuration spaces
 > and first was proposed by Getzler and Jones. I think I already wrote
 > about it in a post to $n$-category cafe where Dolgushev's work was
@@ -643,7 +643,7 @@ and Jones:
 
 18\) Ezra Getzler and J. D. S. Jones, Operads, homotopy algebra and
 iterated integrals for double loop spaces, available as
-[arXiv:hep-th/9403055](http://arXiv.org/abs/hep-th/9403055).
+[`arXiv:hep-th/9403055`](http://arXiv.org/abs/hep-th/9403055).
 
 It's very interesting, but it was never published, perhaps because of
 some subtle flaws caught by Tamarkin.
@@ -660,7 +660,7 @@ Johansson wrote:
 > LPWZh try to do is to take the survey articles by Bernhard Keller:
 >
 > 19\) Bernhard Keller, Introduction to A~\infty~-algebras and modules,
-> available as [arXiv:math/9910179](http://arxiv.org/abs/math/9910179).
+> available as [`arXiv:math/9910179`](http://arxiv.org/abs/math/9910179).
 >
 > A brief introduction to A~\infty~-algebras, notes from a talk at the
 > workshop on Derived Categories, Quivers and Strings, Edinburgh, August
@@ -672,7 +672,7 @@ Johansson wrote:
 > `http://www.institut.math.jussieu.fr/~keller/publ/index.html`
 >
 > A~\infty~-algebras, modules and functors, available as
-> [arXiv:math/0510508](http://arxiv.org/abs/math/0510508).
+> [`arXiv:math/0510508`](http://arxiv.org/abs/math/0510508).
 >
 > outlining the use of A~\infty~-algebras in representation theory, and
 > widening the scope of their proven usability while actually proving

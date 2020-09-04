@@ -364,15 +364,15 @@ But Winston Fairbairn has been thinking about this a lot:
 
 17\) Winston J. Fairbairn and Alejandro Perez, Extended matter coupled
 to BF theory, Phys. Rev. D78:024013, 2008. Also available as
-[arXiv:0709.4235](http://arxiv.org/abs/0709.4235).
+[`arXiv:0709.4235`](http://arxiv.org/abs/0709.4235).
 
 18\) Winston J. Fairbairn, On gravitational defects, particles and
 strings, JHEP 0809:126, 2008. Also available as
-[arXiv:0807.3188](http://arxiv.org/abs/0807.3188).
+[`arXiv:0807.3188`](http://arxiv.org/abs/0807.3188).
 
 19\) Winston J. Fairbairn, Karim Noui and Francesco Sardelli, Canonical
 analysis of algebraic string actions, available as
-[arXiv:0908.0953](http://arxiv.org/abs/0908.0953)
+[`arXiv:0908.0953`](http://arxiv.org/abs/0908.0953)
 
 And it turns out that if we impose the constraints on BF theory that
 turn it into general relativity, we obtain the usual Nambu-Goto string,
@@ -393,7 +393,7 @@ Freidel. You can get a feel for this work from this paper:
 20\) Aristide Baratin, Derek K. Wise, 2-Group representations for spin
 foams, to appear in proceedings of the XXV Max Born Symposium: The
 Planck Scale, Wroclaw, Poland. Also available as
-[arXiv:0910.1542](http://arxiv.org/abs/0910.1542).
+[`arXiv:0910.1542`](http://arxiv.org/abs/0910.1542).
 
 In ["Week 235"](#week235) I mentioned an amazing paper by Baratin
 and Freidel called "Hidden quantum gravity in 4d Feynman diagrams:

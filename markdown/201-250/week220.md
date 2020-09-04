@@ -793,7 +793,7 @@ what I wrote, roughly:
 > started twisting like this, we could equally have used little
 > 2-cubes.)
 >
-> More precisely, Getzler showed that a Batalin\--Vilkovisky algebra is
+> More precisely, Getzler showed that a Batalin--Vilkovisky algebra is
 > the same as an algebra of the homology of the *framed* little discs
 > operad.
 >

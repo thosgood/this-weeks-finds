@@ -220,7 +220,7 @@ quantum mechanics:
 
 2\) G. L. Litvinov, The Maslov dequantization, idempotent and tropical
 mathematics: a brief introduction, available as
-[arXiv:math/0507014](http://arXiv.org/abs/arXiv:math/0507014).
+[`arXiv:math/0507014`](http://arXiv.org/abs/arXiv:math/0507014).
 
 3\) John Baez, Spans in quantum theory,
 `http://math.ucr.edu/home/baez/span/`
@@ -386,7 +386,7 @@ categories. Here are the fundamental references:
 protocols, in Proceedings of the 19th IEEE conference on Logic in
 Computer Science (LICS04), IEEE Computer Science Press (2004). Also
 available at
-[arXiv:quant-ph/0402130](http://arXiv.org/abs/quant-ph/0402130).
+[`arXiv:quant-ph/0402130`](http://arXiv.org/abs/quant-ph/0402130).
 
 9\) Peter Selinger, Dagger compact closed categories and completely
 positive maps, in Proceedings of the 3rd International Workshop on
@@ -399,7 +399,7 @@ orthonormal basis:
 
 10\) Bob Coecke, Dusko Pavlovic, and Jamie Vicary, A new description of
 orthogonal bases, available as
-[arXiv:0810.0812](http://arxiv.org/abs/0810.0812).
+[`arXiv:0810.0812`](http://arxiv.org/abs/0810.0812).
 
 You can use them to explain the traditional approach to quantum logic in
 terms of orthomodular lattices:
@@ -412,7 +412,7 @@ You can even use them to motivate the appearance of complex numbers in
 quantum mechanics:
 
 12\) Jamie Vicary, Completeness and the complex numbers, available as
-[arXiv:0807.2927](http://arxiv.org/abs/0807.2927).
+[`arXiv:0807.2927`](http://arxiv.org/abs/0807.2927).
 
 So, if there is a compact dagger-category of electrical circuits, we
 should find it and study it. I've decided that category theory should
@@ -512,7 +512,7 @@ We're studying a special case of those, namely the linear case. If you
 want to learn more, try:
 
 14\) Alan Weinstein, Symplectic categories, available as
-[arXiv:0911.4133](http://arxiv.org/abs/0911.4133).
+[`arXiv:0911.4133`](http://arxiv.org/abs/0911.4133).
 
 Weinstein writes:
 

@@ -479,7 +479,7 @@ To add to the fun, my friend Eugene Lerman has just written a very nice
 survey paper on orbifolds:
 
 9\) Eugene Lerman, Orbifolds as stacks?, available as
-[arXiv:0806.4160](http://arxiv.org/abs/0806.4160).
+[`arXiv:0806.4160`](http://arxiv.org/abs/0806.4160).
 
 This describes some deeper ways to think about orbifolds. For example,
 when we form an orbifold by taking the plane and modding out by a
@@ -516,7 +516,7 @@ or separately as `http://www.uni-essen.de/~hm0002/stacks.pdf`
 
 12\) Kai Behrend and Ping Xu, Differentiable stacks and gerbes,
 available as
-[arXiv:math/0605694](http://arXiv.org/abs/arXiv:math/0605694).
+[`arXiv:math/0605694`](http://arXiv.org/abs/arXiv:math/0605694).
 
 Now, besides the Alhambra, Granada also has a wonderful Department of
 Algebra. Yes - a whole department, just for algebra! And this department
@@ -751,10 +751,10 @@ isometry 2-groups that are equivalent to mere groups.
 For details try:
 
 19\) Richard Hepworth, The age grading and the Chen-Ruan cup product,
-available as [arXiv:0706.4326](http://arxiv.org/abs/0706.4326).
+available as [`arXiv:0706.4326`](http://arxiv.org/abs/0706.4326).
 
 Richard Hepworth, Morse inequalities for orbifold cohomology, available
-as [arXiv:0712.2432](http://arxiv.org/abs/0712.2432).
+as [`arXiv:0712.2432`](http://arxiv.org/abs/0712.2432).
 
 According to Hepworth, the first paper "contains the little fact that
 implies that the automorphism 2-group of an effective orbifold is

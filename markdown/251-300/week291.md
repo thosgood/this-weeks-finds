@@ -648,7 +648,7 @@ What's in this 3-port? Just wires, but now arranged a different way:
      o  |   |   |  o
      o  |   |   |  o
      o   \   \ /   o
-     o    \---\    o
+     o    ---\    o
      o   / \   \   o
      o  |   |   |  o
      o  |   |   |  o
@@ -665,7 +665,7 @@ See how it works?
      o  |   |   |  o          |       |
      o  |   |   |  o          |       |
      o   \   \  /  o         ---     ---
-     o    \---\    o        |   |   |   |
+     o    ---\    o        |   |   |   |
      o   / \   \   o         ---     ---
      o  |   |   |  o          |       |
      o  |   |   |  o          |       |

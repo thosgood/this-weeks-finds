@@ -235,7 +235,7 @@ Westbury later pointed out this related paper:
 13\) Ben Howard, John Millson, Andrew Snowden, Ravi Vakil, A description
 of the outer automorphism of S~6~, and the invariants of six points in
 projective space, available as
-[arXiv:0710.5916](http://arxiv.org/abs/0710.5916).
+[`arXiv:0710.5916`](http://arxiv.org/abs/0710.5916).
 
 I haven't checked to see if the results here imply the claim above.
 

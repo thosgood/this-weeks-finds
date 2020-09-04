@@ -240,7 +240,7 @@ of an oriented d-dimensional manifold M. This is the space LM of all
 maps from a circle into M. In their fundamental paper on the subject:
 
 9\) Moira Chas and Dennis Sullivan, String topology, available as
-[arXiv:math/9911159](http://arXiv.org/abs/arXiv:math/9911159).
+[`arXiv:math/9911159`](http://arXiv.org/abs/arXiv:math/9911159).
 
 Chas and Sullivan showed that the homology groups of LM with degrees
 shifted by d:
@@ -314,14 +314,14 @@ to treat orbifolds as "Lie groupoids" or "stacks". I could say a lot
 more, but instead I'll just refer you to this very readable paper:
 
 11\) Eugene Lerman, Orbifolds as stacks? Available as
-[arXiv:0806.4160](http://arxiv.org/abs/0806.4160).
+[`arXiv:0806.4160`](http://arxiv.org/abs/0806.4160).
 
 It begins by discussing easy approaches, then describes their flaws, and
 so on, leading up to the current state of the art. After this warmup,
 try:
 
 12\) Dorette Pronk and Laura Scull, Translation groupoids and orbifold
-Bredon cohomology, [arXiv:0705.3249](http://arxiv.org/abs/0705.3249).
+Bredon cohomology, [`arXiv:0705.3249`](http://arxiv.org/abs/0705.3249).
 
 Then Anssi Lahtinen of Stanford University spoke about "[The
 Atiyah-Segal completion theorem in twisted
@@ -453,7 +453,7 @@ explaining a paper with the same title:
 
 16\) Søren Galatius and Oscar Randal-Williams, Monoids of moduli spaces
 of manifolds, available as
-[arXiv:0905.2855](http://arxiv.org/abs/0905.2855).
+[`arXiv:0905.2855`](http://arxiv.org/abs/0905.2855).
 
 The goal of their work was to create a title with as many words
 beginning with "M" as possible... no, not really. In fact, it's a
@@ -461,7 +461,7 @@ kind of continuation of this famous paper:
 
 17\) Søren Galatius, Ib Madsen, Ulrike Tillmann, and Michael Weiss, The
 homotopy type of the cobordism category, available as
-[arXiv:math/0605249](http://arxiv.org/abs/math/0605249).
+[`arXiv:math/0605249`](http://arxiv.org/abs/math/0605249).
 
 In item K of ["Week 117"](#week117) I explained how to turn any
 category into a topological space called its "classifying space". This
@@ -651,7 +651,7 @@ to the Jacobi identity:
 
 16\) J. Scott Carter, Alissa Crans, Mohamed Elhamdadi and Masahico
 Saito, Cohomology of categorical self-distributivity, available as
-[arXiv:math/0607417](http://arXiv.org/abs/arXiv:math/0607417).
+[`arXiv:math/0607417`](http://arXiv.org/abs/arXiv:math/0607417).
 
 It's possible to explain this relation a lot more deeply than I just
 did... but anyway, what Alissa did is start *categorifying* this
@@ -703,7 +703,7 @@ how to combine these ideas. For more details, see:
 
 19\) Robin Koytcheff, A homotopy-theoretic view of Bott-Taubes integrals
 and knot spaces, Alg. Geom. Top. 9 (2009), 1467-1501. Also available as
-[arXiv:0810.1785](http://arxiv.org/abs/0810.1785).
+[`arXiv:0810.1785`](http://arxiv.org/abs/0810.1785).
 
 Next, Chris Douglas of U.C. Berkeley gave talk charmingly entitled
 "3-categories for the working mathematician" - unfortunately no video

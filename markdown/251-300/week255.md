@@ -143,18 +143,18 @@ that Chern-Simons theory assigns to a circle:
 
 9\) Daniel S. Freed, The Verlinde algebra is twisted equivariant
 K-theory, available as
-[arXiv:math/0101038](http://arxiv.org/abs/math/0101038).
+[`arXiv:math/0101038`](http://arxiv.org/abs/math/0101038).
 
 Daniel S. Freed, Twisted K-theory and loop groups, available as
-[arXiv:math/0206237](http://arxiv.org/abs/math/0206237).
+[`arXiv:math/0206237`](http://arxiv.org/abs/math/0206237).
 
 Daniel S. Freed, Michael J. Hopkins and Constantin Teleman, Loop groups
 and twisted K-theory II, available as
-[arXiv:math/0511232](http://arxiv.org/abs/math/0511232).
+[`arXiv:math/0511232`](http://arxiv.org/abs/math/0511232).
 
 Daniel S. Freed, Michael J. Hopkins and Constantin Teleman, Twisted
 K-theory and loop group representations, available as
-[arXiv:math/0312155](http://arxiv/abs/math/0312155).
+[`arXiv:math/0312155`](http://arxiv/abs/math/0312155).
 
 In a similar vein, Jacob Lurie talked about his work with Mike Hopkins
 in which they proved a version of the "Baez-Dolan cobordism
@@ -220,7 +220,7 @@ student, he wrote a mammoth tome generalizing topos theory from
 categories to (\infty,1)-categories:
 
 12\) Jacob Lurie, Higher topos theory, available as
-[arXiv:math/0608040](http://arxiv.org/abs/math/0608040).
+[`arXiv:math/0608040`](http://arxiv.org/abs/math/0608040).
 
 I'm sure Freed would suspect him of taking category-enhancing
 substances: his category number is infinite, and this book is 619 pages
@@ -235,7 +235,7 @@ results from this paper:
 
 13\) Soren Galatius, Ib Madsen, Ulrike Tillmann, Michael Weiss, The
 homotopy type of the cobordism category, available as
-[arXiv:math/0605249](http://arxiv.org/abs/math/0605249).
+[`arXiv:math/0605249`](http://arxiv.org/abs/math/0605249).
 
 And, Ulrike Tillmann gave a talk about this paper! It computes the
 "nerve" of the (\infty,1)-category where:
@@ -314,7 +314,7 @@ lashes with a wet noodle and review ["Week 220"](#week220).
 Suitably punished, you can then enjoy this:
 
 14\) Ralph Cohen and Alexander Voronov, Notes on string topology,
-available as [arXiv:math/0503625](http://arxiv.org/abs/math/0503625).
+available as [`arXiv:math/0503625`](http://arxiv.org/abs/math/0503625).
 
 Both PROPs and operads are defined near the beginning here. PROPs and
 operads are gadgets for describing operations with any number of inputs.
@@ -326,7 +326,7 @@ looked before the operadchiks got ahold of it, try the original paper by
 Chas and Sullivan:
 
 15\) Moira Chas and Dennis Sullivan, String topology, available as
-[arXiv:math/9911159](http://arxiv.org/abs/math/9911159).
+[`arXiv:math/9911159`](http://arxiv.org/abs/math/9911159).
 
 Sullivan talked about some recent refinements of string topology which
 deal with the fact that the moduli space of Riemann surfaces has a
@@ -354,7 +354,7 @@ and the string topology of that space, and Morse theory! For more, try
 this:
 
 16\) Ralph Cohen, The Floer homotopy type of the cotangent bundle,
-available as [arXiv:math/0702852](http://arxiv.org/abs/math/0702852).
+available as [`arXiv:math/0702852`](http://arxiv.org/abs/math/0702852).
 
 Next, let me say a bit about Stephan Stolz's talk. He spoke on his work
 with Peter Teichner, which is a very ambitious attempt to bring quantum

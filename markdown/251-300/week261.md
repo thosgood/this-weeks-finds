@@ -578,7 +578,7 @@ If you like braid groups and Dynkin diagrams, Artin-Brieskorn groups are
 irresistible! For a fun modern account, try:
 
 8\) Daniel Allcock, Braid pictures for Artin groups, available as
-[arXiv:math.GT/9907194](http://arxiv.org/abs/math.GT/9907194).
+[`arXiv:math.GT/9907194`](http://arxiv.org/abs/math.GT/9907194).
 
 But I'm digressing! I must return and finish my ode to the number 3. I
 need to say how modular forms get into the game!

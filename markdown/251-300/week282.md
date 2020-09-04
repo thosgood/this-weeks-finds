@@ -1082,7 +1082,7 @@ because the algebra Assoc is the homology of the little 1-cubes operad.
 For higher k, I especially recommend this paper:
 
 9\) Dev Sinha, The homology of the little disks operad, available as
-[arXiv:math/0610236](http://arxiv.org/abs/math/0610236).
+[`arXiv:math/0610236`](http://arxiv.org/abs/math/0610236).
 
 Finally, here are three side remarks that would have been too
 distracting earlier:

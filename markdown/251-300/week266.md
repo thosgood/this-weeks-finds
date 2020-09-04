@@ -371,7 +371,7 @@ topological *2-categories*:
 
 10\) Nils Baas, Marcel Bkstedt and Tore Kro, 2-Categorical K-theories,
 available as
-[arXiv:math/0612549](http://arXiv.org/abs/arXiv:math/0612549).
+[`arXiv:math/0612549`](http://arXiv.org/abs/arXiv:math/0612549).
 
 Just as a group is a category with one object and with all morphisms
 being invertible, a 2-group is a 2-category with one object and all
@@ -398,7 +398,7 @@ their classifying spaces, available at
 14\) Manuel Bullejos, Emilio Faro and Victor Blanco, A full and faithful
 nerve for 2-categories, Applied Categorical Structures 13 (2005),
 223-233. Also available as
-[arXiv:math/0406615](http://arXiv.org/abs/arXiv:math/0406615).
+[`arXiv:math/0406615`](http://arXiv.org/abs/arXiv:math/0406615).
 
 On Monday afternoon, Bruce Bartlett spoke on a geometric way to
 understand representations and "2-representations" of ordinary finite
@@ -457,18 +457,18 @@ and its Ramifications 2 (1993), 113-123.
 
 18\) Timothy Porter and Vladimir Turaev, Formal homotopy quantum field
 theories, I: Formal maps and crossed C-algebras, available as
-[arXiv:math/0512032](http://arXiv.org/abs/arXiv:math/0512032).
+[`arXiv:math/0512032`](http://arXiv.org/abs/arXiv:math/0512032).
 
 Timothy Porter and Vladimir Turaev, Formal homotopy quantum field
 theories, II: Simplicial formal maps, in Categories in Algebra, Geometry
 and Mathematical Physics, eds. A. Davydov et al, Contemp. Math 431, AMS,
 Providence Rhode Island, 2007, 375-403. Also available as
-[arXiv:math/0512034](http://arXiv.org/abs/arXiv:math/0512034).
+[`arXiv:math/0512034`](http://arXiv.org/abs/arXiv:math/0512034).
 
 19\) Joo Faria Martins and Timothy Porter, On Yetter's invariant and an
 extension of the Dijkgraaf-Witten invariant to categorical groups,
 avilable as
-[arXiv:math/0608484](http://arXiv.org/abs/arXiv:math/0608484).
+[`arXiv:math/0608484`](http://arXiv.org/abs/arXiv:math/0608484).
 
 As the last paper explains, we can also think of this TQFT as a field
 theory where the "field" on a spacetime X is a map
@@ -610,7 +610,7 @@ discussed here:
 
 22\) Mathieu Dupont: Catégories abéliennes en dimension 2, Ph.D. Thesis,
 Université Catholique de Louvain, 2008. Available in English as
-[arXiv:0809.1760](http://arxiv.org/abs/0809.1760). Original available at
+[`arXiv:0809.1760`](http://arxiv.org/abs/0809.1760). Original available at
 `http://hdl.handle.net/2078.1/12735`
 
 Mathieu Dupont is defending his dissertation on June 30th. I hope he
@@ -622,7 +622,7 @@ also wants a more explicitly algebraic approach. See for example:
 
 23\) Giuseppe Metere: The ziqqurath of exact sequences of $n$-groupoids,
 Ph.D. Thesis, Universit di Milano, 2008. Also available at
-[arXiv:0802.0800](http://arxiv.org/abs/math/0802.0800).
+[`arXiv:0802.0800`](http://arxiv.org/abs/math/0802.0800).
 
 The relation between 2-groups and topology is made explicit using the
 concept of "fundamental 2-group". Just as every space equipped with a
@@ -717,7 +717,7 @@ between 2-groups, available at
 For more details, you can't beat the original paper:
 
 28\) Behrang Noohi, On weak maps between 2-groups, available as
-[arXiv:math/0506313](http://arxiv.org/abs/math/0506313).
+[`arXiv:math/0506313`](http://arxiv.org/abs/math/0506313).
 
 Also at the *n*-Category Café, Bruce Bartlett discussed Tim Porter's
 talk at the categorical groups workshop:

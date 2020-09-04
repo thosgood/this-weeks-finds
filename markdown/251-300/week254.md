@@ -22,7 +22,7 @@ Standard Model of particle physics?
 For now, I'll start by discussing Witten's latest paper:
 
 2\) Edward Witten, Three-dimensional gravity revisited, available as
-[arXiv:0706.3359](http://arxiv.org/abs/0706.3359).
+[`arXiv:0706.3359`](http://arxiv.org/abs/0706.3359).
 
 This is a bold piece of work, which seeks to relate the entropy of black
 holes in 3d quantum gravity to representations of the Monster group -
@@ -148,10 +148,10 @@ For more details, try these - in rough order of increasing thoroughness:
 
 3\) Terry Gannon, Postcards from the edge, or Snapshots of the theory of
 generalised Moonshine, available as
-[arXiv:math/0109067](http://arxiv.org/abs/math/0109067).
+[`arXiv:math/0109067`](http://arxiv.org/abs/math/0109067).
 
 Terry Gannon, Monstrous Moonshine: the first twenty-five years,
-available as [arXiv:math/0402345](http://arxiv.org/abs/math/0402345).
+available as [`arXiv:math/0402345`](http://arxiv.org/abs/math/0402345).
 
 4\) Richard Borcherds, online papers, available at
 `http://math.berkeley.edu/~reb/papers/`

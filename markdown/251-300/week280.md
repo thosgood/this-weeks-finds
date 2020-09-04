@@ -44,7 +44,7 @@ self-consistent and elegant. For a nice survey, see this:
 
 2\) Abhay Ashtekar, Loop quantum cosmology: an overview, Gen. Rel. Grav.
 41 (2009), 707-741. Also available as
-[arXiv:0812.0177](http://arxiv.org/abs/0812.0177).
+[`arXiv:0812.0177`](http://arxiv.org/abs/0812.0177).
 
 Section IVa sketches the history of the subject, but it's best to read
 the previous stuff first.
@@ -117,7 +117,7 @@ Ashtekar taught:
 
 4\) Abhay Ashtekar, An introduction to loop quantum gravity through
 cosmology, Nuovo Cimento 122B (2007), 135-155. Also available as
-[arXiv:gr-qc/0702030](http://arXiv.org/abs/gr-qc/0702030).
+[`arXiv:gr-qc/0702030`](http://arXiv.org/abs/gr-qc/0702030).
 
 Anyway, the real fun will start when people systematically compute the
 behavior of inhomogeneous perturbations in loop quantum cosmology model.
@@ -198,7 +198,7 @@ Lagrangian for gravity:
 5\) Soren Holst, Barbero's Hamiltonian derived from a generalized
 Hilbert-Palatini action, Phys. Rev. D53 (1996), 5966-5969. Also
 available as
-[arXiv:gr-qc/9511026](http://arXiv.org/abs/arXiv:gr-qc/9511026).
+[`arXiv:gr-qc/9511026`](http://arXiv.org/abs/arXiv:gr-qc/9511026).
 
 It looks like this:
 
@@ -304,7 +304,7 @@ parameter:
 
 7\) Jonathan Engle, Roberto Pereira and Carlo Rovelli, Flipped spinfoam
 vertex and loop gravity, Nucl. Phys. B798 (2008), 251-290. Also
-available as [arXiv:0708.1236](http://arxiv.org/abs/0708.1236).
+available as [`arXiv:0708.1236`](http://arxiv.org/abs/0708.1236).
 
 This is a very nice paper which describes a lot of geometry that I
 haven't had time to mention. However, the full-fledged model appeared
@@ -313,14 +313,14 @@ later:
 8\) Jonathan Engle, Etera Livine, Roberto Pereira, and Carlo Rovelli,
 LQG vertex with finite Immirzi parameter, Nucl. Phys. B799 (2008),
 136-149. Also available as
-[arXiv:0711.0146](http://arxiv.org/abs/0711.0146).
+[`arXiv:0711.0146`](http://arxiv.org/abs/0711.0146).
 
 But there are also other people whose work deserves credit! For example,
 my friends Laurent Freidel and Kirill Krasnov:
 
 9\) Laurent Freidel and Kirill Krasnov, A new spin foam model for 4d
 gravity, Class. Quant. Grav. 25 (2008), 125018. Also available as
-[arXiv:0708.1595](http://arxiv.org/abs/0708.1595).
+[`arXiv:0708.1595`](http://arxiv.org/abs/0708.1595).
 
 This paper gives a bit of the history, which I don't know very well,
 since I wasn't paying attention. Kirill visited me once and tried to
@@ -336,7 +336,7 @@ the graviton propagator from the Barrett-Crane model:
 10\) Emanuele Alesci and Carlo Rovelli, The complete LQG propagator: I.
 Difficulties with the Barrett-Crane vertex. Phys. Rev. D76 (2007),
 104012. Also available as
-[arXiv:0708.0883](http://arxiv.org/abs/0708.0883).
+[`arXiv:0708.0883`](http://arxiv.org/abs/0708.0883).
 
 Then Rovelli and collaborators found numerical evidence that the EPR
 model seemed to be working better:
@@ -344,20 +344,20 @@ model seemed to be working better:
 11\) Elena Magliaro, Claudio Perini and Carlo Rovelli, Numerical
 indications on the semiclassical limit of the flipped vertex, Class.
 Quant. Grav. 25 (2008), 095009. Also available as
-[arXiv:0710.5034](http://arxiv.org/abs/0710.5034).
+[`arXiv:0710.5034`](http://arxiv.org/abs/0710.5034).
 
 Then Alesci and Rovelli wrote a paper using the new model:
 
 12\) Emanuele Alesci and Carlo Rovelli, The complete LQG propagator: II.
 Asymptotic behavior of the vertex, Phys. Rev. D77 (2008), 044024. Also
-available as [arXiv:0711.1284](http://arxiv.org/abs/0711.1284).
+available as [`arXiv:0711.1284`](http://arxiv.org/abs/0711.1284).
 
 and then Alesci and Rovelli wrote another paper in their series, with
 Eugenio Bianchi:
 
 13\) Emanuele Alesci, Eugenio Bianchi, Carlo Rovelli, LQG propagator:
 III. The new vertex, available as
-[arXiv:0812.5018](http://arxiv.org/abs/0812.5018).
+[`arXiv:0812.5018`](http://arxiv.org/abs/0812.5018).
 
 This paper used the work of John Barrett and collaborators, who analyzed
 the asymptotics of the amplitude for a 4-simplex in the new model:
@@ -365,14 +365,14 @@ the asymptotics of the amplitude for a 4-simplex in the new model:
 14\) John W. Barrett, R. J. Dowdall, Winston J. Fairbairn, Henrique
 Gomes and Frank Hellmann, Asymptotic analysis of the EPRL four-simplex
 amplitude, available as
-[arXiv:0902.1170](http://arxiv.org/abs/0902.1170).
+[`arXiv:0902.1170`](http://arxiv.org/abs/0902.1170).
 
 For a nice treatment of spin foams that generalizes the new model to
 spin foams that don't come from triangulations of spacetime, try:
 
 15\) Wojciech Kaminski, Marcin Kisielowski, Jerzy Lewandowski,
 Spin-foams for all loop quantum gravity, available as
-[arXiv:0909.0939](http://arxiv.org/abs/0909.0939).
+[`arXiv:0909.0939`](http://arxiv.org/abs/0909.0939).
 
 Everything Lewandowski does is very precise, so if you're a
 mathematician you might actually want to start here.
@@ -473,7 +473,7 @@ Euler class and the Nieh-Yan class, see:
 
 16\) Danilo Jimenez Rezende and Alejandro Perez, 4d Lorentzian Holst
 action with topological terms, available as
-[arXiv:0902.3416](http://arxiv.org/abs/0902.3416).
+[`arXiv:0902.3416`](http://arxiv.org/abs/0902.3416).
 
 ------------------------------------------------------------------------
 

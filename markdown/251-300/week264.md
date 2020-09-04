@@ -271,7 +271,7 @@ have cool relationships to Dynkin diagrams. I urged you to read this
 paper, and I'll urge you again:
 
 10\) Daniel Allcock, Braid pictures for Artin groups, available as
-[arXiv:math.GT/9907194](http://arxiv.org/abs/math.GT/9907194).
+[`arXiv:math.GT/9907194`](http://arxiv.org/abs/math.GT/9907194).
 
 But for now, we just need the "spherical braid group" B~n~(S^2)
 together with the usual braid group B~n~.

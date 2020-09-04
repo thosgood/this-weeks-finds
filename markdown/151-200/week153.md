@@ -221,7 +221,7 @@ LOG(x) = sum |CP^2n^| x^2n+1^ / (2n+1)
 Classifying genera is hard, but it gets easier if we impose some extra
 conditions. Suppose
 
-F \-\--> E \-\--> B
+F ---> E ---> B
 
 is a fiber bundle with compact connected structure group. The space E is
 like a "twisted product" of F and B, so it makes sense to demand that

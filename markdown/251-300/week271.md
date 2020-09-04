@@ -227,7 +227,7 @@ diagrams. The "noncrystallographic" Coxeter groups are really
 Next let me discuss this paper by Jeffrey Morton:
 
 11\) Jeffrey Morton, 2-vector spaces and groupoids, available as
-[arXiv:0810.2361](http://arxiv.org/abs/0810.2361).
+[`arXiv:0810.2361`](http://arxiv.org/abs/0810.2361).
 
 It's an important new twist in the Tale of Groupoidification! As part
 of this tale, in ["Week 256"](#week256) I described a functor from
@@ -289,7 +289,7 @@ long time ago:
 
 12\) John Baez, Higher-dimensional algebra II: 2-Hilbert spaces, Adv.
 Math. 127 (1997), 125-189. Also available as
-[arXiv:q-alg/9609018](http://arXiv.org/abs/arXiv:q-alg/9609018).
+[`arXiv:q-alg/9609018`](http://arXiv.org/abs/arXiv:q-alg/9609018).
 
 So, just as degroupoidification reveals that a fair amount of quantum
 mechanics can be done with groupoids instead of vector spaces,
@@ -308,7 +308,7 @@ In his thesis:
 
 13\) Jeffrey Morton, Extended TQFT's and Quantum Gravity, Ph.D. thesis,
 U. C. Riverside, 2007. Available at
-[arXiv:0710.0032](http://arxiv.org/abs/0710.0032).
+[`arXiv:0710.0032`](http://arxiv.org/abs/0710.0032).
 
 Jeffrey showed that a special case, the "untwisted" Dijkgraaf-Witten
 model, gives a weak 2-functor from the weak 2-category with
@@ -334,7 +334,7 @@ recently polished up this paper, changing the title to make it focus on
 the algebraic essence of his construction:
 
 14\) Jeffrey Morton, Double bicategories and double cospans, available
-as [arXiv:math/0611930](http://arxiv.org/abs/math/0611930).
+as [`arXiv:math/0611930`](http://arxiv.org/abs/math/0611930).
 
 There's a lot more I could say about this, but not a lot more time. So,
 let me wrap up with a pointer to Stephen Summers' review of new work on

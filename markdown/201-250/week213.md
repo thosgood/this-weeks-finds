@@ -417,7 +417,7 @@ Harder worked them all out. For example, he showed the Euler
 characteristic of the integral form of the exceptional group E~7~ is
 some wacky number like
 
-\- 691 \times 43867   /   2^21^ \times 3^9^ \times 5^2 \times 7^3 \times 11 \times 13 \times 19
+- 691 \times 43867   /   2^21^ \times 3^9^ \times 5^2 \times 7^3 \times 11 \times 13 \times 19
 
 Serre went even further, computing Euler characteristics of Chevalley
 groups defined over algebraic number fields. He also noticed that when
@@ -603,7 +603,7 @@ In fact, Kevin Buzzard's email was packed with wisdom. He wrote:
 > is 2. So z=w=1 and so g is the identity.
 >
 > Deeper, but also completely standard (and not logically necessary for
-> what follows)\-\--any torsion-free subgroup of SL(2,Z) is free! This
+> what follows)---any torsion-free subgroup of SL(2,Z) is free! This
 > is because SL(2,Z) acts very naturally on a certain tree in the upper
 > half plane. This is a neat piece of mathematics. SL(2,Z) acts on the
 > upper half plane {z=x+iy:y>0} via the rule:
@@ -616,7 +616,7 @@ In fact, Kevin Buzzard's email was packed with wisdom. He wrote:
 > and draw the obvious arc between them (the one that lies on the circle
 > |z|=1), this is our first edge, and now look at the image of what
 > you have under the SL(2,Z) action. It's a rather pretty tree, with
-> two kinds of vertices\-\--those in the i orbit have valency 2 and
+> two kinds of vertices---those in the i orbit have valency 2 and
 > stabiliser of order 4, and those in the ρ orbit have valency 3 and
 > stabiliser of order 6. Now a group is free iff it acts freely on a
 > tree, and anything torsion-free in SL(2,Z) must be acting freely on
@@ -634,11 +634,11 @@ In fact, Kevin Buzzard's email was packed with wisdom. He wrote:
 > a quotient Riemann surface. The point is that this computation is very
 > manageable and can be done "in practice". There is a standard
 > argument which shows how to quotient out the upper half plane by
-> SL(2,Z)\-\--the answer is a Riemann surface isomorphic to the complex
+> SL(2,Z)---the answer is a Riemann surface isomorphic to the complex
 > plane (although you have to take care at the points where the action
-> isn't free\-\--this is exactly the vertices of the tree above), and
+> isn't free---this is exactly the vertices of the tree above), and
 > the isomorphism can even be given "explicitly" via the j-function
-> coming from the theory of elliptic curves\-\--there is a standard
+> coming from the theory of elliptic curves---there is a standard
 > fundamental domain even, the one with corners ρ, ρ^2 and +i\infty. I'm
 > sure you'll have come across this sort of thing many times before.
 > Now SL(2,Z) surjects onto SL(2,Z/5Z) so the index of Γ_1(5) in
@@ -650,10 +650,10 @@ In fact, Kevin Buzzard's email was packed with wisdom. He wrote:
 > in SL(2,Z/5Z) and by counting orders this comes out to be 24. Now
 > it's not hard to find explicitly 24 translates of the standard
 > fundamental domain and then glue them together to work out the
-> quotient of the upper half plane by Γ_1(5)\-\--it turns out that it
+> quotient of the upper half plane by Γ_1(5)---it turns out that it
 > is isomorphic to the Riemann Sphere minus 4 points.
 >
-> In fact there is no need to do this sort of computation\-\--the
+> In fact there is no need to do this sort of computation---the
 > modular forms people have automated it long ago. The quotient of the
 > upper half plane by Γ_1(N) is a Riemann surface called Y_1(N) and I
 > can just ask my computer to compute the genus of its natural
@@ -673,7 +673,7 @@ In fact, Kevin Buzzard's email was packed with wisdom. He wrote:
 > SL(2,Z) consisting of the matrices which are the identity mod 2. There
 > is another classical modular function λ inducing an isomorphism of
 > Y(2), the quotient of the upper half plane by Γ(2), with the sphere
-> minus three points\-\--this is what gives the one-line proof of the
+> minus three points---this is what gives the one-line proof of the
 > fact that any analytic function C\toC that misses two points must be
 > constant, because it then lifts to a function from C to the upper half
 > plane which is the same as the unit disc, so we're done by Liouville.
@@ -705,7 +705,7 @@ In fact, Kevin Buzzard's email was packed with wisdom. He wrote:
 > Nowadays almost any analytic function that is involved in number
 > theory, when evaluated at certain "natural" points, gives an answer
 > which has a conjectural interpretation in terms of relations between
-> cohomology theories\-\--this is the subject of many conjectures
+> cohomology theories---this is the subject of many conjectures
 > (Deligne, Beilinson, Bloch-Kato,...). It is still absolutely black
 > magic! Actually I'm being unfair, the relation between special values
 > of \zeta and Euler characteristics is somehow less profound than this
@@ -801,10 +801,10 @@ Kevin replied:
 > any subgroup of SL(2,Z) that contains one of these Γ(N)'s. Clearly
 > such things have finite index in SL(2,Z). But unfortunately there
 > exist subgroups of finite index in SL(2,Z) that are not congruence
-> subgroups. This is a "low-dimensional" phenomenon\-\--the moment you
+> subgroups. This is a "low-dimensional" phenomenon---the moment you
 > have a bit more freedom, e.g. you're working with SL(3,Z) or indeed
 > SL(n,Z) for any n≥3, or even SL(2,Z\[1/p\]) for some prime p, then any
-> subgroup of finite index is a congruence subgroup\-\--these groups
+> subgroup of finite index is a congruence subgroup---these groups
 > satisfy the "congruence subgroup property". But I've never
 > understood the commutator of SL(2,Z) precisely for the reason that
 > it's not a congruence subgroup (this is essentially because the
@@ -819,7 +819,7 @@ Kevin replied:
 >      > Γ(3) rather than the Γ1(N) groups.
 >
 > Anything will do. If you know about Γ(3) then great. The same key
-> observation is true\-\--Γ(3) contains no elements of finite order,
+> observation is true---Γ(3) contains no elements of finite order,
 > because any finite order element
 >
 >     (a b)
@@ -852,12 +852,12 @@ Kevin replied:
 > corresponding to the fact that one shouldn't really have attempted to
 > quotient out there, one should just remember that really the quotient
 > is kind of "crumpled up" near there. So for example the fundamental
-> group of the quotient shouldn't be the trivial group\-\--if you take
+> group of the quotient shouldn't be the trivial group---if you take
 > a small loop around i then this should not be regarded as
-> contractible\-\--you have to go around i twice before you can hope to
+> contractible---you have to go around i twice before you can hope to
 > contract the loop. Similarly you have to go around ρ three times. Even
-> worse\-\--if you do this carefully enough then even going around i
-> twice or ρ three times isn't enough to contract the loop\-\--because
+> worse---if you do this carefully enough then even going around i
+> twice or ρ three times isn't enough to contract the loop---because
 > the resulting loop somehow corresponds to the element -1 in SL(2,Z),
 > which acts trivially but which isn't the identity! So you have to do
 > everything again before you get to the element 1. Mumford thought hard

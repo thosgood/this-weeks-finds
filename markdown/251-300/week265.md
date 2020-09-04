@@ -368,7 +368,7 @@ hundred references for further study:
 
 18\) Kurusch Ebrahimi-Fard and Dirk Kreimer, Hopf algebra approach to
 Feynman diagram calculations, available as
-[arXiv:hep-th/0510202](http://arXiv.org/abs/arXiv:hep-th/0510202).
+[`arXiv:hep-th/0510202`](http://arXiv.org/abs/arXiv:hep-th/0510202).
 
 This yields lots of applications of Bill's ideas to quantum physics. I
 have no idea how this huge industry is related to my work with James
@@ -384,7 +384,7 @@ Spring 2004 notes: `http://math.ucr.edu/home/baez/qg-spring2004/`
 20\) Jeffrey Morton, Categorified algebra and quantum mechanics, Theory
 and Applications of Categories 16 (2006), 785-854. Available at
 `http://www.emis.de/journals/TAC/volumes/16/29/16-29abs.html` and as
-[arXiv:math/0601458](http://arxiv.org/abs/math/0601458).
+[`arXiv:math/0601458`](http://arxiv.org/abs/math/0601458).
 
 While you're mulling over these ideas, it might pay to ponder this
 paper Bill told me about:
@@ -479,7 +479,7 @@ The second was brought to my attention by David Corfield:
 
 25\) Igor Frenkel and Matvei Libine, Quaternionic analysis,
 representation theory and physics, available as
-[arXiv:0711.2699](http://arxiv.org/abs/0711.2699)
+[`arXiv:0711.2699`](http://arxiv.org/abs/0711.2699)
 
 Since Igor Frenkel is a bigshot, this paper may finally bring this
 neglected subject some of the attention it deserves! Like Corfield,

@@ -36,10 +36,10 @@ There are a couple of papers so far that discuss this provocative idea:
 The Mathematics of Quantum Computation and Technology, eds. Chen,
 Kauffman and Lomonaco, Chapman and Hall/CRC, New York, pp. 559-596. Also
 available as
-[arXiv:quant-ph/0608035](http://arxiv.org/abs/quant-ph/0608035).
+[`arXiv:quant-ph/0608035`](http://arxiv.org/abs/quant-ph/0608035).
 
 3\) Jamie Vicary, Categorical formulation of quantum algebras, available
-as [arXiv:0805.0432](http://arxiv.org/abs/0805.0432).
+as [`arXiv:0805.0432`](http://arxiv.org/abs/0805.0432).
 
 Second, Paul-André Melliès, the computer scientist and logician who's
 my host here, has been telling me how logic can be nicely formulated in
@@ -434,7 +434,7 @@ TQFTs using state sum models:
 15\) Aaron Lauda and Hendryk Pfeiffer, State sum construction of
 two-dimensional open-closed topological quantum field theories, J. Knot
 Theory and its Ramifications 16 (2007), 1121-1163. Also available as
-[arXiv:math/0602047](http://arXiv.org/abs/math/0602047).
+[`arXiv:math/0602047`](http://arXiv.org/abs/math/0602047).
 
 This generalizes a construction due to Fukuma, Hosono and Kawai,
 explained way back in ["Week 16"](#week16) and also in my seminar
@@ -602,7 +602,7 @@ Yes!
 
 21\) Ingo Runkel, Jens Fjelstad, Jurgen Fuchs, Christoph Schweigert,
 Topological and conformal field theory as Frobenius algebras, available
-as [arXiv:math/0512076](http://arXiv.org/abs/math/0512076).
+as [`arXiv:math/0512076`](http://arXiv.org/abs/math/0512076).
 
 But, you need to use Frobenius algebras inside a modular tensor
 category!
@@ -632,14 +632,14 @@ gives a great overview of recent work on the algebraic aspects of tensor
 categories:
 
 23\) Michael Müger, Tensor categories: a selective guided tour,
-available as [arXiv:0804.3587](http://arxiv.org/abs/0804.3587).
+available as [`arXiv:0804.3587`](http://arxiv.org/abs/0804.3587).
 
 Here's a quite different introduction to recent developments, at least
 up to 2004:
 
 24\) Damien Calaque and Pavel Etingof, Lectures on tensor categories,
 available as
-[arXiv:math/0401246](http://arXiv.org/abs/arXiv:math/0401246).
+[`arXiv:math/0401246`](http://arXiv.org/abs/arXiv:math/0401246).
 
 Still more recently, Hendryk Pfeiffer has written what promises to be a
 fundamental paper describing how to think of any modular tensor category
@@ -648,13 +648,13 @@ Hopf algebra":
 
 25\) Hendryk Pfeiffer, Tannaka-Krein reconstruction and a
 characterization of modular tensor categories, available as
-[arXiv:0711.1402](http://arxiv.org/abs/0711.1402).
+[`arXiv:0711.1402`](http://arxiv.org/abs/0711.1402).
 
 And here's a paper that illustrates the wealth of examples:
 
 26\) Seung-moon Hong, Eric Rowell, Zhenghan Wang, On exotic modular
 tensor categories, available as
-[arXiv:07108.5761](http://arxiv.org/abs/0710.5761).
+[`arXiv:07108.5761`](http://arxiv.org/abs/0710.5761).
 
 The abstract of this makes me realize that people have bigger hopes of
 understanding all modular tensor categories than I'd imagined:
@@ -773,7 +773,7 @@ about them here:
 Theory and Applications of Categories 16 (2006), 84-122, available at
 `http://tac.mta.ca/tac/volumes/16/4/16-04abs.html`\
 Also available as
-[arXiv:math/0502550](http://arXiv.org/abs/math/0502550).
+[`arXiv:math/0502550`](http://arXiv.org/abs/math/0502550).
 
 I explained some of the basics behind this paper in
 ["Week 174"](#week174).

@@ -491,13 +491,13 @@ the case I discussed above, where K is the rational numbers:
 > The adeles were used in a really powerful way in the theorems and
 > proofs of global class field theory (you don't want to read the
 > proofs. I did this precisely once in my life and they are very
-> unilluminating). But the theorem\-\--if K is a number field then the
+> unilluminating). But the theorem---if K is a number field then the
 > abelianisation of Gal(K^-^/K) is canonically isomorphic to
 >
 > K*\\Adeles~K~*/(K~\infty~*)^0^
 >
 > (the last term being the connected component of the product of the
-> infinite completions of K)\-\--is incredibly important.
+> infinite completions of K)---is incredibly important.
 >
 > Much easier going is Tate's thesis (in the book by Cassels and
 > Froehlich). Tate observes that Fourier analysis works on any locally
@@ -513,11 +513,11 @@ the case I discussed above, where K is the rational numbers:
 > A word on analogies. If you want to say that the p-adic integers are
 > analogous to the formal power series ring C\[\[z-a\]\] (call it
 > C\[\[z\]\] for simplicity) then in fact some people would say that
-> this was *not* an analogy\-\--this was simply two instances of the
+> this was *not* an analogy---this was simply two instances of the
 > same thing, namely a complete discrete valuation ring. Similarly, you
 > might say that Z is analogous to C\[z\], but again some people would
 > just tell you to go and get a book on commutative algebra and look up
-> the word "Dedekind domain"\-\--both of these are examples. A
+> the word "Dedekind domain"---both of these are examples. A
 > geometer might even go and tell you to go and find out what a regular
 > 1-dimensional scheme was!
 >
@@ -525,7 +525,7 @@ the case I discussed above, where K is the rational numbers:
 > however, was that there is some stuff that just goes through for all
 > Dedekind domains (e.g. construction of adeles, existence of class
 > group etc), and there is some stuff that actually requires more.
-> Tate's thesis for example requires more\-\--it doesn't just work for
+> Tate's thesis for example requires more---it doesn't just work for
 > all Dedekind domains because Tate needs a Haar measure and so he needs
 > completions to be locally compact, which is basically the same as
 > demanding that *all residue fields are finite*. Here's something you
@@ -550,7 +550,7 @@ the case I discussed above, where K is the rational numbers:
 > *finite* field. Of course algebraic geometers aren't scared of finite
 > fields (well, at least, the ones I talk to the most aren't), so after
 > a while your analogy is going to break because C is infinite.
-> Langlands' philosophy is (or at least, was\-\--it has been
+> Langlands' philosophy is (or at least, was---it has been
 > generalised in various directions now) about global fields, which
 > means either number fields or finite extensions of k(z) where k is a
 > finite field. Of course Lafforgue recently proved everything in the
@@ -702,7 +702,7 @@ This is called *class field theory*.
 > "explicitly" written down a finite quotient of Gal(K^-^/K),
 > corresponding to a finite extension H of K. The objects on the right
 > hand side are rather abstract, but this is as explicit a quotient
-> group of the right hand side as you could possibly ask for\-\--we
+> group of the right hand side as you could possibly ask for---we
 > understand exactly what's going on at every place, for example. Hence
 > this is as explicit a finite extension of K as you could possibly ask
 > for, if you admit the isomorphism of class field theory. Indeed, if
@@ -723,7 +723,7 @@ This is called *class field theory*.
 >
 > Now suddenly you see a big disadvantage of the glorious proof of the
 > isomorphism which goes via all this cohomological chasing
-> around\-\--it shows the existence of H but doesn't tell us what it
+> around---it shows the existence of H but doesn't tell us what it
 > is. At all. And at the end of the day, there are a lot of number
 > theorists out there that are actually interested *in numbers*, rather
 > than in abstract results which hold for all number fields or whatever.
@@ -736,7 +736,7 @@ This is called *class field theory*.
 > Hilbert would probably say that the answer is still "no". If you
 > were to find a "better" proof of global class field theory then
 > perhaps the answer would change. In fact the Hilbert Class Field is
-> just the tip of the iceberg\-\--global class field theory gives us a
+> just the tip of the iceberg---global class field theory gives us a
 > description of the abelianisation of Gal(K^-^/K), and this
 > abelianisation corresponds to a field K^ab^, of infinite degree over
 > K, but Galois, with infinite abelian Galois group. If I give you K,
@@ -748,7 +748,7 @@ This is called *class field theory*.
 > Kronecker and Weber knew not just the Hilbert class field of Q, they
 > even knew Q^ab^, it's just the union of Q(1^1/n^), where 1^1/n^ is
 > exp(2πi/n). Let me labour a point which experts in the theory feel is
-> highly important: the exponential function is transcendental\-\--it
+> highly important: the exponential function is transcendental---it
 > doesn't belong in algebraic geometry because it's not in C(z). On
 > the other hand, this transcendental function, when evaluated at
 > certain places, gives algebraic numbers out, and it is these algebraic
@@ -772,7 +772,7 @@ This is called *class field theory*.
 > x^2 - 1264000x - 681472000
 >
 > (it agrees with it to 100 decimal places, despite the fact that the
-> j-function is again "transcendental"\-\--we have put an algebraic
+> j-function is again "transcendental"---we have put an algebraic
 > number in and appear to have got an algebraic number out).
 >
 > The awesome fact is that the splitting field of this polynomial over
@@ -852,7 +852,7 @@ This is called *class field theory*.
 > canonical reference. Serre's article in there talks about the links
 > to elliptic curves in the im quad case too. A nice book!
 >
-> Thanks for the link to the letter of Weil\-\--interesting stuff! I
+> Thanks for the link to the letter of Weil---interesting stuff! I
 > have pity on his sister. I have heard that (Andre) Weil's house in
 > Paris had a plaque on it saying "Simone Weil used to live here"
 > (because she did). Funny that a genius had to live in the shadows of

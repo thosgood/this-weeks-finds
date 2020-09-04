@@ -48,7 +48,7 @@ Benjamin-Cummings, New York, 1978.
 Physics, Cambridge U. Press, Cambridge, 1990.
 
 4\) Ana Cannas da Silva, Symplectic geometry, available as
-[arXiv:math.SG/0505366](http://arxiv.org/abs/math.SG/0505366).
+[`arXiv:math.SG/0505366`](http://arxiv.org/abs/math.SG/0505366).
 
 5\) Sergei Tabachnikov, Introduction to symplectic topology, available
 at `http://www.math.psu.edu/tabachni/courses/symplectic.pdf`
@@ -59,7 +59,7 @@ For Poisson geometry, try the above but also:
 `http://galileo.stmarys-ca.edu/bdavis/poisson.pdf`
 
 7\) Darryl Holm, Applications of Poisson geometry to physical problems,
-available as [arXiv:0708.1585](http://arxiv.org/abs/0708.1585).
+available as [`arXiv:0708.1585`](http://arxiv.org/abs/0708.1585).
 
 8\) I. Vaisman, Lectures on the Geometry of Poisson Manifolds,
 Birkhaeuser, Boston, 1994.
@@ -79,7 +79,7 @@ scary and arbitrary concept - until I came across this paper in Vienna:
 
 9\) Pavol Severa, Some title containing the words "homotopy" and
 "symplectic", e.g. this one, available as
-[arXiv:math/0105080](http://arxiv.org/abs/math/0105080).
+[`arXiv:math/0105080`](http://arxiv.org/abs/math/0105080).
 
 The title is goofy, but the paper itself contains some truly visionary
 speculations. Among other things, it argues that the above sequence of
@@ -210,7 +210,7 @@ how it works, start here:
 
 10\) Alan Weinstein, Groupoids: unifying internal and external symmetry,
 AMS Notices, 43 (1996), 744-752. Also available as
-[arXiv:math/9602220](http://arxiv.org/abs/math/9602220).
+[`arXiv:math/9602220`](http://arxiv.org/abs/math/9602220).
 
 For more details, try this:
 
@@ -233,14 +233,14 @@ on. So now I'm busily reading her papers:
 
 12\) Hsian-Hua Tseng and Chenchang Zhu, Integrating Lie algebroids via
 stacks, available as
-[arXiv:math/0405003](http://arxiv.org/abs/math/0405003).
+[`arXiv:math/0405003`](http://arxiv.org/abs/math/0405003).
 
 13\) Chenchang Zhu, Lie $n$-groupoids and stacky Lie groupoids, available
-as [arXiv:math/0609420](http://arxiv.org/abs/math/0609420).
+as [`arXiv:math/0609420`](http://arxiv.org/abs/math/0609420).
 
 14\) Chenchang Zhu, Lie II theorem for Lie algebroids via stacky Lie
 groupoids, available as
-[arXiv:math/0701024](http://arxiv.org/abs/math/0701024).
+[`arXiv:math/0701024`](http://arxiv.org/abs/math/0701024).
 
 (Lie's 2nd theorem says that all Lie algebra homomorphisms integrate to
 give homomorphisms between the corresponding simply-connected Lie
@@ -252,10 +252,10 @@ integrate Lie $n$-algebras to get Lie $n$-groups, but a lot of progress has
 been made on these problems:
 
 15\) Ezra Getzler, Lie theory for nilpotent L~\infty~-algebras, available as
-[arXiv:math/0404003](http://arxiv.org/abs/math/0404003).
+[`arXiv:math/0404003`](http://arxiv.org/abs/math/0404003).
 
 16\) Andre Henriques, Integrating L~\infty~-algebras, available as
-[arXiv:math/0603563](http://arxiv.org/abs/math/0603563).
+[`arXiv:math/0603563`](http://arxiv.org/abs/math/0603563).
 
 The really wonderful part is that there's already a functioning theory
 of Lie $n$-algebroids, carefully disguised under the name of

@@ -438,7 +438,7 @@ Scottish stone balls shaped like Platonic solids:
 
 14\) Michael Atiyah and Paul Sutcliffe, Polyhedra in physics, chemistry
 and geometry, available as
-[arXiv:math-ph/0303071](http://arxiv.org/abs/math-ph/0303071).
+[`arXiv:math-ph/0303071`](http://arxiv.org/abs/math-ph/0303071).
 
 Here is le Bruyn's critical examination of that claim:
 

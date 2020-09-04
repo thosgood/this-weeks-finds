@@ -315,7 +315,7 @@ Glasgow showed me a paper that fits this relation into a bigger pattern:
 7\) Andreas Fring and Christian Korff, Non-crystallographic reduction of
 Calogero-Moser models, Jour. Phys. A 39 (2006), 1115-1131. Also
 available as
-[arXiv:hep-th/0509152](http://arxiv.org/abs/hep-th/0509152).
+[`arXiv:hep-th/0509152`](http://arxiv.org/abs/hep-th/0509152).
 
 They set up a nice correspondence between some non-crystallographic
 Coxeter groups and some crystallographic ones:

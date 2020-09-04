@@ -532,7 +532,7 @@ He replied:
 > \sum a~n~/n^s^
 >
 > has analytic (or meromorphic) continuation beyond Re(s)>r? Maybe even
-> this is hard\-\--or maybe there is no such elementary criterion.
+> this is hard---or maybe there is no such elementary criterion.
 >
 >      > I'll be happy to assume for starters that an is multiplicative.
 >
@@ -639,7 +639,7 @@ He replied:
 > we get an embedding
 >
 > "Generically" this map is an isomorphism. But certainly not
-> always\-\--if there are subtle relations amongst the z_i with
+> always---if there are subtle relations amongst the z_i with
 > rational coefficients then these subtle relations must also be
 > preserved by the Galois group. One of my favourite examples is the
 > equation x^4-2. This is an irreducible polynomial of degree 4, the
@@ -731,7 +731,7 @@ He replied:
 > thinking, one realises that Q^-^ is unique, but only up to highly
 > non-unique isomorphism, and hence Gal(Q^-^/Q) is a "group only
 > defined up to inner automorphism"! Hence it almost makes no sense to
-> study this group\-\--we cannot make any serious sense of an element of
+> study this group---we cannot make any serious sense of an element of
 > this group, because it's only the conjugacy classes that are
 > well-defined. Hence we should study the representations of the group
 > on abstract vector spaces (i.e. ones without preferred bases), because

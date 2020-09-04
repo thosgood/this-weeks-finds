@@ -23,7 +23,7 @@ years to write:
 
 2\) John Baez, Aristide Baratin, Laurent Freidel and Derek Wise,
 Representations of 2-groups on infinite-dimensional 2-vector spaces,
-available as [arXiv:0812.4969](http://arxiv.org/abs/0812.4969).
+available as [`arXiv:0812.4969`](http://arxiv.org/abs/0812.4969).
 
 We can dream up the notion of "2-vector space" by pondering this
 analogy chart:
@@ -136,7 +136,7 @@ more details, try section 6.1 of this old paper:
 
 4\) John Baez, Higher-dimensional algebra II: 2-Hilbert spaces, Adv.
 Math. 127 (1997), 125-189. Also available as
-[arXiv:q-alg/9609018](http://arXiv.org/abs/arXiv:q-alg/9609018).
+[`arXiv:q-alg/9609018`](http://arXiv.org/abs/arXiv:q-alg/9609018).
 
 As you can see from the title, I was trying to go beyond 2-vector spaces
 and think about "2-Hilbert spaces". That's because in quantum
@@ -158,7 +158,7 @@ linear algebra. Available at `http://math.ucr.edu/home/baez/neuchl.ps`
 6\) Josep Elgueta, A strict totally coordinatized version of Kapranov
 and Voevodsky 2-vector spaces, to appear in Math. Proc. Cambridge Phil.
 Soc. Also available as
-[arXiv:math/0406475](http://arXiv.org/abs/math/0406475).
+[`arXiv:math/0406475`](http://arXiv.org/abs/math/0406475).
 
 7\) Bruce Bartlett, The geometry of unitary 2-representations of finite
 groups and their 2-characters, available as
@@ -177,11 +177,11 @@ Wales, Bangor, 2004. Available at
 
 9\) John W. Barrett and Marco Mackaay, Categorical representations of
 categorical groups, Th. Appl. Cat. 16 (2006), 529-557. Also available as
-[arXiv:math/0407463](http://arXiv.org/abs/math/0407463).
+[`arXiv:math/0407463`](http://arXiv.org/abs/math/0407463).
 
 10\) Josep Elgueta, Representation theory of 2-groups on finite
 dimensional 2-vector spaces, available as
-[arXiv:math.CT/0408120](http://arXiv.org/abs/math.CT/0408120).
+[`arXiv:math.CT/0408120`](http://arXiv.org/abs/math.CT/0408120).
 
 A group is a category with one object, all of whose morphisms are
 invertible. Similarly, a 2-group is a 2-category with one object, all of
@@ -195,7 +195,7 @@ known. You can see a bunch here:
 11\) John Baez and Aaron Lauda, Higher-dimensional algebra V: 2-groups,
 Theory and Applications of Categories 12 (2004), 423-491. Available at
 `http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html` and as
-[arXiv:math/0307200](http://arXiv.org/abs/arXiv:math/0307200).
+[`arXiv:math/0307200`](http://arXiv.org/abs/arXiv:math/0307200).
 
 However, Barrett and Mackaay discovered something rather upsetting.
 While Lie groups have lots of interesting representations on
@@ -368,11 +368,11 @@ Crane and Yetter:
 
 15\) David Yetter, Measurable categories, Appl. Cat. Str. 13 (2005),
 469-500. Also available as
-[arXiv:math/0309185](http://arXiv.org/abs/math/0309185).
+[`arXiv:math/0309185`](http://arXiv.org/abs/math/0309185).
 
 16\) Louis Crane and David N. Yetter, Measurable categories and
 2-groups, Appl. Cat. Str. 13 (2005), 501-516. Also available as
-[arXiv:math/0305176](http://arXiv.org/abs/math/0305176).
+[`arXiv:math/0305176`](http://arXiv.org/abs/math/0305176).
 
 The paper by Crane and Yetter studies representations of discrete
 2-groups on measurable categories. Our paper pushes forward by studying
@@ -402,7 +402,7 @@ Sheppeard:
 
 17\) Louis Crane and Marnie D. Sheppeard, 2-categorical Poincare
 representations and state sum applications, available as
-[arXiv:math/0306440](http://arXiv.org/abs/arXiv:math/0306440).
+[`arXiv:math/0306440`](http://arXiv.org/abs/arXiv:math/0306440).
 
 Crane and Sheppeard studied the 2-category of representations of the
 "Poincare 2-group". It turns out that we can get representations of

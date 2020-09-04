@@ -279,14 +279,14 @@ fact, there are general theories of "smooth spaces" that
 systematically handle lots of these examples:
 
 2\) Andrew Stacey, Comparative smootheology, available as
-[arXiv:0802.2225](http://arxiv.org/abs/0802.2225).
+[`arXiv:0802.2225`](http://arxiv.org/abs/0802.2225).
 
 3\) Patrick Iglesias-Zemmour, Diffeology. Available at
 `http://math.huji.ac.il/~piz/Site/The%20Book/The%20Book.html`
 
 4\) John Baez and Alexander Hoffnung, Convenient categories of smooth
 spaces, to appear in Trans. Amer. Math. Soc.. Also available as
-[arXiv:0807.1704](http://arxiv.org/abs/0807.1704).
+[`arXiv:0807.1704`](http://arxiv.org/abs/0807.1704).
 
 But here's a question that sounds harder: how can we generalize
 differential forms to an arbitrary *topological* space X?

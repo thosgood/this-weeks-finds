@@ -171,7 +171,7 @@ explain how to construct the "Lie $n$-superalgebras" that govern
 classical superstring and super-2-brane theories:
 
 8\) John Baez and John Huerta, Supersymmetry and division algebras II,
-available as [arXiv:1003.3436](http://arxiv.org/abs/1003.3436).
+available as [`arXiv:1003.3436`](http://arxiv.org/abs/1003.3436).
 
 As you may know, Lie groups and their Lie algebras are incredibly
 important in gauge theory, which describe how particles change when you
@@ -189,7 +189,7 @@ and Lie $n$-algebras - and redo all of geometry to take advantage of these
 higher structures! For an easy introduction, try:
 
 9\) John Baez and John Huerta, An invitation to higher gauge theory,
-available as [arXiv:1003.4485](http://arxiv.org/abs/1003.4485).
+available as [`arXiv:1003.4485`](http://arxiv.org/abs/1003.4485).
 
 But for supersymmetric theories, geometry based on manifolds isn't
 enough: we need supermanifolds. The world is made of bosons and
@@ -306,21 +306,21 @@ papers:
 
 13\) Akimasa Miyake and Miki Wadati, Multipartite entanglement and
 hyperdeterminants, Quant. Info. Comp. 2 (2002), 540-555. Also available
-as [arXiv:quant-ph/0212146](http://arxiv.org/abs/quant-ph/0212146).
+as [`arXiv:quant-ph/0212146`](http://arxiv.org/abs/quant-ph/0212146).
 
 14\) Michael J. Duff and S. Ferrara, E~7~ and the tripartite
 entanglement of seven qubits, Phys. Rev. D 76 025018 (2007). Also
 available as
-[arXiv:quant-ph/0609227](http://arxiv.org/abs/quant-ph/0609227).
+[`arXiv:quant-ph/0609227`](http://arxiv.org/abs/quant-ph/0609227).
 
 15\) Michael J. Duff and S. Ferrara, E~6~ and the bipartite entanglement
 of qutrits, Phys. Rev. D 76 124023 (2007). Also available as
-[arXiv:0704.0507](http://arxiv.org/abs/0704.0507).
+[`arXiv:0704.0507`](http://arxiv.org/abs/0704.0507).
 
 or this very nice recent one:
 
 16\) Bianca L. Cerchiai and Bert van Geemen, From qubits to E~7~,
-available as [arXiv:1003.4255](http://arxiv.org/abs/1003.4255).
+available as [`arXiv:1003.4255`](http://arxiv.org/abs/1003.4255).
 
 Since I've spent a lot of time talking about the Fano plane, the
 octonions, and exceptional groups like E~6~, E~7~ and E~8~, let me say
@@ -415,7 +415,7 @@ The formula is very pretty and simple:
 
 17\) Michael J. Duff, Hidden symmetries of the Nambu-Goto action, Phys.
 Lett. B641 (2006), 335-337. Also available as
-[arXiv:hep-th/0602160](http://arXiv.org/abs/arXiv:hep-th/0602160).
+[`arXiv:hep-th/0602160`](http://arXiv.org/abs/arXiv:hep-th/0602160).
 
 This being the 21st century, there is even a blog on hyperdeterminants:
 
@@ -451,7 +451,7 @@ Lvay, who has allowed me to quote it here:
 >
 > 19\) Pter Lvay, The twistor geometry of three-qubit entanglement,
 > available as
-> [arXiv:quant-ph/0403060](http://arxiv.org/abs/quant-ph/0403060).
+> [`arXiv:quant-ph/0403060`](http://arxiv.org/abs/quant-ph/0403060).
 >
 > on the "Cayley" hyperdeterminant, twistors and three qubit
 > entanglement was the one that motivated originally Duff's work (as he
@@ -459,7 +459,7 @@ Lvay, who has allowed me to quote it here:
 > the four qubit case (hyperdeterminant):
 >
 > 20\) Pter Lvay, On the geometry of four qubit invariants, available as
-> [arXiv:quant-ph/0605151](http://arxiv.org/abs/quant-ph/0605151).
+> [`arXiv:quant-ph/0605151`](http://arxiv.org/abs/quant-ph/0605151).
 >
 > After Duff's and Kallosh and Linde's paper I have shown that the
 > black hole qubit analogy also works for issues concerning DYNAMICS. I
@@ -469,14 +469,14 @@ Lvay, who has allowed me to quote it here:
 >
 > 21\) Pter Lvay, Stringy black holes and the geometry of entanglement,
 > available as
-> [arXiv:hep-th/0603136](http://arxiv.org/abs/hep-th/0603136).
+> [`arXiv:hep-th/0603136`](http://arxiv.org/abs/hep-th/0603136).
 >
 > Pter Lvay, A three-qubit interpretation of BPS and non-BPS STU black
-> holes, available as [arXiv:0708.2799](http://arxiv.org/abs/0708.2799).
+> holes, available as [`arXiv:0708.2799`](http://arxiv.org/abs/0708.2799).
 >
 > Pter Lvay and Szilrd Szalay, The attractor mechanism as a distillation
 > procedure, available as
-> [arXiv:1004.2346](http://arxiv.org/abs/1004.2346).
+> [`arXiv:1004.2346`](http://arxiv.org/abs/1004.2346).
 >
 > The physical nature of these moduli, charge and warp factor dependent
 > "states" (or whether is it legitimate to call them states at all)
@@ -492,7 +492,7 @@ Lvay, who has allowed me to quote it here:
 >
 > 22\) Pter Lvay, Strings, black holes, the tripartite entanglement of
 > seven qubits and the Fano plane, available as
-> [arXiv:hep-th/0610314](http://arxiv.org/abs/hep-th/0610314).
+> [`arXiv:hep-th/0610314`](http://arxiv.org/abs/hep-th/0610314).
 >
 > Here I made the conjecture that Freudenthal systems and issues
 > concerning the magic square could be relevant to further developments
@@ -509,11 +509,11 @@ Lvay, who has allowed me to quote it here:
 >
 > 23\) Pter Lvay and Pter Vrana, Three fermions with six single particle
 > states can be entangled in two inequivalent ways, available as
-> [arXiv:0806.4076](http://arxiv.org/abs/0806.4076).
+> [`arXiv:0806.4076`](http://arxiv.org/abs/0806.4076).
 >
 > Pter Lvay and Pter Vrana, Special entangled quantum systems and the
 > Freudenthal construction, available as
-> [arXiv:0902.2269](http://arxiv.org/abs/0902.2269).
+> [`arXiv:0902.2269`](http://arxiv.org/abs/0902.2269).
 >
 > Apart from these studies after realizing the relevance of finite
 > geometric ideas with a Slovak co-worker Metod Saniga we have shown
@@ -529,7 +529,7 @@ Lvay, who has allowed me to quote it here:
 > space. The nice maths results can be found in:
 >
 > 24\) Pter Vrana and Pter Lvay, The Veldkamp space of multiple qubits,
-> available as [arXiv:0906.3655](http://arxiv.org/abs/0906.3655).
+> available as [`arXiv:0906.3655`](http://arxiv.org/abs/0906.3655).
 >
 > Such notions as symplectic structure, quadratic forms, transvections,
 > and the group Sp(2n,2) connected to $n$-qubit systems and black holes
@@ -545,7 +545,7 @@ Lvay, who has allowed me to quote it here:
 > solutions (BPS and non BPS, extremal and even possibly non extremal).
 >
 > 25\) Pter Lvay, STU black holes as four qubit systems, available as
-> [arXiv:1004.3639](http://arxiv.org/abs/1004.3639).
+> [`arXiv:1004.3639`](http://arxiv.org/abs/1004.3639).
 >
 > (The idea that four qubit systems show up in STU truncations first
 > appeared in my Fano-E7 paper. This is related to the structure of a

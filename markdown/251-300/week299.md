@@ -247,14 +247,14 @@ papers:
 The Mathematics of Quantum Computation and Technology, eds. Chen,
 Kauffman and Lomonaco, Chapman and Hall/CRC, New York, pp. 559-596. Also
 available as
-[arXiv:quant-ph/0608035](http://arXiv.org/abs/quant-ph/0608035).
+[`arXiv:quant-ph/0608035`](http://arXiv.org/abs/quant-ph/0608035).
 
 4\) Jamie Vicary, Categorical formulation of quantum algebras, available
-as [arXiv:0805.0432](http://arXiv.org/abs/0805.0432).
+as [`arXiv:0805.0432`](http://arXiv.org/abs/0805.0432).
 
 5\) Bob Coecke, Dusko Pavlovic and Jamie Vicary, A new description of
 orthogonal bases, available as
-[arXiv:0810.0812](http://arXiv.org/abs/0810.0812)
+[`arXiv:0810.0812`](http://arXiv.org/abs/0810.0812)
 
 But what's really going on with all these pictures of 2d surfaces? You
 see them a lot in topological quantum field theory. Indeed, in
@@ -322,14 +322,14 @@ For more details, try these papers:
 
 9\) Bob Coecke, Eric Oliver Paquette and Dusko Pavlovic, Classical and
 quantum structuralism, available as
-[arXiv:0904.1997](http://arXiv.org/abs/0904.1997).
+[`arXiv:0904.1997`](http://arXiv.org/abs/0904.1997).
 
 10\) Bob Coecke and Ross Duncan, Interacting quantum observables:
 categorical algebra and diagrammatics, available as
-[arXiv:0906.4725](http://arXiv.org/abs/0906.4725).
+[`arXiv:0906.4725`](http://arXiv.org/abs/0906.4725).
 
 11\) Bob Coecke, Quantum picturalism, available as
-[arXiv:0908.1787](http://arXiv.org/abs/0908.1787).
+[`arXiv:0908.1787`](http://arXiv.org/abs/0908.1787).
 
 12\) Bob Coecke and Simon Perdrix, Environment and classical channels in
 categorical quantum mechanics,
@@ -596,7 +596,7 @@ important role in the renormalization of quantum field theories:
 21\) Alain Connes and Dirk Kreimer, Hopf algebras, renormalization and
 noncommutative geometry, Commun. Math. Phys. 199 (1998), 203-242. Also
 available as
-[arXiv:hep-th/9808042](http://arXiv.org/abs/hep-th/9808042).
+[`arXiv:hep-th/9808042`](http://arXiv.org/abs/hep-th/9808042).
 
 They built this group from Feynman diagrams. How? As you probably know,
 it's good to build groups starting from Lie algebras. And that's
@@ -771,7 +771,7 @@ The details are explained here:
 22\) Frdric Chapoton and Muriel Livernet, Pre-Lie algebras and the
 rooted trees operad, Int. Math. Res. Not. 2001 (2001), 395-408. Also
 available as
-[arXiv:math/0002069](http://arXiv.org/abs/arXiv:math/0002069).
+[`arXiv:math/0002069`](http://arXiv.org/abs/arXiv:math/0002069).
 
 The idea is that A is a lot like O, since we get elements of the free
 O-algebra on one generator by hitting that generator with operations in

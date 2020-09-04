@@ -77,39 +77,39 @@ algebraic geometry:
 
 4\) Jacob Lurie, Derived algebraic geometry I: stable
 infinity-categories, available as
-[arXiv:math/0608228](http://arXiv.org/abs/math/0608228).\
+[`arXiv:math/0608228`](http://arXiv.org/abs/math/0608228).\
 Derived algebraic geometry II: noncommutative algebra, available as
-[arXiv:math/0702299](http://arXiv.org/abs/math/0702299).\
+[`arXiv:math/0702299`](http://arXiv.org/abs/math/0702299).\
 Derived algebraic geometry III: commutative algebra, available as
-[arXiv:math/0703204](http://arXiv.org/abs/math/0703204).\
+[`arXiv:math/0703204`](http://arXiv.org/abs/math/0703204).\
 Derived algebraic geometry IV: deformation theory, available as
-[arXiv:0709.3091](http://arXiv.org/abs/0709.3091).\
+[`arXiv:0709.3091`](http://arXiv.org/abs/0709.3091).\
 Derived algebraic geometry V: structured spaces, available as
-[arXiv:0905.0459](http://arXiv.org/abs/0905.0459).\
+[`arXiv:0905.0459`](http://arXiv.org/abs/0905.0459).\
 Derived algebraic geometry VI: E~k~ algebras, available as
-[arXiv:0911.0018](http://arXiv.org/abs/0911.0018).
+[`arXiv:0911.0018`](http://arXiv.org/abs/0911.0018).
 
 For related work, try these:
 
 5\) David Ben-Zvi, John Francis and David Nadler, Integral transforms
 and Drinfeld centers in derived algebraic geometry available as
-[arXiv:0805.0157](http://arxiv.org/abs/0805.0157).
+[`arXiv:0805.0157`](http://arxiv.org/abs/0805.0157).
 
 6\) David Ben-Zvi and David Nadler, The character theory of a complex
-group, available as [arXiv:0904.1247](http://arxiv.org/abs/0904.1247).
+group, available as [`arXiv:0904.1247`](http://arxiv.org/abs/0904.1247).
 
 Lurie is now using (\infty,n)-categories to study topological quantum field
 theory. He's making precise and proving some old conjectures that James
 Dolan and I made:
 
 7\) Jacob Lurie, On the classification of topological field theories,
-available as [arXiv:0905.0465](http://arxiv.org/abs/0905.0465).
+available as [`arXiv:0905.0465`](http://arxiv.org/abs/0905.0465).
 
 Jonathan Woolf is doing it in a somewhat different way, which I hope
 will be unified with Lurie's work eventually:
 
 8\) Jonathan Woolf, Transversal homotopy theory, available as
-[arXiv:0910.3322](http://arxiv.org/abs/0910.3322).
+[`arXiv:0910.3322`](http://arxiv.org/abs/0910.3322).
 
 All this stuff is starting to transform math in amazing ways. And I hope
 physics, too - though so far, it's mainly helping us understand the

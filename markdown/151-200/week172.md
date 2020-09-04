@@ -483,7 +483,7 @@ following comments on Wil McCarthy's article:
 > lead to gold". It could not be exactly "lead", and it could not be
 > exactly "gold", and it could not even be in states which would
 > justify making an analogy to those specific elements, unless you
-> carefully selected the properties you wanted to compare \-- e.g.
+> carefully selected the properties you wanted to compare -- e.g.
 > color. But selecting color you might say "it's like gold", whereas
 > selecting conductivity you might choose a different element (or
 > something different from any element) to compare it to.
@@ -586,7 +586,7 @@ Also, here are some comments by Noam Elkies about the number 24:
 > This yields all integer matrices of determinant 1 whose off-diagonal
 > matrices are multiples of n. Reducing mod n, we get the group of
 > scalar matrices if and only if each unit in Z/nZ is a square root of 1
-> \-- in which case we have a normal subgroup of SL_2(Z) \[the group of
+> -- in which case we have a normal subgroup of SL_2(Z) \[the group of
 > 2\times2 integer matrices of determinant 1\], so in particular the
 > corresponding conjugate
 >
@@ -609,7 +609,7 @@ Also, here are some comments by Noam Elkies about the number 24:
 > special role played by these integers n, which as we know are 24 and
 > its factors.
 >
-> \--Noam D. Elkies
+> --Noam D. Elkies
 
 And here is some more by Noam Elkies:
 

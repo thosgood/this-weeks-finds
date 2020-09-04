@@ -1349,7 +1349,7 @@ Tim Chow replied:
 > language of arithmetic. Ditto with "Con(PA+Con(PA))". However, once
 > you start ascending the ordinal hierarchy, a difficulty appears. The
 > language of arithmetic doesn't let you talk about "ordinals"
-> directly\-\--that's a set-theoretical concept. In order to express a
+> directly---that's a set-theoretical concept. In order to express a
 > statement like "Con(T)" for some theory T, you need at minimum to be
 > able to give some sort of "recursive description" or "recursive
 > axiomatization" of T (where here I use the word "recursive" in the
@@ -1387,8 +1387,8 @@ Tim Chow replied:
 > Feferman-Schütte framework is shown, after some work, to indeed be
 > provable below Γ~0~.
 >
-> It's still possible, of course, for someone\-\--you mentioned Nik
-> Weaver\-\-- to come along and argue that our intuitive notion of
+> It's still possible, of course, for someone---you mentioned Nik
+> Weaver--- to come along and argue that our intuitive notion of
 > predicativism, fuzzy though it is, can't possibly be identified with
 > the level Γ~0~. The reason you can't seem to decide immediately
 > whether Weaver's position is nonsensical or not is probably because

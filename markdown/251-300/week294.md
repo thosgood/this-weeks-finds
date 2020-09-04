@@ -949,7 +949,7 @@ kind of categorified vector space. See Section 3 here:
 20\) John Baez and Alissa Crans, Higher-dimensional algebra VI: Lie
 2-algebras, Theory and Applications of Categories 12 (2004), 492-528.
 Available at `http://www.tac.mta.ca/tac/volumes/12/15/12-15abs.html` and
-also as [arXiv:math.QA/0307263](http://arXiv.org/abs/math.QA/0307263).
+also as [`arXiv:math.QA/0307263`](http://arXiv.org/abs/math.QA/0307263).
 
 This idea was known to Grothendieck quite a while ago - read the paper
 for the history. But anyway, I think it's neat that we can take the
@@ -1043,7 +1043,7 @@ He wrote:
 > framework for fluctuating-charge models in atom-space and in
 > bond-space, Journal of Chemical Physics 129 (2008), 214113. DOI:
 > 10.1063/1.3021400. Also available as
-> [arXiv:0807.2174](http://arxiv.org/abs/0807.2174).
+> [`arXiv:0807.2174`](http://arxiv.org/abs/0807.2174).
 >
 > In this paper, I also reported the discovery that despite there being
 > more charge transfer variables (bond variables) than charge variables

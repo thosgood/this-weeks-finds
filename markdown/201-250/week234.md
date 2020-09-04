@@ -925,13 +925,13 @@ My student Mike Stay wrote:
 >
 > Classical music was written for a particular key because the keys
 > sounded different! Using the tuning above induces a "distance" on
-> the keys\--how in tune they are. Pieces would use the dissonant
+> the keys--how in tune they are. Pieces would use the dissonant
 > tunings of other keys for effect. My friend is an organist and piano
 > tuner; he says that with the logarithmic tuning all keys sound
 > "equally bad."
 >
-> But the timbre of the instrument\--the harmonics and
-> overtones\--apparently have a great deal to do with whether a
+> But the timbre of the instrument--the harmonics and
+> overtones--apparently have a great deal to do with whether a
 > particular chord is consonant or not. This is a really cool paper that
 > illustrates how to choose nearly any collection of frequencies as a
 > scale and then come up with a timbre for which it sounds natural and
@@ -1120,7 +1120,7 @@ Noam Elkies explained what David Lewin was doing with PSL(2,7):
 >
 > I hope not; while the usual sense "commonplace, ordinary,
 > unimportant" of "trivial" does come from a Latin word "trivium",
-> it's not the academic trivium but a fork in the road \-- the meeting
+> it's not the academic trivium but a fork in the road -- the meeting
 > of "tres viae", three ways. Apparently it was common for people to
 > make gossip and other trivial small talk at these three-way crossings.
 > See for instance `http://www.m-w.com/dictionary/trivial`, which to its
@@ -1129,7 +1129,7 @@ Noam Elkies explained what David Lewin was doing with PSL(2,7):
 > > 2b : relating to or being the mathematically simplest case;
 > > specifically : characterized by having all variables equal to zero
 >
-> \-- it would surely be too much to ask a general dictionary to mention
+> -- it would surely be too much to ask a general dictionary to mention
 > identity elements or maps involving an arbitrary group. To its
 > *dis*credit, the same dictionary glosses "trivium" as
 > "crossroads", which should of course be where at least *four* ways
@@ -1185,7 +1185,7 @@ Noam Elkies explained what David Lewin was doing with PSL(2,7):
 > chord to be again a Steiner chord. But, since M~12~ is a simple group,
 > it contains only even permutations, whereas a 12-cycle is odd. It
 > follows that M~12~ does not contain the triply-transitive group
-> PGL_2(Z/11Z) \-- though it *does* contain the index-2 subgroup
+> PGL_2(Z/11Z) -- though it *does* contain the index-2 subgroup
 > PSL_2(Z/11Z), in two different ways that are switched by an outer
 > automorphism of M~12~!
 >
@@ -1255,7 +1255,7 @@ Noam Elkies explained what David Lewin was doing with PSL(2,7):
 > noted this possibility in one of his last papers.
 >
 > The key (no pun intended) is that this group G168 is also isomorphic
-> with the invertible 3\times3 matrices over Z/2Z \-- one of those remarkable
+> with the invertible 3\times3 matrices over Z/2Z -- one of those remarkable
 > isomorphisms between small matrix groups. So, G168 permutes the 2^3-1
 > = 7 nonzero vectors in a 3-dimensional vector space V over Z/2Z. The
 > existence of a 7-cycle is automatic because 7 is prime, though it is
@@ -1293,7 +1293,7 @@ Noam Elkies explained what David Lewin was doing with PSL(2,7):
 > action on the 8 points of the projective line over Z/7Z and leave four
 > of the 12 untouched.
 >
-> \--Noam D. Elkies
+> --Noam D. Elkies
 >
 > P.S.
 >
@@ -1481,7 +1481,7 @@ Steve Lubin wrote:
 > all directions like wallpaper -in this I believe he followed out
 > earlier work of Gottfried Weber. The initial insight of taking the
 > patterns on this flat surface and giving them closure by covering a
-> torus with them was mine\--I'm not aware of any prior precedents.
+> torus with them was mine--I'm not aware of any prior precedents.
 >
 > BTW, I'm a physics groupie, always starved for laypersons' accounts
 > of the latest stuff. (The collapse of Scientific American as a classy

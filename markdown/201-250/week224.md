@@ -221,7 +221,7 @@ He sent me this email:
 > > Again Oz was overcome with curiosity, so mimicking Toby's voice, he
 > > asked, "Why do we call the momentum p?"
 > >
-> > The Wiz glared at Toby. "Because m is already taken \-- it stands
+> > The Wiz glared at Toby. "Because m is already taken -- it stands
 > > for mass! Seriously, I don't know why people call position q and
 > > momentum p. All I know is that if you use any other letters, people
 > > can tell you're not a physicist. So I urge you to follow tradition

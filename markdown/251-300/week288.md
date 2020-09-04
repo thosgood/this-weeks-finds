@@ -48,7 +48,7 @@ formalized using category theory. For an explanation, try this:
 
 1\) John Baez and Mike Stay, Physics, topology, logic and computation: a
 Rosetta Stone, to appear in New Structures in Physics, ed. Bob Coecke.
-Available at [arXiv:0903.0340](http://arxiv.org/abs/arXiv:0903.0340).
+Available at [`arXiv:0903.0340`](http://arxiv.org/abs/arXiv:0903.0340).
 
 And after I spent a while thinking about electrical circuits using
 category theory, I realized that this perspective might shed light on

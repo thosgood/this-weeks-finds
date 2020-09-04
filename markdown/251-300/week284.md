@@ -129,9 +129,9 @@ equivalent, roughly this:
 >
 > 4\) Mikhail Khovanov and Aaron Lauda, A diagrammatic approach to
 > categorification of quantum groups I-III, available as
-> [arXiv:0803.4121](http://arxiv.org/abs/0803.4121),
-> [arXiv:0804.2080](http://arxiv.org/abs/0804.2080), and
-> [arXiv:0803.3250](http://arxiv.org/abs/0807.3250).
+> [`arXiv:0803.4121`](http://arxiv.org/abs/0803.4121),
+> [`arXiv:0804.2080`](http://arxiv.org/abs/0804.2080), and
+> [`arXiv:0803.3250`](http://arxiv.org/abs/0807.3250).
 >
 > Huh? Well, just as the group of matrices has a subgroup consisting of
 > upper triangular matrices and a subgroup consisting of lower
@@ -177,11 +177,11 @@ equivalent, roughly this:
 > algebras, namely sl(2):
 >
 > 5\) Aaron Lauda, A categorification of quantum sl(2), available as
-> [arXiv:0803.3652](http://arxiv.org/abs/0803.3652).
+> [`arXiv:0803.3652`](http://arxiv.org/abs/0803.3652).
 >
 > 6\) Aaron Lauda, Categorified quantum sl(2) and equivariant cohomology
 > of iterated flag varieties, available as
-> [arXiv:0803.3848](http://arxiv.org/abs/0803.3848).
+> [`arXiv:0803.3848`](http://arxiv.org/abs/0803.3848).
 >
 > But there are also lots of other people tackling the geometrical side
 > of the story. One of these is Anthony Licata of Stanford University!
@@ -190,12 +190,12 @@ equivalent, roughly this:
 >
 > 6\) Sabin Cautis, Joel Kamnitzer, and Anthony Licata, Coherent sheaves
 > and categorical sl(2) actions, available as
-> [arXiv:0902.1796](http://arxiv.org/abs/0902.1796).
+> [`arXiv:0902.1796`](http://arxiv.org/abs/0902.1796).
 >
 > 7\) Sabin Cautis, Joel Kamnitzer, and Anthony Licata, Derived
 > equivalences for cotangent bundles of Grassmannians via categorical
 > sl(2) actions, available as
-> [arXiv:0902.1797](http://arxiv.org/abs/0902.1797).
+> [`arXiv:0902.1797`](http://arxiv.org/abs/0902.1797).
 >
 > The first paper studies various notions of a categorified
 > representation of sl(2). The second studies an example coming from
@@ -382,7 +382,7 @@ equivalent, roughly this:
 >
 > 10\) John Baez, Alex Hoffnung and Christopher Walker,
 > Higher-dimensional algebra VII: groupoidification.
-> [arXiv:0908.4305](http://arxiv.org/abs/0908.4305).
+> [`arXiv:0908.4305`](http://arxiv.org/abs/0908.4305).
 >
 > Next came three talks on homotopy theory.
 >
@@ -469,7 +469,7 @@ equivalent, roughly this:
 >
 > 14\) A. Emin Tatar, Length 3 complexes of abelian sheaves and Picard
 > 2-stacks, available as
-> [arXiv:0906.2393](http://arxiv.org/abs/0906.2393).
+> [`arXiv:0906.2393`](http://arxiv.org/abs/0906.2393).
 >
 > You've probably heard me talk about
 > [2-groups](http://arxiv.org/abs/math/0307200). These are categorified
@@ -525,7 +525,7 @@ equivalent, roughly this:
 >
 > 15\) Mathieu Dupont, Abelian categories in dimension 2, Ph.D thesis,
 > l'Universite Catholique de Louvain, 2008. Available as
-> [arXiv:0809.1760](http://arxiv.org/abs/0809.1760). Original available
+> [`arXiv:0809.1760`](http://arxiv.org/abs/0809.1760). Original available
 > in French at `http://hdl.handle.net/2078.1/12735`
 >
 > But the simplest symmetric 2-groups are those with this extra
@@ -590,7 +590,7 @@ equivalent, roughly this:
 >
 > 16\) Ettore Aldrovandi and Behrang Noohi, Butterflies I: morphisms of
 > 2-group stacks, Adv. Math. 221 (2009), 687-773. Also available as
-> [arXiv:0808.3627](http://arxiv.org/abs/0808.3627).
+> [`arXiv:0808.3627`](http://arxiv.org/abs/0808.3627).
 >
 > Now, what did Tatar do? He categorified all this stuff once more! In
 > other words, he defined Picard 2-stacks, and proved that every Picard
@@ -623,7 +623,7 @@ equivalent, roughly this:
 >
 > 16\) Jacob Lurie, Higher Topos Theory, Annals of Mathematics Studies
 > 170, Princeton University Press, Princeton, NJ, 2009. Also available
-> as [arXiv:math/0608040](http://arXiv.org/abs/math/0608040).
+> as [`arXiv:math/0608040`](http://arXiv.org/abs/math/0608040).
 >
 > This involves taking two vertices of our quasicategory - which,
 > remember, is just a simplicial set with some properties - and cooking
@@ -632,11 +632,11 @@ equivalent, roughly this:
 >
 > 17\) Daniel Dugger and David I. Spivak, Rigidification of
 > quasi-categories, available as
-> [arXiv:0910.0814](http://arxiv.org/abs/0910.0814).
+> [`arXiv:0910.0814`](http://arxiv.org/abs/0910.0814).
 >
 > 18\) Daniel Dugger and David I. Spivak, Mapping spaces in
 > quasi-categories, available as
-> [arXiv:0911.0469](http://arxiv.org/abs/0911.0469).
+> [`arXiv:0911.0469`](http://arxiv.org/abs/0911.0469).
 >
 > And that's what David explained in his talk!
 >

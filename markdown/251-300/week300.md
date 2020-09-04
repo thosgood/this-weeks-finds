@@ -357,7 +357,7 @@ difference, try this:
 Sec. 2.4: Stuff, structure and properties, in $n$-Categories: Foundations
 and Applications, eds. John Baez and Peter May, Springer, Berlin, 2009.
 Also available as
-[arXiv:math/0608420](http://arxiv.org/abs/math/0608420).
+[`arXiv:math/0608420`](http://arxiv.org/abs/math/0608420).
 
 Then you can tell your colleagues: "I finally understand *stuff*." And
 they'll ask: "What stuff?" And you can answer, rolling your eyes
@@ -735,7 +735,7 @@ oscillator! This explains the combinatorics of Feynman diagrams:
 14\) Jeffrey Morton, Categorified algebra and quantum mechanics, TAC 16
 (2006), 785-854, available at
 `http://www.emis.de/journals/TAC/volumes/16/29/16-29abs.html` Also
-available as [arXiv:math/0601458](http://arxiv.org/abs/math/0601458).
+available as [`arXiv:math/0601458`](http://arxiv.org/abs/math/0601458).
 
 And, it's a nice test case of the groupoidification program, where we
 categorify lots of algebra by saying "wherever we see a number, let's
@@ -743,7 +743,7 @@ try to think of it as the cardinality of a groupoid":
 
 15\) John Baez, Alex Hoffnung and Christopher Walker, Higher-dimensional
 algebra VII: Groupoidification, available as
-[arXiv:0908.4305](http://arxiv.org/abs/0908.4305).
+[`arXiv:0908.4305`](http://arxiv.org/abs/0908.4305).
 
 But now I'm telling you something new! I'm saying that any stuff type
 also gives a Dirichlet series, namely
@@ -797,7 +797,7 @@ Mathematics 194 (2005), 246-283. Also available at
 19\) Andrew Stacey and S. Whitehouse, The hunting of the Hopf ring,
 Homology, Homotopy and Applications, 11 (2009), 75-132, available at
 `http://intlpress.com/HHA/v11/n2/a6/` Also available as
-[arXiv:0711.3722](http://arxiv.org/abs/0711.3722).
+[`arXiv:0711.3722`](http://arxiv.org/abs/0711.3722).
 
 Borger and Wieland call a monoid in the category of birings a
 "plethory". The star example is the algebra of symmetric functions.

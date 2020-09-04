@@ -238,7 +238,7 @@ Mike Shulman and I tried to explain this layer cake business here:
 8\) John Baez and Michael Shulman, Lectures on $n$-categories and
 cohomology, to appear in $n$-Categories: Foundations and Applications,
 eds. John Baez and Peter May. Also available as
-[arXiv:math/0608420](http://arxiv.org/abs/math/0608420)
+[`arXiv:math/0608420`](http://arxiv.org/abs/math/0608420)
 
 Whoops! I see I've drifted from my supposed topic - the work of John
 Thompson - to something I actually understand. It was a digression, but

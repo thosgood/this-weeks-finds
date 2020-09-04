@@ -405,7 +405,7 @@ wrote:
 >
 > 10\) S. E Thorsett, Terrestrial implications of cosmological gamma-ray
 > burst models, Astrophys. J. 444 (1995), L53. Also available as
-> [arXiv:astro-ph/9501019](http://arxiv.org/abs/astro-ph/9501019).
+> [`arXiv:astro-ph/9501019`](http://arxiv.org/abs/astro-ph/9501019).
 >
 > Specifically, nitric oxide increases/ozone decreases.
 >
@@ -446,12 +446,12 @@ ultimately rather mysterious quest. Andrew wrote:
 > 13\) M. Hurwitz, T. P. Sasseen and M. M. Sirk, Observations of diffuse
 > EUV emission with the Cosmic Hot Interstellar Plasma Spectrometer
 > (CHIPS), Astrophys. J. 623 (2005), 911-916. Also available as
-> [arXiv:astro-ph/0411121](http://arxiv.org/abs/astro-ph/0411121)
+> [`arXiv:astro-ph/0411121`](http://arxiv.org/abs/astro-ph/0411121)
 >
 > 14\) T. P. Sasseen, M. Hurwitz et al, A search for EUV emission from
 > comets with the Cosmic Hot Interstellar Plasma Spectrometer (CHIPS),
 > Astrophys. J. 650 (2006), 461-469. Also available as
-> [arXiv:astro-ph/0606466](http://arxiv.org/abs/astro-ph/0606466).
+> [`arXiv:astro-ph/0606466`](http://arxiv.org/abs/astro-ph/0606466).
 >
 > The null result seems interesting since a signal was expected.
 >

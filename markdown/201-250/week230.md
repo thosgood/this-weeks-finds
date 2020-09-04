@@ -284,7 +284,7 @@ You may ask where the rotation groups SO(n) with n odd went! Well, these
 correspond to fancier Dynkin diagrams that aren't simply laced, like
 this:
 
-o\-\--o\-\--o\-\--o=>=o
+o---o---o---o=>=o
 
 The funny arrow here indicates that the last two vectors aren't at a
 120-degree angle; they're at a 135-degree angle, and the last vector is
@@ -828,7 +828,7 @@ Here are a couple more online introductions:
 at `http://www.amsta.leeds.ac.uk/~pmtwc/quivlecs.pdf`.
 
 23\) Alistair Savage, Finite-dimensional algebras and quivers, available
-as [arXiv:math/0505082](http://www.arxiv.org/abs/math/0505082).
+as [`arXiv:math/0505082`](http://www.arxiv.org/abs/math/0505082).
 
 ------------------------------------------------------------------------
 

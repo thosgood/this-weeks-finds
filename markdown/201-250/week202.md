@@ -449,10 +449,10 @@ dimension, Lecture Notes in Mathematics 1488, Springer Verlag, Berlin,
 James Propp has developed this idea in a couple of fascinating papers:
 
 8\) James Propp, Euler measure as generalized cardinality, available as
-[arXiv:math/0203289](http://arxiv.org/abs/math/0203289).
+[`arXiv:math/0203289`](http://arxiv.org/abs/math/0203289).
 
 9\) James Propp, Exponentiation and Euler measure, available as
-[arXiv:math/0204009](http://arxiv.org/abs/math/0204009).
+[`arXiv:math/0204009`](http://arxiv.org/abs/math/0204009).
 
 Using this idea, it seems reasonable to consider the space of binary
 trees with leaves labelled by real numbers as a rigorous version of
@@ -478,7 +478,7 @@ n-categories and operads:
 
 10\) Tom Leinster, Higher Operads, Higher Categories, Cambridge U.
 Press, Cambridge, 2003. Also available as
-[arXiv:math.CT/0305049](http://arxiv.org/abs/math.CT/0305049).
+[`arXiv:math.CT/0305049`](http://arxiv.org/abs/math.CT/0305049).
 
 As you'll note, he managed to talk the press into letting him keep his
 book freely available online! We should all do this. Nobody will ever
@@ -525,10 +525,10 @@ homotopy theory:
 
 11\) Michael A. Batanin, The Eckmann-Hilton argument, higher operads and
 E~n~ spaces, available as
-[arXiv:math.CT/0207281](http://arxiv.org/abs/math.CT/0207281).
+[`arXiv:math.CT/0207281`](http://arxiv.org/abs/math.CT/0207281).
 
 Michael A. Batanin, The combinatorics of iterated loop spaces, available
-as [arXiv:math.CT/0301221](http://arxiv.org/abs/math.CT/0301221).
+as [`arXiv:math.CT/0301221`](http://arxiv.org/abs/math.CT/0301221).
 
 Getting a manageable combinatorial understanding of the space of loops
 in the spaces of loops in the space of loops... in some space has
@@ -580,7 +580,7 @@ Closely related is this paper by Kerler:
 
 14\) Thomas Kerler, Towards an algebraic characterization of
 3-dimensional cobordisms, Contemp. Math. 318 (2003) 141-173. Also
-available as [arXiv:math/0106253](http://arxiv.org/abs/math/0106253).
+available as [`arXiv:math/0106253`](http://arxiv.org/abs/math/0106253).
 
 It relates the category whose objects are 2-manifolds with a circle as
 boundary, and whose morphisms are 3-manifolds with corners going between

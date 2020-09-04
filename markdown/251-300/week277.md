@@ -16,7 +16,7 @@ This is a companion to a paper I talked about in
 2\) John Baez and Mike Stay, Physics, topology, logic and computation: a
 Rosetta Stone, to appear in New Structures in Physics, edited by Bob
 Coecke. Available as
-[arXiv:0903.0340](http://arxiv.org/abs/arXiv:0903.0340).
+[`arXiv:0903.0340`](http://arxiv.org/abs/arXiv:0903.0340).
 
 Both of them are supposed to be gentle explanations of how
 "diagrammatic thinking" unifies and clarifies our perspective on many
@@ -208,7 +208,7 @@ it near the beginning of this wonderful paper:
 
 7\) Jiannis K. Pachos, Manifestations of topological effects in
 graphene, to appear in Contemp. Phys.. Also available as
-[arXiv:0812.1116](http://arxiv.org/abs/arXiv:0812.1116).
+[`arXiv:0812.1116`](http://arxiv.org/abs/arXiv:0812.1116).
 
 You start with a really simplified model: a planar hexagonal honeycomb
 that can either have or lack an electron at each vertex. You ignore the

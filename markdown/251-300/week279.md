@@ -4,7 +4,7 @@ I just finished a paper with John Huerta, a math grad student who really
 likes particle physics:
 
 1\) John Baez and John Huerta, Division algebras and supersymmetry,
-available as [arXiv:0909.0551](http://arxiv.org/abs/0909.0551).
+available as [`arXiv:0909.0551`](http://arxiv.org/abs/0909.0551).
 
 You can think of this paper as our sequel to:
 
@@ -257,7 +257,7 @@ the proof, and our argument is based on theirs:
 11\) Tevian Dray, Jason Janesky and Corinne Manogue, Octonionic
 hermitian matrices with non-real eigenvalues, Adv. Appl. Clifford
 Algebras 10 (2000), 193-216. Appendix B, The 3-Ψ's rule. Also available
-as [arXiv:math/0006069](http://arXiv.org/abs/math/0006069).
+as [`arXiv:math/0006069`](http://arXiv.org/abs/math/0006069).
 
 They give a little more history of this wondrous identity. They say that
 Manogue's student Schray called it "the 3-Ψ's rule" in his
@@ -270,7 +270,7 @@ and also here:
 
 13\) Jörg Schray, The general classical solution of the superparticle,
 Class. Quant. Grav. 13 (1996), 27-38. Also available as
-[arXiv:hep-th/9407045](http://arXiv.org/abs/hep-th/9407045).
+[`arXiv:hep-th/9407045`](http://arXiv.org/abs/hep-th/9407045).
 
 They also write:
 
@@ -480,11 +480,11 @@ Also available at
 
 16\) Steve Awodey and Michael A. Warren, Homotopy theoretic models of
 identity types, available as
-[arXiv:0709.0248](http://arxiv.org/abs/0709.0248).
+[`arXiv:0709.0248`](http://arxiv.org/abs/0709.0248).
 
 17\) Steve Awodey, Pieter Hofstra, Michael A. Warren, Martin-Lf
 Complexes, available as
-[arXiv:0906.4521](http://arxiv.org/abs/0906.4521).
+[`arXiv:0906.4521`](http://arxiv.org/abs/0906.4521).
 
 18\) Benno van den Berg and Richard Garner, Types are weak
 omega-groupoids, available at
@@ -499,11 +499,11 @@ omega-groupoids, available at
 > like to signal that division algebras also appear in the N-extended
 > supersymmetric quantum mechanics (in one dimension) for N=1,2,4,8.
 > This is hardly surprising, of course
-> ([arXiv:hep-th/0109073](http://arxiv.org/abs/hep-th/0109073) NPB Pr.
+> ([`arXiv:hep-th/0109073`](http://arxiv.org/abs/hep-th/0109073) NPB Pr.
 > Sup.). Perhaps slightly more surprising is the fact that the
 > octonionic structure constants enter, as coupling constants, N=8
 > invariant actions, like e.g. the (1,8,7) model of
-> [arXiv:hep-th/0511274](http://arxiv.org/abs/hep-th/0511274) (also in
+> [`arXiv:hep-th/0511274`](http://arxiv.org/abs/hep-th/0511274) (also in
 > JHEP). In this example the 7 auxiliary fields can be associated with
 > the 7 imaginary octonions, preserving the "octonionic covariance". I
 > should add that the representations of N-extended 1D superalgebra are

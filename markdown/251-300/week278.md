@@ -185,17 +185,17 @@ mass, ScienceDaily, August 3, 2009,
 6\) Pierre Kervella et al, The close circumstellar environment of
 Betelgeuse. Adaptive optics spectro-imaging in the near-IR with
 VLT/NACO, Astronomy and Astrophysics, 2009. Also available as
-[arXiv:0907.1843](http://arxiv.org/abs/0907.1843).
+[`arXiv:0907.1843`](http://arxiv.org/abs/0907.1843).
 
 7\) Keiichi Ohnaka et al, Spatially resolving the inhomogeneous
 structure of the dynamical atmosphere of Betelgeuse with VLTI/AMBER,
 Astronomy and Astrophysics, 2009. Also available as
-[arXiv:0906.4792](http://arxiv.org/abs/0906.4792).
+[`arXiv:0906.4792`](http://arxiv.org/abs/0906.4792).
 
 8\) Jacco Th. van Loon, The effects of red supergiant mass loss on
 supernova ejecta and the circumburst medium, in Hot and Cool: Bridging
 Gaps in Massive Star Evolution, Pasadena, November 2008. Also available
-as [arXiv:0906.4855](http://arxiv.org/abs/0906.4855).
+as [`arXiv:0906.4855`](http://arxiv.org/abs/0906.4855).
 
 Speaking of dust, there's a great blog entry by Stefan Scherer about
 dust in a planetary system 95 light years away - silica dust that seems
@@ -212,7 +212,7 @@ thousand years ago!
 10\) C. M. Lisse et al., Abundant circumstellar silica dust and SiO gas
 created by a giant hypervelocity collision in the \~12 Myr HD172555
 System, Astrophys. J. 701 (2009), 2019-2032. Also available as
-[arXiv:0906.2536](http://arxiv.org/abs/0906.2536).
+[`arXiv:0906.2536`](http://arxiv.org/abs/0906.2536).
 
 If you have some pent-up aggression and feel the need for catharsis, try
 watching an animated movie of this collision:

@@ -173,13 +173,13 @@ higher. How about if you're a more advanced student trying to learn
 general relativity? Here you go:
 
 9\) Sean M. Carroll, Lecture Notes on General Relativity, available as
-[arXiv:gr-qc/9712019](http://arXiv.org/abs/arXiv:gr-qc/9712019)
+[`arXiv:gr-qc/9712019`](http://arXiv.org/abs/arXiv:gr-qc/9712019)
 
 How about quantum field theory? Then you're in luck - there are *two*
 detailed books available online:
 
 10\) Warren Siegel, Fields, available as
-[arXiv:hep-th/9912205](http://arXiv.org/abs/arXiv:hep-th/9912205)
+[`arXiv:hep-th/9912205`](http://arXiv.org/abs/arXiv:hep-th/9912205)
 
 10\) Mark Srednicki, Quantum Field Theory, Cambridge U. Press,
 Cambridge, 2007. Also available at
@@ -429,7 +429,7 @@ E~8~ satisfy *yet another* identity:
 
      \        /                
       \      /                
-       \----/                
+       ----/                
        |    |                       
        |    |           = 
        /----\            
@@ -492,21 +492,21 @@ For a good overview, try this:
 
 28\) J. M. Landsberg and L. Manivel, Representation theory and
 projective geometry, 2002. Available at
-[arXiv:math/0203260](http://arXiv.org/abs/math/0203260).
+[`arXiv:math/0203260`](http://arXiv.org/abs/math/0203260).
 
 Alas, they avoid drawing Feynman diagrams, though they talk about them
 in section 4. They prefer to use ideas from algebraic geometry:
 
 29\) J. M. Landsberg and L. Manivel, The projective geometry of
 Freudenthal's magic square, J. Algebra 239 (2001), 477-512. Also
-available as [arXiv:math/9908039](http://arXiv.org/abs/math/9908039).
+available as [`arXiv:math/9908039`](http://arXiv.org/abs/math/9908039).
 
 J. M. Landsberg and L. Manivel, Triality, exceptional Lie algebras and
 Deligne dimension formulas, Adv. Math. 171 (2002), 59-85. Also available
-as [arXiv:math/0107032](http://arXiv.org/abs/math/0107032).
+as [`arXiv:math/0107032`](http://arXiv.org/abs/math/0107032).
 
 J. M. Landsberg and L. Manivel, Series of Lie groups, available as
-[arXiv:math/0203241](http://arXiv.org/abs/math/0203241).
+[`arXiv:math/0203241`](http://arXiv.org/abs/math/0203241).
 
 Bruce Westbury, whom longtime readers of This Week's Finds will
 remember as John Barrett's collaborator, has also worked on this
@@ -515,7 +515,7 @@ triangle can be given an extra row and column if we introduce a
 6-dimensional algebra halfway between the quaternions and the octonions:
 
 30\) Bruce Westbury, Sextonions and the magic square, available as
-[arXiv:math/0411428](http://arXiv.org/abs/math/0411428).
+[`arXiv:math/0411428`](http://arXiv.org/abs/math/0411428).
 
 For even more references, try this:
 
@@ -528,7 +528,7 @@ Huerta. Also, my friend Tevian Dray has a student who just finished a
 thesis on a related topic:
 
 32\) Aaron Wangberg, The structure of E6, available as
-[arXiv:0711.3447](http://arXiv.org/abs/0711.3447).
+[`arXiv:0711.3447`](http://arXiv.org/abs/0711.3447).
 
 In a nutshell: E~6~ is secretly SL(3,O). Octonions rock!
 
@@ -575,7 +575,7 @@ Tony Smith wrote:
 > questions about this:
 >
 > > 32\) Aaron Wangberg, The structure of E6, available as
-> > [arXiv:0711.3447](http://www.arxiv.org/abs/0711.3447).
+> > [`arXiv:0711.3447`](http://www.arxiv.org/abs/0711.3447).
 > >
 > > In a nutshell: E~6~ is secretly SL(3,O). Octonions rock!
 >

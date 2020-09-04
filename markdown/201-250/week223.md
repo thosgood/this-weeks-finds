@@ -816,7 +816,7 @@ size issues in category theory:
 > (Exercise for those that like this sort of thing: Do we need to state
 > that B and F are small?)
 >
-> \-- Toby
+> -- Toby
 
 Thanks for clearing this up. I prefer not to distract people with size
 issues, so I didn't mention them until "the space of all spaces"

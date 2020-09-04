@@ -626,9 +626,9 @@ But, I'd like to it be correct as of the date I wrote it!
 
 Sean Carroll writes:
 
-> Hi John\--
+> Hi John--
 >
-> Just a couple of comments on This Week's Finds\--
+> Just a couple of comments on This Week's Finds--
 >
 > You mention a bunch of missions that could "probably" be funded for
 > the cost of a Moon base. That's being quite conservative! Each of

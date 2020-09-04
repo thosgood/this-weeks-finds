@@ -197,16 +197,16 @@ nitrogen-vacancy centers. People are busy studying the options:
 12\) R. J. Epstein, F. M. Mendoza, Y. K. Kato and D. D. Awschalom,
 Anisotropic interactions of a single spin and dark-spin spectroscopy in
 diamond, Nature Physics 1 (2005), 94-98. Also available as
-[arXiv:cond-mat/0507706](http://arxiv.org/abs/cond-mat/0507706).
+[`arXiv:cond-mat/0507706`](http://arxiv.org/abs/cond-mat/0507706).
 
 13\) Ph. Tamarat et al, The excited state structure of the
 nitrogen-vacancy center in diamond, available as
-[arXiv:cond-mat/0610357](http://arxiv.org/abs/cond-mat/0610357).
+[`arXiv:cond-mat/0610357`](http://arxiv.org/abs/cond-mat/0610357).
 
 14\) R. Hanson, O. Gywat and D. D. Awschalom, Room-temperature
 manipulation and decoherence of a single spin in diamond, Phys. Rev. B74
 (2006) 161203. Also available as
-[arXiv:quant-ph/0608233](http://arxiv.org/abs/quant-ph/0608233)
+[`arXiv:quant-ph/0608233`](http://arxiv.org/abs/quant-ph/0608233)
 
 But regardless of whether anyone can coax them into quantum computation,
 I like diamonds. Not to own - just to contemplate! I told you about the
@@ -252,7 +252,7 @@ with his attempt to pack all known forces and particles into a theory
 based on the exceptional Lie group E~8~:
 
 15\) Garrett Lisi, An exceptionally simple theory of everything,
-available as [arXiv:0711.0770](http://arxiv.org/abs/0711.0770)
+available as [`arXiv:0711.0770`](http://arxiv.org/abs/0711.0770)
 
 Part of his idea was to use Kostant's triality-based description of
 E~8~ to explain the three generations of leptons - see
@@ -301,7 +301,7 @@ puzzle:
 
 17\) José Miguel Figueroa-O'Farrill, A geometric construction of the
 exceptional Lie algebras F_4 and E~8~, available as
-[arXiv:0706.2829](http://arxiv.org/abs/0706.2829).
+[`arXiv:0706.2829`](http://arxiv.org/abs/0706.2829).
 
 The idea here is to build the Lie algebra of E~8~ using Killing spinors
 on the unit sphere in 16 dimensions.
@@ -444,11 +444,11 @@ take off. I'm just beginning to read his new papers, but I can't
 resist bringing them to your attention:
 
 19\) Aaron Lauda, A categorification of quantum sl(2), available as
-[arXiv:0803.3652](http://arxiv.org/abs/0803.3652).
+[`arXiv:0803.3652`](http://arxiv.org/abs/0803.3652).
 
 Aaron Lauda, Categorified quantum sl(2) and equivariant cohomology of
 iterated flag varieties, available as
-[arXiv:0803.3848](http://arxiv.org/abs/0803.3848).
+[`arXiv:0803.3848`](http://arxiv.org/abs/0803.3848).
 
 He's got a *2-category* that decategorifies to give the quantized
 universal enveloping algebra of sl(2)! And similarly for all the irreps
@@ -554,7 +554,7 @@ picture somehow:
 >
 > 22\) T. Fischbacher, H. Nicolai and H. Samtleben, Non-semisimple and
 > complex gaugings of N = 16 supergravity, available as
-> [arXiv:hep-th/0306276](http://arxiv.org/abs/hep-th/0306276%22).
+> [`arXiv:hep-th/0306276`](http://arxiv.org/abs/hep-th/0306276%22).
 
 ------------------------------------------------------------------------
 

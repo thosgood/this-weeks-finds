@@ -44,7 +44,7 @@ reformulate the cobordism hypothesis using more ideas from homotopy
 theory, and prove it:
 
 3\) Jacob Lurie, On the classification of topological field theories,
-available as [arXiv:0905.0465](http://arxiv.org/abs/0905.0465).
+available as [`arXiv:0905.0465`](http://arxiv.org/abs/0905.0465).
 
 He's running around giving talks about this work, and you can see some
 here:

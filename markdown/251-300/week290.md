@@ -38,7 +38,7 @@ there's a common stereotype that says mathematicians who like
 categories hate analysis, and vice versa. But I was wrong:
 
 1\) Goncalo Rodrigues, Categorifying measure theory: a roadmap,
-available as [arXiv:0912.4914](http://arxiv.org/abs/0912.4914).
+available as [`arXiv:0912.4914`](http://arxiv.org/abs/0912.4914).
 
 Read both papers together and you'll get a sense of how much there is
 to do in this area! A lot of basic definitions remain up for grabs. For

@@ -396,7 +396,7 @@ circuits of this sort in the following beautiful paper:
 8\) Christophe Sabot, Electrical networks, symplectic reductions, and
 application to the renormalization map of self-similar lattices, Proc.
 Sympos. Pure Math. 72 (2004), 155-205. Also available as
-[arXiv:math-ph/0304015](http://arxiv.org/abs/math-ph/0304015).
+[`arXiv:math-ph/0304015`](http://arxiv.org/abs/math-ph/0304015).
 
 He only considers circuits of a special form. They have no internal
 vertices, just terminals. As before, each pair of terminals is connected

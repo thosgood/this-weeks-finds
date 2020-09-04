@@ -520,7 +520,7 @@ transforms, try this:
 
 11\) R. K. P. Zia, Edward F. Redish and Susan R. McKay, Making sense of
 the Legendre transform, available as
-[arXiv:0806.1147](http://arxiv.org/abs/0806.1147).
+[`arXiv:0806.1147`](http://arxiv.org/abs/0806.1147).
 
 I've spent decades thinking about the Legendre transform in the context
 of classical mechanics, but not so much in thermodynamics. I think its
