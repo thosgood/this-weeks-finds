@@ -304,7 +304,7 @@ Since then, a lot has happened. Most importantly, Lubos Motl has shown
 quasinormal frequencies, available at
 [gr-qc/0212096](http://xxx.lanl.gov/abs/gr-qc/0212096).
 
-Alejandro Corichi has tried to explain why Dreyer's work using SO(3)
+Alejandro Corichi has tried to explain why Dreyer's work using \mathrm{SO}(3)
 loop quantum gravity is consistent with the existence of spin-1/2
 particles:
 
@@ -492,7 +492,7 @@ may at first glance seem almost as bizarre as Glennie's identity, but
 it's not! To understand this, it helps to think about "operads".
 
 I defined operads last week. Very roughly, these are gadgets that for
-each n have a set O(n) of abstract $n$-ary operations:
+each n have a set \mathrm{O}(n) of abstract $n$-ary operations:
 
                       \    |    /
                        \   |   / 
@@ -524,7 +524,7 @@ together with ways to compose them, like this:
                            |
 
 Given an operad O, an "O-algebra" is, again very roughly, a set S on
-which each element of O(n) is represented as an actual $n$-ary operation:
+which each element of \mathrm{O}(n) is represented as an actual $n$-ary operation:
 that is, a function from S^n to S.
 
 Now, all of this also works if we replace the sets by vector spaces,
@@ -652,7 +652,7 @@ octonions:
 
 However, he did it using the representation theory of quantum sl(2).
 These folks define a *different* q-deformation of the octonions using
-the representation theory of quantum so(8):
+the representation theory of quantum \mathfrak{so}(8):
 
 17) Georgia Benkart, Jose M. Pirez-Izquierdo, A quantum octonion
 algebra, Trans. Amer. Math. Soc. 352 (2000), 935-968, also available at
@@ -660,7 +660,7 @@ algebra, Trans. Amer. Math. Soc. 352 (2000), 935-968, also available at
 
 I find that a bit more tempting, since the ordinary octonions arise from
 triality: the outer automorphism relating the three 8-dimensional irreps
-of so(8). I don't know how (or whether) these quantum octonions are
+of \mathfrak{so}(8). I don't know how (or whether) these quantum octonions are
 related to the 7-dimensional representation of quantum G2, which could
 be called the "quantum imaginary octonions" and was studied by Greg
 Kuperberg:

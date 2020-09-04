@@ -175,7 +175,7 @@ you have plenty to do and can't spend an *infinite* amount of time
 reading This Week's Finds, even if the subject is infinity.
 
 So, if you don't mind me just mentioning some of the high points, there
-are guys like ω^4 and ω^5^ and so on, and after all these comes
+are guys like ω^4 and ω^5 and so on, and after all these comes
 
 ω^ω^.
 
@@ -227,7 +227,7 @@ Hey, look! It's
 
 That was cool. Then comes
 
-ω^ω^3^, ... ω^ω^4^, ... ω^ω^5^^, ...
+ω^ω^3^, ... ω^ω^4^, ... ω^ω^5^, ...
 
 and so on.
 
@@ -972,8 +972,8 @@ and Application of Categories 16 (2006), 785-854. Available at
 available as [math.QA/0601458](http://arxiv.org/abs/math.QA/0601458).
 
 He starts from the beginning, explains how and why one would try to
-categorify the harmonic oscillator, introduces the "U(1)-sets" and
-"U(1)-stuff types" needed to do this, and shows how the usual theorem
+categorify the harmonic oscillator, introduces the "\mathrm{U}(1)-sets" and
+"\mathrm{U}(1)-stuff types" needed to do this, and shows how the usual theorem
 expressing time evolution of a perturbed oscillator as a sum over
 Feynman diagrams can be categorified. His paper is now *the* place to
 read about this subject. Take a look!

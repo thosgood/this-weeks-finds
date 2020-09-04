@@ -356,16 +356,16 @@ building superstring theories in 9+1 dimensions. In eleven dimensions,
 the kinship between bosons and fermions is more subtle, and may involve
 the exceptional group F4.
 
-9) T. Pengpan and Pierre Ramond, M(ysterious) patterns in SO(9), Phys.
+9) T. Pengpan and Pierre Ramond, M(ysterious) patterns in \mathrm{SO}(9), Phys.
 Rep. 315 (1999) 137-152, also available as
 [hep-th/9808190](http://xxx.lanl.gov/abs/hep-th/9808190).
 
-The light-cone little group, SO(9), classifies the massless degrees of
+The light-cone little group, \mathrm{SO}(9), classifies the massless degrees of
 freedom of eleven-dimensional supergravity, with a triplet of
 representations. We observe that this triplet generalizes to four-fold
 infinite families with the quantum numbers of massless higher spin
 states. Their mathematical structure stems from the three equivalent
-ways of embedding SO(9) into the exceptional group F4.
+ways of embedding \mathrm{SO}(9) into the exceptional group F4.
 
 ------------------------------------------------------------------------
 

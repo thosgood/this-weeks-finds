@@ -733,10 +733,10 @@ Then he wrote:
 > want to compute their isometry 2-groups? Here's a fact for you:
 >
 > The isometry 2-group of the nontrivial Z/2-gerbe over S^2 is itself a
-> Z/2-gerbe over O(3), the isometry group of S^2. In particular, it is
+> Z/2-gerbe over \mathrm{O}(3), the isometry group of S^2. In particular, it is
 > not equivalent to any group.
 >
-> The gerbe over O(3), however, is trivial. But is there a
+> The gerbe over \mathrm{O}(3), however, is trivial. But is there a
 > trivialization that respects the 2-group structure?
 
 Actually not *all* the orbifolds coming from wallpaper groups are

@@ -298,9 +298,9 @@ starters.
 For example, let's take the simplest group that's not *utterly* dull -
 the integers mod 2, or Z/2. Here we get
 
-K(Z/2,1) = RP^\infty^
+K(Z/2,1) = RP^\infty
 
-where RP^\infty^ is the space formed by taking an infinite-dimensional sphere
+where RP^\infty is the space formed by taking an infinite-dimensional sphere
 and identifying opposite points. This space has holes of arbitrarily
 high dimension, so the cohomology groups of Z/2 go on being nontrivial
 for arbitrarily high n. I sketched a "picture proof" here:
@@ -311,7 +311,7 @@ Derek Wise, `http://math.ucr.edu/home/baez/qg-fall2004/`
 and I showed that, for example
 
                 Z   if n = 0
-    Hn(Z/2,Z) = 0   if n is odd
+    Hn(Z/2,\mathbb{Z}) = 0   if n is odd
                 Z/2 if n is even and > 0
 
 I also explained how this stuff is related to topological quantum field
@@ -356,18 +356,18 @@ as long as H has finite index in G. We just define the Euler
 characteristic of G to be the Euler characteristic of H divided by the
 index of H in G. The answer doesn't depend on the choice of H!
 
-Take my favorite example, SL(2,Z). This has torsion, so its
+Take my favorite example, \mathrm{SL}(2,\mathbb{Z}). This has torsion, so its
 cohomological dimension is infinite and its naive Euler characteristic
 is undefined! Indeed, I wrote a whole issue of This Week's Finds about
-some elements of orders 4 and 6 sitting inside SL(2,Z), related to the
+some elements of orders 4 and 6 sitting inside \mathrm{SL}(2,\mathbb{Z}), related to the
 symmetries of square and hexagonal lattices - see
 ["Week 125"](#week125).
 
-But, SL(2,Z) has a torsion-free subgroup of index 12, namely its
-commutator subgroup - the group you need to quotient by to make SL(2,Z)
+But, \mathrm{SL}(2,\mathbb{Z}) has a torsion-free subgroup of index 12, namely its
+commutator subgroup - the group you need to quotient by to make \mathrm{SL}(2,\mathbb{Z})
 be abelian. This subgroup has finite cohomological dimension and its
 Euler characteristic is -1. I'm not sure why this is true, but Brown
-says so! This means the Euler characteristic of SL(2,Z) works out to be
+says so! This means the Euler characteristic of \mathrm{SL}(2,\mathbb{Z}) works out to be
 -1/12.
 
 If you've read my stuff about Euler characteristics in
@@ -389,7 +389,7 @@ Seminar, homework for weeks 5,6,7, available at
 `http://math.ucr.edu/home/baez/qg-winter2004/`
 
 This suggests that there should be a version of the Eilenberg-Mac Lane
-space for SL(2,Z) which has 1 cell of dimension 0, 2 cells of dimension
+space for \mathrm{SL}(2,\mathbb{Z}) which has 1 cell of dimension 0, 2 cells of dimension
 2, 3 cells of dimension 4, and so on. Does anyone know if this is true?
 
 More generally, G. Harder computed the (generalized) Euler
@@ -404,12 +404,12 @@ product of values of the Riemann zeta function:
 
 \zeta(-1) \zeta(-3) ⋅⋅⋅ \zeta(1-2n)
 
-In the case n = 1 we get back SL(2,Z) and \zeta(-1) = -1/12.
+In the case n = 1 we get back \mathrm{SL}(2,\mathbb{Z}) and \zeta(-1) = -1/12.
 
 In fact, every Chevalley group over the integers has a well-defined
 Euler characteristic, and Harder was able to compute it in terms of
 Bernoulli numbers. A Chevalley group is sort of like a simple Lie group,
-but defined algebraically. Sp(n,Z) is one example. SL(n,Z) is another,
+but defined algebraically. Sp(n,Z) is one example. \mathrm{SL}(n,Z) is another,
 but it's Euler characteristic turns out to vanish for n > 2, so it's
 not too interesting.
 
@@ -417,7 +417,7 @@ Harder worked them all out. For example, he showed the Euler
 characteristic of the integral form of the exceptional group E~7~ is
 some wacky number like
 
-- 691 \times 43867   /   2^21^ \times 3^9^ \times 5^2 \times 7^3 \times 11 \times 13 \times 19
+- 691 \times 43867   /   2^21^ \times 3^9 \times 5^2 \times 7^3 \times 11 \times 13 \times 19
 
 Serre went even further, computing Euler characteristics of Chevalley
 groups defined over algebraic number fields. He also noticed that when
@@ -470,9 +470,9 @@ John McKay proffered an explanation:
 > Best, John
 
 This group of order 168 has made an appearance here before, in
-["Week 194"](#week194): it's PSL(3,Z/2) - the group of symmetries
+["Week 194"](#week194): it's \mathrm{PSL}(3,Z/2) - the group of symmetries
 of the projective plane over Z/2, or "Fano plane", whose points can
-also be thought of as imaginary unit octonions. It's also PSL(2,Z/7).
+also be thought of as imaginary unit octonions. It's also \mathrm{PSL}(2,\mathbb{Z}/7).
 I've long been mystified by its relation to Klein's quartic, mainly
 because I've never spent time trying to understand it! - it's just one
 of those things that's been gnawing at the edges of my consciousness,
@@ -537,19 +537,19 @@ groups" were *also* named after Klein as a joke:
 > lots to do with developing the theory of kleinian groups; just not by
 > his own apparently ridiculous standards.
 
-Noam Elkies suggested that the commutator subgroup of SL(2,Z) has Euler
+Noam Elkies suggested that the commutator subgroup of \mathrm{SL}(2,\mathbb{Z}) has Euler
 characteristic -1 because it's a a free group on 2 generators, so its
 classifying space is a figure 8, with Euler characteristic 1 - 2 = -1
 since it has one vertex and two edges.
 
 This sounds right. In particular, I already mentioned how Brown claims
-the commutator subgroup of SL(2,Z) is torsion-free. Further, Kevin
-Buzzard shows below that any torsion-free subgroup of SL(2,Z) is a free
-group. So, we just need to check that the commutator subgroup of SL(2,Z)
+the commutator subgroup of \mathrm{SL}(2,\mathbb{Z}) is torsion-free. Further, Kevin
+Buzzard shows below that any torsion-free subgroup of \mathrm{SL}(2,\mathbb{Z}) is a free
+group. So, we just need to check that the commutator subgroup of \mathrm{SL}(2,\mathbb{Z})
 can be generated by two elements but not by just one.
 
 Laurent Bartholdi just made this job easier; he sent me an email saying
-these are free generators for the commutator subgroup of SL(2,Z):
+these are free generators for the commutator subgroup of \mathrm{SL}(2,\mathbb{Z}):
 
     ( 2 -1)
     (-1  1)
@@ -567,35 +567,35 @@ In fact, Kevin Buzzard's email was packed with wisdom. He wrote:
 >
 > John Baez wrote:
 >
->      > But, SL(2,Z) has a torsion-free subgroup of index 12, namely its
->      > commutator subgroup - the group you need to quotient by to make SL(2,Z)
+>      > But, \mathrm{SL}(2,\mathbb{Z}) has a torsion-free subgroup of index 12, namely its
+>      > commutator subgroup - the group you need to quotient by to make \mathrm{SL}(2,\mathbb{Z})
 >      > be abelian.  This subgroup has finite cohomological dimension and its
 >      > Euler characteristic is -1.  I'm not sure why this is true, but Brown says
->      > so!  This means the Euler characteristic of SL(2,Z) works out to be -1/12.
+>      > so!  This means the Euler characteristic of \mathrm{SL}(2,\mathbb{Z}) works out to be -1/12.
 >
 > One doesn't have to use such a "strange" subgroup as the commutator
-> subgroup of SL(2,Z). People who do modular forms, like me, far prefer
+> subgroup of \mathrm{SL}(2,\mathbb{Z}). People who do modular forms, like me, far prefer
 > "congruence subgroups", as these are the ones that show up when you
-> study automorphic forms for SL(2,Z). So here's an easy way to compute
-> the Euler characteristic of SL(2,Z): take your favourite congruence
+> study automorphic forms for \mathrm{SL}(2,\mathbb{Z}). So here's an easy way to compute
+> the Euler characteristic of \mathrm{SL}(2,\mathbb{Z}): take your favourite congruence
 > subgroup which has no torsion, work out its Euler characteristic (this
 > is easy, I'll show you how to do it in a second) and then deduce what
-> the Euler characteristic of SL(2,Z) is.
+> the Euler characteristic of \mathrm{SL}(2,\mathbb{Z}) is.
 >
 > Here are some examples of congruence subgroups: for any integer N≥1,
-> consider the subgroup Γ_1(N) of SL(2,Z), defined as the matrices
+> consider the subgroup Γ_1(N) of \mathrm{SL}(2,\mathbb{Z}), defined as the matrices
 >
 >      (a b)
 >      (c d)
 >
-> in SL(2,Z) such that c=0 mod N and a=d=1 mod N. It's just the
-> pre-image in SL(2,Z) of the upper triangular unipotent matrices in
-> SL(2,Z/NZ) so it's a subgroup of SL(2,Z). Here's a neat fact that
+> in \mathrm{SL}(2,\mathbb{Z}) such that c=0 mod N and a=d=1 mod N. It's just the
+> pre-image in \mathrm{SL}(2,\mathbb{Z}) of the upper triangular unipotent matrices in
+> \mathrm{SL}(2,\mathbb{Z}/NZ) so it's a subgroup of \mathrm{SL}(2,\mathbb{Z}). Here's a neat fact that
 > makes life easy:
 >
 > **Lemma:** if N≥5 then Γ_1(N) has no torsion.
 >
-> **Proof:** say g in SL(2,Z) has finite order d≥1. Then its min poly
+> **Proof:** say g in \mathrm{SL}(2,\mathbb{Z}) has finite order d≥1. Then its min poly
 > divides X^d^-1 so over the complexes it has distinct linear factors so
 > it's diagonalisable with roots of unity z and w on the diagonal. Now
 > |z|=|w|=1 so |trace(g)| ≤ 2. But it's an integer, so it's
@@ -603,9 +603,9 @@ In fact, Kevin Buzzard's email was packed with wisdom. He wrote:
 > is 2. So z=w=1 and so g is the identity.
 >
 > Deeper, but also completely standard (and not logically necessary for
-> what follows)---any torsion-free subgroup of SL(2,Z) is free! This
-> is because SL(2,Z) acts very naturally on a certain tree in the upper
-> half plane. This is a neat piece of mathematics. SL(2,Z) acts on the
+> what follows)---any torsion-free subgroup of \mathrm{SL}(2,\mathbb{Z}) is free! This
+> is because \mathrm{SL}(2,\mathbb{Z}) acts very naturally on a certain tree in the upper
+> half plane. This is a neat piece of mathematics. \mathrm{SL}(2,\mathbb{Z}) acts on the
 > upper half plane {z=x+iy:y>0} via the rule:
 >
 >     (a b)
@@ -615,17 +615,17 @@ In fact, Kevin Buzzard's email was packed with wisdom. He wrote:
 > ρ=exp(2πi/6), the primitive 6th root of unity in the upper half plane,
 > and draw the obvious arc between them (the one that lies on the circle
 > |z|=1), this is our first edge, and now look at the image of what
-> you have under the SL(2,Z) action. It's a rather pretty tree, with
+> you have under the \mathrm{SL}(2,\mathbb{Z}) action. It's a rather pretty tree, with
 > two kinds of vertices---those in the i orbit have valency 2 and
 > stabiliser of order 4, and those in the ρ orbit have valency 3 and
 > stabiliser of order 6. Now a group is free iff it acts freely on a
-> tree, and anything torsion-free in SL(2,Z) must be acting freely on
+> tree, and anything torsion-free in \mathrm{SL}(2,\mathbb{Z}) must be acting freely on
 > this tree because the stabiliser of each vertex and edge under the
-> SL(2,Z) action is finite.
+> \mathrm{SL}(2,\mathbb{Z}) action is finite.
 >
 > So Γ_1(5) is, by this general theorem, free. In fact I don't really
 > need this general nonsense, one can give a hands-on proof of this
-> fact, which I'll do now. We've seen that SL(2,Z), and hence Γ_1(5),
+> fact, which I'll do now. We've seen that \mathrm{SL}(2,\mathbb{Z}), and hence Γ_1(5),
 > acts on the upper half plane. There is no torsion in Γ_1(5) so the
 > action is very nice, one checks easily that the action is free in fact
 > by a similar sort of argument to the lemma above, it's the sort of
@@ -634,20 +634,20 @@ In fact, Kevin Buzzard's email was packed with wisdom. He wrote:
 > a quotient Riemann surface. The point is that this computation is very
 > manageable and can be done "in practice". There is a standard
 > argument which shows how to quotient out the upper half plane by
-> SL(2,Z)---the answer is a Riemann surface isomorphic to the complex
+> \mathrm{SL}(2,\mathbb{Z})---the answer is a Riemann surface isomorphic to the complex
 > plane (although you have to take care at the points where the action
 > isn't free---this is exactly the vertices of the tree above), and
 > the isomorphism can even be given "explicitly" via the j-function
 > coming from the theory of elliptic curves---there is a standard
 > fundamental domain even, the one with corners ρ, ρ^2 and +i\infty. I'm
 > sure you'll have come across this sort of thing many times before.
-> Now SL(2,Z) surjects onto SL(2,Z/5Z) so the index of Γ_1(5) in
-> SL(2,Z) is just the index of
+> Now \mathrm{SL}(2,\mathbb{Z}) surjects onto \mathrm{SL}(2,\mathbb{Z}/5Z) so the index of Γ_1(5) in
+> \mathrm{SL}(2,\mathbb{Z}) is just the index of
 >
 >     (1 *)
 >     (0 1)
 >
-> in SL(2,Z/5Z) and by counting orders this comes out to be 24. Now
+> in \mathrm{SL}(2,\mathbb{Z}/5Z) and by counting orders this comes out to be 24. Now
 > it's not hard to find explicitly 24 translates of the standard
 > fundamental domain and then glue them together to work out the
 > quotient of the upper half plane by Γ_1(5)---it turns out that it
@@ -668,9 +668,9 @@ In fact, Kevin Buzzard's email was packed with wisdom. He wrote:
 > so Γ_1(5) is π_1 of this, i.e. it's free on three generators. That
 > makes the Euler characteristic of Γ_1(5) equal to 1-3=-2. And we
 > already checked that the index was 24, so the Euler Characteristic of
-> SL(2,Z) works out to be -1/12. Grothendieck wouldn't have chosen
+> \mathrm{SL}(2,\mathbb{Z}) works out to be -1/12. Grothendieck wouldn't have chosen
 > Γ_1(5); he would have chosen something called Γ(2), the subgroup of
-> SL(2,Z) consisting of the matrices which are the identity mod 2. There
+> \mathrm{SL}(2,\mathbb{Z}) consisting of the matrices which are the identity mod 2. There
 > is another classical modular function λ inducing an isomorphism of
 > Y(2), the quotient of the upper half plane by Γ(2), with the sphere
 > minus three points---this is what gives the one-line proof of the
@@ -682,14 +682,14 @@ In fact, Kevin Buzzard's email was packed with wisdom. He wrote:
 >     (-1 0)
 >     (0 -1)
 >
-> is in Γ(2). So you have to work with PSL(2,Z)=SL(2,Z)/{±1} instead.
-> Let PΓ(2) denote the image of Γ(2) in PSL(2,Z). Note that -1 is kind
+> is in Γ(2). So you have to work with \mathrm{PSL}(2,\mathbb{Z})=\mathrm{SL}(2,\mathbb{Z})/{±1} instead.
+> Let PΓ(2) denote the image of Γ(2) in \mathrm{PSL}(2,\mathbb{Z}). Note that -1 is kind
 > of a pain in the theory of modular forms sometimes because it acts
 > trivially on everything but isn't the identity. Grothendieck was very
 > interested in the sphere minus three points but it's much older than
 > this that PΓ(2) is its fundamental group, so PΓ(2) has Euler
-> characteristic 2-3=-1 and index 6 in PSL(2,Z), so PSL(2,Z) has Euler
-> characteristic -1/6, so SL(2,Z) has Euler characteristic -1/12 because
+> characteristic 2-3=-1 and index 6 in \mathrm{PSL}(2,\mathbb{Z}), so \mathrm{PSL}(2,\mathbb{Z}) has Euler
+> characteristic -1/6, so \mathrm{SL}(2,\mathbb{Z}) has Euler characteristic -1/12 because
 > that's how they work. :-)
 >
 > John Baez wrote:
@@ -720,8 +720,8 @@ I replied:
 > Hi -
 >
 > Thanks VERY much for this email. I was actually wondering why Brown
-> used the commutator subgroup of SL(2,Z) as a kind of "warmup" for
-> computing the Euler characteristic of SL(2,Z) instead of one of the
+> used the commutator subgroup of \mathrm{SL}(2,\mathbb{Z}) as a kind of "warmup" for
+> computing the Euler characteristic of \mathrm{SL}(2,\mathbb{Z}) instead of one of the
 > congruence subgroups. It seems this subgroup is not any of the beloved
 > congruence subgroups....
 >
@@ -732,7 +732,7 @@ I replied:
 > In ["Week  97"](#week 97), I wrote:
 >
 >       Where does the extra 24 come from?  I don't know, but Stephan Stolz
->       said it has something to do with the fact that while PSL(2,Z) doesn't
+>       said it has something to do with the fact that while \mathrm{PSL}(2,\mathbb{Z}) doesn't
 >       act freely on the upper half-plane - hence these elliptic curves with
 >       extra symmetries - the subgroup "Γ(3)" does.  This subgroup consists
 >       of integer matrices
@@ -756,7 +756,7 @@ I replied:
 >       To get the moduli space of elliptic curves from this, we just
 >       need to mod out by the group
 >
->       SL(2,Z)/Γ(3) = SL(2,Z/3)
+>       \mathrm{SL}(2,\mathbb{Z})/Γ(3) = \mathrm{SL}(2,\mathbb{Z}/3)
 >
 >       But this group has 24 elements!
 >
@@ -775,7 +775,7 @@ I replied:
 > deformation retract of that triangulation (with its simplicial
 > topology, where the points on the boundary of the hyperbolic plane
 > form a discrete set), and thus proving that the cohomological
-> dimension of SL(2,Z) is just 1.
+> dimension of \mathrm{SL}(2,\mathbb{Z}) is just 1.
 >
 > Anyway, this is all great stuff. Do you mind if I attach a copy of
 > your email to the copy of "week213" on my website? I think people
@@ -791,25 +791,25 @@ Kevin replied:
 > John Baez wrote:
 >
 >      > I was actually wondering why
->      > Brown used the commutator subgroup of SL(2,Z) as a kind of "warmup"
->      > for computing the Euler characteristic of SL(2,Z) instead of one of
+>      > Brown used the commutator subgroup of \mathrm{SL}(2,\mathbb{Z}) as a kind of "warmup"
+>      > for computing the Euler characteristic of \mathrm{SL}(2,\mathbb{Z}) instead of one of
 >      > the congruence subgroups.  It seems this subgroup is not any of the
 >      > beloved congruence subgroups....
 >
 > You're right, I don't think it is. For N≥1 define Γ(N) to be the
-> kernel of the obvious map SL(2,Z)\toSL(2,Z/NZ); a congruence subgroup is
-> any subgroup of SL(2,Z) that contains one of these Γ(N)'s. Clearly
-> such things have finite index in SL(2,Z). But unfortunately there
-> exist subgroups of finite index in SL(2,Z) that are not congruence
+> kernel of the obvious map \mathrm{SL}(2,\mathbb{Z})\to\mathrm{SL}(2,\mathbb{Z}/NZ); a congruence subgroup is
+> any subgroup of \mathrm{SL}(2,\mathbb{Z}) that contains one of these Γ(N)'s. Clearly
+> such things have finite index in \mathrm{SL}(2,\mathbb{Z}). But unfortunately there
+> exist subgroups of finite index in \mathrm{SL}(2,\mathbb{Z}) that are not congruence
 > subgroups. This is a "low-dimensional" phenomenon---the moment you
-> have a bit more freedom, e.g. you're working with SL(3,Z) or indeed
-> SL(n,Z) for any n≥3, or even SL(2,Z\[1/p\]) for some prime p, then any
+> have a bit more freedom, e.g. you're working with \mathrm{SL}(3,Z) or indeed
+> \mathrm{SL}(n,Z) for any n≥3, or even \mathrm{SL}(2,\mathbb{Z}\[1/p\]) for some prime p, then any
 > subgroup of finite index is a congruence subgroup---these groups
 > satisfy the "congruence subgroup property". But I've never
-> understood the commutator of SL(2,Z) precisely for the reason that
+> understood the commutator of \mathrm{SL}(2,\mathbb{Z}) precisely for the reason that
 > it's not a congruence subgroup (this is essentially because the
-> commutator subgroup of SL(2,Z/NZ) never has index 12 in SL(2,Z/NZ)!
-> The index is always smaller than 12 because SL(2,Z/pZ) is essentially
+> commutator subgroup of \mathrm{SL}(2,\mathbb{Z}/NZ) never has index 12 in \mathrm{SL}(2,\mathbb{Z}/NZ)!
+> The index is always smaller than 12 because \mathrm{SL}(2,\mathbb{Z}/pZ) is essentially
 > a simple group.)
 >
 > John Baez wrote:
@@ -828,25 +828,25 @@ Kevin replied:
 > of Γ(3) which isn't the identity must have trace in {-2,-1,0,1}
 > congruent to 2 mod 3, so the trace must be -1, so d=-1-a, so the det
 > is a(-1-a) mod 9, which is never 1 mod 9. Now the index of Γ(3) in
-> SL(2,Z) is 24, and the modular curve X(3) has genus 0 (everyone knows
+> \mathrm{SL}(2,\mathbb{Z}) is 24, and the modular curve X(3) has genus 0 (everyone knows
 > this because Wiles needed it to prove Fermat's Last Theorem!) and
 > four cusps (zero, 1, 1/2 and \infty) and hence the Euler Characteristic of
 > Γ(3) is 2-4=-2, so we recover the result that the Euler Characteristic
-> of SL(2,Z) is -1/12 again.
+> of \mathrm{SL}(2,\mathbb{Z}) is -1/12 again.
 >
 > John Baez wrote:
 >
 >       > Where does the extra 24 come from?  I don't know, but Stephan Stolz
->       > said it has something to do with the fact that while PSL(2,Z) doesn't
+>       > said it has something to do with the fact that while \mathrm{PSL}(2,\mathbb{Z}) doesn't
 >       > act freely on the upper half-plane - hence these elliptic curves with
 >       > extra symmetries - the subgroup "Γ(3)" does.
 >
-> One can see that any subgroup of SL(2,Z) which has finite index and is
+> One can see that any subgroup of \mathrm{SL}(2,\mathbb{Z}) which has finite index and is
 > free, must have index a multiple of 12 (and hence at least 12).
 > Because if it has index d and is free on g generators, when we know
 > (1-g)/d=-1/12, so 12 divides the denominator of (1-g)/d in lowest
 > terms. Geometrically what is going on is that perhaps the "correct"
-> quotient of the upper half plane by SL(2,Z) is not just the complex
+> quotient of the upper half plane by \mathrm{SL}(2,\mathbb{Z}) is not just the complex
 > numbers, it's something that looks a bit like the complex numbers
 > except there is a little bit of extra magic going on at i and ρ,
 > corresponding to the fact that one shouldn't really have attempted to
@@ -858,12 +858,12 @@ Kevin replied:
 > contract the loop. Similarly you have to go around ρ three times. Even
 > worse---if you do this carefully enough then even going around i
 > twice or ρ three times isn't enough to contract the loop---because
-> the resulting loop somehow corresponds to the element -1 in SL(2,Z),
+> the resulting loop somehow corresponds to the element -1 in \mathrm{SL}(2,\mathbb{Z}),
 > which acts trivially but which isn't the identity! So you have to do
 > everything again before you get to the element 1. Mumford thought hard
 > about how to make all this sort of thing rigorous, and managed in the
 > late 60s to prove that the Picard group of the quotient of the upper
-> half plane by SL(2,Z) was in fact Z/12Z.
+> half plane by \mathrm{SL}(2,\mathbb{Z}) was in fact Z/12Z.
 >
 > John Baez wrote:
 >

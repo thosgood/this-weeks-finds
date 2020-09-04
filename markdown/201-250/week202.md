@@ -607,7 +607,7 @@ B ≅ B^2 + 1
 
 we want to construct an isomorphism
 
-B ≅ B^7^
+B ≅ B^7
 
 Here is the proof in Marcelo Fiore's paper:
 

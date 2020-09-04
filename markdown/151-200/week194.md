@@ -172,8 +172,8 @@ hexagonal symmetry. For more details, with pictures, see:
 After this low-dimensional warmup, Conway and Smith's book turns to the
 quaternions and their applications to 3-dimensional and 4-dimensional
 geometry. They classify the finite subgroups of the 3d rotation group
-SO(3), its double cover SU(2), and the 3d rotation/reflection group
-O(3). They also classify the finite subgroups of the 4d rotation group.
+\mathrm{SO}(3), its double cover \mathrm{SU}(2), and the 3d rotation/reflection group
+\mathrm{O}(3). They also classify the finite subgroups of the 4d rotation group.
 They mention but do not study the 230 space groups in 3 dimensions.
 
 Then they turn to quaternionic number theory! The "Lipschitz integral

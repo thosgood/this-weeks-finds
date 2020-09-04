@@ -323,7 +323,7 @@ Particles as Wilson lines in the gravitational field, available as
 [gr-qc/0607014](http://arxiv.org/abs/gr-qc/0607014).
 
 Their work is based on the MacDowell-Mansouri formulation of gravity.
-This is a gauge theory with gauge group SO(4,1) - the symmetry group of
+This is a gauge theory with gauge group \mathrm{SO}(4,1) - the symmetry group of
 deSitter spacetime. DeSitter spacetime is a lot like Minkowski
 spacetime, but it has constant curvature instead of being flat. It's
 really just a hyperboloid in 5 dimensions:
@@ -337,14 +337,14 @@ constant is proportional to 1/k^2.
 
 When you let the cosmological constant approach zero, which is the same
 as letting k \to \infty, DeSitter spacetime flattens out to Minkowski
-spacetime, and the group SO(4,1) contracts to the symmetry group of
+spacetime, and the group \mathrm{SO}(4,1) contracts to the symmetry group of
 Minkowski spacetime: the Poincare group.
 
 So, MacDowell-Mansouri gravity is similar to the formulation of gravity
 as gauge theory with the Poincare group as gauge group. I explained that
 pretty carefully back in ["Week 176"](#week176).
 
-But, there's one way SO(4,1) is better than the Poincare group. It's a
+But, there's one way \mathrm{SO}(4,1) is better than the Poincare group. It's a
 "simple" Lie group, so it has an inner product on its Lie algebra
 that's invariant under conjugation. This lets us write down the BF
 Lagrangian:
@@ -352,7 +352,7 @@ Lagrangian:
 tr(B \^ F)
 
 where tr is defined using the inner product, F is the curvature of an
-SO(4,1) connection A, and B is an so(4,1)-valued 2-form. Spin foam
+\mathrm{SO}(4,1) connection A, and B is an \mathfrak{so}(4,1)-valued 2-form. Spin foam
 models of BF theory work really well:
 
 17) John Baez, An introduction to spin foam models of BF theory and
@@ -366,20 +366,20 @@ It's not that MacDowell-Mansouri gravity *is* a BF theory - but its
 Lagrangian is the BF Lagrangian plus extra terms. So, we can think of it
 as a perturbed version of BF theory.
 
-There's also one way SO(4,1) is worse than the Poincare group. It's a
+There's also one way \mathrm{SO}(4,1) is worse than the Poincare group. It's a
 simple Lie group - so it doesn't have a god-given "translation"
 subgroup the way the Poincare group does. The Poincare gauge theory
 formulation of general relativity requires that we treat translations
-differently from boosts and rotations. We can't do this in an SO(4,1)
+differently from boosts and rotations. We can't do this in an \mathrm{SO}(4,1)
 gauge theory unless we break the symmetry down to a smaller group: the
-Lorentz group, SO(3,1).
+Lorentz group, \mathrm{SO}(3,1).
 
-So, to get MacDowell-Mansouri gravity from SO(4,1) BF theory, we need to
+So, to get MacDowell-Mansouri gravity from \mathrm{SO}(4,1) BF theory, we need to
 add extra terms to the Lagrangian that break the symmetry group down to
-SO(3,1). This isn't bad, just a bit sneaky.
+\mathrm{SO}(3,1). This isn't bad, just a bit sneaky.
 
 The new paper by Freidel, Kowalski-Glikman and Starodubtsev is mainly
-about the SO(4,1) BF theory rather than full-fledged MacDowell-Mansouri
+about the \mathrm{SO}(4,1) BF theory rather than full-fledged MacDowell-Mansouri
 gravity. They show that if you cut out curves in spacetime and couple
 them to the A field in the right way, they act like the worldlines of
 point particles. In particular, they have a mass and spin, and they

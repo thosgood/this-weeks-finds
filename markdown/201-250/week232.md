@@ -152,8 +152,8 @@ understand, so I'll focus on the classical case.
 
 A nice formulation of general relativity in 3 dimensions uses a
 "Lorentz connection" A and a "triad field" e. This is a gauge theory
-where the gauge group is SO(2,1), the Lorentz group for 3d spacetime. If
-we're feeling lowbrow we can think of both A and e as so(2,1)-valued
+where the gauge group is \mathrm{SO}(2,1), the Lorentz group for 3d spacetime. If
+we're feeling lowbrow we can think of both A and e as \mathfrak{so}(2,1)-valued
 1-forms on the 3-manifold M that describes spacetime. The action for
 this theory is:
 
@@ -176,7 +176,7 @@ He actually did it for particles with spin, but I'll just do the
 spin-zero case.
 
 The idea is to fix a 1-dimensional submanifold W in our 3-manifold M and
-think of it as the worldlines of some particles. Put so(2,1)-valued
+think of it as the worldlines of some particles. Put \mathfrak{so}(2,1)-valued
 functions p and q on these worldlines - think of these as giving the
 particles' momentum and position as a function of time.
 
@@ -184,8 +184,8 @@ Huh? Well, normally we think of position and momentum as vectors. In
 special relativity, "position" means "position in spacetime", and
 "momentum" means "energy-momentum". We can think of both of these as
 vectors in Minkowksi spacetime. But in 3 dimensions, Minkowski spacetime
-is naturally identified with the Lorentz Lie algebra so(2,1). So, it
-makes sense to think of q and p as elements of so(2,1) which vary from
+is naturally identified with the Lorentz Lie algebra \mathfrak{so}(2,1). So, it
+makes sense to think of q and p as elements of \mathfrak{so}(2,1) which vary from
 point to point along the particle's worldline.
 
 To couple our point particles to gravity, we then add a term to the
@@ -234,7 +234,7 @@ rotated and/or Lorentz transformed by the element
 
 exp(p)
 
-in SO(2,1). This will be a rotation if the particle's momentum p is
+in \mathrm{SO}(2,1). This will be a rotation if the particle's momentum p is
 timelike, as it is for normal particles. Again, that's just as it
 should be: if you parallel transport a little arrow around a massive
 particle in 3d gravity, it gets rotated!
@@ -327,7 +327,7 @@ gravity, we can build a unit of mass using just G and c: we don't need
 cone! It would be a bit misleading to call it "Planck mass", but it's
 the maximum possible mass. Any mass bigger than this acts like a
 *negative* mass. That's because the corresponding group-valued momenta
-"wrap around" in the group SO(2,1).
+"wrap around" in the group \mathrm{SO}(2,1).
 
 We also get another cool effect - exotic statistics. In the absence of
 gravitational or quantum effects, when you switch two particles, you
@@ -397,9 +397,9 @@ called "B", so you can see why folks call this "BF theory".
 
 But more importantly, now M is an 4-dimensional spacetime and W is an
 2-dimensional "worldsheet". A is again a Lorentz connection, which we
-can think of as an so(3,1)-valued 1-form. B is an so(3,1)-valued 2-form.
-p is an so(3,1)-valued function on the worldsheet W. q is an
-so(3,1)-valued 1-form on W.
+can think of as an \mathfrak{so}(3,1)-valued 1-form. B is an \mathfrak{so}(3,1)-valued 2-form.
+p is an \mathfrak{so}(3,1)-valued function on the worldsheet W. q is an
+\mathfrak{so}(3,1)-valued 1-form on W.
 
 So, only a few numbers have changed... so everything works very
 similarly! The big difference is that instead of spacetime having a
@@ -447,7 +447,7 @@ particles in R^3 is the permutation group, the motion group of strings
 in R^3 is the loop braid group.
 
 As before, our strings have group-valued momenta: we can get an element
-of the Lorentz group SO(3,1) by parallel transporting a little tangent
+of the Lorentz group \mathrm{SO}(3,1) by parallel transporting a little tangent
 vector around a string. And, we can see how different ways of switching
 our strings affect the momenta. When we move two strings around each
 other, their momenta switch in the usual way:
@@ -521,7 +521,7 @@ expansion, Phys. Lett. B635 (2006) 131-135. Also available as
 > 2+1 dimensional universe, and there's a point particle with rest mass
 > m and hence energy-momentum vector in its rest frame of p=me~0~. If I
 > cross its world line with a certain relative velocity, there's an
-> element g of SO(2,1) which tells me how to map the particle's tangent
+> element g of \mathrm{SO}(2,1) which tells me how to map the particle's tangent
 > space to my own. Would I measure the particle's energy-momentum to be
 > p'=gp? (e.g. if I used the particle to do work in my own rest frame)
 > Would there still be no upper bound on the total energy, i.e. by
@@ -559,7 +559,7 @@ I replied:
 >       >and there's a point particle with rest mass m and hence 
 >       >energy-momentum vector in its rest frame of p=m e_0.  If I
 >       >cross its world line with a certain relative velocity, there's 
->       >an element g of SO(2,1) which tells me how to map the particle's 
+>       >an element g of \mathrm{SO}(2,1) which tells me how to map the particle's 
 >       >tangent space to my own.  Would I measure the particle's 
 >       >energy-momentum to be p'=gp?  (e.g. if I used the particle to 
 >       >do work in my own rest frame)  Would there still be no upper 
@@ -568,10 +568,10 @@ I replied:
 >       >to be as high as I wished?
 >
 > To understand this, it's good to think of the momenta as elements of
-> the Lie algebra so(2,1) - it's crucial to the game.
+> the Lie algebra \mathfrak{so}(2,1) - it's crucial to the game.
 >
 > Then, if you have momentum p, and I zip past you, so you appear
-> transformed by some element g of the Lorentz group SO(2,1), I'll see
+> transformed by some element g of the Lorentz group \mathrm{SO}(2,1), I'll see
 > your momentum as
 >
 > p' = g p g^-1^
@@ -595,7 +595,7 @@ I replied:
 >
 > So, if we agree to work with h instead of p, we are now doing new
 > physics. This is even more obvious when we decide to multiply momenta
-> instead of adding them, since multiplication in SO(2,1) is
+> instead of adding them, since multiplication in \mathrm{SO}(2,1) is
 > noncommutative!
 >
 > But, if we transform our group-valued momentum in the correct way:
@@ -619,10 +619,10 @@ I replied:
 >
 > This effectively puts an upper limit on mass, since as we keep
 > increasing the mass of a particle, eventually it "loops around"
-> SO(2,1) and act exactly like a particle of zero mass.
+> \mathrm{SO}(2,1) and act exactly like a particle of zero mass.
 >
 > But, it doesn't exactly put an upper bound on energy-momentum, since
-> SO(2,1) is noncompact. Of course energy and momentum don't take real
+> \mathrm{SO}(2,1) is noncompact. Of course energy and momentum don't take real
 > values anymore, so one must be a bit careful with this "upper bound"
 > talk.
 >
@@ -631,7 +631,7 @@ I replied:
 >       >means) arbitrarily large energies (at least in the classical theory)?
 >
 > There's some sense in which energy-momenta can be arbitrarily large.
-> That's because the space of energy-momenta, namely SO(2,1), is
+> That's because the space of energy-momenta, namely \mathrm{SO}(2,1), is
 > noncompact. Maybe you can figure out some more intuitive way to
 > express this.
 

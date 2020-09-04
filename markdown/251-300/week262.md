@@ -286,12 +286,12 @@ factorization
 
 248 = 8 \times 31
 
-To do this, he used a copy of the 32-element group (Z/2)^5^ sitting in
+To do this, he used a copy of the 32-element group (Z/2)^5 sitting in
 E~8~, and the 31 nontrivial characters of this group.
 
-Even more remarkably, this copy of (Z/2)^5^ sits inside a copy of
-SL(2,F~32~) inside E~8~, and the centralizer of a certain element of
-SL(2,F~32~) is a product of two copies of the gauge group of the
+Even more remarkably, this copy of (Z/2)^5 sits inside a copy of
+\mathrm{SL}(2,F~32~) inside E~8~, and the centralizer of a certain element of
+\mathrm{SL}(2,F~32~) is a product of two copies of the gauge group of the
 Standard Model! What this means - if anything - remains a mystery.
 
 Indeed, pretty much everything about E~8~ seems mysterious to me, since
@@ -364,42 +364,42 @@ is skew-symmetric. Then our Killing superalgebra has a chance at being a
 plain old Lie algebra! We still need to check the Jacobi identity. And
 this only works in certain special cases:
 
-If you take S^7^ with its usual round metric, the isometry group is
-SO(8), so the Lie algebra of Killing vectors is so(8). There's an
-8-dimensional space of Killing spinors, and the action of so(8) on this
+If you take S^7 with its usual round metric, the isometry group is
+\mathrm{SO}(8), so the Lie algebra of Killing vectors is \mathfrak{so}(8). There's an
+8-dimensional space of Killing spinors, and the action of \mathfrak{so}(8) on this
 gives the real left-handed spinor representation S~8~^+^. The Jacobi
 identity holds, and you get a Lie algebra structure on
 
-so(8) ⊕ S~8~^+^
+\mathfrak{so}(8) \oplus  S~8~^+^
 
 But then, thanks to triality, you knock yourself on the head and say "I
 could have had a V~8~!" After all, up to an outer automorphism of
-so(8), the spinor representation S~8~^+^ is the same as the
+\mathfrak{so}(8), the spinor representation S~8~^+^ is the same as the
 8-dimensional vector representation V~8~. So, your Lie algebra is the
 same as
 
-so(8) ⊕ V~8~
+\mathfrak{so}(8) \oplus  V~8~
 
-with a certain obvious Lie algebra structure. This is just so(9). So,
+with a certain obvious Lie algebra structure. This is just \mathfrak{so}(9). So,
 it's nothing exceptional, though you arrived at it by a devious route.
 
-If you take S^8^ with its usual round metric, the Lie algebra of Killing
-vector fields is so(9). Now there's a 16-dimensional space of Killing
-spinor fields, and the action of so(9) on this gives the real
+If you take S^8 with its usual round metric, the Lie algebra of Killing
+vector fields is \mathfrak{so}(9). Now there's a 16-dimensional space of Killing
+spinor fields, and the action of \mathfrak{so}(9) on this gives the real
 (non-chiral) spinor representation S~9~. The Jacobi identity holds, and
 you get a Lie algebra structure on
 
-so(9) ⊕ S~9~
+\mathfrak{so}(9) \oplus  S~9~
 
 This gives the exceptional Lie algebra f_4!
 
 Finally, if you take S^15^ with its usual round metric, the Lie algebra
-of Killing vector fields is so(16). Now there's a 128-dimensional space
-of Killing spinor fields, and the action of so(16) on this gives the
+of Killing vector fields is \mathfrak{so}(16). Now there's a 128-dimensional space
+of Killing spinor fields, and the action of \mathfrak{so}(16) on this gives the
 left-handed real spinor representation S~16~^+^. The Jacobi identity
 holds, and you get a Lie algebra structure on
 
-so(16) ⊕ S~16~^+^
+\mathfrak{so}(16) \oplus  S~16~^+^
 
 This gives the exceptional Lie algebra e~8~!
 
@@ -409,27 +409,27 @@ and e~8~. Unfortunately, he still needs to verify the Jacobi identity in
 the same brute-force way. It would be nice to find a slicker proof. But
 his new interpretation is suggestive: it raises a lot of new questions.
 He lists some of these at the end of the paper, and mentions a really
-big one at the beginning. Namely: the spheres S^7^, S^8^ and S^15^ all
+big one at the beginning. Namely: the spheres S^7, S^8 and S^15^ all
 show up in the Hopf fibration associated to the octonionic projective
 line:
 
-S^7^ \to S^15^ \to S^8^
+S^7 \to S^15^ \to S^8
 
-Does this give a nice relation between so(9), f_4 and e~8~? Can someone
-guess what this relation should be? Maybe e~8~ is built from so(9) and
+Does this give a nice relation between \mathfrak{so}(9), f_4 and e~8~? Can someone
+guess what this relation should be? Maybe e~8~ is built from \mathfrak{so}(9) and
 f_4 somehow.
 
 I also wonder if there's a Killing superalgebra interpretation of the
 Lie algebra constructions
 
-e~6~ = so(10) ⊕ S~10~ ⊕ u(1)
+e~6~ = \mathfrak{so}(10) \oplus  S~10~ \oplus  u(1)
 
 and
 
-e~7~ = so(12) ⊕ S~12~^+^ ⊕ su(2)
+e~7~ = \mathfrak{so}(12) \oplus  S~12~^+^ \oplus  \mathfrak{su}(2)
 
 These would need to be trickier, with the u(1) showing up from the fact
-that S~10~ is a complex representation, and the su(2) showing up from
+that S~10~ is a complex representation, and the \mathfrak{su}(2) showing up from
 the fact that S~12~^+^ is a quaternionic representation. The algebra is
 explained here:
 
@@ -511,7 +511,7 @@ José Figueroa-O'Farrill sent an email saying:
 > To any supersymmetric supergravity background one can associate a Lie
 > superalgebra, called the Killing superalgebra. This is the
 > superalgebra generated by the Killing spinors; that is, if we let K =
-> K~0~ ⊕ K_1 denote the Killing superalgebra, then
+> K~0~ \oplus  K_1 denote the Killing superalgebra, then
 >
 > K_1 = {Killing spinors}
 >
@@ -538,16 +538,16 @@ These comments by Thomas Fischbacher should also fit into the big
 picture somehow:
 
 > As you know, there is a nice triality symmetric construction of E8
-> that starts from SO(8)\timesSO(8). But, considering the maximally split
-> real form E8(8), did you also know that this SO(8)\timesSO(8) is best
-> regarded as SO(8,C+), with C+ being the split-complex numbers with
-> i^2=+1? There also are 56-dimensional real subgroups such as SO(8,C)
+> that starts from \mathrm{SO}(8)\times\mathrm{SO}(8). But, considering the maximally split
+> real form E8(8), did you also know that this \mathrm{SO}(8)\times\mathrm{SO}(8) is best
+> regarded as \mathrm{SO}(8,C+), with C+ being the split-complex numbers with
+> i^2=+1? There also are 56-dimensional real subgroups such as \mathrm{SO}(8,C)
 > (2 different embeddings - "IIA" and "IIB") - and there also is
-> SO(8,C0).
+> \mathrm{SO}(8,C0).
 >
-> Basically, the way this works is that you can extend SO(8)\timesSO(8) to
-> SO(16) or SO(8,8) - depending on whether you add the V\timesV or S\timesS
-> 8\times8-block. But if you take diagonal SO(8) subgroups, then the 8\times8 all
+> Basically, the way this works is that you can extend \mathrm{SO}(8)\times\mathrm{SO}(8) to
+> \mathrm{SO}(16) or \mathrm{SO}(8,8) - depending on whether you add the V\timesV or S\timesS
+> 8\times8-block. But if you take diagonal \mathrm{SO}(8) subgroups, then the 8\times8 all
 > split into 28+35+1, and you can play nice games with these 28's...
 >
 > See:

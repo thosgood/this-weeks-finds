@@ -519,7 +519,7 @@ Now, this equation is not homogeneous in the variables y and x, but we
 can think of it as homogeneous in a sneaky sense if we throw in an extra
 variable like this:
 
-y^2 = x^3 + Bxz^4 + Cz^6^
+y^2 = x^3 + Bxz^4 + Cz^6
 
 and decree that:
 

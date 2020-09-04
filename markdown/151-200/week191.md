@@ -36,7 +36,7 @@ oxidation is deeply related to Dynkin diagrams:
 [hep-th/0210178](http://www.arXiv.org/abs/hep-th/0210178).
 
 "Dimensional reduction of (super-)gravity theories to 3 dimensions
-results in σ models on coset spaces G/H, such as the E8/SO(16) coset in
+results in σ models on coset spaces G/H, such as the E8/\mathrm{SO}(16) coset in
 the bosonic sector of 3 dimensional maximal supergravity. The reverse
 process, oxidation, is the reconstruction of a higher dimensional
 gravity theory from a coset σ model. Using the group G as starting

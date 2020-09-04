@@ -325,7 +325,7 @@ But, he's also thought about the case where the finite group is
 replaced by a compact Lie group. In this case we get something called BF
 theory, which is a lot like an extended TQFT, but not quite, because
 there are some divergences (infinities) that arise. In this case of 3d
-spacetime with the Lie group SU(2), BF theory gives a nice theory of
+spacetime with the Lie group \mathrm{SU}(2), BF theory gives a nice theory of
 quantum gravity called the Ponzano-Regge model. And, as I hinted back in
 ["Week 232"](#week232), we can let 2d space in this model be a
 manifold with *boundary* by poking little holes in space. Then these

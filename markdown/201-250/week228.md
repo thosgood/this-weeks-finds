@@ -291,7 +291,7 @@ infinity or zero, which is what I would have naively expected. But who
 knows? Maybe this is easily understood if you think hard enough.
 
 Today I was also going to talk about the 3-strand braid group, the group
-PSL(2,Z), and rational tangles, but now I don't have the energy. So
+\mathrm{PSL}(2,\mathbb{Z}), and rational tangles, but now I don't have the energy. So
 instead, I'll just put out a request for help!
 
 There's a wonderful game invented by John Conway called "rational
@@ -376,7 +376,7 @@ rational tangles, available as
 [math.GT/0311499](http://arxiv.org/abs/math.GT/0311499).
 
 But here's what I want to know: is there a proof that makes extensive
-use of the group PSL(2,Z) and its relation to topology?
+use of the group \mathrm{PSL}(2,\mathbb{Z}) and its relation to topology?
 
 After all, the basic operations on rational tangles are "adding one"
 and "negative reciprocal", and these generate all the fractional
@@ -387,11 +387,11 @@ linear transformations
              cz + d
 
 with a,b,c,d integer and ad-bc = 1. The group of these transformations
-is PSL(2,Z). It acts on rational tangles, and Conway's theorem says
-this action is isomorphic to the obvious action of PSL(2,Z) as
+is \mathrm{PSL}(2,\mathbb{Z}). It acts on rational tangles, and Conway's theorem says
+this action is isomorphic to the obvious action of \mathrm{PSL}(2,\mathbb{Z}) as
 fractional linear transformations of the "rational projective line",
 meaning the rational numbers together with a point at infinity. Since
-PSL(2,Z) has lots of relations to topology, there should be some proof
+\mathrm{PSL}(2,\mathbb{Z}) has lots of relations to topology, there should be some proof
 of Conway's theorem that *uses* these relations to get the job done.
 
 Does anybody know one?

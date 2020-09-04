@@ -63,7 +63,7 @@ A) a Lorentzian metric g on the 11-dimensional manifold representing
 spacetime,
 
 B) a field \psi on this manifold which takes values in the real spin-3/2
-representation of SO(10,1),
+representation of \mathrm{SO}(10,1),
 
 C) a 3-form field A on this manifold.
 
@@ -106,7 +106,7 @@ supergravity.
 Okay, so we'll use a frame field and spin connection to describe the
 graviton. What about the gravitino? I'm less clear about this, but I
 guess the idea is that we think of the spin-3/2 representation of the
-Lorentz group SO(10,1) as sitting inside the tensor product of the
+Lorentz group \mathrm{SO}(10,1) as sitting inside the tensor product of the
 spin-1 representation and the spin-1/2 representation. This allows us to
 think of the gravitino as a spinor-valued 1-form on spacetime. That's
 why people write it as \psi~N~: the subscript indicates that we've got
@@ -120,7 +120,7 @@ spinors in (n+8)-dimensional spacetime are just like spinors in
 n-dimensional spacetime, but tensored with R^16^. So spinors in
 11-dimensional spacetime are a lot like spinors in 3-dimensional
 spacetime! In 3 dimensions, the double cover of the Lorentz group is
-just SL(2,R), and its spinor representation is R^2. Actually these are
+just \mathrm{SL}(2,R), and its spinor representation is R^2. Actually these are
 "real" spinors, or what physicists call "Majorana" spinors. We could
 complexify and get "complex" or "Dirac" spinors - but we won't!
 
@@ -425,7 +425,7 @@ sci.physics.research, which answers some of my questions above....
 >     > Okay, so we'll use a frame field and spin connection to describe the
 >     > graviton.  What about the gravitino?  I'm less clear about this, but I
 >     > guess the idea is that we think of the spin-3/2 representation of the
->     > Lorentz group SO(10,1) as sitting inside the tensor product of the
+>     > Lorentz group \mathrm{SO}(10,1) as sitting inside the tensor product of the
 >     > spin-1 representation and the spin-1/2 representation.  This allows us
 >     > to think of the gravitino as a spinor-valued 1-form on spacetime.
 >     > That's why people write it as \psiN: the subscript indicates that we've
@@ -435,7 +435,7 @@ sci.physics.research, which answers some of my questions above....
 >
 > As you guessed, there is a Clebsch-Gordan relationship like:
 >
-> 1 \otimes 1/2 = 3/2 &oplus 1/2 (where \otimes is tensor product, ⊕ is direct sum)
+> 1 \otimes 1/2 = 3/2 &oplus 1/2 (where \otimes is tensor product, \oplus  is direct sum)
 >
 > in fact, out of a general spinor-vector, you can form a linear
 > combination of its components to get a spin 1/2 spinor by multiplying
@@ -661,7 +661,7 @@ And here is one by Robert Helling:
 >
 > \psi^2 = 1/2 \psi^a^ \psi~a~
 >
-> or they raise and lower SL(2,C) not with the ε tensor, but with i
+> or they raise and lower \mathrm{SL}(2,\mathbb{C}) not with the ε tensor, but with i
 > times the ε tensor (relate this to h.c.!) This is just a mess and you
 > always get the feeling that you are wasting your time with such things
 > but in the end your calculations are not even reliable!

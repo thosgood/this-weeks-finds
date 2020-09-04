@@ -313,7 +313,7 @@ try to explain it!
 
 I'd like to wrap up with a few small comments about last Week. There I
 said a bit about a 24-element group called the "binary tetrahedral
-group", a 24-element group called SL(2,Z/3), and the vertices of a
+group", a 24-element group called \mathrm{SL}(2,\mathbb{Z}/3), and the vertices of a
 regular polytope in 4 dimensions called the "24-cell". The most
 important fact is that these are all the same thing! And I've learned a
 bit more about this thing from here:
@@ -328,10 +328,10 @@ you can rotate a regular tetrahedron and get it looking the same again.
 You can achieve any even permutation of the 4 vertices using such a
 rotation, so this group is the 12-element group A_4 consisting of all
 even permutations of 4 things - see ["Week 155"](#week155). But
-it's also a subgroup of the rotation group SO(3). So, its inverse image
+it's also a subgroup of the rotation group \mathrm{SO}(3). So, its inverse image
 under the double cover
 
-SU(2) \to SO(3)
+\mathrm{SU}(2) \to \mathrm{SO}(3)
 
 has 24 elements. This is called the "binary tetrahedral group".
 
@@ -356,12 +356,12 @@ either read this paper or look at his website:
 > when the parameter q is a cubic root of unity. We describe its
 > indecomposable projective representations as well as the irreducible
 > ones. We also comment about the relation between this object and the
-> theory of modular representations of the group SL(2,Z/3), i.e. the
+> theory of modular representations of the group \mathrm{SL}(2,\mathbb{Z}/3), i.e. the
 > binary tetrahedral group. Finally, we briefly discuss its relation
 > with the Lorentz group and, as already suggested by A. Connes, make a
 > few comments about the possible use of this algebra in a modification
 > of the Standard Model of particle physics (the unitary group of the
-> semi-simple algebra associated with H is U(3) x U(2) x U(1)).
+> semi-simple algebra associated with H is \mathrm{U}(3) x \mathrm{U}(2) x \mathrm{U}(1)).
 
 ------------------------------------------------------------------------
 
@@ -401,7 +401,7 @@ Noam Elkies writes:
 >
 >     >I'd like to wrap up with a few small comments about last Week.
 >     >There I said a bit about a 24-element group called the "binary 
->     >tetrahedral group", a 24-element group called SL(2,Z/3), and 
+>     >tetrahedral group", a 24-element group called \mathrm{SL}(2,\mathbb{Z}/3), and 
 >     >the vertices of a regular polytope in 4 dimensions called the 
 >     >"24-cell".  The most important fact is that these are all the 
 >     >same thing!  And I've learned a bit more about this thing from 
@@ -410,7 +410,7 @@ Noam Elkies writes:
 >     [...]
 >
 > Here's yet another way to see this: the 24-cell is the subgroup of
-> the unit quaternions (a.k.a. SU(2)) consisting of the elements of norm
+> the unit quaternions (a.k.a. \mathrm{SU}(2)) consisting of the elements of norm
 > 1 in the Hurwitz quaternions - the ring of quaternions obtained from
 > the Z-span of {1,i,j,k} by plugging up the holes at (1+i+j+k)/2 and
 > its <1,i,j,k> translates. Call this ring A. Then this group maps

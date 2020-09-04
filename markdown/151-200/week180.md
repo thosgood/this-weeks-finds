@@ -88,7 +88,7 @@ bastion of incomprehensibility.
 But instead of rhapsodizing, let me dive in and explain as much as I
 can. Last time I explained that every complex simple Lie group G gives
 rise to a generalization of projective geometry. When we take G =
-SL(n,C) we get ordinary projective geometry, and I focussed on this
+\mathrm{SL}(n,C) we get ordinary projective geometry, and I focussed on this
 case, but I described how things work in general. Today I want to dig a
 little deeper into the general theory then consider a bunch of examples,
 leading up to Penrose's theory of twistors.
@@ -96,12 +96,12 @@ leading up to Penrose's theory of twistors.
 First, remember how this game goes. Every complex simple Lie group G has
 a bunch of maximal solvable subgroups, all basically the same as each
 other - so people pick one and call it "the Borel subgroup", or B for
-short. When G = SL(n,C) we can take B to be the subgroup of upper
+short. When G = \mathrm{SL}(n,C) we can take B to be the subgroup of upper
 triangular matrices. When doing geometry with some symmetry group G, any
 subgroup should be thought of as the group of transformations that
 preserves some sort of "figure" - some geometrical object. The
 importance of the Borel subgroup is that it preserves a "maximal
-flag". For G = SL(n,C) acting on complex projective space, this is
+flag". For G = \mathrm{SL}(n,C) acting on complex projective space, this is
 just:
 
     a point lying on a line lying on a plane lying on a 3-space lying on...
@@ -112,7 +112,7 @@ flag", which I'll describe later.
 Having chosen a Borel subgroup B, there is a finite set of subgroups
 containing B and smaller than G - people call these "parabolic
 subgroups". These preserve all the various smaller kinds of flag, which
-in the SL(n,C) case are things like
+in the \mathrm{SL}(n,C) case are things like
 
     a point lying on a plane lying on a 5-space
 
@@ -132,7 +132,7 @@ usually called a "Grassmannian".
 Now, the cool part is that you can read off the parabolic subgroups from
 the Dynkin diagram of a simple Lie group: they correspond to subsets of
 the dots! The maximal parabolics correspond to the dots themselves. For
-SL(n,C) it works like this... I'll illustrate with the case n = 4:
+\mathrm{SL}(n,C) it works like this... I'll illustrate with the case n = 4:
 
                                o------o------o
                             points  lines  planes       
@@ -143,9 +143,9 @@ example,
                                x------o------x
                             points  lines  planes       
 
-gives the parabolic P such that SL(4,C)/P is the space of all "points
-lying on a plane" in CP^3. As I explained earlier, this P is the
-subgroup of SL(4,C) consisting of all matrices of the form
+gives the parabolic P such that \mathrm{SL}(4,C)/P is the space of all "points
+lying on a plane" in \mathbb{CP}^3. As I explained earlier, this P is the
+subgroup of \mathrm{SL}(4,C) consisting of all matrices of the form
 
                                    * * * *
                                    0 * * *          
@@ -154,7 +154,7 @@ subgroup of SL(4,C) consisting of all matrices of the form
 
 If you look at the pictures in ["Week 178"](#week178), you should
 be able to figure out the recipe for getting this subgroup from a subset
-of dots in the Dynkin diagram, at least in the SL(n,C) case.
+of dots in the Dynkin diagram, at least in the \mathrm{SL}(n,C) case.
 
 Even better, this game lets you get all the finite-dimensional
 irreducible representations of your complex simple group G. I'll say
@@ -171,7 +171,7 @@ To really understand this deeply, you should learn a bit about geometric
 quantization. However, let's just assume it works and see what happens
 in some examples.
 
-First consider G = SL(n,C). Here we've already seen that the maximal
+First consider G = \mathrm{SL}(n,C). Here we've already seen that the maximal
 parabolics are the subgroups preserving various obvious figures in
 complex projective space:
 
@@ -182,16 +182,16 @@ The irrep corresponding to this numbering:
 
                                1------0------0
 
-is the obvious representation of SL(n,C) on C^n. This irrep:
+is the obvious representation of \mathrm{SL}(n,C) on C^n. This irrep:
 
                                0------1------0
 
-is the obvious rep of SL(n,C) on the 2nd exterior power of C^n - or in
+is the obvious rep of \mathrm{SL}(n,C) on the 2nd exterior power of C^n - or in
 physics lingo, rank two antisymmetric tensors. This irrep:
 
                                0------0------1
 
-is the obvious rep of SL(n,C) on the 3rd exterior power of C^n. And so
+is the obvious rep of \mathrm{SL}(n,C) on the 3rd exterior power of C^n. And so
 on, if there are more dots. Note what we're really saying here: if you
 take the Grassmannian of all j-dimensional subspaces in C^n, there's a
 god-given complex line bundle on it whose space of holomorphic sections
@@ -203,7 +203,7 @@ In math jargon, they generate the representation ring of G. Even better,
 there's a simple recipe for taking a Dynkin diagram with dots labelled
 by numbers and finding the corresponding irrep inside a tensor product
 of symmetrized tensor powers of these fundamental reps, where the
-numbers labelling the dots tell you which powers to use. For SL(n,C)
+numbers labelling the dots tell you which powers to use. For \mathrm{SL}(n,C)
 this is just the theory of Young diagrams, which I discussed in "week
 157". So, we're just generalizing the heck out of that.
 
@@ -211,23 +211,23 @@ Even if you don't understand what I just said, you can rest assured
 knowing that we can completely master *all* the irreps of G once we
 figure out the fundamental ones. So, we'll focus on those.
 
-We've more or less beat SL(n,C) to death, so let's see what happens
+We've more or less beat \mathrm{SL}(n,C) to death, so let's see what happens
 with some other simple Lie groups... for example, the groups Spin(n,C).
-If you don't know these guys, first think about SO(n,C). This is the
+If you don't know these guys, first think about \mathrm{SO}(n,C). This is the
 group of all linear transformations of C^n preserving the symmetric
 bilinear form
 
 x.y = x_1 y_1 + ... + x~n~ y~n~
 
-Unfortunately SO(n,C) is not simply connected, so not all reps of its
+Unfortunately \mathrm{SO}(n,C) is not simply connected, so not all reps of its
 Lie algebra give reps of the group. So, to get group representations
 from ways of labelling the Dynkin diagram by numbers, we need to work
 with its double cover, the "spin" group Spin(n,C).
 
 You may be more familiar with the compact real forms of these groups.
-The compact real form of SO(n,C) is the good old rotation group in n
-dimensions, SO(n). The compact real form of Spin(n,C) is the double
-cover of SO(n), called Spin(n). The irreps of Spin(n,C) give unitary
+The compact real form of \mathrm{SO}(n,C) is the good old rotation group in n
+dimensions, \mathrm{SO}(n). The compact real form of Spin(n,C) is the double
+cover of \mathrm{SO}(n), called Spin(n). The irreps of Spin(n,C) give unitary
 irreps of Spin(n), so you can think about them that way if you prefer.
 
 The Dynkin diagram of Spin(n,C) looks really different depending on
@@ -243,14 +243,14 @@ The Dynkin diagram of Spin(3,C) is just a single dot:
 
                           o
 
-just like the Dynkin diagram for SL(2,C). That's because they're
+just like the Dynkin diagram for \mathrm{SL}(2,\mathbb{C}). That's because they're
 isomorphic:
 
-Spin(3,C) = SL(2,C).
+Spin(3,C) = \mathrm{SL}(2,\mathbb{C}).
 
 The fundamental representation corresponding to the single dot in the
 Dynkin diagram is called the "spinor" representation of Spin(3,C):
-it's just the obvious rep of SL(2,C) on C^2. This fact is crucial for
+it's just the obvious rep of \mathrm{SL}(2,\mathbb{C}) on C^2. This fact is crucial for
 understanding spin-1/2 particles in 3d space.
 
 The Dynkin diagram of Spin(4,C) is two dots, not connected by an edge:
@@ -262,14 +262,14 @@ The Dynkin diagram of Spin(4,C) is two dots, not connected by an edge:
       
                           o
 
-just like the Dynkin diagram for SL(2,C) x SL(2,C). That's because
+just like the Dynkin diagram for \mathrm{SL}(2,\mathbb{C}) x \mathrm{SL}(2,\mathbb{C}). That's because
 they're isomorphic:
 
-    Spin(4,C) = SL(2,C) x SL(2,C).
+    Spin(4,C) = \mathrm{SL}(2,\mathbb{C}) x \mathrm{SL}(2,\mathbb{C}).
 
 The fundamental reps coresponding to the two dots are called the
 "left-handed" and "right-handed" spinor representations of
-Spin(4,C): they're just the obvious reps of SL(2,C) x SL(2,C) on C^2.
+Spin(4,C): they're just the obvious reps of \mathrm{SL}(2,\mathbb{C}) x \mathrm{SL}(2,\mathbb{C}) on C^2.
 This fact is crucial for understanding spin-1/2 particles in 4d
 spacetime.
 
@@ -286,7 +286,7 @@ That's because these groups are isomorphic:
 Spin(5,C) = Sp(4,C).
 
 The fundamental rep corresponding to the left dot in the Dynkin diagram
-comes from the obvious rep of SO(5,C) on C^5^ - what physicists would
+comes from the obvious rep of \mathrm{SO}(5,C) on C^5 - what physicists would
 call the "vector" rep. The fundamental rep corresponding to the right
 dot comes from the obvious rep of Sp(4,C) on C^4 - it's called the
 "spinor" rep of Spin(5,C). This would be fundamental for studying
@@ -305,15 +305,15 @@ The Dynkin diagram of Spin(6,C) has three dots:
                              \
                               o
 
-This is the same as that of SL(4,C), though I've drawn it differently.
+This is the same as that of \mathrm{SL}(4,C), though I've drawn it differently.
 That's because these groups are isomorphic:
 
-Spin(6,C) = SL(4,C).
+Spin(6,C) = \mathrm{SL}(4,C).
 
 The fundamental rep corresponding to the left dot comes from the obvious
-rep of SO(6,C) on C^6^ - the "vector" rep again. The reps
+rep of \mathrm{SO}(6,C) on C^6 - the "vector" rep again. The reps
 corresponding to the other dots are the left- and right-handed spinor
-reps of Spin(6,C), coming from the obvious rep of SL(4,C) on C^4 and
+reps of Spin(6,C), coming from the obvious rep of \mathrm{SL}(4,C) on C^4 and
 its dual. This is fundamental for understanding spin-1/2 particles in
 6-dimensional space - for example, the 6 extra curled-up dimensions in
 string theory. And as we'll see, it's also basic to Penrose's theory
@@ -322,18 +322,18 @@ of twistors!
 At this point we're done with all the cute isomorphisms, so let us line
 them up and admire them before bidding them farewell:
 
-    Spin(3,C) = SL(2,C)
-    Spin(4,C) = SL(2,C) x SL(2,C)
-    Spin(5,C) = Sp(2,C)
-    Spin(6,C) = SL(4,C).
+    Spin(3,C) = \mathrm{SL}(2,\mathbb{C})
+    Spin(4,C) = \mathrm{SL}(2,\mathbb{C}) x \mathrm{SL}(2,\mathbb{C})
+    Spin(5,C) = Sp(2,\mathbb{C})
+    Spin(6,C) = \mathrm{SL}(4,C).
 
 They give rise to isomorphisms of their maximal compact subgroups, so
 let's say goodbye to those too:
 
-    Spin(3) = SU(2)
-    Spin(4) = SU(2) x SU(2)
+    Spin(3) = \mathrm{SU}(2)
+    Spin(4) = \mathrm{SU}(2) x \mathrm{SU}(2)
     Spin(5) = Sp(2)
-    Spin(6) = SU(4).
+    Spin(6) = \mathrm{SU}(4).
 
 Sometime we should return and learn to know them better... they've
 barely begun to display their many charms! But today we must sail on to
@@ -344,7 +344,7 @@ The Dynkin diagram of Spin(7,C) has three dots:
                          o-------o===>===o 
 
 The fundamental rep corresponding to the left dot comes from the vector
-rep of SO(7,C) on C^7^. The rep corresponding to the middle dot is the
+rep of \mathrm{SO}(7,C) on C^7. The rep corresponding to the middle dot is the
 second exterior power of the vector rep. The rep corresponding to the
 right dot is the spinor rep, which is no longer so easy to describe
 without using Clifford algebras - see ["Week 93"](#week93) or
@@ -363,7 +363,7 @@ The Dynkin diagram of Spin(8,C) has four dots:
                                       o
 
 The fundamental rep corresponding to the left dot comes from the vector
-rep of SO(8,C) on C^8^. The middle dot corresponds to the second
+rep of \mathrm{SO}(8,C) on C^8. The middle dot corresponds to the second
 exterior power of the vector rep. The top and bottom dots correspond to
 the left- and right-handed spinor reps. Like the vector rep, these are
 also 8-dimensional. This coincidence arises from the symmetry of the
@@ -375,11 +375,11 @@ distraction - I'm trying to get you to see the pattern of Spin(n,C)
 Dynkin diagrams, and I'm hoping that by now it's apparent: an
 alternation between odd and even dimensions, and so on....
 
-But just to be clear, let's look at SO(n,C) for n = 9 and n = 10, which
+But just to be clear, let's look at \mathrm{SO}(n,C) for n = 9 and n = 10, which
 illustrate the pattern even more clearly. I'll also explain how how
 it's all related to incidence geometry.
 
-The Dynkin diagram of SO(9,C) has 4 = (9-1)/2 dots:
+The Dynkin diagram of \mathrm{SO}(9,C) has 4 = (9-1)/2 dots:
 
                      o-------o-------o====>====o 
 
@@ -406,9 +406,9 @@ detail. It's closely related to the fact that lightlike vectors in
 Minkowski spacetime are always orthogonal to themselves. In other words,
 they have x⋅x = 0.
 
-To construct an incidence geometry for SO(n,C) and make it as similar to
+To construct an incidence geometry for \mathrm{SO}(n,C) and make it as similar to
 projective geometry as possible, we work not with C^n but with the
-subspace of CP^n-1^ coming from vectors in C^n with x⋅x = 0. Algebraic
+subspace of \mathbb{CP}^n-1^ coming from vectors in C^n with x⋅x = 0. Algebraic
 geometers call this subspace a "quadric". In physics it arises
 naturally from taking (n-2)-dimensional Minkowski spacetime,
 compactifying it in a certain way, and then complexifying it - we'll
@@ -433,9 +433,9 @@ i-dimensional subspaces in C^n - or in other words, all null
 "orthogonal Grassmannian", has a complex line bundle on it whose space
 of holomorphic sections is the ith fundamental rep of Spin(n,C).
 
-For n even, let's look at SO(10,C).
+For n even, let's look at \mathrm{SO}(10,C).
 
-The Dynkin diagram of SO(10,C) has 5 = 10/2 dots:
+The Dynkin diagram of \mathrm{SO}(10,C) has 5 = 10/2 dots:
 
                                         o 
                                        /
@@ -520,7 +520,7 @@ from here:
 Interaction with Representation Theory, Clarendon Press, Oxford, 1989.
 
 The field equations for massless particles like photons are conformally
-invariant. The group SO(2,4) acts as conformal transformations of 4d
+invariant. The group \mathrm{SO}(2,4) acts as conformal transformations of 4d
 Minkowski spacetime. To be precise, we should admit that some of these
 are just partially defined, like conformal inversion:
 
@@ -537,7 +537,7 @@ sits inside the Riemann sphere. A lot of physics becomes easier on M,
 just like a lot of math is easier to do on the Riemann sphere than on
 the real line.
 
-Now, since SO(2,4) is a real form of SO(6,C), the whole group SO(6,C)
+Now, since \mathrm{SO}(2,4) is a real form of \mathrm{SO}(6,C), the whole group \mathrm{SO}(6,C)
 acts as symmetries of M. Of course the double cover Spin(6,C) also acts
 on M, so let's use that. Here's the cool part:
 
@@ -573,10 +573,10 @@ so points of M are just points of this quadric!
 
 If you unravel some of the definitions, this says that
 
-M = {1-dimensional isotropic subspaces of C^6^},
+M = {1-dimensional isotropic subspaces of C^6},
 
 so in physics lingo, M is the space of lightlike lines through the
-origin in C^6^.... but remember, these are *complex* lines.
+origin in C^6.... but remember, these are *complex* lines.
 
 So far, this stuff actually works in any dimension: the space of
 1-dimensional isotropic subspaces of C^n is the same as what you get by
@@ -585,16 +585,16 @@ Minkowski spacetime, and so on.
 
 But now we can use one of those charming coincidences:
 
-Spin(6,C) = SL(4,C)!
+Spin(6,C) = \mathrm{SL}(4,C)!
 
 This means we can also write
 
-M = SL(4,C)/P
+M = \mathrm{SL}(4,C)/P
 
-where now we think of P as a parabolic in SL(4,C). Let's see what M
-looks like in these terms. SL(4,C) acts on CP^3, and we've seen that
-the dots in the Dynkin diagram for SL(4,C) correspond to these different
-types of geometrical figures in CP^3:
+where now we think of P as a parabolic in \mathrm{SL}(4,C). Let's see what M
+looks like in these terms. \mathrm{SL}(4,C) acts on \mathbb{CP}^3, and we've seen that
+the dots in the Dynkin diagram for \mathrm{SL}(4,C) correspond to these different
+types of geometrical figures in \mathbb{CP}^3:
 
                               o points
                              /
@@ -608,7 +608,7 @@ types of geometrical figures in CP^3:
 
 So, we get yet another description of our marvelous spacetime:
 
-M = {lines in CP^3}
+M = {lines in \mathbb{CP}^3}
 
 or if you prefer:
 
@@ -725,12 +725,12 @@ the best we can do is (n-1)/2.
 
 This shows that isotropic subspaces of C^n work differently depending
 on whether n is odd or even. I described this in more detail above,
-where I separately treated SO(n,C) for n odd and n even.
+where I separately treated \mathrm{SO}(n,C) for n odd and n even.
 
 ------------------------------------------------------------------------
 
 **Addendum:** Here are two posts on sci.physics.research which address
-this mysterious fact: there's no dot in the Dynkin diagram for SO(2n,C)
+this mysterious fact: there's no dot in the Dynkin diagram for \mathrm{SO}(2n,C)
 corresponding to the (n/2 - 1)-dimensional isotropic subspaces of C^2n^,
 even though there is one for every *other* dimension from 1 to n/2.
 
@@ -767,7 +767,7 @@ even though there is one for every *other* dimension from 1 to n/2.
     |In the two-dimensional case, there are two isotropic lines,
     |one of which is self-dual and the other anti-self-dual, so that 
     |the configuration is completely fixed, consistent with the abelian 
-    |character of SO(2).
+    |character of \mathrm{SO}(2).
     |Now when I choose an isotropic line is C^4, its orthogonal is a three
     |dimensional subspace which contains it, so that the extension of the
     |isotropic line to an isotropic plane is equivalent to choosing an 
@@ -783,7 +783,7 @@ even though there is one for every *other* dimension from 1 to n/2.
     |pair of isotropic planes, one self-dual and the other anti-self-dual.
     |AFAIK, it is the property used in the twistor program of Penrose:
     |you parameterize the light rays (null lines) by the isotropic planes
-    |it lies on.  More generally, when considering SO(2n), you do not need 
+    |it lies on.  More generally, when considering \mathrm{SO}(2n), you do not need 
     |to consider the $(n-1)$-dimensional isotropic plane, since they are 
     |uniquely defined by the combination of a self-dual $n$-space and an
     |anti-self dual one, if they have a (n-2)-dimensional space in common.

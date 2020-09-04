@@ -692,7 +692,7 @@ sci.physics.research:
 >     e.g. Namely, you take the associated matrix γ, and reduce entries
 >     mod the prime Q, where Q determines the covering surface Γ(Q)\H.
 >     This is a very concrete definition that doesn't hint at the connection
->     to number theory. Remember, secretly, PSL(2,q), q = norm(Q) is really
+>     to number theory. Remember, secretly, \mathrm{PSL}(2,q), q = norm(Q) is really
 >     (isomorphic to) the deck transformation group of Γ(Q)\H over
 >     Γ(H), and the Frob conj. class of a geodesic f should be a conj.
 >     class in this deck transformation group. Conceptually, it should be an

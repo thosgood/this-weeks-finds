@@ -441,9 +441,9 @@ it's just F^n+1^ with the quadratic form
 
 x^2 = x~0~^2 - x_1^2 - ... - x~n~^2
 
-We define O(n,1) to be the group of transformations of F^n+1^ that
+We define \mathrm{O}(n,1) to be the group of transformations of F^n+1^ that
 preserve the above quadratic form, and define the "Lorentz group"
-SO(n,1) to be the subgroup consisting of transformations that also have
+\mathrm{SO}(n,1) to be the subgroup consisting of transformations that also have
 determinant 1.
 
 As usual, we say that a vector x in Minkowski spacetime is:
@@ -479,30 +479,30 @@ since the determinant of such a matrix is just
 
     x2 = x02 - x12 - x22
 
-In this picture, the group SL(2,F) consisting of 2\times2 matrices with
+In this picture, the group \mathrm{SL}(2,F) consisting of 2\times2 matrices with
 determinant 1 acts as Lorentz transformations:
 
 g: x \mapsto gxg*
 
-where g* is the transpose of g. So, we get a homomorphism from SL(2,F)
+where g* is the transpose of g. So, we get a homomorphism from \mathrm{SL}(2,F)
 to the 3d Lorentz group:
 
-SL(2,F) \to SO(2,1)
+\mathrm{SL}(2,F) \to \mathrm{SO}(2,1)
 
 This is two-to-one, since it sends both 1 and -1 to the identity Lorentz
 transformation. People typically cure this by defining
 
-PSL(2,F) = SL(2,F)/{+-1}
+\mathrm{PSL}(2,F) = \mathrm{SL}(2,F)/{+-1}
 
 We then get a one-to-one homomorphism
 
-PSL(2,F) \to SO(2,1)
+\mathrm{PSL}(2,F) \to \mathrm{SO}(2,1)
 
 Alas, this homomorphism is not onto: it's only "half-onto". In the
 traditional case where F is the real numbers, its range is just one of
-the two connected components of SO(2,1). In the case we're interested
-in here, where F = Z/7, the group PSL(2,Z/7) has 168 elements but
-SO(2,1) has twice as many.
+the two connected components of \mathrm{SO}(2,1). In the case we're interested
+in here, where F = Z/7, the group \mathrm{PSL}(2,\mathbb{Z}/7) has 168 elements but
+\mathrm{SO}(2,1) has twice as many.
 
 Next, let's bring the hyperbolic plane into the game!
 
@@ -564,7 +564,7 @@ So, H+ is a nice finite version of the hyperbolic plane with 21 points
 and 28 lines! A little calculation shows there are 3 points on each line
 and 4 lines through each point.
 
-We know that PSL(2,Z/7) acts on everything in sight here: H+, H-, and L.
+We know that \mathrm{PSL}(2,\mathbb{Z}/7) acts on everything in sight here: H+, H-, and L.
 It also acts on the Fano plane and Klein's quartic curve. So, we can
 try to match up various features of 3d special relativity with features
 in the Fano plane or Klein's quartic curve!
@@ -601,14 +601,14 @@ vectors are timelike and orthogonal:
 (1,0,0),   (0,4,2),   (0,-2,4)
 
 We call the corresponding triple of rays a "triad", and we get a total
-of 7 triads by applying elements of PSL(2,Z/7) to it. But, there are
+of 7 triads by applying elements of \mathrm{PSL}(2,\mathbb{Z}/7) to it. But, there are
 triples of orthogonal timelike rays that aren't among these 7. For
 example, we get one from these three vectors:
 
 (1,0,0),   (0,2,4),   (0,-4,2)
 
 We call the corresponding triple of rays an "antitriad", and we get 7
-antitriads by applying elements of PSL(2,Z/7).
+antitriads by applying elements of \mathrm{PSL}(2,\mathbb{Z}/7).
 
 Each line in the Fano plane contains 3 points, and each point lies on 3
 lines. This incidence relation can also be seen in terms of triads and
@@ -653,15 +653,15 @@ absorb, so I'll just say a few words - probably more than you want to
 hear. For more detail, try my Klein quartic curve webpage.
 
 There are 48 nonzero lightlike vectors in 3d Minkowksi spacetime, but if
-you take one of them and apply elements of PSL(2,Z/7) to it, you get an
+you take one of them and apply elements of \mathrm{PSL}(2,\mathbb{Z}/7) to it, you get an
 orbit consisting of only 24. These 24 guys correspond to the 24
 heptagons in the heptagonal tiling of the Klein quartic curve! In other
-words, PSL(2,Z/7) acts in precisely the same way.
+words, \mathrm{PSL}(2,\mathbb{Z}/7) acts in precisely the same way.
 
 You may ask what the point of all this stuff is, and the answer is -
 I'm not sure yet, except that it's fun! Apparently the coincidence
 
-PSL(2,Z/7) = PSL(3,Z/2)
+\mathrm{PSL}(2,\mathbb{Z}/7) = \mathrm{PSL}(3,Z/2)
 
 is the only coincidence among classical groups over finite fields, not
 counting the ones we already know over the real numbers. So, it's got

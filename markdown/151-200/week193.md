@@ -309,11 +309,11 @@ integer i, such that
 
 If only the middle 3 of these subspace are nonzero, like so:
 
-    L = L(-1) ⊕ L(0) ⊕ L(1)
+    L = L(-1) \oplus  L(0) \oplus  L(1)
 
 we say L is "3-graded". If only the middle 5 are nonzero, like so:
 
-    L = L(-2) ⊕ L(-1) ⊕ L(0) ⊕ L(1) ⊕ L(2)
+    L = L(-2) \oplus  L(-1) \oplus  L(0) \oplus  L(1) \oplus  L(2)
 
 we say L is "5-graded". And so on. In these situations, some nice
 things happen.
@@ -391,7 +391,7 @@ as desired.
 
 So, in this example we get a 5-grading where
 
-    E8 =  L(-2) ⊕ L(-1) ⊕ L(0) ⊕ L(1) ⊕ L(2)
+    E8 =  L(-2) \oplus  L(-1) \oplus  L(0) \oplus  L(1) \oplus  L(2)
     248 =  114  +  64   +  92   +  64  +  14
 
 where I'm writing the dimension of each vector space direct below it.
@@ -404,12 +404,12 @@ started with. Since the Cartan of this smaller Lie algebra is one
 dimension smaller, it turns out that L(0) equals this smaller Lie
 algebra plus a one-dimensional abelian subalgebra - namely u(1).
 
-In this example this smaller Lie algebra is so(14), which has dimension
-91. L(1) is a 64-dimensional chiral spinor rep of so(14), and L(2) is
+In this example this smaller Lie algebra is \mathfrak{so}(14), which has dimension
+91. L(1) is a 64-dimensional chiral spinor rep of \mathfrak{so}(14), and L(2) is
 the 14-dimensional vector rep... and similarly for L(-1) and L(-2). So
 we get a very "14-dimensional" picture of E~8~:
 
-    E8 =  [vectors] ⊕ [spinors] ⊕ [so(14) ⊕ u(1)] ⊕ [spinors] ⊕ [vectors]
+    E8 =  [vectors] \oplus  [spinors] \oplus  [\mathfrak{so}(14) \oplus  u(1)] \oplus  [spinors] \oplus  [vectors]
 
 But we get a more exciting way of slicing the diamond if we use the
 picture of E~8~ as the Cayley integral octonions! Let's do this, and
@@ -442,14 +442,14 @@ part 0 by subtracting all the other numbers on my list from 240.
 
 So, we get a 5-grading of E~8~ like this:
 
-    E8 =  L(-2) ⊕ L(-1) ⊕ L(0) ⊕ L(1) ⊕ L(2)
+    E8 =  L(-2) \oplus  L(-1) \oplus  L(0) \oplus  L(1) \oplus  L(2)
     248 =   1   +  56   +  134  +  56  +  1
 
 since 126 + 8 = 134.
 
 This shows how to get E~8~ to act on a 57-dimensional manifold: we form
-the group E~8~, and form the subgroup G whose Lie algebra is L(-2) ⊕
-L(-1) ⊕ L(0), and the quotient E~8~/G will be a 57-dimensional space on
+the group E~8~, and form the subgroup G whose Lie algebra is L(-2) \oplus 
+L(-1) \oplus  L(0), and the quotient E~8~/G will be a 57-dimensional space on
 which E~8~ acts! In fact this space is the smallest "Grassmannian" of
 E~8~, as explained in ["Week 181"](#week181) - look at the picture
 of the E~8~ Dynkin diagram near the end.
@@ -464,7 +464,7 @@ E~7~ is 133... but the reason it's *true* is that if you take the
 roots of E~8~ that are orthogonal to any one root, you get the roots of
 E~7~. So, we get a very E~7~-ish description of E~8~:
 
-    E8 =  [trivial] ⊕ [Freudenthal] ⊕ [E7 ⊕ u(1)] ⊕ [Freudenthal] ⊕ [trivial]
+    E8 =  [trivial] \oplus  [Freudenthal] \oplus  [E7 \oplus  u(1)] \oplus  [Freudenthal] \oplus  [trivial]
 
 Here the "Freudenthal algebra" is the 56-dimensional irrep of E~7~,
 which has an invariant symplectic structure and ternary product
@@ -481,7 +481,7 @@ vertices, and we can repeat the same "gem-slicing" trick on a smaller
 scale to get gradings of the Lie algebra E~7~. If we do this in a nice
 way, we get a 3-grading of E~7~:
 
-    E7  =  L(-1) ⊕ L(0) ⊕ L(1)
+    E7  =  L(-1) \oplus  L(0) \oplus  L(1)
     133 =    27  +  79  +  27
 
 Since E~7~'s baby brother E~6~ is 78-dimensional, it's no surprise
@@ -493,19 +493,19 @@ preserving the determinant, and in fact h_3(O) is an irrep of E~6~.
 L(-1) is just the dual of this rep. So, we get a very octonionic
 description of E~7~:
 
-    E7 = h3(O)* ⊕ [E6 ⊕ u(1)] ⊕ h3(O)
+    E7 = h3(O)* \oplus  [E6 \oplus  u(1)] \oplus  h3(O)
 
 Now, since E~6~ sits in E~7~ which sits in E~8~, just like nested
 Russian dolls, we can take our previous description of E~8~:
 
-    E8  =  [trivial] ⊕ [Freudenthal] ⊕ [E7 + u(1)] &oplus [Freudenthal] ⊕ [trivial]
+    E8  =  [trivial] \oplus  [Freudenthal] \oplus  [E7 + u(1)] &oplus [Freudenthal] \oplus  [trivial]
 
 and decompose everything in sight as irreps of E~6~. If we do this, the
 only new exciting thing that happens is that the Freudenthal algebra
 decomposes into a copy of the exceptional Jordan algebra, a copy of its
 dual, and two copies of the trivial rep:
 
-    [Freudenthal] = [trivial] ⊕ h3(O)* ⊕ h3(O) ⊕ [trivial] 
+    [Freudenthal] = [trivial] \oplus  h3(O)* \oplus  h3(O) \oplus  [trivial] 
 
 At least I *think* this is right: people sometimes write elements of the
 Freudenthal algebra as 2\times2 matrices
@@ -576,14 +576,14 @@ is, slightly modified:
 
     Lie algebra L   L'(0)           dim(L(1))      Jordan algebra L(1)
 
-    sl(n+1)         sl(n)           n               Rn-1 ⊕ R
-    so(n+2)         so(n)           n               Rn-1 ⊕ R
+    sl(n+1)         sl(n)           n               Rn-1 \oplus  R
+    \mathfrak{so}(n+2)         \mathfrak{so}(n)           n               Rn-1 \oplus  R
     sp(2n)          sl(n)           (n2+n)/2        hn(R)
-    so(2n)          sl(n)           (n2-n)/2        hn-1(R)
+    \mathfrak{so}(2n)          sl(n)           (n2-n)/2        hn-1(R)
     sl(2n)          sl(n)+sl(n)     n2              hn(C)
-    so(4n)          sl(2n)          2n2-n           hn(H)
+    \mathfrak{so}(4n)          sl(2n)          2n2-n           hn(H)
     E7               E6             27              h3(O)
-    E6               so(10)         16              h4(C)
+    E6               \mathfrak{so}(10)         16              h4(C)
 
 Since L(0) always contains a u(1) summand in these cases, we write
 

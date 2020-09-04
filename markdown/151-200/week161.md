@@ -156,8 +156,8 @@ Let me just quote the beginning:
 > during a good part of 1999. Even if one takes into account the
 > increase in the number of particle physicists during the last decades
 > and compares it with the relative number of participants in previous
-> fashionable topics (the S-matrix bootstrap, Regge theory, the SU(6) -
-> U(12) symmetric and the so-called relativistic quark theory, to name
+> fashionable topics (the S-matrix bootstrap, Regge theory, the \mathrm{SU}(6) -
+> \mathrm{U}(12) symmetric and the so-called relativistic quark theory, to name
 > some of them) which also led to press-conferences, interviews and
 > articles in the media (but not to awards and prizes), it remains still
 > an impressive sociological phenomenon. Just imagine yourslef working
@@ -251,7 +251,7 @@ Let me just quote the beginning:
 > The natural question whose answer would have led directly from CQFT_4
 > to AdS~5~ in the particle physics setting (without string theory as a
 > midwife) is: Does there exist a quantum field theory which has the
-> same SO(4,2) symmetry and just reprocesses the CQFT_4 matter content
+> same \mathrm{SO}(4,2) symmetry and just reprocesses the CQFT_4 matter content
 > in such a way that the "conformal hamiltonian" (the timelike
 > generator of rotations of conformally compactified Minkowski space)
 > becomes the true hamiltonian? The theory exists and is an AdS theory

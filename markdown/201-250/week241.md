@@ -492,14 +492,14 @@ has been intriguing me lately. I already mentioned it in
 have whizzed by too fast. Let's slow down a bit and enjoy it.
 
 The rotational symmetries of the dodecahedron form a 60-element subgroup
-of the rotation group SO(3). So, the "double cover" of the rotational
-symmetry group of the dodecahedron is a 120-element subgroup of SU(2).
+of the rotation group \mathrm{SO}(3). So, the "double cover" of the rotational
+symmetry group of the dodecahedron is a 120-element subgroup of \mathrm{SU}(2).
 This is called the "binary dodecahedral group". Let's call it G.
 
-The group SU(2) is topologically a 3-sphere, so G acts as left
+The group \mathrm{SU}(2) is topologically a 3-sphere, so G acts as left
 translations on this 3-sphere, and we can use a dodecahedron sitting in
 the 3-sphere as a fundamental domain for this action. This gives the
-120-cell. The quotient SU(2)/G is the Poincare homology sphere!
+120-cell. The quotient \mathrm{SU}(2)/G is the Poincare homology sphere!
 
 But, we can also think of G as acting on C^2. The quotient C^2/G is
 not smooth: it has an isolated singular coming from the origin in C^2.
@@ -577,7 +577,7 @@ resolution
 p: M \to C^2/G
 
 which yields, by the same procedure as above, a cobordism from the empty
-set to the 3-manifold SU(2)/G.
+set to the 3-manifold \mathrm{SU}(2)/G.
 
 This cobordism can be described using surgery on this link:
 
@@ -608,7 +608,7 @@ rotational symmetry group of the tetrahedron - then a minimal resolution
 p: M \to C^2/G
 
 yields, by the same procedure as above, a cobordism from the empty set
-to the 3-manifold SU(2)/G. This cobordism can be described using surgery
+to the 3-manifold \mathrm{SU}(2)/G. This cobordism can be described using surgery
 on this link:
 
                   /\   /\   /\   /\   /\ 

@@ -604,8 +604,8 @@ finite simple groups. Anyway, here we go:
     finite simple group, namely A~5~. Here A~n~ is an an "[alternating
     group](http://en.wikipedia.org/wiki/Alternating_group)": the group
     of even permutations of the set with n elements. By some wonderful
-    freak of nature, A~5~ is isomorphic to both PSL(2,4) and PSL(2,5).
-    Here PSL(n,q) is a "[projective special linear
+    freak of nature, A~5~ is isomorphic to both \mathrm{PSL}(2,4) and \mathrm{PSL}(2,5).
+    Here \mathrm{PSL}(n,q) is a "[projective special linear
     group](http://en.wikipedia.org/wiki/Projective_linear_group)": the
     group of determinant-1 linear transformations of an $n$-dimensional
     vector space over the field with q elements, modulo its center.
@@ -613,14 +613,14 @@ finite simple groups. Anyway, here we go:
 -   How many hours are in a week?
 
     168, which is the number of elements - or "order" - of the second
-    smallest nonabelian finite simple group, namely PSL(2,7). Thanks to
-    another marvelous coincidence, this is isomorphic to PSL(3,2). See
+    smallest nonabelian finite simple group, namely \mathrm{PSL}(2,7). Thanks to
+    another marvelous coincidence, this is isomorphic to \mathrm{PSL}(3,2). See
     ["Week 214"](#week214) for a lot more about this group and its
     relation to Klein's quartic curve and the Fano plane.
 
 -   How many hours are in 3 weeks?
 
-    504, which is the order of the finite simple group PSL(2,8).
+    504, which is the order of the finite simple group \mathrm{PSL}(2,8).
 
 -   How many feet are in 1.5 miles?
 
@@ -632,9 +632,9 @@ finite simple groups. Anyway, here we go:
 -   How many minutes are in 2 weeks?
 
     20,160, which is the order of the finite simple group A~8~. Thanks
-    to another marvelous coincidence, this is isomorphic to PSL(4,2).
+    to another marvelous coincidence, this is isomorphic to \mathrm{PSL}(4,2).
     And there's also another nonisomorphic finite simple group of the
-    same size, namely PSL(3,4)!
+    same size, namely \mathrm{PSL}(3,4)!
 
 -   How many inches are in 1.5 miles?
 
@@ -667,7 +667,7 @@ If you like this sort of stuff, you might enjoy this essay:
 
 It's a curious number:
 
-63360 = 2^7^ \times 3^2 \times 5 \times 11
+63360 = 2^7 \times 3^2 \times 5 \times 11
 
 It seems rather odd that this number is divisible by 11. Find out why it
 is!
@@ -735,7 +735,7 @@ investigation. If we approximate π by 22/7, the volume then comes out to
 This 11-ness of the gallon then infects other units of volume. For
 example, a US liquid ounce is
 
-3 \times 7 \times 11 / 2^7^
+3 \times 7 \times 11 / 2^7
 
 cubic inches!
 

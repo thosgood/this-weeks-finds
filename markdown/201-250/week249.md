@@ -167,9 +167,9 @@ If you haven't seen this fact before, you should definitely prove it -
 it's one of the big ways people use symmetry!
 
 Here's one kind of thing people do with this fact. The 3d rotation
-group G = SO(3) acts on the sphere X = S^2, and the stabilizer of the
-north pole is the 2d rotation group H = SO(2), so the sphere is
-isomorphic to G/H = SO(3)/SO(2). The same sort of result holds in any
+group G = \mathrm{SO}(3) acts on the sphere X = S^2, and the stabilizer of the
+north pole is the 2d rotation group H = \mathrm{SO}(2), so the sphere is
+isomorphic to G/H = \mathrm{SO}(3)/\mathrm{SO}(2). The same sort of result holds in any
 dimension, and we can use it to derive facts about spheres from facts
 about rotation groups, and vice versa.
 
@@ -188,26 +188,26 @@ different group of symmetries. For example:
 
 -   $n$-dimensional [spherical
     geometry](http://en.wikipedia.org/wiki/Spherical_geometry) has the
-    rotation group SO(n+1) as symmetries. (Or, if you want to include
-    reflections, the bigger group O(n+1).)
+    rotation group \mathrm{SO}(n+1) as symmetries. (Or, if you want to include
+    reflections, the bigger group \mathrm{O}(n+1).)
 -   $n$-dimensional [Euclidean
     geometry](http://en.wikipedia.org/wiki/Euclidean_geometry) has the
-    Euclidean group ISO(n) as symmetries. (This group is built from
-    rotations in SO(n) together with translations in R^n.)
+    Euclidean group I\mathrm{SO}(n) as symmetries. (This group is built from
+    rotations in \mathrm{SO}(n) together with translations in R^n.)
 -   $n$-dimensional [hyperbolic
     geometry](http://en.wikipedia.org/wiki/Hyperbolic_geometry) has the
-    group SO(n,1) as symmetries. (This group also shows up in special
+    group \mathrm{SO}(n,1) as symmetries. (This group also shows up in special
     relativity under the name of the "Lorentz group": it acts on the
     "mass hyperboloid", and that's how hyperbolic geometry shows up
     in special relativity.)
 -   $n$-dimensional [projective
     geometry](http://en.wikipedia.org/wiki/Projective_geometry) has the
-    group SL(n+1) as symmetries. (This group consists of (n+1)\times(n+1)
+    group \mathrm{SL}(n+1) as symmetries. (This group consists of (n+1)\times(n+1)
     matrices with determinant 1. Scalar multiples of the identity act
     trivially on projective space, so it's actually better to use the
-    "projective general linear group" PGL(n+1), consisting of
+    "projective general linear group" \mathrm{PGL}(n+1), consisting of
     invertible matrices mod scalars. But, this has the same Lie algebra
-    as SL(n+1), so people are often a bit slack about which group they
+    as \mathrm{SL}(n+1), so people are often a bit slack about which group they
     use.)
 
 The details here don't matter much yet; the point is that there are

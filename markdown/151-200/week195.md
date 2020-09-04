@@ -255,14 +255,14 @@ X-manifold is called a "Kaehler manifold".
 
 When we parallel transport a vector around a loop in a $n$-dimensional
 Riemannian manifold, it can be rotated or reflected. In more jargonesgue
-jargon, the holonomy around a loop defines an element of the group O(n).
+jargon, the holonomy around a loop defines an element of the group \mathrm{O}(n).
 But when your manifold is a Kaehler manifold, each tangent space becomes
 a complex inner product space of dimension n/2, in a way that's
 preserved by parallel transport. So, the holonomy around any loop must
-lie in the unitary group U(n/2).
+lie in the unitary group \mathrm{U}(n/2).
 
 There's a converse to this, as well! So a Kaehler manifold is just a
-Riemannian manifold where the holonomies all lie in U(n/2).
+Riemannian manifold where the holonomies all lie in \mathrm{U}(n/2).
 
 And this is how it usually works - or *always*, if you take care to
 include all the necessary fine print. Thus many sorts of X-manifolds are
@@ -281,8 +281,8 @@ an X-manifold is called a "Calabi-Yau manifold". This concept of
 Calabi-Yau manifold works in any even dimension, while before I was just
 talking about 6-dimensional ones! For parallel transport around a loop
 to preserve an n/2-form as well as a Hermitian structure, the holonomy
-must lie in SU(n/2). So, a Calabi-Yau manifold is the same as one where
-the holonomies lie in SU(n/2).
+must lie in \mathrm{SU}(n/2). So, a Calabi-Yau manifold is the same as one where
+the holonomies lie in \mathrm{SU}(n/2).
 
 We can define G2-manifolds in a similar way. But to do this, and to see
 how they're related to 6-dimensional Calabi-Yau manifolds, we need a
@@ -294,8 +294,8 @@ spinor field needs to be nonzero to be of any use, but that's so
 obvious people often don't mention it.
 
 Now, a nonzero spinor isn't exactly an extra structure you can put on a
-real inner product space, since spinors are representations not of O(n)
-or even SO(n) but of the double cover Spin(n). However, if you start
+real inner product space, since spinors are representations not of \mathrm{O}(n)
+or even \mathrm{SO}(n) but of the double cover Spin(n). However, if you start
 with a *spin* manifold, you can think of a nonzero covariantly constant
 spinor field as some extra structure that reduces the holonomy group
 from Spin(n) down to some subgroup.
@@ -337,7 +337,7 @@ kind. The way these spinors work is sort of obvious:
     dimension 7:  R8
     dimension 8:  left and right, both R8
 
-Now the cool part is that H^2, C^4 and R^8^ are all secretly the same
+Now the cool part is that H^2, C^4 and R^8 are all secretly the same
 8-dimensional real vector space equipped with various amounts of extra
 structure - i.e. the structure of a 4-dimensional complex vector space,
 or a 2-dimensional quaternionic vector space. And you'll probably be
@@ -460,8 +460,8 @@ particular direction in the imaginary octonions.
 
 This in turn implies that the holonomy group of O must lie in the
 subgroup of G2 fixing a direction in the imaginary octonions. This
-subgroup is SU(3), so the holonomy group of O must be a subgroup of
-SU(3).
+subgroup is \mathrm{SU}(3), so the holonomy group of O must be a subgroup of
+\mathrm{SU}(3).
 
 People call a manifold like this O a "Calabi-Yau manifold".
 
@@ -487,9 +487,9 @@ orthogonal directions in the imaginary octonions.
 
 This in turn implies that the holonomy group of P must lie in the
 subgroup of G2 fixing two orthogonal directions in the imaginary
-octonions. This subgroup is SU(2).
+octonions. This subgroup is \mathrm{SU}(2).
 
-I'll call a manifold like this P an "SU(2) manifold".
+I'll call a manifold like this P an "\mathrm{SU}(2) manifold".
 
 Does my prose style seem stuck in a loop? That's on purpose; I'm
 trying to make a certain pattern very clear. But the loop stops here, or
@@ -518,9 +518,9 @@ Summary:
 -   When P is a 5-dimensional spin manifold with a nonzero covariantly
     constant spinor field, its spinor bundle becomes an octonion bundle,
     while its tangent bundle plus two trivial line bundles becomes an
-    imaginary octonion bundle. We call O an SU(2) manifold.
+    imaginary octonion bundle. We call O an \mathrm{SU}(2) manifold.
 
-An SU(2) manifold times R is a Calabi-Yau manifold;
+An \mathrm{SU}(2) manifold times R is a Calabi-Yau manifold;
 
 a Calabi-Yau manifold times R is a G2 manifold;
 
@@ -534,34 +534,34 @@ manifold must like in Spin(7), and such a manifold is called a Spin(7)
 manifold.
 
 You may wonder how I knew that the subgroup of G2 fixing one direction
-in the imaginary octonions is SU(3). You may also wonder how I knew that
+in the imaginary octonions is \mathrm{SU}(3). You may also wonder how I knew that
 the subgroup of G2 fixing two orthogonal directions in the imaginary
-octonions is SU(2).
+octonions is \mathrm{SU}(2).
 
 This is very pretty! I mainly just used two facts we've already seen:
 the even part of the Clifford algebra in 6 dimensions is C(4), while in
 5 dimensions it's H(2).
 
-The first of these facts implies that so(6) must sit inside the
-traceless skew-adjoint matrices in C(4). In other words, so(6) sits
-inside su(4). But
+The first of these facts implies that \mathfrak{so}(6) must sit inside the
+traceless skew-adjoint matrices in C(4). In other words, \mathfrak{so}(6) sits
+inside \mathfrak{su}(4). But
 
-    dim(so(6)) = dim(su(4)) = 15
+    dim(\mathfrak{so}(6)) = dim(\mathfrak{su}(4)) = 15
 
-so in fact so(6) = su(4). Indeed, SU(4) is the double cover of SO(6),
+so in fact \mathfrak{so}(6) = \mathfrak{su}(4). Indeed, \mathrm{SU}(4) is the double cover of \mathrm{SO}(6),
 and it acts on the space of spinors, C^4, in the obvious way. The
-subgroup fixing a unit spinor is thus SU(3).
+subgroup fixing a unit spinor is thus \mathrm{SU}(3).
 
-The second of these facts implies that so(5) must sit inside the
-traceless skew-adjoint matrices in H(2). In other words, so(5) sits
+The second of these facts implies that \mathfrak{so}(5) must sit inside the
+traceless skew-adjoint matrices in H(2). In other words, \mathfrak{so}(5) sits
 inside sp(2). But
 
-    dim(so(5)) = dim(sp(2)) = 10
+    dim(\mathfrak{so}(5)) = dim(sp(2)) = 10
 
-so in fact so(5) = sp(2). Indeed, Sp(2) is the double cover of SO(5),
+so in fact \mathfrak{so}(5) = sp(2). Indeed, Sp(2) is the double cover of \mathrm{SO}(5),
 and it acts on the space of spinors, H^2, in the obvious way. The
 subgroup fixing a unit spinor is thus Sp(1)... which being the unit
-quaternions, is isomorphic to SU(2).
+quaternions, is isomorphic to \mathrm{SU}(2).
 
 If you think about it a while, these results do the job.
 
@@ -619,50 +619,50 @@ This Z_3 group acts as automorphisms of the octonions that fix the
 elements 1 and e7. Of course, every automorphism fixes 1, so the
 interesting part is that they fix a unit imaginary octonion, e7.
 
-But Z_3 is a subgroup of SO(3) in an obvious way, since any cyclic
-permutation of the x,y,z axes gives a rotation. And SO(3), in turn, is a
-subgroup of SU(3) in an obvious way. And we already know that SU(3) is
+But Z_3 is a subgroup of \mathrm{SO}(3) in an obvious way, since any cyclic
+permutation of the x,y,z axes gives a rotation. And \mathrm{SO}(3), in turn, is a
+subgroup of \mathrm{SU}(3) in an obvious way. And we already know that \mathrm{SU}(3) is
 the group of *all* automorphisms of the octonions that fix a unit
 imaginary octonion, say e7.
 
 Or if you prefer: octonions are the same as spinors in 7 dimensions, and
-SU(3) is the subgroup of Spin(7) that fixes two orthogonal unit spinors,
+\mathrm{SU}(3) is the subgroup of Spin(7) that fixes two orthogonal unit spinors,
 namely those corresponding to 1 and e7.
 
-Either way, you can think of SO(3) and SU(3) as souped-up versions of
+Either way, you can think of \mathrm{SO}(3) and \mathrm{SU}(3) as souped-up versions of
 the obvious Z_3 symmetry of the octonion cube. Here's how the
-octonions decompose as a representation of SO(3):
+octonions decompose as a representation of \mathrm{SO}(3):
 
      1d real rep                   1
-     of SO(3)                     /|\
+     of \mathrm{SO}(3)                     /|\
                                  / | \
      ......................................................................
                                /   |   \          
      3d real rep             e3   e6    e5   
-     of SO(3)                |\   / \   /| 
+     of \mathrm{SO}(3)                |\   / \   /| 
                              | \ /   \ / |
      ......................................................................
                              |  \     /  |
      3d real rep             | / \   / \ |
-     of SO(3)                e4   \ /   e1 
+     of \mathrm{SO}(3)                e4   \ /   e1 
                               \   e2    / 
                                \   |   /                       
      ......................................................................
                                  \ | /
      1d real rep                  |/
-     of SO(3)                     e7
+     of \mathrm{SO}(3)                     e7
 
-And here's how they decompose as a rep of SU(3):
+And here's how they decompose as a rep of \mathrm{SU}(3):
 
      1d real rep                   1
-     of SU(3)                     /|\
+     of \mathrm{SU}(3)                     /|\
                                  / | \
      ......................................................................
                                /   |   \          
                              e3   e6    e5   
                              |\   / \   /| 
      3d complex rep          | \ /   \ / |
-     of SU(3)                |  \     /  |
+     of \mathrm{SU}(3)                |  \     /  |
                              | / \   / \ |
                              e4   \ /   e1 
                               \   e2    / 
@@ -670,7 +670,7 @@ And here's how they decompose as a rep of SU(3):
      ......................................................................
                                  \ | /
      1d real rep                  |/
-     of SU(3)                     e7
+     of \mathrm{SU}(3)                     e7
 
 I hope this makes things a bit more vivid!
 

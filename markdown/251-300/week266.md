@@ -160,7 +160,7 @@ attributed this quote to Pythagoras, referring to the tetratkys and the
 fact that it has 1 + 2 + 3 + 4 = 10 dots. This somehow led the
 Pythagoreans to think the number 10 represented "perfection". If there
 turn out to be 4 visible dimensions of spacetime together with 6
-curled-up ones explaining the gauge group U(1) \times SU(2) \times SU(3), maybe
+curled-up ones explaining the gauge group \mathrm{U}(1) \times \mathrm{SU}(2) \times \mathrm{SU}(3), maybe
 they were right.
 
 Pythagorean music theory is a bit more comprehensible: along with
@@ -207,7 +207,7 @@ on a modern keyboard, it looks like after going up 6 whole tones you've
 gone up an octave. But in fact if you buy the Pythagorean definition of
 whole tone, 6 whole tones equals
 
-(9/8)^6^ = 531441 / 262144 ≅ 2.027286530...
+(9/8)^6 = 531441 / 262144 ≅ 2.027286530...
 
 which is, umm, not quite 2!
 
@@ -215,7 +215,7 @@ Another way to put it is that if you go up 12 fifths, you've *almost*
 gone up 7 octaves, but not quite: the so-called circle of fifths
 doesn't quite close, since
 
-(3/2)^12^ / 2^7^ = 531441 / 524288 ≅ 1.01264326...
+(3/2)^12^ / 2^7 = 531441 / 524288 ≅ 1.01264326...
 
 This annoying little discrepancy is called the "Pythagorean comma".
 
@@ -423,7 +423,7 @@ groups and their 2-characters, draft available at
 The first big idea here is that the category of representations of a
 finite group G is equivalent to some category where an object X is a
 complex manifold on which G acts, equipped with an invariant hermitian
-metric and an equivariant U(1) bundle. A morphism from X to Y in this
+metric and an equivariant \mathrm{U}(1) bundle. A morphism from X to Y in this
 category is not just the obvious sort of map; instead, it's diagram of
 maps shaped like this:
 
@@ -442,7 +442,7 @@ the Tale of Groupoidification, which began in
 
 But Bruce doesn't stop here! He then *categorifies* this whole story,
 replacing representations of G on Hilbert spaces by representations on
-2-Hilbert spaces, and replacing U(1) bundles by U(1) gerbes. This is
+2-Hilbert spaces, and replacing \mathrm{U}(1) bundles by \mathrm{U}(1) gerbes. This is
 quite impressive, with nice applications to a topological quantum field
 theory called the Dijkgraaf-Witten model.
 
@@ -675,7 +675,7 @@ n-groupoid to *be* a homotopy $n$-type, this should not be hard.
 But this was just the warmup for Aurora's talk, which was about
 K-theory. Quillen set up modern algebraic K-theory by defining the
 K-groups of a ring R to be the homotopy groups of a certain space called
-BGL(R)^+^. In here talk, Aurora defined the K-2-groups of a ring in the
+B\mathrm{GL}(R)^+^. In here talk, Aurora defined the K-2-groups of a ring in the
 same way, but using homotopy 2-groups! And then she went ahead and
 studied them...
 

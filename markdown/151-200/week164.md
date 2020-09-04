@@ -35,7 +35,7 @@ mean the search for new fundamental laws, rather than interesting
 applications of the laws we know. I would leave out question 7, since
 it's too concerned with a particular theory, rather than the physical
 world itself. I'd instead prefer to ask: "What physics underlies the
-Standard Model gauge group SU(3) x SU(2) x U(1)?"
+Standard Model gauge group \mathrm{SU}(3) x \mathrm{SU}(2) x \mathrm{U}(1)?"
 
 Of course, this business of limiting "physics" to mean "the search
 for fundamental laws" annoys condensed matter physicists like Philipp
@@ -97,7 +97,7 @@ You may recall from ["Week 163"](#week163) that the Poincare
 homology 3-sphere is a compact 3-manifold that has the same homology
 groups as the ordinary 3-sphere, but is not homeomorphic to the
 3-sphere. I explained how this marvelous space can be obtained as the
-quotient of SU(2) = S^3 by a 120-element subgroup - the double cover of
+quotient of \mathrm{SU}(2) = S^3 by a 120-element subgroup - the double cover of
 the symmetry group of the dodecahedron. Even better, the points in S^3
 which lie in this subgroup are the centers of the faces a 4d regular
 polytope with 120 dodecahedral faces. That's pretty cool. But here's
@@ -300,7 +300,7 @@ higher dimensions if we restrict attention to manifolds that have
 trivial homotopy groups up to a certain point! For example, it works for
 compact oriented smooth 7-manifolds that have trivial π_1 and π_2. Any
 such manifold can be obtained by doing surgery on some framed 3-spheres
-embedded in S^7^. Just as 1-spheres can link in 3d space since 1+1 is
+embedded in S^7. Just as 1-spheres can link in 3d space since 1+1 is
 one less than 3, 3-spheres can link in 7d space since 3+3 is one less
 than 7. We again get a matrix of linking numbers. As before, this matrix
 is also an intersection form: namely, the intersection form on the 4th

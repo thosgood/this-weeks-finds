@@ -246,7 +246,7 @@ Field Theory, Wiley-Interscience, New York, 1972.
 ... but the real fun starts when we note that projections in the Jordan
 algebra of n x n self-adjoint complex matrices correspond to subspaces
 of C^n. This sets up a relationship to projective geometry, since the
-projections onto 1-dimensional subspaces correspond to points in CP^n,
+projections onto 1-dimensional subspaces correspond to points in \mathbb{CP}^n,
 while the projections onto 2-dimensional subspaces correspond to lines.
 Even better, we can work out the dimension of a subspace V from the
 corresponding projection p: C^n \to V using only the partial order on
@@ -264,7 +264,7 @@ algebra.
 
 If we try this starting with the Jordan algebra of n x n self-adjoint
 matrices with real, complex or quaternionic entries, we succeed when n
-is 2 or more - and we obtain the projective spaces RP^n, CP^n and
+is 2 or more - and we obtain the projective spaces RP^n, \mathbb{CP}^n and
 HP^n, respectively. If we try this starting with the spin factor R^n +
 R we succeed when n is 2 or more - and we obtain a series of
 1-dimensional projective spaces related to Minkowskian geometry, which
@@ -292,7 +292,7 @@ Jour. Math. Phys. 14 (1973), 1615-1667.
 Phys. Rev. D9 (1974), 3387-3391.
 
 13) Murat Gunaydin, Octonionic Hilbert spaces, the Poincare group and
-SU(3), Jour. Math. Phys. 17 (1976), 1875-1883.
+\mathrm{SU}(3), Jour. Math. Phys. 17 (1976), 1875-1883.
 
 14) M. Gunaydin, C. Piron and H. Ruegg, Moufang plane and octonionic
 quantum mechanics, Comm. Math. Phys. 61 (1978), 69-85.
@@ -435,31 +435,31 @@ line KP^1. It follows that these are the same! This shows that:
 h_2(R) is 3d Minkowski spacetime, and RP^1 is the heavenly sphere
 S^1;
 
-h_2(C) is 4d Minkowski spacetime, and CP^1 is the heavenly sphere
+h_2(C) is 4d Minkowski spacetime, and \mathbb{CP}^1 is the heavenly sphere
 S^2;
 
 h_2(H) is 6d Minkowski spacetime, and HP^1 is the heavenly sphere
 S^4;
 
 h_2(O) is 10d Minkowski spacetime, and OP^1 is the heavenly sphere
-S^8^.
+S^8.
 
 Secondly, it follows that the determinant-preserving linear
-transformations of h_2(K) form a group isomorphic to O(n+1,1). How can
+transformations of h_2(K) form a group isomorphic to \mathrm{O}(n+1,1). How can
 we find some transformations of this sort? For K = R, it's easy: when g
-lies in SL(2,R) and x is in h_2(R), we have gxg* in h_2(R) again, and
+lies in \mathrm{SL}(2,R) and x is in h_2(R), we have gxg* in h_2(R) again, and
 
 det(gxg*) = det(x)
 
-This gives a homomorphism from SL(2,R) to O(2,1). It's easy to see that
-this makes SL(2,R) into a double cover of the Lorentz group SO~0~(2,1).
-The exact same construction works for K = C, so SL(2,C) is a double
+This gives a homomorphism from \mathrm{SL}(2,R) to \mathrm{O}(2,1). It's easy to see that
+this makes \mathrm{SL}(2,R) into a double cover of the Lorentz group SO~0~(2,1).
+The exact same construction works for K = C, so \mathrm{SL}(2,\mathbb{C}) is a double
 cover of the Lorentz group SO~0~(3,1) - which you probably knew already,
 if you made it this far!
 
 For the other two normed division algebras the above calculation
 involving determinants breaks down, and it even becomes tricky to define
-the group SL(2,K), so we'll start by working at the Lie algebra level.
+the group \mathrm{SL}(2,K), so we'll start by working at the Lie algebra level.
 We say a 2 x 2 matrix with entries in the normed division algebra K is
 "traceless" if the sum of its diagonal entries is zero. Any such
 traceless matrix acts as a real-linear operator on K^2. When K is
@@ -468,7 +468,7 @@ traceless matrices with entries in K is closed under commutators, but
 otherwise it is not, so we'll define sl(2,K) to be the Lie algebra of
 operators on K^2 *generated* by operators of this form. This Lie
 algebra in turn generates a Lie group of real-linear operators on K^2,
-which we call SL(2,K).
+which we call \mathrm{SL}(2,K).
 
 Now, sl(2,K) has an obvious representation on K^2, called the
 "fundamental representation". If we tensor this representation with
@@ -480,31 +480,31 @@ a: x |-> ax + xa*
 whenever a is actually a 2 x 2 traceless matrix with entries in K. Since
 ax + xa* is hermitian whenever x is, this representation restricts to a
 representation of sl(2,K) on h_2(K). This in turn gives a rep of the
-group SL(2,K). A little calculation at the Lie algebra level shows that
-this action of SL(2,K) on h_2(K) preserves the determinant, so we have
+group \mathrm{SL}(2,K). A little calculation at the Lie algebra level shows that
+this action of \mathrm{SL}(2,K) on h_2(K) preserves the determinant, so we have
 a homomorphism
 
-SL(2,K) \to SO~0~(n+1,1)
+\mathrm{SL}(2,K) \to SO~0~(n+1,1)
 
 This is two-to-one and onto, so it follows pretty easily that:
 
-SL(2,R) is the double cover of the Lorentz group SO~0~(2,1);
+\mathrm{SL}(2,R) is the double cover of the Lorentz group SO~0~(2,1);
 
-SL(2,C) is the double cover of the Lorentz group SO~0~(3,1);
+\mathrm{SL}(2,\mathbb{C}) is the double cover of the Lorentz group SO~0~(3,1);
 
-SL(2,H) is the double cover of the Lorentz group SO~0~(5,1);
+\mathrm{SL}(2,H) is the double cover of the Lorentz group SO~0~(5,1);
 
-SL(2,O) is the double cover of the Lorentz group SO~0~(9,1).
+\mathrm{SL}(2,O) is the double cover of the Lorentz group SO~0~(9,1).
 
 and thus:
 
-SL(2,R) acts as conformal transformations of the sphere S^1 = RP^1;
+\mathrm{SL}(2,R) acts as conformal transformations of the sphere S^1 = RP^1;
 
-SL(2,C) acts as conformal transformations of the sphere S^2 = CP^1;
+\mathrm{SL}(2,\mathbb{C}) acts as conformal transformations of the sphere S^2 = \mathbb{CP}^1;
 
-SL(2,H) acts as conformal transformations of the sphere S^4 = HP^1;
+\mathrm{SL}(2,H) acts as conformal transformations of the sphere S^4 = HP^1;
 
-SL(2,O) acts as conformal transformations of the sphere S^8^ = OP^1.
+\mathrm{SL}(2,O) acts as conformal transformations of the sphere S^8 = OP^1.
 
 In the complex case, these conformal transformations are often called
 "Moebius transformations". For more on the octonionic case, try this:
@@ -518,7 +518,7 @@ To round off the story, it helps to bring in spinors:
 16) Anthony Sudbery, Division algebras, (pseudo)orthogonal groups and
 spinors, Jour. Phys. A17 (1984), 939-955.
 
-The fundamental rep of SL(2,K) on K^2 is secretly one of the spinor
+The fundamental rep of \mathrm{SL}(2,K) on K^2 is secretly one of the spinor
 reps of the double cover of the Lorentz group SO~0~(n+1,1). Moreover, we
 can get points on the heavenly sphere from these spinors! This has been
 nicely explained by Penrose in the complex case, but it works the same

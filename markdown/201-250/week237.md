@@ -145,14 +145,14 @@ to dimension 11?
 
 I got even more intrigued when I ran across two competing explanations
 for that 3-form in 11d supergravity. One was that it's a connection on
-a twice categorified version of a U(1) bundle. The other was that it's
+a twice categorified version of a \mathrm{U}(1) bundle. The other was that it's
 the Chern-Simons form for an E~8~ gauge theory.
 
 Let me say a bit about what these means. I talked about categorified
-U(1) bundles in ["Week 210"](#week210), so I'll be sort of brief
+\mathrm{U}(1) bundles in ["Week 210"](#week210), so I'll be sort of brief
 about those....
 
-A connection on a U(1)-bundle looks locally like a 1-form, so we can
+A connection on a \mathrm{U}(1)-bundle looks locally like a 1-form, so we can
 integrate it along a path and compute how the phase of charged particle
 changes when we move it along that path:
 
@@ -164,7 +164,7 @@ Believe it or not, this is the basis of all modern ideas on
 electromagnetism!
 
 If we categorify this whole idea once, we get a kind of connection that
-looks locally like a 2-form. Folks call this a "connection on a U(1)
+looks locally like a 2-form. Folks call this a "connection on a \mathrm{U}(1)
 gerbe", but don't let the use of French here intimidate you: they just
 do that so they can charge more for the wine. It's just a gadget that
 you can integrate over a surface, to compute how the phase of a charged
@@ -178,7 +178,7 @@ you can integrate over a surface, to compute how the phase of a charged
         ----------->-----
                    g
 
-And, if we categorify once more, we get a "connection on a U(1)
+And, if we categorify once more, we get a "connection on a \mathrm{U}(1)
 2-gerbe". This is something that looks locally like a 3-form, which
 describes what happens when we move *2-branes* around!
 
@@ -204,12 +204,12 @@ climbing up the ladder of $n$-categories.
 
 Anyway: since 11d supergravity has a 3-form in it, and M-theory
 apparently has 2-branes in it, maybe we need to categorify the concept
-of a U(1) bundle twice to understand what's going on here!
+of a \mathrm{U}(1) bundle twice to understand what's going on here!
 
 I came up with this crazy idea on my own back in
 ["Week 158"](#week158), but it's an obvious guess after you learn
 that the 2-form field called B in 10d superstring theory really *is* a
-connection on a U(1) gerbe:
+connection on a \mathrm{U}(1) gerbe:
 
 4) Alan L. Carey, Stuart Johnson and Michael K. Murray, Holonomy on
 D-branes, available as
@@ -240,7 +240,7 @@ see any E~8~ connection staring you in the face in the Lagrangian for
 11d supergravity that I wrote down in ["Week 158"](#week158).
 
 Later, it started becoming clear that both ideas - the twice
-categorified U(1) connection and the E~8~ gauge theory - fit together in
+categorified \mathrm{U}(1) connection and the E~8~ gauge theory - fit together in
 some way:
 
 7) Paolo Aschieri and Branislav Jurco, Gerbes, M5-brane anomalies and
@@ -263,7 +263,7 @@ theory - not just the 3-form field in 11d supergravity, but all the
 fields, in a unified way!
 
 For this, we need to do something much more clever than taking 11d
-spacetime and slapping a U(1) 2-gerbe on top of it. We need to combine
+spacetime and slapping a \mathrm{U}(1) 2-gerbe on top of it. We need to combine
 the graviton, the gravitino and the 2-form field into a connection on a
 *nonabelian* 2-gerbe.
 
@@ -279,7 +279,7 @@ spacetime
 
 and gives you an element of some *group*, which says how a particle
 would transform if you moved it along this path. This group could be
-U(1) - the group of phases - or it could be something more fun, like a
+\mathrm{U}(1) - the group of phases - or it could be something more fun, like a
 *nonabelian* group.
 
 If we categorify this concept, we get the concept of a connection on a
@@ -390,8 +390,8 @@ For the particular one Urs mentions, we have
 Here R is the real numbers, and this 1-dimensional thing is what
 ultimately gives the 3-form field A in 11d supergravity. As a vector
 space, the 11d Poincaré Lie superalgebra is the direct sum of an even
-part, which is the usual Poincaré Lie algebra iso(11,1), and an odd
-part, which is the 32-dimensional real spinor rep of so(11,1). These
+part, which is the usual Poincaré Lie algebra i\mathfrak{so}(11,1), and an odd
+part, which is the 32-dimensional real spinor rep of \mathfrak{so}(11,1). These
 give the graviton (or more precisely the Levi-Civita connection) and the
 gravitino in 11d supergravity.
 
@@ -439,7 +439,7 @@ or, alternatively, work out the cohomology of Poincaré Lie
 superalgebras, to see when they can be deformed to Lie $n$-superalgebras.
 Sounds like a lot of work - maybe someone already did it. Actually
 D'Auria and Fre make it look like a matter of understanding tensor
-products of irreps of so(n,1), which is not bad. A worthwhile project in
+products of irreps of \mathfrak{so}(n,1), which is not bad. A worthwhile project in
 any event.
 
 I also need to understand what all this has to do with E~8~. For that

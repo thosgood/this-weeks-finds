@@ -318,7 +318,7 @@ times listed above are more likely to suffer from inaccuracies than the
 temperatures.
 
 By the way, some people say it's confusing to use numbers like
-"billion", "trillion" and "quadrillion" to mean 10^9^, 10^12^ and
+"billion", "trillion" and "quadrillion" to mean 10^9, 10^12^ and
 10^15^, respectively - because these are American usages, and Europeans
 (they claim) use "milliard", "billion" and "billiard" for these
 numbers. These people say that, for example "gigakelvin",
@@ -364,17 +364,17 @@ Thus, mathematically, spinors are representations of the double cover of
 the rotation group, or the double cover of the Lorentz group if you take
 special relativity into account.
 
-In 4d spacetime, the double cover of the Lorentz group is SL(2,C), the
+In 4d spacetime, the double cover of the Lorentz group is \mathrm{SL}(2,\mathbb{C}), the
 group of 2\times2 complex matrices with determinant 1. We can take a spinor
 to be just a pair of complex numbers, but there are actually two ways
-such a thing can transform under SL(2,C). One way is obvious, but for
+such a thing can transform under \mathrm{SL}(2,\mathbb{C}). One way is obvious, but for
 the other we take the *complex conjugate* of the matrix before letting
 it act on the spinor. We get two sorts of spinors, called left- and
 right-handed "Weyl spinors". In physics, we use these to describe
 massless particles that spin either clockwise or counterclockwise along
 their line of motion as they zip along at the speed of light.
 
-In 3d spacetime, the double cover of the Lorentz group is SL(2,R), the
+In 3d spacetime, the double cover of the Lorentz group is \mathrm{SL}(2,R), the
 group of 2\times2 *real* matrices with determinant 1. In this dimension, we
 can take a spinor to be a pair of *real* numbers. But since we don't
 have complex conjugation at our disposal, we don't get left- and
@@ -383,12 +383,12 @@ spinors. Since they are real, we call them "Majorana spinors".
 
 Since Pythagoras had a strong fondness for number theory, if he were
 alive today he might want to simplify things even further and consider
-SL(2,Z), the group of 2\times2 *integer* matrices with determinant 1. This
+\mathrm{SL}(2,\mathbb{Z}), the group of 2\times2 *integer* matrices with determinant 1. This
 acts on "Pythagorean spinors", namely pairs of integers.
 
 We could also go up to higher dimensions using the quaternions and
-octonions: SL(2,H) is the double cover of the Lorentz group in 6d
-spacetime, and SL(2,O) is the double cover of the Lorentz group in 10d
+octonions: \mathrm{SL}(2,H) is the double cover of the Lorentz group in 6d
+spacetime, and \mathrm{SL}(2,O) is the double cover of the Lorentz group in 10d
 spacetime. But I explained this in my octonion webpage:
 
 11) John Baez, OP^1 and Lorentzian geometry,

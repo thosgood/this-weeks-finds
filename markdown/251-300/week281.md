@@ -139,7 +139,7 @@ As Lakdawalla points out, discovering a big ring was just the beginning:
 > What about smaller particles? The article says "re-radiation of
 > absorbed sunlight exerts an asymmetric force on dust grains, causing
 > them to spiral in towards Saturn with a characteristic timescale of
-> 1.5 \times 10^5^ r years, where r is the particle radius in micrometers.
+> 1.5 \times 10^5 r years, where r is the particle radius in micrometers.
 > This force brings all centimetre-sized and smaller material to Iapetus
 > and Titan unless mutual particle collisions occur first.... Most
 > material from 10 micrometres to centimetres in size ultimately hits

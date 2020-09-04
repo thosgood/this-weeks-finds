@@ -143,10 +143,10 @@ But let's see some examples!
 
 Suppose we want to build a group out of just two layers, where each
 layer is the group of integers mod 3, otherwise known as Z/3. There are
-two ways to do this. One gives Z/3 ⊕ Z/3, the group of pairs of integers
+two ways to do this. One gives Z/3 \oplus  Z/3, the group of pairs of integers
 mod 3. The other gives Z/9, the group of integers mod 9.
 
-We can think of Z/3 ⊕ Z/3 as consisting of pairs of digits 0,1,2 where
+We can think of Z/3 \oplus  Z/3 as consisting of pairs of digits 0,1,2 where
 we add each digit separately mod 3. For example:
 
 01 + 02 = 00\
@@ -166,7 +166,7 @@ example:
 
 So, the "frosting" or "jam" that we use to stick our two copies of
 Z/3 together is the way we carry some information from one to the other
-when adding! If we do it trivially, not carrying at all, we get Z/3 ⊕
+when adding! If we do it trivially, not carrying at all, we get Z/3 \oplus 
 Z/3. If we do it in a more interesting way we get Z/9.
 
 In fact, this how it always works when we build a layer cake of groups.
@@ -498,7 +498,7 @@ and remove some of the labels, I get the so-called A_2 Dynkin diagram:
 
       o-------o
 
-which corresponds to the Lie group PSL(3). And, this is the group of
+which corresponds to the Lie group \mathrm{PSL}(3). And, this is the group of
 symmetries of projective plane geometry! Each dot in the Dynkin
 corresponds to a "type of figure":
 

@@ -14,7 +14,7 @@ interested in $n$-categories.
 The subject moved rather slowly until Frenkel's student Mikhail
 Khovanov got into the game and categorified the Jones polynomial - a
 famous invariant of knots related to the very simplest quantum group,
-the one called "quantum SU(2)". Now categorifying knot theory is a hot
+the one called "quantum \mathrm{SU}(2)". Now categorifying knot theory is a hot
 topic.
 
 James Dolan, Todd Trimble and I have been chewing away on this subject

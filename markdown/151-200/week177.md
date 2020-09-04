@@ -65,7 +65,7 @@ more of a sense of everyday life. Finally, those of us who like math
 will enjoy reading of a world where people give theorems as presents -
 since everything else is too easy.
 
-Would you like to see SO(4) as a principal SO(3)-bundle over S^3, dear?
+Would you like to see \mathrm{SO}(4) as a principal \mathrm{SO}(3)-bundle over S^3, dear?
 
 I should admit this is a wholly biased review of Egan's novel, since
 we're collaborating on a physics paper, and he cites my work at the end

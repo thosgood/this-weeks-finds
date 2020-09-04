@@ -952,7 +952,7 @@ with various replies, concluding with my own.
     >unnecessary [...]
 
     It's unnecessary, but handy: I think there's also an golden object in 
-    the rig category of reps of quantum SU(2) at a suitable value of q.  
+    the rig category of reps of quantum \mathrm{SU}(2) at a suitable value of q.  
     Here the tensor product is not cartesian.  
 
     In the lingo of quantum group theory, this object has "quantum dimension"

@@ -64,7 +64,7 @@ Kerala who lived much earlier, from 1350 to 1425. What's even more
 impressive is that Madhava also knew a formula equivalent to the more
 general result
 
-arctan(x) = x - x^3/3 + x^5^/5 - x^7^/7 + ...
+arctan(x) = x - x^3/3 + x^5/5 - x^7/7 + ...
 
 He used this to compute π to 11 decimal places!
 
@@ -373,7 +373,7 @@ Now we're getting fractions!
 For example, suppose we take G to be the group with just 2 elements,
 called Z/2. If we think of it as a category, and then turn that into a
 space, we get a huge thing usually called "infinite-dimensional real
-projective space", or RP^\infty^ for short. This is built from one vertex,
+projective space", or RP^\infty for short. This is built from one vertex,
 one edge, one triangle, and so on. So, if we try to work out its Euler
 characteristic, we get the divergent series
 

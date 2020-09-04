@@ -523,7 +523,7 @@ replace the group Z/12 by a continuous circle. Points on this circle are
 all - purposes it's good to consider two notes "the same" if they
 differ by an octave. Mathematically this circle is R^+^/2, namely the
 multiplicative group of positive real numbers modulo doubling. As a
-group, it's isomorphic to the usual circle group, U(1).
+group, it's isomorphic to the usual circle group, \mathrm{U}(1).
 
 This "pitch class circle" plays a major role in the work of Dmitri
 Tymoczko, a composer and music theorist from Princeton, who emailed me
@@ -633,12 +633,12 @@ circle, now viewed as a line together with a point at infinity - a
 Indeed, the group Z/11 becomes a field with 11 elements if we multiply
 as well as add mod 11. If we throw in a point at infinity, we get a
 projective line with 12 elements. It looks just like our circle of 12
-notes. But now we see that the group PGL(2,Z/11) acts on this projective
+notes. But now we see that the group \mathrm{PGL}(2,\mathbb{Z}/11) acts on this projective
 line in a natural way. This group consists of invertible 2\times2 matrices
-with entries in Z/11, mod scalars. People call it PGL(2,11) for short.
+with entries in Z/11, mod scalars. People call it \mathrm{PGL}(2,11) for short.
 
-So, PGL(2,11) acts on our 12-element set of notes. And, it's a general
-fact for any field F that PGL(2,F) acts on the corresponding projective
+So, \mathrm{PGL}(2,11) acts on our 12-element set of notes. And, it's a general
+fact for any field F that \mathrm{PGL}(2,F) acts on the corresponding projective
 line in a "triply transitive" way. In other words, given any ordered
 triple of distinct points on the projective line, we can find a group
 element that maps it to any *other* ordered triple of distinct points.
@@ -646,13 +646,13 @@ element that maps it to any *other* ordered triple of distinct points.
 Even better, the action is "sharply" triply transitive, meaning
 there's *exactly one* group element that does the job!
 
-This lets us count the elements in PGL(2,11). Since we can find exactly
+This lets us count the elements in \mathrm{PGL}(2,11). Since we can find exactly
 one group element that maps our favorite ordered triple of distinct
 elements to any other, we just need to count such triples, and there are
 
 12 \times 11 \times 10 = 1320
 
-of them - so this is the size of PGL(2,11).
+of them - so this is the size of \mathrm{PGL}(2,11).
 
 This may be too much symmetry for music, since this group carries *any*
 three-note chord to any other, not just in the sense of chord
@@ -753,7 +753,7 @@ by 24 regular heptagons:
 ![](Klein168.gif)
 :::
 
-Its orientation-preserving symmetries form the group PSL(2,7), which
+Its orientation-preserving symmetries form the group \mathrm{PSL}(2,7), which
 consists of all 2x2 matrices with determinant 1 having entries in Z/7,
 modulo scalars. This group has 24 \times 7 = 168 elements. Since there are 7
 notes in a major or minor scale, and 24 of these scales, it's hard to
@@ -767,14 +767,14 @@ vertices, not a multiple of 12, so there's no great way to think of the
 vertices as notes. But, it has 84 = 7 \times 12 edges, so maybe the edges are
 labelled by notes and each note labels 7 edges.
 
-Unlike some groups I mentioned earlier, PSL(2,7) is not a transitive
-subgroup of the permutations of a 12-element set. And while PSL(2,7) has
+Unlike some groups I mentioned earlier, \mathrm{PSL}(2,7) is not a transitive
+subgroup of the permutations of a 12-element set. And while \mathrm{PSL}(2,7) has
 lots of 12-element subgroups, these are not cyclic groups but instead
 copies of A_4. These facts put some further limitations on any crazy
 ideas you might try.
 
 On the bright side, mathematically if not musically, there is a
-fascinating way to embed PSL(2,7) into the Mathieu group M~24~, which
+fascinating way to embed \mathrm{PSL}(2,7) into the Mathieu group M~24~, which
 can be described by getting M~24~ to act on the set of 24 heptagons in
 the Klein quartic:
 
@@ -784,10 +784,10 @@ the Klein quartic:
 He works in the Poincaré dual picture, where the Klein quartic is tiled
 by 56 triangles, but that's no big deal.
 
-By the way, in ["Week 79"](#week79) I explained how PSL(2,F) acts
+By the way, in ["Week 79"](#week79) I explained how \mathrm{PSL}(2,F) acts
 on the projective line over the field F; the same thing works for
-PGL(2,F). I also passed on some interesting facts mentioned by Bertram
-Kostant, which relate PSL(2,5), PSL(2,7) and PSL(2,11) to the symmetry
+\mathrm{PGL}(2,F). I also passed on some interesting facts mentioned by Bertram
+Kostant, which relate \mathrm{PSL}(2,5), \mathrm{PSL}(2,7) and \mathrm{PSL}(2,11) to the symmetry
 groups of the tetrahedron, cube/octahedron and dodecahedron/icosahedron.
 Kostant put these together to give a nice description of the buckyball!
 
@@ -810,7 +810,7 @@ Sethares' work on how the timbre of an instrument affects which scales
 sound good. Dmitri Tymoczko had more comments on this issue. Cris Moore
 mentioned an interesting microtonal composer named Easley Blackwood.
 Robert Israel pointed out an unusual fact about Riemann and Einstein.
-Noam Elkies explained what David Lewin was trying to do with PSL(2,7) in
+Noam Elkies explained what David Lewin was trying to do with \mathrm{PSL}(2,7) in
 music theory. And Stephen Lavelle gave some more references on torsors
 and topoi in music, and said more about the origin of the 12-note scale.
 
@@ -1097,7 +1097,7 @@ Riemann:
 > Department of Mathematics\
 > University of British Columbia\
 
-Noam Elkies explained what David Lewin was doing with PSL(2,7):
+Noam Elkies explained what David Lewin was doing with \mathrm{PSL}(2,7):
 
 > John Baez wrote:
 >
@@ -1240,7 +1240,7 @@ Noam Elkies explained what David Lewin was doing with PSL(2,7):
 >
 >       It would be fun to dream up more relations between incidence geometry
 >       and music theory.  Could Klein's quartic curve play a role? [...]
->       Its orientation-preserving symmetries form the group PSL(2,7), which
+>       Its orientation-preserving symmetries form the group \mathrm{PSL}(2,7), which
 >       consists of all 2x2 matrices with determinant 1 having entries in Z/7,
 >       modulo scalars.  This group has 24 x 7 = 168 elements.  Since there are
 >       7 notes in a major or minor scale, and 24 of these scales, it's hard
@@ -1283,7 +1283,7 @@ Noam Elkies explained what David Lewin was doing with PSL(2,7):
 >
 > and either this or its inversions is what David Lewin suggested using.
 >
->       Unlike some groups I mentioned earlier, PSL(2,7) is not a subgroup
+>       Unlike some groups I mentioned earlier, \mathrm{PSL}(2,7) is not a subgroup
 >       of the permutations of a 12-element set.
 >
 > Not a transitive subgroup, you mean. Since the group acts on 7
@@ -1318,7 +1318,7 @@ Noam Elkies explained what David Lewin was doing with PSL(2,7):
 >
 > :-)
 
-I used Noam Elkies' remark to correct my claim that PSL(2,7) isn't a
+I used Noam Elkies' remark to correct my claim that \mathrm{PSL}(2,7) isn't a
 subgroup of permutations of a 12-element set. Interestingly, the triples
 (n,n+1,n+3) and (n,n-1,n-3) in Z/7 are also famous as two equivalent
 ways of defining the [octonion multiplication

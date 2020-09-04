@@ -116,19 +116,19 @@ Anyway, the concept of relative phase, or difference in phase, is nicely
 captured by the concept of a "torsor". A unit complex number is a
 point on the unit circle in the complex plane. This circle is a group
 since we can multiply unit complex numbers and get unit complex numbers
-back. This group is called U(1). Like a dial, U(1) has standard names
+back. This group is called \mathrm{U}(1). Like a dial, \mathrm{U}(1) has standard names
 for all the points on it - and it has one god-given special point, the
 identity element, namely the number 1.
 
-A "U(1) torsor" is a lot like U(1), but subtly different. It's a
+A "\mathrm{U}(1) torsor" is a lot like \mathrm{U}(1), but subtly different. It's a
 circle where the points aren't given these standard names... but where
 you can still tell measure angles, and tell the difference between
 clockwise and counterclockwise.
 
-You can't get an element of U(1) from *one* point on a U(1) torsor.
-But, if you have *two* points on a U(1) torsor, you can say how much
+You can't get an element of \mathrm{U}(1) from *one* point on a \mathrm{U}(1) torsor.
+But, if you have *two* points on a \mathrm{U}(1) torsor, you can say how much
 rotation it takes to get from one to the other, and this give an element
-of U(1). In other words, you can describe the "difference in phase"
+of \mathrm{U}(1). In other words, you can describe the "difference in phase"
 between these two points.
 
 For more on torsors, try this:
@@ -137,20 +137,20 @@ For more on torsors, try this:
 `http://math.ucr.edu/home/baez/torsors.html`
 
 Anyway, the real idea behind electromagnetism is that sitting over each
-point in spacetime is a U(1) torsor. If a particle is sitting at some
+point in spacetime is a \mathrm{U}(1) torsor. If a particle is sitting at some
 point in spacetime, its phase is not really a number: it's an element
-of the U(1) torsor sitting over that point! To get a *number*, we have
+of the \mathrm{U}(1) torsor sitting over that point! To get a *number*, we have
 to carry the particle around a loop! Its phase will change when we do
-this, so we get *two* points in a U(1) torsor, and their difference is
-an element of U(1).
+this, so we get *two* points in a \mathrm{U}(1) torsor, and their difference is
+an element of \mathrm{U}(1).
 
 So while it sounds far-out, the key mathematical structure in
-electromagnetism is a bunch of U(1) torsors, one over each point in
-spacetime. This is called a "principal U(1) bundle" or sometimes just
-a "U(1) bundle" for short.
+electromagnetism is a bunch of \mathrm{U}(1) torsors, one over each point in
+spacetime. This is called a "principal \mathrm{U}(1) bundle" or sometimes just
+a "\mathrm{U}(1) bundle" for short.
 
 If we wanted to describe some force other than electromagnetism, we
-could take this whole setup and replace U(1) with some other group. In
+could take this whole setup and replace \mathrm{U}(1) with some other group. In
 fact, this idea works great: it's the main idea behind gauge theories,
 which do an excellent job of describing all the forces in nature.
 
@@ -172,7 +172,7 @@ Anyway, in gauge theory the forces of nature are described by
 "connections" on principal G-bundles. Let's say we have a principal
 G-bundle P which assigns to each point x of our manifold a G-torsor
 P(x). Then a "connection" on P is a gadget that says how any path from
-x to y gives a map from P(x) to P(y). If G is U(1), for example, this
+x to y gives a map from P(x) to P(y). If G is \mathrm{U}(1), for example, this
 gadget says how the phase of a charged particle changes as we move it
 along any path from x to y.
 
@@ -183,7 +183,7 @@ G-torsor, these two points determine an element of G. This is how we get
 group elements from loops in gauge theory!
 
 Now let me sketch how gerbes enter the game. First I'll do the case
-where the group G is abelian, for example U(1). It's the nonabelian
+where the group G is abelian, for example \mathrm{U}(1). It's the nonabelian
 gerbes that really interest me... but the abelian case is a lot easier.
 The reason is that when G is abelian, the group element we get in the
 previous paragraph doesn't depend on the choice of a point of P(x).

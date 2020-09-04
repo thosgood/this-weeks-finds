@@ -269,26 +269,26 @@ A_2                                       1            
 A_3                                       8/9                       \~
 .889
 
-PSL(2,3) ≅ A_4                     2/3                       \~ .667
+\mathrm{PSL}(2,3) ≅ A_4                     2/3                       \~ .667
 
-PSL(2,4) ≅ PSL(2,5) ≅ A~5~   19/30                   \~ .633
+\mathrm{PSL}(2,4) ≅ \mathrm{PSL}(2,5) ≅ A~5~   19/30                   \~ .633
 
-PSL(2,7) ≅ PSL(3,2)           19/28                   \~ .679
+\mathrm{PSL}(2,7) ≅ \mathrm{PSL}(3,2)           19/28                   \~ .679
 
-PSL(2,8)                             71/84                   \~ .845
+\mathrm{PSL}(2,8)                             71/84                   \~ .845
 
-PSL(2,9) ≅ A~6~                     53/90                   \~ .589
+\mathrm{PSL}(2,9) ≅ A~6~                     53/90                   \~ .589
 
-PSL(2,11)                           127/165               \~ .770
+\mathrm{PSL}(2,11)                           127/165               \~ .770
 
 A~7~                                       229/315               \~ .727
 
-PSL(4,2) ≅ A~8~                     133/180               \~ .739
+\mathrm{PSL}(4,2) ≅ A~8~                     133/180               \~ .739
 
 A~9~                                       15403/18144       \~ .849
 
 Here A~n~ is the group of even permutations of an $n$-element set, while
-PSL(n,q) is the group of n \times n matrices with determinant 1 having
+\mathrm{PSL}(n,q) is the group of n \times n matrices with determinant 1 having
 entries in the field with q elements, mod multiples of the identity
 matrix. Of the groups listed above, only A_4 is not simple. I included
 this one just because I wanted to list *all* the unexpected isomorphisms
@@ -396,21 +396,21 @@ This amazing result has a nice relative in the world of von Neumann
 algebras.
 
 Starting from a measure space X, we can form the Hilbert space L^2(X).
-We can also form L^\infty^(X), the space of equivalence classes of bounded
+We can also form L^\infty(X), the space of equivalence classes of bounded
 measurable complex functions on X, where we identify functions that
 agree except on a set of measure zero.
 
-L^\infty^(X) is an algebra where we multiply functions pointwise. We can
+L^\infty(X) is an algebra where we multiply functions pointwise. We can
 think of it as an algebra of multiplication operators on L^2(X). In
 fact, it forms a "von Neumann algebra" - a kind of algebra that's
 great for quantum theory. I defined von Neumann algebras back in
 ["Week 175"](#week175), so I won't do it again here.
 
-L^\infty^(X) is a very special sort of von Neumann algebra, namely a
+L^\infty(X) is a very special sort of von Neumann algebra, namely a
 *commutative* one. There's a nice theorem: every commutative von
 Neumann algebra is isomorphic (as an abstract C*-algebra) to one of
 this form. Even better, every commutative von Neumann algebra of
-operators on a *separable* Hilbert space is isomorphic to L^\infty^(X) for
+operators on a *separable* Hilbert space is isomorphic to L^\infty(X) for
 one of these choices of X:
 
 -   a countable set (equipped with counting measure),

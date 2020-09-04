@@ -127,10 +127,10 @@ later proved himself wrong by finding a counterexample: the "Poincare
 homology 3-sphere". This is obtained by identifying the opposite faces
 of the dodecahedron in the simplest possible way. What I hadn't known
 is that the fundamental group of this space is the "binary icosahedral
-group", I. This is the 120-element subgroup of SU(2) consisting of all
+group", I. This is the 120-element subgroup of \mathrm{SU}(2) consisting of all
 elements that map to rotational symmetries of the icosahedron under the
-two-to-one map from SU(2) to SO(3). Now SU(2) is none other than the
-3-sphere... so it follows that SU(2)/I is the Poincare homology
+two-to-one map from \mathrm{SU}(2) to \mathrm{SO}(3). Now \mathrm{SU}(2) is none other than the
+3-sphere... so it follows that \mathrm{SU}(2)/I is the Poincare homology
 3-sphere!
 
 When cosmologists study the possility that universe is finite in size,
@@ -243,7 +243,7 @@ that Spin(9) is also a subgroup of Aut(h_3(O)).
 This does not exhaust all the symmetries of h_3(O), since there are
 other automorphisms coming from the permutation group on 3 letters,
 which acts on (a,b,c) in R^3 and (x,y,z) in O^3 in an obvious way.
-Also, any matrix g in the orthogonal group O(3) acts by conjugation as
+Also, any matrix g in the orthogonal group \mathrm{O}(3) acts by conjugation as
 an automorphism of h_3(O); since the entries of g are real, there is no
 problem with nonassociativity here. The group Spin(9) is 36-dimensional,
 but the full automorphism group h_3(O) is 52-dimensional. In fact, it
@@ -269,7 +269,7 @@ S~8~^+^ + S~8~^-^ = O^2 in such a way that any element (y,z) in O^2
 can be carried to an element with both components real. The final step
 is to take our element of h_3(O) with all real entries and use an
 automorphism to diagonalize it. We can do this by conjugating it with a
-suitable matrix in O(3).
+suitable matrix in \mathrm{O}(3).
 
 To understand the octonionic projective plane, we need to understand
 projections in h_3(O). Here is where our ability to diagonalize

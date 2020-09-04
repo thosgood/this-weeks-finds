@@ -112,7 +112,7 @@ in ["Week 64"](#week64) and ["Week 181"](#week181).
 
                           o-------o-------o-------o-------o
 
-    The Lie group is SL(n+1). The Coxeter group is the symmetry group of
+    The Lie group is \mathrm{SL}(n+1). The Coxeter group is the symmetry group of
     the regular $n$-simplex. This consists of all permutations of the n+1
     vertices of the simplex, so it has (n+1)! elements. The Coxeter
     complex is obtained by barycentrically subdividing the surface of

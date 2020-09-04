@@ -69,13 +69,13 @@ N = (2j+1)^12^.
 If you do this, already for j = 1/2 you are dealing with square matrices
 that are 2^12^ by 2^12^. This is too big to be practical!
 
-In computer science lingo, this algorithm sucks because it uses O(j^12^)
-time and also O(j^12^) space. You might think it was O(j^24^), but it's
+In computer science lingo, this algorithm sucks because it uses \mathrm{O}(j^12^)
+time and also \mathrm{O}(j^12^) space. You might think it was \mathrm{O}(j^24^), but it's
 not that bad... however, it's still very bad!
 
 Luckily, Dan and Greg have figured out a much more efficient algorithm,
-which uses only O(j^6^) time and O(j) space. Alternatively, with more
-caching of data, they can get O(j^5^) time and O(j^3) space, or maybe
+which uses only \mathrm{O}(j^6) time and \mathrm{O}(j) space. Alternatively, with more
+caching of data, they can get \mathrm{O}(j^5) time and \mathrm{O}(j^3) space, or maybe
 even better. Using an algorithm of this sort, Dan can compute the 10j
 symbol for spins up to 55. For all spins equal to 55, the calculation
 took about 10 hours on a normal desktop computer. However, for computing

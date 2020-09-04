@@ -132,7 +132,7 @@ Mathematically, part of the point is that we can describe 3d Riemannian
 gravity as a gauge theory where the gauge group is the double cover of
 the 3d Euclidean group - the analogue of the Poincare group in this
 context. But when we quantize the theory, this gets replaced by a
-quantum group: the "quantum double" of SU(2). As with the 3d Euclidean
+quantum group: the "quantum double" of \mathrm{SU}(2). As with the 3d Euclidean
 group, unitary representations of this quantum group are classified by
 mass and spin... but now both mass and spin are discrete, and both are
 bounded above.
@@ -199,7 +199,7 @@ managed this feat before.
 
 For those of you hungering for technical details, I'll just say that
 the topological theory in question is BF theory with the symmetry group
-of deSitter spacetime, namely SO(4,1), as the gauge group. General
+of deSitter spacetime, namely \mathrm{SO}(4,1), as the gauge group. General
 relativity can be regarded as a perturbation of this BF theory by
 borrowing some ideas from the "MacDowell-Mansouri" formulation of
 general relativity. If you haven't heard of that, well, neither had I.
@@ -210,18 +210,18 @@ and supergravity, Phys. Rev. Lett. 38 (1977), 739-742.
 
 ... but here we aren't using anything anything about supergravity,
 just the fact that ordinary general relativity can be treated as a
-theory with gauge group SO(4,1) and a Lagrangian that breaks this
-symmetry down to the Lorentz group SO(3,1). The paper by Smolin and
+theory with gauge group \mathrm{SO}(4,1) and a Lagrangian that breaks this
+symmetry down to the Lorentz group \mathrm{SO}(3,1). The paper by Smolin and
 Starodubtsev listed above describes the details, but in the case of
-going from SO(5) down to SO(4).
+going from \mathrm{SO}(5) down to \mathrm{SO}(4).
 
 When we quantize BF theory in 4 dimensions we get a spin foam model
 called the Crane-Yetter model, where the spin foams are defined using
 the representation theory of a quantum group: a "q-deformed version"
 of the original gauge group. So, the real engine behind Freidel and
 Starodubtsev's calculations are spin foams involving the q-deformed
-version of SO(4,1), called SO~q~(4,1). This is technically tricky
-because SO(4,1) is noncompact, and noncompact quantum groups are just
+version of \mathrm{SO}(4,1), called SO~q~(4,1). This is technically tricky
+because \mathrm{SO}(4,1) is noncompact, and noncompact quantum groups are just
 beginning to be understood. So, there's probably still tons of
 mathematical work left to be done. But, the upshot is that Freidel and
 Starodubtsev calculate stuff as power series in the cosmological
@@ -265,12 +265,12 @@ cosmological constant uses the fact that the phase space of this theory
 is closely related to "Teichmueller space" - the space of complex
 structures mod diffeomorphisms that are connected to the identity. I
 talked about this space in ["Week 28"](#week28), but I forgot to
-say that we can think of it as a space of flat SO(2,1) connections mod
-gauge transformations. Here SO(2,1) is just the Lorentz group in 3
+say that we can think of it as a space of flat \mathrm{SO}(2,1) connections mod
+gauge transformations. Here \mathrm{SO}(2,1) is just the Lorentz group in 3
 dimensions. So, if we quantize 2+1 Lorentzian gravity with positive
 cosmological constant, we get a theory where states are described by
 SO~q~(2,1) spin networks... but this is also a theory of "quantum
-Teichmueller space". Again this is tricky because SO(2,1) is
+Teichmueller space". Again this is tricky because \mathrm{SO}(2,1) is
 noncompact, but people have made a lot of progress lately, thanks in
 part to a line of work started by Kashaev:
 
@@ -291,7 +291,7 @@ in Hong Kong:
 `http://www.ma.hw.ac.uk/~bernd/references.html`
 
 I should also add that people don't usually don't talk about the 3d
-Lorentz group SO(2,1) here; they talk about its double cover SL(2,R).
+Lorentz group \mathrm{SO}(2,1) here; they talk about its double cover \mathrm{SL}(2,R).
 
 Anyway, I'll quit here. The next conference on loops and spin foams
 will probably happen in Berlin at the Albert Einstein Institute in 2005,

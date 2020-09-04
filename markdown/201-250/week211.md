@@ -132,7 +132,7 @@ To use this clock, you have to remember to use matrices of the right
 size to get C~n~ to have dimension 2^n. So, when I write "R + R" next
 to the "7" on the clock, I don't mean C~7~ is really R + R. To get
 C~7~, you have to take R + R and beef it up until it becomes an algebra
-of dimension 2^7^ = 128. You do this by taking R(8) + R(8), since this
+of dimension 2^7 = 128. You do this by taking R(8) + R(8), since this
 has dimension 8 x 8 + 8 x 8 = 128.
 
 Similarly, to get C~10~, you note that 10 is 2 modulo 8, so you look at
@@ -499,7 +499,7 @@ identity, and each great circle through the north pole gives some action
 of the circle as rotations. Using this, and stuff about Clifford
 algebras, and some Morse theory, Milnor gives a beautiful proof that
 
-Ω^8^(SO(\infty)) \~ SO(\infty)
+Ω^8(\mathrm{SO}(\infty)) \~ \mathrm{SO}(\infty)
 
 or in English: the 8-fold loop space of the infinite-dimensional
 rotation group is homotopy equivalent to the infinite-dimensional

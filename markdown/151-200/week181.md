@@ -109,7 +109,7 @@ So far I've talked about how to any complex simple Lie group G we can
 associate an "incidence geometry": a generalization of projective
 geometry having G as its symmetry group. Each different type of
 "figure" in this geometry corresponds to a dot in the Dynkin diagram
-for G. For example, when G = SL(4,C) we have
+for G. For example, when G = \mathrm{SL}(4,C) we have
 
                                o------o------o
                             points  lines  planes       
@@ -163,24 +163,24 @@ invariant under K!
 
 If this doesn't thrill you, consider the simplest example:
 
-G = SL(2,C)
+G = \mathrm{SL}(2,\mathbb{C})
 
-K = SU(2)
+K = \mathrm{SU}(2)
 
-P = {upper triangular matrices in SL(2,C)}
+P = {upper triangular matrices in \mathrm{SL}(2,\mathbb{C})}
 
-L = {diagonal matrices in SL(2,C)}
+L = {diagonal matrices in \mathrm{SL}(2,\mathbb{C})}
 
 Here G/P = K/L is a 2-sphere, the complex structure is the usual way of
 thinking of this as the Riemann sphere, and the metric can be any
 multiple of the usual round metric on the sphere. The complex structure
-is invariant under all of G = SL(2,C). That's why SL(2,C) is the double
+is invariant under all of G = \mathrm{SL}(2,\mathbb{C}). That's why \mathrm{SL}(2,\mathbb{C}) is the double
 cover of the group of conformal transformations of the Riemann sphere!
-The metric is only invariant under K = SU(2). That's why SU(2) is the
+The metric is only invariant under K = \mathrm{SU}(2). That's why \mathrm{SU}(2) is the
 double cover of the group of rotations of the sphere!
 
 All this stuff is wonderfully important in physics - especially since
-SL(2,C) is also the double cover of the Lorentz group, and the Riemann
+\mathrm{SL}(2,\mathbb{C}) is also the double cover of the Lorentz group, and the Riemann
 sphere is also the "heavenly sphere" upon which we see the distant
 stars. I have already lavished attention on this network of ideas in
 ["Week 162"](#week162)... but what we're engaged in now is
@@ -266,30 +266,30 @@ Now let me illustrate all this stuff by going through all the classical
 series of simple Lie groups and seeing what we get.
 
 A~n~: Here are the Grassmannians for some of the A~n~ series, that is,
-the groups SL(n+1,C). I've drawn the Dynkin diagrams with each dot
+the groups \mathrm{SL}(n+1,C). I've drawn the Dynkin diagrams with each dot
 labelled by the corresponding type of geometrical figure and the
 dimension of the Grassmannian of all figures of this type. We can think
 of these figures as vector subspaces of C^n+1^. We can also think of
-them as spaces of one less dimension in CP^n. Either way, we are
+them as spaces of one less dimension in \mathbb{CP}^n. Either way, we are
 talking about *projective* geometry:
 
     A1                              1d subspaces
-    SL(2,C)                              o
+    \mathrm{SL}(2,\mathbb{C})                              o
                                          1
 
 
     A2                       1d subspaces  2d subspaces
-    SL(3,C)                       o---------------o
+    \mathrm{SL}(3,C)                       o---------------o
                                   2               2
 
 
     A3                1d subspaces  2d subspaces  3d subspaces
-    SL(4,C)                o------------o---------------o
+    \mathrm{SL}(4,C)                o------------o---------------o
                            3             4               3
 
 
     A4          1d subspaces  2d subspaces  3d subspaces  4d subspaces
-    SL(5,C)          o------------o---------------o------------o
+    \mathrm{SL}(5,C)          o------------o---------------o------------o
                      4            6               6            4
 
 Recognize the numbers labelling the Dynkin diagram dots? It's a weird
@@ -302,26 +302,26 @@ school: just tilt your head 45 degrees and you'll recognize it!
 Next, here's what we get from quantizing these Grassmannians. I've
 labelled each dot by the name of the corresponding fundamental
 representation and its dimension. All these reps are exterior powers of
-the obvious rep of SL(n+1,C) on C^n+1^. We call elements of the pth
+the obvious rep of \mathrm{SL}(n+1,C) on C^n+1^. We call elements of the pth
 exterior power "p-vectors", or "multivectors" in general:
 
     A1                                vectors 
-    SL(2,C)                              o
+    \mathrm{SL}(2,\mathbb{C})                              o
                                          2
 
 
     A2                        vectors        bivectors
-    SL(3,C)                      o---------------o
+    \mathrm{SL}(3,C)                      o---------------o
                                  3               3
 
 
     A3                   vectors     bivectors      3-vectors
-    SL(4,C)                o-------------o--------------o
+    \mathrm{SL}(4,C)                o-------------o--------------o
                            4             6              4
 
 
     A4          vectors      bivectors      3-vectors    4-vectors
-    SL(5,C)        o-------------o--------------o------------o
+    \mathrm{SL}(5,C)        o-------------o--------------o------------o
                    5            10             10            5
 
 Here the numbers labelling the dots form Pascal's triangle! So we see
@@ -330,7 +330,7 @@ table. (That was the answer to the previous puzzle, by the way - our
 triangle was just the multiplication table viewed from a funny angle.)
 
 B~n~: Next let's look at the B~n~ series. B~n~ is another name for the
-complexified rotation group SO(2n+1,C), or if you prefer, its double
+complexified rotation group \mathrm{SO}(2n+1,C), or if you prefer, its double
 cover Spin(2n+1,C). A Grassmannian for this group is a space consisting
 of all p-dimensional "isotropic" subspaces of C^2n+1^ - that is,
 subspaces on which a nondegenerate symmetric bilinear form vanishes.
@@ -442,7 +442,7 @@ Here's a little table of these Grassmannians:
 
                                      isotropic 
     C1                              1d subspaces
-    Sp(2,C)                               o
+    Sp(2,\mathbb{C})                               o
                                           1
 
          
@@ -482,7 +482,7 @@ guess they're just the dimension of the p-vectors minus the dimension
 of the (p-2)-vectors. Here's a table of these guesses:
 
     C1                                 vectors
-    Sp(2,C)                               o
+    Sp(2,\mathbb{C})                               o
                                           2
 
          
@@ -506,7 +506,7 @@ of the (p-2)-vectors. Here's a table of these guesses:
 Maybe someone can tell if they're right.
 
 D~n~: Finally, D~n~ is another name for the complexified rotation group
-SO(2n,C) or its double cover Spin(2n,C). The pth Grassmannian for this
+\mathrm{SO}(2n,C) or its double cover Spin(2n,C). The pth Grassmannian for this
 group consists of all p-dimensional isotropic subspaces of the space
 C^2n^ equipped with a nondegenerate symmetric bilinear form - *except*
 for the top-dimensional Grassmannians, as I explained last week. These

@@ -159,7 +159,7 @@ equivalent, roughly this:
 > generate an abelian group with relations saying that direct sums
 > should act like sums:
 >
-> \[M ⊕ N\] = \[M\] + \[N\]
+> \[M \oplus  N\] = \[M\] + \[N\]
 >
 > This gives a certain "integral form" of the positive part of the
 > quantum group. If we tensor this with the complex numbers, we get the
@@ -230,13 +230,13 @@ equivalent, roughly this:
 > overall pattern!
 >
 > You expect, for example, to get representations of sl(2) whenever you
-> build vector spaces starting from C^2. Why? Because the group SL(2)
+> build vector spaces starting from C^2. Why? Because the group \mathrm{SL}(2)
 > acts as symmetries of C^2, and thus on any vector space functorially
 > constructed from it. But Ginzburg found some unexpected new ways of
 > getting representations of sl(2)... and Licata sketched how this lets
 > you categorify these representations.
 >
-> Here's the example Licata explained. The group SL(2) acts on C^2 and
+> Here's the example Licata explained. The group \mathrm{SL}(2) acts on C^2 and
 > thus on its nth tensor power. Everyone knows that. But we can also get
 > this representation in an unexpected way. Start with the space of all
 > k-dimensional subspaces of C^n. This is called the "Grassmannian"

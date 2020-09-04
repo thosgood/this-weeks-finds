@@ -450,10 +450,10 @@ If we take the category of finite-dimensional complex vector spaces,
 with direct sum as the "tensor product", and the obvious braiding, its
 classifying space will be
 
-    BU(\infty) =     lim        BU(k)
+    B\mathrm{U}(\infty) =     lim        B\mathrm{U}(k)
                     k \to \infty
 
-where BU(k) is the classifying space of the group of k x k unitary
+where B\mathrm{U}(k) is the classifying space of the group of k x k unitary
 matrices! The corresponding spectrum is called the "spectrum for
 connective complex K-theory" and the corresponding generalized
 cohomology theory is called "connective complex K-theory". (Here

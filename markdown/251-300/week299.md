@@ -777,7 +777,7 @@ The idea is that A is a lot like O, since we get elements of the free
 O-algebra on one generator by hitting that generator with operations in
 O. More precisely, we have
 
-A = ⊕ O~n~/S~n~
+A = \oplus  O~n~/S~n~
 
 Here O~n~ is the space of $n$-ary operations in O, which is acted on by
 the permutation group S~n~. So, we can draw an element of A like this:
@@ -854,7 +854,7 @@ I've told you that the free pre-Lie algebra on one generator has a
 basis given by rooted trees. And I've told you a general fact: the free
 O-algebra on one generator is
 
-⊕ O~n~/S~n~
+\oplus  O~n~/S~n~
 
 So, taking O = PL, it should come as no surprise that PL~n~, the space
 of $n$-ary operations in PL, has a basis given by rooted trees with n

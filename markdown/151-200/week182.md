@@ -592,8 +592,8 @@ is a compact complex manifold, there's a homotopy type called the
 there's an action of C* on this homotopy type!
 
 By the way, when M is a compact Kaehler manifold the action of C* on
-its cohomology extends to a natural action of SL(2,C), as explained in
-Wells' book. I wonder if SL(2,C) acts on the schematization of M?
+its cohomology extends to a natural action of \mathrm{SL}(2,\mathbb{C}), as explained in
+Wells' book. I wonder if \mathrm{SL}(2,\mathbb{C}) acts on the schematization of M?
 
 I learned about most of this fancy stuff from an incredibly lucid talk
 by Bertrand Toen. Unfortunately there seems to be no video of his talk,

@@ -692,7 +692,7 @@ my own.
 First, from what I've said already, every commutative special Frobenius
 algebra over the complex numbers looks like
 
-C ⊕ C ⊕ ... C ⊕ C
+C \oplus  C \oplus  ... C \oplus  C
 
 It's a direct sum of finitely many copies of C, equipped with its
 god-given bilinear form

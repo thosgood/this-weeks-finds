@@ -707,7 +707,7 @@ over the real numbers - or complex numbers, but that's overkill.
 Finding a class of groupoids or other entities whose cardinalities are
 complex would be very nice, to push the whole groupoidification program
 further into the complex world. In the above paper by Jeff Morton, he
-uses sets over U(1), but that's probably not the last word.
+uses sets over \mathrm{U}(1), but that's probably not the last word.
 
 ------------------------------------------------------------------------
 

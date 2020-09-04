@@ -214,7 +214,7 @@ They're called conformal transformations, and they all look like this:
     z |--->   --------
                cz + d
 
-They form a group called PSL(2,C), since it's the same as the group of
+They form a group called \mathrm{PSL}(2,\mathbb{C}), since it's the same as the group of
 2x2 complex matrices with determinant 1, mod scalars. It's also the
 same as the Lorentz group!
 
@@ -234,7 +234,7 @@ as possible! (We don't count reflections here, since they don't
 preserve the complex structure - they're like complex conjugation.)
 
 Now I should break down and give the best description of Klein's
-quartic curve as a Riemann surface. Sitting inside PSL(2,C) is PSL(2,Z),
+quartic curve as a Riemann surface. Sitting inside \mathrm{PSL}(2,\mathbb{C}) is \mathrm{PSL}(2,\mathbb{Z}),
 where we only use integers a,b,c,d in our fractional linear
 transformation
 
@@ -245,7 +245,7 @@ transformation
 This subgroup acts on the upper half-plane H, which is just another way
 of thinking about the hyperbolic plane.
 
-Sitting inside PSL(2,Z) is a group Γ(7) consisting of guys where the
+Sitting inside \mathrm{PSL}(2,\mathbb{Z}) is a group Γ(7) consisting of guys where the
 matrix
 
     a  b
@@ -264,22 +264,22 @@ particular, Klein's quartic curve is just
 
 H/Γ(7)
 
-Since Γ(7) is a normal subgroup of PSL(2,Z), the quotient group
+Since Γ(7) is a normal subgroup of \mathrm{PSL}(2,\mathbb{Z}), the quotient group
 
-PSL(2,Z)/Γ(7) = PSL(2,Z/7)
+\mathrm{PSL}(2,\mathbb{Z})/Γ(7) = \mathrm{PSL}(2,\mathbb{Z}/7)
 
 acts as symmetries of Klein's quartic curve. And, this group has 168
 elements!
 
 In fact, this group is the second smallest nonabelian simple group. The
 smallest one is the rotational symmetry group of the icosahedron, which
-has 60 elements. This group is actually PSL(2,Z/5), and Klein had run
+has 60 elements. This group is actually \mathrm{PSL}(2,\mathbb{Z}/5), and Klein had run
 into it in his work on the icosahedron and quintic equations (see
 ["Week 213"](#week213)). So, it's actually far from sheer luck
-that he then moved on to PSL(2,Z/7) and ran into his wonderful quartic
+that he then moved on to \mathrm{PSL}(2,\mathbb{Z}/7) and ran into his wonderful quartic
 curve.
 
-By the way, this 168-element group is also known as PSL(3,Z/2) - the
+By the way, this 168-element group is also known as \mathrm{PSL}(3,Z/2) - the
 symmetry group of the "Fano plane". This is a name for the projective
 plane over Z/2. The Fano plane is closely related to the octonions:
 

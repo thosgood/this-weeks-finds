@@ -550,18 +550,18 @@ I hope the general picture is clear:
       q = 1                         q = a power of a prime number    
 
       finite sets                   projective spaces over Fq
-      permutation groups Sn         projective special linear groups PSL(n,Fq)
+      permutation groups Sn         projective special linear groups \mathrm{PSL}(n,Fq)
       structure types               q-deformed structure types
       Fock representation           q-deformed Fock representation
 
 We're thinking of the groupoid formed by the projective spaces and
-their symmetry groups PSL(n,F~q~) as a q-deformed version of the
+their symmetry groups \mathrm{PSL}(n,F~q~) as a q-deformed version of the
 groupoid formed by the finite sets and their symmetry groups S~n~. The
 functors from these groupoids to Set are "structure types", and taking
 generating functions of these we get the Fock representation.
 
 In a sense, all this relies on the analogy between the permutation
-groups S~n~ and the groups PSL(n). The groups PSL(n) have Dynkin
+groups S~n~ and the groups \mathrm{PSL}(n). The groups \mathrm{PSL}(n) have Dynkin
 diagrams like this:
 
 

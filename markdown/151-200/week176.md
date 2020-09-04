@@ -103,7 +103,7 @@ be roughly 5 x 10^-24^ grams per cubic centimeter, which would mean
 about 3 WIMPs per thousand cubic centimeters. That's not much, but
 since these WIMPs would be moving in random orbits in the gravitational
 potential well of the galaxy, they should be zipping past us at an
-average of 300 kilometers per second. This gives a flux of about 10^5^
+average of 300 kilometers per second. This gives a flux of about 10^5
 WIMPs per square centimeter per second!
 
 The problem is that, like neutrinos, most of these guys would pass
@@ -339,7 +339,7 @@ translation group! That's where teleparallel gravity comes in. It all
 fits together in a beautiful big picture....
 
 The Poincare group is the semidirect product of the Lorentz group
-SO(3,1) and the translation group R^4. This means that a Poincare group
+\mathrm{SO}(3,1) and the translation group R^4. This means that a Poincare group
 connection can be written as a Lorentz group connection plus a part
 related to the translation group. We know the Palatini formalism
 involves a Lorentz connection. What about the other part? This is just

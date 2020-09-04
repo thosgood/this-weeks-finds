@@ -295,7 +295,7 @@ and how they could be related to the Standard Model.
 
 First, some history. In 1887, Wilhelm Killing sent a letter to Friedrich
 Engel saying he'd classified the simple Lie algebras. Besides the
-"classical" ones - namely the infinite series sl(n,C), so(n,C) and
+"classical" ones - namely the infinite series sl(n,C), \mathfrak{so}(n,C) and
 sp(n,C) - he found 6 exceptions: a 14-dimensional one, two
 52-dimensional ones, a 78-dimensional one, a 133-dimensional one and a
 248-dimensional one.
@@ -451,13 +451,13 @@ us today are the exceptions discovered by Irina Shchepochkina in 1983:
 R. Bul. Sci. 36 (1983), 313-314.
 
 The easiest to explain is E(5|10). And, you'll soon see that the
-number 5 here is related to the math of the SU(5) grand unified theory,
+number 5 here is related to the math of the \mathrm{SU}(5) grand unified theory,
 which I explained last Week!
 
 The even part of E(5|10) is the Lie algebra of divergence-free complex
-vector fields on C^5^.
+vector fields on C^5.
 
-The odd part of E(5|10) consists of closed complex 2-forms on C^5^.
+The odd part of E(5|10) consists of closed complex 2-forms on C^5.
 
 The bracket of two even guys is the usual Lie bracket of vector fields.
 
@@ -465,7 +465,7 @@ The bracket of an even guy and an odd guy is the usual "Lie
 derivative" of a differential form with respect to a vector field.
 
 The only tricky bit is the bracket of two odd guys! So, suppose μ and ν
-are closed complex 2-forms on C^5^. Their wedge product is a 4-form μ \^
+are closed complex 2-forms on C^5. Their wedge product is a 4-form μ \^
 ν. But, we can identify this with a vector field v by demanding:
 
 i~v~ vol = μ \^ ν
@@ -480,8 +480,8 @@ divergence-free. So, we define the bracket of μ and ν to be v.
 
 sl(5,C) sits inside the even part of E(5|10) in a nice way, as the
 divergence-free vector fields whose coefficients are *linear* functions
-on C^5^. So, since su(5) sits inside sl(5,C), we get a tempting relation
-to SU(5).
+on C^5. So, since \mathfrak{su}(5) sits inside sl(5,C), we get a tempting relation
+to \mathrm{SU}(5).
 
 (Now I'll come clean now and explain the "important nuance" I ignored
 earlier. For the classification theorems I mentioned earlier, we must
@@ -499,22 +499,22 @@ more simply, here:
 supersymmetries and quantum field theory, available as
 [math.QA/9912235](http://xxx.lanl.gov/abs/math.QA/9912235).
 
-All this is reminiscent of how SU(5) contains the gauge group of the
-Standard Model, namely S(U(3) \times U(2)). In particular, the even part of
+All this is reminiscent of how \mathrm{SU}(5) contains the gauge group of the
+Standard Model, namely S(\mathrm{U}(3) \times \mathrm{U}(2)). In particular, the even part of
 E(3|6) contains the Lie algebra
 
-sl(3,C) ⊕ sl(2,C) ⊕ gl(1,C)
+sl(3,C) \oplus  sl(2,\mathbb{C}) \oplus  gl(1,C)
 
 in a canonical way. So, any representation of E(3|6) automatically
 gives a representation of the Standard Model Lie algebra
 
-su(3) ⊕ su(2) ⊕ u(1)
+\mathfrak{su}(3) \oplus  \mathfrak{su}(2) \oplus  u(1)
 
 And in the above paper Kac goes even further! He defines a fairly
 natural class of representations of E(3|6), and proves something
 remarkable: these restrict to representations of
 
-su(3) ⊕ su(2) ⊕ u(1)
+\mathfrak{su}(3) \oplus  \mathfrak{su}(2) \oplus  u(1)
 
 that correspond precisely to the gluon, the photon and the W and Z
 bosons, and the quarks and leptons in one generation...
@@ -576,7 +576,7 @@ operators on supermanifolds and Standard Models, available as
 Thomas Larsson has been working on similar ideas, mainly using E(3|8)
 instead. This also contains
 
-sl(3,C) ⊕ sl(2,C) ⊕ gl(1,C)
+sl(3,C) \oplus  sl(2,\mathbb{C}) \oplus  gl(1,C)
 
 in a canonical way.
 
@@ -587,7 +587,7 @@ Exceptional Lie superalgebras, invariant morphisms, and a second-gauged
 Standard Model, available as
 [math-ph/020202](http://arxiv.org/abs/math-ph/020202).
 
-Thomas A. Larsson, Maximal depth implies su(3)+su(2)+u(1), available as
+Thomas A. Larsson, Maximal depth implies \mathfrak{su}(3)+\mathfrak{su}(2)+u(1), available as
 [hep-th/0208185](http://xxx.lanl.gov/abs/hep-th/0208185).
 
 Alas, E(3|8) gets the hypercharges of some fermions wrong. Larsson

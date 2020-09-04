@@ -141,7 +141,7 @@ corresponding antiquarks. That's why Gell-Mann called his theory of
 quarks the "[Eightfold
 Way](http://en.wikipedia.org/wiki/Eightfold_Way_%28physics%29)" when he
 came up with it back around 1961. In this theory, the number 8 shows up
-because the relevant symmetry group, called SU(3), is 8-dimensional.
+because the relevant symmetry group, called \mathrm{SU}(3), is 8-dimensional.
 
 However, the math surrounding these 8 kink-antikink bound states is a
 lot more sophisticated. It's related to the exceptional Lie group E~8~,

@@ -274,14 +274,14 @@ icosahedral pattern. By the time you've used up all of them, your
 
 Of course, if you're a mathematician, there are other more elegant ways
 to build your 600-cell. For example: start with an icosahedron. Its
-rotational symmetry group is a 60-element subgroup of SO(3). Using the
-double cover SU(2) \to SO(3) lift this to a 120-element subgroup of SU(2).
-But SU(2) is isomorphic to the unit quaternions, so we get 120 points on
+rotational symmetry group is a 60-element subgroup of \mathrm{SO}(3). Using the
+double cover \mathrm{SU}(2) \to \mathrm{SO}(3) lift this to a 120-element subgroup of \mathrm{SU}(2).
+But \mathrm{SU}(2) is isomorphic to the unit quaternions, so we get 120 points on
 the unit sphere in 4 dimensions. These are the vertices of the 600-cell!
 
 In fact we can construct the 24-cell in the same way, as I explained in
 [week91](week91.html). Here we start with the tetrahedron, whose
-rotational symmetry group is a 12-element subgroup of SO(3), and we get
+rotational symmetry group is a 12-element subgroup of \mathrm{SO}(3), and we get
 24 points on the unit sphere in 4 dimensions, which are the vertices of
 the 24-cell.
 

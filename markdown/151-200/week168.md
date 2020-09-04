@@ -207,7 +207,7 @@ Now, it is no coincidence that:
 This sets up a relation between spinors in these various dimensions and
 the projective planes over O, C tensor O, H tensor O and O tensor O. The
 upshot is that we get a nice description of F4, E6, E7 and E8 in terms
-of the Lie algebras so(n) and their spinor representations where n = 9,
+of the Lie algebras \mathfrak{so}(n) and their spinor representations where n = 9,
 10, 12, 16, respectively.
 
 It's all so tightly interlocked - I can't believe it's not trying to
@@ -225,9 +225,9 @@ descriptions of the Lie algebra of E7:
 
         = der(O) + der(H) + sa3(H tensor O) 
 
-        = so(O + H) + Im(H) + (H tensor O)2 
+        = \mathfrak{so}(O + H) + Im(H) + (H tensor O)2 
 
-        = so(O) + so(H) + Im(H) + (H tensor O)3  
+        = \mathfrak{so}(O) + \mathfrak{so}(H) + Im(H) + (H tensor O)3  
 
 I explain why these are true in the paper, but for now, let me just say
 what all this stuff means:
@@ -255,7 +255,7 @@ sh_3(H) is the traceless 3x3 hermitian quaternionic matrices,
 sa_3(H tensor O) is the traceless 3x3 antihermitian quateroctonionic
 matrices.
 
-so(V) is the rotation group Lie algebra associated to the real inner
+\mathfrak{so}(V) is the rotation group Lie algebra associated to the real inner
 product space V.
 
 It is fun to compute the dimension of E7 using each of these 7 formulas

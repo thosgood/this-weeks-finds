@@ -72,18 +72,18 @@ supernova](http://en.wikipedia.org/wiki/Type_II_supernova). Such
 supernovae show quite a bit of variation in their behavior. But anyway,
 it seems they get to be 1 billion times as bright as the Sun, or maybe
 at most - let's look at a worst-case scenario - 10 billion times as
-bright. So, between 10^9^ and ten times that.
+bright. So, between 10^9 and ten times that.
 
 On the other hand, Betelgeuse is about 600 light years away, and there
 are 63,239 astronomical units in a light year, so it's about
 
-600 \times 63,000 ≅ 4 \times 10^7^
+600 \times 63,000 ≅ 4 \times 10^7
 
 times as far away as the Sun - no point trying to be too precise here.
 Brightness scales as one over distance squared, so supernova Betelgeuse
 should look between
 
-10^9^ / (4 \times 10^7^)^2 ≅ 7 \times 10^-7^
+10^9 / (4 \times 10^7)^2 ≅ 7 \times 10^-7^
 
 as bright as the Sun, and ten times that bright.
 

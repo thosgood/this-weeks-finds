@@ -365,15 +365,15 @@ Now for an extra twist - something that we thought about but
 unfortunately decided not to put in our paper. If you've studied the
 quantum mechanics of angular momentum, a lot of these formulas involving
 j's and m's should look familiar to you. That's because loop quantum
-gravity is usually treated as a gauge theory with gauge group SU(2),
+gravity is usually treated as a gauge theory with gauge group \mathrm{SU}(2),
 which is also the group used to study angular momentum.
 
 But we can also formulate gravity as a gauge theory with gauge group
-SO(3), the usual rotation group! Classically it makes no difference. But
+\mathrm{SO}(3), the usual rotation group! Classically it makes no difference. But
 in loop quantum gravity, it has the effect of ruling out half-integer
 spins. This means that j = 1/2 is no longer the smallest nonzero spin.
 Instead, it's j = 1. We can easily redo the whole calculation using
-SO(3). Not much changes, but we get a different value of the
+\mathrm{SO}(3). Not much changes, but we get a different value of the
 Barbero-Immirzi parameter. When all the spin network edges puncturing
 the event horizon have j = 1, we get
 
@@ -405,12 +405,12 @@ This matches Hawking's S = A/4 if we take
             2 π sqrt(2)
 
 Again, the same number works for electrically charged and other black
-holes, as long as use the SO(3) version of loop quantum gravity. Indeed,
-the SO(3) theory seems just as good as the SU(2) theory unless you want
+holes, as long as use the \mathrm{SO}(3) version of loop quantum gravity. Indeed,
+the \mathrm{SO}(3) theory seems just as good as the \mathrm{SU}(2) theory unless you want
 to include spin-1/2 particles. As long as you don't do that, they're
 different but equally good quantum theories that look the same
 classically. But since we *did* want to eventually include spin-1/2
-particles, we focused on the SU(2) theory.
+particles, we focused on the \mathrm{SU}(2) theory.
 
 Now for the big news. Last Sunday, Olaf Dreyer, a postdoc at the
 Perimeter Insitute who had been a student of Ashtekar, came out with an
@@ -419,7 +419,7 @@ amazing paper that could change everything!
 In this paper, he calculates the Barbero-Immirzi parameter in a
 completely new way, using numerical results on the vibrational modes of
 *classical* black holes. His answer seems to agree with that obtained by
-the above calculation... but only if we use SO(3) instead of SU(2) as
+the above calculation... but only if we use \mathrm{SO}(3) instead of \mathrm{SU}(2) as
 the gauge group!
 
 It's very hard to know what this means, but the calculation itself is
@@ -451,7 +451,7 @@ so we have
 
             = 32 π M ω
 
-Now for something from loop quantum gravity: if we work in the SO(3)
+Now for something from loop quantum gravity: if we work in the \mathrm{SO}(3)
 theory, it's natural to guess that this change in area comes from the
 appearance or disappearance of a single spin-1 edge puncturing the
 horizon, so that
@@ -604,7 +604,7 @@ You see, even though we have the advantage of being able to get much
 still outweighed by the incredible power of the gravitational radiation
 produced by binary neutron stars! These guys emit approximately 3 x
 10^49^ watts of power in their final moments. Even 1000 parsecs away,
-that means folks here on earth receive a flux of about 3 x 10^5^ watts
+that means folks here on earth receive a flux of about 3 x 10^5 watts
 per square centimeter of gravitational radiation.
 
 There's nothing we can make here on earth that comes close to that. For
@@ -665,7 +665,7 @@ That's because LIGO sensitivity is usually measured in different units.
 I don't know how much power per area LIGO can detect in the 100-300
 hertz frequency band, but by the above figures, detecting a binary
 neutron star 1000 parsecs away is equivalent to detecting roughly 3 x
-10^5^ watts / cm^2. This may seem like a hell of a lot of power per
+10^5 watts / cm^2. This may seem like a hell of a lot of power per
 area, and it is, but gravity is such a weak force compared to
 electromagnetism that one *needs* a hell of a lot more power per area to
 be able to detect it!

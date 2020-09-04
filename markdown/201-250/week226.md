@@ -731,7 +731,7 @@ Next, some email from the man himself: Scott Aaronson!
 > In that case, it turns out that one can combine the birthday paradox
 > with Grover's quantum search algorithm, to find a collision using
 > \~2^n/3^ accesses to f instead of \~2^n/2^. But could we do it with
-> n^O(1)^ accesses, or even a *constant* number independent of n? You
+> n^\mathrm{O}(1)^ accesses, or even a *constant* number independent of n? You
 > might be surprised that this was open for years!
 >
 > Probably my best-known result was to show that \~2^n/5^ accesses are
@@ -771,16 +771,16 @@ Next, some email from the man himself: Scott Aaronson!
 > ≤n symbols, and shows that none of them work.
 >
 > You might wonder: does G(n) have a proof of n+1 symbols, or for that
-> matter n^O(1)^ symbols? This turns out to be related to the main open
+> matter n^\mathrm{O}(1)^ symbols? This turns out to be related to the main open
 > questions of complexity theory! In particular, if NP=coNP, then G(n)
-> has a proof of n^O(1)^ symbols. NP=coNP just means that, whenever a
+> has a proof of n^\mathrm{O}(1)^ symbols. NP=coNP just means that, whenever a
 > Boolean formula of size n is unsatisfiable, there's a proof of that
 > fact of length polynomial in n. Clearly if P=NP then NP=coNP, but the
 > converse isn't known. The prevailing belief is not only that P≠NP,
 > but also that NP≠coNP.
 >
 > Actually I can say more than that: if NE=coNE, then G(n) has a proof
-> of n^O(1)^ symbols. Here NE is Nondeterministic Exponential-Time, or
+> of n^\mathrm{O}(1)^ symbols. Here NE is Nondeterministic Exponential-Time, or
 > the exponential-time analogue of NP. (See my Complexity Zoo:
 >
 > 32) Scott Aaronson and Greg Kuperberg, Complexity Zoo,
@@ -797,7 +797,7 @@ Next, some email from the man himself: Scott Aaronson!
 > exponentially long proof.
 >
 > At this point I'll conjecture that I have an "if and only if"
-> characterization: if G(n) has a proof of n^O(1)^ symbols, then
+> characterization: if G(n) has a proof of n^\mathrm{O}(1)^ symbols, then
 > NE=coNE.
 >
 > Incidentally, your "finite Gödel statement" is closely related to
@@ -1006,7 +1006,7 @@ Next, here's yet another email from Scott Aaronson, dated July 22,
 >
 > It follows that, as long as we restrict ourselves to statements of
 > length £n, no contradiction can be proved. Furthermore, we can
-> formalize the whole argument using only O(n) symbols (or maybe O(n
+> formalize the whole argument using only \mathrm{O}(n) symbols (or maybe \mathrm{O}(n
 > log(n)), depending on the proof system).
 >
 > So what's the catch? Why can't we generalize this argument to
@@ -1023,10 +1023,10 @@ Next, here's yet another email from Scott Aaronson, dated July 22,
 > involving statements with at most k quantifiers."
 >
 > The new conjecture would be that, for every fixed k, P(n,k) has no
-> proof with less than 2^O(n)^ symbols involving statements with at most
+> proof with less than 2^\mathrm{O}(n)^ symbols involving statements with at most
 > k quantifiers. According to Pavel, this conjecture is still open.
 > Indeed, it's not even known whether P(n) itself has a proof with less
-> than 2^O(n)^ symbols, involving statements with at most k quantifiers
+> than 2^\mathrm{O}(n)^ symbols, involving statements with at most k quantifiers
 > for some fixed k.
 >
 > Best,\

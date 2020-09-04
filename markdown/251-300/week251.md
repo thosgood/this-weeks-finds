@@ -107,7 +107,7 @@ expected values of the three components of angular momentum for a
 spin-1/2 particle in the given mixed state. The center of the Bloch ball
 is the state of complete ignorance.
 
-In honest quantum mechanics, the rotation group SO(3) acts as symmetries
+In honest quantum mechanics, the rotation group \mathrm{SO}(3) acts as symmetries
 of the Bloch ball. In Spekken's toy version, this symmetry group is
 reduced to the 24 permutations of the set {1,2,3,4}. You can think of
 these permutations as acting on a tetrahedron whose corners are the 4
@@ -255,7 +255,7 @@ Our universe seems to like complex quantum mechanics. And, the space of
 2\times2 self-adjoint complex matrices - let's call it h_2(C) - is
 isomorphic to 4-dimensional Minkowski spacetime! The cone of positive
 matrices is isomorphic to the future lightcone. The set of pure states
-of a spin-1/2 particle is the Riemann sphere CP^1, and this is
+of a spin-1/2 particle is the Riemann sphere \mathbb{CP}^1, and this is
 isomorphic to the "heavenly sphere": the set of light rays through a
 point in Minkowski spacetime.
 
@@ -265,12 +265,12 @@ quaternions (H) or the octonions (O):
 
 -   h_2(R) is 3d Minkowski spacetime, and RP^1 is the heavenly sphere
     S^1.
--   h_2(C) is 4d Minkowski spacetime, and CP^1 is the heavenly sphere
+-   h_2(C) is 4d Minkowski spacetime, and \mathbb{CP}^1 is the heavenly sphere
     S^2.
 -   h_2(H) is 6d Minkowski spacetime, and HP^1 is the heavenly sphere
     S^4.
 -   h_2(O) is 10d Minkowski spacetime, and OP^1 is the heavenly sphere
-    S^8^.
+    S^8.
 
 So, it's all very nice - but a bit mysterious. Why did our universe
 choose the complex numbers? We're told that scientists shouldn't ask
@@ -389,8 +389,8 @@ and a "twisted" right action, where q acts on x to give
 
 x f(q)
 
-Since the automorphism group of the quaternions is SO(3), there turn out
-to be SO(3)'s worth of nonisomorphic ways to make H into an H-bimodule!
+Since the automorphism group of the quaternions is \mathrm{SO}(3), there turn out
+to be \mathrm{SO}(3)'s worth of nonisomorphic ways to make H into an H-bimodule!
 
 For an attempt to tackle this issue, see:
 

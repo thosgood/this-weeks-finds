@@ -258,20 +258,20 @@ Week's Finds (especially ["Week 217"](#week217) and
 > Gal(F^-^/F) are essentially in bijection with one-dimensional
 > representations of the abelian group
 >
-> A(F)* = GL(1,A(F))
+> A(F)* = \mathrm{GL}(1,A(F))
 >
 > which occur in the space of functions on
 >
-> A(F)*/F* = GL(1,A(F))/GL(1,F)
+> A(F)*/F* = \mathrm{GL}(1,A(F))/\mathrm{GL}(1,F)
 >
 > A marvelous insight of Robert Langlands was to conjecture that there
 > exists a similar description of *n-dimensional representations* of
 > Gal(F^-^/F). Namely, he proposed that those may be related to
-> irreducible representations of the group GL(n,A(F)) which are
+> irreducible representations of the group \mathrm{GL}(n,A(F)) which are
 > *automorphic*, that is those occurring in the space of functions on
 > the quotient
 >
-> GL(n,A(F))/GL(n,F)
+> \mathrm{GL}(n,A(F))/\mathrm{GL}(n,F)
 >
 > This relation is now called the *Langlands correspondence*.
 >
@@ -297,11 +297,11 @@ Week's Finds (especially ["Week 217"](#week217) and
 >
 > The point is that the Langlands correspondence is supposed to relate
 > $n$-dimensional Galois representations to automorphic representations of
-> GL(n,A(F)) in such a way that the data on the Galois side, such as the
+> \mathrm{GL}(n,A(F)) in such a way that the data on the Galois side, such as the
 > number of points of E over Z/p, are translated into something more
 > tractable on the automorphic side, such as the coefficients in the
 > q-expansion of the modular forms that encapsulate automorphic
-> representations of GL(2,A(Q)).
+> representations of \mathrm{GL}(2,A(Q)).
 >
 > More precisely, one asks that under the Langlands correspondence
 > certain natural invariants attached to the Galois representations and

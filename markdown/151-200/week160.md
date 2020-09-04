@@ -105,7 +105,7 @@ divergences, available as
 
 A while ago, De Pietri, Freidel, Krasnov and Rovelli showed how to get
 the Barrett-Crane model for Riemannian quantum gravity from a quantum
-field theory on a product of 4 copies of SO(4) - see
+field theory on a product of 4 copies of \mathrm{SO}(4) - see
 ["Week 140"](#week140). This was based on earlier work by Boulatov
 and Ooguri, who did a similar thing for BF theory. The basic idea is to
 cook up a quantum field theory on a product of copies of Lie group, with
@@ -125,7 +125,7 @@ general relativity, available as
 
 This paper modifies the De Pietri-Freidel-Krasnov-Rovelli construction
 to get the *Lorentzian* Barrett-Crane model from quantum field theory on
-a product of 4 copies of SO(3,1).
+a product of 4 copies of \mathrm{SO}(3,1).
 
 6) Alejandro Perez and Carlo Rovelli, 3+1 spinfoam model of quantum
 gravity with spacelike and timelike components, available as

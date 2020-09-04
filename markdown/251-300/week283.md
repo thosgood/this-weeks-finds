@@ -513,12 +513,12 @@ H = 1
 So we just need to compute P and D. If we think of the unit circle as
 living in the complex plane, then the solutions of
 
-z^5^ = 1
+z^5 = 1
 
 are the corners of a regular pentagon. So let's solve this equation.
 We've got
 
-0 = z^5^ - 1 = (z - 1)(z^4 + z^3 + z^2 + z + 1)
+0 = z^5 - 1 = (z - 1)(z^4 + z^3 + z^2 + z + 1)
 
 so ignoring the dull solution z = 1, we must solve
 

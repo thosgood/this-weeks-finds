@@ -141,7 +141,7 @@ cohomology theories, but let's not get bogged down in this motivation
 now, since operads are actually quite simple.
 
 In its simplest form, an operad is a gizmo that has for each n =
-0,1,2,... a set O(n) whose elements are thought of as $n$-ary operations
+0,1,2,... a set \mathrm{O}(n) whose elements are thought of as $n$-ary operations
 - operations with n inputs. It's good to draw such operations as black
 boxes with n input wires and one output:
 
@@ -230,7 +230,7 @@ operation and get a new operation:
                            |
                            |
 
-This gives actions of the permutation groups on the sets O(n). We also
+This gives actions of the permutation groups on the sets \mathrm{O}(n). We also
 demand that these actions be compatible with composition, in a way
 that's supposed to be obvious from the pictures. For example:
 
@@ -258,8 +258,8 @@ and similarly for permuting the inputs of the black boxes on top.
 *Voilà!*
 
 Now, operads make sense in various contexts. So far we've been talking
-about operads that have a *set* O(n) of $n$-ary operations for each n.
-These have actions on *sets*, where each guy in O(n) gets incarnated as
+about operads that have a *set* \mathrm{O}(n) of $n$-ary operations for each n.
+These have actions on *sets*, where each guy in \mathrm{O}(n) gets incarnated as
 a *function* that eats n elements of some set and spits out an element
 of that set.
 
@@ -269,7 +269,7 @@ But historically, Peter May started by inventing operads that have a
 *continuous maps*.
 
 Most importantly, he invented an operad called the "little k-cubes
-operad". Here O(n) is the space of ways of putting n nonoverlapping
+operad". Here \mathrm{O}(n) is the space of ways of putting n nonoverlapping
 little k-dimensional cubes in a big one. We don't demand that the
 little cubes are actually cubes: they can be rectangular boxes. We do
 demand that their walls are nicely lined up with the walls of the big
@@ -289,7 +289,7 @@ cube:
            |                     |
             ---------------------
 
-This is an operation in O(3), where O is the little 2-cubes operad. Or,
+This is an operation in \mathrm{O}(3), where O is the little 2-cubes operad. Or,
 at least it would be if I labelled each of the 3 little 2-cubes - we
 need that extra information.
 
@@ -465,14 +465,14 @@ To understand this, we need to note that there's a linear operad whose
 algebras are Poisson algebras. That's not surprising. But, we can get a
 very similar operad in a rather shocking way, as follows.
 
-Take the little k-cubes operad. This has a space O(n) of $n$-ary
-operations for each n. Now take the homology of these spaces O(n), using
-coefficients in your favorite field, and get vector spaces H(O(n)). By
+Take the little k-cubes operad. This has a space \mathrm{O}(n) of $n$-ary
+operations for each n. Now take the homology of these spaces \mathrm{O}(n), using
+coefficients in your favorite field, and get vector spaces H(\mathrm{O}(n)). By
 functorial abstract nonsense these form a linear operad. And this is the
 operad for Poisson algebras!
 
 Alas, we actually have to be a bit more careful. The homology of each
-space O(n) with coefficients in some field is really a *graded* vector
+space \mathrm{O}(n) with coefficients in some field is really a *graded* vector
 space over that field. So, taking the homology of the little k-cubes
 operad gives an operad in the category of graded vector spaces. And,
 it's the operad whose algebras are graded Poisson algebras with a

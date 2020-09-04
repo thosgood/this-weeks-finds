@@ -88,11 +88,11 @@ the particle theory - the need for a compromise became clear only later.
 
 Quaternions, too, might have had more impact if they'd come along
 later, when people were trying to understand spin-1/2 particles. After
-all, the unit quaternions form the group SU(2), which is perfect for
+all, the unit quaternions form the group \mathrm{SU}(2), which is perfect for
 studying spin-1/2 particles. But the way things actually went,
 quaternions were not very popular by the time people dreamt of spin-1/2
 particles - so Pauli just used 2 x 2 complex matrices to describe the
-generators of SU(2).
+generators of \mathrm{SU}(2).
 
 I like what Hamilton wrote about quaternions, space, and time:
 
@@ -109,7 +109,7 @@ It's also amusing how Hamilton responded when de Morgan told him about
 the four-color conjecture: "I am not likely to attempt your
 \`quaternion of colours' very soon." The pun is ironic, given the
 relations people have recently discovered between what is now the
-four-color theorem, the vector cross product, and the group SU(2). (See
+four-color theorem, the vector cross product, and the group \mathrm{SU}(2). (See
 ["Week 8"](#week8) and ["Week 92"](#week92) for more.)
 
 Of course quaternions were very influential for a while - they were

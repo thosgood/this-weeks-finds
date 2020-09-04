@@ -235,7 +235,7 @@ so we get
 
     |C| = |R|2 = 1.
 
-This implies that the Euler characteristic of CP^n-1^ is \[n\], where
+This implies that the Euler characteristic of \mathbb{CP}^n-1^ is \[n\], where
 now q = |C| = 1. In other words, it's just n.
 
 Now that we've gotten this wonderful new insight we can test it on
@@ -289,7 +289,7 @@ homology of the complex flag manifold in 4 dimensions, you just tell him
     [4]! = 1 (1 + q) (1 + q + q2) (1 + q + q2 + q3) 
          = 1 + 3q + 5q2 + 6q3 + 5q4 + 3q5 + q6
 
-You know the q^5^ term gives you the 10-cells in this flag manifold,
+You know the q^5 term gives you the 10-cells in this flag manifold,
 since the complex numbers have dimension 2. You see the coefficient of
 this term is 3, so you say "... and it's Z^3." He will then think
 you know algebraic topology, and go away.

@@ -153,7 +153,7 @@ supergravity is really like. If we work locally, we can think of this as
 a 1-form taking values in the super-Poincare algebra. Thus it really
 consists of 3 parts:
 
-a) a 1-form taking values in the Lorentz Lie algebra so(10,1). This is
+a) a 1-form taking values in the Lorentz Lie algebra \mathfrak{so}(10,1). This is
 secretly the "spin connection" in the usual formulation of 11d
 supergravity, as described last week.
 
@@ -275,25 +275,25 @@ Lorentz Lie algebra on spinors. Again, this has a Euclidean analogue,
 where the Lie algebra of the Lorentz group gets replaced by that of the
 rotation group. In n dimensions, we thus get an action
 
-so(n) x S \to S
+\mathfrak{so}(n) x S \to S
 
 which we can also dualize to get a map
 
-S x S \to so(n).
+S x S \to \mathfrak{so}(n).
 
 Of course, we also have the Lie bracket
 
-so(n) x so(n) \to so(n).
+\mathfrak{so}(n) x \mathfrak{so}(n) \to \mathfrak{so}(n).
 
 So it's natural to ask: can we use all three of these maps to define a
-Lie bracket on the direct sum of so(n) and the spinor space S?
+Lie bracket on the direct sum of \mathfrak{so}(n) and the spinor space S?
 
 And the answer is: yes, but only if n = 9. Then we get the exceptional
 Lie algebra F4.
 
 Spurred on by our success, we can ask: what if we use right-handed
 spinors instead? If we restrict the above maps to right-handed spinors,
-can we define a Lie bracket on the direct sum of so(n) and the space S+?
+can we define a Lie bracket on the direct sum of \mathfrak{so}(n) and the space S+?
 
 And the answer is: yes, but only if n = 16. Then we get the exceptional
 Lie algebra E8.
@@ -305,11 +305,11 @@ And the answer is: yes, at least for E6 and E7.
 
 If n = 10, the spinor space S is naturally a complex vector space, so
 u(1) acts on it. Using this and the above maps, we can make the direct
-sum of so(10), S and u(1) into a Lie algebra, which turns out to be E6.
+sum of \mathfrak{so}(10), S and u(1) into a Lie algebra, which turns out to be E6.
 
 If n = 12, the right-handed spinor space S+ is naturally a quaternionic
-vector space, so su(2) acts on it. Using this and the above maps, we can
-make the direct sum of so(12), S+ and su(2) into a Lie algebra, which
+vector space, so \mathfrak{su}(2) acts on it. Using this and the above maps, we can
+make the direct sum of \mathfrak{so}(12), S+ and \mathfrak{su}(2) into a Lie algebra, which
 turns out to be E7.
 
 In short, we have the following story:
@@ -319,7 +319,7 @@ In short, we have the following story:
                                                      H in dimension 4
                                                      O in dimension 8
 
-    natural maps involving so(n) and spinors give:  F4 in dimension 9
+    natural maps involving \mathfrak{so}(n) and spinors give:  F4 in dimension 9
                                                     E6 in dimension 10
                                                     E7 in dimension 12
                                                     E8 in dimension 16
@@ -349,13 +349,13 @@ off the picture, I'd have to describe the relation between spinors in
 n-dimensional Euclidean space to spinors in (n+2)-dimensional Minkowski
 spacetime. It's this relation that gives the isomorphisms
 
-so(2,1) = sl(2,R)
+\mathfrak{so}(2,1) = sl(2,R)
 
-so(3,1) = sl(2,C)
+\mathfrak{so}(3,1) = sl(2,\mathbb{C})
 
-so(5,1) = sl(2,H)
+\mathfrak{so}(5,1) = sl(2,H)
 
-so(9,1) = sl(2,O)
+\mathfrak{so}(9,1) = sl(2,O)
 
 which I mentioned already in ["Week 104"](#week104). This is what
 lets us write down the super-Yang-Mills Lagrangians and superstring

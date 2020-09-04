@@ -312,10 +312,10 @@ I gave a more formal introduction to projective geometry in
 ["Week 178"](#week178). If you read these, you'll know that points
 in the projective plane correspond to lines through the origin in a 3d
 space. And, you'll know a bit about the group of symmetries in
-projective geometry: it's the group G = PGL(3), consisting of 3\times3
+projective geometry: it's the group G = \mathrm{PGL}(3), consisting of 3\times3
 invertible matrices, modulo scalars.
 
-(I actually said SL(3), but I was being sloppy - this is another group
+(I actually said \mathrm{SL}(3), but I was being sloppy - this is another group
 with the same Lie algebra.)
 
 For some great examples of double cosets, let F be the space of
@@ -351,7 +351,7 @@ By "no more" I mean that no further incidence relations hold.
 
 There's a lot more to say about this, and we'll need to delve into it
 much deeper soon... but not yet. For now, I just want to mention that
-all this stuff generalizes from G = PGL(3) to any other simple Lie
+all this stuff generalizes from G = \mathrm{PGL}(3) to any other simple Lie
 group! And, the picture above is an example of a general concept, called
 an "apartment". Apartments are a great way to visualize atomic
 invariant relations between flags.

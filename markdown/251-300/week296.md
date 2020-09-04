@@ -14,7 +14,7 @@ I've recommended this book before. Now Shurman has made it freely
 available on his website! In 1888, Felix Klein used the icosahedron to
 solve the general quintic equation:
 
-a x^5^ + b x^4 + c x^3 + d x^2 + e x + f = 0
+a x^5 + b x^4 + c x^3 + d x^2 + e x + f = 0
 
 Shurman's book explains Klein's ideas in a very nice way, using a bit
 of modern math to make them easier to understand. It's a wonderful

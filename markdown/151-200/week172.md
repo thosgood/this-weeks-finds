@@ -183,10 +183,10 @@ quantum gravity is only important insofar as it's a useful warmup for
 Lorentzian quantum gravity.
 
 In their paper, Christensen and Egan describe an algorithm that computes
-the Riemannian 10j symbols using O(j^5^) operations and O(j^2) space,
-as well as an algorithm that uses O(j^6^) operations and a constant
+the Riemannian 10j symbols using \mathrm{O}(j^5) operations and \mathrm{O}(j^2) space,
+as well as an algorithm that uses \mathrm{O}(j^6) operations and a constant
 amount of space. This is in contrast to the most obvious methods, which
-use O(j^9^) operations and O(j^2) or more space. Perhaps most
+use \mathrm{O}(j^9) operations and \mathrm{O}(j^2) or more space. Perhaps most
 importantly to the practical-minded among us, their paper includes a
 link to some code in C that implements this algorithm.
 
@@ -213,11 +213,11 @@ as a pleasant surprise to find that sometimes spin foam amplitudes are
 nonnegative *without* doing Wick rotation.
 
 Of course, so far I've only been talking about the Riemannian
-Barrett-Crane model! Here the gauge group is Spin(4) = SU(2) \times SU(2),
+Barrett-Crane model! Here the gauge group is Spin(4) = \mathrm{SU}(2) \times \mathrm{SU}(2),
 and if you examine our proof, you'll see that the positivity result
-comes from the way this group "factors" into two copies of SU(2). We
+comes from the way this group "factors" into two copies of \mathrm{SU}(2). We
 can't prove positivity of spin foam amplitudes in the more physical
-Lorentzian case, where the group is Spin(3,1) = SL(2,C).
+Lorentzian case, where the group is Spin(3,1) = \mathrm{SL}(2,\mathbb{C}).
 
 However, even though we can't prove it, it may be true! Dan has written
 a number of programs which compute the Lorentzian 10j symbols, and while
@@ -247,13 +247,13 @@ type IIB string theory. But I don't understand how that's supposed to
 work yet, so my own attaction to this theory mainly comes from the fact
 that it's very simple and pretty. Let me describe it to you!
 
-I'll assume you know that the Lagrangian for SU(N) Yang-Mills theory
+I'll assume you know that the Lagrangian for \mathrm{SU}(N) Yang-Mills theory
 coupled to spinors looks like this:
 
 tr(F ∧ ∗ F) + \psi^†^ D \psi
 
 where F is the curvature of the gauge field, \psi is a spinor field
-transforming under some representation of SU(N), \psi^†^ is my feeble
+transforming under some representation of \mathrm{SU}(N), \psi^†^ is my feeble
 substitute for a \psi with a bar over it, and D is the covariant Dirac
 operator. If we write this out a bit more explicitly, it's
 
@@ -261,8 +261,8 @@ tr((dA + \[A,A\]) ∧ ∗(dA + \[A,A\]) + \psi^†i^ (d~a~ + A~a~) Γ^a^~ij~ \ps
 
 where A is the gauge field. But now let's assume A and \psi are constant
 as functions on space, and that \psi transforms in the adjoint
-representation of su(N). This amounts to saying that A lies in su(N) \otimes
-R^n, where n is the dimension of spacetime, and that \psi lies in su(N)
+representation of \mathfrak{su}(N). This amounts to saying that A lies in \mathfrak{su}(N) \otimes
+R^n, where n is the dimension of spacetime, and that \psi lies in \mathfrak{su}(N)
 tensored with the space of spinors... where we use some sort of spinors
 suitable for $n$-dimensional spacetime. Then the above Lagrangian becomes
 
@@ -634,7 +634,7 @@ And here is some more by Noam Elkies:
 >     >in the plane, the square one and the "equilateral triangle" one 
 >     >have more symmetry - 4-fold symmetry and 6-fold symmetry,
 >     >respectively.  It's related to the fact that the abelianization
->     >of SL(2,Z) has 12 elements.  But I don't see an immediate connection
+>     >of \mathrm{SL}(2,\mathbb{Z}) has 12 elements.  But I don't see an immediate connection
 >     >between these simple things and the above number-theoretic property 
 >     >of 24.
 >

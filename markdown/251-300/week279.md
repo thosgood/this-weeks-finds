@@ -312,7 +312,7 @@ But it's even worse than that. In 4-dimensional spacetime, spinors come
 in left- and right-handed forms. For example, the neutrinos we most
 easily see - not that easily, actually! - are left-handed spinors, while
 antineutrinos are right-handed. Electrons come in both left and
-right-handed forms, so we actually describe them using C^2 ⊕ C^2 =
+right-handed forms, so we actually describe them using C^2 \oplus  C^2 =
 C^4. We call C^4 the space of "Dirac spinors", and we call the two
 pieces left- and right-handed "Weyl spinors".
 

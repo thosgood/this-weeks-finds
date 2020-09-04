@@ -297,7 +297,7 @@ the following interesting comments:
     If you want to directly compactify 11-dimensional supergravity/M-theory 
     to a theory with N=1 supersymmetry in 4 dimensions, which is what people 
     like for phenomenological reasons, you need a 7-dimensional manifold
-    of G2 holonomy (just as you need manifolds of SU(3) holonomy, i.e.
+    of G2 holonomy (just as you need manifolds of \mathrm{SU}(3) holonomy, i.e.
     Calabi-Yau manifolds, in six dimensions).  I have seen these referred 
     to as "Joyce manifolds," after Dominic Joyce, who constructed several 
     examples of such spaces.  (I didn't know there was so much known about

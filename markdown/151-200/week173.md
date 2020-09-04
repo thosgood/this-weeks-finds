@@ -72,7 +72,7 @@ planes and embedded generators of homotopy groups. Available at
 
 The simple idea standing behind their work is that
 
-π~11~(S^8^) = Z/24.
+π~11~(S^8) = Z/24.
 
 In other words: the 11th homotopy group of the 8-sphere is the group of
 integers mod 24. This is just a reflection of the fact that the
@@ -82,7 +82,7 @@ integers mod 24. This is just a reflection of the fact that the
 whenever n is big enough. I touched upon the importance of this for
 string theory in ["Week 102"](#week102).
 
-But it gets cooler. S^8^ is just the octonionic projective line OP^1.
+But it gets cooler. S^8 is just the octonionic projective line OP^1.
 The octonionic projective plane, OP^2, is formed from OP^1 by gluing
 on some extra stuff. However, this extra stuff is sufficiently
 high-dimensional that it doesn't affect the 11th homotopy group, so we
@@ -93,7 +93,7 @@ get
 Now, what Püttman and Rigas do is find an 11-sphere *embedded* in the
 octonionic projective plane that generates the group Z/24. In fact,
 it's a minimal surface: there's no way to wiggle it a bit to make the
-"area" less! It's the analogue for OP^2 of the 2-sphere in CP^2
+"area" less! It's the analogue for OP^2 of the 2-sphere in \mathbb{CP}^2
 defined by the equation x^2 + y^2 + z^2 = 0. (Püttman and Rigas also
 describe an analogous 5-sphere in the quaternionic projective plane that
 generates π~5~(HP^2) = Z/2.)

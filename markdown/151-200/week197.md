@@ -294,9 +294,9 @@ where the matrix
     (c d)
 
 has determinant 1. This group of such transformations is called
-PSL(2,Z). So, the space of all isomorphism classes of elliptic curves is
+\mathrm{PSL}(2,\mathbb{Z}). So, the space of all isomorphism classes of elliptic curves is
 
-    H/PSL(2,Z)
+    H/\mathrm{PSL}(2,\mathbb{Z})
 
 where again H is the upper half-plane. Folks call this space the
 "moduli space of elliptic curves". It's a Riemann surface, and I drew
@@ -313,9 +313,9 @@ such that
 
     f((az+b)/(cz+d)) = (cz+d)n f(z)
 
-for all transformations in PSL(2,Z). Now we can see what this equation
-really means. When n = 0, it just says f is *invariant* under PSL(2,Z),
-so it becomes a function on H/PSL(2,Z). Thus, modular functions of
+for all transformations in \mathrm{PSL}(2,\mathbb{Z}). Now we can see what this equation
+really means. When n = 0, it just says f is *invariant* under \mathrm{PSL}(2,\mathbb{Z}),
+so it becomes a function on H/\mathrm{PSL}(2,\mathbb{Z}). Thus, modular functions of
 weight 0 are just analytic functions on the moduli space of elliptic
 curves!
 
@@ -334,7 +334,7 @@ worldsheet of a string, the limit Im(z) \to +\infty corresponds to the
 the worldline of a particle.
 
 Of course, when n is nonzero, modular forms of weight n aren't really
-invariant under PSL(2,Z): they're only invariant "up to a phase". I
+invariant under \mathrm{PSL}(2,\mathbb{Z}): they're only invariant "up to a phase". I
 put this physics jargon in quotes because the fudge factor (cz+d)^n
 isn't really a unit complex number. But the moral principle is the same
 - and in string theory, this fudge factor really *does* come from a
@@ -622,7 +622,7 @@ satisfies if the group operations were described by *formal* power
 series.
 
 Anyway, now consider the torus. A torus is a group in an obvious way -
-just a product of two copies of the group U(1) - but there are different
+just a product of two copies of the group \mathrm{U}(1) - but there are different
 ways to make it into a *complex* manifold where the group operations are
 *complex* analytic functions. A way of doing this is nothing other than
 an "elliptic curve"!
@@ -704,7 +704,7 @@ weight 0, not a modular form of weight 24. So, my brain must have been a
 bit fried by the time we got to this really far-out stuff.)
 
 Where does the extra 24 come from? I don't know, but Stephan Stolz said
-it has something to do with the fact that while PSL(2,Z) doesn't act
+it has something to do with the fact that while \mathrm{PSL}(2,\mathbb{Z}) doesn't act
 freely on the upper half-plane - hence these elliptic curves with extra
 symmetries - the subgroup "Γ(3)" does. This subgroup consists of
 integer matrices
@@ -728,21 +728,21 @@ we get a nice space without any "points of greater symmetry". To get
 the moduli space of elliptic curves from this, we just need to mod out
 by the group
 
-    SL(2,Z)/Γ(3) = SL(2,Z/3)
+    \mathrm{SL}(2,\mathbb{Z})/Γ(3) = \mathrm{SL}(2,\mathbb{Z}/3)
 
 But this group has 24 elements!
 
 In fact, I think this is just another way of explaining the period-24
 pattern in the theory of modular forms, but I like it.
 
-I especially like it because SL(2,Z/3) is also known as the "binary
+I especially like it because \mathrm{SL}(2,\mathbb{Z}/3) is also known as the "binary
 tetrahedral group". To get your hands on this group, take the group of
 rotational symmetries of the tetrahedron, also known as A_4. This is a
-12-element subgroup of SO(3). Using the fact that SO(3) has SU(2) as a
-double cover, take all the points in SU(2) that map to A_4. You get a
-24-element subgroup of SU(2) which is the binary tetrahedral group.
+12-element subgroup of \mathrm{SO}(3). Using the fact that \mathrm{SO}(3) has \mathrm{SU}(2) as a
+double cover, take all the points in \mathrm{SU}(2) that map to A_4. You get a
+24-element subgroup of \mathrm{SU}(2) which is the binary tetrahedral group.
 
-In fact, if you think of SU(2) as the unit sphere in the quaternions,
+In fact, if you think of \mathrm{SU}(2) as the unit sphere in the quaternions,
 the binary tetrahedral group becomes the vertices of a 4-dimensional
 regular polytope called the 24-cell!
 

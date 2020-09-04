@@ -671,13 +671,13 @@ been talking to Jim Dolan, and many of these ideas come from him. But
 also, you can think of this Week as an expansion of the remarks by Joe
 Christy and Swiatowslaw Gal in the Addenda to
 ["Week 233"](#week233). And, it was Chris Hillman who first told
-Jim and me that SL(2,R)/SL(2,Z) looks like S^3 minus a trefoil knot.
+Jim and me that \mathrm{SL}(2,R)/\mathrm{SL}(2,\mathbb{Z}) looks like S^3 minus a trefoil knot.
 
 Finally, I should say that my low-budget approach to modular forms
 mostly just handles so-called "level 0" modular forms - the basic
 kind, defined using the group
 
-Γ = PSL(2,Z)
+Γ = \mathrm{PSL}(2,\mathbb{Z})
 
 More exciting are modular forms that transform nicely only for a
 *subgroup* of Γ. Jim and I are just beginning to understand these. But
@@ -686,7 +686,7 @@ the subgroup of Γ consisting of matrices congruent to the identity
 matrix mod 2. What does this have to do with my ode to the number 3?
 Well,
 
-Γ/Γ(2) ≅ PSL(2,F_2)
+Γ/Γ(2) ≅ \mathrm{PSL}(2,F_2)
 
 and this is isomorphic to the group of permutations of 3 things!
 

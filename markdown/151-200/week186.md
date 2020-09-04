@@ -153,19 +153,19 @@ and this gives the symmetry groups of *projective* geometry: the
 geometry of points, lines, planes, and so on up to dimension n.
 
 More precisely, if we pick any field F, we can use this diagram to
-concoct the group SL(n+1,F) consisting of (n+1) x (n+1) matrices with
+concoct the group \mathrm{SL}(n+1,F) consisting of (n+1) x (n+1) matrices with
 entries in F and determinant equal to 1. This group acts on the
 projective $n$-space FP^n - the space of all 1-dimensional subspaces of
 the vector space F^n+1^. Just as in the complex case, we can talk about
 points, lines, planes and the like in FP^n, and also incidence
 relations like "this point lies on that line". These relations satisfy
 the axioms of projective geometry, as explained in
-["Week 162"](#week162). The group SL(n+1,F) acts on all these
+["Week 162"](#week162). The group \mathrm{SL}(n+1,F) acts on all these
 geometrical figures in a way that preserves the incidence relations...
 so we say it's a symmetry group for this particular projective
 geometry!
 
-(If you prefer the group PSL(n+1,F), that's fine too; maybe even
+(If you prefer the group \mathrm{PSL}(n+1,F), that's fine too; maybe even
 better. They have the same Lie algebra so it's not all that big a
 deal.)
 
@@ -205,7 +205,7 @@ of formulas that work for other values of q for simple algebraic groups
 over F~q~ and their flag varieties, apply when q = 1 to Coxeter groups
 and their Coxeter complexes! I gave the primordial example in
 ["Week 184"](#week184), which comes from the Dynkin diagram A~n~.
-The number of points in the flag variety of the group SL(n+1,F~q~) is
+The number of points in the flag variety of the group \mathrm{SL}(n+1,F~q~) is
 the q-factorial
 
     [n+1]! = [1] [2] ... [n+1]
@@ -263,7 +263,7 @@ two distinct lines are incident to a unique point! This is
 characteristic of projective plane geometry. And that's just right,
 because A_2 is the Dynkin diagram corresponding to projective plane
 geometry. If we do projective plane geometry over a field F, the group
-SL(3,F) acts as symmetries. But for this puny little geometry, the
+\mathrm{SL}(3,F) acts as symmetries. But for this puny little geometry, the
 *Coxeter group* acts as symmetries. This is the symmetry group of the
 triangle, which is the group of permutations of its three vertices.
 
@@ -272,11 +272,11 @@ that its Coxeter group consists of permutations of n+1 things: the
 vertices of an $n$-simplex. The Coxeter complex would be gotten by
 barycentrically subdividing the surface of this $n$-simplex. And the
 Coxeter group would act on a puny little geometry built from the Coxeter
-complex, very much as SL(n+1,F) acts on the projective space FP^n.
+complex, very much as \mathrm{SL}(n+1,F) acts on the projective space FP^n.
 
 As I explained in ["Week 184"](#week184) and
 ["Week 185"](#week185), this relation between permutation groups
-and the groups SL(n+1,F) is just the tip of a very big iceberg. What
+and the groups \mathrm{SL}(n+1,F) is just the tip of a very big iceberg. What
 I'm saying now is that a similar story works for all the other Dynkin
 diagrams, too!
 

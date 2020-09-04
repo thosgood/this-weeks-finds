@@ -152,9 +152,9 @@ three big problems:
 
 > A) The Barrett-Crane model used spin networks of a different kind
 > from the usual ones in loop quantum gravity. Instead of spin networks
-> with edges labelled by unitary representations of SU(2) (the double
+> with edges labelled by unitary representations of \mathrm{SU}(2) (the double
 > cover of the rotation group), it used unitary representations of
-> SL(2,C) (the double cover of the Lorentz group). This is because it's
+> \mathrm{SL}(2,\mathbb{C}) (the double cover of the Lorentz group). This is because it's
 > all about *spacetime*, while loop quantum gravity focuses on *space*.
 > And instead of using spin networks with vertices labelled by arbitrary
 > intertwiners, it only used a special intertwiner called the
@@ -221,11 +221,11 @@ If we triangulate spacetime and carry out a spin foam quantization of
 this theory - which is a bit like doing lattice gauge theory - we can
 show (in a rough-and-ready physicist's way) that the partition function
 of the quantum theory is computed as a sum over spin foams where the
-spin foams are labelled by certain special representations of SL(2,C).
+spin foams are labelled by certain special representations of \mathrm{SL}(2,\mathbb{C}).
 
 Physicists don't learn the unitary representations of the Lorentz group
 in school the way they do for the Poincare group. But the unitary
-representations of the Lorentz group - or its double cover SL(2,C) - are
+representations of the Lorentz group - or its double cover \mathrm{SL}(2,\mathbb{C}) - are
 very nice. Except for the trivial representation they're all
 infinite-dimensional, which is a bit scary at first... but there's a
 bunch called the "principal series" indexed by a spin j =
@@ -239,20 +239,20 @@ online explanation I can find is this:
 
 It may be better to read some of the many books cited there.
 
-Anyway, the special representations of SL(2,C) that show up in the EPRL
+Anyway, the special representations of \mathrm{SL}(2,\mathbb{C}) that show up in the EPRL
 model are those with
 
 k = γ j
 
 This is beautiful because there's one for each spin. So, the category
 of these representations and their direct sums is equivalent to the
-category of finite-dimensional unitary representations of SU(2)!
+category of finite-dimensional unitary representations of \mathrm{SU}(2)!
 
 This is how the EPRL model gets around problem A) listed above. Spin
 networks in this new model are nicely compatible with spin networks in
 loop quantum gravity, because you can think of their edges *either* as
-labelled by special representations of SL(2,C), *or* as labelled by
-arbitrary representations of SU(2). The first is the "spacetime" or
+labelled by special representations of \mathrm{SL}(2,\mathbb{C}), *or* as labelled by
+arbitrary representations of \mathrm{SU}(2). The first is the "spacetime" or
 Lagrangian viewpoint, the second is the "space" or Hamiltonian
 viewpoint.
 

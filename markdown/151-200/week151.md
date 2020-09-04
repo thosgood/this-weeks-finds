@@ -160,22 +160,22 @@ So: let's take A to be the integers, Z. As I said in
 
 K(Z,0) = Z,
 
-K(Z,1) = U(1),
+K(Z,1) = \mathrm{U}(1),
 
-where U(1) is the group of "phases" or unit complex numbers, and
+where \mathrm{U}(1) is the group of "phases" or unit complex numbers, and
 
-K(Z,2) = CP^\infty^
+K(Z,2) = \mathbb{CP}^\infty
 
-where CP^\infty^ is infinite-dimensional complex projective space. There are
+where \mathbb{CP}^\infty is infinite-dimensional complex projective space. There are
 a couple of slightly different versions of this. Topologists like to
-start with the direct limit of the spaces C^n, which they call C^\infty^.
+start with the direct limit of the spaces C^n, which they call C^\infty.
 Then they take the space of all 1-dimensional subspaces and call that
-CP^\infty^. Mathematical physicists prefer to start with a Hilbert space of
+\mathbb{CP}^\infty. Mathematical physicists prefer to start with a Hilbert space of
 countable dimension. Then they take the space of unit vectors modulo
 phase. Both these versions are equally good models of K(Z,2). The first
 one is a lean, stripped-down version of the second.
 
-Now U(1) is very important in quantum theory, and so are unit vectors
+Now \mathrm{U}(1) is very important in quantum theory, and so are unit vectors
 modulo phase in a Hilbert space - physicists call these "pure states".
 So something cool is going on here. For some mysterious reason, it looks
 like K(Z,n)'s are important quantum physics! This is especially
@@ -187,7 +187,7 @@ why the complex numbers are important in quantum mechanics.
 Why are K(Z,n)'s connected to quantum theory? I don't really know. But
 we can get some clues by asking some more specific questions.
 
-First of all, why is K(Z,2) the same as CP^\infty^? In
+First of all, why is K(Z,2) the same as \mathbb{CP}^\infty? In
 ["Week 149"](#week149) I just asserted this without proof. That's
 one of the fun things I'm allowed to do in this column. But let me
 sketch why it's true.
@@ -231,35 +231,35 @@ homotopy equivalence! So LX is really just G!! So X is just BG!!!
 In short: if we have a space X with a principal G-bundle P over it, and
 P is contractible, X must be BG. \[2\]
 
-Now let's use this fact to show that CP^\infty^ is K(Z,2). Remember that by
+Now let's use this fact to show that \mathbb{CP}^\infty is K(Z,2). Remember that by
 our recursive definition,
 
-K(Z,2) = B(K(Z,1)) = B(U(1))
+K(Z,2) = B(K(Z,1)) = B(\mathrm{U}(1))
 
-so to show that CP^\infty^ is K(Z,2), we just need to find a principal
-U(1)-bundle over it with a contractible total space.
+so to show that \mathbb{CP}^\infty is K(Z,2), we just need to find a principal
+\mathrm{U}(1)-bundle over it with a contractible total space.
 
 In ["Week 149"](#week149) we discussed a complex line bundle over
-CP^\infty^ called the "universal complex line bundle". If you take the
+\mathbb{CP}^\infty called the "universal complex line bundle". If you take the
 space of unit vectors in a complex line bundle you get a principal
-U(1)-bundle. So let's do this to the universal complex line bundle.
-What do we get? We get a principal U(1)-bundle like this:
+\mathrm{U}(1)-bundle. So let's do this to the universal complex line bundle.
+What do we get? We get a principal \mathrm{U}(1)-bundle like this:
 
-S^\infty^ \to CP^\infty^
+S^\infty \to \mathbb{CP}^\infty
 
-Being a mathematical physicist, I'm using S^\infty^ here to stand for the
+Being a mathematical physicist, I'm using S^\infty here to stand for the
 unit sphere in some countable-dimensional Hilbert space, and the map
 sends each unit vector to the corresponding pure state, or unit vector
 mod phase. Since there's a circle of unit vectors for each pure state,
-this is indeed a principal U(1)-bundle. But now for the cool part: the
+this is indeed a principal \mathrm{U}(1)-bundle. But now for the cool part: the
 unit sphere in an infinite-dimensional Hilbert space is contractible! So
-we've got a principal U(1)-bundle with a contractible total space
-sitting over CP^\infty^, proving that CP^\infty^ is K(Z,2). Even better, the
+we've got a principal \mathrm{U}(1)-bundle with a contractible total space
+sitting over \mathbb{CP}^\infty, proving that \mathbb{CP}^\infty is K(Z,2). Even better, the
 bundle
 
-S^\infty^ \to CP^\infty^
+S^\infty \to \mathbb{CP}^\infty
 
-is the universal principal U(1)-bundle.
+is the universal principal \mathrm{U}(1)-bundle.
 
 I can't resist explaining why the unit sphere in an
 infinite-dimensional Hilbert space is contractible. It seems very odd
@@ -278,35 +278,35 @@ the constant function 1.
 
 Cute, huh?
 
-Next question: how does CP^\infty^ become an abelian topological group?
+Next question: how does \mathbb{CP}^\infty become an abelian topological group?
 There's a very pretty answer. Consider the space of rational functions
 of a single complex variable. This is a infinite-dimensional complex
 vector space, and there's a natural way to give it the topology of
-C^\infty^. This gives us a nice way to think of CP^\infty^: it's just the
+C^\infty. This gives us a nice way to think of \mathbb{CP}^\infty: it's just the
 *nonzero* rational functions modulo multiplication by constants.
 
 But nonzero rational functions form an abelian group under
 multiplication! And this is still true when we mod out by constant
-factors! So CP^\infty^ becomes an abelian group - and in fact an abelian
+factors! So \mathbb{CP}^\infty becomes an abelian group - and in fact an abelian
 topological group.
 
-We can visualize CP^\infty^ quite easily this way. A rational function of a
+We can visualize \mathbb{CP}^\infty quite easily this way. A rational function of a
 single complex variable has a bunch of zeros and poles - think of them
 as points on the Riemann sphere. We should really stick an integer at
 each of these points: a positive integer at each zero, and a negative
 integer at each pole, to tell us the order of that zero or pole. This
 gives enough information to completely specify the rational function up
-to a constant factor. So a point in CP^\infty^ is the same as a finite set of
+to a constant factor. So a point in \mathbb{CP}^\infty is the same as a finite set of
 points on the sphere labelled by integers - which must add up to zero.
 
-Of course, we have to get the right topology on CP^\infty^. As we move our
-point in CP^\infty^ around in a continuous way, the corresponding points on
+Of course, we have to get the right topology on \mathbb{CP}^\infty. As we move our
+point in \mathbb{CP}^\infty around in a continuous way, the corresponding points on
 the sphere all move around continuously, like a swarm of flies... but
 when points collide, their numbers add! For example, when a point
 labelled by the number 7 collides with a point labelled by the number
 -3, it turns into a point labelled by the number 7 - 3 = 4.
 
-In the lingo of physics, we've got a picture of points in CP^\infty^ as
+In the lingo of physics, we've got a picture of points in \mathbb{CP}^\infty as
 "collections of particles and antiparticles on the sphere". The
 integer at any point on the sphere tells us the number of particles
 sitting there - but if it's negative, it means we've got
@@ -331,19 +331,19 @@ particles, Topology 14 (1975), 91-107.
 
 Now let me mention a different picture of K(Z,2), that's also nice, and
 also related to quantum theory. Take any countable-dimensional Hilbert
-space H and let U(H) be the group of unitary operators on H. Just like
+space H and let \mathrm{U}(H) be the group of unitary operators on H. Just like
 the unit sphere in this Hilbert space is contractible, it turns out that
-U(H) is contractible if we give it the norm topology or the strong
+\mathrm{U}(H) is contractible if we give it the norm topology or the strong
 topology.
 
-Anyway, now let PU(H) be the "projective unitary group" of H, meaning
+Anyway, now let \mathrm{PU}(H) be the "projective unitary group" of H, meaning
 the group of unitary operators modulo phase. There's an obvious map
 
-U(H) \to PU(H)
+\mathrm{U}(H) \to \mathrm{PU}(H)
 
-sending a circle's worth of points to each point in PU(H). It's easy
-to check that this is a principal U(1)-bundle. Since the total space
-U(H) is contractible, it follows that PU(H) is K(Z,2)!
+sending a circle's worth of points to each point in \mathrm{PU}(H). It's easy
+to check that this is a principal \mathrm{U}(1)-bundle. Since the total space
+\mathrm{U}(H) is contractible, it follows that \mathrm{PU}(H) is K(Z,2)!
 
 This give a *nonabelian* group structure on K(Z,2), which may seem kind
 of weird, given that we just made it into an *abelian* group a minute
@@ -352,7 +352,7 @@ very strong sense, so it's just as good as abelian for the purposes of
 homotopy theory.
 
 Anyway, some people in Australia have figured out an extra trick you can
-do with this PU(H) group:
+do with this \mathrm{PU}(H) group:
 
 4) Alan L. Carey, Diarmuid Crowley and Michael K. Murray, Principal
 bundles and the Dixmier-Douady class, Comm. Math. Physics 193 (1998)
@@ -369,27 +369,27 @@ inner product:
 
 <A,B> = tr(AB*)
 
-Let's call this Hilbert space X. U(H) acts on X by conjugation, and
-this gives an action of PU(H) on X, because phases commute with
-everything. This in turn gives an action of PU(H) on U(X)! Is your brain
-melting yet? Anyway, it turns out that this makes U(X) into the total
-space of a principal PU(H)-bundle:
+Let's call this Hilbert space X. \mathrm{U}(H) acts on X by conjugation, and
+this gives an action of \mathrm{PU}(H) on X, because phases commute with
+everything. This in turn gives an action of \mathrm{PU}(H) on \mathrm{U}(X)! Is your brain
+melting yet? Anyway, it turns out that this makes \mathrm{U}(X) into the total
+space of a principal \mathrm{PU}(H)-bundle:
 
-PU(H) \to U(X) \to U(X)/PU(H)
+\mathrm{PU}(H) \to \mathrm{U}(X) \to \mathrm{U}(X)/\mathrm{PU}(H)
 
-But X is a countable-dimensional Hilbert space, so U(X) is contractible,
-so this is the *universal* principal PU(H)-bundle. And as we've seen,
+But X is a countable-dimensional Hilbert space, so \mathrm{U}(X) is contractible,
+so this is the *universal* principal \mathrm{PU}(H)-bundle. And as we've seen,
 this means that
 
-U(X)/PU(H) = B(PU(H))
+\mathrm{U}(X)/\mathrm{PU}(H) = B(\mathrm{PU}(H))
 
 but we just saw that
 
-PU(H) = K(Z,2)
+\mathrm{PU}(H) = K(Z,2)
 
 so
 
-U(X)/PU(H) = B(PU(H)) = B(K(Z,2)) = K(Z,3) !
+\mathrm{U}(X)/\mathrm{PU}(H) = B(\mathrm{PU}(H)) = B(K(Z,2)) = K(Z,3) !
 
 In ["Week 149"](#week149), I said I'd like K(Z,3) to be some sort
 of infinite- dimensional manifold closely related to quantum physics.
@@ -400,11 +400,11 @@ structure* on K(Z,3) obvious. But it's definitely a big step towards
 understanding what K(Z,n)'s have to do with quantum theory.
 
 While I'm at it, I should report some other things people have told me
-via email. If you ponder what I've said, you can see that CP^\infty^ has 2nd
+via email. If you ponder what I've said, you can see that \mathbb{CP}^\infty has 2nd
 homology equal to Z, and that the generator of this homology group - the
 "universal cycle" - is given geometrically by the obvious way of
-sticking the sphere CP^1 inside CP^\infty^. This is nice because CP^1 is
-actually a submanifold of the manifold CP^\infty^. But according to email
+sticking the sphere \mathbb{CP}^1 inside \mathbb{CP}^\infty. This is nice because \mathbb{CP}^1 is
+actually a submanifold of the manifold \mathbb{CP}^\infty. But according to email
 from Mark Goresky, Rene Thom has shown that for n > 6, we cannot make
 K(Z,n) into a manifold in such a way that the universal cycle is
 represented by a submanifold!
@@ -428,7 +428,7 @@ abstract nonsense, so you'll probably like gerbes. Very roughly
 speaking, a gerbe is a categorified version of a principal bundle!
 Actually it's a categorified version of a sheaf, but sometimes we can
 think of it as analogous to the sheaf of sections of a bundle. And just
-as K(Z,2) is the classifying space for U(1) bundles, K(Z,3) is the
+as K(Z,2) is the classifying space for \mathrm{U}(1) bundles, K(Z,3) is the
 classifying space for a certain sort of gerbe!
 
 I sort of explained how this works in ["Week 25"](#week25), but you

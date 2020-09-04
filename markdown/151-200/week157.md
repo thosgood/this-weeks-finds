@@ -23,9 +23,9 @@ group representations, but for a more limited class of groups: the
 As with composers of music, there's no precise list of groups that
 count as "classical". But in general, a classical group should consist
 of linear transformations that preserve some nice geometrical structure
-on a vector space. A good example is SU(N), the group of all linear
+on a vector space. A good example is \mathrm{SU}(N), the group of all linear
 transformations of an N-dimensional complex vector space that preserve
-an inner product and volume form. In less elevated language, SU(N) is
+an inner product and volume form. In less elevated language, \mathrm{SU}(N) is
 the group of all N x N unitary matrices with determinant 1.
 
 The symmetric group S~n~ may also be considered an honorary classical
@@ -38,7 +38,7 @@ things, which at first seem quite different in flavor:
 
 -   conjugacy classes in S~n~
 -   irreducible representations of S~n~
--   irreducible representations of SU(N)
+-   irreducible representations of \mathrm{SU}(N)
 
 Let me sketch how this goes, and then say a bit about the *other* things
 you can do with Young diagrams.
@@ -217,13 +217,13 @@ so S_3 has 3 minimal central idempotents and thus 3 irreps, confirming
 something I already said.
 
 There is a lot more to say about this, but now I want to switch gears
-and tell you how representations of SU(N) are classified by Young
-diagrams. Since SU(N) consists of N x N matrices, it has an obvious
+and tell you how representations of \mathrm{SU}(N) are classified by Young
+diagrams. Since \mathrm{SU}(N) consists of N x N matrices, it has an obvious
 representation on the vector space C\^N, which people call the
 "fundamental" representation. This is an irrep. If we're trying to
-cook up irreps of SU(N), this is an obvious place to start.
+cook up irreps of \mathrm{SU}(N), this is an obvious place to start.
 
-How can we get a bunch of representations of SU(N) starting from the
+How can we get a bunch of representations of \mathrm{SU}(N) starting from the
 fundamental representation? One way is to take the fundamental
 representation and tensor it with itself a bunch of times, say n times:
 
@@ -249,53 +249,53 @@ Here's how it works. The space
           V =  C^N tensor C^N tensor ... tensor C^N tensor C^N
                |------------------n copies-------------------|
 
-is not only a representation of SU(N); it's also a representation of
+is not only a representation of \mathrm{SU}(N); it's also a representation of
 S~n~. And the actions of these two groups commute! This means that we
 can chop up V into subspaces using the minimal central idempotents in
-S~n~, and each of these subspaces will be a representation of SU(N).
+S~n~, and each of these subspaces will be a representation of \mathrm{SU}(N).
 
 This much is obvious. The really cool part is that all these subspaces
-are *irreducible* representations of SU(N). Even better, we get *all*
-the irreps of SU(N) by this process, as we let n vary.
+are *irreducible* representations of \mathrm{SU}(N). Even better, we get *all*
+the irreps of \mathrm{SU}(N) by this process, as we let n vary.
 
-In other words, any Young diagram gives us an irrep of SU(N) consisting
+In other words, any Young diagram gives us an irrep of \mathrm{SU}(N) consisting
 of tensors that transform in a certain way under permutation of indices,
 and we get all irreps this way.
 
 If you think about it, some of these irreps will be a bit silly. If we
 have a Young diagram with more than N rows, we'll be antisymmetrizing
 over more than N indices, which gives a zero-dimensional representation
-of SU(N). We can ignore these.
+of \mathrm{SU}(N). We can ignore these.
 
 Also, if we have a Young diagram that has just one column and exactly N
 rows, we'll get the space of completely antisymmetric tensors with N
-indices. This is a 1-dimensional space. Applying a matrix in SU(N) to a
+indices. This is a 1-dimensional space. Applying a matrix in \mathrm{SU}(N) to a
 tensor of this sort just multiplies it by the determinant of that
-matrix, which is 1 by the definition of SU(N). So this Young diagram
-gives the trivial representation of SU(N). That's not too silly - the
+matrix, which is 1 by the definition of \mathrm{SU}(N). So this Young diagram
+gives the trivial representation of \mathrm{SU}(N). That's not too silly - the
 trivial representation is important, in its own trivial sort of way. But
 notice: the trivial representation is already described by the Young
 diagram with *no* boxes! So it's redundant to also consider the Young
 diagram with one column and N rows.
 
 By the same logic, we can remove any column with exactly N rows from a
-Young diagram without changing the rep of SU(N) that we get.
+Young diagram without changing the rep of \mathrm{SU}(N) that we get.
 
-So here's the bottom line: irreps of SU(N) correspond in a 1-1 way with
+So here's the bottom line: irreps of \mathrm{SU}(N) correspond in a 1-1 way with
 Young diagrams having fewer than N rows.
 
 Okay, I've shown you how Young diagrams classify conjugacy classes of
-S~n~, irreps of S~n~, and irreps of SU(N). But this is really just the
+S~n~, irreps of S~n~, and irreps of \mathrm{SU}(N). But this is really just the
 tip of the iceberg!
 
 First of all, we can use Young diagrams packed with numbers, called
 "Young tableaux", to do all sorts of calculations involving irreps of
-S~n~ and SU(N). Say we tensor two irreps and want to decompose it as a
+S~n~ and \mathrm{SU}(N). Say we tensor two irreps and want to decompose it as a
 direct sum of irreps: how do we do it? Well, we play a little game with
 Young tableaux and out pops the answer. One relevant buzzword is
 "Littlewood-Richardson rules". Or say we have an irrep of S~n~ and
 want to know how it decomposes into irreps when we restrict it to a
-subgroup like S~n-1~. Or the same for SU(N) and SU(N-1). How do we do
+subgroup like S~n-1~. Or the same for \mathrm{SU}(N) and \mathrm{SU}(N-1). How do we do
 this? More messing with Young tableaux. Here one relevant buzzword is
 "branching rules".
 
@@ -307,12 +307,12 @@ have *not*. But learning even a little is fun, so don't be *too*
 scared.
 
 Second of all, Young diagrams are also good for studying the
-representations of other classical groups, notably GL(N), SL(N), O(N),
-SO(N), U(N) and Sp(N). All these groups have an obvious "fundamental
+representations of other classical groups, notably \mathrm{GL}(N), \mathrm{SL}(N), \mathrm{O}(N),
+\mathrm{SO}(N), \mathrm{U}(N) and Sp(N). All these groups have an obvious "fundamental
 representation", and we can cook up lots of reps by taking the nth
 tensor power of the fundamental representation and hitting it with
 minimal central idempotents in C\[S~n~\]. The story I just told you for
-SU(N) can be repeated with slight or not-so-slight variations for all
+\mathrm{SU}(N) can be repeated with slight or not-so-slight variations for all
 these other groups.
 
 Third, we can "q-deform" the whole story, replacing any one of these
@@ -357,7 +357,7 @@ Cambridge, 1994.
 
 Both these books, but especially the latter, describe applications of
 Young diagrams to particle physics, like Gell-Mann's famous
-"eight-fold way", which was based on positing an SU(3) symmetry
+"eight-fold way", which was based on positing an \mathrm{SU}(3) symmetry
 between the up, down and strange quarks.
 
 Then there are more advanced texts, for when your addiction to Young
@@ -398,7 +398,7 @@ available as [math.AG/9908012](http://arXiv.org/abs/math.AG/9908012).
 
 as well as Allen and Terry's papers on the subject:
 
-9) Allen Knutson and Terence Tao, The honeycomb model of GL(n) tensor
+9) Allen Knutson and Terence Tao, The honeycomb model of \mathrm{GL}(n) tensor
 products I: the saturation conjecture, preprint available as
 [math.RT/9807160](http://arXiv.org/abs/math.RT/9807160)
 

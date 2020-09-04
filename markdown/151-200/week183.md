@@ -252,7 +252,7 @@ gravity, available as
 [gr-qc/0203018](http://xxx.lanl.gov/abs/gr-qc/0203018).
 
 When we make the cosmological constant nonzero in 3d quantum gravity we
-must replace the group SU(2) by the quantum group SU~q~(2). Based on
+must replace the group \mathrm{SU}(2) by the quantum group SU~q~(2). Based on
 this, one can argue that quantum groups are misnamed - they should
 really be called "cosmological groups". Another way to put it is this:
 ordinary groups are already perfectly sufficient for most of quantum

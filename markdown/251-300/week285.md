@@ -328,16 +328,16 @@ Atiyah-Segal completion theorem in twisted
 K-theory](ams_2009/Lahtinen_AMS_UCR_2009.mov)".
 
 Twisted K-theory is fascinating to folks who like categorification,
-because it involves "U(1) gerbes", which are categorified U(1)
-bundles. Just as a U(1) bundle over a space can be defined by chopping a
-space into open sets U_i and giving U(1)-valued "transition
-functions" on the intersections U_i ∩ U~j~, a U(1) gerbe over a space
+because it involves "\mathrm{U}(1) gerbes", which are categorified \mathrm{U}(1)
+bundles. Just as a \mathrm{U}(1) bundle over a space can be defined by chopping a
+space into open sets U_i and giving \mathrm{U}(1)-valued "transition
+functions" on the intersections U_i ∩ U~j~, a \mathrm{U}(1) gerbe over a space
 can be defined by chopping a space into open sets and giving transition
 functions
 
-h~ijk~ : U_i ∩ U~j~ ∩ U~k~ \to U(1)
+h~ijk~ : U_i ∩ U~j~ ∩ U~k~ \to \mathrm{U}(1)
 
-If you have a U(1) gerbe, you can define "twisted vector bundles".
+If you have a \mathrm{U}(1) gerbe, you can define "twisted vector bundles".
 These are like vector bundles, but where the transition functions g~ij~
 satisfy the usual cocycle conditions only up to a phase, given by
 h~ijk~. In other words, instead of the famous formula
@@ -356,7 +356,7 @@ the set of isomorphism classes of vector bundles. Then take formal
 linear combinations of these to get an abelian group, and then impose
 the equivalence relation
 
-\[M ⊕ N\] = \[M\] + \[N\]
+\[M \oplus  N\] = \[M\] + \[N\]
 
 The result is an abelian group K(X) called the "K-theory" of X. And in
 fact it's a ring, since we can also take tensor products of vector
@@ -403,17 +403,17 @@ His talk was a great introduction to some things I know and love, and
 some others that I'd never quite understood before... but loved at
 first sight now.
 
-U(1) bundles over a space are classified by elements of its second
-cohomology with integer coefficients. U(1) gerbes are similarly
+\mathrm{U}(1) bundles over a space are classified by elements of its second
+cohomology with integer coefficients. \mathrm{U}(1) gerbes are similarly
 classified by the third integral cohomology group. This story keeps on
-going! U(1) 2-gerbes are classified by the fourth cohomology, and so on.
+going! \mathrm{U}(1) 2-gerbes are classified by the fourth cohomology, and so on.
 If you don't know what a 2-gerbe is, don't panic: just go back to my
 description of bundles and gerbes, and you can guess how the story
 continues.
 
 But when M is a manifold, there's a nice way to get an element of its
 fourth integral cohomology group! If it's an oriented manifold, its
-oriented frame bundle is a principal SO(n) bundle. This has
+oriented frame bundle is a principal \mathrm{SO}(n) bundle. This has
 "characteristic classes"; the first interesting one is the "first
 Pontryagin class", which is an element in the fourth integral
 cohomology group of M. You can get a representative of this in deRham

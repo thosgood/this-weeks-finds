@@ -240,8 +240,8 @@ in the theory of Lie groups....
 **B)** Lie groups are fundamental throughout math and physics: they're
 groups of continuous symmetries, like rotations. The nicest of the lot
 are the semisimple Lie groups. Some familiar examples are the group of
-rotations in $n$-dimensional space, which is called SO(n), and the group
-of unitary matrices with determinant 1, which is called SU(n). There are
+rotations in $n$-dimensional space, which is called \mathrm{SO}(n), and the group
+of unitary matrices with determinant 1, which is called \mathrm{SU}(n). There are
 more, but people know what they all are. They're classified by Dynkin
 diagrams!
 
@@ -262,10 +262,10 @@ such diagrams.
 
 Here's how it goes:
 
--   The diagram A~n~ gives the compact Lie group SU(n+1), consisting of
+-   The diagram A~n~ gives the compact Lie group \mathrm{SU}(n+1), consisting of
     (n+1) \times (n+1) unitary matrices with determinant 1. It's the
     isometry group of complex projective $n$-space.
--   The diagram D~n~ gives the compact Lie group SO(2n), consisting of
+-   The diagram D~n~ gives the compact Lie group \mathrm{SO}(2n), consisting of
     2n \times 2n orthogonal matrices with determinant 1. It's the isometry
     group of real projective (2n)-space.
 -   The diagram E~6~ gives a 78-dimensional compact Lie group that
@@ -280,7 +280,7 @@ Here's how it goes:
 
 In short, two regular series and three exotic weirdos.
 
-You may ask where the rotation groups SO(n) with n odd went! Well, these
+You may ask where the rotation groups \mathrm{SO}(n) with n odd went! Well, these
 correspond to fancier Dynkin diagrams that aren't simply laced, like
 this:
 
@@ -300,13 +300,13 @@ that are clearly related to lattices. But now things get downright
 spooky....
 
 **C)** Take a Platonic solid and look at its group of rotational
-symmetries. You get a finite subgroup of the 3d rotation group SO(3).
-But in general, finite subgroups of SO(3) are classified by ADE Dynkin
+symmetries. You get a finite subgroup of the 3d rotation group \mathrm{SO}(3).
+But in general, finite subgroups of \mathrm{SO}(3) are classified by ADE Dynkin
 diagrams!
 
 So, Platonic solids turn out to fit into the game we're playing here!
 
-First I'll say which diagram corresponds to which subgroup of SO(3).
+First I'll say which diagram corresponds to which subgroup of \mathrm{SO}(3).
 Then I'll explain how the correspondence works:
 
 -   The diagram A~n~ corresponds to the group of obvious rotational
@@ -333,27 +333,27 @@ Then I'll explain how the correspondence works:
 So, the exceptional Lie groups E~6~, E~7~ and E~8~ correspond to
 Platonic solids in a sneaky way.
 
-To understand what's going on here, first we need to switch from SO(3)
-to SU(2). The group SU(2) is used to describe rotations in quantum
-mechanics: it's the double cover of the rotation group SO(3).
+To understand what's going on here, first we need to switch from \mathrm{SO}(3)
+to \mathrm{SU}(2). The group \mathrm{SU}(2) is used to describe rotations in quantum
+mechanics: it's the double cover of the rotation group \mathrm{SO}(3).
 
-It's really finite subgroups of SU(2) that are classified by ADE Dynkin
+It's really finite subgroups of \mathrm{SU}(2) that are classified by ADE Dynkin
 diagrams! It just so happens that these correspond, in a slightly
-slippery way, to finite subgroups of SO(3).
+slippery way, to finite subgroups of \mathrm{SO}(3).
 
-You'll see how if I list the finite subgroups of SU(2):
+You'll see how if I list the finite subgroups of \mathrm{SU}(2):
 
--   The diagram A~n~ corresponds to the cyclic subgroup Z/n of SU(2).
-    This double covers a cyclic subgroup of SO(3) when n is even.
--   The diagram D~n~ corresponds to a subgroup of SU(2) that double
+-   The diagram A~n~ corresponds to the cyclic subgroup Z/n of \mathrm{SU}(2).
+    This double covers a cyclic subgroup of \mathrm{SO}(3) when n is even.
+-   The diagram D~n~ corresponds to a subgroup of \mathrm{SU}(2) that double
     covers the dihedral group D~n~.
--   The diagram E~6~ corresponds to a subgroup of SU(2) that double
+-   The diagram E~6~ corresponds to a subgroup of \mathrm{SU}(2) that double
     covers the rotational symmetries of the tetrahedron. This subgroup
     has 24 elements and it's called the "binary tetrahedral group".
--   The diagram E~7~ corresponds to a subgroup of SU(2) that double
+-   The diagram E~7~ corresponds to a subgroup of \mathrm{SU}(2) that double
     covers the rotational symmetries of the octahedron. This subgroup
     has 48 elements and it's called the "binary octahedral group".
--   The diagram E~8~ corresponds to a subgroup of SU(2) that double
+-   The diagram E~8~ corresponds to a subgroup of \mathrm{SU}(2) that double
     covers the rotational symmetries of the icosahedron. This subgroup
     has 120 elements and it's called the "binary icosahedral group".
 
@@ -386,15 +386,15 @@ the invariant functions form a subfield C(w) where w is Klein's
 icosahedral function. The Galois group of the little field in the big
 one is the icosahedral group.
 
-The same kind of thing works for the other finite subgroups of SO(3),
+The same kind of thing works for the other finite subgroups of \mathrm{SO}(3),
 except of course for the connection to the quintic equation.
 
 But, it's actually even better to think about finite subgroups of
-SU(2), since SU(2) acts on C^2, and when we *projectivize* C^2 we get
-SO(3) acting on the Riemann sphere. This viewpoint fits more squarely
+\mathrm{SU}(2), since \mathrm{SU}(2) acts on C^2, and when we *projectivize* C^2 we get
+\mathrm{SO}(3) acting on the Riemann sphere. This viewpoint fits more squarely
 into the worldview of algebraic geometry.
 
-If we take the quotient of C^2 by a finite subgroup G of SU(2), we
+If we take the quotient of C^2 by a finite subgroup G of \mathrm{SU}(2), we
 don't get a smooth manifold: the quotient has a singularity at 0. But
 we can "resolve" the singularity, finding a smooth complex manifold
 with a holomorphic map
@@ -418,7 +418,7 @@ when we consider central extensions of loop groups.
 
 That's *one* way the correspondence works. Another way, discovered by
 McKay, is to draw a dot for each irrep of G. There's always a
-2-dimensional representation of G coming from the action of SU(2) on
+2-dimensional representation of G coming from the action of \mathrm{SU}(2) on
 C^2. Let's just call this irrep C^2. Then, draw an edge from the dot
 R to the dot S whenever the irrep S shows up in the rep R \otimes C^2. You
 get the same extended Dynkin diagram as before! The special extra dot in
@@ -462,11 +462,11 @@ correspondence works:
     z^2.
 -   The diagram E~7~ corresponds to the critical point of x^3 y +
     y^3 + z^2.
--   The diagram E~8~ corresponds to the critical point of x^5^ + y^3 +
+-   The diagram E~8~ corresponds to the critical point of x^5 + y^3 +
     z^2.
 
 Here's how the correspondence works. For each of our Dynkin diagrams we
-have a finite subgroup of SU(2), thanks to item C). This subgroup acts
+have a finite subgroup of \mathrm{SU}(2), thanks to item C). This subgroup acts
 on the ring of polynomials on C^2, so we can form the subring of
 invariant polynomials. This turns out to be generated by three
 polynomials that we will arbitrarily call x, y, and z. But, they satisfy
@@ -616,7 +616,7 @@ And, I've just described *some* of the black magic!
 For example, you'll notice I portrayed the Hall algebra H(A) as a kind
 of evil twin of the more familiar Grothendieck group K(A). They have
 some funny relations. For example, if you take the minimal resolution of
-C^2/G where G is a finite subgroup of SU(2), you get a variety whose
+C^2/G where G is a finite subgroup of \mathrm{SU}(2), you get a variety whose
 K-theory (as defined above) is isomorphic to the representation ring of
 G! This was shown here:
 
@@ -680,7 +680,7 @@ Bourbaki, 52eme annee, November 1999, no. 867, to appear in Asterisque
 [math.AG/9911165](http://arxiv.org/abs/math.AG/9911165).
 
 Here you'll also see some material about *generalizations* of the McKay
-correspondence. For example, if we take a finite subgroup G of SU(3), we
+correspondence. For example, if we take a finite subgroup G of \mathrm{SU}(3), we
 get a quotient C^3/G, which has singularities. If we take a "crepant"
 resolution of
 
@@ -792,7 +792,7 @@ David Rusin wrote:
 >
 > which are 4-dimensional complex varieties with isolated critical
 > points at the origin. So apart from the origin the equation describes
-> an 8-dimensional manifold and the intersection with the sphere in C^5^
+> an 8-dimensional manifold and the intersection with the sphere in C^5
 > = R^10^ is a 7-dimensional manifold. Brieskorn showed:
 >
 > 1.  For every k, these manifolds M~k~ are homeomorphic to the sphere

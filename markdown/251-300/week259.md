@@ -340,7 +340,7 @@ an analogy like this:
 
      $n$-element set              $(n-1)$-dimensional projective space over Fq
      integer n                  q-integer [n]
-     permutation groups Sn      projective special linear group PSL(n,Fq)
+     permutation groups Sn      projective special linear group \mathrm{PSL}(n,Fq)
      factorial n!               q-factorial [n]!
 
 This opens up lots of questions. For example, if projective spaces over
@@ -435,14 +435,14 @@ space called the
 Spec(R). This space has a topology, so we can also talk about functions
 that are defined, not on all of Spec(R), but just *part* of Spec(R) -
 namely some open set. Indeed, for each open set U in Spec(R), there's a
-commutative ring O(U) consisting of those functions defined on U. These
+commutative ring \mathrm{O}(U) consisting of those functions defined on U. These
 commutative rings are related in nice ways:
 
 1.  If the open set V is smaller than U, we can restrict functions from
-    U to V, getting a ring homomorphism O(U) \to U(V)
+    U to V, getting a ring homomorphism \mathrm{O}(U) \to \mathrm{U}(V)
 2.  If U is covered by a bunch of open sets U_i, and we have a function
-    f_i in each O(U_i), such that f_i and f~j~ agree when restricted
-    to the set U_i ∩ U~j~, then there's a unique function f in O(U)
+    f_i in each \mathrm{O}(U_i), such that f_i and f~j~ agree when restricted
+    to the set U_i ∩ U~j~, then there's a unique function f in \mathrm{O}(U)
     that restricts to each of these functions f_i.
 
 Something satisfying condition 1 is called a
@@ -474,7 +474,7 @@ somewhere. So, it's hopeless trying to think of the Riemann sphere as
 an affine scheme.
 
 But, for any open set U in the Riemann sphere there's a commutative
-ring O(U) consisting of rational functions that are defined on U. So,
+ring \mathrm{O}(U) consisting of rational functions that are defined on U. So,
 the Riemann sphere becomes a ringed space. And, it's *locally*
 isomorphic to the complex plane, which is the affine scheme
 corresponding to the commutative ring of complex polynomials in one
@@ -487,7 +487,7 @@ of pictures:
 Berlin, 2000.
 
 Now, we can talk about schemes "over a field F", meaning that each
-commutative ring O(U) is also a vector space over F, in a well-behaved
+commutative ring \mathrm{O}(U) is also a vector space over F, in a well-behaved
 way, giving us a "sheaf of commutative rings over F". For example, the
 Riemann sphere is a scheme over C.
 

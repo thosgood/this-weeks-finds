@@ -321,7 +321,7 @@ Springer, Berlin, 1976.
 As you might guess from the titles of these books, measurable fields of
 Hilbert spaces show up when we study representations of operator
 algebras that arise in quantum theory. For example, any commutative von
-Neumann algebra A is isomorphic to the algebra L^\infty^(X) for some measure
+Neumann algebra A is isomorphic to the algebra L^\infty(X) for some measure
 space X, and every representation of A comes from a measurable field of
 Hilbert spaces on X.
 
@@ -379,7 +379,7 @@ The paper by Crane and Yetter studies representations of discrete
 representations of *topological* 2-groups, including Lie 2-groups.
 Topology really matters for infinite-dimensional representations. For
 example, it's a hopeless task to classify the infinite-dimensional
-unitary representations of even a little group like the circle, U(1).
+unitary representations of even a little group like the circle, \mathrm{U}(1).
 But it's easy to classify the *continuous* unitary representations.
 
 A group has a category of representations, but a 2-group has a
