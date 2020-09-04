@@ -478,7 +478,7 @@ How does this work? First we give M(X) its "weak topology". This is
 the topology where a bunch of measures μ_i converge to μ if for every
 bounded continuous function f on X,
 
-∫ f dμ_i \to ∫ f dμ
+\int f dμ_i \to \int f dμ
 
 Starting with this topology and taking the Borel sets, M(X) becomes a
 measurable space.

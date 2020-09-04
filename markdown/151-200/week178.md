@@ -22,7 +22,7 @@ other papers at his homepage, `http://www.math.uchicago.edu/~may/`
 
 However, his real ambition is not to add to the glut of definitions, but
 to systematize the subject. Right now there are over a dozen definitions
-of "n-category", and your only guide through the jungle is this paper:
+of "$n$-category", and your only guide through the jungle is this paper:
 
 2) Tom Leinster, A survey of definitions of $n$-category, available at
 [math.CT/0107188](http://xxx.lanl.gov/abs/math.CT/0107188).

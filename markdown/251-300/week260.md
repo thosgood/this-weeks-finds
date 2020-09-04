@@ -585,7 +585,7 @@ Tony Smith wrote:
 > and I hope that my impression is somehow mistaken, because the result
 > E~6~ = \mathrm{SL}(3,O) is (and has been for some time) well known and in the
 > literature. For example, in
-> [hep-th/9309030](http://arxiv.org/abs/hep-th/9309030) Martin Cederwall
+> [`hep-th/9309030`](http://arxiv.org/abs/hep-th/9309030) Martin Cederwall
 > and Christian R. Preitschopf said:
 >
 > > ... It should be possible to realize E~6~ = \mathrm{SL}(3;O) \[18,24\] on

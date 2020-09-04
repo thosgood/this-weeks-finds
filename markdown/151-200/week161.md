@@ -133,7 +133,7 @@ approach to quantum field theory. He has written a paper about the
 
 7) Bert Schroer, Facts and fictions about Anti de Sitter spacetimes
 with local quantum matter, available as
-[hep-th/9911100](http://xxx.lanl.gov/abs/hep-th/9911100).
+[`hep-th/9911100`](http://xxx.lanl.gov/abs/hep-th/9911100).
 
 Let me just quote the beginning:
 
@@ -287,6 +287,6 @@ and quantum field theory. Everyone knows how the braid group shows up in
 
 8) Bert Schroer, Braided structure in 4-dimensional conformal quantum
 field theory, available as
-[hep-th/0012021](http://xxx.lanl.gov/abs/hep-th/0012021).
+[`hep-th/0012021`](http://xxx.lanl.gov/abs/hep-th/0012021).
 
 ------------------------------------------------------------------------

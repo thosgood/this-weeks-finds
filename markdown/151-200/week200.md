@@ -4,7 +4,7 @@ Happy New Year!
 
 I'm making some changes in my life. For many years I've dreamt of
 writing a book on higher-dimensional algebra that will explain
-n-categories and their applications to homotopy theory, representation
+$n$-categories and their applications to homotopy theory, representation
 theory, quantum physics, combinatorics, logic - you name it! It's an
 intimidating goal, because every time I learn something new about these
 subjects I want to put it in this imaginary book, so it keeps getting

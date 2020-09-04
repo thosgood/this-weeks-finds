@@ -54,7 +54,7 @@ Here they are, from the top-cited one on down:
 
 3) Juan Maldacena, The large N limit of superconformal field theories
 and supergravity, Adv. Theor. Math. Phys. 2 (1998) 231-252, preprint
-available as [hep-th/9711200](http://xxx.lanl.gov/abs/hep-th/9711200).
+available as [`hep-th/9711200`](http://xxx.lanl.gov/abs/hep-th/9711200).
 
 This one launched the "AdS-CFT" craze, by pointing out an interesting
 relation between supergravity on anti-DeSitter spacetime and conformal
@@ -63,7 +63,7 @@ field theories on its "boundary at infinity".
 4) Nathan Seiberg and Edward Witten, Electric-magnetic duality,
 monopole condensation, and confinement in N=2 supersymmetric Yang-Mills
 theory, Nucl. Phys. B426 (1994) 19-52, preprint available as
-[hep-th/9407087](http://xxx.lanl.gov/abs/hep-th/9407087).
+[`hep-th/9407087`](http://xxx.lanl.gov/abs/hep-th/9407087).
 
 This one is ancient history by now, but it's still near the top of the
 list! For mathematicians, this paper marked the birth of Seiberg-Witten
@@ -76,7 +76,7 @@ outgrowth.
 
 5) Edward Witten, String theory dynamics in various dimensions, Nucl.
 Phys. B443 (1995) 85-126, preprint available as
-[hep-th/9503124](http://xxx.lanl.gov/abs/hep-th/9503124).
+[`hep-th/9503124`](http://xxx.lanl.gov/abs/hep-th/9503124).
 
 This paper was also important in the quest to understand dualities:
 among other things, it argued that the type IIA superstring in 10
@@ -88,20 +88,20 @@ to be a low-energy limit.
 
 6) Edward Witten, Anti-DeSitter space and holography, Adv. Theor. Math.
 Phys. 2 (1998) 253-291, preprint available as
-[hep-th/9802150](http://xxx.lanl.gov/abs/hep-th/9802150).
+[`hep-th/9802150`](http://xxx.lanl.gov/abs/hep-th/9802150).
 
 More on the AdS-CFT business.
 
 7) S. S. Gubser, I. R. Klebanov, and A. M. Polyakov, Gauge theory
 correlators from noncritical string theory, Phys. Lett. B428 (1998)
 105-114, preprint available as
-[hep-th/9802109](http://xxx.lanl.gov/abs/hep-th/9802109).
+[`hep-th/9802109`](http://xxx.lanl.gov/abs/hep-th/9802109).
 
 Still more on the AdS-CFT business.
 
 8) Joseph Polchinski, Dirichlet branes and Ramond-Ramond charges, Phys.
 Rev. Lett. 75 (1995) 4724-4727, preprint available as
-[hep-th/9510017](http://xxx.lanl.gov/abs/hep-th/9510017).
+[`hep-th/9510017`](http://xxx.lanl.gov/abs/hep-th/9510017).
 
 This helped launch the D-brane revolution: the realization that when we
 take nonperturbative effects into account, open strings seem to have
@@ -110,20 +110,20 @@ their ends "stuck" on higher-dimensional surfaces called D-branes.
 9) Nathan Seiberg and Edward Witten, Monopoles, duality and chiral
 symmetry breaking in N=2 supersymmetric QCD, Nucl. Phys. B431 (1994)
 484-550, preprint available as
-[hep-th/9408099](http://xxx.lanl.gov/abs/hep-th/9408099).
+[`hep-th/9408099`](http://xxx.lanl.gov/abs/hep-th/9408099).
 
 More on what's now called Seiberg-Witten theory.
 
 10) T. Banks, W. Fischler, S. H. Shenker, and L. Susskind, M-theory as
 a matrix model: a conjecture, Phys. Rev. D55 (1997), 5112-5128, preprint
-available as [hep-th/9610043](http://xxx.lanl.gov/abs/hep-th/9610043).
+available as [`hep-th/9610043`](http://xxx.lanl.gov/abs/hep-th/9610043).
 
 This was an attempt to given an explicit formulation for M-theory in
 terms of a matrix model.
 
 11) C. M. Hull and P. K. Townsend, Unity of superstring dualities,
 Nucl. Phys. B438 (1995) 109-137, preprint available as
-[hep-th/9410167](http://xxx.lanl.gov/abs/hep-th/9410167).
+[`hep-th/9410167`](http://xxx.lanl.gov/abs/hep-th/9410167).
 
 More about dualities, obviously! (But also some stuff about the
 exceptional Lie group E7, which is bound to tickle the fancy of any
@@ -131,7 +131,7 @@ exceptionologist.)
 
 12) Edward Witten, Bound states of strings and p-branes, Nucl. Phys.
 B460 (1996), 335-350, preprint available as
-[hep-th/9510135](http://xxx.lanl.gov/abs/hep-th/9510135).
+[`hep-th/9510135`](http://xxx.lanl.gov/abs/hep-th/9510135).
 
 More on D-branes.
 
@@ -246,12 +246,12 @@ following 261-page review article on the AdS-CFT correspondence:
 19) O. Aharony, S. S. Gubser, J. Maldacena, H. Ooguri and Y. Oz, Large
 N field theories, string theory and gravity, Phys. Rept. 323 (2000)
 183-386, preprint available as
-[hep-th/9905111](http://xxx.lanl.gov/abs/hep-th/9905111).
+[`hep-th/9905111`](http://xxx.lanl.gov/abs/hep-th/9905111).
 
 For a similarly enormous review article on D-branes, try:
 
 20) Clifford V. Johnson, D-brane primer, preprint available as
-[hep-th/0007170](http://xxx.lanl.gov/abs/hep-th/0007170).
+[`hep-th/0007170`](http://xxx.lanl.gov/abs/hep-th/0007170).
 
 Finally, it turns out that manifolds with G2 holonomy *are* important in
 superstring theory, where they go by the name of "Joyce manifolds".
@@ -259,28 +259,28 @@ Here are some places to read about them:
 
 21) G. Papadopoulos and P. K. Townsend, Compactification of D=11
 supergravity on spaces of exceptional holonomy, preprint available as
-[hep-th/9506150](http://xxx.lanl.gov/abs/hep-th/9506150).
+[`hep-th/9506150`](http://xxx.lanl.gov/abs/hep-th/9506150).
 
 22) B. S. Acharya, N=1 heterotic-supergravity duality and Joyce
 manifolds, preprint available as
-[hep-th/9508046](http://xxx.lanl.gov/abs/hep-th/9508046).
+[`hep-th/9508046`](http://xxx.lanl.gov/abs/hep-th/9508046).
 
 N=1 heterotic/M-theory duality and Joyce manifolds, preprint available
-as [hep-th/9603033](http://xxx.lanl.gov/abs/hep-th/9603033).
+as [`hep-th/9603033`](http://xxx.lanl.gov/abs/hep-th/9603033).
 
 N=1 M-theory-heterotic duality in three dimensions and Joyce manifolds,
 preprint available as
-[hep-th/9604133](http://xxx.lanl.gov/abs/hep-th/9604133).
+[`hep-th/9604133`](http://xxx.lanl.gov/abs/hep-th/9604133).
 
 Dirichlet Joyce manifolds, discrete torsion and duality, preprint
-available as [hep-th/9611036](http://xxx.lanl.gov/abs/hep-th/9611036).
+available as [`hep-th/9611036`](http://xxx.lanl.gov/abs/hep-th/9611036).
 
 M theory, Joyce orbifolds and super Yang-Mills, preprint available as
-[hep-th/9812205](http://xxx.lanl.gov/abs/hep-th/9812205).
+[`hep-th/9812205`](http://xxx.lanl.gov/abs/hep-th/9812205).
 
 23) Chien-Hao Liu, On the global structure of some natural fibrations
 of Joyce manifolds, preprint available as
-[hep-th/9809007](http://xxx.lanl.gov/abs/hep-th/9809007).
+[`hep-th/9809007`](http://xxx.lanl.gov/abs/hep-th/9809007).
 
 I learned this thanks to Allen Knutson and Paul Schocklee. Paul also had
 the following interesting comments:

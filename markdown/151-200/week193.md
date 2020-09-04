@@ -70,7 +70,7 @@ extra structure:
 1) Murat Gunaydin, Koepsell and Hermann Nicolai, Conformal and
 quasiconformal realizations of exceptional Lie groups, Commun. Math.
 Phys. 221 (2001), 57-76, also available as
-[hep-th/0008063](http://xxx.lanl.gov/abs/hep-th/0008063)
+[`hep-th/0008063`](http://xxx.lanl.gov/abs/hep-th/0008063)
 
 2) Thomas A. Larsson, Structures preserved by exceptional Lie algebras,
 available as math-ph/0301006.

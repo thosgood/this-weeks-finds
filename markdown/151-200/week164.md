@@ -298,7 +298,7 @@ homology sphere; now you know its intersection form.
 Anyway, what I find exciting is that all this stuff generalizes to
 higher dimensions if we restrict attention to manifolds that have
 trivial homotopy groups up to a certain point! For example, it works for
-compact oriented smooth 7-manifolds that have trivial \pi _1 and \pi _2. Any
+compact oriented smooth 7-manifolds that have trivial \pi_1 and \pi_2. Any
 such manifold can be obtained by doing surgery on some framed 3-spheres
 embedded in S^7. Just as 1-spheres can link in 3d space since 1+1 is
 one less than 3, 3-spheres can link in 7d space since 3+3 is one less
@@ -344,7 +344,7 @@ because I'm quite puzzled about the deep inner meaning of this
 relation. This paper might be the key to this mystery!
 
 5) Detlev Buchholz, Current trends in axiomatic quantum field theory,
-available as [hep-th/9811233](http://xxx.lanl.gov/abs/hep-th/9811233).
+available as [`hep-th/9811233`](http://xxx.lanl.gov/abs/hep-th/9811233).
 
 > In this article a non-technical survey is given of the present status
 > of Axiomatic Quantum Field Theory and interesting future directions of

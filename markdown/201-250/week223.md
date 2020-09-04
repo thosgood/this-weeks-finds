@@ -555,7 +555,7 @@ Grothendieck also studied this kind of thing with categories replacing
 groupoids, so there should also be an $n$-category version, I think...
 but it's more delicate to define "fibrations" for categories than for
 groupoids, so I'm a bit scared to state a slogan suitable for
-n-categories.
+$n$-categories.
 
 However, I'm not scared to go from $n$-groupoids to ω-groupoids, which
 are basically the same as spaces. In terms of spaces, the slogan goes

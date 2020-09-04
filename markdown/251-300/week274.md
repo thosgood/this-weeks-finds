@@ -487,7 +487,7 @@ point x of G* gives an irrep of G, say R~x~. These form another
 measurable field of Hilbert spaces on G*. So, we can tensor H~x~ and
 R~x~, and then form the "direct integral"
 
-∫~x~ (H~x~ \otimes R~x~) dμ(x)
+\int~x~ (H~x~ \otimes R~x~) dμ(x)
 
 As I already mentioned, a direct integral is a generalization of a
 direct sum. The result of doing this direct integral is a Hilbert space,

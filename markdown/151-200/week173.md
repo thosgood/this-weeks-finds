@@ -291,7 +291,7 @@ tensor catgories and subfactors, available at
 I can't possibly do justice to these, but I'd like to discuss a very
 pretty idea from his paper on Frobenius algebras. This will give me a
 good chance to continue some themes from my earlier issues on
-n-categories and homotopy theory.
+$n$-categories and homotopy theory.
 
 In ["Week 83"](#week83) I talked about adjoint functors, and more
 generally, adjunctions in any 2-category. If you don't understand this

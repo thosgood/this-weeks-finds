@@ -80,7 +80,7 @@ spacetime to emerge from nonperturbative quantum gravity:
 
 3) Jan Ambjorn, Jerzy Jurkiewicz and Renate Loll, Emergence of a 4d
 world from causal quantum gravity, available as
-[hep-th/0404156](http://xxx.lanl.gov/abs/hep-th/0404156).
+[`hep-th/0404156`](http://xxx.lanl.gov/abs/hep-th/0404156).
 
 This trio of researchers have revitalized an approach called "dynamical
 triangulations" where we calculate path integrals in quantum gravity by
@@ -244,23 +244,23 @@ models go bad: the path integral can get dominated by spacetimes where
 7) Jan Ambjorn, Jerzy Jurkiewicz and Renate Loll, Non-perturbative
 Lorentzian quantum gravity, causality and topology change, Nucl. Phys.
 B536 (1998) 407-434. Also available as
-[hep-th/9805108](http://xxx.lanl.gov/abs/hep-th/9805108).
+[`hep-th/9805108`](http://xxx.lanl.gov/abs/hep-th/9805108).
 
 Renate Loll and W. Westra, Space-time foam in 2d and the sum over
 topologies, Acta Phys. Polon. B34 (2003) 4997-5008. Also available as
-[hep-th/0309012](http://xxx.lanl.gov/abs/hep-th/0309012).
+[`hep-th/0309012`](http://xxx.lanl.gov/abs/hep-th/0309012).
 
 By the way, it's also reading about their 3d model:
 
 8) Jan Ambjorn, Jerzy Jurkiewicz and Renate Loll, Non-perturbative 3d
 Lorentzian quantum gravity, Phys.Rev. D64 (2001) 044011. Also available
-as [hep-th/0011276](http://xxx.lanl.gov/abs/hep-th/0011276).
+as [`hep-th/0011276`](http://xxx.lanl.gov/abs/hep-th/0011276).
 
 and for a general review, try this:
 
 9) Renate Loll, A discrete history of the Lorentzian path integral,
 Lecture Notes in Physics 631, Springer, Berlin, 2003, pp. 137-171. Also
-available as [hep-th/0212340](http://xxx.lanl.gov/abs/hep-th/0212340).
+available as [`hep-th/0212340`](http://xxx.lanl.gov/abs/hep-th/0212340).
 
 All this is great, but don't get me wrong - there were a lot of *other*
 cool talks at the conference besides Loll's. I'll just mention a few.
@@ -275,7 +275,7 @@ foams is Borel summable:
 
 10) Laurent Freidel and David Louapre, Non-perturbative summation over
 3D discrete topologies, Phys. Rev. D68 (2003) 104004. Also available as
-[hep-th/0211026](http://xxx.lanl.gov/abs/hep-th/0211026).
+[`hep-th/0211026`](http://xxx.lanl.gov/abs/hep-th/0211026).
 
 Their work on gauge-fixing and the inclusion of spinning point particles
 in the Ponzano-Regge model is also very impressive, especially given how
@@ -283,7 +283,7 @@ long this model has been studied. It shows we have lots left to learn!
 
 11) Laurent Freidel and David Louapre, Ponzano-Regge model revisited I:
 Gauge fixing, observables and interacting spinning particles, available
-as [hep-th/0401076](http://xxx.lanl.gov/abs/hep-th/0401076).
+as [`hep-th/0401076`](http://xxx.lanl.gov/abs/hep-th/0401076).
 
 The title suggests we're in for more treats to come.
 
@@ -302,7 +302,7 @@ Class. Quant. Grav. 20 (2003) 2235-2250. Also available as
 
 Kirill Krasnov and Sergey N. Solodukhin, Effective stringy description
 of Schwarzschild black holes, available as
-[hep-th/0403046](http://xxx.lanl.gov/abs/hep-th/0403046).
+[`hep-th/0403046`](http://xxx.lanl.gov/abs/hep-th/0403046).
 
 While I'm at it, I can't resist mentioning Krasnov's work on
 including point particles in 3d Lorentzian quantum gravity with negative
@@ -312,12 +312,12 @@ Freidel and Louapre, though the context is a bit different:
 13) Kirill Krasnov, Λ<0 quantum gravity in 2+1 dimensions I: quantum
 states and stringy S-matrix, Class. Quant. Grav. 19 (2002) 3977-3998.
 Also available as
-[hep-th/0112164](http://xxx.lanl.gov/abs/hep-th/0112164).
+[`hep-th/0112164`](http://xxx.lanl.gov/abs/hep-th/0112164).
 
 Kirill Krasnov, Λ<0 quantum gravity in 2+1 dimensions II: black hole
 creation by point particles, Class. Quant. Grav. 19 (2002) 3999-4028.
 Also available as
-[hep-th/0202117](http://xxx.lanl.gov/abs/hep-th/0202117).
+[`hep-th/0202117`](http://xxx.lanl.gov/abs/hep-th/0202117).
 
 If I could duplicate myself, I'd have one copy write a book on 3d
 quantum gravity that would synthesize all these wonderful results in a

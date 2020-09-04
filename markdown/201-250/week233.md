@@ -11,7 +11,7 @@ preons, available as
 
 2) Sundance O. Bilson-Thompson, Fotini Markopoulou, and Lee Smolin,
 Quantum gravity and the Standard Model,
-[hep-th/0603022](http://xxx.lanl.gov/abs/hep-th/0603022).
+[`hep-th/0603022`](http://xxx.lanl.gov/abs/hep-th/0603022).
 
 It's a very speculative idea: they've found some interesting
 relations, but nobody knows if these are coincidental or not.
@@ -312,7 +312,7 @@ short exact sequences:
 
         1 ----> Z ---> \mathrm{SL}(2,R)~ ---> \mathrm{SL}(2,R) ----> 1
 
-Here \mathrm{SL}(2,R)^\~^ is the universal cover of \mathrm{SL}(2,R). Since \pi _1(\mathrm{SL}(2,R))
+Here \mathrm{SL}(2,R)^\~^ is the universal cover of \mathrm{SL}(2,R). Since \pi_1(\mathrm{SL}(2,R))
 = Z, this is a Z-fold cover. You can describe this cover explicitly
 using the Maslov index, which is a formula that actually computes an
 integer for any loop in \mathrm{SL}(2,R), or indeed any symplectic group.
@@ -320,7 +320,7 @@ integer for any loop in \mathrm{SL}(2,R), or indeed any symplectic group.
 But anyway, fiddling around with this diagram and the long exact
 sequence of homotopy groups for a fibration, you can show that indeed:
 
-\pi _1(\mathrm{SL}(2,R)/\mathrm{SL}(2,\mathbb{Z})) = B_3.
+\pi_1(\mathrm{SL}(2,R)/\mathrm{SL}(2,\mathbb{Z})) = B_3.
 
 This also follows from the fact that \mathrm{SL}(2,R)/\mathrm{SL}(2,\mathbb{Z}) looks like S^3
 minus a trefoil.

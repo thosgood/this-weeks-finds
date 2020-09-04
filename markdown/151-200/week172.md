@@ -240,7 +240,7 @@ This was proposed in the following paper:
 
 9) N. Ishibashi, H. Kawai, Y. Kitazawa and T. Tsuchiya, A large-N
 reduced model as superstring, Nucl. Phys. B498 (1997) 467-491. Also
-available as [hep-th/9612115](http://xxx.lanl.gov/abs/hep-th/9612115).
+available as [`hep-th/9612115`](http://xxx.lanl.gov/abs/hep-th/9612115).
 
 The idea is to provide something like a background-free formulation of
 type IIB string theory. But I don't understand how that's supposed to
@@ -290,7 +290,7 @@ if n = 4, 6, or 10. For more details try this:
 
 10) Peter Austing and John F. Wheater, Convergent Yang-Mills matrix
 theories, JHEP 0104 (2001) 019. Also available as
-[hep-th/0103159](http://xxx.lanl.gov/abs/hep-th/0103159).
+[`hep-th/0103159`](http://xxx.lanl.gov/abs/hep-th/0103159).
 
 Bengt Petersson spoke about computer simulations of the IKKT model:
 
@@ -307,7 +307,7 @@ For more on the IKKT model, try this:
 
 12) A. Konechny and A. Schwarz, Introduction to M(atrix) theory and
 noncommutative geometry, available at
-[hep-th/0012145](http://xxx.lanl.gov/abs/hep-th/0012145).
+[`hep-th/0012145`](http://xxx.lanl.gov/abs/hep-th/0012145).
 
 There were a lot more talks, but on my way back home I started reading
 some papers about Tarski's "high school algebra problem", so now let

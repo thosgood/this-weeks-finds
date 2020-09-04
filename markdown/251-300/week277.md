@@ -22,7 +22,7 @@ Both of them are supposed to be gentle explanations of how
 "diagrammatic thinking" unifies and clarifies our perspective on many
 subjects. I can imagine merging them and expanding them to form a book
 someday... but not today. Today I want to take a break from
-n-categories, and talk about some basic physics.
+$n$-categories, and talk about some basic physics.
 
 Let's start with a riddle.
 

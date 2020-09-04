@@ -13,7 +13,7 @@ AMS Western Section Meeting, November 7-8, 2009. Talks available as
 Quicktime videos at `http://math.ucr.edu/~jbergner/amsriverside09.htm`
 
 These talks add up to a nice look at recent work on homotopy theory,
-n-categories, and categorification - some of my favorite subjects. So,
+$n$-categories, and categorification - some of my favorite subjects. So,
 I'd like to quickly summarize each talk and give some links to related
 papers.
 

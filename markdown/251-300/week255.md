@@ -119,7 +119,7 @@ actually mention them, since they had a reputation for being "too
 abstract".
 
 In fact, Dan Freed alluded to this in his talk on topological quantum
-field theory. He said that every mathematician has an "n-category
+field theory. He said that every mathematician has an "$n$-category
 number". Your $n$-category number is the largest n such that you can
 think about $n$-categories for a half hour without getting a splitting
 headache.
@@ -134,7 +134,7 @@ Tour de France and American baseball, he suspects mathematicians are
 taking "category-enhancing substances"!
 
 Freed shouldn't feel bad: he was among the first to introduce
-n-categories in the subject of topological quantum field theory! He gave
+$n$-categories in the subject of topological quantum field theory! He gave
 a nice talk on this, clear and unpretentious, leading up to a conjecture
 for the 3-vector space that Chern-Simons theory assigns to a point.
 
@@ -169,7 +169,7 @@ available as
 arXiv:[q-alg/9503002](http://xxx.lanl.gov/abs/q-alg/9503002).
 
 It was an attempt to completely describe the algebraic structure of the
-n-category nCob, where:
+$n$-category nCob, where:
 
 -   objects are 0d manifolds,
 -   1-morphisms are 1d manifolds with boundary,
@@ -630,7 +630,7 @@ For the n = 2 case, see the papers I already listed.
 "degree" I mentioned earlier.)
 
 Finally: the cool part, which I haven't even mentioned, is that we
-really need to describe $n$-dimensional QFTs using an *n-category* of
+really need to describe $n$-dimensional QFTs using an *$n$-category* of
 cobordisms - not just a mere 1-category, as I sloppily said above.
 
 This first gets exciting when we hit n = 2: you'll see a bunch of stuff
@@ -642,7 +642,7 @@ by letting particles, strings, and their $n$-dimensional cousins roam
 around in these spaces. There are lots of slight variants: string
 topology, the Stolz-Teichner picture, and of course good old-fashioned
 topological quantum field theory. All of them have a lot to do with
-n-categories.
+$n$-categories.
 
 There's a lot more to say about all this... but luckily, there should
 be a proceedings of this conference, where you can read more. My own

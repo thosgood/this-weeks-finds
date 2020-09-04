@@ -489,7 +489,7 @@ You may also know about the Fourier transform, which lets you take a
 sufficiently nice complex-valued function on the real line and write it
 like this:
 
-f(x) = ∫ g(k) exp(ikx) dk
+f(x) = \int g(k) exp(ikx) dk
 
 Here k also ranges over the real line, so what you're really doing is
 taking a function on the line:

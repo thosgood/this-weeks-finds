@@ -143,11 +143,11 @@ interested - it's these papers by Witten that did it:
 
 4) Anton Kapustin and Edward Witten, Electric-magnetic duality and the
 geometric Langlands program, 225 pages, available as
-[hep-th/0604151](http://xxx.lanl.gov/abs/hep-th/0604151).
+[`hep-th/0604151`](http://xxx.lanl.gov/abs/hep-th/0604151).
 
 5) Sergei Gukov and Edward Witten, Gauge theory, ramification, and the
 geometric Langlands program, 160 pages, available as
-[hep-th/0612073](http://xxx.lanl.gov/abs/hep-th/0612073).
+[`hep-th/0612073`](http://xxx.lanl.gov/abs/hep-th/0612073).
 
 So, if you're trying to learn this geometric Langlands stuff, and you
 want to fit it into the grand landscape of mathematics, the book

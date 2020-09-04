@@ -513,7 +513,7 @@ just a special case of the definition of "natural transformation".
 
 For fans of group theory, one nice thing about this 2-category is that
 it explains where "inner automorphisms" fit into the grand
-n-categorical scheme of things. It also explains why conjugations become
+$n$-categorical scheme of things. It also explains why conjugations become
 important in algebraic topology when you're playing around with the
 "fundamental group": this is actually a 2-functor from the 2-category
 of
@@ -545,7 +545,7 @@ a whole lot of concepts beloved by folks who study von Neumann algebras
 are really concepts from 2-category theory, applied to this situation!
 
 This is cool, because there are *already* deep connections between
-n-categories and quantum theory - see ["Week 78"](#week78) for an
+$n$-categories and quantum theory - see ["Week 78"](#week78) for an
 introduction to these ideas. Since von Neumann algebras are the basic
 "algebras of observables" in quantum theory, we should *expect* them
 to be deeply $n$-categorical in nature. And now, thanks to the work of

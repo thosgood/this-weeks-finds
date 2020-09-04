@@ -302,7 +302,7 @@ Also available as
 
 4) Laurent Freidel and David Louapre, Asymptotics of 6j and 10j
 symbols, Class. Quant. Grav. 20 (2003) 1267-1294. Also available as
-[hep-th/0209134](http://xxx.lanl.gov/abs/hep-th/0209134).
+[`hep-th/0209134`](http://xxx.lanl.gov/abs/hep-th/0209134).
 
 The physical meaning of this fact is still quite mysterious. I could
 tell you everyone's guesses, but I'm not sure it's worthwhile. Next
@@ -320,7 +320,7 @@ bit more about this thing from here:
 
 5) Robert Coquereaux, On the finite dimensional quantum group H = M_3
 + (M~2|1~(Λ^2))~0~, available as
-[hep-th/9610114](http://xxx.lanl.gov/abs/hep-th/9610114) and at
+[`hep-th/9610114`](http://xxx.lanl.gov/abs/hep-th/9610114) and at
 `http://www.cpt.univ-mrs.fr/~coque/articles_html/SU2qba/SU2qba.html`
 
 Just to review: let's start with the group consisting of all the ways

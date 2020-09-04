@@ -474,7 +474,7 @@ think I'd lost interest in this topic, because I've been talking about
 other things. But it's not true!
 
 Most importantly, Tom Leinster has come out with a big book on
-n-categories and operads:
+$n$-categories and operads:
 
 10) Tom Leinster, Higher Operads, Higher Categories, Cambridge U.
 Press, Cambridge, 2003. Also available as
@@ -547,7 +547,7 @@ is one of the ones described in Leinster's book.
 
 There's also been a lot of work applying higher-dimensional algebra to
 topological quantum field theory - that's what got me interested in
-n-categories in the first place, but a lot has happened since then. For
+$n$-categories in the first place, but a lot has happened since then. For
 a highly readable introduction to the subject, with tons of great
 pictures, try:
 

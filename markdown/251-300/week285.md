@@ -727,12 +727,12 @@ homology" - a great introduction to their big paper in progress:
 at `http://tqft.net/papers/blobs.pdf`
 
 The clever idea here is to use manifolds to provide a quick and
-practical definition of "n-categories with duals" - thus
+practical definition of "$n$-categories with duals" - thus
 short-circuiting, at least temporarily, the need to prove some big
 conjectures linking this algebraic concept to topology. With this
 definition, they're able to define and study "blob homology": that
 is, a kind of homology for manifolds with coefficients in a linear
-n-category with duals!
+$n$-category with duals!
 
 This includes ordinary TQFTs and also Hochschild homology as special
 cases. So, it's a big deal, and I'm sure we'll be seeing more of it

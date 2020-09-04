@@ -516,7 +516,7 @@ f\colon  X \to  X'
 
 that give isomorphisms between rational homotopy groups:
 
-Q \otimes \pi _n(f)\colon  Q \otimes \pi _n(X) \to  Q \otimes \pi _n(X')
+Q \otimes \pi_n(f)\colon  Q \otimes \pi_n(X) \to  Q \otimes \pi_n(X')
 
 This gives the rational homotopy category.
 

@@ -339,7 +339,7 @@ this:
 
 19) Paul Aspinwall, D-branes on Calabi-Yau manifolds, section 7.3.1,
 The McKay correspondence, p. 101 and following. Available as
-[hep-th/0403166](http://xxx.lanl.gov/abs/hep-th/0403166)
+[`hep-th/0403166`](http://xxx.lanl.gov/abs/hep-th/0403166)
 
 For more on the the representation theory of quivers, see the references
 in the "Addenda" to ["Week 230"](#week230), and also this
@@ -439,7 +439,7 @@ average apple. Aaron Bergman had this to say:
 > cone:
 >
 > 24) Aaron Bergman, Undoing orbifold quivers, available as
-> [hep-th/0502105](http://www.arxiv.org/abs/hep-th/0502105).
+> [`hep-th/0502105`](http://www.arxiv.org/abs/hep-th/0502105).
 >
 > Aaron Bergman, Moduli spaces for Bondal quivers, available as
 > [math.AG/0512166](http://www.arxiv.org/abs/math.AG/0512166).

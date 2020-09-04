@@ -337,7 +337,7 @@ a supermanifold of 2-morphisms, where all the operations are smooth.
 If you don't know what a supermanifold is, now is probably not the time
 to learn. I mean, not right this second. The point is just this:
 supersymmetry infests everything once you let it in the door, just like
-n-categories, and just like manifolds - and now we're doing all three.
+$n$-categories, and just like manifolds - and now we're doing all three.
 
 In fact, nobody has even written down a rigorous definition of a Lie
 3-supergroup yet! But, Lie algebras are in some ways simpler than Lie

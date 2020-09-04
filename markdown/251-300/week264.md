@@ -117,7 +117,7 @@ to summarize the main result.
 
 I explained the idea of homotopy groups back in
 ["Week 102"](#week102). Very roughly, the nth homotopy group of a
-space X, usually denoted \pi _n(X), is the set of ways you can map an
+space X, usually denoted \pi_n(X), is the set of ways you can map an
 n-sphere into that space, where we count two ways as the same if you can
 continuously deform one to the other. If a space has holes, homotopy
 groups are one way to detect those holes.
@@ -127,10 +127,10 @@ a space as the 2-sphere, S^2, there's a sense in which "nobody
 knows" all its homotopy groups. People know the first 64, though. Here
 are a few:
 
-\pi _1(S^2) = 0\
-\pi _2(S^2) = Z\
-\pi _3(S^2) = Z\
-\pi _4(S^2) = Z/2\
+\pi_1(S^2) = 0\
+\pi_2(S^2) = Z\
+\pi_3(S^2) = Z\
+\pi_4(S^2) = Z/2\
 \pi ~5~(S^2) = Z/2\
 \pi ~6~(S^2) = Z/4 \times Z/3\
 \pi ~7~(S^2) = Z/2\
@@ -302,7 +302,7 @@ f\colon  BB_n \to  BB_n(S^2)
 And now we're ready for the shocking theorem of Berrick, Cohen, Wong
 and Wu:
 
-**Theorem:** For n > 3, \pi _n(S^2) is BB_n(S^2) modulo the image of
+**Theorem:** For n > 3, \pi_n(S^2) is BB_n(S^2) modulo the image of
 f.
 
 In something more like plain English: when n is big enough, the nth
@@ -364,15 +364,15 @@ S^1 \to S^3 \to S^2
 Like any fiber bundle, it gives a long exact sequence of homotopy groups
 as explained in ["Week 151"](#week151):
 
-... \to \pi _n(S^1) \to \pi _n(S^3) \to \pi _n(S^2) \to \pi ~n-1~(S^1) \to ...
+... \to \pi_n(S^1) \to \pi_n(S^3) \to \pi_n(S^2) \to \pi ~n-1~(S^1) \to ...
 
 but the homotopy groups of S^1 vanishes after the first, so we get
 
-... \to 0 \to \pi _n(S^3) \to \pi _n(S^2) \to 0 \to ...
+... \to 0 \to \pi_n(S^3) \to \pi_n(S^2) \to 0 \to ...
 
 for n > 2, which says that
 
-\pi _n(S^3) ≅ \pi _n(S^2)
+\pi_n(S^3) ≅ \pi_n(S^2)
 
 Okay, now for this mysterious sequence:
 
@@ -547,7 +547,7 @@ forms. But, I want to quit here for now.
 
 **Addenda:** I thank David Corfield for pointing out how to get ahold of
 Wu's papers free online - and earlier, for telling me Wu's
-combinatorial description of \pi _3(S^2).
+combinatorial description of \pi_3(S^2).
 
 Martin Ouwehand told me that some of Coleman's lecture notes on quantum
 field theory are available in TeX here:

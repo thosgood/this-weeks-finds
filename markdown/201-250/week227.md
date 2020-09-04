@@ -505,7 +505,7 @@ IEEE, pp. 65-71. Also available at
 
 Can we go all the way and cook up some sort of ω-category of proofs?
 Interestingly, while the logicians at Geocal06 were talking about
-n-categories and the geometry of proofs, the mathematician Vladimir
+$n$-categories and the geometry of proofs, the mathematician Vladimir
 Voevodsky was giving some talks at Stanford about something that sounds
 pretty similar:
 

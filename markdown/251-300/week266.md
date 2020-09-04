@@ -388,7 +388,7 @@ classifying spaces of 2-categories that aren't topological, just
 "discrete", you should try these:
 
 12) John Duskin, Simplicial matrices and the nerves of weak
-n-categories I: nerves of bicategories, available at
+$n$-categories I: nerves of bicategories, available at
 `http://www.tac.mta.ca/tac/volumes/9/n10/9-10abs.html`
 
 13) Manuel Bullejos and A. Cegarra, On the geometry of 2-categories and
@@ -649,12 +649,12 @@ F \to E \to B
 
 we get a long exact sequence of homotopy groups
 
-... \to \pi _n(F) \to \pi _n(E) \to \pi _n(B) \to \pi ~n-1~(F) \to ...
+... \to \pi_n(F) \to \pi_n(E) \to \pi_n(B) \to \pi ~n-1~(F) \to ...
 
 This is a standard tool in algebraic topology; I sketched how it works
 in ["Week 151"](#week151).
 
-Now, the nth homotopy group of a space X, written \pi _n(X), is just the
+Now, the nth homotopy group of a space X, written \pi_n(X), is just the
 fundamental group of the $(n-1)$-fold loop space of X. So, the Spanish
 categorical group experts define the nth "homotopy 2-group" of a space
 X to be the fundamental 2-group of an iterated loop space of X. And, it

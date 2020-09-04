@@ -13,7 +13,7 @@ these days, this time-honored method gets a lot less airplay than the
 "anthropic principle":
 
 1) Leonard Susskind, The anthropic landscape of string theory,
-available as [hep-th/0302219](http://xxx.lanl.gov/abs/hep-th/0302219).
+available as [`hep-th/0302219`](http://xxx.lanl.gov/abs/hep-th/0302219).
 
 Perhaps this is because it's more grandiose to imagine choosing one
 theory out of a multitude by discovering that it's among the few that

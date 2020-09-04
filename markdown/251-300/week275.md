@@ -113,7 +113,7 @@ this:
 A k-tuply monoidal $n$-category is an (n+k)-category that's boring at the
 bottom k levels. For example, a category with just one object is a
 monoid. As we increase k, we get more and more commutative flavors of
-n-category. But after k hits n+2, we expect that increasing k further
+$n$-category. But after k hits n+2, we expect that increasing k further
 has no effect. At this point we say our $n$-category is "stable".
 
 If the cobordism hypothesis is true, nCob is a stable $n$-category. For n

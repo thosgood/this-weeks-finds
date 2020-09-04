@@ -252,7 +252,7 @@ f\colon  X \to  Y
 is a "weak homotopy equivalence" if it induces isomorphisms on
 homotopy groups:
 
-\pi _n(f)\colon  \pi _n(X) \to  \pi _n(Y)
+\pi_n(f)\colon  \pi_n(X) \to  \pi_n(Y)
 
 In homological algebra, we say a map between chain complexes
 

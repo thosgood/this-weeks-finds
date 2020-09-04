@@ -186,7 +186,7 @@ see these papers:
 (2000) 661-664.
 
 Testable scenario for relativity with minimum length, available at
-[hep-th/0012238](http://xxx.lanl.gov/abs/hep-th/0012238)
+[`hep-th/0012238`](http://xxx.lanl.gov/abs/hep-th/0012238)
 
 Let's do a little number-crunching to compare these calculations. An
 gravitational wave detector like LIGO is basically just a device that

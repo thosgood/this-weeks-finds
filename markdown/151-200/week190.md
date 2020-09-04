@@ -34,7 +34,7 @@ To be honest, what I really like about structuralism is that it makes
 philosophers think a lot about things like "mappings between
 theories", which gets them interested in category theory, which in turn
 gets them interested in other good stuff: background-free physics,
-n-categories, and so on. It can't be all bad if it does that!
+$n$-categories, and so on. It can't be all bad if it does that!
 
 I liked this conference because I met quite a few philosophers who are
 well-versed in the technical aspects of physics and busy thinking about

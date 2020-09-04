@@ -252,7 +252,7 @@ fractals, but for nice regions in Euclidean space - the sort of regions
 you'd normally consider when studying the heat equation. In this case
 the Dirichlet form arises from the Laplacian:
 
-Q(φ) = - ∫ φ∇^2φ
+Q(φ) = - \int φ∇^2φ
 
 where φ is a function on our region. The moral is that we should think
 of any Dirichlet form as a generalized Laplacian!

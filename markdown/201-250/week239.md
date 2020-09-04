@@ -271,7 +271,7 @@ ourselves to chain complexes that vanish except for their first n terms
 n-algebra".
 
 In fact, a Lie $n$-algebra is like a hybrid of a Lie algebra and an
-n-category! The definition I just gave says a Lie $n$-algebra is an
+$n$-category! The definition I just gave says a Lie $n$-algebra is an
 L~\infty~-algebra which as a chain complex vanishes above degree $n$-1. But,
 such chain complexes are equivalent to strict $n$-category objects in
 Vect! So, we can think of Lie $n$-algebras as strict $n$-categories that do

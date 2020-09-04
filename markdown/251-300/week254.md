@@ -127,7 +127,7 @@ classified, at least modulo a certain conjecture:
 
 2) A. N. Schellekens, Meromorphic c = 24 conformal field theories,
 Comm. Math. Phys. 153 (1993) 159-196. Also available as
-[hep-th/9205072](http://xxx.lanl.gov/abs/hep-th/9205072).
+[`hep-th/9205072`](http://xxx.lanl.gov/abs/hep-th/9205072).
 
 It's believed there are 71 of them. Which one could describe 3d quantum
 gravity?
@@ -562,7 +562,7 @@ Some more nice explanations and references can be found here:
 
 16) Irina Shchepochkina, The five exceptional simple Lie superalgebras
 of vector fields. Available as
-[hep-th/9702121](http://arxiv.org/abs/hep-th/9702121).
+[`hep-th/9702121`](http://arxiv.org/abs/hep-th/9702121).
 
 17) Pavel Grozman, Dimitry Leites and Irina Shchepochkina, Defining
 relations for the exceptional Lie superalgebras of vector fields
@@ -588,7 +588,7 @@ Standard Model, available as
 [math-ph/020202](http://arxiv.org/abs/math-ph/020202).
 
 Thomas A. Larsson, Maximal depth implies \mathfrak{su}(3)+\mathfrak{su}(2)+u(1), available as
-[hep-th/0208185](http://xxx.lanl.gov/abs/hep-th/0208185).
+[`hep-th/0208185`](http://xxx.lanl.gov/abs/hep-th/0208185).
 
 Alas, E(3|8) gets the hypercharges of some fermions wrong. Larsson
 seems to say this problem also occurs for E(3|6), which would appear to

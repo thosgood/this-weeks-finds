@@ -1,7 +1,7 @@
 # DATE {#week209}
 
 Time flies! This June, Peter May and I organized a workshop on
-n-categories at the Institute for Mathematics and its Applications:
+$n$-categories at the Institute for Mathematics and its Applications:
 
 1) $n$-Categories: Foundations and Applications,
 `http://www.ima.umn.edu/categories/`
@@ -42,13 +42,13 @@ said: $n$-categories give a new world of math in which equations are
 always replaced by isomorphisms, and this world is incredibly rich in
 structure. The $n$-categories called "n-groupoids" magically know
 everything there is to know about homotopy theory, while those called
-"n-categories with duals" know everything there is to know about the
+"$n$-categories with duals" know everything there is to know about the
 topology of manifolds. There are, unfortunately, some details that still
 need to be worked out!
 
 After my talks there was a reception. Later, over dinner, Tom Leinster
 gave a "Russian style seminar" outlining the different approaches to
-n-categories:
+$n$-categories:
 
 4) Tom Leinster, Survey and Taxonomy. Talk based on chapter 10 of his
 book Higher Operads, Higher Categories, Cambridge U. Press, Cambridge,
@@ -111,7 +111,7 @@ approaches to homotopy theory, and a bunch of people hope they can also
 be used to relate different approaches to $n$-categories.
 
 Then Clemens Berger explained Andre Joyal's approach to weak
-n-categories:
+$n$-categories:
 
 8) Clemens Berger, Cellular definitions. Notes available at
 `http://www.ima.umn.edu/categories/#wed`
@@ -171,9 +171,9 @@ available at `http://www.ima.umn.edu/categories/#thur`
 You've heard about David Corfield's quest for a philosophy of real
 mathematics in ["Week 198"](#week198). He's one of the few
 philosophers who understands enough math to realize how cool
-n-categories are - which may explain why he's having trouble getting a
+$n$-categories are - which may explain why he's having trouble getting a
 job. On the morning of the fourth day, he gave a talk on the impact
-n-categories could have in philosophy:
+$n$-categories could have in philosophy:
 
 13) David Corfield, $n$-Category theory as a catalyst for change in
 philosophy. Notes available at `http://www.ima.umn.edu/categories/#fri`
@@ -209,7 +209,7 @@ monoidal categories. He also has a number of papers about this on the
 arXiv, of which I'll just mention one:
 
 17) Stefan Forcey, Higher enrichment: $n$-fold operads and enriched
-n-categories, delooping and weakening. Notes available at
+$n$-categories, delooping and weakening. Notes available at
 ["http://www.ima.umn.edu/categories/\#mon2](http://www.ima.umn.edu/categories/#mon2)
 
 Stefan Forcey, Enrichment over iterated monoidal categories, Algebraic
@@ -219,7 +219,7 @@ Also available as
 [math.CT/0403152](http://www.arXiv.org/abs/math.CT/0403152).
 
 After dinner we discussed how to relate different definitions of weak
-n-category.
+$n$-category.
 
 On Tuesday of the second week, the logician Michael Makkai presented his
 astounding project of redoing logic in a way that completely eliminates

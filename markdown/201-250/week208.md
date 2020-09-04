@@ -77,7 +77,7 @@ kinematics of charged spin-1/2 particles this way:
 
 4) John Baez and Kirill Krasnov, Quantization of diffeomorphism-
 invariant theories with fermions,
-[hep-th/9703112](http://xxx.lanl.gov/abs/hep-th/9703112).
+[`hep-th/9703112`](http://xxx.lanl.gov/abs/hep-th/9703112).
 
 However, the hard problem in quantum gravity is always dynamics.
 
@@ -88,12 +88,12 @@ question in a toy model, 3-dimensional Lorentzian gravity:
 5) Kirill Krasnov, Λ<0 Quantum Gravity in 2+1 Dimensions I: Quantum
 States and Stringy S-Matrix, Class. Quant. Grav. 19 (2002) 3977-3998,
 also available as
-[hep-th/0112164](http://xxx.lanl.gov/abs/hep-th/0112164).
+[`hep-th/0112164`](http://xxx.lanl.gov/abs/hep-th/0112164).
 
 Kirill Krasnov, Λ<0 Quantum Gravity in 2+1 Dimensions II: Black Hole
 Creation by Point Particles, Class. Quant. Grav. 19 (2002) 3999-4028,
 also available as
-[hep-th/0202117](http://xxx.lanl.gov/abs/hep-th/0202117).
+[`hep-th/0202117`](http://xxx.lanl.gov/abs/hep-th/0202117).
 
 He saw that in this theory you can indeed think of particles as spin
 network ends - though you don't need to emphasize that viewpoint, since
@@ -109,7 +109,7 @@ found here:
 
 6) Laurent Freidel and David Louapre, Ponzano-Regge model revisited I:
 Gauge fixing, observables and interacting spinning particles, available
-as [hep-th/0401076](http://xxx.lanl.gov/abs/hep-th/0401076).
+as [`hep-th/0401076`](http://xxx.lanl.gov/abs/hep-th/0401076).
 
 Laurent Freidel and David Louapre, Ponzano-Regge model revisited II:
 Equivalence with Chern-Simons, available as
@@ -163,11 +163,11 @@ wait to see what they're up to now:
 
 7) Artem Starodubtsev, Topological excitations around the vacuum of
 quantum gravity I: The symmetries of the vacuum, available as
-[hep-th/0306135](http://xxx.lanl.gov/abs/hep-th/0306135).
+[`hep-th/0306135`](http://xxx.lanl.gov/abs/hep-th/0306135).
 
 Artem Starodubtsev and Lee Smolin, General relativity with a topological
 phase: an action principle, available as
-[hep-th/0311163](http://xxx.lanl.gov/abs/hep-th/0311163).
+[`hep-th/0311163`](http://xxx.lanl.gov/abs/hep-th/0311163).
 
 The basic idea is to treat 4d general relativity with positive
 cosmological constant as a perturbation of a topological quantum field

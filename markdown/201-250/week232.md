@@ -137,7 +137,7 @@ coupled to BF theory, available as
 [gr-qc/0605087](http://xxx.lanl.gov/abs/gr-qc/0605087).
 
 (Jeffrey Morton is also involved in this project, a bit more on the
-n-category side of things, but that aspect is top secret for now.)
+$n$-category side of things, but that aspect is top secret for now.)
 
 In ["Week 222"](#week222) I listed a bunch of cool papers on 3d
 quantum gravity, but I didn't really explain them. What we're trying
@@ -157,7 +157,7 @@ we're feeling lowbrow we can think of both A and e as \mathfrak{so}(2,1)-valued
 1-forms on the 3-manifold M that describes spacetime. The action for
 this theory is:
 
-∫~M~ tr(e \^ F)
+\int~M~ tr(e \^ F)
 
 where F is the curvature of A. If you work out the equations of motion
 one of them says that F = 0, so our connection A is flat. The other,
@@ -191,7 +191,7 @@ point to point along the particle's worldline.
 To couple our point particles to gravity, we then add a term to the
 action like this:
 
-S   =   ∫~M~ tr(e \^ F)   -   ∫~W~ tr((e + d~A~q) \^ p)
+S   =   \int~M~ tr(e \^ F)   -   \int~W~ tr((e + d~A~q) \^ p)
 
 Now if you vary the e field you get a field equation saying that
 
@@ -200,7 +200,7 @@ F = p δ~W~
 Here δ~W~ is like the Dirac delta function of the worldline W; it's a
 distributional 2-form defined by requiring that
 
-∫~W~ X = ∫~M~ (X \^ δ~W~)
+\int~W~ X = \int~M~ (X \^ δ~W~)
 
 for any smooth 1-form X on W. This sort of "distributional differential
 form" is also called a "current", and you can read about them in the
@@ -291,7 +291,7 @@ effects! This goes by the name of "doubly special relativity":
 
 15) Laurent Freidel, Jerzy Kowalski-Glikman and Lee Smolin, 2+1 gravity
 and doubly special relativity, Phys. Rev. D69 (2004) 044001. Also
-available as [hep-th/0307085](http://xxx.lanl.gov/abs/hep-th/0307085).
+available as [`hep-th/0307085`](http://xxx.lanl.gov/abs/hep-th/0307085).
 
 This effect is a bit less shocking if we put the units back in. I've
 secretly been setting 4\pi G = 1, where G is Newton's gravitational
@@ -390,7 +390,7 @@ Now, what happens when we go from 3 dimensions to 4 dimensions?
 
 Well, we can write down the same sort of theory:
 
-S   =   ∫~M~ tr(B \^ F)   -   ∫~W~ tr((B + d~A~q) \^ p)
+S   =   \int~M~ tr(B \^ F)   -   \int~W~ tr((B + d~A~q) \^ p)
 
 The only visible difference is that what I'd been calling "e" is now
 called "B", so you can see why folks call this "BF theory".
@@ -503,7 +503,7 @@ a lot to learn. Tomorrow he's giving a talk about this:
 
 17) David S. Berman, Malcolm J. Perry, M-theory and the string genus
 expansion, Phys. Lett. B635 (2006) 131-135. Also available as
-[hep-th/0601141](http://arxiv.org/abs/hep-th/0601141).
+[`hep-th/0601141`](http://arxiv.org/abs/hep-th/0601141).
 
 ------------------------------------------------------------------------
 

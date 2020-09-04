@@ -661,11 +661,11 @@ In fact, Kevin Buzzard's email was packed with wisdom. He wrote:
 > compute how many cusps were added to compactify it. So in practice you
 > just have to find a friendly modular forms person and then say "hey,
 > what's the genus of X_1(5) and how many cusps does it have?" and
-> then you have a complete description of Γ_1(5) because it's \pi _1 of
+> then you have a complete description of Γ_1(5) because it's \pi_1 of
 > the answer.
 >
 > OK, the upper half plane modulo Γ_1(5) is the sphere minus 4 points,
-> so Γ_1(5) is \pi _1 of this, i.e. it's free on three generators. That
+> so Γ_1(5) is \pi_1 of this, i.e. it's free on three generators. That
 > makes the Euler characteristic of Γ_1(5) equal to 1-3=-2. And we
 > already checked that the index was 24, so the Euler Characteristic of
 > \mathrm{SL}(2,\mathbb{Z}) works out to be -1/12. Grothendieck wouldn't have chosen

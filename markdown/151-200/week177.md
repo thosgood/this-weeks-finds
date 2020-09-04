@@ -122,7 +122,7 @@ we'll get very far until we combine both aspects into a unified
 description, but work on that is just beginning:
 
 3) Aleksandar Mikovic, Spin foam models of matter coupled to gravity,
-[hep-th/0108099](http://xxx.lanl.gov/abs/hep-th/0108099).
+[`hep-th/0108099`](http://xxx.lanl.gov/abs/hep-th/0108099).
 
 Aleksandar Mikovic, Quantum field theory of open spin networks and new
 spin foam models, available as
@@ -162,7 +162,7 @@ clarifying the inner workings of the spin foam formalism:
 
 6) Robert Oeckl, Generalized lattice gauge theory, spin foams and state
 sum invariants, available as
-[hep-th/0110259](http://xxx.lanl.gov/abs/hep-th/0110259).
+[`hep-th/0110259`](http://xxx.lanl.gov/abs/hep-th/0110259).
 
 Florian Girelli, Robert Oeckl and Alejandro Perez, Spin foam
 diagrammatics and topological invariance, available as
@@ -226,7 +226,7 @@ De Pietri, Freidel, Krasnov and Rovelli:
 9) Roberto De Pietri, Laurent Freidel, Kirill Krasnov, and Carlo
 Rovelli, Barrett-Crane model from a Boulatov-Ooguri field theory over a
 homogeneous space, preprint available as
-[hep-th/9907154](http://xxx.lanl.gov/abs/hep-th/9907154).
+[`hep-th/9907154`](http://xxx.lanl.gov/abs/hep-th/9907154).
 
 Our calculations show that the partition function diverges very rapidly
 in their model. In fact, when we summed the amplitudes of spin foams

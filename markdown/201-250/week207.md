@@ -653,7 +653,7 @@ Zanelli, Geometry of the 2+1 black hole, Phys. Rev. D48 (1993)
 The relevant paper by Maldacena seems to be:
 
 4) Juan Maldacena, Eternal Black Holes in AdS, JHEP 0304 (2003) 021,
-also available as [hep-th/0106122](http://arxiv.org/abs/hep-th/0106112).
+also available as [`hep-th/0106122`](http://arxiv.org/abs/hep-th/0106112).
 
 You can also see a talk he gave on this at the Institute for Theoretical
 Physics at U. C. Santa Barbara:

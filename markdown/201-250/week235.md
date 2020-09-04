@@ -306,7 +306,7 @@ constant approaches zero.
 
 14) Aristide Baratin and Laurent Freidel, Hidden quantum gravity in 4d
 Feynman diagrams: emergence of spin foams. Available as
-[hep-th/0611042](http://arxiv.org/abs/hep-th/0611042).
+[`hep-th/0611042`](http://arxiv.org/abs/hep-th/0611042).
 
 It's the sequel of this paper for 3d spacetime:
 

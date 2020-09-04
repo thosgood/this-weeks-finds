@@ -715,7 +715,7 @@ I guess this is a famous paper about this stuff:
 
 16) Michael R. Douglas and Gregory Moore, D-branes, quivers and ALE
 instantons, available as
-[hep-th/9603167](http://xxx.lanl.gov/abs/hep-th/9603167).
+[`hep-th/9603167`](http://xxx.lanl.gov/abs/hep-th/9603167).
 
 ------------------------------------------------------------------------
 

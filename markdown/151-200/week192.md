@@ -319,7 +319,7 @@ higher dimensions:
 
 9) Lubos Motl and Andrew Neitzke, Asymptotic black hole quasinormal
 frequencies, available at
-[hep-th/0301173](http://xxx.lanl.gov/abs/hep-th/0301173).
+[`hep-th/0301173`](http://xxx.lanl.gov/abs/hep-th/0301173).
 
 Also, Hod has generalized his work to rotating black holes:
 

@@ -33,7 +33,7 @@ knowing this would be equivalent to knowing that the number of primes
 less than x differs from
 
               x
-    Li(x) =  ∫  dt/ln t  
+    Li(x) =  \int  dt/ln t  
              2
 
 by less than some constant times ln(x) √x. Everyone feels sure these

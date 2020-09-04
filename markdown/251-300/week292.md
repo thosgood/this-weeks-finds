@@ -485,7 +485,7 @@ theory, and complex analysis. Here's a quick survey:
     Laplace equation. This is the equation a function f satisfies when
     it minimizes
 
-    ∫ (∇f)^2
+    \int (∇f)^2
 
     So, circuits of this second kind are closely related to the Laplace
     equation, differential forms, Hodge theory and the like. In fact
@@ -607,7 +607,7 @@ it solved a basic problem.
 > an extra constraint with a Lagrange multiplier p, to get a functional
 > of the form
 >
-> S(q, v, p) = ∫ p (q' - v) + L(q, v) dt
+> S(q, v, p) = \int p (q' - v) + L(q, v) dt
 >
 > where q, v, p are varied independently. The result is the
 > Euler-Lagrange equations in implicit form, together with Hamilton's

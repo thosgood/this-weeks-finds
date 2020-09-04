@@ -179,13 +179,13 @@ Helling:
 
 10) Hermann Nicolai and Robert Helling, Supermembranes and M(atrix)
 theory, available as
-[hep-th/9809103](http://xxx.lanl.gov/abs/hep-th/9809103).
+[`hep-th/9809103`](http://xxx.lanl.gov/abs/hep-th/9809103).
 
 and then this new review article by Wati Taylor:
 
 10) Washington Taylor, M(atrix) theory: matrix quantum mechanics as a
 fundamental theory, available as
-[hep-th/0101126](http://xxx.lanl.gov/abs/hep-th/0101126).
+[`hep-th/0101126`](http://xxx.lanl.gov/abs/hep-th/0101126).
 
 They're both pretty cool. How does a theory of matrices wind up acting
 like a theory of membranes? That's what you'll understand if you study

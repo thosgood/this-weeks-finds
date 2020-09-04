@@ -513,8 +513,8 @@ omega-groupoids, available at
 > several features of these representations: total number of fields,
 > grading of the fields, graph interpretation, connectivity of the
 > graphs, etc. etc. Basic references can be found in
-> [hep-th/0010135](http://arxiv.org/abs/hep-th/0010135) (in JMP),
-> [hep-th/0610180](http://arxiv.org/abs/hep-th/0610180) (PoS), or typing
+> [`hep-th/0010135`](http://arxiv.org/abs/hep-th/0010135) (in JMP),
+> [`hep-th/0610180`](http://arxiv.org/abs/hep-th/0610180) (PoS), or typing
 > my name (and Gates'name) in the arXiv. Perhaps you could find these
 > interesting to have a look at.
 

@@ -19,7 +19,7 @@ It's very readable, with a long historical introduction that'll help
 you understand the motivations behind current work, and a warmup section
 on strict $n$-categories - which are relatively easy - before diving into
 the subtleties of weak ones. It compares many approaches to weak
-n-categories before explaining his own.
+$n$-categories before explaining his own.
 
 This could be the book the world has been waiting for! And he's asking
 for comments and corrections, so you can help make it better.

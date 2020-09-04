@@ -16,7 +16,7 @@ Here are some of the papers I'm struggling to read about this. First, a
 nice introduction to how supergravity works in different dimensions:
 
 1) Antoine Van Proeyen, Structure of supergravity theories, available
-as [hep-th/0301005](http://www.arXiv.org/abs/hep-th/0301005).
+as [`hep-th/0301005`](http://www.arXiv.org/abs/hep-th/0301005).
 
 "We give an elementary introduction to the structure of supergravity
 theories. This leads to a table with an overview of supergravity and
@@ -33,7 +33,7 @@ lower ones by curling up the extra dimensions. It turns out that
 oxidation is deeply related to Dynkin diagrams:
 
 2) Arjan Keurentjes, The group theory of oxidation, available as
-[hep-th/0210178](http://www.arXiv.org/abs/hep-th/0210178).
+[`hep-th/0210178`](http://www.arXiv.org/abs/hep-th/0210178).
 
 "Dimensional reduction of (super-)gravity theories to 3 dimensions
 results in σ models on coset spaces G/H, such as the E8/\mathrm{SO}(16) coset in
@@ -53,7 +53,7 @@ easily understood in this framework."
 Next, a tour of places where the octonions show up in string theory:
 
 3) Luis J. Boya, Octonions and M-theory, available as
-[hep-th/0301037](http://www.arXiv.org/abs/hep-th/0301037).
+[`hep-th/0301037`](http://www.arXiv.org/abs/hep-th/0301037).
 
 "We explain how structures related to octonions are ubiquitous in
 M-theory. All the exceptional Lie groups, and the projective Cayley line
@@ -69,7 +69,7 @@ And here's an article about where the exceptional groups show up, from
 a true expert on the subject:
 
 4) Pierre Ramond, Exceptional groups and physics, available as
-[hep-th/0301050](http://www.arXiv.org/abs/hep-th/0301050).
+[`hep-th/0301050`](http://www.arXiv.org/abs/hep-th/0301050).
 
 "Quarks and leptons charges and interactions are derived from gauge
 theories associated with symmetries. Their space-time labels come from

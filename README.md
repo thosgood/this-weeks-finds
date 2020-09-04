@@ -1,5 +1,7 @@
 # TODO
 
+- footnotes?
+    + 151
 - dates for 151-300
 - **diagrams**
     + 145

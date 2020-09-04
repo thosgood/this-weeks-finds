@@ -488,7 +488,7 @@ Containing:
 > at `http://philsci-archive.pitt.edu/archive/00001845/`
 >
 > Lee Smolin, The case for background independence. Also available as
-> [hep-th/0507235](http://xxx.lanl.gov/abs/hep-th/0507235).
+> [`hep-th/0507235`](http://xxx.lanl.gov/abs/hep-th/0507235).
 >
 > John Baez, Quantum quandaries: A category-theoretic perspective. Also
 > available at `http://math.ucr.edu/home/baez/quantum/` and as

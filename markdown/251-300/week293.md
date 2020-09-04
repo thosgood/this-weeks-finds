@@ -1,7 +1,7 @@
 # DATE {#week293}
 
 This week I want to list a bunch of recent papers and books on
-n-categories. Then I'll tell you about a conference on the math of
+$n$-categories. Then I'll tell you about a conference on the math of
 environmental sustainability and green technology. And then I'll
 continue my story about electrical circuits. But first...
 

@@ -42,7 +42,7 @@ The proof sounds nice! Jyesthadeva starts with something like this:
 
 In modern terms, the right-hand side is just the integral
 
-∫~0~^1 dx/(1 + x^2)
+\int~0~^1 dx/(1 + x^2)
 
 You can use geometry to see this equals \pi /4. Then, as far as I can tell,
 he writes

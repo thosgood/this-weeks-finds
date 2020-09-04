@@ -20,7 +20,7 @@ I've been talking to lots of people here, including Lee Smolin, who
 just came out with this review article on quantum gravity:
 
 2) Lee Smolin, How far are we from the quantum theory of gravity?,
-available as [hep-th/0303185](http://xxx.lanl.gov/abs/hep-th/0303185).
+available as [`hep-th/0303185`](http://xxx.lanl.gov/abs/hep-th/0303185).
 
 He compares all the main approaches, with an emphasis on loop quantum
 gravity and string theory. This is great, because he's one of the few
@@ -126,25 +126,25 @@ Here's a good review of D'Hoker and Phong's proof that heterotic and
 type II superstring theory are finite up to 2 loops:
 
 3) Eric D'Hoker and D.H. Phong, Lectures on two-loop superstrings,
-available as [hep-th/0211111](http://xxx.lanl.gov/abs/hep-th/0211111).
+available as [`hep-th/0211111`](http://xxx.lanl.gov/abs/hep-th/0211111).
 
 It summarizes four long papers of theirs:
 
 4) Eric D'Hoker and D.H. Phong, Two-loop superstrings: I, The main
 formulas, Phys. Lett. B529 (2002), 241-255. Also available as
-[hep-th/0110247](http://xxx.lanl.gov/abs/hep-th/0110247).
+[`hep-th/0110247`](http://xxx.lanl.gov/abs/hep-th/0110247).
 
 II, The chiral measure on moduli space, Nucl. Phys. B636 (2002), 3-60.
 Also available as
-[hep-th/0110283](http://xxx.lanl.gov/abs/hep-th/0110283).
+[`hep-th/0110283`](http://xxx.lanl.gov/abs/hep-th/0110283).
 
 III, Slice independence and absence of ambiguities, Nucl. Phys. B636
 (2002), 61-79. Also available as
-[hep-th/0111016](http://xxx.lanl.gov/abs/hep-th/0111016).
+[`hep-th/0111016`](http://xxx.lanl.gov/abs/hep-th/0111016).
 
 IV, The cosmological constant and modular forms, Nucl. Phys. B639
 (2002), 129-181. Also available as
-[hep-th/0111040](http://xxx.lanl.gov/abs/hep-th/0111040).
+[`hep-th/0111040`](http://xxx.lanl.gov/abs/hep-th/0111040).
 
 The quote above is taken from part I.
 
@@ -201,7 +201,7 @@ supergravity, try these review articles:
 
 6) Stanley Deser, Nonrenormalizability of (last hope) D=11
 supergravity, with a terse survey of divergences in quantum gravities,
-available as [hep-th/9905017](http://xxx.lanl.gov/abs/hep-th/9905017).
+available as [`hep-th/9905017`](http://xxx.lanl.gov/abs/hep-th/9905017).
 
 7) Stanley Deser, Infinities in quantum gravities, Annalen Phys. 9
 (2000) 299-307. Also available as

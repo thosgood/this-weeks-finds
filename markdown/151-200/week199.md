@@ -234,7 +234,7 @@ equivalent to the assertion that the number of primes less than x
 differs from
 
               \infty 
-    Li(x) =  ∫  dt/ln t  
+    Li(x) =  \int  dt/ln t  
              2
 
 by less than some constant times ln(x) √x.
