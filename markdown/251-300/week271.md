@@ -80,7 +80,7 @@ crystals made of ring-shaped molecules containing 8 atoms each:
 :::
 
 α-sulfur is lemon yellow, but above 95 degrees Celsius it gradually
-turns into pale yellow β-sulfur: the ring-shaped molecules reorganize to
+turns into pale yellow \beta-sulfur: the ring-shaped molecules reorganize to
 form crystals with less symmetry -
 [monoclinic](http://en.wikipedia.org/wiki/Monoclinic_crystal_system)
 crystals, to be precise.

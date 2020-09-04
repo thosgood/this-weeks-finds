@@ -10,7 +10,7 @@ interior cools down enough:
 
 1) Sloane J. Wiktorowica and Andrew P. Ingersoll, Liquid water oceans
 in ice giants, available as
-[astro-ph/0609723](http://xxx.lanl.gov/abs/astro-ph/0609723).
+[`astro-ph/0609723`](http://xxx.lanl.gov/abs/astro-ph/0609723).
 
 Right now, even though Neptune is named after the Roman god of seas and
 has a nice blue appearance:
@@ -199,7 +199,7 @@ then lost a lot of their atmosphere:
 5) I. Baraffe, G. Chabrier, T. S. Barman, F. Selsis, F. Allard, and P.
 H. Hauschildt, Hot-Jupiters and hot-Neptunes, a common origin?,
 available at
-[astro-ph/0505054](http://www.arxiv.org/abs/astro-ph/0505054).
+[`astro-ph/0505054`](http://www.arxiv.org/abs/astro-ph/0505054).
 
 There could also be cold Neptunes, perhaps with liquid water oceans. We
 haven't seen these yet, but they'd be hard to see. So, while
@@ -288,7 +288,7 @@ role of turbulence in winding up the galactic magnetic field:
 
 8) Stanislav Boldyrev and Farhad Yusef-Zadeh, Turbulent origin of the
 galactic-center magnetic field: nonthermal radio filaments, available as
-[astro-ph/0512373](http://xxx.lanl.gov/abs/astro-ph/0512373).
+[`astro-ph/0512373`](http://xxx.lanl.gov/abs/astro-ph/0512373).
 
 It's a complicated stew. I don't hope to understand it, just admire
 it.

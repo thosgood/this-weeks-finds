@@ -8,7 +8,7 @@ Milky Way is surrounded by an enormous halo of dark matter, which may be
 First clear signature of an extended dark matter halo in the Draco dwarf
 spheroidal, Astrophysical Journal Letters 563 (2001), L115-118. Also
 available at
-[astro-ph/0111329](http://xxx.lanl.gov/abs/astro-ph/0111329).
+[`astro-ph/0111329`](http://xxx.lanl.gov/abs/astro-ph/0111329).
 
 This just emphasizes a well-known fact: "dark matter" is one of the
 biggest mysteries in physics today. Unless we're mixed up, which is
@@ -210,7 +210,7 @@ neutralinos, axions, axinos, gravitinos, MACHOs - you name it!
 
 12) B. J. Carr, Recent developments in the search for baryonic dark
 matter, available as
-[astro-ph/0102389](http://xxx.lanl.gov/abs/astro-ph/0102389).
+[`astro-ph/0102389`](http://xxx.lanl.gov/abs/astro-ph/0102389).
 
 Okay, now on to something more mathematical....
 

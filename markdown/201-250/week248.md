@@ -97,7 +97,7 @@ in that movie above. For more, try this:
 8) Andrew L. Haynes, Clare E. Parnell, Klaus Galsgaard and Eric R.
 Priest, Magnetohydrodynamic evolution of magnetic skeletons, Proc. Roy.
 Soc. Lond. A 463 (2007) 1097-1115. Also available as
-[astro-ph/0702604](http://arxiv.org/abs/astro-ph/0702604).
+[`astro-ph/0702604`](http://arxiv.org/abs/astro-ph/0702604).
 
 A new satellite called Hinode is getting a good look at what's going
 on, and it seems the magnetic field on the Sun's surface is much more

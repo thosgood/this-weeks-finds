@@ -82,21 +82,21 @@ Dark matter and the Bullet Cluster, available at
 Forman, C. Jones, S. Murray, and W. Tucker, Direct constraints on the
 dark matter self-interaction cross-section from the merging galaxy
 cluster 1E0657-56, available as
-[astro-ph/0309303](http://arxiv.org/abs/astro-ph/0309303).
+[`astro-ph/0309303`](http://arxiv.org/abs/astro-ph/0309303).
 
 5) Maxim Markevitch, Chandra observation of the most interesting
 cluster in the Universe, available as
-[astro-ph/0511345](http://xxx.lanl.gov/abs/astro-ph/0511345).
+[`astro-ph/0511345`](http://xxx.lanl.gov/abs/astro-ph/0511345).
 
 6) M. Markevitch, A. H. Gonzalez, L. David, A. Vikhlinin, S. Murray, W.
 Forman, C. Jones and W. Tucker, A textbook example of a bow shock in the
 merging galaxy cluster 1E0657-56, Astrophys. J. 567 (2002), L27. Also
 available as
-[astro-ph/0110468](http://xxx.lanl.gov/abs/astro-ph/0110468).
+[`astro-ph/0110468`](http://xxx.lanl.gov/abs/astro-ph/0110468).
 
 7) Eric Hayashi and Simon D. M. White, How rare is the Bullet Cluster?,
 Mon. Not. Roy. Astron. Soc. Lett. 370 (2006), L38-L41, available as
-[astro-ph/0604443](http://xxx.lanl.gov/abs/astro-ph/0604443).
+[`astro-ph/0604443`](http://xxx.lanl.gov/abs/astro-ph/0604443).
 
 The first of these is, alas, only the abstract of a talk. But it's
 worth reading, so I'll quote it in its entirety here:

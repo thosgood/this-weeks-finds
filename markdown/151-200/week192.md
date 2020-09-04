@@ -44,7 +44,7 @@ long-sought "mother of actinium" in this decay series:
          v
     90 thorium 231 
          |
-         | β decay: 25.5 hours             
+         | \beta decay: 25.5 hours             
          |                                  
          v
     91 protactinium 231                       
@@ -54,7 +54,7 @@ long-sought "mother of actinium" in this decay series:
          v
     89 actinium 227
          |
-         | β decay: 21.8 years
+         | \beta decay: 21.8 years
          |
          v
     90 thorium 227
@@ -79,7 +79,7 @@ long-sought "mother of actinium" in this decay series:
          v
     82 lead 211
          |
-         | β decay: 36.1 minutes
+         | \beta decay: 36.1 minutes
          |
          v
     83 bismuth 211 
@@ -89,16 +89,16 @@ long-sought "mother of actinium" in this decay series:
          v
     81 tellurium 207
          |
-         | β decay: 4.77 minutes
+         | \beta decay: 4.77 minutes
          |
          v
     82 lead 207 
 
 As you can see by staring at the numbers, in "α decay" a nucleus emits
 a helium nucleus or "α particle" - 2 protons and 2 neutrons - so its
-atomic number goes down by 2 and its atomic mass goes down by 4. In "β
+atomic number goes down by 2 and its atomic mass goes down by 4. In "\beta
 decay" a neutron decays into a proton and emits a neutrino and an
-electron, or "β particle", so its atomic number goes up by 1 and its
+electron, or "\beta particle", so its atomic number goes up by 1 and its
 mass stays almost the same.
 
 But to understand Meitner's work in context, you have to realize that
@@ -124,20 +124,20 @@ mysterious why these nuclear electrons should act different from the
 others: as Bohr put it, they showed a "remarkable passivity". They
 didn't even have any spin angular momentum! But on the other hand, they
 certainly seemed to exist - since sometimes they would shoot out in the
-form of β radiation!
+form of \beta radiation!
 
 To solve this puzzle one needed to postulate a neutral particle as heavy
-as a proton and invent a theory of β decay in which this particle could
+as a proton and invent a theory of \beta decay in which this particle could
 decay into a proton while emitting an electron. But there was an
 additional complication: unlike α radiation, which had a definite
-energy, β radiation had a continuous spectrum of energies. Meitner
+energy, \beta radiation had a continuous spectrum of energies. Meitner
 didn't believe this at first, but eventually her careful experiments
 forced her and everyone else to admit it was true. The energy
 bookkeeping just didn't add up properly.
 
 This led to a crisis in nuclear physics around 1929. Bohr decided that
 the only way out was a failure of conservation of energy! Pauli thought
-of a slightly less radical way out: in β decay, maybe some of the energy
+of a slightly less radical way out: in \beta decay, maybe some of the energy
 is carried off by yet another neutral particle, this time one of low
 mass. Two mysterious unseen neutral particles was a lot to stomach! In
 1931 Fermi called the big one the "neutron" and the little one the
@@ -154,7 +154,7 @@ excitement but also the technical details of Meitner's detective work.
 At first, most of this work involved studying three different decay
 series. The one I drew above is called the "actinium series": starting
 with uranium 235, it hopscotches around the period table until it lands
-stably on lead 207. Since both α and β decay conserve the atomic mass
+stably on lead 207. Since both α and \beta decay conserve the atomic mass
 modulo 4, all elements in the actinium series have atomic mass equal to
 3 mod 4. Similarly, elements in the "uranium series" starting with
 uranium 238 have atomic mass equal to 2 mod 4. Elements in the "thorium

@@ -239,17 +239,17 @@ in his computer-generated voice:
 > Lorentzian time interval, T, at infinity, it would introduce closed
 > timelike curves. But if the interval at infinity is the Euclidean
 > distance, beta, the path integral gives the partition function for
-> gravity at temperature 1/β.
+> gravity at temperature 1/\beta.
 >
 > The partition function of a system is the trace over all states,
-> weighted with e^-β\ H^. One can then integrate β along a contour
-> parallel to the imaginary axis with the factor e^-β\ E^. This projects
+> weighted with e^-\beta\ H^. One can then integrate \beta along a contour
+> parallel to the imaginary axis with the factor e^-\beta\ E^. This projects
 > out the states with energy E~0~. In a gravitational collapse and
 > evaporation, one is interested in states of definite energy, rather
 > than states of definite temperature.
 >
 > There is an infrared problem with this idea for asymptotically flat
-> space. The Euclidean path integral with period β is the partition
+> space. The Euclidean path integral with period \beta is the partition
 > function for space at temperature 1/beta. The partition function is
 > infinite because the volume of space is infinite. This infrared
 > problem can be solved by a small negative cosmological constant. It

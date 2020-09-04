@@ -245,7 +245,7 @@ limits on this dispersion effect. For more details, try:
 9) J. Ellis, K. Farakos, N.E. Mavromatos, V. Mitsou and D.V.
 Nanopoulos, Astrophysical probes of the constancy of the velocity of
 light, Astrophys. J. 535 (2000) 139-151, also available as
-[astro-ph/9907340](http://xxx.lanl.gov/abs/astro-ph/9907340).
+[`astro-ph/9907340`](http://xxx.lanl.gov/abs/astro-ph/9907340).
 
 So far, nobody has seen quantum gravity effects this way.
 

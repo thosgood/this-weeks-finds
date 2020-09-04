@@ -245,7 +245,7 @@ the Big Bang:
 6) Marcelo A. Alvarez, Paul R. Shapiro, Kyungjin Ahn and Ilian T.
 Iliev, Implications of WMAP 3 year data for the sources of reionization,
 Astrophys. J. 644 (2006), L101-L104. Also available as
-[astro-ph/0604447](http://xxx.lanl.gov/abs/astro-ph/0604447).
+[`astro-ph/0604447`](http://xxx.lanl.gov/abs/astro-ph/0604447).
 
 This would be too early for hydrogen snow, since my rough calculation
 says the microwave background radiation was 30 kelvin then, while
@@ -261,12 +261,12 @@ sort of statistical sense:
 7) A. Kashlinsky, R. G. Arendt, J. Mather and S. H. Moseley, New
 measurements of cosmic infrared background fluctuations from early
 epochs, to appear in Ap. J. Letters. Available as
-[astro-ph/0612445](http://xxx.lanl.gov/abs/astro-ph/0612445).
+[`astro-ph/0612445`](http://xxx.lanl.gov/abs/astro-ph/0612445).
 
 8) A. Kashlinsky, R. G. Arendt, J. Mather and S. H. Moseley, On the
 nature of the sources of the cosmic infrared background, to appear in
 Ap. J. Letters. Available as
-[astro-ph/0612447](http://xxx.lanl.gov/abs/astro-ph/0612447).
+[`astro-ph/0612447`](http://xxx.lanl.gov/abs/astro-ph/0612447).
 
 Using delicate techniques to carefully sift through the *infrared* (not
 microwave) background radiation, the authors claim to find radiation not

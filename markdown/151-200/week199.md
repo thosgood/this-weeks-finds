@@ -208,26 +208,26 @@ To see this, let's do some statistical mechanics with the free Riemann
 gas! As usual, at any temperature T the probability that this system
 will be in a state of energy E is proportional to
 
-    exp(-βE)
+    exp(-\betaE)
 
-where β = 1/kT and k is Boltzmann's constant. But to get these numbers
+where \beta = 1/kT and k is Boltzmann's constant. But to get these numbers
 to add up to one as probabilities should, we have to normalize them,
 dividing by their sum, which goes by the name of the "partition
 function". The partition function for the free Riemann gas is:
 
-                               -β
-     \sum exp(-β ln n)   =   \sum  n
+                               -\beta
+     \sum exp(-\beta ln n)   =   \sum  n
      n                    n
 
-the so-called "Riemann zeta function". It's well-defined for β > 1 -
-that is, low temperatures - but it blows up when β = 1. This means that
+the so-called "Riemann zeta function". It's well-defined for \beta > 1 -
+that is, low temperatures - but it blows up when \beta = 1. This means that
 the free Riemann gas has a "Hagedorn temperature": a temperature that
 it can't go above, because doing so would take an infinite amount of
 energy.
 
 Nonetheless we can analytically continue the Riemann zeta function
-around β = 1, and the Riemann hypothesis says that it can only vanish if
-β is a negative even integer or a number with real part equal to 1/2.
+around \beta = 1, and the Riemann hypothesis says that it can only vanish if
+\beta is a negative even integer or a number with real part equal to 1/2.
 And, precisely because the free Riemann gas is made of primons, this
 hypothesis has a lot to do with prime numbers! For example, it's
 equivalent to the assertion that the number of primes less than x
@@ -261,7 +261,7 @@ their abstract in front of you:
 > function and the Galois group Gal(Q^cycl^/ Q) of the cyclotomic
 > extension Q^cycl^ of Q as symmetry group. Moreover, it exhibits a
 > phase transition with spontaneous symmetry breaking at inverse
-> temperature β = 1.
+> temperature \beta = 1.
 
 Here's the reference:
 

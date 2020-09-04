@@ -836,11 +836,11 @@ will take the liberty of numbering:
 >
 > Mihailo Cubrovic, Regimes of stability and scaling relations for the
 > removal time in the asteroid belt, available as
-> [astro-ph/0501004](http://arxiv.org/abs/astro-ph/0501004).
+> [`astro-ph/0501004`](http://arxiv.org/abs/astro-ph/0501004).
 >
 > Ryszard Gabryszewski and Ireneusz Wlodarczyk, The resonant dynamical
 > evolution of small body orbits among giant planets, available as
-> [astro-ph/0203182](http://arxiv.org/abs/astro-ph/0203182).
+> [`astro-ph/0203182`](http://arxiv.org/abs/astro-ph/0203182).
 >
 > Luz V. Vela-Arevalo and Jerrold E. Marsden, Time-frequency analysis of
 > the restricted three-body problem: transport and resonance

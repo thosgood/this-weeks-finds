@@ -231,7 +231,7 @@ He sent me this email:
 > understand the importance of the concept of momentum, chose \pi  to stand
 > for momentum (actually, it's not the usual \pi , but what TeX calls
 > varpi, a lower-case ω with a top, kinda like the top of a lower-case
-> τ). Jacobi changed this to p in one of his seminal papers on the
+> \tau). Jacobi changed this to p in one of his seminal papers on the
 > subject; he also used q in the same paper to stand for position. In
 > the 1800s (I want to say 1850s, though it might have been a decade or
 > two later) Cayley presented a paper to the Royal Academy in which he

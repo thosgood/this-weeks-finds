@@ -549,7 +549,7 @@ above might not satisfy him:
 >
 > Then, in Section 2.3, they switch to loop quantization. They don't
 > give a vast amount of detail on why one should do this, but they do
-> say what is being done. Briefly, instead of the variable c = da/dτ
+> say what is being done. Briefly, instead of the variable c = da/d\tau
 > (the rate of expansion of the universe, closely related to spacetime
 > curvature in this model) we switch to using exp(ic) and exp(-ic). In a
 > deeper treatment this comes from using holonomies instead of the

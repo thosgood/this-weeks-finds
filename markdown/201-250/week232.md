@@ -92,7 +92,7 @@ neutrinos, try this:
 7) M. Ackermann et al, Search for extraterrestrial point sources of
 high energy neutrinos with AMANDA-II using data collected in 2000-2002,
 available as
-[astro-ph/0412347](http://xxx.lanl.gov/abs/astro-ph/0412347).
+[`astro-ph/0412347`](http://xxx.lanl.gov/abs/astro-ph/0412347).
 
 For much more, try these:
 

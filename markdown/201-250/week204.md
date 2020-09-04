@@ -374,7 +374,7 @@ astrophysics! Here's the current list of problems:
 >
 > 7) What is the correct theory of neutrinos? Why are they almost but
 > not quite massless? Do all three known neutrinos - electron, muon, and
-> τ - all have a mass?
+> \tau - all have a mass?
 >
 > 8) Is quantum chromodynamics (QCD) a precise description of the
 > behavior of quarks and gluons? Can we prove that quarks are gluons are

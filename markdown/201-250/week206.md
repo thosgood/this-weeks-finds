@@ -410,10 +410,10 @@ Here are two reviews that Smolin especially recommended:
 
 14) Robert H. Sanders and Stacy S. McGaugh, Modified Newtonian Dynamics
 as an Alternative to Dark Matter, available as
-[astro-ph/0204521](http://xxx.lanl.gov/abs/astro-ph/0204521).
+[`astro-ph/0204521`](http://xxx.lanl.gov/abs/astro-ph/0204521).
 
 15) Anthony Aguirre, Alternatives to dark matter (?), available as
-[astro-ph/0310572](http://xxx.lanl.gov/abs/astro-ph/0310572).
+[`astro-ph/0310572`](http://xxx.lanl.gov/abs/astro-ph/0310572).
 
 Here's McGaugh's website with links to many papers on MOND, including
 Milgrom's original papers:
@@ -458,7 +458,7 @@ Steve Carlip wrote:
 >
 > M. Kaplinghat and M. S. Turner, "How Cold Dark Matter Theory Explains
 > Milgrom's Law,"
-> [astro-ph/0107284](http://www.arXiv.org/abs/astro-ph/0107284),
+> [`astro-ph/0107284`](http://www.arXiv.org/abs/astro-ph/0107284),
 > Astrophys. J. 569 (2002) L19. Note that this analysis also explains
 > why the "critical acceleration" in MOND does *not* apply at cluster
 > scales. There is some debate over these results, but the paper is
@@ -475,7 +475,7 @@ Rein Halbersma wrote:
 > discussions! In your Finds in Week 206 you discuss the MOND-framework
 > of Milgrom and asked for detailed critique of it. A few years ago the
 > authors Scott, White, Cohn and Pierpaoli
-> ([astro-ph/0104435](http://www.arXiv.org/astro-ph/0104435)) published
+> ([`astro-ph/0104435`](http://www.arXiv.org/astro-ph/0104435)) published
 > precisely such an account. Hopefully it is of use to you.
 >
 > As an aside, my connection with the whole MOND story is this: I have a
@@ -508,7 +508,7 @@ Christine Dantas wrote:
 > Christine Dantas\
 > INPE/Brazil\
 >
-> [astro-ph/0403694](http://www.arXiv.org/abs/astro-ph/0403694)\
+> [`astro-ph/0403694`](http://www.arXiv.org/abs/astro-ph/0403694)\
 > Relativistic gravitation theory for the MOND paradigm\
 > Jacob D. Bekenstein\
 >
@@ -526,7 +526,7 @@ Christine Dantas wrote:
 > metric, a scalar field and a 4-vector field, all three dynamical. For
 > a simple choice of its free function, the theory has a Newtonian limit
 > for nonrelativistic dynamics with significant acceleration, but a MOND
-> limit when accelerations are small. We calculate the β and γ PPN
+> limit when accelerations are small. We calculate the \beta and γ PPN
 > coefficients showing them to agree with solar system measurements. The
 > gravitational light deflection by nonrelativistic systems is governed
 > by the same potential responsible for dynamics of particles.
@@ -546,7 +546,7 @@ Ethan Vishniac wrote:
 > I don't have a reference for a skeptical review of MOND. As you might
 > expect, this is considered a fringe hypothesis by most. However, there
 > is an interesting paper you should see:
-> [astro-ph/0312273](http://www.arXiv.org/abs/astro-ph/0312273).
+> [`astro-ph/0312273`](http://www.arXiv.org/abs/astro-ph/0312273).
 >
 > Briefly, they examine a galaxy cluster with a strong sub-cluster,
 > which has just passed through the main cluster for the first time

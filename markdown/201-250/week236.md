@@ -1368,7 +1368,7 @@ Tim Chow replied:
 >
 > 1. As we ascend the ordinal hierarchy, isn't it illegitimate to make
 > a jump to an ordinal α unless we've already proved, at the level of
-> some ordinal β that we've already reached, that an ordinal of type α
+> some ordinal \beta that we've already reached, that an ordinal of type α
 > exists?
 >
 > 2. And isn't it illegitimate to create sets by quantification over

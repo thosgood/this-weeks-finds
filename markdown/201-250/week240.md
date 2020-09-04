@@ -883,7 +883,7 @@ category theory mailing list:
 >     LICS'97 paper cited above appears to be the first place the Copycat
 >     Condition appears in print, I like to think it was already understood at
 >     the time by people working in the area.  Technically speaking, winning
->     strategies correspond to η-expanded β-normal forms.  See pages 5-7 of
+>     strategies correspond to η-expanded \beta-normal forms.  See pages 5-7 of
 >     my thesis for an informal description of the correspondence.
 >
 >     It sounds like you've reached the point of trying to figure out how
@@ -899,7 +899,7 @@ category theory mailing list:
 >     Dominic
 >
 >     PS A game-theoretic characterisation with an entirely different flavour
->     (winning strategies less "obviously" corresponding to η-long β-normal
+>     (winning strategies less "obviously" corresponding to η-long \beta-normal
 >     forms) is:
 >
 >       Abramsky, S., Jagadeesan, R. and Malacaria, P., Full Abstraction for
