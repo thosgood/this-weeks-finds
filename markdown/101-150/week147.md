@@ -63,20 +63,19 @@ example, suppose we use $1$ to denote a set consisting of one dot, and $2$
 to denote a set of two dots. Then the natural isomorphism between $1+2$
 and $2+1$ can be visualized as the process of passing one dot past two,
 like this:
-
-                     .       .   .
-                      \     /   /
-                       \   /   /
-                        \ /   /
-                         /   /
-                        / \ /
-                       /   /
-                      /   / \
-                     /   /   \
-                    /   /     \
-                   /   /       \
-                  .   .         .
-
+$$
+  \begin{tikzpicture}[knot gap=7]
+    \draw[knot] (1,0) to (0,-3);
+    \draw[knot] (1.5,0) to (0.5,-3);
+    \draw[knot] (0,0) to (1.5,-3);
+    \node at (0,0) {$\bullet$};
+    \node at (1,0) {$\bullet$};
+    \node at (1.5,0) {$\bullet$};
+    \node at (0,-3) {$\bullet$};
+    \node at (0.5,-3) {$\bullet$};
+    \node at (1.5,-3) {$\bullet$};
+  \end{tikzpicture}
+$$
 This may seem like an excessively detailed "picture proof" that 1+2
 indeed equals 2+1, perhaps suitable for not-too-bright kindergarteners.
 But in fact it's just a hop, skip and a jump from here to heavy-duty
