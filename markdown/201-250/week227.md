@@ -37,7 +37,7 @@ height="351"}](http://marsrover.nasa.gov/newsroom/pressreleases/20040318a.html)
 at `http://marsrover.nasa.gov/newsroom/pressreleases/20040318a.html`
 
 Thanks to a Mössbauer spectroscope aboard the rover, which studies rocks
-by firing γ rays at them, we know these blueberries contain a lot of
+by firing \gamma rays at them, we know these blueberries contain a lot of
 hematite.
 
 Hematite is made of ferric oxide, Fe_2O_3, otherwise known as

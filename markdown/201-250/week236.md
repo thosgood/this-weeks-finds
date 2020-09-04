@@ -567,23 +567,23 @@ epsilons, and now these etas. It's gonna keep happening! For each type
 of ordinal, our notation runs out when we reach the first "fixed
 point" - when the xth ordinal of this type is actually equal to x.
 
-So, instead of making up infinitely many Greek letters, let's use φ~γ~
-for the γth type of ordinal, and φ~γ~(α) for the αth ordinal of type γ.
+So, instead of making up infinitely many Greek letters, let's use φ~\gamma~
+for the \gammath type of ordinal, and φ~\gamma~(α) for the αth ordinal of type \gamma.
 
-We can use the fixed point equation to define φ~γ+1~ in terms of φ~γ~.
+We can use the fixed point equation to define φ~\gamma+1~ in terms of φ~\gamma~.
 In other words, we start off by defining
 
 φ~0~(α) = ω^α^
 
 and then define
 
-φ~γ+1~(α)
+φ~\gamma+1~(α)
 
 to be the αth solution of
 
-x = φ~γ~(x)
+x = φ~\gamma~(x)
 
-We can even define this stuff when γ itself is infinite. For a more
+We can even define this stuff when \gamma itself is infinite. For a more
 precise definition see the Wikipedia article cited below... but I hope
 you get the rough idea.
 
@@ -594,10 +594,10 @@ There's a souped-up version of Cantor normal form that can handle every
 ordinal that's a finite sum of guys in the Veblen hierarchy: you can
 write them *uniquely* as finite sums of the form
 
-φ~γ_1~(α_1) + ... + φ~γ~k~~(α~k~)
+φ~\gamma_1~(α_1) + ... + φ~\gamma~k~~(α~k~)
 
 where each term is less than or equal to the previous one, and each α_i
-is not a fixed point of φ~γ_i~
+is not a fixed point of φ~\gamma_i~
 
 But as you might have suspected, not *all* ordinals can be written in
 this way. For one thing, every ordinal we've reached so far is
@@ -620,9 +620,9 @@ interesting to hear what happens next. At this point we reach something
 a bit like the Badlands on the western edge of South Dakota - something
 a bit spooky!
 
-It's called the Feferman-Schütte ordinal, Γ~0~. This is just the limit,
+It's called the Feferman-Schütte ordinal, \Gamma~0~. This is just the limit,
 or union if you prefer, of all the ordinals mentioned so far: all the
-ones you can get from the Veblen hierarchy. You can also define Γ~0~ by
+ones you can get from the Veblen hierarchy. You can also define \Gamma~0~ by
 a fixed point property: it's the smallest ordinal x with
 
 φ~x~(0) = x
@@ -635,16 +635,16 @@ Peano arithmetic!
 
 Logicians including Feferman and Schütte have carried out a detailed
 analysis of this subject. They know a lot about how much induction up to
-different ordinals buys you. And apparently, induction up to Γ~0~ lets
+different ordinals buys you. And apparently, induction up to \Gamma~0~ lets
 us prove the consistency of a system called "predicative analysis". I
 don't understand this, nor do I understand the claim I've seen that
-Γ~0~ is the first ordinal that cannot be defined predicatively - i.e.,
-can't be defined without reference to itself. Sure, saying Γ~0~ is the
+\Gamma~0~ is the first ordinal that cannot be defined predicatively - i.e.,
+can't be defined without reference to itself. Sure, saying \Gamma~0~ is the
 first solution of
 
 φ~x~(0) = x
 
-is non-predicative. But what about saying that Γ~0~ is the union of all
+is non-predicative. But what about saying that \Gamma~0~ is the union of all
 ordinals in the Veblen hierarchy? What's non-predicative about that?
 
 If anyone could explain this in simple terms, I'd be much obliged.
@@ -1294,15 +1294,15 @@ considered the first "impredicative" ordinal. He wrote:
 >      >Logicians including Feferman and Schütte have carried out a detailed 
 >      >analysis of this subject.  They know a lot about how much induction 
 >      >up to different ordinals buys you.  And apparently, induction up to 
->      >Γ0 lets us prove the consistency of a system called "predicative
+>      >\Gamma0 lets us prove the consistency of a system called "predicative
 >      >analysis".  I don't understand this, nor do I understand the claim
->      >I've seen that Γ0 is the first ordinal that cannot be defined
+>      >I've seen that \Gamma0 is the first ordinal that cannot be defined
 >      >predicatively - i.e., can't be defined without reference to itself.  
->      >Sure, saying Γ0 is the first solution of
+>      >Sure, saying \Gamma0 is the first solution of
 >      >
 >      >φx(0) = x
 >      >
->      >is non-predicative.  But what about saying that Γ0 is the union 
+>      >is non-predicative.  But what about saying that \Gamma0 is the union 
 >      >of all ordinals in the Veblen hierarchy?  What's non-predicative
 >      >about that?
 >
@@ -1311,19 +1311,19 @@ considered the first "impredicative" ordinal. He wrote:
 > (predicativity or computability) with a precise mathematical notion.
 > Therefore there is no definitive answer to your question, and Feferman
 > himself has articulated potential objections to the "standard view"
-> that Γ~0~ marks the boundary of predicativity.
+> that \Gamma~0~ marks the boundary of predicativity.
 >
 > Having said that, I'll also say that one of the reasons for the
-> standard view is that Γ~0~ marks the boundary of "autonomous
+> standard view is that \Gamma~0~ marks the boundary of "autonomous
 > progressions" of arithmetical theories. The book by Torkel Franzen
 > that you cited is probably the most accessible introduction to this
 > subject. Roughly speaking, the idea is that if anyone fully accepts
 > first-order Peano arithmetic PA, then implicitly he accepts its
 > consistency Con(PA), as well as Con(PA+Con(PA)), etc. If one tries to
 > articulate exactly what is "implicitly" involved in accepting PA in
-> this sense, then one can make a plausibility argument that Γ~0~ is a
+> this sense, then one can make a plausibility argument that \Gamma~0~ is a
 > natural stopping point. I think you have a better shot at grasping the
-> underlying intuition via this approach than by staring at Γ~0~ itself
+> underlying intuition via this approach than by staring at \Gamma~0~ itself
 > and trying to figure out what is non-predicative about its definition.
 
 I replied asking if "etc." means there's one theory like this per
@@ -1336,7 +1336,7 @@ argument", and noted:
 > `http://www.cs.nyu.edu/pipermail/fom/2006-April/010472.html`\
 > `http://www.math.wustl.edu/~nweaver/conceptualism.html`
 >
-> He seems to claim that Γ~0~ and even larger ordinals have predicative
+> He seems to claim that \Gamma~0~ and even larger ordinals have predicative
 > definitions. However, I'm too ignorant to follow this debate. Usually
 > in physics I have a sense for when people are being reasonable even if
 > I don't follow the details. In this debate I can't even do that.
@@ -1377,7 +1377,7 @@ Tim Chow replied:
 >
 > Condition 1 goes by the name of "autonomy" and condition 2 goes by
 > the name of "ramification." If one formalizes these notions in a
-> certain plausible manner, then one arrives at Γ~0~ as the least upper
+> certain plausible manner, then one arrives at \Gamma~0~ as the least upper
 > bound of theories that you can get to, starting with (for example) PA.
 >
 > One can of course wonder whether 1 and 2 above really capture the
@@ -1385,12 +1385,12 @@ Tim Chow replied:
 > of the following form: Some argument that intuitively seems to be
 > predicative but that is not immediately seen to be provable in the
 > Feferman-Schütte framework is shown, after some work, to indeed be
-> provable below Γ~0~.
+> provable below \Gamma~0~.
 >
 > It's still possible, of course, for someone---you mentioned Nik
 > Weaver--- to come along and argue that our intuitive notion of
 > predicativism, fuzzy though it is, can't possibly be identified with
-> the level Γ~0~. The reason you can't seem to decide immediately
+> the level \Gamma~0~. The reason you can't seem to decide immediately
 > whether Weaver's position is nonsensical or not is probably because
 > the critical questions are not mathematical but philosophical, and of
 > course it's usually harder to arrive at definitive answers in
@@ -1429,7 +1429,7 @@ This paper has a nice expository section on generalizations of the
 Veblen hierarchy:
 
 31) Jean H. Gallier, What's so special about Kruskal's theorem and
-the ordinal Γ~0~? A survey of some results in proof theory, sec. 7, A
+the ordinal \Gamma~0~? A survey of some results in proof theory, sec. 7, A
 glimpse at Veblen hierarchies, Ann. Pure Appl. Logic 53 (1991), 199-260.
 Also available at `http://www.cis.upenn.edu/~jean/gallier-old-pubs.html`
 

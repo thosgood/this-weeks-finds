@@ -47,12 +47,12 @@ the process to occur. The Feynman diagrams in a given theory are built
 from certain basic building blocks, and we get one parameter for each
 building block.
 
-For example, in the quantum field theory called "φ\^3 theory", the
+For example, in the quantum field theory called "φ^3 theory", the
 diagrams are trivalent graphs - graphs with three edges meeting at each
 vertex. As you can see from the above example, these graphs are allowed
 to have "external edges" - that is, loose ends representing particles
 that come in or go out. Each external edge is labelled by a vector in
-R\^4 describing the energy-momentum of the corresponding particle.
+R^4 describing the energy-momentum of the corresponding particle.
 
 The basic building blocks of Feynman diagrams in this theory are the
 edge:
@@ -86,7 +86,7 @@ Okay. Here's what Connes and Kreimer do in the above paper. To say this
 in a finite amount of time I'm afraid I'm gonna need to assume you
 know some stuff about Hopf algebras....
 
-First, they fix a renormalizable quantum field theory. They use the φ\^3
+First, they fix a renormalizable quantum field theory. They use the φ^3
 theory in 6d spacetime, but it doesn't matter too much which one;
 quantum electrodynamics or the Standard Model should work as well.
 

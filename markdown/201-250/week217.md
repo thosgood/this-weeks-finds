@@ -176,7 +176,7 @@ we multiply the zeta function by an extra fudge factor.
 
 To be precise: if we form the function
 
-\pi ^-s/2^ Γ(s/2) \zeta(s)
+\pi ^-s/2^ \Gamma(s/2) \zeta(s)
 
 then this function is unchanged by the transformation
 
@@ -604,7 +604,7 @@ He replied:
 > But unfortunately this is only true for "level 1" modular forms: you
 > can build all modular forms of level 1 from the Eisenstein series E_4
 > and E~6~. There is no neat analogous result for modular forms for the
-> group Γ~0~(N) for general N. In particular you will never see the a_n
+> group \Gamma~0~(N) for general N. In particular you will never see the a_n
 > for an elliptic curve built up from Eisenstein series in this way :-(
 >
 >      > What I'd like is a really "conceptual" answer... or else for someone

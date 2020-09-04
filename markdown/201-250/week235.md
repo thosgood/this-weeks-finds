@@ -349,7 +349,7 @@ But, there's one way \mathrm{SO}(4,1) is better than the Poincare group. It's a
 that's invariant under conjugation. This lets us write down the BF
 Lagrangian:
 
-tr(B \^ F)
+\operatorname{tr}(B ^ F)
 
 where tr is defined using the inner product, F is the curvature of an
 \mathrm{SO}(4,1) connection A, and B is an \mathfrak{so}(4,1)-valued 2-form. Spin foam

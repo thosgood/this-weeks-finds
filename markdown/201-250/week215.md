@@ -239,7 +239,7 @@ quotient
 H/G
 
 of the hyperbolic plane H by a certain group G which I explained last
-week. This group, usually called Γ(7), is a nice example of a "Fuchsian
+week. This group, usually called \Gamma(7), is a nice example of a "Fuchsian
 group" - that is, a discrete subgroup of the isometries of the
 hyperbolic plane.
 
@@ -670,11 +670,11 @@ sci.physics.research:
 >
 >     Explicitly, the length of a geodesic is the (natural) log of the norm,
 >     or equivalently, the norm is exp(length). For closed geodesics on
->     Γ\H, you find the norm explicitly as follows: consider the
->     associated hyp. conj. class {γ}, take an eigenvalue ε of an
+>     \Gamma\H, you find the norm explicitly as follows: consider the
+>     associated hyp. conj. class {\gamma}, take an eigenvalue ε of an
 >     element of this conj. class, then the norm is ε^2. The length of
 >     the geodesic is then 2log(ε). This is independent of the choice of
->     γ in the conj. class.
+>     \gamma in the conj. class.
 >
 >     This is why I now like to think of the norm of an ideal as a kind of
 >     "length function on ideals".
@@ -689,12 +689,12 @@ sci.physics.research:
 >
 >     I can give 2 answers. The first answer is a cop-out, because it would
 >     just give the concrete definition given in Jeff's paper or my thesis,
->     e.g. Namely, you take the associated matrix γ, and reduce entries
->     mod the prime Q, where Q determines the covering surface Γ(Q)\H.
+>     e.g. Namely, you take the associated matrix \gamma, and reduce entries
+>     mod the prime Q, where Q determines the covering surface \Gamma(Q)\H.
 >     This is a very concrete definition that doesn't hint at the connection
 >     to number theory. Remember, secretly, \mathrm{PSL}(2,q), q = norm(Q) is really
->     (isomorphic to) the deck transformation group of Γ(Q)\H over
->     Γ(H), and the Frob conj. class of a geodesic f should be a conj.
+>     (isomorphic to) the deck transformation group of \Gamma(Q)\H over
+>     \Gamma(H), and the Frob conj. class of a geodesic f should be a conj.
 >     class in this deck transformation group. Conceptually, it should be an
 >     element of the decomposition group, those deck transformations that fix
 >     the prime geodesic above. Choosing different primes above the prime

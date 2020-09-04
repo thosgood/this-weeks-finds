@@ -823,7 +823,7 @@ Bill Lawvere added:
 > category, which in this case is Cat. There is a particular biaction of
 > Δ, which I called Δ plus, with the property that the enriched Hom of
 > it into an arbitrary Δ-action is exactly the Eilenberg-Moore category
-> of "algebras", automatically equipped with its structure as a Δ\^op
+> of "algebras", automatically equipped with its structure as a Δ^op
 > action (co-monad). The left-adjoint tensor assigns to any category
 > equipped with a co-monad its Kleisli category, as a category with
 > monad. Not only are the calculations in this particular case quite

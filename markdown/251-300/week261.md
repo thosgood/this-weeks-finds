@@ -677,27 +677,27 @@ Finally, I should say that my low-budget approach to modular forms
 mostly just handles so-called "level 0" modular forms - the basic
 kind, defined using the group
 
-Γ = \mathrm{PSL}(2,\mathbb{Z})
+\Gamma = \mathrm{PSL}(2,\mathbb{Z})
 
 More exciting are modular forms that transform nicely only for a
-*subgroup* of Γ. Jim and I are just beginning to understand these. But
-the modular forms for Γ(2) fit nicely into today's ode! Here Γ(2) is
-the subgroup of Γ consisting of matrices congruent to the identity
+*subgroup* of \Gamma. Jim and I are just beginning to understand these. But
+the modular forms for \Gamma(2) fit nicely into today's ode! Here \Gamma(2) is
+the subgroup of \Gamma consisting of matrices congruent to the identity
 matrix mod 2. What does this have to do with my ode to the number 3?
 Well,
 
-Γ/Γ(2) ≅ \mathrm{PSL}(2,F_2)
+\Gamma/\Gamma(2) ≅ \mathrm{PSL}(2,F_2)
 
 and this is isomorphic to the group of permutations of 3 things!
 
 So, as a final flourish, I claim that:
 
-Modular forms for Γ(2) are polynomials on the space X consisting of
+Modular forms for \Gamma(2) are polynomials on the space X consisting of
 roots of depressed cubics:
 
 X = {(a,b,c): a,b,c complex with a + b + c = 0}
 
-Modular forms for Γ are polynomials on the space X/3! consisting of
+Modular forms for \Gamma are polynomials on the space X/3! consisting of
 coefficients of depressed cubics:
 
 X/3! = {(B,C): B,C complex}
@@ -706,15 +706,15 @@ The obvious quotient map X \to X/3! sends roots to coeffficients:
 
 (a,b,c) \mapsto (B,C) = (ab + bc + ca, abc)
 
-and this induces the inclusion of modular forms for Γ into modular forms
-for Γ(2):
+and this induces the inclusion of modular forms for \Gamma into modular forms
+for \Gamma(2):
 
 B \mapsto ab + bc + ca\
 C \mapsto abc
 
 I hope this is all true!
 
-Modular forms for Γ(2) are particularly nice. A good example is the
+Modular forms for \Gamma(2) are particularly nice. A good example is the
 *cross-ratio*, much beloved in complex analysis. If you want to learn
 more about this stuff, try:
 

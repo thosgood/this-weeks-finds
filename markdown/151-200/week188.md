@@ -308,7 +308,7 @@ But these shapes are famous! They're usually drawn like this:
               -------
 
 and they're called "Young diagrams" - or, with more historical
-accuracy, "Ferrers diagrams". So, the coefficient of q\^i in \[n
+accuracy, "Ferrers diagrams". So, the coefficient of q^i in \[n
 choose k\] is also the number of Young diagrams with i boxes, k columns
 and $n$-k rows.
 

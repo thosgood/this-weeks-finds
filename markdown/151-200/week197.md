@@ -706,7 +706,7 @@ bit fried by the time we got to this really far-out stuff.)
 Where does the extra 24 come from? I don't know, but Stephan Stolz said
 it has something to do with the fact that while \mathrm{PSL}(2,\mathbb{Z}) doesn't act
 freely on the upper half-plane - hence these elliptic curves with extra
-symmetries - the subgroup "Γ(3)" does. This subgroup consists of
+symmetries - the subgroup "\Gamma(3)" does. This subgroup consists of
 integer matrices
 
     (a b)
@@ -722,13 +722,13 @@ modulo 3.
 
 So, if we form
 
-    H/Γ(3)
+    H/\Gamma(3)
 
 we get a nice space without any "points of greater symmetry". To get
 the moduli space of elliptic curves from this, we just need to mod out
 by the group
 
-    \mathrm{SL}(2,\mathbb{Z})/Γ(3) = \mathrm{SL}(2,\mathbb{Z}/3)
+    \mathrm{SL}(2,\mathbb{Z})/\Gamma(3) = \mathrm{SL}(2,\mathbb{Z}/3)
 
 But this group has 24 elements!
 

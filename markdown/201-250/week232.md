@@ -157,7 +157,7 @@ we're feeling lowbrow we can think of both A and e as \mathfrak{so}(2,1)-valued
 1-forms on the 3-manifold M that describes spacetime. The action for
 this theory is:
 
-\int~M~ tr(e \^ F)
+\int~M~ \operatorname{tr}(e ^ F)
 
 where F is the curvature of A. If you work out the equations of motion
 one of them says that F = 0, so our connection A is flat. The other,
@@ -191,7 +191,7 @@ point to point along the particle's worldline.
 To couple our point particles to gravity, we then add a term to the
 action like this:
 
-S   =   \int~M~ tr(e \^ F)   -   \int~W~ tr((e + d~A~q) \^ p)
+S   =   \int~M~ \operatorname{tr}(e ^ F)   -   \int~W~ \operatorname{tr}((e + d~A~q) ^ p)
 
 Now if you vary the e field you get a field equation saying that
 
@@ -200,7 +200,7 @@ F = p δ~W~
 Here δ~W~ is like the Dirac delta function of the worldline W; it's a
 distributional 2-form defined by requiring that
 
-\int~W~ X = \int~M~ (X \^ δ~W~)
+\int~W~ X = \int~M~ (X ^ δ~W~)
 
 for any smooth 1-form X on W. This sort of "distributional differential
 form" is also called a "current", and you can read about them in the
@@ -390,7 +390,7 @@ Now, what happens when we go from 3 dimensions to 4 dimensions?
 
 Well, we can write down the same sort of theory:
 
-S   =   \int~M~ tr(B \^ F)   -   \int~W~ tr((B + d~A~q) \^ p)
+S   =   \int~M~ \operatorname{tr}(B ^ F)   -   \int~W~ \operatorname{tr}((B + d~A~q) ^ p)
 
 The only visible difference is that what I'd been calling "e" is now
 called "B", so you can see why folks call this "BF theory".

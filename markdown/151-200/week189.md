@@ -279,16 +279,16 @@ spins
 Any surface in space gets its area from the spin network edges that
 puncture it, and a spin-j edge contributes an area of
 
-    8 \pi  γ sqrt(j(j+1))
+    8 \pi  \gamma sqrt(j(j+1))
 
-Here γ is a dimensionless constant called the "Barbero-Immirzi
+Here \gamma is a dimensionless constant called the "Barbero-Immirzi
 parameter" - a puzzling, annoying but so far unavoidable feature of
 loop quantum gravity! Dreyer's work is exciting because it sheds new
 light on this puzzling parameter.
 
 If we have a black hole of area close to A, we have
 
-    A ~ SUM 8 \pi  γ sqrt(j(j+1))
+    A ~ SUM 8 \pi  \gamma sqrt(j(j+1))
 
 where \~ means "approximately equal to", and we sum over spin network
 edges puncturing the event horizon. But it turns out that the geometry
@@ -307,7 +307,7 @@ product is taken over all punctures. To get the *total* number of
 microstates, we must then sum this quantity over all choices of the
 spins j satisfying
 
-    A ~ SUM 8 \pi  γ sqrt(j(j+1)).
+    A ~ SUM 8 \pi  \gamma sqrt(j(j+1)).
 
 This is a nice math problem. It turns out that for a large black hole,
 the whopping majority of all microstates come from taking all the spins
@@ -318,13 +318,13 @@ state like this, m can take just two values at each puncture.
 In a state where all the spins are 1/2, the number of spin network edges
 puncturing the horizon, say n, must satisfy
 
-    A ~ 8 \pi  γ sqrt(3/4) n 
+    A ~ 8 \pi  \gamma sqrt(3/4) n 
 
-      = 4 \pi  γ sqrt(3) n
+      = 4 \pi  \gamma sqrt(3) n
 
 so the number of punctures must be
 
-    n ~ A / 4 \pi  γ sqrt(3)
+    n ~ A / 4 \pi  \gamma sqrt(3)
 
 Since m can take two values at each puncture, the number of microstates
 we get this way is
@@ -340,7 +340,7 @@ and the entropy is
 
                ln 2 
       ~ ------------------ A
-        4 \pi  γ sqrt(3)  
+        4 \pi  \gamma sqrt(3)  
 
 Good! Entropy is proportional to area, at least for large black holes!
 For very small ones we need to do a more careful count of microstates,
@@ -350,10 +350,10 @@ Barbero-Immirzi parameter. To get the above formula to match Hawking's
 formula S = A/4 we need
 
                ln 2
-    γ = ----------
+    \gamma = ----------
             \pi  sqrt(3)
 
-On the one hand this is good: we've determined γ! We can also check
+On the one hand this is good: we've determined \gamma! We can also check
 that the same value works for electrically charged black holes and other
 sorts of black holes. On the other hand, it's annoying that we can only
 determine it with the help of Hawking's calculation. We'd really like
@@ -377,11 +377,11 @@ Instead, it's j = 1. We can easily redo the whole calculation using
 Barbero-Immirzi parameter. When all the spin network edges puncturing
 the event horizon have j = 1, we get
 
-    A ~ 8 \pi  γ sqrt(2) n 
+    A ~ 8 \pi  \gamma sqrt(2) n 
 
 and thus
 
-    n ~ A / 8 \pi  γ sqrt(2)
+    n ~ A / 8 \pi  \gamma sqrt(2)
 
 There are now three allowed m values for each puncture, so
 
@@ -396,12 +396,12 @@ and the entropy is
 
                ln 3
       ~ ------------------ A
-        8 \pi  γ sqrt(2)      
+        8 \pi  \gamma sqrt(2)      
 
 This matches Hawking's S = A/4 if we take
 
                 ln 3
-    γ = -----------
+    \gamma = -----------
             2 \pi  sqrt(2)
 
 Again, the same number works for electrically charged and other black
@@ -456,12 +456,12 @@ theory, it's natural to guess that this change in area comes from the
 appearance or disappearance of a single spin-$1$ edge puncturing the
 horizon, so that
 
-    Δ A = 8 \pi  γ sqrt(2)
+    Δ A = 8 \pi  \gamma sqrt(2)
 
 Putting these equations together, we get
 
              4 M ω         
-    γ = -----------
+    \gamma = -----------
               sqrt(2)
 
 And now for the miracle! A nonrotating black hole will exhibit damped
@@ -483,7 +483,7 @@ They agree to 6 significant figures!
 Assuming Hod is right, Dreyer concludes that
 
                 ln 3
-    γ = -----------
+    \gamma = -----------
             2 \pi  sqrt(2)
 
 This is the same result that we got before!!! But it comes from very
@@ -542,7 +542,7 @@ matches the area due to a spin-$1$ puncture if the Barbero-Immirzi
 parameter has the value obtained by Dreyer:
 
                 ln 3
-    γ = -----------
+    \gamma = -----------
             2 \pi  sqrt(2)
 
 However, Hod believes the area eigenvalues of a black hole are evenly
@@ -566,7 +566,7 @@ argued that this is implausible. In loop quantum gravity, the area
 eigenvalues get very densely packed for a large black hole, since one is
 adding up lots of different numbers of the form
 
-    8 \pi  γ sqrt(j(j+1)), 
+    8 \pi  \gamma sqrt(j(j+1)), 
 
 so one would not see widely spaced spectral lines in Hawking radiation
 from a large black hole.
@@ -628,10 +628,10 @@ appeared yet, even a tumbleweed flying past LIGO creates enough of a
 time-dependent gravitational potential for the device to detect.
 
     >It would indeed be excellent to obtain a g-wave burst and a 
-    >γ wave burst simultaneously. (even better is if the propagation
+    >\gamma wave burst simultaneously. (even better is if the propagation
     >rate were different then we'd have a cool yardstick).
 
-We may see that from γ ray bursters, someday. We don't know how γ ray
+We may see that from \gamma ray bursters, someday. We don't know how \gamma ray
 bursters work well enough to know how much gravitational radiation they
 produce.
 

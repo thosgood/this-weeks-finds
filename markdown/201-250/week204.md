@@ -2,13 +2,13 @@
 
 The star we know as GRB030329 was named after the day the news of its
 death reached Earth. About 2,650 million years ago, this star exploded.
-For thirty seconds it put out more power in the form of γ rays than
-everything else in the visible universe combined. These γ rays reached
+For thirty seconds it put out more power in the form of \gamma rays than
+everything else in the visible universe combined. These \gamma rays reached
 us on March 3rd, 2003, and they were detected by a satellite called
 HETE-II: the High-Energy Transient Explorer.
 
 The detection of GRB03029 set off a frenzy of activity among astronomers
-all over the world. As the closest γ-ray burster to be seen by
+all over the world. As the closest \gamma-ray burster to be seen by
 well-prepared earthlings, GRB030329 taught us a lot. We're not
 completely sure what it was - but we have a pretty good guess, and it
 makes a nice story, so I'll recount it as if it were a fact.
@@ -153,20 +153,20 @@ radioactive nickel-56, shattered it completely. Our star became a
 "hypernova"!
 
 Meanwhile, the jets plowed into the material surrounding the star and
-created highly directional beams of γ rays shooting in opposite
+created highly directional beams of \gamma rays shooting in opposite
 directions... one of which just happened to be pointed directly at the
 Earth.
 
-2,650 million years later, the γ rays reached us, and were detected on
+2,650 million years later, the \gamma rays reached us, and were detected on
 March 23, 2003 by HETE-II. Hundreds of such bursts are detected each
 year, but this one was closer than most, and a whole system had recently
 been devised for quickly turning the attention of the world's
-telescopes to the spot where a γ-ray burster had been seen - in this
+telescopes to the spot where a \gamma-ray burster had been seen - in this
 case, within the constellation Leo.
 
 So, within 90 min, a 40-inch telescope at the Siding Spring Observatory
 in Australia was looking at this spot. So was a telescope in Japan. They
-saw the optical afterglow of the γ-ray burster and watched how its
+saw the optical afterglow of the \gamma-ray burster and watched how its
 brightness changed with time. And within 24 hours, a spectrograph on a
 telescope in Chile made detailed readings of the spectrum, measuring the
 redshift (z = 0.1685) and thus the distance of the burst, and seeing
@@ -175,14 +175,14 @@ according to one estimate! Later, more telescopes probed the event in
 different ways.
 
 The details of what was seen gave a lot of credence to the "hypernova"
-or "collapsar" model of γ-ray bursters, championed by Stan Woosley of
-U. C. Santa Cruz, among others. But much remains mysterious about γ-ray
+or "collapsar" model of \gamma-ray bursters, championed by Stan Woosley of
+U. C. Santa Cruz, among others. But much remains mysterious about \gamma-ray
 bursters. Nobody knows exactly how the energy from the jet gets turned
-into γ rays! And, the hypernova model only fits "long" γ-ray bursters,
+into \gamma rays! And, the hypernova model only fits "long" \gamma-ray bursters,
 where the burst lasts about 2 seconds or more. There are also "short"
 ones, which may work some other way.
 
-So, the hows and whys of γ ray bursts remain one of the most fascinating
+So, the hows and whys of \gamma ray bursts remain one of the most fascinating
 mysteries in physics. And since we can't actually peek inside a star, a
 lot of the attempts to study these things involve complicated
 mathematical models... very technical stuff, when you actually try to
@@ -217,19 +217,19 @@ This website is good for Wolf-Rayet stars and other things:
 
 I learned a lot about GRB030329 from this page:
 
-7) European Southern Observatory (ESO), Cosmological γ-ray bursts and
+7) European Southern Observatory (ESO), Cosmological \gamma-ray bursts and
 hypernovae conclusively linked, June 18, 2003,
 `http://www.eso.org/outreach/press-rel/pr-2003/pr-16-03.html`
 
-For another key moment in the history of γ-ray bursters, try this:
+For another key moment in the history of \gamma-ray bursters, try this:
 
 8) Burst and Transient Source Experiment (BATSE), GOTCHA! - The big one
 that didn't get away, January 27, 1999,
 `http://www.batse.com/jan27.html`
 
-For more on γ-ray bursters, try these:
+For more on \gamma-ray bursters, try these:
 
-9) NASA, γ ray bursts,
+9) NASA, \gamma ray bursts,
 `http://imagine.gsfc.nasa.gov/docs/introduction/bursts.html`
 
 10) Edo Berger, Gamma-ray burst FAQ,
@@ -265,14 +265,14 @@ Springer Verlag, Berlin, 1991.
 
 By the way, I don't know much about astrophysics, so I'd love to hear
 from any experts out there who'd like to correct or add detail to my
-description of Wolf-Rayet stars, the "hypernova" scenario, or γ- ray
+description of Wolf-Rayet stars, the "hypernova" scenario, or \gamma- ray
 bursters in general. I've been fond of Wolf-Rayet stars ever since I
 wrote a few little articles on weird kinds of stars:
 
 15) John Baez, Stuff about Stars,
 `http://math.ucr.edu/home/baez/stars.html`
 
-back before anyone suspected they were related to γ-ray bursters! My
+back before anyone suspected they were related to \gamma-ray bursters! My
 interest in them was rekindled while revising the physics FAQ on open
 questions in physics:
 
@@ -333,7 +333,7 @@ astrophysics! Here's the current list of problems:
 >
 > 10) When were the first stars formed, and what were they like?
 >
-> 11) What are γ ray bursters?
+> 11) What are \gamma ray bursters?
 >
 > 12) What is the origin and nature of ultra-high-energy cosmic rays?
 >
@@ -417,7 +417,7 @@ A bunch of these questions could turn out to be a bit silly - a good
 answer might require changing the question. But that's always how it
 goes for really interesting puzzles. I should also warn you that the
 statements above are deliberately a bit naive-sounding: as the example
-of γ ray bursters shows, we actually do know a lot about all these
+of \gamma ray bursters shows, we actually do know a lot about all these
 questions - we're just not sure about the answers! So, see the webpage
 itself for a bit more information on these questions, and the links for
 even more...

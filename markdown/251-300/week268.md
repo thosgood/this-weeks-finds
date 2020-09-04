@@ -80,12 +80,12 @@ complex instead of real vector spaces. And, we won't demand that g(a,b)
 Let's see some examples! For starters, we could take the algebra of n \times
 n matrices and define
 
-g(a,b) = tr(ab)
+g(a,b) = \operatorname{tr}(ab)
 
 where "tr" is the usual trace. Or, we could perversely stick any
 nonzero number in this formula, like
 
-g(a,b) = -37 tr(ab)
+g(a,b) = -37 \operatorname{tr}(ab)
 
 Or, we could take a bunch of examples like this and take their direct
 sum. This gives us the most general "semisimple" Frobenius algebra.
@@ -454,7 +454,7 @@ Frobenius algebras.
 Way back at the beginning of this story, I said you can get a Frobenius
 algebra by taking the algebra of n \times n matrices and defining
 
-g(a,b) = k tr(ab)
+g(a,b) = k \operatorname{tr}(ab)
 
 for any nonzero constant k. Direct sums of these give all the semisimple
 Frobenius algebras.
@@ -465,7 +465,7 @@ L~a~: b \mapsto ab
 
 so for any algebra we can try to define
 
-g(a,b) = tr(L~a~ L~b~)
+g(a,b) = \operatorname{tr}(L~a~ L~b~)
 
 This bilinear form is nondegenerate precisely when our algebra is
 "strongly separable":
@@ -480,12 +480,12 @@ paper of Lauda and Pfeiffer if you're interested.
 
 Now, for n \times n matrices,
 
-g(a,b) = tr(L~a~ L~b~)
+g(a,b) = \operatorname{tr}(L~a~ L~b~)
 
-is n times the usual tr(ab). But it's better, in a way. The reason is
+is n times the usual \operatorname{tr}(ab). But it's better, in a way. The reason is
 that for any strongly separable algebra,
 
-g(a,b) = tr(L~a~ L~b~)
+g(a,b) = \operatorname{tr}(L~a~ L~b~)
 
 gives a Frobenius algebra with a cute extra property: if we comultiply
 and then multiply, we get back where we started!
@@ -560,12 +560,12 @@ which sends the volume form to 1 and kills all elements of degree < n.
 This is a lot like "integration" - and so is taking a trace. So, you
 should want to make ΛV into a Frobenius algebra using this formula:
 
-g(a,b) = e(a \^ b)
+g(a,b) = e(a ^ b)
 
-where \^ is the product in the exterior algebra. It's easy to see this
+where ^ is the product in the exterior algebra. It's easy to see this
 is nondegenerate and satisfies the Frobenius axiom:
 
-g(ab,c) = e(a \^ b \^ c) = g(a,bc)
+g(ab,c) = e(a ^ b ^ c) = g(a,bc)
 
 So, it works! But, this algebra is far from semisimple.
 
@@ -697,7 +697,7 @@ C \oplus  C \oplus  ... C \oplus  C
 It's a direct sum of finitely many copies of C, equipped with its
 god-given bilinear form
 
-g(a,b) = tr(L~a~ L~b~)
+g(a,b) = \operatorname{tr}(L~a~ L~b~)
 
 So, this sort of Frobenius algebra is just an algebra of complex
 functions on a *finite set*. A map between finite sets gives an algebra

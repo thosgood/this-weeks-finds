@@ -583,13 +583,13 @@ containing all the groups (Z/n)* as closed subgroups. It's easy to see
 that (Z/n)* is a quotient group of (Z/m)* if m is divisible by n; this
 lets us take the "inverse limit" of all the groups (Z/m)* - and
 that's Gal(Q^cyc^/Q). This inverse limit is also the multiplicative
-group of the ring Z^\^^, the inverse limit of all the rings Z/n. Z^\^^
+group of the ring Z^^^, the inverse limit of all the rings Z/n. Z^^^
 is also called the "profinite completion of the integers", and I urge
 you to play around with it if you never have! It's a cute gadget.
 
 In short:
 
-Gal(Q^cyc^/Q) = Z^\^^*
+Gal(Q^cyc^/Q) = Z^^^*
 
 and if we stay inside Q^cyc^, we're in a zone where the pattern of
 algebraic number fields can be understood. This stuff was worked out by
@@ -611,7 +611,7 @@ we get an exact sequence of Galois groups:
 So, to understand Gal(Q^-^/Q) we need to understand Gal(Q^cyc^/Q),
 Gal(Q^-^/Q^cyc^) and how they fit together! The last two steps are not
 so easy. Shafarevich has conjectured that Gal(Q^-^/Q^cyc^) is the
-profinite completion of a free group, say F^\^^. This would give
+profinite completion of a free group, say F^^^. This would give
 
     1 \to F^ \to Gal(Q-/Q) \to Z^* \to 1
 

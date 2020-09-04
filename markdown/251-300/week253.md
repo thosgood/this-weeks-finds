@@ -318,7 +318,7 @@ Here's another way to say the same thing, which may ring more bells:
 
 f_4 ≅ \mathfrak{so}(9) \oplus  S~9~
 
-e~6~ ≅ \mathfrak{so}(10) \oplus  S~10~ \oplus  u(1)
+e~6~ ≅ \mathfrak{so}(10) \oplus  S~10~ \oplus  \mathrm{u}(1)
 
 e~7~ ≅ \mathfrak{so}(12) \oplus  S~12~^+^ \oplus  \mathfrak{su}(2)
 
@@ -350,7 +350,7 @@ a noncanonical way:
 
     S~10~ ≅ Λ^even^(C^5) ≅ (C \otimes O)^2
 
--   u(1)
+-   \mathrm{u}(1)
 
 The first part contains all the gauge bosons in the \mathrm{SO}(10) grand unified
 theory. The second contains one generation of left-handed fermions. But
@@ -361,21 +361,21 @@ just so happens that the action of \mathfrak{so}(10) preserves a complex structu
 on this space. This is just the obvious complex structure on (C \otimes O)^2,
 or if you prefer, Λ^even^(C^5). So, there's an action of the unit
 complex numbers, \mathrm{U}(1), on S~10~ which commutes with the action of
-\mathfrak{so}(10). Differentiating this, we get an action of the Lie algebra u(1):
+\mathfrak{so}(10). Differentiating this, we get an action of the Lie algebra \mathrm{u}(1):
 
-u(1) \otimes S~10~ \to S~10~
+\mathrm{u}(1) \otimes S~10~ \to S~10~
 
 And this map gives part of the cleverly defined Lie bracket operation in
 
-e~6~ ≅ \mathfrak{so}(10) \oplus  S~10~ \oplus  u(1)
+e~6~ ≅ \mathfrak{so}(10) \oplus  S~10~ \oplus  \mathrm{u}(1)
 
 All this stuff is mysterious, but suggestive. It could be mere
 coincidence, or it could be the tip of an iceberg. It's more fun to
 assume the latter. So, let me say some more about it....
 
-The copy of u(1) in here:
+The copy of \mathrm{u}(1) in here:
 
-E~6~ ≅ \mathfrak{so}(10) \oplus  S~10~ \oplus  u(1)
+E~6~ ≅ \mathfrak{so}(10) \oplus  S~10~ \oplus  \mathrm{u}(1)
 
 is pretty amusing from a physics viewpoint. It's if besides the gauge
 bosons in \mathfrak{so}(10), there were one extra gauge boson whose sole role is to
@@ -391,18 +391,18 @@ these, not just the obvious one that we automatically get from any
 complex Hilbert space. If we only used the obvious one, all particles
 would have charge 1.
 
-But in the Spin(10) grand unified theory, the electromagnetic u(1) Lie
-algebra is sitting inside \mathfrak{so}(10); it's not the u(1) you see above. The
-u(1) you see above is the "obvious" one that the spinor representation
+But in the Spin(10) grand unified theory, the electromagnetic \mathrm{u}(1) Lie
+algebra is sitting inside \mathfrak{so}(10); it's not the \mathrm{u}(1) you see above. The
+\mathrm{u}(1) you see above is the "obvious" one that the spinor representation
 S~10~ gets merely from being a complex Hilbert space.
 
 The splitting
 
-e~6~ = \mathfrak{so}(10) \oplus  S~10~ \oplus  u(1)
+e~6~ = \mathfrak{so}(10) \oplus  S~10~ \oplus  \mathrm{u}(1)
 
 also hints at a weird unification of bosons and fermions, something
 different from supersymmetry. We're seeing e~6~ as a Z/2-graded Lie
-algebra with \mathfrak{so}(10) \oplus  u(1) as its "bosonic" part and S~10~ as its
+algebra with \mathfrak{so}(10) \oplus  \mathrm{u}(1) as its "bosonic" part and S~10~ as its
 "fermionic" part. But, this is not a Lie superalgebra, just an
 ordinary Lie algebra with a Z/2 grading!
 
@@ -412,7 +412,7 @@ it explains what I meant by saying that the split of e~6~ into bosonic
 and fermionic parts is "noncanonical". We'll get a space, and each
 point in this space will give a different way of splitting e~6~ as
 
-e~6~ = \mathfrak{so}(10) \oplus  S~10~ \oplus  u(1)
+e~6~ = \mathfrak{so}(10) \oplus  S~10~ \oplus  \mathrm{u}(1)
 
 It's also cool because it gives me an excuse to talk about symmetric
 spaces... a topic that deserves a whole week of its own!
@@ -524,7 +524,7 @@ know this stuff. I guess it's time for another executive summary:
 > and a fermionic part. The fermionic part is just what we need to
 > describe one generation of left-handed Standard Model fermions. The
 > bosonic part is just what we need for the gauge bosons of the Spin(10)
-> grand unified theory, together with a copy of u(1), which describes
+> grand unified theory, together with a copy of \mathrm{u}(1), which describes
 > the *complex structure* of the left-handed Standard Model fermions.
 
 Another nice fact is that (C \otimes O)P^2 is one of the Grassmannians for
@@ -601,9 +601,9 @@ White Knight said to Alice:
 Someday we may think of a way around this problem. But for now, I've
 got a more pressing worry. This splitting of E~6~:
 
-E~6~ = \mathfrak{so}(10) \oplus  S~10~^+^ \oplus  u(1)
+E~6~ = \mathfrak{so}(10) \oplus  S~10~^+^ \oplus  \mathrm{u}(1)
 
-corresponds to a Z/2-grading where \mathfrak{so}(10) \oplus  u(1) is the "bosonic" or
+corresponds to a Z/2-grading where \mathfrak{so}(10) \oplus  \mathrm{u}(1) is the "bosonic" or
 "even" part and S~10~^+^ is the "fermionic" or "odd" part. This
 nicely matches the way \mathfrak{so}(10) describes gauge bosons and S~10~^+^
 describes fermions in Georgi's grand unified theory. But, this
@@ -724,7 +724,7 @@ Mahmud and Mamoru Mimura, University of Chicago Press, Chicago, 1996.
 ------------------------------------------------------------------------
 
 **Addendum:** Joseph Hucks points out his paper describing the 13
-different groups with Lie algebra \mathfrak{su}(3) \oplus  \mathfrak{su}(2) \oplus  u(1), and their
+different groups with Lie algebra \mathfrak{su}(3) \oplus  \mathfrak{su}(2) \oplus  \mathrm{u}(1), and their
 implications for physics:
 
 18) Joseph Hucks, Global structure of the standard model, anomalies,

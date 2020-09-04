@@ -250,14 +250,14 @@ that it's very simple and pretty. Let me describe it to you!
 I'll assume you know that the Lagrangian for \mathrm{SU}(N) Yang-Mills theory
 coupled to spinors looks like this:
 
-tr(F ∧ ∗ F) + \psi^†^ D \psi
+\operatorname{tr}(F ∧ ∗ F) + \psi^†^ D \psi
 
 where F is the curvature of the gauge field, \psi is a spinor field
 transforming under some representation of \mathrm{SU}(N), \psi^†^ is my feeble
 substitute for a \psi with a bar over it, and D is the covariant Dirac
 operator. If we write this out a bit more explicitly, it's
 
-tr((dA + \[A,A\]) ∧ ∗(dA + \[A,A\]) + \psi^†i^ (d~a~ + A~a~) Γ^a^~ij~ \psi^j^
+\operatorname{tr}((dA + \[A,A\]) ∧ ∗(dA + \[A,A\]) + \psi^†i^ (d~a~ + A~a~) \Gamma^a^~ij~ \psi^j^
 
 where A is the gauge field. But now let's assume A and \psi are constant
 as functions on space, and that \psi transforms in the adjoint
@@ -266,7 +266,7 @@ R^n, where n is the dimension of spacetime, and that \psi lies in \mathfrak{su}(
 tensored with the space of spinors... where we use some sort of spinors
 suitable for $n$-dimensional spacetime. Then the above Lagrangian becomes
 
-tr(\[A~a~,A~b~\] \[A^a^,A^b^\]) + \psi^†i^ \[A~a~, Γ^a^ij \psi^j^\]
+\operatorname{tr}(\[A~a~,A~b~\] \[A^a^,A^b^\]) + \psi^†i^ \[A~a~, \Gamma^a^ij \psi^j^\]
 
 which is the Lagrangian for the IKKT model.
 
@@ -336,7 +336,7 @@ in high school? In case you forgot, these are:
     x^(y + z) = x^y x^z  (xy)^z = x^z y^z    x^(yz) = (x^y)^z
 
 A bit more precisely, are there equational laws in the language
-(+,⋅,\^,1) that hold for the positive natural numbers but do not follow
+(+,⋅,^,1) that hold for the positive natural numbers but do not follow
 from the above axioms using first-order logic?
 
 Remarkably, in 1981 it turned out the answer is YES:
@@ -394,7 +394,7 @@ algebra problem. I learned about this from Marcelo Fiore, a computer
 scientist whom I met in Cambridge this summer. The idea here is to
 realize that the high school identities all hold as *isomorphisms*
 between finite sets if we interpret addition as disjoint union,
-multiplication as Cartesian product, x\^y as the set of functions from
+multiplication as Cartesian product, x^y as the set of functions from
 the finite set y to the finite set x, and 1 as your favorite one-element
 set. The point here that the set of natural numbers is just a
 dumbed-down version of the category of finite sets, with all these
@@ -410,11 +410,11 @@ involving 0, which corresponds to the empty set:
 
     x^0 = 1
 
-Note that this gives 0\^0 = 1, which is "correct" in that there's one
+Note that this gives 0^0 = 1, which is "correct" in that there's one
 function from the empty set to the empty set. The only reason people
 often formulate Tarski's problem in terms of *positive* natural numbers
-is that they're afraid to say 0\^0 = 1, having been scared silly by
-their high school math teachers. In analysis 0\^0 is a dangerous thing,
+is that they're afraid to say 0^0 = 1, having been scared silly by
+their high school math teachers. In analysis 0^0 is a dangerous thing,
 but not in the arithmetic of natural numbers. All the aforementioned
 results on the high school algebra problem still hold if we include 0
 and throw in the above extra axioms - except the results on smallest
@@ -558,7 +558,7 @@ Also, here are some comments by Noam Elkies about the number 24:
 >     >Does anyone see the connection?
 >
 > Here's one not-immediately-obvious consequence. Consider the group
-> Γ~0~(n^2), consisting of 2\times2 integer matrices of determinant 1 whose
+> \Gamma~0~(n^2), consisting of 2\times2 integer matrices of determinant 1 whose
 > bottom left entry is a multiple of n^2. When is the matrix
 >
 >            [ 1  1/n ]
@@ -567,7 +567,7 @@ Also, here are some comments by Noam Elkies about the number 24:
 >
 > in the normalizer of this group? The conjugate of \[a, b; n^2 c, d\]
 > by this matrix has integer diagonal entries and bottom left entry n^2
-> c; so it's in Γ~0~(n^2) if and only if the top right entry is an
+> c; so it's in \Gamma~0~(n^2) if and only if the top right entry is an
 > integer. Well, the top right entry is b-c + (d-a)/n. This is an
 > integer provided d is congruent to a mod n. But all that restricts
 > (a,d) mod n is the condition that ad-n^2bc=1, and thus that ad=1 mod
@@ -575,9 +575,9 @@ Also, here are some comments by Noam Elkies about the number 24:
 > every integer coprime to n is its own multiplicative inverse mod n !
 >
 > So, the integers n for which this holds are precisely those for which
-> the normalizer of Γ~0~(n^2) contains T(n).
+> the normalizer of \Gamma~0~(n^2) contains T(n).
 >
-> Another way to say this is: conjugate Γ~0~(n^2) by the matrix
+> Another way to say this is: conjugate \Gamma~0~(n^2) by the matrix
 >
 >       [ n   0  ]
 >       [        ]
@@ -599,9 +599,9 @@ Also, here are some comments by Noam Elkies about the number 24:
 > What has all this to do with moonshine? I'm no moonshine expert, so I
 > can't say for sure; but moonshine certainly involves coefficients of
 > modular forms and functions for congruence subgroups of SL_2(Z). If
-> T(n) is in the normalizer of Γ~0~(n^2) then T(n) acts on the spaces
+> T(n) is in the normalizer of \Gamma~0~(n^2) then T(n) acts on the spaces
 > of modular forms/functions by linear transformations whose $n$-th power
-> is the identity (since T(n)^n is in Γ~0~(n^2)). The eigenspaces of
+> is the identity (since T(n)^n is in \Gamma~0~(n^2)). The eigenspaces of
 > these transformations are the modular forms/functions whose
 > coefficients are supported on arithmetic progressions mod n. So, we
 > get to isolate the different arithmetic progressions mod n precisely

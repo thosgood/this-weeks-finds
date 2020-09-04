@@ -465,14 +465,14 @@ The bracket of an even guy and an odd guy is the usual "Lie
 derivative" of a differential form with respect to a vector field.
 
 The only tricky bit is the bracket of two odd guys! So, suppose μ and ν
-are closed complex 2-forms on C^5. Their wedge product is a 4-form μ \^
+are closed complex 2-forms on C^5. Their wedge product is a 4-form μ ^
 ν. But, we can identify this with a vector field v by demanding:
 
-i~v~ vol = μ \^ ν
+i~v~ vol = μ ^ ν
 
 Here vol is the volume form:
 
-vol = dx_1 \^ dx_2 \^ dx_3 \^ dx_4 \^ dx_5
+vol = dx_1 ^ dx_2 ^ dx_3 ^ dx_4 ^ dx_5
 
 and i~v~ vol is the "interior product", which feeds v into vol and
 leaves us with a 4-form. You can check that this vector field v is
@@ -508,13 +508,13 @@ sl(3,C) \oplus  sl(2,\mathbb{C}) \oplus  gl(1,C)
 in a canonical way. So, any representation of E(3|6) automatically
 gives a representation of the Standard Model Lie algebra
 
-\mathfrak{su}(3) \oplus  \mathfrak{su}(2) \oplus  u(1)
+\mathfrak{su}(3) \oplus  \mathfrak{su}(2) \oplus  \mathrm{u}(1)
 
 And in the above paper Kac goes even further! He defines a fairly
 natural class of representations of E(3|6), and proves something
 remarkable: these restrict to representations of
 
-\mathfrak{su}(3) \oplus  \mathfrak{su}(2) \oplus  u(1)
+\mathfrak{su}(3) \oplus  \mathfrak{su}(2) \oplus  \mathrm{u}(1)
 
 that correspond precisely to the gluon, the photon and the W and Z
 bosons, and the quarks and leptons in one generation...
@@ -587,7 +587,7 @@ Exceptional Lie superalgebras, invariant morphisms, and a second-gauged
 Standard Model, available as
 [math-ph/020202](http://arxiv.org/abs/math-ph/020202).
 
-Thomas A. Larsson, Maximal depth implies \mathfrak{su}(3)+\mathfrak{su}(2)+u(1), available as
+Thomas A. Larsson, Maximal depth implies \mathfrak{su}(3)+\mathfrak{su}(2)+\mathrm{u}(1), available as
 [`hep-th/0208185`](http://xxx.lanl.gov/abs/hep-th/0208185).
 
 Alas, E(3|8) gets the hypercharges of some fermions wrong. Larsson

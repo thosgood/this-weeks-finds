@@ -270,7 +270,7 @@ curvature is denoted F.
 The Lagrangian for the Palatini formulation of general relativity looks
 like this:
 
-    tr(e ^ e ^ *F)
+    \operatorname{tr}(e ^ e ^ *F)
 
 This takes a bit of explaining! First of all, the curvature F is an
 End(T)-valued 2-form, but using the metric on T we get an isomorphism
@@ -300,19 +300,19 @@ follow it! If you don't know enough geometry, the verbiage probably
 seems more confusing than helpful.
 
 Okay. Next, note that the coframe field e can be thought of as a
-T-valued 1-form. This allows us to define the wedge product e \^ e as a
+T-valued 1-form. This allows us to define the wedge product e ^ e as a
 Λ^2(T)-valued 2-form. Note that this is the same sort of gadget as the
 curvature F and its internal Hodge dual *F. This means we can take the
-wedge product of the differential form parts of e \^ e and *F while
+wedge product of the differential form parts of e ^ e and *F while
 using the metric on T to pair together their Λ^2(T) parts and get a
-number. The result is a plain old 4-form, which we call tr(e \^ e \^
+number. The result is a plain old 4-form, which we call \operatorname{tr}(e ^ e ^
 *F). This is our Lagrangian!
 
 If you work out the equations of motion coming from this Lagrangian,
 they say A that pulls back via e to a *torsion-free* metric-compatible
 connection on the tangent bundle: the Levi-Civita connection! It follows
 that F pulls back to the curvature of the Levi-Civita connection: the
-Riemann tensor! Finally, it turns out that tr(e \^ e \^ *F) is just the
+Riemann tensor! Finally, it turns out that \operatorname{tr}(e ^ e ^ *F) is just the
 Ricci scalar curvature times the volume form on M... so we were doing
 general relativity all along!
 

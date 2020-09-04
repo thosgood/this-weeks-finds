@@ -526,7 +526,7 @@ Christine Dantas wrote:
 > metric, a scalar field and a 4-vector field, all three dynamical. For
 > a simple choice of its free function, the theory has a Newtonian limit
 > for nonrelativistic dynamics with significant acceleration, but a MOND
-> limit when accelerations are small. We calculate the \beta and γ PPN
+> limit when accelerations are small. We calculate the \beta and \gamma PPN
 > coefficients showing them to agree with solar system measurements. The
 > gravitational light deflection by nonrelativistic systems is governed
 > by the same potential responsible for dynamics of particles.

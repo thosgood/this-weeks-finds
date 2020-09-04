@@ -125,7 +125,7 @@ quantum-mechanical in such a way that it no longer makes sense to talk
 about times shorter than about the Planck time. Since the energy of a
 particle is proportional to the rate at which its wavefunction
 oscillates, this puts an upper bound on the energy of a particle. And
-since E = mc\^2, this means there's an upper bound on the mass a
+since E = mc^2, this means there's an upper bound on the mass a
 particle can have.
 
 Mathematically, part of the point is that we can describe 3d Riemannian

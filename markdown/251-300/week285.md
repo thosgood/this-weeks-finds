@@ -420,7 +420,7 @@ cohomology group of M. You can get a representative of this in deRham
 cohomology by picking a connection, taking its curvature 2-form F and
 multiplying the closed 2-form
 
-tr(F \^ F)
+\operatorname{tr}(F ^ F)
 
 by the right number. But in fact the first Pontryagin class lives in
 integral cohomology. So, any oriented 4-manifold automatically gives a

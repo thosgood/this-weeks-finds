@@ -417,7 +417,7 @@ How do we get that quaternary bracket? Well, here's where things get
 funky: D'Auria and Fré dreamt up a formula that gives a number from 2
 spinors and 2 vectors:
 
-(\psi, φ, v, w) \mapsto \psi* Γ^ab^ φ v~a~ w~b~
+(\psi, φ, v, w) \mapsto \psi* \Gamma^ab^ φ v~a~ w~b~
 
 where that "\psi*" should really be "\psi-bar". And, magically, in 11
 dimensions this gives a 4-cocycle on the Poincaré Lie superalgebra! The

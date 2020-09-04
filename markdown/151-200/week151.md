@@ -324,7 +324,7 @@ $$A\colon  H \to  H$$
 is "Hilbert-Schmidt" if the trace of $AA^*$ is finite. The space of
 Hilbert-Schmidt operators is a Hilbert space in its own right, with this
 inner product:
-$$\langle A,B\rangle = tr(AB^*)$$
+$$\langle A,B\rangle = \operatorname{tr}(AB^*)$$
 Let's call this Hilbert space $X$. $\mathrm{U}(H)$ acts on $X$ by conjugation, and
 this gives an action of $\mathrm{PU}(H)$ on $X$, because phases commute with
 everything. This in turn gives an action of $\mathrm{PU}(H)$ on $\mathrm{U}(X)$! Is your brain

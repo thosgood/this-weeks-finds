@@ -41,7 +41,7 @@ universe. They're just nature's way of letting a bunch of matter fall
 in under its own gravitation while losing angular momentum and energy.
 We see them when dust clouds collapse to form stars, we see them when
 black holes sucks in mass from companion stars, and they're probably
-also responsible for slow γ ray bursts as huge stars collapse when they
+also responsible for slow \gamma ray bursts as huge stars collapse when they
 run out of fuel - see ["Week 204"](#week204) for that story.
 
 But, among the biggest accretion disks and jets are those surrounding

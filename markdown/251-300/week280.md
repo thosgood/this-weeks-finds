@@ -202,7 +202,7 @@ available as
 
 It looks like this:
 
-tr(e \^ e \^ *F) + (1/γ) tr(e \^ e \^ F)
+\operatorname{tr}(e ^ e ^ *F) + (1/\gamma) \operatorname{tr}(e ^ e ^ F)
 
 I'll explain this in detail later, because there was a student who
 twice asked about the math behind this Lagrangian, and Rovelli and I
@@ -213,7 +213,7 @@ to read my explanation below.
 But that gets a bit technical, so for now let me say: "it's just like
 the Palatini Lagrangian". Namely, the first term is the usual Palatini
 Lagrangian for gravity. The second term involves the Immirzi parameter,
-γ. The second term doesn't affect the classical equations of motion,
+\gamma. The second term doesn't affect the classical equations of motion,
 because its variation is a total derivative. But it does affect the
 quantum theory!
 
@@ -242,7 +242,7 @@ It may be better to read some of the many books cited there.
 Anyway, the special representations of \mathrm{SL}(2,\mathbb{C}) that show up in the EPRL
 model are those with
 
-k = γ j
+k = \gamma j
 
 This is beautiful because there's one for each spin. So, the category
 of these representations and their direct sums is equivalent to the
@@ -415,7 +415,7 @@ curvature is denoted F.
 
 Now, what does the Holst Lagrangian
 
-tr(e \^ e \^ *F) + (1/γ) tr(e \^ e \^ F)
+\operatorname{tr}(e ^ e ^ *F) + (1/\gamma) \operatorname{tr}(e ^ e ^ F)
 
 actually mean?
 
@@ -433,12 +433,12 @@ this the "internal" Hodge star operator. Using this we can define *F,
 which is again a 2-form taking values in Λ^2(T).
 
 Next, note that the cotetrad e can be thought of as a T-valued 1-form.
-This allows us to define the wedge product e \^ e as a Λ^2(T)-valued
+This allows us to define the wedge product e ^ e as a Λ^2(T)-valued
 2-form. This is the same sort of gadget as the curvature F and its
 internal Hodge dual *F! So, we can take the wedge product of the
-differential form parts of e \^ e and *F while using the metric on T to
+differential form parts of e ^ e and *F while using the metric on T to
 pair together their Λ^2(T) parts to get a number. The overall result is
-a plain old 4-form, which we call tr(e \^ e \^ *F). This is the
+a plain old 4-form, which we call \operatorname{tr}(e ^ e ^ *F). This is the
 Palatini Lagrangian!
 
 If you work out the equations of motion coming from this Lagrangian,
@@ -446,19 +446,19 @@ they say A that pulls back via e to a *torsion-free* metric-compatible
 connection on the tangent bundle. This is just the Levi-Civita
 connection! It follows that F pulls back to the curvature of the
 Levi-Civita connection. This is just the Riemann tensor! Finally, it
-turns out that tr(e \^ e \^ *F) is just the Ricci scalar curvature
+turns out that \operatorname{tr}(e ^ e ^ *F) is just the Ricci scalar curvature
 times the volume form on M, so we were doing general relativity all
 along!
 
-We define tr(e \^ e \^ F) the same sort of way, and throwing this term
+We define \operatorname{tr}(e ^ e ^ F) the same sort of way, and throwing this term
 into the action doesn't affect the classical equations of motion. It's
 very much like Yang-Mills theory, where you can take the usual action
 
-tr(F \^ *F)
+\operatorname{tr}(F ^ *F)
 
 and throw in a "theta term", proportional to "second Chern class"
 
-tr(F \^ F)
+\operatorname{tr}(F ^ F)
 
 without changing the classical equations of motion. But it does affect
 the quantum theory!
@@ -466,7 +466,7 @@ the quantum theory!
 For a more detailed treatment of the Holst action including a
 cosmological constant term proportional to
 
-tr(e \^ e \^ e \^ e)
+\operatorname{tr}(e ^ e ^ e ^ e)
 
 and three topological terms corresponding to the Pontryagin class, the
 Euler class and the Nieh-Yan class, see:

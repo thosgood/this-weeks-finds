@@ -238,7 +238,7 @@ we'd like a source that emitted a pulse of light whose variation in
 time we can detect with good resolution... say, less than a
 millisecond.
 
-Hmm. How can we arrange this? Use γ-ray bursters! We don't have to
+Hmm. How can we arrange this? Use \gamma-ray bursters! We don't have to
 build them; nature has seen to that, so we can use these rascals to put
 limits on this dispersion effect. For more details, try:
 

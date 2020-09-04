@@ -583,7 +583,7 @@ In fact, Kevin Buzzard's email was packed with wisdom. He wrote:
 > the Euler characteristic of \mathrm{SL}(2,\mathbb{Z}) is.
 >
 > Here are some examples of congruence subgroups: for any integer N≥1,
-> consider the subgroup Γ_1(N) of \mathrm{SL}(2,\mathbb{Z}), defined as the matrices
+> consider the subgroup \Gamma_1(N) of \mathrm{SL}(2,\mathbb{Z}), defined as the matrices
 >
 >      (a b)
 >      (c d)
@@ -593,7 +593,7 @@ In fact, Kevin Buzzard's email was packed with wisdom. He wrote:
 > \mathrm{SL}(2,\mathbb{Z}/NZ) so it's a subgroup of \mathrm{SL}(2,\mathbb{Z}). Here's a neat fact that
 > makes life easy:
 >
-> **Lemma:** if N≥5 then Γ_1(N) has no torsion.
+> **Lemma:** if N≥5 then \Gamma_1(N) has no torsion.
 >
 > **Proof:** say g in \mathrm{SL}(2,\mathbb{Z}) has finite order d≥1. Then its min poly
 > divides X^d^-1 so over the complexes it has distinct linear factors so
@@ -623,14 +623,14 @@ In fact, Kevin Buzzard's email was packed with wisdom. He wrote:
 > this tree because the stabiliser of each vertex and edge under the
 > \mathrm{SL}(2,\mathbb{Z}) action is finite.
 >
-> So Γ_1(5) is, by this general theorem, free. In fact I don't really
+> So \Gamma_1(5) is, by this general theorem, free. In fact I don't really
 > need this general nonsense, one can give a hands-on proof of this
-> fact, which I'll do now. We've seen that \mathrm{SL}(2,\mathbb{Z}), and hence Γ_1(5),
-> acts on the upper half plane. There is no torsion in Γ_1(5) so the
+> fact, which I'll do now. We've seen that \mathrm{SL}(2,\mathbb{Z}), and hence \Gamma_1(5),
+> acts on the upper half plane. There is no torsion in \Gamma_1(5) so the
 > action is very nice, one checks easily that the action is free in fact
 > by a similar sort of argument to the lemma above, it's the sort of
 > thing you can find in the first few pages of any book on modular
-> forms. So we can quotient out the upper half plane by Γ_1(5) and get
+> forms. So we can quotient out the upper half plane by \Gamma_1(5) and get
 > a quotient Riemann surface. The point is that this computation is very
 > manageable and can be done "in practice". There is a standard
 > argument which shows how to quotient out the upper half plane by
@@ -641,7 +641,7 @@ In fact, Kevin Buzzard's email was packed with wisdom. He wrote:
 > coming from the theory of elliptic curves---there is a standard
 > fundamental domain even, the one with corners ρ, ρ^2 and +i\infty. I'm
 > sure you'll have come across this sort of thing many times before.
-> Now \mathrm{SL}(2,\mathbb{Z}) surjects onto \mathrm{SL}(2,\mathbb{Z}/5Z) so the index of Γ_1(5) in
+> Now \mathrm{SL}(2,\mathbb{Z}) surjects onto \mathrm{SL}(2,\mathbb{Z}/5Z) so the index of \Gamma_1(5) in
 > \mathrm{SL}(2,\mathbb{Z}) is just the index of
 >
 >     (1 *)
@@ -650,29 +650,29 @@ In fact, Kevin Buzzard's email was packed with wisdom. He wrote:
 > in \mathrm{SL}(2,\mathbb{Z}/5Z) and by counting orders this comes out to be 24. Now
 > it's not hard to find explicitly 24 translates of the standard
 > fundamental domain and then glue them together to work out the
-> quotient of the upper half plane by Γ_1(5)---it turns out that it
+> quotient of the upper half plane by \Gamma_1(5)---it turns out that it
 > is isomorphic to the Riemann Sphere minus 4 points.
 >
 > In fact there is no need to do this sort of computation---the
 > modular forms people have automated it long ago. The quotient of the
-> upper half plane by Γ_1(N) is a Riemann surface called Y_1(N) and I
+> upper half plane by \Gamma_1(N) is a Riemann surface called Y_1(N) and I
 > can just ask my computer to compute the genus of its natural
 > compactification (this exists and is called X_1(N)) and also to
 > compute how many cusps were added to compactify it. So in practice you
 > just have to find a friendly modular forms person and then say "hey,
 > what's the genus of X_1(5) and how many cusps does it have?" and
-> then you have a complete description of Γ_1(5) because it's \pi_1 of
+> then you have a complete description of \Gamma_1(5) because it's \pi_1 of
 > the answer.
 >
-> OK, the upper half plane modulo Γ_1(5) is the sphere minus 4 points,
-> so Γ_1(5) is \pi_1 of this, i.e. it's free on three generators. That
-> makes the Euler characteristic of Γ_1(5) equal to 1-3=-2. And we
+> OK, the upper half plane modulo \Gamma_1(5) is the sphere minus 4 points,
+> so \Gamma_1(5) is \pi_1 of this, i.e. it's free on three generators. That
+> makes the Euler characteristic of \Gamma_1(5) equal to 1-3=-2. And we
 > already checked that the index was 24, so the Euler Characteristic of
 > \mathrm{SL}(2,\mathbb{Z}) works out to be -1/12. Grothendieck wouldn't have chosen
-> Γ_1(5); he would have chosen something called Γ(2), the subgroup of
+> \Gamma_1(5); he would have chosen something called \Gamma(2), the subgroup of
 > \mathrm{SL}(2,\mathbb{Z}) consisting of the matrices which are the identity mod 2. There
 > is another classical modular function λ inducing an isomorphism of
-> Y(2), the quotient of the upper half plane by Γ(2), with the sphere
+> Y(2), the quotient of the upper half plane by \Gamma(2), with the sphere
 > minus three points---this is what gives the one-line proof of the
 > fact that any analytic function C\toC that misses two points must be
 > constant, because it then lifts to a function from C to the upper half
@@ -682,12 +682,12 @@ In fact, Kevin Buzzard's email was packed with wisdom. He wrote:
 >     (-1 0)
 >     (0 -1)
 >
-> is in Γ(2). So you have to work with \mathrm{PSL}(2,\mathbb{Z})=\mathrm{SL}(2,\mathbb{Z})/{±1} instead.
-> Let PΓ(2) denote the image of Γ(2) in \mathrm{PSL}(2,\mathbb{Z}). Note that -1 is kind
+> is in \Gamma(2). So you have to work with \mathrm{PSL}(2,\mathbb{Z})=\mathrm{SL}(2,\mathbb{Z})/{±1} instead.
+> Let P\Gamma(2) denote the image of \Gamma(2) in \mathrm{PSL}(2,\mathbb{Z}). Note that -1 is kind
 > of a pain in the theory of modular forms sometimes because it acts
 > trivially on everything but isn't the identity. Grothendieck was very
 > interested in the sphere minus three points but it's much older than
-> this that PΓ(2) is its fundamental group, so PΓ(2) has Euler
+> this that P\Gamma(2) is its fundamental group, so P\Gamma(2) has Euler
 > characteristic 2-3=-1 and index 6 in \mathrm{PSL}(2,\mathbb{Z}), so \mathrm{PSL}(2,\mathbb{Z}) has Euler
 > characteristic -1/6, so \mathrm{SL}(2,\mathbb{Z}) has Euler characteristic -1/12 because
 > that's how they work. :-)
@@ -726,15 +726,15 @@ I replied:
 > congruence subgroups....
 >
 > In fact, I've finally managed to turn up the thing I was looking for.
-> How does this relate to the stuff you're saying? It involves Γ(3)
-> rather than the Γ_1(N) groups:
+> How does this relate to the stuff you're saying? It involves \Gamma(3)
+> rather than the \Gamma_1(N) groups:
 >
 > In ["Week  97"](#week 97), I wrote:
 >
 >       Where does the extra 24 come from?  I don't know, but Stephan Stolz
 >       said it has something to do with the fact that while \mathrm{PSL}(2,\mathbb{Z}) doesn't
 >       act freely on the upper half-plane - hence these elliptic curves with
->       extra symmetries - the subgroup "Γ(3)" does.  This subgroup consists
+>       extra symmetries - the subgroup "\Gamma(3)" does.  This subgroup consists
 >       of integer matrices
 >
 >       (a b)
@@ -750,13 +750,13 @@ I replied:
 >
 >       So, if we form
 >
->       H/Γ(3)
+>       H/\Gamma(3)
 >
 >       we get a nice space without any "points of greater symmetry".
 >       To get the moduli space of elliptic curves from this, we just
 >       need to mod out by the group
 >
->       \mathrm{SL}(2,\mathbb{Z})/Γ(3) = \mathrm{SL}(2,\mathbb{Z}/3)
+>       \mathrm{SL}(2,\mathbb{Z})/\Gamma(3) = \mathrm{SL}(2,\mathbb{Z}/3)
 >
 >       But this group has 24 elements!
 >
@@ -796,9 +796,9 @@ Kevin replied:
 >      > the congruence subgroups.  It seems this subgroup is not any of the
 >      > beloved congruence subgroups....
 >
-> You're right, I don't think it is. For N≥1 define Γ(N) to be the
+> You're right, I don't think it is. For N≥1 define \Gamma(N) to be the
 > kernel of the obvious map \mathrm{SL}(2,\mathbb{Z})\to\mathrm{SL}(2,\mathbb{Z}/NZ); a congruence subgroup is
-> any subgroup of \mathrm{SL}(2,\mathbb{Z}) that contains one of these Γ(N)'s. Clearly
+> any subgroup of \mathrm{SL}(2,\mathbb{Z}) that contains one of these \Gamma(N)'s. Clearly
 > such things have finite index in \mathrm{SL}(2,\mathbb{Z}). But unfortunately there
 > exist subgroups of finite index in \mathrm{SL}(2,\mathbb{Z}) that are not congruence
 > subgroups. This is a "low-dimensional" phenomenon---the moment you
@@ -816,22 +816,22 @@ Kevin replied:
 >
 >      > In fact, I've finally managed to turn up the thing I was looking
 >      > for.  How does this relate to the stuff you're saying?  It involves
->      > Γ(3) rather than the Γ1(N) groups.
+>      > \Gamma(3) rather than the \Gamma1(N) groups.
 >
-> Anything will do. If you know about Γ(3) then great. The same key
-> observation is true---Γ(3) contains no elements of finite order,
+> Anything will do. If you know about \Gamma(3) then great. The same key
+> observation is true---\Gamma(3) contains no elements of finite order,
 > because any finite order element
 >
 >     (a b)
 >     (c d)
 >
-> of Γ(3) which isn't the identity must have trace in {-2,-1,0,1}
+> of \Gamma(3) which isn't the identity must have trace in {-2,-1,0,1}
 > congruent to 2 mod 3, so the trace must be -1, so d=-1-a, so the det
-> is a(-1-a) mod 9, which is never 1 mod 9. Now the index of Γ(3) in
+> is a(-1-a) mod 9, which is never 1 mod 9. Now the index of \Gamma(3) in
 > \mathrm{SL}(2,\mathbb{Z}) is 24, and the modular curve X(3) has genus 0 (everyone knows
 > this because Wiles needed it to prove Fermat's Last Theorem!) and
 > four cusps (zero, 1, 1/2 and \infty) and hence the Euler Characteristic of
-> Γ(3) is 2-4=-2, so we recover the result that the Euler Characteristic
+> \Gamma(3) is 2-4=-2, so we recover the result that the Euler Characteristic
 > of \mathrm{SL}(2,\mathbb{Z}) is -1/12 again.
 >
 > John Baez wrote:
@@ -839,7 +839,7 @@ Kevin replied:
 >       > Where does the extra 24 come from?  I don't know, but Stephan Stolz
 >       > said it has something to do with the fact that while \mathrm{PSL}(2,\mathbb{Z}) doesn't
 >       > act freely on the upper half-plane - hence these elliptic curves with
->       > extra symmetries - the subgroup "Γ(3)" does.
+>       > extra symmetries - the subgroup "\Gamma(3)" does.
 >
 > One can see that any subgroup of \mathrm{SL}(2,\mathbb{Z}) which has finite index and is
 > free, must have index a multiple of 12 (and hence at least 12).

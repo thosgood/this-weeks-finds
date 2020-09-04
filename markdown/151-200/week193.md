@@ -402,14 +402,14 @@ think about how this diamond-cutting trick worked. At least in this case
 just the roots of a simple Lie algebra of rank one less than the one we
 started with. Since the Cartan of this smaller Lie algebra is one
 dimension smaller, it turns out that L(0) equals this smaller Lie
-algebra plus a one-dimensional abelian subalgebra - namely u(1).
+algebra plus a one-dimensional abelian subalgebra - namely \mathrm{u}(1).
 
 In this example this smaller Lie algebra is \mathfrak{so}(14), which has dimension
 91. L(1) is a 64-dimensional chiral spinor rep of \mathfrak{so}(14), and L(2) is
 the 14-dimensional vector rep... and similarly for L(-1) and L(-2). So
 we get a very "14-dimensional" picture of E~8~:
 
-    E8 =  [vectors] \oplus  [spinors] \oplus  [\mathfrak{so}(14) \oplus  u(1)] \oplus  [spinors] \oplus  [vectors]
+    E8 =  [vectors] \oplus  [spinors] \oplus  [\mathfrak{so}(14) \oplus  \mathrm{u}(1)] \oplus  [spinors] \oplus  [vectors]
 
 But we get a more exciting way of slicing the diamond if we use the
 picture of E~8~ as the Cayley integral octonions! Let's do this, and
@@ -459,12 +459,12 @@ each root in L(1) and L(2), so I can write a paper entitled "57
 Varieties" and get sued for trademark infringement by Heinz.
 
 In the above grading of E~8~, the Lie algebra L(0) is the direct sum of
-E~7~ and u(1). This is no surprise if you know that the dimension of
+E~7~ and \mathrm{u}(1). This is no surprise if you know that the dimension of
 E~7~ is 133... but the reason it's *true* is that if you take the
 roots of E~8~ that are orthogonal to any one root, you get the roots of
 E~7~. So, we get a very E~7~-ish description of E~8~:
 
-    E8 =  [trivial] \oplus  [Freudenthal] \oplus  [E7 \oplus  u(1)] \oplus  [Freudenthal] \oplus  [trivial]
+    E8 =  [trivial] \oplus  [Freudenthal] \oplus  [E7 \oplus  \mathrm{u}(1)] \oplus  [Freudenthal] \oplus  [trivial]
 
 Here the "Freudenthal algebra" is the 56-dimensional irrep of E~7~,
 which has an invariant symplectic structure and ternary product
@@ -485,7 +485,7 @@ way, we get a 3-grading of E~7~:
     133 =    27  +  79  +  27
 
 Since E~7~'s baby brother E~6~ is 78-dimensional, it's no surprise
-that the Lie algebra L(0) is E~6~ plus u(1). Since 3-gradings tend to
+that the Lie algebra L(0) is E~6~ plus \mathrm{u}(1). Since 3-gradings tend to
 give us Jordan algebras, it's no suprise that L(1) is the exceptional
 Jordan algebra h_3(O) consisting of all 3x3 hermitian octonionic
 matrices. E~6~ acts as the group of all transformations of h_3(O)
@@ -493,12 +493,12 @@ preserving the determinant, and in fact h_3(O) is an irrep of E~6~.
 L(-1) is just the dual of this rep. So, we get a very octonionic
 description of E~7~:
 
-    E7 = h3(O)* \oplus  [E6 \oplus  u(1)] \oplus  h3(O)
+    E7 = h3(O)* \oplus  [E6 \oplus  \mathrm{u}(1)] \oplus  h3(O)
 
 Now, since E~6~ sits in E~7~ which sits in E~8~, just like nested
 Russian dolls, we can take our previous description of E~8~:
 
-    E8  =  [trivial] \oplus  [Freudenthal] \oplus  [E7 + u(1)] &oplus [Freudenthal] \oplus  [trivial]
+    E8  =  [trivial] \oplus  [Freudenthal] \oplus  [E7 + \mathrm{u}(1)] &oplus [Freudenthal] \oplus  [trivial]
 
 and decompose everything in sight as irreps of E~6~. If we do this, the
 only new exciting thing that happens is that the Freudenthal algebra
@@ -585,9 +585,9 @@ is, slightly modified:
     E7               E6             27              h3(O)
     E6               \mathfrak{so}(10)         16              h4(C)
 
-Since L(0) always contains a u(1) summand in these cases, we write
+Since L(0) always contains a \mathrm{u}(1) summand in these cases, we write
 
-    L(0) = L'(0) + u(1)
+    L(0) = L'(0) + \mathrm{u}(1)
 
 so that L'(0) is the interesting part of L(0). The formally real simple
 Jordan algebras appearing here are all those listed in

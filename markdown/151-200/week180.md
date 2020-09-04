@@ -280,7 +280,7 @@ The Dynkin diagram of Spin(5,C) is two dots connected by a double edge:
 For an explanation of the double edge and the arrow see
 ["Week 62"](#week62) and ["Week 64"](#week64), where I also
 explained that this Dynkin diagram is the same as that of \mathrm{Sp}(4,C), the
-group of transformations preserving a symplectic structure on C\^4.
+group of transformations preserving a symplectic structure on C^4.
 That's because these groups are isomorphic:
 
 Spin(5,C) = \mathrm{Sp}(4,C).

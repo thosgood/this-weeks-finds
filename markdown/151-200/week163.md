@@ -299,7 +299,7 @@ guys:
 Now, the trace of a matrix in h_3(O) is invariant under automorphisms,
 because we can define it using only the Jordan algebra structure:
 
-    tr(a) = (1/3) tr(La)    
+    \operatorname{tr}(a) = (1/3) \operatorname{tr}(La)    
 
 where L~a~ is left multiplication by a. It follows that the trace of any
 projection in h_3(O) is 0, 1, 2, or 3.
@@ -319,7 +319,7 @@ equals the trace.
 Why?
 
 Well, clearly the dimension is less than or equal to the trace, since p
-< q implies tr(p) < tr(q), and the trace goes up by integer steps. But
+< q implies \operatorname{tr}(p) < \operatorname{tr}(q), and the trace goes up by integer steps. But
 on the other hand, the trace is less than or equal to the dimension. To
 see this it suffices to consider the four projections shown above, since
 both trace and dimension are invariant under automorphisms. Since p~0~

@@ -245,7 +245,7 @@ transformation
 This subgroup acts on the upper half-plane H, which is just another way
 of thinking about the hyperbolic plane.
 
-Sitting inside \mathrm{PSL}(2,\mathbb{Z}) is a group Γ(7) consisting of guys where the
+Sitting inside \mathrm{PSL}(2,\mathbb{Z}) is a group \Gamma(7) consisting of guys where the
 matrix
 
     a  b
@@ -262,11 +262,11 @@ modulo 7. This is an example of a "congruence subgroup"; these serve
 to relate complex analysis to number theory in lots of cool ways. In
 particular, Klein's quartic curve is just
 
-H/Γ(7)
+H/\Gamma(7)
 
-Since Γ(7) is a normal subgroup of \mathrm{PSL}(2,\mathbb{Z}), the quotient group
+Since \Gamma(7) is a normal subgroup of \mathrm{PSL}(2,\mathbb{Z}), the quotient group
 
-\mathrm{PSL}(2,\mathbb{Z})/Γ(7) = \mathrm{PSL}(2,\mathbb{Z}/7)
+\mathrm{PSL}(2,\mathbb{Z})/\Gamma(7) = \mathrm{PSL}(2,\mathbb{Z}/7)
 
 acts as symmetries of Klein's quartic curve. And, this group has 168
 elements!

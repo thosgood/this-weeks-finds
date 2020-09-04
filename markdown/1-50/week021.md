@@ -146,7 +146,7 @@ somewhat sneakier way immersions fail to be embeddings is by having
 complex plane. This is a two-valued function, so its graph consists of
 two "sheets" which glom together in a funny way at $z = 0$, the branch
 point. Carter also talks about another neat immersion of the projective
-plane in R\^3 that just has double points and a branch point --- the
+plane in $\mathbb{R}^3$ that just has double points and a branch point --- the
 "cross cap." Another immersion, the "Roman surface," has both triple
 points and a branch point.
 

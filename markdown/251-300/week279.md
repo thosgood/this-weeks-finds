@@ -322,9 +322,9 @@ the "obvious" way for an element of h_2(K) to act on K^2, there is a
 less obvious way that involves the "traced-reversed" form of a 2\times2
 hermitian matrix:
 
-A^\~^ = A - tr(A)
+A^\~^ = A - \operatorname{tr}(A)
 
-where the trace tr(A) is the sum of the diagonal entries. We get one
+where the trace \operatorname{tr}(A) is the sum of the diagonal entries. We get one
 kind of spinors, say
 
 S~+~ = K^2

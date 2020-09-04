@@ -208,7 +208,7 @@ interesting to calculate d ω and see what it's like.
 
 The answer is very simple. It's called the Maurer-Cartan equation:
 
-dω = - ω \^ ω
+dω = - ω ^ ω
 
 On the right here I'm using the wedge product of Lie(G)-valued
 differential forms. This is defined just like the wedge product of
@@ -224,22 +224,22 @@ even find it on the Wikipedia:
 An interesting thing about this equation is that it shows everything
 about the Lie algebra Lie(G) is packed into the Maurer-Cartan form. The
 reason is that everything about the bracket operation is packed into the
-definition of ω \^ ω.
+definition of ω ^ ω.
 
-If you have trouble seeing this, note that we can feed ω \^ ω a pair of
+If you have trouble seeing this, note that we can feed ω ^ ω a pair of
 tangent vectors at any point of G, and it will spit out an element of
 Lie(G). How will it do this? The two copies of ω will eat the two
 tangent vectors and spit out elements of Lie(G). Then we take the
 bracket of those, and that's the final answer.
 
 Since we can get the bracket of *any* two elements of Lie(G) using this
-trick, ω \^ ω knows everything about the bracket in Lie(G). You could
+trick, ω ^ ω knows everything about the bracket in Lie(G). You could
 even say it's the bracket viewed as a geometrical entity - a kind of
 "field" on the group G!
 
 Now, since
 
-dω = - ω \^ ω
+dω = - ω ^ ω
 
 and the usual rules for exterior derivatives imply that
 
@@ -247,10 +247,10 @@ d^2ω = 0
 
 we must have
 
-d(ω \^ ω) = 0
+d(ω ^ ω) = 0
 
 If we work this concretely what this says, we must get some identity
-involving the bracket in our Lie algebra, since ω \^ ω is just the
+involving the bracket in our Lie algebra, since ω ^ ω is just the
 bracket in disguise. What identity could this be?
 
 THE JACOBI IDENTITY!
@@ -260,7 +260,7 @@ Lie algebra elements, bracket them in a clever way, and get zero:
 
 \[u,\[v,w\]\] + \[v,\[w,u\]\] + \[w,\[u,v\]\] = 0
 
-while d(ω \^ ω) is a Lie(G)-valued 3-form that happens to vanish, built
+while d(ω ^ ω) is a Lie(G)-valued 3-form that happens to vanish, built
 using the bracket.
 
 It also has to be since the equation d^2 = 0 is just another way of

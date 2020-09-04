@@ -58,9 +58,9 @@ Then, one for \pi /2:
     - = ( - )     ( ------ )     ( --------- )     ( ------------- )     ...
     2     1         1 \times 3            1 \times 33            1 \times 36 \times 5
 
-Then one for e^γ^, where γ is Euler's constant:
+Then one for e^\gamma^, where \gamma is Euler's constant:
 
-     γ      2  1/2     22    1/3    23 \times 4   1/4      24 \times 44    1/5
+     \gamma      2  1/2     22    1/3    23 \times 4   1/4      24 \times 44    1/5
     e  = ( - )     ( ----- )     ( ------- )     ( ----------- )     ...
            1         1 \times 3         1 \times 33          1 \times 36 \times 5
 

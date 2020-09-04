@@ -12,7 +12,7 @@ time about 160 did! It was strange seeing old pals like Ashtekar,
 Lewandowski, Loll, Rovelli and Smolin almost lost in a sea of new faces.
 But, it was great to talk to everyone, both old and new.
 
-I'll say more about this conference, but first let's talk about γ ray
+I'll say more about this conference, but first let's talk about \gamma ray
 bursters, a black hole without a host galaxy, the newly discovered moon
 of planet Xena, and lots of other transneptunian objects.
 
@@ -68,28 +68,28 @@ want?
 
 But right now, the big news in astronomy is *not* about a type III
 civilization lurking beyond M31 (otherwise known as the Andromeda
-Galaxy). It's some evidence that short γ ray bursts are caused by
+Galaxy). It's some evidence that short \gamma ray bursts are caused by
 collisions involving neutron stars and black holes!
 
-Γ ray bursts are among the most energetic events known in the heavens.
+\Gamma ray bursts are among the most energetic events known in the heavens.
 They happen in galaxies throughout the universe; we see about one a day,
 and each releases somewhere between 10^45^ and 10^47^ joules of energy.
 The larger figure is what you'd get by turning the entire mass of the
 Sun into energy.
 
-There could be several kinds of γ ray bursts, but there seem to be at
+There could be several kinds of \gamma ray bursts, but there seem to be at
 least two: short and long. Short bursts last between 40 milliseconds and
 10 seconds - imagine the whole Sun turning into energy that fast! Long
 ones last between 10 and 100 seconds. The two kinds seem to be
 qualitatively different: for example, the short ones consist of
-higher-frequency γ rays. The big news is that they happen in different
+higher-frequency \gamma rays. The big news is that they happen in different
 kinds of galaxies!
 
-In ["Week 204"](#week204), I described how people caught a long γ
-ray burst in the act in March 2003. A γ ray detector aboard a satellite
+In ["Week 204"](#week204), I described how people caught a long \gamma
+ray burst in the act in March 2003. A \gamma ray detector aboard a satellite
 relayed information to telescopes in Australia and Japan, allowing them
 to spot a visible afterglow right after the burst. The details of this
-glow fit the "hypernova" theory of long γ ray bursts.
+glow fit the "hypernova" theory of long \gamma ray bursts.
 
 The hypernova theory says that when a star more than 25 times heavier
 than the Sun runs out of fuel and collapses, it forms a black hole that
@@ -98,13 +98,13 @@ occur. In just a few seconds, about a solar mass of iron spirals into
 the black hole, forming a pancake-shaped disk as it goes down. In the
 process, this disk becomes incredibly hot and shoots out jets of
 radiation in the transverse directions. As they plow through the star's
-outer layers, these jets create beams of γ rays.
+outer layers, these jets create beams of \gamma rays.
 
 The short bursts have been harder to catch. By the time a telescope on
-Earth could be aimed at the spot where the γ rays were seen, no
+Earth could be aimed at the spot where the \gamma rays were seen, no
 afterglow could be seen!
 
-So, in October 2004 NASA launched Swift: a γ-ray detecting satellite
+So, in October 2004 NASA launched Swift: a \gamma-ray detecting satellite
 equipped with an X-ray telescope and an ultraviolet/optical telescope
 that can respond quickly whenever a burst is seen:
 
@@ -120,15 +120,15 @@ of these and two more short bursts has convinced some scientists that
 they're caused by collisions between neutron stars and/or black holes:
 
 6) D. B. Fox et al, The afterglow of GRB050709 and the nature of the
-short-hard γ-ray bursts, Nature 437 (October 2005), 849-850. Also
+short-hard \gamma-ray bursts, Nature 437 (October 2005), 849-850. Also
 available at `http://www.nasa.gov/pdf/135397main_nature_fox_final.pdf`
 
 Despite what the news media are saying, I don't see that this paper
-"proves" the short γ-ray bursts are caused by such collisions.
+"proves" the short \gamma-ray bursts are caused by such collisions.
 Instead, I see some good pieces of evidence.
 
 The faintness of the afterglows suggests some mechanism other than a
-hypernova. But as far as I can tell, the best evidence is that short γ
+hypernova. But as far as I can tell, the best evidence is that short \gamma
 ray bursts tend to happen near the edges of old galaxies, while the long
 ones happen near the centers of young galaxies.
 
@@ -144,10 +144,10 @@ sail off to the edge of the galaxy, thanks to the "kick" delivered by
 the supernova explosions.
 
 I hope astronomers can clinch the case for the collision theory of short
-γ ray bursts. After all, these collisions involving neutron stars and
+\gamma ray bursts. After all, these collisions involving neutron stars and
 black holes are precisely what gravitational wave detectors like LIGO
 and VIRGO are hoping to see! If we know to look for gravitational waves
-precisely when we see short γ ray bursts, and we know where they're
+precisely when we see short \gamma ray bursts, and we know where they're
 coming from, we'll have a better chance of finding them.
 
 (Of course, we'll also have a better chance of *fooling* ourselves into

@@ -331,7 +331,7 @@ nonnegative scalars. Let P be the cone of nonnegative elements. Then a
 
 which is linear in the obvious sense and satisfies
 
-tr(xy) = tr(yx)
+\operatorname{tr}(xy) = \operatorname{tr}(yx)
 
 whenever both xy and yx are nonnegative.
 
