@@ -15,7 +15,7 @@ But first... the astronomy picture of the day.
 The Eaton Collection at UC Riverside may be the world's best library of
 science fiction:
 
-1\) The Eaton Collection of Science Fiction, Fantasy, Horror and Utopian
+1) The Eaton Collection of Science Fiction, Fantasy, Horror and Utopian
 Literature, `http://eaton-collection.ucr.edu/`.
 
 Right now my wife Lisa Raphals is attending a conference there on the
@@ -32,7 +32,7 @@ crater on Mars' moon Phobos:
 [![](phobos.jpg){width="500"}](http://apod.nasa.gov/apod/ap080410.html)
 :::
 
-2\) Astronomy Picture of the Day, Stickney Crater
+2) Astronomy Picture of the Day, Stickney Crater
 `http://apod.nasa.gov/apod/ap080410.html`
 
 It's another great example of how machines in space now deliver many
@@ -75,7 +75,7 @@ So, enjoy it while it lasts.
 Anyone who's seriously struggled to master quantum field theory is
 likely to have profited from this book:
 
-3\) Sidney Coleman, Aspects of Symmetry: Selected Erice Lectures,
+3) Sidney Coleman, Aspects of Symmetry: Selected Erice Lectures,
 Cambridge U. Press, Cambridge, 1988.
 
 It's brimming with wisdom and humor. You should have already
@@ -91,7 +91,7 @@ class on the notes from Coleman's class at Harvard. So, I've always
 been curious about these notes. Now they're available online in
 handwritten form:
 
-4\) Sidney Coleman, lecture notes on quantum field theory, transcribed
+4) Sidney Coleman, lecture notes on quantum field theory, transcribed
 by Brian Hill, `http://www.damtp.cam.ac.uk/user/dt281/qft/col1.pdf` and
 `http://www.damtp.cam.ac.uk/user/dt281/qft/col2.pdf`
 
@@ -100,7 +100,7 @@ Someone should LaTeX them up!
 Even more fun, you can now see *videos* of Coleman teaching quantum
 field theory:
 
-5\) Sidney Coleman, Physics 253: Quantum Field Theory, 50 lectures
+5) Sidney Coleman, Physics 253: Quantum Field Theory, 50 lectures
 recorded 1975-1976, `http://www.physics.harvard.edu/about/Phys253.html`
 
 This is a younger, hipper Coleman than I'd ever seen: long-haired,
@@ -174,25 +174,25 @@ After all this data processing, we get some astounding pictures:
 This picture summarizes the first 999 stable homotopy groups of spheres
 at the prime 5. To understand exactly what it means, read this:
 
-6\) Allen Hatcher, Stable homotopy groups of spheres,
+6) Allen Hatcher, Stable homotopy groups of spheres,
 `http://www.math.cornell.edu/~hatcher/stemfigs/stems.html`
 
 Order teetering on the brink of chaos! If you're brave, you can learn
 more about this stuff here:
 
-7\) Douglas C. Ravenel, Complex Cobordism and Stable Homotopy Groups of
+7) Douglas C. Ravenel, Complex Cobordism and Stable Homotopy Groups of
 Spheres, AMS, Providence, Rhode Island, 2003.
 
 If you're less brave, I strongly suggest starting here:
 
-8\) Wikipedia, Homotopy groups of spheres,
+8) Wikipedia, Homotopy groups of spheres,
 `http://en.wikipedia.org/wiki/Homotopy_groups_of_spheres`
 
 But now, I want to talk about an amazing paper that pursues a very
 different line of attack. It gives a beautiful description of *all* the
 homotopy groups of S^2, in terms of braids:
 
-9\) A. Berrick, F. R. Cohen, Y. L. Wong and J. Wu, Configurations,
+9) A. Berrick, F. R. Cohen, Y. L. Wong and J. Wu, Configurations,
 braids and homotopy groups, J. Amer. Math. Soc., 19 (2006), 265-326.
 Also available at `http://www.math.nus.edu.sg/~matwujie/BCWWfinal.pdf`
 
@@ -270,7 +270,7 @@ As I hinted in ["Week 261"](#week261), these surface braid groups
 have cool relationships to Dynkin diagrams. I urged you to read this
 paper, and I'll urge you again:
 
-10\) Daniel Allcock, Braid pictures for Artin groups, available as
+10) Daniel Allcock, Braid pictures for Artin groups, available as
 [`arXiv:math.GT/9907194`](http://arxiv.org/abs/math.GT/9907194).
 
 But for now, we just need the "spherical braid group" B~n~(S^2)
@@ -334,7 +334,7 @@ Given this, it turns out that Wu's results are predecessors of the
 theorem just stated, a bit more combinatorial and less "geometric".
 Wu's results appeared here:
 
-12\) Jie Wu, On combinatorial descriptions of the homotopy groups of
+12) Jie Wu, On combinatorial descriptions of the homotopy groups of
 certain spaces, Math. Proc. Camb. Phil. Soc. 130 (2001), 489-513. Also
 available at `http://www.math.nus.edu.sg/~matwujie/newnewpis_3.pdf`
 
@@ -344,12 +344,12 @@ Jie Wu, A braided simplicial group, Proc. London Math. Soc. 84 (2002),
 
 and there's a nice summary of these results on his webpage:
 
-13\) Jie Wu, 2.1 Homotopy groups and braids, halfway down the page at
+13) Jie Wu, 2.1 Homotopy groups and braids, halfway down the page at
 `http://www.math.nus.edu.sg/~matwujie/Research2.html`
 
 See also this expository paper:
 
-14\) Fred R. Cohen and Jie Wu, On braid groups and homotopy groups,
+14) Fred R. Cohen and Jie Wu, On braid groups and homotopy groups,
 Geometry & Topology Monographs 13 (2008), 169-193. Also available at
 `http://www.math.nus.edu.sg/~matwujie/cohen.wu.GT.revised.29.august.2007.pdf`
 
@@ -431,9 +431,9 @@ Before I answer this, I can't resist adding that these holomorphic
 sections have a long and illustrious history - they're called "theta
 functions", and you can learn about them here:
 
-15\) Jun-ichi Igusa, Theta Functions, Springer, Berlin, 1972.
+15) Jun-ichi Igusa, Theta Functions, Springer, Berlin, 1972.
 
-16\) David Mumford, Tata Lectures on Theta, 3 volumes, Birkhauser,
+16) David Mumford, Tata Lectures on Theta, 3 volumes, Birkhauser,
 Boston, 1983-1991.
 
 They're important in geometric quantization, where holomorphic sections
@@ -552,13 +552,13 @@ combinatorial description of π_3(S^2).
 Martin Ouwehand told me that some of Coleman's lecture notes on quantum
 field theory are available in TeX here:
 
-17\) Sidney Coleman, Quantum Field Theory, first 11 lectures notes TeXed
+17) Sidney Coleman, Quantum Field Theory, first 11 lectures notes TeXed
 by Bryan Gin-ge Chen, available at
 `http://www.physics.upenn.edu/~chb/phys253a/coleman/`
 
 James Dolan pointed out that this article:
 
-18\) Wikipedia, Riemann-Roch theorem,
+18) Wikipedia, Riemann-Roch theorem,
 `http://en.wikipedia.org/wiki/Riemann-Roch`
 
 has some very relevant information on the sequence

@@ -7,7 +7,7 @@ exciting and terrifying age when they discovered quantum mechanics, the
 atomic nucleus, the neutron, and fission. I started with this book about
 Lise Meitner:
 
-1\) Ruth Sime, Lise Meitner: A Life in Physics, University of California
+1) Ruth Sime, Lise Meitner: A Life in Physics, University of California
 Press, 1997.
 
 Meitner's life was a fascinating but difficult one. The Austrian
@@ -175,7 +175,7 @@ eventually threw this handbook away in one of her housecleaning purges.
 Anyway, all three of these decay series are best visualized using
 2-dimensional pictures:
 
-2\) Argonne National Laboratory, Natural decay series,
+2) Argonne National Laboratory, Natural decay series,
 `http://www.ead.anl.gov/pub/doc/NaturalDecaySeries.pdf`
 
 But I know what the mathematicians out there are wondering: what about
@@ -268,20 +268,20 @@ It's a fascinating story. But it's just one of many fascinating
 stories from this age, all of which interweave. After reading about
 Meitner, I started reading these other books:
 
-3\) Emilio Segre, Enrico Fermi: Physicist, U. of Chicago Press, Chicago,
+3) Emilio Segre, Enrico Fermi: Physicist, U. of Chicago Press, Chicago,
 1970.
 
-4\) Abraham Pais, Niels Bohr's Times: in Physics, Philosophy and
+4) Abraham Pais, Niels Bohr's Times: in Physics, Philosophy and
 Polity, Oxford U. Press, Oxford, 1991.
 
-5\) The Neutron and the Bomb: a Biography of Sir James Chadwick, Oxford
+5) The Neutron and the Bomb: a Biography of Sir James Chadwick, Oxford
 U. Press, Oxford, 1997.
 
 Taken together, they provide a pretty good view of that age in physics.
 There are also, of course, lots of books focusing on the Manhattan
 Project. For a website on Meitner, try:
 
-6\) Lise Meitner online,
+6) Lise Meitner online,
 `http://www.users.bigpond.com/Sinclair/fission/LiseMeitner.html`
 
 For better and worse, fundamental physics is much less dramatic now. We
@@ -300,7 +300,7 @@ the next decimal place would bring!
 Since then, a lot has happened. Most importantly, Lubos Motl has shown
 (not rigorously, but convincingly) that the agreement is indeed exact:
 
-7\) Lubos Motl, An analytical computation of asymptotic Schwarzschild
+7) Lubos Motl, An analytical computation of asymptotic Schwarzschild
 quasinormal frequencies, available at
 [gr-qc/0212096](http://xxx.lanl.gov/abs/gr-qc/0212096).
 
@@ -308,7 +308,7 @@ Alejandro Corichi has tried to explain why Dreyer's work using SO(3)
 loop quantum gravity is consistent with the existence of spin-1/2
 particles:
 
-8\) Alejandro Corichi, On quasinormal modes, black hole entropy, and
+8) Alejandro Corichi, On quasinormal modes, black hole entropy, and
 quantum geometry, available at
 [gr-qc/0212126](http://xxx.lanl.gov/abs/gr-qc/0212126).
 
@@ -317,20 +317,20 @@ Personally I must admit I'm not convinced yet.
 Motl and Neitzke have investigated what happens with black holes in
 higher dimensions:
 
-9\) Lubos Motl and Andrew Neitzke, Asymptotic black hole quasinormal
+9) Lubos Motl and Andrew Neitzke, Asymptotic black hole quasinormal
 frequencies, available at
 [hep-th/0301173](http://xxx.lanl.gov/abs/hep-th/0301173).
 
 Also, Hod has generalized his work to rotating black holes:
 
-10\) Shahar Hod, Kerr black hole quasinormal frequencies, available at
+10) Shahar Hod, Kerr black hole quasinormal frequencies, available at
 [gr-qc/0301122](http://xxx.lanl.gov/abs/gr-qc/0301122).
 
 I won't explain any of these new developments here, since I've written
 two articles explaining them - a less technical one and a more technical
 one - and you can get both on my webpage:
 
-11\) John Baez, The quantum of area?, Nature 421 (Feb. 13 2003),
+11) John Baez, The quantum of area?, Nature 421 (Feb. 13 2003),
 702-703.
 
 John Baez, Quantization of area: the plot thickens, to appear in Spring
@@ -385,7 +385,7 @@ The next one is less obvious:
 At this point, Pascual Jordan quit looking for more and made these his
 definition of what we now call a "Jordan algebra":
 
-12\) Pascual Jordan, Ueber eine Klasse nichtassociativer hyperkomplexer
+12) Pascual Jordan, Ueber eine Klasse nichtassociativer hyperkomplexer
 Algebren, Nachr. Ges. Wiss. Goettingen (1932), 569-575.
 
 He wrote this paper while pondering the foundations of quantum theory,
@@ -442,7 +442,7 @@ I don't know the full story, I know but Glennie was a Ph.D. student of
 Nathan Jacobson, a famous algebraist and expert on Jordan algebras. I'm
 sure that goes a long way to explain it. He published his result here:
 
-13\) C. M. Glennie, Some identities valid in special Jordan algebras but
+13) C. M. Glennie, Some identities valid in special Jordan algebras but
 not in all Jordan algebras, Pacific J. Math. 16 (1966), 47-59.
 
 Was this identity the only extra one?
@@ -475,12 +475,12 @@ This is a bit technical, but basically it means you need to expand your
 arsenal of tricks a bit before Glennie's identity gives all the rest.
 The details can be found in Theorem 6.7 here:
 
-14\) Kevin McCrimmon, Zelmanov's prime theorem for quadratic Jordan
+14) Kevin McCrimmon, Zelmanov's prime theorem for quadratic Jordan
 algebras, Jour. Alg. 76 (1982), 297-326.
 
 and I got the above quote from a talk by Bremner:
 
-15\) Murray Bremner, Using linear algebra to discover the defining
+15) Murray Bremner, Using linear algebra to discover the defining
 identities for Lie and Jordan algebras, available at
 `http://web.archive.org/web/20030324024322/http://math.usask.ca/~bremner/research/colloquia/calgarynew.pdf`
 
@@ -646,7 +646,7 @@ physics, and other nice things. But I'm too tired! So, I'll just leave
 off by mentioning that Bremner has invented a q-deformed version of the
 octonions:
 
-16\) Murray Bremner, Quantum octonions, Communications in Algebra 27
+16) Murray Bremner, Quantum octonions, Communications in Algebra 27
 (1999), 2809-2831, also available at
 `http://math.usask.ca/~bremner/research/publications/qo.pdf`
 
@@ -654,7 +654,7 @@ However, he did it using the representation theory of quantum sl(2).
 These folks define a *different* q-deformation of the octonions using
 the representation theory of quantum so(8):
 
-17\) Georgia Benkart, Jose M. Pirez-Izquierdo, A quantum octonion
+17) Georgia Benkart, Jose M. Pirez-Izquierdo, A quantum octonion
 algebra, Trans. Amer. Math. Soc. 352 (2000), 935-968, also available at
 [math.QA/9801141](http://www.arXiv.org/abs/math.QA/9801141).
 
@@ -665,7 +665,7 @@ related to the 7-dimensional representation of quantum G2, which could
 be called the "quantum imaginary octonions" and was studied by Greg
 Kuperberg:
 
-18\) Greg Kuperberg, The quantum G_2 link invariant, Internat. J. Math.
+18) Greg Kuperberg, The quantum G_2 link invariant, Internat. J. Math.
 5 (1994) 61-85, also available with some missing diagrams at
 [math.QA/9201302](http://www.arXiv.org/abs/math.QA/9201302).
 

@@ -8,7 +8,7 @@ are two suggestions.
 
 The first one is really easy and fun:
 
-1\) William Poundstone, Fortune's Formula: The Untold Story of the
+1) William Poundstone, Fortune's Formula: The Untold Story of the
 Scientific Betting System that Beat the Casinos and Wall Street, Farrar,
 Strauss and Giroux, New York, 2005.
 
@@ -83,7 +83,7 @@ basically shows how you can make money off someone who makes bets in
 ways that correspond to stupid probabilities that don't add to 1, or
 fail to be coherent in other ways:
 
-2\) Carlton M. Caves, Probabilities as betting odds and the Dutch book,
+2) Carlton M. Caves, Probabilities as betting odds and the Dutch book,
 available at `http://info.phys.unm.edu/~caves/reports/dutchbook.pdf`
 
 So, there's a deep relation between gambling and probability - no news
@@ -114,7 +114,7 @@ you'll learn why.
 
 The next book takes more persistence to read:
 
-3\) Avner Ash and Robert Gross, Fearless Symmetry: Exposing the Hidden
+3) Avner Ash and Robert Gross, Fearless Symmetry: Exposing the Hidden
 Patterns of Numbers, Princeton U. Press, Princeton, 2006.
 
 The authors do a creditable job of what might at first seem utterly
@@ -141,11 +141,11 @@ which is related to string theory. Drinfeld has been running a seminar
 on this at Chicago for years, but that's not what got the physicists
 interested - it's these papers by Witten that did it:
 
-4\) Anton Kapustin and Edward Witten, Electric-magnetic duality and the
+4) Anton Kapustin and Edward Witten, Electric-magnetic duality and the
 geometric Langlands program, 225 pages, available as
 [hep-th/0604151](http://xxx.lanl.gov/abs/hep-th/0604151).
 
-5\) Sergei Gukov and Edward Witten, Gauge theory, ramification, and the
+5) Sergei Gukov and Edward Witten, Gauge theory, ramification, and the
 geometric Langlands program, 160 pages, available as
 [hep-th/0612073](http://xxx.lanl.gov/abs/hep-th/0612073).
 
@@ -242,7 +242,7 @@ But, the current best guess, based on data from the Wilkinson Microwave
 Anisotopy Probe, says that reionization happened 400 million years after
 the Big Bang:
 
-6\) Marcelo A. Alvarez, Paul R. Shapiro, Kyungjin Ahn and Ilian T.
+6) Marcelo A. Alvarez, Paul R. Shapiro, Kyungjin Ahn and Ilian T.
 Iliev, Implications of WMAP 3 year data for the sources of reionization,
 Astrophys. J. 644 (2006), L101-L104. Also available as
 [astro-ph/0604447](http://xxx.lanl.gov/abs/astro-ph/0604447).
@@ -258,12 +258,12 @@ Population III stars have not actually been seen. But, it's possible
 that we've finally caught a glimpse of them, not individually but in a
 sort of statistical sense:
 
-7\) A. Kashlinsky, R. G. Arendt, J. Mather and S. H. Moseley, New
+7) A. Kashlinsky, R. G. Arendt, J. Mather and S. H. Moseley, New
 measurements of cosmic infrared background fluctuations from early
 epochs, to appear in Ap. J. Letters. Available as
 [astro-ph/0612445](http://xxx.lanl.gov/abs/astro-ph/0612445).
 
-8\) A. Kashlinsky, R. G. Arendt, J. Mather and S. H. Moseley, On the
+8) A. Kashlinsky, R. G. Arendt, J. Mather and S. H. Moseley, On the
 nature of the sources of the cosmic infrared background, to appear in
 Ap. J. Letters. Available as
 [astro-ph/0612447](http://xxx.lanl.gov/abs/astro-ph/0612447).
@@ -281,7 +281,7 @@ Here's a picture of their data:
 [![](infrared_background_first_stars.jpg)](http://www.spitzer.caltech.edu/Media/releases/ssc2005-22/ssc2005-22a.shtml)
 :::
 
-9\) NASA / JPL-Caltech / A. Kashlinsky, Infrared background light from
+9) NASA / JPL-Caltech / A. Kashlinsky, Infrared background light from
 first stars, `http://www.spitzer.caltech.edu/Media/releases/ssc2005-22/`
 
 On top is a photograph taken by the Spitzer Space Telescope: a 10-hour
@@ -296,7 +296,7 @@ Or, it may not. In the following news story, Ned Wright of UCLA said,
 they're seeing is incompletely subtracted residuals from nearby
 sources."
 
-10\) Dinesh Ramde, Associated Press, Hints of early stars may have been
+10) Dinesh Ramde, Associated Press, Hints of early stars may have been
 found,
 `http://www.usatoday.com/tech/science/space/2005-11-02-early-stars_x.htm`
 
@@ -307,7 +307,7 @@ Derek Wise is graduating this year, and he's doing his thesis on Cartan
 geometry, MacDowell-Mansouri gravity and BF theory. Let me say a little
 about this paper of his:
 
-11\) Derek Wise, MacDowell-Mansouri gravity and Cartan geometry,
+11) Derek Wise, MacDowell-Mansouri gravity and Cartan geometry,
 available as [gr-qc/0611154](http://xxx.lanl.gov/abs/gr-qc/0611154).
 
 Elie Cartan is one of the most influential of 20th-century geometers. At
@@ -405,7 +405,7 @@ to geometry generalizes Klein's!
 For more details, you'll just have to read Derek's paper. You might
 also try these:
 
-12\) Michel Biesunski, Inside the coconut: the Einstein-Cartan
+12) Michel Biesunski, Inside the coconut: the Einstein-Cartan
 discussion on distant parallelism, in Einstein and the History of
 General Relativity, eds. D. Howard and J. Stachel, Birkhauser, Boston,
 1989.
@@ -415,7 +415,7 @@ this centered, not on Cartan geometry per se, but on the
 "teleparallel" formulation of gravity (see
 ["Week 176"](#week176)). But, they're somewhat related.
 
-13\) Richard W. Sharpe, Differential Geometry: Cartan's Generalization
+13) Richard W. Sharpe, Differential Geometry: Cartan's Generalization
 of Klein's Erlangen Program, Springer-Verlag, New York, 1997.
 
 This is the main textbook on Cartan geometry. But, it's probably best

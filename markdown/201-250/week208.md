@@ -2,7 +2,7 @@
 
 Last weekend I went to a conference at the Perimeter Institute:
 
-1\) Workshop on Quantum Gravity in the Americas,
+1) Workshop on Quantum Gravity in the Americas,
 `http://www.perimeterinstitute.ca/activities/scientific/PI-WORK-2/`
 
 It was great to see the new building. I'd visited this institute before
@@ -37,7 +37,7 @@ where the geometry of spacetime is quantum-mechanical and interacts with
 matter. I gave a generally downbeat assessment of the progress so far in
 all known approaches:
 
-2\) John Baez, The problem of dynamics in quantum gravity,
+2) John Baez, The problem of dynamics in quantum gravity,
 `http://math.ucr.edu/home/baez/dynamics/`
 
 Even though the last few Weeks have been on quantum gravity conferences,
@@ -58,7 +58,7 @@ wormhole ends to act like spin-1/2 particles.
 More recently this idea was reincarnated in the spin network formalism
 by Lee Smolin, with spin network edges replacing wormholes:
 
-3\) Lee Smolin, Fermions and topology, available as
+3) Lee Smolin, Fermions and topology, available as
 [gr-qc/9404010](http://xxx.lanl.gov/abs/gr-qc/9404010).
 
 A spin network is a gadget with vertices and edges, where the edges
@@ -75,7 +75,7 @@ edges that just fizzle out. This is more ad hoc, but easier to study in
 some ways. A decade ago, Kirill Krasnov and I showed how to describe the
 kinematics of charged spin-1/2 particles this way:
 
-4\) John Baez and Kirill Krasnov, Quantization of diffeomorphism-
+4) John Baez and Kirill Krasnov, Quantization of diffeomorphism-
 invariant theories with fermions,
 [hep-th/9703112](http://xxx.lanl.gov/abs/hep-th/9703112).
 
@@ -85,7 +85,7 @@ Does the dynamics of spin networks with loose ends actually mimic that
 of particles? Recently Krasnov and other people have begun tackling this
 question in a toy model, 3-dimensional Lorentzian gravity:
 
-5\) Kirill Krasnov, Λ<0 Quantum Gravity in 2+1 Dimensions I: Quantum
+5) Kirill Krasnov, Λ<0 Quantum Gravity in 2+1 Dimensions I: Quantum
 States and Stringy S-Matrix, Class. Quant. Grav. 19 (2002) 3977-3998,
 also available as
 [hep-th/0112164](http://xxx.lanl.gov/abs/hep-th/0112164).
@@ -107,7 +107,7 @@ In this conference, Laurent Freidel explained how this idea works in
 more tractable spin foam model. Some but not all of his work can be
 found here:
 
-6\) Laurent Freidel and David Louapre, Ponzano-Regge model revisited I:
+6) Laurent Freidel and David Louapre, Ponzano-Regge model revisited I:
 Gauge fixing, observables and interacting spinning particles, available
 as [hep-th/0401076](http://xxx.lanl.gov/abs/hep-th/0401076).
 
@@ -161,7 +161,7 @@ dimensions! He's working on it now with Laurent Freidel. He has a
 couple of papers out that *hint* at the main ideas, but you'll have to
 wait to see what they're up to now:
 
-7\) Artem Starodubtsev, Topological excitations around the vacuum of
+7) Artem Starodubtsev, Topological excitations around the vacuum of
 quantum gravity I: The symmetries of the vacuum, available as
 [hep-th/0306135](http://xxx.lanl.gov/abs/hep-th/0306135).
 
@@ -205,7 +205,7 @@ borrowing some ideas from the "MacDowell-Mansouri" formulation of
 general relativity. If you haven't heard of that, well, neither had I.
 It's a sort of old idea:
 
-8\) S. W. MacDowell and F. Mansouri, Unified geometric theory of gravity
+8) S. W. MacDowell and F. Mansouri, Unified geometric theory of gravity
 and supergravity, Phys. Rev. Lett. 38 (1977), 739-742.
 
 ... but here we aren't using anything anything about supergravity,
@@ -274,11 +274,11 @@ Teichmueller space". Again this is tricky because SO(2,1) is
 noncompact, but people have made a lot of progress lately, thanks in
 part to a line of work started by Kashaev:
 
-9\) R. M. Kashaev, Quantization of Teichmueller spaces and the quantum
+9) R. M. Kashaev, Quantization of Teichmueller spaces and the quantum
 dilogarithm, available as
 [q-alg/9705021](http://xxx.lanl.gov/abs/q-alg/9705021).
 
-10\) L. Chekhov and V. V. Fock, Quantum Teichmueller space, Theor. Math.
+10) L. Chekhov and V. V. Fock, Quantum Teichmueller space, Theor. Math.
 Phys. 120 (1999) 1245-1259, also available as
 [math.QA/9908165](http://www.arXiv.org/abs/math.QA/9908165).
 
@@ -287,7 +287,7 @@ doing by looking at the references for this recent conference on 3d
 quantum gravity in Edinburgh, which unfortunately took place when I was
 in Hong Kong:
 
-11\) Workshop on physics and geometry of 3-dimensional quantum gravity,
+11) Workshop on physics and geometry of 3-dimensional quantum gravity,
 `http://www.ma.hw.ac.uk/~bernd/references.html`
 
 I should also add that people don't usually don't talk about the 3d

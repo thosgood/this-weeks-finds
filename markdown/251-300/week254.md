@@ -11,7 +11,7 @@ you wouldn't have the energy to read it.
 So, I'll just point you towards Connes and Marcolli's new book, which
 you can download for free:
 
-1\) Alain Connes and Mathilde Marcolli, Noncommutative Geometry, Quantum
+1) Alain Connes and Mathilde Marcolli, Noncommutative Geometry, Quantum
 Fields and Motives, available at
 `http://www.alainconnes.org/downloads.html`
 
@@ -21,7 +21,7 @@ Standard Model of particle physics?
 
 For now, I'll start by discussing Witten's latest paper:
 
-2\) Edward Witten, Three-dimensional gravity revisited, available as
+2) Edward Witten, Three-dimensional gravity revisited, available as
 [`arXiv:0706.3359`](http://arxiv.org/abs/0706.3359).
 
 This is a bold piece of work, which seeks to relate the entropy of black
@@ -125,7 +125,7 @@ interesting value: k = 1, so c = 24. It just so happens that c = 24
 conformal field theories with holomorphic factorization have been
 classified, at least modulo a certain conjecture:
 
-2\) A. N. Schellekens, Meromorphic c = 24 conformal field theories,
+2) A. N. Schellekens, Meromorphic c = 24 conformal field theories,
 Comm. Math. Phys. 153 (1993) 159-196. Also available as
 [hep-th/9205072](http://xxx.lanl.gov/abs/hep-th/9205072).
 
@@ -146,17 +146,17 @@ group as symmetries.
 
 For more details, try these - in rough order of increasing thoroughness:
 
-3\) Terry Gannon, Postcards from the edge, or Snapshots of the theory of
+3) Terry Gannon, Postcards from the edge, or Snapshots of the theory of
 generalised Moonshine, available as
 [`arXiv:math/0109067`](http://arxiv.org/abs/math/0109067).
 
 Terry Gannon, Monstrous Moonshine: the first twenty-five years,
 available as [`arXiv:math/0402345`](http://arxiv.org/abs/math/0402345).
 
-4\) Richard Borcherds, online papers, available at
+4) Richard Borcherds, online papers, available at
 `http://math.berkeley.edu/~reb/papers/`
 
-5\) Igor Frenkel, James Lepowsky, Arne Meurman, Vertex operator algebras
+5) Igor Frenkel, James Lepowsky, Arne Meurman, Vertex operator algebras
 and the Monster, Academic Press, New York, 1988.
 
 Now, if this monstrous conformal field theory turned out to be 3d
@@ -226,7 +226,7 @@ Witten's hoped-for "AdS-CFT correspondence" between 3d gravity and
 the monstrous conformal field theory remain obscure. Indeed, there are
 lots of problems with Witten's proposal:
 
-6\) Jacques Distler, Witten on 2+1 gravity,
+6) Jacques Distler, Witten on 2+1 gravity,
 `http://golem.ph.utexas.edu/~distler/blog/archives/001335.html`
 
 But, time will tell. In fact, if history is any guide, we can expect to
@@ -312,7 +312,7 @@ comes from the symmetry group of the octonions! Later it was realized
 that all 5 are connected to the octonions. I've written a lot about
 this in previous Weeks, but most of that material can be found here:
 
-6\) John Baez, Exceptional Lie algebras,
+6) John Baez, Exceptional Lie algebras,
 `http://math.ucr.edu/home/baez/octonions/node13.html`
 
 Now, whenever mathematicians do something fun, they want to keep doing
@@ -338,13 +338,13 @@ Again, there are some infinite series, but also some exceptions coming
 from the octonions. I talked about one of these last week, namely EIII,
 the complexified octonionic projective plane. You can see a list here:
 
-7\) Wikipedia, Riemannian symmetric space,
+7) Wikipedia, Riemannian symmetric space,
 `http://en.wikipedia.org/wiki/Riemannian_symmetric_space`
 
 For a quick intro to the classification of simple Lie algebras and
 compact Riemannian symmetric spaces, try this great book:
 
-8\) Daniel Bump, Lie Groups, Springer, Berlin, 2004.
+8) Daniel Bump, Lie Groups, Springer, Berlin, 2004.
 
 For a slower, more thorough introduction, try the book by Helgason
 mentioned last Week.
@@ -369,13 +369,13 @@ algebra to the "super" world. So, why not Lie algebras?
 
 The simple Lie superalgebras were classified by Victor Kac in 1977:
 
-9\) Victor Kac, Lie superalgebras, Adv. Math. 26 (1977), 8-96.
+9) Victor Kac, Lie superalgebras, Adv. Math. 26 (1977), 8-96.
 
 Not counting the ordinary simple Lie algebras, there are 8 series of
 simple Lie superalgebras and a few exceptional ones. At least some of
 these exceptions come from the octonions:
 
-10\) Anthony Sudbery, Octonionic description of exceptional Lie
+10) Anthony Sudbery, Octonionic description of exceptional Lie
 superalgebras, Jour. Math. Phys. 24 (1983), 1986-1988.
 
 Do they all? I don't know! Someone please tell me!
@@ -392,7 +392,7 @@ compact" infinite-dimensional simple Lie algebras. I won't define the
 quoted phrase, since it's technical and it's explained near the
 beginning of this paper:
 
-11\) Victor Kac, Classification of infinite-dimensional simple linearly
+11) Victor Kac, Classification of infinite-dimensional simple linearly
 compact Lie superalgebras, Erwin Schrödinger Institut preprint, 1998.
 Available at `http://www.esi.ac.at/Preprint-shadows/esi605.html`
 
@@ -447,7 +447,7 @@ Many of the families are straightforward "super" generalizations of
 the 4 families I just showed you. Some are stranger. Most important for
 us today are the exceptions discovered by Irina Shchepochkina in 1983:
 
-12\) Irena Shchepochkina, New exceptional simple Lie superalgebras, C.
+12) Irena Shchepochkina, New exceptional simple Lie superalgebras, C.
 R. Bul. Sci. 36 (1983), 313-314.
 
 The easiest to explain is E(5|10). And, you'll soon see that the
@@ -495,7 +495,7 @@ differently from the other two variables. Then we take the subalgebra of
 degree-zero guys. The details are explained in the above papers - or
 more simply, here:
 
-13\) Victor Kac, Classification of infinite-dimensional simple groups of
+13) Victor Kac, Classification of infinite-dimensional simple groups of
 supersymmetries and quantum field theory, available as
 [math.QA/9912235](http://xxx.lanl.gov/abs/math.QA/9912235).
 
@@ -531,7 +531,7 @@ above result gives no hint as to why there should be three generations
 of quarks and leptons. However, Kac and Rudakov develop some mathematics
 to address that question here:
 
-14\) Victor Kac and Alexi Rudakov, Representations of the exceptional
+14) Victor Kac and Alexi Rudakov, Representations of the exceptional
 Lie superalgebra E(3,6): I. Degeneracy conditions. Available as
 [math-ph/0012049](http://arxiv.org/abs/math-ph/0012049).
 
@@ -545,7 +545,7 @@ Classification of singular vectors. Available as
 
 Their results are summarize at the end of this review article:
 
-15\) Victor Kac, Classification of supersymmetries, Proceedings of the
+15) Victor Kac, Classification of supersymmetries, Proceedings of the
 ICM, Beijing, 2002, vol. 1, 319-344. Available as
 [math-ph/0302016](http://arxiv.org/abs/math-ph/0302016)
 
@@ -560,16 +560,16 @@ without quite doing so.
 
 Some more nice explanations and references can be found here:
 
-16\) Irina Shchepochkina, The five exceptional simple Lie superalgebras
+16) Irina Shchepochkina, The five exceptional simple Lie superalgebras
 of vector fields. Available as
 [hep-th/9702121](http://arxiv.org/abs/hep-th/9702121).
 
-17\) Pavel Grozman, Dimitry Leites and Irina Shchepochkina, Defining
+17) Pavel Grozman, Dimitry Leites and Irina Shchepochkina, Defining
 relations for the exceptional Lie superalgebras of vector fields
 pertaining to The Standard Model, available as
 [math-ph/0202025](http://arxiv.org/abs/math-ph/0202025).
 
-18\) Pavel Grozman, Dimitry Leites and Irina Shchepochkina, Invariant
+18) Pavel Grozman, Dimitry Leites and Irina Shchepochkina, Invariant
 operators on supermanifolds and Standard Models, available as
 [math.RT/0202193](http://arxiv.org/abs/math.RT/0202193).
 
@@ -580,7 +580,7 @@ sl(3,C) ⊕ sl(2,C) ⊕ gl(1,C)
 
 in a canonical way.
 
-19\) Thomas A. Larsson, Symmetries of everything, available as
+19) Thomas A. Larsson, Symmetries of everything, available as
 [math.RT/0202193](http://arxiv.org/abs/math-ph/0103013).
 
 Exceptional Lie superalgebras, invariant morphisms, and a second-gauged
@@ -840,7 +840,7 @@ wide open.
 **Addendum:** David Corfield notes that Helgason has a good textbook on
 the Radon transform which is *free online*. Snap it up while you can!
 
-20\) Sigurdur Helgason, Radon Transform, second edition, Birkhäuser, New
+20) Sigurdur Helgason, Radon Transform, second edition, Birkhäuser, New
 York, 1999. Also available at
 `http://www-math.mit.edu/~helgason/Radonbook.pdf`.
 

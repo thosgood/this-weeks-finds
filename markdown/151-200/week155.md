@@ -27,7 +27,7 @@ arrived via United Parcel Service. It's great! - it sits on my desk
 now, gleaming contentedly. I think everybody should have one. You can
 even buy them sliced in half, exhibiting the Möbius strip quite clearly:
 
-1\) Acme Klein bottles sliced in half,
+1) Acme Klein bottles sliced in half,
 `http://www.kleinbottle.com/sliced_klein_bottles.htm`
 
 Meanwhile, I've been thinking about the Platonic solids lately, and
@@ -37,7 +37,7 @@ to go to the source: the king of geometry, Harold Scott Macdonald
 Coxeter. But for some reason I didn't get around to reading his books
 until just recently:
 
-2\) H. S. M. Coxeter, Regular Polytopes, 3rd edition, Dover, New York,
+2) H. S. M. Coxeter, Regular Polytopes, 3rd edition, Dover, New York,
 1973.
 
 Regular Complex Polytopes, 2nd edition, Cambridge U. Press, Cambridge,
@@ -61,7 +61,7 @@ sort of thing.
 
 Here's a picture:
 
-3\) Eric Weisstein, stella octangula,
+3) Eric Weisstein, stella octangula,
 `http://mathworld.wolfram.com/StellaOctangula.html`
 
 You can rotate it by grabbing it with your mouse!
@@ -91,7 +91,7 @@ would make a marvelous Christmas tree decoration - I don't know what
 it's called, but you can see a picture of it in Coxeter's "Regular
 Polytopes", and also here:
 
-4\) Eric Weisstein, cube 5-compound,
+4) Eric Weisstein, cube 5-compound,
 `http://mathworld.wolfram.com/Cube5-Compound.html`
 
 Now let's combine these two tricks. If we put a tetrahedron in a cube,
@@ -101,7 +101,7 @@ this and then rotate the picture to get other ways, we get 5 tetrahedra
 in the dodecahedron. Putting these all together gives a scary-looking
 shape:
 
-5\) Eric Weisstein, tetrahedron 5-compound,
+5) Eric Weisstein, tetrahedron 5-compound,
 `http://mathworld.wolfram.com/Tetrahedron5-Compound.html`
 
 but the coolest thing about this shape is that it has an inherent
@@ -110,7 +110,7 @@ forms! If we reflect it, we get 5 *other* ways to put a tetrahedron into
 a dodecahedron, for a total of 10. All of these tetrahedra taken
 together form a mirror-symmetric shape:
 
-6\) Eric Weisstein, tetrahedron 10-compound,
+6) Eric Weisstein, tetrahedron 10-compound,
 `http://mathworld.wolfram.com/Tetrahedron10-Compound.html`
 
 Okay. So far we've related the tetrahedron, the cube and the
@@ -151,7 +151,7 @@ Playing with this stuff would be a nice way to start learning group
 theory - but even if you already know group theory, it's sort of fun.
 For more along these lines, try:
 
-7\) John Baez, Some thoughts on the number 6,
+7) John Baez, Some thoughts on the number 6,
 `http://math.ucr.edu/home/baez/six.html`
 
 Check out the new link to Greg Egan's website illustrating some of the
@@ -180,7 +180,7 @@ in 4 dimensions, there are six.
 I won't describe these systematically here. For that you should read
 Coxeter's books, or if you're in a rush, my webpage:
 
-8\) John Baez, Platonic solids in all dimensions,
+8) John Baez, Platonic solids in all dimensions,
 `http://math.ucr.edu/home/baez/platonic.html`
 
 Instead, I'll just talk about a cool relationship between my two
@@ -189,7 +189,7 @@ favorite 4d regular polytopes: the 24-cell and the 600-cell.
 First let me set the stage, by reminding you what these look like. A
 24-cell looks like this:
 
-9\) Eric Weisstein, 24-cell, `http://mathworld.wolfram.com/24-Cell.html`
+9) Eric Weisstein, 24-cell, `http://mathworld.wolfram.com/24-Cell.html`
 
 To visualize it on your own, first imagine a hypercube with vertices
 
@@ -232,7 +232,7 @@ We get a shape with 8 + 6 = 14 vertices. But it's not a Platonic solid
 by Kepler. You can view one, and even rotate it by hand, at this
 webpage:
 
-10\) Kevin Brown, Kepler's rhombic dodecahedron,
+10) Kevin Brown, Kepler's rhombic dodecahedron,
 `http://www.seanet.com/~ksbrown/coinc2.htm`
 
 Here's another way to think about this stuff. Take two cubes, equal in
@@ -241,7 +241,7 @@ its base, and each having the cube's center as its apex. Now take these
 6 pyramids and glue their bases onto the faces of the other cube. What
 do you get? A rhombic dodecahedron! If can't visualize this, go here:
 
-11\) Mark Newbold's rhombic dodecahedron page,
+11) Mark Newbold's rhombic dodecahedron page,
 `http://dogfeathers.com/mark/rhdodec.html`
 
 Now do the same thing in 4 dimensions. Take two hypercubes, equal in
@@ -259,7 +259,7 @@ faces, 1200 triangles, 720 edges, and 120 vertices. When Buckminster
 Fuller died and went to heaven, he probably took up residence in one of
 these. It looks like this:
 
-12\) Eric Weisstein, 600-cell,
+12) Eric Weisstein, 600-cell,
 `http://mathworld.wolfram.com/600-Cell.html`
 
 Here's how you build one. Start with 600 regular tetrahedra. Take 20 of
@@ -350,7 +350,7 @@ I've avoided links to those pages. By the way, VRML stands for
 for delivering interactive 3d objects over the web. If you can handle
 VRML, you can probably have a lot of fun here:
 
-13\) George W. Hart's Pavilion of Polyhedrality,
+13) George W. Hart's Pavilion of Polyhedrality,
 `http://www.georgehart.com/pavilion.html`
 
 If you don't, you can still enjoy the annotated bibliography and links
@@ -358,7 +358,7 @@ to other websites. You can also get a lot out of Vladimir Bulatov's
 collection of polyhedra without VRML, but again, it's better if you
 have it:
 
-14\) Victor Bulatov's Polyhedra Collection,
+14) Victor Bulatov's Polyhedra Collection,
 `http://www.physics.orst.edu/~bulatov/polyhedra/index.html`
 
 Finally, if you're good at crossing your eyes, you can see some
@@ -366,7 +366,7 @@ Finally, if you're good at crossing your eyes, you can see some
 information on how the 4d regular polytopes are related to other
 branches of math:
 
-15\) Tony Smith, 24-cell animation, 120-cell, 600-cell,
+15) Tony Smith, 24-cell animation, 120-cell, 600-cell,
 `http://www.innerx.net/personal/tsmith/24anime.html`
 
 I thank Jim Heckman and Noam Elkies for helping me fix some errors in

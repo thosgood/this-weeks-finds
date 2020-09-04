@@ -12,7 +12,7 @@ If you give up, go to the bottom of this article.
 Next, here's an incredibly readable introduction to the revolution that
 happened in logic starting in the 1960s:
 
-1\) Jean-Pierre Marquis and Gonzalo Reyes, The history of categorical
+1) Jean-Pierre Marquis and Gonzalo Reyes, The history of categorical
 logic, 1963-1977. Available at
 <https://www.webdepot.umontreal.ca/Usagers/marquisj/MonDepotPublic/HistofCatLog.pdf>
 
@@ -278,13 +278,13 @@ boundary, manifolds with corners, and infinite-dimensional manifolds. In
 fact, there are general theories of "smooth spaces" that
 systematically handle lots of these examples:
 
-2\) Andrew Stacey, Comparative smootheology, available as
+2) Andrew Stacey, Comparative smootheology, available as
 [`arXiv:0802.2225`](http://arxiv.org/abs/0802.2225).
 
-3\) Patrick Iglesias-Zemmour, Diffeology. Available at
+3) Patrick Iglesias-Zemmour, Diffeology. Available at
 `http://math.huji.ac.il/~piz/Site/The%20Book/The%20Book.html`
 
-4\) John Baez and Alexander Hoffnung, Convenient categories of smooth
+4) John Baez and Alexander Hoffnung, Convenient categories of smooth
 spaces, to appear in Trans. Amer. Math. Soc.. Also available as
 [`arXiv:0807.1704`](http://arxiv.org/abs/0807.1704).
 
@@ -298,7 +298,7 @@ will come of it. (What goes wrong?)
 But there's a better approach, invented by Dennis Sullivan in this
 famous paper:
 
-5\) Dennis Sullivan, Infinitesimal computations in topology,
+5) Dennis Sullivan, Infinitesimal computations in topology,
 Publications Mathimatiques de l'IHES 47 (1977), 269-331. Available at
 `http://www.numdam.org/item?id=PMIHES_1977__47__269_0`
 
@@ -383,14 +383,14 @@ a lot harder. This is the magic of rational homotopy theory.
 I won't explain this magic, at least not today. For that read
 Sullivan's paper, or this paper I recommended last time:
 
-6\) Kathryn Hess, Rational homotopy theory: a brief introduction, in
+6) Kathryn Hess, Rational homotopy theory: a brief introduction, in
 Interactions Between Homotopy Theory and Algebra, ed. Luchezar L.
 Avramov, Contemp. Math 436, AMS, Providence, Rhode Island, 2007. Also
 available as [math.AT/0604626](http://arxiv.org/abs/math.AT/0604626).
 
 For more detail, try this book:
 
-7\) Phillip A. Griffiths and John W. Morgan, Rational Homotopy Theory
+7) Phillip A. Griffiths and John W. Morgan, Rational Homotopy Theory
 and Differential Forms, Birkhäuser, Boston, 1981.
 
 Someday I should explain exactly the sense in which (certain) DGCAs are
@@ -454,7 +454,7 @@ We can systematize all this by checking that, just like the category of
 vector spaces with its usual tensor product, the category of cochain
 complexes with its tensor product is a "symmetric monoidal category":
 
-8\) nLab, Symmetric monoidal category,
+8) nLab, Symmetric monoidal category,
 `http://ncatlab.org/nlab/show/symmetric+monoidal+category`
 
 So is the category of sets with its cartesian product. We can define a
@@ -657,7 +657,7 @@ is not one-to-one. In fact, David Speyer showed this after Maarten
 Bergvelt noticed I was being overoptimistic in assuming otherwise. You
 can see Speyer's argument here:
 
-9\) David Speyer, Kahler differentials and ordinary differentials, Math
+9) David Speyer, Kahler differentials and ordinary differentials, Math
 Overflow,
 `http://mathoverflow.net/questions/6074/kahler-differentials-and-ordinary-differentials/9723#9723`
 
@@ -758,7 +758,7 @@ occasionally enjoy being dragged through the mud of technical details,
 we wouldn't like math, now, would we? I think even more details will
 become available here:
 
-10\) nLab, Kähler differential,
+10) nLab, Kähler differential,
 `http://ncatlab.org/nlab/show/K%C3%A4hler+differential`
 
 This may be a good place to stop reading, if you don't already love
@@ -845,18 +845,18 @@ algebras.
 Finally: the picture at the start of This Week's Finds shows dry ice -
 frozen carbon dioxide - on the south pole of Mars:
 
-9\) HiRISE (High Resolution Imaging Science Experiments), South polar
+9) HiRISE (High Resolution Imaging Science Experiments), South polar
 residual cap monitoring: rare stratigraphic contacts,
 `http://hirise.lpl.arizona.edu/ESP_014379_0925`
 
 This dry ice forms quite a variety of baroque patterns. I don't know
 how it happens! Here are couple more good pictures:
 
-10\) HiRISE (High Resolution Imaging Science Experiments), Evolution of
+10) HiRISE (High Resolution Imaging Science Experiments), Evolution of
 the south polar residual cap,
 `http://hirise.lpl.arizona.edu/PSP_004687_0930`
 
-11\) HiRISE (High Resolution Imaging Science Experiments), South polar
+11) HiRISE (High Resolution Imaging Science Experiments), South polar
 carbon dioxide ice cap, `http://hirise.lpl.arizona.edu/ESP_014261_0930`
 
 Patrick Russell wrote a description of the last one:

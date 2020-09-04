@@ -3,7 +3,7 @@
 To really know a subject you've got to learn a bit of its history. If
 that subject is topology, you've got to read this:
 
-1\) I. M. James, editor, History of Topology, Elsevier, New York, 1999.
+1) I. M. James, editor, History of Topology, Elsevier, New York, 1999.
 
 From a blow-by-blow account of the heroic papers of Poincare to a
 detailed account by Peter May of the prehistory of stable homotopy
@@ -43,13 +43,13 @@ groups. In all this work the parameter q plays a major role.
 
 For more on this try these books:
 
-2\) Andrew Pressley and Graeme Segal, Loop Groups, Oxford U. Press,
+2) Andrew Pressley and Graeme Segal, Loop Groups, Oxford U. Press,
 Oxford, 1986.
 
-3\) Vyjayanathi Chari and Andrew Pressley, A Guide to Quantum Groups,
+3) Vyjayanathi Chari and Andrew Pressley, A Guide to Quantum Groups,
 Cambridge U. Press, Cambridge, 1994.
 
-4\) Jürgen Fuchs, Affine Lie Algebras and Quantum Groups, Cambridge U.
+4) Jürgen Fuchs, Affine Lie Algebras and Quantum Groups, Cambridge U.
 Press, Cambridge, 1992.
 
 Taken together, they provide a pretty good view of what I'm talking

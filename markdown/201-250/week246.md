@@ -30,11 +30,11 @@ fundamental physics.
 
 If you care at all about physics, you've probably heard about these:
 
-1\) Peter Woit, Not Even Wrong: The Failure of String Theory and the
+1) Peter Woit, Not Even Wrong: The Failure of String Theory and the
 Continuing Challenge to Unify the Laws of Physics, Basic Books, New
 York, 2006.
 
-2\) Lee Smolin, The Trouble With Physics: The Rise of String Theory, the
+2) Lee Smolin, The Trouble With Physics: The Rise of String Theory, the
 Fall of a Science, and What Comes Next, Houghton Mifflin, New York,
 2006.
 
@@ -99,11 +99,11 @@ This space of all possible extra assumptions is called the
 "Landscape". Since it's vaguely defined, the main things we know
 about it are:
 
-a\) it's big,
+a) it's big,
 
-b\) it keeps growing as string theorists come up with new ideas,
+b) it keeps growing as string theorists come up with new ideas,
 
-c\) nobody has yet found a point in it that matches our universe.
+c) nobody has yet found a point in it that matches our universe.
 
 Despite this, or perhaps because of it, the Landscape has been the
 subject of many discussions. Often these devolve into arguments about
@@ -273,13 +273,13 @@ framework" will fail. But, we can hope that someday a few succeed.
 For the fascinating tale of Schrödinger's "unitary field theory", see
 this nice book:
 
-3\) Walter Moore, Schrödinger: His Life and Thought, Cambridge U. Press,
+3) Walter Moore, Schrödinger: His Life and Thought, Cambridge U. Press,
 Cambridge, 1989.
 
 For more about the search for unified field theories in early 20th
 century, see:
 
-4\) Hubert F. M Goenner, On the history of unified field theories,
+4) Hubert F. M Goenner, On the history of unified field theories,
 Living Reviews of Relativity 7, (2004), 2. Available at
 `http://www.livingreviews.org/lrr-2004-2`
 

@@ -21,7 +21,7 @@ in quantum field theory. So, I want to tell you about that stuff, too.
 
 Let's get started. You can see all the talks here:
 
-1\) Oxford Quantum Talks Archive,
+1) Oxford Quantum Talks Archive,
 `http://www.comlab.ox.ac.uk/quantum/content/`\
 QICS Spring School 2010, talks available at
 `http://www.comlab.ox.ac.uk/quantum/content/events.html#QICS%20spring%20school%202010`\
@@ -32,7 +32,7 @@ I've been using pictures called "string diagrams" for a long time
 here on This Week's Finds, and I've tried to explain them, but these
 talks give a nice systematic treatment:
 
-2\) Introduction to monoidal categories and graphical calculus.\
+2) Introduction to monoidal categories and graphical calculus.\
 Lecture 1 by Chris Heunen, available at
 `http://www.comlab.ox.ac.uk/quantum/content/1005005/`\
 Lecture 2 by Jamie Vicary, available at
@@ -243,16 +243,16 @@ algebra that's also a Hilbert space, where the multiplication and unit
 are adjoint to the comultiplication and counit! For more, try these
 papers:
 
-3\) Bob Coecke and Dusko Pavlovic, Quantum measurements without sums, in
+3) Bob Coecke and Dusko Pavlovic, Quantum measurements without sums, in
 The Mathematics of Quantum Computation and Technology, eds. Chen,
 Kauffman and Lomonaco, Chapman and Hall/CRC, New York, pp. 559-596. Also
 available as
 [`arXiv:quant-ph/0608035`](http://arXiv.org/abs/quant-ph/0608035).
 
-4\) Jamie Vicary, Categorical formulation of quantum algebras, available
+4) Jamie Vicary, Categorical formulation of quantum algebras, available
 as [`arXiv:0805.0432`](http://arXiv.org/abs/0805.0432).
 
-5\) Bob Coecke, Dusko Pavlovic and Jamie Vicary, A new description of
+5) Bob Coecke, Dusko Pavlovic and Jamie Vicary, A new description of
 orthogonal bases, available as
 [`arXiv:0810.0812`](http://arXiv.org/abs/0810.0812)
 
@@ -307,31 +307,31 @@ tell if it's the tip of an interesting iceberg, or just a coincidence.
 
 These talks offered some extra clues:
 
-6\) Ross Duncan, Convexity, categorical semantics and the foundations of
+6) Ross Duncan, Convexity, categorical semantics and the foundations of
 physics, video available at
 `http://www.comlab.ox.ac.uk/quantum/content/1005102/`
 
-7\) Chris Heunen, Complementarity in categorical quantum mechanics,
+7) Chris Heunen, Complementarity in categorical quantum mechanics,
 video and slides available at
 `http://www.comlab.ox.ac.uk/quantum/content/1005115/`
 
-8\) Simon Perdrix, Classical-quantum graphical calculus, video available
+8) Simon Perdrix, Classical-quantum graphical calculus, video available
 at `http://www.comlab.ox.ac.uk/quantum/content/1005015/`
 
 For more details, try these papers:
 
-9\) Bob Coecke, Eric Oliver Paquette and Dusko Pavlovic, Classical and
+9) Bob Coecke, Eric Oliver Paquette and Dusko Pavlovic, Classical and
 quantum structuralism, available as
 [`arXiv:0904.1997`](http://arXiv.org/abs/0904.1997).
 
-10\) Bob Coecke and Ross Duncan, Interacting quantum observables:
+10) Bob Coecke and Ross Duncan, Interacting quantum observables:
 categorical algebra and diagrammatics, available as
 [`arXiv:0906.4725`](http://arXiv.org/abs/0906.4725).
 
-11\) Bob Coecke, Quantum picturalism, available as
+11) Bob Coecke, Quantum picturalism, available as
 [`arXiv:0908.1787`](http://arXiv.org/abs/0908.1787).
 
-12\) Bob Coecke and Simon Perdrix, Environment and classical channels in
+12) Bob Coecke and Simon Perdrix, Environment and classical channels in
 categorical quantum mechanics,
 [arXiv/1004.1598](http://arXiv.org/abs/1004.1598).
 
@@ -401,10 +401,10 @@ yet another example.
 Now, if you like these pictures, you've got to see "Quantomatic" in
 action:
 
-13\) Lucas Dixon, Quantomatic demo, video available at
+13) Lucas Dixon, Quantomatic demo, video available at
 [http://www.comlab.ox.ac.uk/quantum/content/1005019](http://www.comlab.ox.ac.uk/quantum/content/1005019/)
 
-14\) Lucas Dixon, Ross Duncan, Aleks Kissinger and Alex Merry,
+14) Lucas Dixon, Ross Duncan, Aleks Kissinger and Alex Merry,
 Quantomatic, `http://dream.inf.ed.ac.uk/projects/quantomatic/`
 
 This is a program that automatically carries out calculations involving
@@ -423,7 +423,7 @@ we'll see a lot more of it in years to come.
 There were many more interesting talks, but I'm running out of energy,
 so I just want to say one more thing about "cloning":
 
-15\) Aaron Fenyes, There's no cloning in symplectic mechanics,
+15) Aaron Fenyes, There's no cloning in symplectic mechanics,
 available at `http://math.ucr.edu/home/baez/dual/no-cloning.pdf`
 
 This paper argues that the laws of classical mechanics make it
@@ -454,12 +454,12 @@ A "no-cloning theorem" says you can't build a machine like this,
 given some assumptions on the laws of physics. The original no-cloning
 theorem was due to Wooters and Zurek:
 
-16\) W. K. Wootters and H. D. Zurek, A single quantum cannot be cloned,
+16) W. K. Wootters and H. D. Zurek, A single quantum cannot be cloned,
 Nature, 299 (1982), 802-803.
 
 You can see a statement and proof here:
 
-17\) Wikipedia, No-cloning theorem,
+17) Wikipedia, No-cloning theorem,
 `http://en.wikipedia.org/wiki/No-cloning_theorem`
 
 This was a *quantum* no-cloning theorem. In fact it was very general: it
@@ -496,7 +496,7 @@ Back then, he told me about an amazing 588-page paper on Hopf algebras,
 combinatorics and category theory by Aguiar and Mahajan. By now that
 paper has grown into an 836-page book:
 
-18\) Marcelo Aguiar and Swapneel Mahajan, Monoidal functors, species and
+18) Marcelo Aguiar and Swapneel Mahajan, Monoidal functors, species and
 Hopf algebras, available at `http://www.math.tamu.edu/~maguiar/a.pdf`
 
 In his preface, André Joyal calls it "a quantum leap towards the
@@ -522,7 +522,7 @@ have pre-Lie algebra.
 That doesn't sound too interesting. But Bill convinced me that pre-Lie
 algebras are important. They were first named by Gerstenhaber:
 
-19\) M. Gerstenhaber, The cohomology structure of an associative ring,
+19) M. Gerstenhaber, The cohomology structure of an associative ring,
 Ann. Math. 78 (1963), 267-288.
 
 who showed that the Hochschild chain complex of any ring, with grading
@@ -530,7 +530,7 @@ shifted down by one, is a graded pre-Lie algebra. Later it was noticed
 that pre-Lie algebras show up in the combinatorics of trees, and are
 implicit in this old paper by Cayley:
 
-20\) Arthur Cayley, On the theory of the analytical forms called trees,
+20) Arthur Cayley, On the theory of the analytical forms called trees,
 Phil. Mag. 13 (1857), 172-176.
 
 The fun really starts when we relate these ideas to quantum field theory
@@ -593,7 +593,7 @@ vw = D~v~ w
 Second, Connes and Kreimer noticed a certain amazing group that plays an
 important role in the renormalization of quantum field theories:
 
-21\) Alain Connes and Dirk Kreimer, Hopf algebras, renormalization and
+21) Alain Connes and Dirk Kreimer, Hopf algebras, renormalization and
 noncommutative geometry, Commun. Math. Phys. 199 (1998), 203-242. Also
 available as
 [`arXiv:hep-th/9808042`](http://arXiv.org/abs/hep-th/9808042).
@@ -768,7 +768,7 @@ generator. Then A becomes a pre-Lie algebra in a god-given way!
 You should have seen this coming, since operads are related to trees.
 The details are explained here:
 
-22\) Frdric Chapoton and Muriel Livernet, Pre-Lie algebras and the
+22) Frdric Chapoton and Muriel Livernet, Pre-Lie algebras and the
 rooted trees operad, Int. Math. Res. Not. 2001 (2001), 395-408. Also
 available as
 [`arXiv:math/0002069`](http://arXiv.org/abs/arXiv:math/0002069).
@@ -842,7 +842,7 @@ pre-Lie algebra! Do these pre-Lie structures agree?
 
 If you give up, you can find the answer here:
 
-23\) Dominique Manchon, A short survey on pre-Lie algebras, available at
+23) Dominique Manchon, A short survey on pre-Lie algebras, available at
 `http://math.univ-bpclermont.fr/~manchon/biblio/ESI-prelie2009.pdf`
 
 But if you want to solve this puzzle on your own, it helps to think
@@ -869,7 +869,7 @@ But how do you compose operations in PL?
 for improvements. Eugene Lerman pointed out that this paper provides a
 nice introduction to the Hopf algebra of rooted trees:
 
-24\) Christian Brouder, Trees, renormalization and differential
+24) Christian Brouder, Trees, renormalization and differential
 equations, Numerical Mathematics 44 (2004), 425-438. Also available at
 `http://www-int.impmc.upmc.fr/~brouder/BIT.pdf`
 
@@ -934,7 +934,7 @@ it gives a sum of 5 terms, two of which are equal.
 Here's another nice introduction to pre-Lie algebras and the Hopf
 algebra of rooted forests:
 
-25\) Frédéric Chapoton, Operadic point of view on the Hopf algebra of
+25) Frédéric Chapoton, Operadic point of view on the Hopf algebra of
 rooted trees,
 `http://www-math.unice.fr/~patras/CargeseConference/ACQFT09_FredericCHAPOTON.pdf`
 

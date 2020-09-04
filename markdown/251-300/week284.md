@@ -8,7 +8,7 @@ other. Julie Bergner and I ran a session at this conference. My student
 Chris Rogers took videos of the talks in our session, and you can see
 them here:
 
-1\) Special session on homotopy theory and higher algebraic structures,
+1) Special session on homotopy theory and higher algebraic structures,
 AMS Western Section Meeting, November 7-8, 2009. Talks available as
 Quicktime videos at `http://math.ucr.edu/~jbergner/amsriverside09.htm`
 
@@ -47,7 +47,7 @@ you can see in the Addenda to ["Week 283"](#week283). But he then
 went on to give a number of other proofs, including two that I like a
 lot better:
 
-2\) nLab, Pentagon-decagon-hexagon identity,
+2) nLab, Pentagon-decagon-hexagon identity,
 `http://www.ncatlab.org/nlab/show/pentagon+decagon+hexagon+identity`
 
 One of these proofs uses the icosahedron. As I'd dreamt in
@@ -113,7 +113,7 @@ equivalent, roughly this:
 > coming true! Aaron gave a great series of talks on this subject in
 > Kyoto this February, and you can see them all here:
 >
-> 3\) Aaron Lauda, Kyoto lectures:
+> 3) Aaron Lauda, Kyoto lectures:
 >
 > -   Categorification of quantum sl(2),
 > -   Categorification of one half of the quantum group,
@@ -127,7 +127,7 @@ equivalent, roughly this:
 > way of categorifying the "positive part" of the corresponding
 > quantum group.
 >
-> 4\) Mikhail Khovanov and Aaron Lauda, A diagrammatic approach to
+> 4) Mikhail Khovanov and Aaron Lauda, A diagrammatic approach to
 > categorification of quantum groups I-III, available as
 > [`arXiv:0803.4121`](http://arxiv.org/abs/0803.4121),
 > [`arXiv:0804.2080`](http://arxiv.org/abs/0804.2080), and
@@ -176,10 +176,10 @@ equivalent, roughly this:
 > categorifying quantum groups, at least for the simplest of simple Lie
 > algebras, namely sl(2):
 >
-> 5\) Aaron Lauda, A categorification of quantum sl(2), available as
+> 5) Aaron Lauda, A categorification of quantum sl(2), available as
 > [`arXiv:0803.3652`](http://arxiv.org/abs/0803.3652).
 >
-> 6\) Aaron Lauda, Categorified quantum sl(2) and equivariant cohomology
+> 6) Aaron Lauda, Categorified quantum sl(2) and equivariant cohomology
 > of iterated flag varieties, available as
 > [`arXiv:0803.3848`](http://arxiv.org/abs/0803.3848).
 >
@@ -188,11 +188,11 @@ equivalent, roughly this:
 > Right after Aaron, he gave a talk on "[Categorification via quiver
 > varieties](ams_2009/Licata_AMS_UCR_2009.mov)", based on these papers:
 >
-> 6\) Sabin Cautis, Joel Kamnitzer, and Anthony Licata, Coherent sheaves
+> 6) Sabin Cautis, Joel Kamnitzer, and Anthony Licata, Coherent sheaves
 > and categorical sl(2) actions, available as
 > [`arXiv:0902.1796`](http://arxiv.org/abs/0902.1796).
 >
-> 7\) Sabin Cautis, Joel Kamnitzer, and Anthony Licata, Derived
+> 7) Sabin Cautis, Joel Kamnitzer, and Anthony Licata, Derived
 > equivalences for cotangent bundles of Grassmannians via categorical
 > sl(2) actions, available as
 > [`arXiv:0902.1797`](http://arxiv.org/abs/0902.1797).
@@ -218,7 +218,7 @@ equivalent, roughly this:
 > I think this is the best place to start learning geometric
 > representation theory:
 >
-> 8\) Neil Chriss and Victor Ginzburg, Representation Theory and Complex
+> 8) Neil Chriss and Victor Ginzburg, Representation Theory and Complex
 > Geometry, Birkhauser, Boston, 1997.
 >
 > I've spent some time on this book, but not enough. The results still
@@ -281,7 +281,7 @@ equivalent, roughly this:
 > categorification of cohomology. Here's a good place to start learning
 > more:
 >
-> 9\) Andrei Caldararu, Derived categories of sheaves: a skimming.
+> 9) Andrei Caldararu, Derived categories of sheaves: a skimming.
 > Available at
 > `http://www.math.wisc.edu/~andreic/publications/lnPoland.pdf`
 >
@@ -341,7 +341,7 @@ equivalent, roughly this:
 > bolt. You'll have to watch his talk to see how this is relevant. The
 > otherwise excellent slides do not explain this joke:
 >
-> 8\) Alex Hoffnung, A categorification of the Hecke algebra,
+> 8) Alex Hoffnung, A categorification of the Hecke algebra,
 > `http://math.ucr.edu/~alex/hecke.pdf`
 >
 > Then Christopher Walker gave a talk on "[A categorification of Hall
@@ -351,7 +351,7 @@ equivalent, roughly this:
 > passed his oral exam at UCR with a longer version of the same talk!
 > So, check out the slides for that:
 >
-> 9\) Christopher Walker, A categorification of Hall algebras,
+> 9) Christopher Walker, A categorification of Hall algebras,
 > `http://math.ucr.edu/~cwalker66/Oral_Exam_talk_11_10.pdf`
 >
 > But here's the idea in a nutshell. Take a simply-laced Dynkin
@@ -380,7 +380,7 @@ equivalent, roughly this:
 > His talk explains more, and you can learn more about groupoidification
 > and its applications to Hecke and Hall algebras here:
 >
-> 10\) John Baez, Alex Hoffnung and Christopher Walker,
+> 10) John Baez, Alex Hoffnung and Christopher Walker,
 > Higher-dimensional algebra VII: groupoidification.
 > [`arXiv:0908.4305`](http://arxiv.org/abs/0908.4305).
 >
@@ -391,7 +391,7 @@ equivalent, roughly this:
 > matrices](ams_2009/Lee_AMS_UCR_2009.mov)". You can see slides of his
 > talk here:
 >
-> 11\) Jonathan Lee, Homotopy colimits and the space of square-zero
+> 11) Jonathan Lee, Homotopy colimits and the space of square-zero
 > upper-triangular matrices,
 > `http://math.stanford.edu/~jlee/homotopy-talk.pdf`
 >
@@ -434,7 +434,7 @@ equivalent, roughly this:
 >
 > You can see some slides here:
 >
-> 12\) Maia Averett, Real Johnson-Wilson theories,
+> 12) Maia Averett, Real Johnson-Wilson theories,
 > `http://www.math.uchicago.edu/~fiore/1/Averett.pdf`
 >
 > Real Johnson-Wilson theories are certain generalized cohomology
@@ -461,13 +461,13 @@ equivalent, roughly this:
 > Emin Tatar of Florida State University spoke on "[Abelian sheaves and
 > Picard stacks](ams_2009/Tatar_AMS_UCR_2009.mov)":
 >
-> 13\) A. Emin Tatar, Abelian sheaves and Picard stacks,
+> 13) A. Emin Tatar, Abelian sheaves and Picard stacks,
 > `http://www.math.ucr.edu/~jbergner/tatar_slides.pdf`
 >
 > This talk assumed a fair amount of background, so let me just sketch a
 > bit of that background. For more details, try this:
 >
-> 14\) A. Emin Tatar, Length 3 complexes of abelian sheaves and Picard
+> 14) A. Emin Tatar, Length 3 complexes of abelian sheaves and Picard
 > 2-stacks, available as
 > [`arXiv:0906.2393`](http://arxiv.org/abs/0906.2393).
 >
@@ -523,7 +523,7 @@ equivalent, roughly this:
 > to symmetric 2-groups. See ["Week 266"](#week266) for more, and
 > especially this:
 >
-> 15\) Mathieu Dupont, Abelian categories in dimension 2, Ph.D thesis,
+> 15) Mathieu Dupont, Abelian categories in dimension 2, Ph.D thesis,
 > l'Universite Catholique de Louvain, 2008. Available as
 > [`arXiv:0809.1760`](http://arxiv.org/abs/0809.1760). Original available
 > in French at `http://hdl.handle.net/2078.1/12735`
@@ -580,7 +580,7 @@ equivalent, roughly this:
 > comes from a 2-term complex of sheaves of abelian groups. This was
 > proved by Deligne quite a while ago - it's Lemma 1.4.13 here:
 >
-> 15\) Pierre Deligne, La formule de dualité globale, Sem. Geom.
+> 15) Pierre Deligne, La formule de dualité globale, Sem. Geom.
 > Algébrique Bois-Marie 1963/64, SGA 4 III, No. XVIII, Springer Lecture
 > Notes in Mathematics 305, 1973, pp. 481-587. Also available at
 > `http://www.math.polytechnique.fr/~laszlo/sga4/SGA4-3/sga43.pdf`
@@ -588,7 +588,7 @@ equivalent, roughly this:
 > But you can also see a different proof in Proposition 8.3.2 of this
 > paper by Tatar's advisor and Behrang Noohi:
 >
-> 16\) Ettore Aldrovandi and Behrang Noohi, Butterflies I: morphisms of
+> 16) Ettore Aldrovandi and Behrang Noohi, Butterflies I: morphisms of
 > 2-group stacks, Adv. Math. 221 (2009), 687-773. Also available as
 > [`arXiv:0808.3627`](http://arxiv.org/abs/0808.3627).
 >
@@ -621,7 +621,7 @@ equivalent, roughly this:
 > A while back, Jacob Lurie described a way to turn any quasicategory
 > into a simplicial category - see for example Remark 1.1.5.18 here:
 >
-> 16\) Jacob Lurie, Higher Topos Theory, Annals of Mathematics Studies
+> 16) Jacob Lurie, Higher Topos Theory, Annals of Mathematics Studies
 > 170, Princeton University Press, Princeton, NJ, 2009. Also available
 > as [`arXiv:math/0608040`](http://arXiv.org/abs/math/0608040).
 >
@@ -630,11 +630,11 @@ equivalent, roughly this:
 > up a simplicial set of "morphisms" from one to the other. Recently
 > Daniel Dugger and David Spivak have come up with another way:
 >
-> 17\) Daniel Dugger and David I. Spivak, Rigidification of
+> 17) Daniel Dugger and David I. Spivak, Rigidification of
 > quasi-categories, available as
 > [`arXiv:0910.0814`](http://arxiv.org/abs/0910.0814).
 >
-> 18\) Daniel Dugger and David I. Spivak, Mapping spaces in
+> 18) Daniel Dugger and David I. Spivak, Mapping spaces in
 > quasi-categories, available as
 > [`arXiv:0911.0469`](http://arxiv.org/abs/0911.0469).
 >
@@ -707,7 +707,7 @@ equivalent, roughly this:
 > describe them using pictures called "fans". Here's a nice informal
 > explanation of how this works:
 >
-> 19\) David Speyer, Toric varieties and polytopes,
+> 19) David Speyer, Toric varieties and polytopes,
 > `http://sbseminar.wordpress.com/2009/02/09/toric-varieties-and-polytopes/`
 >
 > Toric varieties and fans,

@@ -17,7 +17,7 @@ got lots of cool moons. So this week, let's talk about
 [![](europa.jpg){width="500"}](europa.jpg)
 :::
 
-1\) Astronomy Picture of the Day, Gibbous Europa,
+1) Astronomy Picture of the Day, Gibbous Europa,
 `http://antwrp.gsfc.nasa.gov/apod/ap071202.html`
 
 Europa is the fourth biggest moon of Jupiter, the smallest of the four
@@ -35,7 +35,7 @@ frozen lake that's been hit with a sledgehammer:
 [![](europa_impact_crater.jpg){width="500"}](europa_impact_crater.jpg)
 :::
 
-2\) NASA Photojournal, Ancient impact basin on Europa,
+2) NASA Photojournal, Ancient impact basin on Europa,
 `http://photojournal.jpl.nasa.gov/catalog/PIA00702`
 
 But this crater, called Tyre, is huge: about as big as the island of
@@ -52,7 +52,7 @@ ice crust. Another says there's liquid water too:
 [![](europa_models.gif)](http://photojournal.jpl.nasa.gov/catalog/PIA01669)
 :::
 
-3\) NASA Photojournal, Model of Europa's subsurface structure,
+3) NASA Photojournal, Model of Europa's subsurface structure,
 `http://photojournal.jpl.nasa.gov/catalog/PIA01669`
 
 How can we tell? Europa is the *smoothest* of all solid planets and
@@ -65,7 +65,7 @@ like pack ice here on Earth, hinting at liquid water beneath:
 [![](europa_chaos.jpg){width="500"}](http://photojournal.jpl.nasa.gov/jpeg/PIA01127.jpg)
 :::
 
-4\) NASA Photojournal, Europa: ice rafting view,
+4) NASA Photojournal, Europa: ice rafting view,
 `http://photojournal.jpl.nasa.gov/catalog/PIA01127`
 
 The bluish white areas have been blanketed with ice dust ejected from
@@ -80,7 +80,7 @@ in this moon, which in turn create their own magnetic fields! These
 fields were detected when the Galileo probe swooped closest to Europa
 back in 2000:
 
-5\) M. G. Kivelson, K. K. Khurana, C. T. Russell, M. Volwerk, R.J.
+5) M. G. Kivelson, K. K. Khurana, C. T. Russell, M. Volwerk, R.J.
 Walker, and C. Zimmer, Galileo magnetometer measurements: a stronger
 case for a subsurface ocean at Europa, Science, 289 (2000), 1340-1343.
 
@@ -105,7 +105,7 @@ Scale bar is 100 kilometers long.\
 Picture by Paul Schenk, Lunar and Planetary Institute.
 :::
 
-6\) Paul Schenk, Isamu Matsuyama and Francis Nimmo, True polar wander on
+6) Paul Schenk, Isamu Matsuyama and Francis Nimmo, True polar wander on
 Europa from global-scale small-circle depressions, Nature 453 (2008),
 368-371.
 
@@ -126,7 +126,7 @@ Heating produced by tidal forces may be the best bet - radioactivity
 from the core contributes just about 100 billion watts, not nearly
 enough:
 
-7\) M. N. Ross and G. Schubert, Tidal heating in an internal ocean model
+7) M. N. Ross and G. Schubert, Tidal heating in an internal ocean model
 of Europa, Nature 325 (1987), 133-144.
 
 And then for the really big question: could there be *life* on Europa?
@@ -144,21 +144,21 @@ Nonetheless, some dream of sending a satellite to Europa, perhaps to
 impact it at high velocity and see what's inside, or perhaps to land
 and melt down through the ice:
 
-8\) Leslie Mullen, Hitting Europa hard (interview of Karl Hibbits),
+8) Leslie Mullen, Hitting Europa hard (interview of Karl Hibbits),
 Astrobiology Magazine, May 1, 2006,
 `http://www.astrobio.net/news/article1944.html`
 
 But these dreams may not come true anytime soon. In 2005, NASA cancelled
 its ambitious plans for the Jupiter Icy Moons Orbiter:
 
-10\) Wikipedia, Jupiter Icy Moons Orbiter,
+10) Wikipedia, Jupiter Icy Moons Orbiter,
 `http://en.wikipedia.org/wiki/Jupiter_Icy_Moons_Orbiter`
 
 The U.S. Congress, the National Academy of Sciences, and the NASA
 Advisory Committee have all supported a mission to Europa, but NASA has
 still not funded this project:
 
-11\) Leonard David, Europa mission: lost in NASA budget, SPACE.com,
+11) Leonard David, Europa mission: lost in NASA budget, SPACE.com,
 February 7, 2006, `http://www.space.com/news/060207_europa_budget.html`
 
 Unfortunately, NASA still spends most of its money on expensive manned
@@ -171,14 +171,14 @@ To study the underground ocean of Europa, our best hope may lie with the
 European Space Agency's "Jovian Europa Orbiter", part of a project
 called the Jovian Minisat Explorer:
 
-12\) ESA Science and Technology, Jovian Minisat Explorer,
+12) ESA Science and Technology, Jovian Minisat Explorer,
 `http://sci.esa.int/science-e/www/object/index.cfm?fobjectid=35982`
 
 This hasn't been funded yet, and there's no telling if it ever will.
 But people are already working to make sure Europa doesn't get
 contaminated by bacteria from Earth:
 
-13\) National Research Council, Preventing the Forward Contamination of
+13) National Research Council, Preventing the Forward Contamination of
 Europa, The National Academies Press, Washington, DC, 2000. Also
 available at `http://www.nap.edu/catalog.php?record_id=9895`
 
@@ -212,7 +212,7 @@ are already present, you can generate this picture:
 [![](pythagorean_pentagram.jpg){width="500"}](pythagorean_pentagram.jpg)
 :::
 
-14\) James Dolan, Pythagorean pentagram,
+14) James Dolan, Pythagorean pentagram,
 `http://math.ucr.edu/home/baez/pythagorean_pentagram.jpg`
 
 This is just the beginning of an infinite picture packed with
@@ -248,7 +248,7 @@ ends, so it must be irrational! There's some evidence that early Greeks
 were interested in continued fraction expansions... you can read about
 that in this marvelous speculative book:
 
-15\) David Fowler, The Mathematics Of Plato's Academy: A New
+15) David Fowler, The Mathematics Of Plato's Academy: A New
 Reconstruction, 2nd edition, Clarendon Press, Oxford, 1999. Review by
 Fernando Q. Gouvêa for MAA Online available at
 <https://www.maa.org/press/maa-reviews/the-mathematics-of-platos-academy-a-new-reconstruction>
@@ -273,7 +273,7 @@ quantum harmonic oscillator and Feynman diagrams! For more on that, see
 Bill has always been interested in getting Hopf algebras from structure
 types. The idea is implicit in some work of Rota:
 
-16\) Saj-Nicole Joni and Gian-Carlo Rota, Coalgebras and bialgebras in
+16) Saj-Nicole Joni and Gian-Carlo Rota, Coalgebras and bialgebras in
 combinatorics, Studies in Applied Mathematics 61 (1979), 93-139.
 
 Gian-Carlo Rota, Hopf algebras in combinatorics, in Gian-Carlo Rota on
@@ -282,7 +282,7 @@ Birkhauser, Boston, 1995.
 
 but my favorite explanation is here:
 
-17\) William R. Schmitt, Hopf algebras of combinatorial structures,
+17) William R. Schmitt, Hopf algebras of combinatorial structures,
 Canadian Journal of Mathematics 45 (1993), 412-428. Also available at
 `http://home.gwu.edu/~wschmitt/papers/hacs.pdf`
 
@@ -366,7 +366,7 @@ on Hopf algebras and Feynman diagrams. I talked about this back in
 ["Week 122"](#week122) - but here's a more recent review, with a
 hundred references for further study:
 
-18\) Kurusch Ebrahimi-Fard and Dirk Kreimer, Hopf algebra approach to
+18) Kurusch Ebrahimi-Fard and Dirk Kreimer, Hopf algebra approach to
 Feynman diagram calculations, available as
 [`arXiv:hep-th/0510202`](http://arXiv.org/abs/arXiv:hep-th/0510202).
 
@@ -376,12 +376,12 @@ Dolan and Jeffrey Morton on structure types, more general "stuff
 types", quantum field theory and Feynman diagrams. But, maybe you can
 figure it out if you read these:
 
-19\) John Baez and Derek Wise, Quantization and Categorification.\
+19) John Baez and Derek Wise, Quantization and Categorification.\
 Fall 2003 notes: `http://math.ucr.edu/home/baez/qg-fall2003`\
 Winter 2004 notes: `http://math.ucr.edu/home/baez/qg-winter2004/`\
 Spring 2004 notes: `http://math.ucr.edu/home/baez/qg-spring2004/`
 
-20\) Jeffrey Morton, Categorified algebra and quantum mechanics, Theory
+20) Jeffrey Morton, Categorified algebra and quantum mechanics, Theory
 and Applications of Categories 16 (2006), 785-854. Available at
 `http://www.emis.de/journals/TAC/volumes/16/29/16-29abs.html` and as
 [`arXiv:math/0601458`](http://arxiv.org/abs/math/0601458).
@@ -389,7 +389,7 @@ and Applications of Categories 16 (2006), 785-854. Available at
 While you're mulling over these ideas, it might pay to ponder this
 paper Bill told me about:
 
-21\) Marcelo Aguiar and Swapneel Mahajan, Monoidal functors, species and
+21) Marcelo Aguiar and Swapneel Mahajan, Monoidal functors, species and
 Hopf algebras, available at `http://www.math.tamu.edu/~maguiar/a.pdf`
 
 It's 588 pages long! It's a bunch of very sophisticated combinatorics
@@ -427,7 +427,7 @@ immediately gripping portions:
     comonoids in the category of linear structure types! In Section 7.10
     they take another trick to get coalgebras from structure types:
 
-    22\) William R. Schmitt, Incidence Hopf algebras, Journal of Pure
+    22) William R. Schmitt, Incidence Hopf algebras, Journal of Pure
     and Applied Algebra 96 (1994), 299-330. Also available at
     `http://home.gwu.edu/~wschmitt/papers/iha.pdf`
 
@@ -446,7 +446,7 @@ immediately gripping portions:
 You can get more of a sense of what Aguiar is up to by looking at his
 homepage. I'll just list a *few* of the cool papers there:
 
-23\) Marcelo Aguiar's homepage, `http://www.math.tamu.edu/~maguiar/`
+23) Marcelo Aguiar's homepage, `http://www.math.tamu.edu/~maguiar/`
 
 Marcelo Aguiar, Internal categories and quantum groups, Ph.D. thesis,
 Cornell University, August 1997. Available at
@@ -469,7 +469,7 @@ out. So, I'll just say that anyone interested in generalizing complex
 analysis to the quaternions must read two papers. The first I had
 managed to lose for a long time... but now I've found it again:
 
-24\) Anthony Sudbery, Quaternionic analysis, Math. Proc. Camb. Φl. Soc.
+24) Anthony Sudbery, Quaternionic analysis, Math. Proc. Camb. Φl. Soc.
 85 (1979), 199-225. Available at
 `http://citeseer.ist.psu.edu/10590.html` and (slightly different
 version)
@@ -477,7 +477,7 @@ version)
 
 The second was brought to my attention by David Corfield:
 
-25\) Igor Frenkel and Matvei Libine, Quaternionic analysis,
+25) Igor Frenkel and Matvei Libine, Quaternionic analysis,
 representation theory and physics, available as
 [`arXiv:0711.2699`](http://arxiv.org/abs/0711.2699)
 
@@ -515,7 +515,7 @@ lengths of the two shorter ones:
 [![](golden_ratio_pentagram.jpg)](golden_ratio_pentagram.jpg)
 :::
 
-26\) James Dolan and John Baez, annotated picture of Pythagorean
+26) James Dolan and John Baez, annotated picture of Pythagorean
 pentagram, `http://math.ucr.edu/home/baez/golden_ratio_pentagram.jpg`
 
 For more on the golden ratio, try ["Week 203"](#week203). For more
@@ -530,7 +530,7 @@ on Europa:
 [![](europa_ice_cracks.jpg)](http://photojournal.jpl.nasa.gov/catalog/PIA03002)
 :::
 
-27\) NASA Photojournal, Blocks in the Europan crust provide more
+27) NASA Photojournal, Blocks in the Europan crust provide more
 evidence of subterranean ocean,
 `http://photojournal.jpl.nasa.gov/catalog/PIA03002`
 

@@ -20,7 +20,7 @@ many primes are less than a given number as a sum over the *zeros* of
 the Riemann zeta function. Instead of showing you this formula, I'll
 just urge you to watch a *movie* of how it works:
 
-1\) Matthew Watkins, Animation: the prime counting function π(x),
+1) Matthew Watkins, Animation: the prime counting function π(x),
 `http://www.maths.ex.ac.uk/~mwatkins/zeta/pianim.htm`
 
 Thanks to this formula, information about the Riemann zeta function is
@@ -56,7 +56,7 @@ belong to Xavier Gourdon, who on October 12th of 2004 claimed to have
 shown - with the help of a computer - that the first *ten trillion*
 zeros in the critical strip lie on the line Re(s) = 1/2.
 
-2\) Xavier Gourdon, Computation of zeros of the Riemann zeta function,
+2) Xavier Gourdon, Computation of zeros of the Riemann zeta function,
 `http://numbers.computation.free.fr/Constants/Miscellaneous/zetazeroscompute.html`
 
 Alas, such monster calculations don't seem helpful for proving the
@@ -67,7 +67,7 @@ The most famous of these traces its way back to a teatime conversation
 between Hugh Montgomery and Freeman Dyson... you can read the story
 here:
 
-3\) K. Sabbagh, Dr. Riemann's Zeros, Atlantic Books, 2002, pp. 134-136.
+3) K. Sabbagh, Dr. Riemann's Zeros, Atlantic Books, 2002, pp. 134-136.
 Story about Hugh Montgomery and Freeman Dyson also available at
 `http://www.maths.ex.ac.uk/~mwatkins/zeta/dyson.htm`
 
@@ -89,7 +89,7 @@ called zeta functions and L-functions, and many of these are *simpler*
 than the original one - or at least raise fascinating questions that are
 easier to solve. Many of these are listed here:
 
-4\) Matthew R. Watkins, A directory of all known zeta functions,
+4) Matthew R. Watkins, A directory of all known zeta functions,
 `http://www.maths.ex.ac.uk/~mwatkins/zeta/directoryofzetafunctions.htm`
 
 Matthew R. Watkins, A directory of all known L-functions,
@@ -366,13 +366,13 @@ learning basic chord progressions by listening to Schoenberg.
 If you're just trying to get started, here's one of the more readable
 introductions:
 
-5\) Anton Deitman, Panorama of zeta functions, available as
+5) Anton Deitman, Panorama of zeta functions, available as
 [math.NT/0210060](http://www.arxiv.org/abs/math.NT/0210060).
 
 Audrey Terras has a lot of nice slide presentations about the \zeta
 functions and L-functions of graphs:
 
-6\) Audrey Terras, Artin L-functions of graph coverings, available at
+6) Audrey Terras, Artin L-functions of graph coverings, available at
 `http://math.ucsd.edu/~aterras/artin1.pdf`
 
 More on L-functions, available at
@@ -381,7 +381,7 @@ More on L-functions, available at
 Here's a paper written in broken English but making a very serious
 attempt to explain things to the nonexpert:
 
-7\) David Zywina, The zeta function of a graph, available at
+7) David Zywina, The zeta function of a graph, available at
 `http://math.berkeley.edu/~zywina/zeta.pdf`
 
 He gives a characterization of graphs whose zeta functions satisfy an

@@ -21,7 +21,7 @@ mechanics, replacing groups by quantum groups, and so on. I didn't say
 too much about this, but there's a lot to say. Here's a good place to
 get started:
 
-1\) Yu. I. Manin, Quantum Groups and Noncommutative Geometry, Les Publ.
+1) Yu. I. Manin, Quantum Groups and Noncommutative Geometry, Les Publ.
 du Centre de Recherches Math., Universite de Montreal, Montreal, 1988.
 
 Next we took an idiosyncratic detour into "q-arithmetic". We started
@@ -213,7 +213,7 @@ also corresponds to a famous state in Fock space, called a "coherent
 state". For example, a laser beam is a coherent state of photons. If
 you're curious about the details, see:
 
-2\) John Baez and Michael Weiss, Photons, schmotons, available at
+2) John Baez and Michael Weiss, Photons, schmotons, available at
 `http://math.ucr.edu/home/baez/photon`
 
 But don't worry about it too much: my main point is just that it's fun
@@ -333,7 +333,7 @@ which is just a categorified version of
 cleverly rewritten to avoid subtraction. You should prove this yourself!
 If you get stuck, the answer is here:
 
-3\) John Baez and James Dolan, From finite sets to Feynman diagrams, in
+3) John Baez and James Dolan, From finite sets to Feynman diagrams, in
 Mathematics Unlimited - 2001 and Beyond, vol. 1, eds. Bjorn Engquist and
 Wilfried Schmid, Springer, Berlin, 2001, pp. 29-50. Also available as
 [math.QA/0004133](http://xxx.lanl.gov/abs/math.QA/0004133).
@@ -351,32 +351,32 @@ generating functions in combinatorics for a long time. There are a lot
 of really fun things you can do with them! For a nice easy introduction,
 try this:
 
-4\) Ronald L. Graham, Donald E. Knuth, and Oren Patashnik, Concrete
+4) Ronald L. Graham, Donald E. Knuth, and Oren Patashnik, Concrete
 Mathematics: a Foundation for Computer Science, 2nd edition,
 Addison-Wesley, Reading, Massachusetts, 1994.
 
 To dig deeper, try these:
 
-5\) Herbert Wilf, Generatingfunctionology, Academic Press, Boston, 1994.
+5) Herbert Wilf, Generatingfunctionology, Academic Press, Boston, 1994.
 Also available for free at `http://www.cis.upenn.edu/~wilf/`
 
-6\) Richard P. Stanley, Enumerative Combinatorics, two volumes,
+6) Richard P. Stanley, Enumerative Combinatorics, two volumes,
 Cambridge U. Press, Cambridge, 1999.
 
 However, it was only in the 1980s that Andre Joyal gave a precise
 definition of a "structure type" - he called them "especes de
 structures", so English speakers often call them "species":
 
-7\) Andre Joyal, Une theorie combinatoire des series formelles, Adv.
+7) Andre Joyal, Une theorie combinatoire des series formelles, Adv.
 Math. 42 (1981), 1-82.
 
-8\) Andre Joyal, Foncteurs analytiques et especes de structures, in
+8) Andre Joyal, Foncteurs analytiques et especes de structures, in
 Combinatoire Enumerative, Springer Lecture Notes in Mathematics 1234,
 Springer, Berlin (1986), 126-159.
 
 I also urge you to read this excellent book:
 
-9\) F. Bergeron, G. Labelle, and P. Leroux, Combinatorial species and
+9) F. Bergeron, G. Labelle, and P. Leroux, Combinatorial species and
 tree-like structures, Cambridge, Cambridge U. Press, 1998.
 
 But now let me get to the punchline. We can talk about structures not
@@ -531,7 +531,7 @@ Joyal and Street showed this in a related situation, namely where one
 considers not a *set* of structures on a projective space, but a
 *complex vector space* of structures:
 
-10\) Andre Joyal and Ross Street, The category of representations of the
+10) Andre Joyal and Ross Street, The category of representations of the
 general linear groups over a finite field, Jour. Alg. 176 (1995),
 908-945.
 

@@ -3,7 +3,7 @@
 I recently went to a conference on "Discrete Random Geometries and
 Quantum Gravity", organized by Renate Loll:
 
-1\) Discrete Random Geometries and Quantum Gravity,
+1) Discrete Random Geometries and Quantum Gravity,
 `http://www1.phys.uu.nl/Symposion/EUWorkshop.htm`
 
 She was one of the people who first gave me the courage to work on
@@ -21,7 +21,7 @@ threw this conference!
 I like to read "Wired" magazine when I'm on long airplane trips. On
 my flight to Amsterdam, I found this interesting article:
 
-2\) Wil McCarthy, Ultimate alchemy, Wired, October 2001, 150.
+2) Wil McCarthy, Ultimate alchemy, Wired, October 2001, 150.
 
 It's about people are using "quantum dots" to make "artificial
 atoms". A quantum dot is a tiny speck of conductive material that can
@@ -53,10 +53,10 @@ dots.
 
 For more on quantum dots by experts on the subject, try these papers:
 
-3\) Marc Kastner, Artificial atoms, Physics Today 46 (1993), 24. Also
+3) Marc Kastner, Artificial atoms, Physics Today 46 (1993), 24. Also
 available at `http://web.mit.edu/physics/people/marc_kastner.htm`
 
-4\) Leo Kouwenhoven and Charles Marcus, Quantum dots, Physics World,
+4) Leo Kouwenhoven and Charles Marcus, Quantum dots, Physics World,
 June 1998. Also available at `http://marcuslab.harvard.edu/`
 
 Unfortunately I didn't have access to these papers on my flight from
@@ -70,7 +70,7 @@ die from it each year. I plan to call the FBI and warn them about this.)
 
 So, I had to hit the serious mathematical physics:
 
-5\) Terry Gannon, Monstrous moonshine and the classification of CFT, in
+5) Terry Gannon, Monstrous moonshine and the classification of CFT, in
 Conformal Field Theory: New Non-Perturbative Methods in String and Field
 Theory, Yavuz Nutku, Cihan Saclioglu and Teoman Turgut, eds., Perseus
 Publishing, 2000.
@@ -119,7 +119,7 @@ n^-3^.
 
 For more details see this fascinating paper:
 
-6\) Sergeui N. Dorogovtsev and J.F.F. Mendes, Evolving networks,
+6) Sergeui N. Dorogovtsev and J.F.F. Mendes, Evolving networks,
 available at
 [cond-mat/0106144](http://xxx.lanl.gov/abs/cond-mat/0106144).
 
@@ -165,11 +165,11 @@ similarities.
 I gave a review of spin foam models and an introduction to the following
 new papers:
 
-7\) John Baez and J. Daniel Christensen, Positivity of spin foam
+7) John Baez and J. Daniel Christensen, Positivity of spin foam
 amplitudes, available at
 [gr-qc/0110044](http://xxx.lanl.gov/abs/gr-qc/0110044).
 
-8\) J. Daniel Christensen and Greg Egan, An efficient algorithm for the
+8) J. Daniel Christensen and Greg Egan, An efficient algorithm for the
 Riemannian 10j symbols, available at
 [gr-qc/0110045](http://xxx.lanl.gov/abs/gr-qc/0110045).
 
@@ -238,7 +238,7 @@ models of quantum gravity involving discrete random geometries. But
 right now I'll just discuss something called the IKKT matrix model.
 This was proposed in the following paper:
 
-9\) N. Ishibashi, H. Kawai, Y. Kitazawa and T. Tsuchiya, A large-N
+9) N. Ishibashi, H. Kawai, Y. Kitazawa and T. Tsuchiya, A large-N
 reduced model as superstring, Nucl. Phys. B498 (1997) 467-491. Also
 available as [hep-th/9612115](http://xxx.lanl.gov/abs/hep-th/9612115).
 
@@ -288,13 +288,13 @@ Wheater gave a talk about results saying that the path integral
 converges for this model in certain cases. In particular, it converges
 if n = 4, 6, or 10. For more details try this:
 
-10\) Peter Austing and John F. Wheater, Convergent Yang-Mills matrix
+10) Peter Austing and John F. Wheater, Convergent Yang-Mills matrix
 theories, JHEP 0104 (2001) 019. Also available as
 [hep-th/0103159](http://xxx.lanl.gov/abs/hep-th/0103159).
 
 Bengt Petersson spoke about computer simulations of the IKKT model:
 
-11\) Z. Burda, B. Petersson, J. Tabaczek, Geometry of reduced
+11) Z. Burda, B. Petersson, J. Tabaczek, Geometry of reduced
 supersymmetric 4D Yang-Mills integrals, Nucl. Phys. B602 (2001) 399-409.
 Also available as
 [hep-lat/0012001](http://xxx.lanl.gov/abs/hep-lat/0012001).
@@ -305,7 +305,7 @@ superstring theory as a natural consequence of a matrix model.
 
 For more on the IKKT model, try this:
 
-12\) A. Konechny and A. Schwarz, Introduction to M(atrix) theory and
+12) A. Konechny and A. Schwarz, Introduction to M(atrix) theory and
 noncommutative geometry, available at
 [hep-th/0012145](http://xxx.lanl.gov/abs/hep-th/0012145).
 
@@ -341,7 +341,7 @@ from the above axioms using first-order logic?
 
 Remarkably, in 1981 it turned out the answer is YES:
 
-13\) A. J. Wilkie, On exponentiation - a solution to Tarski's high
+13) A. J. Wilkie, On exponentiation - a solution to Tarski's high
 school algebra problem, to appear in Quaderni di Matematica. Also
 available at `http://www.maths.ox.ac.uk/~wilkie/`
 
@@ -361,7 +361,7 @@ school algebra axioms but not Wilkie's identity. This clearly shows
 that the former don't imply the latter! His counterexample had 59
 elements:
 
-14\) R. Gurevic, Equational theory of positive numbers with
+14) R. Gurevic, Equational theory of positive numbers with
 exponentiation, Proc. Amer. Math. Soc. 94 (1985), 135-141.
 
 Later, various mathematicians enjoyed cutting down the number of
@@ -369,7 +369,7 @@ elements in this counterexample. As far as I can tell, the current
 record-holder is Marcel Jackson, who constructed one with only 14
 elements. He also showed that none exists with fewer than 8 elements:
 
-15\) Marcel G. Jackson, A note on HSI-algebras and counterexamples to
+15) Marcel G. Jackson, A note on HSI-algebras and counterexamples to
 Wilkie's identity, Algebra Universalis 36 (1996), 528-535. Also
 available at
 `http://www.latrobe.edu.au/mathstats/Staff/Marcel/details/publications.html`
@@ -382,7 +382,7 @@ set of axioms in first-order logic is sufficient to prove all the
 identities involving addition, multiplication, exponentiation and 1 that
 hold for the positive natural numbers. You can find this here:
 
-16\) R. Gurevic, Equational theory of positive numbers with
+16) R. Gurevic, Equational theory of positive numbers with
 exponentiation is not finitely axiomatizable, Ann. Pure. Appl. Logic 49
 (1990), 1-30.
 

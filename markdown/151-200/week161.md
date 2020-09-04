@@ -3,7 +3,7 @@
 I'm in the middle of reading this book, so I don't know how it ends
 yet, but it's good:
 
-1\) Dava Sobel, Galileo's Daughter, Penguin Books, London, 2000.
+1) Dava Sobel, Galileo's Daughter, Penguin Books, London, 2000.
 
 Galileo had two daughters and a son with a beautiful woman whom never
 married - Marina Gamba of Venice. The son was a wastrel, and the younger
@@ -26,7 +26,7 @@ good physics.
 Two later figures standing on the border of math and physics are Kelvin
 and Stokes:
 
-2\) David B. Wilson, Kelvin and Stokes: A Comparative Study in Victorian
+2) David B. Wilson, Kelvin and Stokes: A Comparative Study in Victorian
 Physics, Adam Hilger, Bristol, 1987.
 
 One thing I like about this book is the debunking of the popular image
@@ -67,7 +67,7 @@ curious combination of philosophical and mathematical reasoning, with
 very little support from experiment. How did he really figure it out?
 This book is a good place to learn the details:
 
-3\) Don Howard and John Stachel eds., Einstein and the History of
+3) Don Howard and John Stachel eds., Einstein and the History of
 General Relativity, Birkhauser, Boston, 1989.
 
 There are a number of essays exploring the interesting period between
@@ -109,12 +109,12 @@ as physically the same.
 Now I'd like to switch to something else: a couple of emails I got. A
 while back I wrote up a webpage about the end of the universe:
 
-4\) John Baez, The end of the universe,
+4) John Baez, The end of the universe,
 `http://math.ucr.edu/home/baez/end.html`
 
 I got a lot of the numbers out of a book I bet you've already read:
 
-5\) John D. Barrow and Frank J. Tipler, The Cosmological Anthropic
+5) John D. Barrow and Frank J. Tipler, The Cosmological Anthropic
 Principle, Oxford U. Press, Oxford, 1988.
 
 What - you haven't read it? Yikes! Hurry up and give it to a friend for
@@ -125,13 +125,13 @@ saying that he's coming out with a new book. Like the previous one,
 it's sure to be full of interesting things. You can tell from the
 title:
 
-6\) John D. Barrow, The Book of Nothing, to be published.
+6) John D. Barrow, The Book of Nothing, to be published.
 
 My other email was from Bert Schroer, an expert on the C*-algebraic
 approach to quantum field theory. He has written a paper about the
 "AdS-CFT correspondence" which is bound to stir up controversy:
 
-7\) Bert Schroer, Facts and fictions about Anti de Sitter spacetimes
+7) Bert Schroer, Facts and fictions about Anti de Sitter spacetimes
 with local quantum matter, available as
 [hep-th/9911100](http://xxx.lanl.gov/abs/hep-th/9911100).
 
@@ -285,7 +285,7 @@ By the way, Schroer has recently written a paper about the braid group
 and quantum field theory. Everyone knows how the braid group shows up in
 3d quantum field theory, but this is about *4d* quantum field theory:
 
-8\) Bert Schroer, Braided structure in 4-dimensional conformal quantum
+8) Bert Schroer, Braided structure in 4-dimensional conformal quantum
 field theory, available as
 [hep-th/0012021](http://xxx.lanl.gov/abs/hep-th/0012021).
 

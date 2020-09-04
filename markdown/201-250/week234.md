@@ -4,7 +4,7 @@ Today I'd like to talk about the math of music - including torsors,
 orbifolds, and maybe even Mathieu groups. But first, some movies of the
 n-body problem:
 
-1\) Cris Moore, The 3-body (and $n$-body) problem,
+1) Cris Moore, The 3-body (and $n$-body) problem,
 `http://www.santafe.edu/~moore/gallery.html`
 
 In 1993 Cris Moore discovered solutions of the gravitational $n$-body
@@ -20,7 +20,7 @@ cubic symmetry and vanishing angular momentum, and made movies of these:
 
 For the mathematical details, try this:
 
-2\) Cristopher Moore and Michael Nauenberg, New periodic orbits for the
+2) Cristopher Moore and Michael Nauenberg, New periodic orbits for the
 n-body problem, available at
 [math.DS/0511219](http://arxiv.org/abs/math.DS/0511219).
 
@@ -58,10 +58,10 @@ while I was visiting Chicago. Tom is a postdoc who works on categorified
 algebraic theories, double categories and the like - but he's also into
 music theory:
 
-3\) Thomas M. Fiore, Music and mathematics, available at
+3) Thomas M. Fiore, Music and mathematics, available at
 `http://www.math.uchicago.edu/~fiore/1/music.html`
 
-4\) Thomas M. Fiore and Ramon Satyendra, Generalized contextual groups,
+4) Thomas M. Fiore and Ramon Satyendra, Generalized contextual groups,
 Music Theory Online 11 (2005), available at
 [http://www.math.uchicago.edu/\~fiore/1/music.html](http://mto.societymusictheory.org/issues/mto.05.11.3/toc.11.3.html)
 
@@ -79,11 +79,11 @@ Based on the work on Euler - yes, *the* Euler - Hugo Riemann introduced
 diagrams called "tone nets" to study the network of relations between
 similar chords. You can see his original setup here:
 
-5\) Joe Monzo, Tonnetz: the tonal lattice invented by Riemann,
+5) Joe Monzo, Tonnetz: the tonal lattice invented by Riemann,
 Tonalsoft: the Encyclopedia of Microtonal Music Theory,
 `http://www.tonalsoft.com/enc/t/tonnetz.aspx`
 
-6\) Paul Dysart, Tonnetz: musics, harmony and donuts,
+6) Paul Dysart, Tonnetz: musics, harmony and donuts,
 `http://members2.boo.net/~knuth/`
 
 Apparently Riemann's ideas have caught on in a big way. Monzo says that
@@ -333,7 +333,7 @@ say G acts *freely* on S. By the way we've set things up, G also acts
 *transitively* on S. A nonempty set on which G acts both freely and
 transitively is called a "G-torsor". You can read about torsors here:
 
-7\) John Baez, Torsors made easy,
+7) John Baez, Torsors made easy,
 `http://math.ucr.edu/home/baez/torsors.html`
 
 They're philosophically very interesting, since they're related to
@@ -410,31 +410,31 @@ His reply was packed with information, so I'll quote it:
 You read more about these matters here... I'll list these references
 in the order Tom mentions them:
 
-8\) David Lewin, Generalized Musical Intervals and Transformations, Yale
+8) David Lewin, Generalized Musical Intervals and Transformations, Yale
 University Press, New Haven, Connecticut, 1987.
 
-9\) Julian Hook, Uniform Triadic Transformations, Ph.D. thesis, Indiana
+9) Julian Hook, Uniform Triadic Transformations, Ph.D. thesis, Indiana
 University, 2002.
 
-10\) Adrian P. Childs, Moving beyond neo-Riemannian triads: exploring a
+10) Adrian P. Childs, Moving beyond neo-Riemannian triads: exploring a
 transformational model for seventh chords, Journal of Music Theory 42/2
 (1998), 191-193.
 
-11\) Edward Gollin, Some aspects of three-dimensional Tonnetze, Journal
+11) Edward Gollin, Some aspects of three-dimensional Tonnetze, Journal
 of Music Theory 42/2 (1998), 195-206.
 
-12\) Richard Cohn, Neo-Riemannian operations, parsimonious trichords,
+12) Richard Cohn, Neo-Riemannian operations, parsimonious trichords,
 and their "Tonnetz" representations, Journal of Music Theory 41/1
 (1997), 1-66.
 
-13\) David Lewin, Transformational considerations in Schoenberg's Opus
+13) David Lewin, Transformational considerations in Schoenberg's Opus
 23, Number 3, preprint.
 
 In fact, the notion of "torsor" pervades the work of David Lewin, but
 not under this name - Lewin calls it a "general interval system".
 Stephen Lavelle noticed the connection to torsors in 2005:
 
-14\) Stephen Lavelle, Some formalizations in musical set theory, June 3,
+14) Stephen Lavelle, Some formalizations in musical set theory, June 3,
 2005, available at `http://www.maths.tcd.ie/~icecube/lewin.pdf` and
 `http://www.maths.tcd.ie/~icecube/lewin.ps`
 
@@ -444,13 +444,13 @@ so some of their work is a bit hard to find. For example, all of Volume
 theory, but I don't think it's available online. Luckily, the music
 theorists have set up some free online journals, like this:
 
-15\) Music Theory Online, `http://mto.societymusictheory.org/`
+15) Music Theory Online, `http://mto.societymusictheory.org/`
 
 and this one has links to others. The Society for Music Theory also has
 online resources including a nice bibliography on the basics of music
 theory:
 
-16\) Society for Music Theory, Fundamentals of music theory, selected
+16) Society for Music Theory, Fundamentals of music theory, selected
 bibliography, `http://societymusictheory.org/index.php?pid=37`
 
 Now let me turn up the math level a notch....
@@ -530,7 +530,7 @@ Tymoczko, a composer and music theorist from Princeton, who emailed me
 after I left a grumpy comment on the discussion page for this
 fascinating but slightly obscure article:
 
-17\) Wikipedia, Musical set theory,
+17) Wikipedia, Musical set theory,
 `http://en.wikipedia.org/wiki/Musical_set_theory`
 
 He's recently been working on voice leading and orbifolds. They're
@@ -550,7 +550,7 @@ Tymoczko is coming out with an article about this in Science magazine.
 For now, you can learn more about the geometry of music by playing with
 his "ChordGeometries" software:
 
-18\) Dmitri Tymoczko, ChordGeometries,
+18) Dmitri Tymoczko, ChordGeometries,
 `http://music.princeton.edu/~dmitri/ChordGeometries.html`
 
 As for "voice leading", let me just quote his explanation, suitable
@@ -611,7 +611,7 @@ for mathematicians, of this musical concept:
 
 You can learn more about this here:
 
-19\) Dmitri Tymoczko, Scale theory, serial theory, and voice leading,
+19) Dmitri Tymoczko, Scale theory, serial theory, and voice leading,
 available at `http://music.princeton.edu/~dmitri/scalesarrays.pdf`
 
 I'd like to conclude tonight's performance with a "chromatic
@@ -733,12 +733,12 @@ Sloane cited there for even more.
 
 For a pretty explanation of M~24~, also try this:
 
-20\) Steven H. Cullinane, Geometry of the 4 \times 4 square,
+20) Steven H. Cullinane, Geometry of the 4 \times 4 square,
 `http://finitegeometry.org/sc/16/geometry.html`
 
 For explanations of both M~24~ and M~12~, try this:
 
-21\) Peter J. Cameron, Projective and Polar Spaces, QMW Math Notes 13,
+21) Peter J. Cameron, Projective and Polar Spaces, QMW Math Notes 13,
 1991. Also available at `http://www.maths.qmul.ac.uk/~pjc/pps/` Chapter
 9: The geometry of the Mathieu groups, available at
 `http://www.maths.qmul.ac.uk/~pjc/pps/pps9.pdf`
@@ -778,7 +778,7 @@ fascinating way to embed PSL(2,7) into the Mathieu group M~24~, which
 can be described by getting M~24~ to act on the set of 24 heptagons in
 the Klein quartic:
 
-22\) David Richter, How to make the Mathieu group M~24~,
+22) David Richter, How to make the Mathieu group M~24~,
 `http://homepages.wmich.edu/~drichter/mathieu.htm`
 
 He works in the Poincaré dual picture, where the Klein quartic is tiled
@@ -859,7 +859,7 @@ So, here we go! Dave Rusin wrote:
 
 Here's Dave's web page:
 
-23\) Dave Rusin, Mathematics and music,
+23) Dave Rusin, Mathematics and music,
 `http://www.math.niu.edu/~rusin/uses-math/music/`
 
 David Corfield wrote:
@@ -870,7 +870,7 @@ David Corfield wrote:
 > This is "topos" in the category theoretic sense. Check out the table
 > of contents!
 >
-> 24\) Guerino Mazzola, The Topos of Music: Geometric Logic of Concepts,
+> 24) Guerino Mazzola, The Topos of Music: Geometric Logic of Concepts,
 > Theory and Performance, Birkhauser, Berlin, 2002. Preface and contents
 > available at `http://www.encyclospace.org/tom/tom_preface_toc.pdf`
 >
@@ -887,7 +887,7 @@ David Corfield wrote:
 >
 > Did you ever hear about Conway's M~13~?
 >
-> 25\) John H. Conway, Noam D. Elkies, Jeremy L. Martin, The Mathieu
+> 25) John H. Conway, Noam D. Elkies, Jeremy L. Martin, The Mathieu
 > group M~12~ and its pseudogroup extension M~13~, available as
 > [math.GR/0508630](http://arxiv.org/abs/math.GR/0508630).
 >
@@ -937,20 +937,20 @@ My student Mike Stay wrote:
 > scale and then come up with a timbre for which it sounds natural and
 > right:
 >
-> 26\) William Sethares, Relating tuning and timbre,
+> 26) William Sethares, Relating tuning and timbre,
 > `http://eceserv0.ece.wisc.edu/~sethares/consemi.html`
 >
 > Sethares' home page has a bunch of MP3's on it for people who want
 > to listen:
 >
-> 27\) William Sethares, MP3 Download Central,
+> 27) William Sethares, MP3 Download Central,
 > `http://eceserv0.ece.wisc.edu/~sethares/otherperson/all_mp3s.html`
 >
 > I like "Truth on a Bus", played in a 19-note scale.
 >
 > There are some tracks from the CD mentioned above here:
 >
-> 28\) William Sethares, Tuning, Timbre, Spectrum, Scale, 2nd edition,
+> 28) William Sethares, Tuning, Timbre, Spectrum, Scale, 2nd edition,
 > Springer Verlag, Berlin, 2004. Author's guide available at
 > `http://eceserv0.ece.wisc.edu/~sethares/ttss.html`. Sound examples
 > available at
@@ -998,7 +998,7 @@ Here's an interesting syllabus and list of references that gives a feel
 for what mathematically sophisticated music theorists need to know these
 days:
 
-29\) John Rahn, Music 575: Music and Mathematics, November 2004,
+29) John Rahn, Music 575: Music and Mathematics, November 2004,
 syllabus available at `http://faculty.washington.edu/jrahn/5752004.htm`
 
 Rahn makes some interesting comments on David Lewin's book Generalized
@@ -1074,7 +1074,7 @@ Unfortunately, Lewin's book is out of print. Lewin died in 2003, and
 Milton Babbitt said that a fair portion of his writing remains
 unpublished:
 
-30\) Ken Gewertz, Composer, music theorist David Lewin dies at 69,
+30) Ken Gewertz, Composer, music theorist David Lewin dies at 69,
 Harvard University Gazette,
 `http://www.news.harvard.edu/gazette/2003/05.15/13-lewinobit.html`
 
@@ -1340,7 +1340,7 @@ Here are some more nice references and comments from Stephen Lavelle:
 > in existence about group actions as they apply to music theory. In
 > particular, Fripertinger's page here:
 >
-> 31\) Harald Fripertinger, Mathematical music theory,
+> 31) Harald Fripertinger, Mathematical music theory,
 > `http://www.uni-graz.at/~fripert/index_11.html`
 >
 > has a lot of pretty damned useful articles.
@@ -1348,7 +1348,7 @@ Here are some more nice references and comments from Stephen Lavelle:
 > There're also some pretty cool, and possibly musical, applications of
 > proper Topos Theory to music by Mazzola's school - see, for instance:
 >
-> 32\) Thomas Noll, The topos of triads, available at
+> 32) Thomas Noll, The topos of triads, available at
 > `http://www.cs.tu-berlin.de/~noll/ToposOfTriads.pdf`
 >
 > John Baez wrote:
@@ -1366,7 +1366,7 @@ Here are some more nice references and comments from Stephen Lavelle:
 > one can conceptually quite reasonably formulate a category of
 > musically meaningful limits - see:
 >
-> 33\) Guerino Mazzola and Moreno Andreatta, From a categorical point of
+> 33) Guerino Mazzola and Moreno Andreatta, From a categorical point of
 > view: K-nets as limit denotators, available at
 > [recherche.ircam.fr/equipes/repmus/mamux/documents/mazzola-andreatta.pdf](recherche.ircam.fr/equipes/repmus/mamux/documents/mazzola-andreatta.pdf)
 >
@@ -1430,7 +1430,7 @@ Here are some more nice references and comments from Stephen Lavelle:
 > (some Irish maths society bulletin I think), but I've said enough
 > that the material should be findable online. Ah yes, here it is:
 >
-> 34\) Maria Jose Garmendia Rodriguez and Juan Antonio Navarro Gonzalez,
+> 34) Maria Jose Garmendia Rodriguez and Juan Antonio Navarro Gonzalez,
 > Musical scales, IMS Bulletin 35 (Christmas 1995), 24.
 >
 > for all the good it'll do you.

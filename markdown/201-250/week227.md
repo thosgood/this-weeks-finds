@@ -9,7 +9,7 @@ Marseille. But first, the astronomy pictures of the week:
 height="250"}](http://marsrovers.jpl.nasa.gov/gallery/press/opportunity/20040806a/Sol187B_P2546_L257false-B187R1.jpg)
 :::
 
-1\) Endurance crater's dazzling dunes, NASA/JPL, available at
+1) Endurance crater's dazzling dunes, NASA/JPL, available at
 `http://marsrovers.jpl.nasa.gov/gallery/press/opportunity/20040806a.html`
 
 ::: {align="CENTER"}
@@ -33,7 +33,7 @@ what they look like close up:
 height="351"}](http://marsrover.nasa.gov/newsroom/pressreleases/20040318a.html)
 :::
 
-2\) Mineral in Mars "berries" adds to water story, NASA/JPL, available
+2) Mineral in Mars "berries" adds to water story, NASA/JPL, available
 at `http://marsrover.nasa.gov/newsroom/pressreleases/20040318a.html`
 
 Thanks to a Mössbauer spectroscope aboard the rover, which studies rocks
@@ -53,7 +53,7 @@ missions. To read more about what SF writers Larry Niven, Joe Haldeman,
 Greg Bear and other folks including me think about the merits of manned
 versus unmanned space missions, try this:
 
-3\) Meme Therapy: Life from a science fiction point of view,
+3) Meme Therapy: Life from a science fiction point of view,
 `http://memetherapy.blogspot.com/2006/03/brain-parade-feature-where-we-pester.html`
 
 But enough space stuff... now for some physics!
@@ -83,7 +83,7 @@ It's interesting to meditate on why this change has happened, what it
 means, and what will happen next. I spoke about this in Marseille
 shortly before coming home to Riverside. You can see my slides here:
 
-4\) John Baez, Fundamental physics: where we stand today, lecture at at
+4) John Baez, Fundamental physics: where we stand today, lecture at at
 the Faculty of Sciences, Luminy, February 27th, 2006, available at
 `http://math.ucr.edu/home/baez/where_we_stand/`
 
@@ -92,7 +92,7 @@ part is a gentle introduction to the laws of physics as we know them.
 
 For more info on dark matter and dark energy, try this:
 
-5\) Varun Sahri, Dark matter and dark energy, available as
+5) Varun Sahri, Dark matter and dark energy, available as
 [astro-ph/0403324](http://xxx.lanl.gov/abs/astro-ph/0403324).
 
 If you read this, you'll learn about the "cuspy core problem" -
@@ -112,7 +112,7 @@ understand dark matter and dark energy.
 
 For more on neutrino oscillations, try this:
 
-6\) K. M. Heeger, Evidence for neutrino mass: a decade of discovery,
+6) K. M. Heeger, Evidence for neutrino mass: a decade of discovery,
 available as [hep-ex/0412032](http://arxiv.org/abs/hep-ex/0412032).
 
 I had a great time in Marseille. The area around there is great for
@@ -143,13 +143,13 @@ Luckily I didn't need to be locked up on a deserted island to learn
 some logic in Marseille. There were lots of great talks on this topic at
 the conference I attended:
 
-7\) Geometry of Computation 2006 (Geocal06),
+7) Geometry of Computation 2006 (Geocal06),
 `http://iml.univ-mrs.fr/geocal06/`
 
 For example, Yves Lafont gave a category-theoretic approach to Boolean
 logic gates which explains their relation to Feynman diagrams:
 
-8\) Yves Lafont, Towards an algebraic theory of Boolean circuits,
+8) Yves Lafont, Towards an algebraic theory of Boolean circuits,
 Journal of Pure and Applied Algebra 184 (2003), 257-310. Also available
 at `http://iml.univ-mrs.fr/~lafont/publications.html`
 
@@ -170,27 +170,27 @@ carefully back in ["Week 70"](#week70) when I first heard Lafont
 lecture on this topic - it made a big impression on me! You can read
 more here:
 
-9\) Yves Lafont and A. Proute, Church-Rosser property and homology of
+9) Yves Lafont and A. Proute, Church-Rosser property and homology of
 monoids, Mathematical Structures in Computer Science, Cambridge U.
 Press, 1991, pp. 297-326. Also available at
 `http://iml.univ-mrs.fr/~lafont/publications.html`
 
-10\) Yves Lafont, A new finiteness condition for monoids presented by
+10) Yves Lafont, A new finiteness condition for monoids presented by
 complete rewriting systems (after Craig C. Squier), Journal of Pure and
 Applied Algebra 98 (1995), 229-244. Also available at
 `http://iml.univ-mrs.fr/~lafont/publications.html`
 
 Then you can go on to the higher-dimensional stuff:
 
-11\) Albert Burroni, Higher dimensional word problem with application to
+11) Albert Burroni, Higher dimensional word problem with application to
 equational logic, Theor. Comput. Sci. 115 (1993), 43-62. Also available
 at `http://www.math.jussieu.fr/~burroni/`
 
-12\) Yves Guiraud, The three dimensions of proofs, Annals of Pure and
+12) Yves Guiraud, The three dimensions of proofs, Annals of Pure and
 Applied Logic (in press). Also available at
 `http://iml.univ-mrs.fr/%7Eguiraud/recherche/cos1.pdf`
 
-13\) Francois Metayer, Resolutions by polygraphs, Theory and
+13) Francois Metayer, Resolutions by polygraphs, Theory and
 Applications of Categories 11 (2003), 148-184. Available online at
 `http://www.tac.mta.ca/tac/volumes/11/7/11-07abs.html`
 
@@ -203,7 +203,7 @@ it!
 
 To get a taste of what Phil Scott told me, you should read this:
 
-14\) Philip J. Scott, Some aspects of categories in computer science,
+14) Philip J. Scott, Some aspects of categories in computer science,
 Handbook of Algebra, Vol. 2, ed. M. Hazewinkel, Elsevier, New York,
 2000. Available as `http://www.site.uottawa.ca/~phil/papers/`
 
@@ -278,13 +278,13 @@ I gave a bunch of talks in Marseille about algebraic theories, some
 related logical systems called PROPs and PROs, and their relation to
 quantum theory, especially Feynman diagrams:
 
-14\) John Baez, Universal algebra and diagrammatic reasoning, available
+14) John Baez, Universal algebra and diagrammatic reasoning, available
 as `http://math.ucr.edu/home/baez/universal/`
 
 I came mighty close to explaining how to compute the cohomology of an
 algebraic theory... and you can read more about that here:
 
-15\) Mauka Jibladze and Teimuraz Pirashvili, Cohomology of algebraic
+15) Mauka Jibladze and Teimuraz Pirashvili, Cohomology of algebraic
 theories, J. Algebra 137 (1991) 253-296.
 
 Mauka Jibladze and Teimuraz Pirashvili, Quillen cohomology and
@@ -295,7 +295,7 @@ But alas, I didn't get around to talking about the duality between
 syntax and semantics. For that Lawvere's original thesis is a good
 place to go:
 
-16\) F. William Lawvere, Functorial Semantics of Algebraic Theories,
+16) F. William Lawvere, Functorial Semantics of Algebraic Theories,
 Ph.D. thesis, Columbia University, 1963. Also available at
 `http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html`
 
@@ -493,7 +493,7 @@ thesis, way back in 1977, he studied what one might call "weak
 cartesian closed 2-categories" arising from proof theory. You can read
 an account of this work here:
 
-17\) R.A.G. Seely, Weak adjointness in proof theory, in Proc. Durham
+17) R.A.G. Seely, Weak adjointness in proof theory, in Proc. Durham
 Conf. on Applications of Sheaves, Springer Lecture Notes in Mathematics
 753, Springer, Berlin, 1979, pp. 697-701. Also available at
 `http://www.math.mcgill.ca/rags/WkAdj/adj.pdf`
@@ -509,7 +509,7 @@ n-categories and the geometry of proofs, the mathematician Vladimir
 Voevodsky was giving some talks at Stanford about something that sounds
 pretty similar:
 
-17\) Vladimir Voevodsky, lectures on homotopy λ calculus, notice at
+17) Vladimir Voevodsky, lectures on homotopy λ calculus, notice at
 `http://math.stanford.edu/distinguished_voevodsky.htm`
 
 Voevodsky has thought hard about $n$-categories, and he won the Fields
@@ -531,7 +531,7 @@ II_1 factor!) in logic, and Peter Selinger's talk on the category of
 completely positive maps, diagrammatic methods for dealing with these
 maps, and their applications to quantum logic:
 
-18\) Peter Selinger, Dagger compact closed categories and completely
+18) Peter Selinger, Dagger compact closed categories and completely
 positive maps, available at
 `http://www.mscs.dal.ca/~selinger/papers.html`
 

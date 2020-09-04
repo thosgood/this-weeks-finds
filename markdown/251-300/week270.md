@@ -15,7 +15,7 @@ much closer. This was taken in 2000 by the Galileo probe:
 [![](io_lava.jpg)](http://apod.nasa.gov/apod/ap000606.html)
 :::
 
-1\) A continuous eruption on Jupiter's moon Io, Astronomy Picture of
+1) A continuous eruption on Jupiter's moon Io, Astronomy Picture of
 the Day, `http://apod.nasa.gov/apod/ap000606.html`
 
 Here we see a vast plain of sulfur and silicate rock, 250 kilometers
@@ -29,7 +29,7 @@ reviewer put it - Greg Egan is your man. His latest novel is one of the
 most realistic evocations of the distant future I've ever read. Check
 out the website:
 
-2\) Greg Egan, Incandescence, Night Shade Books, 2008. Website at
+2) Greg Egan, Incandescence, Night Shade Books, 2008. Website at
 `http://www.gregegan.net/INCANDESCENCE/Incandescence.html`
 
 The story features two parallel plots. One is about a galaxy-spanning
@@ -182,7 +182,7 @@ Willerton. I'd been invited to the University of Glasgow to give a
 series of talks called the 2008 Rankin Lectures. I spoke about my three
 favorite numbers, and you can see the slides here:
 
-3\) John Baez, My favorite numbers, available at
+3) John Baez, My favorite numbers, available at
 `http://math.ucr.edu/home/baez/numbers/`
 
 I wanted to explain how different numbers have different personalities
@@ -207,14 +207,14 @@ especially when he started pulling out the unusual variants that he
 collects, eagerly explaining their subtleties. My favorite was the
 Rubik's dodecahedron, or "Megaminx":
 
-4\) Wikipedia, Megaminx, `http://en.wikipedia.org/wiki/Megaminx`
+4) Wikipedia, Megaminx, `http://en.wikipedia.org/wiki/Megaminx`
 
 Then I got to thinking: it would be even better to have a Rubik's
 icosahedron, since its symmetries would then include M~12~, the smallest
 Mathieu group. And it turns out that such a gadget exists! It's called
 "Dogic":
 
-5\) Wikipedia, Dogic, `http://en.wikipedia.org/wiki/Dogic`
+5) Wikipedia, Dogic, `http://en.wikipedia.org/wiki/Dogic`
 
 The Mathieu group M~12~ is the smallest of the sporadic finite simple
 groups. Someday I'd like to understand the Monster, which is the
@@ -268,7 +268,7 @@ for somebody to take them home. I took one that explains how Mathieu
 groups arise as symmetries of "[Steiner
 systems](http://en.wikipedia.org/wiki/Steiner_system)":
 
-6\) Thomas Beth, Dieter Jungnickel, and Hanfried Lenz, Design Theory,
+6) Thomas Beth, Dieter Jungnickel, and Hanfried Lenz, Design Theory,
 Cambridge U. Press, Cambridge, 1986.
 
 Here's how they get M~12~. Take a 12-point set and think of it as the
@@ -312,7 +312,7 @@ nice interaction between the magic powers of the number 5 and those of
 the number 8. After my talk, Christian Korff from the University of
 Glasgow showed me a paper that fits this relation into a bigger pattern:
 
-7\) Andreas Fring and Christian Korff, Non-crystallographic reduction of
+7) Andreas Fring and Christian Korff, Non-crystallographic reduction of
 Calogero-Moser models, Jour. Phys. A 39 (2006), 1115-1131. Also
 available as
 [`arXiv:hep-th/0509152`](http://arxiv.org/abs/hep-th/0509152).
@@ -486,11 +486,11 @@ modular forms. I explained this back in ["Week 125"](#week125). I
 recently ran into these papers describing yet another curious property
 of the number 12, also related to modular forms, but very easy to state:
 
-8\) Bjorn Poonen and Fernando Rodriguez-Villegas, Lattice polygons and
+8) Bjorn Poonen and Fernando Rodriguez-Villegas, Lattice polygons and
 the number 12. Available at
 `http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.43.2555`
 
-9\) John M. Burns and David O'Keeffe, Lattice polygons in the plane and
+9) John M. Burns and David O'Keeffe, Lattice polygons in the plane and
 the number 12, Irish Math. Soc. Bulletin 57 (2006), 65-68. Also
 available at `http://www.maths.tcd.ie/pub/ims/bull57/M5700.pdf`
 

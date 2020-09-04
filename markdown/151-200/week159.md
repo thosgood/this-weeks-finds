@@ -3,7 +3,7 @@
 Today I want to continue talking about 11d supergravity. I mainly want
 to describe this paper:
 
-1\) Yi Ling and Lee Smolin, Eleven dimensional supergravity as a
+1) Yi Ling and Lee Smolin, Eleven dimensional supergravity as a
 constrained topological field theory, available as
 [hep-th/0003285](http://xxx.lanl.gov/abs/hep-th/0003285).
 
@@ -12,12 +12,12 @@ starting from a kind of BF theory and then imposing constraints, very
 much like Plebanski's formulation of ordinary gravity in 4d spacetime.
 Recall that in Plebanski's formalism, we start with:
 
-a\) a Lorentz connection A, which can locally be thought of as a 1-form
+a) a Lorentz connection A, which can locally be thought of as a 1-form
 taking values in the Lie algebra of the Lorentz group,
 
 and:
 
-b\) a field B, which can locally be thought of as a 2-form valued in the
+b) a field B, which can locally be thought of as a 2-form valued in the
 Lie algebra of the Lorentz group.
 
 We get a topological field theory by using the Lagrangian
@@ -44,13 +44,13 @@ action with respect to it, we get zero iff B = e \^ e.
 Similarly, in Ling and Smolin's formulation of 11d supergravity we
 start with:
 
-a\) a super-Poincare superconnection A, which can locally be described
+a) a super-Poincare superconnection A, which can locally be described
 as a 1-form taking values in the super-Lie algebra of the super-Poincare
 group - or "super-Poincare algebra", for short.
 
-b\) a 3-form C.
+b) a 3-form C.
 
-c\) a 6-form D.
+c) a 6-form D.
 
 We think of all three of these as "gauge fields". I already mentioned
 in ["Week 157"](#week157) how a p-form can be viewed as a
@@ -153,7 +153,7 @@ supergravity is really like. If we work locally, we can think of this as
 a 1-form taking values in the super-Poincare algebra. Thus it really
 consists of 3 parts:
 
-a\) a 1-form taking values in the Lorentz Lie algebra so(10,1). This is
+a) a 1-form taking values in the Lorentz Lie algebra so(10,1). This is
 secretly the "spin connection" in the usual formulation of 11d
 supergravity, as described last week.
 
@@ -189,26 +189,26 @@ topological field theory - there's also an extra interaction.
 By the way, if you've never seen the Plebanski formulation of 4d
 gravity as a constrained BF theory, here's the original paper:
 
-2\) M. J. Plebanski, On the separation of Einsteinian substructures, J.
+2) M. J. Plebanski, On the separation of Einsteinian substructures, J.
 Math. Phys. 18 (1977), 2511.
 
 Ling and Smolin's formulation of 11d supergravity is related to some
 work of Fre and collaborators, which I haven't read yet:
 
-3\) Pietro Fre, Comments on the six index photon in D = 11, preprint
+3) Pietro Fre, Comments on the six index photon in D = 11, preprint
 TH-3884-CERN.
 
-4\) R. D'Auria and P. Fre, Geometric supergravity in D = 11 and its
+4) R. D'Auria and P. Fre, Geometric supergravity in D = 11 and its
 hidden supergroup, Nucl. Phys. B201 (1982), 101. Erratum, Nucl. Phys.
 B206 (182), 496.
 
-5\) L. Castellani, P. Fre and P. van Nieuwenhuizen, A review of the
+5) L. Castellani, P. Fre and P. van Nieuwenhuizen, A review of the
 group manifold approach and its applications to conformal supergravity,
 Ann. Phys. 136 (1981), 398.
 
 Here's another formulation of 11d supergravity I'd like to check out:
 
-6\) Martin Cederwall, Ulf Gran, Mikkel Nielsen, and Bengt Nillson,
+6) Martin Cederwall, Ulf Gran, Mikkel Nielsen, and Bengt Nillson,
 Generalised 11-dimensional supergravity, available as
 [hep-th/0010042](http://xxx.lanl.gov/abs/hep-th/0010042).
 
@@ -334,11 +334,11 @@ rotation/boost generators (i.e. the Lorentz Lie algebra, or rotation Lie
 algebra), translation generators (i.e. vectors) and supertranslation
 generators (i.e. spinors) are the essential ingredient for constructing:
 
-a\) the super-Poincare algebra
+a) the super-Poincare algebra
 
-b\) the division algebras R, C, H and O
+b) the division algebras R, C, H and O
 
-c\) the exceptional Lie algebras F4, E6, E7 and E8
+c) the exceptional Lie algebras F4, E6, E7 and E8
 
 So it's not really odd to expect relations between these three things!
 

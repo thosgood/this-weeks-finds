@@ -23,7 +23,7 @@ dust clouds:
 [![](milky_way_axel_mellinger.jpg){width="700"}](milky_way_axel_mellinger.jpg)
 :::
 
-1\) Axel Mellinger, All-sky Milky Way panorama 2.0,
+1) Axel Mellinger, All-sky Milky Way panorama 2.0,
 `http://home.arcor.de/axel.mellinger/`
 
 You can see even more structure in this infrared panorama of the Milky
@@ -33,7 +33,7 @@ Way, created by the Spitzer Space Telescope:
 [![](milky_way_small.jpg){width="700"}](milky_way.html)
 :::
 
-2\) Astronomy Picture of the Day, GLIMPSE the Milky Way,
+2) Astronomy Picture of the Day, GLIMPSE the Milky Way,
 `http://apod.nasa.gov/apod/ap051216.html`
 
 The bright white splotches are star-forming regions. The greenish wisps
@@ -49,7 +49,7 @@ light:
 [![](andromeda_ultraviolet_swift.jpg){width="700"}](http://apod.nasa.gov/apod/image/0909/UVAndromeda_swiftH600.jpg)
 :::
 
-3\) Astronomy Picture of the Day, Ultraviolet Andromeda,
+3) Astronomy Picture of the Day, Ultraviolet Andromeda,
 `http://apod.nasa.gov/apod/ap090917.html`
 
 This was taken by Swift, NASA's ultraviolet satellite telescope. At
@@ -66,7 +66,7 @@ This continues the tale begun in ["Week 236"](#week236) and
 ["Week 241"](#week241). Someday it'll get folded into a paper on
 special properties of the number 5, and 5-fold symmetry:
 
-4\) John Baez, Who discovered the icosahedron?, talk at the Special
+4) John Baez, Who discovered the icosahedron?, talk at the Special
 Session on History and Philosophy of Mathematics, 2009 Fall Western
 Section Meeting of the AMS, November 7, 2009. Available at
 `http://math.ucr.edu/home/baez/icosahedron/`
@@ -374,13 +374,13 @@ Here are some references:
 The quote from Benno Artmann appeared in a copy of the AMS Bulletin
 where the cover illustrates a construction of the icosahedron:
 
-5\) Benno Artmann, About the cover: the mathematical conquest of the
+5) Benno Artmann, About the cover: the mathematical conquest of the
 third dimension, Bulletin of the AMS, 43 (2006), 231-235. Also available
 at `http://www.ams.org/bull/2006-43-02/S0273-0979-06-01111-6/`
 
 For more, try this wonderfully entertaining book:
 
-6\) Benno Artmann, Euclid - The Creation of Mathematics, Springer, New
+6) Benno Artmann, Euclid - The Creation of Mathematics, Springer, New
 York, 2nd ed., 2001. (The material on the icosahedron is not in the
 first edition.)
 
@@ -390,79 +390,79 @@ A great book for anyone interested in math!
 
 I should also get ahold of this someday:
 
-7\) Benno Artmann, Antike Darstellungen des Ikosaeders, Mitt. DMV 13
+7) Benno Artmann, Antike Darstellungen des Ikosaeders, Mitt. DMV 13
 (2005), 45-50.
 
 Heath's translation of and commentary on Euclid's Elements is
 available online thanks to the Perseus Project. The scholium crediting
 Theatetus for the octahedron and icosahedron is discussed here:
 
-8\) Euclid, Elements, trans. Thomas L. Heath, Book XIII, Historical
+8) Euclid, Elements, trans. Thomas L. Heath, Book XIII, Historical
 Note, p. 438. Also available at
 `http://old.perseus.tufts.edu/cgi-bin/ptext?doc=Perseus%3Atext%3A1999.01.0086&query=head%3D%23566`
 
 while the textual history of the Elements is discussed here:
 
-9\) Euclid, Elements, trans. Thomas L. Heath, Chapter 5: The Text, p.
+9) Euclid, Elements, trans. Thomas L. Heath, Chapter 5: The Text, p.
 46. Also available at
 `http://old.perseus.tufts.edu/cgi-bin/ptext?lookup=Euc.+5`
 
 Anyone interested in Greek mathematics also needs these books by Heath,
 now available cheap from Dover:
 
-10\) Thomas L. Heath, A History of Greek Mathematics. Vol. 1: From
+10) Thomas L. Heath, A History of Greek Mathematics. Vol. 1: From
 Thales to Euclid. Vol. 2: From Aristarchus to Diophantus. Dover
 Publications, 1981.
 
 The long quote by Waterhouse comes from here:
 
-11\) William C. Waterhouse, The discovery of the regular solids, Arch.
+11) William C. Waterhouse, The discovery of the regular solids, Arch.
 Hist. Exact Sci. 9 (1972-1973), 212-221.
 
 I haven't yet gotten my hold on this "thorough study" mentioned by
 Waterhouse - but I will soon:
 
-12\) Eva Sachs, Die Fünf Platonischen Körper, zur Geschichte der
+12) Eva Sachs, Die Fünf Platonischen Körper, zur Geschichte der
 Mathematik und der Elementenlehre Platons und der Pythagoreer, Berlin,
 Weidmann, 1917.
 
 I also want to find this discussion of how Peyrard got ahold of the
 non-Theonine copy of Euclid's Elements:
 
-13\) N. M. Swerlow, The Recovery of the exact sciences of antiquity:
+13) N. M. Swerlow, The Recovery of the exact sciences of antiquity:
 mathematics, astronomy, geography, in Rome Reborn: The Vatican Library
 and Renaissance Culture, ed. Grafton, 1993.
 
 Here is Atiyah and Sutcliffe's paper claiming that the Ashmolean has
 Scottish stone balls shaped like Platonic solids:
 
-14\) Michael Atiyah and Paul Sutcliffe, Polyhedra in physics, chemistry
+14) Michael Atiyah and Paul Sutcliffe, Polyhedra in physics, chemistry
 and geometry, available as
 [`arXiv:math-ph/0303071`](http://arxiv.org/abs/math-ph/0303071).
 
 Here is le Bruyn's critical examination of that claim:
 
-15\) Lieven le Bruyn, The Scottish solids hoax, March 25, 2009,
+15) Lieven le Bruyn, The Scottish solids hoax, March 25, 2009,
 `http://www.neverendingbooks.org/index.php/the-scottish-solids-hoax.html`
 
 Here are the books by Critchlow and Lawlor -speculative books from the
 "sacred geometry" tradition:
 
-16\) Keith Critchlow, Time Stands Still, Gordon Fraser, London, 1979.
+16) Keith Critchlow, Time Stands Still, Gordon Fraser, London, 1979.
 
-17\) Robert Lawlor, Sacred Geometry: Philosophy and Practice, Thames and
+17) Robert Lawlor, Sacred Geometry: Philosophy and Practice, Thames and
 Hudson, London, 1982. Available at
 `http://www.scribd.com/doc/13155707/robert-lawlor-sacred-geometry-philosophy-and-practice-1982`
 
 Here's the Ashmolean website:
 
-18\) British Archaeology at the Ashmolean Museum, Highlights of the
+18) British Archaeology at the Ashmolean Museum, Highlights of the
 British collections: stone balls,
 `http://ashweb2.ashmus.ox.ac.uk/ash/britarch/highlights/stone-balls.html`
 
 and here's Dorothy Marshall's paper on stone balls:
 
-19\) Dorothy N. Marshall, Carved stone balls, Proc. Soc. Antiq.
+19) Dorothy N. Marshall, Carved stone balls, Proc. Soc. Antiq.
 Scotland, 108 (1976/77), 40-72. Available at
 `http://www.tarbat-discovery.co.uk/Learning%20Files/Carved%20stone%20balls.pdf`
 
@@ -632,7 +632,7 @@ axiomatic geometry back around 300 BC! How did they do it?
 
 For this, let's turn to
 
-20\) Ian Mueller, Philosophy of Mathematics and Deductive Structure in
+20) Ian Mueller, Philosophy of Mathematics and Deductive Structure in
 Euclid's Elements, MIT Press, Cambridge Massachusetts, 1981.
 
 This is reputed to be be the most thorough investigation of the logical

@@ -452,7 +452,7 @@ Pascal's triangle and this "UV = qVU" business.
 
 Here's the best place to learn the history of Pascal's triangle:
 
-1\) A. W. F. Edwards, Pascal's Arithmetical Triangle, Charles Griffin
+1) A. W. F. Edwards, Pascal's Arithmetical Triangle, Charles Griffin
 and Co., London, 1987.
 
 You'll see that the basic idea of Pascal's triangle goes back to
@@ -521,12 +521,12 @@ a charged particle on the plane in a magnetic field. Jean Belissard has
 used this to relate the fractional quantum Hall effect to the K-theory
 of the noncommutative torus:
 
-2\) Jean Bellisard, K-theory of C*-algebras in solid state physics, in
+2) Jean Bellisard, K-theory of C*-algebras in solid state physics, in
 Lecture Notes in Physics vol. 237, Springer, Berlin, 1986, pp. 99-156.
 
 Connes has also studied these matters:
 
-3\) Alain Connes, Noncommutative Geometry, Academic Press, New York,
+3) Alain Connes, Noncommutative Geometry, Academic Press, New York,
 1994.
 
 More recently, string theorists have done a bunch of physics on the
@@ -534,13 +534,13 @@ noncommutative torus! The reason is that string theory includes a 2-form
 field "B" which is similar in some ways to the magnetic field. For an
 overview of this with lots of references try:
 
-4\) Richard Szabo, Quantum field theory on noncommutative spaces,
+4) Richard Szabo, Quantum field theory on noncommutative spaces,
 available as [hep-th/0109162](http://xxx.lanl.gov/abs/hep-th/0109162).
 
 On the other hand, if you're more of a pure mathematician you might
 like this:
 
-5\) Marc Rieffel, Noncommutative tori: a case study of noncommutative
+5) Marc Rieffel, Noncommutative tori: a case study of noncommutative
 differential manifolds, in Geometric and topological invariants of
 elliptic operators Contemp. Math. 105, American Mathematical Society,
 1990, pp. 191-211.

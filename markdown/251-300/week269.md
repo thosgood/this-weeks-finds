@@ -25,7 +25,7 @@ out by Pele, the biggest volcano on Io:
 [![](io_three_views_small.jpg)](io_three_views.jpg)
 :::
 
-1\) NASA Photojournal, Three views of Io,
+1) NASA Photojournal, Three views of Io,
 `http://photojournal.jpl.nasa.gov/catalog/PIA00292`
 
 Io is big on sulfur. It has lakes of molten sulfur... pale sulfur
@@ -37,7 +37,7 @@ spacecraft in 1997:
 [![](io_prometheus_plume.jpg){width="500"}](io_prometheus_plume.jpg)
 :::
 
-2\) Astronomy Picture of the Day, Io: the Prometheus plume,
+2) Astronomy Picture of the Day, Io: the Prometheus plume,
 `http://apod.nasa.gov/apod/ap070211.html`
 
 At the top horizon you can see a cloud of bluish-white haze. It may not
@@ -74,7 +74,7 @@ National Aquatics Center - a building also called the "Water Cube":
 ![](water_cube.jpg)
 :::
 
-3\) Spectacular mathematical bubble design at the Olympics, Math in the
+3) Spectacular mathematical bubble design at the Olympics, Math in the
 News, Mathematical Association of America, August 8, 2008,
 `http://mathdl.maa.org/mathDL?pa=mathNews&sa=view&newsId=392`
 
@@ -119,11 +119,11 @@ a proof so complicated that the referees "ran out of energy" trying to
 check it. That's quite a tale in itself... but to avoid an infinite
 sequence of nested digressions, I'll refer you to these:
 
-4\) George G. Szpiro, Kepler's Conjecture, John Wiley and Sons, 2003.
+4) George G. Szpiro, Kepler's Conjecture, John Wiley and Sons, 2003.
 Reviewed by Frank Morgan in Notices Amer. Math. Soc. 52 (2005), 44-47.
 Also available at `http://www.ams.org/notices/200501/rev-morgan.pdf`
 
-5\) Thomas Hales, The Kepler Conjecture,
+5) Thomas Hales, The Kepler Conjecture,
 `http://www.math.pitt.edu/~thales/kepler98/`
 
 Anyway, after Hales proved the Kepler Conjecture, Denis Weaire suggested
@@ -131,14 +131,14 @@ that he tackle the Hexagonal Honeycomb Conjecture - and Hales promptly
 solved that too! He said, "In contrast with the years of forced labor
 that gave the Kepler Conjecture, I felt as if I had won the lottery."
 
-6\) Thomas C. Hales, The Honeycomb Conjecture,
+6) Thomas C. Hales, The Honeycomb Conjecture,
 `http://www.math.pitt.edu/~thales/kepler98/honey/`
 
 Hales wasn't the first to make progress on the Hexagonal Honeycomb
 Conjecture. A guy named Fejes Tth had already proved it's true if we
 assume the cells are polygons:
 
-7\) L. Fejes Tth, Regular Figures, Macmillan, New York, 1964.
+7) L. Fejes Tth, Regular Figures, Macmillan, New York, 1964.
 
 So what Hales had to do is rule out cells with curved edges. This is
 harder than you might think. In fact, for clusters of finitely many
@@ -148,14 +148,14 @@ cells, the optimal shapes can be curved, even near the middle!
 ![](optimal_bubble_clusters.jpg)
 :::
 
-7\) S. J. Cox, M. Fatima Vas, C. Monnereua-Pittet and N. Pittet, Minimal
+7) S. J. Cox, M. Fatima Vas, C. Monnereua-Pittet and N. Pittet, Minimal
 perimeter for N identical bubbles in two dimensions: calculations and
 simulations, Phil. Mag. 83 (2003), 1393-1406.
 
 Another thing Tth did is carefully define the 3d optimization problem
 that bees might be trying to solve, and find a slightly better solution:
 
-9\) L. Fejes Tth, What the bees know and what the bees do not know,
+9) L. Fejes Tth, What the bees know and what the bees do not know,
 Bull. Amer. Math. Soc. 70 (1964), 468-481. Also available at
 `http://projecteuclid.org/euclid.bams/1183526078`
 
@@ -213,7 +213,7 @@ octahedra, as shown here:
 ![](440px-Bitruncated_Cubic_Honeycomb.svg.png){width="400"}
 :::
 
-9\) Wikipedia, Bitruncated cubic honeycomb,
+9) Wikipedia, Bitruncated cubic honeycomb,
 `http://en.wikipedia.org/wiki/Bitruncated_cubic_honeycomb`
 
 I say "very similar" because it's actually more efficient if you let
@@ -241,7 +241,7 @@ and curiosity knows no bounds.
 
 You can read Kelvin's paper here:
 
-10\) Lord Kelvin, On the division of space with minimum partitional
+10) Lord Kelvin, On the division of space with minimum partitional
 area, Phil. Mag. 24 (1887), 503. Also available at
 `http://zapatopi.net/kelvin/papers/on_the_division_of_space.html`
 
@@ -262,7 +262,7 @@ solution that has 0.3% less surface area! It looks like this:
 ![](320px-12-14-hedral_honeycomb.png)
 :::
 
-11\) Wikipedia, Weaire-Phelan structure,
+11) Wikipedia, Weaire-Phelan structure,
 [http://en.wikipedia.org/wiki/Weaire--Phelan_structure](http://en.wikipedia.org/wiki/Weaire%E2%80%93Phelan_structure)
 
 It's built from *two* kinds of cells - a 12-sided one and a 14-sided
@@ -287,7 +287,7 @@ structure!
 ![](gas_hydrate_structures.jpg)
 :::
 
-12\) Wikipedia, Clathrate hydrate,
+12) Wikipedia, Clathrate hydrate,
 `http://en.wikipedia.org/wiki/Clathrate_hydrate`
 
 So, it's nicely appropriate to use the Weaire-Phelan structure for a
@@ -317,14 +317,14 @@ More generally, minimal surface theory is a lively subject that uses a
 lot of deep tools. Morgan is really big on explaining math, so his book
 is probably the place to start if you want to dig deeper:
 
-13\) Frank Morgan, Geometric Measure Theory: a Beginner's Guide,
+13) Frank Morgan, Geometric Measure Theory: a Beginner's Guide,
 Academic Press, New York, 2000.
 
 Personally, I'm more in love with symmetry than minimization. So, I
 want to learn more about the 28 "convex uniform honeycombs" - ways of
 uniformly packing 3d space with uniform solids:
 
-14\) Wikipedia, Convex uniform honeycomb,
+14) Wikipedia, Convex uniform honeycomb,
 `http://en.wikipedia.org/wiki/Convex_uniform_honeycomb`
 
 They're related to Coxeter groups and "crystallographic groups",

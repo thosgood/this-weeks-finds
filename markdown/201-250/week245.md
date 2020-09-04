@@ -35,7 +35,7 @@ everything is as close to mathematician's heaven as could be expected.
 Eugenia Cheng, Peter May and I ran a workshop at the Fields Institute
 from January 9th to 13th:
 
-1\) Higher Categories and Their Applications,
+1) Higher Categories and Their Applications,
 `http://math.ucr.edu/home/baez/fields/`
 
 You can see photos of people and abstracts of their talks at this site.
@@ -141,7 +141,7 @@ ones!
 There are, alas, some deficiencies in the semistrict world, which Steve
 Lack has recently noted:
 
-2\) Steve Lack, Bicat is not triequivalent to Gray, available as
+2) Steve Lack, Bicat is not triequivalent to Gray, available as
 [math.CT/0612299](http://xxx.lanl.gov/abs/math.CT/0612299).
 
 To understand this, you may need a little warmup. Given strict
@@ -220,7 +220,7 @@ i: Strict2Cat \to Weak2Cat
 where now we think of both Strict2Cat and Weak2Cat as mere 1-categories.
 You can read more about this idea here:
 
-3\) Miles Gould, Coherence for categorified operadic theories, available
+3) Miles Gould, Coherence for categorified operadic theories, available
 as [math.CT/0607423](http://xxx.lanl.gov/abs/math.CT/0607423).
 
 On Tuesday night, Mike Shulman gave an introduction to model categories,
@@ -229,7 +229,7 @@ homotopy theory and homological algebra. If you want to understand the
 basics of model categories, you should probably start by listening to
 his talk, and then read this:
 
-4\) W. G. Dwyer and J. Spalinski, Homotopy theories and model
+4) W. G. Dwyer and J. Spalinski, Homotopy theories and model
 categories, available at
 http://hopf.math.purdue.edu/Dwyer-Spalinski/theories.pdf
 
@@ -289,7 +289,7 @@ Hypothesis": Grothendieck's idea that homotopy theory was secretly
 about \infty-groupoids - that is, \infty-categories where all the j-morphisms have
 weak inverses.
 
-5\) John Baez, The homotopy hypothesis,
+5) John Baez, The homotopy hypothesis,
 `http://math.ucr.edu/home/baez/homotopy/`
 
 Part of the idea is that if you hand me a space X, I can cook up an
@@ -355,28 +355,28 @@ the category of spaces.
 But, there's only been a little study of this sort of "meta-homotopy
 theory" so far. For example:
 
-6\) Julie Bergner, Three models for the homotopy theory of homotopy
+6) Julie Bergner, Three models for the homotopy theory of homotopy
 theories, available as
 [math.AT/0504334](http://arxiv.org/abs/math.AT/0504334).
 
 After my talk, Simona Paoli spoke about her work on turning the homotopy
 hypothesis from a dream into a reality:
 
-7\) Simona Paoli, Semistrict models of connected 3-types and
+7) Simona Paoli, Semistrict models of connected 3-types and
 Tamsamani's weak 3-groupoids, available as
 [math.AT/0607330](http://arxiv.org/abs/math.AT/0607330).
 
-8\) Simona Paoli, Semistrict Tamsamani $n$-groupoids and connected
+8) Simona Paoli, Semistrict Tamsamani $n$-groupoids and connected
 n-types, available as
 [math.AT/0701655](http://arxiv.org/abs/math.AT/0701655).
 
 Eugenia Cheng then spent the afternoon leading us through another
 approach:
 
-9\) Clemens Berger, A cellular nerve for higher categories, available at
+9) Clemens Berger, A cellular nerve for higher categories, available at
 `http://citeseer.ist.psu.edu/383423.html`
 
-10\) Denis-Charles Cisinski, Batanin higher groupoids and homotopy
+10) Denis-Charles Cisinski, Batanin higher groupoids and homotopy
 types, available as
 [math.AT/0604442](http://arxiv.org/abs/math.AT/0604442).
 
@@ -387,7 +387,7 @@ day of the workshop... I must hurry on.
 On Wednesday evening, Peter May spoke about some applications of weak
 2-categories that appear in his new book:
 
-11\) Peter May and J. Sigurdsson, Parametrized Homotopy Theory, American
+11) Peter May and J. Sigurdsson, Parametrized Homotopy Theory, American
 Mathematical Society, 2006.
 
 The rough idea is that we have a weak 2-category with:
@@ -408,7 +408,7 @@ simplicial sets with a certain property: now they're called "Kan
 complexes". They're very popular among homotopy theorists. You can
 read about them here:
 
-12\) Paul G. Goerss and J. F. Jardine, Simplicial Homotopy Theory,
+12) Paul G. Goerss and J. F. Jardine, Simplicial Homotopy Theory,
 Birkhäuser, Basel, 1999.
 
 Given this, it's not so surprising that we can describe
@@ -433,14 +433,14 @@ these model categories were "Quillen equivalent".
 
 For details, listen to her talk or try this paper:
 
-13\) Julie Bergner, A survey of (\infty, 1)-categories, available as
+13) Julie Bergner, A survey of (\infty, 1)-categories, available as
 [math.AT/0610239](http://arxiv.org/abs/math.AT/0610239).
 
 In the afternoon, André Joyal spoke about quasicategories. I urge you to
 listen to his talk and also the minicourse he later gave on this
 subject:
 
-14\) André Joyal, Graduate course on basic aspects of quasicategories,
+14) André Joyal, Graduate course on basic aspects of quasicategories,
 `http://www.fields.utoronto.ca/audio/#crs-quasibasic`
 
 I can't possibly summarize this stuff! It basically amounts to taking
@@ -461,7 +461,7 @@ Finally, Dorette Pronk spoke about weak 2-categories and weak
 3-categories of fractions. The notion of a "calculus of fractions"
 goes back at least to the work of Gabriel and Zisman in 1967:
 
-15\) P. Gabriel and M. Zisman, Categories of Fractions and Homotopy
+15) P. Gabriel and M. Zisman, Categories of Fractions and Homotopy
 Theory, Springer-Verlag, Berlin, 1967.
 
 Say you have a category and you want to throw in formal inverses to some
@@ -484,7 +484,7 @@ Dorette Pronk has been looking at how all this generalizes when you have
 a weak 2-category or weak 3-category and you throw in *weak* inverses to
 some morphisms. This has some interesting applications to stacks:
 
-16\) Dorette A. Pronk, Etendues and stacks as bicategories of fractions,
+16) Dorette A. Pronk, Etendues and stacks as bicategories of fractions,
 Compositio Mathematica, 102 (1996), 243-303. Also available at
 `http://www.numdam.org/numdam-bin/recherche?h=nc&id=CM_1996__102_3_243_0`
 
@@ -510,7 +510,7 @@ transparencies, but his talk was actually quite nice.
 And if you like higher-dimensional diagrams anywhere near as much as I
 do, you've got to take a look at Willerton's slides:
 
-17\) Simon Willerton, The diagrammatics of Hopf monads,
+17) Simon Willerton, The diagrammatics of Hopf monads,
 `http://math.ucr.edu/home/baez/fields/willerton/`
 
 Again the talks ended at 9 pm.
@@ -518,7 +518,7 @@ Again the talks ended at 9 pm.
 Finally, on Saturday morning, spoke about Frobenius algebras and their
 relation to Khovanov homology:
 
-18\) Aaron Lauda, Frobenius algebras, quantum topology and higher
+18) Aaron Lauda, Frobenius algebras, quantum topology and higher
 categories, available at
 `http://www.math.columbia.edu/~lauda/talks/Fields/`
 
@@ -533,7 +533,7 @@ Speaking of the *n*-Category Café - after the workshop ended, Bruce
 Bartlett interviewed Urs and me about this blog, which we run together
 with David Corfield. You can see the interview here:
 
-19\) John Baez and Urs Schreiber, Interview by Bruce Bartlett,
+19) John Baez and Urs Schreiber, Interview by Bruce Bartlett,
 `http://math.ucr.edu/home/baez/interview2.html`
 
 ------------------------------------------------------------------------

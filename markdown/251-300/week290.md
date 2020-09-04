@@ -37,7 +37,7 @@ take a long time for more people to get interested in the blend of
 there's a common stereotype that says mathematicians who like
 categories hate analysis, and vice versa. But I was wrong:
 
-1\) Goncalo Rodrigues, Categorifying measure theory: a roadmap,
+1) Goncalo Rodrigues, Categorifying measure theory: a roadmap,
 available as [`arXiv:0912.4914`](http://arxiv.org/abs/0912.4914).
 
 Read both papers together and you'll get a sense of how much there is
@@ -418,7 +418,7 @@ equation this way. I think we need to write it a bit differently!
 In fact, I was quite confused until Tim van Beek pointed me to a nice
 discussion of this issue here:
 
-2\) Bernard Brogliato, Rogelio Lozano, Bernhard Maschke and Olav
+2) Bernard Brogliato, Rogelio Lozano, Bernhard Maschke and Olav
 Egeland, Dissipative Systems Analysis and Control: Theory and
 Applications, 2nd edition, Springer, Berlin, 2007.
 
@@ -458,16 +458,16 @@ that describes physical systems built from $n$-ports.
 
 For more on port-controlled Hamiltonian systems, this book recommends:
 
-3\) B. M. Maschke and A. J. van der Schaft, Port controlled Hamiltonian
+3) B. M. Maschke and A. J. van der Schaft, Port controlled Hamiltonian
 systems: modeling origins and system theoretic properties, in
 Proceedings of the 2nd IFAC Symp. on Nonlinear Control Systems Design,
 NOLCOS'92 (1992), pp. 282-288,
 
-4\) B. M. Maschke and A. J. van der Schaft, The Hamiltonian formulation
+4) B. M. Maschke and A. J. van der Schaft, The Hamiltonian formulation
 of energy conserving physical systems with ports, Archiv fur Elektronik
 und Ubertragungstechnik 49 (1995), 362-371.
 
-5\) A. J. van der Schaft, L^2-gain and Passivity Techniques in
+5) A. J. van der Schaft, L^2-gain and Passivity Techniques in
 Nonlinear Control, 2nd edition, Springer, Berlin, 2000.
 
 So, I need I learn more about this stuff, and then explain it to you.
@@ -592,7 +592,7 @@ the sizes of various "finite simple groups". These are the building
 blocks from which all finite groups can be built. You can see a list of
 them here:
 
-6\) Wikipedia, Finite simple groups,
+6) Wikipedia, Finite simple groups,
 `http://en.wikipedia.org/wiki/List_of_finite_simple_groups`
 
 There are 16 infinite families and 26 exceptions, called "sporadic"
@@ -662,7 +662,7 @@ finite simple groups. Anyway, here we go:
 
 If you like this sort of stuff, you might enjoy this essay:
 
-7\) John Baez, Why there are 63360 inches in a mile?,
+7) John Baez, Why there are 63360 inches in a mile?,
 `http://math.ucr.edu/home/baez/inches.html`
 
 It's a curious number:
@@ -681,7 +681,7 @@ side:
 [![](mars_dunes_with_cliff.jpg){width="500"}](http://hirise-pds.lpl.arizona.edu/PDS/EXTRAS/RDR/PSP/ORB_007900_007999/PSP_007962_2635/PSP_007962_2635_RED.abrowse.jpg)
 :::
 
-8\) HiRISE (High Resolution Imaging Science Experiments), Falling
+8) HiRISE (High Resolution Imaging Science Experiments), Falling
 material kicks up cloud of dust on dunes,
 `http://hirise.lpl.arizona.edu/PSP_007962_2635`
 

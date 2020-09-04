@@ -3,7 +3,7 @@
 Last week there was a big conference on quantum gravity at the Albert
 Einstein Institute near Berlin:
 
-1\) Loops '05, `http://loops05.aei.mpg.de`
+1) Loops '05, `http://loops05.aei.mpg.de`
 
 The focus was loop quantum gravity and spin foams, but there were also
 talks about other approaches, so it was much bigger than last year's
@@ -19,7 +19,7 @@ of planet Xena, and lots of other transneptunian objects.
 Actually, just for fun, let's start with this science fiction novel I
 picked up in Heathrow en route to Berlin:
 
-2\) Charles Stross, Accelerando, Ace Books, New York. Also available at
+2) Charles Stross, Accelerando, Ace Books, New York. Also available at
 `http://www.accelerando.org/book/`
 
 This is one of the few tales I've read that does a good job of fleshing
@@ -28,7 +28,7 @@ development of technology soars past human comprehension and undergoes a
 phase transition to a thoroughly different world. This is a real
 possibility, and it's been discussed a lot:
 
-3\) Wikipedia, Technological singularity,
+3) Wikipedia, Technological singularity,
 `http://en.wikipedia.org/wiki/Technological_singularity`
 
 Ray Kurzweil, The Singularity,
@@ -108,10 +108,10 @@ So, in October 2004 NASA launched Swift: a γ-ray detecting satellite
 equipped with an X-ray telescope and an ultraviolet/optical telescope
 that can respond quickly whenever a burst is seen:
 
-4\) Official NASA Swift homepage,
+4) Official NASA Swift homepage,
 `http://swift.gsfc.nasa.gov/docs/swift/swiftsc.html`
 
-5\) Gamma-ray burst real-time sky map, `http://grb.sonoma.edu/`
+5) Gamma-ray burst real-time sky map, `http://grb.sonoma.edu/`
 
 On May 9th, 2005, Swift detected a short burst and caught 11 photons of
 the burst's X-ray afterglow. Another short burst detected by HETE-II
@@ -119,7 +119,7 @@ had its X-ray afterglow caught by the Chandra X-ray satellite. Analysis
 of these and two more short bursts has convinced some scientists that
 they're caused by collisions between neutron stars and/or black holes:
 
-6\) D. B. Fox et al, The afterglow of GRB050709 and the nature of the
+6) D. B. Fox et al, The afterglow of GRB050709 and the nature of the
 short-hard γ-ray bursts, Nature 437 (October 2005), 849-850. Also
 available at `http://www.nasa.gov/pdf/135397main_nature_fox_final.pdf`
 
@@ -158,13 +158,13 @@ waves. I talked about this in ["Week 189"](#week189), but here's
 something new: now you can help them by running a cool screensaver
 called Einstein\@Home on your computer! Check it out:
 
-7\) Einstein\@Home, `http://einstein.phys.uwm.edu/`
+7) Einstein\@Home, `http://einstein.phys.uwm.edu/`
 
 Speaking of black holes, last month the Hubble Space Telescope and the
 Very Large Telescope in Chile detected a quasar that seems to have no
 host galaxy:
 
-8\) European Southern Observatory, Black hole in search of a home,
+8) European Southern Observatory, Black hole in search of a home,
 `http://www.eso.org/outreach/press-rel/pr-2005/pr-23-05.html`
 
 HubbleSite, Quasar without host galaxy compared with normal quasar,
@@ -202,7 +202,7 @@ height="300"}](%20http://www2.keck.hawaii.edu/optics/staff/mvandam/gabrielle)
 
 They nicknamed it Gabrielle, after this famous TV character's sidekick:
 
-9\) Michael E. Brown, The moon of the 10th planet,
+9) Michael E. Brown, The moon of the 10th planet,
 `http://www.gps.caltech.edu/~mbrown/planetlila/moon/index.html`
 
 If you hadn't heard about planet Xena, or you don't like the idea of
@@ -378,53 +378,53 @@ your friends by casually dropping some of this jargon:
 For a great introduction to the Kuiper belt and related topics, try
 this:
 
-10\) David C. Jewitt, Kuiper belt,
+10) David C. Jewitt, Kuiper belt,
 `http://www.ifa.hawaii.edu/faculty/jewitt/kb.html`
 
 For transneptunian objects in general, try:
 
-11\) William Robert Johnston, Transneptunian objects,
+11) William Robert Johnston, Transneptunian objects,
 `http://www.johnstonsarchive.net/astro/tnos.html`
 
 Also check out this newsletter:
 
-12\) Distant EKOs: the Kuiper Belt Electronic Newsletter,
+12) Distant EKOs: the Kuiper Belt Electronic Newsletter,
 `http://www.boulder.swri.edu/ekonews/`
 
 Quaoar was discovered in 2002 by Chad Trujillo and Mike Brown of
 Caltech:
 
-13\) Chad Trujillo, Quaoar, `http://www.gps.caltech.edu/~chad/quaoar/`
+13) Chad Trujillo, Quaoar, `http://www.gps.caltech.edu/~chad/quaoar/`
 
 For evidence of crystalline water ice on Quaoar, see:
 
-14\) David C. Jewitt and Jane Luu, Crystalline water ice on the Kuiper
+14) David C. Jewitt and Jane Luu, Crystalline water ice on the Kuiper
 belt object (50000) Quaoar, Nature 432 (2004), 731-733. Also available
 at `http://www.ifa.hawaii.edu/faculty/jewitt/quaoar.html`
 
 Xena was discovered in 2003 by Trujillo, Brown and a colleague of theirs
 at Yale University:
 
-15\) Michael E. Brown, Chad A. Trujillo and David L. Rabinowitz,
+15) Michael E. Brown, Chad A. Trujillo and David L. Rabinowitz,
 Discovery of a planetary-sized object in the scattered Kuiper belt,
 submitted to ApJ Letters, available at
 `http://www.gps.caltech.edu/%7Embrown/papers/ps/xena.pdf`
 
 Brown has a nice webpage about Xena and Gabrielle:
 
-16\) Michael E. Brown, The discovery of UB313, the 10th planet,
+16) Michael E. Brown, The discovery of UB313, the 10th planet,
 `http://www.gps.caltech.edu/~mbrown/planetlila/`
 
 The same gang of three also discovered Sedna in 2003:
 
-17\) Michael E. Brown, Chad A. Trujillo and David L. Rabinowitz,
+17) Michael E. Brown, Chad A. Trujillo and David L. Rabinowitz,
 Discovery of a candidate inner Oort cloud planetoid, to appear in ApJ
 Letters, available at
 [http://www.gps.caltech.edu/%7Embrown/papers/ps/sedna.pdf](http://www.gps.caltech.edu/~mbrown/papers/ps/sedna.pdf)
 
 ... and Brown has a fun Sedna webpage too:
 
-18\) Michael E. Brown, Sedna (2003 VB12),
+18) Michael E. Brown, Sedna (2003 VB12),
 `http://www.gps.caltech.edu/~mbrown/sedna/`
 
 How all these transneptunian objects got where they are is a wonderful
@@ -500,13 +500,13 @@ triangulations" approach are seeing this effect in their computer
 calculations. This is what Renate Loll explained at Loops '05. The best
 place to read the details is here:
 
-19\) Jan Ambjørn, J. Jurkiewicz and Renate Loll, Reconstructing the
+19) Jan Ambjørn, J. Jurkiewicz and Renate Loll, Reconstructing the
 universe, Phys. Rev. D72 (2005) 064014. Also available as
 [hep-th/0505154](http://xxx.lanl.gov/abs/hep-th/0505154).
 
 but if you need something less technical, try this:
 
-20\) Jan Ambjørn, J. Jurkiewicz and Renate Loll, The universe from
+20) Jan Ambjørn, J. Jurkiewicz and Renate Loll, The universe from
 scratch, available as
 [hep-th/0509010](http://xxx.lanl.gov/abs/hep-th/0509010).
 
@@ -541,7 +541,7 @@ attempting to compute. I would like to find a way around this problem!
 Luckily, some other people are getting similar results from a second
 procedure that definitely does *not* break Lorentz invariance:
 
-21\) Oliver Lauscher and Martin Reuter, Fractal spacetime structure in
+21) Oliver Lauscher and Martin Reuter, Fractal spacetime structure in
 asymptotically safe gravity, available as
 [hep-th/0508202](http://xxx.lanl.gov/abs/hep-th/0508202).
 
@@ -576,7 +576,7 @@ Unsurprisingly, I hope this beautiful theory is a spin foam model, since
 spin foams are 2-dimensional and I like them a lot. I presented some
 rough ideas on how one might invent such a model:
 
-22\) John Baez, Towards a spin foam model of quantum gravity, talk at
+22) John Baez, Towards a spin foam model of quantum gravity, talk at
 Loops '05, available at `http://math.ucr.edu/home/baez/loops05/`
 
 But, these ideas are very tentative and only time will tell if they
@@ -596,7 +596,7 @@ theory on flat spacetime!
 
 Check these out:
 
-23\) John Barrett, Feynman diagams coupled to three-dimensional quantum
+23) John Barrett, Feynman diagams coupled to three-dimensional quantum
 gravity, available as
 [gr-qc/0502048](http://xxx.lanl.gov/abs/gr-qc/0502048).
 
@@ -604,7 +604,7 @@ John Barrett, Feynman loops and three-dimensional quantum gravity, Mod.
 Phys. Lett. A20 (2005) 1271. Also available as
 [gr-qc/0412107](http://xxx.lanl.gov/abs/gr-qc/0412107).
 
-24\) Laurent Freidel and David Louapre, Ponzano-Regge model revisited I:
+24) Laurent Freidel and David Louapre, Ponzano-Regge model revisited I:
 gauge fixing, observables and interacting spinning particles, Class.
 Quant. Grav. 21 (2004) 5685-5726. Also available as
 [hep-th/0401076](http://xxx.lanl.gov/abs/hep-th/0401076).
@@ -617,11 +617,11 @@ Laurent Freidel and Etera R. Livine, Ponzano-Regge model revisited III:
 Feynman diagrams and effective field theory, available as
 [hep-th/0502106](http://xxx.lanl.gov/abs/hep-th/0502106).
 
-25\) Laurent Freidel, Daniele Oriti, and James Ryan, A group field
+25) Laurent Freidel, Daniele Oriti, and James Ryan, A group field
 theory for 3d quantum gravity coupled to a scalar field, available as
 [gr-qc/0506067](http://xxx.lanl.gov/abs/gr-qc/0506067).
 
-26\) Karin Noui and Alejandro Perez, Three dimensional loop quantum
+26) Karin Noui and Alejandro Perez, Three dimensional loop quantum
 gravity: coupling to point particles, available as
 [gr-qc/0402111](http://xxx.lanl.gov/abs/gr-qc/0402111).
 
@@ -711,12 +711,12 @@ stop-work order on the project, due to lack of money and rising cost
 estimates. In 2003, Congress gave NASA money to proceed with the
 project:
 
-27\) The Planetary Society, Pluto and Europa Campaign Page,
+27) The Planetary Society, Pluto and Europa Campaign Page,
 `http://www.planetary.org/html/UPDATES/Pluto/pluto_europa_action.html`
 
 and I guess it's now called "New Horizons":
 
-28\) New Horizons: NASA's Pluto-Kuiper Belt Mission,
+28) New Horizons: NASA's Pluto-Kuiper Belt Mission,
 `http://pluto.jhuapl.edu/`
 
 This webpage gives a timetable of:
@@ -747,7 +747,7 @@ Robert Helling writes:
 I'm shamefully ignorant of this, so ten minutes' research on the web
 was able to double my knowledge. I got ahold of this paper online:
 
-29\) B. Garfinkel, On resonance in celestial mechanics: a survey,
+29) B. Garfinkel, On resonance in celestial mechanics: a survey,
 Celestial Mech. 28 (1982), 275-290, also available at
 `http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1982CeMec..28..275G`
 
@@ -769,7 +769,7 @@ elsewhere that:
 
 This is from:
 
-30\) F. Varadi, M. Ghil, and W. M. Kaula, The great inequality in a
+30) F. Varadi, M. Ghil, and W. M. Kaula, The great inequality in a
 planetary Hamiltonian theory, available as
 [chao-dyn/9311011](http://arxiv.org/abs/chao-dyn/9311011).
 
@@ -812,7 +812,7 @@ I referred him to the work of Gerald Sussman, Jack Wisdom and others in
 prompting Arnold Neumaier to give a nice list of references, which I
 will take the liberty of numbering:
 
-> 31\) Tetsuharu Fuse, Planetary perturbations on the 2:3 mean motion
+> 31) Tetsuharu Fuse, Planetary perturbations on the 2:3 mean motion
 > resonance with Neptune, Publ. Astron. Soc. Japan 54 (2002), 494-499.
 > Also available at
 > `http://astronomy.nju.edu.cn/~xswan/reference/Fuse_PASJ54_493.pdf`
@@ -821,7 +821,7 @@ will take the liberty of numbering:
 >
 > The thesis:
 >
-> 32\) Luz Vianey Vela-Arevalo, Time-frequency analysis based on
+> 32) Luz Vianey Vela-Arevalo, Time-frequency analysis based on
 > wavelets for Hamiltonian systems, Caltech, 2002. Also available at
 > `http://www.cds.caltech.edu/~luzvela/th2s.pdf`
 >
@@ -829,7 +829,7 @@ will take the liberty of numbering:
 > resonances, and stability in the restricted 3-body problem. Other
 > interesting papers include:
 >
-> 33\) George Voyatzis and John D. Hadjidemetriou, Symmetric and
+> 33) George Voyatzis and John D. Hadjidemetriou, Symmetric and
 > asymmetric librations in planetary and satellite systems at the 2/1
 > resonance, available at
 > `http://users.auth.gr/~hadjidem/Asymmetric1.pdf`

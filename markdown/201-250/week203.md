@@ -153,13 +153,13 @@ discovered the golden ratio and just what the Greeks thought about it.
 For a sane and detailed look at the history of the golden ratio, try
 this:
 
-1\) J. J. O'Connor and E. F. Robertson, The Golden Ratio,
+1) J. J. O'Connor and E. F. Robertson, The Golden Ratio,
 `http://www-gap.dcs.st-and.ac.uk/~history/HistTopics/Golden_ratio.html`
 
 While I'm at it, I should point out that Theodore Cook's book
 introducing the notation "Φ" is still in print:
 
-2\) Theodore A. Cook, The Curves of Life: Being an Account of Spiral
+2) Theodore A. Cook, The Curves of Life: Being an Account of Spiral
 Formations and Their Application to Growth in Nature, to Science, and to
 Art: with Special Reference to the Manuscripts of Leonardo da Vinci,
 Dover Publications, New York, 1979.
@@ -173,7 +173,7 @@ Topologists know David Joyce as the inventor of the "quandle" - an
 algebraic structure that captures most of the information in a knot. Now
 he's writing a high-tech edition of Euclid, complete with Java applets:
 
-3\) David E. Joyce's edition of Euclid's Elements,
+3) David E. Joyce's edition of Euclid's Elements,
 `http://aleph0.clarku.edu/~djoyce/java/elements/toc.html`
 
 Joyce is carrying on a noble tradition: back in 1847, Oliver Byrne did a
@@ -181,7 +181,7 @@ wonderful edition of Euclid complete with lots of beautiful color
 pictures and even some pop-up models. You can see this online at the
 Digital Mathematics Archive:
 
-4\) Oliver Byrne's edition of Euclid's Elements, online at the Digital
+4) Oliver Byrne's edition of Euclid's Elements, online at the Digital
 Mathematics Archive, `http://www.sunsite.ubc.ca/DigitalMathArchive/`
 
 The most famous scholarly English translation of Euclid was done by Sir
@@ -189,7 +189,7 @@ Thomas Heath in 1908. You can find it together with an edition in Greek
 and a nearly infinite supply of other classical texts at the Perseus
 Digital Library:
 
-5\) Thomas L. Heath's edition of Euclid's Elements, online at The
+5) Thomas L. Heath's edition of Euclid's Elements, online at The
 Perseus Digital Library, `http://www.perseus.tufts.edu/`
 
 But I'm digressing! My main point was that while G = (1 + sqrt(5))/2 is
@@ -251,7 +251,7 @@ info on the Greek use of continued fractions and the Euclidean
 algorithm, check out the chapter on "antihyphairetic ratio theory" in
 this book:
 
-6\) D. H. Fowler, The Mathematics of Plato's Academy: A New
+6) D. H. Fowler, The Mathematics of Plato's Academy: A New
 Reconstruction, Oxford U. Press, Oxford, 1987.
 
 Anyway, it's actually important in physics that the golden number is so
@@ -303,7 +303,7 @@ torus to die is called a "golden torus".
 You can actually *watch* tori breaking into chaotic dust if you check
 out the applet illustrating the "standard map" on this website:
 
-7\) Takashi Kanamaru and J. Michael T. Thompson, Introduction to Chaos
+7) Takashi Kanamaru and J. Michael T. Thompson, Introduction to Chaos
 and Nonlinear Dynamics, standard map applet,
 `http://brain.cc.kogakuin.ac.jp/~kanamaru/Chaos/e/Standard/`
 
@@ -312,7 +312,7 @@ illustrating this effect. You won't actually see 2d tori, just 1d
 cross-sections of them - but it's pretty fun. For more details, try
 this:
 
-8\) M. Tabor, Chaos and Integrability in Nonlinear Dynamics: An
+8) M. Tabor, Chaos and Integrability in Nonlinear Dynamics: An
 Introduction, Wiley, New York, 1989.
 
 In short, the golden number is the best frequency ratio for avoiding
@@ -335,7 +335,7 @@ nonperiodic tilings of the plane. This helped spawn a nice little
 industry, the study of "quasicrystals" with 5-fold symmetry. Here's a
 good introduction for mathematicians:
 
-9\) Andre Katz, A short introduction to quasicrystallography, in From
+9) Andre Katz, A short introduction to quasicrystallography, in From
 Number Theory to Physics, eds. M. Waldschmit et al, Springer, Berlin,
 1992, pp. 496-537.
 
@@ -343,11 +343,11 @@ By the way, this same book has some nice stuff on the role of the golden
 number in KAM theory and the theory of iterated maps from the circle to
 itself:
 
-10\) Predrag Cvitanovic, Circle maps: irrationally winding, in From
+10) Predrag Cvitanovic, Circle maps: irrationally winding, in From
 Number Theory to Physics, eds. M. Waldschmit et al, Springer, Berlin,
 1992, pp. 631-658.
 
-11\) Jean-Christophe Yoccoz, Introduction to small divisors problems, in
+11) Jean-Christophe Yoccoz, Introduction to small divisors problems, in
 From Number Theory to Physics, eds. M. Waldschmit et al, Springer,
 Berlin, 1992, pp. 659-679.
 
@@ -395,7 +395,7 @@ These are special cases of a monstrosity called the Rogers-Ramanujan
 continued fraction, which is a kind of "q-deformation" of the
 continued fraction for the golden ratio. For details, start here:
 
-12\) Eric W. Weisstein, Rogers-Ramanujan Continued Fraction,
+12) Eric W. Weisstein, Rogers-Ramanujan Continued Fraction,
 `http://mathworld.wolfram.com/Rogers-RamanujanContinuedFraction.html`
 
 It's these two formulas, and one other like it, that led Hardy to write
@@ -409,7 +409,7 @@ the famous lines:
 For more by Hardy on these continued fractions, see section 1 and
 section 6.17 of his book:
 
-13\) G. H. Hardy, Ramanujan: Twelve Lectures on Subjects Suggested by
+13) G. H. Hardy, Ramanujan: Twelve Lectures on Subjects Suggested by
 His Life and Work, Chelsea Publishing Co., New York, 1959.
 
 The golden number also shows up in the theory of quantum groups. I
@@ -422,7 +422,7 @@ is a fifth root of unity. And, this is exactly the case where the
 spin-1/2 representation of SU~q~(2) has quantum dimension equal to the
 golden number!
 
-14\) Michael Freedman, Michael Larsen, Zhenghan Wang, A modular functor
+14) Michael Freedman, Michael Larsen, Zhenghan Wang, A modular functor
 which is universal for quantum computation, available at
 [quant-ph/0001108](http://www.arXiv.org/quant-ph/0001108).
 
@@ -625,7 +625,7 @@ Golden! I'll stop here.
 **Addendum:** The computer scientist Sebastiano Vigna pointed out this
 paper:
 
-15\) Paolo Boldi, Massimo Santini, and Sebastiano Vigna, Measuring with
+15) Paolo Boldi, Massimo Santini, and Sebastiano Vigna, Measuring with
 jugs, or: what if mathematicians were asked to defuse bombs?, Theoret.
 Comput. Sci. 2 (2002). Also available at
 `http://vigna.dsi.unimi.it/papers.php`

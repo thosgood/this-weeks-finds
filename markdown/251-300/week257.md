@@ -16,7 +16,7 @@ But first, some miscellaneous fun stuff on math and astronomy.
 Math: if you haven't seen a sphere turn inside out, you've got to
 watch this classic movie, now available for free online:
 
-1\) The Geometry Center, Outside in,
+1) The Geometry Center, Outside in,
 `http://video.google.com/videoplay?docid=-6626464599825291409`
 
 Astronomy: did you ever wonder where dust comes from? I'm not talking
@@ -63,7 +63,7 @@ A great example is the Red Rectangle:
 [![](red_rectangle.jpg)](http://apod.nasa.gov/apod/ap040513.html)
 :::
 
-2\) Rungs of the Red Rectangle, Astronomy picture of the day, May 13,
+2) Rungs of the Red Rectangle, Astronomy picture of the day, May 13,
 2004, `http://apod.nasa.gov/apod/ap040513.html`
 
 Here two stars 2300 light years from us are spinning around each other
@@ -75,7 +75,7 @@ Ciska Markwick-Kemper is an expert on dust. She's an astrophysicist at
 the University of Manchester. Together with some coauthors, she wrote a
 paper about the Red Rectangle:
 
-3\) F. Markwick-Kemper, J. D. Green, E. Peeters, Spitzer detections of
+3) F. Markwick-Kemper, J. D. Green, E. Peeters, Spitzer detections of
 new dust components in the outflow of the Red Rectangle, Astrophys. J.
 628 (2005) L119-L122. Also available as
 [`arXiv:astro-ph/0506473`](http://xxx.lanl.gov/abs/astro-ph/0506473).
@@ -92,7 +92,7 @@ out vast amounts of radiation as stuff falls into them.
 
 Markwick-Kemper and coauthors have also tackled that question:
 
-4\) F. Markwick-Kemper, S. C. Gallagher, D. C. Hines and J. Bouwman,
+4) F. Markwick-Kemper, S. C. Gallagher, D. C. Hines and J. Bouwman,
 Dust in the wind: crystalline silicates, corundum and periclase in PG
 2112+059, Astrophys. J. 668 (2007), L107-L110. Also available as
 [`arXiv:0710.2225`](http://xxx.lanl.gov/abs/0710.2225).
@@ -119,7 +119,7 @@ mummified and stuck in a wooden cabinet near the school's entrance.
 
 If you're not into number theory, maybe you should read this:
 
-5\) Minhyong Kim, Why everyone should know number theory, available at
+5) Minhyong Kim, Why everyone should know number theory, available at
 `http://www.ucl.ac.uk/~ucahmki/numbers.pdf`
 
 Personally I never liked the subject until I realized it was a form of
@@ -156,7 +156,7 @@ conjectures](http://en.wikipedia.org/wiki/Weil_conjectures) say.
 
 You can learn the details here:
 
-6\) J. S. Milne, Lectures on Étale Cohomology, available at
+6) J. S. Milne, Lectures on Étale Cohomology, available at
 `http://www.jmilne.org/math/CourseNotes/math732.html`
 
 Anyway, I quizzed about Minhyong about one of the big mysteries that's
@@ -219,7 +219,7 @@ even more interested when I saw a draft of a paper by Kapranov and
 Smirnov. I got it from Thomas Riepe, who got it from Yuri Manin.
 There's a version on the web:
 
-7\) M. Kapranov and A. Smirnov, Cohomology determinants and reciprocity
+7) M. Kapranov and A. Smirnov, Cohomology determinants and reciprocity
 laws: number field case, available at
 `http://wwwhomes.uni-bielefeld.de/triepe/F1.html`
 
@@ -267,7 +267,7 @@ pretty slow at it.
 
 This paper studies subtler ways in which primes can be "linked":
 
-8\) Masanori Morishita, Milnor invariants and Massey products for prime
+8) Masanori Morishita, Milnor invariants and Massey products for prime
 numbers, Compositio Mathematica 140 (2004), 69-83.
 
 You may know the [Borromean
@@ -283,12 +283,12 @@ The secret 3-dimensional nature of the integers and certain other
 "rings of algebraic integers" seems to go back at least to the work of
 Artin and Verdier:
 
-9\) Michael Artin and Jean-Louis Verdier, Seminar on étale cohomology of
+9) Michael Artin and Jean-Louis Verdier, Seminar on étale cohomology of
 number fields, Woods Hole, 1964.
 
 You can see it clearly here, starting in section 2:
 
-10\) Barry Mazur, Notes on the étale cohomology of number fields,
+10) Barry Mazur, Notes on the étale cohomology of number fields,
 Annales Scientifiques de l'Ecole Normale Superieure Ser. 4, 6 (1973),
 521-552. Also available at
 `http://www.numdam.org/numdam-bin/fitem?id=ASENS_1973_4_6_4_521_0`
@@ -297,14 +297,14 @@ By now, a big "dictionary" relating knots to primes has been developed
 by Kapranov, Mazur, Morishita, and Reznikov. This seems like a readable
 introduction:
 
-11\) Adam S. Sikora, Analogies between group actions on 3-manifolds and
+11) Adam S. Sikora, Analogies between group actions on 3-manifolds and
 number fields, available as
 [`arXiv:math/0107210`](http://arxiv.org/abs/math/0107210).
 
 I need to study it. These might also be good - I haven't looked at them
 yet:
 
-12\) Masanori Morishita, On certain analogies between knots and primes,
+12) Masanori Morishita, On certain analogies between knots and primes,
 J. Reine Angew. Math. 550 (2002), 141-167.
 
 Masanori Morishita, On analogies between knots and primes, Sugaku 58
@@ -348,7 +348,7 @@ work on hidden variable theories, or octonionic quantum mechanics, or
 deriving laws of physics from Fisher information, you'd better read
 this:
 
-13\) Ray F. Streater, Lost Causes in and Beyond Physics, Springer
+13) Ray F. Streater, Lost Causes in and Beyond Physics, Springer
 Verlag, Berlin, 2007.
 
 (I like octonions - but I agree with Streater about not inflicting them
@@ -375,7 +375,7 @@ power supply, since he'd blown out his previous one.
 
 Anyway, he and Döring have just come out with a series of papers:
 
-14\) Andreas Döring and Christopher Isham, A topos foundation for
+14) Andreas Döring and Christopher Isham, A topos foundation for
 theories of physics: I. Formal languages for physics, available as
 [`arXiv:quant-ph/0703060`](http://xxx.lanl.gov/abs/quant-ph/0703060).
 
@@ -448,7 +448,7 @@ is neither true nor false! It's just not defined.
 
 Their work has inspired this very nice paper:
 
-15\) Chris Heunen and Bas Spitters, A topos for algebraic quantum
+15) Chris Heunen and Bas Spitters, A topos for algebraic quantum
 theory, available as [`arXiv:0709.4364.`](http://arxiv.org/abs/0709.4364)
 
 so let me explain that too.
@@ -499,7 +499,7 @@ this name, they've put some videos about monads and string diagrams
 onto YouTube! This is a really great new use of technology. So, you
 should also watch these:
 
-16\) The Catsters, Monads,
+16) The Catsters, Monads,
 `http://youtube.com/view_play_list?p=0E91279846EC843E`
 
 The Catsters, Adjunctions,
@@ -698,7 +698,7 @@ gets into the act.
 I'll leave this as a pleasant exercise in string diagram manipulation.
 If you get stuck, you can peek in the back of the book:
 
-17\) Wikipedia, Distibutive law between monads,
+17) Wikipedia, Distibutive law between monads,
 `http://en.wikipedia.org/wiki/Distributive_law_between_monads`
 
 The two scary commutative rectangles on this page are the "nice
@@ -736,18 +736,18 @@ says
 
 All this is very nice, and it goes back to a paper by Beck:
 
-18\) Jon Beck, Distributive laws, Lecture Notes in Mathematics 80,
+18) Jon Beck, Distributive laws, Lecture Notes in Mathematics 80,
 Springer, Berlin, 1969, pp. 119-140.
 
 This isn't what Eugenia explained to me, though - I already knew this
 stuff. She started out by explaining something in a paper by Street:
 
-19\) Ross Street, The formal theory of monads, J. Pure Appl. Alg. 2
+19) Ross Street, The formal theory of monads, J. Pure Appl. Alg. 2
 (1972), 149-168.
 
 which is reviewed at the beginning here:
 
-20\) Steve Lack and Ross Street, The formal theory of monads II, J. Pure
+20) Steve Lack and Ross Street, The formal theory of monads II, J. Pure
 Appl. Alg. 175 (2002), 243-265. Also available at
 `http://www.maths.usyd.edu.au/u/stevel/papers/ftm2.html`
 
@@ -764,7 +764,7 @@ a distributive law!
 That's already mindbogglingly beautiful. According to Eugenia, it's
 practically the last sentence in Street's paper. But in her new work:
 
-21\) Eugenia Cheng, Iterated distributive laws, available as
+21) Eugenia Cheng, Iterated distributive laws, available as
 [`arXiv:0710.1120`](http://arxiv.org/abs/0710.1120).
 
 she goes a bit further: she considers monads in Mnd(Mnd(C)), and so on.
@@ -818,7 +818,7 @@ Moreover, the Catsters have inspired me to make videos of this seminar!
 You can already find some here, along with course notes and blog entries
 where you can ask questions and talk about the material:
 
-22\) John Baez and James Dolan, Geometric representation theory seminar,
+22) John Baez and James Dolan, Geometric representation theory seminar,
 `http://math.ucr.edu/home/baez/qg-fall2007/`
 
 More will show up in due course. I hope you join the fun.
@@ -829,12 +829,12 @@ More will show up in due course. I hope you join the fun.
 points out that you can find some of Streater's "lost causes in
 physics" online:
 
-23\) Ray F. Streater, Various causes in physics and elsewhere,
+23) Ray F. Streater, Various causes in physics and elsewhere,
 `http://www.mth.kcl.ac.uk/~streater/causes.html`
 
 For the proof of the Gelfand-Naimark theorem inside a topos, see:
 
-24\) Bernhard Banachewski and Christopher J. Mulvey, A globalisation of
+24) Bernhard Banachewski and Christopher J. Mulvey, A globalisation of
 the Gelfand duality theorem, Ann. Pure Appl. Logic 137 (2006), 62-103.
 Also available at
 `http://www.maths.sussex.ac.uk/Staff/CJM/research/pdf/globgelf.pdf`
@@ -872,13 +872,13 @@ Jordan Ellenberg sent me the following comments about knots and primes:
 
 Here's one of Deninger's papers:
 
-25\) Christopher Deninger, Number theory and dynamical systems on
+25) Christopher Deninger, Number theory and dynamical systems on
 foliated spaces, available as
 [`arXiv:math/0204110`](http://arxiv.org/abs/math/0204110).
 
 And here's the paper by Dunfield and Thurston:
 
-26\) Nathan M. Dunfield and William P. Thurston, Finite covers of random
+26) Nathan M. Dunfield and William P. Thurston, Finite covers of random
 3-manifolds, available as
 [`arXiv:math/0502567`](http://arxiv.org/abs/math/0502567).
 

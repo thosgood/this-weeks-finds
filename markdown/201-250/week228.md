@@ -23,7 +23,7 @@ because it shows that Mars is a lively place with wind and water:
 height="774"}](http://themis.asu.edu/features/polardunes)
 :::
 
-1\) North polar sand sea, Mars Odyssey Mission, THEMIS (Thermal emission
+1) North polar sand sea, Mars Odyssey Mission, THEMIS (Thermal emission
 imaging system), `http://themis.mars.asu.edu/features/polardunes`
 
 These dunes, occupying a region the size of Texas, have been sculpted by
@@ -47,7 +47,7 @@ the maximum angle it can tolerate before it starts slipping down:
 [![](barchan.jpg)](http://en.wikipedia.org/wiki/Barchan)
 :::
 
-2\) Wikipedia, Barchan, `http://en.wikipedia.org/wiki/Barchan`
+2) Wikipedia, Barchan, `http://en.wikipedia.org/wiki/Barchan`
 
 Wind-blown sand accumulates on the front of the barchan, and then slides
 down the "slip face" on the back.
@@ -66,7 +66,7 @@ Mars Express took this wonderful closeup, already shown in
 [![](mars_pole_closeup.jpg)](http://www.esa.int/SPECIALS/Mars_Express/SEMLF6D3M5E_1.html)
 :::
 
-3\) ESA/DLR/FU Berlin (G. Neukum), Glacial, volcanic and fluvial
+3) ESA/DLR/FU Berlin (G. Neukum), Glacial, volcanic and fluvial
 activity on Mars: latest images,
 `http://www.esa.int/SPECIALS/Mars_Express/SEMLF6D3M5E_1.html`
 
@@ -82,7 +82,7 @@ kilometers per hour, with gusts up to 600 kilometers per hour. There are
 dust storms on Mars so big they were first seen from telescopes on Earth
 long ago. So, wind is a big factor in Martian geology:
 
-4\) NASA, Mars exploration program: dust storms,
+4) NASA, Mars exploration program: dust storms,
 `http://mars.jpl.nasa.gov/gallery/duststorms/`
 
 The Mars rover Spirit even got its solar panels cleaned by some dust
@@ -92,7 +92,7 @@ devils, and it took some movies of them:
 [![](mars_dust_devil.gif){width="600"}](http://marsrovers.nasa.gov/gallery/press/spirit/20050819a.html)
 :::
 
-5\) NASA, Exploration rover mission: dust devils at Gusev, Sol 525,
+5) NASA, Exploration rover mission: dust devils at Gusev, Sol 525,
 `http://marsrovers.nasa.gov/gallery/press/spirit/20050819a.html`
 
 Turning to mathematical physics per se, I can't resist pointing out
@@ -133,7 +133,7 @@ length scale. This is what the power law says.
 Here's a good place to learn the basics of power laws and
 self-similarity:
 
-6\) Manfred R. Schroeder, Fractals, Chaos, Power Laws, W. H. Freeman,
+6) Manfred R. Schroeder, Fractals, Chaos, Power Laws, W. H. Freeman,
 New York, 1992.
 
 What makes sand dunes interesting is that as they seem to *enjoy* living
@@ -146,7 +146,7 @@ without any need for us to tune their parameters to special values.
 
 The paper that introduced this idea came out in 1987:
 
-7\) Per Bak, Chao Tang and Kurt Wiesenfeld, Self-organized criticality:
+7) Per Bak, Chao Tang and Kurt Wiesenfeld, Self-organized criticality:
 an explanation of 1/f noise, Phys. Rev. Lett. 59 (1987) 381-384.
 
 They came up with a simple model of a sand pile that exhibits
@@ -180,12 +180,12 @@ self-organized criticality. In the words of Jos Thijssen:
 If your computer runs Java applets, you can play with Thijssen's
 simulation sand pile and see the avalanches yourself:
 
-8\) Jos Thijssen, The sand pile model and self organised criticality,
+8) Jos Thijssen, The sand pile model and self organised criticality,
 `http://www.tn.tudelft.nl/tn/People/Staff/Thijssen/sandexpl.html`
 
 And here's a cellular automaton sand pile you can play with:
 
-9\) Albert Schueller, Cellular automaton sand pile model,
+9) Albert Schueller, Cellular automaton sand pile model,
 `http://schuelaw.whitman.edu/JavaApplets/SandPileApplet/`
 
 This one is only 2-dimensional, so the avalanches are less dramatic, but
@@ -196,7 +196,7 @@ Like a speck of sand landing at the right place at the right time, the
 original paper of Bak *et al* started a huge landslide of work on
 self-organized criticality, some of which has been popularized here:
 
-10\) Per Bak, How Nature Works: The Science of Self-Organized
+10) Per Bak, How Nature Works: The Science of Self-Organized
 Criticality, Copernicus, New York, 1996.
 
 As you can guess from the title "How Nature Works", some people got a
@@ -214,20 +214,20 @@ I'd be interested to see how well mathematical physicists can model
 actual sand dunes. These display an interesting complexity of behavior,
 as the pictures here show:
 
-11\) US Army Corps of Engineers, Dunes,
+11) US Army Corps of Engineers, Dunes,
 `http://www.tec.army.mil/research/products/desert_guide/lsmsheet/lsdune.htm`
 
 I've only looked at a few papers on the subject, all dealing with
 barchans:
 
-12\) V. Schwaemmle and H. J. Herrmann, Solitary wave behaviour of sand
+12) V. Schwaemmle and H. J. Herrmann, Solitary wave behaviour of sand
 dunes, Nature 426 (Dec. 11, 2003), 619-620.
 
-13\) Klaus Kroy, Gerd Sauermann, and Hans J. Hermann, Minimal model for
+13) Klaus Kroy, Gerd Sauermann, and Hans J. Hermann, Minimal model for
 sand dunes, Phys. Rev. Lett. 88 (2002), 054301. Also available at
 [cond-mat/0101380](http://arxiv.org/abs/cond-mat/0101380).
 
-14\) H. Elbelrhiti, P. Claudin, and B. Andreotti, Field evidence for
+14) H. Elbelrhiti, P. Claudin, and B. Andreotti, Field evidence for
 surface-wave-induced instability of sand dunes, Nature 437 (Sep. 29,
 2005), 720-723.
 
@@ -245,7 +245,7 @@ If you're more interested in Mars than the mathematical physics of sand
 dunes, you'll be happy to hear that Google has just moved to
 drastically expand its customer base by introducing "Google Mars":
 
-15\) Google Mars, `http://www.google.com/mars/`
+15) Google Mars, `http://www.google.com/mars/`
 
 Using this you can explore many features of Mars, including its dunes.
 
@@ -267,7 +267,7 @@ Not surprisingly, the string theorist Jacques Distler examined Lauscher
 and Reuter's work with a critical eye. And, he wrote up a nice
 explanation of the problems with their work:
 
-16\) Jacques Distler, Unpleasantness,
+16) Jacques Distler, Unpleasantness,
 `http://golem.ph.utexas.edu/~distler/blog/archives/000648.html`
 
 Briefly, the problem is that Lauscher and Reuter make a drastic
@@ -358,20 +358,20 @@ theorem due to Conway.
 I'm vaguely aware of a few proofs of this fact. As far as I know,
 Conway's original proof uses the Alexander-Conway polynomial:
 
-16\) John Horton Conway, An enumeration of knots and links and some of
+16) John Horton Conway, An enumeration of knots and links and some of
 their algebraic properties, in Computational Problems of Abstract
 Algebra, ed. John Leech, Pergamon Press, Oxford, 1970, 329-358.
 
 There's also a proof by Goldman and Kauffman using the Jones
 polynomial:
 
-17\) Jay R. Goldman and Louis H. Kauffman, Rational tangles, Advances in
+17) Jay R. Goldman and Louis H. Kauffman, Rational tangles, Advances in
 Applied Mathematics 18 (1997), 300-332. Also available at
 `http://www.math.uic.edu/~kauffman/RTang.pdf`
 
 There are also two proofs in here:
 
-18\) Louis H. Kauffman and Sofia Lambropoulou, On the classification of
+18) Louis H. Kauffman and Sofia Lambropoulou, On the classification of
 rational tangles, available as
 [math.GT/0311499](http://arxiv.org/abs/math.GT/0311499).
 
@@ -468,7 +468,7 @@ Given wrote:
 
 The Wikipedia article is:
 
-19\) Edge of chaos, Wikipedia,
+19) Edge of chaos, Wikipedia,
 `http://en.wikipedia.org/wiki/Edge_of_chaos`
 
 ------------------------------------------------------------------------

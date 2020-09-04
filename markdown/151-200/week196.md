@@ -4,7 +4,7 @@ Today I'd like to talk about the Big Bang and Pythagorean spinors. But
 first, a book! If you want to start learning general relativity without
 first mastering the intricacies of tensors, here's a way to get going:
 
-1\) James B. Hartle, Gravity: an Introduction to Einstein's General
+1) James B. Hartle, Gravity: an Introduction to Einstein's General
 Relativity, Addison-Wesley, San Francisco, 2003.
 
 Hartle is an expert on general relativity, but here he avoids showing
@@ -23,7 +23,7 @@ to have a fairly good idea of what happened all the way back to the
 first microsecond - unless, of course, there's some important physics
 we're missing. This paper tells the story quite nicely:
 
-2\) Dominik J. Schwarz, The first second of the universe, available as
+2) Dominik J. Schwarz, The first second of the universe, available as
 [astro-ph/0303574](http://xxx.lanl.gov/abs/astro-ph/0303574).
 
 But, since the physics gets weirder as we approach the Big Bang, I'll
@@ -267,32 +267,32 @@ quit here!
 If you want to learn more about the early universe, start with this
 classic:
 
-3\) Steven Weinberg, The First Three Minutes, Basic Books, New York,
+3) Steven Weinberg, The First Three Minutes, Basic Books, New York,
 1977.
 
 Then catch up with recent developments by reading these websites:
 
-3\) Ned Wright's Cosmology Tutorial,
+3) Ned Wright's Cosmology Tutorial,
 `http://www.astro.ucla.edu/~wright/cosmolog.htm`
 
-4\) Martin White, The Cosmic Rosetta Stone,
+4) Martin White, The Cosmic Rosetta Stone,
 `http://astron.berkeley.edu/~mwhite/rosetta/rosetta.html`
 
 To dig deeper, try these books:
 
-5\) P. Coles and F. Lucchin, Cosmology: The Origin and Evolution of
+5) P. Coles and F. Lucchin, Cosmology: The Origin and Evolution of
 Cosmic Structure, Wiley, New York, 1995.
 
-6\) Edward W. Kolb and Michael Turner, The Early Universe,
+6) Edward W. Kolb and Michael Turner, The Early Universe,
 Addison-Wesley, Reading, Massachusetts, 1990.
 
 For a detailed description of some of WMAP's results, try these:
 
-7\) C. L. Bennett et al, First Year Wilkinson Microwave Anisotropy Probe
+7) C. L. Bennett et al, First Year Wilkinson Microwave Anisotropy Probe
 (WMAP) Observations: Preliminary Maps and Basic Results, available as
 [astro-ph/0302207](http://xxx.lanl.gov/abs/astro-ph/0302207).
 
-8\) D. N. Spergel et al, First Year Wilkinson Microwave Anisotropy Probe
+8) D. N. Spergel et al, First Year Wilkinson Microwave Anisotropy Probe
 (WMAP) Observations: Determination of Cosmological Parameters, available
 as [astro-ph/0302209](http://xxx.lanl.gov/abs/astro-ph/0302209).
 
@@ -302,7 +302,7 @@ the nice website mentioned above.
 
 Here is Pfenniger and Puy's paper on hydrogen "snowflakes":
 
-9\) D. Pfenniger and D. Puy, Possible flakes of molecular hydrogen in
+9) D. Pfenniger and D. Puy, Possible flakes of molecular hydrogen in
 the early Universe, available as
 [astro-ph/0211393](http://xxx.lanl.gov/abs/astro-ph/0211393).
 
@@ -340,7 +340,7 @@ The volume in honor of Penrose's 65th birthday is full of fun stuff
 about spin networks, twistors, and so on - but I particularly liked this
 paper by Trautman on "Pythagorean spinors":
 
-10\) Andrzej Trautman, Pythagorean spinors and Penrose twistors, in The
+10) Andrzej Trautman, Pythagorean spinors and Penrose twistors, in The
 Geometric Universe: Science Geometry and the Work of Roger Penrose, eds.
 Huggett, Mason, Tod, Tsou and Woodhouse, Oxford U. Press, Oxford, 1998.
 Also available at `http://www.fuw.edu.pl/~amt/amt.html`
@@ -391,7 +391,7 @@ octonions: SL(2,H) is the double cover of the Lorentz group in 6d
 spacetime, and SL(2,O) is the double cover of the Lorentz group in 10d
 spacetime. But I explained this in my octonion webpage:
 
-11\) John Baez, OP^1 and Lorentzian geometry,
+11) John Baez, OP^1 and Lorentzian geometry,
 `http://math.ucr.edu/home/baez/octonions/node11.html`
 
 so I won't talk about it now.

@@ -15,7 +15,7 @@ understand them and maybe even come up with something cool!
 Here are some of the papers I'm struggling to read about this. First, a
 nice introduction to how supergravity works in different dimensions:
 
-1\) Antoine Van Proeyen, Structure of supergravity theories, available
+1) Antoine Van Proeyen, Structure of supergravity theories, available
 as [hep-th/0301005](http://www.arXiv.org/abs/hep-th/0301005).
 
 "We give an elementary introduction to the structure of supergravity
@@ -32,7 +32,7 @@ dimensions by "oxidizing" 4-dimensional theories. This is a pun on
 lower ones by curling up the extra dimensions. It turns out that
 oxidation is deeply related to Dynkin diagrams:
 
-2\) Arjan Keurentjes, The group theory of oxidation, available as
+2) Arjan Keurentjes, The group theory of oxidation, available as
 [hep-th/0210178](http://www.arXiv.org/abs/hep-th/0210178).
 
 "Dimensional reduction of (super-)gravity theories to 3 dimensions
@@ -52,7 +52,7 @@ easily understood in this framework."
 
 Next, a tour of places where the octonions show up in string theory:
 
-3\) Luis J. Boya, Octonions and M-theory, available as
+3) Luis J. Boya, Octonions and M-theory, available as
 [hep-th/0301037](http://www.arXiv.org/abs/hep-th/0301037).
 
 "We explain how structures related to octonions are ubiquitous in
@@ -68,7 +68,7 @@ M-theory."
 And here's an article about where the exceptional groups show up, from
 a true expert on the subject:
 
-4\) Pierre Ramond, Exceptional groups and physics, available as
+4) Pierre Ramond, Exceptional groups and physics, available as
 [hep-th/0301050](http://www.arXiv.org/abs/hep-th/0301050).
 
 "Quarks and leptons charges and interactions are derived from gauge
@@ -219,18 +219,18 @@ With this answered, your next question is probably: "why should I
 *care* about operads?" This gets a little more technical. For a
 detailed answer, the best place to look is this book:
 
-5\) Martin Markl, Steve Schnider and Jim Stasheff, Operads in Algebra,
+5) Martin Markl, Steve Schnider and Jim Stasheff, Operads in Algebra,
 Topology and Physics, AMS, Providence, Rhode Island, 2002.
 
 But if you just want a taste, try Stasheff's infamous "operadchik"
 paper - get it? - which for some reason isn't on the arXiv:
 
-6\) James Stasheff, Hartford/Luminy talks on operads, available at
+6) James Stasheff, Hartford/Luminy talks on operads, available at
 `http://www.math.unc.edu/Faculty/jds/operadchik.ps`.
 
 Another good introduction is this paper by Sasha Voronov:
 
-7\) Alexander Voronov, Notes on universal algebra, available as
+7) Alexander Voronov, Notes on universal algebra, available as
 [math.QA/0111009](http://www.arXiv.org/abs/math.QA/0111009).
 
 Tom Leinster is writing a book on the applications of operads to

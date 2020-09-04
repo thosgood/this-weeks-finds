@@ -7,7 +7,7 @@ linear resistors as morphisms in a compact dagger-category.
 
 But first, here's a great book you should all grab:
 
-1\) Jerry Shurman, Geometry of the Quintic, Wiley, New York, 1997. Also
+1) Jerry Shurman, Geometry of the Quintic, Wiley, New York, 1997. Also
 available at `http://people.reed.edu/~jerry/Quintic/quintic.html`
 
 I've recommended this book before. Now Shurman has made it freely
@@ -218,11 +218,11 @@ widely used to reformulate the principle of least action in classical
 mechanics as a mutant version of the "matrix mechanics" approach to
 quantum mechanics:
 
-2\) G. L. Litvinov, The Maslov dequantization, idempotent and tropical
+2) G. L. Litvinov, The Maslov dequantization, idempotent and tropical
 mathematics: a brief introduction, available as
 [`arXiv:math/0507014`](http://arXiv.org/abs/arXiv:math/0507014).
 
-3\) John Baez, Spans in quantum theory,
+3) John Baez, Spans in quantum theory,
 `http://math.ucr.edu/home/baez/span/`
 
 But the physics is different now: we are minimizing power rather than
@@ -273,7 +273,7 @@ If we extend our semicategory to a category this way, the result has
 some nice properties. First, it's a "monoidal category", meaning
 roughly a category with tensor products:
 
-4\) nLab, Monoidal category,
+4) nLab, Monoidal category,
 `http://ncatlab.org/nlab/show/monoidal+category`
 
 The tensor product corresponds to setting two circuits side by side:
@@ -318,7 +318,7 @@ A category with duals for morphisms is usually called a
 "dagger-category". It's easy to check that our category is one of
 those:
 
-5\) nLab, Dagger-category,
+5) nLab, Dagger-category,
 `http://ncatlab.org/nlab/show/dagger-category`
 
 However, our category has some defects. First of all, there's no
@@ -333,7 +333,7 @@ this:
 
 If we had that, we'd get a "symmetric monoidal category":
 
-6\) nLab, Symmetric monoidal category,
+6) nLab, Symmetric monoidal category,
 `http://ncatlab.org/nlab/show/symmetric+monoidal+category`
 
 Our category so far also lacks a morphism corresponding to a perfectly
@@ -368,7 +368,7 @@ contradictions. And they should give a very nice category: a symmetric
 monoidal category with duals for objects and morphisms. Categories of
 this sort are called "dagger-compact":
 
-7\) nLab, Dagger-compact category,
+7) nLab, Dagger-compact category,
 `http://ncatlab.org/nlab/show/dagger+compact+category`
 
 Dagger-compact categories are very important in physics. A classic
@@ -382,13 +382,13 @@ Dusko Pavlovich, Peter Selinger and Jamie Vicary have done a lot to
 formulate all of quantum mechanics in terms of dagger-compact
 categories. Here are the fundamental references:
 
-8\) Samson Abramsky and Bob Coecke, A categorical semantics of quantum
+8) Samson Abramsky and Bob Coecke, A categorical semantics of quantum
 protocols, in Proceedings of the 19th IEEE conference on Logic in
 Computer Science (LICS04), IEEE Computer Science Press (2004). Also
 available at
 [`arXiv:quant-ph/0402130`](http://arXiv.org/abs/quant-ph/0402130).
 
-9\) Peter Selinger, Dagger compact closed categories and completely
+9) Peter Selinger, Dagger compact closed categories and completely
 positive maps, in Proceedings of the 3rd International Workshop on
 Quantum Programming Languages (QPL 2005), ENTCS 170 (2007), 139-163.
 Also available at `http://www.mscs.dal.ca/~selinger/papers.html#dagger`
@@ -397,21 +397,21 @@ You can use compact dagger-categories to clarify what it means,
 physically, for a complex Hilbert space to be equipped with an
 orthonormal basis:
 
-10\) Bob Coecke, Dusko Pavlovic, and Jamie Vicary, A new description of
+10) Bob Coecke, Dusko Pavlovic, and Jamie Vicary, A new description of
 orthogonal bases, available as
 [`arXiv:0810.0812`](http://arxiv.org/abs/0810.0812).
 
 You can use them to explain the traditional approach to quantum logic in
 terms of orthomodular lattices:
 
-11\) Chris Heunen, Categorical Quantum Models and Logics, Amsterdam
+11) Chris Heunen, Categorical Quantum Models and Logics, Amsterdam
 University Press, 2009. Also available at
 `http://www.comlab.ox.ac.uk/people/chris.heunen/about.html`
 
 You can even use them to motivate the appearance of complex numbers in
 quantum mechanics:
 
-12\) Jamie Vicary, Completeness and the complex numbers, available as
+12) Jamie Vicary, Completeness and the complex numbers, available as
 [`arXiv:0807.2927`](http://arxiv.org/abs/0807.2927).
 
 So, if there is a compact dagger-category of electrical circuits, we
@@ -462,7 +462,7 @@ linear subspace of the cartesian product V \times V*. But V \times V* is better
 than a mere vector space. We can think of it as the cotangent bundle
 T*V. So, it's a "symplectic" vector space:
 
-13\) Wikipedia, Symplectic vector space,
+13) Wikipedia, Symplectic vector space,
 `http://en.wikipedia.org/wiki/Symplectic_vector_space`
 
 Namely, it has a "symplectic structure" - that is, a nondegenerate
@@ -511,7 +511,7 @@ This perspective will be familiar to symplectic geometers who know about
 We're studying a special case of those, namely the linear case. If you
 want to learn more, try:
 
-14\) Alan Weinstein, Symplectic categories, available as
+14) Alan Weinstein, Symplectic categories, available as
 [`arXiv:0911.4133`](http://arxiv.org/abs/0911.4133).
 
 Weinstein writes:
@@ -531,7 +531,7 @@ Weinstein writes:
 
 Here's the reference to Guillemin and Sternberg:
 
-15\) Victor Guillemin and Shlomo Sternberg, Some problems in integral
+15) Victor Guillemin and Shlomo Sternberg, Some problems in integral
 geometry and some related problems in microlocal analysis, Amer. J.
 Math. 101 (1979), 915-955.
 
@@ -541,7 +541,7 @@ quantization suggests a way to understand resistors
 quantum-mechanically. In fact there's a bit of literature on this
 subject already:
 
-16\) Michel H. Devoret, Quantum fluctuations in electrical circuits, in
+16) Michel H. Devoret, Quantum fluctuations in electrical circuits, in
 Quantum Fluctuations, eds. S. Reynaud, E. Giacobino and J. Zinn-Justin,
 Elsevier, 1997. Also available at
 `http://qulab.eng.yale.edu/documents/reprints/Houches_fluctuations.pdf`

@@ -19,7 +19,7 @@ galaxy. They're huge and very bright - up to a million times as bright
 as the Sun. They're surrounded by enormous bluish-purple nebulae like
 the one in this picture:
 
-1\) NGC 2359, the nebula around the Wolf-Rayet star HD56925, picture at
+1) NGC 2359, the nebula around the Wolf-Rayet star HD56925, picture at
 `http://cfa-www.harvard.edu/cfa/hotimage/n2359.html`
 
 But what makes them really special is that their spectral lines show
@@ -64,7 +64,7 @@ nebula, leaving the core as a tiny "white dwarf"... which will cool,
 after eons, to a "black dwarf". Here's a nice chart of the whole
 story:
 
-2\) Sloan Digital Sky Survey, Evolutionary track of a sun-like star,
+2) Sloan Digital Sky Survey, Evolutionary track of a sun-like star,
 `http://skyserver.sdss.org/dr1/en/astro/stars/images/starevol.jpg`
 
 Bigger stars do more exciting things. In particular, stars heavier than
@@ -193,13 +193,13 @@ Here are some ways to learn more, starting with the fun easy stuff.
 The online version of the Messier Catalog - a famous old catalog of
 galaxies and nebulae - is a really fun way to learn some astronomy:
 
-3\) The Messier Catalog, `http://www.maa.agleia.de/Messier/`
+3) The Messier Catalog, `http://www.maa.agleia.de/Messier/`
 
 It's packed with interesting stuff. For example, here's a great page
 about nebulae like the one the sun will form after it becomes a yellow
 giant:
 
-4\) The Messier Catalog, Planetary nebulae,
+4) The Messier Catalog, Planetary nebulae,
 `http://www.maa.agleia.de/Messier/planetar.html`
 
 (They're misleadingly called "planetary nebulae", though they don't
@@ -207,38 +207,38 @@ have anything to do with planets.) And here's a nice page about the
 Crab Nebula, which is now a pulsar - a rapidly spinning neutron star
 left over from a supernova:
 
-5\) The Messier Catalog, The crab nebula (M1),
+5) The Messier Catalog, The crab nebula (M1),
 `http://www.maa.agleia.de/Messier/E/m001.html`
 
 This website is good for Wolf-Rayet stars and other things:
 
-6\) Chris Clowes' Astronomy Page,
+6) Chris Clowes' Astronomy Page,
 `http://www.peripatus.gen.nz/Astronomy/`
 
 I learned a lot about GRB030329 from this page:
 
-7\) European Southern Observatory (ESO), Cosmological γ-ray bursts and
+7) European Southern Observatory (ESO), Cosmological γ-ray bursts and
 hypernovae conclusively linked, June 18, 2003,
 `http://www.eso.org/outreach/press-rel/pr-2003/pr-16-03.html`
 
 For another key moment in the history of γ-ray bursters, try this:
 
-8\) Burst and Transient Source Experiment (BATSE), GOTCHA! - The big one
+8) Burst and Transient Source Experiment (BATSE), GOTCHA! - The big one
 that didn't get away, January 27, 1999,
 `http://www.batse.com/jan27.html`
 
 For more on γ-ray bursters, try these:
 
-9\) NASA, γ ray bursts,
+9) NASA, γ ray bursts,
 `http://imagine.gsfc.nasa.gov/docs/introduction/bursts.html`
 
-10\) Edo Berger, Gamma-ray burst FAQ,
+10) Edo Berger, Gamma-ray burst FAQ,
 `http://www.astro.caltech.edu/~ejb/faq.html`
 
 If you get more serious, there are lots of conference proceedings to
 read, like this:
 
-11\) M. Livio, N. Panagia and K. Sahu, editors, Supernovae and Gamma-Ray
+11) M. Livio, N. Panagia and K. Sahu, editors, Supernovae and Gamma-Ray
 Bursts: The Greatest Explosions since the Big Bang, Cambridge U. Press,
 2001.
 
@@ -250,17 +250,17 @@ If you're looking for a more general background in astrophysics, this
 hefty tome is supposed to be a good intro, though I haven't tried it
 yet:
 
-12\) Bradley W. Carroll and Dale A. Ostlie, Introduction to Modern
+12) Bradley W. Carroll and Dale A. Ostlie, Introduction to Modern
 Astrophysics, Addison Wesley, 1996.
 
 Personally I've found these helpful in writing the above stuff, though
 they're full of equations, so I find myself yearning for some purple
 prose here and there:
 
-13\) R. J. Tayler, The Stars: Their Structure and Evolution, 2nd
+13) R. J. Tayler, The Stars: Their Structure and Evolution, 2nd
 edition, Cambridge U. Press, Cambridge, 1994.
 
-14\) R. Kippenhahn and A. Weigert, Stellar Structure and Evolution,
+14) R. Kippenhahn and A. Weigert, Stellar Structure and Evolution,
 Springer Verlag, Berlin, 1991.
 
 By the way, I don't know much about astrophysics, so I'd love to hear
@@ -269,14 +269,14 @@ description of Wolf-Rayet stars, the "hypernova" scenario, or γ- ray
 bursters in general. I've been fond of Wolf-Rayet stars ever since I
 wrote a few little articles on weird kinds of stars:
 
-15\) John Baez, Stuff about Stars,
+15) John Baez, Stuff about Stars,
 `http://math.ucr.edu/home/baez/stars.html`
 
 back before anyone suspected they were related to γ-ray bursters! My
 interest in them was rekindled while revising the physics FAQ on open
 questions in physics:
 
-16\) John Baez, Open Questions in Physics,
+16) John Baez, Open Questions in Physics,
 `http://math.ucr.edu/home/baez/open.questions.html`
 
 It hadn't been rewritten since 1997, and it was interesting to see how
@@ -285,63 +285,63 @@ astrophysics! Here's the current list of problems:
 
 > #### Condensed Matter and Nonlinear Dynamics
 >
-> 1\) What causes sonoluminescence?
+> 1) What causes sonoluminescence?
 >
-> 2\) What causes high temperature superconductivity?
+> 2) What causes high temperature superconductivity?
 >
-> 3\) How can turbulence be understood and its effects calculated?
+> 3) How can turbulence be understood and its effects calculated?
 >
-> 4\) The Navier-Stokes equations are the basic equations describing
+> 4) The Navier-Stokes equations are the basic equations describing
 > fluid flow. Does these equations have solutions that last for all
 > time, given arbitrary sufficiently nice initial data?
 >
 > #### Quantum Mechanics
 >
-> 1\) How should we think about quantum mechanics?
+> 1) How should we think about quantum mechanics?
 >
-> 2\) Can we build a working quantum computer big enough to do things
+> 2) Can we build a working quantum computer big enough to do things
 > ordinary computers can't easily do?
 >
 > #### Cosmology and Astrophysics
 >
-> 1\) What happened at or before the Big Bang?
+> 1) What happened at or before the Big Bang?
 >
-> 2\) Are there really three dimensions of space and one of time? If so,
+> 2) Are there really three dimensions of space and one of time? If so,
 > why? Or is spacetime higher-dimensional, or perhaps not really a
 > manifold at all when examined on a short enough distance scale?
 >
-> 3\) Why is there an arrow of time; that is, why is the future so much
+> 3) Why is there an arrow of time; that is, why is the future so much
 > different from the past?
 >
-> 4\) Is the Universe infinite in spatial extent? More generally: what
+> 4) Is the Universe infinite in spatial extent? More generally: what
 > is the topology of space?
 >
-> 5\) Will the future of the Universe go on forever or not?
+> 5) Will the future of the Universe go on forever or not?
 >
-> 6\) Is the universe really full of "dark energy"? If so, what causes
+> 6) Is the universe really full of "dark energy"? If so, what causes
 > it?
 >
-> 7\) Why does it seem like the gravitational mass of galaxies exceeds
+> 7) Why does it seem like the gravitational mass of galaxies exceeds
 > the mass of all the stuff we can see, even taking into account our
 > best bets about invisible stuff like brown dwarfs, "Jupiters", and
 > so on?
 >
-> 8\) The Horizon Problem: why is the Universe almost, but not quite,
+> 8) The Horizon Problem: why is the Universe almost, but not quite,
 > homogeneous on the very largest distance scales?
 >
-> 9\) Why are the galaxies distributed in clumps and filaments?
+> 9) Why are the galaxies distributed in clumps and filaments?
 >
-> 10\) When were the first stars formed, and what were they like?
+> 10) When were the first stars formed, and what were they like?
 >
-> 11\) What are γ ray bursters?
+> 11) What are γ ray bursters?
 >
-> 12\) What is the origin and nature of ultra-high-energy cosmic rays?
+> 12) What is the origin and nature of ultra-high-energy cosmic rays?
 >
-> 13\) Do gravitational waves really exist? If so, can we detect them?
+> 13) Do gravitational waves really exist? If so, can we detect them?
 > If so, what will they teach us about the universe? Will they mainly
 > come from expected sources, or will they surprise us?
 >
-> 14\) Do black holes really exist? (It sure seems like it.) Do they
+> 14) Do black holes really exist? (It sure seems like it.) Do they
 > really radiate energy and evaporate the way Hawking predicts? If so,
 > what happens when, after a finite amount of time, they radiate
 > completely away? What's left? Do black holes really violate all
@@ -349,34 +349,34 @@ astrophysics! Here's the current list of problems:
 > momentum and electric charge? What happens to the information
 > contained in an object that falls into a black hole?
 >
-> 15\) Is the Cosmic Censorship Hypothesis true? Roughly, for generic
+> 15) Is the Cosmic Censorship Hypothesis true? Roughly, for generic
 > collapsing isolated gravitational systems are the singularities that
 > might develop guaranteed to be hidden beyond a smooth event horizon?
 >
 > #### Particle Physicss
 >
-> 1\) Why are the laws of physics not symmetrical between left and
+> 1) Why are the laws of physics not symmetrical between left and
 > right, future and past, and between matter and antimatter?
 >
-> 2\) Why is there more matter than antimatter, at least around here?
+> 2) Why is there more matter than antimatter, at least around here?
 >
-> 3\) Are there really just three generations of leptons and quarks? If
+> 3) Are there really just three generations of leptons and quarks? If
 > so, why?
 >
-> 4\) Why does each generation of particles have precisely this
+> 4) Why does each generation of particles have precisely this
 > structure: two leptons and two quarks?
 >
-> 5\) Do the quarks or leptons have any substructure, or are they truly
+> 5) Do the quarks or leptons have any substructure, or are they truly
 > elementary particles?
 >
-> 6\) Is there really a Higgs boson, as predicted by the Standard Model
+> 6) Is there really a Higgs boson, as predicted by the Standard Model
 > of particle physics? If so, what is its mass?
 >
-> 7\) What is the correct theory of neutrinos? Why are they almost but
+> 7) What is the correct theory of neutrinos? Why are they almost but
 > not quite massless? Do all three known neutrinos - electron, muon, and
 > τ - all have a mass?
 >
-> 8\) Is quantum chromodynamics (QCD) a precise description of the
+> 8) Is quantum chromodynamics (QCD) a precise description of the
 > behavior of quarks and gluons? Can we prove that quarks are gluons are
 > confined at low temperatures using QCD? Is it possible to calculate
 > masses of hadrons (such as the proton, neutron, pion, etc.) correctly
@@ -385,32 +385,32 @@ astrophysics! Here's the current list of problems:
 > temperature? If so, what is the nature of the deconfinement phase
 > transition?
 >
-> 9\) Is there a mathematically rigorous formulation of a relativistic
+> 9) Is there a mathematically rigorous formulation of a relativistic
 > quantum field theory describing interacting (not free) fields in four
 > spacetime dimensions? For example, is the Standard Model
 > mathematically consistent? How about Quantum Electrodynamics?
 >
-> 10\) Is the proton really stable, or does it eventually decay?
+> 10) Is the proton really stable, or does it eventually decay?
 >
-> 11\) Why do the particles have the precise masses they do?
+> 11) Why do the particles have the precise masses they do?
 >
-> 12\) Why are the strengths of the fundamental forces
+> 12) Why are the strengths of the fundamental forces
 > (electromagnetism, weak and strong forces, and gravity) what they are?
 >
-> 13\) Are there important aspects of the Universe that can only be
+> 13) Are there important aspects of the Universe that can only be
 > understood using the Anthropic Principle? Or is this principle
 > unnecessary, or perhaps inherently unscientific?
 >
-> 14\) Do the forces really become unified at sufficiently high energy?
+> 14) Do the forces really become unified at sufficiently high energy?
 >
-> 15\) Does some version of string theory or M-theory give specific
+> 15) Does some version of string theory or M-theory give specific
 > predictions about the behavior of elementary particles? If so, what
 > are these predictions? Can we test these predictions in the near
 > future? And: are they correct?
 >
 > #### The Big Question
 >
-> 1\) How can we merge quantum theory and general relativity to create a
+> 1) How can we merge quantum theory and general relativity to create a
 > quantum theory of gravity? How can we test this theory?
 
 A bunch of these questions could turn out to be a bit silly - a good

@@ -4,7 +4,7 @@ I'm spending the summer in Cambridge, but last week I was in Dublin
 attending "GR17", which is short for the 17th International Conference
 on General Relativity and Gravitation:
 
-1\) GR17 homepage, `http://www.dcu.ie/~nolanb/gr17.htm`
+1) GR17 homepage, `http://www.dcu.ie/~nolanb/gr17.htm`
 
 This is where Stephen Hawking decided to announce his solution of the
 black hole information loss problem. Hawking is a media superstar right
@@ -23,7 +23,7 @@ helped lure them in. He spoke on "Fashion, Faith and Fantasy in
 Theoretical Physics", and people by the door sold copies of his brand
 new thousand-page blockbuster:
 
-2\) Roger Penrose, The Road To Reality: A Complete Guide to the Physical
+2) Roger Penrose, The Road To Reality: A Complete Guide to the Physical
 Universe, Jonathan Cape, 2004.
 
 (You may enjoy guessing which popular theories he classified under the
@@ -645,25 +645,25 @@ baby version of the problem, one dimension down from the real thing,
 where everything should get much simpler. For a bunch about the BTZ
 black hole, try:
 
-3\) Maximo Banados, Marc Henneaux, Claudio Teitelboim, and Jorge
+3) Maximo Banados, Marc Henneaux, Claudio Teitelboim, and Jorge
 Zanelli, Geometry of the 2+1 black hole, Phys. Rev. D48 (1993)
 1506-1525, also available as
 [gr-qc/9302012](http://www.arXiv.org/abs/gr-qc/9302012).
 
 The relevant paper by Maldacena seems to be:
 
-4\) Juan Maldacena, Eternal Black Holes in AdS, JHEP 0304 (2003) 021,
+4) Juan Maldacena, Eternal Black Holes in AdS, JHEP 0304 (2003) 021,
 also available as [hep-th/0106122](http://arxiv.org/abs/hep-th/0106112).
 
 You can also see a talk he gave on this at the Institute for Theoretical
 Physics at U. C. Santa Barbara:
 
-5\) Juan Maldacena, Eternal Black Holes in AdS,
+5) Juan Maldacena, Eternal Black Holes in AdS,
 `http://online.itp.ucsb.edu/online/mtheory_c01/maldacena/`.
 
 By the way, here are some photos of the conference...
 
-6\) John Baez, Dublin, `http://math.ucr.edu/home/baez/dublin/`
+6) John Baez, Dublin, `http://math.ucr.edu/home/baez/dublin/`
 
 ... and also photos of the
 [plaque](http://math.ucr.edu/home/baez/dublin/index.html#hamilton) on

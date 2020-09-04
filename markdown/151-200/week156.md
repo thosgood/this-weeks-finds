@@ -22,16 +22,16 @@ Recently, two teams of researchers have found that the mass of these
 central black holes is correlated very closely to the dispersion of
 stellar velocities in the galaxy:
 
-1\) John Kormendy, Monsters at the heart of galaxy formation, Science
+1) John Kormendy, Monsters at the heart of galaxy formation, Science
 289 (2000), 1484-1485. Available online at
 `http://www.sciencemag.org/cgi/content/full/289/5484/1484`
 
-2\) Laura Ferrarese and David Merritt, A fundamental relation between
+2) Laura Ferrarese and David Merritt, A fundamental relation between
 supermassive black holes and their host galaxies, Astrophys. J. Lett.,
 539, (2000) L9, preprint available as
 [astro-ph/0006053](http://xxx.lanl.gov/abs/astro-ph/0006053).
 
-3\) Karl Gebhardt et al, A relationship between nuclear black hole mass
+3) Karl Gebhardt et al, A relationship between nuclear black hole mass
 and galaxy velocity dispersion, Astrophys. J. Lett. 539, (2000) L13,
 preprint available as
 [astro-ph/0006289](http://xxx.lanl.gov/abs/astro-ph/0006289).
@@ -40,7 +40,7 @@ Tight correlations are a bit rare in astrophysics, so they tend to be
 important when they exist. If you look at a graph you'll see how nice
 this one is:
 
-4\) Supermassive Black Hole Group, Theory of black holes and galaxies,
+4) Supermassive Black Hole Group, Theory of black holes and galaxies,
 `http://www.physics.rutgers.edu/~merritt/theory.htm`
 
 Ferrarese and Merrit estimate that the black hole mass grows as roughly
@@ -61,7 +61,7 @@ Colbert and Mushotzky found black holes between 100 and 10,000 solar
 masses in about half of 30 nearby spiral and elliptical galaxies that
 they examined:
 
-5\) Ed Colbert's homepage, `http://www.pha.jhu.edu/~colbert/`
+5) Ed Colbert's homepage, `http://www.pha.jhu.edu/~colbert/`
 
 E. J. M. Colbert and R. F. Mushotzky, The nature of accreting black
 holes in nearby galaxy nuclei, preprint available as
@@ -70,7 +70,7 @@ holes in nearby galaxy nuclei, preprint available as
 Ptak and Griffiths found a black hole of over 460 solar masses in an
 irregular galaxy called M82:
 
-6\) A. Ptak, R. Griffiths, Hard X-ray variability in M82: evidence for a
+6) A. Ptak, R. Griffiths, Hard X-ray variability in M82: evidence for a
 nascent AGN?, preprint available as
 [astro-ph/9903372](http://xxx.lanl.gov/abs/astro-ph/9903372).
 
@@ -96,7 +96,7 @@ hydrogen about one molecule thick on a silver substrate should form a 2d
 superfluid at a temperature of 1.2 kelvin. Here's a picture of a
 computer simulation:
 
-7\) David Ceperley et al, Prospective superfluid molecular hydrogen,
+7) David Ceperley et al, Prospective superfluid molecular hydrogen,
 `http://www.aip.org/physnews/graphics/html/h2.htm`
 
 Since then, other people have cooked up other schemes.
@@ -110,7 +110,7 @@ checking experimentally that this really happens - and even *defining*
 what it means for a cluster of so few molecules to be a superfluid. I
 can't explain the details; for that you'll have to read the paper:
 
-8\) Slava Grebenev, Boris Sartakov, J. Peter Toennies, and Andrei F.
+8) Slava Grebenev, Boris Sartakov, J. Peter Toennies, and Andrei F.
 Vilesov, Evidence for superfluidity in para-hydrogen clusters inside
 helium-4 droplets at 0.15 Kelvin, Science 5484 (2000), 1532-1535,
 available online at
@@ -148,7 +148,7 @@ reasonable axioms for a quantum field theory imply symmetry under the
 *combination* of C, P and T. For the math of this, the obvious place to
 go is this classic text on axiomatic quantum field theory:
 
-9\) R. F. Streater and A. S. Wightman, PCT, Spin and Statistics, and All
+9) R. F. Streater and A. S. Wightman, PCT, Spin and Statistics, and All
 That, Addison-Wesley, Reading, Massachusetts, 1989.
 
 In case you're worried, PCT is the same thing as CPT. I like this book
@@ -187,9 +187,9 @@ So in the late 1990s, people in the CPLEAR collaboration at CERN did
 some precision experiments on neutral kaon decay, and found more direct
 evidence of T violation!
 
-10\) CPLEAR homepage, `http://cplear.web.cern.ch/cplear/Welcome.html`
+10) CPLEAR homepage, `http://cplear.web.cern.ch/cplear/Welcome.html`
 
-11\) CPLEAR collaboration, First direct observation of time-reversal
+11) CPLEAR collaboration, First direct observation of time-reversal
 non-invariance in the neutral kaon system, Phys. Lett. B 444 (1998) 43,
 available online with all other papers by this collaboration at
 `http://cplear.web.cern.ch/cplear/cplear_pub.html`
@@ -218,7 +218,7 @@ particles again.
 On July 21st, 2000, the DONUT collaboration at Fermilab announced that
 they had successfully done this experiment:
 
-12\) Christina Hebert, Phyisicists find first direct evidence for τ
+12) Christina Hebert, Phyisicists find first direct evidence for τ
 neutrino at Fermilab,
 `http://www.fnal.gov/directorate/public_affairs/story_neutrino/p1.html`
 
@@ -241,7 +241,7 @@ much all it can do, and they need to deactivate it to build an even more
 powerful accelerator - LHC, the Large Hadron Collider. But at the last
 minute they decided to extend its life to November 2nd, 2000:
 
-13\) LEP shutdown postponed by one month,
+13) LEP shutdown postponed by one month,
 `http://press.web.cern.ch/Press/Releases00/PR08.00ELEPRundelay.html`
 
 They're going for broke, boosting its power to the utter max, so that
@@ -263,7 +263,7 @@ supersymmetric extension of the Standard Model, and a
 "next-to-minimal" supersymmetric extension. This is a major project;
 you can find lots of details here:
 
-14\) Higgs Working Group webpage,
+14) Higgs Working Group webpage,
 `http://fnth37.fnal.gov/higgs/higgs.html`
 
 That's basically it for this week. I just have a couple of questions
@@ -274,7 +274,7 @@ either J^2 = 1 or J^2 = -1. In the first case H comes from a real
 representation; in the second case it comes from a quaternionic
 representation. For more details, try this:
 
-15\) John Baez, Symplectic, quaternionic, fermionic,
+15) John Baez, Symplectic, quaternionic, fermionic,
 `http://math.ucr.edu/home/baez/symplectic.html`
 
 Now, after I mentioned this, someone who goes by the name of "squark"

@@ -22,7 +22,7 @@ Here's what the new ring would look like if you could see it:
 [![](saturn_phoebe_ring.jpg)](http://www.jpl.nasa.gov/news/news.cfm?release=2009-150)
 :::
 
-1\) Jet Propulsion Laboratory, NASA space telescope discovers largest
+1) Jet Propulsion Laboratory, NASA space telescope discovers largest
 ring around Saturn, October 6, 2009,
 `http://www.jpl.nasa.gov/news/news.cfm?release=2009-150`
 
@@ -34,7 +34,7 @@ actually saw:
 [![](saturn_phoebe_ring_photo.jpg){width="300"}](http://www.nasa.gov/mission_pages/spitzer/multimedia/spitzer-20091007d.html)
 :::
 
-2\) NASA, Big band of dust,
+2) NASA, Big band of dust,
 `http://www.nasa.gov/mission_pages/spitzer/multimedia/spitzer-20091007d.html`
 
 It's an edge-on view of the new ring. It's fat: 20 Saturns thick. And
@@ -42,7 +42,7 @@ if you look carefully, you'll see that it has two layers, with a bit of
 a gap in the middle. According to the scientists who discovered it, this
 is consistent with its origin:
 
-3\) Anne Verbiscer, Michael Skrutskie, and Doug Hamilton, Saturn's
+3) Anne Verbiscer, Michael Skrutskie, and Doug Hamilton, Saturn's
 largest ring, Nature, October 7, 2009.
 
 The point is that this ring surrounds the orbit of Saturn's moon
@@ -86,7 +86,7 @@ Cassini probe:
 [![](iapetus_closeup_2.jpg){width="600"}](http://photojournal.jpl.nasa.gov/catalog/PIA08382)
 :::
 
-4\) NASA Photojournal, Spotty Iapetus,
+4) NASA Photojournal, Spotty Iapetus,
 `http://photojournal.jpl.nasa.gov/catalog/PIA08382`
 
 NASA Photojournal, Inky stains on a frozen moon,
@@ -113,7 +113,7 @@ If you want more, there's a great introduction to Saturn's rings in
 this blog, followed by a nontechnical summary of the new paper on the
 Phoebe ring:
 
-5\) Emily Lakdawalla, The Phoebe ring, The Planetary Society Blog,
+5) Emily Lakdawalla, The Phoebe ring, The Planetary Society Blog,
 October 14, 2009, `http://planetary.org/blog/article/00002165/`
 
 As Lakdawalla points out, discovering a big ring was just the beginning:
@@ -159,7 +159,7 @@ professional programmer, and he's written a remarkable collection of
 Java applets, which you can see on his website. Here's the
 latest:]{#tilings}
 
-6\) Greg Egan, Girih, `http://www.gregegan.net/APPLETS/32/32.html`
+6) Greg Egan, Girih, `http://www.gregegan.net/APPLETS/32/32.html`
 
 This program generates quasiperiodic tilings with approximate 10-fold
 rotational symmetry using a method called "inflation". The idea of
@@ -209,7 +209,7 @@ The work of Penrose launched a huge investigation into quasiperiodic
 tilings and quasicrystals. With their eyes opened, modern scientists saw
 how fascinating the old Timurid tilings were:
 
-7\) Peter J. Lu and Paul J. Steinhardt, Decagonal and quasi-crystalline
+7) Peter J. Lu and Paul J. Steinhardt, Decagonal and quasi-crystalline
 tilings in medieval Islamic architecture, Science 315 (2007), 1106-1110.
 
 Lu and Steinhardt described a set of 5 tiles which seem to underlie a
@@ -251,12 +251,12 @@ resides in the Topkapi Palace in Istanbul.
 
 I would love to get my paws on this color reproduction:
 
-8\) Gulru Necipoglu and Mohammad al-Asad, The Topkapi Scroll - Geometry
+8) Gulru Necipoglu and Mohammad al-Asad, The Topkapi Scroll - Geometry
 and Ornament in Islamic Architecture, Getty Publications, 1996.
 
 For now, the best substitute I've found is this beautiful article:
 
-9\) Peter R. Cromwell, The search for quasi-periodicity in Islamic
+9) Peter R. Cromwell, The search for quasi-periodicity in Islamic
 5-fold ornament, Math. Intelligencer 31 (2009), 36-56. Also available at
 [http://www.springerlink.com/content/760261153n347478/?p=405b9dbf45ea4f4793a097b6e12dcb08pi=7](http://www.springerlink.com/content/760261153n347478/?p=405b9dbf45ea4f4793a097b6e12dcb08&pi=7)
 
@@ -292,7 +292,7 @@ Islamic art:
 Here's a less mathematical and more historical introduction to the
 Timurid tile artists, also with lots of nice pictures:
 
-10\) Sebastian R. Prange, The tiles of infinity, Saudi Aramco World
+10) Sebastian R. Prange, The tiles of infinity, Saudi Aramco World
 (October-November 2009), 24-31. Also available at
 `http://www.saudiaramcoworld.com/issue/200905/the.tiles.of.infinity.htm`
 
@@ -300,21 +300,21 @@ You should also check out Craig Kaplan's work. He's studied Kepler's
 work on patterns built from decagons, and written software that
 generates beautiful star patterns:
 
-11\) Craig Kaplan, The trouble with five, Plus Magazine 45 (December
+11) Craig Kaplan, The trouble with five, Plus Magazine 45 (December
 2007), available at `http://plus.maths.org/issue45/features/kaplan/`
 
-12\) Craig Kaplan, A meditation on Kepler's Aa, in Bridges 2006:
+12) Craig Kaplan, A meditation on Kepler's Aa, in Bridges 2006:
 Mathematical Connections in Art, Music and Science, 2006, pp. 465-472.
 Also available at
 `http://www.cgl.uwaterloo.ca/~csk/papers/bridges2006a.html`
 
-13\) Craig Kaplan, Taprats: computer generated Islamic star patterns,
+13) Craig Kaplan, Taprats: computer generated Islamic star patterns,
 `http://www.cgl.uwaterloo.ca/~csk/washington/taprats/`
 
 Together with David Salesin, he's also gone beyond the old masters by
 studying tilings in spherical and hyperbolic geometry:
 
-14\) Craig S. Kaplan and David H. Salesin, Islamic star patterns in
+14) Craig S. Kaplan and David H. Salesin, Islamic star patterns in
 absolute geometry, ACM Transactions on Graphics 23 (April 2004), 97-119.
 Also available at `http://www.cgl.uwaterloo.ca/~csk/papers/tog2004.html`
 
@@ -324,7 +324,7 @@ Also available at `http://www.cgl.uwaterloo.ca/~csk/papers/tog2004.html`
 
 Another key player in this business is Eric Broug:
 
-15\) Broug Ateliers: Islamic Geometric Design, `http://www.broug.com/`
+15) Broug Ateliers: Islamic Geometric Design, `http://www.broug.com/`
 
 Check out the nice [photo
 gallery](http://www.broug.com/gallery_photo.htm) and the [lesson on
@@ -334,7 +334,7 @@ products](http://www.broug.com/product_ot.htm). But I bought this
 [book](http://www.broug.com/product_books.htm), which explains how to
 make the patterns yourself:
 
-16\) Eric Broug, Islamic Geometric Patterns (book with CD-ROM), Thames
+16) Eric Broug, Islamic Geometric Patterns (book with CD-ROM), Thames
 and Hudson, 2008.
 
 Even if you don't have the skill or time to draw these patterns, the
@@ -362,15 +362,15 @@ to life! In particular, the surface acts a bit like the worldsheet of a
 string. It doesn't behave like the strings in ordinary string theory.
 But Winston Fairbairn has been thinking about this a lot:
 
-17\) Winston J. Fairbairn and Alejandro Perez, Extended matter coupled
+17) Winston J. Fairbairn and Alejandro Perez, Extended matter coupled
 to BF theory, Phys. Rev. D78:024013, 2008. Also available as
 [`arXiv:0709.4235`](http://arxiv.org/abs/0709.4235).
 
-18\) Winston J. Fairbairn, On gravitational defects, particles and
+18) Winston J. Fairbairn, On gravitational defects, particles and
 strings, JHEP 0809:126, 2008. Also available as
 [`arXiv:0807.3188`](http://arxiv.org/abs/0807.3188).
 
-19\) Winston J. Fairbairn, Karim Noui and Francesco Sardelli, Canonical
+19) Winston J. Fairbairn, Karim Noui and Francesco Sardelli, Canonical
 analysis of algebraic string actions, available as
 [`arXiv:0908.0953`](http://arxiv.org/abs/0908.0953)
 
@@ -390,7 +390,7 @@ In a different but possibly related direction, Aristide Baratin gave a
 talk on recent work he's been doing with Derek Wise and Laurent
 Freidel. You can get a feel for this work from this paper:
 
-20\) Aristide Baratin, Derek K. Wise, 2-Group representations for spin
+20) Aristide Baratin, Derek K. Wise, 2-Group representations for spin
 foams, to appear in proceedings of the XXV Max Born Symposium: The
 Planck Scale, Wroclaw, Poland. Also available as
 [`arXiv:0910.1542`](http://arxiv.org/abs/0910.1542).
@@ -425,115 +425,115 @@ A lot to think about.
 To wrap up, here's a big list of references from Cromwell's paper on
 tilings I hadn't known so much had been written about this subject!
 
-21\) M. Arik and M. Sancak, Turkish-Islamic art and Penrose tilings,
+21) M. Arik and M. Sancak, Turkish-Islamic art and Penrose tilings,
 Balkan Physics Letters 15 (1 Jul 2007) 1-12.
 
-22\) J. Bonner, Three traditions of self-similarity in fourteenth and
+22) J. Bonner, Three traditions of self-similarity in fourteenth and
 fifteenth century Islamic geometric ornament, Proc. ISAMA/Bridges:
 Mathematical Connections in Art, Music and Science, (Granada, 2003),
 eds. R. Sarhangi and N. Friedman, 2003, pp. 1-12.
 
-23\) J. Bonner, Islamic Geometric Patterns: Their Historical Development
+23) J. Bonner, Islamic Geometric Patterns: Their Historical Development
 and Traditional Methods of Derivation, unpublished manuscript.
 
-24\) J. Bourgoin, Les Elements de l'Art Arabe: Le Trait des Entrelacs,
+24) J. Bourgoin, Les Elements de l'Art Arabe: Le Trait des Entrelacs,
 Firmin-Didot, 1879. Plates reprinted in Arabic Geometric Pattern and
 Design, Dover Publications, 1973.
 
-25\) J.-M. Castira, Arabesques: Art Decoratif au Maroc, ACR Edition,
+25) J.-M. Castira, Arabesques: Art Decoratif au Maroc, ACR Edition,
 1996.
 
-26\) J.-M. Castira, Zellijs, muqarnas and quasicrystals, Proc. ISAMA,
+26) J.-M. Castira, Zellijs, muqarnas and quasicrystals, Proc. ISAMA,
 (San Sebastian, 1999), eds. N. Friedman and J. Barrallo, 1999, pp.
 99-104.
 
-27\) G. M. Fleurent, Pentagon and decagon designs in Islamic art,
+27) G. M. Fleurent, Pentagon and decagon designs in Islamic art,
 Fivefold Symmetry, ed. I. Hargittai, World Scientific, 1992, pp.
 263-281.
 
-28\) B. Grunbaum and G. C. Shephard, Tilings and Patterns, W. H.
+28) B. Grunbaum and G. C. Shephard, Tilings and Patterns, W. H.
 Freeman, 1987.
 
-29\) E. H. Hankin, On some discoveries of the methods of design employed
+29) E. H. Hankin, On some discoveries of the methods of design employed
 in Mohammedan art, J. Society of Arts 53 (1905) 461-477.
 
-30\) E. H. Hankin, The Drawing of Geometric Patterns in Saracenic Art,
+30) E. H. Hankin, The Drawing of Geometric Patterns in Saracenic Art,
 Memoirs of the Archaeological Society of India, no 15, Government of
 India, 1925.
 
-31\) E. H. Hankin, Examples of methods of drawing geometrical arabesque
+31) E. H. Hankin, Examples of methods of drawing geometrical arabesque
 patterns, Math. Gazette 12 (1925), 370-373.
 
-32\) E. H. Hankin, Some difficult Saracenic designs II, Math. Gazette 18
+32) E. H. Hankin, Some difficult Saracenic designs II, Math. Gazette 18
 (1934), 165-168.
 
-33\) E. H. Hankin, Some difficult Saracenic designs III, Math. Gazette
+33) E. H. Hankin, Some difficult Saracenic designs III, Math. Gazette
 20 (1936), 318-319.
 
-34\) A. J. Lee, Islamic star patterns, Muqarnas IV: An Annual on Islamic
+34) A. J. Lee, Islamic star patterns, Muqarnas IV: An Annual on Islamic
 Art and Architecture, ed. O. Grabar, Leiden, 1987, pp. 182.197.
 
-35\) P. J. Lu and P. J. Steinhardt, Response to Comment on "Decagonal
+35) P. J. Lu and P. J. Steinhardt, Response to Comment on "Decagonal
 and quasi-crystalline tilings in medieval Islamic architecture",
 Science 318 (30 Nov 2007), 1383.
 
 36). F. Lunnon and P. Pleasants, Quasicrystallographic tilings, J. Math.
 Pures et Appliques 66 (1987), 217-263.
 
-37\) E. Makovicky, 800-year old pentagonal tiling from Maragha, Iran,
+37) E. Makovicky, 800-year old pentagonal tiling from Maragha, Iran,
 and the new varieties of aperiodic tiling it inspired, Fivefold
 Symmetry, ed. I. Hargittai, World Scientific, 1992, pp. 67-86.
 
-38\) E. Makovicky, Comment on "Decagonal and quasi-crystalline tilings
+38) E. Makovicky, Comment on "Decagonal and quasi-crystalline tilings
 in medieval Islamic architecture", Science 318 (30 Nov 2007), 1383.
 
-39\) E. Makovicky and P. Fenoll Hach-Alm, Mirador de Lindaraja: Islamic
+39) E. Makovicky and P. Fenoll Hach-Alm, Mirador de Lindaraja: Islamic
 ornamental patterns based on quasi-periodic octagonal lattices in
 Alhambra, Granada, and Alcazar, Sevilla, Spain, Boletin Sociedad
 Espanola Mineralogia 19 (1996), 1-26.
 
-40\) E. Makovicky and P. Fenoll Hach-Alm, The stalactite dome of the
+40) E. Makovicky and P. Fenoll Hach-Alm, The stalactite dome of the
 Sala de Dos Hermanas - an octagonal tiling?, Boletin Sociedad Espanola
 Mineralogia 24 (2001), 1-21.
 
-41\) E. Makovicky, F. Rull Pirez and P. Fenoll Hach-Alm, Decagonal
+41) E. Makovicky, F. Rull Pirez and P. Fenoll Hach-Alm, Decagonal
 patterns in the Islamic ornamental art of Spain and Morocco, Boletmn
 Sociedad Espanola Mineralogia 21 (1998), 107-127.
 
-42\) J. Rigby, A Turkish interlacing pattern and the golden ratio,
+42) J. Rigby, A Turkish interlacing pattern and the golden ratio,
 Mathematics in School 34 no 1 (2005), 16-24.
 
-43\) J. Rigby, Creating Penrose-type Islamic interlacing patterns, Proc.
+43) J. Rigby, Creating Penrose-type Islamic interlacing patterns, Proc.
 Bridges: Mathematical Connections in Art, Music and Science, (London,
 2006), eds. R. Sarhangi and J. Sharp, 2006, pp. 41-48.
 
-44\) F. Rull Pirez, La nocion de cuasi-cristal a traves de los mosaicos
+44) F. Rull Pirez, La nocion de cuasi-cristal a traves de los mosaicos
 arabes, Boletin Sociedad Espanola Mineralogia 10 (1987), 291-298.
 
-45\) P. W. Saltzman, Quasi-periodicity in Islamic ornamental design,
+45) P. W. Saltzman, Quasi-periodicity in Islamic ornamental design,
 Nexus VII: Architecture and Mathematics, ed. K. Williams, 2008, pp.
 153-168.
 
-46\) M. Senechal, Quasicrystals and Geometry, Cambridge Univ. Press,
+46) M. Senechal, Quasicrystals and Geometry, Cambridge Univ. Press,
 1995.
 
-47\) M. Senechal and J. Taylor, Quasicrystals: The view from Les
+47) M. Senechal and J. Taylor, Quasicrystals: The view from Les
 Houches, Math. Intelligencer 12 (1990) 54-64.
 
 Reference 24, the book by Bourgoin, is a classic - and the Dover version
 is probably quite affordable. Cromwell also lists some more websites:
 
-48\) ArchNet, Library of digital images of Islamic architecture,
+48) ArchNet, Library of digital images of Islamic architecture,
 `http://archnet.org/library/images/`
 
-49\) E. Harriss and D. Frettlöh, Tilings Encyclopedia,
+49) E. Harriss and D. Frettlöh, Tilings Encyclopedia,
 `http://tilings.math.uni-bielefeld.de/`
 
-50\) P. J. Lu and P. J. Steinhardt, Decagonal and quasi-crystalline
+50) P. J. Lu and P. J. Steinhardt, Decagonal and quasi-crystalline
 tilings in medieval Islamic architecture, supporting online material,
 `http://www.sciencemag.org/cgi/content/full/315/5815/1106/DC1`
 
-51\) D. Wade, Pattern in Islamic Art: The Wade Photo-Archive,
+51) D. Wade, Pattern in Islamic Art: The Wade Photo-Archive,
 `http://www.patterninislamicart.com/`
 
 The last one is a huge treasure trove of images!
@@ -608,7 +608,7 @@ wonderful work on tilings I mentioned above. He writes:
 > decagons, pentagons, and funky hexagons. It's in this paper, which
 > you didn't link to:
 >
-> 52\) Craig S. Kaplan, Islamic star patterns from polygons in contact,
+> 52) Craig S. Kaplan, Islamic star patterns from polygons in contact,
 > in GI '05: Proceedings of the 2005 conference on Graphics Interface,
 > 2005. Also available at
 > `http://www.cgl.uwaterloo.ca/~csk/papers/gi2005.html`
@@ -617,7 +617,7 @@ wonderful work on tilings I mentioned above. He writes:
 
 Brian Wichmann pointed out this online database:
 
-53\) Brian Wichmann, A tiling database, `http://www.tilingsearch.org/`
+53) Brian Wichmann, A tiling database, `http://www.tilingsearch.org/`
 
 Here's a database entry from the Alhambra:
 
@@ -641,7 +641,7 @@ Later Hirschhorn and Hunt extended their result to cover all
 
 Presumably this page is based on Hirschhorn and Hunt's work:
 
-54\) MathPuzzle, The 14 different types of convex pentagons that tile
+54) MathPuzzle, The 14 different types of convex pentagons that tile
 the plane, available at `http://www.mathpuzzle.com/tilepent.html`
 
 For more discussion visit the [*n*-Category

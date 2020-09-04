@@ -27,7 +27,7 @@ participants of the conference Strings 2000 chose these:
 
 For details see:
 
-1\) Physics problems for the next millennium,
+1) Physics problems for the next millennium,
 `http://feynman.physics.lsa.umich.edu/strings2000/millennium.html`
 
 I think most of these questions are pretty good if one limits physics to
@@ -75,7 +75,7 @@ Anderson, since it excludes everything they work on. He writes:
 
 For the rest of his remarks, see:
 
-2\) What questions have disappeared?, The World Question Center,
+2) What questions have disappeared?, The World Question Center,
 `http://www.edge.org/documents/questions/q2001.html`
 
 Personally, I would be wary of asserting that a piece of knowledge "can
@@ -235,7 +235,7 @@ quaternions. Once you understand this trick, it's natural to wonder if
 you can construct exotic 15-spheres the same way, but using octonions
 instead of quaternions. Well, you can:
 
-3\) Nobuo Shimada, Differentiable structures on the 15-sphere and
+3) Nobuo Shimada, Differentiable structures on the 15-sphere and
 Pontrjagin classes of certain manifolds, Nagoya Math. Jour. (12) 1957,
 59-69.
 
@@ -326,7 +326,7 @@ Finally, I'd like to list a few articles that I've been meaning to
 read, but haven't gotten around to. I hope to read them sometime *this*
 millennium! I'll quote the abstracts and make a few comments.
 
-4\) Jack Morava, Cobordism of symplectic manifolds and asymptotic
+4) Jack Morava, Cobordism of symplectic manifolds and asymptotic
 expansions, a talk at the conference in honor of S.P. Novikov's 60th
 birthday, available as
 [math.SG/9908070](http://xxx.lanl.gov/abs/math.SG/9908070).
@@ -343,7 +343,7 @@ complex oriented cohomology theories in ["Week 150"](#week150),
 because I'm quite puzzled about the deep inner meaning of this
 relation. This paper might be the key to this mystery!
 
-5\) Detlev Buchholz, Current trends in axiomatic quantum field theory,
+5) Detlev Buchholz, Current trends in axiomatic quantum field theory,
 available as [hep-th/9811233](http://xxx.lanl.gov/abs/hep-th/9811233).
 
 > In this article a non-technical survey is given of the present status
@@ -363,7 +363,7 @@ I've been falling behind on new developments in axiomatic quantum field
 theory. Lots of cool stuff is happening, I hear. This might help me
 catch up.
 
-6\) Matt Visser, The reliability horizon, available as
+6) Matt Visser, The reliability horizon, available as
 [gr-qc/9710020](http://xxx.lanl.gov/abs/gr-qc/9710020).
 
 > The "reliability horizon" for semi-classical quantum gravity
@@ -378,7 +378,7 @@ semiclassical calculations are likely to break down, and quantum gravity
 effects to become important. Why haven't I read this? It's obviously
 worthwhile!
 
-7\) Bianca Letizia Cerchiai and Julius Wess, q-Deformed Minkowski Space
+7) Bianca Letizia Cerchiai and Julius Wess, q-Deformed Minkowski Space
 based on a q-Lorentz Algebra, available as
 [math.QA/9801104](http://xxx.lanl.gov/abs/math.QA/9801104).
 

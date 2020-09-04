@@ -8,10 +8,10 @@ ranging from -4 to 4:
 [![](http://math.ucr.edu/home/baez/roots/deg5.png){width="600"}](http://math.ucr.edu/home/baez/roots/deg5.png)
 :::
 
-1\) Dan Christensen, Plots of roots of polynomials with integer
+1) Dan Christensen, Plots of roots of polynomials with integer
 coefficients, `http://jdc.math.uwo.ca/roots/`
 
-2\) John Baez, The beauty of roots,
+2) John Baez, The beauty of roots,
 `http://math.ucr.edu/home/baez/roots/`
 
 Click on the picture for bigger view. Roots of quadratic polynomials are
@@ -172,17 +172,17 @@ lot left to do: conjectures to make, theorems to prove, and pictures to
 draw! If you come up with some pretty pictures, I'd love to include
 them on my webpage - and cite you. For previous research, see:
 
-3\) Loki Joergenson, Zeros of polynomials with constrained coefficients,
+3) Loki Joergenson, Zeros of polynomials with constrained coefficients,
 `http://www.cecm.sfu.ca/~loki/Projects/Roots/`
 
-4\) Eric W. Weisstein, MathWorld, Polynomial roots,
+4) Eric W. Weisstein, MathWorld, Polynomial roots,
 `http://mathworld.wolfram.com/PolynomialRoots.html`
 
 My colleague the knot theorist Xiao-Song Lin - sadly no longer with us -
 plotted the zeros of the Jones polynomial for prime alternating knots
 with up to 13 crossings, and you can see his pictures here:
 
-5\) Xiao-Song Lin, Zeros of the Jones polynomial,
+5) Xiao-Song Lin, Zeros of the Jones polynomial,
 `http://math.ucr.edu/~xl/abs-jk.pdf`
 
 You'll see that *some* of the patterns in his pictures just come from
@@ -191,7 +191,7 @@ coefficients... since the Jones polynomial has integer coefficients.
 
 This paper is also interesting:
 
-6\) Andrew M. Odlyzko and B. Poonen, Zeros of polynomials with 0,1
+6) Andrew M. Odlyzko and B. Poonen, Zeros of polynomials with 0,1
 coefficients, L'Enseignement Math. 39 (1993), 317-348. Also available
 at `http://dx.doi.org/10.5169/seals-60430`
 
@@ -217,7 +217,7 @@ session on homotopy theory and higher algebraic structures at UC
 Riverside. You can see videos of these talks here, or by clicking on the
 talk titles below:
 
-7\) Special session on homotopy theory and higher algebraic structures,
+7) Special session on homotopy theory and higher algebraic structures,
 AMS Western Section Meeting, November 7-8, 2009. Talks available as
 Quicktime videos at `http://math.ucr.edu/~jbergner/amsriverside09.htm`
 
@@ -232,14 +232,14 @@ Eric Malm of Stanford University started the show bright and early 8:30
 am on Sunday with a talk on "[String topology and the based loop
 space](ams_2009/Malm_AMS_UCR_2009.mov)". You can see the slides here:
 
-8\) Eric Malm, String topology and the based loop space,
+8) Eric Malm, String topology and the based loop space,
 `http://math.ucr.edu/~jbergner/ucr-st-present.pdf`
 
 In its original form, string topology studies the *unbased* loop space
 of an oriented d-dimensional manifold M. This is the space LM of all
 maps from a circle into M. In their fundamental paper on the subject:
 
-9\) Moira Chas and Dennis Sullivan, String topology, available as
+9) Moira Chas and Dennis Sullivan, String topology, available as
 [`arXiv:math/9911159`](http://arXiv.org/abs/arXiv:math/9911159).
 
 Chas and Sullivan showed that the homology groups of LM with degrees
@@ -277,7 +277,7 @@ of a manifold, using its relations to Hochschild homology. For some
 useful background here, try this book - or at least the very informative
 review:
 
-10\) Ralph L. Cohen, Kathryn Hess, and Alexander A. Voronov, String
+10) Ralph L. Cohen, Kathryn Hess, and Alexander A. Voronov, String
 Topology and Cyclic Homology, Birkhauser, Boston, 2006. Review by Janko
 Latschev at `http://www.ams.org/bull/0000-000-00/S0273-0979-09-01265-8/`
 
@@ -313,14 +313,14 @@ the *smooth structure* on our orbifold. To deal with these, it's nice
 to treat orbifolds as "Lie groupoids" or "stacks". I could say a lot
 more, but instead I'll just refer you to this very readable paper:
 
-11\) Eugene Lerman, Orbifolds as stacks? Available as
+11) Eugene Lerman, Orbifolds as stacks? Available as
 [`arXiv:0806.4160`](http://arxiv.org/abs/0806.4160).
 
 It begins by discussing easy approaches, then describes their flaws, and
 so on, leading up to the current state of the art. After this warmup,
 try:
 
-12\) Dorette Pronk and Laura Scull, Translation groupoids and orbifold
+12) Dorette Pronk and Laura Scull, Translation groupoids and orbifold
 Bredon cohomology, [`arXiv:0705.3249`](http://arxiv.org/abs/0705.3249).
 
 Then Anssi Lahtinen of Stanford University spoke about "[The
@@ -393,10 +393,10 @@ Lahtinen spoke about!
 Next, Konrad Waldorf of UC Berkeley spoke on "[String connections and
 supersymmetric sigma models](ams_2009/Waldorf_AMS_UCR_2009.mov)":
 
-13\) Konrad Waldorf, String connections and supersymmetric sigma models,
+13) Konrad Waldorf, String connections and supersymmetric sigma models,
 `http://www.konradwaldorf.de/docs/riverside.pdf`
 
-14\) Konrad Waldorf, String connections and Chern-Simons theory,
+14) Konrad Waldorf, String connections and Chern-Simons theory,
 available as [arxiv:0906.0117](http://arxiv.org/abs/0906.0117).
 
 His talk was a great introduction to some things I know and love, and
@@ -438,7 +438,7 @@ So: every spin structure on M gives an element of the fourth integral
 cohomology group of M, and thus a 2-gerbe. This is called the
 "Chern-Simons 2-gerbe". The reason for this term is explained here:
 
-15\) Urs Schreiber, States of Chern-Simons theory,
+15) Urs Schreiber, States of Chern-Simons theory,
 `http://golem.ph.utexas.edu/category/2008/02/states_of_chernsimons_theory.html`
 
 There are lots of ways to think about "string structures" on a spin
@@ -451,7 +451,7 @@ Next, Søren Galatius of Stanford University gave a talk on "[Monoids of
 moduli spaces of manifolds](ams_2009/Galatius_AMS_UCR_2009.mov)",
 explaining a paper with the same title:
 
-16\) Søren Galatius and Oscar Randal-Williams, Monoids of moduli spaces
+16) Søren Galatius and Oscar Randal-Williams, Monoids of moduli spaces
 of manifolds, available as
 [`arXiv:0905.2855`](http://arxiv.org/abs/0905.2855).
 
@@ -459,7 +459,7 @@ The goal of their work was to create a title with as many words
 beginning with "M" as possible... no, not really. In fact, it's a
 kind of continuation of this famous paper:
 
-17\) Søren Galatius, Ib Madsen, Ulrike Tillmann, and Michael Weiss, The
+17) Søren Galatius, Ib Madsen, Ulrike Tillmann, and Michael Weiss, The
 homotopy type of the cobordism category, available as
 [`arXiv:math/0605249`](http://arxiv.org/abs/math/0605249).
 
@@ -649,7 +649,7 @@ conjugation in groups, captured by the quandle axioms. And the quandle
 axioms also cover *Lie algebras*, with self-distributivity corresponding
 to the Jacobi identity:
 
-16\) J. Scott Carter, Alissa Crans, Mohamed Elhamdadi and Masahico
+16) J. Scott Carter, Alissa Crans, Mohamed Elhamdadi and Masahico
 Saito, Cohomology of categorical self-distributivity, available as
 [`arXiv:math/0607417`](http://arXiv.org/abs/arXiv:math/0607417).
 
@@ -662,7 +662,7 @@ studying "2-quandles", which should relate 2-tangles to conjugation in
 Next, Chad Giusti of the University of Oregon spoke on "[Unstable
 Vassiliev theory](ams_2009/Giusti_AMS_UCR_2009.mov)":
 
-17\) Chad Giusti, Unstable Vassiliev theory,
+17) Chad Giusti, Unstable Vassiliev theory,
 `http://math.ucr.edu/~jbergner/RiversideTalk.pdf`
 
 The goal here is to understand the space of "long knots". A long knot
@@ -692,7 +692,7 @@ Then Robin Koytcheff of Stanford University gave a somewhat related talk
 on "[A homotopy-theoretic view of Bott-Taubes integrals and knot
 spaces](ams_2009/Koytcheff_AMS_UCR_2009.mov)":
 
-18\) Robin Koytcheff, A homotopy-theoretic view of Bott-Taubes integrals
+18) Robin Koytcheff, A homotopy-theoretic view of Bott-Taubes integrals
 and knot spaces, `http://math.ucr.edu/~jbergner/RKslidesUCR.pdf`
 
 He began with a nice introduction to the Bott-Taubes approach to
@@ -701,7 +701,7 @@ Vassiliev theory. Then he gave a great description of how the little
 can use this to underand the homology of this space. Then he discussed
 how to combine these ideas. For more details, see:
 
-19\) Robin Koytcheff, A homotopy-theoretic view of Bott-Taubes integrals
+19) Robin Koytcheff, A homotopy-theoretic view of Bott-Taubes integrals
 and knot spaces, Alg. Geom. Top. 9 (2009), 1467-1501. Also available as
 [`arXiv:0810.1785`](http://arxiv.org/abs/0810.1785).
 
@@ -720,10 +720,10 @@ Finally, [Scott Morrison](ams_2009/Morrison_AMS_UCR_2009.mov) and [Kevin
 Walker](ams_2009/KWalker_AMS_UCR_2009.mov) gave a 2-part talk on "blob
 homology" - a great introduction to their big paper in progress:
 
-20\) Scott Morrison and Kevin Walker, Blob homology slides:
+20) Scott Morrison and Kevin Walker, Blob homology slides:
 `http://tqft.net/UCR-blobs1` and `http://tqft.net/UCR-blobs2`
 
-21\) Scott Morrison and Kevin Walker, The blob complex. Draft available
+21) Scott Morrison and Kevin Walker, The blob complex. Draft available
 at `http://tqft.net/papers/blobs.pdf`
 
 The clever idea here is to use manifolds to provide a quick and

@@ -24,7 +24,7 @@ a dialogue instead of a monologue now and then.
 Other things are changing too. I started a new blog! If you're
 interested in how scientists can help save the planet, I hope you visit:
 
-1\) Azimuth, `http://johncarlosbaez.wordpress.com`
+1) Azimuth, `http://johncarlosbaez.wordpress.com`
 
 This is where you can find This Week's Finds, starting now.
 
@@ -109,10 +109,10 @@ is related to combinatorics, and it gives a purely combinatorial proof
 that the derivative of e^x^ is e^x^, and lots more. Try these books to
 see what I mean:
 
-2\) Herbert Wilf, Generatingfunctionology, Academic Press, Boston, 1994.
+2) Herbert Wilf, Generatingfunctionology, Academic Press, Boston, 1994.
 Available for free at `http://www.cis.upenn.edu/~wilf/`.
 
-3\) F. Bergeron, G. Labelle, and P. Leroux, Combinatorial Species and
+3) F. Bergeron, G. Labelle, and P. Leroux, Combinatorial Species and
 Tree-Like Structures, Cambridge, Cambridge U. Press, 1998.
 
 For example: if you take a huge finite set, and randomly pick a
@@ -159,7 +159,7 @@ But suppose we restrict ourselves to abelian groups whose size is some
 power of a fixed prime p? Then we're in business! The answer isn't a
 famous number like π, but it was computed by Philip Hall here:
 
-4\) Philip Hall, A partition formula connected with Abelian groups,
+4) Philip Hall, A partition formula connected with Abelian groups,
 Comment. Math. Helv. 11 (1938), 126-129.
 
 We can write the answer using an infinite product:
@@ -231,10 +231,10 @@ formulation in terms of groupoid cardinality. We went through several
 proofs, but we haven't yet been able to extract any deep inner meaning
 from them:
 
-5\) Avinoam Mann, Philip Hall's "rather curious'' formula for
+5) Avinoam Mann, Philip Hall's "rather curious'' formula for
 abelian p-groups, Israel J. Math. 96 (1996), part B, 445-448.
 
-6\) Francis Clarke, Counting abelian group structures, Proceedings of
+6) Francis Clarke, Counting abelian group structures, Proceedings of
 the AMS, 134 (2006), 2795-2799.
 
 However, I still have hopes, in part because the math is related to zeta
@@ -315,7 +315,7 @@ Is this just a weird coincidence? No: this is what we *always* get! For
 *any* positive integer n, the groupoid of $n$-element semsimple
 commutative rings has cardinality 1. For a proof, see:
 
-7\) John Baez and James Dolan, Zeta functions, at
+7) John Baez and James Dolan, Zeta functions, at
 `http://ncatlab.org/johnbaez/show/Zeta+functions`
 
 Now, you might think this fact is just a curiosity, but actually it's a
@@ -353,7 +353,7 @@ finite sets is a finite set equipped with honest-to-goodness extra
 Structure is a special case of stuff. If you're not clear on the
 difference, try this:
 
-8\) John Baez and Mike Shulman, Lectures on $n$-categories and cohomology,
+8) John Baez and Mike Shulman, Lectures on $n$-categories and cohomology,
 Sec. 2.4: Stuff, structure and properties, in $n$-Categories: Foundations
 and Applications, eds. John Baez and Peter May, Springer, Berlin, 2009.
 Also available as
@@ -510,11 +510,11 @@ Someday people will see exactly how this is related to bosonic string
 theory. Indeed, it should be just a tiny part of a big story connecting
 number theory to string theory... some of which is explained here:
 
-9\) J. M. Luck, P. Moussa, and M. Waldschmidt, eds., Number Theory and
+9) J. M. Luck, P. Moussa, and M. Waldschmidt, eds., Number Theory and
 Physics, Springer Proceedings in Physics, Vol. 47, Springer-Verlag,
 Berlin, 1990.
 
-10\) C. Itzykson, J. M. Luck, P. Moussa, and M. Waldschmidt, eds, From
+10) C. Itzykson, J. M. Luck, P. Moussa, and M. Waldschmidt, eds, From
 Number Theory to Physics, Springer, Berlin, 1992.
 
 Indeed, as you'll see in these books (or in
@@ -533,7 +533,7 @@ But it's the *24th power* of this function that really matters in
 string theory - because bosonic string theory works best when our string
 has *24* extra dimensions to wiggle around in. For more details, try:
 
-11\) John Baez, My favorite numbers: 24. Available at
+11) John Baez, My favorite numbers: 24. Available at
 `http://math.ucr.edu/home/baez/numbers/24.pdf`
 
 But suppose we don't want to mess with divergent sums: suppose we want
@@ -610,7 +610,7 @@ mathematical gadgets. These gadgets are called "G-torsors". A
 "G-torsor" is just a nonempty set on which G acts freely and
 transitively:
 
-12\) John Baez, Torsors made easy,
+12) John Baez, Torsors made easy,
 `http://math.ucr.edu/home/baez/torsors.html`
 
 All G-torsors are isomorphic, and the group of symmetries of any
@@ -671,7 +671,7 @@ Of course, that fact is vastly more interesting if you already know and
 love Hasse-Weil zeta functions. You can find a definition of them either
 in my paper with Jim, or here:
 
-12\) Jean-Pierre Serre, Zeta and L functions, Arithmetical Algebraic
+12) Jean-Pierre Serre, Zeta and L functions, Arithmetical Algebraic
 Geometry (Proc. Conf. Purdue Univ., 1963), Harper and Row, 1965, pp.
 82-92.
 
@@ -732,7 +732,7 @@ power series, with z^n corresponding to the nth energy level, this lets
 us view stuff types as states of a categorified quantum harmonic
 oscillator! This explains the combinatorics of Feynman diagrams:
 
-14\) Jeffrey Morton, Categorified algebra and quantum mechanics, TAC 16
+14) Jeffrey Morton, Categorified algebra and quantum mechanics, TAC 16
 (2006), 785-854, available at
 `http://www.emis.de/journals/TAC/volumes/16/29/16-29abs.html` Also
 available as [`arXiv:math/0601458`](http://arxiv.org/abs/math/0601458).
@@ -741,7 +741,7 @@ And, it's a nice test case of the groupoidification program, where we
 categorify lots of algebra by saying "wherever we see a number, let's
 try to think of it as the cardinality of a groupoid":
 
-15\) John Baez, Alex Hoffnung and Christopher Walker, Higher-dimensional
+15) John Baez, Alex Hoffnung and Christopher Walker, Higher-dimensional
 algebra VII: Groupoidification, available as
 [`arXiv:0908.4305`](http://arxiv.org/abs/0908.4305).
 
@@ -767,7 +767,7 @@ There's a lot more to say about this, because actually the category of
 structure types has *five* monoidal structures, all fitting together in
 a nice way. You can read a bit about this here:
 
-16\) nLab, Schur functors, `http://ncatlab.org/nlab/show/Schur+functor`
+16) nLab, Schur functors, `http://ncatlab.org/nlab/show/Schur+functor`
 
 This is something Todd Trimble and I are writing, which will eventually
 evolve into an actual paper. We consider structure types for which there
@@ -787,14 +787,14 @@ categories!
 This sounds far-out, but it's all been worked out at a decategorified
 level: rings, corings, birings, and monoids in the category of birings:
 
-17\) D. Tall and Gavin Wraith, Representable functors and operations on
+17) D. Tall and Gavin Wraith, Representable functors and operations on
 rings, Proc. London Math. Soc. (3), 1970, 619-643.
 
-18\) James Borger and B. Wieland, Plethystic algebra, Advances in
+18) James Borger and B. Wieland, Plethystic algebra, Advances in
 Mathematics 194 (2005), 246-283. Also available at
 `http://wwwmaths.anu.edu.au/~borger/papers/03/paper03.html`
 
-19\) Andrew Stacey and S. Whitehouse, The hunting of the Hopf ring,
+19) Andrew Stacey and S. Whitehouse, The hunting of the Hopf ring,
 Homology, Homotopy and Applications, 11 (2009), 75-132, available at
 `http://intlpress.com/HHA/v11/n2/a6/` Also available as
 [`arXiv:0711.3722`](http://arxiv.org/abs/0711.3722).

@@ -4,7 +4,7 @@ If you think numbers start with the number 1, you probably think the
 millennium is ending now. I think it ended last year... but either way,
 now is a good time to read this book:
 
-1\) Georges Ifrah, The Universal History of Numbers from Prehistory to
+1) Georges Ifrah, The Universal History of Numbers from Prehistory to
 the Invention of the Computer, Wiley, New York, 2000.
 
 On the invention of zero:
@@ -54,7 +54,7 @@ online math encyclopedia since it had lots of nice pictures. Now this
 website has been closed down, thanks to a lawsuit by the people at CRC
 Press:
 
-2\) Frequently asked questions about the MathWorld case,
+2) Frequently asked questions about the MathWorld case,
 `http://mathworld.wolfram.com/docs/faq.html`
 
 Weisstein published a print version of his encyclopedia with CRC press,
@@ -100,11 +100,11 @@ you'll know why. G&B has even taken legal action against the American
 Institute of Physics, the American Physical Society, and the American
 Mathematical Society for publishing information about journal prices!
 
-3\) Gordon and Breach et al v. AIP and APS, brief of amici curiae of the
+3) Gordon and Breach et al v. AIP and APS, brief of amici curiae of the
 American Library Association, Association of Research Libraries and the
 Special Library Association, `http://www.arl.org/scomm/gb/amici.html`
 
-4\) AIP/APS prevail in suit by Gordon and Breach, G&B to appeal,
+4) AIP/APS prevail in suit by Gordon and Breach, G&B to appeal,
 `http://www.arl.org/newsltr/194/gb.html`
 
 Of course, the ultimate solution is to support the math and physics
@@ -115,7 +115,7 @@ Okay, enough politics. I was thinking about 4-dimensional polytopes, and
 Eric Weisstein's now-defunct website... but what got me going in the
 first place was this:
 
-5\) John Stilwell, The story of the 120-cell, AMS Notices 48 (January
+5) John Stilwell, The story of the 120-cell, AMS Notices 48 (January
 2001), 17-24.
 
 The 120-cell is a marvelous 4-dimensional shape with 120 regular
@@ -151,7 +151,7 @@ dodecahedral pattern.
 
 Amusingly, Plato hinted at something resembling this in his "Timaeus":
 
-6\) Plato, Timaeus, translated by B. Jowett, in The Collected Dialogues,
+6) Plato, Timaeus, translated by B. Jowett, in The Collected Dialogues,
 Princeton U. Press, Princeton, 1969 (see line 55c).
 
 This dialog is one the first attempts at doing mathematical physics. In
@@ -190,19 +190,19 @@ come. Also, keep in mind the following three facts about the number 3,
 which fit together in a spooky sort of synergy that makes all the magic
 happen:
 
-i\) An element of h_3(O) is a 3x3 hermitian matrix with octonionic
+i) An element of h_3(O) is a 3x3 hermitian matrix with octonionic
 entries, and thus consists of 3 octonions and 3 real numbers:
 
                        ( a    z*   y* )
                        ( z    b    x  )          a,b,c in R,  x,y,z in O
                        ( y    x*   c  )            
 
-ii\) The octonions arise naturally from "triality": the relation
+ii) The octonions arise naturally from "triality": the relation
 between the three 8-dimensional irreps of Spin(8), i.e. the vector
 representation V~8~, the right-handed spinor representation S~8~^+^, and
 the left-handed spinor representation S~8~^-^.
 
-iii\) The associative law (xy)z = x(yz) involves 3 variables.
+iii) The associative law (xy)z = x(yz) involves 3 variables.
 
 Let's see how it goes.
 
@@ -330,7 +330,7 @@ So: the points of the octonionic projective plane are the projections
 with trace 1 in h_3(O), while the lines are projections with trace 2. A
 brutal calculation in Reese Harvey's book:
 
-7\) F. Reese Harvey, Spinors and Calibrations, Academic Press, Boston,
+7) F. Reese Harvey, Spinors and Calibrations, Academic Press, Boston,
 1990.
 
 reveals that any projection with trace 1 has the form

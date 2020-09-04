@@ -58,7 +58,7 @@ prize money. He loved his work... one of the keys to a happy life.
 
 Here's a book that tells his story in more detail:
 
-1\) Dava Sobel, Longitude, Fourth Estate Ltd., London, 1996.
+1) Dava Sobel, Longitude, Fourth Estate Ltd., London, 1996.
 
 I found it in the gift shop of the Observatory. It's a fun read, but
 for the technical reader it's frustratingly vague on the technical
@@ -66,7 +66,7 @@ details of how Harrisons' clocks actually work.
 
 I also bought this book there:
 
-2\) E. G. Richards, Mapping Time: The Calendar and its History, Oxford
+2) E. G. Richards, Mapping Time: The Calendar and its History, Oxford
 U. Press, Oxford, 1998.
 
 Since it's almost New Year's Day, let me tell you a bit what I learned
@@ -97,7 +97,7 @@ different definitions of day, month and year. This was enough to keep
 the astronomer-priests in business for centuries. For more on the
 physics of it all, try:
 
-3\) John Baez, The wobbling of the earth and other curiosities,
+3) John Baez, The wobbling of the earth and other curiosities,
 `http://math.ucr.edu/home/baez/wobble.html`
 
 Unfortunately, the Romans, whose calendar we inherit, were real
@@ -222,7 +222,7 @@ who don't actually believe in it.
 
 Here's another nice book:
 
-4\) Alain Connes, Andre Lichnerowicz and Marcel Paul Schutzenberger, A
+4) Alain Connes, Andre Lichnerowicz and Marcel Paul Schutzenberger, A
 Triangle of Thoughts, AMS, Providence, 2000.
 
 This consists of polished-up transcripts of dialogues (or should I say
@@ -453,13 +453,13 @@ I'll hook this up to Mueger's work on 2-categories.
 In the meantime, here are some references on von Neumann algebras in
 case you want to dig deeper. For the math, try these:
 
-5\) Masamichi Takesaki, Theory of Operator Algebras I, Springer, Berlin,
+5) Masamichi Takesaki, Theory of Operator Algebras I, Springer, Berlin,
 1979.
 
-6\) Richard V. Kadison and John Ringrose, Fundamentals of the Theory of
+6) Richard V. Kadison and John Ringrose, Fundamentals of the Theory of
 Operator Algebras, 4 volumes, Academic Press, New York, 1983-1992.
 
-7\) Shoichiro Sakai, C*-algebras and W*-algebras, Springer, Berlin,
+7) Shoichiro Sakai, C*-algebras and W*-algebras, Springer, Berlin,
 1971.
 
 A W*-algebra is basically just a von Neumann algebra, but defined
@@ -468,13 +468,13 @@ representation as operators on a Hilbert space.
 
 For applications to physics, try these:
 
-8\) Gerard G. Emch, Algebraic Methods in Statistical Mechanics and
+8) Gerard G. Emch, Algebraic Methods in Statistical Mechanics and
 Quantum Field Theory, Wiley-Interscience, New York, 1972.
 
-9\) Rudolf Haag, Local Quantum Physics: Fields, Particles, Algebras,
+9) Rudolf Haag, Local Quantum Physics: Fields, Particles, Algebras,
 Springer, Berlin, 1992.
 
-10\) Ola Bratelli and Derek W. Robinson, Operator Algebras and Quantum
+10) Ola Bratelli and Derek W. Robinson, Operator Algebras and Quantum
 Statistical Mechanics, 2 volumes, Springer, Berlin, 1987-1997.
 
 ------------------------------------------------------------------------
@@ -484,12 +484,12 @@ Postscript:
 For more about the measurement of time, Theo Buehler recommends this
 lecture:
 
-11\) John B. Conway, `http://www.math.utk.edu/~conway/Time.html`
+11) John B. Conway, `http://www.math.utk.edu/~conway/Time.html`
 
 For technical information on John Harrison's clocks, Nigel Seeley
 recommends this book, which also has a bunch of nice pictures:
 
-12\) William J. H. Andrewes, editor, The Quest for Longitude: The
+12) William J. H. Andrewes, editor, The Quest for Longitude: The
 Proceedings of the Longitude Symposium, Harvard University, Cambridge,
 Massachusetts, November 4-6, 1993. Harvard University Collection of
 Historical Scientific Instruments, Cambridge Massachusetts, 1996.
@@ -497,7 +497,7 @@ Historical Scientific Instruments, Cambridge Massachusetts, 1996.
 Nigel Seeley and Julian Gilbey also recommend the following book on
 calendrics:
 
-13\) Edward M. Reingold, and Nachum Dershowitz, Calendrical
+13) Edward M. Reingold, and Nachum Dershowitz, Calendrical
 Calculations: The Millennium Edition, Oxford U. Press, Oxford, 1997. 268
 pages.
 

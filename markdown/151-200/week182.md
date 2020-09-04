@@ -37,10 +37,10 @@ claims to have shown you only need 3 terms if n is less than or equal to
 
 For much more on this, see:
 
-1\) David Eppstein, Egyptian fractions,
+1) David Eppstein, Egyptian fractions,
 `http://www.ics.uci.edu/~eppstein/numth/egypt/`
 
-2\) Alan Swett, The Erdos-Strauss conjecture,
+2) Alan Swett, The Erdos-Strauss conjecture,
 `http://math.uindy.edu/swett/esc.htm`
 
 Egyptian fraction problems have a spooky way of showing up in various
@@ -331,10 +331,10 @@ of Kleinian singularities. I talked about the McKay correspondence in
 you should really look at some of the references in there, and also
 these two - both of which explain the mysterious word "hosohedron":
 
-3\) H. S. M. Coxeter, Generators and relations for discrete groups,
+3) H. S. M. Coxeter, Generators and relations for discrete groups,
 Springer, Berlin, 1984.
 
-4\) Joris van Hoboken, Platonic solids, binary polyhedral groups,
+4) Joris van Hoboken, Platonic solids, binary polyhedral groups,
 Kleinian singularities and Lie algebras of type A,D,E, Master's Thesis,
 University of Amsterdam, 2002, available at
 `http://home.student.uva.nl/joris.vanhoboken/scriptiejoris.ps` or
@@ -344,7 +344,7 @@ Okay. Now - back to that conference at the Mathematical Sciences
 Research Institute! You can look at transparencies and watch videos of
 the talks here:
 
-5\) MSRI streaming video archive, Spring 2002,
+5) MSRI streaming video archive, Spring 2002,
 `http://www.msri.org/publications/video/index04.html`
 
 If you like watching math talks, there's a lot to see here - not just
@@ -521,7 +521,7 @@ That's Hodge theory in a nutshell. There's even *more* you can do when
 M is a Kaehler manifold, but I'm getting a little tired, so I'll just
 let you read about that here:
 
-6\) R. O. Wells, Differential analysis on complex manifolds, Springer,
+6) R. O. Wells, Differential analysis on complex manifolds, Springer,
 Berlin, 1980.
 
 This is a really *great* book for learning about all sorts of good
@@ -602,12 +602,12 @@ since he gave it down the hill at U. C. Berkeley instead of at the MSRI
 you want to learn more about this, you should probably start with this
 quick summary of abelian Hodge theory:
 
-7\) Tony Pantev, Review of abelian Hodge theory,
+7) Tony Pantev, Review of abelian Hodge theory,
 `http://www.msri.org/publications/ln/msri/2002/introstacks/pantev/1/index.html`
 
 and then take the deep plunge into this paper:
 
-8\) Ludmil Katzarkov, Tony Pantev and Bertrand Toen, Schematic homotopy
+8) Ludmil Katzarkov, Tony Pantev and Bertrand Toen, Schematic homotopy
 types and non-abelian Hodge theory I: The Hodge decomposition, available
 at [math.AG/0107129](http://xxx.lanl.gov/abs/math.AG/0107129).
 
@@ -615,14 +615,14 @@ There are a lot of model categories and $n$-categories lurking in the
 background of this subject, as well as ideas that originated in physics,
 like "Higgs bundles". For the brave reader I recommend these papers:
 
-9\) Bertrand Toen, Toward a Galoisian interpretation of homotopy theory,
+9) Bertrand Toen, Toward a Galoisian interpretation of homotopy theory,
 available as [math.AT/0007157](http://xxx.lanl.gov/abs/math.AT/0007157).
 
 This answers the question: "the fundamental group is to covering spaces
 as the whole homotopy type is to... what?" The fact that it's in
 French probably makes it easier to understand.
 
-10\) Bertrand Toen and Gabriele Vezzosi, Algebraic geometry over model
+10) Bertrand Toen and Gabriele Vezzosi, Algebraic geometry over model
 categories (a general approach to derived algebraic geometry), available
 as [math.AG/0110109](http://xxx.lanl.gov/abs/math.AG/0110109).
 

@@ -3,7 +3,7 @@
 Math is eternal, but I'll start with some news that may be
 time-sensitive. Betelgeuse is shrinking!
 
-1\) Stefan Scherer, Shrinking Betelgeuse,
+1) Stefan Scherer, Shrinking Betelgeuse,
 `http://backreaction.blogspot.com/2009/06/shrinking-betelgeuse.html`
 
 ::: {align="center"}
@@ -16,13 +16,13 @@ of the Sun, but it's about 1000 times as big across - about 5 times the
 size of the Earth's orbit. For more of a sense of what that means,
 watch this video. If you've got kids, have them watch it too:
 
-2\) Hansie0Slim, Largest stars this side of the Milky Way,
+2) Hansie0Slim, Largest stars this side of the Milky Way,
 `http://www.youtube.com/watch?v=u70UBs7BWY8`
 
 But, it's shrinking. These authors claim its radius has shrunk 15%
 since 1993:
 
-3\) C. H. Townes, E. H. Wishnow, D. D. S. Hale and B. Walp, A systematic
+3) C. H. Townes, E. H. Wishnow, D. D. S. Hale and B. Walp, A systematic
 change with time in the size of Betelgeuse, The Astrophysical Journal
 Letters 697 (2009), L127-L128.
 
@@ -118,7 +118,7 @@ perhaps 2 million years ago, at the Pliocene-Pleistocene transition,
 when a bunch of ultraviolet-sensitive marine creatures mysteriously
 died:
 
-4\) NASA, Near-earth supernovas,
+4) NASA, Near-earth supernovas,
 `http://science.nasa.gov/headlines/y2003/06jan_bubble.htm`
 
 The Loop I Bubble may have been caused by a supernova in "Sco-Cen", a
@@ -145,7 +145,7 @@ I'm sure we'll get a clearer story as time goes by. In 2003, NASA
 launched a satellite called the Cosmic Hot Interstellar Plasma
 Spectrometer, or CHIPS for short, to study this sort of thing:
 
-5\) NASA/UC Berkeley, Overview of CHIPS Science,
+5) NASA/UC Berkeley, Overview of CHIPS Science,
 `http://chips.ssl.berkeley.edu/science.html`
 
 It sounds pretty interesting. Unfortunately the latest news on the CHIPS
@@ -156,7 +156,7 @@ You can't do much about Betelgeuse. But you can do something about
 mathematics! For example, if you're into categories or $n$-categories,
 you can help out the nLab:
 
-6\) nLab, `http://ncatlab.org/nlab`
+6) nLab, `http://ncatlab.org/nlab`
 
 The nLab is like the library, or laboratory, in the back room of the
 n-Category Café. The nCafé is a place to chat: it's a blog. The nLab is
@@ -179,7 +179,7 @@ uses some wiki software called Instiki which he is helping develop.
 Finally, a bit of actual math. Here's a paper by the fellow I'm
 working with here in Paris, and a grad student of his:
 
-7\) Paul-André Mélliès and Nicolas Tabareau, Free models of T-algebraic
+7) Paul-André Mélliès and Nicolas Tabareau, Free models of T-algebraic
 theories computed as Kan extensions, available at
 `http://hal.archives-ouvertes.fr/hal-00339331/fr/`
 
@@ -351,7 +351,7 @@ Each of these types of categories allows us to define a type of
 
 I explained all these, along with monads, here:
 
-8\) John Baez, Universal algebra and diagrammatic reasoning, available
+8) John Baez, Universal algebra and diagrammatic reasoning, available
 as `http://math.ucr.edu/home/baez/universal/`
 
 Take my word for it: they're great. In particular, they're more
@@ -398,18 +398,18 @@ wrote:
 > A few that I found that weren't immediately eliminated as cranks,
 > that might repay further investigation:
 >
-> 9\) Michael Richmond, Will a nearby supernova endanger life on Earth?,
+> 9) Michael Richmond, Will a nearby supernova endanger life on Earth?,
 > Available at `http://stupendous.rit.edu/richmond/answers/snrisks.txt`
 >
 > Perhaps the closest to the number-crunching you're looking for.
 >
-> 10\) S. E Thorsett, Terrestrial implications of cosmological gamma-ray
+> 10) S. E Thorsett, Terrestrial implications of cosmological gamma-ray
 > burst models, Astrophys. J. 444 (1995), L53. Also available as
 > [`arXiv:astro-ph/9501019`](http://arxiv.org/abs/astro-ph/9501019).
 >
 > Specifically, nitric oxide increases/ozone decreases.
 >
-> 11\) Steven I. Dutch, Life (briefly) near a supernova, Journal of
+> 11) Steven I. Dutch, Life (briefly) near a supernova, Journal of
 > Geoscience Education, 2005. Available at
 > `http://nagt.org/files/nagt/jge/abstracts/Dutch_v53n1.pdf`
 >
@@ -436,19 +436,19 @@ ultimately rather mysterious quest. Andrew wrote:
 > local bubble according to the article. There's a full story in local
 > California newspaper:
 >
-> 12\) Chris Thompson, Goodbye Mr. CHIPS, East Bay Express, July 2,
+> 12) Chris Thompson, Goodbye Mr. CHIPS, East Bay Express, July 2,
 > 2008. Also available at
 > `http://www.eastbayexpress.com/ebx/PrintFriendly?oid=780923`
 >
 > And a couple of papers in the arxiv by M. Hurwitz referencing CHIPS;
 > the more recent one is about spectra of comets:
 >
-> 13\) M. Hurwitz, T. P. Sasseen and M. M. Sirk, Observations of diffuse
+> 13) M. Hurwitz, T. P. Sasseen and M. M. Sirk, Observations of diffuse
 > EUV emission with the Cosmic Hot Interstellar Plasma Spectrometer
 > (CHIPS), Astrophys. J. 623 (2005), 911-916. Also available as
 > [`arXiv:astro-ph/0411121`](http://arxiv.org/abs/astro-ph/0411121)
 >
-> 14\) T. P. Sasseen, M. Hurwitz et al, A search for EUV emission from
+> 14) T. P. Sasseen, M. Hurwitz et al, A search for EUV emission from
 > comets with the Cosmic Hot Interstellar Plasma Spectrometer (CHIPS),
 > Astrophys. J. 650 (2006), 461-469. Also available as
 > [`arXiv:astro-ph/0606466`](http://arxiv.org/abs/astro-ph/0606466).

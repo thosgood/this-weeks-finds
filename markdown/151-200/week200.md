@@ -14,7 +14,7 @@ acts of pruning. But, I want to get started.
 It'll be freely available online, and it'll show up here as it
 materializes - but so far I've just got a tentative outline:
 
-1\) John Baez, Higher-Dimensional Algebra,
+1) John Baez, Higher-Dimensional Algebra,
 `http://math.ucr.edu/home/baez/hda/`
 
 Unfortunately, I'm very busy these days. As you get older, duties
@@ -53,7 +53,7 @@ Algebraic Theories", which explored the applications of category theory
 to algebra, logic and physics. There are videos of all the talks on the
 conference website:
 
-2\) Ramifications of Category Theory, `http://ramcat.scform.unifi.it/`
+2) Ramifications of Category Theory, `http://ramcat.scform.unifi.it/`
 
 The conference was organized and funded by [Michael
 Wright](http://andrej.com/mathematicians/W/Wright_Michael.html), a
@@ -557,10 +557,10 @@ popular. But secondly, he's been hard at work trying to make the
 subject accessible to beginners. He's recently written a couple of
 textbooks you don't need a degree in math to read:
 
-3\) F. William Lawvere and Steve Schanuel, Conceptual Mathematics: A
+3) F. William Lawvere and Steve Schanuel, Conceptual Mathematics: A
 First Introduction to Categories, Cambridge U. Press, Cambridge, 1997.
 
-4\) F. William Lawvere and Robert Rosebrugh, Sets for Mathematics,
+4) F. William Lawvere and Robert Rosebrugh, Sets for Mathematics,
 Cambridge U. Press, Cambridge, 2002.
 
 And third, the great thing about topos theory is that you don't need to
@@ -574,23 +574,23 @@ stuff.
 Alas, I believe Lawvere's thesis is still lurking in the stacks at
 Columbia University:
 
-5\) F. W. Lawvere, Functorial semantics of algebraic theories,
+5) F. W. Lawvere, Functorial semantics of algebraic theories,
 Dissertation, Columbia University, 1963.
 
 and so far he's only gotten around to publishing a brief summary:
 
-6\) F. William Lawvere, Functorial semantics of algebraic theories,
+6) F. William Lawvere, Functorial semantics of algebraic theories,
 Proceedings, National Academy of Sciences, U.S.A. 50 (1963), 869-872.
 
 But, you can find expositions of his work on algebraic theories here and
 there. Here's a gentle one geared towards computer scientists:
 
-7\) Roy L. Crole, Categories for Types, Cambridge U. Press, Cambridge,
+7) Roy L. Crole, Categories for Types, Cambridge U. Press, Cambridge,
 1993.
 
 A considerably more macho one is available free online:
 
-8\) Michael Barr and Charles Wells, Toposes, Triples and Theories,
+8) Michael Barr and Charles Wells, Toposes, Triples and Theories,
 Springer-Verlag, New York, 1983. Available for free electronically at
 `http://www.cwru.edu/artsci/math/wells/pub/ttt.html`
 
@@ -604,7 +604,7 @@ By the way, a "triple" is just another name for a monad.
 A really beautiful more advanced treatment of algebraic theories and
 also "essentially algebraic theories" can be found here:
 
-9\) Maria Cristina Pedicchio, Algebraic Theories, in Textos de
+9) Maria Cristina Pedicchio, Algebraic Theories, in Textos de
 Matematica: School on Category Theory and Applications, Coimbra, July
 13-17, 1999, pp. 101-159.
 
@@ -613,24 +613,24 @@ TeX, and it deserves to be easier to get!
 
 Shortly after his thesis, Lawvere tackled topoi in this paper:
 
-10\) F. William Lawvere, Elementary theory of the category of sets,
+10) F. William Lawvere, Elementary theory of the category of sets,
 Proceedings of the National Academy of Science 52 (1964), 1506-1511.
 
 He then wrote a number of other papers on algebraic theories and the
 like:
 
-11\) F. William Lawvere, Algebraic theories, algebraic categories, and
+11) F. William Lawvere, Algebraic theories, algebraic categories, and
 algebraic functors, in Theory of Models, North-Holland, Amsterdam
 (1965), 413-418.
 
-12\) F. William Lawvere, Functorial semantics of elementary theories,
+12) F. William Lawvere, Functorial semantics of elementary theories,
 Journal of Symbolic Logic, Abstract, 31 (1966), 294-295.
 
-13\) F. William Lawvere, The category of categories as a foundation for
+13) F. William Lawvere, The category of categories as a foundation for
 mathematics, in La Jolla Conference on Categorical Algebra, Springer,
 Berlin 1966, pp. 1-20.
 
-14\) F. William Lawvere, Some algebraic problems in the context of
+14) F. William Lawvere, Some algebraic problems in the context of
 functorial semantics of algebraic theories, in Reports of the Midwest
 Category Seminar, eds. Jean Benabou et al, Springer Lecture Notes in
 Mathematics No. 61, Springer, Berlin 1968, pp. 41-61.
@@ -638,18 +638,18 @@ Mathematics No. 61, Springer, Berlin 1968, pp. 41-61.
 Then came his work on "doctrines", which I vaguely alluded to a while
 back:
 
-15\) F. William Lawvere, Ordinal sums and equational doctrines, Springer
+15) F. William Lawvere, Ordinal sums and equational doctrines, Springer
 Lecture Notes in Mathematics No. 80, Springer, Berlin, 1969, pp.
 141-155.
 
 Lawvere started publishing his ideas on mathematical physics in the late
 1970s, though he must have been thinking about them all along:
 
-16\) F. William Lawvere, Categorical dynamics, in Proceedings of Aarhus
+16) F. William Lawvere, Categorical dynamics, in Proceedings of Aarhus
 May 1978 Open House on Topos Theoretic Methods in Geometry,
 Aarhus/Denmark (1979).
 
-17\) F. William Lawvere, Toward the description in a smooth topos of the
+17) F. William Lawvere, Toward the description in a smooth topos of the
 dynamically possible motions and deformations of a continuous body,
 Cahiers de Topologie et Geometrie Differentielle Categorique 21 (1980),
 337-392.
@@ -657,19 +657,19 @@ Cahiers de Topologie et Geometrie Differentielle Categorique 21 (1980),
 In 1981, Anders Kock came out with a textbook on synthetic differential
 geometry:
 
-18\) Anders Kock, Synthetic Differential Geometry, Cambridge U. Press,
+18) Anders Kock, Synthetic Differential Geometry, Cambridge U. Press,
 Cambridge, 1981.
 
 More recently, Lawvere came out with a book on applications of category
 theory to physics:
 
-19\) F. William Lawvere and S. Schanuel, editors, Categories in
+19) F. William Lawvere and S. Schanuel, editors, Categories in
 Continuum Physics, Springer Lecture Notes in Mathematics No. 1174,
 Springer, Berlin, 1986.
 
 The quote about Lawvere's teachers is from:
 
-20\) F. William Lawvere, Foundations and applications: axiomatization
+20) F. William Lawvere, Foundations and applications: axiomatization
 and education, Bulletin of Symbolic Logic 9 (2003), 213-224. Also
 available at `http://www.math.ucla.edu/~asl/bsl/0902/0902-006.ps`
 
@@ -677,10 +677,10 @@ and this gives a good overview of his ideas, though not easy to read! He
 also has some other papers online summarizing his ideas on differential
 geometry and physics:
 
-21\) F. William Lawvere, Outline of synthetic differential geometry,
+21) F. William Lawvere, Outline of synthetic differential geometry,
 available at `http://www.acsu.buffalo.edu/~wlawvere/downloadlist.html`.
 
-22\) F. William Lawvere, Toposes of laws of motion, available at
+22) F. William Lawvere, Toposes of laws of motion, available at
 `http://www.acsu.buffalo.edu/~wlawvere/downloadlist.html`.
 
 Finally, [Colin
@@ -689,7 +689,7 @@ was delighted to meet in Florence - has a nice quick introduction to
 synthetic differential geometry in his textbook on categories and topos
 theory:
 
-23\) Colin McLarty, Elementary Categories, Elementary Toposes, Clarendon
+23) Colin McLarty, Elementary Categories, Elementary Toposes, Clarendon
 Press, Oxford, 1995.
 
 Along with Lawvere's books "Conceptual Mathematics" and "Sets for
@@ -881,17 +881,17 @@ of "2-monad" and "doctrine". For example, most people define their
 also known as a "Gray-category" - since 2Cat is one of these. For more
 details, try these papers:
 
-24\) R. Blackwell, G. M. Kelly, and A. J. Power, Two-dimensional monad
+24) R. Blackwell, G. M. Kelly, and A. J. Power, Two-dimensional monad
 theory, Jour. Pure Appl. Algebra 59 (1989), 1-41.
 
-25\) Brian Day and Ross Street, Monoidal bicategories and Hopf
+25) Brian Day and Ross Street, Monoidal bicategories and Hopf
 algebroids, Adv. Math. 129 (1997) 99-157.
 
-26\) F. Marmolejo, Doctrines whose structure forms a fully faithful
+26) F. Marmolejo, Doctrines whose structure forms a fully faithful
 adjoint string, Theory and Applications of Categories 3 (1997), 23-44.
 Available at `http://www.tac.mta.ca/tac/volumes/1997/n2/3-02abs.html`
 
-27\) S. Lack, A coherent approach to pseudomonads, Adv. Math. 152
+27) S. Lack, A coherent approach to pseudomonads, Adv. Math. 152
 (2000), 179-202. Also available at
 `http://www.maths.usyd.edu.au:8000/u/stevel/papers/psm.ps.gz`
 
@@ -951,7 +951,7 @@ other sorts of logic that should be on this list but aren't, I
 recommend part D of this book by [Peter
 Johnstone](http://andrej.com/mathematicians/J/Johnstone_Peter.html):
 
-28\) Peter Johnstone, Sketches of an Elephant: a Topos Theory
+28) Peter Johnstone, Sketches of an Elephant: a Topos Theory
 Compendium, Oxford U. Press, Oxford. Volume 1, comprising Part A:
 Toposes as Categories, and Part B: 2-Categorical Aspects of Topos
 Theory, 720 pages, 2002. Volume 2, comprising Part C: Toposes as Spaces,

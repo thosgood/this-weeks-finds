@@ -14,12 +14,12 @@ bit, perhaps including some cosmology and particle physics.
 
 For details see:
 
-1\) Perimeter Institute, `http://perimeterinstitute.ca/`
+1) Perimeter Institute, `http://perimeterinstitute.ca/`
 
 I've been talking to lots of people here, including Lee Smolin, who
 just came out with this review article on quantum gravity:
 
-2\) Lee Smolin, How far are we from the quantum theory of gravity?,
+2) Lee Smolin, How far are we from the quantum theory of gravity?,
 available as [hep-th/0303185](http://xxx.lanl.gov/abs/hep-th/0303185).
 
 He compares all the main approaches, with an emphasis on loop quantum
@@ -125,12 +125,12 @@ technical.
 Here's a good review of D'Hoker and Phong's proof that heterotic and
 type II superstring theory are finite up to 2 loops:
 
-3\) Eric D'Hoker and D.H. Phong, Lectures on two-loop superstrings,
+3) Eric D'Hoker and D.H. Phong, Lectures on two-loop superstrings,
 available as [hep-th/0211111](http://xxx.lanl.gov/abs/hep-th/0211111).
 
 It summarizes four long papers of theirs:
 
-4\) Eric D'Hoker and D.H. Phong, Two-loop superstrings: I, The main
+4) Eric D'Hoker and D.H. Phong, Two-loop superstrings: I, The main
 formulas, Phys. Lett. B529 (2002), 241-255. Also available as
 [hep-th/0110247](http://xxx.lanl.gov/abs/hep-th/0110247).
 
@@ -156,7 +156,7 @@ perturbative quantum gravity *really* known to be nonrenormalizable?
 
 I got some clues here:
 
-5\) Zvi Bern, Perturbative quantum gravity and its relation to gauge
+5) Zvi Bern, Perturbative quantum gravity and its relation to gauge
 theory, Living Rev. Relativity 5 (2002), available at
 `http://www.livingreviews.org/Articles/Volume5/2002-5bern/index.html`
 
@@ -199,11 +199,11 @@ light on string theory (see ["Week 72"](#week72)).
 For more readable stuff about the nonrenormalizability of 11d
 supergravity, try these review articles:
 
-6\) Stanley Deser, Nonrenormalizability of (last hope) D=11
+6) Stanley Deser, Nonrenormalizability of (last hope) D=11
 supergravity, with a terse survey of divergences in quantum gravities,
 available as [hep-th/9905017](http://xxx.lanl.gov/abs/hep-th/9905017).
 
-7\) Stanley Deser, Infinities in quantum gravities, Annalen Phys. 9
+7) Stanley Deser, Infinities in quantum gravities, Annalen Phys. 9
 (2000) 299-307. Also available as
 [gr-qc/9911073](http://xxx.lanl.gov/abs/gr-qc/9911073).
 
@@ -268,7 +268,7 @@ And this is how it usually works - or *always*, if you take care to
 include all the necessary fine print. Thus many sorts of X-manifolds are
 called "manifolds with special holonomy". See:
 
-8\) Dominic Joyce, Compact Manifolds with Special Holonomy, Oxford U.
+8) Dominic Joyce, Compact Manifolds with Special Holonomy, Oxford U.
 Press, Oxford, 2000.
 
 For example, suppose X is a "quaternionic structure" - a way of making

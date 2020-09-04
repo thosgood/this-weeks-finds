@@ -30,7 +30,7 @@ apply physics intuition to! This is part of why string theorists have
 been so successful in cracking math problems. It also underlies Alain
 Connes' attempt to prove the Riemann Hypothesis:
 
-1\) Alain Connes, Noncommutative Geometry, Trace Formulas, and the Zeros
+1) Alain Connes, Noncommutative Geometry, Trace Formulas, and the Zeros
 of the Riemann Zeta Function. Ohio State course notes and videos at
 `http://www.math.ohio-state.edu/lectures/connes/Connes.html`
 
@@ -38,7 +38,7 @@ Alain Connes, Trace formula in noncommutative geometry and the zeros of
 the Riemann zeta function, available as
 [math.NT/9811068](http://www.arxiv.org/abs/math.NT/9811068).
 
-2\) Mathilde Marcolli, Noncommutative geometry and number theory,
+2) Mathilde Marcolli, Noncommutative geometry and number theory,
 available at `http://www.math.fsu.edu/~marcolli/ncgntE.pdf`
 
 Of course, Connes also has another "inside track", namely his theory
@@ -213,7 +213,7 @@ number theory, it's the Archimedean valuation that's the odd man out!
 It indeed does act very weird and different than all the rest. That's
 why someone wrote this book:
 
-3\) M. J. Shai Haran, The Mysteries of the Real Prime, Oxford U. Press,
+3) M. J. Shai Haran, The Mysteries of the Real Prime, Oxford U. Press,
 Oxford, 2001.
 
 ... which you will see is deeply connected to mathematical physics.
@@ -282,10 +282,10 @@ comfy with adeles and the idea of studying number theory "locally".
 For more on the geometrical side of number theory, I again recommend
 these:
 
-4\) Juergen Neukirch, Algebraic Number Theory, trans. Norbert
+4) Juergen Neukirch, Algebraic Number Theory, trans. Norbert
 Schappacher, Springer, Berlin, 1986.
 
-5\) Dino Lorenzini, An Invitation to Arithmetic Geometry, American
+5) Dino Lorenzini, An Invitation to Arithmetic Geometry, American
 Mathematical Society, Providence, Rhode Island, 1996.
 
 But now, back to the subject of "inside tracks" - sneaky ways to get
@@ -386,7 +386,7 @@ taught a whole course on structure types (also known as "species") and
 the combinatorics of Feynman diagrams. The course notes by Derek Wise
 are available online:
 
-6\) John Baez and Derek Wise, Quantization and Categorification,
+6) John Baez and Derek Wise, Quantization and Categorification,
 available at:\
 `http://math.ucr.edu/home/baez/qg-fall2003/`\
 `http://math.ucr.edu/home/baez/qg-winter2004/`\
@@ -604,7 +604,7 @@ I replied:
 > the charm of a mysterious analogy! I think think this is how things
 > went historically, too... judging from Weil's remarks:
 >
-> 7\) Martin H. Krieger, A 1940 letter of Andre Weil on analogy in
+> 7) Martin H. Krieger, A 1940 letter of Andre Weil on analogy in
 > mathematics, AMS Notices 52 (March 2005), 334-341. Available at
 > `http://www.ams.org/notices/200503/200503-toc.html`
 >
@@ -641,11 +641,11 @@ I replied:
 > leads to the extensive analogy between Spec(Z) and knot theory
 > discussed here...
 >
-> 8\) Adam Sikora, Analogies between group actions on 3-manifolds and
+> 8) Adam Sikora, Analogies between group actions on 3-manifolds and
 > number fields, available as
 > [math.GT/0107210](http://www.arXiv.org/abs/math.NT/0107210).
 >
-> 9\) Christopher Deninger, A note on arithmetic topology and dynamical
+> 9) Christopher Deninger, A note on arithmetic topology and dynamical
 > systems, available as
 > [math.NT/0204274](http://www.arXiv.org/abs/math.NT/0204274).
 >

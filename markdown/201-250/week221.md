@@ -75,13 +75,13 @@ use was described in the *Liber Pulveris*, or "book of dust".
 I want to learn more about Andalusian science! I found this book a great
 place to start - it's really fascinating:
 
-1\) Maria Rose Menocal, The Ornament of the World: How Muslims, Jews and
+1) Maria Rose Menocal, The Ornament of the World: How Muslims, Jews and
 Christians Created a Culture of Tolerance in Medieval Spain, Little,
 Brown and Co., 2002.
 
 For something quick and pretty, try this:
 
-2\) Steve Edwards, Tilings from the Alhambra,
+2) Steve Edwards, Tilings from the Alhambra,
 `http://www2.spsu.edu/math/tile/grammar/moor.htm`
 
 Apparently 13 of the 17 planar symmetry groups can be found in tile
@@ -90,7 +90,7 @@ patterns in the Alhambra, a Moorish palace built in Granada in the
 
 To dig deeper into the splendors of Arabic mathematics, try these:
 
-3\) John J. O'Connor and Edmund F. Robertson, Arabic mathematics:
+3) John J. O'Connor and Edmund F. Robertson, Arabic mathematics:
 forgotten brilliance?,
 `http://www-groups.dcs.st-and.ac.uk/~history/HistTopics/Arabic_mathematics.html`
 
@@ -101,7 +101,7 @@ mathematicians,
 For more on Fibonacci and Arabic mathematics, try this paper by Charles
 Burnett, who spoke about the history of "Arabic numerals" in Beijing:
 
-4\) Charles Burnett, Leonard of Pisa and Arabic Arithmetic,
+4) Charles Burnett, Leonard of Pisa and Arabic Arithmetic,
 `http://muslimheritage.com/topics/default.cfm?ArticleID=472`
 
 Another interesting talk in Beijing was about the role of the Syriac
@@ -112,7 +112,7 @@ they were first translated into *Syriac*.
 I don't understand the details yet, but luckily there's a great book
 on the subject, available free online:
 
-5\) De Lacy O'Leary, How Greek Science Passed to the Arabs, Routledge &
+5) De Lacy O'Leary, How Greek Science Passed to the Arabs, Routledge &
 Kegan Paul Ltd, 1949. Also available at
 `http://www.aina.org/books/hgsptta.htm`
 
@@ -122,13 +122,13 @@ copies of the original Greek texts!
 
 George Baloglu recommends this book:
 
-6\) Dimitri Gutas, Greek Thought, Arabic Culture: The Graeco-Arabic
+6) Dimitri Gutas, Greek Thought, Arabic Culture: The Graeco-Arabic
 Translation Movement in Baghdad and Early 'Abbasid Society
 (2nd-4th/8th-10th Centuries), Routledge, 1998.
 
 I want to read this book, too:
 
-7\) Scott L. Montgomery, Science in Translation: Movements of Knowledge
+7) Scott L. Montgomery, Science in Translation: Movements of Knowledge
 through Cultures and Time, U. of Chicago Press, 2000. Review by William
 R. Everdell available at MAA Online,
 `http://www.maa.org/publications/maa-reviews/science-in-translation-movements-of-knowledge-through-cultures-and-time`
@@ -167,7 +167,7 @@ profoundly difficult hunk of mathematics, which connects number theory
 to representations of algebraic groups. I've found this introduction to
 be really helpful:
 
-8\) Stephen Gelbart: An elementary introduction to the Langlands
+8) Stephen Gelbart: An elementary introduction to the Langlands
 program, Bulletin of the AMS 10 (1984), 177-219.
 
 There are a lot of more detailed sources of information on the Langlands
@@ -177,7 +177,7 @@ the best at avoiding this problem.
 
 I've also found parts of this article to be helpful:
 
-9\) Edward Frenkel, Recent advances in the Langlands program, available
+9) Edward Frenkel, Recent advances in the Langlands program, available
 at [math.AG/0303074](http://arxiv.org/abs/math.AG/0303074).
 
 It focuses on the "geometric Langlands program", which I'd rather not
@@ -376,14 +376,14 @@ history of science.
 This manuscript, called the Archimedes Palimpsest, also reveals for the
 first time that he did work on combinatorics:
 
-10\) Nova, The Archimedes Palimpsest,
+10) Nova, The Archimedes Palimpsest,
 `http://www.pbs.org/wgbh/nova/archimedes/palimpsest.html`
 
-11\) Heather Rock Woods, Placed under X-ray gaze, Archimedes manuscript
+11) Heather Rock Woods, Placed under X-ray gaze, Archimedes manuscript
 yields secrets lost to time, Stanford Report, May 19, 2005,
 `http://news-service.stanford.edu/news/2005/may25/archimedes-052505.html`
 
-12\) Erica Klarreich, Glimpses of genius: mathematicians and historians
+12) Erica Klarreich, Glimpses of genius: mathematicians and historians
 piece together a puzzle that Archimedes pondered, Science News 165
 (2004), 314. Also available at
 `http://www.sciencenews.org/articles/20040515/bob9.asp`
@@ -397,7 +397,7 @@ eruption of Vesuvius that destroyed
 between different shades of black, researchers were able to reconstruct
 the entire book *On Piety* by one Philodemus:
 
-13\) Julie Walker, A library of mud and ashes, BYU Magazine, Spring
+13) Julie Walker, A library of mud and ashes, BYU Magazine, Spring
 2001, `http://magazine.byu.edu/?act=view&a=43`
 
 I can't resist quoting a bit:
@@ -459,7 +459,7 @@ together new fragments of plays by Euripides, Sophocles and Menander,
 lost lines from the poets Sappho, Hesiod, and Archilocus, and most of a
 book by Hesiod:
 
-14\) Oxyrhynchus Online, multispectral imaging,
+14) Oxyrhynchus Online, multispectral imaging,
 `http://www.papyrology.ox.ac.uk/multi/procedure.html`
 
 If you just want to look at a nice "before and after" movie of what

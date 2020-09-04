@@ -11,7 +11,7 @@ mission - the team that's been taking the photos I showed you. It's a
 great article, leading up to some intriguing theories about what powers
 these geysers:
 
-1\) Carolyn Porco, Enceladus: secrets of Saturn's strangest moon,
+1) Carolyn Porco, Enceladus: secrets of Saturn's strangest moon,
 Scientific American, November 2008, available at
 `http://www.sciam.com/article.cfm?id=enceladus-secrets`
 
@@ -57,7 +57,7 @@ produce the heat we see on Enceladus. Unless something funny is going
 on, there should only be 0.1 gigawatts of tidal heating - not nearly
 enough! At least that's what Porco estimated in 2006:
 
-2\) Carolyn Porco et al, Cassini observes the active south pole of
+2) Carolyn Porco et al, Cassini observes the active south pole of
 Enceladus, Science 311 (2006), 1393-1401.
 
 So, we need to dream up a more complicated story.
@@ -80,7 +80,7 @@ Nobody knows for sure what's going on - but Carolyn Porco examines the
 options in a clear and engaging way. If you like celestial mechanics,
 also try this paper:
 
-3\) Jennifer Meyer, Jack Wisdom, Tidal heating in Enceladus, Icarus 188
+3) Jennifer Meyer, Jack Wisdom, Tidal heating in Enceladus, Icarus 188
 (2007), 535-539. Also available at
 `http://groups.csail.mit.edu/mac/users/wisdom/meyerwisdom1.pdf`
 
@@ -95,7 +95,7 @@ Next I'd like to give you a quick trip through the Earth's history. In
 way to the electroweak phase transition 10 picoseconds after the Big
 Bang. On the other hand, here:
 
-4\) John Baez, The end of the universe,
+4) John Baez, The end of the universe,
 `http://math.ucr.edu/home/baez/end.html`
 
 you can zip forwards into the deep future - for example, 10^19^ years
@@ -107,7 +107,7 @@ of the Earth, focusing on an aspect you may never have thought about.
 You see, Kevin Kelly recently pointed me to this fascinating paper on
 "mineral evolution":
 
-5\) Robert M. Hazen, Dominic Papineau, Wouter Bleeker, Robert T. Downs,
+5) Robert M. Hazen, Dominic Papineau, Wouter Bleeker, Robert T. Downs,
 John M. Ferry, Timothy J. McCoy, Dmitri A. Sverjensky and Henxiong Yang,
 Mineral evolution, American Mineralogist 91 (2008), 1693-1720.
 
@@ -178,14 +178,14 @@ Here's a timeline loosely taken from this paper:
         the Big Splat Theory. Dana Mackenzie spends a lot of time
         writing about math, but he's also written a book about this:
 
-        6\) Dana Mackenzie, The Big Splat, or How Our Moon Came To Be,
+        6) Dana Mackenzie, The Big Splat, or How Our Moon Came To Be,
         Wiley, New York, 2003.
 
         The idea is that another planet formed in one of the "Lagrange
         points" of Earth's orbit - a stable spot 60 degrees ahead or
         behind the Earth:
 
-        7\) John Baez, Lagrange points,
+        7) John Baez, Lagrange points,
         `http://math.ucr.edu/home/baez/lagrange.html`
 
         But when this planet reached about the mass of Mars, it would no
@@ -205,7 +205,7 @@ Here's a timeline loosely taken from this paper:
         name: Theia! You can even watch a simulation of it hitting
         Earth, produced by Robin Canup:
 
-        8\) Dana Mackenzie, The Big Splat (animation),
+        8) Dana Mackenzie, The Big Splat (animation),
         `http://www.danamackenzie.com/big_splat_animation.htm`
 
         Let me quote Mackenzie on this:
@@ -292,7 +292,7 @@ Here's a timeline loosely taken from this paper:
         the asteroid belt and Kuiper belt. Wikipedia has a nice quick
         review of this and other theories:
 
-        9\) Wikipedia, Late heavy bombardment,
+        9) Wikipedia, Late heavy bombardment,
         `http://en.wikipedia.org/wiki/Late_heavy_bombardment`
 
         This time also marked the rise of "cratons".
@@ -615,7 +615,7 @@ Whitehead group a free abelian group?
 
 This is a famous old problem, called the Whitehead problem:
 
-10\) Wikipedia, Whitehead problem,
+10) Wikipedia, Whitehead problem,
 `http://en.wikipedia.org/wiki/Whitehead_problem`
 
 In 1971, the logician Saharon Shelah showed the answer to this problem
@@ -626,22 +626,22 @@ undecidable.
 If you want an easy introduction to Pontryagin duality and the structure
 of LCA groups, you can't beat this:
 
-10\) Sidney A. Morris, Pontryagin Duality and the Structure of Locally
+10) Sidney A. Morris, Pontryagin Duality and the Structure of Locally
 Compact Abelian Groups, Cambridge U. Press, Cambridge, 1977.
 
 This classic treatment is still great, too:
 
-14\) Lev S. Pontrjagin, Topological Groups, Princeton University Press,
+14) Lev S. Pontrjagin, Topological Groups, Princeton University Press,
 Princeton, 1939.
 
 To dig deeper, you need to read this - it's a real mine of information:
 
-15\) E. Hewitt and K. A. Ross, Abstract Harmonic Analysis I, Springer,
+15) E. Hewitt and K. A. Ross, Abstract Harmonic Analysis I, Springer,
 Berlin, 1979.
 
 This book has a lot of interesting newer results:
 
-16\) David L. Armacost, The Structure of Locally Compact Abelian Groups,
+16) David L. Armacost, The Structure of Locally Compact Abelian Groups,
 Dekker, New York, 1981.
 
 In particular, this is where I learned about path-connected LCA groups
@@ -684,7 +684,7 @@ I owe a lot to him.
 interesting comments. Mike Stay pointed out an interesting book on how
 humans may affect the future of mineral evolution:
 
-17\) Jan Zalasiewicz, The Earth After Us: What Legacy Will Humans Leave
+17) Jan Zalasiewicz, The Earth After Us: What Legacy Will Humans Leave
 in the Rocks?, Oxford University Press, Oxford, 2009.
 
 It's not 2009 yet, but the best books about the future are actually
@@ -871,7 +871,7 @@ Michael Barr wrote:
 
 He has a paper on this:
 
-18\) Michael Barr, On duality of topological abelian groups, available
+18) Michael Barr, On duality of topological abelian groups, available
 at <ftp://ftp.math.mcgill.ca/pub/barr/pdffiles/abgp.pdf>
 
 For more discussion, visit the [*n*-Category

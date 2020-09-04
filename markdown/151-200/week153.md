@@ -17,19 +17,19 @@ considered. He made up a nice problem to showcase these large numbers:
 how many grains of sand would it take to fill the universe? He then
 computed an upper bound, based on assumptions such as these:
 
-A\) No more than 10,000 grains of sand can fit into a sphere whose
+A) No more than 10,000 grains of sand can fit into a sphere whose
 diameter was 1/40th a finger-width.
 
-B\) The circumference of the earth is no more than 3,000,000 stades. A
+B) The circumference of the earth is no more than 3,000,000 stades. A
 "stade" is about 160 meters - different Greek cities used different
 stades, so it difficult to be very precise about this.
 
-C\) The diameter of the earth is greater than the diameter of the moon.
+C) The diameter of the earth is greater than the diameter of the moon.
 
-D\) The diameter of the sun is no more than 30 times the diameter of the
+D) The diameter of the sun is no more than 30 times the diameter of the
 moon. (Of course this one is way off!)
 
-E\) The diameter of the sun is greater than the side of a regular
+E) The diameter of the sun is greater than the side of a regular
 chiliagon inscribed in a great circle in the sphere of the universe. A
 chiliagon is a thousand-sided polygon.
 
@@ -61,15 +61,15 @@ Archimedes palimpsest has a long and complicated history, and only in
 1998 was it made publicly accessible at the Walters Art Gallery. For
 more on this, see:
 
-1\) Reviel Netz, The origins of mathematical physics: new light on an
+1) Reviel Netz, The origins of mathematical physics: new light on an
 old question, Physics Today, June 2000, 32-37.
 
-2\) The Walters Art Gallery, Archimedes Palimpsest website,
+2) The Walters Art Gallery, Archimedes Palimpsest website,
 `http://www.thewalters.org/archimedes/frame.html`
 
 For more on Archimedes, try:
 
-3\) Chris Rorres, Archimedes website,
+3) Chris Rorres, Archimedes website,
 `http://www.mcs.drexel.edu/~crorres/Archimedes/contents.html`
 
 Anyway, back to counting. These days I'm interested in generalizations
@@ -131,11 +131,11 @@ example of a generalized cohomology theory (see
 it in detail would require a book. Luckily, such books already exist. In
 fact there are a bunch! Here are 3 of my favorites:
 
-4\) Raoul Bott, Lectures on K(X), Harvard University, Cambridge, 1963.
+4) Raoul Bott, Lectures on K(X), Harvard University, Cambridge, 1963.
 
-5\) Michael Atiyah, K-theory, W. A. Benjamin, New York, 1967.
+5) Michael Atiyah, K-theory, W. A. Benjamin, New York, 1967.
 
-6\) Max Karoubi, K-theory: an Introduction, Springer, Berlin, 1978.
+6) Max Karoubi, K-theory: an Introduction, Springer, Berlin, 1978.
 
 There are a million variations on this decategorification trick: for
 example, we can decategorify the category of complex line bundles on the
@@ -265,10 +265,10 @@ Why??? The explanation seems to involve loop groups, vertex operator
 algebras and that sort of stuff... but alas, I don't have time to even
 *try* to explain this now! For now, I just urge you to read these:
 
-7\) Graeme Segal, Elliptic cohomology, Asterisque 161-162 (1988),
+7) Graeme Segal, Elliptic cohomology, Asterisque 161-162 (1988),
 187-201.
 
-8\) Hirotaka Tamanoi, Elliptic Genera and Vertex Operator
+8) Hirotaka Tamanoi, Elliptic Genera and Vertex Operator
 Super-Algebras, Springer Lecture Notes in Mathematics 1704, Springer,
 Berlin, 1999.
 

@@ -3,7 +3,7 @@
 This week I want to talk about some new developments in quantum gravity.
 But first, here's a little taste of Greg Egan's new novel:
 
-1\) Greg Egan, Schild's Ladder, Eos, May 2002. Synopsis available at
+1) Greg Egan, Schild's Ladder, Eos, May 2002. Synopsis available at
 `http://www.netspace.net.au/~gregegan/SCHILD/SCHILD.html`
 
 > Kusnanto Sarumpaet had lived on Earth at the turn of the third
@@ -76,7 +76,7 @@ If "Schild's Ladder" gets you hungry to learn more about what loop
 quantum gravity was like at the beginning of the third millennium, try
 these review articles by Ashtekar:
 
-2\) Abhay Ashtekar, Quantum geometry and gravity: recent advances,
+2) Abhay Ashtekar, Quantum geometry and gravity: recent advances,
 available as [gr-qc/0112038](http://xxx.lanl.gov/abs/gr-qc/0112038).
 
 Abhay Ashtekar, Quantum geometry in action: big bang and black holes,
@@ -121,7 +121,7 @@ to describe particles as well as spacetime, and it's unlikely that
 we'll get very far until we combine both aspects into a unified
 description, but work on that is just beginning:
 
-3\) Aleksandar Mikovic, Spin foam models of matter coupled to gravity,
+3) Aleksandar Mikovic, Spin foam models of matter coupled to gravity,
 [hep-th/0108099](http://xxx.lanl.gov/abs/hep-th/0108099).
 
 Aleksandar Mikovic, Quantum field theory of open spin networks and new
@@ -135,7 +135,7 @@ would be a real pity if the work on canonical quantum gravity weren't
 firmly bolted to the new work on spin foams. The best paper so far on
 this is by Arnsdorf, building on work by Rovelli and others:
 
-4\) Matthias Arnsdorf, Relating covariant and canonical approaches to
+4) Matthias Arnsdorf, Relating covariant and canonical approaches to
 triangulated models of quantum gravity, available as
 [gr-qc/0110026](http://xxx.lanl.gov/abs/gr-qc/0110026).
 
@@ -160,7 +160,7 @@ constraint.
 In a different direction, there has also been some good work lately on
 clarifying the inner workings of the spin foam formalism:
 
-6\) Robert Oeckl, Generalized lattice gauge theory, spin foams and state
+6) Robert Oeckl, Generalized lattice gauge theory, spin foams and state
 sum invariants, available as
 [hep-th/0110259](http://xxx.lanl.gov/abs/hep-th/0110259).
 
@@ -178,7 +178,7 @@ As for me, I've been spending the last half year working with Greg
 Egan, Dan Christensen, and two students of his trying to compare various
 spin foam models by means of computer simulations:
 
-8\) John C. Baez, J. Daniel Christensen, Thomas R. Halford and David C.
+8) John C. Baez, J. Daniel Christensen, Thomas R. Halford and David C.
 Tsang, Spin foam models of Riemannian quantum gravity,
 [gr-qc/0202017](http://xxx.lanl.gov/abs/gr-qc/0202017).
 
@@ -223,7 +223,7 @@ unspecified, and different ways of filling in the details turn out to
 give drastically different results. The first people to tackle this were
 De Pietri, Freidel, Krasnov and Rovelli:
 
-9\) Roberto De Pietri, Laurent Freidel, Kirill Krasnov, and Carlo
+9) Roberto De Pietri, Laurent Freidel, Kirill Krasnov, and Carlo
 Rovelli, Barrett-Crane model from a Boulatov-Ooguri field theory over a
 homogeneous space, preprint available as
 [hep-th/9907154](http://xxx.lanl.gov/abs/hep-th/9907154).
@@ -249,7 +249,7 @@ In fact, Perez and Rovelli had already suspected problems with a
 divergent partition function in this model. They came up with an elegant
 variant in which they could show the partition function converges:
 
-10\) Alejandro Perez and Carlo Rovelli, A spin foam model without bubble
+10) Alejandro Perez and Carlo Rovelli, A spin foam model without bubble
 divergences, Nucl. Phys. B599 (2001), 255-282. Also available as
 [gr-qc/0006107](http://xxx.lanl.gov/abs/gr-qc/0006107).
 

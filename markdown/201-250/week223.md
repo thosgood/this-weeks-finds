@@ -23,7 +23,7 @@ probe:
 
 \
 
-1\) Cassini-Huyghens Mission, Hyperion: Odd World,
+1) Cassini-Huyghens Mission, Hyperion: Odd World,
 `http://saturn.jpl.nasa.gov/multimedia/images/image-details.cfm?imageID=1762`
 
 It seems to be a huge pile of rubble loosely held together by gravity
@@ -54,7 +54,7 @@ Well... at least you would if it weren't for decoherence caused by the
 interaction of Hyperion with its environment, for example solar
 radiation! For an explanation of how this changes the story, try:
 
-2\) Michael Berry, Chaos and the semiclassical limit of quantum
+2) Michael Berry, Chaos and the semiclassical limit of quantum
 mechanics (is the moon there when somebody looks?), in Quantum
 Mechanics: Scientific Perspectives on Divine Action, CTNS Publications,
 Vatican Observatory, 2001. Also available at
@@ -70,7 +70,7 @@ Here's another great picture:
 
 \
 
-3\) The Hubble Heritage Project, Cat's Eye Nebula - NGC 6543,
+3) The Hubble Heritage Project, Cat's Eye Nebula - NGC 6543,
 `http://heritage.stsci.edu/2004/27/index.html`
 
 This is a star about the size of the Sun, nearing the end of its life,
@@ -102,13 +102,13 @@ So, don't keep procrastinating - enjoy life now!
 
 For other pictures of planetary nebulae, try Balick's webpage:
 
-4\) Bruce Balick, Hubble Space Telescope images of planetary nebulae,
+4) Bruce Balick, Hubble Space Telescope images of planetary nebulae,
 `http://www.astro.washington.edu/balick/WFPC2/index.html`
 
 For a timeline of the universe, including the future life of our Sun,
 try:
 
-5\) John Baez, A brief history of the universe,
+5) John Baez, A brief history of the universe,
 `http://math.ucr.edu/home/baez/timeline.html`
 
 Now... on to p-form electromagnetism!
@@ -141,7 +141,7 @@ If you don't know this stuff, you're missing some of the best fun life
 has to offer. For an easy introduction with lots of gorgeous pictures,
 see:
 
-6\) Derek Wise, Electricity, magnetism and hypercubes, available at
+6) Derek Wise, Electricity, magnetism and hypercubes, available at
 `http://math.ucr.edu/~derek/talks/050916bw.pdf`
 
 The idea of p-form electromagnetism is to replace point particles by
@@ -207,7 +207,7 @@ is defined to be the least-energy state.
 My student Miguel Carrion-Alvarez tackled an important special case in
 his thesis, namely "static" globally hyperbolic spacetimes:
 
-7\) Miguel Carrion-Alvarez, Loop quantization versus Fock quantization
+7) Miguel Carrion-Alvarez, Loop quantization versus Fock quantization
 of p-form electromagnetism on static spacetimes, available as
 [math-ph/0412032](http://arxiv.org/abs/math-ph/0412032).
 
@@ -233,7 +233,7 @@ really just cohomology incarnated as physics! My student Derek Wise made
 this very precise for a version of the theory where spacetime is
 *discrete* - so-called "lattice p-form electromagnetism":
 
-8\) Derek Wise, Lattice p-form electromagnetism and chain field theory,
+8) Derek Wise, Lattice p-form electromagnetism and chain field theory,
 available as [gr-qc/0510033](http://xxx.lanl.gov/abs/gr-qc/0510033).
 Version with better graphics and related material at
 `http://math.ucr.edu/~derek/pform/index.html`
@@ -388,7 +388,7 @@ If you want to learn more about 2-form electromagnetism from this
 perspective, try ["Week 210"](#week210). For 2-groups in general,
 try this paper:
 
-9\) John Baez and Aaron Lauda, Higher-dimensional algebra V: 2-groups,
+9) John Baez and Aaron Lauda, Higher-dimensional algebra V: 2-groups,
 Theory and Applications of Categories 12 (2004), 423-491. Available
 online at `http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html` or as
 [math.QA/0307200](http://arxiv.org/abs/math.QA/0307200).
@@ -501,11 +501,11 @@ theory, it's part of a subject called "nonabelian cohomology". It was
 actually worked out by Dedecker in the 1960's, based on much earlier
 work by Schreier:
 
-10\) O. Schreier, Ueber die Erweiterung von Gruppen I, Monatschefte fur
+10) O. Schreier, Ueber die Erweiterung von Gruppen I, Monatschefte fur
 Mathematik and Physick 34 (1926), 165-180. Ueber die Erweiterung von
 Gruppen II, Abh. Math. Sem. Hamburg 4 (1926), 321-346.
 
-11\) P. Dedecker, Les foncteuers Ext~Π~, H^2~Π~ and H^2~Π~ non
+11) P. Dedecker, Les foncteuers Ext~Π~, H^2~Π~ and H^2~Π~ non
 abeliens, C. R. Acad. Sci. Paris 258 (1964), 4891-4895.
 
 More recently, Schreier theory was pushed one step up the categorical
@@ -513,7 +513,7 @@ ladder by Larry Breen. As far as I can tell, he essentially classified
 the extensions of a 2-group B by a 2-group F in terms of homomorphisms B
 \to AUT(F), where AUT(F) is the *3-group* of automorphisms of F:
 
-12\) Lawrence Breen, Theorie de Schreier superieure, Ann. Sci. Ecole
+12) Lawrence Breen, Theorie de Schreier superieure, Ann. Sci. Ecole
 Norm. Sup. 25 (1992), 465-514. Also available at
 `http://www.numdam.org/numdam-bin/feuilleter?id=ASENS_1992_4_25_5`
 
@@ -526,7 +526,7 @@ the fundamental group is powerful enough to classify covering spaces.
 For more general spaces, we must use the fundamental *groupoid*. And, we
 can set up a Schreier theory for extensions of groupoids:
 
-13\) V. Blanco, M. Bullejos and E. Faro, Categorical non abelian
+13) V. Blanco, M. Bullejos and E. Faro, Categorical non abelian
 cohomology, and the Schreier theory of groupoids, available as
 [math.CT/0410202](http://arxiv.org/abs/math.CT/0410202).
 
@@ -536,7 +536,7 @@ terms of weak 2-functors from B to Gpd, which is the 2-groupoid of
 groupoids! The point here is that Gpd contains AUT(F) for any fixed
 groupoid F:
 
-14\) Alexander Grothendieck, Revêtements Étales et Groupe Fondamental
+14) Alexander Grothendieck, Revêtements Étales et Groupe Fondamental
 (SGA1), chapter VI: Catégories fibrées et descente, Lecture Notes in
 Mathematics 224, Springer, Berlin, 1971. Also available as
 [math.AG/0206203](http://arxiv.org/abs/math.AG/0206203).
@@ -586,7 +586,7 @@ large to be a space unless you pass to a larger universe of sets, but
 otherwise it's perfectly fine. Grothendieck invented the notion of a
 "Grothendieck universe" for precisely this purpose:
 
-15\) Wikipedia, Grothendieck universe,
+15) Wikipedia, Grothendieck universe,
 `http://en.wikipedia.org/wiki/Grothendieck_universe`
 
 ------------------------------------------------------------------------
@@ -913,7 +913,7 @@ Next, Peter May wrote:
 > He hedged it with a "dose of vagueness", but in fact I proved a
 > completely precise and general version of exactly this result in:
 >
-> 16\) Peter May, Classifying spaces and fibrations, Memoirs AMS 155,
+> 16) Peter May, Classifying spaces and fibrations, Memoirs AMS 155,
 > Jan. 1975.
 >
 > Using Moore loops on B, LB, one has a topological monoid, and one also
@@ -936,19 +936,19 @@ Jim Stasheff wrote:
 
 > Even more ancient:
 >
-> 17\) James Stasheff, Parallel transport in fibre spaces, Bol. Soc.
+> 17) James Stasheff, Parallel transport in fibre spaces, Bol. Soc.
 > Mat. Mexicana (1968), 68-86.
 >
 > Unfortunately that's a hard paper to get a hold of.
 >
 > Somewhat related is:
 >
-> 18\) James Stasheff, Associated fibre spaces, Michigan Math. Journal
+> 18) James Stasheff, Associated fibre spaces, Michigan Math. Journal
 > 15 (1968), 457-470.
 >
 > and at the survey level:
 >
-> 19\) James Stasheff, H-spaces and classifying spaces, I-IV, AMS Proc.
+> 19) James Stasheff, H-spaces and classifying spaces, I-IV, AMS Proc.
 > Symp. Pure Math. 22 (1971), 247-272.
 >
 > Of course, as you might expect, I describe things in terms of
@@ -967,14 +967,14 @@ Ronnie Brown wrote:
 > been involved, all using crossed complexes and free crossed
 > resolutions:
 >
-> 20\) Ronald Brown and P. J. Higgins, Crossed complexes and non-abelian
+> 20) Ronald Brown and P. J. Higgins, Crossed complexes and non-abelian
 > extensions, Category theory proceedings, Gummersbach, 1981, (ed. K.H.
 > Kamps et al) Lecture Notes in Math. 962 Springer, Berlin, 1982, pp.
 > 39-50.
 >
 > This generalises classical Schreier theory to extensions of groupoids.
 >
-> 21\) Ronald Brown and O. Mucuk, Covering groups of non-connected
+> 21) Ronald Brown and O. Mucuk, Covering groups of non-connected
 > topological groups revisited, Math. Proc. Camb. Phil. Soc., 115 (1994)
 > 97-110. Also available as
 > [math.AT/0009021](http://arxiv.org/abs/math.AT/0009021).
@@ -986,7 +986,7 @@ Ronnie Brown wrote:
 > exact sequences derived from a fibration C \to D and the induced
 > fibration on CRS(F, -).
 >
-> 22\) Ronald Brown and Timothy Porter, On the Schreier theory of
+> 22) Ronald Brown and Timothy Porter, On the Schreier theory of
 > non-abelian extensions: generalisations and computations, Proceedings
 > Royal Irish Academy 96A (1996), 213-227. Also available at
 > `http://www.informatics.bangor.ac.uk/public/math/research/ftp/algtop/rb/nonabex4.ps.gz`
@@ -1001,7 +1001,7 @@ Ronnie Brown wrote:
 > in terms of presentations of the group G. This involves identities
 > among relations for the presentation, as shown originally by Turing in
 >
-> 23\) Alan Turing, The extensions of a group, Compositio Mathematica 5
+> 23) Alan Turing, The extensions of a group, Compositio Mathematica 5
 > (1938), 357-367.
 >
 > The advantage of this method is that one can actually do sums, even
@@ -1026,7 +1026,7 @@ Ronnie Brown wrote:
 > crossed modules, explained for the crossed modules of groupoids case
 > in:
 >
-> 24\) Ronald Brown and Ilhan Icen, Homotopies and automorphisms of
+> 24) Ronald Brown and Ilhan Icen, Homotopies and automorphisms of
 > crossed modules of groupoids, Applied Categorical Structures, 11
 > (2003) 185-206. Also available as
 > [math.CT/0008117](http://arxiv.org/abs/math.CT/0008117).
@@ -1037,7 +1037,7 @@ Ronnie Brown wrote:
 > One knows such homotopies of globular \infty groupoids exist because
 > globular \infty-groupoids are equivalent to crossed complexes:
 >
-> 25\) Ronald Brown and P. J. Higgins, The equivalence of \infty-groupoids
+> 25) Ronald Brown and P. J. Higgins, The equivalence of \infty-groupoids
 > and crossed complexes, Cah. Top. Geom. Diff. 22 (1981) 371-386.
 >
 > (This paper contains an early definition of a (strict, globular) \infty
@@ -1052,7 +1052,7 @@ Ronnie Brown wrote:
 > The idea of singular nonabelian cohomology of a space X with
 > coefficients in a crossed complex C is given in:
 >
-> 26\) Ronald Brown and P. J. Higgins, The classifying space of a
+> 26) Ronald Brown and P. J. Higgins, The classifying space of a
 > crossed complex, Math. Proc. Camb. Phil. Soc. 110 (1991) 95-120.
 >
 > This cohomology is given by \[ΠSX, C\], homotopy classes of maps from
@@ -1066,7 +1066,7 @@ Ronnie Brown wrote:
 > transitive Lie groupoids by Androulidakis, developing work of
 > Mackenzie, at:
 >
-> 27\) Iakovos Androulidakis, Classification of extensions of principal
+> 27) Iakovos Androulidakis, Classification of extensions of principal
 > bundles and transitive Lie groupoids with prescribed kernel and
 > cokernel, J. Math. Phys. 45 (2004), 3095-4012. Also available as
 > [math.DG/0402007](http://arxiv.org/abs/math.DG/0402007).
@@ -1176,7 +1176,7 @@ Finally, here's my reply to a bemused comment by Jim Stasheff:
 > More recently people have been thinking about the n = 2 case,
 > especially Claudio Hermida:
 >
-> 28\) Claudio Hermida, Descent on 2-fibrations and strongly 2-regular
+> 28) Claudio Hermida, Descent on 2-fibrations and strongly 2-regular
 > 2-categories, Applied Categorical Structures, 12 (2004), 427-459. Also
 > available at
 > `http://maggie.cs.queensu.ca/chermida/papers/2-descent.pdf`

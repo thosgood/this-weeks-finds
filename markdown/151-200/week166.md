@@ -106,7 +106,7 @@ my real goal is simply to point out that there are lots of interesting
 constants in mathematics besides π, e, the golden ratio, and Euler's
 number. Where can you read about them? Here:
 
-1\) Steven Finch, MathSoft Constants,
+1) Steven Finch, MathSoft Constants,
 `http://pauillac.inria.fr/algo/bsolve/constant/constant.html`
 
 This is a great place to learn about Khinchin's constant, Feigenbaum's
@@ -115,7 +115,7 @@ constant, and many other fun numbers!
 
 Speaking of fun websites, here's another:
 
-2\) The Mathematics Genealogy Project,
+2) The Mathematics Genealogy Project,
 `http://hcoonce.math.mankato.msus.edu/`
 
 My advisor's advisor's advisor's advisor's advisor's advisor's
@@ -216,7 +216,7 @@ Now, Weierstrass doesn't have an advisor listed in the mathematics
 genealogy. However, by using this website full of mathematician's
 biographies, I can go back further:
 
-3\) John J. O'Connor and Edmund F. Robertson, The MacTutor History of
+3) John J. O'Connor and Edmund F. Robertson, The MacTutor History of
 Mathematics Archive,
 `http://www-groups.dcs.st-andrews.ac.uk/~history/index.html`
 
@@ -262,7 +262,7 @@ up.
 
 If you don't see how this works, try:
 
-4\) Wikipedia, `http://en.wikipedia.org/wiki/Mercator_projection`
+4) Wikipedia, `http://en.wikipedia.org/wiki/Mercator_projection`
 
 Gudermann's advisor was Carl Friedrich Gauss, the guy they named
 practically *everything* after! Poor Gudermann, who was content to mess
@@ -303,7 +303,7 @@ electrostatics, but made no memorable discoveries.
 At this point the trail disappears into mist. For some conjectures, see
 this page:
 
-5\) Anthony M. Jacobi, Academic Family Tree,
+5) Anthony M. Jacobi, Academic Family Tree,
 `http://www.staff.uiuc.edu/%7Ea-jacobi/tree.html`
 
 It's interesting how the same themes keep popping up in this genealogy.
@@ -325,11 +325,11 @@ starting with a diagram with 26 nodes....
 Unfortunately, I'm having trouble finding references for some of these
 things! It's possible that the last two items are really these:
 
-6\) Robert L. Griess, Pieces of eight: semiselfdual lattices and a new
+6) Robert L. Griess, Pieces of eight: semiselfdual lattices and a new
 foundation for the theory of Conway and Mathieu groups. Adv. Math. 148
 (1999), 75-104.
 
-7\) John H. Conway, Christopher S. Simons, 26 implies the Bimonster,
+7) John H. Conway, Christopher S. Simons, 26 implies the Bimonster,
 Jour. Algebra 235 (2001), 805-814.
 
 Anyway, I need to read about this stuff.
@@ -346,7 +346,7 @@ discover that Pierre Ramond, a real expert on this stuff, has had
 similar thoughts. In fact he's written two papers on this! Let me just
 quote the abstracts:
 
-8\) Pierre Ramond, Boson-fermion confusion: the string path to
+8) Pierre Ramond, Boson-fermion confusion: the string path to
 supersymmetry, available at
 [hep-th/0102012](http://xxx.lanl.gov/abs/hep-th/0102012).
 
@@ -356,7 +356,7 @@ building superstring theories in 9+1 dimensions. In eleven dimensions,
 the kinship between bosons and fermions is more subtle, and may involve
 the exceptional group F4.
 
-9\) T. Pengpan and Pierre Ramond, M(ysterious) patterns in SO(9), Phys.
+9) T. Pengpan and Pierre Ramond, M(ysterious) patterns in SO(9), Phys.
 Rep. 315 (1999) 137-152, also available as
 [hep-th/9808190](http://xxx.lanl.gov/abs/hep-th/9808190).
 

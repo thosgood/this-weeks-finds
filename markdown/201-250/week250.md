@@ -3,7 +3,7 @@
 Right now I'm in a country estate called Les Treilles in southern
 France, at a conference organized by Alexei Grinbaum and Michel Bitbol:
 
-1\) Philosophical and Formal Foundations of Modern Physics,
+1) Philosophical and Formal Foundations of Modern Physics,
 `http://www-drecam.cea.fr/Phocea/Vie_des_labos/Ast/ast_visu.php?id_ast=762`
 
 ::: {align="center"}
@@ -60,12 +60,12 @@ boost your chance of winning to about 85%!
 
 I think the underlying idea first appeared here:
 
-1\) S. Popescu and D. Rohrlich, Nonlocality as an axiom, Found. Phys. 24
+1) S. Popescu and D. Rohrlich, Nonlocality as an axiom, Found. Phys. 24
 (1994), 379-385.
 
 For the "game" version, try this:
 
-2\) Nicolas Gisin, Can relativity be considered complete? From Newtonian
+2) Nicolas Gisin, Can relativity be considered complete? From Newtonian
 nonlocality to quantum nonlocality and beyond, available as
 [quant-ph/0512168](http://xxx.lanl.gov/abs/quant-ph/0512168).
 
@@ -78,7 +78,7 @@ weirder correlations than quantum mechanics.
 
 But, I don't understand this stuff, so you should just read this:
 
-3\) Valerio Scarani, Feats, features and failures of the PR-box,
+3) Valerio Scarani, Feats, features and failures of the PR-box,
 available as
 [quant-ph/0603017](http://xxx.lanl.gov/abs/quant-ph/0603017).
 
@@ -382,7 +382,7 @@ nap right around now - I'm just trying to make contact with the usual
 way experts talk about this stuff.
 
 First, let's use an equivalent but more technical way to think of an
-invariant relation: it's a subset of the quotient space G\\(X \times Y).
+invariant relation: it's a subset of the quotient space G\(X \times Y).
 
 Note: often I'd call this quotient space (X \times Y)/G. But now I'm
 writing it with the G on the left side, since we had a *left* action of
@@ -404,7 +404,7 @@ by the *right* action of H or K on G.
 Combining these facts, we see that when G acts transitively on both X
 and Y, an invariant relation is just a subset of
 
-G\\(X \times Y) ≅ G\\(G/H x G/K)
+G\(X \times Y) ≅ G\(G/H x G/K)
 
 Finally, if you lock yourself in a cellar and think about this for a few
 minutes (or months), you'll realize that this weird-looking set is
@@ -416,7 +416,7 @@ This notation may freak you out at first - I know it scared me! The
 point is that we can take G, mod out by the right action of K to get
 G/K, and then mod out by the left action of H on G/K, obtaining
 
-H\\(G/K).
+H\(G/K).
 
 Or we can take G, mod out by the left action of H to get H\\G, and then
 mod out by the right action of K on H\\G, obtaining

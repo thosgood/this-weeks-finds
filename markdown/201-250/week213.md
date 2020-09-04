@@ -2,7 +2,7 @@
 
 Here's a book I've been reading lately:
 
-1\) Kenneth S. Brown, Cohomology of Groups, Graduate Texts in
+1) Kenneth S. Brown, Cohomology of Groups, Graduate Texts in
 Mathematics 182, Springer, 1982.
 
 I should have read this book a long time ago - but I probably wouldn't
@@ -67,14 +67,14 @@ act as symmetries of fractal patterns like this:
 ![](INDRA065.jpg){width="400" height="400"}
 :::
 
-2\) Jos Leys, Kleinian Pages, `http://www.josleys.com/creatures42.htm`
+2) Jos Leys, Kleinian Pages, `http://www.josleys.com/creatures42.htm`
 
 If you like cool pictures, check out this website! I've linked you to
 the page that most closely connects to Kleinian groups, but there are
 lots of other more fanciful pictures. And if you get interested in the
 math lurking behind these fractals, you've *got* to try this book:
 
-3\) David Mumford, Caroline Series, and David Wright, Indra's Pearls:
+3) David Mumford, Caroline Series, and David Wright, Indra's Pearls:
 The Vision of Felix Klein, Cambridge U. Press, Cambridge, 2002.
 
 Mumford is a world-class mathematician, so this book is completely
@@ -88,13 +88,13 @@ which he considered his best work. But, he was also a mathematical
 physicist. Among other things, he wrote a four-volume book on tops with
 one of the fathers of quantum mechanics, Arnold Sommerfeld:
 
-4\) Felix Klein and Arnold Sommerfeld, Über die Theorie des Kreisels, 4
+4) Felix Klein and Arnold Sommerfeld, Über die Theorie des Kreisels, 4
 vols, 1897-1910. Reprinted by Johnson, New York, 1965. Also available at
 `http://www.hti.umich.edu/cgi/t/text/text-idx?c=umhistmath;idno=ABV7354.0001.001`
 
 This came after a book he wrote on his own:
 
-5\) Felix Klein, The Mathematical Theory of the Top, Scribner's, New
+5) Felix Klein, The Mathematical Theory of the Top, Scribner's, New
 York, 1887.
 
 This may seem like a lot of books about a kid's toy! But, tops are
@@ -106,7 +106,7 @@ subject.
 
 Klein also wrote a book on the icosahedron and the quintic equation:
 
-6\) Felix Klein, Lectures on the Icosahedron and the Solution of
+6) Felix Klein, Lectures on the Icosahedron and the Solution of
 Equations of the Fifth Degree, 1888. Reprinted by Dover, New York, 2003.
 Also available at
 `http://historical.library.cornell.edu/cgi-bin/cul.math/docviewer?did=03070001&seq=7`
@@ -124,7 +124,7 @@ the group of all *even* permutations of 5 things. But, Klein took this
 much further! Alas, I've never really understood what he did. Perhaps
 if I read these and think hard, I'll understand:
 
-7\) Jerry Shurman, Geometry of the Quintic, John Wiley and Sons, New
+7) Jerry Shurman, Geometry of the Quintic, John Wiley and Sons, New
 York, 1997.
 
 Peter Doyle and Curt McMullen, Solving the quintic by iteration, Acta
@@ -305,7 +305,7 @@ and identifying opposite points. This space has holes of arbitrarily
 high dimension, so the cohomology groups of Z/2 go on being nontrivial
 for arbitrarily high n. I sketched a "picture proof" here:
 
-8\) John Baez, Fall 2004 Quantum Gravity Seminar, week 10, notes by
+8) John Baez, Fall 2004 Quantum Gravity Seminar, week 10, notes by
 Derek Wise, `http://math.ucr.edu/home/baez/qg-fall2004/`
 
 and I showed that, for example
@@ -383,7 +383,7 @@ zany observation that
 
 as I explained here:
 
-9\) John Baez, Euler's Proof that 1+2+3+ ... = -1/12, Bernoulli
+9) John Baez, Euler's Proof that 1+2+3+ ... = -1/12, Bernoulli
 Numbers and the Riemann Zeta Function, Winter 2004 Quantum Gravity
 Seminar, homework for weeks 5,6,7, available at
 `http://math.ucr.edu/home/baez/qg-winter2004/`
@@ -395,7 +395,7 @@ space for SL(2,Z) which has 1 cell of dimension 0, 2 cells of dimension
 More generally, G. Harder computed the (generalized) Euler
 characteristic for a large class of arithmetic groups:
 
-10\) G. Harder, A Gauss-Bonnet formula for discrete arithmetically
+10) G. Harder, A Gauss-Bonnet formula for discrete arithmetically
 defined groups, Ann. Sci. Ecole Norm. Sup. 4 (1971), 409-455.
 
 For example, he looked at the symplectic group defined over the
@@ -428,7 +428,7 @@ over the integers has p-torsion for p = 2, 3, 5, 7, 11, 13 and 19.
 
 For more, see:
 
-11\) Jean-Pierre Serre, Cohomologie des groups discretes, Ann. Math.
+11) Jean-Pierre Serre, Cohomologie des groups discretes, Ann. Math.
 Studies 70 (1971), 77-169.
 
 This only takes us up to 1971. I shudder to think what bizarre results
@@ -478,7 +478,7 @@ because I've never spent time trying to understand it! - it's just one
 of those things that's been gnawing at the edges of my consciousness,
 especially ever since I saw this book come out:
 
-12\) Silvio Levy, The Eightfold Way: the Beauty of Klein's Quartic
+12) Silvio Levy, The Eightfold Way: the Beauty of Klein's Quartic
 Curve, MSRI Research Publications 35, Cambridge U. Press, Cambridge
 1999. Available at `http://www.msri.org/publications/books/Book35/`
 

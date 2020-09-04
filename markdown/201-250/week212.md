@@ -243,19 +243,19 @@ would be interesting.)
 
 To read more about this, try:
 
-1\) Pierre Deligne, Notes on spinors, in Quantum Fields and Strings: A
+1) Pierre Deligne, Notes on spinors, in Quantum Fields and Strings: A
 Course For Mathematicians, volume 1, American Mathematical Society,
 Providence, 1999. Also available at
 `http://www.math.ias.edu/QFT/fall/spinors.ps`
 
 A lot of the ideas go back to here:
 
-2\) C. T. C. Wall, Graded Brauer groups, J. Reine Angew. Math. 213
+2) C. T. C. Wall, Graded Brauer groups, J. Reine Angew. Math. 213
 (1963/1964), 187-199.
 
 and here's another good reference:
 
-3\) Peter Donovan and Max Karoubi, Graded Brauer groups and K-theory
+3) Peter Donovan and Max Karoubi, Graded Brauer groups and K-theory
 with local coefficients, Publications Math. IHES 38 (1970), 5-25. Also
 available at `http://www.math.jussieu.fr/~karoubi/Donavan.K.pdf`
 
@@ -298,7 +298,7 @@ this construction in ["Week 199"](#week199), but for a much more
 detailed and intense treatment with lots of references to earlier work,
 try:
 
-4\) R. W. Thomason, Symmetric categories model all connective spectra,
+4) R. W. Thomason, Symmetric categories model all connective spectra,
 Theory and Applications of Categories 1 (1995), 78-118. Available at
 `http://www.tac.mta.ca/tac/volumes/1995/n5/1-05abs.html`
 
@@ -369,7 +369,7 @@ semisimple Lie algebras and for Kirillov in general. Kirillov
 conjectured that it was always an isomorphism; what Duflo did is prove
 it:
 
-5\) Michel Duflo, Operateurs differentiels bi-invariants sur un groupe
+5) Michel Duflo, Operateurs differentiels bi-invariants sur un groupe
 de Lie, Ann. Sci. Ecole Norm. Sup. 10 (1977), 265-288.
 
 Apparently all known proofs are sort of hard! According to Bar-Natan, Le
@@ -387,7 +387,7 @@ theory and Lie algebras - namely, the theory of Vassiliev invariants. I
 think there's still something slightly scandalous about this, but it's
 awfully interesting. Anyway, take a look:
 
-6\) Dror Bar-Natan, Thang T. Q. Le and Dylan P. Thurston, Two
+6) Dror Bar-Natan, Thang T. Q. Le and Dylan P. Thurston, Two
 applications of elementary knot theory to Lie algebras and Vassiliev
 invariants, Geometry and Topology 7 (2003), 1-31. Available at
 `http://www.maths.warwick.ac.uk/gt/GTVol7/paper1.abs.html` and also as
@@ -395,13 +395,13 @@ invariants, Geometry and Topology 7 (2003), 1-31. Available at
 
 For more, try Thurston's thesis:
 
-7\) Dylan P. Thurston, Wheeling: a diagrammatic analogue of the Duflo
+7) Dylan P. Thurston, Wheeling: a diagrammatic analogue of the Duflo
 isomorphism,
 [math.QG/0006083](http://www.arXiv.org/abs/math.QG/0006083).
 
 and, just for fun, Deligne's handwritten letter to Bar-Natan:
 
-8\) Pierre Deligne, letter to Dror Bar-Natan about the Duflo map,
+8) Pierre Deligne, letter to Dror Bar-Natan about the Duflo map,
 available at `http://www.math.toronto.edu/~drorbn/Deligne/`
 
 ------------------------------------------------------------------------

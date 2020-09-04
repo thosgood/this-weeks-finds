@@ -25,21 +25,21 @@ around a figure-8-shaped curve!
 
 For details, see:
 
-1\) Alain Chenciner and Richard Montgomery, A remarkable periodic
+1) Alain Chenciner and Richard Montgomery, A remarkable periodic
 solution of the three-body problem in the case of equal masses, Ann. of
 Math. 152 (2000), 881-901. Also available as
 [math.DS/0011268](http://xxx.lanl.gov/abs/math.DS/0011268).
 
 For a more popular account see:
 
-2\) Richard Montgomery, A new solution to the three-body problem, AMS
+2) Richard Montgomery, A new solution to the three-body problem, AMS
 Notices 48 (May 2001), 471-481. Also available as
 `http://www.ams.org/notices/200105/fea-montgomery.pdf`
 
 and for Java applets illustrating this and other solutions based on
 computer simulations by Carles Simo, try this:
 
-3\) Bill Casselman, A new solution to the three body problem - and more,
+3) Bill Casselman, A new solution to the three body problem - and more,
 at `http://www.ams.org/new-in-math/cover/orbits1.html`
 
 There are lots of other unsolved puzzles concerning point particles
@@ -53,7 +53,7 @@ attractive potentials like -1/r^a^ where a is greater than or equal to
 methods. However, the question remains largely open for gravity, where a
 = 1. See:
 
-4\) Cristopher Moore, Braids in classical gravity, Phys. Rev. Lett. 70
+4) Cristopher Moore, Braids in classical gravity, Phys. Rev. Lett. 70
 (1993), 3675-3679. Also available at
 `http://www.santafe.edu/media/workingpapers/92-07-034.pdf`
 
@@ -71,7 +71,7 @@ you can find with many others on Moore's website:
 
 Also see:
 
-5\) Richard Montgomery, The N-body problem, the braid group, and
+5) Richard Montgomery, The N-body problem, the braid group, and
 action-minimizing periodic solutions, Nonlinearity 11 (1998), 363-371.
 Also available at `http://count.ucsc.edu/~rmont/papers/NbdyBraids.pdf`
 
@@ -87,12 +87,12 @@ amount of time.
 Zhihong Xia showed this can actually happen in the N-body problem for N
 = 5 or bigger:
 
-6\) Zhihong Xia, The existence of non-collision singularities in
+6) Zhihong Xia, The existence of non-collision singularities in
 Newtonian systems, Ann. Math. 135 (1992), 411-468.
 
 or for a more popular account:
 
-7\) Donald G. Saari and Zhihong Xia, Off to infinity in finite time, AMS
+7) Donald G. Saari and Zhihong Xia, Off to infinity in finite time, AMS
 Notices (May 1995), 538-546. Also available at
 `http://www.ams.org/notices/199505/saari-2.pdf`
 
@@ -212,16 +212,16 @@ states of the *quantum* version of our system. For details, try my
 webpage on geometric quantization, or these books, listed in rough order
 of increasing difficulty and depth:
 
-8\) John Baez, Geometric quantization,
+8) John Baez, Geometric quantization,
 `http://math.ucr.edu/home/baez/quantization.html`
 
-9\) J. Snyatycki, Geometric Quantization and Quantum Mechanics,
+9) J. Snyatycki, Geometric Quantization and Quantum Mechanics,
 Springer-Verlag, New York, 1980.
 
-10\) Nicholas Woodhouse, Geometric Quantization, Oxford U. Press,
+10) Nicholas Woodhouse, Geometric Quantization, Oxford U. Press,
 Oxford, 1992.
 
-11\) Norman E. Hurt, Geometric Quantization in Action: Applications of
+11) Norman E. Hurt, Geometric Quantization in Action: Applications of
 Harmonic Analysis in Quantum Statistical Mechanics and Quantum Field
 Theory, Kluwer, Boston, 1983.
 

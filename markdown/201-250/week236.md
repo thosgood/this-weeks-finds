@@ -362,7 +362,7 @@ and write the answer in recursive base 5. And so on.
 
 You can try some examples using the applet on this site:
 
-1\) National Curve Bank, Goodstein's theorem,
+1) National Curve Bank, Goodstein's theorem,
 `http://curvebank.calstatela.edu/goodstein/goodstein.htm`
 
 You'll see that for any starting number bigger than 3, the Goodstein
@@ -659,7 +659,7 @@ have to read the references.
 
 For a fun introduction to the infinite, try
 
-2\) Rudy Rucker, Infinity and the Mind: The Science and Philosophy of
+2) Rudy Rucker, Infinity and the Mind: The Science and Philosophy of
 the Infinite, Princeton University Press, Princeton, 2004.
 
 Rucker also wrote a novel, White Light, about a mathematician who
@@ -670,7 +670,7 @@ For online self-study, I urge you to start by reading the Wikipedia
 article on ordinal numbers, then the article on ordinal arithmetic, and
 then the one on large countable ordinals - they're really well-written:
 
-3\) Wikipedia, Ordinal numbers,
+3) Wikipedia, Ordinal numbers,
 `http://en.wikipedia.org/wiki/Ordinal_number`
 
 Ordinal arithmetic, `http://en.wikipedia.org/wiki/Ordinal_arithmetic`
@@ -684,27 +684,27 @@ agree on notation for ordinals beyond the Veblen hierarchy, either.
 
 Gentzen proved the consistency of Peano arithmetic in 1936:
 
-4\) Gerhard Gentzen, Die Widerspruchfreiheit der reinen Zahlentheorie,
+4) Gerhard Gentzen, Die Widerspruchfreiheit der reinen Zahlentheorie,
 Mathematische Annalen 112 (1936), 493-565. Translated as "The
 consistency of arithmetic" in M. E. Szabo ed., The Collected Works of
 Gerhard Gentzen, North-Holland, Amsterdam, 1969.
 
 Goodstein's theorem came shortly afterwards:
 
-5\) R. Goodstein, On the restricted ordinal theorem, Journal of Symbolic
+5) R. Goodstein, On the restricted ordinal theorem, Journal of Symbolic
 Logic, 9 (1944), 33-41.
 
 but Kirby and Paris proved it independent of Peano arithmetic only in
 1982:
 
-6\) L. Kirby and J. Paris, Accessible independence results for Peano
+6) L. Kirby and J. Paris, Accessible independence results for Peano
 arithmetic, Bull. London. Math. Soc. 14 (1982), 285-93.
 
 That marvelous guy Alan Turing wrote his PhD thesis at Princeton under
 the logician Alonzo Church. It was about ordinals and their relation to
 logic:
 
-7\) Alan M. Turing, Systems of logic defined by ordinals, Proc. London
+7) Alan M. Turing, Systems of logic defined by ordinals, Proc. London
 Math. Soc., Series 2, 45 (1939), 161-228.
 
 This is regarded as his most difficult paper. The idea is to take a
@@ -724,7 +724,7 @@ Well, this article is great fun if you're looking for a readable
 overview of the grand early days of proof theory, when Hilbert was
 battling Brouwer, and then Gödel came and blew everyone away:
 
-8\) Jeremy Avigad and Erich H. Reck, "Clarifying the nature of the
+8) Jeremy Avigad and Erich H. Reck, "Clarifying the nature of the
 infinite": the development of metamathematics and proof theory,
 Carnegie-Mellon Technical Report CMU-PHIL-120, 2001. Also available as
 `http://www.andrew.cmu.edu/user/avigad/Papers/infinite.pdf`
@@ -734,13 +734,13 @@ induction up to a given ordinal can prove the consistency of a logical
 system - the bigger the ordinal, the stronger the system. For work up to
 1960, this is a good overview:
 
-9\) Solomon Feferman, Highlights in proof theory, in Proof Theory, eds.
+9) Solomon Feferman, Highlights in proof theory, in Proof Theory, eds.
 V. F. Hendricks et al, Kluwer, Dordrecht (2000), pp. 11-31. Also
 available at `http://math.stanford.edu/~feferman/papers.html`
 
 For newer stuff, try this:
 
-10\) Solomon Feferman, Proof theory since 1960, prepared for the
+10) Solomon Feferman, Proof theory since 1960, prepared for the
 Encyclopedia of Philosophy Supplement, Macmillan Publishing Co., New
 York. Also available at `http://math.stanford.edu/~feferman/papers.html`
 
@@ -748,7 +748,7 @@ Also try the stuff on proof theory, trees and categories mentioned in
 ["Week 227"](#week227), and this book mentioned in
 ["Week 70"](#week70) - now you can get it free online:
 
-11\) Jean-Yves Girard, Y. Lafont and P. Taylor, Proofs and Types,
+11) Jean-Yves Girard, Y. Lafont and P. Taylor, Proofs and Types,
 Cambridge Tracts in Theoretical Computer Science 7, Cambridge U. Press,
 1989. Also available at
 [http://www.cs.man.ac.uk/\~pt/stable/Proofs+Types.html](%20http://www.cs.man.ac.uk/~pt/stable/Proofs+Types.htm%0Al)
@@ -757,7 +757,7 @@ Finally, sometime I want to get ahold of this book by someone who always
 enlivened logic discussions on the internet until his death in April
 this year:
 
-12\) Torkel Franzen, Inexhaustibility: A Non-Exhaustive Treatment,
+12) Torkel Franzen, Inexhaustibility: A Non-Exhaustive Treatment,
 Lecture Notes in Logic 16, A. K. Peters, Ltd., 2004.
 
 The blurb sounds nice: "The inexhaustibility of mathematical knowledge
@@ -791,7 +791,7 @@ to the regular dodecahedron....
 
 ... and it also led them to invent the icosahedron:
 
-13\) Benno Artmann, About the cover: the mathematical conquest of the
+13) Benno Artmann, About the cover: the mathematical conquest of the
 third dimension, Bulletin of the AMS, 43 (2006), 231-235. Also available
 at `http://www.ams.org/bull/2006-43-02/S0273-0979-06-01111-6/`
 
@@ -806,7 +806,7 @@ the icosahedron between 380 and 370 BC, and died at an early age in 369.
 Euclid wrote his construction of the icosahedron that we find in
 Euclid's Elements:
 
-14\) Euclid, Elements, Book XIII, Proposition 16, online version due to
+14) Euclid, Elements, Book XIII, Proposition 16, online version due to
 David Joyce at
 `http://aleph0.clarku.edu/~djoyce/java/elements/bookXIII/propXIII16.html`
 
@@ -817,7 +817,7 @@ Book XIII also contains a complete classification of the Platonic solids
 - perhaps the first really interesting classification theorem in
 mathematics, and certainly the first "ADE classification":
 
-15\) Euclid, Elements, Book XIII, Proposition 18, online version due to
+15) Euclid, Elements, Book XIII, Proposition 18, online version due to
 David Joyce at
 `http://aleph0.clarku.edu/~djoyce/java/elements/bookXIII/propXIII18.html`
 
@@ -851,7 +851,7 @@ Casselman, who kindly let me include this picture:
 What math is being discussed here? What's that red "29" doing there?
 For the answer to these and other questions, check out his website!
 
-16\) Bill Casselman, One of the oldest extant diagrams from Euclid,
+16) Bill Casselman, One of the oldest extant diagrams from Euclid,
 `http://www.math.ubc.ca/~cass/Euclid/papyrus/`
 
 The oldest nearly complete copy of the Elements lurks in a museum called
@@ -861,11 +861,11 @@ after Euclid.
 More copies date back to the 10th century; you can find their stories
 here:
 
-17\) Thomas L. Heath, editor, Euclid's Elements, chap. V: the text,
+17) Thomas L. Heath, editor, Euclid's Elements, chap. V: the text,
 Cambridge U. Press, Cambridge, 1925. Also available at
 `http://www.perseus.tufts.edu/cgi-bin/ptext?lookup=Euc.+5`
 
-18\) Menso Folkerts, Euclid's Elements in Medieval Europe,
+18) Menso Folkerts, Euclid's Elements in Medieval Europe,
 `http://www.math.ubc.ca/~cass/Euclid/folkerts/folkerts.html`
 
 All these copies are somewhat different. So, getting at Euclid's
@@ -876,7 +876,7 @@ A lot of these copies contain "scholia": comments inserted by various
 usually unnamed copyists. These were collected and classified by a
 scholar named Heiberg in the late 1800s:
 
-19\) Thomas L. Heath, editor, Euclid's Elements, chap. VI: the scholia,
+19) Thomas L. Heath, editor, Euclid's Elements, chap. VI: the scholia,
 Cambridge U. Press, Cambridge, 1925. Also available at
 `http://www.perseus.tufts.edu/cgi-bin/ptext?lookup=Euc.+6`
 
@@ -910,15 +910,15 @@ Hultsch attributes to Geminus, mentions
 So, that's what I know about the origin of the icosahedron! Someday
 I'll read more, so let me make a note to myself:
 
-20\) Benno Artmann, Antike Darstellungen des Ikosaeders, Mitt. DMV 13
+20) Benno Artmann, Antike Darstellungen des Ikosaeders, Mitt. DMV 13
 (2005), 45-50. (Here the drawing of the icosahedron in Euclid's
 elements is analysed in detail.)
 
-21\) A. E. Taylor, Plato: the Man and His Work, Dover Books, New York,
+21) A. E. Taylor, Plato: the Man and His Work, Dover Books, New York,
 2001, page 322. (This discusses traditions concerning Theaetetus and
 Platonic solids.)
 
-22\) Euclid, Elementa: Libri XI-XIII cum appendicibus, postscript by
+22) Euclid, Elementa: Libri XI-XIII cum appendicibus, postscript by
 Johan Ludvig Heiberg, edited by Euangelos S. Stamatis, Teubner BSB,
 Leipzig, 1969. (Apparently this contains information on the scholium in
 book XIII of the Elements.)
@@ -926,11 +926,11 @@ book XIII of the Elements.)
 Now for something a bit newer: categorification and quantum mechanics.
 I've said so much about this already that I'm pretty much talked out:
 
-23\) John Baez and James Dolan, From finite sets to Feynman diagrams, in
+23) John Baez and James Dolan, From finite sets to Feynman diagrams, in
 Mathematics Unlimited - 2001 and Beyond, vol. 1, eds. Björn Engquist and
 Wilfried Schmid, Springer, Berlin, 2001, pp. 29-50.
 
-24\) John Baez and Derek Wise, Quantization and Categorification,
+24) John Baez and Derek Wise, Quantization and Categorification,
 Quantum Gravity Seminar lecture notes, available at:
 `http://math.ucr.edu/home/baez/qg-fall2003/`
 `http://math.ucr.edu/home/baez/qg-winter2004/`
@@ -956,7 +956,7 @@ of "structure types" or "species" - see ["Week 202"](#week202)
 2-category theory is needed to make the ideas precise. For a careful
 treatment, see this thesis by a student of Ross Street:
 
-25\) Simon Byrne, On Groupoids and Stuff, honors thesis, Macquarie
+25) Simon Byrne, On Groupoids and Stuff, honors thesis, Macquarie
 University, 2005, available at
 `http://www.maths.mq.edu.au/~street/ByrneHons.pdf` and
 `http://math.ucr.edu/home/baez/qg-spring2004/ByrneHons.pdf`
@@ -966,7 +966,7 @@ quantum mechanics! For that, we'd need a generalization of finite sets
 whose cardinality can be be complex. And that's what my student Jeffrey
 Morton introduces here:
 
-26\) Jeffrey Morton, Categorified algebra and quantum mechanics, Theory
+26) Jeffrey Morton, Categorified algebra and quantum mechanics, Theory
 and Application of Categories 16 (2006), 785-854. Available at
 `http://www.emis.de/journals/TAC/volumes/16/29/16-29abs.html`; also
 available as [math.QA/0601458](http://arxiv.org/abs/math.QA/0601458).
@@ -1282,7 +1282,7 @@ I was worried that Kevin and I had made a mistake until we found this
 thesis which gets the same answer (though the author starts the sequence
 at a~0~ = 4, so it looks one off from ours):
 
-27\) Justin T. Miller, On the Independence of Goodstein's Theorem,
+27) Justin T. Miller, On the Independence of Goodstein's Theorem,
 Masters thesis, University of Arizona, 2001. Also available as
 `http://www.u.arizona.edu/~miller/thesis/thesis.html`
 
@@ -1402,20 +1402,20 @@ Week's Finds on sci.math.research, Dave Renfro pointed out a really
 nice readable paper on large countable ordinals which goes far beyond
 what I discussed:
 
-28\) Hilbert Levitz, Transfinite ordinals and their notations: For the
+28) Hilbert Levitz, Transfinite ordinals and their notations: For the
 uninitiated, available at `http://www.cs.fsu.edu/~levitz/research.html`
 
 This paper introduced the "Schütte Klammersymbole", which generalize
 the Veblen hierarchy:
 
-29\) Kurt Schütte, Kennzeichnung von Orgnungszahlen durch rekursiv
+29) Kurt Schütte, Kennzeichnung von Orgnungszahlen durch rekursiv
 erklärte Funktionen, Math. Ann 127 (1954), 15-32.
 
 These papers discuss a general concept of "ordinal notation system",
 which includes the Schütte Klammersymbole and also something called the
 "n-ary Veblen hierarchy":
 
-30\) Anton Setzer, An introduction to well-ordering proofs in
+30) Anton Setzer, An introduction to well-ordering proofs in
 Martin-Löf's type theory, in Twenty-Five Years of Constructive Type
 Theory, eds. G. Sambin and J. Smith, Clarendon Press, Oxford, 1998, pp.
 245-263. Also available at
@@ -1428,14 +1428,14 @@ Cambridge, 2011, pp. 301-331. Also available at
 This paper has a nice expository section on generalizations of the
 Veblen hierarchy:
 
-31\) Jean H. Gallier, What's so special about Kruskal's theorem and
+31) Jean H. Gallier, What's so special about Kruskal's theorem and
 the ordinal Γ~0~? A survey of some results in proof theory, sec. 7, A
 glimpse at Veblen hierarchies, Ann. Pure Appl. Logic 53 (1991), 199-260.
 Also available at `http://www.cis.upenn.edu/~jean/gallier-old-pubs.html`
 
 This paper is very useful, since it compares different notations:
 
-32\) Larry W. Miller, Normal functions and constructive ordinal
+32) Larry W. Miller, Normal functions and constructive ordinal
 notations, J. Symb. Log. 41 (1976), 439-459.
 
 You can get it through JSTOR if you have access to that.
@@ -1444,13 +1444,13 @@ This webpage gives a nice definition of "ordinal notation system" as a
 coalgebra of a certain functor - nice if you understand categories, that
 is:
 
-33\) Peter Hancock, Ordinal notation systems,
+33) Peter Hancock, Ordinal notation systems,
 `http://homepages.inf.ed.ac.uk/v1phanc1/ordinal-notations.html`
 
 Kevin Watkins pointed out this website, which contains several papers on
 ordinal notations:
 
-34\) Harold Simmons, Abstracts of papers and notes,
+34) Harold Simmons, Abstracts of papers and notes,
 `http://www.cs.man.ac.uk/~hsimmons/DOCUMENTS/papersandnotes.html`
 
 Finally, the Wikipedia article on "large countable ordinals" has some

@@ -7,7 +7,7 @@ but one thing we all share is a fondness for $n$-categories. We also like
 to sit around and talk shop in a public place where our friends can drop
 by. Hence the title of our blog:
 
-1\) The $n$-Category Café,
+1) The $n$-Category Café,
 [http://golem.ph.utexas.edu/category](http://golem.ph.utexas.edu/category/)
 
 Technologically speaking, the cool thing about this blog is that it uses
@@ -15,7 +15,7 @@ itex and MathML to let us (and you) write pretty equations in TeX. For
 this we thank Jacques Distler, who pioneered the technology on his own
 blog:
 
-2\) Jacques Distler, Musings,
+2) Jacques Distler, Musings,
 `http://golem.ph.utexas.edu/~distler/blog/`
 
 It's great!
@@ -34,7 +34,7 @@ Meanwhile, in the bad old world of extortionist math publishers, we see
 a gleam of hope. The entire editorial board of the journal Topology
 resigned to protest Reed-Elsevier's high prices!
 
-3\) Topology board of editors, letter of resignation,
+3) Topology board of editors, letter of resignation,
 `http://math.ucr.edu/home/baez/topology-letter.pdf`
 
 The board includes some topologists I respect immensely. It takes some
@@ -46,14 +46,14 @@ imagine they'll just declare defeat and let the journal fold.
 This is part of trend where journal editors "declare independence"
 from their publishers and move toward open access:
 
-4\) Open Access News, Journal declarations of independence,
+4) Open Access News, Journal declarations of independence,
 `http://www.earlham.edu/%7Epeters/fos/lists.htm#declarations`
 
 Speaking of open access, you can now get the notes from the course
 Freeman Dyson taught on quantum electrodynamics when he first became a
 professor of physics at Cornell:
 
-5\) Freeman J. Dyson, 1951 Lectures on Advanced Quantum Mechanics,
+5) Freeman J. Dyson, 1951 Lectures on Advanced Quantum Mechanics,
 second edition, available as
 [quant-ph/0608140](http://xxx.lanl.gov/abs/quant-ph/0608140). For
 historical context and original mimeographs, see
@@ -70,13 +70,13 @@ Every true fan of physics loves reading about this heroic era and its
 figures, especially Feynman. So, if you haven't read these yet, run to
 the bookstore and buy them now!
 
-6\) James Gleick, Genius: the Life and Science of Richard Feynman,
+6) James Gleick, Genius: the Life and Science of Richard Feynman,
 Vintage Press, 1993.
 
-7\) Jagdish Mehra, The Beat of a Different Drum: the Life and Science of
+7) Jagdish Mehra, The Beat of a Different Drum: the Life and Science of
 Richard Feynman, Oxford U. Press, 1996.
 
-8\) Silvan S. Schweber, QED and the Men Who Made It, Princeton U. Press,
+8) Silvan S. Schweber, QED and the Men Who Made It, Princeton U. Press,
 Princeton, 1994.
 
 The first book is a barrel of fun but doesn't get into the nitty-gritty
@@ -88,10 +88,10 @@ together, they add up to quite a nice story.
 
 Of course, I'm *assuming* you've read these:
 
-9\) Richard P. Feynman, Surely You're Joking, Mr. Feynman! (Adventures
+9) Richard P. Feynman, Surely You're Joking, Mr. Feynman! (Adventures
 of a Curious Character), W. W. Norton and Company, New York, 1997.
 
-10\) Richard P. Feynman, What Do *You* Care What Other People Think?
+10) Richard P. Feynman, What Do *You* Care What Other People Think?
 (Further Adventures of a Curious Character), W. W. Norton and Company,
 New York, 2001.
 
@@ -110,7 +110,7 @@ But before I dive into this heavy stuff, something fun. Thanks to
 Christine Dantas' blog, I just saw a webpage on the origins of math and
 writing in Mesopotamia:
 
-11\) Duncan J. Melville, Tokens: the origin of mathematics, from his
+11) Duncan J. Melville, Tokens: the origin of mathematics, from his
 website Mesopotamian Mathematics,
 `http://it.stlawu.edu/%7Edmelvill/mesomath/`
 
@@ -121,7 +121,7 @@ Before people in the Near East wrote on clay tablets, there were
 ![](tokens.jpg){width="500"}
 :::
 
-12\) The Schøyen Collection, MS 5067/1-8, Neolithic plain counting
+12) The Schøyen Collection, MS 5067/1-8, Neolithic plain counting
 tokens possibly representing 1 measure of grain, 1 animal and 1 man or 1
 day's labour, respectively,
 `http://www.nb.no/baser/schoyen/5/5.11/index.html`
@@ -160,23 +160,23 @@ arguing about it.
 
 For more on her ideas, try this:
 
-13\) Denise Schmandt-Besserat, Accounting with tokens in the ancient
+13) Denise Schmandt-Besserat, Accounting with tokens in the ancient
 Near East,
 `http://www.utexas.edu/cola/centers/lrc/numerals/dsb/dsb.html`
 
 For a bibliography of her many papers, try:
 
-14\) Denise Schmandt-Besserat, Publications,
+14) Denise Schmandt-Besserat, Publications,
 `http://www.utexas.edu/cola/centers/lrc/iedocctr/ie-pubs/dsb-pubs.html`
 
 For more work on this subject - I want to read more! - try:
 
-15\) Eleanor Robson, Bibliography of Mesopotamian mathematics,
+15) Eleanor Robson, Bibliography of Mesopotamian mathematics,
 `http://it.stlawu.edu/~dmelvill/mesomath/erbiblio.html`
 
 And for a fun intro to writing on clay tablets, try this:
 
-16\) John Heise, Cuneiform writing system,
+16) John Heise, Cuneiform writing system,
 `http://xoomer.alice.it/bxpoma/akkadeng/cuneiform.htm`
 
 Next, from 8000 BC, let's shoot forward ten millennia straight into the
@@ -243,12 +243,12 @@ Here O~\infty~ is an operad in the category of chain complexes defined by
 homotopies, ad infinitum. We can define O~\infty~ using the "bar
 construction", as nicely described here:
 
-16\) Todd Trimble, Bar constructions,
+16) Todd Trimble, Bar constructions,
 `http://math.ucr.edu/home/baez/trimble/bar.html`
 
 or in the book by Markl, Schnider and Stasheff:
 
-17\) Martin Markl, Steve Schnider and Jim Stasheff, Operads in Algebra,
+17) Martin Markl, Steve Schnider and Jim Stasheff, Operads in Algebra,
 Topology and Physics, AMS, Providence, Rhode Island, 2002.
 
 See ["Week 191"](#week191) for more on this book, and what the heck
@@ -286,11 +286,11 @@ classical limit of that mysterious thing called M-theory.
 
 For this, you really need to read Urs Schreiber's stuff:
 
-18\) Urs Schreiber, Castellani on free differential algebras in
+18) Urs Schreiber, Castellani on free differential algebras in
 supergravity: gauge 3-group of M-theory,
 `http://golem.ph.utexas.edu/string/archives/000840.html`
 
-19\) Urs Schreiber, SuGra 3-connection reloaded,
+19) Urs Schreiber, SuGra 3-connection reloaded,
 `http://golem.ph.utexas.edu/category/2006/08/sugra_3connection_reloaded.html`
 
 and many other things he's been writing on the $n$-Category Café lately.
@@ -309,7 +309,7 @@ comments](http://johncarlosbaez.wordpress.com/2011/12/02/babylon-and-the-square-
 on this blog article dig deeper into the evolution of Babylonian
 numerals:
 
-19\) John Baez and Richard Elwes, [Babylon and the square root of
+19) John Baez and Richard Elwes, [Babylon and the square root of
 2](http://johncarlosbaez.wordpress.com/2011/12/02/babylon-and-the-square-root-of-2/),
 Azimuth, December 2nd, 2011.
 

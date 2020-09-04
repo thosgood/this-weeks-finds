@@ -11,7 +11,7 @@ They were really good in 1966, and really good this year.
 
 If you missed them, try these pictures:
 
-1\) Favorite Leonid images found posted on the net,
+1) Favorite Leonid images found posted on the net,
 `http://leonids.arc.nasa.gov/image_favorites.html`
 
 Anyway, this week I'm in the mood for math, so I'll start with a bit
@@ -66,7 +66,7 @@ math that makes this dimension special. Luckily, someone sent me a paper
 which provides a tiny tantalizing clue - a relation between the numbers
 8, 11, and 24:
 
-2\) Thomas Püttmann and A. Rigas, Isometric actions on the projective
+2) Thomas Püttmann and A. Rigas, Isometric actions on the projective
 planes and embedded generators of homotopy groups. Available at
 `http://www.ruhr-uni-bochum.de/mathematik8/puttmann/index.html`.
 
@@ -175,7 +175,7 @@ anyway, just for fun, to see what happens!)
 Anyway, I found it interesting to discover that Desargues' theorem is
 just of one of many laws that hold in all "linear lattices":
 
-3\) Matteo Mainetti and Catherine Huafei Yan, Arguesian identities in
+3) Matteo Mainetti and Catherine Huafei Yan, Arguesian identities in
 linear lattices, Adv. Math. 144 (1999), 50-93.
 
 But what's a linear lattice? Back when I was at MIT, Gian-Carlo Rota
@@ -245,12 +245,12 @@ pictures of these deduction rules, which makes them look a bit like
 tricks for rewiring electrical circuits! You can learn about this in the
 above paper, or Haiman's original paper:
 
-4\) Mark Haiman, Proof theory for linear lattices, Adv. Math. 58 (1985),
+4) Mark Haiman, Proof theory for linear lattices, Adv. Math. 58 (1985),
 209-242.
 
 or this followup:
 
-5\) D. Finberg, M. Mainetti and G.-C. Rota, The logic of commuting
+5) D. Finberg, M. Mainetti and G.-C. Rota, The logic of commuting
 equivalence relations, in Logic and Algebra, eds. A. Ursini and P.
 Agliano, Lecture Notes in Pure and Applied Mathematics, vol. 180,
 Decker, New York 1996.
@@ -276,7 +276,7 @@ Now, on to some category theory!
 Michael Mueger has written some excellent papers on the relation between
 quantum field theory, category theory, and topology:
 
-6\) Michael Mueger, Conformal field theory and Doplicher-Roberts
+6) Michael Mueger, Conformal field theory and Doplicher-Roberts
 reconstruction, available at
 [math-ph/0008027](http://xxx.lanl.gov/abs/math-ph/0008027).
 

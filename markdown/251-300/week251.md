@@ -14,7 +14,7 @@ March 1st, from a distance of 1.2 million kilometers:
 ![](saturn.jpg)
 :::
 
-1\) Cassini-Huyghens, Tourniquet shadows,
+1) Cassini-Huyghens, Tourniquet shadows,
 `http://saturn.jpl.nasa.gov/multimedia/images/image-details.cfm?imageID=2507`
 
 I learned some fun stuff about the foundations of quantum mechanics at
@@ -38,7 +38,7 @@ Rob Spekkens is a young guy who used to be at the Perimeter Institute;
 now he's at DAMTP in Cambridge. At Les Treilles he gave a cool talk
 about a simple theory that mimics some of features of quantum mechanics:
 
-2\) Evidence for the epistemic view of quantum states: a toy theory,
+2) Evidence for the epistemic view of quantum states: a toy theory,
 Phys. Rev. A 75, 032110 (2007). Also available as
 [quant-ph/0401052](http://xxx.lanl.gov/abs/quant-ph/0401052).
 
@@ -144,7 +144,7 @@ spacetime, namely general relativity. In fact, I think quantum mechanics
 will make more sense when it's part of a theory of quantum gravity! To
 see why, try this:
 
-3\) John Baez, Quantum quandaries: a category-theoretic perspective,
+3) John Baez, Quantum quandaries: a category-theoretic perspective,
 talk at Les Treilles, April 24, 2007,
 `http://math.ucr.edu/home/baez/treilles/`
 
@@ -154,15 +154,15 @@ For more details, see my paper with the same title (see
 This fun paper by Bob Coecke gives another view of categories and
 quantum mechanics, coming from work on quantum information theory:
 
-4\) Bob Coecke, Kindergarten quantum mechanics, available as
+4) Bob Coecke, Kindergarten quantum mechanics, available as
 [quant-ph/0510032](http://xxx.lanl.gov/abs/quant-ph/0510032).
 
 To dig deeper, try these:
 
-5\) Samson Abramsky and Bob Coecke, A categorical semantics of quantum
+5) Samson Abramsky and Bob Coecke, A categorical semantics of quantum
 protocols, [quant-ph/0402130](http://xxx.lanl.gov/abs/quant-ph/0402130).
 
-6\) Peter Selinger, Dagger compact closed categories and completely
+6) Peter Selinger, Dagger compact closed categories and completely
 positive maps, available at
 `http://www.mscs.dal.ca/~selinger/papers.html#dagger`
 
@@ -190,15 +190,15 @@ reflecting the limitations on knowledge in his setup.
 
 To learn about the convex set approach, try these papers:
 
-7\) Howard Barnum, Quantum information processing, operational quantum
+7) Howard Barnum, Quantum information processing, operational quantum
 logic, convexity, and the foundations of physics, available as
 [quant-ph/0304159](http://xxx.lanl.gov/abs/quant-ph/0304159).
 
-8\) Jonathan Barrett, Information processing in generalized
+8) Jonathan Barrett, Information processing in generalized
 probabilistic theories, available as
 [quant-ph/0508211](http://xxx.lanl.gov/abs/quant-ph/0508211).
 
-9\) Howard Barnum, Jonathan Barrett, Matthew Leifer and Alexander Wilce,
+9) Howard Barnum, Jonathan Barrett, Matthew Leifer and Alexander Wilce,
 Cloning and broadcasting in generic probabilistic theories, available as
 [quant-ph/0611295](http://xxx.lanl.gov/abs/quant-ph/0611295).
 
@@ -232,7 +232,7 @@ algebra approach described in ["Week 162"](#week162). Barnum cites
 a paper by Araki that shows how to get Jordan algebras from sufficiently
 nice convex cones:
 
-10\) H. Araki, On a characterization of the state space of quantum
+10) H. Araki, On a characterization of the state space of quantum
 mechanics, Commun. Math. Phys. 75 (1980), 1-24.
 
 It's a very interesting paper but a wee bit too technical for me to
@@ -313,7 +313,7 @@ fewer mixed states than we'd expect.
 
 This observation lurks behind axiom 4 in this paper:
 
-11\) Lucien Hardy, Quantum theory from five reasonable axioms, available
+11) Lucien Hardy, Quantum theory from five reasonable axioms, available
 as [quant-ph/0101012](http://xxx.lanl.gov/abs/quant-ph/0101012).
 
 Another special way in which C is better than H or R is that only for a
@@ -326,12 +326,12 @@ Here are some more references, kindly provided by Rob Spekkens. The
 pioneering quantum field theorist Stückelberg wrote a bunch of papers on
 real quantum mechanics. Spekkens recommends this one:
 
-12\) E. C. G. Stückelberg, Quantum theory in real Hilbert space, Helv.
+12) E. C. G. Stückelberg, Quantum theory in real Hilbert space, Helv.
 Phys. Acta 33, 727 (1960).
 
 This is a modern review:
 
-13\) Jan Myrheim, Quantum mechanics on a real Hilbert space, available
+13) Jan Myrheim, Quantum mechanics on a real Hilbert space, available
 [quant-ph/9905037](http://xxx.lanl.gov/abs/quant-ph/9905037).
 
 What I find most fascinating is the connection between real quantum
@@ -349,11 +349,11 @@ makes it into a quaternionic Hilbert space!
 
 For more on these ideas try:
 
-14\) Freeman J. Dyson, The threefold way: algebraic structure of
+14) Freeman J. Dyson, The threefold way: algebraic structure of
 symmetry groups and ensembles in quantum mechanics, Jour. Math. Phys. 3
 (1962), 1199-1215.
 
-15\) John Baez, Symplectic, quaternionic, fermionic,
+15) John Baez, Symplectic, quaternionic, fermionic,
 `http://math.ucr.edu/home/baez/symplectic.html`
 
 From all this one can't help but think that complex, real, and
@@ -365,7 +365,7 @@ Stephen Adler - famous for the Adler-Bell-Jackiw anomaly - spent a long
 time at the Institute for Advanced Studies working on quaternionic
 quantum mechanics:
 
-16\) S. L. Adler, Quaternionic Quantum Mechanics and Quantum Fields,
+16) S. L. Adler, Quaternionic Quantum Mechanics and Quantum Fields,
 Oxford U. Press, Oxford, 1995.
 
 A problem with this book is that it defines a quaternionic vector space
@@ -394,7 +394,7 @@ to be SO(3)'s worth of nonisomorphic ways to make H into an H-bimodule!
 
 For an attempt to tackle this issue, see:
 
-17\) John Baez and Toby Bartels, Functional analysis with quaternions,
+17) John Baez and Toby Bartels, Functional analysis with quaternions,
 available at `http://toby.bartels.name/papers/#quaternions`
 
 However, it's possible we'll only see what real and quaternionic
@@ -416,7 +416,7 @@ Dreams, dreams....
 
 **Addenda:** In email, Scott Aaronson pointed out this nice webpage:
 
-18\) Scott Aaronson, Lecture 9: Quantum,
+18) Scott Aaronson, Lecture 9: Quantum,
 `http://www.scottaaronson.com/democritus/lec9.html`
 
 He wrote:
@@ -428,7 +428,7 @@ He wrote:
 
 His lecture also cites this paper:
 
-19\) Carlton M. Caves, Christopher A. Fuchs, and Ruediger Schack,
+19) Carlton M. Caves, Christopher A. Fuchs, and Ruediger Schack,
 Unknown quantum states: the quantum de Finetti representation, available
 as [quant-ph/0104088](http://www.arxiv.org/abs/quant-ph/0104088).
 
@@ -467,15 +467,15 @@ Bob Coecke wrote:
 
 > The standard references on quaternionic QM are:
 >
-> 20\) D. Finkelstein, J.M. Jauch, S. Schiminovich and D. Speiser,
+> 20) D. Finkelstein, J.M. Jauch, S. Schiminovich and D. Speiser,
 > Foundations of quaternion quantum mechanics, Journal of Mathematical
 > Physics 3, 207 (1962).
 >
-> 21\) D. Finkelstein, J.M. Jauch, S. Schiminovich and D. Speiser, Some
+> 21) D. Finkelstein, J.M. Jauch, S. Schiminovich and D. Speiser, Some
 > physical consequences of general Q-covariance, Helvetica Physica Acta
 > 35, 328-329 (1962).
 >
-> 22\) D. Finkelstein, J.M. Jauch, S. Schiminovich and D. Speiser,
+> 22) D. Finkelstein, J.M. Jauch, S. Schiminovich and D. Speiser,
 > Principle of general Q-covariance, Journal of Mathematical Physics 4,
 > 788-796 (1963).
 >
@@ -483,24 +483,24 @@ Bob Coecke wrote:
 > separates Reals, Complex Numbers and Quaternions from
 > ''non-classical fields'' is:
 >
-> 23\) M. P. Soler (1995) Characterization of Hilbert spaces with
+> 23) M. P. Soler (1995) Characterization of Hilbert spaces with
 > orthomodular spaces, Comm. Algebra 23, pp. 219-243.
 >
 > It does this relative to the order-theoretic characterization of
 > Hilbert spaces:
 >
-> 24\) C. Piron (1964, French) Axiomatique Quantique, Helv. Phys. Acta
+> 24) C. Piron (1964, French) Axiomatique Quantique, Helv. Phys. Acta
 > 37, pp. 439-468.
 >
-> 25\) I. Amemiya and H. Araki (1966) A Remark on Piron's Paper, Publ.
+> 25) I. Amemiya and H. Araki (1966) A Remark on Piron's Paper, Publ.
 > Res. Inst. Math. Sci. Ser. A 2, pp. 423--427.
 >
-> 24\) C. Piron (1976) Foundations of Quantum Physics, W. A. Benjamin,
+> 24) C. Piron (1976) Foundations of Quantum Physics, W. A. Benjamin,
 > Inc., Reading.
 >
 > A nicely written recent survey on this stuff is:
 >
-> 26\) Isar Stubbe and B. van Steirteghem (2007) Propositional systems,
+> 26) Isar Stubbe and B. van Steirteghem (2007) Propositional systems,
 > Hilbert lattices and generalized Hilbert spaces, chapter in: Handbook
 > Quantum Logic (edited by D. Gabbay, D. Lehmann and K. Engesser),
 > Elsevier, to appear. Available at `http://www.win.ua.ac.be/~istubbe/`
@@ -528,14 +528,14 @@ quantum mechanics. He writes:
 
 > See also:
 >
-> 27\) C. M. Caves, C. A. Fuchs, P. Rungta, Entanglement of formation of
+> 27) C. M. Caves, C. A. Fuchs, P. Rungta, Entanglement of formation of
 > an arbitrary state of two rebits, available as
 > [quant-ph/0009063](http://arxiv.org/abs/quant-ph/0009063).
 >
 > It's also worth noting that quantum computation and quantum
 > cryptography do not require the complex field. Have a look at:
 >
-> 28\) T. Rudolph and L. Grover, A 2 rebit gate universal for quantum
+> 28) T. Rudolph and L. Grover, A 2 rebit gate universal for quantum
 > computing, [quant-ph/0210187](http://arxiv.org/abs/quant-ph/0210187).
 >
 > I actually know of no information-theoretic task whose possibility is

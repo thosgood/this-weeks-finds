@@ -5,7 +5,7 @@ of Saunders Mac Lane, one of the founders of category theory, who taught
 at the University of Chicago for many years and died last year at the
 age of 95:
 
-1\) Category Theory and its Applications: A Conference in Memory of
+1) Category Theory and its Applications: A Conference in Memory of
 Saunders Mac Lane, `http://www.math.uchicago.edu/~may/MACLANE/`
 
 On Friday there was a memorial service where the friends and family of
@@ -49,7 +49,7 @@ is much less:
 [![](mars_topography.gif)](http://photojournal.jpl.nasa.gov/catalog/?IDNumber=PIA02820)
 :::
 
-2\) Linda M. V. Martel, Ancient floodwaters and seas on Mars,
+2) Linda M. V. Martel, Ancient floodwaters and seas on Mars,
 `http://www.psrd.hawaii.edu/July03/MartianSea.html`
 
 Why is this?
@@ -66,7 +66,7 @@ about 30% of the water on Mars evaporated and left the atmosphere,
 drifting off into outer space... part of the danger of life on a planet
 without much gravity:
 
-3\) M. H. Carr and J. W. Head, III, Oceans of Mars: An assessment of the
+3) M. H. Carr and J. W. Head, III, Oceans of Mars: An assessment of the
 observational evidence and possible fate, Journal of Geophysical
 Research 108 (2003), 5042.
 
@@ -80,7 +80,7 @@ Vastitas Borealis:
 height="500"}](http://www.esa.int/esa-mmg/mmg.pl?b=b&type=I&mission=Mars%20Express&single=y&start=53&size=b)
 :::
 
-4\) Water ice in crater at Martian north pole, European Space Agency
+4) Water ice in crater at Martian north pole, European Space Agency
 (ESA), `http://www.esa.int/esaMI/Mars_Express/SEMGKA808BE_3.html`
 
 Perhaps this is a remnant of a once mighty ocean!
@@ -176,7 +176,7 @@ This is how Peirce's quincuncial looks as an actual map:
 [![](quincuncial.jpg)](http://www.progonos.com/furuti/MapProj/Normal/ProjConf/projConf.html)
 :::
 
-5\) Carlos A. Furuti, Conformal projections,
+5) Carlos A. Furuti, Conformal projections,
 `http://www.progonos.com/furuti/MapProj/Normal/ProjConf/projConf.html`
 
 The cool part is that you can tile the plane indefinitely with this map:
@@ -589,7 +589,7 @@ Hmm, this is getting pretty jargonesque! I don't want to explain the
 jargon now, but you can read all about this trick and its consquences in
 Lecture 9 here:
 
-6\) Igor V. Dolgachev, Lectures on modular forms, Fall 1997/8, available
+6) Igor V. Dolgachev, Lectures on modular forms, Fall 1997/8, available
 at `http://www.math.lsa.umich.edu/~idolga/modular.pdf`
 
 ------------------------------------------------------------------------
@@ -597,7 +597,7 @@ at `http://www.math.lsa.umich.edu/~idolga/modular.pdf`
 **Addenda:** Andrei Sobolevskii points out that the etymology of the
 word "quincunx" is explained here:
 
-7\) Quincunx, World Wide Words,
+7) Quincunx, World Wide Words,
 `http://www.worldwidewords.org/weirdwords/ww-qui2.htm`
 
 Very briefly, "quincunx" was a Latin word for "five twelfths", from

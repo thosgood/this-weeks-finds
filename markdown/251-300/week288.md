@@ -46,7 +46,7 @@ charts, and various other diagrams that have "inputs" and "outputs".
 I love diagrams like this! All the kinds I've met so far can be nicely
 formalized using category theory. For an explanation, try this:
 
-1\) John Baez and Mike Stay, Physics, topology, logic and computation: a
+1) John Baez and Mike Stay, Physics, topology, logic and computation: a
 Rosetta Stone, to appear in New Structures in Physics, ed. Bob Coecke.
 Available at [`arXiv:0903.0340`](http://arxiv.org/abs/arXiv:0903.0340).
 
@@ -168,7 +168,7 @@ theory, I mentioned them my student Mike Stay, and he reminded me of the
 "hydraulic analogy" where you think of an electrical current flowing
 like water through pipes. There's a decent introduction to this here:
 
-2\) Wikipedia, Hydraulic analogy,
+2) Wikipedia, Hydraulic analogy,
 `http://en.wikipedia.org/wiki/Hydraulic_analogy`
 
 Apparently this analogy goes back to the early days when people were
@@ -245,7 +245,7 @@ Similarly, "flow" and "effort" correspond to "velocity" and
 
 I found this chart here:
 
-3\) Dean C. Karnopp, Donald L. Margolis and Ronald C. Rosenberg, System
+3) Dean C. Karnopp, Donald L. Margolis and Ronald C. Rosenberg, System
 Dynamics: a Unified Approach, Wiley, New York, 1990.
 
 I discovered this wonderful book after an intensive search for stuff
@@ -376,7 +376,7 @@ product in here is also called the cup product. You can read a lot about
 it in basic books on algebraic topology. Here's one that's free
 online:
 
-4\) Allen Hatcher, Algebraic Topology, Section 3.2: Cup Product,
+4) Allen Hatcher, Algebraic Topology, Section 3.2: Cup Product,
 available at `http://www.math.cornell.edu/~hatcher/AT/ATch3.pdf`
 
 The memorably numbered Theorem 3.14 says the cup product is graded
@@ -453,7 +453,7 @@ is onto. This is definitely not true if we replace C* by H*.
 
 This paper gives a bit of history of the commutative cochains problem:
 
-5\) Bohumil Cenkl, Cohomology operations from higher products in the de
+5) Bohumil Cenkl, Cohomology operations from higher products in the de
 Rham complex, Pacific J. Math. 140 (1989), 21-33. Available at
 `http://projecteuclid.org/euclid.pjm/1102647247`
 
@@ -547,12 +547,12 @@ isomorphism matters when you're trying to simulate the weather in
 space! That's the kind of thing that makes math so fun. Here's the
 conference webpage:
 
-5\) Advanced Computational Electromagnetics 2006 (ACE 'O6), Boston
+5) Advanced Computational Electromagnetics 2006 (ACE 'O6), Boston
 University, `http://www.bu.edu/eng/ace2006/`
 
 You can learn more here:
 
-6\) P. W. Gross and P. Robert Kotiuga, Electromagnetic Theory and
+6) P. W. Gross and P. Robert Kotiuga, Electromagnetic Theory and
 Computation: A Topological Approach, Cambridge University Press, 2004.
 
 Someday my discussion of electrical circuits may expand to include some
@@ -704,13 +704,13 @@ the identity on N(X \otimes Y). But, it's chain homotopic to the identity!
 
 You can read more about the "normalized Moore complex" functor here:
 
-7\) nLab, Moore complex, available at
+7) nLab, Moore complex, available at
 `http://ncatlab.org/nlab/show/Moore+complex`
 
 The fact that it's an equivalence of categories is called the
 "Dold-Kan correspondence". You can read more about this here:
 
-8\) nLab, Dold-Kan correspondence, available at
+8) nLab, Dold-Kan correspondence, available at
 `http://ncatlab.org/nlab/show/Dold-Kan+correspondence`
 
 And I should point out that while I've been working with vector spaces
@@ -761,7 +761,7 @@ Anyway, according to Maria Banks:
 > permafrost (permanently frozen ground) is present or has been present
 > geologically recently in this location.
 
-9\) HiRISE (High Resolution Imaging Science Experiments), Linear dunes
+9) HiRISE (High Resolution Imaging Science Experiments), Linear dunes
 in the north polar region,
 `http://hirise.lpl.arizona.edu/PSP_009739_2580`
 
@@ -771,7 +771,7 @@ in the north polar region,
 typos. Jesse McKeown pointed out a NASA website that addresses my puzzle
 about how people settled on a definition of longitude on Mars:
 
-10\) NASA, The Martian Prime Meridian - longitude zero,
+10) NASA, The Martian Prime Meridian - longitude zero,
 `http://www.nasaimages.org/luna/servlet/detail/nasaNAS_44~16934~120671:The-Martian-Prime-Meridian----Longi`
 
 > On Earth, the longitude of the Royal Observatory in Greenwich, England

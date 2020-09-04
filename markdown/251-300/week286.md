@@ -361,7 +361,7 @@ usual level of precision in homotopy theory.
 
 To learn more, I urge you to grab this and take a look:
 
-2\) Kathryn Hess, Rational homotopy theory: a brief introduction, in
+2) Kathryn Hess, Rational homotopy theory: a brief introduction, in
 Interactions Between Homotopy Theory and Algebra, ed. Luchezar L.
 Avramov, Contemp. Math 436, AMS, Providence, Rhode Island, 2007. Also
 available as
@@ -369,14 +369,14 @@ available as
 
 For even more detail, I recommend:
 
-3\) Yves Felix, Stephen Halperin and Jean-Claude Thomas, Rational
+3) Yves Felix, Stephen Halperin and Jean-Claude Thomas, Rational
 Homotopy Theory, Springer, Berlin, 2005.
 
 I'll give more references later. In the weeks to come, we'll see two
 very different descriptions of the rational homotopy category, which
 were both discovered by Daniel Quillen back in 1969:
 
-4\) Daniel Quillen, Rational homotopy theory, Ann. Math. 90 (1969),
+4) Daniel Quillen, Rational homotopy theory, Ann. Math. 90 (1969),
 205-295.
 
 It's these other descriptions that make the subject really interesting.
@@ -424,7 +424,7 @@ weak homotopy equivalence. So, the rational 1-sphere is K(Q,1).
 I've talked about lots of different Eilenberg-Mac Lane spaces in This
 Week's Finds, and they're all collected here:
 
-3\) John Baez, Generalized cohomology theories, Eilenberg-Mac Lane
+3) John Baez, Generalized cohomology theories, Eilenberg-Mac Lane
 spaces, classifying spaces and K(Z,n), and other examples of classifying
 spaces. Available at `http://math.ucr.edu/home/baez/calgary/BG.html`
 
@@ -454,7 +454,7 @@ idea from the category of abelian groups to other abelian categories.
 There's also much more to say about localization! Try this for
 starters:
 
-5\) nLab, Localization, `http://ncatlab.org/nlab/show/localization`
+5) nLab, Localization, `http://ncatlab.org/nlab/show/localization`
 
 Besides doing rational homotopy theory, we can use localization to take
 homotopy theory and "localize at the prime p". This is a way to focus
@@ -465,7 +465,7 @@ Finally, what about the picture at the beginning of this Week's Finds?
 It shows sand dunes in a region called Abalos Undae near the north pole
 of Mars:
 
-5\) HiRISE (High Resolution Imaging Science Experiments), Dunes in
+5) HiRISE (High Resolution Imaging Science Experiments), Dunes in
 Abalos Undae, `http://hirise.lpl.arizona.edu/PSP_010219_2785`
 
 The photo covers a strip about 1.2 kilometers across. As the HiRISE
@@ -499,7 +499,7 @@ this. Here's the description on the HiRISE website:
 Baker did a great job of illustrating some early stages of its
 construction:
 
-1\) Kenneth Baker, A (reverse) rational circle?, on his blog Sketches of
+1) Kenneth Baker, A (reverse) rational circle?, on his blog Sketches of
 Topology at
 `http://sketchesoftopology.wordpress.com/2009/12/10/a-rational-circle/`\
 \

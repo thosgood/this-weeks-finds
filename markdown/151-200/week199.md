@@ -265,14 +265,14 @@ their abstract in front of you:
 
 Here's the reference:
 
-1\) J.-B. Bost and Alain Connes, "Hecke Algebras, Type III factors and
+1) J.-B. Bost and Alain Connes, "Hecke Algebras, Type III factors and
 phase transitions with spontaneous symmetry breaking in number theory",
 Selecta Math. (New Series), 1 (1995) 411-457.
 
 The idea of the free Riemann gas was introduced most clearly by Julia,
 though there were many precursors:
 
-2\) Bernard L. Julia, Statistical theory of numbers, in Number Theory
+2) Bernard L. Julia, Statistical theory of numbers, in Number Theory
 and Physics, eds. J. M. Luck, P. Moussa, and M. Waldschmidt, Springer
 Proceedings in Physics, Vol. 47, Springer-Verlag, Berlin, 1990, pp.
 276-293. Summarized by Matthew Watkins in
@@ -281,20 +281,20 @@ Proceedings in Physics, Vol. 47, Springer-Verlag, Berlin, 1990, pp.
 Matthew Watkins has a lot of other fascinating material about prime
 numbers and physics on his website:
 
-3\) Matthew Watkins, `http://www.maths.ex.ac.uk/~mwatkins/`
+3) Matthew Watkins, `http://www.maths.ex.ac.uk/~mwatkins/`
 
 so this is the best place to start if you're a beginner wanting to
 learn more about this stuff. There are also a bunch of new popular books
 on the Riemann hypothesis, so if you're looking for good Christmas
 gifts, you might try one of these:
 
-4\) Marcus du Sautoy, The Music of the Primes: Searching to Solve the
+4) Marcus du Sautoy, The Music of the Primes: Searching to Solve the
 Greatest Mystery in Mathematics, HarperCollins, 2003.
 
-5\) Karl Sabbagh, The Riemann Hypothesis: the Greatest Unsolved Problem
+5) Karl Sabbagh, The Riemann Hypothesis: the Greatest Unsolved Problem
 in Mathematics, Farrar Strauss & Giroux, 2003.
 
-6\) John Derbyshire, Prime Obsession: Bernhard Riemann and the Greatest
+6) John Derbyshire, Prime Obsession: Bernhard Riemann and the Greatest
 Unsolved Problem Mathematics, Joseph Henry Press, 2003.
 
 I haven't read any of them, but from reviews it sounds like the third
@@ -304,7 +304,7 @@ developments.
 If you want something quite a bit more substantial but still not
 requiring a PhD, try this:
 
-7\) Jeffrey Stopple, A Primer of Analytic Number Theory: from Pythagoras
+7) Jeffrey Stopple, A Primer of Analytic Number Theory: from Pythagoras
 to Riemann, Cambridge U. Press, Cambridge, 2003.
 
 This is the only introduction to analytic number theory that's so
@@ -315,14 +315,14 @@ There's also a lot of interesting work relating the Riemann zeta
 function to quantum chaos. Alas, I don't know how this is related to
 the "free Riemann gas" idea! But here's a nice easy introduction:
 
-8\) Barry Cipra, A prime case of chaos, in What's Happening in the
+8) Barry Cipra, A prime case of chaos, in What's Happening in the
 Mathematical Sciences, vol. 4, American Mathematical Society. Also
 available at `http://www.maths.ex.ac.uk/~mwatkins/zeta/cipra.htm`
 
 Finally, if you get stuck on the fermionic version of the free Riemann
 gas, read Julia's paper or this one:
 
-9\) Donald Spector, Supersymmetry and the Moebius inversion function,
+9) Donald Spector, Supersymmetry and the Moebius inversion function,
 Communications in Mathematical Physics 127 (1990) 239-252.
 
 Anyway, all this post up to now has been just a big joke - although
@@ -480,13 +480,13 @@ at odd integers, \zeta(2n+1). (Hmm, so maybe the different sort of spectra
 *are* related!) There's also a lot of nice stuff about how algebraic
 K-theory is related to topology. You can learn about that here:
 
-10\) Jonathan Rosenberg, K-theory and geometric topology, available at
+10) Jonathan Rosenberg, K-theory and geometric topology, available at
 `http://www.math.umd.edu/users/jmr/geomtop.pdf`
 
 But, I'll stop here for now. For more on how different sorts of
 category can be used to get ahold of $n$-fold loop spaces, see:
 
-11\) C. Balteanu, Z. Fiedorowicz, R. Schwaenzl, and R. Vogt, Iterated
+11) C. Balteanu, Z. Fiedorowicz, R. Schwaenzl, and R. Vogt, Iterated
 monoidal categories, available at
 [math.AT/9808082](http://www.arXiv.org/abs/math.AT/9808082).
 
@@ -639,7 +639,7 @@ Rene Meyer wrote:
 > > > ideal {0} in Z. The "prime at infinity" is a more mysterious
 > > > thing. To learn more about it, read this book:
 > > >
-> > > 12\) M. J. Shai Haran, The Mysteries of the Real Prime, Oxford U.
+> > > 12) M. J. Shai Haran, The Mysteries of the Real Prime, Oxford U.
 > > > Press, Oxford, 2001.
 > > >
 > > > It touches upon lots of interesting relations between number

@@ -10,7 +10,7 @@ First, the astronomy picture of the week:
 [![](mars_victoria_crater_overhead.jpg)](http://photojournal.jpl.nasa.gov/catalog/PIA08813)
 :::
 
-1\) NASA Photojournal, 'Victoria Crater' at Meridiani Planum,
+1) NASA Photojournal, 'Victoria Crater' at Meridiani Planum,
 `http://photojournal.jpl.nasa.gov/catalog/PIA08813`
 
 This is the crater that NASA's rover called Opportunity has been
@@ -21,7 +21,7 @@ Experiment on NASA's Mars Reconnaissance Orbiter.
 Now, on to business! I want to talk about this paper, which took over 2
 years to write:
 
-2\) John Baez, Aristide Baratin, Laurent Freidel and Derek Wise,
+2) John Baez, Aristide Baratin, Laurent Freidel and Derek Wise,
 Representations of 2-groups on infinite-dimensional 2-vector spaces,
 available as [`arXiv:0812.4969`](http://arxiv.org/abs/0812.4969).
 
@@ -76,7 +76,7 @@ Vect^1.
 In fact, about 15 years ago Kapranov and Voevodsky invented a theory of
 2-vector spaces that makes all this stuff work:
 
-3\) Mikhail Kapranov and Vladimir Voevodsky, 2-categories and
+3) Mikhail Kapranov and Vladimir Voevodsky, 2-categories and
 Zamolodchikov tetrahedra equations, in Algebraic Groups and Their
 Generalizations: Quantum and Infinite-Dimensional Methods, Proc. Sympos.
 Pure Math. 56, Part 2, AMS, Providence, RI, 1994, pp. 177-259.
@@ -134,7 +134,7 @@ bundles over G*.
 You can safely ignore that last paragraph if you like. But if you want
 more details, try section 6.1 of this old paper:
 
-4\) John Baez, Higher-dimensional algebra II: 2-Hilbert spaces, Adv.
+4) John Baez, Higher-dimensional algebra II: 2-Hilbert spaces, Adv.
 Math. 127 (1997), 125-189. Also available as
 [`arXiv:q-alg/9609018`](http://arXiv.org/abs/arXiv:q-alg/9609018).
 
@@ -151,16 +151,16 @@ should expect the same for 2-Hilbert spaces.
 After these old papers on 2-vector spaces and 2-Hilbert spaces, various
 people came along and improved the whole story. For example:
 
-5\) Martin Neuchl, Representation Theory of Hopf Categories, Ph.D.
+5) Martin Neuchl, Representation Theory of Hopf Categories, Ph.D.
 dissertation, University of Munich, 1997. Chapter 2: 2-dimensional
 linear algebra. Available at `http://math.ucr.edu/home/baez/neuchl.ps`
 
-6\) Josep Elgueta, A strict totally coordinatized version of Kapranov
+6) Josep Elgueta, A strict totally coordinatized version of Kapranov
 and Voevodsky 2-vector spaces, to appear in Math. Proc. Cambridge Phil.
 Soc. Also available as
 [`arXiv:math/0406475`](http://arXiv.org/abs/math/0406475).
 
-7\) Bruce Bartlett, The geometry of unitary 2-representations of finite
+7) Bruce Bartlett, The geometry of unitary 2-representations of finite
 groups and their 2-characters, available as
 [arXiv/0807.1329](http://arXiv.org/abs/0807.1329).
 
@@ -170,16 +170,16 @@ spaces arise naturally in certain topological quantum field theories!
 Just as we can study representations of groups on vector spaces, we can
 study representations of "2-groups" on 2-vector spaces:
 
-8\) Magnus Forrester-Barker, Representations of crossed modules and
+8) Magnus Forrester-Barker, Representations of crossed modules and
 cat^1-groups, Ph.D. thesis, Department of Mathematics, University of
 Wales, Bangor, 2004. Available at
 `http://www.maths.bangor.ac.uk/research/ftp/theses/forrester-barker.pdf`
 
-9\) John W. Barrett and Marco Mackaay, Categorical representations of
+9) John W. Barrett and Marco Mackaay, Categorical representations of
 categorical groups, Th. Appl. Cat. 16 (2006), 529-557. Also available as
 [`arXiv:math/0407463`](http://arXiv.org/abs/math/0407463).
 
-10\) Josep Elgueta, Representation theory of 2-groups on finite
+10) Josep Elgueta, Representation theory of 2-groups on finite
 dimensional 2-vector spaces, available as
 [`arXiv:math.CT/0408120`](http://arXiv.org/abs/math.CT/0408120).
 
@@ -192,7 +192,7 @@ operations are smooth. Lie groups are wonderful things, so we can hope
 Lie 2-groups will be interesting too. There are already lots of examples
 known. You can see a bunch here:
 
-11\) John Baez and Aaron Lauda, Higher-dimensional algebra V: 2-groups,
+11) John Baez and Aaron Lauda, Higher-dimensional algebra V: 2-groups,
 Theory and Applications of Categories 12 (2004), 423-491. Available at
 `http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html` and as
 [`arXiv:math/0307200`](http://arXiv.org/abs/arXiv:math/0307200).
@@ -310,12 +310,12 @@ know this - if you ask, they'll strenuously deny it.
 We learned most of what we know about measurable fields of Hilbert
 spaces from this classic book:
 
-12\) Jacques Dixmier, Von Neumann Algebras, North-Holland, Amsterdam,
+12) Jacques Dixmier, Von Neumann Algebras, North-Holland, Amsterdam,
 1981.
 
 This book was also helpful:
 
-13\) William Arveson, An Invitation to C*-Algebra, Chapter 2.2,
+13) William Arveson, An Invitation to C*-Algebra, Chapter 2.2,
 Springer, Berlin, 1976.
 
 As you might guess from the titles of these books, measurable fields of
@@ -328,7 +328,7 @@ Hilbert spaces on X.
 The following treatment is less detailed, but it explains how measurable
 fields of Hilbert spaces show up in group representation theory:
 
-14\) George W. Mackey, Unitary Group Representations in Physics,
+14) George W. Mackey, Unitary Group Representations in Physics,
 Probability and Number Theory, Benjamin-Cummings, New York, 1978.
 
 I'll say a lot more about this at the very end of this post, but
@@ -366,11 +366,11 @@ measurable categories? One reason is that they're they're well
 understood, thanks in part to the work of Dixmier - but also thanks to
 Crane and Yetter:
 
-15\) David Yetter, Measurable categories, Appl. Cat. Str. 13 (2005),
+15) David Yetter, Measurable categories, Appl. Cat. Str. 13 (2005),
 469-500. Also available as
 [`arXiv:math/0309185`](http://arXiv.org/abs/math/0309185).
 
-16\) Louis Crane and David N. Yetter, Measurable categories and
+16) Louis Crane and David N. Yetter, Measurable categories and
 2-groups, Appl. Cat. Str. 13 (2005), 501-516. Also available as
 [`arXiv:math/0305176`](http://arXiv.org/abs/math/0305176).
 
@@ -400,7 +400,7 @@ Our paper gives nice geometrical descriptions of these notions. Some of
 these can be seen as generalizing the following paper of Crane and
 Sheppeard:
 
-17\) Louis Crane and Marnie D. Sheppeard, 2-categorical Poincare
+17) Louis Crane and Marnie D. Sheppeard, 2-categorical Poincare
 representations and state sum applications, available as
 [`arXiv:math/0306440`](http://arXiv.org/abs/arXiv:math/0306440).
 
@@ -415,7 +415,7 @@ from symmetrical patterns like these:
 [![](7_3.gif)](http://www.plunk.org/~hatch/HyperbolicTesselations/)
 :::
 
-18\) Don Hatch, Hyperbolic planar tesselations,
+18) Don Hatch, Hyperbolic planar tesselations,
 `http://www.plunk.org/~hatch/HyperbolicTesselations/`
 
 But Crane and Sheppeard weren't just interested in beautiful geometry.
@@ -510,7 +510,7 @@ tricky!
 If you want to know more, either read Mackey's book listed above, or
 this summary:
 
-19\) George W. Mackey, Infinite-dimensional group representations, Bull.
+19) George W. Mackey, Infinite-dimensional group representations, Bull.
 Amer. Math. Soc. 69 (1963), 628-686. Available from Project Euclid at
 `http://projecteuclid.org/euclid.bams/1183525453`
 

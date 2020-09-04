@@ -16,7 +16,7 @@ I was invited by Peter May, who is a well-known practitioner of homotopy
 theory. He has recently become interested in $n$-categories, even
 proposing his own definition of this concept:
 
-1\) J. Peter May, Operadic categories, A~\infty~ categories and $n$-categories,
+1) J. Peter May, Operadic categories, A~\infty~ categories and $n$-categories,
 writeup of a talk given in Morelia, Mexico, May 25, 2001. Available with
 other papers at his homepage, `http://www.math.uchicago.edu/~may/`
 
@@ -24,13 +24,13 @@ However, his real ambition is not to add to the glut of definitions, but
 to systematize the subject. Right now there are over a dozen definitions
 of "n-category", and your only guide through the jungle is this paper:
 
-2\) Tom Leinster, A survey of definitions of $n$-category, available at
+2) Tom Leinster, A survey of definitions of $n$-category, available at
 [math.CT/0107188](http://xxx.lanl.gov/abs/math.CT/0107188).
 
 Luckily, a lot of people want to use ideas from homotopy theory to prove
 all these definitions are "the same in a way". Here's one strategy:
 
-3\) Carlos Simpson, Some properties of the theory of $n$-categories,
+3) Carlos Simpson, Some properties of the theory of $n$-categories,
 available at [math.CT/0110273](http://xxx.lanl.gov/abs/math.CT/0110273).
 
 It will take a lot of work, but the final answer will probably be really
@@ -41,14 +41,14 @@ so more people are trying to learn about it. Physicists are getting
 interested in applying techniques borrowed from homotopy theory to
 string theory and deformation quantization:
 
-4\) Martin Markl, Steve Shnider and Jim Stasheff, Operads in Algebra,
+4) Martin Markl, Steve Shnider and Jim Stasheff, Operads in Algebra,
 Topology and Physics, AMS, Providence, 2002.
 
 Algebraic geometers, on the other hand, have been trying to learn
 homotopy theory ever since Vladimir Voevodksy used ideas from it to
 crack a famous open problem:
 
-5\) F. Morel, Voevodsky's proof of Milnor's conjecture, Bull. Amer.
+5) F. Morel, Voevodsky's proof of Milnor's conjecture, Bull. Amer.
 Math. Soc. 35 (1998), 123-143. Also available at
 `http://e-math.ams.org/jourcgi/amsjournal?fn=120&pg1=pii&s1=S0273097998007459`
 
@@ -485,12 +485,12 @@ this stuff. A good place to learn about simple Lie groups and incidence
 geometries is in the work of Freudenthal, especially this review
 article:
 
-6\) Hans Freudenthal, Lie groups in the foundations of geometry, Adv.
+6) Hans Freudenthal, Lie groups in the foundations of geometry, Adv.
 Math. 1 (1964), 145-190.
 
 and this book:
 
-7\) Hans Freudenthal and H. de Vries, Linear Lie Groups, Academic Press,
+7) Hans Freudenthal and H. de Vries, Linear Lie Groups, Academic Press,
 New York, 1969.
 
 especially sections 68-75, which form a gentle introduction to Jacques
@@ -532,12 +532,12 @@ I love the preface of his book, which begins:
 More modern references say more about how incidence geometry is related
 to representation theory via geometric quantization:
 
-8\) William Fulton and Joe Harris, Representation Theory - a First
+8) William Fulton and Joe Harris, Representation Theory - a First
 Course, Springer Verlag, Berlin, 1991.
 
 and
 
-9\) Robert J. Baston and Michael G. Eastwood, The Penrose Transform: its
+9) Robert J. Baston and Michael G. Eastwood, The Penrose Transform: its
 Interaction with Representation Theory, Clarendon Press, Oxford, 1989.
 
 In particular, the parabolic subgroups are precisely those subgroups

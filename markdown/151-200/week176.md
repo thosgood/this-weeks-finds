@@ -4,7 +4,7 @@ A team of astronomers has found evidence that a dwarf galaxy near the
 Milky Way is surrounded by an enormous halo of dark matter, which may be
 200 times heavier than all the stars in the galaxy itself:
 
-1\) Jan T. Kleyna, Mark I. Wilkinson, N. Wyn Evans and Gerard Gilmore,
+1) Jan T. Kleyna, Mark I. Wilkinson, N. Wyn Evans and Gerard Gilmore,
 First clear signature of an extended dark matter halo in the Draco dwarf
 spheroidal, Astrophysical Journal Letters 563 (2001), L115-118. Also
 available at
@@ -127,7 +127,7 @@ The UK Dark Matter Collaboration has done just this, placing several
 Boulby salt mine in Yorkshire. They've been taking data since 1997, and
 they've seen a number of anomalous events:
 
-2\) UK Dark Matter Collaboration (UKDMC) homepage,
+2) UK Dark Matter Collaboration (UKDMC) homepage,
 `http://hepwww.rl.ac.uk//UKDMC/`
 
 The DAMA group - that's short for "dark matter" - has found even more
@@ -150,13 +150,13 @@ The DAMA group has been collecting data for four years, and claims to
 have actually seen such a "annual modulation signature". You can see a
 graph of their data here:
 
-3\) DAMA collaboration, Searching for the WIMP annual signature by the
+3) DAMA collaboration, Searching for the WIMP annual signature by the
 \~100 kg NaI(Tl) set-up,
 `http://www.lngs.infn.it/lngs/htexts/dama/dama39.html`
 
 For more information, try their homepage:
 
-4\) Dark Matter (DAMA) experiment home page,
+4) Dark Matter (DAMA) experiment home page,
 `http://www.lngs.infn.it/lngs/htexts/dama/welcome.html`
 
 Unfortunately, their result is controversial, because the Cryogenic Dark
@@ -173,7 +173,7 @@ Minnesota, which should give more accurate results.
 
 For more on the CDMS experiment, try:
 
-5\) Cryogenic Dark Matter Search (CDMS) home page,
+5) Cryogenic Dark Matter Search (CDMS) home page,
 `http://cdms.berkeley.edu/`
 
 In short, the situation is still murky. Luckily, a bunch more dark
@@ -181,34 +181,34 @@ matter detectors are coming online as we speak, which should help
 straighten things out. You can find websites for these dark matter
 experiment and also conference here:
 
-6\) Frederic Mayet, Dark Matter Portal,
+6) Frederic Mayet, Dark Matter Portal,
 `http://isnwww.in2p3.fr/ams/fred/dm.html`
 
 Finally, here are some things to read if you want to learn more. First,
 some general introductions to cosmology, in roughly increasing order of
 difficulty:
 
-7\) Edward R. Harrison, Cosmology, the Science of the Universe,
+7) Edward R. Harrison, Cosmology, the Science of the Universe,
 Cambridge University Press, Cambridge, 1981.
 
-8\) M. Berry, Cosmology and Gravitation, Adam Hilger, Bristol, 1986.
+8) M. Berry, Cosmology and Gravitation, Adam Hilger, Bristol, 1986.
 
-9\) John A. Peacock, Cosmological Physics, Cambridge University Press,
+9) John A. Peacock, Cosmological Physics, Cambridge University Press,
 Cambridge, 1999.
 
 Second, a nice easy review article on dark matter:
 
-10\) Shaaban Khalil and Carlos Munoz, The enigma of the dark matter, to
+10) Shaaban Khalil and Carlos Munoz, The enigma of the dark matter, to
 appear in Contemp. Phys., also available at
 [hep-ph/0110122](http://xxx.lanl.gov/abs/hep-ph/0110122).
 
 Third, two articles surveying candidates for what dark matter might be:
 neutralinos, axions, axinos, gravitinos, MACHOs - you name it!
 
-11\) Leszek Roszkowski, Non-baryonic dark matter, available as
+11) Leszek Roszkowski, Non-baryonic dark matter, available as
 [hep-ph/0102327](http://xxx.lanl.gov/abs/hep-ph/0102327).
 
-12\) B. J. Carr, Recent developments in the search for baryonic dark
+12) B. J. Carr, Recent developments in the search for baryonic dark
 matter, available as
 [astro-ph/0102389](http://xxx.lanl.gov/abs/astro-ph/0102389).
 
@@ -218,7 +218,7 @@ I've been having fun lately learning about "teleparallel" theories
 gravity from Simon Clark, Chris Hillman and Stephen Speicher on
 sci.phyics.research. This is a good introduction:
 
-13\) V. C. de Andrade, L. C. T. Guillen and J. G. Pereira, Teleparallel
+13) V. C. de Andrade, L. C. T. Guillen and J. G. Pereira, Teleparallel
 gravity: an overview, available at
 [gr-qc/0011087](http://xxx.lanl.gov/abs/gr-qc/0011087).
 
@@ -453,7 +453,7 @@ Unfortunately, I haven't smoothed down the calculations to the point
 where you'd actually want to see them here. The prettiest formula for
 the Lagrangian shows up in this paper:
 
-14\) Yakov Itin, Energy-momentum current for coframe gravity, available
+14) Yakov Itin, Energy-momentum current for coframe gravity, available
 as [gr-qc/0111036](http://xxx.lanl.gov/abs/gr-qc/0111036).
 
 Up to a constant factor, it looks like this:
@@ -475,7 +475,7 @@ equivalent to general relativity.
 Now for something completely different! Here's the final episode of my
 description of this paper by Michael Mueger:
 
-15\) From subfactors to categories and topology I: Frobenius algebras in
+15) From subfactors to categories and topology I: Frobenius algebras in
 and Morita equivalence of tensor categories, available as
 [math.CT/0111204](http://www.arXiv.org/abs/math.CT/0111204).
 
@@ -555,7 +555,7 @@ anywhere near the bottom of it yet - at least, not me!
 By the way, it's taken me so long to explain Mueger's last paper that
 he's already written another:
 
-16\) Michael Mueger, On the structure of modular categories, available
+16) Michael Mueger, On the structure of modular categories, available
 as [math.CT/0201017](http://www.arXiv.org/abs/math.CT/0201017).
 
 ------------------------------------------------------------------------

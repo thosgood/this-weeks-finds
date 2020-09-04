@@ -62,7 +62,7 @@ fun! Derek Wise has been scanning in his notes, and a bunch of people
 have been putting their homework online. So, you can follow along if you
 want:
 
-1\) John Baez and Derek Wise, Quantization and Categorification.\
+1) John Baez and Derek Wise, Quantization and Categorification.\
 Fall 2003 notes:
 [http://math.ucr.edu/home/baez/qg-fall2003](http://math.ucr.edu/home/baez/qg-fall2003/)\
 Winter 2004 notes: `http://math.ucr.edu/home/baez/qg-winter2004/`\
@@ -318,10 +318,10 @@ you like puzzles.
 If you get stuck, you can find the answer online in a couple of
 different places:
 
-2\) Andreas Blass, Seven trees in one, Jour. Pure Appl. Alg. 103 (1995),
+2) Andreas Blass, Seven trees in one, Jour. Pure Appl. Alg. 103 (1995),
 1-21. Also available at `http://www.math.lsa.umich.edu/~ablass/cat.html`
 
-3\) Marcelo Fiore, Isomorphisms of generic recursive polynomial types,
+3) Marcelo Fiore, Isomorphisms of generic recursive polynomial types,
 to appear in 31st Symposium on Principles of Programming Languages
 (POPL04). Also available at
 `http://www.cl.cam.ac.uk/~mpf23/papers/Types/recisos.ps.gz`
@@ -334,10 +334,10 @@ general theorems about this sort of thing. Gates focused on
 coproducts, the former distributing over the latter), while the work of
 Fiore and Leinster applies to more general "rig categories":
 
-4\) Robbie Gates, On the generic solution to P(X) = X in distributive
+4) Robbie Gates, On the generic solution to P(X) = X in distributive
 categories, Jour. Pure Appl. Alg. 125 (1998), 191-212.
 
-5\) Marcelo Fiore and Tom Leinster, Objects of categories as complex
+5) Marcelo Fiore and Tom Leinster, Objects of categories as complex
 numbers, available as
 [math.CT/0212377](http://www.arXiv.org/abs/math.CT/0212377).
 
@@ -437,21 +437,21 @@ incredibly provocative observation: if we treat "Euler measure" as a
 generalization of cardinality, it makes sense to treat the real line as
 a "space of cardinality -1":
 
-6\) Stephen H. Schanuel, What is the length of a potato?: an
+6) Stephen H. Schanuel, What is the length of a potato?: an
 introduction to geometric measure theory, in Categories in Continuum
 Physics, Spring Lecture Notes in Mathematics 1174, Springer, Berlin,
 1986, pp. 118-126.
 
-7\) Stephen H. Schanuel, Negative sets have Euler characteristic and
+7) Stephen H. Schanuel, Negative sets have Euler characteristic and
 dimension, Lecture Notes in Mathematics 1488, Springer Verlag, Berlin,
 1991, pp. 379-385.
 
 James Propp has developed this idea in a couple of fascinating papers:
 
-8\) James Propp, Euler measure as generalized cardinality, available as
+8) James Propp, Euler measure as generalized cardinality, available as
 [`arXiv:math/0203289`](http://arxiv.org/abs/math/0203289).
 
-9\) James Propp, Exponentiation and Euler measure, available as
+9) James Propp, Exponentiation and Euler measure, available as
 [`arXiv:math/0204009`](http://arxiv.org/abs/math/0204009).
 
 Using this idea, it seems reasonable to consider the space of binary
@@ -476,7 +476,7 @@ other things. But it's not true!
 Most importantly, Tom Leinster has come out with a big book on
 n-categories and operads:
 
-10\) Tom Leinster, Higher Operads, Higher Categories, Cambridge U.
+10) Tom Leinster, Higher Operads, Higher Categories, Cambridge U.
 Press, Cambridge, 2003. Also available as
 [`arXiv:math.CT/0305049`](http://arxiv.org/abs/math.CT/0305049).
 
@@ -523,7 +523,7 @@ Secondly, Michael Batanin has worked out a beautiful extension of his
 ideas on $n$-categories which sheds new light on their applications to
 homotopy theory:
 
-11\) Michael A. Batanin, The Eckmann-Hilton argument, higher operads and
+11) Michael A. Batanin, The Eckmann-Hilton argument, higher operads and
 E~n~ spaces, available as
 [`arXiv:math.CT/0207281`](http://arxiv.org/abs/math.CT/0207281).
 
@@ -551,7 +551,7 @@ n-categories in the first place, but a lot has happened since then. For
 a highly readable introduction to the subject, with tons of great
 pictures, try:
 
-12\) Joachim Kock, Frobenius Algebras and 2D Topological Quantum Field
+12) Joachim Kock, Frobenius Algebras and 2D Topological Quantum Field
 Theories, Cambridge U. Press, Cambridge, 2003.
 
 This is mainly about 2d TQFTs, where the concept of "Frobenius
@@ -561,7 +561,7 @@ When we go up to 3-dimensional spacetime life gets harder, but also more
 interesting. This book isn't so easy, but it's packed with beautiful
 math and wonderfully drawn pictures:
 
-13\) Thomas Kerler and Volodymyr L. Lyubashenko, Non-Semisimple
+13) Thomas Kerler and Volodymyr L. Lyubashenko, Non-Semisimple
 Topological Quantum Field Theories for 3-Manifolds with Corners, Lecture
 Notes in Mathematics 1765, Springer, Berlin, 2001.
 
@@ -578,7 +578,7 @@ together manifolds with corners! Here Kerler and Lyubashenko make
 
 Closely related is this paper by Kerler:
 
-14\) Thomas Kerler, Towards an algebraic characterization of
+14) Thomas Kerler, Towards an algebraic characterization of
 3-dimensional cobordisms, Contemp. Math. 318 (2003) 141-173. Also
 available as [`arXiv:math/0106253`](http://arxiv.org/abs/math/0106253).
 
@@ -633,14 +633,14 @@ Constructif:
 
 You can watch a *movie* of a proof here:
 
-15\) Dan Piponi, Arboreal isomorphisms from nuclear pennies, A
+15) Dan Piponi, Arboreal isomorphisms from nuclear pennies, A
 Neighborhood of Infinity, September 30, 2007. Available at
 `http://blog.sigfpe.com/2007/09/arboreal-isomorphisms-from-nuclear.html`.
 
 It was in the ensuing discussion on this blog that George Bell came up
 with his more efficient proof. For a bit more discussion, see:
 
-16\) John Baez, Searching for a video proof of "seven trees in one",
+16) John Baez, Searching for a video proof of "seven trees in one",
 *n*-Category Café, July 16, 2009. Available at
 `http://golem.ph.utexas.edu/category/2009/07/searching_for_a_video_proof_of.html`.
 
@@ -671,10 +671,10 @@ categories in This Week's Finds:
     these isomorphisms satisfying a set of coherence laws worked out by
     Laplaza and Kelly:
 
-    17\) M. Laplaza, Coherence for distributivity, Lecture Notes in
+    17) M. Laplaza, Coherence for distributivity, Lecture Notes in
     Mathematics 281, Springer Verlag, Berlin, 1972, pp. 29-72.
 
-    18\) G. Kelly, Coherence theorems for lax algebras and distributive
+    18) G. Kelly, Coherence theorems for lax algebras and distributive
     laws, Lecture Notes in Mathematics 420, Springer Verlag, Berlin,
     1974, pp. 281-375.
 
@@ -720,7 +720,7 @@ description of what Gates actually did:
 > of the errors in the section on distributive categories merit
 > correction:
 >
-> \(1\) J. B. suggests that Blass published what Lawvere had already
+> (1) J. B. suggests that Blass published what Lawvere had already
 > worked out. In fact, Lawvere (partly to counteract some incorrect uses
 > of infinite series in analyses of 'data types' in computer science)
 > had worked out the algebra of the rig presented by one generator X and
@@ -729,7 +729,7 @@ description of what Gates actually did:
 > in a distributive (even extensive) category, which conjecture Blass
 > then proved (and a bit more) in "Seven Trees...".
 >
-> \(2\) The generalization of Blass's theorem to one generator ond one
+> (2) The generalization of Blass's theorem to one generator ond one
 > polynomial relation of the 'fixed-point' form X=p(X), where p is a
 > polynomial with natural number coefficients and nonzero constant term
 > is not, as J. B. seems to suggest, due to Fiore and Leinster; it was
@@ -740,7 +740,7 @@ description of what Gates actually did:
 > isomorphism classes satisfies no further relations, i.e. is the rig R
 > presented by one generator and the one relation above.
 >
-> \(3\) If p is as in (2) and of degree at least 2, the algebra of the
+> (3) If p is as in (2) and of degree at least 2, the algebra of the
 > rig R is made by J. B. to seem mysterious. It is more easily
 > understood in the way the X=2X+1 case was treated in my "Negative
 > Sets..." paper; just show that the Euler and dimension

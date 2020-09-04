@@ -6,7 +6,7 @@ right now I'm in a vacation mood. So, I want to take a break from the
 Tale of Groupoidification, and mention some thoughts prompted by the
 work of Garrett Lisi:
 
-1\) Garrett Lisi, Deferential Geometry,
+1) Garrett Lisi, Deferential Geometry,
 [http://deferentialgeometry.org](http://deferentialgeometry.org/).
 
 Garrett is a cool dude who likes to ponder physics while living a
@@ -73,7 +73,7 @@ If this isn't enough to make you happy, go back to
 relation to the SU(5) grand unified theory. If even that isn't enough
 to make you happy, try this:
 
-2\) John Baez, Elementary particles,
+2) John Baez, Elementary particles,
 `http://math.ucr.edu/home/baez/qg-spring2003/elementary/`
 
 Okay - I'll assume that one way or another, you're happy with the idea
@@ -291,7 +291,7 @@ the "magic square" of Rosenfeld, Freudenthal and Tits.
 I talked about the magic square a bit in ["Week 106"](#week106) and
 ["Week 145"](#week145), and much more here:
 
-3\) John Baez, The magic square,
+3) John Baez, The magic square,
 `http://math.ucr.edu/home/baez/octonions/node16.html`
 
 Instead of repeating all that, let me just summarize. The magic square
@@ -499,7 +499,7 @@ operations of reflection through points.
 Compact Riemannian symmetric spaces were classified by Cartan, and you
 can see the classification here, in a big chart:
 
-4\) Riemannian symmetric spaces, Wikipedia,
+4) Riemannian symmetric spaces, Wikipedia,
 `http://en.wikipedia.org/wiki/Riemannian_symmetric_space`
 
 As you'll see, there are 7 infinite families and 12 exceptional cases.
@@ -625,22 +625,22 @@ But, only time will tell.
 Here are some more references. The SU(5) grand unified theory was
 published here:
 
-5\) Howard Georgi and Sheldon Glashow, Unity of all elementary-particle
+5) Howard Georgi and Sheldon Glashow, Unity of all elementary-particle
 forces, Phys. Rev. Lett. 32 (1974), 438.
 
 For a great introduction to the Spin(10) grand unified theory - which is
 usually called the SO(10) GUT - try this:
 
-6\) Anthony Zee, Quantum Field Theory in a Nutshell, Chapter VII: SO(10)
+6) Anthony Zee, Quantum Field Theory in a Nutshell, Chapter VII: SO(10)
 unification, Princeton U. Press, Princeton, 2003.
 
 Then, try these more advanced review articles:
 
-7\) Jogesh C. Pati, Proton decay: a must for theory, a challenge for
+7) Jogesh C. Pati, Proton decay: a must for theory, a challenge for
 experiment, available as
 [hep-ph/0005095](http://arxiv.org/abs/hep-ph/0005095).
 
-8\) Jogesh C. Pati, Probing grand unification through neutrino
+8) Jogesh C. Pati, Probing grand unification through neutrino
 oscillations, leptogenesis, and proton decay, available as
 [hep-ph/0305221](http://arxiv.org/abs/hep-ph/0305221).
 
@@ -650,7 +650,7 @@ SU(2) \times SU(4).
 By the way, there's also a cute relation between the SO(10) grand
 unified theory and 10-dimensional Calabi-Yau manifolds, discussed here:
 
-9\) John Baez, Calabi-Yau manifolds and the Standard Model, available as
+9) John Baez, Calabi-Yau manifolds and the Standard Model, available as
 [hep-th/0511086](http://xxx.lanl.gov/abs/hep-th/0511086)
 
 This is an easy consequence of the stuff I've explained this week.
@@ -659,7 +659,7 @@ To see what string theorists are doing to understand the Standard Model
 these days, see the following papers. Amusingly, they *also* use E~8~ -
 but in a quite different way:
 
-10\) Volker Braun, Yang-Hui He, Burt A. Ovrut and Tony Pantev, A
+10) Volker Braun, Yang-Hui He, Burt A. Ovrut and Tony Pantev, A
 heterotic Standard Model, available as
 [hep-th/0501070](http://xxx.lanl.gov/abs/hep-th/0501070).
 
@@ -684,14 +684,14 @@ accelerator, the Large Hadron Collider, sees signs of supersymmetry.
 
 For more on symmetric spaces, try these:
 
-11\) Sigurdur Helgason, Differential Geometry, Lie Groups, and Symmetric
+11) Sigurdur Helgason, Differential Geometry, Lie Groups, and Symmetric
 Spaces, AMS, Providence, Rhode Island, 2001.
 
-12\) Audrey Terras, Harmonic Analysis on Symmetric Spaces and
+12) Audrey Terras, Harmonic Analysis on Symmetric Spaces and
 Applications I, Springer, Berlin, 1985. Harmonic Analysis on Symmetric
 Spaces and Applications II, Springer, Berlin, 1988.
 
-13\) Arthur Besse, Einstein Manifolds, Springer, Berlin, 1986.
+13) Arthur Besse, Einstein Manifolds, Springer, Berlin, 1986.
 
 They're all classics. Helgason's book will teach you differential
 geometry and Lie groups before doing Cartan's classification of
@@ -701,13 +701,13 @@ deeper into the Riemannian geometry of symmetric spaces.
 
 These dig deeper into the algebraic aspects of symmetric spaces:
 
-14\) W. Bertram, The Geometry of Jordan and Lie structures, Lecture
+14) W. Bertram, The Geometry of Jordan and Lie structures, Lecture
 Notes in Mathematics 1754, Springer, Berlin, 2001.
 
-15\) Ottmar Loos, Jordan triple systems, R-spaces and bounded symmetric
+15) Ottmar Loos, Jordan triple systems, R-spaces and bounded symmetric
 domains, Bull. AMS 77 (1971), 558-561.
 
-16\) Ottmar Loos, Symmetric Spaces I: General Theory, W. A. Benjamin,
+16) Ottmar Loos, Symmetric Spaces I: General Theory, W. A. Benjamin,
 New York, 1969. Symmetric Spaces II: Compact Spaces and Classification,
 W. A. Benjamin, New York, 1969.
 
@@ -718,7 +718,7 @@ E~6~/((Spin(10) \times U(1))/(Z/4))
 
 This is worked out here:
 
-17\) John Frank Adams, Lectures on Exceptional Lie Groups, eds. Zafer
+17) John Frank Adams, Lectures on Exceptional Lie Groups, eds. Zafer
 Mahmud and Mamoru Mimura, University of Chicago Press, Chicago, 1996.
 
 ------------------------------------------------------------------------
@@ -727,7 +727,7 @@ Mahmud and Mamoru Mimura, University of Chicago Press, Chicago, 1996.
 different groups with Lie algebra su(3) ⊕ su(2) ⊕ u(1), and their
 implications for physics:
 
-18\) Joseph Hucks, Global structure of the standard model, anomalies,
+18) Joseph Hucks, Global structure of the standard model, anomalies,
 and charge quantization, Phys. Rev. D 43 (1991), 2709-2717.
 
 Using S(U(3) \times U(2)) and demanding anomaly cancellation, we

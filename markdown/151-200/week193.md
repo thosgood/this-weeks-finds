@@ -67,12 +67,12 @@ Recently, some mathematical physicists have been studying a construction
 of E~8~ as the symmetries of a 57-dimensional manifold equipped with
 extra structure:
 
-1\) Murat Gunaydin, Koepsell and Hermann Nicolai, Conformal and
+1) Murat Gunaydin, Koepsell and Hermann Nicolai, Conformal and
 quasiconformal realizations of exceptional Lie groups, Commun. Math.
 Phys. 221 (2001), 57-76, also available as
 [hep-th/0008063](http://xxx.lanl.gov/abs/hep-th/0008063)
 
-2\) Thomas A. Larsson, Structures preserved by exceptional Lie algebras,
+2) Thomas A. Larsson, Structures preserved by exceptional Lie algebras,
 available as math-ph/0301006.
 
 When I heard this, the number 57 instantly intrigued me - and not just
@@ -199,7 +199,7 @@ The right way is described in Conway and Sloane's book (see
 ["Week 20"](#week20)). These days you can even look it up on the
 web:
 
-3\) Neil J. A. Sloane, Index of Lattices, the E~8~ lattice: coding
+3) Neil J. A. Sloane, Index of Lattices, the E~8~ lattice: coding
 version,
 [http://www.research.att.com/\~njas/lattices/E~8~\_code.html](http://www.research.att.com/~njas/lattices/E%3Csub%3E8%3C/sub%3E_code.html)
 
@@ -537,12 +537,12 @@ on L(1). People call L(0) the "structure algebra" of L(1) and call the
 corresponding group the "structure group". There's a pretty readable
 explanation here:
 
-4\) Kevin McCrimmon, Jordan Algebras and their applications, Bull. AMS
+4) Kevin McCrimmon, Jordan Algebras and their applications, Bull. AMS
 84 (1978) 612-627.
 
 and hopefully even more here:
 
-5\) Kevin McCrimmon, A Taste of Jordan Algebras, Springer, Berlin,
+5) Kevin McCrimmon, A Taste of Jordan Algebras, Springer, Berlin,
 perhaps to appear in March 2003. Available for free online at
 `http://math1.uibk.ac.at/mathematik/jordan/archive/atoja/` - but watch
 out, it's 545 pages long!
@@ -553,13 +553,13 @@ Tits-Kantor-Koecher construction. Jordan triple systems are a
 generalization of Jordan algebras - and I'm sort of confused about why
 this generalization also turns up here. I guess I should read these too:
 
-6\) J. Tits, Une class d'algebres de Lie en relations avec les algebres
+6) J. Tits, Une class d'algebres de Lie en relations avec les algebres
 de Jordan, Ned. Akad. Wet., Proc. Ser. A 65 (1962), 530.
 
-7\) M. Koecher, Imbedding of Jordan algebras into Lie algebra I, Am. J.
+7) M. Koecher, Imbedding of Jordan algebras into Lie algebra I, Am. J.
 Math. 89 (1967), 787.
 
-8\) Soji Kaneyuki, Graded Lie algebras, related geometric structures,
+8) Soji Kaneyuki, Graded Lie algebras, related geometric structures,
 and pseudo-hermitian symmetric spaces, in Analysis and Geometry on
 Complex Homogeneous Domains, by Faraut, Kaneyuki, Koranyi, Lu, and Roos,
 Birkhauser, New York, 2000.
@@ -567,7 +567,7 @@ Birkhauser, New York, 2000.
 Kaneyuki has made some nice tables of 3-gradings on simple Lie algebras,
 and you can see some of these here:
 
-9\) Tony Smith, Graded Lie algebras,
+9) Tony Smith, Graded Lie algebras,
 `http://www.innerx.net/personal/tsmith/GLA.html`
 
 Thomas Larsson has made a nice table of all the formally real simple
@@ -598,21 +598,21 @@ special relativity.
 For the more intricate relationship between 5-graded Lie algebras,
 Freudenthal algebras and Kantor triple systems, I should reread these:
 
-10\) I. Kantor, I. Skopets, Some results on Freudenthal triple systems,
+10) I. Kantor, I. Skopets, Some results on Freudenthal triple systems,
 10el. Math. Sov. 2 (1982), 293.
 
-11\) K. Meyberg, Eine Theorie Der Freudenthalschen Tripelsysteme, I, II,
+11) K. Meyberg, Eine Theorie Der Freudenthalschen Tripelsysteme, I, II,
 Ned. Akad. Wet., Proc. Ser. A 71 (1968), 162-190.
 
-12\) R. Skip Garibaldi, Structurable algebras and groups of types E~6~
+12) R. Skip Garibaldi, Structurable algebras and groups of types E~6~
 and E~7~, available at
 [math.RA/9811035](http://www.arXiv.org/abs/math.RA/9811035).
 
-13\) R. Skip Garibaldi, Groups of type E~7~ over arbitrary fields,
+13) R. Skip Garibaldi, Groups of type E~7~ over arbitrary fields,
 available at
 [math.RA/9811056](http://www.arXiv.org/abs/math.RA/9811056).
 
-14\) G. Sierra, An application of the theories of Jordan algebras and
+14) G. Sierra, An application of the theories of Jordan algebras and
 Freudenthal triple systems to particles and strings, Class. Quant. Grav.
 4 (1987), 227-236.
 
@@ -624,13 +624,13 @@ Tits-Kantor-Koecher construction and its generalizations. Someday I may
 understand this well enough to explain it. For now, you should try to
 get ahold of these:
 
-15\) W. Bertram, The Geometry of Jordan and Lie structures, Lecture
+15) W. Bertram, The Geometry of Jordan and Lie structures, Lecture
 Notes in Mathematics 1754, Springer, Berlin, 2001.
 
-16\) Ottmar Loos, Jordan triple systems, R-spaces and bounded symmetric
+16) Ottmar Loos, Jordan triple systems, R-spaces and bounded symmetric
 domains, Bull. AMS 77 (1971), 558-561.
 
-17\) Ottmar Loos, Symmetric Spaces I: General Theory, W. A. Benjamin,
+17) Ottmar Loos, Symmetric Spaces I: General Theory, W. A. Benjamin,
 New York, 1969. Symmetric Spaces II: Compact Spaces and Classification,
 W. A. Benjamin, New York, 1969.
 
@@ -658,7 +658,7 @@ results are amazing.
 
 Here are their papers:
 
-18\) H. Cohn and A. Kumar, Optimality and uniqueness of the Leech
+18) H. Cohn and A. Kumar, Optimality and uniqueness of the Leech
 lattice among lattices, available at
 [math.MG/0403263](http://www.arxiv.org/abs/math.MG/0403263).
 
@@ -670,7 +670,7 @@ There's also a really nice overview of this topic in the American
 Mathematical Society Notices, which explains how people manage to prove
 results about *all* packings:
 
-19\) Florian Pfender and Günter M. Ziegler, Kissing numbers, sphere
+19) Florian Pfender and Günter M. Ziegler, Kissing numbers, sphere
 packings, and some unexpected proofs, AMS Notices 51 (September 2004),
 873-883. Available online at
 `http://www.ams.org/notices/200408/200408-toc.html`
@@ -678,7 +678,7 @@ packings, and some unexpected proofs, AMS Notices 51 (September 2004),
 And while you're at it, read this article, which studies a question
 mentioned in ["Week 20"](#week20):
 
-20\) Bill Casselman, The difficulties of kissing in three dimensions,
+20) Bill Casselman, The difficulties of kissing in three dimensions,
 AMS Notices 51 (September 2004), 884-885. Available online at
 `http://www.ams.org/notices/200408/200408-toc.html`
 

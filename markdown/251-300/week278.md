@@ -60,7 +60,7 @@ I've been thinking about this for a long time. Luckily, today I don't
 need to, because Alex Hoffnung, Christopher Walker and I just finished a
 big paper on groupoidification and put it on the arXiv:
 
-1\) John Baez, Alexander Hoffnung and Christopher Walker,
+1) John Baez, Alexander Hoffnung and Christopher Walker,
 Higher-dimensional algebra VII: groupoidification, available at
 [arxiv:0908.4305](http://math.ucr.edu/home/baez/hda7.pdf).
 
@@ -68,7 +68,7 @@ You may remember the Tale of Groupoidification, which started in
 ["Week 247"](#week247), went on for several weeks, and then morphed
 into a series of videotaped lectures. You can find all that stuff here:
 
-2\) John Baez, The tale of groupoidification, available at
+2) John Baez, The tale of groupoidification, available at
 `http://math.ucr.edu/home/baez/groupoidification`
 
 Our new paper "HDA7" crystallizes some of this tale into theorems, but
@@ -111,7 +111,7 @@ twinkling. For this, they shoot a laser beam into the sky:
 [![](eso_laser.jpg){width="600"}](http://www.eso.org/public/outreach/press-rel/pr-2007/pr-27-07.html)
 :::
 
-3\) Free from the atmosphere, European Space Observatory (ESO),
+3) Free from the atmosphere, European Space Observatory (ESO),
 `http://www.eso.org/public/outreach/press-rel/pr-2007/pr-27-07.html`
 
 The beam excites sodium ions 100 kilometers up - ions created by tiny
@@ -175,24 +175,24 @@ cycle that also includes us.
 
 For more details, see:
 
-4\) Sharpest views of star Betelgeuse reveal how supergiant stars lose
+4) Sharpest views of star Betelgeuse reveal how supergiant stars lose
 mass, ScienceDaily, August 3, 2009,
 `http://www.sciencedaily.com/releases/2009/07/090729074525.htm`
 
-5\) Betelgeuse resolved, Astronomy Picture of the Day, August 5, 2009,
+5) Betelgeuse resolved, Astronomy Picture of the Day, August 5, 2009,
 `http://apod.nasa.gov/apod/ap090805.html`
 
-6\) Pierre Kervella et al, The close circumstellar environment of
+6) Pierre Kervella et al, The close circumstellar environment of
 Betelgeuse. Adaptive optics spectro-imaging in the near-IR with
 VLT/NACO, Astronomy and Astrophysics, 2009. Also available as
 [`arXiv:0907.1843`](http://arxiv.org/abs/0907.1843).
 
-7\) Keiichi Ohnaka et al, Spatially resolving the inhomogeneous
+7) Keiichi Ohnaka et al, Spatially resolving the inhomogeneous
 structure of the dynamical atmosphere of Betelgeuse with VLTI/AMBER,
 Astronomy and Astrophysics, 2009. Also available as
 [`arXiv:0906.4792`](http://arxiv.org/abs/0906.4792).
 
-8\) Jacco Th. van Loon, The effects of red supergiant mass loss on
+8) Jacco Th. van Loon, The effects of red supergiant mass loss on
 supernova ejecta and the circumburst medium, in Hot and Cool: Bridging
 Gaps in Massive Star Evolution, Pasadena, November 2008. Also available
 as [`arXiv:0906.4855`](http://arxiv.org/abs/0906.4855).
@@ -206,10 +206,10 @@ thousand years ago!
 ![](HD_172555_collision.jpg){width="600"}
 :::
 
-9\) Stefan Scherer, News from other worlds, Backreaction,
+9) Stefan Scherer, News from other worlds, Backreaction,
 `http://backreaction.blogspot.com/2009/08/news-from-other-worlds.html`
 
-10\) C. M. Lisse et al., Abundant circumstellar silica dust and SiO gas
+10) C. M. Lisse et al., Abundant circumstellar silica dust and SiO gas
 created by a giant hypervelocity collision in the \~12 Myr HD172555
 System, Astrophys. J. 701 (2009), 2019-2032. Also available as
 [`arXiv:0906.2536`](http://arxiv.org/abs/0906.2536).
@@ -217,7 +217,7 @@ System, Astrophys. J. 701 (2009), 2019-2032. Also available as
 If you have some pent-up aggression and feel the need for catharsis, try
 watching an animated movie of this collision:
 
-11\) The Bad Astronomer, When worlds collide,
+11) The Bad Astronomer, When worlds collide,
 `http://blogs.discovermagazine.com/badastronomy/2009/08/10/when-worlds-collide/`
 
 It makes the collision that seems to have created our Moon look pretty
@@ -233,7 +233,7 @@ Color indicates temperature.\
 By the way, you can read my tale of *that* collision, and some other
 dramatic developments in the Earth's history, here:
 
-12\) John Baez, The Earth - for physicists, PhysicsWorld, July 31, 2009.
+12) John Baez, The Earth - for physicists, PhysicsWorld, July 31, 2009.
 Available at `http://physicsworld.com/cws/article/print/39959` or
 `http://math.ucr.edu/home/baez/earth.html`
 
@@ -245,7 +245,7 @@ but they're expensive and annoying. Now they've found a better way:
 take a sheet of "paper" made of graphite oxide and zap it with the
 flash of an ordinary camera!
 
-13\) Northwestern researchers create graphene in a flash, DailyTech,
+13) Northwestern researchers create graphene in a flash, DailyTech,
 `http://www.dailytech.com/Northwestern+Researchers+Create+Graphene+in+a+Flash/article15976.htm`
 
 Okay, that's all for this week. I'm still passionately interested in

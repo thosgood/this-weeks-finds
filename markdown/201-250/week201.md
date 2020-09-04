@@ -447,7 +447,7 @@ n, or an nth root of 1. The general case is a bit more work. But instead
 of giving the details, I'll just mention a good textbook on Galois
 theory for beginners:
 
-1\) Ian Stewart, Galois Theory, 3rd edition, Chapman and Hall, New York,
+1) Ian Stewart, Galois Theory, 3rd edition, Chapman and Hall, New York,
 2004.
 
 Ian Stewart is famous as a popularizer of mathematics, and it shows here
@@ -497,10 +497,10 @@ are algebraic number fields, so that's what I'll do. In this case,
 there's a 1-1 correspondence between subgroups of Gal(K/k) and
 extensions of k contained in K if:
 
-> i\) K is a "finite" extension of k. In other words, K is a
+> i) K is a "finite" extension of k. In other words, K is a
 > finite-dimensional vector space over k.
 >
-> ii\) K is a "normal" extension of k. In other words, if a polynomial
+> ii) K is a "normal" extension of k. In other words, if a polynomial
 > with coefficients in k can't be factored at all in k, but has one
 > root in K, then all its roots are in K.
 
@@ -633,10 +633,10 @@ now, though, let me give you some references.
 For two very nice but very different introductions to algebraic number
 fields, try these:
 
-2\) H. P. F. Swinnerton-Dyer, A Brief Guide to Algebraic Number Theory,
+2) H. P. F. Swinnerton-Dyer, A Brief Guide to Algebraic Number Theory,
 Cambridge U. Press, Cambridge 2001.
 
-3\) Juergen Neukirch, Algebraic Number Theory, trans. Norbert
+3) Juergen Neukirch, Algebraic Number Theory, trans. Norbert
 Schappacher, Springer, Berlin, 1986.
 
 Both assume you know some Galois theory or at least can fake it.
@@ -648,12 +648,12 @@ like.
 
 For Shafarevich's conjecture, try this:
 
-4\) K. Iwasawa, On solvable extensions of algebraic number fields, Ann.
+4) K. Iwasawa, On solvable extensions of algebraic number fields, Ann.
 Math. 58 (1953) 548-572.
 
 For Deligne's motivic analogue, try this:
 
-5\) Pierre Deligne, Le groupe fondamental de la droite projective moins
+5) Pierre Deligne, Le groupe fondamental de la droite projective moins
 trois points, in Galois Groups over Q, MSRI Publications 16 (1989),
 79-313.
 
@@ -662,13 +662,13 @@ theory, braided monoidal categories, and the like... and it all goes
 back to the Grothendieck-Teichmueller group. To learn about this group
 try this book, and especially this article in it:
 
-6\) Leila Schneps, The Grothendieck-Teichmuller group: a survey, in The
+6) Leila Schneps, The Grothendieck-Teichmuller group: a survey, in The
 Grothendieck Theory of Dessins D'Enfants, London Math. Society Notes
 200, Cambridge U. Press, Cambridge 1994, pp. 183-204.
 
 To hear and watch some online lectures on this material, try:
 
-7\) Leila Schneps, The Grothendieck-Teichmuller group and fundamental
+7) Leila Schneps, The Grothendieck-Teichmuller group and fundamental
 groups of moduli spaces, MSRI lecture available at
 `http://www.msri.org/publications/ln/msri/1999/vonneumann/schneps/1/`
 
@@ -678,14 +678,14 @@ at `http://www.msri.org/publications/ln/msri/1999/vonneumann/schneps/2/`
 For a quick romp through many mindblowing ideas which touches on this
 material near the end:
 
-8\) Pierre Cartier, A mad day's work: from Grothendieck to Connes and
+8) Pierre Cartier, A mad day's work: from Grothendieck to Connes and
 Kontsevich - the evolution of concepts of space and symmetry, Bulletin
 of the AMS, 38 (2001), 389 - 408. Also available at
 [http://www.ams.org/joursearch/index.html](http://www.ams.org/joursearch/servlet/DoSearch?sendit=Search&f1=msc&v1=&co1=and&f2=title&v2=&co2=and&f3=anywhere&v3=&co3=and&f4=author&v4=cartier&jrnl=all&onejrnl=&startmo=00&startyr=0000&endmo=00&endyr=0000&format=standard&sperpage=30&cperpage=50&ssort=d&cso)
 
 For even more mindblowing ideas along these lines:
 
-9\) Jack Morava, The motivic Thom isomorphism, talk at the Newton
+9) Jack Morava, The motivic Thom isomorphism, talk at the Newton
 Institute, December 2002, also available at
 [math.AT/0306151](http://www.arXiv.org/abs/math.AT/0306151).
 

@@ -11,7 +11,7 @@ gravity, and finally a bit about higher gauge theory.
 My interest in quantum computation was revived when Scott Aaronson
 invited me to this building near the Perimeter Institute:
 
-1\) Institute for Quantum Computing (IQC), `http://www.iqc.ca/`
+1) Institute for Quantum Computing (IQC), `http://www.iqc.ca/`
 
 Raymond Laflamme gave me a fun tour of the labs, especially the setup
 where he's using nuclear magnetic resonance to control the spins of
@@ -51,7 +51,7 @@ the three spinning nuclei interact. About a quadrillion of these
 molecules are doing their thing in parallel, mixed in with a bunch more
 made using carbon-12. For more details, see:
 
-2\) Jonathan Baugh, Osama Moussa, Colm A. Ryan, Raymond Laflamme,
+2) Jonathan Baugh, Osama Moussa, Colm A. Ryan, Raymond Laflamme,
 Chandrasekhar Ramanathan, Timothy F. Havel and David G. Cory,
 Solid-state NMR three-qubit homonuclear system for quantum information
 processing: control and characterization, Phys. Rev. A 73 (2006),
@@ -63,7 +63,7 @@ can use as keys for quantum cryptography. Nobody can peek at these
 photons without affecting them! It's a great scheme. If you don't know
 it, try this simple explanation:
 
-3\) Artur Ekert, Cracking codes, part II, Plus Magazine,
+3) Artur Ekert, Cracking codes, part II, Plus Magazine,
 `http://pass.maths.org.uk/issue35/features/ekert/index.html`
 
 There are already two companies - idQuantique and MagiQ - selling
@@ -80,7 +80,7 @@ Perimeter Institute.
 [![](cryptomap.gif){width="400"}](http://www.iqc.ca/laboratories/peg/free_space.php)
 :::
 
-4\) IQC, Free-space quantum key distribution,
+4) IQC, Free-space quantum key distribution,
 `http://www.iqc.ca/laboratories/peg/free_space.php`
 
 Then they can share secrets with nobody able to spy on them unnoticed.
@@ -156,7 +156,7 @@ these nice macrostates to flow into each other. Unfortunately, as they
 evolve, they sort of spread out. Their volume doesn't change - this was
 shown by Liouville back in the 1800s:
 
-5\) Wikipedia, Liouville's theorem (Hamiltonian),
+5) Wikipedia, Liouville's theorem (Hamiltonian),
 `http://en.wikipedia.org/wiki/Liouville's_theorem_(Hamiltonian)`
 
 But, they get stretched in some directions and squashed in others. So,
@@ -233,13 +233,13 @@ material Scott Aaronson recommended to me.
 
 Gentle introductions:
 
-6\) Michael A. Nielsen and Isaac L. Chuang, Quantum Computation and
+6) Michael A. Nielsen and Isaac L. Chuang, Quantum Computation and
 Quantum Information, Cambridge University Press, Cambridge, 2000.
 
-7\) John Preskill, Quantum computation - lecture notes, references etc.
+7) John Preskill, Quantum computation - lecture notes, references etc.
 at `http://www.theory.caltech.edu/people/preskill/ph229/`
 
-8\) John Preskill, Fault-tolerant quantum computation, to appear in
+8) John Preskill, Fault-tolerant quantum computation, to appear in
 "Introduction to Quantum Computation", eds. H.-K. Lo, S. Popescu, and
 T. P. Spiller. Also available as
 [quant-ph/9712048](http://arxiv.org/abs/quant-ph/9712048).
@@ -249,7 +249,7 @@ Chapter 7 of Preskill's lecture notes is about error correction.
 This is a nice early paper on getting quantum computers to work despite
 some inaccuracy and decoherence:
 
-9\) Peter Shor, Fault-tolerant quantum computation, 37th Symposium on
+9) Peter Shor, Fault-tolerant quantum computation, 37th Symposium on
 Foundations of Computing, IEEE Computer Society Press, 1996, pp. 56-65.
 Also available as
 [quant-ph/9605011](http://arxiv.org/abs/quant-ph/9605011).
@@ -258,13 +258,13 @@ This more recent paper shows that in a certain model, quantum
 computation can be made robust against errors that occur at less than
 some constant rate:
 
-10\) Dorit Aharonov and Michael Ben-Or, Fault-tolerant quantum
+10) Dorit Aharonov and Michael Ben-Or, Fault-tolerant quantum
 computation with constant error rate, available as
 [quant-ph/9906129](http://arxiv.org/abs/quant-ph/9906129).
 
 Here's a paper that assumes a more general model:
 
-11\) Barbara M. Terhal and Guido Burkard, Fault-tolerant quantum
+11) Barbara M. Terhal and Guido Burkard, Fault-tolerant quantum
 computation for local non-markovian noise, Phys. Rev. A 71, 012336
 (2005). Also available as
 [quant-ph/0402104](http://arxiv.org/abs/quant-ph/0402104).
@@ -274,7 +274,7 @@ mentioned above - the "thermodynamic cost of forgetting" - in a study
 of Maxwell's demon. This is a fascinating and controversial subject,
 and you can learn more about it in this book of reprints:
 
-12\) H. S. Leff and Andrew F. Rex, editors, Maxwell's Demon: Entropy,
+12) H. S. Leff and Andrew F. Rex, editors, Maxwell's Demon: Entropy,
 Information and Computing, Institute of Physics Publishing, 1990.
 
 I think Landauer's original paper is in here. He figured out why you
@@ -285,7 +285,7 @@ reason is that it takes energy for the demon to forget what it's seen!
 Finally, on a somewhat different note, if you just want a great read on
 the interface between physics and computation, you've got to try this:
 
-13\) Scott Aaronson, NP-complete problems and physical reality, ACM
+13) Scott Aaronson, NP-complete problems and physical reality, ACM
 SIGACT News, March 2005. Also available as
 [quant-ph/0502072](http://arxiv.org/abs/quant-ph/0502072).
 
@@ -304,13 +304,13 @@ serves as a convenient target for spin foam models that *do* include
 gravity: it should be the limit of any such model as the gravitational
 constant approaches zero.
 
-14\) Aristide Baratin and Laurent Freidel, Hidden quantum gravity in 4d
+14) Aristide Baratin and Laurent Freidel, Hidden quantum gravity in 4d
 Feynman diagrams: emergence of spin foams. Available as
 [hep-th/0611042](http://arxiv.org/abs/hep-th/0611042).
 
 It's the sequel of this paper for 3d spacetime:
 
-15\) Aristide Baratin and Laurent Freidel, Hidden quantum gravity in 3d
+15) Aristide Baratin and Laurent Freidel, Hidden quantum gravity in 3d
 Feynman diagrams. Available as
 [gr-qc/0604016](http://arxiv.org/abs/gr-qc/0604016).
 
@@ -318,7 +318,7 @@ Freidel, Kowalski-Glikman and Starodubtsev have also just come out with
 a paper carrying out some of the exciting project I mentioned in
 ["Week 208"](#week208):
 
-16\) Laurent Freidel, Jerzy Kowalski-Glikman and Artem Starodubtsev,
+16) Laurent Freidel, Jerzy Kowalski-Glikman and Artem Starodubtsev,
 Particles as Wilson lines in the gravitational field, available as
 [gr-qc/0607014](http://arxiv.org/abs/gr-qc/0607014).
 
@@ -355,7 +355,7 @@ where tr is defined using the inner product, F is the curvature of an
 SO(4,1) connection A, and B is an so(4,1)-valued 2-form. Spin foam
 models of BF theory work really well:
 
-17\) John Baez, An introduction to spin foam models of BF theory and
+17) John Baez, An introduction to spin foam models of BF theory and
 quantum gravity, in Geometry and Quantum Physics, eds. Helmut Gausterer
 and Harald Grosse, Lecture Notes in Physics, Springer-Verlag, Berlin,
 2000, pp. 25-93. Also available as
@@ -405,7 +405,7 @@ This is vaguely reminiscent of how the A and B field form two parts of a
 "2-connection" - a gadget that lets you define parallel transport
 along curved and surfaces. You can read about 2-connections here:
 
-18\) John Baez and Urs Schreiber, Higher gauge theory, to appear in the
+18) John Baez and Urs Schreiber, Higher gauge theory, to appear in the
 volume honoring Ross Street's 60th birthday, available as
 [math.DG/0511710](http://arxiv.org/abs/math.DG/0511710).
 
@@ -422,7 +422,7 @@ an excellent thesis that defines 2-bundles and relates them to
 "gerbes" - another popular approach to higher gauge theory, based on
 categorifying the concept of "sheaf" instead of "bundle":
 
-19\) Toby Bartels, Higher Gauge Theory I: 2-bundles, available as
+19) Toby Bartels, Higher Gauge Theory I: 2-bundles, available as
 [math.CT/0410328](http://arxiv.org/abs/math.CT/0410328).
 
 The detailed study of 2-connections will show up in the next installment
@@ -430,11 +430,11 @@ The detailed study of 2-connections will show up in the next installment
 
 You can also see transparencies of some talks about this stuff:
 
-20\) John Baez, Alissa Crans and Danny Stevenson, Chicago lectures on
+20) John Baez, Alissa Crans and Danny Stevenson, Chicago lectures on
 higher gauge theory, available at
 `http://math.ucr.edu/home/baez/namboodiri/`
 
-21\) John Baez, Higher gauge theory, 2006 Barrett lectures, available at
+21) John Baez, Higher gauge theory, 2006 Barrett lectures, available at
 `http://math.ucr.edu/home/baez/barrett/`
 
 It'll be lots of fun if higher gauge theory and the work relating
@@ -484,7 +484,7 @@ but it's not the obvious one you might have guessed at first.
 Mysteries breed mysteries. For more musings on these topics, try my talk
 at the Perimeter Institute:
 
-22\) John Baez, Higher-dimensional algebra: a language for quantum
+22) John Baez, Higher-dimensional algebra: a language for quantum
 spacetime, colloquium talk at Perimeter Institute, available at
 `http://math.ucr.edu/home/baez/quantum_spacetime/`
 
@@ -551,7 +551,7 @@ Here's what Nathan Urban wrote:
 > A nice recent overview of some of this work can be found in the latest
 > *Physics Today*:
 >
-> 23\) Sarma, Freedman, and Nayak, Topological quantum computation,
+> 23) Sarma, Freedman, and Nayak, Topological quantum computation,
 > Physics Today (July 2006).
 >
 > In this approach, error-free computation is accomplished using
@@ -593,7 +593,7 @@ Here's my reply:
 > Star Trek villain - it's Microsoft's project to develop quantum
 > computers using nonabelian anyons:
 >
-> 24\) Topological quantum computing at Indiana University,
+> 24) Topological quantum computing at Indiana University,
 > `http://www.tqc.iu.edu/`
 >
 >      The article has some nice discussion of anyons, braidings, 
@@ -606,7 +606,7 @@ Here's my reply:
 > Freedman, Larsen and Wang have already proved that certain versions of
 > Chern-Simons theory support universal quantum computation:
 >
-> 25\) Michael Freedman, Michael Larsen, and Zhenghan Wang, A modular
+> 25) Michael Freedman, Michael Larsen, and Zhenghan Wang, A modular
 > functor which is universal for quantum computation, available as
 > [quant-ph/0001108](http://arxiv.org/abs/quant-ph/0001108).
 >
@@ -617,7 +617,7 @@ Here's my reply:
 > for quantum computation, and some people are looking for nonabelian
 > anyons in the ν = 5/2 state:
 >
-> 26\) Parsa Bonderson, Alexei Kitaev and Kirill Shtengel, Detecting
+> 26) Parsa Bonderson, Alexei Kitaev and Kirill Shtengel, Detecting
 > non-abelian statistics in the ν = 5/2 fractional quantum Hall state,
 > Phys. Rev. Lett. 96 (2006) 016803. Also available as
 > [cond-mat/0508616](http://arxiv.org/abs/cond-mat/0508616).
@@ -628,7 +628,7 @@ Here's my reply:
 The article in the latest Physics Today isn't free for nonsubscribers,
 but this is, and it seems to cover similar ground:
 
-27\) Charles Day, Devices based on the fractional quantum Hall effect
+27) Charles Day, Devices based on the fractional quantum Hall effect
 may fulfill the promise of quantum computing, Physics Today (October
 2005), also available at
 `http://www.physicstoday.org/vol-58/iss-10/p21.html`
@@ -697,12 +697,12 @@ K. Eric Drexler writes:
 For an introduction to Drexler's plans for atomically-precise
 reversible computers, see:
 
-28\) K. Eric Drexler, Nanosystems: Molecular Machinery, Manufacturing,
+28) K. Eric Drexler, Nanosystems: Molecular Machinery, Manufacturing,
 and Computation, John Wiley and Sons, New York, 1992.
 
 The issue of heat dissipation in such devices is also studied here:
 
-29\) Ralph C. Merkle, Two types of mechanical reversible logic,
+29) Ralph C. Merkle, Two types of mechanical reversible logic,
 Nanotechnology 4 (1993), 114-131. Also available at
 `http://www.zyvex.com/nanotech/mechano.html`
 

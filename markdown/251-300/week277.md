@@ -5,7 +5,7 @@ Lauda... a paper we've been working on for 5 years! It's a chronology
 of 20th century math and physics, focused on why people are starting to
 use $n$-categories in physics:
 
-1\) John Baez and Aaron Lauda, A prehistory of $n$-categorical physics, to
+1) John Baez and Aaron Lauda, A prehistory of $n$-categorical physics, to
 appear in Deep Beauty: Mathematical Innovation and the Search for an
 Underlying Intelligibility of the Quantum World, edited by Hans
 Halvorson. Available at `http://math.ucr.edu/home/baez/history.pdf`
@@ -13,7 +13,7 @@ Halvorson. Available at `http://math.ucr.edu/home/baez/history.pdf`
 This is a companion to a paper I talked about in
 ["Week 261"](#week261):
 
-2\) John Baez and Mike Stay, Physics, topology, logic and computation: a
+2) John Baez and Mike Stay, Physics, topology, logic and computation: a
 Rosetta Stone, to appear in New Structures in Physics, edited by Bob
 Coecke. Available as
 [`arXiv:0903.0340`](http://arxiv.org/abs/arXiv:0903.0340).
@@ -51,7 +51,7 @@ possible substitute for silicon chips, which might operate 1000 times
 faster. Now a group there led by Barbaros Özyilmaz is trying to use
 graphene for storing information:
 
-3\) Prachi Patel, A step towards superfast carbon memory, Technology
+3) Prachi Patel, A step towards superfast carbon memory, Technology
 Review, Wednesday April 1, 2009, available at
 `http://www.technologyreview.com/computing/22377/`.
 
@@ -61,7 +61,7 @@ Graphene was only discovered in 2004, but the easiest way to make some
 is surprisingly lowtech. You press a chunk of graphite onto some scotch
 tape, and hope a thin layer sticks:
 
-4\) Making graphene 101, Özyilmaz' group, YouTube video, available at
+4) Making graphene 101, Özyilmaz' group, YouTube video, available at
 `http://www.youtube.com/watch?v=rphiCdR68TE`
 
 Graphene has some amazing properties. For starters, it acts like a toy
@@ -99,7 +99,7 @@ have a crystal, the crystal's atoms can wiggle. This is of course how
 packets called "phonons". And indeed, experiments with crystals show
 that this is true!
 
-5\) Wikipedia, Phonon, `http://en.wikipedia.org/wiki/Phonon`
+5) Wikipedia, Phonon, `http://en.wikipedia.org/wiki/Phonon`
 
 ::: {align="center"}
 [![](normal_modes.gif)](http://en.wikipedia.org/wiki/Phonon)
@@ -129,7 +129,7 @@ neighbors through magnetic forces. This allows waves of changed spin -
 "spin waves" - to propagate through the crystal. And again, these
 waves come in quantized packets called "magnons":
 
-6\) Wikipedia, Spin wave, `http://en.wikipedia.org/wiki/Spin_wave`
+6) Wikipedia, Spin wave, `http://en.wikipedia.org/wiki/Spin_wave`
 
 A crystal can also have a "hole": an atom with a missing electron
 These holes can move around, so they too act like particles. This
@@ -206,7 +206,7 @@ pathetically simple by ordinary physics standards, yet complicated
 enough that I don't feel like presenting the details here. You can see
 it near the beginning of this wonderful paper:
 
-7\) Jiannis K. Pachos, Manifestations of topological effects in
+7) Jiannis K. Pachos, Manifestations of topological effects in
 graphene, to appear in Contemp. Phys.. Also available as
 [`arXiv:0812.1116`](http://arxiv.org/abs/arXiv:0812.1116).
 
@@ -249,7 +249,7 @@ gives rise to a "dual lattice" in the space of momentum vectors, and
 the energy stays the same if you take the momentum and add any vector in
 this dual lattice. This is no big deal, it happens for any crystal:
 
-8\) Wikipedia, Reciprocal lattice,
+8) Wikipedia, Reciprocal lattice,
 `http://en.wikipedia.org/wiki/Reciprocal_lattice`
 
 In crystal jargon, the original crystal lattice is called the "Bravais
@@ -284,7 +284,7 @@ people had to confront when they were first trying to combine special
 relativity and quantum mechanics. I don't want to talk about it here,
 but if you're curious, see this:
 
-9\) M. I. Katnelson, K. S. Novoselov, A. K. Geim, Chiral tunnelling and
+9) M. I. Katnelson, K. S. Novoselov, A. K. Geim, Chiral tunnelling and
 the Klein paradox in graphene, Nature Physics 2 (2006), 620.
 
 Anyway, the upshot is that near one of these special points, graphene
@@ -307,11 +307,11 @@ wavelengths - at least within some range where all the approximations
 we've made are good. And, it turns out to absorb πα of the light you
 shine through it:
 
-10\) A. B. Kuzmenko, E. van Heumen, F. Carbone, and D. van der Marel,
+10) A. B. Kuzmenko, E. van Heumen, F. Carbone, and D. van der Marel,
 Universal infrared conductance of graphite, Phys. Rev. Lett. 100 (2008),
 117401.
 
-11\) R. R. Nair, P. Blake, A. N. Grigorenko, K. S. Novoselov, T. J.
+11) R. R. Nair, P. Blake, A. N. Grigorenko, K. S. Novoselov, T. J.
 Booth, T. Stauber, N. M. R. Peres, and A. K. Geim, A. K., Fine structure
 constant defines visual transparency of graphene, Science 320 (2008),
 1308. Also available at

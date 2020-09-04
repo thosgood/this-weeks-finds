@@ -13,7 +13,7 @@ Here's a great photo of volcanic activity on Io - the "Masubi plume":
 ![](io_masubi_plume.jpg)
 :::
 
-1\) NASA Photojournal, Masubi plume on Io,
+1) NASA Photojournal, Masubi plume on Io,
 `http://photojournal.jpl.nasa.gov/catalog/PIA02502`
 
 You can see hot gas and dust shooting 100 kilometers up into the
@@ -25,7 +25,7 @@ Here's another:
 ![](io_pele_eruption.jpg){width="450"}
 :::
 
-2\) Solarviews, Pele volcano and Pillan Patera,
+2) Solarviews, Pele volcano and Pillan Patera,
 `http://www.solarviews.com/eng/iopele.htm`
 
 In front we see a volcanic feature called Pillan Patera. Over the
@@ -41,7 +41,7 @@ at these "before and after" pictures taken 5 months apart in 1997:
 ![](io_pillan_patera_eruption.jpg)
 :::
 
-3\) NASA Photojournal, Arizona-sized Io eruption,
+3) NASA Photojournal, Arizona-sized Io eruption,
 `http://photojournal.jpl.nasa.gov/catalog/PIA00744`
 
 The big red ring is sulfur spewed out by Pele. But the exciting new
@@ -54,12 +54,12 @@ seen, anywhere!
 
 For more, try these:
 
-4\) A.G. Davies et al, Thermal signature, eruption style and eruption
+4) A.G. Davies et al, Thermal signature, eruption style and eruption
 evolution at Pele and Pillan on Io, Jour. Geophys. Research 106 (2001),
 33,079-33,103. Also available at
 `http://europa.la.asu.edu/pgg/associates/members/williams/gw/pdf/2001Daviesetal.pdf`
 
-5\) Jani Radebaugh et al, Observations and temperatures of Io's Pele
+5) Jani Radebaugh et al, Observations and temperatures of Io's Pele
 Patera from Cassini and Galileo spacecraft images, Icarus 169 (2004),
 65-79.
 
@@ -67,7 +67,7 @@ In case you're wondering about the red sulfur around Pele versus the
 yellow sulfur you saw last week, let me say a bit about that. Sulfur
 comes in an incredible number of forms, or allotropes:
 
-6\) Wikipedia, Allotropes of sulfur,
+6) Wikipedia, Allotropes of sulfur,
 `http://en.wikipedia.org/wiki/Allotropes_of_sulfur`
 
 It can form different molecules consisting of 2 to 20 atoms. The most
@@ -101,7 +101,7 @@ could be obtained by slicing lattices in higher dimensions. Greg Egan
 answered - yes! He even has a beautiful Java applet that demonstrates
 it:
 
-7\) Greg Egan, deBruijn, `http://www.gregegan.net/APPLETS/12/12.html`
+7) Greg Egan, deBruijn, `http://www.gregegan.net/APPLETS/12/12.html`
 
 It shows some nice quasiperiodic tilings of the plane with approximate
 n-fold symmetry, made by cleverly slicing a cubical lattice in
@@ -113,7 +113,7 @@ n-dimensional space. Here's a piece of one for n = 4:
 
 The idea comes from this paper:
 
-8\) N. G. deBruijn, Algebraic theory of Penrose's nonperiodic tilings
+8) N. G. deBruijn, Algebraic theory of Penrose's nonperiodic tilings
 of the plane, I, II, Nederl. Akad. Wetensch. Indag. Math. 43 (1981),
 39-52, 53-66.
 
@@ -192,15 +192,15 @@ can get 4d quasicrystals with approximate 120-cell symmetry by cleverly
 slicing the E~8~ lattice! This is just incredibly cool as pure
 mathematics:
 
-9\) Veit Elser and Neil Sloane, A highly symmetric four-dimensional
+9) Veit Elser and Neil Sloane, A highly symmetric four-dimensional
 quasicrystal, J. Phys. A 20 (1987), 6161-6168. Also available at
 `http://akpublic.research.att.com/~njas/doc/Elser.ps`
 
-10\) J. F. Sadoc and R. Mosseri, The E~8~ lattice and quasicrystals:
+10) J. F. Sadoc and R. Mosseri, The E~8~ lattice and quasicrystals:
 geometry, number theory and quasicrystals, J. Phys. A 26 (1993),
 1789-1809.
 
-11\) Robert V. Moody and J. Patera, Quasicrystals and icosians, J. Phys.
+11) Robert V. Moody and J. Patera, Quasicrystals and icosians, J. Phys.
 A. 26 (1993), 2829-2853.
 
 Yes, this is the same Moody who helped invent Kac-Moody algebras! For
@@ -226,7 +226,7 @@ diagrams. The "noncrystallographic" Coxeter groups are really
 
 Next let me discuss this paper by Jeffrey Morton:
 
-11\) Jeffrey Morton, 2-vector spaces and groupoids, available as
+11) Jeffrey Morton, 2-vector spaces and groupoids, available as
 [`arXiv:0810.2361`](http://arxiv.org/abs/0810.2361).
 
 It's an important new twist in the Tale of Groupoidification! As part
@@ -287,7 +287,7 @@ fact it gives more: a Hilbert space! Similarly, Jeffrey's process
 actually turns each groupoid into a 2-Hilbert space. I proved that a
 long time ago:
 
-12\) John Baez, Higher-dimensional algebra II: 2-Hilbert spaces, Adv.
+12) John Baez, Higher-dimensional algebra II: 2-Hilbert spaces, Adv.
 Math. 127 (1997), 125-189. Also available as
 [`arXiv:q-alg/9609018`](http://arXiv.org/abs/arXiv:q-alg/9609018).
 
@@ -306,7 +306,7 @@ theory with a finite gauge group.
 
 In his thesis:
 
-13\) Jeffrey Morton, Extended TQFT's and Quantum Gravity, Ph.D. thesis,
+13) Jeffrey Morton, Extended TQFT's and Quantum Gravity, Ph.D. thesis,
 U. C. Riverside, 2007. Available at
 [`arXiv:0710.0032`](http://arxiv.org/abs/0710.0032).
 
@@ -333,7 +333,7 @@ an earlier paper, which I discussed in ["Week 242"](#week242). He
 recently polished up this paper, changing the title to make it focus on
 the algebraic essence of his construction:
 
-14\) Jeffrey Morton, Double bicategories and double cospans, available
+14) Jeffrey Morton, Double bicategories and double cospans, available
 as [`arXiv:math/0611930`](http://arxiv.org/abs/math/0611930).
 
 There's a lot more I could say about this, but not a lot more time. So,
@@ -379,13 +379,13 @@ Here's some of what he has to say:
 
 This is just the beginning of a fascinating review. Check it out:
 
-15\) Stephen J. Summers, Constructive AQFT,
+15) Stephen J. Summers, Constructive AQFT,
 `http://www.math.ufl.edu/~sjs/construction.html`
 
 Also check out his big AQFT page, which lists textbooks and many more
 references:
 
-16\) Stephen J. Summers, Algebraic quantum field theory,
+16) Stephen J. Summers, Algebraic quantum field theory,
 `http://www.math.ufl.edu/~sjs/aqft.html`
 
 ------------------------------------------------------------------------

@@ -15,7 +15,7 @@ Week's Finds with something you don't need a PhD to enjoy.
 
 So, here's a tour of the Paris Observatory:
 
-1\) John Baez, Astronomical Paris,
+1) John Baez, Astronomical Paris,
 `http://golem.ph.utexas.edu/category/2007/07/astronomical_paris.html`
 
 Back when England and France were battling to rule the world, each had a
@@ -28,7 +28,7 @@ Cassini, Le Verrier and Laplace.
 In ["Week 175"](#week175), written during an earlier visit to
 Greenwich, I mentioned a book on this battle:
 
-2\) Dava Sobel, Longitude, Fourth Estate Ltd., London, 1996.
+2) Dava Sobel, Longitude, Fourth Estate Ltd., London, 1996.
 
 It's a lot of fun, and I recommend it highly.
 
@@ -47,7 +47,7 @@ To keep track of time precisely all over the world, you need to think
 about the finite speed of light. This may have spurred Poincaré's work
 on relativity! Here's a good book that argues this case:
 
-3\) Peter Galison, Einstein's Clocks, Poincaré's Maps: Empires of
+3) Peter Galison, Einstein's Clocks, Poincaré's Maps: Empires of
 Time, W. W. Norton, New York, 2003. Reviewed by Robert Wald in Physics
 Today at `http://www.physicstoday.org/vol-57/iss-9/p57.html`
 
@@ -56,13 +56,13 @@ impact of practical stuff on math and physics.
 
 I was in Delphi for a meeting of "Thales and Friends":
 
-4\) Thales and Friends, `http://www.thalesandfriends.org`
+4) Thales and Friends, `http://www.thalesandfriends.org`
 
 This is an organization that's trying to bridge the gap between
 mathematics and the humanities. It's led by Apostolos Doxiadis, who is
 famous for this novel:
 
-5\) Apostolos Doxiadis, Uncle Petros and Goldbach's Conjecture,
+5) Apostolos Doxiadis, Uncle Petros and Goldbach's Conjecture,
 Bloomsbury, New York, 2000. Review by Keith Devlin at
 `http://www.maa.org/reviews/petros.html`
 
@@ -71,7 +71,7 @@ advertise a forthcoming book by Doxiadis and a computer scientist friend
 of his. It's a comic book - sorry, I mean "graphic novel"! - about
 the history of mathematical logic from Russell to Goedel:
 
-6\) Apostolos Doxiadis and Christos Papadimitriou, Logicomix, to appear.
+6) Apostolos Doxiadis and Christos Papadimitriou, Logicomix, to appear.
 
 I saw a partially finished draft. I think it does a good job of
 explaining to nonmathematicians what the big deal was with mathematical
@@ -81,7 +81,7 @@ eventually led to computers. It's also a fun story.
 If you're eager for summer reading and can't wait for Logicomix, you
 might try this other novel by Papadimitrou:
 
-7\) Christos Papadimitriou, Turing (a Novel about Computation), MIT
+7) Christos Papadimitriou, Turing (a Novel about Computation), MIT
 Press, Boston, 2003.
 
 It's a history of mathematics from the viewpoint of computer science,
@@ -90,7 +90,7 @@ I haven't seen it yet.
 
 Okay - enough fun stuff. On to the Abel Symposium!
 
-8\) Abel Symposium 2007, `http://abelsymposium.no/2007`
+8) Abel Symposium 2007, `http://abelsymposium.no/2007`
 
 Actually this was a lot of fun too. A bunch of bigshots were there,
 including a bunch who didn't even give talks, like Eric Friedlander, Ib
@@ -141,7 +141,7 @@ for the 3-vector space that Chern-Simons theory assigns to a point.
 That would make a great followup to these papers on the 2-vector space
 that Chern-Simons theory assigns to a circle:
 
-9\) Daniel S. Freed, The Verlinde algebra is twisted equivariant
+9) Daniel S. Freed, The Verlinde algebra is twisted equivariant
 K-theory, available as
 [`arXiv:math/0101038`](http://arxiv.org/abs/math/0101038).
 
@@ -163,7 +163,7 @@ what Lurie called it in his title, and it makes me feel good.
 
 You can read about this hypothesis here:
 
-10\) John Baez and James Dolan, Higher-dimensional algebra and
+10) John Baez and James Dolan, Higher-dimensional algebra and
 topological quantum field theory, J.Math.Phys. 36 (1995) 6073-6105 Also
 available as
 arXiv:[q-alg/9503002](http://xxx.lanl.gov/abs/q-alg/9503002).
@@ -181,7 +181,7 @@ and so on up to dimension n. Unfortunately, at the time we proposed it,
 little was known about $n$-categories above n = 3. For a more recent take
 on these ideas, see:
 
-11\) Eugenia Cheng and Nick Gurski, Towards an $n$-category of cobordisms,
+11) Eugenia Cheng and Nick Gurski, Towards an $n$-category of cobordisms,
 Theory and Applications of Categories 18 (2007), 274-302. Available at
 `http://www.tac.mta.ca/tac/volumes/18/10/18-10abs.html`
 
@@ -219,7 +219,7 @@ Lurie is a real expert on (\infty,1)-categories. In fact, starting as a grad
 student, he wrote a mammoth tome generalizing topos theory from
 categories to (\infty,1)-categories:
 
-12\) Jacob Lurie, Higher topos theory, available as
+12) Jacob Lurie, Higher topos theory, available as
 [`arXiv:math/0608040`](http://arxiv.org/abs/math/0608040).
 
 I'm sure Freed would suspect him of taking category-enhancing
@@ -233,7 +233,7 @@ Anyway, Lurie and Hopkins have worked out the precise structure of the
 2Cob. Unfortunately this work is not yet written up. But, they use
 results from this paper:
 
-13\) Soren Galatius, Ib Madsen, Ulrike Tillmann, Michael Weiss, The
+13) Soren Galatius, Ib Madsen, Ulrike Tillmann, Michael Weiss, The
 homotopy type of the cobordism category, available as
 [`arXiv:math/0605249`](http://arxiv.org/abs/math/0605249).
 
@@ -313,7 +313,7 @@ If you don't remember what an "operad" is, give yourself twenty
 lashes with a wet noodle and review ["Week 220"](#week220).
 Suitably punished, you can then enjoy this:
 
-14\) Ralph Cohen and Alexander Voronov, Notes on string topology,
+14) Ralph Cohen and Alexander Voronov, Notes on string topology,
 available as [`arXiv:math/0503625`](http://arxiv.org/abs/math/0503625).
 
 Both PROPs and operads are defined near the beginning here. PROPs and
@@ -325,7 +325,7 @@ To see a more geometrical treatment of string topology, the way it
 looked before the operadchiks got ahold of it, try the original paper by
 Chas and Sullivan:
 
-15\) Moira Chas and Dennis Sullivan, String topology, available as
+15) Moira Chas and Dennis Sullivan, String topology, available as
 [`arXiv:math/9911159`](http://arxiv.org/abs/math/9911159).
 
 Sullivan talked about some recent refinements of string topology which
@@ -353,7 +353,7 @@ So, we get a nice interaction between periodic orbits in phase space,
 and the string topology of that space, and Morse theory! For more, try
 this:
 
-16\) Ralph Cohen, The Floer homotopy type of the cotangent bundle,
+16) Ralph Cohen, The Floer homotopy type of the cotangent bundle,
 available as [`arXiv:math/0702852`](http://arxiv.org/abs/math/0702852).
 
 Next, let me say a bit about Stephan Stolz's talk. He spoke on his work
@@ -364,7 +364,7 @@ I discussed this in ["Week 197"](#week197). I said they were
 working on a wonderful analogy between quantum field theories and
 different flavors of cohomology. It's been published since then:
 
-17\) Stephan Stolz and Peter Teichner, What is an elliptic object?
+17) Stephan Stolz and Peter Teichner, What is an elliptic object?
 Available at `http://math.berkeley.edu/~teichner/papers.html`
 
 Back then, the analogy looked like this:
@@ -396,7 +396,7 @@ gives a modular form even if the QFT is not invariant under conformal
 transformations. This means we can remove the word "conformal" from
 the second row! For more details, try this:
 
-18\) Stephan Stolz and Peter Teichner, Super symmetric field theories
+18) Stephan Stolz and Peter Teichner, Super symmetric field theories
 and integral modular forms, preliminary version available at
 `http://math.berkeley.edu/~teichner/papers.html`
 
@@ -620,7 +620,7 @@ supersymmetric nonlinear σ-model.
 
 For more on the n = 1 case, see:
 
-19\) Henning Hohnhold, Peter Teichner and Stephan Stolz, From minimal
+19) Henning Hohnhold, Peter Teichner and Stephan Stolz, From minimal
 geodesics to super symmetric field theories. In memory of Raoul Bott.
 Available at `http://math.berkeley.edu/~teichner/papers.html`
 
@@ -648,7 +648,7 @@ There's a lot more to say about all this... but luckily, there should
 be a proceedings of this conference, where you can read more. My own
 talk is here:
 
-20\) John Baez, Higher gauge theory and elliptic cohomology,
+20) John Baez, Higher gauge theory and elliptic cohomology,
 `http://math.ucr.edu/home/baez/abel/`
 
 It, too, is about studying spaces by letting strings roam around inside
@@ -661,11 +661,11 @@ I'll only summarize a few basic definitions. I got these from the talks
 by Fabian Morel and Vladimir Voevodsky, and I want to write them down
 before I forget! For more, try these:
 
-21\) Fabian Morel and Vladimir Voevodsky, A^1-homotopy theory of
+21) Fabian Morel and Vladimir Voevodsky, A^1-homotopy theory of
 schemes, September 1998. Available at
 `http://citeseer.ist.psu.edu/morel98suphomotopy.html`
 
-22\) Vladimir Voevodsky (notes by Charles Weibel), Voevodsky's Seattle
+22) Vladimir Voevodsky (notes by Charles Weibel), Voevodsky's Seattle
 Lectures: K-theory and motivic cohomology. Available at
 `http://citeseer.ist.psu.edu/249068.html`
 

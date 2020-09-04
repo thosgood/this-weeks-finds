@@ -4,7 +4,7 @@ The last time I wrote an issue of this column, the Huyghens probe was
 bringing back cool photos of Titan. Now the European "Mars Express"
 probe is bringing back cool photos of Mars!
 
-1\) Mars Express website,
+1) Mars Express website,
 `http://www.esa.int/SPECIALS/Mars_Express/index.html`
 
 There are some tantalizing pictures of what might be a "frozen sea" -
@@ -20,7 +20,7 @@ region:
 
 \
 
-2\) Mars Express sees signs of a "frozen sea",
+2) Mars Express sees signs of a "frozen sea",
 `http://www.esa.int/SPECIALS/Mars_Express/SEMCHPYEM4E_0.html`
 
 Ice has already been found at the Martian poles - it's easily visible
@@ -36,7 +36,7 @@ here's a here's a view of some ice on sand at the north pole:
 
 \
 
-3\) Glacial, volcanic and fluvial activity on Mars: latest images,
+3) Glacial, volcanic and fluvial activity on Mars: latest images,
 `http://www.esa.int/SPECIALS/Mars_Express/SEMLF6D3M5E_1.html`
 
 What's new is the possibility of large amounts of water in warmer parts
@@ -487,7 +487,7 @@ Hmm, I think I'm tired out. I didn't even get to the topology yet!
 Maybe that'll be good as a separate little story someday. If you can't
 wait, just read this:
 
-4\) John Milnor, Morse Theory, Princeton U. Press, Princeton, New
+4) John Milnor, Morse Theory, Princeton U. Press, Princeton, New
 Jersey, 1963.
 
 You'll see here that a representation of C~n~ is just the same as a
@@ -512,14 +512,14 @@ all about... but I want to really explain it all someday!
 
 I learned about the super-Brauer group here:
 
-5\) V. S. Varadarajan, Supersymmetry for Mathematicians: An
+5) V. S. Varadarajan, Supersymmetry for Mathematicians: An
 Introduction, American Mathematical Society, Providence, Rhode Island,
 2004.
 
 though the material here on this topic is actually a summary of some
 lectures by Deligne in another book I own:
 
-6\) P. Deligne, P. Etingof, D.S. Freed, L. Jeffrey, D. Kazhdan, J.
+6) P. Deligne, P. Etingof, D.S. Freed, L. Jeffrey, D. Kazhdan, J.
 Morgan, D.R. Morrison and E. Witten, Quantum Fields and Strings: A
 Course For Mathematicians 2 vols., American Mathematical Society,
 Providence, 1999. Notes also available at `http://www.math.ias.edu/QFT/`

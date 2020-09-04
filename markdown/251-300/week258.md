@@ -33,7 +33,7 @@ These force chains look like bolts of lightning:
 ![](utter_force_chains.jpg)
 :::
 
-1\) Brian Utter and R. P. Behringer, Self-diffusion in dense granular
+1) Brian Utter and R. P. Behringer, Self-diffusion in dense granular
 shear flows, Physical Review E 69, 031308 (2004). Also available as
 [`arXiv:cond-mat/0402669`](http://arXiv.org/abs/cond-mat/0402669).
 
@@ -99,14 +99,14 @@ tetracene)
 
 and so on:
 
-2\) Wikipedia, Polycyclic aromatic hydrocarbon,
+2) Wikipedia, Polycyclic aromatic hydrocarbon,
 `http://en.wikipedia.org/wiki/Polycyclic_aromatic_hydrocarbon`
 
 In 2004, a team of scientists discovered anthracene and pyrene in the
 Red Rectangle! This was first time such complex molecules had been found
 in space:
 
-3\) Uma P. Vijh, Adolf N. Witt, and Karl D. Gordon, Small polycyclic
+3) Uma P. Vijh, Adolf N. Witt, and Karl D. Gordon, Small polycyclic
 aromatic hydrocarbons in the Red Rectangle, The Astrophysical Journal,
 619 (2005) 368-378. Also available as
 [`arXiv:astro-ph/0410130`](http://arXiv.org/abs/astro-ph/0410130).
@@ -128,14 +128,14 @@ But, 80% of this carbon is in the form of PAHs.
 Here's an interview with a scientist who thinks PAHs were important
 precursors of life on Earth:
 
-5\) Aromatic world, interview with Pascale Ehrenfreund, Astrobiology
+5) Aromatic world, interview with Pascale Ehrenfreund, Astrobiology
 Magazine, available at
 `http://www.astrobio.net/news/modules.php?op=modload&name=News&file=article&sid=1992`
 
 And here's a book she wrote, with a chapter on organic molecules in
 space:
 
-6\) Pascale Ehrenfreud, editor, Astrobiology: Future Perspectives,
+6) Pascale Ehrenfreud, editor, Astrobiology: Future Perspectives,
 Springer Verlag, 2004.
 
 Harold Butner also told me about dust disks that have been seen around
@@ -146,7 +146,7 @@ lot of dust, and planets affect its motion.
 Mathematicians will be happy to know that *symplectic geometry* is
 required to simulate the motion of this dust:
 
-7\) A. T. Deller and S. T. Maddison, Numerical modelling of dusty debris
+7) A. T. Deller and S. T. Maddison, Numerical modelling of dusty debris
 disks, Astrophys. J. 625 (2005), 398-413. Also available as
 [`arXiv:astro-ph/0502135`](http://xxx.lanl.gov/abs/astro-ph/0502135)
 
@@ -156,21 +156,21 @@ Hochschild cohomology is an algebra for the little 2-cubes operad. There
 are a bunch of proofs of this by now. Here's a great introduction to
 the story:
 
-8\) Maxim Kontsevich, Operads and motives in deformation quantization,
+8) Maxim Kontsevich, Operads and motives in deformation quantization,
 available as [`arXiv:math/9904055`](http://arXiv.org/abs/math/9904055).
 
 I was inspired to seek a more conceptual proof by some conversations I
 had with Simon Willerton in Sheffield this summer, and this paper of
 his:
 
-9\) Andrei Caldararu and Simon Willerton, The Mukai pairing, I: a
+9) Andrei Caldararu and Simon Willerton, The Mukai pairing, I: a
 categorical approach, available as
 [`arXiv:0707.2052`](http://arXiv.org/abs/0707.2052).
 
 But, while trying to write up a sketch of this more conceptual proof, I
 discovered that it had already been worked out:
 
-10\) Po Hu, Igor Kriz and Alexander A. Voronov, On Kontsevich's
+10) Po Hu, Igor Kriz and Alexander A. Voronov, On Kontsevich's
 Hochschild cohomology conjecture, available at
 [`arXiv:math.AT/0309369`](http://arXiv.org/abs/math.AT/0309369).
 
@@ -308,7 +308,7 @@ objects. It happens throughout homological algebra!
 If that sounds scary, you should refer to a book like this as you read
 on:
 
-10\) Charles Weibel, An Introduction to Homological Algebra, Cambridge
+10) Charles Weibel, An Introduction to Homological Algebra, Cambridge
 U. Press, Cambridge, 1994.
 
 Okay. First, suppose we have an abelian category. This provides a
@@ -435,7 +435,7 @@ called a "fibrant replacement".
 
 For a good introduction to this, try:
 
-11\) Mark Hovey, Model Categories, American Mathematical Society,
+11) Mark Hovey, Model Categories, American Mathematical Society,
 Providence, Rhode Island, 1999.
 
 Second, I guessed that for any abelian category where every object has a
@@ -467,7 +467,7 @@ Ext(X) = H(HOM(X,X))
 
 be an A~\infty~-algebra. Here's a reference:
 
-12\) D.-M. Lu, J. H. Palmieri, Q.-S. Wu and J. J. Zhang, A~\infty~-structure
+12) D.-M. Lu, J. H. Palmieri, Q.-S. Wu and J. J. Zhang, A~\infty~-structure
 on Ext-algebras, available as
 [`arXiv:math.KT/0606144`](http://arXiv.org/abs/math.KT/0606144).
 
@@ -551,7 +551,7 @@ E(k) \otimes E(k') \to E(k+k')
 is a weak equivalence. This is Proposition 2 in the paper by Hu, Kriz
 and Voronov, based on an argument by Gerald Dunn:
 
-13\) Gerald Dunn, Tensor products of operads and iterated loop spaces,
+13) Gerald Dunn, Tensor products of operads and iterated loop spaces,
 Jour. Pure Appl. Alg 50 (1988), 237-258.
 
 Using this, they do much more than what I've sketched: they prove a
@@ -592,7 +592,7 @@ Modulo some typographical changes, Michael Batanin wrote:
 > complicated and still developing. The most conceptual and correct
 > proof I know is provided by Tamarkin in
 >
-> 14\) Dmitry Tamarkin, What do DG categories form?, available as
+> 14) Dmitry Tamarkin, What do DG categories form?, available as
 > [`arXiv:math.CT/0606553`](http://arXiv.org/abs/math.CT/0606553).
 >
 > And it uses my up to homotopy Eckmann--Hilton argument. This argument
@@ -602,7 +602,7 @@ Modulo some typographical changes, Michael Batanin wrote:
 > discussed. Here is the reference to my lecture about Deligne's
 > conjecture:
 >
-> 15\) Michael A. Batanin, Deligne's conjecture: an interplay between
+> 15) Michael A. Batanin, Deligne's conjecture: an interplay between
 > algebra, geometry and higher category theory, talk at ANU Canberra,
 > November 3 2006, available at
 > `http://www.math.mq.edu.au/~street/BataninMPW.pdf`
@@ -622,12 +622,12 @@ Modulo some typographical changes, Michael Batanin wrote:
 > situation I consider in my paper is much more general and includes
 > simplicial Quillen categories as a very special example. The paper is:
 >
-> 16\) Michael A. Batanin, Categorical strong shape theory, Cahiers de
+> 16) Michael A. Batanin, Categorical strong shape theory, Cahiers de
 > Topologie et Geom. Diff., V.XXXVIII-1 (1997), 3-67.
 >
 > and its companion
 >
-> 17\) Michael A. Batanin, Homotopy coherent category theory and A~\infty~
+> 17) Michael A. Batanin, Homotopy coherent category theory and A~\infty~
 > structures in monoidal categories, Jour. Pure Appl. Alg. 123 (1998),
 > 67-103.
 >
@@ -639,7 +639,7 @@ Eckmann-Hilton argument", which is a precise version of what I was
 attempting to sketch in this Week's Finds. Here's the paper by Getzler
 and Jones:
 
-18\) Ezra Getzler and J. D. S. Jones, Operads, homotopy algebra and
+18) Ezra Getzler and J. D. S. Jones, Operads, homotopy algebra and
 iterated integrals for double loop spaces, available as
 [`arXiv:hep-th/9403055`](http://arXiv.org/abs/hep-th/9403055).
 
@@ -657,7 +657,7 @@ Johansson wrote:
 > mentioned in the exposition backwards and forwards. On the face, what
 > LPWZh try to do is to take the survey articles by Bernhard Keller:
 >
-> 19\) Bernhard Keller, Introduction to A~\infty~-algebras and modules,
+> 19) Bernhard Keller, Introduction to A~\infty~-algebras and modules,
 > available as [`arXiv:math/9910179`](http://arxiv.org/abs/math/9910179).
 >
 > A brief introduction to A~\infty~-algebras, notes from a talk at the

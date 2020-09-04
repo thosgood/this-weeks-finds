@@ -19,7 +19,7 @@ leaving the speaker exhausted.
 
 Here's a nice description of it:
 
-1\) Simon Gindikin, Essay on the Moscow Gelfand Seminar, in Advances in
+1) Simon Gindikin, Essay on the Moscow Gelfand Seminar, in Advances in
 Soviet Mathematics, 16, eds. Sergei Gelfand and Simon Gindikin, 1993.
 Available at `http://www.math.rutgers.edu/home/gelfand/`
 
@@ -183,7 +183,7 @@ Giampiero Campa pointed out an article that's full of wisdom about open
 systems, the history of control theory, and the cultural differences
 between mathematics and engineering:
 
-2\) Jan C. Willems, In control, almost from the beginning until the day
+2) Jan C. Willems, In control, almost from the beginning until the day
 after tomorrow, European Journal of Control 13 (2007), 71-81. Also
 available as
 `http://homes.esat.kuleuven.be/~jwillems/Articles/JournalArticles/2007.2.pdf`
@@ -263,7 +263,7 @@ field theorists - can enjoy.
 
 For a deeper look at Willems' ideas on open systems, try this:
 
-3\) Jan C. Willems, The behavioral approach to open and interconnected
+3) Jan C. Willems, The behavioral approach to open and interconnected
 systems: modeling by tearing, zooming and linking, Control Systems
 Magazine 27 (2007), 46-99. Also available at
 `http://homes.esat.kuleuven.be/~jwillems/Articles/JournalArticles/2007.1.pdf`
@@ -450,14 +450,14 @@ q'_2 = 0
 So, the first wire acts like a norator while the second acts like a
 nullator. To see why engineers like this gizmo, try this:
 
-4\) Wikipedia, Nullor, `http://en.wikipedia.org/wiki/Nullor`
+4) Wikipedia, Nullor, `http://en.wikipedia.org/wiki/Nullor`
 
 For more, try these:
 
-5\) Herbert J. Carlin, Singular network elements, IEEE Trans. Circuit
+5) Herbert J. Carlin, Singular network elements, IEEE Trans. Circuit
 Theory, March 1965, vol. CT-11, pp. 67-72.
 
-6\) P. Kumar and R. Senani, Bibliography on nullors and their
+6) P. Kumar and R. Senani, Bibliography on nullors and their
 applications in circuit analysis, synthesis and design, Analog
 Integrated Circuits and Signal Processing 33 (2002), 65-76.
 
@@ -501,21 +501,21 @@ Here's the last 1-port I want to mention:
 Memristors have recently been built in a number of ways, which are
 nicely listed here:
 
-7\) Wikipedia, Memristor, `http://en.wikipedia.org/wiki/Memristor`
+7) Wikipedia, Memristor, `http://en.wikipedia.org/wiki/Memristor`
 
 Electrical engineering journals are notoriously resistant to the of open
 access, and I don't think there's a successful equivalent of the
 "arXiv" in this field. Shame on them! So, you have to nose around to
 find a freely accessible copy of Chua's original paper on memristors:
 
-8\) Leon Chua, Memristor, the missing circuit element, IEEE Transactions
+8) Leon Chua, Memristor, the missing circuit element, IEEE Transactions
 on Circuit Theory 18 (1971), 507-519. Also available at
 `http://www.lane.ufpa.br/rodrigo/chua/Memristor_chua_article.pdf`
 
 To see what the mechnical or chemical analogue of a memristor is like,
 try this:
 
-9\) G. F. Oster and D. M. Auslander, The memristor: a new bond graph
+9) G. F. Oster and D. M. Auslander, The memristor: a new bond graph
 element, Trans. ASME, J. Dynamic Systems, Measurement and Control 94
 (1972), 249-252. Also available as
 `http://nature.berkeley.edu/~goster/pdfs/Memristor.pdf`
@@ -669,7 +669,7 @@ would be called "Baez's theorem".
 Still, you might be surprised to discover there's a whole book on
 Tellegen's theorem:
 
-10\) Paul Penfield, Jr., Robert Spence and Simon Duinker, Tellegen's
+10) Paul Penfield, Jr., Robert Spence and Simon Duinker, Tellegen's
 Theorem and Electrical Networks, The MIT Press, Cambridge, MA, 1970.
 
 Part of why this result is interesting is that depends on such minimal
@@ -696,7 +696,7 @@ so long as Kirchoff's voltage and current laws hold for each circuit!
 
 I'm a bit fascinated by this paper, which you can get online:
 
-11\) G.F. Oster and C.A. Desoer, Tellegen's theorem and thermodynamic
+11) G.F. Oster and C.A. Desoer, Tellegen's theorem and thermodynamic
 inequalities, J. Theor. Biol 32 (1971), 219-241. Also available at
 `http://nature.berkeley.edu/~goster/pdfs/Tellagen.pdf`
 
@@ -704,7 +704,7 @@ They give a decent description of Tellegen's theorem, and they use it
 to derive something they call "Prigogine's theorem", which is
 supposed to be in here:
 
-12\) Ilya Prigogine, Thermodynamics of Irreversible Processes, 3rd
+12) Ilya Prigogine, Thermodynamics of Irreversible Processes, 3rd
 edition, Wiley, New York, 1968.
 
 I don't understand it well enough to give a beautiful lucid explanation
@@ -715,31 +715,31 @@ systems in chemistry or other subjects.
 According to Robert Kotiuga, the chain complex approach to electrical
 circuits goes back to Weyl:
 
-13\) Hermann Weyl, Reparticion de corriente en una red conductora, Rev.
+13) Hermann Weyl, Reparticion de corriente en una red conductora, Rev.
 Mat. Hisp. Amer. 5 (1923), 153-164.
 
 He also recommend these references:
 
-14\) Paul Slepian, Mathematical Foundations of Network Analysis,
+14) Paul Slepian, Mathematical Foundations of Network Analysis,
 Springer, Berlin, 1968.
 
-15\) Harley Flanders, Differential Forms with Applications to the
+15) Harley Flanders, Differential Forms with Applications to the
 Physical Sciences, Dover, New York, 1989, pp. 79-81.
 
-16\) Stephen Smale, On the mathematical foundations of electrical
+16) Stephen Smale, On the mathematical foundations of electrical
 network theory, J. Diff. Geom. 7 (1972), 193-210.
 
-17\) G. E. Ching, Topological concepts in networks; an application of
+17) G. E. Ching, Topological concepts in networks; an application of
 homology theory to network analysis, Proc. 11th. Midwest Conference on
 Circuit Theory, University of Notre Dame, 1968, pp. 165-175.
 
-18\) J. P. Roth, Existence and uniqueness of solutions to electrical
+18) J. P. Roth, Existence and uniqueness of solutions to electrical
 network problems via homology sequences, Mathematical Aspects of
 Electrical Network Theory, SIAM-AMS Proceedings III, 1971, pp. 113-118.
 
 For a quick discussion of Tellegen's theorem, this is also good:
 
-19\) Wikipedia, Tellegen's theorem,
+19) Wikipedia, Tellegen's theorem,
 `http://en.wikipedia.org/wiki/Tellegen%27s_theorem`
 
 By the way: if you've been paying careful attention and reading between
@@ -946,7 +946,7 @@ category of 2-term chain complexes! Alissa Crans and I called a category
 object in Vect a "2-vector space", since we can also think of it as a
 kind of categorified vector space. See Section 3 here:
 
-20\) John Baez and Alissa Crans, Higher-dimensional algebra VI: Lie
+20) John Baez and Alissa Crans, Higher-dimensional algebra VI: Lie
 2-algebras, Theory and Applications of Categories 12 (2004), 492-528.
 Available at `http://www.tac.mta.ca/tac/volumes/12/15/12-15abs.html` and
 also as [`arXiv:math.QA/0307263`](http://arXiv.org/abs/math.QA/0307263).
@@ -974,7 +974,7 @@ If you made it this far, you deserve a treat:
 [![](saturn_ring_cassini.jpg){width="700"}](http://apod.nasa.gov/apod/ap100215.html)
 :::
 
-21\) Astronomy Picture of the Day, Cassini spacecraft crosses Saturn's
+21) Astronomy Picture of the Day, Cassini spacecraft crosses Saturn's
 ring plane, `http://apod.nasa.gov/apod/ap100215.html`
 
 Saturn's rings edge-on, and a couple of moons, photographed by the
@@ -1005,7 +1005,7 @@ hemisphere.
 
 This is part of an interview which you can read here:
 
-22\) An interview with Alain Connes, part II, by Catherine Goldstein and
+22) An interview with Alain Connes, part II, by Catherine Goldstein and
 George Skandalis, Newsletter of the European Mathematical Society, March
 2008, pp. 29-34. Also available at
 `http://www.ems-ph.org/journals/newsletter/pdf/2008-03-67.pdf`
@@ -1039,7 +1039,7 @@ He wrote:
 >
 > I have described this construction in the following paper:
 >
-> 23\) J. Chen, D. Hundertmark and T. J. Martinez, A unified theoretical
+> 23) J. Chen, D. Hundertmark and T. J. Martinez, A unified theoretical
 > framework for fluctuating-charge models in atom-space and in
 > bond-space, Journal of Chemical Physics 129 (2008), 214113. DOI:
 > 10.1063/1.3021400. Also available as
@@ -1101,7 +1101,7 @@ much the spring is stretched.
 I thank Kim Sparre for catching a mistake. He also recommended this
 reference on electrical circuits and bond graphs:
 
-24\) yvind Bjrke and Ole Immanuel Franksen, editors, System Structures
+24) yvind Bjrke and Ole Immanuel Franksen, editors, System Structures
 in Engineering - Economic Design and Production, Tapir Publishers,
 Norway, ca. 1978.
 

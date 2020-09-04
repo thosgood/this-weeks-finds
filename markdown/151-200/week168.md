@@ -11,7 +11,7 @@ using loop quantum gravity to study what came before the big bang...
 but I didn't mention that he'd written a nice little book on the
 subject:
 
-1\) Martin Bojowald, Quantum Geometry and Symmetry, Shaker Verlag,
+1) Martin Bojowald, Quantum Geometry and Symmetry, Shaker Verlag,
 Aachen, 2000. Available at
 `http://www.shaker.de/Online-Gesamtkatalog/Details.asp?ISBN=3-8265-7741-8`
 
@@ -20,7 +20,7 @@ starting to pay off... but it will certainly help you *understand* his
 recent work. He's doing lots of great stuff these days. In fact, he
 just came out with a paper yesterday:
 
-2\) Martin Bojowald, The semiclassical limit of loop quantum cosmology,
+2) Martin Bojowald, The semiclassical limit of loop quantum cosmology,
 available at [gr-qc/0105113](http://xxx.lanl.gov/abs/gr-qc/0105113).
 
 This explains how his new approach to quantum cosmology is related to
@@ -86,7 +86,7 @@ partition function converge or not?
 Now, what's cool is that in November of last year, a fellow named
 Alejandro Perez claimed to have proven that it *does* converge:
 
-3\) Alejandro Perez, Finiteness of a spin foam model for euclidean
+3) Alejandro Perez, Finiteness of a spin foam model for euclidean
 quantum general relativity, Nucl. Phys. B599 (2001) 427-434. Also
 available at [gr-qc/0011058](http://xxx.lanl.gov/abs/gr-qc/0011058).
 
@@ -125,7 +125,7 @@ Last summer, in a fun-filled week of intense calculation, John Barrett
 and I showed that the integral defining the Lorentzian 10j symbols
 *does* in fact converge:
 
-4\) John Baez and John W. Barrett, Integrability for relativistic spin
+4) John Baez and John W. Barrett, Integrability for relativistic spin
 networks, available at
 [gr-qc/0101107](http://xxx.lanl.gov/abs/gr-qc/0101107).
 
@@ -133,7 +133,7 @@ It took us until this January to write up those calculations. By April,
 Louis Crane, Carlo Rovelli, and Alejandro Perez had written a paper
 extending our methods to show that the partition function converges:
 
-5\) Louis Crane, Alejandro Perez, Carlo Rovelli, A finiteness proof for
+5) Louis Crane, Alejandro Perez, Carlo Rovelli, A finiteness proof for
 the Lorentzian state sum spin foam model for quantum general relativity,
 available as [gr-qc/0104057](http://xxx.lanl.gov/abs/gr-qc/0104057).
 
@@ -149,7 +149,7 @@ connections to Clifford algebras and spinors, Bott periodicity,
 projective and Lorentzian geometry, Jordan algebras, the exceptional Lie
 groups, quantum logic, special relativity and supersymmetry:
 
-6\) John Baez, The octonions,
+6) John Baez, The octonions,
 `http://math.ucr.edu/home/baez/octonions/`\
 Also available at
 [math.RA/0105155](http://www.arXiv.org/abs/math.RA/0105155).

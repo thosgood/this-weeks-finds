@@ -10,7 +10,7 @@ hinting at mysteries beneath:\
 
 \
 
-1\) NASA, Enceladus the storyteller,
+1) NASA, Enceladus the storyteller,
 `http://www.nasa.gov/mission_pages/cassini/multimedia/pia07800.html`
 
 Recently the NASA space probe Cassini has been getting a good look at
@@ -25,10 +25,10 @@ height="250"}](http://saturn.jpl.nasa.gov/news/press-release-details.cfm?newsID=
 
 \
 
-2\) NASA's Cassini discovers potential liquid water on Enceladus,
+2) NASA's Cassini discovers potential liquid water on Enceladus,
 `http://saturn.jpl.nasa.gov/news/press-release-details.cfm?newsID=639`
 
-3\) Special issue on Enceladus, Science 311 (March 10th 2006).
+3) Special issue on Enceladus, Science 311 (March 10th 2006).
 
 The water freezes in microscopic crystals, which replenish Saturn's [E
 ring](http://saturn.jpl.nasa.gov/multimedia/images/image-details.cfm?imageID=2091)
@@ -42,7 +42,7 @@ The currently popular theory for the geysers looks like this:\
 
 \
 
-4\) NASA, Enceladus "cold geyser" model,
+4) NASA, Enceladus "cold geyser" model,
 `http://www.nasa.gov/mission_pages/cassini/multimedia/pia07799.html`
 
 Enceladus is now the the only place besides Earth where liquid water has
@@ -54,7 +54,7 @@ layer of ice, and maybe
 
 While we tend to take it for granted, water is a very strange chemical:
 
-5\) Martin Chaplin, Forty-one anomalies of water,
+5) Martin Chaplin, Forty-one anomalies of water,
 `http://www.lsbu.ac.uk/water/anmlies.html`
 
 As you probably know, the specific heat of water is unusually high,
@@ -62,7 +62,7 @@ which stabilizes the Earth's temperature. And no other simple compound
 exhibits so many different forms. There at least 18 forms of ice! You
 can tour them here:
 
-6\) Martin Chaplin, The phase diagram of water,
+6) Martin Chaplin, The phase diagram of water,
 `http://www.lsbu.ac.uk/water/phase.html`
 
 The hexagonal form of ice we find here on earth is called [ice
@@ -149,7 +149,7 @@ narrower tube, where it pushes a projectile. You can then fire the
 projectile into something, to generate very high pressures for a very
 short time.
 
-8\) Light gas gun, Wikipedia,
+8) Light gas gun, Wikipedia,
 `http://en.wikipedia.org/wiki/Light_Gas_Gun`
 
 It's not called a "light" gas gun because it's wimpy - in fact
@@ -163,7 +163,7 @@ mind. You may enjoy reading how folks at Lawrence Livermore National
 Laboratory used a light gas gun to compress hydrogen to pressures of up
 to 200 gigapascals, enough to convert it into a metal:
 
-9\) Robert C. Cauble, Putting more pressure on hydrogen,
+9) Robert C. Cauble, Putting more pressure on hydrogen,
 `http://www.llnl.gov/str/Cauble.html`
 
 This supports the theory that the hydrogen at Jupiter's core is in
@@ -188,7 +188,7 @@ too, like the red dots in this picture by Cavazzoni:
 ![](http://math.ucr.edu/home/baez/cavazzoni_ice_X.jpg)
 :::
 
-10\) Carlo Cavazzoni, Large scale first-principles simulations of water
+10) Carlo Cavazzoni, Large scale first-principles simulations of water
 and ammonia at high pressure and temperature, Ph.D. thesis, Scuola
 Internazionale Superiore di Studi Avanzati, October 1998. Figure 4.10:
 symmetric and super-ionic ice X structures, p. 57. Available at
@@ -231,7 +231,7 @@ might explain the magnetic fields of these planets.
 
 People have done computer simulations to study this:
 
-12\) C. Cavazzoni, G. L. Chiarotti, S. Scandolo, E. Tosatti, M.
+12) C. Cavazzoni, G. L. Chiarotti, S. Scandolo, E. Tosatti, M.
 Bernasconi and M. Parrinello, Superionic and metallic states of water
 and ammonia at giant planet conditions, Science 283 (January 1999),
 44-46. Also available at
@@ -274,7 +274,7 @@ For example, this paper says that using "extremely large lasers",
 people have studied water at pressures near a terapascal - 1000
 gigapascals:
 
-13\) P. M. Celliers et al, Electronic conduction in shock-compressed
+13) P. M. Celliers et al, Electronic conduction in shock-compressed
 water, Plasmas 11 (2004), L41-L48.
 
 They also mention that "a single datum at 1.4 terapascals from an
@@ -285,18 +285,18 @@ While I'm at it, I should mention a few more interesting articles on
 weird forms of ice. There's a lot of research on this subject! Here's
 a quick overview:
 
-14\) Nancy McGuire, The many phases of water, American Chemical Society,
+14) Nancy McGuire, The many phases of water, American Chemical Society,
 <https://web.archive.org/web/20051201104533/http://www.chemistry.org/portal/a/c/s/1/feature_pro.html?id=c373e9fbed0a01c78f6a4fd8fe800100>
 
 Here's a webpage with some nice pictures and an interesting story:
 
-15\) J. L. Finney, The phase diagram of water and a new metastable form
+15) J. L. Finney, The phase diagram of water and a new metastable form
 of ice, `http://www.cmmp.ucl.ac.uk/people/finney/soi.html`
 
 And finally, there's a paper that talks about how ordinary ice Ih but
 also silica and ice XI become amorphous when you squeeze them enough:
 
-16\) Koichiro Umemoto, Renata M. Wentzcovitch, Stefano Baroni and
+16) Koichiro Umemoto, Renata M. Wentzcovitch, Stefano Baroni and
 Stefano de Cironcoli, Anomalous pressure-induced transition(s) in ice
 XI, Physical Review Letters 92 (2004), 105502-1. Also available at
 `http://www.cems.umn.edu/research/wentzcovitch/papers/Phys._Rev._Lett._92_105502_(2004).pdf`
@@ -316,13 +316,13 @@ understanding something complicated, like water.
 I've been sort of [obsessed with ice](diary/diary_2006.html) lately. If
 you like it too, I recommend this book for general information:
 
-16\) Mariana Gosnell, Ice: The Nature, the History, and the Uses of an
+16) Mariana Gosnell, Ice: The Nature, the History, and the Uses of an
 Astonishing Substance, Alfred A. Knopf, New York, 2005.
 
 but I bought this one, because it tells an interesting history of the
 science of climate change as seen from icy peaks:
 
-17\) Mark Bowen, Thin Ice: Unlocking the Secrets of Climate in the
+17) Mark Bowen, Thin Ice: Unlocking the Secrets of Climate in the
 World's Highest Mountains, Henry Holt & Co., 2005.
 
 Now for some math. Last week I said a bit about quivers, the McKay
@@ -330,14 +330,14 @@ correspondence, and string theory. I want to dig deeper into the
 relation between these subjects, because Urs Schreiber has some
 interesting ideas about them, which he's mentioned here:
 
-18\) Urs Schreiber, A note on RCFT and quiver reps,
+18) Urs Schreiber, A note on RCFT and quiver reps,
 `http://golem.ph.utexas.edu/string/archives/000794.html`
 
 But, I'm not feeling sufficiently energetic to explain these ideas
 right now, especially since he already has! For some more clues, try
 this:
 
-19\) Paul Aspinwall, D-branes on Calabi-Yau manifolds, section 7.3.1,
+19) Paul Aspinwall, D-branes on Calabi-Yau manifolds, section 7.3.1,
 The McKay correspondence, p. 101 and following. Available as
 [hep-th/0403166](http://xxx.lanl.gov/abs/hep-th/0403166)
 
@@ -345,14 +345,14 @@ For more on the the representation theory of quivers, see the references
 in the "Addenda" to ["Week 230"](#week230), and also this
 excellent book:
 
-20\) David J. Benson, Representations and Cohomology I, Cambridge U.
+20) David J. Benson, Representations and Cohomology I, Cambridge U.
 Press, Cambridge 1991.
 
 You'll see how the non-simply-laced Dynkin diagrams get into the act! A
 more thorough treatment, fascinating but somewhat quirky, can be found
 here:
 
-21\) P. Gabriel and A. V. Roiter, Representations of Finite-Dimensional
+21) P. Gabriel and A. V. Roiter, Representations of Finite-Dimensional
 Algebras, Enc. of Math. Sci., 73, Algebra VIII, Springer, Berlin 1992.
 
 If you like category theory you may enjoy this book, because it's all
@@ -406,7 +406,7 @@ average apple. Aaron Bergman had this to say:
 >
 > You want
 >
-> 22\) Tom Bridgeland, Alaistair King and Miles Reid, Mukai implies
+> 22) Tom Bridgeland, Alaistair King and Miles Reid, Mukai implies
 > McKay: the McKay correspondence as an equivalence of derived
 > categories, available as
 > [math.AG/9908027](http://www.arxiv.org/abs/math.AG/9908027).
@@ -426,7 +426,7 @@ average apple. Aaron Bergman had this to say:
 > zero section collapsed. Quivers can be associated to this via a work
 > of Bridgeland:
 >
-> 23\) Tom Bridgeland, T-structures on some local Calabi-Yau varieties,
+> 23) Tom Bridgeland, T-structures on some local Calabi-Yau varieties,
 > available as
 > [math.AG/0502050](http://www.arxiv.org/abs/math.AG/0502050).
 >
@@ -438,7 +438,7 @@ average apple. Aaron Bergman had this to say:
 > quivers (for a subclass of examples) has as a component the original
 > cone:
 >
-> 24\) Aaron Bergman, Undoing orbifold quivers, available as
+> 24) Aaron Bergman, Undoing orbifold quivers, available as
 > [hep-th/0502105](http://www.arxiv.org/abs/hep-th/0502105).
 >
 > Aaron Bergman, Moduli spaces for Bondal quivers, available as

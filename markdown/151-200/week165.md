@@ -28,12 +28,12 @@ of distributed disk memory.
 
 You can learn more about this at their homepage:
 
-1\) University of Wisconsin at Milwaukee, Center for Gravitation and
+1) University of Wisconsin at Milwaukee, Center for Gravitation and
 Cosmology home page, `http://www.gravity.phys.uwm.edu/`
 
 For a nice popular account of the LIGO experiment, try this:
 
-2\) Marcia Bartusiak, Einstein's Unfinished Symphony: Listening to the
+2) Marcia Bartusiak, Einstein's Unfinished Symphony: Listening to the
 Sounds of Space-Time, Joseph Henry Press, Washington D.C., 2000.
 
 My host was at Milwaukee was John Friedman. I was surprised and pleased
@@ -42,7 +42,7 @@ spin-1/2 particles out of topological defects in spacetime!
 Theoretically speaking, that is. I'd heard about this trick, but I
 never knew where it came from:
 
-3\) J. Friedman and R. Sorkin, Spin 1/2 from gravity, Phys. Rev. Lett 44
+3) J. Friedman and R. Sorkin, Spin 1/2 from gravity, Phys. Rev. Lett 44
 (1980), 1100.
 
 I was more familiar with a recent implementation of it in the framework
@@ -76,7 +76,7 @@ Unfortunately, most of them don't explain the real meat of general
 relativity: Einstein's equation. This bugs me, especially since it's
 not so hard. If you're interested, take a look at this:
 
-4\) John Baez, The meaning of Einstein's equation, available at
+4) John Baez, The meaning of Einstein's equation, available at
 [gr-qc/0103044](http://xxx.lanl.gov/abs/gr-qc/0103044).
 
 Since my Milwaukee trip I've become really busy writing notes on the
@@ -87,7 +87,7 @@ format. Eventually they will be put together in the form of a book, but
 it's a lot of work. That's the main reason This Week's Finds has been
 dormant lately. You can see all these notes here:
 
-5\) John Baez, Toby Bartels and Miguel Carrion, Quantum Gravity Seminar,
+5) John Baez, Toby Bartels and Miguel Carrion, Quantum Gravity Seminar,
 `http://math.ucr.edu/home/baez/qg.html`
 
 The ultimate goal is to describe spin foam models of 4d quantum gravity,
@@ -97,7 +97,7 @@ There are a lot of other things I'd like to talk about, but I don't
 have time to do them all justice. For example, there's a nice new book
 of essays on quantum gravity:
 
-6\) Craig Callender and Nick Huggett, eds., Physics Meets Philosophy at
+6) Craig Callender and Nick Huggett, eds., Physics Meets Philosophy at
 the Planck Scale: Contemporary Theories in Quantum Gravity, Cambridge U.
 Press, Cambridge, 2001.
 
@@ -112,7 +112,7 @@ Over on the more technical end, Martin Bojowald has written a bunch of
 papers applying loop quantum gravity to the big bang, which I want to
 catch up with:
 
-7\) Martin Bojowald, Loop Quantum Cosmology I: Kinematics, Class. Quant.
+7) Martin Bojowald, Loop Quantum Cosmology I: Kinematics, Class. Quant.
 Grav. 17 (2000), 1489-1508, also available at
 [gr-qc/9919103](http://xxx.lanl.gov/abs/gr-qc/9919103)
 
@@ -142,7 +142,7 @@ theory, and their application to $n$-categories. He's even given a new
 definition of "weak $n$-category", thus adding to the profusion of
 competing candidates:
 
-8\) Tom Leinster, General operads and multicategories, available as
+8) Tom Leinster, General operads and multicategories, available as
 [math.CT/9810053](http://xxx.lanl.gov/abs/math.CT/9810053).
 
 Structures in higher-dimensional category theory, Ph.D. thesis,
@@ -162,7 +162,7 @@ number of different definitions of weak $n$-category, by laying the
 groundwork for connecting various existing definitions - mainly those
 based on "opetopes" and related shapes:
 
-9\) Eugenia Cheng, The relationship between the opetopic and multitopic
+9) Eugenia Cheng, The relationship between the opetopic and multitopic
 approaches to weak $n$-categories, available at
 `http://www.dpmms.cam.ac.uk/~elgc2/`
 
@@ -177,13 +177,13 @@ Finally, everyone who wants to understand M-theory and its relation to
 matrix models should first read this review article by Nicolai and
 Helling:
 
-10\) Hermann Nicolai and Robert Helling, Supermembranes and M(atrix)
+10) Hermann Nicolai and Robert Helling, Supermembranes and M(atrix)
 theory, available as
 [hep-th/9809103](http://xxx.lanl.gov/abs/hep-th/9809103).
 
 and then this new review article by Wati Taylor:
 
-10\) Washington Taylor, M(atrix) theory: matrix quantum mechanics as a
+10) Washington Taylor, M(atrix) theory: matrix quantum mechanics as a
 fundamental theory, available as
 [hep-th/0101126](http://xxx.lanl.gov/abs/hep-th/0101126).
 

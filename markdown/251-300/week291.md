@@ -12,7 +12,7 @@ dinner.
 First: if you're into $n$-categories, you have to check out Carlos
 Simpson's new book:
 
-1\) Carlos Simpson, Homotopy theory of higher categories, draft
+1) Carlos Simpson, Homotopy theory of higher categories, draft
 available as `http://hal.archives-ouvertes.fr/hal-00449826/fr/`
 
 It's very readable, with a long historical introduction that'll help
@@ -32,9 +32,9 @@ the music:
 ::: {align="center"}
 :::
 
-2\) Jos Leys, `http://www.josleys.com/Canon/Canon.html`
+2) Jos Leys, `http://www.josleys.com/Canon/Canon.html`
 
-3\) Xantox, Canon 1 a 2, at his blog Strange Paths,
+3) Xantox, Canon 1 a 2, at his blog Strange Paths,
 [http://strangepaths.com/canon-1-a-2/2009/01/18/en/M](http://strangepaths.com/canon-1-a-2/2009/01/18/en/)
 
 This is a "crab canon", meaning roughly a melody that sounds good when
@@ -74,7 +74,7 @@ upside-down version of the leader!
 
 I first learned this stuff here, back when I was a teenager:
 
-4\) Douglas Hofstadter, Gödel, Escher, Bach: an Eternal Golden Braid,
+4) Douglas Hofstadter, Gödel, Escher, Bach: an Eternal Golden Braid,
 Basic Books, 1979.
 
 I feel sort of silly recommending this book. You must have already read
@@ -91,10 +91,10 @@ and Xantox is so great.
 
 For more on the Musical Offering, try these:
 
-5\) Timothy A. Smith, Canons of the Musical Offering,
+5) Timothy A. Smith, Canons of the Musical Offering,
 [http://strangepaths.com/canon-1-a-2/2009/01/18/en/](http://jan.ucc.nau.edu/~tas3/musoffcanons.html)
 
-6\) Tony Phillips, Math and the Musical Offering,
+6) Tony Phillips, Math and the Musical Offering,
 `http://www.ams.org/featurecolumn/archive/canons.html`
 
 Next: there's an incredibly cool relationship between the Mandelbrot
@@ -138,7 +138,7 @@ while this:
 is a tiny patch of the Mandelbrot set centered at the same value of c.
 They're shockingly similar!
 
-7\) Wikipedia, Mandelbrot sets: relationship with Julia sets,
+7) Wikipedia, Mandelbrot sets: relationship with Julia sets,
 `http://en.wikipedia.org/wiki/Mandelbrot_set#Relationship_with_Julia_sets`
 
 This is why the Mandelbrot set is so complicated. Julia sets are already
@@ -152,7 +152,7 @@ view:
 [![](696px-725_Julia_sets.png)](725_Julia_sets.png)
 :::
 
-8\) Wikimedia Commons, 725 Julia sets,
+8) Wikimedia Commons, 725 Julia sets,
 `http://commons.wikimedia.org/wiki/File:725_Julia_sets.png`
 
 It's a big picture made of lots of little pictures of Julia sets for
@@ -164,7 +164,7 @@ stuff.
 
 For an even better view of this phenomenon, try this:
 
-9\) David Joyce, Mandelbrot and Julia set explorer,
+9) David Joyce, Mandelbrot and Julia set explorer,
 `http://aleph0.clarku.edu/~djoyce/julia/explorer.html`
 
 You can zoom into the Mandelbrot set and see the corresponding Julia set
@@ -253,7 +253,7 @@ at a frequency of 60 hertz. But this 120 volts is the
 "root-mean-square" voltage. To get the "peak" voltage we need to
 multiply by the square root of 2, for reasons explained here:
 
-10\) Wikipedia, Root mean square: average electrical power, at
+10) Wikipedia, Root mean square: average electrical power, at
 `http://en.wikipedia.org/wiki/Root_mean_square#Average_electrical_power`
 
 That's where the square root of 2 comes from. Also, in electrical
@@ -283,10 +283,10 @@ impedes me.
 And let's not even get *started* on the various types of plugs used in
 different countries!
 
-11\) Wikipedia, Mains electricity,
+11) Wikipedia, Mains electricity,
 `http://en.wikipedia.org/wiki/Mains_electricity`
 
-12\) Wikipedia, Mains power around the world,
+12) Wikipedia, Mains power around the world,
 `http://en.wikipedia.org/wiki/Mains_power_around_the_world`
 
 Okay, now let's talk about 2-ports and 3-ports. Remember, a 1-port
@@ -699,7 +699,7 @@ I hope to say more about this duality when I reach the more cosmic,
 grandiose aspects of the long story I'm telling. But if I forget,
 you'll have to read this:
 
-13\) Istvan Vago, Graph Theory: Application to the Calculation of
+13) Istvan Vago, Graph Theory: Application to the Calculation of
 Electrical Networks, Elsevier, 1985.
 
 See the section called "The Principal of Duality", on page 77. Also,
@@ -709,19 +709,19 @@ special case.
 If you want to learn more about the 1-ports, 2-ports and 3-ports I've
 been discussing, let me again recommend this book:
 
-14\) Dean C. Karnopp, Donald L. Margolis and Ronald C. Rosenberg, System
+14) Dean C. Karnopp, Donald L. Margolis and Ronald C. Rosenberg, System
 Dynamics: a Unified Approach, Wiley, New York, 1990.
 
 It's good on the abstract concepts, it clearly lays out most of the
 basic analogies, and it's not very long. It seems to be a modernized
 version of this earlier book, which has its own homegrown charm:
 
-15\) Dean C. Karnopp and Ronald C. Rosenberg, Analysis and Simulation of
+15) Dean C. Karnopp and Ronald C. Rosenberg, Analysis and Simulation of
 Multiport Systems, MIT Press, Cambridge, Massachusetts, 1968.
 
 For something vastly more detailed, try:
 
-16\) Forbes T. Brown, Engineering System Dynamics: a Unified
+16) Forbes T. Brown, Engineering System Dynamics: a Unified
 Graph-Centered Approach, Taylor and Francis, 2007.
 
 This mammoth tome is 1058 pages long, mainly because it's packed with

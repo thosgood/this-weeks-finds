@@ -43,7 +43,7 @@ spiral down towards a sudden merger. Together with an enormous pageful
 of authors, she helped write this paper, based on data taken from the
 "first science run" - the first real LIGO experiment, back in 2002:
 
-1\) The LIGO Scientific Collaboration, Analysis of LIGO data for
+1) The LIGO Scientific Collaboration, Analysis of LIGO data for
 gravitational waves from binary neutron stars, Phys. Rev. D69 (2004),
 122001. Also available at
 [gr-qc/0308069](http://xxx.lanl.gov/abs/gr-qc/0308069).
@@ -93,7 +93,7 @@ sensitivity in future projects called "Enhanced LIGO" and "Advanced
 LIGO". The latter should see neutron star collisions out to 300
 megaparsecs:
 
-2\) Advanced LIGO, `http://www.ligo.caltech.edu/advLIGO/`
+2) Advanced LIGO, `http://www.ligo.caltech.edu/advLIGO/`
 
 When we arrived at the gate, Jorge spoke into the intercom and got us
 let in. Our guide, Joe Giaime, was running a bit a late, so we walked
@@ -180,7 +180,7 @@ generalization of gauge theory which studies the parallel transport not
 just of point particles, but also strings and higher-dimensional
 objects:
 
-3\) John Baez, Higher gauge theory,
+3) John Baez, Higher gauge theory,
 `http://math.ucr.edu/home/baez/highergauge`
 
 This is a gentler introduction to higher gauge theory than my previous
@@ -193,7 +193,7 @@ webpage has links to more details.
 I was also travelling last weekend - I went to Dartmouth and gave this
 talk:
 
-4\) John Baez, Tales of the Dodecahedron: from Pythagoras through Plato
+4) John Baez, Tales of the Dodecahedron: from Pythagoras through Plato
 to Poincare, `http://math.ucr.edu/home/baez/dodecahedron/`
 
 It's full of pictures and animations - fun for the whole family!
@@ -237,7 +237,7 @@ universe that could explain the mysterious weakness of the
 longest-wavelength ripples in the cosmic background radiation - the
 ripples that only wiggle a few times as we scan all around the sky:
 
-5\) J.-P. Luminet, J. Weeks, A. Riazuelo, R. Lehoucq, and J.-P. Uzan,
+5) J.-P. Luminet, J. Weeks, A. Riazuelo, R. Lehoucq, and J.-P. Uzan,
 Dodecahedral space topology as an explanation for weak wide-angle
 temperature correlations in the cosmic microwave background, Nature 425
 (2003), 593. Also available as
@@ -251,14 +251,14 @@ times: the lowest-frequency ripples would be suppressed.
 Alas, this charming idea turns out not to fit other data. We just don't
 see the same distant galaxies in several different directions:
 
-6\) Neil J. Cornish, David N. Spergel, Glenn D. Starkman and Eiichiro
+6) Neil J. Cornish, David N. Spergel, Glenn D. Starkman and Eiichiro
 Komatsu, Constraining the topology of the universe, Phys. Rev. Lett. 92
 (2004) 201302. Also available as
 [astro-ph/0310233](http://xxx.lanl.gov/abs/astro-ph/0310233).
 
 For a good review of this stuff, see:
 
-7\) Jeffrey Weeks, The Poincare dodecahedral space and the mystery of
+7) Jeffrey Weeks, The Poincare dodecahedral space and the mystery of
 the missing fluctuations, Notices of the AMS 51 (2004), 610-619. Also
 available at `http://www.ams.org/notices/200406/fea-weeks.pdf`
 
@@ -273,7 +273,7 @@ Dan Piponi pointed out this dodecahedral virus:
 [![](pariacoto_virus.jpg)](http://www.nature.com/nsmb/journal/v8/n1/pdf/nsb0101_77.pdf)
 :::
 
-8\) Liang Tang et al, The structure of Pariacoto virus reveals a
+8) Liang Tang et al, The structure of Pariacoto virus reveals a
 dodecahedral cage of duplex RNA, Nature Structural Biology 8 (2001),
 77-83. Also available at
 `http://www.nature.com/nsmb/journal/v8/n1/pdf/nsb0101_77.pdf`
@@ -289,7 +289,7 @@ these:
 [![](http://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Dodecahedran.png/200px-Dodecahedran.png)](http://en.wikipedia.org/wiki/Image:Dodecahedran.png)
 :::
 
-9\) Wikipedia, Dodecahedrane,
+9) Wikipedia, Dodecahedrane,
 `http://en.wikipedia.org/wiki/Dodecahedrane`
 
 This molecule hasn't been found in nature yet, but chemists can
@@ -303,10 +303,10 @@ synthesize it using reactions like these:
 [![](dodecahedrane_synthesis_2.jpg)](http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=346698)
 :::
 
-10\) Robert J. Ternansky, Douglas W. Balogh and Leo A. Paquette,
+10) Robert J. Ternansky, Douglas W. Balogh and Leo A. Paquette,
 Dodecahedrane, J. Am. Chem. Soc. 104 (1982), 4503-4504.
 
-11\) Leo A. Paquette, Dodecahedrane - the chemical transliteration of
+11) Leo A. Paquette, Dodecahedrane - the chemical transliteration of
 Plato's universe (a review), Proc. Nat. Acad. Sci. USA 14 part 2
 (1982), 4495-4500. Also available at
 `http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=346698`
@@ -327,11 +327,11 @@ dating back to around 2000 BC!
 [![](blocks.gif)](http://arxiv.org/abs/math-ph/0303071)
 :::
 
-13\) Michael Atiyah and Paul Sutcliffe, Polyhedra in physics, chemistry
+13) Michael Atiyah and Paul Sutcliffe, Polyhedra in physics, chemistry
 and geometry, available as
 [math-ph/0303071](http://arxiv.org/abs/math-ph/0303071).
 
-14\) Dorothy N. Marshall, Carved stone balls, Proc. Soc. Antiq.
+14) Dorothy N. Marshall, Carved stone balls, Proc. Soc. Antiq.
 Scotland, 108 (1976/77), 40-72. Available at
 `http://ads.ahds.ac.uk/catalogue/library/psas/`
 
@@ -352,7 +352,7 @@ little cubic cells, as shown here:
 [![](pyritohedron.gif)](http://www.uwgb.edu/dutchs/symmetry/isometuc.htm)
 :::
 
-12\) Steven Dutch, Building isometric crystals with unit cells,
+12) Steven Dutch, Building isometric crystals with unit cells,
 `http://www.uwgb.edu/dutchs/symmetry/isometuc.htm`
 
 It has 12 pentagonal faces, orthogonal to these vectors:
@@ -363,7 +363,7 @@ It has 12 pentagonal faces, orthogonal to these vectors:
 
 You can see how this works by going here:
 
-13\) mindat.org, Pyrite, `http://www.mindat.org/min-3314.html`
+13) mindat.org, Pyrite, `http://www.mindat.org/min-3314.html`
 
 If your webbrowswer can handle Java, go to this webpage and click on
 "Pyrite no. 3" to see a rotating pyritohedron. Then, while holding
@@ -440,7 +440,7 @@ pentagonal faces:
 [![](180px-Rhombicdodecahedron.gif)](http://en.wikipedia.org/wiki/Rhombic_dodecahedron)
 :::
 
-14\) Wikipedia, Rhombic dodecahedron,
+14) Wikipedia, Rhombic dodecahedron,
 `http://en.wikipedia.org/wiki/Rhombic_dodecahedron`
 
 So, the rhombic dodecahedron deserves to be called the "moron's
@@ -468,7 +468,7 @@ Moving in the direction of increasing wisdom, we can consider the case A
 the pyritohedron. And, apparently it exists in nature! It shows up as
 number 12 in this list of crystals:
 
-15\) Ian O. Angell and Moreton Moore, Projections of cubic crystals,
+15) Ian O. Angell and Moreton Moore, Projections of cubic crystals,
 section 4: The diagrams,
 `http://www.iucr.org/education/pamphlets/12/full-text`
 
@@ -476,7 +476,7 @@ They also call this guy a pyritohedron, so presumably some pyrite forms
 these less foolish crystals! You can compare it with the A = 1, B = 2
 case here:
 
-16\) Ian O. Angell and Moreton Moore, Projections of cubic crystals,
+16) Ian O. Angell and Moreton Moore, Projections of cubic crystals,
 Graphical index of figures,
 `http://www.iucr.org/education/pamphlets/12/graphical-index`
 
@@ -649,7 +649,7 @@ nice example of the dodecahedron in nature - and even in Nature:
 >
 > Nature commented in issue 7075:
 >
-> 15\) The complete Plato, Nature 439 (26 January 2006), 372-373.
+> 15) The complete Plato, Nature 439 (26 January 2006), 372-373.
 >
 > > According to Plato, the heavenly ether and the classical elements -
 > > earth, air, fire and water - were composed of atoms shaped like
@@ -667,7 +667,7 @@ nice example of the dodecahedron in nature - and even in Nature:
 >
 > The article is in:
 >
-> 16\) Juan Martín Montejano-Carrizales, José Luis Rodríguez-López,
+> 16) Juan Martín Montejano-Carrizales, José Luis Rodríguez-López,
 > Umapada Pal, Mario Miki-Yoshida and Miguel José-Yacamán, The
 > completion of the Platonic atomic polyhedra: the dodecahedron, Small,
 > 2 (2006), 351-355.
@@ -706,11 +706,11 @@ Bruyn discovered that the ancient Scots did *not* carve stone balls to
 look like Platonic solids! The whole story is something between a hoax
 and a series of misunderstandings:
 
-17\) Lieven le Bruyn, The Scottish solids hoax, from his blog
+17) Lieven le Bruyn, The Scottish solids hoax, from his blog
 neverendingbooks, March 25, 2009,
 `http://www.neverendingbooks.org/index.php/the-scottish-solids-hoax.html`
 
-18\) John Baez, Who discovered the icosahedron?, talk at the Special
+18) John Baez, Who discovered the icosahedron?, talk at the Special
 Session on History and Philosophy of Mathematics, 2009 Fall Western
 Section Meeting of the AMS, November 7, 2009. Available at
 `http://math.ucr.edu/home/baez/icosahedron/`

@@ -37,7 +37,7 @@ order for tear gas.
 
 While in Hong Kong, I received a copy of a very interesting book:
 
-1\) David Corfield, Towards a Philosophy of Real Mathematics, Cambridge
+1) David Corfield, Towards a Philosophy of Real Mathematics, Cambridge
 U. Press, Cambridge, 2003. More information and part of the book's
 introduction available at
 `http://www-users.york.ac.uk/~dc23/Towards.htm`
@@ -291,16 +291,16 @@ asymptotics of the 10j symbols are well understood, and they're *not*
 given by the stationary phase approximation. If you want to see the
 details, read these papers:
 
-2\) John C. Baez, J. Daniel Christensen and Greg Egan, Asymptotics of
+2) John C. Baez, J. Daniel Christensen and Greg Egan, Asymptotics of
 10j symbols, Class. Quant. Grav. 19 (2002) 6489-6513. Also available as
 [gr-qc/0208010](http://xxx.lanl.gov/abs/gr-qc/0208010).
 
-3\) John W. Barrett and Christopher M. Steele, Asymptotics of
+3) John W. Barrett and Christopher M. Steele, Asymptotics of
 relativistic spin networks, Class. Quant. Grav. 20 (2003) 1341-1362.
 Also available as
 [gr-qc/0209023](http://xxx.lanl.gov/abs/gr-qc/0209023).
 
-4\) Laurent Freidel and David Louapre, Asymptotics of 6j and 10j
+4) Laurent Freidel and David Louapre, Asymptotics of 6j and 10j
 symbols, Class. Quant. Grav. 20 (2003) 1267-1294. Also available as
 [hep-th/0209134](http://xxx.lanl.gov/abs/hep-th/0209134).
 
@@ -318,7 +318,7 @@ regular polytope in 4 dimensions called the "24-cell". The most
 important fact is that these are all the same thing! And I've learned a
 bit more about this thing from here:
 
-5\) Robert Coquereaux, On the finite dimensional quantum group H = M_3
+5) Robert Coquereaux, On the finite dimensional quantum group H = M_3
 + (M~2|1~(Λ^2))~0~, available as
 [hep-th/9610114](http://xxx.lanl.gov/abs/hep-th/9610114) and at
 `http://www.cpt.univ-mrs.fr/~coque/articles_html/SU2qba/SU2qba.html`
@@ -387,7 +387,7 @@ Martin Krieger writes:
 You can now find Krieger's translation of this letter online, as long
 as you register with the American Mathematical Society (it's free):
 
-6\) Martin H. Krieger, A 1940 letter of Andre Weil on analogy in
+6) Martin H. Krieger, A 1940 letter of Andre Weil on analogy in
 mathematics, AMS Notices 52 (March 2005), 334-341. Available at
 `http://www.ams.org/notices/200503/200503-toc.html`
 

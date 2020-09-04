@@ -4,7 +4,7 @@ Sorry for the long pause! I've been busy writing. For example: a gentle
 introduction to category theory, focusing on its role as a "Rosetta
 Stone" that helps us translate between four languages:
 
-1\) John Baez and Mike Stay, Physics, topology, logic and computation: a
+1) John Baez and Mike Stay, Physics, topology, logic and computation: a
 Rosetta Stone, to appear in New Structures in Physics, ed. Bob Coecke.
 Available at `http://math.ucr.edu/home/baez/rosetta.pdf`
 
@@ -42,7 +42,7 @@ First, though... here's the nebula of the week!\
 ![](hourglass_nebula.jpg)
 :::
 
-2\) Hubble finds an hourglass nebula around a dying star,
+2) Hubble finds an hourglass nebula around a dying star,
 `http://hubblesite.org/newscenter/archive/releases/nebula/planetary/1996/07/`
 
 It looks like the eye of Sauron in Tolkien's *Lord of the Rings*
@@ -67,14 +67,14 @@ located exactly at the center. It's a bit to the left! This paper,
 written by the folks who took the photograph, argues that it has an
 unseen companion:
 
-3\) Raghvendra Sahai et al, The Etched Hourglass Nebula MyCn 18. I:
+3) Raghvendra Sahai et al, The Etched Hourglass Nebula MyCn 18. I:
 Hubble space telescope observations, The Astronomical Journal 118
 (1999), 468-476. Also available at
 `http://www.iop.org/EJ/article/1538-3881/118/1/468/990080.text.html`
 
 This paper tackles the difficult problem of modelling the nebula:
 
-4\) Raghvendra Sahai et al, The Etched Hourglass Nebula MyCn 18. II: A
+4) Raghvendra Sahai et al, The Etched Hourglass Nebula MyCn 18. II: A
 spatio-kinematic model, The Astronomical Journal 110 (2000), 315-322.
 Also available at
 `http://www.iop.org/EJ/article/1538-3881/119/1/315/990248.text.html`
@@ -114,7 +114,7 @@ as it winds twice in the other direction:
 [![](http://www.popmath.org.uk/sculpmath/imagesm/tortef2j.gif)](http://www.popmath.org.uk/sculpmath/pagesm/torus2.html)
 :::
 
-5\) Center for the Popularisation of Mathematics, Torus knots,
+5) Center for the Popularisation of Mathematics, Torus knots,
 `http://www.popmath.org.uk/sculpmath/pagesm/torus2.html`
 
 Mathematically, the surface of a doughnut is called a "torus". We can
@@ -220,7 +220,7 @@ it contains strong hints of Galois theory.
 
 You can see all these methods here:
 
-6\) Wikipedia, Cubic function,
+6) Wikipedia, Cubic function,
 `http://en.wikipedia.org/wiki/Cubic_equation`.
 
 So, I won't say more about solving the cubic now. Instead, I want to
@@ -566,7 +566,7 @@ This relation between higher-dimensional knots and singularities was
 investigated by Milnor, not just for the A~n~ series of Coxeter diagrams
 but more generally:
 
-7\) John W. Milnor, Singular Points of Complex Hypersurfaces, Princeton
+7) John W. Milnor, Singular Points of Complex Hypersurfaces, Princeton
 U. Press, 1969.
 
 The other Coxeter diagrams give generalizations of braid groups called
@@ -577,7 +577,7 @@ the generators (reflections) square to 1.
 If you like braid groups and Dynkin diagrams, Artin-Brieskorn groups are
 irresistible! For a fun modern account, try:
 
-8\) Daniel Allcock, Braid pictures for Artin groups, available as
+8) Daniel Allcock, Braid pictures for Artin groups, available as
 [`arXiv:math.GT/9907194`](http://arxiv.org/abs/math.GT/9907194).
 
 But I'm digressing! I must return and finish my ode to the number 3. I
@@ -605,7 +605,7 @@ a torus that's a branched double cover of a sphere, ponder this:
 ![](quincuncial_tiled.jpg)
 :::
 
-9\) Carlos Furuti, Peirce's quincuncial map,
+9) Carlos Furuti, Peirce's quincuncial map,
 `http://www.progonos.com/furuti/MapProj/Normal/ProjConf/projConf.html`
 
 This square map of the Earth is an unwrapped torus; each point of the
@@ -718,12 +718,12 @@ Modular forms for Γ(2) are particularly nice. A good example is the
 *cross-ratio*, much beloved in complex analysis. If you want to learn
 more about this stuff, try:
 
-10\) Igor V. Dolgachev, Lectures on modular forms, Fall 1997/8,
+10) Igor V. Dolgachev, Lectures on modular forms, Fall 1997/8,
 available at `http://www.math.lsa.umich.edu/~idolga/modular.pdf`
 
 especially chapter 9 for level 2 modular forms. Also:
 
-11\) Henry McKean and Victor Moll, Elliptic Curves: Function Theory,
+11) Henry McKean and Victor Moll, Elliptic Curves: Function Theory,
 Geometry, Arithmetic, Cambridge U. Press, 1999.
 
 especially chapter 4.

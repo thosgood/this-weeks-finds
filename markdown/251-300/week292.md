@@ -144,7 +144,7 @@ and so on. You'll see some 3-ports soon!
 
 Bond graphs were invented by Henry Paynter. You can read his story here:
 
-1\) Henry M. Paynter, The gestation and birth of bond graphs,
+1) Henry M. Paynter, The gestation and birth of bond graphs,
 `http://www.me.utexas.edu/~longoria/paynter/hmp/Bondgraphs.html`
 
 It reminds me slightly of Hamilton's story about inventing quaternions
@@ -287,26 +287,26 @@ Addenda.)
 
 Paynter's book on bond graphs came out in 1961:
 
-2\) Henry M. Paynter, Analysis and Design of Engineering Systems, MIT
+2) Henry M. Paynter, Analysis and Design of Engineering Systems, MIT
 Press, Cambridge, Massachusetts, 1961.
 
 About a decade later, bond graphs were taken up by many others authors,
 notably Jean Thoma:
 
-3\) Jean U. Thoma, Introduction to Bond Graphs and Their Applications,
+3) Jean U. Thoma, Introduction to Bond Graphs and Their Applications,
 Pergamon Press, Oxford, 1975.
 
 By now there is a vast literature on bond graphs. This website is a bit
 broken, but you can use it to get a huge bibliography:
 
-4\) Bondgraph.info, Journal articles,
+4) Bondgraph.info, Journal articles,
 `http://www.bondgraph.info/journal.html`\
 Books, `http://www.bondgraph.info/books.html`
 
 I've listed some of my favorite books in previous Weeks. But if you
 want an online introduction to bond graphs, start here:
 
-5\) Wikipedia, Bond graph, `http://en.wikipedia.org/wiki/Bond_graph`
+5) Wikipedia, Bond graph, `http://en.wikipedia.org/wiki/Bond_graph`
 
 It covers a topic I haven't even mentioned, the "causal stroke". And
 it gives some examples of how to convert bond graphs into differential
@@ -317,7 +317,7 @@ I'll probably work on it myself a bit.
 
 Then, watch some of these:
 
-6\) Soumitro Banerjee, Dynamics of physical systems, lectures on
+6) Soumitro Banerjee, Dynamics of physical systems, lectures on
 YouTube. Lectures 13-19: The bond graph approach. Available at
 `http://www.youtube.com/view_play_list?p=D074EEC1EBEFAEA5`
 
@@ -557,7 +557,7 @@ references!
 
 This book is quite good:
 
-7\) Brian D. O. Anderson and Sumeth Vongpanitlerd, Network Analysis and
+7) Brian D. O. Anderson and Sumeth Vongpanitlerd, Network Analysis and
 Synthesis: A Modern Systems Theory Approach, Dover Publications,
 Mineola, New York, 2006.
 
@@ -568,10 +568,10 @@ Real Lemma, the Bounded Real Lemma, and more.
 Speaking of Norton's and Thvenin's theorems, these articles demystify
 those:
 
-8\) Wikipedia, Norton's theorem,
+8) Wikipedia, Norton's theorem,
 `http://en.wikipedia.org/wiki/Norton%27s_theorem`
 
-9\) Wikipedia, Thvenin's theorem,
+9) Wikipedia, Thvenin's theorem,
 `http://en.wikipedia.org/wiki/Th%C3%A9venin%27s_theorem`
 
 These articles cover only circuits with one input and one output which
@@ -582,7 +582,7 @@ apply to circuits with as many inputs and outputs as you like.
 
 This book of classic papers is also good:
 
-10\) M. E. van Valkenburg, ed., Circuit Theory: Foundations and
+10) M. E. van Valkenburg, ed., Circuit Theory: Foundations and
 Classical Contributions, Dowden, Hutchington and Ross, Stroudsburg,
 Pennsylvania, 1974.
 

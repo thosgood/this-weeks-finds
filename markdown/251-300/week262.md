@@ -26,7 +26,7 @@ First another planetary nebula - the "Southern Ring Nebula":
 [![](NGC3132.jpg){width="500"}](http://heritage.stsci.edu/1998/39/big.html)
 :::
 
-1\) Hubble Heritage Project, Planetary Nebula NGC 3132,
+1) Hubble Heritage Project, Planetary Nebula NGC 3132,
 `http://heritage.stsci.edu/1998/39/index.html`
 
 This bubble of hot gas is .4 light years in diameter. You can see *two*
@@ -43,7 +43,7 @@ home, here's a new shot of the frosty dunes of Mars:
 [![](mars_barchans_1.jpg){width="600"}](http://hirise-pds.lpl.arizona.edu/PDS/EXTRAS/RDR/PSP/ORB_007000_007099/PSP_007043_2650/PSP_007043_2650_RGB.NOMAP.browse.jpg)
 :::
 
-2\) HiRISE (High Resolution Imaging Science Experiment), Defrosting
+2) HiRISE (High Resolution Imaging Science Experiment), Defrosting
 polar sand dunes, `http://hirise.lpl.arizona.edu/PSP_007043_2650`
 
 These horn-shaped dunes are called "barchans"; you can read more about
@@ -55,7 +55,7 @@ another photo, taken in February:
 [![](mars_barchans_2.jpg){width="600"}](http://hirise-pds.lpl.arizona.edu/PDS/EXTRAS/RDR/PSP/ORB_007100_007199/PSP_007193_2640/PSP_007193_2640_RGB.NOMAP.browse.jpg)
 :::
 
-3\) HiRISE (High Resolution Imaging Science Experiment), Defrosting
+3) HiRISE (High Resolution Imaging Science Experiment), Defrosting
 northern dunes, `http://hirise.lpl.arizona.edu/PSP_007193_2640`
 
 The dark stuff pouring down the steep slopes reminds me of water, but
@@ -68,7 +68,7 @@ Meanwhile, down here on Earth, I had some good conversations with
 mathematicians and physicists at the National University of Singapore
 (NUS), and also with Artur Ekert and Valerio Scarani, who work here:
 
-4\) Centre for Quantum Technologies, `http://www.quantumlah.org/`
+4) Centre for Quantum Technologies, `http://www.quantumlah.org/`
 
 I like the name "quantumlah". "Lah" is perhaps the most famous word
 in Singlish: you put it at the end of a sentence for emphasis, to convey
@@ -91,14 +91,14 @@ cryptography. He also mentioned "atom chips", which use tiny wires
 embedded in a silicon chip to trap and manipulate cold atoms on the
 chip's surface:
 
-5\) Atomchip Group, `http://www.atomchip.org/`
+5) Atomchip Group, `http://www.atomchip.org/`
 
-6\) Atom Optics Group, Laboratoire Charles Fabry, Atom-chip experiment,
+6) Atom Optics Group, Laboratoire Charles Fabry, Atom-chip experiment,
 `http://atomoptic.iota.u-psud.fr/research/chip/chip.html`
 
 There's also a nanotech group at NUS:
 
-7\) Nanoscience and Nanotechnology Initiative, National University of
+7) Nanoscience and Nanotechnology Initiative, National University of
 Singapore, `http://www.nusnni.nus.edu.sg/`
 
 who are doing cool stuff with "graphene" - hexagonal sheets of carbon
@@ -119,7 +119,7 @@ Unfortunately the difference in conductivity between the "on" and
 "off" states is less for graphene. This makes it harder to work with.
 People think they can solve this problem, though:
 
-8\) Kevin Bullis, Graphene transistors, Technology Review, January 28,
+8) Kevin Bullis, Graphene transistors, Technology Review, January 28,
 2008, `http://www.technologyreview.com/Nanotech/20119/`
 
 Duncan Graham-Rowe, Better graphene transistors, Technology Review,
@@ -139,7 +139,7 @@ form a cubical structure, like this:
 [![](diamond-conventional-unit-cell.gif)](http://newton.ex.ac.uk/research/qsystems/people/sque/diamond/structure/)
 :::
 
-9\) Steve Sque, Structure of diamond,
+9) Steve Sque, Structure of diamond,
 `http://newton.ex.ac.uk/research/qsystems/people/sque/diamond/structure/`
 
 Here you see 4 tetrahedra of carbon atoms inside a cube. Note that
@@ -171,7 +171,7 @@ surround a vacancy. Many other combinations are also possible - and when
 we get enough of these nitrogen-vacancy combinations around, they form
 larger structures called "platelets".
 
-10\) R. Jones and J. P. Goss, Theory of aggregation of nitrogen in
+10) R. Jones and J. P. Goss, Theory of aggregation of nitrogen in
 diamond, in Properties, Growth and Application of Diamond, eds. Maria
 Helena Nazare and A. J. Neves, EMIS Datareviews Series, 2001, 127-130.
 
@@ -183,7 +183,7 @@ microseconds before losing coherence, even at room temperature. If we
 could couple them to each other in interesting ways, maybe we could do
 some "spintronics", or even quantum computation:
 
-11\) Sankar das Sarma, Spintronics, American Scientist 89 (2001),
+11) Sankar das Sarma, Spintronics, American Scientist 89 (2001),
 516-523. Also available at
 `http://www.physics.umd.edu/cmtc/earlier_papers/AmSci.pdf`
 
@@ -194,16 +194,16 @@ spins" - their spin doesn't interact much with light. But this can
 also makes them harder to manipulate. So, it may be easier to use
 nitrogen-vacancy centers. People are busy studying the options:
 
-12\) R. J. Epstein, F. M. Mendoza, Y. K. Kato and D. D. Awschalom,
+12) R. J. Epstein, F. M. Mendoza, Y. K. Kato and D. D. Awschalom,
 Anisotropic interactions of a single spin and dark-spin spectroscopy in
 diamond, Nature Physics 1 (2005), 94-98. Also available as
 [`arXiv:cond-mat/0507706`](http://arxiv.org/abs/cond-mat/0507706).
 
-13\) Ph. Tamarat et al, The excited state structure of the
+13) Ph. Tamarat et al, The excited state structure of the
 nitrogen-vacancy center in diamond, available as
 [`arXiv:cond-mat/0610357`](http://arxiv.org/abs/cond-mat/0610357).
 
-14\) R. Hanson, O. Gywat and D. D. Awschalom, Room-temperature
+14) R. Hanson, O. Gywat and D. D. Awschalom, Room-temperature
 manipulation and decoherence of a single spin in diamond, Phys. Rev. B74
 (2006) 161203. Also available as
 [`arXiv:quant-ph/0608233`](http://arxiv.org/abs/quant-ph/0608233)
@@ -251,7 +251,7 @@ As you probably noticed, Garrett Lisi stirred up quite a media sensation
 with his attempt to pack all known forces and particles into a theory
 based on the exceptional Lie group E~8~:
 
-15\) Garrett Lisi, An exceptionally simple theory of everything,
+15) Garrett Lisi, An exceptionally simple theory of everything,
 available as [`arXiv:0711.0770`](http://arxiv.org/abs/0711.0770)
 
 Part of his idea was to use Kostant's triality-based description of
@@ -259,7 +259,7 @@ E~8~ to explain the three generations of leptons - see
 ["Week 253"](#week253) for more. Unfortunately this part of the
 idea doesn't work, for purely group-theoretical reasons:
 
-16\) Jacques Distler, A little group theory,
+16) Jacques Distler, A little group theory,
 `http://golem.ph.utexas.edu/~distler/blog/archives/001505.html`\
 A little more group theory,
 `http://golem.ph.utexas.edu/~distler/blog/archives/001532.html`
@@ -276,7 +276,7 @@ everything based on E~8~.
 
 He recently gave a talk here at UCR:
 
-17\) Bertram Kostant, On some mathematics in Garrett Lisi's "E~8~
+17) Bertram Kostant, On some mathematics in Garrett Lisi's "E~8~
 theory of everything", February 12, 2008, UCR. Video and lecture notes
 at `http://math.ucr.edu/home/baez/kostant/`
 
@@ -299,7 +299,7 @@ nobody has exhibited it as the symmetry group of anything more
 comprehensible than E~8~ itself. This paper sheds some new light this
 puzzle:
 
-17\) José Miguel Figueroa-O'Farrill, A geometric construction of the
+17) José Miguel Figueroa-O'Farrill, A geometric construction of the
 exceptional Lie algebras F_4 and E~8~, available as
 [`arXiv:0706.2829`](http://arxiv.org/abs/0706.2829).
 
@@ -433,7 +433,7 @@ that S~10~ is a complex representation, and the su(2) showing up from
 the fact that S~12~^+^ is a quaternionic representation. The algebra is
 explained here:
 
-18\) John Baez, The octonions, section 4.3: the magic square, available
+18) John Baez, The octonions, section 4.3: the magic square, available
 at `http://math.ucr.edu/home/baez/octonions/node16.html`
 
 A geometrical interepretation would be nice!
@@ -443,7 +443,7 @@ on categorifying quantum groups, and their work is starting to really
 take off. I'm just beginning to read his new papers, but I can't
 resist bringing them to your attention:
 
-19\) Aaron Lauda, A categorification of quantum sl(2), available as
+19) Aaron Lauda, A categorification of quantum sl(2), available as
 [`arXiv:0803.3652`](http://arxiv.org/abs/0803.3652).
 
 Aaron Lauda, Categorified quantum sl(2) and equivariant cohomology of
@@ -491,7 +491,7 @@ José Figueroa-O'Farrill sent an email saying:
 > now and I've been busy with other projects of a less 'recreational'
 > nature.) In
 >
-> 20\) José Figueroa-O'Farrill, A geometrical construction of
+> 20) José Figueroa-O'Farrill, A geometrical construction of
 > exceptional Lie algebras, talk at Leeds, February 13, 2008, available
 > at `http://www.maths.ed.ac.uk/~jmf/CV/Seminars/Leeds.pdf`
 >
@@ -526,7 +526,7 @@ José Figueroa-O'Farrill sent an email saying:
 > I gave a triangular seminar in London about this topic and you can
 > find slides here:
 >
-> 21\) José Figueroa-O'Farrill, Killing superalgebras in supergravity,
+> 21) José Figueroa-O'Farrill, Killing superalgebras in supergravity,
 > talk at University of London, February 27, 2008, available at
 > `http://www.maths.ed.ac.uk/~jmf/CV/Seminars/KSA.pdf`
 >
@@ -552,7 +552,7 @@ picture somehow:
 >
 > See:
 >
-> 22\) T. Fischbacher, H. Nicolai and H. Samtleben, Non-semisimple and
+> 22) T. Fischbacher, H. Nicolai and H. Samtleben, Non-semisimple and
 > complex gaugings of N = 16 supergravity, available as
 > [`arXiv:hep-th/0306276`](http://arxiv.org/abs/hep-th/0306276%22).
 

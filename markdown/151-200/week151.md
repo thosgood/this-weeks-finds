@@ -7,7 +7,7 @@ more about the physics lurking in the space K(Z,2).
 
 But first, here's a cool article on violins:
 
-1\) Colin Gough, Science and the Stradivarius, Physics World, vol. 13
+1) Colin Gough, Science and the Stradivarius, Physics World, vol. 13
 no. 4, April 2000, 27-33.
 
 Before reading this, I never knew how a string on a violin vibrates!
@@ -70,7 +70,7 @@ of course. The vibrating string excites the bridge which excites the
 sound box, and *that* produces most of the sound we hear. For more
 information try these:
 
-2\) A. H. Benade, Fundamentals of Musical Acoustics, Oxford University
+2) A. H. Benade, Fundamentals of Musical Acoustics, Oxford University
 Press, Oxford, 1976.
 
 L. Cremer, The Physics of the Violin, MIT Press, Cambridge,
@@ -105,11 +105,11 @@ Even better, two G-bundles that we get this way are isomorphic if and
 only if the maps they come from are homotopic! So there is a one-to-one
 correspondence between:
 
-A\) isomorphism classes of principal G-bundles over X
+A) isomorphism classes of principal G-bundles over X
 
 and
 
-B\) homotopy classes of maps from X to BG.
+B) homotopy classes of maps from X to BG.
 
 Now, suppose G is an *abelian* topological group. Then BG is better than
 a topological space with basepoint. It's an abelian topological group!
@@ -326,7 +326,7 @@ of some abelian group A. Then we'd get K(A,n)!
 
 For more tricks like this, try this paper:
 
-3\) Dusa McDuff, Configuration spaces of positive and negative
+3) Dusa McDuff, Configuration spaces of positive and negative
 particles, Topology 14 (1975), 91-107.
 
 Now let me mention a different picture of K(Z,2), that's also nice, and
@@ -354,7 +354,7 @@ homotopy theory.
 Anyway, some people in Australia have figured out an extra trick you can
 do with this PU(H) group:
 
-4\) Alan L. Carey, Diarmuid Crowley and Michael K. Murray, Principal
+4) Alan L. Carey, Diarmuid Crowley and Michael K. Murray, Principal
 bundles and the Dixmier-Douady class, Comm. Math. Physics 193 (1998)
 171-196, preprint available as
 [hep-th/9702147](http://xxx.lanl.gov/abs/hep-th/9702147).
@@ -415,7 +415,7 @@ not quite a manifold, but good enough to do geometry on. I'm not sure
 how this relates to Thom's work... but anyway, I should read this
 stuff:
 
-5\) Pawel Gajer, Geometry of Deligne cohomology, Invent. Math. 127
+5) Pawel Gajer, Geometry of Deligne cohomology, Invent. Math. 127
 (1997), 155-207, also available as
 [alg-geom/9601025](http://xxx.lanl.gov/abs/alg-geom/9601025).
 
@@ -434,7 +434,7 @@ classifying space for a certain sort of gerbe!
 I sort of explained how this works in ["Week 25"](#week25), but you
 can read the details here:
 
-6\) Jean-Luc Brylinski, Loop Spaces, Characteristic Classes and
+6) Jean-Luc Brylinski, Loop Spaces, Characteristic Classes and
 Geometric Quantization, Birkhauser, Boston, 1993.
 
 What this means is that as we explore the meaning of these K(Z,n)'s for
@@ -445,12 +445,12 @@ and so on. But I don't think people have worked out the details beyond
 the case of 2-gerbes. If you want to learn about 2-gerbes, you have to
 read this:
 
-7\) Lawrence Breen, On the Classification of 2-Gerbes and 2-Stacks,
+7) Lawrence Breen, On the Classification of 2-Gerbes and 2-Stacks,
 Asterisque 225, 1994.
 
 Finally, for more applications to physics, try these papers:
 
-8\) Alan L. Carey and Michael K. Murray, Faddeev's anomaly and bundle
+8) Alan L. Carey and Michael K. Murray, Faddeev's anomaly and bundle
 gerbes, Lett. Math. Phys. 37 (1996), 29-36.
 
 Jouko Mickelsson, Gerbes and Hamiltonian quantization of chiral

@@ -29,7 +29,7 @@ So, nobody ever heard him announce the Erlangen program. And, until
 recently, the lecture he wrote was a bit hard to find. Luckily, now you
 can get it online:
 
-1\) Felix Klein, Vergleichende Betrachtungen ueber neuere geometrische
+1) Felix Klein, Vergleichende Betrachtungen ueber neuere geometrische
 Forschungen, Verlag von Andreas Deichert, Erlangen, 1872. Also available
 at the University of Michigan Historical Mathematics Collection,
 `http://www.hti.umich.edu/cgi/t/text/text-idx?c=umhistmath;idno=ABN7632`
@@ -37,13 +37,13 @@ at the University of Michigan Historical Mathematics Collection,
 Even better, Johan Ernst Mebius has recently prepared an HTML version,
 with links to the above version:
 
-2\) Johan Ernst Mebius, Felix Klein's Erlanger Programm,
+2) Johan Ernst Mebius, Felix Klein's Erlanger Programm,
 `http://www.xs4all.nl/~jemebius/ErlangerProgramm.htm`
 
 But what if you have the misfortune of only reading English, not German?
 Until now the only translation was quite hard to obtain:
 
-3\) Felix Klein, A comparative review of recent researches in geometry,
+3) Felix Klein, A comparative review of recent researches in geometry,
 trans. M. W. Haskell, Bull. New York Math. Soc. 2, (1892-1893), 215-249.
 
 In case you're wondering, the "New York Mathematical Society" no
@@ -57,11 +57,11 @@ Lukas-Fabian Moser created a DjVu file. Then Nitin C. Rughoonauth took
 the marvelous step of putting it into LaTeX! So now, you can read
 Klein's paper in English here:
 
-4\) The Erlangen program, `http://math.ucr.edu/home/baez/erlangen/`
+4) The Erlangen program, `http://math.ucr.edu/home/baez/erlangen/`
 
 English-speakers can read more about the Erlangen program here:
 
-5\) Felix Klein, Elementary Mathematics from an Advanced Standpoint:
+5) Felix Klein, Elementary Mathematics from an Advanced Standpoint:
 Geometry, part 3: Systematic discussion of geometry and its foundations,
 Dover, New York, 1939.
 
@@ -69,24 +69,24 @@ Luckily Dover keeps its books in print!
 
 For more on the Erlangen program, try these:
 
-6\) Garrett Birkhoff and M. K. Bennett, Felix Klein and his "Erlanger
+6) Garrett Birkhoff and M. K. Bennett, Felix Klein and his "Erlanger
 Programm", in History and Philosophy of Modern Mathematics, eds. W.
 Aspray and P. Kitcher, Minnesota Stud. Philos. Sci. XI, University of
 Minnesota Press, Minneapolis, 1988, pp. 145-176.
 
-7\) Hans A. Kastrup, The contributions of Emmy Noether, Felix Klein and
+7) Hans A. Kastrup, The contributions of Emmy Noether, Felix Klein and
 Sophus Lie to the modern concept of symmetries in physical systems, in
 Symmetries in Physics (1600-1980), ed. M. G. Doncel, World Scientific,
 Singapore, 1987, pp. 113-163.
 
-8\) I. M. Yaglom, Felix Klein and Sophus Lie: Evolution of the Idea of
+8) I. M. Yaglom, Felix Klein and Sophus Lie: Evolution of the Idea of
 Symmetry in the Nineteenth Century, trans. S. Sossinsky, Birkhauser,
 Boston, 1988.
 
 For more about Klein, try ["Week 213"](#week213) and this little
 biography:
 
-9\) MacTutor History of Mathematics Archive, Felix Klein,
+9) MacTutor History of Mathematics Archive, Felix Klein,
 `http://www-history.mcs.st-andrews.ac.uk/Biographies/Klein.html`
 
 But what does the Erlangen program actually amount to, in the language

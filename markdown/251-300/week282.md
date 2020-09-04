@@ -22,7 +22,7 @@ some detailed photos:
 [![](mercury_lava_floods.jpg){width="400"}](http://messenger.jhuapl.edu/gallery/sciencePhotos/image.php?gallery_id=2&image_id=355)
 :::
 
-1\) Messenger, Image gallery,
+1) Messenger, Image gallery,
 `http://messenger.jhuapl.edu/gallery/sciencePhotos/`
 
 Superficially Mercury looks like the Moon, and thus not very exciting.
@@ -41,7 +41,7 @@ Orange hues just inside the basin's rim are features thought to be
 volcanic.
 :::
 
-2\) NASA, New discoveries at Mercury, August 3, 2008.
+2) NASA, New discoveries at Mercury, August 3, 2008.
 `http://science.nasa.gov/headlines/y2008/03jul_mercuryupdate.htm`
 
 Fourth, Mercury is the densest planet, with the highest percentage of
@@ -65,7 +65,7 @@ lot about this when it flew past Mercury on October 6th, 2008:
 [![](mercury_magnetic_field.jpg)](http://www.nasa.gov/mission_pages/messenger/multimedia/magnetic_tornadoes.html)
 :::
 
-3\) NASA, Magnetic tornadoes could liberate Mercury's tenuous
+3) NASA, Magnetic tornadoes could liberate Mercury's tenuous
 atmosphere,
 `http://www.nasa.gov/mission_pages/messenger/multimedia/magnetic_tornadoes.html`
 
@@ -77,7 +77,7 @@ solar wind penetrate the magnetopause and rain down on Mercury's north
 and south poles. Similar flux transfer events happen here on Earth about
 every 8 minutes:
 
-4\) NASA, Magnetic portals connect Sun and Earth, October 30, 2008.
+4) NASA, Magnetic portals connect Sun and Earth, October 30, 2008.
 `http://science.nasa.gov/headlines/y2008/30oct_ftes.htm?list179029`
 
 The physics is complex and just starting to be understood: the basic
@@ -89,7 +89,7 @@ develop. In particular, there's been a lot of recent work on
 cross-link and accelerate plasma in a "magnetic slingshot". Here's a
 great article on that subject:
 
-5\) James L. Burch and James F. Drake, Reconnecting magnetic fields,
+5) James L. Burch and James F. Drake, Reconnecting magnetic fields,
 American Scientist 97 (2009), 392-399. Also available at
 `http://mms.space.swri.edu/AmSci-Reconnection.pdf`
 
@@ -804,7 +804,7 @@ that lie in I^k^/I^k+1^:
 If you're a true expert on combinatories, you'll instantly recognize
 these as "Stirling numbers of the first kind":
 
-6\) Wikipedia, Stirling numbers of the first kind,
+6) Wikipedia, Stirling numbers of the first kind,
 `http://en.wikipedia.org/wiki/Stirling_numbers_of_the_first_kind`
 
 But even if you're like me, you'll still see some nice patterns!
@@ -1061,7 +1061,7 @@ I also didn't talk about the relation between the Lie operad and the
 homology of the poset of partitions of a finite set, described at the
 beginning of this paper:
 
-7\) Benoit Fresse, Koszul duality of operads and homology of partition
+7) Benoit Fresse, Koszul duality of operads and homology of partition
 posets, in Homotopy Theory: Relations with Algebraic Geometry, Group
 Cohomology, and Algebraic K-theory, eds. Paul Gregory Goerss and Stewart
 Priddy, Contemp. Math 346, 2004, AMS, Providence, Rhode Island, pp.
@@ -1070,7 +1070,7 @@ Priddy, Contemp. Math 346, 2004, AMS, Providence, Rhode Island, pp.
 
 and first discovered by Joyal:
 
-8\) André Joyal, Foncteurs analytiques et especes de structures, in
+8) André Joyal, Foncteurs analytiques et especes de structures, in
 Combinatoire Enumerative, Springer Lecture Notes in Mathematics 1234,
 Springer, Berlin (1986), 126-159.
 
@@ -1081,7 +1081,7 @@ about k > 1. The story I'm discussing now concerns the case k = 1,
 because the algebra Assoc is the homology of the little 1-cubes operad.
 For higher k, I especially recommend this paper:
 
-9\) Dev Sinha, The homology of the little disks operad, available as
+9) Dev Sinha, The homology of the little disks operad, available as
 [`arXiv:math/0610236`](http://arxiv.org/abs/math/0610236).
 
 Finally, here are three side remarks that would have been too
@@ -1104,7 +1104,7 @@ about "cherry trees" in their work on operads. Unfortunately, the
 proverb "one rotten apple spoils the whole barrel" requires apples!
 For more, see this nice historical survey:
 
-10\) James Stasheff, Grafting Boardman's cherry trees to quantum field
+10) James Stasheff, Grafting Boardman's cherry trees to quantum field
 theory, in Homotopy Invariant Algebraic Structures: A Conference in
 Honor of J. Michael Boardman, eds. Jean-Pierre Meyer, Jack Morava, and
 W. Stephen Wilson, AMS, Providence, Rhode Island, 1999. Also available

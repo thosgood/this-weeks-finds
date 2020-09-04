@@ -332,7 +332,7 @@ So, how does one start learning this stuff?
 If you have a certain amount of patience for old-fashioned terminology,
 I might recommend going back to the classic text on classical groups:
 
-1\) Hermann Weyl, The Classical Groups, Their Invariants and
+1) Hermann Weyl, The Classical Groups, Their Invariants and
 Representations, Princeton U. Press, Princeton, 1997.
 
 Weyl coined the term "classical groups" for the purposes of this book,
@@ -342,7 +342,7 @@ you, this book is not the way to learn Young diagrams in a hurry.
 For a user-friendly approach that's aimed at physicists, but still
 includes proofs of all the key results, you can't beat this:
 
-2\) Irene Verona Schensted, A Course on the Applications of Group Theory
+2) Irene Verona Schensted, A Course on the Applications of Group Theory
 to Quantum Mechanics, NEO Press, Box 32, Peaks Island, Maine.
 
 A girlfriend of mine gave me a copy when I was a college student, but
@@ -352,7 +352,7 @@ it's out of print! Someone should reprint this gem.
 Here's another book that covers Young diagrams together with
 applications to physics:
 
-3\) Shlomo Sternberg, Group Theory and Physics, Cambridge U. Press,
+3) Shlomo Sternberg, Group Theory and Physics, Cambridge U. Press,
 Cambridge, 1994.
 
 Both these books, but especially the latter, describe applications of
@@ -364,24 +364,24 @@ Then there are more advanced texts, for when your addiction to Young
 diagrams becomes more serious. For the combinatorial side of things,
 these are good:
 
-4\) Gordon Douglas James and Adalbert Kerber, The Representation Theory
+4) Gordon Douglas James and Adalbert Kerber, The Representation Theory
 of the Symmetric Group, Addison-Wesley, Reading, Massachusetts, 1981.
 
-5\) Bruce Eli Sagan, The Symmetric Group: Representations, Combinatorial
+5) Bruce Eli Sagan, The Symmetric Group: Representations, Combinatorial
 Algorithms, and Symmetric Functions, Wadsworth and Brooks, Pacific
 Grove, California, 1191.
 
 For a more conceptual approach to representation theory that puts Young
 diagrams in a bigger context, try this:
 
-6\) Roe Goodman and Nolan R. Wallach, Representations and Invariants of
+6) Roe Goodman and Nolan R. Wallach, Representations and Invariants of
 the Classical Groups, Cambridge University Press, Cambridge, 1998.
 
 It's sort of an updated version of Weyl's book. Finally, here's a
 mathematically sophisticated book that really gives you a Young diagram
 workout:
 
-7\) William Fulton, Young Tableaux: With Applications to Representation
+7) William Fulton, Young Tableaux: With Applications to Representation
 Theory and Geometry, Cambridge U. Press, Cambridge, 1997.
 
 Now, my friend Allen Knutson is a real Young diagram fiend. Together
@@ -392,21 +392,21 @@ nasty email saying that I didn't actually say anything *interesting*
 about Young diagrams. In an attempt to pacify him, I'll direct you to
 Fulton's excellent review article on this subject:
 
-8\) William Fulton, Eigenvalues, invariant factors, highest weights, and
+8) William Fulton, Eigenvalues, invariant factors, highest weights, and
 Schubert calculus, Bull. Amer. Math. Soc. 37 (2000), 209-249, also
 available as [math.AG/9908012](http://arXiv.org/abs/math.AG/9908012).
 
 as well as Allen and Terry's papers on the subject:
 
-9\) Allen Knutson and Terence Tao, The honeycomb model of GL(n) tensor
+9) Allen Knutson and Terence Tao, The honeycomb model of GL(n) tensor
 products I: the saturation conjecture, preprint available as
 [math.RT/9807160](http://arXiv.org/abs/math.RT/9807160)
 
-10\) Allen Knutson, The symplectic and algebraic geometry of Horn's
+10) Allen Knutson, The symplectic and algebraic geometry of Horn's
 problem, preprint available as
 [math.LA/9911088](http://arXiv.org/abs/math.LA/9911088).
 
-11\) Allen Knutson and Terence Tao, Honeycombs and sums of Hermitian
+11) Allen Knutson and Terence Tao, Honeycombs and sums of Hermitian
 matrices, preprint available as
 [math.RT/0009048](http://arXiv.org/abs/math.RT/0009048)
 

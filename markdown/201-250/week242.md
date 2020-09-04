@@ -33,7 +33,7 @@ the Cassini orbiter in October last year:
 [![](dione_ring.jpg){width="500"}](dione_ring.jpg)
 :::
 
-1\) NASA, Ringside with Dione,
+1) NASA, Ringside with Dione,
 `http://solarsystem.nasa.gov/multimedia/display.cfm?IM_ID=4163`
 
 It's so vivid it seems like a composite fake, but it's not! With the
@@ -49,7 +49,7 @@ November 2004:
 [![](mimas_ring.jpg){width="500"}](mimas_ring_big.jpg)
 :::
 
-2\) NASA, Nature's canvas,
+2) NASA, Nature's canvas,
 `http://saturn.jpl.nasa.gov/multimedia/images/image-details.cfm?imageID=1088`
 
 It's gorgeous, but it takes some work to figure out what's going on!
@@ -66,7 +66,7 @@ that Cassini dropped onto Saturn's moon Titan - see
 ["Week 210"](#week210) for more on that. You can see more of these
 photos here:
 
-3\) NASA, Cassini-Huygens, `http://saturn.jpl.nasa.gov/`
+3) NASA, Cassini-Huygens, `http://saturn.jpl.nasa.gov/`
 
 I hope you see from these beautiful images, and others on This Week's
 Finds, that we are *already in space*. We don't need people up there
@@ -129,7 +129,7 @@ technologies kick in. But for now, unmanned probes are the way to go.
 Here are some of the wonderful things we could do, all for less than
 setting up a Moon base:
 
-4\) The Laser Interferometer Space Antenna (LISA),
+4) The Laser Interferometer Space Antenna (LISA),
 [http://saturn.jpl.nasa.gov/](http://lisa.jpl.nasa.gov/)
 
 The idea of LISA is to put 3 satellites in a huge equilateral triangle
@@ -152,7 +152,7 @@ pangs of the Universe.
 Right now LISA is scheduled for launch around 2016. But as you'll soon
 see, this may not happen.
 
-5\) Constellation-X,
+5) Constellation-X,
 [http://constellation.gsfc.nasa.gov](http://constellation.gsfc.nasa.gov/)
 
 This would be a team of X-ray telescopes, combining forces to be 100
@@ -171,13 +171,13 @@ LISA, Constellation-X, the Joint Dark Energy Mission, the Inflation
 Probe and the Black Hole Finder. Currently the Joint Dark Energy Mission
 seems to be in the lead:
 
-6\) Steinn Sigurðsson, NASA: double down on science, Dynamics of Cats,
+6) Steinn Sigurðsson, NASA: double down on science, Dynamics of Cats,
 September 16, 2006,
 `http://scienceblogs.com/catdynamics/2006/09/nasa_double_down_on_science.php`
 
 A decision is expected around September 2007.
 
-7\) The Terrestrial Planet Finder (TPF),
+7) The Terrestrial Planet Finder (TPF),
 `http://planetquest.jpl.nasa.gov/TPF/`
 
 This could study Earth-like planets orbiting stars up to 45 light years
@@ -205,14 +205,14 @@ mission to Jupiter's moon Europa, which could have oceans underneath
 its icy crust. However, at last report, NASA was continuing to fight
 *against* reinstating these missions:
 
-8\) Louis D. Friedman, Congressional inaction leaves science still
+8) Louis D. Friedman, Congressional inaction leaves science still
 devastated, The Planetary Society, November 26, 2006,
 `http://planetary.org/programs/projects/sos/20061122.html`
 
 The constantly shifting situation makes it hard to know what's going
 on.
 
-9\) The Nuclear Spectroscopic Telescope Array (NuStar),
+9) The Nuclear Spectroscopic Telescope Array (NuStar),
 `http://www.nustar.caltech.edu/`
 
 This is an orbiting observatory with three telescopes, designed to see
@@ -223,7 +223,7 @@ And, it could study young supernova remnants - hot new neutron stars.
 
 NASA suddenly canceled work on NuStar in February 2006.
 
-10\) Dawn, `http://dawn.jpl.nasa.gov/`
+10) Dawn, `http://dawn.jpl.nasa.gov/`
 
 The Dawn mission seeks to understand the early Solar System by probing
 the asteroid belt and taking a good look at Ceres and Vesta.
@@ -253,7 +253,7 @@ To cheer myself up again, here's a picture of the Sun:
 [![](sun_neutrinos.jpg){width="400"}](http://cosmicvariance.com/2006/10/13/sun-shots/)
 :::
 
-11\) Joanne Hewett, Sun Shots,
+11) Joanne Hewett, Sun Shots,
 `http://cosmicvariance.com/2006/10/13/sun-shots/`
 
 It was taken not with light, but with *neutrinos*. It was made at the
@@ -283,7 +283,7 @@ And what's the glare?
 
 Okay, now for some serious mathematical physics:
 
-12\) Jeffrey Morton, A double bicategory of cobordisms with corners,
+12) Jeffrey Morton, A double bicategory of cobordisms with corners,
 available as
 [math.CT/0611930v1](http://arXiv.org/abs/math.CT/0611930v1).
 
@@ -565,7 +565,7 @@ Dominic Verity had already introduced the right concept of weak double
 category - a gadget with both squares and bigons - in *his* Ph.D. thesis
 a while back:
 
-13\) Dominic Verity, Enriched categories, internal categories, and
+13) Dominic Verity, Enriched categories, internal categories, and
 change of base, Ph.D. dissertation, University of Cambridge, 1992.
 
 Interestingly, if you weaken *only* the laws for vertical composition,
@@ -573,7 +573,7 @@ you don't need to introduce bigons. The resulting concept of
 "horizontally weak double category" has been studied by Grandis and
 Pare:
 
-14\) Marco Grandis and Bob Paré, Limits in double categories, Cah. Top.
+14) Marco Grandis and Bob Paré, Limits in double categories, Cah. Top.
 Geom. Diff. Cat. 40 (1999), 162-220. Also available at
 `http://www.dima.unige.it/~grandis/Dbl.Cahiers.pdf`
 
@@ -583,12 +583,12 @@ Geom. Diff. Cat. 45 (2004), 193-240. Also available at
 
 and more recently by Martin Hyland's student Richard Garner:
 
-15\) Richard Garner, Double clubs, available as
+15) Richard Garner, Double clubs, available as
 [math.CT/0606733](http://xxx.lanl.gov/abs/math.CT/0606733)
 
 and Tom Fiore:
 
-16\) Thomas M. Fiore, Pseudo algebras and pseudo double categories,
+16) Thomas M. Fiore, Pseudo algebras and pseudo double categories,
 available as
 [math.CT./0608760](http://xxx.lanl.gov/abs/math.CT/0608760).
 

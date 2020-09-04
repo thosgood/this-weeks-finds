@@ -2,7 +2,7 @@
 
 I'm at this workshop now, and I want to talk about it:
 
-1\) Workshop on Categorical Groups, June 16-20, 2008, Universitat de
+1) Workshop on Categorical Groups, June 16-20, 2008, Universitat de
 Barcelona, organized by Pilar Carrasco, Josep Elgueta, Joachim Kock and
 Antonio Rodríguez Garzón,
 `http://mat.uab.cat/~kock/crm/hocat/cat-groups/`
@@ -16,7 +16,7 @@ Here's a picture of Jupiter's moon Io:
 ![](io.jpg)
 :::
 
-1\) Io in True Color, Astronomy Picture of the Day,
+1) Io in True Color, Astronomy Picture of the Day,
 `http://antwrp.gsfc.nasa.gov/apod/ap040502.html`
 
 It's yellow! - a world covered with sulfur spewed from volcanos,
@@ -30,7 +30,7 @@ wondering what we actually know about Pythagoras or the mathematical
 vegetarian cult he supposedly launched. Tim Silverman pointed me to a
 scholarly book on the subject:
 
-2\) Walter Burkert, Lore and Science in Ancient Pythagoreanism, Harvard
+2) Walter Burkert, Lore and Science in Ancient Pythagoreanism, Harvard
 U. Press, Cambridge, Massachusetts, 1972.
 
 It turns out we know very little about Pythagoras: a few grains of solid
@@ -67,7 +67,7 @@ attributed to him. As Burkert explains:
 
 There's a new book out on Pythagoras:
 
-3\) Kitty Ferguson, The Music of Pythagoras: How an Ancient Brotherhood
+3) Kitty Ferguson, The Music of Pythagoras: How an Ancient Brotherhood
 Cracked the Code of the Universe and Lit the Path from Antiquity to
 Outer Space, Walker and Company, 2008.
 
@@ -84,7 +84,7 @@ know a bit more - but not much.
 It's much easier to learn about the Renaissance "neo-Pythagoreans".
 This book is a lot of fun, though too romantic to be truly scholarly:
 
-4\) S. K. Heninger, Jr., Touches of Sweet Harmony: Pythagorean Cosmology
+4) S. K. Heninger, Jr., Touches of Sweet Harmony: Pythagorean Cosmology
 and Renaissance Poetics, The Huntington Library, San Marino, California,
 1974.
 
@@ -180,12 +180,12 @@ By the way, if you don't know about musical intervals like "fourths"
 and "fifths", don't feel bad. I won't explain them now, but you can
 learn about them and hear them here:
 
-5\) Brian Capleton, Musical intervals,
+5) Brian Capleton, Musical intervals,
 `http://www.amarilli.co.uk/music/intervs.htm`
 
 and then practice recognizing them:
 
-6\) Ricci Adams, Interval ear trainer,
+6) Ricci Adams, Interval ear trainer,
 `http://www.musictheory.net/trainers/html/id90_en.html`
 
 If you nose around Capleton's website, you'll see he's quite a
@@ -287,10 +287,10 @@ third, sixth and seventh differ:
 
 Here you can learn more about Pythagorean tuning, and hear it in action:
 
-7\) Margo Schulter, Pythagorean tuning and medieval polyphony,
+7) Margo Schulter, Pythagorean tuning and medieval polyphony,
 `http://www.medieval.org/emfaq/harmony/pyth.html`
 
-8\) Reginald Bain, A Pythagorean tuning of the diatonic scale,
+8) Reginald Bain, A Pythagorean tuning of the diatonic scale,
 `http://www.music.sc.edu/fs/bain/atmi02/pst/index.html`
 
 There's also a murky relation between Pythagorean tuning and something
@@ -355,7 +355,7 @@ mainly give links, instead of explaining stuff in detail.
 
 On Monday, I kicked off the proceedings with this talk:
 
-9\) John Baez, Classifying spaces for topological 2-groups,
+9) John Baez, Classifying spaces for topological 2-groups,
 `http://math.ucr.edu/home/baez/barcelona/`
 
 Just as we can try to classify principal bundles over some space with
@@ -369,7 +369,7 @@ similar result holds for topological 2-groups!
 Indeed, Baas Bkstedt and Kro did something much more general for
 topological *2-categories*:
 
-10\) Nils Baas, Marcel Bkstedt and Tore Kro, 2-Categorical K-theories,
+10) Nils Baas, Marcel Bkstedt and Tore Kro, 2-Categorical K-theories,
 available as
 [`arXiv:math/0612549`](http://arXiv.org/abs/arXiv:math/0612549).
 
@@ -379,7 +379,7 @@ morphisms and 2-morphisms invertible. But the 2-group case is worthy of
 some special extra attention, so Danny Stevenson studied that with a
 little help from me:
 
-11\) John Baez and Danny Stevenson, The classifying space of a
+11) John Baez and Danny Stevenson, The classifying space of a
 topological 2-group, available as
 [arXiv/0801.3843](http://arxiv.org/abs/0801.3843)
 
@@ -387,15 +387,15 @@ and that's what I talked about. If you're also interested in
 classifying spaces of 2-categories that aren't topological, just
 "discrete", you should try these:
 
-12\) John Duskin, Simplicial matrices and the nerves of weak
+12) John Duskin, Simplicial matrices and the nerves of weak
 n-categories I: nerves of bicategories, available at
 `http://www.tac.mta.ca/tac/volumes/9/n10/9-10abs.html`
 
-13\) Manuel Bullejos and A. Cegarra, On the geometry of 2-categories and
+13) Manuel Bullejos and A. Cegarra, On the geometry of 2-categories and
 their classifying spaces, available at
 `http://www.ugr.es/%7Ebullejos/geometryampl.pdf`
 
-14\) Manuel Bullejos, Emilio Faro and Victor Blanco, A full and faithful
+14) Manuel Bullejos, Emilio Faro and Victor Blanco, A full and faithful
 nerve for 2-categories, Applied Categorical Structures 13 (2005),
 223-233. Also available as
 [`arXiv:math/0406615`](http://arXiv.org/abs/arXiv:math/0406615).
@@ -405,7 +405,7 @@ understand representations and "2-representations" of ordinary finite
 groups. You can see his talk here, and also a version which has less
 material, explained in a more elementary way:
 
-15\) Bruce Bartlett, The geometry of unitary 2-representations of finite
+15) Bruce Bartlett, The geometry of unitary 2-representations of finite
 groups and their 2-characters, talk at the Categorical Groups workshop
 in Barcelona, June 16, 2008, available at
 `http://brucebartlett.postgrad.shef.ac.uk/research/Barcelona.pdf`
@@ -416,7 +416,7 @@ at the Max Kelly Conference, Cape Town, 2008, available at
 
 Both talks are based on this paper:
 
-16\) Bruce Bartlett, The geometry of unitary 2-representations of finite
+16) Bruce Bartlett, The geometry of unitary 2-representations of finite
 groups and their 2-characters, draft available at
 `http://brucebartlett.postgrad.shef.ac.uk/research/Max%20Kelly%20Proceedings.pdf`
 
@@ -452,10 +452,10 @@ direction he could go is to replace G by a finite 2-group. Then he'd
 make contact with the categorified Dijkgraaf-Witten TQFT studied in
 these papers:
 
-17\) David Yetter, TQFT's from homotopy 2-types, Journal of Knot Theory
+17) David Yetter, TQFT's from homotopy 2-types, Journal of Knot Theory
 and its Ramifications 2 (1993), 113-123.
 
-18\) Timothy Porter and Vladimir Turaev, Formal homotopy quantum field
+18) Timothy Porter and Vladimir Turaev, Formal homotopy quantum field
 theories, I: Formal maps and crossed C-algebras, available as
 [`arXiv:math/0512032`](http://arXiv.org/abs/arXiv:math/0512032).
 
@@ -465,7 +465,7 @@ and Mathematical Physics, eds. A. Davydov et al, Contemp. Math 431, AMS,
 Providence Rhode Island, 2007, 375-403. Also available as
 [`arXiv:math/0512034`](http://arXiv.org/abs/arXiv:math/0512034).
 
-19\) Joo Faria Martins and Timothy Porter, On Yetter's invariant and an
+19) Joo Faria Martins and Timothy Porter, On Yetter's invariant and an
 extension of the Dijkgraaf-Witten invariant to categorical groups,
 avilable as
 [`arXiv:math/0608484`](http://arXiv.org/abs/arXiv:math/0608484).
@@ -489,7 +489,7 @@ Luckily, that's just what Derek Wise spoke about on Wednesday morning!
 His talk also included some pictures with intriguing relations to the
 pictures in Bruce's talk. You can see the slides here:
 
-19\) Derek Wise, Representations of 2-groups on higher Hilbert spaces,
+19) Derek Wise, Representations of 2-groups on higher Hilbert spaces,
 [http://math.ucdavis.edu/\~derek/talks/barcelona2008.pdf](http://math.ucdavis.edu/~derek/talks/barcelona2008.pdf%0A)
 
 They make a nice introduction to a paper he's writing with Aristide
@@ -594,11 +594,11 @@ cokernel to say what's going on. We also need the "pip" and
 The concepts of exact sequence and chain complex get subtler, too. You
 can read about these things here:
 
-20\) Aurora del Ro, Martnez-Moreno and Enrico Vitale, Chain complexes of
+20) Aurora del Ro, Martnez-Moreno and Enrico Vitale, Chain complexes of
 symmetric categorical groups, JPAA 196 (2005), 279-312. Also available
 at `http://www.math.ucl.ac.be/membres/vitale/SCG-compl3.pdf`
 
-21\) Pilar Carrasco, Antonio Garzón and Enrico Vitale, On categorical
+21) Pilar Carrasco, Antonio Garzón and Enrico Vitale, On categorical
 crossed modules, TAC 16 (2006), 85-618, available as
 `http://tac.mta.ca/tac/volumes/16/22/16-22abs.html`
 
@@ -608,7 +608,7 @@ a definition of "2-abelian 2-category", obtained by generalizing
 properties of the 2-category of symmetric 2-groups. I believe this is
 discussed here:
 
-22\) Mathieu Dupont: Catégories abéliennes en dimension 2, Ph.D. Thesis,
+22) Mathieu Dupont: Catégories abéliennes en dimension 2, Ph.D. Thesis,
 Université Catholique de Louvain, 2008. Available in English as
 [`arXiv:0809.1760`](http://arxiv.org/abs/0809.1760). Original available at
 `http://hdl.handle.net/2078.1/12735`
@@ -620,7 +620,7 @@ All this stuff gets even more elaborate as we move to $n$-groups for
 higher n. To some extent this is the subject of homotopy theory, but one
 also wants a more explicitly algebraic approach. See for example:
 
-23\) Giuseppe Metere: The ziqqurath of exact sequences of $n$-groupoids,
+23) Giuseppe Metere: The ziqqurath of exact sequences of $n$-groupoids,
 Ph.D. Thesis, Universit di Milano, 2008. Also available at
 [`arXiv:0802.0800`](http://arxiv.org/abs/math/0802.0800).
 
@@ -634,7 +634,7 @@ David Roberts prepared an excellent talk about the fundamental 2-group
 of a space for this workshop. Unfortunately, he was unable to come.
 Luckily, you can still see his talk:
 
-24\) David Roberts, Fundamental 2-groups and 2-covering spaces,
+24) David Roberts, Fundamental 2-groups and 2-covering spaces,
 `http://golem.ph.utexas.edu/category/2008/06/fundamental_2groups_and_2cover.html`
 
 The basic principle of Galois theory says that covering spaces of a
@@ -682,24 +682,24 @@ studied them...
 The slides for Aurora's talk are - as for many of the talks - available
 from the workshop's website:
 
-25\) Aurora del Río, Algebraic K-theory for categorical groups,
+25) Aurora del Río, Algebraic K-theory for categorical groups,
 `http://mat.uab.cat/~kock/crm/hocat/cat-groups/slides/delRio.pdf`
 
 See also the paper she and Antonio Garzón wrote on this topic:
 
-26\) Antonio Garzón and Aurora del Río, On algebraic K-theory
+26) Antonio Garzón and Aurora del Río, On algebraic K-theory
 categorical groups, `http://www.ugr.es/~agarzon/K-thCG.pdf`
 
 Also try these other papers:
 
-26\) Antonio Garzón and Aurora del Río, Low-dimensional cohomology of
+26) Antonio Garzón and Aurora del Río, Low-dimensional cohomology of
 categorical groups, Cahiers de Topologie et Géométrie Différentielle
 Catégoriques, 44 (2003), 247-280. Available at
 `http://www.numdam.org/numdam-bin/fitem?id=CTGDC_2003__44_4_247_0`
 
 This one gets into K-theory:
 
-27\) Antonio Garzón and Aurora del Río, The Whitehead categorical group
+27) Antonio Garzón and Aurora del Río, The Whitehead categorical group
 of derivations, Georgian Mathematical Journal 09 (2002), 709-721.
 Available at `http://www.heldermann.de/GMJ/GMJ09/GMJ094/gmj09053.htm`
 
@@ -710,19 +710,19 @@ talk on using diagrams called "butterflies" to efficiently describe
 weak homomorphisms between strict 2-groups (in the guise of crossed
 modules). Luckily Tim Porter summarized it at the *n*-Category Café:
 
-27\) Timothy Porter, Behrang Noohi on butterflies and weak morphisms
+27) Timothy Porter, Behrang Noohi on butterflies and weak morphisms
 between 2-groups, available at
 `http://golem.ph.utexas.edu/category/2008/06/behrang_noohi_on_butterflies_a.html`
 
 For more details, you can't beat the original paper:
 
-28\) Behrang Noohi, On weak maps between 2-groups, available as
+28) Behrang Noohi, On weak maps between 2-groups, available as
 [`arXiv:math/0506313`](http://arxiv.org/abs/math/0506313).
 
 Also at the *n*-Category Café, Bruce Bartlett discussed Tim Porter's
 talk at the categorical groups workshop:
 
-29\) Bruce Bartlett, Tim Porter on formal homotopy quantum field
+29) Bruce Bartlett, Tim Porter on formal homotopy quantum field
 theories and 2-groups, available at
 `http://golem.ph.utexas.edu/category/2008/06/tim_porter_on_formal_homotopy.html`
 
@@ -731,19 +731,19 @@ simplicial methods and crossed complexes, but Bartlett didn't summarize
 that, and no slides are available. So for that, you should get ahold of
 the following free book:
 
-30\) Timothy Porter, The Crossed Menagerie: an Introduction to Crossed
+30) Timothy Porter, The Crossed Menagerie: an Introduction to Crossed
 Gadgetry and Cohomology in Algebra and Topology, available at
 `http://www.informatics.bangor.ac.uk/~tporter/menagerie.pdf`
 
 and (harder) this review article highly recommended by Porter:
 
-31\) E. Curtis, Simplicial homotopy theory, Adv. Math. 6 (1971),
+31) E. Curtis, Simplicial homotopy theory, Adv. Math. 6 (1971),
 107-209.
 
 The second talk by Porter, the one Bartlett blogged about, can be found
 at the workshop's website:
 
-32\) Timothy Porter, Formal homotopy quantum field theories and
+32) Timothy Porter, Formal homotopy quantum field theories and
 2-groups, available at
 `http://mat.uab.cat/~kock/crm/hocat/cat-groups/slides/Porter.pdf`
 

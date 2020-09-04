@@ -3,7 +3,7 @@
 As you've probably heard, the Huygens probe has successfully landed on
 Saturn's moon Titan and is sending back pictures:
 
-1\) Huygens Probe Descent,
+1) Huygens Probe Descent,
 `http://saturn.jpl.nasa.gov/news/events/huygensDescent/index.cfm`
 
 Titan averages a chilly -180 degrees Celsius, and its smoggy orange
@@ -42,7 +42,7 @@ So, it's a strange new world.
 Back here on Earth, there was a conference in December in honor of Larry
 Breen's 60th birthday:
 
-2\) Arithmetic, Geometry and Topology: Conference on occasion of Larry
+2) Arithmetic, Geometry and Topology: Conference on occasion of Larry
 Breen's sixtieth birthday, `http://www-math.univ-paris13.fr/~lb2004/`
 
 It was in Paris. This was my first visit to that city, but luckily I got
@@ -133,7 +133,7 @@ between these two points.
 
 For more on torsors, try this:
 
-3\) John Baez, Torsors made easy,
+3) John Baez, Torsors made easy,
 `http://math.ucr.edu/home/baez/torsors.html`
 
 Anyway, the real idea behind electromagnetism is that sitting over each
@@ -341,24 +341,24 @@ ones I didn't already list in ["Week 71"](#week71) and
 First, for physicists, some work on the role of gerbes and 2-gerbes in
 string theory and M-theory:
 
-4\) Paolo Aschieri, Luigi Cantini and Branislav Jurco, Nonabelian bundle
+4) Paolo Aschieri, Luigi Cantini and Branislav Jurco, Nonabelian bundle
 gerbes, their differential geometry and gauge theory, available as
 [hep-th/0312154](http://xxx.lanl.gov/abs/hep-th/0312154).
 
-5\) Paolo Aschieri and Branislav Jurco, Gerbes, M5-brane anomalies and
+5) Paolo Aschieri and Branislav Jurco, Gerbes, M5-brane anomalies and
 E8 gauge theory, available as
 [hep-th/0409200](http://xxx.lanl.gov/abs/hep-th/0409200).
 
 Second, for mathematicians, some classic works by Breen:
 
-6\) Lawrence Breen, Bitorseurs et cohomologie non-abelienne, in The
+6) Lawrence Breen, Bitorseurs et cohomologie non-abelienne, in The
 Grothendieck Festschrift, eds. P. Cartier et al, Progress in Mathematics
 vol. 86, Birkhauser, Boston, 1990, pp. 401-476.
 
-7\) Lawrence Breen, Theorie de Schreier superieure, Ann. Sci. Ecole
+7) Lawrence Breen, Theorie de Schreier superieure, Ann. Sci. Ecole
 Norm. Sup. 25 (1992), 465-514.
 
-8\) Lawrence Breen, Classification of 2-stacks and 2-gerbes, Asterisque
+8) Lawrence Breen, Classification of 2-stacks and 2-gerbes, Asterisque
 225, Societe Mathematique de France, 1994.
 
 2-gerbes are what you get if you climb the hierarchy one more step. They
@@ -369,25 +369,25 @@ Aschieri and Jurco's paper for precisely that reason.
 Another key reference is Breen's paper with Messing about connections
 on nonabelian gerbes:
 
-9\) Lawrence Breen and William Messing, The differential geometry of
+9) Lawrence Breen and William Messing, The differential geometry of
 gerbes, available as
 [math.AG/0106083](http://www.arXiv.org/abs/math.AG/0106083).
 
 and Breen's lecture notes from the IMA workshop on higher categories:
 
-10\) Larry Breen, $n$-Stacks and $n$-gerbes: homotopy theory. Notes
+10) Larry Breen, $n$-Stacks and $n$-gerbes: homotopy theory. Notes
 available at `http://www.ima.umn.edu/categories/#thur`
 
 I've been working on this stuff myself lately, from a somewhat
 different viewpoint. So far I've written papers with Aaron Lauda and
 Alissa Crans about 2-groups and Lie 2-algebras:
 
-11\) John Baez and Aaron Lauda, Higher-dimensional algebra V: 2-groups,
+11) John Baez and Aaron Lauda, Higher-dimensional algebra V: 2-groups,
 Theory and Applications of Categories 12 (2004), 423-491. Available
 online at `http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html` or as
 [math.QA/0307200](http://www.arXiv.org/abs/math.QA/0307200).
 
-12\) John Baez and Alissa Crans, Higher-dimensional algebra VI: Lie
+12) John Baez and Alissa Crans, Higher-dimensional algebra VI: Lie
 2-algebras, Theory and Applications of Categories 12 (2004), 492-528.
 Available online at
 `http://www.tac.mta.ca/tac/volumes/12/15/12-15abs.html` or as
@@ -417,19 +417,19 @@ papers.
 In fact, one of the best places to learn about the differential geometry
 of abelian gerbes and 2-gerbes is Danny's thesis:
 
-13\) Danny Stevenson, The geometry of bundle gerbes, Ph.D. thesis,
+13) Danny Stevenson, The geometry of bundle gerbes, Ph.D. thesis,
 University of Adelaide, 2000. Available as
 [math.DG/0004117](http://www.arXiv.org/abs/math.DG/0004117).
 
 He's also written lots of other papers on gerbes, which you can find on
 the arXiv. Physicists may find these the most interesting:
 
-14\) Michael K. Murray and Danny Stevenson, Higgs fields, bundle gerbes
+14) Michael K. Murray and Danny Stevenson, Higgs fields, bundle gerbes
 and string structures, Comm. Math. Phys. 236 (2003), 541-555. Also
 available as
 [math.DG/0106179](http://www.arXiv.org/abs/math.DG/0106179).
 
-15\) Alan L. Carey, Stuart Johnson, Michael K. Murray, Danny Stevenson
+15) Alan L. Carey, Stuart Johnson, Michael K. Murray, Danny Stevenson
 and Bai-Ling Wang, Bundle gerbes for Chern-Simons and Wess-Zumino-Witten
 models, available as
 [math.DG/0410013](http://www.arXiv.org/abs/math.DG/0410013).
@@ -437,7 +437,7 @@ models, available as
 Toby is doing his thesis on categorified bundles, or "2-bundles", and
 you can already get a preview here:
 
-16\) Toby Bartels, Categorified gauge theory: 2-bundles, available as
+16) Toby Bartels, Categorified gauge theory: 2-bundles, available as
 [math.CT/0410328](http://www.arXiv.org/abs/math.CT/0410328).
 
 2-bundles are meant to be an alternative to gerbes: although I've done
@@ -455,27 +455,27 @@ As for 2-groups, various people have been studying their representations
 lately, and this should become an important part of higher gauge theory,
 just as group representations are crucial in gauge theory:
 
-17\) Magnus Forrester-Barker, Representations of crossed modules and
+17) Magnus Forrester-Barker, Representations of crossed modules and
 cat^1-groups, Ph.D. thesis, Department of Mathematics, University of
 Wales, Bangor, 2004. Available at
 `http://www.maths.bangor.ac.uk/research/ftp/theses/forrester-barker.pdf`
 
-18\) John Barrett and Marco Mackaay, Categorical representations of
+18) John Barrett and Marco Mackaay, Categorical representations of
 categorical groups, available as
 [math.CT/0407463](http://www.arXiv.org/abs/math.CT/0407463).
 
-19\) Josep Elgueta, Representation theory of 2-groups on finite
+19) Josep Elgueta, Representation theory of 2-groups on finite
 dimensional 2-vector spaces, available as
 [math.CT/0408120](http://www.arXiv.org/abs/math.CT/0408120).
 
-20\) Louis Crane and David Yetter, Measurable categories and 2-groups,
+20) Louis Crane and David Yetter, Measurable categories and 2-groups,
 available as
 [math.QA/0305176](http://www.arXiv.org/abs/math.QA/0305176).
 
-21\) David Yetter, Measurable categories, available as
+21) David Yetter, Measurable categories, available as
 [math.CT/0309185](http://www.arXiv.org/abs/math.CT/0309185).
 
-22\) Louis Crane and Marnie D. Sheppeard, 2-categorical Poincare
+22) Louis Crane and Marnie D. Sheppeard, 2-categorical Poincare
 representations and state sum applications, available as
 [math.QA/0306440](http://www.arXiv.org/abs/math.QA/0306440).
 
@@ -485,17 +485,17 @@ models, the first two papers here develop higher gauge theory on a
 discrete spacetime, and then compare it to higher gauge theory on a
 manifold:
 
-23\) Hendryk Pfeiffer, Higher gauge theory and a non-Abelian
+23) Hendryk Pfeiffer, Higher gauge theory and a non-Abelian
 generalization of 2-form electrodynamics, Annals Phys. 308 (2003),
 447-477. Also available as
 [hep-th/0304074](http://xxx.lanl.gov/abs/hep-th/0304074).
 
-24\) Florian Girelli and Hendryk Pfeiffer, Higher gauge theory -
+24) Florian Girelli and Hendryk Pfeiffer, Higher gauge theory -
 differential versus integral formulation, Jour. Math. Phys. 45 (2004),
 3949-3971. Also available as
 [hep-th/0309173](http://xxx.lanl.gov/abs/hep-th/0309173).
 
-25\) Hendryk Pfeiffer, 2-groups, trialgebras and their Hopf categories
+25) Hendryk Pfeiffer, 2-groups, trialgebras and their Hopf categories
 of representations, available as
 [math.QA/0411468](http://www.arXiv.org/abs/math.QA/0411468).
 
@@ -525,6 +525,6 @@ Really cool stuff!
 By the way, here are some photos of Larry Breen's conference, and of
 Paris:
 
-26\) John Baez, Paris, `http://math.ucr.edu/home/baez/paris/`
+26) John Baez, Paris, `http://math.ucr.edu/home/baez/paris/`
 
 ------------------------------------------------------------------------

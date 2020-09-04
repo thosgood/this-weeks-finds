@@ -297,25 +297,25 @@ flag variety or the Coxeter complex and get something I call the
 
 We can define this polynomial in four equivalent ways:
 
-a\) the coefficient of q^i^ in this polynomial is the number of Coxeter
+a) the coefficient of q^i^ in this polynomial is the number of Coxeter
 group elements of length i. Here we "length" of any element in the
 Coxeter group is its length as a word when we write it as product of the
 generating reflections.
 
-b\) the coefficient of q^i^ in this polynomial is the number of
+b) the coefficient of q^i^ in this polynomial is the number of
 top-dimensional simplices of distance i from a chosen top-dimensional
 simplex in the Coxeter complex. Here we measure "distance" between
 top-dimensional simplices in the hopefully obvious way, based on how
 many walls you need to cross to get from one to the other.
 
-c\) the coefficient of q^i^ in this polynomial is the number of i-cells
+c) the coefficient of q^i^ in this polynomial is the number of i-cells
 in the Bruhat decomposition of the flag variety. Here the "Bruhat
 decomposition" is a standard way of writing the flag variety as a
 disjoint union of "i-cells", that is, copies of F^i^ where F is our
 field and i is a natural number. These i-cells are called either
 "Bruhat" or "Schubert" cells, depending on who you talk to.
 
-d\) the coefficient of q^i^ is the rank of the (2i)th homology group of
+d) the coefficient of q^i^ is the rank of the (2i)th homology group of
 the flag variety defined over the complex numbers. More precisely: this
 homology group is isomorphic to Z^k^ for some natural number k, called
 the "rank" of the homology group.
@@ -347,25 +347,25 @@ just as it should.
 We can distill all sorts of nice information from the q-polynomial. For
 example, starting from facts a) - d) we immediately get:
 
-e\) the degree of this polynomial is the maximum length of an element of
+e) the degree of this polynomial is the maximum length of an element of
 the Coxeter group. There is in fact a unique element with maximum
 length, called the "long word".
 
-f\) the degree of this polynomial is the dimension of the flag variety
+f) the degree of this polynomial is the dimension of the flag variety
 over any field.
 
 and also:
 
-g\) the value of this polynomial at q a prime power is the cardinality
+g) the value of this polynomial at q a prime power is the cardinality
 of the flag variety over the field F~q~.
 
-h\) the value of this polynomial at q = 1 is the number of elements in
+h) the value of this polynomial at q = 1 is the number of elements in
 the Coxeter group.
 
-i\) the value of this polynomial at q = 1 is the Euler characteristic of
+i) the value of this polynomial at q = 1 is the Euler characteristic of
 the flag variety over the complex numbers.
 
-j\) the value of this polynomial at q = -1 is the Euler characteristic
+j) the value of this polynomial at q = -1 is the Euler characteristic
 of the flag variety defined over the real numbers.
 
 We can summarize this network of relations in the following diagram:
@@ -425,12 +425,12 @@ To understand most of what I'm saying you mainly just need to
 understand the "Bruhat decomposition" of the flag variety. For a quick
 sketch of how this works over the complex numbers, try this book:
 
-1\) William Fulton and Joe Harris, Representation Theory - a First
+1) William Fulton and Joe Harris, Representation Theory - a First
 Course, Springer Verlag, Berlin, 1991.
 
 For a treatment of it over arbitrary fields, try:
 
-2\) Francois Digne and Jean Michel, Representations of Finite Groups of
+2) Francois Digne and Jean Michel, Representations of Finite Groups of
 Lie Type, London Mathematical Society Student Texts 21, Cambridge U.
 Press, Cambridge, 1991.
 
@@ -439,21 +439,21 @@ if you eventually study "buildings". This subject has a certain
 reputation for obscurity. One good place to start is this book written
 by someone who was himself trying to understand the subject:
 
-3\) Kenneth S. Brown, Buildings, Springer, Berlin, 1989.
+3) Kenneth S. Brown, Buildings, Springer, Berlin, 1989.
 
 Another is this:
 
-4\) Paul Garrett, Buildings and Classical Groups, Chapman & Hall,
+4) Paul Garrett, Buildings and Classical Groups, Chapman & Hall,
 London, 1997.
 
 For a lot more information about how finite simple groups show up as
 symmetries of buildings, try:
 
-5\) Antonio Pasini, Diagram Geometries, Oxford U. Press, Oxford, 1994.
+5) Antonio Pasini, Diagram Geometries, Oxford U. Press, Oxford, 1994.
 
 and for the original source, go to:
 
-6\) Jacques Tits, Buildings of Spherical Type and Finite BN-pairs,
+6) Jacques Tits, Buildings of Spherical Type and Finite BN-pairs,
 Springer Lecture Notes in Mathematics 386, Berlin, New York, 1974.
 
 Even better, come and sit in on Jim Dolan's seminar on the subject,

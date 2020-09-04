@@ -48,7 +48,7 @@ You may have trouble visualizing the hyperbolic plane tiled with regular
 heptagons, but if we distort it, it fits into a disk and looks really
 pretty! Here it is:
 
-1\) Don Hatch, Hyperbolic planar tesselations,
+1) Don Hatch, Hyperbolic planar tesselations,
 [http://www.hadron.org/\~hatch/HyperbolicTesselations/](http://www.hadron.org/~hatch/HyperbolicTesselations)
 
 \
@@ -73,7 +73,7 @@ use precisely 24 heptagons!
 Here's how we do it. Here's a picture of 24 heptagons, taken from an
 old paper by Klein and Fricke but prettied up a bit:
 
-2\) Tony Smith, Klein's quartic surface,
+2) Tony Smith, Klein's quartic surface,
 `http://www.valdostamuseum.org/hamsmith/cdomain.html#tesselations`
 
 \
@@ -192,7 +192,7 @@ curve.)
 You can read Klein's original article translated into English. It's
 available online as part of a whole *book* about his incredible quartic:
 
-3\) Silvio Levy, The Eightfold Way: the Beauty of Klein's Quartic
+3) Silvio Levy, The Eightfold Way: the Beauty of Klein's Quartic
 Curve, MSRI Research Publications 35, Cambridge U. Press, Cambridge
 1999. Also available as `http://www.msri.org/publications/books/Book35/`
 
@@ -283,7 +283,7 @@ By the way, this 168-element group is also known as PSL(3,Z/2) - the
 symmetry group of the "Fano plane". This is a name for the projective
 plane over Z/2. The Fano plane is closely related to the octonions:
 
-3\) John Baez, The Fano plane,
+3) John Baez, The Fano plane,
 `http://math.ucr.edu/home/baez/octonions/node4.html`
 
 \
@@ -295,10 +295,10 @@ plane over Z/2. The Fano plane is closely related to the octonions:
 So in fact, our 168-element group acts on the set of octonion
 multiplication tables:
 
-4\) Tony Smith, Octonion products,
+4) Tony Smith, Octonion products,
 `http://www.valdostamuseum.org/hamsmith/480op.html`
 
-5\) Geoffrey Dixon, Octonion multiplication tables,
+5) Geoffrey Dixon, Octonion multiplication tables,
 `http://www.7stones.com/Homepage/octotut0.html`
 
 And, as James Dolan just noted today, and Tony Smith seems to have known
@@ -320,7 +320,7 @@ So, something interesting is going on, and I want to know what it is!
 By the way, fans of the quaternions and octonions may like this review
 of Conway and Smith's book:
 
-6\) John Baez, review of "On Quaternions and Octonions: Their Geometry,
+6) John Baez, review of "On Quaternions and Octonions: Their Geometry,
 Arithmetic and Symmetry", by John H. Conway and Derek A. Smith, Bull.
 Amer. Math. Soc. 42 (2005), 229-243. Available at
 `http://www.ams.org/bull/2005-42-02/` and
@@ -344,7 +344,7 @@ MIT, and he has a strong fondness for exceptional Lie groups. When he
 saw this review of mine, he mentioned a couple of other papers that
 construct the 57-dimensional space on which E8 acts:
 
-7\) Ranee Brylinski and Bertram Kostant, Lagrangian models of minimal
+7) Ranee Brylinski and Bertram Kostant, Lagrangian models of minimal
 representations of E6, E7, and E8, in Functional Analysis on the Eve of
 the 21st Century, vol. 1, Progress in Math. 131, Birkhauser, Boston,
 1995, pp. 13-53.

@@ -13,7 +13,7 @@ Finds a bit too late. Oh well.
 
 I just saw this book in a local store, and it's *great*:
 
-1\) Robert Dinwiddie, Philip Eales, David Hughes, Ian Nicholson, Ian
+1) Robert Dinwiddie, Philip Eales, David Hughes, Ian Nicholson, Ian
 Ridpath, Giles Sparrow, Pam Spence, Carole Stott, Kevin Tildsley, and
 Martin Rees, Universe, DK Publishing, New York, 2005.
 
@@ -34,7 +34,7 @@ department... gotta keep the kids thinking big!
 You don't really need to buy a chart like this. You can just look at
 this website:
 
-2\) Richard Powell, An Atlas of the Universe,
+2) Richard Powell, An Atlas of the Universe,
 `http://www.anzwers.org/free/universe/`
 
 It has nine maps, starting with the stars within 12.5 light years and
@@ -67,7 +67,7 @@ This atlas is fun to browse when you're at your computer. But, if
 someone you know wants to contemplate the universe in a more relaxing
 way, try getting them one of these:
 
-3\) Bathsheba Grossman, Crystal model of a typical 100-megaparsec cube
+3) Bathsheba Grossman, Crystal model of a typical 100-megaparsec cube
 of the universe, `http://www.bathsheba.com/crystal/largescale/`
 
 Crystal model of the Milky Way,
@@ -94,7 +94,7 @@ spiral! You can see the bar in the middle here:
 [![](milky_way_bar.jpg)](http://www.spitzer.caltech.edu/Media/mediaimages/sig/sig05-010.shtml)
 :::
 
-4\) R. Hurt, NASA/JPL-Caltech, Milky Way Bar,
+4) R. Hurt, NASA/JPL-Caltech, Milky Way Bar,
 `http://www.spitzer.caltech.edu/Media/mediaimages/sig/sig05-010.shtml`
 
 If you really have money to burn, Grossman has also made nice sculptures
@@ -106,7 +106,7 @@ parts:
 [![](gyroid_hex.jpg)](http://www.bathsheba.com/math/gyroid/gyroid_hex.jpg)
 :::
 
-5\) Bathsheba Grossman, Mathematical models,
+5) Bathsheba Grossman, Mathematical models,
 `http://www.bathsheba.com/math/`
 
 However, the great thing about the web is that lots of beautiful stuff
@@ -134,7 +134,7 @@ get a "catenoid" by taking an infinitely long chain and letting it
 hang to form a curve called a "catenary"; then you use this curve to
 form a surface of revolution, which is the catenoid:
 
-6\) Eric Weisstein, Catenoid, from Mathworld,
+6) Eric Weisstein, Catenoid, from Mathworld,
 `http://mathworld.wolfram.com/Catenoid.html`
 
 In cylindrical coordinates the catenoid is given by the equation
@@ -151,22 +151,22 @@ z = c θ
 for some constant c. You can see a helicoid here - and see how it can
 continuously deform into a catenoid:
 
-7\) Eric Weisstein, Helicoid, from Mathworld,
+7) Eric Weisstein, Helicoid, from Mathworld,
 `http://mathworld.wolfram.com/Helicoid.html`
 
 In 1987 a fellow named Hoffman discovered a bunch more complete
 non-self-intersecting minimal surfaces with the help of a computer:
 
-8\) D. Hoffman, The computer-aided discovery of new embedded minimal
+8) D. Hoffman, The computer-aided discovery of new embedded minimal
 surfaces, Mathematical Intelligencer 9 (1987), 8-21.
 
 Since then people have gotten good at inventing minimal surfaces. You
 can see a bunch here:
 
-9\) GRAPE (Graphics Programming Environment), Surface overview,
+9) GRAPE (Graphics Programming Environment), Surface overview,
 `http://www-sfb256.iam.uni-bonn.de/grape/EXAMPLES/AMANDUS/bmandus.html`
 
-10\) GANG (Geometry Analysis Numerics Graphics), Gallery of minimal
+10) GANG (Geometry Analysis Numerics Graphics), Gallery of minimal
 surfaces, `http://www.gang.umass.edu/gallery/min/`
 
 As you can see, people who work on mininal surfaces like goofy acronyms.
@@ -211,12 +211,12 @@ Anyway....
 There are a lot of minimal surfaces that have periodic symmetry in 3
 directions, like a crystal lattice. You can learn about them here:
 
-11\) Elke Koch, 3-periodic minimal surfaces,
+11) Elke Koch, 3-periodic minimal surfaces,
 `http://staff-www.uni-marburg.de/~kochelke/minsurfs.htm`
 
 In fact, they have interesting relations to crystallography:
 
-12\) Elke Koch and Werner Fischer, Mathematical crystallography
+12) Elke Koch and Werner Fischer, Mathematical crystallography
 `http://www.staff.uni-marburg.de/~kochelke/mathcryst.htm#minsurf`
 
 I guess people can figure out which of the 230 crystal symmetry groups
@@ -230,12 +230,12 @@ surfaces. Schoen discovered it before the computer revolution kicked in.
 He was working for NASA, and his idea was to use it for building
 ultra-light, super-strong structures:
 
-13\) A. H. Schoen, Infinite periodic minimal surfaces without
+13) A. H. Schoen, Infinite periodic minimal surfaces without
 selfintersections, NASA Tech. Note No. D-5541, Washington, DC, 1970.
 
 You can learn more about the gyroid here:
 
-14\) Eric Weisstein, Gyroid, from Mathworld,
+14) Eric Weisstein, Gyroid, from Mathworld,
 `http://mathworld.wolfram.com/Gyroid.html`
 
 Apparently it's the only triply periodic non-self-intersecting minimal
@@ -246,7 +246,7 @@ I said that soap films weren't good at creating *complete* minimal
 surfaces. But actually, people have seen at least approximate gyroids in
 nature, made from soap-like films:
 
-15\) P. Garstecki and R. Holyst, Scattering patterns of self-assembled
+15) P. Garstecki and R. Holyst, Scattering patterns of self-assembled
 gyroid cubic phases in amphiphilic systems, J. Chem. Phys. 115 (2001),
 1095-1099.
 
@@ -262,12 +262,12 @@ hinted in his theory of "forms".
 People have fun simulating these "ternary amphiphilic fluids" on
 computers:
 
-16\) Nelido Gonzalez-Segredo and Peter V. Coveney, Coarsening dynamics
+16) Nelido Gonzalez-Segredo and Peter V. Coveney, Coarsening dynamics
 of ternary amphiphilic fluids and the self-assembly of the gyroid and
 sponge mesophases: lattice-Boltzmann simulations, available as
 [cond-mat/0311002](http://arxiv.org/abs/cond-mat/0311002).
 
-17\) Pittsburgh Supercomputing Center, Ketchup on the grid with
+17) Pittsburgh Supercomputing Center, Ketchup on the grid with
 joysticks, `http://www.psc.edu/science/2004/teragyroid/`
 
 The second site above describes the "TeraGyroid Project", in which

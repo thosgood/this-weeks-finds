@@ -59,13 +59,13 @@ Modulo some subtleties discussed below, the whole Lagrangian is built
 from just three ingredients, which are the three basic fields in the
 theory:
 
-A\) a Lorentzian metric g on the 11-dimensional manifold representing
+A) a Lorentzian metric g on the 11-dimensional manifold representing
 spacetime,
 
-B\) a field \psi on this manifold which takes values in the real spin-3/2
+B) a field \psi on this manifold which takes values in the real spin-3/2
 representation of SO(10,1),
 
-C\) a 3-form field A on this manifold.
+C) a 3-form field A on this manifold.
 
 Physicists call the metric the "graviton". They call the spin-3/2
 field the "gravitino" or a "Rarita-Schwinger field". And they call
@@ -268,7 +268,7 @@ Well, if you ask a physicist, they'll tell you something like this:
 In case you're wondering, this is from the first paragraph of this
 book:
 
-1\) The World in Eleven Dimensions: Supergravity, Supermembranes and
+1) The World in Eleven Dimensions: Supergravity, Supermembranes and
 M-theory, ed. M. J. Duff, Institute of Physics Publishing, Bristol,
 1999.
 
@@ -290,7 +290,7 @@ there's a paper by Witten in the above book that contains references to
 papers that supposedly explain why particles of spin > 2 are bad. It's
 an excellent paper, too:
 
-2\) Edward Witten, Search for a realistic Kaluza-Klein theory, Nucl.
+2) Edward Witten, Search for a realistic Kaluza-Klein theory, Nucl.
 Phys. B186 (1981), 412-428.
 
 Maybe someday I'll get up the nerve to read those references.
@@ -306,7 +306,7 @@ Fourth, if you're a mathematician wondering what "supersymmetry
 algebras" are, there are places where you can start learning about this
 without needing to know lots of physics:
 
-3\) Quantum Fields and Strings: A Course for Mathematicians, 2 volumes,
+3) Quantum Fields and Strings: A Course for Mathematicians, 2 volumes,
 eds. P. Deligne, P. Etinghof, D. Freed, L. Jeffrey, D. Kazhdan, D.
 Morrison and E. Witten, American Mathematical Society, Providence, Rhode
 Island, 1999.
@@ -318,7 +318,7 @@ sort of thing an algebraist should be able to understand, though I
 haven't yet understood it. You can find it in Duff's book, or in the
 original paper:
 
-4\) W. Nahm, Supersymmetries and their representations, Nucl. Phys. B135
+4) W. Nahm, Supersymmetries and their representations, Nucl. Phys. B135
 (1978), 149-166.
 
 Next I want to mention some wild guesses and speculations about 11d
@@ -378,27 +378,27 @@ dimensions transverse to the worldvolume of the brane in question. So
 This seems like a wonderful clue, but so far I don't really understand
 it. The evidence is lurking here:
 
-5\) T. Kugo and P. Townsend, Supersymmetry and the division algebras,
+5) T. Kugo and P. Townsend, Supersymmetry and the division algebras,
 Nucl. Phys. B221 (1983), 357-380.
 
-6\) G. Sierra, An application of the theories of Jordan algebras and
+6) G. Sierra, An application of the theories of Jordan algebras and
 Freudenthal triple systems to particles and strings, Class. Quant. Grav.
 4 (1987) 227.
 
-7\) J. M. Evans, Supersymmetric Yang-Mills theories and division
+7) J. M. Evans, Supersymmetric Yang-Mills theories and division
 algebras, Nucl. Phys. B298 (1988), 92.
 
-8\) M. J. Duff, Supermembranes: the first fifteen weeks, Class. Quant.
+8) M. J. Duff, Supermembranes: the first fifteen weeks, Class. Quant.
 Grav. 5 (1988), 189-205.
 
 There are also tantalizing clues scattered through these fascinating
 books:
 
-9\) Feza Gursey and Chia-Hsiung Tze, On the Role of Division, Jordan,
+9) Feza Gursey and Chia-Hsiung Tze, On the Role of Division, Jordan,
 and Related Algebras in Particle Physics, World Scientific, Singapore,
 1996.
 
-10\) Jaak Lohmus, Eugene Paal and Leo Sorgsepp, Nonassociative Algebras
+10) Jaak Lohmus, Eugene Paal and Leo Sorgsepp, Nonassociative Algebras
 in Physics, Hadronic Press, Palm Harbor, Florida, 1994.
 
 However, these books are frustrating to me, because they make some

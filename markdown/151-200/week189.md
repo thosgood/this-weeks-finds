@@ -5,7 +5,7 @@ rulers and clocks. There's a bunch of articles about time in the
 September issue of Scientific American, including a neat one about the
 latest progress in chronometry:
 
-1\) W. Wayt Gibbs, Ultimate clocks, Scientific American, September 2002,
+1) W. Wayt Gibbs, Ultimate clocks, Scientific American, September 2002,
 pp. 86-93.
 
 The most accurate clocks in common use are atomic clocks that make use
@@ -31,7 +31,7 @@ build a clock that uses the radiation emitted by just *one* atom.
 Diddams' group has already tested a clock that uses the light emitted
 by a single atom of mercury:
 
-2\) Scott A. Diddams et al, An optical clock based on a single trapped
+2) Scott A. Diddams et al, An optical clock based on a single trapped
 Hg-199+ ion, Science, 293 (August 3 2001), 825-828.
 
 However, the frequency of this transition is easily affected by magnetic
@@ -93,7 +93,7 @@ see between 1 and 1000 events per year.
 
 For a lot more information, including other things we might see, try:
 
-3\) Curt Cutler and Kip Thorne, An overview of gravitational-wave
+3) Curt Cutler and Kip Thorne, An overview of gravitational-wave
 sources, available as
 [gr-qc/0204090](http://xxx.lanl.gov/abs/gr-qc/0204090).
 
@@ -120,7 +120,7 @@ But how's it actually going?
 Well, on October 20th, 2000, the Hanford installation achieved "first
 lock":
 
-4\) First lock at LIGO Hanford Observatory,
+4) First lock at LIGO Hanford Observatory,
 `http://www.ligo.caltech.edu/LIGO_web/firstlock/`
 
 What this means is that the laser beams locked into phase for a little
@@ -137,7 +137,7 @@ devices that can compensate for this motion.
 On February 28th, 2001, a magnitude 6.8 earthquake hit Olympia,
 Washington. This threw the Hanford LIGO facility out of alignment:
 
-5\) Washington quake rattles Hanford Observatory,
+5) Washington quake rattles Hanford Observatory,
 `http://www.ligo.caltech.edu/LIGO_web/news/0228quake.html`
 
 To go inside and fix things, they needed to open a carefully evacuated
@@ -185,7 +185,7 @@ overheated and broke! Again, all this occurred in an evacuated chamber,
 which had to be vented. It took 2 months to fix everything and make sure
 it wouldn't happen again:
 
-6\) LIGO's first science run: a special report,
+6) LIGO's first science run: a special report,
 `http://www.ligo.caltech.edu/LIGO_web/0209news/0209s1r1.html`
 
 But by August 23, they were back in business! Both LIGO detectors ran in
@@ -202,13 +202,13 @@ folks are in this for the long haul...
 But meanwhile, going down all the way to the Planck scale, I'd like to
 talk about a shocking new development in loop quantum gravity:
 
-7\) Olaf Dreyer, Quasinormal modes, the area spectrum, and black hole
+7) Olaf Dreyer, Quasinormal modes, the area spectrum, and black hole
 entropy, [gr-qc/0211076](http://xxx.lanl.gov/abs/gr-qc/0211076).
 
 First for some historical background. In 1975, Hawking showed that black
 holes emit thermal radiation due to quantum effects:
 
-8\) Stephen Hawking, Particle creation by black holes, Commun. Math.
+8) Stephen Hawking, Particle creation by black holes, Commun. Math.
 Phys. 43 (1975), 199-220.
 
 Using this one can assign a temperature to a black hole, and then use
@@ -250,7 +250,7 @@ the fun. So did Alejandro Corichi, another student of Ashtekar.
 By 1997 we felt we were getting somewhere, and we came out with a short
 note outlining our approach:
 
-9\) Abhay Ashtekar, John Baez, Alejandro Corichi and Kirill Krasnov,
+9) Abhay Ashtekar, John Baez, Alejandro Corichi and Kirill Krasnov,
 Quantum geometry and black hole entropy, Phys. Rev. Lett. 80 (1998)
 904-907, also available at
 [gr-qc/9710007](http://xxx.lanl.gov/abs/gr-qc/9710007).
@@ -259,7 +259,7 @@ Filling in the details took about 3 more years, and was quite
 exhausting. We chopped the job into two parts, a classical part and a
 quantum part:
 
-10\) Abhay Ashtekar, Alejandro Corichi and Kirill Krasnov, Isolated
+10) Abhay Ashtekar, Alejandro Corichi and Kirill Krasnov, Isolated
 horizons: the classical phase space, Adv. Theor. Math. Phys. 3 (2000),
 418-471, available as
 [gr-qc/9905089](http://xxx.lanl.gov/abs/gr-qc/9905089).
@@ -503,20 +503,20 @@ Here are some references in case you want to calculate this number
 yourself, and either verify or kill this amazing idea. Nollert's
 original calculation appears in
 
-11\) Hans-Peter Nollert, Quasinormal modes of Schwarzschild black holes:
+11) Hans-Peter Nollert, Quasinormal modes of Schwarzschild black holes:
 the determination of quasinormal frequencies with very large imaginary
 parts, Phys. Rev. D47 (1993), 5253-5258.
 
 It was subsequently confirmed by Andersson:
 
-12\) Nils Andersson, On the asymptotic distribution of quasinormal-mode
+12) Nils Andersson, On the asymptotic distribution of quasinormal-mode
 frequencies for Schwarzschild black holes, Class. Quant. Grav. 10
 (1993), L61-L67.
 
 Technically the vibrational modes of a black hole are called
 "quasinormal modes". You can read more about them here:
 
-13\) Hans-Peter Nollert, Quasinormal modes: the characteristic \`sound'
+13) Hans-Peter Nollert, Quasinormal modes: the characteristic \`sound'
 of black holes and neutron stars, Class. Quant. Grav. 16 (1999),
 R159-R216.
 
@@ -527,13 +527,13 @@ available at [gr-qc/9909058](http://xxx.lanl.gov/abs/gr-qc/9909058).
 
 Hod's observation appears here:
 
-14\) Shahar Hod, Bohr's correspondence principle and the area spectrum
+14) Shahar Hod, Bohr's correspondence principle and the area spectrum
 of quantum black holes, Phys. Rev. Lett. 81 (1998), 4293, also available
 as [gr-qc/9812002](http://xxx.lanl.gov/abs/gr-qc/9812002).
 
 and was developed a bit further in:
 
-15\) Shahar Hod, Gravitation, the quantum, and Bohr's correspondence
+15) Shahar Hod, Gravitation, the quantum, and Bohr's correspondence
 principle, Gen. Rel. Grav. 31 (1999) 1639, also available as
 [gr-qc/0002002](http://xxx.lanl.gov/abs/gr-qc/0002002).
 
@@ -550,7 +550,7 @@ spaced, which disagrees with the results of loop quantum gravity. The
 idea of equally spaced area eigenvalues for a black hole was originally
 championed by Bekenstein and Mukhanov:
 
-16\) Jacob D. Bekenstein, Lett. Nuovo Cimento 11 (1974), 467.
+16) Jacob D. Bekenstein, Lett. Nuovo Cimento 11 (1974), 467.
 
 V. F. Mukhanov, Are black holes quantized?, JETP Lett. 44 (1986), 63-66.
 

@@ -3,7 +3,7 @@
 Time flies! This June, Peter May and I organized a workshop on
 n-categories at the Institute for Mathematics and its Applications:
 
-1\) $n$-Categories: Foundations and Applications,
+1) $n$-Categories: Foundations and Applications,
 `http://www.ima.umn.edu/categories/`
 
 I've been meaning to write about it ever since, but I keep putting it
@@ -21,7 +21,7 @@ want to learn what they're good for, you should go back to
 ["Week 73"](#week73) and read "The Tale of $n$-Categories". And if
 you want to know what they *are*, try this brand-new book:
 
-2\) Eugenia Cheng and Aaron Lauda, Higher-Dimensional Categories: an
+2) Eugenia Cheng and Aaron Lauda, Higher-Dimensional Categories: an
 Illustrated Guide Book, available free online at:
 `http://www.dpmms.cam.ac.uk/~elgc2/guidebook/`
 
@@ -34,7 +34,7 @@ Throwing etiquette to the winds, I kicked off the conference myself with
 two talks explaining some reasons why $n$-categories are interesting and
 what they should be like:
 
-3\) John Baez, Why $n$-Categories? and What $n$-categories should be like.
+3) John Baez, Why $n$-Categories? and What $n$-categories should be like.
 Notes available at `http://www.ima.umn.edu/categories/#mon`
 
 If you're a long-time reader of This Week's Finds you'll know what I
@@ -50,7 +50,7 @@ After my talks there was a reception. Later, over dinner, Tom Leinster
 gave a "Russian style seminar" outlining the different approaches to
 n-categories:
 
-4\) Tom Leinster, Survey and Taxonomy. Talk based on chapter 10 of his
+4) Tom Leinster, Survey and Taxonomy. Talk based on chapter 10 of his
 book Higher Operads, Higher Categories, Cambridge U. Press, Cambridge,
 2004, also available free online at
 [math.CT/0305049](http://www.arXiv.org/abs/math.CT/0305049).
@@ -65,7 +65,7 @@ which the attention received from colleagues crystallizes."
 
 The next morning began with a triple-header talk on "weak categories":
 
-5\) Andre Joyal, Peter May and Timothy Porter, Weak categories. Notes
+5) Andre Joyal, Peter May and Timothy Porter, Weak categories. Notes
 available at `http://www.ima.umn.edu/categories/#tues`
 
 Here a "weak category" means a category where the usual laws hold only
@@ -83,7 +83,7 @@ Then Michael Batanin explained his definition of \infty-categories. This was
 a blackboard talk, so there are no notes on the web, but you can try his
 original paper:
 
-6\) Michael Batanin, Monoidal globular categories as natural environment
+6) Michael Batanin, Monoidal globular categories as natural environment
 for the theory of weak $n$-categories, Adv. Math. 136 (1998), 39-103, also
 available at `http://www.ics.mq.edu.au/~mbatanin/papers.html`
 
@@ -103,7 +103,7 @@ weren't big enough. So at that point, we switched to having lectures
 The morning of the third day began with a no-holds-barred minicourse on
 model categories by Peter May:
 
-7\) Peter May, Model categories. Notes available at
+7) Peter May, Model categories. Notes available at
 `http://www.ima.umn.edu/categories/#wed`
 
 Model categories are a wonderful framework for relating different
@@ -113,7 +113,7 @@ be used to relate different approaches to $n$-categories.
 Then Clemens Berger explained Andre Joyal's approach to weak
 n-categories:
 
-8\) Clemens Berger, Cellular definitions. Notes available at
+8) Clemens Berger, Cellular definitions. Notes available at
 `http://www.ima.umn.edu/categories/#wed`
 
 Then, either during or after dinner, Eugenia Cheng explained various
@@ -136,14 +136,14 @@ Then Tom Leinster and Nick Gurski spoke about Ross Street's definition
 to weak \infty-categories, where they are simplicial sets satisfying an even
 more subtly restricted version of the Kan condition.
 
-9\) Nick Gurski and Tom Leinster, Simplicial definition. Notes available
+9) Nick Gurski and Tom Leinster, Simplicial definition. Notes available
 at `http://www.ima.umn.edu/categories/#thur`
 
 Street's definition is tough to understand at first, but it should
 eventually include Joyal's quasicategories as a special case, which is
 nice. For Street's own discussion, see:
 
-10\) Ross Street, Weak ω-categories, in Diagrammatic Morphisms and
+10) Ross Street, Weak ω-categories, in Diagrammatic Morphisms and
 Applications, eds. David Radford, Fernando Souza, and David Yetter,
 Contemp. Math. 318, AMS, Providence, Rhode Island, 2003, pp. 207-213.
 Also available as
@@ -152,7 +152,7 @@ Also available as
 It relies on some work by Dominic Verity which has finally been written
 up after many years of unpublished limbo:
 
-11\) Dominic Verity, Complicial sets, available as
+11) Dominic Verity, Complicial sets, available as
 [math.CT/0410412](http://www.arXiv.org/abs/math.CT/0410412)
 
 After dinner we took a turn towards applications, and Larry Breen
@@ -165,7 +165,7 @@ got to 1-stacks and 1-gerbes! But he gave an impromptu talk later where
 he reached n = 2, and the notes for both talks are available in combined
 form here:
 
-12\) Larry Breen, $n$-Stacks and $n$-gerbes: homotopy theory. Notes
+12) Larry Breen, $n$-Stacks and $n$-gerbes: homotopy theory. Notes
 available at `http://www.ima.umn.edu/categories/#thur`
 
 You've heard about David Corfield's quest for a philosophy of real
@@ -175,18 +175,18 @@ n-categories are - which may explain why he's having trouble getting a
 job. On the morning of the fourth day, he gave a talk on the impact
 n-categories could have in philosophy:
 
-13\) David Corfield, $n$-Category theory as a catalyst for change in
+13) David Corfield, $n$-Category theory as a catalyst for change in
 philosophy. Notes available at `http://www.ima.umn.edu/categories/#fri`
 
 Later that day, Bertrand Toen explained Segal categories, which are
 another popular approach to weak categories:
 
-14\) Bertrand Toen, Segal categories. Notes by Joachim Kock available at
+14) Bertrand Toen, Segal categories. Notes by Joachim Kock available at
 `http://www.ima.umn.edu/categories/#fri`
 
 After dinner, he spoke about $n$-stacks and $n$-gerbes:
 
-15\) Bertrand Toen, $n$-Stacks and $n$-gerbes: algebraic geometry. Notes by
+15) Bertrand Toen, $n$-Stacks and $n$-gerbes: algebraic geometry. Notes by
 Joachim Kock available at `http://www.ima.umn.edu/categories/#fri`
 
 Everyone slept all weekend long. Then on Monday of the second week, the
@@ -194,7 +194,7 @@ homotopy theorist Zbigniew Fiedorowicz spoke about his work on a kind of
 n-fold monoidal category that has an $n$-fold loop space as its nerve. He
 has some good papers on the web about this, too:
 
-16\) Zbigniew Fiedorowicz, $n$-Fold categories. Notes available at
+16) Zbigniew Fiedorowicz, $n$-Fold categories. Notes available at
 `http://www.ima.umn.edu/categories/#mon2`
 
 C. Balteanu, Z. Fiedorowicz, R. Schwaenzl and R. Vogt, Iterated monoidal
@@ -208,7 +208,7 @@ Stefan Forcey continued this theme by discussing enrichment over $n$-fold
 monoidal categories. He also has a number of papers about this on the
 arXiv, of which I'll just mention one:
 
-17\) Stefan Forcey, Higher enrichment: $n$-fold operads and enriched
+17) Stefan Forcey, Higher enrichment: $n$-fold operads and enriched
 n-categories, delooping and weakening. Notes available at
 ["http://www.ima.umn.edu/categories/\#mon2](http://www.ima.umn.edu/categories/#mon2)
 
@@ -234,12 +234,12 @@ that systematizes this idea.
 There are no notes for Makkai's talk online, but you can get a lot of
 good stuff from his website, including:
 
-18\) Michael Makkai, On comparing definitions of weak $n$-category,
+18) Michael Makkai, On comparing definitions of weak $n$-category,
 available at `http://www.math.mcgill.ca/makkai/`
 
 and this more technical paper which works out the details of his vision:
 
-19\) Michael Makkai, The multitopic ω-category of all multitopic
+19) Michael Makkai, The multitopic ω-category of all multitopic
 ω-categories, available at `http://www.math.mcgill.ca/makkai/`
 
 After Makkai's talk, Mark Weber spoke on $n$-categorical generalizations
@@ -247,7 +247,7 @@ of the concept of "monad", which is a nice way of describing
 mathematical gadgets. There are no notes for this talk, but his work on
 higher operads is at least morally related:
 
-20\) Mark Weber, Operads within monoidal pseudo algebras, available as
+20) Mark Weber, Operads within monoidal pseudo algebras, available as
 [math.CT/0410230](http://www.arXiv.org/abs/math.CT/0410230).
 
 Again, after dinner we talked about how to relate different definitions
@@ -257,7 +257,7 @@ On Wednesday of the second week, Michael Batanin spoke about his recent
 work relating $n$-categories to $n$-fold loop spaces. Again no notes, but
 you can read these papers:
 
-21\) Michael Batanin, The Eckmann-Hilton argument, higher operads and
+21) Michael Batanin, The Eckmann-Hilton argument, higher operads and
 E~n~-spaces, available at
 `http://www.ics.mq.edu.au/~mbatanin/papers.html`
 
@@ -268,16 +268,16 @@ Then Joachim Kock laid the ground for a discussion of $n$-categories and
 topological quantum field theories, or "TQFTs", by explaining the
 definition of a TQFT and the classification of 2d TQFTs:
 
-22\) Joachim Kock, Topological quantum field theory primer. Notes
+22) Joachim Kock, Topological quantum field theory primer. Notes
 available at `http://www.ima.umn.edu/categories/#wed2`
 
 In the evening, Marco Mackaay and I said more about the relation between
 TQFTs and $n$-categories:
 
-23\) Marco Mackaay, Topological quantum field theories. Notes available
+23) Marco Mackaay, Topological quantum field theories. Notes available
 at `http://www.ima.umn.edu/categories/#wed2`
 
-24\) John Baez, Space and state, spacetime and process. Notes available
+24) John Baez, Space and state, spacetime and process. Notes available
 at `http://www.ima.umn.edu/categories/#wed2`
 
 On Thursday, Ross Street started the day in a pleasantly different way -
@@ -286,14 +286,14 @@ Australia! Australia is home to much of the best work on these subjects,
 so if you can understand his history you'll wind up understanding these
 subjects pretty well:
 
-25\) Ross Street, An Australian conspectus of higher category theory.
+25) Ross Street, An Australian conspectus of higher category theory.
 Notes available at `http://www.ima.umn.edu/categories/#thur2`
 
 As a younger exponent of the Australian tradition, it was then nicely
 appropriate for Steve Lack to speak about ways of building a model
 category of 2-categories:
 
-26\) Steve Lack, Higher model categories. Notes available at
+26) Steve Lack, Higher model categories. Notes available at
 `http://www.ima.umn.edu/categories/#thur2`
 
 In the afternoon we had a blast of computer science. First John Power
@@ -301,7 +301,7 @@ gave a hilarious talk phrased in terms of how one should convince
 computer theorists to embrace categories, then 2-categories, and then
 maybe higher categories:
 
-27\) John Power, Why tricategories? Notes available at
+27) John Power, Why tricategories? Notes available at
 `http://www.ima.umn.edu/categories/#thur2`
 
 I spoke about Power's paper with this title back in
@@ -310,7 +310,7 @@ I spoke about Power's paper with this title back in
 Then Philippe Gaucher, Lisbeth Fajstrup and Eric Goubault spoke about
 higher-dimensional automata and directed homotopy theory:
 
-28\) Philippe Gaucher, Towards a homotopy theory of higher dimensional
+28) Philippe Gaucher, Towards a homotopy theory of higher dimensional
 automata. Notes available at `http://www.ima.umn.edu/categories/#thur2`
 
 Lisbeth Fajstrup, More on directed topology and concurrency, Notes
@@ -327,7 +327,7 @@ notes for this talk. You just had to be there.
 Finally, my student Alissa Crans gave a talk on higher-dimensional
 linear algebra, with an emphasis on categorified Lie algebras:
 
-29\) Alissa Crans, Higher linear algebra. Notes available at Notes
+29) Alissa Crans, Higher linear algebra. Notes available at Notes
 available at `http://www.ima.umn.edu/categories/#fri2`
 
 Hers was the last talk in the workshop! I would like to say more about
@@ -336,7 +336,7 @@ of "higher gauge theory", which deserves a Week of its own.
 
 By the way, you can see pictures of this workshop here:
 
-30\) John Baez, IMA, `http://math.ucr.edu/home/baez/IMA/`
+30) John Baez, IMA, `http://math.ucr.edu/home/baez/IMA/`
 
 If you want to see what these crazy $n$-category people look like, you can
 see most of them here.
@@ -548,7 +548,7 @@ For more, try the following papers. The first paper is actually about a
 generalization of Azumaya algebras called "Azumaya categories", but it
 starts with a nice quick review of Azumaya algebras and Brauer groups:
 
-31\) Francis Borceux and Enrico Vitale, Azumaya categories, available at
+31) Francis Borceux and Enrico Vitale, Azumaya categories, available at
 `http://www.math.ucl.ac.be/AGEL/Azumaya_categories.pdf`
 
 Category theorists will enjoy the generalization: since algebras are
@@ -560,7 +560,7 @@ haven't checked that out yet.
 This second paper makes the connection between Picard and Brauer groups
 explicit using categorical groups:
 
-32\) Enrico Vitale, A Picard-Brauer exact sequence of categorical
+32) Enrico Vitale, A Picard-Brauer exact sequence of categorical
 groups, Journal of Pure and Applied Algebra 175 (2002) 383-408. Also
 available as `http://www.math.ucl.ac.be/membres/vitale/cat-gruppi2.pdf`
 
@@ -586,15 +586,15 @@ liberty of numbering the references in his email.
 > (who was a great source of inspiration to me and, I believe, to the
 > Granada School) would have pointed me to the papers
 >
-> 33\) Grothendieck, Alexander Le groupe de Brauer. III. Exemples et
+> 33) Grothendieck, Alexander Le groupe de Brauer. III. Exemples et
 > complements. (French) 1968 Dix Exposes sur la Cohomologie des Schemas
 > pp. 88-188 North-Holland, Amsterdam; Masson, Paris
 >
-> 34\) Grothendieck, Alexander Le groupe de Brauer. II. Theorie
+> 34) Grothendieck, Alexander Le groupe de Brauer. II. Theorie
 > cohomologique. (French) 1968 Dix Exposes sur la Cohomologie des
 > Schemas pp. 67-87 North-Holland, Amsterdam; Masson, Paris
 >
-> 35\) Grothendieck, Alexander Le groupe de Brauer. I. Algbres
+> 35) Grothendieck, Alexander Le groupe de Brauer. I. Algbres
 > d'Azumaya et interpretations diverses. (French) 1968 Dix Exposes sur
 > la Cohomologie des Schemas pp. 46-66 North-Holland, Amsterdam; Masson,
 > Paris
@@ -603,18 +603,18 @@ liberty of numbering the references in his email.
 > the scheme view of algebraic geometry. I later read papers by category
 > theorists, like
 >
-> 36\) Lindner, Harald, Morita equivalences of enriched categories.
+> 36) Lindner, Harald, Morita equivalences of enriched categories.
 > Conferences du Colloque sur l'Algebre des Categories (Amiens, 1973),
 > III. Cahiers Topologie Geom. Differentielle 15 (1974), no. 4, 377-397,
 > 449-450.
 >
-> 37\) Fisher-Palmquist, J.; Palmquist, P. H. Morita contexts of
+> 37) Fisher-Palmquist, J.; Palmquist, P. H. Morita contexts of
 > enriched categories. Proc. Amer. Math. Soc. 50 (1975), 55-60.
 >
 > which seemed to be the beginning of a simpler understanding. Somehow
 > (?) I obtained an original bound reprint of
 >
-> 38\) Froehlich, A.; Wall, C. T. C. Graded monoidal categories.
+> 38) Froehlich, A.; Wall, C. T. C. Graded monoidal categories.
 > Compositio Math. 28 (1974), 229-285.
 >
 > which I have just looked at and realised I should read again (since
@@ -622,7 +622,7 @@ liberty of numbering the references in his email.
 > the G-equivariant version of Turaev's 3-manifold invariant work). It
 > was forerunner to
 >
-> 39\) Froehlich, A.; Wall, C. T. C. Equivariant Brauer groups.
+> 39) Froehlich, A.; Wall, C. T. C. Equivariant Brauer groups.
 > Quadratic forms and their applications (Dublin, 1999), 57-71, Contemp.
 > Math., 272, Amer. Math. Soc., Providence, RI, 2000.
 >
@@ -652,28 +652,28 @@ liberty of numbering the references in his email.
 > Alg(R-Mod) as a fundamental example. (It is discussed much later in
 > the last part of
 >
-> 40\) R. Gordon, A.J. Power and R. Street, Coherence for tricategories,
+> 40) R. Gordon, A.J. Power and R. Street, Coherence for tricategories,
 > Memoirs of the American Math. Society 117 (1995) Number 558.)
 >
 > At the 1987 Meeting in Louvain-La-Neuve, Duskin (who loves simplicial
 > sets) found a simplicial set whose only non-trivial homotopy groups
 > were the three in question:
 >
-> 41\) Duskin, John W. The Azumaya complex of a commutative ring.
+> 41) Duskin, John W. The Azumaya complex of a commutative ring.
 > Categorical algebra and its applications (Louvain-La-Neuve, 1987),
 > 107-117, Lecture Notes in Math., 1348, Springer, Berlin, 1988.
 >
 > I pointed out to Jack that this was the nerve of Alg(R-Mod) and he
 > included a remark about that in the published version. Also see
 >
-> 42\) Duskin, J. An outline of a theory of higher-dimensional descent.
+> 42) Duskin, J. An outline of a theory of higher-dimensional descent.
 > Actes du Colloque en l'Honneur du Soixantieme Anniversaire de Rene
 > Lavendhomme (Louvain-la-Neuve, 1989). Bull. Soc. Math. Belg. Ser. A 41
 > (1989), no. 2, 249-277.
 >
 > The Brauer group section of
 >
-> 43\) Categorical and combinatorial aspects of descent theory, Applied
+> 43) Categorical and combinatorial aspects of descent theory, Applied
 > Categorical Structures (to appear; March 2003 preprint available at
 > [math.CT/0303175](http://www.arXiv.org/abs/math.CT/0303175)).
 >
@@ -681,7 +681,7 @@ liberty of numbering the references in his email.
 >
 > The article
 >
-> 44\) K.K. Ulbrich, Group cohomology for Picard categories, J. Algebra
+> 44) K.K. Ulbrich, Group cohomology for Picard categories, J. Algebra
 > 91 (1984) 464-498.
 >
 > should also be mentioned. It is a great, to use your term,
@@ -719,7 +719,7 @@ liberty of numbering the references in his email.
 
 This last paper is:
 
-44\) P. Carrasco and J. Martinez-Moreno, Simplicial cohomology with
+44) P. Carrasco and J. Martinez-Moreno, Simplicial cohomology with
 coefficients in symmetric categorical groups, Applied Categorical
 Structures 12 (2004), 257-286.
 

@@ -41,7 +41,7 @@ need me. There's a *lot* to read these days. I mentioned Carlos
 Simpson's book in ["Week 291"](#week291) - that's one good place
 to start. Here's another introduction:
 
-1\) John Baez and Peter May, Towards Higher Categories, Springer, 2009.
+1) John Baez and Peter May, Towards Higher Categories, Springer, 2009.
 Also available at
 `http://ncatlab.org/johnbaez/show/Towards+Higher+Categories`
 
@@ -63,19 +63,19 @@ they're nicely connected by some results described in Julia Bergner's
 paper. Two of the most important approaches are "Segal spaces" and
 "quasicategories". For the latter, start here:
 
-2\) Andre Joyal, The Theory of Quasicategories and Its Applications,
+2) Andre Joyal, The Theory of Quasicategories and Its Applications,
 `http://www.crm.cat/HigherCategories/hc2.pdf`
 
 and then go here:
 
-3\) Jacob Lurie, Higher Topos Theory, Princeton U. Press, 2009. Also
+3) Jacob Lurie, Higher Topos Theory, Princeton U. Press, 2009. Also
 available at `http://www.math.harvard.edu/~lurie/papers/highertopoi.pdf`
 
 This book is 925 pages long! Luckily, Lurie writes well. After setting
 up the machinery, he went on to use (\infty,1)-categories to revolutionize
 algebraic geometry:
 
-4\) Jacob Lurie, Derived algebraic geometry I: stable
+4) Jacob Lurie, Derived algebraic geometry I: stable
 infinity-categories, available as
 [`arXiv:math/0608228`](http://arXiv.org/abs/math/0608228).\
 Derived algebraic geometry II: noncommutative algebra, available as
@@ -91,24 +91,24 @@ Derived algebraic geometry VI: E~k~ algebras, available as
 
 For related work, try these:
 
-5\) David Ben-Zvi, John Francis and David Nadler, Integral transforms
+5) David Ben-Zvi, John Francis and David Nadler, Integral transforms
 and Drinfeld centers in derived algebraic geometry available as
 [`arXiv:0805.0157`](http://arxiv.org/abs/0805.0157).
 
-6\) David Ben-Zvi and David Nadler, The character theory of a complex
+6) David Ben-Zvi and David Nadler, The character theory of a complex
 group, available as [`arXiv:0904.1247`](http://arxiv.org/abs/0904.1247).
 
 Lurie is now using (\infty,n)-categories to study topological quantum field
 theory. He's making precise and proving some old conjectures that James
 Dolan and I made:
 
-7\) Jacob Lurie, On the classification of topological field theories,
+7) Jacob Lurie, On the classification of topological field theories,
 available as [`arXiv:0905.0465`](http://arxiv.org/abs/0905.0465).
 
 Jonathan Woolf is doing it in a somewhat different way, which I hope
 will be unified with Lurie's work eventually:
 
-8\) Jonathan Woolf, Transversal homotopy theory, available as
+8) Jonathan Woolf, Transversal homotopy theory, available as
 [`arXiv:0910.3322`](http://arxiv.org/abs/0910.3322).
 
 All this stuff is starting to transform math in amazing ways. And I hope
@@ -128,7 +128,7 @@ But what?
 I'm sure lots of you have had such thoughts. That's probably why
 Rachel Levy ran this conference last weekend:
 
-9\) Conference on the Mathematics of Environmental Sustainability and
+9) Conference on the Mathematics of Environmental Sustainability and
 Green Technology, Harvey Mudd College, Claremont, California,
 Friday-Saturday, January 29-30, 2010. Organized by Rachel Levy.
 
@@ -136,7 +136,7 @@ Here's a quick brain dump of what I learned.
 
 First, Harry Atwater of Caltech gave a talk on photovoltaic solar power:
 
-10\) Atwater Research Group, `http://daedalus.caltech.edu/`
+10) Atwater Research Group, `http://daedalus.caltech.edu/`
 
 The efficiency of silicon crystal solar cells peaked out at 24% in 2000.
 Fancy "multijunctions" get up to 40% and are still improving. But they
@@ -150,7 +150,7 @@ hands on:
 ![](element_abundances.gif)
 :::
 
-11\) Gordon B. Haxel, James B. Hedrick, and Greta J. Orris, Rare earth
+11) Gordon B. Haxel, James B. Hedrick, and Greta J. Orris, Rare earth
 elements - critical resources for high technology, US Geological Survey
 Fact Sheet 087-02, available at `http://pubs.usgs.gov/fs/2002/fs087-02/`
 
@@ -163,11 +163,11 @@ thermodynamical reasons! Since anything that can absorb energy can also
 emit it, any solar cell also acts as a light-emitting diode, turning
 electric power back into light:
 
-12\) W. Shockley and H. J. Queisser, Detailed balance limit of
+12) W. Shockley and H. J. Queisser, Detailed balance limit of
 efficiency of p-n junction solar cells, J. Appl. Phys. 32 (1961)
 510-519.
 
-13\) Wikipedia, Schockley-Quiesser limit,
+13) Wikipedia, Schockley-Quiesser limit,
 `http://en.wikipedia.org/wiki/Shockley%E2%80%93Queisser_limit`
 
 What are the tricks used to approach this theoretical efficiency?
@@ -197,7 +197,7 @@ packed structures that absorb more light:
 [![](silicon_nanorod.gif)](http://pubs.acs.org/doi/abs/10.1021/ja074897c)
 :::
 
-14\) B. M. Kayes, H. A. Atwater, and N. S. Lewis, Comparison of the
+14) B. M. Kayes, H. A. Atwater, and N. S. Lewis, Comparison of the
 device physics principles of planar and radial p-n junction nanorod
 solar cells, J. Appl. Phys. 97 (2005), 114302.
 
@@ -275,7 +275,7 @@ the snow and see emperor penguins - you want Golden as your advisor:
 [![](kenneth_golden.jpg){width="500"}](http://www.math.utah.edu/~golden/3.html)
 :::
 
-15\) Ken Golden's website, `http://www.math.utah.edu/~golden/`
+15) Ken Golden's website, `http://www.math.utah.edu/~golden/`
 
 Salt gets incorporated into sea ice via millimeter-scale brine
 inclusions between ice platelets, forming a "dendritic platelet
@@ -307,7 +307,7 @@ respectively. Figure from [Perovich *et
 al*](http://www.arctic.noaa.gov/reportcard/seaice.html).
 :::
 
-16\) Donald K. Perovich, Jacqueline A. Richter-Menge, Kathleen F. Jones,
+16) Donald K. Perovich, Jacqueline A. Richter-Menge, Kathleen F. Jones,
 and Bonnie Light, Sunlight, water, and ice: Extreme Arctic sea ice melt
 during the summer of 2007, Geophysical Research Letters, 35 (2008),
 L11501. Also available at
@@ -335,7 +335,7 @@ it looks like when there's 5.7% brine and the temperature is -8 °C:
 [![](kenneth_golden_brine_inclusions.jpg){width="500"}](http://www.math.utah.edu/~golden/7.html)
 :::
 
-17\) Kenneth Golden, Brine inclusions in a crystal of lab-grown sea ice,
+17) Kenneth Golden, Brine inclusions in a crystal of lab-grown sea ice,
 `http://www.math.utah.edu/~golden/7.html`
 
 Nobody knows why polycrystalline metals have a log-normal distribution
@@ -372,17 +372,17 @@ stuff; the ice gets visibly stained by it.
 
 For more, see:
 
-18\) Kenneth M. Golden, Climate change and the mathematics of transport
+18) Kenneth M. Golden, Climate change and the mathematics of transport
 in sea ice, AMS Notices, May 2009. Also available at
 `http://www.ams.org/notices/200905/`
 
-19\) Mathematics Awareness Month, April 2009: Mathematics and Climate,
+19) Mathematics Awareness Month, April 2009: Mathematics and Climate,
 `http://www.mathaware.org/mam/09/`
 
 Next, Julie Lundquist, who just moved from Lawrence Livermore Labs to
 the University of Colorado, spoke about wind power:
 
-20\) Julie Lunquist, Department of Atmospheric and Oceanic Sciences,
+20) Julie Lunquist, Department of Atmospheric and Oceanic Sciences,
 University of Colorado, `http://paos.colorado.edu/people/lundquist.php`
 
 With increased reliance on wind, the power grid will need to be
@@ -407,7 +407,7 @@ fine-grained simulations to see how much wind a turbine will get. This
 is where "large eddy simulation" comes in. Eddy diffusivity is modeled
 by Monin-Obukhov similarity theory:
 
-21\) American Meteorological Society Glossary, Monin-Obukhov similarity
+21) American Meteorological Society Glossary, Monin-Obukhov similarity
 theory,
 `http://amsglossary.allenpress.com/glossary/search?id=monin-obukhov-similarity-theory1`
 
@@ -431,7 +431,7 @@ ones are far better.
 
 For more:
 
-22\) National Renewable Energy Laboratory, Research needs for winds
+22) National Renewable Energy Laboratory, Research needs for winds
 resource characterization, available as
 `http://www.nrel.gov/docs/fy08osti/43521.pdf`
 
@@ -439,7 +439,7 @@ Finally, there was a talk by Ron Lloyd of Fat Spaniel Technologies. This
 is a company that makes software for solar plants and other sustainable
 energy companies:
 
-23\) Fat Spaniel Technologies, `http://www.fatspaniel.com/products/`
+23) Fat Spaniel Technologies, `http://www.fatspaniel.com/products/`
 
 His talk was less technical so I didn't take detailed notes. One big
 point I took away was this: we need better tools for modelling! This is
@@ -552,7 +552,7 @@ dangling out of it. It's not self-contained; we can use it as part of
 some bigger circuit. We should really formalize this more, but I won't
 now. Derek Wise did it more generally here:
 
-24\) Derek Wise, Lattice p-form electromagnetism and chain field theory,
+24) Derek Wise, Lattice p-form electromagnetism and chain field theory,
 available as [gr-qc/0510033](http://arxiv.org/abs/gr-qc/0510033).
 
 The idea here was to get a category where chain complexes are morphisms.
@@ -684,14 +684,14 @@ generally, $n$-morphisms in an $n$-category!
 There's a lot more to say, but that's enough for now. Here are some
 references on "electrical circuits as chain complexes":
 
-25\) Paul Bamberg and Shlomo Sternberg, A Course of Mathematics for
+25) Paul Bamberg and Shlomo Sternberg, A Course of Mathematics for
 Students of Physics, Cambridge University, Cambridge, 1982.
 
 Bamberg and Sternberg is a great book overall for folks wanting to get
 started on mathematical physics. The stuff about circuits starts in
 chapter 12.
 
-26\) P. W. Gross and P. Robert Kotiuga, Electromagnetic Theory and
+26) P. W. Gross and P. Robert Kotiuga, Electromagnetic Theory and
 Computation: A Topological Approach, Cambridge University Press, 2004.
 
 This book says just a little about electrical circuits of the sort
@@ -712,13 +712,13 @@ Ed Allen writes:
 > capture, the Mazur lab's black silicon projects are something I've
 > been following for a few years:
 >
-> 27\) Mazur Group, Optical hyperdoping - black silicon,
+> 27) Mazur Group, Optical hyperdoping - black silicon,
 > `http://mazur-www.harvard.edu/research/detailspage.php?rowid=1`
 >
-> 28\) Wikipedia, Black silicon,
+> 28) Wikipedia, Black silicon,
 > `http://en.wikipedia.org/wiki/Black_silicon`
 >
-> 29\) Anne-Marie Corley, Pink silicon is the new black, Technology
+> 29) Anne-Marie Corley, Pink silicon is the new black, Technology
 > Review, Thursday, July 9, 2009. Also available at
 > `http://www.technologyreview.com/computing/22975/?a=f`
 

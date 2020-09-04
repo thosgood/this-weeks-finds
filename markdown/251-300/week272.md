@@ -11,7 +11,7 @@ the icy splendor of Saturn's moon Enceladus, and gaze at its geysers:
 ![](enceladus_geysers.jpg)
 :::
 
-1\) NASA Photojournal, Jet blue,
+1) NASA Photojournal, Jet blue,
 `http://photojournal.jpl.nasa.gov/catalog/PIA08386`
 
 We've seen Enceladus once before, in ["Week 231"](#week231). I
@@ -31,7 +31,7 @@ kilometers. It took some wonderful photos as it approached:
 ![](enceladus_tiger_stripes.jpg)
 :::
 
-2\) NASA Photojournal, Great southern land,
+2) NASA Photojournal, Great southern land,
 `http://photojournal.jpl.nasa.gov/catalog/PIA11112`
 
 Here you see the four main tiger stripes on Enceladus. They're the big
@@ -67,7 +67,7 @@ Sulcus:
 ![](enceladus_damascus_sulcus.jpg){width="500"}
 :::
 
-3\) NASA Photojournal, Damascus Sulcus on Enceladus,
+3) NASA Photojournal, Damascus Sulcus on Enceladus,
 `http://photojournal.jpl.nasa.gov/catalog/PIA11113`
 
 The hard part was compensating for the fact that the spacecraft was
@@ -97,7 +97,7 @@ It worked amazingly well. They got some photos that could see features
 as small as 10 meters! It's great fun to read blogs of the scientists
 involved, and watch a video of the maneuver:
 
-4\) NASA Blogs, Enceladus - Aug08,
+4) NASA Blogs, Enceladus - Aug08,
 `http://blogs.nasa.gov/cm/blog/cassini-aug08/`
 
 During this flyby, an infrared spectrometer on the Cassini probe saw
@@ -110,7 +110,7 @@ Sulcus and Alexandria Sulcus:
 ![](enceladus_jet_spots.jpg){width="400"}
 :::
 
-5\) NASA Photojournal, Jet spots in tiger stripes,
+5) NASA Photojournal, Jet spots in tiger stripes,
 `http://photojournal.jpl.nasa.gov/catalog/PIA10361`
 
 Other instruments detected a plume of water vapor, ice, methane, carbon
@@ -122,17 +122,17 @@ Triton, Europa, Titan, Ganymede and Miranda.
 
 Cassini made two more flybys in October, and another in November:
 
-6\) NASA Blogs, Enceladus, `http://blogs.nasa.gov/cm/blog/enceladus`
+6) NASA Blogs, Enceladus, `http://blogs.nasa.gov/cm/blog/enceladus`
 
 And just this week, Candice Hansen and her coauthors came out with a new
 paper about the geysers of Enceladus:
 
-7\) C. J. Hansen, L. W. Esposito, A. I. F. Stewart, B. Meinke, B.
+7) C. J. Hansen, L. W. Esposito, A. I. F. Stewart, B. Meinke, B.
 Wallis, J. E. Colwell, A. R. Hendrix, K. Larsen, W. Pryor and F. Tian,
 Water vapour jets inside the plume of gas leaving Enceladus, Nature 456
 (27 November 2008), 477-479.
 
-8\) NASA, Enceladus Jets: Are They Wet or Just Wild?,
+8) NASA, Enceladus Jets: Are They Wet or Just Wild?,
 `http://www.nasa.gov/mission_pages/cassini/whycassini/cassinif-20081126.html`
 
 They analyzed data from the ultraviolet spectrometer on Cassini and saw
@@ -153,7 +153,7 @@ structures that trap gas molecules inside. There are about 6 trillion
 tons of gas clathrates on the ocean floors here on Earth. Maybe they're
 also on Enceladus:
 
-9\) Susan W. Kieffer, Xinli Lu, Craig M. Bethke, John R. Spencer,
+9) Susan W. Kieffer, Xinli Lu, Craig M. Bethke, John R. Spencer,
 Stephen Marshak, Alexandra Navrotsky, A clathrate reservoir hypothesis
 for Enceladus' south polar plume, Science 314 (15 December 2006),
 1764-1766.
@@ -176,7 +176,7 @@ story - the Cassini probe:
 ![](enceladus_e_ring.jpg){width="500"}
 :::
 
-10\) NASA Photojournal, Ghostly fingers of Enceladus,
+10) NASA Photojournal, Ghostly fingers of Enceladus,
 `http://photojournal.jpl.nasa.gov/catalog/PIA08321`
 
 The trick was to take the shot with the sun almost directly behind the
@@ -193,7 +193,7 @@ are funnelled down something called the "Io flux tube" to Jupiter's
 surface, where they create light shows 1000 times brighter than the
 aurora borealis here on earth! You can see pictures here:
 
-11\) Astronomy Picture of the Day, Jovian aurora,
+11) Astronomy Picture of the Day, Jovian aurora,
 `http://apod.nasa.gov/apod/ap980123.html`
 
 Next: some exceptional properties of the number 6.
@@ -209,7 +209,7 @@ that doesn't come from a symmetry of that set! This is called an
 In more jargonesque terms: of all the permutation groups S~n~, only S~6~
 has an outer automorphism. It has just one, and I described it here:
 
-12\) John Baez, Some thoughts on the number six,
+12) John Baez, Some thoughts on the number six,
 `http://math.ucr.edu/home/baez/six.html`
 
 Recently my friend Bruce Westbury told me some more cool facts about the
@@ -232,7 +232,7 @@ automorphism!
 
 Westbury later pointed out this related paper:
 
-13\) Ben Howard, John Millson, Andrew Snowden, Ravi Vakil, A description
+13) Ben Howard, John Millson, Andrew Snowden, Ravi Vakil, A description
 of the outer automorphism of S~6~, and the invariants of six points in
 projective space, available as
 [`arXiv:0710.5916`](http://arxiv.org/abs/0710.5916).
@@ -252,7 +252,7 @@ quotients of the free group on two generators.
 Another cool fact is that this probability tends to 1 as the order of
 the group tends to infinity:
 
-14\) M. Liebeck and A. Shalev, The probability of generating a finite
+14) M. Liebeck and A. Shalev, The probability of generating a finite
 simple group, Geometrica Dedicata 56 (1995), 103-111.
 
 This implies that this probability attains a *mininum value* for some
@@ -509,10 +509,10 @@ knowledge by a probability distribution.
 
 You can see some applications of this monad here:
 
-15\) David Corfield, Category theoretic probability theory II,
+15) David Corfield, Category theoretic probability theory II,
 `http://golem.ph.utexas.edu/category/2007/02/category_theoretic_probability_1.html`
 
-16\) Ernst-Erich Doberkat, Characterizing the Eilenberg-Moore algebras
+16) Ernst-Erich Doberkat, Characterizing the Eilenberg-Moore algebras
 for a monad of stochastic relations, Universitat Dortmund, Fachbereit
 Informatik, Lehrstule fuer Software-Technologie, Memo 147. Also
 available at
@@ -520,17 +520,17 @@ available at
 
 For more on standard Borel spaces in probability theory, try this:
 
-17\) K. R. Parthasrathy, Probability Measures on Metric Spaces, Academic
+17) K. R. Parthasrathy, Probability Measures on Metric Spaces, Academic
 Press, San Diego, 1967.
 
 For standard Borel spaces and von Neumann algebras, try this:
 
-18\) W. Arveson, An Invitation to C*-Algebra, Springer, Berlin, 1976.
+18) W. Arveson, An Invitation to C*-Algebra, Springer, Berlin, 1976.
 
 And for really hard-core results on standard Borel spaces and Polish
 groups, try this:
 
-19\) H. Becker and A. S. Kechris, Descriptive Set Theory of Polish Group
+19) H. Becker and A. S. Kechris, Descriptive Set Theory of Polish Group
 Actions, Cambridge U. Press, Cambridge, 1996.
 
 I can't imagine any of the normal readers of This Week's Finds will

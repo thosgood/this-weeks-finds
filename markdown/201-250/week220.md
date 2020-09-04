@@ -12,7 +12,7 @@ except by the good old method of fitting the experimental data. But
 these days, this time-honored method gets a lot less airplay than the
 "anthropic principle":
 
-1\) Leonard Susskind, The anthropic landscape of string theory,
+1) Leonard Susskind, The anthropic landscape of string theory,
 available as [hep-th/0302219](http://xxx.lanl.gov/abs/hep-th/0302219).
 
 Perhaps this is because it's more grandiose to imagine choosing one
@@ -45,12 +45,12 @@ In the last couple of years, the most interesting new work in the
 Hamiltonian approach has focussed on problems with extra symmetry, like
 black holes and the big bang. Here's a nontechnical introduction:
 
-2\) Abhay Ashtekar, Gravity and the quantum, available as
+2) Abhay Ashtekar, Gravity and the quantum, available as
 [gr-qc/0410054](http://xxx.lanl.gov/abs/gr-qc/0410054).
 
 and here's some new work that treats the information loss puzzle:
 
-3\) Abhay Ashtekar and Martin Bojowald, Black hole evaporation: a
+3) Abhay Ashtekar and Martin Bojowald, Black hole evaporation: a
 paradigm, Class. Quant. Grav. 22 (2005) 3349-3362. Also available as
 [gr-qc/0504029](http://xxx.lanl.gov/abs/gr-qc/0504029).
 
@@ -71,7 +71,7 @@ certain *second derivatives* of the amplitude might not - and this may
 be what really matters. Carlo Rovelli has recently come out with a paper
 on this:
 
-4\) Carlo Rovelli, Graviton propagator from background-independent
+4) Carlo Rovelli, Graviton propagator from background-independent
 quantum gravity, available as
 [gr-qc/0508124](http://xxx.lanl.gov/abs/gr-qc/0508124).
 
@@ -96,7 +96,7 @@ blast: over sixty talks in two weeks in two cities, Sydney and Canberra.
 However, I accidentally left my notes from those talks at home before
 zipping off to Calgary for a summer school on homotopy theory:
 
-5\) Topics in Homotopy Theory, graduate summer school at the Pacific
+5) Topics in Homotopy Theory, graduate summer school at the Pacific
 Institute of Mathematics run by Kristine Bauer and Laura Scull.
 Recommended reading material available at
 `http://www.pims.math.ca/science/2005/05homotopy/reading.html`
@@ -364,7 +364,7 @@ in my undergraduate courses. I don't usually provide links to
 commercial websites, but I made an exception for Acme Klein Bottles, and
 I'll make an exception for Cafe π:
 
-6\) Cafe π, `http://www.cafepi.ca/`
+6) Cafe π, `http://www.cafepi.ca/`
 
 Unfortunately they don't sell bumper stickers.
 
@@ -378,12 +378,12 @@ operads!
 
 You can read more about these ideas in May's book:
 
-7\) J. Peter May, The Geometry of Iterated Loop Spaces, Lecture Notes in
+7) J. Peter May, The Geometry of Iterated Loop Spaces, Lecture Notes in
 Mathematics 271, Springer, Berlin, 1972.
 
 or for a more gentle treatment, try this expository article:
 
-8\) J. Peter May, Infinite loop space theory, Bull. Amer. Math. Soc. 83
+8) J. Peter May, Infinite loop space theory, Bull. Amer. Math. Soc. 83
 (1977), 456-494.
 
 But Dev Sinha told us about some subsequent work by Fred Cohen, who
@@ -515,10 +515,10 @@ stands by, plus moving a around c while b stands by".
 
 I guess this result can be found here:
 
-9\) Frederick Cohen, Homology of Ω^n+1^Σ^n+1^X and C~n+1~X, n > 0,
+9) Frederick Cohen, Homology of Ω^n+1^Σ^n+1^X and C~n+1~X, n > 0,
 Bull. Amer. Math. Soc. 79 (1973), 1236-1241.
 
-10\) Frederick Cohen, Tom Lada and J. Peter May, The homology of
+10) Frederick Cohen, Tom Lada and J. Peter May, The homology of
 iterated loop spaces, Lecture Notes in Mathematics 533, Springer,
 Berlin, 1976.
 
@@ -526,14 +526,14 @@ But, I don't think these old papers talk about graded Poisson operads!
 Dev Sinha has a paper where he takes these ideas and distills them all
 into the combinatorics of graphs and trees:
 
-11\) Dev Sinha, A pairing between graphs and trees, available as
+11) Dev Sinha, A pairing between graphs and trees, available as
 [math.QA/0502547](http://arxiv.org/abs/math.QA/0502547).
 
 However, what I really like is how he gets these graphs and trees
 starting from the homology and cohomology (respectively) of the little
 k-cubes operad! He first wrote about it here:
 
-12\) Dev Sinha, Manifold theoretic compactifications of configuration
+12) Dev Sinha, Manifold theoretic compactifications of configuration
 spaces, available as
 [math.GT/0306385](http://arxiv.org/abs/math.GT/0306385).
 
@@ -550,7 +550,7 @@ cohomology classifies the ways you can deform an associative algebra,
 this result is related to quantization and Poisson algebras. But, I
 don't get the big picture! This might help:
 
-13\) Maxim Kontsevich, Operads and motives in deformation quantization,
+13) Maxim Kontsevich, Operads and motives in deformation quantization,
 Lett. Math. Phys. 48 (1999) 35-72. Also available as
 [math.QA/9904055](http://arxiv.org/math.QA/9904055).
 
@@ -621,14 +621,14 @@ And, using these ideas, Ryan Budney has managed to figure out a lot of
 information about the homotopy type of the space of long knots. Check
 out these papers:
 
-14\) Ryan Budney, Little cubes and long knots, available as
+14) Ryan Budney, Little cubes and long knots, available as
 [math.GT/0309427](http://arxiv.org/math.GT/0309427).
 
-15\) Ryan Budney and Frederick Cohen, On the homology of the space of
+15) Ryan Budney and Frederick Cohen, On the homology of the space of
 long knots, available as
 [math.GT/0504206](http://arxiv.org/math.GT/0504206).
 
-16\) Ryan Budney, Topology of spaces of knots in dimension 3, available
+16) Ryan Budney, Topology of spaces of knots in dimension 3, available
 as [math.GT/0506524](http://arxiv.org/math.GT/0506524).
 
 The paper by Budney and Cohen combines the two ideas I just described -
@@ -707,7 +707,7 @@ On another note - in the summer of 2007, Urs Schreiber posted a 3-part
 article on Batalin-Vilkovisky quantization over at the $n$-Category Cafe.
 The third part has links to the other two:
 
-18\) Urs Schreiber, Lyakhovich and Sharapov on QFT (On BV-Quantization,
+18) Urs Schreiber, Lyakhovich and Sharapov on QFT (On BV-Quantization,
 Part III),
 `http://golem.ph.utexas.edu/category/2007/08/lyakhonov_and_sharapov_on_qft.html`.
 
@@ -717,12 +717,12 @@ what I wrote, roughly:
 
 > Try these:
 >
-> 19\) Ezra Getzler, Batalin-Vilkovisky algebras and two-dimensional
+> 19) Ezra Getzler, Batalin-Vilkovisky algebras and two-dimensional
 > topological field theories, Comm. Math. Phys. 159 (1994), 265-285.
 > Available at
 > `http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.cmp/1104254599`
 >
-> 20\) Takashi Kimura, Jim Stasheff and Alexander A. Voronov, On operad
+> 20) Takashi Kimura, Jim Stasheff and Alexander A. Voronov, On operad
 > structures of moduli spaces and string theory, Comm. Math. Phys. 171
 > (1995), 1-25. Section 3.7: the Batalin-Vilkovisky (BV) algebra.
 > Available at

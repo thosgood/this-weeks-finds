@@ -20,13 +20,13 @@ Hurrah! Yippee-yay! They've discovered the exceptional group E~8~ in
 nature! And they've found the golden ratio lurking in a quantum system!
 At least, that's what the headlines are blaring:
 
-1\) Joe Palca, Finding 'beautiful' symmetry near absolute zero, All
+1) Joe Palca, Finding 'beautiful' symmetry near absolute zero, All
 Things Considered, National Public Radio,
 `http://www.npr.org/templates/story/story.php?storyId=122365883`
 
 Here's the paper that started all the fuss:
 
-2\) R. Coldea, D. A. Tennant, E. M. Wheeler, E. Wawrzynska, D.
+2) R. Coldea, D. A. Tennant, E. M. Wheeler, E. Wawrzynska, D.
 Prabhakaran, M. Telling, K. Habicht, P. Smeibidl and K. Kiefer, Quantum
 criticality in an Ising chain: experimental evidence for emergent E~8~
 symmetry, Science (327), 177 - 180. Available at
@@ -38,7 +38,7 @@ apparently go back to a theoretical paper by the guy who invented the
 "Zamolodchikov tetrahedron equation", much beloved by people who study
 knotted surfaces in 4 dimensions:
 
-3\) A. B. Zamolodchikov, Integrals of motion and S-matrix of the
+3) A. B. Zamolodchikov, Integrals of motion and S-matrix of the
 (scaled) T=T~c~ Ising model with magnetic field, Int. J. Mod. Phys. A 4
 (1989), 4235.
 
@@ -173,7 +173,7 @@ details!
 If you're an amateur looking for a few clues, I suggest starting with
 this very readable expository paper:
 
-4\) Paul A. Pearce, Phase transitions, critical phenomena and exactly
+4) Paul A. Pearce, Phase transitions, critical phenomena and exactly
 solvable lattice models. Also available at
 `http://mac0916.ms.unimelb.edu.au/~pap/Publications_pdf/1997Pearce_VicRoyalSociety.pdf`.
 
@@ -215,17 +215,17 @@ coset construction, it can't hurt to look at my outline of Di
 Francesco, Mathieu, and Senechal's book in ["Week 124"](#week124).
 To dig a bit deeper, try:
 
-5\) Scholarpedia, A-D-E classification of conformal field theories,
+5) Scholarpedia, A-D-E classification of conformal field theories,
 `http://www.scholarpedia.org/article/Cappelli-Itzykson-Zuber_A-D-E_Classification`
 
 And for more details on how the extra magnetic field creates those 8
 bound states, try these:
 
-6\) Giuseppe Mussardo, Off-critical statistical models: factorized
+6) Giuseppe Mussardo, Off-critical statistical models: factorized
 scattering theories and bootstrap program, Physics Reports 218 (1992),
 215-379.
 
-7\) Giuseppe Mussardo, Statistical Field Theory, Oxford, 2010.
+7) Giuseppe Mussardo, Statistical Field Theory, Oxford, 2010.
 
 Okay, back down to earth. Last week I began to sketch an analogy between
 various kinds of physical systems, based on general concepts of
@@ -283,7 +283,7 @@ coming out.
 To be a bit less crude, it's important to note that only *differences*
 between voltages are measurable:
 
-4\) John Baez, Torsors made easy,
+4) John Baez, Torsors made easy,
 `http://math.ucr.edu/home/baez/torsors.html`
 
 But the voltage across a circuit is precisely such a difference.
@@ -376,7 +376,7 @@ quantity called a "chemical potential". The chemical potential simply
 says how much energy it takes to increase the number of molecules of a
 given kind:
 
-8\) Wikipedia, Chemical potential,
+8) Wikipedia, Chemical potential,
 `http://en.wikipedia.org/wiki/Chemical_potential`
 
 So, we see that "chemical potential" is another form of "effort",
@@ -402,7 +402,7 @@ so let's call it "chemical momentum".
 
 For more on this, try the following book on network theory:
 
-9\) Francois E. Cellier, Continuous System Modelling, Chap. 9: Modeling
+9) Francois E. Cellier, Continuous System Modelling, Chap. 9: Modeling
 chemical reaction kinetics, Springer, Berlin, 1991.
 
 So, we've added two more items to our list of analogies: thermodynamics
@@ -461,7 +461,7 @@ First of all, engineers use these analogies to systematically model all
 sorts of gadgets using "bond graphs". Bond graphs were invented by an
 engineer named Henry Paynter. His original book goes way back to 1961:
 
-10\) Henry M. Paynter, Analysis and Design of Engineering Systems, MIT
+10) Henry M. Paynter, Analysis and Design of Engineering Systems, MIT
 Press, Cambridge, Massachusetts, 1961.
 
 I haven't gotten ahold of this book yet, but I've learned a bit about
@@ -518,7 +518,7 @@ time. But it's good to generalize to an arbitrary manifold M.
 For an elementary yet insightful introduction to the physics of Legendre
 transforms, try this:
 
-11\) R. K. P. Zia, Edward F. Redish and Susan R. McKay, Making sense of
+11) R. K. P. Zia, Edward F. Redish and Susan R. McKay, Making sense of
 the Legendre transform, available as
 [`arXiv:0806.1147`](http://arxiv.org/abs/0806.1147).
 
@@ -1082,7 +1082,7 @@ comonoidal" instead of "oplax monoidal":
 Finally: what about the picture at the top of the page? It was taken in
 spring, near the south pole of Mars:
 
-6\) HiRISE (High Resolution Imaging Science Experiments), Cryptic
+6) HiRISE (High Resolution Imaging Science Experiments), Cryptic
 terrain on Mars, `http://hirise.lpl.arizona.edu/PSP_003179_0945`
 
 Candy Hansen writes:

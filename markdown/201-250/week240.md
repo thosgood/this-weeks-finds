@@ -7,7 +7,7 @@ about how we need to "zoom out" of our short-term perspective to
 understand the history of the earth's climate and what we're doing to
 it now:
 
-1\) John Baez, Zooming out in time,
+1) John Baez, Zooming out in time,
 `http://math.ucr.edu/home/baez/zoom/`
 
 There's a lot of tricky physics in this business. Consider, for
@@ -18,7 +18,7 @@ obliquity of its orbit, and the eccentricity of its orbit:
 ![](Milankovitch_Variations.png)
 :::
 
-2\) Wikipedia, Milankovitch cycles,
+2) Wikipedia, Milankovitch cycles,
 `http://en.wikipedia.org/wiki/Milankovitch_cycles`
 
 Here a "kyr" is a thousand years. The yellow curve combines
@@ -31,7 +31,7 @@ within the Earth's climate.
 
 Here's a great place to read about this stuff:
 
-3\) Barry Saltzman, Dynamical Paleoclimatology: Generalized Theory of
+3) Barry Saltzman, Dynamical Paleoclimatology: Generalized Theory of
 Global Climate Change, Academic Press, New York, 2002.
 
 Anyway, now this talk is done, and I can focus more on teaching.
@@ -42,7 +42,7 @@ something new: not only are the notes available on the web, there's
 also a blog entry for each class, where you can ask questions, make
 comments and correct my mistakes!
 
-4\) John Baez, Fall 2006 seminars: Quantization and cohomology, and
+4) John Baez, Fall 2006 seminars: Quantization and cohomology, and
 Classical versus quantum computation. Notes by Derek Wise, homeworks and
 blog entries available at `http://math.ucr.edu/home/baez/qg-fall2006/`
 
@@ -303,7 +303,7 @@ earlier point in the game and make a new move.
 Actually I'm deviating from the technical specifications of the
 holodeck on Star Trek, as explained here:
 
-6\) Wikipedia, Holodeck, `http://en.wikipedia.org/wiki/Holodeck`
+6) Wikipedia, Holodeck, `http://en.wikipedia.org/wiki/Holodeck`
 
 So, if you're a Star Trek purist, it's better to imagine a video game
 where you can save your game at any state of play, and go back to these
@@ -506,17 +506,17 @@ worked out a new proof.
 If you get stuck proving this result yourself, first try these notes
 from Dolan's talk, for some hints:
 
-7\) James Dolan, Holodeck strategies and cartesian closed categories,
+7) James Dolan, Holodeck strategies and cartesian closed categories,
 lecture at UCR, notes by John Baez, Oct. 19, 2006, available at
 `http://math.ucr.edu/home/baez/qg-fall2006/f06week03b.pdf`
 
 Then try Trimble's more rigorous, technical treatment, and the original
 paper by Hyland and Ong:
 
-8\) Todd Trimble, Holodeck games and CCCs, available at
+8) Todd Trimble, Holodeck games and CCCs, available at
 `http://math.ucr.edu/home/baez/trimble/holodeck.html`
 
-9\) Martin Hyland and C.-H. Luke Ong, On full abstraction for PCF,
+9) Martin Hyland and C.-H. Luke Ong, On full abstraction for PCF,
 Information and Computation, 163 (2000), 285-408. Also available at
 <ftp://ftp.comlab.ox.ac.uk/pub/Documents/techpapers/Luke.Ong/pcf.ps.gz>
 
@@ -613,7 +613,7 @@ network of subjects.
 Categorical semantics was born in Lawvere's celebrated 1963 thesis on
 algebraic theories:
 
-10\) F. William Lawvere, Functorial Semantics of Algebraic Theories,
+10) F. William Lawvere, Functorial Semantics of Algebraic Theories,
 Dissertation, Columbia University, 1963. Also available at
 `http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html`
 
@@ -622,7 +622,7 @@ semantics is the concept of "syntax", which deals with proofs. In the
 case of algebraic theories, the syntax was studied before Lawvere in the
 subject called "universal algebra":
 
-11\) Stanley Burris and H.P. Sankappanavar, A Course in Universal
+11) Stanley Burris and H.P. Sankappanavar, A Course in Universal
 Algebra, available at
 `http://www.math.uwaterloo.ca/~snburris/htdocs/ualg.html`
 
@@ -649,19 +649,19 @@ computations in the λ calculus can actually be seen as proofs.
 The usefulness of this way of thinking was brought out in Landin's
 classic paper:
 
-12\) P. Landin, A correspondence between ALGOL 60 and Church's
+12) P. Landin, A correspondence between ALGOL 60 and Church's
 λ-notation, Comm. ACM 8 (1965), 89-101, 158-165.
 
 This began a long and fruitful line of research - see for example this:
 
-13\) H. Barendregt, The Lambda Calculus, its Syntax and Semantics,
+13) H. Barendregt, The Lambda Calculus, its Syntax and Semantics,
 North-Holland, 1984.
 
 The power of the λ calculus is evident in the textbook developed for
 MIT's introductory course in computer science, which is available
 online:
 
-14\) H. Abelson, G. J. Sussman and J. Sussman, Structure and
+14) H. Abelson, G. J. Sussman and J. Sussman, Structure and
 Interpretation of Computer Programs, available at
 `http://www-mitpress.mit.edu/sicp/`
 
@@ -685,7 +685,7 @@ ability of the λ calculus to do recursion:
 
 In 1980, Lambek made a great discovery:
 
-15\) Joachim Lambek, From lambda calculus to Cartesian closed
+15) Joachim Lambek, From lambda calculus to Cartesian closed
 categories, in To H. B. Curry: Essays on Combinatory Logic, Lambda
 Calculus and Formalism, eds. J. P. Seldin and J. Hindley, Academic
 Press, 1980, pp. 376-402.
@@ -706,12 +706,12 @@ There's no way to list all the interesting references to CCCs and the
 starting out easy and working up to the harder ones. This Wikipedia
 article is quite good:
 
-16\) Wikipedia, Lambda calculus, available at
+16) Wikipedia, Lambda calculus, available at
 `http://en.wikipedia.org/wiki/Lambda_calculus` These blog entries by
 Mark Chu-Carroll are *lots* of fun - just the kind of readable, informal
 exposition I aspire to:
 
-17\) Mark Chu-Carroll, Lambda calculus, available at
+17) Mark Chu-Carroll, Lambda calculus, available at
 `http://goodmath.blogspot.com/2006/06/lamda-calculus-index.html`
 
 Mark Chu-Carroll, Category theory, available at
@@ -719,17 +719,17 @@ Mark Chu-Carroll, Category theory, available at
 
 These go deeper:
 
-18\) Peter Selinger, Lecture notes on the lambda calculus, available at
+18) Peter Selinger, Lecture notes on the lambda calculus, available at
 `http://www.mscs.dal.ca/~selinger/papers.html#lambdanotes`
 
 and deeper:
 
-19\) Phil Scott, Some aspects of categories in computer science,
+19) Phil Scott, Some aspects of categories in computer science,
 available at `http://www.site.uottawa.ca/~phil/papers/handbook.ps`
 
 and here's a classic:
 
-20\) Joachim Lambek and Phil Scott, Introduction to Higher Order
+20) Joachim Lambek and Phil Scott, Introduction to Higher Order
 Categorical Logic, volume 7 of Cambridge Studies in Advanced
 Mathematics, Cambridge U. Press, 1986.
 
@@ -737,26 +737,26 @@ Dolan and Trimble are far from the first to study the relation between
 games and categories. In the 1970s, Conway invented a wonderful theory
 of games and surreal numbers:
 
-21\) John H. Conway, On Numbers and Games, Academic Press, New York,
+21) John H. Conway, On Numbers and Games, Academic Press, New York,
 1976. Second edition: A. K. Peters, Wellesley, Massachusetts, 2001.
 
-22\) Elwyn Berlekamp, John H. Conway, Richard Guy, Winning Ways, vols.
+22) Elwyn Berlekamp, John H. Conway, Richard Guy, Winning Ways, vols.
 1-2, Aadmic Press, New York, 1982. Second edition, vols. 1-4, A. K.
 Peters, Wellelsey, Massachusetts, 2001-2004.
 
-23\) Dierk Schleicher and Michael Stoll, An introduction to Conway's
+23) Dierk Schleicher and Michael Stoll, An introduction to Conway's
 games and numbers, available as
 [math.CO/0410026](http://arxiv.org/abs/math.CO/0410026).
 
 In 1977, Joyal modified Conway's work a bit and related it explicitly
 to category theory:
 
-24\) André Joyal, Remarques sur la theorie des jeux a deux personnes,
+24) André Joyal, Remarques sur la theorie des jeux a deux personnes,
 Gazette des Sciences Mathematiques du Quebec, Vol I no 4 (1977), 46-52.
 
 For an online version in English, try:
 
-25\) André Joyal, trans. Robin Houston, Remarks on the theory of
+25) André Joyal, trans. Robin Houston, Remarks on the theory of
 two-person games, 2003. Available at
 `http://www.ma.man.ac.uk/~rhouston/Joyal-games.ps`
 
@@ -766,16 +766,16 @@ games and logic. In 1992, Andreas Blass published an influential paper
 on "game semantics" for logic, where propositions are interpreted as
 games and winning strategies are proofs:
 
-26\) Andreas R. Blass, Game semantics and linear logic, Annals of Pure
+26) Andreas R. Blass, Game semantics and linear logic, Annals of Pure
 and Applied Logic 56 (1992), 183-220.
 
 Then came these important papers:
 
-27\) Samson Abramsky and Radha Jagadeesan, Games and full completeness
+27) Samson Abramsky and Radha Jagadeesan, Games and full completeness
 for multiplicative linear logic, Journal of Symbolic Logic, 59 (1994),
 543 - 574. Also available at `http://citeseer.ist.psu.edu/564168.html`
 
-28\) Martin Hyland and C.-H. Luke Ong, Fair games and full completeness
+28) Martin Hyland and C.-H. Luke Ong, Fair games and full completeness
 for multiplicative linear logic without the MIX-rule, available at
 `http://citeseer.ist.psu.edu/hyland93fair.html`
 
@@ -817,27 +817,27 @@ According to Samson Abramsky,
 to do arithmetic and full-fledged computation. Here are the papers on
 PCF mentioned above:
 
-29\) Samson Abramsky, R. Jagadeesan, and P. Malacaria, Full abstraction
+29) Samson Abramsky, R. Jagadeesan, and P. Malacaria, Full abstraction
 for PCF, Information and Computation, 163 (2000), 409-470. Available at
 `http://web.comlab.ox.ac.uk/oucl/work/samson.abramsky/pubs.html`
 
-30\) Martin Hyland and C.-H. Luke Ong, On full abstraction for PCF, In
+30) Martin Hyland and C.-H. Luke Ong, On full abstraction for PCF, In
 Information and Computation 163 (2000), 285-408.
 
 Luke Ong has also written other papers using game theory to study the λ
 calculus:
 
-31\) A. D. Ker, H. Nickau, and C.-H. Luke Ong, A universal innocent game
+31) A. D. Ker, H. Nickau, and C.-H. Luke Ong, A universal innocent game
 model for the Böhm tree λ theory, in Computer Science Logic: Proceedings
 of the 8th Annual Conference on the EACSL Madrid, Spain, September 1999,
 LNCS Volume 1683, Springer-Verlag, 1999, pp. 405-419.
 
-32\) A. D. Ker, H. Nickau, and C.-H. Luke Ong, Innocent game models of
+32) A. D. Ker, H. Nickau, and C.-H. Luke Ong, Innocent game models of
 untyped λ-calculus, Theoretical Computer Science, 272 (2002), 247-292.
 
 For a good introduction to all this work, try these:
 
-33\) Robin Houston, Categories of Games, M.Sc. thesis, U. Manchester,
+33) Robin Houston, Categories of Games, M.Sc. thesis, U. Manchester,
 2003. Available at `http://www.cs.man.ac.uk/~houstorx/msc.pdf`
 
 Robin Houston, Mathematics of Games, continuation report, U. Manchester,

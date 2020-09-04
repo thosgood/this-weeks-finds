@@ -8,7 +8,7 @@ rain on Neptune in 8 billion years! More precisely, that's the chance
 these authors give for the formation of an ocean on Neptune when its
 interior cools down enough:
 
-1\) Sloane J. Wiktorowica and Andrew P. Ingersoll, Liquid water oceans
+1) Sloane J. Wiktorowica and Andrew P. Ingersoll, Liquid water oceans
 in ice giants, available as
 [astro-ph/0609723](http://xxx.lanl.gov/abs/astro-ph/0609723).
 
@@ -150,7 +150,7 @@ as of 2004:
 [![](exoplanets.png)](http://en.wikipedia.org/wiki/Extrasolar_planet)
 :::
 
-2\) P. R. Lawson, S. C. Unwin, and C. A. Beichman, Precursor Science for
+2) P. R. Lawson, S. C. Unwin, and C. A. Beichman, Precursor Science for
 the Terrestrial Planet Finder, JPL Pub 04-014, Oct. 2004, page 21, fig.
 5. Chart at
 `http://en.wikipedia.org/wiki/Image:Extrasolar_Planets_2004-08-31.png`\
@@ -165,7 +165,7 @@ Jupiter, or even up to 200 times heavier, but closer to their sun than
 we are to ours. Recently a postdoc at UCLA found evidence for water in
 the atmosphere of one of these planets:
 
-3\) Travis Barman, Identification of absorption features in an
+3) Travis Barman, Identification of absorption features in an
 extrasolar planet atmosphere, available as
 [arxiv:0704.1114](http://www.arxiv.org/abs/0704.1114).
 
@@ -189,14 +189,14 @@ mainly made of ice!
 
 I think this is the paper that triggered the newspaper reports:
 
-4\) M. Gillon et al, Detection of transits of the nearby hot Neptune GJ
+4) M. Gillon et al, Detection of transits of the nearby hot Neptune GJ
 436 b, available as
 [arxiv:0705.2219](http://www.arxiv.org/abs/0705.2219).
 
 It seems hot Neptunes like this could have started as hot Jupiters and
 then lost a lot of their atmosphere:
 
-5\) I. Baraffe, G. Chabrier, T. S. Barman, F. Selsis, F. Allard, and P.
+5) I. Baraffe, G. Chabrier, T. S. Barman, F. Selsis, F. Allard, and P.
 H. Hauschildt, Hot-Jupiters and hot-Neptunes, a common origin?,
 available at
 [astro-ph/0505054](http://www.arxiv.org/abs/astro-ph/0505054).
@@ -225,7 +225,7 @@ years old, perhaps formed by some energetic event, maybe a star falling
 into the central black hole. Here's an expository paper he wrote about
 it:
 
-6\) Gregory Benford, The electromagnetic snake at the galactic center,
+6) Gregory Benford, The electromagnetic snake at the galactic center,
 `http://www.ps.uci.edu/physics/news3/benford.html`
 
 I'll just quote a little:
@@ -274,7 +274,7 @@ shows the galactic center quite nicely, as viewed in radio frequencies:
 [![](galactic_center.jpg)](http://www.nrao.edu/pr/2004/filaments/)
 :::
 
-7\) National Radio Astronomy Observatory, Origin of enigmatic
+7) National Radio Astronomy Observatory, Origin of enigmatic
 galactic-center filaments revealed,
 `http://www.nrao.edu/pr/2004/filaments/`
 
@@ -286,7 +286,7 @@ regions where stars are forming... that could be important.
 But, this article discusses another piece of the puzzle - the possible
 role of turbulence in winding up the galactic magnetic field:
 
-8\) Stanislav Boldyrev and Farhad Yusef-Zadeh, Turbulent origin of the
+8) Stanislav Boldyrev and Farhad Yusef-Zadeh, Turbulent origin of the
 galactic-center magnetic field: nonthermal radio filaments, available as
 [astro-ph/0512373](http://xxx.lanl.gov/abs/astro-ph/0512373).
 
@@ -317,7 +317,7 @@ place?
 
 This book is very helpful:
 
-9\) Charles W. Curtis, Pioneers of Representation Theory: Frobenius,
+9) Charles W. Curtis, Pioneers of Representation Theory: Frobenius,
 Burnside, Schur and Brauer, History of Mathematics vol. 15, AMS,
 Providence, Rhode Island, 1999.
 

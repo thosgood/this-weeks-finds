@@ -8,7 +8,7 @@ moon of Jupiter that I introduced back in ["Week 266"](#week266):
 [![](io_and_jupiter.jpg){width="600"}](io_and_jupiter.jpg)
 :::
 
-1\) NASA Photojournal, A new year for Jupiter and Io,
+1) NASA Photojournal, A new year for Jupiter and Io,
 `http://photojournal.jpl.nasa.gov/catalog/PIA02879`
 
 Io looks awfully close to Jupiter here! It's actually 2.5 Jupiter
@@ -32,13 +32,13 @@ somehow sitting inside quantum theory? The world is quantum, after all.
 
 There are a couple of papers so far that discuss this provocative idea:
 
-2\) Bob Coecke and Dusko Pavlovic, Quantum measurements without sums, in
+2) Bob Coecke and Dusko Pavlovic, Quantum measurements without sums, in
 The Mathematics of Quantum Computation and Technology, eds. Chen,
 Kauffman and Lomonaco, Chapman and Hall/CRC, New York, pp. 559-596. Also
 available as
 [`arXiv:quant-ph/0608035`](http://arxiv.org/abs/quant-ph/0608035).
 
-3\) Jamie Vicary, Categorical formulation of quantum algebras, available
+3) Jamie Vicary, Categorical formulation of quantum algebras, available
 as [`arXiv:0805.0432`](http://arxiv.org/abs/0805.0432).
 
 Second, Paul-André Melliès, the computer scientist and logician who's
@@ -47,14 +47,14 @@ certain categories - "*-autonomous categories" - which can be seen as
 *categorified* Frobenius algebras. Here the idea goes back to Ross
 Street:
 
-4\) Ross Street, Frobenius monads and pseudomonoids, J. Math. Physics 45
+4) Ross Street, Frobenius monads and pseudomonoids, J. Math. Physics 45
 (2004) 3930-3948. Available as
 `http://www.math.mq.edu.au/~street/Frob.pdf`
 
 Paul-André is teaching a course on this and related topics; you can see
 the slides for his course here:
 
-5\) Paul-André Melliès, Groupoides quantiques et logiques tensorielles:
+5) Paul-André Melliès, Groupoides quantiques et logiques tensorielles:
 une introduction, course notes at
 `http://www.pps.jussieu.fr/~mellies/teaching.html`
 
@@ -95,7 +95,7 @@ There's also a vast wilderness of non-semisimple ones, which will never
 be classified. But for a nice step in this direction, try Prop. 2 in
 this paper:
 
-6\) Steve Sawin, Direct sum decompositions and indecomposable TQFTs, J.
+6) Steve Sawin, Direct sum decompositions and indecomposable TQFTs, J.
 Math. Phys. 36 (1995) 6673-6680. Also available as
 [q-alg/9505026](http://arxiv.org/abs/q-alg/9505026).
 
@@ -264,23 +264,23 @@ A COMMUTATIVE FROBENIUS ALGEBRA.
 
 This idea goes back to Dijkgraaf:
 
-7\) Robbert H. Dijkgraaf, A Geometric Approach To Two-Dimensional
+7) Robbert H. Dijkgraaf, A Geometric Approach To Two-Dimensional
 Conformal Field Theory, PhD thesis, University of Utrecht, 1989.
 
 and a formal proof was given by Abrams:
 
-8\) Lowell Abrams, Two-dimensional topological quantum field theories
+8) Lowell Abrams, Two-dimensional topological quantum field theories
 and Frobenius algebra, Jour. Knot. Theory and its Ramifications 5
 (1996), 569-587.
 
 This book is probably the best place to learn the details:
 
-9\) Joachim Kock, Frobenius Algebras and 2d Topological Quantum Field
+9) Joachim Kock, Frobenius Algebras and 2d Topological Quantum Field
 Theories, Cambridge U. Press, Cambridge, 2004.
 
 but for a goofier explanation, try this:
 
-10\) John Baez, Winter 2001 Quantum Gravity Seminar, Track 1, weeks
+10) John Baez, Winter 2001 Quantum Gravity Seminar, Track 1, weeks
 11-17, `http://math.ucr.edu/home/baez/qg-winter2001/`
 
 To prove the equivalence of 2d TQFTs and commutative Frobenius algebras,
@@ -319,7 +319,7 @@ includes some nice information about this. Read what Joyal said about
 Frobenius algebras that made Eilenberg ostentatiously rise and leave the
 room!
 
-11\) Joachim Kock, Remarks on the history of the Frobenius equation,
+11) Joachim Kock, Remarks on the history of the Frobenius equation,
 `http://mat.uab.es/~kock/TQFT.html#history`
 
 The people I just mentioned are famous category theorists. They realized
@@ -331,7 +331,7 @@ us generalize the notion of a *commutative* Frobenius object.
 
 For a nice intro to these ideas, try the slides of this talk:
 
-12\) Ross Street, Frobenius algebras and monoidal category, talk at the
+12) Ross Street, Frobenius algebras and monoidal category, talk at the
 annual meeting of the Australian Mathematical Society, September 2004,
 available at `http://www.maths.mq.edu.au/~street/FAMC.pdf`
 
@@ -406,14 +406,14 @@ strings together in one big happy family... or category.
 The idea of doing this for topological strings was developed by Moore
 and Segal:
 
-13\) Greg Moore, Lectures on branes, K-theory and RR charges, Clay Math
+13) Greg Moore, Lectures on branes, K-theory and RR charges, Clay Math
 Institute Lecture Notes (2002), available at
 `http://www.physics.rutgers.edu/~gmoore/clay1/clay1.html`
 
 Lauda and Pfeiffer developed this idea and proved that this category has
 a nice description in terms of Frobenius algebras:
 
-14\) Aaron Lauda and Hendryk Pfeiffer, Open-closed strings:
+14) Aaron Lauda and Hendryk Pfeiffer, Open-closed strings:
 two-dimensional extended TQFTs and Frobenius algebras, Topology Appl.
 155 (2008) 623-666. Also available as
 [arxiv:math.AT/0510664](http://arxiv.org/abs/math.AT/0510664).
@@ -431,7 +431,7 @@ paper - since that's where I got most of these pictures! And, it's
 just the beginning of a longer story where Lauda and Pfeiffer build 2d
 TQFTs using state sum models:
 
-15\) Aaron Lauda and Hendryk Pfeiffer, State sum construction of
+15) Aaron Lauda and Hendryk Pfeiffer, State sum construction of
 two-dimensional open-closed topological quantum field theories, J. Knot
 Theory and its Ramifications 16 (2007), 1121-1163. Also available as
 [`arXiv:math/0602047`](http://arXiv.org/abs/math/0602047).
@@ -441,7 +441,7 @@ explained way back in ["Week 16"](#week16) and also in my seminar
 notes mentioned above. Then Lauda and Pfeiffer use this machinery to
 study knot theory!
 
-16\) Aaron Lauda and Hendryk Pfeiffer, Open-closed TQFTs extend Khovanov
+16) Aaron Lauda and Hendryk Pfeiffer, Open-closed TQFTs extend Khovanov
 homology from links to tangles, available as
 [math/0606331](http://arXiv.org/abs/math/0606331).
 
@@ -470,7 +470,7 @@ g(a,b) = tr(L~a~ L~b~)
 This bilinear form is nondegenerate precisely when our algebra is
 "strongly separable":
 
-17\) Marcelo Aguiar, A note on strongly separable algebras, available at
+17) Marcelo Aguiar, A note on strongly separable algebras, available at
 `http://www.math.tamu.edu/~maguiar/strongly.ps.gz`
 
 Over the complex numbers, or any field of characteristic zero, an
@@ -501,11 +501,11 @@ Frobenius algebras with this cute extra property are sometimes called
 If we use a commutative special Frobenius algebra to get a 2d TQFT, it
 fails to detect handles! That seems sad. But these papers:
 
-18\) Stephen Lack, Composing PROPs, Theory and Applications of
+18) Stephen Lack, Composing PROPs, Theory and Applications of
 Categories 13(2004), 147-163. Available at
 `http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html`
 
-19\) R. Rosebrugh, N. Sabadini and R.F.C. Walters, Generic commutative
+19) R. Rosebrugh, N. Sabadini and R.F.C. Walters, Generic commutative
 separable algebras and cospans of graphs, Theory and Applications of
 Categories 15 (Proceedings of CT2004), 164-177. Available at
 `http://www.tac.mta.ca/tac/volumes/15/6/15-06abs.html`
@@ -579,7 +579,7 @@ trick replacing the compact manifold by a complex projective variety.
 I'm no expert on this, but people seem to say that it only works for
 Calabi-Yau varieties. Then you can do lots of cool stuff:
 
-20\) Kevin Costello, Topological conformal field theories and Calabi-Yau
+20) Kevin Costello, Topological conformal field theories and Calabi-Yau
 categories, available as
 [arxiv:math/0412149](http://arxiv.org/abs/math/0412149).
 
@@ -600,7 +600,7 @@ algebras?
 
 Yes!
 
-21\) Ingo Runkel, Jens Fjelstad, Jurgen Fuchs, Christoph Schweigert,
+21) Ingo Runkel, Jens Fjelstad, Jurgen Fuchs, Christoph Schweigert,
 Topological and conformal field theory as Frobenius algebras, available
 as [`arXiv:math/0512076`](http://arXiv.org/abs/math/0512076).
 
@@ -621,7 +621,7 @@ can also get them from von Neumann algebras!
 If you want to learn the basics, this book is great - there's a
 slightly unpolished version free online:
 
-22\) B. Bakalov and A. Kirillov, Jr., Lectures on Tensor Categories and
+22) B. Bakalov and A. Kirillov, Jr., Lectures on Tensor Categories and
 Modular Functors, American Mathematical Society, Providence, Rhode
 Island, 2001. Preliminary version available at
 `http://www.math.sunysb.edu/~kirillov/tensor/tensor.html`
@@ -631,13 +631,13 @@ doesn't say much about topological or conformal field theory, but it
 gives a great overview of recent work on the algebraic aspects of tensor
 categories:
 
-23\) Michael Müger, Tensor categories: a selective guided tour,
+23) Michael Müger, Tensor categories: a selective guided tour,
 available as [`arXiv:0804.3587`](http://arxiv.org/abs/0804.3587).
 
 Here's a quite different introduction to recent developments, at least
 up to 2004:
 
-24\) Damien Calaque and Pavel Etingof, Lectures on tensor categories,
+24) Damien Calaque and Pavel Etingof, Lectures on tensor categories,
 available as
 [`arXiv:math/0401246`](http://arXiv.org/abs/arXiv:math/0401246).
 
@@ -646,13 +646,13 @@ fundamental paper describing how to think of any modular tensor category
 as the category of representations of an algebraic gadget - a "weak
 Hopf algebra":
 
-25\) Hendryk Pfeiffer, Tannaka-Krein reconstruction and a
+25) Hendryk Pfeiffer, Tannaka-Krein reconstruction and a
 characterization of modular tensor categories, available as
 [`arXiv:0711.1402`](http://arxiv.org/abs/0711.1402).
 
 And here's a paper that illustrates the wealth of examples:
 
-26\) Seung-moon Hong, Eric Rowell, Zhenghan Wang, On exotic modular
+26) Seung-moon Hong, Eric Rowell, Zhenghan Wang, On exotic modular
 tensor categories, available as
 [`arXiv:07108.5761`](http://arxiv.org/abs/0710.5761).
 
@@ -769,7 +769,7 @@ introduced in Street's paper "Frobenius monads and pseudomonoids",
 cited above - but if you like pictures, you may also enjoy learning
 about them here:
 
-27\) Aaron Lauda, Frobenius algebras and ambidextrous adjunctions,
+27) Aaron Lauda, Frobenius algebras and ambidextrous adjunctions,
 Theory and Applications of Categories 16 (2006), 84-122, available at
 `http://tac.mta.ca/tac/volumes/16/4/16-04abs.html`\
 Also available as
@@ -884,14 +884,14 @@ g(a or b, c) ≅ g(a, b or c)
 I hope I didn't screw up. I want this definition to be equivalent to
 the usual one, which was invented by Michael Barr quite a while ago:
 
-28\) Michael Barr, *-Autonomous Categories, Lecture Notes in
+28) Michael Barr, *-Autonomous Categories, Lecture Notes in
 Mathematics 752, Springer, Berlin, 1979.
 
 By now *-autonomous categories become quite popular among those working
 at the interface of category theory and logic. And, there are many ways
 to define them. Brady and Trimble found a nice one:
 
-29\) Gerry Brady and Todd Trimble, A categorical interpretation of C. S.
+29) Gerry Brady and Todd Trimble, A categorical interpretation of C. S.
 Peirce's System Alpha, Jour. Pure Appl. Alg. 149 (2000), 213-239.
 
 Namely, they show a *-autonomous category is the same as a symmetric
@@ -925,12 +925,12 @@ unified explanation of what's going on! Do you have any ideas?
 Finally, here are two books on math and music that I should read
 someday. The first seems more elementary, the second more advanced:
 
-30\) Trudi Hammel Garland and Charity Vaughan Kahn, Math and Music -
+30) Trudi Hammel Garland and Charity Vaughan Kahn, Math and Music -
 Harmonious Connections, Dale Seymour Publications, 1995. Review by
 Elodie Lauten on her blog Music Underground,
 `http://www.sequenza21.com/2007/04/microtonal-math-heads.html`
 
-31\) Serge Donval, Histoire de l'Acoustique Musicale (History of
+31) Serge Donval, Histoire de l'Acoustique Musicale (History of
 Musical Acoustics), Editions Fuzaeau, Bressuire, France, 2006. Review at
 Music Theory Online,
 `http://mto.societymusictheory.org/mto-books.html?id=11`
@@ -971,12 +971,12 @@ underlying algebra of a special Frobenius algebra is strongly separable.
 
 For more details, see:
 
-32\) nLab, Frobenius algebra,
+32) nLab, Frobenius algebra,
 `http://ncatlab.org/nlab/show/Frobenius+algebra`
 
 and:
 
-33\) nLab, Separable algebra,
+33) nLab, Separable algebra,
 `http://ncatlab.org/nlab/show/separable+algebra`
 
 ------------------------------------------------------------------------

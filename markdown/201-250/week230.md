@@ -12,7 +12,7 @@ Martian sunset, photographed by the rover Spirit in Gusev Crater on May
 height="300"}](http://marsrovers.nasa.gov/gallery/press/spirit/20050610a.html)
 :::
 
-1\) A moment frozen in time, NASA Mars Exploration Rover Mission,
+1) A moment frozen in time, NASA Mars Exploration Rover Mission,
 `http://marsrovers.nasa.gov/gallery/press/spirit/20050610a.html`
 
 This week I'll talk about Dynkin diagrams, quivers and Hall algebras.
@@ -22,7 +22,7 @@ My student Mike Stay did computer science before he came to UCR. When he
 was applying, he mentioned a result he helped prove, which relates
 Goedel's theorem to the Heisenberg uncertainty principle:
 
-2\) C. S. Calude and M. A. Stay, From Heisenberg to Goedel via Chaitin,
+2) C. S. Calude and M. A. Stay, From Heisenberg to Goedel via Chaitin,
 International Journal of Theoretical Physics, 44 (2005), 1053-1065. Also
 available at `http://math.ucr.edu/~mike/`
 
@@ -41,7 +41,7 @@ sometimes fools around with math identities and tries to categorify them
 don't know what that means. Anyway, maybe that's how he stumbled on
 this:
 
-3\) Jonathan Sondow, A faster product for π and a new integral for
+3) Jonathan Sondow, A faster product for π and a new integral for
 ln(π/2), Amer. Math. Monthly 112 (2005), 729-734. Also available as
 [math.NT/0401406](http://arxiv.org/abs/math.NT/0401406).
 
@@ -539,12 +539,12 @@ or more generally the category of modules of any ring, where you can
 talk about chain complexes, exact sequences and stuff like that. You can
 see the precise definition here:
 
-4\) Abelian categories, Wikipedia,
+4) Abelian categories, Wikipedia,
 `http://en.wikipedia.org/wiki/Abelian_category`
 
 and learn more here:
 
-5\) Peter Freyd, Abelian Categories, Harper and Row, New York, 1964.
+5) Peter Freyd, Abelian Categories, Harper and Row, New York, 1964.
 Also available at
 `http://www.tac.mta.ca/tac/reprints/articles/3/tr3abs.html`
 
@@ -592,7 +592,7 @@ elements, where q is a prime power.
 Then, Ringel proved an amazing theorem about the Hall algebra H(Rep(Q))
 when Q comes from a Dynkin diagram of type A, D, or E:
 
-5\) C. M. Ringel, Hall algebras and quantum groups, Invent. Math. 101
+5) C. M. Ringel, Hall algebras and quantum groups, Invent. Math. 101
 (1990), 583-592.
 
 He showed this Hall algebra is a quantum group! More precisely, it's
@@ -620,37 +620,37 @@ C^2/G where G is a finite subgroup of SU(2), you get a variety whose
 K-theory (as defined above) is isomorphic to the representation ring of
 G! This was shown here:
 
-6\) G. Gonzalez-Springberg and J. L. Verdier, Construction geometrique
+6) G. Gonzalez-Springberg and J. L. Verdier, Construction geometrique
 de la correspondance de McKay, Ann. ENS 16 (1983), 409-449.
 
 For further developments, try this paper, which studies the derived
 category of coherent sheaves on this minimal resolution of C^2/G:
 
-7\) Mikhail Kapranov and Eric Vasserot, Kleinian singularities, derived
+7) Mikhail Kapranov and Eric Vasserot, Kleinian singularities, derived
 categories and Hall algebras, available as
 [math.AG/9812016](http://arxiv.org/abs/math.AG/9812016).
 
 Now let me give a bunch of references for further study. For a really
 quick overview of the whole ADE business, try these:
 
-8\) Andrei Gabrielov, Coxeter-Dynkin diagrams and singularities, in
+8) Andrei Gabrielov, Coxeter-Dynkin diagrams and singularities, in
 Selected Papers of E. B. Dynkin with Commentary, eds. A. A. Yushkevich,
 G. M. Seitz and A. I. Onishchik, AMS, 1999. Also available at
 `http://www.math.purdue.edu/~agabriel/dynkin.pdf`
 
-9\) John McKay, A rapid introduction to ADE theory,
+9) John McKay, A rapid introduction to ADE theory,
 `http://math.ucr.edu/home/baez/ADE.html`
 
 Here's a more detailed but still highly readable introduction:
 
-10\) Joris van Hoboken, Platonic solids, binary polyhedral groups,
+10) Joris van Hoboken, Platonic solids, binary polyhedral groups,
 Kleinian singularities and Lie algebras of type A,D,E, Master's Thesis,
 University of Amsterdam, 2002, available at
 `http://math.ucr.edu/home/baez/joris_van_hoboken_platonic.pdf`
 
 This classic has recently become available online:
 
-11\) M. Hazewinkel, W. Hesselink, D. Siermsa, and F. D. Veldkamp, The
+11) M. Hazewinkel, W. Hesselink, D. Siermsa, and F. D. Veldkamp, The
 ubiquity of Coxeter-Dynkin diagrams (an introduction to the ADE
 problem), Niew. Arch. Wisk., 25 (1977), 257-307. Also available at
 [http://repos.project.cwi.nl:8888/cwi_repository/docs/I/10/10039A.pdf](http://repos.project.cwi.nl:8888/cwi_repository/docs/I/10/10039A.pdf%0A)
@@ -659,22 +659,22 @@ or `http://math.ucr.edu/home/baez/hazewinkel_et_al.pdf`
 Here's a really nice, elementary introduction to Klein's work on the
 icosahedron and the quintic:
 
-12\) Jerry Shurman, Geometry of the Quintic, Wiley, New York, 1997. Also
+12) Jerry Shurman, Geometry of the Quintic, Wiley, New York, 1997. Also
 available at `http://people.reed.edu/~jerry/Quintic/quintic.html`
 
 I haven't seen this book, but I hear it's good:
 
-13\) P. Slodowy, Simple Singularities and Algebraic Groups, Lecture
+13) P. Slodowy, Simple Singularities and Algebraic Groups, Lecture
 Notes in Mathematics 815, Springer, Berlin, 1980.
 
 Here's a bibliography with links to online references:
 
-14\) Miles Reid, Links to papers on McKay correspondence,
+14) Miles Reid, Links to papers on McKay correspondence,
 `http://www.maths.warwick.ac.uk/~miles/McKay/`
 
 Of those references, I especially like this:
 
-15\) Miles Reid, La Correspondence de McKay (in English), Seminaire
+15) Miles Reid, La Correspondence de McKay (in English), Seminaire
 Bourbaki, 52eme annee, November 1999, no. 867, to appear in Asterisque
 2000. Also available as
 [math.AG/9911165](http://arxiv.org/abs/math.AG/9911165).
@@ -713,7 +713,7 @@ it makes a kind of sense.
 
 I guess this is a famous paper about this stuff:
 
-16\) Michael R. Douglas and Gregory Moore, D-branes, quivers and ALE
+16) Michael R. Douglas and Gregory Moore, D-branes, quivers and ALE
 instantons, available as
 [hep-th/9603167](http://xxx.lanl.gov/abs/hep-th/9603167).
 
@@ -754,14 +754,14 @@ Graham Leuschke wrote:
 > Harm Derksen and Jerzy Weyman had a nice overview of quiver
 > representations and the theorem of Gabriel in the Notices last year:
 >
-> 17\) Harm Derksen and Jerzy Weyman, Quiver representations, AMS
+> 17) Harm Derksen and Jerzy Weyman, Quiver representations, AMS
 > Notices 52 (2005), 200-206. Also available as
 > `http://www.ams.org/notices/200502/fea-weyman.pdf`
 >
 > Idun Reiten had a similar one in the Notices back in 1997, but I
 > can't find it online anywhere:
 >
-> 18\) Idun Reiten, Dynkin diagrams and the representation theory of
+> 18) Idun Reiten, Dynkin diagrams and the representation theory of
 > algebras, AMS Notices 44 (1997), 546-556.
 >
 > She did a really nice job of explaining the connections with quadratic
@@ -778,7 +778,7 @@ David Rusin wrote:
 >
 > Milnor has a lovely little book:
 >
-> 19\) John Milnor, Singular points of complex hypersurfaces, Ann. Math.
+> 19) John Milnor, Singular points of complex hypersurfaces, Ann. Math.
 > Studies 61, Princeton U. Press, Princeton, 1968.
 >
 > which takes the point of view that the RIGHT thing to do at an
@@ -810,12 +810,12 @@ Leslie Coghlan wrote:
 
 > Please add to Week 230 links to copies of these two papers:
 >
-> 20\) H. S. M. Coxeter: The evolution of Coxeter-Dynkin diagrams, in:
+> 20) H. S. M. Coxeter: The evolution of Coxeter-Dynkin diagrams, in:
 > Polytopes: Abstract, Convex and Computational, eds. T. Bisztriczky, P.
 > McMullen, R. Schneider and A. Ivic Weiss, NATO ASI Series C, Vol. 440,
 > Kluwer, Dordrecht, 1994, pp. 21-42.
 >
-> 21\) E. Witt, Spiegelungsgruppen und Aufzahlung halbeinfacher Liescher
+> 21) E. Witt, Spiegelungsgruppen und Aufzahlung halbeinfacher Liescher
 > Ringe, Abhandl. Math. Sem. Univ. Hamburg. 14 (1941), 289-337.
 >
 > Yours,
@@ -824,10 +824,10 @@ Leslie Coghlan wrote:
 
 Here are a couple more online introductions:
 
-22\) William Crawley-Boevey, Notes on quiver representations, available
+22) William Crawley-Boevey, Notes on quiver representations, available
 at `http://www.amsta.leeds.ac.uk/~pmtwc/quivlecs.pdf`.
 
-23\) Alistair Savage, Finite-dimensional algebras and quivers, available
+23) Alistair Savage, Finite-dimensional algebras and quivers, available
 as [`arXiv:math/0505082`](http://www.arxiv.org/abs/math/0505082).
 
 ------------------------------------------------------------------------

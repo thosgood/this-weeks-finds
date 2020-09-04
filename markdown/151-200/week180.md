@@ -21,7 +21,7 @@ been looking for quark stars for some time, with no success, but NASA
 has just announced the discovery of two entities that *might* be quark
 stars:
 
-1\) Cosmic X-rays reveal evidence for new form of matter,
+1) Cosmic X-rays reveal evidence for new form of matter,
 `http://www1.msfc.nasa.gov/NEWSROOM/news/releases/2002/02-082.html`
 
 The Chandra X-ray observatory (see ["Week 143"](#week143) for info
@@ -42,7 +42,7 @@ wines at St. Johns. But he must have been working dreadfully hard for
 the last decade or so, because he's produced a book of mammoth
 proportions:
 
-2\) Peter Johnstone, Sketches of an Elephant: a Topos Theory Compendium,
+2) Peter Johnstone, Sketches of an Elephant: a Topos Theory Compendium,
 Cambridge U. Press. Volume 1, comprising Part A: Toposes as Categories,
 and Part B: 2-categorical Aspects of Topos Theory, 720 pages, to appear
 in June 2002. Volume 2, comprising Part C: Toposes as Spaces, and Part
@@ -62,13 +62,13 @@ If you're wondering what a topos actually *is*, and you're too
 impatient to wait for Johnstone's books to come out, I suggest that you
 start with my quick online summary:
 
-3\) John Baez, Topos theory in a nutshell,
+3) John Baez, Topos theory in a nutshell,
 `http://math.ucr.edu/home/baez/topos.html`
 
 and then try the books I recommended in ["Week 68"](#week68), along
 with this one:
 
-4\) Colin McLarty, Elementary Categories, Elementary Toposes, Oxford
+4) Colin McLarty, Elementary Categories, Elementary Toposes, Oxford
 University Press, Oxford, 1992.
 
 which I only learned about later, when McLarty sent me a copy. I wish
@@ -510,13 +510,13 @@ Okay, that pretty much concludes my story for Spin(n,C). I could do some
 other examples, but we're probably both getting worn out; if you want,
 you can read about them in section 23.3 of this book:
 
-5\) William Fulton and Joe Harris, Representation Theory - a First
+5) William Fulton and Joe Harris, Representation Theory - a First
 Course, Springer Verlag, Berlin, 1991.
 
 So instead, let me conclude with a few remarks about twistors. taken
 from here:
 
-6\) Robert J. Baston and Michael G. Eastwood, The Penrose Transform: its
+6) Robert J. Baston and Michael G. Eastwood, The Penrose Transform: its
 Interaction with Representation Theory, Clarendon Press, Oxford, 1989.
 
 The field equations for massless particles like photons are conformally
@@ -640,7 +640,7 @@ as more fundamental than points....
 There's a lot more to say, but I'll stop here! If you want more, try
 this:
 
-7\) S. A. Huggett and K.P. Tod, An Introduction to Twistor Theory,
+7) S. A. Huggett and K.P. Tod, An Introduction to Twistor Theory,
 Cambridge U. Press, Cambridge, 1994.
 
 ------------------------------------------------------------------------

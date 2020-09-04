@@ -11,7 +11,7 @@ by the overworked staff.
 This February they're having a conference on logic and computation,
 with a strong slant towards the use of diagrams:
 
-1\) Geometry of Computation 2006 (Geocal06),
+1) Geometry of Computation 2006 (Geocal06),
 `http://iml.univ-mrs.fr/geocal06/`
 
 The first week they had lots of talks on "higher-dimensional
@@ -35,7 +35,7 @@ smaller elliptical galaxy called NGC 1097A:
 height="450"}](http://www.galex.caltech.edu/MEDIA/2005-02/images.html)
 :::
 
-2\) NGC 1097, photograph taken by the Galaxy Evolution Explorer,
+2) NGC 1097, photograph taken by the Galaxy Evolution Explorer,
 NASA/JPL-Caltech/SSC,
 `http://www.galex.caltech.edu/MEDIA/2005-02/images.html`
 
@@ -49,7 +49,7 @@ swirling into it!
 height="400"}](http://www.eso.org/outreach/press-rel/pr-2004/pr-28-04.html#phot-35d-04)
 :::
 
-3\) Spiral galaxy NGC 1097, European Southern Observatory,
+3) Spiral galaxy NGC 1097, European Southern Observatory,
 `http://www.eso.org/outreach/press-rel/pr-2004/pr-28-04.html#phot-35d-04`
 
 Recently the VLT has gotten a really close look at the center of NGC
@@ -67,7 +67,7 @@ desert roads to build this observatory:
 height="400"}](http://www.eso.org/outreach/press-rel/pr-1997/phot-35-97.html)
 :::
 
-4\) Mirror transport, European Southern Observatory,
+4) Mirror transport, European Southern Observatory,
 `http://www.eso.org/outreach/press-rel/pr-1997/phot-35-97.html`
 
 but the view of the night sky up there makes it all worthwhile:
@@ -77,7 +77,7 @@ but the view of the night sky up there makes it all worthwhile:
 height="550"}](http://www.eso.org/outreach/press-rel/pr-2005/images/phot-40b-05-normal.jpg)
 :::
 
-5\) The southern sky above Paranal, European Southern Observatory,
+5) The southern sky above Paranal, European Southern Observatory,
 `http://www.eso.org/outreach/press-rel/pr-2005/images/phot-40b-05-normal.jpg`
 
 and now they have everything they need to take advantage of that
@@ -88,7 +88,7 @@ location:
 height="500"}](http://www.eso.org/outreach/press-rel/pr-2000/phot-14a-00-normal.jpg)
 :::
 
-6\) The VLT array on Paranal Mountain, European Southern Observatory,
+6) The VLT array on Paranal Mountain, European Southern Observatory,
 `http://www.eso.org/outreach/press-rel/pr-2000/phot-14a-00-normal.jpg`
 
 So, what did they see when they looked at NGC 1097?
@@ -102,7 +102,7 @@ to form, which are ionizing the hydrogen in their vicinity:
 height="400"}](http://www.eso.org/outreach/press-rel/pr-2005/phot-33-05.html)
 :::
 
-7\) Feeding the monster, European Southern Observatory
+7) Feeding the monster, European Southern Observatory
 `http://www.eso.org/outreach/press-rel/pr-2005/phot-33-05.html`
 
 This ring is about 5,500 light-years across! That sounds big, but the
@@ -171,7 +171,7 @@ can cook up pairs x, y such that f(x) = f(y). This isn't as useful,
 since you don't have control over *either* x or y. But, there do exist
 fiendish schemes for conning people using collision attacks:
 
-8\) Magnus Daum and Stefan Lucks, Attacking hash functions by poisoned
+8) Magnus Daum and Stefan Lucks, Attacking hash functions by poisoned
 messages: "The Story of Alice and Her Boss",
 `http://www.cits.rub.de/MD5Collisions/`
 
@@ -181,7 +181,7 @@ digest! It also explains how Alice could use these to do evil deeds.
 
 For more on cryptographic hash functions and their woes, try these:
 
-9\) Cryptographic hash function, Wikipedia,
+9) Cryptographic hash function, Wikipedia,
 `http://en.wikipedia.org/wiki/Cryptographic_hash`
 
 Steve Friedl, An illustrated guide to cryptographic hashes,
@@ -243,7 +243,7 @@ So, people are getting wary of SHA-1. This is serious, because it's a
 widely used government standard. You can see the algorithm for this
 function here:
 
-10\) SHA hash functions, Wikipedia,
+10) SHA hash functions, Wikipedia,
 `http://en.wikipedia.org/wiki/SHA_hash_functions`
 
 People still hope that good hash functions exist. They hope that if a
@@ -256,7 +256,7 @@ to make the concept of "one-way function" precise, but it can be done.
 For example, Chapter 2 of this book starts out by defining "strong"
 and "weak" one-way functions:
 
-11\) Oded Goldreich, Foundations of Cryptography, Cambridge U. Press,
+11) Oded Goldreich, Foundations of Cryptography, Cambridge U. Press,
 Cambridge, 2004. Older edition available at
 `http://www.wisdom.weizmann.ac.il/~oded/frag.html`
 
@@ -284,7 +284,7 @@ not equal NP". But, proving or disproving this claim is one of the most
 profound unsolved math problems around. If you settle it, you'll get a
 million dollars from the Clay Mathematics Institute:
 
-11\) Clay Mathematics Institute, P vs NP problem,
+11) Clay Mathematics Institute, P vs NP problem,
 `http://www.claymath.org/millennium/P_vs_NP/`
 
 But if you prove that P *does* equal NP, you might make more money by
@@ -315,11 +315,11 @@ are a few people who generate random numbers from physical phenomena
 like atmospheric noise. In fact, there's a website called random.org
 where you can get such numbers for free:
 
-12\) Random.org: random integer generator, `http://random.org/`
+12) Random.org: random integer generator, `http://random.org/`
 
 There's also a website that offers *nonrandom* numbers:
 
-13\) NoEntropy.net: your online source for truly deterministic numbers,
+13) NoEntropy.net: your online source for truly deterministic numbers,
 `http://www.noentropy.net/`
 
 But joking aside, it's a really tantalizing and famous problem to
@@ -341,7 +341,7 @@ particular random sequence of bits called Ω using the fact that no
 algorithm can decide which Turing machines halt... but this random
 sequence is uncomputable, so you can't really "exhibit" it:
 
-14\) Gregory Chaitin, Paradoxes of randomness, Complexity 7 (2002),
+14) Gregory Chaitin, Paradoxes of randomness, Complexity 7 (2002),
 14-21. Also available as
 `http://www.umcs.maine.edu/~chaitin/summer.html`
 
@@ -380,7 +380,7 @@ rate higher than chance would dictate.
 If you want a more precise definition and a bunch of theorems, try
 these:
 
-15\) Oded Goldreich, papers and lecture notes on pseudorandomness,
+15) Oded Goldreich, papers and lecture notes on pseudorandomness,
 available at `http://www.wisdom.weizmann.ac.il/~oded/pp_pseudo.html`
 
 Luby, M. Pseudorandomness and Cryptographic Applications. Princeton, NJ:
@@ -419,7 +419,7 @@ However, in 2002, Maninda Agrawal, Neeraj Kayal and Nitin Saxena showed
 that deciding whether numbers are prime is in P! In other words, it can
 be solved in polynomial time by a plain old deterministic algorithm:
 
-16\) Anton Stiglic, Primes is in P little FAQ,
+16) Anton Stiglic, Primes is in P little FAQ,
 `http://crypto.cs.mcgill.ca/~stiglic/PRIMES_P_FAQ.html`
 
 Is BPP = P? Nobody knows! But if good enough pseudorandom number
@@ -430,12 +430,12 @@ ones. This is not obvious, but it was proved by Nisan and Wigderson in
 
 Here's a great review article that discusses their result:
 
-17\) Luca Trevisian, Pseudorandomness and combinatorial constructions,
+17) Luca Trevisian, Pseudorandomness and combinatorial constructions,
 available as [cs.CC/0601100](http://arxiv.org/abs/cs.CC/0601100).
 
 I recommend reading it along with this:
 
-18\) Scott Aaronson, Is P versus NP formally independent?, available at
+18) Scott Aaronson, Is P versus NP formally independent?, available at
 `http://www.scottaaronson.com/papers/pnp.pdf` and
 `http://www.scottaaronson.com/papers/pnp.ps`
 
@@ -470,7 +470,7 @@ Then Aaronson gets to the heart of the subject: a history of the P vs.
 NP question. This leads up to an amazing paper of Razborov and Rudich,
 which I'll now summarize:
 
-19\) Alexander A. Razborov and Steven Rudich, Natural proofs, in Journal
+19) Alexander A. Razborov and Steven Rudich, Natural proofs, in Journal
 of Computer and System Sciences, Vol. 55, No 1, 1997, pages 24-35. Also
 available at `http://www-2.cs.cmu.edu/~rudich/papers/natural.ps` and
 `http://genesis.mi.ras.ru/~razborov/int.ps`
@@ -512,7 +512,7 @@ so far. I would like to understand it better - I explained it very
 sketchily because I don't really understand it yet. Aaronson recommends
 us to these papers for more details:
 
-20\) Alexander A. Razborov, Lower bounds for propositional proofs and
+20) Alexander A. Razborov, Lower bounds for propositional proofs and
 independence results in bounded arithmetic, in Proceedings of ICALP
 1996, 1996, pp. 48-62. Also available at
 `http://genesis.mi.ras.ru/~razborov/icalp.ps`
@@ -531,7 +531,7 @@ Also available at
 
 Also, here are some lecture notes on Boolean circuits that might help:
 
-21\) Uri Zwick, Boolean circuit complexity,
+21) Uri Zwick, Boolean circuit complexity,
 `http://www.math.tau.ac.il/~zwick/scribe-boolean.html`
 
 Aaronson wraps up by musing on the possibility that the P versus NP
@@ -577,7 +577,7 @@ Scott Aaronson, Aaron Bergman and an entity named tessel. I had written:
 
 However, Wolfgang Brand points out this paper:
 
-22\) Cristian Calude, Michael J. Dinneen, and Chi-Kou Shu, Computing a
+22) Cristian Calude, Michael J. Dinneen, and Chi-Kou Shu, Computing a
 glimpse of randomness, Experimental Mathematics 11 (2002), 361-370. Also
 available at `http://www.cs.auckland.ac.nz/~cristian/Calude361_370.pdf`
 
@@ -593,7 +593,7 @@ Allan Erskine wrote:
 > I enjoyed week 226! Algorithmic complexity was the area I studied
 > in... Your readers might find this an enjoyable read:
 >
-> 24\) Leonid Levin, The tale of one-way functions, Problems of
+> 24) Leonid Levin, The tale of one-way functions, Problems of
 > Information Transmission (= Problemy Peredachi Informatsii), 39
 > (2003), 92-103. Also available as
 > [cs.CR/0012023](http://arxiv.org/abs/cs.CR/0012023).
@@ -604,7 +604,7 @@ Allan Erskine wrote:
 > and proves a strong incompleteness result with an actual 410 + n
 > character LISP program! Crazy...
 >
-> 25\) Gregory Chaitin, Elegant LISP programs, in People and Ideas in
+> 25) Gregory Chaitin, Elegant LISP programs, in People and Ideas in
 > Theoretical Computer Science, ed. C. Calude, Springer, Singapore,
 > 1999, pp. 32-52. Also available at
 > `http://www.cs.auckland.ac.nz/CDMTCS/chaitin/lisp.html`
@@ -629,7 +629,7 @@ related to the idea of Chaitin's paper:
 > give away the answer to the puzzle; anyone who gets stuck can find the
 > answer in this nice survey:
 >
-> 26\) Peter Gacs, Lecture notes on descriptional complexity and
+> 26) Peter Gacs, Lecture notes on descriptional complexity and
 > randomness, available at `http://www.cs.bu.edu/faculty/gacs/`
 >
 > In my more rhapsodic moments, I like to think of K as the "complexity
@@ -680,7 +680,7 @@ Next, some email from the man himself: Scott Aaronson!
 > functions (OWF's) - indeed, there's evidence that proving such an
 > implication will be hard:
 >
-> 27\) Adi Akavia, Oded Goldreich, Shafi Goldwasser and Dana Moshkovitz,
+> 27) Adi Akavia, Oded Goldreich, Shafi Goldwasser and Dana Moshkovitz,
 > On basing one-way functions on NP-hardness, November 22, 2005,
 > available at `http://theory.csail.mit.edu/~akavia/AGGM.pdf`
 >
@@ -688,7 +688,7 @@ Next, some email from the man himself: Scott Aaronson!
 > generators (PRG's) do - that's a long, gnarly result of Hastad et
 > al.:
 >
-> 28\) John Hastad, Russell Impagliazzo, Leonid A. Levin and Michael
+> 28) John Hastad, Russell Impagliazzo, Leonid A. Levin and Michael
 > Luby, A pseudorandom generator from any one-way function, available at
 > `http://citeseer.ifi.unizh.ch/hastad99pseudorandom.html`
 >
@@ -737,14 +737,14 @@ Next, some email from the man himself: Scott Aaronson!
 > Probably my best-known result was to show that \~2^n/5^ accesses are
 > needed:
 >
-> 29\) Scott Aaronson, Quantum lower bound for the collision problem,
+> 29) Scott Aaronson, Quantum lower bound for the collision problem,
 > available as
 > [quant-ph/0111102](http://arxiv.org/abs/quant-ph/0111102).
 >
 > Subsequently Yaoyun Shi improved that to show that \~2^n/3^ is indeed
 > the right answer:
 >
-> 30\) Yauyon Shi, Quantum lower bounds for the collision and the
+> 30) Yauyon Shi, Quantum lower bounds for the collision and the
 > element distinctness problems, available as
 > [quant-ph/0112086](http://arxiv.org/abs/quant-ph/0112086).
 >
@@ -756,7 +756,7 @@ Next, some email from the man himself: Scott Aaronson!
 > which are the top conferences in the field (and are MUCH more
 > important than journals), and (3) post it here:
 >
-> 31\) Electronic Colloquium on Computational Complexity,
+> 31) Electronic Colloquium on Computational Complexity,
 > [http://www.eccc.uni-trier.de/eccc/](%0A%3CA%20HREF%20=%20)
 >
 > which is our own homegrown arXiv.
@@ -783,7 +783,7 @@ Next, some email from the man himself: Scott Aaronson!
 > of n^O(1)^ symbols. Here NE is Nondeterministic Exponential-Time, or
 > the exponential-time analogue of NP. (See my Complexity Zoo:
 >
-> 32\) Scott Aaronson and Greg Kuperberg, Complexity Zoo,
+> 32) Scott Aaronson and Greg Kuperberg, Complexity Zoo,
 > `http://qwiki.caltech.edu/wiki/Complexity_Zoo`
 >
 > for lots more about this and other classes.) coNE is just the
@@ -834,14 +834,14 @@ mysterious entity named tessel... again, I'll edit it a bit:
 >
 > For more on this subject, try this:
 >
-> 33\) Arjen K. Lenstra, Further progress in hashing cryptanalysis,
+> 33) Arjen K. Lenstra, Further progress in hashing cryptanalysis,
 > February 26, 2005, available at
 > `http://cm.bell-labs.com/who/akl/hash.pdf`
 >
 > > 2. The latest versions of the open source utility gpg supports a
 > > more secure algorithm, SHA-512, which AFAIK has not been broken; see
 > >
-> > 34\) Tony Stieber, GnuPG Hacks, Linux Journal, March 2006.
+> > 34) Tony Stieber, GnuPG Hacks, Linux Journal, March 2006.
 > >
 > > 3. Even insecure checksum utilities are probably better than none
 > > at all. Indeed, checking the given example:
@@ -876,7 +876,7 @@ mysterious entity named tessel... again, I'll edit it a bit:
 > > fascinated to discover from my readings a few years back that even
 > > first order logic has its fascinations!
 > >
-> > 35\) Joel Spencer, The Strange Logic of Random Graphs, Springer,
+> > 35) Joel Spencer, The Strange Logic of Random Graphs, Springer,
 > > Berlin, 2001.
 > >
 > > Here's a thought: "Everyone knows" that if on day D,
@@ -912,7 +912,7 @@ Bergman:
 > I was very interested in this question back in college, and I wrote a
 > paper about it:
 >
-> 36\) John Baez, Recursivity in quantum mechanics, Trans. Amer. Math.
+> 36) John Baez, Recursivity in quantum mechanics, Trans. Amer. Math.
 > Soc. 280 (1983), 339-350.
 >
 > where I showed that the time evolution for bunch of PDE's - including
@@ -929,7 +929,7 @@ Bergman:
 >
 > Hmm, I see that someone has rediscovered this a few years ago:
 >
-> 37\) Klaus Weihrauch and Ning Zhong Is wave propagation computable or
+> 37) Klaus Weihrauch and Ning Zhong Is wave propagation computable or
 > can wave computers beat the Turing machine? Proc. Lond. Math. Soc. 85
 > (2002) 312-332. Abstract available at
 > `http://www.lms.ac.uk/publications/proceedings/abstracts/p1364a.html`
@@ -949,7 +949,7 @@ Bergman:
 Another addendum: here's a new article on the problems with finding a
 cryptographic hash function that's hard to crack:
 
-38\) Susan Landau, Find me a hash, AMS Notices 53 (March 2006), 330-332.
+38) Susan Landau, Find me a hash, AMS Notices 53 (March 2006), 330-332.
 Also available at `http://www.ams.org/notices/200603/fea-landau.pdf` and
 `http://www.ams.org/notices/200603/fea-landau.ps`
 

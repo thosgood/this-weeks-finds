@@ -4,7 +4,7 @@ My European wanderings continue. I'm in Greenwich again, just back from
 a mind-blowing conference in Vienna, part of a bigger program that's
 still going on:
 
-1\) Poisson sigma models, Lie algebroids, deformations, and higher
+1) Poisson sigma models, Lie algebroids, deformations, and higher
 analogues, Erwin Schrödinger Institute, August - September 2007,
 organized by Thomas Strobl, Henrique Bursztyn, and Harald Grosse.
 Program at `http://w3.impa.br/~henrique/esi.html`
@@ -38,30 +38,30 @@ Every mathematical physicist should know some symplectic geometry and
 Poisson geometry! To get started on symplectic geometry, try these, in
 rough order of increasing difficulty:
 
-1\) Vladimir I. Arnold, Mathematical Methods of Classical Mechanics,
+1) Vladimir I. Arnold, Mathematical Methods of Classical Mechanics,
 Springer, Berlin, 1997.
 
-2\) Ralph Abraham and Jerrold E. Marsden, Foundations of Mechanics,
+2) Ralph Abraham and Jerrold E. Marsden, Foundations of Mechanics,
 Benjamin-Cummings, New York, 1978.
 
-3\) Victor Guillemin and Shlomo Sternberg, Symplectic Techniques in
+3) Victor Guillemin and Shlomo Sternberg, Symplectic Techniques in
 Physics, Cambridge U. Press, Cambridge, 1990.
 
-4\) Ana Cannas da Silva, Symplectic geometry, available as
+4) Ana Cannas da Silva, Symplectic geometry, available as
 [`arXiv:math.SG/0505366`](http://arxiv.org/abs/math.SG/0505366).
 
-5\) Sergei Tabachnikov, Introduction to symplectic topology, available
+5) Sergei Tabachnikov, Introduction to symplectic topology, available
 at `http://www.math.psu.edu/tabachni/courses/symplectic.pdf`
 
 For Poisson geometry, try the above but also:
 
-6\) Alan Weinstein, Poisson geometry, available at
+6) Alan Weinstein, Poisson geometry, available at
 `http://galileo.stmarys-ca.edu/bdavis/poisson.pdf`
 
-7\) Darryl Holm, Applications of Poisson geometry to physical problems,
+7) Darryl Holm, Applications of Poisson geometry to physical problems,
 available as [`arXiv:0708.1585`](http://arxiv.org/abs/0708.1585).
 
-8\) I. Vaisman, Lectures on the Geometry of Poisson Manifolds,
+8) I. Vaisman, Lectures on the Geometry of Poisson Manifolds,
 Birkhaeuser, Boston, 1994.
 
 All this stuff is great. But lately, people have started thinking about
@@ -77,7 +77,7 @@ like this:
 I'd heard of Courant algebroids before, but they always seemed like a
 scary and arbitrary concept - until I came across this paper in Vienna:
 
-9\) Pavol Severa, Some title containing the words "homotopy" and
+9) Pavol Severa, Some title containing the words "homotopy" and
 "symplectic", e.g. this one, available as
 [`arXiv:math/0105080`](http://arxiv.org/abs/math/0105080).
 
@@ -208,13 +208,13 @@ Everyone knows how to get Lie algebras from Lie groups. So, the real fun
 starts in getting Lie algebroids from Lie groupoids! If you want to see
 how it works, start here:
 
-10\) Alan Weinstein, Groupoids: unifying internal and external symmetry,
+10) Alan Weinstein, Groupoids: unifying internal and external symmetry,
 AMS Notices, 43 (1996), 744-752. Also available as
 [`arXiv:math/9602220`](http://arxiv.org/abs/math/9602220).
 
 For more details, try this:
 
-11\) Kirill Mackenzie, General Theory of Lie Groupoids and Lie
+11) Kirill Mackenzie, General Theory of Lie Groupoids and Lie
 Algebroids, Cambridge U. Press, 2005.
 
 There's also the question of going back. We can integrate any
@@ -231,14 +231,14 @@ Luckily, one of the people who really understands this stuff was at this
 conference in Vienna - Chenchang Zhu. And, she explained what's going
 on. So now I'm busily reading her papers:
 
-12\) Hsian-Hua Tseng and Chenchang Zhu, Integrating Lie algebroids via
+12) Hsian-Hua Tseng and Chenchang Zhu, Integrating Lie algebroids via
 stacks, available as
 [`arXiv:math/0405003`](http://arxiv.org/abs/math/0405003).
 
-13\) Chenchang Zhu, Lie $n$-groupoids and stacky Lie groupoids, available
+13) Chenchang Zhu, Lie $n$-groupoids and stacky Lie groupoids, available
 as [`arXiv:math/0609420`](http://arxiv.org/abs/math/0609420).
 
-14\) Chenchang Zhu, Lie II theorem for Lie algebroids via stacky Lie
+14) Chenchang Zhu, Lie II theorem for Lie algebroids via stacky Lie
 groupoids, available as
 [`arXiv:math/0701024`](http://arxiv.org/abs/math/0701024).
 
@@ -251,10 +251,10 @@ understand them. In particular, problems also arise when trying to
 integrate Lie $n$-algebras to get Lie $n$-groups, but a lot of progress has
 been made on these problems:
 
-15\) Ezra Getzler, Lie theory for nilpotent L~\infty~-algebras, available as
+15) Ezra Getzler, Lie theory for nilpotent L~\infty~-algebras, available as
 [`arXiv:math/0404003`](http://arxiv.org/abs/math/0404003).
 
-16\) Andre Henriques, Integrating L~\infty~-algebras, available as
+16) Andre Henriques, Integrating L~\infty~-algebras, available as
 [`arXiv:math/0603563`](http://arxiv.org/abs/math/0603563).
 
 The really wonderful part is that there's already a functioning theory
@@ -262,7 +262,7 @@ of Lie $n$-algebroids, carefully disguised under the name of
 "NQ-manifolds of degree n". For a great introduction to these, see
 section 2 of this paper:
 
-17\) Dmitry Roytenberg, On the structure of graded symplectic
+17) Dmitry Roytenberg, On the structure of graded symplectic
 supermanifolds and Courant algebroids, in Quantization, Poisson Brackets
 and Beyond, ed. Theodore Voronov, Contemp. Math. 315, AMS, Providence,
 Rhode Island, 2002. Also available as
@@ -313,7 +313,7 @@ some truly mind-boggling ideas afoot here, which will turn out to be
 quite simple when properly understood. For a taste of the underlying
 simplicity, try this:
 
-18\) Urs Schreiber, That shift in dimension,
+18) Urs Schreiber, That shift in dimension,
 `http://golem.ph.utexas.edu/category/2007/08/john_baez_and_i_spent.html`
 
 But, I'd better learn more before trying to explain these things.
@@ -639,7 +639,7 @@ Voilà!
 By the way, if ["Week 47"](#week47) doesn't satisfy your hunger
 for information on groupoid cardinality, try this:
 
-19\) John Baez and James Dolan, From finite sets to Feynman diagrams, in
+19) John Baez and James Dolan, From finite sets to Feynman diagrams, in
 Mathematics Unlimited - 2001 and Beyond, vol. 1, eds. Bjorn Engquist and
 Wilfried Schmid, Springer, Berlin, 2001, pp. 29-50. Also available as
 [math.QA/0004133](http://arxiv.org/abs/math.QA/0004133).
@@ -647,12 +647,12 @@ Wilfried Schmid, Springer, Berlin, 2001, pp. 29-50. Also available as
 For more on turning spans of groupoids into linear operators, and
 composing spans via weak pullback, try these:
 
-20\) Jeffrey Morton, Categorified algebra and quantum mechanics, TAC 16
+20) Jeffrey Morton, Categorified algebra and quantum mechanics, TAC 16
 (2006), 785-854. Available at
 `http://www.emis.de/journals/TAC/volumes/16/29/16-29abs.html`; also
 available as [math.QA/0601458](http://arxiv.org/abs/math.QA/0601458).
 
-21\) Simon Byrne, On Groupoids and Stuff, honors thesis, Macquarie
+21) Simon Byrne, On Groupoids and Stuff, honors thesis, Macquarie
 University, 2005, available at
 `http://www.maths.mq.edu.au/~street/ByrneHons.pdf` and
 `http://math.ucr.edu/home/baez/qg-spring2004/ByrneHons.pdf`
@@ -660,7 +660,7 @@ University, 2005, available at
 For a more leisurely exposition, with a big emphasis on applications to
 combinatorics and the quantum mechanics of the harmonic oscillator, try:
 
-22\) John Baez and Derek Wise, Quantization and Categorification,
+22) John Baez and Derek Wise, Quantization and Categorification,
 lecture notes available at:
 `http://math.ucr.edu/home/baez/qg-fall2003/`\
 `http://math.ucr.edu/home/baez/qg-winter2004/`\

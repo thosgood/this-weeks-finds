@@ -3,12 +3,12 @@
 I just finished a paper with John Huerta, a math grad student who really
 likes particle physics:
 
-1\) John Baez and John Huerta, Division algebras and supersymmetry,
+1) John Baez and John Huerta, Division algebras and supersymmetry,
 available as [`arXiv:0909.0551`](http://arxiv.org/abs/0909.0551).
 
 You can think of this paper as our sequel to:
 
-2\) John Baez, OP^1 and Lorentzian geometry,
+2) John Baez, OP^1 and Lorentzian geometry,
 `http://math.ucr.edu/home/baez/octonions/node11.html`
 
 A "normed division algebra" is an algebraic gadget where you can add,
@@ -197,19 +197,19 @@ around at the time. As far as I can tell, this is the first paper that
 explained super-Yang-Mills theory and why it only works in dimensions 3,
 4, 6 and 10:
 
-3\) Lars Brink, John Schwarz and Joel Scherk, Supersymmetric Yang-Mills
+3) Lars Brink, John Schwarz and Joel Scherk, Supersymmetric Yang-Mills
 theory, Nucl. Phys. B 121 (1977), 77-92.
 
 Well, actually 2, 4, 6, and 10, but never mind! This is the paper that
 did it for superstring theory:
 
-4\) Michael Green and John Schwarz, Covariant description of
+4) Michael Green and John Schwarz, Covariant description of
 superstrings, Phys. Lett. B136 (1984), 367-370.
 
 The bible of string theory contains proofs of these facts, based on the
 properties of Clifford algebras in various dimensions:
 
-5\) Michael B. Green, John H. Schwarz and Edward Witten, Superstring
+5) Michael B. Green, John H. Schwarz and Edward Witten, Superstring
 Theory, Volume 1, Cambridge U. Press, Cambridge, 1987. Appendix 4.A,
 Super Yang-Mills Theory, pages 244-247. Section 5.1.2: The
 supersymmetric string action, pp. 253-255.
@@ -220,7 +220,7 @@ formulated a supersymmetric model in 6 dimensions using the quaternions,
 and speculated about a similar formalism in 10 dimensions using the
 octonions:
 
-6\) Taichiro Kugo and Paul Townsend, Supersymmetry and the division
+6) Taichiro Kugo and Paul Townsend, Supersymmetry and the division
 algebras, Nucl. Phys. B 221 (1983), 357-380. Also available at
 `http://ccdb4fs.kek.jp/cgi-bin/img_index?198301032`
 
@@ -228,7 +228,7 @@ Later, Evans showed that supersymmetry of nonabelian Yang-Mills fields
 coupled to massless spinors in (n+2)-dimensional spacetime implies the
 existence of a normed division algebra of dimension n:
 
-7\) J. M. Evans, Supersymmetric Yang-Mills theories and division
+7) J. M. Evans, Supersymmetric Yang-Mills theories and division
 algebras, Nucl. Phys. B 298 (1988), 92-108. Also available at
 `http://ccdb4fs.kek.jp/cgi-bin/img_index?8801412`
 
@@ -236,25 +236,25 @@ Shortly after Kugo and Townsend's work, Tony Sudbery used division
 algebras to construct vectors, spinors and Lorentz groups in Minkowski
 spacetimes of dimensions 3, 4, 6, and 10:
 
-8\) Anthony Sudbery, Division algebras, (pseudo)orthogonal groups and
+8) Anthony Sudbery, Division algebras, (pseudo)orthogonal groups and
 spinors, Jour. Phys. A17 (1984), 939-955.
 
 He then refined his construction with the help of a grad student:
 
-9\) Kwok-Wai Chung and Anthony Sudbery, Octonions and the Lorentz and
+9) Kwok-Wai Chung and Anthony Sudbery, Octonions and the Lorentz and
 conformal groups of ten-dimensional space-time, Phys. Lett. B198 (1987),
 161-164.
 
 Tony Sudbery and Corinne Manogue then used these ideas to give an
 octonionic proof that (\psi . \psi) \psi = 0.
 
-10\) Corinne Manogue and Anthony Sudbery, General solutions of covariant
+10) Corinne Manogue and Anthony Sudbery, General solutions of covariant
 superstring equations of motion, Phys. Rev. D12 (1989), 4073-4077.
 
 Together with her husband and Jason Janesky, Manogue later simplified
 the proof, and our argument is based on theirs:
 
-11\) Tevian Dray, Jason Janesky and Corinne Manogue, Octonionic
+11) Tevian Dray, Jason Janesky and Corinne Manogue, Octonionic
 hermitian matrices with non-real eigenvalues, Adv. Appl. Clifford
 Algebras 10 (2000), 193-216. Appendix B, The 3-Ψ's rule. Also available
 as [`arXiv:math/0006069`](http://arXiv.org/abs/math/0006069).
@@ -263,12 +263,12 @@ They give a little more history of this wondrous identity. They say that
 Manogue's student Schray called it "the 3-Ψ's rule" in his
 hard-to-obtain thesis:
 
-12\) Jörg Schray, Octonions and supersymmetry, Ph.D. thesis, Department
+12) Jörg Schray, Octonions and supersymmetry, Ph.D. thesis, Department
 of Physics, Oregon State University, 1994.
 
 and also here:
 
-13\) Jörg Schray, The general classical solution of the superparticle,
+13) Jörg Schray, The general classical solution of the superparticle,
 Class. Quant. Grav. 13 (1996), 27-38. Also available as
 [`arXiv:hep-th/9407045`](http://arXiv.org/abs/hep-th/9407045).
 
@@ -440,7 +440,7 @@ For now, here are a few cool things I *won't* tell you much about,
 because I don't understand them well enough. First, as pointed out to
 me by Mike Stay:
 
-14\) Generalized continued fractions and equal temperament, Doctroidal
+14) Generalized continued fractions and equal temperament, Doctroidal
 Dissertations, April 13th, 2009,
 `http://doctroid.wordpress.com/2009/04/13/`
 
@@ -472,21 +472,21 @@ fractions come in! I won't tell you what those are.
 I also won't tell you about the new revolution linking logic to weak
 \infty-groupoids. For that you'll have to read these:
 
-15\) Martin Hofmann and Thomas Streicher, The groupoid interpretation of
+15) Martin Hofmann and Thomas Streicher, The groupoid interpretation of
 type theory, in Sambin, Giovanni, et al, Twenty-five years of
 constructive type theory, Clarendon Press, Oxford, 1998, pp. 83-111.
 Also available at
 `http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.606`
 
-16\) Steve Awodey and Michael A. Warren, Homotopy theoretic models of
+16) Steve Awodey and Michael A. Warren, Homotopy theoretic models of
 identity types, available as
 [`arXiv:0709.0248`](http://arxiv.org/abs/0709.0248).
 
-17\) Steve Awodey, Pieter Hofstra, Michael A. Warren, Martin-Lf
+17) Steve Awodey, Pieter Hofstra, Michael A. Warren, Martin-Lf
 Complexes, available as
 [`arXiv:0906.4521`](http://arxiv.org/abs/0906.4521).
 
-18\) Benno van den Berg and Richard Garner, Types are weak
+18) Benno van den Berg and Richard Garner, Types are weak
 omega-groupoids, available at
 `http://www.dpmms.cam.ac.uk/~rhgg2/Typesom/Typesom.pdf`
 

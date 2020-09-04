@@ -279,23 +279,23 @@ Now, for any Dynkin diagram and any subset of dots, there's a
 q-polynomial with all sorts of cool properties. It works just like last
 week:
 
-a\) the coefficient of q^i^ in this polynomial is the number of i-cells
+a) the coefficient of q^i^ in this polynomial is the number of i-cells
 in the Bruhat decomposition of G/P. Here the "Bruhat decomposition" is
 a standard way of writing G/P as disjoint union of i-cells, that is,
 copies of F^i^ where F is our field and i is a natural number.
 
-b\) if the coefficient of q^i^ in this polynomial is k, the (2i)th
+b) if the coefficient of q^i^ in this polynomial is k, the (2i)th
 homology group of G/P defined over the complex numbers is Z^k^.
 
-c\) the degree of this polynomial is the dimension of G/P.
+c) the degree of this polynomial is the dimension of G/P.
 
-d\) the value of this polynomial at q a prime power is the cardinality
+d) the value of this polynomial at q a prime power is the cardinality
 of G/P defined over the field F~q~.
 
-e\) the value of this polynomial at q = -1 is the Euler characteristic
+e) the value of this polynomial at q = -1 is the Euler characteristic
 of G/P defined over the real numbers.
 
-f\) the value of this polynomial at q = 1 is the Euler characteristic of
+f) the value of this polynomial at q = 1 is the Euler characteristic of
 G/P defined over the complex numbers.
 
 If we take property a) as the defining one, all the rest fall out
@@ -303,7 +303,7 @@ automagically. By the way, the relation between the homology groups in
 part b) and the cardinalities in part d) is a special case of the "Weil
 conjectures", proved by Deligne. For an introduction to these, try:
 
-1\) Robin Harshorne, Algebraic Geometry, Appendix C: The Weil
+1) Robin Harshorne, Algebraic Geometry, Appendix C: The Weil
 conjectures, Springer-Verlag, Berlin, 1977.
 
 But now for the cute part: how you calculate this q-polynomial. It's

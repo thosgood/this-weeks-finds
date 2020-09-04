@@ -16,7 +16,7 @@ of galaxy M87:
 
 \
 
-1\) NASA and John Biretta, M87,
+1) NASA and John Biretta, M87,
 `http://hubblesite.org/newscenter/newsdesk/archive/releases/2005/12/image/o`
 
 M87 is a giant elliptical galaxy. It's long been known as a powerful
@@ -33,7 +33,7 @@ so hot that it shoots out in a jet, as envisioned here:
 
 \
 
-2\) NASA, MAXIM: Micro-Arcsecond X-ray Imaging Mission,
+2) NASA, MAXIM: Micro-Arcsecond X-ray Imaging Mission,
 `http://maxim.gsfc.nasa.gov/docs/science/science.html`
 
 Accretion disks and jets are common at many different scales in our
@@ -60,7 +60,7 @@ containing between ten thousand and a million stars.
 
 \
 
-3\) A jet from galaxy M87, Astronomy Picture of the Day, July 6, 2000,
+3) A jet from galaxy M87, Astronomy Picture of the Day, July 6, 2000,
 `http://antwrp.gsfc.nasa.gov/apod/ap000706.html`
 
 The jet in M87 is so hot that it emits not just radio waves and visible
@@ -74,7 +74,7 @@ light, but even X-rays, as seen by the Chandra X-ray telescope:
 
 \
 
-4\) M87: Chandra sheds light on the knotty problem of the M87 jet,
+4) M87: Chandra sheds light on the knotty problem of the M87 jet,
 `http://chandra.harvard.edu/photo/2001/0134/`
 
 It seems the jet consists mainly of electrons moving at relativistic
@@ -102,7 +102,7 @@ height="500"}](http://www.astro.princeton.edu/~rhl/PrettyPictures/)
 
 \
 
-5\) Robert Lupton and the Sloan Digital Sky Survey Consortium, The
+5) Robert Lupton and the Sloan Digital Sky Survey Consortium, The
 central regions of M87,
 `http://www.astro.princeton.edu/~rhl/PrettyPictures/`
 
@@ -122,7 +122,7 @@ height="300"}](http://burro.astr.cwru.edu/Schmidt/Virgo/)
 
 \
 
-6\) Chris Mihos, Paul Harding, John Feldmeier and Heather Morrison, Deep
+6) Chris Mihos, Paul Harding, John Feldmeier and Heather Morrison, Deep
 imaging of the Virgo Cluster,
 `http://burro.astr.cwru.edu/Schmidt/Virgo/`
 
@@ -138,7 +138,7 @@ height="500"}](http://heritage.stsci.edu/2002/21/)
 
 \
 
-7\) The Hubble Heritage Project, Hoag's Object,
+7) The Hubble Heritage Project, Hoag's Object,
 `http://heritage.stsci.edu/2002/21/`
 
 It's a ring-shaped galaxy full of hot young blue stars surrounding a
@@ -158,7 +158,7 @@ his famous bet with John Preskill about information loss due to black
 hole evaporation. In August of this year, Hawking finally came out with
 a short paper on the subject:
 
-8\) Stephen W. Hawking, Information loss in black holes, available as
+8) Stephen W. Hawking, Information loss in black holes, available as
 [hep-th/0507171](http://xxx.lanl.gov/abs/hep-th/0507171).
 
 I spent a lot of time talking to physicists, but I also wandered around
@@ -187,7 +187,7 @@ entire month of October trying to solve this problem: "flashes of
 genius" favor the prepared mind. But it's a nice story and a nice
 place. My friend Tevian Dray took some photos, which you can see here:
 
-9\) John Baez, Dublin, `http://math.ucr.edu/home/baez/dublin/`
+9) John Baez, Dublin, `http://math.ucr.edu/home/baez/dublin/`
 
 It was a bit of a challenge finding Brougham Bridge, since nobody at the
 main bus station gave us correct information about which bus went there
@@ -248,13 +248,13 @@ for momentum. This variant of π was fairly common in the mathematical
 literature of the day, so there may be no special explanation. For some
 further detective work, see:
 
-10\) Hamilton: two mysteries solved,
+10) Hamilton: two mysteries solved,
 `http://groups.google.com/group/sci.physics/browse_thread/thread/d1b7b4a998682bbb/3a868ae8218a4bca#3a868ae8218a4bca`
 
 Also see equation 12 in this paper for one of the first uses of
 "varpi" to mean momentum:
 
-11\) William Rowan Hamilton, Second essay on a general method in
+11) William Rowan Hamilton, Second essay on a general method in
 dynamics, ed. David R. Wilkins, available at
 `http://www.maths.tcd.ie/pub/HistMath/People/Hamilton/Dynamics/SecEssay.pdf`
 
@@ -264,7 +264,7 @@ random!
 Before I turn to higher-dimensional algebra, maybe this is a good time
 to mention a paper related to the octonions:
 
-12\) Jakob Palmkvist, A realization of the Lie algebra associated to a
+12) Jakob Palmkvist, A realization of the Lie algebra associated to a
 Kantor triple system, available as
 [math.RA/0504544](http://arxiv.org/abs/math.RA/0504544).
 
@@ -282,7 +282,7 @@ Now for some mathematical physics that touches on higher-dimensional
 algebra. If you still don't get why topological field theory and
 n-categories are so cool, read this thesis:
 
-13\) Bruce H. Bartlett, Categorical aspects of topological quantum field
+13) Bruce H. Bartlett, Categorical aspects of topological quantum field
 theories, M.Sc. Thesis, Utrecht University, 2005. Available as
 [math.QA/0512103](http://arxiv.org/abs/math.QA/0512103).
 
@@ -291,7 +291,7 @@ Bartlett does for his Ph.D..
 
 If you're a bit deeper into this stuff, you'll enjoy this:
 
-14\) Aaron Lauda and Hendryk Pfeiffer, Open-closed strings:
+14) Aaron Lauda and Hendryk Pfeiffer, Open-closed strings:
 two-dimensional extended TQFTs and Frobenius algebras, available as
 [math.AT/0510664](http://arxiv.org/abs/math.AT/0510664).
 
@@ -299,7 +299,7 @@ This paper gives a purely algebraic description of the topology of open
 and closed strings, making precise and proving some famous results
 stated without proof by Moore and Segal, which can be seen here:
 
-15\) Greg Moore, Lectures on branes, K-theory and RR charges, Clay Math
+15) Greg Moore, Lectures on branes, K-theory and RR charges, Clay Math
 Institute Lecture Notes (2002), available at
 `http://www.physics.rutgers.edu/~gmoore/clay1/clay1.html`
 
@@ -309,7 +309,7 @@ developing more deeply some of the themes I mentioned in
 figured out how to *categorify* the concept of a Frobenius algebra, and
 has applied this to 3d topology:
 
-16\) Aaron Lauda, Frobenius algebras and ambidextrous adjunctions,
+16) Aaron Lauda, Frobenius algebras and ambidextrous adjunctions,
 [Theory and Applications of Categories 16 (2006)
 84-122](http://www.tac.mta.ca/tac/volumes/16/4/16-04abs.html). Also
 available as [math.CT/0502550](http://arxiv.org/abs/math.CT/0502550).
@@ -460,7 +460,7 @@ the open strings and closed strings interact.
 You can read more about Lauda and Pfeiffer's work at Urs Schreiber's
 blog:
 
-17\) Urs Schreiber, Lauda and Pfeiffer on open-closed topological
+17) Urs Schreiber, Lauda and Pfeiffer on open-closed topological
 strings, `http://golem.ph.utexas.edu/string/archives/000680.html`
 
 In fact, I recommend Schreiber's blog quite generally to anyone
@@ -501,7 +501,7 @@ a nice one called NGC 4650:
 [![](NGC4650.jpg)](http://hubblesite.org/newscenter/newsdesk/archive/releases/1999/16/image/a)
 :::
 
-18\) Ring around a galaxy, HubbleSite News Archive, May 6, 1999,
+18) Ring around a galaxy, HubbleSite News Archive, May 6, 1999,
 `http://hubblesite.org/newscenter/newsdesk/archive/releases/1999/16/image/a`
 
 I can imagine this thing looking like Hoag's object if we viewed it
@@ -514,7 +514,7 @@ Here's another ring galaxy, called AM 0644-741:
 height="400"}](http://hubblesite.org/newscenter/newsdesk/archive/releases/2004/15/image/a)
 :::
 
-19\) The lure of the rings, Hubblesite News Archive, April 22, 2004,
+19) The lure of the rings, Hubblesite News Archive, April 22, 2004,
 `http://hubblesite.org/newscenter/newsdesk/archive/releases/2004/15/image/a`
 
 It's the result of a collision involving a galaxy that's not in this
@@ -524,7 +524,7 @@ galaxy collision!
 Robert Lupton referred me to a picture that covers more of the Virgo
 Cluster - but the file is huge, so I won't include it here:
 
-20\) Doug Finkbeiner and the Sloan Digital Sky Survey Consortium, Some
+20) Doug Finkbeiner and the Sloan Digital Sky Survey Consortium, Some
 pretty objects as observed by the SDSS: Virgo Cluster,
 `http://www.astro.princeton.edu/~rhl/dfink`
 
@@ -662,7 +662,7 @@ string theory:
 
 Here's the paper Urs refers to:
 
-21\) Ingo Runkel, Jens Fjelstad, Jurgen Fuchs and Christoph Schweigert,
+21) Ingo Runkel, Jens Fjelstad, Jurgen Fuchs and Christoph Schweigert,
 Topological and conformal field theory as Frobenius algebras, available
 as [math.CT/0512076](http://arxiv.org/abs/math.CT/0512076).
 

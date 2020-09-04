@@ -15,7 +15,7 @@ corresponding quantized version, from "quantum groups" to "quantum
 cohomology". Now there is even a textbook on "quantum calculus",
 suitable for undergraduates:
 
-1\) Victor Kac and Pokman Cheung, Quantum Calculus, Springer, Berlin,
+1) Victor Kac and Pokman Cheung, Quantum Calculus, Springer, Berlin,
 2002.
 
 Indeed, we'll soon see that quantum calculus is based on an even
@@ -82,7 +82,7 @@ Pretty much anything you can do with calculus, you can do with the
 q-calculus. There are q-integrals, q-trigonometric functions,
 q-exponentials, and so on. If you try books like this:
 
-2\) George E. Andrews, Richard Askey, Ranjan Roy, Special Functions,
+2) George E. Andrews, Richard Askey, Ranjan Roy, Special Functions,
 Cambridge U. Press, Cambridge, 1999.
 
 you'll see there are even q-analogues of all the special functions you
@@ -220,7 +220,7 @@ q-deformation?
 
 One person to take a stab at this is Shahn Majid:
 
-3\) Shahn Majid, Foundations of Quantum Group Theory, Cambridge U.
+3) Shahn Majid, Foundations of Quantum Group Theory, Cambridge U.
 Press, Cambridge, 2000.
 
 In this book he says q is related to Newton's gravitational constant.
@@ -247,7 +247,7 @@ vacuum has energy density, which curves spacetime!
 
 For some interesting new insights into this, see:
 
-4\) John Barrett, Geometrical measurements in three-dimensional quantum
+4) John Barrett, Geometrical measurements in three-dimensional quantum
 gravity, available as
 [gr-qc/0203018](http://xxx.lanl.gov/abs/gr-qc/0203018).
 

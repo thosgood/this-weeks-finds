@@ -12,13 +12,13 @@ symmetrical.
 The Alhambra, a Moorish palace in Granada built around 1300, has tile
 patterns with at least 13 of the 17 possible symmetry groups:
 
-1\) Branko Grünbaum, What symmetry groups are present in the Alhambra?,
+1) Branko Grünbaum, What symmetry groups are present in the Alhambra?,
 Notices of the AMS, 53 (2006), 670-673. Also available at
 `http://www.ams.org/notices/200606/comm-grunbaum.pdf`
 
 You can see some of these patterns here:
 
-2\) Moresque tiles, `http://www.spsu.edu/math/tile/grammar/moor.htm`
+2) Moresque tiles, `http://www.spsu.edu/math/tile/grammar/moor.htm`
 
 Recently, Peter Lu and Paul Steinhardt discovered that Islamic tile
 designs also include "quasicrystals". A perfectly repetitive tiling
@@ -27,7 +27,7 @@ why the dodecahedra formed by pyrite aren't regular. But by using
 patterns that never quite repeat, the Islamic artists achieved
 *approximate* 5-fold symmetry:
 
-3\) Peter J. Lu and Paul J. Steinhardt, Decagonal and quasi-crystalline
+3) Peter J. Lu and Paul J. Steinhardt, Decagonal and quasi-crystalline
 tilings in medieval Islamic architecture, Science 315 (2007), 1106-1110.
 
 Here's an example from the [I'timad al-Daula
@@ -57,7 +57,7 @@ looking carefully at what's in front of you.
 
 For more on quasicrystals, try this:
 
-4\) Steven Webber, Quasicrystals,
+4) Steven Webber, Quasicrystals,
 `http://www.jcrystal.com/steffenweber/`
 
 Of course, the appeal of symmetry didn't end with ancient Greeks or
@@ -73,7 +73,7 @@ replica of the Alhambra!
 [![](aim_alhambra.jpg)](http://aimath.org/about/morganhill.html)
 :::
 
-5\) Associated Press, Silicon valley will get Alhambra-like castle,
+5) Associated Press, Silicon valley will get Alhambra-like castle,
 August 18, 2006. Available at
 [http://www.jcrystal.com/steffenweber/](http://www.msnbc.msn.com/id/14412387/)
 
@@ -83,7 +83,7 @@ Science News, and so on to write about a highly esoteric advance in our
 understanding of symmetry - a gargantuan calculation involving the Lie
 group E~8~:
 
-6\) American Institute of Mathematics, Mathematicians map E~8~,
+6) American Institute of Mathematics, Mathematicians map E~8~,
 `http://aimath.org/E8`
 
 The calculation is indeed huge. The *answer* takes up 60 gigabytes of
@@ -93,7 +93,7 @@ information were written out on paper, it would cover Manhattan!
 But what's the calculation *about?* It almost seems a good explanation
 of that would *also* cover Manhattan. I took a stab at it here:
 
-7\) John Baez, News about E~8~,
+7) John Baez, News about E~8~,
 `http://golem.ph.utexas.edu/category/2007/03/news_about_e8.html`
 
 but I only got as far as sketching a description of E~8~ and some
@@ -132,7 +132,7 @@ like this:
 [![](octonions/conway_smith/24_cell.jpg)](octonions/conway_smith)
 :::
 
-8\) John Baez, picture of 24-cell, in a review of On Quaternions and
+8) John Baez, picture of 24-cell, in a review of On Quaternions and
 Octonions: Their Geometry, Arithmetic and Symmetry, by John H. Conway
 and Derek A. Smith, available at
 `http://math.ucr.edu/home/baez/octonions/conway_smith/`
@@ -161,7 +161,7 @@ solid that looks like this:
 [![](d5_stembridge.jpg)](http://www.math.lsa.umich.edu/~jrs/)
 :::
 
-9\) John Stembridge, D~5~ root system, available at
+9) John Stembridge, D~5~ root system, available at
 `http://www.math.lsa.umich.edu/~jrs/data/coxplanes/`
 
 If you do the same thing with a 6-dimensional checkerboard, you get the
@@ -189,7 +189,7 @@ vertices of a solid that looks like this:
 [![](e6_stembridge.jpg)](http://www.math.lsa.umich.edu/~jrs/)
 :::
 
-10\) John Stembridge, E~6~ root system, available at
+10) John Stembridge, E~6~ root system, available at
 `http://www.math.lsa.umich.edu/~jrs/data/coxplanes/`
 
 In the E~7~ lattice, each sphere has 126 nearest neighbors. They form
@@ -199,7 +199,7 @@ the vertices of a solid like this:
 [![](e7_stembridge.jpg)](http://www.math.lsa.umich.edu/~jrs/)
 :::
 
-11\) John Stembridge, E~7~ root system, available at
+11) John Stembridge, E~7~ root system, available at
 `http://www.math.lsa.umich.edu/~jrs/data/coxplanes/`
 
 In the E~8~ lattice, each sphere has 240 nearest neighbors. They form
@@ -209,7 +209,7 @@ the vertices of a solid like this:
 [![](e8_stembridge_small.jpg)](http://www.math.lsa.umich.edu/~jrs/)
 :::
 
-12\) John Stembridge, E~8~ root system, available at
+12) John Stembridge, E~8~ root system, available at
 `http://www.math.lsa.umich.edu/~jrs/data/coxplanes/`
 
 Faithful readers will know I've discussed these lattices often before.
@@ -391,7 +391,7 @@ way of thinking about symmetry.
 
 There's a way to define the cardinality of a finite groupoid:
 
-12\) John Baez and James Dolan, From finite sets to Feynman diagrams, in
+12) John Baez and James Dolan, From finite sets to Feynman diagrams, in
 Mathematics Unlimited - 2001 and Beyond, vol. 1, eds. Bjorn Engquist and
 Wilfried Schmid, Springer, Berlin, 2001, pp. 29-50. Also available as
 [math.QA/0004133](http://xxx.lanl.gov/abs/math.QA/0004133).
@@ -419,12 +419,12 @@ There's also a way of composing spans of groupoids, which corresponds
 to multiplying matrices. However, there's a trick involved in getting
 this to work - I'll have to explain this later. For details, try:
 
-13\) Jeffrey Morton, Categorified algebra and quantum mechanics, Theory
+13) Jeffrey Morton, Categorified algebra and quantum mechanics, Theory
 and Application of Categories 16 (2006), 785-854. Available at
 `http://www.emis.de/journals/TAC/volumes/16/29/16-29abs.html`; also
 available as [math.QA/0601458](http://xxx.lanl.gov/abs/math.QA/0601458).
 
-14\) Simon Byrne, On Groupoids and Stuff, honors thesis, Macquarie
+14) Simon Byrne, On Groupoids and Stuff, honors thesis, Macquarie
 University, 2005, available at
 `http://www.maths.mq.edu.au/~street/ByrneHons.pdf` and
 `http://math.ucr.edu/home/baez/qg-spring2004/ByrneHons.pdf`
@@ -464,7 +464,7 @@ information-losing lens.
 Okay, that's enough for now. On a completely different note, here's a
 book on "structural realism" and quantum mechanics:
 
-15\) Dean Rickles, Steven French, and Juha Saatsi, The Structural
+15) Dean Rickles, Steven French, and Juha Saatsi, The Structural
 Foundations of Quantum Gravity, Oxford University Press, Oxford, 2006.
 Containing:
 
@@ -561,7 +561,7 @@ a bit of 3d perspective. The 6-fold symmetry is evident:
 ![](24-cell.jpg){width="500"}
 :::
 
-16\) Günter M. Ziegler, picture of 24-cell,
+16) Günter M. Ziegler, picture of 24-cell,
 `http://www.math.tu-berlin.de/~ziegler/24-cell.jpeg`
 
 For more discussion, go to the [*n*-Category

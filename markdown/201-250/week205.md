@@ -3,7 +3,7 @@
 This week I'd like to say more about number theory, but first - here's
 the most fun book on astronomy I've ever seen:
 
-1\) James B. Kaler, The Hundred Greatest Stars, Copernicus Books
+1) James B. Kaler, The Hundred Greatest Stars, Copernicus Books
 (Springer Verlag), New York, 2002.
 
 It's just what the title says: a compilation of the author's 100
@@ -534,13 +534,13 @@ with an emphasis on the geometric viewpoint and the issue of
 
 For a really quick and friendly no-nonsense introduction, try this:
 
-2\) Harold M. Stark, Galois Theory, Algebraic Number Theory, and Zeta
+2) Harold M. Stark, Galois Theory, Algebraic Number Theory, and Zeta
 Function, in From Number Theory to Physics, eds. M. Waldschmit et al,
 Springer, Berlin, 1992, pp. 313-393.
 
 To dig a lot deeper, try this book by Neukirch:
 
-3\) Juergen Neukirch, Algebraic Number Theory, trans. Norbert
+3) Juergen Neukirch, Algebraic Number Theory, trans. Norbert
 Schappacher, Springer, Berlin, 1986.
 
 I already mentioned it, but it's worth mentioning again, because it's
@@ -551,7 +551,7 @@ fields" (fields of functions on Riemann surfaces) and "number fields"
 This book by Borevich and Shafarevich doesn't make the analogy to
 geometry explicit:
 
-4\) Z. I. Borevich and I. R. Shafarevich, Number Theory, trans. Newcomb
+4) Z. I. Borevich and I. R. Shafarevich, Number Theory, trans. Newcomb
 Greenleaf, Academic Press, New York, 1966.
 
 However, it has a nice concept of a "theory of divisors" for a
@@ -566,7 +566,7 @@ instructive.
 This book goes much further in the geometric direction, but still
 without introducing schemes:
 
-5\) Dino Lorenzini, An Invitation to Arithmetic Geometry, American
+5) Dino Lorenzini, An Invitation to Arithmetic Geometry, American
 Mathematical Society, Providence, Rhode Island, 1996.
 
 It's really great - very pedagogical! It develops number fields and
@@ -577,10 +577,10 @@ If you want to learn about schemes - not the kind I just talked about,
 just the usual sort, which still includes cool "spaces" like Spec(Z) -
 try these:
 
-6\) V. I. Danilov, V. V. Shokurov, and I. Shafarevich, Algebraic Curves,
+6) V. I. Danilov, V. V. Shokurov, and I. Shafarevich, Algebraic Curves,
 Algebraic Manifolds and Schemes, Springer, Berlin, 1998.
 
-7\) David Eisenbud and Joe Harris, The Geometry of Schemes, Springer,
+7) David Eisenbud and Joe Harris, The Geometry of Schemes, Springer,
 Berlin, 2000.
 
 Schemes have a reputation for being scary, but both these books try hard
@@ -622,7 +622,7 @@ I just found a paper, apparently written after
 ["Week 172"](#week172), which gives a very detailed account of this
 problem:
 
-8\) Stanley Burris and Karen Yeats, The saga of the high school
+8) Stanley Burris and Karen Yeats, The saga of the high school
 identities, available at
 `http://web.archive.org/web/20070212200835/http://www.math.uwaterloo.ca/~snburris/htdocs/MYWORKS/PREPRINTS/saga.ps`
 
@@ -633,7 +633,7 @@ but also more interesting things that are a bit harder to describe.
 Also, here's a cool paper relating some of Ramanujan's work to string
 theory:
 
-9\) Antun Milas, Ramanujan's "Lost Notebook" and the Virasoro
+9) Antun Milas, Ramanujan's "Lost Notebook" and the Virasoro
 Algebra, available as
 [math.QA/0309201](http://www.arXiv.org/abs/math.QA/0309201).
 

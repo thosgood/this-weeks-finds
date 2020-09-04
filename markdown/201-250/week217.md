@@ -27,7 +27,7 @@ to the moon.
 For a good popular book on Fermat's Last Theorem and the
 Taniyama-Shimura Conjecture, try:
 
-1\) Simon Singh, Fermat's Enigma: The Epic Quest to Solve the World's
+1) Simon Singh, Fermat's Enigma: The Epic Quest to Solve the World's
 Greatest Mathematical Problem, Walker, New York, 1997.
 
 Despite the "world's greatest mathematical problem" baloney, this
@@ -195,7 +195,7 @@ are still struggling to explore. Riemann gave two proofs of this
 equation. You can find a precise statement and a version of Riemann's
 second proof here:
 
-2\) Daniel Bump, Zeta Function, lecture notes on "the functional
+2) Daniel Bump, Zeta Function, lecture notes on "the functional
 equation" available at `http://math.stanford.edu/~bump/zeta.html` and
 `http://www.maths.ex.ac.uk/~mwatkins/zeta/fnleqn.htm`
 
@@ -443,7 +443,7 @@ Here's some information on the Riemann Hypothesis provided by the Clay
 Mathematics Institute, which is offering a million dollars for its
 solution:
 
-3\) Clay Mathematics Institute, Problems of the Millennium: the Riemann
+3) Clay Mathematics Institute, Problems of the Millennium: the Riemann
 Hypothesis, `http://www.claymath.org/millennium/`
 
 The official problem description by Enrico Bombieri talks about evidence
@@ -455,7 +455,7 @@ to automorphic L-functions.
 Here's a nice webpage that sketches Wiles and Taylor's proof of
 Fermat's last theorem:
 
-4\) Charles Daney, The Mathematics of Fermat's Last Theorem,
+4) Charles Daney, The Mathematics of Fermat's Last Theorem,
 `http://www.mbay.net/~cgd/flt/fltmain.htm`
 
 I like the quick introductions to "Elliptic curves and elliptic
@@ -465,33 +465,33 @@ detailed nor too vague, at least for me.
 
 Here's a nice little intro to the Weil Conjectures:
 
-5\) Runar Ile, Introduction to the Weil Conjectures,
+5) Runar Ile, Introduction to the Weil Conjectures,
 `http://folk.uio.no/~ile/WeilA4.pdf`
 
 James Milne goes a lot deeper - his course notes on etale cohomology
 include a proof of the Weil Conjectures:
 
-6\) James Milne, Lectures on Etale Cohomology,
+6) James Milne, Lectures on Etale Cohomology,
 `http://www.jmilne.org/math/CourseNotes/math732.html`
 
 while his course notes on elliptic curves sketch the proof of Fermat's
 Last Theorem:
 
-7\) James Milne, Elliptic Curves,
+7) James Milne, Elliptic Curves,
 `http://www.jmilne.org/math/CourseNotes/math679.html`
 
 Here's a nice history of what I've been calling the Taniyama-Shimura
 Conjecture, which explains why some people call it the
 Taniyama-Shimura-Weil conjecture, or other things:
 
-8\) Serge Lang, Some history of the Shimura-Taniyama Conjecture, AMS
+8) Serge Lang, Some history of the Shimura-Taniyama Conjecture, AMS
 Notices 42 (November 1995), 1301-1307. Available at
 `http://www.ams.org/notices/199511/forum.pdf`
 
 Here's a quick introduction to the proof of this conjecture, whatever
 it's called:
 
-9\) Henri Darmon, A proof of the full Shimura-Taniyama-Weil Conjecture
+9) Henri Darmon, A proof of the full Shimura-Taniyama-Weil Conjecture
 is announced, AMS Notices 46 (December 1999), 1397-1401. Available at
 `http://www.ams.org/notices/199911/comm-darmon.pdf`
 

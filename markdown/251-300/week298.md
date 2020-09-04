@@ -5,7 +5,7 @@ explaining here lately: electrical circuits and category theory. Then -
 volcanos permitting - I'll fly to Oxford to attend a course on quantum
 computation:
 
-1\) Foundational Structures in Quantum Computation and Information, May
+1) Foundational Structures in Quantum Computation and Information, May
 24-28, 2010, Oxford University, organized by Bob Coecke and Ross Duncan,
 `http://web.comlab.ox.ac.uk/people/Bob.Coecke/QICS_School.html`
 
@@ -26,7 +26,7 @@ intelligence and other potentially revolutionary technologies.)
 
 The weekend after the course, there will be a workshop:
 
-2\) Quantum Physics and Logic, May 29-30, 2010, Oxford University,
+2) Quantum Physics and Logic, May 29-30, 2010, Oxford University,
 organized Bob Coecke, Prakash Panangaden, and Peter Selinger,
 `http://web.comlab.ox.ac.uk/people/Bob.Coecke/QPL_10.html`
 
@@ -34,7 +34,7 @@ Peter Selinger is the guy who got me interested in categories where the
 morphisms are electrical circuits! I'll be giving a talk in this
 workshop - you can see the slides here:
 
-3\) John Baez, Duality in logic and physics,
+3) John Baez, Duality in logic and physics,
 `http://math.ucr.edu/home/baez/dual/`
 
 Alas, I've been so busy getting ready for my talks that I don't feel
@@ -69,14 +69,14 @@ various kinds of quaternionic and octonionic "integers". To learn
 about these, there's no better place than the magnificent book by
 Conway and Smith:
 
-4\) John H. Conway and Derek A. Smith, On Quaternions and Octonions:
+4) John H. Conway and Derek A. Smith, On Quaternions and Octonions:
 Their Geometry, Arithmetic, and Symmetry, A. K. Peters, Ltd., Natick,
 Massachusetts, 2003.
 
 For a little taste, try my summary in ["Week 194"](#week194), and
 my review here:
 
-5\) John Baez, review of On Quaternions and Octonions, Bull. Amer. Math.
+5) John Baez, review of On Quaternions and Octonions, Bull. Amer. Math.
 Soc. 42 (2005), 229-243. Also available at
 `http://www.ams.org/journals/bull/2005-42-02/S0273-0979-05-01043-8/` and
 as a webpage at `http://math.ucr.edu/home/baez/octonions/conway_smith/`
@@ -145,10 +145,10 @@ octonions?
 Michael Kinyon, an expert on loops, quickly provided two references that
 settle the question:
 
-6\) R. T. Curtis, Construction of a family of Moufang loops, Math. Proc.
+6) R. T. Curtis, Construction of a family of Moufang loops, Math. Proc.
 Cambridge Philos. Soc. 142 (2007), 233-237.
 
-7\) P. Boddington and D. Rumynin, On Curtis' theorem about finite
+7) P. Boddington and D. Rumynin, On Curtis' theorem about finite
 octonionic loops, Proc. Amer. Math. Soc. 135 (2007), 1651-1657.
 Available at
 `http://www.ams.org/journals/proc/2007-135-06/S0002-9939-07-08707-2/`
@@ -170,7 +170,7 @@ wrote a second paper on division algebras and supersymmetry, where we
 explain how to construct the "Lie $n$-superalgebras" that govern
 classical superstring and super-2-brane theories:
 
-8\) John Baez and John Huerta, Supersymmetry and division algebras II,
+8) John Baez and John Huerta, Supersymmetry and division algebras II,
 available as [`arXiv:1003.3436`](http://arxiv.org/abs/1003.3436).
 
 As you may know, Lie groups and their Lie algebras are incredibly
@@ -188,7 +188,7 @@ So, the race is on to construct, classify and understand Lie $n$-groups
 and Lie $n$-algebras - and redo all of geometry to take advantage of these
 higher structures! For an easy introduction, try:
 
-9\) John Baez and John Huerta, An invitation to higher gauge theory,
+9) John Baez and John Huerta, An invitation to higher gauge theory,
 available as [`arXiv:1003.4485`](http://arxiv.org/abs/1003.4485).
 
 But for supersymmetric theories, geometry based on manifolds isn't
@@ -263,7 +263,7 @@ at least not for the most exciting case, the octonionic case. You can
 see what I mean by looking at the "brane scan" in this classic paper
 by Duff:
 
-10\) Michael J. Duff, Supermembranes: the first fifteen weeks, Classical
+10) Michael J. Duff, Supermembranes: the first fifteen weeks, Classical
 and Quantum Gravity 5 (1988), 189-205. Also available at
 `http://ccdb4fs.kek.jp/cgi-bin/img_index?8708425`
 
@@ -278,10 +278,10 @@ forever.
 
 Recently Peter Woit criticized Duff for some remarks in this article:
 
-11\) Michael Duff, Black holes and qubits, CERN Courier May 5, 2010.
+11) Michael Duff, Black holes and qubits, CERN Courier May 5, 2010.
 Available at `http://cerncourier.com/cws/article/cern/42328`
 
-12\) Peter Woit, Applying string theory to quantum information theory,
+12) Peter Woit, Applying string theory to quantum information theory,
 [http://www.math.columbia.edu/\~woit/wordpress/?p=2925](http://www.math.columbia.edu/~woit/wordpress/?p=2952)
 
 Duff's article describes how he noticed some of the same math showing
@@ -304,22 +304,22 @@ in graphene, so I could wind up eating my words.
 On the other hand, the math is fascinating. For details, try these
 papers:
 
-13\) Akimasa Miyake and Miki Wadati, Multipartite entanglement and
+13) Akimasa Miyake and Miki Wadati, Multipartite entanglement and
 hyperdeterminants, Quant. Info. Comp. 2 (2002), 540-555. Also available
 as [`arXiv:quant-ph/0212146`](http://arxiv.org/abs/quant-ph/0212146).
 
-14\) Michael J. Duff and S. Ferrara, E~7~ and the tripartite
+14) Michael J. Duff and S. Ferrara, E~7~ and the tripartite
 entanglement of seven qubits, Phys. Rev. D 76 025018 (2007). Also
 available as
 [`arXiv:quant-ph/0609227`](http://arxiv.org/abs/quant-ph/0609227).
 
-15\) Michael J. Duff and S. Ferrara, E~6~ and the bipartite entanglement
+15) Michael J. Duff and S. Ferrara, E~6~ and the bipartite entanglement
 of qutrits, Phys. Rev. D 76 124023 (2007). Also available as
 [`arXiv:0704.0507`](http://arxiv.org/abs/0704.0507).
 
 or this very nice recent one:
 
-16\) Bianca L. Cerchiai and Bert van Geemen, From qubits to E~7~,
+16) Bianca L. Cerchiai and Bert van Geemen, From qubits to E~7~,
 available as [`arXiv:1003.4255`](http://arxiv.org/abs/1003.4255).
 
 Since I've spent a lot of time talking about the Fano plane, the
@@ -413,13 +413,13 @@ As an extra lure, let me add that you can write the Lagrangian for a
 string in (2+2)-dimensional spacetime using 2 \times 2 \times 2 hyperdeterminants!
 The formula is very pretty and simple:
 
-17\) Michael J. Duff, Hidden symmetries of the Nambu-Goto action, Phys.
+17) Michael J. Duff, Hidden symmetries of the Nambu-Goto action, Phys.
 Lett. B641 (2006), 335-337. Also available as
 [`arXiv:hep-th/0602160`](http://arXiv.org/abs/arXiv:hep-th/0602160).
 
 This being the 21st century, there is even a blog on hyperdeterminants:
 
-18\) Hyperdeterminacy,
+18) Hyperdeterminacy,
 `http://hyperdeterminant.wordpress.com/2008/09/25/hello-world/`
 
 The author begins with some introductory posts which are definitely
@@ -449,7 +449,7 @@ Lvay, who has allowed me to quote it here:
 > group theoretical and geometrical methods in quantum physics. My
 > paper:
 >
-> 19\) Pter Lvay, The twistor geometry of three-qubit entanglement,
+> 19) Pter Lvay, The twistor geometry of three-qubit entanglement,
 > available as
 > [`arXiv:quant-ph/0403060`](http://arxiv.org/abs/quant-ph/0403060).
 >
@@ -458,7 +458,7 @@ Lvay, who has allowed me to quote it here:
 > mentions in the CERN Courier). Later I have written another paper on
 > the four qubit case (hyperdeterminant):
 >
-> 20\) Pter Lvay, On the geometry of four qubit invariants, available as
+> 20) Pter Lvay, On the geometry of four qubit invariants, available as
 > [`arXiv:quant-ph/0605151`](http://arxiv.org/abs/quant-ph/0605151).
 >
 > After Duff's and Kallosh and Linde's paper I have shown that the
@@ -467,7 +467,7 @@ Lvay, who has allowed me to quote it here:
 > stabilization on the BH horizon) can be rephrased in this picture as a
 > distillation procedure of GHZ-like states:
 >
-> 21\) Pter Lvay, Stringy black holes and the geometry of entanglement,
+> 21) Pter Lvay, Stringy black holes and the geometry of entanglement,
 > available as
 > [`arXiv:hep-th/0603136`](http://arxiv.org/abs/hep-th/0603136).
 >
@@ -490,7 +490,7 @@ Lvay, who has allowed me to quote it here:
 > type of entanglement is related to the structure of the Fano plane
 > appears first in this paper:
 >
-> 22\) Pter Lvay, Strings, black holes, the tripartite entanglement of
+> 22) Pter Lvay, Strings, black holes, the tripartite entanglement of
 > seven qubits and the Fano plane, available as
 > [`arXiv:hep-th/0610314`](http://arxiv.org/abs/hep-th/0610314).
 >
@@ -507,7 +507,7 @@ Lvay, who has allowed me to quote it here:
 > gave suggestions how to define sensible (tripartite) entanglement
 > measures for these systems:
 >
-> 23\) Pter Lvay and Pter Vrana, Three fermions with six single particle
+> 23) Pter Lvay and Pter Vrana, Three fermions with six single particle
 > states can be entangled in two inequivalent ways, available as
 > [`arXiv:0806.4076`](http://arxiv.org/abs/0806.4076).
 >
@@ -528,7 +528,7 @@ Lvay, who has allowed me to quote it here:
 > hyperplanes giving rise to another incidence geometry: the Veldkamp
 > space. The nice maths results can be found in:
 >
-> 24\) Pter Vrana and Pter Lvay, The Veldkamp space of multiple qubits,
+> 24) Pter Vrana and Pter Lvay, The Veldkamp space of multiple qubits,
 > available as [`arXiv:0906.3655`](http://arxiv.org/abs/0906.3655).
 >
 > Such notions as symplectic structure, quadratic forms, transvections,
@@ -544,7 +544,7 @@ Lvay, who has allowed me to quote it here:
 > qubits can be translated to the classification problem of black hole
 > solutions (BPS and non BPS, extremal and even possibly non extremal).
 >
-> 25\) Pter Lvay, STU black holes as four qubit systems, available as
+> 25) Pter Lvay, STU black holes as four qubit systems, available as
 > [`arXiv:1004.3639`](http://arxiv.org/abs/1004.3639).
 >
 > (The idea that four qubit systems show up in STU truncations first

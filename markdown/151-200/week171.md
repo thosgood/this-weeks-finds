@@ -6,7 +6,7 @@ had an affair with his wife. Well, that's what they say, anyway. It
 makes a great story. The only problem is, Nobel was never married! So
 it's just another urban legend. For more details, see:
 
-1\) Urban legends reference pages, The Prize's Rite,
+1) Urban legends reference pages, The Prize's Rite,
 `http://www.snopes2.com/science/nobel.htm`
 
 More likely, Nobel just didn't consider mathematics sufficiently
@@ -61,7 +61,7 @@ work on $n$-categories. I've talked about their work before in
 ["Week 165"](#week165). Leinster has just come out with a nice
 paper on $n$-categories:
 
-1\) Tom Leinster, A survey of definitions of $n$-category, available at
+1) Tom Leinster, A survey of definitions of $n$-category, available at
 [math.CT/0107188](http://xxx.lanl.gov/abs/math.CT/0107188).
 
 By now, there are lots of definitions of "weak $n$-category", and our
@@ -75,7 +75,7 @@ the subject.
 While I'm talking about review articles, here are some review articles
 on quantum gravity:
 
-2\) Steve Carlip, Quantum gravity: a progress report, Rep. Prog. Phys.
+2) Steve Carlip, Quantum gravity: a progress report, Rep. Prog. Phys.
 64 (2001) 885-942, also available at
 [gr-qc/0108040](http://xxx.lanl.gov/abs/gr-qc/0108040).
 
@@ -85,7 +85,7 @@ it's required reading for anyone in this field. It doesn't do justice
 to string theory, which is a mammoth subject in its own. For that, you
 might try this article which I bumped into in the same journal:
 
-3\) Ulf Daniellson, Introduction to string theory, Rep. Prog. Phys. 64
+3) Ulf Daniellson, Introduction to string theory, Rep. Prog. Phys. 64
 (2001) 51-96.
 
 It seems to do a pretty good job of the impossible - explaining all of
@@ -96,7 +96,7 @@ textbooks listed in ["Week 124"](#week124) and elsewhere.
 There is also a new introduction to loop quantum gravity available
 online. It's more of a book than an article:
 
-4\) Thomas Thiemann, Introduction to modern canonical quantum general
+4) Thomas Thiemann, Introduction to modern canonical quantum general
 relativity, 301 pages, available at
 [gr-qc/0110034](http://xxx.lanl.gov/abs/gr-qc/0110034).
 
@@ -113,14 +113,14 @@ Introduction.
 Speaking of loop quantum gravity, here are a few interesting new papers
 on that subject:
 
-5\) Rodolfo Gambini and Jorge Pullin, Consistent discretizations for
+5) Rodolfo Gambini and Jorge Pullin, Consistent discretizations for
 classical and quantum general relativity, available as
 [gr-qc/0108062](http://xxx.lanl.gov/abs/gr-qc/0108062).
 
-6\) Luca Bombelli, Statistical geometry of random weave states,
+6) Luca Bombelli, Statistical geometry of random weave states,
 available as [gr-qc/0101080](http://xxx.lanl.gov/abs/gr-qc/0101080).
 
-7\) Michael Seifert, Angle and volume studies in quantized space, 85
+7) Michael Seifert, Angle and volume studies in quantized space, 85
 pages, available as
 [gr-qc/0108047](http://xxx.lanl.gov/abs/gr-qc/0108047).
 
@@ -145,7 +145,7 @@ Voronoi diagram is? To explain that, a picture is worth a thousand
 words, so I won't explain the concept - I'll just urge you to play
 with this applet:
 
-9\) Paul Chew, Voronoi/Delaunay Applet,
+9) Paul Chew, Voronoi/Delaunay Applet,
 `http://www.cs.cornell.edu/Info/People/chew/Delaunay.html`
 
 If you click the mouse to sprinkle the rectangle with points, you'll

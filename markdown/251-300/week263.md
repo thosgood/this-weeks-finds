@@ -11,7 +11,7 @@ center here is called Xanadu.
 [![](titan.jpg){width="500"}](http://apod.nasa.gov/apod/ap041028.html)
 :::
 
-1\) Astronomy Picture of the Day, Tantalizing Titan,
+1) Astronomy Picture of the Day, Tantalizing Titan,
 `http://apod.nasa.gov/apod/ap041028.html`
 
 If you fell into Titan's atmosphere, here's what you'd see. Unlike
@@ -22,7 +22,7 @@ probe on March 31st, 2005 from a distance of just 9,500 kilometers:
 [![](titan_atmosphere.jpg)](http://en.wikipedia.org/wiki/Titan_(moon)#Atmosphere)
 :::
 
-2\) Wikipedia, Titan's atmosphere,
+2) Wikipedia, Titan's atmosphere,
 `http://en.wikipedia.org/wiki/Titan_(moon)#Atmosphere`
 
 The orange stuff is hydrocarbon "smog", perhaps made of chemicals
@@ -43,13 +43,13 @@ Astronomy is great, but today I want to talk about group theory. As you
 may have heard, John Thompson and Jacques Tits won the 2008 Abel prize
 for their work on groups:
 
-3\) Abel Prize, 2008 Laureates,
+3) Abel Prize, 2008 Laureates,
 `http://www.abelprisen.no/en/prisvinnere/2008/`
 
 If you want a fun, nontechnical book that gives a good taste of the sort
 of things Thompson thought about, try this:
 
-4\) Marcus du Sautoy, Symmetry: a Journey into the Patterns of Nature,
+4) Marcus du Sautoy, Symmetry: a Journey into the Patterns of Nature,
 HarperCollins, 2008.
 
 Mathematicians will enjoy this book for its many anecdotes about the
@@ -61,7 +61,7 @@ As a PhD student working under Saunders Mac Lane, Thompson began his
 career with a bang, by solving a 60-year-old conjecture posed by the
 famous group theorist Frobenius.
 
-5\) Mactutor History of Mathematics Archive, John Griggs Thompson,
+5) Mactutor History of Mathematics Archive, John Griggs Thompson,
 `http://www-history.mcs.st-andrews.ac.uk/Biographies/Thompson_John.html`
 
 But, he's mainly famous for helping prove an even harder theorem
@@ -87,7 +87,7 @@ The proof has been simplified a bit since then, but not much. Versions
 can be found in two different books, and there is a project underway to
 verify it by computer:
 
-6\) Wikipedia, Feit-Thompson Theorem,
+6) Wikipedia, Feit-Thompson Theorem,
 `http://en.wikipedia.org/wiki/Feit-Thompson_theorem`
 
 This theorem, also called the "odd order theorem", marked a trend
@@ -136,7 +136,7 @@ as every natural number has a unique prime factorization. This fact is
 called the "Jordan-Hölder theorem", and these layer cakes are usually
 called "composition series". For more, try this:
 
-7\) Wikipedia, Composition series,
+7) Wikipedia, Composition series,
 `http://en.wikipedia.org/wiki/Composition_series`
 
 But let's see some examples!
@@ -235,7 +235,7 @@ both just fattened up versions of a circle.)
 
 Mike Shulman and I tried to explain this layer cake business here:
 
-8\) John Baez and Michael Shulman, Lectures on $n$-categories and
+8) John Baez and Michael Shulman, Lectures on $n$-categories and
 cohomology, to appear in $n$-Categories: Foundations and Applications,
 eds. John Baez and Peter May. Also available as
 [`arXiv:math/0608420`](http://arxiv.org/abs/math/0608420)
@@ -252,7 +252,7 @@ exceptions called "sporadic" groups, ranging in size from the five
 Mathieu groups (see ["Week 234"](#week234)) on up to the Monster
 (see ["Week 20"](#week20) and ["Week 66"](#week66)).
 
-9\) Wikipedia, List of finite simple groups,
+9) Wikipedia, List of finite simple groups,
 `http://en.wikipedia.org/wiki/List_of_finite_simple_groups`
 
 Proving that these are all the possibilities took mathematicians about
@@ -271,7 +271,7 @@ possibilities had to be considered to classify all finite simple groups
 
 But what about Jacques Tits?
 
-10\) Mactutor History of Mathematics Archive, Jacques Tits
+10) Mactutor History of Mathematics Archive, Jacques Tits
 `http://www-history.mcs.st-andrews.ac.uk/Biographies/Tits.html`
 
 He's not mentioned in du Sautoy's book "Symmetry", which is a pity,
@@ -291,20 +291,20 @@ The subject of buildings has a reputation for being intimidating,
 perhaps because the *definition* of a building looks scary and
 unmotivated. You can read these and decide for yourself:
 
-11\) Wikipedia, Building (mathematics),
+11) Wikipedia, Building (mathematics),
 `http://en.wikipedia.org/wiki/Building_%28mathematics%29`
 
-12\) Kenneth S. Brown, What is a building?, Notices AMS, 49 (2002),
+12) Kenneth S. Brown, What is a building?, Notices AMS, 49 (2002),
 1244-1245. Also available at
 `http://www.ams.org/notices/200210/what-is.pdf`
 
-13\) Paul Garrett, Buildings and Classical Groups, CRC Press, 1997.
+13) Paul Garrett, Buildings and Classical Groups, CRC Press, 1997.
 Preliminary version available at
 `http://www.math.umn.edu/~garrett/m/buildings/`
 
-14\) Kenneth S. Brown, Buildings, Springer, 1989.
+14) Kenneth S. Brown, Buildings, Springer, 1989.
 
-15\) Mark Ronan, Lectures on Buildings, Academic Press, 1989.
+15) Mark Ronan, Lectures on Buildings, Academic Press, 1989.
 
 Personally I found it a lot easier to start with *examples*.
 
@@ -560,7 +560,7 @@ is that tholins contain nitrogen!
 
 I found some more information on tholins here:
 
-16\) J. H. Waite, Jr., et al, The process of tholin formation in
+16) J. H. Waite, Jr., et al, The process of tholin formation in
 Titan's upper atmosphere, Science 316 (2007), 870-875.
 
 Here's a picture of how tholins get made, from this paper:

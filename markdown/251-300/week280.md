@@ -3,7 +3,7 @@
 I have a lot to talk about, since I just got back from this quantum
 gravity summer school in Corfu:
 
-1\) 2nd School and workshop on quantum gravity and quantum geometry,
+1) 2nd School and workshop on quantum gravity and quantum geometry,
 September 13-20, 2009, organized by John Barrett, Harald Grosse, Larisa
 Jonke and George Zoupanos. Information at
 `http://www.physics.ntua.gr/corfu2009/qg.html`
@@ -42,7 +42,7 @@ conceptual head-scratching. So, it took about 7 years to find a
 satisfactory candidate. It might not be right, but at least it's
 self-consistent and elegant. For a nice survey, see this:
 
-2\) Abhay Ashtekar, Loop quantum cosmology: an overview, Gen. Rel. Grav.
+2) Abhay Ashtekar, Loop quantum cosmology: an overview, Gen. Rel. Grav.
 41 (2009), 707-741. Also available as
 [`arXiv:0812.0177`](http://arxiv.org/abs/0812.0177).
 
@@ -87,7 +87,7 @@ So, the Big Bang is replaced by a Big Bounce.
 
 The above picture comes from this popular account:
 
-3\) Anil Ananthaswamy, From Big Bang to Big Bounce, New Scientist,
+3) Anil Ananthaswamy, From Big Bang to Big Bounce, New Scientist,
 December 13, 2008, pp. 32-35. Also available at
 `http://gravity.psu.edu/outreach/articles/bigbounce.pdf`
 
@@ -115,7 +115,7 @@ say, making it worse?
 For some more details, try this treatment which resembles the course
 Ashtekar taught:
 
-4\) Abhay Ashtekar, An introduction to loop quantum gravity through
+4) Abhay Ashtekar, An introduction to loop quantum gravity through
 cosmology, Nuovo Cimento 122B (2007), 135-155. Also available as
 [`arXiv:gr-qc/0702030`](http://arXiv.org/abs/gr-qc/0702030).
 
@@ -150,7 +150,7 @@ didn't seem to be fitting together. Back then, the best candidate for a
 spin foam model of gravity was the Barrett-Crane model. But there were
 three big problems:
 
-> A\) The Barrett-Crane model used spin networks of a different kind
+> A) The Barrett-Crane model used spin networks of a different kind
 > from the usual ones in loop quantum gravity. Instead of spin networks
 > with edges labelled by unitary representations of SU(2) (the double
 > cover of the rotation group), it used unitary representations of
@@ -160,7 +160,7 @@ three big problems:
 > intertwiners, it only used a special intertwiner called the
 > "Barrett-Crane intertwiner".
 >
-> B\) While loop quantum gravity in its modern formulation includes the
+> B) While loop quantum gravity in its modern formulation includes the
 > Immirzi parameter - a dimensionless constant that sets the scale of
 > area quantization - the Barrett-Crane model did not. If the currently
 > accepted calculations are right, we need to choose a special and
@@ -169,7 +169,7 @@ three big problems:
 > along with problem A), this makes it even harder to connect the
 > Barrett-Crane model to loop quantum gravity.
 >
-> C\) At first people hoped for various clues linking the Barrett-Crane
+> C) At first people hoped for various clues linking the Barrett-Crane
 > model to general relativity. For example, we hoped that the asymptotic
 > value of the amplitude for a large 4-simplex in the Barrett-Crane
 > model was nicely related to the action for general relativity. But
@@ -195,7 +195,7 @@ The basic idea of the EPRL model is to start with the Holst Lagrangian
 for general relativity. In 1995, Soren Holst came up with a nice
 Lagrangian for gravity:
 
-5\) Soren Holst, Barbero's Hamiltonian derived from a generalized
+5) Soren Holst, Barbero's Hamiltonian derived from a generalized
 Hilbert-Palatini action, Phys. Rev. D53 (1996), 5966-5969. Also
 available as
 [`arXiv:gr-qc/9511026`](http://arXiv.org/abs/arXiv:gr-qc/9511026).
@@ -234,7 +234,7 @@ roughly speaking the spin j has to do with rotations, while k is an
 analogous quantity related to boosts. If you want more details, the only
 online explanation I can find is this:
 
-6\) Wikipedia, Representation theory of the Lorentz group,
+6) Wikipedia, Representation theory of the Lorentz group,
 `http://en.wikipedia.org/wiki/Representation_theory_of_the_Lorentz_group`
 
 It may be better to read some of the many books cited there.
@@ -302,7 +302,7 @@ Riemannian rather than Lorentzian metrics, and only in the special case
 where the second term in the Holst action was left out - so, no Immirzi
 parameter:
 
-7\) Jonathan Engle, Roberto Pereira and Carlo Rovelli, Flipped spinfoam
+7) Jonathan Engle, Roberto Pereira and Carlo Rovelli, Flipped spinfoam
 vertex and loop gravity, Nucl. Phys. B798 (2008), 251-290. Also
 available as [`arXiv:0708.1236`](http://arxiv.org/abs/0708.1236).
 
@@ -310,7 +310,7 @@ This is a very nice paper which describes a lot of geometry that I
 haven't had time to mention. However, the full-fledged model appeared
 later:
 
-8\) Jonathan Engle, Etera Livine, Roberto Pereira, and Carlo Rovelli,
+8) Jonathan Engle, Etera Livine, Roberto Pereira, and Carlo Rovelli,
 LQG vertex with finite Immirzi parameter, Nucl. Phys. B799 (2008),
 136-149. Also available as
 [`arXiv:0711.0146`](http://arxiv.org/abs/0711.0146).
@@ -318,7 +318,7 @@ LQG vertex with finite Immirzi parameter, Nucl. Phys. B799 (2008),
 But there are also other people whose work deserves credit! For example,
 my friends Laurent Freidel and Kirill Krasnov:
 
-9\) Laurent Freidel and Kirill Krasnov, A new spin foam model for 4d
+9) Laurent Freidel and Kirill Krasnov, A new spin foam model for 4d
 gravity, Class. Quant. Grav. 25 (2008), 125018. Also available as
 [`arXiv:0708.1595`](http://arxiv.org/abs/0708.1595).
 
@@ -333,7 +333,7 @@ but let me turn to a few papers that discuss graviton propagators.
 Here's the paper where Rovelli's student found problems with getting
 the graviton propagator from the Barrett-Crane model:
 
-10\) Emanuele Alesci and Carlo Rovelli, The complete LQG propagator: I.
+10) Emanuele Alesci and Carlo Rovelli, The complete LQG propagator: I.
 Difficulties with the Barrett-Crane vertex. Phys. Rev. D76 (2007),
 104012. Also available as
 [`arXiv:0708.0883`](http://arxiv.org/abs/0708.0883).
@@ -341,28 +341,28 @@ Difficulties with the Barrett-Crane vertex. Phys. Rev. D76 (2007),
 Then Rovelli and collaborators found numerical evidence that the EPR
 model seemed to be working better:
 
-11\) Elena Magliaro, Claudio Perini and Carlo Rovelli, Numerical
+11) Elena Magliaro, Claudio Perini and Carlo Rovelli, Numerical
 indications on the semiclassical limit of the flipped vertex, Class.
 Quant. Grav. 25 (2008), 095009. Also available as
 [`arXiv:0710.5034`](http://arxiv.org/abs/0710.5034).
 
 Then Alesci and Rovelli wrote a paper using the new model:
 
-12\) Emanuele Alesci and Carlo Rovelli, The complete LQG propagator: II.
+12) Emanuele Alesci and Carlo Rovelli, The complete LQG propagator: II.
 Asymptotic behavior of the vertex, Phys. Rev. D77 (2008), 044024. Also
 available as [`arXiv:0711.1284`](http://arxiv.org/abs/0711.1284).
 
 and then Alesci and Rovelli wrote another paper in their series, with
 Eugenio Bianchi:
 
-13\) Emanuele Alesci, Eugenio Bianchi, Carlo Rovelli, LQG propagator:
+13) Emanuele Alesci, Eugenio Bianchi, Carlo Rovelli, LQG propagator:
 III. The new vertex, available as
 [`arXiv:0812.5018`](http://arxiv.org/abs/0812.5018).
 
 This paper used the work of John Barrett and collaborators, who analyzed
 the asymptotics of the amplitude for a 4-simplex in the new model:
 
-14\) John W. Barrett, R. J. Dowdall, Winston J. Fairbairn, Henrique
+14) John W. Barrett, R. J. Dowdall, Winston J. Fairbairn, Henrique
 Gomes and Frank Hellmann, Asymptotic analysis of the EPRL four-simplex
 amplitude, available as
 [`arXiv:0902.1170`](http://arxiv.org/abs/0902.1170).
@@ -370,7 +370,7 @@ amplitude, available as
 For a nice treatment of spin foams that generalizes the new model to
 spin foams that don't come from triangulations of spacetime, try:
 
-15\) Wojciech Kaminski, Marcin Kisielowski, Jerzy Lewandowski,
+15) Wojciech Kaminski, Marcin Kisielowski, Jerzy Lewandowski,
 Spin-foams for all loop quantum gravity, available as
 [`arXiv:0909.0939`](http://arxiv.org/abs/0909.0939).
 
@@ -471,7 +471,7 @@ tr(e \^ e \^ e \^ e)
 and three topological terms corresponding to the Pontryagin class, the
 Euler class and the Nieh-Yan class, see:
 
-16\) Danilo Jimenez Rezende and Alejandro Perez, 4d Lorentzian Holst
+16) Danilo Jimenez Rezende and Alejandro Perez, 4d Lorentzian Holst
 action with topological terms, available as
 [`arXiv:0902.3416`](http://arxiv.org/abs/0902.3416).
 

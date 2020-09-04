@@ -118,7 +118,7 @@ were even a mandatory topic of study at Dublin! But then they were
 driven out by the vector notation of Gibbs and Heaviside. If you don't
 know this story, you've got to read this book - it's fascinating:
 
-1\) Michael J. Crowe, A History of Vector Analysis, University of Notre
+1) Michael J. Crowe, A History of Vector Analysis, University of Notre
 Dame Press, Notre Dame, 1967.
 
 Check out the graphs showing how many books were written on quaternions:
@@ -175,7 +175,7 @@ modern lingo, the symmetry group of the icosahedron is called A~5~,
 since it's the group of all even permutations of 5 things. If you
 don't know why this is true, check this out:
 
-2\) John Baez, Some thoughts on the number six,
+2) John Baez, Some thoughts on the number six,
 `http://math.ucr.edu/home/baez/six.html`
 
 We form the "group algebra" of a group by taking all formal linear
@@ -219,7 +219,7 @@ or the invention of the octonions, I'd love to hear about it. So far
 I've gotten most of my stuff from the following sources. First of all,
 there's this nice biography of Hamilton:
 
-3\) Thomas L. Hankins, Sir William Rowan Hamilton, John Hopkins
+3) Thomas L. Hankins, Sir William Rowan Hamilton, John Hopkins
 University Press, Baltimore, 1980.
 
 Check out the picture of the icosian game on page 342!
@@ -227,7 +227,7 @@ Check out the picture of the icosian game on page 342!
 Then there's this much longer biography, which includes lots of
 correspondence:
 
-4\) Robert Perceval Graves, Life of Sir William Rowan Hamilton, 3
+4) Robert Perceval Graves, Life of Sir William Rowan Hamilton, 3
 volumes, Arno Press, New York 1975.
 
 Robert Perceval Graves was the brother of John Graves! He idolized
@@ -236,7 +236,7 @@ Hamilton, so this is not the most balanced account of his work.
 Then there is this very helpful summary of the Hamilton-Graves
 correspondence on octonions:
 
-5\) W. R. Hamilton, Four and eight square theorems, Appendix 3 of vol.
+5) W. R. Hamilton, Four and eight square theorems, Appendix 3 of vol.
 III of The Mathematical Papers of William Rowan Hamilton, eds. H.
 Halberstam and R. E. Ingram, Cambridge University Press, Cambridge,
 1967.
@@ -247,13 +247,13 @@ about the octonions. Is it lost?
 Finally, there's this history of later work on the octonions and the
 eight square theorem:
 
-6\) L. E. Dickson, On quaternions and their generalization and the
+6) L. E. Dickson, On quaternions and their generalization and the
 history of the eight square theorem, Ann. Math. 20 (1919), 155-171.
 
 It turns out the eight square theorem was proved in 1822, before Graves.
 Also, there's some good material in here:
 
-7\) Heinz-Dieter Ebbinghaus et al, Numbers, Springer, New York, 1990.
+7) Heinz-Dieter Ebbinghaus et al, Numbers, Springer, New York, 1990.
 
 This book is a lot of fun for anyone interested in all sorts of
 "numbers".
@@ -262,7 +262,7 @@ Finally, for an excellent *online* source of information on the history
 of quaternions, octonions, and other "hypercomplex number systems",
 this is the place to go:
 
-8\) Jeff Biggus, A history of hypercomplex numbers,
+8) Jeff Biggus, A history of hypercomplex numbers,
 `http://history.hyperjeff.net/hypercomplex.html`
 
 ------------------------------------------------------------------------
@@ -287,7 +287,7 @@ Graves:
 Fans of Hamilton might like to see my webpage with photos of the plaque
 on Brougham Bridge commemorating his discovery of the quaternions:
 
-9\) John Baez, Brougham Bridge,
+9) John Baez, Brougham Bridge,
 `http://math.ucr.edu/home/baez/octonions/node24.html`
 
 ------------------------------------------------------------------------

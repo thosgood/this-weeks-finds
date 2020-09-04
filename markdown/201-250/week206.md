@@ -5,7 +5,7 @@ Phillipe Roche held the first really big conference on loop quantum
 gravity and spin foams since the 2nd Warsaw workshop run by Jerzy
 Lewandowski back in 1997:
 
-1\) Non Perturbative Quantum Gravity: Loops and Spin Foams, 3-7 May
+1) Non Perturbative Quantum Gravity: Loops and Spin Foams, 3-7 May
 2004, CIRM, Luminy, Marseille, France,
 `http://w3.lpm.univ-montp2.fr/~philippe/quantumgravitywebsite/`
 
@@ -63,7 +63,7 @@ guess there are over 10^100^. Leonard Susskind guesses there are
 10^500^, and argues that we'll need the anthropic principle to choose
 the one describing our world:
 
-2\) Leonard Susskind, The Landscape, article and interview on John
+2) Leonard Susskind, The Landscape, article and interview on John
 Brockman's "EDGE" website,
 `http://www.edge.org/3rd_culture/susskind03/susskind_index.html`
 
@@ -78,7 +78,7 @@ the former are just a matter of inexperience.
 Given all this, I'm delighted to see some real progress on getting 4d
 spacetime to emerge from nonperturbative quantum gravity:
 
-3\) Jan Ambjorn, Jerzy Jurkiewicz and Renate Loll, Emergence of a 4d
+3) Jan Ambjorn, Jerzy Jurkiewicz and Renate Loll, Emergence of a 4d
 world from causal quantum gravity, available as
 [hep-th/0404156](http://xxx.lanl.gov/abs/hep-th/0404156).
 
@@ -146,7 +146,7 @@ transition between these two phases, but unfortunately it seems to be a
 1st-order phase transition - not the sort we can get anything useful out
 of. For a nice review of these calculations, see:
 
-4\) Renate Loll, Discrete approaches to quantum gravity in four
+4) Renate Loll, Discrete approaches to quantum gravity in four
 dimensions, available as
 [gr-qc/9805049](http://xxx.lanl.gov/abs/gr-qc/9805049) or as a website
 at Living Reviews in Relativity,
@@ -187,7 +187,7 @@ justified in a wide variety of contexts using the "Osterwalder-Schrader
 theorem". Here's a pretty general version of this theorem, suitable
 for quantum gravity:
 
-5\) Abhay Ashtekar, Donald Marolf, Jose Mourao and Thomas Thiemann,
+5) Abhay Ashtekar, Donald Marolf, Jose Mourao and Thomas Thiemann,
 Constructing Hamiltonian quantum theories from path integrals in a
 diffeomorphism invariant context, Class. Quant. Grav. 17 (2000)
 4919-4940. Also available as
@@ -224,7 +224,7 @@ foam models with better physical behavior than the ones we have so far.
 If you look at my talk you can see some of the problems we've
 encountered:
 
-6\) John Baez, Spin foam models, talk at Non Perturbative Quantum
+6) John Baez, Spin foam models, talk at Non Perturbative Quantum
 Gravity: Loops and Spin Foams, May 4, 2004, transparencies available at
 `http://math.ucr.edu/home/baez/spin_foam_models/`
 
@@ -241,7 +241,7 @@ argued in 2d toy models that topology change is one thing that makes
 models go bad: the path integral can get dominated by spacetimes where
 "baby universes" keep branching off the main one:
 
-7\) Jan Ambjorn, Jerzy Jurkiewicz and Renate Loll, Non-perturbative
+7) Jan Ambjorn, Jerzy Jurkiewicz and Renate Loll, Non-perturbative
 Lorentzian quantum gravity, causality and topology change, Nucl. Phys.
 B536 (1998) 407-434. Also available as
 [hep-th/9805108](http://xxx.lanl.gov/abs/hep-th/9805108).
@@ -252,13 +252,13 @@ topologies, Acta Phys. Polon. B34 (2003) 4997-5008. Also available as
 
 By the way, it's also reading about their 3d model:
 
-8\) Jan Ambjorn, Jerzy Jurkiewicz and Renate Loll, Non-perturbative 3d
+8) Jan Ambjorn, Jerzy Jurkiewicz and Renate Loll, Non-perturbative 3d
 Lorentzian quantum gravity, Phys.Rev. D64 (2001) 044011. Also available
 as [hep-th/0011276](http://xxx.lanl.gov/abs/hep-th/0011276).
 
 and for a general review, try this:
 
-9\) Renate Loll, A discrete history of the Lorentzian path integral,
+9) Renate Loll, A discrete history of the Lorentzian path integral,
 Lecture Notes in Physics 631, Springer, Berlin, 2003, pp. 137-171. Also
 available as [hep-th/0212340](http://xxx.lanl.gov/abs/hep-th/0212340).
 
@@ -273,7 +273,7 @@ has to subtract out a counterterm that would otherwise lead to a bubble
 divergence, but then he gets a beautiful theory where the sum over spin
 foams is Borel summable:
 
-10\) Laurent Freidel and David Louapre, Non-perturbative summation over
+10) Laurent Freidel and David Louapre, Non-perturbative summation over
 3D discrete topologies, Phys. Rev. D68 (2003) 104004. Also available as
 [hep-th/0211026](http://xxx.lanl.gov/abs/hep-th/0211026).
 
@@ -281,7 +281,7 @@ Their work on gauge-fixing and the inclusion of spinning point particles
 in the Ponzano-Regge model is also very impressive, especially given how
 long this model has been studied. It shows we have lots left to learn!
 
-11\) Laurent Freidel and David Louapre, Ponzano-Regge model revisited I:
+11) Laurent Freidel and David Louapre, Ponzano-Regge model revisited I:
 Gauge fixing, observables and interacting spinning particles, available
 as [hep-th/0401076](http://xxx.lanl.gov/abs/hep-th/0401076).
 
@@ -296,7 +296,7 @@ surface theory. One can even think of this as a "stringy" explanation
 of the quasinormal modes of black holes - but much remains mysterious
 here:
 
-12\) Kirill Krasnov, Black hole thermodynamics and Riemann surfaces,
+12) Kirill Krasnov, Black hole thermodynamics and Riemann surfaces,
 Class. Quant. Grav. 20 (2003) 2235-2250. Also available as
 [gr-qc/0302073](http://xxx.lanl.gov/abs/gr-qc/0302073).
 
@@ -309,7 +309,7 @@ including point particles in 3d Lorentzian quantum gravity with negative
 cosmological constant, since it has close connections with that of
 Freidel and Louapre, though the context is a bit different:
 
-13\) Kirill Krasnov, Λ<0 quantum gravity in 2+1 dimensions I: quantum
+13) Kirill Krasnov, Λ<0 quantum gravity in 2+1 dimensions I: quantum
 states and stringy S-matrix, Class. Quant. Grav. 19 (2002) 3977-3998.
 Also available as
 [hep-th/0112164](http://xxx.lanl.gov/abs/hep-th/0112164).
@@ -408,17 +408,17 @@ the literature and make up your own mind.
 
 Here are two reviews that Smolin especially recommended:
 
-14\) Robert H. Sanders and Stacy S. McGaugh, Modified Newtonian Dynamics
+14) Robert H. Sanders and Stacy S. McGaugh, Modified Newtonian Dynamics
 as an Alternative to Dark Matter, available as
 [astro-ph/0204521](http://xxx.lanl.gov/abs/astro-ph/0204521).
 
-15\) Anthony Aguirre, Alternatives to dark matter (?), available as
+15) Anthony Aguirre, Alternatives to dark matter (?), available as
 [astro-ph/0310572](http://xxx.lanl.gov/abs/astro-ph/0310572).
 
 Here's McGaugh's website with links to many papers on MOND, including
 Milgrom's original papers:
 
-16\) The MOND pages, `http://www.astro.umd.edu/~ssm/mond/litsub.html`
+16) The MOND pages, `http://www.astro.umd.edu/~ssm/mond/litsub.html`
 
 McGaugh is a strong proponent of MOND - though he didn't start out that
 way - so the selection may be biased. Does anyone know an intelligent
@@ -437,7 +437,7 @@ sci.physics.research!
 
 By the way, you can see lots of photos of the Marseille conference here:
 
-17\) John Baez, Marseille, `http://math.ucr.edu/home/baez/marseille/`
+17) John Baez, Marseille, `http://math.ucr.edu/home/baez/marseille/`
 
 Almost everyone working on loop quantum gravity and spin foams can be
 seen here!

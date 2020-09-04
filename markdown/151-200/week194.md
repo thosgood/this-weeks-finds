@@ -18,7 +18,7 @@ here.
 
 On the day I showed up, I got a packet of mail containing this book:
 
-1\) John H. Conway and Derek A. Smith, On Quaternions and Octonions:
+1) John H. Conway and Derek A. Smith, On Quaternions and Octonions:
 Their Geometry, Arithmetic, and Symmetry, A. K. Peters, Ltd., Natick,
 Massachusetts, 2003.
 
@@ -39,7 +39,7 @@ also famous for acting like he just quantum-tunnelled out of a Lewis
 Carroll novel. If you don't know what I mean, you're missing out on a
 *lot* of fun... so you should immediately read this:
 
-2\) Charles Seife, Mathemagician (impressions of Conway), The Sciences
+2) Charles Seife, Mathemagician (impressions of Conway), The Sciences
 (May/June 1994), 12-15. Available at
 `http://www.users.cloud9.net/~cgseife/conway.html`
 
@@ -60,12 +60,12 @@ Just to entice you, I'll quote the beginning:
 Anyway, he's been busy writing books lately. Not too long ago, he
 finished one about the classification of quadratic forms:
 
-3\) John H. Conway and Francis Fung, The Sensual (Quadratic) Form,
+3) John H. Conway and Francis Fung, The Sensual (Quadratic) Form,
 Mathematical Association of America, Washington DC, 1997.
 
 and before that, a very fun elementary one about numbers:
 
-4\) John H. Conway and Richard K. Guy, The Book of Numbers, Copernicus,
+4) John H. Conway and Richard K. Guy, The Book of Numbers, Copernicus,
 New York, 1996.
 
 Now he's into quaternions and octonions. But his new book with Derek
@@ -160,13 +160,13 @@ or alternatively, on a lattice with rhombic symmetry:
 3 act on a lattice with square symmetry, and 5 act on a lattice with
 hexagonal symmetry. For more details, with pictures, see:
 
-5\) NIST, The 17 two-dimensional space groups,
+5) NIST, The 17 two-dimensional space groups,
 `http://www.nist.gov/srd/webguide/nist42-3/appa.htm`
 
-6\) Eric Weisstein, Wallpaper groups,
+6) Eric Weisstein, Wallpaper groups,
 `http://mathworld.wolfram.com/WallpaperGroups.html`
 
-7\) David Hestenes, Point groups and space groups in geometric algebra,
+7) David Hestenes, Point groups and space groups in geometric algebra,
 [modelingnts.la.asu.edu/pdf/crystalsymmetry.pdf](modelingnts.la.asu.edu/pdf/crystalsymmetry.pdf)
 
 After this low-dimensional warmup, Conway and Smith's book turns to the
@@ -260,7 +260,7 @@ everybody except the octonion-heads, so I'll wait until next week.
 I'll just mention this review article, which octonion-heads should
 enjoy:
 
-8\) B. S. Acharya, M theory, G2 manifolds and four-dimensional physics,
+8) B. S. Acharya, M theory, G2 manifolds and four-dimensional physics,
 Class. Quant. Grav. 19 (2002), 5619-5653.
 
 It's nice because it goes all the way from the definition of a G2

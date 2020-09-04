@@ -5,11 +5,11 @@ been working on with Fotini Markopoulou and Sundance Bilson-Thompson.
 This idea relates the elementary particles in one generation of the
 Standard Model to certain 3-strand framed braids:
 
-1\) Sundance O. Bilson-Thompson, A topological model of composite
+1) Sundance O. Bilson-Thompson, A topological model of composite
 preons, available as
 [hep-ph/0503213](http://arxiv.org/abs/hep-ph/0503213).
 
-2\) Sundance O. Bilson-Thompson, Fotini Markopoulou, and Lee Smolin,
+2) Sundance O. Bilson-Thompson, Fotini Markopoulou, and Lee Smolin,
 Quantum gravity and the Standard Model,
 [hep-th/0603022](http://xxx.lanl.gov/abs/hep-th/0603022).
 
@@ -29,11 +29,11 @@ conformal field theory, and Monstrous Moonshine.
 I've talked about some of these things before, but now I'll introduce
 some new puzzle pieces, which come from two places:
 
-3\) Imre Tuba and Hans Wenzl, Representations of the braid group B_3
+3) Imre Tuba and Hans Wenzl, Representations of the braid group B_3
 and of SL(2,Z), available as
 [math.RT/9912013](http://arxiv.org/abs/math.RT/9912013).
 
-4\) Terry Gannon, The algebraic meaning of genus-zero, available as
+4) Terry Gannon, The algebraic meaning of genus-zero, available as
 [math.NT/0512248](http://arxiv.org/abs/math.NT/0512248).
 
 You could call it "a tale of two groups".
@@ -369,7 +369,7 @@ That last paragraph was pretty vague. If I'm going to understand this
 better, either someone has to help me or I've got to read something
 like this:
 
-5\) Yongchang Zhu, Modular invariance of characters of vertex operator
+5) Yongchang Zhu, Modular invariance of characters of vertex operator
 algebras, J. Amer. Math. Soc 9 (1996), 237-302. Also available at
 `http://www.ams.org/jams/1996-9-01/S0894-0347-96-00182-8/home.html`
 
@@ -386,7 +386,7 @@ torus: the trefoil has genus 1, meaning that it bounds a torus minus a
 disc embedded in R^3. You can see this in the lecture "Genus and knot
 sum" in this course on knot theory:
 
-6\) Brian Sanderson, The knot theory MA3F2 page,
+6) Brian Sanderson, The knot theory MA3F2 page,
 [http://www.maths.warwick.ac.uk/\~bjs/MA3F2-page.html]()
 
 This course also has material on rational tangles.
@@ -395,7 +395,7 @@ The fact that B_3 is a central extension of PSL(2,Z) by Z, and the
 quantum-mechanical interpretation of a central extension in terms of
 phases, plays an important role here:
 
-7\) R. Voituriez, Random walks on the braid group B_3 and magnetic
+7) R. Voituriez, Random walks on the braid group B_3 and magnetic
 translations in hyperbolic geometry, Nucl. Phys. B621 (2002), 675-688.
 Also available as `http://arxiv.org/abs/math-ph/0103008`.
 
@@ -444,7 +444,7 @@ above, but doesn't say why. Some people asked about this, and
 eventually some people found some explanations. First of all, there's a
 proof on page 84 of this book:
 
-8\) John Milnor, Introduction to Algebraic K-theory, Annals of Math.
+8) John Milnor, Introduction to Algebraic K-theory, Annals of Math.
 Studies 72, Princeton U. Press, Princeton, New Jersey, 1971.
 
 Milnor credits it to Quillen. Joe Christy summarizes it below. I can't

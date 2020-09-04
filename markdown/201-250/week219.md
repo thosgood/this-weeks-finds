@@ -1,7 +1,7 @@
 I'm about to head to Sydney and Canberra to help celebrate the 60th
 birthday of Ross Street ... the world's best $n$-category theorist!
 
-1\) Categories in Algebra, Geometry and Mathematical Physics, conference
+1) Categories in Algebra, Geometry and Mathematical Physics, conference
 in honor of the 60th birthday of Ross Street,
 `http://streetfest.maths.mq.edu.au/`
 
@@ -20,7 +20,7 @@ There will eventually be a conference proceedings, but for now you can
 see the abstracts of people's talks on the website. You can see my
 talks here:
 
-2\) John Baez, Higher gauge theory,
+2) John Baez, Higher gauge theory,
 `http://math.ucr.edu/home/baez/street/`
 
 Anyway, before I take off, here's a roundup of stuff I've been meaning
@@ -35,7 +35,7 @@ Okay... let's start with Einstein's "annus mirabilis".
 1905 was indeed a miraculous year for Albert Einstein. He published four
 earth-shaking papers, all in the same journal:
 
-3\) Albert Einstein, On a heuristic viewpoint concerning the production
+3) Albert Einstein, On a heuristic viewpoint concerning the production
 and transformation of light, Annalen der Physik 17 (1905), 132-148.
 Available at `http://dbserv.ihep.su/~elan/src/einstein05/eng.pdf`
 
@@ -90,7 +90,7 @@ pieces?
 
 Lee Smolin has some interesting thoughts about this:
 
-4\) Lee Smolin, [Why no "new Einsteins"?](no-new-einstein.pdf),
+4) Lee Smolin, [Why no "new Einsteins"?](no-new-einstein.pdf),
 Physics Today, June 2005, 56-57.
 
 I think the mention of Einstein is mainly just a trick to get people to
@@ -144,7 +144,7 @@ of the stars in this constellation in 4 million years.
 
 Here's a picture of what these spacecraft are doing:
 
-5\) NASA, Pioneer path,
+5) NASA, Pioneer path,
 `http://spaceprojects.arc.nasa.gov/Space_Projects/pioneer/path.html`
 
 \
@@ -210,21 +210,21 @@ So, we may have an interesting clue on our hands.
 For more information on the Pioneer anomaly, see these sources and the
 many references therein:
 
-6\) Wikipedia, Pioneer anomaly,
+6) Wikipedia, Pioneer anomaly,
 `http://en.wikipedia.org/wiki/Pioneer_anomaly`
 
-7\) Chris P. Duif, Pioneer anomaly - literature and links,
+7) Chris P. Duif, Pioneer anomaly - literature and links,
 `http://www.space-time.info/pioneer/pioanomlit.html`
 
 I got interested in the Pioneer anomaly when I read this recent proposal
 for a mission to study it:
 
-8\) The Pioneer Collaboration, A mission to explore the Pioneer anomaly,
+8) The Pioneer Collaboration, A mission to explore the Pioneer anomaly,
 available as [gr-qc/0506139](http://arxiv.org/abs/gr-qc/0506139).
 
 Finally, here's a fun book on the Pioneer missions:
 
-9\) Mark Wolverton, The Depths of Space: The Story of the Pioneer
+9) Mark Wolverton, The Depths of Space: The Story of the Pioneer
 Planetary Probes, Joseph Henry Press, 2004. Available at
 `http://www.nap.edu/books/0309090504/html/`
 
@@ -248,10 +248,10 @@ billion pulses per second - a 10 gigahertz signal.
 
 For details, try this:
 
-10\) Intel, Silicon photonics,
+10) Intel, Silicon photonics,
 `http://www.intel.com/technology/silicon/sp/`
 
-11\) Robert Service, Intel's breakthrough, Technology Review, July
+11) Robert Service, Intel's breakthrough, Technology Review, July
 2005, 62-65. Also available at
 `http://www.technologyreview.com/articles/05/07/issue/feature_intel.asp`
 
@@ -283,7 +283,7 @@ works.
 They've certain managed to convince some investors. Here's some more
 info:
 
-12\) Erika Jonietz, Quantum calculation, Technology Review, July 2005,
+12) Erika Jonietz, Quantum calculation, Technology Review, July 2005,
 24-25. Also available at
 `http://www.technologyreview.com/articles/05/07/issue/forward_quantum.asp`
 
@@ -303,9 +303,9 @@ Of course, this is the kind of challenge that some people just can't
 resist. Mike Stay and Gerard Westendorp bravely tried making paper
 models of it:
 
-13\) Mike Stay, Klein quartic, `http://math.ucr.edu/~mike/klein/`
+13) Mike Stay, Klein quartic, `http://math.ucr.edu/~mike/klein/`
 
-14\) Gerard Westendorp, Geometry,
+14) Gerard Westendorp, Geometry,
 `http://www.xs4all.nl/~westy31/Geometry/Geometry.html`
 
 Mike wisely stopped just short of the final step, which would create a
@@ -318,7 +318,7 @@ this surface instead of actually eat it. About 10 or 12 years ago, Joe
 Christy made the following pictures using a program called Geomview,
 which makes virtual 3d objects:
 
-15\) Joe Christy, Klein quartic pictures:\
+15) Joe Christy, Klein quartic pictures:\
 `http://math.ucr.edu/home/baez/pentacontihexahedron.jpg`\
 `http://math.ucr.edu/home/baez/pentacontihexahedron2.jpg`\
 `http://math.ucr.edu/home/baez/pentacontihexahedron3.jpg`
@@ -340,7 +340,7 @@ there are 56 of these triangles.
 
 While I'm at it, I can't resist showing you another beautiful picture:
 
-16\) Joe Christy, Fano plane on Roman surface,
+16) Joe Christy, Fano plane on Roman surface,
 `http://math.ucr.edu/home/baez/roman.jpg`
 
 \
@@ -363,7 +363,7 @@ the tetrahedral symmetry of the Fano plane!
 You can see all these pictures and much more on my Klein quartic
 website:
 
-17\) John Baez, Klein's quartic curve,
+17) John Baez, Klein's quartic curve,
 `http://math.ucr.edu/home/baez/klein.html`
 
 You may think I'm digressing, but the relation between Klein's quartic
@@ -685,12 +685,12 @@ writes:
 
 Just for the record, that's:
 
-17\) Ned Wright, Pioneer anomalous acceleration,
+17) Ned Wright, Pioneer anomalous acceleration,
 `http://www.astro.ucla.edu/~wright/PioneerAA.html`
 
 For a contrasting viewpoint see:
 
-18\) Slava G. Turyshev, Michael Martin Nieto, and John D. Anderson, The
+18) Slava G. Turyshev, Michael Martin Nieto, and John D. Anderson, The
 Pioneer anomaly and its implications, available as
 [gr-qc/0510081](http://arxiv.org/abs/gr-qc/0510081).
 

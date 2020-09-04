@@ -7,7 +7,7 @@ Schreiber's blog entry on the gauge 3-group of M-theory. But first:
 ![](klein_quartic_egan.gif)
 :::
 
-1\) Greg Egan, Klein's quartic equation,
+1) Greg Egan, Klein's quartic equation,
 `http://gregegan.customer.netspace.net.au/SCIENCE/KleinQuartic/KleinQuarticEq.html`
 
 I discussed Klein's quartic curve in ["Week 214"](#week214) and
@@ -58,7 +58,7 @@ would be like damming the Niagara Falls.
 For example, last night I saw this excellent hardcover book on sale for
 78 yuan, or about \$10:
 
-2\) Yu. I. Manin and A. A. Panchishkin, Introduction to Modern Number
+2) Yu. I. Manin and A. A. Panchishkin, Introduction to Modern Number
 Theory, second edition, Science Press, 2005.
 
 It's a great overview of number theory, from the basics through class
@@ -101,7 +101,7 @@ lives in 11 dimensions. Back in ["Week 158"](#week158) and
 ["Week 159"](#week159) I took a stab at understanding this. Now
 I'll try again, with a lot of help from Urs Schreiber:
 
-3\) Urs Schreiber, Castellani on free differential algebras in
+3) Urs Schreiber, Castellani on free differential algebras in
 supergravity: gauge 3-group of M-theory,
 `http://golem.ph.utexas.edu/string/archives/000840.html`
 
@@ -116,12 +116,12 @@ strings trace out 2-dimensional surfaces.
 Back in ["Week 158"](#week158) I wrote down a Lagrangian for 11d
 supergravity. This is a truly monstrous thing involving three fields:
 
-A\) a frame field e - the "graviton",
+A) a frame field e - the "graviton",
 
-B\) a field \psi taking values in the real spin-3/2 representation of the
+B) a field \psi taking values in the real spin-3/2 representation of the
 11d Lorentz group - the "gravitino",
 
-C\) a 3-form A.
+C) a 3-form A.
 
 When it was discovered back in 1978, people were interested in 11d
 supergravity mainly because it was the highest-dimensional theory they
@@ -211,7 +211,7 @@ I came up with this crazy idea on my own back in
 that the 2-form field called B in 10d superstring theory really *is* a
 connection on a U(1) gerbe:
 
-4\) Alan L. Carey, Stuart Johnson and Michael K. Murray, Holonomy on
+4) Alan L. Carey, Stuart Johnson and Michael K. Murray, Holonomy on
 D-branes, available as
 [`arXiv:hep-th/0204199`](http://arxiv.org/abs/hep-th/0204199).
 
@@ -222,12 +222,12 @@ a dimension. For example, a crucial factor of 1/6 in the Lagrangian for
 Another possible explanation was that this 3-form is the Chern-Simons
 form of an E~8~ bundle over spacetime:
 
-5\) Emanuel Diaconescu, Gregory Moore and Edward Witten, E~8~ gauge
+5) Emanuel Diaconescu, Gregory Moore and Edward Witten, E~8~ gauge
 theory, and a derivation of K-theory from M-theory, Adv. Theor. Math.
 Phys. 6 (2003) 1031-1134. Also available as
 [`arXiv:hep-th/0005090`](http://arxiv.org/abs/hep-th/0005090).
 
-6\) Emanuel Diaconescu, Daniel S. Freed and Gregory Moore, The M-theory
+6) Emanuel Diaconescu, Daniel S. Freed and Gregory Moore, The M-theory
 3-form and E~8~ gauge theory, available as
 [`arXiv:hep-th/0312069`](http://arxiv.org/abs/hep-th/0312069).
 
@@ -243,18 +243,18 @@ Later, it started becoming clear that both ideas - the twice
 categorified U(1) connection and the E~8~ gauge theory - fit together in
 some way:
 
-7\) Paolo Aschieri and Branislav Jurco, Gerbes, M5-brane anomalies and
+7) Paolo Aschieri and Branislav Jurco, Gerbes, M5-brane anomalies and
 E~8~ gauge theory, JHEP 0410 (2004), 068. Also available as
 [`arXiv:hep-th/0409200`](http://arxiv.org/abs/hep-th/0409200).
 
 It all became a lot clearer to me when Urs Schreiber read these papers
 and translated them into a language I like:
 
-8\) Leonardo Castellani, Lie derivatives along antisymmetric tensors,
+8) Leonardo Castellani, Lie derivatives along antisymmetric tensors,
 and the M-theory superalgebra, available as
 [`arXiv:hep-th/0508213`](http://arxiv.org/abs/hep-th/0508213).
 
-9\) Pietro Fré and Pietro Antonio Grassi, Pure spinors, free
+9) Pietro Fré and Pietro Antonio Grassi, Pure spinors, free
 differential algebras, and the supermembrane, available as
 [`arXiv:hep-th/0606171`](http://arxiv.org/abs/hep-th/0606171).
 
@@ -300,7 +300,7 @@ of category that acts like a group, and a category has "objects" and
 "morphisms". The morphisms go between objects. For more on 2-groups,
 try:
 
-10\) Higher-dimensional algebra V: 2-Groups, with Aaron D. Lauda, Theory
+10) Higher-dimensional algebra V: 2-Groups, with Aaron D. Lauda, Theory
 and Applications of Categories 12 (2004), available at
 `http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html`   Also available
 as [math.QA/0307200](http://arxiv.org/abs/math.QA/0307200).
@@ -356,7 +356,7 @@ trying to be comprehensible, and simply state some facts.
 
 As shown here:
 
-11\) Higher-dimensional algebra VI: Lie 2-Algebras, with Alissa Crans,
+11) Higher-dimensional algebra VI: Lie 2-Algebras, with Alissa Crans,
 Theory and Applications of Categories 12 (2004), available at
 `http://www.tac.mta.ca/tac/volumes/12/15/12-15abs.html`   Also available
 as [math.QA/0307200](http://arxiv.org/abs/math.QA/0307200).
@@ -367,7 +367,7 @@ algebras which as chain complexes have only n nonvanishing terms, the
 operad in the category of chain complexes of vector spaces - see
 ["Week 191"](#week191) and especially these:
 
-12\) Martin Markl, Steve Schnider and Jim Stasheff, Operads in Algebra,
+12) Martin Markl, Steve Schnider and Jim Stasheff, Operads in Algebra,
 Topology and Physics, AMS, Providence, Rhode Island, 2002.
 
 James Stasheff, Hartford/Luminy talks on operads, available at
@@ -423,7 +423,7 @@ where that "\psi*" should really be "\psi-bar". And, magically, in 11
 dimensions this gives a 4-cocycle on the Poincaré Lie superalgebra! The
 proof of this uses some Fierz identity in 11 dimensions:
 
-12\) R. D'Auria and Pietro Fré, Geometric supergravity in D = 11 and
+12) R. D'Auria and Pietro Fré, Geometric supergravity in D = 11 and
 its hidden supergroup, Nucl. Phys. B201 (1982), 101-140. Also available
 at `http://www.math.uni-hamburg.de/home/schreiber/sdarticle.pdf`
 

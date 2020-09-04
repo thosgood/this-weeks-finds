@@ -31,7 +31,7 @@ NASA's "Aqua" satellite:
 [![](Eyjafjallajokull_ash_plume.jpg){width="600"}](http://rapidfire.sci.gsfc.nasa.gov/gallery/?2010105-0415/NorthAtlantic.A2010105.1135.2km.jpg)
 :::
 
-1\) NASA, Ash plume from Eyjafjallajokull Volcano over the North
+1) NASA, Ash plume from Eyjafjallajokull Volcano over the North
 Atlantic (afternoon overpass),
 `http://rapidfire.sci.gsfc.nasa.gov/gallery/?2010105-0415`
 
@@ -44,7 +44,7 @@ Here's what the volcano looked like back in March:
 This photo was taken by someone named Bjarni T. He has a great photo
 gallery here:
 
-2\) Bjarni T, 2010 Eruptions of Eyjafjalljkull,
+2) Bjarni T, 2010 Eruptions of Eyjafjalljkull,
 `http://www.fotopedia.com/en/2010_eruptions_of_Eyjafjallaj%C3%B6kull/slideshow/sort/MostVotedFirst/status/default/photos`
 
 And here's what the volcano looked like on April 15th:
@@ -593,7 +593,7 @@ principle and how it relates to the more familiar "principle of least
 action" in classical mechanics. This book seems to be pointing towards
 a unification of the two:
 
-3\) Hans Christian Öttinger, Beyond Equilibrium Thermodynamics, Wiley,
+3) Hans Christian Öttinger, Beyond Equilibrium Thermodynamics, Wiley,
 2005.
 
 I thank Arnold Neumaier for pointing it out! It considers a fascinating

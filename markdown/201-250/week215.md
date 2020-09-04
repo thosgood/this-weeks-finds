@@ -10,7 +10,7 @@ Last week I talked about Klein's quartic curve. This led Gerard
 Westendorp and Mike Stay to draw some pictures of it, and their ideas
 helped Greg Egan create this really nice picture:
 
-1\) Greg Egan, Klein's quartic curve,
+1) Greg Egan, Klein's quartic curve,
 `http://math.ucr.edu/home/baez/mathematical/KleinDual.png`
 
 ::: {align="CENTER"}
@@ -48,7 +48,7 @@ Well, there's also a 2-fold symmetry that corresponds to turning the
 tetrahedron inside out! And Egan made a wonderful *movie* of this. If a
 picture is worth a thousand words, this is worth about a million:
 
-2\) Greg Egan, Turning Klein's quartic curve inside out,
+2) Greg Egan, Turning Klein's quartic curve inside out,
 `http://math.ucr.edu/home/baez/mathematical/KleinDualInsideOut.gif`
 
 ::: {align="CENTER"}
@@ -136,7 +136,7 @@ an anticube.
 
 Here's a picture:
 
-3\) Greg Egan, Cubes and anticubes in the Klein quartic curve,
+3) Greg Egan, Cubes and anticubes in the Klein quartic curve,
 `http://math.ucr.edu/home/baez/KleinFigures.gif`
 
 \
@@ -225,7 +225,7 @@ In fact, your path will be a closed geodesic on the Klein quartic
 curve... like the long dashed line in Klein and Fricke's original
 picture:
 
-4\) Klein and Fricke, Klein's quartic curve with geodesic,
+4) Klein and Fricke, Klein's quartic curve with geodesic,
 `http://math.ucr.edu/home/baez/Klein168.gif`
 
 ::: {align="CENTER"}
@@ -247,10 +247,10 @@ Darin Brown and his thesis advisor Jeff Stopple at U. C. Santa Barbara
 have been thinking about geodesics in H/G for other Fuchsian groups G,
 and their relation to number theory:
 
-5\) Jeff Stopple, A reciprocity law for prime geodesics, J. Number
+5) Jeff Stopple, A reciprocity law for prime geodesics, J. Number
 Theory 29 (1988), 224-230.
 
-6\) Darin Brown, Lifting properties of prime geodesics on hyperbolic
+6) Darin Brown, Lifting properties of prime geodesics on hyperbolic
 surfaces, Ph.D. thesis, U. C. Santa Barbara, 2004.
 
 I'd really like to learn about this, because it connects all sorts of
@@ -340,30 +340,30 @@ In some notes on quantum chaos, Gutzwiller wrote:
 
 When I get serious, I'll read these:
 
-7\) M. C. Gutzwiller, Chaos in Classical and Quantum Mechanics,
+7) M. C. Gutzwiller, Chaos in Classical and Quantum Mechanics,
 Springer, Berlin, 1990.
 
-8\) Predrag Cvitanovic, Roberto Artuso, Per Dahlqvist, Ronnie Mainieri,
+8) Predrag Cvitanovic, Roberto Artuso, Per Dahlqvist, Ronnie Mainieri,
 Gregor Tanner, Gabor Vattay, Niall Whelan and Andreas Wirzba, Chaos:
 Classical and Quantum, available at `http://www.nbi.dk/ChaosBook/`
 
-9\) Svetlana Katok, Fuchsian Groups, U. Chicago Press, Chicago, 1992.
+9) Svetlana Katok, Fuchsian Groups, U. Chicago Press, Chicago, 1992.
 
-10\) J. Elstrodt, F. Grunewald, and J. Mennicke, Groups Acting on
+10) J. Elstrodt, F. Grunewald, and J. Mennicke, Groups Acting on
 Hyperbolic Space, Springer, Berlin, 1998.
 
-11\) Peter Sarnak, Quantum chaos, symmetry and zeta functions, in
+11) Peter Sarnak, Quantum chaos, symmetry and zeta functions, in
 Current Developments in Mathematics, 1997, eds R. Bott et al.,
 International Press, Boston, 1999, pp. 127-159.
 
-12\) C. Schmit, Quantum and classical properties of some billiards on
+12) C. Schmit, Quantum and classical properties of some billiards on
 the hyperbolic plane, in Chaos and Quantum Physics, eds. M.-J. Giannoni
 et al., Elsevier, New York, 1991, pp. 333-369.
 
 For a nice pop treatment of quantum chaos and the Riemann hypothesis,
 try this:
 
-13\) Martin Gutzwiller, Quantum chaos, Scientific American, January
+13) Martin Gutzwiller, Quantum chaos, Scientific American, January
 1992. Also available at
 `http://www.maths.ex.ac.uk/~mwatkins/zeta/quantumchaos.html`
 

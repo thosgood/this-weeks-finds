@@ -8,7 +8,7 @@ growth ever since. I spend lots of time studying it, and I probably will
 all my life - there's a lot to learn! To really understand it, it helps
 to know the history. And for that, this is the book to read:
 
-1\) Thomas Hawkins, The Emergence of the Theory of Lie Groups: an Essay
+1) Thomas Hawkins, The Emergence of the Theory of Lie Groups: an Essay
 in the History of Mathematics, 1869-1926, Springer, New York, 2000.
 
 You have to know your Lie groups pretty well to enjoy this book, but if
@@ -34,7 +34,7 @@ between the two.
 Okay... so much for gossip! Now I'm going to dive in and pick up right
 where I left off in my discussion of the ideas behind this paper:
 
-2\) Michael Mueger, From subfactors to categories and topology I:
+2) Michael Mueger, From subfactors to categories and topology I:
 Frobenius algebras in and Morita equivalence of tensor categories,
 available at [math.CT/0111204](http://xxx.lanl.gov/abs/math.CT/0111204).
 
@@ -61,7 +61,7 @@ This is a little 2-category containing exactly the stuff any adjunction
 in any 2-category must have: not a jot more, not a tiddle less! It was
 first studied by Schanuel and Street:
 
-3\) Stephen Schanuel and Ross Street, The free adjunction, Cah. Top.
+3) Stephen Schanuel and Ross Street, The free adjunction, Cah. Top.
 Geom. Diff. 27 (1986), 81-83.
 
 In a bit more detail, the walking adjunction is the 2-category freely
@@ -678,10 +678,10 @@ object satisfying the I = N equations.
 Where can you read about this? Well, besides Mueger's paper, there are
 these:
 
-4\) Frank Quinn, Lectures on axiomatic quantum field theory, in Geometry
+4) Frank Quinn, Lectures on axiomatic quantum field theory, in Geometry
 and Quantum Field Theory, Amer. Math. Soc., Providence, RI, 1995.
 
-5\) Lowell Abrams, Two-dimensional topological quantum field theories
+5) Lowell Abrams, Two-dimensional topological quantum field theories
 and Frobenius algebras, J. Knot Theory and its Ramifications 5 (1996),
 569-587.
 
@@ -738,7 +738,7 @@ before, and I rechecked it this morning in bed. I don't know if a proof
 exists in the literature, but from what Mueger writes, I suspect maybe
 you can catch glimpses of it in Appendix A3 of this book:
 
-6\) L. Kadison, New Examples of Frobenius Extensions, University Lecture
+6) L. Kadison, New Examples of Frobenius Extensions, University Lecture
 Series \#14, Amer. Math. Soc., Providence RI, 1999.
 
 Anyway, the upshot is that we can equivalently define a Frobenius object

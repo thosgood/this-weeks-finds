@@ -2,7 +2,7 @@
 
 NASA is trying to built up suspense with this "media advisory":
 
-1\) NASA, NASA Announces Dark Matter Discovery,
+1) NASA, NASA Announces Dark Matter Discovery,
 `http://www.nasa.gov/home/hqnews/2006/aug/HQ_M06128_dark_matter.html`
 
 which says simply:
@@ -20,7 +20,7 @@ Clowe and Sean Carroll. Markevitch and Clowe work with the Chandra X-ray
 telescope to study galaxy collisions and dark matter. Last November,
 Markevitch gave a talk on this work, which you can see here:
 
-2\) Maxim Markevitch, Scott Randall, Douglas Clowe, and Anthony H.
+2) Maxim Markevitch, Scott Randall, Douglas Clowe, and Anthony H.
 Gonzalez, Insights on physics of gas and dark matter from cluster
 mergers, available at
 `http://cxc.harvard.edu/symposium_2005/proceedings/theme_energy.html#abs23`
@@ -74,27 +74,27 @@ evidence that dark matter is for real.
 
 For more try these:
 
-3\) M. Markevitch, S. Randall, D. Clowe, A. Gonzalez, and M. Bradac,
+3) M. Markevitch, S. Randall, D. Clowe, A. Gonzalez, and M. Bradac,
 Dark matter and the Bullet Cluster, available at
 `http://www.cosis.net/abstracts/COSPAR2006/02655/COSPAR2006-A-02655.pdf`
 
-4\) M. Markevitch, A. H. Gonzalez, D. Clowe, A. Vikhlinin, L. David, W.
+4) M. Markevitch, A. H. Gonzalez, D. Clowe, A. Vikhlinin, L. David, W.
 Forman, C. Jones, S. Murray, and W. Tucker, Direct constraints on the
 dark matter self-interaction cross-section from the merging galaxy
 cluster 1E0657-56, available as
 [astro-ph/0309303](http://arxiv.org/abs/astro-ph/0309303).
 
-5\) Maxim Markevitch, Chandra observation of the most interesting
+5) Maxim Markevitch, Chandra observation of the most interesting
 cluster in the Universe, available as
 [astro-ph/0511345](http://xxx.lanl.gov/abs/astro-ph/0511345).
 
-6\) M. Markevitch, A. H. Gonzalez, L. David, A. Vikhlinin, S. Murray, W.
+6) M. Markevitch, A. H. Gonzalez, L. David, A. Vikhlinin, S. Murray, W.
 Forman, C. Jones and W. Tucker, A textbook example of a bow shock in the
 merging galaxy cluster 1E0657-56, Astrophys. J. 567 (2002), L27. Also
 available as
 [astro-ph/0110468](http://xxx.lanl.gov/abs/astro-ph/0110468).
 
-7\) Eric Hayashi and Simon D. M. White, How rare is the Bullet Cluster?,
+7) Eric Hayashi and Simon D. M. White, How rare is the Bullet Cluster?,
 Mon. Not. Roy. Astron. Soc. Lett. 370 (2006), L38-L41, available as
 [astro-ph/0604443](http://xxx.lanl.gov/abs/astro-ph/0604443).
 
@@ -121,7 +121,7 @@ mainly of dark matter and cold hydrogen, with very few stars:
 [![](ghost_galaxy.jpg){width="400"}](http://www2.naic.edu/~rminchin/press/)
 :::
 
-8\) PPARC, New evidence for a dark matter galaxy,
+8) PPARC, New evidence for a dark matter galaxy,
 `http://www.interactions.org/cms/?pid=1023641`
 
 However, Matt Owers informs me that the consensus on this ghost, VIRGOHI
@@ -150,7 +150,7 @@ They get pictures like this:
 ![](tet4.real.med.jpg){width="400"}
 :::
 
-9\) Dan Christensen and Igor Khavkine, Plots of q-deformed tets,
+9) Dan Christensen and Igor Khavkine, Plots of q-deformed tets,
 `http://jdc.math.uwo.ca/spinnet/`
 
 Here the color indicates the real part of the spin network amplitude,
@@ -160,15 +160,15 @@ here.
 
 You can get some nice books on category theory for free these days:
 
-10\) Jiri Adamek, Horst Herrlich and George E. Strecker, Abstract and
+10) Jiri Adamek, Horst Herrlich and George E. Strecker, Abstract and
 Concrete Categories: the Joy of Cats, available at
 `http://katmat.math.uni-bremen.de/acc/acc.pdf`
 
-11\) Robert Goldblatt, Topoi: the Categorial Analysis of Logic,
+11) Robert Goldblatt, Topoi: the Categorial Analysis of Logic,
 available at
 `http://cdl.library.cornell.edu/cgi-bin/cul.math/docviewer?did=Gold010`
 
-12\) Michael Barr and Charles Wells, Toposes, Triples and Theories,
+12) Michael Barr and Charles Wells, Toposes, Triples and Theories,
 available at `http://www.case.edu/artsci/math/wells/pub/ttt.html`
 
 The first two are quite elementary - don't be scared of the title of
@@ -179,7 +179,7 @@ You can also download this classic text on synthetic differential
 geometry, which is an approach to differential geometry based on
 infinitesimals, formalized using topos theory:
 
-13\) Anders Kock, Synthetic Differential Geometry, available at
+13) Anders Kock, Synthetic Differential Geometry, available at
 `http://home.imf.au.dk/kock/`
 
 He asks that we not circulate it in printed form - electrons are okay,
@@ -218,7 +218,7 @@ we use the bracket in our Lie algebra.
 I won't prove the Maurer-Cartan equation; the proof is so easy you can
 even find it on the Wikipedia:
 
-14\) Wikipedia, Maurer-Cartan form,
+14) Wikipedia, Maurer-Cartan form,
 `http://en.wikipedia.org/wiki/Maurer-Cartan_form`
 
 An interesting thing about this equation is that it shows everything
@@ -361,11 +361,11 @@ This is the beginning of a big story, and I'll try to say more later.
 If you get impatient, try the book on operads mentioned in
 ["Week 191"](#week191), or else these:
 
-15\) Victor Ginzburg and Mikhail Kapranov, Koszul duality for quadratic
+15) Victor Ginzburg and Mikhail Kapranov, Koszul duality for quadratic
 operads, Duke Math. J. 76 (1994), 203-272. Also Erratum, Duke Math. J.
 80 (1995), 293.
 
-16\) Benoit Fresse, Koszul duality of operads and homology of partition
+16) Benoit Fresse, Koszul duality of operads and homology of partition
 posets, Homotopy theory and its applications (Evanston, 2002), Contemp.
 Math. 346 (2004), 115-215. Also available at
 `http://math.univ-lille1.fr/~fresse/PartitionHomology.html`

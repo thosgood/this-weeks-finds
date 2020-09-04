@@ -38,7 +38,7 @@ For the mathematician, one striking thing about the Alhambra is the
 marvelous tile patterns. On my visit, I took photos of all the tiles I
 could see:
 
-1\) John Baez, Alhambra tiles, `http://math.ucr.edu/home/baez/alhambra`
+1) John Baez, Alhambra tiles, `http://math.ucr.edu/home/baez/alhambra`
 
 Here are a few of my favorites:
 
@@ -71,14 +71,14 @@ as symmetries can be found in the Alhambra. This article rebuts that
 claim with all the vehemence such an academic issue deserves, saying
 that only 13 wallpaper groups are visible:
 
-2\) Branko Grünbaum, The emperor's new clothes: full regalia, G-string,
+2) Branko Grünbaum, The emperor's new clothes: full regalia, G-string,
 or nothing?, with comments by Peter Hilton and Jean Pedersen, Math.
 Intelligencer 6 (1984), 47-56.
 
 As mentioned in ["Week 221"](#week221), this page shows 13 of the
 17:
 
-3\) Steve Edwards, Tilings from the Alhambra,
+3) Steve Edwards, Tilings from the Alhambra,
 `http://www2.spsu.edu/math/tile/grammar/moor.htm`
 
 Of the remaining four, two seem completely absent in Islamic art - the
@@ -90,7 +90,7 @@ Let me describe them, just for fun. You can learn the
 of wallpaper groups, and a lot more about them, from this rather
 wonderful article:
 
-4\) Wikipedia, Wallpaper group,
+4) Wikipedia, Wallpaper group,
 `http://en.wikipedia.org/wiki/Wallpaper_group`
 
 The group [pgg](http://en.wikipedia.org/wiki/Wallpaper_group#Group_pgg)
@@ -126,14 +126,14 @@ For more on tilings, try this book. Among other things, it points out
 that there's a lot more beauty and mathematical structure in tilings
 than is captured by their symmetry groups!
 
-5\) Branko Grünbaum and G. C. Shephard, Tilings and Patterns, New York,
+5) Branko Grünbaum and G. C. Shephard, Tilings and Patterns, New York,
 Freeman, 1987.
 
 The mathemagician John Horton Conway has come up with a very nice proof
 that there are only 17 wallpaper groups. This is nicely sketched in the
 Wikipedia article above, but detailed here:
 
-6\) John H. Conway, The orbifold notation for surface groups, in Groups,
+6) John H. Conway, The orbifold notation for surface groups, in Groups,
 Combinatorics and Geometry, London Math. Soc. Lecture Notes Series 165,
 Cambridge U. Press, Cambridge, 1990, pp. 438-447
 
@@ -415,7 +415,7 @@ This is different than the usual Euler characteristic of a rectangle!
 
 As usual, Conway has figured out a charming way to explain all this:
 
-7\) John Conway, Peter Doyle, Jane Gilman and Bill Thurston, Geometry
+7) John Conway, Peter Doyle, Jane Gilman and Bill Thurston, Geometry
 and the Imagination in Minneapolis, available at
 `http://www.geom.uiuc.edu/docs/doyle/mpls/handouts/handouts.html`
 
@@ -469,7 +469,7 @@ polygons, and see how these correspond to "affine" or "hyperbolic"
 simply-laced Kac-Moody algebras. Even better, compact quotients of these
 tilings give some very nice modular curves, like Klein's quartic curve:
 
-8\) John Baez, Klein's quartic curve,
+8) John Baez, Klein's quartic curve,
 `http://math.ucr.edu/home/baez/klein.html`
 
 So, there a lot of connections to be made here... and I can tell I
@@ -478,7 +478,7 @@ haven't made them all yet! Why don't you give it a try?
 To add to the fun, my friend Eugene Lerman has just written a very nice
 survey paper on orbifolds:
 
-9\) Eugene Lerman, Orbifolds as stacks?, available as
+9) Eugene Lerman, Orbifolds as stacks?, available as
 [`arXiv:0806.4160`](http://arxiv.org/abs/0806.4160).
 
 This describes some deeper ways to think about orbifolds. For example,
@@ -509,12 +509,12 @@ This turns out to be trickier than you might at first think - and
 that's where "differentiable stacks" come in. I should explain these
 someday, but not today. For now, try these nice introductions:
 
-10\) J. Heinloth, Some notes on differentiable stacks, Mathematisches
+10) J. Heinloth, Some notes on differentiable stacks, Mathematisches
 Institut Universititt Gttingen, Seminars 2004-2005, ed. Yuri Tschinkel,
 1-32. Available as `http://www.math.nyu.edu/~tschinke/WS04/pdf/book.pdf`
 or separately as `http://www.uni-essen.de/~hm0002/stacks.pdf`
 
-12\) Kai Behrend and Ping Xu, Differentiable stacks and gerbes,
+12) Kai Behrend and Ping Xu, Differentiable stacks and gerbes,
 available as
 [`arXiv:math/0605694`](http://arXiv.org/abs/arXiv:math/0605694).
 
@@ -561,11 +561,11 @@ and 2-groups, and that's cool enough for me!
 By the way, I obtained copies of some very interesting theses in
 Granada:
 
-13\) Antonio Martinez Cegarra, Cohomologia Varietal, Ph.D. thesis,
+13) Antonio Martinez Cegarra, Cohomologia Varietal, Ph.D. thesis,
 Departamento de Algebra y Fundamentos, Universidad de Santiago de
 Compostela.
 
-14\) Pilar Carrasco, Complejos Hipercruzados: Cohomologia y Extensiones,
+14) Pilar Carrasco, Complejos Hipercruzados: Cohomologia y Extensiones,
 Ph. D. thesis, Cuadernos de Algebra 6, Departamento de Algebra y
 Fundamentos, Universidad de Granada, 1987.
 
@@ -574,7 +574,7 @@ Pilar Carrasco was his student. It's unfortunate that these theses come
 from the day before electronic typesetting. Luckily, Carrasco's was
 later turned into a paper:
 
-15\) Pilar Carrasco and Antonio Martinez Cegarra, Group-theoretic
+15) Pilar Carrasco and Antonio Martinez Cegarra, Group-theoretic
 algebraic models for homotopy types, Jour. Pure Appl. Algebra 75 (1991),
 195-235. Also available at
 `http://www.sciencedirect.com/science/article/pii/002240499190133M`
@@ -594,7 +594,7 @@ hear that Carrasco plans to translate her thesis into English!
 
 Before I finish, let me mention one more paper about 2-groups:
 
-16\) Joo Faria Martins, The fundamental crossed module of the complement
+16) Joo Faria Martins, The fundamental crossed module of the complement
 of a knotted surface, available as
 [arxiv:0801.3921](http://arxiv.org/abs/0801.3921).
 
@@ -650,12 +650,12 @@ different.
 **Addenda:** This looks like a good book for fans of Islamic tile
 patterns:
 
-17\) Eric Broug, Islamic Geometric Patterns, Thames & Hudson, 2008.
+17) Eric Broug, Islamic Geometric Patterns, Thames & Hudson, 2008.
 
 Also, James Propp suggests that people interested in tilings and
 orbifolds and the work of Conway may enjoy this book:
 
-18\) John H. Conway, Heidi Burgiel, and Chaim Goodman-Strauss, The
+18) John H. Conway, Heidi Burgiel, and Chaim Goodman-Strauss, The
 Symmetries of Things, A. K Peters Limited, 2008.
 
 I should mention the definition of a wallpaper group: it's just a
@@ -750,7 +750,7 @@ isometry 2-groups that are equivalent to mere groups.
 
 For details try:
 
-19\) Richard Hepworth, The age grading and the Chen-Ruan cup product,
+19) Richard Hepworth, The age grading and the Chen-Ruan cup product,
 available as [`arXiv:0706.4326`](http://arxiv.org/abs/0706.4326).
 
 Richard Hepworth, Morse inequalities for orbifold cohomology, available

@@ -10,7 +10,7 @@ But first, this week's nebulae! Here's one called the Retina:
 [![](retina_nebula.jpg){width="500"}](retina_nebula.jpg)
 :::
 
-1\) Retina Nebula, Hubble Heritage Project,
+1) Retina Nebula, Hubble Heritage Project,
 `http://heritage.stsci.edu/2002/14/`
 
 This is actually a tube of ionized gas about a quarter of a light-year
@@ -58,7 +58,7 @@ Nebula:
 [![](ring_nebula.jpg){width="500"}](ring_nebula.jpg)
 :::
 
-2\) Ring Nebula, Hubble Heritage Project,
+2) Ring Nebula, Hubble Heritage Project,
 `http://heritage.stsci.edu/1999/01/`
 
 This is one light-year across. Again we see He II blue light with a
@@ -85,13 +85,13 @@ In this spirit, here's a roundup of free books on math and physics:
 gifts from their authors to you. There are lots out there. I'll only
 list a few. For more, try these sites:
 
-3\) George Cain, Online Mathematics Textbooks,
+3) George Cain, Online Mathematics Textbooks,
 `http://www.math.gatech.edu/~cain/textbooks/onlinebooks.html`
 
-4\) Free Online Mathematics Books,
+4) Free Online Mathematics Books,
 `http://www.pspxworld.com/book/mathematics/`
 
-5\) Alex Stefanov, Textbooks in Mathematics,
+5) Alex Stefanov, Textbooks in Mathematics,
 `http://users.ictp.it/~stefanov/mylist.html` or (with annoying ads, but
 more permanent) `http://us.geocities.com/alex_stef/mylist.html`
 
@@ -104,7 +104,7 @@ Anyway, let's dive in!
 What if you're dying to learn physics, but don't know where to start?
 Start here:
 
-6\) Physics Books Online,
+6) Physics Books Online,
 `http://www.sciencebooksonline.info/physics.html`.
 
 You'll find plenty of free online books, starting from the basics and
@@ -121,7 +121,7 @@ know calculus, for example?
 
 Simple: learn calculus! This book is a classic - and it's free:
 
-7\) Gilbert Strang, Calculus, Wellesley-Cambridge Press, Cambridge,
+7) Gilbert Strang, Calculus, Wellesley-Cambridge Press, Cambridge,
 1991. Also available at
 `http://ocw.mit.edu/ans7870/resources/Strang/strangtext.htm`
 
@@ -136,7 +136,7 @@ Or: what if you know calculus, but you're still swimming through the
 undergraduate sea of differential equations, Fourier transforms,
 matrices, vectors and tensors? Then this should be really helpful:
 
-8\) James Nearing, Mathematical Tools for Physics, available at
+8) James Nearing, Mathematical Tools for Physics, available at
 `http://www.physics.miami.edu/~nearing/mathmethods/`
 
 Unlike the usual dry and formal textbook, it reads like a friendly uncle
@@ -172,16 +172,16 @@ There are free online books at all levels... so let's soar a bit
 higher. How about if you're a more advanced student trying to learn
 general relativity? Here you go:
 
-9\) Sean M. Carroll, Lecture Notes on General Relativity, available as
+9) Sean M. Carroll, Lecture Notes on General Relativity, available as
 [`arXiv:gr-qc/9712019`](http://arXiv.org/abs/arXiv:gr-qc/9712019)
 
 How about quantum field theory? Then you're in luck - there are *two*
 detailed books available online:
 
-10\) Warren Siegel, Fields, available as
+10) Warren Siegel, Fields, available as
 [`arXiv:hep-th/9912205`](http://arXiv.org/abs/arXiv:hep-th/9912205)
 
-10\) Mark Srednicki, Quantum Field Theory, Cambridge U. Press,
+10) Mark Srednicki, Quantum Field Theory, Cambridge U. Press,
 Cambridge, 2007. Also available at
 `http://www.physics.ucsb.edu/~mark/qft.html`
 
@@ -189,11 +189,11 @@ Or what about algebraic topology? Again you're in luck, since you can
 read both Allen Hatcher's gentle introduction and Peter May's
 high-powered "concise course":
 
-11\) Allen Hatcher, Algebraic Topology, Cambridge U. Press, Cambridge,
+11) Allen Hatcher, Algebraic Topology, Cambridge U. Press, Cambridge,
 2002. Also available at
 `http://www.math.cornell.edu/~hatcher/AT/ATpage.html`
 
-12\) Peter May, A Concise Course in Algebraic Topology, U. of Chicago
+12) Peter May, A Concise Course in Algebraic Topology, U. of Chicago
 Press, Chicago, 1999. Also available at
 `http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf`
 
@@ -201,7 +201,7 @@ May has a lot of more advanced topology books available at his website,
 too - like this classic, where he used operads to solve important
 problems involving loop spaces:
 
-13\) Peter May, The Geometry of Iterated Loop Spaces, Lecture Notes in
+13) Peter May, The Geometry of Iterated Loop Spaces, Lecture Notes in
 Mathematics 271, Springer, Berlin, 1972. Also available at
 `http://www.math.uchicago.edu/~may/BOOKS/gils.pdf`
 
@@ -210,7 +210,7 @@ physics, from the basics all the way to fancy stuff like D-branes and
 K-theory? Try this - it's a great sequel to Husemoller's classic intro
 to fiber bundles:
 
-14\) Dale Husemoller, Michael Joachim, Branislav Jurco and Martin
+14) Dale Husemoller, Michael Joachim, Branislav Jurco and Martin
 Schottenloher, Basic Bundle Theory and K-Cohomology Invariants, Lecture
 Notes in Physics 726, Springer, Berlin, 2008. Also available at
 `http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726.pdf`
@@ -219,7 +219,7 @@ The list goes on and on! The American Mathematical Society will give you
 books for free if you prove that you're not a robot by solving a little
 puzzle:
 
-15\) American Mathematical Society, Books Online By Subject,
+15) American Mathematical Society, Books Online By Subject,
 `http://www.ams.org/online_bks/online_subject.html`
 
 Apparently they don't want robots learning advanced math and putting us
@@ -232,14 +232,14 @@ Since James Dolan and I plan to explain symmetric groups and their Hecke
 algebras in our online seminar, this particular book from the AMS caught
 my eye:
 
-16\) David M. Goldschmidt, Group Characters, Symmetric Functions, and
+16) David M. Goldschmidt, Group Characters, Symmetric Functions, and
 the Hecke Algebra, AMS, Providence, Rhode Island, 1993. Also available
 as `http://www.ams.org/online_bks/ulect4/`
 
 Since we're also struggling to understand the Langlands program, this
 looks good too:
 
-17\) Armand Borel, Automorphic Forms, Representations, and L-functions,
+17) Armand Borel, Automorphic Forms, Representations, and L-functions,
 AMS, 2 volumes, Providence, Rhode Island, 1979. Also available at
 `http://www.ams.org/online_bks/pspum331/` and
 `http://www.ams.org/online_bks/pspum332/`
@@ -252,13 +252,13 @@ Zuckerman, and many more.
 varieties are built from. If you're ready to learn about motives - I'm
 not sure I am - try this:
 
-18\) Marc Levine, Mixed Motives, AMS, Providence, Rhode Island, 1998.
+18) Marc Levine, Mixed Motives, AMS, Providence, Rhode Island, 1998.
 Also available at `http://www.ams.org/online_bks/surv57/`
 
 Or, if you're interested in using category theory to make analysis
 clearer and more beautiful, try this:
 
-19\) Andreas Kriegl and Peter W. Michor, The Convenient Setting of
+19) Andreas Kriegl and Peter W. Michor, The Convenient Setting of
 Global Analysis, AMS, Providence, Rhode Island, 1997. Also available at
 `http://www.ams.org/online_bks/surv53/`
 
@@ -279,7 +279,7 @@ and replaced it with a slightly different one, just to get this to hold.
 Another sort of "convenient category" for differential geometry uses
 infinitesimals. Again, you can learn about this in a free book:
 
-20\) Anders Kock, Synthetic Differential Geometry, Cambridge U. Press,
+20) Anders Kock, Synthetic Differential Geometry, Cambridge U. Press,
 Cambridge, 2006. Also available at `http://home.imf.au.dk/kock/`
 
 This category is not just cartesian closed - it's a topos!
@@ -287,11 +287,11 @@ This category is not just cartesian closed - it's a topos!
 If you don't know what a topos is, never fear - more free books are
 coming to your rescue:
 
-21\) Robert Goldblatt, Topoi, the Categorial Analysis of Logic, Dover,
+21) Robert Goldblatt, Topoi, the Categorial Analysis of Logic, Dover,
 1983. Also available at
 `http://historical.library.cornell.edu/cgi-bin/cul.math/docviewer?did=Gold010`
 
-22\) Michael Barr and Charles Wells, Toposes, Triples and Theories,
+22) Michael Barr and Charles Wells, Toposes, Triples and Theories,
 Springer, Berlin, 1983. Also available at
 `http://www.case.edu/artsci/math/wells/pub/ttt.html`
 
@@ -302,7 +302,7 @@ decade, but now I like it.
 I like Jordan algebras, so I was also pleased to see this classic
 offered for free at the AMS website:
 
-23\) Nathan Jacobson, Structure and Representations of Jordan Algebras,
+23) Nathan Jacobson, Structure and Representations of Jordan Algebras,
 AMS, Providence, Rhode Island, 1968. Also available at
 `http://www.ams.org/online_bks/coll39/`
 
@@ -311,7 +311,7 @@ Fans of exceptional Lie algebras will like the last two chapters, on
 
 Speaking of Lie algebras, I'd never seen this textbook before:
 
-24\) Shlomo Sternberg, Lie Algebras,
+24) Shlomo Sternberg, Lie Algebras,
 `http://www.math.harvard.edu/~shlomo/docs/lie_algebras.pdf`
 
 It's a somewhat quirky introduction, not for beginners I think, but it
@@ -322,7 +322,7 @@ algebra.
 This intro to Lie groups is also a bit quirky, but if you like Feynman
 diagrams or spin networks, it's irreplaceable:
 
-25\) Predrag Cvitanovic, Birdtracks, Lie's, and Exceptional Groups,
+25) Predrag Cvitanovic, Birdtracks, Lie's, and Exceptional Groups,
 available at `http://www.nbi.dk/GroupTheory/`
 
 One of the great things about this book is that it classifies simple Lie
@@ -421,7 +421,7 @@ cryptic, and call it the "IHX" identity - since the three terms look
 like the letters I, H, and X by the time they're done twisting them
 around. For a good explanation, with pretty pictures, see:
 
-26\) Greg Muller, Chord diagrams and Lie algebras,
+26) Greg Muller, Chord diagrams and Lie algebras,
 `http://cornellmath.wordpress.com/2007/12/25/chord-diagrams-and-lie-algebras/`
 
 It then turns out that the exceptional Lie algebras F_4, E~6~, E~7~ and
@@ -467,7 +467,7 @@ gnarly computations people have done so far and making them more
 beautiful and conceptual. So, I urge all fans of exceptional
 mathematics, diagrams, and categories to look at these:
 
-27\) Pierre Deligne, La serie exceptionnelle des groupes de Lie, C. R.
+27) Pierre Deligne, La serie exceptionnelle des groupes de Lie, C. R.
 Acad. Sci. Paris Ser. I Math 322 (1996), 321-326.
 
 Pierre Deligne and R. de Man, The exceptional series of Lie groups II,
@@ -478,7 +478,7 @@ descendants, C. R. Acad. Sci. Paris Ser. I Math 335 (2002), 877-881.
 Also available as
 `http://www.math.ias.edu/~phares/deligne/ExcepSeries.ps`
 
-28\) Pierre Vogel, Algebraic structures on modules of diagrams, 1995.
+28) Pierre Vogel, Algebraic structures on modules of diagrams, 1995.
 Available at `http://www.institut.math.jussieu.fr/~vogel/` or
 `http://citeseer.ist.psu.edu/469395.html`
 
@@ -490,14 +490,14 @@ Vassiliev theory and the universal Lie algebra, 2000. Available at
 
 For a good overview, try this:
 
-28\) J. M. Landsberg and L. Manivel, Representation theory and
+28) J. M. Landsberg and L. Manivel, Representation theory and
 projective geometry, 2002. Available at
 [`arXiv:math/0203260`](http://arXiv.org/abs/math/0203260).
 
 Alas, they avoid drawing Feynman diagrams, though they talk about them
 in section 4. They prefer to use ideas from algebraic geometry:
 
-29\) J. M. Landsberg and L. Manivel, The projective geometry of
+29) J. M. Landsberg and L. Manivel, The projective geometry of
 Freudenthal's magic square, J. Algebra 239 (2001), 477-512. Also
 available as [`arXiv:math/9908039`](http://arXiv.org/abs/math/9908039).
 
@@ -514,12 +514,12 @@ subject. He has pointed out that both the magic square and the magic
 triangle can be given an extra row and column if we introduce a
 6-dimensional algebra halfway between the quaternions and the octonions:
 
-30\) Bruce Westbury, Sextonions and the magic square, available as
+30) Bruce Westbury, Sextonions and the magic square, available as
 [`arXiv:math/0411428`](http://arXiv.org/abs/math/0411428).
 
 For even more references, try this:
 
-31\) Bruce Westbury, References on series of Lie groups,
+31) Bruce Westbury, References on series of Lie groups,
 `http://www.mpim-bonn.mpg.de/digitalAssets/2763_references.pdf`
 
 This stuff has been on my mind recently, since I've been working on
@@ -527,7 +527,7 @@ exceptional groups and grand unified theories with my student John
 Huerta. Also, my friend Tevian Dray has a student who just finished a
 thesis on a related topic:
 
-32\) Aaron Wangberg, The structure of E6, available as
+32) Aaron Wangberg, The structure of E6, available as
 [`arXiv:0711.3447`](http://arXiv.org/abs/0711.3447).
 
 In a nutshell: E~6~ is secretly SL(3,O). Octonions rock!
@@ -574,7 +574,7 @@ Tony Smith wrote:
 > Thanks for an interesting list of stuff in week 260, but I have some
 > questions about this:
 >
-> > 32\) Aaron Wangberg, The structure of E6, available as
+> > 32) Aaron Wangberg, The structure of E6, available as
 > > [`arXiv:0711.3447`](http://www.arxiv.org/abs/0711.3447).
 > >
 > > In a nutshell: E~6~ is secretly SL(3,O). Octonions rock!

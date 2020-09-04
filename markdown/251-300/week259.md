@@ -47,7 +47,7 @@ that's just getting started:
 ![](egg_nebula.jpg){width="600"}
 :::
 
-1\) Rainbow image of a dusty star, NASA,
+1) Rainbow image of a dusty star, NASA,
 `http://hubblesite.org/newscenter/archive/releases/nebula/planetary/2003/09/`
 
 It's called the "Egg Nebula". You can see layers of dust coming out
@@ -69,7 +69,7 @@ Spectrometer":
 ![](egg_nebula_infrared.jpg){width="500"}
 :::
 
-2\) Raghvendra Sahai, Egg Nebula in polarized light, Hubble Heritage
+2) Raghvendra Sahai, Egg Nebula in polarized light, Hubble Heritage
 Project, `http://heritage.stsci.edu/2003/09/supplemental.html`
 
 This near-infrared image also shows a bright spot called "Peak A"
@@ -81,7 +81,7 @@ clump of dust reflecting light from the main star. Others advocate a
 more exciting theory: it's a white dwarf orbiting the main star, which
 exploded in a "thermonuclear burst" after accreting a bunch of dust.
 
-3\) Joel H. Kastner and Noam Soker, The Egg Nebula (AFGL 2688):
+3) Joel H. Kastner and Noam Soker, The Egg Nebula (AFGL 2688):
 deepening enigma, to appear in Asymmetrical Planetary Nebulae III, eds.
 M. Meixner, J. Kastner, N. Soker, and B. Balick, ASP Conference Series.
 Available as
@@ -236,7 +236,7 @@ However, the field with one element still wants to exist! Not the silly
 field with 1 = 0, but something else, something more mysterious...
 something that Gavin Wraith calls a "mathematical phantom":
 
-4\) Gavin Wraith, Mathematical phantoms,
+4) Gavin Wraith, Mathematical phantoms,
 `http://www.wra1th.plus.com/gcw/rants/math/MathPhant.html`
 
 What's a mathematical phantom? According to Wraith, it's an object
@@ -318,7 +318,7 @@ polynomial in q. And when you set q = 1, you'll get the number of
 
 For details, and a proof that this really works, try:
 
-5\) John Baez, Lecture 4 in the Geometric Representation Theory Seminar,
+5) John Baez, Lecture 4 in the Geometric Representation Theory Seminar,
 October 9, 2007. Available at
 `http://math.ucr.edu/home/baez/qg-fall2007/qg-fall2007.html#f07_4`
 
@@ -354,7 +354,7 @@ n-dimensional vector space over F~q~.
 For more clues, and an attempt to do algebraic geometry using the field
 with one element, try this:
 
-6\) Christophe Soulé, On the field with one element, Talk given at the
+6) Christophe Soulé, On the field with one element, Talk given at the
 Arbeitstagung, Bonn, June 1999, IHES preprint available at
 [http://www.ihes.fr/\~soule/f1-soule.pdf](%20http://www.ihes.fr/~soule/f1-soule.pdf)
 
@@ -362,16 +362,16 @@ Soulé tries to define "algebraic varieties" over F_1, namely curves
 and their higher-dimensional generalization. And, he talks a lot about
 zeta functions for such varieties. He goes into more detail here:
 
-7\) Christophe Soulé, Les varietes sur le corps a un element, Moscow
+7) Christophe Soulé, Les varietes sur le corps a un element, Moscow
 Math. Jour. 4 (2004), 217-244, 312.
 
 The theme of zeta functions - see ["Week 216"](#week216) - is
 deeply involved in this business. For more, try these papers:
 
-8\) N. Kurokawa, Zeta functions over F_1, Proc. Japan Acad. Ser. A
+8) N. Kurokawa, Zeta functions over F_1, Proc. Japan Acad. Ser. A
 Math. Sci. 81 (2006), 180-184.
 
-9\) Anton Deitmar, Remarks on zeta functions and K-theory over F_1,
+9) Anton Deitmar, Remarks on zeta functions and K-theory over F_1,
 available as
 [`arXiv:math/0605429`](http://arXiv.org/abs/arXiv:math/0605429).
 
@@ -385,7 +385,7 @@ of "exotic fields".
 
 For Deitmar's approach, try these:
 
-10\) Anton Deitmar, Schemes over F_1, available as
+10) Anton Deitmar, Schemes over F_1, available as
 [`arXiv:math/0404185`](http://arXiv.org/abs/arXiv:math/0404185).
 
 F_1-schemes and toric varieties, available as
@@ -483,7 +483,7 @@ variable. So, the Riemann sphere is a scheme!
 For more on schemes, try this nice introduction, which actually has lots
 of pictures:
 
-11\) David Eisenbud and Joe Harris, The Geometry of Schemes, Springer,
+11) David Eisenbud and Joe Harris, The Geometry of Schemes, Springer,
 Berlin, 2000.
 
 Now, we can talk about schemes "over a field F", meaning that each
@@ -496,7 +496,7 @@ where Z is the commutative ring of integers. As explained in the Addenda
 to ["Week 257"](#week257), we might understand this if we could see
 Spec(Z) as a scheme over the field with one element! For more, see this:
 
-12\) M. Kapranov and A. Smirnov, Cohomology determinants and reciprocity
+12) M. Kapranov and A. Smirnov, Cohomology determinants and reciprocity
 laws: number field case, available at
 `http://wwwhomes.uni-bielefeld.de/triepe/F1.html`
 
@@ -562,12 +562,12 @@ F_1" if it arises in this way from a scheme over F_1.
 Okay, that's a taste of Deitmar's approach. For Durov's approach, try
 this mammoth 568-page paper:
 
-13\) Nikolai Durov, New approach to Arakelov geometry, available as
+13) Nikolai Durov, New approach to Arakelov geometry, available as
 [`arXiv:0704.2030`](http://arxiv.org/abs/0704.2030).
 
 or read our discussions of it at the *n*-Category Café, starting here:
 
-14\) David Corfield, The field with one element,
+14) David Corfield, The field with one element,
 `http://golem.ph.utexas.edu/category/2007/04/the_field_with_one_element.html`
 
 Durov defines a "generalized ring" to be what Lawvere much earlier
@@ -645,10 +645,10 @@ just need to read their papers more carefully and think about them more.
 
 Finally, here's yet another approach to the field with one element:
 
-15\) Bertrand Toen and M. Vaquie, Under Spec(Z), available as
+15) Bertrand Toen and M. Vaquie, Under Spec(Z), available as
 [`arXiv:math/0509684`](http://arxiv.org/abs/math/0509684).
 
-16\) Shai Haran, Non-additive geometry, Composito Mathematica 143
+16) Shai Haran, Non-additive geometry, Composito Mathematica 143
 (2007), 613-638.
 
 Toen describes interesting relations between algebra over F_1 and
@@ -671,7 +671,7 @@ for example, the deep inner meaning of q-deformation, and the
 attention to the paper by Shai Haran. Thomas Riepe also recommends the
 following online introduction to schemes:
 
-17\) Marc Levine, Summer course in motivic homotopy theory, available at
+17) Marc Levine, Summer course in motivic homotopy theory, available at
 `http://www.math.neu.edu/~levine/publ/SummerSchoolAG.pdf`
 
 Kevin Buzzard has a word of advice about the "generic point":

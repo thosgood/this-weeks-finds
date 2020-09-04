@@ -17,7 +17,7 @@ The mathematics of tilings is a fascinating subject, but that's not
 what I'm going to talk about. After my trip to Turkey, I went to a
 conference at Stanford:
 
-1\) Conference on Algebraic Topological Methods in Computer Science,
+1) Conference on Algebraic Topological Methods in Computer Science,
 Stanford University, `http://math.stanford.edu/atmcs/index.htm`
 
 There were lots of fun talks, but I'll just mention two.
@@ -48,7 +48,7 @@ together. Finally you sum over all labellings to get the partition
 function. The only tricky part is the convergence of this sum, which was
 proved by Perez:
 
-2\) Alejandro Perez, Finiteness of a spin foam model for euclidean
+2) Alejandro Perez, Finiteness of a spin foam model for euclidean
 quantum general relativity, Nucl. Phys. B599 (2001) 427-434. Also
 available as [gr-qc/0011058](http://xxx.lanl.gov/abs/gr-qc/0011058).
 
@@ -90,7 +90,7 @@ because the computation is highly parallelizable.)
 John Barrett has also figured out a very different approach to computing
 10j symbols:
 
-3\) John W. Barrett, The classical evaluation of relativistic spin
+3) John W. Barrett, The classical evaluation of relativistic spin
 networks, Adv. Theor. Math. Phys. 2 (1998), 593-600. Also available as
 [math.QA/9803063](http://xxx.lanl.gov/abs/math.QA/9803063).
 
@@ -110,7 +110,7 @@ Williams suggests that, at least in the limit of large spins, the
 dominant contribution to the integral for the 10j symbol comes from
 4-simplices whose face areas are the 10 spins in your 10j symbols:
 
-4\) John W. Barrett and Ruth M. Williams, The asymptotics of an
+4) John W. Barrett and Ruth M. Williams, The asymptotics of an
 amplitude for the 4-simplex, Adv. Theor. Math. Phys. 3 (1999), 209-215.
 Also available as
 [gr-qc/9809032](http://xxx.lanl.gov/abs/gr-qc/9809032).
@@ -161,7 +161,7 @@ theory too.
 Another talk on a subject close to my heart was given by Noson Yanofsky.
 It was based on these papers of his, especially the last:
 
-5\) Noson S. Yanofsky, Obstructions to coherence: natural noncoherent
+5) Noson S. Yanofsky, Obstructions to coherence: natural noncoherent
 associativity, Jour. Pure Appl. Alg. 147 (2000), 175-213. Also available
 at [math.QA/9804106](http://xxx.lanl.gov/abs/math.QA/9804106).
 
@@ -207,7 +207,7 @@ commuting squares in the definition of a natural transformation are
 required to commute only up to certain specified 2-isomorphisms, which
 in turn satisfy some coherence laws described here:
 
-6\) G. Maxwell Kelly and Ross Street, Review of the elements of
+6) G. Maxwell Kelly and Ross Street, Review of the elements of
 2-categories, Springer Lecture Notes in Mathematics 420, Berlin, 1974,
 pp. 75-103.
 
@@ -270,18 +270,18 @@ Well, if you don't know what a "model category" is, you're in
 serious trouble now! They're a concept invented by Quillen for
 generalizing the heck out of homotopy theory. Try reading his book:
 
-7\) Daniel G. Quillen, Homotopical Algebra, Springer Lecture Notes in
+7) Daniel G. Quillen, Homotopical Algebra, Springer Lecture Notes in
 Mathematics, vol. 43, Springer, Berlin, 1967.
 
 or for something newer:
 
-8\) Mark Hovey, Model Categories, American Mathematical Society
+8) Mark Hovey, Model Categories, American Mathematical Society
 Mathematical Surveys and Monographs, vol 63., Providence, Rhode Island,
 1999.
 
 or else:
 
-9\) Paul G. Goerss and John F. Jardine, Simplicial Homotopy Theory,
+9) Paul G. Goerss and John F. Jardine, Simplicial Homotopy Theory,
 Birkhauser, Boston, 1999.
 
 (By the way, Jardine was one of the organizers of this Stanford

@@ -6,7 +6,7 @@ new views of the Sun!
 Here's a cool movie of the Moon passing in front of the Sun, as viewed
 from the "STEREO B" spacecraft. Click on it:
 
-2\) Astronomy Picture of the Day, March 3 2007, Lunar transit from
+2) Astronomy Picture of the Day, March 3 2007, Lunar transit from
 STEREO, `http://antwrp.gsfc.nasa.gov/apod/ap070303.html`
 
 As the name hints, there's a pair of STEREO satellites in orbit around
@@ -26,7 +26,7 @@ seems to have knocked out a communication satellite called Galaxy 4,
 causing 45 million people in the US to lose their telephone pager
 service:
 
-3\) Gordon Holman and Sarah Benedict, Solar Flare Theory: Coronal mass
+3) Gordon Holman and Sarah Benedict, Solar Flare Theory: Coronal mass
 ejections, solar flares, and the Earth-Sun connection,
 `http://www.agu.org/sci_soc/articles/eisbaker.html`
 
@@ -38,7 +38,7 @@ observatory (SOHO):
 ![](coronal_mass_ejection.gif)
 :::
 
-4\) NASA, Cannibal coronal mass ejections,
+4) NASA, Cannibal coronal mass ejections,
 `http://science.nasa.gov/headlines/y2001/ast27mar_1.htm`
 
 As I mentioned in ["Week 150"](#week150), SOHO is a satellite
@@ -50,7 +50,7 @@ see the fainter corona.
 
 If a coronal mass ejection hits the Earth, it does something like this:
 
-5\) NASA, What is a CME?,
+5) NASA, What is a CME?,
 `http://www.nasa.gov/mpg/111836main_what_is_a_cme_NASA%20WebV_1.mpg`
 
 In this artist's depiction you can see the plasma shoot off from the
@@ -62,7 +62,7 @@ trillions of watts of power come cascading down through the upper
 atmosphere, producing auroras. Here's a nice movie of what *those* can
 look like:
 
-6\) YouTube, Aurora (Northern Lights),
+6) YouTube, Aurora (Northern Lights),
 `http://www.youtube.com/watch?v=qIXs6Sh0DKs`
 
 I wish I understood this magnetic field line trickery better!
@@ -81,7 +81,7 @@ the Sun in X-rays taken by another satellite:
 [![](solar_corona_TRACE.jpg){width="500"}](http://trace.lmsal.com/POD/TRACEpodarchive26.html)
 :::
 
-7\) Transition Region and Coronal Explorer (TRACE), Images of the sun,
+7) Transition Region and Coronal Explorer (TRACE), Images of the sun,
 `http://trace.lmsal.com/POD/TRACEpodarchive26.html`
 
 This lets you see plasma in the corona with temperatures between 1
@@ -94,7 +94,7 @@ reconnection", the same topological phenomenon that triggers auroras
 when coronal mass ejections smash into the Earth's magnetic field, as
 in that movie above. For more, try this:
 
-8\) Andrew L. Haynes, Clare E. Parnell, Klaus Galsgaard and Eric R.
+8) Andrew L. Haynes, Clare E. Parnell, Klaus Galsgaard and Eric R.
 Priest, Magnetohydrodynamic evolution of magnetic skeletons, Proc. Roy.
 Soc. Lond. A 463 (2007) 1097-1115. Also available as
 [astro-ph/0702604](http://arxiv.org/abs/astro-ph/0702604).
@@ -107,7 +107,7 @@ dynamic than before thought:
 [![](solar_flare_hinode.jpg)](http://www.nasa.gov/mission_pages/solar-b/)
 :::
 
-9\) NASA, Hinode: investigating the Sun's magnetic field,
+9) NASA, Hinode: investigating the Sun's magnetic field,
 `http://www.nasa.gov/mission_pages/solar-b/`
 
 In fact, weather on the Sun may be more complex than on the Earth.
@@ -116,7 +116,7 @@ to the Sun's surface... and sometimes there are even tornados! You
 think tornados on Earth are scary? Check out this movie made during an
 8-hour period in August 2000, near the height of the solar cycle:
 
-10\) TRACE, Tornados and fountains in a filament on 2 Aug. 2000, movie
+10) TRACE, Tornados and fountains in a filament on 2 Aug. 2000, movie
 13, `http://trace.lmsal.com/POD/`
 
 Besides the tornados, near the end you can see glowing filaments of

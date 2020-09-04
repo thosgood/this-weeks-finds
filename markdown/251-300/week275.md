@@ -25,14 +25,14 @@ manifolds is an $n$-morphism in nCob.
 And, we thought we could glimpse a purely algebraic description of nCob.
 We called this the "cobordism hypothesis", and we explained it here:
 
-1\) John Baez and James Dolan, Higher-dimensional algebra and
+1) John Baez and James Dolan, Higher-dimensional algebra and
 topological quantum field theory, J. Math. Phys. 36 (1995), 6073-6105.
 Also available as [q-alg/9503002](http://arxiv.org/abs/q-alg/9503002).
 
 I talked about this back in ["Week 49"](#week49). For more, try
 these talks:
 
-2\) Eugenia Cheng, $n$-Categories with duals and TQFT, 4 lectures at the
+2) Eugenia Cheng, $n$-Categories with duals and TQFT, 4 lectures at the
 Fields Institute, January 2007. Audio available at
 `http://www.fields.utoronto.ca/audio/06-07/#crs-ncategories` and lecture
 notes by Chris Brav at
@@ -43,13 +43,13 @@ outlines a massive program, developed with help from Mike Hopkins, to
 reformulate the cobordism hypothesis using more ideas from homotopy
 theory, and prove it:
 
-3\) Jacob Lurie, On the classification of topological field theories,
+3) Jacob Lurie, On the classification of topological field theories,
 available as [`arXiv:0905.0465`](http://arxiv.org/abs/0905.0465).
 
 He's running around giving talks about this work, and you can see some
 here:
 
-4\) Jacob Lurie, TQFT and the cobordism hypothesis, four lectures at the
+4) Jacob Lurie, TQFT and the cobordism hypothesis, four lectures at the
 Geometry Research Group of the University of Texas at Austin, January
 2009. Videos available at
 `http://lab54.ma.utexas.edu:8080/video/lurie.html` and lecture notes by
@@ -60,7 +60,7 @@ Excited by this new progress, I decided to run around giving some talks
 about it myself - just to explain the basic intuitions to people who'd
 never thought about this stuff before. You can see my slides here:
 
-5\) John Baez, Categorification and topology, available at
+5) John Baez, Categorification and topology, available at
 `http://math.ucr.edu/home/baez/cat/`
 
 A key feature of Lurie's approach is that instead of using $n$-categories
@@ -74,7 +74,7 @@ originally imagined. You could say he gives more of an individually
 hand-crafted treatment of the n = 2 case, as compared with Lurie's
 high-tech industrial approach that clobbers all n at once:
 
-6\) Chris Schommer-Pries, The Classification of Two-Dimensional Extended
+6) Chris Schommer-Pries, The Classification of Two-Dimensional Extended
 Topological Field Theories, Ph.D. theis, U.C. Berkeley, 2009. Available
 at `http://sites.google.com/site/chrisschommerpriesmath/`
 
@@ -137,14 +137,14 @@ give.)
 
 For more on nCob as an $n$-category, try this:
 
-7\) Eugenia Cheng and Nick Gurski, Toward an $n$-category of cobordisms,
+7) Eugenia Cheng and Nick Gurski, Toward an $n$-category of cobordisms,
 Theory and Applications of Categories 18 (2007), 274-302. Available at
 `http://www.tac.mta.ca/tac/volumes/18/10/18-10abs.html`
 
 I should add that a lot of the 2-category theory in Schommer-Pries'
 thesis relies on a thesis by a student of Ross Street:
 
-8\) Paddy McCrudden, Balanced coalgebroids, Theory and Applications of
+8) Paddy McCrudden, Balanced coalgebroids, Theory and Applications of
 Categories 7 (2000), 71-147. Available at
 `http://www.tac.mta.ca/tac/volumes/7/n6/7-06abs.html`
 

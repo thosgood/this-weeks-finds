@@ -9,7 +9,7 @@ First of all, here's a great new review article on spin foams. If
 you're trying to understand spin foam models of quantum gravity, this
 is the place to start:
 
-1\) Daniele Oriti, Spacetime geometry from algebra: spin foam models for
+1) Daniele Oriti, Spacetime geometry from algebra: spin foam models for
 non-perturbative quantum gravity, Rep. Prog. Phys. 64 (2001), 1489-1544.
 Also available at
 [gr-qc/0106091](http://xxx.lanl.gov/abs/gr-qc/0106091).
@@ -21,7 +21,7 @@ category-theoretic approaches.
 
 Secondly, here's a great introduction to $n$-categories and topology:
 
-2\) Tom Leinster, Topology and higher-dimensional category theory: the
+2) Tom Leinster, Topology and higher-dimensional category theory: the
 rough idea, available at
 [math.CT/0106240](http://xxx.lanl.gov/abs/math.CT/0106240).
 
@@ -40,11 +40,11 @@ find one, since this would let me unify two of my obsessions into one
 big super-obsession. I recently made a bunch of progress, thanks to
 finding these papers:
 
-3\) Markus Rost, On the dimension of a composition algebra, Documenta
+3) Markus Rost, On the dimension of a composition algebra, Documenta
 Mathematica 1 (1996), 209-214. Available at
 `http://www.mathematik.uni-bielefeld.de/DMV-J/vol-01/10.html`
 
-4\) Dominik Boos, Ein tensorkategorieller Zugang zum Satz von Hurwitz (A
+4) Dominik Boos, Ein tensorkategorieller Zugang zum Satz von Hurwitz (A
 tensor-categorical approach to Hurwitz's theorem), Diplomarbeit ETH
 Zurich, March 1998, available at
 `http://www.mathematik.uni-bielefeld.de/~rost/data/boos.pdf`
@@ -189,7 +189,7 @@ I'm too lazy to figure out exactly what we need, but certainly the
 doctrine of "topoi" will do. If you don't know what a topos is, give
 yourself 40 lashes and read this:
 
-5\) John Baez, Topos theory in a nutshell,
+5) John Baez, Topos theory in a nutshell,
 `http://math.ucr.edu/home/baez/topos.html`
 
 However, there are lots of reasons to avoid working in such a powerful
@@ -233,7 +233,7 @@ calculations in monoidal categories. There are lots of places to learn
 this stuff, but if you want something online, it's easiest for me to
 point you to my notes on quantum gravity:
 
-6\) John Baez, Toby Bartels, and Miguel Carrion, Quantum gravity
+6) John Baez, Toby Bartels, and Miguel Carrion, Quantum gravity
 seminar, `http://math.ucr.edu/home/baez/qg.html`
 
 Okay. Now that you've read those notes, you know what to do! We assume

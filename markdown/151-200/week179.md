@@ -4,7 +4,7 @@ I've just been visiting my friend Minhyong Kim at the Korea Institute
 for Advanced Studies (KIAS), and before I take off on my next jaunt I'd
 like to mention a couple of cool papers he showed me.
 
-1\) Alain Connes and Dirk Kreimer, Renormalization in quantum field
+1) Alain Connes and Dirk Kreimer, Renormalization in quantum field
 theory and the Riemann-Hilbert problem I: the Hopf algebra structure of
 graphs and main theorem, Comm. Math. Phys. 210 (2000), 249-273. Also
 available as [hep-th/9912092](http://xxx.lanl.gov/abs/hep-th/9912092).
@@ -24,7 +24,7 @@ under the rug in quantum field theory. There are lots of approaches,
 which all give equivalent answers. My favorite is the approach pioneered
 by Epstein and Glaser and explained here:
 
-2\) G. Scharf, Finite Quantum Electrodynamics, Springer, Berlin, 1995.
+2) G. Scharf, Finite Quantum Electrodynamics, Springer, Berlin, 1995.
 
 since in this approach, the infinities never show up in the first place.
 However, the work involved in this approach is comparable to that in
@@ -114,7 +114,7 @@ a way to evaluate Feynman diagrams and get numbers. The group G is an
 interesting sort of infinite-dimensional Lie group which they study
 further in another paper:
 
-3\) Alain Connes and Dirk Kreimer, Renormalization in quantum field
+3) Alain Connes and Dirk Kreimer, Renormalization in quantum field
 theory and the Riemann-Hilbert problem I: the beta-function,
 diffeomorphisms and the renormalization group, Comm. Math. Phys. 216
 (2001), 215-241. Also available as
@@ -154,7 +154,7 @@ renormalized value of any Feynman diagram in our theory!
 
 For a bigger tour of Kreimer's ideas, try his book:
 
-4\) Dirk Kreimer, Knots and Feynman Diagrams, Cambridge University
+4) Dirk Kreimer, Knots and Feynman Diagrams, Cambridge University
 Press, Cambridge, 2000.
 
 Part of why Minhyong wanted to understand this stuff is that he also
@@ -163,7 +163,7 @@ behind string theory, and he did some very important work on "loop
 groups" - maps from a circle into a group, made into a group by
 pointwise multiplication:
 
-5\) Andrew Pressley and Graeme Segal, Loop Groups, Oxford University
+5) Andrew Pressley and Graeme Segal, Loop Groups, Oxford University
 Press, Oxford, 1986.
 
 The factorization of a map g: S^1 \to G into parts that are analytic
@@ -187,7 +187,7 @@ know a 2-functor when we see one!
 Speaking of strings, my spies say everyone is raving about this new
 paper:
 
-6\) David Berenstein, Juan Maldacena and Horatiu Nastase, Strings in
+6) David Berenstein, Juan Maldacena and Horatiu Nastase, Strings in
 flat space and pp waves from N = 4 Super Yang Mills, available as
 [hep-th/0202021](http://xxx.lanl.gov/abs/hep-th/0202021).
 
@@ -196,7 +196,7 @@ Ask your local string theorist what it's all about.
 
 Here's another cool paper Minhyong mentioned:
 
-7\) Yuri Manin and Matilde Marcolli, Holography principle and arithmetic
+7) Yuri Manin and Matilde Marcolli, Holography principle and arithmetic
 of algebraic curves, available as
 [hep-th/0201036](http://xxx.lanl.gov/abs/hep-th/0201036).
 

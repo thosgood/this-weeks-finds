@@ -3,7 +3,7 @@
 Since the winter solstice is coming soon, I'll start with some gift
 suggestions... for the physicist who has everything.
 
-1\) The Universe Map, National Geographic Society, 2000, NSG \#602011.
+1) The Universe Map, National Geographic Society, 2000, NSG \#602011.
 
 I've only seen a picture of this 20 x 31 inch map, but I know I want
 one! In a series of different 3d views, it shows the solar system,
@@ -11,14 +11,14 @@ nearby stars, the Milky Way, the Local Group and the observable universe
 as a whole. I'll put it outside my office so my students can figure out
 just where they stand in the grand scheme of things.
 
-2\) Wil Tirion and Roger W. Sinnot, Sky Atlas 2000.0, 2nd edition,
+2) Wil Tirion and Roger W. Sinnot, Sky Atlas 2000.0, 2nd edition,
 Cambridge U. Press, 1999.
 
 This is a favorite sky atlas among amateur astronomers. It comes in lots
 of versions, but Kevin Kelly of Whole Earth says that the most useful is
 the "deluxe version, spiralbound".
 
-3\) Lee Smolin, Three Roads to Quantum Gravity, Weidenfeld and
+3) Lee Smolin, Three Roads to Quantum Gravity, Weidenfeld and
 Nicholson, 2000.
 
 This is a nontechnical guide to quantum gravity and the different
@@ -45,27 +45,27 @@ lines remain lines. This suggests a modification of Euclidean plane
 geometry based on a set of points, a set of lines, and relation whereby
 a point "lies on" a line, satisfying the following axioms:
 
-A\) For any two distinct points, there is a unique line on which they
+A) For any two distinct points, there is a unique line on which they
 both lie.
 
-B\) For any two distinct lines, there is a unique point which lies on
+B) For any two distinct lines, there is a unique point which lies on
 both of them.
 
-C\) There exist four points, no three of which lie on the same line.
+C) There exist four points, no three of which lie on the same line.
 
-D\) There exist four lines, no three of which have the same point lying
+D) There exist four lines, no three of which have the same point lying
 on them.
 
 Any structure satisfying these axioms is called a "projective plane".
 But projective geometry is also interesting in higher dimensions. One
 can define a "projective space" by the following axioms:
 
-A\) For any two distinct points p and q, there is a unique line pq on
+A) For any two distinct points p and q, there is a unique line pq on
 which they both lie.
 
-B\) For any line, there are at least three points lying on this line.
+B) For any line, there are at least three points lying on this line.
 
-C\) If a,b,c,d are distinct points and there is a point lying on both ab
+C) If a,b,c,d are distinct points and there is a point lying on both ab
 and cd, then there is a point lying on both ac and bd.
 
 Given a projective space and a set S of points in this space, we define
@@ -76,7 +76,7 @@ whole space. As you would hope, a 2-dimensional projective space is the
 same thing as a projective plane! It's a fun exercise to show this
 straight from the above axioms. If you give up, read this book:
 
-4\) Lynn E. Garner, An Outline of Projective Geometry, North Holland,
+4) Lynn E. Garner, An Outline of Projective Geometry, North Holland,
 New York, 1981.
 
 How can we get our hands on some projective spaces? Well, if K is any
@@ -121,7 +121,7 @@ However, work on the subject continued, and in 1933 Ruth Moufang
 constructed a remarkable example of a non-Desarguesian projective plane
 using the octonions:
 
-5\) Ruth Moufang, Alternativkoerper und der Satz vom vollstaendigen
+5) Ruth Moufang, Alternativkoerper und der Satz vom vollstaendigen
 Vierseit, Abhandlungen Math. Sem. Hamburg 9, (1933), 207-222.
 
 It turns out that this projective plane deserves the name OP^2, where O
@@ -148,7 +148,7 @@ In 1932, Pascual Jordan attempted to understand this situation better by
 isolating the bare minimum axioms that an "algebra of observables"
 should satisfy:
 
-6\) Pascual Jordan, Ueber eine Klasse nichtassociativer hyperkomplexer
+6) Pascual Jordan, Ueber eine Klasse nichtassociativer hyperkomplexer
 Algebren, Nachr. Ges. Wiss. Goettingen (1932), 569-575.
 
 He invented the definition of what is now called a "formally real
@@ -171,7 +171,7 @@ In 1934, one year after Moufang published her paper on OP^2, Jordan
 published a paper with von Neumann and Wigner classifying all formally
 real Jordan algebras:
 
-7\) Pascual Jordan, John von Neumann, Eugene Wigner, On an algebraic
+7) Pascual Jordan, John von Neumann, Eugene Wigner, On an algebraic
 generalization of the quantum mechanical formalism, Ann. Math. 35
 (1934), 29-64.
 
@@ -240,7 +240,7 @@ The failure of these distributive laws is the hallmark of quantum logic.
 Now, the relation between Jordan algebras and quantum logic is already
 interesting in itself:
 
-8\) G. Emch, Algebraic Methods in Statistical Mechanics and Quantum
+8) G. Emch, Algebraic Methods in Statistical Mechanics and Quantum
 Field Theory, Wiley-Interscience, New York, 1972.
 
 ... but the real fun starts when we note that projections in the Jordan
@@ -272,7 +272,7 @@ I'll talk about in a minute. Finally, in 1949 Jordan discovered that if
 we try this construction starting with the exceptional Jordan algebra,
 we get the projective plane discovered by Ruth Moufang - OP^2!
 
-9\) Pascual Jordan, Ueber eine nicht-desarguessche ebene projektive
+9) Pascual Jordan, Ueber eine nicht-desarguessche ebene projektive
 Geometrie, Abhandlungen Math. Sem. Hamburg 16 (1949), 74-76.
 
 Physicists have tried for a long time to find some use for the quantum
@@ -282,19 +282,19 @@ physics. Feza Gursey and Murat Gunaydin hoped it was related to quarks,
 since 3 x 3 hermitian octonionic matrices should describe observables in
 some 3-state quantum system:
 
-10\) Murat Gunaydin and Feza Gursey, An octonionic representation of the
+10) Murat Gunaydin and Feza Gursey, An octonionic representation of the
 Poincare group, Lett. Nuovo Cim. 6 (1973), 401-406.
 
-11\) Murat Gunaydin and Feza Gursey, Quark structure and octonions,
+11) Murat Gunaydin and Feza Gursey, Quark structure and octonions,
 Jour. Math. Phys. 14 (1973), 1615-1667.
 
-12\) Murat Gunaydin and Feza Gursey, Quark statistics and octonions,
+12) Murat Gunaydin and Feza Gursey, Quark statistics and octonions,
 Phys. Rev. D9 (1974), 3387-3391.
 
-13\) Murat Gunaydin, Octonionic Hilbert spaces, the Poincare group and
+13) Murat Gunaydin, Octonionic Hilbert spaces, the Poincare group and
 SU(3), Jour. Math. Phys. 17 (1976), 1875-1883.
 
-14\) M. Gunaydin, C. Piron and H. Ruegg, Moufang plane and octonionic
+14) M. Gunaydin, C. Piron and H. Ruegg, Moufang plane and octonionic
 quantum mechanics, Comm. Math. Phys. 61 (1978), 69-85.
 
 Alas, these ideas never quite worked out, so most physicists discarded
@@ -307,15 +307,15 @@ I'm not ready to. So I won't say what 3 x 3 hermitian octonionic
 matrices have to do with string theory. If you want to know that, read
 these:
 
-15\) E. Corrigan and T. J. Hollowood, The exceptional Jordan algebra and
+15) E. Corrigan and T. J. Hollowood, The exceptional Jordan algebra and
 the superstring, Commun. Math. Phys., 122 (1989), 393. Also available at
 [http://projecteuclid.org/](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.cmp/1104178468)
 
-16\) E. Corrigan and T. J. Hollowood, A string construction of a
+16) E. Corrigan and T. J. Hollowood, A string construction of a
 commutative nonassociative algebra related to the exceptional Jordan
 algebra, Phys. Lett. B203 (1988), 47.
 
-17\) G. Sierra, An application of the theories of Jordan algebras and
+17) G. Sierra, An application of the theories of Jordan algebras and
 Freudenthal triple systems to particles and strings, Class. Quant. Grav.
 4 (1987), 227.
 
@@ -509,13 +509,13 @@ SL(2,O) acts as conformal transformations of the sphere S^8^ = OP^1.
 In the complex case, these conformal transformations are often called
 "Moebius transformations". For more on the octonionic case, try this:
 
-15\) Corinne A. Manogue and Tevian Dray, Octonionic Moebius
+15) Corinne A. Manogue and Tevian Dray, Octonionic Moebius
 transformations, Mod. Phys. Lett. A14 (1999) 1243-1256, available as
 [math-ph/9905024](http://xxx.lanl.gov/abs/math-ph/9905024).
 
 To round off the story, it helps to bring in spinors:
 
-16\) Anthony Sudbery, Division algebras, (pseudo)orthogonal groups and
+16) Anthony Sudbery, Division algebras, (pseudo)orthogonal groups and
 spinors, Jour. Phys. A17 (1984), 939-955.
 
 The fundamental rep of SL(2,K) on K^2 is secretly one of the spinor
@@ -547,7 +547,7 @@ running out of steam here, so I'll just give you a little reading list
 about the octonionic projective plane and the exceptional Jordan
 algebra:
 
-20\) Hans Freudenthal, Zur ebenen Oktavengeometrie, Indag. Math. 15
+20) Hans Freudenthal, Zur ebenen Oktavengeometrie, Indag. Math. 15
 (1953), 195-200.
 
 Hans Freudenthal, Beziehungen der e~7~ und e~8~ zur Oktavenebene:
@@ -566,26 +566,26 @@ Hans Freudenthal, Lie groups in the foundations of geometry, Adv. Math.
 Hans Freudenthal, Oktaven, Ausnahmegruppen und Oktavengeometrie, Geom.
 Dedicata 19 (1985), 7-63.
 
-21\) Jacques Tits, Le plan projectif des octaves et les groupes de Lie
+21) Jacques Tits, Le plan projectif des octaves et les groupes de Lie
 exceptionnels, Bull. Acad. Roy. Belg. Sci. 39 (1953), 309-329.
 
 Jacques Tits, Le plan projectif des octaves et les groupes exceptionnels
 E~6~ et E~7~, Bull. Acad. Roy. Belg. Sci. 40 (1954), 29-40.
 
-22\) Tonny A. Springer, The projective octave plane, I-II, Proc.
+22) Tonny A. Springer, The projective octave plane, I-II, Proc.
 Koninkl. Akad. Wetenschap. A63 (1960), 74-101.
 
 Tonny A. Springer, On the geometric algebra of the octave planes, I-III,
 Proc. Koninkl. Akad. Wetenschap. A65 (1962), 413-451.
 
-23\) J. R. Faulkner and J. C. Ferrar, Exceptional Lie algebras and
+23) J. R. Faulkner and J. C. Ferrar, Exceptional Lie algebras and
 related algebraic and geometric structures, Bull. London Math. Soc. 9
 (1977), 1-35.
 
 Finally, for a really good overview of Jordan algebras and related
 things like "Jordan pairs" and "Jordan triple systems", try this:
 
-24\) Kevin McCrimmon, Jordan algebras and their applications, AMS
+24) Kevin McCrimmon, Jordan algebras and their applications, AMS
 Bulletin 84 (1978), 612-627.
 
 ------------------------------------------------------------------------

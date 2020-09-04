@@ -3,7 +3,7 @@
 In January I spent a week at this workshop at the Fields Institute in
 Toronto:
 
-1\) Higher Categories and Their Applications,
+1) Higher Categories and Their Applications,
 `http://math.ucr.edu/home/baez/fields/`
 
 It was really fun - lots of people working on $n$-categories were there.
@@ -73,14 +73,14 @@ school found their way west and influenced the development of
 mathematics in Europe. There's been a lot of speculation, but nobody
 seems to know for sure. For more info, try these:
 
-2\) The MacTutor History of Mathematics Archive, Madhava of
+2) The MacTutor History of Mathematics Archive, Madhava of
 Sangamagramma,
 `http://www-history.mcs.st-andrews.ac.uk/Biographies/Madhava.html`
 
-3\) The MacTutor History of Mathematics Archive, Jyesthadeva,
+3) The MacTutor History of Mathematics Archive, Jyesthadeva,
 `http://www-history.mcs.st-andrews.ac.uk/Biographies/Jyesthadeva.html`
 
-4\) Wikipedia, Yuktibhasa, `http://en.wikipedia.org/wiki/Yuktibhasa`
+4) Wikipedia, Yuktibhasa, `http://en.wikipedia.org/wiki/Yuktibhasa`
 
 Before the conference started, I spent a nice morning talking with [Tom
 Leinster](fields/pictures/leinster_bloor_st.jpg) in a café on Bloor
@@ -89,7 +89,7 @@ when it's cold outside! At some point my former grad student Toby
 Bartels showed up - he'd just taken a long Greyhound bus from Nebraska
 - and joined in the conversation. We talked about this paper:
 
-5\) Tom Leinster, The Euler characteristic of a category, available as
+5) Tom Leinster, The Euler characteristic of a category, available as
 [math.CT/0610260](http://arxiv.org/abs/math/0610260).
 
 Everyone know how to measure the size of a set - by its number of
@@ -400,7 +400,7 @@ All this may seem weird - and it is; that's part of the fun. But,
 Leinster's answer matches what you'd expect from the theory of
 "homotopy cardinality":
 
-6\) John Baez, The mysteries of counting: Euler characteristic versus
+6) John Baez, The mysteries of counting: Euler characteristic versus
 homotopy cardinality, `http://math.ucr.edu/home/baez/counting/`
 
 This webpage has transparencies of a talk I gave on this, and lots of
@@ -499,20 +499,20 @@ Actually, these terms are widely used only when our category is a poset,
 thanks to the work of Gian-Carlo Rota, who used these ideas in
 combinatorics:
 
-7\) Gian-Carlo Rota, On the foundations of combinatorial theory I:
+7) Gian-Carlo Rota, On the foundations of combinatorial theory I:
 Theory of Möbius Functions, Zeitschrift für Wahrscheinlichkeitstheorie
 und Verwandte Gebiete 2 (1964), 340-368.
 
 If you want to know what these ideas are good for, check this out:
 
-8\) Wikipedia, Incidence algebra,
+8) Wikipedia, Incidence algebra,
 `http://en.wikipedia.org/wiki/Incidence_algebra`
 
 See the stuff about Euler characteristics in this article? That's a
 clue! The relation to the Riemann zeta function and its inverse (the
 original "Möbius function") are clearer here:
 
-9\) Wikipedia, Möbius inversion formula,
+9) Wikipedia, Möbius inversion formula,
 `http://en.wikipedia.org/wiki/M%C3%B6bius_inversion_formula`
 
 These show up when we think of the whole numbers 1,2,3,... as a poset

@@ -27,7 +27,7 @@ South Pole:
 [![](ice_cube.jpg)](http://icecube.wisc.edu/gallery/detector_concepts/ceren_hires)
 :::
 
-1\) Steve Yunck / NSF, Cerenkov light passing through the IceCube
+1) Steve Yunck / NSF, Cerenkov light passing through the IceCube
 neutrino detector,
 `http://icecube.wisc.edu/gallery/detector_concepts/ceren_hires`
 
@@ -54,7 +54,7 @@ tall, shown as a yellow cylinder here with a neutrino zipping through:
 [![](ice_cube_AMANDA.jpg)](http://icecube.wisc.edu/gallery/detector_concepts/icecubeencomp_300)
 :::
 
-2\) Darwin Rianto / NSF, Comparison of AMANDA and IceCube,
+2) Darwin Rianto / NSF, Comparison of AMANDA and IceCube,
 `http://icecube.wisc.edu/gallery/detector_concepts/icecubeencomp_300`
 
 Even the very top of IceCube is 1.4 kilometers beneath the snowy
@@ -65,7 +65,7 @@ station on top looks like this - not very cozy, I'd say:
 [![](south_pole_station.jpg)](http://icecube.wisc.edu/gallery/antarctica/PC140287_300)
 :::
 
-3\) Robert G. Stokstad / NSF, South Pole Station,
+3) Robert G. Stokstad / NSF, South Pole Station,
 `http://icecube.wisc.edu/gallery/antarctica/PC140287_300`
 
 I heard about IceCube from Adrian Burd, one of the old-timers who used
@@ -75,30 +75,30 @@ ran into some people working on IceCube. It sounds like an interesting
 community down there! You can read about it in their newspaper, the
 Antarctic Sun. For example:
 
-4\) Ice Cube turns up the heat, The Antarctic Sun, January 29, 2006,
+4) Ice Cube turns up the heat, The Antarctic Sun, January 29, 2006,
 `http://antarcticsun.usap.gov/2005-2006/contentHandler.cfm?id=959`
 
 For more on IceCube and Amanda, these are fun to read:
 
-5\) Francis Halzen, Ice fishing for neutrinos,
+5) Francis Halzen, Ice fishing for neutrinos,
 `http://icecube.berkeley.edu/amanda/ice-fishing.html`
 
-6\) Katie Yurkiewicz, Extreme neutrinos, Symmetry, volume 1 issue 1,
+6) Katie Yurkiewicz, Extreme neutrinos, Symmetry, volume 1 issue 1,
 November 2004, `http://symmetrymagazine.org/cms/?pid=1000014`
 
 For some of AMANDA's results, including a map of the sky as seen in
 neutrinos, try this:
 
-7\) M. Ackermann et al, Search for extraterrestrial point sources of
+7) M. Ackermann et al, Search for extraterrestrial point sources of
 high energy neutrinos with AMANDA-II using data collected in 2000-2002,
 available as
 [astro-ph/0412347](http://xxx.lanl.gov/abs/astro-ph/0412347).
 
 For much more, try these:
 
-8\) AMANDA II Project, `http://amanda.uci.edu/`
+8) AMANDA II Project, `http://amanda.uci.edu/`
 
-9\) Welcome to IceCube, `http://icecube.wisc.edu/`
+9) Welcome to IceCube, `http://icecube.wisc.edu/`
 
 And now, on to gravity.
 
@@ -106,7 +106,7 @@ You may have heard of the gravitational 3-body problem. Well, Richard
 Montgomery (famous from ["Week 181"](#week181)) recently pointed
 out this movie of the 60-body problem:
 
-10\) Davide L. Ferrario, Periodic orbits for the 60-body problem,
+10) Davide L. Ferrario, Periodic orbits for the 60-body problem,
 `http://www.matapp.unimib.it/~ferrario/mov/index.html`
 
 60 equal masses do a complicated dance while always preserving
@@ -114,7 +114,7 @@ icosahedral symmetry! First 12 groups of 5 swing past each other, then
 20 groups of 3. If you want to know how he found these solutions, read
 this:
 
-11\) Davide L. Ferrario and S. Terracini, On the existence of
+11) Davide L. Ferrario and S. Terracini, On the existence of
 collisionless equivariant minimizers for the classical $n$-body problem.
 Invent. Math. 155 (2004), 305-362.
 
@@ -128,11 +128,11 @@ Next, I'd like to say a little about point particles in 3d quantum
 gravity, and some recent work with Alissa Crans, Derek Wise and
 Alejandro Perez on string-like defects in 4d topological gravity:
 
-12\) John Baez, Derek Wise and Alissa Crans, Exotic statistics for
+12) John Baez, Derek Wise and Alissa Crans, Exotic statistics for
 strings in 4d BF theory, available as
 [gr-qc/0603085](http://xxx.lanl.gov/abs/gr-qc/0603085).
 
-13\) John Baez and Alejandro Perez, Quantization of strings and branes
+13) John Baez and Alejandro Perez, Quantization of strings and branes
 coupled to BF theory, available as
 [gr-qc/0605087](http://xxx.lanl.gov/abs/gr-qc/0605087).
 
@@ -169,7 +169,7 @@ relativity in 3 dimensions says spacetime is *flat*.
 A fellow named Phillipp de Sousa Gerbert came up with an interesting way
 to couple point particles to this formulation of quantum gravity:
 
-14\) Phillipp de Sousa Gerbert, On spin and (quantum) gravity in 2+1
+14) Phillipp de Sousa Gerbert, On spin and (quantum) gravity in 2+1
 dimensions, Nuclear Physics B346 (1990), 440-472.
 
 He actually did it for particles with spin, but I'll just do the
@@ -289,7 +289,7 @@ p" = p + p'
 So, conservation of energy-momentum is getting modified by gravitational
 effects! This goes by the name of "doubly special relativity":
 
-15\) Laurent Freidel, Jerzy Kowalski-Glikman and Lee Smolin, 2+1 gravity
+15) Laurent Freidel, Jerzy Kowalski-Glikman and Lee Smolin, 2+1 gravity
 and doubly special relativity, Phys. Rev. D69 (2004) 044001. Also
 available as [hep-th/0307085](http://xxx.lanl.gov/abs/hep-th/0307085).
 
@@ -469,7 +469,7 @@ well for 3d quantum gravity, and matches the spin foam picture of this
 theory. People have sort of believed this for a long time, but Alejandro
 demonstrated this quite carefully in a recent paper with Karim Noui:
 
-15\) Karim Noui and Alejandro Perez, Dynamics of loop quantum gravity
+15) Karim Noui and Alejandro Perez, Dynamics of loop quantum gravity
 and spin foam models in three dimensions, to appear in the proceedings
 of the Third International Symposium on Quantum Theory and Symmetries
 (QTS3), available as
@@ -501,7 +501,7 @@ at Princeton and I was a measly undergraduate. I was too scared to ask
 him many questions then. I'm a bit less scared now, but I've still got
 a lot to learn. Tomorrow he's giving a talk about this:
 
-17\) David S. Berman, Malcolm J. Perry, M-theory and the string genus
+17) David S. Berman, Malcolm J. Perry, M-theory and the string genus
 expansion, Phys. Lett. B635 (2006) 131-135. Also available as
 [hep-th/0601141](http://arxiv.org/abs/hep-th/0601141).
 

@@ -13,7 +13,7 @@ a bunch of people interested in how $n$-categories are affecting our
 notions of geometry. If you're interested in this, you might enjoy
 looking at the talk titles here:
 
-1\) Workshop on categorification and higher-order geometry,
+1) Workshop on categorification and higher-order geometry,
 `http://www.math.ist.utl.pt/~rpicken/CHOG2003`
 
 The other was the "Young Researcher's Symposium", a section of the
@@ -121,7 +121,7 @@ Unfortunately, at present it's a lot of work to define these spaces
 tmf(n). Mike Hopkins and Haynes Miller figured out how, and it was a
 great achievement:
 
-2\) Michael J. Hopkins, Topological modular forms, the Witten genus, and
+2) Michael J. Hopkins, Topological modular forms, the Witten genus, and
 the theorem of the cube, in Proceedings of the International Congress of
 Mathematicians (Zurich, 1994), Birkhauser, Basel, 1995, pp. 554-565.
 
@@ -513,7 +513,7 @@ To learn more about elliptic cohomology and its relation to conformal
 field theory, you should read this paper that Stephan Stolz is in the
 process of writing with Peter Teichner:
 
-3\) Stephan Stolz and Peter Teichner, What is an elliptic object?
+3) Stephan Stolz and Peter Teichner, What is an elliptic object?
 Available at `http://math.ucsd.edu/~teichner/papers.html`
 
 This paper is almost 80 pages long and they aren't even done yet! The
@@ -542,7 +542,7 @@ the surfaces are Riemann surfaces, and everything is happening "in X".
 
 For how elliptic cohomology is related to 2-vector spaces, read this:
 
-4\) Nils A. Baas, Bjorn Ian Dundas and John Rognes, Two-vector bundles
+4) Nils A. Baas, Bjorn Ian Dundas and John Rognes, Two-vector bundles
 and forms of elliptic cohomology, available as
 [math.AT/0306027](http://www.arXiv.org/abs/math.AT/0306027).
 
@@ -682,7 +682,7 @@ pattern if you define weights using the convention that I'm using here.
 Lots of people know about this - see any introduction to modular forms,
 like this one:
 
-5\) Neal Koblitz, Introduction to Elliptic Curves and Modular Forms, 2nd
+5) Neal Koblitz, Introduction to Elliptic Curves and Modular Forms, 2nd
 edition, Springer-Verlag, 1993.
 
 I already vaguely explained this in ["Week 125"](#week125).
@@ -761,12 +761,12 @@ There's more to say but I'll stop here. I have given other references
 to monstrous moonshine in ["Week 66"](#week66), but here's a very
 pretty website about it:
 
-6\) Helena A. Verrill, Monstrous moonshine and mirror symmetry,
+6) Helena A. Verrill, Monstrous moonshine and mirror symmetry,
 `http://hverrill.net/pages~helena/seminar/seminar1.html`
 
 and here is a nice easy paper by Terry Gannon about it:
 
-7\) Terry Gannon, Postcards from the edge, or Snapshots of the theory of
+7) Terry Gannon, Postcards from the edge, or Snapshots of the theory of
 generalised Moonshine, available as
 [math.QA/0109067](http://www.arXiv.org/abs/math.QA/0109067).
 

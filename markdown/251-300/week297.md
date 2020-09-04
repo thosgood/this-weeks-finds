@@ -18,7 +18,7 @@ Here are some cool sculptures of knots by Karel Vreeburg:
 \
 :::
 
-1\) Karel Vreeburg,
+1) Karel Vreeburg,
 `http://www.karelvreeburg.nl/site/kunstwerken/357933_Beelden.html`
 
 The polished forms emerge from rough stone much as mathematical
@@ -53,13 +53,13 @@ different places" is no longer adequate:
 
 This quote is from:
 
-2\) Richard Martin, Wall Street's quest to process data at the speed of
+2) Richard Martin, Wall Street's quest to process data at the speed of
 light, Information Week, April 23, 2007. Also available at
 `http://www.informationweek.com/news/infrastructure/showArticle.jhtml?articleID=199200297`
 
 See also:
 
-3\) Kid Dynamite's World, Market Speed Bumps,
+3) Kid Dynamite's World, Market Speed Bumps,
 `http://fridayinvegas.blogspot.com/2010/05/market-speed-bumps.html`
 
 where someone comments:
@@ -107,7 +107,7 @@ this issue to my attention.
 
 I also enjoyed this blog post by Mike:
 
-4\) Mike Stay, Lazulinos,
+4) Mike Stay, Lazulinos,
 `http://reperiendi.wordpress.com/2010/04/27/lazulinos/`
 
 It's about a newly discovered quasiparticle with astounding properties.
@@ -214,7 +214,7 @@ Q(φ) ≥ Q(\psi)
 when \psi_i is the minimum of φ_i and 1. This characterization is
 Proposition 1.7 here:
 
-5\) Christophe Sabot, Existence and uniqueness of diffusions on finitely
+5) Christophe Sabot, Existence and uniqueness of diffusions on finitely
 ramified self-similar fractals, Section 1: Dirichlet forms on finite
 sets and electrical networks, Annales Scientifiques de l'cole Normale
 Suprieure, Sr. 4, 30 (1997), 605-673. Available at
@@ -224,7 +224,7 @@ Sabot doesn't prove this result, which he considers "well known".
 Instead, he points us to this book, which is not only fun to read, but
 also free:
 
-6\) P. G. Doyle and J. L. Snell, Random Walks and Electrical Circuits,
+6) P. G. Doyle and J. L. Snell, Random Walks and Electrical Circuits,
 Mathematical Association of America, 1984. Also available at
 `http://www.math.dartmouth.edu/~doyle/`
 
@@ -262,7 +262,7 @@ analytical subleties that don't matter for our pathetically simple
 examples. For a little taste, try this review of two books on Dirichlet
 forms:
 
-7\) Review by Daniel Stroock, Bull. Amer. Math. Soc. 33 (1996) 87-92.
+7) Review by Daniel Stroock, Bull. Amer. Math. Soc. 33 (1996) 87-92.
 Also available at
 `http://www.ams.org/journals/bull/1996-33-01/S0273-0979-96-00617-9/`
 
@@ -393,7 +393,7 @@ gluing the outputs of one onto the inputs of another.
 Finally, suppose we allow grounds as well as resistors. Sabot considers
 circuits of this sort in the following beautiful paper:
 
-8\) Christophe Sabot, Electrical networks, symplectic reductions, and
+8) Christophe Sabot, Electrical networks, symplectic reductions, and
 application to the renormalization map of self-similar lattices, Proc.
 Sympos. Pure Math. 72 (2004), 155-205. Also available as
 [`arXiv:math-ph/0304015`](http://arxiv.org/abs/math-ph/0304015).
@@ -448,7 +448,7 @@ closure of that set and get a space C(V). Points in C(V) correspond to
 circuits built from resistors, grounds, and wires of zero resistance.
 Sabot says this space is discussed here:
 
-9\) Y. Colin de Verdiere, Reseaux electriques planaires I, Comment.
+9) Y. Colin de Verdiere, Reseaux electriques planaires I, Comment.
 Math. Helv. 69 (1994), 351-374. Also available at
 `http://www-fourier.ujf-grenoble.fr/~ycolver/All-Articles/94a.pdf`.
 
@@ -497,7 +497,7 @@ careful.
 
 Also, here's another worthwhile reference:
 
-10\) Jun Kigami, Analysis on Fractals, Cambridge U. Press. First 60
+10) Jun Kigami, Analysis on Fractals, Cambridge U. Press. First 60
 pages available at `http://www-an.acs.i.kyoto-u.ac.jp/~kigami/AOF.pdf`
 
 It's full of information on Dirichlet forms and electrical circuits.

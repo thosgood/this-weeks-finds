@@ -26,7 +26,7 @@ out there in the real world". How does this work, exactly? It's way
 too complicated for me, but you can try reading this and see if it
 helps:
 
-1\) Heinz-Juergen Schmidt, Structuralism in physics, The Stanford
+1) Heinz-Juergen Schmidt, Structuralism in physics, The Stanford
 Encyclopedia of Philosophy (Winter 2002 Edition), ed. Edward N. Zalta,
 `http://plato.stanford.edu/entries/physics-structuralism/`
 
@@ -44,14 +44,14 @@ to this paper can be found at the end of this article.) I'm really fond
 of a paper Earman wrote with his student Gordon Belot on the problem of
 time in quantum gravity:
 
-2\) John Earman and Gordon Belot, Pre-Socratic quantum gravity, in
+2) John Earman and Gordon Belot, Pre-Socratic quantum gravity, in
 Physics Meets Philosophy at the Planck Scale, eds. Chris Callender and
 Nick Huggett, Cambridge U. Press, Cambridge, 2001.
 
 and also this paper on the C*-algebraic approach to quantum field
 theory on curved spacetime:
 
-3\) Aristidis Arageorgis, John Earman, and Laura Ruetsche, Weyling the
+3) Aristidis Arageorgis, John Earman, and Laura Ruetsche, Weyling the
 time away: the non-unitary implementability of quantum field dynamics on
 curved spacetime, in Studies in the History and Philosophy of Modern
 Physics, in press.
@@ -63,7 +63,7 @@ representations.
 
 Here's another paper by the Earman gang:
 
-4\) Gordon Belot, John Earman and Laura Ruetsche, The Hawking
+4) Gordon Belot, John Earman and Laura Ruetsche, The Hawking
 information loss paradox: the anatomy of a controversy, British Journal
 for the Philosophy of Science, 50 (1999), 189-230.
 
@@ -101,20 +101,20 @@ half-forgotten second-hand gossip.
 Anyway, Bokulich gave me some references that I plan to read. First, a
 thorough historical review of the subject:
 
-5\) G. Tanner, K. Richter and J. Rost, The theory of two-electron atoms:
+5) G. Tanner, K. Richter and J. Rost, The theory of two-electron atoms:
 between ground state and complete fragmentation, Reviews of Modern
 Physics 72 (2000), 497-544.
 
 Then, a classic paper extolling the forgotten virtues of the old quantum
 theory:
 
-6\) J. Leopold and I. Percival, The semiclassical two-electron atom and
+6) J. Leopold and I. Percival, The semiclassical two-electron atom and
 the old quantum theory, Jour. Phys. B13 (1980) 1037-1047.
 
 Next, a paper containing the first successful semiclassical quantization
 of helium:
 
-7\) G. Ezra, K. Richter, G. Tanner, and D. Wintgen, Semiclassical cycle
+7) G. Ezra, K. Richter, G. Tanner, and D. Wintgen, Semiclassical cycle
 expansion for the helium atom, Journal of Physics B 24 (1991),
 L413-L420.
 
@@ -122,11 +122,11 @@ If you don't know anything about the old quantum mechanics, here's a
 good place to start - it begins with a long explanation and then has
 translations of original papers:
 
-8\) D. ter haar, The Old Quantum Theory, Pergamon Press, London, 1967.
+8) D. ter haar, The Old Quantum Theory, Pergamon Press, London, 1967.
 And finally, a here's a modern online book on semiclassical methods and
 quantum chaos, in the process of construction:
 
-9\) Predrag Cvitanovic, Roberto Artuso, Per Dahlqvist, Ronnie Mainieri,
+9) Predrag Cvitanovic, Roberto Artuso, Per Dahlqvist, Ronnie Mainieri,
 Gregor Tanner, Gabor Vattay, Niall Whelan and Andreas Wirzba, Chaos:
 Classical and Quantum, `http://www.nbi.dk/ChaosBook/`
 
@@ -136,7 +136,7 @@ should talk about this soon, because it contains some exciting new
 insights on the exceptional groups. But I'm not really ready yet, so
 for now I'll just throw you the reference:
 
-10\) Predrag Cvitanovic, Group Theory, `http://www.nbi.dk/GroupTheory/`
+10) Predrag Cvitanovic, Group Theory, `http://www.nbi.dk/GroupTheory/`
 
 Instead, let me talk some more about structure types and their
 generating functions. I described these concepts in
@@ -390,14 +390,14 @@ In other words: one can take this weird calculation and use it to
 construct a one-to-one correspondence between trees and 7-tuples of
 trees! For a good treatment see this paper by Blass:
 
-11\) Andreas Blass, Seven trees in one, Jour. Pure Appl. Alg. 103
+11) Andreas Blass, Seven trees in one, Jour. Pure Appl. Alg. 103
 (1995), 1-21. Also available at
 `http://www.math.lsa.umich.edu/~ablass/cat.html`
 
 Recently, Leinster and Fiore have proved a very general theorem on how
 to reason rigorously with complex-valued "cardinalities":
 
-12\) Marcelo Fiore and Tom Leinster, Objects of categories as complex
+12) Marcelo Fiore and Tom Leinster, Objects of categories as complex
 numbers, available as
 [math.CT/0212377](http://www.arxiv.org/abs/math.CT/0212377).
 
