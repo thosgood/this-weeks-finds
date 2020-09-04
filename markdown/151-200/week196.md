@@ -1,36 +1,36 @@
 week196
 
-Today I\'d like to talk about the Big Bang and Pythagorean spinors. But
+Today I'd like to talk about the Big Bang and Pythagorean spinors. But
 first, a book! If you want to start learning general relativity without
-first mastering the intricacies of tensors, here\'s a way to get going:
+first mastering the intricacies of tensors, here's a way to get going:
 
-1\) James B. Hartle, Gravity: an Introduction to Einstein\'s General
+1\) James B. Hartle, Gravity: an Introduction to Einstein's General
 Relativity, Addison-Wesley, San Francisco, 2003.
 
 Hartle is an expert on general relativity, but here he avoids showing
 off. He gets to the physics of general relativity as quickly and simply
 as possible, avoiding the usual route of doing huge amounts of math
 first. In particular, he works out the physics of specific solutions of
-Einstein\'s equations - like those describing black holes and the Big
+Einstein's equations - like those describing black holes and the Big
 Bang - before he introduces the equations. This puts off the hard
 abstract stuff until later, when the student has more feeling for it.
-The purists may grumble, but I have a feeling it\'s pedagogically sound.
+The purists may grumble, but I have a feeling it's pedagogically sound.
 
-Now\... what happened in the first second after the Big Bang?
+Now... what happened in the first second after the Big Bang?
 
 This may sound like an insanely ambitious question, but in fact we seem
 to have a fairly good idea of what happened all the way back to the
-first microsecond - unless, of course, there\'s some important physics
-we\'re missing. This paper tells the story quite nicely:
+first microsecond - unless, of course, there's some important physics
+we're missing. This paper tells the story quite nicely:
 
 2\) Dominik J. Schwarz, The first second of the universe, available as
 [astro-ph/0303574](http://xxx.lanl.gov/abs/astro-ph/0303574).
 
-But, since the physics gets weirder as we approach the Big Bang, I\'ll
-tell this story in reverse order - and I\'ll start from *now*, just to
+But, since the physics gets weirder as we approach the Big Bang, I'll
+tell this story in reverse order - and I'll start from *now*, just to
 set the stage.
 
-So, here\'s a quick reverse history of the universe:
+So, here's a quick reverse history of the universe:
 
 -   13.7 billion years after the Big Bang: now.\
     Temperature: 2.726 K
@@ -52,7 +52,7 @@ February, 2003.
 -   200 million years after the Big Bang: reionization.\
     Temperature: roughly 50 K.
 
-\"Reionization\" is the name for when the hydrogen in the universe,
+"Reionization" is the name for when the hydrogen in the universe,
 which had cooled after the Big Bang, became hot and ionized again. The
 most likely cause is radiation from the very first stars. So, we now
 think the first stars ignited about 200 million years after the Big
@@ -64,21 +64,21 @@ of people were surprised by this result, since they thought that the
 clumping of matter due to gravity would have taken *much* longer to form
 stars!
 
-There\'s a lot we don\'t know about star and galaxy formation, because
+There's a lot we don't know about star and galaxy formation, because
 the current conventional wisdom requires that the gravitational clumping
-was seeded by \"cold dark matter\" - but nobody knows what this stuff
+was seeded by "cold dark matter" - but nobody knows what this stuff
 is.
 
 -   380 thousand years after the Big Bang: recombination.\
     Temperature: 3000 K, or .25 eV of energy per particle.
 
-\"Recombination\" is the usual stupid name for when the universe cooled
+"Recombination" is the usual stupid name for when the universe cooled
 down enough for electrons and protons to stick together and form
-hydrogen atoms. It should really be called \"combination\", because the
+hydrogen atoms. It should really be called "combination", because the
 electrons and protons were never combined *before* this time. Before
 this time the universe was always full of plasma - that is, electrically
 charged particles running around loose. Afterwards it was full of
-electrically neutral hydrogen\... at least until the stars lit up and
+electrically neutral hydrogen... at least until the stars lit up and
 reionized a lot of this hydrogen.
 
 Plasma absorbs light of all frequencies, while electrically neutral
@@ -93,7 +93,7 @@ The era between recombination and the ignition of the first stars goes
 by a romantic name: the Dark Ages. Adding to the romance, Pfenniger and
 Puy hypothesized that hydrogen could have frozen into crystalline flakes
 before the stars lit up and began warming the universe again. A cold,
-dark, eerie universe full of hydrogen snowflakes\... the thought sends
+dark, eerie universe full of hydrogen snowflakes... the thought sends
 shivers right up my spine! Unfortunately, if stars formed as early as
 WMAP says they did, the universe would probably not get cold enough for
 these crystals to form.
@@ -107,15 +107,15 @@ estimates, but presumably more accurate.
     Temperature: 12,000 K, or 1 eV per particle.
 
 Before this time, the energy density due to light exceeded that due to
-matter, so we say the universe was \"radiation-dominated\". Afterwards
-the universe became \"matter-dominated\" - at least until considerably
+matter, so we say the universe was "radiation-dominated". Afterwards
+the universe became "matter-dominated" - at least until considerably
 later, when matter spread out so thin that the dominant form of energy
-became \"dark energy\", as it seems to be now.
+became "dark energy", as it seems to be now.
 
 (The best estimate due to WMAP says that currently the energy in the
 universe is 4% ordinary matter, 23% cold dark matter and 73% dark
 energy. For more on the latter two concepts, see
-\"[week167](week167.html)\".)
+["Week 167"](#week167).)
 
 The end of the radiation-dominated era is important because this is when
 gravity began to amplify small fluctuations in the density of matter. In
@@ -143,7 +143,7 @@ decay.
 
 At about this time, the temperature dropped to the point where a proton
 and neutron could stick together forming a deuterium nucleus, and the
-process of \"nucleosynthesis\" began, in which deuterium nuclei stick
+process of "nucleosynthesis" began, in which deuterium nuclei stick
 together to form nuclei of helium. This is responsible for the fact that
 even before the stars started processing hydrogen into heavier elements,
 the universe was about 25% helium, the rest being almost all hydrogen.
@@ -155,10 +155,10 @@ the universe was about 25% helium, the rest being almost all hydrogen.
 Apart from the neutrinos and the photon, the lightest particle in nature
 is the electron. The rest mass of an electron corresponds to an energy
 of 511 keV, so it only takes twice that much energy to create an
-electron-positron pair. If we multiply 511 MeV by Boltzmann\'s constant,
+electron-positron pair. If we multiply 511 MeV by Boltzmann's constant,
 we get a temperature of roughly 5 billion kelvin. That means that at
 this temperature, two particles colliding head-on will often have enough
-kinetic energy to create a electron-positron pair. So, when it\'s this
+kinetic energy to create a electron-positron pair. So, when it's this
 hot or hotter, collisions between particles generate a thick stew of
 electrons and positrons!
 
@@ -173,7 +173,7 @@ Neutrinos can easily zip through light-years of lead, but the very early
 universe was so compressed that they interacted vigorously with other
 forms of matter. But around a second after the Big Bang, the density of
 the universe decreased to about 400,000 times that of water, and
-neutrinos \"decoupled\" from other matter.
+neutrinos "decoupled" from other matter.
 
 Since these neutrinos were not reheated by nucleosynthesis, they should
 now be cooler than the cosmic microwave background radiation - about 2
@@ -184,7 +184,7 @@ that our theories of the early universe are correct.
 -   100 microseconds after the Big Bang: annihilation of pions.\
     Temperature: roughly 1 trillion K, or about 100 MeV per particle.
 
-Particles made of quarks and antiquarks are called \"hadrons\", and they
+Particles made of quarks and antiquarks are called "hadrons", and they
 interact via the strong nuclear force. The only hadrons we encounter in
 daily life are protons and neutrons, made of 3 quarks each. But the
 lightest hadrons are the pions, which come in positive, negative and
@@ -210,27 +210,27 @@ hadrons by the strong force. The strong force is carried by gluons, so
 you can vaguely visualize a hadron as a bag-like thing in which quarks
 and antiquarks wiggle about, constantly exchanging virtual gluons, which
 also exchange virtual gluons, quarks and antiquarks of their own. The
-details are described by \"quantum chromodynamics\", or QCD. Since QCD
+details are described by "quantum chromodynamics", or QCD. Since QCD
 says the strong force gets stronger with increasing distance, if you try
 to pull a quark out of this bag, it takes enough energy to create a
 whole new bag!
 
 But if you have a bunch of hadrons at temperatures above 2 trillion
-kelvin or so, they\'ll be smashing into each other so furiously that the
-distinction between the \"bags\" and the \"space between the bags\",
-never completely sharp, dissolves entirely. At this point, all you\'ve
+kelvin or so, they'll be smashing into each other so furiously that the
+distinction between the "bags" and the "space between the bags",
+never completely sharp, dissolves entirely. At this point, all you've
 got is a bunch of quarks, antiquarks and gluons zipping around. This is
-a new state of matter: a \"quark-gluon plasma\". In
-\"[week76](week76.html)\" and \"[week117](week117.html)\" I described
+a new state of matter: a "quark-gluon plasma". In
+["Week 76"](#week76) and ["Week 117"](#week117) I described
 how how people at the Relativistic Heavy Ion Collider in Brookhaven are
 making quark-gluon plasmas by smashing nuclei at each other at high
 speeds.
 
-A lot of Dominik Schwarz\'s paper is about the \"QCD phase transition\"
+A lot of Dominik Schwarz's paper is about the "QCD phase transition"
 which happened about 50 microseconds after the Big Bang, when the
 universe cooled down enough for the quark-gluon plasma to condense into
 the confined phase. Though the subject is controversial, most people
-think this phase transition is a \"first-order\" transition, meaning
+think this phase transition is a "first-order" transition, meaning
 that heat is emitted as the transition happens, just as when water vapor
 condenses to form liquid droplets. If so, the quark-gluon plasma would
 probably supercool until small bubbles of hadron phase formed. As these
@@ -254,14 +254,14 @@ between particles create a stew of Higgs bosons!
 
 The mass of Higgs seems to be somewhere around 130 GeV. If so, the
 electroweak phase transition would have occured roughly 10^-11^ seconds
-after the Big Bang. But, since we haven\'t actually gotten direct
+after the Big Bang. But, since we haven't actually gotten direct
 evidence for the Higgs boson yet, this is still a bit speculative. Right
 now people say the Large Hadron Collider at CERN will come online and
 start looking for the Higgs in 2007. But the LHC project has gotten some
-nasty budget cuts recently, so I wouldn\'t be surprised if there were
-delays. If and when the Higgs is found, maybe I\'ll return to this topic
+nasty budget cuts recently, so I wouldn't be surprised if there were
+delays. If and when the Higgs is found, maybe I'll return to this topic
 and say what people think happened *before* the electroweak phase
-transition. People have thought about this a lot. But for now, I\'ll
+transition. People have thought about this a lot. But for now, I'll
 quit here!
 
 If you want to learn more about the early universe, start with this
@@ -272,11 +272,11 @@ classic:
 
 Then catch up with recent developments by reading these websites:
 
-3\) Ned Wright\'s Cosmology Tutorial,
-<http://www.astro.ucla.edu/~wright/cosmolog.htm>
+3\) Ned Wright's Cosmology Tutorial,
+`http://www.astro.ucla.edu/~wright/cosmolog.htm`
 
 4\) Martin White, The Cosmic Rosetta Stone,
-<http://astron.berkeley.edu/~mwhite/rosetta/rosetta.html>
+`http://astron.berkeley.edu/~mwhite/rosetta/rosetta.html`
 
 To dig deeper, try these books:
 
@@ -286,7 +286,7 @@ Cosmic Structure, Wiley, New York, 1995.
 6\) Edward W. Kolb and Michael Turner, The Early Universe,
 Addison-Wesley, Reading, Massachusetts, 1990.
 
-For a detailed description of some of WMAP\'s results, try these:
+For a detailed description of some of WMAP's results, try these:
 
 7\) C. L. Bennett et al, First Year Wilkinson Microwave Anisotropy Probe
 (WMAP) Observations: Preliminary Maps and Basic Results, available as
@@ -300,7 +300,7 @@ These are two of thirteen related papers produced by the WMAP team! Both
 of them have lots of coauthors, one of which is Ned Wright, author of
 the nice website mentioned above.
 
-Here is Pfenniger and Puy\'s paper on hydrogen \"snowflakes\":
+Here is Pfenniger and Puy's paper on hydrogen "snowflakes":
 
 9\) D. Pfenniger and D. Puy, Possible flakes of molecular hydrogen in
 the early Universe, available as
@@ -308,7 +308,7 @@ the early Universe, available as
 
 I should also thank Ted Bunn for telling me some stuff about converting
 between times, temperatures and redshifts. Cosmologists of the early
-universe use \"redshift z\" to stand for the time when the universe was
+universe use "redshift z" to stand for the time when the universe was
 1/(z+1) times as big as it is now - by which I mean, distances between
 faraway objects were multiplied by this factor. Equivalently, this is
 the time when the temperature of the background radiation was z+1 times
@@ -317,111 +317,111 @@ is easier. Converting these to times is less trivial, and indeed the
 times listed above are more likely to suffer from inaccuracies than the
 temperatures.
 
-By the way, some people say it\'s confusing to use numbers like
-\"billion\", \"trillion\" and \"quadrillion\" to mean 10^9^, 10^12^ and
+By the way, some people say it's confusing to use numbers like
+"billion", "trillion" and "quadrillion" to mean 10^9^, 10^12^ and
 10^15^, respectively - because these are American usages, and Europeans
-(they claim) use \"milliard\", \"billion\" and \"billiard\" for these
-numbers. These people say that, for example \"gigakelvin\",
-\"terakelvin\" and \"exakelvin\" are less ambiguous than \"billion
-kelvin\", \"trillion kelvin\" and \"quadrillion kelvin\".
+(they claim) use "milliard", "billion" and "billiard" for these
+numbers. These people say that, for example "gigakelvin",
+"terakelvin" and "exakelvin" are less ambiguous than "billion
+kelvin", "trillion kelvin" and "quadrillion kelvin".
 
-This is probably true, but it\'s also true that fewer people know what
-an \"exakelvin\" is than a \"quadrillion kelvin\". Since I was trying to
+This is probably true, but it's also true that fewer people know what
+an "exakelvin" is than a "quadrillion kelvin". Since I was trying to
 explain cosmology to the unwashed masses, I opted to use number words
-above, and explain them here. I was using the American system\... and
-I\'m sort of betting this system will take over, because I\'ve *never*
-heard anyone use the word \"billiard\" to mean 10^15^. More importantly,
-I really hope that *some* system takes over, because it\'s a bit sad not
+above, and explain them here. I was using the American system... and
+I'm sort of betting this system will take over, because I've *never*
+heard anyone use the word "billiard" to mean 10^15^. More importantly,
+I really hope that *some* system takes over, because it's a bit sad not
 to be able to use words for numbers.
 
-Speaking of numbers\... now for some math!
+Speaking of numbers... now for some math!
 
-The volume in honor of Penrose\'s 65th birthday is full of fun stuff
+The volume in honor of Penrose's 65th birthday is full of fun stuff
 about spin networks, twistors, and so on - but I particularly liked this
-paper by Trautman on \"Pythagorean spinors\":
+paper by Trautman on "Pythagorean spinors":
 
 10\) Andrzej Trautman, Pythagorean spinors and Penrose twistors, in The
 Geometric Universe: Science Geometry and the Work of Roger Penrose, eds.
 Huggett, Mason, Tod, Tsou and Woodhouse, Oxford U. Press, Oxford, 1998.
-Also available at <http://www.fuw.edu.pl/~amt/amt.html>
+Also available at `http://www.fuw.edu.pl/~amt/amt.html`
 
-If you\'re a physicist you\'ll have heard about Dirac spinors, Weyl
-spinors, Majorana spinors, and maybe even Majorana-Weyl spinors. I\'ve
-you haven\'t, you can read my explanations in \"[week93](week93.html)\".
-But what in the world are \"Pythagorean\" spinors? The basic idea is
+If you're a physicist you'll have heard about Dirac spinors, Weyl
+spinors, Majorana spinors, and maybe even Majorana-Weyl spinors. I've
+you haven't, you can read my explanations in ["Week 93"](#week93).
+But what in the world are "Pythagorean" spinors? The basic idea is
 that from two spinors you can make a vector, and Trautman points out
 that a special case of this idea gives a famous old formula for getting
 Pythagorean triples - that is, integers a,b,c with
 
-a^2^ + b^2^ = c^2^.
+a^2 + b^2 = c^2.
 
-I think I\'ll explain this in detail\....
+I think I'll explain this in detail....
 
 Spinors are used to describe spin-1/2 particles, so-called because they
-don\'t come back to where they were when you turn them around 360
+don't come back to where they were when you turn them around 360
 degrees - you have to rotate them *twice* to get back where you started!
 Thus, mathematically, spinors are representations of the double cover of
 the rotation group, or the double cover of the Lorentz group if you take
 special relativity into account.
 
 In 4d spacetime, the double cover of the Lorentz group is SL(2,C), the
-group of 2×2 complex matrices with determinant 1. We can take a spinor
+group of 2\times2 complex matrices with determinant 1. We can take a spinor
 to be just a pair of complex numbers, but there are actually two ways
 such a thing can transform under SL(2,C). One way is obvious, but for
 the other we take the *complex conjugate* of the matrix before letting
 it act on the spinor. We get two sorts of spinors, called left- and
-right-handed \"Weyl spinors\". In physics, we use these to describe
+right-handed "Weyl spinors". In physics, we use these to describe
 massless particles that spin either clockwise or counterclockwise along
 their line of motion as they zip along at the speed of light.
 
 In 3d spacetime, the double cover of the Lorentz group is SL(2,R), the
-group of 2×2 *real* matrices with determinant 1. In this dimension, we
-can take a spinor to be a pair of *real* numbers. But since we don\'t
-have complex conjugation at our disposal, we don\'t get left- and
-right-handed versions of these spinors, and we don\'t call them Weyl
-spinors. Since they are real, we call them \"Majorana spinors\".
+group of 2\times2 *real* matrices with determinant 1. In this dimension, we
+can take a spinor to be a pair of *real* numbers. But since we don't
+have complex conjugation at our disposal, we don't get left- and
+right-handed versions of these spinors, and we don't call them Weyl
+spinors. Since they are real, we call them "Majorana spinors".
 
 Since Pythagoras had a strong fondness for number theory, if he were
 alive today he might want to simplify things even further and consider
-SL(2,Z), the group of 2×2 *integer* matrices with determinant 1. This
-acts on \"Pythagorean spinors\", namely pairs of integers.
+SL(2,Z), the group of 2\times2 *integer* matrices with determinant 1. This
+acts on "Pythagorean spinors", namely pairs of integers.
 
 We could also go up to higher dimensions using the quaternions and
 octonions: SL(2,H) is the double cover of the Lorentz group in 6d
 spacetime, and SL(2,O) is the double cover of the Lorentz group in 10d
 spacetime. But I explained this in my octonion webpage:
 
-11\) John Baez, OP^1^ and Lorentzian geometry,
-<http://math.ucr.edu/home/baez/octonions/node11.html>
+11\) John Baez, OP^1 and Lorentzian geometry,
+`http://math.ucr.edu/home/baez/octonions/node11.html`
 
-so I won\'t talk about it now.
+so I won't talk about it now.
 
-In each case, there\'s a trick for turning a spinor into a lightlike
+In each case, there's a trick for turning a spinor into a lightlike
 vector. In 4 dimensions we do it like this: we take a left-handed spinor
-ψ, take its conjugate transpose to get a right-handed spinor ψ\*, and
+\psi, take its conjugate transpose to get a right-handed spinor \psi*, and
 form
 
-    ψ ⊗ ψ*
+    \psi \otimes \psi*
 
-which we can think of as a 2×2 hermitian matrix. If you\'re a fancy
-mathematical physicist you know that the space of 2×2 hermitian matrices
+which we can think of as a 2\times2 hermitian matrix. If you're a fancy
+mathematical physicist you know that the space of 2\times2 hermitian matrices
 is the same as 4d Minkowski spacetime, with the matrices of determinant
-zero corresponding to the lightlike vectors, so you\'re done! Otherwise,
+zero corresponding to the lightlike vectors, so you're done! Otherwise,
 you can work out the above matrix explicitly:
 
-    ψ = (a)                                         (a column vector)
+    \psi = (a)                                         (a column vector)
         (b)
 
-    ψ = (a*, b*)                                    (a row vector)
+    \psi = (a*, b*)                                    (a row vector)
 
 
-    ψ ⊗ ψ* = (aa* ab*)                              (a 2×2 matrix)
+    \psi \otimes \psi* = (aa* ab*)                              (a 2\times2 matrix)
              (ba* bb*)                  
 
 This matrix is hermitian, so you can write it as a real linear
 combination of Pauli matrices:
 
-    ψ ⊗ ψ* = t σt + x σx + y σy + z σz
+    \psi \otimes \psi* = t σt + x σx + y σy + z σz
 
 where
 
@@ -442,33 +442,33 @@ this vector is lightlike:
 
     t2 = x2 + y2 + z2 
 
-you\'ll be done.
+you'll be done.
 
 The trick in 3 dimensions is just the same except that now the
-components of ψ are real numbers, so things simplify: we don\'t need
-complex conjugation, and ψ ⊗ ψ\* will be a *real* hermitian matrix. Real
+components of \psi are real numbers, so things simplify: we don't need
+complex conjugation, and \psi \otimes \psi* will be a *real* hermitian matrix. Real
 hermitian matrices are the same as vectors in 3d Minkowski spacetime,
 since we can write them as linear combinations of the three Pauli
-matrices without i\'s in them - namely, all of them except σ~y~. So, we
+matrices without i's in them - namely, all of them except σ~y~. So, we
 get a lightlike vector in 3d Minkowski spacetime: say, (t,x,z) with
 
-t^2^ = x^2^ + z^2^
+t^2 = x^2 + z^2
 
 Now for the really fun part: the trick works the same with Pythagorean
-spinors except now everything in sight is an integer\...
+spinors except now everything in sight is an integer...
 
-\... so (t,x,z) is a Pythagorean triple!!! And in fact, we get every
+... so (t,x,z) is a Pythagorean triple!!! And in fact, we get every
 Pythagorean triple this way, at least up to an integer multiple. And in
 fact, this trick was already known by Euclid.
 
 Explicitly, if
 
-    ψ = (a)
+    \psi = (a)
         (b)
 
 then
 
-    2 ψ ⊗ ψ* = (2a2  2ab) 
+    2 \psi \otimes \psi* = (2a2  2ab) 
                (2ab  2b2)                  
 
              = (a2 + b2) σt + 2ab σx  + (a2 - b2) σz
@@ -479,15 +479,15 @@ so we get the Pythagorean triple
 
 For example, if we take our spinor to be
 
-    ψ = (2)
+    \psi = (2)
         (1)
 
 we get the famous triple
 
     (t,x,z) = (5,4,3)  
 
-By the way, you\'ll notice I had to insert a fudge factor of \"2\" in
-that formula up there to get things to work. I\'m not sure why.
+By the way, you'll notice I had to insert a fudge factor of "2" in
+that formula up there to get things to work. I'm not sure why.
 
 ------------------------------------------------------------------------
 
@@ -541,12 +541,12 @@ sent me the following:
 >     Enjoy,
 >     --Noam D. Elkies
 
-I replied saying that by Euclid knowing \"this trick\", I only meant he
+I replied saying that by Euclid knowing "this trick", I only meant he
 knew this formula for Pythagorean triples:
 
     (a2 + b2, 2ab, a2 - b2)
 
-I don\'t know who proved it gives *all* of them (up to multiples).
+I don't know who proved it gives *all* of them (up to multiples).
 
 Rob Johnson then noted:
 

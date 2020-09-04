@@ -4,8 +4,8 @@ At the 13th International Congress on Mathematical Physics, held at
 Imperial College in London, I was suprised at how much energy was
 focussed on quantum computation and quantum cryptography. But it makes
 perfect sense - this is one area where fundamental physics still has the
-potential to drastically affect everyday life. I\'m not sure quantum
-computation will ever be practical, but it\'s certainly worth checking
+potential to drastically affect everyday life. I'm not sure quantum
+computation will ever be practical, but it's certainly worth checking
 out. Quantum cryptography is well on its way - though people are busy
 arguing just *how* practical it will be:
 
@@ -14,39 +14,39 @@ technology in the marketplace?, preprint available as
 [quant-ph/9912011](http://xxx.lanl.gov/abs/quant-ph/9912011)
 
 It seems that both quantum computation and quantum cryptography are
-becoming part of a bigger subject, perhaps called \"quantum information
-theory\" - the study of how information can be transmitted and
-manipulated in the context of quantum theory. There\'s certainly a need
+becoming part of a bigger subject, perhaps called "quantum information
+theory" - the study of how information can be transmitted and
+manipulated in the context of quantum theory. There's certainly a need
 for good theorems and definitions in this subject, as well as more
 experiments. For example, nobody seems sure how to calculate the
 information capacity of a quantum channel - or even how to define it!
 
-If you\'re interested in this, it might be good to start with John
-Preskill\'s lecture notes, which are available for free on the web:
+If you're interested in this, it might be good to start with John
+Preskill's lecture notes, which are available for free on the web:
 
 2\) John Preskill, Lecture notes on quantum computation and quantum
 information theory, available at
-<http://www.theory.caltech.edu/people/preskill/ph229>
+`http://www.theory.caltech.edu/people/preskill/ph229`
 
 Also try the references, homework problems, and links on this webpage.
 
 There was also a lot of stuff about quantum gravity and string theory at
-the ICMP. I especially enjoyed Robert Dijkgraaf\'s talk, for example.
+the ICMP. I especially enjoyed Robert Dijkgraaf's talk, for example.
 Not just the cute animated movies of strings and D-branes, but the
-highly n-categorical flavor of the whole thing - he even presented a
-picture proof the Atiyah-Singer index theorem! It wasn\'t clear how
+highly $n$-categorical flavor of the whole thing - he even presented a
+picture proof the Atiyah-Singer index theorem! It wasn't clear how
 relevant this is to the physics of our particular universe, but at the
 end of the talk Dijkgraaf urged us not to worry about that too much:
-after all, the math is so pretty in its own right. Insofar as I\'m a
+after all, the math is so pretty in its own right. Insofar as I'm a
 physicist this makes me unhappy - but in my other persona, as a
 mathematician, it makes sense.
 
 I prefer to stay one or two trends behind the times when it comes to
-string theory, since I\'m not actually working on the subject - so it\'s
-easier for me to learn about stuff after it\'s been prettied up a bit by
-the mathematicians. Dijkgraaf\'s talk made me feel a vague
-responsibility to tell you all about what\'s been going on lately in
-string theory\.... but I\'m not really up on this stuff, so I will
+string theory, since I'm not actually working on the subject - so it's
+easier for me to learn about stuff after it's been prettied up a bit by
+the mathematicians. Dijkgraaf's talk made me feel a vague
+responsibility to tell you all about what's been going on lately in
+string theory.... but I'm not really up on this stuff, so I will
 discharge this duty in the laziest manner possible, by listing the 10
 papers most cited by preprints on hep-th during the year 1999.
 
@@ -56,21 +56,21 @@ Here they are, from the top-cited one on down:
 and supergravity, Adv. Theor. Math. Phys. 2 (1998) 231-252, preprint
 available as [hep-th/9711200](http://xxx.lanl.gov/abs/hep-th/9711200).
 
-This one launched the \"AdS-CFT\" craze, by pointing out an interesting
+This one launched the "AdS-CFT" craze, by pointing out an interesting
 relation between supergravity on anti-DeSitter spacetime and conformal
-field theories on its \"boundary at infinity\".
+field theories on its "boundary at infinity".
 
 4\) Nathan Seiberg and Edward Witten, Electric-magnetic duality,
 monopole condensation, and confinement in N=2 supersymmetric Yang-Mills
 theory, Nucl. Phys. B426 (1994) 19-52, preprint available as
 [hep-th/9407087](http://xxx.lanl.gov/abs/hep-th/9407087).
 
-This one is ancient history by now, but it\'s still near the top of the
+This one is ancient history by now, but it's still near the top of the
 list! For mathematicians, this paper marked the birth of Seiberg-Witten
 theory as a substitute for Donaldson theory when it comes to the study
-of 4-dimensional smooth manifolds. (See \"[week44](week44.html)\" and
-\"[week45](week45.html)\".) But for physicists, it highlighted the
-growing importance of \"dualities\" relating seemingly different
+of 4-dimensional smooth manifolds. (See ["Week 44"](#week44) and
+["Week 45"](#week45).) But for physicists, it highlighted the
+growing importance of "dualities" relating seemingly different
 physical theories - of which the AdS-CFT craze is a more recent
 outgrowth.
 
@@ -82,8 +82,8 @@ This paper was also important in the quest to understand dualities:
 among other things, it argued that the type IIA superstring in 10
 dimensions is related to 11-dimensional supergravity - reduced to 10
 dimensions by curling up one dimension into a very *large* circle. And
-as I described in \"[week118](week118.html)\", this helped lead to the
-search for \"M-theory\", of which 11-dimensional supergravity is hoped
+as I described in ["Week 118"](#week118), this helped lead to the
+search for "M-theory", of which 11-dimensional supergravity is hoped
 to be a low-energy limit.
 
 6\) Edward Witten, Anti-DeSitter space and holography, Adv. Theor. Math.
@@ -105,14 +105,14 @@ Rev. Lett. 75 (1995) 4724-4727, preprint available as
 
 This helped launch the D-brane revolution: the realization that when we
 take nonperturbative effects into account, open strings seem to have
-their ends \"stuck\" on higher-dimensional surfaces called D-branes.
+their ends "stuck" on higher-dimensional surfaces called D-branes.
 
 9\) Nathan Seiberg and Edward Witten, Monopoles, duality and chiral
 symmetry breaking in N=2 supersymmetric QCD, Nucl. Phys. B431 (1994)
 484-550, preprint available as
 [hep-th/9408099](http://xxx.lanl.gov/abs/hep-th/9408099).
 
-More on what\'s now called Seiberg-Witten theory.
+More on what's now called Seiberg-Witten theory.
 
 10\) T. Banks, W. Fischler, S. H. Shenker, and L. Susskind, M-theory as
 a matrix model: a conjecture, Phys. Rev. D55 (1997), 5112-5128, preprint
@@ -140,18 +140,18 @@ papers on the SPIRES database, at least if someone has cited you 50 or
 more times:
 
 13\) Searching top cited papers on SPIRES, at
-<http://www.slac.stanford.edu/spires/hep/topcite.html>
+`http://www.slac.stanford.edu/spires/hep/topcite.html`
 
 This will allow you to measure your fame in milliwittens.
 
 And now for something completely different:
 
-I\'ve been thinking about Clifford algebras a lot recently, because I\'m
+I've been thinking about Clifford algebras a lot recently, because I'm
 writing a review article on the octonions and exceptional Lie groups,
 and a good way to undestand this stuff is to use a lot of Clifford
 algebras machinery. I talked about Clifford algebras in
-\"[week82](week82.html)\", \"[week93](week93.html)\", and
-\"[week105](week105.html)\", but here are some more nice books about
+["Week 82"](#week82), ["Week 93"](#week93), and
+["Week 105"](#week105), but here are some more nice books about
 them.
 
 First, when I was giving a little talk on Clifford algebras at
@@ -161,9 +161,9 @@ and I bumped into this book:
 14\) P. Budinich and A. Trautman, The Spinorial Chessboard,
 Springer-Verlag, Berlin, 1988.
 
-Unfortunately it\'s out of print, but John Barrett happened to have a
+Unfortunately it's out of print, but John Barrett happened to have a
 copy. Springer should reprint it! It has a nice discussion of the
-\"Clifford algebra clock\":
+"Clifford algebra clock":
 
                                   R
 
@@ -179,36 +179,36 @@ copy. Springer should reprint it! It has a nice discussion of the
 
                                    H
 
-As I explained in \"[week105](week105.html)\", this clock easily lets
+As I explained in ["Week 105"](#week105), this clock easily lets
 you remember the real Clifford algebras in every dimension and signature
 of spacetime. Bott periodicity explains why it loops around after 8
 hours. The spinorial chessboard presents the same information in the
-form of an 8 x 8 grid. I won\'t draw it here, but it\'s a picture of the
+form of an 8 x 8 grid. I won't draw it here, but it's a picture of the
 Clifford algebras with p roots of -1 and q roots of 1 for p,q =
 0,1,2,3,4,5,6,7. The black squares correspond to cases that admit chiral
-spinors; the red ones correspond to cases that don\'t. Black is when p+q
-is even; red is when it\'s odd.
+spinors; the red ones correspond to cases that don't. Black is when p+q
+is even; red is when it's odd.
 
 By the way, I have a little question: why does the above clock have a
 reflection symmetry along the line joining R+R and H+H?
 
 Later, by coincidence, when I was in the library I discovered that
-Chevalley\'s work on spinors has been reprinted:
+Chevalley's work on spinors has been reprinted:
 
 15\) Claude Chevalley, The Algebraic Theory of Spinors, Springer,
 Berlin, 1991.
 
-It has a lot of neat stuff on \"pure spinors\", which are closely
-related to the \"simple bivectors\" that describe 2-planes in n-space.
+It has a lot of neat stuff on "pure spinors", which are closely
+related to the "simple bivectors" that describe 2-planes in $n$-space.
 The latter play an important role in spin foam models of quantum
 gravity, so I bet pure spinors will too.
 
-Here\'s another fundamental text, which really helped get the whole
+Here's another fundamental text, which really helped get the whole
 subject going:
 
 16\) Eli Cartan, The Theory of Spinors, Dover Press, 1966.
 
-While I\'m at it, I should mention this book by the infamous Pertti
+While I'm at it, I should mention this book by the infamous Pertti
 Lounesto, which is also good:
 
 17\) Pertti Lounesto, Clifford Algebras and Spinors, Cambridge U. Press,
@@ -219,12 +219,12 @@ I also saw this book at a book fair:
 18\) Dominic Joyce, Compact Manifolds with Special Holonomy, Oxford U.
 Press, Oxford, 2000.
 
-There\'s some incredible stuff here about 7-dimensional Riemannian
+There's some incredible stuff here about 7-dimensional Riemannian
 manifolds whose holonomy groups lie in the exceptional Lie group G2. I
 bet this stuff is gonna be important in string theory someday - if it
-isn\'t already. After all, G2 is the automorphism group of the
+isn't already. After all, G2 is the automorphism group of the
 octonions, and it has a 7-dimensional irreducible representation on the
-imaginary octonions; as explained in \"[week104](week104.html)\" by
+imaginary octonions; as explained in ["Week 104"](#week104) by
 Robert Helling, the octonions are secretly what let you write down the
 superstring Lagrangian in 10d spacetime.
 
@@ -254,7 +254,7 @@ For a similarly enormous review article on D-branes, try:
 [hep-th/0007170](http://xxx.lanl.gov/abs/hep-th/0007170).
 
 Finally, it turns out that manifolds with G2 holonomy *are* important in
-superstring theory, where they go by the name of \"Joyce manifolds\".
+superstring theory, where they go by the name of "Joyce manifolds".
 Here are some places to read about them:
 
 21\) G. Papadopoulos and P. K. Townsend, Compactification of D=11

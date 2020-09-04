@@ -3,35 +3,35 @@ week174
 Groups are how mathematicians and physicists talk about symmetry, and
 Lie groups are how they talk about *continuously varying* symmetries,
 like rotations, translations and the like. Sophus Lie helped start the
-subject of Lie groups in the late 1800s, and it\'s been in constant
+subject of Lie groups in the late 1800s, and it's been in constant
 growth ever since. I spend lots of time studying it, and I probably will
-all my life - there\'s a lot to learn! To really understand it, it helps
+all my life - there's a lot to learn! To really understand it, it helps
 to know the history. And for that, this is the book to read:
 
 1\) Thomas Hawkins, The Emergence of the Theory of Lie Groups: an Essay
 in the History of Mathematics, 1869-1926, Springer, New York, 2000.
 
 You have to know your Lie groups pretty well to enjoy this book, but if
-you do, you\'ll find it\'s full of interesting facts. For example: folks
-often complain about Wilhelm Killing\'s original classification of
-simple Lie algebras - it wasn\'t rigorous, he made some mistakes, and so
+you do, you'll find it's full of interesting facts. For example: folks
+often complain about Wilhelm Killing's original classification of
+simple Lie algebras - it wasn't rigorous, he made some mistakes, and so
 on. Elie Cartan came along later and cleaned it up, and many people
-applaud Cartan\'s work and sneer at poor old Killing, even though he was
+applaud Cartan's work and sneer at poor old Killing, even though he was
 the one who came up with the original ideas. But in this book, it
 becomes clear that Killing was pretty much *pushed* into publishing his
 ideas in a half-baked state by mathematicians who were dying to know his
 results! Now I feel even more sorry for him.
 
-There\'s also a lot of interesting stuff about Hermann Weyl\'s approach
+There's also a lot of interesting stuff about Hermann Weyl's approach
 to representation theory via tensors and Young diagrams, and why he
-liked it better than Cartan\'s approach via roots and weights.
+liked it better than Cartan's approach via roots and weights.
 Basically, Weyl liked his approach because it stuck closer to Felix
-Klein\'s original \"Erlanger program\" - a program for understanding
-geometry via symmetry groups. But it\'s interesting to see how Weyl
-studied and respected Cartan\'s approach, and tried to bridge the gap
+Klein's original "Erlanger program" - a program for understanding
+geometry via symmetry groups. But it's interesting to see how Weyl
+studied and respected Cartan's approach, and tried to bridge the gap
 between the two.
 
-Okay\... so much for gossip! Now I\'m going to dive in and pick up right
+Okay... so much for gossip! Now I'm going to dive in and pick up right
 where I left off in my discussion of the ideas behind this paper:
 
 2\) Michael Mueger, From subfactors to categories and topology I:
@@ -39,24 +39,24 @@ Frobenius algebras in and Morita equivalence of tensor categories,
 available at [math.CT/0111204](http://xxx.lanl.gov/abs/math.CT/0111204).
 
 My ultimate goal is to take you to an elegant understanding of Frobenius
-algebras by means of a 2-category called the \"walking ambidextrous
-adjunction\", but first I\'ll play around a bit with a simpler but more
-famous 2-category called the \"walking adjunction\". This may sound
-scary, but if you can stick with it, you\'ll see that I\'m really just
+algebras by means of a 2-category called the "walking ambidextrous
+adjunction", but first I'll play around a bit with a simpler but more
+famous 2-category called the "walking adjunction". This may sound
+scary, but if you can stick with it, you'll see that I'm really just
 using these 2-categories to describe fun games that you can play with
-certain 2-dimensional pictures. Even if you don\'t read the words,
+certain 2-dimensional pictures. Even if you don't read the words,
 please stare at the pictures - I spend my Thanksgiving weekend drawing
-them, and I don\'t want that work to go to waste!
+them, and I don't want that work to go to waste!
 
 Category theorists love to talk about adjoint functors, but 2-category
 theorists know that these are just a special example of an
-\"adjunction\". An adjunction is something that makes sense in any
+"adjunction". An adjunction is something that makes sense in any
 2-category; if we take the 2-category to be Cat we get adjoint functors.
 There are lots of other nice examples that make this generalization
-worthwhile. For example, in \"[week83](week83.html)\" I explained how a
+worthwhile. For example, in ["Week 83"](#week83) I explained how a
 pair of dual vector spaces is also an example of an adjunction.
 
-To study adjunctions, it suffices to study the \"walking adjunction\".
+To study adjunctions, it suffices to study the "walking adjunction".
 This is a little 2-category containing exactly the stuff any adjunction
 in any 2-category must have: not a jot more, not a tiddle less! It was
 first studied by Schanuel and Street:
@@ -71,22 +71,22 @@ a and b,
 
 two morphisms:
 
-L: a → b and R: b → a,
+L: a \to b and R: b \to a,
 
-and two 2-morphisms, called the \"unit\" and \"counit\":
+and two 2-morphisms, called the "unit" and "counit":
 
-i: 1~a~ =\> LR and e: RL =\> 1~b~
+i: 1~a~ => LR and e: RL => 1~b~
 
-satisfying two relations, called the \"triangle equations\".
+satisfying two relations, called the "triangle equations".
 
 I wrote down these equations already last week, but let me do it again
-using \"string diagrams\", as explained in \"[week79](week79.html)\" and
-\"[week92](week92.html)\". In a 2-categorical string diagram, objects
+using "string diagrams", as explained in ["Week 79"](#week79) and
+["Week 92"](#week92). In a 2-categorical string diagram, objects
 are denoted by 2d regions in the plane, morphisms are denoted by 1d
 edges, and 2-morphisms are denoted by 0d points. If the dimensions look
-sort of upside-down, you\'re right - that\'s exactly the point!
+sort of upside-down, you're right - that's exactly the point!
 
-Instead of explaining the whole theory, I\'ll just plunge in with the
+Instead of explaining the whole theory, I'll just plunge in with the
 example at hand. The unit i looks like this:
 
                          i
@@ -103,10 +103,10 @@ while the counit e looks like this:
                         \ /
                          e
 
-Note that as you cross a line labelled \"L\" from left to right, you go
-from region a to region b, which is our way of saying that L: a -\> b.
-Similarly, as you cross a line labelled \"R\" from left to right, you go
-from region b to region a, since R: b → a.
+Note that as you cross a line labelled "L" from left to right, you go
+from region a to region b, which is our way of saying that L: a -> b.
+Similarly, as you cross a line labelled "R" from left to right, you go
+from region b to region a, since R: b \to a.
 
 In terms of string diagrams, the triangle equations just say that we can
 straighten out a zig-zag:
@@ -154,11 +154,11 @@ typical 2-morphism looks like this:
 By the triangle equations, we could straighten out the zig-zag without
 changing the 2-morphism.
 
-As you may know, the word \"anaranjado\" means \"orange\" in Spanish -
-there was no word in English for \"orange\" before people in England
+As you may know, the word "anaranjado" means "orange" in Spanish -
+there was no word in English for "orange" before people in England
 started importing oranges from Spain. And this is a nice mnemonic,
 because if we take the above picture and paint the regions labelled
-\"a\" orange, and paint the regions labelled \"b\" black, the above
+"a" orange, and paint the regions labelled "b" black, the above
 picture has a roughly tiger-striped appearance. In fact, these tiger
 stripes tell you everything you need to know about the 2-morphism! For
 example, starting from just this:
@@ -177,23 +177,23 @@ example, starting from just this:
 you can figure out where everything else should go.
 
 By the way, note that orange stripes can disappear as we go down the
-page, and they can split, but they can\'t appear or merge. Black stripes
-can appear or merge, but they can\'t disappear or split. As a result,
-there can never be any orange or black *spots*. We\'ll change these
-rules later, when we talk about the walking \"ambidextrous adjunction\".
+page, and they can split, but they can't appear or merge. Black stripes
+can appear or merge, but they can't disappear or split. As a result,
+there can never be any orange or black *spots*. We'll change these
+rules later, when we talk about the walking "ambidextrous adjunction".
 
-Okay, so we\'ve got this 2-category, the walking adjunction: let\'s call
-it Ad for short. It\'s pretty simple. How can we understand it better?
+Okay, so we've got this 2-category, the walking adjunction: let's call
+it Ad for short. It's pretty simple. How can we understand it better?
 
 Well, for any two objects a and b in a 2-category we get a
-\"hom-category\" hom(a,b), whose objects are the morphisms from a to b,
+"hom-category" hom(a,b), whose objects are the morphisms from a to b,
 and whose morphisms are the 2-morphisms between those. If we work out
 these hom-categories in Ad, we get some cool stuff.
 
-First let\'s look at the hom-category hom(a,a). In this category, the
+First let's look at the hom-category hom(a,a). In this category, the
 objects are
 
-1~a~, LR, LRLR, LRLRLR, \....
+1~a~, LR, LRLR, LRLRLR, ....
 
 and all the morphisms are built by sticking these two basic generators
 together vertically or horizontally:
@@ -222,16 +222,16 @@ and
                                 |   |
                                 |   |
 
-In tiger language, we\'re talking about pictures of black stripes on an
+In tiger language, we're talking about pictures of black stripes on an
 orange background. The two basic generators are the merging of two black
 stripes and the appearance of a black stripe.
 
-If you read \"[week89](week89.html)\", you\'ll know another way to
+If you read ["Week 89"](#week89), you'll know another way to
 describe this! Our ability to stick together pictures vertically and
-horizontally makes hom(a,a) into a \"monoidal category\". LR is a
-\"monoid object\", with merging of two black stripes being
-\"multiplication\", and the appearance of a black stripe being the
-\"multiplicative identity\". Being a \"monoid object\" simply means that
+horizontally makes hom(a,a) into a "monoidal category". LR is a
+"monoid object", with merging of two black stripes being
+"multiplication", and the appearance of a black stripe being the
+"multiplicative identity". Being a "monoid object" simply means that
 these operations satisfy the left unit law:
 
                                      / /                 | |
@@ -270,12 +270,12 @@ associative law:
                        | |                    | |
                        | |                    | |
 
-There aren\'t any other laws, so hom(a,a) is the \"free monoidal
-category on a monoid object\", or if you prefer, the \"walking monoid\"!
+There aren't any other laws, so hom(a,a) is the "free monoidal
+category on a monoid object", or if you prefer, the "walking monoid"!
 
 I touched upon the immense consequences of this fact for algebraic
-topology in \"[week117](week117.html)\" and \"[week118](week118.html)\".
-They mainly rely on another way of thinking about hom(a,a): it\'s the
+topology in ["Week 117"](#week117) and ["Week 118"](#week118).
+They mainly rely on another way of thinking about hom(a,a): it's the
 category of order-preserving maps between finite ordinals!
 
 For example, these black tiger stripes on an orange background:
@@ -297,7 +297,7 @@ For example, these black tiger stripes on an orange background:
 
 correspond to the order-preserving map
 
-f: {0,1,2,3} → {0,1,2}
+f: {0,1,2,3} \to {0,1,2}
 
 with
 
@@ -306,12 +306,12 @@ f(0) = 0, f(1) = 0, f(2) = 0, f(3) = 2.
 Just read the stripes down!
 
 A more geometrical way to say the same thing is to call hom(a,a) the
-category of \"simplices\", usually denoted Δ. Here the object
+category of "simplices", usually denoted Δ. Here the object
 
                              |---n+1 of them---|
                               LRLR..........LRLR
 
-corresponds to the n-simplex, and these morphisms:
+corresponds to the $n$-simplex, and these morphisms:
 
                                      -i.LRLR-->
                      --i.LR->        -LR.i.LR->
@@ -319,15 +319,15 @@ corresponds to the n-simplex, and these morphisms:
                      <-L.e.R-        <-L.e.RLR-
                                      <-LRL.e.R-
 
-are the basic \"face\" and \"degeneracy\" maps between simplices, which
-you\'ll find in any book on algebraic topology. The n-simplex is a face
-of the (n+1)-simplex in n+1 ways, and there are n basic degenerate ways
-to map the (n+1)-simplex down to the n-simplex. These aren\'t *all* the
+are the basic "face" and "degeneracy" maps between simplices, which
+you'll find in any book on algebraic topology. The $n$-simplex is a face
+of the $(n+1)$-simplex in n+1 ways, and there are n basic degenerate ways
+to map the $(n+1)$-simplex down to the $n$-simplex. These aren't *all* the
 morphisms; just enough to generate all the rest by composition - i.e.,
 sticking together pictures vertically, but *not* horizontally.
 
 Perhaps I should explain the notation here a bit more. Readers of
-\"[week80](week80.html)\" will know that I use a dot to denote
+["Week 80"](#week80) will know that I use a dot to denote
 horizontal composition of 2-morphisms. For example, when we have a
 couple of 2-morphisms like this:
 
@@ -351,7 +351,7 @@ we get a 2-morphism like this:
 
 But sometimes we can also horizontally compose a morphism and a
 2-morphism! We can do it whenever our morphism f looks like a little
-\"whisker\" f sticking out of the 2-morphism T:
+"whisker" f sticking out of the 2-morphism T:
 
                                       f'
                                   ---->----  
@@ -371,7 +371,7 @@ and what we get is a 2-morphism f.S like this:
                       -------->-------
                              fg'
 
-This process, called \"whiskering\", is not really a new operation. f.S
+This process, called "whiskering", is not really a new operation. f.S
 is really just the horizontal composite of these 2-morphisms:
 
                           f           f'
@@ -392,7 +392,7 @@ Similarly we can define T.f in this sort of situation:
                       ---->---- 
                           g'     
 
-Anyway, once you\'re an expert on this 2-categorical yoga, you can
+Anyway, once you're an expert on this 2-categorical yoga, you can
 easily see that these morphisms in hom(a,a), which are really
 2-morphisms in Ad:
 
@@ -402,16 +402,16 @@ easily see that these morphisms in hom(a,a), which are really
                      <-L.e.R-        <-L.e.RLR-
                                      <-LRL.e.R-
 
-are obtained by taking our basic tiger stripe operations - the \"merging
-of two black stripes\", or L.e.R, and the \"appearance of a black
-stripe\", or i - and drawing some extra black stripes on both sides.
-That\'s what those LR\'s are for. After all, no tiger is complete
+are obtained by taking our basic tiger stripe operations - the "merging
+of two black stripes", or L.e.R, and the "appearance of a black
+stripe", or i - and drawing some extra black stripes on both sides.
+That's what those LR's are for. After all, no tiger is complete
 without whiskers!
 
-Okay. Now, having understood hom(a,a) in all these ways, let\'s turn to
+Okay. Now, having understood hom(a,a) in all these ways, let's turn to
 hom(b,b). Luckily, this is very similar! Here the objects are
 
-1~b~, RL, RLRL, RLRLRL, \....
+1~b~, RL, RLRL, RLRLRL, ....
 
 and morphisms are pictures of *orange* stripes on a *black* background:
 
@@ -465,16 +465,16 @@ Here is another picture of hom(b,b):
                      <--RL.e--        <--RL.e.RL-
                                       <--RLRL.e--
 
-If you\'re a devoted reader of This Week\'s Finds, you\'ll know I
+If you're a devoted reader of This Week's Finds, you'll know I
 secretly drew this category already in section N of
-\"[week118](week118.html)\". There I was talking about specific adjoint
+["Week 118"](#week118). There I was talking about specific adjoint
 functors instead of the walking adjunction, so as not to prematurely
 blow your mind. I was also writing horizontal composites backwards, for
 certain old-fashioned reasons. But the idea is exactly the same! The
-morphisms above give the usual \"face and degeneracy maps\" we always
+morphisms above give the usual "face and degeneracy maps" we always
 have in a simplicial set, since a simplicial set is a functor
 
-F: Δ^op^ → Set.
+F: Δ^op^ \to Set.
 
 By the way, you may have noticed that to get from hom(a,a) to hom(b,b),
 we had to switch the colors orange and black AND read the pictures
@@ -482,7 +482,7 @@ upside-down. The reason is that if we turn around all the 1-morphisms
 AND 2-morphisms in the walking adjunction, we get the walking adjunction
 again. Ponder that!
 
-We can summarize what we\'ve learned so far using the \"Platonic idea\"
+We can summarize what we've learned so far using the "Platonic idea"
 jargon I introduced last week:
 
 The Platonic idea of a monoid and the Platonic idea of a comonoid are
@@ -490,31 +490,31 @@ the hom-categories hom(a,a) and hom(b,b) sitting inside the Platonic
 idea of an adjunction!
 
 (By the way, to round this off we should really describe hom(a,b) and
-hom(b,a), too. I think hom(a,b) is the Platonic idea of \"an object with
+hom(b,a), too. I think hom(a,b) is the Platonic idea of "an object with
 a left action of a monoid and a right coaction of a comonoid, in a
-compatible way\". If so, hom(b,a) would be the Platonic idea of \"an
+compatible way". If so, hom(b,a) would be the Platonic idea of "an
 object with a right action of a monoid and a left coaction of a
-comonoid, in a compatible way\". By \"compatible\" I\'m saying that we
+comonoid, in a compatible way". By "compatible" I'm saying that we
 can act on one side and coact on the other side in either order, and get
-the same thing. Filling in the details requires concepts I\'m not eager
+the same thing. Filling in the details requires concepts I'm not eager
 to discuss right now, so I leave this as an exercise for the highly
 energetic reader. The less energetic reader can just study the
 tiger-stripe descriptions of these categories.)
 
-Finally, here\'s Mueger\'s new twist on all these ideas! Better than an
-adjunction is an \"ambidextrous\" adjunction. This has some extra
+Finally, here's Mueger's new twist on all these ideas! Better than an
+adjunction is an "ambidextrous" adjunction. This has some extra
 structure, which turns out to explain all sorts of fancy-sounding stuff
-people look at in the study of subfactors and TQFTs and the like\....
+people look at in the study of subfactors and TQFTs and the like....
 
-But what\'s an \"ambidextrous adjunction\"?
+But what's an "ambidextrous adjunction"?
 
 A ambidextrous adjunction is where you have a morphism
 
-L: a → b
+L: a \to b
 
 in a 2-category that is both left and right adjoint to
 
-R: b → a.
+R: b \to a.
 
 More precisely, it is a setup
 
@@ -550,7 +550,7 @@ In terms of string diagrams, our generating 2-morphisms look like this:
 and the triangle equations say all possible zig-zags can be straightened
 out.
 
-Now let\'s study the \"walking ambidextrous adjunction\", AmbAd. As
+Now let's study the "walking ambidextrous adjunction", AmbAd. As
 before, 2-morphisms in AmbAd can be described using pictures with orange
 and black stripes - but now *both* kinds of stripes can appear,
 disappear, merge or split as we march down the page:
@@ -573,14 +573,14 @@ regions of orange and black, with piecewise linear boundaries, subject
 to the condition that each vertical border has the same color all along
 it. The triangle equations and the rules for 2-categories say that we
 can warp such a picture around without changing the 2-morphism that it
-defines\... I don\'t want to be too precise here, since it would be
+defines... I don't want to be too precise here, since it would be
 boring. Hopefully you get the idea: AmbAd has a purely topological
 description!
 
 Now for the punchline: in AmbAd, what is the category hom(a,a) like? As
 in Ad, the objects are
 
-1~a~, LR, LRLR, LRLRLR, \...
+1~a~, LR, LRLR, LRLRLR, ...
 
 but now the object LR is equipped not only with multiplication:
 
@@ -608,7 +608,7 @@ and multiplicative identity:
                                |   |
                                |   |
 
-but also a \"comultiplication\":
+but also a "comultiplication":
 
                                |   |
                                |   |   
@@ -623,7 +623,7 @@ but also a \"comultiplication\":
                           /  /       \  \
                          /  /    b    \  \ 
 
-and \"comultiplicative coidentity\":
+and "comultiplicative coidentity":
 
                                 |   |    
                          a      | b |     a 
@@ -636,18 +636,18 @@ and \"comultiplicative coidentity\":
 
 which make it into a monoid object *and* a comonoid object. Even better,
 there are some extra relations between the multiplication and
-comultiplication, which make LR into a so-called \"Frobenius object\"!
+comultiplication, which make LR into a so-called "Frobenius object"!
 
 In short, hom(a,a) is the walking Frobenius object! So is hom(b,b),
 since there is no real asymmetry between the objects a and b in an
-ambidextrous adjunction, as there was with an adjunction. I haven\'t
+ambidextrous adjunction, as there was with an adjunction. I haven't
 thought much about hom(a,b) and hom(b,a) yet, but one obvious thing is
-that they\'re isomorphic.
+that they're isomorphic.
 
-Next time I\'ll talk about examples of Frobenius objects and why they
+Next time I'll talk about examples of Frobenius objects and why they
 are so important in subfactors, TQFTs and the like. This is what Mueger
 is really interested in. Right now, I want to wrap up by saying exactly
-what it means to say LR is a \"Frobenius object\". What are the extra
+what it means to say LR is a "Frobenius object". What are the extra
 relations between multiplication and comultiplication?
 
 There are various ways of describing these relations. Mueger uses a pair
@@ -663,19 +663,19 @@ of equations that are popular in the TQFT literature:
                        |b|                    | |  \ \   | |
                        | |          =         | |   \ \  | |
                        | |                    | |    \ \ | |
-                       | |                    | |  a  \ \| |
+                       | |                    | |  a  \ | |
                        | |                    | |      \   |
                       / _ \                   | |       \ b|
                      / / \ \                  | |        | |
                     / /   \ \                 | |        | | 
                    / /     \ \                | |        | |
 
-and its mirror image. People sometimes call these the \"I = N\"
-equations, for the obvious reason. So: one definition of a \"Frobenius
-object\" in a monoidal category is that it\'s a monoid object / comonoid
+and its mirror image. People sometimes call these the "I = N"
+equations, for the obvious reason. So: one definition of a "Frobenius
+object" in a monoidal category is that it's a monoid object / comonoid
 object satisfying the I = N equations.
 
-Where can you read about this? Well, besides Mueger\'s paper, there are
+Where can you read about this? Well, besides Mueger's paper, there are
 these:
 
 4\) Frank Quinn, Lectures on axiomatic quantum field theory, in Geometry
@@ -685,19 +685,19 @@ and Quantum Field Theory, Amer. Math. Soc., Providence, RI, 1995.
 and Frobenius algebras, J. Knot Theory and its Ramifications 5 (1996),
 569-587.
 
-A \"Frobenius algebra\" is just a Frobenius object in the category of
+A "Frobenius algebra" is just a Frobenius object in the category of
 vector spaces. I seem to recall that this is equivalent to what Quinn
-calls an \"ambialgebra\". For any TQFT in any dimension, the vector
+calls an "ambialgebra". For any TQFT in any dimension, the vector
 space associated to the sphere is a commutative Frobenius algebra. The
 proof consists of playing with pictures very much like the ones above,
 but in higher dimensions.
 
 The I = N equations are cute, but personally I prefer a more conceptual
 description of a Frobenius object. This may be a bit mindblowing to the
-uninitiated, so if you\'re just barely hanging on, please stop now.
+uninitiated, so if you're just barely hanging on, please stop now.
 
-Hmm! If you\'re still reading this, you must be brave! Okay - don\'t say
-I didn\'t warn you. Let\'s start by pondering LR a bit more. This guy is
+Hmm! If you're still reading this, you must be brave! Okay - don't say
+I didn't warn you. Let's start by pondering LR a bit more. This guy is
 its own adjoint, with the unit and counit as follows:
 
                           _
@@ -721,7 +721,7 @@ its own adjoint, with the unit and counit as follows:
                         |   |
                          \_/
 
-It\'s easy to check the triangle equations by straightening out the
+It's easy to check the triangle equations by straightening out the
 relevant zig-zags.
 
 Now, whenever a monoid object has a right or left adjoint, that right or
@@ -733,8 +733,8 @@ Well, we already knew LR was a comonoid object before this devilish
 paragraph began, but since LR is its own adjoint, it becomes a comonoid
 object in two other ways. Amazingly, the I = N equations are equivalent
 to the fact that all three comonoid structures agree! I leave this as an
-exercise for the insanely energetic reader\... I\'ve worked it out
-before, and I rechecked it this morning in bed. I don\'t know if a proof
+exercise for the insanely energetic reader... I've worked it out
+before, and I rechecked it this morning in bed. I don't know if a proof
 exists in the literature, but from what Mueger writes, I suspect maybe
 you can catch glimpses of it in Appendix A3 of this book:
 
@@ -742,7 +742,7 @@ you can catch glimpses of it in Appendix A3 of this book:
 Series \#14, Amer. Math. Soc., Providence RI, 1999.
 
 Anyway, the upshot is that we can equivalently define a Frobenius object
-in a monoidal category as follows: it\'s a monoid object / comonoid
+in a monoidal category as follows: it's a monoid object / comonoid
 object which becomes its own adjoint by letting
 
 unit = multiplicative identity composed with comultiplication
@@ -753,7 +753,7 @@ and has the property that the resulting 3 comonoid structures agree.
 
 Or, equivalently, that the resulting 3 monoid structures agree!
 
-There is much more to say about this, but let\'s stop here.
+There is much more to say about this, but let's stop here.
 
 ------------------------------------------------------------------------
 
@@ -762,30 +762,30 @@ Postscript - Oswald Wyler had this correction to make:
 > The walking adjunction is much older than the 1986 paper by Schanuel
 > and Street. Back in 1970, Pumplün published a paper: Eine Bemerkung
 > über Monaden und adjungierte Funktoren, Math. Annalen 185 (1970),
-> 329-377. The small bicategory \"walking adjunction\" definitely was in
-> that paper, but I don\'t recall whether it was explicitly formulated
+> 329-377. The small bicategory "walking adjunction" definitely was in
+> that paper, but I don't recall whether it was explicitly formulated
 > or not.
 
 Andree Ehresmann added:
 
-> On the \"walking adjunction\"
+> On the "walking adjunction"
 >
-> I don\'t know the Pumplun\'s paper cited by Wyler. But there is
-> another reference at about the same time; indeed, the \"walking
-> adjunction\" has been explicitly constructed and studied in the paper
+> I don't know the Pumplun's paper cited by Wyler. But there is
+> another reference at about the same time; indeed, the "walking
+> adjunction" has been explicitly constructed and studied in the paper
 > of Auderset:
 >
-> > \"Adjonction et monade au niveau des 2-categories\"
+> > "Adjonction et monade au niveau des 2-categories"
 >
-> published in \"Cahiers de Top. et Geom. Diff.\" XV-1 (1974), 3-20.
+> published in "Cahiers de Top. et Geom. Diff." XV-1 (1974), 3-20.
 >
-> More formally it could also be called \"the 2-sketch of an
-> adjunction\" in the terminology in my paper with Charles Ehresmann:
+> More formally it could also be called "the 2-sketch of an
+> adjunction" in the terminology in my paper with Charles Ehresmann:
 >
-> > \"Categories of sketched structures\", in the \"Cahiers\" XIII-2
+> > "Categories of sketched structures", in the "Cahiers" XIII-2
 > > (1972),
 >
-> reprinted in \"Charles Ehresmann: Oeuvres completes et commentees\"
+> reprinted in "Charles Ehresmann: Oeuvres completes et commentees"
 > Part IV-2.
 
 Bill Lawvere added:
@@ -823,7 +823,7 @@ Bill Lawvere added:
 > category, which in this case is Cat. There is a particular biaction of
 > Δ, which I called Δ plus, with the property that the enriched Hom of
 > it into an arbitrary Δ-action is exactly the Eilenberg-Moore category
-> of \"algebras\", automatically equipped with its structure as a Δ\^op
+> of "algebras", automatically equipped with its structure as a Δ\^op
 > action (co-monad). The left-adjoint tensor assigns to any category
 > equipped with a co-monad its Kleisli category, as a category with
 > monad. Not only are the calculations in this particular case quite
@@ -832,22 +832,22 @@ Bill Lawvere added:
 >
 > #### SKETCHES VERSUS PLATONISM
 >
-> The often repeated slander that mathematicians think \"as if\" they
-> were \"platonists\" needs to be combatted rather than swallowed. What
+> The often repeated slander that mathematicians think "as if" they
+> were "platonists" needs to be combatted rather than swallowed. What
 > mathematicians and other scientists use is the objectively developed
 > human instrument of general concepts. (The plan to misleadingly use
 > that fact as a support for philosophical idealism may have been an
 > honest mistake by Plato, or it may have been part of his job as
 > disinformation officer for the Athenian CIA organization; it probably
 > would not have survived until now had it not been for the special
-> efforts of Cosimo de\' Medici.) It seems that a general concept has
+> efforts of Cosimo de' Medici.) It seems that a general concept has
 > two related aspects, as I began to realize more explicitly in
 > connection with my paper Adjointness in foundations, Dialectica vol.
 > 23, 1969 281-296; I later learned that some philosophers refer to
-> these two aspects as \"abstract general vs. concrete general\". For
+> these two aspects as "abstract general vs. concrete general". For
 > example, there is the algebraic theory of rings vs. the category of
 > all rings, or a particular abstract group vs. the category of all
-> permutation representations of the group. While it is \"obvious\"
+> permutation representations of the group. While it is "obvious"
 > that, at least in mathematics, a concrete general should have the
 > structure of a category, because all the instances embody the same
 > abstract general and hence any two instances can be compared in
@@ -872,7 +872,7 @@ Bill Lawvere added:
 > general construction of PRESENTATIONS OF ABSTRACT GENERALS. The fact
 > that particular abstract generals and the idea of sketches exist
 > within the historically developed objective science does not mean that
-> they somehow always existed; to call them \"platonic\" seems to
+> they somehow always existed; to call them "platonic" seems to
 > detract from the honor of their actual discoverers.
 >
 > Bill Lawvere

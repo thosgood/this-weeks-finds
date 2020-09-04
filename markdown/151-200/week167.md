@@ -1,17 +1,17 @@
 week 167
 
-I\'m now visiting the Center for Gravitational Physics and Geometry at
+I'm now visiting the Center for Gravitational Physics and Geometry at
 Penn State, and I have all sorts of exciting stuff to report. First
-I\'ll talk about fundamental limitations in measuring distances due to
-quantum gravity and then I\'ll say a bit about Martin Bojowald\'s new
-work, which uses loop quantum gravity to tackle the question \"what came
-before the big bang?\"
+I'll talk about fundamental limitations in measuring distances due to
+quantum gravity and then I'll say a bit about Martin Bojowald's new
+work, which uses loop quantum gravity to tackle the question "what came
+before the big bang?"
 
 Theoretical physicists sometimes look longingly back to the early 20th
 century as the heyday of thought experiments - Einstein and his
 elevator, the famous Bohr-Einstein debate at the 1927 Solvay conference,
-and so on. But thought experiments are most important when you\'re
-struggling to do something really new and haven\'t yet hammered out a
+and so on. But thought experiments are most important when you're
+struggling to do something really new and haven't yet hammered out a
 mathematical formalism. The declining importance of thought experiments
 in later years is mainly a reflection of the tremendous success of
 quantum mechanics and general relativity,
@@ -22,9 +22,9 @@ Here we need all the help we can get. For example: does it make any
 sense to do experiments looking for quantum fluctuations in the geometry
 of spacetime, or are they far too puny to detect with present
 technology? A precise answer would require a full-fledged theory of
-quantum gravity, which we don\'t have. But a rough answer is all we
-need! Here\'s where thought experiments come in handy. However, one must
-be careful\... verbal reasoning easily conceals many pitfalls! Let me
+quantum gravity, which we don't have. But a rough answer is all we
+need! Here's where thought experiments come in handy. However, one must
+be careful... verbal reasoning easily conceals many pitfalls! Let me
 present an argument that puts a lower bound on how accurately we can
 measure distances:
 
@@ -32,15 +32,15 @@ measure distances:
 with gravity-wave interferometers, Found. Phys. 30 (2000) 795-805, also
 available as [gr-qc/9906003](http://xxx.lanl.gov/abs/gr-qc/9906003)
 
-You can decide if it\'s right or not.
+You can decide if it's right or not.
 
 First: how accurate can a clock be? One limitation is that any clock has
 some position uncertainty. This translates into time uncertainty when we
 read the clock by having it send photons to us.
 
-Let\'s work this out, ignoring factors of 2 and small stuff like that.
+Let's work this out, ignoring factors of 2 and small stuff like that.
 Suppose our clock has mass m and starts out with a position uncertainty
-equal to D. Then the uncertainty of our clock\'s momentum is at least
+equal to D. Then the uncertainty of our clock's momentum is at least
 ħ/D, so its velocity is uncertain by at least ħ/mD. After a time T, its
 position uncertainty will grow to about
 
@@ -105,19 +105,19 @@ so this gives
 In short, to measure distances accurately this way, our clocks must be
 heavy.
 
-We\'ve used quantum mechanics. Now let\'s put gravity into the picture!
-If our clocks are *too* heavy they\'ll collapse into a black hole,
+We've used quantum mechanics. Now let's put gravity into the picture!
+If our clocks are *too* heavy they'll collapse into a black hole,
 ruining the experiment. This puts a limit on our ability to measure
 distances accurately.
 
-To get somewhere with this idea, let\'s assume the distance x is
+To get somewhere with this idea, let's assume the distance x is
 basically the size of our whole experimental apparatus. This must exceed
-the Schwarzschild radius for the mass m, or we\'ll get a black hole, so
+the Schwarzschild radius for the mass m, or we'll get a black hole, so
 we need:
 
     x > G m / c2.
 
-Plugging this into the right-hand side of (\*), we get
+Plugging this into the right-hand side of (*), we get
 
     m > ħ G m / c3 dx2
 
@@ -125,30 +125,30 @@ or
 
     dx > (ħ G / c3)1/2 = L
 
-where L is the Planck length. So we can\'t measure distances more
+where L is the Planck length. So we can't measure distances more
 accurately than the Planck length.
 
 Whoops! The last paragraph here is not the argument due to Ng and van
-Dam! It\'s something I came up just now while trying to copy their
+Dam! It's something I came up just now while trying to copy their
 argument. Their actual argument is different. They assume the
 uncertainty dx must exceed the Schwarzschild radius of a black hole of
 mass m, so that
 
     dx > G m / c2.
 
-If we plug this into (\*) and fiddle around, we get
+If we plug this into (*) and fiddle around, we get
 
     dx > x1/3 L2/3.
 
 This is much more exciting, because it says that the uncertainty due to
 quantum gravity gets bigger when we measure long distances!
 
-Now, the way I\'ve presented Ng and van Dam\'s argument, the obvious
+Now, the way I've presented Ng and van Dam's argument, the obvious
 weak spot is their assumption that the uncertainty in position
 measurement is greater than the radius of a black hole with mass equal
 to that of the experimental apparatus. Where does this assumption come
-from? They get it by saying the clocks \"tick\" once each time light
-bounces back and forth between them. If the clocks\' accuracy is limited
+from? They get it by saying the clocks "tick" once each time light
+bounces back and forth between them. If the clocks' accuracy is limited
 by their tick rate, we have dt = t and thus dx = x, so my assumption
 
     x > G m / c2
@@ -170,7 +170,7 @@ also available at
 
 For their response, see:
 
-4\) Y. Jack Ng and H. van Dam, On Wigner\'s clock and the detectability
+4\) Y. Jack Ng and H. van Dam, On Wigner's clock and the detectability
 of spacetime foam with gravitational-wave interferometers, Phys. Lett.
 B477 (2000) 429-435, also available at
 [gr-qc/9911054](http://xxx.lanl.gov/abs/gr-qc/9911054).
@@ -178,29 +178,29 @@ B477 (2000) 429-435, also available at
 For an argument that claims an even larger value of the position
 uncertainty, namely
 
-dx \> x^1/2^ L^1/2^,
+dx > x^1/2^ L^1/2^,
 
 see these papers:
 
-5\) G. Amelino-Camelia, Quantum theory\'s last challenge, Nature 408
+5\) G. Amelino-Camelia, Quantum theory's last challenge, Nature 408
 (2000) 661-664.
 
 Testable scenario for relativity with minimum length, available at
 [hep-th/0012238](http://xxx.lanl.gov/abs/hep-th/0012238)
 
-Let\'s do a little number-crunching to compare these calculations. An
+Let's do a little number-crunching to compare these calculations. An
 gravitational wave detector like LIGO is basically just a device that
 bounces a laser between mirrors to carefully measure the distance
 between them. The goal of LIGO is to measure a 4-kilometer distance with
 a precision of 10^-18^ meters. If we believe the fundamental uncertainty
 in distance measurements is about the Planck length, LIGO has no chance
 of bumping into this limit, since the Planck length is about 10^-35^
-meters. If we believe Ng and van Dam\'s thought experiment, we get an
-uncertainty of about 10^-22^ meters. If we believe Amelino-Camelia\'s
-argument, we get a figure of about 10^-16^ meters\... which would be
+meters. If we believe Ng and van Dam's thought experiment, we get an
+uncertainty of about 10^-22^ meters. If we believe Amelino-Camelia's
+argument, we get a figure of about 10^-16^ meters... which would be
 very noticeable at LIGO!
 
-Unfortunately, I\'m pretty sure the Planck length figure is about right.
+Unfortunately, I'm pretty sure the Planck length figure is about right.
 For another derivation of this figure, see:
 
 6\) Ronald J. Adler and David I. Santiago, On gravity and the
@@ -208,9 +208,9 @@ uncertainty principle, Mod. Phys. Lett. A14 (1999) 1371, also available
 at [gr-qc/9904026](http://xxx.lanl.gov/abs/gr-qc/9904026).
 
 What other ways might we detect quantum gravity effects? One is to look
-for dispersion of light as it passes through the vacuum. Maxwell\'s
+for dispersion of light as it passes through the vacuum. Maxwell's
 equations say that in the vacuum the speed of light is independent of
-its wavelength. But if spacetime is \"grainy\" at short distance scales,
+its wavelength. But if spacetime is "grainy" at short distance scales,
 this might not be exactly correct. If the velocity were
 frequency-dependent, a pulse of radiation would get slightly smeared out
 as it travels along through empty space.
@@ -227,18 +227,18 @@ spacetime, Phys. Rev. D59 (1999) 124021, also available as
 [gr-qc/9809038](http://xxx.lanl.gov/abs/gr-qc/9809038).
 
 These calculations are quite controversial. For one thing, they require
-a breaking of Lorentz invariance, since there\'s no way to get the speed
+a breaking of Lorentz invariance, since there's no way to get the speed
 of light to depend on its wavelength without picking out a special rest
-frame. This makes some people\'s hair stand on end.
+frame. This makes some people's hair stand on end.
 
 But never mind: suppose we were looking for this effect. Nobody has seen
-it yet, so it must be tiny if it exists at all. To detect it we\'d want
-our light to travel a long distance\... say, 10 billion light years. And
-we\'d like a source that emitted a pulse of light whose variation in
-time we can detect with good resolution\... say, less than a
+it yet, so it must be tiny if it exists at all. To detect it we'd want
+our light to travel a long distance... say, 10 billion light years. And
+we'd like a source that emitted a pulse of light whose variation in
+time we can detect with good resolution... say, less than a
 millisecond.
 
-Hmm. How can we arrange this? Use γ-ray bursters! We don\'t have to
+Hmm. How can we arrange this? Use γ-ray bursters! We don't have to
 build them; nature has seen to that, so we can use these rascals to put
 limits on this dispersion effect. For more details, try:
 
@@ -249,11 +249,11 @@ light, Astrophys. J. 535 (2000) 139-151, also available as
 
 So far, nobody has seen quantum gravity effects this way.
 
-Okay\... let me wrap things up with a word about Martin Bojowald\'s work
+Okay... let me wrap things up with a word about Martin Bojowald's work
 on quantum cosmology. I listed his papers in
-\"[week165](week165.html)\", but didn\'t get around to discussing them.
+["Week 165"](#week165), but didn't get around to discussing them.
 
-From an outsider\'s viewpoint, the exciting thing about this work is
+From an outsider's viewpoint, the exciting thing about this work is
 that it uses loop quantum gravity to study what happened before the big
 bang. And the answer is simple: there was a big crunch! In other words,
 Bojowald can extrapolate the quantum version of the big bang cosmology
@@ -261,64 +261,64 @@ back before t = 0, without encountering any singularity, and he gets a
 collapsing universe which shrinks down to zero volume at t = 0 before
 re-expanding in a big bang.
 
-From an insider\'s perspective, the exciting thing is that he\'s using
+From an insider's perspective, the exciting thing is that he's using
 loop quantum gravity to study dynamics. Since loop quantum gravity is
-background-free, there\'s no Hamiltonian, just a Hamiltonian constraint.
-This means that any study of dynamics must confront the thorny \"problem
-of time\": how to do physics without a god-given external clock that\'s
-outside the system you\'re studying. And this problem makes it hard to
-tell which formula for the Hamiltonian constraint is \"right\". Thiemann
+background-free, there's no Hamiltonian, just a Hamiltonian constraint.
+This means that any study of dynamics must confront the thorny "problem
+of time": how to do physics without a god-given external clock that's
+outside the system you're studying. And this problem makes it hard to
+tell which formula for the Hamiltonian constraint is "right". Thiemann
 came up with a candidate for the Hamiltonian constraint back in 1996
-(see \"[week85](week85.html)\"), and the field has struggled ever since
-to make up it\'s collective mind about this formula, without much
+(see ["Week 85"](#week85)), and the field has struggled ever since
+to make up it's collective mind about this formula, without much
 success so far.
 
-Bojowald\'s progress comes from looking at \"minisuperspace models\",
+Bojowald's progress comes from looking at "minisuperspace models",
 where we assume the universe is highly symmetrical - as people often do
 in cosmology. This allows him to tackle the problem of time by treating
-the volume of the universe as a notion of time. It\'s like having one
-aspect of the system you\'re studying be the clock that you use to see
-how other things change. This idea per se is not new; what\'s new is
+the volume of the universe as a notion of time. It's like having one
+aspect of the system you're studying be the clock that you use to see
+how other things change. This idea per se is not new; what's new is
 carrying it out in the framework of loop quantum gravity. In loop
-quantum gravity volume is discrete\... so Bojowald\'s \"clock\" ticks in
-discrete steps. By adapting Thiemann\'s formula for the Hamiltonian
+quantum gravity volume is discrete... so Bojowald's "clock" ticks in
+discrete steps. By adapting Thiemann's formula for the Hamiltonian
 constaint to this highly symmetrical context, he can write it as an
 evolution equation saying how other observables change as a function of
 the volume of the universe. Since volume is discrete, this equation is a
 difference equation rather than a differential equation.
 
-He can solve this equation on the computer\... and he finds that even
+He can solve this equation on the computer... and he finds that even
 when the universe is very small, on the order of the Planck length, it
 closely mimics the classically expected behavior. However, there is no
 singularity at t = 0, or more precisely, at zero volume.
 
-Here\'s where things get technical, in a way that tickles me pink, but
+Here's where things get technical, in a way that tickles me pink, but
 may bore you to tears:
 
 A funny feature of the volume operator in loop quantum gravity is that
-it\'s expressed in terms of the square root of the absolute value of a
-certain quantity. We can think of this quantity as a sort of \"volume
-squared\" operator, but with both positive and negative eigenvalues.
-This always used to puzzle me, and I\'ve put a lot of thought into this
-issue. Renate Loll has also written a paper about it. I\'m delighted to
-find that in Bojowald\'s setup, it becomes a real *virtue* of loop
+it's expressed in terms of the square root of the absolute value of a
+certain quantity. We can think of this quantity as a sort of "volume
+squared" operator, but with both positive and negative eigenvalues.
+This always used to puzzle me, and I've put a lot of thought into this
+issue. Renate Loll has also written a paper about it. I'm delighted to
+find that in Bojowald's setup, it becomes a real *virtue* of loop
 quantum gravity, since it allows us to extrapolate our quantum cosmology
-to negative times - or more precisely, negative \"volume squared\"!
+to negative times - or more precisely, negative "volume squared"!
 
 How can you visualize this? Crudely speaking, negative-volume-squared
-states of the universe can be thought of as \"inside-out versions\" of
-positive-volume-squared ones. So the way I visualize Bojowald\'s result
+states of the universe can be thought of as "inside-out versions" of
+positive-volume-squared ones. So the way I visualize Bojowald's result
 is like this: the universe shrinks to nothing as you rewind history back
-to the big bang, and then expands again \"inside out\" as you go to
+to the big bang, and then expands again "inside out" as you go to
 negative times.
 
 Anyway, regardless of how we visualize it, loop quantum gravity is now
 at the stage of making dynamical predictions about serious physics
 questions. Ashtekar and Bojowald are now working to determine what
-happens at the singularity of a black hole\... so stay tuned!
+happens at the singularity of a black hole... so stay tuned!
 
 ------------------------------------------------------------------------
 
-*Now the thing about time is that time isn\'t really real.\
-It\'s just your point of view, how does it feel for you?\
+*Now the thing about time is that time isn't really real.\
+It's just your point of view, how does it feel for you?\
 Einstein said he could never understand it all.* - James Taylor

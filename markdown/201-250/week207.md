@@ -1,10 +1,10 @@
 week207
 
-I\'m spending the summer in Cambridge, but last week I was in Dublin
-attending \"GR17\", which is short for the 17th International Conference
+I'm spending the summer in Cambridge, but last week I was in Dublin
+attending "GR17", which is short for the 17th International Conference
 on General Relativity and Gravitation:
 
-1\) GR17 homepage, <http://www.dcu.ie/~nolanb/gr17.htm>
+1\) GR17 homepage, `http://www.dcu.ie/~nolanb/gr17.htm`
 
 This is where Stephen Hawking decided to announce his solution of the
 black hole information loss problem. Hawking is a media superstar right
@@ -12,15 +12,15 @@ up there with Einstein and Michael Jackson, so when reporters heard
 about this, the ensuing hoopla overshadowed everything else in the
 conference.
 
-As soon I arrived, one of the organizers complained to me that they\'d
+As soon I arrived, one of the organizers complained to me that they'd
 had to spend 4000 pounds on a public relations firm to control the
-reporters and other riff-raff who would try to attend Hawking\'s talk.
+reporters and other riff-raff who would try to attend Hawking's talk.
 Indeed, there seemed to be more than the usual number of crackpots
-floating about, though I admit I haven\'t been to this particular series
+floating about, though I admit I haven't been to this particular series
 of conferences before - perhaps general relativity attracts such people?
 The public lecture by Penrose on the last day of the conference may have
-helped lure them in. He spoke on \"Fashion, Faith and Fantasy in
-Theoretical Physics\", and people by the door sold copies of his brand
+helped lure them in. He spoke on "Fashion, Faith and Fantasy in
+Theoretical Physics", and people by the door sold copies of his brand
 new thousand-page blockbuster:
 
 2\) Roger Penrose, The Road To Reality: A Complete Guide to the Physical
@@ -30,25 +30,25 @@ Universe, Jonathan Cape, 2004.
 three categories of fashion, faith and fantasy.) After his talk, *all*
 the questions were actually harangues from people propounding
 idiosyncratic theories of their own, and the question period was drawn
-to an abrupt halt in the middle of one woman\'s rant about fractal
+to an abrupt halt in the middle of one woman's rant about fractal
 cosmology. But I bumped into the saddest example when I was having a
 chat with some colleagues at a local pub. A fellow with long curly grey
-locks and round horn-rimmed glasses sat down beside me. I\'d seen him
-around the conference, so I said hello. He asked me if I\'d like to hear
+locks and round horn-rimmed glasses sat down beside me. I'd seen him
+around the conference, so I said hello. He asked me if I'd like to hear
 about his theory; at this point my internal alarm bells started ringing.
-I told him I was busy, but said I\'d take a look at his manuscript
+I told him I was busy, but said I'd take a look at his manuscript
 later.
 
-It turned out to describe an idea I\'d never even dreamt of before: a
+It turned out to describe an idea I'd never even dreamt of before: a
 heliocentric cosmology in which the planets move along circular orbits
 with epicycles a la Ptolemy! And his evidence comes from a neolithic
 Irish tomb called Newgrange. This tomb may have been aligned to let in
 the sun on the winter solstice, but some people doubt this, because it
 seems the alignment would have been slightly off back in 3200 BC when
-Newgrange was built. However, it\'s slightly off only if you work out
+Newgrange was built. However, it's slightly off only if you work out
 the precession of the equinox using standard astronomy. If you use his
 theory, it lines up perfectly! Pretty cute. The only problem is that his
-paper contains no evidence for this claim. Instead, it\'s only a short
+paper contains no evidence for this claim. Instead, it's only a short
 note sketching the idea, followed by lengthy attachments containing his
 correspondence with the Dublin police. In these, he complained that
 people were trying to block his patent on a refrigerator that produces
@@ -65,34 +65,34 @@ an hour early to get a good seat, and while I was waiting, Jenny Hogan
 from the New Scientist asked if she could interview me for my reaction
 afterwards. In short, a thoroughly atypical physics talk!
 
-But you shouldn\'t imagine the mood as one of breathless anticipation.
+But you shouldn't imagine the mood as one of breathless anticipation.
 At least for the physicists present, a better description would be
-something like \"skeptical curiosity\". None of them seemed to believe
+something like "skeptical curiosity". None of them seemed to believe
 that Hawking could suddenly shed new light on a problem that has been
 attacked from many angles for several decades. One reason is that
-Hawking\'s best work was done almost 30 years ago. A string theorist I
+Hawking's best work was done almost 30 years ago. A string theorist I
 know said that thanks to work relating anti-deSitter space and conformal
-field theory - the so-called \"AdS-CFT\" hypothesis - string theorists
+field theory - the so-called "AdS-CFT" hypothesis - string theorists
 had become convinced that no information is lost by black holes. Thus,
 Hawking had been feeling strong pressure to fall in line and renounce
 his previous position, namely that information *is* lost. A talk
 announcing this would come as no big surprise.
 
-After a while Kip Thorne, John Preskill, Petros Florides and Hawking\'s
+After a while Kip Thorne, John Preskill, Petros Florides and Hawking's
 grad student Christophe Galfard came on stage. Then, amid a burst of
-flashbulbs, Hawking\'s wheelchair gradually made its way down the aisle
-and up a ramp, attended by a nurse - possibly his wife, I don\'t know.
+flashbulbs, Hawking's wheelchair gradually made its way down the aisle
+and up a ramp, attended by a nurse - possibly his wife, I don't know.
 He had been recently sick with pneumonia.
 
 Once Hawking was on stage, the conference organizer Petros Florides made
 an introduction, joking that while physicists believe no information can
 travel faster than light, this seems to have been contradicted by the
-speed with which the announcement of Hawking\'s talk spread around the
+speed with which the announcement of Hawking's talk spread around the
 globe. Then he recalled the famous bet that Preskill made with Hawking
-and Thorne. In case you don\'t know, John Preskill is a leader in
+and Thorne. In case you don't know, John Preskill is a leader in
 quantum computation at Caltech. Kip Thorne is an expert on relativity,
 also at Caltech, one of the authors of the famous textbook
-\"Gravitation\", and now playing a key role in the LIGO project to
+"Gravitation", and now playing a key role in the LIGO project to
 detect gravitational waves.
 
 The [bet](dublin/index.html#hawking) went like this:
@@ -113,25 +113,25 @@ The [bet](dublin/index.html#hawking) went like this:
 > evaporation will always be a pure quantum state.
 >
 > The loser(s) will reward the winner(s) with an encyclopedia of the
-> winner\'s choice, from which information can be recovered at will.
+> winner's choice, from which information can be recovered at will.
 >
 > Stephen W. Hawking, Kip S. Thorne, John P. Preskill\
 > Pasadena, California, 6 February 1997
 
-It\'s signed by Thorne and Preskill, with a thumbprint of Hawking\'s.
+It's signed by Thorne and Preskill, with a thumbprint of Hawking's.
 
 After a bit of joking around and an explanation of how the question
-session would work, Hawking began his talk. Since it\'s fairly short and
-not too easy to summarize, I think I\'ll just quote the whole transcript
+session would work, Hawking began his talk. Since it's fairly short and
+not too easy to summarize, I think I'll just quote the whole transcript
 which I believe Sean Carroll got from the New York Times science
-reporter Dennis Overbye. I\'ve made a few small corrections.
+reporter Dennis Overbye. I've made a few small corrections.
 
-There were also some slides, but you\'re not missing a lot by not seeing
+There were also some slides, but you're not missing a lot by not seeing
 them. The talk was not easy to understand, so unless quantum gravity is
 your specialty you may feel like just skimming it to get the flavor, and
 then reading my attempt at a summary.
 
-The talk began with Hawking\'s trademark introduction, uttered as usual
+The talk began with Hawking's trademark introduction, uttered as usual
 in his computer-generated voice:
 
 > Can you hear me?
@@ -142,7 +142,7 @@ in his computer-generated voice:
 > information lost in black hole evaporation? If it is, the evolution is
 > not unitary, and pure quantum states, decay into mixed states.
 >
-> I\'m grateful to my graduate student Christophe Galfard for help in
+> I'm grateful to my graduate student Christophe Galfard for help in
 > preparing this talk.
 >
 > The black hole information paradox started in 1967, when Werner Israel
@@ -154,7 +154,7 @@ in his computer-generated voice:
 > outside region apart from three conserved quantities: the mass, the
 > angular momentum, and the electric charge.
 >
-> This loss of information wasn\'t a problem in the classical theory. A
+> This loss of information wasn't a problem in the classical theory. A
 > classical black hole would last for ever, and the information could be
 > thought of as preserved inside it, but just not very accessible.
 > However, the situation changed when I discovered that quantum effects
@@ -167,10 +167,10 @@ in his computer-generated voice:
 > exactly thermal, but had subtle correlations. No one has found a
 > mechanism to produce correlations, but most physicists believe one
 > must exist. If information were lost in black holes, pure quantum
-> states would decay into mixed states, and quantum gravity wouldn\'t be
+> states would decay into mixed states, and quantum gravity wouldn't be
 > unitary.
 >
-> I first raised the question of information loss in \'75, and the
+> I first raised the question of information loss in '75, and the
 > argument continued for years, without any resolution either way.
 > Finally, it was claimed that the issue was settled in favour of
 > conservation of information, by AdS/CFT. AdS/CFT is a conjectured
@@ -179,14 +179,14 @@ in his computer-generated voice:
 > the conformal field theory is manifestly unitary, the argument is that
 > supergravity must be information preserving. Any information that
 > falls in a black hole in anti-deSitter space, must come out again. But
-> it still wasn\'t clear how information could get out of a black hole.
+> it still wasn't clear how information could get out of a black hole.
 > It is this question I will address.
 >
 > Black hole formation and evaporation can be thought of as a scattering
 > process. One sends in particles and radiation from infinity, and
 > measures what comes back out to infinity. All measurements are made at
 > infinity, where fields are weak, and one never probes the strong field
-> region in the middle. So one can\'t be sure a black hole forms, no
+> region in the middle. So one can't be sure a black hole forms, no
 > matter how certain it might be in classical theory. I shall show that
 > this possibility allows information to be preserved and to be returned
 > to infinity.
@@ -257,7 +257,7 @@ in his computer-generated voice:
 > change infinity to anti-deSitter space, and make the thermal partition
 > function finite.
 >
-> The boundary at infinity is then a torus, S^1^ cross S^2^. The trivial
+> The boundary at infinity is then a torus, S^1 cross S^2. The trivial
 > topology, periodically identified anti-deSitter space, fills in the
 > torus, but so also do nontrivial topologies, the best known of which
 > is Schwarzschild anti-deSitter. Providing that the temperature is
@@ -267,10 +267,10 @@ in his computer-generated voice:
 > over all metrics of Schwarzschild AdS topology represents a black hole
 > and thermal radiation in asymptotically anti-deSitter.
 >
-> The boundary at infinity has topology S^1^ cross S^2^. The simplest
-> topology that fits inside that boundary is the trivial topology, S^1^
-> cross D^3^, the three-disk. The next simplest topology, and the first
-> nontrivial topology, is S^2^ cross D^2^. This is the topology of the
+> The boundary at infinity has topology S^1 cross S^2. The simplest
+> topology that fits inside that boundary is the trivial topology, S^1
+> cross D^3, the three-disk. The next simplest topology, and the first
+> nontrivial topology, is S^2 cross D^2. This is the topology of the
 > Schwarzschild anti-deSitter metric. There are other possible
 > topologies that fit inside the boundary, but these two are the
 > important cases: topologically trivial metrics and the black hole. The
@@ -307,7 +307,7 @@ in his computer-generated voice:
 > topologically nontrivial metrics, like the eternal black hole. On the
 > other hand, information is preserved in topologically trivial metrics.
 > The confusion and paradox arose because people thought classically, in
-> terms of a single topology for spacetime. It was either R^4^, or a
+> terms of a single topology for spacetime. It was either R^4, or a
 > black hole. But the Feynman sum over histories allows it to be both at
 > once. One can not tell which topology contributed the observation, any
 > more than one can tell which slit the electron went through, in the
@@ -321,7 +321,7 @@ in his computer-generated voice:
 > black hole. This explains how a black hole can form, and then give out
 > the information about what is inside it, while remaining topologically
 > trivial. There is no baby universe branching off, as I once thought.
-> The information remains firmly in our universe. I\'m sorry to
+> The information remains firmly in our universe. I'm sorry to
 > disappoint science fiction fans, but if information is preserved,
 > there is no possibility of using black holes to travel to other
 > universes. If you jump into a black hole, your mass-energy will be
@@ -394,81 +394,81 @@ in his computer-generated voice:
 > In 1997, Kip Thorne and I bet John Preskill that information was lost
 > in black holes. The loser or losers of the bet are to provide the
 > winner or winners with an encyclopaedia of their own choice, from
-> which information can be recovered with ease. I\'m now ready to
-> concede the bet, but Kip Thorne isn\'t convinced just yet. I will give
+> which information can be recovered with ease. I'm now ready to
+> concede the bet, but Kip Thorne isn't convinced just yet. I will give
 > John Preskill the encyclopaedia he has requested. John is
 > all-American, so naturally he wants an encyclopaedia of baseball. I
 > had great difficulty in finding one over here, so I offered him an
-> encyclopaedia of cricket, as an alternative, but John wouldn\'t be
+> encyclopaedia of cricket, as an alternative, but John wouldn't be
 > persuaded of the superiority of cricket. Fortunately, my assistant,
 > Andrew Dunn, persuaded the publishers Sportclassic Books to fly a copy
-> of \"Total Baseball: The Ultimate Baseball Encyclopedia\" to Dublin. I
+> of "Total Baseball: The Ultimate Baseball Encyclopedia" to Dublin. I
 > will give John the encyclopaedia now. If Kip agrees to concede the bet
 > later, he can pay me back.
 
 At this point the encyclopedia was brought on stage and given to John
 Preskill, who [waved it over his head in a parody of athletic
 triumph](dublin/index.html#preskill). The order of events is a bit fuzzy
-in my mind, but sometime around then he said \"I always hoped that when
+in my mind, but sometime around then he said "I always hoped that when
 Stephen conceded, there would be a witness - this really exceeds my
-expectations.\"
+expectations."
 
 After this, Kip Thorne ran a question and answer period, saying that he
 would alternate between questions from conference participants, which
-Hawking\'s grad student would answer, and questions from the press,
-which Hawking would answer - after Thorne checked Hawking\'s facial
+Hawking's grad student would answer, and questions from the press,
+which Hawking would answer - after Thorne checked Hawking's facial
 expressions to see whether he felt they were worth answering.
 
 First, a correspondent from the BBC asked Stephen Hawking what the
-significance of this result was for \"life, the universe and
-everything\". (Here I\'m using John Preskill\'s humorous paraphrase.)
+significance of this result was for "life, the universe and
+everything". (Here I'm using John Preskill's humorous paraphrase.)
 Hawking agreed to answer this, and while he began laboriously composing
 a reply using the computer system on his wheelchair, his grad student
 Christophe Galfard fielded three questions from experts: Bill Unruh,
-Gary Horowitz and Robb Mann. I didn\'t find the replies terribly
+Gary Horowitz and Robb Mann. I didn't find the replies terribly
 illuminating, except that when asked if information would be lost if we
 kept feeding the black hole matter to keep it from evaporating away,
-Galfard said \"yes\". Everyone afterwards commented on what a tough job
+Galfard said "yes". Everyone afterwards commented on what a tough job
 it would be for a student to field questions in front of about 800
 physicists and the international press.
 
 At this point Kip Thorne checked to see if Hawking was done composing
-his reply. He was not. To fill time, Thorne explained why he hadn\'t yet
-conceded the bet, saying \"This looks to me, on the face of it, to be a
-lovely argument. But I haven\'t seen all the details.\" He took this
+his reply. He was not. To fill time, Thorne explained why he hadn't yet
+conceded the bet, saying "This looks to me, on the face of it, to be a
+lovely argument. But I haven't seen all the details." He took this
 opportunity to tell the reporters a bit about how science was done: we
-don\'t just listen to Hawking and take his word for everything, we have
+don't just listen to Hawking and take his word for everything, we have
 to go off and check things ourselves. He told a nice story about how
 when Hawking first showed that black holes radiate, everyone with their
 own approach to quantum field theory on curved spacetime needed to redo
 this calculation their own way to be convinced - with Yakov Zeldovich,
-who\'d gotten the game started by showing that energy could be extracted
+who'd gotten the game started by showing that energy could be extracted
 from *rotating* black holes in the form of radiation, being one of the
-very last to agree! Preskill chimed in, saying \"I\'ll be honest - I
-didn\'t understand the talk\", and that he too would need to see more
+very last to agree! Preskill chimed in, saying "I'll be honest - I
+didn't understand the talk", and that he too would need to see more
 details.
 
 After a bit more of this sort of thing, Hawking was ready to answer the
-BBC reporter\'s question. His answer was surprisingly short, and it went
-something like this (I can\'t find an exact quote): \"This result shows
-that everything in the universe is governed by the laws of physics.\" A
+BBC reporter's question. His answer was surprisingly short, and it went
+something like this (I can't find an exact quote): "This result shows
+that everything in the universe is governed by the laws of physics." A
 suitably grandiose answer for a grandiose question! One can imagine
 better explanations of unitarity, but not quicker ones.
 
 At this point Kip Thorne solicited more questions from the press but
 said they should confine themselves to yes-or-no questions, so Hawking
 could answer them more efficiently. Jenny Hogan got the first question,
-asking what Hawking would do now that he\'d solved this problem. Kip
+asking what Hawking would do now that he'd solved this problem. Kip
 Thorne pointed out that this was not a yes-or-no question. Hogan replied
-that it shouldn\'t take long to reply; Thorne was doubtful, but in the
+that it shouldn't take long to reply; Thorne was doubtful, but in the
 midst of the ensuing conversation Hawking shot off an unexpectedly rapid
-response: \"I don\'t know.\" Everyone laughed, and at this point the
+response: "I don't know." Everyone laughed, and at this point the
 public question period was called to a close, though reporters were
 allowed to stay and pester Hawking some more.
 
-At the time Hawking\'s talk seemed very cryptic to me, but in the
-process of editing the above transcript it\'s become a lot clearer, so
-I\'ll try to give a quick explanation.
+At the time Hawking's talk seemed very cryptic to me, but in the
+process of editing the above transcript it's become a lot clearer, so
+I'll try to give a quick explanation.
 
 I should start by saying that the jargon used in this talk, while
 doubtless obscure to most people, is actually quite standard and not
@@ -476,53 +476,53 @@ very difficult to anyone who has spent some time studying the Euclidean
 path integral approach to quantum gravity. The problem is not the jargon
 so much as the lack of detail, which requires some imagination to fill
 in. When I first heard the talk, this lack of detail had me completely
-stumped. But now it makes a little more sense\....
+stumped. But now it makes a little more sense....
 
-He\'s studying the process of creating a black hole and letting it
-evaporate away. He\'s imagining studying this in the usual style of
-particle physics, as a \"scattering experiment\", where we throw in a
+He's studying the process of creating a black hole and letting it
+evaporate away. He's imagining studying this in the usual style of
+particle physics, as a "scattering experiment", where we throw in a
 bunch of particles and see what comes out. Here we throw in a bunch of
 particles, let them form a black hole, let the black hole evaporate
 away, and examine the particles (typically photons for the most part)
 that shoot out.
 
-The rules of the game in a \"scattering experiment\" are that we can
-only talk about what\'s going on \"at infinity\", meaning very far from
+The rules of the game in a "scattering experiment" are that we can
+only talk about what's going on "at infinity", meaning very far from
 where the black hole forms - or more precisely, where it may or may not
 form!
 
 The advantage of this is that physics at infinity can be described
-without the full machinery of quantum gravity: we don\'t have to worry
+without the full machinery of quantum gravity: we don't have to worry
 about quantum fluctuations of the geometry of spacetime messing up our
-ability to say where things are. The disadvantage is that we can\'t
+ability to say where things are. The disadvantage is that we can't
 actually say for sure whether or not a black hole formed. At least this
-*seems* like a \"disadvantage\" at first - but a better term for it
-might be a \"subtlety\", since it\'s crucial for resolving the puzzle:
+*seems* like a "disadvantage" at first - but a better term for it
+might be a "subtlety", since it's crucial for resolving the puzzle:
 
 > Black hole formation and evaporation can be thought of as a scattering
 > process. One sends in particles and radiation from infinity, and
 > measures what comes back out to infinity. All measurements are made at
 > infinity, where fields are weak, and one never probes the strong field
-> region in the middle. So one can\'t be sure a black hole forms, no
+> region in the middle. So one can't be sure a black hole forms, no
 > matter how certain it might be in classical theory. I shall show that
 > this possibility allows information to be preserved and to be returned
 > to infinity.
 
 Now, the way Hawking likes to calculate things in this sort of problem
-is using a \"Euclidean path integral\". This is a rather controversial
-approach - hence his grin when he said it\'s the \"only sane way\" to do
-these calculations - but let\'s not worry about that. Suffice it to say
-that we replace the time variable \"t\" in all our calculations by
-\"it\", do a bunch of calculations, and then replace \"it\" by \"t\"
-again at the end. This trick is called \"Wick rotation\". In the middle
+is using a "Euclidean path integral". This is a rather controversial
+approach - hence his grin when he said it's the "only sane way" to do
+these calculations - but let's not worry about that. Suffice it to say
+that we replace the time variable "t" in all our calculations by
+"it", do a bunch of calculations, and then replace "it" by "t"
+again at the end. This trick is called "Wick rotation". In the middle
 of this process, we hope all our formulas involving the geometry of 4d
 *spacetime* have magically become formulas involving the geometry of 4d
 *space*. The answers to physical questions are then expressed as
 integrals over all geometries of 4d space that satisfy some conditions
-depending on the problem we\'re studying. This integral over geometries
+depending on the problem we're studying. This integral over geometries
 also includes a sum over topologies.
 
-That\'s what Hawking means by this:
+That's what Hawking means by this:
 
 > I adopt the Euclidean approach, the only sane way to do quantum
 > gravity non-perturbatively. In this, the time evolution of an initial
@@ -534,16 +534,16 @@ That\'s what Hawking means by this:
 
 Unfortunately, nobody knows how to define these integrals. However,
 physicists like Hawking are usually content to compute them in a
-\"semiclassical approximation\". This means integrating not over all
+"semiclassical approximation". This means integrating not over all
 geometries, but only those that are close to some solution of the
 classical equations of general relativity. We can then do a clever
 approximation to get a closed-form answer.
 
-(Nota bene: here I\'m talking about the equations of general relativity
-on 4d *space*, not 4d spacetime. That\'s because we\'re in the middle of
+(Nota bene: here I'm talking about the equations of general relativity
+on 4d *space*, not 4d spacetime. That's because we're in the middle of
 this Wick rotation trick.)
 
-Actually, I\'m oversimplifying a bit. We don\'t get \"the answer\" to
+Actually, I'm oversimplifying a bit. We don't get "the answer" to
 our physics question this way: we get one answer for each solution of
 the equations of general relativity that we deem relevant to the problem
 at hand. To finish the job, we should add up all these partial answers
@@ -561,29 +561,29 @@ black hole, the other describes a spacetime with a black hole which
 lasts forever. Each one gives a contribution to the semiclassical
 approximation of the integral over all geometries. To get answers to
 physical questions, he needs to sum over *both*. In principle he should
-sum over infinitely many others, too, but nobody knows how, so he\'s
+sum over infinitely many others, too, but nobody knows how, so he's
 probably hoping the crux of the problem can be understood by considering
 just these two.
 
 He says that if you just do the integral over geometries near the
-classical solution where there\'s no black hole, you\'ll find -
+classical solution where there's no black hole, you'll find -
 unsurprisingly - that no information is lost as time passes.
 
 He also says that if you do the integral over geometries near the
-classical solution where there is a black hole, you\'ll find -
+classical solution where there is a black hole, you'll find -
 surprisingly - that the answer is *zero* for a lot of questions you can
 measure the answers to far from the black hole. In physics jargon, this
-is because a bunch of \"correlation functions decay exponentially\".
+is because a bunch of "correlation functions decay exponentially".
 
 So, when you add up both answers to see if information is lost in the
-real problem, where you can\'t be sure if there\'s a black hole or not,
+real problem, where you can't be sure if there's a black hole or not,
 you get the same answer as if there were no black hole!
 
 > So in the end, everyone was right, in a way. Information is lost in
 > topologically nontrivial metrics, like the eternal black hole. On the
 > other hand, information is preserved in topologically trivial metrics.
 > The confusion and paradox arose because people thought classically, in
-> terms of a single topology for spacetime. It was either R^4^, or a
+> terms of a single topology for spacetime. It was either R^4, or a
 > black hole. But the Feynman sum over histories allows it to be both at
 > once. One can not tell which topology contributed the observation, any
 > more than one can tell which slit the electron went through, in the
@@ -592,55 +592,55 @@ you get the same answer as if there were no black hole!
 > that information is not lost.
 
 The mysterious part is why the geometries near the classical solution
-where there\'s a black hole don\'t contribute at all to information
+where there's a black hole don't contribute at all to information
 loss, even though they do contribute to other important things, like the
-Hawking radiation. Here I\'d need to see an actual calculation. Hawking
-gives a nice hand-wavy topological argument, but that\'s not enough for
+Hawking radiation. Here I'd need to see an actual calculation. Hawking
+gives a nice hand-wavy topological argument, but that's not enough for
 me.
 
 Since this issue is long enough already and I want to get it out soon, I
-won\'t talk about other things that happened at this conference - nor
-will I talk about the conference on n-categories earlier this summer! I
+won't talk about other things that happened at this conference - nor
+will I talk about the conference on $n$-categories earlier this summer! I
 just want to say a few elementary things about the topology lurking in
-Hawking\'s talk\... since some mathematicians may enjoy it.
+Hawking's talk... since some mathematicians may enjoy it.
 
 As he points out, the answers to a bunch of questions diverge unless we
 put our black hole in a box of finite size. A convenient way to do this
 is to introduce a small negative cosmological constant, which changes
 our default picture of spacetime from Minkowski spacetime, which is
-topologically R^4^, to anti-deSitter spacetime, which is topologically R
-x D^3^ after we add the \"boundary at infinity\". Here R is time and the
-3-disk D^3^ is space. This is a Lorentzian manifold with boundary, but
+topologically R^4, to anti-deSitter spacetime, which is topologically R
+x D^3 after we add the "boundary at infinity". Here R is time and the
+3-disk D^3 is space. This is a Lorentzian manifold with boundary, but
 when we do Wick rotation we get a Riemannian manifold with boundary
 having the same topology.
 
 However, when we are doing Euclidean path integrals at nonzero
 temperature, we should replace the time line R here by a circle whose
 radius is the reciprocal of that temperature. (Take my word for it!) So
-now our Riemannian manifold with boundary is S^1^ x D^3^. This is what
+now our Riemannian manifold with boundary is S^1 x D^3. This is what
 Hawking uses to handle the geometries without a black hole. The boundary
-of this manifold is S^1^ x S^2^. But there\'s another obvious manifold
-with this boundary, namely D^2^ x S2. And this corresponds to the
+of this manifold is S^1 x S^2. But there's another obvious manifold
+with this boundary, namely D^2 x S2. And this corresponds to the
 geometries with a black hole! This is cute because we see it all the
-time in surgery theory. In fact I commented on Hawking\'s use of this
-idea a long time ago, in \"[week67](week67.html)\".
+time in surgery theory. In fact I commented on Hawking's use of this
+idea a long time ago, in ["Week 67"](#week67).
 
-In his talk, Hawking points out that S^1^ x D^3^ has a nontrivial
+In his talk, Hawking points out that S^1 x D^3 has a nontrivial
 3-cycle in it if we use relative cohomology and work relative to the
-boundary S^1^ x S^2^. But, D^2^ x S^2^ does not. When spacetime is
+boundary S^1 x S^2. But, D^2 x S^2 does not. When spacetime is
 n-dimensional, conservation laws usually come from integrating closed
-(n-1)-forms over cycles that correspond to \"space\", so we get
-interesting conservation laws when there are nontrivial (n-1)-cycles.
+(n-1)-forms over cycles that correspond to "space", so we get
+interesting conservation laws when there are nontrivial $(n-1)$-cycles.
 Here Hawking is using this to argue for conservation of information when
-there\'s no black hole - namely for S^1^ x D^3^ - but not when there is,
-namely for D^2^ x S^2^.
+there's no black hole - namely for S^1 x D^3 - but not when there is,
+namely for D^2 x S^2.
 
 All this is fine and dandy; the hard part is to see why the case when
-there *is* a black hole doesn\'t screw things up! This is where his
-allusions to \"exponentially decaying correlation functions come in\" -
-and this is where I\'d like to see more details. I guess a good place to
-start is Maldacena\'s papers on the black hole in 3d spacetime - the
-so-called Banados-Teitelboim-Zanelli or \"BTZ\" black hole. This is a
+there *is* a black hole doesn't screw things up! This is where his
+allusions to "exponentially decaying correlation functions come in" -
+and this is where I'd like to see more details. I guess a good place to
+start is Maldacena's papers on the black hole in 3d spacetime - the
+so-called Banados-Teitelboim-Zanelli or "BTZ" black hole. This is a
 baby version of the problem, one dimension down from the real thing,
 where everything should get much simpler. For a bunch about the BTZ
 black hole, try:
@@ -659,13 +659,13 @@ You can also see a talk he gave on this at the Institute for Theoretical
 Physics at U. C. Santa Barbara:
 
 5\) Juan Maldacena, Eternal Black Holes in AdS,
-<http://online.itp.ucsb.edu/online/mtheory_c01/maldacena/>.
+`http://online.itp.ucsb.edu/online/mtheory_c01/maldacena/`.
 
-By the way, here are some photos of the conference\...
+By the way, here are some photos of the conference...
 
-6\) John Baez, Dublin, <http://math.ucr.edu/home/baez/dublin/>
+6\) John Baez, Dublin, `http://math.ucr.edu/home/baez/dublin/`
 
-\... and also photos of the
+... and also photos of the
 [plaque](http://math.ucr.edu/home/baez/dublin/index.html#hamilton) on
 the bridge where Hamilton carved his defining relations for the
 quaternions!
@@ -685,13 +685,13 @@ to which he replied:
     originally due to Copernicus.  Thomas Kuhn's book "The Copernican
     Revolution" has a nice discussion.
 
-In retrospect it\'s obvious that *someone* had to try this idea before
+In retrospect it's obvious that *someone* had to try this idea before
 Kepler came up with elliptical heliocentric orbits. In fact, Kepler
-tried ellipses only because the epicycle theory didn\'t work well for
+tried ellipses only because the epicycle theory didn't work well for
 Mars.
 
 ------------------------------------------------------------------------
 
-*I\'m not that good at math, but I do know that the universe is formed
+*I'm not that good at math, but I do know that the universe is formed
 with mathematical principles whether I understand them or not, and I was
 going to let that guide me.* - Bob Dylan, Chronicles (vol. 1)

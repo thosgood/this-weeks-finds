@@ -1,18 +1,18 @@
 week212
 
 As you may know, theoretical particle physics is highly enamored of
-\"supersymmetry\" these days. This is not because there\'s a shred of
-experimental evidence for it - there\'s not - but just because it\'s
+"supersymmetry" these days. This is not because there's a shred of
+experimental evidence for it - there's not - but just because it's
 such a cool idea from a mathematical point of view. Mathematicians
 should have gotten this idea and run with it first, but physicists did -
-and maybe it\'s turned them into mathematicians.
+and maybe it's turned them into mathematicians.
 
 The unarguable central core of this idea is that everything is made of
-bosons and fermions. In the Standard Model, most bosons are \"force
-carriers\", like photons, which carry the electromagnetic force.
-Fermions are more like what we\'d normally call \"matter\": leptons and
+bosons and fermions. In the Standard Model, most bosons are "force
+carriers", like photons, which carry the electromagnetic force.
+Fermions are more like what we'd normally call "matter": leptons and
 quarks, for example. The one big exception is the Higgs boson, which
-gives elementary particles their mass and\... umm\... hasn\'t been seen
+gives elementary particles their mass and... umm... hasn't been seen
 yet!
 
 But, at a more fundamental level, the really important thing is that
@@ -24,19 +24,19 @@ while fermions anticommute:
 
     xy = -yx
 
-Also, in case you\'re wondering, bosons commute with fermions.
+Also, in case you're wondering, bosons commute with fermions.
 
 But already, most mathematicians reading this will be confused and
 unhappy. What does it mean for two particles to commute, much less
 anticommute? Does an apple commute with a grape? Here in the suburbs of
-Los Angeles almost everyone commutes, but that\'s not what we\'re
+Los Angeles almost everyone commutes, but that's not what we're
 talking about.
 
 The whole idea of particles commuting or anticommuting only occurred to
 people after they invented quantum theory, where the state of any system
 is described by a unit vector in some Hilbert space. In quantum theory,
-if you have a system in some state x, and you check to see if it\'s in
-the state y, your experiment gives you the answer \"yes\" with
+if you have a system in some state x, and you check to see if it's in
+the state y, your experiment gives you the answer "yes" with
 probability
 
     |<x,y>|2
@@ -46,7 +46,7 @@ the square of the absolute value of the inner product of x and y.
 There! Now you know quantum theory.
 
 Given this setup, when you have a system consisting of two particles,
-the first in some state x and the second in some state y, it\'s natural
+the first in some state x and the second in some state y, it's natural
 to write the state of the whole system as a kind of product xy. But then
 you have to figure out what rules you want this product to satisfy!
 
@@ -54,19 +54,19 @@ If you require it to be commutative:
 
     xy = yx
 
-you\'re saying that there\'s no difference between the *first* particle
+you're saying that there's no difference between the *first* particle
 being in state x and the *second* particle being in state y, and the
-other way around. In other words, the particles don\'t have little name
+other way around. In other words, the particles don't have little name
 tags on them saying who they are.
 
 This seems reasonable, and particles satisfying this rule are called
-\"bosons\". But, there\'s another popular option, called \"fermions\":
+"bosons". But, there's another popular option, called "fermions":
 
     xy = -yx
 
-Here again, the particles don\'t have name tags, since if we put the
-whole system in the state xy and check to see if it\'s in the state yx,
-we get the same answer as when we check to see if it\'s in the state xy!
+Here again, the particles don't have name tags, since if we put the
+whole system in the state xy and check to see if it's in the state yx,
+we get the same answer as when we check to see if it's in the state xy!
 See:
 
     |<xy,yx>|2 = |<xy,-xy>|2
@@ -76,18 +76,18 @@ See:
 thanks to the absolute value. This means that the states xy and yx are
 indistinguishable.
 
-Reading what I just said, you\'d be forgiven for wondering what\'s the
+Reading what I just said, you'd be forgiven for wondering what's the
 big difference between fermions and bosons! After all, that absolute
 value in the formula for probabilities just ignores minus signs.
 
-One difference is the \"Pauli exclusion principle\". Take a pair of
-fermions and check to see if they\'re both in the state x. The
+One difference is the "Pauli exclusion principle". Take a pair of
+fermions and check to see if they're both in the state x. The
 probability is always zero, since
 
     xx = -xx  
 
-so xx = 0. So, fermions are antisocial: that\'s why the electrons in an
-atom form \"shells\" with different electrons in different states,
+so xx = 0. So, fermions are antisocial: that's why the electrons in an
+atom form "shells" with different electrons in different states,
 instead of all hanging out at the lowest energy state.
 
 Bosons, by contrast, are gregarious: when a store clerk uses a laser
@@ -100,21 +100,21 @@ After getting used to these ideas for a while - Bose and Einstein worked
 out the idea of bosons in 1924, Pauli came up with his exclusion
 principle in 1925, and Dirac systematized the whole business in 1926 -
 physicists eventually started looking for symmetries that relate bosons
-and fermions. *Supersymmetries!* They\'re not seen in nature, but
-physicists were looking to see if they\'re mathematically possible. They
+and fermions. *Supersymmetries!* They're not seen in nature, but
+physicists were looking to see if they're mathematically possible. They
 turn out not only to be possible, but fascinating.
 
 Formulating supersymmetries in a slick way requires that we take
 everything we knew about linear algebra and generalize it by letting all
-our vector spaces have both an \"even\" or \"bosonic\" part and an
-\"odd\" or \"fermionic\" part. Mathematically this just amounts to
+our vector spaces have both an "even" or "bosonic" part and an
+"odd" or "fermionic" part. Mathematically this just amounts to
 writing our vector space as a direct sum
 
     V = V0 + V1
 
-where V~0~ is the \"even part\" and V~1~ is the \"odd part\". Such a
-thing is called a \"Z/2-graded vector space\", or \"super vector
-space\".
+where V~0~ is the "even part" and V_1 is the "odd part". Such a
+thing is called a "Z/2-graded vector space", or "super vector
+space".
 
 So far this is pathetically simple. But then - and this is the really
 crucial part! - whenever we multiply things, we have to follow this
@@ -125,8 +125,8 @@ rule:
     even|  even    odd
     odd |  odd     even
 
-It\'s a little confusing, since this isn\'t what happens when you
-multiply even and odd numbers - it\'s what happens when you ADD them.
+It's a little confusing, since this isn't what happens when you
+multiply even and odd numbers - it's what happens when you ADD them.
 But, one quickly adapts.
 
 Also, when we generalize equations involving multiplication, we must
@@ -134,10 +134,10 @@ remember to stick in an extra minus sign whenever we switch two odd
 vectors.
 
 So, for example, the usual concept of an algebra gets replaced by that
-of a \"superalgebra\". This is a super vector space A equipped with an
+of a "superalgebra". This is a super vector space A equipped with an
 associative product and unit such that when we multiply even and/or odd
 vectors, the rules in the above table hold. We say a superalgebra is
-\"supercommutative\" if
+"supercommutative" if
 
     xy = yx
 
@@ -145,41 +145,41 @@ when at least one of x,y lives in the even part A~0~, while
 
     xy = -yx
 
-when both x and y live in A~1~.
+when both x and y live in A_1.
 
 Similarly we can define super Lie algebras, super Lie groups,
-supermanifolds, and so on\....
+supermanifolds, and so on....
 
 People have done a lot of work on this stuff: it would take me days to
 explain it all - even longer if I actually knew something about it.
 
 But right now, I just want to zoom in the direction of super division
-algebras. These are not the most important aspect of \"superalgebra\" -
-but they\'re pretty cool, and Todd Trimble has been explaining them to
-me lately. Everything interesting I\'m about to say is due to him.
+algebras. These are not the most important aspect of "superalgebra" -
+but they're pretty cool, and Todd Trimble has been explaining them to
+me lately. Everything interesting I'm about to say is due to him.
 
-As you know, I\'m inordinately fond of the normed division algebras: the
-real numbers, complex numbers, quaternions and octonions. They\'re so
-beautiful, it\'s a little sad at times that there are only four! Could
+As you know, I'm inordinately fond of the normed division algebras: the
+real numbers, complex numbers, quaternions and octonions. They're so
+beautiful, it's a little sad at times that there are only four! Could
 superalgebra allow for more?
 
 YES! And, they turn out to be related to Bott periodicity.
 
 Nobody seems to have pondered *nonassociative* super division algebras
 yet, but Deligne has a nice article about the associative ones, which I
-mentioned in \"[week211](week211.html)\". I\'ll give more references
+mentioned in ["Week 211"](#week211). I'll give more references
 later.
 
-So, what\'s the idea?
+So, what's the idea?
 
-I\'ve already told you what a superalgebra is. We say it\'s a \"super
-division algebra\" if every nonzero element that\'s purely even or
+I've already told you what a superalgebra is. We say it's a "super
+division algebra" if every nonzero element that's purely even or
 purely odd is invertible.
 
-That\'s pretty easy. What are they like?
+That's pretty easy. What are they like?
 
-Well, I don\'t completely understand all the options yet, so I\'ll just
-list the \"central\" super division algebras over the real numbers,
+Well, I don't completely understand all the options yet, so I'll just
+list the "central" super division algebras over the real numbers,
 namely those where the elements that supercommute with everything form a
 copy of the real numbers. There turn out to be 8, and their beautiful
 patterns are best displayed in a circular layout:
@@ -200,7 +200,7 @@ patterns are best displayed in a circular layout:
 
 What does this notation mean? Well, as usual R, C, and H stand for the
 reals, complex numbers, and quaternions. In all but two cases, we start
-with one of those algebras and throw in an odd element \"e\" satisfying
+with one of those algebras and throw in an odd element "e" satisfying
 the relations listed: e is either a square root of +1 or of -1, and in
 the complex cases it anticommutes with i.
 
@@ -209,12 +209,12 @@ So, for example, super division algebra number 1:
     R[e] mod e2 + 1
 
 is just the real numbers with an odd element thrown in that satisfies
-e^2^ + 1 = 0. In other words, it\'s just the complex numbers made into a
+e^2 + 1 = 0. In other words, it's just the complex numbers made into a
 superalgebra in such a way that i is *odd*.
 
-The real reason I\'ve arranged these guys in a circle numbered from 0 to
+The real reason I've arranged these guys in a circle numbered from 0 to
 7 is to remind you of the Clifford algebra clock in
-\"[week210](week210.html)\", where I discussed the super Brauer group of
+["Week 210"](#week210), where I discussed the super Brauer group of
 the real numbers, and said it was Z/8.
 
 Indeed, the central super division algebras are a complete set of
@@ -231,14 +231,14 @@ circle:
      C6 = R(8)        ~ C[e] mod e2 - 1, ei + ie
      C7 = R(8) + R(8) ~ R[e] mod e2 - 1
 
-where \~ means \"super Morita equivalent\", and the notation for
+where \~ means "super Morita equivalent", and the notation for
 Clifford algebras was explained last week.
 
-I think this is cool. I\'m not quite sure what to do with it yet,
+I think this is cool. I'm not quite sure what to do with it yet,
 though. How much of what people ordinarily do with division algebras can
 be done with super division algebras? For example, can we define
 projective spaces over super division algebras? (See
-\"[week106](week106.html)\" and \"[week145](week145.html)\" for why that
+["Week 106"](#week106) and ["Week 145"](#week145) for why that
 would be interesting.)
 
 To read more about this, try:
@@ -246,21 +246,21 @@ To read more about this, try:
 1\) Pierre Deligne, Notes on spinors, in Quantum Fields and Strings: A
 Course For Mathematicians, volume 1, American Mathematical Society,
 Providence, 1999. Also available at
-<http://www.math.ias.edu/QFT/fall/spinors.ps>
+`http://www.math.ias.edu/QFT/fall/spinors.ps`
 
 A lot of the ideas go back to here:
 
 2\) C. T. C. Wall, Graded Brauer groups, J. Reine Angew. Math. 213
 (1963/1964), 187-199.
 
-and here\'s another good reference:
+and here's another good reference:
 
 3\) Peter Donovan and Max Karoubi, Graded Brauer groups and K-theory
 with local coefficients, Publications Math. IHES 38 (1970), 5-25. Also
-available at <http://www.math.jussieu.fr/~karoubi/Donavan.K.pdf>
+available at `http://www.math.jussieu.fr/~karoubi/Donavan.K.pdf`
 
 I should admit that I have a yearning to classify *nonassociative* super
-division algebras. Has anyone ever tried this? It\'s already plain to
+division algebras. Has anyone ever tried this? It's already plain to
 see that we have two 16-dimensional nonassociative super division
 algebras:
 
@@ -277,9 +277,9 @@ with all of them.) Maybe one of these algebras deserves to be called the
 *superoctonions*. I bet these or something awfully similar are lurking
 around in string theory.
 
-Hmm\... next I wanted to write something about the topology of Bott
-periodicity and how *that* fits into what I\'ve been discussing, but
-I\'m running out of energy. Let me say it briefly, without much detail,
+Hmm... next I wanted to write something about the topology of Bott
+periodicity and how *that* fits into what I've been discussing, but
+I'm running out of energy. Let me say it briefly, without much detail,
 just in case I never get around to a decent explanation.
 
 Two super algebras are super Morita equivalent precisely when they have
@@ -290,81 +290,81 @@ SuperRep(C~n~), where Bott periodicity says
     SuperRep(Cn+8) ~ SuperRep(Cn)
 
 Moreover these are symmetric monoidal categories, since direct summing
-lets us \"add\" objects in these categories in a nice way.
+lets us "add" objects in these categories in a nice way.
 
 A long time ago, Graeme Segal figured out how to take a symmetric
 monoidal category and get an infinite loop space from it. I explained
-this construction in \"[week199](week199.html)\", but for a much more
+this construction in ["Week 199"](#week199), but for a much more
 detailed and intense treatment with lots of references to earlier work,
 try:
 
 4\) R. W. Thomason, Symmetric categories model all connective spectra,
 Theory and Applications of Categories 1 (1995), 78-118. Available at
-<http://www.tac.mta.ca/tac/volumes/1995/n5/1-05abs.html>
+`http://www.tac.mta.ca/tac/volumes/1995/n5/1-05abs.html`
 
 If we do this to SuperRep(C~n~), I think we get something like
 
-Ω^n^(kO)
+Ω^n(kO)
 
-that is, the n-fold loop space of something called kO, the \"connective
-K-theory spectrum\", which I explained in \"[week105](week105.html)\".
+that is, the $n$-fold loop space of something called kO, the "connective
+K-theory spectrum", which I explained in ["Week 105"](#week105).
 The fact that this repeats with period 8:
 
-Ω^n+8^(kO) \~ Ω^n^(kO)
+Ω^n+8^(kO) \~ Ω^n(kO)
 
 is the topological version of Bott periodicity - see
-\"[week105](week105.html)\" for more. So, we get the topological version
+["Week 105"](#week105) for more. So, we get the topological version
 of Bott periodicity from the algebraic version by turning symmetric
 monoidal categories into infinite loop spaces!
 
 But, the interesting puzzle here is: what process can we do to
 SuperRep(C~n~) to get SuperRep(C~n+1~), which is the algebraic version
-of looping? And I think the answer is: \"taking super representations of
-C~1~ in it\". You see,
+of looping? And I think the answer is: "taking super representations of
+C_1 in it". You see,
 
-C~1~ ⊗ C~n~ = C~n+1~
+C_1 \otimes C~n~ = C~n+1~
 
-where I\'m using the super tensor product of superalgebras, and this
-means that the category of representations of C~1~ in SuperRep(C~n~) is
+where I'm using the super tensor product of superalgebras, and this
+means that the category of representations of C_1 in SuperRep(C~n~) is
 SuperRep(C~n+1~).
 
 And, if I were trying to really explain this instead of merely
 scribbling notes about it, I would try to explain why this is because
-C~1~ is the complex numbers, and the unit circle in the complex numbers
+C_1 is the complex numbers, and the unit circle in the complex numbers
 is related to *loops*.
 
 But, sigh, that will have to wait.
 
-One more thing before I quit for today\...
+One more thing before I quit for today...
 
 I just saw a cool paper by Dror Bar-Natan, Thang Le and Dylan Thurston
-about the \"Duflo isomorphism\". This is a cousin of the
+about the "Duflo isomorphism". This is a cousin of the
 Poincare-Birkhoff-Witt theorem, which in its best form says that the
 universal enveloping algebra UL of a Lie algebra L is isomorphic *as a
-coalgebra* to the symmetric algebra SL. You\'ll often see worse versions
+coalgebra* to the symmetric algebra SL. You'll often see worse versions
 of the PBW theorem in textbooks, and ugly proofs, but James Dolan showed
 me the nice version and proof a while back.
 
 The kernel of the idea is this: if L is the Lie algebra of a group G, UL
-consists of left-invariant differential operators on G, and there\'s a
-map UL → SL sending any differential operator to its \"symbol\". This is
+consists of left-invariant differential operators on G, and there's a
+map UL \to SL sending any differential operator to its "symbol". This is
 an isomorphism of vector spaces and even of coalgebras, but not of
 algebras.
 
-Anyway, there\'s something vaguely similar relating the invariant
-subalgebras of UL and SL. By \"invariant\" here, I mean that since L
+Anyway, there's something vaguely similar relating the invariant
+subalgebras of UL and SL. By "invariant" here, I mean that since L
 acts as derivations of UL and SL, we can look at the subalgebra of
 either one consisting of guys who are killed by these derivations; such
-guys are called \"invariant\". Physicists call invariant elements of UL
-\"Casimirs\", after the first physicist to think about this stuff. They
+guys are called "invariant". Physicists call invariant elements of UL
+"Casimirs", after the first physicist to think about this stuff. They
 commute with everything else in UL. Invariant elements of SL are like
-classical Casimirs: there\'s a Poisson bracket on SL, and these are the
+classical Casimirs: there's a Poisson bracket on SL, and these are the
 guys whose Poisson bracket with everyone vanishes.
 
 The Duflo map is an *algebra isomorphism* from the invariant subalgebra
-of SL to the invariant subalgebra of UL. So, it\'s like a very nice way
-to quantize Casimirs, one that gets along with multiplication. It\'s
-called the \"Duflo map\" because it was invented by Harish-Chandra for
+of SL to the invariant subalgebra of UL. So, it's like a very nice way
+to quantize Casimirs, one that gets along with multiplication. It's
+called the "Duflo map" because it was invented by Harish-Chandra for
 semisimple Lie algebras and for Kirillov in general. Kirillov
 conjectured that it was always an isomorphism; what Duflo did is prove
 it:
@@ -378,31 +378,31 @@ and Thurston:
 > In the book of Dixmier, the proof is given only in the last chapter
 > and it utilizes most of the results developed in the whole book,
 > including many classification results (a situation Godement called
-> \"scandalous\"). As discussed below, there have been several recent
+> "scandalous"). As discussed below, there have been several recent
 > proofs that do not use classification results, but they all use tools
 > from well outside the natural domain of the problem.
 
 The proof by Bar-Natan, Le and Thurston uses the connection between knot
 theory and Lie algebras - namely, the theory of Vassiliev invariants. I
-think there\'s still something slightly scandalous about this, but it\'s
+think there's still something slightly scandalous about this, but it's
 awfully interesting. Anyway, take a look:
 
 6\) Dror Bar-Natan, Thang T. Q. Le and Dylan P. Thurston, Two
 applications of elementary knot theory to Lie algebras and Vassiliev
 invariants, Geometry and Topology 7 (2003), 1-31. Available at
-<http://www.maths.warwick.ac.uk/gt/GTVol7/paper1.abs.html> and also as
+`http://www.maths.warwick.ac.uk/gt/GTVol7/paper1.abs.html` and also as
 [math.QG/0204311](http://www.arXiv.org/abs/math.QG/0204311).
 
-For more, try Thurston\'s thesis:
+For more, try Thurston's thesis:
 
 7\) Dylan P. Thurston, Wheeling: a diagrammatic analogue of the Duflo
 isomorphism,
 [math.QG/0006083](http://www.arXiv.org/abs/math.QG/0006083).
 
-and, just for fun, Deligne\'s handwritten letter to Bar-Natan:
+and, just for fun, Deligne's handwritten letter to Bar-Natan:
 
 8\) Pierre Deligne, letter to Dror Bar-Natan about the Duflo map,
-available at <http://www.math.toronto.edu/~drorbn/Deligne/>
+available at `http://www.math.toronto.edu/~drorbn/Deligne/`
 
 ------------------------------------------------------------------------
 
@@ -422,7 +422,7 @@ notes in which he outlines proofs of some results above.
 >     1.  Let V be the category of finite-dimensional super vector 
 >     spaces over R.  By super algebra I mean a monoid in this 
 >     category.  There's a bicategory whose objects are super 
->     algebras A, whose 1-cells  M: A → B  are left A- right B-
+>     algebras A, whose 1-cells  M: A \to B  are left A- right B-
 >     modules in V, and whose 2-cells are homomorphisms
 >     between modules.  This is a symmetric monoidal bicategory 
 >     under the usual tensor product on V.  
@@ -438,9 +438,9 @@ notes in which he outlines proofs of some results above.
 >     On the other hand, in the bicategory above we always have 
 >     a biadjunction 
 >
->                         A tensor C → D 
+>                         A tensor C \to D 
 >                        -------------------
->                         C → A* tensor D
+>                         C \to A* tensor D
 >
 >     (essentially because left A-modules are the same as right 
 >     A*-modules, where A* denotes the super algebra opposite 
@@ -450,7 +450,7 @@ notes in which he outlines proofs of some results above.
 >     This can be sharpened: an inverse to [A] exists iff the 
 >     unit and counit 
 >
->              1 → A* tensor A       A tensor A* → 1
+>              1 \to A* tensor A       A tensor A* \to 1
 >
 >     are equivalences in the bicategory.  Actually, one is an 
 >     equivalence iff the other is, because both of these 
@@ -459,7 +459,7 @@ notes in which he outlines proofs of some results above.
 >     the underlying superspace of A (call it S) by multiplication.  
 >     Either is an equivalence if the bimodule structure map 
 >
->                      A* tensor A → Hom(S, S),    
+>                      A* tensor A \to Hom(S, S),    
 >
 >     which is a map of super algebras, is an isomorphism. 
 >
@@ -471,7 +471,7 @@ notes in which he outlines proofs of some results above.
 >     opposite A* is similar except that there is an odd generator 
 >     e satisfying  e2 = 1.  Under the map 
 >
->                A* tensor A → Hom(S, S), 
+>                A* tensor A \to Hom(S, S), 
 >
 >     where we write S as a sum of even and odd parts R + Ri, 
 >     this map has a matrix representation 
@@ -525,7 +525,7 @@ notes in which he outlines proofs of some results above.
 >     At this point we are done: we know that conjugation on 
 >     (purely bosonic) H gives an isomorphism 
 >
->                       H* → H 
+>                       H* \to H 
 >
 >     hence  [H]-1 = [H*] = [H],  i.e. [H] = [C4] has order 2!  
 >     Hence  [C1]  has order 8. 
@@ -567,7 +567,7 @@ notes in which he outlines proofs of some results above.
 >
 >     Todd
 
-Todd finished off the job later\... though by this point we had
+Todd finished off the job later... though by this point we had
 formulated the grander goal of classifying not-necessarily-associative
 super division algebras!
 
@@ -590,7 +590,7 @@ super division algebras!
 >     A) by saying that the odd part M is an A-bimodule equipped 
 >     with a A-bimodule map pairing 
 >      
->          < -, - >:  M tensor_A M → A
+>          < -, - >:  M tensor_A M \to A
 >      
 >     such that:
 >
@@ -600,7 +600,7 @@ super division algebras!
 >     wholly concentrated in even degree, then multiplication by a 
 >     nonzero odd element induces an isomorphism 
 >      
->                         A → M
+>                         A \to M
 >      
 >     and so M is 1-dimensional over A; choose a basis element e 
 >     for M. 
@@ -613,7 +613,7 @@ super division algebras!
 >     and that the A-bimodule structure forces  (ab)' = a'b'.  Hence we 
 >     have an automorphism (fixing the real field) 
 >      
->                   (--)': A → A
+>                   (--)': A \to A
 >      
 >     and we can easily enumerate (up to isomorphism) the possibilities 
 >     for associative super division algebras over R: 
@@ -622,7 +622,7 @@ super division algebras!
 >     -1 or 1.  The corresponding super division algebras occur at 1 o'clock 
 >     and 7 o'clock on the super Brauer clock. 
 >      
->     (2)  A = C.  There are two R-automorphisms  C → C.  In the case 
+>     (2)  A = C.  There are two R-automorphisms  C \to C.  In the case 
 >     where the automorphism is conjugation, condition (**) for super 
 >     associativity gives  <e, e>e = e<e, e>  so that  <e, e>  must be 
 >     real.  Again e can be adjusted so that  <e, e> = -1 or 1.  These 
@@ -635,7 +635,7 @@ super division algebras!
 >     super Brauer clock over R.  However, it does generate the super 
 >     Brauer group over C (which is of order two). 
 >      
->     (3)  A = H.  Here R-automorphisms  H → H  are given by 
+>     (3)  A = H.  Here R-automorphisms  H \to H  are given by 
 >     h |--> xhx-1  for x in H.  In other words 
 >      
 >                          he = exhx-1

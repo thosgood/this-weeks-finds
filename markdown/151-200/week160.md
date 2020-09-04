@@ -2,12 +2,12 @@ week160
 
 Anyone who grew up on science fiction in the 1960s probably read a bunch
 about adventures on strange planets, and dreamt of our future in space.
-At least I did. Asimov, Clarke, Heinlein\... they helped get me
+At least I did. Asimov, Clarke, Heinlein... they helped get me
 interested in science, but they also painted a romantic vision of human
 destiny. Only later did it become clear that *for now*, the real
 adventures will come from the microscopic realm: from applications of
 integrated circuits, biotechnology, nanotechnology, and the like. When
-you\'re trying to have lots of fun in a hurry, the speed limit is the
+you're trying to have lots of fun in a hurry, the speed limit is the
 speed of light - and this makes interstellar travel a drag.
 
 Nonetheless, when you imbibe a romantic dream in childhood, it can be
@@ -22,11 +22,11 @@ So - let me start by talking about a world where it might rain methane!
 Caitlin A. Griffith, Joseph L. Hall and Thomas R. Geballe, Detection of
 daily clouds on Titan, Science 290 (October 20, 2000), 509-513.
 
-Titan is the largest moon of Saturn, and it\'s the only moon in our
+Titan is the largest moon of Saturn, and it's the only moon in our
 solar system with a significant atmosphere. Its atmosphere is mostly
 nitrogen, with a surface pressure 1.5 times that of the air pressure
-here on Earths\' surface. However, there is also a fair amount of
-methane, and even some ethane. At the surface of Titan, it\'s cold
+here on Earths' surface. However, there is also a fair amount of
+methane, and even some ethane. At the surface of Titan, it's cold
 enough for these compounds to liquefy. People have even seen what look
 like pitch-black oceans of hydrocarbon compounds, hundreds of kilometers
 in size!
@@ -35,12 +35,12 @@ However, 14 kilometers or more from the surface, it gets cold enough for
 methane to freeze. And the news is that recently Caitlin Griffith et al
 have spotted things that look like methane clouds. Compared to Earth,
 which is usually 30 percent covered with clouds, the cloud cover on
-Titan seems spotty. There\'s not really enough methane for lots of
+Titan seems spotty. There's not really enough methane for lots of
 clouds. But there may be rain! The drops would be larger than
 terrestrial raindrops, and fall slowly in the gravity of Titan, which is
 like that of our moon. Since the near-surface atmosphere usually has a
 relative humidity of at most 60%, the drops would tend to evaporate
-before hitting the ground. (I\'ve seen a similar thing in New Mexico.)
+before hitting the ground. (I've seen a similar thing in New Mexico.)
 However, in a big rainstorm the evaporation of the first drops might
 elevate the humidity to the point where later drops could reach the
 surface. So there might even be erosion on the surface of Titan. With
@@ -58,14 +58,14 @@ mechanism at work to keep it constant. Only life - he argued - could be
 responsible! Conversely, Lovelock guessed there is not life on Mars,
 because its atmosphere *is* in equilibrium.
 
-Now, the methane in Titan\'s atmosphere is dissociated by sunlight, and
+Now, the methane in Titan's atmosphere is dissociated by sunlight, and
 this process is irreversible, since the resulting hydrogen flies off
 into space. At the rate this happens, the entire methane content of the
 atmosphere would be destroyed in only 10 million years if it were not
 renewed somehow. In the first article cited above, the author writes:
-\"For the methane we see today not to be a bizarre fluke, it must be
+"For the methane we see today not to be a bizarre fluke, it must be
 continuously resupplied from a surface reservoir or by cryovolcanism
-(that is, volcanism where the molten \`rock\' is just ice).\" And this
+(that is, volcanism where the molten \`rock' is just ice)." And this
 made me wonder: where is Lovelock when we need him? Maybe *life* is
 responsible for this out-of-equilibrium condition.
 
@@ -77,24 +77,24 @@ Next: a world where it might rain diamonds!
 286 (October 1, 1999), 25.
 
 Laura Robin Benedetti, Jeffrey H. Nguyen, Wendell A. Caldwell, Hongjian
-Liu, Michael Kruger, and Raymond Jeanloz, Dissociation of CH~4~ at high
+Liu, Michael Kruger, and Raymond Jeanloz, Dissociation of CH_4 at high
 pressures and temperatures: diamond formation in giant planet
 interiors?, Science 286 (October 1, 1999), 100-102.
 
 The atmosphere of Neptune is believed to contain lots of methane when
 you go 4000 kilometers or more beneath the cloud tops. And Neptune
-ain\'t no measly moon: it\'s a gas giant, so the atmospheric pressure
+ain't no measly moon: it's a gas giant, so the atmospheric pressure
 becomes enormous as you go further in. Recently, people have been
 compressing methane under ridiculously high pressures, using techniques
 too fiendish to describe here. At sufficiently high pressures, it
 releases hydrogen and turns into diamond crystals! - together with lots
 of other crud, like ethane and acetylene. This could happen in Neptune
 at a depth of about 7000 kilometers below the cloud tops, where the
-pressure reaches 500,000 times that of the Earth\'s atmosphere. So in
+pressure reaches 500,000 times that of the Earth's atmosphere. So in
 fact, there could be a steady rain of diamond crystals on Neptune! By
 the way, all these Science articles are available for free online here:
 
-3\) Science Magazine, <http://www.sciencemag.org/search.dtl>
+3\) Science Magazine, `http://www.sciencemag.org/search.dtl`
 
 I also want to say a bit about spin foams. Papers continue to come out
 on this subject:
@@ -106,7 +106,7 @@ divergences, available as
 A while ago, De Pietri, Freidel, Krasnov and Rovelli showed how to get
 the Barrett-Crane model for Riemannian quantum gravity from a quantum
 field theory on a product of 4 copies of SO(4) - see
-\"[week140](week140.html)\". This was based on earlier work by Boulatov
+["Week 140"](#week140). This was based on earlier work by Boulatov
 and Ooguri, who did a similar thing for BF theory. The basic idea is to
 cook up a quantum field theory on a product of copies of Lie group, with
 a nice Lagrangian that encodes how simplices can stick together to form
@@ -149,7 +149,7 @@ relativity. This is good because it gives some more intuition for the
 relation between classical general relativity and the spin foam approach
 to quantum gravity.
 
-Finally, if you\'re hopelessly confused about spin foams and other
+Finally, if you're hopelessly confused about spin foams and other
 approaches to quantum gravity, you might enjoy the following little
 history of quantum gravity. It explains how many different approaches
 were tried, leading up to the research directions that people pursue

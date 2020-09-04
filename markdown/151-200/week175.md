@@ -7,7 +7,7 @@ the left side of the road, in escalators one must stand on the right.
 You flip switches down to turn on lights. Camels and zebras have escaped
 from the Royal Zoo and mated, and their hybrids roam the English
 countryside. On the roadside you will occasionally see signs for
-\"humped zebra crossings\". Also, the Royal Observatory in Greenwich
+"humped zebra crossings". Also, the Royal Observatory in Greenwich
 fires a powerful green laser each night to mark the Prime Meridian -
 zero degrees longitude.
 
@@ -18,13 +18,13 @@ the night. And speaking of longitude, the day before Christmas I visited
 this observatory and had a wonderful time learning how John Harrison
 solved the longitude problem.
 
-The longitude problem? Ah, how soon we forget! It\'s pretty easy to tell
-your latitude by looking at the sun or the stars. However, it\'s pretty
+The longitude problem? Ah, how soon we forget! It's pretty easy to tell
+your latitude by looking at the sun or the stars. However, it's pretty
 hard to tell your longitude, unless you have a clock that keeps good
 time. After all, if you know what time it is in a fixed place, like
-Greenwich, you can figure out how far east or west you\'ve gone by
+Greenwich, you can figure out how far east or west you've gone by
 comparing the time you see the sun rise to the time it would rise there.
-Unfortunately, until the late 1700\'s, pendulum clocks didn\'t work well
+Unfortunately, until the late 1700's, pendulum clocks didn't work well
 at sea, due to the rocking waves. This was a real problem! Ships would
 lose track of their longitude, go astray, and sometimes even run
 aground, killing hundreds of sailors.
@@ -41,11 +41,11 @@ England, and he set to work on the star atlas. He moved into the Royal
 Observatory, and stayed up each night making observations with the help
 of his wife.
 
-However, before this \"lunar distance method\" came online, the
+However, before this "lunar distance method" came online, the
 watchmaker John Harrison invented the first of a series of ingenious
 clocks that worked well despite rocking waves and fluctuations of
 temperature. All these can still be seen at the Royal Observatory -
-they\'re very beautiful! In the process, Harrison developed a whole
+they're very beautiful! In the process, Harrison developed a whole
 bunch of cool technology like ball bearings and the bimetallic strip
 used in thermostats.
 
@@ -54,22 +54,22 @@ was accurate to within .06 seconds a day, which was certainly good
 enough. Finally King George III persuaded the board to give him the
 prize - but by then he was an old man. Luckily, I get the feeling
 Harrison was really more interested in building clocks than winning the
-prize money. He loved his work\... one of the keys to a happy life.
+prize money. He loved his work... one of the keys to a happy life.
 
-Here\'s a book that tells his story in more detail:
+Here's a book that tells his story in more detail:
 
 1\) Dava Sobel, Longitude, Fourth Estate Ltd., London, 1996.
 
-I found it in the gift shop of the Observatory. It\'s a fun read, but
-for the technical reader it\'s frustratingly vague on the technical
-details of how Harrisons\' clocks actually work.
+I found it in the gift shop of the Observatory. It's a fun read, but
+for the technical reader it's frustratingly vague on the technical
+details of how Harrisons' clocks actually work.
 
 I also bought this book there:
 
 2\) E. G. Richards, Mapping Time: The Calendar and its History, Oxford
 U. Press, Oxford, 1998.
 
-Since it\'s almost New Year\'s Day, let me tell you a bit what I learned
+Since it's almost New Year's Day, let me tell you a bit what I learned
 about calendars!
 
 Mathematical physics has deep roots in astronomy, which may have been
@@ -83,26 +83,26 @@ measured the length of the month to be 29.53014 days - an error of only
 
 If there were 360 days in a year, 30 days in a month, and 12 months in a
 year, the ancients would have been happy, since they loved numbers with
-lots of divisors. But alas, there aren\'t! These whole numbers come
+lots of divisors. But alas, there aren't! These whole numbers come
 tantalizingly close, but not close enough, so the need for accurate
 calendars, balanced by the desire for simplicity, kept pushing the
 development of mathematics and astronomy forward.
 
-There are also lots of complications I haven\'t mentioned. I\'ve been
-talking about the \"mean solar day\", the \"mean synodic month\" and the
-\"tropical year\", but in fact the length of the day and month vary
-substantially due to the tilt of the earth\'s axis, the tilt of the
-moon\'s orbit, and other effects - so actually there are several
+There are also lots of complications I haven't mentioned. I've been
+talking about the "mean solar day", the "mean synodic month" and the
+"tropical year", but in fact the length of the day and month vary
+substantially due to the tilt of the earth's axis, the tilt of the
+moon's orbit, and other effects - so actually there are several
 different definitions of day, month and year. This was enough to keep
 the astronomer-priests in business for centuries. For more on the
 physics of it all, try:
 
 3\) John Baez, The wobbling of the earth and other curiosities,
-<http://math.ucr.edu/home/baez/wobble.html>
+`http://math.ucr.edu/home/baez/wobble.html`
 
 Unfortunately, the Romans, whose calendar we inherit, were real
 goofballs when it came to calendrics. Their system was run by a body of
-\"pontifices\" headed by the Pontifex Maximus. In 450 BC these guys
+"pontifices" headed by the Pontifex Maximus. In 450 BC these guys
 adopted a calendar in which odd-numbered years had 12 months and 355
 days, while even-numbered years had 13 months and alternated between 377
 and 378 days. The extra month, called Mercedonius, was stuck smack in
@@ -120,19 +120,19 @@ known as the Last Year of Confusion. It featured an extra long
 Mercedonius as well as two extra months after December, called
 Undecimber and Duodecimber.
 
-The new so-called \"Julian calendar\" featured 12 months and 365 days,
+The new so-called "Julian calendar" featured 12 months and 365 days,
 with an extra day in February every fourth year. The months alternated
 nicely between 31 and 30 days, except for February, which only had 30 on
 leap years. Unfortunately, Caesar was assassinated in 44 BC before this
 system fully took hold. The pontifices ineptly interpreted his orders
-and stuck in an extra day every *third* year. This didn\'t get fixed
+and stuck in an extra day every *third* year. This didn't get fixed
 until 9 BC, Augustus stopped this practice and decreed that the next 3
 leap years be skipped to make up for the extra ones the pontifices had
 inserted.
 
 From then on, things went more smoothly, except for a lot of
 name-grabbing. When Julius Caesar was assassinated, the Senate took the
-month of Quintilis and renamed it \"Iulius\" in his honor, giving us
+month of Quintilis and renamed it "Iulius" in his honor, giving us
 July. Augustus followed suit, naming the month of Sextilis after himself
 - giving us August. More annoyingly, he stole the last day from February
 and stuck it on his own month to make it 31 days long, and did some
@@ -144,15 +144,15 @@ he modestly declined. The next one, Caligula, was not so modest: he
 renamed June after his father Germanicus. Then Claudius renamed May
 after himself, and Nero grabbed April. Later, Domitian took October and
 Antonius took September. The vile Commodus tried to rename all twelve
-months, but that didn\'t stick. Then Tacitus snatched September away
-from Antonius\... but luckily, all these later developments have been
+months, but that didn't stick. Then Tacitus snatched September away
+from Antonius... but luckily, all these later developments have been
 forgotten!
 
-This is only a tiny fraction of the fascinating lore in Richards\' book.
-Ever wonder why there are 7 days in a week? That\'s pretty easy:
-they\'re named after the 7 planets - in the old sense of \"planets\",
-meaning heavenly bodies visible by eye that don\'t move with the stars.
-But here\'s a harder puzzle! Why are the 7 planets are listed in this
+This is only a tiny fraction of the fascinating lore in Richards' book.
+Ever wonder why there are 7 days in a week? That's pretty easy:
+they're named after the 7 planets - in the old sense of "planets",
+meaning heavenly bodies visible by eye that don't move with the stars.
+But here's a harder puzzle! Why are the 7 planets are listed in this
 order?
 
     Sun     (Sunday - Dies Solis)
@@ -163,10 +163,10 @@ order?
     Venus   (Friday - Dies Veneris)
     Saturn  (Saturday - Dies Saturnis)
 
-There\'s actually a nice explanation. However, I won\'t give it away
+There's actually a nice explanation. However, I won't give it away
 here. Can you guess it?
 
-Since ancient science was closely tied to numerology, I can\'t resist
+Since ancient science was closely tied to numerology, I can't resist
 mentioning some fun facts relating the calendar and the deck of cards.
 As you probably know, playing cards come in 4 suits of 13 cards each,
 for a total of 52. 52 is also the number of weeks in a year. The 4
@@ -179,12 +179,12 @@ counting an ace as 1, a deuce as 2, and so on up to 13, we get
 (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 + 13) x 4 = 364,
 
 which is one less than the number of days in a year! The remaining day
-corresponds to the \"joker\", a card which does not belong to any suite.
+corresponds to the "joker", a card which does not belong to any suite.
 
-Many calendars contain \"epagomenal days\" not included in any month.
+Many calendars contain "epagomenal days" not included in any month.
 For example, the Egyptians had 5 epagomenal days, leaving 360 which they
 could split up neatly into 12 months. In a system with one epagomenal
-day - the \"joker\" - the remaining 364 days can be divided not only as
+day - the "joker" - the remaining 364 days can be divided not only as
 
 (30 + 30 + 31) x 4,
 
@@ -194,8 +194,8 @@ month per season, but also as
 13 x 28
 
 which allows for 13 anomalistic months of 28 days each - where an
-\"anomalistic month\" is the time it takes for the moon to come round to
-its perigee, where it\'s as close to the earth as possible.
+"anomalistic month" is the time it takes for the moon to come round to
+its perigee, where it's as close to the earth as possible.
 
 Putting it all together, we see that the number 364 factors as
 
@@ -206,9 +206,9 @@ which corresponds to 13 months, each containing 4 weeks, each containing
 containing 7 days - or to 4 suites, each containing 13 cards, with an
 average face value of 7.
 
-Cute, eh? I\'m not sure how much of this stuff is coincidence and how
+Cute, eh? I'm not sure how much of this stuff is coincidence and how
 much was planned out by the mysterious mystics who invented playing
-cards. Of course we can\'t take these whole numbers too seriously - for
+cards. Of course we can't take these whole numbers too seriously - for
 example, the anomalistic month is actually 27.55455 days long, not 28.
 However, a 364-day year *is* mentioned in the the Book of Enoch, a
 pseudepigrapical Hebrew text which was found, among other places, in the
@@ -218,22 +218,22 @@ season into months with 30, 30 and 31 days has also been favored by many
 advocates of calendar reform.
 
 Of course, numerology should always be left to competent mathematicians
-who don\'t actually believe in it.
+who don't actually believe in it.
 
-Here\'s another nice book:
+Here's another nice book:
 
 4\) Alain Connes, Andre Lichnerowicz and Marcel Paul Schutzenberger, A
 Triangle of Thoughts, AMS, Providence, 2000.
 
 This consists of polished-up transcripts of dialogues (or should I say
 trialogues?) among these mathematicians. I wish more good scientists
-would write this sort of thing; it\'s much less strenuous to learn stuff
-by listening to people talk than by reading textbooks! It\'s true that
+would write this sort of thing; it's much less strenuous to learn stuff
+by listening to people talk than by reading textbooks! It's true that
 textbooks are necessary when you want to master the details, but for the
-all-important \"big picture\", conversations can be much better.
+all-important "big picture", conversations can be much better.
 
 This book focuses on mathematical logic and physics, with a strong touch
-of philosophy\... but it wanders all over the map in a pleasant way -
+of philosophy... but it wanders all over the map in a pleasant way -
 from Bernoulli numbers to game theory! The conversation is dominated by
 Connes, whose name appears on the title in bigger letters than the other
 two authors, perhaps because they others are now dead.
@@ -241,7 +241,7 @@ two authors, perhaps because they others are now dead.
 There is only one mistake in this book that I would like to complain
 about. Following Roger Penrose, Connes takes quasicrystals as evidence
 for some mysterious uncomputability in the laws of nature. The idea is
-that since there\'s no algorithm for deciding when a patch of Penrose
+that since there's no algorithm for deciding when a patch of Penrose
 tiles can be extended to a tiling of the whole plane, nature must do
 something uncomputable to produce quasicrystals of this symmetry. The
 flaw in this reasoning seems obvious: when nature gets stuck, it feels
@@ -249,85 +249,85 @@ free to insert a *defect* in the quasicrystal. Quasicrystals do not need
 to be perfect to produce the characteristic diffraction patterns by
 which we recognize them.
 
-But that\'s a minor nitpick: the book is wonderful! Read it!
+But that's a minor nitpick: the book is wonderful! Read it!
 
-In case you don\'t know: Alain Connes is a Fields medalist, who won the
+In case you don't know: Alain Connes is a Fields medalist, who won the
 prize mainly for two things: his work on Von Neumann algebras, and his
-work on noncommutative geometry. Now I\'ll talk a bit about von Neumann
-algebras, since you\'ll need to understand a bit about them to follow
+work on noncommutative geometry. Now I'll talk a bit about von Neumann
+algebras, since you'll need to understand a bit about them to follow
 the rest of my description of the paper by Michael Mueger that I have
-been slowly explaining throughout \"[week173](week173.html)\" and
-\"[week174](week174.html)\".
+been slowly explaining throughout ["Week 173"](#week173) and
+["Week 174"](#week174).
 
-So: what\'s a von Neumann algebra? Before I get technical and you all
+So: what's a von Neumann algebra? Before I get technical and you all
 leave, I should just say that von Neumann designed these algebras to be
-good \"algebras of observables\" in quantum theory. The simplest example
+good "algebras of observables" in quantum theory. The simplest example
 consists of all n x n complex matrices: these become an algebra if you
 add and multiply them the usual way. So, the subject of von Neumann
 algebras is really just a grand generalization of the theory of matrix
 multiplication.
 
 But enough beating around the bush! For starters, a von Neumann algebra
-is a \*-algebra of bounded operators on some Hilbert space of countable
+is a *-algebra of bounded operators on some Hilbert space of countable
 dimension - that is, a bunch of bounded operators closed under addition,
-multiplication, scalar multiplication, and taking adjoints: that\'s the
-\* business. However, to be a von Neumann algebra, our \*-algebra needs
+multiplication, scalar multiplication, and taking adjoints: that's the
+* business. However, to be a von Neumann algebra, our *-algebra needs
 one extra property! This extra property is cleverly chosen so that we
 can apply functions to observables and get new observables, which is
 something we do all the time in physics.
 
 More precisely, given any self-adjoint operator A in our von Neumann
-algebra and any measurable function f: R → R, we want there to be a
+algebra and any measurable function f: R \to R, we want there to be a
 self-adjoint operator f(A) that again lies in our von Neumann algebra.
 To make sure this works, we need our von Neumann algebra to be
-\"closed\" in a certain sense. The nice thing is that we can state this
+"closed" in a certain sense. The nice thing is that we can state this
 closure property either algebraically or topologically.
 
-In the algebraic approach, we define the \"commutant\" of a bunch of
+In the algebraic approach, we define the "commutant" of a bunch of
 operators to be the set of operators that commute with all of them. We
-then say a von Neumann algebra is a \*-algebra of operators that\'s the
+then say a von Neumann algebra is a *-algebra of operators that's the
 commutant of its commutant.
 
-In the topological approach, we say a bunch of operators T~i~ converges
-\"weakly\" to an operator T if their expectation values converge to that
+In the topological approach, we say a bunch of operators T_i converges
+"weakly" to an operator T if their expectation values converge to that
 of T in every state, that is,
 
-    <ψ, Ti ψ>  →  <ψ, T ψ>
+    <\psi, Ti \psi>  \to  <\psi, T \psi>
 
-for all unit vectors ψ in the Hilbert space. We then say a von Neumann
-algebra is an \*-algebra of operators that is closed in the weak
+for all unit vectors \psi in the Hilbert space. We then say a von Neumann
+algebra is an *-algebra of operators that is closed in the weak
 topology.
 
-It\'s a nontrivial theorem that these two definitions agree!
+It's a nontrivial theorem that these two definitions agree!
 
-While classifying all \*-algebras of operators is an utterly hopeless
+While classifying all *-algebras of operators is an utterly hopeless
 task, classifying von Neumann algebras is almost within reach - close
 enough to be tantalizing, anyway. Every von Neumann algebra can be built
-from so-called \"simple\" ones as a direct sum, or more generally a
-\"direct integral\", which is a kind of continuous version of a direct
-sum. As usual in algebra, the \"simple\" von Neumann algebras are
+from so-called "simple" ones as a direct sum, or more generally a
+"direct integral", which is a kind of continuous version of a direct
+sum. As usual in algebra, the "simple" von Neumann algebras are
 defined to be those without any nontrivial ideals. This turns out to be
 equivalent to saying that only scalar multiples of the identity commute
 with everything in the von Neumann algebra.
 
-People call simple von Neumann algebras \"factors\" for short. Anyway,
+People call simple von Neumann algebras "factors" for short. Anyway,
 the point is that we just need to classify the factors: the process of
 sticking these together to get the other von Neumann algebras is not
 tricky.
 
 The first step in classifying factors was done by von Neumann and
 Murray, who divided them into types I, II, and III. This classification
-involves the concept of a \"trace\", which is a generalization of the
+involves the concept of a "trace", which is a generalization of the
 usual trace of a matrix.
 
-Here\'s the definition of a trace on a von Neumann algebra. First, we
-say an element of a von Neumann algebra is \"nonnegative\" if it\'s of
-the form xx\* for some element x. The nonnegative elements form a
-\"cone\": they are closed under addition and under multiplication by
+Here's the definition of a trace on a von Neumann algebra. First, we
+say an element of a von Neumann algebra is "nonnegative" if it's of
+the form xx* for some element x. The nonnegative elements form a
+"cone": they are closed under addition and under multiplication by
 nonnegative scalars. Let P be the cone of nonnegative elements. Then a
-\"trace\" is a function
+"trace" is a function
 
-    tr: P → [0, +∞]
+    tr: P \to [0, +\infty]
 
 which is linear in the obvious sense and satisfies
 
@@ -337,28 +337,28 @@ whenever both xy and yx are nonnegative.
 
 Note: we allow the trace to be infinite, since the interesting von
 Neumann algebras are infinite-dimensional. This is why we define the
-trace only on nonnegative elements; otherwise we get \"∞ minus ∞\"
+trace only on nonnegative elements; otherwise we get "\infty minus \infty"
 problems. The same thing shows up in the measure theory, where we start
-by integrating nonnegative functions, possibly getting the answer +∞,
+by integrating nonnegative functions, possibly getting the answer +\infty,
 and worry later about other functions.
 
-Indeed, a trace very much like an integral, so we\'re really studying a
+Indeed, a trace very much like an integral, so we're really studying a
 noncommutative version of the theory of integration. On the other hand,
 in the matrix case, the trace of a projection operator is just the
-dimension of the space it\'s the projection onto. We can define a
-\"projection\" in any von Neumann algebra to be an operator with p\* = p
-and p^2^ = p. If we study the trace of such a thing, we\'re studying a
+dimension of the space it's the projection onto. We can define a
+"projection" in any von Neumann algebra to be an operator with p* = p
+and p^2 = p. If we study the trace of such a thing, we're studying a
 *generalization of the concept of dimension*. It turns out this can be
 infinite, or even nonintegral!
 
 We say a factor is type I if it admits a nonzero trace for which the
-trace of a projection lies in the set {0,1,2,\...,+∞}. We say it\'s type
-I~n~ if we can normalize the trace so we get the values {0,1,\...,n}.
-Otherwise, we say it\'s type I~∞~, and we can normalize the trace to get
-all the values {0,1,2,\...,+∞}.
+trace of a projection lies in the set {0,1,2,...,+\infty}. We say it's type
+I~n~ if we can normalize the trace so we get the values {0,1,...,n}.
+Otherwise, we say it's type I~\infty~, and we can normalize the trace to get
+all the values {0,1,2,...,+\infty}.
 
 It turn out that every type I~n~ factor is isomorphic to the algebra of
-n x n matrices. Also, every type I~∞~ factor is isomorphic to the
+n x n matrices. Also, every type I~\infty~ factor is isomorphic to the
 algebra of all bounded operators on a Hilbert space of countably
 infinite dimension.
 
@@ -367,15 +367,15 @@ quantum mechanics. So, the real achievement of von Neumann was to begin
 exploring the other factors, which turned out to be important in quantum
 field theory.
 
-We say a factor is type II~1~ if it admits a trace whose values on
+We say a factor is type II_1 if it admits a trace whose values on
 projections are all the numbers in the unit interval \[0,1\]. We say it
-is type II~∞~ if it admits a trace whose value on projections is
-everything in \[0,+∞\].
+is type II~\infty~ if it admits a trace whose value on projections is
+everything in \[0,+\infty\].
 
 Playing with type II factors amounts to letting dimension be a
 continuous rather than discrete parameter!
 
-Weird as this seems, it\'s easy to construct a type II~1~ factor. Start
+Weird as this seems, it's easy to construct a type II_1 factor. Start
 with the algebra of 1 x 1 matrices, and stuff it into the algebra of 2 x
 2 matrices as follows:
 
@@ -386,53 +386,53 @@ with the algebra of 1 x 1 matrices, and stuff it into the algebra of 2 x
 This doubles the trace, so define a new trace on the algebra of 2 x 2
 matrices which is half the usual one. Now keep doing this, doubling the
 dimension each time, using the above formula to define a map from the
-2^n^ x 2^n^ matrices into the 2^n+1^ x 2^n+1^ matrices, and normalizing
+2^n x 2^n matrices into the 2^n+1^ x 2^n+1^ matrices, and normalizing
 the trace on each of these matrix algebras so that all the maps are
-trace-preserving. Then take the *union* of all these algebras\... and
+trace-preserving. Then take the *union* of all these algebras... and
 finally, with a little work, complete this and get a von Neumann
 algebra!
 
-One can show this von Neumann algebra is a factor. It\'s pretty obvious
+One can show this von Neumann algebra is a factor. It's pretty obvious
 that the trace of a projection can be any fraction in the interval
 \[0,1\] whose denominator is a power of two. But actually, *any* number
-from 0 to 1 is the trace of some projection in this algebra - so we\'ve
-got our paws on a type II~1~ factor.
+from 0 to 1 is the trace of some projection in this algebra - so we've
+got our paws on a type II_1 factor.
 
-This isn\'t the only II~1~ factor, but it\'s the only one that contains
+This isn't the only II_1 factor, but it's the only one that contains
 a sequence of finite-dimensional von Neumann algebras whose union is
 dense in the weak topology. A von Neumann algebra like that is called
-\"hyperfinite\", so this guy is called \"the hyperfinite II~1~ factor\".
+"hyperfinite", so this guy is called "the hyperfinite II_1 factor".
 
 It may sound like something out of bad science fiction, but the
-hyperfinite II~1~ factor shows up all over the place in physics!
+hyperfinite II_1 factor shows up all over the place in physics!
 
-First of all, the algebra of 2^n^ x 2^n^ matrices is a Clifford algebra,
-so the hyperfinite II~1~ factor is a kind of infinite-dimensional
-Clifford algebra. But the Clifford algebra of 2^n^ x 2^n^ matrices is
+First of all, the algebra of 2^n x 2^n matrices is a Clifford algebra,
+so the hyperfinite II_1 factor is a kind of infinite-dimensional
+Clifford algebra. But the Clifford algebra of 2^n x 2^n matrices is
 secretly just another name for the algebra generated by creation and
 annihilation operators on the fermionic Fock space over C^2n^. Pondering
-this a bit, you can show that the hyperfinite II~1~ factor is the
+this a bit, you can show that the hyperfinite II_1 factor is the
 smallest von Neumann algebra containing the creation and annihilation
 operators on a fermionic Fock space of countably infinite dimension.
 
-In less technical lingo - I\'m afraid I\'m starting to assume you know
-quantum field theory! - the hyperfinite II~1~ factor is the right
+In less technical lingo - I'm afraid I'm starting to assume you know
+quantum field theory! - the hyperfinite II_1 factor is the right
 algebra of observables for a free quantum field theory with only
-fermions. For bosons, you want the type I~∞~ factor.
+fermions. For bosons, you want the type I~\infty~ factor.
 
-There is more than one type II~∞~ factor, but again there is only one
-that is hyperfinite. You can get this by tensoring the type I~∞~ factor
-and the hyperfinite II~1~ factor. Physically, this means that the
-hyperfinite II~∞~ factor is the right algebra of observables for a free
+There is more than one type II~\infty~ factor, but again there is only one
+that is hyperfinite. You can get this by tensoring the type I~\infty~ factor
+and the hyperfinite II_1 factor. Physically, this means that the
+hyperfinite II~\infty~ factor is the right algebra of observables for a free
 quantum field theory with both bosons and fermions.
 
 The most mysterious factors are those of type III. These can be simply
-defined as \"none of the above\"! Equivalently, they are factors for
-which any nonzero trace takes values in {0,∞}. In a type III factor, all
+defined as "none of the above"! Equivalently, they are factors for
+which any nonzero trace takes values in {0,\infty}. In a type III factor, all
 projections other than 0 have infinite trace. In other words, the trace
 is a useless concept for these guys.
 
-As far as I\'m concerned, the easiest way to construct a type III factor
+As far as I'm concerned, the easiest way to construct a type III factor
 uses physics. Now, I said that free quantum field theories had different
 kinds of type I or type II factors as their algebras of observables.
 This is true if you consider the algebra of *all* observables. However,
@@ -441,14 +441,14 @@ spacetime, and look only at the observables that you can cook from the
 field operators on some bounded open set, you get a subalgebra of
 observables which turns out to be a type III factor!
 
-In fact, this isn\'t just true for free field theories. According to a
+In fact, this isn't just true for free field theories. According to a
 theorem of axiomatic quantum field theory, pretty much all the usual
 field theories on Minkowski spacetime have type III factors as their
-algebras of \"local observables\" - observables that can be measured in
+algebras of "local observables" - observables that can be measured in
 a bounded open set.
 
 Okay, so much for the crash course on von Neumann algebras! Next time
-I\'ll hook this up to Mueger\'s work on 2-categories.
+I'll hook this up to Mueger's work on 2-categories.
 
 In the meantime, here are some references on von Neumann algebras in
 case you want to dig deeper. For the math, try these:
@@ -459,11 +459,11 @@ case you want to dig deeper. For the math, try these:
 6\) Richard V. Kadison and John Ringrose, Fundamentals of the Theory of
 Operator Algebras, 4 volumes, Academic Press, New York, 1983-1992.
 
-7\) Shoichiro Sakai, C\*-algebras and W\*-algebras, Springer, Berlin,
+7\) Shoichiro Sakai, C*-algebras and W*-algebras, Springer, Berlin,
 1971.
 
-A W\*-algebra is basically just a von Neumann algebra, but defined
-\"intrinsically\", in a way that doesn\'t refer to a particular
+A W*-algebra is basically just a von Neumann algebra, but defined
+"intrinsically", in a way that doesn't refer to a particular
 representation as operators on a Hilbert space.
 
 For applications to physics, try these:
@@ -484,9 +484,9 @@ Postscript:
 For more about the measurement of time, Theo Buehler recommends this
 lecture:
 
-11\) John B. Conway, <http://www.math.utk.edu/~conway/Time.html>
+11\) John B. Conway, `http://www.math.utk.edu/~conway/Time.html`
 
-For technical information on John Harrison\'s clocks, Nigel Seeley
+For technical information on John Harrison's clocks, Nigel Seeley
 recommends this book, which also has a bunch of nice pictures:
 
 12\) William J. H. Andrewes, editor, The Quest for Longitude: The
@@ -501,7 +501,7 @@ calendrics:
 Calculations: The Millennium Edition, Oxford U. Press, Oxford, 1997. 268
 pages.
 
-Finally, here\'s a correction and the answer to the puzzle I gave above:
+Finally, here's a correction and the answer to the puzzle I gave above:
 
     Derek Wise wrote: 
 
@@ -514,7 +514,7 @@ Finally, here\'s a correction and the answer to the puzzle I gave above:
     >In the modern calendar, July has 31 days and is adjacent to August.
 
 Yeah - I only remembered that a few days ago, after writing that issue
-of This Week\'s Finds. As a kid I refused to remember how many days were
+of This Week's Finds. As a kid I refused to remember how many days were
 in each month, since it seemed hopelessly arbitrary and ugly - an
 all-too-human invention, rather than something intrinsic to the
 universe. Also, I was never fond of the mnemonic
@@ -522,15 +522,15 @@ universe. Also, I was never fond of the mnemonic
           Thirty days hath September
           All the rest I don't remember ....
 
-mainly because so many months end in \"-ember\" that this mnemonic would
+mainly because so many months end in "-ember" that this mnemonic would
 need a mnemonic of its own for me to recall it. It was only much later
-that I learned the \"knuckles and spaces\" method for keeping track of
+that I learned the "knuckles and spaces" method for keeping track of
 this information. For some reason I tried this a few days ago, and then
-I said \"Hey! There\'s a month with 31 days next to August! What
-gives?\" I meant to look up the facts in Richards\' book *Mapping Time*,
+I said "Hey! There's a month with 31 days next to August! What
+gives?" I meant to look up the facts in Richards' book *Mapping Time*,
 but I forgot. Thanks for reminding me!
 
-Anyway, here\'s the deal: the calendar reform of Julius Caesar gave the
+Anyway, here's the deal: the calendar reform of Julius Caesar gave the
 months these numbers of days:
 
     Januarius  31
@@ -570,7 +570,7 @@ In short: he took the month of Sextilis, renamed it after himself, gave
 it an extra day, and switched the alternating pattern of 30 and 31 after
 that month.
 
-By the way, Richard Bullock gave the \"right\" answer to my puzzle about
+By the way, Richard Bullock gave the "right" answer to my puzzle about
 why the 7 planets are listed in the order they are as names of days of
 the week. By this I mean he gives the same answer that Richards does in
 *Mapping Time*. Astrologers like to list the planets in order of
@@ -603,13 +603,13 @@ reading every third planet in it (mod 7), getting:
     Jupiter (Thursday)
     Venus   (Friday)
 
-I don\'t think anyone is *sure* that this is how the days got the names
+I don't think anyone is *sure* that this is how the days got the names
 they did; the earliest reference for this scheme is the Roman historian
 Dion Cassius (AD 150-235), who came long after the days were named.
 However, Dion says the scheme goes back to Egypt. In the *Moralia* of
-Plutarch (AD 46-120) there was an essay entitled \"Why are the days
+Plutarch (AD 46-120) there was an essay entitled "Why are the days
 named after the planets reckoned in a different order from the actual
-order?\" Unfortunately this essay has been lost and only the title is
+order?" Unfortunately this essay has been lost and only the title is
 known.
 
 To bring the subject back to physics: we should see all these attempts
@@ -620,7 +620,7 @@ bribes to start the year a day early; our descendants may laugh at how
 we add or subtract leap seconds from Coordinated Universal Time (UTC) to
 keep it in step with the irregular rotation of that lumpy ball of rock
 we call Earth (or more precisely, the time system called UT2, based on
-the Earth\'s rotation). How precise will we get? Will we someday be
+the Earth's rotation). How precise will we get? Will we someday be
 worrying about leap attoseconds? Leap Planck times?
 
 ------------------------------------------------------------------------

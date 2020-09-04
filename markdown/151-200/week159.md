@@ -9,8 +9,8 @@ constrained topological field theory, available as
 
 This paper gives an elegant new formulation of 11d supergravity by
 starting from a kind of BF theory and then imposing constraints, very
-much like Plebanski\'s formulation of ordinary gravity in 4d spacetime.
-Recall that in Plebanski\'s formalism, we start with:
+much like Plebanski's formulation of ordinary gravity in 4d spacetime.
+Recall that in Plebanski's formalism, we start with:
 
 a\) a Lorentz connection A, which can locally be thought of as a 1-form
 taking values in the Lie algebra of the Lorentz group,
@@ -27,63 +27,63 @@ tr(B \^ F)
 where F is the curvature of A. The equations of motion say that both the
 curvature of A and the exterior covariant derivative of B vanish. All
 solutions of these equations are locally gauge-equivalent, so there are
-no local degrees of freedom - that\'s what I mean by saying we get a
+no local degrees of freedom - that's what I mean by saying we get a
 topological field theory.
 
 But if we impose the constraint that
 
 B = e \^ e
 
-where e is a \"cotetrad\" - which locally amounts to a 1-form taking
+where e is a "cotetrad" - which locally amounts to a 1-form taking
 values in R\^4 - we get the equations of general relativity! We can
 impose this constraint by throwing an extra term into the Lagrangian,
-involving an extra \"Lagrange multiplier\" field. The sole purpose of
+involving an extra "Lagrange multiplier" field. The sole purpose of
 this extra field is to ensure that when we compute the variation of the
 action with respect to it, we get zero iff B = e \^ e.
 
-Similarly, in Ling and Smolin\'s formulation of 11d supergravity we
+Similarly, in Ling and Smolin's formulation of 11d supergravity we
 start with:
 
 a\) a super-Poincare superconnection A, which can locally be described
 as a 1-form taking values in the super-Lie algebra of the super-Poincare
-group - or \"super-Poincare algebra\", for short.
+group - or "super-Poincare algebra", for short.
 
 b\) a 3-form C.
 
 c\) a 6-form D.
 
-We think of all three of these as \"gauge fields\". I already mentioned
-in \"[week157](week157.html)\" how a p-form can be viewed as a
+We think of all three of these as "gauge fields". I already mentioned
+in ["Week 157"](#week157) how a p-form can be viewed as a
 generalization of the electromagnetic vector potential which couples
 naturally to a membrane that traces out a p-dimensional surface in
 spacetime: we just integrate the p-form over this surface to get the
 action. Annoyingly, physicists call a membrane that traces out a
-p-dimensional surface in spacetime a \"(p-1)-brane\", so a string is a
-1-brane, a point particle is a 0-brane\... and an instanton is a
+p-dimensional surface in spacetime a "(p-1)-brane", so a string is a
+1-brane, a point particle is a 0-brane... and an instanton is a
 -1-brane. They should have remembered to count spacetime dimensions
-instead of space dimensions! Then we wouldn\'t have this nasty \"minus
-one\" stuff.
+instead of space dimensions! Then we wouldn't have this nasty "minus
+one" stuff.
 
 But anyway, the usual formulation of 11d supergravity (see
-\"[week157](week157.html)\") involves a 3-form field, which couples
-naturally to 2-branes. This is nice because there\'s lots of evidence
+["Week 157"](#week157)) involves a 3-form field, which couples
+naturally to 2-branes. This is nice because there's lots of evidence
 that M-theory has a lot to do with 2-branes. The nice thing about Ling
-and Smolin\'s formulation is that it also includes a 6-form field, which
-couples to 5-branes. There\'s also a lot of evidence that M-theory is
+and Smolin's formulation is that it also includes a 6-form field, which
+couples to 5-branes. There's also a lot of evidence that M-theory is
 related to 5-branes, but these have always been a bit more mysterious
-than the 2-branes. Now, however, they\'re staring us in the face right
+than the 2-branes. Now, however, they're staring us in the face right
 from the start!
 
-Next, before I go further, I should say what the \"super-Poincare
-algebra\" is!
+Next, before I go further, I should say what the "super-Poincare
+algebra" is!
 
-In fact, I\'ve been pretty coy all along about explaining supersymmetry.
+In fact, I've been pretty coy all along about explaining supersymmetry.
 Let me quickly try to remedy that. The basic idea of supersymmetry is
 that we should build the distinction between bosons and fermions into
 all the math we ever do. So instead of doing math with vector spaces, we
-should do it with \"supervector spaces\". A supervector space is just a
-direct sum of two vector spaces, called the \"even\" or \"bosonic\"
-space and the \"odd\" or \"fermionic\" space. So, for example, the
+should do it with "supervector spaces". A supervector space is just a
+direct sum of two vector spaces, called the "even" or "bosonic"
+space and the "odd" or "fermionic" space. So, for example, the
 Hilbert space of a quantum system built out of bosons and fermions will
 always be a supervector space.
 
@@ -91,22 +91,22 @@ Supervector spaces work a lot like ordinary vector spaces, so we can
 redo all of math replacing vector spaces by supervector spaces. To do
 this, we just copy all the usual stuff, EXCEPT that whenever we switch
 two vectors past each other in our formulas, we stick in an extra minus
-sign when they\'re both odd! This reflects the way fermions actually
+sign when they're both odd! This reflects the way fermions actually
 work in nature: when you exchange two of them, their wavefunction picks
 up a phase of -1.
 
-Supervector spaces are also an obvious idea if you\'ve studied enough
+Supervector spaces are also an obvious idea if you've studied enough
 math. For example, differential forms of odd degree anticommute with
 each other, while forms of even degree commute with everything. So the
 differential forms on a manifold really form a supervector space, and in
-fact, a \"supercommutative algebra\". For reasons like this,
+fact, a "supercommutative algebra". For reasons like this,
 mathematicians and physicists got together back in the 1980s and figured
 out how to redo huge wads of algebra in the context of supervector
-spaces. It\'s actually very easy if you use a little category
-theory\....
+spaces. It's actually very easy if you use a little category
+theory....
 
-Anyway, using this trick we can come up with the notion of a \"super-Lie
-algebra\". It\'s almost like a Lie algebra, except that the bracket
+Anyway, using this trick we can come up with the notion of a "super-Lie
+algebra". It's almost like a Lie algebra, except that the bracket
 \[A,B\] of two odd elements A and B behaves like an anticommutator AB+BA
 instead of the usual commutator AB-BA. This means we need to throw in
 suitable signs into the Jacobi identity and other Lie algebra axioms: an
@@ -116,28 +116,28 @@ Now, how about the super-Poincare algebra?
 
 As you probably know, the Lie algebra of the Poincare group has
 translation generators P~a~ and rotation/boost generators L~ab~, where
-the indices go from 1 to n if spacetime has n dimensions. I won\'t
+the indices go from 1 to n if spacetime has n dimensions. I won't
 bother writing down the well-known commutation relations between these
 guys.
 
 The super-Lie algebra of the super-Poincare group contains all this
 stuff as its even part, but it also has an odd part! The odd part has a
-basis of \"supertranslation generators\" Q~A~, where A ranges over a
-basis of real spinors. Now, spinors are like \"square roots of
-vectors\": there\'s a natural symmetric bilinear map taking a pair of
-spinors to a vector. So it\'s natural to define the bracket of two
+basis of "supertranslation generators" Q~A~, where A ranges over a
+basis of real spinors. Now, spinors are like "square roots of
+vectors": there's a natural symmetric bilinear map taking a pair of
+spinors to a vector. So it's natural to define the bracket of two
 supertranslations by:
 
 \[Q~A~,Q~B~\] = Γ~AB~^a^ P~a~
 
-where the so-called \"γ matrix\" Γ~AB~^a^ is just the physicist\'s
+where the so-called "γ matrix" Γ~AB~^a^ is just the physicist's
 coordinate-ridden way of describing this map taking a pair of spinors to
 a vector. Since this map is symmetric, we have
 
 \[Q~A~,Q~B~\] = \[Q~B~,Q~A~\]
 
-If you\'re used to Lie algebras, this equation must look like it\'s
-missing a minus sign - but we\'re doing super-Lie algebras, and the
+If you're used to Lie algebras, this equation must look like it's
+missing a minus sign - but we're doing super-Lie algebras, and the
 supertranslation generators are odd, so we expect that!
 
 To complete the definition, we need to describe the brackets between
@@ -147,32 +147,32 @@ is zero. The bracket of a rotation/boost and a supertranslation is
 defined using the usual action of the Lie algebra of the Lorentz group
 on spinors.
 
-Okay, now let\'s go back and think a minute about what the
-\"superconnection\" in Ling and Smolin\'s formulation of 11d
+Okay, now let's go back and think a minute about what the
+"superconnection" in Ling and Smolin's formulation of 11d
 supergravity is really like. If we work locally, we can think of this as
 a 1-form taking values in the super-Poincare algebra. Thus it really
 consists of 3 parts:
 
 a\) a 1-form taking values in the Lorentz Lie algebra so(10,1). This is
-secretly the \"spin connection\" in the usual formulation of 11d
+secretly the "spin connection" in the usual formulation of 11d
 supergravity, as described last week.
 
-a\') a 1-form taking values in the translation Lie algebra R^11^. This
-is secretly the \"elfbein\" in the usual formulation of 11d
+a') a 1-form taking values in the translation Lie algebra R^11^. This
+is secretly the "elfbein" in the usual formulation of 11d
 supergravity, as described last week.
 
-a\'\') a 1-form taking values in the space of real spinors. This is just
-the \"gravitino\" in the usual formulation of 11d supergravity, as
+a'') a 1-form taking values in the space of real spinors. This is just
+the "gravitino" in the usual formulation of 11d supergravity, as
 described last week.
 
 So you see, this fancy-schmancy super-baloney really helps simplify our
-description of what\'s going on!
+description of what's going on!
 
-I\'m getting a little worn out, so I\'ll just summarize the rest of the
+I'm getting a little worn out, so I'll just summarize the rest of the
 story. First, how do Ling and Smolin get their 11d topological field
-theory? Like I said, it\'s a kind of BF theory, where the Lagrangian is
+theory? Like I said, it's a kind of BF theory, where the Lagrangian is
 like tr(B \^ F). But there are a bunch of F fields - i.e., curvatures -
-and thus a bunch of B fields. Namely, we\'ve got the curvature of the
+and thus a bunch of B fields. Namely, we've got the curvature of the
 superconnection A, the curvature dC of the 3-form C, and the curvature
 dD of the 6-form D. And if you analyze it, the curvature of the
 superconnection consists of 3 separate parts. So we really have five F
@@ -182,23 +182,23 @@ sum of terms of the form tr(B \^ F).
 To get 11d supergravity, we have to impose a bunch of constraints by
 throwing extra terms into the Lagrangian. There is one term like this
 for each F field. We also have to throw in a term which gives the analog
-of Maxwell\'s equations for the 3-form field C. So the paper\'s title is
-a mild lie! We\'re not seeing 11d supergravity as simply a constrained
-topological field theory - there\'s also an extra interaction.
+of Maxwell's equations for the 3-form field C. So the paper's title is
+a mild lie! We're not seeing 11d supergravity as simply a constrained
+topological field theory - there's also an extra interaction.
 
-By the way, if you\'ve never seen the Plebanski formulation of 4d
-gravity as a constrained BF theory, here\'s the original paper:
+By the way, if you've never seen the Plebanski formulation of 4d
+gravity as a constrained BF theory, here's the original paper:
 
 2\) M. J. Plebanski, On the separation of Einsteinian substructures, J.
 Math. Phys. 18 (1977), 2511.
 
-Ling and Smolin\'s formulation of 11d supergravity is related to some
-work of Fre and collaborators, which I haven\'t read yet:
+Ling and Smolin's formulation of 11d supergravity is related to some
+work of Fre and collaborators, which I haven't read yet:
 
 3\) Pietro Fre, Comments on the six index photon in D = 11, preprint
 TH-3884-CERN.
 
-4\) R. D\'Auria and P. Fre, Geometric supergravity in D = 11 and its
+4\) R. D'Auria and P. Fre, Geometric supergravity in D = 11 and its
 hidden supergroup, Nucl. Phys. B201 (1982), 101. Erratum, Nucl. Phys.
 B206 (182), 496.
 
@@ -206,7 +206,7 @@ B206 (182), 496.
 group manifold approach and its applications to conformal supergravity,
 Ann. Phys. 136 (1981), 398.
 
-Here\'s another formulation of 11d supergravity I\'d like to check out:
+Here's another formulation of 11d supergravity I'd like to check out:
 
 6\) Martin Cederwall, Ulf Gran, Mikkel Nielsen, and Bengt Nillson,
 Generalised 11-dimensional supergravity, available as
@@ -216,31 +216,31 @@ Cederwall has done interesting work on octonions and physics, so I want
 to look here for clues that 11d supergravity is related to the
 octonions.
 
-Actually, now that I\'ve said a bit about supersymmetry, I can explain a
-bit about how it\'s related to division algebras and exceptional groups.
+Actually, now that I've said a bit about supersymmetry, I can explain a
+bit about how it's related to division algebras and exceptional groups.
 All this stuff will be described in more detail in my review article on
-octonions, which I\'ll finish by March of next year. But I can\'t resist
-saying a little right now\....
+octonions, which I'll finish by March of next year. But I can't resist
+saying a little right now....
 
-As we\'ve seen, a crucial part of the super-Poincare algebra is the map
+As we've seen, a crucial part of the super-Poincare algebra is the map
 taking a pair of real spinors to a vector. Abstractly we can write this
 as follows:
 
-m: S x S → V.
+m: S x S \to V.
 
 In certain dimensions we can split the spinor space S into spaces of
 left- and right-handed spinors, say S+ and S-. Then we get a map
 
-m: S+ x S- → V.
+m: S+ x S- \to V.
 
 This stuff works both for Minkowski spacetime and for Euclidean space.
-If we do it for Euclidean space, we find a marvelous fact\....
+If we do it for Euclidean space, we find a marvelous fact....
 
 In certain special cases - namely dimensions 1 and 2 - the dimension of
 V matches the dimension of S. This lets us identify V with S. Then the
 map
 
-m: S x S → V
+m: S x S \to V
 
 turns out to be *multiplication* for the real and complex numbers,
 respectively.
@@ -249,7 +249,7 @@ In other special cases - namely dimensions 4 and 8 - the dimension of V
 matches the dimension of S+, and also S-. This lets us identify V with
 S+ and S-. Then the map
 
-m: S+ x S- → V
+m: S+ x S- \to V
 
 turns out to be *multiplication* for the quaternions and octonions,
 respectively.
@@ -265,7 +265,7 @@ important role in physics:
                        /
                       /
 
-also gives rise to all the division algebras! (Here I\'ve drawn the
+also gives rise to all the division algebras! (Here I've drawn the
 usual picture of a spinor particle and a spinor antiparticle
 annihilating to form a vector boson: this is a physics application of
 the map m.)
@@ -275,17 +275,17 @@ Lorentz Lie algebra on spinors. Again, this has a Euclidean analogue,
 where the Lie algebra of the Lorentz group gets replaced by that of the
 rotation group. In n dimensions, we thus get an action
 
-so(n) x S → S
+so(n) x S \to S
 
 which we can also dualize to get a map
 
-S x S → so(n).
+S x S \to so(n).
 
 Of course, we also have the Lie bracket
 
-so(n) x so(n) → so(n).
+so(n) x so(n) \to so(n).
 
-So it\'s natural to ask: can we use all three of these maps to define a
+So it's natural to ask: can we use all three of these maps to define a
 Lie bracket on the direct sum of so(n) and the spinor space S?
 
 And the answer is: yes, but only if n = 9. Then we get the exceptional
@@ -324,10 +324,10 @@ In short, we have the following story:
                                                     E7 in dimension 12
                                                     E8 in dimension 16
 
-And you\'ll note that the dimensions in the second list are 8 more than
+And you'll note that the dimensions in the second list are 8 more than
 the corresponding dimensions in the first list. This is no coincidence!
-It has to do with the octonions. But I\'m too tired to explain that
-now\....
+It has to do with the octonions. But I'm too tired to explain that
+now....
 
 Anyway, my main point was just that the natural maps involving
 rotation/boost generators (i.e. the Lorentz Lie algebra, or rotation Lie
@@ -340,14 +340,14 @@ b\) the division algebras R, C, H and O
 
 c\) the exceptional Lie algebras F4, E6, E7 and E8
 
-So it\'s not really odd to expect relations between these three things!
+So it's not really odd to expect relations between these three things!
 
-Of course, I\'ve shown how items b) and c) are related to rotations,
+Of course, I've shown how items b) and c) are related to rotations,
 spinors and vectors in Euclidean space, while item a) is related to
 rotations/boosts, spinors and vectors in Minkowski spacetime. To round
-off the picture, I\'d have to describe the relation between spinors in
+off the picture, I'd have to describe the relation between spinors in
 n-dimensional Euclidean space to spinors in (n+2)-dimensional Minkowski
-spacetime. It\'s this relation that gives the isomorphisms
+spacetime. It's this relation that gives the isomorphisms
 
 so(2,1) = sl(2,R)
 
@@ -357,12 +357,12 @@ so(5,1) = sl(2,H)
 
 so(9,1) = sl(2,O)
 
-which I mentioned already in \"[week104](week104.html)\". This is what
+which I mentioned already in ["Week 104"](#week104). This is what
 lets us write down the super-Yang-Mills Lagrangians and superstring
 Lagrangians in spacetimes of dimension 3, 4, 6, and 10 - i.e., 2 more
 than the magic numbers 1, 2, 4, and 8. Adding 8, we can guess there
 should also be fun stuff in spacetimes of dimensions 11, 12, 14 and 18,
 related to F4, E6, E7 and E8, respectively. Is this true? Is the 11d
-case related to 11d supergravity - or M-theory? I don\'t know.
+case related to 11d supergravity - or M-theory? I don't know.
 
 ------------------------------------------------------------------------

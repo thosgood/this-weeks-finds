@@ -1,28 +1,28 @@
 week202
 
-This week I\'ll deviate from my plan of discussing number theory, and
-instead say a bit about something else that\'s been on my mind lately:
-structure types. But, you\'ll see my fascination with Galois theory
+This week I'll deviate from my plan of discussing number theory, and
+instead say a bit about something else that's been on my mind lately:
+structure types. But, you'll see my fascination with Galois theory
 lurking beneath the surface.
 
-Andre Joyal invented structure types in 1981 - he called them \"espèces
-de structure\", and lots of people call them \"species\". Basically, a
+Andre Joyal invented structure types in 1981 - he called them "espèces
+de structure", and lots of people call them "species". Basically, a
 structure type is just any sort of structure we can put on finite sets:
 an ordering, a coloring, a partition, or whatever. In combinatorics we
-count such structures using \"generating functions\". A generating
-function is a power series where the coefficient of x^n^ keeps track of
-how many structures of the given kind we can put on an n-element set. By
+count such structures using "generating functions". A generating
+function is a power series where the coefficient of x^n keeps track of
+how many structures of the given kind we can put on an $n$-element set. By
 playing around with these functions, we can often figure out the
 coefficients and get explicit formulas - or at least asymptotic formulas
 - that count the structures in question.
 
 The reason this works is that operations on generating functions come
 from operations on structure types. For example, in
-\"[week190](week190.html)\", I described how addition, multiplication
+["Week 190"](#week190), I described how addition, multiplication
 and composition of generating functions correspond to different ways to
 get new structure types from old.
 
-Joyal\'s great contribution was to give structure types a rigorous
+Joyal's great contribution was to give structure types a rigorous
 definition, and use this to show that many calculations involving
 generating functions can be done directly with structure types. It turns
 out that just as generating functions form a *set* equipped with various
@@ -30,12 +30,12 @@ operations, structure types form a *category* with a bunch of completely
 analogous operations. This means that instead of merely proving
 *equations* between generating functions, we can construct
 *isomorphisms* between their underlying structure types - which imply
-such equations, but are worth much more. It\'s like the difference
+such equations, but are worth much more. It's like the difference
 between knowing two things are equal and knowing a specific reason WHY
-they\'re equal!
+they're equal!
 
 Of course, this business of replacing equations by isomorphisms is
-called \"categorification\". In this lingo, structure types are
+called "categorification". In this lingo, structure types are
 categorified power series, just as finite sets are categorified natural
 numbers.
 
@@ -48,16 +48,16 @@ underpinnings of quantum physics.
 For example, the discrete spectrum of the harmonic oscillator
 Hamiltonian can be traced back to the discreteness of finite sets! The
 commutation relations between annihilation and creation operators boil
-down to a very simple fact: there\'s one more way to put a ball in a box
+down to a very simple fact: there's one more way to put a ball in a box
 and then take one out, than to take one out and then put one in. Even
 better, the whole theory of Feynman diagrams gets a simple combinatorial
 interpretation. But for this, one really needs to go beyond structure
-types and work with a generalization called \"stuff types\".
+types and work with a generalization called "stuff types".
 
-I\'ve been thinking about this business for a while now, so last fall I
+I've been thinking about this business for a while now, so last fall I
 decided to start giving a year-long course on categorification and
 quantization. The idea is to explain bunches of quantum theory, quantum
-field theory and combinatorics all from this new point of view. It\'s
+field theory and combinatorics all from this new point of view. It's
 fun! Derek Wise has been scanning in his notes, and a bunch of people
 have been putting their homework online. So, you can follow along if you
 want:
@@ -65,39 +65,39 @@ want:
 1\) John Baez and Derek Wise, Quantization and Categorification.\
 Fall 2003 notes:
 [http://math.ucr.edu/home/baez/qg-fall2003](http://math.ucr.edu/home/baez/qg-fall2003/)\
-Winter 2004 notes: <http://math.ucr.edu/home/baez/qg-winter2004/>\
-Spring 2004 notes: <http://math.ucr.edu/home/baez/qg-spring2004/>
+Winter 2004 notes: `http://math.ucr.edu/home/baez/qg-winter2004/`\
+Spring 2004 notes: `http://math.ucr.edu/home/baez/qg-spring2004/`
 
-I\'d like to give you a little taste of this subject now. But, instead
-of explaining it in detail, I\'ll just give some examples of how
+I'd like to give you a little taste of this subject now. But, instead
+of explaining it in detail, I'll just give some examples of how
 structure types yield some far-out generalizations of the concept of
-\"cardinality\". This stuff is a continuation of some themes developed
-in \"[week144](week144.html)\", \"[week147](week147.html)\",
-\"[week185](week185.html)\", \"[week190](week190.html)\", so I\'ll start
+"cardinality". This stuff is a continuation of some themes developed
+in ["Week 144"](#week144), ["Week 147"](#week147),
+["Week 185"](#week185), ["Week 190"](#week190), so I'll start
 with a review.
 
 Suppose F is a structure type. Let F~n~ be the *set* of ways we can put
-this structure on a n-element set, and let \|F~n~\| be the *number* of
-ways to do it. In combinatorics, people take all these numbers \|F~n~\|
-and pack them into a single power series. It\'s called the generating
-function of F, and it\'s defined like this:
+this structure on a $n$-element set, and let |F~n~| be the *number* of
+ways to do it. In combinatorics, people take all these numbers |F~n~|
+and pack them into a single power series. It's called the generating
+function of F, and it's defined like this:
 
                     |Fn|  
-    |F|(x)  =   ∑  -----  xn
+    |F|(x)  =   \sum  -----  xn
                      n!
 
-It may not converge, so in general it\'s just a \"formal\" power series
+It may not converge, so in general it's just a "formal" power series
 - but for interesting structure types it often converges to an
 interesting function.
 
-What\'s good about generating functions is that simple operations on
+What's good about generating functions is that simple operations on
 them correspond to simple operations on structure types. We can use this
 to count structures on finite sets. Let me remind you how it works for
 binary trees!
 
-There\'s a structure type T where a T-structure on a set is a way of
+There's a structure type T where a T-structure on a set is a way of
 making it into the leaves of a binary tree drawn in the plane. For
-example, here\'s one T-structure on the set {a,b,c,d}:
+example, here's one T-structure on the set {a,b,c,d}:
 
                   b   d    a   c
                    \   \  /   /
@@ -108,19 +108,19 @@ example, here\'s one T-structure on the set {a,b,c,d}:
                         \/
 
 Thanks to the choice of different orderings, the number of T-structures
-on an n-element set is n! times the number of binary trees with n
+on an $n$-element set is n! times the number of binary trees with n
 leaves. Annoyingly, the latter number is traditionally called the
 (n-1)st Catalan number, C~n-1~. So, we have:
 
-    |T|(x) = ∑ Cn-1 xn
+    |T|(x) = \sum Cn-1 xn
 
 where the sum starts at n = 1.
 
-There\'s a nice recursive definition of T:
+There's a nice recursive definition of T:
 
-> \"To put a T-structure on a set, either note that it has one element,
-> in which case there\'s just one T-structure on it, or chop it into two
-> subsets and put a T-structure on each one.\"
+> "To put a T-structure on a set, either note that it has one element,
+> in which case there's just one T-structure on it, or chop it into two
+> subsets and put a T-structure on each one."
 
 In other words, any binary tree is either a degenerate tree, with just
 one leaf:
@@ -143,10 +143,10 @@ We can write this symbolically as
 
     T ≅ X + T2
 
-Here\'s why: X is a structure type called \"being the one-element set\",
-+ means \"exclusive or\", and squaring a structure type means you chop
+Here's why: X is a structure type called "being the one-element set",
++ means "exclusive or", and squaring a structure type means you chop
 your set in two parts and put that structure on each part. (I explained
-these rules more carefully in \"[week190](week190.html)\".)
+these rules more carefully in ["Week 190"](#week190).)
 
 Note that we only have an *isomorphism* between structure types here,
 not an equation. But if we take the generating function of both sides we
@@ -155,7 +155,7 @@ easy:
 
     |T| = x + |T|2
 
-In \"[week144](week144.html)\" I showed how you can solve this using the
+In ["Week 144"](#week144) I showed how you can solve this using the
 quadratic equation:
 
     |T| = (1 - sqrt(1 - 4x))/2. 
@@ -164,20 +164,20 @@ and then do a Taylor expansion to get
 
     |T| = x + x2 + 2x3 + 5x4 + 14x5 + 42x6 + ... 
 
-Lo and behold! The coefficient of x^n^ is the number of binary trees
+Lo and behold! The coefficient of x^n is the number of binary trees
 with n leaves!
 
-There\'s also another approach where we work directly with the structure
+There's also another approach where we work directly with the structure
 types themselves, instead of taking generating functions. This is harder
-because we can\'t subtract structure types, or divide them by 2, or take
+because we can't subtract structure types, or divide them by 2, or take
 square roots of them - at least, not without stretching the rules of
 this game. All we can do is use the isomorphism
 
     T ≅ X + T2 
 
-and the basic rules of category theory. It\'s not as efficient, but
-it\'s illuminating. It\'s also incredibly simple: we just keep sticking
-in \"X + T^2^\" wherever we see \"T\" on the right-hand side, over and
+and the basic rules of category theory. It's not as efficient, but
+it's illuminating. It's also incredibly simple: we just keep sticking
+in "X + T^2" wherever we see "T" on the right-hand side, over and
 over again. Like this:
 
     T ≅ X + T2
@@ -186,15 +186,15 @@ over again. Like this:
 
     T ≅ X + (X + (X + T2)2)2
 
-and so on. You might not think we\'re getting anywhere, but if you stop
-at the nth stage and expand out what we\'ve got, you\'ll get the first n
+and so on. You might not think we're getting anywhere, but if you stop
+at the nth stage and expand out what we've got, you'll get the first n
 terms of the Taylor expansion we had before! At least, you will if you
-count \"stages\" and \"terms\" correctly.
+count "stages" and "terms" correctly.
 
-I won\'t actually do this, because it\'s better if you do it yourself.
-When you do, you\'ll see it captures the recursive process of building a
-binary tree from lots of smaller binary trees. Each time you see a \"T\"
-and replace it with an \"X + T^2^\", you\'re really taking a little
+I won't actually do this, because it's better if you do it yourself.
+When you do, you'll see it captures the recursive process of building a
+binary tree from lots of smaller binary trees. Each time you see a "T"
+and replace it with an "X + T^2", you're really taking a little
 binary tree:
 
           -----
@@ -221,11 +221,11 @@ or a pair of binary trees:
 
 So, each term in the final result actually corresponds to a specific
 tree! This is a good example of categorification: when we calculate the
-coefficient of x^n^ this way, we\'re not just getting the *number* of
-binary planar trees with n leaves - we\'re getting an actual explicit
+coefficient of x^n this way, we're not just getting the *number* of
+binary planar trees with n leaves - we're getting an actual explicit
 description of the *set* of such trees.
 
-Now, what happens if we take the generating function \|T\|(x) and
+Now, what happens if we take the generating function |T|(x) and
 evaluate it at x = 1? On the one hand, we get a divergent series:
 
     |T|(1) = 1 + 1 + 2 + 5 + 14 + 42 + ...
@@ -243,12 +243,12 @@ It may seem insane to conclude
 
     1 + 1 + 2 + 5 + 14 + 42 + ... = (1 - sqrt(-3))/2
 
-but Lawvere noticed that there\'s a kind of strange sense to it.
+but Lawvere noticed that there's a kind of strange sense to it.
 
-The trick is to work not with generating function \|T\| but with the
-structure type T itself. Since \|T\|(1) is equal to the *number* of
+The trick is to work not with generating function |T| but with the
+structure type T itself. Since |T|(1) is equal to the *number* of
 planar binary trees, T(1) should be naturally isomorphic to the *set* of
-planar binary trees. And it is - it\'s obvious, once you think about
+planar binary trees. And it is - it's obvious, once you think about
 what it really means.
 
 The number of binary planar trees is not very interesting, but the set
@@ -262,8 +262,8 @@ and set X = 1, we get an isomorphism
 
 which says
 
-> \"a planar binary tree is either the tree with one leaf or a pair of
-> planar binary trees.\"
+> "a planar binary tree is either the tree with one leaf or a pair of
+> planar binary trees."
 
 Starting from this, we can derive lots of other isomorphisms involving
 the set T(1), which turn out to be categorified versions of equations
@@ -271,7 +271,7 @@ satisfied by the number
 
     |T|(1) = (1 - sqrt(-3))/2 
 
-For example, this number is a sixth root of unity. While there\'s no
+For example, this number is a sixth root of unity. While there's no
 one-to-one correspondence between 6-tuples of trees and the 1 element
 set, which would categorify the formula
 
@@ -284,7 +284,7 @@ and trees, which categorifies the formula
 
 Of course the set of binary trees is countably infinite, and so is the
 set of 7-tuples of binary trees, so they can be placed in one-to-one
-correspondence - but that\'s boring. When I say \"very nice\", I mean
+correspondence - but that's boring. When I say "very nice", I mean
 something more interesting: starting with the isomorphism
 
     T ≅ x + T2
@@ -294,7 +294,7 @@ we get a one-to-one correspondence
     T(1) ≅ 1 + T(1)2
 
 which says that any binary planar tree is either degenerate or a pair of
-binary planar trees\... and using this we can *construct* a one-to-one
+binary planar trees... and using this we can *construct* a one-to-one
 correspondence
 
     T(1)7 ≅ T(1)
@@ -312,27 +312,27 @@ efficiently as possible, I think it takes 18 steps, like this:
            ≅ 1 + T(1)2
            ≅ T(1)
 
-I\'ll let you fill in the missing steps - it\'s actually quite fun if
+I'll let you fill in the missing steps - it's actually quite fun if
 you like puzzles.
 
 If you get stuck, you can find the answer online in a couple of
 different places:
 
 2\) Andreas Blass, Seven trees in one, Jour. Pure Appl. Alg. 103 (1995),
-1-21. Also available at <http://www.math.lsa.umich.edu/~ablass/cat.html>
+1-21. Also available at `http://www.math.lsa.umich.edu/~ablass/cat.html`
 
 3\) Marcelo Fiore, Isomorphisms of generic recursive polynomial types,
 to appear in 31st Symposium on Principles of Programming Languages
 (POPL04). Also available at
-<http://www.cl.cam.ac.uk/~mpf23/papers/Types/recisos.ps.gz>
+`http://www.cl.cam.ac.uk/~mpf23/papers/Types/recisos.ps.gz`
 
-Or, take a peek at the \"Addenda\" down below.
+Or, take a peek at the "Addenda" down below.
 
 Robbie Gates, Marcelo Fiore and Tom Leinster have also proved some very
 general theorems about this sort of thing. Gates focused on
-\"distributive categories\" (categories with with products and
+"distributive categories" (categories with with products and
 coproducts, the former distributing over the latter), while the work of
-Fiore and Leinster applies to more general \"rig categories\":
+Fiore and Leinster applies to more general "rig categories":
 
 4\) Robbie Gates, On the generic solution to P(X) = X in distributive
 categories, Jour. Pure Appl. Alg. 125 (1998), 191-212.
@@ -342,28 +342,28 @@ numbers, available as
 [math.CT/0212377](http://www.arXiv.org/abs/math.CT/0212377).
 
 A rig category is basically the most general sort of category in which
-we can \"add\" and \"multiply\" as we do in a ring - but without
-negatives, hence the missing letter \"n\". It turns out that whenever we
-have an object Z in a rig category and it\'s equipped with an
+we can "add" and "multiply" as we do in a ring - but without
+negatives, hence the missing letter "n". It turns out that whenever we
+have an object Z in a rig category and it's equipped with an
 isomorphism
 
     Z = P(Z)
 
 where P is a polynomial with natural number coefficients, we can
-associate to it a \"cardinality\" \|Z\|, namely any complex solution of
+associate to it a "cardinality" |Z|, namely any complex solution of
 the equation
 
     |Z| = P(|Z|)
 
-Which solution should we use? Well, for simplicity let\'s consider the
+Which solution should we use? Well, for simplicity let's consider the
 case where P has degree at least 2 and the relevant Galois group acts
-transitively on the solutions of this equation, so \"all roots are
-created equal\". Then we can pick *any* solution as the cardinality
-\|Z\|. Any polynomial equation with natural number coefficients
+transitively on the solutions of this equation, so "all roots are
+created equal". Then we can pick *any* solution as the cardinality
+|Z|. Any polynomial equation with natural number coefficients
 satisfied by one solution will be satisfied by *all* solutions, so it
-won\'t matter which one we choose.
+won't matter which one we choose.
 
-Now suppose the cardinality \|Z\| satisfies such an equation:
+Now suppose the cardinality |Z| satisfies such an equation:
 
     Q(|Z|) = R(|Z|)
 
@@ -372,7 +372,7 @@ Leinster say we can construct an isomorphism
 
     Q(Z) = R(Z)!
 
-In other words, a bunch of equations satisfied by the object\'s
+In other words, a bunch of equations satisfied by the object's
 cardinality automatically come from isomorphisms involving the object
 itself.
 
@@ -387,18 +387,18 @@ or equally well,
 
 (Since the relevant Galois group interchanges these two numbers, we can
 use either one.) More generally, the set T(n) consisting of binary trees
-with n-colored leaves acts a lot like the number \|T\|(n).
+with $n$-colored leaves acts a lot like the number |T|(n).
 
 This has gotten me interested in trying to find a nice example of a
-\"Golden Object\": an object G in some rig category that\'s equipped
+"Golden Object": an object G in some rig category that's equipped
 with an isomorphism
 
     G2 = G + 1
 
-The Golden Object doesn\'t fit into Fiore and Leinster\'s formalism,
+The Golden Object doesn't fit into Fiore and Leinster's formalism,
 since this isomorphism is not of the form G = P(G) where P has natural
 number coefficients. But, it still seems that such an object deserves to
-have a \"cardinality\" equal to the golden number:
+have a "cardinality" equal to the golden number:
 
     |G| = (1 + sqrt(5))/2 = 1.618033988749894848204586834365... 
 
@@ -417,7 +417,7 @@ to get
 
     |T|(-1) = (1 - sqrt(5))/2  
 
-which is -1 divided by the golden number. Of course, it\'s possible we
+which is -1 divided by the golden number. Of course, it's possible we
 should use the other sign of the square root, and get
 
     |T|(-1) = (1 + sqrt(5))/2
@@ -428,14 +428,14 @@ created equal. Either way, we get a bizarre and fascinating formula:
     - 1 + 1 - 2 + 5 - 14 + 42 + ... = (1 +- sqrt(5))/2   
 
 Can we fit this into some clear and rigorous framework, or is it just
-nuts? We\'d like some generalization of cardinality for which \"the set
-of binary trees with -1-colored leaves\" has cardinality equal to the
+nuts? We'd like some generalization of cardinality for which "the set
+of binary trees with -1-colored leaves" has cardinality equal to the
 golden number.
 
 James Propp suggested one avenue. A while back, Steve Schanuel made an
-incredibly provocative observation: if we treat \"Euler measure\" as a
+incredibly provocative observation: if we treat "Euler measure" as a
 generalization of cardinality, it makes sense to treat the real line as
-a \"space of cardinality -1\":
+a "space of cardinality -1":
 
 6\) Stephen H. Schanuel, What is the length of a potato?: an
 introduction to geometric measure theory, in Categories in Continuum
@@ -456,22 +456,22 @@ James Propp has developed this idea in a couple of fascinating papers:
 
 Using this idea, it seems reasonable to consider the space of binary
 trees with leaves labelled by real numbers as a rigorous version of
-\"the set of binary trees with -1-colored leaves\". So, we just need to
+"the set of binary trees with -1-colored leaves". So, we just need to
 figure out what generalization of Euler characteristic gives this space
 an Euler characteristic equal to the golden number. It would be great if
 we could make this space into a Golden Object in some rig category, but
 that may be asking too much.
 
-Whew! There\'s obviously a lot of work left to be done here. Here\'s
-something easier: a riddle. What\'s this sequence?
+Whew! There's obviously a lot of work left to be done here. Here's
+something easier: a riddle. What's this sequence?
 
-> un, dos, tres, quatre, cinc, sis, set, vuit, nou, deu,\...
+> un, dos, tres, quatre, cinc, sis, set, vuit, nou, deu,...
 
 The answer is at the end of this article.
 
-Now I\'d like to mention some important papers on n-categories. You may
-think I\'d lost interest in this topic, because I\'ve been talking about
-other things. But it\'s not true!
+Now I'd like to mention some important papers on $n$-categories. You may
+think I'd lost interest in this topic, because I've been talking about
+other things. But it's not true!
 
 Most importantly, Tom Leinster has come out with a big book on
 n-categories and operads:
@@ -480,47 +480,47 @@ n-categories and operads:
 Press, Cambridge, 2003. Also available as
 [arXiv:math.CT/0305049](http://arxiv.org/abs/math.CT/0305049).
 
-As you\'ll note, he managed to talk the press into letting him keep his
+As you'll note, he managed to talk the press into letting him keep his
 book freely available online! We should all do this. Nobody will ever
 make much cash writing esoteric scientific tomes - it takes so long, you
 could earn more per hour digging ditches. The only *financial* benefit
-of writing such a book is that people will read it, think you\'re smart,
+of writing such a book is that people will read it, think you're smart,
 and want to hire you, promote you, or invite you to give talks in cool
 places. So, maximize your chances of having people read your books by
 keeping them free online! People will still buy the paper version if
-it\'s any good\....
+it's any good....
 
-And indeed, Leinster\'s book has many virtues besides being free. He
+And indeed, Leinster's book has many virtues besides being free. He
 gracefully leads the reader from the very basics of category theory
-straight to the current battle front of weak n-categories, emphasizing
+straight to the current battle front of weak $n$-categories, emphasizing
 throughout how operads automatically take care of the otherwise
-mind-numbing thicket of \"coherence laws\" that inevitably infest the
-subject. He doesn\'t take well-established notions like \"monoidal
-category\" and \"bicategory\" for granted - instead, he dives in, takes
+mind-numbing thicket of "coherence laws" that inevitably infest the
+subject. He doesn't take well-established notions like "monoidal
+category" and "bicategory" for granted - instead, he dives in, takes
 their definitions apart, and compares alternatives to see what makes
-these concepts tick. It\'s this sort of careful thinking that we
-desperately need if we\'re ever going to reach the dream of a clear and
+these concepts tick. It's this sort of careful thinking that we
+desperately need if we're ever going to reach the dream of a clear and
 powerful theory of higher-dimensional algebra. He does a similar careful
-analysis of \"operads\" and \"multicategories\" before presenting a
-generalized theory of operads that\'s powerful enough to support various
-different approaches to weak n-categories. And then he describes and
+analysis of "operads" and "multicategories" before presenting a
+generalized theory of operads that's powerful enough to support various
+different approaches to weak $n$-categories. And then he describes and
 compares some of these different approaches!
 
-In short: if you want to learn more about operads and n-categories, this
+In short: if you want to learn more about operads and $n$-categories, this
 is *the* book to read.
 
-Leinster doesn\'t say too much about what n-categories are good for,
-except for a nice clear introduction entitled \"Motivation for
-Topologists\", where he sketches their relevance to homology theory,
+Leinster doesn't say too much about what $n$-categories are good for,
+except for a nice clear introduction entitled "Motivation for
+Topologists", where he sketches their relevance to homology theory,
 homotopy theory, and cobordism theory. But this is understandable, since
 a thorough treatment of their applications would vastly expand an
 already hefty 380-page book, and diffuse its focus. It would also steal
 sales from *my* forthcoming book on higher-dimensional algebra - which
-would be really bad, since I plan to retire on the fortune I\'ll make
+would be really bad, since I plan to retire on the fortune I'll make
 from this.
 
 Secondly, Michael Batanin has worked out a beautiful extension of his
-ideas on n-categories which sheds new light on their applications to
+ideas on $n$-categories which sheds new light on their applications to
 homotopy theory:
 
 11\) Michael A. Batanin, The Eckmann-Hilton argument, higher operads and
@@ -531,22 +531,22 @@ Michael A. Batanin, The combinatorics of iterated loop spaces, available
 as [arXiv:math.CT/0301221](http://arxiv.org/abs/math.CT/0301221).
 
 Getting a manageable combinatorial understanding of the space of loops
-in the spaces of loops in the space of loops\... in some space has
+in the spaces of loops in the space of loops... in some space has
 always been part of the dream of higher-dimensional algebra. These
-\"k-fold loop spaces\" or have been important in homotopy theory since
-the 1970s - see the end of \"[week199](week199.html)\" for a little bit
+"k-fold loop spaces" or have been important in homotopy theory since
+the 1970s - see the end of ["Week 199"](#week199) for a little bit
 about them. People know that k-fold loop spaces have k different
 products that commute up to homotopy in a certain way that can be
 summarized by saying they are algebras of the E~k~ operad, also called
-the \"little k-cubes operad\". However, their wealth of structure is
+the "little k-cubes operad". However, their wealth of structure is
 still a bit mind-boggling. James Dolan and I made some conjectures about
 their relation to k-tuply monoidal categories in our paper
-\"Categorification\" (see \"[week121](week121.html)\"), and now Batanin
-is making this more precise using his approach to n-categories - which
-is one of the ones described in Leinster\'s book.
+"Categorification" (see ["Week 121"](#week121)), and now Batanin
+is making this more precise using his approach to $n$-categories - which
+is one of the ones described in Leinster's book.
 
-There\'s also been a lot of work applying higher-dimensional algebra to
-topological quantum field theory - that\'s what got me interested in
+There's also been a lot of work applying higher-dimensional algebra to
+topological quantum field theory - that's what got me interested in
 n-categories in the first place, but a lot has happened since then. For
 a highly readable introduction to the subject, with tons of great
 pictures, try:
@@ -554,11 +554,11 @@ pictures, try:
 12\) Joachim Kock, Frobenius Algebras and 2D Topological Quantum Field
 Theories, Cambridge U. Press, Cambridge, 2003.
 
-This is mainly about 2d TQFTs, where the concept of \"Frobenius
-algebra\" reigns supreme, and everything is very easy to visualize.
+This is mainly about 2d TQFTs, where the concept of "Frobenius
+algebra" reigns supreme, and everything is very easy to visualize.
 
 When we go up to 3-dimensional spacetime life gets harder, but also more
-interesting. This book isn\'t so easy, but it\'s packed with beautiful
+interesting. This book isn't so easy, but it's packed with beautiful
 math and wonderfully drawn pictures:
 
 13\) Thomas Kerler and Volodymyr L. Lyubashenko, Non-Semisimple
@@ -568,13 +568,13 @@ Notes in Mathematics 1765, Springer, Berlin, 2001.
 The idea is that if we can extend the definition of a quantum field
 theory to spacetimes that have not just boundaries but *corners*, we can
 try to build up the theory for arbitrary spacetimes from its behavior on
-simple building blocks - since it\'s easier to chop manifolds up into a
+simple building blocks - since it's easier to chop manifolds up into a
 few basic shapes if we let those shapes have corners. However, it takes
 higher-dimensional algebra to describe all the ways we can stick
 together manifolds with corners! Here Kerler and Lyubashenko make
 3-dimensional manifolds going between 2-manifolds with boundary into a
-\"double category\"\... and make a bunch of famous 3d TQFTs into
-\"double functors\".
+"double category"... and make a bunch of famous 3d TQFTs into
+"double functors".
 
 Closely related is this paper by Kerler:
 
@@ -584,38 +584,38 @@ available as [arXiv:math/0106253](http://arxiv.org/abs/math/0106253).
 
 It relates the category whose objects are 2-manifolds with a circle as
 boundary, and whose morphisms are 3-manifolds with corners going between
-these, to a braided monoidal category \"freely generated by a Hopf
-algebra object\". (I\'m leaving out some fine print here, but probably
+these, to a braided monoidal category "freely generated by a Hopf
+algebra object". (I'm leaving out some fine print here, but probably
 putting in more than most people want!) It comes close to showing these
-categories are the same, but suggests that they\'re not quite - so the
+categories are the same, but suggests that they're not quite - so the
 perfect connection between topology and higher categories remains
 elusive in this important example.
 
 Answer to the riddle: these are the Catalan numbers - i.e., the natural
 numbers as written in Catalan. This riddle was taken from the second
-volume of Stanley\'s book on enumerative combinatorics (see
-\"[week144](week144.html)\").
+volume of Stanley's book on enumerative combinatorics (see
+["Week 144"](#week144)).
 
 ------------------------------------------------------------------------
 
 **Addenda:** Long after this issue was written, we had a discussion on
-the *n*-Category Café about the \"seven trees in one\" problem. Let B be
+the *n*-Category Café about the "seven trees in one" problem. Let B be
 the set of binary planar trees - the set I was calling T(1) above.
 Starting from the isomorphism
 
-B ≅ B^2^ + 1
+B ≅ B^2 + 1
 
 we want to construct an isomorphism
 
 B ≅ B^7^
 
-Here is the proof in Marcelo Fiore\'s paper:
+Here is the proof in Marcelo Fiore's paper:
 
 ::: {align="center"}
 ![](http://math.ucr.edu/home/baez/seven_trees_in_one_fiore.jpg)
 :::
 
-At each step he either replaces B^n^ by B^n-1^ + B^n+1^, or the reverse.
+At each step he either replaces B^n by B^n-1^ + B^n+1^, or the reverse.
 The underlined portion shows where this will be done. Over at the
 *n*-Café, Stuart Presnell made a beautiful picture of this proof:
 
@@ -624,7 +624,7 @@ The underlined portion shows where this will be done. Over at the
 :::
 
 He also made a picture of another proof, which is on page 29 of Pierre
-Ageron\'s book Logiques, Ensembles, Catgories: Le Point de Vue
+Ageron's book Logiques, Ensembles, Catgories: Le Point de Vue
 Constructif:
 
 ::: {align="center"}
@@ -635,35 +635,35 @@ You can watch a *movie* of a proof here:
 
 15\) Dan Piponi, Arboreal isomorphisms from nuclear pennies, A
 Neighborhood of Infinity, September 30, 2007. Available at
-<http://blog.sigfpe.com/2007/09/arboreal-isomorphisms-from-nuclear.html>.
+`http://blog.sigfpe.com/2007/09/arboreal-isomorphisms-from-nuclear.html`.
 
 It was in the ensuing discussion on this blog that George Bell came up
 with his more efficient proof. For a bit more discussion, see:
 
-16\) John Baez, Searching for a video proof of \"seven trees in one\",
+16\) John Baez, Searching for a video proof of "seven trees in one",
 *n*-Category Café, July 16, 2009. Available at
-<http://golem.ph.utexas.edu/category/2009/07/searching_for_a_video_proof_of.html>.
+`http://golem.ph.utexas.edu/category/2009/07/searching_for_a_video_proof_of.html`.
 
 Now, on to some older addenda!
 
 My pal Squark pointed out that if we try to compute the generating
-function for binary trees by making an initial guess for \|T\|(x), say
+function for binary trees by making an initial guess for |T|(x), say
 t, and repeatedly improving this guess via
 
-    t → x + t2
+    t \to x + t2
 
 the guess will converge to the right answer if t is small - but the
-process will fail miserably, with t approaching ∞, if and only if the
+process will fail miserably, with t approaching \infty, if and only if the
 complex number x lies outside the Mandelbrot set!
 
 After an earlier version of this Week appeared on the category theory
-mailing list, Steve Schanuel posted some corrections. I\'ve tried to
+mailing list, Steve Schanuel posted some corrections. I've tried to
 correct the text above as much as possible without making it too
 technical - for example, by citing the important work of Robbie Gates,
 and distinguishing more clearly between his work on distributive
 categories and the paper by Fiore and Leinster, which applies to rig
 categories. I tend to talk about 3 different sorts of ring-like
-categories in This Week\'s Finds:
+categories in This Week's Finds:
 
 -   Rig categories. A **rig category** is one equipped with a symmetric
     monoidal structure called + and a monoidal structure called x, with
@@ -678,8 +678,8 @@ categories in This Week\'s Finds:
     laws, Lecture Notes in Mathematics 420, Springer Verlag, Berlin,
     1974, pp. 281-375.
 
-    (These authors spoke of \"ring categories\", but the term \"rig
-    category\" is more appropriate since, as in a rig, there need be no
+    (These authors spoke of "ring categories", but the term "rig
+    category" is more appropriate since, as in a rig, there need be no
     additive inverses.)
 
 -   2-Rigs. A **2-rig** is a symmetric monoidal cocomplete category
@@ -691,11 +691,11 @@ categories in This Week\'s Finds:
     is in a rig category. However, by choosing a particular coproduct
     for each pair of objects, and a particular initial object, we can
     promote any 2-rig to a rig category. To get an example of a rig
-    category that\'s not a 2-rig, just take any rig and think of it as a
+    category that's not a 2-rig, just take any rig and think of it as a
     discrete category (a category with only identity morphisms). Another
     example would be the category of finite-dimensional vector spaces,
     since this only has finite colimits. (Of course, we could make up
-    some sort of \"finitary 2-rig\" that only had finite colimits, but
+    some sort of "finitary 2-rig" that only had finite colimits, but
     the profusion of terminology is already annoying.)
 
 -   Distributive categories. A **distributive category** is a category
@@ -709,9 +709,9 @@ categories in This Week\'s Finds:
     discrete category on a rig.
 
 By not distinguishing these, the original version of
-\"[week202](week202.html)\" made it sound as if Fiore and Leinster had
-simply redone Gates\' work on distributive categories. I hope this is a
-bit clearer now. Schanuel\'s remarks are still worth reading for their
+["Week 202"](#week202) made it sound as if Fiore and Leinster had
+simply redone Gates' work on distributive categories. I hope this is a
+bit clearer now. Schanuel's remarks are still worth reading for their
 description of what Gates actually did:
 
 > Dear colleagues,
@@ -722,15 +722,15 @@ description of what Gates actually did:
 >
 > \(1\) J. B. suggests that Blass published what Lawvere had already
 > worked out. In fact, Lawvere (partly to counteract some incorrect uses
-> of infinite series in analyses of \'data types\' in computer science)
+> of infinite series in analyses of 'data types' in computer science)
 > had worked out the algebra of the rig presented by one generator X and
-> one relation X=1+X^2^, roughly by the method in (3) below, and
+> one relation X=1+X^2, roughly by the method in (3) below, and
 > conjectured that this rig could be realized as the isomorphism classes
 > in a distributive (even extensive) category, which conjecture Blass
-> then proved (and a bit more) in \"Seven Trees\...\".
+> then proved (and a bit more) in "Seven Trees...".
 >
-> \(2\) The generalization of Blass\'s theorem to one generator ond one
-> polynomial relation of the \'fixed-point\' form X=p(X), where p is a
+> \(2\) The generalization of Blass's theorem to one generator ond one
+> polynomial relation of the 'fixed-point' form X=p(X), where p is a
 > polynomial with natural number coefficients and nonzero constant term
 > is not, as J. B. seems to suggest, due to Fiore and Leinster; it was
 > part of the prize-winning doctoral thesis of Robbie Gates, who (using
@@ -742,8 +742,8 @@ description of what Gates actually did:
 >
 > \(3\) If p is as in (2) and of degree at least 2, the algebra of the
 > rig R is made by J. B. to seem mysterious. It is more easily
-> understood in the way the X=2X+1 case was treated in my \"Negative
-> Sets\...\" paper; just show that the Euler and dimension
+> understood in the way the X=2X+1 case was treated in my "Negative
+> Sets..." paper; just show that the Euler and dimension
 > homomorphisms, tensoring with Z and with 2 (the rig true/false)
 > respectively, are jointly injective. In this case the dimension rig
 > has only three elements, which explains why the Euler characteristic

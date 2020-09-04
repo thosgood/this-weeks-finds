@@ -1,15 +1,15 @@
 week188
 
-I\'ve been talking about q-mathematics, and last week the story reached
+I've been talking about q-mathematics, and last week the story reached
 a kind of climax when I combined the themes of q-deformation,
 categorification, and Dynkin diagrams. These are three of my favorite
-things, but I can\'t expect everyone to enjoy them as much as I do, so
-now I\'ll back down and talk about something simpler - but related.
+things, but I can't expect everyone to enjoy them as much as I do, so
+now I'll back down and talk about something simpler - but related.
 
-Let\'s see what happens when you put Pascal\'s triangle in a magnetic
+Let's see what happens when you put Pascal's triangle in a magnetic
 field!
 
-You\'ve probably seen Pascal\'s triangle. It has a 1 on top, and each
+You've probably seen Pascal's triangle. It has a 1 on top, and each
 other number in the triangle is gotten by adding the number or numbers
 above it:
 
@@ -29,11 +29,11 @@ The number at each place tells you how many paths there are zig-zagging
 down from the top of the triangle to that place - since each number is
 the sum of the numbers above it.
 
-Let\'s think about one of these paths. To get to the kth place in the
+Let's think about one of these paths. To get to the kth place in the
 nth row of the triangle, the path must go to the right a total of k
-times and to the left a total of (n-k) times. Here I\'m counting the
-rows starting from zero. For example, the \"6\" in Pascal\'s triangle is
-at the 2nd place in the 4th row, so any path down to the \"6\" must go
+times and to the left a total of (n-k) times. Here I'm counting the
+rows starting from zero. For example, the "6" in Pascal's triangle is
+at the 2nd place in the 4th row, so any path down to the "6" must go
 left twice and right twice:
 
                                    1
@@ -64,7 +64,7 @@ chance of its being in the kth place will be proportional to (n choose
 k).
 
 If you drop a bunch of balls in the top and catch them as they fall out
-the bottom, you\'ll get an approximately Gaussian distribution of balls,
+the bottom, you'll get an approximately Gaussian distribution of balls,
 like this:
 
                                    1
@@ -85,17 +85,17 @@ like this:
                                o   o   o   
                            o   o   o   o   o
 
-This illustrates how the famous \"bell curve\" shows up whenever you add
+This illustrates how the famous "bell curve" shows up whenever you add
 a big bunch of independent random numbers - as made precise by the
-\"central limit theorem\".
+"central limit theorem".
 
-This stuff is old - very old. In fact, Pascal\'s triangle had already
+This stuff is old - very old. In fact, Pascal's triangle had already
 been around for centuries before he wrote his book about it in 1654. I
-think we need a more up-to-date version of Pascal\'s triangle for the
+think we need a more up-to-date version of Pascal's triangle for the
 21st century.
 
-So: let\'s suppose the little ball we drop into the machine is an
-ELECTRON, and let\'s turn on a MAGNETIC FIELD!
+So: let's suppose the little ball we drop into the machine is an
+ELECTRON, and let's turn on a MAGNETIC FIELD!
 
 In quantum mechanics, if you have a charged particle in a static
 magnetic field, its wavefunction gets multiplied by a phase when you
@@ -104,10 +104,10 @@ move it around a loop. This phase is just
     q = exp(iF)
 
 where F is the flux of the magnetic field though any surface bounded by
-the loop. Here I\'m working in units where Planck\'s constant and the
-particle\'s charge both equal 1.
+the loop. Here I'm working in units where Planck's constant and the
+particle's charge both equal 1.
 
-Suppose our particle is confined to a plane, and there\'s a constant
+Suppose our particle is confined to a plane, and there's a constant
 magnetic field perpendicular to this plane. If we tile this plane with
 squares, moving the particle counterclockwise around any one of these
 squares multiplies its wavefunction by the same phase q:
@@ -118,20 +118,20 @@ squares multiplies its wavefunction by the same phase q:
                  |       |
                   --->---
 
-Here\'s another way to think about it. Let U be the operation of moving
+Here's another way to think about it. Let U be the operation of moving
 our particle one unit across to the right, and let V be the operation of
 moving it one unit upwards. Then the operation of moving it around the
 above square is
 
     U V U-1 V-1 
 
-and we\'ve just seen this equals q - that is, it acts to multiply the
-particle\'s wavefunction by q. So:
+and we've just seen this equals q - that is, it acts to multiply the
+particle's wavefunction by q. So:
 
     U V U-1 V-1 = q
 
-This means that the operations U and V don\'t commute: instead, they
-\"q-mute\":
+This means that the operations U and V don't commute: instead, they
+"q-mute":
 
     UV = qVU
 
@@ -156,7 +156,7 @@ takes. Since
 its phase gets an extra factor of q each time it goes first right and
 then up, as compared to going up and then right. So compared to the path
 that goes all the way up and then across, the *relative* phase of the
-particle at the end of its journey will be q^n^, where n is the number
+particle at the end of its journey will be q^n, where n is the number
 of squares above and to the left of its path:
 
                     ---------------
@@ -169,17 +169,17 @@ of squares above and to the left of its path:
                    |       |       | 
                     --->-----------
 
-In this example our particle gets a relative phase of q^3^.
+In this example our particle gets a relative phase of q^3.
 
-Now let\'s rotate our grid of squares so it look like diamonds arranged
-in Pascal\'s triangle, with the lower right corner of our grid becoming
+Now let's rotate our grid of squares so it look like diamonds arranged
+in Pascal's triangle, with the lower right corner of our grid becoming
 the top of the triangle. And suppose we drop in a charged particle at
 the top! Then the particle can take lots of paths from the top to any
 given spot, but it will get a different phase depending on which path it
 takes. The rules of quantum mechanics say we have to add up these phases
 to get the amplitude for the particle to wind up at that spot. This sum
-over paths is a simple version of what physicists call a \"path
-integral\".
+over paths is a simple version of what physicists call a "path
+integral".
 
 For example, in this new picture the above path looks like:
 
@@ -193,7 +193,7 @@ For example, in this new picture the above path looks like:
                                   \    
                            x   x   o   x   x
 
-and we can tell it gets a phase of q^3^, because this shape is made of 3
+and we can tell it gets a phase of q^3, because this shape is made of 3
 diamonds:
 
                                    o
@@ -207,7 +207,7 @@ diamonds:
                            x   x   o   x   x
 
 If for each spot we sum these phases over all paths that reach that
-spot, we get the \"q-deformed Pascal\'s triangle\":
+spot, we get the "q-deformed Pascal's triangle":
 
                                    1
                                   / \
@@ -234,11 +234,11 @@ spot, we get the \"q-deformed Pascal\'s triangle\":
              /         \ /        \ /        \ /         \
             1    1+q+q2+q3    1+q+2q2+q3+q4  1+q+q2+q3      1
 
-Let\'s call the entry in the kth place of the nth row
+Let's call the entry in the kth place of the nth row
 
     [n choose k]
 
-The square brackets tell us that these are \"q-binomial coefficients\"
+The square brackets tell us that these are "q-binomial coefficients"
 instead of the ordinary ones.
 
 Using the fact that every path to reach a spot must have come from the
@@ -247,8 +247,8 @@ left or the right, you can show that
     [n choose k]  =  [n-1 choose k]  +  qn-k [n-1 choose k-1]
 
 It helps to draw some pictures to see where that factor of q^n-k^ is
-coming from\... but I\'ll leave that as a fun little exercise for you!
-And starting with this recursion relation, it\'s easy to check
+coming from... but I'll leave that as a fun little exercise for you!
+And starting with this recursion relation, it's easy to check
 inductively that:
 
                        [n]!
@@ -263,7 +263,7 @@ and \[n\] is the q-integer
 
     [n] = 1 + q + ... + q^{n-1}
 
-So the quantum Pascal\'s triangle is a lot like the ordinary one. In
+So the quantum Pascal's triangle is a lot like the ordinary one. In
 particular, the formula
 
                        [n]!
@@ -277,13 +277,13 @@ relation:
 
     [n choose k]  =  qk [n-1 choose k]  +  [n-1 choose k-1]
 
-But now let\'s see if you\'ve really been paying attention. Do you
+But now let's see if you've really been paying attention. Do you
 really understand these q-binomial coefficients? If so, you should
 instantly know what the coefficient of any power of q in \[n choose k\]
 signifies. Say, the coefficient of q^i^. Think about it.
 
-Right! It\'s the number of paths to the kth place of the nth row of
-Pascal\'s triangle that create a shape like this with i diamonds:
+Right! It's the number of paths to the kth place of the nth row of
+Pascal's triangle that create a shape like this with i diamonds:
 
                                    o
                                   / \
@@ -295,7 +295,7 @@ Pascal\'s triangle that create a shape like this with i diamonds:
                                   \ /
                            x   x   o   x   x
 
-But these shapes are famous! They\'re usually drawn like this:
+But these shapes are famous! They're usually drawn like this:
 
               ---------------
              |       |       |
@@ -307,32 +307,32 @@ But these shapes are famous! They\'re usually drawn like this:
              |       |       
               -------
 
-and they\'re called \"Young diagrams\" - or, with more historical
-accuracy, \"Ferrers diagrams\". So, the coefficient of q\^i in \[n
+and they're called "Young diagrams" - or, with more historical
+accuracy, "Ferrers diagrams". So, the coefficient of q\^i in \[n
 choose k\] is also the number of Young diagrams with i boxes, k columns
-and n-k rows.
+and $n$-k rows.
 
 Now, Young diagrams show up all over the place in mathematics. I
 described a few of their most fundamental applications in
-\"[week157](week157.html)\". One thing I *didn\'t* go into is their
-relation to Grassmannians. But we\'re pretty well-positioned to do that
-now, so let\'s give it a shot.
+["Week 157"](#week157). One thing I *didn't* go into is their
+relation to Grassmannians. But we're pretty well-positioned to do that
+now, so let's give it a shot.
 
 The Grassmannian Gr(n,k) is the set of all k-dimensional subspaces of an
 n-dimensional vector space. This makes sense over any field. However,
-it\'s particularly fun to work over the field with q elements, where q
+it's particularly fun to work over the field with q elements, where q
 is any prime power - because then our Grassmannian has \[n choose k\]
 elements!
 
-In fact, we already saw this in \"[week184](week184.html)\". But now I
+In fact, we already saw this in ["Week 184"](#week184). But now I
 want to give a proof that uses Young diagrams. This will forge yet
 another link between the two flavors of q-mathematics: the sort where q
 is a unit complex number, and the sort where q is a prime power. So far
-this week we\'ve been doing quantum mechanics and thinking of q as a
-unit complex number. Now we\'ll turn into algebraists, take what\'ve
+this week we've been doing quantum mechanics and thinking of q as a
+unit complex number. Now we'll turn into algebraists, take what've
 done, and apply it when q is a power of a prime number!
 
-In \"[week184](week184.html)\" I showed that we can read off a lot of
+In ["Week 184"](#week184) I showed that we can read off a lot of
 information about the Grassmannian Gr(n,k) from the q-binomial
 coefficient \[n choose k\]. For example,
 
@@ -343,10 +343,10 @@ and if we define our Grassmannian over the field F, we have
          Gr(4,2) = 1 + F + 2F2 + F3 + F4
 
 meaning that Gr(4,2) is a disjoint union of a point, a copy of the field
-F, 2 copies of F^2^, a copy of F^3^, and a copy of F^4^. Each copy of
-F^i^ is called an \"i-cell\" - or in this context a \"Schubert cell of
-dimension i\", because there may be many ways to decompose a space into
-cells, but there\'s a particularly nice one for Grassmannians.
+F, 2 copies of F^2, a copy of F^3, and a copy of F^4. Each copy of
+F^i^ is called an "i-cell" - or in this context a "Schubert cell of
+dimension i", because there may be many ways to decompose a space into
+cells, but there's a particularly nice one for Grassmannians.
 
 If F is the real or complex numbers, the cells F^i^ are actually open
 balls, and we can use this to study the topology of the Grassmannian.
@@ -362,28 +362,28 @@ number of points in Gr(4,2) is
      
               = [4 choose 2]
 
-I already said all this in \"[week184](week184.html)\". But now, I want
+I already said all this in ["Week 184"](#week184). But now, I want
 to use Young diagrams to get ahold of these cell decompositions.
 
 The answer should be staring us in the face. We know that the
 coefficient of any power of q in a q-binomial coefficient is the number
-of Young diagrams of a certain sort. And we also know it\'s the number
+of Young diagrams of a certain sort. And we also know it's the number
 of Schubert cells of a certain sort. There should be some way to see
 this directly.
 
 To do this, we just have to find a way to decompose the Grassmannian
 Gr(n,k) into cells, where each i-cell corresponds to a Young diagram
-with i boxes, k rows and n-k columns.
+with i boxes, k rows and $n$-k columns.
 
 The idea is simple. A point in Gr(n,k) is a k-dimensional subspace of
-the vector space F^n^. We can describe such a thing by writing a list of
+the vector space F^n. We can describe such a thing by writing a list of
 row vectors that form a basis for this subspace. This gives a matrix. Of
 course, the same subspace can have lots of different bases. But we can
-always find a nice \"standard\" basis where our matrix is in \"row
-echelon form\".
+always find a nice "standard" basis where our matrix is in "row
+echelon form".
 
-This is one of those things you\'re supposed to learn in linear
-algebra\... but if you forget how it goes, don\'t worry. The idea is
+This is one of those things you're supposed to learn in linear
+algebra... but if you forget how it goes, don't worry. The idea is
 just to take a matrix and keep subtracting multiples of any row from the
 rows below it, and stuff like that, until your matrix looks something
 like this:
@@ -393,25 +393,25 @@ like this:
                    0 0 0 1 X X X 0 X X            i = 19     (19 X's)
                    0 0 0 0 0 0 0 1 X X
 
-Here the X\'s are arbitrary numbers.
+Here the X's are arbitrary numbers.
 
 The set of matrices of a given shape like this is isomorphic to F^i^,
-where i is the number of X\'s. So, each shape gives us an i-cell in our
-Grassmannian! To finish the job, we just need to think of each \"shape\"
-as being a Young diagram with i boxes, k rows and n-k columns.
+where i is the number of X's. So, each shape gives us an i-cell in our
+Grassmannian! To finish the job, we just need to think of each "shape"
+as being a Young diagram with i boxes, k rows and $n$-k columns.
 
-And that\'s easy: we just remove the 0\'s and 1\'s from the above
-picture and make a Young diagram out of the X\'s:
+And that's easy: we just remove the 0's and 1's from the above
+picture and make a Young diagram out of the X's:
 
                          X X X X X X              k = 4      (4 rows)
-                         X X X X X X            n-k = 6      (6 columns)
+                         X X X X X X            $n$-k = 6      (6 columns)
                            X X X X X              i = 19     (19 boxes)
                                  X X
 
 Voila!
 
-Just for the heck of it, I\'ll work out the Schubert cell decomposition
-of Gr(4,2) by this technique. I\'ll write out the various shapes of row
+Just for the heck of it, I'll work out the Schubert cell decomposition
+of Gr(4,2) by this technique. I'll write out the various shapes of row
 echelon form for matrices with 4 columns and 2 rows, and next to them
 the corresponding Young diagrams and the kind of i-cells we get:
 
@@ -442,47 +442,47 @@ This is nicely consistent with what we already know:
 
     [4 choose 2] = 1 + q + 2q2 + q3 + q4
 
-Okay, enough of this\... now for some references.
+Okay, enough of this... now for some references.
 
-I\'ve already given lots of Young diagram references in
-\"[week157](week157.html)\", and lots of references on q-binomial
-coeffients and the like in \"[week183](week183.html)\" -
-\"[week185](week185.html)\". So, I\'ll just give some references to
-Pascal\'s triangle and this \"UV = qVU\" business.
+I've already given lots of Young diagram references in
+["Week 157"](#week157), and lots of references on q-binomial
+coeffients and the like in ["Week 183"](#week183) -
+["Week 185"](#week185). So, I'll just give some references to
+Pascal's triangle and this "UV = qVU" business.
 
-Here\'s the best place to learn the history of Pascal\'s triangle:
+Here's the best place to learn the history of Pascal's triangle:
 
-1\) A. W. F. Edwards, Pascal\'s Arithmetical Triangle, Charles Griffin
+1\) A. W. F. Edwards, Pascal's Arithmetical Triangle, Charles Griffin
 and Co., London, 1987.
 
-You\'ll see that the basic idea of Pascal\'s triangle goes back to
+You'll see that the basic idea of Pascal's triangle goes back to
 Mersenne in 1636, and Tartaglia in 1556, and the Hindu mathematician
-Bhaskara in 1150, and the Jain mathematician Mahavira in 850\... and so
+Bhaskara in 1150, and the Jain mathematician Mahavira in 850... and so
 on into the mists of time.
 
-You\'ll also see that around 1655, Wallis came up with his wonderful
+You'll also see that around 1655, Wallis came up with his wonderful
 formula:
 
            2 4 4 6 6 8 8 
     π/4 = - - - - - - - ...
            3 3 5 5 7 7 9 
 
-by relating Pascal\'s triangle to the integral for the area of a
+by relating Pascal's triangle to the integral for the area of a
 quarter-circle! His method was ingenious and daring: it consisted of
 taking an integral formula for binomial coefficients, extrapolating it
 to guess that
 
     4/π = (1 choose 1/2)
 
-and then using properties of Pascal\'s triangle to express the
+and then using properties of Pascal's triangle to express the
 right-hand side as an infinite product! One reason I like this is that I
-want to categorify the number π. Let me explain\....
+want to categorify the number π. Let me explain....
 
 Jim Dolan and I have a way to assign non-integral cardinalities to
-groupoids (see \"[week147](week147.html)\"). The cardinality of the
+groupoids (see ["Week 147"](#week147)). The cardinality of the
 groupoid of finite sets is e, and this actually explains lots of things
-about e once you understand it. So, I\'m always on the lookout for a
-really nice groupoid whose cardinality is related to π. It\'s easy to
+about e once you understand it. So, I'm always on the lookout for a
+really nice groupoid whose cardinality is related to π. It's easy to
 find groupoids that do the job; the hard part is finding one that does
 so in an enlightening way. Of course π is a subtler number than e, so
 this may be hard.
@@ -497,31 +497,31 @@ generating function was
 
 and evaluating this at the 1-element set to get a groupoid whose
 cardinality is π/4. (If this is utterly mystifying, see
-\"[week185](week185.html)\" and the references there.) I\'ve discussed
+["Week 185"](#week185) and the references there.) I've discussed
 this with him, and I also talked about it with my friend the
 combinatorist Bill Schmitt, and we made a little progress, but not
-enough. So, right now I like the idea of going back to Wallis\' original
-formula for π, and seeing how it relates to Pascal\'s triangle, and
+enough. So, right now I like the idea of going back to Wallis' original
+formula for π, and seeing how it relates to Pascal's triangle, and
 seeing if I can get anywhere with that!
 
-Embarrassingly, I don\'t know how the formula for arcsin(1) is related
-to Wallis\' formula, even though they look sort of similar.
+Embarrassingly, I don't know how the formula for arcsin(1) is related
+to Wallis' formula, even though they look sort of similar.
 
 Next:
 
-If you like the \"UV = qVU\" idea, you need to study the
-\"noncommutative torus\". This is a name for the C\*-algebra generated
+If you like the "UV = qVU" idea, you need to study the
+"noncommutative torus". This is a name for the C*-algebra generated
 by two unitaries U and V satisfying UV = qVU. The quantum Pascal
 triangle is built right in, because
 
     (U + V)n = sumk [n choose k] Uk Vn-k
 
-As we\'ve seen, the noncommutative torus shows up naturally when we have
+As we've seen, the noncommutative torus shows up naturally when we have
 a charged particle on the plane in a magnetic field. Jean Belissard has
 used this to relate the fractional quantum Hall effect to the K-theory
 of the noncommutative torus:
 
-2\) Jean Bellisard, K-theory of C\*-algebras in solid state physics, in
+2\) Jean Bellisard, K-theory of C*-algebras in solid state physics, in
 Lecture Notes in Physics vol. 237, Springer, Berlin, 1986, pp. 99-156.
 
 Connes has also studied these matters:
@@ -531,13 +531,13 @@ Connes has also studied these matters:
 
 More recently, string theorists have done a bunch of physics on the
 noncommutative torus! The reason is that string theory includes a 2-form
-field \"B\" which is similar in some ways to the magnetic field. For an
+field "B" which is similar in some ways to the magnetic field. For an
 overview of this with lots of references try:
 
 4\) Richard Szabo, Quantum field theory on noncommutative spaces,
 available as [hep-th/0109162](http://xxx.lanl.gov/abs/hep-th/0109162).
 
-On the other hand, if you\'re more of a pure mathematician you might
+On the other hand, if you're more of a pure mathematician you might
 like this:
 
 5\) Marc Rieffel, Noncommutative tori: a case study of noncommutative
@@ -545,7 +545,7 @@ differential manifolds, in Geometric and topological invariants of
 elliptic operators Contemp. Math. 105, American Mathematical Society,
 1990, pp. 191-211.
 
-By the way, the concept of \"noncommutative manifold\" has not so far
+By the way, the concept of "noncommutative manifold" has not so far
 received a precise definition, but someone told me Connes is working on
 such a definition and is all excited about it. That sounds promising!
 Whatever the definition, the noncommutative torus must be an example.

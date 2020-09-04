@@ -1,6 +1,6 @@
 week203
 
-Last week I posed this puzzle: to find a \"Golden Object\".
+Last week I posed this puzzle: to find a "Golden Object".
 
 A couple days ago I got a wonderful solution from Robin Houston, a
 computer science grad student at the University of Manchester. So, I
@@ -8,10 +8,10 @@ want to say a bit more about the golden number, then describe his
 solution, and then describe how he found it.
 
 Supposedly the Greeks thought the most beautiful rectangle was one such
-that when you chop a square off one end, you\'re left with a rectangle
+that when you chop a square off one end, you're left with a rectangle
 of the same shape. If your original rectangle was 1 unit across and G
-units long, after you chop a 1-by-1 square off the end you\'re left with
-a rectangle that\'s G-1 units across and 1 unit long:
+units long, after you chop a 1-by-1 square off the end you're left with
+a rectangle that's G-1 units across and 1 unit long:
 
                                        G
                          .........................
@@ -51,27 +51,27 @@ and
                     G2   = 2.618033988749894848204586834365...
 
 (At this point I usually tell my undergraduates that the pattern
-continues like this, with G^3^ = 3.618\... and so on - just to see if
-they\'ll believe anything I say.)
+continues like this, with G^3 = 3.618... and so on - just to see if
+they'll believe anything I say.)
 
 These days, the number G is called the Golden Number, the Golden Ratio,
-or the Golden Section. It\'s often denoted by the Greek letter Φ, after
+or the Golden Section. It's often denoted by the Greek letter Φ, after
 the Greek sculptor Phidias. Phidias helped design the Parthenon - and
 supposedly packed it full of golden rectangles, to make it as beautiful
 as possible.
 
 The golden number is a great favorite among amateur mathematicians,
 because it has a flashy sort of charm. You can find it all over the
-place if you look hard enough - and if you look too hard, you\'ll find
-it even in places where it\'s not. It\'s the ratio of the diagonal to
-the side of a regular pentagon! If you like the number 5, you\'ll be
+place if you look hard enough - and if you look too hard, you'll find
+it even in places where it's not. It's the ratio of the diagonal to
+the side of a regular pentagon! If you like the number 5, you'll be
 glad to know that
 
                 5 + sqrt(5)
       G = sqrt[-------------]
                 5 - sqrt(5)
 
-If you don\'t, maybe you\'d prefer this:
+If you don't, maybe you'd prefer this:
 
       G = exp(arcsinh(1/2))
 
@@ -97,29 +97,29 @@ and the continued fraction:
                                            .
                                              .
 
-These follow from the equations G^2^ = G + 1 and G = 1 + 1/G,
+These follow from the equations G^2 = G + 1 and G = 1 + 1/G,
 respectively. If you chop off the continued fraction for G at any point,
-you\'ll see that G is also the limit of the ratios of successive
-Fibonacci numbers. See \"[week190](week190.html)\" for a very different
+you'll see that G is also the limit of the ratios of successive
+Fibonacci numbers. See ["Week 190"](#week190) for a very different
 proof of this fact.
 
-However, don\'t be fooled! The charm of the golden number tends to
-attract kooks and the gullible - hence the term \"fool\'s gold\". You
+However, don't be fooled! The charm of the golden number tends to
+attract kooks and the gullible - hence the term "fool's gold". You
 have to be careful about anything you read about this number. In
 particular, if you think ancient Greeks ran around in togas
-philosophizing about the \"golden ratio\" and calling it \"Φ\", you\'re
+philosophizing about the "golden ratio" and calling it "Φ", you're
 wrong. This number was named Φ after Phidias only in 1914, in a book
 called *The Curves of Life* by the artist Theodore Cook. And, it was
-Cook who first started calling 1.618\... the golden ratio. Before him,
-0.618\... was called the golden ratio! Cook dubbed this number \"φ\",
+Cook who first started calling 1.618... the golden ratio. Before him,
+0.618... was called the golden ratio! Cook dubbed this number "φ",
 the lower-case baby brother of Φ.
 
-In fact, the whole \"golden\" terminology can only be traced back to
+In fact, the whole "golden" terminology can only be traced back to
 1826, when it showed up in a footnote to a book by one Martin Ohm,
 brother of Georg Ohm, the guy with the law about resistors. Before then,
-a lot of people called 1/G the \"Divine Proportion\". And the guy who
+a lot of people called 1/G the "Divine Proportion". And the guy who
 started *that* was Luca Pacioli, a pal of Leonardo da Vinci who
-translated Euclid\'s *Elements*. In 1509, Pacioli published a 3-volume
+translated Euclid's *Elements*. In 1509, Pacioli published a 3-volume
 text entitled *Divina Proportione*, advertising the virtues of this
 number. Some people think da Vinci used the divine proportion in the
 composition of his paintings. If so, perhaps he got the idea from
@@ -127,19 +127,19 @@ Pacioli.
 
 Maybe Pacioli is to blame for the modern fascination with the golden
 ratio; it seems hard to trace it back to Greece. These days you can buy
-books and magazines about \"Elliot Wave Theory\", a method for making
+books and magazines about "Elliot Wave Theory", a method for making
 money on the stock market using patterns related to the golden number.
-Or, if you\'re more spiritually inclined, you can go to workshops on
-\"Sacred Geometry\" featuring talks about the healing powers of the
+Or, if you're more spiritually inclined, you can go to workshops on
+"Sacred Geometry" featuring talks about the healing powers of the
 golden ratio. But Greek texts seem remarkably quiet about this number.
 
 The first recorded hint of it is [Proposition 11 in Book
 II](http://aleph0.clarku.edu/~djoyce/java/elements/bookII/propII11.html)
-of Euclid\'s *Elements*. It also shows up elsewhere in Euclid,
+of Euclid's *Elements*. It also shows up elsewhere in Euclid,
 especially [Proposition 30 of Book
 VI](http://aleph0.clarku.edu/~djoyce/java/elements/bookVI/propVI30.html),
-where the task is \"to cut a given finite straight line in extreme and
-mean ratio\", meaning a ratio A:B such that
+where the task is "to cut a given finite straight line in extreme and
+mean ratio", meaning a ratio A:B such that
 
     A:B::(A+B):A                (i.e., "A is to B as A+B is to A")
 
@@ -147,17 +147,17 @@ This is later used in [Proposition 17 of Book
 XIII](http://aleph0.clarku.edu/~djoyce/java/elements/bookXIII/propXIII17.html)
 to construct the pentagonal face of a regular dodecahedron.
 
-Of course, Euclid wasn\'t the first to do all these things; he just
-wrote them up in a nice textbook. By now it\'s impossible to tell who
+Of course, Euclid wasn't the first to do all these things; he just
+wrote them up in a nice textbook. By now it's impossible to tell who
 discovered the golden ratio and just what the Greeks thought about it.
 For a sane and detailed look at the history of the golden ratio, try
 this:
 
-1\) J. J. O\'Connor and E. F. Robertson, The Golden Ratio,
-<http://www-gap.dcs.st-and.ac.uk/~history/HistTopics/Golden_ratio.html>
+1\) J. J. O'Connor and E. F. Robertson, The Golden Ratio,
+`http://www-gap.dcs.st-and.ac.uk/~history/HistTopics/Golden_ratio.html`
 
-While I\'m at it, I should point out that Theodore Cook\'s book
-introducing the notation \"Φ\" is still in print:
+While I'm at it, I should point out that Theodore Cook's book
+introducing the notation "Φ" is still in print:
 
 2\) Theodore A. Cook, The Curves of Life: Being an Account of Spiral
 Formations and Their Application to Growth in Nature, to Science, and to
@@ -165,44 +165,44 @@ Art: with Special Reference to the Manuscripts of Leonardo da Vinci,
 Dover Publications, New York, 1979.
 
 If you want to see what Euclid said about the golden ratio, you can also
-pick up a cheap copy of the Elements from Dover - but it\'s probably
+pick up a cheap copy of the Elements from Dover - but it's probably
 quicker to go online. There are a number of good places to find
-Euclid\'s Elements online these days.
+Euclid's Elements online these days.
 
-Topologists know David Joyce as the inventor of the \"quandle\" - an
+Topologists know David Joyce as the inventor of the "quandle" - an
 algebraic structure that captures most of the information in a knot. Now
-he\'s writing a high-tech edition of Euclid, complete with Java applets:
+he's writing a high-tech edition of Euclid, complete with Java applets:
 
-3\) David E. Joyce\'s edition of Euclid\'s Elements,
-<http://aleph0.clarku.edu/~djoyce/java/elements/toc.html>
+3\) David E. Joyce's edition of Euclid's Elements,
+`http://aleph0.clarku.edu/~djoyce/java/elements/toc.html`
 
 Joyce is carrying on a noble tradition: back in 1847, Oliver Byrne did a
 wonderful edition of Euclid complete with lots of beautiful color
 pictures and even some pop-up models. You can see this online at the
 Digital Mathematics Archive:
 
-4\) Oliver Byrne\'s edition of Euclid\'s Elements, online at the Digital
-Mathematics Archive, <http://www.sunsite.ubc.ca/DigitalMathArchive/>
+4\) Oliver Byrne's edition of Euclid's Elements, online at the Digital
+Mathematics Archive, `http://www.sunsite.ubc.ca/DigitalMathArchive/`
 
 The most famous scholarly English translation of Euclid was done by Sir
 Thomas Heath in 1908. You can find it together with an edition in Greek
 and a nearly infinite supply of other classical texts at the Perseus
 Digital Library:
 
-5\) Thomas L. Heath\'s edition of Euclid\'s Elements, online at The
-Perseus Digital Library, <http://www.perseus.tufts.edu/>
+5\) Thomas L. Heath's edition of Euclid's Elements, online at The
+Perseus Digital Library, `http://www.perseus.tufts.edu/`
 
-But I\'m digressing! My main point was that while G = (1 + sqrt(5))/2 is
-a neat number, it\'s a lot easier to find nuts raving about it on the
+But I'm digressing! My main point was that while G = (1 + sqrt(5))/2 is
+a neat number, it's a lot easier to find nuts raving about it on the
 net than to find truly interesting mathematics associated with it - or
 even interesting references to it in Greek mathematics! The cynic might
 conclude that the charm of this number is purely superficial. However,
 that would be premature.
 
-First of all, there\'s a certain sense in which G is \"the most
-irrational number\". To get the best rational approximations to a number
+First of all, there's a certain sense in which G is "the most
+irrational number". To get the best rational approximations to a number
 you use its continued fraction expansion. For G, this converges as
-slowly as possible, since it\'s made of all 1\'s:
+slowly as possible, since it's made of all 1's:
 
                        1
          G =  1  +  ---------
@@ -220,23 +220,23 @@ slowly as possible, since it\'s made of all 1\'s:
                                            .
                                              .
 
-We can make this more precise. For any number x there\'s a constant c(x)
+We can make this more precise. For any number x there's a constant c(x)
 that says how hard it is to approximate x by rational numbers, given by
 
             lim inf      |x - p/q|   = c(x)/q2
-          q → ∞
+          q \to \infty
 
-where q ranges over integers, and p is an integer chosen to minimize \|x
-- p/q\|. This constant is as big as possible when x is the golden ratio!
+where q ranges over integers, and p is an integer chosen to minimize |x
+- p/q|. This constant is as big as possible when x is the golden ratio!
 
-It\'d be ironic if the famously \"rational\" Greeks, who according to
+It'd be ironic if the famously "rational" Greeks, who according to
 legend even drowned the guy who proved sqrt(2) was irrational, chose the
 most irrational number as the proportions of their most beautiful
-rectangle! But, it wouldn\'t be a coincidence. Their obsession with
+rectangle! But, it wouldn't be a coincidence. Their obsession with
 ratios and proportions led them to ponder the situation where
 A:B::(A+B):A, and this proportion instantly implies that A and B are
 incommensurable, since if you assume A and B are integers and try to
-find their greatest common divisor using Euclid\'s algorithm, you get
+find their greatest common divisor using Euclid's algorithm, you get
 stuck in an infinite loop. Euclid even mentions this idea in
 [Proposition 2 of Book
 X](http://aleph0.clarku.edu/~djoyce/java/elements/bookX/propX2.html):
@@ -245,32 +245,32 @@ X](http://aleph0.clarku.edu/~djoyce/java/elements/bookX/propX2.html):
 > in turn from the greater that which is left never measures the one
 > before it, then the two magnitudes are incommensurable.
 
-He doesn\'t explicitly come out and apply it to what we now call the
+He doesn't explicitly come out and apply it to what we now call the
 golden ratio - but how could he not have made the connection? For more
 info on the Greek use of continued fractions and the Euclidean
-algorithm, check out the chapter on \"antihyphairetic ratio theory\" in
+algorithm, check out the chapter on "antihyphairetic ratio theory" in
 this book:
 
-6\) D. H. Fowler, The Mathematics of Plato\'s Academy: A New
+6\) D. H. Fowler, The Mathematics of Plato's Academy: A New
 Reconstruction, Oxford U. Press, Oxford, 1987.
 
-Anyway, it\'s actually important in physics that the golden number is so
+Anyway, it's actually important in physics that the golden number is so
 poorly approximated by rationals. This fact shows up in the Kolmogorov-
-Arnold-Moser theorem, or \"KAM theorem\", which deals with small
+Arnold-Moser theorem, or "KAM theorem", which deals with small
 perturbations of completely integrable Hamiltonian systems. Crudely
 speaking, these are classical mechanics problems that have as many
 conserved quantities as possible. These are the ones that tend to show
 up in textbooks, like the harmonic oscillator and the gravitational
 2-body problem. The reason is that you can solve such problems if you
-can do a bunch of integrals - hence the term \"completely integrable\".
+can do a bunch of integrals - hence the term "completely integrable".
 
 The cool thing about a completely integrable system is that time
 evolution carries states of the system along paths that wrap around
 tori. Suppose it takes n numbers to describe the position of your
 system. Then it also takes n numbers to describe its momentum, so the
 space of states is 2n-dimensional. But if the system has n different
-conserved quantities - that\'s basically the maximum allowed - the space
-of states will be foliated by n-dimensional tori. Any state that starts
+conserved quantities - that's basically the maximum allowed - the space
+of states will be foliated by $n$-dimensional tori. Any state that starts
 on one of these tori will stay on it forever! It will march round and
 round, tracing out a kind of spiral path that may or may not ever get
 back to where it started.
@@ -285,31 +285,31 @@ pendulums swinging back and forth, their motion is periodic if the
 ratios of their frequencies are rational numbers.
 
 This is how it works for any completely integrable system. For any
-torus, there\'s an n-tuple of numbers describing the frequency with
+torus, there's an $n$-tuple of numbers describing the frequency with
 which paths on this torus wind around in each of the n directions. If
 the ratios of these frequencies are all rational, paths on this torus
-trace out periodic orbits. Otherwise, they don\'t!
+trace out periodic orbits. Otherwise, they don't!
 
 KAM theory says what happens when you perturb such a system a little. It
-won\'t usually be completely integrable anymore. Interestingly, the tori
+won't usually be completely integrable anymore. Interestingly, the tori
 with rational frequency ratios tend to fall apart due to resonance
 effects. Instead of periodic orbits, we get chaotic motions instead. But
-the \"irrational\" tori are more stable. And, the \"more irrational\"
+the "irrational" tori are more stable. And, the "more irrational"
 the frequency ratios for a torus are, the bigger a perturbation it takes
 to disrupt it! Thus, the most stable tori tend to have frequency ratios
 involving the golden number. As we increase the perturbation, the last
-torus to die is called a \"golden torus\".
+torus to die is called a "golden torus".
 
 You can actually *watch* tori breaking into chaotic dust if you check
-out the applet illustrating the \"standard map\" on this website:
+out the applet illustrating the "standard map" on this website:
 
 7\) Takashi Kanamaru and J. Michael T. Thompson, Introduction to Chaos
 and Nonlinear Dynamics, standard map applet,
-<http://brain.cc.kogakuin.ac.jp/~kanamaru/Chaos/e/Standard/>
+`http://brain.cc.kogakuin.ac.jp/~kanamaru/Chaos/e/Standard/`
 
-The \"standard map\" is a certain dynamical system that\'s good for
-illustrating this effect. You won\'t actually see 2d tori, just 1d
-cross-sections of them - but it\'s pretty fun. For more details, try
+The "standard map" is a certain dynamical system that's good for
+illustrating this effect. You won't actually see 2d tori, just 1d
+cross-sections of them - but it's pretty fun. For more details, try
 this:
 
 8\) M. Tabor, Chaos and Integrability in Nonlinear Dynamics: An
@@ -319,20 +319,20 @@ In short, the golden number is the best frequency ratio for avoiding
 resonance!
 
 Some audiophiles even say this means the best shaped room for listening
-to music is one with proportions 1:G:G^2^. I leave it to you to find the
+to music is one with proportions 1:G:G^2. I leave it to you to find the
 flaw in this claim. For more dubious claims, check out the ad for
 expensive speaker cables at the end of this article.
 
-KAM theory is definitely cool, but we shouldn\'t rest content with this
-when skeptics ask if the golden number is all it\'s cracked up to be. I
-figure it\'s part of our job as mathematicians to keep on discovering
+KAM theory is definitely cool, but we shouldn't rest content with this
+when skeptics ask if the golden number is all it's cracked up to be. I
+figure it's part of our job as mathematicians to keep on discovering
 mind-blowing facts about the golden number. A small part, but part: we
-shouldn\'t give up the field to amateurs!
+shouldn't give up the field to amateurs!
 
-Penrose has done his share. His \"Penrose tiles\" take crucial advantage
+Penrose has done his share. His "Penrose tiles" take crucial advantage
 of the self-similarity embodied by the golden number to create
 nonperiodic tilings of the plane. This helped spawn a nice little
-industry, the study of \"quasicrystals\" with 5-fold symmetry. Here\'s a
+industry, the study of "quasicrystals" with 5-fold symmetry. Here's a
 good introduction for mathematicians:
 
 9\) Andre Katz, A short introduction to quasicrystallography, in From
@@ -353,12 +353,12 @@ Berlin, 1992, pp. 659-679.
 
 Conway and Sloane are also pulling their weight. Starting from the
 relation between the golden ratio, the isosahedron, and the
-4-dimensional big brother of the icosahedron (the \"600-cell\"),
-they\'ve described how to construct the coolest lattices in 8 and 24
-dimensions using \"icosians\" - which are certain quaternions built
+4-dimensional big brother of the icosahedron (the "600-cell"),
+they've described how to construct the coolest lattices in 8 and 24
+dimensions using "icosians" - which are certain quaternions built
 using the golden ratio. I discussed this circle of ideas in
-\"[week20](week20.html)\", \"[week59](week59.html)\" and
-\"[week155](week155.html)\".
+["Week 20"](#week20), ["Week 59"](#week59) and
+["Week 155"](#week155).
 
 But if you want some really scary formulas involving the golden ratio,
 Ramanujan is the one to go to. Check these out:
@@ -392,13 +392,13 @@ and
                                       .
 
 These are special cases of a monstrosity called the Rogers-Ramanujan
-continued fraction, which is a kind of \"q-deformation\" of the
+continued fraction, which is a kind of "q-deformation" of the
 continued fraction for the golden ratio. For details, start here:
 
 12\) Eric W. Weisstein, Rogers-Ramanujan Continued Fraction,
-<http://mathworld.wolfram.com/Rogers-RamanujanContinuedFraction.html>
+`http://mathworld.wolfram.com/Rogers-RamanujanContinuedFraction.html`
 
-It\'s these two formulas, and one other like it, that led Hardy to write
+It's these two formulas, and one other like it, that led Hardy to write
 the famous lines:
 
 > A single look at them is enough to show that they could only be
@@ -413,8 +413,8 @@ section 6.17 of his book:
 His Life and Work, Chelsea Publishing Co., New York, 1959.
 
 The golden number also shows up in the theory of quantum groups. I
-talked about this in \"[week22](week22.html)\" so I won\'t explain it
-again here. But, I can\'t resist mentioning that Freedman, Larsen and
+talked about this in ["Week 22"](#week22) so I won't explain it
+again here. But, I can't resist mentioning that Freedman, Larsen and
 Wang have subsequently shown that a certain topological quantum field
 theory called Chern-Simons theory, built using the quantum group
 SU~q~(2), can serve as a universal quantum computer when the parameter q
@@ -426,32 +426,32 @@ golden number!
 which is universal for quantum computation, available at
 [quant-ph/0001108](http://www.arXiv.org/quant-ph/0001108).
 
-But don\'t get the wrong idea: it\'s not that some magic feature of the
-golden number is required to build a universal quantum computer! It\'s
+But don't get the wrong idea: it's not that some magic feature of the
+golden number is required to build a universal quantum computer! It's
 just that the 5 seems to be the *smallest* number n such that SU~q~(2)
 Chern-Simons theory is computationally universal when q is an nth root
 of 1.
 
-That\'s pretty much everything I know about the golden number. So now,
-what about this \"Golden Object\" puzzle?
+That's pretty much everything I know about the golden number. So now,
+what about this "Golden Object" puzzle?
 
 Basically, the problem was to find an object that acts like the golden
-number. The golden number has G^2^ = G + 1, so we want to find a object
-G equipped with a nice isomorphism between G^2^ and G + 1.
+number. The golden number has G^2 = G + 1, so we want to find a object
+G equipped with a nice isomorphism between G^2 and G + 1.
 
 If G is just a set, this means we want a nice one-to-one correspondence
 between pairs of elements of G, and elements of G together with one
-other thing. It doesn\'t matter what that other thing is, so let\'s call
-it \"@\".
+other thing. It doesn't matter what that other thing is, so let's call
+it "@".
 
-(You may be wondering about the word \"nice\". The point is, the problem
-is too easy if we don\'t demand that the solution be nice in some way -
-some way that I don\'t feel like making precise.)
+(You may be wondering about the word "nice". The point is, the problem
+is too easy if we don't demand that the solution be nice in some way -
+some way that I don't feel like making precise.)
 
-Here\'s Robin Houston\'s answer:
+Here's Robin Houston's answer:
 
-Define a \"bit\" to be either 0 or 1. Define a \"golden tree\" to be a
-(planar) binary tree with leaves labelled by 0, 1, or \*, where every
+Define a "bit" to be either 0 or 1. Define a "golden tree" to be a
+(planar) binary tree with leaves labelled by 0, 1, or *, where every
 node has at most one bit-child. For example:
 
                   /\   
@@ -466,7 +466,7 @@ is a golden tree, but
 
 is not. Let G be the set of golden trees. We define an isomorphism
 
-    f: G2 → G + {@} 
+    f: G2 \to G + {@} 
 
 as follows. First we define f(X, Y) when both X and Y are golden trees
 with just one node, this node being labelled by a bit. We can identify
@@ -485,18 +485,18 @@ we set
 
 There are different ways to show this function f is a one-to-one
 correspondence, but the best way is to see how Houston came up with this
-answer! He didn\'t just pull it out of a hat; he tackled the problem
-systematically, and that\'s why his solution counts as \"nice\".
+answer! He didn't just pull it out of a hat; he tackled the problem
+systematically, and that's why his solution counts as "nice".
 
-It\'s easy to find a set S equipped with an isomorphism
+It's easy to find a set S equipped with an isomorphism
 
     S = P(S)
 
 where P is some polynomial with natural number coefficients. You just
-use the fixed-point principle described in \"[week108](week108.html)\".
+use the fixed-point principle described in ["Week 108"](#week108).
 Namely, you start with the empty set, keep hitting it with P forever,
 and take a kind of limit. This is how I built the set of binary trees
-last week, as a solution of T = T^2^ + 1.
+last week, as a solution of T = T^2 + 1.
 
 The problem is that the isomorphism we seek now:
 
@@ -506,11 +506,11 @@ is not of this form. So, what Houston does is to make a substitution:
 
     G = H + 2
 
-Given this, we\'d get (1) if we had
+Given this, we'd get (1) if we had
 
     H2 + 4H + 4 = H + 3                      (2)
 
-and we\'d get (2) if we had
+and we'd get (2) if we had
 
     H2 + 4H + 1 = H                          (3)
 
@@ -520,24 +520,24 @@ We can rewrite (3) as
 
     H = 1 + H2 + 2H + H2
 
-and in English this says \"an element of H is either a \*, or a pair
+and in English this says "an element of H is either a *, or a pair
 consisting of two guys that are either bits or elements of H - but not
-both bits\". So, a guy in H is a golden tree! But, if it has just one
-node, that node can only be labelled by a \*, not a 0 or 1. This means
+both bits". So, a guy in H is a golden tree! But, if it has just one
+node, that node can only be labelled by a *, not a 0 or 1. This means
 there are precisely 2 golden trees not in H. So, G = H + 2 is the set of
-all golden trees, and our calculation above gives an isomorphism G^2^ =
+all golden trees, and our calculation above gives an isomorphism G^2 =
 G + 1.
 
 Voila!
 
 Note that to derive (3) from (1) we need to subtract, which in general
 is not allowed in this game. Here we are subtracting constants, and
-Houston says that\'s allowed by the \"Garsia-Milne involution theorem\".
-I don\'t know this theorem, so I\'ll make a note to myself to learn it.
-But luckily, we don\'t really need it here: we only need to derive (1)
-from (3), and that involves addition, so it\'s fine.
+Houston says that's allowed by the "Garsia-Milne involution theorem".
+I don't know this theorem, so I'll make a note to myself to learn it.
+But luckily, we don't really need it here: we only need to derive (1)
+from (3), and that involves addition, so it's fine.
 
-Part of what makes Houston\'s solution \"nice\" is that it suggests a
+Part of what makes Houston's solution "nice" is that it suggests a
 general method for turning polynomial equations into recursive
 definitions of the form S = P(S). Another nice thing is that his trick
 delivers a structure type G(X) that reduces to G when X = 1. To get
@@ -554,71 +554,71 @@ and note that this gives
 
     G(X)2 = G(X) + X
 
-which reduces to G^2^ = G + 1 when X = 1.
+which reduces to G^2 = G + 1 when X = 1.
 
-As if this weren\'t enough, Houston also gave another solution to the
-puzzle. He showed that James Propp\'s proposed Golden Object, described
+As if this weren't enough, Houston also gave another solution to the
+puzzle. He showed that James Propp's proposed Golden Object, described
 last week, really is a Golden Object! Maybe Propp already knew this, but
-I sure didn\'t.
+I sure didn't.
 
-The idea of the proof is pretty general. Suppose we\'re in some category
-that\'s a \"2-rig\" in the sense of \"[week191](week191.html)\". And,
-suppose we\'ve got an object X equipped with an isomorphism
+The idea of the proof is pretty general. Suppose we're in some category
+that's a "2-rig" in the sense of ["Week 191"](#week191). And,
+suppose we've got an object X equipped with an isomorphism
 
     X = 1 + 2X                                (4)
 
-so that X acts like \"-1\". For example, following Schanuel and Propp,
-we can take the category of \"σ-polytopes\" and let X be the open
+so that X acts like "-1". For example, following Schanuel and Propp,
+we can take the category of "σ-polytopes" and let X be the open
 interval: then isomorphism (4) says
 
     (0,1) = (0,1/2) + {1/2} + (1/2,1)
 
 Or, following Houston, we can take the category of sets and let X be the
-set of finite bit-strings. Then (4) says \"a finite bit-string is either
-the empty bit-string, or a bit followed by a finite bit-string\". The
+set of finite bit-strings. Then (4) says "a finite bit-string is either
+the empty bit-string, or a bit followed by a finite bit-string". The
 relation between these two examples is puzzling to me - if anyone
 understands it, let me know! But anyway, either one works.
 
-Now let G be the object of \"binary trees with X-labelled leaves\":
+Now let G be the object of "binary trees with X-labelled leaves":
 
     G = X + X2 + 2X3 + 5X4 + 14X5 + 42X6 + ...
 
-where the coefficients are Catalan numbers. Let\'s show that G is a
-Golden Object. To do this, we\'ll use (4) and this isomorphism:
+where the coefficients are Catalan numbers. Let's show that G is a
+Golden Object. To do this, we'll use (4) and this isomorphism:
 
     G = G2 + X                               (5)
 
-which says \"a binary tree with X-labelled leaves is a pair of such
-trees, or a degenerate tree with just one X-labelled node\". The formula
+which says "a binary tree with X-labelled leaves is a pair of such
+trees, or a degenerate tree with just one X-labelled node". The formula
 for G involving Catalan numbers is really just the fixed-point solution
 to this!
 
-Here is Houston\'s fiendishly clever argument. Suppose Z is any type
+Here is Houston's fiendishly clever argument. Suppose Z is any type
 equipped with an isomorphism
 
     Z = Z' + X 
 
-for some Z\'. Then
+for some Z'. Then
 
     Z + X + 1 = Z' + 2X + 1 
               = Z' + X  
               = Z 
 
-This applies to Z = G^2^, since
+This applies to Z = G^2, since
 
     G2 = (X + G2)2 = (2X + 1 + G2)2 
 
-has a X term in it when you multiply it out, so it\'s of the form Z\' +
+has a X term in it when you multiply it out, so it's of the form Z' +
 X. Therefore we have an isomorphism
 
     G2 = G2 + X + 1
 
-But we also have an isomorphism G + 1 = G^2^ + X + 1 by (5). Composing
+But we also have an isomorphism G + 1 = G^2 + X + 1 by (5). Composing
 these, we get our isomorphism
 
     G2 = G + 1.
 
-Golden! I\'ll stop here.
+Golden! I'll stop here.
 
 ------------------------------------------------------------------------
 
@@ -628,10 +628,10 @@ paper:
 15\) Paolo Boldi, Massimo Santini, and Sebastiano Vigna, Measuring with
 jugs, or: what if mathematicians were asked to defuse bombs?, Theoret.
 Comput. Sci. 2 (2002). Also available at
-<http://vigna.dsi.unimi.it/papers.php>
+`http://vigna.dsi.unimi.it/papers.php`
 
 which shows that if you want to approximately measure an arbitrary
-amount of water using only two jugs, it\'s best if they have capacity 1
+amount of water using only two jugs, it's best if they have capacity 1
 and G. This paper cites a a charming result by Swierczkowski which picks
 up where a famous theorem due to Dedekind leaves off. Dedekind showed
 that if x is any irrational number, the numbers nx mod 1 are uniformly
@@ -640,8 +640,8 @@ an especially nice property: each new point in the sequence (nx mod 1)
 lands in one of the *longest* intervals not containing a previous point!
 And, it chops this interval in a golden way.
 
-Stephen Schanuel said some things about \"[week203](week203.html)\" on
-the category theory mailing list, so I\'ll include his post here along
+Stephen Schanuel said some things about ["Week 203"](#week203) on
+the category theory mailing list, so I'll include his post here along
 with various replies, concluding with my own.
 
 
@@ -697,7 +697,7 @@ with various replies, concluding with my own.
     rather 'remembering the finite sets and maps which gave rise to natural
     numbers by the abstraction of passing to isomorphism classes'.
        Finally, a note to John: While you're trying to give your audience
-    some feeling for the virtues of n-categories, couldn't you give them a
+    some feeling for the virtues of $n$-categories, couldn't you give them a
     little help with n=1, by being a little more precise about objects and
     maps?
        Greetings to all, and thanks for your patience while I got this stuff
@@ -714,7 +714,7 @@ with various replies, concluding with my own.
 
     Categorification is a bit like quantization:  it isn't a construction so much
     as a desideratum for a relationship between one thing and another (in the
-    case of categorification an (n+1)-categorical structure and an n-categorical
+    case of categorification an $(n+1)$-categorical structure and an $n$-categorical
     structure; in the case of quantization a quantum mechanical system and
     a classical mechanical system).
 
@@ -798,7 +798,7 @@ with various replies, concluding with my own.
 
     Quite right.  I would add to this "and satisfying the expected equations."
     The "nasty sets" of which Steve speaks fail to satisy such expected
-    equations as 2^2^X ~ X.  (The power set of a set is a Boolean algebra,
+    equations as 2^2X ~ X.  (The power set of a set is a Boolean algebra,
     for heaven's sake.  Why on earth forget that structure prior to taking the
     second exponentiation?  Set theorists seem to think that they can simply
     forget structure without paying for it, but in the real world it costs
@@ -912,8 +912,8 @@ with various replies, concluding with my own.
 
     G = H + 2.
 
-    I described how Houston uses the isomorphism H → H^2 + 4H + 1 to 
-    construct an isomorphism G^2 → G + 1.  
+    I described how Houston uses the isomorphism H \to H^2 + 4H + 1 to 
+    construct an isomorphism G^2 \to G + 1.  
 
     What's nice about this is that it reduces a problem that's not 
     obviously of fixed-point form to one that is.
@@ -926,7 +926,7 @@ with various replies, concluding with my own.
     G = X + X^2 + 2X^3 + 5X^4 + 14X^5 + 42X^6 + ...
 
     where the coefficients are Catalan numbers.  He uses the obvious 
-    isomorphism G → G^2 + X to construct an isomorphism G^2 → G + 1.
+    isomorphism G \to G^2 + X to construct an isomorphism G^2 \to G + 1.
 
     What's nice about this is that it shows Propp's originally proposed
     golden object really is one: just take the category of σ-polytopes 
@@ -1030,7 +1030,7 @@ with various replies, concluding with my own.
      fraught with difficulties.
 
     >Finally, a note to John: While you're trying to give your audience
-    >some feeling for the virtues of n-categories, couldn't you give them a
+    >some feeling for the virtues of $n$-categories, couldn't you give them a
     >little help with n=1, by being a little more precise about objects and
     >maps?
 
@@ -1044,14 +1044,14 @@ with various replies, concluding with my own.
 *As a high-end cable manufacturer, Cardas Audio strives to address every
 detail of cable and conductor construction, no matter how small. An
 elegant solution deals with quality, not quantity. Cable geometry
-problems are resolved in the cable\'s design, not after the fact with
+problems are resolved in the cable's design, not after the fact with
 filters. George Cardas received U.S. Patent Number 4,628,151 for
 creating Golden Section Stranding Audio Cable. It is truly unique.
 George introduced the concept of Golden Section Stranding to high-end
-audio, but the Golden Ratio, 1.6180339887\... : 1, is as old as nature
+audio, but the Golden Ratio, 1.6180339887... : 1, is as old as nature
 itself. The Golden Ratio is the mathematical proportion nature uses to
 shape leaves and sea shells, insects and people, hurricanes and
-galaxies, and the heart of musical scales and chords. \"Discovered\" by
+galaxies, and the heart of musical scales and chords. "Discovered" by
 the Greeks, but used by the Egyptians in the Great Pyramid centuries
 before, man has employed the Golden Ratio to create his most beautiful
 and naturally pleasing works of art and architecture* - Cardas Audio

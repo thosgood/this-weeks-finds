@@ -1,11 +1,11 @@
 week151
 
-Recently I\'ve been talking a bit about elliptic cohomology, but I\'ve
+Recently I've been talking a bit about elliptic cohomology, but I've
 really just been nibbling around the edges so far. Sometime I want to
 dig deeper, but not just now. Right now, I instead want to say a bit
 more about the physics lurking in the space K(Z,2).
 
-But first, here\'s a cool article on violins:
+But first, here's a cool article on violins:
 
 1\) Colin Gough, Science and the Stradivarius, Physics World, vol. 13
 no. 4, April 2000, 27-33.
@@ -14,7 +14,7 @@ Before reading this, I never knew how a string on a violin vibrates!
 Lots of well-known European physicists have studied the violin, and in
 the 19th century, Helmholtz showed that the bow excites a mode of the
 violin string that is quite unlike the sine waves we all know and love.
-In this \"Helmholtz waveform\", the string consists of two straight-line
+In this "Helmholtz waveform", the string consists of two straight-line
 segments separated by a kink:
 
 
@@ -41,7 +41,7 @@ end of the string:
                                  |
 
 this point in the string moves at the same speed and in the same
-direction as the bow. This is called the \"sticking regime\", because
+direction as the bow. This is called the "sticking regime", because
 the static friction of the rosin-coated bow is enough to pull the string
 along with it. But when the kink moves past the bow:
 
@@ -55,7 +55,7 @@ along with it. But when the kink moves past the bow:
                                 |
 
 the string slips off the bow and starts moving in the opposite direction
-to it. This is called the \"sliding regime\". Since the coefficient of
+to it. This is called the "sliding regime". Since the coefficient of
 sliding friction is less than the coefficient of static friction, the
 string can slide against the motion of the bow in this regime.
 
@@ -83,8 +83,8 @@ C. Hutchins and V. Benade, editors, Research Papers on Violin Acoustics
 1975-1993, 2 volumes, Acoustical Society of America, New York, 1997.
 
 Okay, now on to K(Z,2)! I explained a bit about this space in
-\"[week149](week149.html)\", but I\'ve been pondering it a lot lately,
-so I\'d like to say a bit more.
+["Week 149"](#week149), but I've been pondering it a lot lately,
+so I'd like to say a bit more.
 
 First let me review and elaborate on some basic stuff I said already. If
 G is any topological group, there is a topological space BG with a
@@ -92,14 +92,14 @@ basepoint such that the space of loops in BG starting and ending at this
 point is homotopy equivalent to G. This space BG is unique up to
 homotopy equivalence. \[1\]
 
-BG is important because it\'s the \"classifying space for G-bundles\".
-What this means is that there\'s a principal G-bundle over BG called the
-\"universal G-bundle\", with the marvelous property that *any* principal
+BG is important because it's the "classifying space for G-bundles".
+What this means is that there's a principal G-bundle over BG called the
+"universal G-bundle", with the marvelous property that *any* principal
 G-bundle over *any* space X is a pullback of this one by some map
 
-f: X → BG.
+f: X \to BG.
 
-(I explained in \"[week149](week149.html)\" how to pull back complex
+(I explained in ["Week 149"](#week149) how to pull back complex
 line bundles, and pulling back principal G-bundles works the same way.)
 Even better, two G-bundles that we get this way are isomorphic if and
 only if the maps they come from are homotopic! So there is a one-to-one
@@ -112,23 +112,23 @@ and
 B\) homotopy classes of maps from X to BG.
 
 Now, suppose G is an *abelian* topological group. Then BG is better than
-a topological space with basepoint. It\'s an abelian topological group!
+a topological space with basepoint. It's an abelian topological group!
 
 This means that we can *iterate* this trick. Starting with an abelian
 topological group G we can form BG, and BBG, and BBBG, and so on. This
-is called \"delooping\", because the loop space of each of these spaces
+is called "delooping", because the loop space of each of these spaces
 is the previous one.
 
-It\'s always fun to iterate any process whenever you can - Freud called
-this \"repetition compulsion\" - but there\'s more going on here than
-just that. In \"[week149](week149.html)\" I said that when we have a
-list of spaces, each being the loop space of the previous one, it\'s
-called a \"spectrum\". And I said that we can use a spectrum to get a
+It's always fun to iterate any process whenever you can - Freud called
+this "repetition compulsion" - but there's more going on here than
+just that. In ["Week 149"](#week149) I said that when we have a
+list of spaces, each being the loop space of the previous one, it's
+called a "spectrum". And I said that we can use a spectrum to get a
 generalized cohomology theory. So we now have a trick for getting a
 generalized cohomology theory from a topological abelian group!
 
 In particular, suppose we start with a plain old abelian group A. We can
-think of it as a topological group with the discrete topology - let\'s
+think of it as a topological group with the discrete topology - let's
 call this K(A,0). Then we can define
 
 K(A,1) = B(K(A,0))
@@ -137,77 +137,77 @@ K(A,2) = B(K(A,1))
 
 K(A,3) = B(K(A,2))
 
-\... and so on. We get a spectrum K(A,n) called an \"Eilenberg-MacLane
-spectrum\". The corresponding generalized cohomology theory is just
+... and so on. We get a spectrum K(A,n) called an "Eilenberg-MacLane
+spectrum". The corresponding generalized cohomology theory is just
 ordinary cohomology with coeffients in the abelian group A! This means
 that
 
-H^n^(X,A) = \[X, K(A,n)\]
+H^n(X,A) = \[X, K(A,n)\]
 
 where the right-hand side is the set of homotopy classes of maps from X
 to K(A,n). In short, K(A,n) knows everything there is to know about the
 nth cohomology with coefficients in A.
 
-We\'ve seen this trick a couple of times lately, and it\'s actually a
+We've seen this trick a couple of times lately, and it's actually a
 big theme in homotopy theory: whenever we have some interesting
-invariant of spaces, we try to cook up a space that \"represents\" this
+invariant of spaces, we try to cook up a space that "represents" this
 invariant. I could say a LOT more about THIS idea, but that would propel
 us into further heights of abstraction, when what I really want is to
-come down to earth a bit. Just a little bit\....
+come down to earth a bit. Just a little bit....
 
-So: let\'s take A to be the integers, Z. As I said in
-\"[week149](week149.html)\", we then get
+So: let's take A to be the integers, Z. As I said in
+["Week 149"](#week149), we then get
 
 K(Z,0) = Z,
 
 K(Z,1) = U(1),
 
-where U(1) is the group of \"phases\" or unit complex numbers, and
+where U(1) is the group of "phases" or unit complex numbers, and
 
-K(Z,2) = CP^∞^
+K(Z,2) = CP^\infty^
 
-where CP^∞^ is infinite-dimensional complex projective space. There are
+where CP^\infty^ is infinite-dimensional complex projective space. There are
 a couple of slightly different versions of this. Topologists like to
-start with the direct limit of the spaces C^n^, which they call C^∞^.
+start with the direct limit of the spaces C^n, which they call C^\infty^.
 Then they take the space of all 1-dimensional subspaces and call that
-CP^∞^. Mathematical physicists prefer to start with a Hilbert space of
+CP^\infty^. Mathematical physicists prefer to start with a Hilbert space of
 countable dimension. Then they take the space of unit vectors modulo
 phase. Both these versions are equally good models of K(Z,2). The first
 one is a lean, stripped-down version of the second.
 
 Now U(1) is very important in quantum theory, and so are unit vectors
-modulo phase in a Hilbert space - physicists call these \"pure states\".
+modulo phase in a Hilbert space - physicists call these "pure states".
 So something cool is going on here. For some mysterious reason, it looks
-like K(Z,n)\'s are important quantum physics! This is especially
-interesting because the abstract definition of the K(Z,n)\'s has nothing
+like K(Z,n)'s are important quantum physics! This is especially
+interesting because the abstract definition of the K(Z,n)'s has nothing
 to do with the complex numbers - just the integers. The complex numbers
 show up on their own accord. So maybe this hints at some explanation of
 why the complex numbers are important in quantum mechanics.
 
-Why are K(Z,n)\'s connected to quantum theory? I don\'t really know. But
+Why are K(Z,n)'s connected to quantum theory? I don't really know. But
 we can get some clues by asking some more specific questions.
 
-First of all, why is K(Z,2) the same as CP^∞^? In
-\"[week149](week149.html)\" I just asserted this without proof. That\'s
-one of the fun things I\'m allowed to do in this column. But let me
-sketch why it\'s true.
+First of all, why is K(Z,2) the same as CP^\infty^? In
+["Week 149"](#week149) I just asserted this without proof. That's
+one of the fun things I'm allowed to do in this column. But let me
+sketch why it's true.
 
 First I need to remind you of some more basic facts about topology.
-Suppose G is any topological group, and let P → X be any principal
+Suppose G is any topological group, and let P \to X be any principal
 G-bundle. This gives us a long exact sequence of homotopy groups:
 
-\... → π~n+1~(X) → π~n~(G) → π~n~(P) → π~n~(X) → π~n-1~(G) → \...
+... \to π~n+1~(X) \to π~n~(G) \to π~n~(P) \to π~n~(X) \to π~n-1~(G) \to ...
 
 Two-thirds of the arrows in this sequence come from the maps
 
-G → P → X
+G \to P \to X
 
 while the less obvious remaining one-third come from the map
 
-LX → G
+LX \to G
 
 sending each loop in the base space to the holonomy of some connection
-on our bundle. Here LX means the space of based loops in X, and we\'re
+on our bundle. Here LX means the space of based loops in X, and we're
 using the fact that
 
 π~n~(LX) = π~n+1~(X)
@@ -218,11 +218,11 @@ But now suppose P is contractible! Then all its homotopy groups vanish,
 so the above long exact sequence breaks up into lots of puny exact
 sequences like this:
 
-0 → π~n+1~(X) → π~n~(G) → 0
+0 \to π~n+1~(X) \to π~n~(G) \to 0
 
 or in other words:
 
-0 → π~n~(LX) → π~n~(G) → 0
+0 \to π~n~(LX) \to π~n~(G) \to 0
 
 This says that the map from LX to G induces isomorphisms on all homotopy
 groups. By the Whitehead theorem, this implies that this map is a
@@ -231,124 +231,124 @@ homotopy equivalence! So LX is really just G!! So X is just BG!!!
 In short: if we have a space X with a principal G-bundle P over it, and
 P is contractible, X must be BG. \[2\]
 
-Now let\'s use this fact to show that CP^∞^ is K(Z,2). Remember that by
+Now let's use this fact to show that CP^\infty^ is K(Z,2). Remember that by
 our recursive definition,
 
 K(Z,2) = B(K(Z,1)) = B(U(1))
 
-so to show that CP^∞^ is K(Z,2), we just need to find a principal
+so to show that CP^\infty^ is K(Z,2), we just need to find a principal
 U(1)-bundle over it with a contractible total space.
 
-In \"[week149](week149.html)\" we discussed a complex line bundle over
-CP^∞^ called the \"universal complex line bundle\". If you take the
+In ["Week 149"](#week149) we discussed a complex line bundle over
+CP^\infty^ called the "universal complex line bundle". If you take the
 space of unit vectors in a complex line bundle you get a principal
-U(1)-bundle. So let\'s do this to the universal complex line bundle.
+U(1)-bundle. So let's do this to the universal complex line bundle.
 What do we get? We get a principal U(1)-bundle like this:
 
-S^∞^ → CP^∞^
+S^\infty^ \to CP^\infty^
 
-Being a mathematical physicist, I\'m using S^∞^ here to stand for the
+Being a mathematical physicist, I'm using S^\infty^ here to stand for the
 unit sphere in some countable-dimensional Hilbert space, and the map
 sends each unit vector to the corresponding pure state, or unit vector
-mod phase. Since there\'s a circle of unit vectors for each pure state,
+mod phase. Since there's a circle of unit vectors for each pure state,
 this is indeed a principal U(1)-bundle. But now for the cool part: the
 unit sphere in an infinite-dimensional Hilbert space is contractible! So
-we\'ve got a principal U(1)-bundle with a contractible total space
-sitting over CP^∞^, proving that CP^∞^ is K(Z,2). Even better, the
+we've got a principal U(1)-bundle with a contractible total space
+sitting over CP^\infty^, proving that CP^\infty^ is K(Z,2). Even better, the
 bundle
 
-S^∞^ → CP^∞^
+S^\infty^ \to CP^\infty^
 
 is the universal principal U(1)-bundle.
 
-I can\'t resist explaining why the unit sphere in an
+I can't resist explaining why the unit sphere in an
 infinite-dimensional Hilbert space is contractible. It seems very odd
 that a sphere could be contractible, but this is one of those funny
 things about infinite dimensions. Take our Hilbert space to be
-L^2^\[0,1\] and consider any function f in the unit sphere of this
+L^2\[0,1\] and consider any function f in the unit sphere of this
 Hilbert space:
 
-∫ \|f(x)\|^2^ dx = 1
+∫ |f(x)|^2 dx = 1
 
-For t between 0 and 1, let f~t~(x) be a function that equals 1 for x \<
+For t between 0 and 1, let f~t~(x) be a function that equals 1 for x <
 t, and a sped-up version of f for x greater than or equal to t. If you
-do this right f~t~ will still lie in the unit sphere, and you\'ll have a
+do this right f~t~ will still lie in the unit sphere, and you'll have a
 way of contracting the whole unit sphere down to a single point, namely
 the constant function 1.
 
 Cute, huh?
 
-Next question: how does CP^∞^ become an abelian topological group?
-There\'s a very pretty answer. Consider the space of rational functions
+Next question: how does CP^\infty^ become an abelian topological group?
+There's a very pretty answer. Consider the space of rational functions
 of a single complex variable. This is a infinite-dimensional complex
-vector space, and there\'s a natural way to give it the topology of
-C^∞^. This gives us a nice way to think of CP^∞^: it\'s just the
+vector space, and there's a natural way to give it the topology of
+C^\infty^. This gives us a nice way to think of CP^\infty^: it's just the
 *nonzero* rational functions modulo multiplication by constants.
 
 But nonzero rational functions form an abelian group under
 multiplication! And this is still true when we mod out by constant
-factors! So CP^∞^ becomes an abelian group - and in fact an abelian
+factors! So CP^\infty^ becomes an abelian group - and in fact an abelian
 topological group.
 
-We can visualize CP^∞^ quite easily this way. A rational function of a
+We can visualize CP^\infty^ quite easily this way. A rational function of a
 single complex variable has a bunch of zeros and poles - think of them
 as points on the Riemann sphere. We should really stick an integer at
 each of these points: a positive integer at each zero, and a negative
 integer at each pole, to tell us the order of that zero or pole. This
 gives enough information to completely specify the rational function up
-to a constant factor. So a point in CP^∞^ is the same as a finite set of
+to a constant factor. So a point in CP^\infty^ is the same as a finite set of
 points on the sphere labelled by integers - which must add up to zero.
 
-Of course, we have to get the right topology on CP^∞^. As we move our
-point in CP^∞^ around in a continuous way, the corresponding points on
-the sphere all move around continuously, like a swarm of flies\... but
+Of course, we have to get the right topology on CP^\infty^. As we move our
+point in CP^\infty^ around in a continuous way, the corresponding points on
+the sphere all move around continuously, like a swarm of flies... but
 when points collide, their numbers add! For example, when a point
 labelled by the number 7 collides with a point labelled by the number
 -3, it turns into a point labelled by the number 7 - 3 = 4.
 
-In the lingo of physics, we\'ve got a picture of points in CP^∞^ as
-\"collections of particles and antiparticles on the sphere\". The
+In the lingo of physics, we've got a picture of points in CP^\infty^ as
+"collections of particles and antiparticles on the sphere". The
 integer at any point on the sphere tells us the number of particles
-sitting there - but if it\'s negative, it means we\'ve got
+sitting there - but if it's negative, it means we've got
 *antiparticles* there. Particle-antiparticle pairs can be created out of
-nothing, and they annihilate when they collide\... it\'s very nice!
+nothing, and they annihilate when they collide... it's very nice!
 
-By the way, there\'s something called the Thom-Dold theorem that lets us
+By the way, there's something called the Thom-Dold theorem that lets us
 generalize the heck out of this. We just showed that if you take the
 2-sphere and consider the space of particle-antiparticle swarms in it,
-you get K(Z,2). But suppose instead we started with the n-sphere and
+you get K(Z,2). But suppose instead we started with the $n$-sphere and
 considered the space of particle-antiparticle swarms in *that*. Then
-we\'d get K(Z,n)!
+we'd get K(Z,n)!
 
-More generally, suppose we didn\'t use integers to say how many
-particles were at each point in the n-sphere - suppose we used elements
-of some abelian group A. Then we\'d get K(A,n)!
+More generally, suppose we didn't use integers to say how many
+particles were at each point in the $n$-sphere - suppose we used elements
+of some abelian group A. Then we'd get K(A,n)!
 
 For more tricks like this, try this paper:
 
 3\) Dusa McDuff, Configuration spaces of positive and negative
 particles, Topology 14 (1975), 91-107.
 
-Now let me mention a different picture of K(Z,2), that\'s also nice, and
+Now let me mention a different picture of K(Z,2), that's also nice, and
 also related to quantum theory. Take any countable-dimensional Hilbert
 space H and let U(H) be the group of unitary operators on H. Just like
 the unit sphere in this Hilbert space is contractible, it turns out that
 U(H) is contractible if we give it the norm topology or the strong
 topology.
 
-Anyway, now let PU(H) be the \"projective unitary group\" of H, meaning
-the group of unitary operators modulo phase. There\'s an obvious map
+Anyway, now let PU(H) be the "projective unitary group" of H, meaning
+the group of unitary operators modulo phase. There's an obvious map
 
-U(H) → PU(H)
+U(H) \to PU(H)
 
-sending a circle\'s worth of points to each point in PU(H). It\'s easy
+sending a circle's worth of points to each point in PU(H). It's easy
 to check that this is a principal U(1)-bundle. Since the total space
 U(H) is contractible, it follows that PU(H) is K(Z,2)!
 
 This give a *nonabelian* group structure on K(Z,2), which may seem kind
 of weird, given that we just made it into an *abelian* group a minute
-ago. But I guess this other product is \"abelian up to homotopy\" in a
-very strong sense, so it\'s just as good as abelian for the purposes of
+ago. But I guess this other product is "abelian up to homotopy" in a
+very strong sense, so it's just as good as abelian for the purposes of
 homotopy theory.
 
 Anyway, some people in Australia have figured out an extra trick you can
@@ -359,26 +359,26 @@ bundles and the Dixmier-Douady class, Comm. Math. Physics 193 (1998)
 171-196, preprint available as
 [hep-th/9702147](http://xxx.lanl.gov/abs/hep-th/9702147).
 
-Here\'s how it goes, at least in part. We say a linear operator
+Here's how it goes, at least in part. We say a linear operator
 
-A: H → H
+A: H \to H
 
-is \"Hilbert-Schmidt\" if the trace of AA\* is finite. The space of
+is "Hilbert-Schmidt" if the trace of AA* is finite. The space of
 Hilbert-Schmidt operators is a Hilbert space in its own right, with this
 inner product:
 
-\<A,B\> = tr(AB\*)
+<A,B> = tr(AB*)
 
-Let\'s call this Hilbert space X. U(H) acts on X by conjugation, and
+Let's call this Hilbert space X. U(H) acts on X by conjugation, and
 this gives an action of PU(H) on X, because phases commute with
 everything. This in turn gives an action of PU(H) on U(X)! Is your brain
 melting yet? Anyway, it turns out that this makes U(X) into the total
 space of a principal PU(H)-bundle:
 
-PU(H) → U(X) → U(X)/PU(H)
+PU(H) \to U(X) \to U(X)/PU(H)
 
 But X is a countable-dimensional Hilbert space, so U(X) is contractible,
-so this is the *universal* principal PU(H)-bundle. And as we\'ve seen,
+so this is the *universal* principal PU(H)-bundle. And as we've seen,
 this means that
 
 U(X)/PU(H) = B(PU(H))
@@ -391,28 +391,28 @@ so
 
 U(X)/PU(H) = B(PU(H)) = B(K(Z,2)) = K(Z,3) !
 
-In \"[week149](week149.html)\", I said I\'d like K(Z,3) to be some sort
+In ["Week 149"](#week149), I said I'd like K(Z,3) to be some sort
 of infinite- dimensional manifold closely related to quantum physics.
-I\'m happier now, because here we are getting just that - technically,
-we\'re getting it to be a \"Banach manifold\". Of course, I could still
-complain that this description doesn\'t make the *abelian group
-structure* on K(Z,3) obvious. But it\'s definitely a big step towards
-understanding what K(Z,n)\'s have to do with quantum theory.
+I'm happier now, because here we are getting just that - technically,
+we're getting it to be a "Banach manifold". Of course, I could still
+complain that this description doesn't make the *abelian group
+structure* on K(Z,3) obvious. But it's definitely a big step towards
+understanding what K(Z,n)'s have to do with quantum theory.
 
-While I\'m at it, I should report some other things people have told me
-via email. If you ponder what I\'ve said, you can see that CP^∞^ has 2nd
+While I'm at it, I should report some other things people have told me
+via email. If you ponder what I've said, you can see that CP^\infty^ has 2nd
 homology equal to Z, and that the generator of this homology group - the
-\"universal cycle\" - is given geometrically by the obvious way of
-sticking the sphere CP^1^ inside CP^∞^. This is nice because CP^1^ is
-actually a submanifold of the manifold CP^∞^. But according to email
-from Mark Goresky, Rene Thom has shown that for n \> 6, we cannot make
+"universal cycle" - is given geometrically by the obvious way of
+sticking the sphere CP^1 inside CP^\infty^. This is nice because CP^1 is
+actually a submanifold of the manifold CP^\infty^. But according to email
+from Mark Goresky, Rene Thom has shown that for n > 6, we cannot make
 K(Z,n) into a manifold in such a way that the universal cycle is
 represented by a submanifold!
 
 On the other hand, Michael Murray reports that Pawel Gajer has managed
-to make K(Z,n) into something called a \"differential space\", which is
-not quite a manifold, but good enough to do geometry on. I\'m not sure
-how this relates to Thom\'s work\... but anyway, I should read this
+to make K(Z,n) into something called a "differential space", which is
+not quite a manifold, but good enough to do geometry on. I'm not sure
+how this relates to Thom's work... but anyway, I should read this
 stuff:
 
 5\) Pawel Gajer, Geometry of Deligne cohomology, Invent. Math. 127
@@ -422,26 +422,26 @@ stuff:
 Pawel Gajer, Higher holonomies, geometric loop groups and smooth Deligne
 cohomology, Advances in Geometry, Birkhauser, Boston, 1999, pp. 195-235.
 
-Now, so far I\'ve been restraining myself from talking about \"gerbes\",
-but if you\'ve gotten this far you must be pretty comfortable with
-abstract nonsense, so you\'ll probably like gerbes. Very roughly
+Now, so far I've been restraining myself from talking about "gerbes",
+but if you've gotten this far you must be pretty comfortable with
+abstract nonsense, so you'll probably like gerbes. Very roughly
 speaking, a gerbe is a categorified version of a principal bundle!
-Actually it\'s a categorified version of a sheaf, but sometimes we can
+Actually it's a categorified version of a sheaf, but sometimes we can
 think of it as analogous to the sheaf of sections of a bundle. And just
 as K(Z,2) is the classifying space for U(1) bundles, K(Z,3) is the
 classifying space for a certain sort of gerbe!
 
-I sort of explained how this works in \"[week25](week25.html)\", but you
+I sort of explained how this works in ["Week 25"](#week25), but you
 can read the details here:
 
 6\) Jean-Luc Brylinski, Loop Spaces, Characteristic Classes and
 Geometric Quantization, Birkhauser, Boston, 1993.
 
-What this means is that as we explore the meaning of these K(Z,n)\'s for
+What this means is that as we explore the meaning of these K(Z,n)'s for
 quantum theory, we are really *categorifying* familiar ideas from
 quantum theory. In particular, this story should keep going on forever:
 K(Z,4) should be the classifying space for a certain sort of 2-gerbe,
-and so on. But I don\'t think people have worked out the details beyond
+and so on. But I don't think people have worked out the details beyond
 the case of 2-gerbes. If you want to learn about 2-gerbes, you have to
 read this:
 
@@ -450,7 +450,7 @@ Asterisque 225, 1994.
 
 Finally, for more applications to physics, try these papers:
 
-8\) Alan L. Carey and Michael K. Murray, Faddeev\'s anomaly and bundle
+8\) Alan L. Carey and Michael K. Murray, Faddeev's anomaly and bundle
 gerbes, Lett. Math. Phys. 37 (1996), 29-36.
 
 Jouko Mickelsson, Gerbes and Hamiltonian quantization of chiral
@@ -477,17 +477,17 @@ preprint available as
 
 I thank N. Christopher Phillips of the University of Oregon, Michael K.
 Murray and Diarmuid Crowley of the University of Adelaide, and Mark
-Goresky of IHES for educating me about these matters\... all remaining
+Goresky of IHES for educating me about these matters... all remaining
 errors are mine!
 
 Footnotes:
 
-\[1\] I\'m being sloppy here. Throughout this discussion, when I say
-\"homotopy equivalent\", I really mean \"weakly homotopy equivalent\" -
+\[1\] I'm being sloppy here. Throughout this discussion, when I say
+"homotopy equivalent", I really mean "weakly homotopy equivalent" -
 a technical nuance that you can read about in any good book on homotopy
 theory.
 
 \[2\] Moreover, P must be the universal principal G-bundle. Conversely,
 for any topological group G the total space of the universal principal
 G-bundle is contractible. Everything fits together very neatly! But I
-don\'t need all this stuff now.\
+don't need all this stuff now.\

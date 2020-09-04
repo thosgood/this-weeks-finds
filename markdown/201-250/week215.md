@@ -1,25 +1,25 @@
 week215
 
-This week I\'d like to report on some cool things people have been
+This week I'd like to report on some cool things people have been
 explaining to me. The science fiction writer Greg Egan has been helping
-me understand Klein\'s quartic curve, and the mathematician Darin Brown
+me understand Klein's quartic curve, and the mathematician Darin Brown
 has been explaining the analogy between geodesics and prime numbers. The
 two subjects even overlap slightly!
 
-Last week I talked about Klein\'s quartic curve. This led Gerard
+Last week I talked about Klein's quartic curve. This led Gerard
 Westendorp and Mike Stay to draw some pictures of it, and their ideas
 helped Greg Egan create this really nice picture:
 
-1\) Greg Egan, Klein\'s quartic curve,
-<http://math.ucr.edu/home/baez/mathematical/KleinDual.png>
+1\) Greg Egan, Klein's quartic curve,
+`http://math.ucr.edu/home/baez/mathematical/KleinDual.png`
 
 ::: {align="CENTER"}
 ![](http://math.ucr.edu/home/baez/mathematical/KleinDual.png)
 :::
 
 It looks sort of tetrahedral at first glance, but if you look carefully
-you\'ll see that topologically speaking, it\'s a 3-holed torus. It\'s
-tiled by triangles, with 7 meeting at each vertex. So, it\'s the Klein
+you'll see that topologically speaking, it's a 3-holed torus. It's
+tiled by triangles, with 7 meeting at each vertex. So, it's the Klein
 quartic curve!
 
 Perhaps I should explain. Last week I talked about a tiling of the
@@ -30,11 +30,11 @@ quotient space of this by a certain symmetry group and get a 3-holed
 torus tiled by 56 triangles with 7 meeting at each vertex. This is what
 Egan drew!
 
-With this picture you can almost *see* the 168 symmetries of Klein\'s
+With this picture you can almost *see* the 168 symmetries of Klein's
 quartic curve.
 
 First, you can take any vertex and twist it, causing the 7 triangles
-that meet at this vertex to cycle around. It\'s not obvious that this is
+that meet at this vertex to cycle around. It's not obvious that this is
 a symmetry of the whole tiled surface, but it is. This gives a 7-element
 symmetry group.
 
@@ -42,31 +42,31 @@ Second, the whole thing looks like a tetrahedron, so it inherits the
 rotational symmetries of a tetrahedron. This gives a more obvious
 12-element symmetry group.
 
-7 × 12 = 84, so how do we get a total of 168 symmetries?
+7 \times 12 = 84, so how do we get a total of 168 symmetries?
 
-Well, there\'s also a 2-fold symmetry that corresponds to turning the
+Well, there's also a 2-fold symmetry that corresponds to turning the
 tetrahedron inside out! And Egan made a wonderful *movie* of this. If a
 picture is worth a thousand words, this is worth about a million:
 
-2\) Greg Egan, Turning Klein\'s quartic curve inside out,
-<http://math.ucr.edu/home/baez/mathematical/KleinDualInsideOut.gif>
+2\) Greg Egan, Turning Klein's quartic curve inside out,
+`http://math.ucr.edu/home/baez/mathematical/KleinDualInsideOut.gif`
 
 ::: {align="CENTER"}
 ![](http://math.ucr.edu/home/baez/mathematical/KleinDualInsideOut.gif)
 :::
 
-So, we get a total of 7 × 24 = 168 symmetries.
+So, we get a total of 7 \times 24 = 168 symmetries.
 
-Even better, if you watch carefully, you\'ll see that the tetrahedron in
-Egan\'s movie gets *reflected* as it turns inside out. More precisely,
-if you follow the four corners of the tetrahedron, you\'ll see that two
+Even better, if you watch carefully, you'll see that the tetrahedron in
+Egan's movie gets *reflected* as it turns inside out. More precisely,
+if you follow the four corners of the tetrahedron, you'll see that two
 come back to where they were, while the other two get switched. So, this
 symmetry acts as a reflection, or odd permutation, of the 4 corners. The
 rotations act as even permutations of the corners.
 
 This means that the Klein quartic has 24 symmetries forming a group
 isomorphic to the rotation/reflection symmetry group of a tetrahedron.
-Algebraically speaking, this group is S~4~: the permutations of 4
+Algebraically speaking, this group is S_4: the permutations of 4
 things.
 
 This group is also the rotational symmetry group of a cube. In fact,
@@ -77,28 +77,28 @@ Egan was able to spot a hidden cube lurking in his picture! Can you?
 height="300"}
 :::
 
-If you look carefully, you\'ll see each corner of his tetrahedral gadget
+If you look carefully, you'll see each corner of his tetrahedral gadget
 is made of a little triangular prism with one triangle facing out and
 one facing in: for example, the pink triangle staring you right in the
-face, or the light blue one on top. Since 4 × 2 = 8, there are 8 of
+face, or the light blue one on top. Since 4 \times 2 = 8, there are 8 of
 these triangles. Abstractly, we can think of these as the 8 corners of a
-cube! They aren\'t really, but we can pretend. The way these 8 triangles
+cube! They aren't really, but we can pretend. The way these 8 triangles
 come in pairs corresponds to how the vertices of a cube come in
 diagonally opposite pairs.
 
-Using this, you can see that the group S~4~ acts on these 8 triangles in
+Using this, you can see that the group S_4 acts on these 8 triangles in
 precisely the same way it acts via rotations on the vertices of a cube.
 
 In fact, you can even draw a *picture* of a cube on the Klein quartic by
 drawing suitable curves that connect the centers of these 8 triangles!
-It\'s horribly distorted, but topologically correct. Part of the
+It's horribly distorted, but topologically correct. Part of the
 distortion is caused by embedding the Klein quartic in ordinary 3d
 Euclidean space. If we gave the Klein quartic the metric it inherits
 from the hyperbolic plane, the edges of the cube would be geodesics.
 
 This remark also helps us see something else. The Klein quartic is tiled
-by 56 triangles. 8 of them give the cube we\'ve just been discussing. In
-Egan\'s picture these triangles look special, since they lie at the
+by 56 triangles. 8 of them give the cube we've just been discussing. In
+Egan's picture these triangles look special, since they lie at the
 corners of his tetrahedral gadget. But this is just an illusion caused
 by embedding the Klein quartic in 3d space. In reality, the Klein
 quartic is perfectly symmetrical: every triangle is just like every
@@ -106,7 +106,7 @@ other. So in fact there are lots of these cubes, and every triangle lies
 in some cube.
 
 But this is where it gets really cool. In fact, each triangle lies in
-just *one* cube. So, there\'s precisely one way to take the 56 triangles
+just *one* cube. So, there's precisely one way to take the 56 triangles
 and divide them into 7 bunches of 8 so that each bunch forms a cube.
 
 So: the symmetry group of the Klein quartic acts on the set of cubes,
@@ -127,17 +127,17 @@ You see, the cubes in the Klein quartic have an inherent handedness to
 them. You can go between the 8 triangles of a given cube by following
 certain driving directions, but these driving directions involve some
 left and right turns. If you follow the mirror-image driving directions
-with \"left\" and \"right\" switched, you\'ll get an *anticube*.
+with "left" and "right" switched, you'll get an *anticube*.
 
 Apart from having the opposite handedness, anticubes are just like
-cubes. In particular, there\'s precisely one way to take the 56
+cubes. In particular, there's precisely one way to take the 56
 triangles and divide them into 7 bunches of 8 so that each bunch forms
 an anticube.
 
-Here\'s a picture:
+Here's a picture:
 
 3\) Greg Egan, Cubes and anticubes in the Klein quartic curve,
-<http://math.ucr.edu/home/baez/KleinFigures.gif>
+`http://math.ucr.edu/home/baez/KleinFigures.gif`
 
 \
 
@@ -152,7 +152,7 @@ Each triangle has a colored circle and a colored square on it. There are
 belongs to. The colored square says which of the 7 *anticubes* it
 belongs to.
 
-If you stare at this picture for a few hours, you\'ll see that each cube
+If you stare at this picture for a few hours, you'll see that each cube
 is completely disjoint from precisely 3 anticubes. Similarly, each
 anticube is completely disjoint from precisely 3 cubes.
 
@@ -163,9 +163,9 @@ So, we get a vivid way of seeing how every figure in the Fano plane
 corresponds to some figure in the Klein quartic curve. This is why they
 have the same symmetry group.
 
-This is an excellent example of Klein\'s Erlangen program for reducing
+This is an excellent example of Klein's Erlangen program for reducing
 geometry to group theory, which I discussed in
-\"[week213](week213.html)\". Here we are beginning to see how two
+["Week 213"](#week213). Here we are beginning to see how two
 superficially different geometries are secretly the same:
 
         FANO PLANE                      KLEIN'S QUARTIC CURVE
@@ -174,9 +174,9 @@ superficially different geometries are secretly the same:
         7 lines                         7 anticubes
         incidence of points and lines   disjointness of cubes and anticubes
 
-However, we\'re only half done! We\'ve seen how to translate simple
+However, we're only half done! We've seen how to translate simple
 figures and indicence relations in the Fano plane to complicated ones in
-Klein\'s quartic curve. But, we haven\'t figured out translate back!
+Klein's quartic curve. But, we haven't figured out translate back!
 
         KLEIN'S QUARTIC CURVE            FANO PLANE
            
@@ -186,15 +186,15 @@ Klein\'s quartic curve. But, we haven\'t figured out translate back!
         incidence of vertices and edges  ???
         incidence of edges and faces     ???
 
-Here I\'m talking about the tiling of Klein\'s quartic curve by 56
+Here I'm talking about the tiling of Klein's quartic curve by 56
 equilateral triangles. We could equally well talk about its tiling by 24
 regular heptagons, which is the Poincare dual. Either way, the puzzle is
-to fill in the question marks. I don\'t know the answer!
+to fill in the question marks. I don't know the answer!
 
 To conclude - at least for now - I want to give the driving directions
-that define a \"cube\" or an \"anticube\" in Klein\'s quartic curve. Say
-you\'re on some triangle and you want to get to a nearby triangle that
-belongs to the same cube. Here\'s what you do:
+that define a "cube" or an "anticube" in Klein's quartic curve. Say
+you're on some triangle and you want to get to a nearby triangle that
+belongs to the same cube. Here's what you do:
 
 > hop across any edge,\
 > turn right,\
@@ -202,8 +202,8 @@ belongs to the same cube. Here\'s what you do:
 > turn left,\
 > then hop across the edge in front of you.
 
-Or, suppose you\'re on some triangle and you want to get to another
-that\'s in the same anticube. Here\'s what you do:
+Or, suppose you're on some triangle and you want to get to another
+that's in the same anticube. Here's what you do:
 
 > hop across any edge,\
 > turn left,\
@@ -211,36 +211,36 @@ that\'s in the same anticube. Here\'s what you do:
 > turn right,\
 > then hop across the edge in front of you.
 
-(If you don\'t understand this stuff, look at the picture above and see
+(If you don't understand this stuff, look at the picture above and see
 how to get from any circle or square to any other circle or square of
 the same color.)
 
-You\'ll notice that these instructions are mirror-image versions of each
-other. They\'re also both 1/4 of the \"driving directions from hell\"
+You'll notice that these instructions are mirror-image versions of each
+other. They're also both 1/4 of the "driving directions from hell"
 that I described last time. In other words, if you go LRLRLRLR or
-RLRLRLRL, you wind up at the same triangle you started from. You\'ll
+RLRLRLRL, you wind up at the same triangle you started from. You'll
 have circled around one face of a cube or anticube!
 
 In fact, your path will be a closed geodesic on the Klein quartic
-curve\... like the long dashed line in Klein and Fricke\'s original
+curve... like the long dashed line in Klein and Fricke's original
 picture:
 
-4\) Klein and Fricke, Klein\'s quartic curve with geodesic,
-<http://math.ucr.edu/home/baez/Klein168.gif>
+4\) Klein and Fricke, Klein's quartic curve with geodesic,
+`http://math.ucr.edu/home/baez/Klein168.gif`
 
 ::: {align="CENTER"}
 ![](http://math.ucr.edu/home/baez/Klein168.gif)
 :::
 
-Next, a little about geodesics and prime numbers. I\'ve just been
+Next, a little about geodesics and prime numbers. I've just been
 talking a little about geodesics in the Klein quartic, which is the
 quotient
 
 H/G
 
 of the hyperbolic plane H by a certain group G which I explained last
-week. This group, usually called Γ(7), is a nice example of a \"Fuchsian
-group\" - that is, a discrete subgroup of the isometries of the
+week. This group, usually called Γ(7), is a nice example of a "Fuchsian
+group" - that is, a discrete subgroup of the isometries of the
 hyperbolic plane.
 
 Darin Brown and his thesis advisor Jeff Stopple at U. C. Santa Barbara
@@ -253,47 +253,47 @@ Theory 29 (1988), 224-230.
 6\) Darin Brown, Lifting properties of prime geodesics on hyperbolic
 surfaces, Ph.D. thesis, U. C. Santa Barbara, 2004.
 
-I\'d really like to learn about this, because it connects all sorts of
+I'd really like to learn about this, because it connects all sorts of
 stuff I dream of understanding someday, especially quantum chaos
-(\"[week190](week190.html)\"), zeta functions in physics and number
-theory (\"[week199](week199.html)\"), and Galois theory as a theory of
-covering spaces (\"[week205](week205.html)\"). Also, it involves a big
+(["Week 190"](#week190)), zeta functions in physics and number
+theory (["Week 199"](#week199)), and Galois theory as a theory of
+covering spaces (["Week 205"](#week205)). Also, it involves a big
 mysterious analogy, and I always like those!
 
-I don\'t understand this stuff well enough to try a full-fledged
-explanation yet, so I\'ll just give a vague sketch. A \"prime geodesic\"
+I don't understand this stuff well enough to try a full-fledged
+explanation yet, so I'll just give a vague sketch. A "prime geodesic"
 in a Riemannian manifold X is a closed geodesic
 
-f: S^1^ → X
+f: S^1 \to X
 
 that cycles around just once. In other words, f should be one-to-one.
 
-We say a closed geodesic is the \"nth power\" of a prime one if it\'s
+We say a closed geodesic is the "nth power" of a prime one if it's
 just like the prime one but it cycles around n times. Every closed
 geodesic is the nth power of a prime one in a unique way.
 
 If we have a Fuchsian group G, H/G is a surface with a Riemannian
-metric. It looks locally like the hyperbolic plane, so it\'s called a
-\"hyperbolic surface\". And, we can look at prime geodesics in it.
+metric. It looks locally like the hyperbolic plane, so it's called a
+"hyperbolic surface". And, we can look at prime geodesics in it.
 
-If G\' is a subgroup of G, we get a covering map
+If G' is a subgroup of G, we get a covering map
 
-H/G\' → H/G
+H/G' \to H/G
 
 so we can ask about lifting prime geodesics in H/G to closed geodesics
-in H/G\'. There can be a bunch of ways to do this, so we say a prime
-geodesic in H/G \"splits\" into powers of prime geodesics up in H/G\'.
+in H/G'. There can be a bunch of ways to do this, so we say a prime
+geodesic in H/G "splits" into powers of prime geodesics up in H/G'.
 
-If you know any number theory - reading \"[week205](week205.html)\"
+If you know any number theory - reading ["Week 205"](#week205)
 should be enough - this should remind you of how a prime ideal in some
-algebraic number field can \"split\" into prime ideals in an extension
-of this field, and/or \"ramify\" into powers of prime ideals.
+algebraic number field can "split" into prime ideals in an extension
+of this field, and/or "ramify" into powers of prime ideals.
 
 And indeed, Darin Brown has found a big mysterious analogy that goes
 like this:
 
 >     Number field K                   Hyperbolic surface H/G
->     Field extension K' of K          Covering p: H/G' → H/G
+>     Field extension K' of K          Covering p: H/G' \to H/G
 >     Galois group Gal(K'/K)           Deck transformation group Aut(p)
 >     Prime ideal Q of K               Prime geodesic f in H/G
 >     Prime ideal Q' lying over Q      Prime geodesic f' lying over f
@@ -302,10 +302,10 @@ like this:
 >     Frobenius conjugacy class of Q   Frobenius conjugacy class of f
 >     Artin L-function                 Selberg zeta function
 
-(Here by \"prime ideal of K\" we mean a prime ideal in the ring of
+(Here by "prime ideal of K" we mean a prime ideal in the ring of
 algebraic integers of K.)
 
-But this is more than an analogy: there\'s even a way to associate
+But this is more than an analogy: there's even a way to associate
 number fields to certain hyperbolic surfaces! The reason is that often
 Fuchsian groups will consist of matrices whose entries lie in some
 number field.
@@ -315,9 +315,9 @@ quantum mechanics. The Selberg zeta function is related to closed
 geodesics, which are periodic classical trajectories, while the zeta
 function of a Laplacian is related to periodic *quantum* trajectories
 (namely eigenfunctions of the Laplacian). So, the two are related. I
-know there\'s a lot of cool stuff going on here - especially since the
+know there's a lot of cool stuff going on here - especially since the
 motion of a particle on a hyperbolic surface tends to be chaotic, so
-\"quantum chaos\" rears its ugly head. But, I don\'t understand any of
+"quantum chaos" rears its ugly head. But, I don't understand any of
 the details.
 
 In some notes on quantum chaos, Gutzwiller wrote:
@@ -332,20 +332,20 @@ In some notes on quantum chaos, Gutzwiller wrote:
 > essentially related through a Fourier transform. Such a relation had
 > been found earlier by the mathematicians in the study of the Laplacian
 > operator on Riemannian surfaces with constant negative curvature. This
-> led to Selberg\'s trace formula in 1956 which has exactly the same
+> led to Selberg's trace formula in 1956 which has exactly the same
 > form, but happens to be exact. The mathematical proof, however, is
 > based on the high degree of symmetry of these surfaces which can be
 > compared to the sphere, although the negative curvature allows for
 > many more different shapes.
 
-When I get serious, I\'ll read these:
+When I get serious, I'll read these:
 
 7\) M. C. Gutzwiller, Chaos in Classical and Quantum Mechanics,
 Springer, Berlin, 1990.
 
 8\) Predrag Cvitanovic, Roberto Artuso, Per Dahlqvist, Ronnie Mainieri,
 Gregor Tanner, Gabor Vattay, Niall Whelan and Andreas Wirzba, Chaos:
-Classical and Quantum, available at <http://www.nbi.dk/ChaosBook/>
+Classical and Quantum, available at `http://www.nbi.dk/ChaosBook/`
 
 9\) Svetlana Katok, Fuchsian Groups, U. Chicago Press, Chicago, 1992.
 
@@ -365,7 +365,7 @@ try this:
 
 13\) Martin Gutzwiller, Quantum chaos, Scientific American, January
 1992. Also available at
-<http://www.maths.ex.ac.uk/~mwatkins/zeta/quantumchaos.html>
+`http://www.maths.ex.ac.uk/~mwatkins/zeta/quantumchaos.html`
 
 ------------------------------------------------------------------------
 
@@ -635,7 +635,7 @@ sci.physics.research:
 >
 >        > If G' is a subgroup of G, we get a covering map
 >        >
->        > H/G' → H/G
+>        > H/G' \to H/G
 >        >
 >        > so we can ask about lifting prime geodesics in H/G to closed
 >        > geodesics in H/G'.   There can be a bunch of ways to do this, so we 
@@ -703,20 +703,20 @@ sci.physics.research:
 >
 >     darin
 
-Darin\'s description of the Frobenius associated to a prime geodesic in
-H/G is a bit technical. Here\'s my guess as to a simpler description:
+Darin's description of the Frobenius associated to a prime geodesic in
+H/G is a bit technical. Here's my guess as to a simpler description:
 
 We have a covering space of a Riemannian manifold. A geodesic down below
 gives an element of the fundamental group of the base. This acts as deck
 transformations of the cover. So, it acts on the set of prime geodesics
 in the cover! Indeed, it acts on the set of prime geodesics which are
-lifts of the geodesic down below. This is the \"Frobenius automorphism\"
+lifts of the geodesic down below. This is the "Frobenius automorphism"
 associated to the geodesic.
 
-It\'s just a guess, but I feel sure it\'s right, or at least close.
-It\'s just like the Frobenius automorphisms in number theory - at least
+It's just a guess, but I feel sure it's right, or at least close.
+It's just like the Frobenius automorphisms in number theory - at least
 if we realize that a Galois group is secretly a fundamental group, as
-explained in \"[week213](week213)\".
+explained in ["Week 213"](#week213).
 
 ------------------------------------------------------------------------
 

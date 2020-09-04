@@ -1,34 +1,34 @@
 week246
 
-I\'ve been gearing up to tell a big, wonderful story about the quest to
+I've been gearing up to tell a big, wonderful story about the quest to
 generalize quantum knot invariants to higher dimensions by categorifying
 the theory of quantum groups. This story began at least 14 years ago! I
-talked about it way back in \"[week2](week2.html)\".
+talked about it way back in ["Week 2"](#week2).
 
 At the time, Louis Crane and Igor Frenkel had just come out with a draft
-of a paper called \"Hopf categories and their representations\", which
+of a paper called "Hopf categories and their representations", which
 began tackling this problem. This is roughly when Crane invented the
-word \"categorification\" - and their paper is a big part of why I got
-interested in n-categories.
+word "categorification" - and their paper is a big part of why I got
+interested in $n$-categories.
 
-The subject moved rather slowly until Frenkel\'s student Mikhail
+The subject moved rather slowly until Frenkel's student Mikhail
 Khovanov got into the game and categorified the Jones polynomial - a
 famous invariant of knots related to the very simplest quantum group,
-the one called \"quantum SU(2)\". Now categorifying knot theory is a hot
+the one called "quantum SU(2)". Now categorifying knot theory is a hot
 topic.
 
 James Dolan, Todd Trimble and I have been chewing away on this subject
 from a quite different angle, which may ultimately turn out to be the
-same - or at least related. In the process, we\'ve needed to learn,
+same - or at least related. In the process, we've needed to learn,
 reinvent or remodel a lot of classical work on group theory, incidence
-geometry, and combinatorics. It\'s been a great adventure, and it\'s far
+geometry, and combinatorics. It's been a great adventure, and it's far
 from over.
 
-I\'m dying to explain some of this stuff, and I\'ll start soon. But
+I'm dying to explain some of this stuff, and I'll start soon. But
 first I need to talk about something less pleasant: the troubles with
 fundamental physics.
 
-If you care at all about physics, you\'ve probably heard about these:
+If you care at all about physics, you've probably heard about these:
 
 1\) Peter Woit, Not Even Wrong: The Failure of String Theory and the
 Continuing Challenge to Unify the Laws of Physics, Basic Books, New
@@ -43,19 +43,19 @@ Fall of a Science, and What Comes Next, Houghton Mifflin, New York,
 ![](trouble_with_physics.gif){width="122"}
 :::
 
-I won\'t \"review\" these books. I\'ll just talk about some points they
+I won't "review" these books. I'll just talk about some points they
 raise - in a very nontechnical way.
 
 Their importance is that they explain the problems of string theory to
 the large audience of people who get their news about fundamental
 physics from magazines and popular books. Experts were already aware of
-these problems, but in the popular media there\'s always been a lot of
+these problems, but in the popular media there's always been a lot of
 hype, which painted a much rosier picture. So, casual observers must
 have gotten the impression that physics was always on the brink of a
-Theory of Everything\... but mysteriously never reaching it. These books
+Theory of Everything... but mysteriously never reaching it. These books
 correct that impression.
 
-In fact, string theory still hasn\'t reached the stage of making any
+In fact, string theory still hasn't reached the stage of making any
 firm predictions. For the last few decades, astrophysicists have been
 making amazing discoveries in fundamental physics: dark matter, dark
 energy, neutrino oscillations, maybe even cosmic inflation in the very
@@ -65,7 +65,7 @@ luck, it may even see brand new particles. But about all this, string
 theory has had little to say.
 
 To get actual predictions, practical physicists sometimes build
-\"string-inspired\" scenarios. These scenarios aren\'t *derived* from
+"string-inspired" scenarios. These scenarios aren't *derived* from
 string theory: to get specific predictions, they have to throw in lots
 of extra assumptions. For example, since string theory involves
 supersymmetry, string theorists resort to supersymmetric versions of the
@@ -75,17 +75,17 @@ the simplest supersymmetric version of the Standard Model involves over
 in by hand, not derived from string theory. If it turns out we see some
 other particles, we can just stick those in too.
 
-Someday this situation may change, but it\'s dragged on for a while now.
-There\'s no reason why theoretical physics should always move fast. The
+Someday this situation may change, but it's dragged on for a while now.
+There's no reason why theoretical physics should always move fast. The
 universe has taken almost 14 billion years to reach its current state of
-self-knowledge - what\'s a few more decades? But, coming after an era of
+self-knowledge - what's a few more decades? But, coming after an era of
 incredibly rapid progress stretching from 1905 to 1983, the current
 period of stagnation feels like an eternity. So, physicists are getting
 a bit desperate. This has led to some strange behavior.
 
 For example, some people have tried to refute the claim that string
 theory makes no testable predictions by arguing that it predicts the
-existence of gravity! This is better known as a \"retrodiction\".
+existence of gravity! This is better known as a "retrodiction".
 
 Others say that since string theory requires extra assumptions to make
 definite predictions about our universe, we should - instead of making
@@ -96,10 +96,10 @@ of spacetime, and lots of ways we could stick D-branes here or there,
 etcetera.
 
 This space of all possible extra assumptions is called the
-\"Landscape\". Since it\'s vaguely defined, the main things we know
+"Landscape". Since it's vaguely defined, the main things we know
 about it are:
 
-a\) it\'s big,
+a\) it's big,
 
 b\) it keeps growing as string theorists come up with new ideas,
 
@@ -107,17 +107,17 @@ c\) nobody has yet found a point in it that matches our universe.
 
 Despite this, or perhaps because of it, the Landscape has been the
 subject of many discussions. Often these devolve into arguments about
-the \"anthropic principle\". Roughly, this says that if the universe
-were really different, we wouldn\'t be having this argument - so it must
+the "anthropic principle". Roughly, this says that if the universe
+were really different, we wouldn't be having this argument - so it must
 be like it is!
 
 One can in fact draw some conclusions from the anthropic principle. But
-it\'s really just the low-budget limit of experimental physics. You can
+it's really just the low-budget limit of experimental physics. You can
 always get more conclusions from doing more experiments. The experiment
-where you just check to see if you\'re alive is really cheap - but you
-don\'t learn much from it.
+where you just check to see if you're alive is really cheap - but you
+don't learn much from it.
 
-(Of course I\'m oversimplifying things for comic effect, but usually
+(Of course I'm oversimplifying things for comic effect, but usually
 people take the opposite approach, overcomplicating this stuff to make
 it sound more profound than it is.)
 
@@ -126,46 +126,46 @@ but it exerts a demoralizing effect. So, when Woit and Smolin came out
 with their books, a lot of tempers snapped, and a lot of strange
 arguments were applied against them.
 
-For example, one popular argument was \"Okay, buster - can you do
-better?\" The idea here seems to be that until you know a solution to
-the problems faced by string theory, you shouldn\'t point out these
+For example, one popular argument was "Okay, buster - can you do
+better?" The idea here seems to be that until you know a solution to
+the problems faced by string theory, you shouldn't point out these
 problems - at least not publicly. This goes against my experience: hard
 problems tend to get solved only *after* lots of people openly admit
 they exist.
 
-Another closely related argument was \"String theory is the only game in
-town.\" Until some obviously better theory shows up, we should keep
+Another closely related argument was "String theory is the only game in
+town." Until some obviously better theory shows up, we should keep
 working on string theory.
 
-It\'s true there\'s no obviously better theory than string theory. Loop
+It's true there's no obviously better theory than string theory. Loop
 quantum gravity, in particular, has problems that are just as serious as
 string theory.
 
-But, the \"only game in town\" argument is still flawed.
+But, the "only game in town" argument is still flawed.
 
 Once I drove through Las Vegas, where there really *is* just one game in
 town: gambling. I stopped and took a look. I saw the big fancy casinos.
 I saw the glazed-eyed grannies feeding quarters into slot machines,
 hoping to strike it rich someday. It was clear: the odds were stacked
-against me. But, I didn\'t respond by saying \"Oh well - it\'s the only
-game in town\" and starting to play.
+against me. But, I didn't respond by saying "Oh well - it's the only
+game in town" and starting to play.
 
 Instead, I *left* that town.
 
-It\'s no good to work on string theory with a glum attitude like \"it\'s
-the only game in town.\" There are lots of other wonderful things for
+It's no good to work on string theory with a glum attitude like "it's
+the only game in town." There are lots of other wonderful things for
 theoretical physicists to do. Things where your work has a good chance
-of matching experiment\... or things where you take a huge risk by going
+of matching experiment... or things where you take a huge risk by going
 out on your own and trying something new.
 
 Indeed, if following the crowd were the name of the game, string theory
-might never have been invented in the first place. It didn\'t fall from
+might never have been invented in the first place. It didn't fall from
 the sky fully formed, obviously better than its competitors. A handful
 of people took a big chance by working on it for many years before it
 proved its worth.
 
 In his book, Lee Smolin argues that physics is in the midst of a
-scientific revolution, and that these times demand people who don\'t
+scientific revolution, and that these times demand people who don't
 just follow fashion:
 
 > The point is that different kinds of people are important in normal
@@ -176,9 +176,9 @@ just follow fashion:
 > seers, who can peer ahead into the darkness.
 
 He later regretted this way of putting it, and I think rightly so. The
-term \"seer\" suggests that some people have a better-than-average
+term "seer" suggests that some people have a better-than-average
 ability to see the right answers to profound questions. This may be
-true, but it\'s hard to tell ahead of time who is a seer and who is not.
+true, but it's hard to tell ahead of time who is a seer and who is not.
 Smolin later wrote:
 
 > Here is a metaphor due to Eric Weinstein that I would have put in the
@@ -230,28 +230,28 @@ Smolin later wrote:
 > because there also are criteria that can allow us to pick out who is
 > worthy of support. They are just different criteria.
 
-This is a good analysis, but it leaves out one thing: most \"valley
-crossers\" get stuck wandering around in valleys. Even those who succeed
-once are likely to fail later: think of Einstein\'s long search for a
-unified field theory, or Schrödinger\'s \"unitary field theory\"
-involving a connection with torsion, or Heisenberg\'s nonlinear spinor
-field theory, or Kelvin\'s vortex atoms. It\'s not surprising these
-geniuses spent a lot of time on failed theories - what\'s surprising is
+This is a good analysis, but it leaves out one thing: most "valley
+crossers" get stuck wandering around in valleys. Even those who succeed
+once are likely to fail later: think of Einstein's long search for a
+unified field theory, or Schrödinger's "unitary field theory"
+involving a connection with torsion, or Heisenberg's nonlinear spinor
+field theory, or Kelvin's vortex atoms. It's not surprising these
+geniuses spent a lot of time on failed theories - what's surprising is
 their successes.
 
 So, failure is an unavoidable cost of doing business, and encouraging
-more \"valley crossers\" or \"risk takers\" will inevitably look like
+more "valley crossers" or "risk takers" will inevitably look like
 encouraging more failures.
 
 Unfortunately, the alternative is even more risky. If everyone pursues
-the same approach, we\'ll all succeed or fail together - and chances are
-we\'ll fail. The reason for backing some risk takers is that it
-\"diversifies our portfolio\". It reduces overall risk by increasing the
+the same approach, we'll all succeed or fail together - and chances are
+we'll fail. The reason for backing some risk takers is that it
+"diversifies our portfolio". It reduces overall risk by increasing the
 chance that *someone* will succeed.
 
-(It\'s no coincidence that Eric Weinstein, mentioned above by Smolin,
-works as an investment banker. He\'s also a student of Raoul Bott - but
-that\'s another story!)
+(It's no coincidence that Eric Weinstein, mentioned above by Smolin,
+works as an investment banker. He's also a student of Raoul Bott - but
+that's another story!)
 
 Near the end of his book, Woit quotes the mathematican Michael Atiyah,
 who also seems to raise the possibility that we need some more
@@ -259,18 +259,18 @@ risk-taking:
 
 > If we end up with a coherent and consistent unified theory of the
 > universe, involving extremely complicated mathematics, do we believe
-> that this represents \"reality\"? Do we believe that the laws of
+> that this represents "reality"? Do we believe that the laws of
 > nature are laid down using the elaborate algebraic machinery that is
-> now emerging in string theory? Or is it possible that nature\'s laws
+> now emerging in string theory? Or is it possible that nature's laws
 > are much deeper, simple yet subtle, and that the mathematical
 > description we use is simply the best we can do with the tools we
 > have? In other words, perhaps we have not yet found the right language
 > or framework to see the ultimate simplicity of nature.
 
-Most people who read these words and try to find this \"right
-framework\" will fail. But, we can hope that someday a few succeed.
+Most people who read these words and try to find this "right
+framework" will fail. But, we can hope that someday a few succeed.
 
-For the fascinating tale of Schrödinger\'s \"unitary field theory\", see
+For the fascinating tale of Schrödinger's "unitary field theory", see
 this nice book:
 
 3\) Walter Moore, Schrödinger: His Life and Thought, Cambridge U. Press,
@@ -281,7 +281,7 @@ century, see:
 
 4\) Hubert F. M Goenner, On the history of unified field theories,
 Living Reviews of Relativity 7, (2004), 2. Available at
-<http://www.livingreviews.org/lrr-2004-2>
+`http://www.livingreviews.org/lrr-2004-2`
 
 ------------------------------------------------------------------------
 
@@ -292,5 +292,5 @@ Café](http://golem.ph.utexas.edu/category/2007/02/this_weeks_finds_in_mathemati
 ------------------------------------------------------------------------
 
 *Apart from agreeing with reality it is certainly a magnificent
-achievement of pure thought.* - Einstein, to Hermann Weyl, about Weyl\'s
+achievement of pure thought.* - Einstein, to Hermann Weyl, about Weyl's
 attempt to unify gravity and electromagnetism.

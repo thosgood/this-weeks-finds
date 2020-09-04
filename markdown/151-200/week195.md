@@ -2,36 +2,36 @@ week195
 
 In 1999 a Canadian businessman named Mike Lazaridis donated \$100
 million to set up the Perimeter Institute for Theoretical Physics. Right
-now it\'s housed in a red stone building with a big clock tower on King
-Street in Waterloo, Ontario. It\'s funky and comfortable: the place used
-to be a restaurant, and there\'s still an espresso bar, a pool table and
+now it's housed in a red stone building with a big clock tower on King
+Street in Waterloo, Ontario. It's funky and comfortable: the place used
+to be a restaurant, and there's still an espresso bar, a pool table and
 an out-of-tune piano in a big room on the second floor. You can make
 yourself coffee, and get sandwich fixings and soft drinks from the
-refrigerator whenever you want\... and they show movies on Friday! Right
+refrigerator whenever you want... and they show movies on Friday! Right
 now the institute is focused on quantum gravity and quantum computation,
 but eventually it will move to a big new building and expand quite a
 bit, perhaps including some cosmology and particle physics.
 
 For details see:
 
-1\) Perimeter Institute, <http://perimeterinstitute.ca/>
+1\) Perimeter Institute, `http://perimeterinstitute.ca/`
 
-I\'ve been talking to lots of people here, including Lee Smolin, who
+I've been talking to lots of people here, including Lee Smolin, who
 just came out with this review article on quantum gravity:
 
 2\) Lee Smolin, How far are we from the quantum theory of gravity?,
 available as [hep-th/0303185](http://xxx.lanl.gov/abs/hep-th/0303185).
 
 He compares all the main approaches, with an emphasis on loop quantum
-gravity and string theory. This is great, because he\'s one of the few
+gravity and string theory. This is great, because he's one of the few
 people who has thought hard about both loops and strings. He comes down
 rather critical of string theory, pointing out a number of issues which
-had escaped my attention. In fact, he told me he wasn\'t feeling so
+had escaped my attention. In fact, he told me he wasn't feeling so
 critical when he started writing this review article; he says writing it
 pushed him further in that direction.
 
 For example, people often claim the great thing about string theory is
-that it\'s \"finite\": that is, one can compute how strings scatter off
+that it's "finite": that is, one can compute how strings scatter off
 each other as an infinite (but possibly divergent) sum of well-defined
 terms, one for each different number of holes in the string worldsheet:
 
@@ -47,19 +47,19 @@ terms, one for each different number of holes in the string worldsheet:
 
 But there are different string theories to consider here: bosonic string
 theory and 5 the different superstring theories (see
-\"[week72](week72.html)\").
+["Week 72"](#week72)).
 
 The bosonic string is indeed finite, but it has other problems. For
-example, the sum diverges, and you can\'t even get a finite answer for
-it using the trick called \"Borel summation\". Bosonic string theory
+example, the sum diverges, and you can't even get a finite answer for
+it using the trick called "Borel summation". Bosonic string theory
 also predicts a tachyon, which is a sign that the theory is unstable.
 
-Most importantly, bosonic string theory doesn\'t predict fermions, which
+Most importantly, bosonic string theory doesn't predict fermions, which
 we need in any theory of particle physics. So for physics, what really
 matters are the superstring theories. And for these, it turns out people
 have only figured out how to compute the amplitudes for worldsheets with
 at most 2 holes in them: the so-called 2-loop or genus-2 case. Moreover,
-this was done only in 2001! It was done by Eric D\'Hoker and D. H. Phong
+this was done only in 2001! It was done by Eric D'Hoker and D. H. Phong
 in a series of 4 long technical papers.
 
 In the first of these papers, they wrote:
@@ -85,52 +85,52 @@ I hope the techniques they devised for the 2-loop case speed up progress
 on higher-loop amplitudes! It would be nice to know if superstring
 theory really lives up to its promise of finiteness.
 
-Smolin\'s paper also gives a critical summary of various standard
+Smolin's paper also gives a critical summary of various standard
 conjectures in string theory, along with the evidence for these. This
 makes good reading for anyone wondering how much of what one hears about
 string theory is hype and how much is solid. To make this clear, Smolin
-states an amusing \"minimal string theory conjecture\" describing the
-worst possible scenario consistent with everything that\'s actually been
+states an amusing "minimal string theory conjecture" describing the
+worst possible scenario consistent with everything that's actually been
 shown so far! The gap between this and the more optimistic scenarios one
 usually hears is truly vast.
 
-My only complaint about Smolin\'s review article is that it\'s not
+My only complaint about Smolin's review article is that it's not
 sufficiently critical of loop quantum gravity. It does mention that
 nobody knows whether this theory reduces to general relativity at
-distance scales much larger than the Planck length, but it doesn\'t make
-clear how severe this problem is. For example, it doesn\'t point out
+distance scales much larger than the Planck length, but it doesn't make
+clear how severe this problem is. For example, it doesn't point out
 that nobody agrees on the correct dynamics for this theory! Given this,
 the issue of whether loop quantum gravity reduces to general relativity
 at large distance scales is not a mere yes-or-no question: we need to
 *find a version* of the theory that gives general relativity as a
 limiting case.
 
-Along similar lines, when Smolin mentions Thiemann\'s theory of loop
-quantum gravity coupled to the Standard Model, he doesn\'t emphasize
+Along similar lines, when Smolin mentions Thiemann's theory of loop
+quantum gravity coupled to the Standard Model, he doesn't emphasize
 that nobody knows if this theory really reduces to the Standard Model in
 a suitable limit: Thiemann has a specific proposal for the dynamics, but
-it hasn\'t been tested in this way. Finally, I think Smolin is overly
-optimistic about Olaf Dreyer\'s method of computing the Immirzi
+it hasn't been tested in this way. Finally, I think Smolin is overly
+optimistic about Olaf Dreyer's method of computing the Immirzi
 parameter in loop quantum gravity. For a useful corrective, see
-\"[week189](week189.html)\" and especially \"[week192](week192.html)\".
+["Week 189"](#week189) and especially ["Week 192"](#week192).
 
-Of course, you can\'t really expect a harsh list of the flaws of loop
-quantum gravity from one of that theory\'s inventors any more than you
+Of course, you can't really expect a harsh list of the flaws of loop
+quantum gravity from one of that theory's inventors any more than you
 can expect string theorists to tear into *their* theory! As A. J.
-Tolland has pointed out, Steve Carlip\'s review article is more
-even-handed (see \"[week171](week171.html)\"). But Smolin\'s is still
+Tolland has pointed out, Steve Carlip's review article is more
+even-handed (see ["Week 171"](#week171)). But Smolin's is still
 very much worth reading - especially if you want something not too
 technical.
 
-Here\'s a good review of D\'Hoker and Phong\'s proof that heterotic and
+Here's a good review of D'Hoker and Phong's proof that heterotic and
 type II superstring theory are finite up to 2 loops:
 
-3\) Eric D\'Hoker and D.H. Phong, Lectures on two-loop superstrings,
+3\) Eric D'Hoker and D.H. Phong, Lectures on two-loop superstrings,
 available as [hep-th/0211111](http://xxx.lanl.gov/abs/hep-th/0211111).
 
 It summarizes four long papers of theirs:
 
-4\) Eric D\'Hoker and D.H. Phong, Two-loop superstrings: I, The main
+4\) Eric D'Hoker and D.H. Phong, Two-loop superstrings: I, The main
 formulas, Phys. Lett. B529 (2002), 241-255. Also available as
 [hep-th/0110247](http://xxx.lanl.gov/abs/hep-th/0110247).
 
@@ -158,19 +158,19 @@ I got some clues here:
 
 5\) Zvi Bern, Perturbative quantum gravity and its relation to gauge
 theory, Living Rev. Relativity 5 (2002), available at
-<http://www.livingreviews.org/Articles/Volume5/2002-5bern/index.html>
+`http://www.livingreviews.org/Articles/Volume5/2002-5bern/index.html`
 
 Zvi Bern, The S-matrix reloaded: twistors, unitarity, gauge theories and
 gravity, talk at the KITP Program: Mathematical Structures in String
 Theory, Sept. 29, 2005. Video, audio and transparencies available at
-<http://online.kitp.ucsb.edu/online/strings05/bern/>
+`http://online.kitp.ucsb.edu/online/strings05/bern/`
 
 It turns out the current best method for understanding perturbative
 quantum gravity is to connect it to Yang-Mills theory via the
-\"Kawai-Lewellen-Tye relations\", whatever those are. (Twistor methods
+"Kawai-Lewellen-Tye relations", whatever those are. (Twistor methods
 have also come into fashion, after I wrote the original version of this
 article.) Apparently the state of the art is like this - though I sure
-haven\'t checked these things myself:
+haven't checked these things myself:
 
 -   In 4 dimensions, pure gravity without matter is renormalizable to 1
     loop, but not 2.
@@ -179,14 +179,14 @@ haven\'t checked these things myself:
 -   In 4 dimensions, supergravity theories are renormalizable up to 2
     loops. It is believed that most of these theories are not
     renormalizable to 3 loops, since a candidate divergent term is
-    known. However, \"no explicit calculations have as yet been
+    known. However, "no explicit calculations have as yet been
     performed to directly verify the existence of the three-loop
-    supergravity divergences.\"
+    supergravity divergences."
 -   Maximally supersymmetric supergravity theories behave better than
-    people had expected. In 4 dimensions, it *seems* that so-called \"N
-    = 8 supergravity\" is renormalizable up to 4 loops, but not 5.
+    people had expected. In 4 dimensions, it *seems* that so-called "N
+    = 8 supergravity" is renormalizable up to 4 loops, but not 5.
     However, neither of these have been proved, and this theory could
-    even be renormalizable to all orders: see pages 33-35 in Zvi Bern\'s
+    even be renormalizable to all orders: see pages 33-35 in Zvi Bern's
     transparencies above.
 -   11-dimensional supergravity is renormalizable to 1 loop but not 2.
 
@@ -194,7 +194,7 @@ Since M-theory is supposed to reduce to 11-dimensional supergravity in
 some sort of limit, the last point is important. Indeed this
 nonrenormalizability is why people stopped working on 11d supergravity
 for a while - until evidence started coming in that it sheds a lot of
-light on string theory (see \"[week72](week72.html)\").
+light on string theory (see ["Week 72"](#week72)).
 
 For more readable stuff about the nonrenormalizability of 11d
 supergravity, try these review articles:
@@ -207,16 +207,16 @@ available as [hep-th/9905017](http://xxx.lanl.gov/abs/hep-th/9905017).
 (2000) 299-307. Also available as
 [gr-qc/9911073](http://xxx.lanl.gov/abs/gr-qc/9911073).
 
-Speaking of M-theory and the like, I\'ve been reading Acharya\'s article
-on \"G2 manifolds\", which I mentioned last week, and I\'ve been talking
+Speaking of M-theory and the like, I've been reading Acharya's article
+on "G2 manifolds", which I mentioned last week, and I've been talking
 to various people about it on sci.physics.research, especially Robert
-Helling and Urs Schreiber. Here\'s a bit of what I have learned.
+Helling and Urs Schreiber. Here's a bit of what I have learned.
 
 First of all, let me say some basic stuff about why string theorists
 like G2 manifolds. M-theory lives in 11 dimensions, and 4 + 7 = 11, so
-it\'s interesting to study M-theory on a spacetime of the form R^4^ x N
+it's interesting to study M-theory on a spacetime of the form R^4 x N
 where N is a 7-dimensional manifold. The kind of 7-dimensional manifold
-that works is called a \"G2 manifold\". Or at least this might be true
+that works is called a "G2 manifold". Or at least this might be true
 if anyone knew what M-theory was! What people really understand is
 11-dimensional supergravity, which is supposed to be some sort of
 limiting case of the mysterious mess called M-theory. So, Acharya talks
@@ -224,60 +224,60 @@ about 11d supergravity on Minkowski spacetime times a G2 manifold, and
 what sort of physics this gives.
 
 People also like to study superstring theory on spacetimes of the form
-R^4^ x O. But superstring theory lives in 10 dimensions, and 4 + 6 = 10,
+R^4 x O. But superstring theory lives in 10 dimensions, and 4 + 6 = 10,
 so here O should be a 6-dimensional manifold. The kind of 6-dimensional
-manifold that works is called a \"Calabi-Yau manifold\".
+manifold that works is called a "Calabi-Yau manifold".
 
-These ideas are related, because M-theory on R^4^ x N is sort of like
-heterotic string theory on R^4^ x O when N = O x \[0,1\]. But, M-theory
-on R^4^ x N has an extra adjustable parameter due to the length of the
+These ideas are related, because M-theory on R^4 x N is sort of like
+heterotic string theory on R^4 x O when N = O x \[0,1\]. But, M-theory
+on R^4 x N has an extra adjustable parameter due to the length of the
 interval \[0,1\]. This lets you make gravity weaker than the other
-forces, which you can\'t do in heterotic string theory.
+forces, which you can't do in heterotic string theory.
 
-At least this is what my sources tell me! I don\'t understand all of
+At least this is what my sources tell me! I don't understand all of
 this, so it could be a bit wrong. But I think I understand how G2
 manifolds and Calabi-Yau manifolds are related, and why O being a
-Calabi-Yau manifold makes O x \[0,1\] into a G2-manifold. So, I\'ll
+Calabi-Yau manifold makes O x \[0,1\] into a G2-manifold. So, I'll
 explain that.
 
 The key principle to keep in mind is that any type of structure you can
 put on a real inner product space yields a type of Riemannian manifold.
 Each tangent space of a Riemannian manifold is a real inner product
-space, and there\'s a god-given way to parallel transport tangent
+space, and there's a god-given way to parallel transport tangent
 vectors on a Riemannian manifold. So, if X is some type of structure you
-can put on a real inner product space, you can define an \"X-manifold\"
+can put on a real inner product space, you can define an "X-manifold"
 to be a Riemannian manifold where each tangent space has an
-X-structure\... in a way that\'s preserved by parallel transport!
+X-structure... in a way that's preserved by parallel transport!
 
-For example, X could be a \"Hermitian structure\" - a way of making a
+For example, X could be a "Hermitian structure" - a way of making a
 real inner product space into a *complex* inner product space. Then an
-X-manifold is called a \"Kaehler manifold\".
+X-manifold is called a "Kaehler manifold".
 
-When we parallel transport a vector around a loop in a n-dimensional
+When we parallel transport a vector around a loop in a $n$-dimensional
 Riemannian manifold, it can be rotated or reflected. In more jargonesgue
 jargon, the holonomy around a loop defines an element of the group O(n).
 But when your manifold is a Kaehler manifold, each tangent space becomes
-a complex inner product space of dimension n/2, in a way that\'s
+a complex inner product space of dimension n/2, in a way that's
 preserved by parallel transport. So, the holonomy around any loop must
 lie in the unitary group U(n/2).
 
-There\'s a converse to this, as well! So a Kaehler manifold is just a
+There's a converse to this, as well! So a Kaehler manifold is just a
 Riemannian manifold where the holonomies all lie in U(n/2).
 
 And this is how it usually works - or *always*, if you take care to
 include all the necessary fine print. Thus many sorts of X-manifolds are
-called \"manifolds with special holonomy\". See:
+called "manifolds with special holonomy". See:
 
 8\) Dominic Joyce, Compact Manifolds with Special Holonomy, Oxford U.
 Press, Oxford, 2000.
 
-For example, suppose X is a \"quaternionic structure\" - a way of making
+For example, suppose X is a "quaternionic structure" - a way of making
 a real inner product space into a quaternionic inner product space. Then
-an X-manifold is called a \"hyperKaehler manifold\", and this just one
+an X-manifold is called a "hyperKaehler manifold", and this just one
 where the holonomies lie in the quaternionic unitary group Sp(n/4).
 
 Or, suppose X is a Hermitian structure together with an n/2-form. Then
-an X-manifold is called a \"Calabi-Yau manifold\". This concept of
+an X-manifold is called a "Calabi-Yau manifold". This concept of
 Calabi-Yau manifold works in any even dimension, while before I was just
 talking about 6-dimensional ones! For parallel transport around a loop
 to preserve an n/2-form as well as a Hermitian structure, the holonomy
@@ -285,28 +285,28 @@ must lie in SU(n/2). So, a Calabi-Yau manifold is the same as one where
 the holonomies lie in SU(n/2).
 
 We can define G2-manifolds in a similar way. But to do this, and to see
-how they\'re related to 6-dimensional Calabi-Yau manifolds, we need a
-detour into the theory of spinors. The reason is that \"N = 1
-supersymmetric theories\" work nicely when you can pick a spinor at each
-point of space in a way that\'s preserved by parallel transport. We call
-such a thing a \"covariantly constant spinor field\". Actually, this
-spinor field needs to be nonzero to be of any use, but that\'s so
-obvious people often don\'t mention it.
+how they're related to 6-dimensional Calabi-Yau manifolds, we need a
+detour into the theory of spinors. The reason is that "N = 1
+supersymmetric theories" work nicely when you can pick a spinor at each
+point of space in a way that's preserved by parallel transport. We call
+such a thing a "covariantly constant spinor field". Actually, this
+spinor field needs to be nonzero to be of any use, but that's so
+obvious people often don't mention it.
 
-Now, a nonzero spinor isn\'t exactly an extra structure you can put on a
+Now, a nonzero spinor isn't exactly an extra structure you can put on a
 real inner product space, since spinors are representations not of O(n)
 or even SO(n) but of the double cover Spin(n). However, if you start
 with a *spin* manifold, you can think of a nonzero covariantly constant
 spinor field as some extra structure that reduces the holonomy group
 from Spin(n) down to some subgroup.
 
-So, let\'s see what this extra structure is like in some examples!
+So, let's see what this extra structure is like in some examples!
 
-For the examples I\'ll talk about, the key is that spinors in 5-, 6-, 7-
+For the examples I'll talk about, the key is that spinors in 5-, 6-, 7-
 and 8-dimensional space are all very related, and all very related to
 the octonions. You can see this from looking at the even part of the
 Clifford algebra, because spinors are defined to be irreducible
-representations of this algebra. Here\'s what the even part of the
+representations of this algebra. Here's what the even part of the
 Clifford algebra looks like in various dimensions:
 
     dimension 1:  R 
@@ -321,11 +321,11 @@ Clifford algebra looks like in various dimensions:
 Here K = R, C, H stands for the real numbers, complex numbers and
 quaternions, while K(n) means n x n matrices with entries in K.
 
-I\'ll always be interested in *real* spinors, which are the irreducible
-*real* representations of these algebras. I won\'t even keep saying the
-word \"real\" from now on. If you eyeball the above chart, you\'ll see
+I'll always be interested in *real* spinors, which are the irreducible
+*real* representations of these algebras. I won't even keep saying the
+word "real" from now on. If you eyeball the above chart, you'll see
 that in dimensions 4 and 8 we get two kinds of spinor - called left- and
-right-handed spinors - while in the other dimensions there\'s just one
+right-handed spinors - while in the other dimensions there's just one
 kind. The way these spinors work is sort of obvious:
 
     dimension 1:  R 
@@ -337,17 +337,17 @@ kind. The way these spinors work is sort of obvious:
     dimension 7:  R8
     dimension 8:  left and right, both R8
 
-Now the cool part is that H^2^, C^4^ and R^8^ are all secretly the same
+Now the cool part is that H^2, C^4 and R^8^ are all secretly the same
 8-dimensional real vector space equipped with various amounts of extra
 structure - i.e. the structure of a 4-dimensional complex vector space,
-or a 2-dimensional quaternionic vector space. And you\'ll probably be
+or a 2-dimensional quaternionic vector space. And you'll probably be
 more bored than shocked when I tell you that this 8-dimensional real
 vector space is yearning to become the OCTONIONS.
 
-Let\'s see how we can use this to study specially nice manifolds in 8,
-7, 6 and 5 dimensions. We\'ll start in dimension 8 and climb our way
-down by a systematic process. In 7 dimensions we\'ll get G2 manifolds,
-while in 6 dimensions we\'ll get Calabi-Yau manifolds.
+Let's see how we can use this to study specially nice manifolds in 8,
+7, 6 and 5 dimensions. We'll start in dimension 8 and climb our way
+down by a systematic process. In 7 dimensions we'll get G2 manifolds,
+while in 6 dimensions we'll get Calabi-Yau manifolds.
 
 Okay:
 
@@ -361,7 +361,7 @@ spin group (the double cover of the rotation group):
 You can build a vector from a left-handed spinor and a right-handed
 spinor, so we have an intertwining operator:
 
-    S+ tensor S- → V
+    S+ tensor S- \to V
 
 The cool part is that this map tells us how to multiply octonions!
 
@@ -371,14 +371,14 @@ from S- to V. Similarly, multiplying by 1- gives an isomorphism from S+
 to V. This lets us think of all three spaces as the same: THE OCTONIONS,
 with m as the octonion product and 1+ (or 1- if you prefer) as its unit.
 
-In fact, there\'s nothing special about writing our operator as
+In fact, there's nothing special about writing our operator as
 
-    S+ tensor S- → V
+    S+ tensor S- \to V
 
 since all three of these reps are their own dual. This lets us permute
 these guys and work with
 
-    V tensor S+ → S-
+    V tensor S+ \to S-
 
 or whatever we like. So, picking unit vectors in any 2 out of these 3
 spaces gives us a unit vector in the third and makes all 3 into an
@@ -391,24 +391,24 @@ with nonzero covariantly constant sections of 2 of these 3 bundles:
 -   the right-handed spinor bundle
 -   the tangent bundle
 
-we get a way to make all 3 of these bundles into \"octonion bundles\" -
+we get a way to make all 3 of these bundles into "octonion bundles" -
 meaning that each fiber is an algebra in a covariantly constant way,
 where this algebra is isomorphic to the octonions.
 
 This in turn implies that the holonomy group of the metric on M must be
 a subgroup of G2 - the automorphism group of the octonions.
 
-Let\'s call a manifold like this M an \"octonionic manifold\".
+Let's call a manifold like this M an "octonionic manifold".
 
 How do we get manifolds like this?
 
 The easiest way is to take a 7-dimensional spin manifold N and let M = N
 x R. The special 8th direction in M gives us a nonzero covariantly
-constant vector field on M. So, to get the above \"2 out of 3\" trick to
+constant vector field on M. So, to get the above "2 out of 3" trick to
 work, we just need a nonzero covariantly constant section of either the
 left- or right-handed spinor bundle of M.
 
-But as we\'ve seen, spinors in 7 dimensions are secretly the same as
+But as we've seen, spinors in 7 dimensions are secretly the same as
 either left- or right-handed spinors in 8 dimensions. So, it suffices to
 have a nonzero covariantly constant spinor field on N.
 
@@ -416,19 +416,19 @@ Thus, when N is a 7-dimensional spin manifold with a nonzero covariantly
 constant spinor field, its spinor bundle automatically becomes an
 octonion bundle!
 
-Its tangent bundle doesn\'t become an octonion bundle, because it\'s
-just 7-dimensional. But if you think about what I\'ve said, you\'ll see
+Its tangent bundle doesn't become an octonion bundle, because it's
+just 7-dimensional. But if you think about what I've said, you'll see
 the tangent bundle plus a trivial line bundle becomes an octonion
 bundle. This trivial line bundle corresponds to the *real* octonions,
 while the tangent bundle of N corresponds to the *imaginary* octonions.
 
-The imaginary octonions are 7-dimensional, and they have a \"dot
-product\" and \"cross product\" rather like those in 3 dimensions. Since
+The imaginary octonions are 7-dimensional, and they have a "dot
+product" and "cross product" rather like those in 3 dimensions. Since
 you can use these to recover the octonion product, the group of
 transformations of the imaginary octonions preserving the dot product
 and cross product is again G2.
 
-So, the tangent bundle of N becomes an \"imaginary octonion bundle\",
+So, the tangent bundle of N becomes an "imaginary octonion bundle",
 meaning that each fiber gets a dot product and cross product in a
 covariantly constant way, making it isomorphic to the imaginary
 octonions.
@@ -436,7 +436,7 @@ octonions.
 This in turn implies that the holonomy group of the metric on N must be
 a subgroup of G2.
 
-People call a manifold like this N a \"G2 manifold\".
+People call a manifold like this N a "G2 manifold".
 
 How do we get manifolds like this?
 
@@ -444,7 +444,7 @@ The easiest way is to take a 6-dimensional spin manifold O and let N = O
 x R. To make N into a G2 manifold, we need a nonzero covariantly
 constant spinor field on N.
 
-But as we\'ve seen, spinors in 6 dimensions are secretly the same as
+But as we've seen, spinors in 6 dimensions are secretly the same as
 spinors in 7 dimensions. So, it suffices to have a nonzero covariantly
 constant spinor field on O.
 
@@ -452,9 +452,9 @@ Thus, when O is a 6-dimensional spin manifold with a nonzero covariantly
 constant spinor field, its spinor bundle automatically becomes an
 octonion bundle!
 
-Its tangent bundle doesn\'t become an imaginary octonion bundle, because
-it\'s just 6-dimensional. But if you think about what I\'ve said,
-you\'ll see the tangent bundle plus a trivial line bundle becomes an
+Its tangent bundle doesn't become an imaginary octonion bundle, because
+it's just 6-dimensional. But if you think about what I've said,
+you'll see the tangent bundle plus a trivial line bundle becomes an
 imaginary octonion bundle. This trivial line bundle corresponds to a
 particular direction in the imaginary octonions.
 
@@ -463,7 +463,7 @@ subgroup of G2 fixing a direction in the imaginary octonions. This
 subgroup is SU(3), so the holonomy group of O must be a subgroup of
 SU(3).
 
-People call a manifold like this O a \"Calabi-Yau manifold\".
+People call a manifold like this O a "Calabi-Yau manifold".
 
 How do we get manifolds like this?
 
@@ -471,7 +471,7 @@ The easiest way is to take a 5-dimensional spin manifold P and let O = P
 x R. To make O into a Calabi-Yau manifold, we need a nonzero covariantly
 constant spinor field on O.
 
-But as we\'ve seen, spinors in 5 dimensions are secretly the same as
+But as we've seen, spinors in 5 dimensions are secretly the same as
 spinors in 6 dimensions. So, it will suffice to have a nonzero
 covariantly constant spinor field on P.
 
@@ -479,9 +479,9 @@ Thus, when P is a 5-dimensional spin manifold with a nonzero covariantly
 constant spinor field, its spinor bundle automatically becomes an
 octonion bundle!
 
-Its tangent bundle doesn\'t become an imaginary octonion bundle, because
-it\'s just 5-dimensional. But if you think about what I\'ve said,
-you\'ll see the tangent bundle plus two trivial line bundles becomes an
+Its tangent bundle doesn't become an imaginary octonion bundle, because
+it's just 5-dimensional. But if you think about what I've said,
+you'll see the tangent bundle plus two trivial line bundles becomes an
 imaginary octonion bundle. These trivial line bundles correspond to two
 orthogonal directions in the imaginary octonions.
 
@@ -489,9 +489,9 @@ This in turn implies that the holonomy group of P must lie in the
 subgroup of G2 fixing two orthogonal directions in the imaginary
 octonions. This subgroup is SU(2).
 
-I\'ll call a manifold like this P an \"SU(2) manifold\".
+I'll call a manifold like this P an "SU(2) manifold".
 
-Does my prose style seem stuck in a loop? That\'s on purpose; I\'m
+Does my prose style seem stuck in a loop? That's on purpose; I'm
 trying to make a certain pattern very clear. But the loop stops here, or
 at least changes flavor drastically, because spinors stop being
 8-dimensional when we get down to 4-dimensional space.
@@ -527,7 +527,7 @@ a Calabi-Yau manifold times R is a G2 manifold;
 a G2 manifold times R is an octonionic manifold.
 
 You may not like how the 8-dimensional case on the above list is
-different from the rest. Don\'t worry; people also study 8-dimensional
+different from the rest. Don't worry; people also study 8-dimensional
 spin manifolds that admit just a nonzero covariantly constant
 left-handed *or* right-handed spinor field. The holonomy group of such a
 manifold must like in Spin(7), and such a manifold is called a Spin(7)
@@ -538,9 +538,9 @@ in the imaginary octonions is SU(3). You may also wonder how I knew that
 the subgroup of G2 fixing two orthogonal directions in the imaginary
 octonions is SU(2).
 
-This is very pretty! I mainly just used two facts we\'ve already seen:
+This is very pretty! I mainly just used two facts we've already seen:
 the even part of the Clifford algebra in 6 dimensions is C(4), while in
-5 dimensions it\'s H(2).
+5 dimensions it's H(2).
 
 The first of these facts implies that so(6) must sit inside the
 traceless skew-adjoint matrices in C(4). In other words, so(6) sits
@@ -549,7 +549,7 @@ inside su(4). But
     dim(so(6)) = dim(su(4)) = 15
 
 so in fact so(6) = su(4). Indeed, SU(4) is the double cover of SO(6),
-and it acts on the space of spinors, C^4^, in the obvious way. The
+and it acts on the space of spinors, C^4, in the obvious way. The
 subgroup fixing a unit spinor is thus SU(3).
 
 The second of these facts implies that so(5) must sit inside the
@@ -559,16 +559,16 @@ inside sp(2). But
     dim(so(5)) = dim(sp(2)) = 10
 
 so in fact so(5) = sp(2). Indeed, Sp(2) is the double cover of SO(5),
-and it acts on the space of spinors, H^2^, in the obvious way. The
-subgroup fixing a unit spinor is thus Sp(1)\... which being the unit
+and it acts on the space of spinors, H^2, in the obvious way. The
+subgroup fixing a unit spinor is thus Sp(1)... which being the unit
 quaternions, is isomorphic to SU(2).
 
 If you think about it a while, these results do the job.
 
 If you wish you had some pictures to help you with all this
-higher-dimensional geometry, here\'s the best I can do. Start with the
+higher-dimensional geometry, here's the best I can do. Start with the
 octonion multiplication triangle I keep drawing - I explained it in
-\"[week104](week104.html)\":
+["Week 104"](#week104):
 
                                 e6
 
@@ -591,7 +591,7 @@ the Fano plane is just a flattened-out picture of this cube:
                               \ |/
                                e2     
 
-The hidden corner of this cube corresponds to the octonion \"1\". If
+The hidden corner of this cube corresponds to the octonion "1". If
 rotate the cube so that corner is on top, and blow it up a bit, it looks
 like this:
 
@@ -610,16 +610,16 @@ like this:
                             \   |   /                       
                              \  |  /
                               \ | /
-                               \|/
+                               |/
                                e7
 
-Now, this cube has an an obvious Z~3~ symmetry that we get by holding it
+Now, this cube has an an obvious Z_3 symmetry that we get by holding it
 between our thumb and finger and rotating it about the vertical axis.
-This Z~3~ group acts as automorphisms of the octonions that fix the
+This Z_3 group acts as automorphisms of the octonions that fix the
 elements 1 and e7. Of course, every automorphism fixes 1, so the
 interesting part is that they fix a unit imaginary octonion, e7.
 
-But Z~3~ is a subgroup of SO(3) in an obvious way, since any cyclic
+But Z_3 is a subgroup of SO(3) in an obvious way, since any cyclic
 permutation of the x,y,z axes gives a rotation. And SO(3), in turn, is a
 subgroup of SU(3) in an obvious way. And we already know that SU(3) is
 the group of *all* automorphisms of the octonions that fix a unit
@@ -630,7 +630,7 @@ SU(3) is the subgroup of Spin(7) that fixes two orthogonal unit spinors,
 namely those corresponding to 1 and e7.
 
 Either way, you can think of SO(3) and SU(3) as souped-up versions of
-the obvious Z~3~ symmetry of the octonion cube. Here\'s how the
+the obvious Z_3 symmetry of the octonion cube. Here's how the
 octonions decompose as a representation of SO(3):
 
      1d real rep                   1
@@ -649,10 +649,10 @@ octonions decompose as a representation of SO(3):
                                \   |   /                       
      ......................................................................
                                  \ | /
-     1d real rep                  \|/
+     1d real rep                  |/
      of SO(3)                     e7
 
-And here\'s how they decompose as a rep of SU(3):
+And here's how they decompose as a rep of SU(3):
 
      1d real rep                   1
      of SU(3)                     /|\
@@ -669,16 +669,16 @@ And here\'s how they decompose as a rep of SU(3):
                                \   |   /                       
      ......................................................................
                                  \ | /
-     1d real rep                  \|/
+     1d real rep                  |/
      of SU(3)                     e7
 
 I hope this makes things a bit more vivid!
 
 ------------------------------------------------------------------------
 
-Addendum: My definition of \"Kaehler manifold\" above was a bit
+Addendum: My definition of "Kaehler manifold" above was a bit
 nonstandard. For a while, some of us on sci.physics.research started
-worrying that it wasn\'t equivalent to the usual one! Luckily, it turns
+worrying that it wasn't equivalent to the usual one! Luckily, it turns
 out that it is. Here is some of our discussion of this issue.
 
 John Baez wrote:
@@ -795,7 +795,7 @@ John Baez wrote:
 >     >     and w is a 2-form on X_R;
 >     >
 >     >(#) and that each of h,g,w determines the other two via the R-vector
->     >     bundle morphism J: T(X_R) → T(X_R) given by Jv = iv (where the
+>     >     bundle morphism J: T(X_R) \to T(X_R) given by Jv = iv (where the
 >     >     holomorphic tangent bundle TX is canonically identified as a real
 >     >     vector bundle with T(X_R)). E.g. g(u,v) = w(u,Jv) up to a sign that
 >     >     depends on our definition of hermiticity.
@@ -880,5 +880,5 @@ complex, and thus a Kaehler manifold. He wrote (in part):
 
 ------------------------------------------------------------------------
 
-*\"The series is divergent; therefore we may be able to do something
-with it\"* - Oliver Heaviside.
+*"The series is divergent; therefore we may be able to do something
+with it"* - Oliver Heaviside.
