@@ -424,7 +424,7 @@ space comes straight from Pascal's triangle: it's q choose p. But now
 we also have spinor reps; the dimensions of these are powers of 2.
 
 C_n: Next let's look at the Grassmannians for the C_n series, that
-is, the symplectic groups Sp(2n,C). This is the only series of classical
+is, the symplectic groups \mathrm{Sp}(2n,C). This is the only series of classical
 groups I haven't touched yet! Just as the A_n series are symmetry
 groups of projective geometry and the B_n and D_n series are symmetry
 groups of conformal geometry, the C_n series are symmetry groups of
@@ -432,7 +432,7 @@ groups of conformal geometry, the C_n series are symmetry groups of
 about this subject - at least not consciously. It should be important in
 physics, but I'm not sure where!
 
-Anyway, Sp(2n,C) is the group of linear transformations of C^2n^ that
+Anyway, \mathrm{Sp}(2n,C) is the group of linear transformations of C^2n^ that
 preserve a symplectic form: that is, a nondegenerate *antisymmetric*
 bilinear form. A Grassmannian for this group again consists of all
 p-dimensional isotropic subspaces of C^2n^, where now a subspace is
@@ -442,25 +442,25 @@ Here's a little table of these Grassmannians:
 
                                      isotropic 
     C1                              1d subspaces
-    Sp(2,\mathbb{C})                               o
+    \mathrm{Sp}(2,\mathbb{C})                               o
                                           1
 
          
                               isotropic     isotropic          
     C2                       1d subspaces  2d subspaces
-    Sp(4,C)                       o=======<=======o
+    \mathrm{Sp}(4,C)                       o=======<=======o
                                   3               3
 
 
                        isotropic     isotropic     isotropic
     C3                1d subspaces  2d subspaces  3d subspaces
-    Sp(6,C)                o--------------o=======<=======o
+    \mathrm{Sp}(6,C)                o--------------o=======<=======o
                            5              7               6
 
 
                  isotropic     isotropic      isotropic     isotropic
     C4          1d subspaces  2d subspaces   3d subspaces  4d subspaces
-    Sp(8,C)          o-------------o---------------o=======<======o
+    \mathrm{Sp}(8,C)          o-------------o---------------o=======<======o
                      7            11              12             10 
 
 You'll notice the dimensions are the same as in the B_n case! That's
@@ -472,35 +472,35 @@ the *reflection group* associated to this diagram (see
 
 However, the dimensions of the fundamental representations are different
 from the B_n case - and I don't even know what they are! The basic
-idea is this: the space of p-vectors is no longer an irrep for Sp(2n,C),
+idea is this: the space of p-vectors is no longer an irrep for \mathrm{Sp}(2n,C),
 but contracting with the symplectic form maps p-vectors to
 (p-2)-vectors, and the kernel of this map is the pth fundamental rep of
-Sp(2n). Let's call these guys "irreducible p-vectors".
+\mathrm{Sp}(2n). Let's call these guys "irreducible p-vectors".
 
 Oh heck, I can *guess* the dimensions of these guys from this... I
 guess they're just the dimension of the p-vectors minus the dimension
 of the (p-2)-vectors. Here's a table of these guesses:
 
     C1                                 vectors
-    Sp(2,\mathbb{C})                               o
+    \mathrm{Sp}(2,\mathbb{C})                               o
                                           2
 
          
                                               irreducible 
     C2                          vectors        bivectors
-    Sp(4,C)                       o=======<=======o
+    \mathrm{Sp}(4,C)                       o=======<=======o
                                   4               5
 
 
                                       irreducible     irreducible
     C3                    vectors      bivectors       3-vectors
-    Sp(6,C)                o--------------o=======<=======o
+    \mathrm{Sp}(6,C)                o--------------o=======<=======o
                            6              14              14
 
 
                                irreducible     irreducible    irreducible
     C4              vectors     bivectors       3-vectors      4-vectors
-    Sp(8,C)          o-------------o---------------o=======<======o
+    \mathrm{Sp}(8,C)          o-------------o---------------o=======<======o
                      8            27              48             42
 
 Maybe someone can tell if they're right.

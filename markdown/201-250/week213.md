@@ -399,7 +399,7 @@ characteristic for a large class of arithmetic groups:
 defined groups, Ann. Sci. Ecole Norm. Sup. 4 (1971), 409-455.
 
 For example, he looked at the symplectic group defined over the
-integers, Sp(n,Z), and showed that its Euler characteristic is this
+integers, \mathrm{Sp}(n,Z), and showed that its Euler characteristic is this
 product of values of the Riemann zeta function:
 
 \zeta(-1) \zeta(-3) ⋅⋅⋅ \zeta(1-2n)
@@ -409,7 +409,7 @@ In the case n = 1 we get back \mathrm{SL}(2,\mathbb{Z}) and \zeta(-1) = -1/12.
 In fact, every Chevalley group over the integers has a well-defined
 Euler characteristic, and Harder was able to compute it in terms of
 Bernoulli numbers. A Chevalley group is sort of like a simple Lie group,
-but defined algebraically. Sp(n,Z) is one example. \mathrm{SL}(n,Z) is another,
+but defined algebraically. \mathrm{Sp}(n,Z) is one example. \mathrm{SL}(n,Z) is another,
 but it's Euler characteristic turns out to vanish for n > 2, so it's
 not too interesting.
 

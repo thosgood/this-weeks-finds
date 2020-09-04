@@ -200,7 +200,7 @@ groups at roots of unity play the role a finite group is playing here.)
 So, to round off a long story, Quinn and Ivelini Bobtcheva are currently
 engaged in some rather massive computer calculations in order to
 actually explicitly obtain the data necessary to calculate in the TQFTs
-of this form. They have been looking at the groups $\mathrm{SL}(2)$, $\mathrm{SL}(3)$, $Sp(4)$
+of this form. They have been looking at the groups $\mathrm{SL}(2)$, $\mathrm{SL}(3)$, $\mathrm{Sp}(4)$
 and $\mathrm{G}_2$ over $\mathbb{Z}_p$, where $p$ is small (up to 19 for the $\mathrm{SL}(2)$ case). They
 are finding some interesting stuff just by calculating the TQFT
 invariants of the 2-complexes corresponding to the presentations

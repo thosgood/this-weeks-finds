@@ -274,7 +274,7 @@ Press, Oxford, 2000.
 For example, suppose X is a "quaternionic structure" - a way of making
 a real inner product space into a quaternionic inner product space. Then
 an X-manifold is called a "hyperKaehler manifold", and this just one
-where the holonomies lie in the quaternionic unitary group Sp(n/4).
+where the holonomies lie in the quaternionic unitary group \mathrm{Sp}(n/4).
 
 Or, suppose X is a Hermitian structure together with an n/2-form. Then
 an X-manifold is called a "Calabi-Yau manifold". This concept of
@@ -558,9 +558,9 @@ inside sp(2). But
 
     dim(\mathfrak{so}(5)) = dim(sp(2)) = 10
 
-so in fact \mathfrak{so}(5) = sp(2). Indeed, Sp(2) is the double cover of \mathrm{SO}(5),
+so in fact \mathfrak{so}(5) = sp(2). Indeed, \mathrm{Sp}(2) is the double cover of \mathrm{SO}(5),
 and it acts on the space of spinors, H^2, in the obvious way. The
-subgroup fixing a unit spinor is thus Sp(1)... which being the unit
+subgroup fixing a unit spinor is thus \mathrm{Sp}(1)... which being the unit
 quaternions, is isomorphic to \mathrm{SU}(2).
 
 If you think about it a while, these results do the job.

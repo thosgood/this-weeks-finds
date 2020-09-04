@@ -157,7 +157,7 @@ $$
 $$
 where $B$ and $C$ are symmetric, and $D$ is minus the transpose of $A$. The
 compact real form of $\mathfrak{sp}_n(\mathbb{C})$ is $\mathfrak{sp}_n$, and the corresponding compact
-Lie group is called $Sp(n)$. This is the group of $n \times n$ quaternionic
+Lie group is called $\mathrm{Sp}(n)$. This is the group of $n \times n$ quaternionic
 matrices which preserve the usual inner product on the space $\mathbb{H}^n$ of
 $n$-tuples of quaternions.
 

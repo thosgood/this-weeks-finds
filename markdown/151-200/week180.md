@@ -279,16 +279,16 @@ The Dynkin diagram of Spin(5,C) is two dots connected by a double edge:
 
 For an explanation of the double edge and the arrow see
 ["Week 62"](#week62) and ["Week 64"](#week64), where I also
-explained that this Dynkin diagram is the same as that of Sp(4,C), the
+explained that this Dynkin diagram is the same as that of \mathrm{Sp}(4,C), the
 group of transformations preserving a symplectic structure on C\^4.
 That's because these groups are isomorphic:
 
-Spin(5,C) = Sp(4,C).
+Spin(5,C) = \mathrm{Sp}(4,C).
 
 The fundamental rep corresponding to the left dot in the Dynkin diagram
 comes from the obvious rep of \mathrm{SO}(5,C) on C^5 - what physicists would
 call the "vector" rep. The fundamental rep corresponding to the right
-dot comes from the obvious rep of Sp(4,C) on C^4 - it's called the
+dot comes from the obvious rep of \mathrm{Sp}(4,C) on C^4 - it's called the
 "spinor" rep of Spin(5,C). This would be fundamental for studying
 spin-$1/2$ particles in 5-dimensional spacetime if anyone were
 interested... but not many people are.
@@ -324,7 +324,7 @@ them up and admire them before bidding them farewell:
 
     Spin(3,C) = \mathrm{SL}(2,\mathbb{C})
     Spin(4,C) = \mathrm{SL}(2,\mathbb{C}) x \mathrm{SL}(2,\mathbb{C})
-    Spin(5,C) = Sp(2,\mathbb{C})
+    Spin(5,C) = \mathrm{Sp}(2,\mathbb{C})
     Spin(6,C) = \mathrm{SL}(4,C).
 
 They give rise to isomorphisms of their maximal compact subgroups, so
@@ -332,7 +332,7 @@ let's say goodbye to those too:
 
     Spin(3) = \mathrm{SU}(2)
     Spin(4) = \mathrm{SU}(2) x \mathrm{SU}(2)
-    Spin(5) = Sp(2)
+    Spin(5) = \mathrm{Sp}(2)
     Spin(6) = \mathrm{SU}(4).
 
 Sometime we should return and learn to know them better... they've

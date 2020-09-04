@@ -136,7 +136,7 @@ In fact the only spheres that are Lie groups are:
 
 -   the unit real numbers: the 0-sphere, also called Z/2 or \mathrm{O}(1)
 -   the unit complex numbers: the 1-sphere, also called \mathrm{SO}(2) or \mathrm{U}(1)
--   the unit quaternions: the 3-sphere, also called \mathrm{SU}(2) or Sp(1)
+-   the unit quaternions: the 3-sphere, also called \mathrm{SU}(2) or \mathrm{Sp}(1)
 
 And the only other sphere that's a "Lie loop" is the unit octonions!
 So we can - and should! - ask: what are the finite subloops of the unit
@@ -532,7 +532,7 @@ Lvay, who has allowed me to quote it here:
 > available as [`arXiv:0906.3655`](http://arxiv.org/abs/0906.3655).
 >
 > Such notions as symplectic structure, quadratic forms, transvections,
-> and the group Sp(2n,2) connected to $n$-qubit systems and black holes
+> and the group \mathrm{Sp}(2n,2) connected to $n$-qubit systems and black holes
 > appear here. The language of this paper is similar to the van Geemen
 > paper.
 >

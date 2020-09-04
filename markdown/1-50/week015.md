@@ -288,7 +288,7 @@ in latex form as
 
 Apparently this builds on work by Gross, Taylor, and Minahan which
 treated $\mathrm{SU}(n)$ Yang-Mills theories in 2 dimensions as string theories,
-and does something similar for the gauge groups $\mathrm{SO}(n)$ and $Sp(n)$.
+and does something similar for the gauge groups $\mathrm{SO}(n)$ and $\mathrm{Sp}(n)$.
 
 I have a pack of interesting papers to describe but I am already worn
 out, so I will put that off until next week, except for the following

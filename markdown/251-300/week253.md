@@ -282,7 +282,7 @@ Next: how might exceptional Lie groups get involved in this game?
 
 When Cartan classified compact simple Lie groups, he found 3 infinite
 families related to rotations in real, complex and quaternionic vector
-spaces: the \mathrm{SO}(n)'s, \mathrm{SU}(n)'s and Sp(n)'s. He also found 5 exceptions,
+spaces: the \mathrm{SO}(n)'s, \mathrm{SU}(n)'s and \mathrm{Sp}(n)'s. He also found 5 exceptions,
 which have the charming names G_2, F_4, E~6~, E~7~, and E~8~. These
 are all related to the octonions. G_2 is just the automorphism group of
 the octonions. The other 4 are closely related to each other - thanks to

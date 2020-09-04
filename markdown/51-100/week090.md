@@ -150,7 +150,7 @@ The 4 infinite families are:
 - $\mathrm{B}_n$: This is the Lie algebra of $\mathrm{SO}(2n+1)$, the group of $(2n+1)\times(2n+1)$
     real matrices that preserve lengths (i.e., are orthogonal) and have
     determinant $1$. This Lie algebra is also called $\mathfrak{so}(2n+1)$.
-- $\mathrm{C}_n$: This is the Lie algebra of $Sp(n)$, the group of $n\times n$ quaternionic
+- $\mathrm{C}_n$: This is the Lie algebra of $\mathrm{Sp}(n)$, the group of $n\times n$ quaternionic
     matrices that preserve lengths. This Lie algebra is also called $\mathfrak{sp}(n)$.
 - $\mathrm{D}_n$: This is the Lie algebra of $\mathrm{SO}(2n)$, the group of $2n\times 2n$ real
     matrices that preserve lengths and have determinant $1$. This Lie algebra
