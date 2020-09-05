@@ -312,7 +312,7 @@ It's the sequel of this paper for 3d spacetime:
 
 15) Aristide Baratin and Laurent Freidel, Hidden quantum gravity in 3d
 Feynman diagrams. Available as
-[gr-qc/0604016](http://arxiv.org/abs/gr-qc/0604016).
+[`gr-qc/0604016`](http://arxiv.org/abs/gr-qc/0604016).
 
 Freidel, Kowalski-Glikman and Starodubtsev have also just come out with
 a paper carrying out some of the exciting project I mentioned in
@@ -320,7 +320,7 @@ a paper carrying out some of the exciting project I mentioned in
 
 16) Laurent Freidel, Jerzy Kowalski-Glikman and Artem Starodubtsev,
 Particles as Wilson lines in the gravitational field, available as
-[gr-qc/0607014](http://arxiv.org/abs/gr-qc/0607014).
+[`gr-qc/0607014`](http://arxiv.org/abs/gr-qc/0607014).
 
 Their work is based on the MacDowell-Mansouri formulation of gravity.
 This is a gauge theory with gauge group \mathrm{SO}(4,1) - the symmetry group of
@@ -359,7 +359,7 @@ models of BF theory work really well:
 quantum gravity, in Geometry and Quantum Physics, eds. Helmut Gausterer
 and Harald Grosse, Lecture Notes in Physics, Springer-Verlag, Berlin,
 2000, pp. 25-93. Also available as
-[gr-qc/9905087](http://arxiv.org/abs/gr-qc/9905087).
+[`gr-qc/9905087`](http://arxiv.org/abs/gr-qc/9905087).
 
 So, the MacDowell-Mansouri approach is a natural for spin foam models.
 It's not that MacDowell-Mansouri gravity *is* a BF theory - but its

@@ -77,7 +77,7 @@ on quantum gravity:
 
 2) Steve Carlip, Quantum gravity: a progress report, Rep. Prog. Phys.
 64 (2001) 885-942, also available at
-[gr-qc/0108040](http://xxx.lanl.gov/abs/gr-qc/0108040).
+[`gr-qc/0108040`](http://xxx.lanl.gov/abs/gr-qc/0108040).
 
 This is an excellent *long* description of where we stand on quantum
 gravity, with a strong focus on the big conceptual problems. Again,
@@ -98,7 +98,7 @@ online. It's more of a book than an article:
 
 4) Thomas Thiemann, Introduction to modern canonical quantum general
 relativity, 301 pages, available at
-[gr-qc/0110034](http://xxx.lanl.gov/abs/gr-qc/0110034).
+[`gr-qc/0110034`](http://xxx.lanl.gov/abs/gr-qc/0110034).
 
 This is really *the* place to go if you want to catch up on the last 15
 years of work on loop quantum gravity. It's truly impressive. It'll
@@ -115,14 +115,14 @@ on that subject:
 
 5) Rodolfo Gambini and Jorge Pullin, Consistent discretizations for
 classical and quantum general relativity, available as
-[gr-qc/0108062](http://xxx.lanl.gov/abs/gr-qc/0108062).
+[`gr-qc/0108062`](http://xxx.lanl.gov/abs/gr-qc/0108062).
 
 6) Luca Bombelli, Statistical geometry of random weave states,
-available as [gr-qc/0101080](http://xxx.lanl.gov/abs/gr-qc/0101080).
+available as [`gr-qc/0101080`](http://xxx.lanl.gov/abs/gr-qc/0101080).
 
 7) Michael Seifert, Angle and volume studies in quantized space, 85
 pages, available as
-[gr-qc/0108047](http://xxx.lanl.gov/abs/gr-qc/0108047).
+[`gr-qc/0108047`](http://xxx.lanl.gov/abs/gr-qc/0108047).
 
 The paper by Gambini and Pullin argues that good spin foam models will
 come from quantizing "consistent" discretizations of general

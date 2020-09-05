@@ -293,12 +293,12 @@ details, read these papers:
 
 2) John C. Baez, J. Daniel Christensen and Greg Egan, Asymptotics of
 10j symbols, Class. Quant. Grav. 19 (2002) 6489-6513. Also available as
-[gr-qc/0208010](http://xxx.lanl.gov/abs/gr-qc/0208010).
+[`gr-qc/0208010`](http://xxx.lanl.gov/abs/gr-qc/0208010).
 
 3) John W. Barrett and Christopher M. Steele, Asymptotics of
 relativistic spin networks, Class. Quant. Grav. 20 (2003) 1341-1362.
 Also available as
-[gr-qc/0209023](http://xxx.lanl.gov/abs/gr-qc/0209023).
+[`gr-qc/0209023`](http://xxx.lanl.gov/abs/gr-qc/0209023).
 
 4) Laurent Freidel and David Louapre, Asymptotics of 6j and 10j
 symbols, Class. Quant. Grav. 20 (2003) 1267-1294. Also available as

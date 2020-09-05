@@ -205,7 +205,7 @@ available as [`hep-th/9905017`](http://xxx.lanl.gov/abs/hep-th/9905017).
 
 7) Stanley Deser, Infinities in quantum gravities, Annalen Phys. 9
 (2000) 299-307. Also available as
-[gr-qc/9911073](http://xxx.lanl.gov/abs/gr-qc/9911073).
+[`gr-qc/9911073`](http://xxx.lanl.gov/abs/gr-qc/9911073).
 
 Speaking of M-theory and the like, I've been reading Acharya's article
 on "G2 manifolds", which I mentioned last week, and I've been talking

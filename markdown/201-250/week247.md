@@ -475,7 +475,7 @@ Containing:
 > Tian Yu Cao, Structural realism and quantum gravity.
 >
 > John Stachel, Structure, individuality, and quantum gravity. Also
-> available as [gr-qc/0507078](http://xxx.lanl.gov/abs/gr-qc/0507078).
+> available as [`gr-qc/0507078`](http://xxx.lanl.gov/abs/gr-qc/0507078).
 >
 > Oliver Pooley, Points, particles, and structural realism. Also
 > available at `http://philsci-archive.pitt.edu/archive/00002939/`

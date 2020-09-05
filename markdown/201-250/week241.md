@@ -46,7 +46,7 @@ of authors, she helped write this paper, based on data taken from the
 1) The LIGO Scientific Collaboration, Analysis of LIGO data for
 gravitational waves from binary neutron stars, Phys. Rev. D69 (2004),
 122001. Also available at
-[gr-qc/0308069](http://xxx.lanl.gov/abs/gr-qc/0308069).
+[`gr-qc/0308069`](http://xxx.lanl.gov/abs/gr-qc/0308069).
 
 She's one of the folks with an intimate knowledge of the experimental
 setup, who keeps the theorists' feet on the ground while they stare up

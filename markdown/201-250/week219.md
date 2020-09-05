@@ -220,7 +220,7 @@ I got interested in the Pioneer anomaly when I read this recent proposal
 for a mission to study it:
 
 8) The Pioneer Collaboration, A mission to explore the Pioneer anomaly,
-available as [gr-qc/0506139](http://arxiv.org/abs/gr-qc/0506139).
+available as [`gr-qc/0506139`](http://arxiv.org/abs/gr-qc/0506139).
 
 Finally, here's a fun book on the Pioneer missions:
 
@@ -692,7 +692,7 @@ For a contrasting viewpoint see:
 
 18) Slava G. Turyshev, Michael Martin Nieto, and John D. Anderson, The
 Pioneer anomaly and its implications, available as
-[gr-qc/0510081](http://arxiv.org/abs/gr-qc/0510081).
+[`gr-qc/0510081`](http://arxiv.org/abs/gr-qc/0510081).
 
 ------------------------------------------------------------------------
 

@@ -234,7 +234,7 @@ this very precise for a version of the theory where spacetime is
 *discrete* - so-called "lattice p-form electromagnetism":
 
 8) Derek Wise, Lattice p-form electromagnetism and chain field theory,
-available as [gr-qc/0510033](http://xxx.lanl.gov/abs/gr-qc/0510033).
+available as [`gr-qc/0510033`](http://xxx.lanl.gov/abs/gr-qc/0510033).
 Version with better graphics and related material at
 `http://math.ucr.edu/~derek/pform/index.html`
 

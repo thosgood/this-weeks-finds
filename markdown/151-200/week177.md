@@ -77,7 +77,7 @@ quantum gravity was like at the beginning of the third millennium, try
 these review articles by Ashtekar:
 
 2) Abhay Ashtekar, Quantum geometry and gravity: recent advances,
-available as [gr-qc/0112038](http://xxx.lanl.gov/abs/gr-qc/0112038).
+available as [`gr-qc/0112038`](http://xxx.lanl.gov/abs/gr-qc/0112038).
 
 Abhay Ashtekar, Quantum geometry in action: big bang and black holes,
 available as [math-ph/0202008](http://xxx.lanl.gov/abs/math-ph/0202008).
@@ -126,7 +126,7 @@ description, but work on that is just beginning:
 
 Aleksandar Mikovic, Quantum field theory of open spin networks and new
 spin foam models, available as
-[gr-qc/0202026](http://xxx.lanl.gov/abs/gr-qc/0202026).
+[`gr-qc/0202026`](http://xxx.lanl.gov/abs/gr-qc/0202026).
 
 As usual, the hard part is deciding how much effort to put in going
 after the big enchilada, versus straightening out all sorts of details -
@@ -137,7 +137,7 @@ this is by Arnsdorf, building on work by Rovelli and others:
 
 4) Matthias Arnsdorf, Relating covariant and canonical approaches to
 triangulated models of quantum gravity, available as
-[gr-qc/0110026](http://xxx.lanl.gov/abs/gr-qc/0110026).
+[`gr-qc/0110026`](http://xxx.lanl.gov/abs/gr-qc/0110026).
 
 This shows how, in principle, one can go back and forth between a recipe
 for computing spin foam amplitudes and a formula for the "Hamiltonian
@@ -151,7 +151,7 @@ direction has been made by Gambini and Pullin:
 
 5)Rodolfo Gambini and Jorge Pullin, A finite spin-foam-based theory of
 three and four dimensional quantum gravity,
-[gr-qc/0111089](http://xxx.lanl.gov/abs/gr-qc/0111089).
+[`gr-qc/0111089`](http://xxx.lanl.gov/abs/gr-qc/0111089).
 
 However, their theory is admittedly just a toy model, since it only
 handles a certain restricted class of solutions of Thiemann's
@@ -166,7 +166,7 @@ sum invariants, available as
 
 Florian Girelli, Robert Oeckl and Alejandro Perez, Spin foam
 diagrammatics and topological invariance, available as
-[gr-qc/0111022](http://xxx.lanl.gov/abs/gr-qc/0111022).
+[`gr-qc/0111022`](http://xxx.lanl.gov/abs/gr-qc/0111022).
 
 Mathematicians will especially like the second paper, since it gives a
 slick way to prove the triangulation-independence of the Turaev-Viro
@@ -180,7 +180,7 @@ spin foam models by means of computer simulations:
 
 8) John C. Baez, J. Daniel Christensen, Thomas R. Halford and David C.
 Tsang, Spin foam models of Riemannian quantum gravity,
-[gr-qc/0202017](http://xxx.lanl.gov/abs/gr-qc/0202017).
+[`gr-qc/0202017`](http://xxx.lanl.gov/abs/gr-qc/0202017).
 
 Riemannian quantum gravity is a toy model where the gauge group is the
 4d rotation group rather than the Lorentz group. The reason we've been
@@ -251,11 +251,11 @@ variant in which they could show the partition function converges:
 
 10) Alejandro Perez and Carlo Rovelli, A spin foam model without bubble
 divergences, Nucl. Phys. B599 (2001), 255-282. Also available as
-[gr-qc/0006107](http://xxx.lanl.gov/abs/gr-qc/0006107).
+[`gr-qc/0006107`](http://xxx.lanl.gov/abs/gr-qc/0006107).
 
 Alejandro Perez, Finiteness of a spin foam model for Euclidean quantum
 general relativity, Nucl. Phys. B599 (2001), 427-434. Also available as
-[gr-qc/0011058](http://xxx.lanl.gov/abs/gr-qc/0011058).
+[`gr-qc/0011058`](http://xxx.lanl.gov/abs/gr-qc/0011058).
 
 Alejandro Perez, Group quantum field theories and spin foam models for
 quantum gravity, to appear.

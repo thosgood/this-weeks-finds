@@ -220,7 +220,7 @@ sci.phyics.research. This is a good introduction:
 
 13) V. C. de Andrade, L. C. T. Guillen and J. G. Pereira, Teleparallel
 gravity: an overview, available at
-[gr-qc/0011087](http://xxx.lanl.gov/abs/gr-qc/0011087).
+[`gr-qc/0011087`](http://xxx.lanl.gov/abs/gr-qc/0011087).
 
 In ordinary general relativity, you describe the gravitational field
 using a "metric": a field that lets you measure times, distances and
@@ -454,7 +454,7 @@ where you'd actually want to see them here. The prettiest formula for
 the Lagrangian shows up in this paper:
 
 14) Yakov Itin, Energy-momentum current for coframe gravity, available
-as [gr-qc/0111036](http://xxx.lanl.gov/abs/gr-qc/0111036).
+as [`gr-qc/0111036`](http://xxx.lanl.gov/abs/gr-qc/0111036).
 
 Up to a constant factor, it looks like this:
 

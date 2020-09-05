@@ -167,11 +167,11 @@ new papers:
 
 7) John Baez and J. Daniel Christensen, Positivity of spin foam
 amplitudes, available at
-[gr-qc/0110044](http://xxx.lanl.gov/abs/gr-qc/0110044).
+[`gr-qc/0110044`](http://xxx.lanl.gov/abs/gr-qc/0110044).
 
 8) J. Daniel Christensen and Greg Egan, An efficient algorithm for the
 Riemannian 10j symbols, available at
-[gr-qc/0110045](http://xxx.lanl.gov/abs/gr-qc/0110045).
+[`gr-qc/0110045`](http://xxx.lanl.gov/abs/gr-qc/0110045).
 
 The Riemannian 10j symbols are a function of ten spins that serves as
 the amplitude for a spin foam vertex in the Barrett-Crane model of

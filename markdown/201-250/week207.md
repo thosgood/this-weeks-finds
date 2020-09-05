@@ -648,7 +648,7 @@ black hole, try:
 3) Maximo Banados, Marc Henneaux, Claudio Teitelboim, and Jorge
 Zanelli, Geometry of the 2+1 black hole, Phys. Rev. D48 (1993)
 1506-1525, also available as
-[gr-qc/9302012](http://www.arXiv.org/abs/gr-qc/9302012).
+[`gr-qc/9302012`](http://www.arXiv.org/abs/gr-qc/9302012).
 
 The relevant paper by Maldacena seems to be:
 

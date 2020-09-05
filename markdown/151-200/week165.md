@@ -77,7 +77,7 @@ relativity: Einstein's equation. This bugs me, especially since it's
 not so hard. If you're interested, take a look at this:
 
 4) John Baez, The meaning of Einstein's equation, available at
-[gr-qc/0103044](http://xxx.lanl.gov/abs/gr-qc/0103044).
+[`gr-qc/0103044`](http://xxx.lanl.gov/abs/gr-qc/0103044).
 
 Since my Milwaukee trip I've become really busy writing notes on the
 quantum gravity seminar here at Riverside. Toby Bartels and I have been
@@ -114,22 +114,22 @@ catch up with:
 
 7) Martin Bojowald, Loop Quantum Cosmology I: Kinematics, Class. Quant.
 Grav. 17 (2000), 1489-1508, also available at
-[gr-qc/9919103](http://xxx.lanl.gov/abs/gr-qc/9919103)
+[`gr-qc/9919103`](http://xxx.lanl.gov/abs/gr-qc/9919103)
 
 Loop Quantum Cosmology II: Volume Operators, Class. Quant. Grav. 17
 (2000), 1509-1526, also available at
-[gr-qc/9910104](http://xxx.lanl.gov/abs/gr-qc/9910104).
+[`gr-qc/9910104`](http://xxx.lanl.gov/abs/gr-qc/9910104).
 
 Loop Quantum Cosmology III: Wheeler-DeWitt Operators, Class. Quant.
 Grav. 18 (2001), 1055-1070, also available at
-[gr-qc/0008052](http://xxx.lanl.gov/abs/gr-qc/0008052).
+[`gr-qc/0008052`](http://xxx.lanl.gov/abs/gr-qc/0008052).
 
 Loop Quantum Cosmology IV: Discrete Time Evolution, Class. Quant. Grav.
 18 (2001) 1071-1088, also available at
-[gr-qc/0008053](http://xxx.lanl.gov/abs/gr-qc/0008053).
+[`gr-qc/0008053`](http://xxx.lanl.gov/abs/gr-qc/0008053).
 
 Absence of Singularity in Loop Quantum Cosmology, available at
-[gr-qc/0102069](http://xxx.lanl.gov/abs/gr-qc/0102069).
+[`gr-qc/0102069`](http://xxx.lanl.gov/abs/gr-qc/0102069).
 
 The really interesting ones are the last two, whose titles explain why
 they're interesting - but they're based on the framework developed in

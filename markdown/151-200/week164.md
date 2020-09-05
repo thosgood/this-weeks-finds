@@ -364,7 +364,7 @@ theory. Lots of cool stuff is happening, I hear. This might help me
 catch up.
 
 6) Matt Visser, The reliability horizon, available as
-[gr-qc/9710020](http://xxx.lanl.gov/abs/gr-qc/9710020).
+[`gr-qc/9710020`](http://xxx.lanl.gov/abs/gr-qc/9710020).
 
 > The "reliability horizon" for semi-classical quantum gravity
 > quantifies the extent to which we should trust semi-classical quantum

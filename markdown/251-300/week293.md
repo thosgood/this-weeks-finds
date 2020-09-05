@@ -553,7 +553,7 @@ some bigger circuit. We should really formalize this more, but I won't
 now. Derek Wise did it more generally here:
 
 24) Derek Wise, Lattice p-form electromagnetism and chain field theory,
-available as [gr-qc/0510033](http://arxiv.org/abs/gr-qc/0510033).
+available as [`gr-qc/0510033`](http://arxiv.org/abs/gr-qc/0510033).
 
 The idea here was to get a category where chain complexes are morphisms.
 In our situation, composing morphisms amounts to gluing the output wires

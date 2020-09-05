@@ -130,11 +130,11 @@ Alejandro Perez on string-like defects in 4d topological gravity:
 
 12) John Baez, Derek Wise and Alissa Crans, Exotic statistics for
 strings in 4d BF theory, available as
-[gr-qc/0603085](http://xxx.lanl.gov/abs/gr-qc/0603085).
+[`gr-qc/0603085`](http://xxx.lanl.gov/abs/gr-qc/0603085).
 
 13) John Baez and Alejandro Perez, Quantization of strings and branes
 coupled to BF theory, available as
-[gr-qc/0605087](http://xxx.lanl.gov/abs/gr-qc/0605087).
+[`gr-qc/0605087`](http://xxx.lanl.gov/abs/gr-qc/0605087).
 
 (Jeffrey Morton is also involved in this project, a bit more on the
 $n$-category side of things, but that aspect is top secret for now.)
@@ -473,7 +473,7 @@ demonstrated this quite carefully in a recent paper with Karim Noui:
 and spin foam models in three dimensions, to appear in the proceedings
 of the Third International Symposium on Quantum Theory and Symmetries
 (QTS3), available as
-[gr-qc/0402112](http://xxx.lanl.gov/abs/gr-qc/0402112).
+[`gr-qc/0402112`](http://xxx.lanl.gov/abs/gr-qc/0402112).
 
 The reason everything works so nicely is that the equations of motion
 say the connection is flat. Since the same is true in BF theory in

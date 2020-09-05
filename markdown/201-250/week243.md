@@ -308,7 +308,7 @@ geometry, MacDowell-Mansouri gravity and BF theory. Let me say a little
 about this paper of his:
 
 11) Derek Wise, MacDowell-Mansouri gravity and Cartan geometry,
-available as [gr-qc/0611154](http://xxx.lanl.gov/abs/gr-qc/0611154).
+available as [`gr-qc/0611154`](http://xxx.lanl.gov/abs/gr-qc/0611154).
 
 Elie Cartan is one of the most influential of 20th-century geometers. At
 one point he had an intense correspondence with Einstein on general

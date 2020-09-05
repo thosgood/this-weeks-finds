@@ -59,7 +59,7 @@ More recently this idea was reincarnated in the spin network formalism
 by Lee Smolin, with spin network edges replacing wormholes:
 
 3) Lee Smolin, Fermions and topology, available as
-[gr-qc/9404010](http://xxx.lanl.gov/abs/gr-qc/9404010).
+[`gr-qc/9404010`](http://xxx.lanl.gov/abs/gr-qc/9404010).
 
 A spin network is a gadget with vertices and edges, where the edges
 represent "field lines" - lines of the electric field or the analogous
@@ -113,7 +113,7 @@ as [`hep-th/0401076`](http://xxx.lanl.gov/abs/hep-th/0401076).
 
 Laurent Freidel and David Louapre, Ponzano-Regge model revisited II:
 Equivalence with Chern-Simons, available as
-[gr-qc/0410141](http://xxx.lanl.gov/abs/gr-qc/0410141).
+[`gr-qc/0410141`](http://xxx.lanl.gov/abs/gr-qc/0410141).
 
 Freidel showed that if you take this theory and allow spin networks with
 loose ends, they'll act like particles. The spin of these particles is

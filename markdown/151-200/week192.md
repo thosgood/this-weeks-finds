@@ -302,7 +302,7 @@ Since then, a lot has happened. Most importantly, Lubos Motl has shown
 
 7) Lubos Motl, An analytical computation of asymptotic Schwarzschild
 quasinormal frequencies, available at
-[gr-qc/0212096](http://xxx.lanl.gov/abs/gr-qc/0212096).
+[`gr-qc/0212096`](http://xxx.lanl.gov/abs/gr-qc/0212096).
 
 Alejandro Corichi has tried to explain why Dreyer's work using \mathrm{SO}(3)
 loop quantum gravity is consistent with the existence of spin-$1/2$
@@ -310,7 +310,7 @@ particles:
 
 8) Alejandro Corichi, On quasinormal modes, black hole entropy, and
 quantum geometry, available at
-[gr-qc/0212126](http://xxx.lanl.gov/abs/gr-qc/0212126).
+[`gr-qc/0212126`](http://xxx.lanl.gov/abs/gr-qc/0212126).
 
 Personally I must admit I'm not convinced yet.
 
@@ -324,7 +324,7 @@ frequencies, available at
 Also, Hod has generalized his work to rotating black holes:
 
 10) Shahar Hod, Kerr black hole quasinormal frequencies, available at
-[gr-qc/0301122](http://xxx.lanl.gov/abs/gr-qc/0301122).
+[`gr-qc/0301122`](http://xxx.lanl.gov/abs/gr-qc/0301122).
 
 I won't explain any of these new developments here, since I've written
 two articles explaining them - a less technical one and a more technical

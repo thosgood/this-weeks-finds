@@ -8,19 +8,17 @@ destiny. Only later did it become clear that *for now*, the real
 adventures will come from the microscopic realm: from applications of
 integrated circuits, biotechnology, nanotechnology, and the like. When
 you're trying to have lots of fun in a hurry, the speed limit is the
-speed of light - and this makes interstellar travel a drag.
+speed of light --- and this makes interstellar travel a drag.
 
 Nonetheless, when you imbibe a romantic dream in childhood, it can be
 hard to shake it it as an adult. So I still like to read about strange
 planets, even if know rationally that I can have more fun at home.
 
-So - let me start by talking about a world where it might rain methane!
+So --- let me start by talking about a world where it might rain methane!
 
-1) Ralph D. Lorenz, The weather on Titan, Science 290 (October 20,
-2000), 467-468.
+1) Ralph D. Lorenz, "The weather on Titan", _Science_ **290** (October 20, 2000), 467--468.
 
-Caitlin A. Griffith, Joseph L. Hall and Thomas R. Geballe, Detection of
-daily clouds on Titan, Science 290 (October 20, 2000), 509-513.
+    Caitlin A. Griffith, Joseph L. Hall and Thomas R. Geballe, "Detection of daily clouds on Titan", _Science_ **290** (October 20, 2000), 509--513.
 
 Titan is the largest moon of Saturn, and it's the only moon in our
 solar system with a significant atmosphere. Its atmosphere is mostly
@@ -54,7 +52,7 @@ the atmosphere contains lots of oxygen, despite the fact that oxygen is
 highly reactive. This means the atmosphere is far from equilibrium. Yet
 the percentage of oxygen in the atmosphere has remained fairly constant
 for long periods of time! So presumably there must be some homeostatic
-mechanism at work to keep it constant. Only life - he argued - could be
+mechanism at work to keep it constant. Only life --- he argued --- could be
 responsible! Conversely, Lovelock guessed there is not life on Mars,
 because its atmosphere *is* in equilibrium.
 
@@ -73,13 +71,9 @@ Or maybe not. After all, it really could be something else.
 
 Next: a world where it might rain diamonds!
 
-2) Richard A. Kerr, Neptune may crush methane into diamonds, Science
-286 (October 1, 1999), 25.
+2) Richard A. Kerr, "Neptune may crush methane into diamonds", _Science_ **286** (October 1, 1999), 25.
 
-Laura Robin Benedetti, Jeffrey H. Nguyen, Wendell A. Caldwell, Hongjian
-Liu, Michael Kruger, and Raymond Jeanloz, Dissociation of CH_4 at high
-pressures and temperatures: diamond formation in giant planet
-interiors?, Science 286 (October 1, 1999), 100-102.
+    Laura Robin Benedetti, Jeffrey H. Nguyen, Wendell A. Caldwell, Hongjian Liu, Michael Kruger, and Raymond Jeanloz, "Dissociation of $\mathrm{CH}_4$ at high pressures and temperatures: diamond formation in giant planet interiors?", _Science_ **286** (October 1, 1999), 100--102.
 
 The atmosphere of Neptune is believed to contain lots of methane when
 you go 4000 kilometers or more beneath the cloud tops. And Neptune
@@ -87,7 +81,7 @@ ain't no measly moon: it's a gas giant, so the atmospheric pressure
 becomes enormous as you go further in. Recently, people have been
 compressing methane under ridiculously high pressures, using techniques
 too fiendish to describe here. At sufficiently high pressures, it
-releases hydrogen and turns into diamond crystals! - together with lots
+releases hydrogen and turns into diamond crystals! --- together with lots
 of other crud, like ethane and acetylene. This could happen in Neptune
 at a depth of about 7000 kilometers below the cloud tops, where the
 pressure reaches 500,000 times that of the Earth's atmosphere. So in
@@ -99,13 +93,11 @@ the way, all these Science articles are available for free online here:
 I also want to say a bit about spin foams. Papers continue to come out
 on this subject:
 
-4) Alejandro Perez and Carlo Rovelli, A spin foam model without bubble
-divergences, available as
-[gr-qc/0006107](http://xxx.lanl.gov/abs/gr-qc/0006107).
+4) Alejandro Perez and Carlo Rovelli, "A spin foam model without bubble divergences", available as [`gr-qc/0006107`](http://xxx.lanl.gov/abs/gr-qc/0006107).
 
 A while ago, De Pietri, Freidel, Krasnov and Rovelli showed how to get
 the Barrett-Crane model for Riemannian quantum gravity from a quantum
-field theory on a product of 4 copies of \mathrm{SO}(4) - see
+field theory on a product of 4 copies of \mathrm{SO}(4) --- see
 ["Week 140"](#week140). This was based on earlier work by Boulatov
 and Ooguri, who did a similar thing for BF theory. The basic idea is to
 cook up a quantum field theory on a product of copies of Lie group, with
@@ -116,32 +108,28 @@ sum over Feynman diagrams becomes a sum over spin foams.
 
 The sum over spin foams may diverge; this paper attempts to control
 those divergences. It makes some precise mathematical conjectures about
-the convergence of certain sums - mathematicians who like analysis and
+the convergence of certain sums --- mathematicians who like analysis and
 representation theory should get to work on these!
 
 5) Alejandro Perez and Carlo Rovelli, Spin foam model for Lorentzian
 general relativity, available as
-[gr-qc/0009021](http://xxx.lanl.gov/abs/gr-qc/0009021).
+[`gr-qc/0009021`](http://xxx.lanl.gov/abs/gr-qc/0009021).
 
 This paper modifies the De Pietri-Freidel-Krasnov-Rovelli construction
 to get the *Lorentzian* Barrett-Crane model from quantum field theory on
-a product of 4 copies of \mathrm{SO}(3,1).
+a product of 4 copies of $\mathrm{SO}(3,1)$.
 
-6) Alejandro Perez and Carlo Rovelli, 3+1 spinfoam model of quantum
-gravity with spacelike and timelike components, available as
-[gr-qc/0011037](http://xxx.lanl.gov/abs/gr-qc/0011037).
+6) Alejandro Perez and Carlo Rovelli, "3+1 spinfoam model of quantum gravity with spacelike and timelike components", available as [`gr-qc/0011037`](http://xxx.lanl.gov/abs/gr-qc/0011037).
 
 In the original Lorentzian Barrett-Crane model, spacetime is made of
-4-simplices whose triangular faces are space/timelike - in other words,
-like little bits of the xt plane in Minkowski spacetime. This model also
-allows 4-simplices whose triangular faces are space/spacelike - in other
-words, like little bits of the xy plane. This amounts to using a
+4-simplices whose triangular faces are space/timelike --- in other words,
+like little bits of the $xt$ plane in Minkowski spacetime. This model also
+allows 4-simplices whose triangular faces are space/spacelike --- in other
+words, like little bits of the $xy$ plane. This amounts to using a
 different class of irreducible unitary representations of the Lorentz
 group to label the triangles.
 
-7) Daniele Oriti and Ruth M. Williams, Gluing 4-simplices: a derivation
-of the Barrett-Crane spin foam model for Euclidean quantum gravity,
-available as [gr-qc/0010031](http://xxx.lanl.gov/abs/gr-qc/0010031).
+7) Daniele Oriti and Ruth M. Williams, "Gluing 4-simplices: a derivation of the Barrett-Crane spin foam model for Euclidean quantum gravity", available as [`gr-qc/0010031`](http://xxx.lanl.gov/abs/gr-qc/0010031).
 
 This gives an alternate derivation of the Riemannian Barrett-Crane spin
 foam model starting from the Lagrangian for Riemannian general
@@ -155,8 +143,6 @@ history of quantum gravity. It explains how many different approaches
 were tried, leading up to the research directions that people pursue
 now:
 
-8) Carlo Rovelli, Notes for a brief history of quantum gravity,
-presented at the 9th Marcel Grossmann Meeting in Rome, July 2000.
-Available as [gr-qc/0006061](http://xxx.lanl.gov/abs/gr-qc/0006061).
+8) Carlo Rovelli, "Notes for a brief history of quantum gravity", presented at the 9th Marcel Grossmann Meeting in Rome, July 2000. Available as [`gr-qc/0006061`](http://xxx.lanl.gov/abs/gr-qc/0006061).
 
 ------------------------------------------------------------------------

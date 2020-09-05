@@ -148,7 +148,7 @@ of. For a nice review of these calculations, see:
 
 4) Renate Loll, Discrete approaches to quantum gravity in four
 dimensions, available as
-[gr-qc/9805049](http://xxx.lanl.gov/abs/gr-qc/9805049) or as a website
+[`gr-qc/9805049`](http://xxx.lanl.gov/abs/gr-qc/9805049) or as a website
 at Living Reviews in Relativity,
 `http://www.livingreviews.org/Articles/Volume1/1998-13loll/`
 
@@ -298,7 +298,7 @@ here:
 
 12) Kirill Krasnov, Black hole thermodynamics and Riemann surfaces,
 Class. Quant. Grav. 20 (2003) 2235-2250. Also available as
-[gr-qc/0302073](http://xxx.lanl.gov/abs/gr-qc/0302073).
+[`gr-qc/0302073`](http://xxx.lanl.gov/abs/gr-qc/0302073).
 
 Kirill Krasnov and Sergey N. Solodukhin, Effective stringy description
 of Schwarzschild black holes, available as

@@ -598,11 +598,11 @@ Check these out:
 
 23) John Barrett, Feynman diagams coupled to three-dimensional quantum
 gravity, available as
-[gr-qc/0502048](http://xxx.lanl.gov/abs/gr-qc/0502048).
+[`gr-qc/0502048`](http://xxx.lanl.gov/abs/gr-qc/0502048).
 
 John Barrett, Feynman loops and three-dimensional quantum gravity, Mod.
 Phys. Lett. A20 (2005) 1271. Also available as
-[gr-qc/0412107](http://xxx.lanl.gov/abs/gr-qc/0412107).
+[`gr-qc/0412107`](http://xxx.lanl.gov/abs/gr-qc/0412107).
 
 24) Laurent Freidel and David Louapre, Ponzano-Regge model revisited I:
 gauge fixing, observables and interacting spinning particles, Class.
@@ -611,7 +611,7 @@ Quant. Grav. 21 (2004) 5685-5726. Also available as
 
 Laurent Freidel and David Louapre, Ponzano-Regge model revisited II:
 equivalence with Chern-Simons, available as
-[gr-qc/0410141](http://xxx.lanl.gov/abs/gr-qc/0410141)
+[`gr-qc/0410141`](http://xxx.lanl.gov/abs/gr-qc/0410141)
 
 Laurent Freidel and Etera R. Livine, Ponzano-Regge model revisited III:
 Feynman diagrams and effective field theory, available as
@@ -619,11 +619,11 @@ Feynman diagrams and effective field theory, available as
 
 25) Laurent Freidel, Daniele Oriti, and James Ryan, A group field
 theory for 3d quantum gravity coupled to a scalar field, available as
-[gr-qc/0506067](http://xxx.lanl.gov/abs/gr-qc/0506067).
+[`gr-qc/0506067`](http://xxx.lanl.gov/abs/gr-qc/0506067).
 
 26) Karin Noui and Alejandro Perez, Three dimensional loop quantum
 gravity: coupling to point particles, available as
-[gr-qc/0402111](http://xxx.lanl.gov/abs/gr-qc/0402111).
+[`gr-qc/0402111`](http://xxx.lanl.gov/abs/gr-qc/0402111).
 
 This is mindblowingly beautiful, especially because lots of it is
 already mathematically rigorous, and we can easily make more so. It's

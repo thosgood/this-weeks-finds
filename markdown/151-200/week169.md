@@ -12,7 +12,7 @@ is the place to start:
 1) Daniele Oriti, Spacetime geometry from algebra: spin foam models for
 non-perturbative quantum gravity, Rep. Prog. Phys. 64 (2001), 1489-1544.
 Also available at
-[gr-qc/0106091](http://xxx.lanl.gov/abs/gr-qc/0106091).
+[`gr-qc/0106091`](http://xxx.lanl.gov/abs/gr-qc/0106091).
 
 You'll learn how spin foam models naturally show up in all sorts of
 different approaches to quantum gravity: loop quantization, path

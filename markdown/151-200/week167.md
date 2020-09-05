@@ -30,7 +30,7 @@ measure distances:
 
 1) Y. Jack Ng and H. van Dam, Measuring the foaminess of space-time
 with gravity-wave interferometers, Found. Phys. 30 (2000) 795-805, also
-available as [gr-qc/9906003](http://xxx.lanl.gov/abs/gr-qc/9906003)
+available as [`gr-qc/9906003`](http://xxx.lanl.gov/abs/gr-qc/9906003)
 
 You can decide if it's right or not.
 
@@ -166,14 +166,14 @@ For further criticism of this argument, see:
 Santiago, On the detectability of quantum spacetime foam with
 gravitational-wave interferometers, Phys. Lett. B477 (2000) 424-428,
 also available at
-[gr-qc/9909017](http://xxx.lanl.gov/abs/gr-qc/9909017).
+[`gr-qc/9909017`](http://xxx.lanl.gov/abs/gr-qc/9909017).
 
 For their response, see:
 
 4) Y. Jack Ng and H. van Dam, On Wigner's clock and the detectability
 of spacetime foam with gravitational-wave interferometers, Phys. Lett.
 B477 (2000) 429-435, also available at
-[gr-qc/9911054](http://xxx.lanl.gov/abs/gr-qc/9911054).
+[`gr-qc/9911054`](http://xxx.lanl.gov/abs/gr-qc/9911054).
 
 For an argument that claims an even larger value of the position
 uncertainty, namely
@@ -205,7 +205,7 @@ For another derivation of this figure, see:
 
 6) Ronald J. Adler and David I. Santiago, On gravity and the
 uncertainty principle, Mod. Phys. Lett. A14 (1999) 1371, also available
-at [gr-qc/9904026](http://xxx.lanl.gov/abs/gr-qc/9904026).
+at [`gr-qc/9904026`](http://xxx.lanl.gov/abs/gr-qc/9904026).
 
 What other ways might we detect quantum gravity effects? One is to look
 for dispersion of light as it passes through the vacuum. Maxwell's
@@ -220,11 +220,11 @@ which raise this as a possibility:
 
 7) J. Ellis, N.E. Mavromatos and D. V. Nanopoulos, Search for quantum
 gravity, Gen. Rel. Grav. 31 (1999) 1257-1262, also available as
-[gr-qc/9905048](http://xxx.lanl.gov/abs/gr-qc/9905048).
+[`gr-qc/9905048`](http://xxx.lanl.gov/abs/gr-qc/9905048).
 
 8) Jorge Pullin and Rodolfo Gambini, Nonstandard optics from quantum
 spacetime, Phys. Rev. D59 (1999) 124021, also available as
-[gr-qc/9809038](http://xxx.lanl.gov/abs/gr-qc/9809038).
+[`gr-qc/9809038`](http://xxx.lanl.gov/abs/gr-qc/9809038).
 
 These calculations are quite controversial. For one thing, they require
 a breaking of Lorentz invariance, since there's no way to get the speed

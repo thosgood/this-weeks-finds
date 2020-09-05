@@ -50,7 +50,7 @@ proved by Perez:
 
 2) Alejandro Perez, Finiteness of a spin foam model for euclidean
 quantum general relativity, Nucl. Phys. B599 (2001) 427-434. Also
-available as [gr-qc/0011058](http://xxx.lanl.gov/abs/gr-qc/0011058).
+available as [`gr-qc/0011058`](http://xxx.lanl.gov/abs/gr-qc/0011058).
 
 The most interesting aspect of all this is the formula giving numbers
 for 4-simplices. A 4-simplex has 10 triangular faces all of which get
@@ -113,7 +113,7 @@ dominant contribution to the integral for the 10j symbol comes from
 4) John W. Barrett and Ruth M. Williams, The asymptotics of an
 amplitude for the 4-simplex, Adv. Theor. Math. Phys. 3 (1999), 209-215.
 Also available as
-[gr-qc/9809032](http://xxx.lanl.gov/abs/gr-qc/9809032).
+[`gr-qc/9809032`](http://xxx.lanl.gov/abs/gr-qc/9809032).
 
 However, Dan and Greg's calculations suggest instead that the dominant
 contribution comes from certain "degenerate" configurations. Some of
