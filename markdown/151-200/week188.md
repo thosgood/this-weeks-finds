@@ -340,7 +340,7 @@ coefficient \[n choose k\]. For example,
 
 and if we define our Grassmannian over the field F, we have
 
-         Gr(4,2) = 1 + F + 2F2 + F3 + F4
+         Gr(4,2) = 1 + F + 2F2 + F3 + \mathrm{F}_4
 
 meaning that Gr(4,2) is a disjoint union of a point, a copy of the field
 F, 2 copies of F^2, a copy of F^3, and a copy of F^4. Each copy of
@@ -354,7 +354,7 @@ But if F is the field with q elements, we can use the cell decomposition
 to work out the *cardinality* of the Grassmannian. For example, the
 number of points in Gr(4,2) is
 
-    |Gr(4,2)| = |1  +  F  + 2F2   +  F3 +   F4|
+    |Gr(4,2)| = |1  +  F  + 2F2   +  F3 +   \mathrm{F}_4|
 
               = |1| + |F| + 2|F|2 + |F|3 + |F|4
 

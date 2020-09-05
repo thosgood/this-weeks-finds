@@ -274,7 +274,7 @@ Lie algebras come from "Kantor triple systems". I explained how the
 exceptional Lie algebra E8 gets to be 5-graded, but I didn't really say
 anything about Kantor triple systems because my understanding of them
 was so poor. This paper by Palmkvist explains them very clearly! And
-even better, he shows how the "magic square" Lie algebras F4, E6, E7,
+even better, he shows how the "magic square" Lie algebras \mathrm{F}_4, E6, E7,
 and E8 can be systematically obtained from the octonions, bioctonions,
 quateroctonions and octooctonions by means of Kantor triple systems.
 

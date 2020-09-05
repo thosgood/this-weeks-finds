@@ -335,12 +335,12 @@ Jour. Algebra 235 (2001), 805-814.
 Anyway, I need to read about this stuff.
 
 Speaking of exceptionology: in ["Week 163"](#week163) I explained
-how Spin(9) sits inside the Lie group F4, thanks to the fact that
+how Spin(9) sits inside the Lie group \mathrm{F}_4, thanks to the fact that
 Spin(9) is the automorphism group of Jordan algebra of 2x2 hermitian
-octonionic matrices, and F4 is the automorphism group of the Jordan
+octonionic matrices, and \mathrm{F}_4 is the automorphism group of the Jordan
 algebra of 3x3 hermitian matrices. But in fact, since there are
 different ways to think of 2x2 matrices as special 3x3 matrices, there
-are actually 3 equally good ways to stuff Spin(9) in F4. Since I'd been
+are actually 3 equally good ways to stuff Spin(9) in \mathrm{F}_4. Since I'd been
 hoping this might be important in particle physics, it was nice to
 discover that Pierre Ramond, a real expert on this stuff, has had
 similar thoughts. In fact he's written two papers on this! Let me just
@@ -354,7 +354,7 @@ Reminiscences on the string origins of supersymmetry are followed by a
 discussion of the importance of confusing bosons with fermions in
 building superstring theories in 9+1 dimensions. In eleven dimensions,
 the kinship between bosons and fermions is more subtle, and may involve
-the exceptional group F4.
+the exceptional group \mathrm{F}_4.
 
 9) T. Pengpan and Pierre Ramond, M(ysterious) patterns in \mathrm{SO}(9), Phys.
 Rep. 315 (1999) 137-152, also available as
@@ -365,7 +365,7 @@ freedom of eleven-dimensional supergravity, with a triplet of
 representations. We observe that this triplet generalizes to four-fold
 infinite families with the quantum numbers of massless higher spin
 states. Their mathematical structure stems from the three equivalent
-ways of embedding \mathrm{SO}(9) into the exceptional group F4.
+ways of embedding \mathrm{SO}(9) into the exceptional group \mathrm{F}_4.
 
 ------------------------------------------------------------------------
 

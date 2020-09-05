@@ -284,15 +284,17 @@ turns out to be $\mathrm{E}_7$.
 
 In short, we have the following story:
 
-    natural maps involving vectors and spinors give: R in dimension 1
-                                                     C in dimension 2
-                                                     H in dimension 4
-                                                     O in dimension 8
-
-    natural maps involving \mathfrak{so}(n) and spinors give:  F4 in dimension 9
-                                                    $\mathrm{E}_6$ in dimension 10
-                                                    $\mathrm{E}_7$ in dimension 12
-                                                    E8 in dimension 16
+> natural maps involving vectors and spinors give:
+> - $\mathbb{R}$ in dimension 1
+> - $\mathbb{C}$ in dimension 2
+> - $\mathbb{H}$ in dimension 4
+> - $\mathbb{O}$ in dimension 8
+> 
+> natural maps involving $\mathfrak{so}(n)$ and spinors give:
+> - $\mathrm{F}_4$ in dimension 9
+> - $\mathrm{E}_6$ in dimension 10
+> - $\mathrm{E}_7$ in dimension 12
+> - $\mathrm{E}_8$ in dimension 16
 
 And you'll note that the dimensions in the second list are 8 more than
 the corresponding dimensions in the first list. This is no coincidence!
@@ -306,9 +308,9 @@ generators (i.e. spinors) are the essential ingredient for constructing:
 
 a) the super-Poincare algebra
 
-b) the division algebras R, C, H and O
+b) the division algebras $\mathbb{R}$, $\mathbb{C}$, $\mathbb{H}$ and $\mathbb{O}$
 
-c) the exceptional Lie algebras F4, $\mathrm{E}_6$, $\mathrm{E}_7$ and E8
+c) the exceptional Lie algebras $\mathr{F}_4$, $\mathrm{E}_6$, $\mathrm{E}_7$ and $\mathrm{E}_8$
 
 So it's not really odd to expect relations between these three things!
 
@@ -316,23 +318,22 @@ Of course, I've shown how items b) and c) are related to rotations,
 spinors and vectors in Euclidean space, while item a) is related to
 rotations/boosts, spinors and vectors in Minkowski spacetime. To round
 off the picture, I'd have to describe the relation between spinors in
-n-dimensional Euclidean space to spinors in (n+2)-dimensional Minkowski
+n-dimensional Euclidean space to spinors in $(n+2)$-dimensional Minkowski
 spacetime. It's this relation that gives the isomorphisms
-
-\mathfrak{so}(2,1) = sl(2,R)
-
-\mathfrak{so}(3,1) = sl(2,\mathbb{C})
-
-\mathfrak{so}(5,1) = sl(2,H)
-
-\mathfrak{so}(9,1) = sl(2,O)
-
+$$
+  \begin{gathered}
+    \mathfrak{so}(2,1) = sl(2,\mathbb{R})
+  \\\mathfrak{so}(3,1) = sl(2,\mathbb{C})
+  \\\mathfrak{so}(5,1) = sl(2,\mathbb{H})
+  \\\mathfrak{so}(9,1) = sl(2,\mathbb{O})
+  \end{gathered}
+$$
 which I mentioned already in ["Week 104"](#week104). This is what
 lets us write down the super-Yang-Mills Lagrangians and superstring
-Lagrangians in spacetimes of dimension 3, 4, 6, and 10 - i.e., 2 more
+Lagrangians in spacetimes of dimension 3, 4, 6, and 10 --- i.e., 2 more
 than the magic numbers 1, 2, 4, and 8. Adding 8, we can guess there
 should also be fun stuff in spacetimes of dimensions 11, 12, 14 and 18,
-related to F4, $\mathrm{E}_6$, $\mathrm{E}_7$ and E8, respectively. Is this true? Is the 11d
-case related to 11d supergravity - or M-theory? I don't know.
+related to $\mathrm{F}_4$, $\mathrm{E}_6$, $\mathrm{E}_7$ and $\mathrm{E}_8$, respectively. Is this true? Is the 11d
+case related to 11d supergravity --- or M-theory? I don't know.
 
 ------------------------------------------------------------------------

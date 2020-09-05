@@ -538,7 +538,7 @@ other reasons, too! Here's how it goes:
        E6               12
        E7               18 
        E8               30
-       F4               12
+       \mathrm{F}_4               12
        G2               6
 
 For D_5 the Coxeter number is 8, which accounts for the 8-fold symmetry

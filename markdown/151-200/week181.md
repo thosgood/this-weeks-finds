@@ -652,7 +652,7 @@ because all these Grassmannians should be definable using the octonions:
 
 
 
-    F4            43------48===>===48------43
+    \mathrm{F}_4            43------48===>===48------43
 
 
 

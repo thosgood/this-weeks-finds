@@ -180,7 +180,7 @@ Also:
 
 The octonions are also what lie behind the 5 exceptional simple Lie
 groups. The exceptional group G2 is just the symmetry group of the
-octonions. The other four exceptional groups, called F4, E6, E7 and E8,
+octonions. The other four exceptional groups, called \mathrm{F}_4, E6, E7 and E8,
 are symmetry groups of "projective planes" over:
 
     1) the octonions, O
@@ -206,7 +206,7 @@ Now, it is no coincidence that:
 
 This sets up a relation between spinors in these various dimensions and
 the projective planes over O, C tensor O, H tensor O and O tensor O. The
-upshot is that we get a nice description of F4, E6, E7 and E8 in terms
+upshot is that we get a nice description of \mathrm{F}_4, E6, E7 and E8 in terms
 of the Lie algebras \mathfrak{so}(n) and their spinor representations where n = 9,
 10, 12, 16, respectively.
 
