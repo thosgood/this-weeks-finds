@@ -576,12 +576,12 @@ is, slightly modified:
 
     Lie algebra L   L'(0)           dim(L(1))      Jordan algebra L(1)
 
-    sl(n+1)         sl(n)           n               Rn-1 \oplus  R
+    \mathfrak{sl}(n+1)         \mathfrak{sl}(n)           n               Rn-1 \oplus  R
     \mathfrak{so}(n+2)         \mathfrak{so}(n)           n               Rn-1 \oplus  R
-    sp(2n)          sl(n)           (n2+n)/2        hn(R)
-    \mathfrak{so}(2n)          sl(n)           (n2-n)/2        hn-1(R)
-    sl(2n)          sl(n)+sl(n)     n2              hn(C)
-    \mathfrak{so}(4n)          sl(2n)          2n2-n           hn(H)
+    sp(2n)          \mathfrak{sl}(n)           (n2+n)/2        hn(R)
+    \mathfrak{so}(2n)          \mathfrak{sl}(n)           (n2-n)/2        hn-1(R)
+    \mathfrak{sl}(2n)          \mathfrak{sl}(n)+\mathfrak{sl}(n)     n2              hn(C)
+    \mathfrak{so}(4n)          \mathfrak{sl}(2n)          2n2-n           hn(H)
     E7               E6             27              h3(O)
     E6               \mathfrak{so}(10)         16              h4(C)
 

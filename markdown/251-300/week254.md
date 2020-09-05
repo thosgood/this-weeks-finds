@@ -295,7 +295,7 @@ and how they could be related to the Standard Model.
 
 First, some history. In 1887, Wilhelm Killing sent a letter to Friedrich
 Engel saying he'd classified the simple Lie algebras. Besides the
-"classical" ones - namely the infinite series sl(n,C), \mathfrak{so}(n,C) and
+"classical" ones - namely the infinite series \mathfrak{sl}(n,C), \mathfrak{so}(n,C) and
 sp(n,C) - he found 6 exceptions: a 14-dimensional one, two
 52-dimensional ones, a 78-dimensional one, a 133-dimensional one and a
 248-dimensional one.
@@ -478,9 +478,9 @@ and i~v~ vol is the "interior product", which feeds v into vol and
 leaves us with a 4-form. You can check that this vector field v is
 divergence-free. So, we define the bracket of μ and ν to be v.
 
-sl(5,C) sits inside the even part of E(5|10) in a nice way, as the
+\mathfrak{sl}(5,C) sits inside the even part of E(5|10) in a nice way, as the
 divergence-free vector fields whose coefficients are *linear* functions
-on C^5. So, since \mathfrak{su}(5) sits inside sl(5,C), we get a tempting relation
+on C^5. So, since \mathfrak{su}(5) sits inside \mathfrak{sl}(5,C), we get a tempting relation
 to \mathrm{SU}(5).
 
 (Now I'll come clean now and explain the "important nuance" I ignored
@@ -503,7 +503,7 @@ All this is reminiscent of how \mathrm{SU}(5) contains the gauge group of the
 Standard Model, namely S(\mathrm{U}(3) \times \mathrm{U}(2)). In particular, the even part of
 E(3|6) contains the Lie algebra
 
-sl(3,C) \oplus  sl(2,\mathbb{C}) \oplus  gl(1,C)
+\mathfrak{sl}(3,C) \oplus  \mathfrak{sl}(2,\mathbb{C}) \oplus  gl(1,C)
 
 in a canonical way. So, any representation of E(3|6) automatically
 gives a representation of the Standard Model Lie algebra
@@ -576,7 +576,7 @@ operators on supermanifolds and Standard Models, available as
 Thomas Larsson has been working on similar ideas, mainly using E(3|8)
 instead. This also contains
 
-sl(3,C) \oplus  sl(2,\mathbb{C}) \oplus  gl(1,C)
+\mathfrak{sl}(3,C) \oplus  \mathfrak{sl}(2,\mathbb{C}) \oplus  gl(1,C)
 
 in a canonical way.
 

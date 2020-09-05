@@ -322,10 +322,10 @@ n-dimensional Euclidean space to spinors in $(n+2)$-dimensional Minkowski
 spacetime. It's this relation that gives the isomorphisms
 $$
   \begin{gathered}
-    \mathfrak{so}(2,1) = sl(2,\mathbb{R})
-  \\\mathfrak{so}(3,1) = sl(2,\mathbb{C})
-  \\\mathfrak{so}(5,1) = sl(2,\mathbb{H})
-  \\\mathfrak{so}(9,1) = sl(2,\mathbb{O})
+    \mathfrak{so}(2,1) = \mathfrak{sl}(2,\mathbb{R})
+  \\\mathfrak{so}(3,1) = \mathfrak{sl}(2,\mathbb{C})
+  \\\mathfrak{so}(5,1) = \mathfrak{sl}(2,\mathbb{H})
+  \\\mathfrak{so}(9,1) = \mathfrak{sl}(2,\mathbb{O})
   \end{gathered}
 $$
 which I mentioned already in ["Week 104"](#week104). This is what

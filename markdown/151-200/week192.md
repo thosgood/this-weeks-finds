@@ -650,7 +650,7 @@ octonions:
 (1999), 2809-2831, also available at
 `http://math.usask.ca/~bremner/research/publications/qo.pdf`
 
-However, he did it using the representation theory of quantum sl(2).
+However, he did it using the representation theory of quantum \mathfrak{sl}(2).
 These folks define a *different* q-deformation of the octonions using
 the representation theory of quantum \mathfrak{so}(8):
 

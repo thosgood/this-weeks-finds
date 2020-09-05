@@ -16,7 +16,7 @@ center](http://en.wikipedia.org/wiki/Hawker_centre).
 
 Today I'll talk about quantum technology in Singapore, atom chips,
 graphene transistors, nitrogen-vacancy pairs in diamonds, a new
-construction of e~8~, and a categorification of quantum sl(2).
+construction of e~8~, and a categorification of quantum \mathfrak{sl}(2).
 
 But first - the astronomy pictures of the week!
 
@@ -443,15 +443,15 @@ on categorifying quantum groups, and their work is starting to really
 take off. I'm just beginning to read his new papers, but I can't
 resist bringing them to your attention:
 
-19) Aaron Lauda, A categorification of quantum sl(2), available as
+19) Aaron Lauda, A categorification of quantum \mathfrak{sl}(2), available as
 [`arXiv:0803.3652`](http://arxiv.org/abs/0803.3652).
 
-Aaron Lauda, Categorified quantum sl(2) and equivariant cohomology of
+Aaron Lauda, Categorified quantum \mathfrak{sl}(2) and equivariant cohomology of
 iterated flag varieties, available as
 [`arXiv:0803.3848`](http://arxiv.org/abs/0803.3848).
 
 He's got a *2-category* that decategorifies to give the quantized
-universal enveloping algebra of sl(2)! And similarly for all the irreps
+universal enveloping algebra of \mathfrak{sl}(2)! And similarly for all the irreps
 of this algebra!
 
 There's more to come, too....

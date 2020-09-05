@@ -609,7 +609,7 @@ Tony Smith wrote:
 > Tony
 >
 > PS - In Sudbery's 1984 paper, he not only says (at page 950) "...
-> sl(3,K) ... When K = O, this Lie algebra is a n on-compact form of
+> \mathfrak{sl}(3,K) ... When K = O, this Lie algebra is a n on-compact form of
 > the exceptional Lie algebra E~6~, the maximal compact subalgebra being
 > F_4 ..." but he goes on to say "... sp(6,K) ... when K = O it is
 > a non-compact form of E~7~, the maximal compact subalgebra being E6 \oplus 

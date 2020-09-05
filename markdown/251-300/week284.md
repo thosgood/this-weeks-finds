@@ -115,9 +115,9 @@ equivalent, roughly this:
 >
 > 3) Aaron Lauda, Kyoto lectures:
 >
-> -   Categorification of quantum sl(2),
+> -   Categorification of quantum \mathfrak{sl}(2),
 > -   Categorification of one half of the quantum group,
-> -   Categorification of quantum sl(n),
+> -   Categorification of quantum \mathfrak{sl}(n),
 > -   Cyclotomic quotients of the rings R(ν).
 >
 > Available at `http://www.math.columbia.edu/~lauda/talks/kyoto/`
@@ -174,12 +174,12 @@ equivalent, roughly this:
 >
 > Indeed, Aaron has also worked on more geometrical approaches to
 > categorifying quantum groups, at least for the simplest of simple Lie
-> algebras, namely sl(2):
+> algebras, namely \mathfrak{sl}(2):
 >
-> 5) Aaron Lauda, A categorification of quantum sl(2), available as
+> 5) Aaron Lauda, A categorification of quantum \mathfrak{sl}(2), available as
 > [`arXiv:0803.3652`](http://arxiv.org/abs/0803.3652).
 >
-> 6) Aaron Lauda, Categorified quantum sl(2) and equivariant cohomology
+> 6) Aaron Lauda, Categorified quantum \mathfrak{sl}(2) and equivariant cohomology
 > of iterated flag varieties, available as
 > [`arXiv:0803.3848`](http://arxiv.org/abs/0803.3848).
 >
@@ -189,16 +189,16 @@ equivalent, roughly this:
 > varieties](ams_2009/Licata_AMS_UCR_2009.mov)", based on these papers:
 >
 > 6) Sabin Cautis, Joel Kamnitzer, and Anthony Licata, Coherent sheaves
-> and categorical sl(2) actions, available as
+> and categorical \mathfrak{sl}(2) actions, available as
 > [`arXiv:0902.1796`](http://arxiv.org/abs/0902.1796).
 >
 > 7) Sabin Cautis, Joel Kamnitzer, and Anthony Licata, Derived
 > equivalences for cotangent bundles of Grassmannians via categorical
-> sl(2) actions, available as
+> \mathfrak{sl}(2) actions, available as
 > [`arXiv:0902.1797`](http://arxiv.org/abs/0902.1797).
 >
 > The first paper studies various notions of a categorified
-> representation of sl(2). The second studies an example coming from
+> representation of \mathfrak{sl}(2). The second studies an example coming from
 > cotangent bundles of Grassmannians. That's a lot of math to compress
 > into a 20-minute talk! Luckily Licata was able to do it, by leaving
 > out all but the most fundamental concepts.
@@ -229,11 +229,11 @@ equivalent, roughly this:
 > representation theory better. I know specific results, but not the
 > overall pattern!
 >
-> You expect, for example, to get representations of sl(2) whenever you
+> You expect, for example, to get representations of \mathfrak{sl}(2) whenever you
 > build vector spaces starting from C^2. Why? Because the group \mathrm{SL}(2)
 > acts as symmetries of C^2, and thus on any vector space functorially
 > constructed from it. But Ginzburg found some unexpected new ways of
-> getting representations of sl(2)... and Licata sketched how this lets
+> getting representations of \mathfrak{sl}(2)... and Licata sketched how this lets
 > you categorify these representations.
 >
 > Here's the example Licata explained. The group \mathrm{SL}(2) acts on C^2 and
@@ -246,11 +246,11 @@ equivalent, roughly this:
 >
 > We get a big fat vector space. But here's the cool part: Ginzburg
 > figured out how to make this big fat space into a representation of
-> sl(2)! And this representation is isomorphic to the nth tensor power
+> \mathfrak{sl}(2)! And this representation is isomorphic to the nth tensor power
 > of C^2.
 >
 > The trick is to get operators on cohomology groups that satisfy the
-> relations for sl(2). As usual in geometric representations theory, we
+> relations for \mathfrak{sl}(2). As usual in geometric representations theory, we
 > build these using "spans". These are setups where you have three
 > spaces and two maps like this:
 >
@@ -267,7 +267,7 @@ equivalent, roughly this:
 > cohomology of X to the cohomology of Y. I explained why spans are
 > geometrically interesting back in ["Week 254"](#week254).
 >
-> Anyway, so Ginzburg got a representation of sl(2) using this trick. To
+> Anyway, so Ginzburg got a representation of \mathfrak{sl}(2) using this trick. To
 > categorify this representation, Licata replaced the cohomology of
 > T*Gr(k,n) by a category called the "bounded [derived
 > category](http://en.wikipedia.org/wiki/Derived_category) of [coherent
@@ -738,7 +738,7 @@ equivalent, roughly this:
 >     m-stage Springer flag is a chain of m subspaces of C^n. I vaguely
 >     recall that it's interesting to generalize by letting m be
 >     arbitrary. And I think that an even more general story - where we
->     pass from sl(2) to sl(N) - involves Springer flags in the category
+>     pass from \mathfrak{sl}(2) to \mathfrak{sl}(N) - involves Springer flags in the category
 >     of quiver representations. Is this right? What's the big picture?
 > -   Is my account of Johnson-Wilson theories accurate? What are the
 >     most important things that I left out here?

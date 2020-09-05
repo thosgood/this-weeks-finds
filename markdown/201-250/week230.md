@@ -601,7 +601,7 @@ nilpotent subalgebra of the Lie algebra associated to the given Dynkin
 diagram.
 
 That's a mouthful, but it's cool. For example, the Lie algebra
-associated to A_n is sl(n+1), and the maximal nilpotent subalgebra
+associated to A_n is \mathfrak{sl}(n+1), and the maximal nilpotent subalgebra
 consists of strictly upper triangular matrices. We're q-deforming the
 universal enveloping algebra of this. One cool thing is that the "q"
 of q-deformation gets interpreted as a prime power - something we've

@@ -337,7 +337,7 @@ has 24 elements. This is called the "binary tetrahedral group".
 
 As usual, the algebra of complex functions on this finite group is a
 Hopf algebra. But the cool thing is, this Hopf algebra is closely
-related to the quantum group U~q~(sl(2)) when q is a third root of unity
+related to the quantum group U~q~(\mathfrak{sl}(2)) when q is a third root of unity
 - a quantum group used in Connes' work on particle physics because of
 its relation to the Standard Model gauge group!
 
@@ -352,7 +352,7 @@ either read this paper or look at his website:
 > with two generators. We show that H is not only a finite dimensional
 > algebra but also a (non-cocommutative) Hopf algebra, hence a "finite
 > quantum group". By selecting a system of explicit generators, we show
-> how it is related with the quantum enveloping algebra of U~q~(sl(2))
+> how it is related with the quantum enveloping algebra of U~q~(\mathfrak{sl}(2))
 > when the parameter q is a cubic root of unity. We describe its
 > indecomposable projective representations as well as the irreducible
 > ones. We also comment about the relation between this object and the
