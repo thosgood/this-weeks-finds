@@ -451,66 +451,61 @@ nicely explained by Penrose in the complex case, but it works the same
 way for the other normed division algebras. It goes like this:
 
 Suppose
-
-    |\psi> = (x,y) s
-
-is a unit spinor, i.e. an element of \mathbb{K}^2 with norm one. Then
-
-    |\psi> <\psi| =    ( xx*   xy* )
-                     ( yx*   yy* )
-
-is a projection in \mathrm{h}_2(\mathbb{K}) which is not 0 or 1 --- or in other words, a
+$$\vert\psi\rangle = (x,y)$$
+is a unit spinor, i.e. an element of $\mathbb{K}^2$ with norm one. Then
+$$
+  \vert\psi\rangle\langle\psi\vert =
+  \left(
+    \begin{array}{cc}
+      xx^*&xy^*
+    \\yx^*&yy^*
+    \end{array}
+  \right)
+$$
+is a projection in $\mathrm{h}_2(\mathbb{K})$ which is not $0$ or $1$ --- or in other words, a
 point on the heavenly sphere. If we identify the heavenly sphere with
-\mathbb{KP}^1, this point corresponds to the line through the origin in \mathbb{K}^2
-containing the spinor |\psi>.
+$\mathbb{KP}^1$, this point corresponds to the line through the origin in $\mathbb{K}^2$
+containing the spinor $\vert\psi\rangle$.
 
 To go further, I would want to say more about why this connection
 between quantum logic, Lorentzian geometry, and spinors is interesting,
 and what you can do with it. And then I would want to take everything
-we've seen about OP^1 and \mathrm{h}_2(O) and see how it fits inside the
-bigger, more interesting story of $\mathbb{OP}^2$ and h_3(O). But alas, I'm
+we've seen about $\mathbb{OP}^1$ and $\mathrm{h}_2(\mathbb{O})$ and see how it fits inside the
+bigger, more interesting story of $\mathbb{OP}^2$ and $\mathrm{h}_3(\mathbb{O})$. But alas, I'm
 running out of steam here, so I'll just give you a little reading list
 about the octonionic projective plane and the exceptional Jordan
 algebra:
 
-20) Hans Freudenthal, Zur ebenen Oktavengeometrie, Indag. Math. 15 (1953), 195-200.
+20) Hans Freudenthal, "Zur ebenen Oktavengeometrie", _Indag. Math._ **15** (1953), 195--200.
 
-Hans Freudenthal, Beziehungen der e~7~ und e~8~ zur Oktavenebene:
+    Hans Freudenthal, "Beziehungen der $e_7$ und $e_8$ zur Oktavenebene":
 
-I, II, Indag. Math. 16 (1954), 218-230, 363-368.
+        I, II, _Indag. Math._ **16** (1954), 218--230, 363--368.
 
-III, IV, Indag. Math. 17 (1955), 151-157, 277-285.
+        III, IV, _Indag. Math._ **17** (1955), 151--157, 277--285.
 
-V -- IX, Indag. Math. 21 (1959), 165-201, 447-474.
+        V -- IX, _Indag. Math._ **21** (1959), 165--201, 447--474.
 
-X, XI, Indag. Math. 25 (1963) 453-471, 472-487.
+        X, XI, _Indag. Math._ **25** (1963) 453--471, 472--487.
 
-Hans Freudenthal, Lie groups in the foundations of geometry, Adv. Math.
-1 (1964), 145-190.
+    Hans Freudenthal, "Lie groups in the foundations of geometry", _Adv. Math._ **1** (1964), 145--190.
 
-Hans Freudenthal, Oktaven, Ausnahmegruppen und Oktavengeometrie, Geom.
-Dedicata 19 (1985), 7-63.
+    Hans Freudenthal, "Oktaven, Ausnahmegruppen und Oktavengeometrie", _Geom. Dedicata_ **19** (1985), 7--63.
 
-21) Jacques Tits, Le plan projectif des octaves et les groupes de Lie
-exceptionnels, Bull. Acad. Roy. Belg. Sci. 39 (1953), 309-329.
+21) Jacques Tits, "Le plan projectif des octaves et les groupes de Lie exceptionnels", _Bull. Acad. Roy. Belg. Sci._ **39** (1953), 309--329.
 
 Jacques Tits, Le plan projectif des octaves et les groupes exceptionnels
-E~6~ et E~7~, Bull. Acad. Roy. Belg. Sci. 40 (1954), 29-40.
+    $\mathrm{E}_6$ et $\mathrm{E}_7$, _Bull. Acad. Roy. Belg. Sci._ **40** (1954), 29--40.
 
-22) Tonny A. Springer, The projective octave plane, I-II, Proc.
-Koninkl. Akad. Wetenschap. A63 (1960), 74-101.
+22) Tonny A. Springer, "The projective octave plane, I-II", _Proc. Koninkl. Akad. Wetenschap._ **A63** (1960), 74--101.
 
-Tonny A. Springer, On the geometric algebra of the octave planes, I-III,
-Proc. Koninkl. Akad. Wetenschap. A65 (1962), 413-451.
+    Tonny A. Springer, "On the geometric algebra of the octave planes, I-III", _Proc. Koninkl. Akad. Wetenschap._ **A65** (1962), 413--451.
 
-23) J. R. Faulkner and J. C. Ferrar, Exceptional Lie algebras and
-related algebraic and geometric structures, Bull. London Math. Soc. 9
-(1977), 1-35.
+23) J. R. Faulkner and J. C. Ferrar, "Exceptional Lie algebras and related algebraic and geometric structures", _Bull. London Math. Soc._ **9** (1977), 1--35.
 
 Finally, for a really good overview of Jordan algebras and related
 things like "Jordan pairs" and "Jordan triple systems", try this:
 
-24) Kevin McCrimmon, Jordan algebras and their applications, AMS
-Bulletin 84 (1978), 612-627.
+24) Kevin McCrimmon, "Jordan algebras and their applications", _AMS Bulletin_ **84** (1978), 612--627.
 
 ------------------------------------------------------------------------
