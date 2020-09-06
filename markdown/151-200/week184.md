@@ -190,11 +190,11 @@ finite sets.
 
 The cool part is, this proof works for *all* fields, not just finite
 ones. For example, over the real numbers we can use it to take the
-projective space RP^n-1^ and chop it into pieces like this:
+projective space \mathbb{RP}^n-1^ and chop it into pieces like this:
 
         RPn-1 = R0 + R1 + ... + Rn-1 
 
-Topologically speaking, we've just decomposed RP^n-1^ as a union of
+Topologically speaking, we've just decomposed \mathbb{RP}^n-1^ as a union of
 open balls, or "cells". This makes it easy to calculate its Euler
 characteristic. Even-dimensional cells contribute 1 to the Euler
 characteristic, while odd-dimensional cells contribute -1, so we get

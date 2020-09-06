@@ -8,7 +8,7 @@ available as [`arXiv:0909.0551`](http://arxiv.org/abs/0909.0551).
 
 You can think of this paper as our sequel to:
 
-2) John Baez, OP^1 and Lorentzian geometry,
+2) John Baez, \mathbb{OP}^1 and Lorentzian geometry,
 `http://math.ucr.edu/home/baez/octonions/node11.html`
 
 A "normed division algebra" is an algebraic gadget where you can add,

@@ -375,7 +375,7 @@ So, let's use this instead of $\mathcal{B}\mathrm{O}(\infty)$ from now on.
 Taking $n = 0$, we can think of $S^1$ as $\mathbb{RP}^1$, the real projective line,
 i.e. the space of 1-dimensional real subspaces of $\mathbb{R}^2$. This has a
 "canonical line bundle" over it, that is, a 1-dimensional real vector
-bundle which to each point of RP^1 assigns the 1-dimensional subspace
+bundle which to each point of $\mathbb{RP}^1$ assigns the 1-dimensional subspace
 of $\mathbb{R}^2$ that *is* that point. This vector bundle over $S^1$ gives the
 generator of $KS^1$, or in other words, $\pi_0(\mathrm{O}(\infty))$.
 

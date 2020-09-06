@@ -263,13 +263,13 @@ This whole wonderful scenario works just as well in other dimensions if
 we replace the complex numbers (C) by the real numbers (R), the
 quaternions (H) or the octonions (O):
 
--   h_2(R) is 3d Minkowski spacetime, and RP^1 is the heavenly sphere
+-   h_2(R) is 3d Minkowski spacetime, and \mathbb{RP}^1 is the heavenly sphere
     S^1.
 -   h_2(C) is 4d Minkowski spacetime, and \mathbb{CP}^1 is the heavenly sphere
     S^2.
--   h_2(H) is 6d Minkowski spacetime, and HP^1 is the heavenly sphere
+-   h_2(H) is 6d Minkowski spacetime, and \mathbb{HP}^1 is the heavenly sphere
     S^4.
--   h_2(O) is 10d Minkowski spacetime, and OP^1 is the heavenly sphere
+-   h_2(O) is 10d Minkowski spacetime, and \mathbb{OP}^1 is the heavenly sphere
     S^8.
 
 So, it's all very nice - but a bit mysterious. Why did our universe

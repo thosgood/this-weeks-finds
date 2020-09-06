@@ -391,7 +391,7 @@ octonions: \mathrm{SL}(2,H) is the double cover of the Lorentz group in 6d
 spacetime, and \mathrm{SL}(2,O) is the double cover of the Lorentz group in 10d
 spacetime. But I explained this in my octonion webpage:
 
-11) John Baez, OP^1 and Lorentzian geometry,
+11) John Baez, \mathbb{OP}^1 and Lorentzian geometry,
 `http://math.ucr.edu/home/baez/octonions/node11.html`
 
 so I won't talk about it now.

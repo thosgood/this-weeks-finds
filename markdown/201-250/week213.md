@@ -298,9 +298,9 @@ starters.
 For example, let's take the simplest group that's not *utterly* dull -
 the integers mod 2, or Z/2. Here we get
 
-K(Z/2,1) = RP^\infty
+K(Z/2,1) = \mathbb{RP}^\infty
 
-where RP^\infty is the space formed by taking an infinite-dimensional sphere
+where \mathbb{RP}^\infty is the space formed by taking an infinite-dimensional sphere
 and identifying opposite points. This space has holes of arbitrarily
 high dimension, so the cohomology groups of Z/2 go on being nontrivial
 for arbitrarily high n. I sketched a "picture proof" here:

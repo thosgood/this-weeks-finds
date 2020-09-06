@@ -754,7 +754,7 @@ the same as the view in the opposite direction. But, this space is not
 isotropic: there are special directions, corresponding to "the short
 way around the torus" and "the long way around the torus".
 
-The octonionic projective plane OP^2 is not only a symmetric space:
+The octonionic projective plane \mathbb{OP}^2 is not only a symmetric space:
 it's isotropic! But according to Tony Smith, the complexified version
 (C \otimes O)P^2 is not isotropic:
 

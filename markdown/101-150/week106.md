@@ -184,7 +184,7 @@ weasel out of this somehow, but it seems that there is a real sense in
 which the higher-dimensional octonionic projective spaces don't exist.
 
 So we have a fascinating situation: an infinite tower of $\mathbb{RP}$^n's, an
-infinite tower of CP^n's, an infinite tower of $\mathbb{HP}^n$'s, but an
+infinite tower of $\mathbb{CP}^n$'s, an infinite tower of $\mathbb{HP}^n$'s, but an
 abortive tower of $\mathbb{OP}^n$'s going only up to $n = 2$ and then fizzling out.
 This means that while all sorts of geometry and group theory relating to
 the reals, complexes and quaternions fits into infinite systematic
@@ -445,9 +445,9 @@ at this point is homotopy equivalent to $G$. One can form this space $BG$ by
 the Milnor construction: sticking in one 0-simplex, one 1-simplex for
 every point of $G$, one 2-simplex for every triple $(g,h,k)$ with $gh = k$,
 one 3-simplex for every associator, and so on. If we do this where $G$ is
-the group of length-one elements of $\mathbb{R}$ (i.e. $\mathbb{Z}/2$) we get $RP^\infty$, as we
+the group of length-one elements of $\mathbb{R}$ (i.e. $\mathbb{Z}/2$) we get $\mathbb{RP}^\infty$, as we
 expect, since
-$$RP^\infty = B(\mathbb{Z}/2).$$
+$$\mathbb{RP}^\infty = B(\mathbb{Z}/2).$$
 Even better, at the $n$th stage of the Milnor construction we get a space
 homeomorphic to $\mathbb{RP}^n$. Similarly, if we do this where $G$ is the group of
 length-one elements of $\mathbb{C}$ or $\mathbb{H}$ we get $\mathbb{CP}^\infty$ or $\mathbb{HP}^\infty$. But if we take $G$ to

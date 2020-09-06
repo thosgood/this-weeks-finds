@@ -373,7 +373,7 @@ Now we're getting fractions!
 For example, suppose we take G to be the group with just 2 elements,
 called Z/2. If we think of it as a category, and then turn that into a
 space, we get a huge thing usually called "infinite-dimensional real
-projective space", or RP^\infty for short. This is built from one vertex,
+projective space", or \mathbb{RP}^\infty for short. This is built from one vertex,
 one edge, one triangle, and so on. So, if we try to work out its Euler
 characteristic, we get the divergent series
 
