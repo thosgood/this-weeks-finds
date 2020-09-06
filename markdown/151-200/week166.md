@@ -271,7 +271,7 @@ building superstring theories in 9+1 dimensions. In eleven dimensions,
 the kinship between bosons and fermions is more subtle, and may involve
 the exceptional group $\mathrm{F}_4$.
 
-9) T. Pengpan and Pierre Ramond, M(ysterious) patterns in \mathrm{SO}(9), Phys.
+9) T. Pengpan and Pierre Ramond, M(ysterious) patterns in $\mathrm{SO}(9)$, Phys.
 Rep. 315 (1999) 137-152, also available as
 [`hep-th/9808190`](https://arxiv.org/abs/hep-th/9808190).
 

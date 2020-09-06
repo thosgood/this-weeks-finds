@@ -325,7 +325,7 @@ direct sum of irreps: how do we do it? Well, we play a little game with
 Young tableaux and out pops the answer. One relevant buzzword is
 "Littlewood-Richardson rules". Or say we have an irrep of $S_n$ and
 want to know how it decomposes into irreps when we restrict it to a
-subgroup like $S_{n-1}$. Or the same for $\mathrm{SU}(N)$ and \mathrm{SU}(N-1). How do we do
+subgroup like $S_{n-1}$. Or the same for $\mathrm{SU}(N)$ and $\mathrm{SU}(N-1)$. How do we do
 this? More messing with Young tableaux. Here one relevant buzzword is
 "branching rules".
 

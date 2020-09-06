@@ -310,7 +310,7 @@ a) the super-Poincare algebra
 
 b) the division algebras $\mathbb{R}$, $\mathbb{C}$, $\mathbb{H}$ and $\mathbb{O}$
 
-c) the exceptional Lie algebras $\mathr{F}_4$, $\mathrm{E}_6$, $\mathrm{E}_7$ and $\mathrm{E}_8$
+c) the exceptional Lie algebras $\mathrm{F}_4$, $\mathrm{E}_6$, $\mathrm{E}_7$ and $\mathrm{E}_8$
 
 So it's not really odd to expect relations between these three things!
 

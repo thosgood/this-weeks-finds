@@ -265,7 +265,7 @@ icosahedral pattern. By the time you've used up all of them, your
 Of course, if you're a mathematician, there are other more elegant ways
 to build your 600-cell. For example: start with an icosahedron. Its
 rotational symmetry group is a 60-element subgroup of $\mathrm{SO}(3)$. Using the
-double cover $\mathrm{SU}(2)$ \to $\mathrm{SO}(3)$ lift this to a 120-element subgroup of $\mathrm{SU}(2)$.
+double cover $\mathrm{SU}(2) \to \mathrm{SO}(3)$ lift this to a 120-element subgroup of $\mathrm{SU}(2)$.
 But $\mathrm{SU}(2)$ is isomorphic to the unit quaternions, so we get 120 points on
 the unit sphere in 4 dimensions. These are the vertices of the 600-cell!
 

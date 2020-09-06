@@ -80,7 +80,7 @@ The octonionic projective plane, $\mathbb{OP}^2$, is formed from $\mathbb{OP}^1$
 on some extra stuff. However, this extra stuff is sufficiently
 high-dimensional that it doesn't affect the 11th homotopy group, so we
 get
-$$\pi_{11}($\mathbb{OP}^2$) = \mathbb{Z}/24.$$
+$$\pi_{11}(\mathbb{OP}^2) = \mathbb{Z}/24.$$
 Now, what Püttman and Rigas do is find an 11-sphere *embedded* in the
 octonionic projective plane that generates the group $\mathbb{Z}/24$. In fact,
 it's a minimal surface: there's no way to wiggle it a bit to make the
