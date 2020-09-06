@@ -98,7 +98,7 @@ has to do with quantum mechanics!
 First remember the big picture: $n$-category theory is a language to talk
 about processes that turn processes into other processes. Roughly
 speaking, an $n$-category is some sort of structure with objects,
-morphisms between objects, 2-morphisms between morphisms, and so on up
+morphisms between objects, $2$-morphisms between morphisms, and so on up
 to n-morphisms. A 0-category is just a set, with its objects usually
 being called "elements". Things get trickier as $n$ increases. For a
 precise definition of $n$-categories for $n = 1$ and $2$, see

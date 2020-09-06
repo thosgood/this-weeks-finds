@@ -171,11 +171,11 @@ three big problems:
 >
 > C) At first people hoped for various clues linking the Barrett-Crane
 > model to general relativity. For example, we hoped that the asymptotic
-> value of the amplitude for a large 4-simplex in the Barrett-Crane
+> value of the amplitude for a large $4$-simplex in the Barrett-Crane
 > model was nicely related to the action for general relativity. But
 > this turned out to be false: in the Barrett-Crane model, the amplitude
-> for a large 4-simplex is dominated by certain degenerate geometries
-> where the 4-simplex is squashed down to 3 dimensions. See
+> for a large $4$-simplex is dominated by certain degenerate geometries
+> where the $4$-simplex is squashed down to 3 dimensions. See
 > ["Week 128"](#week128), ["Week 168"](#week168),
 > ["Week 170"](#week170) and ["Week 198"](#week198) for the
 > story here. Carlo Rovelli raised our hopes again in a more
@@ -262,7 +262,7 @@ result, the quantization of area and volume in this model is compatible
 with that in loop quantum gravity.
 
 I don't think I'll describe the rest of the model, which consists of a
-formula for computing the amplitude for a 4-simplex with edges labelled
+formula for computing the amplitude for a $4$-simplex with edges labelled
 by spins. But it's this formula that solves problem C). The EPRL model
 gets the graviton propagator right!
 
@@ -287,7 +287,7 @@ Rovelli. But it seems miraculous and strange that we can compute
 graviton propagators (much less scattering amplitudes) using very simple
 spin foams, as Rovelli and his collaborators have done. Every time I
 meet him, I ask Rovelli what's going on here: how we can describe the
-behavior of a graviton in terms of just a few 4-simplices of spacetime.
+behavior of a graviton in terms of just a few $4$-simplices of spacetime.
 
 So, the road is still long, steep, and fraught with danger. But three
 problems that had everyone completely stumped have now been solved in
@@ -360,7 +360,7 @@ III. The new vertex, available as
 [`arXiv:0812.5018`](http://arxiv.org/abs/0812.5018).
 
 This paper used the work of John Barrett and collaborators, who analyzed
-the asymptotics of the amplitude for a 4-simplex in the new model:
+the asymptotics of the amplitude for a $4$-simplex in the new model:
 
 14) John W. Barrett, R. J. Dowdall, Winston J. Fairbairn, Henrique
 Gomes and Frank Hellmann, Asymptotic analysis of the EPRL four-simplex
@@ -419,9 +419,9 @@ Now, what does the Holst Lagrangian
 
 actually mean?
 
-First of all, the curvature F is an End(T)-valued 2-form, but using the
+First of all, the curvature F is an End(T)-valued $2$-form, but using the
 metric on T we get an isomorphism between T and its dual, so we can also
-think of the curvature as a 2-form taking values in T tensor T. However,
+think of the curvature as a $2$-form taking values in T tensor T. However,
 if we do this, the fact that A is metric-compatible means that F is
 skew-symmetric: it takes values in the second exterior power of T,
 Λ^2(T).
@@ -430,15 +430,15 @@ Since T has a metric and orientation, we can define a Hodge star
 operator on the exterior algebra Λ(T) just as we normally do for
 differential forms on a manifold with metric and orientation. We call
 this the "internal" Hodge star operator. Using this we can define *F,
-which is again a 2-form taking values in Λ^2(T).
+which is again a $2$-form taking values in Λ^2(T).
 
-Next, note that the cotetrad e can be thought of as a T-valued 1-form.
+Next, note that the cotetrad e can be thought of as a T-valued $1$-form.
 This allows us to define the wedge product e ^ e as a Λ^2(T)-valued
 2-form. This is the same sort of gadget as the curvature F and its
 internal Hodge dual *F! So, we can take the wedge product of the
 differential form parts of e ^ e and *F while using the metric on T to
 pair together their Λ^2(T) parts to get a number. The overall result is
-a plain old 4-form, which we call \operatorname{tr}(e ^ e ^ *F). This is the
+a plain old $4$-form, which we call \operatorname{tr}(e ^ e ^ *F). This is the
 Palatini Lagrangian!
 
 If you work out the equations of motion coming from this Lagrangian,

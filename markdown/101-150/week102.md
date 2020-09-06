@@ -464,7 +464,7 @@ the integers not as a mere category, but as a $2$-category! See
 ["Week 80"](#week80) for the precise definition of this concept;
 for now, it's enough to say that a $2$-category has things called
 2-morphisms going between morphisms. If we treat the integers as a
-$2$-category, we can say there is a 2-morphism going from
+$2$-category, we can say there is a $2$-morphism going from
 $$
   \begin{tikzpicture}
     \begin{knot}
@@ -477,7 +477,7 @@ $$
     \node[fill=white] at (1,0) {$-$};
   \end{tikzpicture}
 $$
-to the identity morphism. This 2-morphism has a nice geometrical
+to the identity morphism. This $2$-morphism has a nice geometrical
 description in terms of a $2$-dimensional surface: the surface in 3d space
 that's traced out as the above picture shrinks down to the empty
 picture. It's hard to draw, but let me try:
@@ -519,7 +519,7 @@ $$
   \end{tikzpicture}
 $$
 Okay, say we do this: treat the integers as a $2$-category. We again are
-faced with a question: do we make all the 2-morphisms invertible? If we
+faced with a question: do we make all the $2$-morphisms invertible? If we
 do, we get a "2-groupoid", or actually a "groupal 2-groupoid". But
 again, to do so amounts to committing the sin of decategorification. To
 avoid this sin, we should tread the integers as a $3$-category. Etc, etc!

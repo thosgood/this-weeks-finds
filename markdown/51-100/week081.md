@@ -171,7 +171,7 @@ $$W(u,v,w) = k \langle [u,v],w \rangle$$
 Here $k$ is a constant that will make life simpler later. The special
 property of the Killing form implies that $W$ is totally antisymmetric,
 and we can use left multiplication to translate $W$ all over the group $G$
-obtaining a closed 3-form on $G$. Call this 3-form $W$, too. Then, given any
+obtaining a closed $3$-form on $G$. Call this $3$-form $W$, too. Then, given any
 smooth function from $S^3$ into $G$ we can pull back $W$ to $S^3$ and
 integrate it over $S^3$. If we choose the constant $k$ right, the result
 will be an integer --- the integer we were looking for.
@@ -185,8 +185,8 @@ which refers to Wess, Zumino, and Witten. Say we have smooth function $f$
 from $S^2$ to $G$. Since $\pi_2(G) = 0$ we can extend $f$ to a smooth function $F$
 from the $3$-dimensional ball, $D^3$, to $G$. (This is just another way of
 "pulling the balloon tight" as mentioned above.) Now we can use $F$ to
-pull back the magic 3-form $W$ to $D^3$, and then we can integrate the
-resulting 3-form over $D^3$ to get a number $S(f)$ called the
+pull back the magic $3$-form $W$ to $D^3$, and then we can integrate the
+resulting $3$-form over $D^3$ to get a number $S(f)$ called the
 Wess-Zumino-Witten action.
 
 Unfortunately, this number depends on the choice of the function $F$

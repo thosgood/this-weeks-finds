@@ -193,7 +193,7 @@ algorithm, we'd be dead in the water!
 
 In essence, what we did is take the simplest compact $4$-dimensional
 manifold and triangulate it in the simplest possible way: the 4-sphere,
-triangulated as the boundary of a 5-simplex. Then we compared various
+triangulated as the boundary of a $5$-simplex. Then we compared various
 recipes for computing the amplitudes of spin foams that fit neatly into
 this triangulation. In Riemannian quantum gravity, a spin foam living in
 this triangulation simply amounts to a way of labelling each triangle

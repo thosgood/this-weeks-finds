@@ -184,10 +184,10 @@ a simplicial set. Given a category $\mathcal{C}$, we cook up the simplicial set
 $\mathrm{Nerve}(\mathcal{C})$ as follows. The 0-dimensional simplices of $\mathrm{Nerve}(\mathcal{C})$ are just
 the objects of $\mathcal{C}$, which look like this:
 $$x$$
-The 1-simplices of $\mathrm{Nerve}(\mathcal{C})$ are just the morphisms, which look like
+The $1$-simplices of $\mathrm{Nerve}(\mathcal{C})$ are just the morphisms, which look like
 this:
 $$x\xrightarrow{f}y$$
-The 2-simplices of $\mathrm{Nerve}(\mathcal{C})$ are just the commutative diagrams that look
+The $2$-simplices of $\mathrm{Nerve}(\mathcal{C})$ are just the commutative diagrams that look
 like this:
 $$
   \begin{tikzpicture}

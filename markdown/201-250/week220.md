@@ -60,12 +60,12 @@ equivalent might be in loop quantum gravity.
 
 The other approach - the spin foam approach - got stalled when the most
 popular model seemed to give spacetimes made mostly of squashed-flat
-"degenerate 4-simplexes". Various papers have found an effect like
+"degenerate $4$-simplexes". Various papers have found an effect like
 this: see ["Week 198"](#week198) for more details. So, there's
 definitely a real phenomenon going on here. However, its physical
 significance remains a bit obscure. The devil is in the details.
 
-In particular, even though the *amplitude* for a single large 4-simplex
+In particular, even though the *amplitude* for a single large $4$-simplex
 in the Barrett-Crane model is dominated by degenerate geometries,
 certain *second derivatives* of the amplitude might not - and this may
 be what really matters. Carlo Rovelli has recently come out with a paper

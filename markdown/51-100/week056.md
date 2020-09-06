@@ -25,7 +25,7 @@ with determinant equal to $1$. And I should probably tell you which bundle
 over $S$ we have an $\mathrm{SL}(2,\mathbb{C})$ connection on... but luckily, all $\mathrm{SL}(2,\mathbb{C})$
 bundles over 3-manifolds are trivial, so I can cut corners by saying
 it's the trivial bundle. We can think of a connection $A$ on the trivial
-$\mathrm{SL}(2,\mathbb{C})$ bundle over $S$ as 1-forms taking values in the Lie algebra
+$\mathrm{SL}(2,\mathbb{C})$ bundle over $S$ as $1$-forms taking values in the Lie algebra
 $\mathfrak{sl}(2,\mathbb{C})$, consisting of $2\times2$ complex matrices with trace zero.
 
 Okay, so naively you might think a state in the *quantum* version of

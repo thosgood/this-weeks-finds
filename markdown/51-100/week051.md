@@ -165,7 +165,7 @@ something very similar that does NOT.
 
 Namely, let's replace the Laplacian on *functions* by the Laplacian on
 *differential forms*. I won't try to remind you what these are; I'll
-simply note that functions are 0-forms, but there are also 1-forms,
+simply note that functions are 0-forms, but there are also $1$-forms,
 2-forms, and so on --- tensor fields of various sorts --- and the Laplacian
 of a $j$-form is another $j$-form. So for each $j$ we get a kind of
 Hamiltonian $H_j$, which is just minus the Laplacian on $j$-forms. We can

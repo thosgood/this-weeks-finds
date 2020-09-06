@@ -129,7 +129,7 @@ So...
 
     Mike has been working on a very interesting "state sum model" for
     quantum gravity; that is, a discretized model in which spacetime is made
-    of 4-simplices (the 4d version of tetrahedra), fields are thought of
+    of $4$-simplices (the 4d version of tetrahedra), fields are thought of
     ways of labelling the faces, edges and so on by spins, elements of $\mathrm{SU}(2)$
     and the like, and the path integral is replaced by a sum over these
     labellings. This works out quite nicely for quantum gravity in 3

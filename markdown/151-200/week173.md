@@ -272,13 +272,13 @@ the morphism
 $$L\colon a \to b$$
 is a "left adjoint" of the morphism
 $$R\colon b \to a$$
-(and $R$ is a "right adjoint" of $L$) if there are 2-morphisms called the
+(and $R$ is a "right adjoint" of $L$) if there are $2$-morphisms called the
 "unit"
 $$i: 1a \Rightarrow LR$$
 and "counit"
 $$e: RL \Rightarrow 1b$$
 satisfying the "triangle equations", which say that these vertical
-composites are both identity 2-morphisms:
+composites are both identity $2$-morphisms:
 $$L = 1_aL \xRightarrow{i\cdot1_L} LRL \xRightarrow{1_L\cdot e} L1_a = L$$
 and
 $$R = R1_b \xRightarrow{1_R\cdot i} RLR \xRightarrow{e\cdot1_R} 1_bR = R$$
@@ -336,7 +336,7 @@ $\mathsf{Equiv}$ we have a $2$-category which is just the life support system fo
 adjunction: no more and no less.
 
 Anyway, the walking equivalence is a weak 2-groupoid: a $2$-category where
-every 2-morphism is invertible and every morphism is invertible up to
+every $2$-morphism is invertible and every morphism is invertible up to
 2-isomorphism. Weak 2-groupoids are secretly the same thing as homotopy
 2-types: roughly speaking, topological spaces whose homotopy groups
 vanish above dimension 2. And there's a pretty easy way to turn a weak
@@ -350,9 +350,9 @@ $1$-category in part J of ["Week 117"](#week117), so the only thing I
 need to do is say a bit about the nerve of a $2$-category. This is a
 simplicial set where the 0-simplices correspond to objects:
 $$x$$
-the 1-simplices correspond to morphisms:
+the $1$-simplices correspond to morphisms:
 $$x\xrightarrow{F}Y$$
-the 2-simplices correspond to 2-morphisms:
+the $2$-simplices correspond to $2$-morphisms:
 $$
   \begin{tikzpicture}
     \node (x) at (0,0) {$x$};
@@ -406,7 +406,7 @@ us a 3-ball! (At least up to homotopy equivalence.)
 Now, the 3-ball is contractible, so as a homotopy type it's really the
 same as a point. And a point is exactly the space we'd get from playing
 the same game starting with the "walking object": the $2$-category with
-one object, its identity morphism, and the identity 2-morphism of that.
+one object, its identity morphism, and the identity $2$-morphism of that.
 
 To the eyes of a homotopy theorist, a point and 3-ball are the same, but
 the 2-sphere is not. Similarly, to the eyes of an $n$-category theorist,

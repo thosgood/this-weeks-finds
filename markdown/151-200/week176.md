@@ -273,7 +273,7 @@ like this:
     \operatorname{tr}(e ^ e ^ *F)
 
 This takes a bit of explaining! First of all, the curvature F is an
-End(T)-valued 2-form, but using the metric on T we get an isomorphism
+End(T)-valued $2$-form, but using the metric on T we get an isomorphism
 between T and its dual, so we can also think of the curvature as a
 2-form taking values in T tensor T. However, if we do this, the fact
 that A is metric-compatible means that F is skew-symmetric: it takes in
@@ -283,7 +283,7 @@ Since T has a metric and orientation, we can define a Hodge star
 operator on the exterior algebra Λ(T) just as we normally do for
 differential forms on a manifold with metric and orientation. We call
 this the "internal" Hodge star operator. Using this we can define *F,
-which is again a 2-form taking values in Λ^2(T).
+which is again a $2$-form taking values in Λ^2(T).
 
 Whew! It takes some work making sense of that terse formula above!
 We're not done yet, either. Of course, all these verbal descriptions
@@ -300,12 +300,12 @@ follow it! If you don't know enough geometry, the verbiage probably
 seems more confusing than helpful.
 
 Okay. Next, note that the coframe field e can be thought of as a
-T-valued 1-form. This allows us to define the wedge product e ^ e as a
-Λ^2(T)-valued 2-form. Note that this is the same sort of gadget as the
+T-valued $1$-form. This allows us to define the wedge product e ^ e as a
+Λ^2(T)-valued $2$-form. Note that this is the same sort of gadget as the
 curvature F and its internal Hodge dual *F. This means we can take the
 wedge product of the differential form parts of e ^ e and *F while
 using the metric on T to pair together their Λ^2(T) parts and get a
-number. The result is a plain old 4-form, which we call \operatorname{tr}(e ^ e ^
+number. The result is a plain old $4$-form, which we call \operatorname{tr}(e ^ e ^
 *F). This is our Lagrangian!
 
 If you work out the equations of motion coming from this Lagrangian,
@@ -347,17 +347,17 @@ the coframe field! To see this, note that since each fiber of T looks
 just like Minkowski spacetime, we can use T to create a principal bundle
 over M whose gauge group is the Poincare group. A connection on this
 principal bundle works out to be exactly the same as a Lorentz
-connection A together with a T-valued 1-form e.
+connection A together with a T-valued $1$-form e.
 
 So, without lifting a finger, we can reinterpret the Palatini formalism
 as a theory in which the only field is a Poincare group connection. Like
 the Poincare group itself, the curvature of this connection can be
 chopped into two pieces. The Lorentz group part is our old friend, the
-Λ^2(T)-valued 2-form
+Λ^2(T)-valued $2$-form
 
     F = dA + A ^ A.
 
-The translation group part is a T-valued 2-form:
+The translation group part is a T-valued $2$-form:
 
     t = de + A ^ e.
 
@@ -390,10 +390,10 @@ background structure", cast in iron. It's so boring it looks just like
 prefer to give a name to it nonetheless.
 
 The only dynamical field in teleparallel gravity is the coframe field e.
-We can think of this as a T-valued 1-form, or if you prefer, a
+We can think of this as a T-valued $1$-form, or if you prefer, a
 "translation group connection": a connection on the bundle T regarded
 as a principal bundle with gauge group R^4. The curvature of this
-connection is a T-valued 2-form which we'll again call t. As before we
+connection is a T-valued $2$-form which we'll again call t. As before we
 have
 
     t = de + A ^ e
@@ -405,7 +405,7 @@ but using our trivialization of T this formula boils down to
 As before, we can use e to pull stuff from T back to the tangent bundle
 TM. The metric on T pulls back to a metric on TM, the connection A pulls
 back to a metric-compatible connection W on TM, and t pulls back to a
-TM-valued 2-form which is just the torsion of W. In this setup there's
+TM-valued $2$-form which is just the torsion of W. In this setup there's
 no reason for t to vanish, so the connection W will have torsion. On the
 other hand, A has no curvature, so neither will W.
 
@@ -492,7 +492,7 @@ Between any morphisms
 
     f,f'\colon  G \to  H
 
-we can define a 2-morphism
+we can define a $2$-morphism
 
     a: f \Rightarrow f'
 
@@ -501,7 +501,7 @@ to be an element of H with the property that
     af(g) = f'(g)a    for all g in G.   
 
 This just says that f' is f conjugated by an element of H, so we could
-call these 2-morphisms "conjugations".
+call these $2$-morphisms "conjugations".
 
 This definition may seem forced, but it's actually quite natural if you
 remember that a group is a special sort of category with one object and

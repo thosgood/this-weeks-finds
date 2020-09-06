@@ -667,7 +667,7 @@ Or, even better, we can try a weak $2$-category, with
 
 -   groupoids over G as objects
 -   spans of groupoids over G as morphisms
--   maps between spans of groupoids over G as 2-morphisms
+-   maps between spans of groupoids over G as $2$-morphisms
 
 This is where groupoidification comes into its own.
 

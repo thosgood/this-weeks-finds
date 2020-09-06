@@ -198,11 +198,11 @@ Now if you vary the e field you get a field equation saying that
 F = p δ~W~
 
 Here δ~W~ is like the Dirac delta function of the worldline W; it's a
-distributional 2-form defined by requiring that
+distributional $2$-form defined by requiring that
 
 \int~W~ X = \int~M~ (X ^ δ~W~)
 
-for any smooth 1-form X on W. This sort of "distributional differential
+for any smooth $1$-form X on W. This sort of "distributional differential
 form" is also called a "current", and you can read about them in the
 classic tome by Choquet-Bruhat et al. But the main point is that the
 field equation
@@ -397,9 +397,9 @@ called "B", so you can see why folks call this "BF theory".
 
 But more importantly, now M is an $4$-dimensional spacetime and W is an
 2-dimensional "worldsheet". A is again a Lorentz connection, which we
-can think of as an \mathfrak{so}(3,1)-valued 1-form. B is an \mathfrak{so}(3,1)-valued 2-form.
+can think of as an \mathfrak{so}(3,1)-valued $1$-form. B is an \mathfrak{so}(3,1)-valued $2$-form.
 p is an \mathfrak{so}(3,1)-valued function on the worldsheet W. q is an
-\mathfrak{so}(3,1)-valued 1-form on W.
+\mathfrak{so}(3,1)-valued $1$-form on W.
 
 So, only a few numbers have changed... so everything works very
 similarly! The big difference is that instead of spacetime having a

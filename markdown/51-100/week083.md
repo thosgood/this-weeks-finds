@@ -230,7 +230,7 @@ sort of "tensor product" and "unit object". But we can precisely
 define the so-called "strict" monoidal categories as follows: they are
 simply $2$-categories with one object. (Turn to ["Week 80"](#week80)
 for a definition of $2$-categories.) A $2$-category has objects, morphisms,
-and 2-morphisms, but if there is only one object, we can do the
+and $2$-morphisms, but if there is only one object, we can do the
 following relabelling trick:
 $$
   \begin{aligned}
@@ -240,7 +240,7 @@ $$
   \end{aligned}
 $$
 Namely, we can forget about the object, call the morphisms "objects",
-and call the 2-morphisms "morphisms". But since all the new
+and call the $2$-morphisms "morphisms". But since all the new
 "objects" were really morphisms from the original single object to
 itself, they can all be composed, or "tensored". That's why we get a
 category with "tensor product", and similarly, a "unit object".
@@ -261,7 +261,7 @@ morphism
 $$L\colon a\to b$$
 is a "left adjoint" of the morphism
 $$R\colon b\to a$$
-(and $R$ is a "right adjoint" of $L$) if there are 2-morphisms
+(and $R$ is a "right adjoint" of $L$) if there are $2$-morphisms
 $$
   \begin{aligned}
     e&\colon RL\Rightarrow 1_b
@@ -349,7 +349,7 @@ $$
 
 Alternatively, we can state these equations using the $2$-categorical
 notation described in ["Week 80"](#week80), by saying that the
-following vertical composites of 2-morphisms are identity morphisms:
+following vertical composites of $2$-morphisms are identity morphisms:
 $$L = 1_aL\xRightarrow{i\cdot1_L}LRL\xRightarrow{1_L\cdot e}L1_a = L$$
 and
 $$R = R1_a\xRightarrow{1_R\cdot i}RLR\xRightarrow{e\cdot1_R}1_bR = R$$
@@ -363,7 +363,7 @@ as a monoidal category, and then these equations are the definition of
 spaces in the monoidal category Vect of vector spaces!
 
 So adjoint functors and dual vector spaces are both instances of the
-general notion of adjoint 1-morphisms in a $2$-category. Adjointness is a
+general notion of adjoint $1$-morphisms in a $2$-category. Adjointness is a
 very basic concept.
 
 I hope all that made some sense.

@@ -138,10 +138,10 @@ Paradigm" is a good place to learn about this.
 
 Now let me return to the tale of $2$-categories. So far I've said only
 that a $2$-category is some sort of structure with objects, morphisms
-between objects, and 2-morphisms between morphisms. But I have been
+between objects, and $2$-morphisms between morphisms. But I have been
 attempting to develop your intuition for $\mathsf{Cat}$, the primordial example of
 a $2$-category. Remember, $\mathsf{Cat}$ is the $2$-category of all categories! Its
-objects are categories, its morphisms are functors, and its 2-morphisms
+objects are categories, its morphisms are functors, and its $2$-morphisms
 are natural transformations --- these being defined in
 ["Week 73"](#week73) and again in
 ["Week 75"](#week75).
@@ -167,7 +167,7 @@ who are familiar with $\mathsf{Cat}$ should keep this example in mind at all tim
 This definition is sort of long, so if you get tired of it, concentrate
 on the pictures! They convey the basic idea. Also, keep in mind is that
 this is going to be sort of like the definition of a category, but with
-an extra level on top, the 2-morphisms.
+an extra level on top, the $2$-morphisms.
 
 So: first of all, a $2$-category consists of a collection of "objects"
 and a collection of "morphisms". Every morphism $f$ has a "source"
@@ -185,7 +185,7 @@ morphism $fg\colon x\to Z$, which we call the "composite" of $f$ and $g$.
 you should visualize the composite of $f\colon x\to y$ and $g\colon y\to Z$ as follows:
 $$x\xrightarrow{f}y\xrightarrow{g}Z.$$
 So far this is exactly the definition of a category! But a $2$-category
-ALSO consists of a collection of "2-morphisms". Every 2-morphism $T$ has
+ALSO consists of a collection of "2-morphisms". Every $2$-morphism $T$ has
 a "source" morphism $f$ and a target morphism $g$. If the source of $T$ is $f$
 and its target is $g$, we write $T\colon f\Rightarrow g$. If $T\colon f\Rightarrow g$, we require that
 $f$ and $g$ have the same source and the same target; for example, $f\colon x\to y$
@@ -193,13 +193,13 @@ and $g\colon x\to y$. you should visualize $T$ as follows:
 $$\includegraphics[scale=0.3]{../images/Tnatftog.pdf}$$
 In addition, we have:
 
-1') Given a 2-morphism $S\colon f\Rightarrow g$ and a 2-morphism $T\colon g\Rightarrow h$, there is
-a 2-morphism $ST\colon f\Rightarrow h$, which we call the "vertical composite" of $S$
+1') Given a $2$-morphism $S\colon f\Rightarrow g$ and a $2$-morphism $T\colon g\Rightarrow h$, there is
+a $2$-morphism $ST\colon f\Rightarrow h$, which we call the "vertical composite" of $S$
 and $T$.
 
 2') Vertical composition is associative: $(ST)U = S(TU)$.
 
-3') For each morphism $f$ there is a 2-morphism $1_f\colon f\Rightarrow f$, called the
+3') For each morphism $f$ there is a $2$-morphism $1_f\colon f\Rightarrow f$, called the
 "identity" of $f$. For any $T\colon f\Rightarrow g$ we have $1_f T = T 1_g = T$.
 
 Note that these are just like the previous 3 rules. We draw the vertical
@@ -210,8 +210,8 @@ Now for a twist. We also require that we can "horizontally" compose
 $$\includegraphics[scale=0.3]{../images/SThorizontal.pdf}$$
 So we also demand:
 
-1'') Given morphisms $f,g\colon x\to y$ and $f',g'\colon y\to z$, and 2-morphisms $S\colon f\Rightarrow g$
-and $T\colon f'\Rightarrow g'$, there is a 2-morphism $S\cdot T\colon ff' \Rightarrow gg'$,
+1'') Given morphisms $f,g\colon x\to y$ and $f',g'\colon y\to z$, and $2$-morphisms $S\colon f\Rightarrow g$
+and $T\colon f'\Rightarrow g'$, there is a $2$-morphism $S\cdot T\colon ff' \Rightarrow gg'$,
 which we call the "horizontal composite" of $S$ and $T$.
 
 2'') Horizontal composition is associative: $(S\cdot T)\cdot U = S\cdot (T\cdot U)$.
@@ -223,7 +223,7 @@ have $1_{1_x}\cdot T = T\cdot 1_{1_y} = T$.
 Finally, we demand the "exchange law" relating horizontal and vertical
 composition:
 $$(ST)\cdot (S'T') = (S\cdot S')(T\cdot T')$$
-This makes the following 2-morphism unambiguous:
+This makes the following $2$-morphism unambiguous:
 $$\includegraphics[scale=0.3]{../images/STS'T'.pdf}$$
 We can think of it either as the result of first doing two vertical
 composites, and then one horizontal composite, or as the result of first
@@ -231,7 +231,7 @@ doing two horizontal composites, and then one vertical composite!
 
 Here we can really see why higher-dimensional algebra deserves its name.
 Unlike category theory, where we can visualize morphisms as
-1-dimensional arrows, here we have 2-morphisms which are intrinsically
+1-dimensional arrows, here we have $2$-morphisms which are intrinsically
 2-dimensional, and can be composed both vertically and horizontally.
 
 Now if you are familiar with $\mathsf{Cat}$, you may be wondering how we vertically

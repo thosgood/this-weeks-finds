@@ -126,7 +126,7 @@ I've repeatedly described the practical benefits of this, so I won't
 bother doing so again --- I'll assume you're convinced of it!
 
 To achieve this goal, an $n$-category is supposed to be some sort of
-algebraic structure with objects, morphisms between objects, 2-morphisms
+algebraic structure with objects, morphisms between objects, $2$-morphisms
 between morphisms, and so on up to and including $n$-morphisms, with
 various ways of composing all these guys. The idea is then that we
 should never assert that two $j$-morphisms are *equal* except for $j = n$.
@@ -145,7 +145,7 @@ associativity holds "on the nose", i.e., as an equation:
 $$a(bc) = (ab)c.$$
 In a $1$-category there is no opportunity for "weakening" this law. But
 in a weak $2$-category, associativity holds only up to equivalence. In
-other words, we have an invertible 2-morphism called the "associator"
+other words, we have an invertible $2$-morphism called the "associator"
 $$A_{a,b,c}: (ab)c \Rightarrow a(bc)$$
 taking the part of the above equation.
 
@@ -168,7 +168,7 @@ $$
     \draw[double,double equal sign distance,-implies] (br) to (bl);
   \end{tikzpicture}
 $$
-I haven't labelled the double arrows here, but they are all 2-morphisms
+I haven't labelled the double arrows here, but they are all $2$-morphisms
 built from the associator in obvious ways... obvious if you know about
 $2$-categories, at least. The pentagon equation says that the two basic
 ways of going from $((ab)c)d$ to $a(b(cd))$ by rebracketing are equal to
@@ -178,7 +178,7 @@ many morphisms using the associator over and over to your heart's
 content, and you'll never get into trouble: all the ways of going from
 one bracketing to another are equal.
 
-In a weak $3$-category, the pentagon equation is replaced by a 3-morphism
+In a weak $3$-category, the pentagon equation is replaced by a $3$-morphism
 called the "pentagonator". This in turn satisfies a new coherence law
 of its own, which I can't easily draw for you, because doing so
 requires a $3$-dimensional diagram in the shape of a polyhedron with 14

@@ -117,10 +117,10 @@ fix the lengths of its 10 edges, which correspond to the 10 components
 of the metric tensor in general relativity.
 
 There are lots of approaches to the path integrals in quantum gravity
-that start by chopping spacetime into 4-simplices. The weird special
+that start by chopping spacetime into $4$-simplices. The weird special
 thing about dynamical triangulations is that here we usually assume
-every 4-simplex in spacetime has the same shape. The different
-spacetimes arise solely from different ways of sticking the 4-simplices
+every $4$-simplex in spacetime has the same shape. The different
+spacetimes arise solely from different ways of sticking the $4$-simplices
 together.
 
 Why such a drastic simplifying assumption? To make calculations quick
@@ -141,7 +141,7 @@ integral was *not* dominated by spacetimes that look like nice 4d
 manifolds from afar! Depending on the details, one either got a
 "crumpled phase" dominated by spacetimes where almost all the
 4-simplices touch each other, or a "branched polymer phase" dominated
-by spacetimes where the 4-simplices form treelike structures. There's a
+by spacetimes where the $4$-simplices form treelike structures. There's a
 transition between these two phases, but unfortunately it seems to be a
 1st-order phase transition - not the sort we can get anything useful out
 of. For a nice review of these calculations, see:
@@ -197,7 +197,7 @@ People use Wick rotation in all work on dynamical triangulations.
 Unfortunately, this is *not* a context where you can justify this trick
 by appealing to the Osterwalder-Schrader theorem. The problem is that
 there's no good notion of a time coordinate "t" on your typical
-spacetime built by sticking together a bunch of 4-simplices!
+spacetime built by sticking together a bunch of $4$-simplices!
 
 The new work by Ambjorn, Jurkiewiecz and Loll deals with this by
 restricting to spacetimes that *do* have a time coordinate. More
@@ -205,7 +205,7 @@ precisely, they fix a $3$-dimensional manifold and consider all possible
 triangulations of this manifold by regular tetrahedra. These are the
 allowed "slices" of spacetime - they represent different possible
 geometries of space at a given time. They then consider spacetimes
-having slices of this form joined together by 4-simplices in a few
+having slices of this form joined together by $4$-simplices in a few
 simple ways.
 
 The slicing gives a preferred time parameter "t". On the one hand this

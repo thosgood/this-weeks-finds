@@ -50,7 +50,7 @@ proved by Perez:
 2) Alejandro Perez, "Finiteness of a spin foam model for euclidean quantum general relativity", _Nucl. Phys._ **B599** (2001) 427--434. Also available as [`gr-qc/0011058`](https://arxiv.org/abs/gr-qc/0011058).
 
 The most interesting aspect of all this is the formula giving numbers
-for 4-simplices. A 4-simplex has 10 triangular faces all of which get
+for $4$-simplices. A $4$-simplex has 10 triangular faces all of which get
 labelled by spins, and the formula says how to compute a number from
 these 10 spins --- the so-called "$10j$ symbol".
 
@@ -88,10 +88,10 @@ $10j$ symbols:
 3) John W. Barrett, "The classical evaluation of relativistic spin networks", _Adv. Theor. Math. Phys._ **2** (1998), 593--600. Also available as [`math.QA/9803063`](https://arxiv.org/abs/math.QA/9803063).
 
 In this approach one computes the $10j$ symbols by doing an integral over
-the space of geometries of a 4-simplex --- or more precisely, over a
+the space of geometries of a $4$-simplex --- or more precisely, over a
 product of 5 copies of the 3-sphere, where a point on one of these
 3-spheres describes the normal vector to one of the 5 tetrahedral faces
-of the 4-simplex.
+of the $4$-simplex.
 
 Dan and Greg have also written programs that calculate the $10j$ symbols
 by doing these integrals. The answers agree with their other approach.
@@ -103,7 +103,7 @@ Williams suggests that, at least in the limit of large spins, the
 dominant contribution to the integral for the $10j$ symbol comes from
 4-simplices whose face areas are the 10 spins in your $10j$ symbols:
 
-4) John W. Barrett and Ruth M. Williams, "The asymptotics of an amplitude for the 4-simplex", _Adv. Theor. Math. Phys._ **3** (1999), 209--215. Also available as [`gr-qc/9809032`](https://arxiv.org/abs/gr-qc/9809032).
+4) John W. Barrett and Ruth M. Williams, "The asymptotics of an amplitude for the $4$-simplex", _Adv. Theor. Math. Phys._ **3** (1999), 209--215. Also available as [`gr-qc/9809032`](https://arxiv.org/abs/gr-qc/9809032).
 
 However, Dan and Greg's calculations suggest instead that the dominant
 contribution comes from certain "degenerate" configurations. Some of
@@ -112,19 +112,19 @@ that are close to points of the form $(v,v,v,v,v)$ --- or roughly speaking,
 4-simplices whose 5 normal vectors are all pointing the same way. Others
 come from sprinkling minus signs in this list of vectors. Heuristically,
 we can think of these degenerate configurations as extremely
-flattened-out 4-simplices.
+flattened-out $4$-simplices.
 
 For simplicity, we have concentrated so far on studying the $10j$ symbols
 in the case when all 10 spins are equal. In this case we can show that
-the only nondegenerate 4-simplex with these spins as face areas is the
-regular 4-simplex (all of whose faces are congruent equilateral
+the only nondegenerate $4$-simplex with these spins as face areas is the
+regular $4$-simplex (all of whose faces are congruent equilateral
 triangles). Greg used stationary phase to compute the contribution of
-this regular 4-simplex to Barrett's integral formula for the $10j$
+this regular $4$-simplex to Barrett's integral formula for the $10j$
 symbols, and it turned out that asymptotically, for large $j$, this
 contribution decays like $j^{-9/2}$. On the other hand, Dan's numerical
 computations of the $10j$ symbol suggests that it goes like $j^{-2}$. This
-suggests that for large $j$, the contribution of the regular 4-simplex is
-dwarfed by that of the degenerate 4-simplices.
+suggests that for large $j$, the contribution of the regular $4$-simplex is
+dwarfed by that of the degenerate $4$-simplices.
 
 Greg has gotten more evidence for this by studying the integral formula
 for the $10j$ symbols and estimating the contribution due to degenerate
@@ -134,14 +134,14 @@ There is a lot more to be understood here, but plunging ahead
 recklessly, we can ask what all this means for the physics of the
 Barrett-Crane model. For example: is the dominant contribution to the
 partition function going to come from spacetime geometries with lots of
-degenerate 4-simplices?
+degenerate $4$-simplices?
 
 I think that's a premature conclusion, because we already have evidence
 that 4 -simplices with large face areas are not contributing that much
 compared to those with small face areas when we compute the partition
 function as a sum over spin foams. In other words, it seems that in the
 Riemannian Barrett-Crane model, spacetime is mostly made of lots of
-small 4-simplices, rather than a few giant ones. If so, the tendency for
+small $4$-simplices, rather than a few giant ones. If so, the tendency for
 the giant ones to flatten out may not be so bad.
 
 Of course the really important thing will be to study these questions

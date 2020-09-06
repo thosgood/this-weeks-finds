@@ -373,7 +373,7 @@ This is probably even more powerful than the concept of "folding": it
 shows up whenever we add numbers, multiply numbers, or in many other
 ways combine things. The $2$-categorical way to understand this is as
 follows. Suppose we have an object $x$ in a $2$-category, and a morphism $f\colon x \to x$.
-Then we can ask for a 2-morphism
+Then we can ask for a $2$-morphism
 $$M\colon f^2 \Rightarrow f.$$
 If we have such a thing, we can draw it as a traditional $2$-categorical
 diagram:
@@ -407,7 +407,7 @@ $$
     \node[fill=white] at (0.5,-1.5) {$f$};
   \end{tikzpicture}
 $$
-Regardless of how you draw it, the 2-morphism $M\colon f^2 \Rightarrow f$ represents a
+Regardless of how you draw it, the $2$-morphism $M\colon f^2 \Rightarrow f$ represents a
 process turning two copies of $f$ into one. And as we'll see, all sorts
 of fancy ways mathematicians have of studying this sort of process ---
 "monoids", "monoidal categories", and "monads" --- are special cases

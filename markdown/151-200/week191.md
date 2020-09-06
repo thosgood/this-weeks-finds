@@ -58,7 +58,7 @@ Next, a tour of places where the octonions show up in string theory:
 "We explain how structures related to octonions are ubiquitous in
 M-theory. All the exceptional Lie groups, and the projective Cayley line
 and plane, appear in M-theory. Exceptional G2-holonomy manifolds show up
-as compactifying spaces, and are related to the M2 Brane and 3-form. We
+as compactifying spaces, and are related to the M2 Brane and $3$-form. We
 review this evidence, which comes from the initial 11-dim structures.
 Relations between these objects are stressed, when extant and
 understood. We argue for the necessity of a better understanding of the

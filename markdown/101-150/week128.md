@@ -128,29 +128,29 @@ quantum gravity (though Barrett and Crane are working on a Lorentzian
 version, and I hear Friedel and Krasnov are also working on this). Also,
 it only deals with vacuum quantum gravity --- empty spacetime, no matter.
 
-In this theory, spacetime is chopped up into 4-simplices. A 4-simplex is
+In this theory, spacetime is chopped up into $4$-simplices. A $4$-simplex is
 the $4$-dimensional analog of a tetrahedron. To understand what I'm going
-to say next, you really need to understand 4-simplices, so let's start
+to say next, you really need to understand $4$-simplices, so let's start
 with them.
 
-It's easy to draw a 4-simplex. Just draw 5 dots in a kind of circle and
+It's easy to draw a $4$-simplex. Just draw 5 dots in a kind of circle and
 connect them all to each other! You get a pentagon with a pentagram
-inscribed in it. This is a perspective picture of a 4-simplex projected
+inscribed in it. This is a perspective picture of a $4$-simplex projected
 down onto your $2$-dimensional paper. If you stare at this picture you
-will see the 4-simplex has 5 tetrahedra, 10 triangles, 10 edges and 5
+will see the $4$-simplex has 5 tetrahedra, 10 triangles, 10 edges and 5
 vertices in it.
 
-The shape of a 4-simplex is determined by 10 numbers. You can take these
+The shape of a $4$-simplex is determined by 10 numbers. You can take these
 numbers to be the lengths of its edges, but if you want to be sneaky you
 can also use the areas of its triangles. Of course, there are some
 constraints on what areas you can choose for there to *exist* a
 4-simplex having triangles with those areas. Also, there are some
 choices of areas that fail to make the shape *unique*: for one of these
-bad choices, the 4-simplex can flop around while keeping the areas of
+bad choices, the $4$-simplex can flop around while keeping the areas of
 all its triangles fixed. But generically, this non-uniqueness doesn't
 happen.
 
-In Barrett and Crane's theory, we chop spacetime into 4-simplices and
+In Barrett and Crane's theory, we chop spacetime into $4$-simplices and
 describe the geometry of spacetime by specifying the area of each
 triangle. But the geometry is "quantized", meaning that the area takes
 a discrete spectrum of possible values, given by
@@ -161,10 +161,10 @@ of angular momentum. And that's no coincidence! The cool thing about
 this theory of quantum gravity is that you can discover it just by
 thinking a long time about general relativity and the quantum mechanics
 of angular momentum, as long as you also make the assumption that
-spacetime is chopped into 4-simplices.
+spacetime is chopped into $4$-simplices.
 
 So: in Barrett and Crane's theory the geometry of spacetime is
-described by chopping spacetime into 4-simplices and labelling each
+described by chopping spacetime into $4$-simplices and labelling each
 triangle with a spin. Let's call such a labelling a "quantum
 4-geometry". Similarly, the geometry of space is described by chopping
 space up into tetrahedra and labelling each triangle with a spin. Let's
@@ -182,7 +182,7 @@ and the ways to get from one state to another are quantum 4-geometries.
 
 So, what's the formula for the amplitude of a quantum 4-geometry? It
 takes a bit of work to explain this, so I'll just vaguely sketch how it
-goes. First we compute amplitudes for each 4-simplex and multiply all
+goes. First we compute amplitudes for each $4$-simplex and multiply all
 these together. Then we compute amplitudes for each triangle and
 multiply all these together. Then we multiply these two numbers.
 
@@ -196,21 +196,21 @@ to more deeply understand this analogy with Feynman diagrams.)
 
 Anyway, to convince oneself that this formula is "good", one would
 like to relate it to other approaches to quantum gravity that also
-involve 4-simplices. For example, there is the Regge calculus, which is
+involve $4$-simplices. For example, there is the Regge calculus, which is
 a discretized version of *classical* general relativity. In this
-approach you chop spacetime into 4-simplices and describe the shape of
-each 4-simplex by specifying the lengths of its edges. Regge invented a
+approach you chop spacetime into $4$-simplices and describe the shape of
+each $4$-simplex by specifying the lengths of its edges. Regge invented a
 formula for the "action" of such a geometry which approaches the usual
 action for classical general relativity in the continuum limit. I
 explained the formula for this "Regge action" in
 ["Week 120"](#week120).
 
-Now if everything were working perfectly, the amplitude for a 4-simplex
+Now if everything were working perfectly, the amplitude for a $4$-simplex
 in the Barrett-Crane model would be close to $\exp(iS)$, where $S$ is the
-Regge action of that 4-simplex. This would mean that the Barrett-Crane
+Regge action of that $4$-simplex. This would mean that the Barrett-Crane
 model was really a lot like a path integral in quantum gravity. Of
 course, in the Barrett-Crane model all we know is the areas of the
-triangles in each 4-simplex, while in the Regge calculus we know the
+triangles in each $4$-simplex, while in the Regge calculus we know the
 lengths of its edges. But we can translate between the two, at least
 generically, so this is no big deal.
 
@@ -219,7 +219,7 @@ in the limit where the triangles have large areas, the amplitude for a
 4-simplex in the Barrett-Crane theory is proportional, not to $\exp(iS)$,
 but to $\cos(S)$:
 
-5) John W. Barrett and Ruth M. Williams, "The asymptotics of an amplitude for the 4-simplex", preprint available as [`gr-qc/9809032`](https://arxiv.org/abs/gr-qc/9809032).
+5) John W. Barrett and Ruth M. Williams, "The asymptotics of an amplitude for the $4$-simplex", preprint available as [`gr-qc/9809032`](https://arxiv.org/abs/gr-qc/9809032).
 
 This argument is not rigorous --- it uses a stationary phase approximation
 that requires further justification. But Regge and Ponzano used a
@@ -239,10 +239,10 @@ people have been scratching their heads for decades trying to figure out
 why. And by now they know the answer, and the same answer applies to the
 Barrett-Crane model.
 
-The problem is that if you describe 4-simplex using the areas of its
+The problem is that if you describe $4$-simplex using the areas of its
 triangles, you don't *completely* know its shape. (See, I lied to you
 before --- that's why you gotta read the whole thing.) You only know it
-*up to reflection*. You can't tell the difference between a 4-simplex
+*up to reflection*. You can't tell the difference between a $4$-simplex
 and its mirror-image twin using only the areas of its triangles! When
 one of these has Regge action $S$, the other has action $-S$. The Barrett-
 Crane model, not knowing any better, simply averages over both of them,
@@ -259,13 +259,13 @@ vagueness.)
 
 Okay, on to a related issue. In the Barrett-Crane model one describes a
 quantum 4-geometry by labelling all the triangles with spins. This
-sounds reasonable if you think about how the shape of a 4-simplex is
+sounds reasonable if you think about how the shape of a $4$-simplex is
 almost determined by the areas of its triangles. But if you actually
 examine the derivation of the model, it starts looking more odd. What
 you really do is take the space of geometries of a *tetrahedron*
 embedded in $\mathbb{R}^4$, and use a trick called geometric quantization to get
 something called the "Hilbert space of a quantum tetrahedron in 4
-dimensions". You then build your 4-simplices out of these quantum
+dimensions". You then build your $4$-simplices out of these quantum
 tetrahedra.
 
 Now the Hilbert space of a quantum tetrahedron has a basis labelled by
@@ -379,7 +379,7 @@ here. Happy new year!
 
 > Recently, Barrett and Williams came up with a nice argument saying
 > that in the limit where the triangles have large areas, the amplitude
-> for a 4-simplex in the Barrett-Crane theory is proportional, not to
+> for a $4$-simplex in the Barrett-Crane theory is proportional, not to
 > $\exp(iS)$, but to $\cos(S)$....
 >
 > This argument is not rigorous --- it uses a stationary phase
@@ -392,7 +392,7 @@ here. Happy new year!
 > argument rigorous.
 
 In fact one can't make it rigorous: it's wrong! In the limit of large
-areas the amplitude for a 4-simplex in the Barrett-Crane model is wildly
+areas the amplitude for a $4$-simplex in the Barrett-Crane model is wildly
 different from $\cos(S)$, or $\exp(iS)$, or anything like that. Dan
 Christensen, Greg Egan and I showed this in a couple of papers that I
 discuss in ["Week 170"](#week170) and ["Week 198"](#week198).

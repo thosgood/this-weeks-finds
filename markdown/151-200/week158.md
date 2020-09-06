@@ -68,11 +68,11 @@ A) a Lorentzian metric $g$ on the $11$-dimensional manifold representing spaceti
 B) a field $\psi$ on this manifold which takes values in the real spin-$3/2$
 representation of $\mathrm{SO}(10,1)$,
 
-C) a 3-form field $A$ on this manifold.
+C) a $3$-form field $A$ on this manifold.
 
 Physicists call the metric the "graviton". They call the spin-$3/2$
 field the "gravitino" or a "Rarita-Schwinger field". And they call
-the 3-form a "gauge field", by analogy to the 1-form that appears in
+the $3$-form a "gauge field", by analogy to the $1$-form that appears in
 electromagnetism. Above it's written as "$A$", to remind us of this
 analogy, but people often use a "$C$" instead --- for reasons I'll
 explain later.
@@ -111,10 +111,10 @@ graviton. What about the gravitino? I'm less clear about this, but I
 guess the idea is that we think of the spin-$3/2$ representation of the
 Lorentz group $\mathrm{SO}(10,1)$ as sitting inside the tensor product of the
 spin-$1$ representation and the spin-$1/2$ representation. This allows us to
-think of the gravitino as a spinor-valued 1-form on spacetime. That's
+think of the gravitino as a spinor-valued $1$-form on spacetime. That's
 why people write it as $\psi_N$: the subscript indicates that we've got
-some sort of 1-form on our hands. One thing I don't understand is what,
-if any, constraints there are on a spinor-valued 1-form to make it lie
+some sort of $1$-form on our hands. One thing I don't understand is what,
+if any, constraints there are on a spinor-valued $1$-form to make it lie
 in the spin-$3/2$ representation.
 
 What are spinors like in $11$-dimensional spacetime? For this, go back and
@@ -129,21 +129,21 @@ complexify and get "complex" or "Dirac" spinors --- but we won't!
 
 Since the space of Majorana spinors in 3d spacetime is $\mathbb{R}^2$, the space
 of Majorana spinors in 11d spacetime is $\mathbb{R}^2 \otimes \mathbb{R}^{16} = \mathbb{R}^{32}$. The
-gravitino is a 1-form taking values in this space.
+gravitino is a $1$-form taking values in this space.
 
-Finally, what about the 3-form that appears in 11d supergravity? Why is
+Finally, what about the $3$-form that appears in 11d supergravity? Why is
 it called a "gauge field"? Well, if you've made it this far, you
-probably know that the 1-form in electromagnetism (the "vector
+probably know that the $1$-form in electromagnetism (the "vector
 potential") is perfectly suited for integrating along the worldline of
 a charged point particle. Classically, the resulting number is just the
 *action* In quantum theory, the exponential of the action describes how
 the particle's *phase* changes.
 
 If we're dealing with strings instead of point particles, we can pull
-the same trick using a 2-form, which is the right sort of thing to
+the same trick using a $2$-form, which is the right sort of thing to
 integrate over the $2$-dimensional worldsheet of a string. Since people
-call the 1-form in electromagnetism $A$, they naturally took to calling
-this 2-form $B$. People like to study strings propagating in a background
+call the $1$-form in electromagnetism $A$, they naturally took to calling
+this $2$-form $B$. People like to study strings propagating in a background
 metric that satisfies the vacuum Einstein equations, but they also study
 what happens when you throw in a background $B$ field like this, and add a
 term to the string action that's proportional to the integral of $B$ over
@@ -156,16 +156,16 @@ Like Maxwell's equations, these equations are "gauge-invariant", in
 the sense that we can change $B$ like this without changing the field
 strength tensor:
 $$B \mapsto B + dw$$
-where $w$ is any 1-form.
+where $w$ is any $1$-form.
 
 Similarly, people believe that M-theory involves $2$-dimensional membranes
 called "2-branes". A 2-brane traces out a $3$-dimensional
-"world-volume" in spacetime. The 3-form field in 11d supergravity is
+"world-volume" in spacetime. The $3$-form field in 11d supergravity is
 perfectly suited for integrating over this world-volume! So we're
 really dealing with a still higher-dimensional analog of
-electromagnetism. Since we've already talked about a 1-form $A$ that
-couples to point particles and a 2-form field $B$ that couples to strings,
-it makes sense to call this 3-form $C$. Lots of people do that. But I'll
+electromagnetism. Since we've already talked about a $1$-form $A$ that
+couples to point particles and a $2$-form field $B$ that couples to strings,
+it makes sense to call this $3$-form $C$. Lots of people do that. But I'll
 stick with Green, Schwarz and Witten, and call it $A$. I'll write $F$ for
 the corresponding field strength (which is $6dA$ if we use their nutty
 normalization).
@@ -186,7 +186,7 @@ The number "$k$" is just a coupling constant. The quantity "$e$" is the
 volume form cooked up from the frame field. The quantity "$R$" is the
 Ricci scalar cooked up from the spin connection. "$\psi_N$" is the
 gravitino field, and physicists write the inner product on spinors as
-"$\overline{\psi_N} \psi^N$". "$A$" is the 3-form field and "$F$" is the field
+"$\overline{\psi_N} \psi^N$". "$A$" is the $3$-form field and "$F$" is the field
 strength. There's also some other weird stuff I haven't explained yet.
 
 Note: the first, middle, and last terms in this Lagrangian only involve
@@ -197,7 +197,7 @@ The first term, the "$e R$" part, is just the Lagrangian for the
 gravitational field.
 
 The middle term is, up to a constant, just what I'd call "$F\wedge*F$":
-the Lagrangian for the 3-form analog of Maxwell's equations.
+the Lagrangian for the $3$-form analog of Maxwell's equations.
 
 The last term is, again up to a constant, just what I'd "$F\wedge F\wedge A$".
 This is an $11$-dimensional analog of the Chern-Simons term $F\wedge A$
@@ -211,7 +211,7 @@ $$- \left(\frac{\sqrt{2k}}{384}\right) e(\psi_M^* \Gamma^{MNPQRS}\psi_S + 12\psi
 The first one is mainly about how the gravitino propagates in a given
 metric --- it's a kind of spin-$3/2$ analog of the Lagrangian for the Dirac
 equation. The second one is mainly about the coupling of the gravitino
-to the 3-form field $A$ - it's sort of like the coupling between the
+to the $3$-form field $A$ - it's sort of like the coupling between the
 electron and electromagnetic field in QED. But there's some funky stuff
 going on here!
 
@@ -225,14 +225,14 @@ spin connection. Don't ask me that that means! I know it amounts to
 adding some terms that are quadratic in the gravitino field, and I know
 it's required to get the whole Lagrangian to be invariant under a
 "supersymmetry transformation", which mixes up the gravitino field
-with the graviton and 3-form fields. But I don't really understand the
+with the graviton and $3$-form fields. But I don't really understand the
 geometrical meaning of what's going on, especially because the
 supersymmetry only works "on shell" --- i.e., assuming the equations of
 motion. Similarly, I guess $F'$ is some sort of "supercovariantization"
 of the field strength tensor --- but again, it seems fairly mysterious.
 
 Anyway, we can summarize all this by saying we've got gravity, a
-gravitino, and a 3-form gauge field interacting in a manner vaguely
+gravitino, and a $3$-form gauge field interacting in a manner vaguely
 reminiscent of how gravity, the electron and the electromagnetic field
 interact in the Einstein-Dirac-Maxwell equations --- except that there's
 a "four-fermion" term where four gravitinos interact directly.
@@ -328,8 +328,8 @@ Majorana spinors as pairs of octonions.
 
 Second, the Chern-Simons-like term $F\wedge F\wedge A$ in 11d supergravity is
 akin to the 3d Chern-Simons Lagrangian $F\wedge A$. But this relation is a
-bit odd, since a crucial part of it involves switching from a 1-form
-gauge field in the 3d case to a 3-form gauge field in the 11d case. To
+bit odd, since a crucial part of it involves switching from a $1$-form
+gauge field in the 3d case to a $3$-form gauge field in the 11d case. To
 really understand this, we first need to understand the geometry of
 these generalized "gauge fields". These higher gauge fields are really
 not connections on bundles, but connections on "$n$-gerbes", which are
@@ -338,10 +338,10 @@ categorified analogues of bundles. I explained this to some extent in
 idea is that there's an analogy like this:
 
 | :-------- | :------------------ | :------------------ |
-| 1-forms | connections on bundles | parallel transport of point particles |
-| 2-forms | connections on gerbes | parallel transport of strings |
-| 3-forms | connections on 2-gerbes | parallel transport 2-branes |
-| 4-forms | connections on 3-gerbes | parallel transport 3-branes |
+| $1$-forms | connections on bundles | parallel transport of point particles |
+| $2$-forms | connections on gerbes | parallel transport of strings |
+| $3$-forms | connections on 2-gerbes | parallel transport 2-branes |
+| $4$-forms | connections on 3-gerbes | parallel transport 3-branes |
 | $\vdots$ | $\vdots$ | $\vdots$ |
 
 and so on. Just as connections on bundles naturally give rise to Chern
@@ -405,10 +405,10 @@ marrow! Any help would be appreciated.
 > > guess the idea is that we think of the spin-$3/2$ representation of the
 > > Lorentz group $\mathrm{SO}(10,1)$ as sitting inside the tensor product of the
 > > spin-$1$ representation and the spin-$1/2$ representation.  This allows us
-> > to think of the gravitino as a spinor-valued 1-form on spacetime.
+> > to think of the gravitino as a spinor-valued $1$-form on spacetime.
 > > That's why people write it as $\psi_N$: the subscript indicates that we've
-> > got some sort of 1-form on our hands.  One thing I don't understand is
-> > what, if any, constraints there are on a spinor-valued 1-form to make
+> > got some sort of $1$-form on our hands.  One thing I don't understand is
+> > what, if any, constraints there are on a spinor-valued $1$-form to make
 > > it lie in the spin-$3/2$ representation.
 >
 > As you guessed, there is a Clebsch-Gordan relationship like:
@@ -425,11 +425,11 @@ marrow! Any help would be appreciated.
 >
 > > Similarly, people believe that M-theory involves $2$-dimensional membranes
 > > called "2-branes".  A 2-brane traces out a $3$-dimensional "world-volume"
-> > in spacetime.  The 3-form field in 11d supergravity is perfectly suited
+> > in spacetime.  The $3$-form field in 11d supergravity is perfectly suited
 > > for integrating over this world-volume!  So we're really dealing with a
 > > still higher-dimensional analog of electromagnetism.  Since we've already
-> > talked about a 1-form $A$ that couples to point particles and a 2-form field
-> > $B$ that couples to strings, it makes sense to call this 3-form $C$.  Lots of
+> > talked about a $1$-form $A$ that couples to point particles and a $2$-form field
+> > $B$ that couples to strings, it makes sense to call this $3$-form $C$.  Lots of
 > > people do that.  But I'll stick with Green, Schwarz and Witten, and call
 > > it $A$.  I'll write $F$ for the corresponding field strength (which is 6dA
 > > if we use their nutty normalization).
@@ -447,14 +447,14 @@ marrow! Any help would be appreciated.
 > >   \end{aligned}
 > > $$
 > > The middle term is, up to a constant, just what I'd call "$F\wedge *F$": the
-> > Lagrangian for the 3-form analog of Maxwell's equations.
+> > Lagrangian for the $3$-form analog of Maxwell's equations.
 >
 > Now, it's time for me to answer one of your old questions! You seem
 > to be ready to hear the answer (you see, I never forget...). Why
-> should there be a 5-form in M-theory? You nicely have replaced $F^2$ by
-> $F\wedge*F$. Cool! Now, we can go further. $A$ is a 3-form, so $F$ is a
-> 4-form, then $*F$ is a $11-4=7$-form, then it should be the field
-> strength tensor of some 6-form potential, $dA_6=*F$, But a 6-form is
+> should there be a $5$-form in M-theory? You nicely have replaced $F^2$ by
+> $F\wedge*F$. Cool! Now, we can go further. $A$ is a $3$-form, so $F$ is a
+> $4$-form, then $*F$ is a $11-4=7$-form, then it should be the field
+> strength tensor of some $6$-form potential, $dA_6=*F$, But a $6$-form is
 > perfectly suited to be integrated over a $6$-dimensional world-volume,
 > i.e. a 5-brane! Here comes the M5-brane into the play. Of course, in
 > 11D SUGRA, the membrane is the fundamental object and the M5-brane is
@@ -466,13 +466,13 @@ marrow! Any help would be appreciated.
 > The other question was what this had to do with the theory of Smolin?
 >
 > In the BFSS matrix model, there is only one kind of objects,
-> matrix-valued 1-forms (D0-branes).
+> matrix-valued $1$-forms (D0-branes).
 >
 > These have a nice interpretation in terms of M2-branes (that's how
 > modern-day physicists write membranes...:->) wrapped on the two
 > light-cone coordinates, but what is the role of M5-branes in this game
 > is unclear. While in the matrix model proposed by Smolin in
-> hep-th/0002009, there are more terms involving also a 4-form, which
+> hep-th/0002009, there are more terms involving also a $4$-form, which
 > might be related with a wrapped M5-brane. This raises the hope that
 > this matrix model might be a better try for a non-perturbative version
 > of M-theory than the usual BFSS one. But this has to be investigated

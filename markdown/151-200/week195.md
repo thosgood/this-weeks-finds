@@ -792,7 +792,7 @@ John Baez wrote:
 >     > (#) that every hermitian metric h on a complex manifold X has a
 >     >     decomposition h = g+iw, where g is a Riemannian metric on X_R
 >     >     (and X_R is the smooth manifold X without its complex structure),
->     >     and w is a 2-form on X_R;
+>     >     and w is a $2$-form on X_R;
 >     >
 >     >(#) and that each of h,g,w determines the other two via the R-vector
 >     >     bundle morphism J\colon  T(X_R) \to  T(X_R) given by Jv = iv (where the
@@ -827,7 +827,7 @@ John Baez wrote:
 >     Btw, there is such a thing as an "almost Kaehler manifold",
 >     which is an almost complex manifold where each tangent space
 >     is equipped with a complex inner product h = g+iw such that the
->     imaginary part w is a closed 2-form.  But, I don't see why
+>     imaginary part w is a closed $2$-form.  But, I don't see why
 >     the existence of these things serves as a counterexample to
 >     my hope.
 

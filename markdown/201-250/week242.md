@@ -341,7 +341,7 @@ So, we get a relation like this:
 
 I like this a lot: it reminds me of the title of Weyl's famous book
 "Raum, Zeit, Materie", meaning "Space, Time, Matter". He never
-guessed this trio was related to the objects, morphisms and 2-morphisms
+guessed this trio was related to the objects, morphisms and $2$-morphisms
 in a weak $2$-category! It's too bad we can't seem to get something like
 this to work for full-fledged quantum gravity.
 
@@ -400,7 +400,7 @@ to isomorphism whenever possible.
 A few more details might help....
 
 A $2$-category has a set of objects, a set of morphisms f\colon  X \to  Y going
-from any object X to to any object Y, and a set of 2-morphisms T: f \Rightarrow
+from any object X to to any object Y, and a set of $2$-morphisms T: f \Rightarrow
 g going from any morphism f: X \to Y to any morphism g\colon  X \to  Y. We can
 visualize the objects as dots:
 
@@ -412,7 +412,7 @@ the morphisms as arrows:
                        f           
                 X o---->----o Y
 
-and the 2-morphisms as bigons:
+and the $2$-morphisms as bigons:
 
                        f 
                     --->---
@@ -430,7 +430,7 @@ We can compose morphisms like this:
            o---->----o---->----o             gives       o--->---o
            X         Y         Z                         X       Z
 
-We can also compose 2-morphisms vertically:
+We can also compose $2$-morphisms vertically:
 
                      f                                          f
                  ---->----                                 --->---  
@@ -469,7 +469,7 @@ and there are identity morphisms that satisfy these laws on the nose:
 1f = f = f1
 
 In a weak $2$-category, these equations are replaced by 2-isomorphisms -
-that is, invertible 2-morphisms. And, these 2-isomorphisms need to
+that is, invertible $2$-morphisms. And, these 2-isomorphisms need to
 satisfy new equations of their own!
 
 What about double categories?

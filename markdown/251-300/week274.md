@@ -185,7 +185,7 @@ dimensional 2-vector spaces, available as
 
 A group is a category with one object, all of whose morphisms are
 invertible. Similarly, a 2-group is a $2$-category with one object, all of
-whose morphisms and 2-morphisms are invertible. Just as we can define
+whose morphisms and $2$-morphisms are invertible. Just as we can define
 "Lie groups" to be groups where the group operations are smooth, we
 can define "Lie 2-groups" to be 2-groups where all the 2-group
 operations are smooth. Lie groups are wonderful things, so we can hope
@@ -204,7 +204,7 @@ representations on finite-dimensional 2-vector spaces!
 
 In fact, the problem already shows up for representations of plain old
 Lie *groups* on 2-vector spaces. A Lie group can be seen as a special
-sort of Lie 2-group, where the only 2-morphisms are identity morphisms.
+sort of Lie 2-group, where the only $2$-morphisms are identity morphisms.
 
 The problem is that unlike a vector space, a 2-vector space has a unique
 basis - at least up to isomorphism. In C^n there's an obvious basis
@@ -429,7 +429,7 @@ of these models as discretized path integrals for gauge theories with a
 "gauge 2-group". To compute the path integral you take a 4-manifold,
 triangulate it, and label the edges by representations, the triangles by
 intertwiners, and the tetrahedra by 2-intertwiners. Then you compute a
-number for each 4-simplex, multiply all these numbers together, and sum
+number for each $4$-simplex, multiply all these numbers together, and sum
 the result over labellings.
 
 Baratin and Freidel have done a lot of interesting computations in the

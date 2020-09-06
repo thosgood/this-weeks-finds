@@ -172,9 +172,9 @@ It was an attempt to completely describe the algebraic structure of the
 $n$-category nCob, where:
 
 -   objects are 0d manifolds,
--   1-morphisms are 1d manifolds with boundary,
--   2-morphisms are 2d manifolds with corners,
--   3-morphisms are 3d manifolds with corners,
+-   $1$-morphisms are 1d manifolds with boundary,
+-   $2$-morphisms are 2d manifolds with corners,
+-   $3$-morphisms are 3d manifolds with corners,
 -   ...
 
 and so on up to dimension n. Unfortunately, at the time we proposed it,
@@ -191,9 +191,9 @@ between these as morphisms above dimension n. This gives an \infty-category
 version of nCob, where:
 
 -   objects are 0-dimensional manifolds,
--   1-morphisms are $1$-dimensional manifolds with boundary,
--   2-morphisms are $2$-dimensional manifolds with corners,
--   3-morphisms are $3$-dimensional manifolds with corners,
+-   $1$-morphisms are $1$-dimensional manifolds with boundary,
+-   $2$-morphisms are $2$-dimensional manifolds with corners,
+-   $3$-morphisms are $3$-dimensional manifolds with corners,
 -   ...
 -   $n$-morphisms are $n$-dimensional manifolds with corners,
 -   $(n+1)$-morphisms are diffeomorphisms,
@@ -241,10 +241,10 @@ And, Ulrike Tillmann gave a talk about this paper! It computes the
 "nerve" of the (\infty,1)-category where:
 
 -   objects are $(n-1)$-dimensional manifolds,
--   1-morphisms are $n$-dimensional manifolds with boundary,
--   2-morphisms are diffeomorphisms,
--   3-morphisms are homotopies between diffeomorphisms,
--   4-morphisms are homotopies between homotopies,
+-   $1$-morphisms are $n$-dimensional manifolds with boundary,
+-   $2$-morphisms are diffeomorphisms,
+-   $3$-morphisms are homotopies between diffeomorphisms,
+-   $4$-morphisms are homotopies between homotopies,
 -   ...
 
 The "nerve" is a trick for turning any sort of \infty-category into a
@@ -256,8 +256,8 @@ In her talk, she went further and computed the nerve of the
 (\infty,k)-category where:
 
 -   objects are (n-k)-dimensional manifolds,
--   1-morphisms are (n-k+1)-dimensional manifolds with boundary,
--   2-morphisms are (n-k+2)-dimensional manifolds with corners,
+-   $1$-morphisms are (n-k+1)-dimensional manifolds with boundary,
+-   $2$-morphisms are (n-k+2)-dimensional manifolds with corners,
 -   ...
 -   k-morphisms are $n$-dimensional manifolds with corners,
 -   (k+1)-morphisms are diffeomorphisms,

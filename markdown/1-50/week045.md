@@ -123,7 +123,7 @@ gauge transformations. Kronheimer and Mrowka show the "moduli space" $M$
 is compact.
 
 One can also perturb the equations above as follows. If we have any
-self-dual 2-form $\delta$ on $X$ we can consider
+self-dual $2$-form $\delta$ on $X$ we can consider
 $$\begin{aligned}D_A\psi &= 0 \\ F^+ +i\delta &= i\sigma(\psi,\psi).\end{aligned}$$
 and get a moduli space $M(\delta)$. This will still be compact if $\delta$ is nice
 (here I gloss over issues of analysis).

@@ -429,19 +429,19 @@ For example, what does the inclusion of H_2 in A_4 really look like?
 
 It's actually quite beautiful. H_2 is the symmetry group of a regular
 pentagon, including rotations and reflections. A_4 happens to be the
-symmetry group of a 4-simplex. If you draw a 4-simplex in the plane, it
+symmetry group of a $4$-simplex. If you draw a $4$-simplex in the plane, it
 looks like a pentagram:
 
 ::: {align="center"}
 ![](240px-Complete_graph_K5.svg.png)
 :::
 
-So, any symmetry of the pentagon gives a symmetry of the 4-simplex. So,
+So, any symmetry of the pentagon gives a symmetry of the $4$-simplex. So,
 we get an inclusion of H_2 in A_4.
 
 People often say that Penrose tilings arise from lattices in 4d space.
 Maybe I'm finally starting to understand how! The A_4 lattice has a
-bunch of 4-simplices in it - but when we project these onto the plane
+bunch of $4$-simplices in it - but when we project these onto the plane
 correctly, they give pentagrams. I'd be very happy if this were the
 key.
 

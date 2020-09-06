@@ -403,9 +403,9 @@ mentioned in ["Week 209"](#week209), taking R to be the real
 numbers. Here:
 
 -   there's one object, the real numbers R.
--   the 1-morphisms are algebras A over R.
--   the 2-morphisms M\colon  A \to  B are (A,B)-bimodules.
--   the 3-morphisms f\colon  M \to  N are (A,B)-bimodule morphisms.
+-   the $1$-morphisms are algebras A over R.
+-   the $2$-morphisms M\colon  A \to  B are (A,B)-bimodules.
+-   the $3$-morphisms f\colon  M \to  N are (A,B)-bimodule morphisms.
 
 This could let us treat real, complex and quaternionic quantum mechanics
 as part of a single structure.

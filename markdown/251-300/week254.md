@@ -457,7 +457,7 @@ which I explained last Week!
 The even part of E(5|10) is the Lie algebra of divergence-free complex
 vector fields on C^5.
 
-The odd part of E(5|10) consists of closed complex 2-forms on C^5.
+The odd part of E(5|10) consists of closed complex $2$-forms on C^5.
 
 The bracket of two even guys is the usual Lie bracket of vector fields.
 
@@ -465,7 +465,7 @@ The bracket of an even guy and an odd guy is the usual "Lie
 derivative" of a differential form with respect to a vector field.
 
 The only tricky bit is the bracket of two odd guys! So, suppose μ and ν
-are closed complex 2-forms on C^5. Their wedge product is a 4-form μ ^
+are closed complex $2$-forms on C^5. Their wedge product is a $4$-form μ ^
 ν. But, we can identify this with a vector field v by demanding:
 
 i~v~ vol = μ ^ ν
@@ -475,7 +475,7 @@ Here vol is the volume form:
 vol = dx_1 ^ dx_2 ^ dx_3 ^ dx_4 ^ dx_5
 
 and i~v~ vol is the "interior product", which feeds v into vol and
-leaves us with a 4-form. You can check that this vector field v is
+leaves us with a $4$-form. You can check that this vector field v is
 divergence-free. So, we define the bracket of μ and ν to be v.
 
 \mathfrak{sl}(5,C) sits inside the even part of E(5|10) in a nice way, as the

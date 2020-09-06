@@ -105,7 +105,7 @@ These are categories with objects, morphisms between objects, and also
 "2-morphisms" between objects. The idea is simply that tangles are
 morphisms between sets of points (i.e., each of the tangles in the
 picture above are morphisms from 3 points to 3 points), while surfaces
-in $\mathbb{R}^4$ are 2-morphisms between tangles. The instigators of the
+in $\mathbb{R}^4$ are $2$-morphisms between tangles. The instigators of the
 $2$-categorical approach here seem to be Kapranov and Voevodsky, whose
 paper "$2$-categories and Zamolodhikov tetrahedra equations", to appear
 in Proc. Symp. in Pure Math., is something I will have to get ahold of

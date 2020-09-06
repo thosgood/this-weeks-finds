@@ -158,7 +158,7 @@ Here's what \operatorname{Hom}(B,C) is like:
 
     \operatorname{Hom}(B,C) has strict 2-functors from B to C as objects,
                  strict natural transformations between these as morphisms,
-                 modifications between these as 2-morphisms.
+                 modifications between these as $2$-morphisms.
 
 We can pose the same question with the Gray tensor product replacing the
 Cartesian product. Given $2$-categories B and C there's a $2$-category
@@ -174,7 +174,7 @@ Here's what \[B,C\] is like:
 
     [B,C] has strict 2-functors from B to C as objects,
               weak natural transformations between these as morphisms, 
-              modifications between these as 2-morphisms.
+              modifications between these as $2$-morphisms.
 
 This suggests that we consider a $3$-category intermediate between
 Strict2Cat and Weak2Cat. It's called Gray, and it goes like this:
@@ -297,8 +297,8 @@ Part of the idea is that if you hand me a space X, I can cook up an
 
      points of X as objects,
      paths in X as morphisms,
-     homotopies between paths in X as 2-morphisms,
-     homotopies between homotopies between paths in X as 3-morphisms,
+     homotopies between paths in X as $2$-morphisms,
+     homotopies between homotopies between paths in X as $3$-morphisms,
      etc....
 
 This is called the "fundamental \infty-groupoid of X".
@@ -308,8 +308,8 @@ I can cook up an \infty-category which has:
 
      nice objects of C as objects,
      morphisms in C as morphisms,
-     homotopies between morphisms in C as 2-morphisms,
-     homotopies between homotopies between morphisms in C as 3-morphisms,
+     homotopies between morphisms in C as $2$-morphisms,
+     homotopies between homotopies between morphisms in C as $3$-morphisms,
      etc....
 
 The basic idea here is simple: we're studying homotopies between
@@ -394,7 +394,7 @@ The rough idea is that we have a weak $2$-category with:
 
      spaces as objects,
      spectra over X x Y as morphisms from X to Y,
-     maps between spectra over X x Y as 2-morphisms.
+     maps between spectra over X x Y as $2$-morphisms.
 
 Lots of ideas from "parametrized" stable homotopy theory are neatly
 encoded as results about this $2$-category.

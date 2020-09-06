@@ -6,7 +6,7 @@ mathematics and physics. What's an $n$-category? Well, in a sense that's
 the big question! Roughly speaking, it's a structure where there are a
 bunch of "objects", and for any pair of objects $x,y$ a bunch of
 "morphisms" from $x$ to $y$, written $f\colon x \to y$, and for any pair of
-morphisms $f, g\colon x \to y$ a bunch of "2-morphisms" from $f$ to $g$, written $F\colon f \Rightarrow g$, and for any pair of 2-morphisms $F, G\colon f \Rightarrow g$ a bunch of
+morphisms $f, g\colon x \to y$ a bunch of "2-morphisms" from $f$ to $g$, written $F\colon f \Rightarrow g$, and for any pair of $2$-morphisms $F, G\colon f \Rightarrow g$ a bunch of
 "3-morphisms" from $F$ to $G$, ... and so on, up to $n$-morphisms. Ordinary
 categories, or $1$-categories, have been studied since the 1940s or so,
 when they were invented by Eilenberg and Mac Lane. Anyone wanting to get
@@ -25,7 +25,7 @@ you look for them. Perhaps the most obvious place is topology. If you
 think of a point in a space as an object, and a path between two points
 as a morphism:
 $$x\xrightarrow{\quad f\quad}g$$
-you are easily tempted to think of a "path of paths" as a 2-morphism.
+you are easily tempted to think of a "path of paths" as a $2$-morphism.
 Here a "path of paths" is just a continuous 1-parameter family of
 paths from x to y, which you can think of as tracing out a $2$-dimensional
 surface, as follows:
@@ -48,7 +48,7 @@ $1$-categories, which have a mere *set* of objects, so that set theorists
 don't start freaking out at a certain point.) To understand why Cat is
 a $2$-category is a bit of work, but as objects it has categories, as
 morphisms it has the usual sort of morphisms between categories,
-so-called "functors", and as 2-morphisms it has the usual sort of
+so-called "functors", and as $2$-morphisms it has the usual sort of
 things that go between functors, so-called "natural transformations".
 These are the bread and butter of category theory; just take my word for
 it if you haven't studied them yet! Okay, so Cat is a $2$-category, so
@@ -90,7 +90,7 @@ concerning $n$-categories, topology, and physics:
 
 One of the main themes of this paper is what I sometimes jokingly call
 the "periodic table". Say you have an $(n+k)$-category with only one
-object, one morphism, one 2-morphism, ... and only one $(k-1)$-morphism.
+object, one morphism, one $2$-morphism, ... and only one $(k-1)$-morphism.
 Then all the interest lies in the $k$-morphisms, the $(k+1)$-morphisms, and
 so on up to the $(k+n)$-morphisms. So there are $n$ interesting levels of
 morphism, and we can actually think of our $(n+k)$-category as an
@@ -137,7 +137,7 @@ monoidal $n$-category $\mathcal{C}$. It's a special sort of $(n+k)$-category, so
 object in $(n+k)\mathsf{Cat}$. But $(n+k)\mathsf{Cat}$, remember, is an $(n+k+1)$-category. Now
 look at the largest sub-$(n+k+1)$-category of $(n+k)\mathsf{Cat}$ which has $\mathcal{C}$ as its
 only object, $1_{\mathcal{C}}$ (the identity of $\mathcal{C}$) as its only morphism, $1_{1_{\mathcal{C}}}$ as
-its only 2-morphism, $1_{1_{1_{\mathcal{C}}}}$ as its only 3-morphism, and so on, up to
+its only $2$-morphism, $1_{1_{1_{\mathcal{C}}}}$ as its only $3$-morphism, and so on, up to
 $1_{1_{1_{\scriptsize\ldots}}}$ as its only $k$-morphism. Let's call this $\mathcal{C}'$. If one
 keeps count, this should be a $(k+1)$-tuply monoidal $n$-category. That's
 how it goes.

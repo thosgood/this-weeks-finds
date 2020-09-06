@@ -417,8 +417,8 @@ oriented frame bundle is a principal \mathrm{SO}(n) bundle. This has
 "characteristic classes"; the first interesting one is the "first
 Pontryagin class", which is an element in the fourth integral
 cohomology group of M. You can get a representative of this in deRham
-cohomology by picking a connection, taking its curvature 2-form F and
-multiplying the closed 2-form
+cohomology by picking a connection, taking its curvature $2$-form F and
+multiplying the closed $2$-form
 
 \operatorname{tr}(F ^ F)
 

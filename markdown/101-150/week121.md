@@ -242,7 +242,7 @@ crucial when we try to *iterate* the process of categorification.
 To *iterate* the process of categorification, we need a concept of
 "$n$-category" --- roughly, an algebraic structure consisting of a
 collection of objects (or "0-morphisms"), morphisms between objects
-(or "1-morphisms"), 2-morphisms between morphisms, and so on up to
+(or "1-morphisms"), $2$-morphisms between morphisms, and so on up to
 $n$-morphisms. There are various ways of making this precise, and right
 now there is a lot of work going on devoted to relating these different
 approaches. But the basic thing to keep in mind is that the concept of

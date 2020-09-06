@@ -601,7 +601,7 @@ equivalent, roughly this:
 > spaces in quasi-categories](ams_2009/Spivak_AMS_UCR_2009.mov)".
 > [Quasicategories](http://arxiv.org/abs/math/0608040) are a nice way to
 > formalize the idea of an (\infty,1)-category - that is, an \infty-category where
-> all the morphisms above the 1-morphisms are weakly invertible.
+> all the morphisms above the $1$-morphisms are weakly invertible.
 > Technically, quasicategories they're just [simplicial
 > sets](http://en.wikipedia.org/wiki/Simplicial_set) with a special
 > property. So, one can study them using all the simplicial machinery

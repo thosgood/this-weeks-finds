@@ -115,13 +115,13 @@ Now... on to p-form electromagnetism!
 
 In ordinary electromagnetism, the secret star of the show turns out to
 be not the electromagnetic field but the "vector potential", A. At
-least locally, we can think of this as a 1-form. A 1-form is just a
+least locally, we can think of this as a $1$-form. A $1$-form is just a
 gadget that you can integrate along a path and get a number. In the case
 of the vector potential, this number describes the change in phase that
 a charged particle acquires as it moves along this path.
 
-The 1-form A gives rise to a 2-form F called the "electromagnetic
-field". A 2-form is a gadget you can integrate over a surface and get a
+The $1$-form A gives rise to a $2$-form F called the "electromagnetic
+field". A $2$-form is a gadget you can integrate over a surface and get a
 number. Here's how we get F from A. Suppose we move a charged particle
 around a loop that's the boundary of some surface. Then the integral of
 F over this surface is defined to be the integral of A around the loop!
@@ -146,15 +146,15 @@ see:
 
 The idea of p-form electromagnetism is to replace point particles by
 strings or higher-dimensional membranes. To see how this goes, it's
-enough to look at 2-form electromagnetism.
+enough to look at $2$-form electromagnetism.
 
-In 2-form electromagnetism, the star of the show is a 2-form, A. As
-already mentioned, a 2-form is a gadget you can integrate over a surface
-and get a number. In 2-form electromagnetism, this number describes the
+In $2$-form electromagnetism, the star of the show is a $2$-form, A. As
+already mentioned, a $2$-form is a gadget you can integrate over a surface
+and get a number. In $2$-form electromagnetism, this number describes the
 change in phase that a charged string acquires as it moves along,
 tracing out a surface in spacetime.
 
-The 2-form A gives rise to a 3-form, F. A 3-form is a gadget you can
+The $2$-form A gives rise to a $3$-form, F. A $3$-form is a gadget you can
 integrate over a $3$-dimensional region and get a number. Suppose we move
 a charged string and let it trace out a surface that's the boundary of
 some $3$-dimensional region. Then the integral of F over this region is
@@ -262,7 +262,7 @@ wrote a paper with Alissa Crans and Urs Schreiber constructing 2-groups
 (categorified groups) from the math of string theory - more precisely,
 from central extensions of loop groups. Since then I've been spending a
 lot of time writing a paper with Urs on higher gauge theory, where we
-set up a theory of parallel transport along surfaces. 2-form
+set up a theory of parallel transport along surfaces. $2$-form
 electromagnetism is the simplest case of this theory. Meanwhile, Danny
 has been thinking about connections on 2-vector bundles and their
 relation to the cohomology of Lie 2-algebras.
@@ -379,12 +379,12 @@ laws hold up to natural isomorphism. They play a role in higher gauge
 theory like that of groups in ordinary gauge theory. In higher gauge
 theory, parallel transport along a path is described by an *object* in a
 2-group, while parallel transport along a path-of-paths is described by
-a *morphism*. In 2-form electromagnetism we use a very simple
+a *morphism*. In $2$-form electromagnetism we use a very simple
 "abelian" 2-group, which has one object and either the real line or
 the circle as morphism. But there are other more interesting
 "nonabelian" examples.
 
-If you want to learn more about 2-form electromagnetism from this
+If you want to learn more about $2$-form electromagnetism from this
 perspective, try ["Week 210"](#week210). For 2-groups in general,
 try this paper:
 
@@ -654,9 +654,9 @@ In particular, he wanted to know the definition of "2-group" and
 > All this categorifies painlessly:
 >
 > A 2-group is just a $2$-category with one object and with all morphisms
-> and 2-morphisms invertible. Slick! But, we sometimes prefer to think
+> and $2$-morphisms invertible. Slick! But, we sometimes prefer to think
 > of a 2-group as a category: the morphisms of our $2$-category get called
-> "objects" of this category, and the 2-morphisms get called
+> "objects" of this category, and the $2$-morphisms get called
 > "morphisms". This category then has a multiplication functor
 >
 > m\colon  G \times G \to  G
@@ -679,13 +679,13 @@ In particular, he wanted to know the definition of "2-group" and
 > group, and so on.
 >
 >       Let's stick to F abelian. You think of AUT(F) as being the $2$-category with
->       objects Aut(F), 1-morphisms Hom(φ,\psi)=F if φ=\psi and empty otherwise
->       (because F is abelian). What are the 2-morphisms? Is Hom(φ,\psi) supposed
+>       objects Aut(F), $1$-morphisms Hom(φ,\psi)=F if φ=\psi and empty otherwise
+>       (because F is abelian). What are the $2$-morphisms? Is Hom(φ,\psi) supposed
 >       to be a category with objects F?
 >
 > Alas, you're one dimension down: thought of as a $2$-category, we want
 > our 2-group AUT(F) to have one object, the usual group Aut(F) as
-> morphisms, and conjugations between these as 2-morphisms.
+> morphisms, and conjugations between these as $2$-morphisms.
 >
 > Here's how we get this. Think of our group F as a category. Then let
 > AUT(F) has F as its only object, invertible functors
@@ -693,7 +693,7 @@ In particular, he wanted to know the definition of "2-group" and
 > a\colon  F \to  F
 >
 > as its morphisms, and natural isomorphisms between these as its
-> 2-morphisms.
+> $2$-morphisms.
 >
 > That's very slick. But let me say this in a different way using the
 > other viewpoint, where we think of a 2-group as a "category with
@@ -1190,9 +1190,9 @@ Finally, here's my reply to a bemused comment by Jim Stasheff:
 > :::
 >
 > Here I'm using B^op^ to mean B with the directions of both
-> 1-morphisms and 2-morphisms reversed. Hermida follows tradition and
-> calls this B^coop^ - "op" for reversing 1-morphisms and "co" for
-> reversing 2-morphisms. But, it looks like we'll be needing to reverse
+> $1$-morphisms and $2$-morphisms reversed. Hermida follows tradition and
+> calls this B^coop^ - "op" for reversing $1$-morphisms and "co" for
+> reversing $2$-morphisms. But, it looks like we'll be needing to reverse
 > all kinds of morphisms in $n$-category case, so we'll need a short name
 > for that.
 >

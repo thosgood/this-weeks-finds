@@ -22,7 +22,7 @@ little about this wonderful conference.
 You may know that in classical mechanics, the space of states of a
 physical system is called its "phase space". Often this is described
 by a "symplectic manifold" - a manifold equipped with a nondegenerate
-closed 2-form. Sometimes it's described by a "Poisson manifold" - a
+closed $2$-form. Sometimes it's described by a "Poisson manifold" - a
 manifold equipped with a bracket operation on its smooth functions,
 making the smooth functions into a Lie algebra and also satisfying the
 product rule:
@@ -133,8 +133,8 @@ of it:
 
     k = 5         " "             " "                "  "
 
-An $n$-category has objects, 1-morphisms betwen objects, 2-morphisms
-between 1-morphisms, and so on up to the nth level. A "k-tuply
+An $n$-category has objects, $1$-morphisms betwen objects, $2$-morphisms
+between $1$-morphisms, and so on up to the nth level. A "k-tuply
 monoidal" $n$-category is an (n+k)-category that's trivial on the bottom
 k levels. It masquerades as an $n$-category with extra bells and whistles.
 As you can see, we get lots of fun structures this way.

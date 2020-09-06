@@ -124,12 +124,12 @@ a product of 4 copies of $\mathrm{SO}(3,1)$.
 In the original Lorentzian Barrett-Crane model, spacetime is made of
 4-simplices whose triangular faces are space/timelike --- in other words,
 like little bits of the $xt$ plane in Minkowski spacetime. This model also
-allows 4-simplices whose triangular faces are space/spacelike --- in other
+allows $4$-simplices whose triangular faces are space/spacelike --- in other
 words, like little bits of the $xy$ plane. This amounts to using a
 different class of irreducible unitary representations of the Lorentz
 group to label the triangles.
 
-7) Daniele Oriti and Ruth M. Williams, "Gluing 4-simplices: a derivation of the Barrett-Crane spin foam model for Euclidean quantum gravity", available as [`gr-qc/0010031`](https://arxiv.org/abs/gr-qc/0010031).
+7) Daniele Oriti and Ruth M. Williams, "Gluing $4$-simplices: a derivation of the Barrett-Crane spin foam model for Euclidean quantum gravity", available as [`gr-qc/0010031`](https://arxiv.org/abs/gr-qc/0010031).
 
 This gives an alternate derivation of the Riemannian Barrett-Crane spin
 foam model starting from the Lagrangian for Riemannian general

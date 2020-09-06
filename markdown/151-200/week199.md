@@ -352,13 +352,13 @@ each object:
                            .
                            x
 
-one 1-simplex for each morphism:
+one $1$-simplex for each morphism:
 
                            f
                     .------>------.
                     x             y
 
-one 2-simplex for each composable pair of morphisms:
+one $2$-simplex for each composable pair of morphisms:
 
                            y
                            .

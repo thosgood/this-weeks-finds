@@ -260,12 +260,12 @@ Here the details depend on which spin foam model you're using. In the
 Riemannian Barrett-Crane model, you label the triangles by spins j = 0,
 1/2, 1, 3/2.... But in the Lorentzian Barrett-Crane model, which should
 be closer to the real world, you label them by arbitrary positive real
-numbers. Either way, a spacetime chopped up into 4-simplices labelled
+numbers. Either way, a spacetime chopped up into $4$-simplices labelled
 with numbers is called a "spin foam".
 
 To compute an amplitude for one of these spin foams, you first use the
 labellings on the triangles and follow certain specific formulas to
-calculate a complex number for each 4-simplex, each tetrahedron, and
+calculate a complex number for each $4$-simplex, each tetrahedron, and
 each triangle. Then you multiply all these numbers together to get the
 amplitude!
 
@@ -273,7 +273,7 @@ In ["Week 170"](#week170), I mentioned some mysterious news about
 the Barrett-Crane model. At the time - this was back in August of 2001 -
 my collaborators Dan Christensen and Greg Egan were using a
 supercomputer to calculate the amplitudes for lots of spin foams. The
-hard part was calculating the numbers for 4-simplices, which are called
+hard part was calculating the numbers for $4$-simplices, which are called
 the "10j symbols" since they depend on the labels of the 10 triangles.
 They had come up with an efficient algorithm to compute these 10j
 symbols, at least in the Riemannian case. And using this, they found
@@ -281,7 +281,7 @@ that the 10j symbols were *not* coming out as an approximate calculation
 by Barrett and Williams had predicted!
 
 Barrett and Williams had done a "stationary phase approximation" to
-argue that in the limit of a very large 4-simplex, the 10j symbols were
+argue that in the limit of a very large $4$-simplex, the 10j symbols were
 asymptotically equal to something you'd predict from general
 relativity. This seemed like a hint that the Barrett-Crane model really
 did reduce to general relativity at large distance scales, as desired.

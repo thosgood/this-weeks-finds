@@ -101,10 +101,10 @@ To really understand this, we probably need to understand
 to know about $n$-categories. Roughly speaking, an $n$-category is an
 algebraic structure that has a bunch of things called "objects", a
 bunch of things called "morphisms" that go between objects, and
-similarly 2-morphisms going between morphisms, 3-morphisms going between
+similarly $2$-morphisms going between morphisms, $3$-morphisms going between
 2-morphisms, and so on up to the number n. You can think of the objects
 as "things" of whatever sort you like, the morphisms as processes
-going from one thing to another, the 2-morphisms as meta-processes going
+going from one thing to another, the $2$-morphisms as meta-processes going
 from one process to another, and so on. Depending on how you play the
 $n$-category game, there are either no morphisms after level n, or only
 simple and bland ones playing the role of "equations". The idea is

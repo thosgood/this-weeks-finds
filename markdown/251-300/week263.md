@@ -204,7 +204,7 @@ algebraic gadgets besides groups. Second of all, it works for
 
 For example, a group is a category with one object, all of whose
 morphisms are invertible. Similarly, an "n-group" is an $n$-category
-with one object, all of whose 1-morphisms, 2-morphisms and so on are
+with one object, all of whose $1$-morphisms, $2$-morphisms and so on are
 invertible. We can build up $n$-groups as layer cakes where the layers are
 groups. It's a more elaborate version of what I just described - and it
 uses not just "2-cocycles" but also "3-cocycles" and so on. I never

@@ -20,7 +20,7 @@ metric is likely to be worth having. Also, quantum gravity appears to be
 tied mathematically to simpler TQFTs in a variety of ways. In
 particular, the Ashtekar formulation of quantum gravity is closely
 related to a $4$-dimensional TQFT variously known as "$B \wedge F$ theory,"
-"BF theory," "topological 2-form gravity" or "topological quantum
+"BF theory," "topological $2$-form gravity" or "topological quantum
 gravity". This in turn is closely related to Chern-Simons theory in 3
 dimensions.
 
@@ -31,7 +31,7 @@ we have a principal $G$-bundle $E$ over $M$, where $G$ is a Lie group whose Lie
 algebra is equipped with an invariant trace on it. The two fields in BF
 theory are a connection $A$ on $E$ --- which we can think of locally as a
 $\mathrm{Lie}(G)$-valued one-form --- and a $\mathrm{Lie}(G)$-valued $(n-2)$-form called $B$. If
-$F$ denotes the curvature of $A$, which is a $\mathrm{Lie}(G)$-valued 2-form, we can
+$F$ denotes the curvature of $A$, which is a $\mathrm{Lie}(G)$-valued $2$-form, we can
 take the wedge product $B\wedge F$ and get a $\mathrm{Lie}(G)$-valued $n$-form, which
 gives the Lagrangian
 $$\operatorname{tr}(B \wedge F),$$

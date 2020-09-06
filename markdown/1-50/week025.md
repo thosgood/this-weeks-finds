@@ -57,8 +57,8 @@ evolution acts on this space as a one-parameter group of
 diffeomorphisms. The remarkable fact is that time evolution is
 determined by an observable, the Hamiltonian, or energy function, by
 means of a geometric structure on phase space called a symplectic
-structure. This is a nondegenerate closed 2-form. The idea is that the
-differential of the Hamiltonian is a 1-form; since the symplectic
+structure. This is a nondegenerate closed $2$-form. The idea is that the
+differential of the Hamiltonian is a $1$-form; since the symplectic
 structure is nondegenerate it sets up an isomorphism of the tangent and
 cotangent bundles of phase space, allowing us to turn the differential
 of the Hamiltonian into a vector field; this vector field generates the
@@ -86,7 +86,7 @@ out one doesn't really want to use *functions* on phase space, but
 instead sections of a certain complex line bundle. The point is that the
 classification of line bundles fits in beautifully with symplectic
 geometry. We can equip any line bundle with a hermitian connection; the
-curvature of this connection is a closed 2-form; this determines an
+curvature of this connection is a closed $2$-form; this determines an
 element of the 2nd cohomology of phase space called the first Chern
 class. An important theorem says this class is necessarily an *integral*
 class, that is, it comes from an element of the 2nd cohomology with
@@ -174,7 +174,7 @@ still quite murky to me.
 
 Second, we can do better if we restrict ourself to knots (possibly with
 nice self-intersections) rather than loops. Namely, given a 3-manifold $M$
-equipped with a 3-form, one gets, not just an element of the 2nd
+equipped with a $3$-form, one gets, not just an element of the 2nd
 cohomology of $LM$, but a symplectic structure on the space of knots in $M$,
 say $KM$. It may seem odd to think of the space of knots as a physical
 *phase* space, but Brylinski shows that this idea is related to the work

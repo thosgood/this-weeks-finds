@@ -253,7 +253,7 @@ way of describing 4-manifolds that Broda (see
 ["Week 14"](#week14)) to be isomorphic to that described by Crane
 and Yetter using a state sum model --- i.e., by a discrete analog of a
 path integral in which one chops spacetime up into $4$-dimensional
-"hypertetrahedra" (better known as 4-simplices!), labels their 2d and
+"hypertetrahedra" (better known as $4$-simplices!), labels their 2d and
 3d faces by spins, and sums over labellings. Her work is cited in the
 Broda reference in ["Week 17"](#week17), but I managed luckily to
 get a copy of her thesis:

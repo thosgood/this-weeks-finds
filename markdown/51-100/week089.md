@@ -101,18 +101,18 @@ categories.
 You may or may not remember, but in ["Week 80"](#week80) I
 explained the idea of a "$2$-category" pretty precisely. This is a
 gadget with a bunch of objects, a bunch of morphisms going from one
-object to another, and a bunch of 2-morphisms going from one morphism to
+object to another, and a bunch of $2$-morphisms going from one morphism to
 another. We write $f\colon x\to y$ to denote a morphism $f$ from the object $x$ to
-the object $y$, and we write $F\colon f\Rightarrow g$ to denote a 2-morphism $F$ from the
+the object $y$, and we write $F\colon f\Rightarrow g$ to denote a $2$-morphism $F$ from the
 morphism $f$ to the morphism $g$.
 
 Just as in a category, in a $2$-category we can compose a morphism $f\colon x\to y$
 with a morphism $g\colon y\to z$ to get a morphism $fg\colon x\to z$. (Note that I
 write $fg$ instead of $gf$; I'm going to use this ordering most of the
 time, though I may occaisionally change my mind just to confuse you
-more.) Similarly, we can compose a 2-morphism $F\colon f\Rightarrow g$ with a
-2-morphism $G\colon g\Rightarrow h$ to get a 2-morphism $FG\colon f\Rightarrow h$. This is called
-"vertical composition" of 2-morphisms. We can visualize FG like this:
+more.) Similarly, we can compose a $2$-morphism $F\colon f\Rightarrow g$ with a
+2-morphism $G\colon g\Rightarrow h$ to get a $2$-morphism $FG\colon f\Rightarrow h$. This is called
+"vertical composition" of $2$-morphisms. We can visualize FG like this:
 $$\includegraphics[scale=0.3]{../images/FGnat.pdf}$$
 We stick $F$ on top of $G$ to get $FG$, which is why it's called "vertical"
 composition.
@@ -126,7 +126,7 @@ in ["Week 80"](#week80), but I won't repeat them here. The main
 thing to keep in mind is that a $2$-category is like an abstract
 2-dimensional world... and the axioms for a $2$-category are algebraic
 distillations of the rules for putting things together in 2 dimensions.
-In particular, you can put the 2-morphisms together side by side
+In particular, you can put the $2$-morphisms together side by side
 (horizontally) or one on top of the other (vertically), if they fit.
 
 Later I'll say more about what $2$-categories have to do with
@@ -153,7 +153,7 @@ $$
 I've drawn a triangular shaped gadget that takes two "inputs" from
 the two slanted edges labelled $s$, and spits out one "output" from the
 horizontal edge labelled $s$ on the bottom. It's clear from the geometry
-here that $M$ is something $2$-dimensional --- hence, a 2-morphism --- and that
+here that $M$ is something $2$-dimensional --- hence, a $2$-morphism --- and that
 $s$ is $1$-dimensional --- hence, a morphism. Let's label the corners too:
 $$
   \begin{tikzpicture}
@@ -180,10 +180,10 @@ composite
 $$sss\xRightarrow{M\cdot1_s}ss\xRightarrow{M}s$$
 equals
 $$sss\xRightarrow{1_s\cdot M}ss\xRightarrow{M}s$$
-(Here $1_s\colon s\Rightarrow s$ is the identity 2-morphism from $s$ to itself... the
+(Here $1_s\colon s\Rightarrow s$ is the identity $2$-morphism from $s$ to itself... the
 axioms for a $2$-category say that this exists.) Also, we're often
 interested in situations where there is a "multiplicative unit", that
-is, a 2-morphism $I\colon 1_x\to s$ for which
+is, a $2$-morphism $I\colon 1_x\to s$ for which
 $$s = 1_xs\xRightarrow{I\cdot1_s}ss\xRightarrow{M}s$$
 equals $1_s$, and so does
 $$s = s1_x\xRightarrow{1_s\cdot I}ss\xRightarrow{M}s$$
@@ -194,12 +194,12 @@ What is an example of a monad? Well, consider our original example where
 s is a set and M is a function. We can think of this as living in a
 $2$-category as follows. Our $2$-category will have only one object, $x$. The
 morphisms of this $2$-category are sets, and composing morphisms
-corresponds to taking the Cartesian product of sets. The 2-morphisms of
+corresponds to taking the Cartesian product of sets. The $2$-morphisms of
 this $2$-category are functions between sets.
 
 What does a monad amount to in this case? Well, work it out! The
 multiplicative unit $1_x$ must corresponds to the one-element set; $s$ is
-some set; the 2-morphism $I\colon 1_x\Rightarrow s$ is a function from the
+some set; the $2$-morphism $I\colon 1_x\Rightarrow s$ is a function from the
 one-element set to $s$, which picks out a special *element* of $s$; the
 2-morphism $M\colon ss\Rightarrow s$ is our multiplication operation. The axioms of a
 monad I gave then say that this multiplication is associative and that
@@ -225,7 +225,7 @@ $$
   \end{aligned}
 $$
 You take the $2$-category with just one object, forget the object, call
-the morphisms "objects" and the 2-morphisms "morphisms", and you've
+the morphisms "objects" and the $2$-morphisms "morphisms", and you've
 got a category! But one where you can compose or "multiply" or
 "tensor" objects, because they were secretly morphisms from $x$ to
 itself. For example, $\mathsf{Set}$ is a monoidal category where we can multiply
@@ -269,7 +269,7 @@ which we give a general definition of $n$-categories, and explain this
 Anyway, some of the most interesting monads live not in monoidal
 categories but $2$-categories with lots of objects. The primordial
 $2$-category is Cat, which has (small) categories as objects, functors as
-morphisms and *natural transformations* as 2-morphisms. (A minute ago I
+morphisms and *natural transformations* as $2$-morphisms. (A minute ago I
 gave a way to think of $\mathsf{Cat}$ as a monoidal category. That was a bit
 different than this!) Monads in $\mathsf{Cat}$ are the first monads anyone called
 "monads", I believe. You can read a bunch about them in the bible of

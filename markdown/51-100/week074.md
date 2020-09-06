@@ -42,7 +42,7 @@ only are there "functors" between categories, there are things that
 ply their trade between functors, called "natural transformations". I
 then said that categories, functors, and natural transformations form a
 $2$-category. I didn't really say what a $2$-category is, except to say
-that it has objects, morphisms between objects, and 2-morphisms between
+that it has objects, morphisms between objects, and $2$-morphisms between
 morphisms. Finally, I said that this pattern continues: $n\mathsf{Cat}$ forms an
 $(n+1)$-category.
 
@@ -155,7 +155,7 @@ Physicists wanting to learn more about groupoids might try:
 So: in contrast to a set, which consists of a static collection of
 "things", a category consists not only of objects or "things" but
 also morphisms which can viewed as "processes" transforming one thing
-into another. Similarly, in a $2$-category, the 2-morphisms can be
+into another. Similarly, in a $2$-category, the $2$-morphisms can be
 regarded as "processes between processes", and so on. The eventual
 goal of basing mathematics upon $\omega$-categories is thus to allow us the
 freedom to think of any process as the sort of thing higher-level

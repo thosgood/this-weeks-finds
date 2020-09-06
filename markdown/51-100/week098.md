@@ -353,8 +353,8 @@ list a few chapters that I can understand and like.
 
     - objects like $x$
     - morphisms between objects like $f\colon x\to y$
-    - 2-morphisms between morphisms like $F\colon f\to g$
-    - 3-morphisms between 2-morphisms like $T\colon F\to G$
+    - $2$-morphisms between morphisms like $F\colon f\to g$
+    - $3$-morphisms between $2$-morphisms like $T\colon F\to G$
     - ...
 
     and so on ad infinitum. There should be some ways of composing these,
@@ -364,12 +364,12 @@ list a few chapters that I can understand and like.
 
     - objects are points in $X$
     - morphisms are paths between points in $X$
-    - 2-morphisms are continuous 1-parameter families of paths in $X$, i.e. "paths of paths" in $X$
-    - 3-morphisms are "paths of paths of paths" in $X$
+    - $2$-morphisms are continuous 1-parameter families of paths in $X$, i.e. "paths of paths" in $X$
+    - $3$-morphisms are "paths of paths of paths" in $X$
     - ...
 
     and so on. This is better than your garden-variety $\omega$-category because
-    all the morphisms and 2-morphisms and 3-morphisms and so on have
+    all the morphisms and $2$-morphisms and $3$-morphisms and so on have
     inverses, at least "up to homotopy". We call it an "$\omega$-groupoid".
     This $\omega$-groupoid keeps track of the homotopy type of $X$ in a very nice
     way. (If this "$\omega$" stuff is too mind-boggling, you may want to start by
@@ -380,8 +380,8 @@ list a few chapters that I can understand and like.
     homotopy corresponding to it. This is just the infinite-dimensional
     generalization of something I described in ["Week 75"](#week75).
     There, I showed how you could get a groupoid from a "homotopy 1-type"
-    and vice versa. Here there 1-morphisms but no interesting 2-morphisms,
-    3-morphisms, and so on, because the topology of a "homotopy 1-type" is
+    and vice versa. Here there $1$-morphisms but no interesting $2$-morphisms,
+    $3$-morphisms, and so on, because the topology of a "homotopy 1-type" is
     boring in dimensions greater than 1. (In case any experts are reading
     this, what I mean is that its higher homotopy groups are trivial; its
     higher homology and cohomology groups can be very interesting.)

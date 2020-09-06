@@ -50,7 +50,7 @@ go into much detail about it --- I'll just plunge in....
 The original Barrett-Crane model involved a fixed triangulation of
 spacetime. One can also cook up versions where you sum over
 triangulations. In some ways the most natural is to sum over all ways of
-taking a bunch of 4-simplices and gluing them face-to-face until no
+taking a bunch of $4$-simplices and gluing them face-to-face until no
 faces are left free. Some of these ways give you manifolds; others
 don't. In this paper, the authors show that this "sum over
 triangulations" version of the Barrett-Crane model can be thought of as
@@ -135,9 +135,9 @@ But in the present context, the so-called "particles" are really
 quantum tetrahedra! Thus the trick is to write down a Lagrangian giving
 Feynman diagrams with 5-valent vertices. If you do it right, these
 5-valent vertices correspond exactly to ways that 5 quantum tetrahedra
-can fit together as the 5 faces of a 4-simplex! Let's call such a thing
-a "quantum 4-simplex". Then your Feynman diagrams correspond exactly
-to ways of gluing together a bunch of quantum 4-simplices face-to-face.
+can fit together as the 5 faces of a $4$-simplex! Let's call such a thing
+a "quantum $4$-simplex". Then your Feynman diagrams correspond exactly
+to ways of gluing together a bunch of quantum $4$-simplices face-to-face.
 Better yet, if you set things up right, the amplitude for such a Feynman
 diagram exactly matches the amplitude that you'd compute for a
 triangulated manifold using the Barrett-Crane model!
@@ -145,7 +145,7 @@ triangulated manifold using the Barrett-Crane model!
 In short, what we've got here is a quantum field theory whose Feynman
 diagrams describe "quantum geometries of spacetime" --- where spacetime
 is not just a fixed triangulated manifold, but any possible way of
-gluing together a bunch of 4-simplices face-to-face.
+gluing together a bunch of $4$-simplices face-to-face.
 
 Sounds great, eh? So what are the problems? I'll just list three.
 First, we don't know that the "sum over Feynman diagrams" converges

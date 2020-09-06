@@ -34,12 +34,12 @@ work.
 
 To relate spin foams to more traditional ideas about spacetime, one can
 consider spin foams living in a triangulated 4-manifold: one spin foam
-vertex sitting in each 4-simplex, one spin foam edge poking through each
+vertex sitting in each $4$-simplex, one spin foam edge poking through each
 tetrahedron, and one spin foam face intersecting each triangle.
 Labelling the spin foam edges and faces with spins is supposed to endow
 the triangulated 4-manifold with a "quantum 4-geometry". In other
 words, it should let us compute things like the areas of the triangles,
-the volumes of the tetrahedra, and the 4-volumes of the 4-simplices.
+the volumes of the tetrahedra, and the 4-volumes of the $4$-simplices.
 There are some arguments going on now about the right way to do this,
 but it's far from an arbitrary business: the interplay between group
 representation theory and geometry says a lot about how it should go. In
@@ -104,11 +104,11 @@ Regge action. There argument is interesting but rather sketchy. Someone
 should try to fill in the details!
 
 However, it's not clear to me that the large spin limit is physically
-revelant. If spacetime is really made of lots of 4-simplices labelled by
-spins, the 4-simplices have got to be quite small, so the spins
+revelant. If spacetime is really made of lots of $4$-simplices labelled by
+spins, the $4$-simplices have got to be quite small, so the spins
 labelling them should be fairly small. It seems to me that the right
 limit to study is the limit where you triangulate your 4-manifold with a
-huge number of 4-simplices labelled by fairly small spins. After all, in
+huge number of $4$-simplices labelled by fairly small spins. After all, in
 the spin network picture of the quantum black hole, it seems that spin
 network edges labelled by spin $1/2$ contribute most of the states (see
 ["Week 112"](#week112)).
@@ -139,8 +139,8 @@ Let me quote the abstract:
 
 > The evaluation of a relativistic spin network for the classical case
 > of the Lie group $\mathrm{SU}(2)$ is given by an integral formula over copies of
-> $\mathrm{SU}(2)$. For the graph determined by a 4-simplex this gives the
-> evaluation as an integral over a space of geometries for a 4-simplex.
+> $\mathrm{SU}(2)$. For the graph determined by a $4$-simplex this gives the
+> evaluation as an integral over a space of geometries for a $4$-simplex.
 
 Okay, so much for the good news. What about the bad news? To explain
 this I need to get a bit more specific about Barrett and Crane's
@@ -150,7 +150,7 @@ Their approach is based on a certain way to describe the geometry of a
 4-simplex. Instead of specifying lengths of edges as in the old Regge
 approach, we specify bivectors for all its faces. Geometrically, a
 bivector is just an "oriented area element"; technically, the space of
-bivectors is the dual of the space of 2-forms. If we have a 4-simplex in
+bivectors is the dual of the space of $2$-forms. If we have a $4$-simplex in
 R^4 and we choose orientations for its triangular faces, there's an
 obvious way to associate a bivector to each face. We get 10 bivectors
 this way.
@@ -163,15 +163,15 @@ vectors. Third, whenever two triangles are the faces of the same
 tetrahedron, the sum of the corresponding bivectors must be simple.
 
 It turns out that these constraints are almost but *not quite enough* to
-imply that 10 bivectors come from a 4-simplex. Generically, it there are
-four possibilities: our bivectors come from a 4-simplex, the *negatives*
-of our bivectors come from a 4-simplex, their *Hodge duals* come from a
+imply that 10 bivectors come from a $4$-simplex. Generically, it there are
+four possibilities: our bivectors come from a $4$-simplex, the *negatives*
+of our bivectors come from a $4$-simplex, their *Hodge duals* come from a
 4-simplex, or *the negatives of their Hodge duals* come from a
 4-simplex.
 
-If we ignore this and describe the 4-simplex using bivectors satisfying
+If we ignore this and describe the $4$-simplex using bivectors satisfying
 the three constraints above, and then quantize this description, we get
-the picture of a "quantum 4-simplex" that is the starting-point for
+the picture of a "quantum $4$-simplex" that is the starting-point for
 the Barrett-Crane model. But clearly it's dangerous to ignore this
 problem.
 
@@ -188,7 +188,7 @@ Two papers have recently appeared which investigate it further:
 These papers study classical general relativity formulated as a
 constrained $\mathrm{SO}(4)$ BF theory. The constraints needed here are
 mathematically just the same as the constraints needed to ensure that 10
-bivectors come from the faces of an actual 4-simplex! This is part of
+bivectors come from the faces of an actual $4$-simplex! This is part of
 the magic of this approach. But again, if one only imposes the three
 constraints I listed above, it's not quite enough: one gets fields that
 are either solutions of general relativity *or* solutions of three other
@@ -201,7 +201,7 @@ Gravity here at Penn State:
 
 9) Laurent Freidel and Kirill Krasnov, "Discrete space-time volume for $3$-dimensional BF theory and quantum gravity", preprint available as [`hep-th/9804185`](https://arxiv.org/abs/hep-th/9804185).
 
-Freidel and Krasnov study the volume of a single 3-simplex as an
+Freidel and Krasnov study the volume of a single $3$-simplex as an
 observable in the context of the Turaev-Viro model --- a topological
 quantum field theory which is closely related to quantum gravity in
 spacetime dimension 3.

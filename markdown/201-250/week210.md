@@ -486,7 +486,7 @@ discrete spacetime, and then compare it to higher gauge theory on a
 manifold:
 
 23) Hendryk Pfeiffer, Higher gauge theory and a non-Abelian
-generalization of 2-form electrodynamics, Annals Phys. 308 (2003),
+generalization of $2$-form electrodynamics, Annals Phys. 308 (2003),
 447-477. Also available as
 [`hep-th/0304074`](https://arxiv.org/abs/hep-th/0304074).
 

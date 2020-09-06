@@ -136,14 +136,14 @@ student Cattaneo. They are working on BF theory in 3 and 4 dimensions.
 Let me talk about BF theory in 3 dimensions, which is what's most
 directly relevant here. Well, in *any* dimension, say $n$, the fields in
 BF theory are a connection $A$ on a trivial bundle (take your favorite
-gauge group $G$), whose curvature $F$ we'll think of as a 2-form taking
+gauge group $G$), whose curvature $F$ we'll think of as a $2$-form taking
 values in the Lie algebra of $G$, and Lie-algebra-valued $(n-2)$-form $B$.
 Then the Lagrangian of the theory is
 $$L(B,F) = \operatorname{tr}(B \wedge F)$$
 where in the "trace" we're using something like the Killing form to
 get an honest n-form which we can integrate over spacetime.
 
-But in 3 dimensions, since $B$ is a 1-form, you can add an extra
+But in 3 dimensions, since $B$ is a $1$-form, you can add an extra
 "cosmological constant" term and take as your Lagrangian
 $$L(B,F,c) = \operatorname{tr}(B \wedge F + (c^2/3) B \wedge B \wedge B)$$
 where I have put in "$c^2/3$" as my "cosmological constant" for
@@ -155,7 +155,7 @@ just the special case where $G$ is $\mathrm{SO}(2,1)$ or $\mathrm{SO}(3)$, and w
 cosmological constant really is the usual cosmological constant. But
 I'd never noticed it. Recall that the Chern-Simons action is
 $$L(A) = \operatorname{tr}(A \wedge dA + (2/3)A \wedge A \wedge A)$$
-Thus if we have 1-form B around as well, we can set
+Thus if we have $1$-form B around as well, we can set
 $$
   \begin{aligned}
     A' &= A + cB,

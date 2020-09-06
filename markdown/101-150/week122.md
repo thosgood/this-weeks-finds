@@ -129,13 +129,13 @@ known triangulation of $S^4$. So there must be "bottlenecks" that make
 it hard to efficiently explore the set of all triangulations of $S^4$
 using Pachner moves. For example, there must be pairs of triangulations
 such that getting from one to other via Pachner moves requires going
-through triangulations with a *lot* more 4-simplices.
+through triangulations with a *lot* more $4$-simplices.
 
 However, computer simulations using triangulations with up to 65,536
 4-simplices have not yet detected such "bottlenecks". What's going
 on? Well, maybe S^4 actually *is* algorithmically detectable. Or
 perhaps it's not, but the bottlenecks only occur for triangulations
-that have more than 65,536 4-simplices to begin with. Interestingly, one
+that have more than 65,536 $4$-simplices to begin with. Interestingly, one
 dimension up, it's known that the $5$-dimensional sphere is *not*
 algorithmically detectable, so in this case bottlenecks *must* exist ---
 but computer simulations still haven't seen them.

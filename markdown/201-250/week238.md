@@ -197,8 +197,8 @@ element of G and get a tangent vector at the identity of G. But, this is
 nothing but an element of Lie(G)!
 
 So, we have a god-given linear map from tangent vectors on G to the Lie
-algebra Lie(G). This is called a "Lie(G)-valued 1-form" on G, since an
-ordinary 1-form eats tangent vectors and spits out numbers, while this
+algebra Lie(G). This is called a "Lie(G)-valued $1$-form" on G, since an
+ordinary $1$-form eats tangent vectors and spits out numbers, while this
 spits out elements of Lie(G). This particular god-given Lie(G)-valued
 1-form on G is called the "Maurer-Cartan form", and denoted ω.
 
@@ -260,7 +260,7 @@ Lie algebra elements, bracket them in a clever way, and get zero:
 
 \[u,\[v,w\]\] + \[v,\[w,u\]\] + \[w,\[u,v\]\] = 0
 
-while d(ω ^ ω) is a Lie(G)-valued 3-form that happens to vanish, built
+while d(ω ^ ω) is a Lie(G)-valued $3$-form that happens to vanish, built
 using the bracket.
 
 It also has to be since the equation d^2 = 0 is just another way of
@@ -314,7 +314,7 @@ just
 
 L
 
-so the left-invariant 1-forms are
+so the left-invariant $1$-forms are
 
 L*
 

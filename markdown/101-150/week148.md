@@ -245,7 +245,7 @@ space for an isolated black hole.
 If we temporarily ignore the presence of matter, a point in this phase
 space describes the metric and extrinsic curvature of space outside the
 black hole at a given moment of time. Technically, we do this using an
-$\mathrm{SU}(2)$ connection $A$ together with an $\mathfrak{su}(2)$-valued 2-form $E$. You can think
+$\mathrm{SU}(2)$ connection $A$ together with an $\mathfrak{su}(2)$-valued $2$-form $E$. You can think
 of these as analogous to the vector potential and electric field in
 electromagnetism. As usual, they need to satisfy some constraints coming
 from Einstein's equations for general relativity. They also need to
@@ -289,7 +289,7 @@ simplest thing you can write down:
 $$\omega(\delta W, \delta W') = \frac{k}{2\pi} \int \delta W\wedge \delta W'$$
 Here $\omega$ is the $\mathrm{U}(1)$ Chern-Simons symplectic structure; we're evaluating
 it on two tangent vectors to the space of $\mathrm{U}(1)$ connections on the
-2-sphere, which we call $\delta W$ and $\delta W'$. These are the same as 1-forms, so
+2-sphere, which we call $\delta W$ and $\delta W'$. These are the same as $1$-forms, so
 we can wedge them and integrate the result over the 2-sphere. The number
 $k$ is some constant depending on the area of the black hole... but more
 about that later!

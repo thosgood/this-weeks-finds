@@ -158,7 +158,7 @@ gave a detailed introduction to the homology of $n$-categories and its
 application to rewrite rules. The idea is to study any sort of algebraic
 gadget (like a group) by creating an $n$-category where the objects are
 "expressions" for elements in the gadget, the morphisms are "ways of
-rewriting expressions" by applying the rules at hand, the 2-morphisms
+rewriting expressions" by applying the rules at hand, the $2$-morphisms
 are "ways of passing from one way of rewriting expressions to another"
 by applying certain "meta-rules", and so on. Then one can use ideas
 from algebraic topology to study this $n$-category and prove stuff about
@@ -453,7 +453,7 @@ from homotopy theory, where we need a similar equivalence relation if we
 want composition of paths to be associative. But in homotopy theory,
 people have learned that it's often better NOT to impose an equivalence
 relation on paths! Instead, it's better to form a *weak $2$-category* of
-paths, where there's a 2-morphism going from this sort of composite:
+paths, where there's a $2$-morphism going from this sort of composite:
 
     \  /  /
      \/  /
@@ -472,7 +472,7 @@ the associator as a way to transform one proof into another.
 
 The associator should satisfy an equation called the "pentagon
 identity", which I explained back in ["Week 144"](#week144).
-However, it will only do this if we let 2-morphisms be *equivalence
+However, it will only do this if we let $2$-morphisms be *equivalence
 classes* of proof transformations.
 
 So, there's a kind of infinite regress here. To deal with this, it
@@ -480,8 +480,8 @@ would be best to work with a "weak ω-category" with
 
 sentences (or sequences of sentences) as objects,\
 proofs as morphisms,\
-proof transformations as 2-morphisms,\
-transformations of proof transformations as 3-morphisms,...\
+proof transformations as $2$-morphisms,\
+transformations of proof transformations as $3$-morphisms,...\
 
 and so on. With this, we would never need any equivalence relations: we
 keep track of all transformations explicitly. This is almost beyond what

@@ -15,3 +15,6 @@
     + simp.
     + brane
     + form
+    + stack
+    + gerbe
+    + groupoid

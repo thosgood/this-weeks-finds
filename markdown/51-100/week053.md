@@ -62,7 +62,7 @@ $n$-category theory is that it strives to formalize the notion of
 "process" in all its recursive splendor. An $n$-category is a
 mathematical structure containing not only objects, which one might
 think of as "things", and morphisms, which one might think of as
-"processes leading from one thing to another", but also 2-morphisms,
+"processes leading from one thing to another", but also $2$-morphisms,
 which are "processes leading from one process to another", and then
 3-morphisms, etc., on up to $n$-morphisms.
 
@@ -106,7 +106,7 @@ since spacetime appears $4$-dimensional. On the other hand, nobody knows
 any mathematical reason why one has to stop at any given $n$. So
 ultimately we should try to understand "$\omega$-categories", having
 $n$-morphisms for all $n$ greater than or equal to zero (0-morphisms being
-simply objects, and 1-morphisms being morphisms). This corresponds
+simply objects, and $1$-morphisms being morphisms). This corresponds
 philosophically to the notion that every "process" can also be
 regarded as a "thing" which other processes can transform. Moreover,
 we should also try to understand "$\mathbb{Z}$-categories", having $n$-morphisms

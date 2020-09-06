@@ -12,12 +12,12 @@ starting from a kind of BF theory and then imposing constraints, very
 much like Plebanski's formulation of ordinary gravity in 4d spacetime.
 Recall that in Plebanski's formalism, we start with:
 
-a) a Lorentz connection $A$, which can locally be thought of as a 1-form
+a) a Lorentz connection $A$, which can locally be thought of as a $1$-form
 taking values in the Lie algebra of the Lorentz group,
 
 and:
 
-b) a field $B$, which can locally be thought of as a 2-form valued in the
+b) a field $B$, which can locally be thought of as a $2$-form valued in the
 Lie algebra of the Lorentz group.
 
 We get a topological field theory by using the Lagrangian
@@ -30,7 +30,7 @@ topological field theory.
 
 But if we impose the constraint that
 $$B = e\wedge e$$
-where e is a "cotetrad" --- which locally amounts to a 1-form taking
+where e is a "cotetrad" --- which locally amounts to a $1$-form taking
 values in $\mathbb{R}^4$ --- we get the equations of general relativity! We can
 impose this constraint by throwing an extra term into the Lagrangian,
 involving an extra "Lagrange multiplier" field. The sole purpose of
@@ -41,12 +41,12 @@ Similarly, in Ling and Smolin's formulation of 11d supergravity we
 start with:
 
 a) a super-Poincare superconnection $A$, which can locally be described
-as a 1-form taking values in the super-Lie algebra of the super-Poincare
+as a $1$-form taking values in the super-Lie algebra of the super-Poincare
 group --- or "super-Poincare algebra", for short.
 
-b) a 3-form $C$.
+b) a $3$-form $C$.
 
-c) a 6-form $D$.
+c) a $6$-form $D$.
 
 We think of all three of these as "gauge fields". I already mentioned
 in ["Week 157"](#week157) how a $p$-form can be viewed as a
@@ -61,10 +61,10 @@ instead of space dimensions! Then we wouldn't have this nasty "minus
 one" stuff.
 
 But anyway, the usual formulation of 11d supergravity (see
-["Week 157"](#week157)) involves a 3-form field, which couples
+["Week 157"](#week157)) involves a $3$-form field, which couples
 naturally to 2-branes. This is nice because there's lots of evidence
 that M-theory has a lot to do with 2-branes. The nice thing about Ling
-and Smolin's formulation is that it also includes a 6-form field, which
+and Smolin's formulation is that it also includes a $6$-form field, which
 couples to 5-branes. There's also a lot of evidence that M-theory is
 related to 5-branes, but these have always been a bit more mysterious
 than the 2-branes. Now, however, they're staring us in the face right
@@ -142,18 +142,18 @@ on spinors.
 Okay, now let's go back and think a minute about what the
 "superconnection" in Ling and Smolin's formulation of 11d
 supergravity is really like. If we work locally, we can think of this as
-a 1-form taking values in the super-Poincare algebra. Thus it really
+a $1$-form taking values in the super-Poincare algebra. Thus it really
 consists of 3 parts:
 
-a) a 1-form taking values in the Lorentz Lie algebra $\mathfrak{so}(10,1)$. This is
+a) a $1$-form taking values in the Lorentz Lie algebra $\mathfrak{so}(10,1)$. This is
 secretly the "spin connection" in the usual formulation of 11d
 supergravity, as described last week.
 
-a') a 1-form taking values in the translation Lie algebra $\mathbb{R}^{11}$. This
+a') a $1$-form taking values in the translation Lie algebra $\mathbb{R}^{11}$. This
 is secretly the "elfbein" in the usual formulation of 11d
 supergravity, as described last week.
 
-a'') a 1-form taking values in the space of real spinors. This is just
+a'') a $1$-form taking values in the space of real spinors. This is just
 the "gravitino" in the usual formulation of 11d supergravity, as
 described last week.
 
@@ -165,8 +165,8 @@ story. First, how do Ling and Smolin get their 11d topological field
 theory? Like I said, it's a kind of BF theory, where the Lagrangian is
 like $\operatorname{tr}(B\wedge F)$. But there are a bunch of $F$ fields --- i.e., curvatures ---
 and thus a bunch of $B$ fields. Namely, we've got the curvature of the
-superconnection $A$, the curvature $dC$ of the 3-form $C$, and the curvature
-$dD$ of the 6-form $D$. And if you analyze it, the curvature of the
+superconnection $A$, the curvature $dC$ of the $3$-form $C$, and the curvature
+$dD$ of the $6$-form $D$. And if you analyze it, the curvature of the
 superconnection consists of 3 separate parts. So we really have five $F$
 fields. Each one has its corresponding $B$ field, and the Lagrangian is a
 sum of terms of the form $\operatorname{tr}(B\wedge F)$.
@@ -174,7 +174,7 @@ sum of terms of the form $\operatorname{tr}(B\wedge F)$.
 To get 11d supergravity, we have to impose a bunch of constraints by
 throwing extra terms into the Lagrangian. There is one term like this
 for each $F$ field. We also have to throw in a term which gives the analog
-of Maxwell's equations for the 3-form field $C$. So the paper's title is
+of Maxwell's equations for the $3$-form field $C$. So the paper's title is
 a mild lie! We're not seeing 11d supergravity as simply a constrained
 topological field theory --- there's also an extra interaction.
 

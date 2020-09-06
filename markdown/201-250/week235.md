@@ -352,7 +352,7 @@ Lagrangian:
 \operatorname{tr}(B ^ F)
 
 where tr is defined using the inner product, F is the curvature of an
-\mathrm{SO}(4,1) connection A, and B is an \mathfrak{so}(4,1)-valued 2-form. Spin foam
+\mathrm{SO}(4,1) connection A, and B is an \mathfrak{so}(4,1)-valued $2$-form. Spin foam
 models of BF theory work really well:
 
 17) John Baez, An introduction to spin foam models of BF theory and

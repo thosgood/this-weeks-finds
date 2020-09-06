@@ -440,7 +440,7 @@ holomorphic and an antiholomorphic one!
 
 All this stuff works much more generally for p-forms on Kaehler
 manifolds. To get going, let's think a bit more about the complex
-plane. If we have any 1-form on the complex plane we can write it as a
+plane. If we have any $1$-form on the complex plane we can write it as a
 linear combination of dx and dy, where x and y are the usual coordinates
 on the plane. But things get nicer if we work with *complex-valued*
 differential forms. Then we can form linear combinations like
@@ -452,8 +452,8 @@ and
      _
     dz = dx - idy
 
-and express any 1-form as a linear combination of *these* in a unique
-way. We call these the (1,0) and (0,1) parts of our 1-form.
+and express any $1$-form as a linear combination of *these* in a unique
+way. We call these the (1,0) and (0,1) parts of our $1$-form.
 
 This means that if we have a function f, we can take its exterior
 derivative of f and chop it into its (1,0) part and (0,1) part:

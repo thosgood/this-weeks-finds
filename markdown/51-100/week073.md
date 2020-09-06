@@ -214,11 +214,11 @@ category of all sets is "one-dimensional": it has both objects or
 "dots" and morphisms or "arrows between dots". In general,
 categories are "one-dimensional" in this sense. But this in turn makes
 the collection of all categories into a "two-dimensional" structure, a
-$2$-category having objects, morphisms between objects, and 2-morphisms
+$2$-category having objects, morphisms between objects, and $2$-morphisms
 between morphisms.
 
 This process never stops. The collection of all $n$-categories is an
-$(n+1)$-category, a thing with objects, morphisms, 2-morphisms, and so on
+$(n+1)$-category, a thing with objects, morphisms, $2$-morphisms, and so on
 all the way up to $n$-morphisms. To study sets carefully we need
 categories, to study categories well we need $2$-categories, to study
 $2$-categories well we need $3$-categories, and so on... so "higher-

@@ -375,7 +375,7 @@ available as
 
 Just as a group is a category with one object and with all morphisms
 being invertible, a 2-group is a $2$-category with one object and all
-morphisms and 2-morphisms invertible. But the 2-group case is worthy of
+morphisms and $2$-morphisms invertible. But the 2-group case is worthy of
 some special extra attention, so Danny Stevenson studied that with a
 little help from me:
 

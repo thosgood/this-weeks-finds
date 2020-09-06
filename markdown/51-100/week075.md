@@ -5,7 +5,7 @@ you'll note that I haven't actually given the definition of
 $n$-categories! I've only defined categories, and *hinted* at the
 definition of $2$-categories by giving an example, namely $\mathsf{Cat}$. This is the
 $2$-category whose objects are categories, whose morphisms are functors,
-and whose 2-morphisms are natural transformations.
+and whose $2$-morphisms are natural transformations.
 
 The definition of $n$-categories --- or maybe I should say the problem of
 defining $n$-categories --- is actually surprisingly subtle. Since I want to
@@ -13,7 +13,7 @@ proceed at a gentle pace here, I think I should first get everyone used
 to the $2$-category $\mathsf{Cat}$, then define $2$-categories in general, then play
 around with those a bit, and then move on to $n$-categories for higher $n$.
 
-So recall what the objects, morphisms and 2-morphisms in $\mathsf{Cat}$ are: they
+So recall what the objects, morphisms and $2$-morphisms in $\mathsf{Cat}$ are: they
 are categories, functors and natural transformations. A functor $F\colon \mathcal{C}\to\mathcal{D}$
 assigns to each object $x$ of $\mathcal{C}$ an object $F(x)$ of $\mathcal{D}$, and to each morphism
 $f$ of $\mathcal{C}$ a morphism $F(f)$ of $\mathcal{D}$, and has
@@ -137,8 +137,8 @@ groupoid $G$. We will build the space $K(G)$ out of simplices as follows.
 Start with one 0-simplex for each object in $G$. A 0-simplex is simply a
 point. We can draw the 0-simplex for the object $x$ as follows:
 $$x$$
-Then put in one 1-simplex for each morphism in $G$. A 1-simplex is just a
-line segment. We can draw the 1-simplex for the morphism $f\colon x\to y$ as
+Then put in one $1$-simplex for each morphism in $G$. A $1$-simplex is just a
+line segment. We can draw the $1$-simplex for the morphism $f\colon x\to y$ as
 follows:
 $$
   \begin{tikzpicture}
@@ -149,7 +149,7 @@ $$
 $$
 Really we should draw an arrow going from left to right, but soon things
 will get too messy if I do that, so I won't. Then, whenever we have $fg=h$
-in the groupoid, we stick in a 2-simplex. A 2-simplex is just a
+in the groupoid, we stick in a $2$-simplex. A $2$-simplex is just a
 triangle and we visualize it as follows:
 $$
   \begin{tikzpicture}
@@ -168,7 +168,7 @@ $$
     $};
   \end{tikzpicture}
 $$
-Then, whenever we have $fgh = k$ in the groupoid, we stick in a 3-simplex,
+Then, whenever we have $fgh = k$ in the groupoid, we stick in a $3$-simplex,
 which we can visualize as a tetrahedron like this
 $$
   \begin{tikzpicture}

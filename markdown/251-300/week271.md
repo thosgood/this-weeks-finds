@@ -135,9 +135,9 @@ looks like a square!
 
 This pattern goes on for higher n. Last week I spoke about the A_4
 lattice, whose symmetry group consists of all permutations of 5 things -
-namely the 5 corners of a 4-simplex, which is the 4d analogue of a
+namely the 5 corners of a $4$-simplex, which is the 4d analogue of a
 tetrahedron. I explained how this group contains the symmetry group of
-the pentagon. Indeed, if you view a 4-simplex from the correct angle, it
+the pentagon. Indeed, if you view a $4$-simplex from the correct angle, it
 looks like a pentagon!
 
 So, it's not surprising that we can get a quasiperiodic tiling of the
@@ -253,13 +253,13 @@ $2$-category with
 -   finite groupoids as objects,
 -   spans of finite groupoids as morphisms,
 -   equivalence classes of spans of spans of finite groupoids as
-    2-morphisms
+    $2$-morphisms
 
 to the $2$-category with
 
 -   finite-dimensional 2-vector spaces as objects,
 -   linear functors as morphisms,
--   natural transformations as 2-morphisms.
+-   natural transformations as $2$-morphisms.
 
 Here by "finite-dimensional 2-vector space" I really mean a
 "Kapranov-Voevodsky 2-vector space". That's a category equivalent to
@@ -315,13 +315,13 @@ model, gives a weak 2-functor from the weak $2$-category with
 
 -   0d manifolds as objects,
 -   1d cobordisms between these as morphisms,
--   equivalence classes of 2d cobordisms between these as 2-morphisms
+-   equivalence classes of 2d cobordisms between these as $2$-morphisms
 
 to the weak $2$-category with
 
 -   finite-dimensional 2-vector spaces as objects,
 -   linear functors as morphisms,
--   natural transformations as 2-morphisms.
+-   natural transformations as $2$-morphisms.
 
 Composing this 2-functor with the 2-functor I just described, he gets
 the untwisted Dijkgraaf-Witten model as an extended TQFT! And in fact,

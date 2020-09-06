@@ -77,7 +77,7 @@ groups of polytopes. So, to deal with all Coxeter groups in a systematic
 way, it's better to think of them as symmetries of certain simplicial
 complexes called "Coxeter complexes". Roughly speaking, a simplicial
 complex is a gadget made of points, line segments, triangles,
-tetrahedra, 4-simplices, and so on - all stuck together in a nice way.
+tetrahedra, $4$-simplices, and so on - all stuck together in a nice way.
 
 If you have a Coxeter diagram with n dots, the highest dimension of the
 simplices in its Coxeter complex will be $n$-1, and it will have one of

@@ -58,8 +58,8 @@ of these, we get a spin network with 4 edges meeting at each vertex.
 
 What's so interesting about spin foams with 4 faces meeting along each
 edge? Well, suppose we take a $4$-dimensional manifold representing
-spacetime and triangulate it --- that is, chop it up into 4-simplices, the
-4-dimensional analogs of tetrahedra. We get a mess of 4-simplices, which
+spacetime and triangulate it --- that is, chop it up into $4$-simplices, the
+4-dimensional analogs of tetrahedra. We get a mess of $4$-simplices, which
 have tetrahedra as faces, which in turn have triangles as faces.
 
 Now we can form a spin foam with one vertex in the middle of each
@@ -68,7 +68,7 @@ intersecting each triangle. This trick is called "Poincare duality":
 each $d$-dimensional piece of our spin foam intersects a $(4-d)$-dimensional
 piece of our triangulation. Since each tetrahedron in our triangulated
 manifold has 4 triangular faces, our spin foam will dually have 4 faces
-meeting at each edge. Since each 4-simplex has 5 tetrahedra and 10
+meeting at each edge. Since each $4$-simplex has 5 tetrahedra and 10
 triangles, each spin foam vertex will have 5 edges and 10 faces meeting
 at it.
 
@@ -195,7 +195,7 @@ use $\mathrm{SU}(2)$ as the symmetry group, but instead use $\mathrm{SU}(2)\time
 the double cover of $\mathrm{SO}(4)$, the rotation group in 4 dimensions. Following
 the idea behind Ashtekar's new variables for general relativity, I was
 only using the "left-handed half" of this group, that is, one of the
-$\mathrm{SU}(2)$ factors. But the geometry of the 4-simplex, and its relation to
+$\mathrm{SU}(2)$ factors. But the geometry of the $4$-simplex, and its relation to
 quantum theory, is in some ways more easily understood using the full
 $\mathrm{SU}(2)\times\mathrm{SU}(2)$ symmetry group.
 
@@ -214,8 +214,8 @@ differently.
 I'm tempted to go into detail and explain exactly how the model works,
 because it involves a lot of beautiful geometry. But it takes a while,
 so I won't. First you need to really grok the phase space of all
-possible geometries of the 4-simplex. Then you need to quantize this
-phase space, obtaining the "Hilbert space of a quantum 4-simplex".
+possible geometries of the $4$-simplex. Then you need to quantize this
+phase space, obtaining the "Hilbert space of a quantum $4$-simplex".
 Then you need to note that there's a special linear functional on this
 Hilbert space, called the "Penrose evaluation" - see
 ["Week 110"](#week110). Putting all this together gives the vertex
@@ -260,7 +260,7 @@ To wrap up my little history, let me say what's been happening lately.
 There is still a lot of puzzlement and mystery concerning these spin
 foam models... it's far from clear that they really work as hoped for.
 We may be doing things a little bit wrong, or we may be on a completely
-wrong track. The phase space of the 4-simplex involves some tricky
+wrong track. The phase space of the $4$-simplex involves some tricky
 constraint equations which could kill us if we're not dealing with them
 right. Barbieri has suggested a modified version of Barrett and Crane's
 approach which may overcome some problems with the constraints:

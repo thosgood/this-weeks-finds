@@ -86,7 +86,7 @@ tangent space that preserve the metric with the group of linear
 transfomations preserving the standard "inner product," which is
 called $\mathrm{SO}(1,3)$ since there's one plus sign and three minuses. And from
 the connection mentioned above one gets an $\mathrm{SO}(1,3)$ connection, or,
-what's more or less the same thing, an $\mathfrak{so}(1,3)$-valued 1-form, that is,
+what's more or less the same thing, an $\mathfrak{so}(1,3)$-valued $1$-form, that is,
 a kind of field that can eat a tangent vector at any point and spits out
 element of the Lie algebra $\mathfrak{so}(1,3)$.
 

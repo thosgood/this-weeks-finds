@@ -908,7 +908,7 @@ pseudomonoids in a certain monoidal bicategory with:
 
 -   categories as objects;
 -   profunctors (also known as distributors) as morphisms;
--   natural transformations as 2-morphisms.
+-   natural transformations as $2$-morphisms.
 
 Alas, I'm too tired to explain this now! It's a slicker way of saying
 what I already said. But the cool part is that this bicategory is like a

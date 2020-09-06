@@ -442,9 +442,9 @@ space $G$ has a classifying space $BG$ such that
 $$\Omega(BG) \simeq G.$$
 In other words, $BG$ is a pointed space such that the space of loops based
 at this point is homotopy equivalent to $G$. One can form this space $BG$ by
-the Milnor construction: sticking in one 0-simplex, one 1-simplex for
-every point of $G$, one 2-simplex for every triple $(g,h,k)$ with $gh = k$,
-one 3-simplex for every associator, and so on. If we do this where $G$ is
+the Milnor construction: sticking in one 0-simplex, one $1$-simplex for
+every point of $G$, one $2$-simplex for every triple $(g,h,k)$ with $gh = k$,
+one $3$-simplex for every associator, and so on. If we do this where $G$ is
 the group of length-one elements of $\mathbb{R}$ (i.e. $\mathbb{Z}/2$) we get $\mathbb{RP}^\infty$, as we
 expect, since
 $$\mathbb{RP}^\infty = B(\mathbb{Z}/2).$$

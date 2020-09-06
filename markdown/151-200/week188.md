@@ -530,7 +530,7 @@ Connes has also studied these matters:
 1994.
 
 More recently, string theorists have done a bunch of physics on the
-noncommutative torus! The reason is that string theory includes a 2-form
+noncommutative torus! The reason is that string theory includes a $2$-form
 field "B" which is similar in some ways to the magnetic field. For an
 overview of this with lots of references try:
 

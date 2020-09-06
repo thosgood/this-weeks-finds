@@ -245,7 +245,7 @@ on $4$-dimensional TQFTs and invariants of 2-knots, that is, embedded
 surfaces in $\mathbb{R}^4$ (or more general 4-manifolds). This is an attempt to
 push the Wilson loop story up one dimension, in an effort to make it
 applicable to theories similar to quantum gravity. These theories are
-the so-called "BF theories," whose Lagrangian is of the form $\operatorname{tr}(B \wedge F)$, where $B$ is a Lie algebra valued 2-form and $F$ is the curvature
+the so-called "BF theories," whose Lagrangian is of the form $\operatorname{tr}(B \wedge F)$, where $B$ is a Lie algebra valued $2$-form and $F$ is the curvature
 of a connection. Martellini and Cotta-Ramusino's work on this is still
 in a preliminary stage but it seems rather promising.
 

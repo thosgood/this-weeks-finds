@@ -109,7 +109,7 @@ model, it wasn't obvious that this integral for the partition function
 converged. Even worse, it wasn't clear that the integrand was
 well-defined! The basic ingredient in the integrand is the so-called
 "Lorentzian $10j$ symbol", which describes the amplitude for an
-individual 4-simplex to have a certain geometry, as specified by the
+individual $4$-simplex to have a certain geometry, as specified by the
 areas of its 10 triangular faces. Barrett and Crane wrote down an
 explicit integral for the Lorentzian $10j$ symbol, but they didn't show
 this integral converges.

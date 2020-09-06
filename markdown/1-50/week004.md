@@ -155,19 +155,19 @@ $X$, let $\mathrm{Hom}(x,y)$ be the set of all unparametrized paths from $x$ to 
 compose such paths simply by sticking a path from $x$ to $y$ and a path from
 $y$ to $z$ to get a path from $x$ to $z$, and we need unparametrized paths to
 make composition associative. Now given two paths from $x$ to $y$, say $f$ and
-$g$, let $\mathrm{Hom}(f,g)$, the set of 2-morphisms from $f$ to $g$, be the set of
+$g$, let $\mathrm{Hom}(f,g)$, the set of $2$-morphisms from $f$ to $g$, be the set of
 unparametrized homotopies from $f$ to $g$ --- that is, ways of deforming the
 path $f$ continuously to get the path $g$, while leaving the endpoints
 fixed.
 
 This is a very enlightening example since homotopies of paths are really
-just "paths of paths," making the name 2-morphism quite appropriate.
-(Some of you will already be pondering 3-morphisms, 4-morphisms, but
+just "paths of paths," making the name $2$-morphism quite appropriate.
+(Some of you will already be pondering $3$-morphisms, $4$-morphisms, but
 it's too late, they've already been invented! I won't discuss them
-here.) The notation for 2-morphisms is quite cute: given $f,g$ in
+here.) The notation for $2$-morphisms is quite cute: given $f,g$ in
 $\mathrm{Hom}(x,y)$, we write $F$ in $\mathrm{Hom}(f,g)$ as the following diagram:
 $$\includegraphics[scale=0.3]{../images/Fnatftog.pdf}$$
-In other words, while ordinary morphisms are $1$-dimensional objects (arrows), 2-morphisms
+In other words, while ordinary morphisms are $1$-dimensional objects (arrows), $2$-morphisms
 are $2$-dimensional "cells" filling in the space between two ordinary
 morphisms. We thus see that going up to "morphisms between morphisms"
 is closely related to going up to higher dimensions. And this is really
@@ -176,16 +176,16 @@ four-dimensional field theory as "braided monoidal categories" do
 in three-dimensional field theory!
 
 Rather than write down the axioms for a $2$-category, which are in
-Kapranov and Voevodsky, let me note the key new thing about 2-morphisms:
+Kapranov and Voevodsky, let me note the key new thing about $2$-morphisms:
 there are two ways to compose them, "horizontally" and "vertically".
 First of all, given the following situation:
 $$\includegraphics[scale=0.3]{../images/FF'nat.pdf}$$
-we can compose $F$ and $F'$ horizontally to get a 2-morphism from $f'\circ f$ to
+we can compose $F$ and $F'$ horizontally to get a $2$-morphism from $f'\circ f$ to
 $g \circ g'$. (Check this out in the example of homotopies!) But also, given
 the following situation:
 $$\includegraphics[scale=0.3]{../images/FGnat.pdf}$$
 ($f,g,h$ in $\mathrm{Hom}(x,y)$, $F$ in $\mathrm{Hom}(f,g)$, and $G$ in $\mathrm{Hom}(g,h)$), we can compose $F$
-and $G$ vertically to get a 2-morphism from $f$ to $g$.
+and $G$ vertically to get a $2$-morphism from $f$ to $g$.
 
 As Kapranov and Voevodsky note: "Thus $2$-categories can be seen as
 belonging to the realm of a new mathematical discipline which may be
@@ -201,7 +201,7 @@ structure possessed by the category of all categories. (If this notion
 seems dangerously close to Russell's paradox, you are right --- but I
 will not worry about such issues in what follows.) This category has as
 its objects categories and as its morphisms "functors" between
-categories. It is, in fact, a $2$-category, taking as the 2-morphisms
+categories. It is, in fact, a $2$-category, taking as the $2$-morphisms
 "natural transformations" between functors. (For a brief intro to
 functors and natural transformations, try the file "categories" in the
 collection of my expository papers --- see the end of this post.) What is
@@ -289,7 +289,7 @@ $$
     \end{knot}
   \end{tikzpicture}
 $$
-Now, given tangles $f,g$ in $\mathrm{Hom}(m,n)$, a 2-morphism from $f$ to $g$ is a
+Now, given tangles $f,g$ in $\mathrm{Hom}(m,n)$, a $2$-morphism from $f$ to $g$ is a
 "2-tangle." I won't define these either, but we may think of a
 2-tangle from $f$ to $g$ roughly as a "movie" whose first frame is the
 tangle $f$ and last frame is the tangle $g$, and each of whose intermediate

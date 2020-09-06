@@ -15,7 +15,7 @@ were representations of a certain $n$-category called nCob in which:
 -   objects are 0-dimensional manifolds: that is, collections of points,
 -   morphisms are $1$-dimensional manifolds with boundary going between
     collections of points,
--   2-morphisms are $2$-dimensional manifolds with corners going between
+-   $2$-morphisms are $2$-dimensional manifolds with corners going between
     $1$-dimensional manifolds with boundary going between collections of
     points,
 
@@ -154,14 +154,14 @@ algebras uses the symmetric monoidal bicategory where:
 
 -   objects are groupoids,
 -   morphisms are spans of groupoids where the legs are fibrations,
--   2-morphisms are maps of spans of groupoids.
+-   $2$-morphisms are maps of spans of groupoids.
 
 The other is Mike Stay, whose work on computer science uses the
 symmetric monoidal bicategory where:
 
 -   objects are categories,
 -   morphisms are profunctors,
--   2-morphisms are natural transformations between profunctors.
+-   $2$-morphisms are natural transformations between profunctors.
 
 A profunctor is a categorified version of a matrix. More precisely, a
 profunctor from C to D is a functor

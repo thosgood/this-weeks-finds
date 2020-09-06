@@ -497,7 +497,7 @@ easy to believe, since there's a $2$-category with
 
 -   groupoids as objects,
 -   functors as morphisms, and
--   natural transformations as 2-morphisms.
+-   natural transformations as $2$-morphisms.
 
 In ["Week 75"](#week75) and ["Week 80"](#week80) I explained
 the closely related $2$-category with *categories* as objects; the same
@@ -615,7 +615,7 @@ a bunch of morphisms:
                           f
                      x-------->x
 
-(which must all be invertible), and a bunch of 2-morphisms:
+(which must all be invertible), and a bunch of $2$-morphisms:
 
                           f
                       ---->---
@@ -631,7 +631,7 @@ So, we get the fundamental 2-group of (X,A,x) as follows:
 
 -   Let the only object be the point x.
 -   Let the morphisms be paths in A starting and ending at x.
--   Let the 2-morphisms be homotopy classes of paths of paths in X.
+-   Let the $2$-morphisms be homotopy classes of paths of paths in X.
 
 If you let A be all of X, you get the fundamental 2-group of (X,x), and
 this is what people mean when they say connected pointed homotopy

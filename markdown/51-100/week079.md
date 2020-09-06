@@ -260,7 +260,7 @@ We draw it as a boring vertical line because "nothing is happening" as
 we go from $F$ to $F$.
 
 Now, I haven't talked much about the ways one can compose natural
-transformations like $i$ and $e$, but remember that they are 2-morphisms, or
+transformations like $i$ and $e$, but remember that they are $2$-morphisms, or
 morphisms-between-morphisms, in $\mathsf{Cat}$ (the $2$-category of all categories).
 This means that they are inherently $2$-dimensional, and in particular,
 one can compose them both "horizontally" and "vertically". I'll

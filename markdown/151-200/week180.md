@@ -485,13 +485,13 @@ paragraph, because it will only make matters worse! Any oriented
 p-dimensional subspace of C^10^ determines a p-form w, namely its volume
 form. If you hit this with the Hodge star operator, you get a
 (10-p)-form *w which corresponds to the orthogonal complement of your
-subspace. In particular, the Hodge star operator maps 5-forms to
+subspace. In particular, the Hodge star operator maps $5$-forms to
 5-forms, and satisfies
 
 ** = -1
 
 This means that its eigenvalues are i and -i. Thus there are
-"self-dual" 5-forms with
+"self-dual" $5$-forms with
 
 *w = iw
 

@@ -121,7 +121,7 @@ A) a frame field e - the "graviton",
 B) a field \psi taking values in the real spin-3/2 representation of the
 11d Lorentz group - the "gravitino",
 
-C) a 3-form A.
+C) a $3$-form A.
 
 When it was discovered back in 1978, people were interested in 11d
 supergravity mainly because it was the highest-dimensional theory they
@@ -133,7 +133,7 @@ some people are taking it very seriously, it's worth trying to
 understand the math behind it more deeply, to see what makes it tick.
 
 For example: what's so great about 11 dimensions? And: what's the
-reason for that 3-form?
+reason for that $3$-form?
 
 I'm not a huge fan of string theory, but I like puzzles of this sort -
 finding patterns that make certain things work only in certain
@@ -144,7 +144,7 @@ because of special properties of the octonions - see
 to dimension 11?
 
 I got even more intrigued when I ran across two competing explanations
-for that 3-form in 11d supergravity. One was that it's a connection on
+for that $3$-form in 11d supergravity. One was that it's a connection on
 a twice categorified version of a \mathrm{U}(1) bundle. The other was that it's
 the Chern-Simons form for an \mathrm{E}_8 gauge theory.
 
@@ -152,7 +152,7 @@ Let me say a bit about what these means. I talked about categorified
 \mathrm{U}(1) bundles in ["Week 210"](#week210), so I'll be sort of brief
 about those....
 
-A connection on a \mathrm{U}(1)-bundle looks locally like a 1-form, so we can
+A connection on a \mathrm{U}(1)-bundle looks locally like a $1$-form, so we can
 integrate it along a path and compute how the phase of charged particle
 changes when we move it along that path:
 
@@ -164,7 +164,7 @@ Believe it or not, this is the basis of all modern ideas on
 electromagnetism!
 
 If we categorify this whole idea once, we get a kind of connection that
-looks locally like a 2-form. Folks call this a "connection on a \mathrm{U}(1)
+looks locally like a $2$-form. Folks call this a "connection on a \mathrm{U}(1)
 gerbe", but don't let the use of French here intimidate you: they just
 do that so they can charge more for the wine. It's just a gadget that
 you can integrate over a surface, to compute how the phase of a charged
@@ -179,7 +179,7 @@ you can integrate over a surface, to compute how the phase of a charged
                    g
 
 And, if we categorify once more, we get a "connection on a \mathrm{U}(1)
-2-gerbe". This is something that looks locally like a 3-form, which
+2-gerbe". This is something that looks locally like a $3$-form, which
 describes what happens when we move *2-branes* around!
 
 If you're wondering why I'm talking about "categorifying", it's
@@ -198,17 +198,17 @@ is also a picture of a morphism in a category, while this:
         ----------->-----
                    g
 
-is a picture of a 2-morphism in a $2$-category and so on. We're talking
+is a picture of a $2$-morphism in a $2$-category and so on. We're talking
 about processes between processes between processes... so we're
 climbing up the ladder of $n$-categories.
 
-Anyway: since 11d supergravity has a 3-form in it, and M-theory
+Anyway: since 11d supergravity has a $3$-form in it, and M-theory
 apparently has 2-branes in it, maybe we need to categorify the concept
 of a \mathrm{U}(1) bundle twice to understand what's going on here!
 
 I came up with this crazy idea on my own back in
 ["Week 158"](#week158), but it's an obvious guess after you learn
-that the 2-form field called B in 10d superstring theory really *is* a
+that the $2$-form field called B in 10d superstring theory really *is* a
 connection on a \mathrm{U}(1) gerbe:
 
 4) Alan L. Carey, Stuart Johnson and Michael K. Murray, Holonomy on
@@ -219,7 +219,7 @@ Unfortunately there are some problems with naively pushing this idea up
 a dimension. For example, a crucial factor of 1/6 in the Lagrangian for
 11d supergravity is not explained by thinking of A this way.
 
-Another possible explanation was that this 3-form is the Chern-Simons
+Another possible explanation was that this $3$-form is the Chern-Simons
 form of an \mathrm{E}_8 bundle over spacetime:
 
 5) Emanuel Diaconescu, Gregory Moore and Edward Witten, \mathrm{E}_8 gauge
@@ -259,12 +259,12 @@ differential algebras, and the supermembrane, available as
 [`arXiv:hep-th/0606171`](http://arxiv.org/abs/hep-th/0606171).
 
 The idea is to think of 11d supergravity as a twice categorifed gauge
-theory - not just the 3-form field in 11d supergravity, but all the
+theory - not just the $3$-form field in 11d supergravity, but all the
 fields, in a unified way!
 
 For this, we need to do something much more clever than taking 11d
 spacetime and slapping a \mathrm{U}(1) 2-gerbe on top of it. We need to combine
-the graviton, the gravitino and the 2-form field into a connection on a
+the graviton, the gravitino and the $2$-form field into a connection on a
 *nonabelian* 2-gerbe.
 
 Here things get a bit technical, but Urs has covered the technical
@@ -331,7 +331,7 @@ has a *manifold* of objects, a manifold of morphisms, and a manifold of
 But actually, since we're doing supersymmetric geometry, we need a
 "Lie 3-supergroup"! In other words, very roughly speaking, a 3-group
 that has a *supermanifold* of objects, a supermanifold of morphisms, and
-a supermanifold of 2-morphisms, where all the operations are smooth.
+a supermanifold of $2$-morphisms, where all the operations are smooth.
 (Maybe I should say "supersmooth", just to be consistent.)
 
 If you don't know what a supermanifold is, now is probably not the time
@@ -388,7 +388,7 @@ For the particular one Urs mentions, we have
     {2-chains} = R
 
 Here R is the real numbers, and this $1$-dimensional thing is what
-ultimately gives the 3-form field A in 11d supergravity. As a vector
+ultimately gives the $3$-form field A in 11d supergravity. As a vector
 space, the 11d Poincaré Lie superalgebra is the direct sum of an even
 part, which is the usual Poincaré Lie algebra \mathfrak{iso}(11,1), and an odd
 part, which is the $32$-dimensional real spinor rep of \mathfrak{so}(11,1). These
@@ -410,7 +410,7 @@ Then, we need a quaternary bracket operation (since that chain homotopy
 satisfies its own identity only up to chain homotopy). This is nonzero:
 when we take the quaternary bracket of four 0-chains we get a 2-chain,
 and there's a nontrivial way to define this! This is the interesting
-bit, since ultimately it relates the graviton/gravitino to the 3-form
+bit, since ultimately it relates the graviton/gravitino to the $3$-form
 field.
 
 How do we get that quaternary bracket? Well, here's where things get
@@ -477,8 +477,8 @@ Urs Schreiber replied:
 >      > M-theory on S1/Z2 giving the E8 \times E8 heterotic string.
 >
 > The topological part of the membrane action involves the integral of
-> the sugra 3-form over the worldvolume. By DFW, part of that 3-form can
-> be thought of as an \mathrm{E}_8 CS 3-form.
+> the sugra $3$-form over the worldvolume. By DFW, part of that $3$-form can
+> be thought of as an \mathrm{E}_8 CS $3$-form.
 >
 > So part of the membrane action looks similar to an \mathrm{E}_8 CS-theory over
 > the worldvolume.

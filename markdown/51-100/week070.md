@@ -262,7 +262,7 @@ we can cook up a topological space called its "classifying space" $KM$,
 as follows. We can think of $KM$ as a simplicial complex. We start by
 sticking in one 0-simplex, which we can visualize as a dot like this:
 $$\bullet$$
-Then we stick in one 1-simplex for each element of the monoid, which we
+Then we stick in one $1$-simplex for each element of the monoid, which we
 can visualize as an arrow going from the dot to itself. Unrolled a bit,
 it looks like this:
 $$
@@ -272,14 +272,14 @@ $$
 $$
 Really we should draw an arrow going from left to right, but soon things
 will get too messy if I do that, so I won't. Then, whenever we have $ab = c$
-in the monoid, we stick in a 2-simplex, which we can visualize as a
+in the monoid, we stick in a $2$-simplex, which we can visualize as a
 triangle like this:
 $$
   \begin{tikzpicture}
     \draw[thick] (0,0) node{$\bullet$} to node[fill=white]{$c$} (1.5,0) node{$\bullet$} to node[fill=white]{$b$} (0.75,1.3) node{$\bullet$} to node[fill=white]{$a$} cycle;
   \end{tikzpicture}
 $$
-Then, whenever we have $abc = d$ in the monoid, we stick in a 3-simplex,
+Then, whenever we have $abc = d$ in the monoid, we stick in a $3$-simplex,
 which we can visualize as a tetrahedron like this
 $$
   \begin{tikzpicture}
@@ -292,14 +292,14 @@ $$
 And so on... This is a wonderful space whose homology groups depend
 only on the monoid, so we can call them $H_k(M)$. If we have a
 presentation of $M$ with only finitely many generators, we can build $KM$
-using 1-simplices only for those generators, and it follows that $H_1(M)$
+using $1$-simplices only for those generators, and it follows that $H_1(M)$
 is finitely generated. (More precisely, we can build a space with the
 same homotopy type as $KM$ using only the generators in our presentation.)
 Similarly, if we have a presentation with only finitely many relations,
-we can build $KM$ using only finitely many 2-simplices, so $H_2(M)$ is
+we can build $KM$ using only finitely many $2$-simplices, so $H_2(M)$ is
 finitely generated. What Squier showed is that if we can find a finite
 list of rewrite rules for M which is terminating and confluent, then we
-can build $KM$ using only finitely many 3-simplices, so $H_3(M)$ is
+can build $KM$ using only finitely many $3$-simplices, so $H_3(M)$ is
 finitely generated! What's nice about this is that homological algebra
 gives an easy way to compute $H_k(M)$ given a presentation of $M$, so in
 some cases we can *prove* that a monoid has no finite list of rewrite

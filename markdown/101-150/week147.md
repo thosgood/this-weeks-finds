@@ -303,7 +303,7 @@ they're really the same guy.
 But there are some weird ways to try to force the issue and compute both
 quantities for certain spaces. For example, suppose $G$ is a finite group.
 Then we can build $BG$ starting from a simplicial set with 1 nondegenerate
-0-simplex, $|G|-1$ nondegenerate 1-simplices, $(|G|-1)^2$ nondegenerate
+0-simplex, $|G|-1$ nondegenerate $1$-simplices, $(|G|-1)^2$ nondegenerate
 2-simplices, and so on. If there were only finitely many nondegenerate
 simplices of all dimensions, we could compute the Euler characteristic
 of this space as the alternating sum of the numbers of such simplices.
