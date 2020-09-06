@@ -11,17 +11,14 @@ using loop quantum gravity to study what came before the big bang...
 but I didn't mention that he'd written a nice little book on the
 subject:
 
-1) Martin Bojowald, Quantum Geometry and Symmetry, Shaker Verlag,
-Aachen, 2000. Available at
-`http://www.shaker.de/Online-Gesamtkatalog/Details.asp?ISBN=3-8265-7741-8`
+1) Martin Bojowald, _Quantum Geometry and Symmetry_, Shaker Verlag, Aachen, 2000. Available at `http://www.shaker.de/Online-Gesamtkatalog/Details.asp?ISBN=3-8265-7741-8`
 
 This does not cover his most recent work, in which his program is really
 starting to pay off... but it will certainly help you *understand* his
 recent work. He's doing lots of great stuff these days. In fact, he
 just came out with a paper yesterday:
 
-2) Martin Bojowald, The semiclassical limit of loop quantum cosmology,
-available at [`gr-qc/0105113`](http://xxx.lanl.gov/abs/gr-qc/0105113).
+2) Martin Bojowald, "The semiclassical limit of loop quantum cosmology", available at [`gr-qc/0105113`](http://xxx.lanl.gov/abs/gr-qc/0105113).
 
 This explains how his new approach to quantum cosmology is related to
 the old "minisuperspace" approach. In the old approach, you just take
@@ -43,18 +40,16 @@ time-reversed expanding universe on the other side!
 But what's the relation between this new approach and the old one,
 exactly? Well, in loop quantum gravity, space is described using "spin
 networks", and area is quantized. Each edge of a spin network is
-labelled by some spin j = 0, 1/2, 1, ..., and when a spin-j edge
+labelled by some spin $j = 0, 1/2, 1, \ldots$, and when a spin-$j$ edge
 punctures a surface, it gives that surface an area equal to
-
-                    8 \pi  \gamma sqrt(j(j+1))
-
-times the Planck length squared. Here \gamma is a constant called the
-"Immirzi parameter" - see ["Week 112"](#week112) and
+$$8\pi\gamma\sqrt{j(j+1)}$$
+times the Planck length squared. Here $\gamma$ is a constant called the
+"Immirzi parameter" --- see ["Week 112"](#week112) and
 ["Week 148"](#week148) for more about that. Bojowald shows that you
 can recover the old approach to quantum cosmology from his new one by
 taking a limit in which the Immirzi parameter approaches zero while the
 spins labelling spin network edges go to infinity. In this limit, the
-spacings between the above areas go to zero - so the discrete spectrum
+spacings between the above areas go to zero --- so the discrete spectrum
 of the "area operator" becomes continuous! Thus we lose the discrete
 geometry which is typical of loop quantum gravity.
 
@@ -76,7 +71,7 @@ partition function of a triangulated 4-sphere. He has some students
 helping him, and he's also gotten some help from Greg Egan....
 
 Anyway: this partition function is a sum over all ways of labelling
-triangles by spins - but it's not obvious that the sum converges! For
+triangles by spins --- but it's not obvious that the sum converges! For
 this reason Dan has begun by imposing a "cutoff", that is, an upper
 bound on the allowed spins. Physically this would be called an
 "infrared cutoff", since big spins mean big triangles. The question
@@ -86,9 +81,7 @@ partition function converge or not?
 Now, what's cool is that in November of last year, a fellow named
 Alejandro Perez claimed to have proven that it *does* converge:
 
-3) Alejandro Perez, Finiteness of a spin foam model for euclidean
-quantum general relativity, Nucl. Phys. B599 (2001) 427-434. Also
-available at [`gr-qc/0011058`](http://xxx.lanl.gov/abs/gr-qc/0011058).
+3) Alejandro Perez, "Finiteness of a spin foam model for euclidean quantum general relativity", _Nucl. Phys._ **B599** (2001) 427--434. Also available at [`gr-qc/0011058`](http://xxx.lanl.gov/abs/gr-qc/0011058).
 
 I say "claimed", not because I doubt his proof, but because I still
 haven't checked it, and I should. But the great thing is: now we have
@@ -107,7 +100,7 @@ Lorentz group are parametrized in a continuous rather than discrete way,
 in this version one computes the partition function as as an *integral*
 over ways of labelling the triangles by nonnegative real numbers. These
 numbers represent areas, so it seems that area is not quantized in this
-theory - but I should warn you, this is a hotly debated issue! We need
+theory --- but I should warn you, this is a hotly debated issue! We need
 to better understand how this model relates to loop quantum gravity,
 where area is quantized.
 
@@ -115,27 +108,23 @@ Anyway, when Barrett and Crane proposed the Lorentzian version of their
 model, it wasn't obvious that this integral for the partition function
 converged. Even worse, it wasn't clear that the integrand was
 well-defined! The basic ingredient in the integrand is the so-called
-"Lorentzian 10j symbol", which describes the amplitude for an
+"Lorentzian $10j$ symbol", which describes the amplitude for an
 individual 4-simplex to have a certain geometry, as specified by the
 areas of its 10 triangular faces. Barrett and Crane wrote down an
-explicit integral for the Lorentzian 10j symbol, but they didn't show
+explicit integral for the Lorentzian $10j$ symbol, but they didn't show
 this integral converges.
 
 Last summer, in a fun-filled week of intense calculation, John Barrett
-and I showed that the integral defining the Lorentzian 10j symbols
+and I showed that the integral defining the Lorentzian $10j$ symbols
 *does* in fact converge:
 
-4) John Baez and John W. Barrett, Integrability for relativistic spin
-networks, available at
-[`gr-qc/0101107`](http://xxx.lanl.gov/abs/gr-qc/0101107).
+4) John Baez and John W. Barrett, "Integrability for relativistic spin networks", available at [`gr-qc/0101107`](http://xxx.lanl.gov/abs/gr-qc/0101107).
 
 It took us until this January to write up those calculations. By April,
 Louis Crane, Carlo Rovelli, and Alejandro Perez had written a paper
 extending our methods to show that the partition function converges:
 
-5) Louis Crane, Alejandro Perez, Carlo Rovelli, A finiteness proof for
-the Lorentzian state sum spin foam model for quantum general relativity,
-available as [`gr-qc/0104057`](http://xxx.lanl.gov/abs/gr-qc/0104057).
+5) Louis Crane, Alejandro Perez, Carlo Rovelli, "A finiteness proof for the Lorentzian state sum spin foam model for quantum general relativity", available as [`gr-qc/0104057`](http://xxx.lanl.gov/abs/gr-qc/0104057).
 
 So now we have a well-defined quantum gravity theory for a 4-dimensional
 spacetime with a fixed triangulation, and we can start studying it! The
@@ -149,10 +138,7 @@ connections to Clifford algebras and spinors, Bott periodicity,
 projective and Lorentzian geometry, Jordan algebras, the exceptional Lie
 groups, quantum logic, special relativity and supersymmetry:
 
-6) John Baez, The octonions,
-`http://math.ucr.edu/home/baez/octonions/`\
-Also available at
-[math.RA/0105155](http://www.arXiv.org/abs/math.RA/0105155).
+6) John Baez, "The octonions", `http://math.ucr.edu/home/baez/octonions/`. Also available at [`math.RA/0105155`](http://www.arXiv.org/abs/math.RA/0105155).
 
 Let me just sketch some of the main themes. For details and precise
 statements, read the paper!
@@ -162,31 +148,31 @@ spinors in 8-dimensional Euclidean space, but in superstring theory and
 other physics applications, what matters most is their relation to
 10-dimensional Lorentzian spacetime. This is part of a pattern:
 
-    1) spinors in 1d Euclidean space are real numbers (R).
-    2) spinors in 2d Euclidean space are complex numbers (C).
-    3) spinors in 4d Euclidean space are quaternions (H).
-    4) spinors in 8d Euclidean space are octonions (O).
+1) spinors in 1d Euclidean space are real numbers ($\mathbb{R}$).
+2) spinors in 2d Euclidean space are complex numbers ($\mathbb{C}$).
+3) spinors in 4d Euclidean space are quaternions ($\mathbb{H}$).
+4) spinors in 8d Euclidean space are octonions ($\mathbb{O}$).
 
-(These numbers are just the dimensions of R, C, H and O.)
+(These numbers are just the dimensions of $\mathbb{R}$, $\mathbb{C}$, $\mathbb{H}$ and $\mathbb{O}$.)
 
 Also:
 
-    1) points in 3d Minkowski spacetime are 2x2 hermitian real matrices
-    2) points in 4d Minkowski spacetime are 2x2 hermitian complex matrices
-    3) points in 6d Minkowski spacetime are 2x2 hermitian quaternionic matrices
-    4) points in 10d Minkowski spacetime are 2x2 hermitian octonionic matrices
+1) points in 3d Minkowski spacetime are $2\times2$ hermitian real matrices
+2) points in 4d Minkowski spacetime are $2\times2$ hermitian complex matrices
+3) points in 6d Minkowski spacetime are $2\times2$ hermitian quaternionic matrices
+4) points in 10d Minkowski spacetime are $2\times2$ hermitian octonionic matrices
 
-(These numbers are 2 more than the dimensions of R, C, H and O.)
+(These numbers are 2 more than the dimensions of $\mathbb{R}$, $\mathbb{C}$, $\mathbb{H}$ and $\mathbb{O}$.)
 
 The octonions are also what lie behind the 5 exceptional simple Lie
-groups. The exceptional group G2 is just the symmetry group of the
-octonions. The other four exceptional groups, called \mathrm{F}_4, E6, E7 and E8,
+groups. The exceptional group $\mathrm{G}_2$ is just the symmetry group of the
+octonions. The other four exceptional groups, called $\mathrm{F}_4$, $\mathrm{E}_6$, $\mathrm{E}_7$ and $\mathrm{E}_8$,
 are symmetry groups of "projective planes" over:
 
-    1) the octonions, O
-    2) the complexified octonions or "bioctonions", C tensor O
-    3) the quaternionified octonions or "quateroctonions", H tensor O
-    4) the octonionified octonions or "octooctonions", O tensor O
+1) the octonions, $\mathbb{O}$
+2) the complexified octonions or "bioctonions", $\mathbb{C}\otimes\mathbb{O}$
+3) the quaternionified octonions or "quateroctonions", $\mathbb{H}\otimes\mathbb{O}$
+4) the octonionified octonions or "octooctonions", $\mathbb{O}\otimes\mathbb{O}$
 
 respectively.
 
@@ -197,77 +183,62 @@ tricky.
 
 Now, it is no coincidence that:
 
-    1) spinors in 9-dimensional Euclidean space are pairs of octonions.
-    2) spinors in 10-dimensional Euclidean space are pairs of bioctonions.
-    3) spinors in 12-dimensional Euclidean space are pairs of quateroctonions.
-    4) spinors in 16-dimensional Euclidean space are pairs of octooctonions.
+1) spinors in 9-dimensional Euclidean space are pairs of octonions.
+2) spinors in 10-dimensional Euclidean space are pairs of bioctonions.
+3) spinors in 12-dimensional Euclidean space are pairs of quateroctonions.
+4) spinors in 16-dimensional Euclidean space are pairs of octooctonions.
 
-(These numbers are 8 more than the dimensions of R, C, H and O.)
+(These numbers are 8 more than the dimensions of $\mathbb{R}$, $\mathbb{C}$, $\mathbb{H}$ and $\mathbb{O}$.)
 
 This sets up a relation between spinors in these various dimensions and
-the projective planes over O, C tensor O, H tensor O and O tensor O. The
-upshot is that we get a nice description of \mathrm{F}_4, E6, E7 and E8 in terms
-of the Lie algebras \mathfrak{so}(n) and their spinor representations where n = 9,
-10, 12, 16, respectively.
+the projective planes over $\mathbb{O}$, $\mathbb{C}\otimes\mathbb{O}$, $\mathbb{H}\otimes\mathbb{O}$ and $\mathbb{O}\otimes\mathbb{O}$. The
+upshot is that we get a nice description of $\mathrm{F}_4$, $\mathrm{E}_6$, $\mathrm{E}_7$ and $\mathrm{E}_8$ in terms
+of the Lie algebras $\mathfrak{so}(n)$ and their spinor representations where
+$n = 9, 10, 12, 16$, respectively.
 
-It's all so tightly interlocked - I can't believe it's not trying to
+It's all so tightly interlocked --- I can't believe it's not trying to
 tell us something about physics! Just to whet your appetite for more,
 Just to whet your appetite for more, let me show you 7 quateroctonionic
-descriptions of the Lie algebra of E7:
-
-    e7  = isom((H tensor O)P2)    
-
-        = der(h3(O)) + h3(O)3  
-
-        = der(O) + der(h3(H)) + (Im(O) tensor sh3(H)) 
-
-        = der(H) + der(h3(O)) +  (Im(H) tensor sh3(O)) 
-
-        = der(O) + der(H) + sa3(H tensor O) 
-
-        = \mathfrak{so}(O + H) + Im(H) + (H tensor O)2 
-
-        = \mathfrak{so}(O) + \mathfrak{so}(H) + Im(H) + (H tensor O)3  
-
+descriptions of the Lie algebra of $\mathrm{E}_7$:
+$$
+  \begin{aligned}
+    \mathfrak{e}_7
+    &= \mathfrak{isom}((\mathbb{H}\otimes\mathbb{O})\mathbb{P}^2)
+  \\&= \mathfrak{der}(\mathrm{h}_3(\mathbb{O}))\oplus\mathrm{h}_3(\mathbb{O})^3
+  \\&= \mathfrak{der}(\mathbb{O})\oplus\mathfrak{der}(\mathrm{h}_3(\mathbb{H}))\oplus(\Im(\mathbb{O})\otimes\mathrm{sh}_3(\mathbb{H}))
+  \\&= \mathfrak{der}(\mathbb{H})\oplus\mathfrak{der}(\mathrm{h}_3(\mathbb{O}))\oplus(\Im(\mathbb{H})\otimes\mathrm{sh}_3(\mathbb{O}))
+  \\&= \mathfrak{der}(\mathbb{O})\oplus\mathfrak{der}(\mathbb{H})\oplus\mathrm{sa}_3(\mathbb{H}\otimes\mathbb{O})
+  \\&= \mathfrak{so}(\mathbb{O}\oplus\mathbb{H})\oplus\Im(\mathbb{H})\oplus(\mathbb{H}\otimes\mathbb{O})^2
+  \\&= \mathfrak{so}(\mathbb{O})\oplus\mathfrak{so}(\mathbb{H})\oplus\Im(\mathbb{H})\oplus(\mathbb{H}\otimes\mathbb{O})^3
+  \end{aligned}
+$$
 I explain why these are true in the paper, but for now, let me just say
 what all this stuff means:
 
-"isom" means the Lie algebra of the isometry group,
-
-(H tensor O)P^2 means the quateroctonionic projective plane with its
-god-given Riemannian metric,
-
-"der" means the Lie algebra of derivations,
-
-h_3(O) is the exceptional Jordan algebra, consisting of 3x3 hermitian
-octonionic matrices,
-
-h_3(H) is the Jordan algebra of 3x3 hermitian quaternionic matrices,
-
-Im(O) is the 7-dimensional space of imaginary octonions,
-
-Im(H) is the 3-dimensional space of imaginary quaternions,
-
-sh_3(O) is the traceless 3x3 hermitian octonionic matrices,
-
-sh_3(H) is the traceless 3x3 hermitian quaternionic matrices,
-
-sa_3(H tensor O) is the traceless 3x3 antihermitian quateroctonionic
+- "$\mathfrak{isom}$" means the Lie algebra of the isometry group,
+- $(\mathbb{H}\otimes\mathbb{O})\mathbb{P}^2$ means the quateroctonionic projective plane with its god-given Riemannian metric,
+- "$\mathfrak{der}$" means the Lie algebra of derivations,
+- $\mathrm{h}_3(\mathbb{O})$ is the exceptional Jordan algebra, consisting of $3\times3$ hermitian octonionic matrices,
+- $\mathrm{h}_3(\mathbb{H})$ is the Jordan algebra of $3\times3$ hermitian quaternionic matrices,
+- $\Im(\mathbb{O})$ is the 7-dimensional space of imaginary octonions,
+- $\Im(\mathbb{H})$ is the 3-dimensional space of imaginary quaternions,
+- $\mathrm{sh}_3(\mathbb{O})$ is the traceless $3\times3$ hermitian octonionic matrices,
+- $\mathrm{sh}_3(\mathbb{H})$ is the traceless $3\times3$ hermitian quaternionic matrices,
+- $\mathrm{sa}_3(\mathbb{H}\otimes\mathbb{O})$ is the traceless $3\times3$ antihermitian quateroctonionic
 matrices.
+- $\mathfrak{so}(V)$ is the rotation group Lie algebra associated to the real inner
+product space $V$.
 
-\mathfrak{so}(V) is the rotation group Lie algebra associated to the real inner
-product space V.
-
-It is fun to compute the dimension of E7 using each of these 7 formulas
+It is fun to compute the dimension of $\mathrm{E}_7$ using each of these 7 formulas
 and see that you get 133 each time!
 
-I also give 6 bioctonionic descriptions of E6. Alas, I could not find 8
-octooctonionic descriptions of E8, probably because this group is more
+I also give 6 bioctonionic descriptions of $\mathrm{E}_6$. Alas, I could not find 8
+octooctonionic descriptions of $\mathrm{E}_8$, probably because this group is more
 symmetrical and in a curious sense simpler than the others.
 
 Time for dinner.
 
 ------------------------------------------------------------------------
 
-*"Don't take life too serious, it ain't nohow permanent."* - Walt
+*"Don't take life too serious, it ain't nohow permanent."* --- Walt
 Kelly, Pogo

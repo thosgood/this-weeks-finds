@@ -478,7 +478,7 @@ algebra:
 
 20) Hans Freudenthal, "Zur ebenen Oktavengeometrie", _Indag. Math._ **15** (1953), 195--200.
 
-    Hans Freudenthal, "Beziehungen der $e_7$ und $e_8$ zur Oktavenebene":
+    Hans Freudenthal, "Beziehungen der $\mathfrak{e}_7$ und $\mathfrak{e}_8$ zur Oktavenebene":
 
         I, II, _Indag. Math._ **16** (1954), 218--230, 363--368.
 
