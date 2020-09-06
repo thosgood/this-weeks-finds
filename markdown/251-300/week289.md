@@ -1,6 +1,6 @@
 # DATE {#week289}
 
-This week I'll tell you some news about E~8~. Then I'll continue
+This week I'll tell you some news about \mathrm{E}_8. Then I'll continue
 expanding the grand analogy between different kinds of physics. We'll
 get into a bit of thermodynamics - and chemistry too! And then we'll
 continue our exploration of rational homotopy theory, this time entering
@@ -16,7 +16,7 @@ As usual, the answer is at the end.
 
 Now for the news:
 
-Hurrah! Yippee-yay! They've discovered the exceptional group E~8~ in
+Hurrah! Yippee-yay! They've discovered the exceptional group \mathrm{E}_8 in
 nature! And they've found the golden ratio lurking in a quantum system!
 At least, that's what the headlines are blaring:
 
@@ -28,7 +28,7 @@ Here's the paper that started all the fuss:
 
 2) R. Coldea, D. A. Tennant, E. M. Wheeler, E. Wawrzynska, D.
 Prabhakaran, M. Telling, K. Habicht, P. Smeibidl and K. Kiefer, Quantum
-criticality in an Ising chain: experimental evidence for emergent E~8~
+criticality in an Ising chain: experimental evidence for emergent \mathrm{E}_8
 symmetry, Science (327), 177 - 180. Available at
 `http://www.sciencemag.org/cgi/content/abstract/327/5962/177`
 
@@ -144,11 +144,11 @@ came up with it back around 1961. In this theory, the number 8 shows up
 because the relevant symmetry group, called \mathrm{SU}(3), is 8-dimensional.
 
 However, the math surrounding these 8 kink-antikink bound states is a
-lot more sophisticated. It's related to the exceptional Lie group E~8~,
+lot more sophisticated. It's related to the exceptional Lie group \mathrm{E}_8,
 which is 248-dimensional!
 
 Well, actually it's not quite that bad. What really matters in this
-game is not the group E~8~ but rather its "root lattice", which is
+game is not the group \mathrm{E}_8 but rather its "root lattice", which is
 just 8-dimensional. This is the pattern you get when you pack
 equal-sized balls in 8 dimensions in the unique way such that each ball
 touches the maximum number of others - namely, 248. I sort of understand
@@ -165,7 +165,7 @@ Zamolodchikov's calculation, it should be the golden ratio! You know:
 
 And that's what the experiment saw!
 
-Now, I know plenty of relationships between E~8~, and the golden ratio -
+Now, I know plenty of relationships between \mathrm{E}_8, and the golden ratio -
 see ["Week 270"](#week270) - so this
 connection doesn't shock me. But I sure hope someone explains the
 details!
@@ -178,7 +178,7 @@ solvable lattice models. Also available at
 `http://mac0916.ms.unimelb.edu.au/~pap/Publications_pdf/1997Pearce_VicRoyalSociety.pdf`.
 
 You'll notice he talks about various models of *2-dimensional* magnets,
-leading up to a model that involves something called the E~8~ Dynkin
+leading up to a model that involves something called the \mathrm{E}_8 Dynkin
 diagram:
 
        o----o---o----o----o----o----o
@@ -186,7 +186,7 @@ diagram:
                           |
                           o
 
-which encodes the structure of the E~8~ lattice. These 2-dimensional
+which encodes the structure of the \mathrm{E}_8 lattice. These 2-dimensional
 magnets are related to the 1-dimensional magnetic "spin chain" we've
 been discussing - but in a sneaky way. The 1-dimensional spin chain is
 2-dimensional if we think of time as an extra dimension! Indeed I've
@@ -202,7 +202,7 @@ For starters, at a critical point, a 2-dimensional magnet is related to
 a kind of quantum field theory called a "conformal field theory". And
 the particular conformal theory this experiment is studying is a
 so-called "minimal model" by the name of M(3,4). This conformal field
-theory can be built from E~8~ using something called a "coset
+theory can be built from \mathrm{E}_8 using something called a "coset
 construction" - but it does not have 8 bound states. To see those, we
 really need to turn on that *extra* magnetic field I mentioned: the
 field pointing in the vertical direction. This gives an "integrable

@@ -270,7 +270,7 @@ Since we have one object with one symmetry, the groupoid cardinality is
 
 Let's try a more interesting one, say n = 4. Now there are two options:
 
-F_4
+\mathrm{F}_4
 
 F_2 \times F_2
 
@@ -285,19 +285,19 @@ there are 5 options:
 
 F~16~
 
-F~8~ \times F_2
+F_8 \times F_2
 
-F_4 \times F_4
+\mathrm{F}_4 \times \mathrm{F}_4
 
-F_4 \times F_2 \times F_2
+\mathrm{F}_4 \times F_2 \times F_2
 
 F_2 \times F_2 \times F_2 \times F_2
 
 The field F~16~ has 4 symmetries because 16 = 2^4, and any field
-F~p^n~ has n symmetries. F~8~\timesF_2 has 3 symmetries, coming from the
-symmetries of the first factor. F_4\timesF_4 has 2 symmetries in each
+F~p^n~ has n symmetries. F_8\timesF_2 has 3 symmetries, coming from the
+symmetries of the first factor. \mathrm{F}_4\times\mathrm{F}_4 has 2 symmetries in each
 factor and 2 coming from permutations of the factors, for a total of
-2\times2\times2 = 8. F_4\timesF_2\timesF_2 has 2 symmetries coming from those of the
+2\times2\times2 = 8. \mathrm{F}_4\timesF_2\timesF_2 has 2 symmetries coming from those of the
 first factor, and 2 symmetries coming from permutations of the last two
 factors, for a total of 2\times2 = 4 symmetries. And finally,
 F_2\timesF_2\timesF_2\timesF_2 has 24 symmetries coming from permutations of the

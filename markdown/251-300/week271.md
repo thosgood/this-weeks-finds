@@ -189,14 +189,14 @@ We can get 3d quasicrystals with approximate dodecahedral symmetry by
 cleverly slicing the 6-dimensional D~6~ lattice. This is actually
 practical, since there really *are* such quasicrystals in nature. And we
 can get 4d quasicrystals with approximate 120-cell symmetry by cleverly
-slicing the E~8~ lattice! This is just incredibly cool as pure
+slicing the \mathrm{E}_8 lattice! This is just incredibly cool as pure
 mathematics:
 
 9) Veit Elser and Neil Sloane, A highly symmetric four-dimensional
 quasicrystal, J. Phys. A 20 (1987), 6161-6168. Also available at
 `http://akpublic.research.att.com/~njas/doc/Elser.ps`
 
-10) J. F. Sadoc and R. Mosseri, The E~8~ lattice and quasicrystals:
+10) J. F. Sadoc and R. Mosseri, The \mathrm{E}_8 lattice and quasicrystals:
 geometry, number theory and quasicrystals, J. Phys. A 26 (1993),
 1789-1809.
 
@@ -207,14 +207,14 @@ Yes, this is the same Moody who helped invent Kac-Moody algebras! For
 the last decade or so he's been working on quasicrystals. In
 ["Week 20"](#week20) I explained the "icosians" - a subring of
 the quaternions built from the symmetries of a dodecahedron - and how
-Conway and Sloane used them to construct the E~8~ lattice. Moody's
+Conway and Sloane used them to construct the \mathrm{E}_8 lattice. Moody's
 article uses the icosians to study the 4d quasicrystals that we get by
-slicing the E~8~ lattice.
+slicing the \mathrm{E}_8 lattice.
 
 While they may seem remote from the real world, these 4d quasicrystals
 can be further sliced to give 3d quasicrytals with approximate
 dodecahedral symmetry. So in some sense, the quasicrystals we find in
-nature are "shadows" of the E~8~ lattice... trying their best to have
+nature are "shadows" of the \mathrm{E}_8 lattice... trying their best to have
 a symmetry that can only exist in 8 dimensions, but never quite
 succeeding.
 

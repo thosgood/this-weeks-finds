@@ -388,7 +388,7 @@ the whole theory of quantum groups! But, I don't want to rush into
 that, since it makes more sense when put in the right context.)
 
 By the way, some of you have already pointed out how unfortunate it is
-that *last* Week was devoted to E~8~, instead of *this* one. Sorry.
+that *last* Week was devoted to \mathrm{E}_8, instead of *this* one. Sorry.
 
 ------------------------------------------------------------------------
 

@@ -263,7 +263,7 @@ details more carefully.
 
 Among the 26 sporadic groups, one is called the Thompson group. It was
 discovered by Thompson, and it's a subgroup of a version of the group
-E~8~ defined over F_3, the field with 3 elements. It has about 9 \times
+\mathrm{E}_8 defined over F_3, the field with 3 elements. It has about 9 \times
 10^16^ elements, and it has a 248-dimensional representation over F_3.
 I don't know much about it. I mention it just to show what crazy
 possibilities had to be considered to classify all finite simple groups

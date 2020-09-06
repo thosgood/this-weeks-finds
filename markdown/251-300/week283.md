@@ -91,10 +91,10 @@ have been the first "exceptional" object in mathematics - roughtly
 speaking, an entity that doesn't fit into any easy pattern, which is
 discovered as part of proving a classification theorem!
 
-Other exceptional objects include the simple Lie group E~8~, and the
+Other exceptional objects include the simple Lie group \mathrm{E}_8, and the
 finite simple group M~12~. Intriguingly, many of these exceptional
 objects" are related. For example, the icosahedron can be used to
-construct both E~8~ and M~12~. But the first interesting classification
+construct both \mathrm{E}_8 and M~12~. But the first interesting classification
 theorem was the classification of regular polyhedra: convex polyhedra
 with equilateral polygons as faces, and the same number of faces meeting
 at each vertex. This theorem appears almost at the end of the last book

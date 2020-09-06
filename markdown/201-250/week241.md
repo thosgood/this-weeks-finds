@@ -537,9 +537,9 @@ for a reason soon to be clear. But, already you can see that we've got
 
 where the spheres intersect when there's an edge between the
 corresponding dots. And, this diagram is the Dynkin diagram for the
-exceptional Lie group E~8~!
+exceptional Lie group \mathrm{E}_8!
 
-I already mentioned the relation between the E~8~ Dynkin diagram and the
+I already mentioned the relation between the \mathrm{E}_8 Dynkin diagram and the
 Poincare homology sphere in ["Week 164"](#week164), but now maybe
 it fits better into a big framework. First, we see that if we take the
 unit ball in C^2, and see what points it gives in C^2/G, and then take
@@ -595,7 +595,7 @@ This cobordism can be described using surgery on this link:
                            \  /
                             \/ 
 
-which encodes the Dynkin diagram of E~7~:
+which encodes the Dynkin diagram of \mathrm{E}_7:
 
            o----o----o----o----o----o
                           |
@@ -625,7 +625,7 @@ on this link:
                            \  /
                             \/ 
 
-which encodes the Dynkin diagram of E~6~:
+which encodes the Dynkin diagram of \mathrm{E}_6:
 
                 o----o----o----o----o
                           |

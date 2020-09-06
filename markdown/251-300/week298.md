@@ -86,10 +86,10 @@ the quaternions - and the Lipschitzian, Hurwitzian and Gravesian
 integers sitting inside the octonions. I suspect all these charming
 names are due to Conway, who has a real gift for terminology. But best
 of all are the Cayley integers, which form a famous 8-dimensional
-lattice: the E~8~ lattice! This gives the densest lattice packing of
+lattice: the \mathrm{E}_8 lattice! This gives the densest lattice packing of
 spheres in 8 dimensions: each sphere touches 240 others.
 
-But you've heard me rhapsodizing about E~8~ for years. What's new this
+But you've heard me rhapsodizing about \mathrm{E}_8 for years. What's new this
 week? Well, recently I was perusing a draft of a paper on various kinds
 of quaternionic and octonionic integers, which was kindly sent to me by
 Norman Johnson. I'm afraid that paper is still top secret, but an
@@ -155,7 +155,7 @@ Available at
 
 There are no huge surprises here. The most exciting finite subloop has
 240 elements: it consists of the Cayley integers of length 1, otherwise
-known as the root vectors of E~8~. You've probably seen this thing:
+known as the root vectors of \mathrm{E}_8. You've probably seen this thing:
 
 ::: {align="center"}
 ![](e8_stembridge.jpg)
@@ -308,22 +308,22 @@ papers:
 hyperdeterminants, Quant. Info. Comp. 2 (2002), 540-555. Also available
 as [`arXiv:quant-ph/0212146`](http://arxiv.org/abs/quant-ph/0212146).
 
-14) Michael J. Duff and S. Ferrara, E~7~ and the tripartite
+14) Michael J. Duff and S. Ferrara, \mathrm{E}_7 and the tripartite
 entanglement of seven qubits, Phys. Rev. D 76 025018 (2007). Also
 available as
 [`arXiv:quant-ph/0609227`](http://arxiv.org/abs/quant-ph/0609227).
 
-15) Michael J. Duff and S. Ferrara, E~6~ and the bipartite entanglement
+15) Michael J. Duff and S. Ferrara, \mathrm{E}_6 and the bipartite entanglement
 of qutrits, Phys. Rev. D 76 124023 (2007). Also available as
 [`arXiv:0704.0507`](http://arxiv.org/abs/0704.0507).
 
 or this very nice recent one:
 
-16) Bianca L. Cerchiai and Bert van Geemen, From qubits to E~7~,
+16) Bianca L. Cerchiai and Bert van Geemen, From qubits to \mathrm{E}_7,
 available as [`arXiv:1003.4255`](http://arxiv.org/abs/1003.4255).
 
 Since I've spent a lot of time talking about the Fano plane, the
-octonions, and exceptional groups like E~6~, E~7~ and E~8~, let me say
+octonions, and exceptional groups like \mathrm{E}_6, \mathrm{E}_7 and \mathrm{E}_8, let me say
 just a word or two about hyperdeterminants.
 
 In the 1840's, after his work on determinants, Arthur Cayley invented a

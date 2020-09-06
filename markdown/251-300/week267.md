@@ -462,7 +462,7 @@ with Euler characteristic 0 fits together with things like the
 ["Week 182"](#week182). Here I used the Euler characteristic to
 list all ways to regularly tile a sphere with regular polygons. This
 gave the McKay correspondence linking Platonic solids to the
-simply-laced Lie algebras A_n, D_n, E~6~, E~7~ and E~8~. Taking
+simply-laced Lie algebras A_n, D_n, \mathrm{E}_6, \mathrm{E}_7 and \mathrm{E}_8. Taking
 different values of the Euler characteristic, the same idea let us
 classify regular tilings of the plane or hyperbolic plane by regular
 polygons, and see how these correspond to "affine" or "hyperbolic"

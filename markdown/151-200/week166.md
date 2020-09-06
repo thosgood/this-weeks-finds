@@ -335,12 +335,12 @@ Jour. Algebra 235 (2001), 805-814.
 Anyway, I need to read about this stuff.
 
 Speaking of exceptionology: in ["Week 163"](#week163) I explained
-how Spin(9) sits inside the Lie group \mathrm{F}_4, thanks to the fact that
-Spin(9) is the automorphism group of Jordan algebra of 2x2 hermitian
+how \mathrm{Spin}(9) sits inside the Lie group \mathrm{F}_4, thanks to the fact that
+\mathrm{Spin}(9) is the automorphism group of Jordan algebra of 2x2 hermitian
 octonionic matrices, and \mathrm{F}_4 is the automorphism group of the Jordan
 algebra of 3x3 hermitian matrices. But in fact, since there are
 different ways to think of 2x2 matrices as special 3x3 matrices, there
-are actually 3 equally good ways to stuff Spin(9) in \mathrm{F}_4. Since I'd been
+are actually 3 equally good ways to stuff \mathrm{Spin}(9) in \mathrm{F}_4. Since I'd been
 hoping this might be important in particle physics, it was nice to
 discover that Pierre Ramond, a real expert on this stuff, has had
 similar thoughts. In fact he's written two papers on this! Let me just

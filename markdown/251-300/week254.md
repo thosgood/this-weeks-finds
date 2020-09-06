@@ -256,7 +256,7 @@ physics...
 Last week I described some mathematical relations between the Standard
 Model of particle physics, the most famous grand unified theories, and
 some "exceptional" structures in mathematics: the exceptional Lie
-group E~6~, the complexified octonionic projective plane, and the
+group \mathrm{E}_6, the complexified octonionic projective plane, and the
 exceptional Jordan algebra.
 
 This week I want to go a bit further, and talk about the work of Kac,
@@ -305,7 +305,7 @@ Engel's work. In the process, he noticed that Engel's two
 52-dimensional Lie algebras were actually the same. Whoops!
 
 So, we now have just 5 "exceptional" simple Lie algebras. In order of
-increasing size, they're called g_2, f_4, e~6~, e~7~ and e~8~.
+increasing size, they're called g_2, f_4, e~6~, e~7~ and e_8.
 
 In 1914, Cartan realized that the smallest exceptional Lie algebra g_2,
 comes from the symmetry group of the octonions! Later it was realized

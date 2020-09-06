@@ -424,8 +424,8 @@ around. For a good explanation, with pretty pictures, see:
 26) Greg Muller, Chord diagrams and Lie algebras,
 `http://cornellmath.wordpress.com/2007/12/25/chord-diagrams-and-lie-algebras/`
 
-It then turns out that the exceptional Lie algebras F_4, E~6~, E~7~ and
-E~8~ satisfy *yet another* identity:
+It then turns out that the exceptional Lie algebras \mathrm{F}_4, \mathrm{E}_6, \mathrm{E}_7 and
+\mathrm{E}_8 satisfy *yet another* identity:
 
      \        /                
       \      /                
@@ -530,7 +530,7 @@ thesis on a related topic:
 32) Aaron Wangberg, The structure of E6, available as
 [`arXiv:0711.3447`](http://arXiv.org/abs/0711.3447).
 
-In a nutshell: E~6~ is secretly \mathrm{SL}(3,O). Octonions rock!
+In a nutshell: \mathrm{E}_6 is secretly \mathrm{SL}(3,O). Octonions rock!
 
 Happy holidays. Keep learning cool stuff.
 
@@ -538,7 +538,7 @@ Happy holidays. Keep learning cool stuff.
 
 **Addenda:** Thomas Riepe listed some more free online math books. Tony
 Smith pointed out something I already knew, but didn't make clear
-above: the idea that E~6~ is secretly \mathrm{SL}(3,O) is far from new.
+above: the idea that \mathrm{E}_6 is secretly \mathrm{SL}(3,O) is far from new.
 
 Thomas wrote:
 
@@ -577,18 +577,18 @@ Tony Smith wrote:
 > > 32) Aaron Wangberg, The structure of E6, available as
 > > [`arXiv:0711.3447`](http://www.arxiv.org/abs/0711.3447).
 > >
-> > In a nutshell: E~6~ is secretly \mathrm{SL}(3,O). Octonions rock!
+> > In a nutshell: \mathrm{E}_6 is secretly \mathrm{SL}(3,O). Octonions rock!
 >
 > Not only from your brief list descrption, but also from reading the
 > paper at pages 96 ff I get the impression that Wangberg is claiming
-> the result E~6~ = \mathrm{SL}(3,O). Do you get the same impression? I hope not,
+> the result \mathrm{E}_6 = \mathrm{SL}(3,O). Do you get the same impression? I hope not,
 > and I hope that my impression is somehow mistaken, because the result
-> E~6~ = \mathrm{SL}(3,O) is (and has been for some time) well known and in the
+> \mathrm{E}_6 = \mathrm{SL}(3,O) is (and has been for some time) well known and in the
 > literature. For example, in
 > [`hep-th/9309030`](http://arxiv.org/abs/hep-th/9309030) Martin Cederwall
 > and Christian R. Preitschopf said:
 >
-> > ... It should be possible to realize E~6~ = \mathrm{SL}(3;O) \[18,24\] on
+> > ... It should be possible to realize \mathrm{E}_6 = \mathrm{SL}(3;O) \[18,24\] on
 > > them in a "spinor-like" manner, much like \mathrm{SO}(10) = \mathrm{SL}(2;O) acts on
 > > its 16-dimensional spinor representations that play the role of
 > > homogeneous coordinates for OP^1 ...
@@ -610,9 +610,9 @@ Tony Smith wrote:
 >
 > PS - In Sudbery's 1984 paper, he not only says (at page 950) "...
 > \mathfrak{sl}(3,K) ... When K = O, this Lie algebra is a n on-compact form of
-> the exceptional Lie algebra E~6~, the maximal compact subalgebra being
-> F_4 ..." but he goes on to say "... sp(6,K) ... when K = O it is
-> a non-compact form of E~7~, the maximal compact subalgebra being E6 \oplus 
+> the exceptional Lie algebra \mathrm{E}_6, the maximal compact subalgebra being
+> \mathrm{F}_4 ..." but he goes on to say "... sp(6,K) ... when K = O it is
+> a non-compact form of \mathrm{E}_7, the maximal compact subalgebra being E6 \oplus 
 > \mathfrak{so}(2). ...".
 
 For more discussion, go to the [*n*-Category

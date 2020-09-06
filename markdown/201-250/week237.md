@@ -146,7 +146,7 @@ to dimension 11?
 I got even more intrigued when I ran across two competing explanations
 for that 3-form in 11d supergravity. One was that it's a connection on
 a twice categorified version of a \mathrm{U}(1) bundle. The other was that it's
-the Chern-Simons form for an E~8~ gauge theory.
+the Chern-Simons form for an \mathrm{E}_8 gauge theory.
 
 Let me say a bit about what these means. I talked about categorified
 \mathrm{U}(1) bundles in ["Week 210"](#week210), so I'll be sort of brief
@@ -220,31 +220,31 @@ a dimension. For example, a crucial factor of 1/6 in the Lagrangian for
 11d supergravity is not explained by thinking of A this way.
 
 Another possible explanation was that this 3-form is the Chern-Simons
-form of an E~8~ bundle over spacetime:
+form of an \mathrm{E}_8 bundle over spacetime:
 
-5) Emanuel Diaconescu, Gregory Moore and Edward Witten, E~8~ gauge
+5) Emanuel Diaconescu, Gregory Moore and Edward Witten, \mathrm{E}_8 gauge
 theory, and a derivation of K-theory from M-theory, Adv. Theor. Math.
 Phys. 6 (2003) 1031-1134. Also available as
 [`arXiv:hep-th/0005090`](http://arxiv.org/abs/hep-th/0005090).
 
 6) Emanuel Diaconescu, Daniel S. Freed and Gregory Moore, The M-theory
-3-form and E~8~ gauge theory, available as
+3-form and \mathrm{E}_8 gauge theory, available as
 [`arXiv:hep-th/0312069`](http://arxiv.org/abs/hep-th/0312069).
 
 This idea explains that factor of 1/6. And, it might move towards an
 explanation of how the octonions get into the act, because the group
-E~8~ is deeply related to the octonions. But as the authors of the above
-paper say, "the E~8~ gauge field plays a purely topological role and
+\mathrm{E}_8 is deeply related to the octonions. But as the authors of the above
+paper say, "the \mathrm{E}_8 gauge field plays a purely topological role and
 appears, in some sense, to be a 'fake'." In particular, you don't
-see any E~8~ connection staring you in the face in the Lagrangian for
+see any \mathrm{E}_8 connection staring you in the face in the Lagrangian for
 11d supergravity that I wrote down in ["Week 158"](#week158).
 
 Later, it started becoming clear that both ideas - the twice
-categorified \mathrm{U}(1) connection and the E~8~ gauge theory - fit together in
+categorified \mathrm{U}(1) connection and the \mathrm{E}_8 gauge theory - fit together in
 some way:
 
 7) Paolo Aschieri and Branislav Jurco, Gerbes, M5-brane anomalies and
-E~8~ gauge theory, JHEP 0410 (2004), 068. Also available as
+\mathrm{E}_8 gauge theory, JHEP 0410 (2004), 068. Also available as
 [`arXiv:hep-th/0409200`](http://arxiv.org/abs/hep-th/0409200).
 
 It all became a lot clearer to me when Urs Schreiber read these papers
@@ -442,7 +442,7 @@ D'Auria and Fre make it look like a matter of understanding tensor
 products of irreps of \mathfrak{so}(n,1), which is not bad. A worthwhile project in
 any event.
 
-I also need to understand what all this has to do with E~8~. For that
+I also need to understand what all this has to do with \mathrm{E}_8. For that
 the paper by Diaconescu, Freed and Moore should help.
 
 Well, this is just the beginning, but Urs explains the rest.
@@ -450,22 +450,22 @@ Well, this is just the beginning, but Urs explains the rest.
 ------------------------------------------------------------------------
 
 **Addenda**: I thank Noam Elkies for a correction. Aaron Bergman has
-this to say about E~8~ and M-theory:
+this to say about \mathrm{E}_8 and M-theory:
 
 > John Baez wrote:
 >
 >     > I also need to understand what all this has to do with E8.
 >
-> E~8~ might not have much of anything to do with this. As mentioned in
-> Diaconescu, Freed and Moore, E~8~ appears to function solely as a
+> \mathrm{E}_8 might not have much of anything to do with this. As mentioned in
+> Diaconescu, Freed and Moore, \mathrm{E}_8 appears to function solely as a
 > convenient stand-in for K(Z,3).
 >
 > On the other hand, the split form of the E-series (up to E~11~ if
 > you're feeling particularly speculative) is known to show up in
 > describing the fields of 11D SUGRA, but the I don't think anyone
-> knows of a connection between the two E~8~s. Just to add to the fun,
-> E~8~ gauge fields also show up on the fixed points of M-theory on
-> S^1/Z_2 giving the E~8~ \times E~8~ heterotic string.
+> knows of a connection between the two \mathrm{E}_8s. Just to add to the fun,
+> \mathrm{E}_8 gauge fields also show up on the fixed points of M-theory on
+> S^1/Z_2 giving the \mathrm{E}_8 \times \mathrm{E}_8 heterotic string.
 >
 > Aaron
 
@@ -478,16 +478,16 @@ Urs Schreiber replied:
 >
 > The topological part of the membrane action involves the integral of
 > the sugra 3-form over the worldvolume. By DFW, part of that 3-form can
-> be thought of as an E~8~ CS 3-form.
+> be thought of as an \mathrm{E}_8 CS 3-form.
 >
-> So part of the membrane action looks similar to an E~8~ CS-theory over
+> So part of the membrane action looks similar to an \mathrm{E}_8 CS-theory over
 > the worldvolume.
 >
-> Now let the membrane have a boundary. A bulk E~8~ CS-theory is well
-> known to induce an E~8~ WZW theory on the boundary.
+> Now let the membrane have a boundary. A bulk \mathrm{E}_8 CS-theory is well
+> known to induce an \mathrm{E}_8 WZW theory on the boundary.
 >
-> Could this be the connection between the DWF E~8~ and the
-> Horava-Witten E~8~?
+> Could this be the connection between the DWF \mathrm{E}_8 and the
+> Horava-Witten \mathrm{E}_8?
 >
 > I have asked this question before:
 > `http://golem.ph.utexas.edu/string/archives/000791.html`. Jarah then
@@ -495,9 +495,9 @@ Urs Schreiber replied:
 > to me yet.
 >
 > One problem is that in CS-theory we vary the connection, while in the
-> topological membrane the E~8~ connection on the background is fixed
+> topological membrane the \mathrm{E}_8 connection on the background is fixed
 > and we vary the embedding by which we pull it back to the worldvolume.
-> Under suitable assumptions that might be equivalent to varying an E~8~
+> Under suitable assumptions that might be equivalent to varying an \mathrm{E}_8
 > connection on the worldvolume itself?
 
 Aaron Bergman replied:

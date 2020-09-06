@@ -16,7 +16,7 @@ center](http://en.wikipedia.org/wiki/Hawker_centre).
 
 Today I'll talk about quantum technology in Singapore, atom chips,
 graphene transistors, nitrogen-vacancy pairs in diamonds, a new
-construction of e~8~, and a categorification of quantum \mathfrak{sl}(2).
+construction of e_8, and a categorification of quantum \mathfrak{sl}(2).
 
 But first - the astronomy pictures of the week!
 
@@ -219,7 +219,7 @@ The reason is that in any dimension you can define a checkerboard
 lattice called D_n, consisting of all $n$-tuples of integers that sum to
 an even integer. Then you can define a set called D_n^+^ by taking two
 copies of the D_n lattice: the original and another shifted by the
-vector (1/2,...,1/2). D~8~^+^ is the E~8~ lattice, but D_3 is the
+vector (1/2,...,1/2). D_8^+^ is the \mathrm{E}_8 lattice, but D_3 is the
 face-centered cubic, and D_3^+^ is the pattern formed by carbons in a
 diamond!
 
@@ -245,17 +245,17 @@ relative of the D_3^+^ pattern, with an equally low density.
 graphite when they get hot enough, regardless of the pressure? Inquiring
 minds want to know. These days inquiring minds use search engines to
 answer questions like this... but right now I'd rather talk about
-E~8~.)
+\mathrm{E}_8.)
 
 As you probably noticed, Garrett Lisi stirred up quite a media sensation
 with his attempt to pack all known forces and particles into a theory
-based on the exceptional Lie group E~8~:
+based on the exceptional Lie group \mathrm{E}_8:
 
 15) Garrett Lisi, An exceptionally simple theory of everything,
 available as [`arXiv:0711.0770`](http://arxiv.org/abs/0711.0770)
 
 Part of his idea was to use Kostant's triality-based description of
-E~8~ to explain the three generations of leptons - see
+\mathrm{E}_8 to explain the three generations of leptons - see
 ["Week 253"](#week253) for more. Unfortunately this part of the
 idea doesn't work, for purely group-theoretical reasons:
 
@@ -268,42 +268,42 @@ There would also be vast problems trying get all the dimensionless
 constants in the Standard Model to pop out of such a scheme - or to
 stick them in somehow.
 
-Meanwhile, Kostant has been doing new things with E~8~. He's mainly
-been using the complex form of E~8~, while Lisi needs a noncompact real
+Meanwhile, Kostant has been doing new things with \mathrm{E}_8. He's mainly
+been using the complex form of \mathrm{E}_8, while Lisi needs a noncompact real
 form to get gravity into the game. So, the connection between their work
 is somewhat limited. Nonetheless, Kostant enjoys the idea of a theory of
-everything based on E~8~.
+everything based on \mathrm{E}_8.
 
 He recently gave a talk here at UCR:
 
-17) Bertram Kostant, On some mathematics in Garrett Lisi's "E~8~
+17) Bertram Kostant, On some mathematics in Garrett Lisi's "\mathrm{E}_8
 theory of everything", February 12, 2008, UCR. Video and lecture notes
 at `http://math.ucr.edu/home/baez/kostant/`
 
 He did some amazing things, like chop the 248-dimensional Lie algebra of
-E~8~ into 31 Cartan subalgebras in a nice way, thus categorifying the
+\mathrm{E}_8 into 31 Cartan subalgebras in a nice way, thus categorifying the
 factorization
 
 248 = 8 \times 31
 
 To do this, he used a copy of the 32-element group (Z/2)^5 sitting in
-E~8~, and the 31 nontrivial characters of this group.
+\mathrm{E}_8, and the 31 nontrivial characters of this group.
 
 Even more remarkably, this copy of (Z/2)^5 sits inside a copy of
-\mathrm{SL}(2,F~32~) inside E~8~, and the centralizer of a certain element of
+\mathrm{SL}(2,F~32~) inside \mathrm{E}_8, and the centralizer of a certain element of
 \mathrm{SL}(2,F~32~) is a product of two copies of the gauge group of the
 Standard Model! What this means - if anything - remains a mystery.
 
-Indeed, pretty much everything about E~8~ seems mysterious to me, since
+Indeed, pretty much everything about \mathrm{E}_8 seems mysterious to me, since
 nobody has exhibited it as the symmetry group of anything more
-comprehensible than E~8~ itself. This paper sheds some new light this
+comprehensible than \mathrm{E}_8 itself. This paper sheds some new light this
 puzzle:
 
 17) José Miguel Figueroa-O'Farrill, A geometric construction of the
-exceptional Lie algebras F_4 and E~8~, available as
+exceptional Lie algebras \mathrm{F}_4 and \mathrm{E}_8, available as
 [`arXiv:0706.2829`](http://arxiv.org/abs/0706.2829).
 
-The idea here is to build the Lie algebra of E~8~ using Killing spinors
+The idea here is to build the Lie algebra of \mathrm{E}_8 using Killing spinors
 on the unit sphere in 16 dimensions.
 
 Okay - what's a Killing spinor?
@@ -367,18 +367,18 @@ this only works in certain special cases:
 If you take S^7 with its usual round metric, the isometry group is
 \mathrm{SO}(8), so the Lie algebra of Killing vectors is \mathfrak{so}(8). There's an
 8-dimensional space of Killing spinors, and the action of \mathfrak{so}(8) on this
-gives the real left-handed spinor representation S~8~^+^. The Jacobi
+gives the real left-handed spinor representation S_8^+^. The Jacobi
 identity holds, and you get a Lie algebra structure on
 
-\mathfrak{so}(8) \oplus  S~8~^+^
+\mathfrak{so}(8) \oplus  S_8^+^
 
 But then, thanks to triality, you knock yourself on the head and say "I
-could have had a V~8~!" After all, up to an outer automorphism of
-\mathfrak{so}(8), the spinor representation S~8~^+^ is the same as the
-8-dimensional vector representation V~8~. So, your Lie algebra is the
+could have had a V_8!" After all, up to an outer automorphism of
+\mathfrak{so}(8), the spinor representation S_8^+^ is the same as the
+8-dimensional vector representation V_8. So, your Lie algebra is the
 same as
 
-\mathfrak{so}(8) \oplus  V~8~
+\mathfrak{so}(8) \oplus  V_8
 
 with a certain obvious Lie algebra structure. This is just \mathfrak{so}(9). So,
 it's nothing exceptional, though you arrived at it by a devious route.
@@ -401,11 +401,11 @@ holds, and you get a Lie algebra structure on
 
 \mathfrak{so}(16) \oplus  S~16~^+^
 
-This gives the exceptional Lie algebra e~8~!
+This gives the exceptional Lie algebra e_8!
 
 In short, what Figueroa-O'Farrill has done is found a nice geometrical
 interpretation for some previously known algebraic constructions of f_4
-and e~8~. Unfortunately, he still needs to verify the Jacobi identity in
+and e_8. Unfortunately, he still needs to verify the Jacobi identity in
 the same brute-force way. It would be nice to find a slicker proof. But
 his new interpretation is suggestive: it raises a lot of new questions.
 He lists some of these at the end of the paper, and mentions a really
@@ -415,8 +415,8 @@ line:
 
 S^7 \to S^15^ \to S^8
 
-Does this give a nice relation between \mathfrak{so}(9), f_4 and e~8~? Can someone
-guess what this relation should be? Maybe e~8~ is built from \mathfrak{so}(9) and
+Does this give a nice relation between \mathfrak{so}(9), f_4 and e_8? Can someone
+guess what this relation should be? Maybe e_8 is built from \mathfrak{so}(9) and
 f_4 somehow.
 
 I also wonder if there's a Killing superalgebra interpretation of the
@@ -474,11 +474,11 @@ José Figueroa-O'Farrill sent an email saying:
 > be to understand of what in, say, the 15-sphere is E8 the
 > automorphisms. I'm afraid I don't have an answer.
 >
-> As for E~6~ and E~7~, there is a similar geometric construction for
-> E~6~ and one for E~7~ is in the works as part of a paper with Hannu
+> As for \mathrm{E}_6 and \mathrm{E}_7, there is a similar geometric construction for
+> \mathrm{E}_6 and one for \mathrm{E}_7 is in the works as part of a paper with Hannu
 > Rajaniemi, who was a student of mine. The construction is analogous,
 > but for one thing. One has to construct more than just the Killing
-> vectors out of the Killing spinors: in the case of E~6~, it is enough
+> vectors out of the Killing spinors: in the case of \mathrm{E}_6, it is enough
 > to construct a Killing 0-form (i.e., a constant) which then acts on
 > the Killing spinors via a multiple of the Dirac operator. (This is
 > consistent with the action of 'special Killing forms' a.k.a.
@@ -486,7 +486,7 @@ José Figueroa-O'Farrill sent an email saying:
 > here is even more mysterious: it does not simply follow from
 > representation theory (i.e., absence of invariants in the relevant
 > representation where the 'jacobator' lives), but follows from an
-> explicit calculation. The case of E~7~ should work in a similar way,
+> explicit calculation. The case of \mathrm{E}_7 should work in a similar way,
 > but we still have not finished the construction. (Hannu has a real job
 > now and I've been busy with other projects of a less 'recreational'
 > nature.) In

@@ -631,7 +631,7 @@ finite simple groups. Anyway, here we go:
 
 -   How many minutes are in 2 weeks?
 
-    20,160, which is the order of the finite simple group A~8~. Thanks
+    20,160, which is the order of the finite simple group A_8. Thanks
     to another marvelous coincidence, this is isomorphic to \mathrm{PSL}(4,2).
     And there's also another nonisomorphic finite simple group of the
     same size, namely \mathrm{PSL}(3,4)!

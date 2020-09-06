@@ -81,9 +81,9 @@ And this week, the institute flexed its mighty PR muscles and coaxed
 reporters from the New York Times, BBC, Le Monde, Scientific American,
 Science News, and so on to write about a highly esoteric advance in our
 understanding of symmetry - a gargantuan calculation involving the Lie
-group E~8~:
+group \mathrm{E}_8:
 
-6) American Institute of Mathematics, Mathematicians map E~8~,
+6) American Institute of Mathematics, Mathematicians map \mathrm{E}_8,
 `http://aimath.org/E8`
 
 The calculation is indeed huge. The *answer* takes up 60 gigabytes of
@@ -93,10 +93,10 @@ information were written out on paper, it would cover Manhattan!
 But what's the calculation *about?* It almost seems a good explanation
 of that would *also* cover Manhattan. I took a stab at it here:
 
-7) John Baez, News about E~8~,
+7) John Baez, News about \mathrm{E}_8,
 `http://golem.ph.utexas.edu/category/2007/03/news_about_e8.html`
 
-but I only got as far as sketching a description of E~8~ and some
+but I only got as far as sketching a description of \mathrm{E}_8 and some
 gadgets called R-polynomials. Then come Kazhdan-Lusztig polynomials, and
 Kazhdan-Lusztig-Vogan polynomials.... For more details, follow the
 links, especially to the page written by Jeffrey Adams, who led the
@@ -108,11 +108,11 @@ and the Weil conjectures. I may even talk about Kazhdan-Lusztig
 polynomials!
 
 For starters, though, let's just look at some pretty pictures by John
-Stembridge that hint at the majesty of E~8~. Then I'll sketch the real
+Stembridge that hint at the majesty of \mathrm{E}_8. Then I'll sketch the real
 subject of Weeks to come: symmetry, geometry, and "groupoidification".
 
-To warm up to E~8~, let's first take a look at D_4, D_5, E~6~, and
-E~7~.
+To warm up to \mathrm{E}_8, let's first take a look at D_4, D_5, \mathrm{E}_6, and
+\mathrm{E}_7.
 
 In ["Week 91"](#week91) I spoke about the D_4 lattice. To get
 this, first take a bunch of equal-sized spheres in 4 dimensions. Stack
@@ -168,48 +168,48 @@ If you do the same thing with a 6-dimensional checkerboard, you get the
 "D~6~ lattice"... and so on.
 
 However, in 8 dimensions something cool happens. If you pack spheres in
-the pattern of the D~8~ lattice, there's enough room left to stick in
-an extra copy of this whole pattern! The result is called the "E~8~
-lattice". It's twice as dense as the D~8~ lattice.
+the pattern of the D_8 lattice, there's enough room left to stick in
+an extra copy of this whole pattern! The result is called the "\mathrm{E}_8
+lattice". It's twice as dense as the D_8 lattice.
 
 If you then take a well-chosen 7-dimensional slice through the origin of
-the E~8~ lattice, you get the E~7~ lattice. And if you take a
-well-chosen 6-dimensional slice of this, you get the E~6~ lattice. For
+the \mathrm{E}_8 lattice, you get the \mathrm{E}_7 lattice. And if you take a
+well-chosen 6-dimensional slice of this, you get the \mathrm{E}_6 lattice. For
 precise details on what I mean by "well-chosen", see
 ["Week 65"](#week65).
 
-E~6~ and E~7~ give denser packings of spheres than D~6~ and D~7~. In
+\mathrm{E}_6 and \mathrm{E}_7 give denser packings of spheres than D~6~ and D~7~. In
 fact, they give the densest known packings of spheres in 6 and 7
 dimensions!
 
-In the E~6~ lattice, each sphere has 72 nearest neighbors. They form the
+In the \mathrm{E}_6 lattice, each sphere has 72 nearest neighbors. They form the
 vertices of a solid that looks like this:
 
 ::: {align="center"}
 [![](e6_stembridge.jpg)](http://www.math.lsa.umich.edu/~jrs/)
 :::
 
-10) John Stembridge, E~6~ root system, available at
+10) John Stembridge, \mathrm{E}_6 root system, available at
 `http://www.math.lsa.umich.edu/~jrs/data/coxplanes/`
 
-In the E~7~ lattice, each sphere has 126 nearest neighbors. They form
+In the \mathrm{E}_7 lattice, each sphere has 126 nearest neighbors. They form
 the vertices of a solid like this:
 
 ::: {align="center"}
 [![](e7_stembridge.jpg)](http://www.math.lsa.umich.edu/~jrs/)
 :::
 
-11) John Stembridge, E~7~ root system, available at
+11) John Stembridge, \mathrm{E}_7 root system, available at
 `http://www.math.lsa.umich.edu/~jrs/data/coxplanes/`
 
-In the E~8~ lattice, each sphere has 240 nearest neighbors. They form
+In the \mathrm{E}_8 lattice, each sphere has 240 nearest neighbors. They form
 the vertices of a solid like this:
 
 ::: {align="center"}
 [![](e8_stembridge_small.jpg)](http://www.math.lsa.umich.edu/~jrs/)
 :::
 
-12) John Stembridge, E~8~ root system, available at
+12) John Stembridge, \mathrm{E}_8 root system, available at
 `http://www.math.lsa.umich.edu/~jrs/data/coxplanes/`
 
 Faithful readers will know I've discussed these lattices often before.
@@ -506,7 +506,7 @@ context of the category it inhabits.
 
 Finally, here's a puzzle for lattice and Lie group fans. The dots in
 Stembridge's pictures are the shortest nonzero vectors in the D_5,
-E~6~, E~7~, and E~8~ lattices - or in technical terms, the "roots". Of
+\mathrm{E}_6, \mathrm{E}_7, and \mathrm{E}_8 lattices - or in technical terms, the "roots". Of
 course, only for ADE Dynkin diagrams are the roots all of equal length -
 but those are the kind we have here. Anyway: in the D_5 case, only 32
 of the 40 roots are visible. The other 8 are hidden in back somewhere.
@@ -542,7 +542,7 @@ other reasons, too! Here's how it goes:
        G2               6
 
 For D_5 the Coxeter number is 8, which accounts for the 8-fold symmetry
-of Stembridge's picture in that case. The E~8~ picture has 30-fold
+of Stembridge's picture in that case. The \mathrm{E}_8 picture has 30-fold
 symmetry! My D_4 picture has 8-fold symmetry, so I must not have been
 projecting down to the Coxeter plane.
 

@@ -768,8 +768,8 @@ Okay, now for a bit about the icosahedron - my favorite Platonic solid.
 
 I've been thinking about the "geometric McKay correspondence" lately,
 and among other things this sets up a nice relationship between the
-symmetry group of the icosahedron and an amazing entity called E~8~.
-E~8~ is the largest of the exceptional Lie groups - it's
+symmetry group of the icosahedron and an amazing entity called \mathrm{E}_8.
+\mathrm{E}_8 is the largest of the exceptional Lie groups - it's
 248-dimensional. It's related to the octonions (the number "8" is no
 coincidence) and it shows up in string theory. It's very beautiful how
 this complicated sounding stuff can be seen in distilled form in the

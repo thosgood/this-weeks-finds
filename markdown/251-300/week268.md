@@ -664,7 +664,7 @@ understanding all modular tensor categories than I'd imagined:
 > a compact Lie group, and k in H^4(BG,Z) is a cohomology class. We
 > study two TQFTs constructed from Jones' subfactor theory which are
 > believed to be counterexamples to this conjecture: one is the quantum
-> double of the even sectors of the E~6~ subfactor, and the other is the
+> double of the even sectors of the \mathrm{E}_6 subfactor, and the other is the
 > quantum double of the even sectors of the Haagerup subfactor. We
 > cannot prove mathematically that the two TQFTs are indeed
 > counterexamples because CSW TQFTs, while physically defined, are not
@@ -682,7 +682,7 @@ understanding all modular tensor categories than I'd imagined:
 > further prove that neither TQFT is a quantum double of a braided
 > fusion category, and give evidence that neither is an orbifold or
 > coset of TQFTs above. Moreover, the representation of the braid groups
-> from the half E~6~ TQFT can be used to build universal topological
+> from the half \mathrm{E}_6 TQFT can be used to build universal topological
 > quantum computers, and the same is expected for the Haagerup case.
 
 Anyway, now let me say what Vicary and Melliès have been explaining to

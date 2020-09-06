@@ -13,11 +13,11 @@ to.
 
 Conversations with Tony Smith and Thomas Larsson have been making me
 think more about the biggest exceptional Lie group, that magnificent
-248-dimensional monstrosity called E~8~. This plays a significant role
+248-dimensional monstrosity called \mathrm{E}_8. This plays a significant role
 in string theory and some other attempts to wrap everything we know
 about physics into a big, glorious Theory of Everything. None of these
 attempts have succeeded in predicting anything new that's actually been
-observed (ahem), but I still think it's worth pondering the group E~8~.
+observed (ahem), but I still think it's worth pondering the group \mathrm{E}_8.
 
 Why? First of all, it's a beautiful thing in itself. Second, it has
 strong ties to many "exotic" things in mathematics, including:
@@ -37,34 +37,34 @@ strong ties to many "exotic" things in mathematics, including:
 physics are indeed structures of "exceptional beauty" rather than
 "classical beauty" - see ["Week 106"](#week106) for an
 explanation of what I mean by that - then it's natural to hope that
-E~8~ plays an important role.
+\mathrm{E}_8 plays an important role.
 
-How do we get our hands on E~8~? It's a bit tricky. To understand a
+How do we get our hands on \mathrm{E}_8? It's a bit tricky. To understand a
 group, it's always best to see it as the *symmetries of something*.
 Often we try to see it as the symmetries of some vector space equipped
-with extra structure. But for E~8~, the smallest vector space that will
-do the job is 248-dimensional - it's the Lie algebra of E~8~ itself! In
-mathspeak, the smallest nontrivial irrep of E~8~ is the adjoint rep.
+with extra structure. But for \mathrm{E}_8, the smallest vector space that will
+do the job is 248-dimensional - it's the Lie algebra of \mathrm{E}_8 itself! In
+mathspeak, the smallest nontrivial irrep of \mathrm{E}_8 is the adjoint rep.
 
-But in normal Engish, the problem is this: it's hard to construct E~8~
+But in normal Engish, the problem is this: it's hard to construct \mathrm{E}_8
 as the symmetries of anything simpler than *itself*. It reminds me of
 Baron von Munchausen pulling himself out of the swamp by his own
 bootstraps.
 
-One possible way around this is to construct E~8~ as the symmetries of
+One possible way around this is to construct \mathrm{E}_8 as the symmetries of
 something other than a vector space - for example, some *manifold*
 equipped with extra structure. Here there is some hope: the compact real
-form of E~8~ is the isometry group of a 128-dimensional Riemannian
+form of \mathrm{E}_8 is the isometry group of a 128-dimensional Riemannian
 manifold called the "octooctonionic projective plane". The reason for
 this name is that around 1956, Boris Rosenfeld claimed that you can
 construct this manifold as a projective plane over the
 "octooctonions": the octonions tensored with themselves.
 Unfortunately, while there's definitely something to this idea, I
 don't think anyone knows how to make it precise without first
-constructing E~8~. Maybe someday....
+constructing \mathrm{E}_8. Maybe someday....
 
 Recently, some mathematical physicists have been studying a construction
-of E~8~ as the symmetries of a 57-dimensional manifold equipped with
+of \mathrm{E}_8 as the symmetries of a 57-dimensional manifold equipped with
 extra structure:
 
 1) Murat Gunaydin, Koepsell and Hermann Nicolai, Conformal and
@@ -77,7 +77,7 @@ available as math-ph/0301006.
 
 When I heard this, the number 57 instantly intrigued me - and not just
 because Heinz advertises "57 varieties", either! No, the reason is
-that the smallest nontrivial of irrep of E~8~'s little brother E~7~ is
+that the smallest nontrivial of irrep of \mathrm{E}_8's little brother \mathrm{E}_7 is
 56-dimensional: it's a vector space equipped with extra structure
 making it into the so-called "Freudenthal algebra". When you study
 this subject long enough, you realize that strange numbers can serve as
@@ -90,11 +90,11 @@ the numbers 5 and 7 held a special significance for him and his wife. If
 you don't believe me, send a letter to Heinz Consumer Affairs, P.O. Box
 57, Pittsburgh, PA 15230 and ask them!)
 
-Another way to get ahold of the group E~8~ is starting with its "root
-lattice", the so-called E~8~ lattice. There are different ways to
+Another way to get ahold of the group \mathrm{E}_8 is starting with its "root
+lattice", the so-called \mathrm{E}_8 lattice. There are different ways to
 describe this. Perhaps the most efficient is to say that it's the
 densest lattice packing of spheres in 8 dimensions! If I were about to
-drown and needed to define the E~8~ lattice before I went under, this is
+drown and needed to define the \mathrm{E}_8 lattice before I went under, this is
 how I'd do it. Unfortunately this leaves the recipient of the message
 with a lot of work: they have to *find* the lattice meeting this
 description.
@@ -107,13 +107,13 @@ point of this lattice and making them just big enough so they touch.
 There will of course be some space left over. But when we get up to
 dimension 8, there's enough room left over so we can slip another
 identical array of spheres in the gaps between the ones we've got! This
-gives the E~8~ lattice.
+gives the \mathrm{E}_8 lattice.
 
 We can translate this into formulas without too much work. The D_n
 lattice consists of all $n$-tuples of integers that sum to an even
 integer: requiring that they sum to an even integer picks out the center
-of every other hypercube in our checkerboard. Then, to get E~8~, we take
-the union of two copies of the D~8~ lattice: the original one and
+of every other hypercube in our checkerboard. Then, to get \mathrm{E}_8, we take
+the union of two copies of the D_8 lattice: the original one and
 another one shifted by (1/2, ..., 1/2).
 
 (Actually this "doubled D_n" is interesting in any dimension, and
@@ -125,18 +125,18 @@ an "integral" lattice, meaning that the dot product of any two vectors
 in the lattice is an integer. And in dimensions that are multiples of 8,
 it's also "even", meaning that the dot product of any vector with
 itself is even. In fact, even unimodular lattices are only possible in
-Euclidean space when the dimension is a multiple of 8. D~8~^+^ = E~8~ is
+Euclidean space when the dimension is a multiple of 8. D_8^+^ = \mathrm{E}_8 is
 the only even unimodular lattice in 8 dimensions; in 16 dimensions there
-are just two: E~8~ \times E~8~ and D~16~^+^. As explained in
+are just two: \mathrm{E}_8 \times \mathrm{E}_8 and D~16~^+^. As explained in
 ["Week 95"](#week95), these give two versions of heterotic string
 theory.)
 
-Summarizing, we can say E~8~ consists of all 8-tuples of real numbers
-(x_1, ..., x~8~) that sum to an even integer and that are either *all*
+Summarizing, we can say \mathrm{E}_8 consists of all 8-tuples of real numbers
+(x_1, ..., x_8) that sum to an even integer and that are either *all*
 integers or *all* integers plus 1/2.
 
 Using this description it's easy to see that when you pack spheres in
-an E~8~ lattice, each sphere touches 240 others. The reason is that the
+an \mathrm{E}_8 lattice, each sphere touches 240 others. The reason is that the
 shortest nonzero vectors in this lattice, the so-called "roots", have
 length-squared equal to 2, and there are 240 of them:
 
@@ -171,19 +171,19 @@ for a total of
 
 roots.
 
-There's also another description of the E~8~ lattice, which I've been
+There's also another description of the \mathrm{E}_8 lattice, which I've been
 meaning to understand for *ages*, but which always scared me. You can
 think of 8-dimensional space as the octonions. The unit octonions are
-closed under multiplication and taking inverses. If you take the E~8~
+closed under multiplication and taking inverses. If you take the \mathrm{E}_8
 lattice, rescale it so the roots have length one, and rotate it
 correctly, you get a collection of 240 unit octonions that are closed
-under multiplication! It then follows that the octonions in the E~8~
+under multiplication! It then follows that the octonions in the \mathrm{E}_8
 lattice are closed under addition and multiplication; these are called
 the "Cayley integral octonions".
 
 This sounds like just the sort of thing I'd like; the problem is the
 phrase "rotate it correctly". First, you have to rotate the rescaled
-E~8~ lattice so that it contains the octonion 1. That already means that
+\mathrm{E}_8 lattice so that it contains the octonion 1. That already means that
 the coordinate system used above is not the one we usually use for
 octonions, where
 
@@ -199,9 +199,9 @@ The right way is described in Conway and Sloane's book (see
 ["Week 20"](#week20)). These days you can even look it up on the
 web:
 
-3) Neil J. A. Sloane, Index of Lattices, the E~8~ lattice: coding
+3) Neil J. A. Sloane, Index of Lattices, the \mathrm{E}_8 lattice: coding
 version,
-[http://www.research.att.com/\~njas/lattices/E~8~\_code.html](http://www.research.att.com/~njas/lattices/E%3Csub%3E8%3C/sub%3E_code.html)
+[http://www.research.att.com/\~njas/lattices/\mathrm{E}_8\_code.html](http://www.research.att.com/~njas/lattices/E%3Csub%3E8%3C/sub%3E_code.html)
 
 However, it always scared me, because the description involved the
 "Hamming code H(8,4,4)". You see, lattices are closely connected to
@@ -245,7 +245,7 @@ here.
 Now let me describe the Cayley integral octonions. I'll actually
 describe all 240 of them that have length 1. Integer linear combinations
 of these give the Cayley integral octonions - or in other words, a
-rescaled version of the E~8~ lattice.
+rescaled version of the \mathrm{E}_8 lattice.
 
 First, we include ±e_i for i=0,...,7. Second, we include
 
@@ -281,21 +281,21 @@ Cayley-Dickson construction (see ["Week 59"](#week59)) to any of
 these copies of the integral quaternions, we get a bigger set of
 integral octonions that's also closed under addition and
 multiplication. Unfortunately, this bunch is just a copy of D_4 \times D_4
-sitting inside E~8~, not the whole E~8~. E~8~ is the union of all these
+sitting inside \mathrm{E}_8, not the whole \mathrm{E}_8. \mathrm{E}_8 is the union of all these
 D_4 \times D_4's, one for line in the Fano plane. So, I have to calculate
 more to finish convincing myself that the Cayley integral octonions are
 closed under multiplication - or equivalently, that the 240 guys listed
 above are closed under multiplication.
 
 \[Note: I later realized that they are *not* closed under
-multiplication! We have a perfectly fine E~8~ lattice, so everything
+multiplication! We have a perfectly fine \mathrm{E}_8 lattice, so everything
 that follows is okay... but it's not the Cayley integral octonions!
 I'll explain this next week.\]
 
 Anyway: this probably makes no sense to you, but *I'm* happy as a clam!
 So what can I do with them, for example?
 
-Well, I can see some ways to make E~8~ into a *graded* Lie algebra!
+Well, I can see some ways to make \mathrm{E}_8 into a *graded* Lie algebra!
 
 I guess I should start by saying some general stuff about graded Lie
 algebras, which explains why this is interesting.
@@ -341,16 +341,16 @@ not ready to talk about these, and you're probably not ready to listen,
 either!
 
 There's a lot more to say about this stuff, but let's just see a bit
-about how it works for E~8~. We've got two nice pictures of the 240
-roots of the E~8~ lattice; you should imagine these as the dazzling
+about how it works for \mathrm{E}_8. We've got two nice pictures of the 240
+roots of the \mathrm{E}_8 lattice; you should imagine these as the dazzling
 vertices of a beautiful diamond in 8 dimensions. To get a grading on
-E~8~, all we need to do is slice this diamond with evenly spaced
+\mathrm{E}_8, all we need to do is slice this diamond with evenly spaced
 parallel hyperplanes in such a way that each vertex of the diamond, as
 well as its center, lies on one of these hyperplanes. There are
 different ways to do this, so you should imagine yourself as a gem
 cutter, turning around this diamond, looking for nice ways to slice it.
 
-For example, if we use our picture of the E~8~ lattice as 8-tuples that
+For example, if we use our picture of the \mathrm{E}_8 lattice as 8-tuples that
 sum to an even integer are either all integers or all half-integers, one
 obvious way to slice the diamond is to let each slice go through those
 roots where the first coordinate takes on some fixed value. The first
@@ -378,9 +378,9 @@ first component by totalling up all the rest and subtracting that from
 Now, whenever you have a simple Lie algebra it's a direct sum of "root
 spaces", one for each root, together with an $n$-dimensional subspace
 called the Cartan algebra, where n is the called the "rank" of the Lie
-algebra. The rank of E~8~ is 8, so its dimension is 240 + 8 = 248. When
+algebra. The rank of \mathrm{E}_8 is 8, so its dimension is 240 + 8 = 248. When
 we taking our way of slicing the diamond and convert it into a grading
-of E~8~, the roots in the ith slice form a basis of L(i), except we also
+of \mathrm{E}_8, the roots in the ith slice form a basis of L(i), except we also
 have to count the Cartan as part of L(0). Thus in this example the
 dimension of L(0) is not just 84 but 84 + 8 = 92. Some basic stuff about
 simple Lie algebra guarantees that this trick always works: we get
@@ -407,12 +407,12 @@ algebra plus a one-dimensional abelian subalgebra - namely \mathrm{u}(1).
 In this example this smaller Lie algebra is \mathfrak{so}(14), which has dimension
 91. L(1) is a 64-dimensional chiral spinor rep of \mathfrak{so}(14), and L(2) is
 the 14-dimensional vector rep... and similarly for L(-1) and L(-2). So
-we get a very "14-dimensional" picture of E~8~:
+we get a very "14-dimensional" picture of \mathrm{E}_8:
 
     E8 =  [vectors] \oplus  [spinors] \oplus  [\mathfrak{so}(14) \oplus  \mathrm{u}(1)] \oplus  [spinors] \oplus  [vectors]
 
 But we get a more exciting way of slicing the diamond if we use the
-picture of E~8~ as the Cayley integral octonions! Let's do this, and
+picture of \mathrm{E}_8 as the Cayley integral octonions! Let's do this, and
 let each slice go through those roots where the "real part" x~0~ of
 our octonion
 
@@ -440,33 +440,33 @@ lines in the Fano plane by the number of sign choices in
 Similarly for the roots with real part -1/2. I got 126 roots with real
 part 0 by subtracting all the other numbers on my list from 240.
 
-So, we get a 5-grading of E~8~ like this:
+So, we get a 5-grading of \mathrm{E}_8 like this:
 
     E8 =  L(-2) \oplus  L(-1) \oplus  L(0) \oplus  L(1) \oplus  L(2)
     248 =   1   +  56   +  134  +  56  +  1
 
 since 126 + 8 = 134.
 
-This shows how to get E~8~ to act on a 57-dimensional manifold: we form
-the group E~8~, and form the subgroup G whose Lie algebra is L(-2) \oplus 
-L(-1) \oplus  L(0), and the quotient E~8~/G will be a 57-dimensional space on
-which E~8~ acts! In fact this space is the smallest "Grassmannian" of
-E~8~, as explained in ["Week 181"](#week181) - look at the picture
-of the E~8~ Dynkin diagram near the end.
+This shows how to get \mathrm{E}_8 to act on a 57-dimensional manifold: we form
+the group \mathrm{E}_8, and form the subgroup G whose Lie algebra is L(-2) \oplus 
+L(-1) \oplus  L(0), and the quotient \mathrm{E}_8/G will be a 57-dimensional space on
+which \mathrm{E}_8 acts! In fact this space is the smallest "Grassmannian" of
+\mathrm{E}_8, as explained in ["Week 181"](#week181) - look at the picture
+of the \mathrm{E}_8 Dynkin diagram near the end.
 
 My goal in life is now to define a set of algebraic varieties, one for
 each root in L(1) and L(2), so I can write a paper entitled "57
 Varieties" and get sued for trademark infringement by Heinz.
 
-In the above grading of E~8~, the Lie algebra L(0) is the direct sum of
-E~7~ and \mathrm{u}(1). This is no surprise if you know that the dimension of
-E~7~ is 133... but the reason it's *true* is that if you take the
-roots of E~8~ that are orthogonal to any one root, you get the roots of
-E~7~. So, we get a very E~7~-ish description of E~8~:
+In the above grading of \mathrm{E}_8, the Lie algebra L(0) is the direct sum of
+\mathrm{E}_7 and \mathrm{u}(1). This is no surprise if you know that the dimension of
+\mathrm{E}_7 is 133... but the reason it's *true* is that if you take the
+roots of \mathrm{E}_8 that are orthogonal to any one root, you get the roots of
+\mathrm{E}_7. So, we get a very \mathrm{E}_7-ish description of \mathrm{E}_8:
 
     E8 =  [trivial] \oplus  [Freudenthal] \oplus  [E7 \oplus  \mathrm{u}(1)] \oplus  [Freudenthal] \oplus  [trivial]
 
-Here the "Freudenthal algebra" is the 56-dimensional irrep of E~7~,
+Here the "Freudenthal algebra" is the 56-dimensional irrep of \mathrm{E}_7,
 which has an invariant symplectic structure and ternary product
 satisfying some funky equations which get turned into the definition
 of... a Freudenthal algebra!
@@ -475,32 +475,32 @@ There are a lot of other games we can play like this, but like solitaire
 they're not too fun to watch, so I'll just mention one more, and then
 give a bunch more references.
 
-Above we have seen the roots of E~7~ as the imaginary Cayley integral
+Above we have seen the roots of \mathrm{E}_7 as the imaginary Cayley integral
 octonions of norm 1. These form a 7-dimensional gemstone with 126
 vertices, and we can repeat the same "gem-slicing" trick on a smaller
-scale to get gradings of the Lie algebra E~7~. If we do this in a nice
-way, we get a 3-grading of E~7~:
+scale to get gradings of the Lie algebra \mathrm{E}_7. If we do this in a nice
+way, we get a 3-grading of \mathrm{E}_7:
 
     E7  =  L(-1) \oplus  L(0) \oplus  L(1)
     133 =    27  +  79  +  27
 
-Since E~7~'s baby brother E~6~ is 78-dimensional, it's no surprise
-that the Lie algebra L(0) is E~6~ plus \mathrm{u}(1). Since 3-gradings tend to
+Since \mathrm{E}_7's baby brother \mathrm{E}_6 is 78-dimensional, it's no surprise
+that the Lie algebra L(0) is \mathrm{E}_6 plus \mathrm{u}(1). Since 3-gradings tend to
 give us Jordan algebras, it's no suprise that L(1) is the exceptional
 Jordan algebra h_3(O) consisting of all 3x3 hermitian octonionic
-matrices. E~6~ acts as the group of all transformations of h_3(O)
-preserving the determinant, and in fact h_3(O) is an irrep of E~6~.
+matrices. \mathrm{E}_6 acts as the group of all transformations of h_3(O)
+preserving the determinant, and in fact h_3(O) is an irrep of \mathrm{E}_6.
 L(-1) is just the dual of this rep. So, we get a very octonionic
-description of E~7~:
+description of \mathrm{E}_7:
 
     E7 = h3(O)* \oplus  [E6 \oplus  \mathrm{u}(1)] \oplus  h3(O)
 
-Now, since E~6~ sits in E~7~ which sits in E~8~, just like nested
-Russian dolls, we can take our previous description of E~8~:
+Now, since \mathrm{E}_6 sits in \mathrm{E}_7 which sits in \mathrm{E}_8, just like nested
+Russian dolls, we can take our previous description of \mathrm{E}_8:
 
     E8  =  [trivial] \oplus  [Freudenthal] \oplus  [E7 + \mathrm{u}(1)] &oplus [Freudenthal] \oplus  [trivial]
 
-and decompose everything in sight as irreps of E~6~. If we do this, the
+and decompose everything in sight as irreps of \mathrm{E}_6. If we do this, the
 only new exciting thing that happens is that the Freudenthal algebra
 decomposes into a copy of the exceptional Jordan algebra, a copy of its
 dual, and two copies of the trivial rep:
@@ -516,7 +516,7 @@ Freudenthal algebra as 2\times2 matrices
 where a,b are real and x,y lie in h_3(O), but I suspect they're
 "cheating" a bit and identifying h_3(O) with its dual.
 
-In short, E~8~ contains a lot of other "exceptional" structures, all
+In short, \mathrm{E}_8 contains a lot of other "exceptional" structures, all
 arranged in a very nice way.
 
 Now for some references and apologies.
@@ -604,11 +604,11 @@ Freudenthal algebras and Kantor triple systems, I should reread these:
 11) K. Meyberg, Eine Theorie Der Freudenthalschen Tripelsysteme, I, II,
 Ned. Akad. Wet., Proc. Ser. A 71 (1968), 162-190.
 
-12) R. Skip Garibaldi, Structurable algebras and groups of types E~6~
-and E~7~, available at
+12) R. Skip Garibaldi, Structurable algebras and groups of types \mathrm{E}_6
+and \mathrm{E}_7, available at
 [math.RA/9811035](http://www.arXiv.org/abs/math.RA/9811035).
 
-13) R. Skip Garibaldi, Groups of type E~7~ over arbitrary fields,
+13) R. Skip Garibaldi, Groups of type \mathrm{E}_7 over arbitrary fields,
 available at
 [math.RA/9811056](http://www.arXiv.org/abs/math.RA/9811056).
 
@@ -642,16 +642,16 @@ find that unreadable.
 
 ------------------------------------------------------------------------
 
-Addendum: Blichfeldt proved in 1935 that E~8~ is a maximally dense
+Addendum: Blichfeldt proved in 1935 that \mathrm{E}_8 is a maximally dense
 lattice packing of spheres in 8 dimensions, and Vetcinkin proved in 1980
 that it's the *unique* lattice packing that achieves this density in 8
-dimensions. Now Cohn and Kumar have shown that the E~8~ packing is darn
+dimensions. Now Cohn and Kumar have shown that the \mathrm{E}_8 packing is darn
 close to the densest of *all* sphere packings in 8 dimensions, lattice
 or not. No other can be more than 1 + 10^-14^ as dense as this one!
 
 They also showed that in 24 dimensions no packing can be more than 1 +
 10^-29^ times as dense as the Leech lattice, and that this is the unique
-best lattice packing. Of course the E~8~ and Leech lattices are probably
+best lattice packing. Of course the \mathrm{E}_8 and Leech lattices are probably
 the best of all sphere packings in their dimensions, but it's very hard
 to understand the set of all sphere packings, so even these partial
 results are amazing.

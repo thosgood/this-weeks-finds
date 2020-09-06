@@ -427,7 +427,7 @@ integral cohomology. So, any oriented 4-manifold automatically gives a
 2-gerbe... but that's not the one we need here!
 
 If M is equipped with a spin structure, its oriented frame bundle is
-equipped with a double cover that's a principal Spin(n) bundle. This
+equipped with a double cover that's a principal \mathrm{Spin}(n) bundle. This
 too has characteristic classes. The first interesting one lives in the
 fourth integral cohomology group of M, and it has the property that when
 you multiply it by 2 you get the first Pontryagin class. (In integral

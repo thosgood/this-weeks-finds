@@ -216,7 +216,7 @@ chart:
 Now, all this is really cool - but in fact, even before inventing the
 \mathrm{SU}(5) theory, Georgi went a bit further, and unified all the left-handed
 fermions above into one irreducible representation of a somewhat bigger
-group: Spin(10). This is the double cover of the group \mathrm{SO}(10), which
+group: \mathrm{Spin}(10). This is the double cover of the group \mathrm{SO}(10), which
 describes rotations in 10 dimensions.
 
 If you look at the chart above, you'll see the left-handed fermions
@@ -225,14 +225,14 @@ live in the even grades of the exterior algebra of C^5:
 Λ^even^(C^5) = Λ^0^(C^5) \oplus  Λ^2(C^5) \oplus  Λ^4(C^5)
 
 This big space forms something called the left-handed Weyl spinor
-representation of Spin(10). It's an irreducible representation.
+representation of \mathrm{Spin}(10). It's an irreducible representation.
 
 Similarly, the right-handed fermions live in the odd grades:
 
 Λ^odd^(C^5) = Λ^1(C^5) \oplus  Λ^3(C^5) \oplus  Λ^5(C^5)
 
 and this big space forms the right-handed Weyl spinor representation of
-Spin(10). It's also irreducible.
+\mathrm{Spin}(10). It's also irreducible.
 
 I can't resist mentioning that there's also a gadget called the Hodge
 star operator that maps Λ^even^(C^5) to Λ^odd^(C^5), and vice versa.
@@ -255,7 +255,7 @@ explain it without writing down some formulas. So, for now, please take
 my word for it!
 
 This business doesn't give a representation of \mathrm{SO}(2n) on Λ(C^n), but
-it gives a representation of the double cover, Spin(2n). This is called
+it gives a representation of the double cover, \mathrm{Spin}(2n). This is called
 the "Dirac spinor" representation. It breaks up into two irreducible
 parts:
 
@@ -266,15 +266,15 @@ representations.
 
 Perhaps it's time for an executive summary of what I've said so far:
 
-> The Dirac spinor representation of Spin(10) neatly encodes everything
+> The Dirac spinor representation of \mathrm{Spin}(10) neatly encodes everything
 > about how one generation of fermions interacts with the gauge bosons
 > in the Standard Model, as long as we remember how S(\mathrm{U}(2) \times \mathrm{U}(3)) sits
-> inside \mathrm{SO}(10), which is double covered by Spin(10).
+> inside \mathrm{SO}(10), which is double covered by \mathrm{Spin}(10).
 
 Of course, there's more to the Standard Model than this. There's also
 the Higgs boson, which spontaneously breaks electroweak symmetry and
 gives the fermions their masses. And, if we want to use this same trick
-to break the symmetry from Spin(10) down to S(\mathrm{U}(3) \times \mathrm{U}(2)), we need to
+to break the symmetry from \mathrm{Spin}(10) down to S(\mathrm{U}(3) \times \mathrm{U}(2)), we need to
 introduce *more* Higgs bosons. This is the ugly part of the story, it
 seems. Since I'm on vacation, I'll avoid it for now.
 
@@ -283,7 +283,7 @@ Next: how might exceptional Lie groups get involved in this game?
 When Cartan classified compact simple Lie groups, he found 3 infinite
 families related to rotations in real, complex and quaternionic vector
 spaces: the \mathrm{SO}(n)'s, \mathrm{SU}(n)'s and \mathrm{Sp}(n)'s. He also found 5 exceptions,
-which have the charming names G_2, F_4, E~6~, E~7~, and E~8~. These
+which have the charming names G_2, \mathrm{F}_4, \mathrm{E}_6, \mathrm{E}_7, and \mathrm{E}_8. These
 are all related to the octonions. G_2 is just the automorphism group of
 the octonions. The other 4 are closely related to each other - thanks to
 the "magic square" of Rosenfeld, Freudenthal and Tits.
@@ -303,9 +303,9 @@ e~6~ ≅ \mathfrak{so}(C \oplus  O) \oplus  (C \otimes O)^2 \oplus  Im(C)
 
 e~7~ ≅ \mathfrak{so}(H \oplus  O) \oplus  (H \otimes O)^2 \oplus  Im(H)
 
-e~8~ ≅ \mathfrak{so}(O \oplus  O) \oplus  (O \otimes O)^2
+e_8 ≅ \mathfrak{so}(O \oplus  O) \oplus  (O \otimes O)^2
 
-Here f_4, e~6~, e~7~ and e~8~ stand for the Lie algebras of the compact
+Here f_4, e~6~, e~7~ and e_8 stand for the Lie algebras of the compact
 real forms of these exceptional Lie groups. R, C, H, and O are the usual
 suspects - the real numbers, complex numbers, quaternions and octonions.
 For any real inner product space V, \mathfrak{so}(V) stands for the Lie algebra of
@@ -322,7 +322,7 @@ e~6~ ≅ \mathfrak{so}(10) \oplus  S~10~ \oplus  \mathrm{u}(1)
 
 e~7~ ≅ \mathfrak{so}(12) \oplus  S~12~^+^ \oplus  \mathfrak{su}(2)
 
-e~8~ ≅ \mathfrak{so}(16) \oplus  S~16~^+^
+e_8 ≅ \mathfrak{so}(16) \oplus  S~16~^+^
 
 Here S~9~ and S~10~ are the unique irreducible real spinor
 representations of \mathfrak{so}(9) and \mathfrak{so}(10), respectively. In the other two
@@ -334,13 +334,13 @@ All this must seem like black magic of the foulest sort if you haven't
 wasted months thinking about the octonions and exceptional groups! Be
 grateful: I did it so you wouldn't have to.
 
-Anyway: the case of E~6~ should remind you of something! After all,
+Anyway: the case of \mathrm{E}_6 should remind you of something! After all,
 we've just been talking about \mathfrak{so}(10) and its left-handed spinor
 representation. These describe the gauge bosons and one generation of
-left-handed fermions in the Spin(10) grand unified theory. But now
-we're seeing this stuff neatly packed into the Lie algebra of E~6~!
+left-handed fermions in the \mathrm{Spin}(10) grand unified theory. But now
+we're seeing this stuff neatly packed into the Lie algebra of \mathrm{E}_6!
 
-More precisely, the Lie algebra of E~6~ can be chopped into 3 pieces in
+More precisely, the Lie algebra of \mathrm{E}_6 can be chopped into 3 pieces in
 a noncanonical way:
 
 -   \mathfrak{so}(10)
@@ -375,7 +375,7 @@ assume the latter. So, let me say some more about it....
 
 The copy of \mathrm{u}(1) in here:
 
-E~6~ ≅ \mathfrak{so}(10) \oplus  S~10~ \oplus  \mathrm{u}(1)
+\mathrm{E}_6 ≅ \mathfrak{so}(10) \oplus  S~10~ \oplus  \mathrm{u}(1)
 
 is pretty amusing from a physics viewpoint. It's if besides the gauge
 bosons in \mathfrak{so}(10), there were one extra gauge boson whose sole role is to
@@ -391,7 +391,7 @@ these, not just the obvious one that we automatically get from any
 complex Hilbert space. If we only used the obvious one, all particles
 would have charge 1.
 
-But in the Spin(10) grand unified theory, the electromagnetic \mathrm{u}(1) Lie
+But in the \mathrm{Spin}(10) grand unified theory, the electromagnetic \mathrm{u}(1) Lie
 algebra is sitting inside \mathfrak{so}(10); it's not the \mathrm{u}(1) you see above. The
 \mathrm{u}(1) you see above is the "obvious" one that the spinor representation
 S~10~ gets merely from being a complex Hilbert space.
@@ -488,7 +488,7 @@ symmetric space coming from a Z/2-graded Lie algebra!
 Using this correspondence, the Lie algebra e~6~ with the Z/2-grading I
 described gives a symmetric space, roughly:
 
-E~6~/(Spin(10) \times \mathrm{U}(1))
+\mathrm{E}_6/(\mathrm{Spin}(10) \times \mathrm{U}(1))
 
 But, this guy is a lot better than your average symmetric space!
 
@@ -503,7 +503,7 @@ can see the classification here, in a big chart:
 `http://en.wikipedia.org/wiki/Riemannian_symmetric_space`
 
 As you'll see, there are 7 infinite families and 12 exceptional cases.
-The symmetric space I'm talking about now, namely E~6~/(Spin(10) \times
+The symmetric space I'm talking about now, namely \mathrm{E}_6/(\mathrm{Spin}(10) \times
 \mathrm{U}(1)), is called EIII - it's the third exceptional case. And, as you
 can see from the chart in this article, it's the complexified version
 of the octonionic projective plane! For this reason, I sometimes call it
@@ -520,46 +520,46 @@ You're probably drowning under all this terminology unless you already
 know this stuff. I guess it's time for another executive summary:
 
 > Each point in the complexified octonionic projective plane gives a
-> different way of splitting the Lie algebra of E~6~ into a bosonic part
+> different way of splitting the Lie algebra of \mathrm{E}_6 into a bosonic part
 > and a fermionic part. The fermionic part is just what we need to
 > describe one generation of left-handed Standard Model fermions. The
-> bosonic part is just what we need for the gauge bosons of the Spin(10)
+> bosonic part is just what we need for the gauge bosons of the \mathrm{Spin}(10)
 > grand unified theory, together with a copy of \mathrm{u}(1), which describes
 > the *complex structure* of the left-handed Standard Model fermions.
 
 Another nice fact is that (C \otimes O)P^2 is one of the Grassmannians for
-E~6~. I explained this general notion of "Grassmannian" back in
+\mathrm{E}_6. I explained this general notion of "Grassmannian" back in
 ["Week 181"](#week181), and you can see this 16-dimensional one in
 the list near the end of that Week.
 
 Even better, if you geometrically quantize this Grassmannian using the
 smallest possible symplectic structure, you get the 27-dimensional
-representation of E~6~ on the exceptional Jordan algebra!
+representation of \mathrm{E}_6 on the exceptional Jordan algebra!
 
 So, there's a lot of seriously cool math going on here... but since
-the basic idea of relating the Standard model to E~6~ is only
+the basic idea of relating the Standard model to \mathrm{E}_6 is only
 half-baked, all the ideas I'm mentioning now are at best quarter-baked.
 They're mathematically correct, but I can't tell if they're leading
 somewhere interesting.
 
 In fact, I would have kept them in the oven longer had not Garrett Lisi
-brought E~6~'s big brother E~8~ into the game in a tantalizing way.
+brought \mathrm{E}_6's big brother \mathrm{E}_8 into the game in a tantalizing way.
 I'll conclude by summarizing this... and you can look at his website
-for more details. But first, let me emphasize that this E~8~ business is
+for more details. But first, let me emphasize that this \mathrm{E}_8 business is
 the most recent and most speculative thing Garrett has done. So, if you
 think the following idea is nuts, please don't jump to conclusions and
 decide *everything* he's doing is nuts!
 
-Briefly, his idea involves taking the description of e~8~ I already
+Briefly, his idea involves taking the description of e_8 I already
 mentioned:
 
-e~8~ = \mathfrak{so}(O \oplus  O) \oplus  (O \otimes O)^2
+e_8 = \mathfrak{so}(O \oplus  O) \oplus  (O \otimes O)^2
 
 and writing the linear transformations in \mathfrak{so}(O \oplus  O) as two 8\times8 blocks
 living in \mathfrak{so}(O), together with an off-diagonal block living in O \otimes O.
 This gives
 
-e~8~ = \mathfrak{so}(O) \oplus  \mathfrak{so}(O) \oplus  (O \otimes O)^3
+e_8 = \mathfrak{so}(O) \oplus  \mathfrak{so}(O) \oplus  (O \otimes O)^3
 
 Then, he wants to use each of the three copies of O \otimes O to describe one
 of the three generations of fermions, while using the \mathfrak{so}(O) \oplus  \mathfrak{so}(O)
@@ -573,15 +573,15 @@ gravity.
 If I were really being responsible, I would describe and assess this
 earlier work. But, it's summer and I just want to have fun....
 
-In fact, the above alternate description of E~8~ is the one Bertram
+In fact, the above alternate description of \mathrm{E}_8 is the one Bertram
 Kostant told me about back in 1996. He said it a different way, which is
 equivalent:
 
-E~8~ = \mathfrak{so}(8) \oplus  \mathfrak{so}(8) \oplus  End(V~8~) \oplus  End(S~8~^+^) \oplus  End(S~8~^-^)
+\mathrm{E}_8 = \mathfrak{so}(8) \oplus  \mathfrak{so}(8) \oplus  End(V_8) \oplus  End(S_8^+^) \oplus  End(S_8^-^)
 
-Here V~8~, S~8~^+^ and S~8~^-^ are the vector, left-handed spinor, and
-right-handed spinor representations of Spin(8). All three are
-8-dimensional, and all are related by outer automorphisms of Spin(8).
+Here V_8, S_8^+^ and S_8^-^ are the vector, left-handed spinor, and
+right-handed spinor representations of \mathrm{Spin}(8). All three are
+8-dimensional, and all are related by outer automorphisms of \mathrm{Spin}(8).
 That's what "triality" is all about. You can see more details in
 ["Week 90"](#week90).
 
@@ -599,23 +599,23 @@ White Knight said to Alice:
 > That they could not be seen.\
 
 Someday we may think of a way around this problem. But for now, I've
-got a more pressing worry. This splitting of E~6~:
+got a more pressing worry. This splitting of \mathrm{E}_6:
 
-E~6~ = \mathfrak{so}(10) \oplus  S~10~^+^ \oplus  \mathrm{u}(1)
+\mathrm{E}_6 = \mathfrak{so}(10) \oplus  S~10~^+^ \oplus  \mathrm{u}(1)
 
 corresponds to a Z/2-grading where \mathfrak{so}(10) \oplus  \mathrm{u}(1) is the "bosonic" or
 "even" part and S~10~^+^ is the "fermionic" or "odd" part. This
 nicely matches the way \mathfrak{so}(10) describes gauge bosons and S~10~^+^
 describes fermions in Georgi's grand unified theory. But, this
-splitting of E~8~:
+splitting of \mathrm{E}_8:
 
-E~8~ = \mathfrak{so}(8) \oplus  \mathfrak{so}(8) \oplus  End(V~8~) \oplus  End(S~8~^+^) \oplus  End(S~8~^-^)
+\mathrm{E}_8 = \mathfrak{so}(8) \oplus  \mathfrak{so}(8) \oplus  End(V_8) \oplus  End(S_8^+^) \oplus  End(S_8^-^)
 
 does not correspond to any Z/2-grading where \mathfrak{so}(8) \oplus  \mathfrak{so}(8) is the
 bosonic part and End(V) \oplus  End(S^+^) \oplus  End(S^-^) is the fermionic part.
-There is a closely related Z/2-grading of E~8~, but it's this:
+There is a closely related Z/2-grading of \mathrm{E}_8, but it's this:
 
-E~8~ = \mathfrak{so}(16) \oplus  S~16~^+^
+\mathrm{E}_8 = \mathfrak{so}(16) \oplus  S~16~^+^
 
 So, right now I don't feel it's mathematically natural to use this
 method to combine bosons and fermions.
@@ -628,7 +628,7 @@ published here:
 5) Howard Georgi and Sheldon Glashow, Unity of all elementary-particle
 forces, Phys. Rev. Lett. 32 (1974), 438.
 
-For a great introduction to the Spin(10) grand unified theory - which is
+For a great introduction to the \mathrm{Spin}(10) grand unified theory - which is
 usually called the \mathrm{SO}(10) GUT - try this:
 
 6) Anthony Zee, Quantum Field Theory in a Nutshell, Chapter VII: \mathrm{SO}(10)
@@ -656,14 +656,14 @@ unified theory and 10-dimensional Calabi-Yau manifolds, discussed here:
 This is an easy consequence of the stuff I've explained this week.
 
 To see what string theorists are doing to understand the Standard Model
-these days, see the following papers. Amusingly, they *also* use E~8~ -
+these days, see the following papers. Amusingly, they *also* use \mathrm{E}_8 -
 but in a quite different way:
 
 10) Volker Braun, Yang-Hui He, Burt A. Ovrut and Tony Pantev, A
 heterotic Standard Model, available as
 [`hep-th/0501070`](http://xxx.lanl.gov/abs/hep-th/0501070).
 
-A Standard Model from the E~8~ \times E~8~ heterotic superstring,
+A Standard Model from the \mathrm{E}_8 \times \mathrm{E}_8 heterotic superstring,
 [`hep-th/0502155`](http://xxx.lanl.gov/abs/hep-th/0502155).
 
 Vector bundle extensions, sheaf cohomology, and the heterotic Standard
@@ -712,9 +712,9 @@ New York, 1969. Symmetric Spaces II: Compact Spaces and Classification,
 W. A. Benjamin, New York, 1969.
 
 Finally, an obnoxious little technical note. The complexification of the
-octonionic projective plane is not really E~6~/(Spin(10) \times \mathrm{U}(1)); it's
+octonionic projective plane is not really \mathrm{E}_6/(\mathrm{Spin}(10) \times \mathrm{U}(1)); it's
 
-E~6~/((Spin(10) \times \mathrm{U}(1))/(Z/4))
+\mathrm{E}_6/((\mathrm{Spin}(10) \times \mathrm{U}(1))/(Z/4))
 
 This is worked out here:
 
@@ -773,7 +773,7 @@ it's isotropic! But according to Tony Smith, the complexified version
 > >     (ii) Either M is a euclidean space or M is irreducible and 
 > >     of rank 1.
 >
-> Since (C \otimes O)P^2 = E~6~/(\mathrm{SO}(10) \times \mathrm{SO}(2)) is rank 2, it is NOT
+> Since (C \otimes O)P^2 = \mathrm{E}_6/(\mathrm{SO}(10) \times \mathrm{SO}(2)) is rank 2, it is NOT
 > isotropic.
 
 In the quote by Wolf, I can only guess that I(M)~x~ is the group of

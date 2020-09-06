@@ -295,10 +295,10 @@ obvious people often don't mention it.
 
 Now, a nonzero spinor isn't exactly an extra structure you can put on a
 real inner product space, since spinors are representations not of \mathrm{O}(n)
-or even \mathrm{SO}(n) but of the double cover Spin(n). However, if you start
+or even \mathrm{SO}(n) but of the double cover \mathrm{Spin}(n). However, if you start
 with a *spin* manifold, you can think of a nonzero covariantly constant
 spinor field as some extra structure that reduces the holonomy group
-from Spin(n) down to some subgroup.
+from \mathrm{Spin}(n) down to some subgroup.
 
 So, let's see what this extra structure is like in some examples!
 
@@ -530,7 +530,7 @@ You may not like how the 8-dimensional case on the above list is
 different from the rest. Don't worry; people also study 8-dimensional
 spin manifolds that admit just a nonzero covariantly constant
 left-handed *or* right-handed spinor field. The holonomy group of such a
-manifold must like in Spin(7), and such a manifold is called a Spin(7)
+manifold must like in \mathrm{Spin}(7), and such a manifold is called a \mathrm{Spin}(7)
 manifold.
 
 You may wonder how I knew that the subgroup of G2 fixing one direction
@@ -626,7 +626,7 @@ the group of *all* automorphisms of the octonions that fix a unit
 imaginary octonion, say e7.
 
 Or if you prefer: octonions are the same as spinors in 7 dimensions, and
-\mathrm{SU}(3) is the subgroup of Spin(7) that fixes two orthogonal unit spinors,
+\mathrm{SU}(3) is the subgroup of \mathrm{Spin}(7) that fixes two orthogonal unit spinors,
 namely those corresponding to 1 and e7.
 
 Either way, you can think of \mathrm{SO}(3) and \mathrm{SU}(3) as souped-up versions of

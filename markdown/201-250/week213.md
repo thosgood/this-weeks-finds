@@ -414,7 +414,7 @@ but it's Euler characteristic turns out to vanish for n > 2, so it's
 not too interesting.
 
 Harder worked them all out. For example, he showed the Euler
-characteristic of the integral form of the exceptional group E~7~ is
+characteristic of the integral form of the exceptional group \mathrm{E}_7 is
 some wacky number like
 
 - 691 \times 43867   /   2^21^ \times 3^9 \times 5^2 \times 7^3 \times 11 \times 13 \times 19
@@ -423,7 +423,7 @@ Serre went even further, computing Euler characteristics of Chevalley
 groups defined over algebraic number fields. He also noticed that when
 you write the Euler characteristic of a group as a fraction, the primes
 in the denominator are precisely the primes p for which the group has
-p-torsion. He was thus able to conclude, for example, that E~7~ defined
+p-torsion. He was thus able to conclude, for example, that \mathrm{E}_7 defined
 over the integers has p-torsion for p = 2, 3, 5, 7, 11, 13 and 19.
 
 For more, see:

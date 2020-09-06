@@ -331,7 +331,7 @@ triangle was just the multiplication table viewed from a funny angle.)
 
 B_n: Next let's look at the B_n series. B_n is another name for the
 complexified rotation group \mathrm{SO}(2n+1,C), or if you prefer, its double
-cover Spin(2n+1,C). A Grassmannian for this group is a space consisting
+cover \mathrm{Spin}(2n+1,C). A Grassmannian for this group is a space consisting
 of all p-dimensional "isotropic" subspaces of C^2n+1^ - that is,
 subspaces on which a nondegenerate symmetric bilinear form vanishes.
 
@@ -346,25 +346,25 @@ Here are the Grassmannians and their dimensions:
 
                                      isotropic 
     B1                              1d subspaces
-    Spin(3,C)                             o
+    \mathrm{Spin}(3,C)                             o
                                           1
 
          
                               isotropic     isotropic          
     B2                       1d subspaces  2d subspaces
-    Spin(5,C)                     o=======>=======o
+    \mathrm{Spin}(5,C)                     o=======>=======o
                                   3               3
 
 
                        isotropic     isotropic     isotropic
     B3                1d subspaces  2d subspaces  3d subspaces
-    Spin(7,C)              o--------------o=======>=======o
+    \mathrm{Spin}(7,C)              o--------------o=======>=======o
                            5              7               6
 
 
                  isotropic     isotropic      isotropic     isotropic
     B4          1d subspaces  2d subspaces   3d subspaces  4d subspaces
-    Spin(9,C)        o-------------o---------------o=======>======o
+    \mathrm{Spin}(9,C)        o-------------o---------------o=======>======o
                      7            11              12             10 
 
 I'm sure these are well-known, but James Dolan and I had a lot of fun
@@ -395,28 +395,28 @@ lurking in rows 2, 5, and 8 - every third row has this symmetry, but
 it's a bit of a red herring!
 
 If we quantize these Grassmannians we get these fundamental reps of
-Spin(2n+1,C):
+\mathrm{Spin}(2n+1,C):
 
     B1                                 spinors
-    Spin(3,C)                             o
+    \mathrm{Spin}(3,C)                             o
                                           2
 
          
                               
     B2                          vectors        spinors   
-    Spin(5,C)                     o=======>=======o
+    \mathrm{Spin}(5,C)                     o=======>=======o
                                   5               4
 
 
                        
     B3                   vectors       bivectors       spinors
-    Spin(7,C)              o--------------o=======>=======o
+    \mathrm{Spin}(7,C)              o--------------o=======>=======o
                            7             21               8
 
 
                  
     B4             vectors     bivectors        3-vectors      spinors
-    Spin(9,C)        o-------------o---------------o=======>======o
+    \mathrm{Spin}(9,C)        o-------------o---------------o=======>======o
                      9            36              84             16
 
 As before, the dimension of the space of p-vectors in q-dimensional
@@ -506,7 +506,7 @@ of the (p-2)-vectors. Here's a table of these guesses:
 Maybe someone can tell if they're right.
 
 D_n: Finally, D_n is another name for the complexified rotation group
-\mathrm{SO}(2n,C) or its double cover Spin(2n,C). The pth Grassmannian for this
+\mathrm{SO}(2n,C) or its double cover \mathrm{Spin}(2n,C). The pth Grassmannian for this
 group consists of all p-dimensional isotropic subspaces of the space
 C^2n^ equipped with a nondegenerate symmetric bilinear form - *except*
 for the top-dimensional Grassmannians, as I explained last week. These
@@ -519,7 +519,7 @@ Here are the Grassmannians and their dimensions:
                                      o self-dual 2d subspaces
                                      
     D2                                      
-    Spin(4,C)                 
+    \mathrm{Spin}(4,C)                 
                      
                                         
                                      o anti-self-dual 2d subspaces
@@ -534,7 +534,7 @@ Here are the Grassmannians and their dimensions:
                                        /
                                       /
     D3                               /
-    Spin(6,C)                     4 o isotropic 1d subspaces
+    \mathrm{Spin}(6,C)                     4 o isotropic 1d subspaces
                                      \
                                       \
                                        \
@@ -549,7 +549,7 @@ Here are the Grassmannians and their dimensions:
                                            /
                            isotropic      /
     D4                   1d subspaces    /
-    Spin(8,C)                   o-------o isotropic 2d subspaces 
+    \mathrm{Spin}(8,C)                   o-------o isotropic 2d subspaces 
                                 6       9\
                                           \
                                            \
@@ -564,7 +564,7 @@ Here are the Grassmannians and their dimensions:
                                                   /            
                                                  / 
     D5             1d subspaces  2d subspaces   /
-    Spin(10,C)           o-----------o---------o isotropic 3d subspaces
+    \mathrm{Spin}(10,C)           o-----------o---------o isotropic 3d subspaces
                          8          13        15\
                                                  \
                                                   \
@@ -583,7 +583,7 @@ right-handed spinor reps:
                                      o left-handed spinors
                                      
     D2                                      
-    Spin(4,C)                 
+    \mathrm{Spin}(4,C)                 
                      
                                         
                                      o right-handed spinors
@@ -598,7 +598,7 @@ right-handed spinor reps:
                                        /
                                       /
     D3                               /
-    Spin(6,C)                     6 o vectors
+    \mathrm{Spin}(6,C)                     6 o vectors
                                      \
                                       \
                                        \
@@ -613,7 +613,7 @@ right-handed spinor reps:
                                            /
                                           /
     D4                       vectors     /
-    Spin(8,C)                   o-------o bivectors
+    \mathrm{Spin}(8,C)                   o-------o bivectors
                                 8      28\
                                           \
                                            \
@@ -628,7 +628,7 @@ right-handed spinor reps:
                                                   /            
                                                  / 
     D5                vectors      bivectors    /
-    Spin(10,C)           o-----------o---------o 3-vectors
+    \mathrm{Spin}(10,C)           o-----------o---------o 3-vectors
                          10         45       120\
                                                  \
                                                   \

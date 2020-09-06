@@ -212,7 +212,7 @@ knowing that we can completely master *all* the irreps of G once we
 figure out the fundamental ones. So, we'll focus on those.
 
 We've more or less beat \mathrm{SL}(n,C) to death, so let's see what happens
-with some other simple Lie groups... for example, the groups Spin(n,C).
+with some other simple Lie groups... for example, the groups \mathrm{Spin}(n,C).
 If you don't know these guys, first think about \mathrm{SO}(n,C). This is the
 group of all linear transformations of C^n preserving the symmetric
 bilinear form
@@ -222,38 +222,38 @@ x.y = x_1 y_1 + ... + x_n y_n
 Unfortunately \mathrm{SO}(n,C) is not simply connected, so not all reps of its
 Lie algebra give reps of the group. So, to get group representations
 from ways of labelling the Dynkin diagram by numbers, we need to work
-with its double cover, the "spin" group Spin(n,C).
+with its double cover, the "spin" group \mathrm{Spin}(n,C).
 
 You may be more familiar with the compact real forms of these groups.
 The compact real form of \mathrm{SO}(n,C) is the good old rotation group in n
-dimensions, \mathrm{SO}(n). The compact real form of Spin(n,C) is the double
-cover of \mathrm{SO}(n), called Spin(n). The irreps of Spin(n,C) give unitary
-irreps of Spin(n), so you can think about them that way if you prefer.
+dimensions, \mathrm{SO}(n). The compact real form of \mathrm{Spin}(n,C) is the double
+cover of \mathrm{SO}(n), called \mathrm{Spin}(n). The irreps of \mathrm{Spin}(n,C) give unitary
+irreps of \mathrm{Spin}(n), so you can think about them that way if you prefer.
 
-The Dynkin diagram of Spin(n,C) looks really different depending on
+The Dynkin diagram of \mathrm{Spin}(n,C) looks really different depending on
 whether n is even or odd. It takes a while for the pattern to become
 clear - it's obscured by lots of delightful coincidences in low
 dimensions. I'll work through these low dimensions and then say the
 general pattern. If you're the sort who can't stand reading long lists
 of facts until you've seen the pattern they fit, jump ahead to where I
-talk about Spin(9,C) and Spin(10,C). I'm gonna climb my way up there
+talk about \mathrm{Spin}(9,C) and \mathrm{Spin}(10,C). I'm gonna climb my way up there
 slowly, taking my time to smell the flowers.
 
-The Dynkin diagram of Spin(3,C) is just a single dot:
+The Dynkin diagram of \mathrm{Spin}(3,C) is just a single dot:
 
                           o
 
 just like the Dynkin diagram for \mathrm{SL}(2,\mathbb{C}). That's because they're
 isomorphic:
 
-Spin(3,C) = \mathrm{SL}(2,\mathbb{C}).
+\mathrm{Spin}(3,C) = \mathrm{SL}(2,\mathbb{C}).
 
 The fundamental representation corresponding to the single dot in the
-Dynkin diagram is called the "spinor" representation of Spin(3,C):
+Dynkin diagram is called the "spinor" representation of \mathrm{Spin}(3,C):
 it's just the obvious rep of \mathrm{SL}(2,\mathbb{C}) on C^2. This fact is crucial for
 understanding spin-$1/2$ particles in 3d space.
 
-The Dynkin diagram of Spin(4,C) is two dots, not connected by an edge:
+The Dynkin diagram of \mathrm{Spin}(4,C) is two dots, not connected by an edge:
 
                           o
 
@@ -265,15 +265,15 @@ The Dynkin diagram of Spin(4,C) is two dots, not connected by an edge:
 just like the Dynkin diagram for \mathrm{SL}(2,\mathbb{C}) x \mathrm{SL}(2,\mathbb{C}). That's because
 they're isomorphic:
 
-    Spin(4,C) = \mathrm{SL}(2,\mathbb{C}) x \mathrm{SL}(2,\mathbb{C}).
+    \mathrm{Spin}(4,C) = \mathrm{SL}(2,\mathbb{C}) x \mathrm{SL}(2,\mathbb{C}).
 
 The fundamental reps coresponding to the two dots are called the
 "left-handed" and "right-handed" spinor representations of
-Spin(4,C): they're just the obvious reps of \mathrm{SL}(2,\mathbb{C}) x \mathrm{SL}(2,\mathbb{C}) on C^2.
+\mathrm{Spin}(4,C): they're just the obvious reps of \mathrm{SL}(2,\mathbb{C}) x \mathrm{SL}(2,\mathbb{C}) on C^2.
 This fact is crucial for understanding spin-$1/2$ particles in 4d
 spacetime.
 
-The Dynkin diagram of Spin(5,C) is two dots connected by a double edge:
+The Dynkin diagram of \mathrm{Spin}(5,C) is two dots connected by a double edge:
 
                           o===>===o 
 
@@ -283,17 +283,17 @@ explained that this Dynkin diagram is the same as that of \mathrm{Sp}(4,C), the
 group of transformations preserving a symplectic structure on C^4.
 That's because these groups are isomorphic:
 
-Spin(5,C) = \mathrm{Sp}(4,C).
+\mathrm{Spin}(5,C) = \mathrm{Sp}(4,C).
 
 The fundamental rep corresponding to the left dot in the Dynkin diagram
 comes from the obvious rep of \mathrm{SO}(5,C) on C^5 - what physicists would
 call the "vector" rep. The fundamental rep corresponding to the right
 dot comes from the obvious rep of \mathrm{Sp}(4,C) on C^4 - it's called the
-"spinor" rep of Spin(5,C). This would be fundamental for studying
+"spinor" rep of \mathrm{Spin}(5,C). This would be fundamental for studying
 spin-$1/2$ particles in 5-dimensional spacetime if anyone were
 interested... but not many people are.
 
-The Dynkin diagram of Spin(6,C) has three dots:
+The Dynkin diagram of \mathrm{Spin}(6,C) has three dots:
 
                               o
                              /
@@ -308,12 +308,12 @@ The Dynkin diagram of Spin(6,C) has three dots:
 This is the same as that of \mathrm{SL}(4,C), though I've drawn it differently.
 That's because these groups are isomorphic:
 
-Spin(6,C) = \mathrm{SL}(4,C).
+\mathrm{Spin}(6,C) = \mathrm{SL}(4,C).
 
 The fundamental rep corresponding to the left dot comes from the obvious
 rep of \mathrm{SO}(6,C) on C^6 - the "vector" rep again. The reps
 corresponding to the other dots are the left- and right-handed spinor
-reps of Spin(6,C), coming from the obvious rep of \mathrm{SL}(4,C) on C^4 and
+reps of \mathrm{Spin}(6,C), coming from the obvious rep of \mathrm{SL}(4,C) on C^4 and
 its dual. This is fundamental for understanding spin-$1/2$ particles in
 6-dimensional space - for example, the 6 extra curled-up dimensions in
 string theory. And as we'll see, it's also basic to Penrose's theory
@@ -322,24 +322,24 @@ of twistors!
 At this point we're done with all the cute isomorphisms, so let us line
 them up and admire them before bidding them farewell:
 
-    Spin(3,C) = \mathrm{SL}(2,\mathbb{C})
-    Spin(4,C) = \mathrm{SL}(2,\mathbb{C}) x \mathrm{SL}(2,\mathbb{C})
-    Spin(5,C) = \mathrm{Sp}(2,\mathbb{C})
-    Spin(6,C) = \mathrm{SL}(4,C).
+    \mathrm{Spin}(3,C) = \mathrm{SL}(2,\mathbb{C})
+    \mathrm{Spin}(4,C) = \mathrm{SL}(2,\mathbb{C}) x \mathrm{SL}(2,\mathbb{C})
+    \mathrm{Spin}(5,C) = \mathrm{Sp}(2,\mathbb{C})
+    \mathrm{Spin}(6,C) = \mathrm{SL}(4,C).
 
 They give rise to isomorphisms of their maximal compact subgroups, so
 let's say goodbye to those too:
 
-    Spin(3) = \mathrm{SU}(2)
-    Spin(4) = \mathrm{SU}(2) x \mathrm{SU}(2)
-    Spin(5) = \mathrm{Sp}(2)
-    Spin(6) = \mathrm{SU}(4).
+    \mathrm{Spin}(3) = \mathrm{SU}(2)
+    \mathrm{Spin}(4) = \mathrm{SU}(2) x \mathrm{SU}(2)
+    \mathrm{Spin}(5) = \mathrm{Sp}(2)
+    \mathrm{Spin}(6) = \mathrm{SU}(4).
 
 Sometime we should return and learn to know them better... they've
 barely begun to display their many charms! But today we must sail on to
 higher dimensions....
 
-The Dynkin diagram of Spin(7,C) has three dots:
+The Dynkin diagram of \mathrm{Spin}(7,C) has three dots:
 
                          o-------o===>===o 
 
@@ -350,7 +350,7 @@ right dot is the spinor rep, which is no longer so easy to describe
 without using Clifford algebras - see ["Week 93"](#week93) or
 ["Week 105"](#week105) for more about those.
 
-The Dynkin diagram of Spin(8,C) has four dots:
+The Dynkin diagram of \mathrm{Spin}(8,C) has four dots:
 
                                       o
                                      /
@@ -371,7 +371,7 @@ diagram, which is called "triality".
 
 I've said a lot about triality in ["Week 61"](#week61),
 ["Week 91"](#week91) and elsewhere, but right now it's just a
-distraction - I'm trying to get you to see the pattern of Spin(n,C)
+distraction - I'm trying to get you to see the pattern of \mathrm{Spin}(n,C)
 Dynkin diagrams, and I'm hoping that by now it's apparent: an
 alternation between odd and even dimensions, and so on....
 
@@ -423,15 +423,15 @@ A "point" in the quadric is really a 1-dimensional isotropic subspace
 of C^n; a "null line" is a 2-dimensional isotropic subspace, and so
 on. We can talk about a point lying on a line, or a line lying on a
 plane, and they mean the obvious things. This gives the incidence
-geometry associated to Spin(n,C).
+geometry associated to \mathrm{Spin}(n,C).
 
 Putting together everything I've said so far: for n odd, the ith dot in
-the Dynkin diagram of Spin(n,C) corresponds to a maximal parabolic P
-such that Spin(n,C)/P is the manifold consisting of all isotropic
+the Dynkin diagram of \mathrm{Spin}(n,C) corresponds to a maximal parabolic P
+such that \mathrm{Spin}(n,C)/P is the manifold consisting of all isotropic
 i-dimensional subspaces in C^n - or in other words, all null
 (i-1)-spaces in the corresponding quadric. And this manifold, called an
 "orthogonal Grassmannian", has a complex line bundle on it whose space
-of holomorphic sections is the ith fundamental rep of Spin(n,C).
+of holomorphic sections is the ith fundamental rep of \mathrm{Spin}(n,C).
 
 For n even, let's look at \mathrm{SO}(10,C).
 
@@ -506,7 +506,7 @@ any even number n will do, though we should leave out the factor of
 "i" in the above formulas when n is a multiple of 4, since then the
 square of the Hodge star operator on n/2-forms is 1 instead of -1.
 
-Okay, that pretty much concludes my story for Spin(n,C). I could do some
+Okay, that pretty much concludes my story for \mathrm{Spin}(n,C). I could do some
 other examples, but we're probably both getting worn out; if you want,
 you can read about them in section 23.3 of this book:
 
@@ -538,13 +538,13 @@ just like a lot of math is easier to do on the Riemann sphere than on
 the real line.
 
 Now, since \mathrm{SO}(2,4) is a real form of \mathrm{SO}(6,C), the whole group \mathrm{SO}(6,C)
-acts as symmetries of M. Of course the double cover Spin(6,C) also acts
+acts as symmetries of M. Of course the double cover \mathrm{Spin}(6,C) also acts
 on M, so let's use that. Here's the cool part:
 
-M = Spin(6,C)/P
+M = \mathrm{Spin}(6,C)/P
 
 where P is the maximal parabolic corresponding to this dot on the Dynkin
-diagram for Spin(6,C):
+diagram for \mathrm{Spin}(6,C):
 
                               o
                              /
@@ -585,7 +585,7 @@ Minkowski spacetime, and so on.
 
 But now we can use one of those charming coincidences:
 
-Spin(6,C) = \mathrm{SL}(4,C)!
+\mathrm{Spin}(6,C) = \mathrm{SL}(4,C)!
 
 This means we can also write
 
@@ -619,7 +619,7 @@ complexification of conformally compactified Minkowski spacetime let
 Penrose use incidence geometry methods to solve conformally invariant
 field equations, like Maxwell's equations or the Yang-Mills equations.
 
-But what's a twistor? That's easy: it's just a spinor for Spin(6),
+But what's a twistor? That's easy: it's just a spinor for \mathrm{Spin}(6),
 either left-handed or right-handed. In other words, twistors are the
 fundamental reps corresponding to these dots on the Dynkin diagram:
 

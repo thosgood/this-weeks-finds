@@ -213,11 +213,11 @@ as a pleasant surprise to find that sometimes spin foam amplitudes are
 nonnegative *without* doing Wick rotation.
 
 Of course, so far I've only been talking about the Riemannian
-Barrett-Crane model! Here the gauge group is Spin(4) = \mathrm{SU}(2) \times \mathrm{SU}(2),
+Barrett-Crane model! Here the gauge group is \mathrm{Spin}(4) = \mathrm{SU}(2) \times \mathrm{SU}(2),
 and if you examine our proof, you'll see that the positivity result
 comes from the way this group "factors" into two copies of \mathrm{SU}(2). We
 can't prove positivity of spin foam amplitudes in the more physical
-Lorentzian case, where the group is Spin(3,1) = \mathrm{SL}(2,\mathbb{C}).
+Lorentzian case, where the group is \mathrm{Spin}(3,1) = \mathrm{SL}(2,\mathbb{C}).
 
 However, even though we can't prove it, it may be true! Dan has written
 a number of programs which compute the Lorentzian 10j symbols, and while

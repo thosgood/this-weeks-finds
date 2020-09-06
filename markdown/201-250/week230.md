@@ -142,7 +142,7 @@ This sounds like a silly puzzle that only a mathematician could give a
 hoot about. It takes a while to see its magnificent depth. But anyway,
 it turns out you can solve this problem only for certain special
 diagrams called "simply-laced Dynkin diagrams". The basic kinds are
-called A_n, D_n, E~6~, E~7~, and E~8~.
+called A_n, D_n, \mathrm{E}_6, \mathrm{E}_7, and \mathrm{E}_8.
 
 The A_n Dynkin diagram is a line of n dots connected by edges like
 this:
@@ -160,7 +160,7 @@ The D_n diagram has n dots arranged like this:
 A line of them but then a little fishtail at the end! We should take n
 to be at least 4, to make the diagram connected and different from A_n.
 
-The E~6~, E~7~, and E~8~ diagrams look like this:
+The \mathrm{E}_6, \mathrm{E}_7, and \mathrm{E}_8 diagrams look like this:
 
            o                  o                      o
            |                  |                      |
@@ -217,21 +217,21 @@ Here are the lattices you get:
     color the cubes alternately red and black, and take the center of
     each red cube.
 
--   The diagram E~8~ gives the 8-dimensional lattice of 8-tuples
-    (x_1,...,x~8~) such that the x_i are either all integers or all
+-   The diagram \mathrm{E}_8 gives the 8-dimensional lattice of 8-tuples
+    (x_1,...,x_8) such that the x_i are either all integers or all
     half-integers - a half-integer being an integer plus 1/2 - and such
     that
 
-    x_1 + ... + x~8~
+    x_1 + ... + x_8
 
     is even.
 
--   The diagram E~7~ gives the 7-dimensional lattice consisting of all
-    vectors in E~8~ that are orthogonal to some vector that's closest
+-   The diagram \mathrm{E}_7 gives the 7-dimensional lattice consisting of all
+    vectors in \mathrm{E}_8 that are orthogonal to some vector that's closest
     to the origin (and thus has length √2).
 
--   The diagram E~6~ gives the 6-dimensional lattice consisting of all
-    vectors in E~7~ that are orthogonal to some vector that's closest
+-   The diagram \mathrm{E}_6 gives the 6-dimensional lattice consisting of all
+    vectors in \mathrm{E}_7 that are orthogonal to some vector that's closest
     to the origin (and thus has length √2).
 
 For more on these lattices, see ["Week 65"](#week65). They show up
@@ -268,14 +268,14 @@ Here's how it goes:
 -   The diagram D_n gives the compact Lie group \mathrm{SO}(2n), consisting of
     2n \times 2n orthogonal matrices with determinant 1. It's the isometry
     group of real projective (2n)-space.
--   The diagram E~6~ gives a 78-dimensional compact Lie group that
-    people call E~6~. It's the isometry group of the bioctonionic
+-   The diagram \mathrm{E}_6 gives a 78-dimensional compact Lie group that
+    people call \mathrm{E}_6. It's the isometry group of the bioctonionic
     projective plane.
--   The diagram E~7~ gives a 133-dimensional compact Lie group that
-    people call E~7~. It's the isometry group of the quateroctonionic
+-   The diagram \mathrm{E}_7 gives a 133-dimensional compact Lie group that
+    people call \mathrm{E}_7. It's the isometry group of the quateroctonionic
     projective plane.
--   The diagram E~8~ gives a 248-dimensional compact Lie group that
-    people call E~8~. It's the isometry group of the octooctonionic
+-   The diagram \mathrm{E}_8 gives a 248-dimensional compact Lie group that
+    people call \mathrm{E}_8. It's the isometry group of the octooctonionic
     projective plane.
 
 In short, two regular series and three exotic weirdos.
@@ -316,21 +316,21 @@ Then I'll explain how the correspondence works:
     of the regular $n$-gon where you can turn it and also flip it over. By
     sheer coincidence, this group is called the "dihedral group" D_n.
     A cosmic stroke of good luck!
--   The diagram E~6~ corresponds to the group of rotational symmetries
+-   The diagram \mathrm{E}_6 corresponds to the group of rotational symmetries
     of the tetrahedron: the "tetrahedral group". This is also the
     group of even permutations of 4 elements, the "alternating group"
     A_4 - not to be confused with the A_n's we were just talking
     about. A cosmic stroke of bad luck!
--   The diagram E~7~ corresponds to the group of rotational symmetries
+-   The diagram \mathrm{E}_7 corresponds to the group of rotational symmetries
     of the octahedron or cube: the "octahedral group". This is also
     the group of all permutations of 4 elements, the "symmetric group"
     S_4.
--   The diagram E~8~ corresponds to the group of rotational symmetries
+-   The diagram \mathrm{E}_8 corresponds to the group of rotational symmetries
     of the icosahedron or dodecahedron: the "icosahedral group". This
     is also the group of even permutations of 5 elements, called A_5.
     Darn!
 
-So, the exceptional Lie groups E~6~, E~7~ and E~8~ correspond to
+So, the exceptional Lie groups \mathrm{E}_6, \mathrm{E}_7 and \mathrm{E}_8 correspond to
 Platonic solids in a sneaky way.
 
 To understand what's going on here, first we need to switch from \mathrm{SO}(3)
@@ -347,13 +347,13 @@ You'll see how if I list the finite subgroups of \mathrm{SU}(2):
     This double covers a cyclic subgroup of \mathrm{SO}(3) when n is even.
 -   The diagram D_n corresponds to a subgroup of \mathrm{SU}(2) that double
     covers the dihedral group D_n.
--   The diagram E~6~ corresponds to a subgroup of \mathrm{SU}(2) that double
+-   The diagram \mathrm{E}_6 corresponds to a subgroup of \mathrm{SU}(2) that double
     covers the rotational symmetries of the tetrahedron. This subgroup
     has 24 elements and it's called the "binary tetrahedral group".
--   The diagram E~7~ corresponds to a subgroup of \mathrm{SU}(2) that double
+-   The diagram \mathrm{E}_7 corresponds to a subgroup of \mathrm{SU}(2) that double
     covers the rotational symmetries of the octahedron. This subgroup
     has 48 elements and it's called the "binary octahedral group".
--   The diagram E~8~ corresponds to a subgroup of \mathrm{SU}(2) that double
+-   The diagram \mathrm{E}_8 corresponds to a subgroup of \mathrm{SU}(2) that double
     covers the rotational symmetries of the icosahedron. This subgroup
     has 120 elements and it's called the "binary icosahedral group".
 
@@ -458,11 +458,11 @@ correspondence works:
     y^2 + z^2.
 -   The diagram D_n corresponds to the critical point of x^n-1^ +
     xy^2 + z^2.
--   The diagram E~6~ corresponds to the critical point of x^4 + y^3 +
+-   The diagram \mathrm{E}_6 corresponds to the critical point of x^4 + y^3 +
     z^2.
--   The diagram E~7~ corresponds to the critical point of x^3 y +
+-   The diagram \mathrm{E}_7 corresponds to the critical point of x^3 y +
     y^3 + z^2.
--   The diagram E~8~ corresponds to the critical point of x^5 + y^3 +
+-   The diagram \mathrm{E}_8 corresponds to the critical point of x^5 + y^3 +
     z^2.
 
 Here's how the correspondence works. For each of our Dynkin diagrams we
