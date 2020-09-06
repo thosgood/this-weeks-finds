@@ -249,13 +249,13 @@ Hopf algebras (like quantum groups), or alternatively, their categories
 of representations, which are certain braided monoidal categories. In
 this paper it's shown that nice TQFTs in 4 dimensions have a lot to do
 with Hopf categories, or alternatively, their categories of
-representations, which are certain braided monoidal 2-categories.
+representations, which are certain braided monoidal $2$-categories.
 
-9) "On the definition of 2-category of 2-knots", by V. M. Kharlamov and V. G. Turaev, preprint.
+9) "On the definition of $2$-category of 2-knots", by V. M. Kharlamov and V. G. Turaev, preprint.
 
 This preprint, which I obtained through my network of spies, *seems* to
 be implicitly claiming that the work of Fischer describing 2d surfaces
-in $\mathbb{R}^4$ via on braided monoidal 2-categories (see ["Week 12"](#week12)) is a bit wrong, but they don't come out and
+in $\mathbb{R}^4$ via on braided monoidal $2$-categories (see ["Week 12"](#week12)) is a bit wrong, but they don't come out and
 say quite what if anything is really wrong.
 
 10) "Non-involutory Hopf algebras and 3-manifold invariants", by Greg Kuperberg, preprint `#19941128002`, available from the AMS preprint server under subject 57 or 16 in the Mathematical Reviews Subject Classification Scheme.

@@ -631,10 +631,10 @@ For the n = 2 case, see the papers I already listed.
 
 Finally: the cool part, which I haven't even mentioned, is that we
 really need to describe $n$-dimensional QFTs using an *$n$-category* of
-cobordisms - not just a mere 1-category, as I sloppily said above.
+cobordisms - not just a mere $1$-category, as I sloppily said above.
 
 This first gets exciting when we hit n = 2: you'll see a bunch of stuff
-about 2-categories (or technically, "bicategories") in the old
+about $2$-categories (or technically, "bicategories") in the old
 Stolz-Teichner paper "What is an elliptic object", listed above.
 
 In short: we're starting to see a unified picture where we study spaces

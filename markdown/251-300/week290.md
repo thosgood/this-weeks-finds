@@ -33,7 +33,7 @@ analysis! I spoke a tiny bit about this in ["Week 274"](#week274),
 right after I'd finished a paper with Baratin, Freidel and Wise on
 infinite-dimensional representations of 2-groups. I thought it would
 take a long time for more people to get interested in the blend of
-2-categories and measure theory that we were exploring. After all,
+$2$-categories and measure theory that we were exploring. After all,
 there's a common stereotype that says mathematicians who like
 categories hate analysis, and vice versa. But I was wrong:
 

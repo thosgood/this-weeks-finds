@@ -398,7 +398,7 @@ For an attempt to tackle this issue, see:
 available at `http://toby.bartels.name/papers/#quaternions`
 
 However, it's possible we'll only see what real and quaternionic
-quantum mechanics are good for when we work in the 3-category Alg(R)
+quantum mechanics are good for when we work in the $3$-category Alg(R)
 mentioned in ["Week 209"](#week209), taking R to be the real
 numbers. Here:
 

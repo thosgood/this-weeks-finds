@@ -52,7 +52,7 @@ This has a bunch of papers in it, namely:
 -   Julia Bergner, A survey of (\infty,1)-categories.
 -   Simona Paoli, Internal categorical structures in homotopical
     algebra.
--   Stephen Lack, A 2-categories companion.
+-   Stephen Lack, A $2$-categories companion.
 -   Lawrence Breen, Notes on 1- and 2-gerbes.
 -   Ross Street, An Australian conspectus of higher categories.
 

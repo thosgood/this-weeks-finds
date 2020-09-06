@@ -76,7 +76,7 @@ Vect^1.
 In fact, about 15 years ago Kapranov and Voevodsky invented a theory of
 2-vector spaces that makes all this stuff work:
 
-3) Mikhail Kapranov and Vladimir Voevodsky, 2-categories and
+3) Mikhail Kapranov and Vladimir Voevodsky, $2$-categories and
 Zamolodchikov tetrahedra equations, in Algebraic Groups and Their
 Generalizations: Quantum and Infinite-Dimensional Methods, Proc. Sympos.
 Pure Math. 56, Part 2, AMS, Providence, RI, 1994, pp. 177-259.
@@ -184,7 +184,7 @@ dimensional 2-vector spaces, available as
 [`arXiv:math.CT/0408120`](http://arXiv.org/abs/math.CT/0408120).
 
 A group is a category with one object, all of whose morphisms are
-invertible. Similarly, a 2-group is a 2-category with one object, all of
+invertible. Similarly, a 2-group is a $2$-category with one object, all of
 whose morphisms and 2-morphisms are invertible. Just as we can define
 "Lie groups" to be groups where the group operations are smooth, we
 can define "Lie 2-groups" to be 2-groups where all the 2-group
@@ -383,7 +383,7 @@ unitary representations of even a little group like the circle, \mathrm{U}(1).
 But it's easy to classify the *continuous* unitary representations.
 
 A group has a category of representations, but a 2-group has a
-2-category of representations! So, as usual, we have representations and
+$2$-category of representations! So, as usual, we have representations and
 maps between these , which physicists call "intertwining operators" or
 "intertwiners" for short. But we also have maps between intertwining
 operators, called "2-intertwiners".
@@ -400,11 +400,11 @@ Our paper gives nice geometrical descriptions of these notions. Some of
 these can be seen as generalizing the following paper of Crane and
 Sheppeard:
 
-17) Louis Crane and Marnie D. Sheppeard, 2-categorical Poincare
+17) Louis Crane and Marnie D. Sheppeard, $2$-categorical Poincare
 representations and state sum applications, available as
 [`arXiv:math/0306440`](http://arXiv.org/abs/arXiv:math/0306440).
 
-Crane and Sheppeard studied the 2-category of representations of the
+Crane and Sheppeard studied the $2$-category of representations of the
 "Poincare 2-group". It turns out that we can get representations of
 the Poincare 2-group from [discrete subgroups of the Lorentz
 group](http://en.wikipedia.org/wiki/Fuchsian_group). Since the Lorentz

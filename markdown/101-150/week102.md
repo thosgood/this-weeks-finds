@@ -460,11 +460,11 @@ Hmm. They sure don't *look* equal. We must be doing something wrong.
 
 What are we doing wrong? We're committing the sin of
 decategorification: treating isomorphisms as equations! We should treat
-the integers not as a mere category, but as a 2-category! See
+the integers not as a mere category, but as a $2$-category! See
 ["Week 80"](#week80) for the precise definition of this concept;
-for now, it's enough to say that a 2-category has things called
+for now, it's enough to say that a $2$-category has things called
 2-morphisms going between morphisms. If we treat the integers as a
-2-category, we can say there is a 2-morphism going from
+$2$-category, we can say there is a 2-morphism going from
 $$
   \begin{tikzpicture}
     \begin{knot}
@@ -518,11 +518,11 @@ $$
     \node at (5.75,0) {$\Longrightarrow$};
   \end{tikzpicture}
 $$
-Okay, say we do this: treat the integers as a 2-category. We again are
+Okay, say we do this: treat the integers as a $2$-category. We again are
 faced with a question: do we make all the 2-morphisms invertible? If we
 do, we get a "2-groupoid", or actually a "groupal 2-groupoid". But
 again, to do so amounts to committing the sin of decategorification. To
-avoid this sin, we should tread the integers as a 3-category. Etc, etc!
+avoid this sin, we should tread the integers as a $3$-category. Etc, etc!
 
 You may have noted how worlds of ever higher-dimensional topology are
 automatically unfolding from our attempt to avoid the sin of

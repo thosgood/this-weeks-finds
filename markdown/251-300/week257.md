@@ -753,10 +753,10 @@ Appl. Alg. 175 (2002), 243-265. Also available at
 
 (Check out the cool string diagrams near the end!)
 
-Street noted that we can talk about monads, not just in the 2-category
-of categories, but in any 2-category. I actually explained monads at
+Street noted that we can talk about monads, not just in the $2$-category
+of categories, but in any $2$-category. I actually explained monads at
 this level of generality back in ["Week 89"](#week89). Indeed,
-for any 2-category C, there's a 2-category Mnd(C) of monads in C.
+for any $2$-category C, there's a $2$-category Mnd(C) of monads in C.
 
 And, he noted that a monad in Mnd(C) is a pair of monads in C related by
 a distributive law!
@@ -793,7 +793,7 @@ By the way, the pathetic piece of ASCII art above is lifted from
 ["Week 1"](#week1), where I first explained the Yang-Baxter
 equation. That was back in 1993. So, it's only taken me 14 years to
 learn that you can derive this equation from considering monads in the
-category of monads in the category of monads in a 2-category.
+category of monads in the category of monads in a $2$-category.
 
 You may wonder if this counts as progress - but Eugenia studies lots of
 *examples* of this sort of thing, so it's far from pointless.

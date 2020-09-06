@@ -132,7 +132,7 @@ emphasized the relationships. But there are also some big differences.
 Unlike homotopy theory, here the paths are typically required to be
 "monotonic": they can't double back and go backwards in time. And, as
 I mentioned, the tasks can be thought of more abstractly than as paths
-in some space. So we are really talking about 2-categories here: they
+in some space. So we are really talking about $2$-categories here: they
 give a general framework for studying situations with "dots" or
 "objects", "arrows between dots" or "morphisms", and "arrows
 between arrows between dots" or "2-morphisms". Similarly, when we

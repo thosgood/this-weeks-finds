@@ -288,7 +288,7 @@ available as
 [math.CT/0611930v1](http://arXiv.org/abs/math.CT/0611930v1).
 
 People have been talking a long time about topological quantum field
-theory and higher categories. The idea is that categories, 2-categories,
+theory and higher categories. The idea is that categories, $2$-categories,
 3-categories and the like can describe how manifolds can be chopped into
 little pieces - or more precisely, how these little pieces can be glued
 together to form manifolds. Then the problem of doing quantum field
@@ -297,7 +297,7 @@ these pieces and gluing the results together. This works easiest if the
 theory is "topological", not requiring a background metric.
 
 There's a lot of evidence that this is a good idea, but getting the
-details straight has proved tough, even at the 2-category level. This is
+details straight has proved tough, even at the $2$-category level. This is
 what Morton does, in a rather clever way. Very roughly, his idea is to
 use something I'll call a "weak double category", and prove that
 these:
@@ -309,15 +309,15 @@ these:
 give a weak double category called nCob_2. The proof is a cool mix of
 topology and higher category theory. He then shows that this particular
 weak double category can be reinterpreted as something a bit more
-familiar - a "weak 2-category".
+familiar - a "weak $2$-category".
 
 In the rest of his thesis, Jeff will use this formalism to construct
 some examples of "extended TQFTs", which are roughly maps of weak
-2-categories
+$2$-categories
 
 Z\colon  nCob_2 \to  2Vect
 
-where 2Vect is the weak 2-category of "2-vector spaces". He's
+where 2Vect is the weak $2$-category of "2-vector spaces". He's
 focusing on some extended TQFTs called the Dijkgraaf-Witten models,
 coming from finite groups.
 
@@ -342,7 +342,7 @@ So, we get a relation like this:
 I like this a lot: it reminds me of the title of Weyl's famous book
 "Raum, Zeit, Materie", meaning "Space, Time, Matter". He never
 guessed this trio was related to the objects, morphisms and 2-morphisms
-in a weak 2-category! It's too bad we can't seem to get something like
+in a weak $2$-category! It's too bad we can't seem to get something like
 this to work for full-fledged quantum gravity.
 
 It would be fun to talk more about this. However, to understand
@@ -356,12 +356,12 @@ This chart should help:
                                        BIGONS                SQUARES
 
        LAWS HOLDING                    strict                strict 
-       AS EQUATIONS                 2-categories        double categories
+       AS EQUATIONS                 $2$-categories        double categories
 
        LAWS HOLDING                    weak                  weak
-     UP TO ISOMORPHISM              2-categories        double categories
+     UP TO ISOMORPHISM              $2$-categories        double categories
 
-2-categories are good for describing how to glue together $2$-dimensional
+$2$-categories are good for describing how to glue together $2$-dimensional
 things that, at least in some abstract sense, are shaped like *bigons*.
 A "bigon" is a disc with its boundary divided into two halves. Here's
 my feeble ASCCI rendition of a bigon:
@@ -392,14 +392,14 @@ together $2$-dimensional gadgets that are shaped like *squares*:
                    Y o---->----o Y' 
                           f'
 
-Both 2-categories and double categories come in "strict" and "weak"
+Both $2$-categories and double categories come in "strict" and "weak"
 versions. The strict versions have operations satisfying a bunch of laws
 "on the nose", as equations. In the weak versions, these laws hold up
 to isomorphism whenever possible.
 
 A few more details might help....
 
-A 2-category has a set of objects, a set of morphisms f\colon  X \to  Y going
+A $2$-category has a set of objects, a set of morphisms f\colon  X \to  Y going
 from any object X to to any object Y, and a set of 2-morphisms T: f \Rightarrow
 g going from any morphism f: X \to Y to any morphism g\colon  X \to  Y. We can
 visualize the objects as dots:
@@ -457,9 +457,9 @@ and horizontally:
 There are also a bunch of laws that need to hold. I don't want to list
 them; you can find them in Jeff's paper (also see
 ["Week 80"](#week80)). I just want to emphasize how a strict
-2-category is different from a weak one.
+$2$-category is different from a weak one.
 
-In a strict 2-category, the composition of morphisms is associative on
+In a strict $2$-category, the composition of morphisms is associative on
 the nose:
 
 (fg)h = f(gh)
@@ -468,13 +468,13 @@ and there are identity morphisms that satisfy these laws on the nose:
 
 1f = f = f1
 
-In a weak 2-category, these equations are replaced by 2-isomorphisms -
+In a weak $2$-category, these equations are replaced by 2-isomorphisms -
 that is, invertible 2-morphisms. And, these 2-isomorphisms need to
 satisfy new equations of their own!
 
 What about double categories?
 
-Double categories are like 2-categories, but instead of bigons, we have
+Double categories are like $2$-categories, but instead of bigons, we have
 squares.
 
 More precisely, a double category has a set of objects:
@@ -599,8 +599,8 @@ most people use:
 
        ME                                  THEM
 
-    strict 2-category                   2-category
-    weak 2-category                     bicategory
+    strict $2$-category                   $2$-category
+    weak $2$-category                     bicategory
     strict double category              double category
     weak double category                double bicategory
     horizontally weak double category   pseudo double category

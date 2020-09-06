@@ -301,15 +301,15 @@ both directions) stabilizes after $2n+2$ rows:
 
 |       | $n=0$ | $n=1$ | $n=2$ |
 | ----- | :--- | :--- | :--- |
-| $k=0$ | sets | categories | 2-categories |
+| $k=0$ | sets | categories | $2$-categories |
 | | | | |
-| $k=1$ | monoids | monoidal categories | monoidal 2-categories |
+| $k=1$ | monoids | monoidal categories | monoidal $2$-categories |
 | | | | |
-| $k=2$ | commutative monoids | braided monoidal categories | braided monoidal 2-categories |
+| $k=2$ | commutative monoids | braided monoidal categories | braided monoidal $2$-categories |
 | | | | |
-| $k=3$ | " " | symmetric monoidal categories | weakly involutory monoidal 2-categories |
+| $k=3$ | " " | symmetric monoidal categories | weakly involutory monoidal $2$-categories |
 | | | | |
-| $k=4$ | " " | " " | strongly involutory monoidal 2-categories |
+| $k=4$ | " " | " " | strongly involutory monoidal $2$-categories |
 | | | | |
 | $k=5$ | " " | " " | " " |
 
@@ -351,19 +351,19 @@ theories. I'll just quote the abstract:
 
 10) Sjoerd Crans, "A tensor product for Gray-categories", _Theory and Applications of Categories_, Vol. **5**, 1999, No. 2, pp 12--69, available at `http://www.tac.mta.ca/tac/volumes/1999/n2/abstract.html`
 
-A Gray-category is what some people call a semistrict 3-category: not as
-general as a weak 3-category, but general enough. Technically,
+A Gray-category is what some people call a semistrict $3$-category: not as
+general as a weak $3$-category, but general enough. Technically,
 Gray-categories are defined as categories enriched over the category of
-2-categories equipped with a tensor product invented by John Gray. To
-define semistrict 4-categories one might similarly try to equip
+$2$-categories equipped with a tensor product invented by John Gray. To
+define semistrict $4$-categories one might similarly try to equip
 Gray-categories with a suitable tensor product. And this is what Crans
 is studying. Let me quote the abstract:
 
-> In this paper I extend Gray's tensor product of 2-categories to a new
+> In this paper I extend Gray's tensor product of $2$-categories to a new
 > tensor product of Gray-categories. I give a description in terms of
 > generators and relations, one of the relations being an
 > ''interchange'' relation, and a description similar to Gray's
-> description of his tensor product of 2-categories. I show that this
+> description of his tensor product of $2$-categories. I show that this
 > tensor product of Gray-categories satisfies a universal property with
 > respect to quasi-functors of two variables, which are defined in terms
 > of lax-natural transformations between Gray-categories. The main

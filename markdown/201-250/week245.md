@@ -42,30 +42,30 @@ You can see photos of people and abstracts of their talks at this site.
 You can also see PDF files of many of their talks - and even listen to
 talks!
 
-The first day, Tuesday, was all about 2-categories and 3-categories -
+The first day, Tuesday, was all about $2$-categories and $3$-categories -
 "lower category theory", you might say. While some are eagerly sailing
 into the stratosphere of $n$-categories for general n, or even n = \infty,
 there's still a lot to understand for n = 2 and 3.
 
-For starters, Tom Leinster spoke about strict 2-categories versus weak
+For starters, Tom Leinster spoke about strict $2$-categories versus weak
 ones (also known as bicategories). It's a famous fact - a
 generalization of Mac Lane's coherence theorem - that every weak
-2-category C is equivalent to a strict one st(C). However, this is true
+$2$-category C is equivalent to a strict one st(C). However, this is true
 *if* your notion of equivalence is suitably weak! In short, what we've
-got is an inclusion of weak 3-categories:
+got is an inclusion of weak $3$-categories:
 
 i\colon  Strict2Cat \to  Weak2Cat
 
 where
 
-    Strict2Cat = [strict 2-categories, 
+    Strict2Cat = [strict $2$-categories, 
                   strict 2-functors, 
                   strict natural transformations,
                   modifications]
 
 and
 
-    Weak2Cat = [weak 2-categories,
+    Weak2Cat = [weak $2$-categories,
                 weak 2-functors,
                 weak natural transformations,
                 modifications]
@@ -98,16 +98,16 @@ in the second, we get a commuting square:
                (f,1)
 
 in their Cartesian product. The same is true for the Cartesian product
-of 2-categories. But in the "Gray" tensor product of 2-categories,
+of $2$-categories. But in the "Gray" tensor product of $2$-categories,
 these squares commute only up to 2-isomorphism. And, we can use this
 weakening of the Cartesian product to weaken the concept of strict
-3-category, and obtain the concept of "semistrict" 3-category, or
+3-category, and obtain the concept of "semistrict" $3$-category, or
 "Gray-category".
 
-Here's how. A strict 3-category is a gizmo with:
+Here's how. A strict $3$-category is a gizmo with:
 
 -   a bunch of objects,
--   for any pair of objects x,y, a 2-category \operatorname{Hom}(x,y),
+-   for any pair of objects x,y, a $2$-category \operatorname{Hom}(x,y),
 
 and
 
@@ -119,10 +119,10 @@ such that
 
 -   associativity and the unit laws hold.
 
-A semistrict 3-category is a gizmo with:
+A semistrict $3$-category is a gizmo with:
 
 -   a bunch of objects,
--   for any pair of objects x,y, a 2-category \operatorname{Hom}(x,y),
+-   for any pair of objects x,y, a $2$-category \operatorname{Hom}(x,y),
 
 and
 
@@ -134,7 +134,7 @@ where \otimes is the Gray tensor product, such that
 
 -   associativity and the unit laws hold.
 
-The slight difference is very important. Not every weak 3-category is
+The slight difference is very important. Not every weak $3$-category is
 equivalent to a strict one. But, they're all equivalent to semistrict
 ones!
 
@@ -145,7 +145,7 @@ Lack has recently noted:
 [math.CT/0612299](https://arxiv.org/abs/math.CT/0612299).
 
 To understand this, you may need a little warmup. Given strict
-2-categories B and C there's a strict 2-category \operatorname{Hom}(B,C) such that
+$2$-categories B and C there's a strict $2$-category \operatorname{Hom}(B,C) such that
 strict 2-functors
 
 A \times B \to C
@@ -161,7 +161,7 @@ Here's what \operatorname{Hom}(B,C) is like:
                  modifications between these as 2-morphisms.
 
 We can pose the same question with the Gray tensor product replacing the
-Cartesian product. Given 2-categories B and C there's a 2-category
+Cartesian product. Given $2$-categories B and C there's a $2$-category
 \[B,C\] such that strict 2-functors
 
 A \otimes B \to C
@@ -176,15 +176,15 @@ Here's what \[B,C\] is like:
               weak natural transformations between these as morphisms, 
               modifications between these as 2-morphisms.
 
-This suggests that we consider a 3-category intermediate between
+This suggests that we consider a $3$-category intermediate between
 Strict2Cat and Weak2Cat. It's called Gray, and it goes like this:
 
-    Gray = [strict 2-categories, 
+    Gray = [strict $2$-categories, 
             strict 2-functors, 
             weak natural transformations,
             modifications]
 
-We have inclusions of weak 3-categories:
+We have inclusions of weak $3$-categories:
 
 Strict2Cat \to Gray \to Weak2Cat
 
@@ -193,19 +193,19 @@ equivalence, but that there's *no* equivalence between Gray and
 Weak2Cat.
 
 All this suggests that for some purposes we really need to face up to
-weak 2-categories: the strict and semistrict setups aren't flexible
-enough for every job. The same is undoubtedly true at the 3-category
+weak $2$-categories: the strict and semistrict setups aren't flexible
+enough for every job. The same is undoubtedly true at the $3$-category
 level - and that's where the next talk comes in!
 
-In the next talk, Nick Gurski spoke about weak 3-categories. He wrote
+In the next talk, Nick Gurski spoke about weak $3$-categories. He wrote
 his thesis about these, and I'm starting to really wish he'd put his
 thesis on the arXiv, so everyone can see how cool it is and learn more
-about 3-categories. But, I guess he wants to perfect it.
+about $3$-categories. But, I guess he wants to perfect it.
 
-In his talk, Nick not only explained the definition of weak 3-category,
+In his talk, Nick not only explained the definition of weak $3$-category,
 which is famously complicated - he did his best to convince us that we
 could reinvent this definition ourselves if we tried! Then he went ahead
-and discussed various proofs that every weak 3-category is equivalent to
+and discussed various proofs that every weak $3$-category is equivalent to
 a semistrict one.
 
 An interesting theme of all three talks was the idea of treating the
@@ -217,7 +217,7 @@ as the left adjoint of the inclusion
 
 i\colon  Strict2Cat \to  Weak2Cat
 
-where now we think of both Strict2Cat and Weak2Cat as mere 1-categories.
+where now we think of both Strict2Cat and Weak2Cat as mere $1$-categories.
 You can read more about this idea here:
 
 3) Miles Gould, Coherence for categorified operadic theories, available
@@ -348,7 +348,7 @@ reveals the beginning of what might be a very nice pattern. Roughly:
      Etcetera....
 
 Presumably the ???? should be filled in with something like "model
-2-categories", with the primordial example being the 2-category of
+$2$-categories", with the primordial example being the $2$-category of
 model categories, just as the primordial example of a model category is
 the category of spaces.
 
@@ -385,19 +385,19 @@ better! But alas, I'm getting a bit tired and we're only on the second
 day of the workshop... I must hurry on.
 
 On Wednesday evening, Peter May spoke about some applications of weak
-2-categories that appear in his new book:
+$2$-categories that appear in his new book:
 
 11) Peter May and J. Sigurdsson, Parametrized Homotopy Theory, American
 Mathematical Society, 2006.
 
-The rough idea is that we have a weak 2-category with:
+The rough idea is that we have a weak $2$-category with:
 
      spaces as objects,
      spectra over X x Y as morphisms from X to Y,
      maps between spectra over X x Y as 2-morphisms.
 
 Lots of ideas from "parametrized" stable homotopy theory are neatly
-encoded as results about this 2-category.
+encoded as results about this $2$-category.
 
 Thursday was all about (\infty,1)-categories. The first talk was by Mike
 Shulman, who gave a nice intuitive treatment of André Joyal's approach
@@ -457,7 +457,7 @@ Steve Lack, on parallel transport in bundles of bicategories. Sounds
 like physics, but they came to the subject from a completely different
 motivation!
 
-Finally, Dorette Pronk spoke about weak 2-categories and weak
+Finally, Dorette Pronk spoke about weak $2$-categories and weak
 3-categories of fractions. The notion of a "calculus of fractions"
 goes back at least to the work of Gabriel and Zisman in 1967:
 
@@ -481,7 +481,7 @@ and you throw in formal inverses for the weak equivalences to get the
 "homotopy category" Ho(C).
 
 Dorette Pronk has been looking at how all this generalizes when you have
-a weak 2-category or weak 3-category and you throw in *weak* inverses to
+a weak $2$-category or weak $3$-category and you throw in *weak* inverses to
 some morphisms. This has some interesting applications to stacks:
 
 16) Dorette A. Pronk, Etendues and stacks as bicategories of fractions,

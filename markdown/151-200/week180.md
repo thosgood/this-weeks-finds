@@ -44,7 +44,7 @@ proportions:
 
 2) Peter Johnstone, Sketches of an Elephant: a Topos Theory Compendium,
 Cambridge U. Press. Volume 1, comprising Part A: Toposes as Categories,
-and Part B: 2-categorical Aspects of Topos Theory, 720 pages, to appear
+and Part B: $2$-categorical Aspects of Topos Theory, 720 pages, to appear
 in June 2002. Volume 2, comprising Part C: Toposes as Spaces, and Part
 D: Toposes as Theories, 880 pages, to appear in June 2002. Volume 3,
 comprising Part E: Homotopy and Cohomology, and Part F: Toposes as

@@ -71,7 +71,7 @@ Now, the problem is that the correct *definition* of an $n$-category is a
 highly nontrivial affair! And it gets more complicated as n increases! A
 0-category is nothing but a bunch of objects. In other words, it's
 basically just a *set*, if we allow ourselves to ignore certain problems
-about classes that are too big to qualify as sets. A 1-category is
+about classes that are too big to qualify as sets. A $1$-category is
 nothing but a category. Recall the definition of a
 [category](http://math.ucr.edu/home/baez/categories.html):
 
@@ -91,24 +91,24 @@ for any 2 objects $X$ and $Y$ a set $\mathrm{Hom}(X,Y)$ of morphisms from $X$ to
 3.  For each object $X$ there is a morphism $\mathrm{id}_X$ from $X$ to $X$, called the **identity on** $X$.
 4.  Given any $f$ in $\mathrm{Hom}(X,Y)$, $f \circ \mathrm{id}_X = f$ and $\mathrm{id}_Y \circ f = f$.
 
-Now, a 2-category is more complicated. There are objects, 1-morphisms,
+Now, a $2$-category is more complicated. There are objects, 1-morphisms,
 and 2-morphisms, and one can compose morphisms and also compose
-2-morphisms. There is, however, a choice: one can make ones 2-category
+2-morphisms. There is, however, a choice: one can make ones $2$-category
 "strict" and require that the rules 2) and 4) above hold for the
 1-morphisms and 2-morphisms, or one can require them "literally" only
 for the 2-morphisms, and allow the 1-morphisms some slack. Technically,
-one can choose between "strict" 2-categories, usually just called
-2-categories, or "weak" ones, which are usually called
+one can choose between "strict" $2$-categories, usually just called
+$2$-categories, or "weak" ones, which are usually called
 "bicategories."
 
 What do I mean by giving the 1-morphisms some "slack"? This is a very
 important aspect of the $n$-categorical philosophy... I mean that in a
-2-category one has the option of replacing *equations* between
+$2$-category one has the option of replacing *equations* between
 1-morphisms by *isomorphisms* --- that is, by 2-morphisms that have
 inverses! The basic idea here is that in many situations when we like to
 pretend things are equal, they are really just *isomorphic*, and we
 should openly admit this when it occurs. So, for example, in a "weak"
-2-category one doesn't have associativity of 1-morphisms. Instead, one
+$2$-category one doesn't have associativity of 1-morphisms. Instead, one
 has "associators", which are 2-morphisms like this:
 $$a_{f,g,h}: (f \circ g) \circ h \to f \circ (g \circ h)$$
 In other words, the associator is the *process of rebracketing* made
@@ -125,7 +125,7 @@ $$f \circ (g \circ (h \circ k)) \to (f \circ g) \circ (h \circ k) \to ((f \circ 
 or
 $$f \circ (g \circ (h \circ k)) \to f \circ ((g \circ h) \circ k) \to (f \circ (g \circ h)) \circ k \to ((f \circ g) \circ h) \circ k$$
 Actually there are other ways, but in an important sense these are the
-basic two. In a "weak" 2-category one requires that these two ways are
+basic two. In a "weak" $2$-category one requires that these two ways are
 equal... i.e., this is an identity that the associator must satisfy,
 known as the pentagon identity. This is one of the first examples of a
 coherence relation. It turns out that if this holds, *all* ways of
@@ -133,7 +133,7 @@ rebracketing that get from one expression to another are equal. (Here
 I'm being rather sloppy, but the precise result is known as Mac Lane's
 theorem.)
 
-To learn about weak 2-categories, which as I said people usually call
+To learn about weak $2$-categories, which as I said people usually call
 bicategories, try:
 
 2) J. Benabou, _Introduction to bicategories_, Lect. Notes in Math., vol. **47**, Berlin, Springer-Verlag, 1968, pp. 1--71.
@@ -144,24 +144,24 @@ all basic identities that one might expect between $j$-morphisms, such as
 the associative law, by $(j+1)$-isomorphisms. These, in turn, satisfy
 certain "coherence relations" that are really not equations, but
 $(j+2)$-morphisms, and so on... up to level $n$. This becomes so
-complicated that only recently have "weak 3-categories" been properly
+complicated that only recently have "weak $3$-categories" been properly
 defined, by Gordon, Power and Street, who call them tricategories (see
 ["Week 29"](#week29)).
 
 A bit earlier, Kapranov and Voevodsky succeeded in defining a certain
-class of weak 4-categories, which happen to be called "braided monoidal
-2-categories" (see ["Week 4"](#week4)). The interesting thing, you
+class of weak $4$-categories, which happen to be called "braided monoidal
+$2$-categories" (see ["Week 4"](#week4)). The interesting thing, you
 see, which justifies getting involved in this business, is that a lot of
 topology *automatically pops out* of the definition of an $n$-category. In
 particular, $n$-categories have a lot to do with $n$-dimensional space. A
-weak 3-category with only one object and one 1-morphism is usually known
+weak $3$-category with only one object and one 1-morphism is usually known
 as a "braided monoidal category," and the theory of these turns out to
 be roughly the same as the study of knots, links and tangles! (See
-"tangles".) The "braided monoidal 2-categories" of Kapranov and
-Voevodsky are really just weak 4-categories with only one object and one
-1-morphism. (The reason for the term "2-category" here is that since
+"tangles".) The "braided monoidal $2$-categories" of Kapranov and
+Voevodsky are really just weak $4$-categories with only one object and one
+1-morphism. (The reason for the term "$2$-category" here is that since
 all one has is 2-morphisms, 3-morphisms, and 4-morphisms, one can
-pretend one is in a 2-category in which those are the objects,
+pretend one is in a $2$-category in which those are the objects,
 morphisms, and 2-morphisms.)
 
 In any event, these marvelous algebraic structures have been cropping up
@@ -252,7 +252,7 @@ the fundamental groupoid", in _Recent developments of algebraic topology_, RIMS 
 
     M.M.Kapranov, V. Voevodsky, "$\infty$-groupoids and homotopy types", _Cah. Top. Geom. Diff. Cat._ **32**, 29--46, 1991.
 
-    M.M.Kapranov, V. Voevodsky, "2-categories and Zamolodchikov tetrahedra equations", preprint, 102pp, 1992.
+    M.M.Kapranov, V. Voevodsky, "$2$-categories and Zamolodchikov tetrahedra equations", preprint, 102pp, 1992.
 
     J.-L.Loday, "Spaces with finitely many non-trivial homotopy groups", _J. Pure Appl. Algebra_, **24**, 179--202, 1982.
 

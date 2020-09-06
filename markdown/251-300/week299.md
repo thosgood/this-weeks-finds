@@ -415,9 +415,9 @@ logic gates](http://en.wikipedia.org/wiki/Quantum_gate), like
 gates](http://en.wikipedia.org/wiki/Quantum_gate#Controlled_gates) and
 [Hadamard
 gates](http://en.wikipedia.org/wiki/Hadamard_transform#Quantum_computing_applications),
-using these pictures. And if you know 2-categories, you'll realize that
+using these pictures. And if you know $2$-categories, you'll realize that
 the *processes of rewriting diagrams* are actually 2-morphisms in a
-2-category! So higher category is sneaking in to the subject here. I bet
+$2$-category! So higher category is sneaking in to the subject here. I bet
 we'll see a lot more of it in years to come.
 
 There were many more interesting talks, but I'm running out of energy,

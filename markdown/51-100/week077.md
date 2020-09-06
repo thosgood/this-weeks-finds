@@ -124,7 +124,7 @@ The most useful notion of categories being "the same" turns out to be
 not equality, or isomorphism, but this more supple notion of
 "equivalence"!
 
-(As we shall see later, this is because $\mathsf{Cat}$ is a 2-category. Remember,
+(As we shall see later, this is because $\mathsf{Cat}$ is a $2$-category. Remember,
 an $n$-category is some sort of thing with objects, morphisms,
 2-morphisms, and so on up to $n$-morphisms. One of the of the main themes
 of $n$-category theory is that we may regard two things are "the same",

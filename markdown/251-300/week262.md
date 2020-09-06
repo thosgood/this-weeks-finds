@@ -450,7 +450,7 @@ Aaron Lauda, Categorified quantum \mathfrak{sl}(2) and equivariant cohomology of
 iterated flag varieties, available as
 [`arXiv:0803.3848`](http://arxiv.org/abs/0803.3848).
 
-He's got a *2-category* that decategorifies to give the quantized
+He's got a *$2$-category* that decategorifies to give the quantized
 universal enveloping algebra of \mathfrak{sl}(2)! And similarly for all the irreps
 of this algebra!
 

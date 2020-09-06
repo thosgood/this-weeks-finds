@@ -297,7 +297,7 @@ element that describes how a loop of string "changes phase" as you
 carry it around a loop-of-loops!
 
 So far I've been strenously avoiding the language of categories and
-2-categories, but if you're at all familiar with that language, you'll
+$2$-categories, but if you're at all familiar with that language, you'll
 have guessed that it's precisely what we need to make everything I'm
 saying precise.
 
@@ -323,12 +323,12 @@ This allows us to iterate what we've just done:
 
 Since G-Tor is a 2-group, it acts on itself by left translation. So, it
 becomes a "left G-category". Any left G-category isomorphic to this
-one is called a "G-2-torsor". There's a 2-category G-2-Tor whose
+one is called a "G-2-torsor". There's a $2$-category G-2-Tor whose
 objects are G-2-torsors, whose morphisms are functors compatible the
 action of G, and whose morphisms are natural transformations compatible
 with the action of G. Since all G-2-torsors are isomorphic, any the
-automorphism 2-group of any one is just G-Tor, this 2-category is
-equivalent to G-Tor (regarded as a 1-object 2-category).
+automorphism 2-group of any one is just G-Tor, this $2$-category is
+equivalent to G-Tor (regarded as a 1-object $2$-category).
 
 And so on! This infinite hierarchy only works when G is abelian; when G
 is nonabelian we need a different hierarchy, which uses "bitorsors",
@@ -475,7 +475,7 @@ available as
 21) David Yetter, Measurable categories, available as
 [math.CT/0309185](http://www.arXiv.org/abs/math.CT/0309185).
 
-22) Louis Crane and Marnie D. Sheppeard, 2-categorical Poincare
+22) Louis Crane and Marnie D. Sheppeard, $2$-categorical Poincare
 representations and state sum applications, available as
 [math.QA/0306440](http://www.arXiv.org/abs/math.QA/0306440).
 
@@ -503,7 +503,7 @@ The third one partially fulfills an old dream of Crane and Frenkel - a
 dream I vaguely hinted at way back in ["Week 50"](#week50). Their
 dream was to find a concept of "trialgebra" such that a trialgebra has
 a Hopf category of representations, which in turn can have a monoidal
-2-category of representations of its own. This is a kind of aggravated
+$2$-category of representations of its own. This is a kind of aggravated
 version of a pattern already familiar in algebra, where a Hopf algebra
 (or bialgebra) has a monoidal category of representations.
 

@@ -252,15 +252,15 @@ you down the columns of the "periodic table":
 
 |       | $n=0$ | $n=1$ | $n=2$ |
 | ----- | :--- | :--- | :--- |
-| $k=0$ | sets | categories | 2-categories |
+| $k=0$ | sets | categories | $2$-categories |
 | | | | |
-| $k=1$ | monoids | monoidal categories | monoidal 2-categories |
+| $k=1$ | monoids | monoidal categories | monoidal $2$-categories |
 | | | | |
-| $k=2$ | commutative monoids | braided monoidal categories | braided monoidal 2-categories |
+| $k=2$ | commutative monoids | braided monoidal categories | braided monoidal $2$-categories |
 | | | | |
-| $k=3$ | " " | symmetric monoidal categories | weakly involutory monoidal 2-categories |
+| $k=3$ | " " | symmetric monoidal categories | weakly involutory monoidal $2$-categories |
 | | | | |
-| $k=4$ | " " | " " | strongly involutory monoidal 2-categories |
+| $k=4$ | " " | " " | strongly involutory monoidal $2$-categories |
 | | | | |
 | $k=5$ | " " | " " | " " |
 
@@ -316,7 +316,7 @@ higher dimensions. However, a lot of this higher-dimensional stuff
 remains very mysterious. Here are two cool papers that make some
 progress in unlocking these mysteries:
 
-6) Marco Mackaay, "Finite groups, spherical 2-categories, and 4-manifold invariants", preprint available as [`math.QA/9903003`](https://arxiv.org/abs/math.QA/9903003).
+6) Marco Mackaay, "Finite groups, spherical $2$-categories, and 4-manifold invariants", preprint available as [`math.QA/9903003`](https://arxiv.org/abs/math.QA/9903003).
 
 7) Mikhail Khovanov, "A categorification of the Jones polynomial", preprint available as [`math.QA/9908171`](https://arxiv.org/abs/math.QA/9908171).
 

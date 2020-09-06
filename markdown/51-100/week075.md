@@ -3,14 +3,14 @@
 If you've been following my recent introduction to $n$-categories,
 you'll note that I haven't actually given the definition of
 $n$-categories! I've only defined categories, and *hinted* at the
-definition of 2-categories by giving an example, namely $\mathsf{Cat}$. This is the
-2-category whose objects are categories, whose morphisms are functors,
+definition of $2$-categories by giving an example, namely $\mathsf{Cat}$. This is the
+$2$-category whose objects are categories, whose morphisms are functors,
 and whose 2-morphisms are natural transformations.
 
 The definition of $n$-categories --- or maybe I should say the problem of
 defining $n$-categories --- is actually surprisingly subtle. Since I want to
 proceed at a gentle pace here, I think I should first get everyone used
-to the 2-category $\mathsf{Cat}$, then define 2-categories in general, then play
+to the $2$-category $\mathsf{Cat}$, then define $2$-categories in general, then play
 around with those a bit, and then move on to $n$-categories for higher $n$.
 
 So recall what the objects, morphisms and 2-morphisms in $\mathsf{Cat}$ are: they
@@ -213,7 +213,7 @@ simplicial complexes and the like, try:
 Now, in what sense is the functor $K\colon\mathsf{Gpd}\to\mathsf{Top}$ the "reverse" of the
 functor $\Pi_1\colon\mathsf{Top}\to\mathsf{Gpd}$? Is it just the "inverse" in the traditional
 sense? No! It's something more subtle. As we shall see, the fact that
-$\mathsf{Cat}$ is a 2-category means that a functor can have a more subtle and
+$\mathsf{Cat}$ is a $2$-category means that a functor can have a more subtle and
 interesting sorts of "reverse" than one might expect if one were used
 to the simple "inverse" of a function. This is something I alluded to
 in ["Week 74"](#week74): inverses become subtler as we march up the

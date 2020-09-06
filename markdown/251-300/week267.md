@@ -492,16 +492,16 @@ It's a "Lie groupoid", since there's a manifold of objects and a
 manifold of morphisms, and everything in sight is smooth.
 
 So, orbifolds can be thought of as Lie groupoids. This leads to the real
-point of Lerman's paper: orbifolds form a 2-category! This should be
-easy to believe, since there's a 2-category with
+point of Lerman's paper: orbifolds form a $2$-category! This should be
+easy to believe, since there's a $2$-category with
 
 -   groupoids as objects,
 -   functors as morphisms, and
 -   natural transformations as 2-morphisms.
 
 In ["Week 75"](#week75) and ["Week 80"](#week80) I explained
-the closely related 2-category with *categories* as objects; the same
-idea works for groupoids. So, to get a 2-category of *Lie* groupoids, we
+the closely related $2$-category with *categories* as objects; the same
+idea works for groupoids. So, to get a $2$-category of *Lie* groupoids, we
 just need to take this idea and make everything "smooth" in a suitable
 sense.
 
@@ -524,7 +524,7 @@ has many experts on categorical groups, also known as 2-groups. So it's
 worth noting that there are 2-groups lurking in the Alhambra.
 
 Any object in any category has a group of symmetries. Similarly, any
-object in any 2-category has a 2-group of symmetries. So, any orbifold
+object in any $2$-category has a 2-group of symmetries. So, any orbifold
 has a 2-group of symmetries. We should be able to get some interesting
 2-groups this way.
 
@@ -606,7 +606,7 @@ translating the language a bit, the basic concept behind this paper is
 the "fundamental 2-group" of (X,A,x). Here X is a topological space
 that contains a subspace A that contains a point x.
 
-Here's how it goes. A 2-group is a 2-category with one object:
+Here's how it goes. A 2-group is a $2$-category with one object:
 
                           x
 

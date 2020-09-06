@@ -231,7 +231,7 @@ A) axioms determining the source and target of a composite; and
 B) strict associativity, unit and interchange laws.
 
 I'll assume you know these axioms or can fake it. (If you read the
-definition of strict 2-category in ["Week 80"](#week80), perhaps
+definition of strict $2$-category in ["Week 80"](#week80), perhaps
 you can get an idea for what kinds of axioms I'm talking about.)
 
 Now, strict $\omega$-categories are great, but we need to weaken this notion.

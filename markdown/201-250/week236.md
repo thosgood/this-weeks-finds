@@ -953,7 +953,7 @@ of states instead of a set of states.
 Working out the detailed consequences takes us through Joyal's theory
 of "structure types" or "species" - see ["Week 202"](#week202)
 - and on to more general "stuff types". Some nice category and
-2-category theory is needed to make the ideas precise. For a careful
+$2$-category theory is needed to make the ideas precise. For a careful
 treatment, see this thesis by a student of Ross Street:
 
 25) Simon Byrne, On Groupoids and Stuff, honors thesis, Macquarie

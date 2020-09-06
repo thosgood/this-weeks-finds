@@ -387,7 +387,7 @@ though it makes everything to come vastly more ugly.
 Anyway: the point is that a Dirichlet series is like the "cardinality"
 of a stuff type. To show off, we say stuff types *categorify* Dirichlet
 series: they contain more information, and they're objects in a
-category (or something even better, like a 2-category) rather than
+category (or something even better, like a $2$-category) rather than
 elements of a set.
 
 Let's look at an example. When Z is the groupoid of finite semisimple

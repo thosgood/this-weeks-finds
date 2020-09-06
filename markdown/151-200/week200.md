@@ -707,8 +707,8 @@ few notches.
 What's a "doctrine"?
 
 Well, in ["Week 89"](#week89) I described a "monad" in an
-arbitrary 2-category. But most of the time when people talk about monads
-they mean monads in Cat, the 2-category of all categories. These are the
+arbitrary $2$-category. But most of the time when people talk about monads
+they mean monads in Cat, the $2$-category of all categories. These are the
 most important monads - but I've never really said what they're good
 for! I need to come clean and explain this now, since a doctrine is a
 categorified version of a monad.
@@ -837,7 +837,7 @@ odd to talk about "the category of all categories". Not because of
 Russell's paradox - though that's a problem too, forcing us to talk
 about the category of *small* categories - but because what's really
 important is the 2-CATEGORY of all categories. It's best to think of
-Cat as a 2-category. But this suggests that we should work with a
+Cat as a $2$-category. But this suggests that we should work with a
 categorified, *weakened* version of monad when defining doctrines.
 
 For this, we need to categorify and weaken the concept of monad. People
@@ -852,22 +852,22 @@ ridiculous. I'd rather talk about "weak 3-monads" than
 > water-soluble pigment; some pathogenic for plants and animals.
 
 Yuck! So, let's be very general and sketch how to define a weak 2-monad
-in any weak 3-category (aka tricategory).
+in any weak $3$-category (aka tricategory).
 
-Given a weak 3-category C and an object c of C, a "weak 2-monad on c"
+Given a weak $3$-category C and an object c of C, a "weak 2-monad on c"
 is just a weak monoidal category object in \operatorname{Hom}(c,c).
 
-Huh? Well, \operatorname{Hom}(c,c) is a weak monoidal 2-category, which is precisely
+Huh? Well, \operatorname{Hom}(c,c) is a weak monoidal $2$-category, which is precisely
 the right environment in which to define a "weak monoidal category
 object", and that's what we're doing here. Start with the usual
 definition of a weak monoidal category, which is a gadget living in Cat.
-Cat is an example of a weak monoidal 2-category, and we can write down
-the same definition in *any* weak monoidal 2-category X, getting the
+Cat is an example of a weak monoidal $2$-category, and we can write down
+the same definition in *any* weak monoidal $2$-category X, getting the
 concept of "weak monoidal category object in X". Then, take X =
 \operatorname{Hom}(c,c).
 
 (Of course I'm lying slightly here: Cat is more strict than your
-average weak monoidal 2-category, so it may not be immediately obvious
+average weak monoidal $2$-category, so it may not be immediately obvious
 how to generalize the concept of "weak monoidal category" as I'm
 suggesting. Still, I claim it's not hard if you know about this stuff.)
 
@@ -877,7 +877,7 @@ what we really should call a "doctrine".
 
 Unsurprisingly, people often consider stricter versions of the concept
 of "2-monad" and "doctrine". For example, most people define their
-"pseudomonads" not in a weak 3-category but just a semistrict one,
+"pseudomonads" not in a weak $3$-category but just a semistrict one,
 also known as a "Gray-category" - since 2Cat is one of these. For more
 details, try these papers:
 
@@ -895,7 +895,7 @@ Available at `http://www.tac.mta.ca/tac/volumes/1997/n2/3-02abs.html`
 (2000), 179-202. Also available at
 `http://www.maths.usyd.edu.au:8000/u/stevel/papers/psm.ps.gz`
 
-Anyway, suppose T is a doctrine. Then we get a 2-category of T-algebras
+Anyway, suppose T is a doctrine. Then we get a $2$-category of T-algebras
 Cat^T^, whose objects we should think of as "categories equipped with
 extra structure of type T". The classic example would be "categories
 with finite products". Just as Lawvere thought of these as algebraic

@@ -228,7 +228,7 @@ how to realize the element of $H^3(M,\mathbb{Z})$ starting from a connection on 
 projective Hilbert space bundle. But in Chapter 5 he takes a more
 abstract approach that I want to sketch very vaguely, since I don't
 understand it very well yet. This approach is exciting because it
-connects to recent work on 2-categories (and higher $n$-categories), which
+connects to recent work on $2$-categories (and higher $n$-categories), which
 I am convinced will play a role in unifying the wild profusion of
 mathematics we are seeing in this tail end of the twentieth century.
 

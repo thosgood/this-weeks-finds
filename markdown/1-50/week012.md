@@ -120,15 +120,15 @@ Kuchar's former point, that observables in quantum gravity need not be
 perennials, his arguments seem rather weak. In any event, read and
 enjoy, but realize that the subject is a tricky one!
 
-2) "2-categories and 2-knots", by John Fischer, preprint, last revised
+2) "$2$-categories and 2-knots", by John Fischer, preprint, last revised
 Feb. 6 1993. (Fischer is at `fischer-john@math.yale.edu`)
 
-This is the easiest way to learn about the 2-category of 2-knots. Recall
+This is the easiest way to learn about the $2$-category of 2-knots. Recall
 (from ["Week 1"](#week1) and ["Week 4"](#week4)) that a 2-knot
 is a surface embedded in $\mathbb{R}^4$, which may visualized as a "movie" of
 knots evolving in time. Fischer shows that the algebraic structure of
-2-knots is captured by a braided monoidal 2-category, and he describes
-this 2-category.
+2-knots is captured by a braided monoidal $2$-category, and he describes
+this $2$-category.
 
 3) "A new discretization of classical and quantum general relativity", by
 Mark Miller and Lee Smolin, 22 pages in LaTeX form, available as

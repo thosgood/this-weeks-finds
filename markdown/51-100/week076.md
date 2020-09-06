@@ -72,8 +72,8 @@ categorical ladder (here from elements of a set to objects of a
 category) for properties to be reinterpreted as structures, or sometimes
 vice-versa.
 
-What about in a 2-category? Here the notion of equality sprouts still
-further nuances. Since I haven't defined 2-categories in general, let
+What about in a $2$-category? Here the notion of equality sprouts still
+further nuances. Since I haven't defined $2$-categories in general, let
 me work with an example, Cat. This has categories as its objects,
 functors as its morphisms, and natural transformations as its
 2-morphisms.
@@ -93,7 +93,7 @@ Abstractly, I hope you can see the pattern here: just as we can
 "relax" the notion of equality to the notion of isomorphism when we
 pass from sets to categories, we can relax the condition that $FG$ and $GF$
 equal identity functors to the condition that they be isomorphic to
-identity functors when we pass from categories to the 2-category $\mathsf{Cat}$. We
+identity functors when we pass from categories to the $2$-category $\mathsf{Cat}$. We
 need to have the natural transformations to be able to speak of functors
 being isomorphic, just as we needed functions to be able to speak of
 sets being isomorphic. In fact, with each extra level in the theory of

@@ -223,13 +223,13 @@ these two equations are just the same equations used to define adjoint
 functors in category theory! What's going on? Well, dual vector spaces
 are analogous to adjoint functors, clearly. But more deeply, what we
 have is an analogy between duals in any category with tensor products ---
-or "monoidal category" --- and adjoints in any 2-category.
+or "monoidal category" --- and adjoints in any $2$-category.
 
 What's a monoidal category, exactly? Roughly it's a category with some
 sort of "tensor product" and "unit object". But we can precisely
 define the so-called "strict" monoidal categories as follows: they are
-simply 2-categories with one object. (Turn to ["Week 80"](#week80)
-for a definition of 2-categories.) A 2-category has objects, morphisms,
+simply $2$-categories with one object. (Turn to ["Week 80"](#week80)
+for a definition of $2$-categories.) A $2$-category has objects, morphisms,
 and 2-morphisms, but if there is only one object, we can do the
 following relabelling trick:
 $$
@@ -245,18 +245,18 @@ and call the 2-morphisms "morphisms". But since all the new
 itself, they can all be composed, or "tensored". That's why we get a
 category with "tensor product", and similarly, a "unit object".
 
-So, just as a category with one object is just a monoid, a 2-category
+So, just as a category with one object is just a monoid, a $2$-category
 with one object is a monoidal category! This is one instance of a trick
 that I sketched many more cases of in ["Week 74"](#week74).
 
 Now, in ["Week 79"](#week79) I defined left and right adjoints of
 functors between categories. Here the only thing I really needed about
-category theory was that $\mathsf{Cat}$ is a 2-category with categories as its
+category theory was that $\mathsf{Cat}$ is a $2$-category with categories as its
 objects, functors as its morphisms, and natural transformations as its
 2-morphisms. So we can define left and right adjoints of morphisms in
-any 2-category by analogy as follows:
+any $2$-category by analogy as follows:
 
-Suppose $a$ and $b$ are objects in a 2-category. Then we say that the
+Suppose $a$ and $b$ are objects in a $2$-category. Then we say that the
 morphism
 $$L\colon a\to b$$
 is a "left adjoint" of the morphism
@@ -347,7 +347,7 @@ $$
   \end{tikzpicture}
 $$
 
-Alternatively, we can state these equations using the 2-categorical
+Alternatively, we can state these equations using the $2$-categorical
 notation described in ["Week 80"](#week80), by saying that the
 following vertical composites of 2-morphisms are identity morphisms:
 $$L = 1_aL\xRightarrow{i\cdot1_L}LRL\xRightarrow{1_L\cdot e}L1_a = L$$
@@ -357,13 +357,13 @@ where $\cdot$ denotes the horizontal composite. If you look at these, and
 compare them to the graphical notation above, you'll see they are
 really saying the same thing.
 
-The punchline is, when our 2-category has one object, we can think of it
+The punchline is, when our $2$-category has one object, we can think of it
 as a monoidal category, and then these equations are the definition of
 "duals" --- one example being our earlier definition of dual vector
 spaces in the monoidal category Vect of vector spaces!
 
 So adjoint functors and dual vector spaces are both instances of the
-general notion of adjoint 1-morphisms in a 2-category. Adjointness is a
+general notion of adjoint 1-morphisms in a $2$-category. Adjointness is a
 very basic concept.
 
 I hope all that made some sense.

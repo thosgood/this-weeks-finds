@@ -428,7 +428,7 @@ algebras of "local observables" --- observables that can be measured in
 a bounded open set.
 
 Okay, so much for the crash course on von Neumann algebras! Next time
-I'll hook this up to Mueger's work on 2-categories.
+I'll hook this up to Mueger's work on $2$-categories.
 
 In the meantime, here are some references on von Neumann algebras in
 case you want to dig deeper. For the math, try these:

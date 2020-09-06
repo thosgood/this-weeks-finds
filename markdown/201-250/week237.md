@@ -198,7 +198,7 @@ is also a picture of a morphism in a category, while this:
         ----------->-----
                    g
 
-is a picture of a 2-morphism in a 2-category and so on. We're talking
+is a picture of a 2-morphism in a $2$-category and so on. We're talking
 about processes between processes between processes... so we're
 climbing up the ladder of $n$-categories.
 

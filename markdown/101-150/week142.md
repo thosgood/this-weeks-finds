@@ -442,7 +442,7 @@ detailed, and probably only of interest to $n$-category addicts....
 > 1-cells, which we call 1-transfors (thereby borrowing, and altering
 > the meaning of, a term used by Sjoerd Crans \[Cr\]) are what stand for
 > "morphisms", or "functors", of multitopic $\omega$-categories. For
-> instance, in the $2$-dimensional case, multitopic 2-categories
+> instance, in the $2$-dimensional case, multitopic $2$-categories
 > correspond to ordinary bicategories by a certain process of
 > "cleavage", and the 1-transfors correspond to homomorphisms of
 > bicategories \[Be\]. There are $n$-dimensional transfors for each $n$ in $\mathbb{N}$.

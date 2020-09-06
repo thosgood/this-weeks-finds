@@ -99,14 +99,14 @@ will tell you all about monads, monoids, monoid objects, and monoidal
 categories.
 
 You may or may not remember, but in ["Week 80"](#week80) I
-explained the idea of a "2-category" pretty precisely. This is a
+explained the idea of a "$2$-category" pretty precisely. This is a
 gadget with a bunch of objects, a bunch of morphisms going from one
 object to another, and a bunch of 2-morphisms going from one morphism to
 another. We write $f\colon x\to y$ to denote a morphism $f$ from the object $x$ to
 the object $y$, and we write $F\colon f\Rightarrow g$ to denote a 2-morphism $F$ from the
 morphism $f$ to the morphism $g$.
 
-Just as in a category, in a 2-category we can compose a morphism $f\colon x\to y$
+Just as in a category, in a $2$-category we can compose a morphism $f\colon x\to y$
 with a morphism $g\colon y\to z$ to get a morphism $fg\colon x\to z$. (Note that I
 write $fg$ instead of $gf$; I'm going to use this ordering most of the
 time, though I may occaisionally change my mind just to confuse you
@@ -123,17 +123,17 @@ compose" $F$ and $F'$ to get $F\cdot F'\colon ff'\Rightarrow gg'$. It looks like
 $$\includegraphics[scale=0.3]{../images/FF'nat.pdf}$$
 There are some axioms all this stuff has to satisfy, which I described
 in ["Week 80"](#week80), but I won't repeat them here. The main
-thing to keep in mind is that a 2-category is like an abstract
-2-dimensional world... and the axioms for a 2-category are algebraic
+thing to keep in mind is that a $2$-category is like an abstract
+2-dimensional world... and the axioms for a $2$-category are algebraic
 distillations of the rules for putting things together in 2 dimensions.
 In particular, you can put the 2-morphisms together side by side
 (horizontally) or one on top of the other (vertically), if they fit.
 
-Later I'll say more about what 2-categories have to do with
+Later I'll say more about what $2$-categories have to do with
 2-dimensional physics, but right now I want to do something more
 fundamental. I want to show how all sorts of concepts of
 "multiplication" or "combination" fit nicely into the framework of
-2-categories. The basic idea is really simple: we often think of
+$2$-categories. The basic idea is really simple: we often think of
 multiplication as some sort of function
 $$M\colon s\times s\to s$$
 where we take two elements $a$ and $b$ from some set $s$, and "multiply"
@@ -173,7 +173,7 @@ to make it clear that $s$ is a morphism from $x$ to itself. Here $x$, being
 This hocus-pocus may seem mystifying, but if you bear with me and work
 at it you'll see what I'm up to. I'm saying that essence of
 "multiplication" can be described very generally in a situation where
-you have a 2-category with an object $x$ in it, a morphism $s\colon x\to x$, and a
+you have a $2$-category with an object $x$ in it, a morphism $s\colon x\to x$, and a
 2-morphism $M\colon ss\Rightarrow s$. Often we are interested in situations like this
 where the "multiplication" $M$ is associative, meaning that the
 composite
@@ -181,21 +181,21 @@ $$sss\xRightarrow{M\cdot1_s}ss\xRightarrow{M}s$$
 equals
 $$sss\xRightarrow{1_s\cdot M}ss\xRightarrow{M}s$$
 (Here $1_s\colon s\Rightarrow s$ is the identity 2-morphism from $s$ to itself... the
-axioms for a 2-category say that this exists.) Also, we're often
+axioms for a $2$-category say that this exists.) Also, we're often
 interested in situations where there is a "multiplicative unit", that
 is, a 2-morphism $I\colon 1_x\to s$ for which
 $$s = 1_xs\xRightarrow{I\cdot1_s}ss\xRightarrow{M}s$$
 equals $1_s$, and so does
 $$s = s1_x\xRightarrow{1_s\cdot I}ss\xRightarrow{M}s$$
-If we have a 2-category with stuff in it satisfying these rules, we say
-we have a "monad" in that 2-category.
+If we have a $2$-category with stuff in it satisfying these rules, we say
+we have a "monad" in that $2$-category.
 
 What is an example of a monad? Well, consider our original example where
 s is a set and M is a function. We can think of this as living in a
-2-category as follows. Our 2-category will have only one object, $x$. The
-morphisms of this 2-category are sets, and composing morphisms
+$2$-category as follows. Our $2$-category will have only one object, $x$. The
+morphisms of this $2$-category are sets, and composing morphisms
 corresponds to taking the Cartesian product of sets. The 2-morphisms of
-this 2-category are functions between sets.
+this $2$-category are functions between sets.
 
 What does a monad amount to in this case? Well, work it out! The
 multiplicative unit $1_x$ must corresponds to the one-element set; $s$ is
@@ -212,10 +212,10 @@ multiplication. That's what folks call a "monoid" --- see
 sort of monad!
 
 The point, however, is that there are lots of other kinds of monads, and
-this 2-categorical nonsense unifies the study of all of them. Consider,
+this $2$-categorical nonsense unifies the study of all of them. Consider,
 for example, that trick we played of turning the category $\mathsf{Set}$ into a
-2-category with just one object $x$. It's a very versatile trick. In
-general, a 2-category with just one object is called a "monoidal
+$2$-category with just one object $x$. It's a very versatile trick. In
+general, a $2$-category with just one object is called a "monoidal
 category", because you can do this relabelling trick:
 $$
   \begin{aligned}
@@ -224,7 +224,7 @@ $$
   \\\text{objects} &\mapsto 
   \end{aligned}
 $$
-You take the 2-category with just one object, forget the object, call
+You take the $2$-category with just one object, forget the object, call
 the morphisms "objects" and the 2-morphisms "morphisms", and you've
 got a category! But one where you can compose or "multiply" or
 "tensor" objects, because they were secretly morphisms from $x$ to
@@ -239,7 +239,7 @@ multiply spaces by taking their Cartesian product with the usual product
 topology. $\mathsf{Mon}$ (the category of monoids) becomes a monoidal category if
 we multiply groups by taking their direct product. And so on....
 
-Because a monoidal category is a 2-category with one object, we can talk
+Because a monoidal category is a $2$-category with one object, we can talk
 about monads in any monoidal category. These are usually called "monoid
 objects", because they are like a monoid living in the category in
 question. For example, a monoid object in $\mathsf{Vect}$ is an associative
@@ -251,7 +251,7 @@ something called the "Eckmann-Hilton principle". Some more
 sophisticated ramifications of this principle are discussed in the
 following paper:
 
-8) John Baez and Martin Neuchl, "Higher-dimensional algebra I: braided monoidal 2-categories", _Adv. Math._ **121** (1996), 196--244. Also available as [`arXiv:q-alg/9511013`](http://arxiv.org/abs/q-alg/9511013).
+8) John Baez and Martin Neuchl, "Higher-dimensional algebra I: braided monoidal $2$-categories", _Adv. Math._ **121** (1996), 196--244. Also available as [`arXiv:q-alg/9511013`](http://arxiv.org/abs/q-alg/9511013).
 
 We can get into some curious self-referential loops, too: the category
 having (small) categories as objects and functors as morphisms becomes a
@@ -267,8 +267,8 @@ which we give a general definition of $n$-categories, and explain this
 "microcosm principle".
 
 Anyway, some of the most interesting monads live not in monoidal
-categories but 2-categories with lots of objects. The primordial
-2-category is Cat, which has (small) categories as objects, functors as
+categories but $2$-categories with lots of objects. The primordial
+$2$-category is Cat, which has (small) categories as objects, functors as
 morphisms and *natural transformations* as 2-morphisms. (A minute ago I
 gave a way to think of $\mathsf{Cat}$ as a monoidal category. That was a bit
 different than this!) Monads in $\mathsf{Cat}$ are the first monads anyone called

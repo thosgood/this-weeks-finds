@@ -112,24 +112,24 @@ of it:
 
                   n = 0           n = 1             n = 2
 
-    k = 0         sets          categories         2-categories
+    k = 0         sets          categories         $2$-categories
          
 
     k = 1        monoids         monoidal           monoidal
-                                categories        2-categories
+                                categories        $2$-categories
 
 
     k = 2       commutative      braided            braided
                  monoids         monoidal           monoidal
-                                categories        2-categories 
+                                categories        $2$-categories 
 
     k = 3         " "           symmetric           sylleptic
                                  monoidal           monoidal
-                                categories         2-categories
+                                categories         $2$-categories
 
     k = 4         " "             " "               symmetric
                                                     monoidal
-                                                  2-categories
+                                                  $2$-categories
 
     k = 5         " "             " "                "  "
 
@@ -671,13 +671,13 @@ was "something like" a functor? It's because spans of groupoids
 don't want to be a category!
 
 Already spans of sets don't naturally form a category. They form a weak
-2-category! Since pullbacks are only defined up to canonical
+$2$-category! Since pullbacks are only defined up to canonical
 isomorphism, composition of spans of sets is only associative up to
 isomomorphism... but luckily, this "associator" isomorphism satisfies
 the "pentagon identity" and all that jazz, so we get a weak
-2-category, or bicategory.
+$2$-category, or bicategory.
 
-Similarly, spans of groupoids form a weak 3-category. Weak pullbacks are
+Similarly, spans of groupoids form a weak $3$-category. Weak pullbacks are
 only defined up to canonical equivalence, so composition of spans of
 groupoids are associative up to equivalence... but luckily this
 "associator" equivalence satisfies the pentagon identity up to an

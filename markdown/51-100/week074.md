@@ -41,7 +41,7 @@ Then we started messing around with categories, and we noted that not
 only are there "functors" between categories, there are things that
 ply their trade between functors, called "natural transformations". I
 then said that categories, functors, and natural transformations form a
-2-category. I didn't really say what a 2-category is, except to say
+$2$-category. I didn't really say what a $2$-category is, except to say
 that it has objects, morphisms between objects, and 2-morphisms between
 morphisms. Finally, I said that this pattern continues: $n\mathsf{Cat}$ forms an
 $(n+1)$-category.
@@ -56,13 +56,13 @@ meant by saying that $\mathsf{Set}$ was "the primordial category" is that, if we
 start from $\mathsf{Set}$ and various categories of structures built using sets ---
 groups, rings, vector spaces, topological spaces, manifolds, and so on ---
 we can then abstract the notion of "category", and thus obtain $\mathsf{Cat}$. In
-the same sense, $\mathsf{Cat}$ is the primordial 2-category, and so on.
+the same sense, $\mathsf{Cat}$ is the primordial $2$-category, and so on.
 
 I mention this because it is part of a very important broad pattern in
 higher-dimensional algebra. For example, we will see that the complex
 numbers are the primordial Hilbert space, and that the category of
 Hilbert spaces is the primordial "2-Hilbert space", and that the
-2-category of 2-Hilbert spaces is the primordial "3-Hilbert space",
+$2$-category of 2-Hilbert spaces is the primordial "3-Hilbert space",
 and so on. This leads to a quantum-theoretic analog of the hierarchy of
 $n$-categories, which plays an important role in mathematical physics. But
 I'm getting ahead of myself!
@@ -155,7 +155,7 @@ Physicists wanting to learn more about groupoids might try:
 So: in contrast to a set, which consists of a static collection of
 "things", a category consists not only of objects or "things" but
 also morphisms which can viewed as "processes" transforming one thing
-into another. Similarly, in a 2-category, the 2-morphisms can be
+into another. Similarly, in a $2$-category, the 2-morphisms can be
 regarded as "processes between processes", and so on. The eventual
 goal of basing mathematics upon $\omega$-categories is thus to allow us the
 freedom to think of any process as the sort of thing higher-level
@@ -186,15 +186,15 @@ monoidal $n$-categories" for certain low values of $n$ and $k$:
 
 |       | $n=0$ | $n=1$ | $n=2$ |
 | ----- | :--- | :--- | :--- |
-| $k=0$ | sets | categories | 2-categories |
+| $k=0$ | sets | categories | $2$-categories |
 | | | | |
-| $k=1$ | monoids | monoidal categories | monoidal 2-categories |
+| $k=1$ | monoids | monoidal categories | monoidal $2$-categories |
 | | | | |
-| $k=2$ | commutative monoids | braided monoidal categories | braided monoidal 2-categories |
+| $k=2$ | commutative monoids | braided monoidal categories | braided monoidal $2$-categories |
 | | | | |
-| $k=3$ | " " | symmetric monoidal categories | weakly involutory monoidal 2-categories |
+| $k=3$ | " " | symmetric monoidal categories | weakly involutory monoidal $2$-categories |
 | | | | |
-| $k=4$ | " " | " " | strongly involutory monoidal 2-categories |
+| $k=4$ | " " | " " | strongly involutory monoidal $2$-categories |
 | | | | |
 | $k=5$ | " " | " " | " " |
 

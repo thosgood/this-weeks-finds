@@ -291,14 +291,14 @@ Notes available at `http://www.ima.umn.edu/categories/#thur2`
 
 As a younger exponent of the Australian tradition, it was then nicely
 appropriate for Steve Lack to speak about ways of building a model
-category of 2-categories:
+category of $2$-categories:
 
 26) Steve Lack, Higher model categories. Notes available at
 `http://www.ima.umn.edu/categories/#thur2`
 
 In the afternoon we had a blast of computer science. First John Power
 gave a hilarious talk phrased in terms of how one should convince
-computer theorists to embrace categories, then 2-categories, and then
+computer theorists to embrace categories, then $2$-categories, and then
 maybe higher categories:
 
 27) John Power, Why tricategories? Notes available at
@@ -364,25 +364,25 @@ fit together when I learned they were part of a marvelous thing: a weak
 Here's how it goes. You don't need to know much about higher
 categories for this to make some sense... at least, I hope not.
 
-Starting with a commutative ring R, we can form a weak 2-category Alg(R)
+Starting with a commutative ring R, we can form a weak $2$-category Alg(R)
 where:
 
 -   an object A is an associative algebra over R,
 -   a 1-morphism M\colon  A \to  B is an (A,B)-bimodule,
 -   a 2-morphism f\colon  M \to  N is a homomorphism between (A,B)-bimodules.
 
-This has all the structure you need to get a 2-category. In particular,
+This has all the structure you need to get a $2$-category. In particular,
 we can "compose" an (A,B)-bimodule and a (B,C)-bimodule by tensoring
 them over B, getting an (A,C) bimodule. But since tensor products are
-only associative up to isomorphism, we only get a *weak* 2-category, not
+only associative up to isomorphism, we only get a *weak* $2$-category, not
 a strict one.
 
-This weak 2-category has a tensor product, since we can tensor two
+This weak $2$-category has a tensor product, since we can tensor two
 associative algebras over R and get another one. All the stuff listed
 above gets along with this process! When an $n$-category has a
 well-behaved tensor product we call it "monoidal", so Alg(R) is a weak
-monoidal 2-category. But using a standard trick we can reinterpret this
-as a weak 3-category with one object, as follows:
+monoidal $2$-category. But using a standard trick we can reinterpret this
+as a weak $3$-category with one object, as follows:
 
 -   there's only one object, R
 -   a 1-morphism A\colon  R \to  R is an associative algebra over R
@@ -399,7 +399,7 @@ it's invertible... up to equivalence! This definition may sound
 circular, but really just recursive. To start it off we just need to add
 that an $n$-morphism is an equivalence iff it's invertible.
 
-What does equivalence amount to in the 3-category Alg(R)? It's easiest
+What does equivalence amount to in the $3$-category Alg(R)? It's easiest
 to figure this out from the top down:
 
 -   A 3-morphism f\colon  M \to  N is an equivalence iff it's invertible, so
@@ -456,7 +456,7 @@ Clifford algebras, and things like that. Someday I want to explain how
 it's connected to Bott periodicity! Oh, there's so much I want to
 explain....
 
-But right now I want to take our 3-category Alg(R), massage it a bit,
+But right now I want to take our $3$-category Alg(R), massage it a bit,
 and turn it into a topological space! Then I'll look at the homotopy
 groups of this space and see what they have to say about our ring R.
 

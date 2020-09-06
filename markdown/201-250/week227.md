@@ -452,7 +452,7 @@ This sort of idea, including this "tree" business, is very familiar
 from homotopy theory, where we need a similar equivalence relation if we
 want composition of paths to be associative. But in homotopy theory,
 people have learned that it's often better NOT to impose an equivalence
-relation on paths! Instead, it's better to form a *weak 2-category* of
+relation on paths! Instead, it's better to form a *weak $2$-category* of
 paths, where there's a 2-morphism going from this sort of composite:
 
     \  /  /
@@ -490,7 +490,7 @@ to strive toward.
 
 So far, it seems Seely has gone the furthest in this direction. In his
 thesis, way back in 1977, he studied what one might call "weak
-cartesian closed 2-categories" arising from proof theory. You can read
+cartesian closed $2$-categories" arising from proof theory. You can read
 an account of this work here:
 
 17) R.A.G. Seely, Weak adjointness in proof theory, in Proc. Durham
@@ -498,7 +498,7 @@ Conf. on Applications of Sheaves, Springer Lecture Notes in Mathematics
 753, Springer, Berlin, 1979, pp. 697-701. Also available at
 `http://www.math.mcgill.ca/rags/WkAdj/adj.pdf`
 
-R.A.G. Seely, Modeling computations: a 2-categorical framework, in Proc.
+R.A.G. Seely, Modeling computations: a $2$-categorical framework, in Proc.
 Symposium on Logic in Computer Science 1987, Computer Society of the
 IEEE, pp. 65-71. Also available at
 `http://www.math.mcgill.ca/rags/WkAdj/LICS.pdf`

@@ -37,7 +37,7 @@ as the use of "operads" (see ["Week 42"](#week42)) to study
 conformal field theory (which shows up naturally in string theory).
 Kapranov has also done a lot of work with operads and conformal field
 theory, and many other things, but I first learned about him through his
-paper with Voevodsky on "braided monoidal 2-categories" (see
+paper with Voevodsky on "braided monoidal $2$-categories" (see
 ["Week 4"](#week4)). This got me very excited since it turned me on
 to many of the main themes of $n$-category theory.
 
@@ -84,7 +84,7 @@ appear in _Adv. Math._, preprint available at `http://www.math.usf.edu/~saito/ho
 
 My student Laurel Langford has translated their work into $n$-category
 theory and shown that "unframed unoriented 2-tangles form the free
-braided monoidal 2-category on one unframed self-dual object":
+braided monoidal $2$-category on one unframed self-dual object":
 
 9) John Baez and Laurel Langford, "2-Tangles", preprint available as [`q-alg/9703033`](https://arxiv.org/abs/q-alg/9703033) and in Postscript form at `http://math.ucr.edu/home/baez/2tang.ps`
 

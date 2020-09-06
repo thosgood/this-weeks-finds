@@ -60,25 +60,25 @@ An "$n$-category" is a kind of algebraic structure that has "objects,"
 "morphisms" between objects, "2-morphisms" between morphisms, and so
 on up to "$n$-morphisms." However, the *correct* definition of an
 $n$-category for the purposes of physics is still unclear! I gave a rough
-explanation of the importance of 2-categories in physics in
+explanation of the importance of $2$-categories in physics in
 ["Week 4"](#week4), where I discussed Kapranov and Voevodsky's nice
-definition of braided tensor 2-categories. However, it seems likely that
+definition of braided tensor $2$-categories. However, it seems likely that
 we will need to understand the situation for larger n as well. This
 paper makes a big step in this direction, by defining "tricategories"
-(what I might call "weak 2-categories") and proving a
+(what I might call "weak $2$-categories") and proving a
 "strictification" or "coherence" result analogous to the result that
 every braided tensor category is equivalent to a "strict" one. The
 result is, however, considerably more subtle, as it involves a special
-way of defining the tensor product of 2-categories due to Gray:
+way of defining the tensor product of $2$-categories due to Gray:
 
-3) _Formal Category Theory: Adjointness for 2-categories_, by John W. Gray, Lecture Notes in Mathematics **391**, Springer-Verlag, New York, 1974.
+3) _Formal Category Theory: Adjointness for $2$-categories_, by John W. Gray, Lecture Notes in Mathematics **391**, Springer-Verlag, New York, 1974.
 
-    "Coherence for the tensor product of 2-categories, and braid groups", in
+    "Coherence for the tensor product of $2$-categories, and braid groups", in
     _Algebras, Topology, and Category Theory_, eds. A. Heller and M. Tierney,
     Academic Press, New York, 1976, pp. 63--76.
 
 Briefly speaking, Gordon-Power-Street use a category they call "Gray,"
-the category of all 2-categories, made into a symmetric monoidal closed
+the category of all $2$-categories, made into a symmetric monoidal closed
 category using a modified version of Gray's tensor product. Then they
 show that every tricategory (as defined by them) is "triequivalent" to
 a category enriched over Gray.
@@ -88,7 +88,7 @@ available in LaTeX form as [`hep-th/9312037`](https://arxiv.org/abs/hep-th/93120
 
 Maillet shows how to obtain solutions of the tetrahedron equations from
 solutions of pentagon equations; all these geometrical equations are
-part of the theory of 2-categories, and this is yet another example of a
+part of the theory of $2$-categories, and this is yet another example of a
 "boosting" construction as alluded to above.
 
 5) "Homologically twisted invariants related to (2+1)- and

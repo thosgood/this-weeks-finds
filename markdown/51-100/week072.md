@@ -200,7 +200,7 @@ of (nice) representations of a quantum group. He describes how
 Lyubashenko's invariant specializes to the Reshetikhin-Turaev invariant
 for semisimple categories and to the Hennings-Kauffman-Radford invariant
 for Tannakian categories. People interested in extended TQFTs and
-2-categories will find his work especially interesting, because he works
+$2$-categories will find his work especially interesting, because he works
 with these invariants using these techniques. James Dolan and I have
 argued that it's only this way that one will really understand these
 TQFTs (see ["Week 49"](#week49)).

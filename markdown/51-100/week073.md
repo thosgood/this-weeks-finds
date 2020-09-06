@@ -159,7 +159,7 @@ speak of the set of all sets, it's bad to speak of the category of all
 categories. This is true, not only because Russell's paradox tends to
 ruin attempts at a consistent theory of the "thing of all things", but
 because, just as what really counts is the *category* of all sets, what
-really counts is the *2-category* of all categories.
+really counts is the *$2$-category* of all categories.
 
 To understand this, note that there is a very sensible notion of a
 morphism between categories. It's called a "functor", and a functor
@@ -214,19 +214,19 @@ category of all sets is "one-dimensional": it has both objects or
 "dots" and morphisms or "arrows between dots". In general,
 categories are "one-dimensional" in this sense. But this in turn makes
 the collection of all categories into a "two-dimensional" structure, a
-2-category having objects, morphisms between objects, and 2-morphisms
+$2$-category having objects, morphisms between objects, and 2-morphisms
 between morphisms.
 
 This process never stops. The collection of all $n$-categories is an
 $(n+1)$-category, a thing with objects, morphisms, 2-morphisms, and so on
 all the way up to $n$-morphisms. To study sets carefully we need
-categories, to study categories well we need 2-categories, to study
-2-categories well we need 3-categories, and so on... so "higher-
+categories, to study categories well we need $2$-categories, to study
+$2$-categories well we need $3$-categories, and so on... so "higher-
 dimensional algebra", as this subject is called, is automatically
 generated in a recursive process starting with a careful study of set
 theory.
 
-If you want to show off, you can call the 2-category of all categories
+If you want to show off, you can call the $2$-category of all categories
 $\mathsf{Cat}$, and more generally, you can call the $(n+1)$-category of all
 $n$-categories $n\mathsf{Cat}$. $n\mathsf{Cat}$ is the primordial example of an $(n+1)$-category!
 
@@ -240,7 +240,7 @@ me as a mathematical physicist. Namely, the various dimensions of
 category turn out to correspond in a very beautiful --- but still
 incompletely understood --- way to the various dimensions of spacetime. In
 other words, the study of physics in imaginary $2$-dimensional spacetimes
-uses lots of 2-categories, the study of physics in a 3d spacetimes uses
+uses lots of $2$-categories, the study of physics in a 3d spacetimes uses
 3-categories, the study of physics in 4d spacetimes appears to use
 4-categories, and so on. It's very surprising at first that something
 so simple and abstract as the process of starting with sets and

@@ -551,7 +551,7 @@ you:
 
 > In this paper we define 2-vector bundles as suitable bundles of
 > 2-vector spaces over a base space, and compare the resulting
-> 2-K-theory with the algebraic K-theory spectrum K(V) of the 2-category
+> 2-K-theory with the algebraic K-theory spectrum K(V) of the $2$-category
 > of 2-vector spaces, as well as the algebraic K-theory spectrum K(ku)
 > of the connective topological K-theory spectrum ku. We explain how
 > K(ku) detects v_2-periodic phenomena in stable homotopy theory, and

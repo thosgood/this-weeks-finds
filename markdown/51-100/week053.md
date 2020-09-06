@@ -263,9 +263,9 @@ equational laws, we have a data type consisting of a bunch of
 categories, functors between them, and natural transformations between
 THEM satisfying equational laws. What this means is that if we try to
 copy the above stuff, instead of a "theory" we will have a
-"2-theory" $\mathsf{Th}$, which is some sort of 2-category, and then a model of
+"2-theory" $\mathsf{Th}$, which is some sort of $2$-category, and then a model of
 this would be a 2-functor from $\mathsf{Th}$ to $\mathsf{Cat}$. We want to wind up getting a
-2-category $\mathsf{Mod}(\mathsf{Th})$ of models of $\mathsf{Th}$.
+$2$-category $\mathsf{Mod}(\mathsf{Th})$ of models of $\mathsf{Th}$.
 
 But actually carrying this out is a bit tricky, and much of Power's
 paper goes into the details of various proposed schemes. Of course there

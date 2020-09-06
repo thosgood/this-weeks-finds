@@ -136,17 +136,17 @@ Paradigm" is a good place to learn about this.
 
 ------------------------------------------------------------------------
 
-Now let me return to the tale of 2-categories. So far I've said only
-that a 2-category is some sort of structure with objects, morphisms
+Now let me return to the tale of $2$-categories. So far I've said only
+that a $2$-category is some sort of structure with objects, morphisms
 between objects, and 2-morphisms between morphisms. But I have been
 attempting to develop your intuition for $\mathsf{Cat}$, the primordial example of
-a 2-category. Remember, $\mathsf{Cat}$ is the 2-category of all categories! Its
+a $2$-category. Remember, $\mathsf{Cat}$ is the $2$-category of all categories! Its
 objects are categories, its morphisms are functors, and its 2-morphisms
 are natural transformations --- these being defined in
 ["Week 73"](#week73) and again in
 ["Week 75"](#week75).
 
-How can you learn more about 2-categories? Well, a really good place is
+How can you learn more about $2$-categories? Well, a really good place is
 the following article by Ross Street, who is one of the great gurus of
 $n$-category theory. For example, he was the one who invented
 $\omega$-categories!
@@ -157,10 +157,10 @@ Physicists should note his explanation of the yang-Baxter and
 Zamolodchikov equations in terms of category theory. If you have trouble
 finding this, you might try
 
-9) G. Maxwell Kelly and Ross Street, _Review of the elements of 2-categories_, Springer Lecture Notes in Mathematics **420**, Berlin, 1974, pp. 75--103.
+9) G. Maxwell Kelly and Ross Street, _Review of the elements of $2$-categories_, Springer Lecture Notes in Mathematics **420**, Berlin, 1974, pp. 75--103.
 
 I can't really compete with these for thoroughness, but at least let me
-give the definition of a 2-category. I'll give a pretty nuts-and-bolts
+give the definition of a $2$-category. I'll give a pretty nuts-and-bolts
 definition; later I'll give a more elegant and abstract one. Readers
 who are familiar with $\mathsf{Cat}$ should keep this example in mind at all times!
 
@@ -169,7 +169,7 @@ on the pictures! They convey the basic idea. Also, keep in mind is that
 this is going to be sort of like the definition of a category, but with
 an extra level on top, the 2-morphisms.
 
-So: first of all, a 2-category consists of a collection of "objects"
+So: first of all, a $2$-category consists of a collection of "objects"
 and a collection of "morphisms". Every morphism $f$ has a "source"
 object and a "target" object. If the source of $f$ is $x$ and its target
 is y, we write $f\colon x\to y$. In addition, we have:
@@ -184,7 +184,7 @@ morphism $fg\colon x\to Z$, which we call the "composite" of $f$ and $g$.
 
 you should visualize the composite of $f\colon x\to y$ and $g\colon y\to Z$ as follows:
 $$x\xrightarrow{f}y\xrightarrow{g}Z.$$
-So far this is exactly the definition of a category! But a 2-category
+So far this is exactly the definition of a category! But a $2$-category
 ALSO consists of a collection of "2-morphisms". Every 2-morphism $T$ has
 a "source" morphism $f$ and a target morphism $g$. If the source of $T$ is $f$
 and its target is $g$, we write $T\colon f\Rightarrow g$. If $T\colon f\Rightarrow g$, we require that
@@ -237,11 +237,11 @@ Unlike category theory, where we can visualize morphisms as
 Now if you are familiar with $\mathsf{Cat}$, you may be wondering how we vertically
 and horizontally compose natural transformations, which are the
 2-morphisms in $\mathsf{Cat}$. Let me leave this as an exercise for now...
-there's a nice way to do it that makes $\mathsf{Cat}$ into a 2-category. This
+there's a nice way to do it that makes $\mathsf{Cat}$ into a $2$-category. This
 exercise is a good one to build up your higher-dimensional algebra
 muscles.
 
-In fact, we could have invented the above definition of 2-category
+In fact, we could have invented the above definition of $2$-category
 simply by thinking a lot about $\mathsf{Cat}$ and what you can do with categories,
 functors, and natural transformations. I'm pretty sure that's more or
 less what happened, historically! Thinking hard enough about nCat leads

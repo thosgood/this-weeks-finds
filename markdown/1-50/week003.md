@@ -336,4 +336,4 @@ some of the many open problems and possible ways to attack them.
 
 I have worn myself out trying to do justice to Bar-Natan's work, so I
 will postpone until next week a review of Kapranov and Voevodsky's
-paper on 2-categories.
+paper on $2$-categories.

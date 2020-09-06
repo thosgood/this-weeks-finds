@@ -663,7 +663,7 @@ combinatorial, we can replace \operatorname{Hom}(G,\mathsf{Set}) by the category
 objects and invariant binary relations as morphisms. This is the basic
 idea of "Hecke operators".
 
-Or, even better, we can try a weak 2-category, with
+Or, even better, we can try a weak $2$-category, with
 
 -   groupoids over G as objects
 -   spans of groupoids over G as morphisms

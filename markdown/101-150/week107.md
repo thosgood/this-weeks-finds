@@ -190,16 +190,16 @@ computad they generate, available as postscript files at
 > note, a notion of relative Malcev completion of the higher homotopy at
 > a representation of the fundamental group.
 
-8) Sjoerd Crans, "Generalized centers of braided and sylleptic monoidal 2-categories", _Adv. Math._ **136** (1998), 183--223.
+8) Sjoerd Crans, "Generalized centers of braided and sylleptic monoidal $2$-categories", _Adv. Math._ **136** (1998), 183--223.
 
 > Recent developments in higher-dimensional algebra due to Kapranov and
 > Voevodsky, Day and Street, and Baez and Neuchl include definitions of
-> braided, sylleptic and symmetric monoidal 2-categories, and a center
-> construction for monoidal 2-categories which gives a braided monoidal
-> 2-category. I give generalized center constructions for braided and
-> sylleptic monoidal 2-categories which give sylleptic and symmetric
-> monoidal 2-categories respectively, and I correct some errors in the
-> original center construction for monoidal 2-categories.
+> braided, sylleptic and symmetric monoidal $2$-categories, and a center
+> construction for monoidal $2$-categories which gives a braided monoidal
+> $2$-category. I give generalized center constructions for braided and
+> sylleptic monoidal $2$-categories which give sylleptic and symmetric
+> monoidal $2$-categories respectively, and I correct some errors in the
+> original center construction for monoidal $2$-categories.
 
 ------------------------------------------------------------------------
 

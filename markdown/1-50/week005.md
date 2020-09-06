@@ -201,19 +201,19 @@ ones, that is, the ones that aren't direct sums of other ones. I guess
 I'll leave it at that.
 
 2) David Kazhdan and Iakov Soibelman, "Representations of the quantized
-function algebras, 2-categories and Zamolodchikov tetrahedra equations",
+function algebras, $2$-categories and Zamolodchikov tetrahedra equations",
 Harvard University, preprint.
 
 In this terse paper, Kazhdan and Soibelman construct a braided monoidal
-2-category using quantum groups at roots of unity. As I've said a few
-times, people expect braided monoidal 2-categories to play a role in
+$2$-category using quantum groups at roots of unity. As I've said a few
+times, people expect braided monoidal $2$-categories to play a role in
 generally covariant 4d physics analogous to what braided monoidal
 categories do in 3d physics. In particular, one might hope to get
 invariants of $4$-dimensional manifolds, or of surfaces embedded in
 4-manifolds, this way. (See last week's post for a little bit about the
 details.) I don't feel I understand this construction well enough yet
 to want to say much about it, but it is clearly related to the
-construction of a braided monoidal 2-category from the category of
+construction of a braided monoidal $2$-category from the category of
 quantum group representations given by Crane and Frenkel (see
 ["Week 2"](#week2)).
 
@@ -235,9 +235,9 @@ only gives trivial 4-manifold invariants.
 I am not yet in a position to pass judgement on this, since both
 Crane/Yetter and Ocneanu are rather sketchy in key places. If indeed
 Ocneanu is right, I think people are going to have to get serious about
-facing up to the need for 2-categorical thinking in $4$-dimensional
+facing up to the need for $2$-categorical thinking in $4$-dimensional
 generally covariant physics. I had asked Crane, a big proponent of
-2-categories, why they played no role in his 4d TQFT, and he said that
+$2$-categories, why they played no role in his 4d TQFT, and he said that
 indeed he felt like the kid who took apart a watch, put it back
 together, and found it still worked even though there was a piece left
 over. So maybe the watch didn't really work without that extra piece

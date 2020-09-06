@@ -185,21 +185,21 @@ This summarizes the Reshetikhin-Turaev construction of 3d topological
 quantum field theories from quantum groups, and Broda's own closely
 related approach to 4d topological quantum field theories.
 
-10) John Baez and Martin Neuchl, "Higher-dimensional algebra I: braided monoidal 2-categories", available as [`arXiv:q-alg/9511013`](http://arxiv.org/abs/q-alg/9511013).
+10) John Baez and Martin Neuchl, "Higher-dimensional algebra I: braided monoidal $2$-categories", available as [`arXiv:q-alg/9511013`](http://arxiv.org/abs/q-alg/9511013).
 
 In this paper, we begin with a brief sketch of what is known and
-conjectured concerning braided monoidal 2-categories and their
+conjectured concerning braided monoidal $2$-categories and their
 applications to 4d topological quantum field theories and 2-tangles
 (surfaces embedded in $4$-dimensional space). Then we give concise
-definitions of semistrict monoidal 2-categories and braided monoidal
-2-categories, and show how these may be unpacked to give long explicit
+definitions of semistrict monoidal $2$-categories and braided monoidal
+$2$-categories, and show how these may be unpacked to give long explicit
 definitions similar to, but not quite the same as, those given by
 Kapranov and Voevodsky. Finally, we describe how to construct a
-semistrict braided monoidal 2-category $Z(\mathcal{C})$ as the 'center' of a
+semistrict braided monoidal $2$-category $Z(\mathcal{C})$ as the 'center' of a
 semistrict monoidal category $\mathcal{C}$. This is analogous to the construction of
 a braided monoidal category as the center, or 'quantum double', of a
 monoidal category. The idea is to develop algebra that will do for
 4-dimensional topology what quantum groups and braided monoidal
 categories did for 3d topology. As a corollary of the center
 construction, we prove a strictification theorem for braided monoidal
-2-categories.
+$2$-categories.

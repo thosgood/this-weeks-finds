@@ -107,7 +107,7 @@ with self-intersections. It concentrates on the famous link invariants
 coming from Chern-Simons theory --- the HOMFLY polynomial (from $\mathrm{SU}(n)$) and
 the Kauffman polynomial (from $\mathrm{SO}(n)$). Lots of good pictures.
 
-And, switching back to the category theory, 2-categories, and the like,
+And, switching back to the category theory, $2$-categories, and the like,
 let me list these before filing them away:
 
 4) "Categorical physics", by Louis Crane, preprint available as
@@ -121,19 +121,19 @@ let me list these before filing them away:
 
 These outline Louis Crane's vision of an approach to generally
 covariant $4$-dimensional quantum field theories (e.g. quantum gravity or
-a "theory of everything") based on 2-categories. "Categorical
+a "theory of everything") based on $2$-categories. "Categorical
 physics" sketches the big picture, while the paper with Yetter provides
 a juicy mathematical spinoff --- the first known four-dimensional TQFT,
 based on the representations of quantum $\mathrm{SU}(2)$ and very similar in spirit
 to the Turaev-Viro construction of a 3d TQFT from quantum $\mathrm{SU}(2)$. The
 papers with Frenkel (apparently still not in their final form) describe
 the game plan and hint at marvelous things still to come. The conjecture
-is stated: "a 4d TQFT can be reconstructed from a tensor 2-category".
+is stated: "a 4d TQFT can be reconstructed from a tensor $2$-category".
 This follows up on Crane's earlier work on getting 3d TQFTs from
 modular tensor categories (big example: the categories of
 representations of quantum groups at roots of unity). And the authors
 define the notion of a Hopf category, show how the category of module
-categories of a Hopf category is a tensor 2-category, and use
+categories of a Hopf category is a tensor $2$-category, and use
 "categorification" to turn the universal enveloping algebra of a
 quantum group into a Hopf category. Sound abstract? Indeed it is. But
 the aim is clear: to cook up 4d TQFTs from quantum groups. Such quantum
@@ -141,7 +141,7 @@ field theories might be physically important; indeed, the one associated
 to $\mathrm{SU}(2)$ is likely to have a lot to do with quantum gravity.
 
 I am currently perusing Kapranov and Voevodsky's massive paper on
-2-categories, which seems to be the starting point for Crane's above
+$2$-categories, which seems to be the starting point for Crane's above
 papers and also those of Carter/Saito that I mentioned last week. Next
 week I should post an outline of what this paper does.
 

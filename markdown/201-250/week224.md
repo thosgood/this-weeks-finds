@@ -626,8 +626,8 @@ string theory:
 > at least, the "dual" incarnation of the application of a certain
 > 2-functor to the worldsheet. Namely a good part of the rough structure
 > appearing here automatically drops out when a 2-functor applied to
-> some 2-category of surfaces is "locally trivialized". I claim that
-> any local trivialization of a 2-functor on some sort of 2-category of
+> some $2$-category of surfaces is "locally trivialized". I claim that
+> any local trivialization of a 2-functor on some sort of $2$-category of
 > surface elements gives rise to a dual triangulation of the surface
 > whose edges are labeled by (possibly a generalization of) a Frobenius
 > algebra object and whose vertices are labeled by (possibly a

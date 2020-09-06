@@ -480,14 +480,14 @@ and Morita equivalence of tensor categories, available as
 [math.CT/0111204](http://www.arXiv.org/abs/math.CT/0111204).
 
 In ["Week 174"](#week174) I talked about Frobenius algebras and
-2-categories; in ["Week 175"](#week175) I said a bit about
+$2$-categories; in ["Week 175"](#week175) I said a bit about
 subfactors; now it's time for me to say something about how Mueger puts
 these together! This will be very sketchy, I'm afraid.
 
 First, it's worth noting that lots of mathematical gadgets form not
-just categories but also 2-categories. For example, we all know the
+just categories but also $2$-categories. For example, we all know the
 category of groups, where the objects are groups and the morphisms are
-homomorphisms. But there is also a 2-category lurking around here!
+homomorphisms. But there is also a $2$-category lurking around here!
 Between any morphisms
 
     f,f'\colon  G \to  H
@@ -511,38 +511,38 @@ between these functors are just conjugations! If you don't follow this,
 check out ["Week 73"](#week73) - you'll see the above equation is
 just a special case of the definition of "natural transformation".
 
-For fans of group theory, one nice thing about this 2-category is that
+For fans of group theory, one nice thing about this $2$-category is that
 it explains where "inner automorphisms" fit into the grand
 $n$-categorical scheme of things. It also explains why conjugations become
 important in algebraic topology when you're playing around with the
-"fundamental group": this is actually a 2-functor from the 2-category
+"fundamental group": this is actually a 2-functor from the $2$-category
 of
 
     spaces with basepoint,
     base-point-preserving maps, and
     not-necessarily-basepoint-preserving homotopies
 
-to the 2-category of
+to the $2$-category of
 
     groups,
     group homomorphisms, and
     conjugations.
 
-We can also cook up a 2-category of rings which works in a similar way;
+We can also cook up a $2$-category of rings which works in a similar way;
 the objects are rings, the morphisms are ring homomorphisms, and the
 2-morphisms are conjugations, defined by the same formula as above.
 
-Mueger's work uses this 2-category, or more precisely, a sub-2-category
+Mueger's work uses this $2$-category, or more precisely, a sub-$2$-category
 where we use not *all* rings, but only certain specially nice type III
 factors, and not *all* homomorphisms, but only certain specially nice
 *-homomorphisms. He gives a nice simple condition for a morphism in
-this 2-category to have a "two-sided adjoint" - meaning precisely that
+this $2$-category to have a "two-sided adjoint" - meaning precisely that
 it's part of what I called an "ambidextrous adjunction" in
 ["Week 174"](#week174). And as we saw back then, any ambidextrous
 adjunction gives a Frobenius object! So, he gets lots of Frobenius
 objects from the theory of factors. But more importantly, he shows that
 a whole lot of concepts beloved by folks who study von Neumann algebras
-are really concepts from 2-category theory, applied to this situation!
+are really concepts from $2$-category theory, applied to this situation!
 
 This is cool, because there are *already* deep connections between
 $n$-categories and quantum theory - see ["Week 78"](#week78) for an

@@ -367,14 +367,14 @@ from X to BG. (Homotopic maps correspond to isomorphic bundles.) A
 similar result holds for topological 2-groups!
 
 Indeed, Baas Bkstedt and Kro did something much more general for
-topological *2-categories*:
+topological *$2$-categories*:
 
 10) Nils Baas, Marcel Bkstedt and Tore Kro, 2-Categorical K-theories,
 available as
 [`arXiv:math/0612549`](http://arXiv.org/abs/arXiv:math/0612549).
 
 Just as a group is a category with one object and with all morphisms
-being invertible, a 2-group is a 2-category with one object and all
+being invertible, a 2-group is a $2$-category with one object and all
 morphisms and 2-morphisms invertible. But the 2-group case is worthy of
 some special extra attention, so Danny Stevenson studied that with a
 little help from me:
@@ -384,19 +384,19 @@ topological 2-group, available as
 [arXiv/0801.3843](http://arxiv.org/abs/0801.3843)
 
 and that's what I talked about. If you're also interested in
-classifying spaces of 2-categories that aren't topological, just
+classifying spaces of $2$-categories that aren't topological, just
 "discrete", you should try these:
 
 12) John Duskin, Simplicial matrices and the nerves of weak
 $n$-categories I: nerves of bicategories, available at
 `http://www.tac.mta.ca/tac/volumes/9/n10/9-10abs.html`
 
-13) Manuel Bullejos and A. Cegarra, On the geometry of 2-categories and
+13) Manuel Bullejos and A. Cegarra, On the geometry of $2$-categories and
 their classifying spaces, available at
 `http://www.ugr.es/%7Ebullejos/geometryampl.pdf`
 
 14) Manuel Bullejos, Emilio Faro and Victor Blanco, A full and faithful
-nerve for 2-categories, Applied Categorical Structures 13 (2005),
+nerve for $2$-categories, Applied Categorical Structures 13 (2005),
 223-233. Also available as
 [`arXiv:math/0406615`](http://arXiv.org/abs/arXiv:math/0406615).
 
@@ -516,22 +516,22 @@ periodic table of $n$-categories, mentioned in ["Week 49"](#week49):
 
                   n = 0           n = 1             n = 2
 
-    k = 0         sets          categories         2-categories
+    k = 0         sets          categories         $2$-categories
 
     k = 1        monoids         monoidal           monoidal
-                                categories        2-categories
+                                categories        $2$-categories
 
     k = 2       commutative      braided            braided
                  monoids         monoidal           monoidal
-                                categories        2-categories 
+                                categories        $2$-categories 
 
     k = 3         " "           symmetric           sylleptic
                                  monoidal           monoidal 
-                                categories        2-categories  
+                                categories        $2$-categories  
 
     k = 4         " "             " "               symmetric
                                                     monoidal
-                                                  2-categories
+                                                  $2$-categories
 
     k = 5         " "             " "                "  "
 
@@ -604,8 +604,8 @@ crossed modules, TAC 16 (2006), 85-618, available as
 
 By generalizing properties of the category of abelian groups, people
 invented the concept of "abelian category". Similarly, Vitale told us
-a definition of "2-abelian 2-category", obtained by generalizing
-properties of the 2-category of symmetric 2-groups. I believe this is
+a definition of "2-abelian $2$-category", obtained by generalizing
+properties of the $2$-category of symmetric 2-groups. I believe this is
 discussed here:
 
 22) Mathieu Dupont: Catégories abéliennes en dimension 2, Ph.D. Thesis,

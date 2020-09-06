@@ -768,7 +768,7 @@ with various replies, concluding with my own.
     With regard to categorification in general, sets seem to play a central
     role in at least one development of category theory.  The homobjects of
     "ordinary" categories are homsets.  (In that sense I guess "ordinary" must
-    entail "locally small.")  2-categories are what you get if instead you let
+    entail "locally small.")  $2$-categories are what you get if instead you let
     them be homcats, suitably elaborated.
 
     Going in the other direction, if you take homsets to be vacuous, not
@@ -784,7 +784,7 @@ with various replies, concluding with my own.
     going back to Descartes, where I tried to one-up him by claiming it went
     much further back.)
 
-    Categorification isn't the only way to get to 2-categories, which can be
+    Categorification isn't the only way to get to $2$-categories, which can be
     understood instead in terms of the interchange law as a two-dimensional
     associativity principle.  However John has got a lot of mileage out of
     the categorification approach, which one can't begrudge in an era where

@@ -86,7 +86,7 @@ far; it's published by Routledge. The contents include such curious
 things as "the ontological interpretation of boson fields." Read it at
 your own risk.
 
-3) "Braided monoidal 2-categories, 2-vector spaces and Zamolodchikov
+3) "Braided monoidal $2$-categories, 2-vector spaces and Zamolodchikov
 tetrahedra equations", by M. M. Kapranov and V. A. Voevodsky. Preliminary
 incomplete version, September 1991. (Kapranov is at
 `kapranov@chow.math.nwu.edu`, and Voevodsky is at
@@ -143,7 +143,7 @@ or in physics:
 (The first two are categories in which one can do classical physics. The
 third is a category in which one can do quantum physics.)
 
-Now, what's a 2-category? This has all the structure of a category but
+Now, what's a $2$-category? This has all the structure of a category but
 now there are also "2-morphisms," that is, morphisms between
 morphisms! This is rather dizzying at first. Indeed, much of category
 theory is rather dizzying until one has some good examples to lean on
@@ -171,11 +171,11 @@ In other words, while ordinary morphisms are $1$-dimensional objects (arrows), 2
 are $2$-dimensional "cells" filling in the space between two ordinary
 morphisms. We thus see that going up to "morphisms between morphisms"
 is closely related to going up to higher dimensions. And this is really
-why "braided monoidal 2-categories" may play as big a role in
+why "braided monoidal $2$-categories" may play as big a role in
 four-dimensional field theory as "braided monoidal categories" do
 in three-dimensional field theory!
 
-Rather than write down the axioms for a 2-category, which are in
+Rather than write down the axioms for a $2$-category, which are in
 Kapranov and Voevodsky, let me note the key new thing about 2-morphisms:
 there are two ways to compose them, "horizontally" and "vertically".
 First of all, given the following situation:
@@ -187,7 +187,7 @@ $$\includegraphics[scale=0.3]{../images/FGnat.pdf}$$
 ($f,g,h$ in $\mathrm{Hom}(x,y)$, $F$ in $\mathrm{Hom}(f,g)$, and $G$ in $\mathrm{Hom}(g,h)$), we can compose $F$
 and $G$ vertically to get a 2-morphism from $f$ to $g$.
 
-As Kapranov and Voevodsky note: "Thus 2-categories can be seen as
+As Kapranov and Voevodsky note: "Thus $2$-categories can be seen as
 belonging to the realm of a new mathematical discipline which may be
 called 2-DIMENSIONAL ALGEBRA and contrasted with usual $1$-dimensional
 algebra dealing with formulas which are written in lines." This is
@@ -195,23 +195,23 @@ actually very important because already in the theory of braided
 monoidal categories we began witnessing the rise of mathematics that
 incorporated aspects of geometry into the notation itself.
 
-The theory of 2-categories is not new; it was apparently invented by
+The theory of $2$-categories is not new; it was apparently invented by
 Ehresmann, Benabou and Grothendieck in an effort to formalize the
 structure possessed by the category of all categories. (If this notion
 seems dangerously close to Russell's paradox, you are right --- but I
 will not worry about such issues in what follows.) This category has as
 its objects categories and as its morphisms "functors" between
-categories. It is, in fact, a 2-category, taking as the 2-morphisms
+categories. It is, in fact, a $2$-category, taking as the 2-morphisms
 "natural transformations" between functors. (For a brief intro to
 functors and natural transformations, try the file "categories" in the
 collection of my expository papers --- see the end of this post.) What is
-new to Kapranov and Voevodsky is the notion of a monoidal 2-category ---
+new to Kapranov and Voevodsky is the notion of a monoidal $2$-category ---
 where one can take tensor products of objects, morphisms, and
-2-morphisms --- and "braided" monoidal 2-category --- where one has
+2-morphisms --- and "braided" monoidal $2$-category --- where one has
 "braidings" that switch around the two factors in a tensor product.
 
 Let me turn to the possible relevance of all this to mathematical
-physics. Here there is a nice 2-category, namely the category of
+physics. Here there is a nice $2$-category, namely the category of
 "2-tangles." First recall the category of tangles (stealing from
 something that appears in the file "tangles" in the collection of my
 papers):
@@ -370,7 +370,7 @@ is perfectly smooth but has a saddle point which we are seeing in frame
 "elementary string interactions." The relevance to string theory is
 pretty obvious: we are seeing a movie of part of a string worldsheet,
 which is a surface in (3+1)-dimensional spacetime. My interest in
-2-tangles and 2-categories is precisely because they offer a bridge
+2-tangles and $2$-categories is precisely because they offer a bridge
 between string theory and the loop variables approach to quantum
 gravity, which may actually be the SAME THING in two different
 disguises. You heard it here first, folks!
@@ -379,7 +379,7 @@ The reader may have fun figuring out what the two ways of composing
 2-morphisms amount to in the category of 2-tangles.
 
 There are, in fact, many clues as to the relation between string theory
-and 2-categories, one being the Zamolodchikov equation. This is the
+and $2$-categories, one being the Zamolodchikov equation. This is the
 analog of the Yang-Baxter equation --- an equation important in the theory
 of braids --- one dimension up. It was discovered by Zamolodchikov in
 1980; a 1981 paper that might be a bit easier to get is "Tetrahedron
@@ -387,14 +387,14 @@ equations and relativistic S-matrix for straight strings in 2+1
 dimensions," Comm. Math. Phys. 79 (1981), 489-505. (It plays a
 different role in the (3+1)-dimensional context, though.) Just as
 braided monoidal categories are a good way to systematically find
-solutions of the Yang-Baxter equation, braided monoidal 2-categories, as
+solutions of the Yang-Baxter equation, braided monoidal $2$-categories, as
 defined by Kapranov and Voevodsky, seem to be a good way for finding
 solutions for the Zamolodchikov equation. (I will post in a while about
 a new paper by Soibelman and Kazhdan that does this. Also see the paper
 by Crane and Frenkel in ["Week 2"](#week2).)
 
 There are also lots of tantalizing ties between the loop variables
-approach to quantum gravity and 2-categories; one can see some of these
+approach to quantum gravity and $2$-categories; one can see some of these
 if one reads the work of Carter and Saito in conjunction with my paper
 "Quantum Gravity and the Algebra of Tangles". I hope to make these a
 lot clearer as time goes by.

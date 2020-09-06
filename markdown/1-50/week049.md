@@ -8,7 +8,7 @@ bunch of "objects", and for any pair of objects $x,y$ a bunch of
 "morphisms" from $x$ to $y$, written $f\colon x \to y$, and for any pair of
 morphisms $f, g\colon x \to y$ a bunch of "2-morphisms" from $f$ to $g$, written $F\colon f \Rightarrow g$, and for any pair of 2-morphisms $F, G\colon f \Rightarrow g$ a bunch of
 "3-morphisms" from $F$ to $G$, ... and so on, up to $n$-morphisms. Ordinary
-categories, or 1-categories, have been studied since the 1940s or so,
+categories, or $1$-categories, have been studied since the 1940s or so,
 when they were invented by Eilenberg and Mac Lane. Anyone wanting to get
 going on those could try:
 
@@ -39,22 +39,22 @@ $n$-categories, there is a wonderful example of an $(n+1)$-category which
 you should know and love too! Now this isn't so bad, actually, because
 a 0-category is basically just a *set*, namely the set of objects. Since
 everyone knows and loves sets, everyone can start here! Okay, there is a
-wonderful 1-category called Set, the category of all sets. This has sets
+wonderful $1$-category called Set, the category of all sets. This has sets
 as its objects and functions between sets as its morphisms. So now that
-you know an example of a 1-category, you know and love 1-categories,
+you know an example of a $1$-category, you know and love $1$-categories,
 right? Well, it turns out there is this wonderful thing called Cat, the
-2-category of all 1-categories. (Usually people restrict to "small"
-1-categories, which have a mere *set* of objects, so that set theorists
+$2$-category of all $1$-categories. (Usually people restrict to "small"
+$1$-categories, which have a mere *set* of objects, so that set theorists
 don't start freaking out at a certain point.) To understand why Cat is
-a 2-category is a bit of work, but as objects it has categories, as
+a $2$-category is a bit of work, but as objects it has categories, as
 morphisms it has the usual sort of morphisms between categories,
 so-called "functors", and as 2-morphisms it has the usual sort of
 things that go between functors, so-called "natural transformations".
 These are the bread and butter of category theory; just take my word for
-it if you haven't studied them yet! Okay, so Cat is a 2-category, so
-now you know and love 2-categories, right? (Well, I haven't even told
+it if you haven't studied them yet! Okay, so Cat is a $2$-category, so
+now you know and love $2$-categories, right? (Well, I haven't even told
 you the definitions, but just nod your head.) Guess what: there is this
-wonderful thing called 2Cat, the 3-category of all 2-categories! And so
+wonderful thing called 2Cat, the $3$-category of all $2$-categories! And so
 on.
 
 So in short, the detailed theory of $n$-categories at each level
@@ -64,14 +64,14 @@ of $n$-category for $n = 0, 1, 2, 3$. By the "right" definition I mean
 the ultimate, most general definition, which should be the most useful
 in many ways. So far people only know about "strict" $n$-categories for
 all $n$, which one can think of as a special case of the ultimate ones;
-the ultimate 1-categories are just categories, the ultimate 2-categories
+the ultimate $1$-categories are just categories, the ultimate $2$-categories
 are often called bicategories (see the reference to Benabou in
-["Week 35"](#week35)), and ultimate 3-categories are usually called
+["Week 35"](#week35)), and ultimate $3$-categories are usually called
 tricategories (see the reference to the paper by Gordon, Power and
 Street) in ["Week 29"](#week29). Tricategories were just defined last
 year! They have a whole lot to do with knots, Chern-Simons theory, and
 other $3$-dimensional phenomena, as one might expect. If we could
-understand the ultimate 4-categories --- tetracategories? --- it would
+understand the ultimate $4$-categories --- tetracategories? --- it would
 probably help us with some of the riddles of topology and physics in 4
 dimensions. (Indeed, what little we *do* understand is already helping a
 bit.)
@@ -99,15 +99,15 @@ $n$-category". Now we can make a chart of these:
 
 |       | $n=0$ | $n=1$ | $n=2$ |
 | ----- | :--- | :--- | :--- |
-| $k=0$ | sets | categories | 2-categories |
+| $k=0$ | sets | categories | $2$-categories |
 | | | | |
-| $k=1$ | monoids | monoidal categories | monoidal 2-categories |
+| $k=1$ | monoids | monoidal categories | monoidal $2$-categories |
 | | | | |
-| $k=2$ | commutative monoids | braided monoidal categories | braided monoidal 2-categories |
+| $k=2$ | commutative monoids | braided monoidal categories | braided monoidal $2$-categories |
 | | | | |
-| $k=3$ | " " | symmetric monoidal categories | weakly involutory monoidal 2-categories |
+| $k=3$ | " " | symmetric monoidal categories | weakly involutory monoidal $2$-categories |
 | | | | |
-| $k=4$ | " " | " " | strongly involutory monoidal 2-categories |
+| $k=4$ | " " | " " | strongly involutory monoidal $2$-categories |
 | | | | |
 | $k=5$ | " " | " " | " " |
 
@@ -116,7 +116,7 @@ $n$-category". Now we can make a chart of these:
 First, I should emphasize that some parts of the chart as I've drawn it
 here are a bit conjectural; since we don't know what the most general
 7-categories are like, for example, we don't really know for sure what
-5-tuply monoidal 2-categories are like. The exact status of all the
+5-tuply monoidal $2$-categories are like. The exact status of all the
 entries on the table is made more clear in the paper. For now, let me
 just say, first, that these various flavors of $n$-categories turn out to
 be of great interest in topology --- some have already been used a lot in
@@ -163,7 +163,7 @@ of Dolan's and my paper, though there are some important pieces of the
 puzzle that we don't get around to mentioning there.
 
 Right now I'm busily working out the details of how to get braided
-monoidal 2-categories from monoidal 2-categories by the same trick, with
+monoidal $2$-categories from monoidal $2$-categories by the same trick, with
 the aid of Martin Neuchl and Frank Halanke here. These should have a lot
 to do with $4$-dimensional topological quantum field theories (see e.g.
 the paper by Crane and Yetter cited in ["Week 46"](#week46)). And here

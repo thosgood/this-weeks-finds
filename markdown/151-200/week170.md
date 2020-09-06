@@ -177,7 +177,7 @@ Since algebraic theories are good for studying sets with extra algebraic
 structure, we might hope that by categorifying, we could obtain a
 concept of "algebraic 2-theories" which is good for studying
 *categories* with extra algebraic structure. And it's true! In 1974,
-John Gray defined an "algebraic 2-theory" to be a 2-category $\mathcal{C}$ with
+John Gray defined an "algebraic 2-theory" to be a $2$-category $\mathcal{C}$ with
 finite products, all of whose objects are of the form $1, X, X^2, X^3,\ldots$
 for some particular object $X$. Define a "model" of this 2-theory
 to be a product-preserving 2-functor $F\colon\mathcal{C}\to\mathsf{Cat}$. And define a
@@ -193,21 +193,21 @@ commuting squares in the definition of a natural transformation are
 required to commute only up to certain specified 2-isomorphisms, which
 in turn satisfy some coherence laws described here:
 
-6) G. Maxwell Kelly and Ross Street, _Review of the elements of 2-categories_, Springer Lecture Notes in Mathematics **420**, Berlin, 1974, pp. 75--103.
+6) G. Maxwell Kelly and Ross Street, _Review of the elements of $2$-categories_, Springer Lecture Notes in Mathematics **420**, Berlin, 1974, pp. 75--103.
 
 However, you don't need to understand the details right now. There is
 also something going between pseudonatural transformations called a
 "modification", and this gives us "2-homomorphisms" between
 homomorphisms between models of our algebraic theory. Thanks to these
-there is a 2-category $\mathsf{Mod}(\mathcal{C})$ consisting of models of our 2-theory
+there is a $2$-category $\mathsf{Mod}(\mathcal{C})$ consisting of models of our 2-theory
 homomorphisms between those, and 2-homomorphisms between those.
 
 Some examples might help! For example, there's a 2-theory $\mathcal{C}$ called the
 "theory of weak monoidal categories". Models of $\mathcal{C}$ are weak monoidal
 categories, homomorphisms are monoidal functors, and 2-homomorphisms are
-natural transformations, so $\mathsf{Mod}(\mathcal{C})$ is the usual 2-category of monoidal
-2-categories. There's a similar 2-theory $\mathcal{C}'$ called "the theory of
-strict monoidal categories", for which $\mathsf{Mod}(\mathcal{C}')$ is the usual 2-category
+natural transformations, so $\mathsf{Mod}(\mathcal{C})$ is the usual $2$-category of monoidal
+$2$-categories. There's a similar 2-theory $\mathcal{C}'$ called "the theory of
+strict monoidal categories", for which $\mathsf{Mod}(\mathcal{C}')$ is the usual $2$-category
 of strict monoidal categories.
 
 (Hyper-technical note for $n$-category mavens only: in both examples here,
@@ -224,7 +224,7 @@ weak monoidal categories to the theory of strict monoidal categories,
 and this lets us turn any strict monoidal category into a weak one.
 
 Now in this particular example, $F^*$ is a biequivalence, which is the
-nice way to say that the 2-categories $\mathsf{Mod}(C)$ and $\mathsf{Mod}(C')$ are "the same"
+nice way to say that the $2$-categories $\mathsf{Mod}(C)$ and $\mathsf{Mod}(C')$ are "the same"
 for all practical purposes. And in fact, saying that this
 particular $F^*$ is a biequivalence is really just an ultra-slick version
 of Mac Lane's theorem --- the theorem we use to turn weak monoidal

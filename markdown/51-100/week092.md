@@ -302,7 +302,7 @@ $$
   \end{tikzpicture}
 $$
 Again, to really understand the rules of the game you need to learn a
-bit about string diagrams and 2-categories, but the basic idea is
+bit about string diagrams and $2$-categories, but the basic idea is
 supposed to be simple: we can get two $xx^*$'s to turn into one $xx^*$ by
 letting an $x^*$ and $x$ annihilate each other!
 
@@ -324,7 +324,7 @@ In other words, an $xx^*$ can be created out of nothing since it's a
 "particle/antiparticle pair".
 
 Now one can check that all the axioms for a monad hold. You really need
-to know a bit about 2-categories to do it carefully, but basically you
+to know a bit about $2$-categories to do it carefully, but basically you
 just let yourself deform the pictures, in part with the help of the
 axioms for an adjunction, which let you straighten out curves that
 "double back in time." So for example, we can prove the identity law
@@ -617,9 +617,9 @@ One can't really tell yet.
 Anyway, I don't really care much about the 4-color theorem per se. If I
 ever need to color a map I'll hire a cartographer. It's the
 connections between seemingly disparate subjects that I find
-interesting. 2-categories are a very abstract formalism developed to
+interesting. $2$-categories are a very abstract formalism developed to
 describe $2$-dimensional ways of glomming things together. Starting from
-the study of 2-categories, we very naturally get the notions of
+the study of $2$-categories, we very naturally get the notions of
 "monad" and "adjunction". And before we know it, this leads us to
 some interesting questions about $2$-dimensional quantum field theory: for
 really, the dominance of planar diagrams in the $N\to\infty$ limit of gauge

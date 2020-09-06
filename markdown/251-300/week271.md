@@ -248,14 +248,14 @@ Groupoidification is quest to strip the fat off linear algebra and do it
 using groupoids.
 
 Jeffrey boosts this idea up one notch, getting a 2-functor from the
-2-category with
+$2$-category with
 
 -   finite groupoids as objects,
 -   spans of finite groupoids as morphisms,
 -   equivalence classes of spans of spans of finite groupoids as
     2-morphisms
 
-to the 2-category with
+to the $2$-category with
 
 -   finite-dimensional 2-vector spaces as objects,
 -   linear functors as morphisms,
@@ -311,13 +311,13 @@ U. C. Riverside, 2007. Available at
 [`arXiv:0710.0032`](http://arxiv.org/abs/0710.0032).
 
 Jeffrey showed that a special case, the "untwisted" Dijkgraaf-Witten
-model, gives a weak 2-functor from the weak 2-category with
+model, gives a weak 2-functor from the weak $2$-category with
 
 -   0d manifolds as objects,
 -   1d cobordisms between these as morphisms,
 -   equivalence classes of 2d cobordisms between these as 2-morphisms
 
-to the weak 2-category with
+to the weak $2$-category with
 
 -   finite-dimensional 2-vector spaces as objects,
 -   linear functors as morphisms,
@@ -327,8 +327,8 @@ Composing this 2-functor with the 2-functor I just described, he gets
 the untwisted Dijkgraaf-Witten model as an extended TQFT! And in fact,
 he does it in all dimensions, not just dimension 2.
 
-By the way, most of the 2-categories and 2-functors here are "weak".
-Also by the way, Jeffrey constructed the above cobordism 2-category in
+By the way, most of the $2$-categories and 2-functors here are "weak".
+Also by the way, Jeffrey constructed the above cobordism $2$-category in
 an earlier paper, which I discussed in ["Week 242"](#week242). He
 recently polished up this paper, changing the title to make it focus on
 the algebraic essence of his construction:

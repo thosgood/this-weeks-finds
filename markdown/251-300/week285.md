@@ -297,7 +297,7 @@ sort here and there.
 When people tried to define maps of orbifolds, they ran into a lot of
 trouble. Naive approaches led to a mess. It turns out there's a good
 reason for this. There's not really a nice category of orbifolds. But
-there's a nice *2-category* of orbifolds!
+there's a nice *$2$-category* of orbifolds!
 
 The reason is that we shouldn't think of an orbifold as a set with
 extra structure. We should think of it as a *groupoid* with extra
@@ -307,7 +307,7 @@ basically just a set. But for a more interesting orbifold, the singular
 points have extra automorphisms.
 
 Everything likes to live in something bigger and fancier than itself.
-Groupoids, being categories, want to be objects of a 2-category. The
+Groupoids, being categories, want to be objects of a $2$-category. The
 same is true for orbifolds. However, there are extra subtleties due to
 the *smooth structure* on our orbifold. To deal with these, it's nice
 to treat orbifolds as "Lie groupoids" or "stacks". I could say a lot
@@ -707,12 +707,12 @@ and knot spaces, Alg. Geom. Top. 9 (2009), 1467-1501. Also available as
 
 Next, Chris Douglas of U.C. Berkeley gave talk charmingly entitled
 "3-categories for the working mathematician" - unfortunately no video
-for this one. It's great to see how weak 3-categories are making their
+for this one. It's great to see how weak $3$-categories are making their
 way into applications. Douglas is working with Arthur Bartels and Andre
 Henriques on their applications to "conformal nets" - that is,
 algebras of local observables in conformal field theory. The bulk of
 Douglas' talk involved a kind of hieroglyphic notation for operations
-and equations in a definition of weak 3-category. This definition is
+and equations in a definition of weak $3$-category. This definition is
 close to the existing definitions of "tricategory", but not exactly
 the same - at least, not superficially. It's probably equivalent.
 

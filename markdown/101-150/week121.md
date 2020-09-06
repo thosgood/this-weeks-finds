@@ -3,9 +3,9 @@
 This time I want to talk about higher-dimensional algebra and its
 applications to topology. Marco Mackaay has just come out with a
 fascinating paper that gives a construction of $4$-dimensional TQFTs from
-certain "monoidal 2-categories".
+certain "monoidal $2$-categories".
 
-1) Marco Mackaay, "Spherical 2-categories and 4-manifold invariants", preprint available as [`math.QA/9805030`](https://arxiv.org/abs/math.QA/9805030)
+1) Marco Mackaay, "Spherical $2$-categories and 4-manifold invariants", preprint available as [`math.QA/9805030`](https://arxiv.org/abs/math.QA/9805030)
 
 Beautifully, this construction is just a categorified version of Barrett
 and Westbury's construction of $3$-dimensional topological quantum field
@@ -262,15 +262,15 @@ $n$ and $k$:
 
 |       | $n=0$ | $n=1$ | $n=2$ |
 | ----- | :--- | :--- | :--- |
-| $k=0$ | sets | categories | 2-categories |
+| $k=0$ | sets | categories | $2$-categories |
 | | | | |
-| $k=1$ | monoids | monoidal categories | monoidal 2-categories |
+| $k=1$ | monoids | monoidal categories | monoidal $2$-categories |
 | | | | |
-| $k=2$ | commutative monoids | braided monoidal categories | braided monoidal 2-categories |
+| $k=2$ | commutative monoids | braided monoidal categories | braided monoidal $2$-categories |
 | | | | |
-| $k=3$ | " " | symmetric monoidal categories | weakly involutory monoidal 2-categories |
+| $k=3$ | " " | symmetric monoidal categories | weakly involutory monoidal $2$-categories |
 | | | | |
-| $k=4$ | " " | " " | strongly involutory monoidal 2-categories |
+| $k=4$ | " " | " " | strongly involutory monoidal $2$-categories |
 | | | | |
 | $k=5$ | " " | " " | " " |
 
@@ -293,7 +293,7 @@ trying to generalize to higher dimensions.
 
 More recently, Laurel Langford tackled the case $n = 2$, $k = 2$. She proved
 that $2$-dimensional knotted surfaces in $4$-dimensional space can be
-described algebraically using a certain "braided monoidal 2-category
+described algebraically using a certain "braided monoidal $2$-category
 with duals". These so-called "2-tangles" are particularly interesting
 to me because of their relation to spin foam models of quantum gravity,
 which are also all about surfaces in 4-space. For references, see
@@ -405,8 +405,8 @@ check out "the tale of $n$-categories", starting in
 6) _Representation theory of Hopf categories_, Martin Neuchl, Ph.D. dissertation, Department of Mathematics, University of Munich, 1997. Available at `http://math.ucr.edu/home/baez/neuchl.ps`
 
 Just as the category of representations of a Hopf algebra gives a nice
-monoidal category, the 2-category of representations of a Hopf category
-gives a nice monoidal 2-category! Categorification strikes again --- and
+monoidal category, the $2$-category of representations of a Hopf category
+gives a nice monoidal $2$-category! Categorification strikes again --- and
 this is perhaps our best hopes for getting our hands on the data needed
 to stick into Mackaay's machine and get concrete examples of a 4d
 topological quantum field theories!

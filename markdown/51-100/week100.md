@@ -112,18 +112,18 @@ that in the world of $n$-categories, one keeps track of things, processes,
 meta-processes, and so on to the nth level, but after that one calls it
 quits and uses equations.
 
-So what is the definition of 4-categories? Well, Eilenberg and Mac Lane
-defined 1-categories, or simply "categories", in a paper that was
+So what is the definition of $4$-categories? Well, Eilenberg and Mac Lane
+defined $1$-categories, or simply "categories", in a paper that was
 published in 1945:
 
 1) S. Eilenberg and S. Mac Lane, "General theory of natural equivalences", _Trans. Amer. Math. Soc._ **58** (1945), 231--294.
 
-Benabou defined 2-categories --- though actually he called them
+Benabou defined $2$-categories --- though actually he called them
 "bicategories" --- in a 1967 paper:
 
 2) J. Benabou, _Introduction to bicategories_, Springer Lecture Notes in Mathematics **47**, New York, 1967, pp. 1--77.
 
-Gordon, Power, and Street defined 3-categories --- or actually
+Gordon, Power, and Street defined $3$-categories --- or actually
 "tricategories" --- in a paper that came out in 1995:
 
 3) R. Gordon, A. J. Power, and R. Street, "Coherence for tricategories", _Memoirs Amer. Math. Soc._ **117** (1995) Number 558.
@@ -131,7 +131,7 @@ Gordon, Power, and Street defined 3-categories --- or actually
 This step took a long time in part because it took a long time for
 people to understand deeply where *braidings* fit into the picture.
 
-But what about 4-categories and higher $n$? Well, the history is
+But what about $4$-categories and higher $n$? Well, the history is
 complicated and I won't get it right, but let me say a bit anyway.
 First of all, there are some things called "strict $n$-categories" that
 people have known how to define for arbitrarily high $n$ for quite a

@@ -190,7 +190,7 @@ quantum field theory --- examples of which are Chern-Simons theory and
 quantum gravity in 3 dimensions. And Crane and Frenkel have shown (or
 perhaps it's fairer to say that if they ever finish their paper they
 *will* have shown) that the nicest modular tensor categories give rise
-to braided tensor 2-categories, which should, if there be justice, give
+to braided tensor $2$-categories, which should, if there be justice, give
 4d topological quantum field theories. (For more information on all
 these wonderful things --- which no doubt seem utterly intimidating to the
 uninitiated --- check out previous "This Week's Finds.") Quantum

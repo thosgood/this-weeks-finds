@@ -79,8 +79,8 @@ Topological Field Theories, Ph.D. theis, U.C. Berkeley, 2009. Available
 at `http://sites.google.com/site/chrisschommerpriesmath/`
 
 Instead of (\infty,n)-categories, Schommer-Pries just uses $n$-categories - and
-since he's doing 2d TQFTs, that means 2-categories. Or more precisely,
-"weak" 2-categories, where all the laws hold only up to equivalence.
+since he's doing 2d TQFTs, that means $2$-categories. Or more precisely,
+"weak" $2$-categories, where all the laws hold only up to equivalence.
 Like most people, he calls these "bicategories". And one of the charms
 of his thesis is that he gives a detailed treatment of the n = 2 column
 of the periodic table of $n$-categories - which in his language looks like
@@ -141,7 +141,7 @@ For more on nCob as an $n$-category, try this:
 Theory and Applications of Categories 18 (2007), 274-302. Available at
 `http://www.tac.mta.ca/tac/volumes/18/10/18-10abs.html`
 
-I should add that a lot of the 2-category theory in Schommer-Pries'
+I should add that a lot of the $2$-category theory in Schommer-Pries'
 thesis relies on a thesis by a student of Ross Street:
 
 8) Paddy McCrudden, Balanced coalgebroids, Theory and Applications of

@@ -36,7 +36,7 @@ for all elements $g$ of $G$, and where every element $g$ has an inverse $g^{-1}$
 with
 $$gg^{-1} = g{^-1}g = 1.$$
 For example, the group of rotations in $n$-dimensional Euclidean space.
-When we started understanding 1-categories --- that is, categories! --- the
+When we started understanding $1$-categories --- that is, categories! --- the
 real idea behind groups and symmetry could be more clearly expressed.
 Sets have elements, and they are either equal or not --- no two ways about
 it. Categories have "objects", and even though two objects aren't
@@ -45,11 +45,11 @@ itself in lots of different ways: these are its symmetries, and the
 symmetries form a group. But this is really just the tip of a still
 mysterious iceberg.
 
-For example, in a 2-category, even though two objects aren't equal, or
+For example, in a $2$-category, even though two objects aren't equal, or
 even isomorphic, they can be "equivalent", or maybe I should say
 "2-equivalent". This is a still more general notion of "sameness". I
 won't try to define it just now, but I'll just note that it arises
-from the fact that in a 2-category one can ask whether two morphisms are
+from the fact that in a $2$-category one can ask whether two morphisms are
 isomorphic! (For people who followed ["Week 49"](#week49) and know
 some category theory, let me note that the standard notion of
 equivalence of categories is a good example of this "equivalence"
@@ -79,17 +79,17 @@ categories of representations are *braided* monoidal categories. The
 cool thing is that $\mathrm{SU}(2)$ has an avatar called "quantum $\mathrm{SU}(2)$" which is
 one of these quantum groups. Again, eyeball the chart in
 ["Week 49"](#week49). Symmetric monoidal categories are a special
-kind of 4-categories, which is why they show up so much in 4d physics,
-while braided monoidal categories are a special kind of 3-categories,
+kind of $4$-categories, which is why they show up so much in 4d physics,
+while braided monoidal categories are a special kind of $3$-categories,
 which is why they (and quantum groups) show up in 3d physics. For
 example, quantum $\mathrm{SU}(2)$ shows up in the study of 3d quantum gravity (see
 ["Week 16"](#week16)). Now the even cooler thing is that while a
 quaistriangular Hopf algebra is a set with a bunch of operations, there
 is a souped-up gadget, a "quasitriangular Hopf category", which is a
 *category* with an analogous bunch of operations, and these have a
-*category* of representations, but not just any old 2-category, but in
-fact a *braided monoidal 2-category*. If you again eyeball the chart,
-you'll see this is a special kind of 4-category, so it should be
+*category* of representations, but not just any old $2$-category, but in
+fact a *braided monoidal $2$-category*. If you again eyeball the chart,
+you'll see this is a special kind of $4$-category, so it should be
 related to 4d topology and --- this is the big hope --- 4d physics. Now the
 *really* cool thing, which is what Crane and Frenkel show here, is that
 $\mathrm{SU}(2)$ has yet another avatar which is one of these quasitriangular Hopf

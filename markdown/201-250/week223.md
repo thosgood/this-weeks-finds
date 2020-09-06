@@ -653,9 +653,9 @@ In particular, he wanted to know the definition of "2-group" and
 >
 > All this categorifies painlessly:
 >
-> A 2-group is just a 2-category with one object and with all morphisms
+> A 2-group is just a $2$-category with one object and with all morphisms
 > and 2-morphisms invertible. Slick! But, we sometimes prefer to think
-> of a 2-group as a category: the morphisms of our 2-category get called
+> of a 2-group as a category: the morphisms of our $2$-category get called
 > "objects" of this category, and the 2-morphisms get called
 > "morphisms". This category then has a multiplication functor
 >
@@ -678,12 +678,12 @@ In particular, he wanted to know the definition of "2-group" and
 > multiplication m\colon  G \times G \to  G comes from the multiplication in our
 > group, and so on.
 >
->       Let's stick to F abelian. You think of AUT(F) as being the 2-category with
+>       Let's stick to F abelian. You think of AUT(F) as being the $2$-category with
 >       objects Aut(F), 1-morphisms Hom(φ,\psi)=F if φ=\psi and empty otherwise
 >       (because F is abelian). What are the 2-morphisms? Is Hom(φ,\psi) supposed
 >       to be a category with objects F?
 >
-> Alas, you're one dimension down: thought of as a 2-category, we want
+> Alas, you're one dimension down: thought of as a $2$-category, we want
 > our 2-group AUT(F) to have one object, the usual group Aut(F) as
 > morphisms, and conjugations between these as 2-morphisms.
 >
@@ -708,7 +708,7 @@ In particular, he wanted to know the definition of "2-group" and
 > f a(g) f^-1^ = a'(g) for all g ∈ F
 >
 > This viewpoint requires some extra work to check that AUT(F) is a
-> 2-group. The 2-category viewpoint is actually much more efficient.
+> 2-group. The $2$-category viewpoint is actually much more efficient.
 >
 >       Now what is a homomorphism B \to AUT(F)?
 >
@@ -719,7 +719,7 @@ In particular, he wanted to know the definition of "2-group" and
 > definition of homomorphism, replacing some equations by isomorphisms,
 > to get things to work out well now.
 >
-> If we think of B and AUT(F) as 2-categories, a homomorphism B \to AUT(F)
+> If we think of B and AUT(F) as $2$-categories, a homomorphism B \to AUT(F)
 > is just a weak 2-functor. Slick! But, you may not enjoy this
 > definition as much as I do.
 >
@@ -771,7 +771,7 @@ that correspond to *isomorphism classes* of homomorphisms B \to Aut(F).
 For this, one needs to know what a "2-isomorphism" between
 homomorphisms of 2-groups is. Again, this is explained in my paper with
 Lauda. It's a special case of a weak natural isomorphism between weak
-2-functors between 2-categories, but we say what this means in terms
+2-functors between $2$-categories, but we say what this means in terms
 that working mathematicians can understand.
 
 Also, Toby Bartels had some comments on the dinosaurs of Cabazon and
@@ -1177,7 +1177,7 @@ Finally, here's my reply to a bemused comment by Jim Stasheff:
 > especially Claudio Hermida:
 >
 > 28) Claudio Hermida, Descent on 2-fibrations and strongly 2-regular
-> 2-categories, Applied Categorical Structures, 12 (2004), 427-459. Also
+> $2$-categories, Applied Categorical Structures, 12 (2004), 427-459. Also
 > available at
 > `http://maggie.cs.queensu.ca/chermida/papers/2-descent.pdf`
 >

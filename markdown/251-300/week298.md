@@ -180,7 +180,7 @@ theory", which does the same job for strings and higher-dimensional
 membranes. For strings we need Lie 2-groups and their Lie 2-algebras.
 Lie 2-groups are like Lie groups except that they're *categories*
 instead of sets... and similarly for Lie 2-algebras. Go up one more
-dimension and you need math based on *2-categories*. So, for 2-branes,
+dimension and you need math based on *$2$-categories*. So, for 2-branes,
 which look like soap bubbles instead of loops of string, you need Lie
 3-groups and their Lie 3-algebras. Etcetera.
 

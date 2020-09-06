@@ -274,20 +274,20 @@ topology....
 
 Let me conclude by reminding you where I am in "the tale of
 $n$-categories" and where I want to go next. So far I have spoken mainly
-of 0-categories, 1-categories, and 2-categories, with lots of vague
+of 0-categories, $1$-categories, and $2$-categories, with lots of vague
 allusions as to how various patterns generalize to higher $n$. Also, I
 have concentrated mainly on the related notions of equality,
 isomorphism, equivalence, and adjointness. Equality, isomorphism and
 equivalence are the most natural notions of "sameness" when working in
-0-categories, 1-categories, and 2-categories, respectively. Adjointness
+0-categories, $1$-categories, and $2$-categories, respectively. Adjointness
 is a closely related but more subtle and exciting concept that you can
-only start talking about once you get to the level of 2-categories.
+only start talking about once you get to the level of $2$-categories.
 People got tremendously excited by it when they started working with the
-2-category $\mathsf{Cat}$ of all small categories, because it explained a vast
+$2$-category $\mathsf{Cat}$ of all small categories, because it explained a vast
 number of situations where you have a way to go back and forth between
 two categories, without the categories being "the same" (or
 equivalent). Another exciting thing about adjointness is that it really
-highlights the relation between 2-categories and $2$-dimensional topology
+highlights the relation between $2$-categories and $2$-dimensional topology
 --- thus pointing the way to a more general relation between $n$-categories
 and $n$-dimensional topology. From this point of view, adjointness is all
 about "folds":
@@ -347,7 +347,7 @@ This concept of "doubling back" or "backtracking" is a very simple
 and powerful one, so it's not surprising that it is prevalent
 throughout mathematics and physics. It is an essentially $2$-dimensional
 phenomenon (though it occurs in higher dimensions as well), so it can be
-understood most generally in the language of 2-categories.
+understood most generally in the language of $2$-categories.
 
 (In physics, "doubling back" is related to the notion of antiparticles
 as particle moving backwards in time, and appears in the Feynman
@@ -371,11 +371,11 @@ $$
 $$
 This is probably even more powerful than the concept of "folding": it
 shows up whenever we add numbers, multiply numbers, or in many other
-ways combine things. The 2-categorical way to understand this is as
-follows. Suppose we have an object $x$ in a 2-category, and a morphism $f\colon x \to x$.
+ways combine things. The $2$-categorical way to understand this is as
+follows. Suppose we have an object $x$ in a $2$-category, and a morphism $f\colon x \to x$.
 Then we can ask for a 2-morphism
 $$M\colon f^2 \Rightarrow f.$$
-If we have such a thing, we can draw it as a traditional 2-categorical
+If we have such a thing, we can draw it as a traditional $2$-categorical
 diagram:
 $$
   \begin{tikzpicture}

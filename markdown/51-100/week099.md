@@ -81,7 +81,7 @@ Now I'd like to switch gears and return to...
 THE TALE OF $n$-CATEGORIES!
 
 Recall that in our last episode, in ["Week 92"](#week92), we had
-worked our way up to 2-categories, and we were beginning to see what
+worked our way up to $2$-categories, and we were beginning to see what
 they had to do with $2$-dimensional physics and toplogy. I described how
 to get monads from adjunctions, and what this has to do with matrix
 multiplication, Yang-Mills theory, and the 4-color theorem.

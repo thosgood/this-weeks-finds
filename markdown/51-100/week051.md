@@ -47,9 +47,9 @@ satisfying these axioms most efficiently using braided monoidal
 categories, which play a big role in 3d topology. So it makes quite a
 bit of sense in a *general* sort of way that Crane and Frenkel are
 trying to construct Donaldson theory using braided monoidal
-2-categories, which seem to play a comparable role in 4d topology. In
+$2$-categories, which seem to play a comparable role in 4d topology. In
 the paper which I cite in ["Week 50"](#week50), they begin to
-construct a braided monoidal 2-category related to the group $\mathrm{SU}(2)$,
+construct a braided monoidal $2$-category related to the group $\mathrm{SU}(2)$,
 which they conjecture gives a TQFT related to Donaldson theory. That
 also makes some *general* sense, because Donaldson theory, at least
 "old" Donaldson theory, is closely related to gauge theory with gauge
