@@ -113,61 +113,57 @@ greatest lower bound of two subspaces is just their intersection: the
 biggest subspace contained in either of them. Their least upper bound is
 their "span": the smallest subpsace containing both of them. For
 example:
+$$
+  \begin{tikzpicture}
+    \draw[thick] (-1,0) to (2,0) node[label=right:{$P$}]{};
+    \draw[thick] (-0.25,-0.7) to (1,1.5) node[label=above:{$Q$}]{};
+    \node at (0.15,-0.01) {$\bullet$};
+  \end{tikzpicture}
+$$
+Here the intersection of $P$ and $Q$ is a point, and their span is a plane.
 
-                                 Q
-                                /
-                               /
-               ---------------/---------------P
-                             /
-                            /
-
-Here the intersection of P and Q is a point, and their span is a plane.
-
-If we think in terms of logic, the greatest lower bound of P and Q is
-called "P and Q": the weakest proposition implying either of them.
-Similarly, their least upper bound is called "P or Q": the strongest
+If we think in terms of logic, the greatest lower bound of $P$ and $Q$ is
+called "$P$ and $Q$": the weakest proposition implying either of them.
+Similarly, their least upper bound is called "$P$ or $Q$": the strongest
 proposition implied by both of them.
 
 If we do this starting with complex projective space, we get the lattice
 of propositions for an ordinary sort of quantum theory, based on the
 complex numbers. The same sort of thing works in the real, quaternionic
-and octonionic cases - though for the octonions, you can't go above the
+and octonionic cases --- though for the octonions, you can't go above the
 octonionic projective *plane*.
 
 Translating the statement of Desargues' theorem from geometry to logic,
 we can reinterpret it as a *law of logic* which holds in real, complex
-and quaternionic quantum theory - but not octonionic! If I could grok
+and quaternionic quantum theory --- but not octonionic! If I could grok
 what this law said, I might understand how octonionic quantum theory was
 different from the others. Unfortunately, it's pretty complicated.
-Here's what it says: if we have 6 propositions x, y, z, x', y', z',
+Here's what it says: if we have 6 propositions $x$, $y$, $z$, $x'$, $y'$, $z'$,
 then
-
-    [x and (x' or [(y or y') and (z or z')])] 
-
-    implies
-
-    [y or ([x' or y'] and [([x or z] and [x' or z']) or
-                           ([y or z] and [y' or z']) ]
-                           
-
+$$
+  \begin{gathered}
+    \{x \operatorname{and} (x' \operatorname{or} \{(y \operatorname{or} y') \operatorname{and} (z \operatorname{or} z')\})\}
+  \\\implies
+  \\\{y \operatorname{or} (\{x' \operatorname{or} y'\} \operatorname{and} \{(\{x \operatorname{or} z\} \operatorname{and} \{x' \operatorname{or} z'\}) \operatorname{or} (\{y \operatorname{or} z\} \operatorname{and} \{y' \operatorname{or} z'\}) \}
+  \end{gathered}
+$$
 where I have used two flavors of parentheses in a feeble attempt to make
 these expressions easier to parse. If you look at
 ["Week 145"](#week145), you can sort of see where this weird stuff
-is coming from: Desargues' theorem is about two triangles xyz and
-x'y'z'. But comprehending it as a law of *logic* still seems very
+is coming from: Desargues' theorem is about two triangles $xyz$ and
+$x'y'z'$. But comprehending it as a law of *logic* still seems very
 tough.
 
 (In case you're tempted to massage the above expressions using other
 laws of logic, beware: you're not allowed to use the distributivity of
-"and" over "or" and vice versa in quantum logic - that's a very
+"and" over "or" and vice versa in quantum logic --- that's a very
 *classical* law, and it's not allowed here. But you might try using it
 anyway, just for fun, to see what happens!)
 
 Anyway, I found it interesting to discover that Desargues' theorem is
 just of one of many laws that hold in all "linear lattices":
 
-3) Matteo Mainetti and Catherine Huafei Yan, Arguesian identities in
-linear lattices, Adv. Math. 144 (1999), 50-93.
+3) Matteo Mainetti and Catherine Huafei Yan, "Arguesian identities in linear lattices", _Adv. Math._ **144** (1999), 50--93.
 
 But what's a linear lattice? Back when I was at MIT, Gian-Carlo Rota
 occasionally tried to get me interested in these, and he'd always say,
@@ -177,45 +173,41 @@ parse that sentence. Luckily, by reading this paper by people whom he
 *did* manage to interest, I finally figured out what he meant.
 
 First of all, we can partially order the relations on a given set by
-saying the relation R "implies" the relation S iff xRy implies xSy for
-all x,y. This makes relations into a lattice, and equivalence relations
+saying the relation $R$ "implies" the relation $S$ iff $xRy$ implies $xSy$ for
+all $x,y$. This makes relations into a lattice, and equivalence relations
 become a sublattice.
 
-Second, we can compose relations. Given relations R and S, the relation
-RS is defined by:
-
-xRSz iff xRy and ySz for some y.
-
-We say the relations R and S commute if RS = SR. For example, if R is
-"father of" and S is "mother of", then R and S do not commute, since
-RS is "maternal grandfather of" and SR is "paternal grandmother of".
+Second, we can compose relations. Given relations $R$ and $S$, the relation
+$RS$ is defined by:
+$$\mbox{$xRSz$ iff $xRy$ and $ySz$ for some $y$.}$$
+We say the relations $R$ and $S$ commute if $RS = SR$. For example, if $R$ is
+"father of" and $S$ is "mother of", then $R$ and $S$ do not commute, since
+$RS$ is "maternal grandfather of" and $SR$ is "paternal grandmother of".
 Here's a cute fact whose proof I leave as a puzzle: two equivalence
-relations R and S commute if and only if RS is an equivalence relation.
+relations $R$ and $S$ commute if and only if $RS$ is an equivalence relation.
 
 Now hopefully it makes sense when I tell you that a linear lattice is a
 lattice of equivalence relations on some set, all of which commute. But
 to see why this is cool, you need some examples.
 
 The classic example is the lattice of subspaces of a vector space! Any
-subspace S determines an equivalence relation on our vector space, which
-by abuse of language we also call S, given by letting xSy iff x-y is in
-S. All these equivalence relations commute, because addition of vectors
+subspace $S$ determines an equivalence relation on our vector space, which
+by abuse of language we also call $S$, given by letting $xSy$ iff $x-y$ is in
+$S$. All these equivalence relations commute, because addition of vectors
 commutes, as shown by the "parallelogram law":
-
-                         y'------------------z
-                        /                   /
-                       /                   /
-                      /                   /  
-                     /                   /
-                    /                   /
-                   x-------------------y
-
-xRSz iff x-y is in R and y-z is in S for some y,
-
+$$
+  \begin{tikzpicture}
+    \node (bl) at (0,0) {$x$};
+    \node (br) at (2,0) {$y$};
+    \node (tl) at (0.75,1.5) {$y'$};
+    \node (tr) at (2.75,1.5) {$z$};
+    \draw[thick] (bl) to (tl) to (tr) to (br) to (bl);
+  \end{tikzpicture}
+$$
+So
+$$\mbox{$xRSz$ iff $x-y$ is in $R$ and $y-z$ is in $S$ for some $y$,}$$
 while
-
-xSRz iff x-y' is in S and y'-z is in R for some y'.
-
+$$\mbox{$xSRz$ iff $x-y'$ is in $S$ and $y'-z$ is in $R$ for some $y'$.}$$
 but the picture shows these are equivalent!
 
 If we start with a vector space over the reals, complexes or
@@ -236,30 +228,24 @@ pictures of these deduction rules, which makes them look a bit like
 tricks for rewiring electrical circuits! You can learn about this in the
 above paper, or Haiman's original paper:
 
-4) Mark Haiman, Proof theory for linear lattices, Adv. Math. 58 (1985),
-209-242.
+4) Mark Haiman, "Proof theory for linear lattices", _Adv. Math._ **58** (1985), 209--242.
 
 or this followup:
 
-5) D. Finberg, M. Mainetti and G.-C. Rota, The logic of commuting
-equivalence relations, in Logic and Algebra, eds. A. Ursini and P.
-Agliano, Lecture Notes in Pure and Applied Mathematics, vol. 180,
-Decker, New York 1996.
+5) D. Finberg, M. Mainetti and G.-C. Rota, "The logic of commuting equivalence relations", in _Logic and Algebra_, eds. A. Ursini and P. Agliano, Lecture Notes in Pure and Applied Mathematics, vol. **180**, Decker, New York 1996.
 
 To finish up, let me add that there are lots of linear lattices. For
 example, we can try generalizing the above trick from vector spaces to
-groups! Given any group G, each subgroup H determines an equivalence
-relation on G, which by abuse of language I'll call H, such that xHy
-iff xy^-1^ is in H. If G is abelian all these equivalence relations
-commute, so the lattice of subgroups of G becomes a linear lattice. If G
+groups! Given any group $G$, each subgroup $H$ determines an equivalence
+relation on $G$, which by abuse of language I'll call $H$, such that $xHy$
+iff $xy^{-1}$ is in $H$. If $G$ is abelian all these equivalence relations
+commute, so the lattice of subgroups of $G$ becomes a linear lattice. If $G$
 is nonabelian this trick breaks down unless we use *normal* subgroups.
 
 I should also add that nobody has figured out whether the collection of
 linear lattices can be characterized by identities... though they
 satisfy lots of interesting identities, like the famous "modular law":
-
-x and (y or (x and z)) = (x and y) or (x and z)
-
+$$x \operatorname{and} (y \operatorname{or} (x \operatorname{and} z)) = (x \operatorname{and} y) \operatorname{or} (x \operatorname{and} z)$$
 This is one reason Haiman's proof theory is interesting.
 
 Now, on to some category theory!
