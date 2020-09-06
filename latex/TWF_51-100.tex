@@ -49,6 +49,10 @@
 
 \usepackage{tikz-cd}
 
+\makeatletter
+\newcommand{\xRightarrow}[2][]{\ext@arrow 0359\Rightarrowfill@{#1}{#2}}
+\makeatother
+
 \setcounter{section}{50}
 
 \begin{document}
@@ -10770,9 +10774,9 @@ Alternatively, we can state these equations using the 2-categorical
 notation described in \protect\hyperlink{week80}{``Week 80''}, by saying
 that the following vertical composites of 2-morphisms are identity
 morphisms:
-\[L = 1_aL\overset{i\cdot1_L}{\Longrightarrow}LRL\overset{1_L\cdot e}{\Longrightarrow}L1_a = L\]
+\[L = 1_aL\xRightarrow{i\cdot1_L}LRL\xRightarrow{1_L\cdot e}L1_a = L\]
 and
-\[R = R1_a\overset{1_R\cdot i}{\Longrightarrow}RLR\overset{e\cdot1_R}{\Longrightarrow}1_bR = R\]
+\[R = R1_a\xRightarrow{1_R\cdot i}RLR\xRightarrow{e\cdot1_R}1_bR = R\]
 where \(\cdot\) denotes the horizontal composite. If you look at these,
 and compare them to the graphical notation above, you'll see they are
 really saying the same thing.
@@ -12601,19 +12605,16 @@ you have a 2-category with an object \(x\) in it, a morphism
 \(s\colon x\to x\), and a 2-morphism \(M\colon ss\Rightarrow s\). Often
 we are interested in situations like this where the ``multiplication''
 \(M\) is associative, meaning that the composite
-\[sss\overset{M\cdot1_s}{\Longrightarrow}ss\overset{M}{\Longrightarrow}s\]
-equals
-\[sss\overset{1_s\cdot M}{\Longrightarrow}ss\overset{M}{\Longrightarrow}s\]
-(Here \(1_s\colon s\Rightarrow s\) is the identity 2-morphism from \(s\)
-to itself\ldots{} the axioms for a 2-category say that this exists.)
-Also, we're often interested in situations where there is a
-``multiplicative unit'', that is, a 2-morphism \(I\colon 1_x\to s\) for
-which
-\[s = 1_xs\overset{I\cdot1_s}{\Longrightarrow}ss\overset{M}{\Longrightarrow}s\]
-equals \(1_s\), and so does
-\[s = s1_x\overset{1_s\cdot I}{\Longrightarrow}ss\overset{M}{\Longrightarrow}s\]
-If we have a 2-category with stuff in it satisfying these rules, we say
-we have a ``monad'' in that 2-category.
+\[sss\xRightarrow{M\cdot1_s}ss\xRightarrow{M}s\] equals
+\[sss\xRightarrow{1_s\cdot M}ss\xRightarrow{M}s\] (Here
+\(1_s\colon s\Rightarrow s\) is the identity 2-morphism from \(s\) to
+itself\ldots{} the axioms for a 2-category say that this exists.) Also,
+we're often interested in situations where there is a ``multiplicative
+unit'', that is, a 2-morphism \(I\colon 1_x\to s\) for which
+\[s = 1_xs\xRightarrow{I\cdot1_s}ss\xRightarrow{M}s\] equals \(1_s\),
+and so does \[s = s1_x\xRightarrow{1_s\cdot I}ss\xRightarrow{M}s\] If we
+have a 2-category with stuff in it satisfying these rules, we say we
+have a ``monad'' in that 2-category.
 
 What is an example of a monad? Well, consider our original example where
 s is a set and M is a function. We can think of this as living in a

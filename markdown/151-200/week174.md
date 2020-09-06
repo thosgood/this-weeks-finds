@@ -190,11 +190,11 @@ typical 2-morphism looks like this:
 By the triangle equations, we could straighten out the zig-zag without
 changing the 2-morphism.
 
-As you may know, the word "anaranjado" means "orange" in Spanish -
+As you may know, the word "anaranjado" means "orange" in Spanish ---
 there was no word in English for "orange" before people in England
 started importing oranges from Spain. And this is a nice mnemonic,
 because if we take the above picture and paint the regions labelled
-"a" orange, and paint the regions labelled "b" black, the above
+"$a$" orange, and paint the regions labelled "$b$" black, the above
 picture has a roughly tiger-striped appearance. In fact, these tiger
 stripes tell you everything you need to know about the 2-morphism! For
 example, starting from just this:
@@ -219,18 +219,16 @@ there can never be any orange or black *spots*. We'll change these
 rules later, when we talk about the walking "ambidextrous adjunction".
 
 Okay, so we've got this 2-category, the walking adjunction: let's call
-it Ad for short. It's pretty simple. How can we understand it better?
+it $\mathsf{Ad}$ for short. It's pretty simple. How can we understand it better?
 
-Well, for any two objects a and b in a 2-category we get a
-"hom-category" \operatorname{Hom}(a,b), whose objects are the morphisms from a to b,
+Well, for any two objects $a$ and $b$ in a 2-category we get a
+"hom-category" $\operatorname{Hom}(a,b)$, whose objects are the morphisms from $a$ to $b$,
 and whose morphisms are the 2-morphisms between those. If we work out
-these hom-categories in Ad, we get some cool stuff.
+these hom-categories in $\mathsf{Ad}$, we get some cool stuff.
 
-First let's look at the hom-category \operatorname{Hom}(a,a). In this category, the
+First let's look at the hom-category $\operatorname{Hom}(a,a)$. In this category, the
 objects are
-
-1~a~, LR, LRLR, LRLRLR, ....
-
+$$1_a, LR, LRLR, LRLRLR, \ldots$$
 and all the morphisms are built by sticking these two basic generators
 together vertically or horizontally:
 
@@ -264,7 +262,7 @@ stripes and the appearance of a black stripe.
 
 If you read ["Week 89"](#week89), you'll know another way to
 describe this! Our ability to stick together pictures vertically and
-horizontally makes \operatorname{Hom}(a,a) into a "monoidal category". LR is a
+horizontally makes $\operatorname{Hom}(a,a)$ into a "monoidal category". $LR$ is a
 "monoid object", with merging of two black stripes being
 "multiplication", and the appearance of a black stripe being the
 "multiplicative identity". Being a "monoid object" simply means that
@@ -306,12 +304,12 @@ associative law:
                        | |                    | |
                        | |                    | |
 
-There aren't any other laws, so \operatorname{Hom}(a,a) is the "free monoidal
+There aren't any other laws, so $\operatorname{Hom}(a,a)$ is the "free monoidal
 category on a monoid object", or if you prefer, the "walking monoid"!
 
 I touched upon the immense consequences of this fact for algebraic
 topology in ["Week 117"](#week117) and ["Week 118"](#week118).
-They mainly rely on another way of thinking about \operatorname{Hom}(a,a): it's the
+They mainly rely on another way of thinking about $\operatorname{Hom}(a,a)$: it's the
 category of order-preserving maps between finite ordinals!
 
 For example, these black tiger stripes on an orange background:
@@ -332,22 +330,34 @@ For example, these black tiger stripes on an orange background:
                          0             1            2
 
 correspond to the order-preserving map
-
-f\colon  {0,1,2,3} \to  {0,1,2}
-
+$$f\colon \{0,1,2,3\} \to \{0,1,2\}$$
 with
-
-f(0) = 0, f(1) = 0, f(2) = 0, f(3) = 2.
-
+$$f(0) = 0,\quad f(1) = 0,\quad f(2) = 0,\quad f(3) = 2.$$
 Just read the stripes down!
 
-A more geometrical way to say the same thing is to call \operatorname{Hom}(a,a) the
-category of "simplices", usually denoted Δ. Here the object
-
-                             |---n+1 of them---|
-                              LRLR..........LRLR
-
+A more geometrical way to say the same thing is to call $\operatorname{Hom}(a,a)$ the
+category of "simplices", usually denoted $\Delta$. Here the object
+$$\underbrace{LRLR\ldots LR}_{\mbox{$n+1$ of them}}$$
 corresponds to the $n$-simplex, and these morphisms:
+$$
+  \begin{tikzcd}[column sep=huge]
+    1_a
+      \rar["i" description]
+    & LR
+      \rar[shift left=5,"i\cdot LR" description]
+      \rar["LR\cdot i" description]
+    & LRLR
+      \rar[shift left=10,"i\cdot LRLR" description]
+      \rar[shift left=5,"LR\cdot i\cdot LR" description]
+      \rar["LRLR\cdot i" description]
+      \lar[shift left=5,"L\cdot e\cdot R" description]
+    & LRLRLR
+      \lar[shift left=5,"L\cdot e\cdot RLR" description]
+      \lar[shift left=10,"LRL\cdot e\cdot R" description]
+      \rar
+    &\ldots
+  \end{tikzcd}
+$$
 
                                      -i.LRLR-->
                      --i.LR->        -LR.i.LR->
@@ -386,8 +396,8 @@ we get a 2-morphism like this:
                              gg'
 
 But sometimes we can also horizontally compose a morphism and a
-2-morphism! We can do it whenever our morphism f looks like a little
-"whisker" f sticking out of the 2-morphism T:
+2-morphism! We can do it whenever our morphism $f$ looks like a little
+"whisker" $f$ sticking out of the 2-morphism $T$:
 
                                       f'
                                   ---->----  
@@ -397,7 +407,7 @@ But sometimes we can also horizontally compose a morphism and a
                                   ---->----
                                       g'
 
-and what we get is a 2-morphism f.S like this:
+and what we get is a 2-morphism $f\cdot S$ like this:
 
                              ff'
                       -------->-------
@@ -407,7 +417,7 @@ and what we get is a 2-morphism f.S like this:
                       -------->-------
                              fg'
 
-This process, called "whiskering", is not really a new operation. f.S
+This process, called "whiskering", is not really a new operation. $f\cdot S$
 is really just the horizontal composite of these 2-morphisms:
 
                           f           f'
@@ -418,7 +428,7 @@ is really just the horizontal composite of these 2-morphisms:
                       ---->----   ---->----
                           f           g'
 
-Similarly we can define T.f in this sort of situation:
+Similarly we can define $T\cdot f$ in this sort of situation:
 
                           f'           
                       ---->----   
@@ -429,8 +439,8 @@ Similarly we can define T.f in this sort of situation:
                           g'     
 
 Anyway, once you're an expert on this 2-categorical yoga, you can
-easily see that these morphisms in \operatorname{Hom}(a,a), which are really
-2-morphisms in Ad:
+easily see that these morphisms in $\operatorname{Hom}(a,a)$, which are really
+2-morphisms in $\mathsf{Ad}$:
 
                                      -i.LRLR-->
                      --i.LR->        -LR.i.LR->
@@ -439,16 +449,14 @@ easily see that these morphisms in \operatorname{Hom}(a,a), which are really
                                      <-LRL.e.R-
 
 are obtained by taking our basic tiger stripe operations --- the "merging
-of two black stripes", or L.e.R, and the "appearance of a black
-stripe", or i --- and drawing some extra black stripes on both sides.
-That's what those LR's are for. After all, no tiger is complete
+of two black stripes", or $L\cdot e\cdot R$, and the "appearance of a black
+stripe", or $i$ --- and drawing some extra black stripes on both sides.
+That's what those $LR$'s are for. After all, no tiger is complete
 without whiskers!
 
-Okay. Now, having understood \operatorname{Hom}(a,a) in all these ways, let's turn to
-\operatorname{Hom}(b,b). Luckily, this is very similar! Here the objects are
-
-1~b~, RL, RLRL, RLRLRL, ....
-
+Okay. Now, having understood $\operatorname{Hom}(a,a)$ in all these ways, let's turn to
+$\operatorname{Hom}(b,b)$. Luckily, this is very similar! Here the objects are
+$$1_b,\quad RL,\quad RLRL,\quad RLRLRL,\quad \ldots$$
 and morphisms are pictures of *orange* stripes on a *black* background:
 
                \   a   /   \   a   /      /               |
@@ -488,12 +496,12 @@ or disappear:
                                  \ /
                                   e
 
-as we march down the page. This means is that \operatorname{Hom}(b,b) is Δ^op^: the
+as we march down the page. This means is that $\operatorname{Hom}(b,b)$ is $\Delta^{\mathrm{op}}$: the
 *opposite* of the category of simplices, the *opposite* of the category
 of finite ordinals, or the walking *comonoid* --- which is just like a
 monoid, only upside down!
 
-Here is another picture of \operatorname{Hom}(b,b):
+Here is another picture of $\operatorname{Hom}(b,b)$:
 
                                       --R.i.LRL->
                      --R.i.L->        --RLR.i.L->
@@ -509,10 +517,8 @@ blow your mind. I was also writing horizontal composites backwards, for
 certain old-fashioned reasons. But the idea is exactly the same! The
 morphisms above give the usual "face and degeneracy maps" we always
 have in a simplicial set, since a simplicial set is a functor
-
-F\colon  Δ^op^ \to  \mathsf{Set}.
-
-By the way, you may have noticed that to get from \operatorname{Hom}(a,a) to \operatorname{Hom}(b,b),
+$$F\colon \Delta^{\mathrm{op}} \to \mathsf{Set}.$$
+By the way, you may have noticed that to get from $\operatorname{Hom}(a,a)$ to $\operatorname{Hom}(b,b)$,
 we had to switch the colors orange and black AND read the pictures
 upside-down. The reason is that if we turn around all the 1-morphisms
 AND 2-morphisms in the walking adjunction, we get the walking adjunction
@@ -521,14 +527,14 @@ again. Ponder that!
 We can summarize what we've learned so far using the "Platonic idea"
 jargon I introduced last week:
 
-The Platonic idea of a monoid and the Platonic idea of a comonoid are
-the hom-categories \operatorname{Hom}(a,a) and \operatorname{Hom}(b,b) sitting inside the Platonic
+> The Platonic idea of a monoid and the Platonic idea of a comonoid are
+the hom-categories $\operatorname{Hom}(a,a)$ and $\operatorname{Hom}(b,b)$ sitting inside the Platonic
 idea of an adjunction!
 
-(By the way, to round this off we should really describe \operatorname{Hom}(a,b) and
-\operatorname{Hom}(b,a), too. I think \operatorname{Hom}(a,b) is the Platonic idea of "an object with
+(By the way, to round this off we should really describe $\operatorname{Hom}(a,b)$ and
+$\operatorname{Hom}(b,a)$, too. I think $\operatorname{Hom}(a,b)$ is the Platonic idea of "an object with
 a left action of a monoid and a right coaction of a comonoid, in a
-compatible way". If so, \operatorname{Hom}(b,a) would be the Platonic idea of "an
+compatible way". If so, $\operatorname{Hom}(b,a)$ would be the Platonic idea of "an
 object with a right action of a monoid and a left coaction of a
 comonoid, in a compatible way". By "compatible" I'm saying that we
 can act on one side and coact on the other side in either order, and get
@@ -545,25 +551,15 @@ people look at in the study of subfactors and TQFTs and the like....
 But what's an "ambidextrous adjunction"?
 
 A ambidextrous adjunction is where you have a morphism
-
-L\colon  a \to  b
-
+$$L\colon a \to b$$
 in a 2-category that is both left and right adjoint to
-
-R\colon  b \to  a.
-
+$$R\colon b \to a.$$
 More precisely, it is a setup
-
-(a,b,L,R,i,e,j,f)
-
+$$(a,b,L,R,i,e,j,f)$$
 where
-
-(a,b,L,R,i,e)
-
+$$(a,b,L,R,i,e)$$
 and
-
-(b,a,R,L,j,f)
-
+$$(b,a,R,L,j,f)$$
 are both adjunctions.
 
 In terms of string diagrams, our generating 2-morphisms look like this:
@@ -586,8 +582,8 @@ In terms of string diagrams, our generating 2-morphisms look like this:
 and the triangle equations say all possible zig-zags can be straightened
 out.
 
-Now let's study the "walking ambidextrous adjunction", AmbAd. As
-before, 2-morphisms in AmbAd can be described using pictures with orange
+Now let's study the "walking ambidextrous adjunction", $\mathsf{AmbAd}$. As
+before, 2-morphisms in $\mathsf{AmbAd}$ can be described using pictures with orange
 and black stripes --- but now *both* kinds of stripes can appear,
 disappear, merge or split as we march down the page:
 
@@ -613,11 +609,9 @@ defines... I don't want to be too precise here, since it would be
 boring. Hopefully you get the idea: AmbAd has a purely topological
 description!
 
-Now for the punchline: in AmbAd, what is the category \operatorname{Hom}(a,a) like? As
-in Ad, the objects are
-
-1~a~, LR, LRLR, LRLRLR, ...
-
+Now for the punchline: in $\mathsf{AmbAd}$, what is the category $\operatorname{Hom}(a,a)$ like? As
+in $\mathsf{Ad}$, the objects are
+$$1_a,\quad LR,\quad LRLR,\quad LRLRLR,\quad \ldots$$
 but now the object LR is equipped not only with multiplication:
 
                          \  \    a    /  /  
@@ -674,16 +668,16 @@ which make it into a monoid object *and* a comonoid object. Even better,
 there are some extra relations between the multiplication and
 comultiplication, which make LR into a so-called "Frobenius object"!
 
-In short, \operatorname{Hom}(a,a) is the walking Frobenius object! So is \operatorname{Hom}(b,b),
-since there is no real asymmetry between the objects a and b in an
+In short, $\operatorname{Hom}(a,a)$ is the walking Frobenius object! So is $\operatorname{Hom}(b,b)$,
+since there is no real asymmetry between the objects $a$ and $b$ in an
 ambidextrous adjunction, as there was with an adjunction. I haven't
-thought much about \operatorname{Hom}(a,b) and \operatorname{Hom}(b,a) yet, but one obvious thing is
+thought much about $\operatorname{Hom}(a,b)$ and $\operatorname{Hom}(b,a)$ yet, but one obvious thing is
 that they're isomorphic.
 
 Next time I'll talk about examples of Frobenius objects and why they
 are so important in subfactors, TQFTs and the like. This is what Mueger
 is really interested in. Right now, I want to wrap up by saying exactly
-what it means to say LR is a "Frobenius object". What are the extra
+what it means to say $LR$ is a "Frobenius object". What are the extra
 relations between multiplication and comultiplication?
 
 There are various ways of describing these relations. Mueger uses a pair
@@ -706,20 +700,17 @@ of equations that are popular in the TQFT literature:
                     / /   \ \                 | |        | | 
                    / /     \ \                | |        | |
 
-and its mirror image. People sometimes call these the "I = N"
+and its mirror image. People sometimes call these the "$I = N$"
 equations, for the obvious reason. So: one definition of a "Frobenius
 object" in a monoidal category is that it's a monoid object / comonoid
-object satisfying the I = N equations.
+object satisfying the $I = N$ equations.
 
 Where can you read about this? Well, besides Mueger's paper, there are
 these:
 
-4) Frank Quinn, Lectures on axiomatic quantum field theory, in Geometry
-and Quantum Field Theory, Amer. Math. Soc., Providence, RI, 1995.
+4) Frank Quinn, "Lectures on axiomatic quantum field theory", in _Geometry and Quantum Field Theory_, Amer. Math. Soc., Providence, RI, 1995.
 
-5) Lowell Abrams, Two-dimensional topological quantum field theories
-and Frobenius algebras, J. Knot Theory and its Ramifications 5 (1996),
-569-587.
+5) Lowell Abrams, "Two-dimensional topological quantum field theories and Frobenius algebras", _J. Knot Theory and its Ramifications_ **5** (1996), 569--587.
 
 A "Frobenius algebra" is just a Frobenius object in the category of
 vector spaces. I seem to recall that this is equivalent to what Quinn
@@ -728,12 +719,12 @@ space associated to the sphere is a commutative Frobenius algebra. The
 proof consists of playing with pictures very much like the ones above,
 but in higher dimensions.
 
-The I = N equations are cute, but personally I prefer a more conceptual
+The $I = N$ equations are cute, but personally I prefer a more conceptual
 description of a Frobenius object. This may be a bit mindblowing to the
 uninitiated, so if you're just barely hanging on, please stop now.
 
 Hmm! If you're still reading this, you must be brave! Okay --- don't say
-I didn't warn you. Let's start by pondering LR a bit more. This guy is
+I didn't warn you. Let's start by pondering $LR$ a bit more. This guy is
 its own adjoint, with the unit and counit as follows:
 
                           _
@@ -764,26 +755,24 @@ Now, whenever a monoid object has a right or left adjoint, that right or
 left adjoint automatically becomes a comonoid object, by the magic of
 duality. But if a monoid object is its *own* adjoint, it becomes a
 comonoid object in *two* ways, because it is both its own left *and*
-right adjoint! So, our guy LR is a comonoid object in *three* ways! Huh?
-Well, we already knew LR was a comonoid object before this devilish
-paragraph began, but since LR is its own adjoint, it becomes a comonoid
-object in two other ways. Amazingly, the I = N equations are equivalent
+right adjoint! So, our guy $LR$ is a comonoid object in *three* ways! Huh?
+Well, we already knew $LR$ was a comonoid object before this devilish
+paragraph began, but since $LR$ is its own adjoint, it becomes a comonoid
+object in two other ways. Amazingly, the $I = N$ equations are equivalent
 to the fact that all three comonoid structures agree! I leave this as an
 exercise for the insanely energetic reader... I've worked it out
 before, and I rechecked it this morning in bed. I don't know if a proof
 exists in the literature, but from what Mueger writes, I suspect maybe
 you can catch glimpses of it in Appendix A3 of this book:
 
-6) L. Kadison, New Examples of Frobenius Extensions, University Lecture
-Series \#14, Amer. Math. Soc., Providence RI, 1999.
+6) L. Kadison, _New Examples of Frobenius Extensions_, University Lecture Series \#**14**, Amer. Math. Soc., Providence RI, 1999.
 
 Anyway, the upshot is that we can equivalently define a Frobenius object
 in a monoidal category as follows: it's a monoid object / comonoid
 object which becomes its own adjoint by letting
 
-unit = multiplicative identity composed with comultiplication
-
-counit = multiplication composed with comultiplicative coidentity
+- unit = multiplicative identity composed with comultiplication
+- counit = multiplication composed with comultiplicative coidentity
 
 and has the property that the resulting 3 comonoid structures agree.
 
@@ -796,9 +785,9 @@ There is much more to say about this, but let's stop here.
 Postscript --- Oswald Wyler had this correction to make:
 
 > The walking adjunction is much older than the 1986 paper by Schanuel
-> and Street. Back in 1970, Pumplün published a paper: Eine Bemerkung
-> über Monaden und adjungierte Funktoren, Math. Annalen 185 (1970),
-> 329-377. The small bicategory "walking adjunction" definitely was in
+> and Street. Back in 1970, Pumplün published a paper:
+> "Eine Bemerkung über Monaden und adjungierte Funktoren", _Math. Annalen_ **185** (1970),
+> 329--377. The small bicategory "walking adjunction" definitely was in
 > that paper, but I don't recall whether it was explicitly formulated
 > or not.
 
@@ -813,60 +802,60 @@ Andree Ehresmann added:
 >
 > > "Adjonction et monade au niveau des 2-categories"
 >
-> published in "Cahiers de Top. et Geom. Diff." XV-1 (1974), 3-20.
+> published in _Cahiers de Top. et Geom. Diff._ **XV-1** (1974), 3--20.
 >
 > More formally it could also be called "the 2-sketch of an
 > adjunction" in the terminology in my paper with Charles Ehresmann:
 >
-> > "Categories of sketched structures", in the "Cahiers" XIII-2
+> > "Categories of sketched structures", in the _Cahiers_ **XIII-2**
 > > (1972),
 >
 > reprinted in "Charles Ehresmann: Oeuvres completes et commentees"
-> Part IV-2.
+> Part **IV-2**.
 
 Bill Lawvere added:
 
-> #### ONE MORE HISTORICAL CITATION
+> **ONE MORE HISTORICAL CITATION**
 >
 > The Pumplun paper cited by Wyler as well as the Auderset paper cited
 > by Mme Ehresmann illustrate that the study of generic structures in
 > 2-categories has been going on for some time. My own paper ORDINAL
-> SUMS AND EQUATIONAL DOCTRINES, SLNM 80 (1969) 141-155 shows that the
-> augmented simplicial category Δ serves as the generic monad, but
+> SUMS AND EQUATIONAL DOCTRINES, SLNM 80 (1969) 141--155 shows that the
+> augmented simplicial category $\Delta$ serves as the generic monad, but
 > moreover goes on to actually apply this to show that the Kleisli
 > construction is a tensor product left-adjoint to the Eilenberg- Moore
 > construction which is an enriched Hom. The Hom/tensor formalism
 > appropriate to the case of strict monoid objects is all that is
 > required here, as I will explain below.
 >
-> #### AN EXTENSION AND A RESTRICTION
+> **AN EXTENSION AND A RESTRICTION**
 >
 > The important special case of FROBENIUS monads is explicitly
 > characterized in three ways in my paper. Concerning the IDEMPOTENT
 > case discussed a few days ago by Grandis and Johnstone, note that the
 > publication of Schanuel and Street proves among other things that the
-> monoid Δ in Cat has very few quotients (see below for significance of
+> monoid $\Delta$ in $\mathsf{Cat}$ has very few quotients (see below for significance of
 > the monoid structure).
 >
 > #### THE GENERAL HOM/TENSOR FORMALISM AND A VERY PARTICULAR MONOID
 >
 > In any cartesian-closed category with finite limits and co-limits, a
 > non-linear version of the Cartan-Eilenberg Hom/tensor formalism
-> applies to actions and biactions of monoid objects. In Cat, Δ is a
+> applies to actions and biactions of monoid objects. In Cat, $\Delta$ is a
 > (strict) monoid and its actions are precisely monads on arbitrary
 > categories. A crucial part of the formalism is that categories of
 > actions are automatically enriched in the basic cartesian-closed
 > category, which in this case is Cat. There is a particular biaction of
-> Δ, which I called Δ plus, with the property that the enriched Hom of
-> it into an arbitrary Δ-action is exactly the Eilenberg-Moore category
-> of "algebras", automatically equipped with its structure as a Δ^op
+> $\Delta$, which I called $\Delta$ plus, with the property that the enriched Hom of
+> it into an arbitrary $\Delta$-action is exactly the Eilenberg-Moore category
+> of "algebras", automatically equipped with its structure as a $\Delta^{\mathrm{op}}$
 > action (co-monad). The left-adjoint tensor assigns to any category
 > equipped with a co-monad its Kleisli category, as a category with
 > monad. Not only are the calculations in this particular case quite
 > explicit, but the enriched Hom tensor formalism has a lot of content
 > which is still under-exploited.
 >
-> #### SKETCHES VERSUS PLATONISM
+> **SKETCHES VERSUS PLATONISM**
 >
 > The often repeated slander that mathematicians think "as if" they
 > were "platonists" needs to be combatted rather than swallowed. What
@@ -878,8 +867,8 @@ Bill Lawvere added:
 > would not have survived until now had it not been for the special
 > efforts of Cosimo de' Medici.) It seems that a general concept has
 > two related aspects, as I began to realize more explicitly in
-> connection with my paper Adjointness in foundations, Dialectica vol.
-> 23, 1969 281-296; I later learned that some philosophers refer to
+> connection with my paper "Adjointness in foundations", _Dialectica_ vol.
+> **23** (1969), pp. 281--296; I later learned that some philosophers refer to
 > these two aspects as "abstract general vs. concrete general". For
 > example, there is the algebraic theory of rings vs. the category of
 > all rings, or a particular abstract group vs. the category of all
@@ -900,7 +889,7 @@ Bill Lawvere added:
 > which are closely related, yet quite distinct; for example, more than
 > one presentation may be needed for efficient calculations determining
 > features of the same algebraic structure. What is meant by a
-> presentation depends on the doctrine: for example Δ as a mere category
+> presentation depends on the doctrine: for example $\Delta$ as a mere category
 > has an infinite presentation used in topology, but as a strict
 > monoidal category it has a finite presentation.
 >

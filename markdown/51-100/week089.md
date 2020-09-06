@@ -177,16 +177,16 @@ you have a 2-category with an object $x$ in it, a morphism $s\colon x\to x$, and
 2-morphism $M\colon ss\Rightarrow s$. Often we are interested in situations like this
 where the "multiplication" $M$ is associative, meaning that the
 composite
-$$sss\overset{M\cdot1_s}{\Longrightarrow}ss\overset{M}{\Longrightarrow}s$$
+$$sss\xRightarrow{M\cdot1_s}ss\xRightarrow{M}s$$
 equals
-$$sss\overset{1_s\cdot M}{\Longrightarrow}ss\overset{M}{\Longrightarrow}s$$
+$$sss\xRightarrow{1_s\cdot M}ss\xRightarrow{M}s$$
 (Here $1_s\colon s\Rightarrow s$ is the identity 2-morphism from $s$ to itself... the
 axioms for a 2-category say that this exists.) Also, we're often
 interested in situations where there is a "multiplicative unit", that
 is, a 2-morphism $I\colon 1_x\to s$ for which
-$$s = 1_xs\overset{I\cdot1_s}{\Longrightarrow}ss\overset{M}{\Longrightarrow}s$$
+$$s = 1_xs\xRightarrow{I\cdot1_s}ss\xRightarrow{M}s$$
 equals $1_s$, and so does
-$$s = s1_x\overset{1_s\cdot I}{\Longrightarrow}ss\overset{M}{\Longrightarrow}s$$
+$$s = s1_x\xRightarrow{1_s\cdot I}ss\xRightarrow{M}s$$
 If we have a 2-category with stuff in it satisfying these rules, we say
 we have a "monad" in that 2-category.
 

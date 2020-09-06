@@ -350,9 +350,9 @@ $$
 Alternatively, we can state these equations using the 2-categorical
 notation described in ["Week 80"](#week80), by saying that the
 following vertical composites of 2-morphisms are identity morphisms:
-$$L = 1_aL\overset{i\cdot1_L}{\Longrightarrow}LRL\overset{1_L\cdot e}{\Longrightarrow}L1_a = L$$
+$$L = 1_aL\xRightarrow{i\cdot1_L}LRL\xRightarrow{1_L\cdot e}L1_a = L$$
 and
-$$R = R1_a\overset{1_R\cdot i}{\Longrightarrow}RLR\overset{e\cdot1_R}{\Longrightarrow}1_bR = R$$
+$$R = R1_a\xRightarrow{1_R\cdot i}RLR\xRightarrow{e\cdot1_R}1_bR = R$$
 where $\cdot$ denotes the horizontal composite. If you look at these, and
 compare them to the graphical notation above, you'll see they are
 really saying the same thing.
