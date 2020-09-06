@@ -1,4 +1,4 @@
-# DATE {#week296}
+# April 26, 2010 {#week296}
 
 For many weeks I've been threatening to bring some serious math into my
 discussion of electrical circuits. Today I'll finally start: I'll try

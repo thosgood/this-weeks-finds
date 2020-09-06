@@ -1,4 +1,4 @@
-# DATE {#week273}
+# December 14, 2008 {#week273}
 
 Today I'd like to talk about the history of the Earth, and then say a
 bit about locally compact abelian groups. But first, a few more words

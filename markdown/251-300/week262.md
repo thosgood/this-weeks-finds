@@ -1,4 +1,4 @@
-# DATE {#week262}
+# March 29, 2008 {#week262}
 
 I'm done with teaching until fall, and now I'll be travelling a lot. I
 just got back from Singapore. It's an incredibly diverse place. I

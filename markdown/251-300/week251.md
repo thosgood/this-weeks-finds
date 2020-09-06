@@ -1,4 +1,4 @@
-# DATE {#week251}
+# May 5, 2007 {#week251}
 
 Last week I mentioned the conference on "Philosophical and Formal
 Foundations of Modern Physics" in Les Treilles, an estate near Nice. On

@@ -1,4 +1,4 @@
-# DATE {#week261}
+# March 19, 2008 {#week261}
 
 Sorry for the long pause! I've been busy writing. For example: a gentle
 introduction to category theory, focusing on its role as a "Rosetta

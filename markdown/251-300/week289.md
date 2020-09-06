@@ -1,4 +1,4 @@
-# DATE {#week289}
+# January 8, 2010 {#week289}
 
 This week I'll tell you some news about \mathrm{E}_8. Then I'll continue
 expanding the grand analogy between different kinds of physics. We'll

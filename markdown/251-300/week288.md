@@ -1,4 +1,4 @@
-# DATE {#week288}
+# January 1, 2010 {#week288}
 
 Happy New Decade! I hope you're doing well. This week I'll say more
 about rational homotopy theory, and why the difference between equality

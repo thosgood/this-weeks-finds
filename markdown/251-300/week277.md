@@ -1,4 +1,4 @@
-# DATE {#week277}
+# August 10, 2009 {#week277}
 
 I'm very happy to have finished writing a huge paper with Aaron
 Lauda... a paper we've been working on for 5 years! It's a chronology

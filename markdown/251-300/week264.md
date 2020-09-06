@@ -1,4 +1,4 @@
-# DATE {#week264}
+# May 18, 2008 {#week264}
 
 Here's a puzzle. Guess the next term of this sequence:
 

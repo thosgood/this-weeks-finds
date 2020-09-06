@@ -1,4 +1,4 @@
-# DATE {#week266}
+# June 20, 2008 {#week266}
 
 I'm at this workshop now, and I want to talk about it:
 

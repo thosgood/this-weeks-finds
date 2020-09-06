@@ -1,4 +1,4 @@
-# DATE {#week295}
+# April 16, 2010 {#week295}
 
 This week I'll talk about the principle of least power, and Poincaré
 duality for electrical circuits, and a generalization of Hamiltonian

@@ -1,4 +1,4 @@
-# DATE {#week285}
+# December 5, 2009 {#week285}
 
 A while back, my friend Dan Christensen drew a picture of all the roots
 of all the polynomials of degree at most 5 with integer coefficients

@@ -1,4 +1,4 @@
-# DATE {#week275}
+# June 14, 2009 {#week275}
 
 Long time no see! I've been really busy, but now classes are over, and
 like last summer, I'm visiting Paul-André Melliès, who works on logic,

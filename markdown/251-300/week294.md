@@ -1,4 +1,4 @@
-# DATE {#week294}
+# March 21, 2010 {#week294}
 
 Sorry, I've been busy writing papers for the last couple of months. But
 I'm not done with my story of electrical circuits! It will take a few

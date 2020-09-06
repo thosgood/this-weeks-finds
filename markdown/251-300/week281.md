@@ -1,4 +1,4 @@
-# DATE {#week281}
+# October 19, 2009 {#week281}
 
 This week I'd like to finish my news report from the Corfu summer
 school on quantum gravity. You'll hear how strings meet loops in BF

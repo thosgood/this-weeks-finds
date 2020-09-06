@@ -1,4 +1,4 @@
-# DATE {#week300}
+# August 11, 2010 {#week300}
 
 This is the last of the old series of This Week's Finds. Soon the new
 series will start, focused on technology and environmental issues ---

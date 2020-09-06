@@ -1,4 +1,4 @@
-# DATE {#week297}
+# May 9, 2010 {#week297}
 
 This week I'll talk about electrical circuits and Dirichlet forms. But
 first: knot sculptures, special relativity in finance, lazulinos, some

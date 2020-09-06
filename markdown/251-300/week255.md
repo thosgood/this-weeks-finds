@@ -1,4 +1,4 @@
-# DATE {#week255}
+# August 11, 2007 {#week255}
 
 I've been roaming around Europe this summer - first Paris, then Delphi
 and Olympia, then Greenwich, then Oslo, and now back to Greenwich. I'm

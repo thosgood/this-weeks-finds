@@ -1,4 +1,4 @@
-# DATE {#week260}
+# December 24, 2007 {#week260}
 
 Since it's Christmas Eve, I thought I'd list some free books you can
 download. I'm a big fan of giving the world presents... and I'm not

@@ -1,4 +1,4 @@
-# DATE {#week280}
+# September 27, 2009 {#week280}
 
 I have a lot to talk about, since I just got back from this quantum
 gravity summer school in Corfu:

@@ -1,4 +1,4 @@
-# DATE {#week293}
+# February 5, 2010 {#week293}
 
 This week I want to list a bunch of recent papers and books on
 $n$-categories. Then I'll tell you about a conference on the math of

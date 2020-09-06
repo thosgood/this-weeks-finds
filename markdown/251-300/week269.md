@@ -1,4 +1,4 @@
-# DATE {#week269}
+# August 30, 2008 {#week269}
 
 No fancy math today. I've been working hard with Aristide Baratin,
 Laurent Freidel and Derek Wise on infinite-dimensional representations

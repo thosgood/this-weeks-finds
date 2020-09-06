@@ -2,7 +2,6 @@
 
 - footnotes?
     + 151
-- dates for 251-300
 - **diagrams**
     + 174
     + 159

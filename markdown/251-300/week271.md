@@ -1,4 +1,4 @@
-# DATE {#week271}
+# October 26, 2008 {#week271}
 
 This week I'll talk about quasicrystals and how they arise from the
 interplay between crystallographic and noncrystallographic Coxeter

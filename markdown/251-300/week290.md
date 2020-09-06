@@ -1,4 +1,4 @@
-# DATE {#week290}
+# January 15, 2010 {#week290}
 
 This week we'll start with a math puzzle, then a paper about
 categorification in analysis. Then we'll continue learning about

@@ -1,4 +1,4 @@
-# DATE {#week272}
+# November 28, 2008 {#week272}
 
 Today I want to talk about the Enceladus plumes, the Io flux tube,
 special properties of the number 6 - and the wonders of standard Borel

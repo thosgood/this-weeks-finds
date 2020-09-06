@@ -1,4 +1,4 @@
-# DATE {#week253}
+# June 27, 2007 {#week253}
 
 Yay! Classes are over! Soon I'm going to Paris for three weeks, to talk
 with Paul-André Melliès about logic, games and category theory. But

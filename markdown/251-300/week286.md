@@ -1,4 +1,4 @@
-# DATE {#week286}
+# December 8, 2009 {#week286}
 
 This Week I'd like to start telling you about "rational homotopy
 theory". But first: can you guess what this is a picture of?

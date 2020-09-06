@@ -1,4 +1,4 @@
-# DATE {#week257}
+# October 14, 2007 {#week257}
 
 Time flies! This week I'll finally finish saying what I did on my
 summer vacation. After my trip to Oslo I stayed in London, or more

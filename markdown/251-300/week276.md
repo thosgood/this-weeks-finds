@@ -1,4 +1,4 @@
-# DATE {#week276}
+# June 20, 2009 {#week276}
 
 Math is eternal, but I'll start with some news that may be
 time-sensitive. Betelgeuse is shrinking!

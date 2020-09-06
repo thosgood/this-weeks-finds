@@ -1,4 +1,4 @@
-# DATE {#week252}
+# May 27, 2007 {#week252}
 
 Today I want to tell you about the electromagnetic snake at the center
 of our Galaxy, and continue the Tale of Groupoidification.

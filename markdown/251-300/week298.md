@@ -1,4 +1,4 @@
-# DATE {#week298}
+# May 14, 2010 {#week298}
 
 Next week I'm going to New York to talk about the stuff I've been
 explaining here lately: electrical circuits and category theory. Then -

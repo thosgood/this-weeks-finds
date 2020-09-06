@@ -1,4 +1,4 @@
-# DATE {#week279}
+# September 5, 2009 {#week279}
 
 I just finished a paper with John Huerta, a math grad student who really
 likes particle physics:
