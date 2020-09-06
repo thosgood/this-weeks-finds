@@ -275,12 +275,12 @@ $$
 $$
 This conjectured theory is called "M-theory". The actual details of
 this theory are still rather mysterious, but not surprisingly, it's
-related to the theory of supersymmetric 2-branes in 11 dimensions ---
+related to the theory of supersymmetric $2$-branes in 11 dimensions ---
 since upon dimensional reduction these give superstrings in 10
 dimensions. More surprisingly, it's *also* related to the theory of
 *5-branes* in 11 dimensions. The reason is that supergravity in 11
 dimensions admits "soliton" solutions --- solutions that hold their
-shape and don't disperse --- which are shaped like 5-branes. These are
+shape and don't disperse --- which are shaped like $5$-branes. These are
 now believed to be yet another shadow of M-theory.
 
 While the picture I'm sketching may seem baroque, it's really just a

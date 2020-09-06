@@ -159,7 +159,7 @@ $$B \mapsto B + dw$$
 where $w$ is any $1$-form.
 
 Similarly, people believe that M-theory involves $2$-dimensional membranes
-called "2-branes". A 2-brane traces out a $3$-dimensional
+called "2-branes". A $2$-brane traces out a $3$-dimensional
 "world-volume" in spacetime. The $3$-form field in 11d supergravity is
 perfectly suited for integrating over this world-volume! So we're
 really dealing with a still higher-dimensional analog of
@@ -340,8 +340,8 @@ idea is that there's an analogy like this:
 | :-------- | :------------------ | :------------------ |
 | $1$-forms | connections on bundles | parallel transport of point particles |
 | $2$-forms | connections on gerbes | parallel transport of strings |
-| $3$-forms | connections on 2-gerbes | parallel transport 2-branes |
-| $4$-forms | connections on 3-gerbes | parallel transport 3-branes |
+| $3$-forms | connections on 2-gerbes | parallel transport $2$-branes |
+| $4$-forms | connections on 3-gerbes | parallel transport $3$-branes |
 | $\vdots$ | $\vdots$ | $\vdots$ |
 
 and so on. Just as connections on bundles naturally give rise to Chern
@@ -353,10 +353,10 @@ There is also another clue: as I mentioned in
 supersymmetric membranes in certain dimensions. There are supposedly 4
 basic cases, which correspond to the 4 normed division algebras:
 
-- the 2-brane in dimension 4  --- real numbers
-- the 3-brane in dimension 6  --- complex numbers
-- the 5-brane in dimension 10 --- quaternions
-- the 2-brane in dimension 11 --- octonions
+- the $2$-brane in dimension 4  --- real numbers
+- the $3$-brane in dimension 6  --- complex numbers
+- the $5$-brane in dimension 10 --- quaternions
+- the $2$-brane in dimension 11 --- octonions
 
 Part of the point is that the in these theories there are 1, 2, 4, or 8
 dimensions transverse to the worldvolume of the brane in question. So
@@ -424,7 +424,7 @@ marrow! Any help would be appreciated.
 > I guess that was your question.
 >
 > > Similarly, people believe that M-theory involves $2$-dimensional membranes
-> > called "2-branes".  A 2-brane traces out a $3$-dimensional "world-volume"
+> > called "2-branes".  A $2$-brane traces out a $3$-dimensional "world-volume"
 > > in spacetime.  The $3$-form field in 11d supergravity is perfectly suited
 > > for integrating over this world-volume!  So we're really dealing with a
 > > still higher-dimensional analog of electromagnetism.  Since we've already
@@ -456,7 +456,7 @@ marrow! Any help would be appreciated.
 > $4$-form, then $*F$ is a $11-4=7$-form, then it should be the field
 > strength tensor of some $6$-form potential, $dA_6=*F$, But a $6$-form is
 > perfectly suited to be integrated over a $6$-dimensional world-volume,
-> i.e. a 5-brane! Here comes the M5-brane into the play. Of course, in
+> i.e. a $5$-brane! Here comes the M5-brane into the play. Of course, in
 > 11D SUGRA, the membrane is the fundamental object and the M5-brane is
 > a solitonic solution, but in a non-perturbative theory, solitonic
 > solutions can become fundamental at strong coupling and vice-versa.

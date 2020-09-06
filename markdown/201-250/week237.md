@@ -109,7 +109,7 @@ Calling M-theory a "theory" is a bit misleading, because nobody knows
 what this theory is! There's just a lot of clues pointing to its
 existence. It seems to be the quantum version of a well-defined
 classical field theory called "11-dimensional supergravity". And, it
-seems to involve 2-branes and 5-branes: 2- and $5$-dimensional membranes
+seems to involve $2$-branes and $5$-branes: 2- and $5$-dimensional membranes
 that trace out 3- and $6$-dimensional surfaces in spacetime, just like
 strings trace out $2$-dimensional surfaces.
 
@@ -203,7 +203,7 @@ about processes between processes between processes... so we're
 climbing up the ladder of $n$-categories.
 
 Anyway: since 11d supergravity has a $3$-form in it, and M-theory
-apparently has 2-branes in it, maybe we need to categorify the concept
+apparently has $2$-branes in it, maybe we need to categorify the concept
 of a \mathrm{U}(1) bundle twice to understand what's going on here!
 
 I came up with this crazy idea on my own back in
@@ -309,14 +309,14 @@ If we categorify once more, we get connections on a "3-bundle", which
 is more or less the same thing as a "2-gerbe" - unfortunately the
 numbering systems are off by one. This gives us objects, morphisms and
 2-morphisms in a *3-group*, which describe what happens when we move
-particles, strings and 2-branes.
+particles, strings and $2$-branes.
 
 And so on:
 
     group         point particles
     2-group       point particles and strings
-    3-group       point particles, strings and 2-branes
-    4-group       point particles, strings, 2-branes and 3-branes
+    3-group       point particles, strings and $2$-branes
+    4-group       point particles, strings, $2$-branes and $3$-branes
 
 etc.
 

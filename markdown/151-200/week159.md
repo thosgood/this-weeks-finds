@@ -62,12 +62,12 @@ one" stuff.
 
 But anyway, the usual formulation of 11d supergravity (see
 ["Week 157"](#week157)) involves a $3$-form field, which couples
-naturally to 2-branes. This is nice because there's lots of evidence
-that M-theory has a lot to do with 2-branes. The nice thing about Ling
+naturally to $2$-branes. This is nice because there's lots of evidence
+that M-theory has a lot to do with $2$-branes. The nice thing about Ling
 and Smolin's formulation is that it also includes a $6$-form field, which
-couples to 5-branes. There's also a lot of evidence that M-theory is
-related to 5-branes, but these have always been a bit more mysterious
-than the 2-branes. Now, however, they're staring us in the face right
+couples to $5$-branes. There's also a lot of evidence that M-theory is
+related to $5$-branes, but these have always been a bit more mysterious
+than the $2$-branes. Now, however, they're staring us in the face right
 from the start!
 
 Next, before I go further, I should say what the "super-Poincare

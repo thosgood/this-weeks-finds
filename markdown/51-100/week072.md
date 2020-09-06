@@ -148,7 +148,7 @@ the M stands for "magic", "mystery", or "membrane", according to
 taste. From a mathematical viewpoint a better term might be "murky",
 since apparently everything known about M-theory is indirect and
 circumstantial, except for the classical limit, in which it seems to act
-as a theory of 2-branes and 5-branes, where an "n-brane" is an
+as a theory of $2$-branes and $5$-branes, where an "n-brane" is an
 n-dimensional analog of a membrane or surface.
 
 Well, here I must leave off, for reasons of ignorance. I don't really
