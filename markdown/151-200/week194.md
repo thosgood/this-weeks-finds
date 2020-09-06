@@ -1,4 +1,4 @@
-# DATE {#week194}
+# March 17, 2003 {#week194}
 
 I recently flew from Sydney, Australia to Waterloo, Canada. All of a
 sudden day became night and steamy 30 Celsius summertime suddenly

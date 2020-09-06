@@ -1,4 +1,4 @@
-# DATE {#week191}
+# January 11, 2003 {#week191}
 
 Now I'm in Sydney, Australia, trying to learn a bit of category theory
 from the experts here. It's quite a change. Hong Kong was louder,

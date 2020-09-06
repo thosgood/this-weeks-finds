@@ -1,4 +1,4 @@
-# DATE {#week193}
+# February 23, 2003 {#week193}
 
 This is my last week in Sydney. The year-long drought in Australia has
 finally been broken by a series of rainstorms, but the sky was clear as

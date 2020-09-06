@@ -1,4 +1,4 @@
-# DATE {#week164}
+# January 13, 2001 {#week164}
 
 What are the top ten questions for physics in this millennium? The
 participants of the conference Strings 2000 chose these:

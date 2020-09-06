@@ -1,4 +1,4 @@
-# DATE {#week168}
+# May 31, 2001 {#week168}
 
 It's been about two months since the last issue of This Week's Finds,
 and I apologize for this. I've been very busy, and my limited writing

@@ -1,4 +1,4 @@
-# DATE {#week179}
+# March 30, 2002 {#week179}
 
 I've just been visiting my friend Minhyong Kim at the Korea Institute
 for Advanced Studies (KIAS), and before I take off on my next jaunt I'd

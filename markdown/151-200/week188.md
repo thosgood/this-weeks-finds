@@ -1,4 +1,4 @@
-# DATE {#week188}
+# October 11, 2002 {#week188}
 
 I've been talking about q-mathematics, and last week the story reached
 a kind of climax when I combined the themes of q-deformation,

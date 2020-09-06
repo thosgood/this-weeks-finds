@@ -1,4 +1,4 @@
-# DATE {#week180}
+# April 19, 2002 {#week180}
 
 First, a news flash: they may have found a quark star... or two!
 

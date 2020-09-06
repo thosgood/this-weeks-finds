@@ -1,4 +1,4 @@
-# DATE {#week157}
+# September 24, 2000 {#week157}
 
 I never write issues of This Week's Finds about topics that people
 request. I only write about what I happen to be studying at a given

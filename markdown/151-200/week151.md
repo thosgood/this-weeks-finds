@@ -1,4 +1,4 @@
-# DATE {#week151}
+# June 26, 2000 {#week151}
 
 Recently I've been talking a bit about elliptic cohomology, but I've
 really just been nibbling around the edges so far. Sometime I want to

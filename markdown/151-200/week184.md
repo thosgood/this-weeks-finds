@@ -1,4 +1,4 @@
-# DATE {#week184}
+# August 4, 2002 {#week184}
 
 To really know a subject you've got to learn a bit of its history. If
 that subject is topology, you've got to read this:

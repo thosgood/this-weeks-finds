@@ -1,4 +1,4 @@
-# DATE {#week160}
+# November 20, 2000 {#week160}
 
 Anyone who grew up on science fiction in the 1960s probably read a bunch
 about adventures on strange planets, and dreamt of our future in space.

@@ -1,4 +1,4 @@
-# DATE {#week199}
+# December 8, 2003 {#week199}
 
 I've had a really busy quarter, teaching 3 courses that all require
 serious thought on my part, so it's been a long while since I've been

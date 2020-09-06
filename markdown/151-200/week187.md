@@ -1,4 +1,4 @@
-# DATE {#week187}
+# September 25, 2002 {#week187}
 
 Okay! Here comes the climax of our story linking q-mathematics, Dynkin
 diagrams, incidence geometry and categorification! I'll be amazed if

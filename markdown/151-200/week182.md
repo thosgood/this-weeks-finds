@@ -1,4 +1,4 @@
-# DATE {#week182}
+# June 19, 2002 {#week182}
 
 It's been a long time, but in the last Week's Finds I was telling you
 about my adventures this spring in northern California, and I hadn't

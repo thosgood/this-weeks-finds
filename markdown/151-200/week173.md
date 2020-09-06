@@ -1,4 +1,4 @@
-# DATE {#week173}
+# November 25, 2001 {#week173}
 
 Did you see the Leonid meteor shower last Tuesday? I watched them from
 1:30 to 3 in the morning from my back yard. They were great! Near the

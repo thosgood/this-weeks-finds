@@ -1,4 +1,4 @@
-# DATE {#week155}
+# August 16, 2000 {#week155}
 
 It's a hot summer day here in Riverside, so I just want to have fun.
 Break out the Klein bottles and Platonic solids!

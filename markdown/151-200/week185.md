@@ -1,4 +1,4 @@
-# DATE {#week185}
+# August 30, 2002 {#week185}
 
 I'd like to continue the story of "q-mathematics" which I was telling
 you in ["Week 183"](#week183) and ["Week 184"](#week184).

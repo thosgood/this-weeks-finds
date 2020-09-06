@@ -1,4 +1,4 @@
-# DATE {#week195}
+# March 23, 2003 {#week195}
 
 In 1999 a Canadian businessman named Mike Lazaridis donated \$100
 million to set up the Perimeter Institute for Theoretical Physics. Right

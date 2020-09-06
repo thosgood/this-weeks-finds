@@ -1,4 +1,4 @@
-# DATE {#week178}
+# March 22, 2002 {#week178}
 
 A "homotopy" is a way of bending or stretching something without
 adding or getting rid of any holes: if you've ever heard the joke about

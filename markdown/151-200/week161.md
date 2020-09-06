@@ -1,4 +1,4 @@
-# DATE {#week161}
+# December 10, 2000 {#week161}
 
 I'm in the middle of reading this book, so I don't know how it ends
 yet, but it's good:

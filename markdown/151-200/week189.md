@@ -1,4 +1,4 @@
-# DATE {#week189}
+# November 29, 2002 {#week189}
 
 Being deeply in love with space and time, I always like to read about
 rulers and clocks. There's a bunch of articles about time in the

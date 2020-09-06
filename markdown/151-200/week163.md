@@ -1,4 +1,4 @@
-# DATE {#week163}
+# December 31, 2000 {#week163}
 
 If you think numbers start with the number 1, you probably think the
 millennium is ending now. I think it ended last year... but either way,

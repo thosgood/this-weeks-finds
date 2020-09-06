@@ -1,4 +1,4 @@
-# DATE {#week186}
+# September 10, 2002 {#week186}
 
 Okay, now let's pull together all the strands of our story about Dynkin
 diagrams and q-mathematics. The story can be summarized in a rather

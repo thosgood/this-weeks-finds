@@ -1,4 +1,4 @@
-# DATE {#week198}
+# September 6, 2003 {#week198}
 
 I recently got back from a summer spent mostly in Hong Kong. It was
 interesting being there. Since I wasn't there long, most of my

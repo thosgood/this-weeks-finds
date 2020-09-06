@@ -1,4 +1,4 @@
-# DATE {#week190}
+# December 26, 2002 {#week190}
 
 Fall quarter was very busy for me. Next quarter I'll be on sabbatical.
 I just graded all my final exams, turned in the grade reports, cleaned

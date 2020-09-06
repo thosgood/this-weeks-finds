@@ -1,4 +1,4 @@
-# DATE {#week200}
+# December 31, 2003 {#week200}
 
 Happy New Year!
 

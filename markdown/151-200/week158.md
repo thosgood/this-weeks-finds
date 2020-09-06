@@ -1,4 +1,4 @@
-# DATE {#week158}
+# October 16, 2000 {#week158}
 
 Like lots of mathematicians these days, I'm trying to understand
 M-theory. It's a bit difficult, partially because the theory doesn't

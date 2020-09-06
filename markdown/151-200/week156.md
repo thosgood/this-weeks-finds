@@ -1,4 +1,4 @@
-# DATE {#week156}
+# September 17, 2000 {#week156}
 
 This week I want to catch you up on some of the experiments that have
 been going on lately. Mathematical physics is no fun without some

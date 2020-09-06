@@ -1,4 +1,4 @@
-# DATE {#week181}
+# May 1, 2002 {#week181}
 
 At the beginning of April I went up to Mathematical Sciences Research
 Institute in Berkeley to a conference on $n$-categories and nonabelian

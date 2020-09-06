@@ -1,4 +1,4 @@
-# DATE {#week153}
+# July 15, 2000 {#week153}
 
 This one is going to be a bit rough at the edges, because in a few hours
 I'm taking a plane to London. I'm going to the International Congress

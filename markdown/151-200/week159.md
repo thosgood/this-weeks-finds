@@ -1,4 +1,4 @@
-# DATE {#week159}
+# October 29, 2000 {#week159}
 
 Today I want to continue talking about 11d supergravity. I mainly want
 to describe this paper:

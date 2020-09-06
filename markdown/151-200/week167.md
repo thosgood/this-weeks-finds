@@ -1,4 +1,4 @@
-# DATE {#week167}
+# March 30, 2001 {#week167}
 
 I'm now visiting the Center for Gravitational Physics and Geometry at
 Penn State, and I have all sorts of exciting stuff to report. First

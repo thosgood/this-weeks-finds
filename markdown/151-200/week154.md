@@ -1,4 +1,4 @@
-# DATE {#week154}
+# August 12, 2000 {#week154}
 
 At the 13th International Congress on Mathematical Physics, held at
 Imperial College in London, I was surprised at how much energy was
