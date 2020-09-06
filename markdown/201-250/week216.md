@@ -1,4 +1,4 @@
-# DATE {#week216}
+# May 23, 2005 {#week216}
 
 There are lots of different things called "zeta functions" in
 mathematics and physics. The grand-daddy of them all is the Riemann zeta

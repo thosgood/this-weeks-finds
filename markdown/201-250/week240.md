@@ -1,4 +1,4 @@
-# DATE {#week240}
+# October 22, 2006 {#week240}
 
 I'm back from Shanghai, and classes are well underway now. For the last
 few weeks I'd been frantically preparing a talk for Stewart Brand's

@@ -1,4 +1,4 @@
-# DATE {#week201}
+# January 10, 2004 {#week201}
 
 Lately James Dolan and I have been studying number theory. I used to
 *hate* this subject: it seemed like a massive waste of time. Newspapers,

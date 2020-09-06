@@ -1,4 +1,4 @@
-# DATE {#week239}
+# September 8, 2006 {#week239}
 
 David Corfield, Urs Schreiber and I have started up a new blog!
 

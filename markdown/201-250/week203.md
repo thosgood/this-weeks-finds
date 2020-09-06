@@ -1,4 +1,4 @@
-# DATE {#week203}
+# February 28, 2004 {#week203}
 
 Last week I posed this puzzle: to find a "Golden Object".
 

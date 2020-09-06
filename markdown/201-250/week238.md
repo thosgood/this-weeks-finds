@@ -1,4 +1,4 @@
-# DATE {#week238}
+# August 16, 2006 {#week238}
 
 NASA is trying to built up suspense with this "media advisory":
 

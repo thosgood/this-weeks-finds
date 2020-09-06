@@ -1,4 +1,4 @@
-# DATE {#week247}
+# March 23, 2007 {#week247}
 
 Symmetry has fascinated us throughout the ages. Greek settlers in Sicily
 may have seen irregular 12-sided crystals of pyrite in Sicily and dreamt

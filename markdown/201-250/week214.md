@@ -1,4 +1,4 @@
-# DATE {#week214}
+# April 20, 2005 {#week214}
 
 What common English slang phrase alludes to the number 168?
 

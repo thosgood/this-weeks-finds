@@ -1,4 +1,4 @@
-# DATE {#week234}
+# June 12, 2006 {#week234}
 
 Today I'd like to talk about the math of music - including torsors,
 orbifolds, and maybe even Mathieu groups. But first, some movies of the

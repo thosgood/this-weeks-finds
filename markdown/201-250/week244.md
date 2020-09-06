@@ -1,4 +1,4 @@
-# DATE {#week244}
+# February 2, 2007 {#week244}
 
 In January I spent a week at this workshop at the Fields Institute in
 Toronto:

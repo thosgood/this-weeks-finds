@@ -1,4 +1,4 @@
-# DATE {#week205}
+# April 11, 2004 {#week205}
 
 This week I'd like to say more about number theory, but first - here's
 the most fun book on astronomy I've ever seen:

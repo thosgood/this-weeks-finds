@@ -1,4 +1,4 @@
-# DATE {#week215}
+# May 9  {#week215}
 
 This week I'd like to report on some cool things people have been
 explaining to me. The science fiction writer Greg Egan has been helping

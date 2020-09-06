@@ -1,4 +1,4 @@
-# DATE {#week202}
+# February 21, 2004 {#week202}
 
 This week I'll deviate from my plan of discussing number theory, and
 instead say a bit about something else that's been on my mind lately:

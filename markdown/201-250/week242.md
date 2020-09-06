@@ -1,4 +1,4 @@
-# DATE {#week242}
+# December 17, 2006 {#week242}
 
 This week I'd like to talk about a paper by Jeffrey Morton. Jeff is a
 grad student now working with me on topological quantum field theory and

@@ -1,4 +1,4 @@
-# DATE {#week232}
+# May 18, 2006 {#week232}
 
 I'm at the Perimeter Institute now. It's great to see how it's
 developed since I first saw their [new building](PI1.jpg) back in 2004

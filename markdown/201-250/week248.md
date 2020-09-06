@@ -1,4 +1,4 @@
-# DATE {#week248}
+# March 28, 2007 {#week248}
 
 This week I'll continue the Tale of Groupoidification. But first: some
 new views of the Sun!

@@ -1,4 +1,4 @@
-# DATE {#week236}
+# July 26, 2006 {#week236}
 
 This week I'd like to catch you up on some papers about
 categorification and quantum mechanics.

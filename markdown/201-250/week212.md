@@ -1,4 +1,4 @@
-# DATE {#week212}
+# March 26, 2005 {#week212}
 
 As you may know, theoretical particle physics is highly enamored of
 "supersymmetry" these days. This is not because there's a shred of

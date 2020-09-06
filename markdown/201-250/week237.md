@@ -1,4 +1,4 @@
-# DATE {#week237}
+# August 10, 2006 {#week237}
 
 This Week I'd like to talk about math books in Shanghai, and Urs
 Schreiber's blog entry on the gauge 3-group of M-theory. But first:

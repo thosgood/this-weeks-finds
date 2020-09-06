@@ -1,4 +1,4 @@
-# DATE {#week245}
+# February 11, 2007 {#week245}
 
 The University of Toronto is an urban campus, rather grey and chilly at
 this time of year. Nestled amid other buildings at the southern edge of

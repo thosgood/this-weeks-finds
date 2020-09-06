@@ -1,4 +1,4 @@
-# DATE {#week230}
+# May 4, 2006 {#week230}
 
 As we've seen in previous weeks, Mars is a beautiful world, but a world
 in a minor key, a world whose glory days - the Hesperian Epoch - are

@@ -1,4 +1,4 @@
-# DATE {#week226}
+# February 10, 2006 {#week226}
 
 This month I'm hanging out at CIRM, the "Centre International de
 Recontres Mathematiques" near Marseille. It's like a little hotel with

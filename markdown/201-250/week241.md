@@ -1,4 +1,4 @@
-# DATE {#week241}
+# November 20, 2006 {#week241}
 
 I've been working too hard, and running around too much, to write This
 Week's Finds for a while. A bunch of stuff has built up that I want to

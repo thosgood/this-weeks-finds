@@ -1,4 +1,4 @@
-# DATE {#week208}
+# November 6, 2004 {#week208}
 
 Last weekend I went to a conference at the Perimeter Institute:
 

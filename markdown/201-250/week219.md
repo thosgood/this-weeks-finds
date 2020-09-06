@@ -1,3 +1,5 @@
+# July 4, 2005 {#week219}
+
 I'm about to head to Sydney and Canberra to help celebrate the 60th
 birthday of Ross Street ... the world's best $n$-category theorist!
 

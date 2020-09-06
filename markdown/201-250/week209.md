@@ -1,4 +1,4 @@
-# DATE {#week209}
+# November 21, 2004 {#week209}
 
 Time flies! This June, Peter May and I organized a workshop on
 $n$-categories at the Institute for Mathematics and its Applications:

@@ -1,4 +1,4 @@
-# DATE {#week213}
+# April 3, 2005 {#week213}
 
 Here's a book I've been reading lately:
 

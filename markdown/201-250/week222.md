@@ -1,4 +1,4 @@
-# DATE {#week222}
+# October 17, 2005 {#week222}
 
 Last week there was a big conference on quantum gravity at the Albert
 Einstein Institute near Berlin:

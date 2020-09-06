@@ -1,4 +1,4 @@
-# DATE {#week210}
+# January 25, 2005 {#week210}
 
 As you've probably heard, the Huygens probe has successfully landed on
 Saturn's moon Titan and is sending back pictures:
