@@ -153,6 +153,7 @@ meaning heavenly bodies visible by eye that don't move with the stars.
 But here's a harder puzzle! Why are the 7 planets are listed in this
 order?
 
+| | |
 | :------- | :---------- |
 | Sun | (Sunday --- _Dies Solis_) |
 | Moon | (Monday --- _Dies Lunae_) |
@@ -502,6 +503,7 @@ but I forgot. Thanks for reminding me!
 Anyway, here's the deal: the calendar reform of Julius Caesar gave the
 months these numbers of days:
 
+| | |
 | :--------- | :----- |
 | Januarius | 31 |
 | Februarius | 29/30 |
@@ -523,6 +525,7 @@ now and then.
 
 Augustus screwed it up as follows:
 
+| | |
 | :--------- | :----- |
 | Januarius | 31 |
 | Februarius | 29/30 |
@@ -548,6 +551,7 @@ the week. By this I mean he gives the same answer that Richards does in
 decreasing orbital period, counting the sun as having period 365 days,
 and the moon as period 29 days:
 
+| | |
 | :------- | :-------- |
 | Saturn | (29 years) |
 | Jupiter | (12 years) |
