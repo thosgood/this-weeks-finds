@@ -650,15 +650,65 @@ the integers 0, 1, 3, or 7.
 
 Let me conclude by showing you Boos' main axiom for vector product
 algebras, written in terms of pictures:
-
-     \       /        \   /         \     /     \        /     \        /
-      \     /          \ /           \   /       \      /       \      /
-       \___/            |             \ /         \    /         \____/ 
-       /   \     +      |     =  2     /    -      |  |     -     ____    
-      /     \           |             / \         /    \         /    \
-     /       \         / \           /   \       /      \       /      \
-    /         \       /   \         /     \     /        \     /        \
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=0]
+      \strand[thick] (0,0)
+        to (0.25,-0.75)
+        to (0,-1.5);
+      \strand[thick] (1,0)
+        to (0.75,-0.75)
+        to (1,-1.5);
+      \strand[thick] (0.25,-0.75) to (0.75,-0.75);
+    \end{knot}
+    \node at (1.75,-0.75) {$+$};
+    \begin{scope}[shift={(2.5,0)}]
+      \begin{knot}[clip width=0]
+        \strand[thick] (0,0)
+          to (0.5,-0.5)
+          to (0.5,-1)
+          to (0,-1.5);
+        \strand[thick] (1,0)
+          to (0.5,-0.5)
+          to (0.5,-1)
+          to (1,-1.5);
+      \end{knot}
+    \end{scope}
+    \node at (4.25,-0.75) {$=$};
+    \node at (5.25,-0.75) {$2\,\,\times$};
+    \begin{scope}[shift={(5.75,0)}]
+      \begin{knot}[clip width=7]
+        \strand[thick] (0,0) to (1,-1.5);
+        \strand[thick] (1,0) to (0,-1.5);
+        \flipcrossings{1}
+      \end{knot}
+    \end{scope}
+    \node at (7.5,-0.75) {$-$};
+    \begin{scope}[shift={(8.25,0)}]
+      \begin{knot}
+        \strand[thick] (0,0)
+          to (0.25,-0.75)
+          to (0,-1.5);
+        \strand[thick] (1,0)
+          to (0.75,-0.75)
+          to (1,-1.5);
+      \end{knot}
+    \end{scope}
+    \node at (10,-0.75) {$-$};
+    \begin{scope}[shift={(10.75,0)}]
+      \begin{knot}
+        \strand[thick] (0,0)
+          to (0.25,-0.5)
+          to (0.75,-0.5)
+          to (1,0);
+        \strand[thick] (0,-1.5)
+          to (0.25,-1)
+          to (0.75,-1)
+          to (1,-1.5);
+      \end{knot}
+    \end{scope}
+  \end{tikzpicture}
+$$
 Ain't it cool? Fans of knot theory will be struck by the resemblance to
 various "skein relations". Fans of physics will be reminded of Feynman
 diagrams. But what is the secret inner meaning?
