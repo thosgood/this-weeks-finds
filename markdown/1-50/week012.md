@@ -86,7 +86,7 @@ knot polynomials is misleading. I don't understand that yet.
 Here are some papers that have recently shown up...
 
 1) "Canonical quantum gravity", by Karel Kuchar, preprint in LaTeX form,
-35 pages, available as [`gr-qc/9304012`](http://xxx.lanl.gov/abs/gr-qc/9304012).
+35 pages, available as [`gr-qc/9304012`](https://arxiv.org/abs/gr-qc/9304012).
 
 Kuchar (pronounced Koo-kahsh, by the way) is one of the grand old men of
 quantum gravity, one of the people who stuck with the subject for the
@@ -132,7 +132,7 @@ this 2-category.
 
 3) "A new discretization of classical and quantum general relativity", by
 Mark Miller and Lee Smolin, 22 pages in LaTeX form, available as
-[`gr-qc/9304005`](http://xxx.lanl.gov/abs/gr-qc/9304005).
+[`gr-qc/9304005`](https://arxiv.org/abs/gr-qc/9304005).
 
 Here Smolin proposes a new simplicial approach to general relativity
 (there is an older one known as the Regge calculus) which uses
@@ -157,7 +157,7 @@ commute with each other and with the Hamiltonian constraint.
 
 4) "Higher algebraic structures and quantization", by Dan Freed,
 preprint, December 18, 1992, available as
-[`hep-th/9212115`](http://xxx.lanl.gov/abs/hep-th/9212115).
+[`hep-th/9212115`](https://arxiv.org/abs/hep-th/9212115).
 
 This is about TQFTs and the high-powered algebra needed to do justice to
 the "ladder of field theories" that one can obtain starting with a

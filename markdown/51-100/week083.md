@@ -4,9 +4,9 @@ I'll return to the tale of $n$-categories this week, and continue to
 explain the mysteries of duals and inverses. But first let me describe
 two new papers by Connes.
 
-1) Alain Connes, "Gravity coupled with matter and the foundation of non-commutative geometry", preprint available as [`hep-th/9603053`](http://xxx.lanl.gov/abs/hep-th/9603053).
+1) Alain Connes, "Gravity coupled with matter and the foundation of non-commutative geometry", preprint available as [`hep-th/9603053`](https://arxiv.org/abs/hep-th/9603053).
 
-    Ali H. Chamseddine and Alain Connes, "The spectral action principle", preprint available as [`hep-th/9606001`](http://xxx.lanl.gov/abs/hep-th/9606001).
+    Ali H. Chamseddine and Alain Connes, "The spectral action principle", preprint available as [`hep-th/9606001`](https://arxiv.org/abs/hep-th/9606001).
 
 The second paper here fills in details that are missing from the first.
 Hopefully lots of you know that Connes is the wizard of operator theory

@@ -36,7 +36,7 @@ where I left off in my discussion of the ideas behind this paper:
 
 2) Michael Mueger, From subfactors to categories and topology I:
 Frobenius algebras in and Morita equivalence of tensor categories,
-available at [math.CT/0111204](http://xxx.lanl.gov/abs/math.CT/0111204).
+available at [math.CT/0111204](https://arxiv.org/abs/math.CT/0111204).
 
 My ultimate goal is to take you to an elegant understanding of Frobenius
 algebras by means of a 2-category called the "walking ambidextrous

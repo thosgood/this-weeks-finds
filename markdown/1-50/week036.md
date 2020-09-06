@@ -102,18 +102,18 @@ invariants, including the Alexander-Conway polynomial:
 1) "Three-dimensional BF theories and the Alexander--Conway invariant
 of knots", by A. S. Cattaneo, P. Cotta-Ramusino, and M. Martellini; 32
 pages in LaTeX format (figures available upon request), available as
-[`hep-th/9407070`](http://xxx.lanl.gov/ps/hep-th/9407070).
+[`hep-th/9407070`](https://arxiv.org/ps/hep-th/9407070).
 
 Another nice-looking paper on BF theories is the following:
 
 2) "$B^F$ theory and flat spacetimes", by Henri Waelbroeck, 21 pages in
-LaTeX format, available as [`gr-qc/9311033`](http://xxx.lanl.gov/ps/gr-qc/9311033).
+LaTeX format, available as [`gr-qc/9311033`](https://arxiv.org/ps/gr-qc/9311033).
 
 Waelbrock also has a recent paper with Zapata on a Hamiltonian
 formulation of the theory on a lattice:
 
 3) "A Hamiltonian formulation of topological gravity", by Henri Waelbrock
-and J. A. Zapata, 15 pages available in LaTeX format as [`gr-qc/9311035`](http://xxx.lanl.gov/ps/gr-qc/9311035).
+and J. A. Zapata, 15 pages available in LaTeX format as [`gr-qc/9311035`](https://arxiv.org/ps/gr-qc/9311035).
 
 The paper by Baulieu and Singer relating FF theory to Donaldson theory
 is:

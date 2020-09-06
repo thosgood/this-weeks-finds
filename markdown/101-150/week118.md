@@ -53,7 +53,7 @@ to learn about it lately, so I'll say a bit anyway, in hopes that some
 real experts will correct my mistakes. Much of what I'll say comes from
 the following nice review article:
 
-2) M. J. Duff, "Supermembranes", preprint available as [`hep-th/9611203`](http://xxx.lanl.gov/abs/hep-th/9611203)
+2) M. J. Duff, "Supermembranes", preprint available as [`hep-th/9611203`](https://arxiv.org/abs/hep-th/9611203)
 
 and also the bible of string theory:
 
@@ -176,7 +176,7 @@ dimensions 3, 4, 6, and 10. (See ["Week 93"](#week93) for more on
 this.) Different forms of supergravity make sense in different
 dimensions, as explained in:
 
-7) Y. Tanii, "Introduction to supergravities in diverse dimensions", preprint available as [`hep-th/9802138`](http://xxx.lanl.gov/abs/hep-th/9802138).
+7) Y. Tanii, "Introduction to supergravities in diverse dimensions", preprint available as [`hep-th/9802138`](https://arxiv.org/abs/hep-th/9802138).
 
 In particular highest dimension in which supergravity makes sense is 11
 dimensions (where one only has $N = 1$ supergravity). Note that this is
@@ -185,7 +185,7 @@ people for a long time. Now it seems that M-theory is beginning to
 resolve these puzzles. Another interesting discovery is that
 11-dimensional supergravity is related to the exceptional Lie group $\mathrm{E}_8$:
 
-8) Stephan Melosch and Hermann Nicolai, "New canonical variables for $d = 11$ supergravity", preprint available as [`hep-th/9709277`](http://xxx.lanl.gov/abs/hep-th/9709277).
+8) Stephan Melosch and Hermann Nicolai, "New canonical variables for $d = 11$ supergravity", preprint available as [`hep-th/9709277`](https://arxiv.org/abs/hep-th/9709277).
 
 But I'm getting ahead of myself here! Right now I'm talking about the
 low-energy limit of 10-dimensional superstring theory. I said it amounts
@@ -291,11 +291,11 @@ thank Dan Piponi for pointing out that Scientific American article.
 
 For more on this business, check out the following review articles:
 
-11) W. Lerche, "Recent developments in string theory", preprint available as [`hep-th/9710246`](http://xxx.lanl.gov/abs/hep-th/9710246).
+11) W. Lerche, "Recent developments in string theory", preprint available as [`hep-th/9710246`](https://arxiv.org/abs/hep-th/9710246).
 
-12) John Schwarz, "The status of string theory", preprint available as [`hep-th/9711029`](http://xxx.lanl.gov/abs/hep-th/9711029).
+12) John Schwarz, "The status of string theory", preprint available as [`hep-th/9711029`](https://arxiv.org/abs/hep-th/9711029).
 
-13) M. J. Duff, "M-theory (the theory formerly known as strings)", preprint available as [`hep-th/9608117`](http://xxx.lanl.gov/abs/hep-th/9608117).
+13) M. J. Duff, "M-theory (the theory formerly known as strings)", preprint available as [`hep-th/9608117`](https://arxiv.org/abs/hep-th/9608117).
 
 The first one is especially nice if you're interested in a nontechnical
 survey; the other two are more detailed.

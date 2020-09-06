@@ -8,7 +8,7 @@ topological quantum field theory, and also a bit on spin networks. Louis
 Crane spoke on his ideas, especially the idea of getting 4-dimensional
 TQFTs out of state-sum models. And John Barrett spoke on
 
-1) John Barrett, "Quantum gravity as topological quantum field theory", to appear in the November 1995 special issue of _Jour. Math. Physics_, also available as [`gr-qc/9506070`](http://xxx.lanl.gov/abs/gr-qc/9506070).
+1) John Barrett, "Quantum gravity as topological quantum field theory", to appear in the November 1995 special issue of _Jour. Math. Physics_, also available as [`gr-qc/9506070`](https://arxiv.org/abs/gr-qc/9506070).
 
 This is a nice introduction to the concepts of topological quantum field
 theory (TQFT) that doesn't get bogged down in the (still substantial)
@@ -277,7 +277,7 @@ key role in Smolin's attempt to "exactly solve" quantum gravity. Thus
 I suspect that BF theory is a good thing to understand really well.
 Recently I showed in
 
-5) John Baez, "4-dimensional BF theory with cosmological term as a topological quantum field theory", available as [`q-alg/9507006`](http://xxx.lanl.gov/abs/q-alg/9507006).
+5) John Baez, "4-dimensional BF theory with cosmological term as a topological quantum field theory", available as [`q-alg/9507006`](https://arxiv.org/abs/q-alg/9507006).
 
 that the Crane-Yetter-Broda theory is indeed isomorphic as a TQFT to a
 certain BF theory. With a bit more work, this should give us a state sum

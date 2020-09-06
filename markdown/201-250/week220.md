@@ -13,7 +13,7 @@ these days, this time-honored method gets a lot less airplay than the
 "anthropic principle":
 
 1) Leonard Susskind, The anthropic landscape of string theory,
-available as [`hep-th/0302219`](http://xxx.lanl.gov/abs/hep-th/0302219).
+available as [`hep-th/0302219`](https://arxiv.org/abs/hep-th/0302219).
 
 Perhaps this is because it's more grandiose to imagine choosing one
 theory out of a multitude by discovering that it's among the few that
@@ -46,13 +46,13 @@ Hamiltonian approach has focussed on problems with extra symmetry, like
 black holes and the big bang. Here's a nontechnical introduction:
 
 2) Abhay Ashtekar, Gravity and the quantum, available as
-[`gr-qc/0410054`](http://xxx.lanl.gov/abs/gr-qc/0410054).
+[`gr-qc/0410054`](https://arxiv.org/abs/gr-qc/0410054).
 
 and here's some new work that treats the information loss puzzle:
 
 3) Abhay Ashtekar and Martin Bojowald, Black hole evaporation: a
 paradigm, Class. Quant. Grav. 22 (2005) 3349-3362. Also available as
-[`gr-qc/0504029`](http://xxx.lanl.gov/abs/gr-qc/0504029).
+[`gr-qc/0504029`](https://arxiv.org/abs/gr-qc/0504029).
 
 However, by focusing on solutions with extra symmetry, one puts off
 facing the hardest aspects of renormalization, or whatever its
@@ -73,7 +73,7 @@ on this:
 
 4) Carlo Rovelli, Graviton propagator from background-independent
 quantum gravity, available as
-[`gr-qc/0508124`](http://xxx.lanl.gov/abs/gr-qc/0508124).
+[`gr-qc/0508124`](https://arxiv.org/abs/gr-qc/0508124).
 
 If the idea holds up, I'll be pretty excited. If not, I'll be bummed.
 But luckily, I've already gone through the withdrawal pains of

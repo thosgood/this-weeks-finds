@@ -584,13 +584,13 @@ Geom. Diff. Cat. 45 (2004), 193-240. Also available at
 and more recently by Martin Hyland's student Richard Garner:
 
 15) Richard Garner, Double clubs, available as
-[math.CT/0606733](http://xxx.lanl.gov/abs/math.CT/0606733)
+[math.CT/0606733](https://arxiv.org/abs/math.CT/0606733)
 
 and Tom Fiore:
 
 16) Thomas M. Fiore, Pseudo algebras and pseudo double categories,
 available as
-[math.CT./0608760](http://xxx.lanl.gov/abs/math.CT/0608760).
+[math.CT./0608760](https://arxiv.org/abs/math.CT/0608760).
 
 At this point I should admit that the terminology in this whole field is
 a bit of a mess. I've made up simplified terminology for the purposes

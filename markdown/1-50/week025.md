@@ -270,7 +270,7 @@ of why this category looks so much like a group appears in
 
 5) "Higher algebraic structures and quantization", by Dan Freed,
 preprint, December 18, 1992, available as
-[`hep-th/9212115`](http://xxx.lanl.gov/abs/hep-th/9212115).
+[`hep-th/9212115`](https://arxiv.org/abs/hep-th/9212115).
 
 which I already mentioned in ["Week 12"](#week12).
 
@@ -297,7 +297,7 @@ To wrap up, let me note that the following paper, mentioned in
 6) "Representation Theory of Analytic Holonomy C\* Algebras", by Abhay
 Ashtekar and Jerzy Lewandowski, to appear in _Knots and Quantum Gravity_,
 ed. J. Baez, 42 pages, currently available as
-[`gr-qc/9311010`](http://xxx.lanl.gov/abs/gr-qc/9311010).
+[`gr-qc/9311010`](https://arxiv.org/abs/gr-qc/9311010).
 
 Ashtekar and Lewandowski are my friendly competitors in the business of
 making the loop representation of quantum gravity more rigorous by

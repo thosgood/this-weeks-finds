@@ -6,7 +6,7 @@ as well describe what's been going on here lately.
 First of all, Ashtekar and Krasnov have written an expository account of
 their work on the entropy of quantum black holes:
 
-1) Abhay Ashtekar and Kirill Krasnov, "Quantum geometry and black holes", preprint available as [`gr-qc/9804039`](http://xxx.lanl.gov/abs/gr-qc/9804039).
+1) Abhay Ashtekar and Kirill Krasnov, "Quantum geometry and black holes", preprint available as [`gr-qc/9804039`](https://arxiv.org/abs/gr-qc/9804039).
 
 But if you prefer to see a picture of a quantum black hole without any
 equations, try:
@@ -70,7 +70,7 @@ formalism for understanding this stuff, and now people are busy arguing
 about the merits of different approaches. Here are some papers on the
 subject --- I'll pick up where I left off in ["Week 113"](#week113).
 
-3) Louis Crane, David N. Yetter, "On the classical limit of the balanced state sum", preprint available as [`gr-qc/9712087`](http://xxx.lanl.gov/abs/gr-qc/9712087).
+3) Louis Crane, David N. Yetter, "On the classical limit of the balanced state sum", preprint available as [`gr-qc/9712087`](https://arxiv.org/abs/gr-qc/9712087).
 
 The goal here is to show that in the limit of large spins, the amplitude
 given by Barrett and Crane's formula approaches
@@ -127,13 +127,13 @@ corresponding quantum group. This should be related to quantum gravity
 with nonzero cosmological constant, if all the mathematical clues
 aren't lying to us. See:
 
-5) David N. Yetter, "Generalized Barrett-Crane vertices and invariants of embedded graphs", preprint available as [`math.QA/9801131`](http://xxx.lanl.gov/abs/math.QA/9801131).
+5) David N. Yetter, "Generalized Barrett-Crane vertices and invariants of embedded graphs", preprint available as [`math.QA/9801131`](https://arxiv.org/abs/math.QA/9801131).
 
 Barrett has also given a nice formula in terms of integrals for the
 invariant of 4-valent graphs labelled by spins. This is motivated by the
 physics and illuminates it nicely:
 
-6) John W. Barrett, "The classical evaluation of relativistic spin networks", preprint available as [`math.QA/9803063`](http://xxx.lanl.gov/abs/math.QA/9803063).
+6) John W. Barrett, "The classical evaluation of relativistic spin networks", preprint available as [`math.QA/9803063`](https://arxiv.org/abs/math.QA/9803063).
 
 Let me quote the abstract:
 
@@ -181,9 +181,9 @@ citing Bryant of course. Barrett and Crane overlooked this problem in
 the first version of their paper, but now they recognize its importance.
 Two papers have recently appeared which investigate it further:
 
-7) Michael P. Reisenberger, "Classical Euclidean general relativity from 'left-handed area = right-handed area''", preprint available as [`gr-qc/9804061`](http://xxx.lanl.gov/abs/gr-qc/9804061).
+7) Michael P. Reisenberger, "Classical Euclidean general relativity from 'left-handed area = right-handed area''", preprint available as [`gr-qc/9804061`](https://arxiv.org/abs/gr-qc/9804061).
 
-8) Roberto De Pietri and Laurent Freidel, "$\mathfrak{so}(4)$ Plebanski Action and relativistic spin foam model", preprint available as [`gr-qc/9804071`](http://xxx.lanl.gov/abs/gr-qc/9804071).
+8) Roberto De Pietri and Laurent Freidel, "$\mathfrak{so}(4)$ Plebanski Action and relativistic spin foam model", preprint available as [`gr-qc/9804071`](https://arxiv.org/abs/gr-qc/9804071).
 
 These papers study classical general relativity formulated as a
 constrained $\mathrm{SO}(4)$ BF theory. The constraints needed here are
@@ -199,7 +199,7 @@ relativity mixed in with these extra theories.
 Here's another recent product of the Center for Classical and Quantum
 Gravity here at Penn State:
 
-9) Laurent Freidel and Kirill Krasnov, "Discrete space-time volume for 3-dimensional BF theory and quantum gravity", preprint available as [`hep-th/9804185`](http://xxx.lanl.gov/abs/hep-th/9804185).
+9) Laurent Freidel and Kirill Krasnov, "Discrete space-time volume for 3-dimensional BF theory and quantum gravity", preprint available as [`hep-th/9804185`](https://arxiv.org/abs/hep-th/9804185).
 
 Freidel and Krasnov study the volume of a single 3-simplex as an
 observable in the context of the Turaev-Viro model --- a topological
@@ -210,14 +210,14 @@ And here are some other recent papers on quantum gravity written by
 folks who either work here at the CGPG or at least occasionally drift
 through. I'll just quote the abstracts of these:
 
-10) Ted Jacobson, "Black hole thermodynamics today", to appear in _Proceedings of the Eighth Marcel Grossmann Meeting_, World Scientific, 1998, preprint available as [`gr-qc/9801015`](http://xxx.lanl.gov/abs/gr-qc/9801015).
+10) Ted Jacobson, "Black hole thermodynamics today", to appear in _Proceedings of the Eighth Marcel Grossmann Meeting_, World Scientific, 1998, preprint available as [`gr-qc/9801015`](https://arxiv.org/abs/gr-qc/9801015).
 
 > A brief survey of the major themes and developments of black hole
 > thermodynamics in the 1990's is given, followed by summaries of the
 > talks on this subject at MG8 together with a bit of commentary, and
 > closing with a look towards the future.
 
-11) Rodolfo Gambini, Jorge Pullin, "Does loop quantum gravity imply $\Lambda = 0$?", preprint available as [`gr-qc/9803097`](http://xxx.lanl.gov/abs/gr-qc/9803097).
+11) Rodolfo Gambini, Jorge Pullin, "Does loop quantum gravity imply $\Lambda = 0$?", preprint available as [`gr-qc/9803097`](https://arxiv.org/abs/gr-qc/9803097).
 
 > We suggest that in a recently proposed framework for quantum gravity,
 > where Vassiliev invariants span the the space of states, the latter is
@@ -225,7 +225,7 @@ through. I'll just quote the abstracts of these:
 > This naturally suggests that the initial state of the universe should
 > have been one with $\Lambda=0$.
 
-11) R. Gambini, O. Obregon, and J. Pullin, "Yang-Mills analogues of the Immirzi ambiguity", preprint available as [`gr-qc/9801055`](http://xxx.lanl.gov/abs/gr-qc/9801055).
+11) R. Gambini, O. Obregon, and J. Pullin, "Yang-Mills analogues of the Immirzi ambiguity", preprint available as [`gr-qc/9801055`](https://arxiv.org/abs/gr-qc/9801055).
 
 > We draw parallels between the recently introduced 'Immirzi
 > ambiguity'' of the Ashtekar-like formulation of canonical quantum
@@ -233,7 +233,7 @@ through. I'll just quote the abstracts of these:
 > the $\theta$ ambiguity. We also discuss ambiguities in the Maxwell case, and
 > implication for the loop quantization of these theories.
 
-12) John Baez and Stephen Sawin, "Diffeomorphism-invariant spin network states", to appear in _Jour. Funct. Analysis_, preprint available as [`q-alg/9708005`](http://xxx.lanl.gov/abs/q-alg/9708005) or at `http://math.ucr.edu/home/baez/int2.ps`
+12) John Baez and Stephen Sawin, "Diffeomorphism-invariant spin network states", to appear in _Jour. Funct. Analysis_, preprint available as [`q-alg/9708005`](https://arxiv.org/abs/q-alg/9708005) or at `http://math.ucr.edu/home/baez/int2.ps`
 
 > We extend the theory of diffeomorphism-invariant spin network states
 > from the real-analytic category to the smooth category. Suppose that $G$
@@ -251,9 +251,9 @@ through. I'll just quote the abstracts of these:
 
 Finally, here are two recent reviews of string theory and supersymmetry:
 
-13) John H. Schwarz and Nathan Seiberg, "String theory, supersymmetry, unification, and all that", to appear in the _American Physical Society Centenary issue of Reviews of Modern Physics_, March 1999, preprint available as [`hep-th/9803179`](http://xxx.lanl.gov/abs/hep-th/9803179).
+13) John H. Schwarz and Nathan Seiberg, "String theory, supersymmetry, unification, and all that", to appear in the _American Physical Society Centenary issue of Reviews of Modern Physics_, March 1999, preprint available as [`hep-th/9803179`](https://arxiv.org/abs/hep-th/9803179).
 
-14) Keith R. Dienes and Christopher Kolda, "Twenty open questions in supersymmetric particle physics", 64 pages, preprint available as [`hep-ph/9712322`](http://xxx.lanl.gov/abs/hep-ph/9712322).
+14) Keith R. Dienes and Christopher Kolda, "Twenty open questions in supersymmetric particle physics", 64 pages, preprint available as [`hep-ph/9712322`](https://arxiv.org/abs/hep-ph/9712322).
 
 I'm afraid I'll slack off on my "tour of homotopy theory" this week.
 I want to get to fun stuff like model categories and $E_\infty$ spaces, but

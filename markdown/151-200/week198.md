@@ -293,16 +293,16 @@ details, read these papers:
 
 2) John C. Baez, J. Daniel Christensen and Greg Egan, Asymptotics of
 10j symbols, Class. Quant. Grav. 19 (2002) 6489-6513. Also available as
-[`gr-qc/0208010`](http://xxx.lanl.gov/abs/gr-qc/0208010).
+[`gr-qc/0208010`](https://arxiv.org/abs/gr-qc/0208010).
 
 3) John W. Barrett and Christopher M. Steele, Asymptotics of
 relativistic spin networks, Class. Quant. Grav. 20 (2003) 1341-1362.
 Also available as
-[`gr-qc/0209023`](http://xxx.lanl.gov/abs/gr-qc/0209023).
+[`gr-qc/0209023`](https://arxiv.org/abs/gr-qc/0209023).
 
 4) Laurent Freidel and David Louapre, Asymptotics of 6j and 10j
 symbols, Class. Quant. Grav. 20 (2003) 1267-1294. Also available as
-[`hep-th/0209134`](http://xxx.lanl.gov/abs/hep-th/0209134).
+[`hep-th/0209134`](https://arxiv.org/abs/hep-th/0209134).
 
 The physical meaning of this fact is still quite mysterious. I could
 tell you everyone's guesses, but I'm not sure it's worthwhile. Next
@@ -320,7 +320,7 @@ bit more about this thing from here:
 
 5) Robert Coquereaux, On the finite dimensional quantum group H = M_3
 + (M~2|1~(Λ^2))~0~, available as
-[`hep-th/9610114`](http://xxx.lanl.gov/abs/hep-th/9610114) and at
+[`hep-th/9610114`](https://arxiv.org/abs/hep-th/9610114) and at
 `http://www.cpt.univ-mrs.fr/~coque/articles_html/SU2qba/SU2qba.html`
 
 Just to review: let's start with the group consisting of all the ways

@@ -111,7 +111,7 @@ precisely what's needed to make the result independent of the
 triangulation! See ["Week 38"](#week38) for an explanation of this
 seeming miracle: it's actually no miracle at all.
 
-2) E. Guadagnini, L. Pilo, "Three-manifold invariants and their relation with the fundamental group", 22 pages in LaTeX available as [`hep-th/9612090`](http://xxx.lanl.gov/ps/hep-th/9612090).
+2) E. Guadagnini, L. Pilo, "Three-manifold invariants and their relation with the fundamental group", 22 pages in LaTeX available as [`hep-th/9612090`](https://arxiv.org/ps/hep-th/9612090).
 
 Fans of topological field theory may like this one, though I must admit
 I haven't gotten around to doing more than reading the abstract yet. In
@@ -127,7 +127,7 @@ Turaev-Viro theory partition function, so this conjecture is saying that
 the Turaev-Viro theories discussed above have a tendency to notice only
 the fundamental group.
 
-3) Michael Reisenberger and Carlo Rovelli, "'Sum over surfaces' form of loop quantum gravity", preprint available as [`gr-qc/9612035`](http://xxx.lanl.gov/ps/gr-qc/9612035).
+3) Michael Reisenberger and Carlo Rovelli, "'Sum over surfaces' form of loop quantum gravity", preprint available as [`gr-qc/9612035`](https://arxiv.org/ps/gr-qc/9612035).
 
 This wonderful paper should really push forwards our understanding of
 the loop representation of quantum gravity. I talked a little bit about

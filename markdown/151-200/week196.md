@@ -24,7 +24,7 @@ first microsecond - unless, of course, there's some important physics
 we're missing. This paper tells the story quite nicely:
 
 2) Dominik J. Schwarz, The first second of the universe, available as
-[`astro-ph/0303574`](http://xxx.lanl.gov/abs/astro-ph/0303574).
+[`astro-ph/0303574`](https://arxiv.org/abs/astro-ph/0303574).
 
 But, since the physics gets weirder as we approach the Big Bang, I'll
 tell this story in reverse order - and I'll start from *now*, just to
@@ -290,11 +290,11 @@ For a detailed description of some of WMAP's results, try these:
 
 7) C. L. Bennett et al, First Year Wilkinson Microwave Anisotropy Probe
 (WMAP) Observations: Preliminary Maps and Basic Results, available as
-[`astro-ph/0302207`](http://xxx.lanl.gov/abs/astro-ph/0302207).
+[`astro-ph/0302207`](https://arxiv.org/abs/astro-ph/0302207).
 
 8) D. N. Spergel et al, First Year Wilkinson Microwave Anisotropy Probe
 (WMAP) Observations: Determination of Cosmological Parameters, available
-as [`astro-ph/0302209`](http://xxx.lanl.gov/abs/astro-ph/0302209).
+as [`astro-ph/0302209`](https://arxiv.org/abs/astro-ph/0302209).
 
 These are two of thirteen related papers produced by the WMAP team! Both
 of them have lots of coauthors, one of which is Ned Wright, author of
@@ -304,7 +304,7 @@ Here is Pfenniger and Puy's paper on hydrogen "snowflakes":
 
 9) D. Pfenniger and D. Puy, Possible flakes of molecular hydrogen in
 the early Universe, available as
-[`astro-ph/0211393`](http://xxx.lanl.gov/abs/astro-ph/0211393).
+[`astro-ph/0211393`](https://arxiv.org/abs/astro-ph/0211393).
 
 I should also thank Ted Bunn for telling me some stuff about converting
 between times, temperatures and redshifts. Cosmologists of the early

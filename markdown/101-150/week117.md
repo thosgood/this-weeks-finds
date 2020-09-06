@@ -8,7 +8,7 @@ about two more phases that people are trying to create: quark-gluon
 plasma and strange quark matter. The first almost certainly exists; the
 second is a matter of much discussion.
 
-1) The E864 Collaboration, "Search for charged strange quark matter produced in 11.5 A GeV/c Au + Pb collisions", _Phys. Rev. Lett._ **79** (1997) 3612--3616, preprint available as [`nucl-ex/9706004`](http://xxx.lanl.gov/abs/nucl-ex/9706004).
+1) The E864 Collaboration, "Search for charged strange quark matter produced in 11.5 A GeV/c Au + Pb collisions", _Phys. Rev. Lett._ **79** (1997) 3612--3616, preprint available as [`nucl-ex/9706004`](https://arxiv.org/abs/nucl-ex/9706004).
 
 Last week I went to a talk on the search for strange quark matter by one
 of these collaborators, Kenneth Barish. This talk was based on Barish's
@@ -96,7 +96,7 @@ energetically favorable to have strange quarks around, since they can
 occupy lower-energy states which are already packed with ups and downs.
 They seem to be seeing strangeness enhancement at CERN:
 
-2) Juergen Eschke, NA35 Collaboration, "Strangeness enhancement in sulphur- nucleus collisions at 200 GeV/N", preprint available as [`hep-ph/9609242`](http://xxx.lanl.gov/abs/hep-ph/9609242).
+2) Juergen Eschke, NA35 Collaboration, "Strangeness enhancement in sulphur- nucleus collisions at 200 GeV/N", preprint available as [`hep-ph/9609242`](https://arxiv.org/abs/hep-ph/9609242).
 
 As far as I can tell, people are just about as sure that deconfinement
 occurs at high temperatures as they would be that tungsten boils at high
@@ -110,7 +110,7 @@ $10^6$ collisions per second. So far they've set an upper bound of
 $10^{-7}$ charged strangelets per collision, neutral strangelets being
 harder to detect and rule out. For more on strangelets, try this:
 
-3) E. P. Gilson and R. L. Jaffe, "Very small strangelets", _Phys. Rev. Lett._ **71** (1993) 332--335, preprint available as [`hep-ph/9302270`](http://xxx.lanl.gov/abs/hep-ph/9302270).
+3) E. P. Gilson and R. L. Jaffe, "Very small strangelets", _Phys. Rev. Lett._ **71** (1993) 332--335, preprint available as [`hep-ph/9302270`](https://arxiv.org/abs/hep-ph/9302270).
 
 Strange quark matter is also of interest in astrophysics. In 1984 Witten
 wrote a paper proposing that in the limit of large quark number, strange
@@ -125,7 +125,7 @@ most stable nucleus. This raises the possibility that under suitable
 conditions, a neutron star could collapse to become a "quark star" or
 "strange star". Let me quote the abstract of the following paper:
 
-5) Dany Page, "Strange stars: Which is the ground state of QCD at finite baryon number?", in _High Energy Phenomenology_ eds. M. A. Perez & R. Huerta (World Scientific), 1992, pp. 347--356, preprint available as [`astro-ph/9602043`](http://xxx.lanl.gov/abs/astro-ph/9602043).
+5) Dany Page, "Strange stars: Which is the ground state of QCD at finite baryon number?", in _High Energy Phenomenology_ eds. M. A. Perez & R. Huerta (World Scientific), 1992, pp. 347--356, preprint available as [`astro-ph/9602043`](https://arxiv.org/abs/astro-ph/9602043).
 
 > Witten's conjecture about strange quark matter ('Strange Matter')
 > being the ground state of QCD at finite baryon number is presented and

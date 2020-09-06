@@ -74,7 +74,7 @@ sorts of string theory are beginning to look like different
 manifestations of the same theory in 11 dimensions... some monstrous
 thing called M-theory! Let me quote the following paper:
 
-1) Kelly Jay Davis, "M-Theory and String-String Duality", 28 pages, available as [`hep-th/9601102`](http://xxx.lanl.gov/abs/hep-th/9601102), uses `harvmac.tex`.
+1) Kelly Jay Davis, "M-Theory and String-String Duality", 28 pages, available as [`hep-th/9601102`](https://arxiv.org/abs/hep-th/9601102), uses `harvmac.tex`.
 
 The idea seems to be roughly that depending on how one compactifies the
 11th dimension, one gets different 10-dimensional theories from
@@ -142,7 +142,7 @@ So, as you can see, there is a veritable jungle of relationships out
 there. But you must be wondering by now: *what's M-theory?* According
 to
 
-2) Edward Witten, "Five-branes and M-Theory on an orbifold", available as [`hep-th/9512219`](http://xxx.lanl.gov/abs/hep-th/9512219).
+2) Edward Witten, "Five-branes and M-Theory on an orbifold", available as [`hep-th/9512219`](https://arxiv.org/abs/hep-th/9512219).
 
 the M stands for "magic", "mystery", or "membrane", according to
 taste. From a mathematical viewpoint a better term might be "murky",
@@ -161,19 +161,19 @@ this stuff will be seen as much simpler than it seems now.
 
 Now let me briefly describe some papers I actually sort of understand.
 
-3) Abhay Ashtekar, "Polymer geometry at Planck scale and quantum Einstein equations", available as [`hep-th/9601054`](http://xxx.lanl.gov/abs/hep-th/9601054).
+3) Abhay Ashtekar, "Polymer geometry at Planck scale and quantum Einstein equations", available as [`hep-th/9601054`](https://arxiv.org/abs/hep-th/9601054).
 
-    Roumen Borissov, Seth Major and Lee Smolin, "The geometry of quantum spin networks", available as [`gr-qc/9512043`](http://xxx.lanl.gov/abs/gr-qc/9512043), 35 Postscript figures, uses `epsfig.sty`.
+    Roumen Borissov, Seth Major and Lee Smolin, "The geometry of quantum spin networks", available as [`gr-qc/9512043`](https://arxiv.org/abs/gr-qc/9512043), 35 Postscript figures, uses `epsfig.sty`.
 
-    Bernd Bruegmann, "On the constraint algebra of quantum gravity in the loop representation", available as [`gr-qc/9512036`](http://xxx.lanl.gov/abs/gr-qc/9512036).
+    Bernd Bruegmann, "On the constraint algebra of quantum gravity in the loop representation", available as [`gr-qc/9512036`](https://arxiv.org/abs/gr-qc/9512036).
 
-    Kiyoshi Ezawa, "Nonperturbative solutions for canonical quantum gravity: an overview", available as [`gr-qc/9601050`](http://xxx.lanl.gov/abs/gr-qc/9601050)
+    Kiyoshi Ezawa, "Nonperturbative solutions for canonical quantum gravity: an overview", available as [`gr-qc/9601050`](https://arxiv.org/abs/gr-qc/9601050)
 
-    Kiyoshi Ezawa, "A semiclassical interpretation of the topological solutions for canonical quantum gravity", available as [`gr-qc/9512017`](http://xxx.lanl.gov/abs/gr-qc/9512017).
+    Kiyoshi Ezawa, "A semiclassical interpretation of the topological solutions for canonical quantum gravity", available as [`gr-qc/9512017`](https://arxiv.org/abs/gr-qc/9512017).
 
-    Jorge Griego, "Extended knots and the space of states of quantum gravity", available as [`gr-qc/9601007`](http://xxx.lanl.gov/abs/gr-qc/9601007).
+    Jorge Griego, "Extended knots and the space of states of quantum gravity", available as [`gr-qc/9601007`](https://arxiv.org/abs/gr-qc/9601007).
 
-    Seth Major and Lee Smolin, "Quantum deformation of quantum gravity", available as [`gr-qc/9512020`](http://xxx.lanl.gov/abs/gr-qc/9512020).
+    Seth Major and Lee Smolin, "Quantum deformation of quantum gravity", available as [`gr-qc/9512020`](https://arxiv.org/abs/gr-qc/9512020).
 
 Work on the loop representation of quantum gravity proceeds apace. The
 paper by Ashtekar and the first one by Ezawa review various recent
@@ -190,7 +190,7 @@ former as a limit as the cosmological constant goes to zero. In the
 second paper listed, Ezawa gives semiclassical interpretations of these
 and other exact solutions of quantum gravity.
 
-4) Thomas Kerler, "Genealogy of nonperturbative quantum-invariants of 3-Manifolds: the surgical family", available as [`q-alg/9601021`](http://xxx.lanl.gov/abs/q-alg/9601021).
+4) Thomas Kerler, "Genealogy of nonperturbative quantum-invariants of 3-Manifolds: the surgical family", available as [`q-alg/9601021`](https://arxiv.org/abs/q-alg/9601021).
 
 Kerler brings a bit more order to the study of quantum invariants of
 3-manifolds, in particular, the Reshetikhin-Turaev,

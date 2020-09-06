@@ -73,7 +73,7 @@ Unfortunately, most of them don't explain the real meat of general
 relativity: Einstein's equation. This bugs me, especially since it's
 not so hard. If you're interested, take a look at this:
 
-4) John Baez, "The meaning of Einstein's equation", available at [`gr-qc/0103044`](http://xxx.lanl.gov/abs/gr-qc/0103044).
+4) John Baez, "The meaning of Einstein's equation", available at [`gr-qc/0103044`](https://arxiv.org/abs/gr-qc/0103044).
 
 Since my Milwaukee trip I've become really busy writing notes on the
 quantum gravity seminar here at Riverside. Toby Bartels and I have been
@@ -105,15 +105,15 @@ Over on the more technical end, Martin Bojowald has written a bunch of
 papers applying loop quantum gravity to the big bang, which I want to
 catch up with:
 
-7) Martin Bojowald, "Loop Quantum Cosmology I: Kinematics", _Class. Quant. Grav._ **17** (2000), 1489--1508, also available at [`gr-qc/9919103`](http://xxx.lanl.gov/abs/gr-qc/9919103)
+7) Martin Bojowald, "Loop Quantum Cosmology I: Kinematics", _Class. Quant. Grav._ **17** (2000), 1489--1508, also available at [`gr-qc/9919103`](https://arxiv.org/abs/gr-qc/9919103)
 
-    "Loop Quantum Cosmology II: Volume Operators", _Class. Quant. Grav._ **17** (2000), 1509--1526, also available at [`gr-qc/9910104`](http://xxx.lanl.gov/abs/gr-qc/9910104).
+    "Loop Quantum Cosmology II: Volume Operators", _Class. Quant. Grav._ **17** (2000), 1509--1526, also available at [`gr-qc/9910104`](https://arxiv.org/abs/gr-qc/9910104).
 
-    "Loop Quantum Cosmology III: Wheeler-DeWitt Operators", _Class. Quant. Grav._ **18** (2001), 1055--1070, also available at [`gr-qc/0008052`](http://xxx.lanl.gov/abs/gr-qc/0008052).
+    "Loop Quantum Cosmology III: Wheeler-DeWitt Operators", _Class. Quant. Grav._ **18** (2001), 1055--1070, also available at [`gr-qc/0008052`](https://arxiv.org/abs/gr-qc/0008052).
 
-    "Loop Quantum Cosmology IV: Discrete Time Evolution", _Class. Quant. Grav._ **18** (2001) 1071--1088, also available at [`gr-qc/0008053`](http://xxx.lanl.gov/abs/gr-qc/0008053).
+    "Loop Quantum Cosmology IV: Discrete Time Evolution", _Class. Quant. Grav._ **18** (2001) 1071--1088, also available at [`gr-qc/0008053`](https://arxiv.org/abs/gr-qc/0008053).
 
-    "Absence of Singularity in Loop Quantum Cosmology", available at [`gr-qc/0102069`](http://xxx.lanl.gov/abs/gr-qc/0102069).
+    "Absence of Singularity in Loop Quantum Cosmology", available at [`gr-qc/0102069`](https://arxiv.org/abs/gr-qc/0102069).
 
 The really interesting ones are the last two, whose titles explain why
 they're interesting --- but they're based on the framework developed in
@@ -126,15 +126,15 @@ theory, and their application to $n$-categories. He's even given a new
 definition of "weak $n$-category", thus adding to the profusion of
 competing candidates:
 
-8) Tom Leinster, "General operads and multicategories", available as [`math.CT/9810053`](http://xxx.lanl.gov/abs/math.CT/9810053).
+8) Tom Leinster, "General operads and multicategories", available as [`math.CT/9810053`](https://arxiv.org/abs/math.CT/9810053).
 
     _Structures in higher-dimensional category theory_, Ph.D. thesis, available at `http://www.dpmms.cam.ac.uk/~leinster/shdctabs.html`
 
-    "Up-to-homotopy monoids", available as [`math.QA/9912084`](http://xxx.lanl.gov/abs/math.QA/9912084).
+    "Up-to-homotopy monoids", available as [`math.QA/9912084`](https://arxiv.org/abs/math.QA/9912084).
 
-    "Homotopy algebras for operads", available as [`math.QA/0002180`](http://xxx.lanl.gov/abs/math.QA/0002180).
+    "Homotopy algebras for operads", available as [`math.QA/0002180`](https://arxiv.org/abs/math.QA/0002180).
 
-    "Operads in higher-dimensional category theory", available as [`math.CT/0011106`](http://xxx.lanl.gov/abs/math.CT/0011106)
+    "Operads in higher-dimensional category theory", available as [`math.CT/0011106`](https://arxiv.org/abs/math.CT/0011106)
 
 Eugenia Cheng, on the other hand, seems to be working to *reduce* the
 number of different definitions of weak $n$-category, by laying the
@@ -153,11 +153,11 @@ Finally, everyone who wants to understand M-theory and its relation to
 matrix models should first read this review article by Nicolai and
 Helling:
 
-10) Hermann Nicolai and Robert Helling, "Supermembranes and M(atrix) theory", available as [`hep-th/9809103`](http://xxx.lanl.gov/abs/hep-th/9809103).
+10) Hermann Nicolai and Robert Helling, "Supermembranes and M(atrix) theory", available as [`hep-th/9809103`](https://arxiv.org/abs/hep-th/9809103).
 
 and then this new review article by Wati Taylor:
 
-10) Washington Taylor, "M(atrix) theory: matrix quantum mechanics as a fundamental theory", available as [`hep-th/0101126`](http://xxx.lanl.gov/abs/hep-th/0101126).
+10) Washington Taylor, "M(atrix) theory: matrix quantum mechanics as a fundamental theory", available as [`hep-th/0101126`](https://arxiv.org/abs/hep-th/0101126).
 
 They're both pretty cool. How does a theory of matrices wind up acting
 like a theory of membranes? That's what you'll understand if you study

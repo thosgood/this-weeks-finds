@@ -28,7 +28,7 @@ be careful... verbal reasoning easily conceals many pitfalls! Let me
 present an argument that puts a lower bound on how accurately we can
 measure distances:
 
-1) Y. Jack Ng and H. van Dam, "Measuring the foaminess of space-time with gravity-wave interferometers", _Found. Phys._ **30** (2000) 795--805, also available as [`gr-qc/9906003`](http://xxx.lanl.gov/abs/gr-qc/9906003)
+1) Y. Jack Ng and H. van Dam, "Measuring the foaminess of space-time with gravity-wave interferometers", _Found. Phys._ **30** (2000) 795--805, also available as [`gr-qc/9906003`](https://arxiv.org/abs/gr-qc/9906003)
 
 You can decide if it's right or not.
 
@@ -125,11 +125,11 @@ clocks that work this way!
 
 For further criticism of this argument, see:
 
-3) Ronald J. Adler, Ilya M. Nemenman, James M. Overduin, David I. Santiago, "On the detectability of quantum spacetime foam with gravitational-wave interferometers", _Phys. Lett._ **B477** (2000) 424--428, also available at [`gr-qc/9909017`](http://xxx.lanl.gov/abs/gr-qc/9909017).
+3) Ronald J. Adler, Ilya M. Nemenman, James M. Overduin, David I. Santiago, "On the detectability of quantum spacetime foam with gravitational-wave interferometers", _Phys. Lett._ **B477** (2000) 424--428, also available at [`gr-qc/9909017`](https://arxiv.org/abs/gr-qc/9909017).
 
 For their response, see:
 
-4) Y. Jack Ng and H. van Dam, "On Wigner's clock and the detectability of spacetime foam with gravitational-wave interferometers", _Phys. Lett._ **B477** (2000) 429--435, also available at [`gr-qc/9911054`](http://xxx.lanl.gov/abs/gr-qc/9911054).
+4) Y. Jack Ng and H. van Dam, "On Wigner's clock and the detectability of spacetime foam with gravitational-wave interferometers", _Phys. Lett._ **B477** (2000) 429--435, also available at [`gr-qc/9911054`](https://arxiv.org/abs/gr-qc/9911054).
 
 For an argument that claims an even larger value of the position
 uncertainty, namely
@@ -138,7 +138,7 @@ see these papers:
 
 5) G. Amelino-Camelia, "Quantum theory's last challenge", _Nature_ **408** (2000) 661--664.
 
-    "Testable scenario for relativity with minimum length", available at [`hep-th/0012238`](http://xxx.lanl.gov/abs/hep-th/0012238)
+    "Testable scenario for relativity with minimum length", available at [`hep-th/0012238`](https://arxiv.org/abs/hep-th/0012238)
 
 Let's do a little number-crunching to compare these calculations. An
 gravitational wave detector like LIGO is basically just a device that
@@ -155,7 +155,7 @@ very noticeable at LIGO!
 Unfortunately, I'm pretty sure the Planck length figure is about right.
 For another derivation of this figure, see:
 
-6) Ronald J. Adler and David I. Santiago, "On gravity and the uncertainty principle", _Mod. Phys. Lett._ **A14** (1999) 1371, also available at [`gr-qc/9904026`](http://xxx.lanl.gov/abs/gr-qc/9904026).
+6) Ronald J. Adler and David I. Santiago, "On gravity and the uncertainty principle", _Mod. Phys. Lett._ **A14** (1999) 1371, also available at [`gr-qc/9904026`](https://arxiv.org/abs/gr-qc/9904026).
 
 What other ways might we detect quantum gravity effects? One is to look
 for dispersion of light as it passes through the vacuum. Maxwell's
@@ -168,9 +168,9 @@ as it travels along through empty space.
 There are calculations in both string theory and loop quantum gravity
 which raise this as a possibility:
 
-7) J. Ellis, N.E. Mavromatos and D. V. Nanopoulos, "Search for quantum gravity", _Gen. Rel. Grav._ **31** (1999) 1257--1262, also available as [`gr-qc/9905048`](http://xxx.lanl.gov/abs/gr-qc/9905048).
+7) J. Ellis, N.E. Mavromatos and D. V. Nanopoulos, "Search for quantum gravity", _Gen. Rel. Grav._ **31** (1999) 1257--1262, also available as [`gr-qc/9905048`](https://arxiv.org/abs/gr-qc/9905048).
 
-8) Jorge Pullin and Rodolfo Gambini, "Nonstandard optics from quantum spacetime", _Phys. Rev._ **D59** (1999) 124021, also available as [`gr-qc/9809038`](http://xxx.lanl.gov/abs/gr-qc/9809038).
+8) Jorge Pullin and Rodolfo Gambini, "Nonstandard optics from quantum spacetime", _Phys. Rev._ **D59** (1999) 124021, also available as [`gr-qc/9809038`](https://arxiv.org/abs/gr-qc/9809038).
 
 These calculations are quite controversial. For one thing, they require
 a breaking of Lorentz invariance, since there's no way to get the speed
@@ -188,7 +188,7 @@ Hmm. How can we arrange this? Use $\gamma$-ray bursters! We don't have to
 build them; nature has seen to that, so we can use these rascals to put
 limits on this dispersion effect. For more details, try:
 
-9) J. Ellis, K. Farakos, N.E. Mavromatos, V. Mitsou and D.V. Nanopoulos, "Astrophysical probes of the constancy of the velocity of light", _Astrophys. J._ **535** (2000) 139--151, also available as [`astro-ph/9907340`](http://xxx.lanl.gov/abs/astro-ph/9907340).
+9) J. Ellis, K. Farakos, N.E. Mavromatos, V. Mitsou and D.V. Nanopoulos, "Astrophysical probes of the constancy of the velocity of light", _Astrophys. J._ **535** (2000) 139--151, also available as [`astro-ph/9907340`](https://arxiv.org/abs/astro-ph/9907340).
 
 So far, nobody has seen quantum gravity effects this way.
 

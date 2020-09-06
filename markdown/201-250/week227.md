@@ -93,7 +93,7 @@ part is a gentle introduction to the laws of physics as we know them.
 For more info on dark matter and dark energy, try this:
 
 5) Varun Sahri, Dark matter and dark energy, available as
-[`astro-ph/0403324`](http://xxx.lanl.gov/abs/astro-ph/0403324).
+[`astro-ph/0403324`](https://arxiv.org/abs/astro-ph/0403324).
 
 If you read this, you'll learn about the "cuspy core problem" -
 existing cold dark matter models produce galaxies with a sharp spikes of

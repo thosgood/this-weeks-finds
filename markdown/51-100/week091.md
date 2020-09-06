@@ -92,7 +92,7 @@ literature, in particular:
 
 and
 
-2) Frank D. (Tony) Smith, "Sets and $C^n$; quivers and $A$-$D$-$E$; triality; generalized supersymmetry; and $D_4$-$D_5$-$\mathrm{E}_6$", preprint available as [`hep-th/9306011`](http://xxx.lanl.gov/abs/hep-th/9306011).
+2) Frank D. (Tony) Smith, "Sets and $C^n$; quivers and $A$-$D$-$E$; triality; generalized supersymmetry; and $D_4$-$D_5$-$\mathrm{E}_6$", preprint available as [`hep-th/9306011`](https://arxiv.org/abs/hep-th/9306011).
 
 But I've never quite seen anyone come right out and admit that triality
 arises from the permutations of the unit vectors $i$, $j$, and $k$ in 3d

@@ -84,7 +84,7 @@ misleading!) I have been too busy to read this paper yet.
 
 3) "Bibliography of publications related to classical and quantum
 gravity in terms of the Ashtekar variables", by Bernd Bruegmann, 14 pages
-(LaTeX, 1 figure), available as [`gr-qc/9303015`](http://xxx.lanl.gov/abs/gr-qc/9303015).
+(LaTeX, 1 figure), available as [`gr-qc/9303015`](https://arxiv.org/abs/gr-qc/9303015).
 
 Let me just quote the abstract; this should be a handy thing:
 
@@ -100,7 +100,7 @@ welcome.
 ------------------------------------------------------------------------
 
 4) "Surgical invariants of four-manifolds", by Boguslaw Broda, preprint
-available as [`hep-th/9302092`](http://xxx.lanl.gov/ps/hep-th/9302092).
+available as [`hep-th/9302092`](https://arxiv.org/ps/hep-th/9302092).
 (Revisited --- see ["Week 9"](#week9))
 
 Let me briefly recall the setup: we describe a compact 4-manifold by a

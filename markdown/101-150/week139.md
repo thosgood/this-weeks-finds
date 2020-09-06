@@ -9,7 +9,7 @@ A while ago, Phillip Helbig, one of the two moderators of
 `sci.physics.research` who do astrophysics, drew my attention to an
 interesting paper:
 
-1) Vipul Periwal, "Cosmological and astrophysical tests of quantum gravity", preprint available at [`astro-ph/9906253`](http://xxx.lanl.gov/abs/astro-ph/9906253)
+1) Vipul Periwal, "Cosmological and astrophysical tests of quantum gravity", preprint available at [`astro-ph/9906253`](https://arxiv.org/abs/astro-ph/9906253)
 
 The basic idea behind this is that quantum gravity effects could cause
 deviations from Newton's inverse square law at large distance scales,
@@ -277,7 +277,7 @@ phase transition in a toy model of quantum gravity where one does the
 path integral over a special class of metrics --- namely those with 2
 Killing vector fields.
 
-9) Viqar Husain and Sebastian Jaimungal, "Phase transition in quantum gravity", preprint available as [`gr-qc/9908056`](http://xxx.lanl.gov/abs/gr-qc/9908056).
+9) Viqar Husain and Sebastian Jaimungal, "Phase transition in quantum gravity", preprint available as [`gr-qc/9908056`](https://arxiv.org/abs/gr-qc/9908056).
 
 But if anyone can help me clear up these issues, please let me know!
 

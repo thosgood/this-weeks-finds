@@ -115,9 +115,9 @@ So...
     Lewandowski, but the first people to try to quantize the area operator
     were Rovelli and Smolin; see
 
-    1) "Discreteness of area and volume in quantum gravity", by Carlo Rovelli and Lee Smolin, 36 pages in LaTeX format, 13 figures uuencoded, available as [`gr-qc/9411005`](http://xxx.lanl.gov/abs/gr-qc/9411005).
+    1) "Discreteness of area and volume in quantum gravity", by Carlo Rovelli and Lee Smolin, 36 pages in LaTeX format, 13 figures uuencoded, available as [`gr-qc/9411005`](https://arxiv.org/abs/gr-qc/9411005).
 
-        Abhay Ashtekar and Jerzy Lewandowski, "Quantum theory of geometry I: area operators", 31 pages in LaTeX format, to appear in the _Classical and Quantum Gravity_ special issue dedicated to Andrzej Trautman, preprint available as [`gr-qc/9602046`](http://xxx.lanl.gov/abs/gr-qc/9602046).
+        Abhay Ashtekar and Jerzy Lewandowski, "Quantum theory of geometry I: area operators", 31 pages in LaTeX format, to appear in the _Classical and Quantum Gravity_ special issue dedicated to Andrzej Trautman, preprint available as [`gr-qc/9602046`](https://arxiv.org/abs/gr-qc/9602046).
 
     In his talk Jerzy showed how to work the spectrum of the area operator
     (which is discrete) and showed how it could depend on whether the
@@ -146,19 +146,19 @@ So...
     theory were two aspects of some theory still waiting to be fully
     understood:
 
-    2) John Baez, "Strings, loops, knots, and gauge fields", in _Knots and Quantum Gravity_, ed. J. Baez, Oxford U. Press, Oxford, 1994, preprint available in LaTeX form as [`hep-th/9309067`](http://xxx.lanl.gov/abs/hep-th/9309067), 34 pages.
+    2) John Baez, "Strings, loops, knots, and gauge fields", in _Knots and Quantum Gravity_, ed. J. Baez, Oxford U. Press, Oxford, 1994, preprint available in LaTeX form as [`hep-th/9309067`](https://arxiv.org/abs/hep-th/9309067), 34 pages.
 
     The problem was getting a concrete way to relate the Lagrangian for the
     string theory to the Lagrangian for gravity (or whatever gauge theory
     one started with). Iwasaki tackled this problem was tackled in 3d
     quantum gravity using state sum models:
 
-    3) Junichi Iwasaki, "A reformulation of the Ponzano-Regge quantum gravity model in terms of surfaces", University of Pittsburgh, 11 pages in LaTeX format available as [`gr-qc/9410010`](http://xxx.lanl.gov/abs/gr-qc/9410010).
+    3) Junichi Iwasaki, "A reformulation of the Ponzano-Regge quantum gravity model in terms of surfaces", University of Pittsburgh, 11 pages in LaTeX format available as [`gr-qc/9410010`](https://arxiv.org/abs/gr-qc/9410010).
 
     Later, Reisenberger extended this approach to deal with certain 4d
     theories which are simpler than quantum gravity, like BF theory:
 
-    4) Michael Reisenberger, "Worldsheet formulations of gauge theories and Gravity", University of Utrecht preprint, 1994, available as [`gr-qc/9412035`](http://xxx.lanl.gov/abs/gr-qc/9412035).
+    4) Michael Reisenberger, "Worldsheet formulations of gauge theories and Gravity", University of Utrecht preprint, 1994, available as [`gr-qc/9412035`](https://arxiv.org/abs/gr-qc/9412035).
 
     In all of these theories, one computes the action for the worldsheets by
     summing something over places where they intersect. In other words, they
@@ -205,14 +205,14 @@ So...
     operators in lattice gravity. I wrote a bit about her work on the volume
     operator in ["Week 55"](#week55), and more can be found in:
 
-    5) Renate Loll, "The volume operator in discretized quantum gravity", preprint available as [`gr-qc/9506014`](http://xxx.lanl.gov/abs/gr-qc/9506014), 15 pages.
+    5) Renate Loll, "The volume operator in discretized quantum gravity", preprint available as [`gr-qc/9506014`](https://arxiv.org/abs/gr-qc/9506014), 15 pages.
 
-        Renate Loll, "Spectrum of the volume operator in quantum gravity", preprint available as [`gr-qc/9511030`](http://xxx.lanl.gov/abs/gr-qc/9511030), 14 pages.
+        Renate Loll, "Spectrum of the volume operator in quantum gravity", preprint available as [`gr-qc/9511030`](https://arxiv.org/abs/gr-qc/9511030), 14 pages.
 
     Also, Jerzy Lewandowski spoke on his work with Ashtekar on the volume
     operator in the continuum theory:
 
-    6) Jerzy Lewandowski, "Volume and quantizations", preprint available as [`gr-qc/9602035`](http://xxx.lanl.gov/abs/gr-qc/9602035), 8 pages.
+    6) Jerzy Lewandowski, "Volume and quantizations", preprint available as [`gr-qc/9602035`](https://arxiv.org/abs/gr-qc/9602035), 8 pages.
 
         Abhay Ashtekar and Jerzy Lewandowski, "Quantum theory of geometry II: volume operators", manuscript in preparation.
 

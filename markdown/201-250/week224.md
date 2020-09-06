@@ -159,7 +159,7 @@ hole evaporation. In August of this year, Hawking finally came out with
 a short paper on the subject:
 
 8) Stephen W. Hawking, Information loss in black holes, available as
-[`hep-th/0507171`](http://xxx.lanl.gov/abs/hep-th/0507171).
+[`hep-th/0507171`](https://arxiv.org/abs/hep-th/0507171).
 
 I spent a lot of time talking to physicists, but I also wandered around
 Dublin a bit. Besides listening to some great music at a pub called

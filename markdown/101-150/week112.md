@@ -101,7 +101,7 @@ further development of this earlier work, but instead of presenting
 everything historically, I'll just present the picture as I see it now.
 For more details, try the following paper:
 
-2) Abhay Ashtekar, John Baez, Alejandro Corichi and Kirill Krasnov, "Quantum geometry and black hole entropy", to appear in _Phys. Rev. Lett._, preprint available as [`gr-qc/9710007`](http://xxx.lanl.gov/abs/gr-qc/9710007).
+2) Abhay Ashtekar, John Baez, Alejandro Corichi and Kirill Krasnov, "Quantum geometry and black hole entropy", to appear in _Phys. Rev. Lett._, preprint available as [`gr-qc/9710007`](https://arxiv.org/abs/gr-qc/9710007).
 
 This is a summary of what will eventually be a longer paper with two
 parts, one on the "black hole sector" of classical general relativity,
@@ -246,11 +246,11 @@ To compare these results, you need to know what that mysterious "$\gamma$"
 factor is in the second equation! It's often called the Immirzi parameter,
 because many people learned of it from the following paper:
 
-3) Giorgio Immirzi, "Quantum gravity and Regge calculus", in _Nucl. Phys. Proc. Suppl._ **57** (1997) 65--72, preprint available as [`gr-qc/9701052`](http://xxx.lanl.gov/abs/gr-qc/9701052).
+3) Giorgio Immirzi, "Quantum gravity and Regge calculus", in _Nucl. Phys. Proc. Suppl._ **57** (1997) 65--72, preprint available as [`gr-qc/9701052`](https://arxiv.org/abs/gr-qc/9701052).
 
 However, it was first discovered by Barbero:
 
-4) Fernando Barbero, "Real Ashtekar variables for Lorentzian signature space-times", _Phys. Rev._ **D51** (1995), 5507--5510, preprint available as [`gr-qc/9410014`](http://xxx.lanl.gov/abs/gr-qc/9410014).
+4) Fernando Barbero, "Real Ashtekar variables for Lorentzian signature space-times", _Phys. Rev._ **D51** (1995), 5507--5510, preprint available as [`gr-qc/9410014`](https://arxiv.org/abs/gr-qc/9410014).
 
 It's an annoying unavoidable arbitrary dimensionless parameter that
 appears in the loop representation, which nobody had noticed before
@@ -273,7 +273,7 @@ however, the analogous trick *does* affect the physics --- different
 choices of the Immirzi parameter give different physics! For more
 details try:
 
-4) Carlo Rovelli and Thomas Thiemann, "The Immirzi parameter in quantum general relativity", preprint available as [`gr-qc/9705059`](http://xxx.lanl.gov/abs/gr-qc/9705059).
+4) Carlo Rovelli and Thomas Thiemann, "The Immirzi parameter in quantum general relativity", preprint available as [`gr-qc/9705059`](https://arxiv.org/abs/gr-qc/9705059).
 
 How does the Immirzi parameter affect the physics? It *determines the
 quantization of area*. You may notice how I keep saying "each spin-$j$
@@ -286,7 +286,7 @@ the factor of $8\pi$, I'm no good at these things, but apparently at least
 some people were getting that wrong, too!) Now Krasnov claims to have
 gotten these damned factors straightened out once and for all:
 
-5) Kirill Krasnov, "On the constant that fixes the area spectrum in canonical quantum gravity", preprint available as [`gr-qc/9709058`](http://xxx.lanl.gov/abs/gr-qc/9709058).
+5) Kirill Krasnov, "On the constant that fixes the area spectrum in canonical quantum gravity", preprint available as [`gr-qc/9709058`](https://arxiv.org/abs/gr-qc/9709058).
 
 So: it seems we can't determine the constant of proportionality in the
 entropy-area relation, because of this arbitrariness in the Immirzi
@@ -318,7 +318,7 @@ What next? Well, one thing is to try to use these ideas to study Hawking
 radiation. That's hard, because we don't understand *Hamiltonians*
 very well in quantum gravity, but Krasnov has made some progress....
 
-6) Kirill Krasnov, "Quantum geometry and thermal radiation from black holes", preprint available as [`gr-qc/9710006`](http://xxx.lanl.gov/abs/gr-qc/9710006).
+6) Kirill Krasnov, "Quantum geometry and thermal radiation from black holes", preprint available as [`gr-qc/9710006`](https://arxiv.org/abs/gr-qc/9710006).
 
 Let me just quote the abstract:
 
@@ -341,7 +341,7 @@ that if the area of a quantum black hole is quantized in *evenly spaced
 steps*, there will be large deviations from the Planck distribution of
 thermal radiation:
 
-7) Jacob D. Bekenstein and V. F. Mukhanov, "Spectroscopy of the quantum black hole", preprint available as [`gr-qc/9505012`](http://xxx.lanl.gov/abs/gr-qc/9505012).
+7) Jacob D. Bekenstein and V. F. Mukhanov, "Spectroscopy of the quantum black hole", preprint available as [`gr-qc/9505012`](https://arxiv.org/abs/gr-qc/9505012).
 
 However, in the loop representation the area is not quantized in evenly
 spaced steps: the area $A$ can be any sum of quantities like

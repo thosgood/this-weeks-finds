@@ -143,11 +143,11 @@ interested - it's these papers by Witten that did it:
 
 4) Anton Kapustin and Edward Witten, Electric-magnetic duality and the
 geometric Langlands program, 225 pages, available as
-[`hep-th/0604151`](http://xxx.lanl.gov/abs/hep-th/0604151).
+[`hep-th/0604151`](https://arxiv.org/abs/hep-th/0604151).
 
 5) Sergei Gukov and Edward Witten, Gauge theory, ramification, and the
 geometric Langlands program, 160 pages, available as
-[`hep-th/0612073`](http://xxx.lanl.gov/abs/hep-th/0612073).
+[`hep-th/0612073`](https://arxiv.org/abs/hep-th/0612073).
 
 So, if you're trying to learn this geometric Langlands stuff, and you
 want to fit it into the grand landscape of mathematics, the book
@@ -245,7 +245,7 @@ the Big Bang:
 6) Marcelo A. Alvarez, Paul R. Shapiro, Kyungjin Ahn and Ilian T.
 Iliev, Implications of WMAP 3 year data for the sources of reionization,
 Astrophys. J. 644 (2006), L101-L104. Also available as
-[`astro-ph/0604447`](http://xxx.lanl.gov/abs/astro-ph/0604447).
+[`astro-ph/0604447`](https://arxiv.org/abs/astro-ph/0604447).
 
 This would be too early for hydrogen snow, since my rough calculation
 says the microwave background radiation was 30 kelvin then, while
@@ -261,12 +261,12 @@ sort of statistical sense:
 7) A. Kashlinsky, R. G. Arendt, J. Mather and S. H. Moseley, New
 measurements of cosmic infrared background fluctuations from early
 epochs, to appear in Ap. J. Letters. Available as
-[`astro-ph/0612445`](http://xxx.lanl.gov/abs/astro-ph/0612445).
+[`astro-ph/0612445`](https://arxiv.org/abs/astro-ph/0612445).
 
 8) A. Kashlinsky, R. G. Arendt, J. Mather and S. H. Moseley, On the
 nature of the sources of the cosmic infrared background, to appear in
 Ap. J. Letters. Available as
-[`astro-ph/0612447`](http://xxx.lanl.gov/abs/astro-ph/0612447).
+[`astro-ph/0612447`](https://arxiv.org/abs/astro-ph/0612447).
 
 Using delicate techniques to carefully sift through the *infrared* (not
 microwave) background radiation, the authors claim to find radiation not
@@ -308,7 +308,7 @@ geometry, MacDowell-Mansouri gravity and BF theory. Let me say a little
 about this paper of his:
 
 11) Derek Wise, MacDowell-Mansouri gravity and Cartan geometry,
-available as [`gr-qc/0611154`](http://xxx.lanl.gov/abs/gr-qc/0611154).
+available as [`gr-qc/0611154`](https://arxiv.org/abs/gr-qc/0611154).
 
 Elie Cartan is one of the most influential of 20th-century geometers. At
 one point he had an intense correspondence with Einstein on general

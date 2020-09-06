@@ -116,7 +116,7 @@ on the loop representation of gauge theories and also lattice gauge
 theory, has recently developed a lattice formulation of quantum gravity
 closely modelled after the loop representation:
 
-2) Renate Loll, "Nonperturbative solutions for lattice quantum gravity", preprint available as [`gr-qc/9502006`](http://xxx.lanl.gov/abs/gr-qc/9502006).
+2) Renate Loll, "Nonperturbative solutions for lattice quantum gravity", preprint available as [`gr-qc/9502006`](https://arxiv.org/abs/gr-qc/9502006).
 
 This has the wonderful feature that it's perfectly rigorous and also
 one can start using computers to start calculating things with it. For
@@ -223,7 +223,7 @@ embeddings of graphs in space, but to diffeomorphism equivalence classes
 thereof. This again has been used by Rovelli, Smolin and others for a
 while now, but it was first rigorously shown in the following paper:
 
-5) Abhay Ashtekar, Jerzy Lewandowski, Don Marolf, Jose Mourao, and Thomas Thiemann, "Quantization of diffeomorphism invariant theories of connections with local degrees of freedom", to appear in the November 1995 _Jour. Math. Phys._ special issue on diffeomorphism-invariant field theory, preprint available as [`gr-qc/9504018`](http://xxx.lanl.gov/abs/gr-qc/9504018).
+5) Abhay Ashtekar, Jerzy Lewandowski, Don Marolf, Jose Mourao, and Thomas Thiemann, "Quantization of diffeomorphism invariant theories of connections with local degrees of freedom", to appear in the November 1995 _Jour. Math. Phys._ special issue on diffeomorphism-invariant field theory, preprint available as [`gr-qc/9504018`](https://arxiv.org/abs/gr-qc/9504018).
 
 This paper is nice in part because it doesn't assume you already have
 read every previous paper about this stuff; instead, it describes the

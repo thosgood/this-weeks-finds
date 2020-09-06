@@ -204,15 +204,15 @@ to lattices like $\mathrm{E}_8$, $\Lambda 16$ and the Leech lattice. But I will 
 that; for now you can consult Fulton and Harris, and also various papers
 by Dixon:
 
-3) Geoffrey Dixon, "Octonion X-product orbits", preprint available as [`hep-th/9410202`](http://xxx.lanl.gov/abs/hep-th/9410202).
+3) Geoffrey Dixon, "Octonion X-product orbits", preprint available as [`hep-th/9410202`](https://arxiv.org/abs/hep-th/9410202).
 
-    "Octonion X-product and $\mathrm{E}_8$ lattices", preprint available as [`hep-th/9411063`](http://xxx.lanl.gov/abs/hep-th/9411063).
+    "Octonion X-product and $\mathrm{E}_8$ lattices", preprint available as [`hep-th/9411063`](https://arxiv.org/abs/hep-th/9411063).
 
-    "Octonions: $\mathrm{E}_8$ lattice to $\Lambda 16$", preprint available as [`hep-th/9501007`](http://xxx.lanl.gov/abs/hep-th/9501007).
+    "Octonions: $\mathrm{E}_8$ lattice to $\Lambda 16$", preprint available as [`hep-th/9501007`](https://arxiv.org/abs/hep-th/9501007).
 
-    "Octonions: invariant representation of the Leech lattice", preprint available as [`hep-th/9504040`](http://xxx.lanl.gov/abs/hep-th/9504040).
+    "Octonions: invariant representation of the Leech lattice", preprint available as [`hep-th/9504040`](https://arxiv.org/abs/hep-th/9504040).
 
-    "Octonions: invariant Leech lattice exposed", preprint available as [`hep-th/9506080`](http://xxx.lanl.gov/abs/hep-th/9506080).
+    "Octonions: invariant Leech lattice exposed", preprint available as [`hep-th/9506080`](https://arxiv.org/abs/hep-th/9506080).
 
 I am not presently in a position to assess these papers or Dixon's work
 relating division algebras and the Standard Model, but hopefully

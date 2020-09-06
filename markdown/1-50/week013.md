@@ -222,7 +222,7 @@ enjoy trying this one if they don't know it already.
 Some more stuff:
 
 4) "Closed string field theory, strong homotopy Lie algebras and the operad actions of moduli spaces", by Jim Stasheff, preprint available as
-[`hep-th/9304061`](http://xxx.lanl.gov/abs/hep-th/9304061).
+[`hep-th/9304061`](https://arxiv.org/abs/hep-th/9304061).
 
 One conceptually pleasing approach to string theory is closed string
 field theory, where one takes as the basic object unparametrized maps

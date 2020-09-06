@@ -93,7 +93,7 @@ the way, all these Science articles are available for free online here:
 I also want to say a bit about spin foams. Papers continue to come out
 on this subject:
 
-4) Alejandro Perez and Carlo Rovelli, "A spin foam model without bubble divergences", available as [`gr-qc/0006107`](http://xxx.lanl.gov/abs/gr-qc/0006107).
+4) Alejandro Perez and Carlo Rovelli, "A spin foam model without bubble divergences", available as [`gr-qc/0006107`](https://arxiv.org/abs/gr-qc/0006107).
 
 A while ago, De Pietri, Freidel, Krasnov and Rovelli showed how to get
 the Barrett-Crane model for Riemannian quantum gravity from a quantum
@@ -113,13 +113,13 @@ representation theory should get to work on these!
 
 5) Alejandro Perez and Carlo Rovelli, Spin foam model for Lorentzian
 general relativity, available as
-[`gr-qc/0009021`](http://xxx.lanl.gov/abs/gr-qc/0009021).
+[`gr-qc/0009021`](https://arxiv.org/abs/gr-qc/0009021).
 
 This paper modifies the De Pietri-Freidel-Krasnov-Rovelli construction
 to get the *Lorentzian* Barrett-Crane model from quantum field theory on
 a product of 4 copies of $\mathrm{SO}(3,1)$.
 
-6) Alejandro Perez and Carlo Rovelli, "3+1 spinfoam model of quantum gravity with spacelike and timelike components", available as [`gr-qc/0011037`](http://xxx.lanl.gov/abs/gr-qc/0011037).
+6) Alejandro Perez and Carlo Rovelli, "3+1 spinfoam model of quantum gravity with spacelike and timelike components", available as [`gr-qc/0011037`](https://arxiv.org/abs/gr-qc/0011037).
 
 In the original Lorentzian Barrett-Crane model, spacetime is made of
 4-simplices whose triangular faces are space/timelike --- in other words,
@@ -129,7 +129,7 @@ words, like little bits of the $xy$ plane. This amounts to using a
 different class of irreducible unitary representations of the Lorentz
 group to label the triangles.
 
-7) Daniele Oriti and Ruth M. Williams, "Gluing 4-simplices: a derivation of the Barrett-Crane spin foam model for Euclidean quantum gravity", available as [`gr-qc/0010031`](http://xxx.lanl.gov/abs/gr-qc/0010031).
+7) Daniele Oriti and Ruth M. Williams, "Gluing 4-simplices: a derivation of the Barrett-Crane spin foam model for Euclidean quantum gravity", available as [`gr-qc/0010031`](https://arxiv.org/abs/gr-qc/0010031).
 
 This gives an alternate derivation of the Riemannian Barrett-Crane spin
 foam model starting from the Lagrangian for Riemannian general
@@ -143,6 +143,6 @@ history of quantum gravity. It explains how many different approaches
 were tried, leading up to the research directions that people pursue
 now:
 
-8) Carlo Rovelli, "Notes for a brief history of quantum gravity", presented at the 9th Marcel Grossmann Meeting in Rome, July 2000. Available as [`gr-qc/0006061`](http://xxx.lanl.gov/abs/gr-qc/0006061).
+8) Carlo Rovelli, "Notes for a brief history of quantum gravity", presented at the 9th Marcel Grossmann Meeting in Rome, July 2000. Available as [`gr-qc/0006061`](https://arxiv.org/abs/gr-qc/0006061).
 
 ------------------------------------------------------------------------

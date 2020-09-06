@@ -109,7 +109,7 @@ Okay, back to business here...
 
 2) Alberto Cattaneo, "Teorie topologiche di tipo BF ed invarianti dei nodi", doctoral thesis, department of physics, University of Milan.
 
-    Alberto Cattaneo, Paolo Cotta-Ramusino, Juerg Froehlich, and Maurizio Martellini, "Topological BF theories in 3 and 4 dimensions", preprint available as [`hep-th/9505027`](http://xxx.lanl.gov/abs/hep-th/9505027).
+    Alberto Cattaneo, Paolo Cotta-Ramusino, Juerg Froehlich, and Maurizio Martellini, "Topological BF theories in 3 and 4 dimensions", preprint available as [`hep-th/9505027`](https://arxiv.org/abs/hep-th/9505027).
 
 So, last week I said a wee bit about Blau and Thompson's paper on
 supersymmetry and the Casson invariant. All I said was that suitably

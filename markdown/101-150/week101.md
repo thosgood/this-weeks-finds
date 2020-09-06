@@ -104,7 +104,7 @@ happens to be a good place to learn about his work on quantum gravity:
 Interestingly, Stuart Kauffman and Lee Smolin have teamed up to write a
 paper on the problem of time in quantum gravity:
 
-5) Stuart Kauffman and Lee Smolin, "A possible solution to the problem of time in quantum cosmology", preprint available as [`gr-qc/9703026`](http://xxx.lanl.gov/abs/gr-qc/9703026).
+5) Stuart Kauffman and Lee Smolin, "A possible solution to the problem of time in quantum cosmology", preprint available as [`gr-qc/9703026`](https://arxiv.org/abs/gr-qc/9703026).
 
 Right now you can also read this paper on John Brockman's website
 called "Edge". This website features all sorts of fun interviews and

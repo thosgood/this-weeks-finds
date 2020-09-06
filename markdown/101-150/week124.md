@@ -311,7 +311,7 @@ testament"; I haven't seen it yet but physicists say it's very good:
 There are also other textbooks, of course. Here's one that's free if
 you print it out yourself:
 
-6) E. Kiritsis, _Introduction to Superstring Theory_, 244 pages, to be published by Leuven University Press, preprint available as [`hep-th/9709062`](http://xxx.lanl.gov/abs/hep-th/9709062).
+6) E. Kiritsis, _Introduction to Superstring Theory_, 244 pages, to be published by Leuven University Press, preprint available as [`hep-th/9709062`](https://arxiv.org/abs/hep-th/9709062).
 
 For a more mathematical approach, you might want to try this when it
 comes out:

@@ -10,7 +10,7 @@ interior cools down enough:
 
 1) Sloane J. Wiktorowica and Andrew P. Ingersoll, Liquid water oceans
 in ice giants, available as
-[`astro-ph/0609723`](http://xxx.lanl.gov/abs/astro-ph/0609723).
+[`astro-ph/0609723`](https://arxiv.org/abs/astro-ph/0609723).
 
 Right now, even though Neptune is named after the Roman god of seas and
 has a nice blue appearance:
@@ -288,7 +288,7 @@ role of turbulence in winding up the galactic magnetic field:
 
 8) Stanislav Boldyrev and Farhad Yusef-Zadeh, Turbulent origin of the
 galactic-center magnetic field: nonthermal radio filaments, available as
-[`astro-ph/0512373`](http://xxx.lanl.gov/abs/astro-ph/0512373).
+[`astro-ph/0512373`](https://arxiv.org/abs/astro-ph/0512373).
 
 It's a complicated stew. I don't hope to understand it, just admire
 it.

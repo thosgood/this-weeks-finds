@@ -12,7 +12,7 @@ One talk I enjoyed a lot was Steve Carlip's, on the entropy of black
 holes. This has subsequently come out as a preprint, available
 electronically:
 
-1) "The Statistical Mechanics of the (2+1)-Dimensional Black Hole", by Steve Carlip, 12 pages available as [`gr-qc/9409052`](http://xxx.lanl.gov/abs/gr-qc/9409052).
+1) "The Statistical Mechanics of the (2+1)-Dimensional Black Hole", by Steve Carlip, 12 pages available as [`gr-qc/9409052`](https://arxiv.org/abs/gr-qc/9409052).
 
 It's well-known by know that in certain situations it makes sense to
 speak of the "entropy" of a black hole, but the real meaning of this
@@ -166,7 +166,7 @@ Rovelli also mentioned an interesting paper he wrote about the problem
 of time in quantum gravity with the operator-algebra/noncommutative-
 geometry guru Alain Connes:
 
-4) "Von Neumann algebra automorphisms and time-thermodynamics relation in general covariant quantum theories", by A. Connes and C. Rovelli, 25 pages in LaTex format available as [`gr-qc/9406019`](http://xxx.lanl.gov/abs/gr-qc/9406019).
+4) "Von Neumann algebra automorphisms and time-thermodynamics relation in general covariant quantum theories", by A. Connes and C. Rovelli, 25 pages in LaTex format available as [`gr-qc/9406019`](https://arxiv.org/abs/gr-qc/9406019).
 
 The problem of time in quantum gravity is a bit tricky to describe,
 since it takes different guises in different approaches to quantum
@@ -226,7 +226,7 @@ puzzles to deal with.
 Another intriguing talk at the conference was given by Viqar Husain, on
 the subject of the following paper:
 
-5) "The affine symmetry of self-dual gravity", by Viqar Husain, 17 pages in ReVTeX format available as [`hep-th/9410072`](http://xxx.lanl.gov/abs/hep-th/9410072).
+5) "The affine symmetry of self-dual gravity", by Viqar Husain, 17 pages in ReVTeX format available as [`hep-th/9410072`](https://arxiv.org/abs/hep-th/9410072).
 
 Let me simply quote the abstract, since I don't feel I really
 understand the essence of this business well enough to say anything
@@ -249,7 +249,7 @@ mathematicians out there are wondering what this "knots and quantum
 gravity" business is all about, here's something I wrote to review the
 subject:
 
-6) "Knots and Quantum Gravity: Progress and Prospects", John Baez, 22 pages in LaTeX format, available as [`gr-qc/9410018`](http://xxx.lanl.gov/abs/gr-qc/9410018).
+6) "Knots and Quantum Gravity: Progress and Prospects", John Baez, 22 pages in LaTeX format, available as [`gr-qc/9410018`](https://arxiv.org/abs/gr-qc/9410018).
 
 My abstract:
 
@@ -274,7 +274,7 @@ newsletter Jorge Pullin puts together at considerable effort, to keep
 people informed about general relativity and the like, experimental and
 theoretical:
 
-7) ""Matters of Gravity", a newsletter for the gravity community", Number **4**, edited by Jorge Pullin, 24 pages in Plain TeX, available as [`gr-qc/9409004`](http://xxx.lanl.gov/abs/gr-qc/9409004), or from WWW by `http://vishnu.nirvana.phys.psu.edu/`
+7) ""Matters of Gravity", a newsletter for the gravity community", Number **4**, edited by Jorge Pullin, 24 pages in Plain TeX, available as [`gr-qc/9409004`](https://arxiv.org/abs/gr-qc/9409004), or from WWW by `http://vishnu.nirvana.phys.psu.edu/`
 
 Here's the table of contents of this issue:
 

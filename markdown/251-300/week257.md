@@ -78,7 +78,7 @@ paper about the Red Rectangle:
 3) F. Markwick-Kemper, J. D. Green, E. Peeters, Spitzer detections of
 new dust components in the outflow of the Red Rectangle, Astrophys. J.
 628 (2005) L119-L122. Also available as
-[`arXiv:astro-ph/0506473`](http://xxx.lanl.gov/abs/astro-ph/0506473).
+[`arXiv:astro-ph/0506473`](https://arxiv.org/abs/astro-ph/0506473).
 
 They used the Spitzer Space Telescope - an infrared telescope on a
 satellite in earth orbit - to find evidence of magnesium and iron oxides
@@ -95,7 +95,7 @@ Markwick-Kemper and coauthors have also tackled that question:
 4) F. Markwick-Kemper, S. C. Gallagher, D. C. Hines and J. Bouwman,
 Dust in the wind: crystalline silicates, corundum and periclase in PG
 2112+059, Astrophys. J. 668 (2007), L107-L110. Also available as
-[`arXiv:0710.2225`](http://xxx.lanl.gov/abs/0710.2225).
+[`arXiv:0710.2225`](https://arxiv.org/abs/0710.2225).
 
 They used spectroscopy to identify various kinds of dust in a distant
 galaxy: a magnesium silicate that geologists call "forsterite", a
@@ -377,16 +377,16 @@ Anyway, he and Döring have just come out with a series of papers:
 
 14) Andreas Döring and Christopher Isham, A topos foundation for
 theories of physics: I. Formal languages for physics, available as
-[`arXiv:quant-ph/0703060`](http://xxx.lanl.gov/abs/quant-ph/0703060).
+[`arXiv:quant-ph/0703060`](https://arxiv.org/abs/quant-ph/0703060).
 
 II. Daseinisation and the liberation of quantum theory, available as
-[`arXiv:quant-ph/0703062`](http://xxx.lanl.gov/abs/quant-ph/0703062).
+[`arXiv:quant-ph/0703062`](https://arxiv.org/abs/quant-ph/0703062).
 
 III. The representation of physical quantities with arrows, available
-as [`arXiv:quant-ph/0703064`](http://xxx.lanl.gov/abs/quant-ph/0703064).
+as [`arXiv:quant-ph/0703064`](https://arxiv.org/abs/quant-ph/0703064).
 
 IV. Categories of systems, available as
-[`arXiv:quant-ph/0703066`](http://xxx.lanl.gov/abs/quant-ph/0703066).
+[`arXiv:quant-ph/0703066`](https://arxiv.org/abs/quant-ph/0703066).
 
 Though they probably don't think of it this way, you can think of their
 work as making precise Bohr's ideas on seeing the quantum world through

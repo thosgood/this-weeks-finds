@@ -9,7 +9,7 @@ First of all, here's a great new review article on spin foams. If
 you're trying to understand spin foam models of quantum gravity, this
 is the place to start:
 
-1) Daniele Oriti, "Spacetime geometry from algebra: spin foam models for non-perturbative quantum gravity", _Rep. Prog. Phys._ **64** (2001), 1489--1544. Also available at [`gr-qc/0106091`](http://xxx.lanl.gov/abs/gr-qc/0106091).
+1) Daniele Oriti, "Spacetime geometry from algebra: spin foam models for non-perturbative quantum gravity", _Rep. Prog. Phys._ **64** (2001), 1489--1544. Also available at [`gr-qc/0106091`](https://arxiv.org/abs/gr-qc/0106091).
 
 You'll learn how spin foam models naturally show up in all sorts of
 different approaches to quantum gravity: loop quantization, path
@@ -18,7 +18,7 @@ category-theoretic approaches.
 
 Secondly, here's a great introduction to $n$-categories and topology:
 
-2) Tom Leinster, "Topology and higher-dimensional category theory: the rough idea", available at [`math.CT/0106240`](http://xxx.lanl.gov/abs/math.CT/0106240).
+2) Tom Leinster, "Topology and higher-dimensional category theory: the rough idea", available at [`math.CT/0106240`](https://arxiv.org/abs/math.CT/0106240).
 
 As he says, this is a "Friday-afternoonish description of some of the
 dreams people have for higher-dimensional category theory and its

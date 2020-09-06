@@ -55,7 +55,7 @@ professor of physics at Cornell:
 
 5) Freeman J. Dyson, 1951 Lectures on Advanced Quantum Mechanics,
 second edition, available as
-[quant-ph/0608140](http://xxx.lanl.gov/abs/quant-ph/0608140). For
+[quant-ph/0608140](https://arxiv.org/abs/quant-ph/0608140). For
 historical context and original mimeographs, see
 http://hrst.mit.edu/hrs/renormalization/dyson51-intro/
 

@@ -76,7 +76,7 @@ I'll never finish writing this!
     series, and nasty things can happen when you manipulate infinite series
     without checking if your manipulations are legitimate! See:
 
-    1) Troy Schilling, "Non-covariance of the generalized holonomies: Examples", preprint available as [`gr-qc/9503064`](http://xxx.lanl.gov/abs/gr-qc/9503064).
+    1) Troy Schilling, "Non-covariance of the generalized holonomies: Examples", preprint available as [`gr-qc/9503064`](https://arxiv.org/abs/gr-qc/9503064).
 
     There has been a certain amount of competition between the extended loop
     representation, developed by Gambini and various coauthors, and
@@ -116,15 +116,15 @@ I'll never finish writing this!
     before the workshop. The first one gives a rigorous definition of the
     Hamiltonian constraint!
 
-    2) Thomas Thiemann, "Quantum Spin Dynamics (QSD)", preprint available as [`gr-qc/9606089`](http://xxx.lanl.gov/abs/gr-qc/9606089).
+    2) Thomas Thiemann, "Quantum Spin Dynamics (QSD)", preprint available as [`gr-qc/9606089`](https://arxiv.org/abs/gr-qc/9606089).
 
-        Thomas Thiemann, "Quantum Spin Dynamics (QSD) II", preprint available as [`gr-qc/9606090`](http://xxx.lanl.gov/abs/gr-qc/9606090).
+        Thomas Thiemann, "Quantum Spin Dynamics (QSD) II", preprint available as [`gr-qc/9606090`](https://arxiv.org/abs/gr-qc/9606090).
 
-        Thomas Thiemann, "Anomaly-free formulation of non-perturbative, four-dimensional Lorentzian quantum gravity", _Phys. Lett. B_ **380** (1996) 257--264, preprint available as [`gr-qc/9606088`](http://xxx.lanl.gov/abs/gr-qc/9606088).
+        Thomas Thiemann, "Anomaly-free formulation of non-perturbative, four-dimensional Lorentzian quantum gravity", _Phys. Lett. B_ **380** (1996) 257--264, preprint available as [`gr-qc/9606088`](https://arxiv.org/abs/gr-qc/9606088).
 
-        Thomas Thiemann, "Closed formula for the matrix elements of the volume operator in canonical quantum gravity", preprint available as [`gr-qc/9606091`](http://xxx.lanl.gov/abs/gr-qc/9606091).
+        Thomas Thiemann, "Closed formula for the matrix elements of the volume operator in canonical quantum gravity", preprint available as [`gr-qc/9606091`](https://arxiv.org/abs/gr-qc/9606091).
 
-        Thomas Thiemann, "A length operator for canonical quantum gravity", preprint available as [`gr-qc/9606092`](http://xxx.lanl.gov/abs/gr-qc/9606092).
+        Thomas Thiemann, "A length operator for canonical quantum gravity", preprint available as [`gr-qc/9606092`](https://arxiv.org/abs/gr-qc/9606092).
 
     It is interesting to compare "Quantum Spin Dynamics" to the paper by
     Ashtekar and Lewandowksi, so far available only in draft form to a
@@ -178,7 +178,7 @@ I'll never finish writing this!
     paper on the loop representation of quantum gravity coupled to
     electromagnetism and fermions:
 
-    3) Kirill Krasnov, "Quantum loop representation for fermions coupled to Einstein-Maxwell field", _Phys. Rev._ **D53** (1996), 1874; preprint available as [`gr-qc/9506029`](http://xxx.lanl.gov/abs/gr-qc/9506029).
+    3) Kirill Krasnov, "Quantum loop representation for fermions coupled to Einstein-Maxwell field", _Phys. Rev._ **D53** (1996), 1874; preprint available as [`gr-qc/9506029`](https://arxiv.org/abs/gr-qc/9506029).
 
     When I met him again here, it turned out he was continuing this work,
     and also making it more rigorous. Now, I had for some time been meaning
@@ -189,7 +189,7 @@ I'll never finish writing this!
 
     4) Carlo Rovelli and Hugo Morales-Tecotl, "Fermions in quantum gravity", _Phys. Rev. Lett._ **72** (1994), 3642--3645.
 
-        Carlo Rovelli and Hugo Morales-Tecotl, _Nucl. Phys._ **B451** (1995), 325, preprint available as [`gr-qc/9401011`](http://xxx.lanl.gov/abs/gr-qc/9401011).
+        Carlo Rovelli and Hugo Morales-Tecotl, _Nucl. Phys._ **B451** (1995), 325, preprint available as [`gr-qc/9401011`](https://arxiv.org/abs/gr-qc/9401011).
 
     But we had never gotten around to it. So, I decided to team up with
     Kirill and write a paper on this stuff.

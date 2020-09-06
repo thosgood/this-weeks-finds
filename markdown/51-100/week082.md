@@ -230,7 +230,7 @@ cohomology with coefficients in an $\omega$-category!
 
     Viqar Husain and Karel V. "Kuchar, General covariance, new variables, and dynamics without dynamics", _Phys. Rev. D_ **42** (1990), 4070--4077.
 
-    Viqar Husain, "Einstein's equations and the chiral model", to appear in _Phys. Rev._ D, preprint available as [`gr-qc/9602050`](http://xxx.lanl.gov/abs/gr-qc/9602050).
+    Viqar Husain, "Einstein's equations and the chiral model", to appear in _Phys. Rev._ D, preprint available as [`gr-qc/9602050`](https://arxiv.org/abs/gr-qc/9602050).
 
 Viqar is one of the excellent younger folks at the Center for
 Gravitational Physics and Geometry at Penn State; I only had a bit of

@@ -137,7 +137,7 @@ gravity in spacetimes of dimension 3, are listed in
 Barrett and Foxon listed in ["Week 24"](#week24), as well as the
 following paper, for which I'll just quote the abstract:
 
-2) Timothy J. Foxon, "Spin networks, Turaev-Viro theory and the loop representation", available as [`gr-qc/9408013`](http://xxx.lanl.gov/abs/gr-qc/9408013).
+2) Timothy J. Foxon, "Spin networks, Turaev-Viro theory and the loop representation", available as [`gr-qc/9408013`](https://arxiv.org/abs/gr-qc/9408013).
 
 > We investigate the Ponzano-Regge and Turaev-Viro topological field
 > theories using spin networks and their $q$-deformed analogues. I propose
@@ -173,11 +173,11 @@ which is sadly still unpublished, make it beautifully clear how
 structures on Hopf algebras have a pleasant tendency to interact just as
 needed to give 3d topological quantum field theories.
 
-4) John W. Barrett and Bruce W. Westbury, "Spherical categories", available as [`hep-th/9310164`](http://xxx.lanl.gov/abs/hep-th/9310164).
+4) John W. Barrett and Bruce W. Westbury, "Spherical categories", available as [`hep-th/9310164`](https://arxiv.org/abs/hep-th/9310164).
 
-    John W. Barrett and Bruce W. Westbury, "Invariants of piecewise-linear 3-manifolds", _Trans. Amer. Math. Soc._ **348** (1996), 3997--4022. Also available as [`hep-th/9311155`](http://xxx.lanl.gov/abs/hep-th/9311155).
+    John W. Barrett and Bruce W. Westbury, "Invariants of piecewise-linear 3-manifolds", _Trans. Amer. Math. Soc._ **348** (1996), 3997--4022. Also available as [`hep-th/9311155`](https://arxiv.org/abs/hep-th/9311155).
 
-    John W. Barrett and Bruce W. Westbury, "The equality of 3-manifold invariants", available as [`hep-th/9406019`](http://xxx.lanl.gov/abs/hep-th/9406019).
+    John W. Barrett and Bruce W. Westbury, "The equality of 3-manifold invariants", available as [`hep-th/9406019`](https://arxiv.org/abs/hep-th/9406019).
 
 Let me quote the abstract for the first one; the second one gives a
 construction of 3-manifold invariants, and the third shows that the
@@ -202,7 +202,7 @@ defined.
 > Finally we study the natural quotient in these cases and show it is
 > semisimple.
 
-5) Louis H. Kauffman and David E. Radford, "Invariants of 3-Manifolds derived from finite dimensional Hopf algebras", by available as [`hep-th/9406065`](http://xxx.lanl.gov/abs/hep-th/9406065).
+5) Louis H. Kauffman and David E. Radford, "Invariants of 3-Manifolds derived from finite dimensional Hopf algebras", by available as [`hep-th/9406065`](https://arxiv.org/abs/hep-th/9406065).
 
 This is paper also relates 3d topology and certain finite-dimensional
 Hopf algebras, and it shows they give 3-manifold invariants distinct
@@ -211,7 +211,7 @@ I have not had time to think about how they relate to the above ones,
 but I have a hunch that they are the same, since all of them make heavy
 use of special grouplike elements associated to the antipode.
 
-6) Louis Crane and Igor Frenkel, "Four dimensional topological quantum field theory, Hopf categories, and the canonical bases", available as [`hep-th/9405183`](http://xxx.lanl.gov/abs/hep-th/9405183).
+6) Louis Crane and Igor Frenkel, "Four dimensional topological quantum field theory, Hopf categories, and the canonical bases", available as [`hep-th/9405183`](https://arxiv.org/abs/hep-th/9405183).
 
 Work in 4 dimensions is, as one expect, still more subtle than in 3,
 since again various things that were equalities becomes isomorphisms. In
@@ -242,20 +242,20 @@ papers I'm writing) a bit more about how the loop representation of a
 gauge theory is interesting from the viewpoint of higher-dimensional
 algebra!
 
-7) A. Ashtekar, J. Lewandowski, D. Marolf, J. Mourao and T. Thiemann, "A manifestly gauge-invariant approach to quantum theories of gauge fields", contribution to the Cambridge meeting proceedings, available as [`hep-th/9408108`](http://xxx.lanl.gov/abs/hep-th/9408108).
+7) A. Ashtekar, J. Lewandowski, D. Marolf, J. Mourao and T. Thiemann, "A manifestly gauge-invariant approach to quantum theories of gauge fields", contribution to the Cambridge meeting proceedings, available as [`hep-th/9408108`](https://arxiv.org/abs/hep-th/9408108).
 
-    Jerzy Lewandowski, "Topological measure and graph-differential geometry on the quotient space of connections", _Proceedings of "Journees Relativistes 1993"_, available as [`gr-qc/9406025`](http://xxx.lanl.gov/abs/gr-qc/9406025).
+    Jerzy Lewandowski, "Topological measure and graph-differential geometry on the quotient space of connections", _Proceedings of "Journees Relativistes 1993"_, available as [`gr-qc/9406025`](https://arxiv.org/abs/gr-qc/9406025).
 
-    Abhay Ashtekar, Donald Marolf and Jose Mourao, "Integration on the space of connections modulo gauge transformations", available as [`gr-qc/9403042`](http://xxx.lanl.gov/abs/gr-qc/9403042).
+    Abhay Ashtekar, Donald Marolf and Jose Mourao, "Integration on the space of connections modulo gauge transformations", available as [`gr-qc/9403042`](https://arxiv.org/abs/gr-qc/9403042).
 
-    A. Ashtekar and R. Loll, "New loop representations for 2+1 gravity", available as [`gr-qc/9405031`](http://xxx.lanl.gov/abs/gr-qc/9405031).
+    A. Ashtekar and R. Loll, "New loop representations for 2+1 gravity", available as [`gr-qc/9405031`](https://arxiv.org/abs/gr-qc/9405031).
 
-    R. Loll, "Independent loop invariants for 2+1 gravity", available as [`gr-qc/9408007`](http://xxx.lanl.gov/abs/gr-qc/9408007).
+    R. Loll, "Independent loop invariants for 2+1 gravity", available as [`gr-qc/9408007`](https://arxiv.org/abs/gr-qc/9408007).
 
-    R. Loll, J.M. Mourão and J.N. Tavares, "Generalized coordinates on the phase space of Yang-Mills theory", available as [`gr-qc/9404060`](http://xxx.lanl.gov/abs/gr-qc/9404060).
+    R. Loll, J.M. Mourão and J.N. Tavares, "Generalized coordinates on the phase space of Yang-Mills theory", available as [`gr-qc/9404060`](https://arxiv.org/abs/gr-qc/9404060).
 
-    C. Di Bartolo, R. Gambini and J. Griego, "The extended loop representation of quantum gravity", available as [`gr-qc/9406039`](http://xxx.lanl.gov/abs/gr-qc/9406039).
+    C. Di Bartolo, R. Gambini and J. Griego, "The extended loop representation of quantum gravity", available as [`gr-qc/9406039`](https://arxiv.org/abs/gr-qc/9406039).
 
-    Rodolfo Gambini, Alcides Garat and Jorge Pullin, "The constraint algebra of quantum gravity in the loop representation", available as [`gr-qc/9404059`](http://xxx.lanl.gov/abs/gr-qc/9404059).
+    Rodolfo Gambini, Alcides Garat and Jorge Pullin, "The constraint algebra of quantum gravity in the loop representation", available as [`gr-qc/9404059`](https://arxiv.org/abs/gr-qc/9404059).
 
 ------------------------------------------------------------------------

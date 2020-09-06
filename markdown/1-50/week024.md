@@ -6,7 +6,7 @@ review papers:
 
 1) "Prima facie questions in quantum gravity", by Chris Isham, lecture at
 Bad Honeff, September 1993, preprint available in LaTeX form as
-[`gr-qc/9310031`](http://xxx.lanl.gov/abs/gr-qc/9310031).
+[`gr-qc/9310031`](https://arxiv.org/abs/gr-qc/9310031).
 
 If one wants to know why people make such a fuss about quantum gravity,
 one could not do better than to start here. There are many approaches to
@@ -67,7 +67,7 @@ subject.
 2) "Lectures on 2d gauge theories: topological aspects and path integral
 techniques", by Matthias Blau and George Thompson, 70 pages, preprint
 available in LaTeX form as
-[`hep-th/9310144`](http://xxx.lanl.gov/abs/hep-th/9310144).
+[`hep-th/9310144`](https://arxiv.org/abs/hep-th/9310144).
 
 Most of the basic laws of physics appear to be gauge theories. Gauge
 theories are tricky to deal with because they are inherently nonlinear.
@@ -102,7 +102,7 @@ via the index of the twisted Dolbeault complex.
 
 3) "Semi-classical limits of simplicial quantum gravity", by J. W.
 Barrett and T. J. Foxon, preprint available as
-[`gr-qc/9310016`](http://xxx.lanl.gov/abs/gr-qc/9310016).
+[`gr-qc/9310016`](https://arxiv.org/abs/gr-qc/9310016).
 
 This paper looks at quantum gravity in 3 spacetime dimesions formulated
 along the lines of Ponzano and Regge, that is, with the spacetime
@@ -126,7 +126,7 @@ regime and exponential in the Lorentzian one --- the opposite of what
 Hartle and Hawking had. This puzzles me.
 
 5) "Generalized measures in gauge theory", by John Baez, available in
-LaTeX as [`hep-th/9310201`](http://xxx.lanl.gov/abs/hep-th/9310201).
+LaTeX as [`hep-th/9310201`](https://arxiv.org/abs/hep-th/9310201).
 
 Path integrals in gauge theory typically invoke the concept of Lebesgue
 measure on the space of connections. This is roughly an

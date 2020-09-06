@@ -244,7 +244,7 @@ I also had some interesting talks with people about black hole entropy,
 some of which concerned a new paper by Steve Carlip. I'm not really
 able to do justice to the details, but it seems important....
 
-9) Steve Carlip, "Entropy from conformal field theory at Killing horizons", preprint available at [`gr-qc/9906126`](http://xxx.lanl.gov/abs/gr-qc/9906126).
+9) Steve Carlip, "Entropy from conformal field theory at Killing horizons", preprint available at [`gr-qc/9906126`](https://arxiv.org/abs/gr-qc/9906126).
 
 Let me just quote the abstract:
 
@@ -265,9 +265,9 @@ There was also a lot of talk about "isolated horizons", a concept that
 plays a fundamental role in certain treatments of black holes in loop
 quantum gravity:
 
-10) Abhay Ashtekar, Christopher Beetle, and Stephen Fairhurst, "Mechanics of isolated horizons", preprint available as [`gr-qc/9907068`](http://xxx.lanl.gov/abs/gr-qc/9907068).
+10) Abhay Ashtekar, Christopher Beetle, and Stephen Fairhurst, "Mechanics of isolated horizons", preprint available as [`gr-qc/9907068`](https://arxiv.org/abs/gr-qc/9907068).
 
-11) Jerzy Lewandowski, "Spacetimes admitting isolated horizons", preprint available as [`gr-qc/9907058`](http://xxx.lanl.gov/abs/gr-qc/9907058).
+11) Jerzy Lewandowski, "Spacetimes admitting isolated horizons", preprint available as [`gr-qc/9907058`](https://arxiv.org/abs/gr-qc/9907058).
 
 For more on isolated horizons try the references in
 ["Week 128"](#week128).
@@ -278,11 +278,11 @@ papers related to the McKay correspondence --- see
 read them yet, but I just want to remind myself that I should, so I'll
 list them here:
 
-12) John McKay, "Semi-affine Coxeter-Dynkin graphs and $G\subseteq\mathrm{SU}_2(\mathbb{C})$", preprint available as [`math.QA/9907089`](http://xxx.lanl.gov/abs/math.QA/9907089).
+12) John McKay, "Semi-affine Coxeter-Dynkin graphs and $G\subseteq\mathrm{SU}_2(\mathbb{C})$", preprint available as [`math.QA/9907089`](https://arxiv.org/abs/math.QA/9907089).
 
-13) Igor Frenkel, Naihuan Jing and Weiqiang Wang, "Vertex representations via finite groups and the McKay correspondence", preprint available as [`math.QA/9907166`](http://xxx.lanl.gov/abs/math.QA/9907166).
+13) Igor Frenkel, Naihuan Jing and Weiqiang Wang, "Vertex representations via finite groups and the McKay correspondence", preprint available as [`math.QA/9907166`](https://arxiv.org/abs/math.QA/9907166).
 
-    "Quantum vertex representations via finite groups and the McKay correspondence", preprint available as [`math.QA/9907175`](http://xxx.lanl.gov/abs/math.QA/9907175).
+    "Quantum vertex representations via finite groups and the McKay correspondence", preprint available as [`math.QA/9907175`](https://arxiv.org/abs/math.QA/9907175).
 
 Next time I want to talk about the big category theory conference in
 honor of MacLane's 90th birthday! Then I'll be pretty much caught up

@@ -317,7 +317,7 @@ homotopy theory.
 Anyway, some people in Australia have figured out an extra trick you can
 do with this $\mathrm{PU}(H)$ group:
 
-4) Alan L. Carey, Diarmuid Crowley and Michael K. Murray, "Principal bundles and the Dixmier-Douady class", _Comm. Math. Physics_ **193** (1998) 171--196, preprint available as [`hep-th/9702147`](http://xxx.lanl.gov/abs/hep-th/9702147).
+4) Alan L. Carey, Diarmuid Crowley and Michael K. Murray, "Principal bundles and the Dixmier-Douady class", _Comm. Math. Physics_ **193** (1998) 171--196, preprint available as [`hep-th/9702147`](https://arxiv.org/abs/hep-th/9702147).
 
 Here's how it goes, at least in part. We say a linear operator
 $$A\colon  H \to  H$$
@@ -364,7 +364,7 @@ not quite a manifold, but good enough to do geometry on. I'm not sure
 how this relates to Thom's work... but anyway, I should read this
 stuff:
 
-5) Pawel Gajer, "Geometry of Deligne cohomology", _Invent. Math._ **127** (1997), 155--207, also available as [`alg-geom/9601025`](http://xxx.lanl.gov/abs/alg-geom/9601025).
+5) Pawel Gajer, "Geometry of Deligne cohomology", _Invent. Math._ **127** (1997), 155--207, also available as [`alg-geom/9601025`](https://arxiv.org/abs/alg-geom/9601025).
 
     Pawel Gajer, "Higher holonomies, geometric loop groups and smooth Deligne cohomology", _Advances in Geometry_, Birkhauser, Boston, 1999, pp. 195--235.
 
@@ -400,11 +400,11 @@ Finally, for more applications to physics, try these papers:
 
     Michael K. Murray, "Bundle gerbes", _J. London Math. Soc._ **54** (1996), 403--416.
 
-    Alan L. Carey, Jouko Mickelsson and Michael K. Murray, "Index theory, gerbes, and Hamiltonian quantization", _Comm. Math. Phys._ **183** (1997), 707--722, preprint available as [`hep-th/9511151`](http://xxx.lanl.gov/abs/hep-th/9511151).
+    Alan L. Carey, Jouko Mickelsson and Michael K. Murray, "Index theory, gerbes, and Hamiltonian quantization", _Comm. Math. Phys._ **183** (1997), 707--722, preprint available as [`hep-th/9511151`](https://arxiv.org/abs/hep-th/9511151).
 
-    Alan L. Carey, Michael K. Murray and B. L. Wang, "Higher bundle gerbes and cohomology classes in gauge theories", _J. Geom. Phys._ **21** (1997) 183--197, preprint available as [`hep-th/9511169`](http://xxx.lanl.gov/abs/hep-th/9511169).
+    Alan L. Carey, Michael K. Murray and B. L. Wang, "Higher bundle gerbes and cohomology classes in gauge theories", _J. Geom. Phys._ **21** (1997) 183--197, preprint available as [`hep-th/9511169`](https://arxiv.org/abs/hep-th/9511169).
 
-    Alan L. Carey, Jouko Mickelsson and Michael K. Murray, "Bundle gerbes applied to quantum field theory", _Rev. Math. Phys._ **12** (2000), 65--90, preprint available as [`hep-th/9711133`](http://xxx.lanl.gov/abs/hep-th/9711133).
+    Alan L. Carey, Jouko Mickelsson and Michael K. Murray, "Bundle gerbes applied to quantum field theory", _Rev. Math. Phys._ **12** (2000), 65--90, preprint available as [`hep-th/9711133`](https://arxiv.org/abs/hep-th/9711133).
 
 I thank N. Christopher Phillips of the University of Oregon, Michael K.
 Murray and Diarmuid Crowley of the University of Adelaide, and Mark

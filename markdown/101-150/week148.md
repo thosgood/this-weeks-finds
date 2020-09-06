@@ -174,7 +174,7 @@ this next time.
 
 2) Abhay Ashtekar, John Baez and Kirill Krasnov, Quantum geometry of
 isolated horizons and black hole entropy, preprint available at
-[`gr-qc/0005126`](http://xxx.lanl.gov/abs/gr-qc/0005126) or at
+[`gr-qc/0005126`](https://arxiv.org/abs/gr-qc/0005126) or at
 `http://math.ucr.edu/home/baez/black2.ps`
 
 I explained an earlier version of this paper in
@@ -227,7 +227,7 @@ in a way that allows us to apply the techniques of loop quantum gravity.
 In other words, we want to describe a classical phase space for our
 black hole. This step was done in a companion paper:
 
-4) Abhay Ashtekar, Alejandro Corichi and Kirill Krasnov, "Isolated horizons: the classical phase space", _Advances in Theoretical and Mathematical Physics_ **3** (2000), 418--471. Preprint available at [`gr-qc/9905089`](http://xxx.lanl.gov/abs/gr-qc/9905089).
+4) Abhay Ashtekar, Alejandro Corichi and Kirill Krasnov, "Isolated horizons: the classical phase space", _Advances in Theoretical and Mathematical Physics_ **3** (2000), 418--471. Preprint available at [`gr-qc/9905089`](https://arxiv.org/abs/gr-qc/9905089).
 
 The idea is to consider the region of spacetime outside the black hole
 and assume that its boundary is a cylinder of the form $\mathbb{R}\times S^2$. We
@@ -320,7 +320,7 @@ the Chern-Simons boundary term in the symplectic structure for isolated
 black holes was found in a paper written *after* the one I mentioned
 above:
 
-5) Abhay Ashtekar, Chris Beetle and Steve Fairhurst, "Mechanics of isolated horizons", _Class. and Quant. Gravity_ **17** (2000), 253--298. Available at [`gr-qc/9907068`](http://xxx.lanl.gov/abs/gr-qc/9907068).
+5) Abhay Ashtekar, Chris Beetle and Steve Fairhurst, "Mechanics of isolated horizons", _Class. and Quant. Gravity_ **17** (2000), 253--298. Available at [`gr-qc/9907068`](https://arxiv.org/abs/gr-qc/9907068).
 
 Originally, everyone thought that to make the action differentiable as a
 function of the fields, you had to add a boundary term to the usual

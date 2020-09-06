@@ -59,7 +59,7 @@ work on $n$-categories. I've talked about their work before in
 ["Week 165"](#week165). Leinster has just come out with a nice
 paper on $n$-categories:
 
-1) Tom Leinster, "A survey of definitions of $n$-category", available at [`math.CT/0107188`](http://xxx.lanl.gov/abs/math.CT/0107188).
+1) Tom Leinster, "A survey of definitions of $n$-category", available at [`math.CT/0107188`](https://arxiv.org/abs/math.CT/0107188).
 
 By now, there are lots of definitions of "weak $n$-category", and our
 job is to understand how they're related. This paper is required
@@ -72,7 +72,7 @@ the subject.
 While I'm talking about review articles, here are some review articles
 on quantum gravity:
 
-2) Steve Carlip, "Quantum gravity: a progress report", _Rep. Prog. Phys._ **64** (2001) 885--942, also available at [`gr-qc/0108040`](http://xxx.lanl.gov/abs/gr-qc/0108040).
+2) Steve Carlip, "Quantum gravity: a progress report", _Rep. Prog. Phys._ **64** (2001) 885--942, also available at [`gr-qc/0108040`](https://arxiv.org/abs/gr-qc/0108040).
 
 This is an excellent *long* description of where we stand on quantum
 gravity, with a strong focus on the big conceptual problems. Again,
@@ -90,7 +90,7 @@ textbooks listed in ["Week 124"](#week124) and elsewhere.
 There is also a new introduction to loop quantum gravity available
 online. It's more of a book than an article:
 
-4) Thomas Thiemann, _Introduction to modern canonical quantum general relativity_, 301 pages, available at [`gr-qc/0110034`](http://xxx.lanl.gov/abs/gr-qc/0110034).
+4) Thomas Thiemann, _Introduction to modern canonical quantum general relativity_, 301 pages, available at [`gr-qc/0110034`](https://arxiv.org/abs/gr-qc/0110034).
 
 This is really *the* place to go if you want to catch up on the last 15
 years of work on loop quantum gravity. It's truly impressive. It'll
@@ -105,11 +105,11 @@ Introduction.
 Speaking of loop quantum gravity, here are a few interesting new papers
 on that subject:
 
-5) Rodolfo Gambini and Jorge Pullin, "Consistent discretizations for classical and quantum general relativity", available as [`gr-qc/0108062`](http://xxx.lanl.gov/abs/gr-qc/0108062).
+5) Rodolfo Gambini and Jorge Pullin, "Consistent discretizations for classical and quantum general relativity", available as [`gr-qc/0108062`](https://arxiv.org/abs/gr-qc/0108062).
 
-6) Luca Bombelli, "Statistical geometry of random weave states", available as [`gr-qc/0101080`](http://xxx.lanl.gov/abs/gr-qc/0101080).
+6) Luca Bombelli, "Statistical geometry of random weave states", available as [`gr-qc/0101080`](https://arxiv.org/abs/gr-qc/0101080).
 
-7) Michael Seifert, "Angle and volume studies in quantized space", 85 pages, available as [`gr-qc/0108047`](http://xxx.lanl.gov/abs/gr-qc/0108047).
+7) Michael Seifert, "Angle and volume studies in quantized space", 85 pages, available as [`gr-qc/0108047`](https://arxiv.org/abs/gr-qc/0108047).
 
 The paper by Gambini and Pullin argues that good spin foam models will
 come from quantizing "consistent" discretizations of general

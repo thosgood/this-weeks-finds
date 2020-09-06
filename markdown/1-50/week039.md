@@ -88,7 +88,7 @@ I haven't read this book, just part of the French version on which
 it's based (with extensive additions), but my impression is that it's
 quite easy to read given the technical nature of the subject.
 
-2) "2d Yang-Mills theory and topological field theory", by Gregory Moore, available as [`hep-th/9409044`](http://xxx.lanl.gov/abs/hep-th/9409044).
+2) "2d Yang-Mills theory and topological field theory", by Gregory Moore, available as [`hep-th/9409044`](https://arxiv.org/abs/hep-th/9409044).
 
 This is a nice review of recent work on 2d Yang-Mills theory. While
 Yang-Mills theory in 4 dimensions is the basis of our current theories
@@ -116,7 +116,7 @@ try my paper in the book _Knots and Quantum Gravity_ (see
 ["Week 23"](#week23)) --- which by the way is finally out ---
 and also the following:
 
-3) "Strings and two-dimensional QCD for finite $N$", by J. Baez and W. Taylor, 19 pages in LaTeX format available as [`hep-th/9401041`](http://xxx.lanl.gov/abs/hep-th/9401041), or by ftp from `math.ucr.edu` as "`baez/string2.tex`", to appear in _Nuc. Phys. B_.
+3) "Strings and two-dimensional QCD for finite $N$", by J. Baez and W. Taylor, 19 pages in LaTeX format available as [`hep-th/9401041`](https://arxiv.org/abs/hep-th/9401041), or by ftp from `math.ucr.edu` as "`baez/string2.tex`", to appear in _Nuc. Phys. B_.
 
 When it comes to "moduli spaces of flat connections", it's hard to
 say much without becoming more technical, but I certainly recommend

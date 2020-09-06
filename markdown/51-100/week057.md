@@ -3,7 +3,7 @@
 This week I'll start by finishing up my introduction to the following
 paper:
 
-1) Lee Smolin, "Linking topological quantum field theory and nonperturbative quantum gravity", available as [`gr-qc/9505028`](http://xxx.lanl.gov/abs/gr-qc/9505028).
+1) Lee Smolin, "Linking topological quantum field theory and nonperturbative quantum gravity", available as [`gr-qc/9505028`](https://arxiv.org/abs/gr-qc/9505028).
 
 So: recall where we were. Let me not repeat the details, but simply note
 that we were playing around with quantum gravity on a 4-dimensional
@@ -142,11 +142,11 @@ here. I will simply give the references to this 'holographic
 hypothesis'; if anyone wants to explain it, please post to
 `sci.physics.research` --- I'd be immensely grateful.
 
-2) G 't Hooft, "Dimensional reduction in quantum gravity", preprint available as [`gr-qc/9310006`](http://xxx.lanl.gov/abs/gr-qc/9310006).
+2) G 't Hooft, "Dimensional reduction in quantum gravity", preprint available as [`gr-qc/9310006`](https://arxiv.org/abs/gr-qc/9310006).
 
-3) L. Susskind, "The world as a hologram", to appear in the November 1995 special issue of _Jour. Math. Phys._ on diffeomorphism-invariant physics, preprint available as [`hep-th/9409089`](http://xxx.lanl.gov/abs/hep-th/9409089).
+3) L. Susskind, "The world as a hologram", to appear in the November 1995 special issue of _Jour. Math. Phys._ on diffeomorphism-invariant physics, preprint available as [`hep-th/9409089`](https://arxiv.org/abs/hep-th/9409089).
 
-    L. Susskind, "Strings, black holes and Lorentz contractions", preprint available as [`hep-th/9308139`](http://xxx.lanl.gov/abs/hep-th/9308139).
+    L. Susskind, "Strings, black holes and Lorentz contractions", preprint available as [`hep-th/9308139`](https://arxiv.org/abs/hep-th/9308139).
 
 Note: in earlier Finds I referred to the October 1995 special issue of
 _Jour. Math. Phys._, but now I've heard it's coming out in November.

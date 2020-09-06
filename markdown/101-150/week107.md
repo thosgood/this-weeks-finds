@@ -6,7 +6,7 @@ talk on cellular automata at Boston University, thanks to a kind
 invitation from Bruce Boghosian, who is using cellular automata to model
 cool stuff like emulsions:
 
-1) Florian W. J. Weig, Peter V. Coveney, and Bruce M. Boghosian, "Lattice-gas simulations of minority-phase domain growth in binary immiscible and ternary amphiphilic fluid", preprint available as [`cond-mat/9705248`](http://xxx.lanl.gov/abs/cond-mat/9705248).
+1) Florian W. J. Weig, Peter V. Coveney, and Bruce M. Boghosian, "Lattice-gas simulations of minority-phase domain growth in binary immiscible and ternary amphiphilic fluid", preprint available as [`cond-mat/9705248`](https://arxiv.org/abs/cond-mat/9705248).
 
 As you add more and more of an amphiphilic molecule (e.g. soap) to a
 binary immiscible fluid (e.g. oil and water), the boundary layer likes
@@ -134,7 +134,7 @@ lot of work to write a nice exposition of this concept!
 However, I eventually got around to taking a shot at it, so now you can
 read this:
 
-5) John Baez, "Introduction to $n$-categories", to appear in _7th Conference on Category Theory and Computer Science_, eds. E. Moggi and G. Rosolini, Springer Lecture Notes in Computer Science vol. **1290**, Springer, Berlin. Preprint available as [`q-alg/9705009`](http://xxx.lanl.gov/abs/q-alg/9705009) or at `http://math.ucr.edu/home/baez/ncat.ps`
+5) John Baez, "Introduction to $n$-categories", to appear in _7th Conference on Category Theory and Computer Science_, eds. E. Moggi and G. Rosolini, Springer Lecture Notes in Computer Science vol. **1290**, Springer, Berlin. Preprint available as [`q-alg/9705009`](https://arxiv.org/abs/q-alg/9705009) or at `http://math.ucr.edu/home/baez/ncat.ps`
 
 There are different definitions of "weak $n$-category" out there now and
 it will take a while of sorting through them to show a bunch are
@@ -179,7 +179,7 @@ computad they generate, available as postscript files at
 > the proof of equivalence of the different definitions of weak
 > $n$-categories.
 
-7) Carlos Simpson, Limits in $n$-categories, approximately 90 pages, preprint available as [`alg-geom/9708010`](http://xxx.lanl.gov/abs/alg-geom/9708010).
+7) Carlos Simpson, Limits in $n$-categories, approximately 90 pages, preprint available as [`alg-geom/9708010`](https://arxiv.org/abs/alg-geom/9708010).
 
 > We define notions of direct and inverse limits in an $n$-category. We
 > prove that the $(n+1)$-category $n\mathsf{CAT}'$ of fibrant $n$-categories admits

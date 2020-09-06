@@ -2,7 +2,7 @@
 
 I got a copy of the following paper when I showed up in Warsaw:
 
-1) Lee Smolin, "Linking topological quantum field theory and nonperturbative quantum gravity", available as [`gr-qc/9505028`](http://xxx.lanl.gov/abs/gr-qc/9505028).
+1) Lee Smolin, "Linking topological quantum field theory and nonperturbative quantum gravity", available as [`gr-qc/9505028`](https://arxiv.org/abs/gr-qc/9505028).
 
 and then I spent a fair amount of time reading it and thinking about it
 throughout the conference. If the big hypothesis formulated in this
@@ -189,7 +189,7 @@ subject, most of which I've gone over in earlier Finds, and also one
 brand new one, which is actually a very readable introduction to the
 grand scheme he has in mind:
 
-3) Louis Crane: "Clock and category: is quantum gravity algebraic?", to appear in the November 1995 special issue of _Jour. Math. Phys._ on diffeomorphism-invariant physics, preprint available as [`gr-qc/9504038`](http://xxx.lanl.gov/abs/gr-qc/9504038).
+3) Louis Crane: "Clock and category: is quantum gravity algebraic?", to appear in the November 1995 special issue of _Jour. Math. Phys._ on diffeomorphism-invariant physics, preprint available as [`gr-qc/9504038`](https://arxiv.org/abs/gr-qc/9504038).
 
 This grand scheme involves a thorough refashioning of quantum gravity in
 terms of category theory, and uses some of the very beautiful

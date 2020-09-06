@@ -92,7 +92,7 @@ neutrinos, try this:
 7) M. Ackermann et al, Search for extraterrestrial point sources of
 high energy neutrinos with AMANDA-II using data collected in 2000-2002,
 available as
-[`astro-ph/0412347`](http://xxx.lanl.gov/abs/astro-ph/0412347).
+[`astro-ph/0412347`](https://arxiv.org/abs/astro-ph/0412347).
 
 For much more, try these:
 
@@ -130,11 +130,11 @@ Alejandro Perez on string-like defects in 4d topological gravity:
 
 12) John Baez, Derek Wise and Alissa Crans, Exotic statistics for
 strings in 4d BF theory, available as
-[`gr-qc/0603085`](http://xxx.lanl.gov/abs/gr-qc/0603085).
+[`gr-qc/0603085`](https://arxiv.org/abs/gr-qc/0603085).
 
 13) John Baez and Alejandro Perez, Quantization of strings and branes
 coupled to BF theory, available as
-[`gr-qc/0605087`](http://xxx.lanl.gov/abs/gr-qc/0605087).
+[`gr-qc/0605087`](https://arxiv.org/abs/gr-qc/0605087).
 
 (Jeffrey Morton is also involved in this project, a bit more on the
 $n$-category side of things, but that aspect is top secret for now.)
@@ -291,7 +291,7 @@ effects! This goes by the name of "doubly special relativity":
 
 15) Laurent Freidel, Jerzy Kowalski-Glikman and Lee Smolin, 2+1 gravity
 and doubly special relativity, Phys. Rev. D69 (2004) 044001. Also
-available as [`hep-th/0307085`](http://xxx.lanl.gov/abs/hep-th/0307085).
+available as [`hep-th/0307085`](https://arxiv.org/abs/hep-th/0307085).
 
 This effect is a bit less shocking if we put the units back in. I've
 secretly been setting 4\pi G = 1, where G is Newton's gravitational
@@ -473,7 +473,7 @@ demonstrated this quite carefully in a recent paper with Karim Noui:
 and spin foam models in three dimensions, to appear in the proceedings
 of the Third International Symposium on Quantum Theory and Symmetries
 (QTS3), available as
-[`gr-qc/0402112`](http://xxx.lanl.gov/abs/gr-qc/0402112).
+[`gr-qc/0402112`](https://arxiv.org/abs/gr-qc/0402112).
 
 The reason everything works so nicely is that the equations of motion
 say the connection is flat. Since the same is true in BF theory in

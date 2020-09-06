@@ -127,7 +127,7 @@ My other email was from Bert Schroer, an expert on the $C^*$-algebraic
 approach to quantum field theory. He has written a paper about the
 "AdS-CFT correspondence" which is bound to stir up controversy:
 
-7) Bert Schroer, "Facts and fictions about Anti de Sitter spacetimes with local quantum matter", available as [`hep-th/9911100`](http://xxx.lanl.gov/abs/hep-th/9911100).
+7) Bert Schroer, "Facts and fictions about Anti de Sitter spacetimes with local quantum matter", available as [`hep-th/9911100`](https://arxiv.org/abs/hep-th/9911100).
 
 Let me just quote the beginning:
 
@@ -279,6 +279,6 @@ By the way, Schroer has recently written a paper about the braid group
 and quantum field theory. Everyone knows how the braid group shows up in
 3d quantum field theory, but this is about *4d* quantum field theory:
 
-8) Bert Schroer, "Braided structure in 4-dimensional conformal quantum field theory", available as [`hep-th/0012021`](http://xxx.lanl.gov/abs/hep-th/0012021).
+8) Bert Schroer, "Braided structure in 4-dimensional conformal quantum field theory", available as [`hep-th/0012021`](https://arxiv.org/abs/hep-th/0012021).
 
 ------------------------------------------------------------------------

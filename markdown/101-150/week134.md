@@ -110,9 +110,9 @@ flaws. Thus, by comparing them, one might learn something!
 Some more papers have come out recently which delve into the
 philosophical aspects of this muddle:
 
-2) Carlo Rovelli, "Quantum spacetime: what do we know?", to appear in _Physics Meets Philosophy at the Planck Scale_, eds. Craig Callender and Nick Huggett, Cambridge U. Press. Preprint available as [`gr-qc/9903045`](http://xxx.lanl.gov/abs/gr-qc/9903045).
+2) Carlo Rovelli, "Quantum spacetime: what do we know?", to appear in _Physics Meets Philosophy at the Planck Scale_, eds. Craig Callender and Nick Huggett, Cambridge U. Press. Preprint available as [`gr-qc/9903045`](https://arxiv.org/abs/gr-qc/9903045).
 
-3) J. Butterfield and C. J. Isham, "Spacetime and the philosophical challenge of quantum gravity", to appear in _Physics Meets Philosophy at the Planck Scale_, eds. Craig Callender and Nick Huggett, Cambridge U. Press. Preprint available as [`gr-qc/9903072`](http://xxx.lanl.gov/abs/gr-qc/9903072).
+3) J. Butterfield and C. J. Isham, "Spacetime and the philosophical challenge of quantum gravity", to appear in _Physics Meets Philosophy at the Planck Scale_, eds. Craig Callender and Nick Huggett, Cambridge U. Press. Preprint available as [`gr-qc/9903072`](https://arxiv.org/abs/gr-qc/9903072).
 
 Rovelli's paper is a bit sketchy, but it outlines ideas which I find
 very appealing --- I always find him to be very clear-headed about the
@@ -146,7 +146,7 @@ quote the abstract:
 Now let me mention a few more technical papers that have come out in the
 last few months:
 
-4) John Baez and John Barrett, "The quantum tetrahedron in 3 and 4 dimensions", preprint available as [`gr-qc/9903060`](http://xxx.lanl.gov/abs/gr-qc/gr-qc/9903060).
+4) John Baez and John Barrett, "The quantum tetrahedron in 3 and 4 dimensions", preprint available as [`gr-qc/9903060`](https://arxiv.org/abs/gr-qc/gr-qc/9903060).
 
 The idea here is to form a classical phase whose points represent
 geometries of a tetrahedron in 3 or 4 dimensions, and then apply
@@ -223,7 +223,7 @@ might think both systems have the same number of degrees of freedom. In
 fact a very similar thing happens for the quantum tetrahedron in 3 and 4
 dimensions.
 
-5) Abhay Ashtekar, Alejandro Corichi and Kirill Krasnov, "Isolated horizons: the classical phase space", preprint available as [`gr-qc/9905089`](http://xxx.lanl.gov/abs/gr-qc/9905089).
+5) Abhay Ashtekar, Alejandro Corichi and Kirill Krasnov, "Isolated horizons: the classical phase space", preprint available as [`gr-qc/9905089`](https://arxiv.org/abs/gr-qc/9905089).
 
 This paper explains in more detail the classical aspects of the
 calculation of the entropy of a black hole in loop quantum gravity (see
@@ -256,19 +256,19 @@ me quote the abstract:
 The following are some review articles on spin networks, spin foams and
 the like:
 
-6) Roberto De Pietri, 'Canonical "loop" quantum gravity and spin foam models', to appear in the proceedings of the _XXIIIth Congress of the Italian Society for General Relativity and Gravitational Physics (SIGRAV)_, 1998, preprint available as [`gr-qc/9903076`](http://xxx.lanl.gov/abs/gr-qc/9903076).
+6) Roberto De Pietri, 'Canonical "loop" quantum gravity and spin foam models', to appear in the proceedings of the _XXIIIth Congress of the Italian Society for General Relativity and Gravitational Physics (SIGRAV)_, 1998, preprint available as [`gr-qc/9903076`](https://arxiv.org/abs/gr-qc/9903076).
 
-7) Seth Major, "A spin network primer", to appear in _Amer. Jour. Phys._, preprint available as [`gr-qc/9905020`](http://xxx.lanl.gov/abs/gr-qc/9905020).
+7) Seth Major, "A spin network primer", to appear in _Amer. Jour. Phys._, preprint available as [`gr-qc/9905020`](https://arxiv.org/abs/gr-qc/9905020).
 
-8) Seth Major, "Operators for quantized directions", preprint available as [`gr-qc/9905019`](http://xxx.lanl.gov/abs/gr-qc/9905019).
+8) Seth Major, "Operators for quantized directions", preprint available as [`gr-qc/9905019`](https://arxiv.org/abs/gr-qc/9905019).
 
-9) John Baez, "An introduction to spin foam models of BF theory and quantum gravity", in _Geometry and Quantum Physics_, eds. Helmut Gausterer and Harald Grosse, Lecture Notes in Physics, Springer-Verlag, Berlin, 2000, pp. 25--93. Preprint available as [`gr-qc/9905087`](http://xxx.lanl.gov/abs/gr-qc/9905087).
+9) John Baez, "An introduction to spin foam models of BF theory and quantum gravity", in _Geometry and Quantum Physics_, eds. Helmut Gausterer and Harald Grosse, Lecture Notes in Physics, Springer-Verlag, Berlin, 2000, pp. 25--93. Preprint available as [`gr-qc/9905087`](https://arxiv.org/abs/gr-qc/9905087).
 
 By the way, Barrett and Crane have come out with a paper sketching a
 spin foam model for Lorentzian (as opposed to Riemannian) quantum
 gravity:
 
-10) John Barrett and Louis Crane, "A Lorentzian signature model for quantum general relativity", preprint available as [`gr-qc/9904025`](http://xxx.lanl.gov/abs/gr-qc/9904025).
+10) John Barrett and Louis Crane, "A Lorentzian signature model for quantum general relativity", preprint available as [`gr-qc/9904025`](https://arxiv.org/abs/gr-qc/9904025).
 
 However, this model is so far purely formal, because it involves
 infinite sums that probably diverge. We need to keep working on this!
@@ -276,12 +276,12 @@ Now that I'm getting a bit of free time, I want to tackle this issue.
 Meanwhile, Iwasaki has come out with an alternative spin foam model of
 Riemannian quantum gravity:
 
-11) Junichi Iwasaki, "A surface theoretic model of quantum gravity", preprint available as [`gr-qc/9903112`](http://xxx.lanl.gov/abs/gr-qc/9903112).
+11) Junichi Iwasaki, "A surface theoretic model of quantum gravity", preprint available as [`gr-qc/9903112`](https://arxiv.org/abs/gr-qc/9903112).
 
 Alas, I don't really understand this model yet. Finally, to wrap things
 up, something completely different:
 
-12) Richard E. Borcherds, "Quantum vertex algebras", preprint available as [`math.QA/9903038`](http://xxx.lanl.gov/abs/math.QA/9903038).
+12) Richard E. Borcherds, "Quantum vertex algebras", preprint available as [`math.QA/9903038`](https://arxiv.org/abs/math.QA/9903038).
 
 I like how the abstract of this paper starts: "The purpose of this
 paper is to make the theory of vertex algebras trivial". Good! Trivial

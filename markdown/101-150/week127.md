@@ -394,9 +394,9 @@ other than....
 $$\text{MONSTROUS MOONSHINE!!!}$$
 But I don't have the energy to talk about *that* now. For more, try:
 
-7) Richard E. Borcherds, "What is moonshine?", talk given upon winning the Fields medal, preprint available as [`math.QA/9809110`](http://xxx.lanl.gov/abs/math.QA/9809110).
+7) Richard E. Borcherds, "What is moonshine?", talk given upon winning the Fields medal, preprint available as [`math.QA/9809110`](https://arxiv.org/abs/math.QA/9809110).
 
-8) Peter Goddard, "The work of R. E. Borcherds", preprint available as [`math.QA/9808136`](http://xxx.lanl.gov/abs/math.QA/9808136).
+8) Peter Goddard, "The work of R. E. Borcherds", preprint available as [`math.QA/9808136`](https://arxiv.org/abs/math.QA/9808136).
 
 Okay, if you've actually read this far, you deserve a treat. First, try
 this cartoon, which you'll see is quite relevant:

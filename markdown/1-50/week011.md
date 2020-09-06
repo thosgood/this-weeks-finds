@@ -8,7 +8,7 @@ get:
 
 1) "Unique determination of an inner product by adjointness relations in
 the algebra of quantum observables", by Alan D. Rendall, 10 pages, now
-available as [`gr-qc/9303026`](http://xxx.lanl.gov/abs/gr-qc/9303026).
+available as [`gr-qc/9303026`](https://arxiv.org/abs/gr-qc/9303026).
 
 and then mention another thing I've gotten as a spinoff from the
 gravity conference at UCSB:

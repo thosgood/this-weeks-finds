@@ -249,7 +249,7 @@ For some interesting new insights into this, see:
 
 4) John Barrett, Geometrical measurements in three-dimensional quantum
 gravity, available as
-[`gr-qc/0203018`](http://xxx.lanl.gov/abs/gr-qc/0203018).
+[`gr-qc/0203018`](https://arxiv.org/abs/gr-qc/0203018).
 
 When we make the cosmological constant nonzero in 3d quantum gravity we
 must replace the group \mathrm{SU}(2) by the quantum group SU~q~(2). Based on

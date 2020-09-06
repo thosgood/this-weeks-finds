@@ -47,7 +47,7 @@ together. Finally you sum over all labellings to get the partition
 function. The only tricky part is the convergence of this sum, which was
 proved by Perez:
 
-2) Alejandro Perez, "Finiteness of a spin foam model for euclidean quantum general relativity", _Nucl. Phys._ **B599** (2001) 427--434. Also available as [`gr-qc/0011058`](http://xxx.lanl.gov/abs/gr-qc/0011058).
+2) Alejandro Perez, "Finiteness of a spin foam model for euclidean quantum general relativity", _Nucl. Phys._ **B599** (2001) 427--434. Also available as [`gr-qc/0011058`](https://arxiv.org/abs/gr-qc/0011058).
 
 The most interesting aspect of all this is the formula giving numbers
 for 4-simplices. A 4-simplex has 10 triangular faces all of which get
@@ -85,7 +85,7 @@ because the computation is highly parallelizable.)
 John Barrett has also figured out a very different approach to computing
 $10j$ symbols:
 
-3) John W. Barrett, "The classical evaluation of relativistic spin networks", _Adv. Theor. Math. Phys._ **2** (1998), 593--600. Also available as [`math.QA/9803063`](http://xxx.lanl.gov/abs/math.QA/9803063).
+3) John W. Barrett, "The classical evaluation of relativistic spin networks", _Adv. Theor. Math. Phys._ **2** (1998), 593--600. Also available as [`math.QA/9803063`](https://arxiv.org/abs/math.QA/9803063).
 
 In this approach one computes the $10j$ symbols by doing an integral over
 the space of geometries of a 4-simplex --- or more precisely, over a
@@ -103,7 +103,7 @@ Williams suggests that, at least in the limit of large spins, the
 dominant contribution to the integral for the $10j$ symbol comes from
 4-simplices whose face areas are the 10 spins in your $10j$ symbols:
 
-4) John W. Barrett and Ruth M. Williams, "The asymptotics of an amplitude for the 4-simplex", _Adv. Theor. Math. Phys._ **3** (1999), 209--215. Also available as [`gr-qc/9809032`](http://xxx.lanl.gov/abs/gr-qc/9809032).
+4) John W. Barrett and Ruth M. Williams, "The asymptotics of an amplitude for the 4-simplex", _Adv. Theor. Math. Phys._ **3** (1999), 209--215. Also available as [`gr-qc/9809032`](https://arxiv.org/abs/gr-qc/9809032).
 
 However, Dan and Greg's calculations suggest instead that the dominant
 contribution comes from certain "degenerate" configurations. Some of
@@ -151,11 +151,11 @@ theory too.
 Another talk on a subject close to my heart was given by Noson Yanofsky.
 It was based on these papers of his, especially the last:
 
-5) Noson S. Yanofsky, "Obstructions to coherence: natural noncoherent associativity", _Jour. Pure Appl. Alg._ **147** (2000), 175--213. Also available at [`math.QA/9804106`](http://xxx.lanl.gov/abs/math.QA/9804106).
+5) Noson S. Yanofsky, "Obstructions to coherence: natural noncoherent associativity", _Jour. Pure Appl. Alg._ **147** (2000), 175--213. Also available at [`math.QA/9804106`](https://arxiv.org/abs/math.QA/9804106).
 
-    "The syntax of coherence". To appear in _Cahiers Top. Geom. Diff._. Also available at [`math.CT/9910006`](http://xxx.lanl.gov/abs/math.CT/9910006).
+    "The syntax of coherence". To appear in _Cahiers Top. Geom. Diff._. Also available at [`math.CT/9910006`](https://arxiv.org/abs/math.CT/9910006).
 
-    "Coherence, homotopy and 2-theories". To appear in _K-Theory_. Also available at [`math.CT/0007033`](http://xxx.lanl.gov/abs/math.CT/0007033).
+    "Coherence, homotopy and 2-theories". To appear in _K-Theory_. Also available at [`math.CT/0007033`](https://arxiv.org/abs/math.CT/0007033).
 
 One of the cool things Yanofsky has done is to study what happens when
 we categorify Lawvere's concept of an "algebraic theory". I've

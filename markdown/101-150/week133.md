@@ -2,7 +2,7 @@
 
 I'd like to start with a long quote from a paper by Ashtekar:
 
-1) Abhay Ashtekar, "Quantum Mechanics of Geometry", preprint available as [`gr-qc/9901023`](http://xxx.lanl.gov/abs/gr-qc/9901023).
+1) Abhay Ashtekar, "Quantum Mechanics of Geometry", preprint available as [`gr-qc/9901023`](https://arxiv.org/abs/gr-qc/9901023).
 
 > During his Goettingen inaugural address in 1854, Riemann suggested
 > that the geometry of space may be more than just a fiducial,
@@ -136,9 +136,9 @@ gravity business.
 Next, here are some papers by younger folks working on loop quantum
 gravity:
 
-2) Fotini Markopoulou, "The internal description of a causal set: What the universe looks like from the inside", preprint available as [`gr-qc/9811053`](http://xxx.lanl.gov/abs/gr-qc/9811053).
+2) Fotini Markopoulou, "The internal description of a causal set: What the universe looks like from the inside", preprint available as [`gr-qc/9811053`](https://arxiv.org/abs/gr-qc/9811053).
 
-    Fotini Markopoulou, "Quantum causal histories", preprint available as [`hep-th/9904009`](http://xxx.lanl.gov/abs/hep-th/9904009).
+    Fotini Markopoulou, "Quantum causal histories", preprint available as [`hep-th/9904009`](https://arxiv.org/abs/hep-th/9904009).
 
 Fotini Markopoulou is perhaps the first person to take the issue of
 causality really seriously in loop quantum gravity. In her earlier work
@@ -154,7 +154,7 @@ have to muck around and try different things before we find out what
 works. But Markopoulou's work is the main reason I'm even *daring* to
 think about these issues....
 
-3) Seth A. Major, "Embedded graph invariants in Chern-Simons theory", preprint available as [`hep-th/9810071`](http://xxx.lanl.gov/abs/hep-th/9810071).
+3) Seth A. Major, "Embedded graph invariants in Chern-Simons theory", preprint available as [`hep-th/9810071`](https://arxiv.org/abs/hep-th/9810071).
 
 In This Week's Finds I've already mentioned Seth Major has worked with
 Lee Smolin on q-deformed spin networks in quantum gravity (see

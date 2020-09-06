@@ -111,9 +111,9 @@ And, switching back to the category theory, 2-categories, and the like,
 let me list these before filing them away:
 
 4) "Categorical physics", by Louis Crane, preprint available as
-[`hep-th/9301061`](http://xxx.lanl.gov/abs/hep-th/9301061) in amstex.
+[`hep-th/9301061`](https://arxiv.org/abs/hep-th/9301061) in amstex.
 
-    "A Categorical construction of 4d topological quantum field theories", by Louis Crane and David Yetter, preprint available as [`hep-th/9301062`](http://xxx.lanl.gov/abs/hep-th/9301062) in latex.
+    "A Categorical construction of 4d topological quantum field theories", by Louis Crane and David Yetter, preprint available as [`hep-th/9301062`](https://arxiv.org/abs/hep-th/9301062) in latex.
 
     "Hopf Categories and their representations", Louis Crane and Igor Frenkel, draft version.
 
@@ -147,7 +147,7 @@ week I should post an outline of what this paper does.
 
 5) "The origin of time asymmetry", by S W Hawking, R Laflamme and G W
 Lyons, preprint available as
-[`gr-qc/9301017`](http://xxx.lanl.gov/abs/gr-qc/9301017), in tex.
+[`gr-qc/9301017`](https://arxiv.org/abs/gr-qc/9301017), in tex.
 
 I haven't had a chance to read this one yet but it looks very ambitious
 and is likely to be interesting. Let me just quote from the introduction

@@ -339,7 +339,7 @@ this:
 
 19) Paul Aspinwall, D-branes on Calabi-Yau manifolds, section 7.3.1,
 The McKay correspondence, p. 101 and following. Available as
-[`hep-th/0403166`](http://xxx.lanl.gov/abs/hep-th/0403166)
+[`hep-th/0403166`](https://arxiv.org/abs/hep-th/0403166)
 
 For more on the the representation theory of quivers, see the references
 in the "Addenda" to ["Week 230"](#week230), and also this

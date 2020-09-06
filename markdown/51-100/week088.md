@@ -214,11 +214,11 @@ simple to ponder:
 
     3) Peter Schaller and Thomas Strobl, A brief introduction to Poisson
     $\sigma$-models, preprint available as
-    [hep-th/9507020](http://xxx.lanl.gov/abs/hep-th/9507020).
+    [hep-th/9507020](https://arxiv.org/abs/hep-th/9507020).
 
         Peter Schaller and Thomas Strobl, Poisson $\sigma$-models: a generalization of
         2d gravity-Yang-Mills systems, preprint available as
-        [hep-th/9411163](http://xxx.lanl.gov/abs/hep-th/9411163).
+        [hep-th/9411163](https://arxiv.org/abs/hep-th/9411163).
 
     Later, I had a great conversation with Mike Reisenberger and Carlo
     Rovelli on reformulating the loop representation of quantum gravity in

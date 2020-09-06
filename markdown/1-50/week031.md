@@ -7,7 +7,7 @@ mention a few. This bunch will mainly concern quantum gravity.
 
 1) "Possible implications of the quantum theory of gravity", by Louis
 Crane, 5 pages in LaTeX format, available as
-[`hep-th/9402104`](http://xxx.lanl.gov/abs/hep-th/9402104).
+[`hep-th/9402104`](https://arxiv.org/abs/hep-th/9402104).
 
 This is one paper that everyone can read and enjoy, for although one may
 find it too close to science fiction for comfort, it is far more
@@ -49,12 +49,12 @@ universe and the information goes *there*. Many other solutions have
 been proposed; two recent review articles are
 
 3) "Do Black Holes Destroy Information?", by J. Preskill, Caltech report
-`CALT-68-1819`, available as [`hep-th/9209058`](http://xxx.lanl.gov/abs/hep-th/9209058), Sept. 1992.
+`CALT-68-1819`, available as [`hep-th/9209058`](https://arxiv.org/abs/hep-th/9209058), Sept. 1992.
 
 4) "Black hole information", by Don Page, review lecture to be published
 in _Proceedings of the 5th Canadian Conference on General Relativity and Relativistic Astrophysics, University of Waterloo, 13--15 May, 1993_,
 edited by R. B. Mann and R. G. McLenaghan (World Scientific, Singapore,
-1994), now available in LaTeX form as [`hep-th/9305040`](http://xxx.lanl.gov/abs/hep-th/9305040).
+1994), now available in LaTeX form as [`hep-th/9305040`](https://arxiv.org/abs/hep-th/9305040).
 
 Personally, I am a complete agnostic about this problem, since it rests
 upon so many phenomena that are hypothesized but not yet observed, and
@@ -148,10 +148,10 @@ To begin with, some more on black hole entropy:
 
 5) "Some Speculations about Black Hole Entropy in String Theory", Leonard
 Susskind, 11 pages in AMSTeX, available as
-[`hep-th/9309145`](http://xxx.lanl.gov/abs/hep-th/9309145).
+[`hep-th/9309145`](https://arxiv.org/abs/hep-th/9309145).
 
     "Black hole entropy in canonical quantum gravity and superstring theory", by L. Susskind and J. Uglum, 29 pages, available as
-    [`hep-th/9401070`](http://xxx.lanl.gov/abs/hep-th/9401070).
+    [`hep-th/9401070`](https://arxiv.org/abs/hep-th/9401070).
 
 The fact that the entropy of a black hole is (at least under certain
 circumstances) proportional to the area of its event horizon is a
@@ -166,7 +166,7 @@ ends attached to the horizon.
 
 6) "Black hole evaporation without information loss", by C.R. Stephens,
 G. 't Hooft and B. F. Whiting, 35 pages in TeX format, 3 figures in
-postscript, available as [`gr-qc/9310006`](http://xxx.lanl.gov/abs/gr-qc/9310006).
+postscript, available as [`gr-qc/9310006`](https://arxiv.org/abs/gr-qc/9310006).
 
 This is an attempt to make black holes radiate away and disappear in a
 manner that preserves unitarity. I've been too busy to read it. And now
@@ -174,7 +174,7 @@ for some wormholes:
 
 7) "Complementarity in Wormhole Chromodynamics", by Hoi-Kwong Lo,
 Kai-Ming Lee, and John Preskill, 12 pages and 2 figures, phyzzx macros
-required, available as [`hep-th/9308044`](http://xxx.lanl.gov/abs/hep-th/9308044).
+required, available as [`hep-th/9308044`](https://arxiv.org/abs/hep-th/9308044).
 
 Let me just quote the abstract and note that there is probably some
 quite interesting topology to be obtained by applying this sort of idea
@@ -195,7 +195,7 @@ rigorous results:
 
 8) ""No Hair" Theorems --- Folklore, Conjectures, Results", by Piotr T.
 Chrusciel, Garching preprint MPA 792, 30 pages available in LaTeX form
-as [`gr-qc/9402032`](http://xxx.lanl.gov/abs/gr-qc/9402032).
+as [`gr-qc/9402032`](https://arxiv.org/abs/gr-qc/9402032).
 
 The famous "no hair" theorem says that in general relativity static
 black hole solutions are determined by very few parameters --- typically

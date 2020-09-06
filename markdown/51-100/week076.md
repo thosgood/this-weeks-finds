@@ -42,7 +42,7 @@ a signature of deconfinement. In fact, they may have already seen this!
 
 People might also enjoy looking at this review article:
 
-2) Adriano Di Giacomo, "Mechanisms of colour confinement", preprint available as [`hep-th/9603029`](http://xxx.lanl.gov/abs/hep-th/9603029).
+2) Adriano Di Giacomo, "Mechanisms of colour confinement", preprint available as [`hep-th/9603029`](https://arxiv.org/abs/hep-th/9603029).
 
 Okay, let me continue the tale of $n$-categories. I want to lead up to
 their role in physics, but to do it well, there are quite a few things I

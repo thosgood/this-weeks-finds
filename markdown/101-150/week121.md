@@ -5,7 +5,7 @@ applications to topology. Marco Mackaay has just come out with a
 fascinating paper that gives a construction of 4-dimensional TQFTs from
 certain "monoidal 2-categories".
 
-1) Marco Mackaay, "Spherical 2-categories and 4-manifold invariants", preprint available as [`math.QA/9805030`](http://xxx.lanl.gov/abs/math.QA/9805030)
+1) Marco Mackaay, "Spherical 2-categories and 4-manifold invariants", preprint available as [`math.QA/9805030`](https://arxiv.org/abs/math.QA/9805030)
 
 Beautifully, this construction is just a categorified version of Barrett
 and Westbury's construction of 3-dimensional topological quantum field
@@ -20,7 +20,7 @@ familiar to long-time customers, so if you know it all already, just
 skip it.
 
 2) John Baez and James Dolan, "Categorification", to appear in the _Proceedings of the Workshop on Higher Category Theory and Mathematical Physics at Northwestern University, Evanston, Illinois, March 1997_, eds.
-Ezra Getzler and Mikhail Kapranov. Preprint available as [`math.QA/9802029`](http://xxx.lanl.gov/abs/math.QA/9802029) or at `http://math.ucr.edu/home/baez/cat.ps`.
+Ezra Getzler and Mikhail Kapranov. Preprint available as [`math.QA/9802029`](https://arxiv.org/abs/math.QA/9802029) or at `http://math.ucr.edu/home/baez/cat.ps`.
 
 So, what's categorification? This tongue-twisting term, invented by
 Louis Crane, refers to the process of finding category-theoretic analogs
@@ -411,16 +411,16 @@ this is perhaps our best hopes for getting our hands on the data needed
 to stick into Mackaay's machine and get concrete examples of a 4d
 topological quantum field theories!
 
-7) Jim Stasheff, "Grafting Boardman's cherry trees to quantum field theory", preprint available as [`math.AT/9803156`](http://xxx.lanl.gov/abs/math.AT/9803156).
+7) Jim Stasheff, "Grafting Boardman's cherry trees to quantum field theory", preprint available as [`math.AT/9803156`](https://arxiv.org/abs/math.AT/9803156).
 
 Starting with Boardman and Vogt's work, and shortly thereafter that of
 May, operads have become really important in homotopy theory, string
 theory, and now $n$-category theory; this review article sketches some of
 the connections.
 
-8) Masoud Khalkhali, "On cyclic homology of $A_\infty$ algebras", preprint available as [`math.QA/9805051`](http://xxx.lanl.gov/abs/math.QA/9805051).
+8) Masoud Khalkhali, "On cyclic homology of $A_\infty$ algebras", preprint available as [`math.QA/9805051`](https://arxiv.org/abs/math.QA/9805051).
 
-    Masoud Khalkhali, Homology of $L_\infty$ algebras and cyclic homology, preprint available as [`math.QA/9805052`](http://xxx.lanl.gov/abs/math.QA/9805052).
+    Masoud Khalkhali, Homology of $L_\infty$ algebras and cyclic homology, preprint available as [`math.QA/9805052`](https://arxiv.org/abs/math.QA/9805052).
 
 An $A_\infty$ algebra is an algebra that is associative *up to an associator*
 which satisfies the pentagon identity *up to a pentagonator* which

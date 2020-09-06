@@ -82,7 +82,7 @@ discussed it already in ["Week 55"](#week55) and
 ["Week 99"](#week99), but only sketchily. If you want more details,
 try:
 
-2) Carlo Rovelli, "Loop quantum gravity", preprint available as [`gr-qc/9710008`](http://xxx.lanl.gov/abs/gr-qc/9710008), also available as a webpage on _Living Reviews in Relativity_ at `http://www.livingreviews.org/Articles/Volume1/1998-1rovelli/`
+2) Carlo Rovelli, "Loop quantum gravity", preprint available as [`gr-qc/9710008`](https://arxiv.org/abs/gr-qc/9710008), also available as a webpage on _Living Reviews in Relativity_ at `http://www.livingreviews.org/Articles/Volume1/1998-1rovelli/`
 
 The abstract gives a taste of what it's all about:
 
@@ -171,7 +171,7 @@ hedge ones bets and work hard on both approaches.
 
 Lately I've been very excited by a third, hybrid approach:
 
-4) Andrea Barbieri, "Quantum tetrahedra and simplicial spin networks", preprint available as [`gr-qc/9707010`](http://xxx.lanl.gov/abs/gr-qc/9707010).
+4) Andrea Barbieri, "Quantum tetrahedra and simplicial spin networks", preprint available as [`gr-qc/9707010`](https://arxiv.org/abs/gr-qc/9707010).
 
 Barbieri considers "simplicial spin networks": spin networks living in
 a fixed 3-dimensional manifold chopped up into tetrahedra. He only
@@ -238,9 +238,9 @@ black holes. Later I'll talk about *dynamics* and spin foams.
 Meanwhile, I've been really lagging behind in describing new papers as
 they show up... so here are a few interesting ones:
 
-5) C. Nash, "Topology and physics --- a historical essay", to appear in _A History of Topology_, edited by Ioan James, Elsevier-North Holland, preprint available as [`hep-th/9709135`](http://xxx.lanl.gov/abs/hep-th/9709135).
+5) C. Nash, "Topology and physics --- a historical essay", to appear in _A History of Topology_, edited by Ioan James, Elsevier-North Holland, preprint available as [`hep-th/9709135`](https://arxiv.org/abs/hep-th/9709135).
 
-6) Luis Alvarez-Gaume and Frederic Zamora, "Duality in quantum field theory (and string theory)", available as [`hep-th/9709180`](http://xxx.lanl.gov/abs/hep-th/9709180).
+6) Luis Alvarez-Gaume and Frederic Zamora, "Duality in quantum field theory (and string theory)", available as [`hep-th/9709180`](https://arxiv.org/abs/hep-th/9709180).
 
 Quoting the abstract:
 
@@ -251,12 +251,12 @@ of confinement. We review the exact results of N=1 supersymmetric QCD
 and the Seiberg-Witten solution of N=2 super Yang-Mills. Some of its
 extensions to String Theory are also briefly discussed."
 
-7) Richard E. Borcherds, "What is a vertex algebra?", available as [`q-alg/9709033`](http://xxx.lanl.gov/abs/q-alg/9709033).
+7) Richard E. Borcherds, "What is a vertex algebra?", available as [`q-alg/9709033`](https://arxiv.org/abs/q-alg/9709033).
 
 > "These are the notes of an informal talk in Bonn describing how to
 define an analogue of vertex algebras in higher dimensions."
 
-8) J. M. F. Labastida and Carlos Lozano, "Lectures in topological quantum field theory", 62 pages in LaTeX with 5 figures in encapsulated Postscript, available as [`hep-th/9709192`](http://xxx.lanl.gov/abs/hep-th/9709192).
+8) J. M. F. Labastida and Carlos Lozano, "Lectures in topological quantum field theory", 62 pages in LaTeX with 5 figures in encapsulated Postscript, available as [`hep-th/9709192`](https://arxiv.org/abs/hep-th/9709192).
 
 > "In these lectures we present a general introduction to topological
 quantum field theories. These theories are discussed in the framework of
@@ -270,7 +270,7 @@ are reviewed, and the structure of the vacuum expectation values of
 their observables is analyzed in the context of duality for the simplest
 case."
 
-9) Martin Markl, "Simplex, associahedron, and cyclohedron", preprint available as [`alg-geom/9707009`](http://xxx.lanl.gov/abs/alg-geom/9707009).
+9) Martin Markl, "Simplex, associahedron, and cyclohedron", preprint available as [`alg-geom/9707009`](https://arxiv.org/abs/alg-geom/9707009).
 
 > "The aim of the paper is to give an 'elementary' introduction to the
 theory of modules over operads and discuss three prominent examples of

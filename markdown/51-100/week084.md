@@ -93,9 +93,9 @@ Xanadu, and Ted Kaehler's backlinks browser.
 
 Now let me turn to some mathematics and physics.
 
-8) Francesco Fucito, Maurizio Martellini and Mauro Zeni, "The BF formalism for QCD and quark confinement", preprint available as [`hep-th/9605018`](http://xxx.lanl.gov/abs/hep-th/9605018).
+8) Francesco Fucito, Maurizio Martellini and Mauro Zeni, "The BF formalism for QCD and quark confinement", preprint available as [`hep-th/9605018`](https://arxiv.org/abs/hep-th/9605018).
 
-9) Ioannis Tsohantjis, Alex C Kalloniatis, and Peter D. Jarvis, "Chord diagrams and BPHZ subtractions", preprint available as [`hep-th/9604191`](http://xxx.lanl.gov/abs/hep-th/9604191).
+9) Ioannis Tsohantjis, Alex C Kalloniatis, and Peter D. Jarvis, "Chord diagrams and BPHZ subtractions", preprint available as [`hep-th/9604191`](https://arxiv.org/abs/hep-th/9604191).
 
 These two papers both treat interesting relationships between topology
 and quantum field theory --- not the "topological quantum field theory"
@@ -200,7 +200,7 @@ any detail, but people studying Vassiliev invariants might find it
 interesting, since it claims to relate the renormalization theory of
 $\varphi^3$ theory to the mathematics of chord diagrams.
 
-10) Masaki Kashiwara and Yoshihisa Saito, "Geometric construction of crystal bases", [`q-alg/9606009`](http://xxx.lanl.gov/abs/q-alg/9606009).
+10) Masaki Kashiwara and Yoshihisa Saito, "Geometric construction of crystal bases", [`q-alg/9606009`](https://arxiv.org/abs/q-alg/9606009).
 
 The "canonical" and "crystal" bases associated to quantum groups,
 studied by Kashiwara, Lusztig, and others, are exciting to me because

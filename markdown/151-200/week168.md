@@ -18,7 +18,7 @@ starting to pay off... but it will certainly help you *understand* his
 recent work. He's doing lots of great stuff these days. In fact, he
 just came out with a paper yesterday:
 
-2) Martin Bojowald, "The semiclassical limit of loop quantum cosmology", available at [`gr-qc/0105113`](http://xxx.lanl.gov/abs/gr-qc/0105113).
+2) Martin Bojowald, "The semiclassical limit of loop quantum cosmology", available at [`gr-qc/0105113`](https://arxiv.org/abs/gr-qc/0105113).
 
 This explains how his new approach to quantum cosmology is related to
 the old "minisuperspace" approach. In the old approach, you just take
@@ -81,7 +81,7 @@ partition function converge or not?
 Now, what's cool is that in November of last year, a fellow named
 Alejandro Perez claimed to have proven that it *does* converge:
 
-3) Alejandro Perez, "Finiteness of a spin foam model for euclidean quantum general relativity", _Nucl. Phys._ **B599** (2001) 427--434. Also available at [`gr-qc/0011058`](http://xxx.lanl.gov/abs/gr-qc/0011058).
+3) Alejandro Perez, "Finiteness of a spin foam model for euclidean quantum general relativity", _Nucl. Phys._ **B599** (2001) 427--434. Also available at [`gr-qc/0011058`](https://arxiv.org/abs/gr-qc/0011058).
 
 I say "claimed", not because I doubt his proof, but because I still
 haven't checked it, and I should. But the great thing is: now we have
@@ -118,13 +118,13 @@ Last summer, in a fun-filled week of intense calculation, John Barrett
 and I showed that the integral defining the Lorentzian $10j$ symbols
 *does* in fact converge:
 
-4) John Baez and John W. Barrett, "Integrability for relativistic spin networks", available at [`gr-qc/0101107`](http://xxx.lanl.gov/abs/gr-qc/0101107).
+4) John Baez and John W. Barrett, "Integrability for relativistic spin networks", available at [`gr-qc/0101107`](https://arxiv.org/abs/gr-qc/0101107).
 
 It took us until this January to write up those calculations. By April,
 Louis Crane, Carlo Rovelli, and Alejandro Perez had written a paper
 extending our methods to show that the partition function converges:
 
-5) Louis Crane, Alejandro Perez, Carlo Rovelli, "A finiteness proof for the Lorentzian state sum spin foam model for quantum general relativity", available as [`gr-qc/0104057`](http://xxx.lanl.gov/abs/gr-qc/0104057).
+5) Louis Crane, Alejandro Perez, Carlo Rovelli, "A finiteness proof for the Lorentzian state sum spin foam model for quantum general relativity", available as [`gr-qc/0104057`](https://arxiv.org/abs/gr-qc/0104057).
 
 So now we have a well-defined quantum gravity theory for a 4-dimensional
 spacetime with a fixed triangulation, and we can start studying it! The

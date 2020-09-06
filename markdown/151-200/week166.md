@@ -263,7 +263,7 @@ discover that Pierre Ramond, a real expert on this stuff, has had
 similar thoughts. In fact he's written two papers on this! Let me just
 quote the abstracts:
 
-8) Pierre Ramond, "Boson-fermion confusion: the string path to supersymmetry", available at [`hep-th/0102012`](http://xxx.lanl.gov/abs/hep-th/0102012).
+8) Pierre Ramond, "Boson-fermion confusion: the string path to supersymmetry", available at [`hep-th/0102012`](https://arxiv.org/abs/hep-th/0102012).
 
 > Reminiscences on the string origins of supersymmetry are followed by a
 discussion of the importance of confusing bosons with fermions in
@@ -273,7 +273,7 @@ the exceptional group $\mathrm{F}_4$.
 
 9) T. Pengpan and Pierre Ramond, M(ysterious) patterns in \mathrm{SO}(9), Phys.
 Rep. 315 (1999) 137-152, also available as
-[`hep-th/9808190`](http://xxx.lanl.gov/abs/hep-th/9808190).
+[`hep-th/9808190`](https://arxiv.org/abs/hep-th/9808190).
 
 > The light-cone little group, $\mathrm{SO}(9)$, classifies the massless degrees of
 freedom of eleven-dimensional supergravity, with a triplet of

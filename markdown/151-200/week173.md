@@ -253,11 +253,11 @@ Now, on to some category theory!
 Michael Mueger has written some excellent papers on the relation between
 quantum field theory, category theory, and topology:
 
-6) Michael Mueger, "Conformal field theory and Doplicher-Roberts reconstruction", available at [`math-ph/0008027`](http://xxx.lanl.gov/abs/math-ph/0008027).
+6) Michael Mueger, "Conformal field theory and Doplicher-Roberts reconstruction", available at [`math-ph/0008027`](https://arxiv.org/abs/math-ph/0008027).
 
-  "From subfactors to categories and topology I: Frobenius algebras in and Morita equivalence of tensor categories", available at [`math.CT/0111204`](http://xxx.lanl.gov/abs/math.CT/0111204).
+  "From subfactors to categories and topology I: Frobenius algebras in and Morita equivalence of tensor categories", available at [`math.CT/0111204`](https://arxiv.org/abs/math.CT/0111204).
 
-  "From subfactors to categories and topology II: The quantum double of tensor catgories and subfactors", available at [`math.CT/0111205`](http://xxx.lanl.gov/abs/math.CT/0111205).
+  "From subfactors to categories and topology II: The quantum double of tensor catgories and subfactors", available at [`math.CT/0111205`](https://arxiv.org/abs/math.CT/0111205).
 
 I can't possibly do justice to these, but I'd like to discuss a very
 pretty idea from his paper on Frobenius algebras. This will give me a

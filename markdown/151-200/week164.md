@@ -379,7 +379,7 @@ Finally, I'd like to list a few articles that I've been meaning to
 read, but haven't gotten around to. I hope to read them sometime *this*
 millennium! I'll quote the abstracts and make a few comments.
 
-4) Jack Morava, "Cobordism of symplectic manifolds and asymptotic expansions", a talk at the conference in honor of S.P. Novikov's 60th birthday, available as [`math.SG/9908070`](http://xxx.lanl.gov/abs/math.SG/9908070).
+4) Jack Morava, "Cobordism of symplectic manifolds and asymptotic expansions", a talk at the conference in honor of S.P. Novikov's 60th birthday, available as [`math.SG/9908070`](https://arxiv.org/abs/math.SG/9908070).
 
 > The cobordism ring of symplectic manifolds defined by V.L. Ginzburg is
 > shown to be isomorphic to the Pontrjagin ring of complex-oriented
@@ -393,7 +393,7 @@ complex oriented cohomology theories in ["Week 150"](#week150),
 because I'm quite puzzled about the deep inner meaning of this
 relation. This paper might be the key to this mystery!
 
-5) Detlev Buchholz, "Current trends in axiomatic quantum field theory", available as [`hep-th/9811233`](http://xxx.lanl.gov/abs/hep-th/9811233).
+5) Detlev Buchholz, "Current trends in axiomatic quantum field theory", available as [`hep-th/9811233`](https://arxiv.org/abs/hep-th/9811233).
 
 > In this article a non-technical survey is given of the present status
 > of Axiomatic Quantum Field Theory and interesting future directions of
@@ -412,7 +412,7 @@ I've been falling behind on new developments in axiomatic quantum field
 theory. Lots of cool stuff is happening, I hear. This might help me
 catch up.
 
-6) Matt Visser, "The reliability horizon", available as [`gr-qc/9710020`](http://xxx.lanl.gov/abs/gr-qc/9710020).
+6) Matt Visser, "The reliability horizon", available as [`gr-qc/9710020`](https://arxiv.org/abs/gr-qc/9710020).
 
 > The "reliability horizon" for semi-classical quantum gravity
 > quantifies the extent to which we should trust semi-classical quantum
@@ -427,7 +427,7 @@ effects to become important. Why haven't I read this? It's obviously
 worthwhile!
 
 7) Bianca Letizia Cerchiai and Julius Wess, "$q$-Deformed Minkowski Space based on a $q$-Lorentz Algebra", available as
-[math.QA/9801104](http://xxx.lanl.gov/abs/math.QA/9801104).
+[math.QA/9801104](https://arxiv.org/abs/math.QA/9801104).
 
 > The Hilbert space representations of a non-commutative $q$-deformed
 > Minkowski space, its momenta and its Lorentz boosts are constructed.

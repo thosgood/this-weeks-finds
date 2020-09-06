@@ -609,14 +609,14 @@ and then take the deep plunge into this paper:
 
 8) Ludmil Katzarkov, Tony Pantev and Bertrand Toen, Schematic homotopy
 types and non-abelian Hodge theory I: The Hodge decomposition, available
-at [math.AG/0107129](http://xxx.lanl.gov/abs/math.AG/0107129).
+at [math.AG/0107129](https://arxiv.org/abs/math.AG/0107129).
 
 There are a lot of model categories and $n$-categories lurking in the
 background of this subject, as well as ideas that originated in physics,
 like "Higgs bundles". For the brave reader I recommend these papers:
 
 9) Bertrand Toen, Toward a Galoisian interpretation of homotopy theory,
-available as [math.AT/0007157](http://xxx.lanl.gov/abs/math.AT/0007157).
+available as [math.AT/0007157](https://arxiv.org/abs/math.AT/0007157).
 
 This answers the question: "the fundamental group is to covering spaces
 as the whole homotopy type is to... what?" The fact that it's in
@@ -624,7 +624,7 @@ French probably makes it easier to understand.
 
 10) Bertrand Toen and Gabriele Vezzosi, Algebraic geometry over model
 categories (a general approach to derived algebraic geometry), available
-as [math.AG/0110109](http://xxx.lanl.gov/abs/math.AG/0110109).
+as [math.AG/0110109](https://arxiv.org/abs/math.AG/0110109).
 
 This is only for badass mathematicians who find algebraic geometry and
 homotopy theory insufficiently mindblowing when taken separately. Ever

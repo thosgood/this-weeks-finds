@@ -192,7 +192,7 @@ it!
 Okay, just a bit about actual mathematical physics per se this time.
 
 1) "On quantum mechanics", by Carlo Rovelli, uuencoded PostScript file,
-42 pages available as [`hep-th/9403015`](http://xxx.lanl.gov/abs/hep-th/9403015).
+42 pages available as [`hep-th/9403015`](https://arxiv.org/abs/hep-th/9403015).
 
 This interesting paper suggests that reason why we are constantly
 arguing about the meaning of quantum mechanics, despite the fact that it
@@ -213,7 +213,7 @@ though it is clearly not the last word on this issue (nor does Rovelli
 claim it to be).
 
 2) "Adjointness relations as a criterion for choosing an inner product",
-by Alan Rendall, [`gr-qc/9403001`](http://xxx.lanl.gov/abs/gr-qc/9403001).
+by Alan Rendall, [`gr-qc/9403001`](https://arxiv.org/abs/gr-qc/9403001).
 
 The inner product problem in quantum gravity is an instance of a
 general, very interesting mathematics problem, namely, of determining an
@@ -223,7 +223,7 @@ very nice results on this issue.
 
 3) "Gromov-Witten classes, quantum cohomology, and enumerative geometry",
 by M. Kontsevich, Yu. Manin,
-[`hep-th/9402147`](http://xxx.lanl.gov/abs/hep-th/9402147).
+[`hep-th/9402147`](https://arxiv.org/abs/hep-th/9402147).
 
 I will probably never understand this paper so I might as well mention
 it right away. Kontsevich's work on knot theory, and Manin's work on

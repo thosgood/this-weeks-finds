@@ -394,7 +394,7 @@ There's a way to define the cardinality of a finite groupoid:
 12) John Baez and James Dolan, From finite sets to Feynman diagrams, in
 Mathematics Unlimited - 2001 and Beyond, vol. 1, eds. Bjorn Engquist and
 Wilfried Schmid, Springer, Berlin, 2001, pp. 29-50. Also available as
-[math.QA/0004133](http://xxx.lanl.gov/abs/math.QA/0004133).
+[math.QA/0004133](https://arxiv.org/abs/math.QA/0004133).
 
 And, this can equal any nonnegative *rational* number! This lets us
 generalize what we've done from finite sets to finite groupoids, and
@@ -422,7 +422,7 @@ this to work - I'll have to explain this later. For details, try:
 13) Jeffrey Morton, Categorified algebra and quantum mechanics, Theory
 and Application of Categories 16 (2006), 785-854. Available at
 `http://www.emis.de/journals/TAC/volumes/16/29/16-29abs.html`; also
-available as [math.QA/0601458](http://xxx.lanl.gov/abs/math.QA/0601458).
+available as [math.QA/0601458](https://arxiv.org/abs/math.QA/0601458).
 
 14) Simon Byrne, On Groupoids and Stuff, honors thesis, Macquarie
 University, 2005, available at
@@ -475,7 +475,7 @@ Containing:
 > Tian Yu Cao, Structural realism and quantum gravity.
 >
 > John Stachel, Structure, individuality, and quantum gravity. Also
-> available as [`gr-qc/0507078`](http://xxx.lanl.gov/abs/gr-qc/0507078).
+> available as [`gr-qc/0507078`](https://arxiv.org/abs/gr-qc/0507078).
 >
 > Oliver Pooley, Points, particles, and structural realism. Also
 > available at `http://philsci-archive.pitt.edu/archive/00002939/`
@@ -488,11 +488,11 @@ Containing:
 > at `http://philsci-archive.pitt.edu/archive/00001845/`
 >
 > Lee Smolin, The case for background independence. Also available as
-> [`hep-th/0507235`](http://xxx.lanl.gov/abs/hep-th/0507235).
+> [`hep-th/0507235`](https://arxiv.org/abs/hep-th/0507235).
 >
 > John Baez, Quantum quandaries: A category-theoretic perspective. Also
 > available at `http://math.ucr.edu/home/baez/quantum/` and as
-> [quant-ph/0404040](http://xxx.lanl.gov/abs/quant-ph/0404040).
+> [quant-ph/0404040](https://arxiv.org/abs/quant-ph/0404040).
 
 Very loosely speaking - I ain't no philosopher - structural realism is
 the idea that what's "real" about mathematics, or the abstractions in

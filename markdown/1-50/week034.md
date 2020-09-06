@@ -98,7 +98,7 @@ workable should be a very interesting engineering problem, even if they
 are not good enough to outdo ordinary computers.
 
 4) "The Chern-Simons invariant as the natural time variable for classical and quantum cosmology", by Lee Smolin and Chopin Soo, 16 pages
-in LaTeX format, available as [`gr-qc/9405015`](http://xxx.lanl.gov/abs/gr-qc/9405015).
+in LaTeX format, available as [`gr-qc/9405015`](https://arxiv.org/abs/gr-qc/9405015).
 
 Let me just quote the abstract on this one:
 

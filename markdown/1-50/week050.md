@@ -22,7 +22,7 @@ cake. Seriously, he does seem to be making a serious effort to
 communicate the ideas in simple terms to us mere mortals, so it's worth
 looking at.
 
-2) Louis Crane and Igor Frenkel, "Four-dimensional topological quantum field theory, Hopf categories, and the canonical bases", _Jour. Math. Phys._ **35** (1994), 5136--5154. Also available as [`hep-th/9405183`](http://xxx.lanl.gov/abs/hep-th/9405183).
+2) Louis Crane and Igor Frenkel, "Four-dimensional topological quantum field theory, Hopf categories, and the canonical bases", _Jour. Math. Phys._ **35** (1994), 5136--5154. Also available as [`hep-th/9405183`](https://arxiv.org/abs/hep-th/9405183).
 
 I discussed this paper a wee bit in ["Week 38"](#week38). Now you
 can actually see the pictures. As we begin to understand $n$-categories

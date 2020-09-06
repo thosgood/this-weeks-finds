@@ -40,7 +40,7 @@ about a simple theory that mimics some of features of quantum mechanics:
 
 2) Evidence for the epistemic view of quantum states: a toy theory,
 Phys. Rev. A 75, 032110 (2007). Also available as
-[quant-ph/0401052](http://xxx.lanl.gov/abs/quant-ph/0401052).
+[quant-ph/0401052](https://arxiv.org/abs/quant-ph/0401052).
 
 The idea is to see how far you get using a very simple principle,
 namely: even when you know as much as you can, there's an equal amount
@@ -155,12 +155,12 @@ This fun paper by Bob Coecke gives another view of categories and
 quantum mechanics, coming from work on quantum information theory:
 
 4) Bob Coecke, Kindergarten quantum mechanics, available as
-[quant-ph/0510032](http://xxx.lanl.gov/abs/quant-ph/0510032).
+[quant-ph/0510032](https://arxiv.org/abs/quant-ph/0510032).
 
 To dig deeper, try these:
 
 5) Samson Abramsky and Bob Coecke, A categorical semantics of quantum
-protocols, [quant-ph/0402130](http://xxx.lanl.gov/abs/quant-ph/0402130).
+protocols, [quant-ph/0402130](https://arxiv.org/abs/quant-ph/0402130).
 
 6) Peter Selinger, Dagger compact closed categories and completely
 positive maps, available at
@@ -192,15 +192,15 @@ To learn about the convex set approach, try these papers:
 
 7) Howard Barnum, Quantum information processing, operational quantum
 logic, convexity, and the foundations of physics, available as
-[quant-ph/0304159](http://xxx.lanl.gov/abs/quant-ph/0304159).
+[quant-ph/0304159](https://arxiv.org/abs/quant-ph/0304159).
 
 8) Jonathan Barrett, Information processing in generalized
 probabilistic theories, available as
-[quant-ph/0508211](http://xxx.lanl.gov/abs/quant-ph/0508211).
+[quant-ph/0508211](https://arxiv.org/abs/quant-ph/0508211).
 
 9) Howard Barnum, Jonathan Barrett, Matthew Leifer and Alexander Wilce,
 Cloning and broadcasting in generic probabilistic theories, available as
-[quant-ph/0611295](http://xxx.lanl.gov/abs/quant-ph/0611295).
+[quant-ph/0611295](https://arxiv.org/abs/quant-ph/0611295).
 
 Actually I've been lying slightly: these papers also allow mixtures of
 states
@@ -314,7 +314,7 @@ fewer mixed states than we'd expect.
 This observation lurks behind axiom 4 in this paper:
 
 11) Lucien Hardy, Quantum theory from five reasonable axioms, available
-as [quant-ph/0101012](http://xxx.lanl.gov/abs/quant-ph/0101012).
+as [quant-ph/0101012](https://arxiv.org/abs/quant-ph/0101012).
 
 Another special way in which C is better than H or R is that only for a
 complex Hilbert space is there a correspondence between continuous
@@ -332,7 +332,7 @@ Phys. Acta 33, 727 (1960).
 This is a modern review:
 
 13) Jan Myrheim, Quantum mechanics on a real Hilbert space, available
-[quant-ph/9905037](http://xxx.lanl.gov/abs/quant-ph/9905037).
+[quant-ph/9905037](https://arxiv.org/abs/quant-ph/9905037).
 
 What I find most fascinating is the connection between real quantum
 mechanics and time reversal symmetry. In ordinary complex quantum

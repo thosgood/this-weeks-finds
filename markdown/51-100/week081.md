@@ -6,11 +6,11 @@ very same subject, namely loop groups and their central extensions. This
 is important in string theory. But first I want to say a bit about some
 very high-energy physics.
 
-1) D. J. Bird et al, "Detection of a cosmic ray with measured energy well beyond the expected spectral cutoff due to cosmic microwave radiation", preprint available as [`astro-ph/9410067`](http://xxx.lanl.gov/abs/astro-ph/9410067)
+1) D. J. Bird et al, "Detection of a cosmic ray with measured energy well beyond the expected spectral cutoff due to cosmic microwave radiation", preprint available as [`astro-ph/9410067`](https://arxiv.org/abs/astro-ph/9410067)
 
-P. Bhattacharjee and G. Sigl, "Monopole annihilation and highest energy cosmic rays", preprint available as [`astro-ph/9412053`](http://xxx.lanl.gov/abs/astro-ph/9412053).
+P. Bhattacharjee and G. Sigl, "Monopole annihilation and highest energy cosmic rays", preprint available as [`astro-ph/9412053`](https://arxiv.org/abs/astro-ph/9412053).
 
-R.J. Protheroe and P.A. Johnson, "Are topological defects responsible for the 300 EeV cosmic rays?", preprint available as [`astro-ph/9605006`](http://xxx.lanl.gov/abs/astro-ph/9605006).
+R.J. Protheroe and P.A. Johnson, "Are topological defects responsible for the 300 EeV cosmic rays?", preprint available as [`astro-ph/9605006`](https://arxiv.org/abs/astro-ph/9605006).
 
 In 1994, folks at the Fly's Eye air shower detector in Utah observed a
 cosmic ray whose energy was about 320 EeV. In case you forget what an

@@ -90,7 +90,7 @@ One might also want to check out the:
 Lists: Send e-mail to `ann@cni.org` at the Association of Research
 Libraries, +1 (202) 296-2296, fax +1 (202) 872 0884.
 
-2) "Monopoles and four-manifolds", by Edward Witten, preprint available as [`hep-th/9411102`](http://xxx.lanl.gov/abs/hep-th/9411102).
+2) "Monopoles and four-manifolds", by Edward Witten, preprint available as [`hep-th/9411102`](https://arxiv.org/abs/hep-th/9411102).
 
     "The genus of embedded surfaces in the projective plane", by P. B. Kronheimer and T. S. Mrowka, preprint number `#19941128001`, available from the AMS preprint server under subject 57 in the Mathematical Reviews Subject Classification Scheme.
 
@@ -139,9 +139,9 @@ this case, in more of a physicist's style. This makes spin networks
 into a practical computational tool in quantum gravity, used to great
 effect in the paper on the discreteness of area and volume.
 
-4) "Recent mathematical developments in quantum general relativity", by Abhay Ashtekar, 14 pages in TeX format available as [`gr-qc/9411055`](http://xxx.lanl.gov/abs/gr-qc/9411055) (discussed in ["Week 37"](#week37)).
+4) "Recent mathematical developments in quantum general relativity", by Abhay Ashtekar, 14 pages in TeX format available as [`gr-qc/9411055`](https://arxiv.org/abs/gr-qc/9411055) (discussed in ["Week 37"](#week37)).
 
-    "Coherent state transforms for spaces of connections", by Abhay Ashtekar, Jerzy Lewandowski, Donald Marolf, Jose Mourao and Thomas Thiemann, 38 pages in LaTeX format, available as [`gr-qc/9412014`](http://xxx.lanl.gov/abs/gr-qc/9412014) (discussed in ["Week 43"](#week43)).
+    "Coherent state transforms for spaces of connections", by Abhay Ashtekar, Jerzy Lewandowski, Donald Marolf, Jose Mourao and Thomas Thiemann, 38 pages in LaTeX format, available as [`gr-qc/9412014`](https://arxiv.org/abs/gr-qc/9412014) (discussed in ["Week 43"](#week43)).
 
 These are two papers on the loop representation of quantum gravity which
 I talked about in earlier "finds", and are out now. The former is a
@@ -149,7 +149,7 @@ nice review of recent mathematically rigorous work; the latter takes a
 tremendous step towards handling the infamous "reality conditions"
 problem.
 
-5) "Differential geometry on the space of connections via graphs and projective limits", by Abhay Ashtekar and Jerzy Lewandowski, 54 pages in LaTeX format, available as [`hep-th/9412073`](http://xxx.lanl.gov/abs/hep-th/9412073).
+5) "Differential geometry on the space of connections via graphs and projective limits", by Abhay Ashtekar and Jerzy Lewandowski, 54 pages in LaTeX format, available as [`hep-th/9412073`](https://arxiv.org/abs/hep-th/9412073).
 
 I've spoken quite a bit about doing rigorous functional *integration*
 in gauge theory using ideas from the loop representation; this paper
@@ -188,7 +188,7 @@ invariant theories such as quantum general relativity.
 
 ------------------------------------------------------------------------
 
-6) "Edge states in gravity and black hole physics", by A. P. Balachandran, L. Chandar, Arshad Momen, 22 pages in RevTeX format, available as [`gr-qc/9412019`](http://xxx.lanl.gov/abs/gr-qc/9412019).
+6) "Edge states in gravity and black hole physics", by A. P. Balachandran, L. Chandar, Arshad Momen, 22 pages in RevTeX format, available as [`gr-qc/9412019`](https://arxiv.org/abs/gr-qc/9412019).
 
 Ever since it started seeming that black holes have an entropy closely
 related to (and often proportional to) the area of their event horizons,
@@ -241,7 +241,7 @@ part of the plan here is to understand better the relation between
 quantum gravity, TQFTs, and higher-dimensional algebra. Along these
 lines, a very interesting new paper has come out:
 
-8) "On algebraic structures implicit in topological quantum field theories", by Louis Crane and David Yetter, 13 pages in LaTeX format, available as [`hep-th/9412025`](http://xxx.lanl.gov/abs/hep-th/9412025), figures available by request.
+8) "On algebraic structures implicit in topological quantum field theories", by Louis Crane and David Yetter, 13 pages in LaTeX format, available as [`hep-th/9412025`](https://arxiv.org/abs/hep-th/9412025), figures available by request.
 
 This makes more precise some of Louis Crane's ideas on
 "categorification". Nice TQFTs in 3 dimensions have a lot to do with
@@ -289,15 +289,15 @@ quaternions. This group is the gauge group of the Standard Model! Lambek
 modestly says that there does not appear to be any significance to this
 coincidence... but it *would* be nice, wouldn't it?
 
-12) "The life and times of Emmy Noether; contributions of E. Noether to particle physics", by Nina Byers, 32 pages in RevTeX format, available as [`hep-th/9411110`](http://xxx.lanl.gov/abs/hep-th/9411110).
+12) "The life and times of Emmy Noether; contributions of E. Noether to particle physics", by Nina Byers, 32 pages in RevTeX format, available as [`hep-th/9411110`](https://arxiv.org/abs/hep-th/9411110).
 
-    "Reminiscences about many pitfalls and some successes of QFT within the last three decades", by B. Schroer, 52 pages, 'shar'-shell-archiv, consisting of 5 files, available as [`hep-th/9410085`](http://xxx.lanl.gov/abs/hep-th/9410085).
+    "Reminiscences about many pitfalls and some successes of QFT within the last three decades", by B. Schroer, 52 pages, 'shar'-shell-archiv, consisting of 5 files, available as [`hep-th/9410085`](https://arxiv.org/abs/hep-th/9410085).
 
-    "My encounters --- as a physicist --- with mathematics, R. Jackiw", 13 pages in LaTeX format, available as [`hep-th/9410151`](http://xxx.lanl.gov/abs/hep-th/9410151).
+    "My encounters --- as a physicist --- with mathematics, R. Jackiw", 13 pages in LaTeX format, available as [`hep-th/9410151`](https://arxiv.org/abs/hep-th/9410151).
 
 These are some interesting historical/biographical pieces.
 
-13) "Speedup in quantum computation is associated with attenuation of processing probability", by Karl Svozil, available as [`hep-th/9412046`](http://xxx.lanl.gov/abs/hep-th/9412046).
+13) "Speedup in quantum computation is associated with attenuation of processing probability", by Karl Svozil, available as [`hep-th/9412046`](https://arxiv.org/abs/hep-th/9412046).
 
 The subject of quantum computation has become more lively recently. I
 haven't had time to look at this paper, but quoting the abstract:

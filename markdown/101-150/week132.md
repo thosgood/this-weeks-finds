@@ -3,7 +3,7 @@
 Today I want to talk about $n$-categories and quantum gravity again. For
 starters let me quote from a paper of mine about this stuff:
 
-1) John Baez, "Higher-dimensional algebra and Planck-scale physics", to appear in _Physics Meets Philosophy at the Planck Scale_, eds. Craig Callender and Nick Huggett, Cambridge U. Press. Preprint available as [`gr-qc/9902017`](http://xxx.lanl.gov/abs/gr-qc/9902017).
+1) John Baez, "Higher-dimensional algebra and Planck-scale physics", to appear in _Physics Meets Philosophy at the Planck Scale_, eds. Craig Callender and Nick Huggett, Cambridge U. Press. Preprint available as [`gr-qc/9902017`](https://arxiv.org/abs/gr-qc/9902017).
 
 By the way, this book should be pretty fun to read --- it'll contain
 papers by both philosophers and physicists, including a bunch who have
@@ -259,7 +259,7 @@ all these techniques. So it's worth re-evaluating Peirce's work and
 seeing how it fits into the picture. And this is what the papers by
 Brady and Trimble do!
 
-3) J. Scott Carter, Louis H. Kauffman, and Masahico Saito, "Structures and diagrammatics of four dimensional topological lattice field theories", to appear in _Adv. Math._, preprint available as [`math.GT/9806023`](http://xxx.lanl.gov/abs/math.GT/9806023).
+3) J. Scott Carter, Louis H. Kauffman, and Masahico Saito, "Structures and diagrammatics of four dimensional topological lattice field theories", to appear in _Adv. Math._, preprint available as [`math.GT/9806023`](https://arxiv.org/abs/math.GT/9806023).
 
 We can get 3-dimensional topological quantum field theories from certain
 Hopf algebras. As I described in ["Week 38"](#week38), Crane and
@@ -268,7 +268,7 @@ should get 4-dimensional TQFTs from certain Hopf categories. This paper
 makes the suggestion precise in a certain class of examples! Basically
 these are categorified versions of the Dijkgraaf-Witten theory.
 
-4) J. Scott Carter, Daniel Jelsovsky, Selichi Kamada, Laurel Langford and Masahico Saito, "Quandle cohomology and state-sum invariants of knotted curves and surfaces", preprint available as [`math.GT/9903135`](http://xxx.lanl.gov/abs/math.GT/9903135).
+4) J. Scott Carter, Daniel Jelsovsky, Selichi Kamada, Laurel Langford and Masahico Saito, "Quandle cohomology and state-sum invariants of knotted curves and surfaces", preprint available as [`math.GT/9903135`](https://arxiv.org/abs/math.GT/9903135).
 
 Yet another attack on higher dimensions! This one gets invariants of
 2-links --- surfaces embedded in $\mathbb{R}^4$ --- from the cohomology groups of
@@ -291,7 +291,7 @@ their definition of $n$-categories. For more on their work see
 ["Week 107"](#week107).
 
 7) Carlos Simpson, "On the Breen-Baez-Dolan stabilization hypothesis for Tamsamani's weak $n$-categories", preprint available as
-[`math.CT/9810058`](http://xxx.lanl.gov/abs/math.CT/9810058).
+[`math.CT/9810058`](https://arxiv.org/abs/math.CT/9810058).
 
 For quite a while now James Dolan and I have been talking about
 something we call the "stabilization hypothesis". I gave an
@@ -327,7 +327,7 @@ Speaking of that kind of thing, the technique of model categories is
 really important for homotopy theory and $n$-categories, and this book is
 a really great place to learn about it.
 
-9) Frank Quinn, _Group-categories_, preprint available as [`math.GT/9811047`](http://xxx.lanl.gov/abs/math.GT/9811047).
+9) Frank Quinn, _Group-categories_, preprint available as [`math.GT/9811047`](https://arxiv.org/abs/math.GT/9811047).
 
 This one is about the algebra behind certain topological quantum field
 theories. I'll just quote the abstract:

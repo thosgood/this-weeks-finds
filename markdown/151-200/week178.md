@@ -25,13 +25,13 @@ to systematize the subject. Right now there are over a dozen definitions
 of "$n$-category", and your only guide through the jungle is this paper:
 
 2) Tom Leinster, A survey of definitions of $n$-category, available at
-[math.CT/0107188](http://xxx.lanl.gov/abs/math.CT/0107188).
+[math.CT/0107188](https://arxiv.org/abs/math.CT/0107188).
 
 Luckily, a lot of people want to use ideas from homotopy theory to prove
 all these definitions are "the same in a way". Here's one strategy:
 
 3) Carlos Simpson, Some properties of the theory of $n$-categories,
-available at [math.CT/0110273](http://xxx.lanl.gov/abs/math.CT/0110273).
+available at [math.CT/0110273](https://arxiv.org/abs/math.CT/0110273).
 
 It will take a lot of work, but the final answer will probably be really
 nice.

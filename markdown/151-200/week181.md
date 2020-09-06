@@ -28,7 +28,7 @@ For details, see:
 1) Alain Chenciner and Richard Montgomery, A remarkable periodic
 solution of the three-body problem in the case of equal masses, Ann. of
 Math. 152 (2000), 881-901. Also available as
-[math.DS/0011268](http://xxx.lanl.gov/abs/math.DS/0011268).
+[math.DS/0011268](https://arxiv.org/abs/math.DS/0011268).
 
 For a more popular account see:
 

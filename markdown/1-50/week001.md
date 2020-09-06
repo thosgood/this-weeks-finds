@@ -118,7 +118,7 @@ be Louis Crane who is most strongly proclaiming the importance of
 2) _Knot theory and quantum gravity in loop space: a primer_, by Jorge
 Pullin, to appear in "Proc. of the Vth Mexican School of Particles and
 Fields," ed. J. L. Lucio, World Scientific, Singapore, now available as
-[`hep-th/9301028`](http://xxx.lanl.gov/abs/hep-th/9301028).
+[`hep-th/9301028`](https://arxiv.org/abs/hep-th/9301028).
 
 This is a review of the new work on knot theory and the loop
 representation of quantum gravity. Pullin is among a group who has been
@@ -142,7 +142,7 @@ recently.
 
 3) "Time, measurement and information loss in quantum cosmology", by Lee
 Smolin, preprint now available as
-[`gr-qc/9301016`](http://xxx.lanl.gov/abs/gr-qc/9301016).
+[`gr-qc/9301016`](https://arxiv.org/abs/gr-qc/9301016).
 
 This is, as usual for Smolin, a very ambitious paper. It attempts to
 sketch a solution of some aspects of the problem of time in quantum

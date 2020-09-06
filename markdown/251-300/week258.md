@@ -148,7 +148,7 @@ required to simulate the motion of this dust:
 
 7) A. T. Deller and S. T. Maddison, Numerical modelling of dusty debris
 disks, Astrophys. J. 625 (2005), 398-413. Also available as
-[`arXiv:astro-ph/0502135`](http://xxx.lanl.gov/abs/astro-ph/0502135)
+[`arXiv:astro-ph/0502135`](https://arxiv.org/abs/astro-ph/0502135)
 
 Okay... now for a bit about Hochschild cohomology. I want to outline a
 conceptual proof of Deligne's conjecture that the cochain complex for

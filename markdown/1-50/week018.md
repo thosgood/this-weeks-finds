@@ -15,7 +15,7 @@ describing what I did over my summer vacation:
 
 1) "Strings, loops, knots, and gauge fields", by John Baez, preprint
 available in LaTeX form as
-[`hep-th/9309067`](http://xxx.lanl.gov/abs/hep-th/9309067), 34 pages.
+[`hep-th/9309067`](https://arxiv.org/abs/hep-th/9309067), 34 pages.
 
 When I tell layfolk that I'm working on the loop representation of
 quantum gravity, and try to describe its relation to knot theory, I

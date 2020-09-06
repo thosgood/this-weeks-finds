@@ -8,7 +8,7 @@ Milky Way is surrounded by an enormous halo of dark matter, which may be
 First clear signature of an extended dark matter halo in the Draco dwarf
 spheroidal, Astrophysical Journal Letters 563 (2001), L115-118. Also
 available at
-[`astro-ph/0111329`](http://xxx.lanl.gov/abs/astro-ph/0111329).
+[`astro-ph/0111329`](https://arxiv.org/abs/astro-ph/0111329).
 
 This just emphasizes a well-known fact: "dark matter" is one of the
 biggest mysteries in physics today. Unless we're mixed up, which is
@@ -200,17 +200,17 @@ Second, a nice easy review article on dark matter:
 
 10) Shaaban Khalil and Carlos Munoz, The enigma of the dark matter, to
 appear in Contemp. Phys., also available at
-[hep-ph/0110122](http://xxx.lanl.gov/abs/hep-ph/0110122).
+[hep-ph/0110122](https://arxiv.org/abs/hep-ph/0110122).
 
 Third, two articles surveying candidates for what dark matter might be:
 neutralinos, axions, axinos, gravitinos, MACHOs - you name it!
 
 11) Leszek Roszkowski, Non-baryonic dark matter, available as
-[hep-ph/0102327](http://xxx.lanl.gov/abs/hep-ph/0102327).
+[hep-ph/0102327](https://arxiv.org/abs/hep-ph/0102327).
 
 12) B. J. Carr, Recent developments in the search for baryonic dark
 matter, available as
-[`astro-ph/0102389`](http://xxx.lanl.gov/abs/astro-ph/0102389).
+[`astro-ph/0102389`](https://arxiv.org/abs/astro-ph/0102389).
 
 Okay, now on to something more mathematical....
 
@@ -220,7 +220,7 @@ sci.phyics.research. This is a good introduction:
 
 13) V. C. de Andrade, L. C. T. Guillen and J. G. Pereira, Teleparallel
 gravity: an overview, available at
-[`gr-qc/0011087`](http://xxx.lanl.gov/abs/gr-qc/0011087).
+[`gr-qc/0011087`](https://arxiv.org/abs/gr-qc/0011087).
 
 In ordinary general relativity, you describe the gravitational field
 using a "metric": a field that lets you measure times, distances and
@@ -454,7 +454,7 @@ where you'd actually want to see them here. The prettiest formula for
 the Lagrangian shows up in this paper:
 
 14) Yakov Itin, Energy-momentum current for coframe gravity, available
-as [`gr-qc/0111036`](http://xxx.lanl.gov/abs/gr-qc/0111036).
+as [`gr-qc/0111036`](https://arxiv.org/abs/gr-qc/0111036).
 
 Up to a constant factor, it looks like this:
 

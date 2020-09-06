@@ -59,7 +59,7 @@ feel happy when everything is \*blindingly obvious\* (to them, that is,
 not you), have continued to seek the most beautiful, elegant way of
 getting at them.
 
-1) "Quantum groups from path integrals", by Daniel Freed, preprint, 41 pages in AMSTeX 2.1 format available as [`q-alg/9501025`](http://xxx.lanl.gov/abs/q-alg/9501025).
+1) "Quantum groups from path integrals", by Daniel Freed, preprint, 41 pages in AMSTeX 2.1 format available as [`q-alg/9501025`](https://arxiv.org/abs/q-alg/9501025).
 
 This is a nice expository treatment of the work of Free and Quinn on
 topological quantum field theories, particularly Chern-Simons theory
@@ -133,7 +133,7 @@ and Schomerus were able to get at quantum groups quite directly from
 deformation quantization of moduli space, though there are a few
 important points left to nail down:
 
-5) "Combinatorial quantization of the Hamiltonian Chern-Simons theory, I & II", by Yu. Alekseev, H. Grosse, and V. Schomerus, [`hep-th/9403066`](http://xxx.lanl.gov/abs/hep-th/9403066) and [`hep-th/9408097`](http://xxx.lanl.gov/abs/hep-th/9408097).
+5) "Combinatorial quantization of the Hamiltonian Chern-Simons theory, I & II", by Yu. Alekseev, H. Grosse, and V. Schomerus, [`hep-th/9403066`](https://arxiv.org/abs/hep-th/9403066) and [`hep-th/9408097`](https://arxiv.org/abs/hep-th/9408097).
 
 In fact Schomerus told me about this while I was in Cambridge Mass. over
 Christmas, but somehow I didn't pick up on the coolest thing about it,

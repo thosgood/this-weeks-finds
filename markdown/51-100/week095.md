@@ -268,7 +268,7 @@ it.
 Anyway, the 10-dimensional even unimodular Lorentzian lattice is pretty
 neat and has attracted some attention in string theory:
 
-7) Reinhold W. Gebert and Hermann Nicolai, "$\mathrm{E}_10$ for beginners", preprint available as [`hep-th/9411188`](http://xxx.lanl.gov/abs/hep-th/9411188)
+7) Reinhold W. Gebert and Hermann Nicolai, "$\mathrm{E}_10$ for beginners", preprint available as [`hep-th/9411188`](https://arxiv.org/abs/hep-th/9411188)
 
 but the 26-dimensional one is even more neat. In particular, thanks to
 the cannonball trick of Lucas, the vector
@@ -287,12 +287,12 @@ unimodular lattice, we get a theory having lots of symmetries related to
 those of the Leech lattice. In some sense this is a "maximally
 symmetric" approach to 26-dimensional bosonic string theory:
 
-8) Gregory Moore, "Finite in all directions", preprint available as [`hep-th/9305139`](http://xxx.lanl.gov/abs/hep-th/9305139).
+8) Gregory Moore, "Finite in all directions", preprint available as [`hep-th/9305139`](https://arxiv.org/abs/hep-th/9305139).
 
 Indeed, the Monster group is lurking around as a symmetry group here!
 For a physics-flavored introduction to that aspect, try:
 
-9) Reinhold W. Gebert, "Introduction to vertex algebras, Borcherds algebras, and the Monster Lie algebra", preprint available as [`hep-th/9308151`](http://xxx.lanl.gov/abs/hep-th/9308151)
+9) Reinhold W. Gebert, "Introduction to vertex algebras, Borcherds algebras, and the Monster Lie algebra", preprint available as [`hep-th/9308151`](https://arxiv.org/abs/hep-th/9308151)
 
 and for a detailed mathematical tour see:
 
@@ -423,4 +423,4 @@ inconsistent.
 **Yet another addendum (August 2001):** now, with the rise of interest
 in 11-dimensional physics, there is even a paper on $\mathrm{E}_{11}$:
 
-12) P. West, $\mathrm{E}_{11}$ and M-theory, available as [`hep-th/0104081`](http://xxx.lanl.gov/abs/hep-th/0104081).
+12) P. West, $\mathrm{E}_{11}$ and M-theory, available as [`hep-th/0104081`](https://arxiv.org/abs/hep-th/0104081).

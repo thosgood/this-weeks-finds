@@ -25,9 +25,9 @@ stellar velocities in the galaxy:
 1) John Kormendy, "Monsters at the heart of galaxy formation", _Science_ **289** (2000), 1484--1485. Available online at `http://www.sciencemag.org/cgi/content/full/289/5484/1484`
 
 2) Laura Ferrarese and David Merritt, "A fundamental relation between supermassive black holes and their host galaxies", _Astrophys. J. Lett._
-**539**, (2000) L9, preprint available as [`astro-ph/0006053`](http://xxx.lanl.gov/abs/astro-ph/0006053).
+**539**, (2000) L9, preprint available as [`astro-ph/0006053`](https://arxiv.org/abs/astro-ph/0006053).
 
-3) Karl Gebhardt et al, "A relationship between nuclear black hole mass and galaxy velocity dispersion", _Astrophys. J. Lett._ **539**, (2000) L13, preprint available as [`astro-ph/0006289`](http://xxx.lanl.gov/abs/astro-ph/0006289).
+3) Karl Gebhardt et al, "A relationship between nuclear black hole mass and galaxy velocity dispersion", _Astrophys. J. Lett._ **539**, (2000) L13, preprint available as [`astro-ph/0006289`](https://arxiv.org/abs/astro-ph/0006289).
 
 Tight correlations are a bit rare in astrophysics, so they tend to be
 important when they exist. If you look at a graph you'll see how nice
@@ -55,12 +55,12 @@ they examined:
 
 5) Ed Colbert's homepage, `http://www.pha.jhu.edu/~colbert/`
 
-    E. J. M. Colbert and R. F. Mushotzky, "The nature of accreting black holes in nearby galaxy nuclei", preprint available as [`astro-ph/9901023`](http://xxx.lanl.gov/abs/astro-ph/9901023).
+    E. J. M. Colbert and R. F. Mushotzky, "The nature of accreting black holes in nearby galaxy nuclei", preprint available as [`astro-ph/9901023`](https://arxiv.org/abs/astro-ph/9901023).
 
 Ptak and Griffiths found a black hole of over 460 solar masses in an
 irregular galaxy called M82:
 
-6) A. Ptak, R. Griffiths, "Hard X-ray variability in M82: evidence for a nascent AGN?", preprint available as [`astro-ph/9903372`](http://xxx.lanl.gov/abs/astro-ph/9903372).
+6) A. Ptak, R. Griffiths, "Hard X-ray variability in M82: evidence for a nascent AGN?", preprint available as [`astro-ph/9903372`](https://arxiv.org/abs/astro-ph/9903372).
 
 This is a "starburst galaxy", meaning that it's full of supernovae
 going off like a big firework display. When a star dies in a supernova

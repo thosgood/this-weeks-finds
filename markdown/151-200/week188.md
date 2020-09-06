@@ -535,7 +535,7 @@ field "B" which is similar in some ways to the magnetic field. For an
 overview of this with lots of references try:
 
 4) Richard Szabo, Quantum field theory on noncommutative spaces,
-available as [`hep-th/0109162`](http://xxx.lanl.gov/abs/hep-th/0109162).
+available as [`hep-th/0109162`](https://arxiv.org/abs/hep-th/0109162).
 
 On the other hand, if you're more of a pure mathematician you might
 like this:

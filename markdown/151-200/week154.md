@@ -9,7 +9,7 @@ computation will ever be practical, but it's certainly worth checking
 out. Quantum cryptography is well on its way --- though people are busy
 arguing just *how* practical it will be:
 
-1) Hoi-Kwong Lo, "Will quantum cryptography ever become a successful technology in the marketplace?", preprint available as [`quant-ph/9912011`](http://xxx.lanl.gov/abs/quant-ph/9912011)
+1) Hoi-Kwong Lo, "Will quantum cryptography ever become a successful technology in the marketplace?", preprint available as [`quant-ph/9912011`](https://arxiv.org/abs/quant-ph/9912011)
 
 It seems that both quantum computation and quantum cryptography are
 becoming part of a bigger subject, perhaps called "quantum information
@@ -49,13 +49,13 @@ papers most cited by preprints on hep-th during the year 1999.
 Here they are, from the top-cited one on down:
 
 3) Juan Maldacena, "The large $N$ limit of superconformal field theories and supergravity", _Adv. Theor. Math. Phys._ **2** (1998) 231--252, preprint
-available as [`hep-th/9711200`](http://xxx.lanl.gov/abs/hep-th/9711200).
+available as [`hep-th/9711200`](https://arxiv.org/abs/hep-th/9711200).
 
 This one launched the "AdS-CFT" craze, by pointing out an interesting
 relation between supergravity on anti-DeSitter spacetime and conformal
 field theories on its "boundary at infinity".
 
-4) Nathan Seiberg and Edward Witten, "Electric-magnetic duality, monopole condensation, and confinement in $N=2$ supersymmetric Yang-Mills theory", _Nucl. Phys._ **B426** (1994) 19--52, preprint available as [`hep-th/9407087`](http://xxx.lanl.gov/abs/hep-th/9407087).
+4) Nathan Seiberg and Edward Witten, "Electric-magnetic duality, monopole condensation, and confinement in $N=2$ supersymmetric Yang-Mills theory", _Nucl. Phys._ **B426** (1994) 19--52, preprint available as [`hep-th/9407087`](https://arxiv.org/abs/hep-th/9407087).
 
 This one is ancient history by now, but it's still near the top of the
 list! For mathematicians, this paper marked the birth of Seiberg-Witten
@@ -66,7 +66,7 @@ growing importance of "dualities" relating seemingly different
 physical theories --- of which the AdS-CFT craze is a more recent
 outgrowth.
 
-5) Edward Witten, "String theory dynamics in various dimensions", _Nucl. Phys._ **B443** (1995) 85--126, preprint available as [`hep-th/9503124`](http://xxx.lanl.gov/abs/hep-th/9503124).
+5) Edward Witten, "String theory dynamics in various dimensions", _Nucl. Phys._ **B443** (1995) 85--126, preprint available as [`hep-th/9503124`](https://arxiv.org/abs/hep-th/9503124).
 
 This paper was also important in the quest to understand dualities:
 among other things, it argued that the type IIA superstring in 10
@@ -76,37 +76,37 @@ as I described in ["Week 118"](#week118), this helped lead to the
 search for "M-theory", of which 11-dimensional supergravity is hoped
 to be a low-energy limit.
 
-6) Edward Witten, "Anti-DeSitter space and holography", _Adv. Theor. Math. Phys._ **2** (1998) 253--291, preprint available as [`hep-th/9802150`](http://xxx.lanl.gov/abs/hep-th/9802150).
+6) Edward Witten, "Anti-DeSitter space and holography", _Adv. Theor. Math. Phys._ **2** (1998) 253--291, preprint available as [`hep-th/9802150`](https://arxiv.org/abs/hep-th/9802150).
 
 More on the AdS-CFT business.
 
-7) S. S. Gubser, I. R. Klebanov, and A. M. Polyakov, "Gauge theory correlators from noncritical string theory", _Phys. Lett._ **B428** (1998) 105--114, preprint available as [`hep-th/9802109`](http://xxx.lanl.gov/abs/hep-th/9802109).
+7) S. S. Gubser, I. R. Klebanov, and A. M. Polyakov, "Gauge theory correlators from noncritical string theory", _Phys. Lett._ **B428** (1998) 105--114, preprint available as [`hep-th/9802109`](https://arxiv.org/abs/hep-th/9802109).
 
 Still more on the AdS-CFT business.
 
-8) Joseph Polchinski, "Dirichlet branes and Ramond-Ramond charges", _Phys. Rev. Lett._ **75** (1995) 4724--4727, preprint available as [`hep-th/9510017`](http://xxx.lanl.gov/abs/hep-th/9510017).
+8) Joseph Polchinski, "Dirichlet branes and Ramond-Ramond charges", _Phys. Rev. Lett._ **75** (1995) 4724--4727, preprint available as [`hep-th/9510017`](https://arxiv.org/abs/hep-th/9510017).
 
 This helped launch the D-brane revolution: the realization that when we
 take nonperturbative effects into account, open strings seem to have
 their ends "stuck" on higher-dimensional surfaces called D-branes.
 
-9) Nathan Seiberg and Edward Witten, "Monopoles, duality and chiral symmetry breaking in $N=2$ supersymmetric QCD", _Nucl. Phys._ **B431** (1994) 484--550, preprint available as [`hep-th/9408099`](http://xxx.lanl.gov/abs/hep-th/9408099).
+9) Nathan Seiberg and Edward Witten, "Monopoles, duality and chiral symmetry breaking in $N=2$ supersymmetric QCD", _Nucl. Phys._ **B431** (1994) 484--550, preprint available as [`hep-th/9408099`](https://arxiv.org/abs/hep-th/9408099).
 
 More on what's now called Seiberg-Witten theory.
 
-10) T. Banks, W. Fischler, S. H. Shenker, and L. Susskind, "M-theory as a matrix model: a conjecture", _Phys. Rev._ **D55** (1997), 5112--5128, preprint available as [`hep-th/9610043`](http://xxx.lanl.gov/abs/hep-th/9610043).
+10) T. Banks, W. Fischler, S. H. Shenker, and L. Susskind, "M-theory as a matrix model: a conjecture", _Phys. Rev._ **D55** (1997), 5112--5128, preprint available as [`hep-th/9610043`](https://arxiv.org/abs/hep-th/9610043).
 
 This was an attempt to given an explicit formulation for M-theory in
 terms of a matrix model.
 
 11) C. M. Hull and P. K. Townsend, "Unity of superstring dualities", _Nucl. Phys._ **B438** (1995) 109--137, preprint available as
-[`hep-th/9410167`](http://xxx.lanl.gov/abs/hep-th/9410167).
+[`hep-th/9410167`](https://arxiv.org/abs/hep-th/9410167).
 
 More about dualities, obviously! (But also some stuff about the
 exceptional Lie group $\mathrm{E}_7$, which is bound to tickle the fancy of any
 exceptionologist.)
 
-12) Edward Witten, "Bound states of strings and $p$-branes", _Nucl. Phys._ **B460** (1996), 335--350, preprint available as [`hep-th/9510135`](http://xxx.lanl.gov/abs/hep-th/9510135).
+12) Edward Witten, "Bound states of strings and $p$-branes", _Nucl. Phys._ **B460** (1996), 335--350, preprint available as [`hep-th/9510135`](https://arxiv.org/abs/hep-th/9510135).
 
 More on D-branes.
 
@@ -212,29 +212,29 @@ In response to my list of most-cited papers, Aaron Bergman suggested the
 following 261-page review article on the AdS-CFT correspondence:
 
 19) O. Aharony, S. S. Gubser, J. Maldacena, H. Ooguri and Y. Oz, "Large $N$ field theories, string theory and gravity", _Phys. Rept._ **323** (2000)
-183--386, preprint available as [`hep-th/9905111`](http://xxx.lanl.gov/abs/hep-th/9905111).
+183--386, preprint available as [`hep-th/9905111`](https://arxiv.org/abs/hep-th/9905111).
 
 For a similarly enormous review article on D-branes, try:
 
-20) Clifford V. Johnson, "D-brane primer", preprint available as [`hep-th/0007170`](http://xxx.lanl.gov/abs/hep-th/0007170).
+20) Clifford V. Johnson, "D-brane primer", preprint available as [`hep-th/0007170`](https://arxiv.org/abs/hep-th/0007170).
 
 Finally, it turns out that manifolds with $\mathrm{G}_2$ holonomy *are* important in
 superstring theory, where they go by the name of "Joyce manifolds".
 Here are some places to read about them:
 
-21) G. Papadopoulos and P. K. Townsend, "Compactification of $D=11$ supergravity on spaces of exceptional holonomy", preprint available as [`hep-th/9506150`](http://xxx.lanl.gov/abs/hep-th/9506150).
+21) G. Papadopoulos and P. K. Townsend, "Compactification of $D=11$ supergravity on spaces of exceptional holonomy", preprint available as [`hep-th/9506150`](https://arxiv.org/abs/hep-th/9506150).
 
-22) B. S. Acharya, "$N=1$ heterotic-supergravity duality and Joyce manifolds", preprint available as [`hep-th/9508046`](http://xxx.lanl.gov/abs/hep-th/9508046).
+22) B. S. Acharya, "$N=1$ heterotic-supergravity duality and Joyce manifolds", preprint available as [`hep-th/9508046`](https://arxiv.org/abs/hep-th/9508046).
 
-    "$N=1$ heterotic/M-theory duality and Joyce manifolds", preprint available as [`hep-th/9603033`](http://xxx.lanl.gov/abs/hep-th/9603033).
+    "$N=1$ heterotic/M-theory duality and Joyce manifolds", preprint available as [`hep-th/9603033`](https://arxiv.org/abs/hep-th/9603033).
 
-    "$N=1$ M-theory-heterotic duality in three dimensions and Joyce manifolds", preprint available as [`hep-th/9604133`](http://xxx.lanl.gov/abs/hep-th/9604133).
+    "$N=1$ M-theory-heterotic duality in three dimensions and Joyce manifolds", preprint available as [`hep-th/9604133`](https://arxiv.org/abs/hep-th/9604133).
 
-    "Dirichlet Joyce manifolds, discrete torsion and duality", preprint available as [`hep-th/9611036`](http://xxx.lanl.gov/abs/hep-th/9611036).
+    "Dirichlet Joyce manifolds, discrete torsion and duality", preprint available as [`hep-th/9611036`](https://arxiv.org/abs/hep-th/9611036).
 
-    "M theory, Joyce orbifolds and super Yang-Mills", preprint available as [`hep-th/9812205`](http://xxx.lanl.gov/abs/hep-th/9812205).
+    "M theory, Joyce orbifolds and super Yang-Mills", preprint available as [`hep-th/9812205`](https://arxiv.org/abs/hep-th/9812205).
 
-23) Chien-Hao Liu, "On the global structure of some natural fibrations of Joyce manifolds", preprint available as [`hep-th/9809007`](http://xxx.lanl.gov/abs/hep-th/9809007).
+23) Chien-Hao Liu, "On the global structure of some natural fibrations of Joyce manifolds", preprint available as [`hep-th/9809007`](https://arxiv.org/abs/hep-th/9809007).
 
 I learned this thanks to Allen Knutson and Paul Schocklee. Paul also had
 the following interesting comments:
@@ -266,7 +266,7 @@ the following interesting comments:
 
 > If you're interested, you might want to check out Papadopoulos and Townsend,
 > "Compactification of D=11 supergravity on spaces of exceptional holonomy,"
-> http://xxx.lanl.gov/abs/hep-th/9506150.
+> https://arxiv.org/abs/hep-th/9506150.
 
 > --
 > Paul Shocklee

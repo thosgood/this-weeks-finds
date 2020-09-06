@@ -177,7 +177,7 @@ Apparently not! The following papers explain what's going on:
 
 4) Corinne A. Manogue and Joerg Schray, "Finite Lorentz transformations automorphisms, and division algebras", _Jour. Math. Phys._ **34** (1993), 3746--3767.
 
-    Corinne A. Manogue and Joerg Schray, "Octonionic representations of Clifford algebras and triality", preprint available as [`hep-th/9407179`](http://xxx.lanl.gov/abs/hep-th/9407179).
+    Corinne A. Manogue and Joerg Schray, "Octonionic representations of Clifford algebras and triality", preprint available as [`hep-th/9407179`](https://arxiv.org/abs/hep-th/9407179).
 
 5) Anthony Sudbery, "Division algebras, (pseudo)orthogonal groups and spinors", _Jour. Phys. A_ **17** (1984), 939--955.
 

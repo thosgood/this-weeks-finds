@@ -24,7 +24,7 @@ the new burst of interest in spin foams. Nothing very technical --- but
 good if you're just getting started. If you want something more
 detailed, but still user-friendly, try Rovelli's new paper:
 
-2) Carlo Rovelli and Peush Upadhya, "Loop quantum gravity and quanta of space: a primer", preprint available as [`gr-qc/9806079`](http://xxx.lanl.gov/abs/gr-qc/9806079).
+2) Carlo Rovelli and Peush Upadhya, "Loop quantum gravity and quanta of space: a primer", preprint available as [`gr-qc/9806079`](https://arxiv.org/abs/gr-qc/9806079).
 
 I haven't read it yet, since I'm still in a rather low-tech portion of
 the globe, but it gives simplified derivations of some of the basic
@@ -41,7 +41,7 @@ While I'm talking about the area operator, I should mention another
 paper by Rovelli, in which he shows that its spectrum is not affected by
 the presence of matter (or more precisely, fermions):
 
-3) Carlo Rovelli and Merced Montesinos, "The fermionic contribution to the spectrum of the area operator in nonperturbative quantum gravity", preprint available as [`gr-qc/9806120`](http://xxx.lanl.gov/abs/gr-qc/9806120).
+3) Carlo Rovelli and Merced Montesinos, "The fermionic contribution to the spectrum of the area operator in nonperturbative quantum gravity", preprint available as [`gr-qc/9806120`](https://arxiv.org/abs/gr-qc/9806120).
 
 This is especially interesting because it fits in with other pieces of
 evidence that fermions could simply be the ends of wormholes --- an old
@@ -53,7 +53,7 @@ loop representation, and other approaches to quantum gravity, which is
 very good because it points out the flaws in all these approaches, which
 their proponents are usually all too willing to keep quiet about:
 
-4) Carlo Rovelli, "Strings, loops and others: a critical survey of the present approaches to quantum gravity". Plenary lecture on quantum gravity at the _GR15 conference, Pune, India_, preprint available as [`gr-qc/9803024`](http://xxx.lanl.gov/abs/gr-qc/9803024).
+4) Carlo Rovelli, "Strings, loops and others: a critical survey of the present approaches to quantum gravity". Plenary lecture on quantum gravity at the _GR15 conference, Pune, India_, preprint available as [`gr-qc/9803024`](https://arxiv.org/abs/gr-qc/9803024).
 
 Also, Loll has written a review of approaches to quantum gravity that
 assume spacetime is discrete. It does *not* discuss the spin foam
@@ -76,7 +76,7 @@ spacetime geometry anymore. This makes the dynamical triangulations
 approach great for computer simulations. Computer simulations of quantum
 gravity! Loll reports on the results of a lot of these:
 
-5) Renate Loll, "Discrete approaches to quantum gravity in four dimensions", preprint available as [`gr-qc/9805049`](http://xxx.lanl.gov/abs/gr-qc/9805049), also available as a webpage on Living Reviews in Relativity at `http://www.livingreviews.org/Articles/Volume1/1998-13loll/`
+5) Renate Loll, "Discrete approaches to quantum gravity in four dimensions", preprint available as [`gr-qc/9805049`](https://arxiv.org/abs/gr-qc/9805049), also available as a webpage on Living Reviews in Relativity at `http://www.livingreviews.org/Articles/Volume1/1998-13loll/`
 
 By the way, "Living Reviews in Relativity" is a cool website run by
 the AEI, the Albert Einstein Institute for gravitational physics,
@@ -91,7 +91,7 @@ triangulations approach to quantum gravity:
 
 7) J. Ambjorn, "Quantum gravity represented as dynamical triangulations", _Class. Quant. Grav._ **12** (1995) 2079--2134.
 
-8) J. Ambjorn, M. Carfora, and A. Marzuoli, _The Geometry of Dynamical Triangulations_, Springer-Verlag, Berlin, 1998. Also available electronically as [`hep-th/9612069`](http://xxx.lanl.gov/abs/hep-th/9612069) --- watch out,
+8) J. Ambjorn, M. Carfora, and A. Marzuoli, _The Geometry of Dynamical Triangulations_, Springer-Verlag, Berlin, 1998. Also available electronically as [`hep-th/9612069`](https://arxiv.org/abs/hep-th/9612069) --- watch out,
 this is 166 pages long!
 
 I can't resist pointing out an amusing relationship between dynamical
@@ -150,7 +150,7 @@ On another front... Ambjorn and Loll, who are both hanging out at the
 AEI these days, have recently teamed up to study causality in a lattice
 model of 2-dimensional Lorentzian quantum gravity:
 
-9) J. Ambjorn and R. Loll, "Non-perturbative Lorentzian quantum gravity, causality and topology change", preprint available as [`hep-th/9805108`](http://xxx.lanl.gov/abs/hep-th/9805108).
+9) J. Ambjorn and R. Loll, "Non-perturbative Lorentzian quantum gravity, causality and topology change", preprint available as [`hep-th/9805108`](https://arxiv.org/abs/hep-th/9805108).
 
 I'll just quote the abstract:
 
@@ -171,9 +171,9 @@ work by Kreimer relating renormalization, Feynman diagrams, and Hopf
 algebras. A friendly student of Kreimer named Mathias Mertens handed me
 a couple of the basic papers when I was in Portugal:
 
-10) Dirk Kreimer, "Renormalization and knot theory", _Journal of Knot Theory and its Ramifications_, **6** (1997), 479--581. Preprint available as [`q-alg/9607022`](http://xxx.lanl.gov/abs/q-alg/9607022) --- beware, this is 103 pages long!
+10) Dirk Kreimer, "Renormalization and knot theory", _Journal of Knot Theory and its Ramifications_, **6** (1997), 479--581. Preprint available as [`q-alg/9607022`](https://arxiv.org/abs/q-alg/9607022) --- beware, this is 103 pages long!
 
-    Dirk Kreimer, "On the Hopf algebra structure of perturbative quantum field theories", preprint available as [`q-alg/9707029`](http://xxx.lanl.gov/abs/q-alg/9707029).
+    Dirk Kreimer, "On the Hopf algebra structure of perturbative quantum field theories", preprint available as [`q-alg/9707029`](https://arxiv.org/abs/q-alg/9707029).
 
 I'm looking through them but I don't really understand them yet. The
 basic idea seems to be something like this. In quantum field theory you
@@ -227,7 +227,7 @@ going around telling people to learn about this stuff. Apparently Connes
 is now writing a paper on it with Kreimer, and it was Connes who got the
 authors of this paper interested in the subject:
 
-11) Thomas Krajewski and Raimar Wulkenhaar, "On Kreimer's Hopf algebra structure of Feynman graphs", preprint available as [`hep-th/9805098`](http://xxx.lanl.gov/abs/hep-th/9805098).
+11) Thomas Krajewski and Raimar Wulkenhaar, "On Kreimer's Hopf algebra structure of Feynman graphs", preprint available as [`hep-th/9805098`](https://arxiv.org/abs/hep-th/9805098).
 
 Since I haven't plunged in yet, I'll just quote the abstract:
 

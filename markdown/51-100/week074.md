@@ -24,11 +24,11 @@ Let me also list a couple new papers on the loop representation of
 quantum gravity, dealing with ways to make volume and area into
 observables in quantum gravity:
 
-2) Abhay Ashtekar and Jerzy Lewandowski, "Quantum Theory of Geometry I: Area Operators", 31 pages in LaTeX format, to appear in Classical and Quantum Gravity, preprint available as [`gr-qc/9602046`](http://xxx.lanl.gov/abs/gr-qc/9602046).
+2) Abhay Ashtekar and Jerzy Lewandowski, "Quantum Theory of Geometry I: Area Operators", 31 pages in LaTeX format, to appear in Classical and Quantum Gravity, preprint available as [`gr-qc/9602046`](https://arxiv.org/abs/gr-qc/9602046).
 
-    Jerzy Lewandowski, "Volume and Quantizations", preprint available as [`gr-qc/9602035`](http://xxx.lanl.gov/abs/gr-qc/9602035).
+    Jerzy Lewandowski, "Volume and Quantizations", preprint available as [`gr-qc/9602035`](https://arxiv.org/abs/gr-qc/9602035).
 
-    Roberto De Pietri and Carlo Rovelli, "Geometry Eigenvalues and Scalar Product from Recoupling Theory in Loop Quantum Gravity", 38 pages, 5 Postscript figures, uses RevTeX 3.0 and `epsfig.sty`, preprint available as [`gr-qc/9602023`](http://xxx.lanl.gov/abs/gr-qc/9602023).
+    Roberto De Pietri and Carlo Rovelli, "Geometry Eigenvalues and Scalar Product from Recoupling Theory in Loop Quantum Gravity", 38 pages, 5 Postscript figures, uses RevTeX 3.0 and `epsfig.sty`, preprint available as [`gr-qc/9602023`](https://arxiv.org/abs/gr-qc/9602023).
 
 I won't say anything about these now, but see ["Week 55"](#week55)
 for some information on area operators.

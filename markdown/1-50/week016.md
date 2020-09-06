@@ -12,7 +12,7 @@ the lattice business), and one on Lagrangians for quantum gravity.
 
 1) "Structure of Topological Lattice Field Theories in Three Dimensions",
 by Stephen-wei Chung, Masafumi Fukuma and Alfred Shapere, preprint,
-available as [`hep-th/9305080`](http://xxx.lanl.gov/abs/hep-th/9305080)
+available as [`hep-th/9305080`](https://arxiv.org/abs/hep-th/9305080)
 (make sure to get the pictures if possible)!
 
 What's a 2-dimensional "topological lattice field theory"? According
@@ -196,7 +196,7 @@ and
 
 3) "Lattice topological field theory in two-dimensions", by M. Fukuma, S.
 Hosono and H. Kawai, preprint available as
-[`hep-th/921254`](http://xxx.lanl.gov/abs/hep-th/921254).
+[`hep-th/921254`](https://arxiv.org/abs/hep-th/921254).
 
 The big result of the present paper is to generalize this to 3
 dimensions. The authors consider a specific definition of 3d topological

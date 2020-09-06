@@ -502,13 +502,13 @@ place to read the details is here:
 
 19) Jan Ambjørn, J. Jurkiewicz and Renate Loll, Reconstructing the
 universe, Phys. Rev. D72 (2005) 064014. Also available as
-[`hep-th/0505154`](http://xxx.lanl.gov/abs/hep-th/0505154).
+[`hep-th/0505154`](https://arxiv.org/abs/hep-th/0505154).
 
 but if you need something less technical, try this:
 
 20) Jan Ambjørn, J. Jurkiewicz and Renate Loll, The universe from
 scratch, available as
-[`hep-th/0509010`](http://xxx.lanl.gov/abs/hep-th/0509010).
+[`hep-th/0509010`](https://arxiv.org/abs/hep-th/0509010).
 
 The titles of their papers are a bit grandiose, but their calculations
 are solid stuff - truly magnificent. I described their basic strategy in
@@ -543,7 +543,7 @@ procedure that definitely does *not* break Lorentz invariance:
 
 21) Oliver Lauscher and Martin Reuter, Fractal spacetime structure in
 asymptotically safe gravity, available as
-[`hep-th/0508202`](http://xxx.lanl.gov/abs/hep-th/0508202).
+[`hep-th/0508202`](https://arxiv.org/abs/hep-th/0508202).
 
 Reuter spoke about all this work at Loops '05. The idea is to
 investigate Weinberg's original idea in excruciatingly precise detail
@@ -598,32 +598,32 @@ Check these out:
 
 23) John Barrett, Feynman diagams coupled to three-dimensional quantum
 gravity, available as
-[`gr-qc/0502048`](http://xxx.lanl.gov/abs/gr-qc/0502048).
+[`gr-qc/0502048`](https://arxiv.org/abs/gr-qc/0502048).
 
 John Barrett, Feynman loops and three-dimensional quantum gravity, Mod.
 Phys. Lett. A20 (2005) 1271. Also available as
-[`gr-qc/0412107`](http://xxx.lanl.gov/abs/gr-qc/0412107).
+[`gr-qc/0412107`](https://arxiv.org/abs/gr-qc/0412107).
 
 24) Laurent Freidel and David Louapre, Ponzano-Regge model revisited I:
 gauge fixing, observables and interacting spinning particles, Class.
 Quant. Grav. 21 (2004) 5685-5726. Also available as
-[`hep-th/0401076`](http://xxx.lanl.gov/abs/hep-th/0401076).
+[`hep-th/0401076`](https://arxiv.org/abs/hep-th/0401076).
 
 Laurent Freidel and David Louapre, Ponzano-Regge model revisited II:
 equivalence with Chern-Simons, available as
-[`gr-qc/0410141`](http://xxx.lanl.gov/abs/gr-qc/0410141)
+[`gr-qc/0410141`](https://arxiv.org/abs/gr-qc/0410141)
 
 Laurent Freidel and Etera R. Livine, Ponzano-Regge model revisited III:
 Feynman diagrams and effective field theory, available as
-[`hep-th/0502106`](http://xxx.lanl.gov/abs/hep-th/0502106).
+[`hep-th/0502106`](https://arxiv.org/abs/hep-th/0502106).
 
 25) Laurent Freidel, Daniele Oriti, and James Ryan, A group field
 theory for 3d quantum gravity coupled to a scalar field, available as
-[`gr-qc/0506067`](http://xxx.lanl.gov/abs/gr-qc/0506067).
+[`gr-qc/0506067`](https://arxiv.org/abs/gr-qc/0506067).
 
 26) Karin Noui and Alejandro Perez, Three dimensional loop quantum
 gravity: coupling to point particles, available as
-[`gr-qc/0402111`](http://xxx.lanl.gov/abs/gr-qc/0402111).
+[`gr-qc/0402111`](https://arxiv.org/abs/gr-qc/0402111).
 
 This is mindblowingly beautiful, especially because lots of it is
 already mathematically rigorous, and we can easily make more so. It's

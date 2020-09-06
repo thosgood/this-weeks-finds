@@ -81,11 +81,11 @@ these lines that I have mentioned before are:
 
 > "A categorical construction of 4d topological quantum field theories", by
 Louis Crane and David Yetter, preprint available as
-[`hep-th/9301062`](http://xxx.lanl.gov/abs/hep-th/9301062) in latex. (Week
+[`hep-th/9301062`](https://arxiv.org/abs/hep-th/9301062) in latex. (Week
 2)
 
 > "Surgical invariants of four-manifolds", by Boguslaw Broda, preprint
-available as [`hep-th/9302092`](http://xxx.lanl.gov/abs/hep-th/9302092).
+available as [`hep-th/9302092`](https://arxiv.org/abs/hep-th/9302092).
 (Weeks 9 and 10)
 
 (I have listed which ["Week "](#week) I discussed these in case anyone wants to
@@ -101,13 +101,13 @@ the theory is deadly dull.)
 
 > "A note on simplicial dimension shifting", Adrian Ocneanu, preprint,
 available in AMSLaTeX as
-[`hep-th/9302028`](http://xxx.lanl.gov/abs/hep-th/9302028). (Week 5)
+[`hep-th/9302028`](https://arxiv.org/abs/hep-th/9302028). (Week 5)
 
 Crane and Yetter wrote a rebuttal noting that Ocneanu was not dealing
 with quite the same theory:
 
 > "We are not stuck with gluing", by David Yetter and Louis Crane, preprint
-available as [`hep-th/9302118`](http://xxx.lanl.gov/abs/hep-th/9302118) in
+available as [`hep-th/9302118`](https://arxiv.org/abs/hep-th/9302118) in
 latex form, 2 pages. (Week 7)
 
 They also presented, at their conference this spring, calculations
@@ -133,7 +133,7 @@ shown this themselves:
 
 1) "Evaluating the Crane-Yetter Invariant", by Louis Crane, Louis H.
 Kauffman, David N. Yetter, 4 pages, AMSTeX, preprint available as
-[`hep-th/9309063`](http://xxx.lanl.gov/abs/hep-th/9309063).
+[`hep-th/9309063`](https://arxiv.org/abs/hep-th/9309063).
 
 > Abstract:  We provide an explicit formula for the invariant of 4-manifolds
   introduced by Crane and Yetter (in `hep-th/9301062`). A consequence of our
@@ -150,7 +150,7 @@ only on the signature:
 2) "On the Classicality of Broda's $\mathrm{SU}(2)$ Invariants of 4-Manifolds", by
 Louis Crane, Louis H. Kauffman, David N. Yetter, 4 pages LaTeX version
 2.09, preprint available as
-[`hep-th/9309102`](http://xxx.lanl.gov/abs/hep-th/9309102).
+[`hep-th/9309102`](https://arxiv.org/abs/hep-th/9309102).
 
 > Abstract: Recent work of Roberts has shown that the first surgical 4-manifold
   invariant of Broda and (up to an unspecified normalization factor)

@@ -40,7 +40,7 @@ computational complexity to algebraic geometry.
 
 Now for some papers on spin networks and spin foams:
 
-4) Roberto De Pietri, Laurent Freidel, Kirill Krasnov, and Carlo Rovelli, "Barrett-Crane model from a Boulatov-Ooguri field theory over a homogeneous space", preprint available as [`hep-th/9907154`](http://xxx.lanl.gov/abs/hep-th/9907154).
+4) Roberto De Pietri, Laurent Freidel, Kirill Krasnov, and Carlo Rovelli, "Barrett-Crane model from a Boulatov-Ooguri field theory over a homogeneous space", preprint available as [`hep-th/9907154`](https://arxiv.org/abs/hep-th/9907154).
 
 The Barrett-Crane model is a very interesting theory of quantum gravity.
 I've described it already in ["Week 113"](#week113),
@@ -94,9 +94,9 @@ quantization --- see ["Week 134"](#week134). Subsequently, Freidel
 and Krasnov figured out how to generalize this stuff to higher
 dimensions:
 
-5) Laurent Freidel, Kirill Krasnov and Raymond Puzio, "BF description of higher-dimensional gravity", preprint available as [`hep-th/9901069`](http://xxx.lanl.gov/abs/hep-th/9901069).
+5) Laurent Freidel, Kirill Krasnov and Raymond Puzio, "BF description of higher-dimensional gravity", preprint available as [`hep-th/9901069`](https://arxiv.org/abs/hep-th/9901069).
 
-6) Laurent Freidel and Kirill Krasnov, "Simple spin networks as Feynman graphs", preprint available as [`hep-th/9903192`](http://xxx.lanl.gov/abs/hep-th/9903192).
+6) Laurent Freidel and Kirill Krasnov, "Simple spin networks as Feynman graphs", preprint available as [`hep-th/9903192`](https://arxiv.org/abs/hep-th/9903192).
 
 So much for history --- now back to business. So far I've told you that
 the state of a "quantum triangle" in 4 dimensions is given by a
@@ -163,7 +163,7 @@ both!
 Now, this "new paper by Barrett and Crane" is actually not brand new.
 It's a revised version of something they'd already put on the net:
 
-7) John Barrett and Louis Crane, "A Lorentzian signature model for quantum general relativity", preprint available as [`gr-qc/9904025`](http://xxx.lanl.gov/abs/gr-qc/9904025).
+7) John Barrett and Louis Crane, "A Lorentzian signature model for quantum general relativity", preprint available as [`gr-qc/9904025`](https://arxiv.org/abs/gr-qc/9904025).
 
 However, it's much improved. When I went up to Nottingham at the end of
 the summer, I had Barrett explain it to me. I learned all sorts of cool
@@ -180,7 +180,7 @@ neatly!
 Okay, here are some more papers on spin networks and spin foams. Since
 I'm getting lazy, I'll just quote the abstracts:
 
-8) Sameer Gupta, "Causality in spin foam models", preprint available as [`gr-qc/9908018`](http://xxx.lanl.gov/abs/gr-qc/9908018).
+8) Sameer Gupta, "Causality in spin foam models", preprint available as [`gr-qc/9908018`](https://arxiv.org/abs/gr-qc/9908018).
 
 > We compute Teitelboim's causal propagator in the context of canonical
 loop quantum gravity. For the Lorentzian signature, we find that the
@@ -190,7 +190,7 @@ a general structure which we call a "causal spin foam". We also
 demonstrate that the causal evolution models for spin networks fall in
 the general class of causal spin foams.
 
-9) Matthias Arnsdorf and Sameer Gupta, "Loop quantum gravity on non-compact spaces", preprint available as [`gr-qc/9909053`](http://xxx.lanl.gov/abs/gr-qc/9909053).
+9) Matthias Arnsdorf and Sameer Gupta, "Loop quantum gravity on non-compact spaces", preprint available as [`gr-qc/9909053`](https://arxiv.org/abs/gr-qc/9909053).
 
 > We present a general procedure for constructing new Hilbert spaces for
 loop quantum gravity on non-compact spatial manifolds. Given any fixed
@@ -201,7 +201,7 @@ as describing fluctuation of compact support around this background
 state. We also give an example of a state which approximates classical
 flat space and can be used as a background state for our construction.
 
-10) Seth A. Major, "Quasilocal energy for spin-net gravity", preprint available as [`gr-qc/9906052`](http://xxx.lanl.gov/abs/gr-qc/9906052).
+10) Seth A. Major, "Quasilocal energy for spin-net gravity", preprint available as [`gr-qc/9906052`](https://arxiv.org/abs/gr-qc/9906052).
 
 > The Hamiltonian of a gravitational system defined in a region with
 boundary is quantized. The classical Hamiltonian, and starting point for
@@ -216,7 +216,7 @@ with the correct naive classical limit, but requiring a restriction on
 the Hilbert space, is also defined. Comparison with earlier work and
 several consequences are briefly explored.
 
-11) C. Di Bartolo, R. Gambini, J. Griego, J. Pullin, "Consistent canonical quantization of general relativity in the space of Vassiliev knot invariants", preprint available as [`gr-qc/9909063`](http://xxx.lanl.gov/abs/gr-qc/9909063).
+11) C. Di Bartolo, R. Gambini, J. Griego, J. Pullin, "Consistent canonical quantization of general relativity in the space of Vassiliev knot invariants", preprint available as [`gr-qc/9909063`](https://arxiv.org/abs/gr-qc/9909063).
 
 > We present a quantization of the Hamiltonian and diffeomorphism
 constraint of canonical quantum gravity in the spin network
@@ -227,7 +227,7 @@ commutators the Poisson algebra of constraints of the classical theory.
 A similar construction can be carried out in 2+1 dimensions leading to
 the correct quantum theory.
 
-12) John Baez, "Spin foam perturbation theory", preprint available as [`gr-qc/9910050`](http://xxx.lanl.gov/abs/gr-qc/9910050) or at `http://math.ucr.edu/home/baez/foam3.ps`
+12) John Baez, "Spin foam perturbation theory", preprint available as [`gr-qc/9910050`](https://arxiv.org/abs/gr-qc/9910050) or at `http://math.ucr.edu/home/baez/foam3.ps`
 
 > We study perturbation theory for spin foam models on triangulated
 manifolds. Starting with any model of this sort, we consider an

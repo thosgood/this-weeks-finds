@@ -81,9 +81,9 @@ the guru on this subject is Barton Zwiebach, so if one was really gutsy
 one would, after a suitable warmup with Kaku, plunge in and read
 something like
 
-4) "Quantum background independence of closed string field theory", by Ashoke Sen and Barton Zwiebach, 60 pages, `phyzzx.tex`, `MIT-CTP-2244`, available as [`hep-th/9311009`](http://xxx.lanl.gov/abs/hep-th/9311009).
+4) "Quantum background independence of closed string field theory", by Ashoke Sen and Barton Zwiebach, 60 pages, `phyzzx.tex`, `MIT-CTP-2244`, available as [`hep-th/9311009`](https://arxiv.org/abs/hep-th/9311009).
 
-    "Background independent algebraic structures in closed string field theory", by Ashoke Sen and Barton Zwiebach, `phyzzx.tex`, `MIT-CTP-2346`, available as [`hep-th/9408053`](http://xxx.lanl.gov/abs/hep-th/9408053).
+    "Background independent algebraic structures in closed string field theory", by Ashoke Sen and Barton Zwiebach, `phyzzx.tex`, `MIT-CTP-2346`, available as [`hep-th/9408053`](https://arxiv.org/abs/hep-th/9408053).
 
 Unfortunately I'm not quite up to it yet....
 
@@ -198,7 +198,7 @@ nice to be left for only the homotopy theorists!
 Anyway, once you have gotten the hang of operads you can try the work of
 a reformed homotopy theorist, Jim Stasheff, on string field theory:
 
-8) "Closed string field theory, strong homotopy Lie algebras and the operad actions of moduli spaces", by Jim Stasheff, available as [`hep-th/9304061`](http://xxx.lanl.gov/abs/hep-th/9304061).
+8) "Closed string field theory, strong homotopy Lie algebras and the operad actions of moduli spaces", by Jim Stasheff, available as [`hep-th/9304061`](https://arxiv.org/abs/hep-th/9304061).
 
 Actually Graeme Segal, another string theory guru, also used to do
 homotopy theory. He's the one who's famous for:
@@ -219,7 +219,7 @@ eventually not be seen as so different after all.
 
 Let's see what we've got here:
 
-10) "A reformulation of the Ponzano-Regge quantum gravity model in terms of surfaces", Junichi Iwasaki, University of Pittsburgh, 11 pages in LaTeX format available as [`gr-qc/9410010`](http://xxx.lanl.gov/abs/gr-qc/9410010).
+10) "A reformulation of the Ponzano-Regge quantum gravity model in terms of surfaces", Junichi Iwasaki, University of Pittsburgh, 11 pages in LaTeX format available as [`gr-qc/9410010`](https://arxiv.org/abs/gr-qc/9410010).
 
 I've discussed the Ponzano-Regge model quite a bit in
 ["Week 16"](#week16) and ["Week 38"](#week38). It's an approach to
@@ -240,16 +240,16 @@ because one expects to get the *exact* answers out that way, but just
 because it's a decent approximation that makes things a bit more
 manageable:
 
-11) "Lattice QCD as a theory of interacting surfaces", by B. Rusakov, `TAUP-2204-94`, 12 pages in LaTeX format available as [`hep-th/9410004`](http://xxx.lanl.gov/abs/hep-th/9410004).
+11) "Lattice QCD as a theory of interacting surfaces", by B. Rusakov, `TAUP-2204-94`, 12 pages in LaTeX format available as [`hep-th/9410004`](https://arxiv.org/abs/hep-th/9410004).
 
-    "$\mathrm{U}(N)$ Gauge Theory and Lattice Strings", by Ivan K. Kostov, 26 pages, 8 figures not included, available by mail upon request, `T93-079` (talk at the _Workshop on string theory, gauge theory and quantum gravity_, 28--29 April 1993, Trieste, Italy), available as [`hep-th/9308158`](http://xxx.lanl.gov/abs/hep-th/9308158).
+    "$\mathrm{U}(N)$ Gauge Theory and Lattice Strings", by Ivan K. Kostov, 26 pages, 8 figures not included, available by mail upon request, `T93-079` (talk at the _Workshop on string theory, gauge theory and quantum gravity_, 28--29 April 1993, Trieste, Italy), available as [`hep-th/9308158`](https://arxiv.org/abs/hep-th/9308158).
 
 Also, if there were any gauge theory that deserved to be a string
 theory, it's probably Chern-Simons theory, which has so much to do with
 knots... and indeed something like this seems to be the case, though
 it's all rather subtle and mysterious so far:
 
-12) "Chern-Simons-Witten theory as a topological Fermi liquid", by Michael R. Douglas, Rutgers University preprint `RU-94-29`, available as [`hep-th/9403119`](http://xxx.lanl.gov/abs/hep-th/9403119).
+12) "Chern-Simons-Witten theory as a topological Fermi liquid", by Michael R. Douglas, Rutgers University preprint `RU-94-29`, available as [`hep-th/9403119`](https://arxiv.org/abs/hep-th/9403119).
 
 Frequently, when there is a whole lot of frenetic,
 sophisticated-sounding activity around a certain idea, like this

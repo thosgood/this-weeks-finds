@@ -438,7 +438,7 @@ and thus:
 In the complex case, these conformal transformations are often called
 "Moebius transformations". For more on the octonionic case, try this:
 
-15) Corinne A. Manogue and Tevian Dray, "Octonionic Moebius transformations", _Mod. Phys. Lett._ **A14** (1999) 1243--1256, available as [`math-ph/9905024`](http://xxx.lanl.gov/abs/math-ph/9905024).
+15) Corinne A. Manogue and Tevian Dray, "Octonionic Moebius transformations", _Mod. Phys. Lett._ **A14** (1999) 1243--1256, available as [`math-ph/9905024`](https://arxiv.org/abs/math-ph/9905024).
 
 To round off the story, it helps to bring in spinors:
 

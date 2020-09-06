@@ -361,7 +361,7 @@ Look in the index under "exotic spheres".
 Second, people have computed the effect of exotic 7-spheres on quantum
 gravity path integrals in 7 dimensions:
 
-11) Kristin Schleich and Donald Witt, Exotic spaces in quantum gravity, _Class. Quant. Grav._ **16** (1999) 2447--2469, preprint available as [`gr-qc/9903086`](http://xxx.lanl.gov/abs/gr-qc/9903086).
+11) Kristin Schleich and Donald Witt, Exotic spaces in quantum gravity, _Class. Quant. Grav._ **16** (1999) 2447--2469, preprint available as [`gr-qc/9903086`](https://arxiv.org/abs/gr-qc/9903086).
 
 I'm not sure exotic spheres are *really* relevant to physics, but it
 would be cool, so I'm glad some people are trying to establish
@@ -404,7 +404,7 @@ should get:
 Finally, there's some cool stuff going on with operads that I haven't
 been able to keep up with. Let me quote the abstracts:
 
-19) Alexander A. Voronov, "Homotopy Gerstenhaber algebras", preprint available as [`math.QA/9908040`](http://xxx.lanl.gov/abs/math.QA/9908040).
+19) Alexander A. Voronov, "Homotopy Gerstenhaber algebras", preprint available as [`math.QA/9908040`](https://arxiv.org/abs/math.QA/9908040).
 
 > The purpose of this paper is to complete Getzler-Jones' proof of
 Deligne's Conjecture, thereby establishing an explicit relationship
@@ -421,7 +421,7 @@ configuration spaces. Corrections to the paper math.QA/9602009 of
 Kimura, Zuckerman, and the author related to the use of a nonextant
 notion of a homotopy Gerstenhaber algebra are made.
 
-20) Maxim Kontsevich, "Operads and motives in deformation quantization", _Lett. Math. Phys._ **48** (1999), 35--72, preprint available as [`math.QA/9904055`](http://xxx.lanl.gov/abs/math.QA/9904055).
+20) Maxim Kontsevich, "Operads and motives in deformation quantization", _Lett. Math. Phys._ **48** (1999), 35--72, preprint available as [`math.QA/9904055`](https://arxiv.org/abs/math.QA/9904055).
 
 > It became clear during last 5-6 years that the algebraic world of
 associative algebras (abelian categories, triangulated categories, etc)
@@ -438,7 +438,7 @@ that the motivic Galois group acts on deformation quantizations, and
 speculate on possible relations of higher-dimensional algebras and of
 motives to quantum field theories.
 
-21) James E. McClure and Jeffrey H. Smith, "A solution of Deligne's conjecture", preprint available as [`math.QA/9910126`](http://xxx.lanl.gov/abs/math.QA/9910126)
+21) James E. McClure and Jeffrey H. Smith, "A solution of Deligne's conjecture", preprint available as [`math.QA/9910126`](https://arxiv.org/abs/math.QA/9910126)
 
 > Deligne asked in 1993 whether the Hochschild cochain complex of an
 associative ring has a natural action by the singular chains of the

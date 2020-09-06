@@ -581,7 +581,7 @@ theory that doesn't require any metric on spacetime to make sense. Here
 they have been exploited by Dror Bar-Natan to come up with a new
 formulation of the famous 4-color theorem:
 
-3) Dror Bar-Natan, "Lie algebras and the four color theorem", preprint available as [`q-alg/9606016`](http://xxx.lanl.gov/ps/q-alg/9606016).
+3) Dror Bar-Natan, "Lie algebras and the four color theorem", preprint available as [`q-alg/9606016`](https://arxiv.org/ps/q-alg/9606016).
 
 As I explained in ["Week 8"](#week8) and ["Week 22"](#week22),
 there is a way to formulate about the 4-color theorem as a statement

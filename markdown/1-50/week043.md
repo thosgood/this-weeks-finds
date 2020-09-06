@@ -266,7 +266,7 @@ network. I've thought about spin networks for quite a while, since they
 are very important in topological quantum field theories. A great
 introduction to how they show up in TQFTs, by the way, is:
 
-4) "State-sum invariants of manifolds, I", by Louis Crane, Louis H. Kauffman, and David N. Yetter, 46 pages, LaTeX (Sun release 4.1) source code produces many error messages, but a correct dvi-file, available as [`hep-th/9409167`](http://xxx.lanl.gov/abs/hep-th/9409167).
+4) "State-sum invariants of manifolds, I", by Louis Crane, Louis H. Kauffman, and David N. Yetter, 46 pages, LaTeX (Sun release 4.1) source code produces many error messages, but a correct dvi-file, available as [`hep-th/9409167`](https://arxiv.org/abs/hep-th/9409167).
 
 This explains how to cook up 3d quantum gravity (or more precisely, the
 Turaev-Viro model) and a 4d TQFT field theory called the Crane-Yetter
@@ -276,7 +276,7 @@ However, Rovelli's talk on spin network states in quantum gravity (see
 ["Week 41"](#week41)), followed by some good conversations, got me
 motivated to write up something on spin network states:
 
-5) "Spin network states in gauge theory", by John Baez, 19 pages in LaTeX format available as [`gr-qc/9411007`](http://xxx.lanl.gov/abs/gr-qc/9411007) (or as "`spin.tex`" by ftp as described at the end of this article).
+5) "Spin network states in gauge theory", by John Baez, 19 pages in LaTeX format available as [`gr-qc/9411007`](https://arxiv.org/abs/gr-qc/9411007) (or as "`spin.tex`" by ftp as described at the end of this article).
 
 Basically, I show that in the loop representation of any gauge theory,
 states at the kinematical level can be described by spin networks,
@@ -308,7 +308,7 @@ about the rigorous mathematics of spin network states, but how to use
 them to really understand the *physics* of quantum gravity. The first
 one out is:
 
-6) "Discreteness of area and volume in quantum gravity", by Carlo Rovelli and Lee Smolin, 36 pages in LaTeX format, 13 figures uuencoded, available as [`gr-qc/9411005`](http://xxx.lanl.gov/abs/gr-qc/9411005).
+6) "Discreteness of area and volume in quantum gravity", by Carlo Rovelli and Lee Smolin, 36 pages in LaTeX format, 13 figures uuencoded, available as [`gr-qc/9411005`](https://arxiv.org/abs/gr-qc/9411005).
 
 This is perhaps the most careful computation so far that derives
 *discreteness* of geometrical quantities directly from Einstein's

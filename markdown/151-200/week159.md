@@ -5,7 +5,7 @@ to describe this paper:
 
 1) Yi Ling and Lee Smolin, Eleven dimensional supergravity as a
 constrained topological field theory, available as
-[`hep-th/0003285`](http://xxx.lanl.gov/abs/hep-th/0003285).
+[`hep-th/0003285`](https://arxiv.org/abs/hep-th/0003285).
 
 This paper gives an elegant new formulation of 11d supergravity by
 starting from a kind of BF theory and then imposing constraints, very
@@ -194,7 +194,7 @@ work of Fre and collaborators, which I haven't read yet:
 
 Here's another formulation of 11d supergravity I'd like to check out:
 
-6) Martin Cederwall, Ulf Gran, Mikkel Nielsen, and Bengt Nillson, "Generalised 11-dimensional supergravity", available as [`hep-th/0010042`](http://xxx.lanl.gov/abs/hep-th/0010042).
+6) Martin Cederwall, Ulf Gran, Mikkel Nielsen, and Bengt Nillson, "Generalised 11-dimensional supergravity", available as [`hep-th/0010042`](https://arxiv.org/abs/hep-th/0010042).
 
 Cederwall has done interesting work on octonions and physics, so I want
 to look here for clues that 11d supergravity is related to the

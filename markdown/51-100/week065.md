@@ -115,7 +115,7 @@ octonions! Not too surprising, perhaps, since the octonions and $\mathrm{E}_8$ a
 both 8-dimensional, but it's still sorta neat. For the details, check
 out
 
-2) Geoffrey Dixon, "Octonion X-product and $\mathrm{E}_8$ lattices", preprint available as [`hep-th/9411063`](http://xxx.lanl.gov/abs/hep-th/9411063).
+2) Geoffrey Dixon, "Octonion X-product and $\mathrm{E}_8$ lattices", preprint available as [`hep-th/9411063`](https://arxiv.org/abs/hep-th/9411063).
 
 Briefly, this goes as follows. In ["Week 59"](#week59) we described
 a multiplication table for the "seven dwarves" --- a basis of the
@@ -189,7 +189,7 @@ more to this... you should probably look at:
 
     John McKay, A rapid introduction to ADE theory, `http://math.ucr.edu/home/baez/ADE.html`
 
-4) Pavel Etinghof and Mikhail Khovanov, Representations of tensor categories and Dynkin diagrams, preprint available as [`hep-th/9408078`](http://xxx.lanl.gov/abs/hep-th/9408078).
+4) Pavel Etinghof and Mikhail Khovanov, Representations of tensor categories and Dynkin diagrams, preprint available as [`hep-th/9408078`](https://arxiv.org/abs/hep-th/9408078).
 
 McKay does lots of other mindblowing group theory. He's clearly in tune
 with the symmetries of the universe... and occaisionally he deigns to

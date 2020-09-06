@@ -651,7 +651,7 @@ By the way, there's also a cute relation between the \mathrm{SO}(10) grand
 unified theory and 10-dimensional Calabi-Yau manifolds, discussed here:
 
 9) John Baez, Calabi-Yau manifolds and the Standard Model, available as
-[`hep-th/0511086`](http://xxx.lanl.gov/abs/hep-th/0511086)
+[`hep-th/0511086`](https://arxiv.org/abs/hep-th/0511086)
 
 This is an easy consequence of the stuff I've explained this week.
 
@@ -661,20 +661,20 @@ but in a quite different way:
 
 10) Volker Braun, Yang-Hui He, Burt A. Ovrut and Tony Pantev, A
 heterotic Standard Model, available as
-[`hep-th/0501070`](http://xxx.lanl.gov/abs/hep-th/0501070).
+[`hep-th/0501070`](https://arxiv.org/abs/hep-th/0501070).
 
 A Standard Model from the \mathrm{E}_8 \times \mathrm{E}_8 heterotic superstring,
-[`hep-th/0502155`](http://xxx.lanl.gov/abs/hep-th/0502155).
+[`hep-th/0502155`](https://arxiv.org/abs/hep-th/0502155).
 
 Vector bundle extensions, sheaf cohomology, and the heterotic Standard
 Model, available as
-[`hep-th/0505041`](http://xxx.lanl.gov/abs/hep-th/0505041).
+[`hep-th/0505041`](https://arxiv.org/abs/hep-th/0505041).
 
 Heterotic Standard Model moduli, available as
-[`hep-th/0509051`](http://xxx.lanl.gov/abs/hep-th/0509051).
+[`hep-th/0509051`](https://arxiv.org/abs/hep-th/0509051).
 
 The exact MSSM spectrum from string theory, available as
-[`hep-th/0512177`](http://xxx.lanl.gov/abs/hep-th/0512177).
+[`hep-th/0512177`](https://arxiv.org/abs/hep-th/0512177).
 
 All this stuff is really cool - but alas, they get the "minimal
 supersymmetric Standard Model", or MSSM, which has a lot more particles

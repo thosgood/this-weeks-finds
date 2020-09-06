@@ -343,11 +343,11 @@ string theory and M-theory:
 
 4) Paolo Aschieri, Luigi Cantini and Branislav Jurco, Nonabelian bundle
 gerbes, their differential geometry and gauge theory, available as
-[`hep-th/0312154`](http://xxx.lanl.gov/abs/hep-th/0312154).
+[`hep-th/0312154`](https://arxiv.org/abs/hep-th/0312154).
 
 5) Paolo Aschieri and Branislav Jurco, Gerbes, M5-brane anomalies and
 E8 gauge theory, available as
-[`hep-th/0409200`](http://xxx.lanl.gov/abs/hep-th/0409200).
+[`hep-th/0409200`](https://arxiv.org/abs/hep-th/0409200).
 
 Second, for mathematicians, some classic works by Breen:
 
@@ -488,12 +488,12 @@ manifold:
 23) Hendryk Pfeiffer, Higher gauge theory and a non-Abelian
 generalization of 2-form electrodynamics, Annals Phys. 308 (2003),
 447-477. Also available as
-[`hep-th/0304074`](http://xxx.lanl.gov/abs/hep-th/0304074).
+[`hep-th/0304074`](https://arxiv.org/abs/hep-th/0304074).
 
 24) Florian Girelli and Hendryk Pfeiffer, Higher gauge theory -
 differential versus integral formulation, Jour. Math. Phys. 45 (2004),
 3949-3971. Also available as
-[`hep-th/0309173`](http://xxx.lanl.gov/abs/hep-th/0309173).
+[`hep-th/0309173`](https://arxiv.org/abs/hep-th/0309173).
 
 25) Hendryk Pfeiffer, 2-groups, trialgebras and their Hopf categories
 of representations, available as

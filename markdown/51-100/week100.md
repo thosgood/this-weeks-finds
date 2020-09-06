@@ -192,7 +192,7 @@ and then for a year I worked on trying to write up a longer, clearer
 version, while all the meantime Dolan kept coming up with new ways of
 looking at everything. I finished in February of this year:
 
-7) J. Baez and J. Dolan, "Higher-dimensional algebra III: $n$-Categories and the algebra of opetopes", to appear in _Adv. Math._, preprint available as [`q-alg/9702014`](http://xxx.lanl.gov/ps/q-alg/9702014) and at `http://math.ucr.edu/home/baez/op.ps`, or in compressed form as `http://math.ucr.edu/home/baez/op.ps.Z`
+7) J. Baez and J. Dolan, "Higher-dimensional algebra III: $n$-Categories and the algebra of opetopes", to appear in _Adv. Math._, preprint available as [`q-alg/9702014`](https://arxiv.org/ps/q-alg/9702014) and at `http://math.ucr.edu/home/baez/op.ps`, or in compressed form as `http://math.ucr.edu/home/baez/op.ps.Z`
 
 The key feature of this definition is that it uses "$j$-dimensional
 opetopes" as the shapes for $j$-morphisms. These shapes are very handy

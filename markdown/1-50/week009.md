@@ -1,7 +1,7 @@
 # March 12, 1993 {#week9}
 
 1. "Surgical invariants of four-manifolds", by Boguslaw Broda, preprint
-available as [`hep-th/9302092`](http://xxx.lanl.gov/abs/hep-th/9302092).
+available as [`hep-th/9302092`](https://arxiv.org/abs/hep-th/9302092).
 
 There a number of attempts underway to get invariants of
 four-dimensional manifolds (and 4d topological quantum field theories)
@@ -209,12 +209,12 @@ would prefer to wait until I understand them....
 2) "Minisuperspaces: symmetries and quantization", by Abhay Ashtekar,
 Ranjeet S. Tate and Claes Uggla, Syracuse University preprint
 `SU-GP-92/2-5`, 14 pages, available in latex form as
-[`gr-qc/9302026`](http://xxx.lanl.gov/abs/gr-qc/9302026)
+[`gr-qc/9302026`](https://arxiv.org/abs/gr-qc/9302026)
 
     "Minisuperspaces: observables and quantization", by Abhay Ashtekar, Ranjeet
     S. Tate and Claes Uggla, Syracuse University preprint `SU-GP-92/2-6`, 34
     pages, available in latex form as
-    [`gr-qc/9302027`](http://xxx.lanl.gov/abs/gr-qc/9302027)
+    [`gr-qc/9302027`](https://arxiv.org/abs/gr-qc/9302027)
 
 I was just at the Pacific Coast Gravity Meeting last weekend and heard
 Ranjeet Tate talk on this work. Recall first of all that minisuperspaces
@@ -274,7 +274,7 @@ piece of work on the foundations of quantum theory!
 
 4) "Thawing the frozen formalism: the difference between observables and
 what we observe", by Arlen Anderson, preprint available in latex form as
-[`gr-qc/9211028`](http://xxx.lanl.gov/abs/gr-qc/9211028).
+[`gr-qc/9211028`](https://arxiv.org/abs/gr-qc/9211028).
 
 There were a number of youngish folks giving talks at the gravity
 meeting who have clearly been keeping up with the recent work on the
@@ -292,7 +292,7 @@ survey of the problem and some new proposed solutions, I again refer
 everyone to Isham's paper:
 
 5) "Canonical Quantum Gravity and the Problem of Time", Chris J. Isham,
-125 pages of LaTeX output, preprint available as [`gr-qc/9210011`](http://xxx.lanl.gov/abs/gr-qc/9210011).
+125 pages of LaTeX output, preprint available as [`gr-qc/9210011`](https://arxiv.org/abs/gr-qc/9210011).
 
 In particular, one interesting approach is due to Rovelli, and is called
 "evolving constants of motion" (a deliberate and very accurate
@@ -307,7 +307,7 @@ free particles satisfying the Schrodinger equation.
 
 6) "The extended loop group: an infinite dimensional manifold associated
 with the loop space", by Cayetano Di Bartolo, Rodolfo Gambini and Jorge
-Griego, 42 pages, preprint available as [`gr-qc/9303010`](http://xxx.lanl.gov/abs/gr-qc/9303010).
+Griego, 42 pages, preprint available as [`gr-qc/9303010`](https://arxiv.org/abs/gr-qc/9303010).
 
 Unfortunately I don't have the time now to give this paper the
 discussion it deserves. Gambini is one of the original inventors of the

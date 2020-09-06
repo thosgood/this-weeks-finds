@@ -95,7 +95,7 @@ For a lot more information, including other things we might see, try:
 
 3) Curt Cutler and Kip Thorne, An overview of gravitational-wave
 sources, available as
-[`gr-qc/0204090`](http://xxx.lanl.gov/abs/gr-qc/0204090).
+[`gr-qc/0204090`](https://arxiv.org/abs/gr-qc/0204090).
 
 The really scary thing is how good LIGO needs to be to work as planned.
 Roughly speaking, LIGO I aims to detect gravitational waves that distort
@@ -203,7 +203,7 @@ But meanwhile, going down all the way to the Planck scale, I'd like to
 talk about a shocking new development in loop quantum gravity:
 
 7) Olaf Dreyer, Quasinormal modes, the area spectrum, and black hole
-entropy, [`gr-qc/0211076`](http://xxx.lanl.gov/abs/gr-qc/0211076).
+entropy, [`gr-qc/0211076`](https://arxiv.org/abs/gr-qc/0211076).
 
 First for some historical background. In 1975, Hawking showed that black
 holes emit thermal radiation due to quantum effects:
@@ -253,7 +253,7 @@ note outlining our approach:
 9) Abhay Ashtekar, John Baez, Alejandro Corichi and Kirill Krasnov,
 Quantum geometry and black hole entropy, Phys. Rev. Lett. 80 (1998)
 904-907, also available at
-[`gr-qc/9710007`](http://xxx.lanl.gov/abs/gr-qc/9710007).
+[`gr-qc/9710007`](https://arxiv.org/abs/gr-qc/9710007).
 
 Filling in the details took about 3 more years, and was quite
 exhausting. We chopped the job into two parts, a classical part and a
@@ -262,12 +262,12 @@ quantum part:
 10) Abhay Ashtekar, Alejandro Corichi and Kirill Krasnov, Isolated
 horizons: the classical phase space, Adv. Theor. Math. Phys. 3 (2000),
 418-471, available as
-[`gr-qc/9905089`](http://xxx.lanl.gov/abs/gr-qc/9905089).
+[`gr-qc/9905089`](https://arxiv.org/abs/gr-qc/9905089).
 
 Abhay Ashtekar, John Baez and Kirill Krasnov, Quantum geometry of
 isolated horizons and black hole entropy, Adv. Theor. Math. Phys. 4
 (2000), 1-94, available as
-[`gr-qc/0005126`](http://xxx.lanl.gov/abs/gr-qc/0005126).
+[`gr-qc/0005126`](https://arxiv.org/abs/gr-qc/0005126).
 
 The details are complicated, but the final upshot is quite simple. In
 loop quantum gravity, there is a basis of states given by "spin
@@ -523,19 +523,19 @@ R159-R216.
 K. D. Kokkotas and B. G. Schmidt, Quasi-normal modes of stars and black
 holes, Living Reviews in Relativity 2 (1999) 2, online at
 `http://www.livingreviews.org/Articles/Volume2/1999-2kokkotas/` Also
-available at [`gr-qc/9909058`](http://xxx.lanl.gov/abs/gr-qc/9909058).
+available at [`gr-qc/9909058`](https://arxiv.org/abs/gr-qc/9909058).
 
 Hod's observation appears here:
 
 14) Shahar Hod, Bohr's correspondence principle and the area spectrum
 of quantum black holes, Phys. Rev. Lett. 81 (1998), 4293, also available
-as [`gr-qc/9812002`](http://xxx.lanl.gov/abs/gr-qc/9812002).
+as [`gr-qc/9812002`](https://arxiv.org/abs/gr-qc/9812002).
 
 and was developed a bit further in:
 
 15) Shahar Hod, Gravitation, the quantum, and Bohr's correspondence
 principle, Gen. Rel. Grav. 31 (1999) 1639, also available as
-[`gr-qc/0002002`](http://xxx.lanl.gov/abs/gr-qc/0002002).
+[`gr-qc/0002002`](https://arxiv.org/abs/gr-qc/0002002).
 
 He goes so far as to argue that the "quantum of area" is 4 ln 3. This
 matches the area due to a spin-$1$ puncture if the Barbero-Immirzi

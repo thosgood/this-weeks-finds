@@ -225,7 +225,7 @@ counting them "with phase".... and I must admit that the role of the
 viewpoint. For some food for thought, you might want to check out Dan
 Freed's work on torsors, which are a categorified version of phases:
 
-1) "Higher algebraic structures and quantization", by Daniel Freed, _Commun. Math. Phys._ **159** (1994), 343--398, also available as [`hep-th/9212115`](http://xxx.lanl.gov/abs/hep-th/9212115).
+1) "Higher algebraic structures and quantization", by Daniel Freed, _Commun. Math. Phys._ **159** (1994), 343--398, also available as [`hep-th/9212115`](https://arxiv.org/abs/hep-th/9212115).
 
 To continue reading the "Tale of $n$-Categories", see ["Week 79"](#week79).
 

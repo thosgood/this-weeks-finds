@@ -5,7 +5,7 @@ so it makes sense for me to keep talking about category theory. I'll
 start with some things people discussed at the conference in Coimbra
 (see last week).
 
-1) Michael Mueger, "Galois theory for braided tensor categories and the modular closure", preprint available as [`math.CT/9812040`](http://xxx.lanl.gov/abs/math.CT/9812040).
+1) Michael Mueger, "Galois theory for braided tensor categories and the modular closure", preprint available as [`math.CT/9812040`](https://arxiv.org/abs/math.CT/9812040).
 
 A braided monoidal category is simple algebraic gadget that captures a
 bit of the essence of 3-dimensionality in its rawest form. It has a
@@ -201,7 +201,7 @@ category theory. It's almost like getting something for nothing! But
 I'll resist the temptation to tell you the details, since
 ["Week 99"](#week99) explains a bunch of it, and the rest is in here:
 
-2) John Baez, "Higher-dimensional algebra II: 2-Hilbert spaces", _Adv. Math._ **127** (1997), 125--189. Also available as [`q-alg/9609018`](http://xxx.lanl.gov/abs/q-alg/9609018).
+2) John Baez, "Higher-dimensional algebra II: 2-Hilbert spaces", _Adv. Math._ **127** (1997), 125--189. Also available as [`q-alg/9609018`](https://arxiv.org/abs/q-alg/9609018).
 
 In this paper I call a 2-Hilbert space with a compatible tensor product
 a "2-H*-algebra", and if it also has a compatible braiding, I call it
@@ -271,7 +271,7 @@ My point here is really just that lots of this 3-dimensional stuff is
 part of a bigger picture that applies to all different dimensions. For
 more details, including a description of the center construction, try:
 
-3) John Baez and James Dolan, "Categorification", in _Higher Category Theory_, eds. Ezra Getzler and Mikhail Kapranov, Contemporary Mathematics vol. **230**, AMS, Providence, 1998, pp. 1--36. Also available at [`math.QA/9802029`](http://xxx.lanl.gov/abs/math.QA/9802029).
+3) John Baez and James Dolan, "Categorification", in _Higher Category Theory_, eds. Ezra Getzler and Mikhail Kapranov, Contemporary Mathematics vol. **230**, AMS, Providence, 1998, pp. 1--36. Also available at [`math.QA/9802029`](https://arxiv.org/abs/math.QA/9802029).
 
 Anyway, Mueger's elegant characterization of a modular tensor category
 amounts to this: it's a braided 2-H*-algebra whose center is
@@ -298,7 +298,7 @@ this raises another question: can we describe this topological quantum
 field theory directly, without using the modular tensor category? The
 answer is again yes! For details see:
 
-5) Stephen Sawin, "Jones-Witten invariants for nonsimply-connected Lie groups and the geometry of the Weyl alcove", preprint available as [`math.QA/9905010`](http://xxx.lanl.gov/abs/math.QA/9905010).
+5) Stephen Sawin, "Jones-Witten invariants for nonsimply-connected Lie groups and the geometry of the Weyl alcove", preprint available as [`math.QA/9905010`](https://arxiv.org/abs/math.QA/9905010).
 
 This paper uses this machinery to get topological quantum field theories
 related to Chern-Simons theory. People have thought about this a lot,
@@ -316,9 +316,9 @@ higher dimensions. However, a lot of this higher-dimensional stuff
 remains very mysterious. Here are two cool papers that make some
 progress in unlocking these mysteries:
 
-6) Marco Mackaay, "Finite groups, spherical 2-categories, and 4-manifold invariants", preprint available as [`math.QA/9903003`](http://xxx.lanl.gov/abs/math.QA/9903003).
+6) Marco Mackaay, "Finite groups, spherical 2-categories, and 4-manifold invariants", preprint available as [`math.QA/9903003`](https://arxiv.org/abs/math.QA/9903003).
 
-7) Mikhail Khovanov, "A categorification of the Jones polynomial", preprint available as [`math.QA/9908171`](http://xxx.lanl.gov/abs/math.QA/9908171).
+7) Mikhail Khovanov, "A categorification of the Jones polynomial", preprint available as [`math.QA/9908171`](https://arxiv.org/abs/math.QA/9908171).
 
 Marco Mackaay spoke about his work in Coimbra, and I had grilled him
 about it in Lisbon beforehand, so I think I understand it pretty well.

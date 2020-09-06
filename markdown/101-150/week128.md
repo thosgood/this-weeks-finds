@@ -106,7 +106,7 @@ who wants to keep up with research on gravity should remember to read
 "Matters of Gravity". I've talked about it before, but here's the
 latest edition:
 
-3) Jorge Pullin, editor, _Matters of Gravity_, vol. 12, available at [`gr-qc/9809031`](http://xxx.lanl.gov/abs/gr-qc/9809031) and at `http://vishnu.nirvana.phys.psu.edu/mog.html`
+3) Jorge Pullin, editor, _Matters of Gravity_, vol. 12, available at [`gr-qc/9809031`](https://arxiv.org/abs/gr-qc/9809031) and at `http://vishnu.nirvana.phys.psu.edu/mog.html`
 
 There's a lot of good stuff in here. Quantum gravity buffs will
 especially be interested in Gary Horowitz's article "A nonperturbative
@@ -219,7 +219,7 @@ in the limit where the triangles have large areas, the amplitude for a
 4-simplex in the Barrett-Crane theory is proportional, not to $\exp(iS)$,
 but to $\cos(S)$:
 
-5) John W. Barrett and Ruth M. Williams, "The asymptotics of an amplitude for the 4-simplex", preprint available as [`gr-qc/9809032`](http://xxx.lanl.gov/abs/gr-qc/9809032).
+5) John W. Barrett and Ruth M. Williams, "The asymptotics of an amplitude for the 4-simplex", preprint available as [`gr-qc/9809032`](https://arxiv.org/abs/gr-qc/9809032).
 
 This argument is not rigorous --- it uses a stationary phase approximation
 that requires further justification. But Regge and Ponzano used a
@@ -227,7 +227,7 @@ similar argument to show the same sort of thing for quantum gravity in 3
 dimensions, and their argument was recently made rigorous by Justin
 Roberts, with a lot of help from Barrett:
 
-6) Justin Roberts, "Classical $6j$-symbols and the tetrahedron", preprint available as [`math-ph/9812013`](http://xxx.lanl.gov/abs/math-ph/9812013).
+6) Justin Roberts, "Classical $6j$-symbols and the tetrahedron", preprint available as [`math-ph/9812013`](https://arxiv.org/abs/math-ph/9812013).
 
 So one expects that with work, one can make Barrett and Williams'
 argument rigorous.
@@ -282,14 +282,14 @@ tetrahedron than the ones Barrett and Crane found. But Barbieri came up
 with a nice argument suggesting that Barrett and Crane had really found
 all of them:
 
-7) Andrea Barbieri, "Space of the vertices of relativistic spin networks", preprint available as [`gr-qc/9709076`](http://xxx.lanl.gov/abs/gr-qc/9709076).
+7) Andrea Barbieri, "Space of the vertices of relativistic spin networks", preprint available as [`gr-qc/9709076`](https://arxiv.org/abs/gr-qc/9709076).
 
 While convincing, this argument was not definitive, since it assumed
 something plausible but not yet proven --- namely, that the "$6j$ symbols
 don't have too many exceptional zeros". Later, Mike Reisenberger came
 up with a completely rigorous argument:
 
-8) Michael P. Reisenberger, "On relativistic spin network vertices", preprint available as [`gr-qc/9809067`](http://xxx.lanl.gov/abs/gr-qc/9809067).
+8) Michael P. Reisenberger, "On relativistic spin network vertices", preprint available as [`gr-qc/9809067`](https://arxiv.org/abs/gr-qc/9809067).
 
 But while this settled the facts of the matter, it left open the
 question of "why" --- why does it take *6* numbers to describe the
@@ -324,7 +324,7 @@ allow one to formulate and prove the zeroth and first laws of black hole
 mechanics in a way that only refers to the geometry of spacetime near
 the horizon. For more details try:
 
-10) Abhay Ashtekar, Chris Beetle and S. Fairhurst, "Isolated horizons: a generalization of black hole mechanics", preprint available as [`gr-qc/9812065`](http://xxx.lanl.gov/abs/gr-qc/9812065).
+10) Abhay Ashtekar, Chris Beetle and S. Fairhurst, "Isolated horizons: a generalization of black hole mechanics", preprint available as [`gr-qc/9812065`](https://arxiv.org/abs/gr-qc/9812065).
 
 This concept also serves as the basis for a forthcoming 2-part paper
 where Ashtekar, Corichi, Krasnov and I compute the entropy of a quantum
@@ -333,7 +333,7 @@ black hole (see ["Week 112"](#week112) for more on this).
 Finally, here are a couple more papers. I don't have time to say much
 about them, but they're both pretty neat:
 
-11) Matthias Arnsdorf and R. S. Garcia, "Existence of spinorial states in pure loop quantum gravity", preprint available as [`gr-qc/9812006`](http://xxx.lanl.gov/abs/gr-qc/9812006).
+11) Matthias Arnsdorf and R. S. Garcia, "Existence of spinorial states in pure loop quantum gravity", preprint available as [`gr-qc/9812006`](https://arxiv.org/abs/gr-qc/9812006).
 
 I'll just quote the abstract:
 
@@ -351,7 +351,7 @@ as asymptotic rotations of space relative to its surroundings. We
 construct states that transform non-trivially under a $2\pi$ rotation:
 gravitational quantum states with fractional spin.
 
-14) Steve Carlip, "Black hole entropy from conformal field theory in any dimension", preprint available as [`hep-th/9812013`](http://xxx.lanl.gov/abs/hep-th/9812013).
+14) Steve Carlip, "Black hole entropy from conformal field theory in any dimension", preprint available as [`hep-th/9812013`](https://arxiv.org/abs/hep-th/9812013).
 
 Again, here's the abstract:
 

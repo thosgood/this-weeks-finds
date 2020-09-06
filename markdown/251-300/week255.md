@@ -166,7 +166,7 @@ You can read about this hypothesis here:
 10) John Baez and James Dolan, Higher-dimensional algebra and
 topological quantum field theory, J.Math.Phys. 36 (1995) 6073-6105 Also
 available as
-arXiv:[q-alg/9503002](http://xxx.lanl.gov/abs/q-alg/9503002).
+arXiv:[q-alg/9503002](https://arxiv.org/abs/q-alg/9503002).
 
 It was an attempt to completely describe the algebraic structure of the
 $n$-category nCob, where:

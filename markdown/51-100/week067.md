@@ -20,7 +20,7 @@ argues that this makes it harder for women to become physicists. (A lot
 of the same comments would apply to mathematics.) It is not a very
 scholarly book, but I wouldn't dismiss it.
 
-2) Stephen W. Hawking, Virtual black holes, available as [`hep-th/9510029`](http://xxx.lanl.gov/abs/hep-th/9510029).
+2) Stephen W. Hawking, Virtual black holes, available as [`hep-th/9510029`](https://arxiv.org/abs/hep-th/9510029).
 
 Hawking likes the "Euclidean path-integral approach" to quantum
 gravity. The word "Euclidean" is a horrible misnomer here, but it
@@ -113,7 +113,7 @@ topologies!\] with large values of the first Betti number\[....\]
 However, in the quantum bubbles picture, one concentrates on spaces with
 large values of the second Betti number."
 
-4) Ted Jacobson, "Thermodynamics of spacetime: the Einstein equation of state", available as [`gr-qc/9504004`](http://xxx.lanl.gov/abs/gr-qc/9504004).
+4) Ted Jacobson, "Thermodynamics of spacetime: the Einstein equation of state", available as [`gr-qc/9504004`](https://arxiv.org/abs/gr-qc/9504004).
 
 Well, here's another paper on quantum gravity, also very good, which
 seems at first to directly contradict Hawking's paper. Actually,
@@ -130,7 +130,7 @@ semiclassical) arguments. It suggests that all sorts of quantum theories
 on the microscale could wind up yielding Einstein's equation on the
 macroscale.
 
-5) Lee Smolin, "The Bekenstein bound, topological quantum field theory and pluralistic quantum field theory", available as [`gr-qc/9508064`](http://xxx.lanl.gov/abs/gr-qc/9508064).
+5) Lee Smolin, "The Bekenstein bound, topological quantum field theory and pluralistic quantum field theory", available as [`gr-qc/9508064`](https://arxiv.org/abs/gr-qc/9508064).
 
 This is a continued exploration of the themes of Smolin's earlier
 paper, reviewed in ["Week 56"](#week56) and
@@ -140,7 +140,7 @@ observers have different Hilbert spaces. This falls out naturally in the
 $n$-categorical approach pursued by Crane (see ["Week 56"](#week56)),
 which I am also busily studying.
 
-6) Rodolfo Gambini, Octavio Obregon and Jorge Pullin, "Towards a loop representation for quantum canonical supergravity", available as [`hep-th/9508036`](http://xxx.lanl.gov/abs/hep-th/9508036).
+6) Rodolfo Gambini, Octavio Obregon and Jorge Pullin, "Towards a loop representation for quantum canonical supergravity", available as [`hep-th/9508036`](https://arxiv.org/abs/hep-th/9508036).
 
 Some knot theorists and quantum group theorists had better take a look
 at this! This paper considers the analog of $\mathrm{SU}(2)$ Chern-Simons theory
@@ -151,7 +151,7 @@ $G\mathrm{SU}(2)$", they could do this stuff nonperturbatively, and maybe get an
 interesting invariant of links and 3-manifolds, and make some physicists
 happy in the process.
 
-7) Roh Suan Tung and Ted Jacobson, "Spinor one-forms as gravitational potentials", available as [`gr-qc/9502037`](http://xxx.lanl.gov/abs/gr-qc/9502037).
+7) Roh Suan Tung and Ted Jacobson, "Spinor one-forms as gravitational potentials", available as [`gr-qc/9502037`](https://arxiv.org/abs/gr-qc/9502037).
 
 This paper writes out a new Lagrangian for general relativity, closely
 related to the action that gives general relativity in the Ashtekar
@@ -160,7 +160,7 @@ work on it someday, it will explain to me the mysterious relation
 between quantum gravity and spinor fields (see the end of
 ["Week 60"](#week60)).
 
-8) Joseph Polchinski and Edward Witten, "Evidence for heterotic --- type I string duality", available as [`hep-th/9510169`](http://xxx.lanl.gov/abs/hep-th/9510169).
+8) Joseph Polchinski and Edward Witten, "Evidence for heterotic --- type I string duality", available as [`hep-th/9510169`](https://arxiv.org/abs/hep-th/9510169).
 
 I'm no string theorist, so I've been lagging vastly behind the new
 work on "dualities" that has revived interest in the subject. Roughly

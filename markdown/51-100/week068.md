@@ -136,9 +136,9 @@ To get deeper into topos theory, try:
 
 Now let me catch up on some things more directly related to physics:
 
-4) Frank Close, "Are glueballs and hybrids found?", available as [`hep-ph/9509245`](http://xxx.lanl.gov/abs/hep-ph/9509245). To appear in Proceedings of Hadron95.
+4) Frank Close, "Are glueballs and hybrids found?", available as [`hep-ph/9509245`](https://arxiv.org/abs/hep-ph/9509245). To appear in Proceedings of Hadron95.
 
-J. Sexton, A. Vaccarino, D. Weingarten, "Numerical evidence for the observation of a scalar glueball", available as [`hep-lat/9510022`](http://xxx.lanl.gov/abs/hep-lat/9510022).
+J. Sexton, A. Vaccarino, D. Weingarten, "Numerical evidence for the observation of a scalar glueball", available as [`hep-lat/9510022`](https://arxiv.org/abs/hep-lat/9510022).
 
 Thanks go to Greg Kilcup for bringing these to my attention. Have they
 found a glueball??? That would be really exciting. What's a glueball,
@@ -179,7 +179,7 @@ addition, I find there to be something charming about the idea that in a
 nonabelian gauge theory we could have a particle made simply of the
 gauge field itself.
 
-5) R. Plaga, "Proposal for an experimental test of the many-worlds interpretation of quantum mechanics", preprint available as [`quant-ph/9510007`](http://xxx.lanl.gov/abs/quant-ph/9510007).
+5) R. Plaga, "Proposal for an experimental test of the many-worlds interpretation of quantum mechanics", preprint available as [`quant-ph/9510007`](https://arxiv.org/abs/quant-ph/9510007).
 
 John Gribbin brought this one to my attention and asked me what I
 thought about it. Basically, the idea here is to isolate an ion from its
@@ -218,7 +218,7 @@ from the hat, as it were. I haven't put much time into analyzing it,
 but some people interested in this sort of thing might enjoy having a go
 at it.
 
-6) Nicholas Landsman, "Against the Wheeler-DeWitt equation", preprint available as [`gr-qc/9510033`](http://xxx.lanl.gov/abs/gr-qc/9510033).
+6) Nicholas Landsman, "Against the Wheeler-DeWitt equation", preprint available as [`gr-qc/9510033`](https://arxiv.org/abs/gr-qc/9510033).
 
 I haven't read this one yet, but I had some nice talks with Landsman
 about his ideas on quantization of constrained systems (see
@@ -250,9 +250,9 @@ but happens to coincide with the latter in the open case.
 
 ------------------------------------------------------------------------
 
-7) Pavel Etingof and David Kazhdan, "Quantization of Lie bialgebras, I", preprint available in AMSTeX form as [`q-alg/9506005`](http://xxx.lanl.gov/abs/q-alg/9506005).
+7) Pavel Etingof and David Kazhdan, "Quantization of Lie bialgebras, I", preprint available in AMSTeX form as [`q-alg/9506005`](https://arxiv.org/abs/q-alg/9506005).
 
-    "Quantization of Poisson algebraic groups and Poisson homogeneous spaces", preprint available in AMSTeX form as [`q-alg/9510020`](http://xxx.lanl.gov/abs/q-alg/9510020).
+    "Quantization of Poisson algebraic groups and Poisson homogeneous spaces", preprint available in AMSTeX form as [`q-alg/9510020`](https://arxiv.org/abs/q-alg/9510020).
 
 It sounds like Etinghof and Kazhdan are making serious progress on some
 questions of Drinfeld about when you can quantize Lie bialgebras and
@@ -260,9 +260,9 @@ their kin. More stuff I need to read! I need to invent a time machine
 and keep running it backwards to make my weekends longer and read this
 stuff!
 
-8) Steve Carlip, "Statistical mechanics and black hole entropy", preprint available as [`gr-qc/9509024`](http://xxx.lanl.gov/abs/gr-qc/9509024).
+8) Steve Carlip, "Statistical mechanics and black hole entropy", preprint available as [`gr-qc/9509024`](https://arxiv.org/abs/gr-qc/9509024).
 
-    Claudio Teitelboim, "Statistical thermodynamics of a black hole in terms of surface fields", preprint available as [`hep-th/9510180`](http://xxx.lanl.gov/abs/hep-th/9510180).
+    Claudio Teitelboim, "Statistical thermodynamics of a black hole in terms of surface fields", preprint available as [`hep-th/9510180`](https://arxiv.org/abs/hep-th/9510180).
 
 Steve Carlip's paper is a nice introduction to recent ideas, many of
 them his, on deriving black hole area/entropy relations by thinking of
@@ -270,9 +270,9 @@ the entropy as associated to degrees of freedom of a field living on the
 event horizon. I haven't read Teitelboim's paper, but it sounds
 related.
 
-9) Jorge Griego, "Is the third coefficient of the Jones knot polynomial a quantum state of gravity?", preprint available as [`gr-qc/9510051`](http://xxx.lanl.gov/abs/gr-qc/9510051).
+9) Jorge Griego, "Is the third coefficient of the Jones knot polynomial a quantum state of gravity?", preprint available as [`gr-qc/9510051`](https://arxiv.org/abs/gr-qc/9510051).
 
-    "The Kauffman bracket and the Jones polynomial in quantum gravity", preprint available as [`gr-qc/9510050`](http://xxx.lanl.gov/abs/gr-qc/9510050).
+    "The Kauffman bracket and the Jones polynomial in quantum gravity", preprint available as [`gr-qc/9510050`](https://arxiv.org/abs/gr-qc/9510050).
 
 In the loop representation of quantum gravity, states of quantum gravity
 give rise to link invariants. Which link invariants, though? The

@@ -70,11 +70,11 @@ it is.
 Now for the papers:
 
 4) "The physical hamiltonian in quantum gravity", by C. Rovelli and L.
-Smolin, 11 pages, preprint available in LaTeX form as [`gr-qc/9308002`](http://xxx.lanl.gov/abs/gr-qc/9308002).
+Smolin, 11 pages, preprint available in LaTeX form as [`gr-qc/9308002`](https://arxiv.org/abs/gr-qc/9308002).
 
     "Fermions in quantum gravity", by H. A. Marales-Tecotl and C. Rovelli, 37
     pages, preprint available in LaTeX form as
-    [`gr-qc/9401011`](http://xxx.lanl.gov/abs/gr-qc/9401011).
+    [`gr-qc/9401011`](https://arxiv.org/abs/gr-qc/9401011).
 
 The Rovelli-Smolin loop variables program proceeds apace! In the former
 paper, Rovelli and Smolin consider quantum gravity coupled to a scalar
@@ -99,7 +99,7 @@ quarks.
 
 5) "Extended loops: a new arena for nonperturbative quantum gravity", by
 C. Di Bartolo, R. Gambini, J. Griego and J. Pullin, 12 pages, preprint
-available in Revtex form as [`gr-qc/9312029`](http://xxx.lanl.gov/abs/gr-qc/9312029).
+available in Revtex form as [`gr-qc/9312029`](https://arxiv.org/abs/gr-qc/9312029).
 
 For a while now, Gambini and collaborators have been developing a
 modified version of the loop representation that appears to be
@@ -126,7 +126,7 @@ also the paper by Gambini and Pullin listed in
 
 6) Ashtekar variables in classical general relativity, by Domenico
 Giulini, 43 pages, preprint available in TeX form as
-[`gr-qc/9312032`](http://xxx.lanl.gov/abs/gr-qc/9312032).
+[`gr-qc/9312032`](https://arxiv.org/abs/gr-qc/9312032).
 
 This was a lecture given at the 117th WE-Heraeus Seminar: "The
 Canonical Formalism in Classical and Quantum General Relativity",

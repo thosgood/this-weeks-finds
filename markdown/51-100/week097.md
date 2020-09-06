@@ -307,7 +307,7 @@ Perhaps the simplest way of beginning to understand this stuff more
 deeply is to understand the wonderful formula proved by Ashtekar and
 Corichi in the following paper:
 
-6) Abhay Ashtekar and Alejandro Corichi, "Gauss linking number and electro-magnetic uncertainty principle", preprint available as [`hep-th/9701136`](http://xxx.lanl.gov/ps/hep-th/9701136).
+6) Abhay Ashtekar and Alejandro Corichi, "Gauss linking number and electro-magnetic uncertainty principle", preprint available as [`hep-th/9701136`](https://arxiv.org/ps/hep-th/9701136).
 
 This formula applies to plain old electromagnetism, or more precisely,
 quantum electrodynamics. If we work in units where $\hbar = 1$, and consider a
@@ -333,7 +333,7 @@ should be of great interest to Vassiliev invariant fans; see
 ["Week 3"](#week3) if you don't know what a Vassiliev invariant
 is.
 
-7) Dror Bar-Natan and Alexander Stoimenow, "The fundamental theorem of Vassiliev invariants", preprint available as [`q-alg/9702009`](http://xxx.lanl.gov/ps/q-alg/9702009).
+7) Dror Bar-Natan and Alexander Stoimenow, "The fundamental theorem of Vassiliev invariants", preprint available as [`q-alg/9702009`](https://arxiv.org/ps/q-alg/9702009).
 
 Let me just quote the abstract here:
 

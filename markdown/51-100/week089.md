@@ -6,7 +6,7 @@ few things about quantum gravity. Last time I mentioned Jorge Pullin's
 newsletter on general relativity, "Matters of Gravity". I am pleased
 to report that it is now available on the world-wide web:
 
-1) Jorge Pullin, ed., _Matters of Gravity_, first 8 issues now available at `http://www.phys.lsu.edu//mog`, or latest issue in LaTeX form as [`gr-qc/9609008`](http://xxx.lanl.gov/abs/gr-qc/9609008).
+1) Jorge Pullin, ed., _Matters of Gravity_, first 8 issues now available at `http://www.phys.lsu.edu//mog`, or latest issue in LaTeX form as [`gr-qc/9609008`](https://arxiv.org/abs/gr-qc/9609008).
 
 Anyone who wants to keep up with the latest news on general relativity
 should certainly read "Matters of Gravity" and MacCallum's list.
@@ -27,7 +27,7 @@ that came out of that workshop I've been talking about:
 
     Abhay Ashtekar, Donald Marolf, Jose Mourao and Thomas Thiemann, "$\mathrm{SU}(N)$ quantum Yang-Mills theory in 2 dimensions: a complete solution".
 
-    Hugo Fort, Rodolfo Gambini and Jorge Pullin, "Lattice knot theory and quantum gravity in the loop representation", also available as [`gr-qc/9608033`](http://xxx.lanl.gov/abs/gr-qc/9608033).
+    Hugo Fort, Rodolfo Gambini and Jorge Pullin, "Lattice knot theory and quantum gravity in the loop representation", also available as [`gr-qc/9608033`](https://arxiv.org/abs/gr-qc/9608033).
 
     Michael Reisenberger, "A left-handed simplicial action for Euclidean GR".
 
@@ -56,14 +56,14 @@ space.
 In ["Week 88"](#week88) I also mentioned a talk by Jerzy
 Lewandowski, which has now appeared as a preprint:
 
-4) Jerzy Lewandowski and Jacek Wilsniewski, "2+1 sector of 3+1 gravity", preprint available as [`gr-qc/9609019`](http://xxx.lanl.gov/abs/gr-qc/9609019).
+4) Jerzy Lewandowski and Jacek Wilsniewski, "2+1 sector of 3+1 gravity", preprint available as [`gr-qc/9609019`](https://arxiv.org/abs/gr-qc/9609019).
 
 Also, Lee Smolin has written a paper arguing that Thiemann's work has
 trouble squaring with the positivity of energy and the existence of
 long-range correlations (i.e., massless gravitons) that one might expect
 from semi-classical approaches to quantum gravity.
 
-5) Lee Smolin, "The classical limit and the form of the Hamiltonian constraint in nonperturbative quantum gravity", preprint available as [`gr-qc/9609034`](http://xxx.lanl.gov/abs/gr-qc/9609034).
+5) Lee Smolin, "The classical limit and the form of the Hamiltonian constraint in nonperturbative quantum gravity", preprint available as [`gr-qc/9609034`](https://arxiv.org/abs/gr-qc/9609034).
 
 This paper has sparked some controversy in the loop representation
 community. Its arguments are heuristic rather than mathematically
@@ -76,7 +76,7 @@ mathematically inclined quantum gravity folks are able either to prove
 Smolin has also written a paper relating the loop representation to
 string theory:
 
-6) Lee Smolin, "Three dimensional strings as collective coordinates of four dimensional quantum gravity", preprint available as [`gr-qc/9609031`](http://xxx.lanl.gov/abs/gr-qc/9609031).
+6) Lee Smolin, "Three dimensional strings as collective coordinates of four dimensional quantum gravity", preprint available as [`gr-qc/9609031`](https://arxiv.org/abs/gr-qc/9609031).
 
 This paper really freaks me out, because it attempts to relate the loop
 representation of quantum gravity in 4-dimensional spacetime to string
@@ -88,7 +88,7 @@ know where to go with it. I need to learn more about this string theory
 duality stuff --- see ["Week 72"](#week72) for my pathetic attempts
 so far to understand it. I haven't read this yet, but I should:
 
-7) Michael Dine, "String theory dualities", preprint available as [`hep-th/9609051`](http://xxx.lanl.gov/abs/hep-th/9609051).
+7) Michael Dine, "String theory dualities", preprint available as [`hep-th/9609051`](https://arxiv.org/abs/hep-th/9609051).
 
 It's an expository article.
 

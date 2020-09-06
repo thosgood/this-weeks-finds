@@ -51,7 +51,7 @@ constraint is right?
 I should add that Pullin and Gambini have another proposal regarding the
 Hamiltonian constraint:
 
-2) Rodolfo Gambini and Jorge Pullin, "The general solution of the quantum Einstein equations?", preprint in Revtex format, 7 figures included with `psfig`, available as [`gr-qc/9603019`](http://xxx.lanl.gov/abs/gr-qc/9603019).
+2) Rodolfo Gambini and Jorge Pullin, "The general solution of the quantum Einstein equations?", preprint in Revtex format, 7 figures included with `psfig`, available as [`gr-qc/9603019`](https://arxiv.org/abs/gr-qc/9603019).
 
 This is not as fully worked out, but it has a certain mathematical charm
 to it so far. Thus we may eventually be in a situation where there are

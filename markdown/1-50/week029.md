@@ -84,7 +84,7 @@ show that every tricategory (as defined by them) is "triequivalent" to
 a category enriched over Gray.
 
 4) "On pentagon and tetrahedron equations", by J. M. Maillet, preprint
-available in LaTeX form as [`hep-th/9312037`](http://xxx.lanl.gov/abs/hep-th/9312037).
+available in LaTeX form as [`hep-th/9312037`](https://arxiv.org/abs/hep-th/9312037).
 
 Maillet shows how to obtain solutions of the tetrahedron equations from
 solutions of pentagon equations; all these geometrical equations are
@@ -94,7 +94,7 @@ part of the theory of 2-categories, and this is yet another example of a
 5) "Homologically twisted invariants related to (2+1)- and
 (3+1)-dimensional state-sum topological quantum field theories", by David
 N. Yetter, preprint, 6 pages, available in LaTeX form as
-[`hep-th/9311082`](http://xxx.lanl.gov/abs/hep-th/9311082).
+[`hep-th/9311082`](https://arxiv.org/abs/hep-th/9311082).
 
 Let me simply quote the abstract: "Motivated by suggestions of Paolo
 Cotta-Ramusino's work at the physical level of rigor relating BF theory

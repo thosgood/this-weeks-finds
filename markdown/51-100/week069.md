@@ -61,7 +61,7 @@ ideas, even my own nutty ideas about $n$-categories and physics.
 Anyway, Isham has recently written a review article on quantum gravity
 that gives a nice overview of the basic issues of the field:
 
-2) C. J. Isham, "Structural issues in quantum gravity", plenary session lecture given at the GR14 conference, Florence, August 1995, preprint available as [`gr-qc/9510063`](http://xxx.lanl.gov/abs/gr-qc/9510063).
+2) C. J. Isham, "Structural issues in quantum gravity", plenary session lecture given at the GR14 conference, Florence, August 1995, preprint available as [`gr-qc/9510063`](https://arxiv.org/abs/gr-qc/9510063).
 
 One interesting thing about it is the emphasis on the question of
 whether spacetime is really a manifold the way we all usually think, or
@@ -119,7 +119,7 @@ As it turns out, they'd made a sign error, and these states have zero
 volume; you need a quadrivalent vertex to get some volume. She has just
 written a paper on this topic:
 
-4) Renate Loll, "Spectrum of the volume operator in quantum gravity", 14 pages in plain tex, with 4 figures (postscript, compressed and uu-encoded), available as [`gr-qc/9511030`](http://xxx.lanl.gov/abs/gr-qc/9511030).
+4) Renate Loll, "Spectrum of the volume operator in quantum gravity", 14 pages in plain tex, with 4 figures (postscript, compressed and uu-encoded), available as [`gr-qc/9511030`](https://arxiv.org/abs/gr-qc/9511030).
 
 The abstract reads as follows:
 

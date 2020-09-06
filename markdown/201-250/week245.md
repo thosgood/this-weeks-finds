@@ -142,7 +142,7 @@ There are, alas, some deficiencies in the semistrict world, which Steve
 Lack has recently noted:
 
 2) Steve Lack, Bicat is not triequivalent to Gray, available as
-[math.CT/0612299](http://xxx.lanl.gov/abs/math.CT/0612299).
+[math.CT/0612299](https://arxiv.org/abs/math.CT/0612299).
 
 To understand this, you may need a little warmup. Given strict
 2-categories B and C there's a strict 2-category \operatorname{Hom}(B,C) such that
@@ -221,7 +221,7 @@ where now we think of both Strict2Cat and Weak2Cat as mere 1-categories.
 You can read more about this idea here:
 
 3) Miles Gould, Coherence for categorified operadic theories, available
-as [math.CT/0607423](http://xxx.lanl.gov/abs/math.CT/0607423).
+as [math.CT/0607423](https://arxiv.org/abs/math.CT/0607423).
 
 On Tuesday night, Mike Shulman gave an introduction to model categories,
 which are a tool developed by Quillen in the late 1960s to unify

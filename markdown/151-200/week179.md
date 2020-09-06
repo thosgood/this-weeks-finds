@@ -7,7 +7,7 @@ like to mention a couple of cool papers he showed me.
 1) Alain Connes and Dirk Kreimer, Renormalization in quantum field
 theory and the Riemann-Hilbert problem I: the Hopf algebra structure of
 graphs and main theorem, Comm. Math. Phys. 210 (2000), 249-273. Also
-available as [`hep-th/9912092`](http://xxx.lanl.gov/abs/hep-th/9912092).
+available as [`hep-th/9912092`](https://arxiv.org/abs/hep-th/9912092).
 
 I've already mentioned Kreimer's work in ["Week 122"](#week122)
 and ["Week 123"](#week123), and since then I've been to a bunch of
@@ -118,7 +118,7 @@ further in another paper:
 theory and the Riemann-Hilbert problem I: the beta-function,
 diffeomorphisms and the renormalization group, Comm. Math. Phys. 216
 (2001), 215-241. Also available as
-[`hep-th/0003188`](http://xxx.lanl.gov/abs/hep-th/0003188).
+[`hep-th/0003188`](https://arxiv.org/abs/hep-th/0003188).
 
 It may even deserve to be called the "renormalization group", which is
 a piece of physics jargon that's been waiting for an interesting group
@@ -189,7 +189,7 @@ paper:
 
 6) David Berenstein, Juan Maldacena and Horatiu Nastase, Strings in
 flat space and pp waves from N = 4 Super Yang Mills, available as
-[`hep-th/0202021`](http://xxx.lanl.gov/abs/hep-th/0202021).
+[`hep-th/0202021`](https://arxiv.org/abs/hep-th/0202021).
 
 However, apart from this piece of gossip, I have very little to report!
 Ask your local string theorist what it's all about.
@@ -198,7 +198,7 @@ Here's another cool paper Minhyong mentioned:
 
 7) Yuri Manin and Matilde Marcolli, Holography principle and arithmetic
 of algebraic curves, available as
-[`hep-th/0201036`](http://xxx.lanl.gov/abs/hep-th/0201036).
+[`hep-th/0201036`](https://arxiv.org/abs/hep-th/0201036).
 
 It talks about Kirill Krasnov's extensive dictionary relating
 everything about Riemann surfaces and 3d hyperbolic geometry to stuff

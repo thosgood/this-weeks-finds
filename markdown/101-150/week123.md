@@ -151,7 +151,7 @@ Grant's article, of how Little's dream is actually achieved.
 Okay, enough science fiction! Time for some real science! Quantum
 gravity, that is. (Stop snickering, you skeptics....)
 
-6) Laurent Freidel and Kirill Krasnov, "Spin foam models and the classical action principle", preprint available as [`hep-th/9807092`](http://xxx.lanl.gov/abs/hep-th/9807092).
+6) Laurent Freidel and Kirill Krasnov, "Spin foam models and the classical action principle", preprint available as [`hep-th/9807092`](https://arxiv.org/abs/hep-th/9807092).
 
 I described the spin foam approach to quantum gravity in
 ["Week 113"](#week113). But let me remind you how the basic idea
@@ -275,7 +275,7 @@ Anyway, on to some other papers. I'm afraid I don't have enough energy
 for detailed descriptions, because I'm busy moving into a new house, so
 I'll basically just point you at them....
 
-7) Abhay Ashtekar, Alejandro Corichi and Jose A. Zapata, "Quantum theory of geometry III: Non-commutativity of Riemannian structures", preprint available as [`gr-qc/9806041`](http://xxx.lanl.gov/abs/gr-qc/9806041).
+7) Abhay Ashtekar, Alejandro Corichi and Jose A. Zapata, "Quantum theory of geometry III: Non-commutativity of Riemannian structures", preprint available as [`gr-qc/9806041`](https://arxiv.org/abs/gr-qc/9806041).
 
 This is the long-awaited third part of a series giving a mathematically
 rigorous formalism for interpreting spin network states as "quantum
@@ -303,7 +303,7 @@ relativity.
 
 Moving on to matters $n$-categorical, we have:
 
-8) Andre Hirschowitz, Carlos Simpson, "Descente pour les $n$-champs" (Descent for $n$-stacks), approximately 240 pages, in French, preprint available as [`math.AG/9807049`](http://xxx.lanl.gov/abs/math.AG/9807049).
+8) Andre Hirschowitz, Carlos Simpson, "Descente pour les $n$-champs" (Descent for $n$-stacks), approximately 240 pages, in French, preprint available as [`math.AG/9807049`](https://arxiv.org/abs/math.AG/9807049).
 
 Apparently this provides a theory of "$n$-stacks", which are the
 $n$-categorical generalization of sheaves. Ever since Grothendieck's
@@ -370,11 +370,11 @@ Okay --- now for something completely different. In
 to write a paper relating Hopf algebras, renormalization, and
 noncommutative geometry. Now it's out:
 
-11) Alain Connes and Dirk Kreimer, "Hopf algebras, renormalization and noncommutative geometry", preprint available as [`hep-th/9808042`](http://xxx.lanl.gov/abs/hep-th/9808042).
+11) Alain Connes and Dirk Kreimer, "Hopf algebras, renormalization and noncommutative geometry", preprint available as [`hep-th/9808042`](https://arxiv.org/abs/hep-th/9808042).
 
 Also, here's an introduction to Kreimer's work:
 
-12) Dirk Kreimer, "How useful can knot and number theory be for loop calculations?", Talk given at the workshop _Loops and Legs in Gauge Theories_, preprint available as [`hep-th/9807125`](http://xxx.lanl.gov/abs/hep-th/9807125).
+12) Dirk Kreimer, "How useful can knot and number theory be for loop calculations?", Talk given at the workshop _Loops and Legs in Gauge Theories_, preprint available as [`hep-th/9807125`](https://arxiv.org/abs/hep-th/9807125).
 
 Switching over to homotopy theory and its offshoots... when I visited
 Dan Christensen at Johns Hopkins this spring, he introduced me to all
@@ -382,7 +382,7 @@ the homotopy theorists there, and Jack Morava gave me a paper which
 really indicates the extent to which new-fangled "quantum topology"
 has interbred with good old-fashioned homotopy theory:
 
-12) Jack Morava, "Quantum generalized cohomology", preprint available as [`math.QA/9807058`](http://xxx.lanl.gov/abs/math.QA/9807058) and `http://hopf.math.purdue.edu/`
+12) Jack Morava, "Quantum generalized cohomology", preprint available as [`math.QA/9807058`](https://arxiv.org/abs/math.QA/9807058) and `http://hopf.math.purdue.edu/`
 
 Again, I'll just quote the abstract rather than venturing my own
 summary:
@@ -396,7 +396,7 @@ values in a category of spectra."
 Finally, Morava has a student who gave me an interesting paper on
 operads and moduli spaces:
 
-13) Satyan L. Devadoss, "Tessellations of moduli spaces and the mosaic operad", preprint available as [`math.QA/9807010`](http://xxx.lanl.gov/abs/math.QA/9807010).
+13) Satyan L. Devadoss, "Tessellations of moduli spaces and the mosaic operad", preprint available as [`math.QA/9807010`](https://arxiv.org/abs/math.QA/9807010).
 
 > "We construct a new (cyclic) operad of 'mosaics' defined by polygons
 with marked diagonals. Its underlying (aspherical) spaces are the sets

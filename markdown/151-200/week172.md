@@ -107,7 +107,7 @@ power law behavior
 $$n^{-3}.$$
 For more details see this fascinating paper:
 
-6) Sergeui N. Dorogovtsev and J.F.F. Mendes, "Evolving networks", available at [`cond-mat/0106144`](http://xxx.lanl.gov/abs/cond-mat/0106144).
+6) Sergeui N. Dorogovtsev and J.F.F. Mendes, "Evolving networks", available at [`cond-mat/0106144`](https://arxiv.org/abs/cond-mat/0106144).
 
 I really love the chart on page 11! It shows the general structure of a
 typical naturally arising large directed graph such as the World-Wide
@@ -151,9 +151,9 @@ similarities.
 I gave a review of spin foam models and an introduction to the following
 new papers:
 
-7) John Baez and J. Daniel Christensen, "Positivity of spin foam amplitudes", available at [`gr-qc/0110044`](http://xxx.lanl.gov/abs/gr-qc/0110044).
+7) John Baez and J. Daniel Christensen, "Positivity of spin foam amplitudes", available at [`gr-qc/0110044`](https://arxiv.org/abs/gr-qc/0110044).
 
-8) J. Daniel Christensen and Greg Egan, "An efficient algorithm for the Riemannian $10j$ symbols", available at [`gr-qc/0110045`](http://xxx.lanl.gov/abs/gr-qc/0110045).
+8) J. Daniel Christensen and Greg Egan, "An efficient algorithm for the Riemannian $10j$ symbols", available at [`gr-qc/0110045`](https://arxiv.org/abs/gr-qc/0110045).
 
 The Riemannian $10j$ symbols are a function of ten spins that serves as
 the amplitude for a spin foam vertex in the Barrett-Crane model of
@@ -222,7 +222,7 @@ models of quantum gravity involving discrete random geometries. But
 right now I'll just discuss something called the IKKT matrix model.
 This was proposed in the following paper:
 
-9) N. Ishibashi, H. Kawai, Y. Kitazawa and T. Tsuchiya, "A large-$N$ reduced model as superstring", _Nucl. Phys._ **B498** (1997) 467--491. Also available as [`hep-th/9612115`](http://xxx.lanl.gov/abs/hep-th/9612115).
+9) N. Ishibashi, H. Kawai, Y. Kitazawa and T. Tsuchiya, "A large-$N$ reduced model as superstring", _Nucl. Phys._ **B498** (1997) 467--491. Also available as [`hep-th/9612115`](https://arxiv.org/abs/hep-th/9612115).
 
 The idea is to provide something like a background-free formulation of
 type IIB string theory. But I don't understand how that's supposed to
@@ -263,11 +263,11 @@ Wheater gave a talk about results saying that the path integral
 converges for this model in certain cases. In particular, it converges
 if $n = 4$, $6$, or $10$. For more details try this:
 
-10) Peter Austing and John F. Wheater, "Convergent Yang-Mills matrix theories", _JHEP_ **0104** (2001) 019. Also available as [`hep-th/0103159`](http://xxx.lanl.gov/abs/hep-th/0103159).
+10) Peter Austing and John F. Wheater, "Convergent Yang-Mills matrix theories", _JHEP_ **0104** (2001) 019. Also available as [`hep-th/0103159`](https://arxiv.org/abs/hep-th/0103159).
 
 Bengt Petersson spoke about computer simulations of the IKKT model:
 
-11) Z. Burda, B. Petersson, J. Tabaczek, "Geometry of reduced supersymmetric 4D Yang-Mills integrals", _Nucl. Phys._ **B602** (2001) 399--409. Also available as [`hep-lat/0012001`](http://xxx.lanl.gov/abs/hep-lat/0012001).
+11) Z. Burda, B. Petersson, J. Tabaczek, "Geometry of reduced supersymmetric 4D Yang-Mills integrals", _Nucl. Phys._ **B602** (2001) 399--409. Also available as [`hep-lat/0012001`](https://arxiv.org/abs/hep-lat/0012001).
 
 Also, Graziano Vernizzi spoke on work still in progress attempting to
 see the compactification of spacetime from 10 to 4 dimensions in
@@ -275,7 +275,7 @@ superstring theory as a natural consequence of a matrix model.
 
 For more on the IKKT model, try this:
 
-12) A. Konechny and A. Schwarz, "Introduction to M(atrix) theory and noncommutative geometry", available at [`hep-th/0012145`](http://xxx.lanl.gov/abs/hep-th/0012145).
+12) A. Konechny and A. Schwarz, "Introduction to M(atrix) theory and noncommutative geometry", available at [`hep-th/0012145`](https://arxiv.org/abs/hep-th/0012145).
 
 There were a lot more talks, but on my way back home I started reading
 some papers about Tarski's "high school algebra problem", so now let
@@ -573,7 +573,7 @@ And here is some more by Noam Elkies:
 > Glad to be of help. I mention the use of modular forms to explain this
 > divisibility by 8 in my paper "A characterization of the $\mathbb{Z}^n$
 > lattice" (_Math Research Letters_ **2** (1995), 321--6 =
-> [`math.NT/9906019`](http://xxx.lanl.gov/abs/math.NT/9906019), and again
+> [`math.NT/9906019`](https://arxiv.org/abs/math.NT/9906019), and again
 > in the first part of my expository article "Lattices, Linear Codes,
 > and Invariants" (_AMS Notices_ **27** (2000), pages 1238--1245 =
 > `http://www.ams.org/notices/200010/fea-elkies-1.pdf`; see the footnote

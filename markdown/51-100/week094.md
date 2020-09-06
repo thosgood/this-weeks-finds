@@ -51,7 +51,7 @@ Now, Frank Wilczek is one of the original discoverers of asymptotic
 freedom. He *is* a real expert. He recently won a prize for this work,
 and he gave a nice talk which he made into a paper:
 
-1) Frank Wilczek, "Asymptotic freedom", preprint available as [`hep-th/9609099`](http://xxx.lanl.gov/abs/hep-th/9609099).
+1) Frank Wilczek, "Asymptotic freedom", preprint available as [`hep-th/9609099`](https://arxiv.org/abs/hep-th/9609099).
 
 Among other things, he gives a nice summary of the work of Nielsen and
 Hughes, which gave the first really easy to understand explanation of

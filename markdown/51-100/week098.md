@@ -86,7 +86,7 @@ ensures the boundary is an event horizon.
 
 Recently Kirill Krasnov has made some progress:
 
-1) Kirill Krasnov, "On statistical mechanics of Schwarzschild black hole", preprint available as [`gr-qc/9605047`](http://xxx.lanl.gov/ps/gr-qc/9605047).
+1) Kirill Krasnov, "On statistical mechanics of Schwarzschild black hole", preprint available as [`gr-qc/9605047`](https://arxiv.org/ps/gr-qc/9605047).
 
 This paper still doesn't get the magic number $1/4$, and Krasnov later
 realized it has a few mistakes in it, but it does something very cool.
@@ -103,7 +103,7 @@ better.
 While I'm at it, I should note the existence of a paper that reworks
 Carlip's calculation from a slightly different angle:
 
-2) Maximo Banados and Andres Gomberoff, "Black hole entropy in the Chern-Simons formulation of 2+1 gravity", preprint available as [`gr-qc/9611044`](http://xxx.lanl.gov/ps/gr-qc/9611044).
+2) Maximo Banados and Andres Gomberoff, "Black hole entropy in the Chern-Simons formulation of 2+1 gravity", preprint available as [`gr-qc/9611044`](https://arxiv.org/ps/gr-qc/9611044).
 
 2+1-dimensional quantum gravity is very simple compared to the
 3+1-dimensional quantum gravity we'd really like to understand: in a
@@ -115,7 +115,7 @@ worth looking at, if you're interested in black hole entropy.
 Speaking of topological quantum field theory and quantum gravity, I just
 finished a paper on these topics:
 
-3) John Baez, "Degenerate solutions of general relativity from topological field theory", preprint available as [`gr-qc/9702051`](http://xxx.lanl.gov/ps/gr-qc/9702051) or in Postscript form at `http://math.ucr.edu/home/baez/deg.ps`.
+3) John Baez, "Degenerate solutions of general relativity from topological field theory", preprint available as [`gr-qc/9702051`](https://arxiv.org/ps/gr-qc/9702051) or in Postscript form at `http://math.ucr.edu/home/baez/deg.ps`.
 
 Let me just summarize the basic idea, resisting the temptation to become
 insanely technical.

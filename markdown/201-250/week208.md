@@ -59,7 +59,7 @@ More recently this idea was reincarnated in the spin network formalism
 by Lee Smolin, with spin network edges replacing wormholes:
 
 3) Lee Smolin, Fermions and topology, available as
-[`gr-qc/9404010`](http://xxx.lanl.gov/abs/gr-qc/9404010).
+[`gr-qc/9404010`](https://arxiv.org/abs/gr-qc/9404010).
 
 A spin network is a gadget with vertices and edges, where the edges
 represent "field lines" - lines of the electric field or the analogous
@@ -77,7 +77,7 @@ kinematics of charged spin-$1/2$ particles this way:
 
 4) John Baez and Kirill Krasnov, Quantization of diffeomorphism-
 invariant theories with fermions,
-[`hep-th/9703112`](http://xxx.lanl.gov/abs/hep-th/9703112).
+[`hep-th/9703112`](https://arxiv.org/abs/hep-th/9703112).
 
 However, the hard problem in quantum gravity is always dynamics.
 
@@ -88,12 +88,12 @@ question in a toy model, 3-dimensional Lorentzian gravity:
 5) Kirill Krasnov, Λ<0 Quantum Gravity in 2+1 Dimensions I: Quantum
 States and Stringy S-Matrix, Class. Quant. Grav. 19 (2002) 3977-3998,
 also available as
-[`hep-th/0112164`](http://xxx.lanl.gov/abs/hep-th/0112164).
+[`hep-th/0112164`](https://arxiv.org/abs/hep-th/0112164).
 
 Kirill Krasnov, Λ<0 Quantum Gravity in 2+1 Dimensions II: Black Hole
 Creation by Point Particles, Class. Quant. Grav. 19 (2002) 3999-4028,
 also available as
-[`hep-th/0202117`](http://xxx.lanl.gov/abs/hep-th/0202117).
+[`hep-th/0202117`](https://arxiv.org/abs/hep-th/0202117).
 
 He saw that in this theory you can indeed think of particles as spin
 network ends - though you don't need to emphasize that viewpoint, since
@@ -109,11 +109,11 @@ found here:
 
 6) Laurent Freidel and David Louapre, Ponzano-Regge model revisited I:
 Gauge fixing, observables and interacting spinning particles, available
-as [`hep-th/0401076`](http://xxx.lanl.gov/abs/hep-th/0401076).
+as [`hep-th/0401076`](https://arxiv.org/abs/hep-th/0401076).
 
 Laurent Freidel and David Louapre, Ponzano-Regge model revisited II:
 Equivalence with Chern-Simons, available as
-[`gr-qc/0410141`](http://xxx.lanl.gov/abs/gr-qc/0410141).
+[`gr-qc/0410141`](https://arxiv.org/abs/gr-qc/0410141).
 
 Freidel showed that if you take this theory and allow spin networks with
 loose ends, they'll act like particles. The spin of these particles is
@@ -163,11 +163,11 @@ wait to see what they're up to now:
 
 7) Artem Starodubtsev, Topological excitations around the vacuum of
 quantum gravity I: The symmetries of the vacuum, available as
-[`hep-th/0306135`](http://xxx.lanl.gov/abs/hep-th/0306135).
+[`hep-th/0306135`](https://arxiv.org/abs/hep-th/0306135).
 
 Artem Starodubtsev and Lee Smolin, General relativity with a topological
 phase: an action principle, available as
-[`hep-th/0311163`](http://xxx.lanl.gov/abs/hep-th/0311163).
+[`hep-th/0311163`](https://arxiv.org/abs/hep-th/0311163).
 
 The basic idea is to treat 4d general relativity with positive
 cosmological constant as a perturbation of a topological quantum field
@@ -276,7 +276,7 @@ part to a line of work started by Kashaev:
 
 9) R. M. Kashaev, Quantization of Teichmueller spaces and the quantum
 dilogarithm, available as
-[q-alg/9705021](http://xxx.lanl.gov/abs/q-alg/9705021).
+[q-alg/9705021](https://arxiv.org/abs/q-alg/9705021).
 
 10) L. Chekhov and V. V. Fock, Quantum Teichmueller space, Theor. Math.
 Phys. 120 (1999) 1245-1259, also available as

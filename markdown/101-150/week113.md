@@ -90,22 +90,22 @@ It would be nice to have a similar geometrical interpretation of spin
 foams dual to triangulations of spacetime. Some recent steps towards
 this can be found in the following papers:
 
-2) John Barrett and Louis Crane, "Relativistic spin networks and quantum gravity", 9 pages, preprint available as [`gr-qc/9709028`](http://xxx.lanl.gov/abs/gr-qc/9709028).
+2) John Barrett and Louis Crane, "Relativistic spin networks and quantum gravity", 9 pages, preprint available as [`gr-qc/9709028`](https://arxiv.org/abs/gr-qc/9709028).
 
-3) John Baez, "Spin foam models", 39 pages, preprint available as [`gr-qc/9709052`](http://xxx.lanl.gov/abs/gr-qc/9709052) or in Postscript
+3) John Baez, "Spin foam models", 39 pages, preprint available as [`gr-qc/9709052`](https://arxiv.org/abs/gr-qc/9709052) or in Postscript
 form as `http://math.ucr.edu/home/baez/foam.ps`
 
 Perhaps I can be forgiven some personal history here. Michael
 Reisenberger has been pushing the idea of spin foams (though not the
 terminology) for quite a while... see for example his paper:
 
-4) Michael Reisenberger, "Worldsheet formulations of gauge theories and gravity", preprint available as [`gr-qc/9412035`](http://xxx.lanl.gov/abs/gr-qc/9412035).
+4) Michael Reisenberger, "Worldsheet formulations of gauge theories and gravity", preprint available as [`gr-qc/9412035`](https://arxiv.org/abs/gr-qc/9412035).
 
 More recently, Carlo Rovelli and he gave a heuristic derivation of a
 spin foam approach to quantum gravity starting with the so-called
 canonical quantization approach:
 
-5) Michael Reisenberger and Carlo Rovelli, '"Sum over surfaces" form of loop quantum gravity', _Phys. Rev._ **D56** (1997), 3490---3508, preprint available as [`gr-qc/9612035`](http://xxx.lanl.gov/abs/gr-qc/9612035).
+5) Michael Reisenberger and Carlo Rovelli, '"Sum over surfaces" form of loop quantum gravity', _Phys. Rev._ **D56** (1997), 3490---3508, preprint available as [`gr-qc/9612035`](https://arxiv.org/abs/gr-qc/9612035).
 
 I started giving talks about spin foams in the spring of this year.
 Following the ideas of Reisenberger and Rovelli, I was trying to
@@ -239,7 +239,7 @@ email. Thus Barrett and Crane's paper, followed by mine, came as a a
 big shock to him! Luckily, this motivated him to hurry and come out with
 a version of his paper:
 
-6) Michael Reisenberger, "A lattice worldsheet sum for 4-d Euclidean general relativity", 50 pages, preprint available as [`gr-qc/9711052`](http://xxx.lanl.gov/abs/gr-qc/9711052).
+6) Michael Reisenberger, "A lattice worldsheet sum for 4-d Euclidean general relativity", 50 pages, preprint available as [`gr-qc/9711052`](https://arxiv.org/abs/gr-qc/9711052).
 
 Let me quote the abstract:
 
@@ -265,7 +265,7 @@ constraint equations which could kill us if we're not dealing with them
 right. Barbieri has suggested a modified version of Barrett and Crane's
 approach which may overcome some problems with the constraints:
 
-7) Andrea Barbieri, "Space of the vertices of relativistic spin networks", 2 pages, preprint available as [`gr-qc/9709076`](http://xxx.lanl.gov/abs/gr-qc/9709076).
+7) Andrea Barbieri, "Space of the vertices of relativistic spin networks", 2 pages, preprint available as [`gr-qc/9709076`](https://arxiv.org/abs/gr-qc/9709076).
 
 John Barrett visited me last week and we made some progress on this
 issue, but it's still very touchy.
@@ -283,7 +283,7 @@ Euclidean case; this needs to be addressed.
 Finally, Crane has written a bit more about the geometrical significance
 of his work with Barrett:
 
-8) Louis Crane, "On the interpretation of relativistic spin networks and the balanced state sum", 4 pages, preprint available as [`gr-qc/9710108`](http://xxx.lanl.gov/abs/gr-qc/9710108).
+8) Louis Crane, "On the interpretation of relativistic spin networks and the balanced state sum", 4 pages, preprint available as [`gr-qc/9710108`](https://arxiv.org/abs/gr-qc/9710108).
 
 Next week I'll talk about other developments in the loop representation
 of quantum gravity, some arising from Thiemann's work on the

@@ -58,20 +58,20 @@ definition:
 I gave a talk on Dolan's and my definition of weak $n$-categories, which
 one can get as follows:
 
-5) John Baez, "An introduction to $n$-categories", to appear in the proceedings of _Category Theory and Computer Science '97_, preprint available as [`q-alg/9705009`](http://xxx.lanl.gov/abs/q-alg/9705009) or in Postscript form at `http://math.ucr.edu/home/baez/ncat.ps`
+5) John Baez, "An introduction to $n$-categories", to appear in the proceedings of _Category Theory and Computer Science '97_, preprint available as [`q-alg/9705009`](https://arxiv.org/abs/q-alg/9705009) or in Postscript form at `http://math.ucr.edu/home/baez/ncat.ps`
 
 Unfortunately Tamsamani was not there to present *his* definition of
 weak $n$-categories, but at least I have learned how to get his papers
 electronically:
 
-6) Zouhair Tamsamani, "Sur des notions de $\infty$-categorie et $\infty$-groupoide non-strictes via des ensembles multi-simpliciaux", preprint available as [`alg-geom/9512006`](http://xxx.lanl.gov/abs/alg-geom/9512006).
+6) Zouhair Tamsamani, "Sur des notions de $\infty$-categorie et $\infty$-groupoide non-strictes via des ensembles multi-simpliciaux", preprint available as [`alg-geom/9512006`](https://arxiv.org/abs/alg-geom/9512006).
 
-    Zouhair Tamsamani, "Equivalence de la theorie homotopique des $n$-groupoides et celle des espaces topologiques $n$-tronques", preprint available as [`alg-geom/9607010`](http://xxx.lanl.gov/abs/alg-geom/9607010).
+    Zouhair Tamsamani, "Equivalence de la theorie homotopique des $n$-groupoides et celle des espaces topologiques $n$-tronques", preprint available as [`alg-geom/9607010`](https://arxiv.org/abs/alg-geom/9607010).
 
 Also, Carlos Simpson has written an interesting paper using Tamsamani's
 definition:
 
-7) Carlos Simpson, "A closed model structure for $n$-categories, internal Hom, $n$-stacks and generalized Seifert-Van Kampen", preprint available as [`alg-geom/9704006`](http://xxx.lanl.gov/abs/alg-geom/9704006).
+7) Carlos Simpson, "A closed model structure for $n$-categories, internal Hom, $n$-stacks and generalized Seifert-Van Kampen", preprint available as [`alg-geom/9704006`](https://arxiv.org/abs/alg-geom/9704006).
 
 In a different but related direction, Masahico Saito discussed a paper
 with Scott Carter and Joachim Rieger in which they come up with a nice
@@ -86,7 +86,7 @@ My student Laurel Langford has translated their work into $n$-category
 theory and shown that "unframed unoriented 2-tangles form the free
 braided monoidal 2-category on one unframed self-dual object":
 
-9) John Baez and Laurel Langford, "2-Tangles", preprint available as [`q-alg/9703033`](http://xxx.lanl.gov/abs/q-alg/9703033) and in Postscript form at `http://math.ucr.edu/home/baez/2tang.ps`
+9) John Baez and Laurel Langford, "2-Tangles", preprint available as [`q-alg/9703033`](https://arxiv.org/abs/q-alg/9703033) and in Postscript form at `http://math.ucr.edu/home/baez/2tang.ps`
 
 This paper summarizes the results; the proofs will appear later.
 

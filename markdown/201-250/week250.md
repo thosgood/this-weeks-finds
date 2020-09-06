@@ -67,7 +67,7 @@ For the "game" version, try this:
 
 2) Nicolas Gisin, Can relativity be considered complete? From Newtonian
 nonlocality to quantum nonlocality and beyond, available as
-[quant-ph/0512168](http://xxx.lanl.gov/abs/quant-ph/0512168).
+[quant-ph/0512168](https://arxiv.org/abs/quant-ph/0512168).
 
 There's a lot more to say about this - especially about the
 "Popescu-Rohrlich box", a mythical device which would let you win all
@@ -80,7 +80,7 @@ But, I don't understand this stuff, so you should just read this:
 
 3) Valerio Scarani, Feats, features and failures of the PR-box,
 available as
-[quant-ph/0603017](http://xxx.lanl.gov/abs/quant-ph/0603017).
+[quant-ph/0603017](https://arxiv.org/abs/quant-ph/0603017).
 
 Okay - now for our Tale. I want to explain double cosets as spans of
 groupoids... but it's best if I start with some special relativity.

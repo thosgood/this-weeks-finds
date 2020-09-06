@@ -105,11 +105,11 @@ quantum gravity; the next week was all about black holes!
 
     For more, try:
 
-    3) Carlo Rovelli, "Loop quantum gravity and black hole physics", preprint available as [`gr-qc/9608032`](http://xxx.lanl.gov/abs/gr-qc/9608032).
+    3) Carlo Rovelli, "Loop quantum gravity and black hole physics", preprint available as [`gr-qc/9608032`](https://arxiv.org/abs/gr-qc/9608032).
 
-        Kirill Krasnov, "The Bekenstein bound and non-perturbative quantum gravity", preprint available as [`gr-qc/9603025`](http://xxx.lanl.gov/abs/gr-qc/9603025).
+        Kirill Krasnov, "The Bekenstein bound and non-perturbative quantum gravity", preprint available as [`gr-qc/9603025`](https://arxiv.org/abs/gr-qc/9603025).
 
-        Kirill Krasnov, "On statistical mechanics of gravitational systems", preprint available as [`gr-qc/9605047`](http://xxx.lanl.gov/abs/gr-qc/9605047).
+        Kirill Krasnov, "On statistical mechanics of gravitational systems", preprint available as [`gr-qc/9605047`](https://arxiv.org/abs/gr-qc/9605047).
 
 - **Friday, July 19th** --- Don Marolf spoke on "Black hole entropy in string
     theory". He attempted valiantly to describe the string-theoretic
@@ -126,11 +126,11 @@ quantum gravity; the next week was all about black holes!
 
     Here are a few papers on this subject by Marolf and Horowitz:
 
-    4) Gary Horowitz, "The origin of black hole entropy in string theory", preprint available as [`gr-qc/9604051`](http://xxx.lanl.gov/abs/gr-qc/9604051).
+    4) Gary Horowitz, "The origin of black hole entropy in string theory", preprint available as [`gr-qc/9604051`](https://arxiv.org/abs/gr-qc/9604051).
 
-        Gary T. Horowitz and Donald Marolf, "Counting states of black strings with traveling waves", preprint available as [`hep-th/9605224`](http://xxx.lanl.gov/abs/hep-th/9605224).
+        Gary T. Horowitz and Donald Marolf, "Counting states of black strings with traveling waves", preprint available as [`hep-th/9605224`](https://arxiv.org/abs/hep-th/9605224).
 
-        Gary T. Horowitz and Donald Marolf, "Counting states of black strings with traveling waves II", preprint available as [`hep-th/9606113`](http://xxx.lanl.gov/abs/hep-th/9606113).
+        Gary T. Horowitz and Donald Marolf, "Counting states of black strings with traveling waves II", preprint available as [`hep-th/9606113`](https://arxiv.org/abs/hep-th/9606113).
 
 - **Monday, July 22nd** --- Kirill Krasnov spoke on "The Einstein-Maxwell
     Theory of Black Hole Entropy". This was a report on attempts to see how
@@ -191,4 +191,4 @@ quantum gravity; the next week was all about black holes!
     Here, by the way, is a paper related to the talk by Pullin discussed in
     ["Week 86"](#week86):
 
-    5) Hugo Fort, Rodolfo Gambini and Jorge Pullin, "Lattice knot theory and quantum gravity in the loop representation", preprint available as [`gr-qc/9608033`](http://xxx.lanl.gov/abs/gr-qc/9608033).
+    5) Hugo Fort, Rodolfo Gambini and Jorge Pullin, "Lattice knot theory and quantum gravity in the loop representation", preprint available as [`gr-qc/9608033`](https://arxiv.org/abs/gr-qc/9608033).

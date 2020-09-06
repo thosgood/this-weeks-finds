@@ -127,7 +127,7 @@ classified, at least modulo a certain conjecture:
 
 2) A. N. Schellekens, Meromorphic c = 24 conformal field theories,
 Comm. Math. Phys. 153 (1993) 159-196. Also available as
-[`hep-th/9205072`](http://xxx.lanl.gov/abs/hep-th/9205072).
+[`hep-th/9205072`](https://arxiv.org/abs/hep-th/9205072).
 
 It's believed there are 71 of them. Which one could describe 3d quantum
 gravity?
@@ -497,7 +497,7 @@ more simply, here:
 
 13) Victor Kac, Classification of infinite-dimensional simple groups of
 supersymmetries and quantum field theory, available as
-[math.QA/9912235](http://xxx.lanl.gov/abs/math.QA/9912235).
+[math.QA/9912235](https://arxiv.org/abs/math.QA/9912235).
 
 All this is reminiscent of how \mathrm{SU}(5) contains the gauge group of the
 Standard Model, namely S(\mathrm{U}(3) \times \mathrm{U}(2)). In particular, the even part of
@@ -588,7 +588,7 @@ Standard Model, available as
 [math-ph/020202](http://arxiv.org/abs/math-ph/020202).
 
 Thomas A. Larsson, Maximal depth implies \mathfrak{su}(3)+\mathfrak{su}(2)+\mathrm{u}(1), available as
-[`hep-th/0208185`](http://xxx.lanl.gov/abs/hep-th/0208185).
+[`hep-th/0208185`](https://arxiv.org/abs/hep-th/0208185).
 
 Alas, E(3|8) gets the hypercharges of some fermions wrong. Larsson
 seems to say this problem also occurs for E(3|6), which would appear to

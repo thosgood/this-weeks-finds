@@ -36,7 +36,7 @@ interesting light on the problem of time.
 
 2) T. Ohtsuki, "Finite type invariants of integral homology 3-spheres", preprint, 1994.
 
-    L. Rozansky, "The trivial connection contribution to Witten's invariant and finite type invariants of rational homology spheres", preprint available as [`q-alg/9505015`](http://xxx.lanl.gov/abs/q-alg/9504015).
+    L. Rozansky, "The trivial connection contribution to Witten's invariant and finite type invariants of rational homology spheres", preprint available as [`q-alg/9505015`](https://arxiv.org/abs/q-alg/9504015).
 
     Stavros Garoufalidis, "On finite type 3-manifold invariants I", MIT preprint, 1995.
 
@@ -93,7 +93,7 @@ notion of "trace". This paper isolates the bare minimum. As one might
 expect if one knows the relation between knot theory and category
 theory, there are lots of nice pictures of tangles in this paper!
 
-5) Michael Reisenberger, "Worldsheet formulations of gauge theories and gravity", University of Utrecht preprint, 1994, available as [`gr-qc/9412035`](http://xxx.lanl.gov/abs/gr-qc/9412035).
+5) Michael Reisenberger, "Worldsheet formulations of gauge theories and gravity", University of Utrecht preprint, 1994, available as [`gr-qc/9412035`](https://arxiv.org/abs/gr-qc/9412035).
 
 The loop representation of a gauge theory describes states as linear
 combinations of loops in space, or more generally, "spin networks".
@@ -107,7 +107,7 @@ for example, BF theory.
 
 And now for some things I *did* manage to finish up on my sabbatical:
 
-6) John Baez and Stephen Sawin, "Functional integration on spaces of connections", available as [`q-alg/9507023`](http://xxx.lanl.gov/abs/q-alg/9507023).
+6) John Baez and Stephen Sawin, "Functional integration on spaces of connections", available as [`q-alg/9507023`](https://arxiv.org/abs/q-alg/9507023).
 
 As I described in ["Week 55"](#week55), it's now possible to set
 up a rigorous version of the loop representation without assuming (as
@@ -118,7 +118,7 @@ this, one needs to ponder rather carefully the complicated ways smooth
 paths, even embedded ones, can intersect (for example, they can
 intersect in a Cantor set).
 
-7) John Baez, Javier P. Muniain and Dardo Piriz, "Quantum gravity hamiltonian for manifolds with boundary", available as [`gr-qc/9501016`](http://xxx.lanl.gov/abs/gr-qc/9501016).
+7) John Baez, Javier P. Muniain and Dardo Piriz, "Quantum gravity hamiltonian for manifolds with boundary", available as [`gr-qc/9501016`](https://arxiv.org/abs/gr-qc/9501016).
 
 When space is a compact manifold with boundary, there is no Hamiltonian
 in quantum gravity, just a Hamiltonian constraint (see

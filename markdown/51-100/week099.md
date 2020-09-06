@@ -12,7 +12,7 @@ structures with faces labelled by spins.
 
 Here are some papers I've come across while here:
 
-1) Lee Smolin, "The future of spin networks", in _The Geometric Universe: Science, Geometry, and the Work of Roger Penrose_, eds. S. Hugget, Paul Tod, and L.J. Mason, Oxford University Press, 1998. Also available as [`gr-qc/9702030`](http://xxx.lanl.gov/abs/gr-qc/9702030).
+1) Lee Smolin, "The future of spin networks", in _The Geometric Universe: Science, Geometry, and the Work of Roger Penrose_, eds. S. Hugget, Paul Tod, and L.J. Mason, Oxford University Press, 1998. Also available as [`gr-qc/9702030`](https://arxiv.org/abs/gr-qc/9702030).
 
 I've spoken a lot about spin networks here on This Week's Finds. They
 were first invented by Penrose as a radical alternative to the usual way
@@ -169,12 +169,12 @@ Actually the notion of 2-Hilbert space didn't arise in this
 simple-minded way. It arose in some work by Daniel Freed on topological
 quantum field theory:
 
-5) "Higher algebraic structures and quantization", by Dan Freed, _Comm. Math. Phys._ **159** (1994), 343--398, preprint available as [`hep-th/9212115`](http://xxx.lanl.gov/ps/hep-th/9212115); see also ["Week 48"](#week48).
+5) "Higher algebraic structures and quantization", by Dan Freed, _Comm. Math. Phys._ **159** (1994), 343--398, preprint available as [`hep-th/9212115`](https://arxiv.org/ps/hep-th/9212115); see also ["Week 48"](#week48).
 
 Later, Louis Crane adopted this notion as part of his program to reduce
 quantum gravity to $n$-category theory:
 
-6) Louis Crane: "Clock and category: is quantum gravity algebraic?", _Jour. Math. Phys._ **36** (1995), 6180--6193, preprint available as [`gr-qc/9504038`](http://xxx.lanl.gov/ps/gr-qc/9504038).
+6) Louis Crane: "Clock and category: is quantum gravity algebraic?", _Jour. Math. Phys._ **36** (1995), 6180--6193, preprint available as [`gr-qc/9504038`](https://arxiv.org/ps/gr-qc/9504038).
 
 These papers made is clear that 2-Hilbert spaces are interesting things
 and that one should go further and think about "$n$-Hilbert spaces" for
@@ -183,7 +183,7 @@ higher $n$, too. However, neither of them gave a precise definition of
 for me to learn enough category theory, but eventually I wrote something
 about it:
 
-7) John Baez, "Higher-dimensional algebra II: 2-Hilbert spaces", to appear in _Adv. Math._, preprint available as [`q-alg/9609018`](http://xxx.lanl.gov/ps/q-alg/9609018) or at `http://math.ucr.edu/home/baez/`
+7) John Baez, "Higher-dimensional algebra II: 2-Hilbert spaces", to appear in _Adv. Math._, preprint available as [`q-alg/9609018`](https://arxiv.org/ps/q-alg/9609018) or at `http://math.ucr.edu/home/baez/`
 
 To understand this requires a little category theory, so let me explain
 the basic ideas here.

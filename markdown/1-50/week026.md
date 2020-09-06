@@ -10,7 +10,7 @@ different subjects...
 
 1) "Cosmology, time's arrow, and that old double standard", by Huw
 Price, 26 pages, in LaTeX with 3 figures appended as postscript file,
-available as [`gr-qc/9310022`](http://xxx.lanl.gov/abs/gr-qc/9310022).
+available as [`gr-qc/9310022`](https://arxiv.org/abs/gr-qc/9310022).
 (Written for Time's Arrows Today Conference, UBC, Vancouver, June 1992;
 forthcoming in Savitt, S., ed., _Time's Arrows Today_, Cambridge
 University Press, 1994.)
@@ -222,7 +222,7 @@ problem. Interestingly, Price acknowledges Zeh in his paper.
 
 3) "Chromodynamics and gravity as theories on loop space", by R. Loll, 56
 pages, 10 figures (postscript, compressed and uuencoded), TeX, available
-as [`hep-th/9309056`](http://xxx.lanl.gov/abs/hep-th/9309056).
+as [`hep-th/9309056`](https://arxiv.org/abs/hep-th/9309056).
 
 This is an especially thorough review of work on the loop representation
 of gauge theories, especially the theories of the strong force and
@@ -238,7 +238,7 @@ problems just because they are difficult and can be temporarily ignored.
 4) "Intersecting braids and intersecting knot theory", by Daniel
 Armand-Ugon, Rodolfo Gambini and Pablo Mora, Latex 14 pages (6 figures
 included), available as
-[`hep-th/9309136`](http://xxx.lanl.gov/abs/hep-th/9309136).
+[`hep-th/9309136`](https://arxiv.org/abs/hep-th/9309136).
 
 There are a lot of hints that classical knot theory, which only
 considers a circle smoothly embedded in space, is only the tip of a very

@@ -3,7 +3,7 @@
 1) "Mathematical problems of non-perturbative quantum general relativity
 (lectures delivered at the 1992 Les Houches summer school on Gravitation
 and Quantization)", by Abhay Ashtekar, 87 pp, Plain TeX, available as
-[`gr-qc/9302024`](http://xxx.lanl.gov/abs/gr-qc/9302024).
+[`gr-qc/9302024`](https://arxiv.org/abs/gr-qc/9302024).
 
 I described this paper in ["Week 3"](#week3), but now it's
 available from gr-qc. It's a good quick introduction to the loop
@@ -171,7 +171,7 @@ much in trying to quantize gravity. I may eventually get around to
 writing about that, but for now, read the book!
 
 3) "We are not stuck with gluing", by David Yetter and Louis Crane,
-preprint available as [`hep-th/9302118`](http://xxx.lanl.gov/abs/hep-th/9302118) in latex form, 2 pages.
+preprint available as [`hep-th/9302118`](https://arxiv.org/abs/hep-th/9302118) in latex form, 2 pages.
 
 Well, in ["Week 2"](#week2) I mentioned Crane and Yetter's
 marvelous construction of a 4d topological quantum field theory using
@@ -186,7 +186,7 @@ out.
 
 4) "The initial value problem in light of Ashtekar's variables", by R.
 Capovilla, J. Dell and T. Jacobson, preprint available as
-[`gr-qc/9302020`](http://xxx.lanl.gov/abs/gr-qc/9302020), 15 pages.
+[`gr-qc/9302020`](https://arxiv.org/abs/gr-qc/9302020), 15 pages.
 
 The advantage of Ashtekar's new variables is that the simplify the form
 of the constraint equations one gets in the initial-value problem for
@@ -196,7 +196,7 @@ of states of quantum gravity defined by link invariants. Here the above
 authors are trying to apply the new variables to the *classical* theory.
 
 5) "Combinatorial expression for universal Vassiliev link invariant", by
-Sergey Piunikhin, preprint available as [`hep-th/9302084`](http://xxx.lanl.gov/abs/hep-th/9302084)
+Sergey Piunikhin, preprint available as [`hep-th/9302084`](https://arxiv.org/abs/hep-th/9302084)
 
 Somebody ought to teach those Russians how to use the word "the" now
 that the cold war is over. Anyway, this paper defines a kind of

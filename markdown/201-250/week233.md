@@ -11,7 +11,7 @@ preons, available as
 
 2) Sundance O. Bilson-Thompson, Fotini Markopoulou, and Lee Smolin,
 Quantum gravity and the Standard Model,
-[`hep-th/0603022`](http://xxx.lanl.gov/abs/hep-th/0603022).
+[`hep-th/0603022`](https://arxiv.org/abs/hep-th/0603022).
 
 It's a very speculative idea: they've found some interesting
 relations, but nobody knows if these are coincidental or not.

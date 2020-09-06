@@ -46,7 +46,7 @@ of authors, she helped write this paper, based on data taken from the
 1) The LIGO Scientific Collaboration, Analysis of LIGO data for
 gravitational waves from binary neutron stars, Phys. Rev. D69 (2004),
 122001. Also available at
-[`gr-qc/0308069`](http://xxx.lanl.gov/abs/gr-qc/0308069).
+[`gr-qc/0308069`](https://arxiv.org/abs/gr-qc/0308069).
 
 She's one of the folks with an intimate knowledge of the experimental
 setup, who keeps the theorists' feet on the ground while they stare up
@@ -241,7 +241,7 @@ ripples that only wiggle a few times as we scan all around the sky:
 Dodecahedral space topology as an explanation for weak wide-angle
 temperature correlations in the cosmic microwave background, Nature 425
 (2003), 593. Also available as
-[`astro-ph/0310253`](http://xxx.lanl.gov/abs/astro-ph/0310253).
+[`astro-ph/0310253`](https://arxiv.org/abs/astro-ph/0310253).
 
 The idea is that if we lived in a Poincare homology sphere, we'd see
 several images of each very distant point in the universe. So, any
@@ -254,7 +254,7 @@ see the same distant galaxies in several different directions:
 6) Neil J. Cornish, David N. Spergel, Glenn D. Starkman and Eiichiro
 Komatsu, Constraining the topology of the universe, Phys. Rev. Lett. 92
 (2004) 201302. Also available as
-[`astro-ph/0310233`](http://xxx.lanl.gov/abs/astro-ph/0310233).
+[`astro-ph/0310233`](https://arxiv.org/abs/astro-ph/0310233).
 
 For a good review of this stuff, see:
 

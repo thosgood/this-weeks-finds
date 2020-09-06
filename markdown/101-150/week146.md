@@ -41,7 +41,7 @@ Of course, it's fun to think about such ideas and difficult to get
 anywhere with them. But tonight when I was nosing around the web, I
 found out that someone has already developed and published this idea:
 
-1) Max Tegmark, 'Is the "theory of everything" merely the ultimate ensemble theory?', _Ann. Phys._ **270** (1998), 1--51, preprint available as [`gr-qc/9704009`](http://xxx.lanl.gov/abs/gr-qc/9704009).
+1) Max Tegmark, 'Is the "theory of everything" merely the ultimate ensemble theory?', _Ann. Phys._ **270** (1998), 1--51, preprint available as [`gr-qc/9704009`](https://arxiv.org/abs/gr-qc/9704009).
 
     Max Tegmark, "Which mathematical structure is isomorphic to the universe?", `http://www.hep.upenn.edu/~max/toe.html`
 
@@ -69,11 +69,11 @@ context.
 
 Here are some of their papers:
 
-4) J. Ambjorn, J. Correia, C. Kristjansen, and R. Loll, "On the relation between Euclidean and Lorentzian 2d quantum gravity", preprint avilable as [`hep-th/9912267`](http://xxx.lanl.gov/abs/hep-th/9912267).
+4) J. Ambjorn, J. Correia, C. Kristjansen, and R. Loll, "On the relation between Euclidean and Lorentzian 2d quantum gravity", preprint avilable as [`hep-th/9912267`](https://arxiv.org/abs/hep-th/9912267).
 
-    J. Ambjorn, J. Jurkiewicz and R. Loll, "Lorentzian and Euclidean quantum gravity --- analytical and numerical results", preprint available as [`hep-th/0001124`](http://xxx.lanl.gov/abs/hep-th/0001124).
+    J. Ambjorn, J. Jurkiewicz and R. Loll, "Lorentzian and Euclidean quantum gravity --- analytical and numerical results", preprint available as [`hep-th/0001124`](https://arxiv.org/abs/hep-th/0001124).
 
-    J. Ambjorn, J. Jurkiewicz and R. Loll, "A non-perturbative Lorentzian path integral for gravity", preprint avilable as [`hep-th/0002050`](http://xxx.lanl.gov/abs/hep-th/0002050).
+    J. Ambjorn, J. Jurkiewicz and R. Loll, "A non-perturbative Lorentzian path integral for gravity", preprint avilable as [`hep-th/0002050`](https://arxiv.org/abs/hep-th/0002050).
 
 The last paper is especially interesting to me, since it tackles the
 problem of defining a path integral for 3+1-dimensional Lorentzian
@@ -93,7 +93,7 @@ expect of an operator of the form $\exp(-tH)$.
 Speaking of Wick rotations in quantum gravity, here's another paper to
 think about:
 
-5) Abhay Ashtekar, Donald Marolf, Jose Mourao and Thomas Thiemann, "Osterwalder-Schrader reconstruction and diffeomorphism invariance", preprint available as [`quant-ph/9904094`](http://xxx.lanl.gov/abs/quant-ph/9904094).
+5) Abhay Ashtekar, Donald Marolf, Jose Mourao and Thomas Thiemann, "Osterwalder-Schrader reconstruction and diffeomorphism invariance", preprint available as [`quant-ph/9904094`](https://arxiv.org/abs/quant-ph/9904094).
 
 The Osterwalder-Shrader theorem is the result people use when they want
 to *rigorously* justify Wick rotations. Here these authors generalize it
@@ -109,7 +109,7 @@ with the detailed paper. In the meantime, Ashtekar has written a couple
 of pedagogical accounts explaining the basic idea. I mentioned one he
 wrote with Krasnov in ["Week 120"](#week120), and here's another:
 
-6) Abhay Ashtekar, "Interface of general relativity, quantum physics and statistical mechanics: some recent developments", to appear in _Annalen der Physik_, preprint available as [`gr-qc/9910101`](http://xxx.lanl.gov/abs/gr-qc/9910101).
+6) Abhay Ashtekar, "Interface of general relativity, quantum physics and statistical mechanics: some recent developments", to appear in _Annalen der Physik_, preprint available as [`gr-qc/9910101`](https://arxiv.org/abs/gr-qc/9910101).
 
 Let me just quote the abstract --- I can't bear to talk about this any
 more until the actual paper is finished:
@@ -134,13 +134,13 @@ There have also been a number of papers working out the details of the
 classical notion of "isolated horizon" --- I've mentioned some already,
 but let me just list them all here:
 
-7) Abhay Ashtekar, Alejandro Corichi, and Kirill Krasnov, "Isolated horizons: the classical phase space", preprint available as [`gr-qc/9905089`](http://xxx.lanl.gov/abs/gr-qc/9905089).
+7) Abhay Ashtekar, Alejandro Corichi, and Kirill Krasnov, "Isolated horizons: the classical phase space", preprint available as [`gr-qc/9905089`](https://arxiv.org/abs/gr-qc/9905089).
 
-    Abhay Ashtekar, Christopher Beetle, and Stephen Fairhurst, "Mechanics of isolated horizons", _Class. Quant. Grav._ **17** (2000) 253--298, preprint available as [`gr-qc/9907068`](http://xxx.lanl.gov/abs/gr-qc/9907068).
+    Abhay Ashtekar, Christopher Beetle, and Stephen Fairhurst, "Mechanics of isolated horizons", _Class. Quant. Grav._ **17** (2000) 253--298, preprint available as [`gr-qc/9907068`](https://arxiv.org/abs/gr-qc/9907068).
 
-    Abhay Ashtekar and Alejandro Corichi, "Laws governing isolated horizons: inclusion of dilaton couplings", preprint available as [`gr-qc/9910068`](http://xxx.lanl.gov/abs/gr-qc/9910068).
+    Abhay Ashtekar and Alejandro Corichi, "Laws governing isolated horizons: inclusion of dilaton couplings", preprint available as [`gr-qc/9910068`](https://arxiv.org/abs/gr-qc/9910068).
 
-    Jerzy Lewandowski, "Space-times admitting isolated horizons", preprint available as [`gr-qc/9907058`](http://xxx.lanl.gov/abs/gr-qc/9907058).
+    Jerzy Lewandowski, "Space-times admitting isolated horizons", preprint available as [`gr-qc/9907058`](https://arxiv.org/abs/gr-qc/9907058).
 
 Lewandowski's paper is important because it gets serious about studying
 rotating isolated horizons --- this makes me feel a lot more optimistic
@@ -153,7 +153,7 @@ forward the general picture of spin foams as Feynman diagrams,
 generalizing the old work of Boulatov and Ooguri, and the newer work of
 De Pietri et al. Again, I'll just quote the abstracts....
 
-8) Michael Reisenberger and Carlo Rovelli, "Spin foams as Feynman diagrams", preprint available as [`gr-qc/0002083`](http://xxx.lanl.gov/abs/gr-qc/0002083).
+8) Michael Reisenberger and Carlo Rovelli, "Spin foams as Feynman diagrams", preprint available as [`gr-qc/0002083`](https://arxiv.org/abs/gr-qc/0002083).
 
 > It has been recently shown that a certain non-topological spin foam
 > model can be obtained from the Feynman expansion of a field theory
@@ -168,7 +168,7 @@ De Pietri et al. Again, I'll just quote the abstracts....
 > extended to a sum over triangulations. More precisely, it is extended
 > to a sum over 2-complexes.
 
-9) Michael Reisenberger and Carlo Rovelli, "Spacetime as a Feynman diagram: the connection formulation", preprint available as [`gr-qc/0002095`](http://xxx.lanl.gov/abs/gr-qc/0002095).
+9) Michael Reisenberger and Carlo Rovelli, "Spacetime as a Feynman diagram: the connection formulation", preprint available as [`gr-qc/0002095`](https://arxiv.org/abs/gr-qc/0002095).
 
 > Spin foam models are the path integral counterparts to loop quantized
 > canonical theories. In the last few years several spin foam models of
@@ -186,12 +186,12 @@ De Pietri et al. Again, I'll just quote the abstracts....
 > foam model in a wide class which includes several gravity models. Such
 > a field theory was recently found for a particular gravity model \[De
 > Pietri et al,
-> [`hep-th/9907154`](http://xxx.lanl.gov/abs/hep-th/9907154)\]. Our work
+> [`hep-th/9907154`](https://arxiv.org/abs/hep-th/9907154)\]. Our work
 > generalizes this result as well as Boulatov's and Ooguri's models of
 > three and four dimensional topological field theories, and ultimately
 > the old matrix models of two dimensional systems with dynamical
 > topology. A first version of our result has appeared in a companion
-> paper \[[`gr-qc/0002083`](http://xxx.lanl.gov/abs/gr-qc/0002083)\]: here
+> paper \[[`gr-qc/0002083`](https://arxiv.org/abs/gr-qc/0002083)\]: here
 > we present a new and more detailed derivation based on the connection
 > formulation of the spin foam models.
 
@@ -213,11 +213,11 @@ tackle the crucial issue of the Hamiltonian constraint using this
 Vassiliev approach, and get results startlingly similar to those
 obtained by Thiemann using the spin network approach:
 
-10) Cayetano Di Bartolo, Rodolfo Gambini, Jorge Griego, and Jorge Pullin, "Consistent canonical quantization of general relativity in the space of Vassiliev invariants", preprint available as [`gr-qc/9909063`](http://xxx.lanl.gov/abs/gr-qc/9909063).
+10) Cayetano Di Bartolo, Rodolfo Gambini, Jorge Griego, and Jorge Pullin, "Consistent canonical quantization of general relativity in the space of Vassiliev invariants", preprint available as [`gr-qc/9909063`](https://arxiv.org/abs/gr-qc/9909063).
 
-    "Canonical quantum gravity in the Vassiliev invariants arena: I. Kinematical structure", preprint available as [`gr-qc/9911009`](http://xxx.lanl.gov/abs/gr-qc/9911009).
+    "Canonical quantum gravity in the Vassiliev invariants arena: I. Kinematical structure", preprint available as [`gr-qc/9911009`](https://arxiv.org/abs/gr-qc/9911009).
 
-    "Canonical quantum gravity in the Vassiliev invariants arena: II. Constraints, habitats and consistency of the constraint algebra", preprint available as [`gr-qc/9911010`](http://xxx.lanl.gov/abs/gr-qc/9911010).
+    "Canonical quantum gravity in the Vassiliev invariants arena: II. Constraints, habitats and consistency of the constraint algebra", preprint available as [`gr-qc/9911010`](https://arxiv.org/abs/gr-qc/9911010).
 
 Finally, Martin Bojowald has written a couple of papers applying the
 loop approach to quantum cosmology. The idea is to apply loop
@@ -225,8 +225,8 @@ quantization to a "minisuperspace" --- a phase space describing only
 those solutions of general relativity that have a certain large symmetry
 group.
 
-11) Martin Bojowald, "Loop Quantum Cosmology I: Kinematics", preprint available as [`gr-qc/9910103`](http://xxx.lanl.gov/abs/gr-qc/9910103).
+11) Martin Bojowald, "Loop Quantum Cosmology I: Kinematics", preprint available as [`gr-qc/9910103`](https://arxiv.org/abs/gr-qc/9910103).
 
-    Martin Bojowald, "Loop Quantum Cosmology II: Volume Operators", [`gr-qc/9910104`](http://xxx.lanl.gov/abs/gr-qc/9910104).
+    Martin Bojowald, "Loop Quantum Cosmology II: Volume Operators", [`gr-qc/9910104`](https://arxiv.org/abs/gr-qc/9910104).
 
 ------------------------------------------------------------------------

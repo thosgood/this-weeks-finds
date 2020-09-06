@@ -138,7 +138,7 @@ say when two links come from the same braid, there are moves for
 
 7) "Combinatorial Invariants from Four Dimensional Lattice Models: II",
 by Danny Birmingham and Mark Rakowski, preprint available in LaTeX form
-as [`hep-th/9305022`](http://xxx.lanl.gov/abs/hep-th/9305022).
+as [`hep-th/9305022`](https://arxiv.org/abs/hep-th/9305022).
 
 The previous paper obtains some invariants of 4-manifolds by
 triangulating them and doing a kind of "state sum" much like those I
@@ -148,7 +148,7 @@ gets the answer "1". This seems to be happening a lot lately.
 
 8) A note on the four-dimensional Kirby calculus, by Boguslaw Broda,
 preprint, 5 pages in TeX available as
-[`hep-th/9305101`](http://xxx.lanl.gov/abs/hep-th/9305101).
+[`hep-th/9305101`](https://arxiv.org/abs/hep-th/9305101).
 
 An earlier attempt by Broda to construct 4-manifold invariants along
 similar lines was discussed here in ["Week 9"](#week9) and
@@ -159,7 +159,7 @@ for the earlier invariant being trivial do not apply. Here's hoping!
 9) "Solutions to the Wheeler DeWitt Constraint of Canonical Gravity
 Coupled to Scalar Matter Fields", by H.-J. Matschull, preprint, 7 pages
 in LaTeX available as
-[`gr-qc/9305025`](http://xxx.lanl.gov/abs/gr-qc/9305025).
+[`gr-qc/9305025`](https://arxiv.org/abs/gr-qc/9305025).
 
 One very important technical issue in the loop representation of quantum
 gravity is how to introduce matter fields into the picture. Let quote:
@@ -173,7 +173,7 @@ Smolin.
 
 10) "Hilbert space of wormholes", by Luis J. Garay, preprint, 23 pages (2
 figures available upon request from `garay@cc.csic.es`) available in
-REVTEX as [`gr-qc/9306002`](http://xxx.lanl.gov/abs/gr-qc/9306002).
+REVTEX as [`gr-qc/9306002`](https://arxiv.org/abs/gr-qc/9306002).
 
 I think I'll just quote the abstract on this one:
 
@@ -193,7 +193,7 @@ I think I'll just quote the abstract on this one:
 
 11) "Chern-Simons theory as topological closed string", Vipul Periwal,
 preprint, 7 pages available as
-[`hep-th/9305115`](http://xxx.lanl.gov/abs/hep-th/9305115).
+[`hep-th/9305115`](https://arxiv.org/abs/hep-th/9305115).
 
 Lately people have been getting interested in gauge theories that can be
 interpreted as closed string field theories. I mentioned one recent

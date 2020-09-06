@@ -50,9 +50,9 @@ invariants are:
 
 2) "Monopoles and four-manifolds", by Edward Witten, in preparation.
 
-    "Electric-magnetic duality, monopole condensation, and confinement in $N=2$ supersymmetric Yang-Mills theory", by Edward Witten and Nathan Seiberg, 45 pages, available as [`hep-th/9407087`](http://xxx.lanl.gov/abs/hep-th/9407087).
+    "Electric-magnetic duality, monopole condensation, and confinement in $N=2$ supersymmetric Yang-Mills theory", by Edward Witten and Nathan Seiberg, 45 pages, available as [`hep-th/9407087`](https://arxiv.org/abs/hep-th/9407087).
 
-    "Monopoles, duality and chiral symmetry breaking in $N=2$ supersymmetric QCD", by Edward Witten and Nathan Seiberg, 89 pages, available as [`hep-th/9408099`](http://xxx.lanl.gov/abs/hep-th/9408099).
+    "Monopoles, duality and chiral symmetry breaking in $N=2$ supersymmetric QCD", by Edward Witten and Nathan Seiberg, 89 pages, available as [`hep-th/9408099`](https://arxiv.org/abs/hep-th/9408099).
 
 Differential geometers attempting to read the second two papers will
 find that they contain no instance of the term "Donaldson theory", and
