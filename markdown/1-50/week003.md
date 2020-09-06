@@ -47,7 +47,7 @@ something very special about three dimensions.)
 
 Similarly, if one uses complex numbers instead of real numbers, one gets
 a group $\mathrm{SU}(n)$ and Lie algebra $\mathfrak{su}(n)$. And if one looks at the symmetries
-of a 2n-dimensional classical phase space --- so-called canonical
+of a $2n$-dimensional classical phase space --- so-called canonical
 transformations, or symplectic transformations --- one gets the group
 $\mathrm{Sp}(n)$ and Lie algebra $\mathfrak{sp}(n)$. To be precise, $\mathrm{SO}(n)$ consists of all $n\times n$
 orthogonal real matrices with determinant $1$, $\mathrm{SU}(n)$ consists of all $n\times n$
