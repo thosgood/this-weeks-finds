@@ -495,52 +495,111 @@ $$
   \end{tikzpicture}
 $$
 together with the left and right unit laws:
-
-                   |             |           |  
-                   |             |           |  
-                   |             |           |  
-            i      |             |           |      i
-            |      |             |           |      |
-            |      |             |           |      |
-             \     |             |           |     /
-              \   /              |            \   /
-               \ /       =       |     =       \ /
-                m                |              m
-                |                |              |
-                |                |              |
-                |                |              |
-                |                |              |
-                |                |              |
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0.5) to (0,0);
+      \strand[thick] (1,1.5) to (1,0);
+      \strand[thick] (0,0)
+        to [out=down,in=up] (0.5,-1)
+        to (0.5,-2);
+      \strand[thick] (1,0)
+        to [out=down,in=up] (0.5,-1);
+    \end{knot}
+    \node[label=left:{$i$}] at (0,0.5) {$\bullet$};
+    \node[label=left:{$m$}] at (0.5,-0.95) {$\bullet$};
+    \node at (2,-0.25) {$=$};
+    \begin{knot}
+      \strand[thick] (3,1.5) to (3,-2);
+    \end{knot}
+    \node at (4,-0.25) {$=$};
+    \begin{scope}[xscale=-1,shift={(-6,0)}]
+      \begin{knot}
+        \strand[thick] (0,0.5) to (0,0);
+        \strand[thick] (1,1.5) to (1,0);
+        \strand[thick] (0,0)
+          to [out=down,in=up] (0.5,-1)
+          to (0.5,-2);
+        \strand[thick] (1,0)
+          to [out=down,in=up] (0.5,-1);
+      \end{knot}
+      \node[label=right:{$i$}] at (0,0.5) {$\bullet$};
+      \node[label=left:{$m$}] at (0.5,-0.95) {$\bullet$};
+    \end{scope}
+  \end{tikzpicture}
+$$
 and best of all, the equation
 $$g(xy,x'y') + g(xy',x'y) = 2 g(x,x') g(y,y')$$
 translated into pictures like this:
-
-     \   /   \   /       \     \   /     /          \     \   /     /
-      \ /     \ /         \     \ /     /            \     \ /     /
-       m       m     +     \     m     /      =  2    \     /     /
-        \     /             \    |    /                \___/ \___/
-         \___/               \  /    /                   g     g
-           g                   /    /
-                              /  \ /
-                             |    m
-                              \__/
-                                 g
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+        to [out=down,in=up] (0.5,-1)
+        to (0.5,-1.5);
+      \strand[thick] (1,0)
+        to [out=down,in=up] (0.5,-1);
+      \strand[thick] (1.5,0)
+        to [out=down,in=up] (2,-1)
+        to (2,-1.5);
+      \strand[thick] (2.5,0)
+        to [out=down,in=up] (2,-1);
+      \strand[thick] (0.5,-1.5)
+        to [out=down,in=down,looseness=2] (2,-1.5);
+    \end{knot}
+    \node[label=left:{$m$}] at (0.5,-0.95) {$\bullet$};
+    \node[label=right:{$m$}] at (2,-0.95) {$\bullet$};
+    \node[label=below:{$g$}] at (1.25,-2.4) {$\bullet$};
+    \node at (3.5,-1.5) {$+$};
+    \begin{scope}[shift={(4.5,0)}]
+      \begin{knot}[clip width=7]
+        \strand[thick] (0,0)
+          to (0,-1)
+          to [out=down,in=up] (1.25,-2);
+        \strand[thick] (0.75,0)
+          to [out=down,in=up] (1.25,-1)
+          to [out=down,in=up] (0,-2)
+          to [out=down,in=down,looseness=2] (1.25,-2);
+        \strand[thick] (1.75,0)
+          to [out=down,in=up] (1.25,-1);
+        \strand[thick] (2.5,0) to (2.5,-1)
+          to [out=down,in=up] (1.25,-2);
+        \flipcrossings{1}
+      \end{knot}
+      \node[label=left:{$m$}] at (1.25,-0.95) {$\bullet$};
+      \node[label=right:{$m$}] at (1.25,-1.95) {$\bullet$};
+      \node[label=below:{$g$}] at (0.625,-2.74) {$\bullet$};
+    \end{scope}
+    \node at (8,-1.5) {$=$};
+    \node at (9,-1.5) {$2\,\,\times$};
+    \begin{scope}[shift={(9.7,-1.1)}]
+      \begin{knot}[clip width=7]
+        \strand[thick] (0,0)
+          to [out=down,in=down,looseness=2] (1.5,0);
+        \strand[thick] (1,0)
+          to [out=down,in=down,looseness=2] (2.5,0);
+      \end{knot}
+      \node [label=below:{$g$}] at (0.75,-0.88) {$\bullet$};
+      \node [label=below:{$g$}] at (1.75,-0.88) {$\bullet$};
+    \end{scope}
+  \end{tikzpicture}
+$$
 
 Now, given all this stuff, we can define the "dimension" of our
 composition algebra to be the value of this morphism from $I$ to $I$:
-
-         _______
-        /       \
-       /         \
-      |           |
-      |           |
-       \         /
-        \_______/
-            g
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+        to [out=up,in=up,looseness=2] (1,0)
+        to [out=down,in=down,looseness=2] (0,0);
+    \end{knot}
+    \node[label=above:{$h$}] at (0.5,0.57) {$\bullet$};
+    \node[label=below:{$g$}] at (0.5,-0.6) {$\bullet$};
+  \end{tikzpicture}
+$$
 This reduces to the usual dimension of the algebra $A$ when we're in the
-category $|mathsf{Vect}$. Of course, only in certain categories is this dimension
+category $\mathsf{Vect}$. Of course, only in certain categories is this dimension
 bound to be a *number* --- namely, those categories where every morphism
 from $I$ to $I$ is some number times the identity morphism.
 
