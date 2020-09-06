@@ -45,7 +45,7 @@ to the original papers:
 
 It's easier to explain the *physical meaning* of the Penrose
 evaluation. Basically, the idea is this. In classical general
-relativity, space is described by a 3-dimensional manifold with a
+relativity, space is described by a $3$-dimensional manifold with a
 Riemannian metric: a recipe for measuring distances and angles. In the
 spin network approach to quantum gravity, the geometry of space is
 instead described as a superposition of "spin network states". In
@@ -70,7 +70,7 @@ The cool thing is that Rovelli and Smolin didn't postulate this, they
 operators on the Hilbert space of states of the physical system in
 question. You typically get these by "quantizing" the formulas for the
 corresponding classical observables. So Rovelli and Smolin took the
-usual formula for the area of a surface in a 3-dimensional manifold with
+usual formula for the area of a surface in a $3$-dimensional manifold with
 a Riemannian metric and quantized it. Applying this operator to a spin
 network state, they found the picture I just described: the area of a
 surface is a sum of terms proportional to $\sqrt{j(j+1)}$, one for each spin
@@ -174,7 +174,7 @@ Lately I've been very excited by a third, hybrid approach:
 4) Andrea Barbieri, "Quantum tetrahedra and simplicial spin networks", preprint available as [`gr-qc/9707010`](https://arxiv.org/abs/gr-qc/9707010).
 
 Barbieri considers "simplicial spin networks": spin networks living in
-a fixed 3-dimensional manifold chopped up into tetrahedra. He only
+a fixed $3$-dimensional manifold chopped up into tetrahedra. He only
 considers spin networks dual to the triangulation, that is, spin
 networks having one vertex in the middle of each tetrahedron and one
 edge intersecting each triangular face.
@@ -223,7 +223,7 @@ of us want to stick around to find out which! What's the bottom line,
 you ask? First, we're seeing how an ordinary tetrahedron is the
 classical limit of a "quantum tetrahedron" whose faces have quantized
 areas and whose volume is also quantized. Second, we're seeing how to
-put together a bunch of these quantum tetrahedra to form a 3-dimensional
+put together a bunch of these quantum tetrahedra to form a $3$-dimensional
 manifold equipped with a "quantum geometry" --- which can dually be seen
 as a spin network. Third, all this stuff fits together in a truly
 elegant way, which suggests there is something good about it. The

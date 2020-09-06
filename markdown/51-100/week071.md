@@ -26,7 +26,7 @@ On to some physics...
 First, it's amusing to note that Maxwell's equations are back in
 fashion! In the following papers you will see how the duality symmetry
 of Maxwell's equations (the symmetry between electric and magnetic
-fields) plays a new role in modern work on 4-dimensional gauge theory.
+fields) plays a new role in modern work on $4$-dimensional gauge theory.
 Also, there is some good stuff in Thompson's review article about the
 Seiberg-Witten theory, which is basically just a $\mathrm{U}(1)$ gauge theory like
 Maxwell's equations... but with some important extra twists!
@@ -190,7 +190,7 @@ related approach to 4d topological quantum field theories.
 In this paper, we begin with a brief sketch of what is known and
 conjectured concerning braided monoidal 2-categories and their
 applications to 4d topological quantum field theories and 2-tangles
-(surfaces embedded in 4-dimensional space). Then we give concise
+(surfaces embedded in $4$-dimensional space). Then we give concise
 definitions of semistrict monoidal 2-categories and braided monoidal
 2-categories, and show how these may be unpacked to give long explicit
 definitions similar to, but not quite the same as, those given by

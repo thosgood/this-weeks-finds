@@ -8,7 +8,7 @@ I'm back, ready for the next quarter...
 The most novel idea I ran into at the conference was due to Oleg Viro,
 who, ironically, is right here at U. C. Riverside. He spoke on work with
 Turaev on generalizing the Alexander module (a classical knot invariant)
-to get a similar sort of module from any 3-dimensional topological
+to get a similar sort of module from any $3$-dimensional topological
 quantum field theory. A "topological quantum field theory," or TQFT
 for short, is (in the language of physics) basically just a generally
 covariant quantum field theory, one that thinks all coordinate systems
@@ -22,9 +22,9 @@ when something appears.
 The most lively talk was one by Louis Crane and David Yetter, the
 organizers of the conference. As I noted a while back, they claimed to
 have constructed a FOUR-dimensional TQFT based on some ideas of Ooguri,
-who was working on 4-dimensional quantum gravity. This would be very
+who was working on $4$-dimensional quantum gravity. This would be very
 exciting as long as it isn't "trivial" in some sense, because all the
-TQFTs developed so far only work in 3-dimensional spacetime. A rigorous
+TQFTs developed so far only work in $3$-dimensional spacetime. A rigorous
 4-dimensional TQFT might bring us within striking distance of a theory
 of quantum gravity --- this is certainly Crane's goal. Ocneanu, however,
 had fired off a note claiming to prove that the Crane-Yetter TQFT was
@@ -61,7 +61,7 @@ drawing projections of these beasts into the plane and applying various
 rules; it was quite fun to watch Yetter do it on the blackboard. Turaev
 and Viro had constructed such a "simplicial" TQFT in 3 dimensions, and
 Ooguri had been working on simplicial quantum gravity. As I note below,
-Lee Smolin has a new scheme for doing 4-dimensional quantum gravity
+Lee Smolin has a new scheme for doing $4$-dimensional quantum gravity
 using simplices. During the conference he was busy trying to figure out
 the relation of his ideas to Crane and Yetter's.
 

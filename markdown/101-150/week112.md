@@ -196,10 +196,10 @@ excited about now?" And a few cognoscenti thinking "Oh, *now* I get
 it. All this fussing about boundary conditions was just an elaborate
 ruse to get a topological quantum field theory on the event horizon!")
 
-So far we've been studying general relativity in honest 4-dimensional
+So far we've been studying general relativity in honest $4$-dimensional
 spacetime. Chern-Simons theory is a closely related field theory one
-dimension down, in 3-dimensional spacetime. As time passes, the surface
-of the black hole traces out a 3-dimensional submanifold of our
+dimension down, in $3$-dimensional spacetime. As time passes, the surface
+of the black hole traces out a $3$-dimensional submanifold of our
 4-dimensional spacetime. When we quantize our classical theory of
 gravity with our chosen boundary conditions, the Chern-Simons term will
 give rise to a "Chern-Simons field theory" living on the surface of
@@ -356,7 +356,7 @@ gravity in spacetime dimension 4, which is mysterious, to Chern-Simons
 theory in spacetime dimension 3, which is well-understood. It's neat
 that one can now use this ladder to study black hole entropy. It's
 worth comparing Carlip's calculation of black hole entropy in spacetime
-dimension 3 using a 2-dimensional field theory (the Wess-Zumino-Witten
+dimension 3 using a $2$-dimensional field theory (the Wess-Zumino-Witten
 model) on the surface traced out by the black hole event horizon --- see
 ["Week 41"](#week41). Both the theories we use and those Carlip
 uses, are all part of the same big ladder of theories! Something
@@ -368,7 +368,7 @@ surface, we use $\mathrm{U}(1)$ Chern-Simons theory! The reason is simple. The
 boundary conditions we use, which say the black hole surface is
 "marginally outer trapped", also say that its extrinsic curvature is
 zero. Thus the curvature tensor reduces, at the black hole surface, to
-the intrinsic curvature. Curvature on a 3-dimensional space is
+the intrinsic curvature. Curvature on a $3$-dimensional space is
 $\mathfrak{so}(3)$-valued, but the intrinsic curvature on the surface S is
 $\mathfrak{so}(2)$-valued. Since $\mathfrak{so}(3) = \mathfrak{su}(2)$, general relativity has a lot to do
 with $\mathrm{SU}(2)$ gauge theory. But since $\mathfrak{so}(2) = \mathfrak{u}(1)$, the field theory on the

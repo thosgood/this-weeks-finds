@@ -11,7 +11,7 @@ beautifully simple pieces of mathematics suited to physics in
 2-dimensional spacetime. Two dimensions is low enough that one can often
 actually understand exactly what's going on in problems that become
 infinitely more tricky in higher dimensions. So even if one doesn't
-"believe" in 2-dimensional physics the way the string theorists do --
+"believe" in $2$-dimensional physics the way the string theorists do --
 for them, physics happens on the worldsheet of the string, which is
 2-dimensional -- it's worth learning as a kind of textbook case.
 

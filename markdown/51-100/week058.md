@@ -5,7 +5,7 @@ Physics, to which I had been kindly invited by Jose Mourao. Quite a few
 of the (rather few) believers in the relevance of $n$-categories to
 physics were there. I spoke on higher-dimensional algebra and
 topological quantum field theory, and also a bit on spin networks. Louis
-Crane spoke on his ideas, especially the idea of getting 4-dimensional
+Crane spoke on his ideas, especially the idea of getting $4$-dimensional
 TQFTs out of state-sum models. And John Barrett spoke on
 
 1) John Barrett, "Quantum gravity as topological quantum field theory", to appear in the November 1995 special issue of _Jour. Math. Physics_, also available as [`gr-qc/9506070`](https://arxiv.org/abs/gr-qc/9506070).
@@ -252,7 +252,7 @@ way of describing 4-manifolds that Broda (see
 4-dimensional TQFT. This TQFT was later shown by Roberts (see
 ["Week 14"](#week14)) to be isomorphic to that described by Crane
 and Yetter using a state sum model --- i.e., by a discrete analog of a
-path integral in which one chops spacetime up into 4-dimensional
+path integral in which one chops spacetime up into $4$-dimensional
 "hypertetrahedra" (better known as 4-simplices!), labels their 2d and
 3d faces by spins, and sums over labellings. Her work is cited in the
 Broda reference in ["Week 17"](#week17), but I managed luckily to
@@ -260,14 +260,14 @@ get a copy of her thesis:
 
 4) Eugenia Cesar de Sa, _Automorphisms of 3-manifolds and representations of 4-manifolds_, Ph.D. thesis, University of Warwick, 1977.
 
-This should let me learn more about 4-dimensional topology, a
+This should let me learn more about $4$-dimensional topology, a
 fascinating subject on which I'm woefully ignorant.
 
 One reason why Broda's work, and thus de Sa's, is interesting to me,
 is that people have suspected for a while that the Crane-Yetter-Broda
 theory, which is constructed purely combinatorially, is isomorphic to BF
 theory with cosmological term. BF theory (see ["Week 36"](#week36))
-is a 4-dimensional field theory that can be described starting from a
+is a $4$-dimensional field theory that can be described starting from a
 Lagrangian in the traditional manner of physics. The theory "with
 cosmological term" can be regarded as a baby version of quantum gravity
 with nonzero cosmological constant, a baby version having only one

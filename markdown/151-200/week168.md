@@ -59,7 +59,7 @@ the Riemannian Barrett-Crane model. I've discussed this model in
 ["Week 113"](#week113), ["Week 120"](#week120), and
 ["Week 128"](#week128), so I won't bore you with the details yet
 again. For now, let me just say that it's a theory of quantum gravity
-in which spacetime is a triangulated 4-dimensional manifold. There is
+in which spacetime is a triangulated $4$-dimensional manifold. There is
 also a Lorentzian version of this model, which is more physical, but
 it's trickier to compute with, so Dan has wisely decided to start by
 tackling the Riemannian version.
@@ -126,7 +126,7 @@ extending our methods to show that the partition function converges:
 
 5) Louis Crane, Alejandro Perez, Carlo Rovelli, "A finiteness proof for the Lorentzian state sum spin foam model for quantum general relativity", available as [`gr-qc/0104057`](https://arxiv.org/abs/gr-qc/0104057).
 
-So now we have a well-defined quantum gravity theory for a 4-dimensional
+So now we have a well-defined quantum gravity theory for a $4$-dimensional
 spacetime with a fixed triangulation, and we can start studying it! The
 big question is whether it mimics general relativity at distance scales
 much larger than the Planck scale.
@@ -144,7 +144,7 @@ Let me just sketch some of the main themes. For details and precise
 statements, read the paper!
 
 Octonions arise naturally from the interaction between vectors and
-spinors in 8-dimensional Euclidean space, but in superstring theory and
+spinors in $8$-dimensional Euclidean space, but in superstring theory and
 other physics applications, what matters most is their relation to
 10-dimensional Lorentzian spacetime. This is part of a pattern:
 
@@ -183,10 +183,10 @@ tricky.
 
 Now, it is no coincidence that:
 
-1) spinors in 9-dimensional Euclidean space are pairs of octonions.
-2) spinors in 10-dimensional Euclidean space are pairs of bioctonions.
-3) spinors in 12-dimensional Euclidean space are pairs of quateroctonions.
-4) spinors in 16-dimensional Euclidean space are pairs of octooctonions.
+1) spinors in $9$-dimensional Euclidean space are pairs of octonions.
+2) spinors in $10$-dimensional Euclidean space are pairs of bioctonions.
+3) spinors in $12$-dimensional Euclidean space are pairs of quateroctonions.
+4) spinors in $16$-dimensional Euclidean space are pairs of octooctonions.
 
 (These numbers are 8 more than the dimensions of $\mathbb{R}$, $\mathbb{C}$, $\mathbb{H}$ and $\mathbb{O}$.)
 
@@ -220,8 +220,8 @@ what all this stuff means:
 - "$\mathfrak{der}$" means the Lie algebra of derivations,
 - $\mathrm{h}_3(\mathbb{O})$ is the exceptional Jordan algebra, consisting of $3\times3$ hermitian octonionic matrices,
 - $\mathrm{h}_3(\mathbb{H})$ is the Jordan algebra of $3\times3$ hermitian quaternionic matrices,
-- $\Im(\mathbb{O})$ is the 7-dimensional space of imaginary octonions,
-- $\Im(\mathbb{H})$ is the 3-dimensional space of imaginary quaternions,
+- $\Im(\mathbb{O})$ is the $7$-dimensional space of imaginary octonions,
+- $\Im(\mathbb{H})$ is the $3$-dimensional space of imaginary quaternions,
 - $\mathrm{sh}_3(\mathbb{O})$ is the traceless $3\times3$ hermitian octonionic matrices,
 - $\mathrm{sh}_3(\mathbb{H})$ is the traceless $3\times3$ hermitian quaternionic matrices,
 - $\mathrm{sa}_3(\mathbb{H}\otimes\mathbb{O})$ is the traceless $3\times3$ antihermitian quateroctonionic

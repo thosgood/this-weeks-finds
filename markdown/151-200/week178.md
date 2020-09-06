@@ -82,7 +82,7 @@ call it \mathbb{CP}^n-1^.
 A different way to think about it is this: points of \mathbb{CP}^n-1^ are the
 same as arbitrary nonzero vectors in C^n, but where we count two
 vectors as the same if one is a scalar multiple of the other. In other
-words, points of \mathbb{CP}^n-1^ are 1-dimensional subspaces of C^n. This is
+words, points of \mathbb{CP}^n-1^ are $1$-dimensional subspaces of C^n. This is
 nice because it encourages us to go on and define lines in \mathbb{CP}^n-1^ to be
 2-dimensional subspaces of C^n, and so on. This leads us into the world
 of projective geometry, where all we have are points, lines, planes,
@@ -358,7 +358,7 @@ Now, back to incidence geometry. In this example, what type of figure
 does the Borel subgroup correspond to? The answer is a "maximal flag":
 a point lying on a line lying on a plane lying on....
 
-To see this, remember that a point of \mathbb{CP}^n-1^ is a 1-dimensional
+To see this, remember that a point of \mathbb{CP}^n-1^ is a $1$-dimensional
 subspace of C^n. An example is the subspace of all vectors of this
 form:
 
@@ -371,7 +371,7 @@ It's easy to see that upper triangular matrices map this subspace to
 itself. Or, in fancier lingo: the Borel subgroup preserves this point in
 \mathbb{CP}^n-1^.
 
-Similarly, a line in \mathbb{CP}^n-1^ is a 2-dimensional subspace of C^n. An
+Similarly, a line in \mathbb{CP}^n-1^ is a $2$-dimensional subspace of C^n. An
 example is the subspace of all guys of this form:
 
     *
@@ -381,7 +381,7 @@ example is the subspace of all guys of this form:
 
 Again, this is mapped to itself by the upper triangular matrices.
 
-Similarly, a line in \mathbb{CP}^n-1^ is a 3-dimensional subspace of C^n. An
+Similarly, a line in \mathbb{CP}^n-1^ is a $3$-dimensional subspace of C^n. An
 example is the subspace of all guys of this form:
 
     *

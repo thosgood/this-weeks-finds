@@ -79,7 +79,7 @@ string theory:
 6) Lee Smolin, "Three dimensional strings as collective coordinates of four dimensional quantum gravity", preprint available as [`gr-qc/9609031`](https://arxiv.org/abs/gr-qc/9609031).
 
 This paper really freaks me out, because it attempts to relate the loop
-representation of quantum gravity in 4-dimensional spacetime to string
+representation of quantum gravity in $4$-dimensional spacetime to string
 theory in *3-dimensional* spacetime. That's an idea that never would
 have occurred to me. Smolin suggests it might possibly be related to how
 supergravity in 11 dimensions is related to string theory in 10
@@ -153,8 +153,8 @@ $$
 I've drawn a triangular shaped gadget that takes two "inputs" from
 the two slanted edges labelled $s$, and spits out one "output" from the
 horizontal edge labelled $s$ on the bottom. It's clear from the geometry
-here that $M$ is something 2-dimensional --- hence, a 2-morphism --- and that
-$s$ is 1-dimensional --- hence, a morphism. Let's label the corners too:
+here that $M$ is something $2$-dimensional --- hence, a 2-morphism --- and that
+$s$ is $1$-dimensional --- hence, a morphism. Let's label the corners too:
 $$
   \begin{tikzpicture}
     \node (xl) at (0,0) {$x$};

@@ -50,11 +50,11 @@ than the IIB theory.
 But lots of people say the heterotic theory matches our universe even
 better. The name "heterotic" refers to the fact that this theory is
 supposed to have "hybrid vigor". It's quite bizarre: the left-movers
-are purely bosonic --- no fermions --- and live in 26-dimensional spacetime,
+are purely bosonic --- no fermions --- and live in $26$-dimensional spacetime,
 the way non-supersymmetric string theories do. The right-movers, on the
 other hand, are supersymmetric and live in 10- dimensional spacetime. It
 sounds not merely heterotic, but downright schizophrenic! But in fact,
-the 26-dimensional spacetime can also thought of as being
+the $26$-dimensional spacetime can also thought of as being
 10-dimensional, with 16 extra "curled-up dimensions" in the shape of a
 torus. This torus has two possible shapes: $\mathbb{R}^16$ modulo the $\mathrm{E}_8 \times \mathrm{E}_8$
 lattice or the $D_{16}^*$ lattice. (For some of the wonders of $\mathrm{E}_8$ and other
@@ -63,9 +63,9 @@ lattices, check out ["Week 64"](#week64) and
 lattice described in those Weeks, but not quite the same.)
 
 Now there is still lots of room for toying with these theories depending
-on how you "compactify": how you think of 10-dimensional spacetime as
+on how you "compactify": how you think of $10$-dimensional spacetime as
 4-dimensional spacetime plus 6 curled-up dimensions. That's because
-there are lots of 6-dimensional manifolds that will do the job (the
+there are lots of $6$-dimensional manifolds that will do the job (the
 so-called "Calabi-Yau" manifolds). Different choices give different
 physics, and there is a lot of work to be done to pick the right one.
 
@@ -77,7 +77,7 @@ thing called M-theory! Let me quote the following paper:
 1) Kelly Jay Davis, "M-Theory and String-String Duality", 28 pages, available as [`hep-th/9601102`](https://arxiv.org/abs/hep-th/9601102), uses `harvmac.tex`.
 
 The idea seems to be roughly that depending on how one compactifies the
-11th dimension, one gets different 10-dimensional theories from
+11th dimension, one gets different $10$-dimensional theories from
 M-theory:
 
 > "In the past year much has happened in the field of string theory.
@@ -110,8 +110,8 @@ M-theory:
 > on a $\mathbb{Z}_2$ orbifold of the five-torus and established a relation between
 > M-Theory on this orbifold and Type IIB string theory on $K3$. \[Note:
 > most of these undefined terms refer to various spaces; for example,
-> the five-torus is the 5-dimensional version of a doughnut, while $K3$ is
-> a certain 4-dimensional manifold --- jb.\] Also, Schwarz very recently
+> the five-torus is the $5$-dimensional version of a doughnut, while $K3$ is
+> a certain $4$-dimensional manifold --- jb.\] Also, Schwarz very recently
 > looked at M-Theory and its relation to T-Duality.
 >
 > As stated above, M-Theory on a "large" $S^1$ is equivalent to a

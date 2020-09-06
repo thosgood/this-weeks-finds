@@ -274,7 +274,7 @@ gravity but also to path integrals in gauge theory, because in both
 cases one is doing integrals over a space of connections mod gauge
 transformations. Here Sawin uses them to give a rigorous formulation of
 2d TQFTs in terms of path integrals. There aren't many unitary 2d
-TQFTs, and all of them are isomorphic to 2-dimensional quantum gravity
+TQFTs, and all of them are isomorphic to $2$-dimensional quantum gravity
 with the usual Einstein-Hilbert action, with different values of the
 coupling constant, or else direct sums of such theories.
 

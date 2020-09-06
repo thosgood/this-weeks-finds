@@ -440,7 +440,7 @@ Notes and digressions:
 - Why is the Polyakov action $\langle X, \Delta X\rangle$ conformally invariant? Because
     the Laplacian has dimensions of $1/\mathrm{length}^2$, while the integral used
     to define the inner product has dimensions of $\mathrm{length}^2$, since the
-    torus is 2-dimensional. This is the magic of 2 dimensions! The path
+    torus is $2$-dimensional. This is the magic of 2 dimensions! The path
     integral for higher-dimensional "branes" has not yet been made
     precise, because this magic doesn't happen there.
 

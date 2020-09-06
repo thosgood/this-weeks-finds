@@ -88,7 +88,7 @@ On to something a bit more mathematical....
 
 Careful readers of This Week's Finds will remember Diarmuid Crowley
 from ["Week 151"](#week151). This week he visited U. C. Riverside
-and talked about the topology of 7- and 15-dimensional manifolds. He
+and talked about the topology of 7- and $15$-dimensional manifolds. He
 also told me the following cool things.
 
 You may recall from ["Week 163"](#week163) that the Poincare

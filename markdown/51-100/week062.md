@@ -7,7 +7,7 @@ certain diagrams. But these diagrams show up all over the place when you
 start trying to classify beautiful and symmetrical things.
 
 Let's start with something nice and simple: the Platonic solids. It's
-not terribly hard to classify all the regular polyhedra in 3-dimensional
+not terribly hard to classify all the regular polyhedra in $3$-dimensional
 Euclidean space. Roughly, it goes like this. The faces could all be
 equilateral triangles. Obviously there need to be at least 3 faces
 meeting at each vertex to get a polyhedron. If there are exactly 3, you

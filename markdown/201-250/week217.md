@@ -578,20 +578,20 @@ He replied:
 > The example where I actually proved something was in the case where
 > the a_n came from a finite-dimensional complex representation of
 > Gal(K/Q) with K a number field, Galois over Q. (In fact my only
-> contribution was in the 2-dimensional case, the 1-dimensional case
+> contribution was in the $2$-dimensional case, the $1$-dimensional case
 > having been understood for some time.) The a_n are then related to
 > traces of the representation. Artin conjectured in the 1930s that
 >
 > \sum a_n/n^s^
 >
 > should have analytic continuation to all of the complex plane if the
-> representation was irreducible and not the trivial 1-dimensional
+> representation was irreducible and not the trivial $1$-dimensional
 > representation. Langlands conjectured much later that the a_n should
 > come from an automorphic form, and we knew by then that Langlands'
 > conjecture implied Artin's. But none of the analytic guys know how to
 > prove Artin's conjecture without essentially deducing it from
 > Langlands'! I did something with some other Brits in the
-> 2-dimensional case. Ironically, to deduce our analytic continuation
+> $2$-dimensional case. Ironically, to deduce our analytic continuation
 > results, we proved some p-adic analytic continuation results first :-)
 > We constructed a modular form using p-adic techniques (and all of
 > Wiles' machinery).
@@ -615,7 +615,7 @@ He replied:
 >
 > ***
 >
-> Here is why Dirichlet characters are the same as 1-dimensional complex
+> Here is why Dirichlet characters are the same as $1$-dimensional complex
 > representations of Gal(Q^-^/Q). It's called the Kronecker-Weber
 > theorem, it pre-dates class field theory (although it is now a special
 > case), and you can *just about* prove it at the end of an introductory
@@ -717,7 +717,7 @@ He replied:
 > Amazingly it might have been Langlands who really sold this
 > "duality" point, 100 years after it was understood: people always
 > used to state Kronecker-Weber as "any abelian number field is
-> contained in a cyclo field" rather than the dual "any 1-dimensional
+> contained in a cyclo field" rather than the dual "any $1$-dimensional
 > rep of Gal(Q^-^/Q) comes from a Dirichlet character". It was perhaps
 > Langlands who realised that the correct generalisation of this
 > statement was "any $n$-dimensional rep of Gal(Q^-^/Q) comes from an
@@ -744,7 +744,7 @@ He replied:
 > I know some facts about the sequence a_n coming from, say, an
 > elliptic curve over the rationals, but the killer, and one that is
 > really hard to "read off" from the a_n, is that the a_n are
-> related to the traces of Frobenius elements on a 2-dimensional p-adic
+> related to the traces of Frobenius elements on a $2$-dimensional p-adic
 > Galois representation (the Tate module of the curve). The moment I see
 > a Galois representation I think that this must be something to do with
 > automorphic forms, so that's why I believe that the L-function of an

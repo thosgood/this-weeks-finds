@@ -61,7 +61,7 @@ I'll never finish writing this!
     loop.
 
     In quantum field theory you often need to average a quantum field over
-    some 3-dimensional region of space or 4-dimensional region of spacetime
+    some $3$-dimensional region of space or $4$-dimensional region of spacetime
     to get a well-defined operator. Wilson loops are rather singular because
     a loop is a one-dimensional object. On the other hand, they are nice
     because they are gauge-invariant: they don't change when we do a gauge
@@ -69,7 +69,7 @@ I'll never finish writing this!
 
     In the "extended" loop representation one tries to make the integral
     less singular by not dealing with actual loops, but certain analogous
-    integrals over all 3-dimensional space. Heuristic calculations suggest
+    integrals over all $3$-dimensional space. Heuristic calculations suggest
     that they are gauge-invariant, but Troy Schilling noticed a while ago
     that they aren't always *really* gauge-invariant --- basically
     because the the path-ordered exponential is given by a certain Taylor

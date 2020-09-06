@@ -7,7 +7,7 @@ is very good. (And not at all white, but that's another subject.)
 One of the most exciting aspects of mathematics over the last few years
 --- in my utterly biased opinion --- has been how topological
 quantum field theories have revealed the existence of deep connections
-between 3-dimensional topology, complex analysis, and algebra,
+between $3$-dimensional topology, complex analysis, and algebra,
 particularly the algebra of quantum groups.
 
 The most interesting topological quantum field theory in this game is
@@ -18,7 +18,7 @@ make sense. Thus it admits *all* coordinate transformations (or more
 precisely, all diffeomorphisms) as symmetries. In particular, this means
 that the quantity folks like to compute whenever they see a quantum
 field theory --- the partition function, which you get by doing a path
-integral a la Feynman --- is an invariant of 3-dimensional manifold
+integral a la Feynman --- is an invariant of $3$-dimensional manifold
 you happen to have taken as "spacetime".
 
 Now computing path integrals is often a very dubious and tricky
@@ -90,10 +90,10 @@ no unique best coordinate system, there's no unique best notion of
 very important in quantum gravity, but rather easier to deal with in toy
 models like Chern-Simons theory.
 
-Now if we take a 3-dimensional spacetime and look at the $t = 0$ slice, we
-will with some luck get a 2-dimensional manifold, such as a sphere,
+Now if we take a $3$-dimensional spacetime and look at the $t = 0$ slice, we
+will with some luck get a $2$-dimensional manifold, such as a sphere,
 torus, or more general $n$-holed doughnut. This is where the complex
-analysis comes in, because the complex plane is 2-dimensional, and we
+analysis comes in, because the complex plane is $2$-dimensional, and we
 can cover these surfaces with coordinate systems that look locally like
 the complex plane, making them into "Riemann surfaces" upon which we
 can merrily proceed with complex analysis. In particular, the phase

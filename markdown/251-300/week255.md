@@ -191,9 +191,9 @@ between these as morphisms above dimension n. This gives an \infty-category
 version of nCob, where:
 
 -   objects are 0-dimensional manifolds,
--   1-morphisms are 1-dimensional manifolds with boundary,
--   2-morphisms are 2-dimensional manifolds with corners,
--   3-morphisms are 3-dimensional manifolds with corners,
+-   1-morphisms are $1$-dimensional manifolds with boundary,
+-   2-morphisms are $2$-dimensional manifolds with corners,
+-   3-morphisms are $3$-dimensional manifolds with corners,
 -   ...
 -   $n$-morphisms are $n$-dimensional manifolds with corners,
 -   $(n+1)$-morphisms are diffeomorphisms,
@@ -369,8 +369,8 @@ Available at `http://math.berkeley.edu/~teichner/papers.html`
 
 Back then, the analogy looked like this:
 
-    1-dimensional supersymmetric QFTs            complex K-theory
-    2-dimensional supersymmetric conformal QFTs  elliptic cohomology
+    $1$-dimensional supersymmetric QFTs            complex K-theory
+    $2$-dimensional supersymmetric conformal QFTs  elliptic cohomology
 
 When I saw this, I tried to guess a generalization to higher dimensions.
 
@@ -404,8 +404,8 @@ They've also gone back and added a 0th row to their chart. It's always
 wise to start counting at zero! Now the chart looks much nicer:
 
     0-dimensional supersymmetric QFTs            deRham cohomology
-    1-dimensional supersymmetric QFTs            complex K-theory
-    2-dimensional supersymmetric QFTs            elliptic cohomology
+    $1$-dimensional supersymmetric QFTs            complex K-theory
+    $2$-dimensional supersymmetric QFTs            elliptic cohomology
 
 Yes, good old deRham cohomology is the 0th entry in the "chromatic
 filtration"! It's the least scary sort of cohomology theory, at least
@@ -445,7 +445,7 @@ f\colon  M \to  T
 
 where f is a "field" taking values in a "target space" T.
 
-If this seems too scary, take n = 1. Then we've got a 1-dimensional
+If this seems too scary, take n = 1. Then we've got a $1$-dimensional
 quantum field theory, so we can take our spacetime M to be an interval.
 Then f is just a path in some space T. In this case the path integral is
 really an integral over all paths a particle could trace out in T. So,
@@ -577,8 +577,8 @@ conceptual picture I've been sketching. But, we need it for this
 analogy to work:
 
     0-dimensional supersymmetric QFTs            deRham cohomology
-    1-dimensional supersymmetric QFTs            complex K-theory
-    2-dimensional supersymmetric QFTs            elliptic cohomology
+    $1$-dimensional supersymmetric QFTs            complex K-theory
+    $2$-dimensional supersymmetric QFTs            elliptic cohomology
 
 The idea is to impose an equivalence relation on supersymmetric QFTs,
 called "concordance", and try to show:

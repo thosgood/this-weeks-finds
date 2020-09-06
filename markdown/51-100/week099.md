@@ -6,7 +6,7 @@ and my mundane life as a teacher of calculus, but right now I'm still
 living it up. I'm working with Ashtekar, Corichi, and Krasnov on
 computing the entropy of black holes using the loop representation of
 quantum gravity, and also I'm talking to lots of people about an
-interesting 4-dimensional formulation of the loop representation in
+interesting $4$-dimensional formulation of the loop representation in
 terms of "spin foams" --- roughly speaking, soap-bubble-like
 structures with faces labelled by spins.
 
@@ -82,7 +82,7 @@ THE TALE OF $n$-CATEGORIES!
 
 Recall that in our last episode, in ["Week 92"](#week92), we had
 worked our way up to 2-categories, and we were beginning to see what
-they had to do with 2-dimensional physics and toplogy. I described how
+they had to do with $2$-dimensional physics and toplogy. I described how
 to get monads from adjunctions, and what this has to do with matrix
 multiplication, Yang-Mills theory, and the 4-color theorem.
 

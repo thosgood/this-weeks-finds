@@ -134,8 +134,8 @@ where the $*$ entries can be any complex number whatsoever. Since
 matrices act on vectors by matrix multiplication, we can use this to get
 a bunch of representations of $\mathbb{C}[G]$, and thus of $G$ --- one representation
 for each block. And this trick gives us all the irreps of $G$! For
-example, $S_3$ has one 2-dimensional irrep, coming from the $2\times 2$ block
-in the above matrix, and two 1-dimensional irreps, coming from the two
+example, $S_3$ has one $2$-dimensional irrep, coming from the $2\times 2$ block
+in the above matrix, and two $1$-dimensional irreps, coming from the two
 $1\times 1$ blocks.
 
 This wonderful fact does not solve all our problems. If someone hands us
@@ -299,7 +299,7 @@ of $\mathrm{SU}(N)$. We can ignore these.
 
 Also, if we have a Young diagram that has just one column and exactly $N$
 rows, we'll get the space of completely antisymmetric tensors with $N$
-indices. This is a 1-dimensional space. Applying a matrix in $\mathrm{SU}(N)$ to a
+indices. This is a $1$-dimensional space. Applying a matrix in $\mathrm{SU}(N)$ to a
 tensor of this sort just multiplies it by the determinant of that
 matrix, which is 1 by the definition of $\mathrm{SU}(N)$. So this Young diagram
 gives the trivial representation of $\mathrm{SU}(N)$. That's not too silly --- the

@@ -25,10 +25,10 @@ Five-Dimensional Relativity". These began the trend, currently very
 popular in string theory, of trying to unify forces by postulating
 additional dimensions of spacetime. It's interesting how gauge theory
 has historical roots in this seemingly more exotic notion. The original
-Kaluza-Klein theory assumed a 5-dimensional spacetime, with the extra
-dimension curled into a small circle. Starting with 5-dimensional
+Kaluza-Klein theory assumed a $5$-dimensional spacetime, with the extra
+dimension curled into a small circle. Starting with $5$-dimensional
 general relativity, and using the $\mathrm{U}(1)$ symmetry of the circle, they
-recovered 4-dimensional general relativity coupled to a $\mathrm{U}(1)$ gauge
+recovered $4$-dimensional general relativity coupled to a $\mathrm{U}(1)$ gauge
 theory --- namely, Maxwell's equations. Unfortunately, their theory also
 predicted an unobserved spin-0 particle, which was especially
 problematic back in the days before mesons were discovered.
@@ -37,7 +37,7 @@ I wasn't familiar with another item in this book, Wolfgang Pauli's
 letter to Abraham Pais entitled "Meson-Nucleon Interactions and
 Differential Geometry". This theory, "written down July 22--25 1953 in
 order to see how it looks", postulated 2 extra dimensions in the shape
-of a small sphere. The letter begins, "Split a 6-dimensional space into
+of a small sphere. The letter begins, "Split a $6$-dimensional space into
 a $(4+2)$-dimensional one." At the time, meson-nucleon interactions were
 believe to have an $\mathrm{SU}(2)$ symmetry corresponding to conservation of
 "isospin". Pauli obtained a theory with this symmetry group using the
@@ -234,7 +234,7 @@ $$\mathbb{Z}\oplus\mathbb{Z} \xleftarrow{d_1} \mathbb{Z} \xleftarrow{d_2} 0 \xle
 The only nonzero boundary homomorphism is $d_1$, which is given by
 $$d_1(x) = (x,-x)$$
 (Why? We take $I_1 = \mathbb{Z}$ and $I_0 = \mathbb{Z}\oplus\mathbb{Z}$ because the interval is built out
-of one 1-dimensional thing, namely itself, and two 0-dimensional things,
+of one $1$-dimensional thing, namely itself, and two 0-dimensional things,
 namely its endpoints. We define $d_1$ the way we do since the boundary of
 an oriented interval consists of two points: its initial endpoint, which
 is positively oriented, and its final endpoint, which is negatively

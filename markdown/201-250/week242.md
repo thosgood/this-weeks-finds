@@ -361,7 +361,7 @@ This chart should help:
        LAWS HOLDING                    weak                  weak
      UP TO ISOMORPHISM              2-categories        double categories
 
-2-categories are good for describing how to glue together 2-dimensional
+2-categories are good for describing how to glue together $2$-dimensional
 things that, at least in some abstract sense, are shaped like *bigons*.
 A "bigon" is a disc with its boundary divided into two halves. Here's
 my feeble ASCCI rendition of a bigon:
@@ -382,7 +382,7 @@ the top semicircle, f, to the bottom semicircle, g. Similarly, we think
 of the arcs f and g as going from the point X to the point Y.
 
 Similarly, double categories are good for describing how to glue
-together 2-dimensional gadgets that are shaped like *squares*:
+together $2$-dimensional gadgets that are shaped like *squares*:
 
                           f
                    X o---->----o X'

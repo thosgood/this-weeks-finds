@@ -106,13 +106,13 @@ Of course, the ultimate solution is to support the math and physics
 preprint archives, and figure out ways to decouple the refereeing
 process from the distribution process.
 
-Okay, enough politics. I was thinking about 4-dimensional polytopes, and
+Okay, enough politics. I was thinking about $4$-dimensional polytopes, and
 Eric Weisstein's now-defunct website... but what got me going in the
 first place was this:
 
 5) John Stilwell, "The story of the 120-cell", _AMS Notices_ **48** (January 2001), 17--24.
 
-The 120-cell is a marvelous 4-dimensional shape with 120 regular
+The 120-cell is a marvelous $4$-dimensional shape with 120 regular
 dodecahedra as faces. I talked about it in ["Week 155"](#week155),
 but this article is full of additional interesting information. For
 example, Henri Poincare once conjectured that every compact 3-manifold
@@ -132,7 +132,7 @@ they usually assume that space is a 3-sphere. In this scenario, barring
 sneaky tricks, it's likely that the universe would recollapse before
 light could get all the way around the universe. But there's no strong
 reason to favor this topology. Some people have checked to see whether
-space is a 3-dimensional torus. In such a universe, light might wrap all
+space is a $3$-dimensional torus. In such a universe, light might wrap all
 the way around --- so you might see the same bright quasars by looking in
 various different directions! People have looked for this effect but not
 seen it. This doesn't rule out a torus-shaped universe, but it puts a
@@ -197,7 +197,7 @@ i) An element of $\mathrm{h}_3(\mathbb{O})$ is a $3\times3$ hermitian matrix wit
     $$
 
 ii) The octonions arise naturally from "triality": the relation
-    between the three 8-dimensional irreps of $\mathrm{Spin}(8)$, i.e. the vector
+    between the three $8$-dimensional irreps of $\mathrm{Spin}(8)$, i.e. the vector
     representation $V_8$, the right-handed spinor representation $S_8^+$, and
     the left-handed spinor representation $S_8^-$.
 
@@ -206,7 +206,7 @@ iii) The associative law $(xy)z = x(yz)$ involves 3 variables.
 Let's see how it goes.
 
 First, if we take the 3 octonions in our element of $\mathrm{h}_3(\mathbb{O})$ and identify
-them with elements of the three 8-dimensional irreps of $\mathrm{Spin}(8)$, we get
+them with elements of the three $8$-dimensional irreps of $\mathrm{Spin}(8)$, we get
 $$\mathrm{h}_3(\mathbb{O}) = \mathbb{R}^3\oplus V_8\oplus S_8^+\oplus S_8^-.$$
 A little calculation then reveals a wonderful fact: while superficially
 the Jordan product in $\mathrm{h}_3(\mathbb{O})$ is built using the structure of $\mathbb{O}$ as a
@@ -384,7 +384,7 @@ $$
 which still hold for the octonions, or else the fact that only triples
 with $(xy)z = x(yz)$ give points $[(x,y,z)]$ in $\mathbb{OP}^2$.
 
-Clearly the manifold $\mathbb{OP}^2$ is 16-dimensional. The lines in $\mathbb{OP}^2$ are
+Clearly the manifold $\mathbb{OP}^2$ is $16$-dimensional. The lines in $\mathbb{OP}^2$ are
 copies of $\mathbb{OP}^1$, and thus 8-spheres. It is also good to work out the
 space of lines going through any point. Here we can use self-duality:
 since the space of all points lying on any given line is a copy of
@@ -399,7 +399,7 @@ is a form of the 78-dimensional exceptional Lie group $\mathrm{E}_6$. From stuff
 explained last week, the subgroup of collineations that map a point $p$ to
 itself and also map the line $1 - p$ to itself is isomorphic to $\mathrm{Spin}(9,1)$.
 This gives a nice embedding of $\mathrm{Spin}(9,1)$ in this form of $\mathrm{E}_6$. So the
-octonionic projective plane is also related to 10-dimensional
+octonionic projective plane is also related to $10$-dimensional
 *spacetime* geometry.
 
 I hope I've got that last part right.... ultimately, this is supposed

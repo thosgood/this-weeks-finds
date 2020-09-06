@@ -155,9 +155,9 @@ change in phase that a charged string acquires as it moves along,
 tracing out a surface in spacetime.
 
 The 2-form A gives rise to a 3-form, F. A 3-form is a gadget you can
-integrate over a 3-dimensional region and get a number. Suppose we move
+integrate over a $3$-dimensional region and get a number. Suppose we move
 a charged string and let it trace out a surface that's the boundary of
-some 3-dimensional region. Then the integral of F over this region is
+some $3$-dimensional region. Then the integral of F over this region is
 defined to be the integral of A over the surface! Again we write this
 as:
 

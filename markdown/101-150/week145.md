@@ -17,7 +17,7 @@ transformation is called a "projective transformation". Projective
 geometry is the study of those aspects of geometry that are preserved by
 projective transformations.
 
-Interestingly, 2-dimensional projective geometry has some curious
+Interestingly, $2$-dimensional projective geometry has some curious
 features that don't show up in higher dimensions. To explain this, I
 need to tell you about projective planes.
 
@@ -37,7 +37,7 @@ modulo a prime --- and use $\mathbb{F}^2$. Algebraic geometers call this sort of
 thing an "affine plane".
 
 A projective plane is a bit bigger than an affine plane. For this, start
-with the 3-dimensional vector space $\mathbb{F}^3$. Then define the projective
+with the $3$-dimensional vector space $\mathbb{F}^3$. Then define the projective
 plane over $\mathbb{F}$, denoted $\mathbb{FP}^2$, to be the space of lines through the origin
 in $\mathbb{F}^3$. You can show the projective plane is the same as the affine
 plane together with extra points, which play the role of "points at
@@ -363,7 +363,7 @@ $J(\mathbb{F})$ be the space of $3\times3$ self-adjoint matrices with coefficien
 This is a Jordan algebra with the product $xy + yx$. As mentioned in
 ["Week 106"](#week106), Jordan algebras have a lot to do with
 projective planes. In particular, the nontrivial projections in $J(\mathbb{F})$
-correspond to the 1- and 2-dimensional subspaces of $\mathbb{F}^3$, and thus to
+correspond to the 1- and $2$-dimensional subspaces of $\mathbb{F}^3$, and thus to
 the points and lines in the projective plane $\mathbb{FP}^2$.
 
 Next, let $J_0(\mathbb{F})$ be the subspace of $J(\mathbb{F})$ consisting of the *traceless*

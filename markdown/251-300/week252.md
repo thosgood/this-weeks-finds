@@ -522,7 +522,7 @@ irreducible."
 William glowers. "Oh yeah?"
 
 "Yeah. Suppose for example that S is finite. Then the constant
-functions on S form a 1-dimensional subspace of C\[S\] that's invariant
+functions on S form a $1$-dimensional subspace of C\[S\] that's invariant
 under the action of G. So, at the very least, we can break C\[S\] into
 two pieces."
 

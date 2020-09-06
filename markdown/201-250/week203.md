@@ -275,7 +275,7 @@ on one of these tori will stay on it forever! It will march round and
 round, tracing out a kind of spiral path that may or may not ever get
 back to where it started.
 
-Things are pretty simple when n = 1, since a 1-dimensional torus is a
+Things are pretty simple when n = 1, since a $1$-dimensional torus is a
 circle, so the state *has* to loop around to where it started. For
 example, when you have a pendulum swinging back and forth, its position
 and momentum trace out a loop as time passes.

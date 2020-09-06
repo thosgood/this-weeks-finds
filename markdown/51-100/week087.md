@@ -118,8 +118,8 @@ quantum gravity; the next week was all about black holes!
     except to note that he mainly discussed the case of a black hole in 5
     dimensions, which was really a "black string" in 6 dimensions --- a
     solution with translational symmetry in the 6th dimension, but where the
-    extra 6th dimension is so tiny that ordinary 5-dimensional folks think
-    they've just got a black hole. (By the way, even the 6-dimensional
+    extra 6th dimension is so tiny that ordinary $5$-dimensional folks think
+    they've just got a black hole. (By the way, even the $6$-dimensional
     approach is really just a way of talking about a string theory that
     fundamentally lives in 10 dimensions. This stuff is not for the
     faint-hearted.)

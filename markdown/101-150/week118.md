@@ -37,7 +37,7 @@ Duff's own vision certainly has its charms. He has long been advocating
 the generalization of string theory to a theory of higher-dimensional
 "membranes". Nowadays people call these "$p$-branes" to keep track of
 the dimension of the membrane: a $0$-brane is a point particle, a $1$-brane
-is a string, a $2$-brane is a 2-dimensional surface, and so on.
+is a string, a $2$-brane is a $2$-dimensional surface, and so on.
 
 For a long time, higher-dimensional membrane theories were unpopular,
 even among string theorists, because the special tricks that eliminate
@@ -83,7 +83,7 @@ supersymmetry" if there are two, and so on.
 Like all nice physical theories, we can in principle derive everything
 about our theory of superstrings once we know the formula for the
 *action*. For bosonic strings, the action is very simple. As time
-passes, a string traces out a 2-dimensional surface in spacetime called
+passes, a string traces out a $2$-dimensional surface in spacetime called
 the "string worldsheet". The action is just the *area* of this
 worldsheet.
 
@@ -143,8 +143,8 @@ I explained in ["Week 72"](#week72):
     left-moving modes are purely bosonic, with symmetry group
     $\mathrm{Spin}(32)/\mathbb{Z}_2$
 
-To get 4-dimensional physics out of any of these, we need to think of
-our 10-dimensional spacetime as a bundle with a little 6-dimensional
+To get $4$-dimensional physics out of any of these, we need to think of
+our $10$-dimensional spacetime as a bundle with a little $6$-dimensional
 "Calabi-Yau manifold" sitting over each point of good old
 4-dimensional spacetime. But there's another step that's very useful
 when trying to understand the implications of superstring theory for
@@ -155,9 +155,9 @@ Thus in this limit superstring theory acts like an ordinary quantum
 field theory.
 
 What field theory do we get? This is a very important question. The
-field theory looks simplest in 10-dimensional Minkowski spacetime; it
+field theory looks simplest in $10$-dimensional Minkowski spacetime; it
 gets more complicated when we curl up 6 of the dimensions and think of
-it as a 4-dimensional field theory, so let's just talk about the simple
+it as a $4$-dimensional field theory, so let's just talk about the simple
 situation.
 
 No matter what superstring theory we start with, the low-energy limit
@@ -188,7 +188,7 @@ resolve these puzzles. Another interesting discovery is that
 8) Stephan Melosch and Hermann Nicolai, "New canonical variables for $d = 11$ supergravity", preprint available as [`hep-th/9709277`](https://arxiv.org/abs/hep-th/9709277).
 
 But I'm getting ahead of myself here! Right now I'm talking about the
-low-energy limit of 10-dimensional superstring theory. I said it amounts
+low-energy limit of $10$-dimensional superstring theory. I said it amounts
 to "supergravity coupled to super-Yang-Mills fields", and now I'm
 attempting to flesh that out a bit. So: starting from $N = 1$ supergravity
 in 11 dimensions we can get a theory of supergravity in 10 dimensions

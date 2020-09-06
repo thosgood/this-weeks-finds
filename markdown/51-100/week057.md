@@ -6,7 +6,7 @@ paper:
 1) Lee Smolin, "Linking topological quantum field theory and nonperturbative quantum gravity", available as [`gr-qc/9505028`](https://arxiv.org/abs/gr-qc/9505028).
 
 So: recall where we were. Let me not repeat the details, but simply note
-that we were playing around with quantum gravity on a 4-dimensional
+that we were playing around with quantum gravity on a $4$-dimensional
 spacetime, using the Ashtekar 'new variables' formalism, and we'd
 noticed that in the theory with nonzero cosmological constant $\Lambda$, there
 is an explicit solution of the theory, the 'Chern-Simons' state.

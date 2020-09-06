@@ -659,9 +659,9 @@ algebra, Trans. Amer. Math. Soc. 352 (2000), 935-968, also available at
 [math.QA/9801141](http://www.arXiv.org/abs/math.QA/9801141).
 
 I find that a bit more tempting, since the ordinary octonions arise from
-triality: the outer automorphism relating the three 8-dimensional irreps
+triality: the outer automorphism relating the three $8$-dimensional irreps
 of \mathfrak{so}(8). I don't know how (or whether) these quantum octonions are
-related to the 7-dimensional representation of quantum G2, which could
+related to the $7$-dimensional representation of quantum G2, which could
 be called the "quantum imaginary octonions" and was studied by Greg
 Kuperberg:
 

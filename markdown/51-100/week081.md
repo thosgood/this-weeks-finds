@@ -47,7 +47,7 @@ rotational symmetry it possesses at high temperatures. And like in the
 case of a magnet, one would expect the possibility of "topological
 defects" where different regions of space pick different ways to break
 the symmetry, leaving nasty spots like lumps in the carpet that can't
-be straightened out. Ordinary magnets typically exhibit 2-dimensional
+be straightened out. Ordinary magnets typically exhibit $2$-dimensional
 "domain walls" between domains having different axes of magnetization.
 But in various GUTs folks have considered, one can also get
 1-dimensional "cosmic strings" and 0-dimensional "topological
@@ -86,12 +86,12 @@ that they build on. One hot topic in mathematical physics in the last
 decade has been the study of "loop groups". Say you take any Lie group
 $G$. Then the "loop group" $LG$ is the set of smooth functions from the
 circle to $G$. This becomes a group with pointwise multiplication as the
-group operation. This sort of group shows up in 2-dimensional quantum
+group operation. This sort of group shows up in $2$-dimensional quantum
 field theory, where spacetime could be the cylinder. Then "space" is
 the circle, and if we are studying gauge theory with gauge group $G$, the
 group of gauge transformations over space would be the loop group $LG$.
-One main reason for being interested in 2-dimensional quantum field
-theory is string theory: here we think of the 2-dimensional worldsheet
+One main reason for being interested in $2$-dimensional quantum field
+theory is string theory: here we think of the $2$-dimensional worldsheet
 of the string as a spacetime in its own right, and we are often
 interested in doing gauge theory over this spacetime. For this reason,
 folks in string theory need to understand all they can about unitary
@@ -183,7 +183,7 @@ Okay, these topological facts about the group $G$ have a bunch of cool
 consequences. One trick usually goes by the name of the "WZW action",
 which refers to Wess, Zumino, and Witten. Say we have smooth function $f$
 from $S^2$ to $G$. Since $\pi_2(G) = 0$ we can extend $f$ to a smooth function $F$
-from the 3-dimensional ball, $D^3$, to $G$. (This is just another way of
+from the $3$-dimensional ball, $D^3$, to $G$. (This is just another way of
 "pulling the balloon tight" as mentioned above.) Now we can use $F$ to
 pull back the magic 3-form $W$ to $D^3$, and then we can integrate the
 resulting 3-form over $D^3$ to get a number $S(f)$ called the
@@ -227,7 +227,7 @@ exact sequence of spaces:
 $$\{*\} \to S^1 \to D^2 \to S^2 \to \{*\}$$
 
 This diagram means simply that we can think of the circle as a subspace
-of the 2-dimensional disc $D^2$ in an obvious way, and then if we
+of the $2$-dimensional disc $D^2$ in an obvious way, and then if we
 collapse this circle to a point the disc gets squashed down to a
 2-sphere. Now, from this short exact sequence we get a short exact
 sequence of groups

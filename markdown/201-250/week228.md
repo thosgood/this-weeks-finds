@@ -188,7 +188,7 @@ And here's a cellular automaton sand pile you can play with:
 9) Albert Schueller, Cellular automaton sand pile model,
 `http://schuelaw.whitman.edu/JavaApplets/SandPileApplet/`
 
-This one is only 2-dimensional, so the avalanches are less dramatic, but
+This one is only $2$-dimensional, so the avalanches are less dramatic, but
 you can have some fun using the mouse to build structures that impede
 the motion of sand.
 

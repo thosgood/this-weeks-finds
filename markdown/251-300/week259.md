@@ -143,7 +143,7 @@ For example, different ways of describing the surface of a doughnut by
 algebraic equations give different "[elliptic
 curves](http://en.wikipedia.org/wiki/Elliptic_curve)". This is
 terminology is bound to puzzle beginners! They're called "curves"
-even though it's 2-dimensional, because it takes one *complex* number
+even though it's $2$-dimensional, because it takes one *complex* number
 to say where you are on a little patch of a surface, just as it takes
 one *real* number to say where you are on an ordinary curve like a
 circle. That's the origin of the term "complex curve". And, they're
@@ -302,10 +302,10 @@ with n boxes. Here's one with 8 boxes:
 Then, count the "D-flags on an $n$-dimensional vector space over F~q~".
 In our example, such a D-flag is:
 
-        a 1-dimensional subspace
-     of a 3-dimensional subspace
-     of a 6-dimensional subspace
-     of a 8-dimensional vector space over Fq
+        a $1$-dimensional subspace
+     of a $3$-dimensional subspace
+     of a $6$-dimensional subspace
+     of a $8$-dimensional vector space over Fq
 
 If you actually count these D-flags you'll get some formula, which is a
 polynomial in q. And when you set q = 1, you'll get the number of
@@ -419,7 +419,7 @@ just its cardinality.
 
 All this so far is quite trivial, but Deitmar makes a nice attempt at
 redoing algebraic geometry to include this field with one element. One
-reason to do this is to understand the mysterious 3-dimensional aspect
+reason to do this is to understand the mysterious $3$-dimensional aspect
 of number theory.
 
 To explain this, I need to say a bit about
@@ -491,7 +491,7 @@ commutative ring \mathrm{O}(U) is also a vector space over F, in a well-behaved
 way, giving us a "sheaf of commutative rings over F". For example, the
 Riemann sphere is a scheme over C.
 
-There's a secret 3-dimensional aspect to the affine scheme Spec(Z),
+There's a secret $3$-dimensional aspect to the affine scheme Spec(Z),
 where Z is the commutative ring of integers. As explained in the Addenda
 to ["Week 257"](#week257), we might understand this if we could see
 Spec(Z) as a scheme over the field with one element! For more, see this:
@@ -640,7 +640,7 @@ K-theory, intersection theory and Chern classes" - fancy things that
 algebraic geometers like.
 
 What I don't yet see is how either Deitmar's or Durov's approach
-helps us understand the secret 3-dimensional nature of Spec(Z). I may
+helps us understand the secret $3$-dimensional nature of Spec(Z). I may
 just need to read their papers more carefully and think about them more.
 
 Finally, here's yet another approach to the field with one element:

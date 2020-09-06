@@ -15,7 +15,7 @@ by Stephen-wei Chung, Masafumi Fukuma and Alfred Shapere, preprint,
 available as [`hep-th/9305080`](https://arxiv.org/abs/hep-th/9305080)
 (make sure to get the pictures if possible)!
 
-What's a 2-dimensional "topological lattice field theory"? According
+What's a $2$-dimensional "topological lattice field theory"? According
 to the definition used in this paper, it goes like this. First take a
 compact oriented 2-manifold without boundary $M$, that is, an $n$-holed
 torus. (One could also discuss the case when there is a boundary, but to
@@ -357,7 +357,7 @@ These are closely related to the topological lattice field theories
 described above. Here we treat spacetime as discrete, that is, as a kind
 of lattice. One approach here is due to Regge and Ponzano, and recently
 worked out rigorously by Turaev and Viro. To get going in this theory,
-you "triangulate" your 3-dimensional spacetime, that is, chop it into
+you "triangulate" your $3$-dimensional spacetime, that is, chop it into
 tetrahedra. All we need to work with is this "simplicial complex"
 consisting of tetrahedra, their triangular faces, their line-segment
 edges, and the vertex points. We assume for simplicity that spacetime is

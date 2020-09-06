@@ -27,7 +27,7 @@ an overview is given of the geometries that result from the scalars of
 supergravity theories."
 
 Second, a interesting study of how you get supergravities in different
-dimensions by "oxidizing" 4-dimensional theories. This is a pun on
+dimensions by "oxidizing" $4$-dimensional theories. This is a pun on
 "reduction", the process whereby we go down from high dimensions to
 lower ones by curling up the extra dimensions. It turns out that
 oxidation is deeply related to Dynkin diagrams:

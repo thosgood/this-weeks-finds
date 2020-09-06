@@ -218,7 +218,7 @@ matters in physics; its double cover is $\mathrm{SL}(2,\mathbb{C})$. Note that $
 $\mathrm{SU}(2)$ as a subgroup just as $\mathrm{SO}(3,1)$ has $\mathrm{SO}(3)$ as a subgroup; everything
 fits together here, in a very pretty way.
 
-Now, while $\mathrm{SU}(2)$ has only one 2-dimensional irreducible representation,
+Now, while $\mathrm{SU}(2)$ has only one $2$-dimensional irreducible representation,
 $\mathrm{SL}(2,\mathbb{C})$ has two, called the left-handed and right-handed spinor
 representations. The "left-handed" one is the fundamental
 representation, in which $\mathrm{SL}(2,\mathbb{C})$ acts on $\mathbb{C}^2$ in the obvious way. The
@@ -289,7 +289,7 @@ $$
 $$
 and $\Phi$ is the "Weyl spinor". The Weyl spinor is symmetric in all its 4
 indices so it lives in the (2,0) representation of $\mathrm{SL}(2,\mathbb{C})$. Note that
-this is a 5-dimensional complex representation, so the Weyl spinor has
+this is a $5$-dimensional complex representation, so the Weyl spinor has
 10 real degrees of freedom, just like the Weyl tensor --- but these
 degrees of freedom have been encoded in a very efficient way! Even
 better, we see here why, in perturbative quantum gravity, the graviton

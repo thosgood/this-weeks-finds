@@ -174,7 +174,7 @@ To get the really interesting math to show up, we need to look at other
 examples of "witnessed relations" - not involving Russians or
 marriages, but geometry and symmetry.
 
-For example, suppose we're doing 3-dimensional geometry. There's a
+For example, suppose we're doing $3$-dimensional geometry. There's a
 relation "the point x and the line y lie on a plane", but it's pretty
 dull, since it's always true. More interesting is the witnessed
 relation "the point x and the line y lie on the plane z". The reason
@@ -222,8 +222,8 @@ beyond relations and use spans of sets.
 Actually, we need to go beyond spans of sets and use spans of groupoids!
 The reason is that incidence geometries usually have interesting
 symmetries, and a groupoid is like a "set with symmetries". For
-example, consider lines in 3-dimensional space. These form a set, but
-there are also symmetries of 3-dimensional space mapping one line to
+example, consider lines in $3$-dimensional space. These form a set, but
+there are also symmetries of $3$-dimensional space mapping one line to
 another. To take these into account we need a richer structure: a
 groupoid!
 

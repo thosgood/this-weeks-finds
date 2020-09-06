@@ -21,7 +21,7 @@ continuation of The Tale of $n$-Categories.
 Three of my favorite dimensions are 8, 11, and 24. Why?
 
 Well, 8 is the dimension of the octonions, which are related to special
-properties of rotations in 8-dimensional space, and also Bott
+properties of rotations in $8$-dimensional space, and also Bott
 periodicity: a magical phenomenon relating rotations, spinors and the
 like in n dimensions to the corresponding things in $n+8$ dimensions. The
 "Cayley integral octonions" form a marvelous lattice which happens to
@@ -38,7 +38,7 @@ themselves thrice! But more importantly, this is the dimension where
 Monstrous Moonshine lives. While bosonic string theory works best in
 26-dimensional spacetime, two of those dimensions really come from the
 fact that a string worldsheet is a 2d surface, so the real magic comes
-from secret relations between 2-dimensional stuff (complex analysis) and
+from secret relations between $2$-dimensional stuff (complex analysis) and
 the number 24.
 
 Some of this boils down to the fact that the only specially symmetric
@@ -46,7 +46,7 @@ lattices in 2 dimensions are the square lattice and the hexagonal one,
 and $4 \times 6 = 24$. But there's a lot more going on! For example, there's
 a marvelous lattice in 24 dimensions called the Leech lattice, which
 gives the densest lattice packing of spheres in that dimension. It also
-gives rise to a lattice in 26-dimensional spacetime, and if we cleverly
+gives rise to a lattice in $26$-dimensional spacetime, and if we cleverly
 use this to compactify 26d spacetime and do bosonic string theory there,
 we get a string theory whose symmetry group is the Monster: the largest
 sporadic finite simple group! The dimensions of the irreducible
@@ -480,7 +480,7 @@ Linus Kramer writes:
 > The simplest example is the elliptic polarity over the reals. Take the
 > standard inner product on R^3 and consider the map which sends a
 > subspace to its perp. Now the points of the real projective plane are
-> the 1-dimensional subspaces, and the lines are the 2-dimensional
+> the $1$-dimensional subspaces, and the lines are the $2$-dimensional
 > subspaces. It is fairly easy to see that this map 'take the perp' is
 > a polarity.
 >

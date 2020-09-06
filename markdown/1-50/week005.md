@@ -44,7 +44,7 @@ property, so it's sort of weird, and it simplifies things to get rid of
 it here.
 
 The simplest of the $\mathfrak{sl}(n,\mathbb{C})$'s is the Lie algebra $\mathfrak{sl}(2,\mathbb{C})$,
-affectionately known simply as $\mathfrak{sl}(2)$, which is a 3-dimensional Lie
+affectionately known simply as $\mathfrak{sl}(2)$, which is a $3$-dimensional Lie
 algebra with a basis given by matrices people call $E$, $F$, and $H$ for
 mysterious reasons:
 $$E=\left(\begin{array}{cc}0&1\\0&0\end{array}\right) \quad F=\left(\begin{array}{cc}0&0\\1&0\end{array}\right) \quad H=\left(\begin{array}{cc}1&0\\0&-1\end{array}\right)$$
@@ -140,7 +140,7 @@ reader should note that I am implicitly only considering finite-
 dimensional complex representations!) Here life is as nice as could be:
 all representations are completely reducible, and there is just one
 irreducible $n$-dimensional representation for each $n$, with the
-2-dimensional and 3-dimensional representations as above. (By the way, I
+2-dimensional and $3$-dimensional representations as above. (By the way, I
 really mean that there is only one irreducible $n$-dimensional
 representation up to a certain equivalence relation!) Physicists --- who
 more often work with the real form $\mathfrak{su}(2)$ --- call these the spin-$0$,
@@ -168,14 +168,14 @@ are functions of $q$. If we take the nth derivative of one of these
 invariants with respect to $\hbar$ and evaluate it at $\hbar = 0$ we get a
 "Vassiliev invariant of degree $n$" (see ["Week 3"](#week3) for the
 definition). Better than that, when $q$ is a root of unity each quantum
-group gives us a 3-dimensional "topological quantum field theory," or
+group gives us a $3$-dimensional "topological quantum field theory," or
 TQFT known as Chern-Simons theory. In particular, we get an invariant of
 compact oriented 3-manifolds. So there is a hefty bunch of mathematical
 payoffs from quantum groups. And there are good reasons to think of them
 as the right generalization of groups for dealing with symmetries in the
 physics of 2 and 3 dimensions. If string theory *or* the loop variables
 approach to quantum gravity have any truth to them, quantum groups play
-a sneaky role in honest 4-dimensional physics too.
+a sneaky role in honest $4$-dimensional physics too.
 
 In particular, there is a quantum version of $\mathfrak{sl}(2)$ called $\mathfrak{sl}_q(2)$. When
 $q = 1$ we essentially have the good old $\mathfrak{sl}(2)$. Chari and Premet have just
@@ -209,7 +209,7 @@ In this terse paper, Kazhdan and Soibelman construct a braided monoidal
 times, people expect braided monoidal 2-categories to play a role in
 generally covariant 4d physics analogous to what braided monoidal
 categories do in 3d physics. In particular, one might hope to get
-invariants of 4-dimensional manifolds, or of surfaces embedded in
+invariants of $4$-dimensional manifolds, or of surfaces embedded in
 4-manifolds, this way. (See last week's post for a little bit about the
 details.) I don't feel I understand this construction well enough yet
 to want to say much about it, but it is clearly related to the
@@ -235,7 +235,7 @@ only gives trivial 4-manifold invariants.
 I am not yet in a position to pass judgement on this, since both
 Crane/Yetter and Ocneanu are rather sketchy in key places. If indeed
 Ocneanu is right, I think people are going to have to get serious about
-facing up to the need for 2-categorical thinking in 4-dimensional
+facing up to the need for 2-categorical thinking in $4$-dimensional
 generally covariant physics. I had asked Crane, a big proponent of
 2-categories, why they played no role in his 4d TQFT, and he said that
 indeed he felt like the kid who took apart a watch, put it back

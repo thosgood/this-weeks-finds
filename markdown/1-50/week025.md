@@ -139,7 +139,7 @@ $LM$, is a space of great interest in its own right. It is infinite-
 dimensional, but that should not deter us. When $G$ is a Lie group, $LG$ is
 also a group (with pointwise operations); these are the famous loop
 groups, which appear as groups of gauge transformations in conformal
-field theory. When $M$ is a 3-dimensional manifold, $LM$ contains within it
+field theory. When $M$ is a $3$-dimensional manifold, $LM$ contains within it
 the space of all knots in $M$; also, we may think of $LM$ as the
 configuration space for the simplest flavor of string theory in the
 spacetime $\mathbb{R} x M$. Loops also serve to define observables called "Wilson

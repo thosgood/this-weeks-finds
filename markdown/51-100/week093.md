@@ -241,7 +241,7 @@ With some work, one can check that these algebras go like this:
 | $C_{6,1}$ | $\mathbb{C}(8)$ | $C_{1,6}$ | $\mathbb{H}(4)+\mathbb{H}(4)$ |
 | $C_{7,1}$ | $\mathbb{R}(16)$ | $C_{1,7}$ | $\mathbb{H}(8)$ |
 
-I've only listed these up to 8-dimensional Minkowski spacetime, and the
+I've only listed these up to $8$-dimensional Minkowski spacetime, and the
 cool thing is that after that they sort of repeat --- more precisely,
 $C_{n+8,1}$ is just the same as $16\times16$ matrices with entries in $C_{n,1}$,
 and $C_{1,n+8}$ is just $16\times16$ matrices with entries in $C_{1,n}$! This

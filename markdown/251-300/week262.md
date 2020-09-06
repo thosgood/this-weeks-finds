@@ -212,7 +212,7 @@ But regardless of whether anyone can coax them into quantum computation,
 I like diamonds. Not to own - just to contemplate! I told you about the
 diamond rain on Neptune back in ["Week 160"](#week160). And in
 ["Week 193"](#week193), I explained how diamonds are the closest
-thing to the E8 lattice you're likely to see in this 3-dimensional
+thing to the E8 lattice you're likely to see in this $3$-dimensional
 world.
 
 The reason is that in any dimension you can define a checkerboard
@@ -384,7 +384,7 @@ with a certain obvious Lie algebra structure. This is just \mathfrak{so}(9). So,
 it's nothing exceptional, though you arrived at it by a devious route.
 
 If you take S^8 with its usual round metric, the Lie algebra of Killing
-vector fields is \mathfrak{so}(9). Now there's a 16-dimensional space of Killing
+vector fields is \mathfrak{so}(9). Now there's a $16$-dimensional space of Killing
 spinor fields, and the action of \mathfrak{so}(9) on this gives the real
 (non-chiral) spinor representation S~9~. The Jacobi identity holds, and
 you get a Lie algebra structure on

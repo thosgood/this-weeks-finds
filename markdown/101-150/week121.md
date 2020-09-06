@@ -2,13 +2,13 @@
 
 This time I want to talk about higher-dimensional algebra and its
 applications to topology. Marco Mackaay has just come out with a
-fascinating paper that gives a construction of 4-dimensional TQFTs from
+fascinating paper that gives a construction of $4$-dimensional TQFTs from
 certain "monoidal 2-categories".
 
 1) Marco Mackaay, "Spherical 2-categories and 4-manifold invariants", preprint available as [`math.QA/9805030`](https://arxiv.org/abs/math.QA/9805030)
 
 Beautifully, this construction is just a categorified version of Barrett
-and Westbury's construction of 3-dimensional topological quantum field
+and Westbury's construction of $3$-dimensional topological quantum field
 theories from "monoidal categories". Categorification --- the process of
 replacing equations by isomorphisms --- is supposed to take you up the
 ladder of dimensions. Here we are seeing it in action!
@@ -292,7 +292,7 @@ a whole branch of math called "quantum topology", which people are
 trying to generalize to higher dimensions.
 
 More recently, Laurel Langford tackled the case $n = 2$, $k = 2$. She proved
-that 2-dimensional knotted surfaces in 4-dimensional space can be
+that $2$-dimensional knotted surfaces in $4$-dimensional space can be
 described algebraically using a certain "braided monoidal 2-category
 with duals". These so-called "2-tangles" are particularly interesting
 to me because of their relation to spin foam models of quantum gravity,
@@ -303,7 +303,7 @@ this, you couldn't do better than to start with:
 3) J. S. Carter and M. Saito, _Knotted Surfaces and Their Diagrams_, American Mathematical Society, Providence, 1998.
 
 This is a magnificently illustrated book which will really get you able
-to *see* 2-dimensional surfaces knotted in 4d space. At the end it
+to *see* $2$-dimensional surfaces knotted in 4d space. At the end it
 sketches the statement of Langford's result.
 
 Another interesting thing about the above chart is that $k$-tuply monoidal

@@ -16,7 +16,7 @@ introduced a new kind of number. One of them was the Sir William Rowan
 Hamilton. He knew about the real numbers $\mathbb{R}$, of course, and also the
 complex numbers $\mathbb{C}$, which are the reals with a square root of $-1$, usually
 called $i$, thrown in. Why not try putting in another square root of $-1$?
-This might give a 3-dimensional algebra that'd help with 3-dimensional
+This might give a $3$-dimensional algebra that'd help with $3$-dimensional
 space as much as the complex numbers help with 2 dimensions. He tried
 this but couldn't get division to work out well. He struggled this for
 a long time. On the 16th of October, 1843, he was walking along the
@@ -240,9 +240,9 @@ beginning to find explicit solutions of the constraints of quantum
 gravity using the loop representation --- it's still worth reading! The
 second introduced a field theory now called the Husain-Kuchar model,
 which has the curious property of resembling gravity without the
-dynamics. The third studies 4-dimensional general relativity assuming
+dynamics. The third studies $4$-dimensional general relativity assuming
 there are two commuting spacelike Killing vector fields. Here he reduces
-the theory to a 2-dimensional theory which appears to be completely
+the theory to a $2$-dimensional theory which appears to be completely
 integrable --- though it has not been proved to be so in the sense of
 admitting a complete set of Poisson-commuting conserved quantities.
 

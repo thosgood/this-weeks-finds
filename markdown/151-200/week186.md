@@ -155,7 +155,7 @@ geometry of points, lines, planes, and so on up to dimension n.
 More precisely, if we pick any field F, we can use this diagram to
 concoct the group \mathrm{SL}(n+1,F) consisting of (n+1) x (n+1) matrices with
 entries in F and determinant equal to 1. This group acts on the
-projective $n$-space FP^n - the space of all 1-dimensional subspaces of
+projective $n$-space FP^n - the space of all $1$-dimensional subspaces of
 the vector space F^n+1^. Just as in the complex case, we can talk about
 points, lines, planes and the like in FP^n, and also incidence
 relations like "this point lies on that line". These relations satisfy

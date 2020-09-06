@@ -416,7 +416,7 @@ This only works because there's q-factorial in our definition of
 generating function!
 
 Now for the new creation and annihilation operators. To put an
-A*F-structure on P(V), we pick a 1-dimensional subspace L in V and put
+A*F-structure on P(V), we pick a $1$-dimensional subspace L in V and put
 an F-structure on P(V/L). To put an AF-structure on P(V) we take a
 1-dimensional vector space L and put an F-structure on P(V+L). Note that
 these definitions are almost like the old ones! But now we get the

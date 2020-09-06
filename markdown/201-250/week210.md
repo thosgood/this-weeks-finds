@@ -189,7 +189,7 @@ The reason is that when G is abelian, the group element we get in the
 previous paragraph doesn't depend on the choice of a point of P(x).
 
 Gerbes show up when we try to invent a kind of "higher gauge theory"
-that describes how not just point particles but 1-dimensional objects
+that describes how not just point particles but $1$-dimensional objects
 transform when you move them around. For example, the strings in string
 theory, or the loops in loop quantum gravity.
 
@@ -362,7 +362,7 @@ Norm. Sup. 25 (1992), 465-514.
 225, Societe Mathematique de France, 1994.
 
 2-gerbes are what you get if you climb the hierarchy one more step. They
-should be good for describing the parallel transport of 2-dimensional
+should be good for describing the parallel transport of $2$-dimensional
 surfaces, or "2-branes" - and indeed they make an appearance in
 Aschieri and Jurco's paper for precisely that reason.
 

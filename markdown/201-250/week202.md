@@ -557,7 +557,7 @@ Theories, Cambridge U. Press, Cambridge, 2003.
 This is mainly about 2d TQFTs, where the concept of "Frobenius
 algebra" reigns supreme, and everything is very easy to visualize.
 
-When we go up to 3-dimensional spacetime life gets harder, but also more
+When we go up to $3$-dimensional spacetime life gets harder, but also more
 interesting. This book isn't so easy, but it's packed with beautiful
 math and wonderfully drawn pictures:
 

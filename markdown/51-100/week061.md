@@ -58,7 +58,7 @@ for obvious reasons.
 
 Now $\mathrm{SO}(n)$ has lots of other representations, too. If we consider $\mathrm{SO}(3)$,
 for example, there is in addition to the vector representation (which is
-3-dimensional) also the trivial 1-dimensional representation (where the
+3-dimensional) also the trivial $1$-dimensional representation (where the
 group element $g$ acts on a complex number $v$ by leaving it alone!) and
 also interesting representations of dimensions 5, 7, 9, etc.. The
 interesting representation of dimension $2j+1$ is called the "spin-$j$"
@@ -112,7 +112,7 @@ $(2j+1)(2j'+1)$, since the dimension of a tensor product is the product
 of the dimensions. In particular, we call the $(1/2,0)$ representation the
 "left-handed" spinor representation and the $(0,1/2)$ representation the
 "right-handed" spinor representation. The reason is that a reflection
-transforms one into the other. Since spacetime is 4-dimensional,
+transforms one into the other. Since spacetime is $4$-dimensional,
 representations of $\mathrm{Spin}(4)$ are important in physics, although really one
 should keep track of the fact that time works a bit differently than
 space, which $\mathrm{Spin}(4)$ fails to do. In any event, ignoring the subtleties
@@ -132,7 +132,7 @@ $\mathrm{SO}(n)$, which is $n$-dimensional.
 This leads to something very curious. If you are an ordinary
 4-dimensional physicist you undoubtedly tend to think of spinors as
 "smaller" than vectors, since the spinor representations are
-2-dimensional, while the vector representation is 3-dimensional.
+2-dimensional, while the vector representation is $3$-dimensional.
 However, in general, when the dimension $n$ of space (or spacetime) is
 even, the dimension of the spinor representations is $2^{n/2-1}$, while
 that of the vector representation is $n$, so after a while the spinor
@@ -142,28 +142,28 @@ bigger!
 This is a little bit curious, or at least it may seem so at first, but
 what's *really* curious is what happens exactly when the spinor
 representation catches up with the vector representation. That's when
-$2^{n/2-1} = n$, or $n = 8$. The group $\mathrm{Spin}(8)$ has three 8-dimensional
+$2^{n/2-1} = n$, or $n = 8$. The group $\mathrm{Spin}(8)$ has three $8$-dimensional
 irreducible representations: the vector, left-handed spinor, and
 right-handed spinor representation. While they are not equivalent to
 each other, they are darn close; they are related by a symmetry of
 $\mathrm{Spin}(8)$ called "triality". And, to top it off, the octonions can be
 seen as a kind of spin-off of this triality symmetry... as one might
-have guessed, from all this 8-dimensional stuff. One can, in fact,
+have guessed, from all this $8$-dimensional stuff. One can, in fact,
 describe the product of octonions in these terms.
 
 So now let's dig in a bit deeper and describe how this triality
 business works. For this, unfortunately, I will need to assume some
 vague familiarity with exterior algebras, Clifford algebras, and their
 relation to the spin group. But we will have a fair amount of fun
-getting our hands on a 24-dimensional beast called the Chevalley
+getting our hands on a $24$-dimensional beast called the Chevalley
 algebra, which contains the vector and spinor representations of
 $\mathrm{Spin}(8)$!
 
-Start with an 8-dimensional *complex* vector space $V$ with a
+Start with an $8$-dimensional *complex* vector space $V$ with a
 nondegenerate symmetric bilinear form on it. We can think of $V$ as the
 representation of $\mathrm{SO}(8)$, hence $\mathrm{Spin}(8)$, where now I've switched
 notation and write $\mathrm{SO}(8)$ to mean $\mathrm{SO}(8,\mathbb{C})$, and $\mathrm{Spin}(8)$ to mean $\mathrm{Spin}(8,\mathbb{C})$.
-We can split $V$ into two 4-dimensional subspaces $V_+$ and $V_-$ such that
+We can split $V$ into two $4$-dimensional subspaces $V_+$ and $V_-$ such that
 $\langle v,w\rangle = 0$ whenever $v$ and $w$ are either both in $V_+$, or both in $V_-$. Let
 $\mathrm{Cliff}$ be the Clifford algebra over $V$. Note that as a vector space, there
 is a natural identification of $\mathrm{Cliff}$ with
@@ -187,8 +187,8 @@ can't create another.) Thus $S$ consists of vectors of the form $uv$ where
 $u$ lies in $\bigwedge V_-$, and if you think a bit, it follows that $S$ is
 16-dimensional.
 
-So we have our hands on a 16-dimensional representation of $\mathrm{Spin}(8)$,
-namely $S$. However, we can split it into two 8-dimensional
+So we have our hands on a $16$-dimensional representation of $\mathrm{Spin}(8)$,
+namely $S$. However, we can split it into two $8$-dimensional
 representations, the left- and right-handed spinor representations, as
 follows. Let
 $$\bigwedge^\text{even} V_-$$
@@ -213,7 +213,7 @@ the fact that $n$ is 8. So as a bonus we're learning some quite general
 stuff about spinors.
 
 Now let's do something weird using the fact that $n$ is 8. We've got
-these three 8-dimensional representations of $\mathrm{Spin}(8)$ on our hands,
+these three $8$-dimensional representations of $\mathrm{Spin}(8)$ on our hands,
 namely $V$, $S_+$, and $S_-$. How do they relate? Recall that $S_+ + S_- = S$ is a
 representation of $\mathrm{Cliff}$, and since $V$ sits inside $\mathrm{Cliff}$ as the elements
 of degree $1$, we have for any $a$ in $V$,
@@ -221,7 +221,7 @@ $$\mbox{$ab$ is in $S_-$ if $b$ is in $S_+$}$$
 and
 $$\mbox{$ab$ is in $S_+$ if $a$ is in $S_-$}$$
 If we are in the mood, this might tempt us to lump $V$, $S_+$, and $S_-$
-together to form a 24-dimensional algebra! Let's call this the
+together to form a $24$-dimensional algebra! Let's call this the
 Chevalley algebra and write
 $$\mathrm{Chev} = V + S_+ + S_-$$
 
@@ -280,10 +280,10 @@ where the product on the right hand side is the product in the Chevalley
 algebra. In other words: take $v$ and turn it into something in $S_+$ by
 forming $v s_-$. Take $w$ and turn it into something in $S_-$ by forming $w s_+$.
 The product of these is then something in $V$. In short, we form the
-octonions from the three 8-dimensional representations of $\mathrm{Spin}(8)$ by a
+octonions from the three $8$-dimensional representations of $\mathrm{Spin}(8)$ by a
 kind of ring-around-the-rosie process using triality!
 
-Note: what we just obtained was a *complex* 8-dimensional algebra, which
+Note: what we just obtained was a *complex* $8$-dimensional algebra, which
 is the complexification of the octonions. Using the fact that the vector
 representation of $\mathrm{SO}(8,\mathbb{C})$ on $\mathbb{C}^8$ contains the vector representation of
 $\mathrm{SO}(8,\mathbb{R})$ on $\mathbb{R}^8$ as a "real part", we should be able to get the
@@ -291,7 +291,7 @@ octonions themselves.
 
 One can work out the details following the book of Fulton and Harris,
 and the references therein. I should add that they do a lot more fun
-stuff involving the exceptional Lie groups and the 27-dimensional
+stuff involving the exceptional Lie groups and the $27$-dimensional
 exceptional Jordan algebra... all of this "exceptional" stuff seems
 to form a unified whole! There is a lot more fun stuff along these lines
 in

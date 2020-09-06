@@ -89,7 +89,7 @@ they'll pick.
 
 The second theory seems more plausible. But is it true? I'm not even
 sure how to resolve that question. But it's worth noting that honeycomb
-cells are actually 3-dimensional - and the *end* of each cell consists
+cells are actually $3$-dimensional - and the *end* of each cell consists
 of three rhombi that meet at the same angle as bubbles in soap suds!
 
 ::: {align="center"}

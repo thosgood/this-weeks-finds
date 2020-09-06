@@ -297,7 +297,7 @@ I wrote about this gadget in ["Week 214"](#week214) and
 a 3-holed torus tiled by regular heptagons, with 3 heptagons meeting at
 each vertex.
 
-It's perfectly symmetrical, but you can't stuff it into 3-dimensional
+It's perfectly symmetrical, but you can't stuff it into $3$-dimensional
 Euclidean space without warping it. So, its charms are a bit more
 esoteric than those of, say, a dodecahedron.
 
@@ -371,7 +371,7 @@ website:
 You may think I'm digressing, but the relation between Klein's quartic
 curve and the Fano plane underlies what I want to talk about today. Greg
 Egan and I realized that this relation is just part of a bigger picture
-involving special relativity in 3-dimensional spacetime... over the
+involving special relativity in $3$-dimensional spacetime... over the
 integers mod 7.
 
 Huh?
@@ -463,7 +463,7 @@ sounds cool (we went into physics because we liked things like X-rays
 and rayguns) and because it's accurate. The light rays going through a
 given point - the origin - are precisely like this.
 
-Next, let's ponder the peculiarities of 3-dimensional spacetime.
+Next, let's ponder the peculiarities of $3$-dimensional spacetime.
 
 For any field F, 2\times2 matrices with determinant 1 act as Lorentz
 transformations of 3d Minkowski spacetime. I touched upon this idea when
@@ -525,7 +525,7 @@ So, let's make some definitions:
     Minkowski spacetime
 
 You may think I'm being silly to call the set of light rays "the
-heavenly circle", but in 4-dimensional spacetime the analogous thing is
+heavenly circle", but in $4$-dimensional spacetime the analogous thing is
 often called "the heavenly sphere", and we're studying things one
 dimension down.
 

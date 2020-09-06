@@ -19,9 +19,9 @@ Quinn, to appear in the proceedings of the Park City Geometry Institute.
 
 Last week I described --- in a pretty sketchy way --- how the 4-color
 theorem and the Beraha conjecture are related to TQFTs. These can be
-regarded as two very hard problems in 2-dimensional topology --- one
+regarded as two very hard problems in $2$-dimensional topology --- one
 solved by a mixture of cleverness and extreme brute force, the other
-still open. There is another hard problem in 2-dimensional topology
+still open. There is another hard problem in $2$-dimensional topology
 called the Andrews-Curtis conjecture, which Quinn is working on using
 TQFT methods, which I'll talk about this time. I don't know too much
 about this stuff, so I hope any experts out there will correct my
@@ -93,7 +93,7 @@ in topology. When they first stated their conjecture they noted a number
 of topological consequences, and the referee of the paper noted one
 more. For example, it would shed some light on the Poincare conjecture
 (although not settle it) as follows. Recall that the Poincare conjecture
-says every 3-dimensional manifold homotopic to a 3-sphere is
+says every $3$-dimensional manifold homotopic to a 3-sphere is
 homeomorphic to a 3-sphere. The Andrews-Curtis conjecture implies that
 if the Poincare conjecture is false, any counterexample can in fact be
 embedded (topologically) in $\mathbb{R}^4$!
@@ -108,7 +108,7 @@ call the points "0-cells." To get a 1-complex, we take a set of
 "1-cells," that is, closed unit intervals, and glue their ends on to
 the 0-cells in any way we want. In other words, we get a graph, possibly
 with some edges having both ends at the same vertex. To get a 2-complex,
-we take a set of "2-cells," that is, 2-dimensional closed disks, and
+we take a set of "2-cells," that is, $2$-dimensional closed disks, and
 glue their boundaries onto our 1-complex by any continuous map. And so
 on, with the "$n$-cells" being just copies of the closed unit ball in
 $\mathbb{R}^n$.

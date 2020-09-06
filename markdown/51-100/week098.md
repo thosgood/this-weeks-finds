@@ -161,9 +161,9 @@ with no vertices should satisfy the Wheeler-DeWitt equation. These are
 just knots or links with edges are labelled by spins. We know these
 states are supposed to represent "quantum 4-geometries" satisfying the
 quantized Einstein equations. But how should we visualize these states
-in 4-dimensional terms?
+in $4$-dimensional terms?
 
-In search of some insight into the 4-dimensional interpretation of these
+In search of some insight into the $4$-dimensional interpretation of these
 states, I turn to classical general relativity. In my paper, I construct
 solutions of the equations of general relativity which at a typical
 fixed time look like "flux tubes of area" reminiscent of the loop
@@ -184,7 +184,7 @@ transverse directions.
 Now since these are classical solutions --- no quantum theory in sight! ---
 there is no problem with understanding what they do as time passes. We
 can solve Einstein's equation and get a 4-metric, a metric on
-spacetime. The 4-dimensional picture is as follows: given any surface $\Sigma$
+spacetime. The $4$-dimensional picture is as follows: given any surface $\Sigma$
 embedded in spacetime, I get solutions for which the 4-metric vanishes
 outside a neighborhood of $\Sigma$. Inside this neighborhood, the 4-metric is
 zero in the two directions tangent to $\Sigma$ but nondegenerate in the two
@@ -206,7 +206,7 @@ constant as a kind of limiting case.
 
 It turns out that the interesting degrees of freedom of the metric
 living on the surface $\Sigma$ in spacetime are described by fields living on
-this surface. In fact, these fields are solutions of a 2-dimensional
+this surface. In fact, these fields are solutions of a $2$-dimensional
 topological field theory called BF theory. To prove this, I take
 advantage of the relation between general relativity and BF theory in 4
 dimensions, together with the fact that BF theory behaves in a simple
@@ -215,12 +215,12 @@ manner under dimensional reduction.
 Another neat thing is that to get a solution of general relativity this
 way, we need to pick a "framing" of $\Sigma$. Roughly speaking, this means we
 need to pick a way of thickening up the surface $\Sigma$ to a neighborhood that
-looks like $\Sigma\times D^2$, where $D^2$ is the 2-dimensional disc. This is
-precisely the 4-dimensional analog of a framing of a knot or link in
+looks like $\Sigma\times D^2$, where $D^2$ is the $2$-dimensional disc. This is
+precisely the $4$-dimensional analog of a framing of a knot or link in
 3-dimensions. People who know about topological quantum field theory
 know that framings are very important. In fact, I can show that my
 solutions of general relativity are closely related to Chern-Simons
-theory, a 3-dimensional topological field theory famous for giving
+theory, a $3$-dimensional topological field theory famous for giving
 invariants of framed knots and links. What's beginning to emerge is a
 picture that makes the *spacetime* aspects of framings easier to
 understand.
@@ -232,7 +232,7 @@ business?
 
 In plain terms: is all this fancy physics just an excuse to have fun
 visualizing evolving spin networks in terms of quantum field theories on
-surfaces embedded in 4-dimensional spacetime, etcetera etcetera... or
+surfaces embedded in $4$-dimensional spacetime, etcetera etcetera... or
 does it actually contribute to the well-being of the corporations upon
 which we depend?
 

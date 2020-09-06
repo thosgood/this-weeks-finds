@@ -27,7 +27,7 @@ as a morphism:
 $$x\xrightarrow{\quad f\quad}g$$
 you are easily tempted to think of a "path of paths" as a 2-morphism.
 Here a "path of paths" is just a continuous 1-parameter family of
-paths from x to y, which you can think of as tracing out a 2-dimensional
+paths from x to y, which you can think of as tracing out a $2$-dimensional
 surface, as follows:
 $$\includegraphics[scale=0.3]{../images/Fnatftog.pdf}$$
 And one can keep on going and look at "paths of paths of paths", etc.
@@ -70,7 +70,7 @@ are often called bicategories (see the reference to Benabou in
 tricategories (see the reference to the paper by Gordon, Power and
 Street) in ["Week 29"](#week29). Tricategories were just defined last
 year! They have a whole lot to do with knots, Chern-Simons theory, and
-other 3-dimensional phenomena, as one might expect. If we could
+other $3$-dimensional phenomena, as one might expect. If we could
 understand the ultimate 4-categories --- tetracategories? --- it would
 probably help us with some of the riddles of topology and physics in 4
 dimensions. (Indeed, what little we *do* understand is already helping a
@@ -157,7 +157,7 @@ case appears in:
 
 So this is rather remarkable: starting from a finite group, and all this
 $n$-categorical abstract nonsense, out pops precisely the raw ingredients
-for a perfectly respectable 3-dimensional topological quantum field
+for a perfectly respectable $3$-dimensional topological quantum field
 theory! Understanding *why* this kind of thing works is part of the aim
 of Dolan's and my paper, though there are some important pieces of the
 puzzle that we don't get around to mentioning there.
@@ -165,7 +165,7 @@ puzzle that we don't get around to mentioning there.
 Right now I'm busily working out the details of how to get braided
 monoidal 2-categories from monoidal 2-categories by the same trick, with
 the aid of Martin Neuchl and Frank Halanke here. These should have a lot
-to do with 4-dimensional topological quantum field theories (see e.g.
+to do with $4$-dimensional topological quantum field theories (see e.g.
 the paper by Crane and Yetter cited in ["Week 46"](#week46)). And here
 I can't resist mentioning a very nice paper by Neuchl and Schauenburg,
 

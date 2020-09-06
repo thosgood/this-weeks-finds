@@ -239,7 +239,7 @@ rather conclude by mentioning the part that's the most fascinating to
 me as a mathematical physicist. Namely, the various dimensions of
 category turn out to correspond in a very beautiful --- but still
 incompletely understood --- way to the various dimensions of spacetime. In
-other words, the study of physics in imaginary 2-dimensional spacetimes
+other words, the study of physics in imaginary $2$-dimensional spacetimes
 uses lots of 2-categories, the study of physics in a 3d spacetimes uses
 3-categories, the study of physics in 4d spacetimes appears to use
 4-categories, and so on. It's very surprising at first that something

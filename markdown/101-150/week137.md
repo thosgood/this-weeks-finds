@@ -8,7 +8,7 @@ start with some things people discussed at the conference in Coimbra
 1) Michael Mueger, "Galois theory for braided tensor categories and the modular closure", preprint available as [`math.CT/9812040`](https://arxiv.org/abs/math.CT/9812040).
 
 A braided monoidal category is simple algebraic gadget that captures a
-bit of the essence of 3-dimensionality in its rawest form. It has a
+bit of the essence of $3$-dimensionality in its rawest form. It has a
 bunch of "objects" which we can draw a labelled dots like this:
 $$
   \begin{tikzpicture}
@@ -24,7 +24,7 @@ $$
     \node[label=above:{$y$}] at (1,0) {$\bullet$};
   \end{tikzpicture}
 $$
-This is 1-dimensional. But in addition we have, for any pair of objects
+This is $1$-dimensional. But in addition we have, for any pair of objects
 $x$ and $y$, a bunch of "morphisms" $f\colon x\to y$. We can draw a morphism from
 a tensor product of objects to some other tensor product of objects as a
 picture like this:
@@ -44,7 +44,7 @@ $$
     \node[label=below:{$v$}] at (1.5,-4) {$\bullet$};
   \end{tikzpicture}
 $$
-This picture is 2-dimensional. In addition, we require that for any pair
+This picture is $2$-dimensional. In addition, we require that for any pair
 of objects $x$ and $y$ there is a "braiding", a special morphism from
 $x\otimes y$ to $y\otimes x$. We draw it like this:
 $$
@@ -61,7 +61,7 @@ $$
     \node[label=below:{$x$}] at (1,-2) {$\bullet$};
   \end{tikzpicture}
 $$
-With this crossing of strands, the picture has become 3-dimensional!
+With this crossing of strands, the picture has become $3$-dimensional!
 
 We also require that we can "compose" a morphism $f\colon x\to y$ and a
 morphism $g\colon y\to z$ and get a morphism $fg\colon x\to z$. We draw this by sticking
@@ -135,13 +135,13 @@ where we cook up the second picture using the inverse of the braiding.
 This rule is good when you don't care about the difference between
 overcrossings and undercrossings. If this rule holds we say our braided
 monoidal category is "symmetric". Topologically, this rule makes sense
-when we study 4-dimensional or higher-dimensional situations, where we
+when we study $4$-dimensional or higher-dimensional situations, where we
 have enough room to untie all knots. For example, the traditional theory
 of Feynman diagrams is based on symmetric monoidal categories (like the
 category of representations of the Poincare group), and it works very
-smoothly in 4-dimensional spacetime.
+smoothly in $4$-dimensional spacetime.
 
-But 3-dimensional spacetime is a bit different. For example, when we
+But $3$-dimensional spacetime is a bit different. For example, when we
 interchange two identical particles, it really makes a difference
 whether we do it like this:
 $$
@@ -182,7 +182,7 @@ Now let me dig into some more technical aspects of the picture.
 
 Starting with Reshetikhin and Turaev, people have figured out how to use
 braided monoidal categories to construct topological quantum field
-theories in 3-dimensional spacetime. But they can't do it starting from
+theories in $3$-dimensional spacetime. But they can't do it starting from
 any old braided monoidal category, because quantum field theory has a
 lot to do with Hilbert spaces. So usually they start from a special sort
 called a "modular tensor category". This is a kind of hybrid of a
@@ -267,7 +267,7 @@ you down the columns of the "periodic table":
 :$k$-tuply monoidal $n$-categories
 
 I described this in ["Week 74"](#week74) and ["Week 121"](#week121), so I won't do so again.
-My point here is really just that lots of this 3-dimensional stuff is
+My point here is really just that lots of this $3$-dimensional stuff is
 part of a bigger picture that applies to all different dimensions. For
 more details, including a description of the center construction, try:
 
@@ -322,9 +322,9 @@ progress in unlocking these mysteries:
 
 Marco Mackaay spoke about his work in Coimbra, and I had grilled him
 about it in Lisbon beforehand, so I think I understand it pretty well.
-Basically what he's doing is categorifying the 3-dimensional
+Basically what he's doing is categorifying the $3$-dimensional
 topological quantum field theories studied by Dijkgraaf and Witten to
-get 4-dimensional theories. It fits in very nicely with his earlier work
+get $4$-dimensional theories. It fits in very nicely with his earlier work
 described in "week121".
 
 People have been trying to categorify the magic of quantum groups for

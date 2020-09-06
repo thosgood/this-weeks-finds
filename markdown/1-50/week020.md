@@ -290,7 +290,7 @@ $x$ and $y$. It turns out we can define a new norm on the icosians by
 setting
 $$|a + bI + cJ + dK|^2 = x + y.$$
 With respect to this norm, the icosians form a lattice that fits
-isometrically in 8-dimensional Euclidean space and is the famous one
+isometrically in $8$-dimensional Euclidean space and is the famous one
 called $\mathrm{E}_8$! $\mathrm{E}_8$ is known to yield the densest lattice packing of
 spheres in 8 dimensions, a fact that is not only useful for
 8-dimensional greengrocers, but also is apparently used in
@@ -373,7 +373,7 @@ Dimension 24 is probably the most interesting for lattice theory, and
 here the densest lattice packing is the Leech lattice. I am somewhat
 sorry not to have even mentioned the Leech lattice in my article, since
 this is the real star of Conway and Sloan's book. The Leech lattice is
-probably related to the appearance of 26-dimensional spacetime in string
+probably related to the appearance of $26$-dimensional spacetime in string
 theory; to get it, start with the unique even unimodular lattice in
 26-dimensional Minkowski space, and then look at $M$, the set of vectors
 in the lattice perpendicular to the vector $w = (70,1,2,3,...,24)$. This

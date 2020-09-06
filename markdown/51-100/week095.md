@@ -100,10 +100,10 @@ bosonic and act as if they were in 26 dimensions!
 
 To get this string with a split personality to make sense, people
 cleverly think of the 26 dimensional spacetime for the bosonic part as a
-10-dimensional spacetime times a little 16-dimensional curled-up space,
+10-dimensional spacetime times a little $16$-dimensional curled-up space,
 or "compact manifold". To get the theory to work, it seems that this
 compact manifold needs to be flat, which means it has to be a torus - a
-16-dimensional torus. We can think of any such torus as 16-dimensional
+16-dimensional torus. We can think of any such torus as $16$-dimensional
 Euclidean space "modulo a lattice". Remember, a lattice in Euclidean
 space is something that looks sort of like this:
 $$
@@ -125,15 +125,15 @@ and $y$ lie in $L$, so does $jx + ky$ for all integers $j$ and $k$. When we form
 $n$-dimensional Euclidean space "modulo a lattice", we decree two points
 $x$ and $y$ to be the same if $x-y$ is in $L$. For example, all the points
 labelled $x$ in the figure above count as the same when we "mod out by
-the lattice"... so in this case, we get a 2-dimensional torus.
+the lattice"... so in this case, we get a $2$-dimensional torus.
 
-For more on 2-dimensional tori and their relation to complex analysis,
+For more on $2$-dimensional tori and their relation to complex analysis,
 you can read ["Week 13"](#week13). Here we are going to be macho
 and plunge right into talking about lattices and tori in arbitrary
 dimensions.
 
-To get our 26-dimensional string theory to work out nicely when we curl
-up 16-dimensional space to a 16-dimensional torus, it turns out that we
+To get our $26$-dimensional string theory to work out nicely when we curl
+up $16$-dimensional space to a $16$-dimensional torus, it turns out that we
 need the lattice $L$ that we're modding out by to have some nice
 properties. First of all, it needs to be an "integral" lattice,
 meaning that for any vectors $x$ and $y$ in $L$ the dot product $x\cdot y$ must be an
@@ -265,27 +265,27 @@ precisely the dimensions I said were specially important in
 this a "coincidence"? Well, all I can say is that I don't understand
 it.
 
-Anyway, the 10-dimensional even unimodular Lorentzian lattice is pretty
+Anyway, the $10$-dimensional even unimodular Lorentzian lattice is pretty
 neat and has attracted some attention in string theory:
 
 7) Reinhold W. Gebert and Hermann Nicolai, "$\mathrm{E}_10$ for beginners", preprint available as [`hep-th/9411188`](https://arxiv.org/abs/hep-th/9411188)
 
-but the 26-dimensional one is even more neat. In particular, thanks to
+but the $26$-dimensional one is even more neat. In particular, thanks to
 the cannonball trick of Lucas, the vector
 $$v = (70,0,1,2,3,4,\ldots,24)$$
 is "lightlike". In other words,
 $$v\cdot v=0.$$
 What this implies is that if we let $T$ be the set of all integer
 multiples of $v$, and let $S$ be the set of all vectors $x$ in our lattice
-with $x\cdot v = 0$, then $T$ is contained in $S$, and $S/T$ is a 24-dimensional
+with $x\cdot v = 0$, then $T$ is contained in $S$, and $S/T$ is a $24$-dimensional
 lattice --- the Leech lattice!
 
 Now *that* has all sorts of ramifications that I'm just barely
 beginning to understand. For one, it means that if we do bosonic string
-theory in 26 dimensions on $\mathbb{R}^{26}$ modulo the 26-dimensional even
+theory in 26 dimensions on $\mathbb{R}^{26}$ modulo the $26$-dimensional even
 unimodular lattice, we get a theory having lots of symmetries related to
 those of the Leech lattice. In some sense this is a "maximally
-symmetric" approach to 26-dimensional bosonic string theory:
+symmetric" approach to $26$-dimensional bosonic string theory:
 
 8) Gregory Moore, "Finite in all directions", preprint available as [`hep-th/9305139`](https://arxiv.org/abs/hep-th/9305139).
 
@@ -360,9 +360,9 @@ Yikes! Thanks for catching that massive hole in the exposition.
 
 You're right that there's no shortage of lightlike vectors in the even
 unimodular Lorentzian lattices of other dimensions $8n+2$; there are also
-lots of other lightlike vectors in the 26-dimensional one. Any one of
+lots of other lightlike vectors in the $26$-dimensional one. Any one of
 these gives us a lattice in $8n$-dimensional Euclidean space. In fact, we
-can get all 24 even unimodular lattices in 24-dimensional Euclidean
+can get all 24 even unimodular lattices in $24$-dimensional Euclidean
 space by suitable choices of lightlike vector. The lightlike vector you
 wrote down happens to give us the $\mathrm{E}_8$ lattice in 8 dimensions.
 
@@ -421,6 +421,6 @@ inconsistent.
 ------------------------------------------------------------------------
 
 **Yet another addendum (August 2001):** now, with the rise of interest
-in 11-dimensional physics, there is even a paper on $\mathrm{E}_{11}$:
+in $11$-dimensional physics, there is even a paper on $\mathrm{E}_{11}$:
 
 12) P. West, $\mathrm{E}_{11}$ and M-theory, available as [`hep-th/0104081`](https://arxiv.org/abs/hep-th/0104081).

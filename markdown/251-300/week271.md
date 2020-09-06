@@ -186,7 +186,7 @@ groups. Remember, there are just two more:
 -   H_4, the symmetry group of the 120-cell, with 120 \times 120 elements.
 
 We can get 3d quasicrystals with approximate dodecahedral symmetry by
-cleverly slicing the 6-dimensional D~6~ lattice. This is actually
+cleverly slicing the $6$-dimensional D~6~ lattice. This is actually
 practical, since there really *are* such quasicrystals in nature. And we
 can get 4d quasicrystals with approximate 120-cell symmetry by cleverly
 slicing the \mathrm{E}_8 lattice! This is just incredibly cool as pure

@@ -812,7 +812,7 @@ what I wrote, roughly:
 > disks into a big disk.
 >
 > But still: *what's really going on? What do classical phase spaces
-> have to do with little 2-dimensional disks???*
+> have to do with little $2$-dimensional disks???*
 >
 > As far as I'm concerned, the Rosetta Stone on the third page of
 > Getzler's paper only serves to heighten the mystery further!

@@ -43,7 +43,7 @@ the volumes of the tetrahedra, and the 4-volumes of the 4-simplices.
 There are some arguments going on now about the right way to do this,
 but it's far from an arbitrary business: the interplay between group
 representation theory and geometry says a lot about how it should go. In
-the simplified case of 3-dimensional spacetime, it's fairly well
+the simplified case of $3$-dimensional spacetime, it's fairly well
 understood --- the hard part, and the fun part, is getting it to work in 4
 dimensions.
 
@@ -199,7 +199,7 @@ relativity mixed in with these extra theories.
 Here's another recent product of the Center for Classical and Quantum
 Gravity here at Penn State:
 
-9) Laurent Freidel and Kirill Krasnov, "Discrete space-time volume for 3-dimensional BF theory and quantum gravity", preprint available as [`hep-th/9804185`](https://arxiv.org/abs/hep-th/9804185).
+9) Laurent Freidel and Kirill Krasnov, "Discrete space-time volume for $3$-dimensional BF theory and quantum gravity", preprint available as [`hep-th/9804185`](https://arxiv.org/abs/hep-th/9804185).
 
 Freidel and Krasnov study the volume of a single 3-simplex as an
 observable in the context of the Turaev-Viro model --- a topological

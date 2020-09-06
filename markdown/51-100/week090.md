@@ -85,7 +85,7 @@ $$
 $$
 These relations are lurking in the definition of quaternions and also
 the vector cross product. Quaternions and cross products are good for
-understanding rotations in 3-dimensional space; they let us describe
+understanding rotations in $3$-dimensional space; they let us describe
 infinitesimal rotations and their failure to commute. Here we are
 calling a spade a spade and working directly with the algebra of
 infinitesimal rotations, which folks call $\mathfrak{so}(3)$. (For related stuff, see
@@ -166,7 +166,7 @@ complex, and quaternionic vector spaces.
 The 5 exceptions are as follows:
 
 - $\mathrm{F}_4$: A 52-dimensional Lie algebra.
-- $\mathrm{G}_2$: A 14-dimensional Lie algebra.
+- $\mathrm{G}_2$: A $14$-dimensional Lie algebra.
 - $\mathrm{E}_6$: A 78-dimensional Lie algebra.
 - $\mathrm{E}_7$: A 133-dimensional Lie algebra.
 - $\mathrm{E}_8$: A 248-dimensional Lie algebra.
@@ -238,12 +238,12 @@ Spinor representations work differently depending on whether the
 dimension $n$ is even or odd. (This is one reason why people distinguish
 the even and odd n case of $\mathfrak{so}(n)$ in that classification of simple Lie
 algebras above!) When n is odd there is one spinor representation.
-That's why in ordinary 3-dimensional space there is just one kind of
+That's why in ordinary $3$-dimensional space there is just one kind of
 spinor to worry about, as you learn when you learn about spin-$1/2$
 particles in undergraduate quantum mechanics. When n is even there are
 two different spinor representations, called the "left-handed" and
 "right-handed" spinor representations. This shows up when you do
-quantum mechanics taking special relativity --- and 4-dimensional
+quantum mechanics taking special relativity --- and $4$-dimensional
 spacetime --- into account. For example, the way neutrinos transform under
 rotations is described by the left-handed spinor representation, while
 anti-neutrinos are described by right-handed spinors.
@@ -267,7 +267,7 @@ each other however we please!
 For example, one of these symmetries switches the left-handed and
 right-handed spinor representations, but leaves the vector
 representation alone. Actually, this symmetry works in any even
-dimension, not just dimension 8. Its analogue in 4-dimensional spacetime
+dimension, not just dimension 8. Its analogue in $4$-dimensional spacetime
 is called "parity", a symmetry that turns left-handed particles into
 right-handed ones and vice versa. The fact that there are no
 right-handed neutrinos means that the laws of nature do not actually
@@ -303,7 +303,7 @@ form a subgroup, which is $\mathrm{G}_2$.
 For the rest, we need one more fact: there is a way to "multiply" a
 left-handed spinor and a right-handed spinor and get a vector. This is
 true in all even dimensions, not just $n = 8$, so in particular it is
-familiar to particle theorists who live in 4-dimensional spacetime. As I
+familiar to particle theorists who live in $4$-dimensional spacetime. As I
 noted, what happens to a neutrino when you rotate (or Lorentz transform)
 it is described using left-handed spinors, while anti-neutrinos are
 described by right-handed spinors. Similarly, photons are described by
@@ -320,7 +320,7 @@ and so on. The point is, you can just use triality to permute the three
 representations whichever way you please... they are not really all
 that different.
 
-So in particular, you can multiply two 8-dimensional vectors and get
+So in particular, you can multiply two $8$-dimensional vectors and get
 another vector. And this gives us the octonions!
 
 Now how about $\mathrm{F}_4$ and $\mathrm{E}_8$? This is the cool stuff Kostant told me about.
@@ -331,7 +331,7 @@ and $S_-$, respectively. (Us left-handers are always getting shafted, being
 "sinister" rather than "dextrous" and all that, so we get $S_-$ rather
 than $S_+$.) And let's call the vector representation $V$. And let's be
 sloppy, the way people usually are, and also use these letters to stand
-for the 8-dimensional vector spaces on which $\mathfrak{so}(8)$ acts as
+for the $8$-dimensional vector spaces on which $\mathfrak{so}(8)$ acts as
 transformations.
 
 Now let's form the direct sum of vector spaces
@@ -429,7 +429,7 @@ the not the Lie algebras themselves but their root lattices. Taking
 lattices as fundamental to the study of symmetry *does* seem to be a
 good idea, since it gets you to not just the simple Lie algebras
 described above, but also the "Kac-Moody algebras" so important in
-string theory and other forms of 2-dimensional physics, as well as
+string theory and other forms of $2$-dimensional physics, as well as
 marvelous things like the Leech lattice and the Monster group.
 
 The Dynkin diagram approach also makes it clear *why* triality exists:

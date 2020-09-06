@@ -123,7 +123,7 @@ one can squeeze out so much information from it. (If we could compute
 the partition function of water we could derive its melting point.) To
 compute a partition one sums over states (labellings of edges) the
 product of the exponentials of interaction energies (corresponding to
-vertices). The statistical mechanics of 2-dimensional systems is closely
+vertices). The statistical mechanics of $2$-dimensional systems is closely
 connected to all sorts of nice subjects like knot theory and quantum
 groups, so we should suspect already that something interesting is going
 on here. It's especially nice that Penrose's formula makes sense for
@@ -190,7 +190,7 @@ constant. But the "Penrose number" is just the value at $q = 1$ of the
 Yamada polynomial --- the "classical case" when $\hbar = 0$. This makes
 perfect sense if one knows about quantum group knot invariants: the
 factor of 3 in rule B above comes from the fact that the spin-$1$
-representation of $\mathrm{SU}(2)$ is 3-dimensional; this representation is really
+representation of $\mathrm{SU}(2)$ is $3$-dimensional; this representation is really
 just another way of talking about the vector space spanned by the
 quaternions $i$, $j$, and $k$. Also, quantum group knot invariants fail to
 distinguish between overcrossings and undercrossings when $\hbar = 0$.
@@ -281,6 +281,6 @@ I should say more: about what quantum groups have to do with conformal
 field theory and knot polynomials, about the Kauffman/Saleur translation
 of the 4-color theorem into a statement about the Temperley-Lieb
 algebra, etc.. But I won't! It's time for dinner. Next week, if all
-goes according to plan, I'll move on to another puzzle in 2-dimensional
+goes according to plan, I'll move on to another puzzle in $2$-dimensional
 topology --- the Andrew-Curtis conjecture --- and Frank Quinn's ideas on
 tackling *that* using quantum field theory.

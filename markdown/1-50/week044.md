@@ -10,7 +10,7 @@ long!
 
 I suppose to find this exciting one must already have some idea of what
 Donaldson theory is. Briefly, Donaldson theory is a theory born in the
-1980s that revolutionized the study of smooth 4-dimensional manifolds by
+1980s that revolutionized the study of smooth $4$-dimensional manifolds by
 using an idea from physics, namely, the self-dual Yang-Mills equations.
 The Yang-Mills equations describe most of the forces we know and love
 (not gravity), but only in 4 dimensions can one get solutions of them of
@@ -19,7 +19,7 @@ self-dual solutions are known as instantons, and they were used by 't
 Hooft to solve a problem plaguing particle physics, called the $\mathrm{U}(1)$
 puzzle.)
 
-Mathematically, 4-dimensional manifolds are very different from
+Mathematically, $4$-dimensional manifolds are very different from
 manifolds of any other dimension! For example, one can ask whether $\mathbb{R}^n$
 admits any smooth structure other than the usual one. (Technically, a
 smooth structure for a manifold is a maximal set of coordinate charts
@@ -100,5 +100,5 @@ Taubes predicted that a purely combinatorial formula for them may be
 around within a year. (Here it is interesting to note the work of Crane,
 Frenkel, and Yetter in that direction; see ["Week 2"](#week2) and
 ["Week 38"](#week38).) This is sure to lead to a deeper
-understanding of 4-dimensional topology, and quite possibly,
+understanding of $4$-dimensional topology, and quite possibly,
 4-dimensional physics as well.

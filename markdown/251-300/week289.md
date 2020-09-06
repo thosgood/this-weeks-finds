@@ -42,7 +42,7 @@ knotted surfaces in 4 dimensions:
 (scaled) T=T~c~ Ising model with magnetic field, Int. J. Mod. Phys. A 4
 (1989), 4235.
 
-But the rough idea is this. You can simulate a 1-dimensional magnet
+But the rough idea is this. You can simulate a $1$-dimensional magnet
 using a chemical called cobalt niobate. The molecules form a chain, and
 each one has a spin, and the spins want to line up: either all pointing
 up, or all pointing down. And at zero temperature, that's what they'd
@@ -141,7 +141,7 @@ corresponding antiquarks. That's why Gell-Mann called his theory of
 quarks the "[Eightfold
 Way](http://en.wikipedia.org/wiki/Eightfold_Way_%28physics%29)" when he
 came up with it back around 1961. In this theory, the number 8 shows up
-because the relevant symmetry group, called \mathrm{SU}(3), is 8-dimensional.
+because the relevant symmetry group, called \mathrm{SU}(3), is $8$-dimensional.
 
 However, the math surrounding these 8 kink-antikink bound states is a
 lot more sophisticated. It's related to the exceptional Lie group \mathrm{E}_8,
@@ -149,7 +149,7 @@ which is 248-dimensional!
 
 Well, actually it's not quite that bad. What really matters in this
 game is not the group \mathrm{E}_8 but rather its "root lattice", which is
-just 8-dimensional. This is the pattern you get when you pack
+just $8$-dimensional. This is the pattern you get when you pack
 equal-sized balls in 8 dimensions in the unique way such that each ball
 touches the maximum number of others - namely, 248. I sort of understand
 this pattern, and I explained it in back in ["Week 193"](#week193).
@@ -186,11 +186,11 @@ diagram:
                           |
                           o
 
-which encodes the structure of the \mathrm{E}_8 lattice. These 2-dimensional
-magnets are related to the 1-dimensional magnetic "spin chain" we've
-been discussing - but in a sneaky way. The 1-dimensional spin chain is
+which encodes the structure of the \mathrm{E}_8 lattice. These $2$-dimensional
+magnets are related to the $1$-dimensional magnetic "spin chain" we've
+been discussing - but in a sneaky way. The $1$-dimensional spin chain is
 2-dimensional if we think of time as an extra dimension! Indeed I've
-already been drawing some 2-dimensional pictures, like the picture of a
+already been drawing some $2$-dimensional pictures, like the picture of a
 kink colliding with an antikink. So, that's part of the story.
 
 But the story is much deeper - and for this, I really must thank Will
@@ -198,7 +198,7 @@ Orrick, who also caught some mistakes in an earlier version of my story
 here! Orrick is a mathematician at Indiana University who works on
 statistical mechanics and combinatorics.
 
-For starters, at a critical point, a 2-dimensional magnet is related to
+For starters, at a critical point, a $2$-dimensional magnet is related to
 a kind of quantum field theory called a "conformal field theory". And
 the particular conformal theory this experiment is studying is a
 so-called "minimal model" by the name of M(3,4). This conformal field

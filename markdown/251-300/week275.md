@@ -13,10 +13,10 @@ Back in 1995, Jim Dolan and I argued that $n$-dimensional extended TQFTS
 were representations of a certain $n$-category called nCob in which:
 
 -   objects are 0-dimensional manifolds: that is, collections of points,
--   morphisms are 1-dimensional manifolds with boundary going between
+-   morphisms are $1$-dimensional manifolds with boundary going between
     collections of points,
--   2-morphisms are 2-dimensional manifolds with corners going between
-    1-dimensional manifolds with boundary going between collections of
+-   2-morphisms are $2$-dimensional manifolds with corners going between
+    $1$-dimensional manifolds with boundary going between collections of
     points,
 
 ... and so on, up to dimension n. In particular, any $n$-dimensional

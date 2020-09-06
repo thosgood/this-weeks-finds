@@ -181,17 +181,17 @@ related to the octonions! Some other week I will say more about them,
 but for now, let me just say:
 
 $\mathrm{F}_4$ --- This is a 52-dimensional Lie algebra. Its smallest representation
-is 26-dimensional, consisting of the traceless $3\times3$ hermitian matrices
+is $26$-dimensional, consisting of the traceless $3\times3$ hermitian matrices
 over the octonions, on which it preserves a trilinear form.
 
-$\mathrm{G}_2$ --- This is a 14-dimensional Lie algebra, and the compact Lie group
+$\mathrm{G}_2$ --- This is a $14$-dimensional Lie algebra, and the compact Lie group
 corresponding to its compact real form is also often called $\mathrm{G}_2$. This
 group is just the group of symmetries (automorphisms) of the octonions!
 In fact, the smallest representation of this Lie algebra is
 7-dimensional, corresponding to the purely imaginary octonions.
 
 $\mathrm{E}_6$ --- This is a 78-dimensional Lie algebra. Its smallest representation
-is 27-dimensional, consisting of all the $3\times3$ hermitian matrices over the
+is $27$-dimensional, consisting of all the $3\times3$ hermitian matrices over the
 octonions this time, on which it preserves the anticommutator.
 
 $\mathrm{E}_7$ --- This is a 133-dimensional Lie algebra. Its smallest
@@ -206,7 +206,7 @@ the Lie group corresponding to $\mathrm{E}_8$ is as the symmetries of itself!
 (Thanks go to Dick Gross for this charming information; I think he said
 all the other exceptional Lie algebras have representations smaller than
 themselves, but I forget the sizes.) In ["Week 20"](#week20) I
-described a way to get its root lattice (the 8-dimensional lattice
+described a way to get its root lattice (the $8$-dimensional lattice
 spanned by the roots) by playing around with the icosahedron and the
 quaternions.
 
@@ -218,7 +218,7 @@ to string theory and quantum gravity. Some of this physics is
 "conformal field theory", the study of quantum fields in 2 dimensional
 spacetime that are invariant under all conformal (angle-preserving)
 transformations. This is important in string theory because the string
-worldsheet is 2-dimensional. Some other hunks of this physics go by the
+worldsheet is $2$-dimensional. Some other hunks of this physics go by the
 name of "topological quantum field theory", which is the study of
 quantum fields, usually in 3 dimensions so far, that are invariant under
 *all* transformations (or more precisely, all diffeomorphisms).

@@ -541,7 +541,7 @@ string theory:
 > > pants: \[...\]
 >
 > I would like to make the following general comment on the meaning of
-> Frobenius algebras in 2-dimensional quantum field theory.
+> Frobenius algebras in $2$-dimensional quantum field theory.
 >
 > Interestingly, *non*-commutative Frobenius algebras play a role even
 > for closed strings, and even if the worldhseet theory is not purely
@@ -635,7 +635,7 @@ string theory:
 > data in a locally trivialized 2-functor, and it seems to correctly
 > reproduce the main structure of bulk field insertions as appearing
 > above. But of course there is a limit to what a *2*-functor can know
-> about a structure that is inherently 3-dimensional.
+> about a structure that is inherently $3$-dimensional.
 >
 > I have begun outlining some of the details that I have in mind here:
 >
@@ -657,7 +657,7 @@ string theory:
 >
 > This is work in progress and will need to be refined. I thought I'd
 > mention it here as a comment to John's general statements about how
-> Frobenius algebras know about 2-dimensional physics. I am grateful for
+> Frobenius algebras know about $2$-dimensional physics. I am grateful for
 > all kinds of comments.
 
 Here's the paper Urs refers to:

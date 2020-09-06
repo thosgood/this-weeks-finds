@@ -59,7 +59,7 @@ ABC and AB'C' shown here:
 ![](icosahedron_with_right_triangles.gif)
 :::
 
-The other proof is purely 2-dimensional. For this, Egan starts by
+The other proof is purely $2$-dimensional. For this, Egan starts by
 recalling Proposition 9 from the same book of Euclid. This result states
 the main property of the "golden triangle".
 

@@ -29,9 +29,9 @@ $2\times2$ complex matrices with determinant $1$. The above book is largely abou
 quantum $\mathrm{SL}(2)$ and its applications to topology.
 
 All quantum groups give rise to invariants of knots, links, and tangles.
-They also give rise to 3-dimensional topological quantum field theories
+They also give rise to $3$-dimensional topological quantum field theories
 of "Turaev-Viro type". This is a kind of quantum field theory you can
-define on a 3-dimensional spacetime that you've triangulated, i.e.,
+define on a $3$-dimensional spacetime that you've triangulated, i.e.,
 chopped up into tetrahedra. One of the main things you want to compute
 in a quantum field theory is the "partition function", and we say the
 Turaev-Viro theories are "topological" because you get the same answer
@@ -44,7 +44,7 @@ just quantum gravity in 3 dimensions (see ["Week 16"](#week16)).
 The basic idea, though, is that you compute the partition function by
 summing over all ways of labelling the edges of your tetrahedra by
 "spins" $j = 0, 1/2, 1, 3/2,\ldots$. Ponzano and Regge had tried to set
-up 3-dimensional quantum gravity this way previously, but there were
+up $3$-dimensional quantum gravity this way previously, but there were
 problems getting the sum to converge. The neat thing about the quantum
 group is that you only sum over spins less than some fixed spin
 depending on the value of $\hbar$. Since the sums are finite, they
@@ -54,23 +54,23 @@ It turns out that in these Turaev-Viro theories you are not actually
 taking advantage of all the structure of the quantum group. Using the
 extra structure, you can also use quantum groups to define certain
 *4-dimensional* topological quantum field theories, those of
-"Crane-Yetter-Broda" type. Here you triangulate a 4-dimensional
+"Crane-Yetter-Broda" type. Here you triangulate a $4$-dimensional
 manifold and, in the $\mathrm{SU}(2)$ case, you label both the 2d faces the 3d
 tetrahedra with spins. Actually, lots of people think the
 Crane-Yetter-Broda theories are boring, because they look sort of boring
-if you only examine their implications for 4-dimensional topology.
+if you only examine their implications for $4$-dimensional topology.
 However, they become interesting when you realize that, like all
 topological quantum field theories defined using triangulations, they
 are "extended topological quantum field theories". Roughly speaking
 this means that they have implications for all dimensions below the
 dimension they live in.
 
-In particular, the Crane-Yetter-Broda theories spawn 3-dimensional
+In particular, the Crane-Yetter-Broda theories spawn $3$-dimensional
 topological quantum field theories of
 "Chern-Simons-Reshetikhin-Turaev" type, and most people agree that
 *these* are interesting. I like to emphasize, however, that a deep
-understanding of these 3-dimensional progeny requires an understanding
-of their seemingly innocuous 4-dimensional ancestors. Also, there are a
+understanding of these $3$-dimensional progeny requires an understanding
+of their seemingly innocuous $4$-dimensional ancestors. Also, there are a
 lot of interesting relationships between the $\mathrm{SU}(2)$ Crane-Yetter-Broda
 model and quantum gravity in 4 dimensions, which we are just beginning
 to understand. See ["Week 56"](#week56) for a bit about this.
@@ -100,7 +100,7 @@ two representations are *equal*. They are only *isomorphic*. This
 entries in this matrix are a bunch of numbers, the $6j$ symbols.
 
 Turaev and Viro used the quantum $6j$ symbols to define the original
-Turaev-Viro model. It goes like this: first you chop your 3-dimensional
+Turaev-Viro model. It goes like this: first you chop your $3$-dimensional
 manifold up into tetrahedra, and then you consider all possible ways of
 labelling the edges with spins. Each tetrahedron gets labelled with 6
 spins since it has 6 edges, and from these spins we can compute a
@@ -137,7 +137,7 @@ of knotted loops or "spin networks" in space. What's the spacetime
 picture? Well, if you have a surface in spacetime and look at it at one
 moment of time, it typically looks like a bunch of loops... so maybe
 the spacetime picture of quantum gravity is that spacetime is packed
-with 2-dimensional surfaces, all tangled up. Interestingly, this is also
+with $2$-dimensional surfaces, all tangled up. Interestingly, this is also
 very reminiscent of the picture of quantum gravity in string theory!
 
 I've been working on this sort of idea ever since I wrote a paper
@@ -161,7 +161,7 @@ to copy standard quantum field theory, write the propagator describing
 time evolution as a time-ordered exponential, and interpret the terms in
 the resulting sum as surfaces in spacetime. It's all very analogous to
 traditional Feynman diagrams, where you write the propagator as a sum
-over diagrams, but now the "Feynman diagrams" are 2-dimensional
+over diagrams, but now the "Feynman diagrams" are $2$-dimensional
 surfaces. (Again, this is reminiscent of string theory --- but with many
 important differences.)
 

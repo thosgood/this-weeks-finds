@@ -181,7 +181,7 @@ one bracketing to another are equal.
 In a weak 3-category, the pentagon equation is replaced by a 3-morphism
 called the "pentagonator". This in turn satisfies a new coherence law
 of its own, which I can't easily draw for you, because doing so
-requires a 3-dimensional diagram in the shape of a polyhedron with 14
+requires a $3$-dimensional diagram in the shape of a polyhedron with 14
 vertices, called the "associahedron".
 
 As you might fear, this process never stops: there's an infinite list
@@ -424,7 +424,7 @@ about all the higher-dimensional faces of the associahedron? There's a
 lot to say about this, but it's basically pretty simple: all the faces
 of the $(n-2)$-dimensional associahedron correspond to planar trees with $n$
 leaves. It gets a little tricky to draw using ASCII, so I'll just do
-the case $n = 3$. The 1-dimensional associahedron is the unit interval,
+the case $n = 3$. The $1$-dimensional associahedron is the unit interval,
 and in terms of trees it looks like this:
 $$
   \begin{tikzpicture}[scale=0.7]
@@ -466,7 +466,7 @@ $b$, and $c$.
 
 Actually, we can think of any point in the $(n-2)$-dimensional
 associahedron as an $n$-leaved tree whose edges have certain specified
-lengths, so as you slide your finger across the 1-dimensional
+lengths, so as you slide your finger across the $1$-dimensional
 associahedron above, you can imagine the left-hand tree continuously
 "morphing" into the right-hand one. In this way of thinking, each
 point of the associahedron corresponds to a particular $n$-ary operation:

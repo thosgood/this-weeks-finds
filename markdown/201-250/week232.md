@@ -175,7 +175,7 @@ dimensions, Nuclear Physics B346 (1990), 440-472.
 He actually did it for particles with spin, but I'll just do the
 spin-zero case.
 
-The idea is to fix a 1-dimensional submanifold W in our 3-manifold M and
+The idea is to fix a $1$-dimensional submanifold W in our 3-manifold M and
 think of it as the worldlines of some particles. Put \mathfrak{so}(2,1)-valued
 functions p and q on these worldlines - think of these as giving the
 particles' momentum and position as a function of time.
@@ -395,7 +395,7 @@ S   =   \int~M~ \operatorname{tr}(B ^ F)   -   \int~W~ \operatorname{tr}((B 
 The only visible difference is that what I'd been calling "e" is now
 called "B", so you can see why folks call this "BF theory".
 
-But more importantly, now M is an 4-dimensional spacetime and W is an
+But more importantly, now M is an $4$-dimensional spacetime and W is an
 2-dimensional "worldsheet". A is again a Lorentz connection, which we
 can think of as an \mathfrak{so}(3,1)-valued 1-form. B is an \mathfrak{so}(3,1)-valued 2-form.
 p is an \mathfrak{so}(3,1)-valued function on the worldsheet W. q is an

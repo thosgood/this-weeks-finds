@@ -2,7 +2,7 @@
 
 This week I'd like to talk about "spin foams". People have already
 thought a lot about using spin networks to describe the quantum geometry
-of 3-dimensional space at a given time. This is great for kinematical
+of $3$-dimensional space at a given time. This is great for kinematical
 aspects of quantum gravity, but not so good for dynamics. For dynamics,
 it would be nice to have a description of the quantum geometry of
 4-dimensional *spacetime*. That's where spin foams come in.
@@ -21,10 +21,10 @@ with a plane, we see that the result is typically a graph.
 Topologists call this sort of space a "2-dimensional complex". It's a
 generalization of a graph because we can form it by starting with a
 bunch of "vertices", then connecting these with a bunch of "edges"
-to obtain a graph, and then taking a bunch of 2-dimensional discs or
+to obtain a graph, and then taking a bunch of $2$-dimensional discs or
 "faces" and attaching them along their boundaries to this graph.
 Mathematically, there's no reason to stop in dimension 2. Topologists
-are interested in complexes of all dimensions. However, 2-dimensional
+are interested in complexes of all dimensions. However, $2$-dimensional
 complexes have been given special attention, thanks to a number of
 famous unsolved problems involving them. A great place to learn about
 them is:
@@ -44,7 +44,7 @@ In this special case, we can get our spin network as a slice of a
 2-dimensional complex with faces and edges labelled by spins. Such a
 thing looks a bit like a foam of soap bubbles with edges and faces
 labelled by spins --- hence the term "spin foam"! More generally, a spin
-foam is a 2-dimensional complex with faces labelled by irreducible
+foam is a $2$-dimensional complex with faces labelled by irreducible
 representations of some group and edges labelled by intertwining
 operators. When we slice a spin foam, each of its faces gives a spin
 network edge, and each of its edges gives a spin network vertex.
@@ -57,7 +57,7 @@ different sort, with 4 faces meeting along each edge. When we slice one
 of these, we get a spin network with 4 edges meeting at each vertex.
 
 What's so interesting about spin foams with 4 faces meeting along each
-edge? Well, suppose we take a 4-dimensional manifold representing
+edge? Well, suppose we take a $4$-dimensional manifold representing
 spacetime and triangulate it --- that is, chop it up into 4-simplices, the
 4-dimensional analogs of tetrahedra. We get a mess of 4-simplices, which
 have tetrahedra as faces, which in turn have triangles as faces.
@@ -129,7 +129,7 @@ particle to go from here to there. The numbers for vertices are called
 "vertex amplitudes" --- they describe the amplitude for various
 interactions to occur.
 
-Similarly, a spin foam is a 2-dimensional complex with faces labelled by
+Similarly, a spin foam is a $2$-dimensional complex with faces labelled by
 representations and edges labelled by intertwiners. Each spin foam face
 corresponds to the "worldsheet" traced out by a spin network edge as
 time passes. So, in addition to thinking of a spin foam as a

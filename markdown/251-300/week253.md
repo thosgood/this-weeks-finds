@@ -529,11 +529,11 @@ know this stuff. I guess it's time for another executive summary:
 
 Another nice fact is that (C \otimes O)P^2 is one of the Grassmannians for
 \mathrm{E}_6. I explained this general notion of "Grassmannian" back in
-["Week 181"](#week181), and you can see this 16-dimensional one in
+["Week 181"](#week181), and you can see this $16$-dimensional one in
 the list near the end of that Week.
 
 Even better, if you geometrically quantize this Grassmannian using the
-smallest possible symplectic structure, you get the 27-dimensional
+smallest possible symplectic structure, you get the $27$-dimensional
 representation of \mathrm{E}_6 on the exceptional Jordan algebra!
 
 So, there's a lot of seriously cool math going on here... but since
@@ -648,7 +648,7 @@ The last two also consider the gauge group "G(224)", meaning \mathrm{SU}(2) \tim
 \mathrm{SU}(2) \times \mathrm{SU}(4).
 
 By the way, there's also a cute relation between the \mathrm{SO}(10) grand
-unified theory and 10-dimensional Calabi-Yau manifolds, discussed here:
+unified theory and $10$-dimensional Calabi-Yau manifolds, discussed here:
 
 9) John Baez, Calabi-Yau manifolds and the Standard Model, available as
 [`hep-th/0511086`](https://arxiv.org/abs/hep-th/0511086)

@@ -256,9 +256,9 @@ just as ordinary quantum field theory starts out with Fock space, in the
 spin network approach to quantum gravity we start with a nice simple
 Hilbert space of states. But this space has a basis consisting, not of
 collections of 0-dimensional particles sitting in space at specified
-positions, but of 1-dimensional "spin networks" sitting in space. (For
+positions, but of $1$-dimensional "spin networks" sitting in space. (For
 more on spin networks, see ["Week 55"](#week55) and
-["Week 110"](#week110).) And instead of using 1-dimensional Feynman
+["Week 110"](#week110).) And instead of using $1$-dimensional Feynman
 diagrams to compute transition amplitudes, the idea is now to use
 2-dimensional gadgets called "spin foams". The amplitudes for spin
 foams are easy to compute in BF theory, because there are a lot of
@@ -281,7 +281,7 @@ This is the long-awaited third part of a series giving a mathematically
 rigorous formalism for interpreting spin network states as "quantum
 3-geometries", that is, quantum states describing the metric on
 3-dimensional space together with its extrinsic curvature (as it sits
-inside 4-dimensional spacetime). Here's the abstract:
+inside $4$-dimensional spacetime). Here's the abstract:
 
 > "The basic framework for a systematic construction of a quantum theory
 of Riemannian geometry was introduced recently. The quantum versions of

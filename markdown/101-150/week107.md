@@ -74,7 +74,7 @@ $$A\cdot\operatorname{curl}(A)$$
 where $A$ is the magnetic vector potential. It shows up in impedance
 tomography, for example. But in quantum field theory, a generalization
 of this quantity to other forces is known as the "Chern-Simons
-functional", and Witten's work on the 3-dimensional field theory
+functional", and Witten's work on the $3$-dimensional field theory
 having this as its Lagrangian turned out to revolutionize knot theory.
 Personally, I'm mainly interested in the applications to quantum
 gravity --- see ["Week 56"](#week56) for a bit about this. Here are

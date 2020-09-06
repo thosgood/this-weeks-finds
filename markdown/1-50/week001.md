@@ -24,10 +24,10 @@ J. Scott Carter and Masahico Saito, _Lett. Math. Phys._ **23** (1991),
     "Reidemeister moves for surface isotopies and their interpretations as
         moves to movies", by J. Scott Carter and Masahico Saito, preprint.
 
-The idea here is to take what has been done for knots in 3-dimensional
+The idea here is to take what has been done for knots in $3$-dimensional
 space and generalize it to "knotted surfaces," that is, embedded
-2-manifolds in 4-dimensional space. For knots it is convenient to work
-with 2-dimensional pictures that indicate over- and under-crossings;
+2-manifolds in $4$-dimensional space. For knots it is convenient to work
+with $2$-dimensional pictures that indicate over- and under-crossings;
 there is a well-known small set of "Reidemeister moves" that enable
 you to get between any two pictures of the same knot. One way to
 visualize knotted surfaces is to project them down to $\mathbb{R}^3$; there are

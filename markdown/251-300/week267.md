@@ -140,7 +140,7 @@ Cambridge U. Press, Cambridge, 1990, pp. 438-447
 Here's the basic idea. Take a wallpaper pattern and count two points as
 "the same" if they're related by a symmetry. In other words - in math
 jargon - take the plane and mod out by the wallpaper group. The result
-is a 2-dimensional "orbifold".
+is a $2$-dimensional "orbifold".
 
 In a 2d manifold, every point has a little neighborhood that looks like
 the plane. In a 2d orbifold, every point has a little neighborhood that

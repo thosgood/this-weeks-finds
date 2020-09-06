@@ -55,7 +55,7 @@ The modern, more technical subject of string theory is a lot more fancy
 than these early papers. In particular, the recognition that conformal
 invariance was a very good thing when studying strings propagating on
 fixed background metric (like that of Minkowski space) pushed string
-theorists into a careful study of 2-dimensional conformal invariant
+theorists into a careful study of $2$-dimensional conformal invariant
 quantum field theories. (Here the 2 dimensions refer to the surface the
 string traces out as it moves through spacetime.) Conformal field theory
 then developed a life of its own! By now it's pretty intimidating to

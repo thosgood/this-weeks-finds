@@ -241,7 +241,7 @@ Dana Fine's talk offered one approach, and my own talk offered another
 
 Perhaps the most novel talk was by Paolo Cotta-Ramusino ("4d quantum
 gravity and knot theory") describing his work with Maurizio Martellini
-on 4-dimensional TQFTs and invariants of 2-knots, that is, embedded
+on $4$-dimensional TQFTs and invariants of 2-knots, that is, embedded
 surfaces in $\mathbb{R}^4$ (or more general 4-manifolds). This is an attempt to
 push the Wilson loop story up one dimension, in an effort to make it
 applicable to theories similar to quantum gravity. These theories are
@@ -251,7 +251,7 @@ in a preliminary stage but it seems rather promising.
 
 Perhaps the most controversial talk was by Louis Crane, entitle
 "Quantum gravity, spin geometry and categorical physics." This was
-about his ideas on using category theory to construct 4-dimensional
+about his ideas on using category theory to construct $4$-dimensional
 TQFTs. He also emphasized the importance of TQFTs that use
 triangulations but wind up being independent of the triangulation, thus
 slipping through the discrete/continuous distinction. Many of his

@@ -256,7 +256,7 @@ sweat a while, you'll see
 
 D = -4B^3 - 27C^2
 
-So, here's the grand picture: we've got a 2-dimensional space of
+So, here's the grand picture: we've got a $2$-dimensional space of
 cubics with coordinates B and C. Sitting inside this 2d space is a curve
 consisting of "degenerate" cubics - cubics with two roots the same.
 This curve is called the "discriminant locus", since it's where the
@@ -293,7 +293,7 @@ Indeed, after a linear change of variables they're the same! But, for
 the trefoil we need u and v to be *complex* numbers. We took them to be
 unit complex numbers, in fact.
 
-So, the story is this: we've got a 2-dimensional *complex* space of
+So, the story is this: we've got a $2$-dimensional *complex* space of
 complex cubics. Sitting inside it is a *complex* curve, the discriminant
 locus. In our new variables, it's this:
 
@@ -375,7 +375,7 @@ systems at once like this:
                     c
 
 The group of permutations of 3 things acts on this picture by permuting
-the three axes. Beware: I've only drawn a 2-dimensional *real* vector
+the three axes. Beware: I've only drawn a $2$-dimensional *real* vector
 space here, just a slice of the full 2d complex space.
 
 Now suppose we take this 2d complex space and mod out by the permutation

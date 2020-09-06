@@ -725,7 +725,7 @@ true, but they've got their work cut out for them.
 
 Luckily, the Mathieu groups appear naturally in other contexts -
 wherever the numbers 12 and 24 cast their magic spell over mathematics!
-For example, M~24~ is related to the 24-dimensional Leech lattice, and
+For example, M~24~ is related to the $24$-dimensional Leech lattice, and
 M~12~ can be nicely described in terms of 12 equal-sized balls rolling
 around the surface of another ball of the same size. See
 ["Week 20"](#week20) for more on this - and the book by Conway and
@@ -1257,7 +1257,7 @@ Noam Elkies explained what David Lewin was doing with \mathrm{PSL}(2,7):
 > The key (no pun intended) is that this group G168 is also isomorphic
 > with the invertible 3\times3 matrices over Z/2Z -- one of those remarkable
 > isomorphisms between small matrix groups. So, G168 permutes the 2^3-1
-> = 7 nonzero vectors in a 3-dimensional vector space V over Z/2Z. The
+> = 7 nonzero vectors in a $3$-dimensional vector space V over Z/2Z. The
 > existence of a 7-cycle is automatic because 7 is prime, though it is
 > true in general that for any finite field k and any positive integer n
 > the group of n\timesn matrices over k contains elements that cyclically

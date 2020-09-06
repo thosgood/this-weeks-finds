@@ -53,7 +53,7 @@ might say, revealed for the sham it always was.
 
 For example, as explained more carefully in ["Week 16"](#week16),
 the (2,2) move is really just the same as the *associative* law for
-multiplication. The idea is that we are in a 2-dimensional spacetime,
+multiplication. The idea is that we are in a $2$-dimensional spacetime,
 and a triangle represents multiplication: two "incoming states" go in
 two sides and their product, the "outgoing state", pops out the third
 side:
@@ -83,7 +83,7 @@ isomorphism between it and its dual. This isomorphism allows us to
 forget whether we are coming or going, so to speak.
 
 Hmm, and here I was planning on being terse! Anyway, the still *more*
-interesting point is that when we think about 3-dimensional topology and
+interesting point is that when we think about $3$-dimensional topology and
 "3-dimensional algebra," we should no longer think of
 $$
   \begin{tikzpicture}
@@ -111,7 +111,7 @@ associativity this business was worked out by Jim Stasheff quite a while
 back: it's the homotopy theorists who were the ones with the guts to
 deal with such issues first.)
 
-Now, it turns out that in 3-dimensional algebra, the isomorphism
+Now, it turns out that in $3$-dimensional algebra, the isomorphism
 corresponding to the (2,2) move is not something marvelously obscure. It
 is in fact precisely what physicists call the "$6j$ symbol", a gadget
 they've been using to study angular momentum in quantum mechanics for a
@@ -125,7 +125,7 @@ indices dangling on it, the "$6j$ symbol".
 
 Quite a while back, Regge and Ponzano tried to cook up a theory of
 quantum gravity in 3 dimensions using the $6j$ symbols for $\mathrm{SU}(2)$. More
-recently, Turaev and Viro built a 3-dimensional topological quantum
+recently, Turaev and Viro built a $3$-dimensional topological quantum
 field theory using the $6j$-symbols of the *quantum group* $SU_q(2)$, and
 this led to lots of work, which the above article explains in a
 distilled sort of way.

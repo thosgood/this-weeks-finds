@@ -336,7 +336,7 @@ but of course we know it must! Reading off the coefficients, we get:
     the 8th homology group is Z
 
 and while we're at it, we've learned this Grassmannian is
-8-dimensional as a *real* manifold - or 4-dimensional as a complex
+8-dimensional as a *real* manifold - or $4$-dimensional as a complex
 manifold. Note how the nth homology group is the same as the (8-n)th;
 this comes from Poincare duality.
 

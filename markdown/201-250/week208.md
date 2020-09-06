@@ -83,7 +83,7 @@ However, the hard problem in quantum gravity is always dynamics.
 
 Does the dynamics of spin networks with loose ends actually mimic that
 of particles? Recently Krasnov and other people have begun tackling this
-question in a toy model, 3-dimensional Lorentzian gravity:
+question in a toy model, $3$-dimensional Lorentzian gravity:
 
 5) Kirill Krasnov, Λ<0 Quantum Gravity in 2+1 Dimensions I: Quantum
 States and Stringy S-Matrix, Class. Quant. Grav. 19 (2002) 3977-3998,
@@ -287,7 +287,7 @@ doing by looking at the references for this recent conference on 3d
 quantum gravity in Edinburgh, which unfortunately took place when I was
 in Hong Kong:
 
-11) Workshop on physics and geometry of 3-dimensional quantum gravity,
+11) Workshop on physics and geometry of $3$-dimensional quantum gravity,
 `http://www.ma.hw.ac.uk/~bernd/references.html`
 
 I should also add that people don't usually don't talk about the 3d

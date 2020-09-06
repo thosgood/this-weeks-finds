@@ -21,7 +21,7 @@ and O. Pekonen, World Scientific, Singapore.
 
 Many people are busily trying to extend the remarkable relationship
 between knot theory and physics, which is essentially a feature of 3
-dimensions, to higher dimensions. Since the 3-dimensional case required
+dimensions, to higher dimensions. Since the $3$-dimensional case required
 the development of new branches of algebra (namely, quantum groups and
 braided tensor categories), it seems that the higher-dimensional cases
 will require still further "higher-dimensional algebra." One approach,
@@ -103,9 +103,9 @@ the Turaev/Viro and Crane/Yetter invariants of *a priori* finer
 invariants dependent on a choice of (co)homology class on the
 manifold." The dream is that this would give a state-sum formula for
 the Donaldson polynomials, but Yetter is careful to avoid claiming this!
-A while back, Crane and Yetter showed how to get 4-dimensional TQFTs
+A while back, Crane and Yetter showed how to get $4$-dimensional TQFTs
 from certain 3d TQFTs by another kind of "boosting" procedure related
-to those mentioned above, but the resulting TQFT in 4-dimensions did not
+to those mentioned above, but the resulting TQFT in $4$-dimensions did not
 by itself yield interesting new invariants of 4-manifolds. The procedure
 Yetter describes here generalizes the earlier work by allowing the
 inclusion of an embedded 2-manifold.

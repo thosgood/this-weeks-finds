@@ -173,7 +173,7 @@ It looks like this:
 $$j(\tau) = q^{-1} + 744 + 196884 q + 21493706 q^2 + \ldots$$
 where $q = \exp(2\pi i\tau)$. In fact, starting from a simple situation, we
 have quickly gotten into quite deep waters. The simplest explicit
-formula I know for $j$ involves lattices in 24-dimensional space! This
+formula I know for $j$ involves lattices in $24$-dimensional space! This
 could easily be due to my limited knowledge of this stuff, but it suits
 my present purpose: first, we get a vague glimpse of where $\mathrm{E}_8$ and the
 Leech lattice come in, and second, we get a vague glimpse of the
@@ -204,7 +204,7 @@ lattices there are in 24 dimensions? Why, 24, of course! These
 "Niemeier lattices" were classified by Niemeier in 1968. All but one
 of them have vectors with length squared equal to $2$, but there is one
 whose shortest vector has length squared equal to $4$, and that's the
-Leech lattice. This one has a very charming relation to 26-dimensional
+Leech lattice. This one has a very charming relation to $26$-dimensional
 spacetime, described in ["Week 20"](#week20).
 
 Since the constant term in $j$ can be changed by picking different
@@ -238,7 +238,7 @@ it's just too spooky how the number 26 keeps coming up all over!)
 
 Anway, now let me fast-forward to some recent news. I vaguely gather
 that people would like to explain the relation between the Monster and
-string theory more deeply, by finding a 24-dimensional manifold having
+string theory more deeply, by finding a $24$-dimensional manifold having
 the Monster as symmetries, and cooking up a field theory of maps from
 the string worldsheet to this "Monster manifold", so that the
 associated vertex operator algebra would have a good reason for having

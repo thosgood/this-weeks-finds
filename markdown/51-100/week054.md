@@ -66,7 +66,7 @@ homotopic and when spaces are homotopic. This is incredibly hard in
 *general*, but in special cases a huge amount is known. To take a random
 (but important) example, people know that all maps from the sphere to
 the circle are homotopic. Remember that algebraists call the sphere $S^2$
-since its surface is 2-dimensional, and call the circle $S^1$; in general
+since its surface is $2$-dimensional, and call the circle $S^1$; in general
 the unit sphere in $\mathbb{R}^{n+1}$ is called $S^n$. So for short, one says that
 all maps from $S^2$ to $S^1$ are homotopic. But: there are infinitely many
 different nonhomotopic maps from $S^3 to $S^2$! In fact there is a nice

@@ -16,10 +16,10 @@ interactions can be understood better by taking certain mathematical
 structures very seriously. There are very few algebras over the reals
 where we can divide by nonzero elements: if we demand associativity and
 commutativity, just the reals themselves and the complex numbers. If we
-drop the demand for commutativity, we also get a 4-dimensional algebra
+drop the demand for commutativity, we also get a $4$-dimensional algebra
 called the quaternions, invented by Hamilton. If in addition we drop the
 demand for associativity, and ask only that our algebra be
-"alternative", we also get an 8-dimensional algebra called the
+"alternative", we also get an $8$-dimensional algebra called the
 octonions, or Cayley numbers. (I'll say what "alternative" means in
 ["Week 61"](#week61)) Clearly these are very special structures,
 and also clearly they play an important role in physics... or do they?
@@ -29,7 +29,7 @@ Well, few people doubt that the real numbers are fundamental to physics
 with emergence of quantum theory, if not sooner, the basic role of the
 complex numbers also became clear. Hamilton discovered the quaternions
 in the 1800s, and used them to formulate a beautiful theory of rotations
-in 3-dimensional space. They fell out of favor somewhat when the vectors
+in $3$-dimensional space. They fell out of favor somewhat when the vectors
 of Gibbs proved simpler for many purposes, but their deeper importance
 became clear when people started studying spin: indeed, the Pauli
 matrices so important in physics are closely related to the quaternions,

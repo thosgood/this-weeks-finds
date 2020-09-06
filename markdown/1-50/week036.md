@@ -19,7 +19,7 @@ don't rely on "fixed background structures" like a fixed spacetime
 metric is likely to be worth having. Also, quantum gravity appears to be
 tied mathematically to simpler TQFTs in a variety of ways. In
 particular, the Ashtekar formulation of quantum gravity is closely
-related to a 4-dimensional TQFT variously known as "$B \wedge F$ theory,"
+related to a $4$-dimensional TQFT variously known as "$B \wedge F$ theory,"
 "BF theory," "topological 2-form gravity" or "topological quantum
 gravity". This in turn is closely related to Chern-Simons theory in 3
 dimensions.
@@ -94,8 +94,8 @@ I got more interested in them when I read
 > "BF Theories and 2-knots", by Paolo Cotta-Ramusino and Maurizio Martellini, to appear in _Knots and Quantum Gravity_, ed. J. Baez, Oxford U. Press. (Listed in ["Week 23"](#week23))
 
 which indicated that BF theories may give invariants of surfaces
-embedded in 4-dimensional manifolds, much as Chern-Simons theory gives
-invariants of knots in 3-dimensional manifolds. Actually, BF theories
+embedded in $4$-dimensional manifolds, much as Chern-Simons theory gives
+invariants of knots in $3$-dimensional manifolds. Actually, BF theories
 make sense in any dimension, and in dimension 3 they appear to give knot
 invariants, including the Alexander-Conway polynomial:
 

@@ -211,9 +211,9 @@ moment maps on the space of connections and the moduli space of
 solutions is obtained via a generalised symplectic quotient: a Kaehler
 quotient in dimension 2, a hyperkaehler quotient in dimension 4 and an
 octonionic Kaehler quotient in dimension 8. One can extend these
-equations to curved space: whereas the 2-dimensional equations make
-sense on any surface, and the 4-dimensional equations make sense on an
-arbitrary oriented manifold, the 8-dimensional equations only make sense
+equations to curved space: whereas the $2$-dimensional equations make
+sense on any surface, and the $4$-dimensional equations make sense on an
+arbitrary oriented manifold, the $8$-dimensional equations only make sense
 for manifolds whose holonomy is contained in $\mathrm{Spin}(7)$. The interpretation
 of the equations in terms of moment maps further constraints the
 manifolds: the surface must be orientable, the 4-manifold must be

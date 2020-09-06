@@ -2,7 +2,7 @@
 
 I've been reading about the mathematical physicist William Rowan
 Hamilton lately, because I'm writing a review article about the
-octonions --- that famous nonassociative 8-dimensional division algebra.
+octonions --- that famous nonassociative $8$-dimensional division algebra.
 
 You see, the day after Hamilton discovered the quaternions and carved
 the crucial formula
@@ -18,7 +18,7 @@ this to prove the 8 squares theorem, which says that the product of two
 sums of 8 perfect squares is again a sum of 8 perfect squares. The
 complex numbers and quaternions allow one to prove similar theorems for
 2 and 4 squares. In January 1844, Graves considered the idea of a
-general theory of "$2^m$-ions". He tried to construct a 16-dimensional
+general theory of "$2^m$-ions". He tried to construct a $16$-dimensional
 normed division algebra and use it to prove a 16 squares theorem, but he
 "met with an unexpected hitch" and came to doubt that this was
 possible.

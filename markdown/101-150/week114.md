@@ -22,7 +22,7 @@ approach to quantum gravity which I discussed in
 approach without impractical computer simulations? Lee Smolin's paper
 below suggests one way. Should you only sum over spin foams that are
 dual to a particular triangulation of spacetime, or should you sum over
-all spin foams that fit in a particular 4-dimensional spacetime
+all spin foams that fit in a particular $4$-dimensional spacetime
 manifold, or should you sum over *all* spin foams? There was a lot of
 argument about this. In addition to the question of what is physically
 appropriate, there's the mathematical problem of avoiding divergent
@@ -81,7 +81,7 @@ the dynamics of spin network states and their generalizations is
 described in terms of histories which have discrete analogues of the
 causal structure and many fingered time of Lorentzian spacetimes.
 Perturbations of these histories turn out to be described in terms of
-spin systems defined on 2-dimensional timelike surfaces embedded in the
+spin systems defined on $2$-dimensional timelike surfaces embedded in the
 discrete spacetime. When the history has a classical limit which is
 Minkowski spacetime, the action of the perturbation theory is given to
 leading order by the spacetime area of the surface, as in bosonic string

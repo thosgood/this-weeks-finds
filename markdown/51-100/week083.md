@@ -38,7 +38,7 @@ Already in this book Connes, working with Lott, was beginning to explore
 the idea that the geometry of our physical universe is noncommutative.
 Actually, they used ideas from noncommutative geometry to study a weird
 kind of commutative geometry in which spacetime is "two-sheeted" - two
-copies of standard 4-dimensional spacetime, very close together. In
+copies of standard $4$-dimensional spacetime, very close together. In
 normal geometry it doesn't even make sense to speak of two separate
 copies of spacetime being "close together", since there is no way to
 get from one to the other! Tricks from noncommutative geometry allow it
@@ -63,7 +63,7 @@ introduced gravity into his model. I haven't had time to absorb this
 new work yet, so let me simply say what his current model of spacetime
 is, and list some of the concrete predictions the new theory makes. His
 spacetime is the noncommutative algebra consisting of smooth functions
-on good old 4-dimensional Minkowski spacetime, taking values in the
+on good old $4$-dimensional Minkowski spacetime, taking values in the
 algebra $A$ given by the direct sum
 $$A = \mathbb{C} + \mathbb{H} + M_3(\mathbb{C})$$
 where $\mathbb{C}$ is the complex numbers, $\mathbb{H}$ is the quaternions, and $M_3(\mathbb{C})$ is the
@@ -92,11 +92,11 @@ the inverse of a number which I would like to explain now. I assume you
 know that multiplying numbers is a lot like tensoring vector spaces. For
 example, just as multiplication distributes over addition, tensoring
 distributes over direct sums. Also, just as there is a number called $1$
-which is the unit for multiplication, there is a 1-dimensional vector
+which is the unit for multiplication, there is a $1$-dimensional vector
 space, the ground field itself, which is the unit for tensoring. Let me
 take the unusual liberty of writing tensor products by juxtaposition, so
 that $xy$ is the tensor product of the vector space $x$ and the vector space
-$y$, and let me call the 1-dimensional vector space that's the unit for
+$y$, and let me call the $1$-dimensional vector space that's the unit for
 tensoring simply "$1$".
 
 Now, if a number $x$ has an inverse $y$, we have

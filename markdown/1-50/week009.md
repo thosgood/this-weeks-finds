@@ -166,7 +166,7 @@ a 0-handle with some 1-handles stuck on. So when we now glue this thing
 are doing so using a diffeomorphism of its boundary. But a theorem of
 Laudenbach and Poenaru,
 
-> "A note on 4-dimensional handlebodies", by F. Laudenbach and V. Poenaru, _Bull. Math. Soc. France_ **100** (1972), pp. 337--344,
+> "A note on $4$-dimensional handlebodies", by F. Laudenbach and V. Poenaru, _Bull. Math. Soc. France_ **100** (1972), pp. 337--344,
 
 says that any such diffeomorphism extends to one of the interior. This
 means that it doesn't make a darn bit of difference which

@@ -67,10 +67,10 @@ namely x and the n components of y.
 
 So:
 
--   h_2(R) is 3-dimensional Minkowski spacetime.
--   h_2(C) is 4-dimensional Minkowski spacetime.
--   h_2(H) is 6-dimensional Minkowski spacetime.
--   h_2(O) is 10-dimensional Minkowski spacetime.
+-   h_2(R) is $3$-dimensional Minkowski spacetime.
+-   h_2(C) is $4$-dimensional Minkowski spacetime.
+-   h_2(H) is $6$-dimensional Minkowski spacetime.
+-   h_2(O) is $10$-dimensional Minkowski spacetime.
 
 And - lo and behold! - these are just the dimensions where classical
 superstring theory and super-Yang-Mills theory work best!
@@ -99,10 +99,10 @@ talked quite a bit about this example and also the example of 3d
 Minkowski spacetime back in ["Week 196"](#week196). So go there if
 you want more details. For now what matters is this:
 
--   R^2 is the space of spinors in 3-dimensional Minkowski spacetime.
--   C^2 is the space of spinors in 4-dimensional Minkowski spacetime.
--   H^2 is the space of spinors in 6-dimensional Minkowski spacetime.
--   O^2 is the space of spinors in 10-dimensional Minkowski spacetime.
+-   R^2 is the space of spinors in $3$-dimensional Minkowski spacetime.
+-   C^2 is the space of spinors in $4$-dimensional Minkowski spacetime.
+-   H^2 is the space of spinors in $6$-dimensional Minkowski spacetime.
+-   O^2 is the space of spinors in $10$-dimensional Minkowski spacetime.
 
 This is a bit oversimplified, because physicists use various kinds of
 spinors, and I'm not saying which kinds show up here. But I explained
@@ -308,7 +308,7 @@ described by an element of h_2(K) - with K = C, since we live in
 4-dimensional spacetime. And it's only the spin of the electron that's
 described by an element of K^2.
 
-But it's even worse than that. In 4-dimensional spacetime, spinors come
+But it's even worse than that. In $4$-dimensional spacetime, spinors come
 in left- and right-handed forms. For example, the neutrinos we most
 easily see - not that easily, actually! - are left-handed spinors, while
 antineutrinos are right-handed. Electrons come in both left and

@@ -41,7 +41,7 @@ adjunction", but first I'll play around a bit with a simpler but more
 famous 2-category called the "walking adjunction". This may sound
 scary, but if you can stick with it, you'll see that I'm really just
 using these 2-categories to describe fun games that you can play with
-certain 2-dimensional pictures. Even if you don't read the words,
+certain $2$-dimensional pictures. Even if you don't read the words,
 please stare at the pictures --- I spend my Thanksgiving weekend drawing
 them, and I don't want that work to go to waste!
 

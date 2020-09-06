@@ -188,9 +188,9 @@ haven't checked these things myself:
     However, neither of these have been proved, and this theory could
     even be renormalizable to all orders: see pages 33-35 in Zvi Bern's
     transparencies above.
--   11-dimensional supergravity is renormalizable to 1 loop but not 2.
+-   $11$-dimensional supergravity is renormalizable to 1 loop but not 2.
 
-Since M-theory is supposed to reduce to 11-dimensional supergravity in
+Since M-theory is supposed to reduce to $11$-dimensional supergravity in
 some sort of limit, the last point is important. Indeed this
 nonrenormalizability is why people stopped working on 11d supergravity
 for a while - until evidence started coming in that it sheds a lot of
@@ -215,7 +215,7 @@ Helling and Urs Schreiber. Here's a bit of what I have learned.
 First of all, let me say some basic stuff about why string theorists
 like G2 manifolds. M-theory lives in 11 dimensions, and 4 + 7 = 11, so
 it's interesting to study M-theory on a spacetime of the form R^4 x N
-where N is a 7-dimensional manifold. The kind of 7-dimensional manifold
+where N is a $7$-dimensional manifold. The kind of $7$-dimensional manifold
 that works is called a "G2 manifold". Or at least this might be true
 if anyone knew what M-theory was! What people really understand is
 11-dimensional supergravity, which is supposed to be some sort of
@@ -225,7 +225,7 @@ what sort of physics this gives.
 
 People also like to study superstring theory on spacetimes of the form
 R^4 x O. But superstring theory lives in 10 dimensions, and 4 + 6 = 10,
-so here O should be a 6-dimensional manifold. The kind of 6-dimensional
+so here O should be a $6$-dimensional manifold. The kind of $6$-dimensional
 manifold that works is called a "Calabi-Yau manifold".
 
 These ideas are related, because M-theory on R^4 x N is sort of like
@@ -279,13 +279,13 @@ where the holonomies lie in the quaternionic unitary group \mathrm{Sp}(n/4).
 Or, suppose X is a Hermitian structure together with an n/2-form. Then
 an X-manifold is called a "Calabi-Yau manifold". This concept of
 Calabi-Yau manifold works in any even dimension, while before I was just
-talking about 6-dimensional ones! For parallel transport around a loop
+talking about $6$-dimensional ones! For parallel transport around a loop
 to preserve an n/2-form as well as a Hermitian structure, the holonomy
 must lie in \mathrm{SU}(n/2). So, a Calabi-Yau manifold is the same as one where
 the holonomies lie in \mathrm{SU}(n/2).
 
 We can define G2-manifolds in a similar way. But to do this, and to see
-how they're related to 6-dimensional Calabi-Yau manifolds, we need a
+how they're related to $6$-dimensional Calabi-Yau manifolds, we need a
 detour into the theory of spinors. The reason is that "N = 1
 supersymmetric theories" work nicely when you can pick a spinor at each
 point of space in a way that's preserved by parallel transport. We call
@@ -303,7 +303,7 @@ from \mathrm{Spin}(n) down to some subgroup.
 So, let's see what this extra structure is like in some examples!
 
 For the examples I'll talk about, the key is that spinors in 5-, 6-, 7-
-and 8-dimensional space are all very related, and all very related to
+and $8$-dimensional space are all very related, and all very related to
 the octonions. You can see this from looking at the even part of the
 Clifford algebra, because spinors are defined to be irreducible
 representations of this algebra. Here's what the even part of the
@@ -339,9 +339,9 @@ kind. The way these spinors work is sort of obvious:
 
 Now the cool part is that H^2, C^4 and R^8 are all secretly the same
 8-dimensional real vector space equipped with various amounts of extra
-structure - i.e. the structure of a 4-dimensional complex vector space,
-or a 2-dimensional quaternionic vector space. And you'll probably be
-more bored than shocked when I tell you that this 8-dimensional real
+structure - i.e. the structure of a $4$-dimensional complex vector space,
+or a $2$-dimensional quaternionic vector space. And you'll probably be
+more bored than shocked when I tell you that this $8$-dimensional real
 vector space is yearning to become the OCTONIONS.
 
 Let's see how we can use this to study specially nice manifolds in 8,
@@ -351,7 +351,7 @@ while in 6 dimensions we'll get Calabi-Yau manifolds.
 
 Okay:
 
-In 8 dimensions there are three different 8-dimensional irreps of the
+In 8 dimensions there are three different $8$-dimensional irreps of the
 spin group (the double cover of the rotation group):
 
 -   the vector rep V
@@ -384,7 +384,7 @@ or whatever we like. So, picking unit vectors in any 2 out of these 3
 spaces gives us a unit vector in the third and makes all 3 into an
 algebra isomorphic to the octonions.
 
-This instantly implies that if we have an 8-dimensional spin manifold M
+This instantly implies that if we have an $8$-dimensional spin manifold M
 with nonzero covariantly constant sections of 2 of these 3 bundles:
 
 -   the left-handed spinor bundle
@@ -402,7 +402,7 @@ Let's call a manifold like this M an "octonionic manifold".
 
 How do we get manifolds like this?
 
-The easiest way is to take a 7-dimensional spin manifold N and let M = N
+The easiest way is to take a $7$-dimensional spin manifold N and let M = N
 x R. The special 8th direction in M gives us a nonzero covariantly
 constant vector field on M. So, to get the above "2 out of 3" trick to
 work, we just need a nonzero covariantly constant section of either the
@@ -412,17 +412,17 @@ But as we've seen, spinors in 7 dimensions are secretly the same as
 either left- or right-handed spinors in 8 dimensions. So, it suffices to
 have a nonzero covariantly constant spinor field on N.
 
-Thus, when N is a 7-dimensional spin manifold with a nonzero covariantly
+Thus, when N is a $7$-dimensional spin manifold with a nonzero covariantly
 constant spinor field, its spinor bundle automatically becomes an
 octonion bundle!
 
 Its tangent bundle doesn't become an octonion bundle, because it's
-just 7-dimensional. But if you think about what I've said, you'll see
+just $7$-dimensional. But if you think about what I've said, you'll see
 the tangent bundle plus a trivial line bundle becomes an octonion
 bundle. This trivial line bundle corresponds to the *real* octonions,
 while the tangent bundle of N corresponds to the *imaginary* octonions.
 
-The imaginary octonions are 7-dimensional, and they have a "dot
+The imaginary octonions are $7$-dimensional, and they have a "dot
 product" and "cross product" rather like those in 3 dimensions. Since
 you can use these to recover the octonion product, the group of
 transformations of the imaginary octonions preserving the dot product
@@ -440,7 +440,7 @@ People call a manifold like this N a "G2 manifold".
 
 How do we get manifolds like this?
 
-The easiest way is to take a 6-dimensional spin manifold O and let N = O
+The easiest way is to take a $6$-dimensional spin manifold O and let N = O
 x R. To make N into a G2 manifold, we need a nonzero covariantly
 constant spinor field on N.
 
@@ -448,12 +448,12 @@ But as we've seen, spinors in 6 dimensions are secretly the same as
 spinors in 7 dimensions. So, it suffices to have a nonzero covariantly
 constant spinor field on O.
 
-Thus, when O is a 6-dimensional spin manifold with a nonzero covariantly
+Thus, when O is a $6$-dimensional spin manifold with a nonzero covariantly
 constant spinor field, its spinor bundle automatically becomes an
 octonion bundle!
 
 Its tangent bundle doesn't become an imaginary octonion bundle, because
-it's just 6-dimensional. But if you think about what I've said,
+it's just $6$-dimensional. But if you think about what I've said,
 you'll see the tangent bundle plus a trivial line bundle becomes an
 imaginary octonion bundle. This trivial line bundle corresponds to a
 particular direction in the imaginary octonions.
@@ -467,7 +467,7 @@ People call a manifold like this O a "Calabi-Yau manifold".
 
 How do we get manifolds like this?
 
-The easiest way is to take a 5-dimensional spin manifold P and let O = P
+The easiest way is to take a $5$-dimensional spin manifold P and let O = P
 x R. To make O into a Calabi-Yau manifold, we need a nonzero covariantly
 constant spinor field on O.
 
@@ -475,12 +475,12 @@ But as we've seen, spinors in 5 dimensions are secretly the same as
 spinors in 6 dimensions. So, it will suffice to have a nonzero
 covariantly constant spinor field on P.
 
-Thus, when P is a 5-dimensional spin manifold with a nonzero covariantly
+Thus, when P is a $5$-dimensional spin manifold with a nonzero covariantly
 constant spinor field, its spinor bundle automatically becomes an
 octonion bundle!
 
 Its tangent bundle doesn't become an imaginary octonion bundle, because
-it's just 5-dimensional. But if you think about what I've said,
+it's just $5$-dimensional. But if you think about what I've said,
 you'll see the tangent bundle plus two trivial line bundles becomes an
 imaginary octonion bundle. These trivial line bundles correspond to two
 orthogonal directions in the imaginary octonions.
@@ -494,11 +494,11 @@ I'll call a manifold like this P an "\mathrm{SU}(2) manifold".
 Does my prose style seem stuck in a loop? That's on purpose; I'm
 trying to make a certain pattern very clear. But the loop stops here, or
 at least changes flavor drastically, because spinors stop being
-8-dimensional when we get down to 4-dimensional space.
+8-dimensional when we get down to $4$-dimensional space.
 
 Summary:
 
--   When M is an 8-dimensional spin manifold with 2 out of these 3
+-   When M is an $8$-dimensional spin manifold with 2 out of these 3
     things:
     -   a nonzero covariantly constant vector field
     -   a nonzero covariantly constant left-handed spinor field
@@ -507,15 +507,15 @@ Summary:
     it automatically gets all three - and its tangent bundle,
     left-handed spinor bundle and right-handed spinor bundle all become
     octonion bundles. We call M an octonionic manifold.
--   When N is a 7-dimensional spin manifold with a nonzero covariantly
+-   When N is a $7$-dimensional spin manifold with a nonzero covariantly
     constant spinor field, its spinor bundle becomes an octonion bundle,
     while its tangent bundle becomes an imaginary octonion bundle. We
     call N a G2 manifold.
--   When O is a 6-dimensional spin manifold with a nonzero covariantly
+-   When O is a $6$-dimensional spin manifold with a nonzero covariantly
     constant spinor field, its spinor bundle becomes an octonion bundle,
     while its tangent bundle plus a trivial line bundle becomes an
     imaginary octonion bundle. We call O a Calabi-Yau manifold.
--   When P is a 5-dimensional spin manifold with a nonzero covariantly
+-   When P is a $5$-dimensional spin manifold with a nonzero covariantly
     constant spinor field, its spinor bundle becomes an octonion bundle,
     while its tangent bundle plus two trivial line bundles becomes an
     imaginary octonion bundle. We call O an \mathrm{SU}(2) manifold.
@@ -526,8 +526,8 @@ a Calabi-Yau manifold times R is a G2 manifold;
 
 a G2 manifold times R is an octonionic manifold.
 
-You may not like how the 8-dimensional case on the above list is
-different from the rest. Don't worry; people also study 8-dimensional
+You may not like how the $8$-dimensional case on the above list is
+different from the rest. Don't worry; people also study $8$-dimensional
 spin manifolds that admit just a nonzero covariantly constant
 left-handed *or* right-handed spinor field. The holonomy group of such a
 manifold must like in \mathrm{Spin}(7), and such a manifold is called a \mathrm{Spin}(7)

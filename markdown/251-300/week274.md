@@ -32,7 +32,7 @@ analogy chart:
     addition             direct sum
     multiplication       tensor product       
     0                    the 0-dimensional vector space
-    1                    the 1-dimensional vector space
+    1                    the $1$-dimensional vector space
 
 Just as you can add and multiply numbers, you can add and multiply
 vector spaces - but people call these operations "direct sum" and
@@ -67,10 +67,10 @@ This suggests continuing the chart with a third column, like this:
     1                    C1                       Vect1
 
 Here C^0^ is short for the 0-dimensional vector space, while C^1 is
-short for the 1-dimensional vector space - in other words the complex
+short for the $1$-dimensional vector space - in other words the complex
 numbers, C. Vect is the category of all vector spaces. So, whatever a
 "2-vector space" is, to make the chart nice we'd better have Vect be
-the 1-dimensional 2-vector space. We can emphasize this by calling it
+the $1$-dimensional 2-vector space. We can emphasize this by calling it
 Vect^1.
 
 In fact, about 15 years ago Kapranov and Voevodsky invented a theory of
@@ -152,7 +152,7 @@ After these old papers on 2-vector spaces and 2-Hilbert spaces, various
 people came along and improved the whole story. For example:
 
 5) Martin Neuchl, Representation Theory of Hopf Categories, Ph.D.
-dissertation, University of Munich, 1997. Chapter 2: 2-dimensional
+dissertation, University of Munich, 1997. Chapter 2: $2$-dimensional
 linear algebra. Available at `http://math.ucr.edu/home/baez/neuchl.ps`
 
 6) Josep Elgueta, A strict totally coordinatized version of Kapranov
@@ -222,7 +222,7 @@ only basis goes like this:
 (C^0^,C^0^,C^1,...)
 
 Well, I'm exaggerating slightly: we could replace C^1 here by any
-other 1-dimensional vector space, and C^0^ by any other 0-dimensional
+other $1$-dimensional vector space, and C^0^ by any other 0-dimensional
 vector space. That would give other bases - but they'd still be
 *isomorphic* to the basis shown above.
 

@@ -647,17 +647,17 @@ Assoc \to Comm
 and call its kernel I. I_n is the space of $n$-ary operations for
 associative algebras that go to zero when we think of them as operations
 for *commutative* algebras. Let's see what it's like! The first
-interesting case is I_2. Assoc_2 is 2-dimensional, with this basis:
+interesting case is I_2. Assoc_2 is $2$-dimensional, with this basis:
 
 (x,y) \mapsto xy\
 (x,y) \mapsto yx
 
-and I_2 is 1-dimensional, with this basis:
+and I_2 is $1$-dimensional, with this basis:
 
 (x,y) \mapsto xy - yx
 
 since this is what's zero for commutative algebras. The quotient
-Assoc_2/I_2 is the same as Comm_2: it's a 1-dimensional space, and
+Assoc_2/I_2 is the same as Comm_2: it's a $1$-dimensional space, and
 in this space we have identified the operations
 
 (x,y) \mapsto xy
@@ -815,7 +815,7 @@ all. Or in other words, operations in Comm:
 
 I^0^/I^1 = Assoc/I = Comm
 
-And we know this space is 1-dimensional. For example, for n = 4 it has
+And we know this space is $1$-dimensional. For example, for n = 4 it has
 this basis vector:
 
 (w,x,y,z) \mapsto wxyz

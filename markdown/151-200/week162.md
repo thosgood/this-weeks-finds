@@ -32,7 +32,7 @@ algebras and how they show up in projective geometry, quantum logic,
 special relativity and so on. I'll start by reminding you of some stuff
 from ["Week 106"](#week106) and ["Week 145"](#week145). Then
 I'll charge ahead and show you how a Jordan algebra built from the
-octonions is related to 10-dimensional Minkowski spacetime....
+octonions is related to $10$-dimensional Minkowski spacetime....
 
 Projective geometry is a venerable subject that has its origins in the
 study of perspective by Renaissance painters. As seen by the eye, any
@@ -70,7 +70,7 @@ Given a projective space and a set $S$ of points in this space, we define
 the "span" of $S$ to be the set of all points lying on lines $ab$ where
 $a,b$ are distinct points in $S$. The "dimension" of a projective space is
 defined to be one less than the smallest number of points that span the
-whole space. As you would hope, a 2-dimensional projective space is the
+whole space. As you would hope, a $2$-dimensional projective space is the
 same thing as a projective plane! It's a fun exercise to show this
 straight from the above axioms. If you give up, read this book:
 
@@ -216,8 +216,8 @@ interesting in itself:
 ... but the real fun starts when we note that projections in the Jordan
 algebra of $n\times n$ self-adjoint complex matrices correspond to subspaces
 of $\mathbb{C}^n$. This sets up a relationship to projective geometry, since the
-projections onto 1-dimensional subspaces correspond to points in $\mathbb{CP}^n$,
-while the projections onto 2-dimensional subspaces correspond to lines.
+projections onto $1$-dimensional subspaces correspond to points in $\mathbb{CP}^n$,
+while the projections onto $2$-dimensional subspaces correspond to lines.
 Even better, we can work out the dimension of a subspace $V$ from the
 corresponding projection $p\colon\mathbb{C}^n\to V$ using only the partial order on
 projections: $V$ has dimension $d$ iff the longest chain of distinct
@@ -225,8 +225,8 @@ projections
 $$p_0 < p_1 < \ldots < p_i = p$$
 has length $i = d$. In fact, we can use this to define the "dimension"
 of any projection in *any* formally real Jordan algebra. We can then try
-to construct a projective space whose points are the 1-dimensional
-projections and whose lines are the 2-dimensional projections, with the
+to construct a projective space whose points are the $1$-dimensional
+projections and whose lines are the $2$-dimensional projections, with the
 relation of "lying on" given by the partial order in our Jordan
 algebra.
 
@@ -276,7 +276,7 @@ these:
 17) G. Sierra, "An application of the theories of Jordan algebras and Freudenthal triple systems to particles and strings", _Class. Quant. Grav._ **4** (1987), 227.
 
 Instead, I'll just say what $2\times2$ hermitian octonionic matrices have to
-do with 10-dimensional Minkowski spacetime. Since superstrings live in
+do with $10$-dimensional Minkowski spacetime. Since superstrings live in
 10 dimensions, that's at least a start.
 
 First, we need to think about spin factors.
@@ -306,7 +306,7 @@ which is just the usual Minkowski metric in slight disguise. This makes
 it tempting to borrow an idea from special relativity and define the
 "lightcone" to consist of all nonzero $x$ in $J(V)$ with
 $$x\cdot x = 0$$
-A 1-dimensional subspace of $J(V)$ spanned by an element of the lightcone
+A $1$-dimensional subspace of $J(V)$ spanned by an element of the lightcone
 is called a "light ray", and the space of all light rays is called the
 "heavenly sphere" $S(V)$. We can identify the heavenly sphere with the
 sphere of unit vectors in $V$, since every light ray is spanned by an
@@ -319,7 +319,7 @@ and whizzed along at close to the speed of light, all the constellations
 would look distorted, but all *angles* would be preserved, since the
 Lorentz group acts as conformal transformations of the heavenly sphere.
 
-Now, when $V$ is at least 2-dimensional, we can build a projective space
+Now, when $V$ is at least $2$-dimensional, we can build a projective space
 from $J(V)$ using the construction I described for any simple formally
 real Jordan algebra. If we do this, what do we get?
 

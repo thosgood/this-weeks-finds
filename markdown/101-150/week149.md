@@ -164,7 +164,7 @@ finite-dimensional ones like $\mathbb{CP}^n$, but you can define $\mathbb{CP}^\i
 "direct limit" of these as $n$ approaches $\infty$, using the fact that $\mathbb{CP}^n$
 sits inside $\mathbb{CP}^{n+1}$ as a subspace. Alternatively, you can take your
 favorite complex Hilbert space $H$ with countably infinite dimension and
-form the space of all 1-dimensional subspaces in $H$. This gives a
+form the space of all $1$-dimensional subspaces in $H$. This gives a
 slightly fatter version of $\mathbb{CP}^\infty$, but it's homotopy equivalent, and
 it's a very natural thing to study if you're a physicist: it's just
 the space of all "pure states" of the quantum system whose Hilbert
@@ -189,8 +189,8 @@ to know what comes next!
 But I'm digressing. I really want to focus on $K(\mathbb{Z},2)$, or in other
 words, infinite-dimensional complex projective space. Note that there's
 an obvious complex line bundle over this space. Remember, each point in
-$\mathbb{CP}^\infty$ is really a 1-dimensional subspace in some Hilbert space $H$. So we
-can use these 1-dimensional subspaces as the fibers of a complex line
+$\mathbb{CP}^\infty$ is really a $1$-dimensional subspace in some Hilbert space $H$. So we
+can use these $1$-dimensional subspaces as the fibers of a complex line
 bundle over $\mathbb{CP}^\infty$, called the "canonical bundle". I'll call this line
 bundle $L$.
 
@@ -386,7 +386,7 @@ get around to it. Let me just list the papers he gave me:
 
 14) Ross H. Street and Michael Batanin, "The universal property of the multitude of trees", _Macquarie Mathematics Report_ Number **98/233**, March 1998.
 
-15) Michael Batanin, "Shuffle polytopes, cooperative games and 2-dimensional coherence for higher dimensional categories".
+15) Michael Batanin, "Shuffle polytopes, cooperative games and $2$-dimensional coherence for higher dimensional categories".
 
 The folks down in Sydney are making great progress on understanding
 $n$-categories from the globular point of view, and the importance of the

@@ -129,7 +129,7 @@ H \to C\
 e_i \mapsto 1
 
 which sends each state in the basis to the number 1. Here C is the
-complex numbers, a 1-dimensional Hilbert space. We can think of C as a
+complex numbers, a $1$-dimensional Hilbert space. We can think of C as a
 kind of "garbage bin", and think of our operator as "throwing out"
 states in our basis. We can draw it as a cup-shaped thing, like this:
 

@@ -25,7 +25,7 @@ without various subtle difficulties) in the case of a black hole in
 3-dimensional spacetime.
 
 I should say a little bit about gravity in 3 dimensions and why people
-are interested in it. 3-dimensional gravity is drastically simpler than
+are interested in it. $3$-dimensional gravity is drastically simpler than
 4-dimensional gravity, since in 3 dimensions the vacuum Einstein's
 equations say the spacetime metric is *flat*, at least if the
 cosmological constant vanishes. Thus there can be no gravitational
@@ -36,12 +36,12 @@ different if the cosmological constant is nonzero; in particular, there
 are black-hole type solutions. But there is still no gravitational
 radiation.
 
-Basically, people are interested in 3-dimensional quantum gravity
+Basically, people are interested in $3$-dimensional quantum gravity
 because it's simple enough that one can compute something and hope it
-sheds some light on the 4-dimensional world we live in. For some issues
+sheds some light on the $4$-dimensional world we live in. For some issues
 this appears to be the case: primarily, conceptual issues having to do
 with theories in which there is no "background metric". Unfortunately,
-there are SEVERAL DIFFERENT WAYS to set up 3-dimensional quantum
+there are SEVERAL DIFFERENT WAYS to set up $3$-dimensional quantum
 gravity, corresponding to different approaches people have to
 4-dimensional quantum gravity. For this, check out Carlip's paper "Six
 ways to quantize (2+1)-dimensional gravity," mentioned in
@@ -257,7 +257,7 @@ My abstract:
 
 > Recent work on the loop representation of quantum gravity has revealed
 previously unsuspected connections between knot theory and quantum
-gravity, or more generally, 3-dimensional topology and 4-dimensional
+gravity, or more generally, $3$-dimensional topology and $4$-dimensional
 generally covariant physics. We review how some of these relationships
 arise from a 'ladder of field theories' including quantum gravity and
 BF theory in 4 dimensions, Chern-Simons theory in 3 dimensions, and the

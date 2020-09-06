@@ -108,7 +108,7 @@ and get a new group called $\mathrm{PSL}(2,F)$.
 Now Galois was thinking about $\mathrm{PSL}(2,\mathbb{Z}_p)$ where $p$ is prime. There's an
 obvious way to get this group to act as permutations of $p+1$ things.
 Here's how! For any field $F$, the group $\mathrm{SL}(2,F)$ acts as linear
-transformations of the 2-dimensional vector space over $F$, and it thus
+transformations of the $2$-dimensional vector space over $F$, and it thus
 acts on the set of lines through the origin in this vector space...
 which is called the "projective line" over $F$. But anything in $\mathrm{SL}(2,F)$
 that's a scalar multiple of the identity doesn't move lines around, so
@@ -262,7 +262,7 @@ we go from $F$ to $F$.
 Now, I haven't talked much about the ways one can compose natural
 transformations like $i$ and $e$, but remember that they are 2-morphisms, or
 morphisms-between-morphisms, in $\mathsf{Cat}$ (the 2-category of all categories).
-This means that they are inherently 2-dimensional, and in particular,
+This means that they are inherently $2$-dimensional, and in particular,
 one can compose them both "horizontally" and "vertically". I'll
 explain this more next time, but for now please take my word for it!
 Using these composition operations, one can make sense of the following
@@ -386,8 +386,8 @@ Now this may seem like a silly game, drawing natural transformations as
 string. But in fact this is part of a very big, very important, and very
 fun game: the relation between $n$-category theory and the topology of
 submanifolds of $\mathbb{R}^n$. Right now we are dealing with $\mathsf{Cat}$, which is a
-2-category, so we are getting into 2-dimensional pictures. But when we
-get into 3-categories we will get into 3-dimensional pictures, and knot
+2-category, so we are getting into $2$-dimensional pictures. But when we
+get into 3-categories we will get into $3$-dimensional pictures, and knot
 theory... and what got me into this whole business in the first place:
 the relation between knots and physics. In higher dimensions it gets
 even fancier.

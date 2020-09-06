@@ -245,7 +245,7 @@ pragmatism, he is also one of the fathers of higher-dimensional algebra.
 As you surely know if you've read me often enough, part of the point of
 higher-dimensional algebra is to break out of "linear thinking". By
 "linear thinking" I mean the tendency to do mathematics in ways that
-are easily expressed in terms of 1-dimensional strings of symbols. In
+are easily expressed in terms of $1$-dimensional strings of symbols. In
 his work on logic, Peirce burst free into higher dimensions. He
 developed a way of reasoning using diagrams that he called "existential
 graphs". Unfortunately this work by Peirce was never published! One
@@ -261,10 +261,10 @@ Brady and Trimble do!
 
 3) J. Scott Carter, Louis H. Kauffman, and Masahico Saito, "Structures and diagrammatics of four dimensional topological lattice field theories", to appear in _Adv. Math._, preprint available as [`math.GT/9806023`](https://arxiv.org/abs/math.GT/9806023).
 
-We can get 3-dimensional topological quantum field theories from certain
+We can get $3$-dimensional topological quantum field theories from certain
 Hopf algebras. As I described in ["Week 38"](#week38), Crane and
 Frenkel made the suggestion that by categorifying this construction we
-should get 4-dimensional TQFTs from certain Hopf categories. This paper
+should get $4$-dimensional TQFTs from certain Hopf categories. This paper
 makes the suggestion precise in a certain class of examples! Basically
 these are categorified versions of the Dijkgraaf-Witten theory.
 
@@ -334,7 +334,7 @@ theories. I'll just quote the abstract:
 
 > A group-category is an additively semisimple category with a monoidal
 > product structure in which the simple objects are invertible. For
-> example in the category of representations of a group, 1-dimensional
+> example in the category of representations of a group, $1$-dimensional
 > representations are the invertible simple objects. This paper gives a
 > detailed exploration of "topological quantum field theories" for
 > group-categories, in hopes of finding clues to a better understanding

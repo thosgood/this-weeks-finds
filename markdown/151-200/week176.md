@@ -46,7 +46,7 @@ by energy density and pressure. More precisely, a calculation using
 general relativity shows that the expansion of the universe decelerates
 at a rate proportional to the energy density plus 3 times the pressure.
 (In case you're wondering, the number 3 comes from the fact that space
-is 3-dimensional.)
+is $3$-dimensional.)
 
 If you think about what I've told you, this means that normal matter
 makes the expansion decelerate - but a positive cosmological constant

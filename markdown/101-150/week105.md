@@ -7,14 +7,14 @@ become clear. One of them is called "Bott periodicity".
 A 0-dimensional manifold is pretty dull: just a bunch of points.
 1-dimensional manifolds are not much more varied: the only possibilities
 are the circle and the line, and things you get by taking a union of a
-bunch of circles and lines. 2-dimensional manifolds are more
+bunch of circles and lines. $2$-dimensional manifolds are more
 interesting, but still pretty tame: you've got your n-holed tori, your
 projective plane, your Klein bottle, variations on these with extra
 handles, and some more related things if you allow your manifold to go
 on forever, like the plane, or the plane with a bunch of handles added
 (possibly infinitely many!), and so on.... You can classify all these
-things. 3-dimensional manifolds are a lot more complicated: nobody knows
-how to classify them. 4-dimensional manifolds are a *lot* more
+things. $3$-dimensional manifolds are a lot more complicated: nobody knows
+how to classify them. $4$-dimensional manifolds are a *lot* more
 complicated: you can *prove* that it's *impossible* to classify them ---
 that's called Markov's Theorem.
 
@@ -95,11 +95,11 @@ the latter has dimension $16 = 2^4$.
 Now let's completely change the subject and talk about rotations in
 infinite-dimensional space! What's a rotation in infinite-dimensional
 space like? Well, let's start from the bottom and work our way up. You
-can't really rotate in 0-dimensional space. In 1-dimensional space you
+can't really rotate in 0-dimensional space. In $1$-dimensional space you
 can't really rotate, you can only *reflect* things... but we will
 count reflections together with rotations, and say that the operations
-of multiplying by $1$ or $-1$ count as "rotations" in 1-dimensional space.
-In 2-dimensional space we describe rotations by $2\times2$ matrices like
+of multiplying by $1$ or $-1$ count as "rotations" in $1$-dimensional space.
+In $2$-dimensional space we describe rotations by $2\times2$ matrices like
 $$
   \left(
     \begin{array}{cc}
@@ -201,7 +201,7 @@ The first entry is a bit subtler but very important in physics. It means
 that there is a loop in $\mathrm{O}(\infty)$ that you can't pull tight, but if you go
 around that loop *twice*, you trace out a loop that you *can* pull
 tight. In fact this is true for $\mathrm{O}(n)$ whenever $n$ is $3$ or more. This is
-how there can be spin-$1/2$ particles when space is 3-dimensional or
+how there can be spin-$1/2$ particles when space is $3$-dimensional or
 higher. There are lots of nice tricks for seeing that this is true,
 which I hope the reader already knows and loves. In short, the first
 entry is all about "rotating 360 degrees and not getting back to where
@@ -344,7 +344,7 @@ Now a principal $\mathrm{O}(n)$-bundle is basically the same thing as an
 $n$-dimensional real vector bundle --- there are obvious ways to go back and
 forth between these concepts. A principal $\mathrm{O}(\infty)$-bundle is thus very much
 like a real vector bundle of *arbitrary* dimension, but where we don't
-care about adding on arbitrarily many 1-dimensional trivial bundles. If
+care about adding on arbitrarily many $1$-dimensional trivial bundles. If
 we take the collection of isomorphism classes of real vector bundles
 over $X$ and decree two to be equivalent if they become isomorphic after
 adding on trivial bundles, we get something called $KX$, the "real
@@ -373,24 +373,24 @@ $$k\mathrm{O} = \mathcal{B}\mathrm{O}(\infty)\times\mathbb{Z}.$$
 So, let's use this instead of $\mathcal{B}\mathrm{O}(\infty)$ from now on.
 
 Taking $n = 0$, we can think of $S^1$ as $\mathbb{RP}^1$, the real projective line,
-i.e. the space of 1-dimensional real subspaces of $\mathbb{R}^2$. This has a
-"canonical line bundle" over it, that is, a 1-dimensional real vector
-bundle which to each point of $\mathbb{RP}^1$ assigns the 1-dimensional subspace
+i.e. the space of $1$-dimensional real subspaces of $\mathbb{R}^2$. This has a
+"canonical line bundle" over it, that is, a $1$-dimensional real vector
+bundle which to each point of $\mathbb{RP}^1$ assigns the $1$-dimensional subspace
 of $\mathbb{R}^2$ that *is* that point. This vector bundle over $S^1$ gives the
 generator of $KS^1$, or in other words, $\pi_0(\mathrm{O}(\infty))$.
 
 Taking $n = 1$, we can think of $S^2$ as the "Riemann sphere", or in
-other words $\mathbb{CP}^1$, the space of 1-dimensional complex subspaces of $\mathbb{C}^2$.
+other words $\mathbb{CP}^1$, the space of $1$-dimensional complex subspaces of $\mathbb{C}^2$.
 This too has a "canonical line bundle" over it, which is a
-1-dimensional complex vector bundle, or 2-dimensional real vector
+1-dimensional complex vector bundle, or $2$-dimensional real vector
 bundle. This bundle over $S^2$ gives the generator of $KS^2$, or in other
 words, $\pi_1(\mathrm{O}(\infty))$.
 
-Taking $n = 3$, we can think of $S^4$ as $\mathbb{HP}^1$, the space of 1-dimensional
+Taking $n = 3$, we can think of $S^4$ as $\mathbb{HP}^1$, the space of $1$-dimensional
 quaternionic subspaces of $\mathbb{H}^2$. The "canonical line bundle" over this
 gives the generator of $KS^4$, or in other words, $\pi_3(\mathrm{O}(\infty))$.
 
-Taking $n = 7$, we can think of $S^8$ as $\mathbb{OP}^1$, the space of 1-dimensional
+Taking $n = 7$, we can think of $S^8$ as $\mathbb{OP}^1$, the space of $1$-dimensional
 octonionic subspaces of $\mathbb{O}^2$. The "canonical line bundle" over this
 gives the generator of $KS^8$, or in other words, $\pi_7(\mathrm{O}(\infty))$.
 
@@ -459,7 +459,7 @@ couldn't prove it! That made me nervous. So I asked on
 > Its Thom space is the projective Cayley plane
 > $\mathbb{OP}^2$. Using this and Hirzebruch's signature theorem,
 > one sees that the Pontrjagin class of $H^8$ is
-> $p_8(H^8)=6x$, for a generator $x$ of the 8-dimensional
+> $p_8(H^8)=6x$, for a generator $x$ of the $8$-dimensional
 > integral cohomology of $S^8$ [a reference for this
 > calulation is my paper "The topology of smooth
 > projective planes", _Arch. Math_ **63** (1994)].

@@ -438,7 +438,7 @@ were 86 - I'll just mention the *two* strands of work I find most
 exciting.
 
 First, there's new evidence that a quantum theory of pure gravity
-(meaning gravity without matter) makes sense in 4-dimensional spacetime.
+(meaning gravity without matter) makes sense in $4$-dimensional spacetime.
 
 To understand why this is exciting, you have to realize that in some
 quarters, the conventional wisdom says a quantum theory of pure gravity
@@ -526,8 +526,8 @@ of the heat equation probes the spacetime at short distance scales,
 while its large-time behavior probes large distance scales. Spectral
 dimensions don't need to be integers - for fractals they're typically
 not. But, Loll and company believe they're seeing spacetimes that are
-*exactly* 2-dimensional in the limit of very small distance scales,
-*exactly* 4-dimensional in the limit of very large scales, with a
+*exactly* $2$-dimensional in the limit of very small distance scales,
+*exactly* $4$-dimensional in the limit of very large scales, with a
 continuous change in dimension in between. The error bars in the above
 figures come from doing Monte Carlo simulations. They're just using
 ordinary computers, not supercomputers. So, with more work one could
@@ -568,12 +568,12 @@ Similarly, Lauscher and Reuter could just plunge ahead and compute, if
 they wanted.
 
 This is excellent. But personally, I'd like to find a beautiful theory
-in which spacetime is 2-dimensional at short distance scales, which
+in which spacetime is $2$-dimensional at short distance scales, which
 reduces to general relativity at large scales. In other words, to redo
 all these calculations "from the bottom up".
 
 Unsurprisingly, I hope this beautiful theory is a spin foam model, since
-spin foams are 2-dimensional and I like them a lot. I presented some
+spin foams are $2$-dimensional and I like them a lot. I presented some
 rough ideas on how one might invent such a model:
 
 22) John Baez, Towards a spin foam model of quantum gravity, talk at

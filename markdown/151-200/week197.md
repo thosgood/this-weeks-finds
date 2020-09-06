@@ -743,7 +743,7 @@ double cover, take all the points in \mathrm{SU}(2) that map to A_4. You get a
 24-element subgroup of \mathrm{SU}(2) which is the binary tetrahedral group.
 
 In fact, if you think of \mathrm{SU}(2) as the unit sphere in the quaternions,
-the binary tetrahedral group becomes the vertices of a 4-dimensional
+the binary tetrahedral group becomes the vertices of a $4$-dimensional
 regular polytope called the 24-cell!
 
 I'm very fond of this polytope, and have already extolled its charms in

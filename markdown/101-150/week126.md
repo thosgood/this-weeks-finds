@@ -11,7 +11,7 @@ field theory: the Lagrangian approach, also known as "path-integral
 quantization", and the Hamiltonian approach, also called "canonical
 quantization". Let me describe string theory from both viewpoints.
 I'll only talk about bosonic string theory, because my goal is to
-sketch why it works best in 26-dimensional spacetime, and because it's
+sketch why it works best in $26$-dimensional spacetime, and because it's
 simpler than superstring theory. Also, I'll only talk about closed
 strings.
 

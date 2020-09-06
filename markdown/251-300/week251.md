@@ -99,7 +99,7 @@ phase. The set of these is just the Riemann sphere!
 In a pure state, we know as much as we can know. In a "mixed state",
 we know less. Mathematically, a mixed state of a spin-$1/2$ particle is a
 2\times2 "density matrix" - a self-adjoint matrix with nonnegative
-eigenvalues and trace 1. These form a 3-dimensional ball, the "Bloch
+eigenvalues and trace 1. These form a $3$-dimensional ball, the "Bloch
 ball", whose boundary is the Riemann sphere.
 
 The x, y, and z coordinates of a point in the Bloch ball are the
@@ -253,7 +253,7 @@ so cool I can't resist reminding you.
 
 Our universe seems to like complex quantum mechanics. And, the space of
 2\times2 self-adjoint complex matrices - let's call it h_2(C) - is
-isomorphic to 4-dimensional Minkowski spacetime! The cone of positive
+isomorphic to $4$-dimensional Minkowski spacetime! The cone of positive
 matrices is isomorphic to the future lightcone. The set of pure states
 of a spin-$1/2$ particle is the Riemann sphere \mathbb{CP}^1, and this is
 isomorphic to the "heavenly sphere": the set of light rays through a

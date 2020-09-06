@@ -85,7 +85,7 @@ You'll meet the Lipschitz integers and Hurwitz integers sitting inside
 the quaternions - and the Lipschitzian, Hurwitzian and Gravesian
 integers sitting inside the octonions. I suspect all these charming
 names are due to Conway, who has a real gift for terminology. But best
-of all are the Cayley integers, which form a famous 8-dimensional
+of all are the Cayley integers, which form a famous $8$-dimensional
 lattice: the \mathrm{E}_8 lattice! This gives the densest lattice packing of
 spheres in 8 dimensions: each sphere touches 240 others.
 
@@ -126,7 +126,7 @@ the unit quaternions is the book by Conway and Smith.
 
 For some idiotic reason I'd never pondered the analogous question for
 the octonions until Norman Johnson brought it up! The unit octonions
-form a 7-dimensional sphere. They don't form a group, since
+form a $7$-dimensional sphere. They don't form a group, since
 multiplication of octonions isn't associative. But they form a
 "loop", which is just like a group but with the associative law
 dropped. Since they're a smooth manifold, and the group operations are

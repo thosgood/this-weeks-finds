@@ -22,7 +22,7 @@ I'd like to start with a long quote from a paper by Ashtekar:
 > Geometry is a physical entity, very much like matter.
 >
 > Now, the physics of this century has shown us that matter has
-> constituents and the 3-dimensional objects we perceive as solids are
+> constituents and the $3$-dimensional objects we perceive as solids are
 > in fact made of atoms. The continuum description of matter is an
 > approximation which succeeds brilliantly in the macroscopic regime but
 > fails hopelessly at the atomic scale. It is therefore natural to ask:
@@ -196,7 +196,7 @@ at those of the first generation, since the other two generations
 transform exactly the same way. First of all, we have the left-handed
 electron and neutrino:
 $$(\nu_L, \mathrm{e}_L)$$
-These form a 2-dimensional representation. This representation is the
+These form a $2$-dimensional representation. This representation is the
 tensor product of the irreducible rep of $\mathrm{U}(1)$ with hypercharge $-1$, the
 isospin-$1/2$ rep of $\mathrm{SU}(2)$, and the trivial rep of $\mathrm{SU}(3)$.
 
@@ -212,7 +212,7 @@ of $\mathrm{SU}(2)$.
 Next we have the left-handed up and down quarks, which come in 3 colors
 each:
 $$(\mathrm{u}_L, \mathrm{u}_L, \mathrm{u}_L, \mathrm{d}_L, \mathrm{d}_L, \mathrm{d}_L)$$
-This 6-dimensional representation is the tensor product of the
+This $6$-dimensional representation is the tensor product of the
 irreducible rep of $\mathrm{U}(1)$ with hypercharge $1/3$, the isospin-$1/2$ rep of
 $\mathrm{SU}(2)$, and the fundamental rep of $\mathrm{SU}(3)$.
 
@@ -231,7 +231,7 @@ hypercharge $4/3$, the isospin-$0$ rep of $\mathrm{SU}(2)$, and the fundamental 
 $\mathrm{SU}(3)$. And then there are the right-handed down quarks:
 $$(\mathrm{d}_R, \mathrm{d}_R, \mathrm{d}_R)$$
 which form the tensor product of the irreducible rep of $\mathrm{U}(1)$ with
-hypercharge $2/3$, the isospin-$0$ rep of $\mathrm{SU}(2)$, and the 3-dimensional
+hypercharge $2/3$, the isospin-$0$ rep of $\mathrm{SU}(2)$, and the $3$-dimensional
 fundamental rep of $\mathrm{SU}(3)$.
 
 Finally, besides the fermions, there is the --- so far unseen --- Higgs
@@ -297,8 +297,8 @@ Brett McInnes recommended to me:
 
 4) Lochlainn O'Raifeartaigh, _Group structure of gauge theories_, Cambridge University Press, Cambridge, 1986.
 
-Second, this magical group $G$ has a nice action on a 7-dimensional
-manifold which we can use as the fiber for a 11-dimensional Kaluza-Klein
+Second, this magical group $G$ has a nice action on a $7$-dimensional
+manifold which we can use as the fiber for a $11$-dimensional Kaluza-Klein
 theory that mimics the Standard Model in the low-energy limit. The way
 to get this manifold is to take $S^3\times S^5$ sitting inside $C^2\times C^3$
 and mod out by the action of $\mathrm{U}(1)$ as multiplication by phases. The group

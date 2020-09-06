@@ -275,7 +275,7 @@ said, I'll have to turn up the level of mathematical sophistication
 another notch. (Needless to say, all the errors will be mine.)
 
 So, I'll assume you know what a "complex line bundle" is --- this is
-just another name for a 1-dimensional complex vector bundle. Locally a
+just another name for a $1$-dimensional complex vector bundle. Locally a
 section of a complex line bundle looks a lot like a complex-valued
 function, but this isn't true globally unless your line bundle is
 trivial. If you aren't careful, sometimes you may *think* you have a
@@ -333,14 +333,14 @@ So what's this group, anyway?
 
 Well, it turns out that you can get any $\mathrm{SL}(2,\mathbb{Z})$-equivariant line bundle
 on $H$, up to isomorphism, by taking the trivial line bundle on $H$ and
-using a 1-dimensional representation of $\mathrm{SL}(2,\mathbb{Z})$ to say how it acts on
-the fiber. So we just need to understand 1-dimensional representations
+using a $1$-dimensional representation of $\mathrm{SL}(2,\mathbb{Z})$ to say how it acts on
+the fiber. So we just need to understand $1$-dimensional representations
 of $\mathrm{SL}(2,\mathbb{Z})$. The set of isomorphism classes of these forms a group under
 tensor product, and this is the group we're after.
 
-Well, a 1-dimensional representation of a group always factors through
+Well, a $1$-dimensional representation of a group always factors through
 the abelianization of that group. We saw the abelianization of $\mathrm{SL}(2,\mathbb{Z})$
-was $\mathbb{Z}/12$. But everyone knows that the group of 1-dimensional
+was $\mathbb{Z}/12$. But everyone knows that the group of $1$-dimensional
 representations of $\mathbb{Z}/n$ is again $\mathbb{Z}/n$ - this is called Pontryagin duality.
 So: the Picard group of the moduli stack of elliptic curves is $\mathbb{Z}/12$.
 

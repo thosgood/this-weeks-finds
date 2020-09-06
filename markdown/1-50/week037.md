@@ -94,8 +94,8 @@ connection", the "Ashtekar connection", or the "chiral spin
 connection" depending on who you're talking to. The advantage of this
 shows up when one tries to canonically quantize the theory in terms of
 initial data. (For a bit on this, try ["Week 11"](#week11).) Here
-we assume our 4-dimensional spacetime can be split up into "space" and
-"time", so that space is a 3-dimensional manifold, and we take as our
+we assume our $4$-dimensional spacetime can be split up into "space" and
+"time", so that space is a $3$-dimensional manifold, and we take as our
 canonically conjugate fields the restriction of the chiral spin
 connection to space, call it $A$, and something like the restriction of
 the complex frame field to a complex frame field $E$ on space.

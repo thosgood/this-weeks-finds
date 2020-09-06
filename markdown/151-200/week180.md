@@ -290,7 +290,7 @@ comes from the obvious rep of \mathrm{SO}(5,C) on C^5 - what physicists would
 call the "vector" rep. The fundamental rep corresponding to the right
 dot comes from the obvious rep of \mathrm{Sp}(4,C) on C^4 - it's called the
 "spinor" rep of \mathrm{Spin}(5,C). This would be fundamental for studying
-spin-$1/2$ particles in 5-dimensional spacetime if anyone were
+spin-$1/2$ particles in $5$-dimensional spacetime if anyone were
 interested... but not many people are.
 
 The Dynkin diagram of \mathrm{Spin}(6,C) has three dots:
@@ -366,7 +366,7 @@ The fundamental rep corresponding to the left dot comes from the vector
 rep of \mathrm{SO}(8,C) on C^8. The middle dot corresponds to the second
 exterior power of the vector rep. The top and bottom dots correspond to
 the left- and right-handed spinor reps. Like the vector rep, these are
-also 8-dimensional. This coincidence arises from the symmetry of the
+also $8$-dimensional. This coincidence arises from the symmetry of the
 diagram, which is called "triality".
 
 I've said a lot about triality in ["Week 61"](#week61),
@@ -419,8 +419,8 @@ of geometrical figures:
                 points     null     null      null
                           lines    planes    3-spaces
 
-A "point" in the quadric is really a 1-dimensional isotropic subspace
-of C^n; a "null line" is a 2-dimensional isotropic subspace, and so
+A "point" in the quadric is really a $1$-dimensional isotropic subspace
+of C^n; a "null line" is a $2$-dimensional isotropic subspace, and so
 on. We can talk about a point lying on a line, or a line lying on a
 plane, and they mean the obvious things. This gives the incidence
 geometry associated to \mathrm{Spin}(n,C).
@@ -468,16 +468,16 @@ The big difference from the odd-dimensional case is that there are two
 kinds of spaces of the highest dimension listed, and we leave out the
 next-highest dimension. In our example we get:
 
--   *points* in the quadric, which are 1-dimensional isotropic subspaces
+-   *points* in the quadric, which are $1$-dimensional isotropic subspaces
     of C^10^
--   *null lines* in the quadric, which are 2-dimensional isotropic
+-   *null lines* in the quadric, which are $2$-dimensional isotropic
     subspaces of C^10^
--   *null planes* in the quadric, which are 3-dimensional isotropic
+-   *null planes* in the quadric, which are $3$-dimensional isotropic
     subspaces of C^10^
 -   *left-handed 4-spaces* in the quadric, which are left-handed
-    5-dimensional subspaces of C^10^
+    $5$-dimensional subspaces of C^10^
 -   *right-handed 4-spaces* in the quadric, which are right-handed
-    5-dimensional subspaces of C^10^
+    $5$-dimensional subspaces of C^10^
 
 But what are these left- and right-handed subspaces? The answer involves
 the Hodge star operator, so if you don't know what that is, skip this
@@ -499,7 +499,7 @@ and "anti-self-dual" ones with
 
 *w = -iw,
 
-which give two kinds of 5-dimensional subspaces of C^10^ that are their
+which give two kinds of $5$-dimensional subspaces of C^10^ that are their
 own orthogonal complement: the so-called "right-handed" and
 "left-handed" ones. There's nothing special about the number 10 here;
 any even number n will do, though we should leave out the factor of
@@ -660,19 +660,19 @@ each other. This is the same as a subspace in which all vector have xċx
 = 0 - or in physics lingo, one where all vectors are *lightlike*.
 
 For starters consider good old Minkowski space, R^3,1^. This has 3 space
-directions and 1 time direction, and it has a bunch of 1-dimensional
+directions and 1 time direction, and it has a bunch of $1$-dimensional
 isotropic subspaces. Why? Simple: these are just light rays through the
 origin.
 
-Are there any 2-dimensional isotropic subspaces in Minkowski spacetime?
+Are there any $2$-dimensional isotropic subspaces in Minkowski spacetime?
 No! To find one of these, we'd need two light rays through the origin
 that were orthogonal to each other. And this is impossible, basically
 because all lightlike vectors have a nonzero time component. To find two
 orthogonal light rays, we'd need to have two different time directions!
 
-So, in R^3,1^ the biggest isotropic subspaces are 1-dimensional. But if
+So, in R^3,1^ the biggest isotropic subspaces are $1$-dimensional. But if
 we had a spacetime like R^2,2^, with two space directions and two time
-directions, we could find 2-dimensional isotropic subspaces. For
+directions, we could find $2$-dimensional isotropic subspaces. For
 example, if the metric on R^2,2^ looks like this:
 
 (x,y,s,t).(x',y',s',t') = xx' + yy' - ss' - tt'
@@ -861,10 +861,10 @@ even though there is one for every *other* dimension from 1 to n/2.
       8
 
     and this more or less explains the mystery which boris borcic and john
-    baez were discussing, as to why it seemed at first that 3-dimensional
+    baez were discussing, as to why it seemed at first that $3$-dimensional
     subspaces play no interesting role in the incidence geometry of the
     d_5 dynkin diagram (and correspondingly for other "d" series
-    diagrams): it turns out that 3-dimensional subspaces _do_ play an
+    diagrams): it turns out that $3$-dimensional subspaces _do_ play an
     interesting role here, but they're related to a multi-dot anti-chain
     in the dynkin diagram instead of to a single dot.  the importance of
     anti-chains here comes as a bit of a surprise if your intuition about
@@ -936,10 +936,10 @@ even though there is one for every *other* dimension from 1 to n/2.
        27
 
     .  so that's what this calculation predicts: that e_7 geometry
-    involves a compact 27-dimensional manifold of "points", with types of
+    involves a compact $27$-dimensional manifold of "points", with types of
     special subspaces of dimensions 1, 2, 3, 4, 6, and 10, plus two
     different types of special subspaces of dimension 5.  the special
-    4-dimensional subspaces and one of the types of special 5-dimensional
+    $4$-dimensional subspaces and one of the types of special $5$-dimensional
     subspaces are evidently of "anti-chain" type.  i'd be interested to
     know whether e_7 geometry has ever been described along these lines,
     or more generally whether special subspaces of the "anti-chain" type
@@ -1019,10 +1019,10 @@ even though there is one for every *other* dimension from 1 to n/2.
     |   27
     |
     |.  so that's what this calculation predicts: that e_7 geometry
-    |involves a compact 27-dimensional manifold of "points", with types of
+    |involves a compact $27$-dimensional manifold of "points", with types of
     |special subspaces of dimensions 1, 2, 3, 4, 6, and 10, plus two
     |different types of special subspaces of dimension 5.  the special
-    |4-dimensional subspaces and one of the types of special 5-dimensional
+    |4-dimensional subspaces and one of the types of special $5$-dimensional
     |subspaces are evidently of "anti-chain" type.
 
 

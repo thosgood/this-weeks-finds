@@ -93,7 +93,7 @@ Recall that $\mathrm{I}_m$ is the symmetry group of the of regular $m$-gon, whil
 others of these are the symmetry groups of Platonic solids, and still
 others are symmetry groups of regular polytopes in $n$-dimensional space.
 For example, the symmetry group of the dodecahedron is $H_3$, while that
-of its 4-dimensional relative is $H_4$.
+of its $4$-dimensional relative is $H_4$.
 
 Now you may know that there are no perfect crystals in the shape of a
 regular dodecahedron. However, iron pyrite comes close. In his wonderful
@@ -136,7 +136,7 @@ $$\mbox{$\mathrm{A}_n$, $\mathrm{B}_n$, $\mathrm{D}_n$, $\mathrm{E}_6$, $\mathrm
 
 (and those corresponding to disjoint unions of these diagrams). In other
 words, the symmetry groups of the pentagon ($I_5$), the heptagon and so
-on ($\mathrm{I}_m$ with $m > 6$), and the dodecahedron and its 4-dimensional
+on ($\mathrm{I}_m$ with $m > 6$), and the dodecahedron and its $4$-dimensional
 relative ($H_3$ and $H_4$) are ruled out.
 
 Now let us turn to the theory of Lie groups. Lie groups are the most

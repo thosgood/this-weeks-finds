@@ -86,7 +86,7 @@ So, what are A, D, and E like?
 **A**. We can describe the lattice $\mathrm{A}_n$ as the set of all $(n+1)$-tuples of
 integers $(x_1,...,x_{n+1})$ such that
 $$x_1+\ldots+x_{n+1}=0.$$
-It's a fun exercise to show that $A_2$ is a 2-dimensional hexagonal
+It's a fun exercise to show that $A_2$ is a $2$-dimensional hexagonal
 lattice, the sort of lattice you use to pack pennies as densely as
 possible. Similarly, $A_3$ gives a standard way of packing grapefruit,
 which is in fact the densest lattice packing of spheres in 3 dimensions.
@@ -112,7 +112,7 @@ Each point has 240 closest neighbors. Alternatively, as described in
 ["Week 20"](#week20), we can describe $\mathrm{E}_8$ in a slick way in terms
 of the quaternions. Another neat way to think of $\mathrm{E}_8$ is in terms of the
 octonions! Not too surprising, perhaps, since the octonions and $\mathrm{E}_8$ are
-both 8-dimensional, but it's still sorta neat. For the details, check
+both $8$-dimensional, but it's still sorta neat. For the details, check
 out
 
 2) Geoffrey Dixon, "Octonion X-product and $\mathrm{E}_8$ lattices", preprint available as [`hep-th/9411063`](https://arxiv.org/abs/hep-th/9411063).
@@ -155,7 +155,7 @@ vectors $v$ with $\|v\|^2 = 2$. Here a lattice is "integral" if the
 dot product of any two vectors in it is an integer. In fact, any
 integral lattice having a basis consisting of vectors with $\|v\|^2$
 equal to $1$ or $2$ is a direct sum of copies of A, D, and E lattices and
-the integers, thought of as a 1-dimensional lattice.
+the integers, thought of as a $1$-dimensional lattice.
 
 This makes ADE classifications pop up in various places in math and
 physics. For example, there is a cool relationship between the ADE
@@ -170,7 +170,7 @@ icosians (see ["Week 24"](#week24)).
 
 Since $\widetilde{G}$ is finite, it has finitely many irreducible representations.
 Draw a dot for each of the irreducible representations. One of these
-will be 2-dimensional, coming from the spin-$1/2$ representation of $\mathrm{SU}(2)$.
+will be $2$-dimensional, coming from the spin-$1/2$ representation of $\mathrm{SU}(2)$.
 Now, when you tensor this 2d rep with any other irreducible rep $R$, you
 get a direct sum of irreducible reps; draw one line from the dot for $R$
 to each other dot for each time that other irreducible rep appears in

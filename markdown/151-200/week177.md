@@ -112,7 +112,7 @@ by their amplitudes.
 
 In loop quantum gravity the analogue of a Feynman diagram is called a
 "spin foam", because it looks a bit like a foam of soap bubbles. A
-spin foam has 2-dimensional faces in addition to the 1-dimensional edges
+spin foam has $2$-dimensional faces in addition to the $1$-dimensional edges
 and 0-dimensional vertices of a Feynman diagram. Again, these spin foams
 describe "quantum histories", and again we want to compute their
 amplitudes - but now these are histories for *spacetime itself*, rather
@@ -191,7 +191,7 @@ efficient algorithm that serves as the workhorse for the above paper -
 see ["Week 172"](#week172) for more on that. Without this
 algorithm, we'd be dead in the water!
 
-In essence, what we did is take the simplest compact 4-dimensional
+In essence, what we did is take the simplest compact $4$-dimensional
 manifold and triangulate it in the simplest possible way: the 4-sphere,
 triangulated as the boundary of a 5-simplex. Then we compared various
 recipes for computing the amplitudes of spin foams that fit neatly into

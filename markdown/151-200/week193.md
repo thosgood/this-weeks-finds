@@ -173,7 +173,7 @@ roots.
 
 There's also another description of the \mathrm{E}_8 lattice, which I've been
 meaning to understand for *ages*, but which always scared me. You can
-think of 8-dimensional space as the octonions. The unit octonions are
+think of $8$-dimensional space as the octonions. The unit octonions are
 closed under multiplication and taking inverses. If you take the \mathrm{E}_8
 lattice, rescale it so the roots have length one, and rotate it
 correctly, you get a collection of 240 unit octonions that are closed
@@ -406,7 +406,7 @@ algebra plus a one-dimensional abelian subalgebra - namely \mathrm{u}(1).
 
 In this example this smaller Lie algebra is \mathfrak{so}(14), which has dimension
 91. L(1) is a 64-dimensional chiral spinor rep of \mathfrak{so}(14), and L(2) is
-the 14-dimensional vector rep... and similarly for L(-1) and L(-2). So
+the $14$-dimensional vector rep... and similarly for L(-1) and L(-2). So
 we get a very "14-dimensional" picture of \mathrm{E}_8:
 
     E8 =  [vectors] \oplus  [spinors] \oplus  [\mathfrak{so}(14) \oplus  \mathrm{u}(1)] \oplus  [spinors] \oplus  [vectors]
@@ -476,7 +476,7 @@ they're not too fun to watch, so I'll just mention one more, and then
 give a bunch more references.
 
 Above we have seen the roots of \mathrm{E}_7 as the imaginary Cayley integral
-octonions of norm 1. These form a 7-dimensional gemstone with 126
+octonions of norm 1. These form a $7$-dimensional gemstone with 126
 vertices, and we can repeat the same "gem-slicing" trick on a smaller
 scale to get gradings of the Lie algebra \mathrm{E}_7. If we do this in a nice
 way, we get a 3-grading of \mathrm{E}_7:

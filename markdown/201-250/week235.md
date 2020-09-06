@@ -148,7 +148,7 @@ good. For a simple 2-bit computer, you can imagine 4 blobs like this:
                  |??????????????????????????|
                   --------------------------
 
-though in reality the phase space won't be 2-dimensional, but instead
+though in reality the phase space won't be $2$-dimensional, but instead
 much higher-dimensional.
 
 Now, as time evolves for one tick of our computer's clock, we'd like
@@ -392,7 +392,7 @@ dimensions too.
 
 Back then I also explained something else about 4d BF theory: if you cut
 out *surfaces* in spacetime and couple them to the *B* field, they act
-like the worldsheets of 1-dimensional extended objects, which one might
+like the worldsheets of $1$-dimensional extended objects, which one might
 call *strings*. I don't think they're the wiggling stretchy strings
 that string theorists like; I think their equation of motion is
 different. But I should actually check! It's stupid; I should have

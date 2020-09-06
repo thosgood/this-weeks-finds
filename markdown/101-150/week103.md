@@ -75,8 +75,8 @@ definition:
 
 In a different but related direction, Masahico Saito discussed a paper
 with Scott Carter and Joachim Rieger in which they come up with a nice
-purely combinatorial description of all the ways to embed 2-dimensional
-surfaces in 4-dimensional space:
+purely combinatorial description of all the ways to embed $2$-dimensional
+surfaces in $4$-dimensional space:
 
 8) J. Scott Carter, Joachim H. Rieger and Masahico Saito, "A
 combinatorial description of knotted surfaces and their isotopies", to
@@ -92,7 +92,7 @@ This paper summarizes the results; the proofs will appear later.
 
 While I was there, Carter also gave me a very nice paper he'd done with
 Saito and Louis Kauffman. This paper discusses 4-manifolds and also
-2-dimensional surfaces in 3-dimensional space, again getting a purely
+2-dimensional surfaces in $3$-dimensional space, again getting a purely
 combinatorial description which is begging to be translated into
 $n$-category theory:
 

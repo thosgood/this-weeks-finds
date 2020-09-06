@@ -120,7 +120,7 @@ let me list these before filing them away:
     "Categorification and the construction of topological quantum field theory", Louis Crane and Igor Frenkel, draft version.
 
 These outline Louis Crane's vision of an approach to generally
-covariant 4-dimensional quantum field theories (e.g. quantum gravity or
+covariant $4$-dimensional quantum field theories (e.g. quantum gravity or
 a "theory of everything") based on 2-categories. "Categorical
 physics" sketches the big picture, while the paper with Yetter provides
 a juicy mathematical spinoff --- the first known four-dimensional TQFT,

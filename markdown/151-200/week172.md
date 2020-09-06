@@ -254,7 +254,7 @@ It will be no surprise to readers of ["Week 93"](#week93) and
 spacetime dimension is 3, 4, 6, or 10. The reason is that in these
 dimensions both vectors and spinors have a nice description in terms of
 the real numbers, complex numbers, quaternions or octonions,
-respectively. The 10-dimensional octonionic version is the one that
+respectively. The $10$-dimensional octonionic version is the one that
 string theorists hope is related to the type IIB superstring. In this
 case, we can think of both $A$ and $\psi$ as big fat matrices of octonions!
 

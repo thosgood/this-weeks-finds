@@ -259,7 +259,7 @@ For example, if you give me the Dynkin diagram called D4:
                                        o
 
 I'll give you the group G = \mathrm{Spin}(8,C), and I'll tell you it's the
-group of conformal transformations of 6-dimensional complexified
+group of conformal transformations of $6$-dimensional complexified
 compactified Minkowski spacetime. If you pick out the subset consisting
 of just the dot in the middle:
 

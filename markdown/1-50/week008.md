@@ -174,7 +174,7 @@ As an exercise for combinatorists: figure out the dimension of $TL_n$.
 
 Okay, very cute, one might say, but so what? Well, this algebra was
 actually first discovered in statistical mechanics, when Temperley and
-Lieb were solving a 2-dimensional problem:
+Lieb were solving a $2$-dimensional problem:
 
 > "Relations between the 'percolation' and 'coloring' problem and other
 graph-theoretical problems associated with tregular planar lattices:

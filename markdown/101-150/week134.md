@@ -47,7 +47,7 @@ manifold!
 There's a good reason for this: one shouldn't expect anything so
 simple to make sense, except in the "adiabatic approximation" where
 things change very slowly with time. The product of Minkowski spacetime
-with a fixed Calabi-Yau manifold is a solution of the 10-dimensional
+with a fixed Calabi-Yau manifold is a solution of the $10$-dimensional
 Einstein equations, and this is part of why this kind of spacetime
 serves as a good background for string theory. But we do not get a
 solution if the geometry of the Calabi-Yau manifold varies from point to
@@ -128,7 +128,7 @@ quote the abstract:
 > We survey some philosophical aspects of the search for a quantum
 > theory of gravity, emphasising how quantum gravity throws into doubt
 > the treatment of spacetime common to the two 'ingredient theories'
-> (quantum theory and general relativity), as a 4-dimensional manifold
+> (quantum theory and general relativity), as a $4$-dimensional manifold
 > equipped with a Lorentzian metric. After an introduction, we briefly
 > review the conceptual problems of the ingredient theories and
 > introduce the enterprise of quantum gravity. We then describe how
@@ -173,13 +173,13 @@ dimensions. Let me quote from the introduction:
 >
 > Irreducible representations of $\mathfrak{so}(3)$ are indexed by a non-negative
 > half-integers $j$ called spins. The spins have different interpretations
-> in different models. In the Ponzano-Regge model of 3-dimensional
+> in different models. In the Ponzano-Regge model of $3$-dimensional
 > quantum gravity, spins label the edges of a triangulated 3-manifold,
 > and are interpreted as the quantized lengths of these edges. In the
 > Ooguri-Crane-Yetter state sum model, spins label triangles of a
 > triangulated 4-manifold, and the spin is interpreted as the norm of a
 > component of the B-field in a BF Lagrangian. There is also a state sum
-> model of 4-dimensional quantum gravity in which spins label triangles.
+> model of $4$-dimensional quantum gravity in which spins label triangles.
 > Here the spins are interpreted as areas.
 >
 > Many of these constructions have a topologically dual formulation. The
@@ -192,7 +192,7 @@ dimensions. Let me quote from the introduction:
 > of a triangulated 3-manifold. Formulated this way, we call the theory
 > a 'spin foam model'.
 >
-> A similar dual picture exists for 4-dimensional quantum gravity. The
+> A similar dual picture exists for $4$-dimensional quantum gravity. The
 > dual 1-skeleton of a triangulated 3-manifold is a 4-valent graph each
 > of whose edges intersect one triangle in the original triangulation.
 > The labels on the triangles in the 3-manifold can thus be thought of

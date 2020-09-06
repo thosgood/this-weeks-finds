@@ -2,13 +2,13 @@
 
 I will now start catching up on some of the papers that have accumulated
 over the summer. This time I'll say a bit about recent developments in
-quantum field theory and 4-dimensional topology.
+quantum field theory and $4$-dimensional topology.
 
 The quantum field theories that describe three of the forces of nature
 (electromagnetic, strong and weak) depend for their formulation on a
 fixed metric on spacetime --- that is, a way of measuring distance and
 time. Indeed, it seems pretty close to being true that spacetime is
-$\mathbb{R}^4$, and that the "interval" between any two points in 4-dimensional
+$\mathbb{R}^4$, and that the "interval" between any two points in $4$-dimensional
 space is given by the Minkowski metric
 $$dt^2 -dx^2 -dy^2 -dz^2$$
 where $dt$ is the change in the time, or $t$, coordinate, $dx$ is the change
@@ -94,7 +94,7 @@ go back and check out some of the details. See below for how to find old
 
 These papers ran into stiff opposition as soon as they came out! First
 Ocneanu claimed that the Crane-Yetter construction was trivial, in the
-sense that the number it associated to any compact 4-dimensional
+sense that the number it associated to any compact $4$-dimensional
 spacetime manifold was 1. (This number is called the partition function
 of the quantum field theory, and having it be 1 for all spacetimes means
 the theory is deadly dull.)
@@ -116,7 +116,7 @@ examples.
 
 In my discussions of Broda's work I extensively quoted some
 correspondence with Dan Ruberman, who showed that in Broda's original
-construction, the partition function of a 4-dimensional manifold was
+construction, the partition function of a $4$-dimensional manifold was
 just a function of its signature and possibly some Betti numbers --- these
 being well-known invariants, it's not especially exciting from the
 point of view of topology. This was also shown by Justin Roberts:
@@ -188,9 +188,9 @@ simplicity of $B\wedge F$ theory compared to honest-to-goodness 4d quantum
 gravity makes it possible to understand it a lot better, and calculate
 it out explicitly. On the other hand, $B\wedge F$ theory is so simple that
 it doesn't tell us much new about topology, at least not the topology
-of 4-dimensional manifolds per se. Via Donaldson theory and the work of
+of $4$-dimensional manifolds per se. Via Donaldson theory and the work of
 Kronheimer and Mrowka it's probably telling us a lot about the topology
-of 2-dimensional surfaces embedded in 4-dimensional manifolds --- but
+of $2$-dimensional surfaces embedded in $4$-dimensional manifolds --- but
 alas, I don't understand this stuff very well yet!
 
 Getting our hands on 4d quantum gravity as a TQFT along these lines is

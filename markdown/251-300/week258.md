@@ -38,7 +38,7 @@ shear flows, Physical Review E 69, 031308 (2004). Also available as
 [`arXiv:cond-mat/0402669`](http://arXiv.org/abs/cond-mat/0402669).
 
 I wonder if conformal field theory could help us understand these
-simplified 2-dimensional models of granular flow, at least near some
+simplified $2$-dimensional models of granular flow, at least near some
 critical point between "stuck" and "unstuck" flow. Conformal field
 theory tends to be good at studying critical points in 2d physics.
 []{#PAH}

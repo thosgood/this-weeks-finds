@@ -267,7 +267,7 @@ diagrams.
 
 For more on this stuff try the paper by Crane and Frenkel referred to in
 ["Week 38"](#week38) and ["Week 50"](#week50). It suggests
-some amazing relationships between this stuff and 4-dimensional
+some amazing relationships between this stuff and $4$-dimensional
 topology....
 
 ------------------------------------------------------------------------
@@ -287,7 +287,7 @@ People got tremendously excited by it when they started working with the
 number of situations where you have a way to go back and forth between
 two categories, without the categories being "the same" (or
 equivalent). Another exciting thing about adjointness is that it really
-highlights the relation between 2-categories and 2-dimensional topology
+highlights the relation between 2-categories and $2$-dimensional topology
 --- thus pointing the way to a more general relation between $n$-categories
 and $n$-dimensional topology. From this point of view, adjointness is all
 about "folds":
@@ -345,7 +345,7 @@ $$
 $$
 This concept of "doubling back" or "backtracking" is a very simple
 and powerful one, so it's not surprising that it is prevalent
-throughout mathematics and physics. It is an essentially 2-dimensional
+throughout mathematics and physics. It is an essentially $2$-dimensional
 phenomenon (though it occurs in higher dimensions as well), so it can be
 understood most generally in the language of 2-categories.
 
@@ -356,7 +356,7 @@ For those familiar with the category-theoretic approach to Feynman
 diagrams, the stuff in ["Week 83"](#week83) about dual vector
 spaces should suffice to make this connection precise.)
 
-Next I will talk about another 2-dimensional concept, the concept of
+Next I will talk about another $2$-dimensional concept, the concept of
 "joining" or "merging":
 $$
   \begin{tikzpicture}

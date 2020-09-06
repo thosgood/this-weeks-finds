@@ -398,7 +398,7 @@ Planck Scale, Wroclaw, Poland. Also available as
 In ["Week 235"](#week235) I mentioned an amazing paper by Baratin
 and Freidel called "Hidden quantum gravity in 4d Feynman diagrams:
 emergence of spin foams". They described a spin foam model that acts
-just like 4-dimensional flat Minkowski spacetime: couple it to
+just like $4$-dimensional flat Minkowski spacetime: couple it to
 interacting point particles, and you get the usual Feynman diagrams
 described in a new way!
 

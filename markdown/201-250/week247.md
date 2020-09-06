@@ -22,7 +22,7 @@ You can see some of these patterns here:
 
 Recently, Peter Lu and Paul Steinhardt discovered that Islamic tile
 designs also include "quasicrystals". A perfectly repetitive tiling
-can't have 5-fold symmetry. Nor can a 3-dimensional crystal: that's
+can't have 5-fold symmetry. Nor can a $3$-dimensional crystal: that's
 why the dodecahedra formed by pyrite aren't regular. But by using
 patterns that never quite repeat, the Islamic artists achieved
 *approximate* 5-fold symmetry:
@@ -125,7 +125,7 @@ If you stick in these extra spheres, you get the densest known packing
 of spheres in 4 dimensions. Their centers form the "D_4 lattice".
 It's an easy exercise to check that each sphere touches 24 others. The
 centers of these 24 are the vertices of a marvelous shape called the
-"24-cell" - one of the six 4-dimensional Platonic solids. It looks
+"24-cell" - one of the six $4$-dimensional Platonic solids. It looks
 like this:
 
 ::: {align="center"}
@@ -145,13 +145,13 @@ How about in 5 dimensions? Here the densest known packing of spheres
 uses the "D_5 lattice". This is a lot like the D_4 lattice... but
 only if you think about it the right way.
 
-Imagine a 4-dimensional checkerboard with "squares" - really
+Imagine a $4$-dimensional checkerboard with "squares" - really
 hypercubes! - alternately colored red and black. Put a dot in the middle
 of each black square. Voila! You get a rescaled version of the D_4
 lattice. It's not instantly obvious that this matches my previous
 description, but it's true.
 
-If you do the same thing with a 5-dimensional checkerboard, you get the
+If you do the same thing with a $5$-dimensional checkerboard, you get the
 "D_5 lattice", by definition. This gives the densest known packing of
 spheres in 5 dimensions. In this packing, each sphere has 40 nearest
 neighbors. The centers of these nearest neighbors are the vertices of a
@@ -164,7 +164,7 @@ solid that looks like this:
 9) John Stembridge, D_5 root system, available at
 `http://www.math.lsa.umich.edu/~jrs/data/coxplanes/`
 
-If you do the same thing with a 6-dimensional checkerboard, you get the
+If you do the same thing with a $6$-dimensional checkerboard, you get the
 "D~6~ lattice"... and so on.
 
 However, in 8 dimensions something cool happens. If you pack spheres in
@@ -172,9 +172,9 @@ the pattern of the D_8 lattice, there's enough room left to stick in
 an extra copy of this whole pattern! The result is called the "\mathrm{E}_8
 lattice". It's twice as dense as the D_8 lattice.
 
-If you then take a well-chosen 7-dimensional slice through the origin of
+If you then take a well-chosen $7$-dimensional slice through the origin of
 the \mathrm{E}_8 lattice, you get the \mathrm{E}_7 lattice. And if you take a
-well-chosen 6-dimensional slice of this, you get the \mathrm{E}_6 lattice. For
+well-chosen $6$-dimensional slice of this, you get the \mathrm{E}_6 lattice. For
 precise details on what I mean by "well-chosen", see
 ["Week 65"](#week65).
 
@@ -554,7 +554,7 @@ answer, though.
 **Addenda:** I thank David Corfield and James Dolan for catching
 mistakes. Tony Smith found a nice picture created by Günter Ziegler of
 the D_4 root system (that is, the 24-cell) viewed from the Coxeter
-plane. The D_4 root system is 4-dimensional, but it's been drawn with
+plane. The D_4 root system is $4$-dimensional, but it's been drawn with
 a bit of 3d perspective. The 6-fold symmetry is evident:
 
 ::: {align="center"}

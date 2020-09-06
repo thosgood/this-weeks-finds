@@ -104,7 +104,7 @@ Today I'd like to wrap up the discussion of Koszul duality which I
 began last Week. As we'll see, this gives a really efficient way of
 categorifying the theory of Lie algebras and defining "Lie
 n-algebras". And, as Urs Schreiber notes, these seem to be just what we
-need to understand 11-dimensional supergravity in a nice geometric way.
+need to understand $11$-dimensional supergravity in a nice geometric way.
 
 But before I dive into this heavy stuff, something fun. Thanks to
 Christine Dantas' blog, I just saw a webpage on the origins of math and

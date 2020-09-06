@@ -186,7 +186,7 @@ $M'$ is simply connected. So it suffices to show that $b(N) = b(N')$ if $N$
 and $N'$ are simply connected.
 
 > So now you can assume you have two simply connected manifolds $N,N'$
-which are cobordant via a 5-dimensional cobordism W, which you can also
+which are cobordant via a $5$-dimensional cobordism W, which you can also
 assume simply connnected. By high-dimensional handlebody theory, you can
 get rid of the 1-handles and 4-handles of $W$, and assume that all the
 2-handles are added, then all of the 3-handles. If you add all the

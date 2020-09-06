@@ -32,7 +32,7 @@ out a *framework* that turns the above "picture proof" that $a+b = b+a$
 into an actual rigorous proof! This is one of the goals of
 higher-dimensional algebra.
 
-The above proof that $a+b = b+a$ uses 2-dimensional space, but if you
+The above proof that $a+b = b+a$ uses $2$-dimensional space, but if you
 really think about it also uses a 3rd dimension, namely time: the time
 that passes as you move "$a$" around "$b$". If we draw this 3rd
 dimension as space rather than time we can visualize the process of
@@ -74,22 +74,22 @@ If one has a bunch of objects one can switch them around in a lot of
 ways, getting lots of different braids.
 
 In fact, the mathematics of braids, and related things like knots, is
-crucially important for understanding quantum gravity in 3-dimensional
-spacetime. Spacetime is really 4-dimensional, of course, but quantum
-gravity in 4-dimensional spacetime is awfully difficult, so in the late
-1980s people got serious about studying 3-dimensional quantum gravity as
+crucially important for understanding quantum gravity in $3$-dimensional
+spacetime. Spacetime is really $4$-dimensional, of course, but quantum
+gravity in $4$-dimensional spacetime is awfully difficult, so in the late
+1980s people got serious about studying $3$-dimensional quantum gravity as
 a kind of warmup exercise. It turned out that the math required was
 closely related to some mysterious new mathematics related to knots and
 "braidings". At first this must sound bizarre: a deep relationship
-between knots and 3-dimensional quantum gravity! However, after you
+between knots and $3$-dimensional quantum gravity! However, after you
 fight your way through the sophisticated mathematical physics that's
 involved, it becomes clear why they are related: both rely crucially on
 "3-dimensional algebra", the algebra describing how you can move
-things around in 3-dimensional spacetime.
+things around in $3$-dimensional spacetime.
 
 However, there is more to the story, because knot theory also seems
 deeply related to *4-dimensional* quantum gravity. Here the knots arise
-as "flux tubes of area" living in 3-dimensional space at a given time.
+as "flux tubes of area" living in $3$-dimensional space at a given time.
 Recent work on quantum gravity suggests that as time passes these knots
 (or more generally, "spin networks") move around and change topology
 as time passes.

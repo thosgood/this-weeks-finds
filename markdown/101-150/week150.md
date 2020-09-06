@@ -328,7 +328,7 @@ explaining it to you in detail, but I won't....
 
 I've talked a lot about elliptic curves in ["Week 13"](#week13),
 ["Week 125"](#week125) and ["Week 126"](#week126), so I get to
-assume you know about them: an elliptic curve is a 1-dimensional compact
+assume you know about them: an elliptic curve is a $1$-dimensional compact
 complex manifold which is also an abelian group. As such, any elliptic
 curve gives a formal group law. And thus we can wonder if this formal
 group law comes from a complex oriented cohomology theory... and it

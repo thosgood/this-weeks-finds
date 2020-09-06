@@ -186,7 +186,7 @@ First let me set the stage, by reminding you what these look like. A
 
 To visualize it on your own, first imagine a hypercube with vertices
 $$(\pm1,\pm1,\pm1,\pm1)$$
-Then imagine the 4-dimensional analogue of an octahedron --- usually
+Then imagine the $4$-dimensional analogue of an octahedron --- usually
 called a "cross-polytope" --- with vertices
 $$
   \begin{gathered}
@@ -255,7 +255,7 @@ these. It looks like this:
 Here's how you build one. Start with 600 regular tetrahedra. Take 20 of
 them and glue them together so they all meet at one vertex and the
 outside looks just like an icosahedron. Of course you can't do this in
-flat 3-dimensional space: there's "wiggle room" left over when you
+flat $3$-dimensional space: there's "wiggle room" left over when you
 try! So you have to bend the whole setup a little bit into the 4th
 dimension, like a piece of a 4d geodesic dome. Then keep adding more
 tetrahedra, always making sure that 20 meet at each vertex in an

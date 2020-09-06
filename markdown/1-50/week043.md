@@ -39,14 +39,14 @@ In what follows I'll talk about the simplest situation, where we have
 the *vacuum* Einstein equations
 $$G = 0$$
 where $G$ is the "Einstein tensor" cooked up from the curvature of
-spacetime. Say spacetime is of the form $\mathbb{R} \times S$, where $\mathbb{R}$ is the real numbers (time) and $S$ is a 3-dimensional manifold (space). We will think
+spacetime. Say spacetime is of the form $\mathbb{R} \times S$, where $\mathbb{R}$ is the real numbers (time) and $S$ is a $3$-dimensional manifold (space). We will think
 of $S$ as the "$t = 0$ slice" of $\mathbb{R} \times S$.
 
 I) The first stage is to get the space of "kinematical states". In
 the quantum mechanics of a point particle on the line, the space of
 wavefunctions is a space of functions on the real line. Similarly, in
 quantum gravity we naively expect kinematical states to be functions on
-the space of Riemannian metrics on the 3-dimensional manifold $S$ we're
+the space of Riemannian metrics on the $3$-dimensional manifold $S$ we're
 taking to be "space". In the loop representation one does something a
 bit more clever, but let's move on and then come back to that.
 
@@ -89,7 +89,7 @@ part II "diffeomorphism-invariant states"?
 This is a very important question which gives quantum gravity much of
 its curious character. In classical general relativity, $G_{0i}$ not only
 gives one of Einstein's equations, namely $G_{0i}$ = 0, it also
-"generates diffeomorphisms" of the 3-dimensional manifold $S$
+"generates diffeomorphisms" of the $3$-dimensional manifold $S$
 representing space. If you don't quite know what this means, let me
 simply say that in classical mechanics, observables give rise to
 one-parameter families of symmetries. For example, momentum gives rise

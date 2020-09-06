@@ -135,7 +135,7 @@ Lots of the homotopy theory was over my head, alas, but what I
 understood I enjoyed. It may seem sort of odd, but the main thing I got
 out of the homotopy theory conference was an explanation of why the
 number 24 is so important in string theory! In bosonic string theory
-spacetime needs to be 26-dimensional, but subtracting 2 dimensions for
+spacetime needs to be $26$-dimensional, but subtracting 2 dimensions for
 the surface of the string itself we get 24, and it turns out that it's
 really the special properties of the number 24 that make all the magic
 happen.

@@ -590,7 +590,7 @@ Tony Smith wrote:
 >
 > > ... It should be possible to realize \mathrm{E}_6 = \mathrm{SL}(3;O) \[18,24\] on
 > > them in a "spinor-like" manner, much like \mathrm{SO}(10) = \mathrm{SL}(2;O) acts on
-> > its 16-dimensional spinor representations that play the role of
+> > its $16$-dimensional spinor representations that play the role of
 > > homogeneous coordinates for \mathbb{OP}^1 ...
 > >
 > > ...\

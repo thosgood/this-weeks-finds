@@ -21,7 +21,7 @@ representation.
 
 First, recall that general relativity is usually thought of as a theory
 about a metric on spacetime --- more precisely, a Lorentzian metric. Here
-spacetime is a 4-dimensional manifold, and a Lorentzian metric allows
+spacetime is a $4$-dimensional manifold, and a Lorentzian metric allows
 you to calculate the "dot product" of any two tangent vectors at a
 point. This is in quotes because, while a normal dot product might look
 like

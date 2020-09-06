@@ -19,7 +19,7 @@ As I described to some extent in ["Week 44"](#week44) and
 the subject of Donaldson theory by using some physical reasoning to
 radically simplify the computations involved. Donaldson theory has
 always had a lot to do with physics, since it uses the special features
-of of gauge theory in 4 dimensions to obtain invariants of 4-dimensional
+of of gauge theory in 4 dimensions to obtain invariants of $4$-dimensional
 manifolds. So perhaps it is not surprising that physicists have had a
 lot to say about Donaldson theory all along, even before the recent
 Seiberg-Witten revolution. And indeed, at Trieste lots of mathematicians
@@ -35,7 +35,7 @@ very first paper on TQFTs was about Donaldson theory in 4 dimensions:
 1) "Topological quantum field theory", by Edward Witten, _Comm. Math. Phys._ **117** (1988) 353.
 
 Only later did Witten turn to the comparatively easier case of
-Chern-Simons theory, which is a 3-dimensional TQFT:
+Chern-Simons theory, which is a $3$-dimensional TQFT:
 
 2) "Quantum field theory and the Jones polynomial", by Edward Witten, _Comm. Math. Phys._ **121** (1989) 351.
 

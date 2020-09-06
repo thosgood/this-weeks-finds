@@ -95,17 +95,17 @@ kinds of spinors, see ["Week 93"](#week93).)
 Okay. The Standard Model lumps the left-handed neutrino and the
 left-handed electron into a single irreducible representation of $\mathrm{SU}(3)\times\mathrm{SU}(2)\times\mathrm{U}(1)$:
 $$(\nu_L,\mathrm{e}_L) \qquad\qquad (1,2,-1)$$
-This 2-dimensional representation is called $(1,2,-1)$, meaning that it's
-the tensor product of the 1-dimensional trivial rep of $\mathrm{SU}(3)$, the
-2-dimensional fundamental rep of $\mathrm{SU}(2)$, and the 1-dimensional rep of
+This $2$-dimensional representation is called $(1,2,-1)$, meaning that it's
+the tensor product of the $1$-dimensional trivial rep of $\mathrm{SU}(3)$, the
+2-dimensional fundamental rep of $\mathrm{SU}(2)$, and the $1$-dimensional rep of
 $\mathrm{U}(1)$ with hypercharge $-1$.
 
 Similarly, the left-handed up and down quarks fit together as:
 $$(\mathrm{u}_L, \mathrm{u}_L, \mathrm{u}_L, \mathrm{d}_L, \mathrm{d}_L, \mathrm{d}_L) \qquad\qquad (3,2,1/3)$$
 Here I'm writing both quarks 3 times since they also come in 3 color
-states. In other words, this 6-dimensional representation is the tensor
-product of the 3-dimensional fundamental rep of $\mathrm{SU}(3)$, the 2-dimensional
-fundamental rep of $\mathrm{SU}(2)$, and the 1-dimensional rep of $\mathrm{U}(1)$ with
+states. In other words, this $6$-dimensional representation is the tensor
+product of the $3$-dimensional fundamental rep of $\mathrm{SU}(3)$, the $2$-dimensional
+fundamental rep of $\mathrm{SU}(2)$, and the $1$-dimensional rep of $\mathrm{U}(1)$ with
 hypercharge $1/3$. That's why we call this rep $(3,2,1/3)$.
 
 (If you are familiar with the irreducible representations of $\mathrm{U}(1)$ you
@@ -115,10 +115,10 @@ charge of the electron to be $-1$ before quarks were discovered, at which
 point it turned out that the smallest unit of charge was $1/3$ as big as
 had been previously believed.)
 
-The right-handed electron stands alone in a 1-dimensional rep, since
+The right-handed electron stands alone in a $1$-dimensional rep, since
 there is no right-handed neutrino:
 $$\mathrm{e}_R \qquad\qquad (1,1,-2).$$
-Similarly, the right-handed up quark stands alone in a 3-dimensional
+Similarly, the right-handed up quark stands alone in a $3$-dimensional
 rep, as does the right-handed down quark:
 $$(\mathrm{u}_R,\mathrm{u}_R,\mathrm{u}_R) \qquad\qquad (3,1,4/3)$$
 $$(\mathrm{d}_R,\mathrm{d}_R,\mathrm{d}_R) \qquad\qquad (3,1,-2/3)$$
@@ -142,7 +142,7 @@ diagonal way, leaving just enough room to cram in the $\mathrm{U}(1)$ if you are
 clever.
 
 Now if you add up the dimensions of all the representations above you
-get $2 + 6 + 1 + 3 + 3 = 15$. This means we need to find a 15-dimensional
+get $2 + 6 + 1 + 3 + 3 = 15$. This means we need to find a $15$-dimensional
 representation of $\mathrm{SU}(5)$ to fit all these particles. There are various
 choices, but only one that really works when you take all the physics
 into account. For a nice simple account of the detective work needed to
@@ -150,7 +150,7 @@ figure this out, see:
 
 1) Edward Witten, "Grand unification with and without supersymmetry", in _Introduction to supersymmetry in particle and nuclear physics_, edited by O. Castanos, A. Frank, L. Urrutia, Plenum Press, 1984.
 
-I'll just give the answer. First we take the 5-dimensional fundamental
+I'll just give the answer. First we take the $5$-dimensional fundamental
 representation of $\mathrm{SU}(5)$ and pack fermions in as follows:
 $$(\mathrm{d}_R, \mathrm{d}_R, \mathrm{d}_R, \mathrm{e}^+_R, \bar{\nu}_R) \qquad\qquad 5 = (3,1,-2/3) + (1,2,-1)$$
 
@@ -170,7 +170,7 @@ work! In a sense, the $\mathrm{SU}(5)$ model says that quarks *must* have charge
 in units of $1/3$, because they come in 3 different colors! This is pretty
 cool.
 
-Then we take the 10-dimensional representation of $\mathrm{SU}(5)$ given by the 2nd
+Then we take the $10$-dimensional representation of $\mathrm{SU}(5)$ given by the 2nd
 exterior power of the fundamental representation --- i.e., antisymmetric
 $5\times5$ matrices - and pack the rest of the fermions in like this:
 $$
@@ -208,7 +208,7 @@ exploring still larger gauge groups. In 1975 Georgi, and independently
 Fritzsch and Minkowski, proposed a model with gauge group $\mathrm{SO}(10)$. You
 can stuff $\mathrm{SU}(5)$ into $\mathrm{SO}(10)$ as a subgroup in such a way that the 5- and
 10-dimensional representations of $\mathrm{SU}(5)$ listed above both fit into a
-single 16-dimensional rep of $\mathrm{SO}(10)$, namely the chiral spinor rep. Yes,
+single $16$-dimensional rep of $\mathrm{SO}(10)$, namely the chiral spinor rep. Yes,
 16, not 15 --- that wasn't a typo! The $\mathrm{SO}(10)$ theory predicts that in
 addition to the 15 states listed above there is a 16th, corresponding to
 a right-handed neutrino! I'm not sure yet how the recent experiments

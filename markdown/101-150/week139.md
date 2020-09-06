@@ -216,7 +216,7 @@ his work with Louis Crane on Lorentzian spin foam models --- but more
 about that next week!
 
 Anyway, here's how the Hamber-Williams paper goes, very roughly. They
-simulate quantum gravity by chopping up a 4-dimensional torus into
+simulate quantum gravity by chopping up a $4$-dimensional torus into
 $16\times16\times16\times16$ hypercubes, chopping each hypercube into 24 4-simplices in
 the obvious way, and then doing a Monte Carlo calculation of the path
 integral using the Regge calculus, which is a discretized version of

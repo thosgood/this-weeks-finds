@@ -38,7 +38,7 @@ Huh? "$10j$ symbols"??
 Well, as with any quantum field theory, the key to the Barrett-Crane
 model is the partition function. In the Riemannian version of this
 theory, you compute the partition function as follows. First you take
-your 4-dimensional manifold representing spacetime and triangulate it.
+your $4$-dimensional manifold representing spacetime and triangulate it.
 Then you label all the triangles by spins $j = 0, 1/2, 1, 3/2, \ldots$.
 Following certain specific formulas you then calculate a number for each
 4-simplex, a number for each tetrahedron, and a number for each

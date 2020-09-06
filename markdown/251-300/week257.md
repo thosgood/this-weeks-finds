@@ -130,7 +130,7 @@ x^2 + y^3 = 1
 and look at the real solutions, we get a curve in the plane - a "real
 curve". If we look at the complex solutions, we get something bigger.
 People call it a "complex curve", because it's analogous to a real
-curve. But topologically, it's 2-dimensional.
+curve. But topologically, it's $2$-dimensional.
 
 If we use polynomial equations with more variables, we get
 higher-dimensional shapes called "algebraic varieties" - either real
@@ -279,7 +279,7 @@ generalizes this to primes!
 
 But I want to understand the basics...
 
-The secret 3-dimensional nature of the integers and certain other
+The secret $3$-dimensional nature of the integers and certain other
 "rings of algebraic integers" seems to go back at least to the work of
 Artin and Verdier:
 
@@ -884,7 +884,7 @@ And here's the paper by Dunfield and Thurston:
 
 On the *n*-Category Café, a number theorist named James corrected some
 serious mistakes in the original version of this Week's Finds. Here are
-his remarks on why Spec(Z) is 3-dimensional:
+his remarks on why Spec(Z) is $3$-dimensional:
 
 > So then why should there be the two dimensions of primes needed to
 > make Spec(Z) three-dimensional? I don't think there is a pure-thought

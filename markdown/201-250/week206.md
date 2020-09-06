@@ -17,7 +17,7 @@ considerably more than at any previous meeting. But most of all, it was
 good to see some progress on the tough problem of understanding dynamics
 in nonperturbative quantum gravity.
 
-Can we get the 4-dimensional spacetime we know and love, whose geometry
+Can we get the $4$-dimensional spacetime we know and love, whose geometry
 is described by general relativity, to emerge from some theory that
 takes quantum physics into account? And can we do it
 *nonperturbatively?*
@@ -102,7 +102,7 @@ just a path in space; to average over all histories is to integrate over
 all paths - hence the term "path integral". But in quantum gravity, a
 history is nothing other than a SPACETIME.
 
-Mathematically, a "spacetime" is something like a 4-dimensional
+Mathematically, a "spacetime" is something like a $4$-dimensional
 manifold equipped with a Lorentzian metric. But it's hard to integrate
 over all of these - there are just too darn many. So, sometimes people
 instead treat spacetime as made of little discrete building blocks,
@@ -201,7 +201,7 @@ spacetime built by sticking together a bunch of 4-simplices!
 
 The new work by Ambjorn, Jurkiewiecz and Loll deals with this by
 restricting to spacetimes that *do* have a time coordinate. More
-precisely, they fix a 3-dimensional manifold and consider all possible
+precisely, they fix a $3$-dimensional manifold and consider all possible
 triangulations of this manifold by regular tetrahedra. These are the
 allowed "slices" of spacetime - they represent different possible
 geometries of space at a given time. They then consider spacetimes

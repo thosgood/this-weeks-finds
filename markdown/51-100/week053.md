@@ -31,7 +31,7 @@ example is addition: we have a bunch of sticks in a row:
 $$\vert\vert\vert\vert\vert$$
 and we say there are "5" sticks and write
 $$1+1+1+1+1=5.$$
-Fine. But when we have a 2-dimensional array of sticks:
+Fine. But when we have a $2$-dimensional array of sticks:
 $$\begin{gathered}\vert\vert\vert\vert\\\vert\vert\vert\vert\end{gathered}$$
 
                             ||||
@@ -68,8 +68,8 @@ which are "processes leading from one process to another", and then
 
 In physics and topology applications, the $k$-morphisms can often be
 thought of as $k$-dimensional geometrical objects, since (as the Greeks
-knew) the process of motion of a point traces out a 1-dimensional
-figure, and similarly the motion of a 1-dimensional figure traces out a
+knew) the process of motion of a point traces out a $1$-dimensional
+figure, and similarly the motion of a $1$-dimensional figure traces out a
 2-dimensional surface... and $n$-dimensional spacetime is in some rough
 sense "traced out" by the motion of $(n-1)$-dimensional spacelike slices
 through time. If you think this is vague, you're right --- and
@@ -102,7 +102,7 @@ That is, in topological quantum field theory, the $n$-morphisms in an
 $n$-category, which are the processes having no further processes going
 between them, represent the passage of time. And indeed, for many
 practical purposes it appears that $n = 4$ is where things leave off,
-since spacetime appears 4-dimensional. On the other hand, nobody knows
+since spacetime appears $4$-dimensional. On the other hand, nobody knows
 any mathematical reason why one has to stop at any given $n$. So
 ultimately we should try to understand "$\omega$-categories", having
 $n$-morphisms for all $n$ greater than or equal to zero (0-morphisms being

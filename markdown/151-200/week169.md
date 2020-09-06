@@ -620,12 +620,12 @@ algebras". These are modelled, not after the normed division algebras
 themselves, but after their "imaginary parts". These have both an
 inner product and a "vector product".
 
-For example, the imaginary quaternions form a 3-dimensional vector
+For example, the imaginary quaternions form a $3$-dimensional vector
 product algebra with vector product given by
 $$a\times b = \frac12(ab - ba).$$
 This is just the usual cross product! The same formula makes the
-imaginary octonions into a 7-dimensional vector product algebra, the
-imaginary complex numbers into a boring 1-dimensional one... and the
+imaginary octonions into a $7$-dimensional vector product algebra, the
+imaginary complex numbers into a boring $1$-dimensional one... and the
 imaginary real numbers into an even more boring 0-dimensional one.
 
 Boos writes down the axioms for a vector product algebra using pictures

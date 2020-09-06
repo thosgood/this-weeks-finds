@@ -109,9 +109,9 @@ Calling M-theory a "theory" is a bit misleading, because nobody knows
 what this theory is! There's just a lot of clues pointing to its
 existence. It seems to be the quantum version of a well-defined
 classical field theory called "11-dimensional supergravity". And, it
-seems to involve 2-branes and 5-branes: 2- and 5-dimensional membranes
-that trace out 3- and 6-dimensional surfaces in spacetime, just like
-strings trace out 2-dimensional surfaces.
+seems to involve 2-branes and 5-branes: 2- and $5$-dimensional membranes
+that trace out 3- and $6$-dimensional surfaces in spacetime, just like
+strings trace out $2$-dimensional surfaces.
 
 Back in ["Week 158"](#week158) I wrote down a Lagrangian for 11d
 supergravity. This is a truly monstrous thing involving three fields:
@@ -387,11 +387,11 @@ For the particular one Urs mentions, we have
     {1-chains} = {0}
     {2-chains} = R
 
-Here R is the real numbers, and this 1-dimensional thing is what
+Here R is the real numbers, and this $1$-dimensional thing is what
 ultimately gives the 3-form field A in 11d supergravity. As a vector
 space, the 11d Poincaré Lie superalgebra is the direct sum of an even
-part, which is the usual Poincaré Lie algebra i\mathfrak{so}(11,1), and an odd
-part, which is the 32-dimensional real spinor rep of \mathfrak{so}(11,1). These
+part, which is the usual Poincaré Lie algebra \mathfrak{iso}(11,1), and an odd
+part, which is the $32$-dimensional real spinor rep of \mathfrak{so}(11,1). These
 give the graviton (or more precisely the Levi-Civita connection) and the
 gravitino in 11d supergravity.
 

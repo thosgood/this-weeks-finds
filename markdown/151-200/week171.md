@@ -144,7 +144,7 @@ three edges coming out of them. If you click on the button that says
 generically consists of a bunch of triangles. Each edge of these
 triangles intersects exactly one edge of the Voronoi diagram.
 
-In the theory of quantum gravity where space is just 2-dimensional (a
+In the theory of quantum gravity where space is just $2$-dimensional (a
 toy model), we can take the Voronoi diagram and label its edges by spins
 $j = 0, 1/2, 1, \ldots$ which match, as well as possible, the lengths of the
 edge of the Delaunay triangulation which it intersects. This will give

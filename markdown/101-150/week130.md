@@ -220,10 +220,10 @@ Unified Theory". I sketched the basic ideas of the $\mathrm{SU}(5)$ and $\mathrm
 grand unified theories in ["Week 119"](#week119). Recall that in
 the $\mathrm{SU}(5)$ theory, the left-handed parts of all fermions of a given
 generation fit into two irreducible representations of $\mathrm{SU}(5)$ --- a
-5-dimensional rep and a 10-dimensional rep. For example, for the first
-generation, the 5-dimensional rep consists of the left-handed down
+5-dimensional rep and a $10$-dimensional rep. For example, for the first
+generation, the $5$-dimensional rep consists of the left-handed down
 antiquark (which comes in 3 colors), the left-handed electron, and the
-left-handed electron neutrino. The 10-dimensional rep consists of the
+left-handed electron neutrino. The $10$-dimensional rep consists of the
 left-handed up quark, down quark, and up antiquark (which come in 3
 colors each), together with the left-handed positron.
 

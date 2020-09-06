@@ -52,7 +52,7 @@ representation of a more sophisticated algebraic structure, a
 of thing in which there are objects, 1-morphisms between objects,
 2-morphisms between morphisms, and so on up to $n$-morphisms. In a
 "cobordism $n$-category" the objects are 0-manifolds, the 1-morphisms
-are 1-dimensional manifolds that go between 0-manifolds (as the unit
+are $1$-dimensional manifolds that go between 0-manifolds (as the unit
 interval goes from one endpoint to another), the 2-morphisms are
 2-dimensional manifolds that go between 1-manifolds (as a cylinder goes
 from on circle to another), etc. In practice one must work with
@@ -216,7 +216,7 @@ the fundamental groupoid", in _Recent developments of algebraic topology_, RIMS 
 
     H.J.Baues, _Algebraic homotopy_, Cambridge University Press, 1989.
 
-    H.J.Baues, _Combinatorial homotopy and 4-dimensional complexes_, De Gruyter, 1991.
+    H.J.Baues, _Combinatorial homotopy and $4$-dimensional complexes_, De Gruyter, 1991.
 
     L.Breen, Bitorseurs et cohomologie non-Abélienne, _The Grothendieck Festschrift: a collection of articles written in honour of the 60th birthday of Alexander Grothendieck, Vol. I_, edited P.Cartier, et al., Birkhauser, Boston, Basel, Berlin, 401-476, 1990.
 

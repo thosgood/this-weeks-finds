@@ -6,7 +6,7 @@ his own book, "Knots and Physics." Right now I'd like to talk about
 the second volume, by Carter. I got to know Carter and Saito when it
 started seeming that a deeper understanding of string theory and the
 loop representation of quantum gravity might require understanding how
-2-dimensional surfaces can be embedded in 4-dimensional spacetime. The
+2-dimensional surfaces can be embedded in $4$-dimensional spacetime. The
 study of this subject quickly leads into some very fascinating algebra,
 such as the "Zamolodchikov tetrahedron equations" (which first
 appeared in string theory). A nice review of this subject and their work
@@ -121,7 +121,7 @@ classification of surfaces as puzzles at the end of this article.
 Now, the intrinsic topology of surfaces considers them as abstract
 spaces in their own right, but the "extrinsic topology" of them
 considers the ways they may be mapped into other spaces --- for example,
-3- or 4-dimensional Euclidean space. And here things get much more
+3- or $4$-dimensional Euclidean space. And here things get much more
 interesting and subtle. For example, while one can embed any orientable
 surface in 3d space, one cannot embed any of the nonorientable ones.
 Here an embedding is a 1-1 continuous map. However, one can immerse the

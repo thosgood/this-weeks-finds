@@ -70,7 +70,7 @@ of the (integral) homology 3-sphere. So there appears to be a budding
 branch of "perturbative 3-manifold invariant theory". I just wish I
 understood better what's really going on behind all this!
 
-3) Thomas Friedrich, "Neue Invarianten der 4-dimensionalen Mannigfaltigkeiten", Berlin preprint.
+3) Thomas Friedrich, "Neue Invarianten der $4$-dimensionalen Mannigfaltigkeiten", Berlin preprint.
 
 This is a nice introduction to the new Seiberg-Witten approach to
 Donaldson theory, which does not assume you already know the old stuff

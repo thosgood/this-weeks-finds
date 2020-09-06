@@ -7,7 +7,7 @@ I got a copy of the following paper when I showed up in Warsaw:
 and then I spent a fair amount of time reading it and thinking about it
 throughout the conference. If the big hypothesis formulated in this
 paper is correct, I think we are on the verge of having a really
-beautiful theory of 4-dimensional quantum gravity, at least given
+beautiful theory of $4$-dimensional quantum gravity, at least given
 certain boundary conditions. Mind you, I just mean a really beautiful
 theory, not necessarily a physically correct theory. But beautiful
 theories have a certain tendency to be right, or at least close, so let
@@ -134,7 +134,7 @@ out there to whom it's perfectly obvious, because it's not really all
 that complicated, but unfortunately none of these people has ever
 explained it. Let me briefly say, for those who know about such things,
 that it all comes down to the fact that the Chern-Simons action was
-*born* as a 3-dimensional spinoff of a 4-dimensional thing called the
+*born* as a $3$-dimensional spinoff of a $4$-dimensional thing called the
 2nd Chern class. (If you want more details, I explained this as well as
 I could at the time in [`knot.tex`](http://math.ucr.edu/home/baez/knot.tex).)
 
@@ -204,7 +204,7 @@ that's the state of the universe.
 
 Being a conservative fellow myself, I prefer to remain agnostic on this
 issue, but I did write a paper showing how, if you assumed that space,
-the manifold above I called $S$, is a 3-dimensional sphere --- a so-called
+the manifold above I called $S$, is a $3$-dimensional sphere --- a so-called
 $S^3$ --- then if quantum gravity was in the Chern-Simons state, there
 would be very nice Hilbert spaces of "relative states" on each
 "half" of space. The relative state notion is often associated with

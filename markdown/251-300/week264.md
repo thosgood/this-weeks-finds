@@ -396,7 +396,7 @@ example, you can put any connection on the bundle, compute its curvature
 2-form, and integrate it over the torus: up to some constant factor,
 you'll get the first Chern number.
 
-A torus is a 2-dimensional manifold, but we can also make it into a
+A torus is a $2$-dimensional manifold, but we can also make it into a
 1-dimensional *complex* manifold, often called an "elliptic curve". In
 fact we can do this in infinitely many fundamentally different ways, one
 for each point in the "moduli space of elliptic curves". I've
@@ -462,7 +462,7 @@ that I'm just thinking about math, it sticks out like a sore thumb!
 It's got to be right, since the line bundle with first Chern number
 zero is the trivial bundle, its sections are just functions, and the
 only holomorphic functions on a compact complex manifold are constants -
-so there's a 1-dimensional space of them. But, it's weird.
+so there's a $1$-dimensional space of them. But, it's weird.
 
 Luckily, Jim figured out the explanation for this sequence. First of
 all, we can encode it into a power series:

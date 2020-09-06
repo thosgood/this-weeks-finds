@@ -41,7 +41,7 @@ quickly crack all the current best encryption schemes.
 **2. The Poincaré conjecture**
 
 Spheres are among the most fundamental topological spaces, but spheres
-hold many mysteries. For example: is every 3-dimensional manifold with
+hold many mysteries. For example: is every $3$-dimensional manifold with
 the same homotopy type as a 3-sphere actually homeomorphic to a
 3-sphere? Or for short: are homotopy 3-spheres really 3-spheres?
 Poincaré posed this puzzle in 1904 shortly after he knocked down an
@@ -50,7 +50,7 @@ groups as 3-spheres that weren't really 3-spheres. The
 higher-dimensional analogues of Poincaré's question have all been
 settled in the affirmative --- Smale, Stallings and Wallace solved it in
 dimensions 5 and higher, and Freedman later solved the subtler
-4-dimensional case --- but the 3-dimensional case is still unsolved. This
+4-dimensional case --- but the $3$-dimensional case is still unsolved. This
 is an excellent illustration of a fact that may seem surprising at
 first: many problems in topology are toughest in fairly low dimensions!
 The reason is that there's less "maneuvering room". The last couple

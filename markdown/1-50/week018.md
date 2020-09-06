@@ -113,7 +113,7 @@ Here's what I wound up saying:
 > attempted to derive equations of string dynamics as an approximation
 > to the Yang-Mills equation, using Wilson loops. More recently, D.
 > Gross and others have been able to *exactly* reformulate Yang-Mills
-> theory in 2-dimensional spacetime as a string theory by writing an
+> theory in $2$-dimensional spacetime as a string theory by writing an
 > asymptotic series for the vacuum expectation values of Wilson loops as
 > a sum over maps from surfaces (the string worldsheet) to spacetime.
 > This development raises the hope that other gauge theories might also

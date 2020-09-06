@@ -93,7 +93,7 @@ quite easy to read given the technical nature of the subject.
 This is a nice review of recent work on 2d Yang-Mills theory. While
 Yang-Mills theory in 4 dimensions is the basis of our current theories
 of the strong, weak, and electromagnetic forces, and mathematically
-gives rise to a cornucopia of deep results about 4-dimensional topology,
+gives rise to a cornucopia of deep results about $4$-dimensional topology,
 2d Yang-Mills theory has traditionally been considered "trivial" in
 that one can exactly compute pretty much whatever one wants. However,
 Witten, in "On quantum gauge theories in two dimensions" (see

@@ -201,7 +201,7 @@ a Hilbert space. And we will invent a nice sort of "linear" functor
 between these, and all such functors will have adjoints. Furthermore, in
 this situation all left adjoints will also be right adjoints... fixing
 another funny discrepancy. And these 2-Hilbert spaces turn out to be
-closely related to 2-dimensional topological quantum field theories (in
+closely related to $2$-dimensional topological quantum field theories (in
 general, $n$-Hilbert spaces appear to be related to $n$-dimensional TQFTs),
 as well as some interesting aspects of group representation theory.
 

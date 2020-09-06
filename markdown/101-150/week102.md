@@ -312,10 +312,10 @@ under addition, these form a monoidal category (see
 here is disjoint union, which we can denote with a plus sign if we like.
 Similarly, we can write the empty set as 0.
 
-Above it looks like I'm drawing a 1-dimensional tangle in 2-dimensional
+Above it looks like I'm drawing a $1$-dimensional tangle in $2$-dimensional
 space. To understand the "commutativity" of the categorified integers
-we should work with 1-dimensional tangles in higher-dimensional space.
-If we consider them in 3-dimensional space, we have room to switch
+we should work with $1$-dimensional tangles in higher-dimensional space.
+If we consider them in $3$-dimensional space, we have room to switch
 things around:
 $$
   \begin{tikzpicture}
@@ -354,7 +354,7 @@ $$
   \end{tikzpicture}
 $$
 To get rid of this problem (if you consider it a problem) we can work
-with 1-dimensional tangles in 4-dimensional space, where we can deform
+with $1$-dimensional tangles in $4$-dimensional space, where we can deform
 the first way of switching things to the second. We get a "symmetric"
 monoidal category. Working in higher dimensions doesn't change
 anything: things have stabilized.
@@ -478,7 +478,7 @@ $$
   \end{tikzpicture}
 $$
 to the identity morphism. This 2-morphism has a nice geometrical
-description in terms of a 2-dimensional surface: the surface in 3d space
+description in terms of a $2$-dimensional surface: the surface in 3d space
 that's traced out as the above picture shrinks down to the empty
 picture. It's hard to draw, but let me try:
 $$

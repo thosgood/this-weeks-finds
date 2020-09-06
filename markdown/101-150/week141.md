@@ -174,7 +174,7 @@ $$f_x(y) = x^n y x^m$$
 for any pair of integers $(n,m)$.
 
 This gives us a bunch of $S^3$-bundles over $S^4$. The total space $X(n,m)$
-of any one of these bundles is obviously a smooth 7-dimensional
+of any one of these bundles is obviously a smooth $7$-dimensional
 manifold. But when is it homeomorphic to the 7-sphere? And when is it
 *diffeomorphic* to the 7-sphere with its usual smooth structure?
 

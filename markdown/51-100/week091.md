@@ -61,7 +61,7 @@ half-integers. Here I'm using physics jargon, and referring to any
 number that's an integer plus $1/2$ as a "half-integer". A half-integer
 is *not* any number that's half an integer!
 
-You can think of this lattice as the 4-dimensional version of all the
+You can think of this lattice as the $4$-dimensional version of all the
 black squares on a checkerboard. One neat thing is that if you multiply
 any two guys in this lattice you get another guy in this lattice, so we
 have a "subring" of the quaternions. Another neat thing is that if you
@@ -78,7 +78,7 @@ usual vector cross product... or alternatively, as automorphisms and
 antiautomorphisms of the Lie algebra $\mathfrak{so}(3)$. From that we got an action
 as automorphisms and antiautomorphisms of the quaternions and the
 Hurwitz integral quaternions. But the Hurwitz integral quaternions are
-just a differently coordinatized version of the 4-dimensional lattice
+just a differently coordinatized version of the $4$-dimensional lattice
 $D_4$! So we have gotten triality to act as symmetries of the $D_4$
 lattice, and hence as automorphisms of the Lie algebra $D_4$, or in other
 words $\mathfrak{so}(8)$, the Lie algebra of infinitesimal rotations in 8 dimensions.

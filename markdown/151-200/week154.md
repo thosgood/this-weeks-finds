@@ -60,7 +60,7 @@ field theories on its "boundary at infinity".
 This one is ancient history by now, but it's still near the top of the
 list! For mathematicians, this paper marked the birth of Seiberg-Witten
 theory as a substitute for Donaldson theory when it comes to the study
-of 4-dimensional smooth manifolds. (See ["Week 44"](#week44) and
+of $4$-dimensional smooth manifolds. (See ["Week 44"](#week44) and
 ["Week 45"](#week45).) But for physicists, it highlighted the
 growing importance of "dualities" relating seemingly different
 physical theories --- of which the AdS-CFT craze is a more recent
@@ -70,10 +70,10 @@ outgrowth.
 
 This paper was also important in the quest to understand dualities:
 among other things, it argued that the type IIA superstring in 10
-dimensions is related to 11-dimensional supergravity --- reduced to 10
+dimensions is related to $11$-dimensional supergravity --- reduced to 10
 dimensions by curling up one dimension into a very *large* circle. And
 as I described in ["Week 118"](#week118), this helped lead to the
-search for "M-theory", of which 11-dimensional supergravity is hoped
+search for "M-theory", of which $11$-dimensional supergravity is hoped
 to be a low-energy limit.
 
 6) Edward Witten, "Anti-DeSitter space and holography", _Adv. Theor. Math. Phys._ **2** (1998) 253--291, preprint available as [`hep-th/9802150`](https://arxiv.org/abs/hep-th/9802150).
@@ -189,11 +189,11 @@ I also saw this book at a book fair:
 
 18) Dominic Joyce, _Compact Manifolds with Special Holonomy_, Oxford U. Press, Oxford, 2000.
 
-There's some incredible stuff here about 7-dimensional Riemannian
+There's some incredible stuff here about $7$-dimensional Riemannian
 manifolds whose holonomy groups lie in the exceptional Lie group $\mathrm{G}_2$. I
 bet this stuff is gonna be important in string theory someday --- if it
 isn't already. After all, $\mathrm{G}_2$ is the automorphism group of the
-octonions, and it has a 7-dimensional irreducible representation on the
+octonions, and it has a $7$-dimensional irreducible representation on the
 imaginary octonions; as explained in ["Week 104"](#week104) by
 Robert Helling, the octonions are secretly what let you write down the
 superstring Lagrangian in 10d spacetime.
@@ -241,16 +241,16 @@ the following interesting comments:
 
 > John Baez wrote:
 
-> > There's some incredible stuff here about 7-dimensional Riemannian
+> > There's some incredible stuff here about $7$-dimensional Riemannian
 > > manifolds whose holonomy groups lie in the exceptional Lie group $\mathrm{G}_2$.  
 > > I bet this stuff is gonna be important in string theory someday --- if it
 > > isn't already.  
 
 > They are important!
 
-> If you want to directly compactify 11-dimensional supergravity/M-theory 
+> If you want to directly compactify $11$-dimensional supergravity/M-theory 
 > to a theory with $N=1$ supersymmetry in 4 dimensions, which is what people 
-> like for phenomenological reasons, you need a 7-dimensional manifold
+> like for phenomenological reasons, you need a $7$-dimensional manifold
 > of $\mathrm{G}_2$ holonomy (just as you need manifolds of $\mathrm{SU}(3)$ holonomy, i.e.
 > Calabi-Yau manifolds, in six dimensions).  I have seen these referred 
 > to as "Joyce manifolds," after Dominic Joyce, who constructed several 

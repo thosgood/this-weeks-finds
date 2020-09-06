@@ -136,15 +136,15 @@ simple to ponder:
     flows only along surfaces, like the $x$-$t$ plane in the example above, and
     these different surfaces don't really talk to each other very much.
     It's as if the world was split up (or in math jargon, foliated) into
-    lots of different 2-dimensional worlds, which didn't know about each
+    lots of different $2$-dimensional worlds, which didn't know about each
     other. Jacobson showed that in this case, the equations of general
     relativity (extended in a certain way to degenerate inverse metrics)
     boil down to saying that there are two kinds of massless spin-$1/2$
-    particle living on all these 2-dimensional worlds.
+    particle living on all these $2$-dimensional worlds.
 
     This got me quite excited because it reminded me of string theory, which
     is all about massless particles (or in physics jargon, conformal fields)
-    living on the 2-dimensional string worldsheet. I am always hunting
+    living on the $2$-dimensional string worldsheet. I am always hunting
     around for relationships between string theory and the loop
     representation of quantum gravity, and I think this is an important
     clue. The reason is that I think the loop representation can be thought
@@ -200,14 +200,14 @@ simple to ponder:
     $$
     In other words, where the speed of light is zero only in the $z$
     direction. Basically what happens is that spacetime gets foliated with a
-    lot of 3-dimensional slices, and on each one you get the equations of
-    3-dimensional general relativity.
+    lot of $3$-dimensional slices, and on each one you get the equations of
+    $3$-dimensional general relativity.
 
-- **Friday, July 26th** --- Thomas Strobl spoke on 2-dimensional gravity. I
+- **Friday, July 26th** --- Thomas Strobl spoke on $2$-dimensional gravity. I
     don't understand his work well enough yet to have anything much to say,
     but the most interesting thing about it to *me* is that it allows one to
     see how quantum groups emerge from the $G/G$ gauged Wess-Zumino-Witten
-    model (a certain 2-dimensional topological quantum field theory), by
+    model (a certain $2$-dimensional topological quantum field theory), by
     describing this theory as the quantization of a Poisson $\sigma$-model --- a
     field theory where the fields take values in a Poisson manifold. For
     more, try:

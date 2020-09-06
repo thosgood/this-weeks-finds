@@ -138,8 +138,8 @@ which is a gauge theory. So, he guesses that the one exceptional theory
 is the right one!
 
 And this is a very famous conformal field theory. It's a theory of a
-bosonic string wiggling around in a 26-dimensional spacetime curled up
-in clever way with the help of a 24-dimensional lattice called the Leech
+bosonic string wiggling around in a $26$-dimensional spacetime curled up
+in clever way with the help of a $24$-dimensional lattice called the Leech
 lattice. This theory is famous because its symmetry group is the Monster
 group! It is, in fact, the simplest thing we know that has the Monster
 group as symmetries.
@@ -296,7 +296,7 @@ and how they could be related to the Standard Model.
 First, some history. In 1887, Wilhelm Killing sent a letter to Friedrich
 Engel saying he'd classified the simple Lie algebras. Besides the
 "classical" ones - namely the infinite series \mathfrak{sl}(n,C), \mathfrak{so}(n,C) and
-sp(n,C) - he found 6 exceptions: a 14-dimensional one, two
+sp(n,C) - he found 6 exceptions: a $14$-dimensional one, two
 52-dimensional ones, a 78-dimensional one, a 133-dimensional one and a
 248-dimensional one.
 
@@ -642,7 +642,7 @@ functions on Y - a "Hecke operator".
     flatlanders".
 
     Suppose you want to obtain a complete image of the insides of a
-    2-dimensional person, but all you can do is shine beams of X-rays
+    $2$-dimensional person, but all you can do is shine beams of X-rays
     through them and see how much each beam is attenuated.
 
     So, mathematically: you have a real-valued function on the plane -

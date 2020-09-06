@@ -563,7 +563,7 @@ treated as morphisms.
 
 We've talked about 1-chains and 0-chains... but we can also back up
 and talk about 2-chains! Let's suppose our graph is connected - it is
-in our example - and let's fill it in with enough 2-dimensional
+in our example - and let's fill it in with enough $2$-dimensional
 "faces" to get something contractible. We can do this in a god-given
 way if our graph is drawn on the plane: just fill in all the holes!
 

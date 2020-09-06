@@ -155,7 +155,7 @@ $$K(\mathbb{Z},2) = \mathbb{CP}^\infty$$
 where $\mathbb{CP}^\infty$ is infinite-dimensional complex projective space. There are
 a couple of slightly different versions of this. Topologists like to
 start with the direct limit of the spaces $\mathbb{C}^n$, which they call $C^\infty$.
-Then they take the space of all 1-dimensional subspaces and call that
+Then they take the space of all $1$-dimensional subspaces and call that
 $\mathbb{CP}^\infty$. Mathematical physicists prefer to start with a Hilbert space of
 countable dimension. Then they take the space of unit vectors modulo
 phase. Both these versions are equally good models of $K(\mathbb{Z},2)$. The first

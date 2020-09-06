@@ -216,7 +216,7 @@ finesse. For the details, read the papers.
 
 As Corinne Manogue explained to me, this relation between the octonions
 and Lorentz transformations in 10 dimensions suggests some interesting
-ways to use octonions in 10-dimensional physics. As we all know, the
+ways to use octonions in $10$-dimensional physics. As we all know, the
 10th dimension is where string theorists live. There is also a nice
 relation to Geoffrey Dixon's theory. This theory relates the
 electromagnetic force to the complex numbers, the weak force to the
@@ -240,11 +240,11 @@ birds with one stone. If we pick a particular unit imaginary octonion,
 we get a copy of the complex numbers sitting inside the octonions, so we
 get a copy of $\mathfrak{sl}(2,\mathbb{C})$ sitting inside $\mathfrak{sl}(2,\mathbb{O})$, so we get a copy of
 $\mathfrak{so}(3,1)$ sitting inside $\mathfrak{so}(9,1)$! In other words, we get a particular copy
-of the good old 4-dimensional Lorentz group sitting inside the
+of the good old $4$-dimensional Lorentz group sitting inside the
 10-dimensional Lorentz group. So fixing a unit imaginary octonion not
 only breaks the octonion symmetry group $\mathrm{G}_2$ down to the strong force
-symmetry group $\mathrm{SU}(3)$, it might also get us from 10-dimensional physics
-down to 4-dimensional physics.
+symmetry group $\mathrm{SU}(3)$, it might also get us from $10$-dimensional physics
+down to $4$-dimensional physics.
 
 Cool, no? There are obviously a lot of major issues involved in turning
 this into a full-fledged theory, and they might not work out. The whole

@@ -9,7 +9,7 @@ fundamental equation of M-theory", or anything like that. There are
 some conjectures about what M-theory might be like, but no solid
 agreement.
 
-One thing that *does* exist is 11-dimensional supergravity. This is
+One thing that *does* exist is $11$-dimensional supergravity. This is
 supposed to be some kind of classical limit of M-theory. But the good
 thing is, it's a classical field theory with a Lagrangian that you can
 write down and ponder to your heart's content. So I'm trying to learn
@@ -18,7 +18,7 @@ a bit about this.
 Unfortunately, being a mathematician, I like to understand everything
 rather carefully, preferably in a conceptual way that doesn't involve
 big equations with indices dangling all over the place. This is slowing
-me down, because all the descriptions I've seen make 11-dimensional
+me down, because all the descriptions I've seen make $11$-dimensional
 supergravity look sort of ugly, when in fact it should be really pretty.
 The physicists always point out that it's a lot simpler than the
 supergravity theories in lower dimensions. On that I agree! But I don't
@@ -63,7 +63,7 @@ Modulo some subtleties discussed below, the whole Lagrangian is built
 from just three ingredients, which are the three basic fields in the
 theory:
 
-A) a Lorentzian metric $g$ on the 11-dimensional manifold representing spacetime,
+A) a Lorentzian metric $g$ on the $11$-dimensional manifold representing spacetime,
 
 B) a field $\psi$ on this manifold which takes values in the real spin-$3/2$
 representation of $\mathrm{SO}(10,1)$,
@@ -81,7 +81,7 @@ Let me say a bit more about these three items. To define a spin-$3/2$
 field on a manifold we need to give the manifold a spin structure.
 Locally, we can do this by picking a smoothly varying basis of tangent
 vectors. Such a thing is called a "frame field", but it also has other
-names: in 4-dimensional spacetime people call it a "tetrad" or
+names: in $4$-dimensional spacetime people call it a "tetrad" or
 "vierbein", after the German word for "four legs", but in
 11-dimensional spacetime people call it an "elfbein", after the German
 word for "eleven legs". Anyway, this frame field determines a spin
@@ -117,11 +117,11 @@ some sort of 1-form on our hands. One thing I don't understand is what,
 if any, constraints there are on a spinor-valued 1-form to make it lie
 in the spin-$3/2$ representation.
 
-What are spinors like in 11-dimensional spacetime? For this, go back and
+What are spinors like in $11$-dimensional spacetime? For this, go back and
 reread ["Week 93"](#week93). You'll see that by Bott periodicity,
 spinors in $(n+8)$-dimensional spacetime are just like spinors in
 $n$-dimensional spacetime, but tensored with $\mathbb{R}^{16}$. So spinors in
-11-dimensional spacetime are a lot like spinors in 3-dimensional
+11-dimensional spacetime are a lot like spinors in $3$-dimensional
 spacetime! In 3 dimensions, the double cover of the Lorentz group is
 just $\mathrm{SL}(2,\mathbb{R})$, and its spinor representation is $\mathbb{R}^2$. Actually these are
 "real" spinors, or what physicists call "Majorana" spinors. We could
@@ -141,7 +141,7 @@ the particle's *phase* changes.
 
 If we're dealing with strings instead of point particles, we can pull
 the same trick using a 2-form, which is the right sort of thing to
-integrate over the 2-dimensional worldsheet of a string. Since people
+integrate over the $2$-dimensional worldsheet of a string. Since people
 call the 1-form in electromagnetism $A$, they naturally took to calling
 this 2-form $B$. People like to study strings propagating in a background
 metric that satisfies the vacuum Einstein equations, but they also study
@@ -158,8 +158,8 @@ strength tensor:
 $$B \mapsto B + dw$$
 where $w$ is any 1-form.
 
-Similarly, people believe that M-theory involves 2-dimensional membranes
-called "2-branes". A 2-brane traces out a 3-dimensional
+Similarly, people believe that M-theory involves $2$-dimensional membranes
+called "2-branes". A 2-brane traces out a $3$-dimensional
 "world-volume" in spacetime. The 3-form field in 11d supergravity is
 perfectly suited for integrating over this world-volume! So we're
 really dealing with a still higher-dimensional analog of
@@ -200,7 +200,7 @@ The middle term is, up to a constant, just what I'd call "$F\wedge*F$":
 the Lagrangian for the 3-form analog of Maxwell's equations.
 
 The last term is, again up to a constant, just what I'd "$F\wedge F\wedge A$".
-This is an 11-dimensional analog of the Chern-Simons term $F\wedge A$
+This is an $11$-dimensional analog of the Chern-Simons term $F\wedge A$
 that you can add on to the electromagnetic Lagrangian in 3d spacetime.
 
 The other two terms involve the gravitino. This is where I start getting
@@ -392,7 +392,7 @@ marrow! Any help would be appreciated.
 
 > John Baez wrote:
 >
-> > One thing that does exist is 11-dimensional supergravity.
+> > One thing that does exist is $11$-dimensional supergravity.
 >
 > Unfortunately, only at the classical level, presumably. The quantum
 > theory doesn't seem to exist, neither. It's non-renormalizable,
@@ -423,8 +423,8 @@ marrow! Any help would be appreciated.
 >
 > I guess that was your question.
 >
-> > Similarly, people believe that M-theory involves 2-dimensional membranes
-> > called "2-branes".  A 2-brane traces out a 3-dimensional "world-volume"
+> > Similarly, people believe that M-theory involves $2$-dimensional membranes
+> > called "2-branes".  A 2-brane traces out a $3$-dimensional "world-volume"
 > > in spacetime.  The 3-form field in 11d supergravity is perfectly suited
 > > for integrating over this world-volume!  So we're really dealing with a
 > > still higher-dimensional analog of electromagnetism.  Since we've already
@@ -455,7 +455,7 @@ marrow! Any help would be appreciated.
 > $F\wedge*F$. Cool! Now, we can go further. $A$ is a 3-form, so $F$ is a
 > 4-form, then $*F$ is a $11-4=7$-form, then it should be the field
 > strength tensor of some 6-form potential, $dA_6=*F$, But a 6-form is
-> perfectly suited to be integrated over a 6-dimensional world-volume,
+> perfectly suited to be integrated over a $6$-dimensional world-volume,
 > i.e. a 5-brane! Here comes the M5-brane into the play. Of course, in
 > 11D SUGRA, the membrane is the fundamental object and the M5-brane is
 > a solitonic solution, but in a non-perturbative theory, solitonic

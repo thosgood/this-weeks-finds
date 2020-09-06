@@ -167,8 +167,8 @@ it's too late, they've already been invented! I won't discuss them
 here.) The notation for 2-morphisms is quite cute: given $f,g$ in
 $\mathrm{Hom}(x,y)$, we write $F$ in $\mathrm{Hom}(f,g)$ as the following diagram:
 $$\includegraphics[scale=0.3]{../images/Fnatftog.pdf}$$
-In other words, while ordinary morphisms are 1-dimensional objects (arrows), 2-morphisms
-are 2-dimensional "cells" filling in the space between two ordinary
+In other words, while ordinary morphisms are $1$-dimensional objects (arrows), 2-morphisms
+are $2$-dimensional "cells" filling in the space between two ordinary
 morphisms. We thus see that going up to "morphisms between morphisms"
 is closely related to going up to higher dimensions. And this is really
 why "braided monoidal 2-categories" may play as big a role in
@@ -189,7 +189,7 @@ and $G$ vertically to get a 2-morphism from $f$ to $g$.
 
 As Kapranov and Voevodsky note: "Thus 2-categories can be seen as
 belonging to the realm of a new mathematical discipline which may be
-called 2-DIMENSIONAL ALGEBRA and contrasted with usual 1-dimensional
+called 2-DIMENSIONAL ALGEBRA and contrasted with usual $1$-dimensional
 algebra dealing with formulas which are written in lines." This is
 actually very important because already in the theory of braided
 monoidal categories we began witnessing the rise of mathematics that
@@ -363,7 +363,7 @@ $$
   \end{array}
 $$
 Well, it'll never win an Academy Award, but this movie is pretty
-important. It's a picture of the 3-dimensional slices of a
+important. It's a picture of the $3$-dimensional slices of a
 2-dimensional surface in (3+1)-dimensional spacetime, and this surface
 is perfectly smooth but has a saddle point which we are seeing in frame
 4. It is one of what Carter and Saito (see ["Week 2"](#week2)) call the

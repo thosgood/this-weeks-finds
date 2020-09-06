@@ -251,8 +251,8 @@ substantially larger than the Planck length should it resemble a metric
 on a manifold.
 
 How do you describe a spacetime geometry in a spin foam model? Well,
-first you take some 4-dimensional manifold representing spacetime and
-chop it into "4-simplices". A "4-simplex" is just the 4-dimensional
+first you take some $4$-dimensional manifold representing spacetime and
+chop it into "4-simplices". A "4-simplex" is just the $4$-dimensional
 analogue of a tetrahedron: it has 5 tetrahedral faces, 10 triangles, 10
 edges and 5 vertices. Then, you label all the triangles in these
 4-simplices by numbers. These describe the *areas* of the triangles.

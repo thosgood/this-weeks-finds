@@ -519,7 +519,7 @@ the case I discussed above, where K is the rational numbers:
 > just tell you to go and get a book on commutative algebra and look up
 > the word "Dedekind domain"---both of these are examples. A
 > geometer might even go and tell you to go and find out what a regular
-> 1-dimensional scheme was!
+> $1$-dimensional scheme was!
 >
 > One thing I didn't realise when I was learning all this stuff
 > however, was that there is some stuff that just goes through for all
@@ -624,7 +624,7 @@ I replied:
 >      > some people would just tell you to go and get a book on commutative 
 >      > algebra and look up the word "Dedekind domain"---both of these 
 >      > are examples. A geometer might even go and tell you to go 
->      > and find out what a regular 1-dimensional scheme was!
+>      > and find out what a regular $1$-dimensional scheme was!
 >
 > I've read lots of theorems about Dedekind domains, and on good days I
 > can even remember the definition...
@@ -637,7 +637,7 @@ I replied:
 > For example, thinking of Spec(Z) as a plane that gets a fundamental
 > group when you poke a hole in it and remove a prime is nice for
 > visualizing an individual Frobenius generator, but deeper results
-> suggest that it's good to think of Spec(Z) as 3-dimensional! This
+> suggest that it's good to think of Spec(Z) as $3$-dimensional! This
 > leads to the extensive analogy between Spec(Z) and knot theory
 > discussed here...
 >
@@ -758,7 +758,7 @@ This is called *class field theory*.
 > quadratic field, so Q(√d) for some integer d<0. Let L be the lattice
 > in the complex numbers with basis 1 and √d (this is a lattice as
 > d<0). Quotient out the complex numbers by this lattice. You get a
-> 1-dimensional complex torus, so an elliptic curve. The curve has a
+> $1$-dimensional complex torus, so an elliptic curve. The curve has a
 > j-invariant, which is going to be a "random" complex number. One can
 > compute this number to as many decimal places as one likes nowadays
 > (in practice). For example, if d=-5 then my computer instantly tells

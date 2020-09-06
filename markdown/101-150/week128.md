@@ -129,14 +129,14 @@ version, and I hear Friedel and Krasnov are also working on this). Also,
 it only deals with vacuum quantum gravity --- empty spacetime, no matter.
 
 In this theory, spacetime is chopped up into 4-simplices. A 4-simplex is
-the 4-dimensional analog of a tetrahedron. To understand what I'm going
+the $4$-dimensional analog of a tetrahedron. To understand what I'm going
 to say next, you really need to understand 4-simplices, so let's start
 with them.
 
 It's easy to draw a 4-simplex. Just draw 5 dots in a kind of circle and
 connect them all to each other! You get a pentagon with a pentagram
 inscribed in it. This is a perspective picture of a 4-simplex projected
-down onto your 2-dimensional paper. If you stare at this picture you
+down onto your $2$-dimensional paper. If you stare at this picture you
 will see the 4-simplex has 5 tetrahedra, 10 triangles, 10 edges and 5
 vertices in it.
 
@@ -234,7 +234,7 @@ argument rigorous.
 
 But what does it mean? Why does he get $\cos(S)$ instead of $\exp(iS)$? Well,
 as I said, the same thing happens one dimension down in the so-called
-Ponzano-Regge model of 3-dimensional Riemannian quantum gravity, and
+Ponzano-Regge model of $3$-dimensional Riemannian quantum gravity, and
 people have been scratching their heads for decades trying to figure out
 why. And by now they know the answer, and the same answer applies to the
 Barrett-Crane model.

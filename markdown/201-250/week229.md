@@ -397,7 +397,7 @@ Here's the answer given by Michael Hutching on sci.math.research:
 > one-dimensional subspace of H_1(T^2) = Z^2. If I am not mistaken,
 > this is the element in question of the rational projective line.
 
-In other words, we take a 3-dimensional ball and draw a picture of a
+In other words, we take a $3$-dimensional ball and draw a picture of a
 rational tangle in it:
 
 ::: {align="CENTER"}
@@ -434,7 +434,7 @@ matrix multiplication:
            :      |->     
      c  d      y       cx + dy
 
-It therefore acts on the set of 1-dimensional subspaces of Q^2. Any
+It therefore acts on the set of $1$-dimensional subspaces of Q^2. Any
 such subspace consists of vectors like this:
 
      kx 
@@ -462,7 +462,7 @@ T^2 into the solid torus Y, and this gives a map on rational homology
 
 H_1(T^2) \to H_1(Y)
 
-whose kernel is a 1-dimensional subspace of H_1(T^2).
+whose kernel is a $1$-dimensional subspace of H_1(T^2).
 
 There's more stuff to check....
 

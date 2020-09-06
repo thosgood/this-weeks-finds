@@ -618,10 +618,10 @@ Anyway, I don't really care much about the 4-color theorem per se. If I
 ever need to color a map I'll hire a cartographer. It's the
 connections between seemingly disparate subjects that I find
 interesting. 2-categories are a very abstract formalism developed to
-describe 2-dimensional ways of glomming things together. Starting from
+describe $2$-dimensional ways of glomming things together. Starting from
 the study of 2-categories, we very naturally get the notions of
 "monad" and "adjunction". And before we know it, this leads us to
-some interesting questions about 2-dimensional quantum field theory: for
+some interesting questions about $2$-dimensional quantum field theory: for
 really, the dominance of planar diagrams in the $N\to\infty$ limit of gauge
 theory is saying that in this limit the theory becomes essentially a
 2-dimensional field theory, in some funny sense. And then, lo and

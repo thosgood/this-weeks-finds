@@ -69,8 +69,8 @@ and before that, a very fun elementary one about numbers:
 New York, 1996.
 
 Now he's into quaternions and octonions. But his new book with Derek
-Smith starts by talking about the real numbers and 1-dimensional
-geometry. Then it turns to complex numbers and 2-dimensional geometry,
+Smith starts by talking about the real numbers and $1$-dimensional
+geometry. Then it turns to complex numbers and $2$-dimensional geometry,
 including the Gaussian and Eisenstein integers and the 17 "space
 groups" in 2 dimensions.
 
@@ -121,7 +121,7 @@ in 2 dimensions: they have 4-fold and 6-fold rotational symmetry,
 respectively. As I explained in "week124" and subsequent Weeks, this
 is related to the appearance of the number 24 in bosonic string theory.
 But these lattices also play a role in crystallography, in the
-classification of 2-dimensional "space groups".
+classification of $2$-dimensional "space groups".
 
 I'm not sure what the definition of a "space group" is - the
 references I've seen are annoyingly reticent on this point - but it's
@@ -170,7 +170,7 @@ hexagonal symmetry. For more details, with pictures, see:
 [modelingnts.la.asu.edu/pdf/crystalsymmetry.pdf](modelingnts.la.asu.edu/pdf/crystalsymmetry.pdf)
 
 After this low-dimensional warmup, Conway and Smith's book turns to the
-quaternions and their applications to 3-dimensional and 4-dimensional
+quaternions and their applications to $3$-dimensional and $4$-dimensional
 geometry. They classify the finite subgroups of the 3d rotation group
 \mathrm{SO}(3), its double cover \mathrm{SU}(2), and the 3d rotation/reflection group
 \mathrm{O}(3). They also classify the finite subgroups of the 4d rotation group.

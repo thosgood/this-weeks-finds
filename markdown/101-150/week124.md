@@ -226,7 +226,7 @@ structure.
 Secondly, if we do a Wick transform, these quantum field theories become
 2-dimensional *statistical mechanics* problems that are invariant under
 all conformal transformations. This may seem an esoteric concern, but
-thin films of material can often be treated as 2-dimensional for all
+thin films of material can often be treated as $2$-dimensional for all
 practical purposes, and conformal invariance is typical at "critical
 points" --- boundaries between two or more phases for which there is no
 latent heat, such as the boundary between the magnetized and
@@ -258,7 +258,7 @@ theory proper, including:
     where a substance is trying to ooze through a porous medium, with
     special attention paid to the critical point when the holes are
     *just* big enough to let it ooze all the way through),
-- the 2-dimensional Ising model (applying conformal field theory to
+- the $2$-dimensional Ising model (applying conformal field theory to
     ferromagnets, with special attention paid to the critical point when
     the temperature is *just* low enough for ferromagnetism to set in)
 

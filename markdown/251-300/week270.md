@@ -344,9 +344,9 @@ rotational symmetry.
 A Coxeter group is "crystallographic", or a "Weyl group", if it *is*
 symmetries of a lattice. In particular:
 
-A_4 is the symmetry group of a 4-dimensional lattice also called A_4.\
-D~6~ is the symmetry group of a 6-dimensional lattice also called D~6~.\
-\mathrm{E}_8 is the symmetry group of an 8-dimensional lattice also called
+A_4 is the symmetry group of a $4$-dimensional lattice also called A_4.\
+D~6~ is the symmetry group of a $6$-dimensional lattice also called D~6~.\
+\mathrm{E}_8 is the symmetry group of an $8$-dimensional lattice also called
 \mathrm{E}_8.\
 
 You can see precise descriptions of these lattices in
@@ -475,7 +475,7 @@ My last talk was on the number 24. Here I explained Euler's crazy
 1 + 2 + 3 + ... = -1/12
 
 and how this makes bosonic strings happy when they have 24 transverse
-directions to wiggle around in. I also touched on the 24-dimensional
+directions to wiggle around in. I also touched on the $24$-dimensional
 Leech lattice and how this gives a version of bosonic string theory
 whose symmetry group is the Monster: the largest sporadic finite simple
 group.

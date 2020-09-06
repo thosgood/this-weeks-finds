@@ -170,7 +170,7 @@ the summer, I had Barrett explain it to me. I learned all sorts of cool
 stuff about representations of the Lorentz group. Unfortunately, I
 don't now have the energy to explain all that stuff. I'll just say
 this: everything I said above generalizes to the Lorentzian case. The
-main difference is that we use the 3-dimensional hyperboloid
+main difference is that we use the $3$-dimensional hyperboloid
 $$H^3 = \{t^2 - x^2 - y^2 - z^2 = 1\}$$
 wherever we'd been using the 3-sphere
 $$S^3 = \{t^2 + x^2 + y^2 + z^2 = 1\}.$$

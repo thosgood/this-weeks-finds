@@ -62,8 +62,8 @@ quantum gravity, the Regge calculus, and the dynamical triangulations
 approach. In lattice quantum gravity you treat spacetime as a fixed
 lattice, usually a hypercubical one, and work with discrete versions of
 the usual fields appearing in general relativity. In the Regge calculus
-you triangulate your 4-dimensional spacetime --- i.e., chop it into a
-bunch of 4-dimensional simplices --- and use the lengths of the edges of
+you triangulate your $4$-dimensional spacetime --- i.e., chop it into a
+bunch of $4$-dimensional simplices --- and use the lengths of the edges of
 these simplices as your basic variables. (For more details see
 ["Week 120"](#week120).) In the dynamical triangulations approach
 you also triangulate spacetime, but not in a fixed way --- you consider
@@ -99,15 +99,15 @@ triangulations and mathematical logic, which Ambjorn mentions in his
 review article. In computer simulations using the dynamical
 triangulations approach, one wants to compute the average of certain
 quantities over all triangulations of a fixed compact manifold --- e.g.,
-the 4-dimensional sphere, $S^4$. The typical way to do this is to start
+the $4$-dimensional sphere, $S^4$. The typical way to do this is to start
 with a particular triangulation and then keep changing it using various
 operations --- "Pachner moves" --- that are guaranteed to eventually take
-you from any triangulation of a compact 4-dimensional manifold to any
+you from any triangulation of a compact $4$-dimensional manifold to any
 other.
 
 Now here's where the mathematical logic comes in. Markov's theorem
 says there is no algorithm that can decide whether or not two
-triangulations are triangulations of the same compact 4-dimensional
+triangulations are triangulations of the same compact $4$-dimensional
 manifold. (Technically, by "the same" I mean "piecewise linearly
 homeomorphic", but don't worry about that!) If they *are*
 triangulations of the same manifold, blundering about using the Pachner
@@ -117,7 +117,7 @@ moves will eventually get you from one to the other, but if they are
 On the other hand, $S^4$ may be special. It's an open question whether
 or not $S^4$ is "algorithmically detectable". In other words, it's an
 open question whether or not there's an algorithm that can decide
-whether or not a triangulation is a triangulation of the 4-dimensional
+whether or not a triangulation is a triangulation of the $4$-dimensional
 sphere.
 
 Now, suppose $S^4$ is *not* algorithmically detectable. Then the maximum
@@ -136,7 +136,7 @@ However, computer simulations using triangulations with up to 65,536
 on? Well, maybe S^4 actually *is* algorithmically detectable. Or
 perhaps it's not, but the bottlenecks only occur for triangulations
 that have more than 65,536 4-simplices to begin with. Interestingly, one
-dimension up, it's known that the 5-dimensional sphere is *not*
+dimension up, it's known that the $5$-dimensional sphere is *not*
 algorithmically detectable, so in this case bottlenecks *must* exist ---
 but computer simulations still haven't seen them.
 
@@ -148,7 +148,7 @@ articles, and check out that nice book by Ambjorn, Carfora and Marzuoli!
 
 On another front... Ambjorn and Loll, who are both hanging out at the
 AEI these days, have recently teamed up to study causality in a lattice
-model of 2-dimensional Lorentzian quantum gravity:
+model of $2$-dimensional Lorentzian quantum gravity:
 
 9) J. Ambjorn and R. Loll, "Non-perturbative Lorentzian quantum gravity, causality and topology change", preprint available as [`hep-th/9805108`](https://arxiv.org/abs/hep-th/9805108).
 

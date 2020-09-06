@@ -204,7 +204,7 @@ Here are the lattices you get:
 
     x_1 + ... + x~n+1~ = 0.
 
-    For example, A_2 is a 2-dimensional hexagonal lattice, the sort you
+    For example, A_2 is a $2$-dimensional hexagonal lattice, the sort you
     use to pack pennies as densely as possible. Similarly, A_3 gives a
     standard way of packing grapefruit.
 
@@ -217,7 +217,7 @@ Here are the lattices you get:
     color the cubes alternately red and black, and take the center of
     each red cube.
 
--   The diagram \mathrm{E}_8 gives the 8-dimensional lattice of 8-tuples
+-   The diagram \mathrm{E}_8 gives the $8$-dimensional lattice of 8-tuples
     (x_1,...,x_8) such that the x_i are either all integers or all
     half-integers - a half-integer being an integer plus 1/2 - and such
     that
@@ -226,11 +226,11 @@ Here are the lattices you get:
 
     is even.
 
--   The diagram \mathrm{E}_7 gives the 7-dimensional lattice consisting of all
+-   The diagram \mathrm{E}_7 gives the $7$-dimensional lattice consisting of all
     vectors in \mathrm{E}_8 that are orthogonal to some vector that's closest
     to the origin (and thus has length √2).
 
--   The diagram \mathrm{E}_6 gives the 6-dimensional lattice consisting of all
+-   The diagram \mathrm{E}_6 gives the $6$-dimensional lattice consisting of all
     vectors in \mathrm{E}_7 that are orthogonal to some vector that's closest
     to the origin (and thus has length √2).
 
@@ -790,10 +790,10 @@ David Rusin wrote:
 >
 > x^4k+1^ + y^3 + z^2 + w^2 + u^2 = 0
 >
-> which are 4-dimensional complex varieties with isolated critical
+> which are $4$-dimensional complex varieties with isolated critical
 > points at the origin. So apart from the origin the equation describes
-> an 8-dimensional manifold and the intersection with the sphere in C^5
-> = R^10^ is a 7-dimensional manifold. Brieskorn showed:
+> an $8$-dimensional manifold and the intersection with the sphere in C^5
+> = R^10^ is a $7$-dimensional manifold. Brieskorn showed:
 >
 > 1.  For every k, these manifolds M~k~ are homeomorphic to the sphere
 > 2.  For every k, M~k~ is a smooth manifold.

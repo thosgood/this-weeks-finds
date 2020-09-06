@@ -164,7 +164,7 @@ As Einstein wrote in 1905:
 So, what really changed with the advent of special relativity? First,
 our understanding of precisely which transformations count as symmetries
 of spacetime. These transformations form a *group*. Before special
-relativity, it seemed the relevant group was a 10-dimensional gadget
+relativity, it seemed the relevant group was a $10$-dimensional gadget
 consisting of:
 
 -   3 dimensions of spatial translations
@@ -182,7 +182,7 @@ group":
 -   3 dimensions of rotations
 -   3 dimensions of Lorentz transformations
 
-It's still 10-dimensional, not any bigger. But, it acts differently as
+It's still $10$-dimensional, not any bigger. But, it acts differently as
 transformations of the spacetime coordinates (t,x,y,z).
 
 Another thing that changed was our appreciation of the importance of
