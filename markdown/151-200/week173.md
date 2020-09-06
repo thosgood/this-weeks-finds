@@ -11,8 +11,7 @@ They were really good in 1966, and really good this year.
 
 If you missed them, try these pictures:
 
-1) Favorite Leonid images found posted on the net,
-`http://leonids.arc.nasa.gov/image_favorites.html`
+1) Favorite Leonid images found posted on the net, `http://leonids.arc.nasa.gov/image_favorites.html`
 
 Anyway, this week I'm in the mood for math, so I'll start with a bit
 of stuff about the octonionic projective plane and linear lattices, and
@@ -24,11 +23,11 @@ Three of my favorite dimensions are 8, 11, and 24. Why?
 Well, 8 is the dimension of the octonions, which are related to special
 properties of rotations in 8-dimensional space, and also Bott
 periodicity: a magical phenomenon relating rotations, spinors and the
-like in n dimensions to the corresponding things in n+8 dimensions. The
+like in n dimensions to the corresponding things in $n+8$ dimensions. The
 "Cayley integral octonions" form a marvelous lattice which happens to
 give the densest lattice packing of spheres in 8 dimensions: each sphere
 has 240 nearest neighbors. This is also the root lattice of the group
-E8, which has dimension 248 = 240+8, and is the symmetry group of the
+$\mathrm{E}_8$, which has dimension $248 = 240+8$, and is the symmetry group of the
 projective plane over the octooctonions: the octonions tensored with
 themselves!
 
@@ -44,7 +43,7 @@ the number 24.
 
 Some of this boils down to the fact that the only specially symmetric
 lattices in 2 dimensions are the square lattice and the hexagonal one,
-and 4 x 6 = 24. But there's a lot more going on! For example, there's
+and $4 \times 6 = 24$. But there's a lot more going on! For example, there's
 a marvelous lattice in 24 dimensions called the Leech lattice, which
 gives the densest lattice packing of spheres in that dimension. It also
 gives rise to a lattice in 26-dimensional spacetime, and if we cleverly
@@ -52,7 +51,7 @@ use this to compactify 26d spacetime and do bosonic string theory there,
 we get a string theory whose symmetry group is the Monster: the largest
 sporadic finite simple group! The dimensions of the irreducible
 representations of the Monster are closely connected to the coefficients
-of an important function in complex analysis, called the j-function -
+of an important function in complex analysis, called the $j$-function -
 this connection is known as Monstrous Moonshine.
 
 I've said all this stuff more carefully and in much more detail in
@@ -63,40 +62,32 @@ now I'm just trying to remind you of how cool these dimensions are!
 believe it's the right dimension for M-theory, their favorite candidate
 for the Theory of Everything. I'm still struggling to understand the
 math that makes this dimension special. Luckily, someone sent me a paper
-which provides a tiny tantalizing clue - a relation between the numbers
+which provides a tiny tantalizing clue --- a relation between the numbers
 8, 11, and 24:
 
-2) Thomas Püttmann and A. Rigas, Isometric actions on the projective
-planes and embedded generators of homotopy groups. Available at
-`http://www.ruhr-uni-bochum.de/mathematik8/puttmann/index.html`.
+2) Thomas Püttmann and A. Rigas, "Isometric actions on the projective planes and embedded generators of homotopy groups". Available at `http://www.ruhr-uni-bochum.de/mathematik8/puttmann/index.html`.
 
 The simple idea standing behind their work is that
-
-\pi ~11~(S^8) = Z/24.
-
+$$\pi_{11}(S^8) = \mathbb{Z}/24.$$
 In other words: the 11th homotopy group of the 8-sphere is the group of
-integers mod 24. This is just a reflection of the fact that the
-
-\pi ~n+3~(S^n) = Z/24
-
-whenever n is big enough. I touched upon the importance of this for
+integers $\mod 24$. This is just a reflection of the fact that the
+$$\pi_{n+3}(S^n) = \mathbb{Z}/24$$
+whenever $n$ is big enough. I touched upon the importance of this for
 string theory in ["Week 102"](#week102).
 
-But it gets cooler. S^8 is just the octonionic projective line OP^1.
-The octonionic projective plane, OP^2, is formed from OP^1 by gluing
+But it gets cooler. $S^8$ is just the octonionic projective line $\mathbb{OP}^1$.
+The octonionic projective plane, $\mathbb{OP}^2$, is formed from $\mathbb{OP}^1$ by gluing
 on some extra stuff. However, this extra stuff is sufficiently
 high-dimensional that it doesn't affect the 11th homotopy group, so we
 get
-
-\pi ~11~(OP^2) = Z/24.
-
+$$\pi_{11}($\mathbb{OP}^2$) = \mathbb{Z}/24.$$
 Now, what Püttman and Rigas do is find an 11-sphere *embedded* in the
-octonionic projective plane that generates the group Z/24. In fact,
+octonionic projective plane that generates the group $\mathbb{Z}/24$. In fact,
 it's a minimal surface: there's no way to wiggle it a bit to make the
-"area" less! It's the analogue for OP^2 of the 2-sphere in \mathbb{CP}^2
-defined by the equation x^2 + y^2 + z^2 = 0. (Püttman and Rigas also
+"area" less! It's the analogue for $\mathbb{OP}^2$ of the 2-sphere in $\mathbb{CP}^2$
+defined by the equation $x^2 + y^2 + z^2 = 0$. (Püttman and Rigas also
 describe an analogous 5-sphere in the quaternionic projective plane that
-generates \pi _5(HP^2) = Z/2.)
+generates $\pi_5(\mathbb{HP}^2) = \mathbb{Z}/2$.)
 
 Could this geometrical fact have some application to M-theory? I bet it
 will. Could it be a useful clue to the math linking these special
@@ -111,8 +102,8 @@ quaternionic projective geometry, but not for the octonionic projective
 plane. Earlier, in ["Week 106"](#week106), I explained how
 projective geometries give quantum logics. The basic idea is that we
 think of points, lines, planes and higher-dimensional subspaces as
-propositions. If the subspace P is contained in the subspace Q, we say P
-"implies" Q.
+propositions. If the subspace $P$ is contained in the subspace $Q$, we say $P$
+"implies" $Q$.
 
 Mathematicians call the resulting structure a "lattice": technically,
 this is a partially ordered set where every finite set of elements has a
@@ -520,7 +511,7 @@ Linus Kramer writes:
 > which is mentioned in Baez' article.
 >
 > As Baez writes, the authors construct an embedding of the 11-sphere
-> into the Cayley plane OP^2. This embedding is closely related to a
+> into the Cayley plane $\mathbb{OP}^2$. This embedding is closely related to a
 > polarity (a polarity of a projective plane is an involution which maps
 > points to lines and vice versa, and which preserves incidence).
 >
