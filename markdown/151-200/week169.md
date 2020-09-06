@@ -248,64 +248,89 @@ $$
   \end{tikzpicture}
 $$
 respectively. We demand that
-
-       |                             |                             |
-       |                             |                             |
-       |                             |                             |
-       |            __h__            |            __h__            |
-       |           /     \      =    |     =     /     \           |
-       |          /       \          |          /       \          | 
-       |         /         |         |         |         \         |
-        \       /          |         |         |          \       /
-         \_____/           |         |         |           \_____/
-            g              |         |         |              g         
-                           |         |         |
-                           |         |         |
-                           |         |         |
-
-which says that the bilinear form g is nondegenerate. To get further,
+$$
+  \begin{tikzpicture}
+    \begin{scope}[xscale=-1,shift={(-2,0)}]
+      \begin{knot}
+        \strand[thick] (0,0)
+        to (0,1)
+        to [out=up,in=up,looseness=2] (1,1)
+        to [out=down,in=down,looseness=2] (2,1)
+        to (2,2);
+      \end{knot}
+      \node[label=above:{$h$}] at (0.5,1.57) {$\bullet$};
+      \node[label=below:{$g$}] at (1.5,0.4) {$\bullet$};
+    \end{scope}
+    \node at (3,1) {$=$};
+    \begin{scope}[shift={(4,0)}]
+      \begin{knot}
+        \strand[thick] (0,0) to (0,2);
+      \end{knot}
+    \end{scope}
+    \node at (5,1) {$=$};
+    \begin{scope}[shift={(6,0)}]
+      \begin{knot}
+        \strand[thick] (0,0)
+        to (0,1)
+        to [out=up,in=up,looseness=2] (1,1)
+        to [out=down,in=down,looseness=2] (2,1)
+        to (2,2);
+      \end{knot}
+      \node[label=above:{$h$}] at (0.5,1.57) {$\bullet$};
+      \node[label=below:{$g$}] at (1.5,0.4) {$\bullet$};
+    \end{scope}
+  \end{tikzpicture}
+$$
+which says that the bilinear form $g$ is nondegenerate. To get further,
 we'll also demand that
-
-            |       |            |           |
-            |       |            |           |
-             \     /             |           |
-              \   /              |           |
-               \ /       =       |           |
-                /                |           |
-               / \               |           |
-              /   \              |           |
-             |     |              \         /
-              \   /                \       /
-               \_/                  \_____/
-                g                      g
-
-This says that the bilinear form g is symmetric, that is:
-
-g(x,y) = g(y,x).
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7]
+      \strand[thick] (0,0)
+        to [out=down,in=up] (1,-2)
+        to [out=down,in=down,looseness=2] (0,-2);
+      \strand[thick] (0,-2)
+        to [out=up,in=down] (1,0);
+      \flipcrossings{1}
+    \end{knot}
+    \node[label=below:{$g$}] at (0.5,-2.6) {$\bullet$};
+    \node at (2,-1.5) {$=$};
+    \begin{knot}
+      \strand[thick] (3,0)
+        to (3,-2)
+        to [out=down,in=down,looseness=2] (4,-2)
+        to (4,0);
+    \end{knot}
+    \node[label=below:{$g$}] at (3.5,-2.6) {$\bullet$};
+  \end{tikzpicture}
+$$
+This says that the bilinear form $g$ is symmetric, that is:
+$$g(x,y) = g(y,x).$$
 But we can only state this equation if we're in a monoidal category
 where we can "switch arguments", which in pictures goes like this:
-
-              \   /              
-               \ /       
-                /        
-               / \       
-              /   \   
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7]
+      \strand[thick] (0,0)
+        to [out=down,in=up] (1,-2);
+      \strand[thick] (0,-2)
+        to [out=up,in=down] (1,0);
+      \flipcrossings{1}
+    \end{knot}
+  \end{tikzpicture}
+$$
 A monoidal category with this feature is called a "symmetric monoidal
 category" (or more generally a "braided monoidal category", but I
 don't want to get into those complications here).
 
 So far, so good! The second problem is figuring out how to state the
-condition |xy| = |x| |y|. If we translate this into a condition on
-our bilinear form g, we get
-
-g(xy,xy) = g(x,x) g(y,y)
-
+condition $|xy| = |x| |y|$. If we translate this into a condition on
+our bilinear form $g$, we get
+$$g(xy,xy) = g(x,x) g(y,y)$$
 An algebra with a nondegenerate bilinear form having this property is
 called a "composition algebra". Hurwitz showed that such an algebra
 must have dimension 1, 2, 4, or 8. However, there are examples other
-than the famous four, coming from bilinear forms g that aren't positive
+than the famous four, coming from bilinear forms $g$ that aren't positive
 definite. For example, there are the "split quaternions" in dimension
 4, or the "split octonions" in dimension 8.
 
@@ -314,38 +339,32 @@ duplication of arguments. But we can get around this problem by a
 standard trick called "polarization", which people use a lot in
 quantum mechanics.
 
-First let's polarize the argument x. To do this, note that we have
-
-g(xy,xy) = g(x,x) g(y,y)
-
-g(x'y,x'y) = g(x',x') g(y,y)
-
+First let's polarize the argument $x$. To do this, note that we have
+$$
+  \begin{aligned}
+    g(xy,xy) &= g(x,x) g(y,y)
+  \\g(x'y,x'y) &= g(x',x') g(y,y)
+  \end{aligned}
+$$
 and also
-
-g((x+x')y,(x+x')y) = g(x+x',x+x') g(y,y).
-
+$$g((x+x')y,(x+x')y) = g(x+x',x+x') g(y,y).$$
 Subtracting the first two equations from the last and then dividing by
-2, we get
-
-g(xy,x'y) = g(x,x') g(y,y).
-
-See? We've eliminated the duplication of the argument x. This new
+$2$, we get
+$$g(xy,x'y) = g(x,x') g(y,y).$$
+See? We've eliminated the duplication of the argument $x$. This new
 equation obviously implies the original one.
 
-Next we polarize the argument y. We have
-
-g(xy,x'y) = g(x,x') g(y,y)
-
-g(xy',x'y') = g(x,x') g(y',y')
-
+Next we polarize the argument $y$. We have
+$$
+  \begin{aligned}
+    g(xy,x'y) &= g(x,x') g(y,y)
+  \\g(xy',x'y') &= g(x,x') g(y',y')
+  \end{aligned}
+$$
 and also
-
-g(x(y+y'),x'(y+y')) = g(x,x') g(y+y',y+y').
-
+$$g(x(y+y'),x'(y+y')) = g(x,x') g(y+y',y+y').$$
 Subtracting the first two equations from the last one, we get
-
-g(xy,x'y') + g(xy',x'y) = 2 g(x,x') g(y,y')
-
+$$g(xy,x'y') + g(xy',x'y) = 2 g(x,x') g(y,y')$$
 Now there is no duplication of arguments. We've paid a price, though:
 now our equation involves addition, so we can only write it down if our
 category has the extra feature that we can add morphisms. For this, we
@@ -358,82 +377,123 @@ doctrine of symmetric monoidal additive categories!
 get along nicely: tensoring of morphisms should be bilinear.)
 
 Let me summarize by giving all the details. A "composition object" is
-an object A in a symmetric monoidal additive category which is equipped
+an object $A$ in a symmetric monoidal additive category which is equipped
 with morphisms
-
-        \       /                 A tensor A
-         \     /                       
-          \   /                        |
-           \ /                         | 
-            m                        m |               "multiplication"
-            |                          |
-            |                          V
-            |                          
-            |                          A
-                                       
-
-                                       I
-            i                          
-            |                          |
-            |                        i |                    "unit"
-            |                          |
-            |                          V
-                           
-                                       A
-
-
-
-          |         |              A tensor A
-          |         |   
-          |         |                  |
-           \       /                 g |                "bilinear form"
-            \_____/                    V
-               g               
-                                       I
-
-
-
-
-                                       I
-             __h__                                
-            /     \                    |                 
-           /       \                 h |             "inverse bilinear form"  
-          |         |                  | 
-          |         |                  V
-          |         |                 
-                                   A tensor A
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+        to [out=down,in=up] (0.5,-1)
+        to (0.5,-2);
+      \strand[thick] (1,0)
+        to [out=down,in=up] (0.5,-1);
+    \end{knot}
+    \node[label=left:{$m$}] at (0.5,-0.95) {$\bullet$};
+    \node (s) at (3,0) {$A\otimes A$};
+    \node (t) at (3,-2) {$A$};
+    \draw[->] (s) to node[label=left:{$m$}]{} (t);
+    \node at (1.75,-2.75) {``multiplication''};
+  \end{tikzpicture}
+$$
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+        to (0,-2);
+    \end{knot}
+    \node[label=left:{$i$}] at (0,0) {$\bullet$};
+    \node (s) at (2,0) {$I$};
+    \node (t) at (2,-2) {$A$};
+    \draw[->] (s) to node[label=left:{$i$}]{} (t);
+    \node at (1,-2.75) {``unit''};
+  \end{tikzpicture}
+$$
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+        to (0,-1)
+        to [out=down,in=down,looseness=2] (1,-1)
+        to (1,0);
+    \end{knot}
+    \node[label=below:{$g$}] at (0.5,-1.6) {$\bullet$};
+    \node (s) at (3,0) {$A\otimes A$};
+    \node (t) at (3,-2) {$I$};
+    \draw[->] (s) to node[label=left:{$g$}]{} (t);
+    \node at (1.75,-2.75) {``bilinear form''};
+  \end{tikzpicture}
+$$
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,-2)
+        to (0,-1)
+        to [out=up,in=up,looseness=2] (1,-1)
+        to (1,-2);
+    \end{knot}
+    \node[label=above:{$h$}] at (0.5,-0.43) {$\bullet$};
+    \node (s) at (3,0) {$I$};
+    \node (t) at (3,-2) {$A\otimes A$};
+    \draw[->] (s) to node[label=left:{$h$}]{} (t);
+    \node at (1.75,-2.75) {``inverse bilinear form''};
+  \end{tikzpicture}
+$$
 satisfying the equations already shown:
-
-       |                             |                             |
-       |                             |                             |
-       |                             |                             |
-       |            __h__            |            __h__            |
-       |           /     \      =    |     =     /     \           |
-       |          /       \          |          /       \          | 
-       |         /         |         |         |         \         |
-        \       /          |         |         |          \       /
-         \_____/           |         |         |           \_____/
-            g              |         |         |              g         
-                           |         |         |
-                           |         |         |
-                           |         |         |
-
+$$
+  \begin{tikzpicture}
+    \begin{scope}[xscale=-1,shift={(-2,0)}]
+      \begin{knot}
+        \strand[thick] (0,0)
+        to (0,1)
+        to [out=up,in=up,looseness=2] (1,1)
+        to [out=down,in=down,looseness=2] (2,1)
+        to (2,2);
+      \end{knot}
+      \node[label=above:{$h$}] at (0.5,1.57) {$\bullet$};
+      \node[label=below:{$g$}] at (1.5,0.4) {$\bullet$};
+    \end{scope}
+    \node at (3,1) {$=$};
+    \begin{scope}[shift={(4,0)}]
+      \begin{knot}
+        \strand[thick] (0,0) to (0,2);
+      \end{knot}
+    \end{scope}
+    \node at (5,1) {$=$};
+    \begin{scope}[shift={(6,0)}]
+      \begin{knot}
+        \strand[thick] (0,0)
+        to (0,1)
+        to [out=up,in=up,looseness=2] (1,1)
+        to [out=down,in=down,looseness=2] (2,1)
+        to (2,2);
+      \end{knot}
+      \node[label=above:{$h$}] at (0.5,1.57) {$\bullet$};
+      \node[label=below:{$g$}] at (1.5,0.4) {$\bullet$};
+    \end{scope}
+  \end{tikzpicture}
+$$
 and
-
-            |       |            |           |
-            |       |            |           |
-             \     /             |           |
-              \   /              |           |
-               \ /       =       |           |
-                /                |           |
-               / \               |           |
-              /   \              |           |
-             |     |              \         /
-              \   /                \       /
-               \_/                  \_____/
-                g                      g
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7]
+      \strand[thick] (0,0)
+        to [out=down,in=up] (1,-2)
+        to [out=down,in=down,looseness=2] (0,-2);
+      \strand[thick] (0,-2)
+        to [out=up,in=down] (1,0);
+      \flipcrossings{1}
+    \end{knot}
+    \node[label=below:{$g$}] at (0.5,-2.6) {$\bullet$};
+    \node at (2,-1.5) {$=$};
+    \begin{knot}
+      \strand[thick] (3,0)
+        to (3,-2)
+        to [out=down,in=down,looseness=2] (4,-2)
+        to (4,0);
+    \end{knot}
+    \node[label=below:{$g$}] at (3.5,-2.6) {$\bullet$};
+  \end{tikzpicture}
+$$
 together with the left and right unit laws:
 
                    |             |           |  
@@ -453,9 +513,7 @@ together with the left and right unit laws:
                 |                |              |
 
 and best of all, the equation
-
-g(xy,x'y') + g(xy',x'y) = 2 g(x,x') g(y,y')
-
+$$g(xy,x'y') + g(xy',x'y) = 2 g(x,x') g(y,y')$$
 translated into pictures like this:
 
      \   /   \   /       \     \   /     /          \     \   /     /
@@ -470,7 +528,7 @@ translated into pictures like this:
                                  g
 
 Now, given all this stuff, we can define the "dimension" of our
-composition algebra to be the value of this morphism from I to I:
+composition algebra to be the value of this morphism from $I$ to $I$:
 
          _______
         /       \
@@ -481,10 +539,10 @@ composition algebra to be the value of this morphism from I to I:
         \_______/
             g
 
-This reduces to the usual dimension of the algebra A when we're in the
-category Vect. Of course, only in certain categories is this dimension
-bound to be a *number* - namely, those categories where every morphism
-from I to I is some number times the identity morphism.
+This reduces to the usual dimension of the algebra $A$ when we're in the
+category $|mathsf{Vect}$. Of course, only in certain categories is this dimension
+bound to be a *number* --- namely, those categories where every morphism
+from $I$ to $I$ is some number times the identity morphism.
 
 By making an extra assumption like this, Boos is able to give a
 "picture proof" that in a large class of symmetric monoidal additive
@@ -505,9 +563,7 @@ inner product and a "vector product".
 
 For example, the imaginary quaternions form a 3-dimensional vector
 product algebra with vector product given by
-
-a x b = (1/2)(ab - ba).
-
+$$a\times b = \frac12(ab - ba).$$
 This is just the usual cross product! The same formula makes the
 imaginary octonions into a 7-dimensional vector product algebra, the
 imaginary complex numbers into a boring 1-dimensional one... and the
@@ -519,18 +575,18 @@ some pretty mild conditions you can freely go back and forth between the
 two concepts.
 
 I think you can summarize his theorem on vector product algebras as
-follows: in all symmetric monoidal R-linear categories where R is a
-commutative ring containing Z\[1/2\] and I is a simple object, vector
+follows: in all symmetric monoidal $R$-linear categories where $R$ is a
+commutative ring containing $\mathbb{Z}[\frac12]$ and $I$ is a simple object, vector
 product algebras must have dimension 0, 1, 3, or 7. He doesn't state
 his result quite this way, but I'm pretty sure that's what it boils
-down to. As for the jargon: a category is "R-linear" if the homsets
-are R-modules and composition of morphisms is bilinear; for monoidal
+down to. As for the jargon: a category is "$R$-linear" if the homsets
+are $R$-modules and composition of morphisms is bilinear; for monoidal
 categories we also want tensoring morphisms to be bilinear. The ring
-Z\[1/2\] consists of all fractions with a power of 2 in the denominator
-- Boos needs this because he needs to divide by 2 at some point in his
-argument. For an R-linear category, an object I is "simple" if
-\operatorname{Hom}(I,I) = R. This allows us to interpret the dimension of our vector
-product algebra as an element of R - which Boos shows is actually one of
+$\mathbb{Z}[\frac12]$ consists of all fractions with a power of 2 in the denominator
+--- Boos needs this because he needs to divide by $2$ at some point in his
+argument. For an $R$-linear category, an object $I$ is "simple" if
+$\operatorname{Hom}(I,I) = R$. This allows us to interpret the dimension of our vector
+product algebra as an element of $R$ --- which Boos shows is actually one of
 the integers 0, 1, 3, or 7.
 
 Let me conclude by showing you Boos' main axiom for vector product
@@ -551,5 +607,4 @@ diagrams. But what is the secret inner meaning?
 ------------------------------------------------------------------------
 
 *"The perplexity of life arises from there being too many interesting
-things in it for us to be interested properly in any of them."* -\
-G. K. Chesterton, 1909
+things in it for us to be interested properly in any of them."* --- G. K. Chesterton, 1909
