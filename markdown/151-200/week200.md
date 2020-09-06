@@ -749,11 +749,11 @@ We get a "monad on C" by letting
 Then, we can use facts about adjoint functors to get natural
 transformations called "multiplication"
 
-    m: TT => T
+    m: TT \Rightarrow T
 
 and the "unit"
 
-    i: 1C => T
+    i: 1C \Rightarrow T
 
 Using more facts about adjoint functors, we can check that these satisfy
 associativity and the left and right unit laws. I did all this in

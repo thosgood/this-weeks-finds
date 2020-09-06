@@ -75,7 +75,7 @@ L: a \to b and R\colon  b \to  a,
 
 and two 2-morphisms, called the "unit" and "counit":
 
-i: 1~a~ => LR and e: RL => 1~b~
+i: 1~a~ \Rightarrow LR and e: RL \Rightarrow 1~b~
 
 satisfying two relations, called the "triangle equations".
 
@@ -333,8 +333,8 @@ couple of 2-morphisms like this:
 
                           f           f'
                       ---->----   ---->----  
-                     /   ||    \ /   ||    \              S: f => g
-                    x    || S   y    || T   z             T: f' => g'
+                     /   ||    \ /   ||    \              S: f \Rightarrow g
+                    x    || S   y    || T   z             T: f' \Rightarrow g'
                      \   \/    / \   \/    /
                       ---->----   ---->----
                           g           g'
@@ -344,7 +344,7 @@ we get a 2-morphism like this:
                              ff'
                       -------->-------
                      /       ||       \
-                    x        || S.T    z                S.T: ff' => gg'
+                    x        || S.T    z                S.T: ff' \Rightarrow gg'
                      \       \/       /
                       -------->-------
                              gg'
@@ -356,7 +356,7 @@ But sometimes we can also horizontally compose a morphism and a
                                       f'
                                   ---->----  
                           f      /   ||    \              
-                    x----->-----y    || T   z             T: f' => g'
+                    x----->-----y    || T   z             T: f' \Rightarrow g'
                                  \   \/    /
                                   ---->----
                                       g'
@@ -366,7 +366,7 @@ and what we get is a 2-morphism f.S like this:
                              ff'
                       -------->-------
                      /       ||       \
-                    x        || f.T    z                f.T: ff' => fg'
+                    x        || f.T    z                f.T: ff' \Rightarrow fg'
                      \       \/       /
                       -------->-------
                              fg'
@@ -386,8 +386,8 @@ Similarly we can define T.f in this sort of situation:
 
                           f'           
                       ---->----   
-                     /   ||    \      f                   T: f' => g'
-                    x    || T   y----->-----z             T.f: f'f => g'f
+                     /   ||    \      f                   T: f' \Rightarrow g'
+                    x    || T   y----->-----z             T.f: f'f \Rightarrow g'f
                      \   \/    /
                       ---->---- 
                           g'     
@@ -590,7 +590,7 @@ but now the object LR is equipped not only with multiplication:
                             \  \   /  /
                       a      \  \ /  /      a      
                               \  e  /                     multiplication:
-                               \   /                     L.e.R: LRLR => LR 
+                               \   /                     L.e.R: LRLR \Rightarrow LR 
                                | b |
                                |   |
                                L   R
@@ -603,7 +603,7 @@ and multiplicative identity:
                                 / \
                         a      |   |    a                 multiplicative
                                | b |                         identity:
-                               |   |                        i: 1a => LR
+                               |   |                        i: 1a \Rightarrow LR
                                L   R   
                                |   |
                                |   |
@@ -617,7 +617,7 @@ but also a "comultiplication":
                                | b |
                                /   \                           
                               /  j  \                    comultiplication:
-                      a      /  / \  \      a            L.j.R: LR => LRLR
+                      a      /  / \  \      a            L.j.R: LR \Rightarrow LRLR
                             /  /   \  \
                            L  R     L  R
                           /  /       \  \
@@ -629,7 +629,7 @@ and "comultiplicative coidentity":
                          a      | b |     a 
                                 |   |                    comultiplicative
                                 L   R                       coidentity:
-                                |   |                      f: LR => 1a
+                                |   |                      f: LR \Rightarrow 1a
                                 |   |
                                  \ /
                                   f

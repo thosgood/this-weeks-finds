@@ -400,7 +400,7 @@ to isomorphism whenever possible.
 A few more details might help....
 
 A 2-category has a set of objects, a set of morphisms f\colon  X \to  Y going
-from any object X to to any object Y, and a set of 2-morphisms T: f =>
+from any object X to to any object Y, and a set of 2-morphisms T: f \Rightarrow
 g going from any morphism f: X \to Y to any morphism g\colon  X \to  Y. We can
 visualize the objects as dots:
 

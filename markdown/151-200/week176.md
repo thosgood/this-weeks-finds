@@ -494,7 +494,7 @@ Between any morphisms
 
 we can define a 2-morphism
 
-    a: f => f'
+    a: f \Rightarrow f'
 
 to be an element of H with the property that
 

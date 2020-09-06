@@ -210,7 +210,7 @@ carry it along a *path of paths:*
         --------->-------
        /        ||       \
       x         ||F       y   a path-of-paths F from the path f to the path g:
-       \        \/       /            we write this as F: f => g
+       \        \/       /            we write this as F: f \Rightarrow g
         --------->-------
                    g
 
@@ -257,11 +257,11 @@ then we call this map
 Moroever, this sort of connection also gives a "map between maps" for
 each path-of-paths! So, from
 
-    F: f => g
+    F: f \Rightarrow g
 
 it gives
 
-    P(F): P(f) => P(g)
+    P(F): P(f) \Rightarrow P(g)
 
 I haven't explained enough stuff to say yet what these "maps between
 maps" are, so let's just see what happens if we have a loop
@@ -270,7 +270,7 @@ maps" are, so let's just see what happens if we have a loop
 
 and then a loop-of-loops
 
-    F: f => f
+    F: f \Rightarrow f
 
 From the loop f\colon  x \to  x, our connection gives us a map:
 
@@ -282,9 +282,9 @@ G-torsor. This G-torsor doesn't depend on our initial choice of point,
 and it completely determines the map P(f). So, we can think of P(f) as
 *being* this G-torsor, if we like.
 
-From the loop-of-loops F: f => f, our connection gives us a map:
+From the loop-of-loops F: f \Rightarrow f, our connection gives us a map:
 
-    P(F): P(f) => P(f)
+    P(F): P(f) \Rightarrow P(f)
 
 If we start with a point in P(f), and apply this map, we get another
 point. Since P(f) is a G-torsor, these two points determine an element

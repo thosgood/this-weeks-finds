@@ -707,7 +707,7 @@ Then he wrote:
 > proved:
 >
 > Suppose we are given a morphism f\colon X \to  Y of orbifolds and a
-> 2-automorphism φ:f => f. Then φ is trivial if and only if its
+> 2-automorphism φ:f \Rightarrow f. Then φ is trivial if and only if its
 > restriction to any point of X is trivial.
 >
 > One consequence of this is the following:
@@ -725,7 +725,7 @@ Then he wrote:
 > that almost all points of the orbifold have no inertia at all. This
 > includes all of the orbifolds you are discussing. The fact that the
 > isometry 2-groups are all equivalent to groups is apparent in the
-> description I gave earlier: if we have a 2-arrow g:(f,φ) => (f,φ)
+> description I gave earlier: if we have a 2-arrow g:(f,φ) \Rightarrow (f,φ)
 > then gf = f, so that g is the identity.
 >
 > Of course, there are many interesting noneffective orbifolds. Some of

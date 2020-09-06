@@ -352,19 +352,19 @@ Here are the Grassmannians and their dimensions:
          
                               isotropic     isotropic          
     B2                       1d subspaces  2d subspaces
-    \mathrm{Spin}(5,C)                     o=======>=======o
+    \mathrm{Spin}(5,C)                     o======\Rightarrow=======o
                                   3               3
 
 
                        isotropic     isotropic     isotropic
     B3                1d subspaces  2d subspaces  3d subspaces
-    \mathrm{Spin}(7,C)              o--------------o=======>=======o
+    \mathrm{Spin}(7,C)              o--------------o======\Rightarrow=======o
                            5              7               6
 
 
                  isotropic     isotropic      isotropic     isotropic
     B4          1d subspaces  2d subspaces   3d subspaces  4d subspaces
-    \mathrm{Spin}(9,C)        o-------------o---------------o=======>======o
+    \mathrm{Spin}(9,C)        o-------------o---------------o======\Rightarrow======o
                      7            11              12             10 
 
 I'm sure these are well-known, but James Dolan and I had a lot of fun
@@ -404,19 +404,19 @@ If we quantize these Grassmannians we get these fundamental reps of
          
                               
     B2                          vectors        spinors   
-    \mathrm{Spin}(5,C)                     o=======>=======o
+    \mathrm{Spin}(5,C)                     o======\Rightarrow=======o
                                   5               4
 
 
                        
     B3                   vectors       bivectors       spinors
-    \mathrm{Spin}(7,C)              o--------------o=======>=======o
+    \mathrm{Spin}(7,C)              o--------------o======\Rightarrow=======o
                            7             21               8
 
 
                  
     B4             vectors     bivectors        3-vectors      spinors
-    \mathrm{Spin}(9,C)        o-------------o---------------o=======>======o
+    \mathrm{Spin}(9,C)        o-------------o---------------o======\Rightarrow======o
                      9            36              84             16
 
 As before, the dimension of the space of p-vectors in q-dimensional
@@ -652,7 +652,7 @@ because all these Grassmannians should be definable using the octonions:
 
 
 
-    \mathrm{F}_4            43------48===>===48------43
+    \mathrm{F}_4            43------48==\Rightarrow===48------43
 
 
 

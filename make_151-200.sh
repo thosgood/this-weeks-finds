@@ -67,6 +67,10 @@ printf '%s\n' '\usepackage{tikz-cd}' >> $TEX
 printf "\n" >> $TEX
 printf '%s\n' '\usepackage{graphicx}' >> $TEX
 
+
+printf "\n" >> $TEX
+printf '%s\n' '\newcommand{\xRightarrow}[2][]{\ext@arrow 0359\Rightarrowfill@{#1}{#2}}' >> $TEX
+
 printf "\n" >> $TEX
 printf '%s\n' '\setcounter{section}{150}' >> $TEX
 

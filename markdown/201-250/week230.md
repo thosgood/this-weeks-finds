@@ -284,7 +284,7 @@ You may ask where the rotation groups \mathrm{SO}(n) with n odd went! Well, thes
 correspond to fancier Dynkin diagrams that aren't simply laced, like
 this:
 
-o---o---o---o=>=o
+o---o---o---o\Rightarrow=o
 
 The funny arrow here indicates that the last two vectors aren't at a
 120-degree angle; they're at a 135-degree angle, and the last vector is

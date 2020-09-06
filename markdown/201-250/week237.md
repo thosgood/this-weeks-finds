@@ -174,7 +174,7 @@ you can integrate over a surface, to compute how the phase of a charged
         ----------->-----
        /        ||       \
       x         ||F       y   a path-of-paths F from the path f to the path g:
-       \        \/       /            we write this as F: f => g
+       \        \/       /            we write this as F: f \Rightarrow g
         ----------->-----
                    g
 

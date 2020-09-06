@@ -123,7 +123,7 @@ in ["Week 64"](#week64) and ["Week 181"](#week181).
 -   **B_n** The Dynkin diagram is a line of n dots with one double edge
     and an arrow indicating that the last root is shorter:
 
-                         o-------o-------o-------o====>====o 
+                         o-------o-------o-------o===\Rightarrow====o 
 
     The Lie group is \mathrm{Spin}(2n+1). The Coxeter group is the symmetry group
     of an $n$-dimensional cube. This group is the semidirect product of

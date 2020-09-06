@@ -534,13 +534,13 @@ monad is really a kind of *monoid* in the world of functors from our
 category (here \mathsf{Set}) to itself. In particular, since F is a monad, it
 comes with a natural transformation called a "multiplication":
 
-m: FF => F
+m: FF \Rightarrow F
 
 which sends formal linear combinations of formal linear combinations to
 formal linear combinations, in the obvious way. Similarly, since G is a
 monad, it comes with a natural transformation
 
-n: GG => G
+n: GG \Rightarrow G
 
 sending formal products of formal products to formal products. But how
 does FG get to be a monad? For this, we need some natural transformation
@@ -549,14 +549,14 @@ from FGFG to FG!
 There's an obvious thing to try, namely
 
                         mn 
-    FGFG ======> FFGG ======> FG
+    FGFG =====\Rightarrow FFGG =====\Rightarrow FG
 
 where in the first step we switch G and F somehow, and in the second
 step we use m and n. But, how do we do the first step?
 
 We need a natural transformation
 
-d: GF => FG
+d: GF \Rightarrow FG
 
 which sends formal products of formal linear combinations to formal
 linear combinations of formal products. Such a thing obviously exists;
@@ -574,13 +574,13 @@ Quite generally, to make the composite of monads F and G into a new
 monad FG, we need something that people call a "distributive law",
 which is a natural transformation
 
-d: GF => FG
+d: GF \Rightarrow FG
 
 This must satisfy some equations - but you can work out those yourself.
 For example, you can demand that
 
            FdG          mn 
-    FGFG ======> FFGG ======> FG
+    FGFG =====\Rightarrow FFGG =====\Rightarrow FG
 
 make FG into a monad, and see what that requires. (Besides the
 "multiplication" in our monad, we also need the "unit", so you
@@ -589,7 +589,7 @@ sexy than the multiplication, but it's equally essential.)
 
 However: all this becomes more fun with string diagrams! As the Catsters
 explain, and I explained in ["Week 89"](#week89), the
-multiplication m: FF => F can be drawn like this:
+multiplication m: FF \Rightarrow F can be drawn like this:
 
                          \               /
                           \             /
@@ -628,10 +628,10 @@ answer either way when we multiply three things:
                         F|                       F|
                          |                        |
 
-The multiplication n: GG => G looks similar to m, and it too has to
+The multiplication n: GG \Rightarrow G looks similar to m, and it too has to
 satisfy the associative law.
 
-How do we draw the distributive law d: FG => GF? Since it's a process
+How do we draw the distributive law d: FG \Rightarrow GF? Since it's a process
 of switching two things, we draw it as a *braiding*:
 
                   F\   /G
@@ -648,7 +648,7 @@ Given this, let's draw the multiplication for our would-be monad FG,
 namely
 
            FdG          mn 
-    FGFG ======> FFGG ======> FG
+    FGFG =====\Rightarrow FFGG =====\Rightarrow FG
 
 It looks like this:
 
@@ -692,7 +692,7 @@ draw an equation like this:
 but with the strands *doubled*, as above - I'm too lazy to draw this
 here. And then we need to find some nice conditions that make this
 associative law true. Clearly we should use the associative laws for m
-and n, but the "braiding" - the distributive law d: FG => GF - also
+and n, but the "braiding" - the distributive law d: FG \Rightarrow GF - also
 gets into the act.
 
 I'll leave this as a pleasant exercise in string diagram manipulation.

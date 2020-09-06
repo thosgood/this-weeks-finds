@@ -253,17 +253,11 @@ Now, on to some category theory!
 Michael Mueger has written some excellent papers on the relation between
 quantum field theory, category theory, and topology:
 
-6) Michael Mueger, Conformal field theory and Doplicher-Roberts
-reconstruction, available at
-[math-ph/0008027](http://xxx.lanl.gov/abs/math-ph/0008027).
+6) Michael Mueger, "Conformal field theory and Doplicher-Roberts reconstruction", available at [`math-ph/0008027`](http://xxx.lanl.gov/abs/math-ph/0008027).
 
-From subfactors to categories and topology I: Frobenius algebras in and
-Morita equivalence of tensor categories, available at
-[math.CT/0111204](http://xxx.lanl.gov/abs/math.CT/0111204).
+  "From subfactors to categories and topology I: Frobenius algebras in and Morita equivalence of tensor categories", available at [`math.CT/0111204`](http://xxx.lanl.gov/abs/math.CT/0111204).
 
-From subfactors to categories and topology II: The quantum double of
-tensor catgories and subfactors, available at
-[math.CT/0111205](http://xxx.lanl.gov/abs/math.CT/0111205).
+  "From subfactors to categories and topology II: The quantum double of tensor catgories and subfactors", available at [`math.CT/0111205`](http://xxx.lanl.gov/abs/math.CT/0111205).
 
 I can't possibly do justice to these, but I'd like to discuss a very
 pretty idea from his paper on Frobenius algebras. This will give me a
@@ -273,87 +267,72 @@ $n$-categories and homotopy theory.
 In ["Week 83"](#week83) I talked about adjoint functors, and more
 generally, adjunctions in any 2-category. If you don't understand this
 stuff, you're a goner now, but let me just remind you of the
-definitions. Suppose a and b are objects in a 2-category. Then we say
+definitions. Suppose $a$ and $b$ are objects in a 2-category. Then we say
 the morphism
-
-    L\colon  a \to  b
-
+$$L\colon a \to b$$
 is a "left adjoint" of the morphism
-
-    R\colon  b \to  a
-
-(and R is a "right adjoint" of L) if there are 2-morphisms called the
+$$R\colon b \to a$$
+(and $R$ is a "right adjoint" of $L$) if there are 2-morphisms called the
 "unit"
-
-    i: 1a => LR
-
+$$i: 1a \Rightarrow LR$$
 and "counit"
-
-    e: RL => 1b
-
+$$e: RL \Rightarrow 1b$$
 satisfying the "triangle equations", which say that these vertical
 composites are both identity 2-morphisms:
-
-              i.1L        1L.e
-    L = 1a L ======> LRL ======> L 1a = L
-
+$$L = 1_aL \xRightarrow{i\cdot1_L} LRL \xRightarrow{1_L\cdot e} L1_a = L$$
 and
-
-              1R.i        e.1R
-    R = R 1a ======> RLR ======> 1b R = R
-
-where . denotes horizontal composition. The whole setup (a,b,L,R,e,i) is
+$$R = R1_b \xRightarrow{1_R\cdot i} RLR \xRightarrow{e\cdot1_R} 1_bR = R$$
+where $\cdot$ denotes horizontal composition. The whole setup $(a,b,L,R,e,i)$ is
 then called an "adjunction".
 
-There are some important variations on this theme. For example, if e and
-i are invertible, but we drop the triangle equations, we call the setup
-an "equivalence". It's morally correct to consider two objects a and
-b in a 2-category "the same for all practical purposes" if they take
-part in an equivalence. A special case is when they are *equal* - since
-then we can take L,R,e,i to be identities. Another special case is when
-they are *isomorphic* - since then we can take L to be an isomorphism, R
-its inverse, and e and i to be identities. But in general we only need L
-and R to be isomorphisms "up to 2-isomorphism".
+There are some important variations on this theme. For example, if $e$ and
+$i$ are invertible, but we drop the triangle equations, we call the setup
+an "equivalence". It's morally correct to consider two objects $a$ and
+$b$ in a 2-category "the same for all practical purposes" if they take
+part in an equivalence. A special case is when they are *equal* --- since
+then we can take $L,R,e,i$ to be identities. Another special case is when
+they are *isomorphic* - since then we can take $L$ to be an isomorphism, $R$
+its inverse, and $e$ and $i$ to be identities. But in general we only need $L$
+and $R$ to be isomorphisms "up to 2-isomorphism".
 
 So, the notion of equivalence is better than equality, because it
 follows the fundamental principle of $n$-category theory: everything is
 only true up to something!
 
-If e and i are invertible and we *keep* the triangle equations, we call
+If $e$ and $i$ are invertible and we *keep* the triangle equations, we call
 the setup an "adjoint equivalence". In other words, an adjoint
 equivalence is an adjunction that is also an equivalence. This is a bit
 better than an equivalence. Recently on the category theory mailing list
 Paul Levy asked exactly how much better. The first answer is: not much,
 because given any equivalence we can cook up an adjoint equivalence by
 just fiddling with either the unit or counit in a standard way, using
-only the material at hand: (a,b,R,L,i,e). I leave this as a fun
+only the material at hand: $(a,b,R,L,i,e)$. I leave this as a fun
 exercise....
 
 But the second answer, which James Dolan and I worked out this Friday,
 goes like this:
 
 First, consider the "Platonic idea of an equivalence". By this, I mean
-the 2-category Equiv which is freely generated by objects a and b,
-morphisms L: a \to b and R\colon  b \to  a, and isomorphisms i: 1~b~ => RL and e:
-LR => 1~a~. Why do I call this the "Platonic idea of an equivalence"?
-Well, any equivalence in any 2-category C is just the same as a
+the 2-category $\mathsf{Equiv}$ which is freely generated by objects $a$ and $b$,
+morphisms $L\colon a \to b$ and $R\colon b \to a$, and isomorphisms
+$i\colon 1_b \Rightarrow RL$ and $e\colon LR \Rightarrow 1_a$.
+Why do I call this the "Platonic idea of an equivalence"?
+Well, any equivalence in any 2-category $\mathcal{C}$ is just the same as a
 2-functor
-
-F\colon  Equiv \to  C
-
-The functor F turns the "abstract" equivalence in Equiv into a
-"concrete" equivalence in C! This is reminiscent of Plato's theory of
+$$F\colon \mathsf{Equiv} \to \mathcal{C}$$
+The functor $F$ turns the "abstract" equivalence in $\mathsf{Equiv}$ into a
+"concrete" equivalence in $\mathcal{C}$! This is reminiscent of Plato's theory of
 ideas and how they get manifested in concrete situations. We can think
-of Equiv as the unadorned idea of an adjunction without any
+of $\mathsf{Equiv}$ as the unadorned idea of an adjunction without any
 contamination by accidental extra features.
 
 I should add that James, less of an intellectual snob than I, calls
-Equiv the "walking equivalence". After all, if someone has really big
+$\mathsf{Equiv}$ the "walking equivalence". After all, if someone has really big
 bushy eyebrows, so that when you see him walking down the street you
 first notice his eyebrows and only later realize there's a person
 attached, you call him a "walking pair of eyebrows". The person is
 basically just the life support system for the eyebrows! Similarly, in
-Equiv we have a 2-category which is just the life support system for an
+$\mathsf{Equiv}$ we have a 2-category which is just the life support system for an
 adjunction: no more and no less.
 
 Anyway, the walking equivalence is a weak 2-groupoid: a 2-category where
@@ -370,24 +349,30 @@ Eh? Well, I talked about geometric realization in part E of
 1-category in part J of ["Week 117"](#week117), so the only thing I
 need to do is say a bit about the nerve of a 2-category. This is a
 simplicial set where the 0-simplices correspond to objects:
-
-                                x
-
+$$x$$
 the 1-simplices correspond to morphisms:
-
-                        x ------F-------> y
-
+$$x\xrightarrow{F}Y$$
 the 2-simplices correspond to 2-morphisms:
-
-                                y
-                               / \                F\colon  x \to  y 
-                              /   \               G\colon  y \to  z
-                             / ||  \              H\colon  x \to  z
-                            F  ||   G             a: FG => H
-                           /   ||a   \
-                          /    \/     \
-                         x------H----->z
-
+$$
+  \begin{tikzpicture}
+    \node (x) at (0,0) {$x$};
+    \node (y) at (1,1.7) {$y$};
+    \node (z) at (2,0) {$z$};
+    \draw[thick,->] (x) to node[fill=white]{$F$} (y);
+    \draw[thick,->] (x) to node[fill=white]{$H$} (z);
+    \draw[thick,->] (y) to node[fill=white]{$G$} (z);
+    \draw[double,double equal sign distance,-implies] (y) to (1,0.2);
+    \node[fill=white] at (1,0.6) {$a$};
+    \node at (4,0.85) {$
+      \begin{aligned}
+        F\colon x&\to y
+      \\G\colon x&\to z
+      \\H\colon y&\to z
+      \\a\colon FG&\Rightarrow H
+      \end{aligned}
+    $};
+  \end{tikzpicture}
+$$
 and the higher-dimensional simplices correspond to equations,
 "equations between equations", and so on.
 
@@ -399,24 +384,19 @@ The 2-sphere!
 It's pretty easy to see... I'd draw it for you on paper if I could,
 but you'll have to do it yourself. It helps if you have a globe:
 
-a is the North Pole,
-
-b is the South Pole,
-
-L\colon  a \to  b is the Greenwich Meridian running from north to south,
-
-R\colon  b \to  a is the International Date Line running from south to north,
-
-i: 1~a~ => LR is the Eastern Hemisphere, and
-
-e: RL => 1~b~ is the Western Hemisphere!
+- $a$ is the North Pole,
+- $b$ is the South Pole,
+- $L\colon a \to b$ is the Greenwich Meridian running from north to south,
+- $R\colon b \to a$ is the International Date Line running from south to north,
+- $i\colon 1_a \Rightarrow LR$ is the Eastern Hemisphere, and
+- $e\colon RL \Rightarrow 1_b$ is the Western Hemisphere!
 
 (More precisely, we just get the 2-sphere up to homotopy equivalence:
 there is a whole bunch of higher-dimensional flab which I'm ignoring
 here. But that's okay, since we're doing homotopy theory.)
 
 We can also play this game for the "walking adjoint equivalence",
-AdEquiv. This is just like the walking equivalence, except we put in
+$\mathsf{AdEquiv}$. This is just like the walking equivalence, except we put in
 extra relations: the triangle equations. How does this affect the space
 we get?
 
@@ -440,32 +420,28 @@ an object.... but having an equivalence is not!
 
 There's even more fun to be had here. Since every adjoint equivalence
 is an equivalence, there's a 2-functor
-
-I\colon  Equiv \to  AdEquiv
-
+$$I\colon \mathsf{Equiv} \to \mathsf{AdEquiv}$$
 But I also said every equivalence can be massaged to obtain an adjoint
 equivalence! In fact, I said it could be done in two equally good ways.
 Either of these gives a 2-functor
-
-P\colon  AdEquiv \to  Equiv
-
+$$P\colon \mathsf{AdEquiv} \to \mathsf{Equiv}$$
 Now, we can ask what these become when we turn them into maps between
 spaces....
 
-It turns out that I is just the inclusion of the 2-sphere into the
-3-ball, while P is the map that squashes the 3-ball down to either the
+It turns out that $I$ is just the inclusion of the 2-sphere into the
+3-ball, while $P$ is the map that squashes the 3-ball down to either the
 eastern or western hemisphere of the sphere!
 
 By the way, it is irresistible to predict generalizations to higher
-dimensions. For any n, we will have weak $n$-groupoids called Equiv, the
-"walking $n$-equivalence", and AdEquiv, the "walking adjoint
-n-equivalence". The geometric realization of the nerve of Equiv will be
-homotopy equivalent to the $n$-sphere, while that of AdEquiv will be
+dimensions. For any $n$, we will have weak $n$-groupoids called $\mathsf{Equiv}$, the
+"walking $n$-equivalence", and $\mathsf{AdEquiv}$, the "walking adjoint
+n-equivalence". The geometric realization of the nerve of $\mathsf{Equiv}$ will be
+homotopy equivalent to the $n$-sphere, while that of $\mathsf{AdEquiv}$ will be
 homotopy equivalent to the $(n+1)$-ball.
 
-(Note that for n = 1, Equiv will be the category with objects a and b
-and isomorphisms L: a \to b, R\colon  b \to  a. In AdEquiv, there will be extra
-relations saying that R is the inverse of L. In this sense, it is really
+(Note that for $n = 1$, $\mathsf{Equiv}$ will be the category with objects $a$ and $b$
+and isomorphisms $L\colon a \to b$, $R\colon b \to a$. In $\mathsf{AdEquiv}$, there will be extra
+relations saying that $R$ is the inverse of $L$. In this sense, it is really
 an adjoint equivalence rather than an equivalence which is the proper
 generalization of an isomorphism!)
 
@@ -477,7 +453,7 @@ talk about the walking adjunction... and finally the walking
 
 ------------------------------------------------------------------------
 
-Postscript - Keith Harbaugh writes:
+Postscript --- Keith Harbaugh writes:
 
 > Since you're back on Desargues again, just thought I'd mention (in
 > case you haven't already noticed this) that if you look up Desargues
@@ -509,16 +485,16 @@ Linus Kramer writes:
 > a polarity.
 >
 > Now there is also a different polarity: take a Minkowski-like metric
-> on R^3, (++-). In exactly the same way as above, one obtains a
+> on $\mathbb{R}^3$, ($++-$). In exactly the same way as above, one obtains a
 > polarity, the hyperbolic polarity of the real projective plane. This
 > polarity has absolute elements, i.e. elements which are incident with
 > their image under the polarity: this happens with all 1-dim. subspaces
 > which are 'light-like', i.e. on which the metric vanishes. The set
-> of all absolute points in RP^2 is a 1-sphere.
+> of all absolute points in $\mathbb{RP}^2$ is a 1-sphere.
 >
 > One can prove that up to automorphisms, these two are the only
-> polarities for the real projective plane RP^2. Notice the associated
-> motion groups SO_3(R) and SO~2,1~(R) (the motion group consists of
+> polarities for the real projective plane $\mathbb{RP}^2$. Notice the associated
+> motion groups $\mathrm{SO}_3(\mathbb{R})$ and $\mathrm{SO}_{2,1}(\mathbb{R})$ (the motion group consists of
 > all collineations which commute with the polarity).
 >
 > Similar polarities can be defined for the complex, the quaternionic
@@ -535,7 +511,7 @@ Linus Kramer writes:
 >
 > These semi-classical embeddings were (re)discovered by the authors.
 > The corresponding motion groups are by the way simple; they are
-> SO~3,1~(R), SU~3,1~(C) and SU~3,1~(H)=Sp~3,1~. If one looks only for
+> $SO_{3,1}(\mathbb{R})$, $SU_{3,1}(\mathbb{C})$ and $SU_{3,1}(\mathbb{H})=\mathrm{Sp}_{3,1}$. If one looks only for
 > isometric motions (as the authors do) (i.e. motions which centralize
 > at the same time the elliptic polarity) one obtains the compact groups
 > mentioned in the article.

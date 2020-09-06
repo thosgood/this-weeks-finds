@@ -54,7 +54,7 @@ Dynkin diagram:
 we get the symmetry group of the equilateral triangle, while starting
 with this one:
 
-                               o===>===o                  B2
+                               o==\Rightarrow===o                  B2
 
 we get the symmetry group of the square, and starting with this one:
 

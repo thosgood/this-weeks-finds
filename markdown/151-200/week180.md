@@ -275,7 +275,7 @@ spacetime.
 
 The Dynkin diagram of \mathrm{Spin}(5,C) is two dots connected by a double edge:
 
-                          o===>===o 
+                          o==\Rightarrow===o 
 
 For an explanation of the double edge and the arrow see
 ["Week 62"](#week62) and ["Week 64"](#week64), where I also
@@ -341,7 +341,7 @@ higher dimensions....
 
 The Dynkin diagram of \mathrm{Spin}(7,C) has three dots:
 
-                         o-------o===>===o 
+                         o-------o==\Rightarrow===o 
 
 The fundamental rep corresponding to the left dot comes from the vector
 rep of \mathrm{SO}(7,C) on C^7. The rep corresponding to the middle dot is the
@@ -381,7 +381,7 @@ it's all related to incidence geometry.
 
 The Dynkin diagram of \mathrm{SO}(9,C) has 4 = (9-1)/2 dots:
 
-                     o-------o-------o====>====o 
+                     o-------o-------o===\Rightarrow====o 
 
 The fundamental rep corresponding to the ith dot is the ith exterior
 power of vector rep, *except* for the last dot, which corresponds to the
@@ -415,7 +415,7 @@ compactifying it in a certain way, and then complexifying it - we'll
 talk about this more later! Inside this quadric there are various types
 of geometrical figures:
 
-                     o-------o-------o====>====o 
+                     o-------o-------o===\Rightarrow====o 
                 points     null     null      null
                           lines    planes    3-spaces
 

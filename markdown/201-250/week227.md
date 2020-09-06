@@ -337,7 +337,7 @@ This says that if P implies Q and it also implies Q', then it implies Q
 
 Here's another:
 
-    P |- Q => R
+    P |- Q \Rightarrow R
     ------------
     P and Q |- R
 
