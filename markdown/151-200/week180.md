@@ -1317,42 +1317,69 @@ even though there is one for every *other* dimension from $1$ to $n/2$.
 > $$\bullet$$
 > is the dotted dynkin diagram for projective line geometry), two kinds
 > of special subspaces that look like projective planes (since
-
-    d-*
-
+> $$
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (1,0);
+>     \node at (1,0) {$\bullet$};
+>     \node[fill=white] at (0,0) {$d$};
+>   \end{tikzpicture}
+> $$
 > and
-
-    *-f
-
+> $$
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (1,0);
+>     \node at (0,0) {$\bullet$};
+>     \node[fill=white] at (1,0) {$f$};
+>   \end{tikzpicture}
+> $$
 > are slightly different ways of drawing the dotted dynkin diagram for
 > projective plane geometry), three kinds of subspaces that look like 
 > projective $3$-spaces (since
-
-    a
-    |
-    d-*
-
+> $$
+>   \begin{tikzpicture}
+>     \draw[thick] (0,1) to (0,0) to (1,0);
+>     \node at (1,0) {$\bullet$};
+>     \node[fill=white] at (0,1) {$a$};
+>     \node[fill=white] at (0,0) {$d$};
+>   \end{tikzpicture}
+> $$
 > and
-
-    c-d-*
-
+> $$
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (2,0);
+>     \node at (2,0) {$\bullet$};
+>     \node[fill=white] at (0,0) {$c$};
+>     \node[fill=white] at (1,0) {$d$};
+>   \end{tikzpicture}
+> $$
 > and
-
-    *-f-g
-
+> $$
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (2,0);
+>     \node at (0,0) {$\bullet$};
+>     \node[fill=white] at (1,0) {$f$};
+>     \node[fill=white] at (2,0) {$g$};
+>   \end{tikzpicture}
+> $$
 > are isomorphic to the dotted dynkin diagram for projective $3$-space
 > geometry), and so forth.  since the
-
-    d-*
-
+> $$
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (1,0);
+>     \node at (1,0) {$\bullet$};
+>     \node[fill=white] at (0,0) {$d$};
+>   \end{tikzpicture}
+> $$
 > sub-diagram and the
-
-    *-f
-
+> $$
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (1,0);
+>     \node at (0,0) {$\bullet$};
+>     \node[fill=white] at (1,0) {$f$};
+>   \end{tikzpicture}
+> $$
 > sub-diagrams intersect in
-
-    *
-
+> $$\bullet$$
 > the intersection of special projective planes of the two different
 > types will be a special projective line if the two special projective
 > planes lie in a single flag.  and so forth.
@@ -1366,68 +1393,114 @@ even though there is one for every *other* dimension from $1$ to $n/2$.
 > now let's return to the example discussed by marc bellon.  we have a
 > $d$-series dynkin diagram dotted at the boring end, thus for example
 > $d_5$:
-
-          d
-         /
-    *-b-c
-         \
-          e
-
+> $$
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (2,0) to (3,1);
+>     \draw[thick] (2,0) to (3,-1);
+>     \node at (0,0) {$\bullet$};
+>     \node[fill=white] at (1,0) {$b$};
+>     \node[fill=white] at (2,0) {$c$};
+>     \node[fill=white] at (3,1) {$d$};
+>     \node[fill=white] at (3,-1) {$e$};
+>   \end{tikzpicture}
+> $$
 > the semi-lattice of connected sub-diagrams containing the chosen
 > dot is:
-
-
-               *
-
-
-              *-b
-
-
-             *-b-c
-
-
-          d         *-b-c
-         /               \ 
-    *-b-c                 e
-
-
-                  d
-                 /
-            *-b-c
-                 \
-                  e
-
-
+> $$\bullet$$
+> $$
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (1,0);
+>     \node at (0,0) {$\bullet$};
+>     \node[fill=white] at (1,0) {$b$};
+>   \end{tikzpicture}
+> $$
+> $$
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (2,0);
+>     \node at (0,0) {$\bullet$};
+>     \node[fill=white] at (1,0) {$b$};
+>     \node[fill=white] at (2,0) {$c$};
+>   \end{tikzpicture}
+> $$
+> $$
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (2,0) to (3,1);
+>     \node at (0,0) {$\bullet$};
+>     \node[fill=white] at (1,0) {$b$};
+>     \node[fill=white] at (2,0) {$c$};
+>     \node[fill=white] at (3,1) {$d$};
+>   \end{tikzpicture}
+>   \qquad
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (2,0) to (3,-1);
+>     \node at (0,0) {$\bullet$};
+>     \node[fill=white] at (1,0) {$b$};
+>     \node[fill=white] at (2,0) {$c$};
+>     \node[fill=white] at (3,-1) {$e$};
+>   \end{tikzpicture}
+> $$
+> $$
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (2,0) to (3,1);
+>     \draw[thick] (2,0) to (3,-1);
+>     \node at (0,0) {$\bullet$};
+>     \node[fill=white] at (1,0) {$b$};
+>     \node[fill=white] at (2,0) {$c$};
+>     \node[fill=white] at (3,1) {$d$};
+>     \node[fill=white] at (3,-1) {$e$};
+>   \end{tikzpicture}
+> $$
 > we see that a flag in this geometry includes a projective line
 > corresponding to
-
-    *
-
+> $$\bullet$$
 > a larger projective plane corresponding to
-
-    *-b
-
+> $$
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (1,0);
+>     \node at (0,0) {$\bullet$};
+>     \node[fill=white] at (1,0) {$b$};
+>   \end{tikzpicture}
+> $$
 > a larger projective $3$-space corresponding to
-
-    *-b-c
-
+> $$
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (2,0);
+>     \node at (0,0) {$\bullet$};
+>     \node[fill=white] at (1,0) {$b$};
+>     \node[fill=white] at (2,0) {$c$};
+>   \end{tikzpicture}
+> $$
 > two larger projective $4$-spaces corresponding to
-
-          d         *-b-c
-         /               \ 
-    *-b-c                 e
-
+> $$
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (2,0) to (3,1);
+>     \node at (0,0) {$\bullet$};
+>     \node[fill=white] at (1,0) {$b$};
+>     \node[fill=white] at (2,0) {$c$};
+>     \node[fill=white] at (3,1) {$d$};
+>   \end{tikzpicture}
+>   \qquad
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (2,0) to (3,-1);
+>     \node at (0,0) {$\bullet$};
+>     \node[fill=white] at (1,0) {$b$};
+>     \node[fill=white] at (2,0) {$c$};
+>     \node[fill=white] at (3,-1) {$e$};
+>   \end{tikzpicture}
+> $$
 > whose intersection is the projective $3$-space, and finally the space of
 > all points in the geometry, corresponding to
-
-
-          d
-         /
-    *-b-c
-         \
-          e
-
-
+> $$
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (2,0) to (3,1);
+>     \draw[thick] (2,0) to (3,-1);
+>     \node at (0,0) {$\bullet$};
+>     \node[fill=white] at (1,0) {$b$};
+>     \node[fill=white] at (2,0) {$c$};
+>     \node[fill=white] at (3,1) {$d$};
+>     \node[fill=white] at (3,-1) {$e$};
+>   \end{tikzpicture}
+> $$
 > since the projective $3$-space appears as the intersection of the two
 > projective $4$-spaces, it's in some sense redundant and thus not one of
 > the "principal" subspaces in the flag.  but it's there nevertheless,
