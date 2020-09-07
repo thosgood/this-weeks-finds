@@ -19,3 +19,4 @@
     + gerbe
     + manifold
     + groupoid
+    + sphere

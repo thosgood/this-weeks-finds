@@ -279,7 +279,7 @@ spins
 Any surface in space gets its area from the spin network edges that
 puncture it, and a spin-j edge contributes an area of
 
-    8 \pi  \gamma sqrt(j(j+1))
+    8 \pi  \gamma \sqrt{j(j+1)}
 
 Here \gamma is a dimensionless constant called the "Barbero-Immirzi
 parameter" - a puzzling, annoying but so far unavoidable feature of
@@ -288,7 +288,7 @@ light on this puzzling parameter.
 
 If we have a black hole of area close to A, we have
 
-    A ~ SUM 8 \pi  \gamma sqrt(j(j+1))
+    A ~ SUM 8 \pi  \gamma \sqrt{j(j+1)}
 
 where \~ means "approximately equal to", and we sum over spin network
 edges puncturing the event horizon. But it turns out that the geometry
@@ -307,7 +307,7 @@ product is taken over all punctures. To get the *total* number of
 microstates, we must then sum this quantity over all choices of the
 spins j satisfying
 
-    A ~ SUM 8 \pi  \gamma sqrt(j(j+1)).
+    A ~ SUM 8 \pi  \gamma \sqrt{j(j+1)}.
 
 This is a nice math problem. It turns out that for a large black hole,
 the whopping majority of all microstates come from taking all the spins
@@ -566,7 +566,7 @@ argued that this is implausible. In loop quantum gravity, the area
 eigenvalues get very densely packed for a large black hole, since one is
 adding up lots of different numbers of the form
 
-    8 \pi  \gamma sqrt(j(j+1)), 
+    8 \pi  \gamma \sqrt{j(j+1)}, 
 
 so one would not see widely spaced spectral lines in Hawking radiation
 from a large black hole.
