@@ -1206,24 +1206,89 @@ even though there is one for every *other* dimension from $1$ to $n/2$.
 >     \end{tikzpicture}
 >   \end{gathered}
 > $$
-> 
-
-          a        a                       a
-          |        |                       |
-      b-c-d-*-f  c-d-*-f-g  b-c-d-*-f-g  c-d-*-f-g-h  b-c-d-*-f-g-h
-
-
-                     a          a
-                     |          |
-                 b-c-d-*-f-g  c-d-*-f-g-h  b-c-d-*-f-g-h
-
-
-                                 a
-                                 |
-                             b-c-d-*-f-g-h
-
-
-
+> $$
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (4,0);
+>     \draw[thick] (2,0) to (2,1);
+>     \node at (3,0) {$\bullet$};
+>     \node[fill=white] at (0,0) {$b$};
+>     \node[fill=white] at (1,0) {$c$};
+>     \node[fill=white] at (2,0) {$d$};
+>     \node[fill=white] at (4,0) {$f$};
+>     \node[fill=white] at (2,1) {$a$};
+>   \end{tikzpicture}
+>   \qquad
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (4,0);
+>     \draw[thick] (1,0) to (1,1);
+>     \node at (2,0) {$\bullet$};
+>     \node[fill=white] at (0,0) {$c$};
+>     \node[fill=white] at (1,0) {$d$};
+>     \node[fill=white] at (3,0) {$f$};
+>     \node[fill=white] at (4,0) {$g$};
+>     \node[fill=white] at (1,1) {$a$};
+>   \end{tikzpicture}
+>   \qquad
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (5,0);
+>     \node at (3,0) {$\bullet$};
+>     \node[fill=white] at (0,0) {$b$};
+>     \node[fill=white] at (1,0) {$c$};
+>     \node[fill=white] at (2,0) {$d$};
+>     \node[fill=white] at (4,0) {$f$};
+>     \node[fill=white] at (5,1) {$g$};
+>   \end{tikzpicture}
+> $$
+> $$
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (5,0);
+>     \draw[thick] (2,0) to (2,1);
+>     \node at (3,0) {$\bullet$};
+>     \node[fill=white] at (0,0) {$b$};
+>     \node[fill=white] at (1,0) {$c$};
+>     \node[fill=white] at (2,0) {$d$};
+>     \node[fill=white] at (4,0) {$f$};
+>     \node[fill=white] at (5,0) {$g$};
+>     \node[fill=white] at (2,1) {$a$};
+>   \end{tikzpicture}
+>   \qquad
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (5,0);
+>     \draw[thick] (1,0) to (1,1);
+>     \node at (2,0) {$\bullet$};
+>     \node[fill=white] at (0,0) {$c$};
+>     \node[fill=white] at (1,0) {$d$};
+>     \node[fill=white] at (3,0) {$f$};
+>     \node[fill=white] at (4,0) {$g$};
+>     \node[fill=white] at (5,0) {$h$};
+>     \node[fill=white] at (1,1) {$a$};
+>   \end{tikzpicture}
+>   \qquad
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (6,0);
+>     \node at (3,0) {$\bullet$};
+>     \node[fill=white] at (0,0) {$b$};
+>     \node[fill=white] at (1,0) {$c$};
+>     \node[fill=white] at (2,0) {$d$};
+>     \node[fill=white] at (4,0) {$f$};
+>     \node[fill=white] at (5,0) {$g$};
+>     \node[fill=white] at (6,0) {$h$};
+>   \end{tikzpicture}
+> $$
+> $$
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (6,0);
+>     \draw[thick] (2,0) to (2,1);
+>     \node at (3,0) {$\bullet$};
+>     \node[fill=white] at (0,0) {$b$};
+>     \node[fill=white] at (1,0) {$c$};
+>     \node[fill=white] at (2,0) {$d$};
+>     \node[fill=white] at (4,0) {$f$};
+>     \node[fill=white] at (5,0) {$g$};
+>     \node[fill=white] at (6,0) {$h$};
+>     \node[fill=white] at (2,1) {$a$};
+>   \end{tikzpicture}
+> $$
 > then each sub-diagram in the partial order can be interpreted as a
 > type of special subspace of the space of points in the
 > $$
