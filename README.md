@@ -3,6 +3,7 @@
 - footnotes?
     + 151
 - **diagrams**
+    + 182 (tables)
     + 181
     + 174
     + 159
