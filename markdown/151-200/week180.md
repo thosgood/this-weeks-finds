@@ -1044,38 +1044,169 @@ even though there is one for every *other* dimension from $1$ to $n/2$.
 > in a much simpler way.
 > 
 > given a dotted dynkin diagram, this time for example say:
-
-        a
-        |
-    b-c-d-*-f-g-h
-
+> $$
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (6,0);
+>     \draw[thick] (2,0) to (2,1);
+>     \node[fill=white] at (0,0) {$b$};
+>     \node[fill=white] at (1,0) {$c$};
+>     \node[fill=white] at (2,0) {$d$};
+>     \node[fill=white] at (3,0) {$*$};
+>     \node[fill=white] at (4,0) {$f$};
+>     \node[fill=white] at (5,0) {$g$};
+>     \node[fill=white] at (6,0) {$h$};
+>     \node[fill=white] at (2,1) {$a$};
+>   \end{tikzpicture}
+> $$
 > we can consider the partially ordered set of all connected
 > sub-diagrams including the chosen dot, in this case:
-
-
-
-                                  *
-
-
-
-
-                              d-*  *-f
-
-
-                       a
-                       |
-                       d-*  c-d-*  d-*-f  *-f-g 
-
-
-               a             a
-               |             |
-             c-d-*  b-c-d-*  d-*-f  c-d-*-f  d-*-f-g  *-f-g-h
-
-
-                a      a
-                |      |
-            b-c-d-*  c-d-*-f  b-c-d-*-f  c-d-*-f-g  d-*-f-g-h
-
+> $$\bullet$$
+> $$
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (1,0);
+>     \node at (1,0) {$\bullet$};
+>     \node[fill=white] at (0,0) {$d$};
+>   \end{tikzpicture}
+>   \qquad
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (1,0);
+>     \node at (0,0) {$\bullet$};
+>     \node[fill=white] at (1,0) {$f$};
+>   \end{tikzpicture}
+> $$
+> $$
+>   \begin{tikzpicture}
+>     \draw[thick] (0,1) to (0,0) to (1,0);
+>     \node at (1,0) {$\bullet$};
+>     \node[fill=white] at (0,0) {$d$};
+>     \node[fill=white] at (0,1) {$a$};
+>   \end{tikzpicture}
+>   \qquad
+>   \begin{tikzpicture}
+>     \draw[thick] to (0,0) to (2,0);
+>     \node at (2,0) {$\bullet$};
+>     \node[fill=white] at (0,0) {$c$};
+>     \node[fill=white] at (1,0) {$d$};
+>   \end{tikzpicture}
+>   \qquad
+>   \begin{tikzpicture}
+>     \draw[thick] to (0,0) to (2,0);
+>     \node at (1,0) {$\bullet$};
+>     \node[fill=white] at (0,0) {$d$};
+>     \node[fill=white] at (2,0) {$f$};
+>   \end{tikzpicture}
+>   \qquad
+>   \begin{tikzpicture}
+>     \draw[thick] to (0,0) to (2,0);
+>     \node at (0,0) {$\bullet$};
+>     \node[fill=white] at (1,0) {$f$};
+>     \node[fill=white] at (2,0) {$g$};
+>   \end{tikzpicture}
+> $$
+> $$
+>   \begin{gathered}
+>     \begin{tikzpicture}
+>       \draw[thick] (0,0) to (2,0);
+>       \draw[thick] (1,0) to (1,1);
+>       \node at (2,0) {$\bullet$};
+>       \node[fill=white] at (0,0) {$c$};
+>       \node[fill=white] at (1,0) {$d$};
+>       \node[fill=white] at (1,1) {$a$};
+>     \end{tikzpicture}
+>     \qquad
+>     \begin{tikzpicture}
+>       \draw[thick] (0,0) to (3,0);
+>       \node at (3,0) {$\bullet$};
+>       \node[fill=white] at (0,0) {$b$};
+>       \node[fill=white] at (1,0) {$c$};
+>       \node[fill=white] at (2,0) {$d$};
+>     \end{tikzpicture}
+>     \qquad
+>     \begin{tikzpicture}
+>       \draw[thick] (0,0) to (2,0);
+>       \draw[thick] (0,0) to (0,1);
+>       \node at (1,0) {$\bullet$};
+>       \node[fill=white] at (0,0) {$d$};
+>       \node[fill=white] at (2,0) {$f$};
+>       \node[fill=white] at (0,1) {$a$};
+>     \end{tikzpicture}
+>   \\
+>     \begin{tikzpicture}
+>       \draw[thick] (0,0) to (3,0);
+>       \node at (2,0) {$\bullet$};
+>       \node[fill=white] at (0,0) {$c$};
+>       \node[fill=white] at (1,0) {$d$};
+>       \node[fill=white] at (3,0) {$f$};
+>     \end{tikzpicture}
+>     \qquad
+>     \begin{tikzpicture}
+>       \draw[thick] (0,0) to (3,0);
+>       \node at (1,0) {$\bullet$};
+>       \node[fill=white] at (0,0) {$d$};
+>       \node[fill=white] at (2,0) {$f$};
+>       \node[fill=white] at (3,0) {$g$};
+>     \end{tikzpicture}
+>     \qquad
+>     \begin{tikzpicture}
+>       \draw[thick] (0,0) to (3,0);
+>       \node at (0,0) {$\bullet$};
+>       \node[fill=white] at (1,0) {$f$};
+>       \node[fill=white] at (2,0) {$g$};
+>       \node[fill=white] at (3,0) {$h$};
+>     \end{tikzpicture}
+>   \end{gathered}
+> $$
+> $$
+>   \begin{gathered}
+>     \begin{tikzpicture}
+>       \draw[thick] (0,0) to (3,0);
+>       \draw[thick] (2,0) to (2,1);
+>       \node at (3,0) {$\bullet$};
+>       \node[fill=white] at (0,0) {$b$};
+>       \node[fill=white] at (1,0) {$c$};
+>       \node[fill=white] at (2,0) {$d$};
+>       \node[fill=white] at (2,1) {$a$};
+>     \end{tikzpicture}
+>     \qquad
+>     \begin{tikzpicture}
+>       \draw[thick] (0,0) to (3,0);
+>       \draw[thick] (1,0) to (1,1);
+>       \node at (2,0) {$\bullet$};
+>       \node[fill=white] at (0,0) {$c$};
+>       \node[fill=white] at (1,0) {$d$};
+>       \node[fill=white] at (3,0) {$f$};
+>       \node[fill=white] at (1,1) {$a$};
+>     \end{tikzpicture}
+>   \\
+>     \begin{tikzpicture}
+>       \draw[thick] (0,0) to (4,0);
+>       \node at (3,0) {$\bullet$};
+>       \node[fill=white] at (0,0) {$b$};
+>       \node[fill=white] at (1,0) {$c$};
+>       \node[fill=white] at (2,0) {$d$};
+>       \node[fill=white] at (4,0) {$f$};
+>     \end{tikzpicture}
+>     \qquad
+>     \begin{tikzpicture}
+>       \draw[thick] (0,0) to (4,0);
+>       \node at (2,0) {$\bullet$};
+>       \node[fill=white] at (0,0) {$c$};
+>       \node[fill=white] at (1,0) {$d$};
+>       \node[fill=white] at (3,0) {$f$};
+>       \node[fill=white] at (4,0) {$g$};
+>     \end{tikzpicture}
+>     \qquad
+>     \begin{tikzpicture}
+>       \draw[thick] (0,0) to (4,0);
+>       \node at (1,0) {$\bullet$};
+>       \node[fill=white] at (0,0) {$d$};
+>       \node[fill=white] at (2,0) {$f$};
+>       \node[fill=white] at (3,0) {$g$};
+>       \node[fill=white] at (4,0) {$h$};
+>     \end{tikzpicture}
+>   \end{gathered}
+> $$
+> 
 
           a        a                       a
           |        |                       |
@@ -1095,11 +1226,20 @@ even though there is one for every *other* dimension from $1$ to $n/2$.
 
 > then each sub-diagram in the partial order can be interpreted as a
 > type of special subspace of the space of points in the
-
-        a
-        |
-    b-c-d-*-f-g-h
-
+> $$
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (6,0);
+>     \draw[thick] (2,0) to (2,1);
+>     \node[fill=white] at (0,0) {$b$};
+>     \node[fill=white] at (1,0) {$c$};
+>     \node[fill=white] at (2,0) {$d$};
+>     \node[fill=white] at (3,0) {$*$};
+>     \node[fill=white] at (4,0) {$f$};
+>     \node[fill=white] at (5,0) {$g$};
+>     \node[fill=white] at (6,0) {$h$};
+>     \node[fill=white] at (2,1) {$a$};
+>   \end{tikzpicture}
+> $$
 > geometry, with the partial order (not completely explicit in the above
 > picture) indicating the containment relationships between the
 > subspaces in a complete so-called "flag" configuration, including
@@ -1109,9 +1249,7 @@ even though there is one for every *other* dimension from $1$ to $n/2$.
 > 
 > thus in this case the space of points of the geometry contains special
 > subspaces that look like projective lines (since
-
-    *
-
+> $$\bullet$$
 > is the dotted dynkin diagram for projective line geometry), two kinds
 > of special subspaces that look like projective planes (since
 
