@@ -168,12 +168,12 @@ electrostatic potential at each terminal.
 
 It's pretty easy to see that Q is a "quadratic form", meaning that
 
-Q(φ) = \sum~i,j~ Q~ij~ φ_i φ~j~
+Q(\varphi) = \sum~i,j~ Q~ij~ \varphi_i \varphi~j~
 
 for some matrix Q~ij~, which we can assume is symmetric. And it's easy
 to see that Q is "nonnegative", meaning
 
-Q(φ) ≥ 0
+Q(\varphi) ≥ 0
 
 I wildly guessed that every nonnegative quadratic form comes from a
 circuit made of resistors and grounds. Since then I've learned a few
@@ -183,17 +183,17 @@ For starters, which nonnegative quadratic forms do we get from circuits
 built only from resistors? We certainly don't get all of them. For
 example, if n = 2, every circuit built from just resistors has
 
-Q(φ) = c (φ_1 - φ_2)^2
+Q(\varphi) = c (\varphi_1 - \varphi_2)^2
 
 for some nonnegative number c. So, we'll never get this quadratic form:
 
-Q(φ) = (φ_1 + φ_2)^2
+Q(\varphi) = (\varphi_1 + \varphi_2)^2
 
 even though it's nonnegative. In general, for any n, we can get a lot
 of quadratic forms just by connecting each terminal to each other with a
 resistor. Such circuits give precisely these quadratic forms:
 
-Q(φ) = \sum~i,j~ c~ij~ (φ_i - φ~j~)^2
+Q(\varphi) = \sum~i,j~ c~ij~ (\varphi_i - \varphi~j~)^2
 
 where the numbers c~ij~ are nonnegative. We can assume without loss of
 generality that c~ii~ = 0. The numbers c~ij~ are *reciprocals* of
@@ -203,15 +203,15 @@ not with zero resistance.
 It turns out that quadratic forms of the above type are famous: they're
 called "Dirichlet forms". People have characterized them in lots of
 ways. Here's one: they're the nonnegative quadratic forms that vanish
-when φ is constant:
+when \varphi is constant:
 
-φ_i = φ~j~ for all i,j implies Q(φ) = 0
+\varphi_i = \varphi~j~ for all i,j implies Q(\varphi) = 0
 
 and also satisfy the "Markov property":
 
-Q(φ) ≥ Q(\psi)
+Q(\varphi) ≥ Q(\psi)
 
-when \psi_i is the minimum of φ_i and 1. This characterization is
+when \psi_i is the minimum of \varphi_i and 1. This characterization is
 Proposition 1.7 here:
 
 5) Christophe Sabot, Existence and uniqueness of diffusions on finitely
@@ -252,9 +252,9 @@ fractals, but for nice regions in Euclidean space - the sort of regions
 you'd normally consider when studying the heat equation. In this case
 the Dirichlet form arises from the Laplacian:
 
-Q(φ) = - \int φ∇^2φ
+Q(\varphi) = - \int \varphi∇^2\varphi
 
-where φ is a function on our region. The moral is that we should think
+where \varphi is a function on our region. The moral is that we should think
 of any Dirichlet form as a generalized Laplacian!
 
 There's a huge literature on Dirichlet forms. Most of it focuses on
@@ -273,11 +273,11 @@ Q\colon  R^n \to  R
 
 and it turns out such a form is Dirichlet iff
 
-Q(φ) ≥ Q(\psi)
+Q(\varphi) ≥ Q(\psi)
 
 whenever
 
-|φ_i - φ~j~| ≥ |\psi_i - \psi~j~|
+|\varphi_i - \varphi~j~| ≥ |\psi_i - \psi~j~|
 
 for all i,j. It's a fun exercise to see that this is equivalent to our
 previous characterization. And there's a simple physical idea behind
@@ -329,7 +329,7 @@ Q\colon  R^3 \to  R
 Then we can get a quadratic form in 2 variables by taking the minimum of
 Q as the third variable ranges freely:
 
-P(φ_1, φ_2) = min~φ_3~ Q(φ_1, φ_2, φ_3)
+P(\varphi_1, \varphi_2) = min~\varphi_3~ Q(\varphi_1, \varphi_2, \varphi_3)
 
 Physically this corresponds to taking a circuit with 3 terminals, like
 this:
@@ -355,7 +355,7 @@ This means we let the potential at this vertex vary freely; by the
 principle of minimum power, it will do whatever it takes to minimize the
 power. So, we get a new circuit whose quadratic form is
 
-P(φ_1, φ_2) = min~φ_3~ Q(φ_1, φ_2, φ_3)
+P(\varphi_1, \varphi_2) = min~\varphi_3~ Q(\varphi_1, \varphi_2, \varphi_3)
 
 More generally, we can take a nonnegative quadratic form in n variables,
 and take any subset of these variables, and get a new quadratic form by
@@ -403,23 +403,23 @@ vertices, just terminals. As before, each pair of terminals is connected
 with a resistor. But now, each terminal is also connected to the ground
 via a resistor! Such circuits give exactly these quadratic forms:
 
-Q(φ) = \sum~i,j~ c~ij~ (φ_i - φ~j~)^2 + \sum_i c_i φ_i^2
+Q(\varphi) = \sum~i,j~ c~ij~ (\varphi_i - \varphi~j~)^2 + \sum_i c_i \varphi_i^2
 
 where c~ij~ and c_i are nonnegative numbers.
 
 Let's call these "generalized Dirichlet forms". I believe these
 generalized Dirichlet forms are characterized by the Markov property:
 
-Q(φ) ≥ Q(\psi)
+Q(\varphi) ≥ Q(\psi)
 
-when \psi_i is the minimum of φ_i and 1.
+when \psi_i is the minimum of \varphi_i and 1.
 
 These generalized Dirichlet forms don't include *all* the nonnegative
 quadratic forms. Why? Because, as Ben Tilly pointed out, they don't
-include quadratic forms where the cross-terms φ_i φ~j~ have positive
+include quadratic forms where the cross-terms \varphi_i \varphi~j~ have positive
 coefficients. So, for example, we don't get this:
 
-Q(φ_1, φ_2) = (φ_1 + φ_2)^2
+Q(\varphi_1, \varphi_2) = (\varphi_1 + \varphi_2)^2
 
 Sabot claims that generalized Dirichlet forms are closed under the trace
 map and gluing. Given this, the same argument I already sketched shows
@@ -505,19 +505,19 @@ And it gives yet another characterization of Dirichlet forms! I don't
 love it - but I might as well tell you about it.
 
 A Dirichlet form on R^n is a nonnegative quadratic form that vanishes
-when φ is constant:
+when \varphi is constant:
 
-φ_i = φ~j~ for all i,j implies Q(φ) = 0
+\varphi_i = \varphi~j~ for all i,j implies Q(\varphi) = 0
 
 and satisfies
 
-Q(φ) ≥ Q(\psi)
+Q(\varphi) ≥ Q(\psi)
 
 whenever
 
-\psi_i = φ_i if 0 < φ_i < 1\
-       1 if φ_i > 1\
-       0 if φ_i < 0
+\psi_i = \varphi_i if 0 < \varphi_i < 1\
+       1 if \varphi_i > 1\
+       0 if \varphi_i < 0
 
 This is yet another way to say that power decreases when the potentials
 at the terminals are closer together.

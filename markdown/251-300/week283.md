@@ -552,19 +552,19 @@ x^2 + x - 1 = 0
 
 Solving this, we get two solutions. The one I like is the golden ratio:
 
-x = φ = (-1 + √5)/2 \~ 0.6180339...
+x = \varphi = (-1 + √5)/2 \~ 0.6180339...
 
 Next we need to solve
 
-z + z^-1^ = φ
+z + z^-1^ = \varphi
 
 This is another quadratic equation:
 
-z^2 - φ z + 1 = 0
+z^2 - \varphi z + 1 = 0
 
 with two conjugate solutions, one being
 
-z = (φ + (φ^2 - 4)^½^)/2
+z = (\varphi + (\varphi^2 - 4)^½^)/2
 
 I've sneakily chosen the solution that's my favorite 5th root of
 unity:
@@ -573,7 +573,7 @@ z = exp(2\pi i/5) = cos(2\pi /5) + i sin(2\pi /5)
 
 So, we're getting
 
-cos(2\pi /5) = φ/2
+cos(2\pi /5) = \varphi/2
 
 A fact we should have learned in high school, but probably never did.
 
@@ -586,7 +586,7 @@ P^2 = |1 - z|^2\
 \
      = 2 - 2 cos(2\pi /5)\
 \
-     = 2 - φ
+     = 2 - \varphi
 
 Next let's compute D, the length of the side of a decagon inscribed in
 the unit circle! We can mimic the last stage of the above calculation,
@@ -598,24 +598,24 @@ To go further, we can use a half-angle formula:
 
 cos(\pi /5) = ((1 + cos(2\pi /5))/2)^½^\
 \
-            = (½ + φ/4)^½^
+            = (½ + \varphi/4)^½^
 
 This gives
 
-D^2 = 2 - (2 + φ)^½^
+D^2 = 2 - (2 + \varphi)^½^
 
 But we can simplify this a bit more. As any lover of the golden ratio
 should know,
 
-2 + φ = 2.6180339...
+2 + \varphi = 2.6180339...
 
 is the square of
 
-1 + φ = 1.6180339...
+1 + \varphi = 1.6180339...
 
 So we really have
 
-D^2 = 1 - φ
+D^2 = 1 - \varphi
 
 Okay. Your eyes have glazed over by now - unless you've secretly been
 waiting all along for This Week's Finds to cover high-school algebra
@@ -625,7 +625,7 @@ P^2 = H^2 + D^2
 
 simply says
 
-2 - φ = 1 + (1 - φ)
+2 - \varphi = 1 + (1 - \varphi)
 
 That wasn't so bad, but imagine discovering it and proving it using
 axiomatic geometry back around 300 BC! How did they do it?

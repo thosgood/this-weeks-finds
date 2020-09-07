@@ -82,7 +82,7 @@ equivalent, roughly this:
 > their side lengths is the golden ratio:
 >
 > ::: {align="center"}
-> D/H = φ = (-1 + √ 5)/2
+> D/H = \varphi = (-1 + √ 5)/2
 >
 > Why is this equivalent? Well, if you inscribe a regular decagon in a
 > circle and draw lines from its center to its vertices, you get ten

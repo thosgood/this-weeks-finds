@@ -111,7 +111,7 @@ philosophizing about the "golden ratio" and calling it "Φ", you're
 wrong. This number was named Φ after Phidias only in 1914, in a book
 called *The Curves of Life* by the artist Theodore Cook. And, it was
 Cook who first started calling 1.618... the golden ratio. Before him,
-0.618... was called the golden ratio! Cook dubbed this number "φ",
+0.618... was called the golden ratio! Cook dubbed this number "\varphi",
 the lower-case baby brother of Φ.
 
 In fact, the whole "golden" terminology can only be traced back to

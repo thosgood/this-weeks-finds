@@ -619,9 +619,9 @@ is the other basic law of electrical circuits - Kirchhoff's voltage
 law! This law says that the sum of these voltages around a mesh is zero.
 Since our little space is contractible the above equation implies that
 
-V = dφ
+V = d\varphi
 
-for some 0-cochain φ called the "electrostatic potential". In
+for some 0-cochain \varphi called the "electrostatic potential". In
 electrostatics, this potential is a function on space. Here it assigns a
 number to each vertex of our graph.
 

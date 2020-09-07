@@ -679,8 +679,8 @@ In particular, he wanted to know the definition of "2-group" and
 > group, and so on.
 >
 >       Let's stick to F abelian. You think of AUT(F) as being the $2$-category with
->       objects Aut(F), $1$-morphisms Hom(φ,\psi)=F if φ=\psi and empty otherwise
->       (because F is abelian). What are the $2$-morphisms? Is Hom(φ,\psi) supposed
+>       objects Aut(F), $1$-morphisms Hom(\varphi,\psi)=F if \varphi=\psi and empty otherwise
+>       (because F is abelian). What are the $2$-morphisms? Is Hom(\varphi,\psi) supposed
 >       to be a category with objects F?
 >
 > Alas, you're one dimension down: thought of as a $2$-category, we want

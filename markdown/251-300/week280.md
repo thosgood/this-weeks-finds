@@ -540,9 +540,9 @@ above might not satisfy him:
 > Bojowald, Hernandez and Skirzewski.
 >
 > In Section 2, they start with the Friedmann equation for a homogeneous
-> isotropic cosmology with k=0 and a massless scalar field φ. In Section
+> isotropic cosmology with k=0 and a massless scalar field \varphi. In Section
 > 2.1 they "deparametrize" this equation, eliminating the time
-> variable by using φ as a clock field, or "internal time" - a
+> variable by using \varphi as a clock field, or "internal time" - a
 > standard way of dealing with the problem of time in quantum cosmology.
 > In Section 2.2 they review the standard Wheeler-DeWitt quantization of
 > the resulting theory.

@@ -616,15 +616,15 @@ from outside.
 Second, in any electrical circuit, the voltage V is a 1-cochain.
 Moreover, Kirchoff's voltage law says:
 
-V = dφ
+V = d\varphi
 
-meaning that we can define a "potential" φ(x) for each vertex x, with
+meaning that we can define a "potential" \varphi(x) for each vertex x, with
 the property that for any edge
 
           e
     x --------> y
 
-the voltage V(e) is the difference φ(y) - φ(x). This law is true for all
+the voltage V(e) is the difference \varphi(y) - \varphi(x). This law is true for all
 circuits, as long as the current isn't changing too rapidly with time.
 
 Third, the power dissipated by the circuit equals
@@ -639,7 +639,7 @@ But now comes something new!
 Let's compute the power V(I) using Kirchoff's voltage law and
 Kirchoff's current law:
 
-V(I) = (dφ)(I) = φ(δI) = 0
+V(I) = (d\varphi)(I) = \varphi(δI) = 0
 
 Hey - it's zero!
 
@@ -690,7 +690,7 @@ two *different* circuits with the same underlying graph, and let V be
 the voltage of one circuit at one time, and let I be the current of the
 other circuit at some other time. We still get
 
-V(I) = (dφ)(I) = φ(δI) = 0
+V(I) = (d\varphi)(I) = \varphi(δI) = 0
 
 so long as Kirchoff's voltage and current laws hold for each circuit!
 

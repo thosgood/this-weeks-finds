@@ -567,21 +567,21 @@ epsilons, and now these etas. It's gonna keep happening! For each type
 of ordinal, our notation runs out when we reach the first "fixed
 point" - when the xth ordinal of this type is actually equal to x.
 
-So, instead of making up infinitely many Greek letters, let's use φ~\gamma~
-for the \gammath type of ordinal, and φ~\gamma~(α) for the αth ordinal of type \gamma.
+So, instead of making up infinitely many Greek letters, let's use \varphi~\gamma~
+for the \gammath type of ordinal, and \varphi~\gamma~(α) for the αth ordinal of type \gamma.
 
-We can use the fixed point equation to define φ~\gamma+1~ in terms of φ~\gamma~.
+We can use the fixed point equation to define \varphi~\gamma+1~ in terms of \varphi~\gamma~.
 In other words, we start off by defining
 
-φ~0~(α) = ω^α^
+\varphi~0~(α) = ω^α^
 
 and then define
 
-φ~\gamma+1~(α)
+\varphi~\gamma+1~(α)
 
 to be the αth solution of
 
-x = φ~\gamma~(x)
+x = \varphi~\gamma~(x)
 
 We can even define this stuff when \gamma itself is infinite. For a more
 precise definition see the Wikipedia article cited below... but I hope
@@ -594,10 +594,10 @@ There's a souped-up version of Cantor normal form that can handle every
 ordinal that's a finite sum of guys in the Veblen hierarchy: you can
 write them *uniquely* as finite sums of the form
 
-φ~\gamma_1~(α_1) + ... + φ~\gamma~k~~(α~k~)
+\varphi~\gamma_1~(α_1) + ... + \varphi~\gamma~k~~(α~k~)
 
 where each term is less than or equal to the previous one, and each α_i
-is not a fixed point of φ~\gamma_i~
+is not a fixed point of \varphi~\gamma_i~
 
 But as you might have suspected, not *all* ordinals can be written in
 this way. For one thing, every ordinal we've reached so far is
@@ -625,7 +625,7 @@ or union if you prefer, of all the ordinals mentioned so far: all the
 ones you can get from the Veblen hierarchy. You can also define \Gamma~0~ by
 a fixed point property: it's the smallest ordinal x with
 
-φ~x~(0) = x
+\varphi~x~(0) = x
 
 Now, we've already seen that induction up to different ordinals gives
 us different amounts of mathematical power: induction up to ω is just
@@ -642,7 +642,7 @@ don't understand this, nor do I understand the claim I've seen that
 can't be defined without reference to itself. Sure, saying \Gamma~0~ is the
 first solution of
 
-φ~x~(0) = x
+\varphi~x~(0) = x
 
 is non-predicative. But what about saying that \Gamma~0~ is the union of all
 ordinals in the Veblen hierarchy? What's non-predicative about that?
@@ -1300,7 +1300,7 @@ considered the first "impredicative" ordinal. He wrote:
 >      >predicatively - i.e., can't be defined without reference to itself.  
 >      >Sure, saying \Gamma0 is the first solution of
 >      >
->      >φx(0) = x
+>      >\varphix(0) = x
 >      >
 >      >is non-predicative.  But what about saying that \Gamma0 is the union 
 >      >of all ordinals in the Veblen hierarchy?  What's non-predicative

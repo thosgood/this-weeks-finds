@@ -678,12 +678,12 @@ wrote:
 >
 > There is one object.
 >
-> The arrows are pairs (f,φ) where f is an isometry of X, φ an
-> automorphism of G, and f is equivariant with respect to φ, i.e. f(gx)
-> = φ(g)f(x).
+> The arrows are pairs (f,\varphi) where f is an isometry of X, \varphi an
+> automorphism of G, and f is equivariant with respect to \varphi, i.e. f(gx)
+> = \varphi(g)f(x).
 >
-> The 2-arrows from (f,φ) to (k,κ) are the elements g of G for which k =
-> gf and κ = g φ g^-1^.
+> The 2-arrows from (f,\varphi) to (k,κ) are the elements g of G for which k =
+> gf and κ = g \varphi g^-1^.
 >
 > I'll leave you to work out the various composition maps.
 >
@@ -707,7 +707,7 @@ Then he wrote:
 > proved:
 >
 > Suppose we are given a morphism f\colon X \to  Y of orbifolds and a
-> 2-automorphism φ:f \Rightarrow f. Then φ is trivial if and only if its
+> 2-automorphism \varphi:f \Rightarrow f. Then \varphi is trivial if and only if its
 > restriction to any point of X is trivial.
 >
 > One consequence of this is the following:
@@ -725,7 +725,7 @@ Then he wrote:
 > that almost all points of the orbifold have no inertia at all. This
 > includes all of the orbifolds you are discussing. The fact that the
 > isometry 2-groups are all equivalent to groups is apparent in the
-> description I gave earlier: if we have a 2-arrow g:(f,φ) \Rightarrow (f,φ)
+> description I gave earlier: if we have a 2-arrow g:(f,\varphi) \Rightarrow (f,\varphi)
 > then gf = f, so that g is the identity.
 >
 > Of course, there are many interesting noneffective orbifolds. Some of

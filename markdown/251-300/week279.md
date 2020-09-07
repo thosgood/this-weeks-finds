@@ -141,8 +141,8 @@ process where two spinors collide and form a vector:
 :::
 
 Now what is this process, mathematically speaking? Well, it's some
-operation that takes two spinors, say \psi in K^2 and φ in K^2, and
-creates a vector in h_2(K) that I'll call \psi·φ. If you want the
+operation that takes two spinors, say \psi in K^2 and \varphi in K^2, and
+creates a vector in h_2(K) that I'll call \psi·\varphi. If you want the
 explicit formula for this operation, read our paper.
 
 So, we've got an operation that takes a vector and a spinor and creates

@@ -359,7 +359,7 @@ physical systems that I explained starting in
 But what do I mean by "boundary conditions"? Well, one sort of
 boundary condition is to fix the "electrostatic potential" at the
 input and output vertices of our graph. Remember from last week that the
-electrostatic potential is a function φ on the vertices of our graph.
+electrostatic potential is a function \varphi on the vertices of our graph.
 So, we'll specify the value of this function at the input and output
 vertices. Then we'll compute its values at all the other vertices using
 the principle of minimum power.
@@ -373,7 +373,7 @@ any edge
 
 the voltage across that edge, V(e), is given by
 
-V(e) = φ(y) - φ(x)
+V(e) = \varphi(y) - \varphi(x)
 
 Second, since we have a circuit made of linear resistors, the current
 I(e) through that edge obeys Ohm's law:
@@ -386,40 +386,40 @@ Third, the power consumed by that edge will be
 
 P(e) = V(e) I(e)
 
-The principle of minimum power says: fix φ at the input and output
-vertices. Then, to find φ at the other vertices, just minimize the total
+The principle of minimum power says: fix \varphi at the input and output
+vertices. Then, to find \varphi at the other vertices, just minimize the total
 power:
 
 P = \sum~e~ P(e)
 
 Using all the equations I've lined up, we see that the total power is
-indeed a function of φ, since:
+indeed a function of \varphi, since:
 
-P(e) = (φ(y) - φ(x))^2 / R(e)
+P(e) = (\varphi(y) - \varphi(x))^2 / R(e)
 
 The total power is a quadratic function in a bunch of variables, so
 it's easy to minimize.
 
 Let's actually do this for two resistors in series:
 
-         φ0 x
+         \varphi0 x
             |
             | R1
             |        
-         φ1 o
+         \varphi1 o
             |
             | R2
             |
-         φ2 x
+         \varphi2 x
 
-We need to find φ_1 that minimizes the total power
+We need to find \varphi_1 that minimizes the total power
 
-P = (φ_1 - φ~0~)^2/R_1 + (φ_2 - φ_1)^2/R_2
+P = (\varphi_1 - \varphi~0~)^2/R_1 + (\varphi_2 - \varphi_1)^2/R_2
 
-So, we differentiate P with respect to φ_1 and set the derivative to
+So, we differentiate P with respect to \varphi_1 and set the derivative to
 zero:
 
-2(φ_1 - φ~0~)/R_1 - 2(φ_2 - φ_1)/R_2 = 0
+2(\varphi_1 - \varphi~0~)/R_1 - 2(\varphi_2 - \varphi_1)/R_2 = 0
 
 This implies that
 
@@ -453,7 +453,7 @@ their resistances add.
 
 Okay, now let's try two resistors in parallel:
 
-            x φ0
+            x \varphi0
            / \
           /   \
          /     \
@@ -462,7 +462,7 @@ Okay, now let's try two resistors in parallel:
          \     /
           \   /
            \ /
-            x φ1
+            x \varphi1
 
 This problem is oddly boring. There are no vertices except the input and
 the output, so the minimization problem is trivial! If we fix the
@@ -516,9 +516,9 @@ goes. We can associate a cochain complex to our circuit:
            d           d
     C0 --------> C1 ---------> C2
 
-The electrostatic potential φ is a 0-cochain and the voltage
+The electrostatic potential \varphi is a 0-cochain and the voltage
 
-V = dφ
+V = d\varphi
 
 is a 1-cochain. As we've seen, the total power is
 
@@ -530,12 +530,12 @@ of 1-cochains:
 P = <V, V>
 
 The principle of minimum power says we should find the electrostatic
-potential φ that minimizes the total power subject to some boundary
+potential \varphi that minimizes the total power subject to some boundary
 conditions. So, we're trying to minimize
 
-P = <dφ, dφ>
+P = <d\varphi, d\varphi>
 
-while holding φ fixed at some "input and output vertices". If you know
+while holding \varphi fixed at some "input and output vertices". If you know
 some mathematical physics you'll see this is just a discretized version
 of the minimum principle that gives Laplace's equation!
 
