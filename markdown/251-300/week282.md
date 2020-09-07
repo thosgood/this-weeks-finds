@@ -841,7 +841,7 @@ dimension of Assoc_n, which is n factorial.
 
 Fourth, the nth number along the diagonal is (n-1)!. This is the
 dimension of the space of $n$-ary operations that use the bracket the
-maximum number of times: namely, $n$-1 times. For example, when n = 3 this
+maximum number of times: namely, $n-1$ times. For example, when n = 3 this
 is a 2d space with basis
 
 (x,y,z) \mapsto {x,{y,z}}\

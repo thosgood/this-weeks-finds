@@ -185,7 +185,7 @@ for all matrices of integers
     (a b) 
     (c d)
 
-having determinant 1. Then, we say a modular function is a "modular
+having determinant $1$. Then, we say a modular function is a "modular
 form" if it doesn't blow up as you march up the upper half-plane to
 the point at infinity.
 
@@ -293,7 +293,7 @@ where the matrix
     (a b)
     (c d)
 
-has determinant 1. This group of such transformations is called
+has determinant $1$. This group of such transformations is called
 \mathrm{PSL}(2,\mathbb{Z}). So, the space of all isomorphism classes of elliptic curves is
 
     H/\mathrm{PSL}(2,\mathbb{Z})
@@ -712,7 +712,7 @@ integer matrices
     (a b)
     (c d)
 
-with determinant 1 such that each entry is congruent to the
+with determinant $1$ such that each entry is congruent to the
 corresponding entry of
 
     (1 0)

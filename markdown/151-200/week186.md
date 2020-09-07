@@ -80,7 +80,7 @@ complex is a gadget made of points, line segments, triangles,
 tetrahedra, $4$-simplices, and so on - all stuck together in a nice way.
 
 If you have a Coxeter diagram with n dots, the highest dimension of the
-simplices in its Coxeter complex will be $n$-1, and it will have one of
+simplices in its Coxeter complex will be $n-1$, and it will have one of
 these top-dimensional simplices for each element of the Coxeter group.
 For example, I've already said this Dynkin diagram:
 

@@ -203,7 +203,7 @@ different group of symmetries. For example:
 -   $n$-dimensional [projective
     geometry](http://en.wikipedia.org/wiki/Projective_geometry) has the
     group \mathrm{SL}(n+1) as symmetries. (This group consists of (n+1)\times(n+1)
-    matrices with determinant 1. Scalar multiples of the identity act
+    matrices with determinant $1$. Scalar multiples of the identity act
     trivially on projective space, so it's actually better to use the
     "projective general linear group" \mathrm{PGL}(n+1), consisting of
     invertible matrices mod scalars. But, this has the same Lie algebra

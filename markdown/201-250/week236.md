@@ -1098,7 +1098,7 @@ Kevin writes:
 
      If I've understood the sequence correctly, it should be (where "n)" 
      at the beginning of a line denotes we're working in base n on this 
-     line, so strictly speaking it's probably the $n$-1st term in the sequence)
+     line, so strictly speaking it's probably the $n-1$st term in the sequence)
      
      2) 2^2 = 4
      3) 3^3-1 = 2.3^2+2.3+2 = 26 [note: base 3, ends in 2, and 3+2=5]
@@ -1190,7 +1190,7 @@ Kevin writes:
      .
      .
      
-     and finally when s = $n$-1
+     and finally when s = $n-1$
      
      m)           m
      
@@ -1225,10 +1225,10 @@ n = 24 · 2^24^ = 402653184.
 
 By the (2n)th term it reaches almost 2n^2.
 
-Then it grows by steps of $n$-2, and by the (4n)th term it reaches almost
+Then it grows by steps of $n-2$, and by the (4n)th term it reaches almost
 4n^2.
 
-Then it grows by steps of $n$-3, and by the (8n)th term it reaches almost
+Then it grows by steps of $n-3$, and by the (8n)th term it reaches almost
 8n^2.
 
 And so on... it's slowing down now.

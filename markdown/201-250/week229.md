@@ -418,7 +418,7 @@ solid doughnut Y having T^2 as its boundary.
 
 This gets the torus into the game, and also the branched cover I was
 talking about. And this gets the group \mathrm{PSL}(2,\mathbb{Z}) into the game! \mathrm{SL}(2,\mathbb{Z})
-is the group of 2\times2 matrices with determinant 1. When you mod out by the
+is the group of 2\times2 matrices with determinant $1$. When you mod out by the
 matrices +-1, you get \mathrm{PSL}(2,\mathbb{Z}). But, topologists know that \mathrm{SL}(2,\mathbb{Z}) is
 the "mapping class group" of the torus - the group of
 orientation-preserving diffeomorphisms modulo those that can be smoothly

@@ -72,7 +72,7 @@ otherwise known as the "third Reidemeister move":
      / \   |         |   / \  
 
 On other hand, the group \mathrm{SL}(2,\mathbb{Z}) consists of 2\times2 integer matrices with
-determinant 1. It's important in number theory, complex analysis,
+determinant $1$. It's important in number theory, complex analysis,
 string theory and other branches of pure mathematics. I've described
 some of its charms in ["Week 125"](#week125),
 ["Week 229"](#week229) and elsewhere.

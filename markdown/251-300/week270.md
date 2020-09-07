@@ -288,7 +288,7 @@ where the matrix
 (a b)\
 (c d)\
 
-has determinant 1. These blocks then form a "(5,6,12) Steiner system".
+has determinant $1$. These blocks then form a "(5,6,12) Steiner system".
 In other words: there are 12 points, 6 points in each block, and any set
 of 5 points lies in a unique block.
 

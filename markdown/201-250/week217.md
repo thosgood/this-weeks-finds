@@ -268,7 +268,7 @@ generate the group of all maps
     t \mapsto  --------
            ct + d
 
-where a,b,c,d form a 2\times2 matrix of integers with determinant 1. These
+where a,b,c,d form a 2\times2 matrix of integers with determinant $1$. These
 maps form a group called \mathrm{PSL}(2,\mathbb{Z}), or the "modular group".
 
 A function that transforms simply under this group and doesn't blow up

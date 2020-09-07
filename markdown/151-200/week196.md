@@ -365,7 +365,7 @@ the rotation group, or the double cover of the Lorentz group if you take
 special relativity into account.
 
 In 4d spacetime, the double cover of the Lorentz group is \mathrm{SL}(2,\mathbb{C}), the
-group of 2\times2 complex matrices with determinant 1. We can take a spinor
+group of 2\times2 complex matrices with determinant $1$. We can take a spinor
 to be just a pair of complex numbers, but there are actually two ways
 such a thing can transform under \mathrm{SL}(2,\mathbb{C}). One way is obvious, but for
 the other we take the *complex conjugate* of the matrix before letting
@@ -375,7 +375,7 @@ massless particles that spin either clockwise or counterclockwise along
 their line of motion as they zip along at the speed of light.
 
 In 3d spacetime, the double cover of the Lorentz group is \mathrm{SL}(2,R), the
-group of 2\times2 *real* matrices with determinant 1. In this dimension, we
+group of 2\times2 *real* matrices with determinant $1$. In this dimension, we
 can take a spinor to be a pair of *real* numbers. But since we don't
 have complex conjugation at our disposal, we don't get left- and
 right-handed versions of these spinors, and we don't call them Weyl
@@ -383,7 +383,7 @@ spinors. Since they are real, we call them "Majorana spinors".
 
 Since Pythagoras had a strong fondness for number theory, if he were
 alive today he might want to simplify things even further and consider
-\mathrm{SL}(2,\mathbb{Z}), the group of 2\times2 *integer* matrices with determinant 1. This
+\mathrm{SL}(2,\mathbb{Z}), the group of 2\times2 *integer* matrices with determinant $1$. This
 acts on "Pythagorean spinors", namely pairs of integers.
 
 We could also go up to higher dimensions using the quaternions and

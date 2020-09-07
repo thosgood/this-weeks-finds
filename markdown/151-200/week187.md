@@ -152,7 +152,7 @@ in ["Week 64"](#week64) and ["Week 181"](#week181).
 
         [2n]!! = [2] [4] ... [2n]
 
--   **D_n** The Dynkin diagram has a line of $n$-2 dots and then 2 more
+-   **D_n** The Dynkin diagram has a line of $n-2$ dots and then 2 more
     forming a fishtail:
 
                                            o 

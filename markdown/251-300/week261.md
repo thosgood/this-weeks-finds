@@ -510,14 +510,14 @@ Coxeter group is the group of permutations of n things, which I'll call
 n!.
 
 Let X be the space of $n$-tuples of complex numbers summing to 0. X is a
-complex vector space of dimension $n$-1. We can think of any point in X as
+complex vector space of dimension $n-1$. We can think of any point in X as
 the ordered $n$-tuple of roots of some depressed polynomial of degree n.
 Here "depressed" means that the leading coefficient is 1 and the sum
 of the roots is zero. This condition makes polynomials sad.
 
 The permutation group n! acts on X in an obvious way. The quotient X/n!
 is isomorphic (as a variety) to another complex vector space of
-dimension $n$-1: namely, the space of depressed polynomials of degree n.
+dimension $n-1$: namely, the space of depressed polynomials of degree n.
 The quotient map
 
 X \to X/n!

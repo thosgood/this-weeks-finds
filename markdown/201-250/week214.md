@@ -215,7 +215,7 @@ They're called conformal transformations, and they all look like this:
                cz + d
 
 They form a group called \mathrm{PSL}(2,\mathbb{C}), since it's the same as the group of
-2x2 complex matrices with determinant 1, mod scalars. It's also the
+2x2 complex matrices with determinant $1$, mod scalars. It's also the
 same as the Lorentz group!
 
 There are different ways to make a torus into a Riemann surface, some

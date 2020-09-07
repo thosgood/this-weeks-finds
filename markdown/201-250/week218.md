@@ -141,7 +141,7 @@ The analogy goes as follows:
 > we can look at its value modulo p, or more generally mod p^n.
 
 This is nice because the value of a polynomial modulo (z-a)^n is just
-its Taylor series at the point a, where we keep terms up to order $n$-1.
+its Taylor series at the point a, where we keep terms up to order $n-1$.
 
 We can also also take the limit as n \to \infty. If we do this to the integers
 mod p^n we get a ring called the "p-adic integers". For example, a

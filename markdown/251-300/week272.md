@@ -288,7 +288,7 @@ A~7~                                       229/315       �
 A~9~                                       15403/18144       \~ .849
 
 Here A_n is the group of even permutations of an $n$-element set, while
-\mathrm{PSL}(n,q) is the group of n \times n matrices with determinant 1 having
+\mathrm{PSL}(n,q) is the group of n \times n matrices with determinant $1$ having
 entries in the field with q elements, mod multiples of the identity
 matrix. Of the groups listed above, only A_4 is not simple. I included
 this one just because I wanted to list *all* the unexpected isomorphisms

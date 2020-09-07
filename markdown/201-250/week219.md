@@ -446,7 +446,7 @@ x^2 = x~0~^2 - x_1^2 - ... - x_n^2
 We define \mathrm{O}(n,1) to be the group of transformations of F^n+1^ that
 preserve the above quadratic form, and define the "Lorentz group"
 \mathrm{SO}(n,1) to be the subgroup consisting of transformations that also have
-determinant 1.
+determinant $1$.
 
 As usual, we say that a vector x in Minkowski spacetime is:
 
@@ -465,7 +465,7 @@ given point - the origin - are precisely like this.
 
 Next, let's ponder the peculiarities of $3$-dimensional spacetime.
 
-For any field F, 2\times2 matrices with determinant 1 act as Lorentz
+For any field F, 2\times2 matrices with determinant $1$ act as Lorentz
 transformations of 3d Minkowski spacetime. I touched upon this idea when
 discussing Trautman's "Pythagorean spinors" in
 ["Week 196"](#week196). Here's how it works:
@@ -482,7 +482,7 @@ since the determinant of such a matrix is just
     x2 = x02 - x12 - x22
 
 In this picture, the group \mathrm{SL}(2,F) consisting of 2\times2 matrices with
-determinant 1 acts as Lorentz transformations:
+determinant $1$ acts as Lorentz transformations:
 
 g: x \mapsto gxg*
 

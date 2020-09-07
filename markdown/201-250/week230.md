@@ -241,7 +241,7 @@ in the theory of Lie groups....
 groups of continuous symmetries, like rotations. The nicest of the lot
 are the semisimple Lie groups. Some familiar examples are the group of
 rotations in $n$-dimensional space, which is called \mathrm{SO}(n), and the group
-of unitary matrices with determinant 1, which is called \mathrm{SU}(n). There are
+of unitary matrices with determinant $1$, which is called \mathrm{SU}(n). There are
 more, but people know what they all are. They're classified by Dynkin
 diagrams!
 
@@ -263,10 +263,10 @@ such diagrams.
 Here's how it goes:
 
 -   The diagram A_n gives the compact Lie group \mathrm{SU}(n+1), consisting of
-    (n+1) \times (n+1) unitary matrices with determinant 1. It's the
+    (n+1) \times (n+1) unitary matrices with determinant $1$. It's the
     isometry group of complex projective $n$-space.
 -   The diagram D_n gives the compact Lie group \mathrm{SO}(2n), consisting of
-    2n \times 2n orthogonal matrices with determinant 1. It's the isometry
+    2n \times 2n orthogonal matrices with determinant $1$. It's the isometry
     group of real projective (2n)-space.
 -   The diagram \mathrm{E}_6 gives a 78-dimensional compact Lie group that
     people call \mathrm{E}_6. It's the isometry group of the bioctonionic

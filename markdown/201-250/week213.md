@@ -740,7 +740,7 @@ I replied:
 >       (a b)
 >       (c d)
 >
->       with determinant 1 such that each entry is congruent to the corresponding
+>       with determinant $1$ such that each entry is congruent to the corresponding
 >       entry of
 >
 >       (1 0)

@@ -754,7 +754,7 @@ by 24 regular heptagons:
 :::
 
 Its orientation-preserving symmetries form the group \mathrm{PSL}(2,7), which
-consists of all 2x2 matrices with determinant 1 having entries in Z/7,
+consists of all 2x2 matrices with determinant $1$ having entries in Z/7,
 modulo scalars. This group has 24 \times 7 = 168 elements. Since there are 7
 notes in a major or minor scale, and 24 of these scales, it's hard to
 resist wanting to think of each heptagon as a scale!
@@ -1241,7 +1241,7 @@ Noam Elkies explained what David Lewin was doing with \mathrm{PSL}(2,7):
 >       It would be fun to dream up more relations between incidence geometry
 >       and music theory.  Could Klein's quartic curve play a role? [...]
 >       Its orientation-preserving symmetries form the group \mathrm{PSL}(2,7), which
->       consists of all 2x2 matrices with determinant 1 having entries in Z/7,
+>       consists of all 2x2 matrices with determinant $1$ having entries in Z/7,
 >       modulo scalars.  This group has 24 x 7 = 168 elements.  Since there are
 >       7 notes in a major or minor scale, and 24 of these scales, it's hard
 >       to resist wanting to think of each heptagon as a scale!
