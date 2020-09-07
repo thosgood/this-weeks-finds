@@ -17,4 +17,5 @@
     + form
     + stack
     + gerbe
+    + manifold
     + groupoid
