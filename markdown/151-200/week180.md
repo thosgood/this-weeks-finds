@@ -734,7 +734,6 @@ even though there is one for every *other* dimension from $1$ to $n/2$.
 > Subject: Re: This Week's Finds in Mathematical Physics (Week 180)
 > Date: Thu, 13 Jun 2002 
 > 
-> 
 > marc bellon wrote:
 > 
 > > John Baez writes:
@@ -878,64 +877,72 @@ even though there is one for every *other* dimension from $1$ to $n/2$.
 > geometry the dimensions of the types of subspaces corresponding to the
 > anti-chains in the partial order, making some optimistic assumptions.
 > consider for example the dynkin diagram $e_7$:
-
-        *
-        |
-    *-*-*-*-*-*
-
+> $$
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (5,0);
+>     \draw[thick] (2,0) to (2,1);
+>     \node at (0,0) {$\bullet$};
+>     \node at (1,0) {$\bullet$};
+>     \node at (2,0) {$\bullet$};
+>     \node at (3,0) {$\bullet$};
+>     \node at (4,0) {$\bullet$};
+>     \node at (5,0) {$\bullet$};
+>     \node at (2,1) {$\bullet$};
+>   \end{tikzpicture}
+> $$
 > with the rightmost dot as the chosen dot.  then we have:
-
-      a
-      |
-     b
-      |
-     c
-      |
-      d
-     / \
-    e   f
-        |
-        g
-
+> $$
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (0,-3) to (-1,-4);
+>     \draw[thick] (0,-3) to (1,-4) to (1,-5);
+>     \node[fill=white] at (0,0) {$a$};
+>     \node[fill=white] at (0,-1) {$b$};
+>     \node[fill=white] at (0,-2) {$c$};
+>     \node[fill=white] at (0,-3) {$d$};
+>     \node[fill=white] at (-1,-4) {$e$};
+>     \node[fill=white] at (1,-4) {$f$};
+>     \node[fill=white] at (1,-5) {$g$};
+>   \end{tikzpicture}
+> $$
 > and the anti-chains for the partial order are:
-
-      {a}
-       |
-     {b}
-       |
-     {c}
-       |
-     {d}
-       |
-     {e,f}
-      / \
-    {f}{e,g}
-      \ / \
-      {g} {e}
-        \ /
-        { }
-
+> $$
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (0,-4) to (-1,-5) to (0,-6) to (1,-7);
+>     \draw[thick] (0,-4) to (1,-5) to (0,-6);
+>     \draw[thick] (1,-5) to (2,-6) to (1,-7);
+>     \node[fill=white] at (0,0) {$\{a\}$};
+>     \node[fill=white] at (0,-1) {$\{b\}$};
+>     \node[fill=white] at (0,-2) {$\{c\}$};
+>     \node[fill=white] at (0,-3) {$\{d\}$};
+>     \node[fill=white] at (0,-4) {$\{e,f\}$};
+>     \node[fill=white] at (-1,-5) {$\{f\}$};
+>     \node[fill=white] at (1,-5) {$\{e,g\}$};
+>     \node[fill=white] at (0,-6) {$\{g\}$};
+>     \node[fill=white] at (2,-6) {$\{e\}$};
+>     \node[fill=white] at (1,-7) {$\{\}$};
+>   \end{tikzpicture}
+> $$
 > using an optimistic method of calculation related to methods
 > mentioned by john baez in some previous posts in this thread but not
 > really explained there either, we obtain for the dimensions of the
 > corresponding types of subspace:
-
-      0
-      |
-     1
-      |
-     2
-      |
-     3
-      |
-      4
-     / \
-    5   5
-     \ / \
-     10   6
-       \ /
-       27
-
+> $$
+>   \begin{tikzpicture}
+>     \draw[thick] (0,0) to (0,-4) to (-1,-5) to (0,-6) to (1,-7);
+>     \draw[thick] (0,-4) to (1,-5) to (0,-6);
+>     \draw[thick] (1,-5) to (2,-6) to (1,-7);
+>     \node[fill=white] at (0,0) {$0$};
+>     \node[fill=white] at (0,-1) {$1$};
+>     \node[fill=white] at (0,-2) {$2$};
+>     \node[fill=white] at (0,-3) {$3$};
+>     \node[fill=white] at (0,-4) {$4$};
+>     \node[fill=white] at (-1,-5) {$5$};
+>     \node[fill=white] at (1,-5) {$5$};
+>     \node[fill=white] at (0,-6) {$10$};
+>     \node[fill=white] at (2,-6) {$6$};
+>     \node[fill=white] at (1,-7) {$27$};
+>   \end{tikzpicture}
+> $$
 > so that's what this calculation predicts: that $e_7$ geometry
 > involves a compact $27$-dimensional manifold of "points", with types of
 > special subspaces of dimensions 1, 2, 3, 4, 6, and 10, plus two
@@ -952,81 +959,86 @@ even though there is one for every *other* dimension from $1$ to $n/2$.
 > From: James Dolan
 > Subject: Re: This Week's Finds in Mathematical Physics (Week 180)
 > Date: Sat, 15 Jun 2002 
-
-
+> 
 > i wrote:
-
-> now we can take an arbitrary dynkin diagram and an arbitrary chosen
-> dot in it and try to calculate for the corresponding incidence
-> geometry the dimensions of the types of subspaces corresponding to the
-> anti-chains in the partial order, making some optimistic assumptions.
-> consider for example the dynkin diagram $e_7$:
-> 
->     *
->     |
-> *-*-*-*-*-*
-> 
-> with the rightmost dot as the chosen dot.  then we have:
-    |
-    |  a
-    |  |
-     b
-    |  |
-     c
-    |  |
-    |  d
-    | / \
-    |e   f
-    |    |
-    |    g
-    |
-    |and the anti-chains for the partial order are:
-    |
-    |  {a}
-    |   |
-     {b}
-    |   |
-     {c}
-    |   |
-     {d}
-    |   |
-    | {e,f}
-    |  / \
-    |{f}{e,g}
-    |  \ / \
-    |  {g} {e}
-    |    \ /
-    |    { }
-    |
-    |.  using an optimistic method of calculation related to methods
-    |mentioned by john baez in some previous posts in this thread but not
-    |really explained there either, we obtain for the dimensions of the
-    |corresponding types of subspace:
-    |
-    |  0
-    |  |
-     1
-    |  |
-     2
-    |  |
-     3
-    |  |
-    |  4
-    | / \
-    |5   5
-    | \ / \
-    | 10   6
-    |   \ /
-    |   27
-    |
-    |.  so that's what this calculation predicts: that e_7 geometry
-    |involves a compact $27$-dimensional manifold of "points", with types of
-    |special subspaces of dimensions 1, 2, 3, 4, 6, and 10, plus two
-    |different types of special subspaces of dimension 5.  the special
-    |4-dimensional subspaces and one of the types of special $5$-dimensional
-    |subspaces are evidently of "anti-chain" type.
-
-
+> > now we can take an arbitrary dynkin diagram and an arbitrary chosen
+> > dot in it and try to calculate for the corresponding incidence
+> > geometry the dimensions of the types of subspaces corresponding to the
+> > anti-chains in the partial order, making some optimistic assumptions.
+> > consider for example the dynkin diagram $e_7$:
+> > $$
+> >   \begin{tikzpicture}
+> >     \draw[thick] (0,0) to (5,0);
+> >     \draw[thick] (2,0) to (2,1);
+> >     \node at (0,0) {$\bullet$};
+> >     \node at (1,0) {$\bullet$};
+> >     \node at (2,0) {$\bullet$};
+> >     \node at (3,0) {$\bullet$};
+> >     \node at (4,0) {$\bullet$};
+> >     \node at (5,0) {$\bullet$};
+> >     \node at (2,1) {$\bullet$};
+> >   \end{tikzpicture}
+> > $$
+> > with the rightmost dot as the chosen dot.  then we have:
+> > $$
+> >   \begin{tikzpicture}
+> >     \draw[thick] (0,0) to (0,-3) to (-1,-4);
+> >     \draw[thick] (0,-3) to (1,-4) to (1,-5);
+> >     \node[fill=white] at (0,0) {$a$};
+> >     \node[fill=white] at (0,-1) {$b$};
+> >     \node[fill=white] at (0,-2) {$c$};
+> >     \node[fill=white] at (0,-3) {$d$};
+> >     \node[fill=white] at (-1,-4) {$e$};
+> >     \node[fill=white] at (1,-4) {$f$};
+> >     \node[fill=white] at (1,-5) {$g$};
+> >   \end{tikzpicture}
+> > $$
+> > and the anti-chains for the partial order are:
+> > $$
+> >   \begin{tikzpicture}
+> >     \draw[thick] (0,0) to (0,-4) to (-1,-5) to (0,-6) to (1,-7);
+> >     \draw[thick] (0,-4) to (1,-5) to (0,-6);
+> >     \draw[thick] (1,-5) to (2,-6) to (1,-7);
+> >     \node[fill=white] at (0,0) {$\{a\}$};
+> >     \node[fill=white] at (0,-1) {$\{b\}$};
+> >     \node[fill=white] at (0,-2) {$\{c\}$};
+> >     \node[fill=white] at (0,-3) {$\{d\}$};
+> >     \node[fill=white] at (0,-4) {$\{e,f\}$};
+> >     \node[fill=white] at (-1,-5) {$\{f\}$};
+> >     \node[fill=white] at (1,-5) {$\{e,g\}$};
+> >     \node[fill=white] at (0,-6) {$\{g\}$};
+> >     \node[fill=white] at (2,-6) {$\{e\}$};
+> >     \node[fill=white] at (1,-7) {$\{\}$};
+> >   \end{tikzpicture}
+> > $$
+> > using an optimistic method of calculation related to methods
+> > mentioned by john baez in some previous posts in this thread but not
+> > really explained there either, we obtain for the dimensions of the
+> > corresponding types of subspace:
+> > $$
+> >   \begin{tikzpicture}
+> >     \draw[thick] (0,0) to (0,-4) to (-1,-5) to (0,-6) to (1,-7);
+> >     \draw[thick] (0,-4) to (1,-5) to (0,-6);
+> >     \draw[thick] (1,-5) to (2,-6) to (1,-7);
+> >     \node[fill=white] at (0,0) {$0$};
+> >     \node[fill=white] at (0,-1) {$1$};
+> >     \node[fill=white] at (0,-2) {$2$};
+> >     \node[fill=white] at (0,-3) {$3$};
+> >     \node[fill=white] at (0,-4) {$4$};
+> >     \node[fill=white] at (-1,-5) {$5$};
+> >     \node[fill=white] at (1,-5) {$5$};
+> >     \node[fill=white] at (0,-6) {$10$};
+> >     \node[fill=white] at (2,-6) {$6$};
+> >     \node[fill=white] at (1,-7) {$27$};
+> >   \end{tikzpicture}
+> > $$
+> > so that's what this calculation predicts: that $e_7$ geometry
+> > involves a compact $27$-dimensional manifold of "points", with types of
+> > special subspaces of dimensions 1, 2, 3, 4, 6, and 10, plus two
+> > different types of special subspaces of dimension 5.  the special
+> > $4$-dimensional subspaces and one of the types of special $5$-dimensional
+> > subspaces are evidently of "anti-chain" type.
+>
 > having thought about it some more, i now think that we can give much
 > more specific information about the nature of the geometry here, and
 > in a much simpler way.
