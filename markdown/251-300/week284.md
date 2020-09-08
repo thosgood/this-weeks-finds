@@ -240,8 +240,8 @@ equivalent, roughly this:
 > thus on its nth tensor power. Everyone knows that. But we can also get
 > this representation in an unexpected way. Start with the space of all
 > k-dimensional subspaces of C^n. This is called the "Grassmannian"
-> Gr(k,n). Form a vector space by taking the cohomology of the cotangent
-> bundle T*Gr(k,n). Then take the direct sum of these vector spaces as
+> \mathrm{Gr}(k,n). Form a vector space by taking the cohomology of the cotangent
+> bundle T*\mathrm{Gr}(k,n). Then take the direct sum of these vector spaces as
 > k goes from 0 to n.
 >
 > We get a big fat vector space. But here's the cool part: Ginzburg
@@ -269,7 +269,7 @@ equivalent, roughly this:
 >
 > Anyway, so Ginzburg got a representation of \mathfrak{sl}(2) using this trick. To
 > categorify this representation, Licata replaced the cohomology of
-> T*Gr(k,n) by a category called the "bounded [derived
+> T*\mathrm{Gr}(k,n) by a category called the "bounded [derived
 > category](http://en.wikipedia.org/wiki/Derived_category) of [coherent
 > sheaves](http://en.wikipedia.org/wiki/Coherent_sheaf)" on this space.
 > That's a plausible strategy, because it's known quite generally that
@@ -731,7 +731,7 @@ equivalent, roughly this:
 >     about what's going on here? Please *don't* assume I understand
 >     what Aaron told me!
 > -   How does the representation Licata describes, involving the
->     cohomology of the cotangent bundle of the Grassmannians Gr(n,k)
+>     cohomology of the cotangent bundle of the Grassmannians \mathrm{Gr}(n,k)
 >     for k between 0 and n, fit into a more general story? I think the
 >     disjoint union of these Grassmannians should be thought of as the
 >     space of 1-stage "Springer flags" in n dimensions - where an

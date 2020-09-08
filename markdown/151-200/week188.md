@@ -318,7 +318,7 @@ described a few of their most fundamental applications in
 relation to Grassmannians. But we're pretty well-positioned to do that
 now, so let's give it a shot.
 
-The Grassmannian Gr(n,k) is the set of all k-dimensional subspaces of an
+The Grassmannian \mathrm{Gr}(n,k) is the set of all k-dimensional subspaces of an
 n-dimensional vector space. This makes sense over any field. However,
 it's particularly fun to work over the field with q elements, where q
 is any prime power - because then our Grassmannian has \[n choose k\]
@@ -333,16 +333,16 @@ unit complex number. Now we'll turn into algebraists, take what've
 done, and apply it when q is a power of a prime number!
 
 In ["Week 184"](#week184) I showed that we can read off a lot of
-information about the Grassmannian Gr(n,k) from the q-binomial
+information about the Grassmannian \mathrm{Gr}(n,k) from the q-binomial
 coefficient \[n choose k\]. For example,
 
     [4 choose 2] = 1 + q + 2q2 + q3 + q4
 
 and if we define our Grassmannian over the field F, we have
 
-         Gr(4,2) = 1 + F + 2F2 + F3 + \mathrm{F}_4
+         \mathrm{Gr}(4,2) = 1 + F + 2F2 + F3 + \mathrm{F}_4
 
-meaning that Gr(4,2) is a disjoint union of a point, a copy of the field
+meaning that \mathrm{Gr}(4,2) is a disjoint union of a point, a copy of the field
 F, 2 copies of F^2, a copy of F^3, and a copy of F^4. Each copy of
 F^i^ is called an "i-cell" - or in this context a "Schubert cell of
 dimension i", because there may be many ways to decompose a space into
@@ -352,9 +352,9 @@ If F is the real or complex numbers, the cells F^i^ are actually open
 balls, and we can use this to study the topology of the Grassmannian.
 But if F is the field with q elements, we can use the cell decomposition
 to work out the *cardinality* of the Grassmannian. For example, the
-number of points in Gr(4,2) is
+number of points in \mathrm{Gr}(4,2) is
 
-    |Gr(4,2)| = |1  +  F  + 2F2   +  F3 +   \mathrm{F}_4|
+    |\mathrm{Gr}(4,2)| = |1  +  F  + 2F2   +  F3 +   \mathrm{F}_4|
 
               = |1| + |F| + 2|F|2 + |F|3 + |F|4
 
@@ -372,10 +372,10 @@ of Schubert cells of a certain sort. There should be some way to see
 this directly.
 
 To do this, we just have to find a way to decompose the Grassmannian
-Gr(n,k) into cells, where each i-cell corresponds to a Young diagram
+\mathrm{Gr}(n,k) into cells, where each i-cell corresponds to a Young diagram
 with i boxes, k rows and $n$-k columns.
 
-The idea is simple. A point in Gr(n,k) is a k-dimensional subspace of
+The idea is simple. A point in \mathrm{Gr}(n,k) is a k-dimensional subspace of
 the vector space F^n. We can describe such a thing by writing a list of
 row vectors that form a basis for this subspace. This gives a matrix. Of
 course, the same subspace can have lots of different bases. But we can
@@ -411,7 +411,7 @@ picture and make a Young diagram out of the X's:
 Voila!
 
 Just for the heck of it, I'll work out the Schubert cell decomposition
-of Gr(4,2) by this technique. I'll write out the various shapes of row
+of \mathrm{Gr}(4,2) by this technique. I'll write out the various shapes of row
 echelon form for matrices with 4 columns and 2 rows, and next to them
 the corresponding Young diagrams and the kind of i-cells we get:
 
