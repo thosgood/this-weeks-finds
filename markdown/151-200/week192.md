@@ -7,8 +7,7 @@ exciting and terrifying age when they discovered quantum mechanics, the
 atomic nucleus, the neutron, and fission. I started with this book about
 Lise Meitner:
 
-1) Ruth Sime, Lise Meitner: A Life in Physics, University of California
-Press, 1997.
+1) Ruth Sime, _Lise Meitner: A Life in Physics_, University of California Press, 1997.
 
 Meitner's life was a fascinating but difficult one. The Austrian
 government did not open the universities to women until 1901, when she
@@ -36,64 +35,38 @@ chemistry skills of Hahn, and as a team they identified at least nine
 new radioisotopes. The most famous of these was the element
 protactinium, which they discovered and named in 1918. This was the
 long-sought "mother of actinium" in this decay series:
-
-    92 uranium 235    
-         |
-         | α decay: 7.1 x 10^8 years    
-         |
-         v
-    90 thorium 231 
-         |
-         | \beta decay: 25.5 hours             
-         |                                  
-         v
-    91 protactinium 231                       
-         |                                
-         | α decay: 3.25 x 10^4 years 
-         |
-         v
-    89 actinium 227
-         |
-         | \beta decay: 21.8 years
-         |
-         v
-    90 thorium 227
-         |
-         | α decay: 18.2 days
-         |
-         v
-    88 radium 223 
-         |
-         | α decay: 11.4 days
-         |
-         v
-    88 radon 219
-         |
-         | α decay: 4 seconds 
-         |
-         v
-    84 polonium 215
-         |
-         | α decay: 1.78 milliseconds
-         |
-         v
-    82 lead 211
-         |
-         | \beta decay: 36.1 minutes
-         |
-         v
-    83 bismuth 211 
-         |
-         | α decay: 2.13 minutes
-         |
-         v
-    81 tellurium 207
-         |
-         | \beta decay: 4.77 minutes
-         |
-         v
-    82 lead 207 
-
+$$
+  \begin{tikzpicture}[yscale=1.2]
+    \node at (0,0) {92 uranium 235};
+    \draw[->] (0,-0.3) to node[label=right:{\scriptsize$\alpha$ decay: $7.1\times10^8$ years}]{} (0,-0.7);
+    \node at (0,-1) {90 thorium 231};
+    \draw[->] (0,-1.3) to node[label=right:{\scriptsize$\beta$ decay: $25.5$ hours}]{} (0,-1.7);
+    \node at (0,-2) {91 protactinium 231};
+    \draw[->] (0,-2.3) to node[label=right:{\scriptsize$\alpha$ decay: $3.25\times10^4$ years}]{} (0,-2.7);
+    \node at (0,-3) {89 actinium 227};
+    \draw[->] (0,-3.3) to node[label=right:{\scriptsize$\beta$ decay: $21.8$ years}]{} (0,-3.7);
+    \node at (0,-4) {90 thorium 227};
+    \draw[->] (0,-4.3) to node[label=right:{\scriptsize$\alpha$ decay: $18.2$ days}]{} (0,-4.7);
+    \node at (0,-5) {88 radium 223};
+    \draw[->] (0,-5.3)
+        to (0,-5.5)
+        to (4,-5.5)
+        to (4,0.5)
+        to node[label=above:{\scriptsize$\alpha$ decay: $11.4$ days}]{} (6,0.5)
+        to (6,0.3);
+    \node at (6,-0) {88 radon 219};
+    \draw[->] (6,-0.3) to node[label=right:{\scriptsize$\alpha$ decay: $4$ seconds}]{} (6,-0.7);
+    \node at (6,-1) {84 polonium 215};
+    \draw[->] (6,-1.3) to node[label=right:{\scriptsize$\alpha$ decay: $1.78$ milliseconds}]{} (6,-1.7);
+    \node at (6,-2) {82 lead 211};
+    \draw[->] (6,-2.3) to node[label=right:{\scriptsize$\beta$ decay: $36.1$ minutes}]{} (6,-2.7);
+    \node at (6,-3) {83 bismuth 211};
+    \draw[->] (6,-3.3) to node[label=right:{\scriptsize$\alpha$ decay: $2.13$ minutes}]{} (6,-3.7);
+    \node at (6,-4) {81 tellurium 207};
+    \draw[->] (6,-4.3) to node[label=right:{\scriptsize$\beta$ decay: $4.77$ minutes}]{} (6,-4.7);
+    \node at (6,-5) {82 lead 207};
+  \end{tikzpicture}
+$$
 As you can see by staring at the numbers, in "α decay" a nucleus emits
 a helium nucleus or "α particle" - 2 protons and 2 neutrons - so its
 atomic number goes down by 2 and its atomic mass goes down by 4. In "\beta
