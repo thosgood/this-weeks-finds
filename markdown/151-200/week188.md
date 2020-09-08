@@ -1,95 +1,154 @@
 # October 11, 2002 {#week188}
 
-I've been talking about q-mathematics, and last week the story reached
-a kind of climax when I combined the themes of q-deformation,
+I've been talking about $q$-mathematics, and last week the story reached
+a kind of climax when I combined the themes of $q$-deformation,
 categorification, and Dynkin diagrams. These are three of my favorite
 things, but I can't expect everyone to enjoy them as much as I do, so
-now I'll back down and talk about something simpler - but related.
+now I'll back down and talk about something simpler --- but related.
 
 Let's see what happens when you put Pascal's triangle in a magnetic
 field!
 
-You've probably seen Pascal's triangle. It has a 1 on top, and each
+You've probably seen Pascal's triangle. It has a $1$ on top, and each
 other number in the triangle is gotten by adding the number or numbers
 above it:
-
-                                   1
-                                  / \
-                                 1   1
-                                / \ / \
-                               1   2   1
-                              / \ / \ / \
-                             1   3   3   1
-                            / \ / \ / \ / \
-                           1   4   6   4   1
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (-2,-4);
+    \draw[thick] (0.5,-1) to (-1,-4);
+    \draw[thick] (1,-2) to (0,-4);
+    \draw[thick] (1.5,-3) to (1,-4);
+    \draw[thick] (0,0) to (2,-4);
+    \draw[thick] (-0.5,-1) to (1,-4);
+    \draw[thick] (-1,-2) to (0,-4);
+    \draw[thick] (-1.5,-3) to (-1,-4);
+    %
+    \node[fill=white] at (0,0) {$1$};
+    %
+    \node[fill=white] at (-0.5,-1) {$1$};
+    \node[fill=white] at (0.5,-1) {$1$};
+    %
+    \node[fill=white] at (-1,-2) {$1$};
+    \node[fill=white] at (0,-2) {$2$};
+    \node[fill=white] at (1,-2) {$1$};
+    %
+    \node[fill=white] at (-1.5,-3) {$1$};
+    \node[fill=white] at (-0.5,-3) {$3$};
+    \node[fill=white] at (0.5,-3) {$3$};
+    \node[fill=white] at (1.5,-3) {$1$};
+    %
+    \node[fill=white] at (-2,-4) {$1$};
+    \node[fill=white] at (-1,-4) {$4$};
+    \node[fill=white] at (0,-4) {$6$};
+    \node[fill=white] at (1,-4) {$4$};
+    \node[fill=white] at (2,-4) {$1$};
+  \end{tikzpicture}
+$$
 and so on.
 
 The number at each place tells you how many paths there are zig-zagging
-down from the top of the triangle to that place - since each number is
+down from the top of the triangle to that place --- since each number is
 the sum of the numbers above it.
 
-Let's think about one of these paths. To get to the kth place in the
-nth row of the triangle, the path must go to the right a total of k
-times and to the left a total of (n-k) times. Here I'm counting the
-rows starting from zero. For example, the "6" in Pascal's triangle is
-at the 2nd place in the 4th row, so any path down to the "6" must go
+Let's think about one of these paths. To get to the $k$th place in the
+$n$th row of the triangle, the path must go to the right a total of $k$
+times and to the left a total of $(n-k)$ times. Here I'm counting the
+rows starting from zero. For example, the "$6$" in Pascal's triangle is
+at the 2nd place in the 4th row, so any path down to the "$6$" must go
 left twice and right twice:
-
-                                   1
-                                  / 
-                                 1   1
-                                  \ 
-                               1   2   1
-                                  /   
-                             1   3   3   1
-                                  \   
-                           1   4   6   4   1
-
-Now, the number of ways to choose k things out of n is the binomial
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0)
+      to (-0.5,-1)
+      to (0,-2)
+      to (-0.5,-3)
+      to (0,-4);
+    %
+    \node[fill=white] at (0,0) {$1$};
+    %
+    \node[fill=white] at (-0.5,-1) {$1$};
+    \node[fill=white] at (0.5,-1) {$1$};
+    %
+    \node[fill=white] at (-1,-2) {$1$};
+    \node[fill=white] at (0,-2) {$2$};
+    \node[fill=white] at (1,-2) {$1$};
+    %
+    \node[fill=white] at (-1.5,-3) {$1$};
+    \node[fill=white] at (-0.5,-3) {$3$};
+    \node[fill=white] at (0.5,-3) {$3$};
+    \node[fill=white] at (1.5,-3) {$1$};
+    %
+    \node[fill=white] at (-2,-4) {$1$};
+    \node[fill=white] at (-1,-4) {$4$};
+    \node[fill=white] at (0,-4) {$6$};
+    \node[fill=white] at (1,-4) {$4$};
+    \node[fill=white] at (2,-4) {$1$};
+  \end{tikzpicture}
+$$
+Now, the number of ways to choose $k$ things out of $n$ is the binomial
 coefficient
-
-    (n choose k) = n! / k! (n-k)!
-
-so this is the number at the kth place of the nth row. And since each
+$$\binom{n}{k} = \frac{n!}{k!(n-k)!}$$
+so this is the number at the $k$th place of the nth row. And since each
 number in the triangle is the sum of those above it, we get
-
-    (n choose k) = (n-1 choose k) +  (n-1 choose k-1)
+$$\binom{n}{k} = \binom{n-1}{k} + \binom{n-1}{k-1}$$
 
 To illustrate how these things work, you can actually build a machine
 where you drop a little ball into the top of a triangle, designed so
 that the ball has a 50% chance of zigging to the left or zagging to the
 right at each step of its fall. By the time it gets to the nth row, the
-chance of its being in the kth place will be proportional to (n choose
-k).
+chance of its being in the kth place will be proportional to $\binom{n}{k}$.
 
 If you drop a bunch of balls in the top and catch them as they fall out
 the bottom, you'll get an approximately Gaussian distribution of balls,
 like this:
-
-                                   1
-                                  / \
-                                 1   1
-                                / \ / \
-                               1   2   1
-                              / \ / \ / \
-                             1   3   3   1
-                            / \ / \ / \ / \
-                           1   4   6   4   1
-
-
-                                   o
-                                   o
-                               o   o   o   
-                               o   o   o   
-                               o   o   o   
-                           o   o   o   o   o
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (-2,-4);
+    \draw[thick] (0.5,-1) to (-1,-4);
+    \draw[thick] (1,-2) to (0,-4);
+    \draw[thick] (1.5,-3) to (1,-4);
+    \draw[thick] (0,0) to (2,-4);
+    \draw[thick] (-0.5,-1) to (1,-4);
+    \draw[thick] (-1,-2) to (0,-4);
+    \draw[thick] (-1.5,-3) to (-1,-4);
+    %
+    \node[fill=white] at (0,0) {$1$};
+    %
+    \node[fill=white] at (-0.5,-1) {$1$};
+    \node[fill=white] at (0.5,-1) {$1$};
+    %
+    \node[fill=white] at (-1,-2) {$1$};
+    \node[fill=white] at (0,-2) {$2$};
+    \node[fill=white] at (1,-2) {$1$};
+    %
+    \node[fill=white] at (-1.5,-3) {$1$};
+    \node[fill=white] at (-0.5,-3) {$3$};
+    \node[fill=white] at (0.5,-3) {$3$};
+    \node[fill=white] at (1.5,-3) {$1$};
+    %
+    \node[fill=white] at (-2,-4) {$1$};
+    \node[fill=white] at (-1,-4) {$4$};
+    \node[fill=white] at (0,-4) {$6$};
+    \node[fill=white] at (1,-4) {$4$};
+    \node[fill=white] at (2,-4) {$1$};
+  \end{tikzpicture}
+  \qquad\qquad
+  \begin{tikzpicture}[scale=0.75]
+    \draw[fill=gray] (-2,0) circle (10pt);
+    \foreach \y in {0,1,2,3}
+      \draw[fill=gray] (-1,\y) circle (10pt);
+    \foreach \y in {0,1,2,3,4,5}
+      \draw[fill=gray] (0,\y) circle (10pt);
+    \foreach \y in {0,1,2,3}
+      \draw[fill=gray] (1,\y) circle (10pt);
+    \draw[fill=gray] (2,0) circle (10pt);
+  \end{tikzpicture}
+$$
 This illustrates how the famous "bell curve" shows up whenever you add
-a big bunch of independent random numbers - as made precise by the
+a big bunch of independent random numbers --- as made precise by the
 "central limit theorem".
 
-This stuff is old - very old. In fact, Pascal's triangle had already
+This stuff is old --- very old. In fact, Pascal's triangle had already
 been around for centuries before he wrote his book about it in 1654. I
 think we need a more up-to-date version of Pascal's triangle for the
 21st century.
@@ -100,76 +159,82 @@ ELECTRON, and let's turn on a MAGNETIC FIELD!
 In quantum mechanics, if you have a charged particle in a static
 magnetic field, its wavefunction gets multiplied by a phase when you
 move it around a loop. This phase is just
-
-    q = exp(iF)
-
-where F is the flux of the magnetic field though any surface bounded by
+$$q = \exp(iF)$$
+where $F$ is the flux of the magnetic field though any surface bounded by
 the loop. Here I'm working in units where Planck's constant and the
-particle's charge both equal 1.
+particle's charge both equal $1$.
 
 Suppose our particle is confined to a plane, and there's a constant
 magnetic field perpendicular to this plane. If we tile this plane with
 squares, moving the particle counterclockwise around any one of these
-squares multiplies its wavefunction by the same phase q:
-
-                  ---<---
-                 |       |
-                 v       ^
-                 |       |
-                  --->---
-
-Here's another way to think about it. Let U be the operation of moving
-our particle one unit across to the right, and let V be the operation of
+squares multiplies its wavefunction by the same phase $q$:
+$$
+  \begin{tikzpicture}[scale=1.5]
+    \draw[thick] (0,0)
+      to node[rotate=-90]{$\blacktriangle$} (1,0)
+      to node{$\blacktriangle$} (1,1)
+      to node[rotate=90]{$\blacktriangle$} (0,1)
+      to node[rotate=180]{$\blacktriangle$} (0,0);
+      \node at (1.5,0.5) {$=$};
+      \node at (2.9,0.5) {multiplication by $q$};
+  \end{tikzpicture}
+$$
+Here's another way to think about it. Let $U$ be the operation of moving
+our particle one unit across to the right, and let $V$ be the operation of
 moving it one unit upwards. Then the operation of moving it around the
 above square is
-
-    U V U-1 V-1 
-
-and we've just seen this equals q - that is, it acts to multiply the
-particle's wavefunction by q. So:
-
-    U V U-1 V-1 = q
-
+$$U V U^{-1} V^{-1}$$
+and we've just seen this equals $q$ --- that is, it acts to multiply the
+particle's wavefunction by $q$. So:
+$$U V U^{-1} V^{-1} = q.$$
 This means that the operations U and V don't commute: instead, they
-"q-mute":
-
-    UV = qVU
+"$q$-mute":
+$$UV = qVU$$
 
 Now suppose we have a grid of squares and our particle takes any path
 from the lower left corner to the upper right corner:
-
-                    ---------------
-                   |       |       |
-                   |       |       ^
-                   |       |       |
-                   |----------->---|
-                   |       |       |
-                   |       ^       |
-                   |       |       | 
-                    --->-----------
-
+$$
+  \begin{tikzpicture}[scale=1.5]
+    \foreach \x in {0,1,2}
+      \draw[thick] (\x,0) to (\x,2);
+    \foreach \y in {0,1,2}
+      \draw[thick] (0,\y) to (2,\y);
+    \node at (0,0) {$\bullet$};
+    \node at (2,2) {$\bullet$};
+    \draw[ultra thick] (0,0)
+      to node[rotate=-90]{$\blacktriangle$} (1,0)
+      to node{$\blacktriangle$} (1,1)
+      to node[rotate=-90]{$\blacktriangle$} (2,1)
+      to node{$\blacktriangle$} (2,2);
+  \end{tikzpicture}
+$$
 The phase it acquires by the end of its journey depends on the path it
 takes. Since
-
-    UV = qVU, 
-
-its phase gets an extra factor of q each time it goes first right and
+$$UV = qVU,$$
+its phase gets an extra factor of $q$ each time it goes first right and
 then up, as compared to going up and then right. So compared to the path
 that goes all the way up and then across, the *relative* phase of the
-particle at the end of its journey will be q^n, where n is the number
+particle at the end of its journey will be $q^n$, where $n$ is the number
 of squares above and to the left of its path:
-
-                    ---------------
-                   |       |       |
-                   |   2   |   3   ^
-                   |       |       |
-                   |----------->---|
-                   |       |       |
-                   |   1   ^       |
-                   |       |       | 
-                    --->-----------
-
-In this example our particle gets a relative phase of q^3.
+$$
+  \begin{tikzpicture}[scale=1.5]
+    \foreach \x in {0,1,2}
+      \draw[thick] (\x,0) to (\x,2);
+    \foreach \y in {0,1,2}
+      \draw[thick] (0,\y) to (2,\y);
+    \node at (0,0) {$\bullet$};
+    \node at (2,2) {$\bullet$};
+    \draw[ultra thick] (0,0)
+      to node[rotate=-90]{$\blacktriangle$} (1,0)
+      to node{$\blacktriangle$} (1,1)
+      to node[rotate=-90]{$\blacktriangle$} (2,1)
+      to node{$\blacktriangle$} (2,2);
+    \node at (0.5,0.5) {1};
+    \node at (0.5,1.5) {2};
+    \node at (1.5,1.5) {3};
+  \end{tikzpicture}
+$$
+In this example our particle gets a relative phase of $q^3$.
 
 Now let's rotate our grid of squares so it look like diamonds arranged
 in Pascal's triangle, with the lower right corner of our grid becoming
@@ -182,63 +247,120 @@ over paths is a simple version of what physicists call a "path
 integral".
 
 For example, in this new picture the above path looks like:
-
-                                   o
-                                  / 
-                                 o   x
-                                  \   
-                               x   o   x
-                                  /       
-                             x   o   x   x
-                                  \    
-                           x   x   o   x   x
-
-and we can tell it gets a phase of q^3, because this shape is made of 3
+$$
+  \begin{tikzpicture}
+    \draw[ultra thick] (0,0)
+      to (-0.5,-1)
+      to (0,-2)
+      to (-0.5,-3)
+      to (0,-4);
+    %
+    \node at (0,0) {$\bullet$};
+    %
+    \node at (-0.5,-1) {$\bullet$};
+    \node at (0.5,-1) {$\times$};
+    %
+    \node at (-1,-2) {$\times$};
+    \node at (0,-2) {$\bullet$};
+    \node at (1,-2) {$\times$};
+    %
+    \node at (-1.5,-3) {$\times$};
+    \node at (-0.5,-3) {$\bullet$};
+    \node at (0.5,-3) {$\times$};
+    \node at (1.5,-3) {$\times$};
+    %
+    \node at (-2,-4) {$\times$};
+    \node at (-1,-4) {$\times$};
+    \node at (0,-4) {$\bullet$};
+    \node at (1,-4) {$\times$};
+    \node at (2,-4) {$\times$};
+  \end{tikzpicture}
+$$
+and we can tell it gets a phase of $q^3$, because this shape is made of 3
 diamonds:
-
-                                   o
-                                  / \
-                                 o 1 x
-                                  \ / \
-                               x   o 2 x
-                                  / \ / 
-                             x   o 3 x   x
-                                  \ /
-                           x   x   o   x   x
-
+$$
+  \begin{tikzpicture}
+    \draw[ultra thick] (0,0)
+      to (-0.5,-1)
+      to (0,-2)
+      to (-0.5,-3)
+      to (0,-4);
+    \draw[thick] (0,0)
+      to (0.5,-1)
+      to (0,-2)
+      to (0.5,-3)
+      to (0,-4);
+    \draw[thick] (0.5,-1)
+      to (1,-2)
+      to (0.5,-3);
+    %
+    \node at (0,0) {$\bullet$};
+    %
+    \node at (-0.5,-1) {$\bullet$};
+    \node at (0.5,-1) {$\times$};
+    %
+    \node at (-1,-2) {$\times$};
+    \node at (0,-2) {$\bullet$};
+    \node at (1,-2) {$\times$};
+    %
+    \node at (-1.5,-3) {$\times$};
+    \node at (-0.5,-3) {$\bullet$};
+    \node at (0.5,-3) {$\times$};
+    \node at (1.5,-3) {$\times$};
+    %
+    \node at (-2,-4) {$\times$};
+    \node at (-1,-4) {$\times$};
+    \node at (0,-4) {$\bullet$};
+    \node at (1,-4) {$\times$};
+    \node at (2,-4) {$\times$};
+    %
+    \node at (0,-1) {1};
+    \node at (0.5,-2) {2};
+    \node at (0,-3) {3};
+  \end{tikzpicture}
+$$
 If for each spot we sum these phases over all paths that reach that
-spot, we get the "q-deformed Pascal's triangle":
-
-                                   1
-                                  / \
-                                 /   \
-                                /     \
-                               /       \
-                              /         \
-                             1           1
-                            / \         / \
-                           /   \       /   \
-                          /     \     /     \
-                         /       \   /       \                
-                        1         1+q         1
-                       / \        / \        / \
-                      /   \      /   \      /   \
-                     /     \    /     \    /     \
-                    /       \  /       \  /       \
-                   /         \/         \/         \
-                  1        1+q+q2      1+q+q2        1
-                 / \         /\         /\         / \
-                /   \       /  \       /  \       /   \
-               /     \     /    \     /    \     /     \
-              /       \   /      \   /      \   /       \
-             /         \ /        \ /        \ /         \
-            1    1+q+q2+q3    1+q+2q2+q3+q4  1+q+q2+q3      1
-
-Let's call the entry in the kth place of the nth row
+spot, we get the "$q$-deformed Pascal's triangle":
+$$
+  \begin{tikzpicture}[scale=1.75]
+    \draw[thick] (0,0) to (-2,-4);
+    \draw[thick] (0.5,-1) to (-1,-4);
+    \draw[thick] (1,-2) to (0,-4);
+    \draw[thick] (1.5,-3) to (1,-4);
+    \draw[thick] (0,0) to (2,-4);
+    \draw[thick] (-0.5,-1) to (1,-4);
+    \draw[thick] (-1,-2) to (0,-4);
+    \draw[thick] (-1.5,-3) to (-1,-4);
+    %
+    \node[fill=white] at (0,0) {\scriptsize$1$};
+    %
+    \node[fill=white] at (-0.5,-1) {\scriptsize$1$};
+    \node[fill=white] at (0.5,-1) {\scriptsize$1$};
+    %
+    \node[fill=white] at (-1,-2) {\scriptsize$1$};
+    \node[fill=white] at (0,-2) {\scriptsize$1+q$};
+    \node[fill=white] at (1,-2) {\scriptsize$1$};
+    %
+    \node[fill=white] at (-1.5,-3) {\scriptsize$1$};
+    \node[fill=white] at (-0.5,-3) {\scriptsize$1+q+q^2$};
+    \node[fill=white] at (0.5,-3) {\scriptsize$1+q+q^2$};
+    \node[fill=white] at (1.5,-3) {\scriptsize$1$};
+    %
+    \node[fill=white] at (-2,-4) {\scriptsize$1$};
+    \node[fill=white] at (-1,-4) {\scriptsize$1+q$};
+    \node at (-1,-4.15) {\scriptsize$+q^2+q^3$};
+    \node[fill=white] at (0,-4) {\scriptsize$1+q+2q^2$};
+    \node at (0,-4.2) {\scriptsize$+q^3+q^4$};
+    \node[fill=white] at (1,-4) {\scriptsize$1+q$};
+    \node at (1,-4.15) {\scriptsize$+q^2+q^3$};
+    \node[fill=white] at (2,-4) {\scriptsize$1$};
+  \end{tikzpicture}
+$$
+Let's call the entry in the $k$th place of the $n$th row
 
     [n choose k]
 
-The square brackets tell us that these are "q-binomial coefficients"
+The square brackets tell us that these are "$q$-binomial coefficients"
 instead of the ordinary ones.
 
 Using the fact that every path to reach a spot must have come from the
@@ -255,11 +377,11 @@ inductively that:
     [n choose k] = -----------
                    [k]! [n-k]!
 
-where \[n\]! is the q-factorial
+where \[n\]! is the $q$-factorial
 
     [n]! = [1] [2] ... [n]
 
-and \[n\] is the q-integer
+and \[n\] is the $q$-integer
 
     [n] = 1 + q + ... + q^{n-1}
 
@@ -278,7 +400,7 @@ relation:
     [n choose k]  =  qk [n-1 choose k]  +  [n-1 choose k-1]
 
 But now let's see if you've really been paying attention. Do you
-really understand these q-binomial coefficients? If so, you should
+really understand these $q$-binomial coefficients? If so, you should
 instantly know what the coefficient of any power of q in \[n choose k\]
 signifies. Say, the coefficient of q^i^. Think about it.
 
@@ -307,7 +429,7 @@ But these shapes are famous! They're usually drawn like this:
              |       |       
               -------
 
-and they're called "Young diagrams" - or, with more historical
+and they're called "Young diagrams" --- or, with more historical
 accuracy, "Ferrers diagrams". So, the coefficient of q^i in \[n
 choose k\] is also the number of Young diagrams with i boxes, k columns
 and $n$-k rows.
@@ -321,19 +443,19 @@ now, so let's give it a shot.
 The Grassmannian \mathrm{Gr}(n,k) is the set of all k-dimensional subspaces of an
 n-dimensional vector space. This makes sense over any field. However,
 it's particularly fun to work over the field with q elements, where q
-is any prime power - because then our Grassmannian has \[n choose k\]
+is any prime power --- because then our Grassmannian has \[n choose k\]
 elements!
 
 In fact, we already saw this in ["Week 184"](#week184). But now I
 want to give a proof that uses Young diagrams. This will forge yet
-another link between the two flavors of q-mathematics: the sort where q
+another link between the two flavors of $q$-mathematics: the sort where q
 is a unit complex number, and the sort where q is a prime power. So far
 this week we've been doing quantum mechanics and thinking of q as a
 unit complex number. Now we'll turn into algebraists, take what've
 done, and apply it when q is a power of a prime number!
 
 In ["Week 184"](#week184) I showed that we can read off a lot of
-information about the Grassmannian \mathrm{Gr}(n,k) from the q-binomial
+information about the Grassmannian \mathrm{Gr}(n,k) from the $q$-binomial
 coefficient \[n choose k\]. For example,
 
     [4 choose 2] = 1 + q + 2q2 + q3 + q4
@@ -344,7 +466,7 @@ and if we define our Grassmannian over the field F, we have
 
 meaning that \mathrm{Gr}(4,2) is a disjoint union of a point, a copy of the field
 F, 2 copies of F^2, a copy of F^3, and a copy of F^4. Each copy of
-F^i^ is called an "i-cell" - or in this context a "Schubert cell of
+F^i^ is called an "i-cell" --- or in this context a "Schubert cell of
 dimension i", because there may be many ways to decompose a space into
 cells, but there's a particularly nice one for Grassmannians.
 
@@ -366,7 +488,7 @@ I already said all this in ["Week 184"](#week184). But now, I want
 to use Young diagrams to get ahold of these cell decompositions.
 
 The answer should be staring us in the face. We know that the
-coefficient of any power of q in a q-binomial coefficient is the number
+coefficient of any power of q in a $q$-binomial coefficient is the number
 of Young diagrams of a certain sort. And we also know it's the number
 of Schubert cells of a certain sort. There should be some way to see
 this directly.
@@ -445,7 +567,7 @@ This is nicely consistent with what we already know:
 Okay, enough of this... now for some references.
 
 I've already given lots of Young diagram references in
-["Week 157"](#week157), and lots of references on q-binomial
+["Week 157"](#week157), and lots of references on $q$-binomial
 coeffients and the like in ["Week 183"](#week183) -
 ["Week 185"](#week185). So, I'll just give some references to
 Pascal's triangle and this "UV = qVU" business.
@@ -464,7 +586,7 @@ You'll also see that around 1655, Wallis came up with his wonderful
 formula:
 
            2 4 4 6 6 8 8 
-    \pi /4 = - - - - - - - ...
+    \pi /4 = - - - - - - --- ...
            3 3 5 5 7 7 9 
 
 by relating Pascal's triangle to the integral for the area of a
