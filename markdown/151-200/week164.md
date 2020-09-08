@@ -427,7 +427,7 @@ effects to become important. Why haven't I read this? It's obviously
 worthwhile!
 
 7) Bianca Letizia Cerchiai and Julius Wess, "$q$-Deformed Minkowski Space based on a $q$-Lorentz Algebra", available as
-[math.QA/9801104](https://arxiv.org/abs/math.QA/9801104).
+[`math.QA/9801104`](https://arxiv.org/abs/math.QA/9801104).
 
 > The Hilbert space representations of a non-commutative $q$-deformed
 > Minkowski space, its momenta and its Lorentz boosts are constructed.

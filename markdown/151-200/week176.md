@@ -441,7 +441,7 @@ equivalent to general relativity.
 Now for something completely different! Here's the final episode of my
 description of this paper by Michael Mueger:
 
-15) "From subfactors to categories and topology I: Frobenius algebras in and Morita equivalence of tensor categories", available as [math.CT/0111204](http://www.arXiv.org/abs/math.CT/0111204).
+15) "From subfactors to categories and topology I: Frobenius algebras in and Morita equivalence of tensor categories", available as [`math.CT/0111204`](http://www.arXiv.org/abs/math.CT/0111204).
 
 In ["Week 174"](#week174) I talked about Frobenius algebras and
 $2$-categories; in ["Week 175"](#week175) I said a bit about
@@ -513,7 +513,7 @@ anywhere near the bottom of it yet --- at least, not me!
 By the way, it's taken me so long to explain Mueger's last paper that
 he's already written another:
 
-16) Michael Mueger, "On the structure of modular categories", available as [math.CT/0201017](http://www.arXiv.org/abs/math.CT/0201017).
+16) Michael Mueger, "On the structure of modular categories", available as [`math.CT/0201017`](http://www.arXiv.org/abs/math.CT/0201017).
 
 ------------------------------------------------------------------------
 

@@ -414,15 +414,15 @@ nasty email saying that I didn't actually say anything *interesting*
 about Young diagrams. In an attempt to pacify him, I'll direct you to
 Fulton's excellent review article on this subject:
 
-8) William Fulton, "Eigenvalues, invariant factors, highest weights, and Schubert calculus", _Bull. Amer. Math. Soc._ **37** (2000), 209--249, also available as [math.AG/9908012](http://arXiv.org/abs/math.AG/9908012).
+8) William Fulton, "Eigenvalues, invariant factors, highest weights, and Schubert calculus", _Bull. Amer. Math. Soc._ **37** (2000), 209--249, also available as [`math.AG/9908012`](http://arXiv.org/abs/math.AG/9908012).
 
 as well as Allen and Terry's papers on the subject:
 
-9) Allen Knutson and Terence Tao, "The honeycomb model of $\mathrm{GL}(n)$ tensor products I: the saturation conjecture", preprint available as [math.RT/9807160](http://arXiv.org/abs/math.RT/9807160)
+9) Allen Knutson and Terence Tao, "The honeycomb model of $\mathrm{GL}(n)$ tensor products I: the saturation conjecture", preprint available as [`math.RT/9807160`](http://arXiv.org/abs/math.RT/9807160)
 
-10) Allen Knutson, "The symplectic and algebraic geometry of Horn's problem", preprint available as [math.LA/9911088](http://arXiv.org/abs/math.LA/9911088).
+10) Allen Knutson, "The symplectic and algebraic geometry of Horn's problem", preprint available as [`math.LA/9911088`](http://arXiv.org/abs/math.LA/9911088).
 
-11) Allen Knutson and Terence Tao, "Honeycombs and sums of Hermitian matrices", preprint available as [math.RT/0009048](http://arXiv.org/abs/math.RT/0009048)
+11) Allen Knutson and Terence Tao, "Honeycombs and sums of Hermitian matrices", preprint available as [`math.RT/0009048`](http://arXiv.org/abs/math.RT/0009048)
 
 But I should also mention the question that Horn's conjecture settles!
 

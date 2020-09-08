@@ -264,7 +264,7 @@ $$a a^* = a^* a + 1,$$
 cleverly rewritten to avoid subtraction. You should prove this yourself!
 If you get stuck, the answer is here:
 
-3) John Baez and James Dolan, "From finite sets to Feynman diagrams", in _Mathematics Unlimited --- 2001 and Beyond_, vol. 1, eds. Bjorn Engquist and Wilfried Schmid, Springer, Berlin, 2001, pp. 29-50. Also available as [math.QA/0004133](https://arxiv.org/abs/math.QA/0004133).
+3) John Baez and James Dolan, "From finite sets to Feynman diagrams", in _Mathematics Unlimited --- 2001 and Beyond_, vol. 1, eds. Bjorn Engquist and Wilfried Schmid, Springer, Berlin, 2001, pp. 29-50. Also available as [`math.QA/0004133`](https://arxiv.org/abs/math.QA/0004133).
 
 ... along with lots of other stuff, like the inner product on our
 categorified Fock representation --- and indeed, a categorification of the
