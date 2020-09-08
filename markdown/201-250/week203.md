@@ -417,9 +417,9 @@ talked about this in ["Week 22"](#week22) so I won't explain it
 again here. But, I can't resist mentioning that Freedman, Larsen and
 Wang have subsequently shown that a certain topological quantum field
 theory called Chern-Simons theory, built using the quantum group
-SU~q~(2), can serve as a universal quantum computer when the parameter q
+\mathrm{SU}_q(2), can serve as a universal quantum computer when the parameter q
 is a fifth root of unity. And, this is exactly the case where the
-spin-$1/2$ representation of SU~q~(2) has quantum dimension equal to the
+spin-$1/2$ representation of \mathrm{SU}_q(2) has quantum dimension equal to the
 golden number!
 
 14) Michael Freedman, Michael Larsen, Zhenghan Wang, A modular functor
@@ -428,7 +428,7 @@ which is universal for quantum computation, available at
 
 But don't get the wrong idea: it's not that some magic feature of the
 golden number is required to build a universal quantum computer! It's
-just that the 5 seems to be the *smallest* number n such that SU~q~(2)
+just that the 5 seems to be the *smallest* number n such that \mathrm{SU}_q(2)
 Chern-Simons theory is computationally universal when q is an nth root
 of 1.
 
