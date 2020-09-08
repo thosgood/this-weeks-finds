@@ -3,6 +3,7 @@
 - footnotes?
     + 151
 - **diagrams**
+    + 186
     + 182 (tables)
     + 181
     + 174
@@ -10,6 +11,7 @@
     + 145
     + 94
 - search for **???**
+- check that the "network" diagrams in week186 are right
 - n-.... to $n$-... ?
     + dim.
     + cat.
