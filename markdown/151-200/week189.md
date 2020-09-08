@@ -5,15 +5,14 @@ rulers and clocks. There's a bunch of articles about time in the
 September issue of Scientific American, including a neat one about the
 latest progress in chronometry:
 
-1) W. Wayt Gibbs, Ultimate clocks, Scientific American, September 2002,
-pp. 86-93.
+1) W. Wayt Gibbs, "Ultimate clocks", _Scientific American_, September 2002, pp. 86--93.
 
 The most accurate clocks in common use are atomic clocks that make use
 of the radiation emitted by cesium as it transitions between two energy
 levels near the ground state. For \$63,000 you can buy a clock like this
 that keeps time good to a microsecond per month, or about 5 parts in
-10^13^. The primary time standard of the National Institute of Standards
-and Technology is a cesium clock accurate to 1 part in 10^15^. In fact,
+$10^{13}$. The primary time standard of the National Institute of Standards
+and Technology is a cesium clock accurate to 1 part in $10^{15}$. In fact,
 the second was defined in 1967 to consist of 9,192,631,770 periods of
 the radiation emitted by cesium as it undergoes this transition.
 
@@ -31,17 +30,16 @@ build a clock that uses the radiation emitted by just *one* atom.
 Diddams' group has already tested a clock that uses the light emitted
 by a single atom of mercury:
 
-2) Scott A. Diddams et al, An optical clock based on a single trapped
-Hg-199+ ion, Science, 293 (August 3 2001), 825-828.
+2) Scott A. Diddams et al, "An optical clock based on a single trapped Hg-199+ ion", _Science_, **293** (August 3 2001), 825--828.
 
 However, the frequency of this transition is easily affected by magnetic
 fields, so Thomas Udem, Theodor Haensch and others at the Max Planck
 Intitute for Quantum Optics are investigating a clock based on a single
-indium ion that could reach an accuracy of about 1 part in 10^18^.
+indium ion that could reach an accuracy of about 1 part in $10^{18}$.
 
 When you reach accuracies like this, relativistic corrections become
 very important. Special relativity causes a time dilation of 1 part in
-10^17^ when you walk down the street at normal speed. General relativity
+$10^{17}$ when you walk down the street at normal speed. General relativity
 causes a gravitational time dilation of the same order when you lower
 your watch 10 centimeters! Researchers at the NIST already need to
 correct for gravitational time dilation when they compare atomic clocks
@@ -54,13 +52,13 @@ So ultimately, it could be small irregularities in the gravitational
 field, rather than limitations of technology, that limit our timekeeping
 ability. Where will it all end? Only time will tell.
 
-Meanwhile, work continues on LIGO - the Laser Interferometer
+Meanwhile, work continues on LIGO --- the Laser Interferometer
 Gravitational-Wave Observatory. As you probably know, this consists of
 two facilities: one in Livingston, Louisiana, and one in Hanford,
 Washington. Each facility consists of laser beams bouncing back and
 forth along two 4-kilometer-long tubes arranged in an L shape. As a
 gravitational wave passes by, the tubes should alternately stretch and
-squash - very slightly, but hopefully enough to be detected via changing
+squash --- very slightly, but hopefully enough to be detected via changing
 interference patterns in the laser beam.
 
 LIGO is coming into operation in stages. The first stage, called LIGO I,
@@ -93,21 +91,19 @@ see between 1 and 1000 events per year.
 
 For a lot more information, including other things we might see, try:
 
-3) Curt Cutler and Kip Thorne, An overview of gravitational-wave
-sources, available as
-[`gr-qc/0204090`](https://arxiv.org/abs/gr-qc/0204090).
+3) Curt Cutler and Kip Thorne, "An overview of gravitational-wave sources", available as [`gr-qc/0204090`](https://arxiv.org/abs/gr-qc/0204090).
 
 The really scary thing is how good LIGO needs to be to work as planned.
 Roughly speaking, LIGO I aims to detect gravitational waves that distort
-distances by about 1 part in 10^21^. Since the laser bounces back and
+distances by about 1 part in $10^{21}$. Since the laser bounces back and
 forth between the mirrors about 50 times, the effective length of the
-detector is 200 kilometers. Multiply this by 10^-21^ and you get 2 x
-10^-16^ meters.
+detector is 200 kilometers. Multiply this by $10^{-21}$ and you get
+$2\times10^{-16}$ meters.
 
-By comparison, the radius of a proton is 8 x 10^-16^ meters! So, we're
+By comparison, the radius of a proton is $8\times10^{-16}$ meters! So, we're
 talking about measuring distances to within a quarter of a proton
 radius! And that's just LIGO I. LIGO II aims to detect waves that
-distort distances by a mere 2 parts in 10^23^, so it needs to do 50
+distort distances by a mere 2 parts in $10^{23}$, so it needs to do 50
 times better.
 
 I should admit that I'm being a bit misleading. The goal is not really
@@ -120,12 +116,11 @@ But how's it actually going?
 Well, on October 20th, 2000, the Hanford installation achieved "first
 lock":
 
-4) First lock at LIGO Hanford Observatory,
-`http://www.ligo.caltech.edu/LIGO_web/firstlock/`
+4) "First lock at LIGO Hanford Observatory", `http://www.ligo.caltech.edu/LIGO_web/firstlock/`
 
 What this means is that the laser beams locked into phase for a little
 while. To do this, the mirrors must maintain a positional accuracy of
-about one wavelength of infrared light - that is, about 10^-6^ meters.
+about one wavelength of infrared light --- that is, about $10^{-6}$ meters.
 Nice, but still 10 orders of magnitude from what's ultimately required.
 
 By November 2000, the Hanford installation had been operational for long
@@ -137,8 +132,7 @@ devices that can compensate for this motion.
 On February 28th, 2001, a magnitude 6.8 earthquake hit Olympia,
 Washington. This threw the Hanford LIGO facility out of alignment:
 
-5) Washington quake rattles Hanford Observatory,
-`http://www.ligo.caltech.edu/LIGO_web/news/0228quake.html`
+5) "Washington quake rattles Hanford Observatory", `http://www.ligo.caltech.edu/LIGO_web/news/0228quake.html`
 
 To go inside and fix things, they needed to open a carefully evacuated
 chamber, which when functioning is evacuated to 1 trillionth normal
@@ -167,11 +161,11 @@ would sometimes throw the beam out of alignment, thanks to their
 
 The first "science run" was scheduled for June 29th, 2002. This means
 that both the Hanford and Livingston facilities would run simultaneously
-and actually collect data for the purposes of doing science - still
+and actually collect data for the purposes of doing science --- still
 rather crude data, but good enough to put new upper bounds on the
 strength of the gravitational waves that are out there. By this time,
 the Livingston detector was able to notice changes in distance of one
-part in 10^20^. I assume the Hanford one was similar....
+part in $10^{20}$. I assume the Hanford one was similar....
 
 Unfortunately, on June 28th, one day before the scheduled run, there was
 a magnitude 7.2 earthquake on the border of China and Russia!
@@ -185,8 +179,7 @@ overheated and broke! Again, all this occurred in an evacuated chamber,
 which had to be vented. It took 2 months to fix everything and make sure
 it wouldn't happen again:
 
-6) LIGO's first science run: a special report,
-`http://www.ligo.caltech.edu/LIGO_web/0209news/0209s1r1.html`
+6) "LIGO's first science run: a special report", `http://www.ligo.caltech.edu/LIGO_web/0209news/0209s1r1.html`
 
 But by August 23, they were back in business! Both LIGO detectors ran in
 coordination with GEO 600, a gravitational wave detector in Hannover run
@@ -202,39 +195,33 @@ folks are in this for the long haul...
 But meanwhile, going down all the way to the Planck scale, I'd like to
 talk about a shocking new development in loop quantum gravity:
 
-7) Olaf Dreyer, Quasinormal modes, the area spectrum, and black hole
-entropy, [`gr-qc/0211076`](https://arxiv.org/abs/gr-qc/0211076).
+7) Olaf Dreyer, "Quasinormal modes, the area spectrum, and black hole entropy", [`gr-qc/0211076`](https://arxiv.org/abs/gr-qc/0211076).
 
 First for some historical background. In 1975, Hawking showed that black
 holes emit thermal radiation due to quantum effects:
 
-8) Stephen Hawking, Particle creation by black holes, Commun. Math.
-Phys. 43 (1975), 199-220.
+8) Stephen Hawking, "Particle creation by black holes", _Commun. Math. Phys._ **43** (1975), 199--220.
 
 Using this one can assign a temperature to a black hole, and then use
 thermodynamic relations to calculate an entropy for it. This entropy is
-
-    S = A/4
-
-where A is the area of the event horizon, and I'm using Planck units,
-where c = G = ħ = k = 1.
+$$S = A/4$$
+where $A$ is the area of the event horizon, and I'm using Planck units,
+where $c = G = \hbar = k = 1$.
 
 Since then Hawking's calculation has been confirmed in a myriad of
 ways. However, one would really like to compute the entropy of a black
 hole using statistical mechanics! Ever since Boltzmann, we have known
 that the entropy of a system is given by
-
-    S = ln N
-
-where N is the number of microstates. But what are the microstates of a
-black hole? In other words, if you have a black hole of area A, what are
+$$S = \ln N$$
+where $N$ is the number of microstates. But what are the microstates of a
+black hole? In other words, if you have a black hole of area $A$, what are
 all the states it could be in that look the same from a distance, but
 differ in tiny microscopic ways?
 
 There is no answer to this in general relativity, because general
-relativity is a classical theory, and Hawking's formula S = A/4 really
+relativity is a classical theory, and Hawking's formula $S = A/4$ really
 involves Planck's constant, since the area is being measured in units
-of the Planck length squared, ħ G / c^3. So, we really need a theory of
+of the Planck length squared, $\hbar G/c^3$. So, we really need a theory of
 quantum gravity to identify the microstates of a black hole.
 
 In the late 1990s, people decided to compute the entropy of black holes
@@ -250,110 +237,68 @@ the fun. So did Alejandro Corichi, another student of Ashtekar.
 By 1997 we felt we were getting somewhere, and we came out with a short
 note outlining our approach:
 
-9) Abhay Ashtekar, John Baez, Alejandro Corichi and Kirill Krasnov,
-Quantum geometry and black hole entropy, Phys. Rev. Lett. 80 (1998)
-904-907, also available at
-[`gr-qc/9710007`](https://arxiv.org/abs/gr-qc/9710007).
+9) Abhay Ashtekar, John Baez, Alejandro Corichi and Kirill Krasnov, "Quantum geometry and black hole entropy", _Phys. Rev. Lett._ **80** (1998) 904--907, also available at [`gr-qc/9710007`](https://arxiv.org/abs/gr-qc/9710007).
 
 Filling in the details took about 3 more years, and was quite
 exhausting. We chopped the job into two parts, a classical part and a
 quantum part:
 
-10) Abhay Ashtekar, Alejandro Corichi and Kirill Krasnov, Isolated
-horizons: the classical phase space, Adv. Theor. Math. Phys. 3 (2000),
-418-471, available as
-[`gr-qc/9905089`](https://arxiv.org/abs/gr-qc/9905089).
+10) Abhay Ashtekar, Alejandro Corichi and Kirill Krasnov, "Isolated horizons: the classical phase space", _Adv. Theor. Math. Phys._ **3** (2000), 418--471, available as [`gr-qc/9905089`](https://arxiv.org/abs/gr-qc/9905089).
 
-Abhay Ashtekar, John Baez and Kirill Krasnov, Quantum geometry of
-isolated horizons and black hole entropy, Adv. Theor. Math. Phys. 4
-(2000), 1-94, available as
-[`gr-qc/0005126`](https://arxiv.org/abs/gr-qc/0005126).
+Abhay Ashtekar, John Baez and Kirill Krasnov, "Quantum geometry of isolated horizons and black hole entropy", _Adv. Theor. Math. Phys._ **4** (2000), 1--94, available as [`gr-qc/0005126`](https://arxiv.org/abs/gr-qc/0005126).
 
 The details are complicated, but the final upshot is quite simple. In
 loop quantum gravity, there is a basis of states given by "spin
 networks". Roughly speaking, these are graphs with edges labelled by
 spins
-
-    j = 0, 1/2, 1, ...
-
+$$j = 0, 1/2, 1, \ldots$$
 Any surface in space gets its area from the spin network edges that
-puncture it, and a spin-j edge contributes an area of
-
-    8 \pi  \gamma \sqrt{j(j+1)}
-
-Here \gamma is a dimensionless constant called the "Barbero-Immirzi
-parameter" - a puzzling, annoying but so far unavoidable feature of
+puncture it, and a spin-$j$ edge contributes an area of
+$$8\pi\gamma\sqrt{j(j+1)}$$
+Here $\gamma$ is a dimensionless constant called the "Barbero-Immirzi
+parameter" --- a puzzling, annoying but so far unavoidable feature of
 loop quantum gravity! Dreyer's work is exciting because it sheds new
 light on this puzzling parameter.
 
-If we have a black hole of area close to A, we have
-
-    A ~ SUM 8 \pi  \gamma \sqrt{j(j+1)}
-
-where \~ means "approximately equal to", and we sum over spin network
+If we have a black hole of area close to $A$, we have
+$$A \sim \sum 8\pi\gamma\sqrt{j(j+1)}$$
+where $\sim$ means "approximately equal to", and we sum over spin network
 edges puncturing the event horizon. But it turns out that the geometry
-of the event horizon is described not only by the spins j labelling each
-edge, but also by some numbers m for each edge, which must lie in the
+of the event horizon is described not only by the spins $j$ labelling each
+edge, but also by some numbers $m$ for each edge, which must lie in the
 range
-
-    m = -j, -j+1, ..., j-1, j
-
-Since there are 2j+1 choices of m for a given j, there are
-
-    PRODUCT (2j+1)
-
-microstates of the black hole for any choice of spins j. Here the
+$$m = -j, -j+1, \ldots, j-1, j$$
+Since there are $2j+1$ choices of $m$ for a given $j$, there are
+$$\prod (2j+1)$$
+microstates of the black hole for any choice of spins $j$. Here the
 product is taken over all punctures. To get the *total* number of
 microstates, we must then sum this quantity over all choices of the
-spins j satisfying
-
-    A ~ SUM 8 \pi  \gamma \sqrt{j(j+1)}.
-
+spins $j$ satisfying
+$$A \sim \sum 8\pi\gamma\sqrt{j(j+1)}.$$
 This is a nice math problem. It turns out that for a large black hole,
 the whopping majority of all microstates come from taking all the spins
 to be as small as possible while still contributing some area. So, we
-can just count the microstates where all the spins j equal 1/2. In a
-state like this, m can take just two values at each puncture.
+can just count the microstates where all the spins $j$ equal $1/2$. In a
+state like this, $m$ can take just two values at each puncture.
 
-In a state where all the spins are 1/2, the number of spin network edges
-puncturing the horizon, say n, must satisfy
-
-    A ~ 8 \pi  \gamma sqrt(3/4) n 
-
-      = 4 \pi  \gamma sqrt(3) n
-
+In a state where all the spins are $1/2$, the number of spin network edges
+puncturing the horizon, say $n$, must satisfy
+$$A \sim 8\pi\gamma\sqrt{\frac34} n  = 4\pi\gamma\sqrt{3} n$$
 so the number of punctures must be
-
-    n ~ A / 4 \pi  \gamma sqrt(3)
-
-Since m can take two values at each puncture, the number of microstates
+$$n \sim \frac{A}{4\pi\gamma\sqrt{3}}$$
+Since $m$ can take two values at each puncture, the number of microstates
 we get this way is
-
-    N = 2n
-
+$$N = 2n$$
 and the entropy is
-
-    S = ln N
-
-      = (ln 2) n
-
-
-               ln 2 
-      ~ ------------------ A
-        4 \pi  \gamma sqrt(3)  
-
+$$S = \ln N = (\ln 2) n \sim \frac{\ln2}{4\pi\gamma\sqrt{3}}A$$
 Good! Entropy is proportional to area, at least for large black holes!
 For very small ones we need to do a more careful count of microstates,
-and we get "quantum corrections" to Hawking's formula - but that's
+and we get "quantum corrections" to Hawking's formula --- but that's
 another story. Right now, the more important thing is that nasty
 Barbero-Immirzi parameter. To get the above formula to match Hawking's
-formula S = A/4 we need
-
-               ln 2
-    \gamma = ----------
-            \pi  sqrt(3)
-
-On the one hand this is good: we've determined \gamma! We can also check
+formula $S = A/4$ we need
+$$\gamma = \frac{\ln2}{\pi\sqrt{3}}$$
+On the one hand this is good: we've determined $\gamma$! We can also check
 that the same value works for electrically charged black holes and other
 sorts of black holes. On the other hand, it's annoying that we can only
 determine it with the help of Hawking's calculation. We'd really like
@@ -361,56 +306,37 @@ to derive the right value of the Barbero-Immirzi parameter from *within*
 loop quantum gravity. But this seems hard, in part because it's such a
 bizarre number.
 
-Now for an extra twist - something that we thought about but
+Now for an extra twist --- something that we thought about but
 unfortunately decided not to put in our paper. If you've studied the
 quantum mechanics of angular momentum, a lot of these formulas involving
-j's and m's should look familiar to you. That's because loop quantum
-gravity is usually treated as a gauge theory with gauge group \mathrm{SU}(2),
+$j$'s and $m$'s should look familiar to you. That's because loop quantum
+gravity is usually treated as a gauge theory with gauge group $\mathrm{SU}(2)$,
 which is also the group used to study angular momentum.
 
 But we can also formulate gravity as a gauge theory with gauge group
-\mathrm{SO}(3), the usual rotation group! Classically it makes no difference. But
+$\mathrm{SO}(3)$, the usual rotation group! Classically it makes no difference. But
 in loop quantum gravity, it has the effect of ruling out half-integer
-spins. This means that j = 1/2 is no longer the smallest nonzero spin.
-Instead, it's j = 1. We can easily redo the whole calculation using
-\mathrm{SO}(3). Not much changes, but we get a different value of the
+spins. This means that $j = 1/2$ is no longer the smallest nonzero spin.
+Instead, it's $j = 1$. We can easily redo the whole calculation using
+$\mathrm{SO}(3)$. Not much changes, but we get a different value of the
 Barbero-Immirzi parameter. When all the spin network edges puncturing
-the event horizon have j = 1, we get
-
-    A ~ 8 \pi  \gamma sqrt(2) n 
-
+the event horizon have $j = 1$, we get
+$$A \sim 8\pi\gamma\sqrt{2} n$$
 and thus
-
-    n ~ A / 8 \pi  \gamma sqrt(2)
-
-There are now three allowed m values for each puncture, so
-
-    N = 3n
-
+$$n \sim \frac{A}{8\pi\gamma\sqrt{2}}$$
+There are now three allowed $m$ values for each puncture, so
+$$N = 3n$$
 and the entropy is
-
-    S = ln N
-
-      = (ln 3) n
-
-
-               ln 3
-      ~ ------------------ A
-        8 \pi  \gamma sqrt(2)      
-
-This matches Hawking's S = A/4 if we take
-
-                ln 3
-    \gamma = -----------
-            2 \pi  sqrt(2)
-
+$$S = \ln N = (\ln 3) n \sim \frac{\ln3}{8\pi\gamma\sqrt{2}}A$$
+This matches Hawking's $S = A/4$ if we take
+$$\gamma = \frac{\ln3}{2\pi\sqrt{2}}$$
 Again, the same number works for electrically charged and other black
-holes, as long as use the \mathrm{SO}(3) version of loop quantum gravity. Indeed,
-the \mathrm{SO}(3) theory seems just as good as the \mathrm{SU}(2) theory unless you want
+holes, as long as use the $\mathrm{SO}(3)$ version of loop quantum gravity. Indeed,
+the $\mathrm{SO}(3)$ theory seems just as good as the $\mathrm{SU}(2)$ theory unless you want
 to include spin-$1/2$ particles. As long as you don't do that, they're
 different but equally good quantum theories that look the same
 classically. But since we *did* want to eventually include spin-$1/2$
-particles, we focused on the \mathrm{SU}(2) theory.
+particles, we focused on the $\mathrm{SU}(2)$ theory.
 
 Now for the big news. Last Sunday, Olaf Dreyer, a postdoc at the
 Perimeter Insitute who had been a student of Ashtekar, came out with an
@@ -419,51 +345,35 @@ amazing paper that could change everything!
 In this paper, he calculates the Barbero-Immirzi parameter in a
 completely new way, using numerical results on the vibrational modes of
 *classical* black holes. His answer seems to agree with that obtained by
-the above calculation... but only if we use \mathrm{SO}(3) instead of \mathrm{SU}(2) as
+the above calculation... but only if we use $\mathrm{SO}(3)$ instead of $\mathrm{SU}(2)$ as
 the gauge group!
 
 It's very hard to know what this means, but the calculation itself is
 so cool that I want to tell you how it goes.
 
 Dreyer's new method only uses a tiny bit of information about loop
-quantum gravity - and it doesn't use Hawking's work at all. It's not
+quantum gravity --- and it doesn't use Hawking's work at all. It's not
 a rigorous calculation in a full-fledged theory of quantum gravity;
 it's actually very similar to Bohr's early calculation of the spectrum
 of hydrogen.
 
 According to Bohr, if classically a system can undergo periodic motion
-at some frequency ω, then in the quantum theory it can emit or absorb
+at some frequency $\omega$, then in the quantum theory it can emit or absorb
 quanta of radiation with energy
-
-    Δ E = ω 
-
+$$\Delta E = \omega$$
 But the energy of a nonrotating black hole is just its mass:
-
-    E = M
-
+$$E = M$$
 and this is related to the area of its event horizon by
-
-    A = 16 \pi  M2
-
+$$A = 16 \pi M^2$$
 so we have
-
-    Δ A = 32 \pi  M Δ M
-
-            = 32 \pi  M ω
-
-Now for something from loop quantum gravity: if we work in the \mathrm{SO}(3)
+$$\Delta A = 32 \pi M \Delta M = 32 \pi M \omega$$
+Now for something from loop quantum gravity: if we work in the $\mathrm{SO}(3)$
 theory, it's natural to guess that this change in area comes from the
 appearance or disappearance of a single spin-$1$ edge puncturing the
 horizon, so that
-
-    Δ A = 8 \pi  \gamma sqrt(2)
-
+$$\Delta A = 8 \pi\gamma\sqrt{2}$$
 Putting these equations together, we get
-
-             4 M ω         
-    \gamma = -----------
-              sqrt(2)
-
+$$\gamma = \frac{4M\omega}{\sqrt{2}}$$
 And now for the miracle! A nonrotating black hole will exhibit damped
 oscillations when you perturb it momentarily in any way, and there are
 different vibrational modes, each with its own characteristic frequency
@@ -471,21 +381,13 @@ and damping. In 1993, Hans-Peter Nollert used computer calculations to
 show that in the limit of large damping, the frequency of these modes
 approaches a specific number depending only on the mass of the black
 hole:
-
-    ω = 0.04371235 / M
-
+$$\omega = \frac{0.04371235}{M}$$
 In 1998, Shahar Hod noticed that the number here may equal
-
-    ln(3) / 8 \pi  = 0.043712394070757472250... 
-
+$$\frac{\ln3}{8\pi} = 0.043712394070757472250\ldots$$
 They agree to 6 significant figures!
 
 Assuming Hod is right, Dreyer concludes that
-
-                ln 3
-    \gamma = -----------
-            2 \pi  sqrt(2)
-
+$$\gamma = \frac{\ln3}{2\pi\sqrt{2}}$$
 This is the same result that we got before!!! But it comes from very
 different reasoning.
 
@@ -503,59 +405,41 @@ Here are some references in case you want to calculate this number
 yourself, and either verify or kill this amazing idea. Nollert's
 original calculation appears in
 
-11) Hans-Peter Nollert, Quasinormal modes of Schwarzschild black holes:
-the determination of quasinormal frequencies with very large imaginary
-parts, Phys. Rev. D47 (1993), 5253-5258.
+11) Hans-Peter Nollert, "Quasinormal modes of Schwarzschild black holes: the determination of quasinormal frequencies with very large imaginary parts", _Phys. Rev._ **D47** (1993), 5253--5258.
 
 It was subsequently confirmed by Andersson:
 
-12) Nils Andersson, On the asymptotic distribution of quasinormal-mode
-frequencies for Schwarzschild black holes, Class. Quant. Grav. 10
-(1993), L61-L67.
+12) Nils Andersson, "On the asymptotic distribution of quasinormal-mode frequencies for Schwarzschild black holes", _Class. Quant. Grav._ **10** (1993), L61--L67.
 
 Technically the vibrational modes of a black hole are called
 "quasinormal modes". You can read more about them here:
 
-13) Hans-Peter Nollert, Quasinormal modes: the characteristic 'sound'
-of black holes and neutron stars, Class. Quant. Grav. 16 (1999),
-R159-R216.
+13) Hans-Peter Nollert, "Quasinormal modes: the characteristic 'sound' of black holes and neutron stars", _Class. Quant. Grav._ **16** (1999), R159--R216.
 
-K. D. Kokkotas and B. G. Schmidt, Quasi-normal modes of stars and black
-holes, Living Reviews in Relativity 2 (1999) 2, online at
-`http://www.livingreviews.org/Articles/Volume2/1999-2kokkotas/` Also
-available at [`gr-qc/9909058`](https://arxiv.org/abs/gr-qc/9909058).
+    K. D. Kokkotas and B. G. Schmidt, "Quasi-normal modes of stars and black holes", _Living Reviews in Relativity_ **2** (1999) 2, online at `http://www.livingreviews.org/Articles/Volume2/1999-2kokkotas/` Also available at [`gr-qc/9909058`](https://arxiv.org/abs/gr-qc/9909058).
 
 Hod's observation appears here:
 
-14) Shahar Hod, Bohr's correspondence principle and the area spectrum
-of quantum black holes, Phys. Rev. Lett. 81 (1998), 4293, also available
-as [`gr-qc/9812002`](https://arxiv.org/abs/gr-qc/9812002).
+14) Shahar Hod, "Bohr's correspondence principle and the area spectrum of quantum black holes", _Phys. Rev. Lett._ **81** (1998), 4293, also available as [`gr-qc/9812002`](https://arxiv.org/abs/gr-qc/9812002).
 
 and was developed a bit further in:
 
-15) Shahar Hod, Gravitation, the quantum, and Bohr's correspondence
-principle, Gen. Rel. Grav. 31 (1999) 1639, also available as
-[`gr-qc/0002002`](https://arxiv.org/abs/gr-qc/0002002).
+15) Shahar Hod, "Gravitation, the quantum, and Bohr's correspondence principle", _Gen. Rel. Grav._ **31** (1999) 1639, also available as [`gr-qc/0002002`](https://arxiv.org/abs/gr-qc/0002002).
 
-He goes so far as to argue that the "quantum of area" is 4 ln 3. This
+He goes so far as to argue that the "quantum of area" is $4\ln3$. This
 matches the area due to a spin-$1$ puncture if the Barbero-Immirzi
 parameter has the value obtained by Dreyer:
-
-                ln 3
-    \gamma = -----------
-            2 \pi  sqrt(2)
-
+$$\gamma = \frac{\ln3}{2\pi\sqrt{2}}$$
 However, Hod believes the area eigenvalues of a black hole are evenly
 spaced, which disagrees with the results of loop quantum gravity. The
 idea of equally spaced area eigenvalues for a black hole was originally
 championed by Bekenstein and Mukhanov:
 
-16) Jacob D. Bekenstein, Lett. Nuovo Cimento 11 (1974), 467.
+16) Jacob D. Bekenstein, _Lett. Nuovo Cimento_ **11** (1974), 467.
 
-V. F. Mukhanov, Are black holes quantized?, JETP Lett. 44 (1986), 63-66.
+    V. F. Mukhanov, "Are black holes quantized?", _JETP Lett._ **44** (1986), 63--66.
 
-Jacob D. Bekenstein and V. F. Mukhanov, Spectroscopy of the quantum
-black hole, Phys. Lett B360 (1995), 7-12.
+    Jacob D. Bekenstein and V. F. Mukhanov, "Spectroscopy of the quantum black hole", _Phys. Lett_ **B360** (1995), 7--12.
 
 and subsequently developed by many others as well. To get the
 thermodynamics of black holes to work out right, this forces them to
@@ -565,9 +449,7 @@ for large black holes, contrary to Hawking's calculations. Ashtekar has
 argued that this is implausible. In loop quantum gravity, the area
 eigenvalues get very densely packed for a large black hole, since one is
 adding up lots of different numbers of the form
-
-    8 \pi  \gamma \sqrt{j(j+1)}, 
-
+$$8\pi\gamma\sqrt{j(j+1)},$$
 so one would not see widely spaced spectral lines in Hawking radiation
 from a large black hole.
 
@@ -579,13 +461,13 @@ starting to smell a lot sweeter!
 ------------------------------------------------------------------------
 
 Afterword: Here is my reply to some questions posted by Ken Tucker on
-sci.physics.research:
+`sci.physics.research`:
 
-In article <2202379a.0212050928.77c435d0\@posting.google.com>, Ken S.
+In article `2202379a.0212050928.77c435d0\@posting.google.com`, Ken S.
 Tucker wrote:
 
-    >Do you or anyone think we could directly verify g-waves with a
-    >properly constructed g-wave transmitter near the LIGO?
+> Do you or anyone think we could directly verify g-waves with a
+> properly constructed g-wave transmitter near the LIGO?
 
 We can't generate strong enough gravitational waves to detect with
 LIGO. We only have a chance of detecting binary neutron stars because
@@ -602,9 +484,9 @@ Now, try making something like that yourself.
 You see, even though we have the advantage of being able to get much
 *closer* to the LIGO detector than the binary neutron stars, this is
 still outweighed by the incredible power of the gravitational radiation
-produced by binary neutron stars! These guys emit approximately 3 x
-10^49^ watts of power in their final moments. Even 1000 parsecs away,
-that means folks here on earth receive a flux of about 3 x 10^5 watts
+produced by binary neutron stars! These guys emit approximately $3\times10^{49}$
+watts of power in their final moments. Even 1000 parsecs away,
+that means folks here on earth receive a flux of about $3\times10^5$ watts
 per square centimeter of gravitational radiation.
 
 There's nothing we can make here on earth that comes close to that. For
@@ -612,10 +494,10 @@ comparison, let's take a steel cylinder 1 meter in diameter and 20
 meters long, and thus about 490 metric tons in mass. Now, spin it end
 over end so fast that it almost rips apart due to the centrifugal force
 - that means about 4.5 cycles per second. You wouldn't want to get
-close to this thing! But it will radiate a measly 2 x 10^-30^ watts of
+close to this thing! But it will radiate a measly $2\times10^{-30}$ watts of
 gravitational radiation...
 
-... that is, about 10^-79^ times as much as the binary neutron star.
+... that is, about $10^{-79}$ times as much as the binary neutron star.
 
 This is why the binary neutron star can be so much further away, yet
 still much easier to detect than any gravitational radiation we can make
@@ -627,11 +509,11 @@ detect on LIGO; as I've described in another post which has not
 appeared yet, even a tumbleweed flying past LIGO creates enough of a
 time-dependent gravitational potential for the device to detect.
 
-    >It would indeed be excellent to obtain a g-wave burst and a 
-    >\gamma wave burst simultaneously. (even better is if the propagation
-    >rate were different then we'd have a cool yardstick).
+> It would indeed be excellent to obtain a g-wave burst and a 
+> $\gamma$ wave burst simultaneously. (even better is if the propagation
+> rate were different then we'd have a cool yardstick).
 
-We may see that from \gamma ray bursters, someday. We don't know how \gamma ray
+We may see that from $\gamma$ ray bursters, someday. We don't know how $\gamma$ ray
 bursters work well enough to know how much gravitational radiation they
 produce.
 
@@ -643,29 +525,29 @@ collapse/explosion create gravitational radiation. More precisely, one
 needs a time-dependent *quadrupole* moment to get gravitational
 radiation.
 
-    >I'm wondering if it may be practically possible to generate g-waves
-    >to verify that this radiation in fact exists. In the threads I've studied
-    >(for example the thread "Gravitational Radiation Detection", around 
-    >2000/01) this looks unlikely in our life times. 
+> I'm wondering if it may be practically possible to generate g-waves
+> to verify that this radiation in fact exists. In the threads I've studied
+> (for example the thread "Gravitational Radiation Detection", around 
+> 2000/01) this looks unlikely in our life times. 
 
 Yes, and I hope the figures above begin to explain why!
 
-    >I believe Hertz was able to transmit and receive EMR in his lab, to 
-    >produce an unequivocal repeatable result. Such an experiment for
-    >g-waves would be a near holy grail.
+> I believe Hertz was able to transmit and receive EMR in his lab, to 
+> produce an unequivocal repeatable result. Such an experiment for
+> g-waves would be a near holy grail.
 
 Yes.
 
-    >In Dr. Baez's post (2000/01/03) appears an equation for the
-    >g-wave Power output = 2/45 G M2 L4 w6 / c5, but I haven't 
-    >been able to find a specific reference for the sensitivity of LIGO in
-    >units of power/area in the 100-300 Hz band. 
+> In Dr. Baez's post (2000/01/03) appears an equation for the
+> g-wave Power output = $2/45 G M^2 L^4 w^6 / c^5$, but I haven't 
+> been able to find a specific reference for the sensitivity of LIGO in
+> units of power/area in the 100-300 Hz band. 
 
 That's because LIGO sensitivity is usually measured in different units.
 I don't know how much power per area LIGO can detect in the 100-300
 hertz frequency band, but by the above figures, detecting a binary
-neutron star 1000 parsecs away is equivalent to detecting roughly 3 x
-10^5 watts / cm^2. This may seem like a hell of a lot of power per
+neutron star 1000 parsecs away is equivalent to detecting roughly
+$3\times10^5$ watts / cm\textsuperscript{2}. This may seem like a hell of a lot of power per
 area, and it is, but gravity is such a weak force compared to
 electromagnetism that one *needs* a hell of a lot more power per area to
 be able to detect it!
@@ -675,5 +557,5 @@ be able to detect it!
 *When Rutherford introduced me to Bohr he asked me what I was working
 on. I told him and he said, "How is it going?" I said, "I'm in
 difficulties." He said, "Are the difficulties mathematical or
-physical?" I said, "I don't know." He said, "That's bad."* - J.
+physical?" I said, "I don't know." He said, "That's bad."* --- J.
 Robert Oppenheimer
