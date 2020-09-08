@@ -197,21 +197,23 @@ $$
 (This picture has a $0$-ary operation in it, just to emphasize that this
 is allowed.) We can permute the inputs of an $n$-ary operation and get a
 new operation:
-
-                          \ /   /
-                           /   /
-                          / \ /    
-                         /   /   
-                        /   / \
-                        \  |  /
-                         -----
-                        |     | 
-                         -----
-                           |
-                           |
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (-0.6,2.5)
+        to [out=down,in=up,looseness=1.5] (0.33,1);
+      \strand[thick] (0,2.5)
+        to [out=down,in=up,looseness=1.5] (-0.33,1);
+      \strand[thick] (0.6,2.5)
+        to [out=down,in=up,looseness=1.5] (0,1);
+      \flipcrossings{1,2};
+    \end{knot}
+    \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+    \draw[thick] (0,0) to (0,-1);
+  \end{tikzpicture}
+$$
 We demand that this give an action of each permutation group S_n on
-each set O_n. Finally, we demand that these actions be compatible with
+each set $\mathcal{O}_n$. Finally, we demand that these actions be compatible with
 composition, in a way that's supposed to be obvious from the pictures.
 For example:
 
@@ -240,70 +242,67 @@ With this answered, your next question is probably: "why should I
 *care* about operads?" This gets a little more technical. For a
 detailed answer, the best place to look is this book:
 
-5) Martin Markl, Steve Schnider and Jim Stasheff, Operads in Algebra,
-Topology and Physics, AMS, Providence, Rhode Island, 2002.
+5) Martin Markl, Steve Schnider and Jim Stasheff, _Operads in Algebra, Topology and Physics_, AMS, Providence, Rhode Island, 2002.
 
 But if you just want a taste, try Stasheff's infamous "operadchik"
 paper --- get it? --- which for some reason isn't on the arXiv:
 
-6) James Stasheff, Hartford/Luminy talks on operads, available at
-`http://www.math.unc.edu/Faculty/jds/operadchik.ps`.
+6) James Stasheff, Hartford/Luminy talks on operads, available at `http://www.math.unc.edu/Faculty/jds/operadchik.ps`.
 
 Another good introduction is this paper by Sasha Voronov:
 
-7) Alexander Voronov, Notes on universal algebra, available as
-[math.QA/0111009](http://www.arXiv.org/abs/math.QA/0111009).
+7) Alexander Voronov, "Notes on universal algebra", available as [`math.QA/0111009`](http://www.arXiv.org/abs/math.QA/0111009).
 
 Tom Leinster is writing a book on the applications of operads to
 higher-dimensional algebra, but you'll have to wait a while for that.
 
 Anyway, there are many reasons why you should care about operads.
 Historically, the first come from topology. In homotopy theory, the main
-way to probe a space X is by looking at maps from the k-sphere to X. We
-define the "kth loop space" of X, Ω^k^(X), to be the space of all such
-maps sending the north pole to a chosen point in X, called the
-"basepoint". The set of connected components of Ω^k^(X) is called the
-"kth homotopy group" of X; this is a group for k > 0 and an abelian
-group for k > 1.
+way to probe a space $X$ is by looking at maps from the $k$-sphere to $X$. We
+define the "$k$th loop space" of $X$, $\Omega^k(X)$, to be the space of all such
+maps sending the north pole to a chosen point in $X$, called the
+"basepoint". The set of connected components of $\Omega^k(X)$ is called the
+"$k$th homotopy group" of $X$; this is a group for $k > 0$ and an abelian
+group for $k > 1$.
 
 Most homotopy theorists would gladly sell their souls for the ability to
 compute the homotopy groups of an arbitrary space. However, there is
-extra information lurking in the space Ω^k^ X that gets lost when we
+extra information lurking in the space $\Omega^k(X)$ that gets lost when we
 consider only its connected components. Starting in the late 1950s, a
 large number of excellent topologists including Adams and MacLane,
 Stasheff, Boardman and Vogt, and May struggled to understand *all* the
-structure possessed by an k-fold loop space.
+structure possessed by an $k$-fold loop space.
 
-For example, Ω^1(X) is something like a topological group, thanks to
+For example, $\Omega^1(X)$ is something like a topological group, thanks to
 our ability to "compose" loops. (For details, see
 ["Week 119"](#week119).) However, the usual group laws such as
 associativity hold only up to homotopy. To make matters even trickier,
 these homotopies satisfy certain laws of their own, but only up to
-homotopy --- and so on ad infinitum. Similarly, Ω^k^(X) is something like
-an abelian topological group for k > 1, but again only up to homotopies
+homotopy --- and so on ad infinitum. Similarly, $\Omega^k(X)$ is something like
+an abelian topological group for $k > 1$, but again only up to homotopies
 that themselves satisfy certain laws up to homotopy, and so on --- and in
-a manner that gets ever more complicated for higher k!
+a manner that gets ever more complicated for higher $k$!
 
 After more than decade of hard work, it became clear that operads are
 the easiest way to organize all these higher homotopies. Just as a group
-can act on a set, so can an operad O, each abstract operation in O_n
+can act on a set, so can an operad $\mathcal{O}$, each abstract operation in $\mathcal{O}_n$
 being realized as actual $n$-ary operation on the set in a manner
 preserving composition, the identity, and the permutation group actions.
-A set equipped with an action of the operad O is usually called an
-"algebra over O", though personally I'd prefer to call it an action
-of O on the set. It turns out that the structure of a k-fold loop space
+A set equipped with an action of the operad $\mathcal{O}$ is usually called an
+"algebra over $\mathcal{O}$", though personally I'd prefer to call it an action
+of $\mathcal{O}$ on the set. It turns out that the structure of a $k$-fold loop space
 is completely captured by saying that it is an algebra over a certain
 operad!
 
-Even better, if we choose this operad O to be "cofibrant" --- whatever
-that means --- any space equipped with a homotopy equivalence to a k-fold
-loop space will also become an algebra over O. This is the simplest
+Even better, if we choose this operad $\mathcal{O}$ to be "cofibrant" --- whatever
+that means --- any space equipped with a homotopy equivalence to a $k$-fold
+loop space will also become an algebra over $\mathcal{O}$. This is the simplest
 example of how operads are used to describe "homotopy invariant
 algebraic structures", in which all laws hold up to an infinite
 sequence of higher homotopies.
 
 For an operad to do this job, it must really have a *topological space*
-of operations O_n for each n, since the fact that various laws hold up
+of operations $\mathcal{O}_n$ for each $n$, since the fact that various laws hold up
 to homotopy is expressed by the existence of certain continuous paths in
 these spaces. Similarly, composition and the permutation group actions
 should be *continuous maps*. Finally, we should only consider algebras
@@ -328,42 +327,33 @@ structure types.
 I said that a structure type is "any sort of structure you can put on
 finite sets", but let me make that more precise. A structure type is
 really a functor
-
-F\colon  \mathsf{FinSet}~0~ \to  \mathsf{Set}
-
-where \mathsf{FinSet}~0~ is the groupoid of finite sets and bijections, and \mathsf{Set}
-is the category of sets and functions. \mathsf{FinSet}~0~ is equivalent to the
-category that has one object, "the $n$-element set", for each n, with
+$$F\colon \mathsf{FinSet}_0 \to \mathsf{Set}$$
+where $\mathsf{FinSet}_0$ is the groupoid of finite sets and bijections, and $\mathsf{Set}$
+is the category of sets and functions. $\mathsf{FinSet}_0$ is equivalent to the
+category that has one object, "the $n$-element set", for each $n$, with
 the morphisms from this object to itself forming the permutation group
-S_n. So, we can also think of a structure type as consisting of a set
-F(n) for each n, together with an action of S_n on this set F(n). This
+$S_n$. So, we can also think of a structure type as consisting of a set
+$F(n)$ for each $n$, together with an action of $S_n$ on this set $F(n)$. This
 latter viewpoint is good for calculation, while the original viewpoint
 is better for conceptual work.
 
 We also have morphisms between structure types, which are just natural
 transformations between functors of the above sort. So, the category of
 structure types is the functor category
-
-\operatorname{Hom}(\mathsf{FinSet}~0~, \mathsf{Set})
-
+$$\operatorname{Hom}(\mathsf{FinSet}_0, \mathsf{Set})$$
 To understand why this category acts like the ring of formal power
 series in one variable, it's crucial to understand the analogy between
 ordinary set-based algebra and categorified algebra. The quickest way to
 get a feel for this may be a big chart, which starts like this:
 
-    sets                            categories
-
-    monoids                         monoidal categories
-
-    commutative monoids             symmetric monoidal categories
-
-    commutative rigs                symmetric 2-rigs
-
-    the free commutative rig on     the free symmetric 2-rig on
-    no generators: N                no generators: \mathsf{Set}
-
-    the free commutative rig on     the free symmetric 2-rig on
-    one generator: N[x]             on generator: \mathsf{Set}[[x]] = \operatorname{Hom}(\mathsf{FinSet}0, \mathsf{Set}) 
+| set-based algebra | categorified algebra |
+| :---------------- | :------------------- |
+| sets | categories |
+| monoids | monoidal categories |
+| commutative monoids | symmetric monoidal categories |
+| commutative rigs | symmetric $2$-rigs |
+| the free commutative rig on no generators: $\mathbb{N}$ | the free symmetric $2$-rig on no generators: $\mathsf{Set}$ |
+| the free commutative rig on one generator: $\mathbb{N}[x]$ | the free symmetric $2$-rig on one generator: $\mathsf{Set}[[x]]=\operatorname{Hom}(\mathsf{FinSet}0, \mathsf{Set})$ |
 
 I'll assume you understand the first three lines of the chart, e.g.
 that just as a monoid is a set equipped with an associative
@@ -374,44 +364,44 @@ some coherence laws. Similarly, a symmetric monoidal category is like a
 commutative monoid.
 
 We can then throw in an extra operation, "addition". Recall that a
-"rig" is a set with two monoid structures + and x, where + is
-commutative and x distributes over +. Most algebraists prefer rings,
-where you can also subtract, but the natural numbers N are just a rig,
-and working over N instead the integers is important in combinatorics.
-The reason, ultimately, is that N is the free commutative rig on no
+"rig" is a set with two monoid structures $+$ and $\times$, where $+$ is
+commutative and $\times$ distributes over $+$. Most algebraists prefer rings,
+where you can also subtract, but the natural numbers $\mathbb{N}$ are just a rig,
+and working over $\mathbb{N}$ instead the integers is important in combinatorics.
+The reason, ultimately, is that $\mathbb{N}$ is the free commutative rig on no
 generators!
 
-*No* generators? Yes --- since you get the numbers 0 and 1 for free in the
+*No* generators? Yes --- since you get the numbers $0$ and $1$ for free in the
 definition of a rig, without needing to throw in any generators, and
-then the rig operations give you 1+1, 1+1+1, and so on.
+then the rig operations give you $1+1$, $1+1+1$, and so on.
 
-Now, a 2-rig should be a categorified analogue of a rig. The classic
+Now, a $2$-rig should be a categorified analogue of a rig. The classic
 example is the category of sets, where "addition" is disjoint union
 and "multiplication" is Cartesian product. It would be nice if this
-were the free 2-rig on no generators, to emphasize the analogy between
+were the free $2$-rig on no generators, to emphasize the analogy between
 natural numbers and sets.
 
 There are various different ways to accomplish this, but one nice way is
-to define a "2-rig" as a monoidal category with colimits, where the
+to define a "$2$-rig" as a monoidal category with colimits, where the
 monoidal structure preserves colimits in each argument. The colimits act
 like addition and the monoidal structure acts like multiplication. Given
-this, it's easy to check that the free 2-rig on no generators is the
-category \mathsf{Set}.
+this, it's easy to check that the free $2$-rig on no generators is the
+category $\mathsf{Set}$.
 
 (If we prefer an analogy between natural numbers and *finite* sets, we
 should say "finite colimits" instead of colimits in the definition of
-2-rig: then \mathsf{FinSet} will be the free 2-rig on no generators.)
+$2$-rig: then $\mathsf{FinSet}$ will be the free $2$-rig on no generators.)
 
 Now, what's the free commutative rig on *one* generator?
 
-It's N\[x\], the algebra of polynomials in one variable, with natural
+It's $\mathbb{N}[x]$, the algebra of polynomials in one variable, with natural
 number coefficients.
 
-If we complete this a bit, we get N\[\[x\]\], the algebra of formal
+If we complete this a bit, we get $\mathbb{N}[[x]]$, the algebra of formal
 power series with natural number coefficients. But let's categorify it,
 instead...
 
-What's the free symmetric 2-rig on one generator?
+What's the free symmetric $2$-rig on one generator?
 
 It's the category of STRUCTURE TYPES!
 
@@ -423,7 +413,7 @@ power series.
 (You might argue that structure types are the categorified version of
 polynomials, not formal power series, since the free commutative rig on
 one generator is an algebra of *polynomials*. But unlike in a rig, we
-have no trouble doing "infinite sums" in a 2-rig, since we've got
+have no trouble doing "infinite sums" in a $2$-rig, since we've got
 arbitrary colimits. So, the difference between polynomials and formal
 power is not so big. Indeed, there's nothing "formal" about infinite
 sums in the categorified situation, since divergent sums aren't a
@@ -434,33 +424,27 @@ in categorified mathematics.)
 
 Now, formal power series can be multiplied in two ways: ordinary
 multiplication:
-
-(FG)(x) = F(x) G(x)
-
+$$(FG)(x) = F(x) G(x)$$
 which is commutative, and composition:
-
-(FoG)(x) = F(G(x))
-
+$$(F\circ G)(x) = F(G(x))$$
 which is not. I talked about both of these and their combinatorial
 meaning for generating functions last time. Ordinary multiplication
 makes power series into a commutative rig; composition is
 noncommutative, and it doesn't give us a rig, since it only distributes
 over addition on one side:
-
-(F+G) o H = FoH + GoH
-
-Even worse, the composite F o G can diverge!
+$$(F+G)\circ H = F\circ H + G\circ H$$
+Even worse, the composite $F\circ G$ can diverge!
 
 Similarly, structure types can be multiplied in two ways: ordinary
 multiplication and composition. I described how both of these work last
-time. Ordinary multiplication makes power series into a symmetric 2-rig;
-composition is not symmetric, and it doesn't give us a 2-rig, since it
+time. Ordinary multiplication makes power series into a symmetric $2$-rig;
+composition is not symmetric, and it doesn't give us a $2$-rig, since it
 only distributes over colimits on one side. However, we don't have to
 worry about; composition really does put a well-defined monoidal
 structure on the category of structure types.
 
 The "ordinary" multiplication is what makes structure types into the
-free symmetric 2-rig on one generator, but composition is also cool.
+free symmetric $2$-rig on one generator, but composition is also cool.
 It's related to operads. And here's how.
 
 Recall from ["Week 89"](#week89) that we can define a "monoid
@@ -480,10 +464,10 @@ will strengthen your brain... you will literally grow new neurons.
 
 ------------------------------------------------------------------------
 
-Addendum: after an informally summarized list of axioms for the
+**Addendum:** after an informally summarized list of axioms for the
 definition of an operad, I wrote above:
 
-    That's all there is to it!
+> That's all there is to it!
 
 Alas, this isn't quite true. Peter May has subsequently pointed out to
 me that the book by Stasheff *et al* omits a crucial clause in the
@@ -507,10 +491,10 @@ definition of operad, namely that operations like this are well-defined:
                   |   
                   |  
 
-Here we can either compose the operations a,b,c with d and then apply a
+Here we can either compose the operations $a$, $b$, $c$ with $d$ and then apply a
 permutation to the arguments of the result, or apply permutations to the
-arguments of a,b, and c and then compose the resulting operation with d
-- we get the same answer either way!
+arguments of $a$, $b$, and $c$ and then compose the resulting operation with $d$
+--- we get the same answer either way!
 
 I hope in some future edition they'll be able to correct this mistake.
 
