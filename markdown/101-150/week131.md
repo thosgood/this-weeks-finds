@@ -304,7 +304,7 @@ about them, just because they're so cool!
 
 ------------------------------------------------------------------------
 
-Addendum: Here is something from Allen Knutson in response to my remark
+**Addendum:** Here is something from Allen Knutson in response to my remark
 that $\mathrm{E}_6$ has complex representations that aren't their own conjugates. I
 hoped that this is related to the symmetry of the Dynkin diagram of $\mathrm{E}_6$,
 and Allen replied:

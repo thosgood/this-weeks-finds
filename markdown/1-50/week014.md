@@ -344,7 +344,7 @@ I didn't discuss this aspect of the paper, so let me quote the
 abstract:
 
 > The structure of the moduli spaces $M := A/G$ of (all, not just flat)
-> $\mathrm{SL}(2,C)$ and $\mathrm{SU}(1,1)$ connections on a $n$-manifold is analysed. For any
+> $\mathrm{SL}(2,\mathbb{C})$ and $\mathrm{SU}(1,1)$ connections on a $n$-manifold is analysed. For any
 > topology on the corresponding spaces $A$ of all connections which
 > satisfies the weak requirement of compatibility with the affine
 > structure of $A$, the moduli space $M$ is shown to be non-Hausdorff. It is

@@ -269,7 +269,7 @@ of proton decay.
 
 ------------------------------------------------------------------------
 
-Addendum: Tony Smith writes:
+**Addendum:** Tony Smith writes:
 
 >     Thanks for mentioning the John Conway - Derek Smith book
 >     in week 194. I have ordered it from Amazon.

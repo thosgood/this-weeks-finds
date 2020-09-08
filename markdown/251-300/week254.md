@@ -295,8 +295,8 @@ and how they could be related to the Standard Model.
 
 First, some history. In 1887, Wilhelm Killing sent a letter to Friedrich
 Engel saying he'd classified the simple Lie algebras. Besides the
-"classical" ones - namely the infinite series \mathfrak{sl}(n,C), \mathfrak{so}(n,C) and
-sp(n,C) - he found 6 exceptions: a $14$-dimensional one, two
+"classical" ones - namely the infinite series \mathfrak{sl}(n,\mathbb{C}), \mathfrak{so}(n,\mathbb{C}) and
+\mathfrak{sp}(n,\mathbb{C}) - he found 6 exceptions: a $14$-dimensional one, two
 52-dimensional ones, a 78-dimensional one, a 133-dimensional one and a
 248-dimensional one.
 

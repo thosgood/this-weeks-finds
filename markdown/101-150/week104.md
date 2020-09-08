@@ -196,10 +196,10 @@ spacetime. Let $\mathfrak{so}(n,1)$ be the corresponding Lie algebra (see
 ["Week 63"](#week63) for a lightning introduction to Lie algebras).
 Then it turns out that:
 
-- $\mathfrak{sl}(2,R) = \mathfrak{so}(2,1)$
-- $\mathfrak{sl}(2,C) = \mathfrak{so}(3,1)$
-- $\mathfrak{sl}(2,H) = \mathfrak{so}(5,1)$
-- $\mathfrak{sl}(2,O) = \mathfrak{so}(9,1)$
+- $\mathfrak{sl}(2,\mathbb{R}) = \mathfrak{so}(2,1)$
+- $\mathfrak{sl}(2,\mathbb{C}) = \mathfrak{so}(3,1)$
+- $\mathfrak{sl}(2,\mathbb{H}) = \mathfrak{so}(5,1)$
+- $\mathfrak{sl}(2,\mathbb{O}) = \mathfrak{so}(9,1)$
 
 This relates reals, complexes, quaternions and octonions to the Lorentz
 group in dimensions 3, 4, 6, and 10, and explains the "coincidence"

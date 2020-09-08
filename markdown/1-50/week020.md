@@ -308,9 +308,7 @@ who wants more might start with Conway and Sloane.
 
 ------------------------------------------------------------------------
 
-**Addendum:**
-
-I had written:
+**Addendum:** I had written:
 
 > Now here's an interesting question: say we labelled the 12 spheres
 > touching the central one with numbers 1-12. Is there enough room to

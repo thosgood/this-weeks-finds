@@ -554,11 +554,11 @@ subgroup fixing a unit spinor is thus \mathrm{SU}(3).
 
 The second of these facts implies that \mathfrak{so}(5) must sit inside the
 traceless skew-adjoint matrices in H(2). In other words, \mathfrak{so}(5) sits
-inside sp(2). But
+inside \mathfrak{sp}(2). But
 
-    dim(\mathfrak{so}(5)) = dim(sp(2)) = 10
+    dim(\mathfrak{so}(5)) = dim(\mathfrak{sp}(2)) = 10
 
-so in fact \mathfrak{so}(5) = sp(2). Indeed, \mathrm{Sp}(2) is the double cover of \mathrm{SO}(5),
+so in fact \mathfrak{so}(5) = \mathfrak{sp}(2). Indeed, \mathrm{Sp}(2) is the double cover of \mathrm{SO}(5),
 and it acts on the space of spinors, H^2, in the obvious way. The
 subgroup fixing a unit spinor is thus \mathrm{Sp}(1)... which being the unit
 quaternions, is isomorphic to \mathrm{SU}(2).
@@ -676,7 +676,7 @@ I hope this makes things a bit more vivid!
 
 ------------------------------------------------------------------------
 
-Addendum: My definition of "Kaehler manifold" above was a bit
+**Addendum:** My definition of "Kaehler manifold" above was a bit
 nonstandard. For a while, some of us on sci.physics.research started
 worrying that it wasn't equivalent to the usual one! Luckily, it turns
 out that it is. Here is some of our discussion of this issue.
