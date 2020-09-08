@@ -71,6 +71,10 @@ printf "\n" >> $TEX
 printf '%s\n' '\usepackage{graphicx}' >> $TEX
 
 printf "\n" >> $TEX
+printf "\n" >> $TEX
+printf '%s\n' '\usepackage{embedall}' >> $TEX
+
+printf "\n" >> $TEX
 printf '%s\n' '\begin{document}' >> $TEX
 
 printf "\n" >> $TEX
