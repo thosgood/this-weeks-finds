@@ -114,7 +114,7 @@ $$
     \draw[thick] (-1,2) to (-0.33,1);
     \draw[thick] (0,2) to (0,1);
     \draw[thick] (1,2) to (0.33,1);
-    \draw[rounded corners] (-0.75,1) rectangle ++(1.5,-1);
+    \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
 $$
@@ -124,56 +124,77 @@ $$
     \begin{scope}[shift={(-2.5,3)}]
       \draw[thick] (-0.5,2) to (-0.25,1);
       \draw[thick] (0.5,2) to (0.25,1);
-      \draw[rounded corners] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(0,3)}]
       \draw[thick] (-1,2) to (-0.33,1);
       \draw[thick] (0,2) to (0,1);
       \draw[thick] (1,2) to (0.33,1);
-      \draw[rounded corners] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(2.5,3)}]
       \draw[thick] (0,2) to (0,1);
-      \draw[rounded corners] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
       \draw[thick] (-2.5,3) to (-0.33,1);
       \draw[thick] (0,3) to (0,1);
       \draw[thick] (2.5,3) to (0.33,1);
-      \draw[rounded corners] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
 $$
-feeding the outputs of n operations g_1,..,g_n into the inputs of an
-n-ary operation f, obtaining a new operation which we call f o
-(g_1,...,g_n). We demand that there be a unary operation serving as
+feeding the outputs of $n$ operations $g_1,\ldots,g_n$ into the inputs of an
+$n$-ary operation $f$, obtaining a new operation which we call
+$f\circ(g_1,\ldots,g_n)$. We demand that there be a unary operation serving as
 the identity for composition, and we impose an "associative law" that
 makes a composite of composites like this well-defined:
-
-                  \    /   |  \  |  /   \     / 
-                   \  /    |   \ | /     \   / 
-                    ---   ---   ---       ---
-                   |   | |   | |   |     |   |
-                    ---   ---   ---       ---
-                       \   |   /          /
-                        \  |  /          / 
-                         \ | /          / 
-              -----      -----      -----
-             |     |    |     |    |     |
-              -----      -----      -----
-                  \        |        /  
-                   \       |       /   
-                    \      |      /
-                     \     |     / 
-                      \    |    / 
-                       \   |   /   
-                        \  |  /
-                         -----
-                        |     | 
-                         -----
-                           |
-                           |
-
-(This picture has a 0-ary operation in it, just to emphasize that this
+$$
+  \begin{tikzpicture}[xscale=0.7,yscale=0.5]
+    \begin{scope}[shift={(0,3)},xscale=0.45,yscale=0.67]
+      \begin{scope}[shift={(-2.5,3)}]
+        \draw[thick] (-0.5,2) to (-0.25,1);
+        \draw[thick] (0.5,2) to (0.25,1);
+        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \end{scope}
+      \begin{scope}[shift={(0,3)}]
+        \draw[thick] (-1,2) to (-0.33,1);
+        \draw[thick] (0,2) to (0,1);
+        \draw[thick] (1,2) to (0.33,1);
+        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \end{scope}
+      \begin{scope}[shift={(2.5,3)}]
+        \draw[thick] (0,2) to (0,1);
+        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \end{scope}
+    \end{scope}
+    \begin{scope}[shift={(2.5,3)},xscale=0.45,yscale=0.67]
+      \begin{scope}[shift={(0,3)}]
+        \draw[thick] (-0.5,2) to (-0.25,1);
+        \draw[thick] (0.5,2) to (0.25,1);
+        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \end{scope}
+    \end{scope}
+    \begin{scope}[shift={(-2.5,3)}]
+      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+    \end{scope}
+    \begin{scope}[shift={(0,3)}]
+      \draw[thick] (-1,2) to (-0.33,1);
+      \draw[thick] (0,2) to (0,1);
+      \draw[thick] (1,2) to (0.33,1);
+      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+    \end{scope}
+    \begin{scope}[shift={(2.5,3)}]
+      \draw[thick] (0,2) to (0,1);
+      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+    \end{scope}
+      \draw[thick] (-2.5,3) to (-0.33,1);
+      \draw[thick] (0,3) to (0,1);
+      \draw[thick] (2.5,3) to (0.33,1);
+      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick] (0,0) to (0,-1);
+  \end{tikzpicture}
+$$
+(This picture has a $0$-ary operation in it, just to emphasize that this
 is allowed.) We can permute the inputs of an $n$-ary operation and get a
 new operation:
 
