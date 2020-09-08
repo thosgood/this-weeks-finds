@@ -27,7 +27,7 @@ elaborate diagram, of which this is the first part:
 We start with a Dynkin diagram and see what we can do with it; we'll
 find that two separate routes lead to the same polynomial, which for
 lack of a better name I'll call the "$q$-polynomial". In recent weeks
-I've hinted that starting with the Dynkin diagrams in the $A_n$ series,
+I've hinted that starting with the Dynkin diagrams in the $\mathrm{A}_n$ series,
 like this:
 $$
   \begin{tikzpicture}
@@ -57,7 +57,7 @@ $$
     \draw[thick] (0,0) to (1,0);
     \node at (0,0) {$\bullet$};
     \node at (1,0) {$\bullet$};
-    \node at (2,0) {$A_2$};
+    \node at (2,0) {$\mathrm{A}_2$};
   \end{tikzpicture}
 $$
 we get the symmetry group of the equilateral triangle, while starting
@@ -68,7 +68,7 @@ $$
     \draw[double,double equal sign distance,-implies] (0,0) to (0.55,0);
     \node at (0,0) {$\bullet$};
     \node at (1,0) {$\bullet$};
-    \node at (2,0) {$B_2$};
+    \node at (2,0) {$\mathrm{B}_2$};
   \end{tikzpicture}
 $$
 we get the symmetry group of the square, and starting with this one:
@@ -78,7 +78,7 @@ $$
     \node at (0,0) {$\bullet$};
     \node at (1,0) {$\bullet$};
     \node at (2,0) {$\bullet$};
-    \node at (3,0) {$A_3$};
+    \node at (3,0) {$\mathrm{A}_3$};
   \end{tikzpicture}
 $$
 we get the symmetry group of the regular tetrahedron. Other Coxeter
@@ -113,7 +113,7 @@ $$
     \draw[thick] (0,0) to (1,0);
     \node at (0,0) {$\bullet$};
     \node at (1,0) {$\bullet$};
-    \node at (2,0) {$A_2$};
+    \node at (2,0) {$\mathrm{A}_2$};
   \end{tikzpicture}
 $$
 gives the Coxeter group consisting of symmetries of the equilateral
@@ -136,7 +136,7 @@ $$
     \node at (0,0) {$\bullet$};
     \node at (1,0) {$\bullet$};
     \node at (2,0) {$\bullet$};
-    \node at (3,0) {$A_2$};
+    \node at (3,0) {$\mathrm{A}_2$};
   \end{tikzpicture}
 $$
 gives the symmetry group of the tetrahedron, so we can get its Coxeter
@@ -181,7 +181,7 @@ you can sort of fake it and pretend they work just the same. Eventually
 that attitude will get you in trouble, but hopefully you'll notice when
 it happens.
 
-For example, the Dynkin diagram $A_n$ has $n$ dots in a row like this:
+For example, the Dynkin diagram $\mathrm{A}_n$ has $n$ dots in a row like this:
 $$
   \begin{tikzpicture}
     \draw[thick] (0,0) to (4,0);
@@ -210,8 +210,8 @@ better. They have the same Lie algebra so it's not all that big a
 deal.)
 
 The same general sort of thing works for all other Dynkin diagrams, too.
-The $B_n$ and $D_n$ series give the symmetry groups of conformal
-geometries, while the $C_n$ series give the symmetry groups of symplectic
+The $\mathrm{B}_n$ and $\mathrm{D}_n$ series give the symmetry groups of conformal
+geometries, while the $\mathrm{C}_n$ series give the symmetry groups of symplectic
 geometries, and the exceptional Dynkin diagrams give symmetry groups of
 "exceptional geometries" associated to the octonions and their
 analogues for other fields.
@@ -244,7 +244,7 @@ Of course, there *is no* field $\mathbb{F}_q$ with $q = 1$. Nonetheless, all sor
 of formulas that work for other values of $q$ for simple algebraic groups
 over $\mathbb{F}_q$ and their flag varieties, apply when $q = 1$ to Coxeter groups
 and their Coxeter complexes! I gave the primordial example in
-["Week 184"](#week184), which comes from the Dynkin diagram $A_n$.
+["Week 184"](#week184), which comes from the Dynkin diagram $\mathrm{A}_n$.
 The number of points in the flag variety of the group $\mathrm{SL}(n+1,$\mathbb{F}_q$)$ is
 the $q$-factorial
 $$[n+1]! = [1] [2] \ldots [n+1]$$
@@ -253,7 +253,7 @@ $$[i] = 1 + q + q^2 + \ldots + q^{i-1}$$
 When we set $q = 1$ in this formula, we get the ordinary factorial $(n+1)!$,
 and this is the number of total orderings of an $n$-element set. It's
 also the number of top-dimensional simplices in the Coxeter complex for
-$A_n$ --- and that's the way to think about it that works for other Dynkin
+$\mathrm{A}_n$ --- and that's the way to think about it that works for other Dynkin
 diagrams.
 
 In general, the trick is to set up a kind of incidence geometry starting
@@ -263,7 +263,7 @@ the various types... where two figures are "incident" if the
 $0$-simplices are both vertices of some top-dimensional simplex!
 
 To get a tiny taste of how this stuff works, consider the Dynkin diagram
-$A_2$. We've seen that the Coxeter complex is a barycentrically
+$\mathrm{A}_2$. We've seen that the Coxeter complex is a barycentrically
 subdivided triangle:
 
                                    x
@@ -297,13 +297,13 @@ $\times$ and $\bullet$ are the two ends of a line segment.
 Note that any two distinct points are incident to a unique line, and any
 two distinct lines are incident to a unique point! This is
 characteristic of projective plane geometry. And that's just right,
-because $A_2$ is the Dynkin diagram corresponding to projective plane
+because $\mathrm{A}_2$ is the Dynkin diagram corresponding to projective plane
 geometry. If we do projective plane geometry over a field $\mathbb{F}$, the group
 $\mathrm{SL}(3,\mathbb{F})$ acts as symmetries. But for this puny little geometry, the
 *Coxeter group* acts as symmetries. This is the symmetry group of the
 triangle, which is the group of permutations of its three vertices.
 
-More generally, suppose we start with the diagram $A_n$. Then we'd see
+More generally, suppose we start with the diagram $\mathrm{A}_n$. Then we'd see
 that its Coxeter group consists of permutations of $n+1$ things: the
 vertices of an $n$-simplex. The Coxeter complex would be gotten by
 barycentrically subdividing the surface of this $n$-simplex. And the
@@ -360,7 +360,7 @@ It's easy to see that a) and b) are equivalent; ditto for c) and d).
 The equivalence between b) and c) is deeper; it comes from the wonderful
 analogy between Coxeter complexes and flag varieties.
 
-Let's calculate the $q$-polynomial of $A_2$ using method b):
+Let's calculate the $q$-polynomial of $\mathrm{A}_2$ using method b):
 
                                   0
                                x-----o

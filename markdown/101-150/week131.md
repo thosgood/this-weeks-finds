@@ -322,7 +322,7 @@ and Allen replied:
 > Any rep either has complex trace sometimes, or a real, or a quaternionic
 > structure, morally because of Artin-Wedderburn applied to the real
 > group algebra of $G$. Given a rep one can find out which by looking at
-> the integral over $G$ of $\operatorname{Tr}(g^2)$, which comes out $0$, $1$, or $-1$ (respectively).  
+> the integral over $G$ of $\operatorname{Tr}(g^2)$, which comes out $0$, $1$, or $-1$ (respectively).
 > This is the "Schur indicator" and can be found in Serre's LinReps of 
 > Finite Groups.
 > 

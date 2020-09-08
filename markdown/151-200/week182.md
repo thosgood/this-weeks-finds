@@ -77,10 +77,10 @@ subgroups of the rotation group! The Platonic solids have their symmetry
 groups, which don't change when we switch $n$ and $m$. The solution $(n,1)$
 corresponds to the cyclic group $\mathbb{Z}_n$: the symmetries of a regular $n$-gon,
 where you're not allowed to flip it over. The solution $(n,2)$
-corresponds to the dihedral group $D_n$: the symmetries of a regular
+corresponds to the dihedral group $\mathrm{D}_n$: the symmetries of a regular
 n-gon where you *are* allowed to flip it over.
 
-In some weird sense, maybe we should think of $\mathbb{Z}_n$ and $D_n$ as the
+In some weird sense, maybe we should think of $\mathbb{Z}_n$ and $\mathrm{D}_n$ as the
 symmetry groups of Platonic solids with only 1 or 2 faces. I'll leave
 you to ponder the Platonic solids with only 1 or 2 vertices. If you get
 stuck, look up the word "hosohedron"!
@@ -108,12 +108,12 @@ separate the spherical, planar and hyperbolic regions:
 |       | $n=1$ | $n=2$ | $n=3$ | $n=4$ | $n=5$ | $n=6$ | $n=7$ |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | $m=1$ | $\mathbb{Z}_1$ | $\mathbb{Z}_2$ | $\mathbb{Z}_3$ | $\mathbb{Z}_4$ | $\mathbb{Z}_5$ | $\mathbb{Z}_6$ | $\mathbb{Z}_7$ |
-| $m=2$ | $\mathbb{Z}_2$ | $D_2$ | $D_3$ | $D_4$ | $D_5$ | $D_6$ | $D_7$ |
-| $m=3$ | $\mathbb{Z}_3$ | $D_3$ | tetrahedron | cube | dodecahedron | !!! | !!! |
-| $m=4$ | $\mathbb{Z}_4$ | $D_4$ | octahedron | !!! | !!! | !!! | !!! |
-| $m=5$ | $\mathbb{Z}_5$ | $D_5$ | icosahedron | !!! | !!! | !!! | !!! |
-| $m=6$ | $\mathbb{Z}_6$ | $D_6$ | !!! | !!! | !!! | !!! | !!! |
-| $m=7$ | $\mathbb{Z}_7$ | $D_7$ | !!! | !!! | !!! | !!! | !!! |
+| $m=2$ | $\mathbb{Z}_2$ | $\mathrm{D}_2$ | $\mathrm{D}_3$ | $\mathrm{D}_4$ | $\mathrm{D}_5$ | $\mathrm{D}_6$ | $\mathrm{D}_7$ |
+| $m=3$ | $\mathbb{Z}_3$ | $\mathrm{D}_3$ | tetrahedron | cube | dodecahedron | !!! | !!! |
+| $m=4$ | $\mathbb{Z}_4$ | $\mathrm{D}_4$ | octahedron | !!! | !!! | !!! | !!! |
+| $m=5$ | $\mathbb{Z}_5$ | $\mathrm{D}_5$ | icosahedron | !!! | !!! | !!! | !!! |
+| $m=6$ | $\mathbb{Z}_6$ | $\mathrm{D}_6$ | !!! | !!! | !!! | !!! | !!! |
+| $m=7$ | $\mathbb{Z}_7$ | $\mathrm{D}_7$ | !!! | !!! | !!! | !!! | !!! |
 
          n=1   n=2      n=3         n=4     n=5           n=6         n=7
 
@@ -121,22 +121,22 @@ separate the spherical, planar and hyperbolic regions:
     m=1  Z_1   Z_2      Z_3         Z_4     Z_5           Z_6         Z_7
 
                                                         
-    m=2  Z_2   D_2      D_3         D_4     D_5           D_6         D_7
+    m=2  Z_2   \mathrm{D}_2      \mathrm{D}_3         \mathrm{D}_4     \mathrm{D}_5           \mathrm{D}_6         \mathrm{D}_7
 
                                                         ------------=======
-    m=3  Z_3   D_3   tetrahedron   cube   dodecahedron | hexagonal |   
+    m=3  Z_3   \mathrm{D}_3   tetrahedron   cube   dodecahedron | hexagonal |   
                                                        |  tiling   |
                                   ---------=============------------
-    m=4  Z_4   D_4   octahedron  | square |
+    m=4  Z_4   \mathrm{D}_4   octahedron  | square |
                                  | tiling |
                                  | --------
-    m=5  Z_5   D_5   isosahedron ||
+    m=5  Z_5   \mathrm{D}_5   isosahedron ||
                                  ||
                      ------------ |          hyperbolic tilings
-    m=6  Z_6   D_6  | triangular  |                
+    m=6  Z_6   \mathrm{D}_6  | triangular  |                
                     |   tiling    |
                     | -------------    
-    m=7  Z_7   D_7  ||
+    m=7  Z_7   \mathrm{D}_7  ||
                     ||
 
 Now, the same Egyptian fraction problem comes up when studying other
