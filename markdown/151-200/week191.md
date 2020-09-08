@@ -15,10 +15,9 @@ understand them and maybe even come up with something cool!
 Here are some of the papers I'm struggling to read about this. First, a
 nice introduction to how supergravity works in different dimensions:
 
-1) Antoine Van Proeyen, Structure of supergravity theories, available
-as [`hep-th/0301005`](http://www.arXiv.org/abs/hep-th/0301005).
+1) Antoine Van Proeyen, "Structure of supergravity theories", available as [`hep-th/0301005`](http://www.arXiv.org/abs/hep-th/0301005).
 
-"We give an elementary introduction to the structure of supergravity
+> "We give an elementary introduction to the structure of supergravity
 theories. This leads to a table with an overview of supergravity and
 supersymmetry theories in dimensions 4 to 11. The basic steps in
 constructing supergravity theories are considered: determination of the
@@ -32,34 +31,32 @@ dimensions by "oxidizing" $4$-dimensional theories. This is a pun on
 lower ones by curling up the extra dimensions. It turns out that
 oxidation is deeply related to Dynkin diagrams:
 
-2) Arjan Keurentjes, The group theory of oxidation, available as
-[`hep-th/0210178`](http://www.arXiv.org/abs/hep-th/0210178).
+2) Arjan Keurentjes, "The group theory of oxidation", available as [`hep-th/0210178`](http://www.arXiv.org/abs/hep-th/0210178).
 
-"Dimensional reduction of (super-)gravity theories to 3 dimensions
-results in σ models on coset spaces G/H, such as the E8/\mathrm{SO}(16) coset in
-the bosonic sector of 3 dimensional maximal supergravity. The reverse
+> "Dimensional reduction of (super-)gravity theories to 3 dimensions
+results in $\sigma$ models on coset spaces $G/H$, such as the $\mathrm{E}_8/\mathrm{SO}(16)$ coset in
+the bosonic sector of $3$ dimensional maximal supergravity. The reverse
 process, oxidation, is the reconstruction of a higher dimensional
-gravity theory from a coset σ model. Using the group G as starting
+gravity theory from a coset $\sigma$ model. Using the group $G$ as starting
 point, the higher dimensional models follow essentially from
 decomposition into subgroups. All equations of motion and Bianchi
 identities can be directly reconstructed from the group lattice;
 Kaluza-Klein modifications and Chern-Simons terms are encoded in the
 group structure. Manipulations of extended Dynkin diagrams encode matter
 content and (string) dualities. The reflection symmetry of the "magic
-triangle" for E_n gravities, and approximate reflection symmetry of
+triangle" for $\mathrm{E}_n$ gravities, and approximate reflection symmetry of
 the older "magic triangle" of supergravities in 4 dimensions, are
 easily understood in this framework."
 
 Next, a tour of places where the octonions show up in string theory:
 
-3) Luis J. Boya, Octonions and M-theory, available as
-[`hep-th/0301037`](http://www.arXiv.org/abs/hep-th/0301037).
+3) Luis J. Boya, "Octonions and M-theory", available as [`hep-th/0301037`](http://www.arXiv.org/abs/hep-th/0301037).
 
-"We explain how structures related to octonions are ubiquitous in
+> "We explain how structures related to octonions are ubiquitous in
 M-theory. All the exceptional Lie groups, and the projective Cayley line
-and plane, appear in M-theory. Exceptional G2-holonomy manifolds show up
+and plane, appear in M-theory. Exceptional $\mathrm{G}_2$-holonomy manifolds show up
 as compactifying spaces, and are related to the M2 Brane and $3$-form. We
-review this evidence, which comes from the initial 11-dim structures.
+review this evidence, which comes from the initial $11$-dim structures.
 Relations between these objects are stressed, when extant and
 understood. We argue for the necessity of a better understanding of the
 role of the octonions themselves (in particular non-associativity) in
@@ -68,17 +65,16 @@ M-theory."
 And here's an article about where the exceptional groups show up, from
 a true expert on the subject:
 
-4) Pierre Ramond, Exceptional groups and physics, available as
-[`hep-th/0301050`](http://www.arXiv.org/abs/hep-th/0301050).
+4) Pierre Ramond, "Exceptional groups and physics", available as [`hep-th/0301050`](http://www.arXiv.org/abs/hep-th/0301050).
 
-"Quarks and leptons charges and interactions are derived from gauge
+> "Quarks and leptons charges and interactions are derived from gauge
 theories associated with symmetries. Their space-time labels come from
 representations of the non-compact algebra of Special Relativity. Common
 to these descriptions are the Lie groups stemming from their
 invariances. Does Nature use Exceptional Groups, the most distinctive
 among them? We examine the case for and against their use. They do
 indeed appear in charge space, as the Standard Model fits naturally
-inside the exceptional group E6. Further, the advent of the E8 x E8
+inside the exceptional group $\mathrm{E}_6$. Further, the advent of the $\mathrm{E}_8\times\mathrm{E}_8$
 Heterotic Superstring theory adds credibility to this venue. On the
 other hand, their use as space-time labels has not been as evident as
 they link spinors and tensors under space rotations, which flies in the
@@ -103,46 +99,50 @@ harmonic oscillator! And now I want to explain how it gives a nice way
 of understanding operads.
 
 But first I need to say what operads *are*. The slick way to define them
-uses structure types - but this is a bit devious, so it might fool you
+uses structure types --- but this is a bit devious, so it might fool you
 into thinking that operads are hard to understand. They're actually
 not, so I'll start out with an elementary introduction to operads, then
 give you some references for further study... and then pull out all the
 stops and explain how they're related to structure types.
 
-So: what's an operad? An operad O consists of a set O_n of abstract
-'n-ary operations' for each natural number n, together with rules for
+So: what's an operad? An operad $\mathcal{O}$ consists of a set $\mathcal{O}_n$ of abstract
+'$n$-ary operations' for each natural number $n$, together with rules for
 composing these operations. We can think of an $n$-ary operation as a
-little black box with n wires coming in and one wire coming out:
-
-                      \    |    /
-                       \   |   / 
-                        \  |  /
-                         -----
-                        |     | 
-                         -----
-                           |
-                           |
-
+little black box with $n$ wires coming in and one wire coming out:
+$$
+  \begin{tikzpicture}
+    \draw[thick] (-1,2) to (-0.33,1);
+    \draw[thick] (0,2) to (0,1);
+    \draw[thick] (1,2) to (0.33,1);
+    \draw[rounded corners] (-0.75,1) rectangle ++(1.5,-1);
+    \draw[thick] (0,0) to (0,-1);
+  \end{tikzpicture}
+$$
 We're allowed to compose these operations like this:
-
-             \    /     \  |  /       | 
-              \  /       \ | /        |
-              -----      -----      -----
-             |     |    |     |    |     |
-              -----      -----      -----
-                  \        |        /  
-                   \       |       /
-                    \      |      /
-                     \     |     /
-                      \    |    / 
-                       \   |   /  
-                        \  |  /
-                         -----
-                        |     | 
-                         -----
-                           |
-                           |
-
+$$
+  \begin{tikzpicture}[scale=0.5]
+    \begin{scope}[shift={(-2.5,3)}]
+      \draw[thick] (-0.5,2) to (-0.25,1);
+      \draw[thick] (0.5,2) to (0.25,1);
+      \draw[rounded corners] (-0.75,1) rectangle ++(1.5,-1);
+    \end{scope}
+    \begin{scope}[shift={(0,3)}]
+      \draw[thick] (-1,2) to (-0.33,1);
+      \draw[thick] (0,2) to (0,1);
+      \draw[thick] (1,2) to (0.33,1);
+      \draw[rounded corners] (-0.75,1) rectangle ++(1.5,-1);
+    \end{scope}
+    \begin{scope}[shift={(2.5,3)}]
+      \draw[thick] (0,2) to (0,1);
+      \draw[rounded corners] (-0.75,1) rectangle ++(1.5,-1);
+    \end{scope}
+      \draw[thick] (-2.5,3) to (-0.33,1);
+      \draw[thick] (0,3) to (0,1);
+      \draw[thick] (2.5,3) to (0.33,1);
+      \draw[rounded corners] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick] (0,0) to (0,-1);
+  \end{tikzpicture}
+$$
 feeding the outputs of n operations g_1,..,g_n into the inputs of an
 n-ary operation f, obtaining a new operation which we call f o
 (g_1,...,g_n). We demand that there be a unary operation serving as
@@ -223,7 +223,7 @@ detailed answer, the best place to look is this book:
 Topology and Physics, AMS, Providence, Rhode Island, 2002.
 
 But if you just want a taste, try Stasheff's infamous "operadchik"
-paper - get it? - which for some reason isn't on the arXiv:
+paper --- get it? --- which for some reason isn't on the arXiv:
 
 6) James Stasheff, Hartford/Luminy talks on operads, available at
 `http://www.math.unc.edu/Faculty/jds/operadchik.ps`.
@@ -258,9 +258,9 @@ our ability to "compose" loops. (For details, see
 ["Week 119"](#week119).) However, the usual group laws such as
 associativity hold only up to homotopy. To make matters even trickier,
 these homotopies satisfy certain laws of their own, but only up to
-homotopy - and so on ad infinitum. Similarly, Ω^k^(X) is something like
+homotopy --- and so on ad infinitum. Similarly, Ω^k^(X) is something like
 an abelian topological group for k > 1, but again only up to homotopies
-that themselves satisfy certain laws up to homotopy, and so on - and in
+that themselves satisfy certain laws up to homotopy, and so on --- and in
 a manner that gets ever more complicated for higher k!
 
 After more than decade of hard work, it became clear that operads are
@@ -274,8 +274,8 @@ of O on the set. It turns out that the structure of a k-fold loop space
 is completely captured by saying that it is an algebra over a certain
 operad!
 
-Even better, if we choose this operad O to be "cofibrant" - whatever
-that means - any space equipped with a homotopy equivalence to a k-fold
+Even better, if we choose this operad O to be "cofibrant" --- whatever
+that means --- any space equipped with a homotopy equivalence to a k-fold
 loop space will also become an algebra over O. This is the simplest
 example of how operads are used to describe "homotopy invariant
 algebraic structures", in which all laws hold up to an infinite
@@ -296,7 +296,7 @@ Stasheff treat operads in an arbitrary symmetric monoidal category. They
 also prove the worth of this level of generality by discussing many
 examples in detail. For example, they describe how operads in the
 category of chain complexes have been used to study deformation
-quantization - and also string theory, where the operations of gluing
+quantization --- and also string theory, where the operations of gluing
 together Riemann surfaces are important. Indeed, these physics
 applications have led to a kind of renaissance in the theory of operads!
 
@@ -360,7 +360,7 @@ and working over N instead the integers is important in combinatorics.
 The reason, ultimately, is that N is the free commutative rig on no
 generators!
 
-*No* generators? Yes - since you get the numbers 0 and 1 for free in the
+*No* generators? Yes --- since you get the numbers 0 and 1 for free in the
 definition of a rig, without needing to throw in any generators, and
 then the rig operations give you 1+1, 1+1+1, and so on.
 
