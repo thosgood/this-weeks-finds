@@ -299,7 +299,7 @@ I replied:
 > > Thus John (a quantum gravity theorist that often sets
 > > $\hbar$, $G$, and $c$ to fixed values) thinks that it's $\Lambda$ [...]
 > 
-> Right.  Actually, the real reason I like to claim it's \Lambda
+> Right.  Actually, the real reason I like to claim it's $\Lambda$
 > is that this is the most surprising of the four alternatives.
 
 ------------------------------------------------------------------------

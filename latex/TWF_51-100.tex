@@ -92,12 +92,12 @@ recently shaken up the subject of Donaldson theory by using some
 physical reasoning to radically simplify the computations involved.
 Donaldson theory has always had a lot to do with physics, since it uses
 the special features of of gauge theory in 4 dimensions to obtain
-invariants of 4-dimensional manifolds. So perhaps it is not surprising
-that physicists have had a lot to say about Donaldson theory all along,
-even before the recent Seiberg-Witten revolution. And indeed, at Trieste
-lots of mathematicians and physicists were busy talking to each other
-about Donaldson theory, trying to catch up with the latest stuff and
-trying to see what to do next.
+invariants of \(4\)-dimensional manifolds. So perhaps it is not
+surprising that physicists have had a lot to say about Donaldson theory
+all along, even before the recent Seiberg-Witten revolution. And indeed,
+at Trieste lots of mathematicians and physicists were busy talking to
+each other about Donaldson theory, trying to catch up with the latest
+stuff and trying to see what to do next.
 
 Now I don't know much about Donaldson theory, but I have a vague
 interest in it for various reasons. First, it's \emph{supposed} to be a
@@ -113,7 +113,7 @@ very first paper on TQFTs was about Donaldson theory in 4 dimensions:
 \end{enumerate}
 
 Only later did Witten turn to the comparatively easier case of
-Chern-Simons theory, which is a 3-dimensional TQFT:
+Chern-Simons theory, which is a \(3\)-dimensional TQFT:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -132,10 +132,10 @@ as a TQFT satisfying these axioms most efficiently using braided
 monoidal categories, which play a big role in 3d topology. So it makes
 quite a bit of sense in a \emph{general} sort of way that Crane and
 Frenkel are trying to construct Donaldson theory using braided monoidal
-2-categories, which seem to play a comparable role in 4d topology. In
-the paper which I cite in \protect\hyperlink{week50}{``Week 50''}, they
-begin to construct a braided monoidal 2-category related to the group
-\(\mathrm{SU}(2)\), which they conjecture gives a TQFT related to
+\(2\)-categories, which seem to play a comparable role in 4d topology.
+In the paper which I cite in \protect\hyperlink{week50}{``Week 50''},
+they begin to construct a braided monoidal \(2\)-category related to the
+group \(\mathrm{SU}(2)\), which they conjecture gives a TQFT related to
 Donaldson theory. That also makes some \emph{general} sense, because
 Donaldson theory, at least ``old'' Donaldson theory, is closely related
 to gauge theory with gauge group \(\mathrm{SU}(2)\). Still, I've always
@@ -267,15 +267,15 @@ in these situations, but there is something very similar that does NOT.
 
 Namely, let's replace the Laplacian on \emph{functions} by the Laplacian
 on \emph{differential forms}. I won't try to remind you what these are;
-I'll simply note that functions are 0-forms, but there are also 1-forms,
-2-forms, and so on --- tensor fields of various sorts --- and the
-Laplacian of a \(j\)-form is another \(j\)-form. So for each \(j\) we
-get a kind of Hamiltonian \(H_j\), which is just minus the Laplacian on
-\(j\)-forms. We can also consider the space of \emph{all} forms, never
-mind the \(j\), and on this space there is a Hamiltonian \(H\), which is
-just minus the Laplacian on \emph{all} forms. Now, we could try to take
-the trace of \(\exp(-tH)\), but it's more interesting to take the
-``supertrace'':
+I'll simply note that functions are 0-forms, but there are also
+\(1\)-forms, 2-forms, and so on --- tensor fields of various sorts ---
+and the Laplacian of a \(j\)-form is another \(j\)-form. So for each
+\(j\) we get a kind of Hamiltonian \(H_j\), which is just minus the
+Laplacian on \(j\)-forms. We can also consider the space of \emph{all}
+forms, never mind the \(j\), and on this space there is a Hamiltonian
+\(H\), which is just minus the Laplacian on \emph{all} forms. Now, we
+could try to take the trace of \(\exp(-tH)\), but it's more interesting
+to take the ``supertrace'':
 \[\operatorname{str}(\exp(-tH)) = \operatorname{tr}(\exp(-tH_0)) - \operatorname{tr}(\exp(-tH_1)) + \operatorname{tr}(\exp(-tH_2)) - \ldots\]
 in other words, the trace of \(\exp(-tH)\) acting on even forms,
 \emph{minus} the trace on odd forms.
@@ -349,6 +349,9 @@ I'm deliberately sloughing over. Read Blau and Thompson's paper for some
 of them --- and read the references for more!
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+
+
 \hypertarget{week52}{%
 \section{May 9, 1995}\label{week52}}
 
@@ -506,13 +509,13 @@ Let me talk about BF theory in 3 dimensions, which is what's most
 directly relevant here. Well, in \emph{any} dimension, say \(n\), the
 fields in BF theory are a connection \(A\) on a trivial bundle (take
 your favorite gauge group \(G\)), whose curvature \(F\) we'll think of
-as a 2-form taking values in the Lie algebra of \(G\), and
+as a \(2\)-form taking values in the Lie algebra of \(G\), and
 Lie-algebra-valued \((n-2)\)-form \(B\). Then the Lagrangian of the
 theory is \[L(B,F) = \operatorname{tr}(B \wedge F)\] where in the
 ``trace'' we're using something like the Killing form to get an honest
 n-form which we can integrate over spacetime.
 
-But in 3 dimensions, since \(B\) is a 1-form, you can add an extra
+But in 3 dimensions, since \(B\) is a \(1\)-form, you can add an extra
 ``cosmological constant'' term and take as your Lagrangian
 \[L(B,F,c) = \operatorname{tr}(B \wedge F + (c^2/3) B \wedge B \wedge B)\]
 where I have put in ``\(c^2/3\)'' as my ``cosmological constant'' for
@@ -525,7 +528,7 @@ Witten's work on 3d gravity (see \protect\hyperlink{week16}{``Week
 constant really is the usual cosmological constant. But I'd never
 noticed it. Recall that the Chern-Simons action is
 \[L(A) = \operatorname{tr}(A \wedge dA + (2/3)A \wedge A \wedge A)\]
-Thus if we have 1-form B around as well, we can set \[
+Thus if we have \(1\)-form B around as well, we can set \[
   \begin{aligned}
     A' &= A + cB,
   \\A'' &= A - cB
@@ -629,6 +632,9 @@ If anyone actually does anything interesting with these ideas I'd very
 much appreciate hearing about it.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+
+
 \hypertarget{week53}{%
 \section{May 18, 1995}\label{week53}}
 
@@ -667,8 +673,8 @@ precise: the tendency to focus ones energy on operations that are easily
 modelled by the juxtaposition of symbols in a line. The primordial
 example is addition: we have a bunch of sticks in a row:
 \[\vert\vert\vert\vert\vert\] and we say there are ``5'' sticks and
-write \[1+1+1+1+1=5.\] Fine. But when we have a 2-dimensional array of
-sticks:
+write \[1+1+1+1+1=5.\] Fine. But when we have a \(2\)-dimensional array
+of sticks:
 \[\begin{gathered}\vert\vert\vert\vert\\\vert\vert\vert\vert\end{gathered}\]
 
 \begin{verbatim}
@@ -710,27 +716,27 @@ thing about \(n\)-category theory is that it strives to formalize the
 notion of ``process'' in all its recursive splendor. An \(n\)-category
 is a mathematical structure containing not only objects, which one might
 think of as ``things'', and morphisms, which one might think of as
-``processes leading from one thing to another'', but also 2-morphisms,
-which are ``processes leading from one process to another'', and then
-3-morphisms, etc., on up to \(n\)-morphisms.
+``processes leading from one thing to another'', but also
+\(2\)-morphisms, which are ``processes leading from one process to
+another'', and then 3-morphisms, etc., on up to \(n\)-morphisms.
 
 In physics and topology applications, the \(k\)-morphisms can often be
 thought of as \(k\)-dimensional geometrical objects, since (as the
-Greeks knew) the process of motion of a point traces out a 1-dimensional
-figure, and similarly the motion of a 1-dimensional figure traces out a
-2-dimensional surface\ldots{} and \(n\)-dimensional spacetime is in some
-rough sense ``traced out'' by the motion of \((n-1)\)-dimensional
-spacelike slices through time. If you think this is vague, you're right
---- and that's why one needs \(n\)-category theory, to make it precise!
-When one understands \(n\)-categories (which so far we really do only up
-to \(n = 3\)) one sees that the possibilities inherent in
-\(n\)-dimensional topology match up very nicely with one might have
-stumbled on not knowing topology at all, but just playing around with
-this iterated notion of processes between processes between
-processes\ldots{} This ``natural correspondence'' between purely
-algebraic concepts and topological ones is what makes topological
-quantum field theory tick, and I can't help but feel that it will have
-quite a bit to say about physics eventually.
+Greeks knew) the process of motion of a point traces out a
+\(1\)-dimensional figure, and similarly the motion of a
+\(1\)-dimensional figure traces out a 2-dimensional surface\ldots{} and
+\(n\)-dimensional spacetime is in some rough sense ``traced out'' by the
+motion of \((n-1)\)-dimensional spacelike slices through time. If you
+think this is vague, you're right --- and that's why one needs
+\(n\)-category theory, to make it precise! When one understands
+\(n\)-categories (which so far we really do only up to \(n = 3\)) one
+sees that the possibilities inherent in \(n\)-dimensional topology match
+up very nicely with one might have stumbled on not knowing topology at
+all, but just playing around with this iterated notion of processes
+between processes between processes\ldots{} This ``natural
+correspondence'' between purely algebraic concepts and topological ones
+is what makes topological quantum field theory tick, and I can't help
+but feel that it will have quite a bit to say about physics eventually.
 
 Power, however, gives a quite different set of reasons for being
 interested in tricategories. These are drawn from computer science and
@@ -751,17 +757,17 @@ That is, in topological quantum field theory, the \(n\)-morphisms in an
 \(n\)-category, which are the processes having no further processes
 going between them, represent the passage of time. And indeed, for many
 practical purposes it appears that \(n = 4\) is where things leave off,
-since spacetime appears 4-dimensional. On the other hand, nobody knows
-any mathematical reason why one has to stop at any given \(n\). So
+since spacetime appears \(4\)-dimensional. On the other hand, nobody
+knows any mathematical reason why one has to stop at any given \(n\). So
 ultimately we should try to understand ``\(\omega\)-categories'', having
 \(n\)-morphisms for all \(n\) greater than or equal to zero (0-morphisms
-being simply objects, and 1-morphisms being morphisms). This corresponds
-philosophically to the notion that every ``process'' can also be
-regarded as a ``thing'' which other processes can transform. Moreover,
-we should also try to understand ``\(\mathbb{Z}\)-categories'', having
-\(n\)-morphisms for all integers \(n\), even negative ones! In this
-world, where there is no bottom as well as no top, every ``thing'' can
-also be regarded as a ``process''.
+being simply objects, and \(1\)-morphisms being morphisms). This
+corresponds philosophically to the notion that every ``process'' can
+also be regarded as a ``thing'' which other processes can transform.
+Moreover, we should also try to understand
+``\(\mathbb{Z}\)-categories'', having \(n\)-morphisms for all integers
+\(n\), even negative ones! In this world, where there is no bottom as
+well as no top, every ``thing'' can also be regarded as a ``process''.
 
 But I digress. Power is actually more interested in a different (though
 perhaps related) hierarchy. Sometimes people like to say computers just
@@ -928,9 +934,9 @@ equational laws, we have a data type consisting of a bunch of
 categories, functors between them, and natural transformations between
 THEM satisfying equational laws. What this means is that if we try to
 copy the above stuff, instead of a ``theory'' we will have a
-``2-theory'' \(\mathsf{Th}\), which is some sort of 2-category, and then
-a model of this would be a 2-functor from \(\mathsf{Th}\) to
-\(\mathsf{Cat}\). We want to wind up getting a 2-category
+``2-theory'' \(\mathsf{Th}\), which is some sort of \(2\)-category, and
+then a model of this would be a 2-functor from \(\mathsf{Th}\) to
+\(\mathsf{Cat}\). We want to wind up getting a \(2\)-category
 \(\mathsf{Mod}(\mathsf{Th})\) of models of \(\mathsf{Th}\).
 
 But actually carrying this out is a bit tricky, and much of Power's
@@ -945,6 +951,9 @@ forms an \((n+1)\)-category. This is how Power motivates tricategories.
 Right now we are stuck at \(n = 3\), but there are good reasons to
 expect that pretty soon we'll go beyond that. In fact, Power and Street
 showed me a sketch of their ideas on tetracategories\ldots.
+
+
+
 \hypertarget{week54}{%
 \section{June 2, 1995}\label{week54}}
 
@@ -1019,15 +1028,15 @@ homotopic and when spaces are homotopic. This is incredibly hard in
 \emph{general}, but in special cases a huge amount is known. To take a
 random (but important) example, people know that all maps from the
 sphere to the circle are homotopic. Remember that algebraists call the
-sphere \(S^2\) since its surface is 2-dimensional, and call the circle
-\(S^1\); in general the unit sphere in \(\mathbb{R}^{n+1}\) is called
-\(S^n\). So for short, one says that all maps from \(S^2\) to \(S^1\)
-are homotopic. But: there are infinitely many different nonhomotopic
-maps from \$S\^{}3 to \(S^2\)! In fact there is a nice way to label all
-these ``homotopy classes'' of maps by integers. And then: there are only
-two homotopy classes of maps from \(S^4\) to \(S^3\). There are also
-only two homotopy classes of maps from \(S^5\) to \(S^4\), and from
-\(S^6\) to \(S^5\), and so on.
+sphere \(S^2\) since its surface is \(2\)-dimensional, and call the
+circle \(S^1\); in general the unit sphere in \(\mathbb{R}^{n+1}\) is
+called \(S^n\). So for short, one says that all maps from \(S^2\) to
+\(S^1\) are homotopic. But: there are infinitely many different
+nonhomotopic maps from \$S\^{}3 to \(S^2\)! In fact there is a nice way
+to label all these ``homotopy classes'' of maps by integers. And then:
+there are only two homotopy classes of maps from \(S^4\) to \(S^3\).
+There are also only two homotopy classes of maps from \(S^5\) to
+\(S^4\), and from \(S^6\) to \(S^5\), and so on.
 
 Now, the famous topologist J. H. C. Whitehead put forth an important
 program in 1950, as follows: ``The ultimate aim of \emph{algebraic
@@ -1264,9 +1273,12 @@ don't!
 Suffice it to say that if gerbes and stacks --- which are, very roughly,
 sort of like sheaves of categories --- are too simple to interest you,
 it's time to read about 2-gerbes and 2-stacks --- which are roughly like
-sheaves of 2-categories.
+sheaves of \(2\)-categories.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+
+
 \hypertarget{week55}{%
 \section{June 4, 1995}\label{week55}}
 
@@ -1595,13 +1607,16 @@ gravity but also to path integrals in gauge theory, because in both
 cases one is doing integrals over a space of connections mod gauge
 transformations. Here Sawin uses them to give a rigorous formulation of
 2d TQFTs in terms of path integrals. There aren't many unitary 2d TQFTs,
-and all of them are isomorphic to 2-dimensional quantum gravity with the
-usual Einstein-Hilbert action, with different values of the coupling
+and all of them are isomorphic to \(2\)-dimensional quantum gravity with
+the usual Einstein-Hilbert action, with different values of the coupling
 constant, or else direct sums of such theories.
 
 Next ``week'' I'll talk about cool new idea Smolin has about TQFTs,
 quantum gravity, and Bekenstein's bound on the entropy of a physical
 system in terms of its surface area.
+
+
+
 \hypertarget{week56}{%
 \section{June 16, 1995}\label{week56}}
 
@@ -1619,7 +1634,7 @@ I got a copy of the following paper when I showed up in Warsaw:
 and then I spent a fair amount of time reading it and thinking about it
 throughout the conference. If the big hypothesis formulated in this
 paper is correct, I think we are on the verge of having a really
-beautiful theory of 4-dimensional quantum gravity, at least given
+beautiful theory of \(4\)-dimensional quantum gravity, at least given
 certain boundary conditions. Mind you, I just mean a really beautiful
 theory, not necessarily a physically correct theory. But beautiful
 theories have a certain tendency to be right, or at least close, so let
@@ -1639,7 +1654,7 @@ which bundle over \(S\) we have an \(\mathrm{SL}(2,\mathbb{C})\)
 connection on\ldots{} but luckily, all \(\mathrm{SL}(2,\mathbb{C})\)
 bundles over 3-manifolds are trivial, so I can cut corners by saying
 it's the trivial bundle. We can think of a connection \(A\) on the
-trivial \(\mathrm{SL}(2,\mathbb{C})\) bundle over \(S\) as 1-forms
+trivial \(\mathrm{SL}(2,\mathbb{C})\) bundle over \(S\) as \(1\)-forms
 taking values in the Lie algebra \(\mathfrak{sl}(2,\mathbb{C})\),
 consisting of \(2\times2\) complex matrices with trace zero.
 
@@ -1755,9 +1770,9 @@ probably people out there to whom it's perfectly obvious, because it's
 not really all that complicated, but unfortunately none of these people
 has ever explained it. Let me briefly say, for those who know about such
 things, that it all comes down to the fact that the Chern-Simons action
-was \emph{born} as a 3-dimensional spinoff of a 4-dimensional thing
-called the 2nd Chern class. (If you want more details, I explained this
-as well as I could at the time in
+was \emph{born} as a \(3\)-dimensional spinoff of a \(4\)-dimensional
+thing called the 2nd Chern class. (If you want more details, I explained
+this as well as I could at the time in
 \href{http://math.ucr.edu/home/baez/knot.tex}{\texttt{knot.tex}}.)
 
 What is the physical meaning of the Chern-Simons state? As far as I know
@@ -1835,7 +1850,7 @@ state, and that that's the state of the universe.
 
 Being a conservative fellow myself, I prefer to remain agnostic on this
 issue, but I did write a paper showing how, if you assumed that space,
-the manifold above I called \(S\), is a 3-dimensional sphere --- a
+the manifold above I called \(S\), is a \(3\)-dimensional sphere --- a
 so-called \(S^3\) --- then if quantum gravity was in the Chern-Simons
 state, there would be very nice Hilbert spaces of ``relative states'' on
 each ``half'' of space. The relative state notion is often associated
@@ -1883,6 +1898,9 @@ conditions come from relative states of Chern-Simons theory. He even
 gives some good evidence for this hypothesis, coming originally from
 Hawking's work on the thermal radiation produced by black holes! (To be
 continued.)
+
+
+
 \hypertarget{week57}{%
 \section{July 3, 1995}\label{week57}}
 
@@ -1899,7 +1917,7 @@ paper:
 \end{enumerate}
 
 So: recall where we were. Let me not repeat the details, but simply note
-that we were playing around with quantum gravity on a 4-dimensional
+that we were playing around with quantum gravity on a \(4\)-dimensional
 spacetime, using the Ashtekar `new variables' formalism, and we'd
 noticed that in the theory with nonzero cosmological constant
 \(\Lambda\), there is an explicit solution of the theory, the
@@ -2061,6 +2079,9 @@ anyone wants to explain it, please post to \texttt{sci.physics.research}
 Note: in earlier Finds I referred to the October 1995 special issue of
 \emph{Jour. Math. Phys.}, but now I've heard it's coming out in
 November.
+
+
+
 \hypertarget{week58}{%
 \section{July 12, 1995}\label{week58}}
 
@@ -2069,8 +2090,9 @@ Physics, to which I had been kindly invited by Jose Mourao. Quite a few
 of the (rather few) believers in the relevance of \(n\)-categories to
 physics were there. I spoke on higher-dimensional algebra and
 topological quantum field theory, and also a bit on spin networks. Louis
-Crane spoke on his ideas, especially the idea of getting 4-dimensional
-TQFTs out of state-sum models. And John Barrett spoke on
+Crane spoke on his ideas, especially the idea of getting
+\(4\)-dimensional TQFTs out of state-sum models. And John Barrett spoke
+on
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -2351,8 +2373,8 @@ way of describing 4-manifolds that Broda (see
 by Roberts (see \protect\hyperlink{week14}{``Week 14''}) to be
 isomorphic to that described by Crane and Yetter using a state sum model
 --- i.e., by a discrete analog of a path integral in which one chops
-spacetime up into 4-dimensional ``hypertetrahedra'' (better known as
-4-simplices!), labels their 2d and 3d faces by spins, and sums over
+spacetime up into \(4\)-dimensional ``hypertetrahedra'' (better known as
+\(4\)-simplices!), labels their 2d and 3d faces by spins, and sums over
 labellings. Her work is cited in the Broda reference in
 \protect\hyperlink{week17}{``Week 17''}, but I managed luckily to get a
 copy of her thesis:
@@ -2367,22 +2389,23 @@ copy of her thesis:
   1977.
 \end{enumerate}
 
-This should let me learn more about 4-dimensional topology, a
+This should let me learn more about \(4\)-dimensional topology, a
 fascinating subject on which I'm woefully ignorant.
 
 One reason why Broda's work, and thus de Sa's, is interesting to me, is
 that people have suspected for a while that the Crane-Yetter-Broda
 theory, which is constructed purely combinatorially, is isomorphic to BF
 theory with cosmological term. BF theory (see
-\protect\hyperlink{week36}{``Week 36''}) is a 4-dimensional field theory
-that can be described starting from a Lagrangian in the traditional
-manner of physics. The theory ``with cosmological term'' can be regarded
-as a baby version of quantum gravity with nonzero cosmological constant,
-a baby version having only one state, the ``Chern-Simons state''. As I
-discussed in \protect\hyperlink{week56}{``Week 56''}, it's this
-Chern-Simons state that plays a key role in Smolin's attempt to
-``exactly solve'' quantum gravity. Thus I suspect that BF theory is a
-good thing to understand really well. Recently I showed in
+\protect\hyperlink{week36}{``Week 36''}) is a \(4\)-dimensional field
+theory that can be described starting from a Lagrangian in the
+traditional manner of physics. The theory ``with cosmological term'' can
+be regarded as a baby version of quantum gravity with nonzero
+cosmological constant, a baby version having only one state, the
+``Chern-Simons state''. As I discussed in
+\protect\hyperlink{week56}{``Week 56''}, it's this Chern-Simons state
+that plays a key role in Smolin's attempt to ``exactly solve'' quantum
+gravity. Thus I suspect that BF theory is a good thing to understand
+really well. Recently I showed in
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -2472,6 +2495,9 @@ not-so-traditional algebraic topology like nonabelian cohomology,
 relationship.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+
+
 \hypertarget{week59}{%
 \section{August 3, 1995}\label{week59}}
 
@@ -2501,10 +2527,10 @@ interactions can be understood better by taking certain mathematical
 structures very seriously. There are very few algebras over the reals
 where we can divide by nonzero elements: if we demand associativity and
 commutativity, just the reals themselves and the complex numbers. If we
-drop the demand for commutativity, we also get a 4-dimensional algebra
-called the quaternions, invented by Hamilton. If in addition we drop the
-demand for associativity, and ask only that our algebra be
-``alternative'', we also get an 8-dimensional algebra called the
+drop the demand for commutativity, we also get a \(4\)-dimensional
+algebra called the quaternions, invented by Hamilton. If in addition we
+drop the demand for associativity, and ask only that our algebra be
+``alternative'', we also get an \(8\)-dimensional algebra called the
 octonions, or Cayley numbers. (I'll say what ``alternative'' means in
 \protect\hyperlink{week61}{``Week 61''}) Clearly these are very special
 structures, and also clearly they play an important role in
@@ -2515,14 +2541,15 @@ Well, few people doubt that the real numbers are fundamental to physics
 with emergence of quantum theory, if not sooner, the basic role of the
 complex numbers also became clear. Hamilton discovered the quaternions
 in the 1800s, and used them to formulate a beautiful theory of rotations
-in 3-dimensional space. They fell out of favor somewhat when the vectors
-of Gibbs proved simpler for many purposes, but their deeper importance
-became clear when people started studying spin: indeed, the Pauli
-matrices so important in physics are closely related to the quaternions,
-and it is the group of unit quaternions, \(\mathrm{SU}(2)\), rather than
-the group of rotations in 3d space, \(\mathrm{SO}(3)\), which turns out
-to be the symmetry group whose different representations correspond to
-particles of different spin. But what about the octonions?
+in \(3\)-dimensional space. They fell out of favor somewhat when the
+vectors of Gibbs proved simpler for many purposes, but their deeper
+importance became clear when people started studying spin: indeed, the
+Pauli matrices so important in physics are closely related to the
+quaternions, and it is the group of unit quaternions,
+\(\mathrm{SU}(2)\), rather than the group of rotations in 3d space,
+\(\mathrm{SO}(3)\), which turns out to be the symmetry group whose
+different representations correspond to particles of different spin. But
+what about the octonions?
 
 Well, there are not too many places in physics yet where the octonions
 reach out and grab one with the force the reals, complexes, and
@@ -3085,6 +3112,9 @@ nonzero. The problem is that a field of characteristic 2 can't be an
 ordered field.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+
+
 \hypertarget{week60}{%
 \section{August 8, 1995}\label{week60}}
 
@@ -3187,7 +3217,7 @@ all this!
 \setcounter{enumi}{2}
 \tightlist
 \item
-  Thomas Friedrich, ``Neue Invarianten der 4-dimensionalen
+  Thomas Friedrich, ``Neue Invarianten der \(4\)-dimensionalen
   Mannigfaltigkeiten'', Berlin preprint.
 \end{enumerate}
 
@@ -3303,6 +3333,9 @@ to explain why the entropy of a black hole is proportional to its area
 (or length in 2+1 dimensions). The idea is that the entropy is really
 accounted for by the degrees of freedom of the event horizon itself. It
 would be nice to do something similar in 3+1-dimensional spacetime.
+
+
+
 \hypertarget{week61}{%
 \section{August 24, 1995}\label{week61}}
 
@@ -3383,8 +3416,8 @@ obvious reasons.
 Now \(\mathrm{SO}(n)\) has lots of other representations, too. If we
 consider \(\mathrm{SO}(3)\), for example, there is in addition to the
 vector representation (which is 3-dimensional) also the trivial
-1-dimensional representation (where the group element \(g\) acts on a
-complex number \(v\) by leaving it alone!) and also interesting
+\(1\)-dimensional representation (where the group element \(g\) acts on
+a complex number \(v\) by leaving it alone!) and also interesting
 representations of dimensions 5, 7, 9, etc.. The interesting
 representation of dimension \(2j+1\) is called the ``spin-\(j\)''
 representation by physicists. All representations of \(\mathrm{SO}(3)\)
@@ -3446,7 +3479,7 @@ of a tensor product is the product of the dimensions. In particular, we
 call the \((1/2,0)\) representation the ``left-handed'' spinor
 representation and the \((0,1/2)\) representation the ``right-handed''
 spinor representation. The reason is that a reflection transforms one
-into the other. Since spacetime is 4-dimensional, representations of
+into the other. Since spacetime is \(4\)-dimensional, representations of
 \(\mathrm{Spin}(4)\) are important in physics, although really one
 should keep track of the fact that time works a bit differently than
 space, which \(\mathrm{Spin}(4)\) fails to do. In any event, ignoring
@@ -3468,7 +3501,7 @@ representation of \(\mathrm{SO}(n)\), which is \(n\)-dimensional.
 This leads to something very curious. If you are an ordinary
 4-dimensional physicist you undoubtedly tend to think of spinors as
 ``smaller'' than vectors, since the spinor representations are
-2-dimensional, while the vector representation is 3-dimensional.
+2-dimensional, while the vector representation is \(3\)-dimensional.
 However, in general, when the dimension \(n\) of space (or spacetime) is
 even, the dimension of the spinor representations is \(2^{n/2-1}\),
 while that of the vector representation is \(n\), so after a while the
@@ -3479,30 +3512,30 @@ This is a little bit curious, or at least it may seem so at first, but
 what's \emph{really} curious is what happens exactly when the spinor
 representation catches up with the vector representation. That's when
 \(2^{n/2-1} = n\), or \(n = 8\). The group \(\mathrm{Spin}(8)\) has
-three 8-dimensional irreducible representations: the vector, left-handed
-spinor, and right-handed spinor representation. While they are not
-equivalent to each other, they are darn close; they are related by a
-symmetry of \(\mathrm{Spin}(8)\) called ``triality''. And, to top it
-off, the octonions can be seen as a kind of spin-off of this triality
-symmetry\ldots{} as one might have guessed, from all this 8-dimensional
-stuff. One can, in fact, describe the product of octonions in these
-terms.
+three \(8\)-dimensional irreducible representations: the vector,
+left-handed spinor, and right-handed spinor representation. While they
+are not equivalent to each other, they are darn close; they are related
+by a symmetry of \(\mathrm{Spin}(8)\) called ``triality''. And, to top
+it off, the octonions can be seen as a kind of spin-off of this triality
+symmetry\ldots{} as one might have guessed, from all this
+\(8\)-dimensional stuff. One can, in fact, describe the product of
+octonions in these terms.
 
 So now let's dig in a bit deeper and describe how this triality business
 works. For this, unfortunately, I will need to assume some vague
 familiarity with exterior algebras, Clifford algebras, and their
 relation to the spin group. But we will have a fair amount of fun
-getting our hands on a 24-dimensional beast called the Chevalley
+getting our hands on a \(24\)-dimensional beast called the Chevalley
 algebra, which contains the vector and spinor representations of
 \(\mathrm{Spin}(8)\)!
 
-Start with an 8-dimensional \emph{complex} vector space \(V\) with a
+Start with an \(8\)-dimensional \emph{complex} vector space \(V\) with a
 nondegenerate symmetric bilinear form on it. We can think of \(V\) as
 the representation of \(\mathrm{SO}(8)\), hence \(\mathrm{Spin}(8)\),
 where now I've switched notation and write \(\mathrm{SO}(8)\) to mean
 \(\mathrm{SO}(8,\mathbb{C})\), and \(\mathrm{Spin}(8)\) to mean
 \(\mathrm{Spin}(8,\mathbb{C})\). We can split \(V\) into two
-4-dimensional subspaces \(V_+\) and \(V_-\) such that
+\(4\)-dimensional subspaces \(V_+\) and \(V_-\) such that
 \(\langle v,w\rangle = 0\) whenever \(v\) and \(w\) are either both in
 \(V_+\), or both in \(V_-\). Let \(\mathrm{Cliff}\) be the Clifford
 algebra over \(V\). Note that as a vector space, there is a natural
@@ -3532,9 +3565,9 @@ Thus \(S\) consists of vectors of the form \(uv\) where \(u\) lies in
 \(\bigwedge V_-\), and if you think a bit, it follows that \(S\) is
 16-dimensional.
 
-So we have our hands on a 16-dimensional representation of
+So we have our hands on a \(16\)-dimensional representation of
 \(\mathrm{Spin}(8)\), namely \(S\). However, we can split it into two
-8-dimensional representations, the left- and right-handed spinor
+\(8\)-dimensional representations, the left- and right-handed spinor
 representations, as follows. Let \[\bigwedge^\text{even} V_-\] denote
 the part of the exterior algebra consisting of stuff with even degree,
 and \[\bigwedge^\text{odd} V_-\] the part with odd degree. Then we can
@@ -3556,15 +3589,15 @@ done anything weird using the fact that \(n\) is 8. So as a bonus we're
 learning some quite general stuff about spinors.
 
 Now let's do something weird using the fact that \(n\) is 8. We've got
-these three 8-dimensional representations of \(\mathrm{Spin}(8)\) on our
-hands, namely \(V\), \(S_+\), and \(S_-\). How do they relate? Recall
-that \(S_+ + S_- = S\) is a representation of \(\mathrm{Cliff}\), and
-since \(V\) sits inside \(\mathrm{Cliff}\) as the elements of degree
+these three \(8\)-dimensional representations of \(\mathrm{Spin}(8)\) on
+our hands, namely \(V\), \(S_+\), and \(S_-\). How do they relate?
+Recall that \(S_+ + S_- = S\) is a representation of \(\mathrm{Cliff}\),
+and since \(V\) sits inside \(\mathrm{Cliff}\) as the elements of degree
 \(1\), we have for any \(a\) in \(V\),
 \[\mbox{$ab$ is in $S_-$ if $b$ is in $S_+$}\] and
 \[\mbox{$ab$ is in $S_+$ if $a$ is in $S_-$}\] If we are in the mood,
 this might tempt us to lump \(V\), \(S_+\), and \(S_-\) together to form
-a 24-dimensional algebra! Let's call this the Chevalley algebra and
+a \(24\)-dimensional algebra! Let's call this the Chevalley algebra and
 write \[\mathrm{Chev} = V + S_+ + S_-\]
 
 Of course, we need to figure out how to multiply any two guys in
@@ -3627,20 +3660,20 @@ product on the right hand side is the product in the Chevalley algebra.
 In other words: take \(v\) and turn it into something in \(S_+\) by
 forming \(v s_-\). Take \(w\) and turn it into something in \(S_-\) by
 forming \(w s_+\). The product of these is then something in \(V\). In
-short, we form the octonions from the three 8-dimensional
+short, we form the octonions from the three \(8\)-dimensional
 representations of \(\mathrm{Spin}(8)\) by a kind of
 ring-around-the-rosie process using triality!
 
-Note: what we just obtained was a \emph{complex} 8-dimensional algebra,
-which is the complexification of the octonions. Using the fact that the
-vector representation of \(\mathrm{SO}(8,\mathbb{C})\) on
+Note: what we just obtained was a \emph{complex} \(8\)-dimensional
+algebra, which is the complexification of the octonions. Using the fact
+that the vector representation of \(\mathrm{SO}(8,\mathbb{C})\) on
 \(\mathbb{C}^8\) contains the vector representation of
 \(\mathrm{SO}(8,\mathbb{R})\) on \(\mathbb{R}^8\) as a ``real part'', we
 should be able to get the octonions themselves.
 
 One can work out the details following the book of Fulton and Harris,
 and the references therein. I should add that they do a lot more fun
-stuff involving the exceptional Lie groups and the 27-dimensional
+stuff involving the exceptional Lie groups and the \(27\)-dimensional
 exceptional Jordan algebra\ldots{} all of this ``exceptional'' stuff
 seems to form a unified whole! There is a lot more fun stuff along these
 lines in
@@ -3698,6 +3731,9 @@ sorts of similar algebras:
 Back in the old days when there weren't too many algebras around besides
 the reals, complexes and quaternions, people called algebras
 ``hypercomplex numbers''.
+
+
+
 \hypertarget{week62}{%
 \section{August 28, 1995}\label{week62}}
 
@@ -3708,19 +3744,19 @@ certain diagrams. But these diagrams show up all over the place when you
 start trying to classify beautiful and symmetrical things.
 
 Let's start with something nice and simple: the Platonic solids. It's
-not terribly hard to classify all the regular polyhedra in 3-dimensional
-Euclidean space. Roughly, it goes like this. The faces could all be
-equilateral triangles. Obviously there need to be at least 3 faces
-meeting at each vertex to get a polyhedron. If there are exactly 3, you
-have a tetrahedron. If there are 4, you have an octahedron. If there are
-5, you have an icosahedron. There can't be 6 or more, since when you
-have 6 they lie flat in the plane, and more is even worse. The faces
-could also be squares. If there are 3 squares meeting at each vertex you
-have a cube. There can't be 4 or more, since when you have 4 they lie
-flat in the plane. The faces could also be regular pentagons. If there
-are 3 pentagons meeting at each vertex you have a dodecahedron. There
-can't be 4 or more, since when you have 4 you already have more than 360
-degree's worth of angles.
+not terribly hard to classify all the regular polyhedra in
+\(3\)-dimensional Euclidean space. Roughly, it goes like this. The faces
+could all be equilateral triangles. Obviously there need to be at least
+3 faces meeting at each vertex to get a polyhedron. If there are exactly
+3, you have a tetrahedron. If there are 4, you have an octahedron. If
+there are 5, you have an icosahedron. There can't be 6 or more, since
+when you have 6 they lie flat in the plane, and more is even worse. The
+faces could also be squares. If there are 3 squares meeting at each
+vertex you have a cube. There can't be 4 or more, since when you have 4
+they lie flat in the plane. The faces could also be regular pentagons.
+If there are 3 pentagons meeting at each vertex you have a dodecahedron.
+There can't be 4 or more, since when you have 4 you already have more
+than 360 degree's worth of angles.
 
 So, there we are: the 5 regular polyhedra are the tetrahedron,
 octahedron, icosahedron, cube, and dodecahedron! Of course, we haven't
@@ -3993,6 +4029,9 @@ You may still be wondering what's so special about A, D, and E. I'll
 have to get to that, too.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+
+
 \hypertarget{week63}{%
 \section{September 14, 1995}\label{week63}}
 
@@ -4076,7 +4115,7 @@ Recall that \(\mathrm{I}_m\) is the symmetry group of the of regular
 \(m\)-gon, while others of these are the symmetry groups of Platonic
 solids, and still others are symmetry groups of regular polytopes in
 \(n\)-dimensional space. For example, the symmetry group of the
-dodecahedron is \(H_3\), while that of its 4-dimensional relative is
+dodecahedron is \(H_3\), while that of its \(4\)-dimensional relative is
 \(H_4\).
 
 Now you may know that there are no perfect crystals in the shape of a
@@ -4129,7 +4168,7 @@ condition''. The only ones that do are
 (and those corresponding to disjoint unions of these diagrams). In other
 words, the symmetry groups of the pentagon (\(I_5\)), the heptagon and
 so on (\(\mathrm{I}_m\) with \(m > 6\)), and the dodecahedron and its
-4-dimensional relative (\(H_3\) and \(H_4\)) are ruled out.
+\(4\)-dimensional relative (\(H_3\) and \(H_4\)) are ruled out.
 
 Now let us turn to the theory of Lie groups. Lie groups are the most
 important ``continuous'' (as opposed to discrete) symmetry groups.
@@ -4301,6 +4340,9 @@ classifications in the next couple of issues.
 and what gave me a place among the mathematicians of our day, despite my
 lack of knowledge and form, was the audacity of my thinking.} - Sophus
 Lie
+
+
+
 \hypertarget{week64}{%
 \section{September 23, 1995}\label{week64}}
 
@@ -4485,11 +4527,11 @@ related to the octonions! Some other week I will say more about them,
 but for now, let me just say:
 
 \(\mathrm{F}_4\) --- This is a 52-dimensional Lie algebra. Its smallest
-representation is 26-dimensional, consisting of the traceless
+representation is \(26\)-dimensional, consisting of the traceless
 \(3\times3\) hermitian matrices over the octonions, on which it
 preserves a trilinear form.
 
-\(\mathrm{G}_2\) --- This is a 14-dimensional Lie algebra, and the
+\(\mathrm{G}_2\) --- This is a \(14\)-dimensional Lie algebra, and the
 compact Lie group corresponding to its compact real form is also often
 called \(\mathrm{G}_2\). This group is just the group of symmetries
 (automorphisms) of the octonions! In fact, the smallest representation
@@ -4497,7 +4539,7 @@ of this Lie algebra is 7-dimensional, corresponding to the purely
 imaginary octonions.
 
 \(\mathrm{E}_6\) --- This is a 78-dimensional Lie algebra. Its smallest
-representation is 27-dimensional, consisting of all the \(3\times3\)
+representation is \(27\)-dimensional, consisting of all the \(3\times3\)
 hermitian matrices over the octonions this time, on which it preserves
 the anticommutator.
 
@@ -4514,8 +4556,8 @@ itself! (Thanks go to Dick Gross for this charming information; I think
 he said all the other exceptional Lie algebras have representations
 smaller than themselves, but I forget the sizes.) In
 \protect\hyperlink{week20}{``Week 20''} I described a way to get its
-root lattice (the 8-dimensional lattice spanned by the roots) by playing
-around with the icosahedron and the quaternions.
+root lattice (the \(8\)-dimensional lattice spanned by the roots) by
+playing around with the icosahedron and the quaternions.
 
 People have studied simple Lie algebras a lot this century, basically
 studied the hell out of them, and in fact some people were getting a
@@ -4525,8 +4567,8 @@ to string theory and quantum gravity. Some of this physics is
 ``conformal field theory'', the study of quantum fields in 2 dimensional
 spacetime that are invariant under all conformal (angle-preserving)
 transformations. This is important in string theory because the string
-worldsheet is 2-dimensional. Some other hunks of this physics go by the
-name of ``topological quantum field theory'', which is the study of
+worldsheet is \(2\)-dimensional. Some other hunks of this physics go by
+the name of ``topological quantum field theory'', which is the study of
 quantum fields, usually in 3 dimensions so far, that are invariant under
 \emph{all} transformations (or more precisely, all diffeomorphisms).
 
@@ -4756,6 +4798,9 @@ beauty - a beauty cold and austere, like that of sculpture, without
 appeal to any part of our weaker nature, without the gorgeous trappings
 of painting or music, yet sublimely pure, and capable of a stern
 perfection such as only the greatest art can show.} - Bertrand Russell.
+
+
+
 \hypertarget{week65}{%
 \section{October 3, 1995}\label{week65}}
 
@@ -4844,7 +4889,7 @@ So, what are A, D, and E like?
 \textbf{A}. We can describe the lattice \(\mathrm{A}_n\) as the set of
 all \((n+1)\)-tuples of integers \((x_1,...,x_{n+1})\) such that
 \[x_1+\ldots+x_{n+1}=0.\] It's a fun exercise to show that \(A_2\) is a
-2-dimensional hexagonal lattice, the sort of lattice you use to pack
+\(2\)-dimensional hexagonal lattice, the sort of lattice you use to pack
 pennies as densely as possible. Similarly, \(A_3\) gives a standard way
 of packing grapefruit, which is in fact the densest lattice packing of
 spheres in 3 dimensions. (Hsiang has claimed to have shown it's the
@@ -4869,8 +4914,8 @@ neighbors. Alternatively, as described in
 \(\mathrm{E}_8\) in a slick way in terms of the quaternions. Another
 neat way to think of \(\mathrm{E}_8\) is in terms of the octonions! Not
 too surprising, perhaps, since the octonions and \(\mathrm{E}_8\) are
-both 8-dimensional, but it's still sorta neat. For the details, check
-out
+both \(8\)-dimensional, but it's still sorta neat. For the details,
+check out
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -4923,7 +4968,7 @@ vectors \(v\) with \(\|v\|^2 = 2\). Here a lattice is ``integral'' if
 the dot product of any two vectors in it is an integer. In fact, any
 integral lattice having a basis consisting of vectors with \(\|v\|^2\)
 equal to \(1\) or \(2\) is a direct sum of copies of A, D, and E
-lattices and the integers, thought of as a 1-dimensional lattice.
+lattices and the integers, thought of as a \(1\)-dimensional lattice.
 
 This makes ADE classifications pop up in various places in math and
 physics. For example, there is a cool relationship between the ADE
@@ -4941,7 +4986,7 @@ example, if \(G\) was the symmetry group of the icosahedron,
 
 Since \(\widetilde{G}\) is finite, it has finitely many irreducible
 representations. Draw a dot for each of the irreducible representations.
-One of these will be 2-dimensional, coming from the spin-\(1/2\)
+One of these will be \(2\)-dimensional, coming from the spin-\(1/2\)
 representation of \(\mathrm{SU}(2)\). Now, when you tensor this 2d rep
 with any other irreducible rep \(R\), you get a direct sum of
 irreducible reps; draw one line from the dot for \(R\) to each other dot
@@ -5077,6 +5122,9 @@ and physics that have happened in the last few months\ldots{}
 \emph{A mathematician, like a painter or poet, is a maker of patterns.
 If his patterns are more permanent than theirs, it is because they are
 made with ideas} - Godfrey Hardy
+
+
+
 \hypertarget{week66}{%
 \section{October 10, 1995}\label{week66}}
 
@@ -5262,9 +5310,9 @@ It looks like this:
 \[j(\tau) = q^{-1} + 744 + 196884 q + 21493706 q^2 + \ldots\] where
 \(q = \exp(2\pi i\tau)\). In fact, starting from a simple situation, we
 have quickly gotten into quite deep waters. The simplest explicit
-formula I know for \(j\) involves lattices in 24-dimensional space! This
-could easily be due to my limited knowledge of this stuff, but it suits
-my present purpose: first, we get a vague glimpse of where
+formula I know for \(j\) involves lattices in \(24\)-dimensional space!
+This could easily be due to my limited knowledge of this stuff, but it
+suits my present purpose: first, we get a vague glimpse of where
 \(\mathrm{E}_8\) and the Leech lattice come in, and second, we get a
 vague glimpse of the mysterious significance of the numbers 24 and 26 in
 string theory.
@@ -5295,8 +5343,8 @@ These ``Niemeier lattices'' were classified by Niemeier in 1968. All but
 one of them have vectors with length squared equal to \(2\), but there
 is one whose shortest vector has length squared equal to \(4\), and
 that's the Leech lattice. This one has a very charming relation to
-26-dimensional spacetime, described in \protect\hyperlink{week20}{``Week
-20''}.
+\(26\)-dimensional spacetime, described in
+\protect\hyperlink{week20}{``Week 20''}.
 
 Since the constant term in \(j\) can be changed by picking different
 lattices in 24 dimensions, and constant functions aren't very
@@ -5336,9 +5384,9 @@ it's just too spooky how the number 26 keeps coming up all over!)
 
 Anway, now let me fast-forward to some recent news. I vaguely gather
 that people would like to explain the relation between the Monster and
-string theory more deeply, by finding a 24-dimensional manifold having
-the Monster as symmetries, and cooking up a field theory of maps from
-the string worldsheet to this ``Monster manifold'', so that the
+string theory more deeply, by finding a \(24\)-dimensional manifold
+having the Monster as symmetries, and cooking up a field theory of maps
+from the string worldsheet to this ``Monster manifold'', so that the
 associated vertex operator algebra would have a good reason for having
 the Monster as symmetries. Apparently Hirzebruch has offered a prize for
 anyone who could do this in a nice way, by finding a ``24-manifold with
@@ -5403,6 +5451,9 @@ Kac-Moody algebras give the Macdonald identities.
 \end{quote}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+
+
 \hypertarget{week67}{%
 \section{October 23, 1995}\label{week67}}
 
@@ -5642,6 +5693,9 @@ strings are two of the most famous string theories, so if they were
 really equivalent as this paper suggests, it would be very interesting.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+
+
 \hypertarget{week68}{%
 \section{October 29, 1995}\label{week68}}
 
@@ -6015,6 +6069,9 @@ independent of orientations. I guess all the odd coefficients of the
 Jones polynomial are orientation dependent. Thus I'm not shocked that
 Griego has done calculations indicating that the third coefficient does
 \emph{not} come from a state of quantum gravity.
+
+
+
 \hypertarget{week69}{%
 \section{November 11, 1995}\label{week69}}
 
@@ -6195,6 +6252,9 @@ test of such consistency.''}
 
 Faraday, laboratory diaries, entry 10,040, March 19, 1849.
 \end{quote}
+
+
+
 \hypertarget{week70}{%
 \section{November 26, 1995}\label{week70}}
 
@@ -6355,8 +6415,8 @@ emphasized the relationships. But there are also some big differences.
 Unlike homotopy theory, here the paths are typically required to be
 ``monotonic'': they can't double back and go backwards in time. And, as
 I mentioned, the tasks can be thought of more abstractly than as paths
-in some space. So we are really talking about 2-categories here: they
-give a general framework for studying situations with ``dots'' or
+in some space. So we are really talking about \(2\)-categories here:
+they give a general framework for studying situations with ``dots'' or
 ``objects'', ``arrows between dots'' or ``morphisms'', and ``arrows
 between arrows between dots'' or ``2-morphisms''. Similarly, when we
 study concurrency with more than 2 tasks at a time we can think of it in
@@ -6495,21 +6555,21 @@ For the experts, let me say exactly how it all goes. Given any monoid
 \(M\), we can cook up a topological space called its ``classifying
 space'' \(KM\), as follows. We can think of \(KM\) as a simplicial
 complex. We start by sticking in one 0-simplex, which we can visualize
-as a dot like this: \[\bullet\] Then we stick in one 1-simplex for each
-element of the monoid, which we can visualize as an arrow going from the
-dot to itself. Unrolled a bit, it looks like this: \[
+as a dot like this: \[\bullet\] Then we stick in one \(1\)-simplex for
+each element of the monoid, which we can visualize as an arrow going
+from the dot to itself. Unrolled a bit, it looks like this: \[
   \begin{tikzpicture}
     \draw[thick] (0,0) node{$\bullet$} to node[fill=white]{$a$} (1,0);
   \end{tikzpicture}
 \] Really we should draw an arrow going from left to right, but soon
 things will get too messy if I do that, so I won't. Then, whenever we
-have \(ab = c\) in the monoid, we stick in a 2-simplex, which we can
+have \(ab = c\) in the monoid, we stick in a \(2\)-simplex, which we can
 visualize as a triangle like this: \[
   \begin{tikzpicture}
     \draw[thick] (0,0) node{$\bullet$} to node[fill=white]{$c$} (1.5,0) node{$\bullet$} to node[fill=white]{$b$} (0.75,1.3) node{$\bullet$} to node[fill=white]{$a$} cycle;
   \end{tikzpicture}
 \] Then, whenever we have \(abc = d\) in the monoid, we stick in a
-3-simplex, which we can visualize as a tetrahedron like this \[
+\(3\)-simplex, which we can visualize as a tetrahedron like this \[
   \begin{tikzpicture}
     \draw[thick] (0,0) node{$\bullet$} to node[fill=white]{$d$} (3,0) node{$\bullet$} to node[fill=white]{$bc$} (1.5,2.6) node{$\bullet$} to node[fill=white]{$a$} cycle;
     \draw[thick] (0,0) to node[fill=white]{$ab$} (1.5,1) node{$\bullet$};
@@ -6519,20 +6579,21 @@ visualize as a triangle like this: \[
 \] And so on\ldots{} This is a wonderful space whose homology groups
 depend only on the monoid, so we can call them \(H_k(M)\). If we have a
 presentation of \(M\) with only finitely many generators, we can build
-\(KM\) using 1-simplices only for those generators, and it follows that
-\(H_1(M)\) is finitely generated. (More precisely, we can build a space
-with the same homotopy type as \(KM\) using only the generators in our
-presentation.) Similarly, if we have a presentation with only finitely
-many relations, we can build \(KM\) using only finitely many
-2-simplices, so \(H_2(M)\) is finitely generated. What Squier showed is
-that if we can find a finite list of rewrite rules for M which is
+\(KM\) using \(1\)-simplices only for those generators, and it follows
+that \(H_1(M)\) is finitely generated. (More precisely, we can build a
+space with the same homotopy type as \(KM\) using only the generators in
+our presentation.) Similarly, if we have a presentation with only
+finitely many relations, we can build \(KM\) using only finitely many
+\(2\)-simplices, so \(H_2(M)\) is finitely generated. What Squier showed
+is that if we can find a finite list of rewrite rules for M which is
 terminating and confluent, then we can build \(KM\) using only finitely
-many 3-simplices, so \(H_3(M)\) is finitely generated! What's nice about
-this is that homological algebra gives an easy way to compute \(H_k(M)\)
-given a presentation of \(M\), so in some cases we can \emph{prove} that
-a monoid has no finite list of rewrite rules for \(M\) which is
-terminating and confluent, just by showing that \(H_3(M)\) is too big.
-Examples of this, and many further details, appear in Lafont's work:
+many \(3\)-simplices, so \(H_3(M)\) is finitely generated! What's nice
+about this is that homological algebra gives an easy way to compute
+\(H_k(M)\) given a presentation of \(M\), so in some cases we can
+\emph{prove} that a monoid has no finite list of rewrite rules for \(M\)
+which is terminating and confluent, just by showing that \(H_3(M)\) is
+too big. Examples of this, and many further details, appear in Lafont's
+work:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -6561,6 +6622,9 @@ theory\ldots{} but I won't go into that now.)
 (Answer: \(dacb = ddab = dda = dac = acc\).)
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+
+
 \hypertarget{week71}{%
 \section{December 3, 1995}\label{week71}}
 
@@ -6598,11 +6662,11 @@ On to some physics\ldots{}
 First, it's amusing to note that Maxwell's equations are back in
 fashion! In the following papers you will see how the duality symmetry
 of Maxwell's equations (the symmetry between electric and magnetic
-fields) plays a new role in modern work on 4-dimensional gauge theory.
-Also, there is some good stuff in Thompson's review article about the
-Seiberg-Witten theory, which is basically just a \(\mathrm{U}(1)\) gauge
-theory like Maxwell's equations\ldots{} but with some important extra
-twists!
+fields) plays a new role in modern work on \(4\)-dimensional gauge
+theory. Also, there is some good stuff in Thompson's review article
+about the Seiberg-Witten theory, which is basically just a
+\(\mathrm{U}(1)\) gauge theory like Maxwell's equations\ldots{} but with
+some important extra twists!
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -6832,26 +6896,29 @@ related approach to 4d topological quantum field theories.
 \tightlist
 \item
   John Baez and Martin Neuchl, ``Higher-dimensional algebra I: braided
-  monoidal 2-categories'', available as
+  monoidal \(2\)-categories'', available as
   \href{http://arxiv.org/abs/q-alg/9511013}{\texttt{arXiv:q-alg/9511013}}.
 \end{enumerate}
 
 In this paper, we begin with a brief sketch of what is known and
-conjectured concerning braided monoidal 2-categories and their
+conjectured concerning braided monoidal \(2\)-categories and their
 applications to 4d topological quantum field theories and 2-tangles
-(surfaces embedded in 4-dimensional space). Then we give concise
-definitions of semistrict monoidal 2-categories and braided monoidal
-2-categories, and show how these may be unpacked to give long explicit
-definitions similar to, but not quite the same as, those given by
-Kapranov and Voevodsky. Finally, we describe how to construct a
-semistrict braided monoidal 2-category \(Z(\mathcal{C})\) as the
+(surfaces embedded in \(4\)-dimensional space). Then we give concise
+definitions of semistrict monoidal \(2\)-categories and braided monoidal
+\(2\)-categories, and show how these may be unpacked to give long
+explicit definitions similar to, but not quite the same as, those given
+by Kapranov and Voevodsky. Finally, we describe how to construct a
+semistrict braided monoidal \(2\)-category \(Z(\mathcal{C})\) as the
 `center' of a semistrict monoidal category \(\mathcal{C}\). This is
 analogous to the construction of a braided monoidal category as the
 center, or `quantum double', of a monoidal category. The idea is to
 develop algebra that will do for 4-dimensional topology what quantum
 groups and braided monoidal categories did for 3d topology. As a
 corollary of the center construction, we prove a strictification theorem
-for braided monoidal 2-categories.
+for braided monoidal \(2\)-categories.
+
+
+
 \hypertarget{week72}{%
 \section{February 1, 1996}\label{week72}}
 
@@ -6905,11 +6972,11 @@ than the IIB theory.
 But lots of people say the heterotic theory matches our universe even
 better. The name ``heterotic'' refers to the fact that this theory is
 supposed to have ``hybrid vigor''. It's quite bizarre: the left-movers
-are purely bosonic --- no fermions --- and live in 26-dimensional
+are purely bosonic --- no fermions --- and live in \(26\)-dimensional
 spacetime, the way non-supersymmetric string theories do. The
 right-movers, on the other hand, are supersymmetric and live in 10-
 dimensional spacetime. It sounds not merely heterotic, but downright
-schizophrenic! But in fact, the 26-dimensional spacetime can also
+schizophrenic! But in fact, the \(26\)-dimensional spacetime can also
 thought of as being 10-dimensional, with 16 extra ``curled-up
 dimensions'' in the shape of a torus. This torus has two possible
 shapes: \(\mathbb{R}^16\) modulo the
@@ -6921,9 +6988,9 @@ related to the \(D_{16}\) lattice described in those Weeks, but not
 quite the same.)
 
 Now there is still lots of room for toying with these theories depending
-on how you ``compactify'': how you think of 10-dimensional spacetime as
-4-dimensional spacetime plus 6 curled-up dimensions. That's because
-there are lots of 6-dimensional manifolds that will do the job (the
+on how you ``compactify'': how you think of \(10\)-dimensional spacetime
+as 4-dimensional spacetime plus 6 curled-up dimensions. That's because
+there are lots of \(6\)-dimensional manifolds that will do the job (the
 so-called ``Calabi-Yau'' manifolds). Different choices give different
 physics, and there is a lot of work to be done to pick the right one.
 
@@ -6943,7 +7010,7 @@ monstrous thing called M-theory! Let me quote the following paper:
 \end{enumerate}
 
 The idea seems to be roughly that depending on how one compactifies the
-11th dimension, one gets different 10-dimensional theories from
+11th dimension, one gets different \(10\)-dimensional theories from
 M-theory:
 
 \begin{quote}
@@ -6978,8 +7045,8 @@ Recently, Witten, motivated by Dasgupta and Mukhi, examined M-Theory on
 a \(\mathbb{Z}_2\) orbifold of the five-torus and established a relation
 between M-Theory on this orbifold and Type IIB string theory on \(K3\).
 {[}Note: most of these undefined terms refer to various spaces; for
-example, the five-torus is the 5-dimensional version of a doughnut,
-while \(K3\) is a certain 4-dimensional manifold --- jb.{]} Also,
+example, the five-torus is the \(5\)-dimensional version of a doughnut,
+while \(K3\) is a certain \(4\)-dimensional manifold --- jb.{]} Also,
 Schwarz very recently looked at M-Theory and its relation to T-Duality.
 
 As stated above, M-Theory on a ``large'' \(S^1\) is equivalent to a
@@ -7026,7 +7093,7 @@ the M stands for ``magic'', ``mystery'', or ``membrane'', according to
 taste. From a mathematical viewpoint a better term might be ``murky'',
 since apparently everything known about M-theory is indirect and
 circumstantial, except for the classical limit, in which it seems to act
-as a theory of 2-branes and 5-branes, where an ``n-brane'' is an
+as a theory of \(2\)-branes and \(5\)-branes, where an ``n-brane'' is an
 n-dimensional analog of a membrane or surface.
 
 Well, here I must leave off, for reasons of ignorance. I don't really
@@ -7106,10 +7173,10 @@ of (nice) representations of a quantum group. He describes how
 Lyubashenko's invariant specializes to the Reshetikhin-Turaev invariant
 for semisimple categories and to the Hennings-Kauffman-Radford invariant
 for Tannakian categories. People interested in extended TQFTs and
-2-categories will find his work especially interesting, because he works
-with these invariants using these techniques. James Dolan and I have
-argued that it's only this way that one will really understand these
-TQFTs (see \protect\hyperlink{week49}{``Week 49''}).
+\(2\)-categories will find his work especially interesting, because he
+works with these invariants using these techniques. James Dolan and I
+have argued that it's only this way that one will really understand
+these TQFTs (see \protect\hyperlink{week49}{``Week 49''}).
 
 In future editions of This Week's Finds I will say more about
 \(n\)-categories and topological quantum field theory. I have a feeling
@@ -7117,6 +7184,9 @@ that while I've discussed these a lot, I have never really explained the
 basic ideas very well. As I gradually understand the basic ideas better,
 they seem simpler and simpler to me, so I think I should try to explain
 them.
+
+
+
 \hypertarget{week73}{%
 \section{February 24, 1996}\label{week73}}
 
@@ -7295,7 +7365,7 @@ speak of the set of all sets, it's bad to speak of the category of all
 categories. This is true, not only because Russell's paradox tends to
 ruin attempts at a consistent theory of the ``thing of all things'', but
 because, just as what really counts is the \emph{category} of all sets,
-what really counts is the \emph{2-category} of all categories.
+what really counts is the \emph{\(2\)-category} of all categories.
 
 To understand this, note that there is a very sensible notion of a
 morphism between categories. It's called a ``functor'', and a functor
@@ -7360,20 +7430,20 @@ category of all sets is ``one-dimensional'': it has both objects or
 ``dots'' and morphisms or ``arrows between dots''. In general,
 categories are ``one-dimensional'' in this sense. But this in turn makes
 the collection of all categories into a ``two-dimensional'' structure, a
-2-category having objects, morphisms between objects, and 2-morphisms
-between morphisms.
+\(2\)-category having objects, morphisms between objects, and
+\(2\)-morphisms between morphisms.
 
 This process never stops. The collection of all \(n\)-categories is an
-\((n+1)\)-category, a thing with objects, morphisms, 2-morphisms, and so
-on all the way up to \(n\)-morphisms. To study sets carefully we need
-categories, to study categories well we need 2-categories, to study
-2-categories well we need 3-categories, and so on\ldots{} so ``higher-
-dimensional algebra'', as this subject is called, is automatically
-generated in a recursive process starting with a careful study of set
-theory.
+\((n+1)\)-category, a thing with objects, morphisms, \(2\)-morphisms,
+and so on all the way up to \(n\)-morphisms. To study sets carefully we
+need categories, to study categories well we need \(2\)-categories, to
+study \(2\)-categories well we need \(3\)-categories, and so on\ldots{}
+so ``higher- dimensional algebra'', as this subject is called, is
+automatically generated in a recursive process starting with a careful
+study of set theory.
 
-If you want to show off, you can call the 2-category of all categories
-\(\mathsf{Cat}\), and more generally, you can call the
+If you want to show off, you can call the \(2\)-category of all
+categories \(\mathsf{Cat}\), and more generally, you can call the
 \((n+1)\)-category of all \(n\)-categories \(n\mathsf{Cat}\).
 \(n\mathsf{Cat}\) is the primordial example of an \((n+1)\)-category!
 
@@ -7386,9 +7456,9 @@ rather conclude by mentioning the part that's the most fascinating to me
 as a mathematical physicist. Namely, the various dimensions of category
 turn out to correspond in a very beautiful --- but still incompletely
 understood --- way to the various dimensions of spacetime. In other
-words, the study of physics in imaginary 2-dimensional spacetimes uses
-lots of 2-categories, the study of physics in a 3d spacetimes uses
-3-categories, the study of physics in 4d spacetimes appears to use
+words, the study of physics in imaginary \(2\)-dimensional spacetimes
+uses lots of \(2\)-categories, the study of physics in a 3d spacetimes
+uses 3-categories, the study of physics in 4d spacetimes appears to use
 4-categories, and so on. It's very surprising at first that something so
 simple and abstract as the process of starting with sets and recursively
 being led to study the \((n+1)\)-category of all \(n\)-categories could
@@ -7446,6 +7516,9 @@ article discusses the hydrodynamics involved.
 I guess now the question becomes: why do these cilia spin clockwise?
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+
+
 \hypertarget{week74}{%
 \section{March 5, 1996}\label{week74}}
 
@@ -7510,9 +7583,9 @@ Then we started messing around with categories, and we noted that not
 only are there ``functors'' between categories, there are things that
 ply their trade between functors, called ``natural transformations''. I
 then said that categories, functors, and natural transformations form a
-2-category. I didn't really say what a 2-category is, except to say that
-it has objects, morphisms between objects, and 2-morphisms between
-morphisms. Finally, I said that this pattern continues:
+\(2\)-category. I didn't really say what a \(2\)-category is, except to
+say that it has objects, morphisms between objects, and \(2\)-morphisms
+between morphisms. Finally, I said that this pattern continues:
 \(n\mathsf{Cat}\) forms an \((n+1)\)-category.
 
 By the way, I said last time that \(\mathsf{Set}\) was ``the primordial
@@ -7527,16 +7600,16 @@ we start from \(\mathsf{Set}\) and various categories of structures
 built using sets --- groups, rings, vector spaces, topological spaces,
 manifolds, and so on --- we can then abstract the notion of
 ``category'', and thus obtain \(\mathsf{Cat}\). In the same sense,
-\(\mathsf{Cat}\) is the primordial 2-category, and so on.
+\(\mathsf{Cat}\) is the primordial \(2\)-category, and so on.
 
 I mention this because it is part of a very important broad pattern in
 higher-dimensional algebra. For example, we will see that the complex
 numbers are the primordial Hilbert space, and that the category of
 Hilbert spaces is the primordial ``2-Hilbert space'', and that the
-2-category of 2-Hilbert spaces is the primordial ``3-Hilbert space'',
-and so on. This leads to a quantum-theoretic analog of the hierarchy of
-\(n\)-categories, which plays an important role in mathematical physics.
-But I'm getting ahead of myself!
+\(2\)-category of 2-Hilbert spaces is the primordial ``3-Hilbert
+space'', and so on. This leads to a quantum-theoretic analog of the
+hierarchy of \(n\)-categories, which plays an important role in
+mathematical physics. But I'm getting ahead of myself!
 
 Let's start by considering a few examples of categories. I want to pick
 some examples that will lead us naturally to the main themes of
@@ -7640,7 +7713,7 @@ Physicists wanting to learn more about groupoids might try:
 So: in contrast to a set, which consists of a static collection of
 ``things'', a category consists not only of objects or ``things'' but
 also morphisms which can viewed as ``processes'' transforming one thing
-into another. Similarly, in a 2-category, the 2-morphisms can be
+into another. Similarly, in a \(2\)-category, the \(2\)-morphisms can be
 regarded as ``processes between processes'', and so on. The eventual
 goal of basing mathematics upon \(\omega\)-categories is thus to allow
 us the freedom to think of any process as the sort of thing higher-level
@@ -7704,7 +7777,7 @@ sets\strut
 \end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
 categories\strut
 \end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
-2-categories\strut
+\(2\)-categories\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.26\columnwidth}\raggedright
 \strut
@@ -7722,7 +7795,7 @@ monoids\strut
 \end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
 monoidal categories\strut
 \end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
-monoidal 2-categories\strut
+monoidal \(2\)-categories\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.26\columnwidth}\raggedright
 \strut
@@ -7740,7 +7813,7 @@ commutative monoids\strut
 \end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
 braided monoidal categories\strut
 \end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
-braided monoidal 2-categories\strut
+braided monoidal \(2\)-categories\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.26\columnwidth}\raggedright
 \strut
@@ -7758,7 +7831,7 @@ braided monoidal 2-categories\strut
 \end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
 symmetric monoidal categories\strut
 \end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
-weakly involutory monoidal 2-categories\strut
+weakly involutory monoidal \(2\)-categories\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.26\columnwidth}\raggedright
 \strut
@@ -7776,7 +7849,7 @@ weakly involutory monoidal 2-categories\strut
 \end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
 " "\strut
 \end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
-strongly involutory monoidal 2-categories\strut
+strongly involutory monoidal \(2\)-categories\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.26\columnwidth}\raggedright
 \strut
@@ -7841,25 +7914,28 @@ the big gaping holes.
 
 To continue reading the ``Tale of \(n\)-Categories'', see
 \protect\hyperlink{week75}{``Week 75''}.
+
+
+
 \hypertarget{week75}{%
 \section{March 6, 1996}\label{week75}}
 
 If you've been following my recent introduction to \(n\)-categories,
 you'll note that I haven't actually given the definition of
 \(n\)-categories! I've only defined categories, and \emph{hinted} at the
-definition of 2-categories by giving an example, namely
-\(\mathsf{Cat}\). This is the 2-category whose objects are categories,
-whose morphisms are functors, and whose 2-morphisms are natural
-transformations.
+definition of \(2\)-categories by giving an example, namely
+\(\mathsf{Cat}\). This is the \(2\)-category whose objects are
+categories, whose morphisms are functors, and whose \(2\)-morphisms are
+natural transformations.
 
 The definition of \(n\)-categories --- or maybe I should say the problem
 of defining \(n\)-categories --- is actually surprisingly subtle. Since
 I want to proceed at a gentle pace here, I think I should first get
-everyone used to the 2-category \(\mathsf{Cat}\), then define
-2-categories in general, then play around with those a bit, and then
+everyone used to the \(2\)-category \(\mathsf{Cat}\), then define
+\(2\)-categories in general, then play around with those a bit, and then
 move on to \(n\)-categories for higher \(n\).
 
-So recall what the objects, morphisms and 2-morphisms in
+So recall what the objects, morphisms and \(2\)-morphisms in
 \(\mathsf{Cat}\) are: they are categories, functors and natural
 transformations. A functor \(F\colon \mathcal{C}\to\mathcal{D}\) assigns
 to each object \(x\) of \(\mathcal{C}\) an object \(F(x)\) of
@@ -7994,9 +8070,9 @@ it goes like this. Say we have a groupoid \(G\). We will build the space
 \(K(G)\) out of simplices as follows. Start with one 0-simplex for each
 object in \(G\). A 0-simplex is simply a point. We can draw the
 0-simplex for the object \(x\) as follows: \[x\] Then put in one
-1-simplex for each morphism in \(G\). A 1-simplex is just a line
-segment. We can draw the 1-simplex for the morphism \(f\colon x\to y\)
-as follows: \[
+\(1\)-simplex for each morphism in \(G\). A \(1\)-simplex is just a line
+segment. We can draw the \(1\)-simplex for the morphism
+\(f\colon x\to y\) as follows: \[
   \begin{tikzpicture}
     \node (x) at (0,0) {$x$};
     \node (y) at (1.5,0) {$y$};
@@ -8004,8 +8080,8 @@ as follows: \[
   \end{tikzpicture}
 \] Really we should draw an arrow going from left to right, but soon
 things will get too messy if I do that, so I won't. Then, whenever we
-have \(fg=h\) in the groupoid, we stick in a 2-simplex. A 2-simplex is
-just a triangle and we visualize it as follows: \[
+have \(fg=h\) in the groupoid, we stick in a \(2\)-simplex. A
+\(2\)-simplex is just a triangle and we visualize it as follows: \[
   \begin{tikzpicture}
     \node (x) at (0,0) {$x$};
     \node (y) at (1,1.7) {$y$};
@@ -8022,7 +8098,7 @@ just a triangle and we visualize it as follows: \[
     $};
   \end{tikzpicture}
 \] Then, whenever we have \(fgh = k\) in the groupoid, we stick in a
-3-simplex, which we can visualize as a tetrahedron like this \[
+\(3\)-simplex, which we can visualize as a tetrahedron like this \[
   \begin{tikzpicture}
     \node (w) at (0,0) {$x$};
     \node (x) at (1.5,2.6,0) {$x$};
@@ -8071,12 +8147,12 @@ Now, in what sense is the functor \(K\colon\mathsf{Gpd}\to\mathsf{Top}\)
 the ``reverse'' of the functor
 \(\Pi_1\colon\mathsf{Top}\to\mathsf{Gpd}\)? Is it just the ``inverse''
 in the traditional sense? No! It's something more subtle. As we shall
-see, the fact that \(\mathsf{Cat}\) is a 2-category means that a functor
-can have a more subtle and interesting sorts of ``reverse'' than one
-might expect if one were used to the simple ``inverse'' of a function.
-This is something I alluded to in \protect\hyperlink{week74}{``Week
-74''}: inverses become subtler as we march up the \(n\)-categorical
-hierarchy.
+see, the fact that \(\mathsf{Cat}\) is a \(2\)-category means that a
+functor can have a more subtle and interesting sorts of ``reverse'' than
+one might expect if one were used to the simple ``inverse'' of a
+function. This is something I alluded to in
+\protect\hyperlink{week74}{``Week 74''}: inverses become subtler as we
+march up the \(n\)-categorical hierarchy.
 
 I'll talk about this more later. But let me just drop a teaser\ldots{}
 Quantum mechanics is all about Hilbert spaces and linear operators
@@ -8097,6 +8173,9 @@ To continue reading the ``Tale of \(n\)-Categories'', see
 \protect\hyperlink{week76}{``Week 76''}.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+
+
 \hypertarget{week76}{%
 \section{March 9, 1996}\label{week76}}
 
@@ -8188,10 +8267,11 @@ the categorical ladder (here from elements of a set to objects of a
 category) for properties to be reinterpreted as structures, or sometimes
 vice-versa.
 
-What about in a 2-category? Here the notion of equality sprouts still
-further nuances. Since I haven't defined 2-categories in general, let me
-work with an example, Cat. This has categories as its objects, functors
-as its morphisms, and natural transformations as its 2-morphisms.
+What about in a \(2\)-category? Here the notion of equality sprouts
+still further nuances. Since I haven't defined \(2\)-categories in
+general, let me work with an example, Cat. This has categories as its
+objects, functors as its morphisms, and natural transformations as its
+2-morphisms.
 
 So\ldots{} we can certainly speak, as before, of the \emph{equality} of
 categories. We can also speak of the \emph{isomorphism} of categories:
@@ -8212,7 +8292,7 @@ Abstractly, I hope you can see the pattern here: just as we can
 ``relax'' the notion of equality to the notion of isomorphism when we
 pass from sets to categories, we can relax the condition that \(FG\) and
 \(GF\) equal identity functors to the condition that they be isomorphic
-to identity functors when we pass from categories to the 2-category
+to identity functors when we pass from categories to the \(2\)-category
 \(\mathsf{Cat}\). We need to have the natural transformations to be able
 to speak of functors being isomorphic, just as we needed functions to be
 able to speak of sets being isomorphic. In fact, with each extra level
@@ -8337,6 +8417,9 @@ To continue reading the ``Tale of \(n\)-Categories'', see
 \protect\hyperlink{week77}{``Week 77''}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+
+
 \hypertarget{week77}{%
 \section{March 23, 1996}\label{week77}}
 
@@ -8485,7 +8568,7 @@ not equality, or isomorphism, but this more supple notion of
 ``equivalence''!
 
 (As we shall see later, this is because \(\mathsf{Cat}\) is a
-2-category. Remember, an \(n\)-category is some sort of thing with
+\(2\)-category. Remember, an \(n\)-category is some sort of thing with
 objects, morphisms, 2-morphisms, and so on up to \(n\)-morphisms. One of
 the of the main themes of \(n\)-category theory is that we may regard
 two things are ``the same'', or ``equivalent'', if there is some sort of
@@ -8686,6 +8769,9 @@ To continue reading the ``Tale of \(n\)-Categories'', see
 \protect\hyperlink{week78}{``Week 78''}.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+
+
 \hypertarget{week78}{%
 \section{March 28, 1996}\label{week78}}
 
@@ -8916,8 +9002,8 @@ a Hilbert space. And we will invent a nice sort of ``linear'' functor
 between these, and all such functors will have adjoints. Furthermore, in
 this situation all left adjoints will also be right adjoints\ldots{}
 fixing another funny discrepancy. And these 2-Hilbert spaces turn out to
-be closely related to 2-dimensional topological quantum field theories
-(in general, \(n\)-Hilbert spaces appear to be related to
+be closely related to \(2\)-dimensional topological quantum field
+theories (in general, \(n\)-Hilbert spaces appear to be related to
 \(n\)-dimensional TQFTs), as well as some interesting aspects of group
 representation theory.
 
@@ -8958,6 +9044,9 @@ To continue reading the ``Tale of \(n\)-Categories'', see
 \protect\hyperlink{week79}{``Week 79''}.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+
+
 \hypertarget{week79}{%
 \section{April 1, 1996}\label{week79}}
 
@@ -9107,8 +9196,8 @@ Now Galois was thinking about \(\mathrm{PSL}(2,\mathbb{Z}_p)\) where
 \(p\) is prime. There's an obvious way to get this group to act as
 permutations of \(p+1\) things. Here's how! For any field \(F\), the
 group \(\mathrm{SL}(2,F)\) acts as linear transformations of the
-2-dimensional vector space over \(F\), and it thus acts on the set of
-lines through the origin in this vector space\ldots{} which is called
+\(2\)-dimensional vector space over \(F\), and it thus acts on the set
+of lines through the origin in this vector space\ldots{} which is called
 the ``projective line'' over \(F\). But anything in \(\mathrm{SL}(2,F)\)
 that's a scalar multiple of the identity doesn't move lines around, so
 we can mod out by the center and think of the quotient group
@@ -9272,11 +9361,11 @@ as we go from \(F\) to \(F\).
 
 Now, I haven't talked much about the ways one can compose natural
 transformations like \(i\) and \(e\), but remember that they are
-2-morphisms, or morphisms-between-morphisms, in \(\mathsf{Cat}\) (the
-2-category of all categories). This means that they are inherently
-2-dimensional, and in particular, one can compose them both
-``horizontally'' and ``vertically''. I'll explain this more next time,
-but for now please take my word for it! Using these composition
+\(2\)-morphisms, or morphisms-between-morphisms, in \(\mathsf{Cat}\)
+(the \(2\)-category of all categories). This means that they are
+inherently \(2\)-dimensional, and in particular, one can compose them
+both ``horizontally'' and ``vertically''. I'll explain this more next
+time, but for now please take my word for it! Using these composition
 operations, one can make sense of the following equations involving
 \(i\) and \(e\): \[
   \begin{tikzpicture}
@@ -9387,11 +9476,11 @@ Now this may seem like a silly game, drawing natural transformations as
 string. But in fact this is part of a very big, very important, and very
 fun game: the relation between \(n\)-category theory and the topology of
 submanifolds of \(\mathbb{R}^n\). Right now we are dealing with
-\(\mathsf{Cat}\), which is a 2-category, so we are getting into
-2-dimensional pictures. But when we get into 3-categories we will get
-into 3-dimensional pictures, and knot theory\ldots{} and what got me
-into this whole business in the first place: the relation between knots
-and physics. In higher dimensions it gets even fancier.
+\(\mathsf{Cat}\), which is a \(2\)-category, so we are getting into
+\(2\)-dimensional pictures. But when we get into \(3\)-categories we
+will get into \(3\)-dimensional pictures, and knot theory\ldots{} and
+what got me into this whole business in the first place: the relation
+between knots and physics. In higher dimensions it gets even fancier.
 
 So I will continue next time and explain the recipes for composing
 natural transformations, and the associated string diagrams, more
@@ -9401,6 +9490,9 @@ To continue reading the ``Tale of \(n\)-Categories'', see
 \protect\hyperlink{week80}{``Week 80''}.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+
+
 \hypertarget{week80}{%
 \section{April 20, 1996}\label{week80}}
 
@@ -9588,19 +9680,20 @@ Paradigm'' is a good place to learn about this.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-Now let me return to the tale of 2-categories. So far I've said only
-that a 2-category is some sort of structure with objects, morphisms
-between objects, and 2-morphisms between morphisms. But I have been
+Now let me return to the tale of \(2\)-categories. So far I've said only
+that a \(2\)-category is some sort of structure with objects, morphisms
+between objects, and \(2\)-morphisms between morphisms. But I have been
 attempting to develop your intuition for \(\mathsf{Cat}\), the
-primordial example of a 2-category. Remember, \(\mathsf{Cat}\) is the
-2-category of all categories! Its objects are categories, its morphisms
-are functors, and its 2-morphisms are natural transformations --- these
-being defined in \protect\hyperlink{week73}{``Week 73''} and again in
+primordial example of a \(2\)-category. Remember, \(\mathsf{Cat}\) is
+the \(2\)-category of all categories! Its objects are categories, its
+morphisms are functors, and its \(2\)-morphisms are natural
+transformations --- these being defined in
+\protect\hyperlink{week73}{``Week 73''} and again in
 \protect\hyperlink{week75}{``Week 75''}.
 
-How can you learn more about 2-categories? Well, a really good place is
-the following article by Ross Street, who is one of the great gurus of
-\(n\)-category theory. For example, he was the one who invented
+How can you learn more about \(2\)-categories? Well, a really good place
+is the following article by Ross Street, who is one of the great gurus
+of \(n\)-category theory. For example, he was the one who invented
 \(\omega\)-categories!
 
 \begin{enumerate}
@@ -9622,25 +9715,26 @@ finding this, you might try
 \tightlist
 \item
   G. Maxwell Kelly and Ross Street, \emph{Review of the elements of
-  2-categories}, Springer Lecture Notes in Mathematics \textbf{420},
+  \(2\)-categories}, Springer Lecture Notes in Mathematics \textbf{420},
   Berlin, 1974, pp.~75--103.
 \end{enumerate}
 
 I can't really compete with these for thoroughness, but at least let me
-give the definition of a 2-category. I'll give a pretty nuts-and-bolts
-definition; later I'll give a more elegant and abstract one. Readers who
-are familiar with \(\mathsf{Cat}\) should keep this example in mind at
-all times!
+give the definition of a \(2\)-category. I'll give a pretty
+nuts-and-bolts definition; later I'll give a more elegant and abstract
+one. Readers who are familiar with \(\mathsf{Cat}\) should keep this
+example in mind at all times!
 
 This definition is sort of long, so if you get tired of it, concentrate
 on the pictures! They convey the basic idea. Also, keep in mind is that
 this is going to be sort of like the definition of a category, but with
-an extra level on top, the 2-morphisms.
+an extra level on top, the \(2\)-morphisms.
 
-So: first of all, a 2-category consists of a collection of ``objects''
-and a collection of ``morphisms''. Every morphism \(f\) has a ``source''
-object and a ``target'' object. If the source of \(f\) is \(x\) and its
-target is y, we write \(f\colon x\to y\). In addition, we have:
+So: first of all, a \(2\)-category consists of a collection of
+``objects'' and a collection of ``morphisms''. Every morphism \(f\) has
+a ``source'' object and a ``target'' object. If the source of \(f\) is
+\(x\) and its target is y, we write \(f\colon x\to y\). In addition, we
+have:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -9658,10 +9752,10 @@ target is y, we write \(f\colon x\to y\). In addition, we have:
 
 you should visualize the composite of \(f\colon x\to y\) and
 \(g\colon y\to Z\) as follows: \[x\xrightarrow{f}y\xrightarrow{g}Z.\] So
-far this is exactly the definition of a category! But a 2-category ALSO
-consists of a collection of ``2-morphisms''. Every 2-morphism \(T\) has
-a ``source'' morphism \(f\) and a target morphism \(g\). If the source
-of \(T\) is \(f\) and its target is \(g\), we write
+far this is exactly the definition of a category! But a \(2\)-category
+ALSO consists of a collection of ``2-morphisms''. Every \(2\)-morphism
+\(T\) has a ``source'' morphism \(f\) and a target morphism \(g\). If
+the source of \(T\) is \(f\) and its target is \(g\), we write
 \(T\colon f\Rightarrow g\). If \(T\colon f\Rightarrow g\), we require
 that \(f\) and \(g\) have the same source and the same target; for
 example, \(f\colon x\to y\) and \(g\colon x\to y\). you should visualize
@@ -9669,14 +9763,14 @@ example, \(f\colon x\to y\) and \(g\colon x\to y\). you should visualize
 \[\includegraphics[scale=0.3]{../images/Tnatftog.pdf}\] In addition, we
 have:
 
-1') Given a 2-morphism \(S\colon f\Rightarrow g\) and a 2-morphism
-\(T\colon g\Rightarrow h\), there is a 2-morphism
+1') Given a \(2\)-morphism \(S\colon f\Rightarrow g\) and a
+\(2\)-morphism \(T\colon g\Rightarrow h\), there is a \(2\)-morphism
 \(ST\colon f\Rightarrow h\), which we call the ``vertical composite'' of
 \(S\) and \(T\).
 
 2') Vertical composition is associative: \((ST)U = S(TU)\).
 
-3') For each morphism \(f\) there is a 2-morphism
+3') For each morphism \(f\) there is a \(2\)-morphism
 \(1_f\colon f\Rightarrow f\), called the ``identity'' of \(f\). For any
 \(T\colon f\Rightarrow g\) we have \(1_f T = T 1_g = T\).
 
@@ -9689,8 +9783,8 @@ for a twist. We also require that we can ``horizontally'' compose
 demand:
 
 1'\,') Given morphisms \(f,g\colon x\to y\) and \(f',g'\colon y\to z\),
-and 2-morphisms \(S\colon f\Rightarrow g\) and
-\(T\colon f'\Rightarrow g'\), there is a 2-morphism
+and \(2\)-morphisms \(S\colon f\Rightarrow g\) and
+\(T\colon f'\Rightarrow g'\), there is a \(2\)-morphism
 \(S\cdot T\colon ff' \Rightarrow gg'\), which we call the ``horizontal
 composite'' of \(S\) and \(T\).
 
@@ -9704,7 +9798,7 @@ for horizontal composition. That is, given \(f,g\colon x\to y\) and
 
 Finally, we demand the ``exchange law'' relating horizontal and vertical
 composition: \[(ST)\cdot (S'T') = (S\cdot S')(T\cdot T')\] This makes
-the following 2-morphism unambiguous:
+the following \(2\)-morphism unambiguous:
 \[\includegraphics[scale=0.3]{../images/STS'T'.pdf}\] We can think of it
 either as the result of first doing two vertical composites, and then
 one horizontal composite, or as the result of first doing two horizontal
@@ -9712,17 +9806,18 @@ composites, and then one vertical composite!
 
 Here we can really see why higher-dimensional algebra deserves its name.
 Unlike category theory, where we can visualize morphisms as
-1-dimensional arrows, here we have 2-morphisms which are intrinsically
-2-dimensional, and can be composed both vertically and horizontally.
+1-dimensional arrows, here we have \(2\)-morphisms which are
+intrinsically 2-dimensional, and can be composed both vertically and
+horizontally.
 
 Now if you are familiar with \(\mathsf{Cat}\), you may be wondering how
 we vertically and horizontally compose natural transformations, which
 are the 2-morphisms in \(\mathsf{Cat}\). Let me leave this as an
 exercise for now\ldots{} there's a nice way to do it that makes
-\(\mathsf{Cat}\) into a 2-category. This exercise is a good one to build
-up your higher-dimensional algebra muscles.
+\(\mathsf{Cat}\) into a \(2\)-category. This exercise is a good one to
+build up your higher-dimensional algebra muscles.
 
-In fact, we could have invented the above definition of 2-category
+In fact, we could have invented the above definition of \(2\)-category
 simply by thinking a lot about \(\mathsf{Cat}\) and what you can do with
 categories, functors, and natural transformations. I'm pretty sure
 that's more or less what happened, historically! Thinking hard enough
@@ -9737,6 +9832,9 @@ To continue reading the ``Tale of \(n\)-Categories'', see
 
 I thank Keith Harbaugh for catching lots of typos and other mistakes in
 ``week73'' - ``week80''.
+
+
+
 \hypertarget{week81}{%
 \section{May 12, 1996}\label{week81}}
 
@@ -9799,7 +9897,7 @@ rotational symmetry it possesses at high temperatures. And like in the
 case of a magnet, one would expect the possibility of ``topological
 defects'' where different regions of space pick different ways to break
 the symmetry, leaving nasty spots like lumps in the carpet that can't be
-straightened out. Ordinary magnets typically exhibit 2-dimensional
+straightened out. Ordinary magnets typically exhibit \(2\)-dimensional
 ``domain walls'' between domains having different axes of magnetization.
 But in various GUTs folks have considered, one can also get
 1-dimensional ``cosmic strings'' and 0-dimensional ``topological
@@ -9850,15 +9948,15 @@ decade has been the study of ``loop groups''. Say you take any Lie group
 \(G\). Then the ``loop group'' \(LG\) is the set of smooth functions
 from the circle to \(G\). This becomes a group with pointwise
 multiplication as the group operation. This sort of group shows up in
-2-dimensional quantum field theory, where spacetime could be the
+\(2\)-dimensional quantum field theory, where spacetime could be the
 cylinder. Then ``space'' is the circle, and if we are studying gauge
 theory with gauge group \(G\), the group of gauge transformations over
 space would be the loop group \(LG\). One main reason for being
-interested in 2-dimensional quantum field theory is string theory: here
-we think of the 2-dimensional worldsheet of the string as a spacetime in
-its own right, and we are often interested in doing gauge theory over
-this spacetime. For this reason, folks in string theory need to
-understand all they can about unitary representations of loop groups.
+interested in \(2\)-dimensional quantum field theory is string theory:
+here we think of the \(2\)-dimensional worldsheet of the string as a
+spacetime in its own right, and we are often interested in doing gauge
+theory over this spacetime. For this reason, folks in string theory need
+to understand all they can about unitary representations of loop groups.
 
 Actually they are interested in \emph{projective} representations of
 loop groups. Remember, in quantum mechanics two vectors in a Hilbert
@@ -9934,8 +10032,8 @@ bracket in the Lie algebra we can convert 3 vectors \(u\), \(v\), and
 will make life simpler later. The special property of the Killing form
 implies that \(W\) is totally antisymmetric, and we can use left
 multiplication to translate \(W\) all over the group \(G\) obtaining a
-closed 3-form on \(G\). Call this 3-form \(W\), too. Then, given any
-smooth function from \(S^3\) into \(G\) we can pull back \(W\) to
+closed \(3\)-form on \(G\). Call this \(3\)-form \(W\), too. Then, given
+any smooth function from \(S^3\) into \(G\) we can pull back \(W\) to
 \(S^3\) and integrate it over \(S^3\). If we choose the constant \(k\)
 right, the result will be an integer --- the integer we were looking
 for.
@@ -9947,11 +10045,12 @@ Okay, these topological facts about the group \(G\) have a bunch of cool
 consequences. One trick usually goes by the name of the ``WZW action'',
 which refers to Wess, Zumino, and Witten. Say we have smooth function
 \(f\) from \(S^2\) to \(G\). Since \(\pi_2(G) = 0\) we can extend \(f\)
-to a smooth function \(F\) from the 3-dimensional ball, \(D^3\), to
+to a smooth function \(F\) from the \(3\)-dimensional ball, \(D^3\), to
 \(G\). (This is just another way of ``pulling the balloon tight'' as
-mentioned above.) Now we can use \(F\) to pull back the magic 3-form
-\(W\) to \(D^3\), and then we can integrate the resulting 3-form over
-\(D^3\) to get a number \(S(f)\) called the Wess-Zumino-Witten action.
+mentioned above.) Now we can use \(F\) to pull back the magic \(3\)-form
+\(W\) to \(D^3\), and then we can integrate the resulting \(3\)-form
+over \(D^3\) to get a number \(S(f)\) called the Wess-Zumino-Witten
+action.
 
 Unfortunately, this number depends on the choice of the function \(F\)
 extending \(f\) to the ball. Fortunately, it doesn't depend too much on
@@ -9990,7 +10089,7 @@ Now how do we get this short exact sequence? Well, it comes from a short
 exact sequence of spaces: \[\{*\} \to S^1 \to D^2 \to S^2 \to \{*\}\]
 
 This diagram means simply that we can think of the circle as a subspace
-of the 2-dimensional disc \(D^2\) in an obvious way, and then if we
+of the \(2\)-dimensional disc \(D^2\) in an obvious way, and then if we
 collapse this circle to a point the disc gets squashed down to a
 2-sphere. Now, from this short exact sequence we get a short exact
 sequence of groups
@@ -10067,6 +10166,9 @@ I should conclude by noting that while a lot of this appeared in
 Brylinski's talk, and a lot of it is probably common knowledge among
 topologists, it was in some conversations with James Dolan that we
 worked out some of the patterns I mention here.
+
+
+
 \hypertarget{week82}{%
 \section{May 17, 1996}\label{week82}}
 
@@ -10094,12 +10196,12 @@ Hamilton. He knew about the real numbers \(\mathbb{R}\), of course, and
 also the complex numbers \(\mathbb{C}\), which are the reals with a
 square root of \(-1\), usually called \(i\), thrown in. Why not try
 putting in another square root of \(-1\)? This might give a
-3-dimensional algebra that'd help with 3-dimensional space as much as
-the complex numbers help with 2 dimensions. He tried this but couldn't
-get division to work out well. He struggled this for a long time. On the
-16th of October, 1843, he was walking along the Royal Canal with his
-wife to a meeting of the Royal Irish Academy when he had a good idea:
-``\ldots there dawned on me the notion that we must admit, in some
+\(3\)-dimensional algebra that'd help with \(3\)-dimensional space as
+much as the complex numbers help with 2 dimensions. He tried this but
+couldn't get division to work out well. He struggled this for a long
+time. On the 16th of October, 1843, he was walking along the Royal Canal
+with his wife to a meeting of the Royal Irish Academy when he had a good
+idea: ``\ldots there dawned on me the notion that we must admit, in some
 sense, a fourth dimension of space for the purpose of calculating with
 triples \ldots{} An electric circuit seemed to close, and a spark
 flashed forth.'' He carved the decisive relations
@@ -10372,11 +10474,12 @@ beginning to find explicit solutions of the constraints of quantum
 gravity using the loop representation --- it's still worth reading! The
 second introduced a field theory now called the Husain-Kuchar model,
 which has the curious property of resembling gravity without the
-dynamics. The third studies 4-dimensional general relativity assuming
-there are two commuting spacelike Killing vector fields. Here he reduces
-the theory to a 2-dimensional theory which appears to be completely
-integrable --- though it has not been proved to be so in the sense of
-admitting a complete set of Poisson-commuting conserved quantities.
+dynamics. The third studies \(4\)-dimensional general relativity
+assuming there are two commuting spacelike Killing vector fields. Here
+he reduces the theory to a \(2\)-dimensional theory which appears to be
+completely integrable --- though it has not been proved to be so in the
+sense of admitting a complete set of Poisson-commuting conserved
+quantities.
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -10425,6 +10528,9 @@ Died April 21st, 1929
 Oh, two such silver currents when they join
 Do glorify the banks that bound them in.
 \end{verbatim}
+
+
+
 \hypertarget{week83}{%
 \section{June 10, 1996}\label{week83}}
 
@@ -10475,7 +10581,7 @@ working with Lott, was beginning to explore the idea that the geometry
 of our physical universe is noncommutative. Actually, they used ideas
 from noncommutative geometry to study a weird kind of commutative
 geometry in which spacetime is ``two-sheeted'' - two copies of standard
-4-dimensional spacetime, very close together. In normal geometry it
+\(4\)-dimensional spacetime, very close together. In normal geometry it
 doesn't even make sense to speak of two separate copies of spacetime
 being ``close together'', since there is no way to get from one to the
 other! Tricks from noncommutative geometry allow it to make sense. They
@@ -10501,7 +10607,7 @@ introduced gravity into his model. I haven't had time to absorb this new
 work yet, so let me simply say what his current model of spacetime is,
 and list some of the concrete predictions the new theory makes. His
 spacetime is the noncommutative algebra consisting of smooth functions
-on good old 4-dimensional Minkowski spacetime, taking values in the
+on good old \(4\)-dimensional Minkowski spacetime, taking values in the
 algebra \(A\) given by the direct sum
 \[A = \mathbb{C} + \mathbb{H} + M_3(\mathbb{C})\] where \(\mathbb{C}\)
 is the complex numbers, \(\mathbb{H}\) is the quaternions, and
@@ -10531,11 +10637,11 @@ the inverse of a number which I would like to explain now. I assume you
 know that multiplying numbers is a lot like tensoring vector spaces. For
 example, just as multiplication distributes over addition, tensoring
 distributes over direct sums. Also, just as there is a number called
-\(1\) which is the unit for multiplication, there is a 1-dimensional
+\(1\) which is the unit for multiplication, there is a \(1\)-dimensional
 vector space, the ground field itself, which is the unit for tensoring.
 Let me take the unusual liberty of writing tensor products by
 juxtaposition, so that \(xy\) is the tensor product of the vector space
-\(x\) and the vector space \(y\), and let me call the 1-dimensional
+\(x\) and the vector space \(y\), and let me call the \(1\)-dimensional
 vector space that's the unit for tensoring simply ``\(1\)''.
 
 Now, if a number \(x\) has an inverse \(y\), we have \[yx = 1\] and
@@ -10654,43 +10760,45 @@ define adjoint functors in category theory! What's going on? Well, dual
 vector spaces are analogous to adjoint functors, clearly. But more
 deeply, what we have is an analogy between duals in any category with
 tensor products --- or ``monoidal category'' --- and adjoints in any
-2-category.
+\(2\)-category.
 
 What's a monoidal category, exactly? Roughly it's a category with some
 sort of ``tensor product'' and ``unit object''. But we can precisely
 define the so-called ``strict'' monoidal categories as follows: they are
-simply 2-categories with one object. (Turn to
+simply \(2\)-categories with one object. (Turn to
 \protect\hyperlink{week80}{``Week 80''} for a definition of
-2-categories.) A 2-category has objects, morphisms, and 2-morphisms, but
-if there is only one object, we can do the following relabelling trick:
-\[
+\(2\)-categories.) A \(2\)-category has objects, morphisms, and
+\(2\)-morphisms, but if there is only one object, we can do the
+following relabelling trick: \[
   \begin{aligned}
     \text{2-morphisms} &\mapsto \text{morphisms}
   \\\text{morphisms} &\mapsto \text{objects}
   \\\text{objects} &\mapsto 
   \end{aligned}
 \] Namely, we can forget about the object, call the morphisms
-``objects'', and call the 2-morphisms ``morphisms''. But since all the
-new ``objects'' were really morphisms from the original single object to
-itself, they can all be composed, or ``tensored''. That's why we get a
-category with ``tensor product'', and similarly, a ``unit object''.
+``objects'', and call the \(2\)-morphisms ``morphisms''. But since all
+the new ``objects'' were really morphisms from the original single
+object to itself, they can all be composed, or ``tensored''. That's why
+we get a category with ``tensor product'', and similarly, a ``unit
+object''.
 
-So, just as a category with one object is just a monoid, a 2-category
-with one object is a monoidal category! This is one instance of a trick
-that I sketched many more cases of in \protect\hyperlink{week74}{``Week
-74''}.
+So, just as a category with one object is just a monoid, a
+\(2\)-category with one object is a monoidal category! This is one
+instance of a trick that I sketched many more cases of in
+\protect\hyperlink{week74}{``Week 74''}.
 
 Now, in \protect\hyperlink{week79}{``Week 79''} I defined left and right
 adjoints of functors between categories. Here the only thing I really
-needed about category theory was that \(\mathsf{Cat}\) is a 2-category
-with categories as its objects, functors as its morphisms, and natural
-transformations as its 2-morphisms. So we can define left and right
-adjoints of morphisms in any 2-category by analogy as follows:
+needed about category theory was that \(\mathsf{Cat}\) is a
+\(2\)-category with categories as its objects, functors as its
+morphisms, and natural transformations as its 2-morphisms. So we can
+define left and right adjoints of morphisms in any \(2\)-category by
+analogy as follows:
 
-Suppose \(a\) and \(b\) are objects in a 2-category. Then we say that
-the morphism \[L\colon a\to b\] is a ``left adjoint'' of the morphism
-\[R\colon b\to a\] (and \(R\) is a ``right adjoint'' of \(L\)) if there
-are 2-morphisms \[
+Suppose \(a\) and \(b\) are objects in a \(2\)-category. Then we say
+that the morphism \[L\colon a\to b\] is a ``left adjoint'' of the
+morphism \[R\colon b\to a\] (and \(R\) is a ``right adjoint'' of \(L\))
+if there are \(2\)-morphisms \[
   \begin{aligned}
     e&\colon RL\Rightarrow 1_b
   \\i&\colon 1_a\Rightarrow LR
@@ -10770,9 +10878,9 @@ above, \[
   \end{tikzpicture}
 \]
 
-Alternatively, we can state these equations using the 2-categorical
+Alternatively, we can state these equations using the \(2\)-categorical
 notation described in \protect\hyperlink{week80}{``Week 80''}, by saying
-that the following vertical composites of 2-morphisms are identity
+that the following vertical composites of \(2\)-morphisms are identity
 morphisms:
 \[L = 1_aL\xRightarrow{i\cdot1_L}LRL\xRightarrow{1_L\cdot e}L1_a = L\]
 and
@@ -10781,14 +10889,14 @@ where \(\cdot\) denotes the horizontal composite. If you look at these,
 and compare them to the graphical notation above, you'll see they are
 really saying the same thing.
 
-The punchline is, when our 2-category has one object, we can think of it
-as a monoidal category, and then these equations are the definition of
-``duals'' --- one example being our earlier definition of dual vector
-spaces in the monoidal category Vect of vector spaces!
+The punchline is, when our \(2\)-category has one object, we can think
+of it as a monoidal category, and then these equations are the
+definition of ``duals'' --- one example being our earlier definition of
+dual vector spaces in the monoidal category Vect of vector spaces!
 
 So adjoint functors and dual vector spaces are both instances of the
-general notion of adjoint 1-morphisms in a 2-category. Adjointness is a
-very basic concept.
+general notion of adjoint \(1\)-morphisms in a \(2\)-category.
+Adjointness is a very basic concept.
 
 I hope all that made some sense.
 
@@ -10812,6 +10920,9 @@ To continue reading the ``Tale of \(n\)-Categories'', see
 \protect\hyperlink{week84}{``Week 84''}.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+
+
 \hypertarget{week84}{%
 \section{June 27, 1996}\label{week84}}
 
@@ -11150,27 +11261,28 @@ these Dynkin diagrams.
 For more on this stuff try the paper by Crane and Frenkel referred to in
 \protect\hyperlink{week38}{``Week 38''} and
 \protect\hyperlink{week50}{``Week 50''}. It suggests some amazing
-relationships between this stuff and 4-dimensional topology\ldots.
+relationships between this stuff and \(4\)-dimensional topology\ldots.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 Let me conclude by reminding you where I am in ``the tale of
 \(n\)-categories'' and where I want to go next. So far I have spoken
-mainly of 0-categories, 1-categories, and 2-categories, with lots of
-vague allusions as to how various patterns generalize to higher \(n\).
-Also, I have concentrated mainly on the related notions of equality,
-isomorphism, equivalence, and adjointness. Equality, isomorphism and
-equivalence are the most natural notions of ``sameness'' when working in
-0-categories, 1-categories, and 2-categories, respectively. Adjointness
-is a closely related but more subtle and exciting concept that you can
-only start talking about once you get to the level of 2-categories.
-People got tremendously excited by it when they started working with the
-2-category \(\mathsf{Cat}\) of all small categories, because it
-explained a vast number of situations where you have a way to go back
-and forth between two categories, without the categories being ``the
-same'' (or equivalent). Another exciting thing about adjointness is that
-it really highlights the relation between 2-categories and 2-dimensional
-topology --- thus pointing the way to a more general relation between
+mainly of 0-categories, \(1\)-categories, and \(2\)-categories, with
+lots of vague allusions as to how various patterns generalize to higher
+\(n\). Also, I have concentrated mainly on the related notions of
+equality, isomorphism, equivalence, and adjointness. Equality,
+isomorphism and equivalence are the most natural notions of ``sameness''
+when working in 0-categories, \(1\)-categories, and \(2\)-categories,
+respectively. Adjointness is a closely related but more subtle and
+exciting concept that you can only start talking about once you get to
+the level of \(2\)-categories. People got tremendously excited by it
+when they started working with the \(2\)-category \(\mathsf{Cat}\) of
+all small categories, because it explained a vast number of situations
+where you have a way to go back and forth between two categories,
+without the categories being ``the same'' (or equivalent). Another
+exciting thing about adjointness is that it really highlights the
+relation between \(2\)-categories and \(2\)-dimensional topology ---
+thus pointing the way to a more general relation between
 \(n\)-categories and \(n\)-dimensional topology. From this point of
 view, adjointness is all about ``folds'': \[
   \begin{tikzpicture}
@@ -11222,9 +11334,10 @@ view, adjointness is all about ``folds'': \[
   \end{tikzpicture}
 \] This concept of ``doubling back'' or ``backtracking'' is a very
 simple and powerful one, so it's not surprising that it is prevalent
-throughout mathematics and physics. It is an essentially 2-dimensional
-phenomenon (though it occurs in higher dimensions as well), so it can be
-understood most generally in the language of 2-categories.
+throughout mathematics and physics. It is an essentially
+\(2\)-dimensional phenomenon (though it occurs in higher dimensions as
+well), so it can be understood most generally in the language of
+\(2\)-categories.
 
 (In physics, ``doubling back'' is related to the notion of antiparticles
 as particle moving backwards in time, and appears in the Feynman
@@ -11233,7 +11346,7 @@ For those familiar with the category-theoretic approach to Feynman
 diagrams, the stuff in \protect\hyperlink{week83}{``Week 83''} about
 dual vector spaces should suffice to make this connection precise.)
 
-Next I will talk about another 2-dimensional concept, the concept of
+Next I will talk about another \(2\)-dimensional concept, the concept of
 ``joining'' or ``merging'': \[
   \begin{tikzpicture}
     \begin{knot}
@@ -11246,11 +11359,11 @@ Next I will talk about another 2-dimensional concept, the concept of
   \end{tikzpicture}
 \] This is probably even more powerful than the concept of ``folding'':
 it shows up whenever we add numbers, multiply numbers, or in many other
-ways combine things. The 2-categorical way to understand this is as
-follows. Suppose we have an object \(x\) in a 2-category, and a morphism
-\(f\colon x \to x\). Then we can ask for a 2-morphism
+ways combine things. The \(2\)-categorical way to understand this is as
+follows. Suppose we have an object \(x\) in a \(2\)-category, and a
+morphism \(f\colon x \to x\). Then we can ask for a \(2\)-morphism
 \[M\colon f^2 \Rightarrow f.\] If we have such a thing, we can draw it
-as a traditional 2-categorical diagram: \[
+as a traditional \(2\)-categorical diagram: \[
   \begin{tikzpicture}
     \node (xl) at (0,0) {$x$};
     \node (xt) at (1.25,2) {$x$};
@@ -11277,7 +11390,7 @@ as a traditional 2-categorical diagram: \[
     \node[label=left:{$M$}] at (0.5,-0.95) {$\bullet$};
     \node[fill=white] at (0.5,-1.5) {$f$};
   \end{tikzpicture}
-\] Regardless of how you draw it, the 2-morphism
+\] Regardless of how you draw it, the \(2\)-morphism
 \(M\colon f^2 \Rightarrow f\) represents a process turning two copies of
 \(f\) into one. And as we'll see, all sorts of fancy ways mathematicians
 have of studying this sort of process --- ``monoids'', ``monoidal
@@ -11286,6 +11399,9 @@ situation.
 
 To continue reading the ``Tale of \(n\)-Categories'', see
 \protect\hyperlink{week89}{``Week 89''}.
+
+
+
 \hypertarget{week85}{%
 \section{July 14, 1996}\label{week85}}
 
@@ -11352,7 +11468,7 @@ never finish writing this!
   i.e., that assign an ``amplitude'' to each Wilson loop.
 
   In quantum field theory you often need to average a quantum field over
-  some 3-dimensional region of space or 4-dimensional region of
+  some \(3\)-dimensional region of space or \(4\)-dimensional region of
   spacetime to get a well-defined operator. Wilson loops are rather
   singular because a loop is a one-dimensional object. On the other
   hand, they are nice because they are gauge-invariant: they don't
@@ -11360,12 +11476,13 @@ never finish writing this!
 
   In the ``extended'' loop representation one tries to make the integral
   less singular by not dealing with actual loops, but certain analogous
-  integrals over all 3-dimensional space. Heuristic calculations suggest
-  that they are gauge-invariant, but Troy Schilling noticed a while ago
-  that they aren't always \emph{really} gauge-invariant --- basically
-  because the the path-ordered exponential is given by a certain Taylor
-  series, and nasty things can happen when you manipulate infinite
-  series without checking if your manipulations are legitimate! See:
+  integrals over all \(3\)-dimensional space. Heuristic calculations
+  suggest that they are gauge-invariant, but Troy Schilling noticed a
+  while ago that they aren't always \emph{really} gauge-invariant ---
+  basically because the the path-ordered exponential is given by a
+  certain Taylor series, and nasty things can happen when you manipulate
+  infinite series without checking if your manipulations are legitimate!
+  See:
 
   \begin{enumerate}
   \def\labelenumi{\arabic{enumi})}
@@ -11526,6 +11643,9 @@ never finish writing this!
   But we had never gotten around to it. So, I decided to team up with
   Kirill and write a paper on this stuff.
 \end{itemize}
+
+
+
 \hypertarget{week86}{%
 \section{August 6, 1996}\label{week86}}
 
@@ -11682,12 +11802,13 @@ So\ldots{}
 
   Mike has been working on a very interesting ``state sum model'' for
   quantum gravity; that is, a discretized model in which spacetime is
-  made of 4-simplices (the 4d version of tetrahedra), fields are thought
-  of ways of labelling the faces, edges and so on by spins, elements of
-  \(\mathrm{SU}(2)\) and the like, and the path integral is replaced by
-  a sum over these labellings. This works out quite nicely for quantum
-  gravity in 3 dimensions --- see \protect\hyperlink{week16}{``Week
-  16''} --- but it's much more challenging in 4 dimensions.
+  made of \(4\)-simplices (the 4d version of tetrahedra), fields are
+  thought of ways of labelling the faces, edges and so on by spins,
+  elements of \(\mathrm{SU}(2)\) and the like, and the path integral is
+  replaced by a sum over these labellings. This works out quite nicely
+  for quantum gravity in 3 dimensions --- see
+  \protect\hyperlink{week16}{``Week 16''} --- but it's much more
+  challenging in 4 dimensions.
 
   One nice feature of these state sum models for quantum gravity is that
   they may be reinterpreted as sums over ``worldsheets'' --- surfaces
@@ -11827,6 +11948,9 @@ So\ldots{}
   keep up with This Week's Finds, but my life is a bit calmer now and I
   will try to finish these reports soon.
 \end{itemize}
+
+
+
 \hypertarget{week87}{%
 \section{August 20, 1996}\label{week87}}
 
@@ -11982,10 +12106,10 @@ quantum gravity; the next week was all about black holes!
   of a black hole in 5 dimensions, which was really a ``black string''
   in 6 dimensions --- a solution with translational symmetry in the 6th
   dimension, but where the extra 6th dimension is so tiny that ordinary
-  5-dimensional folks think they've just got a black hole. (By the way,
-  even the 6-dimensional approach is really just a way of talking about
-  a string theory that fundamentally lives in 10 dimensions. This stuff
-  is not for the faint-hearted.)
+  \(5\)-dimensional folks think they've just got a black hole. (By the
+  way, even the \(6\)-dimensional approach is really just a way of
+  talking about a string theory that fundamentally lives in 10
+  dimensions. This stuff is not for the faint-hearted.)
 
   Here are a few papers on this subject by Marolf and Horowitz:
 
@@ -12080,6 +12204,9 @@ quantum gravity; the next week was all about black holes!
     \href{https://arxiv.org/abs/gr-qc/9608033}{\texttt{gr-qc/9608033}}.
   \end{enumerate}
 \end{itemize}
+
+
+
 \hypertarget{week88}{%
 \section{August 26, 1996}\label{week88}}
 
@@ -12221,16 +12348,16 @@ and simple to ponder:
   flows only along surfaces, like the \(x\)-\(t\) plane in the example
   above, and these different surfaces don't really talk to each other
   very much. It's as if the world was split up (or in math jargon,
-  foliated) into lots of different 2-dimensional worlds, which didn't
-  know about each other. Jacobson showed that in this case, the
+  foliated) into lots of different \(2\)-dimensional worlds, which
+  didn't know about each other. Jacobson showed that in this case, the
   equations of general relativity (extended in a certain way to
   degenerate inverse metrics) boil down to saying that there are two
   kinds of massless spin-\(1/2\) particle living on all these
-  2-dimensional worlds.
+  \(2\)-dimensional worlds.
 
   This got me quite excited because it reminded me of string theory,
   which is all about massless particles (or in physics jargon, conformal
-  fields) living on the 2-dimensional string worldsheet. I am always
+  fields) living on the \(2\)-dimensional string worldsheet. I am always
   hunting around for relationships between string theory and the loop
   representation of quantum gravity, and I think this is an important
   clue. The reason is that I think the loop representation can be
@@ -12294,17 +12421,18 @@ and simple to ponder:
       \right)
     \] In other words, where the speed of light is zero only in the
   \(z\) direction. Basically what happens is that spacetime gets
-  foliated with a lot of 3-dimensional slices, and on each one you get
-  the equations of 3-dimensional general relativity.
+  foliated with a lot of \(3\)-dimensional slices, and on each one you
+  get the equations of \(3\)-dimensional general relativity.
 \item
-  \textbf{Friday, July 26th} --- Thomas Strobl spoke on 2-dimensional
-  gravity. I don't understand his work well enough yet to have anything
-  much to say, but the most interesting thing about it to \emph{me} is
-  that it allows one to see how quantum groups emerge from the \(G/G\)
-  gauged Wess-Zumino-Witten model (a certain 2-dimensional topological
-  quantum field theory), by describing this theory as the quantization
-  of a Poisson \(\sigma\)-model --- a field theory where the fields take
-  values in a Poisson manifold. For more, try:
+  \textbf{Friday, July 26th} --- Thomas Strobl spoke on
+  \(2\)-dimensional gravity. I don't understand his work well enough yet
+  to have anything much to say, but the most interesting thing about it
+  to \emph{me} is that it allows one to see how quantum groups emerge
+  from the \(G/G\) gauged Wess-Zumino-Witten model (a certain
+  \(2\)-dimensional topological quantum field theory), by describing
+  this theory as the quantization of a Poisson \(\sigma\)-model --- a
+  field theory where the fields take values in a Poisson manifold. For
+  more, try:
 
   \begin{enumerate}
   \def\labelenumi{\arabic{enumi})}
@@ -12362,6 +12490,9 @@ and simple to ponder:
   but next Week I am going to talk about triality and the secret inner
   meaning of \(\mathrm{E}_8\).
 \end{itemize}
+
+
+
 \hypertarget{week89}{%
 \section{September 17, 1996}\label{week89}}
 
@@ -12497,15 +12628,15 @@ string theory:
 \end{enumerate}
 
 This paper really freaks me out, because it attempts to relate the loop
-representation of quantum gravity in 4-dimensional spacetime to string
-theory in \emph{3-dimensional} spacetime. That's an idea that never
-would have occurred to me. Smolin suggests it might possibly be related
-to how supergravity in 11 dimensions is related to string theory in 10
-dimensions, but unfortunately I don't know enough about all that to know
-where to go with it. I need to learn more about this string theory
-duality stuff --- see \protect\hyperlink{week72}{``Week 72''} for my
-pathetic attempts so far to understand it. I haven't read this yet, but
-I should:
+representation of quantum gravity in \(4\)-dimensional spacetime to
+string theory in \emph{3-dimensional} spacetime. That's an idea that
+never would have occurred to me. Smolin suggests it might possibly be
+related to how supergravity in 11 dimensions is related to string theory
+in 10 dimensions, but unfortunately I don't know enough about all that
+to know where to go with it. I need to learn more about this string
+theory duality stuff --- see \protect\hyperlink{week72}{``Week 72''} for
+my pathetic attempts so far to understand it. I haven't read this yet,
+but I should:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -12525,23 +12656,23 @@ will tell you all about monads, monoids, monoid objects, and monoidal
 categories.
 
 You may or may not remember, but in \protect\hyperlink{week80}{``Week
-80''} I explained the idea of a ``2-category'' pretty precisely. This is
-a gadget with a bunch of objects, a bunch of morphisms going from one
-object to another, and a bunch of 2-morphisms going from one morphism to
-another. We write \(f\colon x\to y\) to denote a morphism \(f\) from the
-object \(x\) to the object \(y\), and we write
-\(F\colon f\Rightarrow g\) to denote a 2-morphism \(F\) from the
+80''} I explained the idea of a ``\(2\)-category'' pretty precisely.
+This is a gadget with a bunch of objects, a bunch of morphisms going
+from one object to another, and a bunch of \(2\)-morphisms going from
+one morphism to another. We write \(f\colon x\to y\) to denote a
+morphism \(f\) from the object \(x\) to the object \(y\), and we write
+\(F\colon f\Rightarrow g\) to denote a \(2\)-morphism \(F\) from the
 morphism \(f\) to the morphism \(g\).
 
-Just as in a category, in a 2-category we can compose a morphism
+Just as in a category, in a \(2\)-category we can compose a morphism
 \(f\colon x\to y\) with a morphism \(g\colon y\to z\) to get a morphism
 \(fg\colon x\to z\). (Note that I write \(fg\) instead of \(gf\); I'm
 going to use this ordering most of the time, though I may occaisionally
 change my mind just to confuse you more.) Similarly, we can compose a
-2-morphism \(F\colon f\Rightarrow g\) with a 2-morphism
-\(G\colon g\Rightarrow h\) to get a 2-morphism
+\(2\)-morphism \(F\colon f\Rightarrow g\) with a 2-morphism
+\(G\colon g\Rightarrow h\) to get a \(2\)-morphism
 \(FG\colon f\Rightarrow h\). This is called ``vertical composition'' of
-2-morphisms. We can visualize FG like this:
+\(2\)-morphisms. We can visualize FG like this:
 \[\includegraphics[scale=0.3]{../images/FGnat.pdf}\] We stick \(F\) on
 top of \(G\) to get \(FG\), which is why it's called ``vertical''
 composition.
@@ -12553,18 +12684,18 @@ Also, if we have morphisms \(f,g\colon x\to y\) and
 this: \[\includegraphics[scale=0.3]{../images/FF'nat.pdf}\] There are
 some axioms all this stuff has to satisfy, which I described in
 \protect\hyperlink{week80}{``Week 80''}, but I won't repeat them here.
-The main thing to keep in mind is that a 2-category is like an abstract
-2-dimensional world\ldots{} and the axioms for a 2-category are
-algebraic distillations of the rules for putting things together in 2
-dimensions. In particular, you can put the 2-morphisms together side by
-side (horizontally) or one on top of the other (vertically), if they
-fit.
+The main thing to keep in mind is that a \(2\)-category is like an
+abstract 2-dimensional world\ldots{} and the axioms for a \(2\)-category
+are algebraic distillations of the rules for putting things together in
+2 dimensions. In particular, you can put the \(2\)-morphisms together
+side by side (horizontally) or one on top of the other (vertically), if
+they fit.
 
-Later I'll say more about what 2-categories have to do with
+Later I'll say more about what \(2\)-categories have to do with
 2-dimensional physics, but right now I want to do something more
 fundamental. I want to show how all sorts of concepts of
 ``multiplication'' or ``combination'' fit nicely into the framework of
-2-categories. The basic idea is really simple: we often think of
+\(2\)-categories. The basic idea is really simple: we often think of
 multiplication as some sort of function \[M\colon s\times s\to s\] where
 we take two elements \(a\) and \(b\) from some set \(s\), and
 ``multiply'' them to get a new one \(M(a,b)\). But we can visualize this
@@ -12582,9 +12713,9 @@ as follows: \[
 \] I've drawn a triangular shaped gadget that takes two ``inputs'' from
 the two slanted edges labelled \(s\), and spits out one ``output'' from
 the horizontal edge labelled \(s\) on the bottom. It's clear from the
-geometry here that \(M\) is something 2-dimensional --- hence, a
-2-morphism --- and that \(s\) is 1-dimensional --- hence, a morphism.
-Let's label the corners too: \[
+geometry here that \(M\) is something \(2\)-dimensional --- hence, a
+\(2\)-morphism --- and that \(s\) is \(1\)-dimensional --- hence, a
+morphism. Let's label the corners too: \[
   \begin{tikzpicture}
     \node (xl) at (0,0) {$x$};
     \node (xt) at (1.25,2) {$x$};
@@ -12601,31 +12732,32 @@ Let's label the corners too: \[
 This hocus-pocus may seem mystifying, but if you bear with me and work
 at it you'll see what I'm up to. I'm saying that essence of
 ``multiplication'' can be described very generally in a situation where
-you have a 2-category with an object \(x\) in it, a morphism
+you have a \(2\)-category with an object \(x\) in it, a morphism
 \(s\colon x\to x\), and a 2-morphism \(M\colon ss\Rightarrow s\). Often
 we are interested in situations like this where the ``multiplication''
 \(M\) is associative, meaning that the composite
 \[sss\xRightarrow{M\cdot1_s}ss\xRightarrow{M}s\] equals
 \[sss\xRightarrow{1_s\cdot M}ss\xRightarrow{M}s\] (Here
-\(1_s\colon s\Rightarrow s\) is the identity 2-morphism from \(s\) to
-itself\ldots{} the axioms for a 2-category say that this exists.) Also,
-we're often interested in situations where there is a ``multiplicative
-unit'', that is, a 2-morphism \(I\colon 1_x\to s\) for which
-\[s = 1_xs\xRightarrow{I\cdot1_s}ss\xRightarrow{M}s\] equals \(1_s\),
-and so does \[s = s1_x\xRightarrow{1_s\cdot I}ss\xRightarrow{M}s\] If we
-have a 2-category with stuff in it satisfying these rules, we say we
-have a ``monad'' in that 2-category.
+\(1_s\colon s\Rightarrow s\) is the identity \(2\)-morphism from \(s\)
+to itself\ldots{} the axioms for a \(2\)-category say that this exists.)
+Also, we're often interested in situations where there is a
+``multiplicative unit'', that is, a \(2\)-morphism \(I\colon 1_x\to s\)
+for which \[s = 1_xs\xRightarrow{I\cdot1_s}ss\xRightarrow{M}s\] equals
+\(1_s\), and so does
+\[s = s1_x\xRightarrow{1_s\cdot I}ss\xRightarrow{M}s\] If we have a
+\(2\)-category with stuff in it satisfying these rules, we say we have a
+``monad'' in that \(2\)-category.
 
 What is an example of a monad? Well, consider our original example where
 s is a set and M is a function. We can think of this as living in a
-2-category as follows. Our 2-category will have only one object, \(x\).
-The morphisms of this 2-category are sets, and composing morphisms
-corresponds to taking the Cartesian product of sets. The 2-morphisms of
-this 2-category are functions between sets.
+\(2\)-category as follows. Our \(2\)-category will have only one object,
+\(x\). The morphisms of this \(2\)-category are sets, and composing
+morphisms corresponds to taking the Cartesian product of sets. The
+\(2\)-morphisms of this \(2\)-category are functions between sets.
 
 What does a monad amount to in this case? Well, work it out! The
 multiplicative unit \(1_x\) must corresponds to the one-element set;
-\(s\) is some set; the 2-morphism \(I\colon 1_x\Rightarrow s\) is a
+\(s\) is some set; the \(2\)-morphism \(I\colon 1_x\Rightarrow s\) is a
 function from the one-element set to \(s\), which picks out a special
 \emph{element} of \(s\); the 2-morphism \(M\colon ss\Rightarrow s\) is
 our multiplication operation. The axioms of a monad I gave then say that
@@ -12639,22 +12771,22 @@ multiplication. That's what folks call a ``monoid'' --- see
 is a special sort of monad!
 
 The point, however, is that there are lots of other kinds of monads, and
-this 2-categorical nonsense unifies the study of all of them. Consider,
-for example, that trick we played of turning the category
-\(\mathsf{Set}\) into a 2-category with just one object \(x\). It's a
-very versatile trick. In general, a 2-category with just one object is
-called a ``monoidal category'', because you can do this relabelling
-trick: \[
+this \(2\)-categorical nonsense unifies the study of all of them.
+Consider, for example, that trick we played of turning the category
+\(\mathsf{Set}\) into a \(2\)-category with just one object \(x\). It's
+a very versatile trick. In general, a \(2\)-category with just one
+object is called a ``monoidal category'', because you can do this
+relabelling trick: \[
   \begin{aligned}
     \text{2-morphisms} &\mapsto \text{morphisms}
   \\\text{morphisms} &\mapsto \text{objects}
   \\\text{objects} &\mapsto 
   \end{aligned}
-\] You take the 2-category with just one object, forget the object, call
-the morphisms ``objects'' and the 2-morphisms ``morphisms'', and you've
-got a category! But one where you can compose or ``multiply'' or
-``tensor'' objects, because they were secretly morphisms from \(x\) to
-itself. For example, \(\mathsf{Set}\) is a monoidal category where we
+\] You take the \(2\)-category with just one object, forget the object,
+call the morphisms ``objects'' and the \(2\)-morphisms ``morphisms'',
+and you've got a category! But one where you can compose or ``multiply''
+or ``tensor'' objects, because they were secretly morphisms from \(x\)
+to itself. For example, \(\mathsf{Set}\) is a monoidal category where we
 can multiply objects (i.e., sets) with the Cartesian product.
 
 However, there are lots of other interesting monoidal categories. For
@@ -12666,11 +12798,11 @@ the usual product topology. \(\mathsf{Mon}\) (the category of monoids)
 becomes a monoidal category if we multiply groups by taking their direct
 product. And so on\ldots.
 
-Because a monoidal category is a 2-category with one object, we can talk
-about monads in any monoidal category. These are usually called ``monoid
-objects'', because they are like a monoid living in the category in
-question. For example, a monoid object in \(\mathsf{Vect}\) is an
-associative algebra. A monoid object in \(\mathsf{Top}\) is a
+Because a monoidal category is a \(2\)-category with one object, we can
+talk about monads in any monoidal category. These are usually called
+``monoid objects'', because they are like a monoid living in the
+category in question. For example, a monoid object in \(\mathsf{Vect}\)
+is an associative algebra. A monoid object in \(\mathsf{Top}\) is a
 topological monoid.
 
 Sometimes funny things happen: for example, a monoid object in
@@ -12685,7 +12817,7 @@ discussed in the following paper:
 \tightlist
 \item
   John Baez and Martin Neuchl, ``Higher-dimensional algebra I: braided
-  monoidal 2-categories'', \emph{Adv. Math.} \textbf{121} (1996),
+  monoidal \(2\)-categories'', \emph{Adv. Math.} \textbf{121} (1996),
   196--244. Also available as
   \href{http://arxiv.org/abs/q-alg/9511013}{\texttt{arXiv:q-alg/9511013}}.
 \end{enumerate}
@@ -12704,13 +12836,14 @@ paper in which we give a general definition of \(n\)-categories, and
 explain this ``microcosm principle''.
 
 Anyway, some of the most interesting monads live not in monoidal
-categories but 2-categories with lots of objects. The primordial
-2-category is Cat, which has (small) categories as objects, functors as
-morphisms and \emph{natural transformations} as 2-morphisms. (A minute
-ago I gave a way to think of \(\mathsf{Cat}\) as a monoidal category.
-That was a bit different than this!) Monads in \(\mathsf{Cat}\) are the
-first monads anyone called ``monads'', I believe. You can read a bunch
-about them in the bible of category theory:
+categories but \(2\)-categories with lots of objects. The primordial
+\(2\)-category is Cat, which has (small) categories as objects, functors
+as morphisms and \emph{natural transformations} as \(2\)-morphisms. (A
+minute ago I gave a way to think of \(\mathsf{Cat}\) as a monoidal
+category. That was a bit different than this!) Monads in
+\(\mathsf{Cat}\) are the first monads anyone called ``monads'', I
+believe. You can read a bunch about them in the bible of category
+theory:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -12778,6 +12911,9 @@ though.
 
 To continue reading the ``Tale of \(n\)-Categories'', see
 \protect\hyperlink{week92}{``Week 92''}.
+
+
+
 \hypertarget{week90}{%
 \section{September 30, 1996}\label{week90}}
 
@@ -12861,7 +12997,7 @@ brackets, like this: \[
   \end{aligned}
 \] These relations are lurking in the definition of quaternions and also
 the vector cross product. Quaternions and cross products are good for
-understanding rotations in 3-dimensional space; they let us describe
+understanding rotations in \(3\)-dimensional space; they let us describe
 infinitesimal rotations and their failure to commute. Here we are
 calling a spade a spade and working directly with the algebra of
 infinitesimal rotations, which folks call \(\mathfrak{so}(3)\). (For
@@ -12959,7 +13095,7 @@ The 5 exceptions are as follows:
 \item
   \(\mathrm{F}_4\): A 52-dimensional Lie algebra.
 \item
-  \(\mathrm{G}_2\): A 14-dimensional Lie algebra.
+  \(\mathrm{G}_2\): A \(14\)-dimensional Lie algebra.
 \item
   \(\mathrm{E}_6\): A 78-dimensional Lie algebra.
 \item
@@ -13040,16 +13176,16 @@ Spinor representations work differently depending on whether the
 dimension \(n\) is even or odd. (This is one reason why people
 distinguish the even and odd n case of \(\mathfrak{so}(n)\) in that
 classification of simple Lie algebras above!) When n is odd there is one
-spinor representation. That's why in ordinary 3-dimensional space there
-is just one kind of spinor to worry about, as you learn when you learn
-about spin-\(1/2\) particles in undergraduate quantum mechanics. When n
-is even there are two different spinor representations, called the
-``left-handed'' and ``right-handed'' spinor representations. This shows
-up when you do quantum mechanics taking special relativity --- and
-4-dimensional spacetime --- into account. For example, the way neutrinos
-transform under rotations is described by the left-handed spinor
-representation, while anti-neutrinos are described by right-handed
-spinors.
+spinor representation. That's why in ordinary \(3\)-dimensional space
+there is just one kind of spinor to worry about, as you learn when you
+learn about spin-\(1/2\) particles in undergraduate quantum mechanics.
+When n is even there are two different spinor representations, called
+the ``left-handed'' and ``right-handed'' spinor representations. This
+shows up when you do quantum mechanics taking special relativity --- and
+\(4\)-dimensional spacetime --- into account. For example, the way
+neutrinos transform under rotations is described by the left-handed
+spinor representation, while anti-neutrinos are described by
+right-handed spinors.
 
 When \(n\) is even, both the spinor representations of
 \(\mathfrak{so}(n)\) are of dimension \(2^{n/2 - 1}\). That is, they are
@@ -13071,10 +13207,10 @@ each other however we please!
 For example, one of these symmetries switches the left-handed and
 right-handed spinor representations, but leaves the vector
 representation alone. Actually, this symmetry works in any even
-dimension, not just dimension 8. Its analogue in 4-dimensional spacetime
-is called ``parity'', a symmetry that turns left-handed particles into
-right-handed ones and vice versa. The fact that there are no
-right-handed neutrinos means that the laws of nature do not actually
+dimension, not just dimension 8. Its analogue in \(4\)-dimensional
+spacetime is called ``parity'', a symmetry that turns left-handed
+particles into right-handed ones and vice versa. The fact that there are
+no right-handed neutrinos means that the laws of nature do not actually
 have this symmetry\ldots{} but it's still very important in math and
 physics.
 
@@ -13110,16 +13246,16 @@ triality symmetries, and these form a subgroup, which is
 For the rest, we need one more fact: there is a way to ``multiply'' a
 left-handed spinor and a right-handed spinor and get a vector. This is
 true in all even dimensions, not just \(n = 8\), so in particular it is
-familiar to particle theorists who live in 4-dimensional spacetime. As I
-noted, what happens to a neutrino when you rotate (or Lorentz transform)
-it is described using left-handed spinors, while anti-neutrinos are
-described by right-handed spinors. Similarly, photons are described by
-vectors. So as far as \emph{rotational} properties go, one could think
-of a photon as a bound state of a neutrino and an antineutrino. This led
-Schroedinger (or someone) to propose at one point that photons were
-actually neutrino- antineutrino pairs. Subsequent experiments showed
-this theory has lots of problems, and nobody sane believes it any more.
-Still, it's sort of cute.
+familiar to particle theorists who live in \(4\)-dimensional spacetime.
+As I noted, what happens to a neutrino when you rotate (or Lorentz
+transform) it is described using left-handed spinors, while
+anti-neutrinos are described by right-handed spinors. Similarly, photons
+are described by vectors. So as far as \emph{rotational} properties go,
+one could think of a photon as a bound state of a neutrino and an
+antineutrino. This led Schroedinger (or someone) to propose at one point
+that photons were actually neutrino- antineutrino pairs. Subsequent
+experiments showed this theory has lots of problems, and nobody sane
+believes it any more. Still, it's sort of cute.
 
 Now, in 8 dimensions, it shouldn't be surprising that we can also
 multiply a left-handed spinor and a vector to get a right-handed spinor,
@@ -13127,7 +13263,7 @@ and so on. The point is, you can just use triality to permute the three
 representations whichever way you please\ldots{} they are not really all
 that different.
 
-So in particular, you can multiply two 8-dimensional vectors and get
+So in particular, you can multiply two \(8\)-dimensional vectors and get
 another vector. And this gives us the octonions!
 
 Now how about \(\mathrm{F}_4\) and \(\mathrm{E}_8\)? This is the cool
@@ -13139,8 +13275,8 @@ Let's call the right-handed and left-handed spinor representations
 shafted, being ``sinister'' rather than ``dextrous'' and all that, so we
 get \(S_-\) rather than \(S_+\).) And let's call the vector
 representation \(V\). And let's be sloppy, the way people usually are,
-and also use these letters to stand for the 8-dimensional vector spaces
-on which \(\mathfrak{so}(8)\) acts as transformations.
+and also use these letters to stand for the \(8\)-dimensional vector
+spaces on which \(\mathfrak{so}(8)\) acts as transformations.
 
 Now let's form the direct sum of vector spaces
 \[\mathfrak{so}(8)\oplus S_+ \oplus S_- \oplus V\] A vector in this
@@ -13262,7 +13398,7 @@ themselves but their root lattices. Taking lattices as fundamental to
 the study of symmetry \emph{does} seem to be a good idea, since it gets
 you to not just the simple Lie algebras described above, but also the
 ``Kac-Moody algebras'' so important in string theory and other forms of
-2-dimensional physics, as well as marvelous things like the Leech
+\(2\)-dimensional physics, as well as marvelous things like the Leech
 lattice and the Monster group.
 
 The Dynkin diagram approach also makes it clear \emph{why} triality
@@ -13380,6 +13516,9 @@ are ready to launch into a description of 2-Hilbert spaces.
 In writing this Week's Finds, I benefitted greatly from email
 correspondence with Robt Bryant, Christopher Henrich, Geoffrey Mess,
 Friedrich Knop, and others.
+
+
+
 \hypertarget{week91}{%
 \section{October 6, 1996}\label{week91}}
 
@@ -13437,14 +13576,14 @@ referring to any number that's an integer plus \(1/2\) as a
 ``half-integer''. A half-integer is \emph{not} any number that's half an
 integer!
 
-You can think of this lattice as the 4-dimensional version of all the
-black squares on a checkerboard. One neat thing is that if you multiply
-any two guys in this lattice you get another guy in this lattice, so we
-have a ``subring'' of the quaternions. Another neat thing is that if you
-apply any permutation of \(\{i,j,k\}\) to a guy in this lattice, you get
-another guy in this lattice --- this is easy to see. So we are getting
-triality to act as some sort of symmetries of this lattice. And
-\emph{that} is what people \emph{usually} call triality.
+You can think of this lattice as the \(4\)-dimensional version of all
+the black squares on a checkerboard. One neat thing is that if you
+multiply any two guys in this lattice you get another guy in this
+lattice, so we have a ``subring'' of the quaternions. Another neat thing
+is that if you apply any permutation of \(\{i,j,k\}\) to a guy in this
+lattice, you get another guy in this lattice --- this is easy to see. So
+we are getting triality to act as some sort of symmetries of this
+lattice. And \emph{that} is what people \emph{usually} call triality.
 
 Let me explain, but now let me use a lot of jargon. (Having shown it's
 all very simple, I now want to relate it to the complicated stuff people
@@ -13455,9 +13594,9 @@ alternatively, as automorphisms and antiautomorphisms of the Lie algebra
 \(\mathfrak{so}(3)\). From that we got an action as automorphisms and
 antiautomorphisms of the quaternions and the Hurwitz integral
 quaternions. But the Hurwitz integral quaternions are just a differently
-coordinatized version of the 4-dimensional lattice \(D_4\)! So we have
-gotten triality to act as symmetries of the \(D_4\) lattice, and hence
-as automorphisms of the Lie algebra \(D_4\), or in other words
+coordinatized version of the \(4\)-dimensional lattice \(D_4\)! So we
+have gotten triality to act as symmetries of the \(D_4\) lattice, and
+hence as automorphisms of the Lie algebra \(D_4\), or in other words
 \(\mathfrak{so}(8)\), the Lie algebra of infinitesimal rotations in 8
 dimensions. (For more on the \(D_4\) lattice see
 \protect\hyperlink{week65}{``Week 65''}, where I describe it using
@@ -13594,6 +13733,9 @@ in its most fundamental aspect is four-dimensional''} --- Albert North
 Whitehead.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+
+
 \hypertarget{week92}{%
 \section{October 17, 1996}\label{week92}}
 
@@ -13883,7 +14025,7 @@ this, we first define \(s\) to be \(xx^*\). Then define \(M\) to be \[
     \node[fill=white] at (1,-2) {$x^*$};
   \end{tikzpicture}
 \] Again, to really understand the rules of the game you need to learn a
-bit about string diagrams and 2-categories, but the basic idea is
+bit about string diagrams and \(2\)-categories, but the basic idea is
 supposed to be simple: we can get two \(xx^*\)'s to turn into one
 \(xx^*\) by letting an \(x^*\) and \(x\) annihilate each other!
 
@@ -13903,8 +14045,8 @@ Finally, we define \(I\) to be \[
 a ``particle/antiparticle pair''.
 
 Now one can check that all the axioms for a monad hold. You really need
-to know a bit about 2-categories to do it carefully, but basically you
-just let yourself deform the pictures, in part with the help of the
+to know a bit about \(2\)-categories to do it carefully, but basically
+you just let yourself deform the pictures, in part with the help of the
 axioms for an adjunction, which let you straighten out curves that
 ``double back in time.'' So for example, we can prove the identity law
 \[
@@ -14216,15 +14358,15 @@ One can't really tell yet.
 Anyway, I don't really care much about the 4-color theorem per se. If I
 ever need to color a map I'll hire a cartographer. It's the connections
 between seemingly disparate subjects that I find interesting.
-2-categories are a very abstract formalism developed to describe
-2-dimensional ways of glomming things together. Starting from the study
-of 2-categories, we very naturally get the notions of ``monad'' and
-``adjunction''. And before we know it, this leads us to some interesting
-questions about 2-dimensional quantum field theory: for really, the
-dominance of planar diagrams in the \(N\to\infty\) limit of gauge theory
-is saying that in this limit the theory becomes essentially a
-2-dimensional field theory, in some funny sense. And then, lo and
-behold, this turns out to be related to the 4-color theorem!
+\(2\)-categories are a very abstract formalism developed to describe
+\(2\)-dimensional ways of glomming things together. Starting from the
+study of \(2\)-categories, we very naturally get the notions of
+``monad'' and ``adjunction''. And before we know it, this leads us to
+some interesting questions about \(2\)-dimensional quantum field theory:
+for really, the dominance of planar diagrams in the \(N\to\infty\) limit
+of gauge theory is saying that in this limit the theory becomes
+essentially a 2-dimensional field theory, in some funny sense. And then,
+lo and behold, this turns out to be related to the 4-color theorem!
 
 By the way, I guess you all know that the 4-color theorem was proved
 using a computer, by breaking things down into lots of separate cases.
@@ -14253,6 +14395,9 @@ To continue reading the ``Tale of \(n\)-Categories'', see
 For more on adjunctions and monoid objects, try
 \protect\hyperlink{week173}{``Week 173''} and especially
 \protect\hyperlink{week174}{``Week 174''}.
+
+
+
 \hypertarget{week93}{%
 \section{October 27, 1996}\label{week93}}
 
@@ -14544,14 +14689,15 @@ With some work, one can check that these algebras go like this:
 \bottomrule
 \end{longtable}
 
-I've only listed these up to 8-dimensional Minkowski spacetime, and the
-cool thing is that after that they sort of repeat --- more precisely,
-\(C_{n+8,1}\) is just the same as \(16\times16\) matrices with entries
-in \(C_{n,1}\), and \(C_{1,n+8}\) is just \(16\times16\) matrices with
-entries in \(C_{1,n}\)! This ``period-8'' phenomenon, sometimes called
-Bott periodicity, has implications for all sorts of branches of math and
-physics. This is why fermions in 2 dimensions are a bit like fermions in
-10 dimensions and 18 dimensions and 26 dimensions\ldots.
+I've only listed these up to \(8\)-dimensional Minkowski spacetime, and
+the cool thing is that after that they sort of repeat --- more
+precisely, \(C_{n+8,1}\) is just the same as \(16\times16\) matrices
+with entries in \(C_{n,1}\), and \(C_{1,n+8}\) is just \(16\times16\)
+matrices with entries in \(C_{1,n}\)! This ``period-8'' phenomenon,
+sometimes called Bott periodicity, has implications for all sorts of
+branches of math and physics. This is why fermions in 2 dimensions are a
+bit like fermions in 10 dimensions and 18 dimensions and 26
+dimensions\ldots.
 
 In physics, we describe fermions using ``spinors'', but there are
 different kinds of spinors: Dirac spinors, Weyl spinors, Majorana
@@ -14967,6 +15113,9 @@ quaternions and octonions.
 
 \emph{Since the mathematicians have grabbed ahold of the theory of
 relativity, I no longer understand it.} --- Albert Einstein
+
+
+
 \hypertarget{week94}{%
 \section{November 11, 1996}\label{week94}}
 
@@ -15386,6 +15535,9 @@ There are a couple other things perhaps worth saying about this:
   (although these dipoles had better not be points --- they need a
   moment of inertia for a torque on them to do work).
 \end{enumerate}
+
+
+
 \hypertarget{week95}{%
 \section{November 26, 1996}\label{week95}}
 
@@ -15520,12 +15672,12 @@ bosonic and act as if they were in 26 dimensions!
 
 To get this string with a split personality to make sense, people
 cleverly think of the 26 dimensional spacetime for the bosonic part as a
-10-dimensional spacetime times a little 16-dimensional curled-up space,
-or ``compact manifold''. To get the theory to work, it seems that this
-compact manifold needs to be flat, which means it has to be a torus - a
-16-dimensional torus. We can think of any such torus as 16-dimensional
-Euclidean space ``modulo a lattice''. Remember, a lattice in Euclidean
-space is something that looks sort of like this: \[
+10-dimensional spacetime times a little \(16\)-dimensional curled-up
+space, or ``compact manifold''. To get the theory to work, it seems that
+this compact manifold needs to be flat, which means it has to be a torus
+- a 16-dimensional torus. We can think of any such torus as
+\(16\)-dimensional Euclidean space ``modulo a lattice''. Remember, a
+lattice in Euclidean space is something that looks sort of like this: \[
   \begin{tikzpicture}[scale=0.7]
     \draw[->] (-3,0) to (4,0) node[label=below:{$x$}]{};
     \draw[->] (0,-3) to (0,4) node[label=left:{$y$}]{};
@@ -15544,20 +15696,20 @@ all integers \(j\) and \(k\). When we form \(n\)-dimensional Euclidean
 space ``modulo a lattice'', we decree two points \(x\) and \(y\) to be
 the same if \(x-y\) is in \(L\). For example, all the points labelled
 \(x\) in the figure above count as the same when we ``mod out by the
-lattice''\ldots{} so in this case, we get a 2-dimensional torus.
+lattice''\ldots{} so in this case, we get a \(2\)-dimensional torus.
 
-For more on 2-dimensional tori and their relation to complex analysis,
-you can read \protect\hyperlink{week13}{``Week 13''}. Here we are going
-to be macho and plunge right into talking about lattices and tori in
-arbitrary dimensions.
+For more on \(2\)-dimensional tori and their relation to complex
+analysis, you can read \protect\hyperlink{week13}{``Week 13''}. Here we
+are going to be macho and plunge right into talking about lattices and
+tori in arbitrary dimensions.
 
-To get our 26-dimensional string theory to work out nicely when we curl
-up 16-dimensional space to a 16-dimensional torus, it turns out that we
-need the lattice \(L\) that we're modding out by to have some nice
-properties. First of all, it needs to be an ``integral'' lattice,
-meaning that for any vectors \(x\) and \(y\) in \(L\) the dot product
-\(x\cdot y\) must be an integer. This is no big deal --- there are
-gadzillions of integral lattices. In fact, sometimes when people say
+To get our \(26\)-dimensional string theory to work out nicely when we
+curl up \(16\)-dimensional space to a \(16\)-dimensional torus, it turns
+out that we need the lattice \(L\) that we're modding out by to have
+some nice properties. First of all, it needs to be an ``integral''
+lattice, meaning that for any vectors \(x\) and \(y\) in \(L\) the dot
+product \(x\cdot y\) must be an integer. This is no big deal --- there
+are gadzillions of integral lattices. In fact, sometimes when people say
 ``lattice'' they really mean ``integral lattice''. What's more of a big
 deal is that \(L\) must be ``even'', that is, for any \(x\) in \(L\) the
 inner product \(x\cdot x\) is even. This implies that \(L\) is integral,
@@ -15710,8 +15862,8 @@ precisely the dimensions I said were specially important in
 string-theoretic reason. Is this a ``coincidence''? Well, all I can say
 is that I don't understand it.
 
-Anyway, the 10-dimensional even unimodular Lorentzian lattice is pretty
-neat and has attracted some attention in string theory:
+Anyway, the \(10\)-dimensional even unimodular Lorentzian lattice is
+pretty neat and has attracted some attention in string theory:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -15723,21 +15875,22 @@ neat and has attracted some attention in string theory:
   \href{https://arxiv.org/abs/hep-th/9411188}{\texttt{hep-th/9411188}}
 \end{enumerate}
 
-but the 26-dimensional one is even more neat. In particular, thanks to
-the cannonball trick of Lucas, the vector
+but the \(26\)-dimensional one is even more neat. In particular, thanks
+to the cannonball trick of Lucas, the vector
 \[v = (70,0,1,2,3,4,\ldots,24)\] is ``lightlike''. In other words,
 \[v\cdot v=0.\] What this implies is that if we let \(T\) be the set of
 all integer multiples of \(v\), and let \(S\) be the set of all vectors
 \(x\) in our lattice with \(x\cdot v = 0\), then \(T\) is contained in
-\(S\), and \(S/T\) is a 24-dimensional lattice --- the Leech lattice!
+\(S\), and \(S/T\) is a \(24\)-dimensional lattice --- the Leech
+lattice!
 
 Now \emph{that} has all sorts of ramifications that I'm just barely
 beginning to understand. For one, it means that if we do bosonic string
-theory in 26 dimensions on \(\mathbb{R}^{26}\) modulo the 26-dimensional
-even unimodular lattice, we get a theory having lots of symmetries
-related to those of the Leech lattice. In some sense this is a
-``maximally symmetric'' approach to 26-dimensional bosonic string
-theory:
+theory in 26 dimensions on \(\mathbb{R}^{26}\) modulo the
+\(26\)-dimensional even unimodular lattice, we get a theory having lots
+of symmetries related to those of the Leech lattice. In some sense this
+is a ``maximally symmetric'' approach to \(26\)-dimensional bosonic
+string theory:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -15841,12 +15994,12 @@ Yikes! Thanks for catching that massive hole in the exposition.
 
 You're right that there's no shortage of lightlike vectors in the even
 unimodular Lorentzian lattices of other dimensions \(8n+2\); there are
-also lots of other lightlike vectors in the 26-dimensional one. Any one
-of these gives us a lattice in \(8n\)-dimensional Euclidean space. In
-fact, we can get all 24 even unimodular lattices in 24-dimensional
-Euclidean space by suitable choices of lightlike vector. The lightlike
-vector you wrote down happens to give us the \(\mathrm{E}_8\) lattice in
-8 dimensions.
+also lots of other lightlike vectors in the \(26\)-dimensional one. Any
+one of these gives us a lattice in \(8n\)-dimensional Euclidean space.
+In fact, we can get all 24 even unimodular lattices in
+\(24\)-dimensional Euclidean space by suitable choices of lightlike
+vector. The lightlike vector you wrote down happens to give us the
+\(\mathrm{E}_8\) lattice in 8 dimensions.
 
 So what's so special about I wrote, which gives the Leech lattice? Of
 course the Leech lattice is itself special, but what does this have to
@@ -15901,7 +16054,7 @@ inconsistent.
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 \textbf{Yet another addendum (August 2001):} now, with the rise of
-interest in 11-dimensional physics, there is even a paper on
+interest in \(11\)-dimensional physics, there is even a paper on
 \(\mathrm{E}_{11}\):
 
 \begin{enumerate}
@@ -15912,6 +16065,9 @@ interest in 11-dimensional physics, there is even a paper on
   P. West, \(\mathrm{E}_{11}\) and M-theory, available as
   \href{https://arxiv.org/abs/hep-th/0104081}{\texttt{hep-th/0104081}}.
 \end{enumerate}
+
+
+
 \hypertarget{week96}{%
 \section{December 16, 1996}\label{week96}}
 
@@ -15954,23 +16110,23 @@ related ``quantum \(\mathrm{SL}(2)\)'', a quantization of the the group
 its applications to topology.
 
 All quantum groups give rise to invariants of knots, links, and tangles.
-They also give rise to 3-dimensional topological quantum field theories
-of ``Turaev-Viro type''. This is a kind of quantum field theory you can
-define on a 3-dimensional spacetime that you've triangulated, i.e.,
-chopped up into tetrahedra. One of the main things you want to compute
-in a quantum field theory is the ``partition function'', and we say the
-Turaev-Viro theories are ``topological'' because you get the same answer
-for the partition function no matter how you triangulate the
-3-dimensional manifold corresponding to your spacetime: the partition
-function only depends on the topology of the manifold. The
-\(\mathrm{SU}(2)\) Turaev-Viro theory, the first one to be discovered,
-is also one of the most interesting because, modulo a few subtle points,
-this theory is just quantum gravity in 3 dimensions (see
+They also give rise to \(3\)-dimensional topological quantum field
+theories of ``Turaev-Viro type''. This is a kind of quantum field theory
+you can define on a \(3\)-dimensional spacetime that you've
+triangulated, i.e., chopped up into tetrahedra. One of the main things
+you want to compute in a quantum field theory is the ``partition
+function'', and we say the Turaev-Viro theories are ``topological''
+because you get the same answer for the partition function no matter how
+you triangulate the 3-dimensional manifold corresponding to your
+spacetime: the partition function only depends on the topology of the
+manifold. The \(\mathrm{SU}(2)\) Turaev-Viro theory, the first one to be
+discovered, is also one of the most interesting because, modulo a few
+subtle points, this theory is just quantum gravity in 3 dimensions (see
 \protect\hyperlink{week16}{``Week 16''}). The basic idea, though, is
 that you compute the partition function by summing over all ways of
 labelling the edges of your tetrahedra by ``spins''
 \(j = 0, 1/2, 1, 3/2,\ldots\). Ponzano and Regge had tried to set up
-3-dimensional quantum gravity this way previously, but there were
+\(3\)-dimensional quantum gravity this way previously, but there were
 problems getting the sum to converge. The neat thing about the quantum
 group is that you only sum over spins less than some fixed spin
 depending on the value of \(\hbar\). Since the sums are finite, they
@@ -15980,27 +16136,27 @@ It turns out that in these Turaev-Viro theories you are not actually
 taking advantage of all the structure of the quantum group. Using the
 extra structure, you can also use quantum groups to define certain
 \emph{4-dimensional} topological quantum field theories, those of
-``Crane-Yetter-Broda'' type. Here you triangulate a 4-dimensional
+``Crane-Yetter-Broda'' type. Here you triangulate a \(4\)-dimensional
 manifold and, in the \(\mathrm{SU}(2)\) case, you label both the 2d
 faces the 3d tetrahedra with spins. Actually, lots of people think the
 Crane-Yetter-Broda theories are boring, because they look sort of boring
-if you only examine their implications for 4-dimensional topology.
+if you only examine their implications for \(4\)-dimensional topology.
 However, they become interesting when you realize that, like all
 topological quantum field theories defined using triangulations, they
 are ``extended topological quantum field theories''. Roughly speaking
 this means that they have implications for all dimensions below the
 dimension they live in.
 
-In particular, the Crane-Yetter-Broda theories spawn 3-dimensional
+In particular, the Crane-Yetter-Broda theories spawn \(3\)-dimensional
 topological quantum field theories of
 ``Chern-Simons-Reshetikhin-Turaev'' type, and most people agree that
 \emph{these} are interesting. I like to emphasize, however, that a deep
-understanding of these 3-dimensional progeny requires an understanding
-of their seemingly innocuous 4-dimensional ancestors. Also, there are a
-lot of interesting relationships between the \(\mathrm{SU}(2)\)
-Crane-Yetter-Broda model and quantum gravity in 4 dimensions, which we
-are just beginning to understand. See \protect\hyperlink{week56}{``Week
-56''} for a bit about this.
+understanding of these \(3\)-dimensional progeny requires an
+understanding of their seemingly innocuous \(4\)-dimensional ancestors.
+Also, there are a lot of interesting relationships between the
+\(\mathrm{SU}(2)\) Crane-Yetter-Broda model and quantum gravity in 4
+dimensions, which we are just beginning to understand. See
+\protect\hyperlink{week56}{``Week 56''} for a bit about this.
 
 If you haven't yet joined the fun, Carter, Saito, and Flath's book is a
 great place to start learning about the marvelous interplay between
@@ -16027,16 +16183,17 @@ are \emph{equal}. They are only \emph{isomorphic}. This
 entries in this matrix are a bunch of numbers, the \(6j\) symbols.
 
 Turaev and Viro used the quantum \(6j\) symbols to define the original
-Turaev-Viro model. It goes like this: first you chop your 3-dimensional
-manifold up into tetrahedra, and then you consider all possible ways of
-labelling the edges with spins. Each tetrahedron gets labelled with 6
-spins since it has 6 edges, and from these spins we can compute a
-number: the \(6j\) symbol. Then we multiply all these together, one for
-each tetrahedron, and finally we sum over labellings to get the
-partition function. Marvelously, the identities satisfied by the \(6j\)
-symbols are precisely what's needed to make the result independent of
-the triangulation! See \protect\hyperlink{week38}{``Week 38''} for an
-explanation of this seeming miracle: it's actually no miracle at all.
+Turaev-Viro model. It goes like this: first you chop your
+\(3\)-dimensional manifold up into tetrahedra, and then you consider all
+possible ways of labelling the edges with spins. Each tetrahedron gets
+labelled with 6 spins since it has 6 edges, and from these spins we can
+compute a number: the \(6j\) symbol. Then we multiply all these
+together, one for each tetrahedron, and finally we sum over labellings
+to get the partition function. Marvelously, the identities satisfied by
+the \(6j\) symbols are precisely what's needed to make the result
+independent of the triangulation! See \protect\hyperlink{week38}{``Week
+38''} for an explanation of this seeming miracle: it's actually no
+miracle at all.
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -16081,7 +16238,7 @@ represented by a bunch of knotted loops or ``spin networks'' in space.
 What's the spacetime picture? Well, if you have a surface in spacetime
 and look at it at one moment of time, it typically looks like a bunch of
 loops\ldots{} so maybe the spacetime picture of quantum gravity is that
-spacetime is packed with 2-dimensional surfaces, all tangled up.
+spacetime is packed with \(2\)-dimensional surfaces, all tangled up.
 Interestingly, this is also very reminiscent of the picture of quantum
 gravity in string theory!
 
@@ -16107,8 +16264,8 @@ propagator describing time evolution as a time-ordered exponential, and
 interpret the terms in the resulting sum as surfaces in spacetime. It's
 all very analogous to traditional Feynman diagrams, where you write the
 propagator as a sum over diagrams, but now the ``Feynman diagrams'' are
-2-dimensional surfaces. (Again, this is reminiscent of string theory ---
-but with many important differences.)
+\(2\)-dimensional surfaces. (Again, this is reminiscent of string theory
+--- but with many important differences.)
 
 There is much more to say, but I think I'll leave it at that\ldots. Over
 in the world of n-categories there is also some very interesting stuff
@@ -16122,6 +16279,9 @@ field theories and ``sums over surfaces'' in a really elegant way!
 Everything looks like its fitting together. At least, that's my
 momentary optimistic feeling. Perhaps it's just the fact that classes
 are over that is making me so happy. Yes, it's probably just that.
+
+
+
 \hypertarget{week97}{%
 \section{February 8, 1997}\label{week97}}
 
@@ -16532,6 +16692,9 @@ the Chern-Simons quantum field theory. Each of these approaches is
 unsatisfactory in one way or another, and hence we argue that we still
 don't really understand the fundamental theorem of Vassiliev invariants.
 \end{quote}
+
+
+
 \hypertarget{week98}{%
 \section{February 27, 1997}\label{week98}}
 
@@ -16719,20 +16882,20 @@ everyone seems to agree that spin networks with no vertices should
 satisfy the Wheeler-DeWitt equation. These are just knots or links with
 edges are labelled by spins. We know these states are supposed to
 represent ``quantum 4-geometries'' satisfying the quantized Einstein
-equations. But how should we visualize these states in 4-dimensional
+equations. But how should we visualize these states in \(4\)-dimensional
 terms?
 
-In search of some insight into the 4-dimensional interpretation of these
-states, I turn to classical general relativity. In my paper, I construct
-solutions of the equations of general relativity which at a typical
-fixed time look like ``flux tubes of area'' reminiscent of the loop
-states of quantum gravity. These are ``degenerate solutions'', meaning
-that the ``3-metric'', the tensor you use to measure distances in
-3-dimensional space, is zero in lots of regions of space. Here I should
-warn you that ordinary general relativity doesn't allow degenerate
-metrics like this. The loop representation works with an extension of
-general relativity that covers the case of degenerate metrics; for more
-on this, see \protect\hyperlink{week88}{``Week 88''}.
+In search of some insight into the \(4\)-dimensional interpretation of
+these states, I turn to classical general relativity. In my paper, I
+construct solutions of the equations of general relativity which at a
+typical fixed time look like ``flux tubes of area'' reminiscent of the
+loop states of quantum gravity. These are ``degenerate solutions'',
+meaning that the ``3-metric'', the tensor you use to measure distances
+in 3-dimensional space, is zero in lots of regions of space. Here I
+should warn you that ordinary general relativity doesn't allow
+degenerate metrics like this. The loop representation works with an
+extension of general relativity that covers the case of degenerate
+metrics; for more on this, see \protect\hyperlink{week88}{``Week 88''}.
 
 More precisely, if you look at these ``flux tube'' solutions at a
 typical time, the 3-metric vanishes outside a collection of solid tori
@@ -16743,14 +16906,14 @@ transverse directions.
 Now since these are classical solutions --- no quantum theory in sight!
 --- there is no problem with understanding what they do as time passes.
 We can solve Einstein's equation and get a 4-metric, a metric on
-spacetime. The 4-dimensional picture is as follows: given any surface
-\(\Sigma\) embedded in spacetime, I get solutions for which the 4-metric
-vanishes outside a neighborhood of \(\Sigma\). Inside this neighborhood,
-the 4-metric is zero in the two directions tangent to \(\Sigma\) but
-nondegenerate in the two transverse directions. In the 4-geometry
-defined by one of these solutions, the area of a typical surface
-\(\Sigma'\) intersecting \(\Sigma\) in some isolated points is a sum of
-contributions from the points where \(\Sigma\) and \(\Sigma'\)
+spacetime. The \(4\)-dimensional picture is as follows: given any
+surface \(\Sigma\) embedded in spacetime, I get solutions for which the
+4-metric vanishes outside a neighborhood of \(\Sigma\). Inside this
+neighborhood, the 4-metric is zero in the two directions tangent to
+\(\Sigma\) but nondegenerate in the two transverse directions. In the
+4-geometry defined by one of these solutions, the area of a typical
+surface \(\Sigma'\) intersecting \(\Sigma\) in some isolated points is a
+sum of contributions from the points where \(\Sigma\) and \(\Sigma'\)
 intersect.
 
 The solutions I study are inspired by the work of Mike Reisenberger, who
@@ -16767,8 +16930,8 @@ cosmological constant as a kind of limiting case.
 It turns out that the interesting degrees of freedom of the metric
 living on the surface \(\Sigma\) in spacetime are described by fields
 living on this surface. In fact, these fields are solutions of a
-2-dimensional topological field theory called BF theory. To prove this,
-I take advantage of the relation between general relativity and BF
+\(2\)-dimensional topological field theory called BF theory. To prove
+this, I take advantage of the relation between general relativity and BF
 theory in 4 dimensions, together with the fact that BF theory behaves in
 a simple manner under dimensional reduction.
 
@@ -16776,14 +16939,14 @@ Another neat thing is that to get a solution of general relativity this
 way, we need to pick a ``framing'' of \(\Sigma\). Roughly speaking, this
 means we need to pick a way of thickening up the surface \(\Sigma\) to a
 neighborhood that looks like \(\Sigma\times D^2\), where \(D^2\) is the
-2-dimensional disc. This is precisely the 4-dimensional analog of a
-framing of a knot or link in 3-dimensions. People who know about
+\(2\)-dimensional disc. This is precisely the \(4\)-dimensional analog
+of a framing of a knot or link in 3-dimensions. People who know about
 topological quantum field theory know that framings are very important.
 In fact, I can show that my solutions of general relativity are closely
-related to Chern-Simons theory, a 3-dimensional topological field theory
-famous for giving invariants of framed knots and links. What's beginning
-to emerge is a picture that makes the \emph{spacetime} aspects of
-framings easier to understand.
+related to Chern-Simons theory, a \(3\)-dimensional topological field
+theory famous for giving invariants of framed knots and links. What's
+beginning to emerge is a picture that makes the \emph{spacetime} aspects
+of framings easier to understand.
 
 Now before I plunge into some even more esoteric stuff, let me briefly
 return to reality and answer the question you've all been secretly dying
@@ -16791,9 +16954,9 @@ to ask: how does general relativity impact the world of big business?
 
 In plain terms: is all this fancy physics just an excuse to have fun
 visualizing evolving spin networks in terms of quantum field theories on
-surfaces embedded in 4-dimensional spacetime, etcetera etcetera\ldots{}
-or does it actually contribute to the well-being of the corporations
-upon which we depend?
+surfaces embedded in \(4\)-dimensional spacetime, etcetera
+etcetera\ldots{} or does it actually contribute to the well-being of the
+corporations upon which we depend?
 
 Well, you may be surprised to know that general relativity plays an
 significant role in a \$200-million business. Surprised? Read on! What
@@ -16947,9 +17110,9 @@ list a few chapters that I can understand and like.
   \item
     morphisms between objects like \(f\colon x\to y\)
   \item
-    2-morphisms between morphisms like \(F\colon f\to g\)
+    \(2\)-morphisms between morphisms like \(F\colon f\to g\)
   \item
-    3-morphisms between 2-morphisms like \(T\colon F\to G\)
+    \(3\)-morphisms between \(2\)-morphisms like \(T\colon F\to G\)
   \item
     \ldots{}
   \end{itemize}
@@ -16966,17 +17129,17 @@ list a few chapters that I can understand and like.
   \item
     morphisms are paths between points in \(X\)
   \item
-    2-morphisms are continuous 1-parameter families of paths in \(X\),
-    i.e.~``paths of paths'' in \(X\)
+    \(2\)-morphisms are continuous 1-parameter families of paths in
+    \(X\), i.e.~``paths of paths'' in \(X\)
   \item
-    3-morphisms are ``paths of paths of paths'' in \(X\)
+    \(3\)-morphisms are ``paths of paths of paths'' in \(X\)
   \item
     \ldots{}
   \end{itemize}
 
   and so on. This is better than your garden-variety \(\omega\)-category
-  because all the morphisms and 2-morphisms and 3-morphisms and so on
-  have inverses, at least ``up to homotopy''. We call it an
+  because all the morphisms and \(2\)-morphisms and \(3\)-morphisms and
+  so on have inverses, at least ``up to homotopy''. We call it an
   ``\(\omega\)-groupoid''. This \(\omega\)-groupoid keeps track of the
   homotopy type of \(X\) in a very nice way. (If this ``\(\omega\)''
   stuff is too mind-boggling, you may want to start by reading a bit
@@ -16988,11 +17151,11 @@ list a few chapters that I can understand and like.
   infinite-dimensional generalization of something I described in
   \protect\hyperlink{week75}{``Week 75''}. There, I showed how you could
   get a groupoid from a ``homotopy 1-type'' and vice versa. Here there
-  1-morphisms but no interesting 2-morphisms, 3-morphisms, and so on,
-  because the topology of a ``homotopy 1-type'' is boring in dimensions
-  greater than 1. (In case any experts are reading this, what I mean is
-  that its higher homotopy groups are trivial; its higher homology and
-  cohomology groups can be very interesting.)
+  \(1\)-morphisms but no interesting \(2\)-morphisms, \(3\)-morphisms,
+  and so on, because the topology of a ``homotopy 1-type'' is boring in
+  dimensions greater than 1. (In case any experts are reading this, what
+  I mean is that its higher homotopy groups are trivial; its higher
+  homology and cohomology groups can be very interesting.)
 
   So we can --- and should --- think of homotopy theory as, among other
   things, the study of \(\omega\)-groupoids, and thus a very useful
@@ -17038,6 +17201,9 @@ list a few chapters that I can understand and like.
 \end{itemize}
 
 There is a lot more, but I will stop here.
+
+
+
 \hypertarget{week99}{%
 \section{March 15, 1997}\label{week99}}
 
@@ -17047,7 +17213,7 @@ and my mundane life as a teacher of calculus, but right now I'm still
 living it up. I'm working with Ashtekar, Corichi, and Krasnov on
 computing the entropy of black holes using the loop representation of
 quantum gravity, and also I'm talking to lots of people about an
-interesting 4-dimensional formulation of the loop representation in
+interesting \(4\)-dimensional formulation of the loop representation in
 terms of ``spin foams'' --- roughly speaking, soap-bubble-like
 structures with faces labelled by spins.
 
@@ -17154,10 +17320,11 @@ Now I'd like to switch gears and return to\ldots{}
 THE TALE OF \(n\)-CATEGORIES!
 
 Recall that in our last episode, in \protect\hyperlink{week92}{``Week
-92''}, we had worked our way up to 2-categories, and we were beginning
-to see what they had to do with 2-dimensional physics and toplogy. I
-described how to get monads from adjunctions, and what this has to do
-with matrix multiplication, Yang-Mills theory, and the 4-color theorem.
+92''}, we had worked our way up to \(2\)-categories, and we were
+beginning to see what they had to do with \(2\)-dimensional physics and
+toplogy. I described how to get monads from adjunctions, and what this
+has to do with matrix multiplication, Yang-Mills theory, and the 4-color
+theorem.
 
 Next week I want to get serious and start talking about \(n\)-categories
 for arbitrary \(n\). One reason is that at the end of this month there's
@@ -17180,8 +17347,8 @@ has to do with quantum mechanics!
 First remember the big picture: \(n\)-category theory is a language to
 talk about processes that turn processes into other processes. Roughly
 speaking, an \(n\)-category is some sort of structure with objects,
-morphisms between objects, 2-morphisms between morphisms, and so on up
-to n-morphisms. A 0-category is just a set, with its objects usually
+morphisms between objects, \(2\)-morphisms between morphisms, and so on
+up to n-morphisms. A 0-category is just a set, with its objects usually
 being called ``elements''. Things get trickier as \(n\) increases. For a
 precise definition of \(n\)-categories for \(n = 1\) and \(2\), see
 \protect\hyperlink{week73}{``Week 73''} and
@@ -17477,6 +17644,9 @@ is their direct sum.
 
 To continue reading the ``Tale of \(n\)-Categories'', see
 \protect\hyperlink{week100}{``Week 100''}.
+
+
+
 \hypertarget{week100}{%
 \section{March 23, 1997}\label{week100}}
 
@@ -17511,10 +17681,10 @@ out a \emph{framework} that turns the above ``picture proof'' that
 \(a+b = b+a\) into an actual rigorous proof! This is one of the goals of
 higher-dimensional algebra.
 
-The above proof that \(a+b = b+a\) uses 2-dimensional space, but if you
-really think about it also uses a 3rd dimension, namely time: the time
-that passes as you move ``\(a\)'' around ``\(b\)''. If we draw this 3rd
-dimension as space rather than time we can visualize the process of
+The above proof that \(a+b = b+a\) uses \(2\)-dimensional space, but if
+you really think about it also uses a 3rd dimension, namely time: the
+time that passes as you move ``\(a\)'' around ``\(b\)''. If we draw this
+3rd dimension as space rather than time we can visualize the process of
 moving \(a\) around \(b\) as follows: \[
   \begin{tikzpicture}
     \begin{knot}[clip width=7]
@@ -17549,25 +17719,26 @@ ways to switch \(a\) and \(b\): the above way and \[
 ways, getting lots of different braids.
 
 In fact, the mathematics of braids, and related things like knots, is
-crucially important for understanding quantum gravity in 3-dimensional
-spacetime. Spacetime is really 4-dimensional, of course, but quantum
-gravity in 4-dimensional spacetime is awfully difficult, so in the late
-1980s people got serious about studying 3-dimensional quantum gravity as
-a kind of warmup exercise. It turned out that the math required was
-closely related to some mysterious new mathematics related to knots and
-``braidings''. At first this must sound bizarre: a deep relationship
-between knots and 3-dimensional quantum gravity! However, after you
-fight your way through the sophisticated mathematical physics that's
-involved, it becomes clear why they are related: both rely crucially on
-``3-dimensional algebra'', the algebra describing how you can move
-things around in 3-dimensional spacetime.
+crucially important for understanding quantum gravity in
+\(3\)-dimensional spacetime. Spacetime is really \(4\)-dimensional, of
+course, but quantum gravity in \(4\)-dimensional spacetime is awfully
+difficult, so in the late 1980s people got serious about studying
+\(3\)-dimensional quantum gravity as a kind of warmup exercise. It
+turned out that the math required was closely related to some mysterious
+new mathematics related to knots and ``braidings''. At first this must
+sound bizarre: a deep relationship between knots and \(3\)-dimensional
+quantum gravity! However, after you fight your way through the
+sophisticated mathematical physics that's involved, it becomes clear why
+they are related: both rely crucially on ``3-dimensional algebra'', the
+algebra describing how you can move things around in \(3\)-dimensional
+spacetime.
 
 However, there is more to the story, because knot theory also seems
 deeply related to \emph{4-dimensional} quantum gravity. Here the knots
-arise as ``flux tubes of area'' living in 3-dimensional space at a given
-time. Recent work on quantum gravity suggests that as time passes these
-knots (or more generally, ``spin networks'') move around and change
-topology as time passes.
+arise as ``flux tubes of area'' living in \(3\)-dimensional space at a
+given time. Recent work on quantum gravity suggests that as time passes
+these knots (or more generally, ``spin networks'') move around and
+change topology as time passes.
 
 To really understand this, we probably need to understand
 ``4-dimensional algebra''. Unfortunately, not enough is known about
@@ -17576,20 +17747,20 @@ To really understand this, we probably need to understand
 need to know about \(n\)-categories. Roughly speaking, an \(n\)-category
 is an algebraic structure that has a bunch of things called ``objects'',
 a bunch of things called ``morphisms'' that go between objects, and
-similarly 2-morphisms going between morphisms, 3-morphisms going between
-2-morphisms, and so on up to the number n.~You can think of the objects
-as ``things'' of whatever sort you like, the morphisms as processes
-going from one thing to another, the 2-morphisms as meta-processes going
-from one process to another, and so on. Depending on how you play the
-\(n\)-category game, there are either no morphisms after level n, or
-only simple and bland ones playing the role of ``equations''. The idea
-is that in the world of \(n\)-categories, one keeps track of things,
-processes, meta-processes, and so on to the nth level, but after that
-one calls it quits and uses equations.
+similarly \(2\)-morphisms going between morphisms, \(3\)-morphisms going
+between 2-morphisms, and so on up to the number n.~You can think of the
+objects as ``things'' of whatever sort you like, the morphisms as
+processes going from one thing to another, the \(2\)-morphisms as
+meta-processes going from one process to another, and so on. Depending
+on how you play the \(n\)-category game, there are either no morphisms
+after level n, or only simple and bland ones playing the role of
+``equations''. The idea is that in the world of \(n\)-categories, one
+keeps track of things, processes, meta-processes, and so on to the nth
+level, but after that one calls it quits and uses equations.
 
-So what is the definition of 4-categories? Well, Eilenberg and Mac Lane
-defined 1-categories, or simply ``categories'', in a paper that was
-published in 1945:
+So what is the definition of \(4\)-categories? Well, Eilenberg and Mac
+Lane defined \(1\)-categories, or simply ``categories'', in a paper that
+was published in 1945:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -17600,7 +17771,7 @@ published in 1945:
   231--294.
 \end{enumerate}
 
-Benabou defined 2-categories --- though actually he called them
+Benabou defined \(2\)-categories --- though actually he called them
 ``bicategories'' --- in a 1967 paper:
 
 \begin{enumerate}
@@ -17612,7 +17783,7 @@ Benabou defined 2-categories --- though actually he called them
   Notes in Mathematics \textbf{47}, New York, 1967, pp.~1--77.
 \end{enumerate}
 
-Gordon, Power, and Street defined 3-categories --- or actually
+Gordon, Power, and Street defined \(3\)-categories --- or actually
 ``tricategories'' --- in a paper that came out in 1995:
 
 \begin{enumerate}
@@ -17628,7 +17799,7 @@ Gordon, Power, and Street defined 3-categories --- or actually
 This step took a long time in part because it took a long time for
 people to understand deeply where \emph{braidings} fit into the picture.
 
-But what about 4-categories and higher \(n\)? Well, the history is
+But what about \(4\)-categories and higher \(n\)? Well, the history is
 complicated and I won't get it right, but let me say a bit anyway. First
 of all, there are some things called ``strict \(n\)-categories'' that
 people have known how to define for arbitrarily high \(n\) for quite a
@@ -17778,5 +17949,8 @@ try \href{http://math.ucr.edu/home/baez/ncat.ps}{`An Introduction to
 n-Categories'} (in Postscript form), or else read the above papers.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+
+
 
 \end{document}

@@ -200,9 +200,9 @@ $q$-factorials:
 $$
   \begin{aligned}
     [1]! &= 1
-  \\[2]! &= 1 + q
-  \\[3]! &= 1 + 2q + 2q^2 + q^3 
-  \\[4]! &= 1 + 3q + 5q^2 + 6q^3 + 5q^4 + 3q^5 + q^6
+  \\\,[2]! &= 1 + q
+  \\\,[3]! &= 1 + 2q + 2q^2 + q^3 
+  \\\,[4]! &= 1 + 3q + 5q^2 + 6q^3 + 5q^4 + 3q^5 + q^6
   \end{aligned}
 $$
 and read off all sorts of fun stuff. For example, the flag manifold of

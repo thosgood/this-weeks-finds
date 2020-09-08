@@ -595,7 +595,7 @@ $$
 so points of $M$ are just points of this quadric!
 
 If you unravel some of the definitions, this says that
-$$M = \{\mbox{$1$-dimensional isotropic subspaces of \mathbb{C}^6}\},$$
+$$M = \{\mbox{$1$-dimensional isotropic subspaces of $\mathbb{C}^6$}\},$$
 so in physics lingo, $M$ is the space of lightlike lines through the
 origin in $\mathbb{C}^6$... but remember, these are *complex* lines.
 
@@ -623,7 +623,7 @@ $$
 So, we get yet another description of our marvelous spacetime:
 $$M = \{\mbox{lines in $\mathbb{CP}^3$}\}$$
 or if you prefer:
-$$M = \{\mbox{$2$-dimensional subspaces of $\mathbb{C}^4}$\}$$
+$$M = \{\mbox{$2$-dimensional subspaces of $\mathbb{C}^4$}\}$$
 Whew! What's the point? Well, these descriptions of the
 complexification of conformally compactified Minkowski spacetime let
 Penrose use incidence geometry methods to solve conformally invariant

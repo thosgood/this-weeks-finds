@@ -245,7 +245,7 @@ of formulas that work for other values of $q$ for simple algebraic groups
 over $\mathbb{F}_q$ and their flag varieties, apply when $q = 1$ to Coxeter groups
 and their Coxeter complexes! I gave the primordial example in
 ["Week 184"](#week184), which comes from the Dynkin diagram $\mathrm{A}_n$.
-The number of points in the flag variety of the group $\mathrm{SL}(n+1,$\mathbb{F}_q$)$ is
+The number of points in the flag variety of the group $\mathrm{SL}(n+1,\mathbb{F}_q)$ is
 the $q$-factorial
 $$[n+1]! = [1] [2] \ldots [n+1]$$
 where

@@ -154,12 +154,12 @@ invariant under $K$!
 
 If this doesn't thrill you, consider the simplest example:
 $$
-  \begin{gathered}
+  \begin{aligned}
     G &= \mathrm{SL}(2,\mathbb{C})
   \\K &= \mathrm{SU}(2)
   \\P &= \{\mbox{upper triangular matrices in $\mathrm{SL}(2,\mathbb{C})$}\}
   \\L &= \{\mbox{diagonal matrices in $\mathrm{SL}(2,\mathbb{C})$}\}
-  \end{gathered}
+  \end{aligned}
 $$
 Here $G/P = K/L$ is a $2$-sphere, the complex structure is the usual way of
 thinking of this as the Riemann sphere, and the metric can be any

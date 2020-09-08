@@ -394,8 +394,7 @@ $$
     \draw[->] (s) to node[label=left:{$m$}]{} (t);
     \node at (1.75,-2.75) {``multiplication''};
   \end{tikzpicture}
-$$
-$$
+  \qquad\qquad
   \begin{tikzpicture}
     \begin{knot}
       \strand[thick] (0,0)
@@ -422,8 +421,7 @@ $$
     \draw[->] (s) to node[label=left:{$g$}]{} (t);
     \node at (1.75,-2.75) {``bilinear form''};
   \end{tikzpicture}
-$$
-$$
+  \qquad\qquad
   \begin{tikzpicture}
     \begin{knot}
       \strand[thick] (0,-2)

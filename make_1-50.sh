@@ -93,6 +93,7 @@ printf "\n" >> $TEX
 for f in $MDS
 do
   pandoc $f -t latex >> $TEX
+  printf "\n\n\n" >> $TEX
 done
 
 printf "\n" >> $TEX
