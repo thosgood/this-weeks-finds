@@ -357,82 +357,96 @@ $$
   \end{tikzpicture}
 $$
 Let's call the entry in the $k$th place of the $n$th row
-
-    [n choose k]
-
+$${n\brack k}$$
 The square brackets tell us that these are "$q$-binomial coefficients"
 instead of the ordinary ones.
 
 Using the fact that every path to reach a spot must have come from the
 left or the right, you can show that
-
-    [n choose k]  =  [n-1 choose k]  +  qn-k [n-1 choose k-1]
-
-It helps to draw some pictures to see where that factor of q^n-k^ is
+$${n\brack k} = {{n-1}\brack k} + q^{n-k}{{n-1}\brack{k-1}}$$
+It helps to draw some pictures to see where that factor of $q^{n-k}$ is
 coming from... but I'll leave that as a fun little exercise for you!
 And starting with this recursion relation, it's easy to check
 inductively that:
-
-                       [n]!
-    [n choose k] = -----------
-                   [k]! [n-k]!
-
-where \[n\]! is the $q$-factorial
-
-    [n]! = [1] [2] ... [n]
-
-and \[n\] is the $q$-integer
-
-    [n] = 1 + q + ... + q^{n-1}
-
+$${n\brack k} = \frac{[n]!}{[k]![n-k]!}$$
+where $[n]!$ is the $q$-factorial
+$$[n]! = [1][2]\ldots[n]$$
+and $[n]$ is the $q$-integer
+$$[n] = 1 + q + \ldots + q^{n-1}$$
 So the quantum Pascal's triangle is a lot like the ordinary one. In
 particular, the formula
-
-                       [n]!
-    [n choose k] = -----------
-                   [k]! [n-k]!
-
+$${n\brack k} = \frac{[n]!}{[k]![n-k]!}$$
 makes it obvious that this triangle is symmetric around its axis, just
 like the ordinary one, even though I defined it in way that obscured
 this fact a bit. This symmetry gives us the mirror-image recursion
 relation:
-
-    [n choose k]  =  qk [n-1 choose k]  +  [n-1 choose k-1]
-
+$${n\brack k} = q^k{{n-1}\brack k} + {{n-1}\brack{k-1}}$$
 But now let's see if you've really been paying attention. Do you
 really understand these $q$-binomial coefficients? If so, you should
-instantly know what the coefficient of any power of q in \[n choose k\]
-signifies. Say, the coefficient of q^i^. Think about it.
+instantly know what the coefficient of any power of $q$ in ${n\brack k}$
+signifies. Say, the coefficient of $q^i$. Think about it.
 
-Right! It's the number of paths to the kth place of the nth row of
-Pascal's triangle that create a shape like this with i diamonds:
-
-                                   o
-                                  / \
-                                 o   x
-                                  \ / \                 n = 4
-                               x   o   x                k = 2
-                                  / \ /                 i = 3
-                             x   o   x   x
-                                  \ /
-                           x   x   o   x   x
-
+Right! It's the number of paths to the $k$th place of the $n$th row of
+Pascal's triangle that create a shape like this with $i$ diamonds:
+$$
+  \begin{tikzpicture}
+    \draw[ultra thick] (0,0)
+      to (-0.5,-1)
+      to (0,-2)
+      to (-0.5,-3)
+      to (0,-4);
+    \draw[thick] (0,0)
+      to (0.5,-1)
+      to (0,-2)
+      to (0.5,-3)
+      to (0,-4);
+    \draw[thick] (0.5,-1)
+      to (1,-2)
+      to (0.5,-3);
+    %
+    \node at (0,0) {$\bullet$};
+    %
+    \node at (-0.5,-1) {$\bullet$};
+    \node at (0.5,-1) {$\times$};
+    %
+    \node at (-1,-2) {$\times$};
+    \node at (0,-2) {$\bullet$};
+    \node at (1,-2) {$\times$};
+    %
+    \node at (-1.5,-3) {$\times$};
+    \node at (-0.5,-3) {$\bullet$};
+    \node at (0.5,-3) {$\times$};
+    \node at (1.5,-3) {$\times$};
+    %
+    \node at (-2,-4) {$\times$};
+    \node at (-1,-4) {$\times$};
+    \node at (0,-4) {$\bullet$};
+    \node at (1,-4) {$\times$};
+    \node at (2,-4) {$\times$};
+    %
+    \node at (3,-1.5) {$n=4$};
+    \node at (3,-2) {$k=2$};
+    \node at (3.03,-2.5) {$i=3$};
+  \end{tikzpicture}
+$$
 But these shapes are famous! They're usually drawn like this:
-
-              ---------------
-             |       |       |
-             |       |       |
-             |       |       |
-             |---------------
-             |       |       
-             |       |       
-             |       |       
-              -------
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0)
+      to (0,2)
+      to (2,2)
+      to (2,1)
+      to (1,1)
+      to (1,0)
+      to (0,0);
+    \draw[thick] (1,0) to (1,2);
+    \draw[thick] (0,1) to (1,1);
+  \end{tikzpicture}
+$$
 and they're called "Young diagrams" --- or, with more historical
-accuracy, "Ferrers diagrams". So, the coefficient of q^i in \[n
-choose k\] is also the number of Young diagrams with i boxes, k columns
-and $n$-k rows.
+accuracy, "Ferrers diagrams". So, the coefficient of $q^i$ in
+${n\brack k}$ is also the number of Young diagrams with $i$ boxes, $k$ columns
+and $n-k$ rows.
 
 Now, Young diagrams show up all over the place in mathematics. I
 described a few of their most fundamental applications in
@@ -440,65 +454,61 @@ described a few of their most fundamental applications in
 relation to Grassmannians. But we're pretty well-positioned to do that
 now, so let's give it a shot.
 
-The Grassmannian \mathrm{Gr}(n,k) is the set of all k-dimensional subspaces of an
-n-dimensional vector space. This makes sense over any field. However,
-it's particularly fun to work over the field with q elements, where q
-is any prime power --- because then our Grassmannian has \[n choose k\]
+The Grassmannian $\mathrm{Gr}(n,k)$ is the set of all $k$-dimensional subspaces of an
+$n$-dimensional vector space. This makes sense over any field. However,
+it's particularly fun to work over the field with $q$ elements, where $q$
+is any prime power --- because then our Grassmannian has ${n\brack k}$
 elements!
 
 In fact, we already saw this in ["Week 184"](#week184). But now I
 want to give a proof that uses Young diagrams. This will forge yet
-another link between the two flavors of $q$-mathematics: the sort where q
-is a unit complex number, and the sort where q is a prime power. So far
-this week we've been doing quantum mechanics and thinking of q as a
+another link between the two flavors of $q$-mathematics: the sort where $q$
+is a unit complex number, and the sort where $q$ is a prime power. So far
+this week we've been doing quantum mechanics and thinking of $q$ as a
 unit complex number. Now we'll turn into algebraists, take what've
-done, and apply it when q is a power of a prime number!
+done, and apply it when $q$ is a power of a prime number!
 
 In ["Week 184"](#week184) I showed that we can read off a lot of
-information about the Grassmannian \mathrm{Gr}(n,k) from the $q$-binomial
-coefficient \[n choose k\]. For example,
-
-    [4 choose 2] = 1 + q + 2q2 + q3 + q4
-
-and if we define our Grassmannian over the field F, we have
-
-         \mathrm{Gr}(4,2) = 1 + F + 2F2 + F3 + \mathrm{F}_4
-
-meaning that \mathrm{Gr}(4,2) is a disjoint union of a point, a copy of the field
-F, 2 copies of F^2, a copy of F^3, and a copy of F^4. Each copy of
-F^i^ is called an "i-cell" --- or in this context a "Schubert cell of
-dimension i", because there may be many ways to decompose a space into
+information about the Grassmannian $\mathrm{Gr}(n,k)$ from the $q$-binomial
+coefficient ${n\brack k}$. For example,
+$${4\brack2} = 1 + q + 2q^2 + q^3 + q^4$$
+and if we define our Grassmannian over the field $\mathbb{F}$, we have
+$$\mathrm{Gr}(4,2) = 1 + \mathbb{F} + 2\mathbb{F}^2 + \mathbb{F}^3 + \mathbb{F}^4$$
+meaning that $\mathrm{Gr}(4,2)$ is a disjoint union of a point, a copy of the field
+$\mathbb{F}$, 2 copies of $\mathbb{F}^2$, a copy of $\mathbb{F}^3$, and a copy of $\mathbb{F}^4$. Each copy of
+$\mathbb{F}^i$ is called an "$i$-cell" --- or in this context a "Schubert cell of
+dimension $i$", because there may be many ways to decompose a space into
 cells, but there's a particularly nice one for Grassmannians.
 
-If F is the real or complex numbers, the cells F^i^ are actually open
+If $\mathbb{F}$ is the real or complex numbers, the cells $\mathbb{F}^i$ are actually open
 balls, and we can use this to study the topology of the Grassmannian.
-But if F is the field with q elements, we can use the cell decomposition
+But if $\mathbb{F}$ is the field with $q$ elements, we can use the cell decomposition
 to work out the *cardinality* of the Grassmannian. For example, the
-number of points in \mathrm{Gr}(4,2) is
-
-    |\mathrm{Gr}(4,2)| = |1  +  F  + 2F2   +  F3 +   \mathrm{F}_4|
-
-              = |1| + |F| + 2|F|2 + |F|3 + |F|4
-
-              =  1  +  q  +  2q2  +  q3  +  q4
-     
-              = [4 choose 2]
-
+number of points in $\mathrm{Gr}(4,2)$ is
+$$
+  \begin{aligned}
+    |\mathrm{Gr}(4,2)|
+    &= |1 + \mathbb{F} + 2\mathbb{F}^2 + \mathbb{F}^3 + \mathbb{F}^4|
+  \\&= |1| + |\mathbb{F}| + 2|\mathbb{F}|^2 + |\mathbb{F}|^3 + |\mathbb{F}|^4
+  \\&= 1 + q + 2q^2 + q^3 +q^4
+  \\&= {4\brack2}
+  \end{aligned}
+$$
 I already said all this in ["Week 184"](#week184). But now, I want
 to use Young diagrams to get ahold of these cell decompositions.
 
 The answer should be staring us in the face. We know that the
-coefficient of any power of q in a $q$-binomial coefficient is the number
+coefficient of any power of $q$ in a $q$-binomial coefficient is the number
 of Young diagrams of a certain sort. And we also know it's the number
 of Schubert cells of a certain sort. There should be some way to see
 this directly.
 
 To do this, we just have to find a way to decompose the Grassmannian
-\mathrm{Gr}(n,k) into cells, where each i-cell corresponds to a Young diagram
-with i boxes, k rows and $n$-k columns.
+$\mathrm{Gr}(n,k)$ into cells, where each $i$-cell corresponds to a Young diagram
+with $i$ boxes, $k$ rows and $n-k$ columns.
 
-The idea is simple. A point in \mathrm{Gr}(n,k) is a k-dimensional subspace of
-the vector space F^n. We can describe such a thing by writing a list of
+The idea is simple. A point in $\mathrm{Gr}(n,k)$ is a $k$-dimensional subspace of
+the vector space $\mathbb{F}^n$. We can describe such a thing by writing a list of
 row vectors that form a basis for this subspace. This gives a matrix. Of
 course, the same subspace can have lots of different bases. But we can
 always find a nice "standard" basis where our matrix is in "row
@@ -509,73 +519,88 @@ algebra... but if you forget how it goes, don't worry. The idea is
 just to take a matrix and keep subtracting multiples of any row from the
 rows below it, and stuff like that, until your matrix looks something
 like this:
+$$
+  \begin{gathered}
+    \left(
+      \begin{array}{cccccccccc}
+        1&0&X&0&X&X&X&0&X&X
+      \\0&1&X&0&X&X&X&0&X&X
+      \\0&0&0&1&X&X&X&0&X&X
+      \\0&0&0&0&0&0&0&1&X&X
+      \end{array}
+    \right)
+    \\
+    \begin{aligned}
+      n &= 10
+    \\k &= 4
+    \\i &= 19
+    \end{aligned}
+    \qquad
+    \begin{aligned}
+      &\mbox{(10 columns)}
+    \\&\mbox{(4 rows)}
+    \\&\mbox{(19 $X$'s)}
+    \end{aligned}
+  \end{gathered}
+$$
+Here the $X$'s are arbitrary numbers.
 
-                   1 0 X 0 X X X 0 X X            n = 10     (10 columns)
-                   0 1 X 0 X X X 0 X X            k = 4      (4 rows)
-                   0 0 0 1 X X X 0 X X            i = 19     (19 X's)
-                   0 0 0 0 0 0 0 1 X X
-
-Here the X's are arbitrary numbers.
-
-The set of matrices of a given shape like this is isomorphic to F^i^,
-where i is the number of X's. So, each shape gives us an i-cell in our
+The set of matrices of a given shape like this is isomorphic to $\mathbb{F}^i$,
+where $i$ is the number of $X$'s. So, each shape gives us an $i$-cell in our
 Grassmannian! To finish the job, we just need to think of each "shape"
-as being a Young diagram with i boxes, k rows and $n$-k columns.
+as being a Young diagram with $i$ boxes, $k$ rows and $n-k$ columns.
 
-And that's easy: we just remove the 0's and 1's from the above
+And that's easy: we just remove the $0$'s and $1$'s from the above
 picture and make a Young diagram out of the X's:
-
-                         X X X X X X              k = 4      (4 rows)
-                         X X X X X X            $n$-k = 6      (6 columns)
-                           X X X X X              i = 19     (19 boxes)
-                                 X X
-
+$$
+  \begin{aligned}
+    \square\;\;\square\;\;\square\;\;\square\;\;\square\;\;\square\;\;&
+  \\\square\;\;\square\;\;\square\;\;\square\;\;\square\;\;\square\;\;&
+  \\\square\;\;\square\;\;\square\;\;\square\;\;\square\;\;&
+  \\\square\;\;\square\;\;&
+  \end{aligned}
+  \qquad\quad
+  \begin{aligned}
+    k &= 4
+  \\n-k &= 6
+  \\i &= 19
+  \end{aligned}
+  \qquad
+  \begin{aligned}
+    &\mbox{(4 rows)}
+  \\&\mbox{(6 columns)}
+  \\&\mbox{(19 boxes)}
+  \end{aligned}
+$$
 Voila!
 
 Just for the heck of it, I'll work out the Schubert cell decomposition
-of \mathrm{Gr}(4,2) by this technique. I'll write out the various shapes of row
+of $\mathrm{Gr}(4,2)$ by this technique. I'll write out the various shapes of row
 echelon form for matrices with 4 columns and 2 rows, and next to them
-the corresponding Young diagrams and the kind of i-cells we get:
+the corresponding Young diagrams and the kind of $i$-cells we get:
 
-    0 0 1 0                           0-cell
-    0 0 0 1         
-      
-
-    0 1 X 0             X             1-cell
-    0 0 0 1                 
-
-
-    1 X X 0           X X             2-cell
-    0 0 0 1     
-
-
-    0 1 0 X             X             2-cell
-    0 0 1 X             X
-
-
-    1 X 0 X           X X             3-cell
-    0 0 1 X             X
-
-
-    1 0 X X           X X             4-cell
-    0 1 X X           X X
+| | | |
+| :-: | :-: | :-: |
+| $$\left(\begin{array}{cccc}0&0&1&0\\0&0&0&1\end{array}\right)$$ | | $0$-cell |
+| $$\left(\begin{array}{cccc}0&1&X&0\\0&0&0&1\end{array}\right)$$ | $\square$ | $1$-cell |
+| $$\left(\begin{array}{cccc}1&X&X&0\\0&0&0&1\end{array}\right)$$ | $\square\;\;\square$ | $2$-cell |
+| $$\left(\begin{array}{cccc}0&1&0&X\\0&0&1&X\end{array}\right)$$ | $\begin{gathered}\square\\\square\end{gathered}$ | $2$-cell |
+| $$\left(\begin{array}{cccc}1&X&0&X\\0&0&1&X\end{array}\right)$$ | $\begin{aligned}\square\;\;\square&\\\square&\end{aligned}$ | $3$-cell |
+| $$\left(\begin{array}{cccc}1&0&X&X\\0&1&X&X\end{array}\right)$$ | $\begin{gathered}\square\;\;\square\\\square\;\;\square\end{gathered}$ | $4$-cell |
 
 This is nicely consistent with what we already know:
-
-    [4 choose 2] = 1 + q + 2q2 + q3 + q4
-
+$${4\brack2} = 1 + q + 2q^2 + q^3 + q^4$$
 Okay, enough of this... now for some references.
 
 I've already given lots of Young diagram references in
 ["Week 157"](#week157), and lots of references on $q$-binomial
-coeffients and the like in ["Week 183"](#week183) -
+coeffients and the like in ["Week 183"](#week183) ---
 ["Week 185"](#week185). So, I'll just give some references to
-Pascal's triangle and this "UV = qVU" business.
+Pascal's triangle and this "$UV = qVU$" business.
 
 Here's the best place to learn the history of Pascal's triangle:
 
-1) A. W. F. Edwards, Pascal's Arithmetical Triangle, Charles Griffin
-and Co., London, 1987.
+1) A. W. F. Edwards, _Pascal's Arithmetical Triangle_, Charles Griffin and Co., London, 1987.
 
 You'll see that the basic idea of Pascal's triangle goes back to
 Mersenne in 1636, and Tartaglia in 1556, and the Hindu mathematician
@@ -584,88 +609,70 @@ on into the mists of time.
 
 You'll also see that around 1655, Wallis came up with his wonderful
 formula:
-
-           2 4 4 6 6 8 8 
-    \pi /4 = - - - - - - --- ...
-           3 3 5 5 7 7 9 
-
+$$\frac\pi4 = \frac23\cdot\frac43\cdot\frac45\cdot\frac65\cdot\frac67\cdot\frac87\cdot\frac89\cdot\ldots$$
 by relating Pascal's triangle to the integral for the area of a
 quarter-circle! His method was ingenious and daring: it consisted of
 taking an integral formula for binomial coefficients, extrapolating it
 to guess that
-
-    4/\pi  = (1 choose 1/2)
-
+$$\frac4\pi  = \binom{1}{\frac12}$$
 and then using properties of Pascal's triangle to express the
 right-hand side as an infinite product! One reason I like this is that I
-want to categorify the number \pi . Let me explain....
+want to categorify the number $\pi$. Let me explain....
 
 Jim Dolan and I have a way to assign non-integral cardinalities to
 groupoids (see ["Week 147"](#week147)). The cardinality of the
-groupoid of finite sets is e, and this actually explains lots of things
-about e once you understand it. So, I'm always on the lookout for a
-really nice groupoid whose cardinality is related to \pi . It's easy to
+groupoid of finite sets is $e$, and this actually explains lots of things
+about $e$ once you understand it. So, I'm always on the lookout for a
+really nice groupoid whose cardinality is related to $\pi$. It's easy to
 find groupoids that do the job; the hard part is finding one that does
-so in an enlightening way. Of course \pi  is a subtler number than e, so
+so in an enlightening way. Of course $\pi$ is a subtler number than $e$, so
 this may be hard.
 
 The philosopher David Corfield has gotten interested in this challenge.
 Recently he took a crack at it by looking for a structure type whose
 generating function was
-
-                      1          1.3          1.3.5
-    arcsin x =  x +  --- x3  +  -----  x5 +  -------  x7 + ...
-                     2.3        2.4.5        2.4.6.7
-
-and evaluating this at the 1-element set to get a groupoid whose
-cardinality is \pi /4. (If this is utterly mystifying, see
+$$\arcsin x = x + \frac{1}{2\cdot3}x^3 + \frac{1\cdot3}{2\cdot4\cdot5}x^5 + \frac{1\cdot3\cdot5}{2\cdot4\cdot6\cdot7}x^7 + \ldots$$
+and evaluating this at the $1$-element set to get a groupoid whose
+cardinality is $\pi/4$. (If this is utterly mystifying, see
 ["Week 185"](#week185) and the references there.) I've discussed
 this with him, and I also talked about it with my friend the
 combinatorist Bill Schmitt, and we made a little progress, but not
 enough. So, right now I like the idea of going back to Wallis' original
-formula for \pi , and seeing how it relates to Pascal's triangle, and
+formula for $\pi$, and seeing how it relates to Pascal's triangle, and
 seeing if I can get anywhere with that!
 
-Embarrassingly, I don't know how the formula for arcsin(1) is related
+Embarrassingly, I don't know how the formula for $\arcsin(1)$ is related
 to Wallis' formula, even though they look sort of similar.
 
 Next:
 
-If you like the "UV = qVU" idea, you need to study the
-"noncommutative torus". This is a name for the C*-algebra generated
-by two unitaries U and V satisfying UV = qVU. The quantum Pascal
+If you like the "$UV = qVU$" idea, you need to study the
+"noncommutative torus". This is a name for the $C^*$-algebra generated
+by two unitaries $U$ and $V$ satisfying $UV = qVU$. The quantum Pascal
 triangle is built right in, because
-
-    (U + V)n = sumk [n choose k] Uk Vn-k
-
+$$(U + V)^n = \sum_k {n\brack k} U^k V^{n-k}$$
 As we've seen, the noncommutative torus shows up naturally when we have
 a charged particle on the plane in a magnetic field. Jean Belissard has
 used this to relate the fractional quantum Hall effect to the K-theory
 of the noncommutative torus:
 
-2) Jean Bellisard, K-theory of C*-algebras in solid state physics, in
-Lecture Notes in Physics vol. 237, Springer, Berlin, 1986, pp. 99-156.
+2) Jean Bellisard, _K-theory of $C^*$-algebras in solid state physics_, in Lecture Notes in Physics vol. **237**, Springer, Berlin, 1986, pp. 99--156.
 
 Connes has also studied these matters:
 
-3) Alain Connes, Noncommutative Geometry, Academic Press, New York,
-1994.
+3) Alain Connes, _Noncommutative Geometry_, Academic Press, New York, 1994.
 
 More recently, string theorists have done a bunch of physics on the
 noncommutative torus! The reason is that string theory includes a $2$-form
-field "B" which is similar in some ways to the magnetic field. For an
+field "$B$" which is similar in some ways to the magnetic field. For an
 overview of this with lots of references try:
 
-4) Richard Szabo, Quantum field theory on noncommutative spaces,
-available as [`hep-th/0109162`](https://arxiv.org/abs/hep-th/0109162).
+4) Richard Szabo, "Quantum field theory on noncommutative spaces", available as [`hep-th/0109162`](https://arxiv.org/abs/hep-th/0109162).
 
 On the other hand, if you're more of a pure mathematician you might
 like this:
 
-5) Marc Rieffel, Noncommutative tori: a case study of noncommutative
-differential manifolds, in Geometric and topological invariants of
-elliptic operators Contemp. Math. 105, American Mathematical Society,
-1990, pp. 191-211.
+5) Marc Rieffel, "Noncommutative tori: a case study of noncommutative differential manifolds", in _Geometric and topological invariants of elliptic operators_, Contemp. Math. **105**, American Mathematical Society, 1990, pp. 191--211.
 
 By the way, the concept of "noncommutative manifold" has not so far
 received a precise definition, but someone told me Connes is working on
@@ -677,5 +684,5 @@ Whatever the definition, the noncommutative torus must be an example.
 *This Table has truly exceptional and admirable properties; for besides
 concealing within itself the mysteries of Combinations, as we have seen,
 it is known by those expert in the higher parts of Mathematics also to
-hold the foremost secrets of the whole of the rest of the subject.* -
-James Bernoulli, 1713.
+hold the foremost secrets of the whole of the rest of the subject.*
+--- James Bernoulli, 1713.

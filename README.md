@@ -1,5 +1,6 @@
 # TODO
 
+- fix table in week188
 - footnotes?
     + 151
 - **diagrams**
