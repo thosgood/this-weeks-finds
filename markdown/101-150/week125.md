@@ -6,8 +6,8 @@ boils down to the fact that there are two especially symmetric lattices
 in the plane, namely the square lattice:
 $$
   \begin{tikzpicture}[scale=0.7]
-    \draw[->] (-3,0) to (4,0) node[label=below:{$\Re(z)$}]{};
-    \draw[->] (0,-3) to (0,4) node[label=left:{$\Im(z)$}]{};
+    \draw[->] (-2.5,0) to (4,0) node[label=below:{$\Re(z)$}]{};
+    \draw[->] (0,-2) to (0,4) node[label=left:{$\Im(z)$}]{};
     \foreach \m in {-1,0,1,2}
     {
       \foreach \n in {-1,0,1,2}
@@ -20,13 +20,13 @@ $$
 with 4-fold symmetry, and the hexagonal lattice:
 $$
   \begin{tikzpicture}[scale=0.7]
-    \draw[->] (-3,0) to (4,0) node[label=below:{$\Re(z)$}]{};
-    \draw[->] (0,-3) to (0,4) node[label=left:{$\Im(z)$}]{};
+    \draw[->] (-3,0) to (4.5,0) node[label=below:{$\Re(z)$}]{};
+    \draw[->] (0,-2) to (0,3.5) node[label=left:{$\Im(z)$}]{};
     \foreach \m in {-1,0,1,2}
     {
       \foreach \n in {-1,0,1,2}
       {
-        \node at ({1.5*\m+0.75*\n-0.5},{1.33*\n-0.5}) {$\bullet$};
+        \node at ({1.5*\m+0.75*\n},{1.33*\n}) {$\bullet$};
       }
     }
   \end{tikzpicture}

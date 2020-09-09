@@ -1,8 +1,8 @@
 # March 17, 2003 {#week194}
 
 I recently flew from Sydney, Australia to Waterloo, Canada. All of a
-sudden day became night and steamy 30 Celsius summertime suddenly
-switched to a -15 Celsius blizzard. Unsurprisingly, I came down with a
+sudden day became night and steamy $30$ Celsius summertime suddenly
+switched to a $-15$ Celsius blizzard. Unsurprisingly, I came down with a
 cold. Nonetheless, I'm very happy to be here. I'm visiting the
 Perimeter Institute of Theoretical Physics, seeing old friends like
 Louis Crane, Fotini Markopoulou and Lee Smolin, and newer ones like
@@ -18,9 +18,7 @@ here.
 
 On the day I showed up, I got a packet of mail containing this book:
 
-1) John H. Conway and Derek A. Smith, On Quaternions and Octonions:
-Their Geometry, Arithmetic, and Symmetry, A. K. Peters, Ltd., Natick,
-Massachusetts, 2003.
+1) John H. Conway and Derek A. Smith, _On Quaternions and Octonions: Their Geometry, Arithmetic, and Symmetry_, A. K. Peters, Ltd., Natick, Massachusetts, 2003.
 
 Conway and Smith sent it to me because they quoted my history of the
 octonions. And in this book, there is a description of my mistake and
@@ -39,9 +37,7 @@ also famous for acting like he just quantum-tunnelled out of a Lewis
 Carroll novel. If you don't know what I mean, you're missing out on a
 *lot* of fun... so you should immediately read this:
 
-2) Charles Seife, Mathemagician (impressions of Conway), The Sciences
-(May/June 1994), 12-15. Available at
-`http://www.users.cloud9.net/~cgseife/conway.html`
+2) Charles Seife, "Mathemagician (impressions of Conway)", _The Sciences_ (May/June 1994), 12--15. Available at `http://www.users.cloud9.net/~cgseife/conway.html`
 
 Just to entice you, I'll quote the beginning:
 
@@ -60,13 +56,11 @@ Just to entice you, I'll quote the beginning:
 Anyway, he's been busy writing books lately. Not too long ago, he
 finished one about the classification of quadratic forms:
 
-3) John H. Conway and Francis Fung, The Sensual (Quadratic) Form,
-Mathematical Association of America, Washington DC, 1997.
+3) John H. Conway and Francis Fung, _The Sensual (Quadratic) Form_, Mathematical Association of America, Washington DC, 1997.
 
 and before that, a very fun elementary one about numbers:
 
-4) John H. Conway and Richard K. Guy, The Book of Numbers, Copernicus,
-New York, 1996.
+4) John H. Conway and Richard K. Guy, _The Book of Numbers_, Copernicus, New York, 1996.
 
 Now he's into quaternions and octonions. But his new book with Derek
 Smith starts by talking about the real numbers and $1$-dimensional
@@ -76,61 +70,76 @@ groups" in 2 dimensions.
 
 Perhaps I should say what these things are. The Gaussian integers are
 complex numbers of the form
-
-    a + bi
-
-where a and b are integers. They form a square lattice:
-
-
-                 *     *     *     *
-
-
-                 *     *     *     *
-
-
-                 *     *     *     *
-
-You can uniquely factor any Gaussian integer into primes - at least if
+$$a + bi$$
+where $a$ and $b$ are integers. They form a square lattice:
+$$
+  \begin{tikzpicture}[scale=0.7]
+    \draw[->] (-2.5,0) to (4,0) node[label=below:{$\Re(z)$}]{};
+    \draw[->] (0,-2) to (0,4) node[label=left:{$\Im(z)$}]{};
+    \foreach \m in {-1,0,1,2}
+    {
+      \foreach \n in {-1,0,1,2}
+      {
+        \node at ({1.5*\m},{1.6*\n}) {$\bullet$};
+      }
+    }
+  \end{tikzpicture}
+$$
+You can uniquely factor any Gaussian integer into primes --- at least if
 you count differently ordered factorizations as the same, and ignore the
-ambiguity due to "units" - the invertible Gaussian integers 1, i, -1,
-and -i. You can prove this using the geometry of the square lattice...
+ambiguity due to "units" --- the invertible Gaussian integers $1$, $i$, $-1$,
+and $-i$. You can prove this using the geometry of the square lattice...
 for details, read the book!
 
 The Eisenstein integers are complex numbers of the form
-
-    a + bw
-
-where a and b are integers and w is a nontrivial cube root of -1. These
+$$a + bw$$
+where $a$ and $b$ are integers and $w$ is a nontrivial cube root of $-1$. These
 are closed under addition and multiplication, and they form a lattice
 with hexagonal symmetry:
-
-
-               *       *      *      *
-
-
-                   *       *      *                
-
-
-               *       *      *      *
-
+$$
+  \begin{tikzpicture}[scale=0.7]
+    \draw[->] (-3,0) to (4.5,0) node[label=below:{$\Re(z)$}]{};
+    \draw[->] (0,-2) to (0,3.5) node[label=left:{$\Im(z)$}]{};
+    \foreach \m in {-1,0,1,2}
+    {
+      \foreach \n in {-1,0,1,2}
+      {
+        \node at ({1.5*\m+0.75*\n},{1.33*\n}) {$\bullet$};
+      }
+    }
+  \end{tikzpicture}
+$$
 Again you can use geometry to prove unique factorization up to
 reordering and units.
 
 The Gaussian and Eisenstein integers are the most symmetrical lattices
-in 2 dimensions: they have 4-fold and 6-fold rotational symmetry,
-respectively. As I explained in "week124" and subsequent Weeks, this
+in 2 dimensions: they have $4$-fold and $6$-fold rotational symmetry,
+respectively. As I explained in ["Week 124"](#week124) and subsequent Weeks, this
 is related to the appearance of the number 24 in bosonic string theory.
 But these lattices also play a role in crystallography, in the
 classification of $2$-dimensional "space groups".
 
-I'm not sure what the definition of a "space group" is - the
-references I've seen are annoyingly reticent on this point - but it's
+I'm not sure what the definition of a "space group" is --- the
+references I've seen are annoyingly reticent on this point --- but it's
 something like a subgroup of the Euclidean group (the group generated by
 rotations, reflections and translations) that acts transitively on a
 lattice. There are 17 space groups in 2 dimensions, also called
 "wallpaper groups" since they give different symmetries of repetitive
 wallpaper patterns. Of these, 2 act on a lattice with no special
 symmetry:
+$$
+  \begin{tikzpicture}[scale=0.7]
+    \draw[->] (-3,0) to (4,0) node[label=below:{$\Re(z)$}]{};
+    \draw[->] (0,-2.5) to (0,3) node[label=left:{$\Im(z)$}]{};
+    \foreach \m in {-1,0,1,2}
+    {
+      \foreach \n in {-1,0,1,2}
+      {
+        \node at ({1.5*\m-0.4*\n-0.2},{1.33*\n-0.5}) {$\bullet$};
+      }
+    }
+  \end{tikzpicture}
+$$
 
 
              *          *         *         *
@@ -140,14 +149,19 @@ symmetry:
                  *          *         *         *
 
 7 act on a lattice with rectangular symmetry:
-
-
-                 *        *        *        *
-
-                 *        *        *        *
-
-                 *        *        *        *
-
+$$
+  \begin{tikzpicture}[scale=0.7]
+    \draw[->] (-3,0) to (4,0) node[label=below:{$\Re(z)$}]{};
+    \draw[->] (0,-2) to (0,3) node[label=left:{$\Im(z)$}]{};
+    \foreach \m in {-1,0,1,2}
+    {
+      \foreach \n in {-1,0,1,2}
+      {
+        \node at ({1.7*\m},{1.1*\n}) {$\bullet$};
+      }
+    }
+  \end{tikzpicture}
+$$
 or alternatively, on a lattice with rhombic symmetry:
 
 
@@ -160,14 +174,11 @@ or alternatively, on a lattice with rhombic symmetry:
 3 act on a lattice with square symmetry, and 5 act on a lattice with
 hexagonal symmetry. For more details, with pictures, see:
 
-5) NIST, The 17 two-dimensional space groups,
-`http://www.nist.gov/srd/webguide/nist42-3/appa.htm`
+5) NIST, "The 17 two-dimensional space groups", `http://www.nist.gov/srd/webguide/nist42-3/appa.htm`
 
-6) Eric Weisstein, Wallpaper groups,
-`http://mathworld.wolfram.com/WallpaperGroups.html`
+6) Eric Weisstein, "Wallpaper groups", `http://mathworld.wolfram.com/WallpaperGroups.html`
 
-7) David Hestenes, Point groups and space groups in geometric algebra,
-[modelingnts.la.asu.edu/pdf/crystalsymmetry.pdf](modelingnts.la.asu.edu/pdf/crystalsymmetry.pdf)
+7) David Hestenes, "Point groups and space groups in geometric algebra", `modelingnts.la.asu.edu/pdf/crystalsymmetry.pdf`
 
 After this low-dimensional warmup, Conway and Smith's book turns to the
 quaternions and their applications to $3$-dimensional and $4$-dimensional
@@ -189,13 +200,13 @@ where a,b,c,d are integers. But number theory works better for the
 where a,b,c,d are either all integers or all half-integers. These are
 closed under addition and multiplication, and they form a lattice called
 the D4 lattice, which gives the densest lattice packing of spheres in 4
-dimensions - each sphere has 24 nearest neighbors. They prove a version
+dimensions --- each sphere has 24 nearest neighbors. They prove a version
 of unique prime factorization for Hurwitz integral quaternions. But the
 sense of "uniqueness" here is a lot more tricky, in part because the
 quaternions are noncommutative.
 
 Finally, they study the octonions. They start with a truly excellent
-study of Moufang loops, isotopies and triality - three fairly esoteric
+study of Moufang loops, isotopies and triality --- three fairly esoteric
 subjects that are crucial for understanding octonions. Then they tackle
 octonionic number theory! The "Gravesian integral octonions" are
 octonions of the form
@@ -234,7 +245,7 @@ the lattice called D4 x D4.
 To get an even denser lattice, we can take the union of all 7 different
 double Hurwitzian integral octonions. I talked about this last week. We
 get an E8 lattice, which gives the densest packing of spheres in 8
-dimensions - each sphere has 240 nearest neighbors. I *thought* this
+dimensions --- each sphere has 240 nearest neighbors. I *thought* this
 lattice was closed under multiplication, but it's not! Conway and Smith
 mockingly call it the "Kirmse integral octonions".
 
@@ -245,7 +256,7 @@ from 1 to 7. Then, take all the Kirmse integral octonions
 
 and switch the coefficients a~0~ and a_i. Bizarrely, the resulting
 "Cayley integral octonions" are closed under multiplication. But they
-are still an E8 lattice - just a rotated version of the Kirmse integral
+are still an E8 lattice --- just a rotated version of the Kirmse integral
 octonions.
 
 Since this trick involved an arbitrary choice, there are 7 different
@@ -271,10 +282,10 @@ of proton decay.
 
 **Addendum:** Tony Smith writes:
 
->     Thanks for mentioning the John Conway - Derek Smith book
+>     Thanks for mentioning the John Conway --- Derek Smith book
 >     in week 194. I have ordered it from Amazon.
 >
->     BTW - ( and my apologies if you have already seen these details
+>     BTW --- ( and my apologies if you have already seen these details
 >     if they are in the Conway-Smith book ) -
 >     Kirmse's mistake is described in some detail in Coxeter's pper
 >     Integral Cayley Numbers (Duke Math. J., v. 13, no. 4,
@@ -350,4 +361,4 @@ of proton decay.
 
 *"Quaternions came from Hamilton after his really good work had been
 done; and though beautifully ingenious, have been an unmixed evil to
-those who have touched them in any way."* - Lord Kelvin
+those who have touched them in any way."* --- Lord Kelvin
