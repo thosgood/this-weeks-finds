@@ -265,71 +265,67 @@ of proton decay.
 > in week 194. I have ordered it from Amazon.
 >
 > BTW --- ( and my apologies if you have already seen these details
-> if they are in the Conway-Smith book ) -
-> Kirmse's mistake is described in some detail in Coxeter's pper
-> Integral Cayley Numbers (Duke Math. J., v. 13, no. 4,
+> if they are in the Conway-Smith book ) ---
+> Kirmse's mistake is described in some detail in Coxeter's paper
+> "Integral Cayley Numbers" (_Duke Math. J._, v. **13**, no. 4,
 > December 1946), in which Coxeter says:
 > "... Kirmse ... selects an eight-dimensional module ...
 > which is closed under subtraction and contains eight
 > linearly independent members. .. a module is called
 > an INTEGRAL DOMAIN if it is closed under multiplication.
-> A simple instance is the module Jo consisting of all
-> Cayley numbers ... [that are] integers. ...
+> A simple instance is the module $J_0$ consisting of all
+> Cayley numbers ... \[that are\] integers. ...
 > ...
-> [Kirmse] then defines a maximal ... integral domain over Jo
-> as an extension of Jo which cannot be further extended
+> \[Kirmse\] then defines a maximal ... integral domain over $J_0$
+> as an extension of $J_0$ which cannot be further extended
 > without ceasing to be an integral domain.
 > He states that there are EIGHT such domains,
-> one of which he calls J1 and describes in detail.
+> one of which he calls $J_1$ and describes in detail.
 > Actually, there are only SEVEN, which presumably are
 > the remaining seven of his eight.
-> ... J1 itself is not closed under multiplication. ...
-> Since the 168-group is doubly transitive on the
-> seven [imaginary octonions], ANY transposition [of the
-> imaginary octonions] will serve to rectify J1 in the desired manner.
+> ... $J_1$ itself is not closed under multiplication. ...
+> Since the $168$-group is doubly transitive on the
+> seven \[imaginary octonions\], ANY transposition \[of the
+> imaginary octonions\] will serve to rectify $J_1$ in the desired manner.
 > But there are only seven such domains,
-> since the (7|2) = 21 possible transpositions fall
+> since the $(7|2) = 21$ possible transpositions fall
 > into 7 sets of 3, each set having the same effect.
-> In each of the seven domains, one of the [imaginary octonions]
+> In each of the seven domains, one of the \[imaginary octonions\]
 > plays a special role, viz., that one which is not affected
 > by any of the three transpositions.
 > Comparing Kirmse's multiplication table with Cayley's
-> ... we see that  ... Kirmse's J1 could be used as it
+> ... we see that  ... Kirmse's $J_1$ could be used as it
 > stands if we replaced his multiplication table with Cayley's. ..."
 > 
 > -----------------------------------------------------------
 > 
 > 
 > These integral domains are also discussed
-> in Coxeter's paper Regular and Semi-Regular Polyotpes III
-> (Math. Z. 200, 3-45, 1988), where he describes the 240 units
+> in Coxeter's paper "Regular and Semi-Regular Polyotpes III"
+> (_Math. Z._ **200**, 3--45, 1988), where he describes the 240 units
 > of an $\mathrm{E}_8$ integral domain as
 >
-> "... the 16 + 16 + 16 octaves
->
-> 1, i, j, k, e, ie, je, ke,
->
-> (1iejeke)/2,
->
-> (eijk)/2,
->
+> "... the $16 + 16 + 16$ octaves
+> $$1, i, j, k, e, ie, je, ke,$$
+> $$(1iejeke)/2,$$
+> $$(eijk)/2,$$
 > and the 192 others derived from the last two expressions by
-> cyclically permuting the 7 symbols [ i,j,k,e,ie,je,ke ]
+> cyclically permuting the 7 symbols \[$i,j,k,e,ie,je,ke$\]
 > in the peculiar order
->      e, i, j, ie, ke, k, je
+> $$e, i, j, ie, ke, k, je$$
 > ...
 > It seems somewhat paradoxical ... that the cyclic permutation
->     ( e, i, j, ie, ke, k, je ),
+> $$( e, i, j, ie, ke, k, je ),$$
 > which preserves the integral domain
-> (and the finite projective [Fano] plane ...)
+> (and the finite projective \[Fano\] plane ...)
 > is not an automorphism of the whole ring of octaves;
-> it transforms the associative triad ijk
-> into the anti-associative triad j ie je.
+> it transforms the associative triad $ijk$
+> into the anti-associative triad $j ie je$.
 >
 > On the other hand, the permutation
->     ( e ie je i k ke j ),
+> $$( e ie je i k ke j ),$$
 > which IS an automorphism of the whole ring of octaves
-> (and of the finite [Fano] plane ...)
+> (and of the finite \[Fano\] plane ...)
 > transforms this particular integral domain into another
 > one of R. H. Bruck's cyclic of seven such domains.  ...".
 >
