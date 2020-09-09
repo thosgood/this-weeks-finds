@@ -778,7 +778,7 @@ I replied:
 > dimension of \mathrm{SL}(2,\mathbb{Z}) is just 1.
 >
 > Anyway, this is all great stuff. Do you mind if I attach a copy of
-> your email to the copy of "week213" on my website? I think people
+> your email to the copy of ["Week 213"](#week213) on my website? I think people
 > will find it helpful, especially because of its friendly
 > straight-to-the-point style, which books rarely seem to manage....
 >
@@ -868,7 +868,7 @@ Kevin replied:
 > John Baez wrote:
 >
 >       > Anyway, this is all great stuff.  Do you mind if I attach a copy of
->       > your email to the copy of "week213" on my website?
+>       > your email to the copy of ["Week 213"](#week213) on my website?
 >
 > Go ahead!
 >

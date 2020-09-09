@@ -795,9 +795,9 @@ David Rusin wrote:
 > an $8$-dimensional manifold and the intersection with the sphere in C^5
 > = R^10^ is a $7$-dimensional manifold. Brieskorn showed:
 >
-> 1.  For every k, these manifolds M~k~ are homeomorphic to the sphere
-> 2.  For every k, M~k~ is a smooth manifold.
-> 3.  3. M~j~ and M~k~ are diffeomorphic iff j = k mod 28.
+> 1.  For every k, these manifolds M_k are homeomorphic to the sphere
+> 2.  For every k, M_k is a smooth manifold.
+> 3.  3. M_j and M_k are diffeomorphic iff j = k mod 28.
 >
 > Thus in particular, the whole group of diffeomorphism classes of
 > manifolds which are homeomorphic to the sphere has order 28. Milnor

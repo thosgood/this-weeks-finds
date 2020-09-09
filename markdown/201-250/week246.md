@@ -286,7 +286,7 @@ Living Reviews of Relativity 7, (2004), 2. Available at
 ------------------------------------------------------------------------
 
 **Addenda:** I thank Eugenia Cheng and Eugene Lerman for catching
-mistakes. For more discussion, go to the [*n*-Category
+mistakes. For more discussion, go to the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2007/02/this_weeks_finds_in_mathematic_7.html).
 
 ------------------------------------------------------------------------

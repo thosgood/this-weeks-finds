@@ -565,7 +565,7 @@ read that in Kontsevich's very nice paper.
 
 ------------------------------------------------------------------------
 
-**Addenda:** Over at the *n*-Category Café, Michael Batanin made some
+**Addenda:** Over at the $n$-Category Café, Michael Batanin made some
 comments on the difficulties in making my proposed argument rigorous,
 his own work in doing just this (long before I came along), and the
 history of Deligne's conjecture (which I deliberately didn't go into,
@@ -708,7 +708,7 @@ Note the great technical simplification of working with what I called
 \operatorname{Hom}(PX,PX) instead of \operatorname{Hom}(PX,X) - composition becomes strictly
 associative!
 
-For more discussion, go to the [*n*-Category
+For more discussion, go to the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2007/11/this_weeks_finds_in_mathematic_22.html).
 
 ------------------------------------------------------------------------

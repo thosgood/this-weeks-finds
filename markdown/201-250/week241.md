@@ -643,7 +643,7 @@ nice example of the dodecahedron in nature - and even in Nature:
 > While perusing a Nature issue I found this short notice on a paper,
 > and I remembered that in your talk (which I saw online) you mentioned
 > that the dodecahedron was not found in nature. Now I see in
-> "week241" that there are some things dodecahedral after all, but
+> ["Week 241"](#week241) that there are some things dodecahedral after all, but
 > nevertheless, I send this further dodecahedron which was missing
 > there.
 >

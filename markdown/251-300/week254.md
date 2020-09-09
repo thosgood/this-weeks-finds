@@ -844,17 +844,18 @@ the Radon transform which is *free online*. Snap it up while you can!
 York, 1999. Also available at
 `http://www-math.mit.edu/~helgason/Radonbook.pdf`.
 
-For more discussion, go to the [*n*-Category
+For more discussion, go to the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2007/07/this_weeks_finds_in_mathematic_15.html).
 
 ------------------------------------------------------------------------
 
-*"The Big Crunch" had always been a slightly mocking, irreverent term,
+> *"The Big Crunch" had always been a slightly mocking, irreverent term,
 but now she was struck anew by how little justice it did to the real
 trend that had fascinated the Niah. It was not a matter of everything in
 mathematics collapsing in on itself, with one branch turning out to have
 been merely a recapitulation of another under a different guise. Rather,
 the principle was that every sufficiently beautiful mathematical system
 was rich enough to mirror* in part *- and sometimes in a complex and
-distorted fashion - every other sufficiently beautiful system.* - Greg
-Egan, *Glory*
+distorted fashion - every other sufficiently beautiful system.*
+> 
+> --- Greg Egan, *Glory*

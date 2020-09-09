@@ -393,7 +393,7 @@ that *last* Week was devoted to \mathrm{E}_8, instead of *this* one. Sorry.
 ------------------------------------------------------------------------
 
 **Addendum:** I thank logopetria for catching typos. For more
-discussion, go to the [*n*-Category
+discussion, go to the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2007/03/this_weeks_finds_in_mathematic_9.html).
 
 ------------------------------------------------------------------------

@@ -325,7 +325,7 @@ about it in Lisbon beforehand, so I think I understand it pretty well.
 Basically what he's doing is categorifying the $3$-dimensional
 topological quantum field theories studied by Dijkgraaf and Witten to
 get $4$-dimensional theories. It fits in very nicely with his earlier work
-described in "week121".
+described in ["Week 121"](#week121).
 
 People have been trying to categorify the magic of quantum groups for
 quite some time now, and Khovanov appears to have made a good step in

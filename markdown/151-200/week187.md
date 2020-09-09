@@ -367,11 +367,10 @@ of these weird base $q$ calculations.
 
 ------------------------------------------------------------------------
 
-> *"What's one and one and one and one and one and one and one and one
-and one and one?"*
+> *"What's one and one and one and one and one and one and one and one and one and one?"*
 > 
-> "I don't know", said Alice, "I lost count."
+> *"I don't know", said Alice, "I lost count."*
 > 
-> "She can't do addition."
-
---- Lewis Carroll, Through the Looking Glass.
+> *"She can't do addition."*
+> 
+> --- Lewis Carroll, Through the Looking Glass.

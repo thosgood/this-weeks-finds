@@ -319,7 +319,7 @@ important fact is that these are all the same thing! And I've learned a
 bit more about this thing from here:
 
 5) Robert Coquereaux, On the finite dimensional quantum group H = M_3
-+ (M~2|1~(Λ^2))~0~, available as
++ (M~2|1~(Λ^2))_0, available as
 [`hep-th/9610114`](https://arxiv.org/abs/hep-th/9610114) and at
 `http://www.cpt.univ-mrs.fr/~coque/articles_html/SU2qba/SU2qba.html`
 
@@ -348,7 +348,7 @@ just paraphrase the abstract of Coquereaux's paper and urge you to
 either read this paper or look at his website:
 
 > We describe a few properties of the non-semisimple associative algebra
-> H = M_3 + (M~2|1~(Λ^2))~0~, where Λ^2 is the Grassmann algebra
+> H = M_3 + (M~2|1~(Λ^2))_0, where Λ^2 is the Grassmann algebra
 > with two generators. We show that H is not only a finite dimensional
 > algebra but also a (non-cocommutative) Hopf algebra, hence a "finite
 > quantum group". By selecting a system of explicit generators, we show

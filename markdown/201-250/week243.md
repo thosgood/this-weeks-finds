@@ -433,7 +433,7 @@ Merry Christmas!
 ------------------------------------------------------------------------
 
 **Addenda:** I thank Chris Weed for catching typos. For more discussion,
-go to the [*n*-Category
+go to the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2006/12/this_weeks_finds_in_mathematic_3.html).
 
 ------------------------------------------------------------------------

@@ -601,7 +601,7 @@ for helping me figure out these ideas.
 
 **Addendum**: I thank Mikael Vejdemo-Johansson for catching a typo.
 
-For more discussion visit the [*n*-Category
+For more discussion visit the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2010/04/this_weeks_finds_in_mathematic_57.html).
 
 ------------------------------------------------------------------------

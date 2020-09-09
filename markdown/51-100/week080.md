@@ -254,4 +254,4 @@ To continue reading the "Tale of $n$-Categories", see ["Week 83"](#week83).
 ------------------------------------------------------------------------
 
 I thank Keith Harbaugh for catching lots of typos and other mistakes in
-"week73" - "week80".
+["Week 73"](#week73) -- ["Week 80"](#week80).

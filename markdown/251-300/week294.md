@@ -564,7 +564,7 @@ graph, and orient its edges:
                    |         |         | 
                    o----<----o---->----o
 
-This gives a vector space C~0~ consisting of "0-chains": formal linear
+This gives a vector space C_0 consisting of "0-chains": formal linear
 combinations of vertices. We also get a space C_1 of "1-chains":
 formal linear combinations of edges, and a linear map
 
@@ -1105,7 +1105,7 @@ reference on electrical circuits and bond graphs:
 in Engineering - Economic Design and Production, Tapir Publishers,
 Norway, ca. 1978.
 
-For more discussion, visit the [*n*-Category
+For more discussion, visit the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2010/03/this_weeks_finds_in_mathematic_55.html).
 
 ------------------------------------------------------------------------

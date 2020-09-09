@@ -435,13 +435,13 @@ Lvay, who has allowed me to quote it here:
 > Dear John,
 >
 > I used to read your fascinating blog. Recently I have come across your
-> "week298" post (14 May) concerning hyperdeterminants and reflections
+> ["Week 298"](#week298) post (14 May) concerning hyperdeterminants and reflections
 > on a paper by Duff which appeared in CERN Courier on the black hole
 > qubit correspondence.
 >
 > Since I know that you are really fascinated by octonions, Freudenthal
 > systems, etc., with this mail I intend to draw your attention to
-> papers of mine connected to the stuff of your "week298" post.
+> papers of mine connected to the stuff of your ["Week 298"](#week298) post.
 > Moreover, I would also like to add some further hints (which Duff does
 > not mention) why this analogy is worth working out further.
 >
@@ -577,7 +577,7 @@ Lvay, who has allowed me to quote it here:
 > Budapest University of Technology\
 > HUNGARY
 
-For more discussion, visit the [*n*-Category
+For more discussion, visit the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2010/05/this_weeks_finds_in_mathematic_59.html).
 
 ------------------------------------------------------------------------

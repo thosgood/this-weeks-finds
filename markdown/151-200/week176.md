@@ -517,7 +517,8 @@ he's already written another:
 
 ------------------------------------------------------------------------
 
-*"I admire the elegance of your method of computation; it must be nice
+> *"I admire the elegance of your method of computation; it must be nice
 to ride through these fields upon the horse of true mathematics while
-the like of us have to make our way laboriously on foot."* --- Einstein
-to Levi-Civita
+the like of us have to make our way laboriously on foot."*
+> 
+> --- Einstein to Levi-Civita

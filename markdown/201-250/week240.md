@@ -926,7 +926,7 @@ ways of picking an element of (X^X^)^(X^X^)^ could be defined using the
 
 > Hi, John,
 >
-> In "week240", you said
+> In ["Week 240"](#week240), you said
 >
 >       The moral of this game is that all systematic methods for picking
 >       an element of (X^X)^(X^X) for an unknown set X can be written
@@ -951,7 +951,7 @@ ways of picking an element of (X^X^)^(X^X^)^ could be defined using the
 Here Pratt uses "functional" to mean what I was calling an
 "operator".
 
-For more discussion, go to the [*n*-Category
+For more discussion, go to the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2006/10/this_weeks_finds_in_mathematic_1.html).
 
 ------------------------------------------------------------------------

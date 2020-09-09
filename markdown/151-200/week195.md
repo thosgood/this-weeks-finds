@@ -880,5 +880,7 @@ complex, and thus a Kaehler manifold. He wrote (in part):
 
 ------------------------------------------------------------------------
 
-*"The series is divergent; therefore we may be able to do something
-with it"* - Oliver Heaviside.
+> *"The series is divergent; therefore we may be able to do something
+with it"*
+> 
+> --- Oliver Heaviside.

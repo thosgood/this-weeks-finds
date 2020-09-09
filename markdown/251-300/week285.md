@@ -249,7 +249,7 @@ A_i = H~i+d~(LM)
 
 are equipped with a graded-commutative product:
 
-o\colon  A_i \otimes A~j~ \to  A~i+j~
+o\colon  A_i \otimes A_j \to  A~i+j~
 
 together with an operator
 
@@ -265,7 +265,7 @@ But the homology of the loop space has even more structure: it's a
 "Batalin-Vilkovisky algebra". That means that in addition to the above
 stuff, it has a Lie bracket of degree 1:
 
-\[·,·\]\colon  A_i \otimes A~j~ \to  A~i+j+1~
+\[·,·\]\colon  A_i \otimes A_j \to  A~i+j+1~
 
 which gets along with the rest in a nice way. I also talked about these
 in ["Week 220"](#week220): they're precisely algebras of homology
@@ -331,11 +331,11 @@ Twisted K-theory is fascinating to folks who like categorification,
 because it involves "\mathrm{U}(1) gerbes", which are categorified \mathrm{U}(1)
 bundles. Just as a \mathrm{U}(1) bundle over a space can be defined by chopping a
 space into open sets U_i and giving \mathrm{U}(1)-valued "transition
-functions" on the intersections U_i ∩ U~j~, a \mathrm{U}(1) gerbe over a space
+functions" on the intersections U_i ∩ U_j, a \mathrm{U}(1) gerbe over a space
 can be defined by chopping a space into open sets and giving transition
 functions
 
-h~ijk~ \colon  U_i ∩ U~j~ ∩ U~k~ \to  \mathrm{U}(1)
+h~ijk~ \colon  U_i ∩ U_j ∩ U_k \to  \mathrm{U}(1)
 
 If you have a \mathrm{U}(1) gerbe, you can define "twisted vector bundles".
 These are like vector bundles, but where the transition functions g~ij~
@@ -748,7 +748,7 @@ classical mechanics, supergravity and more! So stay tuned....
 **Addenda:** I thank Toby Bartels for some improvements, and Ralf Bader
 for a link to Odlyzko and Poonen's paper.
 
-For more discussion visit the [*n*-Category
+For more discussion visit the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2009/12/this_weeks_finds_in_mathematic_46.html).
 
 ------------------------------------------------------------------------

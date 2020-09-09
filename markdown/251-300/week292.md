@@ -723,7 +723,7 @@ Francesco La Tella writes:
 >
 > Francesco La Tella
 
-For more discussion, visit the [*n*-Category
+For more discussion, visit the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2010/01/this_weeks_finds_in_mathematic_53.html).
 
 ------------------------------------------------------------------------

@@ -70,7 +70,7 @@ circuit". It's a nice easy example of how the same math applies to
 superficially different but secretly isomorphic problems!
 
 Let me explain. I hope this is a chance to help mathematicians review
-their physics and ask questions about it over on the *n*-Category Café.
+their physics and ask questions about it over on the $n$-Category Café.
 
 Let the height of a rock hanging on a spring be q(t) at time t, where
 q(t) is negative when the end of the spring is down below its
@@ -822,7 +822,7 @@ about how people settled on a definition of longitude on Mars:
 > Mars, which will in turn enable more precise landings on the Red
 > Planet by future spacecraft and explorers.
 
-For more discussion, visit the friendly and welcoming [*n*-Category
+For more discussion, visit the friendly and welcoming [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2010/01/this_weeks_finds_in_mathematic_49.html).
 
 ------------------------------------------------------------------------

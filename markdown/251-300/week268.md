@@ -957,7 +957,7 @@ and use this to prove the following facts:
 ![](comultiplication_facts.jpg)
 :::
 
-For more discussion, visit the [*n*-Category
+For more discussion, visit the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2008/08/this_weeks_finds_in_mathematic_29.html).
 In particular, you'll see there's a real morass of conflicting
 terminology concerning what I'm calling "special" Frobenius algebras

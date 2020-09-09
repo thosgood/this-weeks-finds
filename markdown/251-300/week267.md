@@ -665,7 +665,7 @@ equivalence relation on these groups to get just 17 of them: they're
 equivalent if you can conjugate one by an affine transformation of the
 plane and get the other.
 
-Alas, over at the *n*-Category Café Richard Hepworth has shown that all
+Alas, over at the $n$-Category Café Richard Hepworth has shown that all
 the isometry 2-groups of orbifolds coming from wallpaper groups are
 equivalent to mere groups. It's a pity! But, at least his remarks shed
 a lot of light on the general theory of isometry 2-groups. First he
@@ -765,7 +765,7 @@ vector fields and Riemannian metrics on differentiable DM stacks. It
 also proves that Morse functions are generic and that vector fields can
 be integrated.
 
-You can see more discussion of this Week's Finds at the [*n*-Category
+You can see more discussion of this Week's Finds at the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2008/07/this_weeks_finds_in_mathematic_28.html).
 
 ------------------------------------------------------------------------

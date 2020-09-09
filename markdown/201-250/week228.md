@@ -119,9 +119,9 @@ When a system is not at a critical ponit, we typically see exponential
 laws, where the probability of a disturbance of size L is proportional
 to
 
-exp(-L/L~0~)
+exp(-L/L_0)
 
-where L~0~ is a fixed length scale. This means that our system will look
+where L_0 is a fixed length scale. This means that our system will look
 qualitatively different depending how much we zoom in with our
 microscope. At length scales shorter than L_c, disturbances are really
 common, while at larger length scales they're incredibly rare.

@@ -524,12 +524,12 @@ categories, available at
 
 Urs Schreiber then wrapped things up with a talk about the quantization
 of strings from a higher category viewpoint. You can get a good feeling
-for this from his blog entries at the [*n*-Category
+for this from his blog entries at the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/), which are all listed on [my
 webpage for this
 workshop](http://math.ucr.edu/home/baez/fields/index.html#urs).
 
-Speaking of the *n*-Category Café - after the workshop ended, Bruce
+Speaking of the $n$-Category Café - after the workshop ended, Bruce
 Bartlett interviewed Urs and me about this blog, which we run together
 with David Corfield. You can see the interview here:
 
@@ -538,7 +538,7 @@ with David Corfield. You can see the interview here:
 
 ------------------------------------------------------------------------
 
-**Addendum:** For more discussion, go to the [*n*-Category
+**Addendum:** For more discussion, go to the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2007/02/this_weeks_finds_in_mathematic_6.html).
 
 ------------------------------------------------------------------------

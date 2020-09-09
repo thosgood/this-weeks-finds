@@ -162,10 +162,11 @@ to learn about it from his web page:
 
 ------------------------------------------------------------------------
 
-*"I regret that it has been necessary for me in this lecture to
+> *"I regret that it has been necessary for me in this lecture to
 administer such a large dose of four-dimensional geometry. I do not
 apologise, because I am not really responsible for the fact that nature
-in its most fundamental aspect is four-dimensional"* --- Albert North
-Whitehead.
+in its most fundamental aspect is four-dimensional"*
+>
+> --- Albert North Whitehead.
 
 ------------------------------------------------------------------------

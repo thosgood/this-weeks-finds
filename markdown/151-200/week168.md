@@ -240,5 +240,6 @@ Time for dinner.
 
 ------------------------------------------------------------------------
 
-*"Don't take life too serious, it ain't nohow permanent."* --- Walt
-Kelly, Pogo
+> *"Don't take life too serious, it ain't nohow permanent."*
+> 
+> --- Walt Kelly, Pogo

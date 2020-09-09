@@ -445,7 +445,7 @@ the Pappus theorem in quaternionic projective space:
     Dirac's face beamed a lovely smile: "Ah," he said, "it was just such a thing
     that I hoped to do".
 
-    I was reminded of this when backtracking to your "week106", today.
+    I was reminded of this when backtracking to your ["Week 106"](#week106), today.
 
     Best,
 

@@ -414,7 +414,7 @@ average apple. Aaron Bergman had this to say:
 > Much coolness there.
 >
 >       For more on the representation theory of quivers, see the references 
->       in the "Addenda" to "week230", and also this excellent book:
+>       in the "Addenda" to ["Week 230"](#week230), and also this excellent book:
 >       
 >       20) David J. Benson, Representations and Cohomology I, 
 >       Cambridge U. Press, Cambridge 1991.  

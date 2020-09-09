@@ -244,7 +244,7 @@ in his computer-generated voice:
 > The partition function of a system is the trace over all states,
 > weighted with e^-\beta\ H^. One can then integrate \beta along a contour
 > parallel to the imaginary axis with the factor e^-\beta\ E^. This projects
-> out the states with energy E~0~. In a gravitational collapse and
+> out the states with energy E_0. In a gravitational collapse and
 > evaporation, one is interested in states of definite energy, rather
 > than states of definite temperature.
 >

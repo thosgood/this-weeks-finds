@@ -565,7 +565,7 @@ Here's how:
 > to the round one. It's also how I managed to make the orange wrap
 > around the green and the red wrap around the orange.
 
-On the *n*-Category Café, Tom Leinster raised a useful point:
+On the $n$-Category Café, Tom Leinster raised a useful point:
 
 > Something that bothered me for a while about rational homotopy, as an
 > outsider, was this phrase "the homotopy groups are rational vector
@@ -602,7 +602,7 @@ Todd Trimble added:
 > torsionfree if and only if it is flat in the category of abelian
 > groups.
 
-For more discussion visit the [*n*-Category
+For more discussion visit the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2009/12/this_weeks_finds_in_mathematic_47.html).
 
 ------------------------------------------------------------------------

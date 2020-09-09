@@ -644,7 +644,7 @@ a free "restricted Poisson" algebra.
 long thickened knots. Here's what he asked:
 
 > Perhaps I'm being too imaginative, but I don't feel very convinced
-> the two operations described towards the end of "week220" are
+> the two operations described towards the end of ["Week 220"](#week220) are
 > fundamentally different.
 >
 > VagueSpecifically, in map-composition, can't one stretch all the

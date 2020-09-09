@@ -811,7 +811,7 @@ C \otimes e~6~ ≅ \mathfrak{so}(10,C) \oplus  Λ(C^5) \oplus  C
 where Λ(C^5) is the Dirac spinor representation of \mathfrak{so}(10,C), describing
 both left- and right-handed fermions.
 
-For more discussion, go to the [*n*-Category
+For more discussion, go to the [$n$-Category
 Caf](http://golem.ph.utexas.edu/category/2007/06/this_weeks_finds_in_mathematic_14.html).
 
 ------------------------------------------------------------------------

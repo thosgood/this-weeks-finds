@@ -749,7 +749,7 @@ equivalent, roughly this:
 > -   What other things should I have said, but didn't?
 >
 > If you have answers, or just other questions, please visit the
-> [*n*-Category
+> [$n$-Category
 > Café](http://golem.ph.utexas.edu/category/2009/11/this_weeks_finds_in_mathematic_45.html).
 >
 > Happy Thanksgiving!
@@ -759,7 +759,7 @@ equivalent, roughly this:
 > **Addenda:** I thank Toby Bartels yet again for catching a messed-up
 > link, and David Corfield for catching some typos.
 >
-> For more discussion visit the [*n*-Category
+> For more discussion visit the [$n$-Category
 > Café](http://golem.ph.utexas.edu/category/2009/11/this_weeks_finds_in_mathematic_45.html).
 > Please try to answer my questions above!
 >

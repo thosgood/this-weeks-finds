@@ -564,7 +564,7 @@ a bit of 3d perspective. The 6-fold symmetry is evident:
 16) Günter M. Ziegler, picture of 24-cell,
 `http://www.math.tu-berlin.de/~ziegler/24-cell.jpeg`
 
-For more discussion, go to the [*n*-Category
+For more discussion, go to the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2007/03/this_weeks_finds_in_mathematic_8.html).
 
 ------------------------------------------------------------------------

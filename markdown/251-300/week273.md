@@ -469,7 +469,7 @@ category theory.
 You may know about Fourier series, which lets you take a sufficiently
 nice complex-valued function on the circle and write it like this:
 
-f(x) = \sum~k~ g~k~ exp(ikx)
+f(x) = \sum_k g_k exp(ikx)
 
 Here n ranges over all integers, so what you're really doing here is
 taking a function on the circle:
@@ -813,13 +813,13 @@ number theory:
 > And the argument he could use to justify this isn't number-theoretic
 > at all, in some sense --- it's coming entirely from Pontrjagin
 > duality! Tate shows that the Pontrjagin dual of a number field k is
-> A~k~/k, where A~k~ is the adeles of k, and k is embedded diagonally!
+> A_k/k, where A_k is the adeles of k, and k is embedded diagonally!
 > Now the analogue of the beautiful self-dual picture 0 \to Z \to R \to R/Z \to
 > 0 is going to be
 >
-> 0 \to k \to ??? \to A~k~/k \to 0
+> 0 \to k \to ??? \to A_k/k \to 0
 >
-> and the natural candidate for ??? is of course now the adeles A~k~.
+> and the natural candidate for ??? is of course now the adeles A_k.
 > These gadgets have appeared "magically" in some sense --- the
 > argument seems to me to be topological rather than arithmetic
 > (although of course there is more than one choice for ??? and perhaps
@@ -837,13 +837,13 @@ number theory:
 > So the restricted product of all the k~v~ (that is, the adeles), is
 > locally compact, and dual to the restricted product of all the
 > (k~v~)*, and (k~v~)* is k~v~ again, so the adeles of k are
-> self-dual!! Tate then checks that k (embedded diagonally in A~k~) is
+> self-dual!! Tate then checks that k (embedded diagonally in A_k) is
 > discrete and equal to its own annihilator (if you choose all the local
 > isomorphisms k~v~=(k~v~)* just right), and hence by the "Galois
 > correspondence" between closed subgroups of G and closed subgroups of
-> G* he deduces that A~k~/k is the dual of k. In particular
+> G* he deduces that A_k/k is the dual of k. In particular
 >
-> 0 \to k \to A~k~ \to A~k~/k \to 0
+> 0 \to k \to A_k \to A_k/k \to 0
 >
 > looks like a very natural analogue of 0 \to Z \to R \to R/Z \to 0; the
 > quotient is compact, the sub is discrete, and the diagram is
@@ -874,7 +874,7 @@ He has a paper on this:
 18) Michael Barr, On duality of topological abelian groups, available
 at <ftp://ftp.math.mcgill.ca/pub/barr/pdffiles/abgp.pdf>
 
-For more discussion, visit the [*n*-Category
+For more discussion, visit the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2008/12/this_weeks_finds_in_mathematic_34.html).
 
 ------------------------------------------------------------------------

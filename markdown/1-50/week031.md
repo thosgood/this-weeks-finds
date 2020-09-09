@@ -213,7 +213,7 @@ hypothesis,
 ------------------------------------------------------------------------
 
 **Addendum**: See ["Week 33"](#week33) for a paper by Smolin on his
-evolutionary cosmology theory. His book came out in 1997 under the title "The Life of the Cosmos" --- see "week101" for
+evolutionary cosmology theory. His book came out in 1997 under the title "The Life of the Cosmos" --- see ["Week 101"](#101) for
 details.
 
 ------------------------------------------------------------------------

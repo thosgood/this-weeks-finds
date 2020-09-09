@@ -653,7 +653,7 @@ version of my reply.
 > although I haven't completely digested what you wrote, it looks like
 > it might do the job...
 
-Both here and in my discussion of spectra in "week199", I've been
+Both here and in my discussion of spectra in ["Week 199"](#week199), I've been
 avoiding saying the things people usually say. People usually note that
 a maximal ideal is the same as the kernel of a homomorphism ONTO a
 field, while a prime ideal is the same as the kernel of a homomorphism

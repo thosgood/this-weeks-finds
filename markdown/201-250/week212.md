@@ -112,7 +112,7 @@ writing our vector space as a direct sum
 
     V = V0 + V1
 
-where V~0~ is the "even part" and V_1 is the "odd part". Such a
+where V_0 is the "even part" and V_1 is the "odd part". Such a
 thing is called a "Z/2-graded vector space", or "super vector
 space".
 
@@ -141,7 +141,7 @@ vectors, the rules in the above table hold. We say a superalgebra is
 
     xy = yx
 
-when at least one of x,y lives in the even part A~0~, while
+when at least one of x,y lives in the even part A_0, while
 
     xy = -yx
 

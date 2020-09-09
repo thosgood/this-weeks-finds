@@ -168,7 +168,7 @@ electrostatic potential at each terminal.
 
 It's pretty easy to see that Q is a "quadratic form", meaning that
 
-Q(\varphi) = \sum~i,j~ Q~ij~ \varphi_i \varphi~j~
+Q(\varphi) = \sum~i,j~ Q~ij~ \varphi_i \varphi_j
 
 for some matrix Q~ij~, which we can assume is symmetric. And it's easy
 to see that Q is "nonnegative", meaning
@@ -193,7 +193,7 @@ even though it's nonnegative. In general, for any n, we can get a lot
 of quadratic forms just by connecting each terminal to each other with a
 resistor. Such circuits give precisely these quadratic forms:
 
-Q(\varphi) = \sum~i,j~ c~ij~ (\varphi_i - \varphi~j~)^2
+Q(\varphi) = \sum~i,j~ c~ij~ (\varphi_i - \varphi_j)^2
 
 where the numbers c~ij~ are nonnegative. We can assume without loss of
 generality that c~ii~ = 0. The numbers c~ij~ are *reciprocals* of
@@ -205,7 +205,7 @@ called "Dirichlet forms". People have characterized them in lots of
 ways. Here's one: they're the nonnegative quadratic forms that vanish
 when \varphi is constant:
 
-\varphi_i = \varphi~j~ for all i,j implies Q(\varphi) = 0
+\varphi_i = \varphi_j for all i,j implies Q(\varphi) = 0
 
 and also satisfy the "Markov property":
 
@@ -277,7 +277,7 @@ Q(\varphi) ≥ Q(\psi)
 
 whenever
 
-|\varphi_i - \varphi~j~| ≥ |\psi_i - \psi~j~|
+|\varphi_i - \varphi_j| ≥ |\psi_i - \psi_j|
 
 for all i,j. It's a fun exercise to see that this is equivalent to our
 previous characterization. And there's a simple physical idea behind
@@ -403,7 +403,7 @@ vertices, just terminals. As before, each pair of terminals is connected
 with a resistor. But now, each terminal is also connected to the ground
 via a resistor! Such circuits give exactly these quadratic forms:
 
-Q(\varphi) = \sum~i,j~ c~ij~ (\varphi_i - \varphi~j~)^2 + \sum_i c_i \varphi_i^2
+Q(\varphi) = \sum~i,j~ c~ij~ (\varphi_i - \varphi_j)^2 + \sum_i c_i \varphi_i^2
 
 where c~ij~ and c_i are nonnegative numbers.
 
@@ -416,7 +416,7 @@ when \psi_i is the minimum of \varphi_i and 1.
 
 These generalized Dirichlet forms don't include *all* the nonnegative
 quadratic forms. Why? Because, as Ben Tilly pointed out, they don't
-include quadratic forms where the cross-terms \varphi_i \varphi~j~ have positive
+include quadratic forms where the cross-terms \varphi_i \varphi_j have positive
 coefficients. So, for example, we don't get this:
 
 Q(\varphi_1, \varphi_2) = (\varphi_1 + \varphi_2)^2
@@ -507,7 +507,7 @@ love it - but I might as well tell you about it.
 A Dirichlet form on R^n is a nonnegative quadratic form that vanishes
 when \varphi is constant:
 
-\varphi_i = \varphi~j~ for all i,j implies Q(\varphi) = 0
+\varphi_i = \varphi_j for all i,j implies Q(\varphi) = 0
 
 and satisfies
 
@@ -569,7 +569,7 @@ capacitors into the game... and loop groups!
 > connections between two terminals, but I presume that whatever
 > difficulties this causes in either case are essentially the same.
 
-For more discussion, visit the [*n*-Category
+For more discussion, visit the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2010/05/this_weeks_finds_in_mathematic_58.html).
 
 ------------------------------------------------------------------------

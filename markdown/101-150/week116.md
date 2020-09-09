@@ -136,7 +136,7 @@ where Sing becomes a functor using the fact that for any category $\mathcal{C}$
 there's a functor
 $$\operatorname{Hom}\colon\mathcal{C}^{\mathrm{op}}\times\mathcal{C}\to\mathsf{Set}$$
 where $\mathcal{C}^{\mathrm{op}}$ denotes the opposite of $\mathcal{C}$, that is, $\mathcal{C}$ with all its arrows
-turned around. (See "week78" for an explanation of this.)
+turned around. (See ["Week 78"](#week78) for an explanation of this.)
 
 Or I could have said this: form the composite
 $$\Delta^{\mathrm{op}}\times\mathsf{Top} \xrightarrow{i\times1} \mathsf{Top}^{\mathrm{op}}\times\mathsf{Top} \xrightarrow{\operatorname{Hom}} \mathsf{Set}$$

@@ -618,7 +618,7 @@ the same thing). Let me quote a portion, just to whet your interest:
 > theorem explains the correction as the dimension associated to a
 > further, 'complementary' space of functions.
 
-You can see more discussion of this Week's Finds at the [*n*-Category
+You can see more discussion of this Week's Finds at the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2008/05/this_weeks_finds_in_mathematic_25.html).
 
 ------------------------------------------------------------------------

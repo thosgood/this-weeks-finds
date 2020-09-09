@@ -673,7 +673,7 @@ This is where groupoidification comes into its own.
 
 ------------------------------------------------------------------------
 
-**Addendum:** For more discussion, go to the [*n*-Category
+**Addendum:** For more discussion, go to the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2007/05/this_weeks_finds_in_mathematic_13.html).
 
 ------------------------------------------------------------------------

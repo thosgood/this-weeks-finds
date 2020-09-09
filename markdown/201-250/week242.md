@@ -647,7 +647,7 @@ I've deleted the word "probably". According to a comment on Joanne
 Hewett's blog entry, each pixel in the neutrino picture of the Sun is
 one degree in size. The Sun itself is just half a degree wide.
 
-For more discussion, go to the [*n*-Category
+For more discussion, go to the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2006/12/this_weeks_finds_in_mathematic_4.html).
 
 ------------------------------------------------------------------------

@@ -708,7 +708,7 @@ Available at `http://www.heldermann.de/GMJ/GMJ09/GMJ094/gmj09053.htm`
 **Addenda:** Writing the above stuff caused me to miss Behrang Noohi's
 talk on using diagrams called "butterflies" to efficiently describe
 weak homomorphisms between strict 2-groups (in the guise of crossed
-modules). Luckily Tim Porter summarized it at the *n*-Category Café:
+modules). Luckily Tim Porter summarized it at the $n$-Category Café:
 
 27) Timothy Porter, Behrang Noohi on butterflies and weak morphisms
 between 2-groups, available at
@@ -719,7 +719,7 @@ For more details, you can't beat the original paper:
 28) Behrang Noohi, On weak maps between 2-groups, available as
 [`arXiv:math/0506313`](http://arxiv.org/abs/math/0506313).
 
-Also at the *n*-Category Café, Bruce Bartlett discussed Tim Porter's
+Also at the $n$-Category Café, Bruce Bartlett discussed Tim Porter's
 talk at the categorical groups workshop:
 
 29) Bruce Bartlett, Tim Porter on formal homotopy quantum field
@@ -752,7 +752,7 @@ above.
 
 I apologize to everyone whose talks I have not mentioned!
 
-You can see more discussion of this Week's Finds at the [*n*-Category
+You can see more discussion of this Week's Finds at the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2008/06/this_weeks_finds_in_mathematic_27.html).
 
 ------------------------------------------------------------------------

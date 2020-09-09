@@ -322,7 +322,7 @@ sphere - that is, a conformal transformation! And this must be a
 fractional linear transformation.
 
 Summarizing, the Galois group of C(z) over C is the Lorentz group, or
-more precisely, its connected component, SO~0~(3,1):
+more precisely, its connected component, SO_0(3,1):
 
     Gal(C(z)/C) = SO0(3,1).
 

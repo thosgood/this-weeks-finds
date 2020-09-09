@@ -480,7 +480,7 @@ millennial physics problems:
 > > > intended to be a universal list.
      
 > > Good!   It's too bad the text of the webpage doesn't make that
-> > clearer.   I'm appending your comment to the version of "week164" 
+> > clearer.   I'm appending your comment to the version of ["Week 164"](#week164)
 > > on my website, assuming you don't object.
 
 > Sure. Or you can just refer them to the transparencies and the 

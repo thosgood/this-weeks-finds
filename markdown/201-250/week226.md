@@ -985,16 +985,16 @@ Next, here's yet another email from Scott Aaronson, dated July 22,
 > more than n symbols. We can do that using a technique invented by
 > Tarski in the 1930's for "defining truth" - i.e., for recursively
 > building up a one-to-one correspondence between syntax and semantics.
-> More concretely, let T~k~(A) be a function that takes as input a
-> string A with £k symbols. We want T~k~ to return 1 if A encodes a true
+> More concretely, let T_k(A) be a function that takes as input a
+> string A with £k symbols. We want T_k to return 1 if A encodes a true
 > statement and 0 otherwise. So for all k T~k+1~( "not" + A ) := 1 if
-> T~k~(A)=0, or 0 otherwise.
+> T_k(A)=0, or 0 otherwise.
 >
-> T~k+1~( A + "and" + B ) := 1 if T~k~(A)=1 and T~k~(B)=1, or 0
+> T~k+1~( A + "and" + B ) := 1 if T_k(A)=1 and T_k(B)=1, or 0
 > otherwise.
 >
 > T~k+1~( "There exists an x such that" + A ) := 1 if there exists an
-> x* such that T~k~(A\[x=x*\])=1, or 0 otherwise.
+> x* such that T_k(A\[x=x*\])=1, or 0 otherwise.
 >
 > and so on. Of course I'm skipping lots of technicalities, like what I
 > mean by A\[x=x*\].

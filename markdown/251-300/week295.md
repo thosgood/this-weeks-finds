@@ -414,12 +414,12 @@ Let's actually do this for two resistors in series:
 
 We need to find \varphi_1 that minimizes the total power
 
-P = (\varphi_1 - \varphi~0~)^2/R_1 + (\varphi_2 - \varphi_1)^2/R_2
+P = (\varphi_1 - \varphi_0)^2/R_1 + (\varphi_2 - \varphi_1)^2/R_2
 
 So, we differentiate P with respect to \varphi_1 and set the derivative to
 zero:
 
-2(\varphi_1 - \varphi~0~)/R_1 - 2(\varphi_2 - \varphi_1)/R_2 = 0
+2(\varphi_1 - \varphi_0)/R_1 - 2(\varphi_2 - \varphi_1)/R_2 = 0
 
 This implies that
 
@@ -748,7 +748,7 @@ in *this* analogy:
 symplectic : Poisson :: Kähler : ???
 :::
 
-For more discussion, visit the [*n*-Category
+For more discussion, visit the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2010/04/this_weeks_finds_in_mathematic_56.html).
 
 ------------------------------------------------------------------------

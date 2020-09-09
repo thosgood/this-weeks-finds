@@ -416,7 +416,7 @@ $$|F|(x) = \sum |F_k| x^k$$
 It has many of the same nice properties as the exponential generating
 function, as long as we careful to adapt everything to the category $\mathcal{D}$.
 You can read all about this in the book by Bergeron et al cited in
-["week185"](week185.html).
+["Week 185"](#week185).
 
 I claim that it's best to always insist on this viewpoint: exponential
 generating functions for structure types, ordinary generating functions

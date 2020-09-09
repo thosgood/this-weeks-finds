@@ -1162,7 +1162,7 @@ mistakes. Allen Knutson adds to my list of questions:
 > Here's another: if gr(Assoc) = Poisson, what is the meaning of the
 > Rees and blowup algebras associated to this filtration?
 >
-> (Given a filtration R = R~0~ ⊇ R_1 ⊇..., e.g. by powers of I, you
+> (Given a filtration R = R_0 ⊇ R_1 ⊇..., e.g. by powers of I, you
 > can look at the subring of R\[t\] that has t^n R_n in the nth degree
 > piece; that's the blowup algebra. If you include t^-n^ R in the
 > negative powers, that's the Rees algebra. If you mod out Rees by (t -
@@ -1187,7 +1187,7 @@ David Corfield points out:
 > > The Stirling numbers of the first and second kind can be understood
 > > to be inverses of one-another, when taken as triangular matrices.
 
-For more discussion visit the [*n*-Category
+For more discussion visit the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2009/10/this_weeks_finds_in_mathematic_43.html).
 In particular, Toby Bartels raised an important question: what's the
 physical meaning of treating Planck's constant as a variable instead of

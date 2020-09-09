@@ -197,7 +197,7 @@ preprint, 7 pages available as
 
 Lately people have been getting interested in gauge theories that can be
 interpreted as closed string field theories. I mentioned one recent
-paper along these lines in "week15," which considers
+paper along these lines in ["Week 15"](#week15), which considers
 Yang-Mills in 2 dimensions. (This was not the first paper to do so, I
 should emphasize.) A while back Witten wrote a paper on Chern-Simons
 gauge theory in 3 dimensions as a background-free open string field

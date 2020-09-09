@@ -757,7 +757,7 @@ John McKay writes:
 > first was constructed by Marshall Hall and the second by Graham Higman
 > and me.
 >
-> David Wales and I decided on the names so that J~k~ has a Schur
+> David Wales and I decided on the names so that J_k has a Schur
 > multiplier (=second cohomology group) of order k. J_2 is the
 > Hall-Janko group. Janko finally produced his fourth group J_4 (which
 > unfortunately does not have a Schur multiplier of order 4)! J_1,J_3,
@@ -775,7 +775,7 @@ Here G_2(11) is like the exceptional Lie group G_2 except it's
 defined over the field with 11 elements. So, the number 11 raises its
 ugly head yet again!
 
-For more discussion, visit the [*n*-Category
+For more discussion, visit the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2010/01/this_weeks_finds_in_mathematic_51.html).
 
 ------------------------------------------------------------------------

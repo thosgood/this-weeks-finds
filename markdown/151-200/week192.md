@@ -611,5 +611,5 @@ consequences saw to that --- while for the fact that it has indeed been
 full, I have to thank the wonderful developments of physics during my
 lifetime and the great and lovable personalities with whom my work in
 physics brought me contact."*
-
---- Lise Meitner
+> 
+> --- Lise Meitner

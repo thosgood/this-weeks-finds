@@ -882,7 +882,7 @@ And here's the paper by Dunfield and Thurston:
 3-manifolds, available as
 [`arXiv:math/0502567`](http://arxiv.org/abs/math/0502567).
 
-On the *n*-Category Café, a number theorist named James corrected some
+On the $n$-Category Café, a number theorist named James corrected some
 serious mistakes in the original version of this Week's Finds. Here are
 his remarks on why Spec(Z) is $3$-dimensional:
 
@@ -922,7 +922,7 @@ his remarks on why Spec(Z) is $3$-dimensional:
 > Therefore we expect Spec(Z) to be a 3-manifold, but not fibered over
 > anything.
 
-For more discussion, go to the [*n*-Category
+For more discussion, go to the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2007/10/this_weeks_finds_in_mathematic_18.html).
 
 ------------------------------------------------------------------------

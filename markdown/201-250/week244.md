@@ -42,7 +42,7 @@ The proof sounds nice! Jyesthadeva starts with something like this:
 
 In modern terms, the right-hand side is just the integral
 
-\int~0~^1 dx/(1 + x^2)
+\int_0^1 dx/(1 + x^2)
 
 You can use geometry to see this equals \pi /4. Then, as far as I can tell,
 he writes
@@ -347,7 +347,7 @@ category - even one with just finitely many objects and morphisms - to
 give an infinite-dimensional space whose Euler characteristic is a
 divergent series:
 
-n~0~ - n_1 + n_2 - n_3 + n_4 - ...
+n_0 - n_1 + n_2 - n_3 + n_4 - ...
 
 Okay. At this point it's time for me to say what Leinster actually did:
 he came up with a *formula* that you can use to compute the size of a
@@ -575,7 +575,7 @@ We're still just learning to count.
 
 ------------------------------------------------------------------------
 
-**Addendum:** For more discussion, go to the [*n*-Category
+**Addendum:** For more discussion, go to the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2007/02/this_weeks_finds_in_mathematic_5.html).
 
 ------------------------------------------------------------------------

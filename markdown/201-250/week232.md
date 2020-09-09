@@ -519,7 +519,7 @@ expansion, Phys. Lett. B635 (2006) 131-135. Also available as
 > Would it be correct to assume that the ordinary tangent vector p still
 > transforms in the usual way? In other words, suppose I'm living in a
 > 2+1 dimensional universe, and there's a point particle with rest mass
-> m and hence energy-momentum vector in its rest frame of p=me~0~. If I
+> m and hence energy-momentum vector in its rest frame of p=me_0. If I
 > cross its world line with a certain relative velocity, there's an
 > element g of \mathrm{SO}(2,1) which tells me how to map the particle's tangent
 > space to my own. Would I measure the particle's energy-momentum to be

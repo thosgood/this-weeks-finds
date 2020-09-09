@@ -441,8 +441,8 @@ commutative rings are related in nice ways:
 1.  If the open set V is smaller than U, we can restrict functions from
     U to V, getting a ring homomorphism \mathrm{O}(U) \to \mathrm{U}(V)
 2.  If U is covered by a bunch of open sets U_i, and we have a function
-    f_i in each \mathrm{O}(U_i), such that f_i and f~j~ agree when restricted
-    to the set U_i ∩ U~j~, then there's a unique function f in \mathrm{O}(U)
+    f_i in each \mathrm{O}(U_i), such that f_i and f_j agree when restricted
+    to the set U_i ∩ U_j, then there's a unique function f in \mathrm{O}(U)
     that restricts to each of these functions f_i.
 
 Something satisfying condition 1 is called a
@@ -565,7 +565,7 @@ this mammoth 568-page paper:
 13) Nikolai Durov, New approach to Arakelov geometry, available as
 [`arXiv:0704.2030`](http://arxiv.org/abs/0704.2030).
 
-or read our discussions of it at the *n*-Category Café, starting here:
+or read our discussions of it at the $n$-Category Café, starting here:
 
 14) David Corfield, The field with one element,
 `http://golem.ph.utexas.edu/category/2007/04/the_field_with_one_element.html`
@@ -747,7 +747,7 @@ elements of a specific R-module, or more abstractly as "dummy
 variables" used to describe the ring R as a generalized ring in
 Durov's sense - what Lawvere calls an algebraic theory.)
 
-For more discussion, go to the [*n*-Category
+For more discussion, go to the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2007/12/this_weeks_finds_in_mathematic_19.html).
 
 ------------------------------------------------------------------------

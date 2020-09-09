@@ -409,12 +409,12 @@ exhaustion....
 What's a super-Brauer group? It's just like a Brauer group, but where
 we use superalgebras instead of algebras! A "superalgebra" is just
 physics jargon for a Z/2-graded algebra - that is, an algebra A that's
-a direct sum of an "even" or "bosonic" part A~0~ and an "odd" or
+a direct sum of an "even" or "bosonic" part A_0 and an "odd" or
 "fermionic" part A_1:
 
     A = A0 + A1
 
-such that multiplying a guy in A_i and a guy in A~j~ gives a guy in
+such that multiplying a guy in A_i and a guy in A_j gives a guy in
 A~i+j~, where we add the subscripts mod 2.
 
 The tensor product of superalgebras is defined differently than for

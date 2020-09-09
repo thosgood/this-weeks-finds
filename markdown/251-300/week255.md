@@ -703,7 +703,7 @@ To make this kind of abstract space work nicely, F(X) should depend
 by varieties U_i, guys in F(X) are the same as guys in F(U_i) that
 agree on the intersections
 
-U_i ∩ U~j~.
+U_i ∩ U_j.
 
 Here "cover" means "cover in the Nisnevich topology" - that is, an
 étale cover such that every point being covered is the image of a point
@@ -756,7 +756,7 @@ day....
 
 ------------------------------------------------------------------------
 
-**Addendum:** For more discussion, go to the [*n*-Category
+**Addendum:** For more discussion, go to the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2007/08/this_weeks_finds_in_mathematic_16.html).
 
 ------------------------------------------------------------------------

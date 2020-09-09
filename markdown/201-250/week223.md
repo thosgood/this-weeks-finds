@@ -1201,10 +1201,11 @@ Finally, here's my reply to a bemused comment by Jim Stasheff:
 
 ------------------------------------------------------------------------
 
-*"Hah, what a fantastic night," Gunn said. "Arcturus is absolutely
+> *"Hah, what a fantastic night," Gunn said. "Arcturus is absolutely
 steady." He leaned back, put his elbows on the rail of the lift, and
 looked up at the sky. His glasses glinted faintly in the starlight.
 "Astronomy is not terribly important," he said. He fell silent for a
 moment. "Although it is one of the more important things we do as a
-species," he said. He did not see any contradiction there.* - Richard
-Preston, *First Light*
+species," he said. He did not see any contradiction there.*
+>
+> --- Richard Preston, *First Light*

@@ -86,7 +86,7 @@ Derived algebraic geometry IV: deformation theory, available as
 [`arXiv:0709.3091`](http://arXiv.org/abs/0709.3091).\
 Derived algebraic geometry V: structured spaces, available as
 [`arXiv:0905.0459`](http://arXiv.org/abs/0905.0459).\
-Derived algebraic geometry VI: E~k~ algebras, available as
+Derived algebraic geometry VI: E_k algebras, available as
 [`arXiv:0911.0018`](http://arXiv.org/abs/0911.0018).
 
 For related work, try these:
@@ -736,7 +736,7 @@ ice in the Antarctic than the Arctic:
 >
 > Best, David
 
-For more discussion, visit the [*n*-Category
+For more discussion, visit the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2010/02/this_weeks_finds_in_mathematic_54.html).
 
 ------------------------------------------------------------------------

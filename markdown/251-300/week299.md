@@ -364,13 +364,13 @@ can also say what it means for two classical structures to be
 complementary. For a finite-dimensional Hilbert space, any classical
 structure comes from an orthonormal basis - and two of them are
 "complementary" if they come from "mutually unbiased" bases, meaning
-bases e_i and f~j~ such that
+bases e_i and f_j such that
 
-|<e_i,f~j~>|
+|<e_i,f_j>|
 
 is independent of i and j. This means that if you know precisely which
 state e_i your system is in, it has equal chances of being found in any
-of the states f~j~.
+of the states f_j.
 
 So, for example, the spin-up and spin-down states of an electron as
 measured along the x axis form one orthonormal basis. The spin-up and
@@ -946,7 +946,7 @@ ones. So, his product obeys the law
 where R(a) stands for right multiplication by a. Right pre-Lie algebras
 work just as well as left ones.
 
-For more discussion, visit the [*n*-Category
+For more discussion, visit the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2010/06/this_weeks_finds_in_mathematic_60.html).
 
 ------------------------------------------------------------------------

@@ -100,7 +100,7 @@ For more on the Musical Offering, try these:
 Next: there's an incredibly cool relationship between the Mandelbrot
 set and all the Julia sets. Somehow somebody neglected to tell me about
 it when I was first learning about fractals. They ought to be sued! I
-just learned about it from Jesse McKeown over at the *n*-Category Café,
+just learned about it from Jesse McKeown over at the $n$-Category Café,
 and I want some good references on it. I don't understand it as well as
 I'd like! But I can show it to you.
 
@@ -775,7 +775,7 @@ and 60 cycles per second. As expected, there's some history involved:
 > bridge to alternate between (intentional pun)! Hope this has been
 > helpful.
 
-For more discussion, visit the [*n*-Category
+For more discussion, visit the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2010/01/this_weeks_finds_in_mathematic_52.html).
 
 ------------------------------------------------------------------------

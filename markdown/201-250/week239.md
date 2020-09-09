@@ -298,7 +298,7 @@ and many other things he's been writing on the $n$-Category Café lately.
 ------------------------------------------------------------------------
 
 **Addenda:** You can see discussion of this Week's Finds at the
-[*n*-Category
+[$n$-Category
 Café](http://golem.ph.utexas.edu/category/2006/09/this_weeks_finds_in_mathematic.html).
 In his blog [Not Even
 Wrong](http://www.math.columbia.edu/~woit/wordpress/?p=456), Peter Woit

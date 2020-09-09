@@ -1001,8 +1001,10 @@ errors in a previous version of this Week's Finds.
 
 ------------------------------------------------------------------------
 
-*"We have had to fight against the myth of the mainstream which says,
+> *"We have had to fight against the myth of the mainstream which says,
 for example, that there are cycles during which at one time everybody is
 working on general concepts, and at another time anybody of consequence
 is doing only particular examples, whereas in fact serious
-mathematicians have always been doing both."* - F. William Lawvere
+mathematicians have always been doing both."*
+> 
+> --- F. William Lawvere

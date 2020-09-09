@@ -630,10 +630,10 @@ bracket operation
 
 satisfying graded antisymmetry and the graded Jacobi identity. By
 "graded", I mean you need to remember to put in a sign (-1)^jk^
-whenever you switch a guy in C~j~ and a guy in C~k~.
+whenever you switch a guy in C_j and a guy in C_k.
 
 Differential graded Lie algebras are often called DGLAs for short. A
-DGLA where only C~0~ is nonzero is just a plain old Lie algebra. So,
+DGLA where only C_0 is nonzero is just a plain old Lie algebra. So,
 DGLAs really are a generalization of Lie algebras. Whenever anyone tells
 you something about DGLAs, you should check to see what it says about
 Lie algebras.
@@ -1131,7 +1131,7 @@ temperature. He wrote:
 > "a" in Von Laue's *Relativitätstheorie*, a convention which he
 > follows. So the concept does exist out there!
 
-For more discussion, visit the [*n*-Category
+For more discussion, visit the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2010/01/this_weeks_finds_in_mathematic_50.html).
 
 ------------------------------------------------------------------------

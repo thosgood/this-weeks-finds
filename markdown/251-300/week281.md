@@ -644,7 +644,7 @@ Presumably this page is based on Hirschhorn and Hunt's work:
 54) MathPuzzle, The 14 different types of convex pentagons that tile
 the plane, available at `http://www.mathpuzzle.com/tilepent.html`
 
-For more discussion visit the [*n*-Category
+For more discussion visit the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2009/10/this_weeks_finds_in_mathematic_42.html).
 
 ------------------------------------------------------------------------

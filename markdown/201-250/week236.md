@@ -297,15 +297,15 @@ The ordinals don't stop; it's just our notation that gives out. The
 set of all ordinals listed up to now - including all the ones we zipped
 past - is a well-ordered set called
 
-ε~0~
+ε_0
 
 or "epsilon-nought". This has the amazing property that
 
-ε~0~ = ω^ε~0~^
+ε_0 = ω^ε_0^
 
 And, it's the smallest ordinal with this property.
 
-In fact, all the ordinals smaller than ε~0~ can be drawn as trees. You
+In fact, all the ordinals smaller than ε_0 can be drawn as trees. You
 write them in "Cantor normal form" like this:
 
 ω^ω^ω^ω^+ω+1^^ + ω^ω^ω^+ω^ω^^ + ω^ω^ + ω + ω + 1 + 1 + 1
@@ -315,29 +315,29 @@ notation into a picture of a tree. I'll leave it as a puzzle to figure
 out how.
 
 So, the set of (finite, rooted) trees becomes a well-ordered set whose
-ordinal is ε~0~. Trees are important in combinatorics and computer
-science, so ε~0~ is not really so weird after all.
+ordinal is ε_0. Trees are important in combinatorics and computer
+science, so ε_0 is not really so weird after all.
 
 Another cool thing is that Gentzen proved the consistency of the usual
-axioms for arithmetic - "Peano arithmetic" - with the help of ε~0~. He
+axioms for arithmetic - "Peano arithmetic" - with the help of ε_0. He
 did this by drawing proofs as trees, and using this to give an inductive
 argument that there's no proof in Peano arithmetic that 0 = 1. But,
 this inductive argument goes beyond the simple kind you use to prove
-facts about all natural numbers. It uses induction up to ε~0~.
+facts about all natural numbers. It uses induction up to ε_0.
 
 You can't formalize Gentzen's argument in Peano arithmetic: thanks to
 Gödel, this system can't proof itself consistent unless it's *not*. I
 used to think this made Gentzen's proof pointless, especially since
-"induction up to ε~0~" sounded like some sort of insane logician's
+"induction up to ε_0" sounded like some sort of insane logician's
 extrapolation of ordinary mathematical induction.
 
-But now I see that induction up to ε~0~ can be thought of as induction
+But now I see that induction up to ε_0 can be thought of as induction
 on trees, and it seems like an obviously correct principle. Of course
 Peano's axioms also seem obviously correct, so I don't know that
 Gentzen's proof makes me *more sure* Peano arithmetic is consistent.
 But, it's interesting.
 
-Induction up to ε~0~ also lets you prove other stuff you can't prove
+Induction up to ε_0 also lets you prove other stuff you can't prove
 with just Peano arithmetic. For example, it lets you prove that every
 Goodstein sequence eventually reaches zero!
 
@@ -379,7 +379,7 @@ the bottom of this article.
 
 In fact, it takes nothing but algebra, careful reasoning and persistence
 to work out when any given Goodstein sequence reaches zero. But, proving
-they *all* eventually reach zero uses induction up to ε~0~.
+they *all* eventually reach zero uses induction up to ε_0.
 
 How can that be?
 
@@ -394,79 +394,79 @@ For example, when we do the translation
     333+1 + 1 + 1    \to    ωωω+1 + 1 + 1
 
 we see the ordinal got smaller even though the number got bigger. Since
-ε~0~ is well-ordered, the ordinals must bottom out at zero after a
-finite number of steps - that's what "induction up to ε~0~" tells us.
+ε_0 is well-ordered, the ordinals must bottom out at zero after a
+finite number of steps - that's what "induction up to ε_0" tells us.
 So, the numbers must too!
 
-In short, induction up to ε~0~ lets us prove all Goodstein sequences
+In short, induction up to ε_0 lets us prove all Goodstein sequences
 eventually reach zero. But Kirby and Paris showed something much deeper:
-they showed that you *need* induction up to ε~0~ to get the job done.
+they showed that you *need* induction up to ε_0 to get the job done.
 
 And, they noted a big consequence of this fact. Suppose Peano arithmetic
-is consistent. Then you can't do induction up to ε~0~ in this system -
+is consistent. Then you can't do induction up to ε_0 in this system -
 since if you could, Gentzen's work would let this system prove itself
 consistent, and Gödel's theorem would kick in and say it's *not*. But
-since you *need* induction up to ε~0~ to prove all Goodstein sequences
+since you *need* induction up to ε_0 to prove all Goodstein sequences
 go to zero, you can't prove this in Peano arithmetic.
 
 So, the fact that Goodstein sequences go to zero is obvious if you think
 about it the right way, but it's not provable in Peano arithmetic.
 
 I don't know any results in mathematical physics that use induction up
-to ε~0~, but these could be one - after all, trees show up in the theory
+to ε_0, but these could be one - after all, trees show up in the theory
 of Feynman diagrams. That would be pretty interesting.
 
 There's a lot more to say about this, but I hear what you're asking:
-what comes after ε~0~?
+what comes after ε_0?
 
 Well, duh! It's
 
-ε~0~ + 1
+ε_0 + 1
 
 Then comes
 
-ε~0~ + 2
+ε_0 + 2
 
 and then eventually we get to
 
-ε~0~ + ω
+ε_0 + ω
 
 and then
 
-ε~0~ + ω^2,..., ε~0~ + ω^3,... ε~0~ + ω^4,...
+ε_0 + ω^2,..., ε_0 + ω^3,... ε_0 + ω^4,...
 
 and after a long time
 
-ε~0~ + ε~0~ = ε~0~ 2
+ε_0 + ε_0 = ε_0 2
 
 and then eventually
 
-ε~0~^2
+ε_0^2
 
 and then eventually...
 
 Oh, I see! You want to know the first *really interesting* ordinal after
-ε~0~.
+ε_0.
 
 Well, this is a matter of taste, but you might be interested in ε_1.
-This is the first ordinal after ε~0~ that satisfies this equation:
+This is the first ordinal after ε_0 that satisfies this equation:
 
 x = ω^x^
 
-How do we actually reach this ordinal? Well, just as ε~0~ was the limit
+How do we actually reach this ordinal? Well, just as ε_0 was the limit
 of this sequence:
 
 ω, ω^ω^, ω^ω^ω^^, ω^ω^ω^ω^^^,...
 
 ε_1 is the limit of this:
 
-ε~0~ + 1, ω^ε~0~\ +\ 1^, ω^ω^ε~0~\ +\ 1^^, ω^ω^ω^ε~0~\ +\ 1^^^,...
+ε_0 + 1, ω^ε_0\ +\ 1^, ω^ω^ε_0\ +\ 1^^, ω^ω^ω^ε_0\ +\ 1^^^,...
 
 In other words, it's the *union* of all these well-ordered sets.
 
 In what sense is ε_1 the "first really interesting ordinal" after
-ε~0~? I'm not sure! Maybe it's the first one that can't be built out
-of 1, ω and ε~0~ using finitely many additions, multiplications and
+ε_0? I'm not sure! Maybe it's the first one that can't be built out
+of 1, ω and ε_0 using finitely many additions, multiplications and
 exponentiations. Does anyone out there know?
 
 Anyway, the next really interesting ordinal I know after ε_1 is ε_2.
@@ -514,7 +514,7 @@ guess what?
 
 Oh - wait a minute - it's sort of interesting here:
 
-ε~ε~0~~,..., ε~ε_1~,..., ε~ε_2~,...
+ε~ε_0~,..., ε~ε_1~,..., ε~ε_2~,...
 
 and now we reach
 
@@ -526,7 +526,7 @@ and then
 
 and then as we keep speeding up, we see:
 
-ε~ε~ε~0~~~,... ε~ε~ε~ε~0~~~~,... ε~ε~ε~ε~ε~0~~~~~,...
+ε~ε~ε_0~~,... ε~ε~ε~ε_0~~~,... ε~ε~ε~ε~ε_0~~~~,...
 
 So, anyway: by the time we got that tractor museum, we were driving
 really fast. And, all we saw as we whizzed by was a bunch of rusty
@@ -541,13 +541,13 @@ pattern, and that gets boring too...
 
 Anyway, when we reach the limit of this sequence:
 
-ε~0~, ε~ε~0~~, ε~ε~ε~0~~~, ε~ε~ε~ε~0~~~~, ε~ε~ε~ε~ε~0~~~~~,...
+ε_0, ε~ε_0~, ε~ε~ε_0~~, ε~ε~ε~ε_0~~~, ε~ε~ε~ε~ε_0~~~~,...
 
 our notation breaks down, since this is the first solution of
 
 x = ε~x~
 
-We could make up a new name for this ordinal, like η~0~.
+We could make up a new name for this ordinal, like η_0.
 
 Then we could play the whole game again, defining η~α~ to be the αth
 solution of
@@ -573,7 +573,7 @@ for the \gammath type of ordinal, and \varphi~\gamma~(α) for the αth ordinal o
 We can use the fixed point equation to define \varphi~\gamma+1~ in terms of \varphi~\gamma~.
 In other words, we start off by defining
 
-\varphi~0~(α) = ω^α^
+\varphi_0(α) = ω^α^
 
 and then define
 
@@ -594,7 +594,7 @@ There's a souped-up version of Cantor normal form that can handle every
 ordinal that's a finite sum of guys in the Veblen hierarchy: you can
 write them *uniquely* as finite sums of the form
 
-\varphi~\gamma_1~(α_1) + ... + \varphi~\gamma~k~~(α~k~)
+\varphi~\gamma_1~(α_1) + ... + \varphi~\gamma_k~(α_k)
 
 where each term is less than or equal to the previous one, and each α_i
 is not a fixed point of \varphi~\gamma_i~
@@ -620,9 +620,9 @@ interesting to hear what happens next. At this point we reach something
 a bit like the Badlands on the western edge of South Dakota - something
 a bit spooky!
 
-It's called the Feferman-Schütte ordinal, \Gamma~0~. This is just the limit,
+It's called the Feferman-Schütte ordinal, \Gamma_0. This is just the limit,
 or union if you prefer, of all the ordinals mentioned so far: all the
-ones you can get from the Veblen hierarchy. You can also define \Gamma~0~ by
+ones you can get from the Veblen hierarchy. You can also define \Gamma_0 by
 a fixed point property: it's the smallest ordinal x with
 
 \varphi~x~(0) = x
@@ -630,21 +630,21 @@ a fixed point property: it's the smallest ordinal x with
 Now, we've already seen that induction up to different ordinals gives
 us different amounts of mathematical power: induction up to ω is just
 ordinary mathematical induction as formalized by Peano arithmetic, but
-induction up to ε~0~ buys us more - it lets us prove the consistency of
+induction up to ε_0 buys us more - it lets us prove the consistency of
 Peano arithmetic!
 
 Logicians including Feferman and Schütte have carried out a detailed
 analysis of this subject. They know a lot about how much induction up to
-different ordinals buys you. And apparently, induction up to \Gamma~0~ lets
+different ordinals buys you. And apparently, induction up to \Gamma_0 lets
 us prove the consistency of a system called "predicative analysis". I
 don't understand this, nor do I understand the claim I've seen that
-\Gamma~0~ is the first ordinal that cannot be defined predicatively - i.e.,
-can't be defined without reference to itself. Sure, saying \Gamma~0~ is the
+\Gamma_0 is the first ordinal that cannot be defined predicatively - i.e.,
+can't be defined without reference to itself. Sure, saying \Gamma_0 is the
 first solution of
 
 \varphi~x~(0) = x
 
-is non-predicative. But what about saying that \Gamma~0~ is the union of all
+is non-predicative. But what about saying that \Gamma_0 is the union of all
 ordinals in the Veblen hierarchy? What's non-predicative about that?
 
 If anyone could explain this in simple terms, I'd be much obliged.
@@ -995,9 +995,9 @@ Jeffrey Winkler wrote:
 > number of points in a line or a plane, or in infinitely dimensional
 > Hilbert space, could be said to refer to something, but give an
 > example of something, other than one of the sets you're talking
-> about, which would have ε~0~ elements. Where in mathematics or physics
+> about, which would have ε_0 elements. Where in mathematics or physics
 > would you ever use such a concept? If you never would, then what's
-> the point? In other words, is there anything where you could have ε~0~
+> the point? In other words, is there anything where you could have ε_0
 > "many" of something, other than the sets themselves, and if there
 > isn't, then are these actually numbers? If nothing is ever "that
 > many", then is it a number? Of course, we've expanded the concept of
@@ -1017,7 +1017,7 @@ I replied:
 >      > Are the ridiculously infinite forms of infinity you discuss 
 >      > in your article ever used for anything?
 >
-> Without ε~0~ you can't prove that Goodstein sequences converge to
+> Without ε_0 you can't prove that Goodstein sequences converge to
 > zero - an obviously true fact. As I mentioned, the main use of these
 > ordinals is to measure the strength of axiom systems. But, I didn't
 > write about these ordinals because they're useful. I wrote about them
@@ -1041,7 +1041,7 @@ I replied:
 > :::
 >
 > But you can do it for any one of the ordinals I mentioned! David
-> Madore has drawn a picture of ε~0~, for example.
+> Madore has drawn a picture of ε_0, for example.
 >
 > So, for someone to reject these ordinals as "ridiculously infinite",
 > they must have some doubts about the legitimacy of computable subsets
@@ -1280,7 +1280,7 @@ it.
 
 I was worried that Kevin and I had made a mistake until we found this
 thesis which gets the same answer (though the author starts the sequence
-at a~0~ = 4, so it looks one off from ours):
+at a_0 = 4, so it looks one off from ours):
 
 27) Justin T. Miller, On the Independence of Goodstein's Theorem,
 Masters thesis, University of Arizona, 2001. Also available as
@@ -1311,19 +1311,19 @@ considered the first "impredicative" ordinal. He wrote:
 > (predicativity or computability) with a precise mathematical notion.
 > Therefore there is no definitive answer to your question, and Feferman
 > himself has articulated potential objections to the "standard view"
-> that \Gamma~0~ marks the boundary of predicativity.
+> that \Gamma_0 marks the boundary of predicativity.
 >
 > Having said that, I'll also say that one of the reasons for the
-> standard view is that \Gamma~0~ marks the boundary of "autonomous
+> standard view is that \Gamma_0 marks the boundary of "autonomous
 > progressions" of arithmetical theories. The book by Torkel Franzen
 > that you cited is probably the most accessible introduction to this
 > subject. Roughly speaking, the idea is that if anyone fully accepts
 > first-order Peano arithmetic PA, then implicitly he accepts its
 > consistency Con(PA), as well as Con(PA+Con(PA)), etc. If one tries to
 > articulate exactly what is "implicitly" involved in accepting PA in
-> this sense, then one can make a plausibility argument that \Gamma~0~ is a
+> this sense, then one can make a plausibility argument that \Gamma_0 is a
 > natural stopping point. I think you have a better shot at grasping the
-> underlying intuition via this approach than by staring at \Gamma~0~ itself
+> underlying intuition via this approach than by staring at \Gamma_0 itself
 > and trying to figure out what is non-predicative about its definition.
 
 I replied asking if "etc." means there's one theory like this per
@@ -1336,7 +1336,7 @@ argument", and noted:
 > `http://www.cs.nyu.edu/pipermail/fom/2006-April/010472.html`\
 > `http://www.math.wustl.edu/~nweaver/conceptualism.html`
 >
-> He seems to claim that \Gamma~0~ and even larger ordinals have predicative
+> He seems to claim that \Gamma_0 and even larger ordinals have predicative
 > definitions. However, I'm too ignorant to follow this debate. Usually
 > in physics I have a sense for when people are being reasonable even if
 > I don't follow the details. In this debate I can't even do that.
@@ -1377,7 +1377,7 @@ Tim Chow replied:
 >
 > Condition 1 goes by the name of "autonomy" and condition 2 goes by
 > the name of "ramification." If one formalizes these notions in a
-> certain plausible manner, then one arrives at \Gamma~0~ as the least upper
+> certain plausible manner, then one arrives at \Gamma_0 as the least upper
 > bound of theories that you can get to, starting with (for example) PA.
 >
 > One can of course wonder whether 1 and 2 above really capture the
@@ -1385,12 +1385,12 @@ Tim Chow replied:
 > of the following form: Some argument that intuitively seems to be
 > predicative but that is not immediately seen to be provable in the
 > Feferman-Schütte framework is shown, after some work, to indeed be
-> provable below \Gamma~0~.
+> provable below \Gamma_0.
 >
 > It's still possible, of course, for someone---you mentioned Nik
 > Weaver--- to come along and argue that our intuitive notion of
 > predicativism, fuzzy though it is, can't possibly be identified with
-> the level \Gamma~0~. The reason you can't seem to decide immediately
+> the level \Gamma_0. The reason you can't seem to decide immediately
 > whether Weaver's position is nonsensical or not is probably because
 > the critical questions are not mathematical but philosophical, and of
 > course it's usually harder to arrive at definitive answers in
@@ -1429,7 +1429,7 @@ This paper has a nice expository section on generalizations of the
 Veblen hierarchy:
 
 31) Jean H. Gallier, What's so special about Kruskal's theorem and
-the ordinal \Gamma~0~? A survey of some results in proof theory, sec. 7, A
+the ordinal \Gamma_0? A survey of some results in proof theory, sec. 7, A
 glimpse at Veblen hierarchies, Ann. Pure Appl. Logic 53 (1991), 199-260.
 Also available at `http://www.cis.upenn.edu/~jean/gallier-old-pubs.html`
 

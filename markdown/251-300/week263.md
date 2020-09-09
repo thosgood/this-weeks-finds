@@ -570,7 +570,7 @@ Here's a picture of how tholins get made, from this paper:
 :::
 
 You can see more discussion and also *questions I'm dying to know the
-answers to* over at the [*n*-Category
+answers to* over at the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2008/04/this_weeks_finds_in_mathematic_24.html).
 Whenever I write This Week's Finds, I come up with lots of questions.
 If you can help me with some of these, I'll be really grateful.

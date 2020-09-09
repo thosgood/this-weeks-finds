@@ -537,7 +537,7 @@ always been part of the dream of higher-dimensional algebra. These
 the 1970s - see the end of ["Week 199"](#week199) for a little bit
 about them. People know that k-fold loop spaces have k different
 products that commute up to homotopy in a certain way that can be
-summarized by saying they are algebras of the E~k~ operad, also called
+summarized by saying they are algebras of the E_k operad, also called
 the "little k-cubes operad". However, their wealth of structure is
 still a bit mind-boggling. James Dolan and I made some conjectures about
 their relation to k-tuply monoidal categories in our paper
@@ -599,7 +599,7 @@ volume of Stanley's book on enumerative combinatorics (see
 ------------------------------------------------------------------------
 
 **Addenda:** Long after this issue was written, we had a discussion on
-the *n*-Category Café about the "seven trees in one" problem. Let B be
+the $n$-Category Café about the "seven trees in one" problem. Let B be
 the set of binary planar trees - the set I was calling T(1) above.
 Starting from the isomorphism
 
@@ -641,7 +641,7 @@ It was in the ensuing discussion on this blog that George Bell came up
 with his more efficient proof. For a bit more discussion, see:
 
 16) John Baez, Searching for a video proof of "seven trees in one",
-*n*-Category Café, July 16, 2009. Available at
+$n$-Category Café, July 16, 2009. Available at
 `http://golem.ph.utexas.edu/category/2009/07/searching_for_a_video_proof_of.html`.
 
 Now, on to some older addenda!

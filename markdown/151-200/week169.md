@@ -713,5 +713,6 @@ diagrams. But what is the secret inner meaning?
 
 ------------------------------------------------------------------------
 
-*"The perplexity of life arises from there being too many interesting
-things in it for us to be interested properly in any of them."* --- G. K. Chesterton, 1909
+> *"The perplexity of life arises from there being too many interesting things in it for us to be interested properly in any of them."*
+> 
+> --- G. K. Chesterton, 1909

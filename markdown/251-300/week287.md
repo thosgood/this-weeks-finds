@@ -318,7 +318,7 @@ f\colon  Δ^n \to  X
 where Δ^n is the standard $n$-simplex, that is, the intersection of the
 hyperplane
 
-x~0~ + x_1 + ... + x_n = 1
+x_0 + x_1 + ... + x_n = 1
 
 with the set where all the coordinates x_i are nonnegative.
 
@@ -463,7 +463,7 @@ category of sets, this is just a commutative monoid in the traditional
 sense. In the category of vector spaces, it's a commutative algebra.
 And in the category of cochain complexes, it's a DGCA!
 
-Notice: a DGCA where only C~0~ is nonzero is just a plain old
+Notice: a DGCA where only C_0 is nonzero is just a plain old
 commutative algebra. So, DGCAs really are a generalization of
 commutative algebras. So whenever anyone tells you something about
 DGCAs, you should check to see what it says about commutative algebras.
@@ -495,9 +495,9 @@ more about this someday... but not today. This is just a digression. I
 got distracted from my real goal.
 
 Before I got distracted, I was telling you how commutative algebras are
-the same as DGCA's with only C~0~ being nonzero. And here's why I
+the same as DGCA's with only C_0 being nonzero. And here's why I
 mentioned this. We can take *any* DGCA and violently kill C~p~ for all p
-> 0, leaving a commutative algebra C~0~. We can think of this as a
+> 0, leaving a commutative algebra C_0. We can think of this as a
 forgetful functor
 
 \[DGCAs\] \to \[commutative algebras\]
@@ -709,22 +709,22 @@ So, let's prove
 
 v(f) = v(x) f ′
 
-We just need to check they're equal at any point x~0~. So, let's use a
+We just need to check they're equal at any point x_0. So, let's use a
 kind of Taylor series trick:
 
-f(x) = f(x~0~) + (x - x~0~) f ′(x~0~) + (x - x~0~)^2 h(x)
+f(x) = f(x_0) + (x - x_0) f ′(x_0) + (x - x_0)^2 h(x)
 
 Here it's utterly crucial that h is a smooth function on the real line.
 Check that yourself!!! Then, apply the derivation v and use the three
 rules that derivations obey:
 
-v(f)(x) = v(x) f ′(x~0~) + 2(x - x~0~) v(x) h(x) + (x - x~0~)^2 v(h)
+v(f)(x) = v(x) f ′(x_0) + 2(x - x_0) v(x) h(x) + (x - x_0)^2 v(h)
 
-Then evaluate both sides at x = x~0~. A bunch of stuff goes away:
+Then evaluate both sides at x = x_0. A bunch of stuff goes away:
 
-v(f)(x~0~) = v(x) f ′(x~0~)
+v(f)(x_0) = v(x) f ′(x_0)
 
-Since this was true for any point x~0~, we indeed have
+Since this was true for any point x_0, we indeed have
 
 v(f) = v(x) f ′
 
@@ -955,7 +955,7 @@ choice here?)
 
 This led to a big discussion, which I've attempted to summarize in the
 above improved version of ["Week 287"](#week287). To see the
-discussion we had, and add your comments, visit [*n*-Category
+discussion we had, and add your comments, visit [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2009/12/this_weeks_finds_in_mathematic_48.html).
 
 ------------------------------------------------------------------------
