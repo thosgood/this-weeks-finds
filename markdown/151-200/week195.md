@@ -19,8 +19,7 @@ For details see:
 I've been talking to lots of people here, including Lee Smolin, who
 just came out with this review article on quantum gravity:
 
-2) Lee Smolin, How far are we from the quantum theory of gravity?,
-available as [`hep-th/0303185`](https://arxiv.org/abs/hep-th/0303185).
+2) Lee Smolin, "How far are we from the quantum theory of gravity?", available as [`hep-th/0303185`](https://arxiv.org/abs/hep-th/0303185).
 
 He compares all the main approaches, with an emphasis on loop quantum
 gravity and string theory. This is great, because he's one of the few
@@ -73,7 +72,7 @@ In the first of these papers, they wrote:
 > obstacle, and a chaotic situation ensued, with many competing
 > prescriptions proposed in the literature. These prescriptions drew
 > from a variety of fundamental principles such as BRST invariance and
-> the picture- changing formalism, descent equations and Cech
+> the picture-changing formalism, descent equations and Cech
 > cohomology, modular invariance, the light-cone gauge, the global
 > geometry of the Teichmueller curve, the unitary gauge, the operator
 > formalism, group theoretic methods, factorization, and algebraic
@@ -119,32 +118,23 @@ quantum gravity from one of that theory's inventors any more than you
 can expect string theorists to tear into *their* theory! As A. J.
 Tolland has pointed out, Steve Carlip's review article is more
 even-handed (see ["Week 171"](#week171)). But Smolin's is still
-very much worth reading - especially if you want something not too
+very much worth reading --- especially if you want something not too
 technical.
 
 Here's a good review of D'Hoker and Phong's proof that heterotic and
 type II superstring theory are finite up to 2 loops:
 
-3) Eric D'Hoker and D.H. Phong, Lectures on two-loop superstrings,
-available as [`hep-th/0211111`](https://arxiv.org/abs/hep-th/0211111).
+3) Eric D'Hoker and D.H. Phong, "Lectures on two-loop superstrings", available as [`hep-th/0211111`](https://arxiv.org/abs/hep-th/0211111).
 
 It summarizes four long papers of theirs:
 
-4) Eric D'Hoker and D.H. Phong, Two-loop superstrings: I, The main
-formulas, Phys. Lett. B529 (2002), 241-255. Also available as
-[`hep-th/0110247`](https://arxiv.org/abs/hep-th/0110247).
+4) Eric D'Hoker and D.H. Phong, "Two-loop superstrings: I, The main formulas", _Phys. Lett._ **B529** (2002), 241--255. Also available as [`hep-th/0110247`](https://arxiv.org/abs/hep-th/0110247).
 
-II, The chiral measure on moduli space, Nucl. Phys. B636 (2002), 3-60.
-Also available as
-[`hep-th/0110283`](https://arxiv.org/abs/hep-th/0110283).
+    "II, The chiral measure on moduli space", _Nucl. Phys._ **B636** (2002), 3--60. Also available as [`hep-th/0110283`](https://arxiv.org/abs/hep-th/0110283).
 
-III, Slice independence and absence of ambiguities, Nucl. Phys. B636
-(2002), 61-79. Also available as
-[`hep-th/0111016`](https://arxiv.org/abs/hep-th/0111016).
+    "III, Slice independence and absence of ambiguities", _Nucl. Phys._ **B636** (2002), 61--79. Also available as [`hep-th/0111016`](https://arxiv.org/abs/hep-th/0111016).
 
-IV, The cosmological constant and modular forms, Nucl. Phys. B639
-(2002), 129-181. Also available as
-[`hep-th/0111040`](https://arxiv.org/abs/hep-th/0111040).
+    "IV, The cosmological constant and modular forms", _Nucl. Phys._ **B639** (2002), 129--181. Also available as [`hep-th/0111040`](https://arxiv.org/abs/hep-th/0111040).
 
 The quote above is taken from part I.
 
@@ -156,20 +146,15 @@ perturbative quantum gravity *really* known to be nonrenormalizable?
 
 I got some clues here:
 
-5) Zvi Bern, Perturbative quantum gravity and its relation to gauge
-theory, Living Rev. Relativity 5 (2002), available at
-`http://www.livingreviews.org/Articles/Volume5/2002-5bern/index.html`
+5) Zvi Bern, "Perturbative quantum gravity and its relation to gauge theory", _Living Rev. Relativity_ **5** (2002), available at `http://www.livingreviews.org/Articles/Volume5/2002-5bern/index.html`
 
-Zvi Bern, The S-matrix reloaded: twistors, unitarity, gauge theories and
-gravity, talk at the KITP Program: Mathematical Structures in String
-Theory, Sept. 29, 2005. Video, audio and transparencies available at
-`http://online.kitp.ucsb.edu/online/strings05/bern/`
+    Zvi Bern, "The S-matrix reloaded: twistors, unitarity, gauge theories and gravity", talk at the KITP Program: _Mathematical Structures in String Theory_, Sept. 29, 2005. Video, audio and transparencies available at `http://online.kitp.ucsb.edu/online/strings05/bern/`
 
 It turns out the current best method for understanding perturbative
 quantum gravity is to connect it to Yang-Mills theory via the
 "Kawai-Lewellen-Tye relations", whatever those are. (Twistor methods
 have also come into fashion, after I wrote the original version of this
-article.) Apparently the state of the art is like this - though I sure
+article.) Apparently the state of the art is like this --- though I sure
 haven't checked these things myself:
 
 -   In 4 dimensions, pure gravity without matter is renormalizable to 1
@@ -183,8 +168,8 @@ haven't checked these things myself:
     performed to directly verify the existence of the three-loop
     supergravity divergences."
 -   Maximally supersymmetric supergravity theories behave better than
-    people had expected. In 4 dimensions, it *seems* that so-called "N
-    = 8 supergravity" is renormalizable up to 4 loops, but not 5.
+    people had expected. In 4 dimensions, it *seems* that so-called
+    "$N=8$ supergravity" is renormalizable up to 4 loops, but not 5.
     However, neither of these have been proved, and this theory could
     even be renormalizable to all orders: see pages 33-35 in Zvi Bern's
     transparencies above.
@@ -193,88 +178,84 @@ haven't checked these things myself:
 Since M-theory is supposed to reduce to $11$-dimensional supergravity in
 some sort of limit, the last point is important. Indeed this
 nonrenormalizability is why people stopped working on 11d supergravity
-for a while - until evidence started coming in that it sheds a lot of
+for a while --- until evidence started coming in that it sheds a lot of
 light on string theory (see ["Week 72"](#week72)).
 
 For more readable stuff about the nonrenormalizability of 11d
 supergravity, try these review articles:
 
-6) Stanley Deser, Nonrenormalizability of (last hope) D=11
-supergravity, with a terse survey of divergences in quantum gravities,
-available as [`hep-th/9905017`](https://arxiv.org/abs/hep-th/9905017).
+6) Stanley Deser, "Nonrenormalizability of (last hope) $D=11$ supergravity", with a terse survey of divergences in quantum gravities, available as [`hep-th/9905017`](https://arxiv.org/abs/hep-th/9905017).
 
-7) Stanley Deser, Infinities in quantum gravities, Annalen Phys. 9
-(2000) 299-307. Also available as
-[`gr-qc/9911073`](https://arxiv.org/abs/gr-qc/9911073).
+7) Stanley Deser, "Infinities in quantum gravities", _Annalen Phys._ **9** (2000) 299--307. Also available as [`gr-qc/9911073`](https://arxiv.org/abs/gr-qc/9911073).
 
 Speaking of M-theory and the like, I've been reading Acharya's article
-on "G2 manifolds", which I mentioned last week, and I've been talking
-to various people about it on sci.physics.research, especially Robert
+on "$G2$ manifolds", which I mentioned last week, and I've been talking
+to various people about it on `sci.physics.research`, especially Robert
 Helling and Urs Schreiber. Here's a bit of what I have learned.
 
 First of all, let me say some basic stuff about why string theorists
-like G2 manifolds. M-theory lives in 11 dimensions, and 4 + 7 = 11, so
-it's interesting to study M-theory on a spacetime of the form R^4 x N
-where N is a $7$-dimensional manifold. The kind of $7$-dimensional manifold
-that works is called a "G2 manifold". Or at least this might be true
+like $G2$ manifolds. M-theory lives in 11 dimensions, and $4 + 7 = 11$, so
+it's interesting to study M-theory on a spacetime of the form $\mathbb{R}^4\times\mathbb{N}$
+where $N$ is a $7$-dimensional manifold. The kind of $7$-dimensional manifold
+that works is called a "$G2$ manifold". Or at least this might be true
 if anyone knew what M-theory was! What people really understand is
 11-dimensional supergravity, which is supposed to be some sort of
 limiting case of the mysterious mess called M-theory. So, Acharya talks
-about 11d supergravity on Minkowski spacetime times a G2 manifold, and
+about 11d supergravity on Minkowski spacetime times a $G2$ manifold, and
 what sort of physics this gives.
 
 People also like to study superstring theory on spacetimes of the form
-R^4 x O. But superstring theory lives in 10 dimensions, and 4 + 6 = 10,
-so here O should be a $6$-dimensional manifold. The kind of $6$-dimensional
+$\mathbb{R}^4 x O$. But superstring theory lives in 10 dimensions, and
+$4 + 6 = 10$,
+so here $O$ should be a $6$-dimensional manifold. The kind of $6$-dimensional
 manifold that works is called a "Calabi-Yau manifold".
 
-These ideas are related, because M-theory on R^4 x N is sort of like
-heterotic string theory on R^4 x O when N = O x \[0,1\]. But, M-theory
-on R^4 x N has an extra adjustable parameter due to the length of the
-interval \[0,1\]. This lets you make gravity weaker than the other
+These ideas are related, because M-theory on $\mathbb{R}^4 \times N$ is sort of like
+heterotic string theory on $\mathbb{R}^4 \times O$ when $N = O \times [0,1]$. But, M-theory
+on $\mathbb{R}^4 \times N$ has an extra adjustable parameter due to the length of the
+interval $[0,1]$. This lets you make gravity weaker than the other
 forces, which you can't do in heterotic string theory.
 
 At least this is what my sources tell me! I don't understand all of
-this, so it could be a bit wrong. But I think I understand how G2
-manifolds and Calabi-Yau manifolds are related, and why O being a
-Calabi-Yau manifold makes O x \[0,1\] into a G2-manifold. So, I'll
+this, so it could be a bit wrong. But I think I understand how $G2$
+manifolds and Calabi-Yau manifolds are related, and why $O$ being a
+Calabi-Yau manifold makes $O \times [0,1]$ into a G2-manifold. So, I'll
 explain that.
 
 The key principle to keep in mind is that any type of structure you can
 put on a real inner product space yields a type of Riemannian manifold.
 Each tangent space of a Riemannian manifold is a real inner product
 space, and there's a god-given way to parallel transport tangent
-vectors on a Riemannian manifold. So, if X is some type of structure you
-can put on a real inner product space, you can define an "X-manifold"
+vectors on a Riemannian manifold. So, if $X$ is some type of structure you
+can put on a real inner product space, you can define an "$X$-manifold"
 to be a Riemannian manifold where each tangent space has an
-X-structure... in a way that's preserved by parallel transport!
+$X$-structure... in a way that's preserved by parallel transport!
 
-For example, X could be a "Hermitian structure" - a way of making a
+For example, $X$ could be a "Hermitian structure" --- a way of making a
 real inner product space into a *complex* inner product space. Then an
-X-manifold is called a "Kaehler manifold".
+$X$-manifold is called a "Kaehler manifold".
 
 When we parallel transport a vector around a loop in a $n$-dimensional
 Riemannian manifold, it can be rotated or reflected. In more jargonesgue
-jargon, the holonomy around a loop defines an element of the group \mathrm{O}(n).
+jargon, the holonomy around a loop defines an element of the group $\mathrm{O}(n)$.
 But when your manifold is a Kaehler manifold, each tangent space becomes
-a complex inner product space of dimension n/2, in a way that's
+a complex inner product space of dimension $n/2$, in a way that's
 preserved by parallel transport. So, the holonomy around any loop must
-lie in the unitary group \mathrm{U}(n/2).
+lie in the unitary group $\mathrm{U}(n/2)$.
 
 There's a converse to this, as well! So a Kaehler manifold is just a
-Riemannian manifold where the holonomies all lie in \mathrm{U}(n/2).
+Riemannian manifold where the holonomies all lie in $\mathrm{U}(n/2)$.
 
-And this is how it usually works - or *always*, if you take care to
-include all the necessary fine print. Thus many sorts of X-manifolds are
+And this is how it usually works --- or *always*, if you take care to
+include all the necessary fine print. Thus many sorts of $X$-manifolds are
 called "manifolds with special holonomy". See:
 
-8) Dominic Joyce, Compact Manifolds with Special Holonomy, Oxford U.
-Press, Oxford, 2000.
+8) Dominic Joyce, _Compact Manifolds with Special Holonomy_, Oxford U. Press, Oxford, 2000.
 
-For example, suppose X is a "quaternionic structure" - a way of making
+For example, suppose $X$ is a "quaternionic structure" --- a way of making
 a real inner product space into a quaternionic inner product space. Then
-an X-manifold is called a "hyperKaehler manifold", and this just one
-where the holonomies lie in the quaternionic unitary group \mathrm{Sp}(n/4).
+an $X$-manifold is called a "hyperKaehler manifold", and this just one
+where the holonomies lie in the quaternionic unitary group $\mathrm{Sp}(n/4)$.
 
 Or, suppose X is a Hermitian structure together with an n/2-form. Then
 an X-manifold is called a "Calabi-Yau manifold". This concept of
