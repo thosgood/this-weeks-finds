@@ -629,38 +629,31 @@ abelian groups equipped with extra structure, and so on. We keep
 building up fancier gadgets from simpler ones. And pretty much whenever
 we do, there's a monad lurking in the background, running the show!
 
-Suppose we've got two categories C and D, and the objects of D are
-objects of C equipped with extra structure. Then we get a pair of
+Suppose we've got two categories $\mathcal{C}$ and $\mathcal{D}$, and the objects of $\mathcal{D}$ are
+objects of $\mathcal{C}$ equipped with extra structure. Then we get a pair of
 adjoint functors:
-
-    R\colon  D \to  C
-    L\colon  C \to  D
-
-The right adjoint R sends each D-object to its "underlying" C-object,
-and the left adjoint L sends each C-object to the "free" D-object on
-it. Often R is called a "forgetful" functor. For example, if
-
-    C = \mathsf{Set}
-
+$$
+  \begin{aligned}
+    R\colon& \mathcal{D} \to \mathcal{C}
+  \\L\colon& \mathcal{C} \to \mathcal{D}
+  \end{aligned}
+$$
+The right adjoint $R$ sends each $\mathcal{D}$-object to its "underlying" $\mathcal{C}$-object,
+and the left adjoint L sends each $\mathcal{C}$-object to the "free" $\mathcal{D}$-object on
+it. Often $R$ is called a "forgetful" functor. For example, if
+$$\mathcal{C} = \mathsf{Set}$$
 and
-
-    D = Grp
-
+$$\mathcal{D} = \mathsf{Grp}$$
 then we can take the underlying set of any group, and the free group on
 any set.
 
-We get a "monad on C" by letting
-
-    T = LR\colon  C \to  C
-
+We get a "monad on $\mathcal{C}$" by letting
+$$T = LR\colon  \mathcal{C} \to  \mathcal{C}$$
 Then, we can use facts about adjoint functors to get natural
 transformations called "multiplication"
-
-    m: TT \Rightarrow T
-
+$$m\colon TT \Rightarrow T$$
 and the "unit"
-
-    i: 1C \Rightarrow T
+$$i\colon 1_\mathcal{C} \Rightarrow T$$
 
 Using more facts about adjoint functors, we can check that these satisfy
 associativity and the left and right unit laws. I did all this in
@@ -669,16 +662,16 @@ that T is a lot like a monoid --- which is why Benabou dubbed it a
 "monad".
 
 Now, monoids like to *act* on things, and the same is true for monads.
-It turns out that a monad T on C can act on any object of C. When this
-happens, we call that object an "algebra" of T, or a "T-algebra" for
+It turns out that a monad $T$ on $\mathcal{C}$ can act on any object of $\mathcal{C}$. When this
+happens, we call that object an "algebra" of $T$, or a "$T$-algebra" for
 short. And when our monad comes from a pair of adjoint functors as
-above, the main way we get T-algebras is from objects of D. And in nice
-cases, T-algebras are the *same* as objects of D.
+above, the main way we get $T$-algebras is from objects of $\mathcal{D}$. And in nice
+cases, $T$-algebras are the *same* as objects of $\mathcal{D}$.
 
-So, for example, we can describe groups as T-algebras where T is some
+So, for example, we can describe groups as $T$-algebras where $T$ is some
 monad on the category of sets. And we can describe abelian groups as
-T-algebras where T is some monad on the category of groups. And we can
-describe rings as T-algebras where T is some monad on the category of
+$T$-algebras where $T$ is some monad on the category of groups. And we can
+describe rings as $T$-algebras where $T$ is some monad on the category of
 abelian groups. And so on!
 
 To really see how this works, we'd need to look at a few examples. I
@@ -699,19 +692,19 @@ say a bit of fancier stuff to fill in a couple gaps for the
 semi-experts.
 
 First, when I said "in nice cases", I really meant that the category
-of T-algebras is equivalent to D when the forgetful functor R\colon  D \to  C is
-"monadic". A bit more precisely: for any monad T on C there's a
-category of T-algebras, which is usually called C^T^ for some silly
-reason. And, whenever we have a pair of adjoint functors R\colon  D \to  C and L:
-C \to D, we get a monad T = LR and a functor from D to C^T^. This is just
-a careful way of saying that any D-object gives us a T-algebra. And
-finally, we say that R is "monadic" if this functor from D to C^T^ is
+of $T$-algebras is equivalent to \mathcal{D} when the forgetful functor $R\colon \mathcal{D} \to \mathcal{C}$ is
+"monadic". A bit more precisely: for any monad $T$ on $\mathcal{C}$ there's a
+category of $T$-algebras, which is usually called $\mathcal{C}^T$ for some silly
+reason. And, whenever we have a pair of adjoint functors $R\colon \mathcal{D} \to \mathcal{C}$ and
+$L\colon \mathcal{C} \to \mathcal{D}$, we get a monad $T = LR$ and a functor from $\mathcal{D}$ to $\mathcal{C}^T$. This is just
+a careful way of saying that any $\mathcal{D}$-object gives us a $T$-algebra. And
+finally, we say that $R$ is "monadic" if this functor from $\mathcal{D}$ to $\mathcal{C}^T$ is
 an equivalence of categories. There's a theorem by Beck that says how
 to tell when a functor is monadic, just by looking at it.
 
 Second, to make the analogy between monoids and monads precise, we just
-need to realize that a monad on C is a monoid object in the monoidal
-category \operatorname{Hom}(C,C). I already explained this in
+need to realize that a monad on $\mathcal{C}$ is a monoid object in the monoidal
+category $\operatorname{Hom}(\mathcal{C},\mathcal{C})$. I already explained this in
 ["Week 92"](#week92), in even greater generality than we need here,
 but we need this now because I'm about to categorify monads and get
 "doctrines".
@@ -731,98 +724,92 @@ structure and properties.
 
 And this is what Lawvere's "doctrines" do!
 
-I've said how monads on a category C are good for describing "objects
-of C equipped with extra structure and properties". But there's a
-certain category called Cat whose objects are categories! So, let's
-take C = Cat! A monad on Cat will describe categories equipped with
+I've said how monads on a category $\mathcal{C}$ are good for describing "objects
+of $\mathcal{C}$ equipped with extra structure and properties". But there's a
+certain category called $\mathsf{Cat}$ whose objects are categories! So, let's
+take $\mathcal{C} = \mathsf{Cat}$! A monad on $\mathsf{Cat}$ will describe categories equipped with
 extra structure and properties.
 
-And this is the simplest definition of "doctrine": a monad on Cat.
+And this is the simplest definition of "doctrine": a monad on $\mathsf{Cat}$.
 
 However, those of you familiar with $n$-categories will realize that it's
 odd to talk about "the category of all categories". Not because of
 Russell's paradox --- though that's a problem too, forcing us to talk
 about the category of *small* categories --- but because what's really
-important is the 2-CATEGORY of all categories. It's best to think of
-Cat as a $2$-category. But this suggests that we should work with a
+important is the $2$-CATEGORY of all categories. It's best to think of
+$\mathsf{Cat}$ as a $2$-category. But this suggests that we should work with a
 categorified, *weakened* version of monad when defining doctrines.
 
 For this, we need to categorify and weaken the concept of monad. People
 have done this, and the result is sometimes called a "pseudomonad",
-but I prefer to call it a weak 2-monad, since I have dreams of
+but I prefer to call it a weak $2$-monad, since I have dreams of
 categorifying further, and I don't want my notation to become
-ridiculous. I'd rather talk about "weak 3-monads" than
+ridiculous. I'd rather talk about "weak $3$-monads" than
 "pseudopseudomonads", wouldn't you? Furthermore, if you look up
 "pseudomonad" in the dictionary you'll get this:
 
 > **PSEUDOMONAD**: bacteria usually producing greenish fluorescent
 > water-soluble pigment; some pathogenic for plants and animals.
 
-Yuck! So, let's be very general and sketch how to define a weak 2-monad
+Yuck! So, let's be very general and sketch how to define a weak $2$-monad
 in any weak $3$-category (aka tricategory).
 
-Given a weak $3$-category C and an object c of C, a "weak 2-monad on c"
-is just a weak monoidal category object in \operatorname{Hom}(c,c).
+Given a weak $3$-category $\mathcal{C}$ and an object $c$ of $\mathcal{C}$, a "weak $2$-monad on $c$"
+is just a weak monoidal category object in $\operatorname{Hom}(c,c)$.
 
-Huh? Well, \operatorname{Hom}(c,c) is a weak monoidal $2$-category, which is precisely
+Huh? Well, $\operatorname{Hom}(c,c)$ is a weak monoidal $2$-category, which is precisely
 the right environment in which to define a "weak monoidal category
 object", and that's what we're doing here. Start with the usual
-definition of a weak monoidal category, which is a gadget living in Cat.
-Cat is an example of a weak monoidal $2$-category, and we can write down
-the same definition in *any* weak monoidal $2$-category X, getting the
-concept of "weak monoidal category object in X". Then, take X =
-\operatorname{Hom}(c,c).
+definition of a weak monoidal category, which is a gadget living in $\mathsf{Cat}$.
+$\mathsf{Cat}$ is an example of a weak monoidal $2$-category, and we can write down
+the same definition in *any* weak monoidal $2$-category $X$, getting the
+concept of "weak monoidal category object in $X$". Then, take
+$X = \operatorname{Hom}(c,c)$.
 
-(Of course I'm lying slightly here: Cat is more strict than your
+(Of course I'm lying slightly here: $\mathsf{Cat}$ is more strict than your
 average weak monoidal $2$-category, so it may not be immediately obvious
 how to generalize the concept of "weak monoidal category" as I'm
 suggesting. Still, I claim it's not hard if you know about this stuff.)
 
-Now that you know how to define a weak 2-monad on any object c of a
-3-category C, you can take c to be Cat and C to be 2Cat... and this is
+Now that you know how to define a weak $2$-monad on any object $c$ of a
+$3$-category $\mathcal{C}$, you can take $c$ to be $\mathsf{Cat}$ and $\mathcal{C}$ to be $2\mathsf{Cat}$... and this is
 what we really should call a "doctrine".
 
 Unsurprisingly, people often consider stricter versions of the concept
-of "2-monad" and "doctrine". For example, most people define their
+of "$2$-monad" and "doctrine". For example, most people define their
 "pseudomonads" not in a weak $3$-category but just a semistrict one,
-also known as a "Gray-category" --- since 2Cat is one of these. For more
+also known as a "Gray-category" --- since $2\mathsf{Cat}$ is one of these. For more
 details, try these papers:
 
-24) R. Blackwell, G. M. Kelly, and A. J. Power, Two-dimensional monad
-theory, Jour. Pure Appl. Algebra 59 (1989), 1-41.
+24) R. Blackwell, G. M. Kelly, and A. J. Power, "Two-dimensional monad theory", _Jour. Pure Appl. Algebra_ **59** (1989), 1--41.
 
-25) Brian Day and Ross Street, Monoidal bicategories and Hopf
-algebroids, Adv. Math. 129 (1997) 99-157.
+25) Brian Day and Ross Street, "Monoidal bicategories and Hopf algebroids", _Adv. Math._ **129** (1997) 99--157.
 
-26) F. Marmolejo, Doctrines whose structure forms a fully faithful
-adjoint string, Theory and Applications of Categories 3 (1997), 23-44.
-Available at `http://www.tac.mta.ca/tac/volumes/1997/n2/3-02abs.html`
+26) F. Marmolejo, "Doctrines whose structure forms a fully faithful adjoint string", _Theory and Applications of Categories_ **3** (1997), 23--44. Available at `http://www.tac.mta.ca/tac/volumes/1997/n2/3-02abs.html`
 
-27) S. Lack, A coherent approach to pseudomonads, Adv. Math. 152
-(2000), 179-202. Also available at
-`http://www.maths.usyd.edu.au:8000/u/stevel/papers/psm.ps.gz`
+27) S. Lack, "A coherent approach to pseudomonads", _Adv. Math._ **152** (2000), 179--202. Also available at `http://www.maths.usyd.edu.au:8000/u/stevel/papers/psm.ps.gz`
 
-Anyway, suppose T is a doctrine. Then we get a $2$-category of T-algebras
-Cat^T^, whose objects we should think of as "categories equipped with
-extra structure of type T". The classic example would be "categories
+Anyway, suppose $T$ is a doctrine. Then we get a $2$-category of $T$-algebras
+$\mathsf{Cat}^T$, whose objects we should think of as "categories equipped with
+extra structure of type $T$". The classic example would be "categories
 with finite products". Just as Lawvere thought of these as algebraic
-theories, we can think of *any* T-algebra as a "theory of type T", and
-define its category of models: given T-algebras C and D, the category of
-models of C in D is \operatorname{Hom}(C,D), where the hom is taken in Cat^T^.
+theories, we can think of *any* $T$-algebra as a "theory of type $T$", and
+define its category of models: given $T$-algebras $\mathcal{C}$ and $\mathcal{D}$, the category of
+models of $\mathcal{C}$ in $\mathcal{D}$ is $\operatorname{Hom}(\mathcal{C},\mathcal{D})$, where the hom is taken in $\mathsf{Cat}^T$.
 
-Depending on what doctrine T we consider, we get many different forms of
+Depending on what doctrine $T$ we consider, we get many different forms of
 logic, and I'll just list a few to whet your appetite:
 
--   Cat^T^ = "categories with finite products" = "algebraic
-    theories" gives what one might call "algebraic logic" --- purely
+- $\mathsf{Cat}^T = \mbox{"categories with finite products"} = \mbox{"algebraic theories"}$
+    gives what one might call "algebraic logic" --- purely
     equational reasoning about $n$-ary operations. The theory of groups,
     or abelian groups, or rings lives here. The theory of fields does
     not since it involves a partially defined operation, division.
     (People usually restrict the term "algebraic theories" to the case
     of categories with finite products such that every object is of the
-    form 1, X, X^2,... for a single object X, but this seems a bit
+    form $1$, $X$, $X^2$,... for a single object $X$, but this seems a bit
     unnatural to me.)
--   Cat^T^ = "symmetric monoidal categories" gives a sort of logic
+- $\mathsf{Cat}^T = \mbox{"symmetric monoidal categories"}$ gives a sort of logic
     that allows for theories known as "operads" and "PROPs" --- see
     ["Week 191"](#week191) for more. This doctrine is weaker than
     the previous one, since we can only use equations where all the same
@@ -834,35 +821,30 @@ logic, and I'll just list a few to whet your appetite:
     stronger doctrines along these lines are the right context for
     Graeme Segal's "conformal field theories" and Michael Atiyah's
     "topological quantum field theories".
--   Cat^T^ = "categories with finite limits" = "essentially algebraic
-    theories" gives what one might call "essentially algebraic
+- $\mathsf{Cat}^T = \mbox{"categories with finite limits"} = \mbox{"essentially algebraic theories"}$
+    gives what one might call "essentially algebraic
     logic". This doctrine is stronger than that of algebraic theories,
     since it allows operations that are defined only when some equations
     hold. The theory of categories lives here, since composition of
     morphisms is a partially defined operation of this sort. The theory
     of fields does not, since division is defined only when the
     denominator satisfies an *in*equality.
--   Cat^T^ = "regular categories" gives "regular logic". This
+- $\mathsf{Cat}^T = \mbox{"regular categories"}$ gives "regular logic". This
     doctrine is even stronger, since it allows for theories that involve
     relations as well as $n$-ary operations.
--   Cat^T^ = "cartesian closed categories" gives "the typed
-    λ-calculus". This allows for operations on operations on
+- $\mathsf{Cat}^T = \mbox{"cartesian closed categories"}$ gives "the typed
+    $\lambda$-calculus". This allows for operations on operations on
     operations... etc.
--   Cat^T^ = "topoi" gives "topos logic".
+- $\mathsf{Cat}^T = \mbox{"topoi"}$ gives "topos logic".
 
-The typed λ-calculus is very popular in theoretical computer science,
+The typed $\lambda$-calculus is very popular in theoretical computer science,
 and I recommend Crole's book cited above for more about how it's
 related to cartesian closed categories. A good introduction to topos
 logic is McLarty's book cited above. For an exhaustive study of many
 other sorts of logic that should be on this list but aren't, I
-recommend part D of this book by [Peter
-Johnstone](http://andrej.com/mathematicians/J/Johnstone_Peter.html):
+recommend part D of this book by [Peter Johnstone](http://andrej.com/mathematicians/J/Johnstone_Peter.html):
 
-28) Peter Johnstone, Sketches of an Elephant: a Topos Theory
-Compendium, Oxford U. Press, Oxford. Volume 1, comprising Part A:
-Toposes as Categories, and Part B: 2-Categorical Aspects of Topos
-Theory, 720 pages, 2002. Volume 2, comprising Part C: Toposes as Spaces,
-and Part D: Toposes as Theories, 880 pages, 2002.
+28) Peter Johnstone, _Sketches of an Elephant: a Topos Theory Compendium_, Oxford U. Press, Oxford. Volume 1, comprising "Part A: Toposes as Categories", and "Part B: $2$-categorical Aspects of Topos Theory", 720 pages, 2002. Volume 2, comprising "Part C: Toposes as Spaces", and "Part D: Toposes as Theories", 880 pages, 2002.
 
 We can do a lot of fun stuff with all these different forms of logic,
 and people have indeed done so... but I think I'll stop here. My point
@@ -879,14 +861,14 @@ I wish you all a Happy New Year, and good luck on all your adventures.
 errors in a previous version of this Week's Finds.
 
 > Now that I have read it, a few more comments and nit-picks. Lawvere
-> and Tierney did elementary toposes in 69-70. True Bill had looked at
+> and Tierney did elementary toposes in 69--70. True Bill had looked at
 > toposes earlier, but had not stated the elementary axioms until he and
-> Myles came together in Halifax during the years 69-71.
+> Myles came together in Halifax during the years 69--71.
 >
 > The reason Truesdell sent Bill to Columbia was because he and
 > Eilenberg (and Mac Lane) were all working in the same office in NY
 > doing ballistic trajectories (or some foolish thing like that) during
-> the years 42-45. When he realized that Bill was really more of a
+> the years 42--45. When he realized that Bill was really more of a
 > mathematician than physicist, he thought about what mathematician he
 > knew and came up with Eilenberg. I heard this version from Truesdell
 > himself.
