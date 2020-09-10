@@ -5,17 +5,16 @@ Happy New Year!
 I'm making some changes in my life. For many years I've dreamt of
 writing a book on higher-dimensional algebra that will explain
 $n$-categories and their applications to homotopy theory, representation
-theory, quantum physics, combinatorics, logic - you name it! It's an
+theory, quantum physics, combinatorics, logic --- you name it! It's an
 intimidating goal, because every time I learn something new about these
 subjects I want to put it in this imaginary book, so it keeps getting
 longer and longer in my mind! Actually writing it will require heroic
 acts of pruning. But, I want to get started.
 
 It'll be freely available online, and it'll show up here as it
-materializes - but so far I've just got a tentative outline:
+materializes --- but so far I've just got a tentative outline:
 
-1) John Baez, Higher-Dimensional Algebra,
-`http://math.ucr.edu/home/baez/hda/`
+1) John Baez, Higher-Dimensional Algebra, `http://math.ucr.edu/home/baez/hda/`
 
 Unfortunately, I'm very busy these days. As you get older, duties
 accumulate like barnacles on a whale if you're not careful! When I
@@ -37,7 +36,7 @@ job it's really fun to quit. But doing so didn't free up nearly enough
 time.
 
 So now I've also decided to stop moderating the newsgroup
-sci.physics.research - and stop posting so many articles there. This is
+`sci.physics.research` --- and stop posting so many articles there. This is
 painful, because I've learned so much from this newsgroup over the last
 10 years, met so many interesting people, and had such fun. I thank
 everyone on the group. I'll miss you! I'll probably be back whenever I
@@ -46,23 +45,20 @@ get lonely or bored.
 Ahem. Before I get weepy and nostalgic, I should talk about some math.
 
 This November in Florence there was a conference in honor of the 40th
-anniversary of [Bill
-Lawvere](http://andrej.com/mathematicians/L/Lawvere_William.html)'s
-Ph.D. thesis - a famous thesis called "Functorial Semantics of
+anniversary of [Bill Lawvere](http://andrej.com/mathematicians/L/Lawvere_William.html)'s
+Ph.D. thesis --- a famous thesis called "Functorial Semantics of
 Algebraic Theories", which explored the applications of category theory
 to algebra, logic and physics. There are videos of all the talks on the
 conference website:
 
-2) Ramifications of Category Theory, `http://ramcat.scform.unifi.it/`
+2) "Ramifications of Category Theory", `http://ramcat.scform.unifi.it/`
 
-The conference was organized and funded by [Michael
-Wright](http://andrej.com/mathematicians/W/Wright_Michael.html), a
+The conference was organized and funded by [Michael Wright](http://andrej.com/mathematicians/W/Wright_Michael.html), a
 businessman with a great love of mathematics and philosophy, so it was
 appropriate that it was held in the old city of Cosimo de Medici,
 Renaissance banker and patron of scholars. And since there were talks
-both by mathematicians and philosophers - especially [Alberto
-Peruzzi](http://andrej.com/mathematicians/P/Peruzzi_Alberto.html), a
-philosopher at the University of Florence who helped run the show - I
+both by mathematicians and philosophers --- especially [Alberto Peruzzi](http://andrej.com/mathematicians/P/Peruzzi_Alberto.html), a
+philosopher at the University of Florence who helped run the show --- I
 couldn't help but remember Cosimo's "Platonic Academy", which
 spearheaded the rebirth of classical learning in Renaissance Italy. When
 not attending talks, I spent a lot of time roaming around twisty old
@@ -75,7 +71,7 @@ Dante to Machiavelli is buried....
 Ahem. Math!
 
 What was Lawvere's thesis about? It's never been published, so I've
-never read it - though I hear it's going to be. So, my impression of
+never read it --- though I hear it's going to be. So, my impression of
 its contents comes from gossip, rumors and later research that refers to
 his work.
 
@@ -102,13 +98,13 @@ one of the two founders of the subject. He later wrote:
 
 It may seem like a big jump from the down-to-earth world of continuum
 mechanics to category theory, but to Lawvere the connection made perfect
-sense - and while I've always found his writings inpenetrable, after
+sense --- and while I've always found his writings impenetrable, after
 hearing him give four long lectures in Florence I think it makes sense
 to me too! Let's see if I can explain it.
 
 Lawvere first observes that in the traditional approach to physical
 theories, there are two key players. First, there are "concrete
-particulars" - like specific ways for a violin string to oscillate, or
+particulars" --- like specific ways for a violin string to oscillate, or
 specific ways for the planets to move around the sun. Second, there are
 "abstract generals": the physical laws that govern the motion of the
 violin string or the planets.
@@ -150,19 +146,13 @@ don't let you say very much and deduction rules that don't let you
 prove very much, to ultra-powerful ones that let you do all sorts of
 marvelous things. Near the bottom of this hierarchy there's the
 "propositional calculus" where we only get to say things like
-
-    ((P implies Q) and (not Q)) implies (not P)
-
+$$((P \implies Q) \mathrm{and} (\operatorname{not} Q)) \implies (\operatorname{not} P)$$
 Further up there's the "first-order predicate calculus", where we get
 to say things like
-
-    for all x (for all y ((x = y and P(x)) implies P(y)))
-
+$$\forall x (\forall y ((x = y \mathrm{and} P(x)) \implies P(y)))$$
 Even further up, there's the "second-order predicate calculus" where
 we get to quantify over predicates and say things like
-
-    for all x (for all y (for all P (P(x) iff P(y)) implies x = y))
-
+$$\forall x (\forall y (\forall P (P(x) \iff P(y)) \implies x = y))$$
 Etcetera...
 
 And, while you might think it's always best to use the most powerful
@@ -206,15 +196,11 @@ equipped with a binary operation called "multiplication", a unary
 operation called "inverse", and a nullary operation (that is, a
 constant) called the "unit", satisfying these equational laws:
 
-      (gh)k = g(hk)                ASSOCIATIVITY
-
-         1g = g                    LEFT UNIT LAW
-                                   
-         g1 = g                    RIGHT UNIT LAW
-
-       g-1 g = 1                    LEFT INVERSE LAW
-                                   
-       gg-1  = 1                    RIGHT INVERSE LAW
+- associativity: $(gh)k = g(hk)$
+- left unit law: $1g = g$
+- right unit law: $g1 = g$
+- left inverse law: $g^{-1} g = 1$
+- right inverse law: $gg^{-1}  = 1$
 
 Such a primitive gadget is robust enough to survive in very rugged
 environments... it's more like a stone tool than a drill press!
@@ -222,12 +208,9 @@ environments... it's more like a stone tool than a drill press!
 Lawvere noticed that we can talk about models of these axioms not just
 in the category of sets, but in any "category with finite products".
 The point is that to talk about an $n$-ary operation, we just need to be
-able to take the product of an object G with itself n times and consider
+able to take the product of an object $G$ with itself $n$ times and consider
 a morphism
-
-    f\colon  G x  ...  x G \to  G
-       |- n times -|
-
+$$f\colon\underbrace{G\times\ldots\times G}_{\mbox{$n$ times}}\to G.$$
 For example, the category of smooth manifolds has finite products, so we
 can talk about a "group object" in this category, which is just a *Lie
 group*. The category of topological spaces has finite products, so we
@@ -237,60 +220,48 @@ group*. And so on.
 But Lawvere's really big idea was that there's a certain category with
 finite products whose only goal in life is to contain a group object. To
 build this category, first we put in an object
-
-    G
-
+$$G$$
 Since our category has finite products this automatically means it gets
-objects 1, G, G x G, G x G x G, and so on. Next, we put in a binary
+objects $1,$ $G$, $G\times G$, $G\times G\times G$, and so on. Next, we put in a binary
 operation called "multiplication", namely a morphism
-
-    m\colon  G x G \to  G
-
+$$m\colon  G\times G \to  G$$
 We also put in a unary operation called "inverse":
-
-    inv\colon  G \to  G
-
+$$\operatorname{inv}\colon  G \to  G$$
 and a nullary operation called the "unit":
-
-    i\colon  1 \to  G
-
+$$i\colon  1 \to  G$$
 And then we say a bunch of diagrams commute, which express all the
 axioms for a group listed above.
 
-Lawvere calls this category the "theory of groups", Th(Grp). The
-object G is just like a group - but not any *particular* group, since
+Lawvere calls this category the "theory of groups", $\mathsf{Th}(\mathrm{Grp})$. The
+object $G$ is just like a group --- but not any *particular* group, since
 its operations only satisfy those equations that hold in *every* group!
 
 By calling this category a "theory", Lawvere is suggesting that like a
-theory of the traditional sort, it can have models - and indeed it can!
-A "model" of theory of groups in some category X with finite products
+theory of the traditional sort, it can have models --- and indeed it can!
+A "model" of theory of groups in some category $X$ with finite products
 is just a product-preserving functor
-
-    F\colon  Th(Grp) \to  X
-
+$$F\colon  \mathsf{Th}(\mathrm{Grp}) \to  X$$
 By the way things are set up, this gives us an object
-
-    F(G)
-
-in C, together with morphisms
-
-    F(m)\colon  F(G) x F(G) \to  F(G)
-
-    F(inv)\colon  F(G) \to  F(G)
-
-    F(i)\colon  F(1) \to  F(G)
-
+$$F(G)$$
+in $X$, together with morphisms
+$$
+  \begin{gathered}
+    F(m)\colon  F(G) \times F(G) \to  F(G)
+  \\F(inv)\colon  F(G) \to  F(G)
+  \\F(i)\colon  F(1) \to  F(G)
+  \end{gathered}
+$$
 that serve as the multiplication, inverse and identity element for
-F(G)... all making a bunch of diagrams commute, that express the axioms
+$F(G)$... all making a bunch of diagrams commute, that express the axioms
 for a group!
 
-So, a model of the theory of groups in X is just a group object in X.
+So, a model of the theory of groups in $X$ is just a group object in $X$.
 
 Whew. So far I've just explained the *title* of Lawvere's PhD thesis:
 "Functorial Semantics of Algebraic Theories". In Lawvere's approach,
 an "algebraic theory" is given not by writing down a list of axioms,
-but by specifying a category C with finite products. And the semantics
-of such theories is all about product-preserving functors F\colon  C \to  X.
+but by specifying a category $\mathcal{C}$ with finite products. And the semantics
+of such theories is all about product-preserving functors $F\colon  \mathcal{C} \to  X$.
 Hence the term "functorial semantics".
 
 Lawvere did a lot starting with these ideas. Let me just briefly
@@ -298,17 +269,15 @@ summarize, and then move on to his work on topos theory and mathematical
 physics.
 
 Wise mathematicians are interested not just in models, but also the
-homomorphisms between these. So, given an algebraic theory C, Lawvere
-defined its category of models in X, say Mod(C,X), to have
-product-preserving functors F\colon  C \to  X as objects and natural
-transformations between these as morphisms. For example, taking C to be
-the theory of groups and X to be the category of sets, we get the usual
+homomorphisms between these. So, given an algebraic theory $\mathcal{C}$, Lawvere
+defined its category of models in $X$, say $\mathsf{Mod}(\mathcal{C},X)$, to have
+product-preserving functors $F\colon \mathcal{C} \to X$ as objects and natural
+transformations between these as morphisms. For example, taking $\mathcal{C}$ to be
+the theory of groups and $X$ to be the category of sets, we get the usual
 category of groups:
-
-    Mod(Th(Grp),\mathsf{Set}) = Grp
-
+$$\mathsf{Mod}(\mathsf{Th}(\mathrm{Grp}),\mathsf{Set}) = \mathsf{Grp}$$
 That's reassuring, and that's how it always works. What's less
-obvious, though, is that one can always recover C from Mod(C,\mathsf{Set})
+obvious, though, is that one can always recover $\mathcal{C}$ from $\mathsf{Mod}(\mathcal{C},\mathsf{Set})$
 together with its forgetful functor to the category of sets.
 
 In other words: not only can we get the models from the theory, but we
@@ -320,28 +289,29 @@ Birkhoff on universal algebra. But fans of the Tannaka-Krein
 reconstruction theorem for quantum groups will recognize this duality
 between "theories and their category of models" as just another face
 of the duality between "algebras and their category of
-representations" - the classic example being the Fourier transform and
+representations" --- the classic example being the Fourier transform and
 inverse Fourier transform!
 
 And this gives me an excuse to explain another bit of Lawvere's jargon:
 while a theory is an "abstract general", and particular model of it is
 a "concrete particular", he calls the category of *all* its models in
-some category a "concrete general". For example, Th(Grp) is an
+some category a "concrete general". For example, $\mathsf{Th}(\mathrm{Grp})$ is an
 abstract general, and any particular group is a concrete particular, but
-Grp is a concrete general. I mention this mainly because Lawvere flings
+$\mathsf{Grp}$ is a concrete general. I mention this mainly because Lawvere flings
 around this trio of terms quite a bit, and some people find them
 off-putting. There are lots of reasons to find his work daunting, but
 this need not be one.
 
 In short, we have this kind of setup:
 
-                ABSTRACT GENERAL              CONCRETE GENERAL
-                theory                        models
-                syntax                        semantics
+| ABSTRACT GENERAL | CONCRETE GENERAL |
+| :--------------- | :--------------- |
+| theory| models |
+| syntax | semantics |
 
 and a precise duality between the two columns!
 
-I would love to dig deeper in this direction - I've really just
+I would love to dig deeper in this direction --- I've really just
 scratched the surface so far, and I'm afraid the experts will be
 disappointed... but I'm even more afraid that if I went further, the
 rest of you readers would drop like flies. So instead, let me say a bit
@@ -353,15 +323,15 @@ what most of us have been brainwashed into accepting as our default
 setting, namely Zermelo-Fraenkel set theory with the axiom of choice. So
 if we want, we can do physics in a context less general than an
 arbitrary category with finite products, while still not restricting
-ourselves to the category of sets. This is where "topoi" come in -
+ourselves to the category of sets. This is where "topoi" come in ---
 they're a lot like the category of sets, but vastly more general.
 
 Topos theory was born when Grothendieck decided to completely rewrite
 algebraic geometry as part of a massive plan to prove the Weil
 conjectures. Grothendieck was another revolutionary of the early 1960s,
 and he arrived at his concept of "topos" sometime around 1962. In
-1969-70, Lawvere and Myles Tierney took this concept - now called a
-"Grothendieck topos" - and made it both simpler and more general,
+1969-70, Lawvere and Myles Tierney took this concept --- now called a
+"Grothendieck topos" --- and made it both simpler and more general,
 arriving at the present definition. Briefly put, a topos is a category
 with finite limits, exponentials, and a subobject classifier. But
 instead of saying what these words mean, I'll just say that this lets
@@ -370,159 +340,130 @@ the law of excluded middle or the axiom of choice.
 
 One of the many reasons this middle ground is so attractive is that it
 lets you do calculus with infinitesimals the way physicists enjoy doing
-it! Lawvere started doing this in 1967 - he called it "synthetic
+it! Lawvere started doing this in 1967 --- he called it "synthetic
 differential geometry". Basically, he cooked up some axioms on a topos
 that let you do calculus and differential geometry with infinitesimals.
-The most famous topos like this is the topos of "schemes" - algebraic
+The most famous topos like this is the topos of "schemes" --- algebraic
 geometers use this one a lot. The usual category of smooth manifolds is
 not even a topos, but there are topoi that can serve as a substitute,
 which have infinitesimals.
 
 I won't list the axioms of synthetic differential geometry, but the
-main idea is that our topos needs to contain an object T called the
+main idea is that our topos needs to contain an object $\mathcal{T}$ called the
 "infinitesimal arrow". This is a rigorous version of those little
 arrows physicists like to draw when talking about vectors:
-
-                                 ----->
-
+$$\to$$
 The usual problem with these "little arrows" is that they need to be
 really tiny, but still point somewhere. In other words, the head can't
-be at a finite distance from the tail - but they can't be at the same
+be at a finite distance from the tail --- but they can't be at the same
 place, either! This seems like a paradox, but one can neatly sidestep it
-by dropping the law of excluded middle - or in technical jargon, working
+by dropping the law of excluded middle --- or in technical jargon, working
 with a "non-Boolean topos".
 
-That sounds like a drastic solution - a cure worse than the disease,
-perhaps! - but it's really not so bad. Indeed, algebraic geometers are
+That sounds like a drastic solution --- a cure worse than the disease,
+perhaps! --- but it's really not so bad. Indeed, algebraic geometers are
 perfectly comfortable with the topos of schemes, and they don't even
-raise an eyebrow over the fact that this topos is non-Boolean - mainly
+raise an eyebrow over the fact that this topos is non-Boolean --- mainly
 because you're allowed to use ordinary logic to reason *about* a topos,
 even if its internal logic is funny.
 
 But enough logic! Let's do some geometry! Let's say we're in some
-topos with an infinitesimal arrow object, T. I'll call the objects of
+topos with an infinitesimal arrow object, $\mathcal{T}$. I'll call the objects of
 this topos "smooth spaces" and the morphisms "smooth maps". How does
 geometry work in here?
 
-It's very nice. The first nice thing is that given any smooth space X,
-a "tangent vector in X" is just a smooth map
+It's very nice. The first nice thing is that given any smooth space $X$,
+a "tangent vector in $X$" is just a smooth map
+$$f\colon  \mathcal{T} \to  X$$
+that is, a way of drawing an infinitesimal arrow in $X$. In general, the
+maps from any object $A$ of a topos to any other object $B$ form an object
+called $B^A$ --- this is part of what we mean when we say a topos has
+exponentials. So, the space of all tangent vectors in $X$ is $X^{\mathcal{T}}$.
 
-    f\colon  T \to  X
-
-that is, a way of drawing an infinitesimal arrow in X. In general, the
-maps from any object A of a topos to any other object B form an object
-called B^A^ - this is part of what we mean when we say a topos has
-exponentials. So, the space of all tangent vectors in X is X^T^.
-
-And this is what people usually call the "tangent bundle" of X!
+And this is what people usually call the "tangent bundle" of $X$!
 
 So, the tangent bundle is pathetically simple in this setup: it's just
-a space of maps. This means we can compose a tangent vector f: T -> X
-with any smooth map g\colon  X \to  Y to get a tangent vector gf: T -> Y. This
+a space of maps. This means we can compose a tangent vector $f\colon \mathcal{T} \to X$
+with any smooth map $g\colon  X \to  Y$ to get a tangent vector $gf\colon \mathcal{T} \to Y$. This
 is what people usually call "pushing forward tangent vectors". This
 trick gives a smooth map between tangent bundles, the "differential of
-g", which it makes sense to call
-
-    gT\colon  XT \to  YT
-
+$g$", which it makes sense to call
+$$g\mathcal{T}\colon  X\mathcal{T} \to  Y\mathcal{T}$$
 Moreover, it's pathetically easy to check the chain rule:
-
-    (gh)T = gT hT
-
-And so far we haven't used *any* axioms about the object T - just basic
+$$(gh)\mathcal{T} = g\mathcal{T} h\mathcal{T}$$
+And so far we haven't used *any* axioms about the object $\mathcal{T}$ --- just basic
 stuff about how maps work!
 
-We can also define higher derivatives using T. For second derivatives we
-start with T x T, which looks like an "infinitesimal square". Then we
+We can also define higher derivatives using $\mathcal{T}$. For second derivatives we
+start with $\mathcal{T} \times \mathcal{T}$, which looks like an "infinitesimal square". Then we
 mod out by the map
-
-    ST,T\colon  T x T \to  T x T
-
+$$S_{\mathcal{T},\mathcal{T}}\colon \mathcal{T} \times \mathcal{T} \to \mathcal{T} \times \mathcal{T}$$
 that switches the two factors. You should visualize this map as
 "reflection across the diagonal". When we mod out by it, we get a
 quotient space that deserves the name
-
-    T2/2!
-
-and if we now use some axioms about T, it turns out that a smooth map
-
-    f\colon  T2/2! \to  X
-
-picks out what's called a "second-order jet" in X. This is a concept
+$$\frac{\mathcal{T}^2}/{2!}$$
+and if we now use some axioms about $\mathcal{T}$, it turns out that a smooth map
+$$f\colon \frac{\mathcal{T}^2}{2!} \to X$$
+picks out what's called a "second-order jet" in $X$. This is a concept
 familiar from traditional geometry, but not as familiar as it should be.
-The information in a second-order jet consists of a point in X, the
-first derivative of a curve through X, and also the *second* derivative
-of a curve through X. Or in physics lingo: position, velocity and
+The information in a second-order jet consists of a point in $X$, the
+first derivative of a curve through $X$, and also the *second* derivative
+of a curve through $X$. Or in physics lingo: position, velocity and
 acceleration!
 
-We can go ahead and define nth-order jets using T^n/n! in a perfectly
+We can go ahead and define $n$th-order jets using $\mathcal{T}^n/n!$ in a perfectly
 analogous way, and the visual resemblance to Taylor's theorem is by no
 means an accident... but let me stick to second derivatives, since I'm
-trying to get to Newton's good old F = ma.
+trying to get to Newton's good old $F = ma$.
 
-Just as the space of all tangent vectors in X is the tangent bundle
-X^T^, the space of all 2nd-order jets in X is the "2nd-order jet
+Just as the space of all tangent vectors in $X$ is the tangent bundle
+$X^{\mathcal{T}}$, the space of all 2nd-order jets in $X$ is the "2nd-order jet
 bundle"
-
-    XT2/2!
-
+$$X^{\frac{\mathcal{T}^2}{2!}}$$
 There's a map called the "diagonal":
-
-    diag\colon  T \to  T2/2! 
-
+$$diag\colon \mathcal{T} \to \frac{\mathcal{T}^2}{2!}$$
 and composing this with any 2nd-order jet turns it into a tangent
 vector. This defines a smooth map
-
-    pX\colon  XT2/2! \to  XT
-
+$$p_X\colon X^{\frac{\mathcal{T}^2}{2!}} \to X^\mathcal{T}$$
 from the 2nd-order jet bundle to the tangent bundle. Intuitively you can
 think of this as sending any position-velocity-acceleration triple, say
-(q,q',q"), to the pair (q,q').
+$(q,q',q'')$, to the pair $(q,q')$.
 
 Now for the fun part: Lawvere defines a "dynamical law" to be a smooth
 map going the other way:
-
-    sX\colon  XT \to  XT2/2!
-
-such that s~X~ followed by p~X~ is the identity. In other words, it's a
-way of mapping any position-velocity pair (q,q') to a triple
-(q,q',q"). So, it's a formula for acceleration in terms of position
+$$sX\colon X^{\mathcal{T}} \to X^{\frac{\mathcal{T}^2}{2!}}$$
+such that $s_X$ followed by $p_X$ is the identity. In other words, it's a
+way of mapping any position-velocity pair $(q,q')$ to a triple
+$(q,q',q'')$. So, it's a formula for acceleration in terms of position
 and velocity!
 
 There is a category where an object is a smooth space equipped with a
 dynamical law and a morphism is a "lawful motion": that is, a smooth
 map
-
-    f\colon  X \to  Y
-
+$$f\colon  X \to  Y$$
 that makes the obvious diagram commute:
-
-                        sX
-              XT -------------> XT2/2!
-              |                   |
-              |                   |
-              |                   |
-           fT  |                   | fT2/2!
-              |                   |
-              |                   |
-              |                   |
-              V        sY          V
-              YT -------------> YT2/2!
-
-In particular, if we take R to be the real numbers - "time" - and
+$$
+  \begin{tikzcd}
+    X^{\mathcal{T}}
+      \rar["s_X"]
+      \dar["f^{\mathcal{T}}"]
+    & X^{\frac{\mathcal{T}^2}{2!}}
+      \dar["f^{\frac{\mathcal{T}^2}{2!}}"]
+  \\Y^{\mathcal{T}}
+      \rar[swap,"s_Y"]
+    & Y^{\frac{\mathcal{T}^2}{2!}}
+  \end{tikzcd}
+$$
+In particular, if we take $\mathbb{R}$ to be the real numbers --- "time" --- and
 equip it with the law saying
-
-    q" = 0 
-
+$$q'' = 0$$
 meaning that "time ticks at an unchanging rate", then a lawful motion
-
-    f\colon  R \to  X
-
-is precisely a trajectory in X that "follows the law", meaning that
+$$f\colon  \mathbb{R} \to  X$$
+is precisely a trajectory in $X$ that "follows the law", meaning that
 the acceleration of the trajectory is the desired function of position
 and velocity. This example is a setup for the classical mechanics of a
 point particle; it's easy to generalize to classical field theory by
-replacing R by a higher-dimensional space.
+replacing $\mathbb{R}$ by a higher-dimensional space.
 
 In fact, under some mild conditions this category whose objects are
 spaces equipped with dynamical law and whose morphisms are lawful
@@ -557,11 +498,9 @@ popular. But secondly, he's been hard at work trying to make the
 subject accessible to beginners. He's recently written a couple of
 textbooks you don't need a degree in math to read:
 
-3) F. William Lawvere and Steve Schanuel, Conceptual Mathematics: A
-First Introduction to Categories, Cambridge U. Press, Cambridge, 1997.
+3) F. William Lawvere and Steve Schanuel, _Conceptual Mathematics: A First Introduction to Categories_, Cambridge U. Press, Cambridge, 1997.
 
-4) F. William Lawvere and Robert Rosebrugh, \mathsf{Set}s for Mathematics,
-Cambridge U. Press, Cambridge, 2002.
+4) F. William Lawvere and Robert Rosebrugh, _Sets for Mathematics_, Cambridge U. Press, Cambridge, 2002.
 
 And third, the great thing about topos theory is that you don't need to
 "accept it" to profit from it. In math, what really matters is not
@@ -574,25 +513,20 @@ stuff.
 Alas, I believe Lawvere's thesis is still lurking in the stacks at
 Columbia University:
 
-5) F. W. Lawvere, Functorial semantics of algebraic theories,
-Dissertation, Columbia University, 1963.
+5) F. W. Lawvere, _Functorial semantics of algebraic theories_, Dissertation, Columbia University, 1963.
 
 and so far he's only gotten around to publishing a brief summary:
 
-6) F. William Lawvere, Functorial semantics of algebraic theories,
-Proceedings, National Academy of Sciences, U.S.A. 50 (1963), 869-872.
+6) F. William Lawvere, "Functorial semantics of algebraic theories", _Proceedings, National Academy of Sciences, U.S.A._ **50** (1963), 869--872.
 
 But, you can find expositions of his work on algebraic theories here and
 there. Here's a gentle one geared towards computer scientists:
 
-7) Roy L. Crole, Categories for Types, Cambridge U. Press, Cambridge,
-1993.
+7) Roy L. Crole, _Categories for Types_, Cambridge U. Press, Cambridge, 1993.
 
 A considerably more macho one is available free online:
 
-8) Michael Barr and Charles Wells, Toposes, Triples and Theories,
-Springer-Verlag, New York, 1983. Available for free electronically at
-`http://www.cwru.edu/artsci/math/wells/pub/ttt.html`
+8) Michael Barr and Charles Wells, _Toposes, Triples and Theories_, Springer-Verlag, New York, 1983. Available for free electronically at `http://www.cwru.edu/artsci/math/wells/pub/ttt.html`
 
 This book also talks about "sketches", which are a way of
 syntactically presenting a category with finite products. It also serves
@@ -604,95 +538,68 @@ By the way, a "triple" is just another name for a monad.
 A really beautiful more advanced treatment of algebraic theories and
 also "essentially algebraic theories" can be found here:
 
-9) Maria Cristina Pedicchio, Algebraic Theories, in Textos de
-Matematica: School on Category Theory and Applications, Coimbra, July
-13-17, 1999, pp. 101-159.
+9) Maria Cristina Pedicchio, "Algebraic Theories", in _Textos de Matematica: School on Category Theory and Applications, Coimbra, July 13--17_, 1999, pp. 101--159.
 
-Someone should urge her to make this available online - it's already in
+Someone should urge her to make this available online --- it's already in
 TeX, and it deserves to be easier to get!
 
 Shortly after his thesis, Lawvere tackled topoi in this paper:
 
-10) F. William Lawvere, Elementary theory of the category of sets,
-Proceedings of the National Academy of Science 52 (1964), 1506-1511.
+10) F. William Lawvere, "Elementary theory of the category of sets", _Proceedings of the National Academy of Science_ **52** (1964), 1506--1511.
 
 He then wrote a number of other papers on algebraic theories and the
 like:
 
-11) F. William Lawvere, Algebraic theories, algebraic categories, and
-algebraic functors, in Theory of Models, North-Holland, Amsterdam
-(1965), 413-418.
+11) F. William Lawvere, "Algebraic theories, algebraic categories, and algebraic functors", in _Theory of Models_, North-Holland, Amsterdam (1965), 413--418.
 
-12) F. William Lawvere, Functorial semantics of elementary theories,
-Journal of Symbolic Logic, Abstract, 31 (1966), 294-295.
+12) F. William Lawvere, "Functorial semantics of elementary theories", _Journal of Symbolic Logic, Abstract_, **31** (1966), 294--295.
 
-13) F. William Lawvere, The category of categories as a foundation for
-mathematics, in La Jolla Conference on Categorical Algebra, Springer,
-Berlin 1966, pp. 1-20.
+13) F. William Lawvere, "The category of categories as a foundation for mathematics", in _La Jolla Conference on Categorical Algebra_, Springer, Berlin 1966, pp. 1--20.
 
-14) F. William Lawvere, Some algebraic problems in the context of
-functorial semantics of algebraic theories, in Reports of the Midwest
-Category Seminar, eds. Jean Benabou et al, Springer Lecture Notes in
-Mathematics No. 61, Springer, Berlin 1968, pp. 41-61.
+14) F. William Lawvere, "Some algebraic problems in the context of functorial semantics of algebraic theories", in _Reports of the Midwest Category Seminar_, eds. Jean Benabou et al, Springer Lecture Notes in Mathematics No. **61**, Springer, Berlin 1968, pp. 41--61.
 
 Then came his work on "doctrines", which I vaguely alluded to a while
 back:
 
-15) F. William Lawvere, Ordinal sums and equational doctrines, Springer
-Lecture Notes in Mathematics No. 80, Springer, Berlin, 1969, pp.
-141-155.
+15) F. William Lawvere, _Ordinal sums and equational doctrines_, Springer Lecture Notes in Mathematics No. **80**, Springer, Berlin, 1969, pp. 141--155.
 
 Lawvere started publishing his ideas on mathematical physics in the late
 1970s, though he must have been thinking about them all along:
 
-16) F. William Lawvere, Categorical dynamics, in Proceedings of Aarhus
-May 1978 Open House on Topos Theoretic Methods in Geometry,
-Aarhus/Denmark (1979).
+16) F. William Lawvere, "Categorical dynamics", in _Proceedings of Aarhus May 1978 Open House on Topos Theoretic Methods in Geometry_, Aarhus/Denmark (1979).
 
-17) F. William Lawvere, Toward the description in a smooth topos of the
-dynamically possible motions and deformations of a continuous body,
-Cahiers de Topologie et Geometrie Differentielle Categorique 21 (1980),
-337-392.
+17) F. William Lawvere, "Toward the description in a smooth topos of the dynamically possible motions and deformations of a continuous body", _Cahiers de Topologie et Geometrie Differentielle Categorique_ **21** (1980), 337--392.
 
 In 1981, Anders Kock came out with a textbook on synthetic differential
 geometry:
 
-18) Anders Kock, Synthetic Differential Geometry, Cambridge U. Press,
-Cambridge, 1981.
+18) Anders Kock, _Synthetic Differential Geometry_, Cambridge U. Press, Cambridge, 1981.
 
 More recently, Lawvere came out with a book on applications of category
 theory to physics:
 
-19) F. William Lawvere and S. Schanuel, editors, Categories in
-Continuum Physics, Springer Lecture Notes in Mathematics No. 1174,
-Springer, Berlin, 1986.
+19) F. William Lawvere and S. Schanuel, editors, _Categories in Continuum Physics_, Springer Lecture Notes in Mathematics No. **1174**, Springer, Berlin, 1986.
 
 The quote about Lawvere's teachers is from:
 
-20) F. William Lawvere, Foundations and applications: axiomatization
-and education, Bulletin of Symbolic Logic 9 (2003), 213-224. Also
-available at `http://www.math.ucla.edu/~asl/bsl/0902/0902-006.ps`
+20) F. William Lawvere, "Foundations and applications: axiomatization and education", _Bulletin of Symbolic Logic_ **9** (2003), 213--224. Also available at `http://www.math.ucla.edu/~asl/bsl/0902/0902-006.ps`
 
 and this gives a good overview of his ideas, though not easy to read! He
 also has some other papers online summarizing his ideas on differential
 geometry and physics:
 
-21) F. William Lawvere, Outline of synthetic differential geometry,
-available at `http://www.acsu.buffalo.edu/~wlawvere/downloadlist.html`.
+21) F. William Lawvere, "Outline of synthetic differential geometry", available at `http://www.acsu.buffalo.edu/~wlawvere/downloadlist.html`.
 
-22) F. William Lawvere, Toposes of laws of motion, available at
-`http://www.acsu.buffalo.edu/~wlawvere/downloadlist.html`.
+22) F. William Lawvere, "Toposes of laws of motion", available at `http://www.acsu.buffalo.edu/~wlawvere/downloadlist.html`.
 
-Finally, [Colin
-McLarty](http://andrej.com/mathematicians/M/McLarty_Colin.html) - whom I
-was delighted to meet in Florence - has a nice quick introduction to
+Finally, [Colin McLarty](http://andrej.com/mathematicians/M/McLarty_Colin.html) --- whom I
+was delighted to meet in Florence --- has a nice quick introduction to
 synthetic differential geometry in his textbook on categories and topos
 theory:
 
-23) Colin McLarty, Elementary Categories, Elementary Toposes, Clarendon
-Press, Oxford, 1995.
+23) Colin McLarty, _Elementary Categories, Elementary Toposes_, Clarendon Press, Oxford, 1995.
 
-Along with Lawvere's books "Conceptual Mathematics" and "\mathsf{Set}s for
+Along with Lawvere's books "Conceptual Mathematics" and "Sets for
 Mathematics", this is the one reference that's really good for
 beginners!
 
@@ -708,8 +615,8 @@ What's a "doctrine"?
 
 Well, in ["Week 89"](#week89) I described a "monad" in an
 arbitrary $2$-category. But most of the time when people talk about monads
-they mean monads in Cat, the $2$-category of all categories. These are the
-most important monads - but I've never really said what they're good
+they mean monads in $\mathsf{Cat}$, the $2$-category of all categories. These are the
+most important monads --- but I've never really said what they're good
 for! I need to come clean and explain this now, since a doctrine is a
 categorified version of a monad.
 
@@ -758,7 +665,7 @@ and the "unit"
 Using more facts about adjoint functors, we can check that these satisfy
 associativity and the left and right unit laws. I did all this in
 ["Week 92"](#week92) so I won't do it again here. The upshot is
-that T is a lot like a monoid - which is why Benabou dubbed it a
+that T is a lot like a monoid --- which is why Benabou dubbed it a
 "monad".
 
 Now, monoids like to *act* on things, and the same is true for monads.
@@ -778,7 +685,7 @@ To really see how this works, we'd need to look at a few examples. I
 remember when James Dolan was first teaching me this stuff in a little
 coffeeshop here in Riverside, which has since gone out of business. I
 considered monads "too abstract" and dug my heels in like a stubborn
-mule, refusing to learn about them - until I went through a bunch of
+mule, refusing to learn about them --- until I went through a bunch of
 examples and saw that *yes*, this monad business really *does* capture
 the essence of what it means to build up fancy gadgets from simple ones
 by adding extra structure! And by now I'm completely sold on it. One
@@ -834,8 +741,8 @@ And this is the simplest definition of "doctrine": a monad on Cat.
 
 However, those of you familiar with $n$-categories will realize that it's
 odd to talk about "the category of all categories". Not because of
-Russell's paradox - though that's a problem too, forcing us to talk
-about the category of *small* categories - but because what's really
+Russell's paradox --- though that's a problem too, forcing us to talk
+about the category of *small* categories --- but because what's really
 important is the 2-CATEGORY of all categories. It's best to think of
 Cat as a $2$-category. But this suggests that we should work with a
 categorified, *weakened* version of monad when defining doctrines.
@@ -878,7 +785,7 @@ what we really should call a "doctrine".
 Unsurprisingly, people often consider stricter versions of the concept
 of "2-monad" and "doctrine". For example, most people define their
 "pseudomonads" not in a weak $3$-category but just a semistrict one,
-also known as a "Gray-category" - since 2Cat is one of these. For more
+also known as a "Gray-category" --- since 2Cat is one of these. For more
 details, try these papers:
 
 24) R. Blackwell, G. M. Kelly, and A. J. Power, Two-dimensional monad
@@ -907,7 +814,7 @@ Depending on what doctrine T we consider, we get many different forms of
 logic, and I'll just list a few to whet your appetite:
 
 -   Cat^T^ = "categories with finite products" = "algebraic
-    theories" gives what one might call "algebraic logic" - purely
+    theories" gives what one might call "algebraic logic" --- purely
     equational reasoning about $n$-ary operations. The theory of groups,
     or abelian groups, or rings lives here. The theory of fields does
     not since it involves a partially defined operation, division.
@@ -916,7 +823,7 @@ logic, and I'll just list a few to whet your appetite:
     form 1, X, X^2,... for a single object X, but this seems a bit
     unnatural to me.)
 -   Cat^T^ = "symmetric monoidal categories" gives a sort of logic
-    that allows for theories known as "operads" and "PROPs" - see
+    that allows for theories known as "operads" and "PROPs" --- see
     ["Week 191"](#week191) for more. This doctrine is weaker than
     the previous one, since we can only use equations where all the same
     variables appear on both sides, with no duplications or deletions.
@@ -961,7 +868,7 @@ We can do a lot of fun stuff with all these different forms of logic,
 and people have indeed done so... but I think I'll stop here. My point
 is merely that higher category theory and logic go hand-in-glove, and
 there is plenty of room for exploration here, especially if we keep
-categorifying - and also keep trying to craft our logic to real-world
+categorifying --- and also keep trying to craft our logic to real-world
 applications, especially in physics and computer science.
 
 I wish you all a Happy New Year, and good luck on all your adventures.
