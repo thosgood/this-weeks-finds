@@ -251,9 +251,9 @@ everybody except the octonion-heads, so I'll wait until next week.
 I'll just mention this review article, which octonion-heads should
 enjoy:
 
-8) B. S. Acharya, "M theory, $G2$ manifolds and four-dimensional physics", _Class. Quant. Grav._ **19** (2002), 5619--5653.
+8) B. S. Acharya, "M theory, $\mathrm{G}_2$ manifolds and four-dimensional physics", _Class. Quant. Grav._ **19** (2002), 5619--5653.
 
-It's nice because it goes all the way from the definition of a $G2$
+It's nice because it goes all the way from the definition of a $\mathrm{G}_2$
 manifold to (sketchy but readable) physical considerations like the rate
 of proton decay.
 

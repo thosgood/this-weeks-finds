@@ -189,19 +189,19 @@ supergravity, try these review articles:
 7) Stanley Deser, "Infinities in quantum gravities", _Annalen Phys._ **9** (2000) 299--307. Also available as [`gr-qc/9911073`](https://arxiv.org/abs/gr-qc/9911073).
 
 Speaking of M-theory and the like, I've been reading Acharya's article
-on "$G2$ manifolds", which I mentioned last week, and I've been talking
+on "$\mathrm{G}_2$ manifolds", which I mentioned last week, and I've been talking
 to various people about it on `sci.physics.research`, especially Robert
 Helling and Urs Schreiber. Here's a bit of what I have learned.
 
 First of all, let me say some basic stuff about why string theorists
-like $G2$ manifolds. M-theory lives in 11 dimensions, and $4 + 7 = 11$, so
+like $\mathrm{G}_2$ manifolds. M-theory lives in 11 dimensions, and $4 + 7 = 11$, so
 it's interesting to study M-theory on a spacetime of the form $\mathbb{R}^4\times\mathbb{N}$
 where $N$ is a $7$-dimensional manifold. The kind of $7$-dimensional manifold
-that works is called a "$G2$ manifold". Or at least this might be true
+that works is called a "$\mathrm{G}_2$ manifold". Or at least this might be true
 if anyone knew what M-theory was! What people really understand is
 11-dimensional supergravity, which is supposed to be some sort of
 limiting case of the mysterious mess called M-theory. So, Acharya talks
-about 11d supergravity on Minkowski spacetime times a $G2$ manifold, and
+about 11d supergravity on Minkowski spacetime times a $\mathrm{G}_2$ manifold, and
 what sort of physics this gives.
 
 People also like to study superstring theory on spacetimes of the form
@@ -217,9 +217,9 @@ interval $[0,1]$. This lets you make gravity weaker than the other
 forces, which you can't do in heterotic string theory.
 
 At least this is what my sources tell me! I don't understand all of
-this, so it could be a bit wrong. But I think I understand how $G2$
+this, so it could be a bit wrong. But I think I understand how $\mathrm{G}_2$
 manifolds and Calabi-Yau manifolds are related, and why $O$ being a
-Calabi-Yau manifold makes $O \times [0,1]$ into a G2-manifold. So, I'll
+Calabi-Yau manifold makes $O \times [0,1]$ into a \mathrm{G}_2-manifold. So, I'll
 explain that.
 
 The key principle to keep in mind is that any type of structure you can
@@ -257,17 +257,17 @@ a real inner product space into a quaternionic inner product space. Then
 an $X$-manifold is called a "hyperKaehler manifold", and this just one
 where the holonomies lie in the quaternionic unitary group $\mathrm{Sp}(n/4)$.
 
-Or, suppose X is a Hermitian structure together with an n/2-form. Then
-an X-manifold is called a "Calabi-Yau manifold". This concept of
+Or, suppose $X$ is a Hermitian structure together with an $n/2$-form. Then
+an $X$-manifold is called a "Calabi-Yau manifold". This concept of
 Calabi-Yau manifold works in any even dimension, while before I was just
 talking about $6$-dimensional ones! For parallel transport around a loop
-to preserve an n/2-form as well as a Hermitian structure, the holonomy
-must lie in \mathrm{SU}(n/2). So, a Calabi-Yau manifold is the same as one where
-the holonomies lie in \mathrm{SU}(n/2).
+to preserve an $n/2$-form as well as a Hermitian structure, the holonomy
+must lie in $\mathrm{SU}(n/2)$. So, a Calabi-Yau manifold is the same as one where
+the holonomies lie in $\mathrm{SU}(n/2)$.
 
-We can define G2-manifolds in a similar way. But to do this, and to see
+We can define $\mathrm{G}_2$-manifolds in a similar way. But to do this, and to see
 how they're related to $6$-dimensional Calabi-Yau manifolds, we need a
-detour into the theory of spinors. The reason is that "N = 1
+detour into the theory of spinors. The reason is that "$N = 1$
 supersymmetric theories" work nicely when you can pick a spinor at each
 point of space in a way that's preserved by parallel transport. We call
 such a thing a "covariantly constant spinor field". Actually, this
@@ -275,59 +275,59 @@ spinor field needs to be nonzero to be of any use, but that's so
 obvious people often don't mention it.
 
 Now, a nonzero spinor isn't exactly an extra structure you can put on a
-real inner product space, since spinors are representations not of \mathrm{O}(n)
-or even \mathrm{SO}(n) but of the double cover \mathrm{Spin}(n). However, if you start
+real inner product space, since spinors are representations not of $\mathrm{O}(n)$
+or even $\mathrm{SO}(n)$ but of the double cover $\mathrm{Spin}(n)$. However, if you start
 with a *spin* manifold, you can think of a nonzero covariantly constant
 spinor field as some extra structure that reduces the holonomy group
-from \mathrm{Spin}(n) down to some subgroup.
+from $\mathrm{Spin}(n)$ down to some subgroup.
 
 So, let's see what this extra structure is like in some examples!
 
-For the examples I'll talk about, the key is that spinors in 5-, 6-, 7-
+For the examples I'll talk about, the key is that spinors in $5$-, $6$-, $7$-
 and $8$-dimensional space are all very related, and all very related to
 the octonions. You can see this from looking at the even part of the
 Clifford algebra, because spinors are defined to be irreducible
 representations of this algebra. Here's what the even part of the
 Clifford algebra looks like in various dimensions:
 
-    dimension 1:  R 
-    dimension 2:  C 
-    dimension 3:  H 
-    dimension 4:  H + H 
-    dimension 5:  H(2)  
-    dimension 6:  C(4) 
-    dimension 7:  R(8) 
-    dimension 8:  R(8) + R(8) 
+- dimension 1: $\mathbb{R}$
+- dimension 2: $\mathbb{C}$
+- dimension 3: $\mathbb{H}$
+- dimension 4: $\mathbb{H}\oplus\mathbb{H}$
+- dimension 5: $\mathbb{H}(2)$
+- dimension 6: $\mathbb{C}(4)$
+- dimension 7: $\mathbb{R}(8)$
+- dimension 8: $\mathbb{R}(8)\oplus\mathbb{R}(8)$
 
-Here K = R, C, H stands for the real numbers, complex numbers and
-quaternions, while K(n) means n x n matrices with entries in K.
+Here $\mathbb{K} = \mathbb{R}, \mathbb{C}, \mathbb{H}$ stands for the real numbers, complex numbers and
+quaternions, while $\mathbb{K}(n)$ means $n \times n$ matrices with entries in $\mathbb{K}$.
 
 I'll always be interested in *real* spinors, which are the irreducible
 *real* representations of these algebras. I won't even keep saying the
 word "real" from now on. If you eyeball the above chart, you'll see
-that in dimensions 4 and 8 we get two kinds of spinor - called left- and
-right-handed spinors - while in the other dimensions there's just one
+that in dimensions 4 and 8 we get two kinds of spinor --- called left- and
+right-handed spinors --- while in the other dimensions there's just one
 kind. The way these spinors work is sort of obvious:
 
-    dimension 1:  R 
-    dimension 2:  C 
-    dimension 3:  H 
-    dimension 4:  left and right, both H 
-    dimension 5:  H2
-    dimension 6:  C4
-    dimension 7:  R8
-    dimension 8:  left and right, both R8
+- dimension 1:  $\mathbb{R}$
+- dimension 2:  $\mathbb{C}$
+- dimension 3:  $\mathbb{H}$
+- dimension 4:  left and right, both $\mathbb{H}$
+- dimension 5:  $\mathbb{H}2^$
+- dimension 6:  $\mathbb{C}^4$
+- dimension 7:  $\mathbb{R}^8$
+- dimension 8:  $left and right, both $\mathbb{R}^8$
 
-Now the cool part is that H^2, C^4 and R^8 are all secretly the same
-8-dimensional real vector space equipped with various amounts of extra
-structure - i.e. the structure of a $4$-dimensional complex vector space,
+Now the cool part is that $\mathbb{H}^2$, $\mathbb{C}^4$ and $\mathbb{R}^8$ are all secretly the same
+$8$-dimensional real vector space equipped with various amounts of extra
+structure --- i.e. the structure of a $4$-dimensional complex vector space,
 or a $2$-dimensional quaternionic vector space. And you'll probably be
 more bored than shocked when I tell you that this $8$-dimensional real
 vector space is yearning to become the OCTONIONS.
 
 Let's see how we can use this to study specially nice manifolds in 8,
 7, 6 and 5 dimensions. We'll start in dimension 8 and climb our way
-down by a systematic process. In 7 dimensions we'll get G2 manifolds,
+down by a systematic process. In 7 dimensions we'll get \mathrm{G}_2 manifolds,
 while in 6 dimensions we'll get Calabi-Yau manifolds.
 
 Okay:
@@ -335,65 +335,60 @@ Okay:
 In 8 dimensions there are three different $8$-dimensional irreps of the
 spin group (the double cover of the rotation group):
 
--   the vector rep V
--   the left-handed spinor rep S+
--   the right-handed spinor rep S-
+- the vector rep $V$
+- the left-handed spinor rep $S_+$
+- the right-handed spinor rep $S_-$
 
 You can build a vector from a left-handed spinor and a right-handed
 spinor, so we have an intertwining operator:
-
-    S+ tensor S- \to V
+$$S_+ \otimes S_- \to V$$
 
 The cool part is that this map tells us how to multiply octonions!
 
-More precisely, suppose we pick a unit vector 1+ in S+ and a unit vector
-1- in S-. It turns out that multiplying by 1+ defines an isomorphism
-from S- to V. Similarly, multiplying by 1- gives an isomorphism from S+
-to V. This lets us think of all three spaces as the same: THE OCTONIONS,
-with m as the octonion product and 1+ (or 1- if you prefer) as its unit.
+More precisely, suppose we pick a unit vector $1_+$ in $S_+$ and a unit vector
+$1_-$ in $S_-$. It turns out that multiplying by $1_+$ defines an isomorphism
+from $S_-$ to $V$. Similarly, multiplying by $1_-$ gives an isomorphism from $S_+$
+to $V$. This lets us think of all three spaces as the same: THE OCTONIONS,
+with $m$ as the octonion product and $1_+$ (or $1_-$ if you prefer) as its unit.
 
 In fact, there's nothing special about writing our operator as
-
-    S+ tensor S- \to V
-
+$$S_+ \otimes S_- \to V$$
 since all three of these reps are their own dual. This lets us permute
 these guys and work with
-
-    V tensor S+ \to S-
-
+$$V \otimes S_+ \to S_-$$
 or whatever we like. So, picking unit vectors in any 2 out of these 3
 spaces gives us a unit vector in the third and makes all 3 into an
 algebra isomorphic to the octonions.
 
-This instantly implies that if we have an $8$-dimensional spin manifold M
+This instantly implies that if we have an $8$-dimensional spin manifold $M$
 with nonzero covariantly constant sections of 2 of these 3 bundles:
 
 -   the left-handed spinor bundle
 -   the right-handed spinor bundle
 -   the tangent bundle
 
-we get a way to make all 3 of these bundles into "octonion bundles" -
+we get a way to make all 3 of these bundles into "octonion bundles" ---
 meaning that each fiber is an algebra in a covariantly constant way,
 where this algebra is isomorphic to the octonions.
 
-This in turn implies that the holonomy group of the metric on M must be
-a subgroup of G2 - the automorphism group of the octonions.
+This in turn implies that the holonomy group of the metric on $M$ must be
+a subgroup of $\mathrm{G}_2$ --- the automorphism group of the octonions.
 
-Let's call a manifold like this M an "octonionic manifold".
+Let's call a manifold like this $M$ an "octonionic manifold".
 
 How do we get manifolds like this?
 
-The easiest way is to take a $7$-dimensional spin manifold N and let M = N
-x R. The special 8th direction in M gives us a nonzero covariantly
-constant vector field on M. So, to get the above "2 out of 3" trick to
+The easiest way is to take a $7$-dimensional spin manifold $N$ and let
+$M = N \times R$. The special 8th direction in $M$ gives us a nonzero covariantly
+constant vector field on $M$. So, to get the above "2 out of 3" trick to
 work, we just need a nonzero covariantly constant section of either the
-left- or right-handed spinor bundle of M.
+left- or right-handed spinor bundle of $M$.
 
 But as we've seen, spinors in 7 dimensions are secretly the same as
 either left- or right-handed spinors in 8 dimensions. So, it suffices to
-have a nonzero covariantly constant spinor field on N.
+have a nonzero covariantly constant spinor field on $N$.
 
-Thus, when N is a $7$-dimensional spin manifold with a nonzero covariantly
+Thus, when $N$ is a $7$-dimensional spin manifold with a nonzero covariantly
 constant spinor field, its spinor bundle automatically becomes an
 octonion bundle!
 
@@ -407,29 +402,29 @@ The imaginary octonions are $7$-dimensional, and they have a "dot
 product" and "cross product" rather like those in 3 dimensions. Since
 you can use these to recover the octonion product, the group of
 transformations of the imaginary octonions preserving the dot product
-and cross product is again G2.
+and cross product is again $\mathrm{G}_2$.
 
-So, the tangent bundle of N becomes an "imaginary octonion bundle",
+So, the tangent bundle of $N$ becomes an "imaginary octonion bundle",
 meaning that each fiber gets a dot product and cross product in a
 covariantly constant way, making it isomorphic to the imaginary
 octonions.
 
-This in turn implies that the holonomy group of the metric on N must be
-a subgroup of G2.
+This in turn implies that the holonomy group of the metric on $N$ must be
+a subgroup of $\mathrm{G}_2$.
 
-People call a manifold like this N a "G2 manifold".
+People call a manifold like this $N$ a "$\mathrm{G}_2$ manifold".
 
 How do we get manifolds like this?
 
-The easiest way is to take a $6$-dimensional spin manifold O and let N = O
-x R. To make N into a G2 manifold, we need a nonzero covariantly
-constant spinor field on N.
+The easiest way is to take a $6$-dimensional spin manifold $O$ and let
+$N = O \times R$. To make $N$ into a $\mathrm{G}_2$ manifold, we need a nonzero covariantly
+constant spinor field on $N$.
 
 But as we've seen, spinors in 6 dimensions are secretly the same as
 spinors in 7 dimensions. So, it suffices to have a nonzero covariantly
-constant spinor field on O.
+constant spinor field on $O$.
 
-Thus, when O is a $6$-dimensional spin manifold with a nonzero covariantly
+Thus, when $O$ is a $6$-dimensional spin manifold with a nonzero covariantly
 constant spinor field, its spinor bundle automatically becomes an
 octonion bundle!
 
@@ -439,24 +434,24 @@ you'll see the tangent bundle plus a trivial line bundle becomes an
 imaginary octonion bundle. This trivial line bundle corresponds to a
 particular direction in the imaginary octonions.
 
-This in turn implies that the holonomy group of O must lie in the
-subgroup of G2 fixing a direction in the imaginary octonions. This
-subgroup is \mathrm{SU}(3), so the holonomy group of O must be a subgroup of
-\mathrm{SU}(3).
+This in turn implies that the holonomy group of $O$ must lie in the
+subgroup of $\mathrm{G}_2$ fixing a direction in the imaginary octonions. This
+subgroup is $\mathrm{SU}(3)$, so the holonomy group of $O$ must be a subgroup of
+$\mathrm{SU}(3)$.
 
-People call a manifold like this O a "Calabi-Yau manifold".
+People call a manifold like this $O$ a "Calabi-Yau manifold".
 
 How do we get manifolds like this?
 
-The easiest way is to take a $5$-dimensional spin manifold P and let O = P
-x R. To make O into a Calabi-Yau manifold, we need a nonzero covariantly
-constant spinor field on O.
+The easiest way is to take a $5$-dimensional spin manifold $P$ and let
+$O = P \times R$. To make $O$ into a Calabi-Yau manifold, we need a nonzero covariantly
+constant spinor field on $O$.
 
 But as we've seen, spinors in 5 dimensions are secretly the same as
 spinors in 6 dimensions. So, it will suffice to have a nonzero
-covariantly constant spinor field on P.
+covariantly constant spinor field on $P$.
 
-Thus, when P is a $5$-dimensional spin manifold with a nonzero covariantly
+Thus, when $P$ is a $5$-dimensional spin manifold with a nonzero covariantly
 constant spinor field, its spinor bundle automatically becomes an
 octonion bundle!
 
@@ -466,89 +461,85 @@ you'll see the tangent bundle plus two trivial line bundles becomes an
 imaginary octonion bundle. These trivial line bundles correspond to two
 orthogonal directions in the imaginary octonions.
 
-This in turn implies that the holonomy group of P must lie in the
-subgroup of G2 fixing two orthogonal directions in the imaginary
-octonions. This subgroup is \mathrm{SU}(2).
+This in turn implies that the holonomy group of $P$ must lie in the
+subgroup of $\mathrm{G}_2$ fixing two orthogonal directions in the imaginary
+octonions. This subgroup is $\mathrm{SU}(2)$.
 
-I'll call a manifold like this P an "\mathrm{SU}(2) manifold".
+I'll call a manifold like this $P$ an "$\mathrm{SU}(2)$ manifold".
 
 Does my prose style seem stuck in a loop? That's on purpose; I'm
 trying to make a certain pattern very clear. But the loop stops here, or
 at least changes flavor drastically, because spinors stop being
 8-dimensional when we get down to $4$-dimensional space.
 
-Summary:
+**Summary.**
 
--   When M is an $8$-dimensional spin manifold with 2 out of these 3
+- When $M$ is an $8$-dimensional spin manifold with 2 out of these 3
     things:
-    -   a nonzero covariantly constant vector field
-    -   a nonzero covariantly constant left-handed spinor field
-    -   a nonzero covariantly constant right-handed spinor field
+    + a nonzero covariantly constant vector field
+    + a nonzero covariantly constant left-handed spinor field
+    + a nonzero covariantly constant right-handed spinor field
 
-    it automatically gets all three - and its tangent bundle,
+    it automatically gets all three --- and its tangent bundle,
     left-handed spinor bundle and right-handed spinor bundle all become
-    octonion bundles. We call M an octonionic manifold.
--   When N is a $7$-dimensional spin manifold with a nonzero covariantly
+    octonion bundles. We call $M$ an octonionic manifold.
+- When $N$ is a $7$-dimensional spin manifold with a nonzero covariantly
     constant spinor field, its spinor bundle becomes an octonion bundle,
     while its tangent bundle becomes an imaginary octonion bundle. We
-    call N a G2 manifold.
--   When O is a $6$-dimensional spin manifold with a nonzero covariantly
+    call $N$ a $\mathrm{G}_2$ manifold.
+- When $O$ is a $6$-dimensional spin manifold with a nonzero covariantly
     constant spinor field, its spinor bundle becomes an octonion bundle,
     while its tangent bundle plus a trivial line bundle becomes an
-    imaginary octonion bundle. We call O a Calabi-Yau manifold.
--   When P is a $5$-dimensional spin manifold with a nonzero covariantly
+    imaginary octonion bundle. We call $O$ a Calabi-Yau manifold.
+- When $P$ is a $5$-dimensional spin manifold with a nonzero covariantly
     constant spinor field, its spinor bundle becomes an octonion bundle,
     while its tangent bundle plus two trivial line bundles becomes an
-    imaginary octonion bundle. We call O an \mathrm{SU}(2) manifold.
+    imaginary octonion bundle. We call $O$ an $\mathrm{SU}(2)$ manifold.
 
-An \mathrm{SU}(2) manifold times R is a Calabi-Yau manifold;
+Then:
 
-a Calabi-Yau manifold times R is a G2 manifold;
-
-a G2 manifold times R is an octonionic manifold.
+- An $\mathrm{SU}(2)$ manifold times $\mathbb{R}$ is a Calabi-Yau manifold;
+- a Calabi-Yau manifold times $\mathbb{R}$ is a $\mathrm{G}_2$ manifold;
+- a $\mathrm{G}_2$ manifold times $\mathbb{R}$ is an octonionic manifold.
 
 You may not like how the $8$-dimensional case on the above list is
 different from the rest. Don't worry; people also study $8$-dimensional
 spin manifolds that admit just a nonzero covariantly constant
 left-handed *or* right-handed spinor field. The holonomy group of such a
-manifold must like in \mathrm{Spin}(7), and such a manifold is called a \mathrm{Spin}(7)
+manifold must like in $\mathrm{Spin}(7)$, and such a manifold is called a $\mathrm{Spin}(7)$
 manifold.
 
-You may wonder how I knew that the subgroup of G2 fixing one direction
-in the imaginary octonions is \mathrm{SU}(3). You may also wonder how I knew that
-the subgroup of G2 fixing two orthogonal directions in the imaginary
-octonions is \mathrm{SU}(2).
+You may wonder how I knew that the subgroup of $\mathrm{G}_2$ fixing one direction
+in the imaginary octonions is $\mathrm{SU}(3)$. You may also wonder how I knew that
+the subgroup of $\mathrm{G}_2$ fixing two orthogonal directions in the imaginary
+octonions is $\mathrm{SU}(2)$.
 
 This is very pretty! I mainly just used two facts we've already seen:
-the even part of the Clifford algebra in 6 dimensions is C(4), while in
-5 dimensions it's H(2).
+the even part of the Clifford algebra in 6 dimensions is $\mathbb{C}(4)$, while in
+5 dimensions it's $\mathbb{H}(2)$.
 
-The first of these facts implies that \mathfrak{so}(6) must sit inside the
-traceless skew-adjoint matrices in C(4). In other words, \mathfrak{so}(6) sits
-inside \mathfrak{su}(4). But
+The first of these facts implies that $\mathfrak{so}(6)$ must sit inside the
+traceless skew-adjoint matrices in $\mathbb{C}(4)$. In other words, $\mathfrak{so}(6)$ sits
+inside $\mathfrak{su}(4)$. But
+$$\dim(\mathfrak{so}(6)) = \dim(\mathfrak{su}(4)) = 15$$
+so in fact $\mathfrak{so}(6) = \mathfrak{su}(4)$. Indeed, $\mathrm{SU}(4)$ is the double cover of $\mathrm{SO}(6)$,
+and it acts on the space of spinors, $\mathbb{C}^4$, in the obvious way. The
+subgroup fixing a unit spinor is thus $\mathrm{SU}(3)$.
 
-    dim(\mathfrak{so}(6)) = dim(\mathfrak{su}(4)) = 15
-
-so in fact \mathfrak{so}(6) = \mathfrak{su}(4). Indeed, \mathrm{SU}(4) is the double cover of \mathrm{SO}(6),
-and it acts on the space of spinors, C^4, in the obvious way. The
-subgroup fixing a unit spinor is thus \mathrm{SU}(3).
-
-The second of these facts implies that \mathfrak{so}(5) must sit inside the
-traceless skew-adjoint matrices in H(2). In other words, \mathfrak{so}(5) sits
-inside \mathfrak{sp}(2). But
-
-    dim(\mathfrak{so}(5)) = dim(\mathfrak{sp}(2)) = 10
-
-so in fact \mathfrak{so}(5) = \mathfrak{sp}(2). Indeed, \mathrm{Sp}(2) is the double cover of \mathrm{SO}(5),
-and it acts on the space of spinors, H^2, in the obvious way. The
-subgroup fixing a unit spinor is thus \mathrm{Sp}(1)... which being the unit
-quaternions, is isomorphic to \mathrm{SU}(2).
+The second of these facts implies that $\mathfrak{so}(5)$ must sit inside the
+traceless skew-adjoint matrices in $\mathbb{H}(2)$. In other words, $\mathfrak{so}(5)$ sits
+inside $\mathfrak{sp}(2)$. But
+$$\dim(\mathfrak{so}(5)) = \dim(\mathfrak{sp}(2)) = 10$$
+so in fact $\mathfrak{so}(5) = \mathfrak{sp}(2)$. Indeed, $\mathrm{Sp}(2)$ is the double cover of $\mathrm{SO}(5)$,
+and it acts on the space of spinors, $\mathbb{H}^2$, in the obvious way. The
+subgroup fixing a unit spinor is thus $\mathrm{Sp}(1)$... which being the unit
+quaternions, is isomorphic to $\mathrm{SU}(2)$.
 
 If you think about it a while, these results do the job.
 
 If you wish you had some pictures to help you with all this
 higher-dimensional geometry, here's the best I can do. Start with the
-octonion multiplication triangle I keep drawing - I explained it in
+octonion multiplication triangle I keep drawing --- I explained it in
 ["Week 104"](#week104):
 
                                 e6
@@ -572,7 +563,7 @@ the Fano plane is just a flattened-out picture of this cube:
                               \ |/
                                e2     
 
-The hidden corner of this cube corresponds to the octonion "1". If
+The hidden corner of this cube corresponds to the octonion "$1$". If
 rotate the cube so that corner is on top, and blow it up a bit, it looks
 like this:
 
@@ -594,25 +585,25 @@ like this:
                                |/
                                e7
 
-Now, this cube has an an obvious Z_3 symmetry that we get by holding it
+Now, this cube has an an obvious $\mathbb{Z}_3$ symmetry that we get by holding it
 between our thumb and finger and rotating it about the vertical axis.
-This Z_3 group acts as automorphisms of the octonions that fix the
-elements 1 and e7. Of course, every automorphism fixes 1, so the
-interesting part is that they fix a unit imaginary octonion, e7.
+This $\mathbb{Z}_3$ group acts as automorphisms of the octonions that fix the
+elements $1$ and $e_7$. Of course, every automorphism fixes $1$, so the
+interesting part is that they fix a unit imaginary octonion, $e_7$.
 
-But Z_3 is a subgroup of \mathrm{SO}(3) in an obvious way, since any cyclic
-permutation of the x,y,z axes gives a rotation. And \mathrm{SO}(3), in turn, is a
-subgroup of \mathrm{SU}(3) in an obvious way. And we already know that \mathrm{SU}(3) is
+But $\mathbb{Z}_3$ is a subgroup of $\mathrm{SO}(3)$ in an obvious way, since any cyclic
+permutation of the $x,y,z$ axes gives a rotation. And $\mathrm{SO}(3)$, in turn, is a
+subgroup of $\mathrm{SU}(3)$ in an obvious way. And we already know that $\mathrm{SU}(3)$ is
 the group of *all* automorphisms of the octonions that fix a unit
-imaginary octonion, say e7.
+imaginary octonion, say $e_7$.
 
 Or if you prefer: octonions are the same as spinors in 7 dimensions, and
-\mathrm{SU}(3) is the subgroup of \mathrm{Spin}(7) that fixes two orthogonal unit spinors,
-namely those corresponding to 1 and e7.
+$\mathrm{SU}(3)$ is the subgroup of $\mathrm{Spin}(7)$ that fixes two orthogonal unit spinors,
+namely those corresponding to $1$ and $e_7$.
 
-Either way, you can think of \mathrm{SO}(3) and \mathrm{SU}(3) as souped-up versions of
-the obvious Z_3 symmetry of the octonion cube. Here's how the
-octonions decompose as a representation of \mathrm{SO}(3):
+Either way, you can think of $\mathrm{SO}(3)$ and $\mathrm{SU}(3)$ as souped-up versions of
+the obvious $\mathbb{Z}_3$ symmetry of the octonion cube. Here's how the
+octonions decompose as a representation of $\mathrm{SO}(3)$:
 
      1d real rep                   1
      of \mathrm{SO}(3)                     /|\
@@ -633,7 +624,7 @@ octonions decompose as a representation of \mathrm{SO}(3):
      1d real rep                  |/
      of \mathrm{SO}(3)                     e7
 
-And here's how they decompose as a rep of \mathrm{SU}(3):
+And here's how they decompose as a rep of $\mathrm{SU}(3)$:
 
      1d real rep                   1
      of \mathrm{SU}(3)                     /|\
@@ -658,207 +649,197 @@ I hope this makes things a bit more vivid!
 ------------------------------------------------------------------------
 
 **Addendum:** My definition of "Kaehler manifold" above was a bit
-nonstandard. For a while, some of us on sci.physics.research started
+nonstandard. For a while, some of us on `sci.physics.research` started
 worrying that it wasn't equivalent to the usual one! Luckily, it turns
 out that it is. Here is some of our discussion of this issue.
 
-John Baez wrote:
-
->     Squark wrote:
+> John Baez wrote:
 >
->     >John Baez wrote:
+> > Squark wrote:
 >
->     >> [Moderator's note: a Kaehler manifold has to be complex, not
->     >> just "almost complex". - jb]  
+> > >  John Baez wrote:
 >
->     >That's precisely my problem. You said that putting a Hermitian
->     >structure of the tangent space of a real manifold at each point
->     >(putting it on the tangent bundle, more accurately) makes it into
->     >a Kaehler manifold.
+> > > \[Moderator's note: a Kaehler manifold has to be complex, not 
+> > > just "almost complex". --- jb\]
 >
->     No, I did not say this!  I'll remind you of what I actually said.
+> > That's precisely my problem. You said that putting a Hermitian
+> > structure of the tangent space of a real manifold at each point
+> > (putting it on the tangent bundle, more accurately) makes it into
+> > a Kaehler manifold.
 >
->     >However, there's the additional condition of the almost complex
->     >structure resulting on the manifold being an actual complex
->     >structure. This cannot be ensured on the "point level", i.e. it is
->     >not enough to speak of the kind of structure you put on the tangent
->     >space at each point, but it's important how those structures "glue
->     >together" (except the obvious smoothness part).
+> No, I did not say this!  I'll remind you of what I actually said.
 >
->     Right - in math jargon, we need some "integrability conditions"
->     to ensure that the complex structures on each tangent space fit
->     together to make each little patch of the manifold look like C^n.
->     Only then do we get a complex manifold.  Otherwise we just have
->     an "almost complex manifold".  
+> > However, there's the additional condition of the almost complex
+> > structure resulting on the manifold being an actual complex
+> > structure. This cannot be ensured on the "point level", i.e. it is
+> > not enough to speak of the kind of structure you put on the tangent
+> > space at each point, but it's important how those structures "glue
+> > together" (except the obvious smoothness part).
 >
->     I didn't ignore this issue, but now you've got me worried
->     that I may not have handled it correctly.  Here's what I wrote:
+> Right --- in math jargon, we need some "integrability conditions"
+> to ensure that the complex structures on each tangent space fit
+> together to make each little patch of the manifold look like $\mathbb{C}^n$.
+> Only then do we get a complex manifold.  Otherwise we just have
+> an "almost complex manifold".
 >
->       The key principle to keep in mind is that any type of structure you
->       can put on a real inner product space yields a type of Riemannian 
->       manifold.  Each tangent space of a Riemannian manifold is a real
->       inner product space, and there's a god-given way to parallel
->       transport tangent vectors on a Riemannian manifold.  So, if X is
->       some type of structure you can put on a real inner product space,
->       you can define an "X-manifold" to be a Riemannian manifold where each
->       tangent space has an X-structure...  in a way that's preserved by
->       parallel transport!
+> I didn't ignore this issue, but now you've got me worried
+> that I may not have handled it correctly.  Here's what I wrote:
 >
->       For example, X could be a "Hermitian structure" - a way of making a
->       real inner product space into a complex inner product space.  Then 
->       an X-manifold is called a "Kaehler manifold".
+> > The key principle to keep in mind is that any type of structure you
+> > can put on a real inner product space yields a type of Riemannian 
+> > manifold.  Each tangent space of a Riemannian manifold is a real
+> > inner product space, and there's a god-given way to parallel
+> > transport tangent vectors on a Riemannian manifold.  So, if X is
+> > some type of structure you can put on a real inner product space,
+> > you can define an "$X$-manifold" to be a Riemannian manifold where each
+> > tangent space has an $X$-structure...  in a way that's preserved by
+> > parallel transport!
 >
->     See?   
+> > For example, $X$ could be a "Hermitian structure" --- a way of making a
+> > real inner product space into a complex inner product space.  Then 
+> > an $X$-manifold is called a "Kaehler manifold".
 >
->     I didn't say an X-manifold was a Riemannian manifold where
->     each tangent space is given a structure of type X.
+> See?
 >
->     I said it was a Riemannian manifold on which each tangent space is
->     given a structure of type X... IN A WAY THAT'S PRESERVED BY PARALLEL
->     TRANSPORT!
+> I didn't say an $X$-manifold was a Riemannian manifold where
+> each tangent space is given a structure of type $X$.
 >
->     If I had left out that last clause, I'd obviously be in trouble.
->     This last clause is the only condition that relates what's going
->     on at different tangent spaces.
+> I said it was a Riemannian manifold on which each tangent space is
+> given a structure of type $X$... IN A WAY THAT'S PRESERVED BY PARALLEL
+> TRANSPORT!
 >
->     In particular, if X = "a Hermitian structure", an X-manifold is a
->     Riemannian manifold where each tangent space is equipped with a
->     complex structure J and a complex inner product h whose real part 
->     is the original Riemannian inner product... such that h and J are
->     preserved by parallel transport.
+> If I had left out that last clause, I'd obviously be in trouble.
+> This last clause is the only condition that relates what's going
+> on at different tangent spaces.
 >
->     I was hoping this definition is equivalent to the usual ones.  
->     Now you've got me nervous... after all, before I can flame you 
->     for misunderstanding me, I should be sure what I actually said 
->     is right!  :-)
+> In particular, if $X = \mbox{"a Hermitian structure"}$, an $X$-manifold is a
+> Riemannian manifold where each tangent space is equipped with a
+> complex structure $J$ and a complex inner product $h$ whose real part 
+> is the original Riemannian inner product... such that $h$ and $J$ are
+> preserved by parallel transport.
 >
->     My definition is conceptually simple, but it contains
->     some redundancy... let's squeeze that out and see what's left.
+> I was hoping this definition is equivalent to the usual ones.
+> Now you've got me nervous... after all, before I can flame you 
+> for misunderstanding me, I should be sure what I actually said 
+> is right!  :-)
 >
->     We start with an X-manifold where X = "a hermitian structure".
->     Each tangent space has a complex inner product h,
->     whose real part g is the original Riemannian metric, 
->     and whose imaginary part we call w:
+> My definition is conceptually simple, but it contains
+> some redundancy... let's squeeze that out and see what's left.
 >
->     h = g + iw
+> We start with an $X$-manifold where $X = \mbox{"a hermitian structure"}$.
+> Each tangent space has a complex inner product $h$,
+> whose real part $g$ is the original Riemannian metric, 
+> and whose imaginary part we call $w$:
+> $$h = g + iw$$
+> Each tangent space also has a complex structure $J$ on it.
 >
->     Each tangent space also has a complex structure J on it.
+> We want all this stuff to be preserved by parallel transport.
+> So, at first it seems like we have 3 integrability conditions:
+> $$\mbox{$g$, $w$, and $J$ are preserved by parallel transport}$$
+> But $g$ is automatically preserved by parallel transport --- that's
+> how the Levi-Civita connection is defined!
 >
->     We want all this stuff to be preserved by parallel transport.
->     So, at first it seems like we have 3 integrability conditions:
+> So, there are really just 2 integrability conditions:
+> $$\mbox{$w$ and $J$ are preserved by parallel transport.}$$
+> But we can always recover the imaginary part of the inner
+> product from its real part together with the complex structure:
+> $$w(u,v) = -g(u,Jv)$$
+> So, there is really just one integrability condition:
+> $$\mbox{$J$ is preserved by parallel transport.}$$
+> Now, how does this compare to other definitions of Kaehler
+> manifold?  Marc Nardmann wrote:
 >
->       g, w, and J are preserved by parallel transport
+> >  I assume that you know
+> > 
+> >  (#) that every hermitian metric $h$ on a complex manifold $X$ has a
+> >      decomposition $h = g+iw$, where $g$ is a Riemannian metric on $X_\mathbb{R}$
+> >      (and $X_\mathbb{R}$ is the smooth manifold X without its complex structure),
+> >      and $w$ is a $2$-form on $X_\mathbb{R}$;
+> > 
+> > (#) and that each of $h,g,w$ determines the other two via the $\mathbb{R}$-vector
+> >      bundle morphism $J\colon T(X_\mathbb{R}) \to T(X_\mathbb{R})$ given by $Jv = iv$ (where the
+> >      holomorphic tangent bundle $TX$ is canonically identified as a real
+> >      vector bundle with $T(X_\mathbb{R}))$. E.g. $g(u,v) = w(u,Jv)$ up to a sign that
+> >      depends on our definition of hermiticity.
+> > 
+> >  The hermitian metric $h = g+iw$ is K\"{a}hler
+> >      if and only if $w$ is closed,
+> >      if and only if $J$, viewed as a real $(1,1)$-tensor field on $X$, is
+> >      parallel with respect to the Levi-Civita connection of $g$.
 >
->     But g is automatically preserved by parallel transport - that's
->     how the Levi-Civita connection is defined!  
+> It sounds like he's saying that a Kaehler manifold is a complex
+> manifold for which $J$ is preserved by parallel transport.  My proposed
+> definition is close, but it doesn't contain the crucial word complex.
 >
->     So, there are really just 2 integrability conditions:
+> Can we safely leave it out?  I.e., is any almost complex Riemannian
+> manifold for which $J$ is preserved by parallel transport automatically
+> complex???
 >
->       w and J are preserved by parallel transport.
+> I don't know.  So, now I'm nervous.
 >
->     But we can always recover the imaginary part of the inner
->     product from its real part together with the complex structure:
+> I could try to show by a calculation that if $J$ has vanishing
+> covariant derivative, it satisfies the integrability condition
+> that forces it to be a complex structure:
+> $$[Ju,Jv] - [u,v] - J[u,Jv] - J[Ju,v] = 0$$
+> However, I'm too lazy!  I'm hoping Marc Nardmann or someone 
+> will step in with either the necessary theorem, or a counterexample.
 >
->     w(u,v) = -g(u,Jv)
->
->     So, there is really just one integrability condition:
->
->       J is preserved by parallel transport.
->
->     Now, how does this compare to other definitions of Kaehler
->     manifold?  Marc Nardmann wrote:
->
->     > I assume that you know
->     >
->     > (#) that every hermitian metric h on a complex manifold X has a
->     >     decomposition h = g+iw, where g is a Riemannian metric on X_R
->     >     (and X_R is the smooth manifold X without its complex structure),
->     >     and w is a $2$-form on X_R;
->     >
->     >(#) and that each of h,g,w determines the other two via the R-vector
->     >     bundle morphism J\colon  T(X_R) \to  T(X_R) given by Jv = iv (where the
->     >     holomorphic tangent bundle TX is canonically identified as a real
->     >     vector bundle with T(X_R)). E.g. g(u,v) = w(u,Jv) up to a sign that
->     >     depends on our definition of hermiticity.
->     >
->     > The hermitian metric h = g+iw is K"ahler
->     >     if and only if w is closed,
->     >     if and only if J, viewed as a real (1,1)-tensor field on X, is
->     >     parallel with respect to the Levi-Civita connection of g.
->
->     It sounds like he's saying that a Kaehler manifold is a complex
->     manifold for which J is preserved by parallel transport.  My proposed
->     definition is close, but it doesn't contain the crucial word complex.
->
->     Can we safely leave it out?  I.e., is any almost complex Riemannian
->     manifold for which J is preserved by parallel transport automatically
->     complex???
->
->     I don't know.  So, now I'm nervous.
->
->     I could try to show by a calculation that if J has vanishing
->     covariant derivative, it satisfies the integrability condition
->     that forces it to be a complex structure:
->
->     [Ju,Jv] - [u,v] - J[u,Jv] - J[Ju,v] = 0
->
->     However, I'm too lazy!  I'm hoping Marc Nardmann or someone 
->     will step in with either the necessary theorem, or a counterexample.
->
->     Btw, there is such a thing as an "almost Kaehler manifold",
->     which is an almost complex manifold where each tangent space
->     is equipped with a complex inner product h = g+iw such that the
->     imaginary part w is a closed $2$-form.  But, I don't see why
->     the existence of these things serves as a counterexample to
->     my hope.
+> Btw, there is such a thing as an "almost Kaehler manifold",
+> which is an almost complex manifold where each tangent space
+> is equipped with a complex inner product $h = g+iw$ such that the
+> imaginary part w is a closed $2$-form.  But, I don't see why
+> the existence of these things serves as a counterexample to
+> my hope.
 
 Then Marc Nardmann confirmed my hope: any almost complex Riemannian
-manifold for which J is preserved by parallel transport is automatically
+manifold for which $J$ is preserved by parallel transport is automatically
 complex, and thus a Kaehler manifold. He wrote (in part):
 
 >     John Baez wrote:
 >
->      > It sounds like he's saying that a Kaehler manifold is a complex
->      > manifold for which J is preserved by parallel transport.
+> > It sounds like he's saying that a Kaehler manifold is a complex
+> > manifold for which $J$ is preserved by parallel transport.
 >
->     Yes. I forgot to discuss this issue in the post you're citing here. In
->     the stringy context, there's initially just the Riemannian metric, so it
->     is important to know how e.g. a holonomy condition implies the existence
->     of a complex structure, as opposed to a mere almost complex structure.
->     Let's see:
+> Yes. I forgot to discuss this issue in the post you're citing here. In
+> the stringy context, there's initially just the Riemannian metric, so it
+> is important to know how e.g. a holonomy condition implies the existence
+> of a complex structure, as opposed to a mere almost complex structure.
+> Let's see:
 >
->      > My proposed definition
->      > is close, but it doesn't contain the crucial word complex.
->      >
->      > Can we safely leave it out?  I.e., is any almost complex Riemannian
->      > manifold for which J is preserved by parallel transport automatically
->      > complex???
->      >
->      > I don't know.  So, now I'm nervous.
->      >
->      > I could try to show by a calculation that if J has vanishing
->      > covariant derivative, it satisfies the integrability condition
->      > that forces it to be a complex structure:
->      >
->      > [Ju,Jv] - [u,v] - J[u,Jv] - J[Ju,v] = 0
->      >
->      > However, I'm too lazy!
+> > My proposed definition
+> > is close, but it doesn't contain the crucial word complex.
+>  >
+> > Can we safely leave it out?  I.e., is any almost complex Riemannian
+> > manifold for which J is preserved by parallel transport automatically
+> > complex???
+>  >
+> > I don't know.  So, now I'm nervous.
+>  >
+> > I could try to show by a calculation that if J has vanishing
+> > covariant derivative, it satisfies the integrability condition
+> > that forces it to be a complex structure:
+>  >
+> > [Ju,Jv] - [u,v] - J[u,Jv] - J[Ju,v] = 0
+>  >
+> > However, I'm too lazy!
 >
->     It's very easy, so even laziness is no excuse :-). The hard part is
->     contained in the theorem you're citing here: that an almost complex
->     structure comes from a complex structure (which is then uniquely
->     determined) if (and only if) [Ju,Jv] - [u,v] - J[u,Jv] - J[Ju,v] = 0
->     for all vector fields u,v (in fact, the LHS of the equation is
->     tensorial, hence well-defined for vectors).
+> It's very easy, so even laziness is no excuse :-). The hard part is
+> contained in the theorem you're citing here: that an almost complex
+> structure comes from a complex structure (which is then uniquely
+> determined) if (and only if) $[Ju,Jv] - [u,v] - J[u,Jv] - J[Ju,v] = 0$
+> for all vector fields $u,v$ (in fact, the LHS of the equation is
+> tensorial, hence well-defined for vectors).
 >
->     We need only the fact that the Levi-Civita connection is torsion-free:
+> We need only the fact that the Levi-Civita connection is torsion-free:
+> $$
+>   \begin{aligned}
+>     [Ju,Jv] - [u,v] - J[u,Jv] - J[Ju,v]
+>   \\&= \nabla JuJv - \nabla JvJu - \nabla uv + \nabla vu - J(\nabla uJv - \nabla Jvu) - J(\nabla Juv -\nabla vJu)
+>   \\&= J(\nabla Juv) - J(\nabla Jvu) - \nabla uv + \nabla vu + \nabla uv + J(\nabla Jvu) - J(\nabla Juv) - \nabla vu
+>   \\&= 0
+>   \end{aligned}
+> $$
 >
->       [Ju,Jv]       -    [u,v]     -    J[u,Jv]       -       J[Ju,v]       = 
->
->     ∇JuJv - ∇JvJu   -   ∇uv + ∇vu   -   J(∇uJv - ∇Jvu)   -   J(∇Juv -∇vJu)  =
->
->     J(∇Juv) - J(∇Jvu) - ∇uv + ∇vu    +   ∇uv + J(∇Jvu)   -   J(∇Juv) - ∇vu  =  0
-
 ------------------------------------------------------------------------
 
 > *"The series is divergent; therefore we may be able to do something

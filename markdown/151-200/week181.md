@@ -630,7 +630,7 @@ to mention. I was shocked at how unfamiliar these numbers were to me,
 because all these Grassmannians should be definable using the octonions:
 
                       -------
-    G2              5 --->--- 5
+    \mathrm{G}_2              5 --->--- 5
                       -------
 
 

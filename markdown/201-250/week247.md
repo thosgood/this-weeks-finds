@@ -539,7 +539,7 @@ other reasons, too! Here's how it goes:
        E7               18 
        E8               30
        \mathrm{F}_4               12
-       G2               6
+       \mathrm{G}_2               6
 
 For D_5 the Coxeter number is 8, which accounts for the 8-fold symmetry
 of Stembridge's picture in that case. The \mathrm{E}_8 picture has 30-fold

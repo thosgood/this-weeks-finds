@@ -14,7 +14,7 @@ notions of geometry. If you're interested in this, you might enjoy
 looking at the talk titles here:
 
 1) Workshop on categorification and higher-order geometry,
-`http://www.math.ist.utl.pt/~rpicken/CHOG2003`
+`http://www.math.ist.utl.pt/~rpicken/CHO\mathrm{G}_2003`
 
 The other was the "Young Researcher's Symposium", a section of the
 International Congress of Mathematical Physics. This symposium allows
