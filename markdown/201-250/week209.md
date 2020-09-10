@@ -451,7 +451,7 @@ This says H \otimes~R~ H is Morita equivalent to R as an associative algebra
 over R, which implies (by the definition above) that H is an Azumaya
 algebra.
 
-Morita equivalence is really important in the theory of C*-algebras,
+Morita equivalence is really important in the theory of $C^*$-algebras,
 Clifford algebras, and things like that. Someday I want to explain how
 it's connected to Bott periodicity! Oh, there's so much I want to
 explain....

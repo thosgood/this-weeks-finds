@@ -454,11 +454,11 @@ theory, available as [`arXiv:0709.4364.`](http://arxiv.org/abs/0709.4364)
 so let me explain that too.
 
 I said you can do a lot of math inside a topos. In particular, you can
-define an algebra of observables - or technically, a "C*-algebra".
+define an algebra of observables - or technically, a "$C^*$-algebra".
 
-By the Isham-Döring work I just sketched, any C*-algebra of observables
-gives a topos. Heunen and Spitters show that the original C*-algebra
-gives rise to a C*-algebra *in this topos*, which is *commutative* even
+By the Isham-Döring work I just sketched, any $C^*$-algebra of observables
+gives a topos. Heunen and Spitters show that the original $C^*$-algebra
+gives rise to a $C^*$-algebra *in this topos*, which is *commutative* even
 if the original one was noncommutative! That actually makes sense, since
 in this setup each "local view" of the full quantum reality is
 classical.
@@ -473,10 +473,10 @@ I've been taking the "ambient topos" to be the familiar category of
 sets, but it could be something else.
 
 What's really neat is that the Gelfand-Naimark theorem, saying
-commutative C*-algebras are always algebras of continuous functions on
+commutative $C^*$-algebras are always algebras of continuous functions on
 compact Hausdorff spaces, can be generalized to work within any topos.
 So, we get a space *in our topos* such that observables of the
-C*-algebra *in the topos* are just functions on this space.
+$C^*$-algebra *in the topos* are just functions on this space.
 
 I know this sounds technical if you're not into this stuff. But it's
 really quite wonderful. It basically means this: using topos logic, we
@@ -839,12 +839,12 @@ the Gelfand duality theorem, Ann. Pure Appl. Logic 137 (2006), 62-103.
 Also available at
 `http://www.maths.sussex.ac.uk/Staff/CJM/research/pdf/globgelf.pdf`
 
-They show that any commutative C*-algebra A in a Grothendieck topos is
-canonically isomorphic to the C*-algebra of continuous complex
+They show that any commutative $C^*$-algebra A in a Grothendieck topos is
+canonically isomorphic to the $C^*$-algebra of continuous complex
 functions on the compact, completely regular locale that is its maximal
 spectrum (that is, the space of homomorphisms f\colon  A \to  C). Conversely,
 they show any compact completely regular locale X gives a commutative
-C*-algebra consisting of continuous complex functions on X. Even
+$C^*$-algebra consisting of continuous complex functions on X. Even
 better, they explain what all this stuff means.
 
 Jordan Ellenberg sent me the following comments about knots and primes:

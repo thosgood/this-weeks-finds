@@ -408,7 +408,7 @@ great for quantum theory. I defined von Neumann algebras back in
 
 L^\infty(X) is a very special sort of von Neumann algebra, namely a
 *commutative* one. There's a nice theorem: every commutative von
-Neumann algebra is isomorphic (as an abstract C*-algebra) to one of
+Neumann algebra is isomorphic (as an abstract $C^*$-algebra) to one of
 this form. Even better, every commutative von Neumann algebra of
 operators on a *separable* Hilbert space is isomorphic to L^\infty(X) for
 one of these choices of X:
