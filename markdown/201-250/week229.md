@@ -371,7 +371,7 @@ Every operation built from "adding one" and "negative reciprocal"
 looks like this:
 
              az + b
-    z |->   -------
+    z \mapsto   -------
              cz + d
 
 with a,b,c,d integer and ad-bc = 1. The group of these transformations
@@ -431,7 +431,7 @@ Even better, the rational first homology group of the torus is Q^2
 matrix multiplication:
 
      a  b      x       ax + by
-           :      |->     
+           :      \mapsto     
      c  d      y       cx + dy
 
 It therefore acts on the set of $1$-dimensional subspaces of Q^2. Any
@@ -448,7 +448,7 @@ an action of \mathrm{PSL}(2,\mathbb{Z}) since +-1 act trivially. And, you can ea
 that it's the action we've already seen:
 
      a  b             az + b
-           : z  |->  --------
+           : z  \mapsto  --------
      c  d             cz + d
 
 In short: "projectivizing" the action of mapping class group of the

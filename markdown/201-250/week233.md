@@ -81,12 +81,12 @@ These groups look pretty different at first. But, there's a
 homomorphism from B_3 onto \mathrm{SL}(2,\mathbb{Z})! It goes like this:
 
             1   1
-    A |->  
+    A \mapsto  
             0   1
 
 
             1   0
-    B |->  
+    B \mapsto  
            -1   1
 
 Both these matrices describe "shears" in the plane. You may enjoy
@@ -124,13 +124,13 @@ at the bottom, and giving them a full 360-degree twist:
 This full twist gets sent to -1 in \mathrm{SL}(2,\mathbb{Z}):
 
                  -1   0 
-    (AB)3 |->  
+    (AB)3 \mapsto  
                   0  -1
 
 So, the double twist gets sent to the identity:
 
                  1   0 
-    (AB)6 |->  
+    (AB)6 \mapsto  
                  0   1
 
 In fact, Tuba and Wenzl say the double twist *generates* the kernel of
@@ -159,7 +159,7 @@ famous for acting on the rational numbers together with a point at
 infinity by means of fractional linear transformations:
 
              az + b
-    z |->   -------
+    z \mapsto   -------
              cz + d
 
 where a,b,c,d are integers and ad-bc = 1. The group \mathrm{PSL}(2,\mathbb{Z}) also acts
@@ -179,7 +179,7 @@ work it out.
 I just said that the 3-strand braid A gets mapped to this shear:
 
             1   1
-    A |->  
+    A \mapsto  
             0   1
 
 In ["Week 229"](#week229) I said what this shear does to a rational
@@ -198,7 +198,7 @@ tangle. It gives it a 180 degree twist at the bottom, like this:
 Next, Tuba and Wenzl point out that
 
                       0   1
-    ABA = BAB |-> 
+    ABA = BAB \mapsto 
                      -1   0
 
 which is a quarter turn. From ["Week 229"](#week229) you can see
@@ -404,12 +404,12 @@ described above is the "Burau representation" of B_3 evaluated at t =
 1. In general, the Burau representation of B_3 is given by:
 
             t   1
-    A |->  
+    A \mapsto  
             0   1
 
 
             1   0
-    B |->  
+    B \mapsto  
            -t   t
 
 (Conventions differ, and this may not be the best, but it's the one he

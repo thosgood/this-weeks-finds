@@ -349,7 +349,7 @@ that says how to restrict F-structures on X' to F-structures on X.
 In this situation, Bill shows that the vector space B~F~ becomes a
 cocommutative coalgebra. In particular, it gets a comultiplication
 
-Δ\colon  B~F~ \to  B~F~ \otimes B~F~
+\Delta\colon  B~F~ \to  B~F~ \otimes B~F~
 
 which satisfies laws just like the commutative and associative laws for
 ordinary multiplication, only "backwards".

@@ -158,7 +158,7 @@ But why is it a Frobenius algebra? To see this, let's switch the future
 and past in our previous argument! The spacetime where a spherical
 universe splits in two gives A a "comultiplication":
 
-Δ\colon  A \to  A \otimes A
+\Delta\colon  A \to  A \otimes A
 
 ::: {align="center"}
 ![](comultiplication.jpg)
@@ -294,7 +294,7 @@ But this is equivalent to having an algebra that's also a coalgebra,
 with multiplication and comultiplication linked by the "Frobenius
 equations":
 
-(Δ \otimes 1~A~) (1~A~ \otimes m) = Δ m = (m \otimes 1~A~) (1~A~ \otimes Δ)
+(\Delta \otimes 1~A~) (1~A~ \otimes m) = \Delta m = (m \otimes 1~A~) (1~A~ \otimes \Delta)
 
 These equations are a lot more charismatic in pictures!
 

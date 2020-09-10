@@ -248,7 +248,7 @@ elliptic curve formed by curling up a parallelogram like this in the
 complex plane:
 $$
   \begin{tikzpicture}[scale=0.7]
-    \draw[->] (-3,0) to (4,0) node[label=below:{$\Re(z)$}]{};
+    \draw[->] (-2.5,0) to (4,0) node[label=below:{$\Re(z)$}]{};
     \draw[->] (0,-2) to (0,4) node[label=left:{$\Im(z)$}]{};
     \foreach \m in {-1,0,1,2}
     {

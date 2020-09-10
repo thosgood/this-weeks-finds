@@ -634,7 +634,7 @@ This kind of representation is called a "permutation representation".
 And, this trick gives a functor from G-sets to representations of G:
 
     \operatorname{Hom}(G,\mathsf{Set}) \to \operatorname{Hom}(G,Vect) 
-            A |-> FA
+            A \mapsto FA
 
 If this functor were an equivalence of categories, it would have to be
 essentially surjective, full and faithful. But, not every representation

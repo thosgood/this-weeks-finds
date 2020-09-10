@@ -795,7 +795,7 @@ Robert Helling also asked:
 
 > There are people doing numerical long term stability analysis of the
 > solar system. From what I know, they are not just taking F=ma and
-> Newton's law of gravity, replacing dt by Δt and then integrating but
+> Newton's law of gravity, replacing dt by \Deltat and then integrating but
 > use much fancier spectral methods. Could somebody please point me to
 > an introduction into these methods?
 

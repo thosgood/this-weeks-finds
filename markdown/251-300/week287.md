@@ -313,9 +313,9 @@ Remember, a simplicial set is a bunch of
 and so on, all stuck together. Given a topological space X, we can form
 an enormous simplicial set whose $n$-simplices are all possible maps
 
-f\colon  Δ^n \to  X
+f\colon  \Delta^n \to  X
 
-where Δ^n is the standard $n$-simplex, that is, the intersection of the
+where \Delta^n is the standard $n$-simplex, that is, the intersection of the
 hyperplane
 
 x_0 + x_1 + ... + x_n = 1
@@ -781,12 +781,12 @@ Here's the point: this process is a lot like "geometric realization".
 In geometric realization we start with a simplicial set S, which is
 really a functor
 
-S\colon  Δ^op^ \to  \mathsf{Set}
+S\colon  \Delta^op^ \to  \mathsf{Set}
 
-where Δ is the category of simplices. And we know how to turn any
+where \Delta is the category of simplices. And we know how to turn any
 simplex into a topological space, so we also have a functor
 
-F\colon  Δ \to  Top
+F\colon  \Delta \to  Top
 
 We can then take the "weighted colimit" of F with S as our "weight".
 This creates a topological space |S|, the "geometric realization" of
@@ -799,7 +799,7 @@ work, all we need is that the category Top has colimits.
 Similarly, we know how to turn any simplex into a DGCA, namely the
 rational differential forms on that simplex! So we also have a functor
 
-F ′\colon  Δ \to  \[DGCAs\]^op^
+F ′\colon  \Delta \to  \[DGCAs\]^op^
 
 There's an "op" here because of the usual contravariant relation
 between algebra and geometry. But never mind: what matters is that
@@ -814,7 +814,7 @@ should say "coglue", because of that "op".
 While we're playing these games, I should point out a simpler version.
 We also have a functor
 
-F"\colon  Δ \to  \[commutative algebras\]^op^
+F"\colon  \Delta \to  \[commutative algebras\]^op^
 
 and we can pull the same stunt to turn our simplicial set into a
 commutative algebra, which is the algebra of functions that restrict to

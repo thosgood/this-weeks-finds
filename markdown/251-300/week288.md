@@ -605,7 +605,7 @@ subtlety lies.
 The category of simplicial sets has finite products. So, every
 simplicial set has a diagonal map:
 
-Δ\colon  S \to  S \times S
+\Delta\colon  S \to  S \times S
 
 It also a unique map to the simplicial set called 1, which consists of
 single 0-simplex:
@@ -646,7 +646,7 @@ N(F(S)) = C~~*~~(S)
 And thanks to the wonders of functoriality, these chains are blessed
 with a comultiplication
 
-C~~*~~(Δ)\colon  C~~*~~(S) \to  C~~*~~(S) \otimes C~~*~~(S)
+C~~*~~(\Delta)\colon  C~~*~~(S) \to  C~~*~~(S) \otimes C~~*~~(S)
 
 and counit
 

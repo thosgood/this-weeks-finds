@@ -197,7 +197,7 @@ i\colon  C \to  H
 
 the "comultiplication":
 
-Δ\colon  H \to  H \otimes H
+\Delta\colon  H \to  H \otimes H
 
 and the "counit":
 
@@ -911,7 +911,7 @@ illustrate the comultiplication in the Hopf algebra of rooted forests:
 ![](connes_kreimer_coproduct.jpg)
 :::
 
-Here Δ stands for the comultiplication. *But beware:* these trees have
+Here \Delta stands for the comultiplication. *But beware:* these trees have
 their root on top - I hear that's how they grow in Europe. So, these
 pictures are upside-down compared to the description I gave earlier! Now
 to comultiply a rooted forest we slice it in lots of ways and form a sum

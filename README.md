@@ -28,3 +28,4 @@
     + groupoid
     + sphere
     + tuple
+    + functor

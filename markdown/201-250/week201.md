@@ -300,7 +300,7 @@ So, the only symmetries of the field of rational functions that act as
 the identity on constant functions are those coming from fractional
 transformations, like this:
 
-    f |-> fT                        where fT(z) = f(T(z)) 
+    f \mapsto fT                        where fT(z) = f(T(z)) 
 
 If you don't follow my reasoning here, don't worry - the details
 aren't hard to fill in, but they'd be distracting here.
@@ -352,7 +352,7 @@ Q(sqrt(n)) has sqrt(n) in it, so it also has -sqrt(n) in it, and
 there's an automorphism that switches these two while leaving all the
 rational numbers alone, namely
 
-    a + b sqrt(n) |-> a - b sqrt(n)                  (a,b in Q)
+    a + b sqrt(n) \mapsto a - b sqrt(n)                  (a,b in Q)
 
 So, we have:
 

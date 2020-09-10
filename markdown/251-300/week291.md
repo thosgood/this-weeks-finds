@@ -703,7 +703,7 @@ you'll have to read this:
 Electrical Networks, Elsevier, 1985.
 
 See the section called "The Principal of Duality", on page 77. Also,
-look on the web for stuff about the "Δ-Y transformation", which is a
+look on the web for stuff about the "\Delta-Y transformation", which is a
 special case.
 
 If you want to learn more about the 1-ports, 2-ports and 3-ports I've

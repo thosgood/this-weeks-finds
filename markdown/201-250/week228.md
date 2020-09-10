@@ -383,7 +383,7 @@ and "negative reciprocal", and these generate all the fractional
 linear transformations
 
              az + b
-    z |->   --------
+    z \mapsto   --------
              cz + d
 
 with a,b,c,d integer and ad-bc = 1. The group of these transformations

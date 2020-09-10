@@ -690,11 +690,11 @@ on G.
 For example, in a Hopf algebra you can "comultiply" as well as
 multiply. In the group algebra Q\[G\], the comultiplication map
 
-Δ\colon  Q\[G\] \to  Q\[G\] \otimes Q\[G\]
+\Delta\colon  Q\[G\] \to  Q\[G\] \otimes Q\[G\]
 
 is defined on elements g of G by the equation
 
-Δ(g) = g \otimes g
+\Delta(g) = g \otimes g
 
 We say a Hopf algebra is "cocommutative" if comultiplying is the same
 as comultiplying and then switching the two outputs. You can see that's
@@ -748,11 +748,11 @@ encoded in cocommutative Hopf algebras.
 
 In the universal enveloping algebra UL, comultiplication is a map
 
-Δ\colon  UL \to  UL \otimes UL
+\Delta\colon  UL \to  UL \otimes UL
 
 defined on elements x of L by the equation
 
-Δ(x) = x \otimes 1 + 1 \otimes x
+\Delta(x) = x \otimes 1 + 1 \otimes x
 
 The counit is a map
 
@@ -1007,7 +1007,7 @@ comonoids.
 As I mentioned last week, in a category with finite products, every
 object is a comonoid in exactly one way! The comultiplication
 
-Δ\colon  X \to  X \times X
+\Delta\colon  X \to  X \times X
 
 is the diagonal map, and the counit
 
