@@ -692,7 +692,7 @@ say a bit of fancier stuff to fill in a couple gaps for the
 semi-experts.
 
 First, when I said "in nice cases", I really meant that the category
-of $T$-algebras is equivalent to \mathcal{D} when the forgetful functor $R\colon \mathcal{D} \to \mathcal{C}$ is
+of $T$-algebras is equivalent to $\mathcal{D}$ when the forgetful functor $R\colon \mathcal{D} \to \mathcal{C}$ is
 "monadic". A bit more precisely: for any monad $T$ on $\mathcal{C}$ there's a
 category of $T$-algebras, which is usually called $\mathcal{C}^T$ for some silly
 reason. And, whenever we have a pair of adjoint functors $R\colon \mathcal{D} \to \mathcal{C}$ and

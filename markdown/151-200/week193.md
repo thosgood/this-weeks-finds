@@ -426,7 +426,7 @@ $L(-1)$ is just the dual of this rep. So, we get a very octonionic
 description of $\mathrm{E}_7$:
 $$E7 = \mathrm{h}_3(\mathbb{O})^* \oplus [\mathrm{E}_6 \oplus \mathrm{u}(1)] \oplus \mathrm{h}_3(\mathbb{O}).$$
 
-Now, since \mathrm{E}_6 sits in \mathrm{E}_7 which sits in $\mathrm{E}_8$, just like nested
+Now, since $\mathrm{E}_6$ sits in $\mathrm{E}_7$ which sits in $\mathrm{E}_8$, just like nested
 Russian dolls, we can take our previous description of $\mathrm{E}_8$:
 $$E8 = [\mbox{trivial}] \oplus [\mbox{Freudenthal}] \oplus [\mathrm{E}_7 \oplus \mathrm{u}(1)] \oplus [\mbox{Freudenthal}] \oplus [\mbox{trivial}]$$
 and decompose everything in sight as irreps of $\mathrm{E}_6$. If we do this, the
@@ -516,7 +516,7 @@ _Ned. Akad. Wet., Proc. Ser. A_ **71** (1968), 162--190.
 
 12) R. Skip Garibaldi, Structurable algebras and groups of types $\mathrm{E}_6$ and $\mathrm{E}_7$, available at [`math.RA/9811035`](http://www.arXiv.org/abs/math.RA/9811035).
 
-13) R. Skip Garibaldi, "Groups of type \mathrm{E}_7 over arbitrary fields",
+13) R. Skip Garibaldi, "Groups of type $\mathrm{E}_7$ over arbitrary fields",
 available at [`math.RA/9811056`](http://www.arXiv.org/abs/math.RA/9811056).
 
 14) G. Sierra, "An application of the theories of Jordan algebras and Freudenthal triple systems to particles and strings", _Class. Quant. Grav._ **4** (1987), 227--236.

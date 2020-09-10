@@ -219,7 +219,7 @@ forces, which you can't do in heterotic string theory.
 At least this is what my sources tell me! I don't understand all of
 this, so it could be a bit wrong. But I think I understand how $\mathrm{G}_2$
 manifolds and Calabi-Yau manifolds are related, and why $O$ being a
-Calabi-Yau manifold makes $O \times [0,1]$ into a \mathrm{G}_2-manifold. So, I'll
+Calabi-Yau manifold makes $O \times [0,1]$ into a $\mathrm{G}_2$-manifold. So, I'll
 explain that.
 
 The key principle to keep in mind is that any type of structure you can
@@ -313,7 +313,7 @@ kind. The way these spinors work is sort of obvious:
 - dimension 2:  $\mathbb{C}$
 - dimension 3:  $\mathbb{H}$
 - dimension 4:  left and right, both $\mathbb{H}$
-- dimension 5:  $\mathbb{H}2^$
+- dimension 5:  $\mathbb{H}^2$
 - dimension 6:  $\mathbb{C}^4$
 - dimension 7:  $\mathbb{R}^8$
 - dimension 8:  $left and right, both $\mathbb{R}^8$
@@ -327,7 +327,7 @@ vector space is yearning to become the OCTONIONS.
 
 Let's see how we can use this to study specially nice manifolds in 8,
 7, 6 and 5 dimensions. We'll start in dimension 8 and climb our way
-down by a systematic process. In 7 dimensions we'll get \mathrm{G}_2 manifolds,
+down by a systematic process. In 7 dimensions we'll get $\mathrm{G}_2$ manifolds,
 while in 6 dimensions we'll get Calabi-Yau manifolds.
 
 Okay:

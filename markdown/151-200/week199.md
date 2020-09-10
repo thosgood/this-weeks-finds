@@ -393,7 +393,7 @@ If we take the category of finite-dimensional complex vector spaces,
 with direct sum as the "tensor product", and the obvious braiding, its
 classifying space will be
 $$B\mathrm{U}(\infty) = \lim_{k\to\infty}B\mathrm{U}(k)$$
-where B\mathrm{U}(k) is the classifying space of the group of $k \times k$ unitary
+where $B\mathrm{U}(k)$ is the classifying space of the group of $k \times k$ unitary
 matrices! The corresponding spectrum is called the "spectrum for
 connective complex K-theory" and the corresponding generalized
 cohomology theory is called "connective complex K-theory". (Here
@@ -438,7 +438,7 @@ Rene Meyer wrote:
 >
 > > > The "spectrum" of a $C^*$-algebra $A$ is the set of all homomorphisms
 > >$$x\colon A \to \mathbb{C},$$
-> > > where \mathbb{C} is the complex numbers.
+> > > where $\mathbb{C}$ is the complex numbers.
 > > > 
 > > > There's an easy way to make the spectrum of a commutative
 > > > $C^*$-algebra $A$ into a topological space: we say $x_i \to x$ precisely when

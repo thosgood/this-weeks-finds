@@ -96,7 +96,7 @@ $$
   H^n(\mbox{point}) =
   \begin{cases}
     \mathbb{Z}&\mbox{if $n=0$}
-    0&\mbox{otherwise.}
+  \\0&\mbox{otherwise.}
   \end{cases}
 $$
 For a generalized cohomology theory, the cohomology of a point can be

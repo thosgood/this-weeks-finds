@@ -357,7 +357,7 @@ massless particles that spin either clockwise or counterclockwise along
 their line of motion as they zip along at the speed of light.
 
 In 3d spacetime, the double cover of the Lorentz group is $\mathrm{SL}(2,\mathbb{R})$, the
-group of 2\times2 *real* matrices with determinant $1$. In this dimension, we
+group of $2\times2$ *real* matrices with determinant $1$. In this dimension, we
 can take a spinor to be a pair of *real* numbers. But since we don't
 have complex conjugation at our disposal, we don't get left- and
 right-handed versions of these spinors, and we don't call them Weyl

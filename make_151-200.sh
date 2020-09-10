@@ -78,7 +78,7 @@ printf '%s\n' '\setcounter{section}{150}' >> $TEX
 
 printf "\n" >> $TEX
 printf "\n" >> $TEX
-printf '%s\n' '\usepackage{embedall}' >> $TEX
+printf '%s\n' '\usepackage[main]{embedall}' >> $TEX
 
 printf "\n" >> $TEX
 printf '%s\n' '\begin{document}' >> $TEX
