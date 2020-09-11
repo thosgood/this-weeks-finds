@@ -114,6 +114,7 @@ $$
     \draw[thick] (-1,2) to (-0.33,1);
     \draw[thick] (0,2) to (0,1);
     \draw[thick] (1,2) to (0.33,1);
+    \node at (0,0.5) {$f$};
     \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
@@ -124,21 +125,25 @@ $$
     \begin{scope}[shift={(-2.5,3)}]
       \draw[thick] (-0.5,2) to (-0.25,1);
       \draw[thick] (0.5,2) to (0.25,1);
+      \node at (0,0.5) {$g_1$};
       \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(0,3)}]
       \draw[thick] (-1,2) to (-0.33,1);
       \draw[thick] (0,2) to (0,1);
       \draw[thick] (1,2) to (0.33,1);
+      \node at (0,0.5) {$g_2$};
       \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(2.5,3)}]
       \draw[thick] (0,2) to (0,1);
+      \node at (0,0.5) {$g_3$};
       \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
       \draw[thick] (-2.5,3) to (-0.33,1);
       \draw[thick] (0,3) to (0,1);
       \draw[thick] (2.5,3) to (0.33,1);
+      \node at (0,0.5) {$f$};
       \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
@@ -208,11 +213,12 @@ $$
         to [out=down,in=up,looseness=1.5] (0,1);
       \flipcrossings{1,2};
     \end{knot}
+    \node at (0,0.5) {$f$};
     \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
 $$
-We demand that this give an action of each permutation group S_n on
+We demand that this give an action of each permutation group $S_n$ on
 each set $\mathcal{O}_n$. Finally, we demand that these actions be compatible with
 composition, in a way that's supposed to be obvious from the pictures.
 For example:

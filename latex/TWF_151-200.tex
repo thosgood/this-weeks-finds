@@ -46,6 +46,7 @@
 \usepackage{tikz}
 \usetikzlibrary{knots}
 \usetikzlibrary{arrows}
+\usetikzlibrary{decorations.pathmorphing}
 
 \usepackage{tikz-cd}
 
@@ -98,53 +99,32 @@ Lots of well-known European physicists have studied the violin, and in
 the 19th century, Helmholtz showed that the bow excites a mode of the
 violin string that is quite unlike the sine waves we all know and love.
 In this ``Helmholtz waveform'', the string consists of two straight-line
-segments separated by a kink:
-
-\begin{verbatim}
-                         .   
-                    .       .
-               .               .
-          .                       .
-\end{verbatim}
-
-As time passes, the kink travels back and forth along the string, being
-reflected at the ends. The beauty of this becomes apparent as we watch
-the string right at the point where the bow is rubbing over it, near the
-bottom end of the string. When the kink is between the bow and the top
-end of the string:
-
-\begin{verbatim}
-                            bow
-                             |
-                             ^
-                         .   |
-   TOP              .       .|          BOTTOM
-               .             | .
-          .                  |    .
-                             |
-                             |
-\end{verbatim}
-
-this point in the string moves at the same speed and in the same
+segments separated by a kink: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (2,1) to (3,0);
+  \end{tikzpicture}
+\] As time passes, the kink travels back and forth along the string,
+being reflected at the ends. The beauty of this becomes apparent as we
+watch the string right at the point where the bow is rubbing over it,
+near the bottom end of the string. When the kink is between the bow and
+the top end of the string: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node[label=left:{top}]{} to (2,1) to (3,0) node[label=right:{bottom}]{};
+    \draw[ultra thick] (2.5,-0.5) to (2.5,1.75) node[label=above:{bow}]{};
+  \end{tikzpicture}
+\] this point in the string moves at the same speed and in the same
 direction as the bow. This is called the ``sticking regime'', because
 the static friction of the rosin-coated bow is enough to pull the string
-along with it. But when the kink moves past the bow:
-
-\begin{verbatim}
-                            |
-                            ^
-                            |  .
-                         .  | 
-   TOP              .       |   .     BOTTOM
-               .            | 
-          .                 |    .
-                            |
-\end{verbatim}
-
-the string slips off the bow and starts moving in the opposite direction
-to it. This is called the ``sliding regime''. Since the coefficient of
-sliding friction is less than the coefficient of static friction, the
-string can slide against the motion of the bow in this regime.
+along with it. But when the kink moves past the bow: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node[label=left:{top}]{} to (2.75,1) to (3,0) node[label=right:{bottom}]{};
+    \draw[ultra thick] (2.5,-0.5) to (2.5,1.75) node[label=above:{bow}]{};
+  \end{tikzpicture}
+\] the string slips off the bow and starts moving in the opposite
+direction to it. This is called the ``sliding regime''. Since the
+coefficient of sliding friction is less than the coefficient of static
+friction, the string can slide against the motion of the bow in this
+regime.
 
 The really nice thing is that the string is vibrating almost freely: the
 violinist just needs to apply the right amount of pressure to keep this
@@ -19296,35 +19276,24 @@ of the various types\ldots{} where two figures are ``incident'' if the
 
 To get a tiny taste of how this stuff works, consider the Dynkin diagram
 \(\mathrm{A}_2\). We've seen that the Coxeter complex is a
-barycentrically subdivided triangle:
-
-\begin{verbatim}
-                               x
-                              / \
-                             /   \
-                            /     \
-                           /       \
-                          o         o
-                         /           \
-                        /             \
-                       /               \
-                      /                 \
-                     x---------o---------x
-\end{verbatim}
-
-or viewed a bit differently, a hexagon:
-
-\begin{verbatim}
-                            x-----o
-                           /       \
-                          /         \
-                         o           x
-                          \         /
-                           \       /
-                            x-----o
-\end{verbatim}
-
-Here the vertices marked \(\times\) are the vertices of the original
+barycentrically subdivided triangle: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to node{$\times$}
+      (2,0) node{$\bullet$} to node{$\times$}
+      (1,1.73) node{$\bullet$} to node{$\times$}
+      (0,0);
+  \end{tikzpicture}
+\] or viewed a bit differently, a hexagon: \[
+  \begin{tikzpicture}
+    \draw[thick] (0:1) node{$\bullet$} to
+      (60:1) node{$\times$} to
+      (120:1) node{$\bullet$} to
+      (180:1) node{$\times$} to
+      (-120:1) node{$\bullet$} to
+      (-60:1) node{$\times$} to
+      (0:1);
+  \end{tikzpicture}
+\] Here the vertices marked \(\times\) are the vertices of the original
 triangle, while the vertices marked \(\bullet\) correspond to its edges.
 We make up a puny little geometry where the \(\times\)'s are called
 ``points'' and the \(\bullet\)'s are called ``lines''. And we say a
@@ -19406,21 +19375,17 @@ equivalence between b) and c) is deeper; it comes from the wonderful
 analogy between Coxeter complexes and flag varieties.
 
 Let's calculate the \(q\)-polynomial of \(\mathrm{A}_2\) using method
-b):
-
-\begin{verbatim}
-                              0
-                           x-----o
-                        1 /       \ 1
-                         /         \
-                        o           x
-                         \         /
-                        2 \       / 2
-                           x-----o
-                              3
-\end{verbatim}
-
-I've written down the distance of each top-dimensional simplex from a
+b): \[
+  \begin{tikzpicture}
+    \draw[thick] (0:1) node{$\bullet$} to node[label={[label distance=-1mm]above right:{$1$}}]{}
+      (60:1) node{$\times$} to node[label={[label distance=-1mm]above:{$0$}}]{}
+      (120:1) node{$\bullet$} to node[label={[label distance=-1mm]above left:{$1$}}]{}
+      (180:1) node{$\times$} to node[label={[label distance=-1mm]below left:{$2$}}]{}
+      (-120:1) node{$\bullet$} to node[label={[label distance=-1mm]below:{$3$}}]{}
+      (-60:1) node{$\times$} to node[label={[label distance=-1mm]below right:{$2$}}]{}
+      (0:1);
+  \end{tikzpicture}
+\] I've written down the distance of each top-dimensional simplex from a
 given one. There's one of distance \(0\), two of distance \(1\), two of
 distance \(2\), and 1 of distance \(3\). This gives
 \[q^3 + 2q^2 + 2^q + 1 =  [3]!\] just as it should.
@@ -20569,47 +20534,82 @@ shapes of row echelon form for matrices with 4 columns and 2 rows, and
 next to them the corresponding Young diagrams and the kind of
 \(i\)-cells we get:
 
-\begin{longtable}[]{@{}ccc@{}}
+\begin{longtable}[]{@{}crc@{}}
 \toprule
 \endhead
 \begin{minipage}[t]{0.30\columnwidth}\centering
-\[\left(\begin{array}{cccc}0&0&1&0\\0&0&0&1\end{array}\right)\]\strut
-\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\centering
+\(\left(\begin{array}{cccc}0&0&1&0\\0&0&0&1\end{array}\right)\)\strut
+\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedleft
 \strut
 \end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\centering
 \(0\)-cell\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.30\columnwidth}\centering
-\[\left(\begin{array}{cccc}0&1&X&0\\0&0&0&1\end{array}\right)\]\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedleft
+\strut
 \end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\centering
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.30\columnwidth}\centering
+\(\left(\begin{array}{cccc}0&1&X&0\\0&0&0&1\end{array}\right)\)\strut
+\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedleft
 \(\square\)\strut
 \end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\centering
 \(1\)-cell\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.30\columnwidth}\centering
-\[\left(\begin{array}{cccc}1&X&X&0\\0&0&0&1\end{array}\right)\]\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedleft
+\strut
 \end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\centering
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.30\columnwidth}\centering
+\(\left(\begin{array}{cccc}1&X&X&0\\0&0&0&1\end{array}\right)\)\strut
+\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedleft
 \(\square\;\;\square\)\strut
 \end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\centering
 \(2\)-cell\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.30\columnwidth}\centering
-\[\left(\begin{array}{cccc}0&1&0&X\\0&0&1&X\end{array}\right)\]\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedleft
+\strut
 \end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\centering
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.30\columnwidth}\centering
+\(\left(\begin{array}{cccc}0&1&0&X\\0&0&1&X\end{array}\right)\)\strut
+\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedleft
 \(\begin{gathered}\square\\\square\end{gathered}\)\strut
 \end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\centering
 \(2\)-cell\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.30\columnwidth}\centering
-\[\left(\begin{array}{cccc}1&X&0&X\\0&0&1&X\end{array}\right)\]\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedleft
+\strut
 \end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\centering
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.30\columnwidth}\centering
+\(\left(\begin{array}{cccc}1&X&0&X\\0&0&1&X\end{array}\right)\)\strut
+\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedleft
 \(\begin{aligned}\square\;\;\square&\\\square&\end{aligned}\)\strut
 \end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\centering
 \(3\)-cell\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.30\columnwidth}\centering
-\[\left(\begin{array}{cccc}1&0&X&X\\0&1&X&X\end{array}\right)\]\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedleft
+\strut
 \end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\centering
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.30\columnwidth}\centering
+\(\left(\begin{array}{cccc}1&0&X&X\\0&1&X&X\end{array}\right)\)\strut
+\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedleft
 \(\begin{gathered}\square\;\;\square\\\square\;\;\square\end{gathered}\)\strut
 \end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\centering
 \(4\)-cell\strut
@@ -22301,30 +22301,77 @@ and get a new operation: \[
 \] We demand that this give an action of each permutation group S\_n on
 each set \(\mathcal{O}_n\). Finally, we demand that these actions be
 compatible with composition, in a way that's supposed to be obvious from
-the pictures. For example:
-
-\begin{verbatim}
-       \  |  /   |   \   /               \\\ /   / /
-        \ | /    |    \ /                 \\/   / /
-         ---    ---   ---                  /\\ / /
-        | a |  | b | | c |                / \\/ /
-         ---    ---   ---                /   / /
-           \     /   /                  /   / /\\
-            \   /   /                  /   | | \\\  
-             \ /   /                  /    | |  \\\
-              /   /                  ---   ---   ---
-             / \ /           =      | b | | c | | a |
-            /   /                    ---   ---   ---
-           /   / \                      \   |   /
-           \  |  /                       \  |  /
-            -----                         -----
-           |  d  |                       |  d  | 
-            -----                         -----
-              |                             |
-              |                             |
-\end{verbatim}
-
-That's all there is to it!
+the pictures. For example: \[
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (-0.6,2.5)
+        to [out=down,in=up,looseness=1.5] (0.33,1);
+      \strand[thick] (0,2.5)
+        to [out=down,in=up,looseness=1.5] (-0.33,1);
+      \strand[thick] (0.6,2.5)
+        to [out=down,in=up,looseness=1.5] (0,1);
+      \flipcrossings{1,2};
+    \end{knot}
+    \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+    \node at (0,0.5) {$d$};
+    \draw[thick] (0,0) to (0,-1);
+    \begin{scope}[xscale=0.3,yscale=0.4,shift={(-2,6.25)}]
+      \draw[thick] (-0.5,2) to (-0.33,1);
+      \draw[thick] (0,2) to (0,1);
+      \draw[thick] (0.5,2) to (0.33,1);
+      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \node at (0,0.5) {$a$};
+    \end{scope}
+    \begin{scope}[xscale=0.3,yscale=0.4,shift={(0,6.25)}]
+      \draw[thick] (0,2) to (0,1);
+      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \node at (0,0.5) {$b$};
+    \end{scope}
+    \begin{scope}[xscale=0.3,yscale=0.4,shift={(2,6.25)}]
+      \draw[thick] (-0.5,2) to (-0.25,1);
+      \draw[thick] (0.5,2) to (0.25,1);
+      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \node at (0,0.5) {$c$};
+    \end{scope}
+    \node at (1.5,1) {$=$};
+    \begin{scope}[shift={(3,0)}]
+      \draw[thick] (-0.6,1.6) to (-0.33,1);
+      \draw[thick] (0,1.6) to (0,1);
+      \draw[thick] (0.6,1.6) to (0.33,1);
+      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \node at (0,0.5) {$d$};
+      \draw[thick] (0,0) to (0,-1);
+      \begin{scope}[xscale=0.3,yscale=0.4,shift={(-2,4)}]
+        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \node at (0,0.5) {$a$};
+      \end{scope}
+      \begin{scope}[xscale=0.3,yscale=0.4,shift={(0,4)}]
+        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \node at (0,0.5) {$b$};
+      \end{scope}
+      \begin{scope}[xscale=0.3,yscale=0.4,shift={(2,4)}]
+        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \node at (0,0.5) {$c$};
+      \end{scope}
+      \begin{scope}[shift={(0,2)}]
+        \begin{knot}
+          \strand[thick] (0,1.3)
+            to [out=down,in=up] (-0.6,0);
+          \strand[thick] (0.62,1.3)
+            to [out=down,in=up] (-0.04,0);
+          \strand[thick] (0.7,1.3)
+            to [out=down,in=up] (0.04,0);
+          \strand[thick] (-0.7,1.3)
+            to [out=down,in=up] (0.5,0);
+          \strand[thick] (-0.6,1.3)
+            to [out=down,in=up] (0.6,0);
+          \strand[thick] (-0.5,1.3)
+            to [out=down,in=up] (0.7,0);
+        \end{knot}
+      \end{scope}
+    \end{scope}
+  \end{tikzpicture}
+\] That's all there is to it!
 
 With this answered, your next question is probably: ``why should I
 \emph{care} about operads?'' This gets a little more technical. For a
@@ -22622,30 +22669,47 @@ That's all there is to it!
 Alas, this isn't quite true. Peter May has subsequently pointed out to
 me that the book by Stasheff \emph{et al} omits a crucial clause in the
 definition of operad, namely that operations like this are well-defined:
-
-\begin{verbatim}
-  \    /   |  |    \ /  
-   \  /    |  |     / 
-     /     |  |    / \ 
-    / \    |  |   /   \
-    \  |  /   |   \   /    
-     \ | /    |    \ /    
-      ---    ---   ---   
-     | a |  | b | | c | 
-      ---    ---   --- 
-         \    |    /
-          \   |   /  
-           \  |  / 
-            ----- 
-           |  d  |  
-            -----  
-              |   
-              |  
-\end{verbatim}
-
-Here we can either compose the operations \(a\), \(b\), \(c\) with \(d\)
-and then apply a permutation to the arguments of the result, or apply
-permutations to the arguments of \(a\), \(b\), and \(c\) and then
+\[
+  \begin{tikzpicture}
+    \draw[thick] (-0.6,1.6) to (-0.33,1);
+    \draw[thick] (0,1.6) to (0,1);
+    \draw[thick] (0.6,1.6) to (0.33,1);
+    \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+    \node at (0,0.5) {$d$};
+    \draw[thick] (0,0) to (0,-1);
+    \begin{scope}[xscale=0.3,yscale=0.4,shift={(-2,4)}]
+      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \node at (0,0.5) {$a$};
+    \end{scope}
+    \begin{scope}[xscale=0.3,yscale=0.4,shift={(0,4)}]
+      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \node at (0,0.5) {$b$};
+    \end{scope}
+    \begin{scope}[xscale=0.3,yscale=0.4,shift={(2,4)}]
+      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \node at (0,0.5) {$c$};
+    \end{scope}
+    \begin{scope}[shift={(0,2)}]
+      \begin{knot}
+        \strand[thick] (-0.4,1.3)
+          to [out=down,in=up] (-0.5,0);
+        \strand[thick] (-0.6,1.3)
+          to [out=down,in=up] (-0.7,0);
+        \strand[thick] (-0.8,1.3)
+          to [out=down,in=up] (-0.6,0);
+        %
+        \strand[thick] (0,1.3) to (0,0);
+        %
+        \strand[thick] (0.5,1.3)
+          to [out=down,in=up] (0.7,0);
+        \strand[thick] (0.7,1.3)
+          to [out=down,in=up] (0.5,0);
+      \end{knot}
+    \end{scope}
+  \end{tikzpicture}
+\] Here we can either compose the operations \(a\), \(b\), \(c\) with
+\(d\) and then apply a permutation to the arguments of the result, or
+apply permutations to the arguments of \(a\), \(b\), and \(c\) and then
 compose the resulting operation with \(d\) --- we get the same answer
 either way!
 
@@ -25310,59 +25374,71 @@ If you think about it a while, these results do the job.
 If you wish you had some pictures to help you with all this
 higher-dimensional geometry, here's the best I can do. Start with the
 octonion multiplication triangle I keep drawing --- I explained it in
-\protect\hyperlink{week104}{``Week 104''}:
-
-\begin{verbatim}
-                            e6
-
-
-                        e4      e1
-                            e7
-
-                    e3       e2     e5
-\end{verbatim}
-
-This is really the Fano plane: the projective plane over the field with
-two elements. The 3d vector space over this field looks like a cube, and
-the Fano plane is just a flattened-out picture of this cube:
-
-\begin{verbatim}
-                           e6
-                          /  \
-                        e4    e1
-                         |\  /| 
-                         | e7 | 
-                        e3  | e5
-                          \ |/
-                           e2     
-\end{verbatim}
-
-The hidden corner of this cube corresponds to the octonion ``\(1\)''. If
-rotate the cube so that corner is on top, and blow it up a bit, it looks
-like this:
-
-\begin{verbatim}
-                            1
-                           /|\
-                          / | \
-                         /  |  \         
-                        /   |   \       
-                      e3   e6    e5   
-                      |\   / \   /| 
-                      | \ /   \ / |
-                      |  \     /  |
-                      | / \   / \ |
-                      e4   \ /   e1 
-                       \   e2    / 
-                        \   |   /                       
-                         \  |  /
-                          \ | /
-                           |/
-                           e7
-\end{verbatim}
-
-Now, this cube has an an obvious \(\mathbb{Z}_3\) symmetry that we get
-by holding it between our thumb and finger and rotating it about the
+\protect\hyperlink{week104}{``Week 104''}: \[
+  \begin{tikzpicture}[scale=1.5]
+    \draw[thick] (0,0) circle (1cm);
+    \node[fill=white] (e7) at (0,0) {$e_7$};
+    \node[fill=white] (e6) at (90:2) {$e_6$};
+    \node[fill=white] (e5) at (-30:2) {$e_5$};
+    \node[fill=white] (e3) at (-150:2) {$e_3$};
+    \draw[white] (e6) to node(e4)[black,fill=white]{$e_4$} (e3);
+    \draw[white] (e5) to node(e2)[black,fill=white]{$e_2$} (e3);
+    \draw[white] (e5) to node(e1)[black,fill=white]{$e_1$} (e6);
+    %
+    \draw[thick] (e1)
+      to node[rotate=-150]{$\blacktriangle$} (e5)
+      to node[rotate=90]{$\blacktriangle$} (e2)
+      to node[rotate=90]{$\blacktriangle$} (e3)
+      to node[rotate=-30]{$\blacktriangle$} (e4)
+      to node[rotate=-30]{$\blacktriangle$} (e6)
+      to node[rotate=-150]{$\blacktriangle$} (e1);
+    \draw[thick] (e6) to (e7) to (e2);
+    \draw[thick] (e5) to (e7) to(e4);
+    \draw[thick] (e3) to (e7) to(e1);
+    \foreach \a in {0,120,240}
+      \node[rotate={\a-60}] at ({\a+30}:0.6) {$\blacktriangle$};
+    \foreach \a in {60,180,300}
+      \node[rotate={\a+120}] at ({\a+30}:0.6) {$\blacktriangle$};
+    \node[rotate=-110] at (70:1) {$\blacktriangle$};
+    \node[rotate=125] at (-50:1) {$\blacktriangle$};
+    \node[rotate=10] at (-170:1) {$\blacktriangle$};
+  \end{tikzpicture}
+\] This is really the Fano plane: the projective plane over the field
+with two elements. The 3d vector space over this field looks like a
+cube, and the Fano plane is just a flattened-out picture of this cube:
+\[
+  \begin{tikzpicture}
+    \node[fill=white] (e7) at (0,0) {$e_7$};
+    \node[fill=white] (e1) at (30:2) {$e_1$};
+    \node[fill=white] (e6) at (90:2) {$e_6$};
+    \node[fill=white] (e4) at (150:2) {$e_4$};
+    \node[fill=white] (e3) at (-150:2) {$e_3$};
+    \node[fill=white] (e2) at (-90:2) {$e_2$};
+    \node[fill=white] (e5) at (-30:2) {$e_5$};
+    \draw[thick] (e1) to (e6) to (e4) to (e3) to (e2) to (e5) to (e1);
+    \foreach \n in {1,2,4}
+      \draw[thick] (e7) to (e\n);
+  \end{tikzpicture}
+\] The hidden corner of this cube corresponds to the octonion ``\(1\)''.
+If rotate the cube so that corner is on top, and blow it up a bit, it
+looks like this: \[
+  \begin{tikzpicture}[yscale=0.8]
+    \node[fill=white] (1) at (0,3) {$1$};
+    \node[fill=white] (e3) at (-2,1) {$e_3$};
+    \node[fill=white] (e6) at (0,1) {$e_6$};
+    \node[fill=white] (e5) at (2,1) {$e_5$};
+    \node[fill=white] (e4) at (-2,-1) {$e_4$};
+    \node[fill=white] (e2) at (0,-1) {$e_2$};
+    \node[fill=white] (e1) at (2,-1) {$e_1$};
+    \node[fill=white] (e7) at (0,-3) {$e_7$};
+    \draw[thick] (1) to (e3) to (e4) to (e7) to (e1) to (e5) to (1);
+    \draw[thick,dashed] (1) to (e6);
+    \draw[thick,dashed] (e4) to (e6) to (e1);
+    \draw[thick] (e3) to (e2) to (e5);
+    \draw[thick] (e2) to (e7);
+  \end{tikzpicture}
+\] Now, this cube has an an obvious \(\mathbb{Z}_3\) symmetry that we
+get by holding it between our thumb and finger and rotating it about the
 vertical axis. This \(\mathbb{Z}_3\) group acts as automorphisms of the
 octonions that fix the elements \(1\) and \(e_7\). Of course, every
 automorphism fixes \(1\), so the interesting part is that they fix a
@@ -25383,52 +25459,58 @@ two orthogonal unit spinors, namely those corresponding to \(1\) and
 Either way, you can think of \(\mathrm{SO}(3)\) and \(\mathrm{SU}(3)\)
 as souped-up versions of the obvious \(\mathbb{Z}_3\) symmetry of the
 octonion cube. Here's how the octonions decompose as a representation of
-\(\mathrm{SO}(3)\):
-
-\begin{verbatim}
- 1d real rep                   1
- of \mathrm{SO}(3)                     /|\
-                             / | \
- ......................................................................
-                           /   |   \          
- 3d real rep             e3   e6    e5   
- of \mathrm{SO}(3)                |\   / \   /| 
-                         | \ /   \ / |
- ......................................................................
-                         |  \     /  |
- 3d real rep             | / \   / \ |
- of \mathrm{SO}(3)                e4   \ /   e1 
-                          \   e2    / 
-                           \   |   /                       
- ......................................................................
-                             \ | /
- 1d real rep                  |/
- of \mathrm{SO}(3)                     e7
-\end{verbatim}
-
-And here's how they decompose as a rep of \(\mathrm{SU}(3)\):
-
-\begin{verbatim}
- 1d real rep                   1
- of \mathrm{SU}(3)                     /|\
-                             / | \
- ......................................................................
-                           /   |   \          
-                         e3   e6    e5   
-                         |\   / \   /| 
- 3d complex rep          | \ /   \ / |
- of \mathrm{SU}(3)                |  \     /  |
-                         | / \   / \ |
-                         e4   \ /   e1 
-                          \   e2    / 
-                           \   |   /                       
- ......................................................................
-                             \ | /
- 1d real rep                  |/
- of \mathrm{SU}(3)                     e7
-\end{verbatim}
-
-I hope this makes things a bit more vivid!
+\(\mathrm{SO}(3)\): \[
+  \begin{tikzpicture}[yscale=0.8]
+    \node[fill=white] (1) at (0,3) {$1$};
+    \node[fill=white] (e3) at (-2,1) {$e_3$};
+    \node[fill=white] (e6) at (0,1) {$e_6$};
+    \node[fill=white] (e5) at (2,1) {$e_5$};
+    \node[fill=white] (e4) at (-2,-1) {$e_4$};
+    \node[fill=white] (e2) at (0,-1) {$e_2$};
+    \node[fill=white] (e1) at (2,-1) {$e_1$};
+    \node[fill=white] (e7) at (0,-3) {$e_7$};
+    \draw[thick] (1) to (e3) to (e4) to (e7) to (e1) to (e5) to (1);
+    \draw[thick,dashed] (1) to (e6);
+    \draw[thick,dashed] (e4) to (e6) to (e1);
+    \draw[thick] (e3) to (e2) to (e5);
+    \draw[thick] (e2) to (e7);
+    %
+    \node at (-5,3) {1d real rep of $\mathrm{SO}(3)$};
+    \draw[line width=2mm,white] (-7,2) to (3,2);
+    \draw[thick,dotted] (-7,2) to (3,2);
+    \node at (-5,1) {3d real rep of $\mathrm{SO}(3)$};
+    \draw[line width=2mm,white] (-7,0) to (3,0);
+    \draw[thick,dotted] (-7,0) to (3,0);
+    \node at (-5,-1) {3d real rep of $\mathrm{SO}(3)$};
+    \draw[line width=2mm,white] (-7,-2) to (3,-2);
+    \draw[thick,dotted] (-7,-2) to (3,-2);
+    \node at (-5,-3) {1d real rep of $\mathrm{SO}(3)$};
+  \end{tikzpicture}
+\] And here's how they decompose as a rep of \(\mathrm{SU}(3)\): \[
+  \begin{tikzpicture}[yscale=0.8]
+    \node[fill=white] (1) at (0,3) {$1$};
+    \node[fill=white] (e3) at (-2,1) {$e_3$};
+    \node[fill=white] (e6) at (0,1) {$e_6$};
+    \node[fill=white] (e5) at (2,1) {$e_5$};
+    \node[fill=white] (e4) at (-2,-1) {$e_4$};
+    \node[fill=white] (e2) at (0,-1) {$e_2$};
+    \node[fill=white] (e1) at (2,-1) {$e_1$};
+    \node[fill=white] (e7) at (0,-3) {$e_7$};
+    \draw[thick] (1) to (e3) to (e4) to (e7) to (e1) to (e5) to (1);
+    \draw[thick,dashed] (1) to (e6);
+    \draw[thick,dashed] (e4) to (e6) to (e1);
+    \draw[thick] (e3) to (e2) to (e5);
+    \draw[thick] (e2) to (e7);
+    %
+    \node at (-5,3) {1d real rep of $\mathrm{SO}(3)$};
+    \draw[line width=2mm,white] (-7,2) to (3,2);
+    \draw[thick,dotted] (-7,2) to (3,2);
+    \node at (-5,0) {3d complex rep of $\mathrm{SU}(3)$};
+    \draw[line width=2mm,white] (-7,-2) to (3,-2);
+    \draw[thick,dotted] (-7,-2) to (3,-2);
+    \node at (-5,-3) {1d real rep of $\mathrm{SO}(3)$};
+  \end{tikzpicture}
+\] I hope this makes things a bit more vivid!
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
