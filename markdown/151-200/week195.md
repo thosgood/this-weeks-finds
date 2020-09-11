@@ -574,38 +574,40 @@ $$
 This is really the Fano plane: the projective plane over the field with
 two elements. The 3d vector space over this field looks like a cube, and
 the Fano plane is just a flattened-out picture of this cube:
-
-                               e6
-                              /  \
-                            e4    e1
-                             |\  /| 
-                             | e7 | 
-                            e3  | e5
-                              \ |/
-                               e2     
-
+$$
+  \begin{tikzpicture}
+    \node[fill=white] (e7) at (0,0) {$e_7$};
+    \node[fill=white] (e1) at (30:2) {$e_1$};
+    \node[fill=white] (e6) at (90:2) {$e_6$};
+    \node[fill=white] (e4) at (150:2) {$e_4$};
+    \node[fill=white] (e3) at (-150:2) {$e_3$};
+    \node[fill=white] (e2) at (-90:2) {$e_2$};
+    \node[fill=white] (e5) at (-30:2) {$e_5$};
+    \draw[thick] (e1) to (e6) to (e4) to (e3) to (e2) to (e5) to (e1);
+    \foreach \n in {1,2,4}
+      \draw[thick] (e7) to (e\n);
+  \end{tikzpicture}
+$$
 The hidden corner of this cube corresponds to the octonion "$1$". If
 rotate the cube so that corner is on top, and blow it up a bit, it looks
 like this:
-
-                                1
-                               /|\
-                              / | \
-                             /  |  \         
-                            /   |   \       
-                          e3   e6    e5   
-                          |\   / \   /| 
-                          | \ /   \ / |
-                          |  \     /  |
-                          | / \   / \ |
-                          e4   \ /   e1 
-                           \   e2    / 
-                            \   |   /                       
-                             \  |  /
-                              \ | /
-                               |/
-                               e7
-
+$$
+  \begin{tikzpicture}[yscale=0.8]
+    \node[fill=white] (1) at (0,3) {$1$};
+    \node[fill=white] (e3) at (-2,1) {$e_3$};
+    \node[fill=white] (e6) at (0,1) {$e_6$};
+    \node[fill=white] (e5) at (2,1) {$e_5$};
+    \node[fill=white] (e4) at (-2,-1) {$e_4$};
+    \node[fill=white] (e2) at (0,-1) {$e_2$};
+    \node[fill=white] (e1) at (2,-1) {$e_1$};
+    \node[fill=white] (e7) at (0,-3) {$e_7$};
+    \draw[thick] (1) to (e3) to (e4) to (e7) to (e1) to (e5) to (1);
+    \draw[thick,dashed] (1) to (e6);
+    \draw[thick,dashed] (e4) to (e6) to (e1);
+    \draw[thick] (e3) to (e2) to (e5);
+    \draw[thick] (e2) to (e7);
+  \end{tikzpicture}
+$$
 Now, this cube has an an obvious $\mathbb{Z}_3$ symmetry that we get by holding it
 between our thumb and finger and rotating it about the vertical axis.
 This $\mathbb{Z}_3$ group acts as automorphisms of the octonions that fix the
@@ -625,46 +627,60 @@ namely those corresponding to $1$ and $e_7$.
 Either way, you can think of $\mathrm{SO}(3)$ and $\mathrm{SU}(3)$ as souped-up versions of
 the obvious $\mathbb{Z}_3$ symmetry of the octonion cube. Here's how the
 octonions decompose as a representation of $\mathrm{SO}(3)$:
-
-     1d real rep                   1
-     of \mathrm{SO}(3)                     /|\
-                                 / | \
-     ......................................................................
-                               /   |   \          
-     3d real rep             e3   e6    e5   
-     of \mathrm{SO}(3)                |\   / \   /| 
-                             | \ /   \ / |
-     ......................................................................
-                             |  \     /  |
-     3d real rep             | / \   / \ |
-     of \mathrm{SO}(3)                e4   \ /   e1 
-                              \   e2    / 
-                               \   |   /                       
-     ......................................................................
-                                 \ | /
-     1d real rep                  |/
-     of \mathrm{SO}(3)                     e7
-
+$$
+  \begin{tikzpicture}[yscale=0.8]
+    \node[fill=white] (1) at (0,3) {$1$};
+    \node[fill=white] (e3) at (-2,1) {$e_3$};
+    \node[fill=white] (e6) at (0,1) {$e_6$};
+    \node[fill=white] (e5) at (2,1) {$e_5$};
+    \node[fill=white] (e4) at (-2,-1) {$e_4$};
+    \node[fill=white] (e2) at (0,-1) {$e_2$};
+    \node[fill=white] (e1) at (2,-1) {$e_1$};
+    \node[fill=white] (e7) at (0,-3) {$e_7$};
+    \draw[thick] (1) to (e3) to (e4) to (e7) to (e1) to (e5) to (1);
+    \draw[thick,dashed] (1) to (e6);
+    \draw[thick,dashed] (e4) to (e6) to (e1);
+    \draw[thick] (e3) to (e2) to (e5);
+    \draw[thick] (e2) to (e7);
+    %
+    \node at (-5,3) {1d real rep of $\mathrm{SO}(3)$};
+    \draw[line width=2mm,white] (-7,2) to (3,2);
+    \draw[thick,dotted] (-7,2) to (3,2);
+    \node at (-5,1) {3d real rep of $\mathrm{SO}(3)$};
+    \draw[line width=2mm,white] (-7,0) to (3,0);
+    \draw[thick,dotted] (-7,0) to (3,0);
+    \node at (-5,-1) {3d real rep of $\mathrm{SO}(3)$};
+    \draw[line width=2mm,white] (-7,-2) to (3,-2);
+    \draw[thick,dotted] (-7,-2) to (3,-2);
+    \node at (-5,-3) {1d real rep of $\mathrm{SO}(3)$};
+  \end{tikzpicture}
+$$
 And here's how they decompose as a rep of $\mathrm{SU}(3)$:
-
-     1d real rep                   1
-     of \mathrm{SU}(3)                     /|\
-                                 / | \
-     ......................................................................
-                               /   |   \          
-                             e3   e6    e5   
-                             |\   / \   /| 
-     3d complex rep          | \ /   \ / |
-     of \mathrm{SU}(3)                |  \     /  |
-                             | / \   / \ |
-                             e4   \ /   e1 
-                              \   e2    / 
-                               \   |   /                       
-     ......................................................................
-                                 \ | /
-     1d real rep                  |/
-     of \mathrm{SU}(3)                     e7
-
+$$
+  \begin{tikzpicture}[yscale=0.8]
+    \node[fill=white] (1) at (0,3) {$1$};
+    \node[fill=white] (e3) at (-2,1) {$e_3$};
+    \node[fill=white] (e6) at (0,1) {$e_6$};
+    \node[fill=white] (e5) at (2,1) {$e_5$};
+    \node[fill=white] (e4) at (-2,-1) {$e_4$};
+    \node[fill=white] (e2) at (0,-1) {$e_2$};
+    \node[fill=white] (e1) at (2,-1) {$e_1$};
+    \node[fill=white] (e7) at (0,-3) {$e_7$};
+    \draw[thick] (1) to (e3) to (e4) to (e7) to (e1) to (e5) to (1);
+    \draw[thick,dashed] (1) to (e6);
+    \draw[thick,dashed] (e4) to (e6) to (e1);
+    \draw[thick] (e3) to (e2) to (e5);
+    \draw[thick] (e2) to (e7);
+    %
+    \node at (-5,3) {1d real rep of $\mathrm{SO}(3)$};
+    \draw[line width=2mm,white] (-7,2) to (3,2);
+    \draw[thick,dotted] (-7,2) to (3,2);
+    \node at (-5,0) {3d complex rep of $\mathrm{SU}(3)$};
+    \draw[line width=2mm,white] (-7,-2) to (3,-2);
+    \draw[thick,dotted] (-7,-2) to (3,-2);
+    \node at (-5,-3) {1d real rep of $\mathrm{SO}(3)$};
+  \end{tikzpicture}
+$$
 I hope this makes things a bit more vivid!
 
 ------------------------------------------------------------------------
