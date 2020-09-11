@@ -133,11 +133,11 @@ length-squared equal to $2$, and there are 240 of them:
 - $(1,1,0,0,0,0,0,0)$ and all permutations thereof: there are $\binom{8}{2}=28$ of these
 - $(-1,-1,0,0,0,0,0,0)$ and all permutations thereof: there are $\binom{8}{2}=28$ of these
 - $(1,-1,0,0,0,0,0,0)$ and all permutations thereof: there are twice $\binom{8}{2}=56$ of these
-- $(1/2,1/2,1/2,1/2,1/2,1/2,1/2,1/2)$: there is $1$ of these 
-- $(-1/2,-1/2, 1/2,1/2,1/2,1/2,1/2,1/2)$: there are $\binom{8}{2}=28$ of these
-- $(-1/2,-1/2,-1/2,-1/2, 1/2,1/2,1/2,1/2)$: there are $\binom{8}{4}=70$ of these
-- $(-1/2,-1/2,-1/2,-1/2,-1/2,-1/2, 1/2,1/2)$:  there are $\binom{8}{2}=28$ of these
-- $(-1/2,-1/2,-1/2,-1/2,-1/2,-1/2,-1/2,-1/2)$:  there is $1$ of these
+- $(\frac12,\frac12,\frac12,\frac12,\frac12,\frac12,\frac12,\frac12)$: there is $1$ of these 
+- $(-\frac12,-\frac12, \frac12,\frac12,\frac12,\frac12,\frac12,\frac12)$: there are $\binom{8}{2}=28$ of these
+- $(-\frac12,-\frac12,-\frac12,-\frac12, \frac12,\frac12,\frac12,\frac12)$: there are $\binom{8}{4}=70$ of these
+- $(-\frac12,-\frac12,-\frac12,-\frac12,-\frac12,-\frac12, \frac12,\frac12)$:  there are $\binom{8}{2}=28$ of these
+- $(-\frac12,-\frac12,-\frac12,-\frac12,-\frac12,-\frac12,-\frac12,-\frac12)$:  there is $1$ of these
 
 for a total of
 $$28 \times 6 + 70 + 2 = 168 + 72 = 240$$
