@@ -348,7 +348,7 @@ it's all about.
     do with the sphere with four punctures, which can be viewed as built up
     from trinions in either of two "dual" ways:
     $$
-      \begin{tikzpicture}[scale=0.5,rotate=90]
+      \begin{tikzpicture}[scale=0.3,rotate=90]
         \begin{scope}
           \draw[thick] (-3,0) ellipse (2cm and 1cm);
           \draw[thick] (3,0) ellipse (2cm and 1cm);
@@ -379,7 +379,7 @@ it's all about.
     $$
     or
     $$
-      \begin{tikzpicture}[scale=0.5]
+      \begin{tikzpicture}[scale=0.3]
         \begin{scope}
           \draw[thick] (-3,0) ellipse (2cm and 1cm);
           \draw[thick] (3,0) ellipse (2cm and 1cm);

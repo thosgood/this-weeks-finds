@@ -168,11 +168,11 @@ in spacetime. These graphs are called Feynman diagrams, and they
 represent "histories". For example,
 $$
   \begin{tikzpicture}[thick]
-    \draw (0,0) to node[rotate=-45,label={[label distance=-2mm]above:{u}}]{$\blacktriangleright$} (1,-1);
-    \draw (1,-1) to node[rotate=-135,label={[label distance=-3.2mm]above:{d}}]{$\blacktriangleright$} (0,-2);
+    \draw (0,0) to node[rotate=-45,label={[label distance=-2mm]above:{u}}]{$\blackarrow$} (1,-1);
+    \draw (1,-1) to node[rotate=-135,label={[label distance=-3.2mm]above:{d}}]{$\blackarrow$} (0,-2);
     \draw [decorate, decoration=snake] (1,-1) to node[label=above:{W}]{} (3,-1);
-    \draw (4,0) to node[rotate=-135,label={[label distance=-2mm]below:{e}}]{$\blacktriangleright$} (3,-1);
-    \draw (3,-1) to node[rotate=-45,label={[label distance=-2mm]below:{$\nu$}}]{$\blacktriangleright$} (4,-2);
+    \draw (4,0) to node[rotate=-135,label={[label distance=-2mm]below:{e}}]{$\blackarrow$} (3,-1);
+    \draw (3,-1) to node[rotate=-45,label={[label distance=-2mm]below:{$\nu$}}]{$\blackarrow$} (4,-2);
   \end{tikzpicture}
 $$
 **???**

@@ -33,6 +33,69 @@ For example, people often claim the great thing about string theory is
 that it's "finite": that is, one can compute how strings scatter off
 each other as an infinite (but possibly divergent) sum of well-defined
 terms, one for each different number of holes in the string worldsheet:
+$$
+  \begin{tikzpicture}[scale=0.25]
+    \begin{scope}
+      \draw[thick] (-3,0) ellipse (2cm and 1cm);
+      \draw[thick] (3,0) ellipse (2cm and 1cm);
+      \draw[thick] (-5,0) .. controls (-5,-2) and (-2,-4) .. (-2,-6);
+      \draw[thick] (5,0) .. controls (5,-2) and (2,-4) .. (2,-6);
+      \draw[thick] (-1,0) .. controls (-1,-1) .. (0,-2);
+      \draw[thick] (1,0) .. controls (1,-1) .. (0,-2);
+      \draw[thick] (-2,-6) to (-2,-7);
+      \draw[thick] (2,-6) to (2,-7);
+    \end{scope}
+    \begin{scope}[rotate=180,shift={(0,14)}]
+      \begin{scope}[shift={(-3,0)},rotate=180]
+        \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
+        \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+      \end{scope}
+      \begin{scope}[shift={(3,0)},rotate=180]
+        \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
+        \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+      \end{scope}
+      \draw[thick] (-5,0) .. controls (-5,-2) and (-2,-4) .. (-2,-6);
+      \draw[thick] (5,0) .. controls (5,-2) and (2,-4) .. (2,-6);
+      \draw[thick] (-1,0) .. controls (-1,-1) .. (0,-2);
+      \draw[thick] (1,0) .. controls (1,-1) .. (0,-2);
+      \draw[thick] (-2,-6) to (-2,-7);
+      \draw[thick] (2,-6) to (2,-7);
+    \end{scope}
+    \node at (8,-7) {$+$};
+    \begin{scope}[shift={(16,0)}]
+      \begin{scope}
+        \draw[thick] (-3,0) ellipse (2cm and 1cm);
+        \draw[thick] (3,0) ellipse (2cm and 1cm);
+        \draw[thick] (-5,0) .. controls (-5,-2) and (-3,-4) .. (-3,-6);
+        \draw[thick] (5,0) .. controls (5,-2) and (3,-4) .. (3,-6);
+        \draw[thick] (-1,0) .. controls (-1,-1) .. (0,-2);
+        \draw[thick] (1,0) .. controls (1,-1) .. (0,-2);
+        \draw[thick] (-3,-6) to (-3,-7);
+        \draw[thick] (3,-6) to (3,-7);
+      \end{scope}
+      \draw[thick] (0,-4.5) .. controls (-1,-7) .. (0,-9.5);
+      \draw[thick] (0,-4.5) .. controls (1,-7) .. (0,-9.5);
+      \begin{scope}[rotate=180,shift={(0,14)}]
+        \begin{scope}[shift={(-3,0)},rotate=180]
+          \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
+          \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+        \end{scope}
+        \begin{scope}[shift={(3,0)},rotate=180]
+          \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
+          \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+        \end{scope}
+        \draw[thick] (-5,0) .. controls (-5,-2) and (-3,-4) .. (-3,-6);
+        \draw[thick] (5,0) .. controls (5,-2) and (3,-4) .. (3,-6);
+        \draw[thick] (-1,0) .. controls (-1,-1) .. (0,-2);
+        \draw[thick] (1,0) .. controls (1,-1) .. (0,-2);
+        \draw[thick] (-3,-6) to (-3,-7);
+        \draw[thick] (3,-6) to (3,-7);
+      \end{scope}
+    \end{scope}
+    \node at (24,-7) {$+$};
+    \node at (30,-7) {$\ldots$};
+  \end{tikzpicture}
+$$
 
          o  o        o  o  
          \\//        \\//
