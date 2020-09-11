@@ -96,17 +96,6 @@ $$
     \node at (30,-7) {$\ldots$};
   \end{tikzpicture}
 $$
-
-         o  o        o  o  
-         \\//        \\//
-          ||          ||  
-          ||         //\\  
-          ||    +   ||  ||   +  ....
-          ||         \\//
-          ||          ||
-         //\\        //\\ 
-         o  o        o  o  
-
 But there are different string theories to consider here: bosonic string
 theory and 5 the different superstring theories (see
 ["Week 72"](#week72)).
