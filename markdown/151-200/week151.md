@@ -15,44 +15,32 @@ the 19th century, Helmholtz showed that the bow excites a mode of the
 violin string that is quite unlike the sine waves we all know and love.
 In this "Helmholtz waveform", the string consists of two straight-line
 segments separated by a kink:
-
-
-                             .   
-                        .       .
-                   .               .
-              .                       .
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (2,1) to (3,0);
+  \end{tikzpicture}
+$$
 As time passes, the kink travels back and forth along the string, being
 reflected at the ends. The beauty of this becomes apparent as we watch
 the string right at the point where the bow is rubbing over it, near the
 bottom end of the string. When the kink is between the bow and the top
 end of the string:
-
-
-                                bow
-                                 |
-                                 ^
-                             .   |
-       TOP              .       .|          BOTTOM
-                   .             | .
-              .                  |    .
-                                 |
-                                 |
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node[label=left:{top}]{} to (2,1) to (3,0) node[label=right:{bottom}]{};
+    \draw[ultra thick] (2.5,-0.5) to (2.5,1.75) node[label=above:{bow}]{};
+  \end{tikzpicture}
+$$
 this point in the string moves at the same speed and in the same
 direction as the bow. This is called the "sticking regime", because
 the static friction of the rosin-coated bow is enough to pull the string
 along with it. But when the kink moves past the bow:
-
-                                |
-                                ^
-                                |  .
-                             .  | 
-       TOP              .       |   .     BOTTOM
-                   .            | 
-              .                 |    .
-                                |
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node[label=left:{top}]{} to (2.75,1) to (3,0) node[label=right:{bottom}]{};
+    \draw[ultra thick] (2.5,-0.5) to (2.5,1.75) node[label=above:{bow}]{};
+  \end{tikzpicture}
+$$
 the string slips off the bow and starts moving in the opposite direction
 to it. This is called the "sliding regime". Since the coefficient of
 sliding friction is less than the coefficient of static friction, the
