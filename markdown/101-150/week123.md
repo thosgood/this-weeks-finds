@@ -175,7 +175,6 @@ $$
     \draw (3,-1) to node[rotate=-45,label={[label distance=-2mm]below:{$\nu$}}]{$\blackarrow$} (4,-2);
   \end{tikzpicture}
 $$
-**???**
 would represent a history in which an up quark emits a W boson and turns
 into a down quark, with the W being absorbed by an electron, turning it
 into a neutrino. Time passes as you march down the page. Quantum field
