@@ -268,29 +268,25 @@ $$
         \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
         \node at (0,0.5) {$c$};
       \end{scope}
+      \begin{scope}[shift={(0,2)}]
+        \begin{knot}
+          \strand[thick] (0,1.3)
+            to [out=down,in=up] (-0.6,0);
+          \strand[thick] (0.62,1.3)
+            to [out=down,in=up] (-0.04,0);
+          \strand[thick] (0.7,1.3)
+            to [out=down,in=up] (0.04,0);
+          \strand[thick] (-0.7,1.3)
+            to [out=down,in=up] (0.5,0);
+          \strand[thick] (-0.6,1.3)
+            to [out=down,in=up] (0.6,0);
+          \strand[thick] (-0.5,1.3)
+            to [out=down,in=up] (0.7,0);
+        \end{knot}
+      \end{scope}
     \end{scope}
   \end{tikzpicture}
 $$
-
-           \  |  /   |   \   /               \\\ /   / /
-            \ | /    |    \ /                 \\/   / /
-             ---    ---   ---                  /\\ / /
-            | a |  | b | | c |                / \\/ /
-             ---    ---   ---                /   / /
-               \     /   /                  /   / /\\
-                \   /   /                  /   | | \\\  
-                 \ /   /                  /    | |  \\\
-                  /   /                  ---   ---   ---
-                 / \ /           =      | b | | c | | a |
-                /   /                    ---   ---   ---
-               /   / \                      \   |   /
-               \  |  /                       \  |  /
-                -----                         -----
-               |  d  |                       |  d  | 
-                -----                         -----
-                  |                             |
-                  |                             |
-
 That's all there is to it!
 
 With this answered, your next question is probably: "why should I
