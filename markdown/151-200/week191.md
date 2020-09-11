@@ -216,6 +216,40 @@ We demand that this give an action of each permutation group S_n on
 each set $\mathcal{O}_n$. Finally, we demand that these actions be compatible with
 composition, in a way that's supposed to be obvious from the pictures.
 For example:
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (-0.6,2.5)
+        to [out=down,in=up,looseness=1.5] (0.33,1);
+      \strand[thick] (0,2.5)
+        to [out=down,in=up,looseness=1.5] (-0.33,1);
+      \strand[thick] (0.6,2.5)
+        to [out=down,in=up,looseness=1.5] (0,1);
+      \flipcrossings{1,2};
+    \end{knot}
+    \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+    \node at (0,0.5) {$d$};
+    \draw[thick] (0,0) to (0,-1);
+    \begin{scope}[xscale=0.3,yscale=0.4,shift={(-2,6.25)}]
+      \draw[thick] (-0.5,2) to (-0.33,1);
+      \draw[thick] (0,2) to (0,1);
+      \draw[thick] (0.5,2) to (0.33,1);
+      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \node at (0,0.5) {$a$};
+    \end{scope}
+    \begin{scope}[xscale=0.3,yscale=0.4,shift={(0,6.25)}]
+      \draw[thick] (0,2) to (0,1);
+      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \node at (0,0.5) {$b$};
+    \end{scope}
+    \begin{scope}[xscale=0.3,yscale=0.4,shift={(2,6.25)}]
+      \draw[thick] (-0.5,2) to (-0.25,1);
+      \draw[thick] (0.5,2) to (0.25,1);
+      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \node at (0,0.5) {$c$};
+    \end{scope}
+  \end{tikzpicture}
+$$
 
            \  |  /   |   \   /               \\\ /   / /
             \ | /    |    \ /                 \\/   / /
