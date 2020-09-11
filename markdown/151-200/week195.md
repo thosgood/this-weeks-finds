@@ -541,15 +541,36 @@ If you wish you had some pictures to help you with all this
 higher-dimensional geometry, here's the best I can do. Start with the
 octonion multiplication triangle I keep drawing --- I explained it in
 ["Week 104"](#week104):
-
-                                e6
-
-     
-                            e4      e1
-                                e7
-
-                        e3       e2     e5
-
+$$
+  \begin{tikzpicture}[scale=1.5]
+    \draw[thick] (0,0) circle (1cm);
+    \node[fill=white] (e7) at (0,0) {$e_7$};
+    \node[fill=white] (e6) at (90:2) {$e_6$};
+    \node[fill=white] (e5) at (-30:2) {$e_5$};
+    \node[fill=white] (e3) at (-150:2) {$e_3$};
+    \draw[white] (e6) to node(e4)[black,fill=white]{$e_4$} (e3);
+    \draw[white] (e5) to node(e2)[black,fill=white]{$e_2$} (e3);
+    \draw[white] (e5) to node(e1)[black,fill=white]{$e_1$} (e6);
+    %
+    \draw[thick] (e1)
+      to node[rotate=-150]{$\blacktriangle$} (e5)
+      to node[rotate=90]{$\blacktriangle$} (e2)
+      to node[rotate=90]{$\blacktriangle$} (e3)
+      to node[rotate=-30]{$\blacktriangle$} (e4)
+      to node[rotate=-30]{$\blacktriangle$} (e6)
+      to node[rotate=-150]{$\blacktriangle$} (e1);
+    \draw[thick] (e6) to (e7) to (e2);
+    \draw[thick] (e5) to (e7) to(e4);
+    \draw[thick] (e3) to (e7) to(e1);
+    \foreach \a in {0,120,240}
+      \node[rotate={\a-60}] at ({\a+30}:0.6) {$\blacktriangle$};
+    \foreach \a in {60,180,300}
+      \node[rotate={\a+120}] at ({\a+30}:0.6) {$\blacktriangle$};
+    \node[rotate=-110] at (70:1) {$\blacktriangle$};
+    \node[rotate=125] at (-50:1) {$\blacktriangle$};
+    \node[rotate=10] at (-170:1) {$\blacktriangle$};
+  \end{tikzpicture}
+$$
 This is really the Fano plane: the projective plane over the field with
 two elements. The 3d vector space over this field looks like a cube, and
 the Fano plane is just a flattened-out picture of this cube:
