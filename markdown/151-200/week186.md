@@ -265,29 +265,26 @@ $0$-simplices are both vertices of some top-dimensional simplex!
 To get a tiny taste of how this stuff works, consider the Dynkin diagram
 $\mathrm{A}_2$. We've seen that the Coxeter complex is a barycentrically
 subdivided triangle:
-
-                                   x
-                                  / \
-                                 /   \
-                                /     \
-                               /       \
-                              o         o
-                             /           \
-                            /             \
-                           /               \
-                          /                 \
-                         x---------o---------x
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to node{$\times$}
+      (2,0) node{$\bullet$} to node{$\times$}
+      (1,1.73) node{$\bullet$} to node{$\times$}
+      (0,0);
+  \end{tikzpicture}
+$$
 or viewed a bit differently, a hexagon:
-
-                                x-----o
-                               /       \
-                              /         \
-                             o           x
-                              \         /
-                               \       /
-                                x-----o
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0:1) node{$\bullet$} to
+      (60:1) node{$\times$} to
+      (120:1) node{$\bullet$} to
+      (180:1) node{$\times$} to
+      (-120:1) node{$\bullet$} to
+      (-60:1) node{$\times$} to
+      (0:1);
+  \end{tikzpicture}
+$$
 Here the vertices marked $\times$ are the vertices of the original triangle,
 while the vertices marked $\bullet$ correspond to its edges. We make up a puny
 little geometry where the $\times$'s are called "points" and the $\bullet$'s are
@@ -361,17 +358,17 @@ The equivalence between b) and c) is deeper; it comes from the wonderful
 analogy between Coxeter complexes and flag varieties.
 
 Let's calculate the $q$-polynomial of $\mathrm{A}_2$ using method b):
-
-                                  0
-                               x-----o
-                            1 /       \ 1
-                             /         \
-                            o           x
-                             \         /
-                            2 \       / 2
-                               x-----o
-                                  3
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0:1) node{$\bullet$} to node[label={[label distance=-1mm]above right:{$1$}}]{}
+      (60:1) node{$\times$} to node[label={[label distance=-1mm]above:{$0$}}]{}
+      (120:1) node{$\bullet$} to node[label={[label distance=-1mm]above left:{$1$}}]{}
+      (180:1) node{$\times$} to node[label={[label distance=-1mm]below left:{$2$}}]{}
+      (-120:1) node{$\bullet$} to node[label={[label distance=-1mm]below:{$3$}}]{}
+      (-60:1) node{$\times$} to node[label={[label distance=-1mm]below right:{$2$}}]{}
+      (0:1);
+  \end{tikzpicture}
+$$
 I've written down the distance of each top-dimensional simplex from a
 given one. There's one of distance $0$, two of distance $1$, two of
 distance $2$, and 1 of distance $3$. This gives
