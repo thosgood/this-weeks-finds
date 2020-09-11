@@ -142,37 +142,31 @@ picture are congruent.
 What about multiplication? Well, first draw a line $L'$ that intersects
 our line $L$ only at the point $0$. Then draw a line $M$ from the point $1$ to
 some point $1'$ that's on $L'$ but not on $L$:
-
-                      L'/
-                       / 
-                      /
-                     1'
-                    /|
-                   / |
-                  /  |
-       ----------0---1------------------------------------  L
-                     |
-                     |M
-                     |
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (-1,0) to (3,0) node[label=right:{$L$}]{};
+    \draw[thick] (0,0) to (1.5,2) node[label=right:{$L'$}]{};
+    \draw[thick] (1,-1) node[label=right:{$M$}]{} to (1,1.33);
+    \node[label={[label distance=-2mm]below left:{$0$}}] at (0,0){$\bullet$};
+    \node[label={[label distance=-2mm]below left:{$1$}}] at (1,0){$\bullet$};
+    \node[label={[label distance=-2mm]above left:{$1'$}}] at (1,1.33){$\bullet$};
+  \end{tikzpicture}
+$$
 Then, to multiply $x$ and $y$, draw this picture:
-
-                            /
-                           /|\   
-                          / | \
-                         /  |  \
-                      L'/   |   \
-                       /    |    \
-                      /     |     \
-                     1'     |      \
-                    /|\     |       \
-                   / | \N   |        \N'
-                  /  |  \   |         \
-       ----------0---1---x--y----------z------------------  L
-                     |    \ |           \
-                     |M     |M'
-                     |      |
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (-1,0) to (6,0) node[label={[label distance=-2mm]right:{$L$}}]{};
+    \draw[thick] (0,0) to node[label=above:{$L'$}]{} (3,4);
+    \draw[thick] (1,-1) node[label={[label distance=-2mm]right:{$M$}}]{} to (1,1.33) to (1,1.75);
+    \draw[thick] (2.5,-1) node[label={[label distance=-2mm]right:{$M'$}}]{} to (2.5,3.33) node{$\bullet$} to (2.5,4);
+    \draw[thick] (2,-0.66) node[label={[label distance=-2mm]below:{$N$}}]{} to (1.66,0) node[label={[label distance=-3mm]above right:{$x$}}]{$\bullet$} to (1,1.33) to (0.66,2);
+    \draw[thick] (4.66,-0.66) node[label={[label distance=-2mm]below:{$N'$}}]{} to (4.33,0) node[label={[label distance=-3mm]above right:{$z$}}]{$\bullet$} to (2.5,3.33) to (2.17,4);
+    \node[label={[label distance=-2mm]below left:{$0$}}] at (0,0){$\bullet$};
+    \node[label={[label distance=-2mm]below left:{$1$}}] at (1,0){$\bullet$};
+    \node[label={[label distance=-3mm]above right:{$y$}}] at (2.5,0){$\bullet$};
+    \node[label={[label distance=-2mm]left:{$1'$}}] at (1,1.33){$\bullet$};
+  \end{tikzpicture}
+$$
 In other words, draw a line $N$ though $1'$ and $x$, draw a line $M'$ parallel
 to $M$ through the point $y$, and draw a line $N'$ parallel to $N$ through the
 point where $L'$ and $M'$ intersect. $L$ and $N'$ intersect at the point

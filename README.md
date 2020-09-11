@@ -1,6 +1,7 @@
 # TODO
 
 - fix table in week188
+- check that the "network" diagrams in week186 are right
 - footnotes?
     + 151
 - **diagrams**
@@ -11,10 +12,8 @@
     + 181
     + 174
     + 159
-    + 145
     + 94
 - search for **???**
-- check that the "network" diagrams in week186 are right
 - n-.... to $n$-... ?
     + dim.
     + cat.
