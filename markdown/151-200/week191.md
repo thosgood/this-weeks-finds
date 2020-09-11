@@ -523,25 +523,45 @@ definition of an operad, I wrote above:
 Alas, this isn't quite true. Peter May has subsequently pointed out to
 me that the book by Stasheff *et al* omits a crucial clause in the
 definition of operad, namely that operations like this are well-defined:
-
-      \    /   |  |    \ /  
-       \  /    |  |     / 
-         /     |  |    / \ 
-        / \    |  |   /   \
-        \  |  /   |   \   /    
-         \ | /    |    \ /    
-          ---    ---   ---   
-         | a |  | b | | c | 
-          ---    ---   --- 
-             \    |    /
-              \   |   /  
-               \  |  / 
-                ----- 
-               |  d  |  
-                -----  
-                  |   
-                  |  
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (-0.6,1.6) to (-0.33,1);
+    \draw[thick] (0,1.6) to (0,1);
+    \draw[thick] (0.6,1.6) to (0.33,1);
+    \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+    \node at (0,0.5) {$d$};
+    \draw[thick] (0,0) to (0,-1);
+    \begin{scope}[xscale=0.3,yscale=0.4,shift={(-2,4)}]
+      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \node at (0,0.5) {$a$};
+    \end{scope}
+    \begin{scope}[xscale=0.3,yscale=0.4,shift={(0,4)}]
+      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \node at (0,0.5) {$b$};
+    \end{scope}
+    \begin{scope}[xscale=0.3,yscale=0.4,shift={(2,4)}]
+      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \node at (0,0.5) {$c$};
+    \end{scope}
+    \begin{scope}[shift={(0,2)}]
+      \begin{knot}
+        \strand[thick] (-0.4,1.3)
+          to [out=down,in=up] (-0.5,0);
+        \strand[thick] (-0.6,1.3)
+          to [out=down,in=up] (-0.7,0);
+        \strand[thick] (-0.8,1.3)
+          to [out=down,in=up] (-0.6,0);
+        %
+        \strand[thick] (0,1.3) to (0,0);
+        %
+        \strand[thick] (0.5,1.3)
+          to [out=down,in=up] (0.7,0);
+        \strand[thick] (0.7,1.3)
+          to [out=down,in=up] (0.5,0);
+      \end{knot}
+    \end{scope}
+  \end{tikzpicture}
+$$
 Here we can either compose the operations $a$, $b$, $c$ with $d$ and then apply a
 permutation to the arguments of the result, or apply permutations to the
 arguments of $a$, $b$, and $c$ and then compose the resulting operation with $d$
