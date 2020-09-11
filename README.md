@@ -1,6 +1,5 @@
 # TODO
 
-- fix table in week188
 - check that the "network" diagrams in week186 are right
 - footnotes?
     + 151

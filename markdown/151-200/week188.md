@@ -580,13 +580,18 @@ echelon form for matrices with 4 columns and 2 rows, and next to them
 the corresponding Young diagrams and the kind of $i$-cells we get:
 
 | | | |
-| :-: | :-: | :-: |
-| $$\left(\begin{array}{cccc}0&0&1&0\\0&0&0&1\end{array}\right)$$ | | $0$-cell |
-| $$\left(\begin{array}{cccc}0&1&X&0\\0&0&0&1\end{array}\right)$$ | $\square$ | $1$-cell |
-| $$\left(\begin{array}{cccc}1&X&X&0\\0&0&0&1\end{array}\right)$$ | $\square\;\;\square$ | $2$-cell |
-| $$\left(\begin{array}{cccc}0&1&0&X\\0&0&1&X\end{array}\right)$$ | $\begin{gathered}\square\\\square\end{gathered}$ | $2$-cell |
-| $$\left(\begin{array}{cccc}1&X&0&X\\0&0&1&X\end{array}\right)$$ | $\begin{aligned}\square\;\;\square&\\\square&\end{aligned}$ | $3$-cell |
-| $$\left(\begin{array}{cccc}1&0&X&X\\0&1&X&X\end{array}\right)$$ | $\begin{gathered}\square\;\;\square\\\square\;\;\square\end{gathered}$ | $4$-cell |
+| :-: | --: | :-: |
+| $\left(\begin{array}{cccc}0&0&1&0\\0&0&0&1\end{array}\right)$ | | $0$-cell |
+| | |
+| $\left(\begin{array}{cccc}0&1&X&0\\0&0&0&1\end{array}\right)$ | $\square$ | $1$-cell |
+| | |
+| $\left(\begin{array}{cccc}1&X&X&0\\0&0&0&1\end{array}\right)$ | $\square\;\;\square$ | $2$-cell |
+| | |
+| $\left(\begin{array}{cccc}0&1&0&X\\0&0&1&X\end{array}\right)$ | $\begin{gathered}\square\\\square\end{gathered}$ | $2$-cell |
+| | |
+| $\left(\begin{array}{cccc}1&X&0&X\\0&0&1&X\end{array}\right)$ | $\begin{aligned}\square\;\;\square&\\\square&\end{aligned}$ | $3$-cell |
+| | |
+| $\left(\begin{array}{cccc}1&0&X&X\\0&1&X&X\end{array}\right)$ | $\begin{gathered}\square\;\;\square\\\square\;\;\square\end{gathered}$ | $4$-cell |
 
 This is nicely consistent with what we already know:
 $${4\brack2} = 1 + q + 2q^2 + q^3 + q^4$$
