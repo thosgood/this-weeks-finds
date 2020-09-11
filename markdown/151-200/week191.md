@@ -248,6 +248,27 @@ $$
       \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \node at (0,0.5) {$c$};
     \end{scope}
+    \node at (1.5,1) {$=$};
+    \begin{scope}[shift={(3,0)}]
+      \draw[thick] (-0.6,1.6) to (-0.33,1);
+      \draw[thick] (0,1.6) to (0,1);
+      \draw[thick] (0.6,1.6) to (0.33,1);
+      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \node at (0,0.5) {$d$};
+      \draw[thick] (0,0) to (0,-1);
+      \begin{scope}[xscale=0.3,yscale=0.4,shift={(-2,4)}]
+        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \node at (0,0.5) {$a$};
+      \end{scope}
+      \begin{scope}[xscale=0.3,yscale=0.4,shift={(0,4)}]
+        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \node at (0,0.5) {$b$};
+      \end{scope}
+      \begin{scope}[xscale=0.3,yscale=0.4,shift={(2,4)}]
+        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \node at (0,0.5) {$c$};
+      \end{scope}
+    \end{scope}
   \end{tikzpicture}
 $$
 
