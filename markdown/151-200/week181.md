@@ -287,22 +287,22 @@ series of simple Lie groups and seeing what we get.
     exterior power "$p$-vectors", or "multivectors" in general:
 
         A1                                vectors 
-        \mathrm{SL}(2,\mathbb{C})                              o
+        SL(2,C)                              o
                                              2
 
 
         A2                        vectors        bivectors
-        \mathrm{SL}(3,\mathbb{C})                      o---------------o
+        SL(3,C)                      o---------------o
                                      3               3
 
 
         A3                   vectors     bivectors      3-vectors
-        \mathrm{SL}(4,\mathbb{C})                o-------------o--------------o
+        SL(4,C)                o-------------o--------------o
                                4             6              4
 
 
         A4          vectors      bivectors      3-vectors    4-vectors
-        \mathrm{SL}(5,\mathbb{C})        o-------------o--------------o------------o
+        SL(5,C)        o-------------o--------------o------------o
                        5            10             10            5
 
     Here the numbers labelling the dots form Pascal's triangle! So we see
@@ -327,25 +327,25 @@ series of simple Lie groups and seeing what we get.
 
                                          isotropic 
         B1                              1d subspaces
-        \mathrm{Spin}(3,\mathbb{C})                             o
+        Spin(3,C)                             o
                                               1
 
              
-                                  isotropic     isotropic          
+                                  isotropic     isotropic
         B2                       1d subspaces  2d subspaces
-        \mathrm{Spin}(5,\mathbb{C})                     o======\Rightarrow=======o
+        Spin(5,C)                     o=======>=======o
                                       3               3
 
 
                            isotropic     isotropic     isotropic
         B3                1d subspaces  2d subspaces  3d subspaces
-        \mathrm{Spin}(7,\mathbb{C})              o--------------o======\Rightarrow=======o
+        Spin(7,C)              o--------------o=======>=======o
                                5              7               6
 
 
                      isotropic     isotropic      isotropic     isotropic
         B4          1d subspaces  2d subspaces   3d subspaces  4d subspaces
-        \mathrm{Spin}(9,\mathbb{C})        o-------------o---------------o======\Rightarrow======o
+        Spin(9,C)        o-------------o---------------o=======>======o
                          7            11              12             10 
 
     I'm sure these are well-known, but James Dolan and I had a lot of fun
@@ -368,7 +368,7 @@ series of simple Lie groups and seeing what we get.
          
         B7            13  23   30   34   35   33   28
 
-        B8          15  27   36   42   45   45   42   36  
+        B8          15  27   36   42   45   45   42   36
 
     I leave it as an easy puzzle to figure out the pattern, and a harder
     puzzle to prove it's true. Don't be overly distracted by the symmetry
@@ -379,25 +379,25 @@ series of simple Lie groups and seeing what we get.
     $\mathrm{Spin}(2n+1,\mathbb{C})$:
 
         B1                                 spinors
-        \mathrm{Spin}(3,\mathbb{C})                             o
+        Spin(3,C)                             o
                                               2
 
              
                                   
-        B2                          vectors        spinors   
-        \mathrm{Spin}(5,\mathbb{C})                     o======\Rightarrow=======o
+        B2                          vectors        spinors
+        Spin(5,C)                     o=======>=======o
                                       5               4
 
 
                            
         B3                   vectors       bivectors       spinors
-        \mathrm{Spin}(7,\mathbb{C})              o--------------o======\Rightarrow=======o
+        Spin(7,C)              o--------------o=======>=======o
                                7             21               8
 
 
                      
         B4             vectors     bivectors        3-vectors      spinors
-        \mathrm{Spin}(9,\mathbb{C})        o-------------o---------------o======\Rightarrow======o
+        Spin(9,C)        o-------------o---------------o=======>======o
                          9            36              84             16
 
     As before, the dimension of the space of $p$-vectors in $q$-dimensional
