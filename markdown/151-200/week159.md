@@ -232,15 +232,13 @@ respectively.
 
 In other words, the vector-spinor interaction which plays such an
 important role in physics:
-
-                      \
-                       \
-                        \
-                         ~~~~~~~~~
-                        /
-                       /
-                      /
-
+$$
+  \begin{tikzpicture}[thick]
+    \draw (0,0) to node[rotate=45]{$\blacktriangle$} (1,-1);
+    \draw (1,-1) to node[rotate=-45]{$\blacktriangle$} (0,-2);
+    \draw [decorate, decoration=snake] (1,-1) to (3,-1);
+  \end{tikzpicture}
+$$
 also gives rise to all the division algebras! (Here I've drawn the
 usual picture of a spinor particle and a spinor antiparticle
 annihilating to form a vector boson: this is a physics application of
