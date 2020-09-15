@@ -3,6 +3,8 @@
 - check that the "network" diagrams in week186 are right
 - footnotes?
     + 151
+- emails
+    + 203
 - **diagrams**
     + 186 (& 187)
     + 182 (tables)

@@ -2,25 +2,24 @@
 
 The star we know as GRB030329 was named after the day the news of its
 death reached Earth. About 2,650 million years ago, this star exploded.
-For thirty seconds it put out more power in the form of \gamma rays than
-everything else in the visible universe combined. These \gamma rays reached
+For thirty seconds it put out more power in the form of $\gamma$ rays than
+everything else in the visible universe combined. These $\gamma$ rays reached
 us on March 3rd, 2003, and they were detected by a satellite called
 HETE-II: the High-Energy Transient Explorer.
 
 The detection of GRB03029 set off a frenzy of activity among astronomers
-all over the world. As the closest \gamma-ray burster to be seen by
+all over the world. As the closest $\gamma$-ray burster to be seen by
 well-prepared earthlings, GRB030329 taught us a lot. We're not
-completely sure what it was - but we have a pretty good guess, and it
+completely sure what it was --- but we have a pretty good guess, and it
 makes a nice story, so I'll recount it as if it were a fact.
 
 As far as we can tell, GRB030329 was a Wolf-Rayet star before it
 exploded. Wolf-Rayet stars are very rare: only 200 have been seen in our
-galaxy. They're huge and very bright - up to a million times as bright
+galaxy. They're huge and very bright --- up to a million times as bright
 as the Sun. They're surrounded by enormous bluish-purple nebulae like
 the one in this picture:
 
-1) NGC 2359, the nebula around the Wolf-Rayet star HD56925, picture at
-`http://cfa-www.harvard.edu/cfa/hotimage/n2359.html`
+1) NGC 2359, the nebula around the Wolf-Rayet star HD56925, picture at `http://cfa-www.harvard.edu/cfa/hotimage/n2359.html`
 
 But what makes them really special is that their spectral lines show
 *little or no hydrogen*. Since most of the universe is made of hydrogen,
@@ -48,10 +47,10 @@ and about 100 times the density of water, turning from ordinary plasma
 into something called a "degenerate electron gas", where the Pauli
 exclusion principle limits further compression. As the core shrinks
 it'll heat up, and when it reaches a temperature of 100 million kelvin
-the helium will catch fire and start fusing - mainly into carbon. Models
+the helium will catch fire and start fusing --- mainly into carbon. Models
 predict that this happens in a runaway reaction called the "helium
 flash", which puts out about 100 billion times the power of the
-present-day sun for a few hours - zounds! - but gradually settles down
+present-day sun for a few hours --- zounds! --- but gradually settles down
 into a more stable phase of helium burning that lasts for tens of
 millions of years. During this phase, the Sun will not be a red giant
 anymore, but instead a hotter "yellow giant".
@@ -64,8 +63,7 @@ nebula, leaving the core as a tiny "white dwarf"... which will cool,
 after eons, to a "black dwarf". Here's a nice chart of the whole
 story:
 
-2) Sloan Digital Sky Survey, Evolutionary track of a sun-like star,
-`http://skyserver.sdss.org/dr1/en/astro/stars/images/starevol.jpg`
+2) Sloan Digital Sky Survey, Evolutionary track of a sun-like star, `http://skyserver.sdss.org/dr1/en/astro/stars/images/starevol.jpg`
 
 Bigger stars do more exciting things. In particular, stars heavier than
 about 5 solar masses undergo a "carbon flash" when the carbon-rich
@@ -84,7 +82,7 @@ burning silicon!
 Then what? Well, the details depend on the star's mass. But when a star
 of at least 8 solar masses runs out of fuel, its core is made mainly of
 iron, and heavier than our Sun. When it cools, it reaches a point where
-all of a sudden it collapses - in about a tenth of a second. When it
+all of a sudden it collapses --- in about a tenth of a second. When it
 crashes in on itself, it gets so hot that the iron nuclei disintegrate
 and the whole mess explodes in a "type II supernova". The star's
 outer layers get thrown off at high speeds, while the core itself gets
@@ -119,8 +117,8 @@ that the envelope started getting blown away in a powerful stellar wind!
 Since the helium wasn't burning, the core contracted until the
 temperature hit 40 million kelvin and the helium caught fire. It started
 burning into carbon-12, but some hydrogen got into the core and made
-carbon-13 and nitrogen-14, and later - when the helium was almost all
-burnt - oxygen-16.
+carbon-13 and nitrogen-14, and later --- when the helium was almost all
+burnt --- oxygen-16.
 
 All the while the stellar wind was increasing, and eventually almost all
 the hydrogen was blown away, leaving only a bluish-white core full of
@@ -153,36 +151,36 @@ radioactive nickel-56, shattered it completely. Our star became a
 "hypernova"!
 
 Meanwhile, the jets plowed into the material surrounding the star and
-created highly directional beams of \gamma rays shooting in opposite
+created highly directional beams of $\gamma$ rays shooting in opposite
 directions... one of which just happened to be pointed directly at the
 Earth.
 
-2,650 million years later, the \gamma rays reached us, and were detected on
+2,650 million years later, the $\gamma$ rays reached us, and were detected on
 March 23, 2003 by HETE-II. Hundreds of such bursts are detected each
 year, but this one was closer than most, and a whole system had recently
 been devised for quickly turning the attention of the world's
-telescopes to the spot where a \gamma-ray burster had been seen - in this
+telescopes to the spot where a $\gamma$-ray burster had been seen --- in this
 case, within the constellation Leo.
 
 So, within 90 min, a 40-inch telescope at the Siding Spring Observatory
 in Australia was looking at this spot. So was a telescope in Japan. They
-saw the optical afterglow of the \gamma-ray burster and watched how its
+saw the optical afterglow of the $\gamma$-ray burster and watched how its
 brightness changed with time. And within 24 hours, a spectrograph on a
 telescope in Chile made detailed readings of the spectrum, measuring the
-redshift (z = 0.1685) and thus the distance of the burst, and seeing
-signs of radioactive nickel - about 1/3 of a solar mass of the stuff,
+redshift ($z = 0.1685$) and thus the distance of the burst, and seeing
+signs of radioactive nickel --- about $1/3$ of a solar mass of the stuff,
 according to one estimate! Later, more telescopes probed the event in
 different ways.
 
 The details of what was seen gave a lot of credence to the "hypernova"
-or "collapsar" model of \gamma-ray bursters, championed by Stan Woosley of
-U. C. Santa Cruz, among others. But much remains mysterious about \gamma-ray
+or "collapsar" model of $\gamma$-ray bursters, championed by Stan Woosley of
+U. C. Santa Cruz, among others. But much remains mysterious about $\gamma$-ray
 bursters. Nobody knows exactly how the energy from the jet gets turned
-into \gamma rays! And, the hypernova model only fits "long" \gamma-ray bursters,
+into $\gamma$ rays! And, the hypernova model only fits "long" $\gamma$-ray bursters,
 where the burst lasts about 2 seconds or more. There are also "short"
 ones, which may work some other way.
 
-So, the hows and whys of \gamma ray bursts remain one of the most fascinating
+So, the hows and whys of $\gamma$ ray bursts remain one of the most fascinating
 mysteries in physics. And since we can't actually peek inside a star, a
 lot of the attempts to study these things involve complicated
 mathematical models... very technical stuff, when you actually try to
@@ -190,8 +188,8 @@ read it. So, I really *am* talking about mathematical physics. Honest!
 
 Here are some ways to learn more, starting with the fun easy stuff.
 
-The online version of the Messier Catalog - a famous old catalog of
-galaxies and nebulae - is a really fun way to learn some astronomy:
+The online version of the Messier Catalog --- a famous old catalog of
+galaxies and nebulae --- is a really fun way to learn some astronomy:
 
 3) The Messier Catalog, `http://www.maa.agleia.de/Messier/`
 
@@ -199,48 +197,37 @@ It's packed with interesting stuff. For example, here's a great page
 about nebulae like the one the sun will form after it becomes a yellow
 giant:
 
-4) The Messier Catalog, Planetary nebulae,
-`http://www.maa.agleia.de/Messier/planetar.html`
+4) The Messier Catalog, "Planetary nebulae", `http://www.maa.agleia.de/Messier/planetar.html`
 
 (They're misleadingly called "planetary nebulae", though they don't
 have anything to do with planets.) And here's a nice page about the
-Crab Nebula, which is now a pulsar - a rapidly spinning neutron star
+Crab Nebula, which is now a pulsar --- a rapidly spinning neutron star
 left over from a supernova:
 
-5) The Messier Catalog, The crab nebula (M1),
-`http://www.maa.agleia.de/Messier/E/m001.html`
+5) The Messier Catalog, "The crab nebula (M1)", `http://www.maa.agleia.de/Messier/E/m001.html`
 
 This website is good for Wolf-Rayet stars and other things:
 
-6) Chris Clowes' Astronomy Page,
-`http://www.peripatus.gen.nz/Astronomy/`
+6) Chris Clowes' Astronomy Page, `http://www.peripatus.gen.nz/Astronomy/`
 
 I learned a lot about GRB030329 from this page:
 
-7) European Southern Observatory (ESO), Cosmological \gamma-ray bursts and
-hypernovae conclusively linked, June 18, 2003,
-`http://www.eso.org/outreach/press-rel/pr-2003/pr-16-03.html`
+7) European Southern Observatory (ESO), "Cosmological $\gamma$-ray bursts and hypernovae conclusively linked", June 18, 2003, `http://www.eso.org/outreach/press-rel/pr-2003/pr-16-03.html`
 
-For another key moment in the history of \gamma-ray bursters, try this:
+For another key moment in the history of $\gamma$-ray bursters, try this:
 
-8) Burst and Transient Source Experiment (BATSE), GOTCHA! - The big one
-that didn't get away, January 27, 1999,
-`http://www.batse.com/jan27.html`
+8) Burst and Transient Source Experiment (BATSE), "GOTCHA! --- The big one that didn't get away", January 27, 1999, `http://www.batse.com/jan27.html`
 
-For more on \gamma-ray bursters, try these:
+For more on $\gamma$-ray bursters, try these:
 
-9) NASA, \gamma ray bursts,
-`http://imagine.gsfc.nasa.gov/docs/introduction/bursts.html`
+9) NASA, $\gamma$ ray bursts, `http://imagine.gsfc.nasa.gov/docs/introduction/bursts.html`
 
-10) Edo Berger, Gamma-ray burst FAQ,
-`http://www.astro.caltech.edu/~ejb/faq.html`
+10) Edo Berger, Gamma-ray burst FAQ, `http://www.astro.caltech.edu/~ejb/faq.html`
 
 If you get more serious, there are lots of conference proceedings to
 read, like this:
 
-11) M. Livio, N. Panagia and K. Sahu, editors, Supernovae and Gamma-Ray
-Bursts: The Greatest Explosions since the Big Bang, Cambridge U. Press,
-2001.
+11) M. Livio, N. Panagia and K. Sahu, editors, _Supernovae and Gamma-Ray Bursts: The Greatest Explosions since the Big Bang_, Cambridge U. Press, 2001.
 
 There must be a bunch of conference proceedings written after the March
 2003 burster, but maybe they haven't been published yet, since I
@@ -250,40 +237,35 @@ If you're looking for a more general background in astrophysics, this
 hefty tome is supposed to be a good intro, though I haven't tried it
 yet:
 
-12) Bradley W. Carroll and Dale A. Ostlie, Introduction to Modern
-Astrophysics, Addison Wesley, 1996.
+12) Bradley W. Carroll and Dale A. Ostlie, _Introduction to Modern Astrophysics_, Addison Wesley, 1996.
 
 Personally I've found these helpful in writing the above stuff, though
 they're full of equations, so I find myself yearning for some purple
 prose here and there:
 
-13) R. J. Tayler, The Stars: Their Structure and Evolution, 2nd
-edition, Cambridge U. Press, Cambridge, 1994.
+13) R. J. Tayler, _The Stars: Their Structure and Evolution_, 2nd edition, Cambridge U. Press, Cambridge, 1994.
 
-14) R. Kippenhahn and A. Weigert, Stellar Structure and Evolution,
-Springer Verlag, Berlin, 1991.
+14) R. Kippenhahn and A. Weigert, _Stellar Structure and Evolution_, Springer Verlag, Berlin, 1991.
 
 By the way, I don't know much about astrophysics, so I'd love to hear
 from any experts out there who'd like to correct or add detail to my
-description of Wolf-Rayet stars, the "hypernova" scenario, or \gamma- ray
+description of Wolf-Rayet stars, the "hypernova" scenario, or $\gamma$-ray
 bursters in general. I've been fond of Wolf-Rayet stars ever since I
 wrote a few little articles on weird kinds of stars:
 
-15) John Baez, Stuff about Stars,
-`http://math.ucr.edu/home/baez/stars.html`
+15) John Baez, "Stuff about Stars", `http://math.ucr.edu/home/baez/stars.html`
 
-back before anyone suspected they were related to \gamma-ray bursters! My
+back before anyone suspected they were related to $\gamma$-ray bursters! My
 interest in them was rekindled while revising the physics FAQ on open
 questions in physics:
 
-16) John Baez, Open Questions in Physics,
-`http://math.ucr.edu/home/baez/open.questions.html`
+16) John Baez, "Open Questions in Physics", `http://math.ucr.edu/home/baez/open.questions.html`
 
 It hadn't been rewritten since 1997, and it was interesting to see how
 outdated it had become, particularly in the area of cosmology and
 astrophysics! Here's the current list of problems:
 
-> #### Condensed Matter and Nonlinear Dynamics
+> **Condensed Matter and Nonlinear Dynamics**
 >
 > 1) What causes sonoluminescence?
 >
@@ -295,14 +277,14 @@ astrophysics! Here's the current list of problems:
 > fluid flow. Does these equations have solutions that last for all
 > time, given arbitrary sufficiently nice initial data?
 >
-> #### Quantum Mechanics
+> **Quantum Mechanics**
 >
 > 1) How should we think about quantum mechanics?
 >
 > 2) Can we build a working quantum computer big enough to do things
 > ordinary computers can't easily do?
 >
-> #### Cosmology and Astrophysics
+> **Cosmology and Astrophysics**
 >
 > 1) What happened at or before the Big Bang?
 >
@@ -333,7 +315,7 @@ astrophysics! Here's the current list of problems:
 >
 > 10) When were the first stars formed, and what were they like?
 >
-> 11) What are \gamma ray bursters?
+> 11) What are $\gamma$ ray bursters?
 >
 > 12) What is the origin and nature of ultra-high-energy cosmic rays?
 >
@@ -353,7 +335,7 @@ astrophysics! Here's the current list of problems:
 > collapsing isolated gravitational systems are the singularities that
 > might develop guaranteed to be hidden beyond a smooth event horizon?
 >
-> #### Particle Physicss
+> **Particle Physics**
 >
 > 1) Why are the laws of physics not symmetrical between left and
 > right, future and past, and between matter and antimatter?
@@ -373,8 +355,8 @@ astrophysics! Here's the current list of problems:
 > of particle physics? If so, what is its mass?
 >
 > 7) What is the correct theory of neutrinos? Why are they almost but
-> not quite massless? Do all three known neutrinos - electron, muon, and
-> \tau - all have a mass?
+> not quite massless? Do all three known neutrinos --- electron, muon, and
+> $\tau$ --- all have a mass?
 >
 > 8) Is quantum chromodynamics (QCD) a precise description of the
 > behavior of quarks and gluons? Can we prove that quarks are gluons are
@@ -408,17 +390,17 @@ astrophysics! Here's the current list of problems:
 > are these predictions? Can we test these predictions in the near
 > future? And: are they correct?
 >
-> #### The Big Question
+> **The Big Question**
 >
 > 1) How can we merge quantum theory and general relativity to create a
 > quantum theory of gravity? How can we test this theory?
 
-A bunch of these questions could turn out to be a bit silly - a good
+A bunch of these questions could turn out to be a bit silly --- a good
 answer might require changing the question. But that's always how it
 goes for really interesting puzzles. I should also warn you that the
 statements above are deliberately a bit naive-sounding: as the example
-of \gamma ray bursters shows, we actually do know a lot about all these
-questions - we're just not sure about the answers! So, see the webpage
+of $\gamma$ ray bursters shows, we actually do know a lot about all these
+questions --- we're just not sure about the answers! So, see the webpage
 itself for a bit more information on these questions, and the links for
 even more...
 
@@ -427,11 +409,12 @@ time!
 
 ------------------------------------------------------------------------
 
-*Of course: abstraction, irrelevance, purity, formalism make for good
+> *Of course: abstraction, irrelevance, purity, formalism make for good
 mathematics.... But sadly, they make for bad mathematics education.
-Each one of these concepts - abstract, irrelevance, purity, formalism -
+Each one of these concepts --- abstract, irrelevance, purity, formalism -
 pushes mathematics further away from a growing human being, a being
 whose psyche is in the phase of it development that no soft-brained
 psychologist but a great mathematician, Alfred North Whitehead, calls
-the Romantic Phase.* - [Apostolos
-Doxiadis](http://www.apostolosdoxiadis.com/files/essays/embeddingmath.pdf)
+the Romantic Phase.*
+> 
+> --- [Apostolos Doxiadis](http://www.apostolosdoxiadis.com/files/essays/embeddingmath.pdf)
