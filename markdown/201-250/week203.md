@@ -9,53 +9,44 @@ solution, and then describe how he found it.
 
 Supposedly the Greeks thought the most beautiful rectangle was one such
 that when you chop a square off one end, you're left with a rectangle
-of the same shape. If your original rectangle was 1 unit across and G
-units long, after you chop a 1-by-1 square off the end you're left with
-a rectangle that's G-1 units across and 1 unit long:
-
-                                       G
-                         .........................
-                         .             .         .
-                         .             .         .
-                         .             .         .
-                         .             .         .
-                       1 .             .         . 1
-                         .             .         .
-                         .             .         .
-                         .      1      .  G-1    .
-                         .........................
-
+of the same shape. If your original rectangle was $1$ unit across and $G$
+units long, after you chop a $1$-by-$1$ square off the end you're left with
+a rectangle that's $G-1$ units across and $1$ unit long:
+$$
+  \begin{tikzpicture}[scale=2]
+    \draw[thick] (0,0) rectangle (1.618,1);
+    \draw[dashed] (1,1) to (1,0);
+    \draw[decoration={brace,raise=1.5,mirror},decorate] (0,0) to (0.99,0);
+    \draw[decoration={brace,raise=1.5,mirror},decorate] (1.01,0) to (1.618,0);
+    \draw[decoration={brace,raise=1.5},decorate] (0,0) to (0,1);
+    \draw[decoration={brace,raise=1.5},decorate] (0,1) to (1.618,1);
+    \node at (0.5,-0.2) {$1$};
+    \node at (1.3,-0.2) {$G-1$};
+    \node at (-0.2,0.5) {$1$};
+    \node at (0.805,1.2) {$G$};
+  \end{tikzpicture}
+$$
 So, to make the proportions of the little rectangle the same as those of
 the big one, you want
 
-    "1 is to G as G-1 is to 1"
+> "1 is to G as G-1 is to 1"
 
 or in other words:
-
-    1/G = G - 1 
-
+$$\frac{1}{G} = G - 1 $$
 or after a little algebra,
-
-    G2 = G + 1
-
+$$G^2 = G + 1$$
 so that
-
-    G = (1 + sqrt(5))/2 = 1.618033988749894848204586834365...
-
+$$G = \frac{1+\sqrt{5}}{2} = 1.618033988749894848204586834365\ldots$$
 while
-
-                    1/G = 0.618033988749894848204586834365...
-
+$$\frac1G = 1.618033988749894848204586834365\ldots$$
 and
-
-                    G2   = 2.618033988749894848204586834365...
-
+$$G^2 = 2.618033988749894848204586834365\ldots$$
 (At this point I usually tell my undergraduates that the pattern
-continues like this, with G^3 = 3.618... and so on - just to see if
+continues like this, with $G^3 = 3.618\ldots$ and so on --- just to see if
 they'll believe anything I say.)
 
-These days, the number G is called the Golden Number, the Golden Ratio,
-or the Golden Section. It's often denoted by the Greek letter Φ, after
+These days, the number $G$ is called the Golden Number, the Golden Ratio,
+or the Golden Section. It's often denoted by the Greek letter $\phi$, after
 the Greek sculptor Phidias. Phidias helped design the Parthenon - and
 supposedly packed it full of golden rectangles, to make it as beautiful
 as possible.
@@ -107,12 +98,12 @@ However, don't be fooled! The charm of the golden number tends to
 attract kooks and the gullible - hence the term "fool's gold". You
 have to be careful about anything you read about this number. In
 particular, if you think ancient Greeks ran around in togas
-philosophizing about the "golden ratio" and calling it "Φ", you're
-wrong. This number was named Φ after Phidias only in 1914, in a book
+philosophizing about the "golden ratio" and calling it "$\phi$", you're
+wrong. This number was named $\phi$ after Phidias only in 1914, in a book
 called *The Curves of Life* by the artist Theodore Cook. And, it was
 Cook who first started calling 1.618... the golden ratio. Before him,
 0.618... was called the golden ratio! Cook dubbed this number "\varphi",
-the lower-case baby brother of Φ.
+the lower-case baby brother of $\phi$.
 
 In fact, the whole "golden" terminology can only be traced back to
 1826, when it showed up in a footnote to a book by one Martin Ohm,
@@ -157,7 +148,7 @@ this:
 `http://www-gap.dcs.st-and.ac.uk/~history/HistTopics/Golden_ratio.html`
 
 While I'm at it, I should point out that Theodore Cook's book
-introducing the notation "Φ" is still in print:
+introducing the notation "$\phi$" is still in print:
 
 2) Theodore A. Cook, The Curves of Life: Being an Account of Spiral
 Formations and Their Application to Growth in Nature, to Science, and to
