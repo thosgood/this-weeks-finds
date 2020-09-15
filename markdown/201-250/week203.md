@@ -353,80 +353,74 @@ Here's Robin Houston's answer:
 Define a "bit" to be either $0$ or $1$. Define a "golden tree" to be a
 (planar) binary tree with leaves labelled by $0$, $1$, or $*$, where every
 node has at most one bit-child. For example:
-
-                  /\   
-                 /\ 1 
-                0  * 
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (-1,-2) node[label=below:{$0$}]{};
+    \draw[thick] (0,0) to (0.5,-1) node[label=below:{$1$}]{};
+    \draw[thick] (-0.5,-1) to (0,-2) node[label=below:{$*$}]{};
+  \end{tikzpicture}
+$$
 is a golden tree, but
-
-                   /\   
-                  /\ *
-                 0  1
-
-is not. Let G be the set of golden trees. We define an isomorphism
-
-    f\colon  G2 \to  G + {@} 
-
-as follows. First we define f(X, Y) when both X and Y are golden trees
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (-1,-2) node[label=below:{$0$}]{};
+    \draw[thick] (0,0) to (0.5,-1) node[label=below:{$*$}]{};
+    \draw[thick] (-0.5,-1) to (0,-2) node[label=below:{$1$}]{};
+  \end{tikzpicture}
+$$
+is not. Let $G$ be the set of golden trees. We define an isomorphism
+$$f\colon  G^2 \to  G + \{@\}$$
+as follows. First we define $f(X, Y)$ when both $X$ and $Y$ are golden trees
 with just one node, this node being labelled by a bit. We can identify
 such a tree with a bit, and doing this we set
-
-    f(0, 0) = 0
-    f(0, 1) = 1
-    f(1, 0) = *
-    f(1, 1) = @
-
+$$
+  \begin{aligned}
+    f(0, 0) &= 0
+  \\f(0, 1) &= 1
+  \\f(1, 0) &= *
+  \\f(1, 1) &= @
+  \end{aligned}
+$$
 In the remaining case, where the golden trees X and Y are not just bits,
 we set
-
-    f(X, Y) =  /\ 
-              X  Y
-
-There are different ways to show this function f is a one-to-one
+$$
+  \begin{tikzpicture}
+    \node at (0,0) {$f(X,Y)$};
+    \node at (1,0) {$=$};
+    \draw[thick] (1.5,-0.5) node[label=below:{$X$}]{} to (2,0.5) to (2.5,-0.5) node[label=below:{$Y$}]{};
+  \end{tikzpicture}
+$$
+There are different ways to show this function $f$ is a one-to-one
 correspondence, but the best way is to see how Houston came up with this
 answer! He didn't just pull it out of a hat; he tackled the problem
 systematically, and that's why his solution counts as "nice".
 
-It's easy to find a set S equipped with an isomorphism
-
-    S = P(S)
-
-where P is some polynomial with natural number coefficients. You just
+It's easy to find a set $S$ equipped with an isomorphism
+$$S = P(S)$$
+where $P$ is some polynomial with natural number coefficients. You just
 use the fixed-point principle described in ["Week 108"](#week108).
-Namely, you start with the empty set, keep hitting it with P forever,
+Namely, you start with the empty set, keep hitting it with $P$ forever,
 and take a kind of limit. This is how I built the set of binary trees
-last week, as a solution of T = T^2 + 1.
+last week, as a solution of $T = T^2 + 1$.
 
 The problem is that the isomorphism we seek now:
-
-    G2 = G + 1                               (1)
-
+$$G^2 = G + 1 \tag{1}$$
 is not of this form. So, what Houston does is to make a substitution:
-
-    G = H + 2
-
+$$G = H + 2$$
 Given this, we'd get (1) if we had
-
-    H2 + 4H + 4 = H + 3                      (2)
-
+$$H^2 + 4H + 4 = H + 3 \tag{2}$$
 and we'd get (2) if we had
-
-    H2 + 4H + 1 = H                          (3)
-
+$$H^2 + 4H + 1 = H \tag{3}$$
 which is of the desired form.
 
 We can rewrite (3) as
-
-    H = 1 + H2 + 2H + H2
-
-and in English this says "an element of H is either a *, or a pair
-consisting of two guys that are either bits or elements of H - but not
-both bits". So, a guy in H is a golden tree! But, if it has just one
-node, that node can only be labelled by a *, not a 0 or 1. This means
-there are precisely 2 golden trees not in H. So, G = H + 2 is the set of
-all golden trees, and our calculation above gives an isomorphism G^2 =
-G + 1.
+$$H = 1 + H^2 + 2H + H2$$
+and in English this says "an element of $H$ is either a *, or a pair
+consisting of two guys that are either bits or elements of $H$ --- but not
+both bits". So, a guy in $H$ is a golden tree! But, if it has just one
+node, that node can only be labelled by a $*$, not a $0$ or $1$. This means
+there are precisely 2 golden trees not in $H$. So, $G = H + 2$ is the set of
+all golden trees, and our calculation above gives an isomorphism $G^2 = G + 1$.
 
 Voila!
 
@@ -439,21 +433,15 @@ from (3), and that involves addition, so it's fine.
 
 Part of what makes Houston's solution "nice" is that it suggests a
 general method for turning polynomial equations into recursive
-definitions of the form S = P(S). Another nice thing is that his trick
-delivers a structure type G(X) that reduces to G when X = 1. To get
+definitions of the form $S = P(S)$. Another nice thing is that his trick
+delivers a structure type $G(X)$ that reduces to $G$ when $X = 1$. To get
 this, first use the fixed-point method to construct a structure type
-H(X) with an isomorphism
-
-    H(X) = (H(X) + X)2 + 2H(X)
-
+$H(X)$ with an isomorphism
+$$H(X) = (H(X) + X)^2 + 2H(X)$$
 Then, define
-
-    G(X) = H(X) + X + 1 
-
+$$G(X) = H(X) + X + 1$$
 and note that this gives
-
-    G(X)2 = G(X) + X
-
+$$G(X)^2 = G(X) + X$$
 which reduces to G^2 = G + 1 when X = 1.
 
 As if this weren't enough, Houston also gave another solution to the
@@ -462,62 +450,49 @@ last week, really is a Golden Object! Maybe Propp already knew this, but
 I sure didn't.
 
 The idea of the proof is pretty general. Suppose we're in some category
-that's a "2-rig" in the sense of ["Week 191"](#week191). And,
+that's a "$2$-rig" in the sense of ["Week 191"](#week191). And,
 suppose we've got an object X equipped with an isomorphism
-
-    X = 1 + 2X                                (4)
-
-so that X acts like "-1". For example, following Schanuel and Propp,
-we can take the category of "σ-polytopes" and let X be the open
+$$X = 1 + 2X \tag{4}$$
+so that $X$ acts like "$-1$". For example, following Schanuel and Propp,
+we can take the category of "$\sigma$-polytopes" and let $X$ be the open
 interval: then isomorphism (4) says
-
-    (0,1) = (0,1/2) + {1/2} + (1/2,1)
-
-Or, following Houston, we can take the category of sets and let X be the
+$$(0,1) = (0,1/2) + \{1/2\} + (1/2,1)$$
+Or, following Houston, we can take the category of sets and let $X$ be the
 set of finite bit-strings. Then (4) says "a finite bit-string is either
 the empty bit-string, or a bit followed by a finite bit-string". The
-relation between these two examples is puzzling to me - if anyone
+relation between these two examples is puzzling to me --- if anyone
 understands it, let me know! But anyway, either one works.
 
-Now let G be the object of "binary trees with X-labelled leaves":
-
-    G = X + X2 + 2X3 + 5X4 + 14X5 + 42X6 + ...
-
-where the coefficients are Catalan numbers. Let's show that G is a
+Now let $G$ be the object of "binary trees with $X$-labelled leaves":
+$$G = X + X^2 + 2X^3 + 5X^4 + 14X^5 + 42X^6 + \ldots$$
+where the coefficients are Catalan numbers. Let's show that $G$ is a
 Golden Object. To do this, we'll use (4) and this isomorphism:
-
-    G = G2 + X                               (5)
-
-which says "a binary tree with X-labelled leaves is a pair of such
-trees, or a degenerate tree with just one X-labelled node". The formula
-for G involving Catalan numbers is really just the fixed-point solution
+$$G = G^2 + X \tag{5}$$
+which says "a binary tree with $X$-labelled leaves is a pair of such
+trees, or a degenerate tree with just one $X$-labelled node". The formula
+for $G$ involving Catalan numbers is really just the fixed-point solution
 to this!
 
-Here is Houston's fiendishly clever argument. Suppose Z is any type
+Here is Houston's fiendishly clever argument. Suppose $Z$ is any type
 equipped with an isomorphism
-
-    Z = Z' + X 
-
-for some Z'. Then
-
-    Z + X + 1 = Z' + 2X + 1 
-              = Z' + X  
-              = Z 
-
-This applies to Z = G^2, since
-
-    G2 = (X + G2)2 = (2X + 1 + G2)2 
-
-has a X term in it when you multiply it out, so it's of the form Z' +
-X. Therefore we have an isomorphism
-
-    G2 = G2 + X + 1
-
-But we also have an isomorphism G + 1 = G^2 + X + 1 by (5). Composing
+$$Z = Z' + X$$
+for some $Z'$. Then
+$$
+  \begin{aligned}
+    Z + X + 1
+    &= Z' + 2X + 1
+  \\&= X' + X
+  \\&= Z
+  \end{aligned}
+$$
+This applies to $Z = G^2$, since
+$$G^2 = (X + G^2)^2 = (2X + 1 + G^2)^2$$
+has a $X$ term in it when you multiply it out, so it's of the form
+$Z' + X$. Therefore we have an isomorphism
+$$G^2 = G^2 + X + 1$$
+But we also have an isomorphism $G + 1 = G^2 + X + 1$ by (5). Composing
 these, we get our isomorphism
-
-    G2 = G + 1.
-
+$$G^2 = G + 1.$$
 Golden! I'll stop here.
 
 ------------------------------------------------------------------------
@@ -525,18 +500,15 @@ Golden! I'll stop here.
 **Addendum:** The computer scientist Sebastiano Vigna pointed out this
 paper:
 
-15) Paolo Boldi, Massimo Santini, and Sebastiano Vigna, Measuring with
-jugs, or: what if mathematicians were asked to defuse bombs?, Theoret.
-Comput. Sci. 2 (2002). Also available at
-`http://vigna.dsi.unimi.it/papers.php`
+15) Paolo Boldi, Massimo Santini, and Sebastiano Vigna, "Measuring with jugs, or: what if mathematicians were asked to defuse bombs?", _Theoret. Comput. Sci._ **2** (2002). Also available at `http://vigna.dsi.unimi.it/papers.php`
 
 which shows that if you want to approximately measure an arbitrary
-amount of water using only two jugs, it's best if they have capacity 1
-and G. This paper cites a a charming result by Swierczkowski which picks
+amount of water using only two jugs, it's best if they have capacity $1$
+and $G$. This paper cites a a charming result by Swierczkowski which picks
 up where a famous theorem due to Dedekind leaves off. Dedekind showed
-that if x is any irrational number, the numbers nx mod 1 are uniformly
-distributed in the interval \[0,1\]. But if x = 1/G, these numbers have
-an especially nice property: each new point in the sequence (nx mod 1)
+that if $x$ is any irrational number, the numbers $nx \mod 1$ are uniformly
+distributed in the interval $[0,1]$. But if $x = 1/G$, these numbers have
+an especially nice property: each new point in the sequence $(nx \mod 1)$
 lands in one of the *longest* intervals not containing a previous point!
 And, it chops this interval in a golden way.
 
@@ -829,7 +801,7 @@ with various replies, concluding with my own.
     isomorphism G \to G^2 + X to construct an isomorphism G^2 \to G + 1.
 
     What's nice about this is that it shows Propp's originally proposed
-    golden object really is one: just take the category of σ-polytopes 
+    golden object really is one: just take the category of $\sigma$-polytopes 
     with its cartesian product, and let X be the open interval!  And,
     it makes precise the sense in which the alternating sum of Catalan
     numbers equals the golden ratio.
@@ -941,7 +913,7 @@ with various replies, concluding with my own.
 
 ------------------------------------------------------------------------
 
-*As a high-end cable manufacturer, Cardas Audio strives to address every
+> *As a high-end cable manufacturer, Cardas Audio strives to address every
 detail of cable and conductor construction, no matter how small. An
 elegant solution deals with quality, not quantity. Cable geometry
 problems are resolved in the cable's design, not after the fact with
@@ -954,5 +926,6 @@ shape leaves and sea shells, insects and people, hurricanes and
 galaxies, and the heart of musical scales and chords. "Discovered" by
 the Greeks, but used by the Egyptians in the Great Pyramid centuries
 before, man has employed the Golden Ratio to create his most beautiful
-and naturally pleasing works of art and architecture* - Cardas Audio
-speaker cable advertisement
+and naturally pleasing works of art and architecture*
+> 
+> --- Cardas Audio speaker cable advertisement
