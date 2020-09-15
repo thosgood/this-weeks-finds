@@ -46,69 +46,45 @@ continues like this, with $G^3 = 3.618\ldots$ and so on --- just to see if
 they'll believe anything I say.)
 
 These days, the number $G$ is called the Golden Number, the Golden Ratio,
-or the Golden Section. It's often denoted by the Greek letter $\phi$, after
+or the Golden Section. It's often denoted by the Greek letter $\Phi$, after
 the Greek sculptor Phidias. Phidias helped design the Parthenon - and
 supposedly packed it full of golden rectangles, to make it as beautiful
 as possible.
 
 The golden number is a great favorite among amateur mathematicians,
 because it has a flashy sort of charm. You can find it all over the
-place if you look hard enough - and if you look too hard, you'll find
+place if you look hard enough --- and if you look too hard, you'll find
 it even in places where it's not. It's the ratio of the diagonal to
 the side of a regular pentagon! If you like the number 5, you'll be
 glad to know that
-
-                5 + sqrt(5)
-      G = sqrt[-------------]
-                5 - sqrt(5)
-
+$$G = \sqrt{\frac{5+\sqrt{5}}{5-\sqrt{5}}}$$
 If you don't, maybe you'd prefer this:
-
-      G = exp(arcsinh(1/2))
-
+$$G = \exp\left(\arcsinh\left(\frac12\right)\right)$$
 My favorite formulas for the golden number are
-
-      G = sqrt(1 + sqrt(1 + sqrt(1 + sqrt(1 + sqrt(1 + sqrt(1 + ...
-
+$$G = \sqrt{1 + \sqrt{1 + \sqrt{1 + \sqrt{1 + \sqrt{1 + \sqrt{1 + \ldots}}}}}}$$
 and the continued fraction:
-
-                       1
-      G =    1  +  ---------
-                    1 +   1
-                        -------- 
-                        1 +  1
-                            -------
-                            1 +  1
-                                -----
-                                1 + 1
-                                   ----  
-                                   1 + 1
-                                      ----
-                                         .
-                                           .
-                                             .
-
-These follow from the equations G^2 = G + 1 and G = 1 + 1/G,
-respectively. If you chop off the continued fraction for G at any point,
-you'll see that G is also the limit of the ratios of successive
+$$G = 1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + }}}}$$
+These follow from the equations $G^2 = G + 1$ and $G = 1 + 1/G$,
+respectively. If you chop off the continued fraction for $G$ at any point,
+you'll see that $G$ is also the limit of the ratios of successive
 Fibonacci numbers. See ["Week 190"](#week190) for a very different
 proof of this fact.
 
 However, don't be fooled! The charm of the golden number tends to
-attract kooks and the gullible - hence the term "fool's gold". You
+attract kooks and the gullible --- hence the term "fool's gold". You
 have to be careful about anything you read about this number. In
 particular, if you think ancient Greeks ran around in togas
-philosophizing about the "golden ratio" and calling it "$\phi$", you're
-wrong. This number was named $\phi$ after Phidias only in 1914, in a book
+philosophizing about the "golden ratio" and calling it "$\Phi$", you're
+wrong. This number was named $\Phi$ after Phidias only in 1914, in a book
 called *The Curves of Life* by the artist Theodore Cook. And, it was
-Cook who first started calling 1.618... the golden ratio. Before him,
-0.618... was called the golden ratio! Cook dubbed this number "\varphi",
-the lower-case baby brother of $\phi$.
+Cook who first started calling $1.618\ldots$ the golden ratio. Before him,
+$\ldots0.618$ was called the golden ratio! Cook dubbed this number "$\varphi$",
+the lower-case baby brother of $\Phi$.
 
 In fact, the whole "golden" terminology can only be traced back to
 1826, when it showed up in a footnote to a book by one Martin Ohm,
 brother of Georg Ohm, the guy with the law about resistors. Before then,
-a lot of people called 1/G the "Divine Proportion". And the guy who
+a lot of people called $1/G$ the "Divine Proportion". And the guy who
 started *that* was Luca Pacioli, a pal of Leonardo da Vinci who
 translated Euclid's *Elements*. In 1509, Pacioli published a 3-volume
 text entitled *Divina Proportione*, advertising the virtues of this
@@ -124,18 +100,18 @@ Or, if you're more spiritually inclined, you can go to workshops on
 "Sacred Geometry" featuring talks about the healing powers of the
 golden ratio. But Greek texts seem remarkably quiet about this number.
 
-The first recorded hint of it is [Proposition 11 in Book
-II](http://aleph0.clarku.edu/~djoyce/java/elements/bookII/propII11.html)
+The first recorded hint of it is [Proposition 11 in Book II](http://aleph0.clarku.edu/~djoyce/java/elements/bookII/propII11.html)
 of Euclid's *Elements*. It also shows up elsewhere in Euclid,
-especially [Proposition 30 of Book
-VI](http://aleph0.clarku.edu/~djoyce/java/elements/bookVI/propVI30.html),
+especially [Proposition 30 of Book VI](http://aleph0.clarku.edu/~djoyce/java/elements/bookVI/propVI30.html),
 where the task is "to cut a given finite straight line in extreme and
-mean ratio", meaning a ratio A:B such that
-
-    A:B::(A+B):A                (i.e., "A is to B as A+B is to A")
-
-This is later used in [Proposition 17 of Book
-XIII](http://aleph0.clarku.edu/~djoyce/java/elements/bookXIII/propXIII17.html)
+mean ratio", meaning a ratio $A:B$ such that
+$$
+  \begin{gathered}
+    A:B :: (A+B):A
+  \\\mbox{i.e. "$A$ is to $B$ as $A+B$ is to $A$"}
+  \end{gathered}
+$$
+This is later used in [Proposition 17 of Book XIII](http://aleph0.clarku.edu/~djoyce/java/elements/bookXIII/propXIII17.html)
 to construct the pentagonal face of a regular dodecahedron.
 
 Of course, Euclid wasn't the first to do all these things; he just
@@ -144,106 +120,78 @@ discovered the golden ratio and just what the Greeks thought about it.
 For a sane and detailed look at the history of the golden ratio, try
 this:
 
-1) J. J. O'Connor and E. F. Robertson, The Golden Ratio,
-`http://www-gap.dcs.st-and.ac.uk/~history/HistTopics/Golden_ratio.html`
+1) J. J. O'Connor and E. F. Robertson, "The Golden Ratio", `http://www-gap.dcs.st-and.ac.uk/~history/HistTopics/Golden_ratio.html`
 
 While I'm at it, I should point out that Theodore Cook's book
-introducing the notation "$\phi$" is still in print:
+introducing the notation "$\Phi$" is still in print:
 
-2) Theodore A. Cook, The Curves of Life: Being an Account of Spiral
-Formations and Their Application to Growth in Nature, to Science, and to
-Art: with Special Reference to the Manuscripts of Leonardo da Vinci,
-Dover Publications, New York, 1979.
+2) Theodore A. Cook, _The Curves of Life: Being an Account of Spiral Formations and Their Application to Growth in Nature, to Science, and to Art: with Special Reference to the Manuscripts of Leonardo da Vinci_, Dover Publications, New York, 1979.
 
 If you want to see what Euclid said about the golden ratio, you can also
-pick up a cheap copy of the Elements from Dover - but it's probably
+pick up a cheap copy of the Elements from Dover --- but it's probably
 quicker to go online. There are a number of good places to find
 Euclid's Elements online these days.
 
-Topologists know David Joyce as the inventor of the "quandle" - an
+Topologists know David Joyce as the inventor of the "quandle" --- an
 algebraic structure that captures most of the information in a knot. Now
 he's writing a high-tech edition of Euclid, complete with Java applets:
 
-3) David E. Joyce's edition of Euclid's Elements,
-`http://aleph0.clarku.edu/~djoyce/java/elements/toc.html`
+3) David E. Joyce's edition of Euclid's Elements, `http://aleph0.clarku.edu/~djoyce/java/elements/toc.html`
 
 Joyce is carrying on a noble tradition: back in 1847, Oliver Byrne did a
 wonderful edition of Euclid complete with lots of beautiful color
 pictures and even some pop-up models. You can see this online at the
 Digital Mathematics Archive:
 
-4) Oliver Byrne's edition of Euclid's Elements, online at the Digital
-Mathematics Archive, `http://www.sunsite.ubc.ca/DigitalMathArchive/`
+4) Oliver Byrne's edition of Euclid's Elements, online at the Digital Mathematics Archive, `http://www.sunsite.ubc.ca/DigitalMathArchive/`
 
 The most famous scholarly English translation of Euclid was done by Sir
 Thomas Heath in 1908. You can find it together with an edition in Greek
 and a nearly infinite supply of other classical texts at the Perseus
 Digital Library:
 
-5) Thomas L. Heath's edition of Euclid's Elements, online at The
-Perseus Digital Library, `http://www.perseus.tufts.edu/`
+5) Thomas L. Heath's edition of Euclid's Elements, online at The Perseus Digital Library, `http://www.perseus.tufts.edu/`
 
-But I'm digressing! My main point was that while G = (1 + sqrt(5))/2 is
+But I'm digressing! My main point was that while $G = (1 + \sqrt{5})/2$ is
 a neat number, it's a lot easier to find nuts raving about it on the
-net than to find truly interesting mathematics associated with it - or
+net than to find truly interesting mathematics associated with it --- or
 even interesting references to it in Greek mathematics! The cynic might
 conclude that the charm of this number is purely superficial. However,
 that would be premature.
 
-First of all, there's a certain sense in which G is "the most
+First of all, there's a certain sense in which $G$ is "the most
 irrational number". To get the best rational approximations to a number
-you use its continued fraction expansion. For G, this converges as
+you use its continued fraction expansion. For $G$, this converges as
 slowly as possible, since it's made of all 1's:
-
-                       1
-         G =  1  +  ---------
-                    1 +   1
-                        -------- 
-                        1 +  1
-                            -------
-                            1 +  1
-                                -----
-                                1 + 1
-                                   ----  
-                                   1 + 1
-                                      ----
-                                         .
-                                           .
-                                             .
-
-We can make this more precise. For any number x there's a constant c(x)
-that says how hard it is to approximate x by rational numbers, given by
-
-            lim inf      |x - p/q|   = c(x)/q2
-          q \to \infty
-
-where q ranges over integers, and p is an integer chosen to minimize |x
-- p/q|. This constant is as big as possible when x is the golden ratio!
+$$G = 1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + }}}}$$
+We can make this more precise. For any number $x$ there's a constant $c(x)$
+that says how hard it is to approximate $x$ by rational numbers, given by
+$$\liminf_{q\to\infty}\left\vert x-\frac{p}{q}\right\vert = \frac{c(x)}{q^2}$$
+where $q$ ranges over integers, and $p$ is an integer chosen to minimize
+$|x - p/q|$. This constant is as big as possible when $x$ is the golden ratio!
 
 It'd be ironic if the famously "rational" Greeks, who according to
-legend even drowned the guy who proved sqrt(2) was irrational, chose the
+legend even drowned the guy who proved $\sqrt{2}$ was irrational, chose the
 most irrational number as the proportions of their most beautiful
 rectangle! But, it wouldn't be a coincidence. Their obsession with
 ratios and proportions led them to ponder the situation where
-A:B::(A+B):A, and this proportion instantly implies that A and B are
-incommensurable, since if you assume A and B are integers and try to
+$A:B::(A+B):A$, and this proportion instantly implies that $A$ and $B$ are
+incommensurable, since if you assume $A$ and $B$ are integers and try to
 find their greatest common divisor using Euclid's algorithm, you get
 stuck in an infinite loop. Euclid even mentions this idea in
-[Proposition 2 of Book
-X](http://aleph0.clarku.edu/~djoyce/java/elements/bookX/propX2.html):
+[Proposition 2 of Book X](http://aleph0.clarku.edu/~djoyce/java/elements/bookX/propX2.html):
 
 > If, when the less of two unequal magnitudes is continually subtracted
 > in turn from the greater that which is left never measures the one
 > before it, then the two magnitudes are incommensurable.
 
 He doesn't explicitly come out and apply it to what we now call the
-golden ratio - but how could he not have made the connection? For more
+golden ratio --- but how could he not have made the connection? For more
 info on the Greek use of continued fractions and the Euclidean
 algorithm, check out the chapter on "antihyphairetic ratio theory" in
 this book:
 
-6) D. H. Fowler, The Mathematics of Plato's Academy: A New
-Reconstruction, Oxford U. Press, Oxford, 1987.
+6) D. H. Fowler, _The Mathematics of Plato's Academy: A New Reconstruction_, Oxford U. Press, Oxford, 1987.
 
 Anyway, it's actually important in physics that the golden number is so
 poorly approximated by rationals. This fact shows up in the Kolmogorov-
@@ -253,20 +201,20 @@ speaking, these are classical mechanics problems that have as many
 conserved quantities as possible. These are the ones that tend to show
 up in textbooks, like the harmonic oscillator and the gravitational
 2-body problem. The reason is that you can solve such problems if you
-can do a bunch of integrals - hence the term "completely integrable".
+can do a bunch of integrals --- hence the term "completely integrable".
 
 The cool thing about a completely integrable system is that time
 evolution carries states of the system along paths that wrap around
-tori. Suppose it takes n numbers to describe the position of your
-system. Then it also takes n numbers to describe its momentum, so the
-space of states is 2n-dimensional. But if the system has n different
-conserved quantities - that's basically the maximum allowed - the space
+tori. Suppose it takes $n$ numbers to describe the position of your
+system. Then it also takes $n$ numbers to describe its momentum, so the
+space of states is $2n$-dimensional. But if the system has n different
+conserved quantities --- that's basically the maximum allowed --- the space
 of states will be foliated by $n$-dimensional tori. Any state that starts
 on one of these tori will stay on it forever! It will march round and
 round, tracing out a kind of spiral path that may or may not ever get
 back to where it started.
 
-Things are pretty simple when n = 1, since a $1$-dimensional torus is a
+Things are pretty simple when $n = 1$, since a $1$-dimensional torus is a
 circle, so the state *has* to loop around to where it started. For
 example, when you have a pendulum swinging back and forth, its position
 and momentum trace out a loop as time passes.
@@ -277,7 +225,7 @@ ratios of their frequencies are rational numbers.
 
 This is how it works for any completely integrable system. For any
 torus, there's an $n$-tuple of numbers describing the frequency with
-which paths on this torus wind around in each of the n directions. If
+which paths on this torus wind around in each of the $n$ directions. If
 the ratios of these frequencies are all rational, paths on this torus
 trace out periodic orbits. Otherwise, they don't!
 
@@ -294,23 +242,20 @@ torus to die is called a "golden torus".
 You can actually *watch* tori breaking into chaotic dust if you check
 out the applet illustrating the "standard map" on this website:
 
-7) Takashi Kanamaru and J. Michael T. Thompson, Introduction to Chaos
-and Nonlinear Dynamics, standard map applet,
-`http://brain.cc.kogakuin.ac.jp/~kanamaru/Chaos/e/Standard/`
+7) Takashi Kanamaru and J. Michael T. Thompson, "Introduction to Chaos and Nonlinear Dynamics", standard map applet, `http://brain.cc.kogakuin.ac.jp/~kanamaru/Chaos/e/Standard/`
 
 The "standard map" is a certain dynamical system that's good for
 illustrating this effect. You won't actually see 2d tori, just 1d
-cross-sections of them - but it's pretty fun. For more details, try
+cross-sections of them --- but it's pretty fun. For more details, try
 this:
 
-8) M. Tabor, Chaos and Integrability in Nonlinear Dynamics: An
-Introduction, Wiley, New York, 1989.
+8) M. Tabor, _Chaos and Integrability in Nonlinear Dynamics: An Introduction_, Wiley, New York, 1989.
 
 In short, the golden number is the best frequency ratio for avoiding
 resonance!
 
 Some audiophiles even say this means the best shaped room for listening
-to music is one with proportions 1:G:G^2. I leave it to you to find the
+to music is one with proportions $1:G:G^2$. I leave it to you to find the
 flaw in this claim. For more dubious claims, check out the ad for
 expensive speaker cables at the end of this article.
 
@@ -323,71 +268,38 @@ shouldn't give up the field to amateurs!
 Penrose has done his share. His "Penrose tiles" take crucial advantage
 of the self-similarity embodied by the golden number to create
 nonperiodic tilings of the plane. This helped spawn a nice little
-industry, the study of "quasicrystals" with 5-fold symmetry. Here's a
+industry, the study of "quasicrystals" with $5$-fold symmetry. Here's a
 good introduction for mathematicians:
 
-9) Andre Katz, A short introduction to quasicrystallography, in From
-Number Theory to Physics, eds. M. Waldschmit et al, Springer, Berlin,
-1992, pp. 496-537.
+9) Andre Katz, "A short introduction to quasicrystallography", in _From Number Theory to Physics_, eds. M. Waldschmit et al, Springer, Berlin, 1992, pp. 496--537.
 
 By the way, this same book has some nice stuff on the role of the golden
 number in KAM theory and the theory of iterated maps from the circle to
 itself:
 
-10) Predrag Cvitanovic, Circle maps: irrationally winding, in From
-Number Theory to Physics, eds. M. Waldschmit et al, Springer, Berlin,
-1992, pp. 631-658.
+10) Predrag Cvitanovic, "Circle maps: irrationally winding", in _From Number Theory to Physics_, eds. M. Waldschmit et al, Springer, Berlin, 1992, pp. 631--658.
 
-11) Jean-Christophe Yoccoz, Introduction to small divisors problems, in
-From Number Theory to Physics, eds. M. Waldschmit et al, Springer,
-Berlin, 1992, pp. 659-679.
+11) Jean-Christophe Yoccoz, "Introduction to small divisors problems", in _From Number Theory to Physics_, eds. M. Waldschmit et al, Springer, Berlin, 1992, pp. 659--679.
 
 Conway and Sloane are also pulling their weight. Starting from the
 relation between the golden ratio, the isosahedron, and the
-4-dimensional big brother of the icosahedron (the "600-cell"),
+$4$-dimensional big brother of the icosahedron (the "600-cell"),
 they've described how to construct the coolest lattices in 8 and 24
-dimensions using "icosians" - which are certain quaternions built
+dimensions using "icosians" --- which are certain quaternions built
 using the golden ratio. I discussed this circle of ideas in
 ["Week 20"](#week20), ["Week 59"](#week59) and
 ["Week 155"](#week155).
 
 But if you want some really scary formulas involving the golden ratio,
 Ramanujan is the one to go to. Check these out:
-
-               1
-          --------------
-           1 +  exp(-2\pi )
-               -------------
-                1 + exp(-4\pi )          =     exp(2\pi /5) [sqrt(G sqrt(5)) - G]
-                    ------------
-                     1 + exp(-6\pi )
-                         -----------
-                          1 + exp(-8\pi )  
-                              ---------   
-                                     .
-                                       .
-                                         .
-
+$$\frac{1}{1 + \frac{\exp(-2\pi)}{1 + \frac{\exp(-4\pi)}{1 + \frac{\exp(-6\pi)}{1 + \ldots}}}} = \exp\left(\frac{2\pi}{5}\right)\left(\sqrt{G\sqrt{5}}-5\right)$$
 and
-
-       1 +  exp(-2\pi  sqrt(5))
-           -------------------
-            1 + exp(-4\pi  sqrt(5))                                         sqrt(5)
-                -----------------             =   exp(2\pi /5) [ ---------------------------- - G]
-                 1 + exp(-6\pi  sqrt(5))                          1 + [53/4 (G - 1)5/2 - 1]1/5
-                     ------------------
-                      1 + exp(-8\pi  sqrt(5))  
-                          ------------------   
-                                  .
-                                    .
-                                      .
-
+$$1 + \frac{\exp(-2\pi\sqrt{5})}{1 + \frac{\exp(-4\pi\sqrt{5})}{1 + \frac{\exp(-6\pi\sqrt{5})}{1 + \ldots}}} = \exp\left(\frac{2\pi}{5}\right)\left(\frac{\sqrt{5}}{1+(5^\frac34(G-1)^\frac52-1)^\frac15}-G\right)$$
 These are special cases of a monstrosity called the Rogers-Ramanujan
-continued fraction, which is a kind of "q-deformation" of the
+continued fraction, which is a kind of "$q$-deformation" of the
 continued fraction for the golden ratio. For details, start here:
 
-12) Eric W. Weisstein, Rogers-Ramanujan Continued Fraction,
-`http://mathworld.wolfram.com/Rogers-RamanujanContinuedFraction.html`
+12) Eric W. Weisstein, "Rogers-Ramanujan Continued Fraction", `http://mathworld.wolfram.com/Rogers-RamanujanContinuedFraction.html`
 
 It's these two formulas, and one other like it, that led Hardy to write
 the famous lines:
@@ -400,49 +312,46 @@ the famous lines:
 For more by Hardy on these continued fractions, see section 1 and
 section 6.17 of his book:
 
-13) G. H. Hardy, Ramanujan: Twelve Lectures on Subjects Suggested by
-His Life and Work, Chelsea Publishing Co., New York, 1959.
+13) G. H. Hardy, _Ramanujan: Twelve Lectures on Subjects Suggested by His Life and Work_, Chelsea Publishing Co., New York, 1959.
 
 The golden number also shows up in the theory of quantum groups. I
 talked about this in ["Week 22"](#week22) so I won't explain it
 again here. But, I can't resist mentioning that Freedman, Larsen and
 Wang have subsequently shown that a certain topological quantum field
 theory called Chern-Simons theory, built using the quantum group
-\mathrm{SU}_q(2), can serve as a universal quantum computer when the parameter q
+$\mathrm{SU}_q(2)$, can serve as a universal quantum computer when the parameter $q$
 is a fifth root of unity. And, this is exactly the case where the
-spin-$1/2$ representation of \mathrm{SU}_q(2) has quantum dimension equal to the
+spin-$1/2$ representation of $\mathrm{SU}_q(2)$ has quantum dimension equal to the
 golden number!
 
-14) Michael Freedman, Michael Larsen, Zhenghan Wang, A modular functor
-which is universal for quantum computation, available at
-[quant-ph/0001108](http://www.arXiv.org/quant-ph/0001108).
+14) Michael Freedman, Michael Larsen, Zhenghan Wang, "A modular functor which is universal for quantum computation", available at [`quant-ph/0001108`](http://www.arXiv.org/quant-ph/0001108).
 
 But don't get the wrong idea: it's not that some magic feature of the
 golden number is required to build a universal quantum computer! It's
-just that the 5 seems to be the *smallest* number n such that \mathrm{SU}_q(2)
-Chern-Simons theory is computationally universal when q is an nth root
-of 1.
+just that the 5 seems to be the *smallest* number $n$ such that $\mathrm{SU}_q(2)$
+Chern-Simons theory is computationally universal when $q$ is an $n$th root
+of $1$.
 
 That's pretty much everything I know about the golden number. So now,
 what about this "Golden Object" puzzle?
 
 Basically, the problem was to find an object that acts like the golden
-number. The golden number has G^2 = G + 1, so we want to find a object
-G equipped with a nice isomorphism between G^2 and G + 1.
+number. The golden number has $G^2 = G + 1$, so we want to find a object
+$G$ equipped with a nice isomorphism between $G^2$ and $G + 1$.
 
-If G is just a set, this means we want a nice one-to-one correspondence
-between pairs of elements of G, and elements of G together with one
+If $G$ is just a set, this means we want a nice one-to-one correspondence
+between pairs of elements of $G$, and elements of $G$ together with one
 other thing. It doesn't matter what that other thing is, so let's call
-it "@".
+it "$@$".
 
 (You may be wondering about the word "nice". The point is, the problem
-is too easy if we don't demand that the solution be nice in some way -
+is too easy if we don't demand that the solution be nice in some way ---
 some way that I don't feel like making precise.)
 
 Here's Robin Houston's answer:
 
-Define a "bit" to be either 0 or 1. Define a "golden tree" to be a
-(planar) binary tree with leaves labelled by 0, 1, or *, where every
+Define a "bit" to be either $0$ or $1$. Define a "golden tree" to be a
+(planar) binary tree with leaves labelled by $0$, $1$, or $*$, where every
 node has at most one bit-child. For example:
 
                   /\   
