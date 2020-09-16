@@ -549,7 +549,7 @@ He also wrote:
 Finally, Renate Loll corrected an oversimplification in my account of
 her model:
 
-> [...] I never claimed the geometries we find are nice *and smooth*,
+> \[...\] I never claimed the geometries we find are nice *and smooth*,
 > I think they almost certainly will be fairly wild individually, even
 > at relatively large scales. Like the particle paths in the quantum
 > mechanical path integral, the individual histories should not be taken

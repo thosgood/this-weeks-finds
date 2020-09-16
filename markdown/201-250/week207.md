@@ -17,7 +17,7 @@ had to spend 4000 pounds on a public relations firm to control the
 reporters and other riff-raff who would try to attend Hawking's talk.
 Indeed, there seemed to be more than the usual number of crackpots
 floating about, though I admit I haven't been to this particular series
-of conferences before - perhaps general relativity attracts such people?
+of conferences before --- perhaps general relativity attracts such people?
 The public lecture by Penrose on the last day of the conference may have
 helped lure them in. He spoke on "Fashion, Faith and Fantasy in
 Theoretical Physics", and people by the door sold copies of his brand
@@ -72,7 +72,7 @@ that Hawking could suddenly shed new light on a problem that has been
 attacked from many angles for several decades. One reason is that
 Hawking's best work was done almost 30 years ago. A string theorist I
 know said that thanks to work relating anti-deSitter space and conformal
-field theory - the so-called "AdS-CFT" hypothesis - string theorists
+field theory --- the so-called "AdS-CFT" hypothesis --- string theorists
 had become convinced that no information is lost by black holes. Thus,
 Hawking had been feeling strong pressure to fall in line and renounce
 his previous position, namely that information *is* lost. A talk
@@ -81,7 +81,7 @@ announcing this would come as no big surprise.
 After a while Kip Thorne, John Preskill, Petros Florides and Hawking's
 grad student Christophe Galfard came on stage. Then, amid a burst of
 flashbulbs, Hawking's wheelchair gradually made its way down the aisle
-and up a ramp, attended by a nurse - possibly his wife, I don't know.
+and up a ramp, attended by a nurse --- possibly his wife, I don't know.
 He had been recently sick with pneumonia.
 
 Once Hawking was on stage, the conference organizer Petros Florides made
@@ -108,9 +108,9 @@ The [bet](dublin/index.html#hawking) went like this:
 >
 > Therefore Preskill offers, and Hawking/Thorne accept, a wager that:
 >
-> When an initial pure quantum state undergoes gravitational collapse to
-> form a black hole, the final state at the end of black hole
-> evaporation will always be a pure quantum state.
+> > When an initial pure quantum state undergoes gravitational collapse to
+> > form a black hole, the final state at the end of black hole
+> > evaporation will always be a pure quantum state.
 >
 > The loser(s) will reward the winner(s) with an encyclopedia of the
 > winner's choice, from which information can be recovered at will.
@@ -128,7 +128,7 @@ reporter Dennis Overbye. I've made a few small corrections.
 
 There were also some slides, but you're not missing a lot by not seeing
 them. The talk was not easy to understand, so unless quantum gravity is
-your specialty you may feel like just skimming it to get the flavor, and
+your speciality you may feel like just skimming it to get the flavor, and
 then reading my attempt at a summary.
 
 The talk began with Hawking's trademark introduction, uttered as usual
@@ -195,8 +195,8 @@ in his computer-generated voice:
 > gravity non-perturbatively. \[He grinned at this point.\] In this, the
 > time evolution of an initial state is given by a path integral over
 > all positive definite metrics that go between two surfaces that are a
-> distance T apart at infinity. One then Wick rotates the time interval,
-> T, to the Lorentzian.
+> distance $T$ apart at infinity. One then Wick rotates the time interval,
+> $T$, to the Lorentzian.
 >
 > The path integral is taken over metrics of all possible topologies
 > that fit in between the surfaces. There is the trivial topology: the
@@ -236,28 +236,28 @@ in his computer-generated voice:
 > One way of getting rid of the difficulties of caps would be to join
 > the final surface back to the initial surface, and integrate over all
 > spatial geometries of the join. If this was an identification under a
-> Lorentzian time interval, T, at infinity, it would introduce closed
+> Lorentzian time interval, $T$, at infinity, it would introduce closed
 > timelike curves. But if the interval at infinity is the Euclidean
 > distance, beta, the path integral gives the partition function for
-> gravity at temperature 1/\beta.
+> gravity at temperature $1/\beta$.
 >
 > The partition function of a system is the trace over all states,
-> weighted with e^-\beta\ H^. One can then integrate \beta along a contour
-> parallel to the imaginary axis with the factor e^-\beta\ E^. This projects
-> out the states with energy E_0. In a gravitational collapse and
+> weighted with $e^{-\beta H}$. One can then integrate \beta along a contour
+> parallel to the imaginary axis with the factor $e^{-\beta E}$. This projects
+> out the states with energy $E_0$. In a gravitational collapse and
 > evaporation, one is interested in states of definite energy, rather
 > than states of definite temperature.
 >
 > There is an infrared problem with this idea for asymptotically flat
-> space. The Euclidean path integral with period \beta is the partition
-> function for space at temperature 1/beta. The partition function is
+> space. The Euclidean path integral with period $\beta$ is the partition
+> function for space at temperature $1/beta$. The partition function is
 > infinite because the volume of space is infinite. This infrared
 > problem can be solved by a small negative cosmological constant. It
 > will not affect the evaporation of a small black hole, but it will
 > change infinity to anti-deSitter space, and make the thermal partition
 > function finite.
 >
-> The boundary at infinity is then a torus, S^1 cross S^2. The trivial
+> The boundary at infinity is then a torus, $S^1$ cross $S^2$. The trivial
 > topology, periodically identified anti-deSitter space, fills in the
 > torus, but so also do nontrivial topologies, the best known of which
 > is Schwarzschild anti-deSitter. Providing that the temperature is
@@ -267,10 +267,10 @@ in his computer-generated voice:
 > over all metrics of Schwarzschild AdS topology represents a black hole
 > and thermal radiation in asymptotically anti-deSitter.
 >
-> The boundary at infinity has topology S^1 cross S^2. The simplest
-> topology that fits inside that boundary is the trivial topology, S^1
-> cross D^3, the three-disk. The next simplest topology, and the first
-> nontrivial topology, is S^2 cross D^2. This is the topology of the
+> The boundary at infinity has topology $S^1$ cross $S^2$. The simplest
+> topology that fits inside that boundary is the trivial topology, $S^1$
+> cross $D^3$, the three-disk. The next simplest topology, and the first
+> nontrivial topology, is $S^2$ cross $D^2$. This is the topology of the
 > Schwarzschild anti-deSitter metric. There are other possible
 > topologies that fit inside the boundary, but these two are the
 > important cases: topologically trivial metrics and the black hole. The
@@ -281,16 +281,16 @@ in his computer-generated voice:
 > topologically trivial metrics, but exponentially decays in
 > topologically non trivial metrics. A final state of empty space
 > without a black hole would be topologically trivial, and be foliated
-> by surfaces of constant time. These would form a 3-cycle modulo the
+> by surfaces of constant time. These would form a $3$-cycle modulo the
 > boundary at infinity. Any global symmetry would lead to conserved
-> global charges on that 3-cycle. These would prevent correlation
+> global charges on that $3$-cycle. These would prevent correlation
 > functions from decaying exponentially in topologically trivial
 > metrics. Indeed, one can regard the unitary Hamiltonian evolution of a
 > topologically trivial metric as the conservation of information
-> through a 3-cycle.
+> through a $3$-cycle.
 >
 > On the other hand, a nontrivial topology, like a black hole, will not
-> have a final 3-cycle. It will not therefore have any conserved
+> have a final $3$-cycle. It will not therefore have any conserved
 > quantity that will prevent correlation functions from exponentially
 > decaying. One is thus led to the remarkable result that late time
 > amplitudes of the path integral over a topologically non trivial
@@ -307,7 +307,7 @@ in his computer-generated voice:
 > topologically nontrivial metrics, like the eternal black hole. On the
 > other hand, information is preserved in topologically trivial metrics.
 > The confusion and paradox arose because people thought classically, in
-> terms of a single topology for spacetime. It was either R^4, or a
+> terms of a single topology for spacetime. It was either $\mathbb{R}^4$, or a
 > black hole. But the Feynman sum over histories allows it to be both at
 > once. One can not tell which topology contributed the observation, any
 > more than one can tell which slit the electron went through, in the
@@ -354,7 +354,7 @@ in his computer-generated voice:
 > non-perturbative method in AdS/CFT. The Maldacena conjecture says that
 > the effective action of a CFT on a background metric is equal to the
 > supergravity effective action of anti-deSitter space with that
-> background metric at infinity. In the large N limit, the supergravity
+> background metric at infinity. In the large $N$ limit, the supergravity
 > effective action is just the classical action. Thus the calculation of
 > the quantum effective action of the matter fields, is equivalent to
 > solving the classical Einstein equations.
@@ -388,7 +388,7 @@ in his computer-generated voice:
 > thirty years, even though the answer is less exciting than the
 > alternative I suggested. This result is not all negative however,
 > because it indicates that a black hole evaporates, while remaining
-> topologically trivial. However, the large N solution is likely to be a
+> topologically trivial. However, the large $N$ solution is likely to be a
 > black hole that shrinks to zero. This is what I suggested in 1975.
 >
 > In 1997, Kip Thorne and I bet John Preskill that information was lost
@@ -407,16 +407,16 @@ in his computer-generated voice:
 > later, he can pay me back.
 
 At this point the encyclopedia was brought on stage and given to John
-Preskill, who [waved it over his head in a parody of athletic
-triumph](dublin/index.html#preskill). The order of events is a bit fuzzy
+Preskill, who [waved it over his head in a parody of athletic triumph](dublin/index.html#preskill).
+The order of events is a bit fuzzy
 in my mind, but sometime around then he said "I always hoped that when
-Stephen conceded, there would be a witness - this really exceeds my
+Stephen conceded, there would be a witness --- this really exceeds my
 expectations."
 
 After this, Kip Thorne ran a question and answer period, saying that he
 would alternate between questions from conference participants, which
 Hawking's grad student would answer, and questions from the press,
-which Hawking would answer - after Thorne checked Hawking's facial
+which Hawking would answer --- after Thorne checked Hawking's facial
 expressions to see whether he felt they were worth answering.
 
 First, a correspondent from the BBC asked Stephen Hawking what the
@@ -441,10 +441,10 @@ don't just listen to Hawking and take his word for everything, we have
 to go off and check things ourselves. He told a nice story about how
 when Hawking first showed that black holes radiate, everyone with their
 own approach to quantum field theory on curved spacetime needed to redo
-this calculation their own way to be convinced - with Yakov Zeldovich,
+this calculation their own way to be convinced --- with Yakov Zeldovich,
 who'd gotten the game started by showing that energy could be extracted
 from *rotating* black holes in the form of radiation, being one of the
-very last to agree! Preskill chimed in, saying "I'll be honest - I
+very last to agree! Preskill chimed in, saying "I'll be honest --- I
 didn't understand the talk", and that he too would need to see more
 details.
 
@@ -488,7 +488,7 @@ that shoot out.
 
 The rules of the game in a "scattering experiment" are that we can
 only talk about what's going on "at infinity", meaning very far from
-where the black hole forms - or more precisely, where it may or may not
+where the black hole forms --- or more precisely, where it may or may not
 form!
 
 The advantage of this is that physics at infinity can be described
@@ -496,7 +496,7 @@ without the full machinery of quantum gravity: we don't have to worry
 about quantum fluctuations of the geometry of spacetime messing up our
 ability to say where things are. The disadvantage is that we can't
 actually say for sure whether or not a black hole formed. At least this
-*seems* like a "disadvantage" at first - but a better term for it
+*seems* like a "disadvantage" at first --- but a better term for it
 might be a "subtlety", since it's crucial for resolving the puzzle:
 
 > Black hole formation and evaporation can be thought of as a scattering
@@ -510,10 +510,10 @@ might be a "subtlety", since it's crucial for resolving the puzzle:
 
 Now, the way Hawking likes to calculate things in this sort of problem
 is using a "Euclidean path integral". This is a rather controversial
-approach - hence his grin when he said it's the "only sane way" to do
-these calculations - but let's not worry about that. Suffice it to say
-that we replace the time variable "t" in all our calculations by
-"it", do a bunch of calculations, and then replace "it" by "t"
+approach --- hence his grin when he said it's the "only sane way" to do
+these calculations --- but let's not worry about that. Suffice it to say
+that we replace the time variable "$t$" in all our calculations by
+"$it$", do a bunch of calculations, and then replace "$it$" by "$t$"
 again at the end. This trick is called "Wick rotation". In the middle
 of this process, we hope all our formulas involving the geometry of 4d
 *spacetime* have magically become formulas involving the geometry of 4d
@@ -567,11 +567,11 @@ just these two.
 
 He says that if you just do the integral over geometries near the
 classical solution where there's no black hole, you'll find -
-unsurprisingly - that no information is lost as time passes.
+unsurprisingly --- that no information is lost as time passes.
 
 He also says that if you do the integral over geometries near the
 classical solution where there is a black hole, you'll find -
-surprisingly - that the answer is *zero* for a lot of questions you can
+surprisingly --- that the answer is *zero* for a lot of questions you can
 measure the answers to far from the black hole. In physics jargon, this
 is because a bunch of "correlation functions decay exponentially".
 
@@ -583,7 +583,7 @@ you get the same answer as if there were no black hole!
 > topologically nontrivial metrics, like the eternal black hole. On the
 > other hand, information is preserved in topologically trivial metrics.
 > The confusion and paradox arose because people thought classically, in
-> terms of a single topology for spacetime. It was either R^4, or a
+> terms of a single topology for spacetime. It was either $\mathbb{R}^4$, or a
 > black hole. But the Feynman sum over histories allows it to be both at
 > once. One can not tell which topology contributed the observation, any
 > more than one can tell which slit the electron went through, in the
@@ -599,7 +599,7 @@ gives a nice hand-wavy topological argument, but that's not enough for
 me.
 
 Since this issue is long enough already and I want to get it out soon, I
-won't talk about other things that happened at this conference - nor
+won't talk about other things that happened at this conference --- nor
 will I talk about the conference on $n$-categories earlier this summer! I
 just want to say a few elementary things about the topology lurking in
 Hawking's talk... since some mathematicians may enjoy it.
@@ -608,58 +608,53 @@ As he points out, the answers to a bunch of questions diverge unless we
 put our black hole in a box of finite size. A convenient way to do this
 is to introduce a small negative cosmological constant, which changes
 our default picture of spacetime from Minkowski spacetime, which is
-topologically R^4, to anti-deSitter spacetime, which is topologically R
-x D^3 after we add the "boundary at infinity". Here R is time and the
-3-disk D^3 is space. This is a Lorentzian manifold with boundary, but
+topologically $\mathbb{R}^4$, to anti-deSitter spacetime, which is topologically
+$\mathbb{R}\times D^3$ after we add the "boundary at infinity". Here $\mathbb{R}$ is time and the
+$3$-disk $D^3$ is space. This is a Lorentzian manifold with boundary, but
 when we do Wick rotation we get a Riemannian manifold with boundary
 having the same topology.
 
 However, when we are doing Euclidean path integrals at nonzero
-temperature, we should replace the time line R here by a circle whose
+temperature, we should replace the time line $\mathbb{R}$ here by a circle whose
 radius is the reciprocal of that temperature. (Take my word for it!) So
-now our Riemannian manifold with boundary is S^1 x D^3. This is what
+now our Riemannian manifold with boundary is $S^1 \times D^3$. This is what
 Hawking uses to handle the geometries without a black hole. The boundary
-of this manifold is S^1 x S^2. But there's another obvious manifold
-with this boundary, namely D^2 x S2. And this corresponds to the
+of this manifold is $S^1 \times S^2$. But there's another obvious manifold
+with this boundary, namely $D^2 \times S^2$. And this corresponds to the
 geometries with a black hole! This is cute because we see it all the
 time in surgery theory. In fact I commented on Hawking's use of this
 idea a long time ago, in ["Week 67"](#week67).
 
-In his talk, Hawking points out that S^1 x D^3 has a nontrivial
-3-cycle in it if we use relative cohomology and work relative to the
-boundary S^1 x S^2. But, D^2 x S^2 does not. When spacetime is
-n-dimensional, conservation laws usually come from integrating closed
-(n-1)-forms over cycles that correspond to "space", so we get
+In his talk, Hawking points out that $S^1 \times D^3$ has a nontrivial
+$3$-cycle in it if we use relative cohomology and work relative to the
+boundary $S^1 \times S^2$. But, $D^2 \times S^2$ does not. When spacetime is
+$n$-dimensional, conservation laws usually come from integrating closed
+$(n-1)$-forms over cycles that correspond to "space", so we get
 interesting conservation laws when there are nontrivial $(n-1)$-cycles.
 Here Hawking is using this to argue for conservation of information when
-there's no black hole - namely for S^1 x D^3 - but not when there is,
-namely for D^2 x S^2.
+there's no black hole --- namely for $S^1 \times D^3$ --- but not when there is,
+namely for $D^2 \times S^2$.
 
 All this is fine and dandy; the hard part is to see why the case when
 there *is* a black hole doesn't screw things up! This is where his
-allusions to "exponentially decaying correlation functions come in" -
+allusions to "exponentially decaying correlation functions come in" ---
 and this is where I'd like to see more details. I guess a good place to
-start is Maldacena's papers on the black hole in 3d spacetime - the
+start is Maldacena's papers on the black hole in 3d spacetime --- the
 so-called Banados-Teitelboim-Zanelli or "BTZ" black hole. This is a
 baby version of the problem, one dimension down from the real thing,
 where everything should get much simpler. For a bunch about the BTZ
 black hole, try:
 
-3) Maximo Banados, Marc Henneaux, Claudio Teitelboim, and Jorge
-Zanelli, Geometry of the 2+1 black hole, Phys. Rev. D48 (1993)
-1506-1525, also available as
-[`gr-qc/9302012`](http://www.arXiv.org/abs/gr-qc/9302012).
+3) Maximo Banados, Marc Henneaux, Claudio Teitelboim, and Jorge Zanelli, "Geometry of the 2+1 black hole", _Phys. Rev._ **D48** (1993) 1506--1525, also available as [`gr-qc/9302012`](http://www.arXiv.org/abs/gr-qc/9302012).
 
 The relevant paper by Maldacena seems to be:
 
-4) Juan Maldacena, Eternal Black Holes in AdS, JHEP 0304 (2003) 021,
-also available as [`hep-th/0106122`](http://arxiv.org/abs/hep-th/0106112).
+4) Juan Maldacena, "Eternal Black Holes in AdS", _JHEP_ **0304** (2003) 021, also available as [`hep-th/0106122`](http://arxiv.org/abs/hep-th/0106112).
 
 You can also see a talk he gave on this at the Institute for Theoretical
 Physics at U. C. Santa Barbara:
 
-5) Juan Maldacena, Eternal Black Holes in AdS,
-`http://online.itp.ucsb.edu/online/mtheory_c01/maldacena/`.
+5) Juan Maldacena, "Eternal Black Holes in AdS", `http://online.itp.ucsb.edu/online/mtheory_c01/maldacena/`.
 
 By the way, here are some photos of the conference...
 
@@ -675,15 +670,15 @@ quaternions!
 **Addendum:** My friend Ted Bunn filled a gap in my understanding of the
 history of astronomy. I had written:
 
-    It turned out to describe an idea I'd never even dreamt of before: 
-    a heliocentric cosmology in which the planets move along circular orbits 
-    with epicycles a la Ptolemy!  
+> It turned out to describe an idea I'd never even dreamt of before: 
+> a heliocentric cosmology in which the planets move along circular orbits 
+> with epicycles a la Ptolemy!
 
 to which he replied:
 
-    There is nothing new under (or orbiting) the Sun.  This idea is
-    originally due to Copernicus.  Thomas Kuhn's book "The Copernican
-    Revolution" has a nice discussion.
+> There is nothing new under (or orbiting) the Sun.  This idea is
+> originally due to Copernicus.  Thomas Kuhn's book "The Copernican
+> Revolution" has a nice discussion.
 
 In retrospect it's obvious that *someone* had to try this idea before
 Kepler came up with elliptical heliocentric orbits. In fact, Kepler
@@ -692,6 +687,8 @@ Mars.
 
 ------------------------------------------------------------------------
 
-*I'm not that good at math, but I do know that the universe is formed
+> *I'm not that good at math, but I do know that the universe is formed
 with mathematical principles whether I understand them or not, and I was
-going to let that guide me.* - Bob Dylan, Chronicles (vol. 1)
+going to let that guide me.*
+> 
+> --- Bob Dylan, Chronicles (vol. 1)
