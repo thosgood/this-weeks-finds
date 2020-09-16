@@ -325,7 +325,7 @@ we use superalgebras instead of algebras! A "superalgebra" is just
 physics jargon for a $\mathbb{Z}/2$-graded algebra --- that is, an algebra $A$ that's
 a direct sum of an "even" or "bosonic" part $A_0$ and an "odd" or
 "fermionic" part $A_1$:
-$$A = A0 \oplus A1$$
+$$A = A_0 \oplus A_1$$
 such that multiplying a guy in $A_i$ and a guy in $A_j$ gives a guy in
 $A_{i+j}$, where we add the subscripts $\mod 2$.
 
