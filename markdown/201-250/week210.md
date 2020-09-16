@@ -201,20 +201,14 @@ $$
     \begin{tikzpicture}
       \node (x) at (0,0) {$x$};
       \node (y) at (2,0) {$y$};
+      \draw[->] (x) .. node[label={[label distance=-1mm]above:{\scriptsize$f$}}]{} controls (0.7,0.7) and (1.3,0.7) .. (y);
+      \draw[->] (x) .. node[label={[label distance=-1mm]below:{\scriptsize$g$}}]{}controls (0.7,-0.7) and (1.3,-0.7) .. (y);
+      \draw[double,double equal sign distance,-implies] (1,0.5) to node[label={[label distance=-1mm]right:{\scriptsize$F$}}]{} (1,-0.5);
     \end{tikzpicture}
   \\[1em]\mbox{a path $f$ from the point $x$ to the point $y$;}
   \\\mbox{we write this as $f\colon x\to y$.}
   \end{gathered}
 $$
-
-                 f
-        --------->-------
-       /        ||       \
-      x         ||F       y   a path-of-paths F from the path f to the path g:
-       \        \/       /            we write this as F: f \Rightarrow g
-        --------->-------
-                   g
-
 To do this, we need to boost our level of thinking a notch, working not
 with "$G$-torsors" and "principal $G$-bundles" but instead with
 "$G$-$2$-torsors" and "$G$-gerbes".
