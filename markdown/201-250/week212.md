@@ -165,13 +165,13 @@ $$
   \begin{tikzpicture}[scale=1.1]
     \draw (0,0) circle[radius=2.65cm];
     \node[label=below:{\small$\mathbb{R}$}] at (90:2.3) {0};
-    \node[label=below left:{$\frac{\mathbb{R}[e]}{\langle e^2+1\rangle}$}] at (45:2.3) {1};
-    \node[label=left:{$\frac{\mathbb{C}[e]}{\langle e^2+1,ei+ie\rangle}$}] at (0:2.3) {2};
-    \node[label=above left:{$\frac{\mathbb{H}[e]}{\langle e^2-1\rangle}$}] at (-45:2.3) {3};
+    \node[label=below left:{$\frac{\mathbb{R}[e]}{(e^2+1)}$}] at (45:2.3) {1};
+    \node[label=left:{$\frac{\mathbb{C}[e]}{(e^2+1,ei+ie)}$}] at (0:2.3) {2};
+    \node[label=above left:{$\frac{\mathbb{H}[e]}{(e^2-1)}$}] at (-45:2.3) {3};
     \node[label=above:{\small$\mathbb{H}$}] at (-90:2.3) {4};
-    \node[label=above right:{$\frac{\mathbb{H}[e]}{\langle e^2+1\rangle}$}] at (-135:2.3) {5};
-    \node[label=right:{$\frac{\mathbb{C}[e]}{\langle e^2-1,ei+ie\rangle}$}] at (180:2.3) {6};
-    \node[label=below right:{$\frac{\mathbb{R}[e]}{\langle e^2-1\rangle}$}] at (135:2.3) {7};
+    \node[label=above right:{$\frac{\mathbb{H}[e]}{(e^2+1)}$}] at (-135:2.3) {5};
+    \node[label=right:{$\frac{\mathbb{C}[e]}{(e^2-1,ei+ie)}$}] at (180:2.3) {6};
+    \node[label=below right:{$\frac{\mathbb{R}[e]}{(e^2-1)}$}] at (135:2.3) {7};
     \foreach \a in {0,45,90,135,180,-135,-90,-45}
       \draw (\a:2.5) to (\a:2.65);
   \end{tikzpicture}
@@ -183,7 +183,7 @@ the relations listed: $e$ is either a square root of $+1$ or of $-1$, and in
 the complex cases it anticommutes with $i$.
 
 So, for example, super division algebra number 1:
-$$\mathbb{R}[e]/\langle e^2 + 1\rangle$$
+$$\mathbb{R}[e]/(e^2 + 1)$$
 is just the real numbers with an odd element thrown in that satisfies
 $e^2 + 1 = 0$. In other words, it's just the complex numbers made into a
 superalgebra in such a way that $i$ is *odd*.
@@ -201,13 +201,13 @@ circle:
 | $n$ | $C_n$ | super-Morita-equivalent algebra |
 | :-- | :---- | :------------------------------ |
 | $0$ | $\mathbb{R}$ | $\mathbb{R}$ |
-| $1$ | $\mathbb{C}$ | $\mathbb{R}[e]/\langle e^2+1\rangle$ |
-| $2$ | $\mathbb{H}$ | $\mathbb{C}[e]/\langle e^2+1,ei+ie\rangle$ |
-| $3$ | $\mathbb{H}\oplus\mathbb{H}$ | $\mathbb{H}[e]/\langle e^2-1\rangle$ |
+| $1$ | $\mathbb{C}$ | $\mathbb{R}[e]/(e^2+1)$ |
+| $2$ | $\mathbb{H}$ | $\mathbb{C}[e]/(e^2+1,ei+ie)$ |
+| $3$ | $\mathbb{H}\oplus\mathbb{H}$ | $\mathbb{H}[e]/(e^2-1)$ |
 | $4$ | $\mathbb{H}(2)$ | $\mathbb{H}$ |
-| $5$ | $\mathbb{C}(4)$ | $\mathbb{H}[e]/\langle e^2+1\rangle$ |
-| $6$ | $\mathbb{R}(8)$ | $\mathbb{C}[e]/\langle e^2-1,ei+ie\rangle$ |
-| $7$ | $\mathbb{R}(8)\oplus\mathbb{R}(8)$ | $\mathbb{R}[e]/\langle e^2-1\rangle$ |
+| $5$ | $\mathbb{C}(4)$ | $\mathbb{H}[e]/(e^2+1)$ |
+| $6$ | $\mathbb{R}(8)$ | $\mathbb{C}[e]/(e^2-1,ei+ie)$ |
+| $7$ | $\mathbb{R}(8)\oplus\mathbb{R}(8)$ | $\mathbb{R}[e]/(e^2-1)$ |
 
 where the notation for Clifford algebras was explained last week.
 
@@ -234,9 +234,9 @@ I should admit that I have a yearning to classify *nonassociative* super
 division algebras. Has anyone ever tried this? It's already plain to
 see that we have two $16$-dimensional nonassociative super division
 algebras:
-$$\mathbb{O}[e]/\langle e^2 + 1\rangle$$
+$$\mathbb{O}[e]/(e^2 + 1)$$
 and
-$$\mathbb{O}[e]/\langle e^2 - 1\rangle$$
+$$\mathbb{O}[e]/(e^2 - 1)$$
 where $e$ is an odd element that commutes with all the octonions. (I
 should have mentioned this before, when talking about $\mathbb{H}[e]$: even
 though the quaternions are noncommutative, we assume that $e$ commutes
@@ -368,148 +368,135 @@ notes in which he outlines proofs of some results above.
 >
 > These are some notes on some of the super Brauer discussion.  
 >
-> 1.  Let V be the category of finite-dimensional super vector 
-> spaces over R.  By super algebra I mean a monoid in this 
+> 1.  Let $V$ be the category of finite-dimensional super vector 
+> spaces over $\mathbb{R}$.  By super algebra I mean a monoid in this 
 > category.  There's a bicategory whose objects are super 
-> algebras A, whose 1-cells  M\colon  A \to  B  are left A- right B-
-> modules in V, and whose 2-cells are homomorphisms
+> algebras $A$, whose 1-cells  $M\colon  A \to  B$  are left $A$- right
+> $B$-modules in $V$, and whose 2-cells are homomorphisms
 > between modules.  This is a symmetric monoidal bicategory 
-> under the usual tensor product on V.  
+> under the usual tensor product on $V$.
 >
-> A and B are super Morita equivalent if they are equivalent 
-> objects in this bicategory.  Equivalence classes [A] form 
+> $A$ and $B$ are super Morita equivalent if they are equivalent 
+> objects in this bicategory.  Equivalence classes $[A]$ form 
 > an abelian monoid whose multiplication is given by the 
-> monoidal product.  The super Brauer group of R is the 
+> monoidal product.  The super Brauer group of $\mathbb{R}$ is the 
 > subgroup of invertible elements of this monoid. 
 >
-> If [B] is inverse to [A] in this monoid, then in particular 
-> A tensor (-)  can be considered left biadjoint to  B tensor (-). 
+> If $[B]$ is inverse to $[A]$ in this monoid, then in particular 
+> $A \otimes (-)$  can be considered left biadjoint to $B \otimes (-)$. 
 > On the other hand, in the bicategory above we always have 
 > a biadjunction 
+> $$\frac{A\otimes C\to D}{C\to A^*\otimes D}$$
+> (essentially because left $A$-modules are the same as right 
+> $A^*$-modules, where $A^*$ denotes the super algebra opposite 
+> to $A$).  Since right biadjoints are unique up to equivalence, 
+> we see that if an inverse to $[A]$ exists, it must be $[A^*]$. 
 >
->                     A tensor C \to D 
->                    -------------------
->                     C \to A* tensor D
->
-> (essentially because left A-modules are the same as right 
-> A*-modules, where A* denotes the super algebra opposite 
-> to A).  Since right biadjoints are unique up to equivalence, 
-> we see that if an inverse to [A] exists, it must be [A*]. 
->
-> This can be sharpened: an inverse to [A] exists iff the 
+> This can be sharpened: an inverse to $[A]$ exists iff the 
 > unit and counit 
->
->          1 \to A* tensor A       A tensor A* \to 1
->
+> $$1\to A^*\otimes A \qquad A\otimes A^*\to 1$$
 > are equivalences in the bicategory.  Actually, one is an 
 > equivalence iff the other is, because both of these 
-> canonical 1-cells are given by the same A-bimodule,  
-> namely the one given by A acting on both sides of 
-> the underlying superspace of A (call it S) by multiplication.  
+> canonical 1-cells are given by the same $A$-bimodule,  
+> namely the one given by $A$ acting on both sides of 
+> the underlying superspace of $A$ (call it $S$) by multiplication.  
 > Either is an equivalence if the bimodule structure map 
->
->                  A* tensor A \to Hom(S, S),    
->
+> $$A^* \otimes A \to \mathrm{Hom}(S, S),$$
 > which is a map of super algebras, is an isomorphism. 
 >
-> 2.  As an example, let  A = C1  be the Clifford algebra 
-> generated by the $1$-dimensional space R with the usual 
-> quadratic form Q(x) = |x|2,  and $\mathbb{Z}/2$-graded in the usual 
-> way.  Thus, the homogeneous parts of A are $1$-dimensional 
-> and there is an odd generator i satisfying i2 = -1.  The 
-> opposite A* is similar except that there is an odd generator 
-> e satisfying  e2 = 1.  Under the map 
->
->            A* tensor A \to Hom(S, S), 
->
-> where we write S as a sum of even and odd parts R + Ri, 
-> this map has a matrix representation 
->
->                                -1   0
->              e tensor i  |-->   0   1
->
->                                 0  -1 
->              1 tensor i  |-->   1   0
->
->                                 0   1
->              e tensor 1  |-->   1   0
->
+> 2.  As an example, let  $A = C_1$  be the Clifford algebra 
+> generated by the $1$-dimensional space $\mathbb{R}$ with the usual 
+> quadratic form $Q(x) = |x|^2$,  and $\mathbb{Z}/2$-graded in the usual 
+> way.  Thus, the homogeneous parts of $A$ are $1$-dimensional 
+> and there is an odd generator $i$ satisfying $i^2 = -1$.  The 
+> opposite $A^*$ is similar except that there is an odd generator 
+> $e$ satisfying  $e^2 = 1$.  Under the map 
+> $$A^* \otimes A \to \mathrm{Hom}(S, S),$$
+> where we write $S$ as a sum of even and odd parts $R + Ri$, 
+> this map has a matrix representation
+> $$
+>   \begin{aligned}
+>     e\otimes i
+>     &\mapsto
+>     \left(\begin{array}{cc}-1&0\\0&1\end{array}\right)
+>   \\1\otimes i
+>     &\mapsto
+>     \left(\begin{array}{cc}0&-1\\1&0\end{array}\right)
+>   \\e\otimes 1
+>     &\mapsto
+>     \left(\begin{array}{cc}0&1\\1&0\end{array}\right)
+>   \end{aligned}
+> $$
 > which makes it clear that this map is surjective and thus 
-> an isomorphism.  Hence [C1]  is invertible. 
+> an isomorphism.  Hence $[C1]$  is invertible. 
 >
-> One manifestation of Bott periodicity is that [C1] 
+> One manifestation of Bott periodicity is that $[C1]$ 
 > has order 8.  We will soon see a very easy proof of this 
-> fact.  A theorem of C.T.C. Wall is that [C1] in fact 
+> fact.  A theorem of C.T.C. Wall is that $[C1]$ in fact 
 > generates the super Brauer group; I believe this can 
 > be shown by classifying super division algebras, as 
 > discussed below. 
 >
-> 3. That [C1] has order 8 is an easy calculation.  Let 
-> Cr  denote the r-fold tensor of C1.  C2 for instance 
-> has two super-commuting odd elements  i, j  satisfying 
-> i2 = j2 = -1;  it follows that  k := ij  satisfies  
-> k2 = -1, and we get the usual quaternions, graded so that 
-> the even part is the span  ⟨1, k⟩  and the odd part is ⟨i, j⟩. 
+> 3. That $[C1]$ has order 8 is an easy calculation.  Let 
+> $C_r$  denote the $r$-fold tensor of $C_1$.  $C_2$ for instance 
+> has two super-commuting odd elements  $i$, $j$  satisfying 
+> $i^2 = j^2 = -1$;  it follows that  $k := ij$  satisfies  
+> $k^2 = -1$, and we get the usual quaternions, graded so that 
+> the even part is the span  $\langle 1, k\rangle$  and the odd part is $\langle i, j\rangle$. 
 >
-> C3 has three super-commuting odd elements i, j, l, all 
-> of which are square roots of  -1.  It follows that 
-> e = ijl is an odd central involution (here "central" 
-> is taken in the ungraded sense), and also that  
-> i' = jl,  j' = li,  k' = ij satisfy the Hamiltonian equations 
->
->          (i')2 = (j')2 = (k')2 = i'j'k' = -1, 
->
-> so we have  C3 = H[e] mod (e2 --- 1).   Note this is the 
+> $C_3$ has three super-commuting odd elements $i$, $j$, $l$, all 
+> of which are square roots of $-1$.  It follows that 
+> $e = ijl$ is an odd central involution (here "central" 
+> is taken in the ungraded sense), and also that
+> $i' = jl$,  $j' = li$,  $k' = ij$ satisfy the Hamiltonian equations 
+> $$(i')^2 = (j')^2 = (k')^2 = i'j'k' = -1,$$
+> so we have $C_3 = \mathbb{H}[e]/(e2 - 1)$.   Note this is the 
 > same as 
->
->                  H tensor (C1)*
->
-> where the H here is the quaternions viewed as a super 
+> $$\mathbb{H} \otimes (C_1)^*$$
+> where the $\mathbb{H}$ here is the quaternions viewed as a super 
 > algebra concentrated in degree 0 (i.e. is purely bosonic). 
 >
-> Then we see immediately that  C4 = C3 tensor C1 is 
-> equivalent to purely bosonic H  (since the C1 cancels 
-> (C1)*  in the super Brauer group). 
+> Then we see immediately that  $C_4 = C_3 \otimes C_1$ is 
+> equivalent to purely bosonic $\mathbb{H}$  (since the $C_1$ cancels 
+> $(C_1)^*$  in the super Brauer group). 
 >
 > At this point we are done: we know that conjugation on 
-> (purely bosonic) H gives an isomorphism 
->
->                   H* \to H 
->
-> hence  [H]-1 = [H*] = [H],  i.e. [H] = [C4] has order 2!  
-> Hence  [C1]  has order 8. 
+> (purely bosonic) $\mathbb{H}$ gives an isomorphism 
+> $$\mathbb{H}^* \to \mathbb{H}$$
+> hence  $[\mathbb{H}]-1 = [\mathbb{H}^*] = [\mathbb{H}]$,  i.e. $[\mathbb{H}] = [C4]$ has order 2!  
+> Hence  $[C1]$  has order 8. 
 >
 > 4.  All this generalizes to Clifford algebras: if a real quadratic 
-> vector space  (V, Q)  has signature (r, s), then the super 
-> algebra Cliff(V, Q)  is isomorphic to  Ar tensor (A*)s, 
-> where  Ar  denotes r-fold tensor product of  A = C1. 
-> By the above calculation we see that  Cliff(V, Q)  is 
-> equivalent to  Cr-s  where r-s is taken modulo 8. 
+> vector space  $(V, Q)$  has signature $(r, s)$, then the super 
+> algebra $\mathrm{Cliff}(V, Q)$ is isomorphic to $A_r \otimes (A^*)_s$, 
+> where $A_r$ denotes $r$-fold tensor product of $A = C_1$. 
+> By the above calculation we see that $\mathrm{Cliff}(V, Q)$ is 
+> equivalent to $C_{r-s}$ where $r-s$ is taken modulo 8. 
 >
 > For the record, then, here are the hours of the super 
-> Clifford clock, where e denotes an odd element, and ~ 
+> Clifford clock, where $e$ denotes an odd element, and $\sim$ 
 > denotes equivalence: 
 >
-> C0 ~ R
-> C1 ~ R + Re,  e2 = -1
-> C2 ~ C + Ce,  e2 = -1, ei = -ie
-> C3 ~ H + He,  e2 = 1,  ei = ie, ej = je, ek = ke
-> C4 ~ H
-> C5 ~ H + He,  e2 = -1, ei = ie, ej = je, ek = ke
-> C6 ~ C + Ce,  e2 = 1,  ei = -ie
-> C7 ~ R + Re,  e2 = 1
+> - $C_0 \sim \mathbb{R}$
+> - $C_1 \sim \mathbb{R}\oplus\mathbb{R}[e]$, $e2 = -1$
+> - $C_2 \sim \mathbb{C}\oplus\mathbb{C}[e]$, $e2 = -1, ei = -ie$
+> - $C_3 \sim \mathbb{H}\oplus\mathbb{H}[e]$, $e2 = 1,  ei = ie, ej = je, ek = ke$
+> - $C_4 \sim \mathbb{H}$
+> - $C_5 \sim \mathbb{H}\oplus\mathbb{H}[e]$, $e2 = -1, ei = ie, ej = je, ek = ke$
+> - $C_6 \sim \mathbb{C}\oplus\mathbb{C}[e]$, $e2 = 1,  ei = -ie$
+> - $C_7 \sim \mathbb{R}\oplus\mathbb{R}[e]$, $e2 = 1$
 >
 > All the super algebras on the right are in fact super 
 > division algebras,  i.e. super algebras in which every 
 > nonzero homogeneous element is invertible. 
 >
-> To prove Wall's result that [C1] generates the super 
+> To prove Wall's result that $[C1]$ generates the super 
 > Brauer group, we need a lemma: any element in the super 
 > Brauer group is the class of a super division algebra. 
 >
 > [To be continued.  I had wanted to show that every 
 > element in the super Brauer group must be of the form 
-> [A] where A is a super division algebra, and then classify 
+> $[A]$ where $A$ is a super division algebra, and then classify 
 > super (associative) division algebras, showing on a case 
 > by case basis that those not in the super Clifford clock 
 > above are seen not to belong to the super Brauer group.] 
@@ -528,73 +515,62 @@ super division algebras!
 > John, 
 >  
 > This is a warm-up to classifying super division algebras 
-> over R, where I'll consider just the associative case.  
+> over $\mathbb{R}$, where I'll consider just the associative case.  
 > Nothing I say will be deep, but I found it somewhat fun 
 > and diverting, and there may be echoes of things to come. 
 >  
 > I'll take as known that the only associative division algebras 
-> over R are R, C, H  -- the even part A of an associative super 
+> over $\mathbb{R}$ are $\mathbb{R}$, $\mathbb{C}$, $\mathbb{H}$  -- the even part $A$ of an associative super 
 > division algebra must be one of these cases.  We can 
 > express the associativity of a super algebra (with even part 
-> A) by saying that the odd part M is an A-bimodule equipped 
-> with a A-bimodule map pairing 
->  
->      < -, --- >\colon   M tensor_A M \to  A
->  
+> $A$) by saying that the odd part $M$ is an $A$-bimodule equipped 
+> with a $A$-bimodule map pairing 
+> $$\langle -,-\rangle \colon M\otimes_A M \to A$$
 > such that:
->
-> (**)  a<b, c> = <a, b>c  for all a, b, c in M.  
->  
+> $$a\langle b,c\rangle = \langle a,b\rangle c \quad \mbox{for all $a,b,c$ in $M$.} \tag{$\star\star$}$$
+> 
 > If the super algebra is a super division algebra which is not 
 > wholly concentrated in even degree, then multiplication by a 
 > nonzero odd element induces an isomorphism 
+> $$A \to M$$ 
+> and so $M$ is $1$-dimensional over $A$; choose a basis element $e$ 
+> for $M$. 
 >  
->                     A \to M
->  
-> and so M is $1$-dimensional over A; choose a basis element e 
-> for M. 
->  
-> The key observation is that for any a in A, there exists a 
-> unique a' in A such that 
->  
->                    ae = ea'  
->  
-> and that the A-bimodule structure forces  (ab)' = a'b'.  Hence we 
-> have an automorphism (fixing the real field) 
->  
->               (--)'\colon  A \to  A
->  
+> The key observation is that for any $a$ in $A$, there exists a 
+> unique $a'$ in $A$ such that 
+> $$ae = ea'$$
+> and that the $A$-bimodule structure forces $(ab)' = a'b'$. Hence we 
+> have an automorphism (fixing the real field)
+> $$(--)'\colon  A \to  A$$
 > and we can easily enumerate (up to isomorphism) the possibilities 
-> for associative super division algebras over R: 
+> for associative super division algebras over $\mathbb{R}$: 
 >  
-> (1)  A = R.  Here we can adjust e so that either  e2 := <e, e>  is 
-> -1 or 1.  The corresponding super division algebras occur at 1 o'clock 
-> and 7 o'clock on the super Brauer clock. 
+> 1.  $A = \mathbb{R}$.  Here we can adjust $e$ so that either  $e^2 := \langle e, e\rangle$  is 
+>   $-1$ or $1$.  The corresponding super division algebras occur at 1 o'clock 
+>   and 7 o'clock on the super Brauer clock. 
 >  
-> (2)  A = C.  There are two R-automorphisms  C \to C.  In the case 
-> where the automorphism is conjugation, condition (**) for super 
-> associativity gives  <e, e>e = e<e, e>  so that  <e, e>  must be 
-> real.  Again e can be adjusted so that  <e, e> = -1 or 1.  These 
-> possibilities occur at 2 o'clock and 6 o'clock on the super Brauer 
-> clock. 
+> 2.  $A = \mathbb{C}$.  There are two $\mathbb{R}$-automorphisms  $\mathbb{C} \to \mathbb{C}$.  In the case 
+>   where the automorphism is conjugation, condition ($\star\star$) for super 
+>   associativity gives  $\langle e, e\rangle e = e\langle e, e\rangle$ so that $\langle e, e\rangle$ must be 
+>   real.  Again $e$ can be adjusted so that $\langle e, e\rangle$ is $-1$ or $1$.  These 
+>   possibilities occur at 2 o'clock and 6 o'clock on the super Brauer 
+>   clock. 
 >  
-> For the identity automorphism, we can adjust e so that  <e, e>
-> is 1.  This gives the super algebra  C[e] mod e2 --- 1  (where e 
-> commutes with elements in C).  This does not occur on the 
-> super Brauer clock over R.  However, it does generate the super 
-> Brauer group over C (which is of order two). 
+>   For the identity automorphism, we can adjust $e$ so that $\langle e, e\rangle$
+>   is $1$.  This gives the super algebra $\mathbb{C}[e]/(e^2 - 1)$  (where $e$ 
+>   commutes with elements in $\mathbb{C}$).  This does not occur on the 
+>   super Brauer clock over $\mathbb{R}$.  However, it does generate the super 
+>   Brauer group over $\mathbb{C}$ (which is of order two). 
 >  
-> (3)  A = H.  Here R-automorphisms  H \to H  are given by 
-> h |--> xhx-1  for x in H.  In other words 
->  
->                      he = exhx-1
->  
-> whence  ex  commutes with all elements of H (i.e. we can 
-> assume wlog that the automorphism is the identity).  The 
-> properties of the pairing guarantee that  h<e, e> = <e, e>h 
-> for all h in H, so  <e, e>  is real and again we can adjust 
-> e so that  <e, e> = 1 or -1.  These cases occur at 3 o'clock 
-> and 5 o'clock on the super Brauer clock. 
+> 3.  $A = \mathbb{H}$.  Here $\mathbb{R}$-automorphisms  $\mathbb{H}$ \to $\mathbb{H}$  are given by 
+>   $h \mapsto xhx^{-1}$  for $x$ in $\mathbb{H}$.  In other words 
+>   $$he = exhx^{-1}$$
+>   whence $ex$ commutes with all elements of $\mathbb{H}$ (i.e. we can 
+>   assume wlog that the automorphism is the identity).  The 
+>   properties of the pairing guarantee that  $h\langle e, e\rangle  = \langle e, e\rangle h$ 
+>   for all $h$ in $\mathbb{H}$, so $\langle e, e\rangle$ is real and again we can adjust 
+>   $e$ so that $\langle e, e\rangle$ is $1$ or $-1$.  These cases occur at 3 o'clock 
+>   and 5 o'clock on the super Brauer clock. 
 >  
 > This appears to be a complete (even if a bit pedestrian) 
 > analysis. 
