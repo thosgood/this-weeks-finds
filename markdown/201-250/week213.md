@@ -2,10 +2,9 @@
 
 Here's a book I've been reading lately:
 
-1) Kenneth S. Brown, Cohomology of Groups, Graduate Texts in
-Mathematics 182, Springer, 1982.
+1) Kenneth S. Brown, _Cohomology of Groups_, Graduate Texts in Mathematics **182**, Springer, 1982.
 
-I should have read this book a long time ago - but I probably wouldn't
+I should have read this book a long time ago --- but I probably wouldn't
 have enjoyed it as much as I do now. All sorts of things I struggled to
 learn for years are neatly laid out here. Best of all, he comes right
 out and admits from the start that the cohomology of groups is really a
@@ -16,7 +15,7 @@ group and turn it into a space, thus "reducing" group theory to
 topology. In particular, if you have any trick for telling spaces apart,
 like "cohomology theory", you can apply it to groups as well.
 
-Of course topology is *harder* than group theory in many ways - hence my
+Of course topology is *harder* than group theory in many ways --- hence my
 quotes around "reducing". Indeed, algebraic topology was invented as a
 trick for reducing topology to group theory! But, the bridge turns out
 to go both ways, and there's a lot of profitable traffic in both
@@ -51,35 +50,29 @@ You may know Klein for his famous one-sided bottle:
 Or maybe you know that the symmetry group of a rectangle, including
 reflections, is called the "Klein 4-group":
 
-                 1 a b c
-                ---------
-              1| 1 a b c
-              a| a 1 c b
-              b| b c 1 a
-              c| c b a 1
+| $\cdot$ | $1$ | $a$ | $b$ | $c$ |
+| :------ | :-: | :-: | :-: | :-: |
+| $1$ | $1$ | $a$ | $b$ | $c$ |
+| $a$ | $a$ | $1$ | $c$ | $b$ |
+| $b$ | $b$ | $c$ | $1$ | $a$ |
+| $c$ | $c$ | $b$ | $a$ | $1$ |
 
 He is also known for some other groups called "Kleinian groups", which
 act as symmetries of fractal patterns like this:
+$$\href{http://www.josleys.com/showpic.php?file=INDRA065.jpg&title=Indra20}{\includegraphics{../images/INDRA065.jpg}}$$
 
-[](http://www.josleys.com/showpic.php?file=INDRA065.jpg&title=Indra20)
-
-::: {align="CENTER"}
-![](INDRA065.jpg){width="400" height="400"}
-:::
-
-2) Jos Leys, Kleinian Pages, `http://www.josleys.com/creatures42.htm`
+2) Jos Leys, "Kleinian Pages", `http://www.josleys.com/creatures42.htm`
 
 If you like cool pictures, check out this website! I've linked you to
 the page that most closely connects to Kleinian groups, but there are
 lots of other more fanciful pictures. And if you get interested in the
 math lurking behind these fractals, you've *got* to try this book:
 
-3) David Mumford, Caroline Series, and David Wright, Indra's Pearls:
-The Vision of Felix Klein, Cambridge U. Press, Cambridge, 2002.
+3) David Mumford, Caroline Series, and David Wright, _Indra's Pearls: The Vision of Felix Klein_, Cambridge U. Press, Cambridge, 2002.
 
 Mumford is a world-class mathematician, so this book is completely
 different from the superficial descriptions of fractals one often sees
-in math popularizations - but it's still readable, and it's packed
+in math popularizations --- but it's still readable, and it's packed
 with beautiful pictures. You can learn a lot about Kleinian groups from
 this!
 
@@ -88,34 +81,26 @@ which he considered his best work. But, he was also a mathematical
 physicist. Among other things, he wrote a four-volume book on tops with
 one of the fathers of quantum mechanics, Arnold Sommerfeld:
 
-4) Felix Klein and Arnold Sommerfeld, Über die Theorie des Kreisels, 4
-vols, 1897-1910. Reprinted by Johnson, New York, 1965. Also available at
-`http://www.hti.umich.edu/cgi/t/text/text-idx?c=umhistmath;idno=ABV7354.0001.001`
+4) Felix Klein and Arnold Sommerfeld, _Über die Theorie des Kreisels_, 4 vols, 1897--1910. Reprinted by Johnson, New York, 1965. Also available at `http://www.hti.umich.edu/cgi/t/text/text-idx?c=umhistmath;idno=ABV7354.0001.001`
 
 This came after a book he wrote on his own:
 
-5) Felix Klein, The Mathematical Theory of the Top, Scribner's, New
-York, 1887.
+5) Felix Klein, _The Mathematical Theory of the Top_, Scribner's, New York, 1887.
 
 This may seem like a lot of books about a kid's toy! But, tops are
 profoundly related to the rotation group, and the "exactly solvable"
 tops discovered by Euler, Lagrange/Poisson, and Sofia Kowalevskaya are
-solvable because of their symmetries - deeply hidden symmetries, in the
+solvable because of their symmetries --- deeply hidden symmetries, in the
 case of the Kowalevskaya top. So, one can imagine why Klein liked this
 subject.
 
 Klein also wrote a book on the icosahedron and the quintic equation:
 
-6) Felix Klein, Lectures on the Icosahedron and the Solution of
-Equations of the Fifth Degree, 1888. Reprinted by Dover, New York, 2003.
-Also available at
-`http://historical.library.cornell.edu/cgi-bin/cul.math/docviewer?did=03070001&seq=7`
+6) Felix Klein, _Lectures on the Icosahedron and the Solution of Equations of the Fifth Degree_, 1888. Reprinted by Dover, New York, 2003. Also available at `http://historical.library.cornell.edu/cgi-bin/cul.math/docviewer?did=03070001&seq=7`
 
 Galois had already noticed that the number field you get by taking the
 rationals and throwing in the roots of a typical quintic:
-
-    ax5 + bx4 + cx3 + dx2 + ex + f = 0
-
+$$ax^5 + bx^4 + cx^3 + dx^2 + ex + f = 0$$
 has as its symmetry group all the permutations of the 5 roots. Indeed,
 he saw that the "unsolvability" of this group, in a technical sense,
 is what makes it impossible to solve the quintic by radicals. It must
@@ -124,12 +109,9 @@ the group of all *even* permutations of 5 things. But, Klein took this
 much further! Alas, I've never really understood what he did. Perhaps
 if I read these and think hard, I'll understand:
 
-7) Jerry Shurman, Geometry of the Quintic, John Wiley and Sons, New
-York, 1997.
+7) Jerry Shurman, _Geometry of the Quintic_, John Wiley and Sons, New York, 1997.
 
-Peter Doyle and Curt McMullen, Solving the quintic by iteration, Acta
-Math. 163 (1989), 151-180. Available at
-`http://math.dartmouth.edu/~doyle/docs/icos/icos/icos.html`
+    Peter Doyle and Curt McMullen, "Solving the quintic by iteration", _Acta Math._ **163** (1989), 151--180. Available at `http://math.dartmouth.edu/~doyle/docs/icos/icos/icos.html`
 
 Anyway, it should be clear by now that Klein was a lover of symmetry. He
 was also a bit of a visionary, and his obituary by Grace Chisholm Young
@@ -145,11 +127,11 @@ shows that this got him in some trouble:
 > was, "Never be dull".
 
 In a talk he wrote in 1872 when he was made professor at Erlangen
-University - a talk he didn't actually give! - Klein outlined what is
+University --- a talk he didn't actually give! --- Klein outlined what is
 now called his "Erlangen program". The idea here is that different
 kinds of geometry correspond to different symmetry groups. Taken to the
 extreme, this philosophy says that a geometry is just a group! In a
-given geometry, a "figure" of any kind - like a point or line - can be
+given geometry, a "figure" of any kind --- like a point or line --- can be
 detected by the subgroup of symmetries that map that figure to itself.
 So, a figure is just a subgroup!
 
@@ -161,17 +143,17 @@ based on "flag manifolds", which I tried to sketch in
 It's important to realize how similar the Erlangen program is to Galois
 theory. Galois had also used group theory to classify how a little thing
 can sit in a bigger thing, but in situations where the "things" in
-question are commutative algebras - for example, the rational numbers
+question are commutative algebras --- for example, the rational numbers
 with some roots of polynomials thrown in.
 
 Now, commutative algebra is like topology, only backwards. Any space has
 a commutative algebra consisting of functions on it, and if we're very
 clever we can think of any commutative algebra as functions on some
-space - though this was only achieved long after Galois, by Alexander
+space --- though this was only achieved long after Galois, by Alexander
 Grothendieck.
 
 What do I mean by "backwards"? Well, suppose you have a "covering
-space" - a big space sitting over a little one, like a spiral sitting
+space" --- a big space sitting over a little one, like a spiral sitting
 over the circle. In this situation, any function on the little space
 downstairs defines a function on the big one upstairs. So, the algebra
 of functions on the little space sits inside the algebra of functions on
@@ -184,9 +166,9 @@ little one! For more details on this analogy, try
 ["Week 205"](#week205).
 
 I should warn you: the Galois group has a different name when we apply
-it to the classification of covering spaces - we call it the group of
-"deck transformations". The idea is pretty simple. Suppose Y is a
-covering space of X, like this:
+it to the classification of covering spaces --- we call it the group of
+"deck transformations". The idea is pretty simple. Suppose $Y$ is a
+covering space of $X$, like this:
 
                                 ----------------   
                                 ----------------   Y 
@@ -205,9 +187,9 @@ that permutes the different points sitting over each point of X.
 
 The theory of this was worked out by Riemann, Poincare, and others.
 Poincare showed you could use this idea to turn any connected space X
-into a group - its "fundamental group". There are different ways to
+into a group --- its "fundamental group". There are different ways to
 define this, but one is to form the most complicated possible covering
-space of X that's still connected - its "universal cover". Then, take
+space of X that's still connected --- its "universal cover". Then, take
 the group of deck transformations of this! Following Galois'
 philosophy, all the other connected covering spaces of X correspond to
 subgroups of this group.
@@ -220,7 +202,7 @@ space!
 
 More precisely: for any group G, there's a space whose fundamental
 group is G and whose higher homotopy groups vanish. It's sometimes
-called the "Eilenberg - Mac Lane space" and denoted K(G,1), but
+called the "Eilenberg --- Mac Lane space" and denoted K(G,1), but
 sometimes it's called the "classifying space" and denoted BG. It's
 pretty easy to build; I described how back in ["Week 70"](#week70).
 
@@ -360,18 +342,18 @@ Take my favorite example, \mathrm{SL}(2,\mathbb{Z}). This has torsion, so its
 cohomological dimension is infinite and its naive Euler characteristic
 is undefined! Indeed, I wrote a whole issue of This Week's Finds about
 some elements of orders 4 and 6 sitting inside \mathrm{SL}(2,\mathbb{Z}), related to the
-symmetries of square and hexagonal lattices - see
+symmetries of square and hexagonal lattices --- see
 ["Week 125"](#week125).
 
 But, \mathrm{SL}(2,\mathbb{Z}) has a torsion-free subgroup of index 12, namely its
-commutator subgroup - the group you need to quotient by to make \mathrm{SL}(2,\mathbb{Z})
+commutator subgroup --- the group you need to quotient by to make \mathrm{SL}(2,\mathbb{Z})
 be abelian. This subgroup has finite cohomological dimension and its
 Euler characteristic is -1. I'm not sure why this is true, but Brown
 says so! This means the Euler characteristic of \mathrm{SL}(2,\mathbb{Z}) works out to be
 -1/12.
 
 If you've read my stuff about Euler characteristics in
-["Week 147"](#week147), you'll see why this gets me so excited - I
+["Week 147"](#week147), you'll see why this gets me so excited --- I
 can add this stuff to my list of weird ways of calculating the Euler
 characteristic. Plus, it's related to the magical role of the number
 "24" in string theory, and also the Riemann zeta function!
@@ -435,7 +417,7 @@ This only takes us up to 1971. I shudder to think what bizarre results
 along these lines are known by now! Probably they'd seem not bizarre
 but beautiful if I understood this stuff better: I don't really have a
 clue how the Riemann zeta function gets into this game, so everything
-after that seems like black magic to me - bewitching but bewildering.
+after that seems like black magic to me --- bewitching but bewildering.
 
 But, it's clear that the study of groups and symmetry has not lost its
 ability to turn up surprises.
@@ -470,11 +452,11 @@ John McKay proffered an explanation:
 > Best, John
 
 This group of order 168 has made an appearance here before, in
-["Week 194"](#week194): it's \mathrm{PSL}(3,Z/2) - the group of symmetries
+["Week 194"](#week194): it's \mathrm{PSL}(3,Z/2) --- the group of symmetries
 of the projective plane over Z/2, or "Fano plane", whose points can
 also be thought of as imaginary unit octonions. It's also \mathrm{PSL}(2,\mathbb{Z}/7).
 I've long been mystified by its relation to Klein's quartic, mainly
-because I've never spent time trying to understand it! - it's just one
+because I've never spent time trying to understand it! --- it's just one
 of those things that's been gnawing at the edges of my consciousness,
 especially ever since I saw this book come out:
 
@@ -539,7 +521,7 @@ groups" were *also* named after Klein as a joke:
 
 Noam Elkies suggested that the commutator subgroup of \mathrm{SL}(2,\mathbb{Z}) has Euler
 characteristic -1 because it's a a free group on 2 generators, so its
-classifying space is a figure 8, with Euler characteristic 1 - 2 = -1
+classifying space is a figure 8, with Euler characteristic 1 --- 2 = -1
 since it has one vertex and two edges.
 
 This sounds right. In particular, I already mentioned how Brown claims
@@ -568,7 +550,7 @@ In fact, Kevin Buzzard's email was packed with wisdom. He wrote:
 > John Baez wrote:
 >
 >      > But, \mathrm{SL}(2,\mathbb{Z}) has a torsion-free subgroup of index 12, namely its
->      > commutator subgroup - the group you need to quotient by to make \mathrm{SL}(2,\mathbb{Z})
+>      > commutator subgroup --- the group you need to quotient by to make \mathrm{SL}(2,\mathbb{Z})
 >      > be abelian.  This subgroup has finite cohomological dimension and its
 >      > Euler characteristic is -1.  I'm not sure why this is true, but Brown says
 >      > so!  This means the Euler characteristic of \mathrm{SL}(2,\mathbb{Z}) works out to be -1/12.
@@ -698,7 +680,7 @@ In fact, Kevin Buzzard's email was packed with wisdom. He wrote:
 >      > results along these lines are known by now!  Probably they'd seem not
 >      > bizarre but beautiful if I understood this stuff better: I don't really
 >      > have a clue how the Riemann zeta function gets into this game, so
->      > everything after that seems like black magic to me - bewitching but
+>      > everything after that seems like black magic to me --- bewitching but
 >      > bewildering.
 >      
 >
@@ -733,8 +715,8 @@ I replied:
 >
 >       Where does the extra 24 come from?  I don't know, but Stephan Stolz
 >       said it has something to do with the fact that while \mathrm{PSL}(2,\mathbb{Z}) doesn't
->       act freely on the upper half-plane - hence these elliptic curves with
->       extra symmetries - the subgroup "\Gamma(3)" does.  This subgroup consists
+>       act freely on the upper half-plane --- hence these elliptic curves with
+>       extra symmetries --- the subgroup "\Gamma(3)" does.  This subgroup consists
 >       of integer matrices
 >
 >       (a b)
@@ -838,8 +820,8 @@ Kevin replied:
 >
 >       > Where does the extra 24 come from?  I don't know, but Stephan Stolz
 >       > said it has something to do with the fact that while \mathrm{PSL}(2,\mathbb{Z}) doesn't
->       > act freely on the upper half-plane - hence these elliptic curves with
->       > extra symmetries - the subgroup "\Gamma(3)" does.
+>       > act freely on the upper half-plane --- hence these elliptic curves with
+>       > extra symmetries --- the subgroup "\Gamma(3)" does.
 >
 > One can see that any subgroup of \mathrm{SL}(2,\mathbb{Z}) which has finite index and is
 > free, must have index a multiple of 12 (and hence at least 12).
@@ -876,10 +858,12 @@ Kevin replied:
 
 ------------------------------------------------------------------------
 
-*Regarding the fundamental investigations of mathematics, there is no
-final ending ... no first beginning.* - Felix Klein
+> *Regarding the fundamental investigations of mathematics, there is no
+final ending ... no first beginning.*
+> 
+> --- Felix Klein
 
-*In point of fact, it has traditionally been the "continuous" aspect
+> *In point of fact, it has traditionally been the "continuous" aspect
 of things which has been the central focus of Geometry, while those
 properties associated with "discreteness", notably computational and
 combinatorial properties, have been passed over in silence or treated as
@@ -896,4 +880,6 @@ considered to have nothing to do with Geometry. Even in our own time it
 is true that there are lots of algebraists who still haven't understood
 that Galois theory is primarily, in essence, a geometrical vision, which
 was able to renew our understanding of so-called "arithmetical"
-phenomena.* - Alexander Grothendieck
+phenomena.*
+> 
+> --- Alexander Grothendieck
