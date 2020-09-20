@@ -81,7 +81,7 @@ calculus this formula says how to reconstruct any sufficiently nice
 function from its derivatives at zero:
 $$f(x) = f(0) + f'(0) x + f''(0)\frac{x^2}{2!} + \ldots$$
 In $q$-calculus we can write down the *exact* same formula using
-$q$-derivatives and $q$-factorials! The nth $q$-derivative of a function is
+$q$-derivatives and $q$-factorials! The $n$th $q$-derivative of a function is
 defined in the obvious way, by taking the $q$-derivative over and over.
 Let's do this to the function $x^n$. If we take its $q$-derivative *once*
 we get:

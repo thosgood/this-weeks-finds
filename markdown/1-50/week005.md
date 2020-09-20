@@ -164,7 +164,7 @@ The exponential of Planck's constant! When we set $\hbar = 0$ we get $q = 1$,
 and we get back to the "classical case" of plain old-fashioned Lie
 algebras and groups. Every representation of a quantum group gives an
 invariant of links (actually even tangles), and these link invariants
-are functions of $q$. If we take the nth derivative of one of these
+are functions of $q$. If we take the $n$th derivative of one of these
 invariants with respect to $\hbar$ and evaluate it at $\hbar = 0$ we get a
 "Vassiliev invariant of degree $n$" (see ["Week 3"](#week3) for the
 definition). Better than that, when $q$ is a root of unity each quantum

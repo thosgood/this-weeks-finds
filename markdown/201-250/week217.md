@@ -41,7 +41,7 @@ the big conjectures and theorems related to zeta functions.
 Here goes:
 
 **A) The Riemann Hypothesis - the zeros of the Riemann zeta function in
-the critical strip 0 ≤ Re(s) ≤ 1 actually lie on the line Re(s) = 1/2.**
+the critical strip 0 \leqslant  Re(s) \leqslant  1 actually lie on the line Re(s) = 1/2.**
 
 First stated in 1859 by Bernhard Riemann; still open.
 
@@ -554,7 +554,7 @@ He replied:
 > the trivial character χ(n)=1 for all n, and then the p-1 Dirichlet
 > characters of level p, those defined by group homomorphisms
 >
-> χ\colon (Z/pZ)* \to  C*
+> χ\colon (Z/pZ)* \to C*
 >
 > and extended to functions on Z by χ(n)=0 for n a multiple of p. These
 > p functions on Z form a basis of the vector space of periodic
@@ -599,7 +599,7 @@ He replied:
 >      > I get the feeling that nobody knows the answer, except perhaps
 >      > for specific cases like modular forms, where we know they're all
 >      > linear combinations of products of Eisenstein series, so that an
->      > is built out of sequences like σk(n) - sums of kth powers of divisors.
+>      > is built out of sequences like σk(n) - sums of $k$th powers of divisors.
 >
 > But unfortunately this is only true for "level 1" modular forms: you
 > can build all modular forms of level 1 from the Eisenstein series E_4
@@ -658,11 +658,11 @@ He replied:
 > is the square of a rational then K=Q and if not then it's an
 > extension of degree 2, with Galois group S_2 which is abelian.
 >
-> The splitting field of x^n-1, called the nth cyclotomic field, also
+> The splitting field of x^n-1, called the $n$th cyclotomic field, also
 > turns out to have abelian Galois group; if z = exp(2\pi in) then any
-> automorphism of K must send z to another nth root of unity and
-> furthermore the nth root of unity must have "exact order n", i.e.
-> its nth power must be 1 but none of its mth powers can be 1 for 0 < m
+> automorphism of K must send z to another $n$th root of unity and
+> furthermore the $n$th root of unity must have "exact order n", i.e.
+> its $n$th power must be 1 but none of its mth powers can be 1 for 0 < m
 > < n. So z must get sent to z^a^ with 0 < a < n coprime to n. This
 > gives us an injection
 >
@@ -694,7 +694,7 @@ He replied:
 >
 > Gal(K_n/Q) \to C*,
 >
-> with K_n the nth cyclotomic field, so a continuous group homomorphism
+> with K_n the $n$th cyclotomic field, so a continuous group homomorphism
 >
 > Gal(Q^-^/Q) \to C*.
 >
@@ -751,7 +751,7 @@ He replied:
 > elliptic curve should come from a modular form. And it does! On the
 > other hand, if you give me any finite set of primes p, and any
 > integers a~p~ with p running through the set, such that
-> |a~p~|^2≤4p, then I can concoct an elliptic curve with these a~p~,
+> |a~p~|^2\leqslant 4p, then I can concoct an elliptic curve with these a~p~,
 > so at the very least one has to look at infinitely many of the a_n
 > before one can begin to guess whether the a_n come from an
 > automorphic form.

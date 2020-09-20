@@ -358,7 +358,7 @@ Algebras, Enc. of Math. Sci., 73, Algebra VIII, Springer, Berlin 1992.
 If you like category theory you may enjoy this book, because it's all
 about representations of categories, i.e. functors
 
-F\colon  C \to  Vect
+F\colon C \to Vect
 
 where C is a category. It's full of nontrivial theorems about these,
 starting with Gabriel's classification of quivers into those of finite

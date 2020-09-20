@@ -209,24 +209,24 @@ saying a little right now....
 As we've seen, a crucial part of the super-Poincare algebra is the map
 taking a pair of real spinors to a vector. Abstractly we can write this
 as follows:
-$$m\colon  S \times S \to  V.$$
+$$m\colon S \times S \to V.$$
 In certain dimensions we can split the spinor space $S$ into spaces of
 left- and right-handed spinors, say $S_+$ and $S_-$. Then we get a map
-$$m\colon  S_+ \times S_- \to  V.$$
+$$m\colon S_+ \times S_- \to V.$$
 This stuff works both for Minkowski spacetime and for Euclidean space.
 If we do it for Euclidean space, we find a marvelous fact....
 
 In certain special cases --- namely dimensions 1 and 2 --- the dimension of
 $V$ matches the dimension of $S$. This lets us identify $V$ with $S$. Then the
 map
-$$m\colon  S \times S \to V$$
+$$m\colon S \times S \to V$$
 turns out to be *multiplication* for the real and complex numbers,
 respectively.
 
 In other special cases --- namely dimensions 4 and 8 --- the dimension of $V$
 matches the dimension of $S_+$, and also $S_-$. This lets us identify $V$ with
 $S_+$ and $S_-$. Then the map
-$$m\colon  S_+ \times S_- \to  V$$
+$$m\colon S_+ \times S_- \to V$$
 turns out to be *multiplication* for the quaternions and octonions,
 respectively.
 

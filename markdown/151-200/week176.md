@@ -453,7 +453,7 @@ just categories but also $2$-categories. For example, we all know the
 category of groups, where the objects are groups and the morphisms are
 homomorphisms. But there is also a $2$-category lurking around here!
 Between any morphisms
-$$f,f'\colon  G \to  H$$
+$$f,f'\colon G \to H$$
 we can define a $2$-morphism
 $$a\colon f \Rightarrow f'$$
 to be an element of $H$ with the property that

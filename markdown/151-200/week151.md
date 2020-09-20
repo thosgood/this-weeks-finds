@@ -308,7 +308,7 @@ do with this $\mathrm{PU}(H)$ group:
 4) Alan L. Carey, Diarmuid Crowley and Michael K. Murray, "Principal bundles and the Dixmier-Douady class", _Comm. Math. Physics_ **193** (1998) 171--196, preprint available as [`hep-th/9702147`](https://arxiv.org/abs/hep-th/9702147).
 
 Here's how it goes, at least in part. We say a linear operator
-$$A\colon  H \to  H$$
+$$A\colon H \to H$$
 is "Hilbert-Schmidt" if the trace of $AA^*$ is finite. The space of
 Hilbert-Schmidt operators is a Hilbert space in its own right, with this
 inner product:

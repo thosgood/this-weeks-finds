@@ -505,7 +505,7 @@ Yes, we've secretly been studying the Coxeter diagram A_2, whose
                       /     \
                      /       \
 
-Let me just sketch how we can generalize this to A~n-1~. Here the
+Let me just sketch how we can generalize this to A_{n-1}. Here the
 Coxeter group is the group of permutations of n things, which I'll call
 n!.
 

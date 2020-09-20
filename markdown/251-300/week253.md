@@ -779,7 +779,7 @@ it's isotropic! But according to Tony Smith, the complexified version
 In the quote by Wolf, I can only guess that I(M)~x~ is the group of
 isometries of M that fix the point x, while M~x~ is the tangent space of
 M at x. Similarly, I guess that "two point homogeneous" means that for
-any D ≥ 0, the isometry group of M acts transitively on the set of pairs
+any D \geqslant 0, the isometry group of M acts transitively on the set of pairs
 of points in M whose distance from each other is D.
 
 I also thank Tony for correcting some errors involving spinors. There's

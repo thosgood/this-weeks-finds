@@ -302,7 +302,7 @@ I've already hinted that zeta functions are an example of
 Let's think about the zeta function of a set X equipped with a
 one-to-one and onto function
 
-f\colon  X \to  X
+f\colon X \to X
 
 If you're a physicist, you might call this a "discrete dynamical
 system", with f describing one step of "time evolution". If you're a

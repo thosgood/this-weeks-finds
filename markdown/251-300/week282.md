@@ -834,12 +834,12 @@ it: for n = 4 here's a basis:
 
 We're getting 4 choose 2 different operations.
 
-Third, the numbers in the nth row add to n!. That's because the
+Third, the numbers in the $n$th row add to n!. That's because the
 dimension of a filtered vector space equals that of the associated
 graded vector space. So, the total dimension of Poisson_n equals the
 dimension of Assoc_n, which is n factorial.
 
-Fourth, the nth number along the diagonal is (n-1)!. This is the
+Fourth, the $n$th number along the diagonal is (n-1)!. This is the
 dimension of the space of $n$-ary operations that use the bracket the
 maximum number of times: namely, $n-1$ times. For example, when n = 3 this
 is a 2d space with basis
@@ -903,19 +903,19 @@ where Vect is the category of vector spaces. These forgetful functors
 have left adjoints. The first forms the free Lie algebra on a vector
 space V. Let's call this Lie(V):
 
-Lie\colon  Vect \to  LieAlg
+Lie\colon Vect \to LieAlg
 
 The second forms the free associative algebra on a Lie algebra L. This
 is called its "universal enveloping algebra", \mathrm{U}(L):
 
-U\colon  LieAlg \to  AssocAlg
+U\colon LieAlg \to AssocAlg
 
 If we compose these two functors, we get a functor that forms the free
 associative algebra on a vector space V. This is usually called its
 "tensor algebra", but let's write it as Assoc(V), for reasons soon to
 become clear:
 
-Assoc\colon  Vect \to  AssocAlg
+Assoc\colon Vect \to AssocAlg
 
 So, we have an canonical isomorphism
 
@@ -1163,7 +1163,7 @@ mistakes. Allen Knutson adds to my list of questions:
 > Rees and blowup algebras associated to this filtration?
 >
 > (Given a filtration R = R_0 ⊇ R_1 ⊇..., e.g. by powers of I, you
-> can look at the subring of R\[t\] that has t^n R_n in the nth degree
+> can look at the subring of R\[t\] that has t^n R_n in the $n$th degree
 > piece; that's the blowup algebra. If you include t^-n^ R in the
 > negative powers, that's the Rees algebra. If you mod out Rees by (t -
 > c), you get R for any nonzero c, and gr(R) for c=0.)

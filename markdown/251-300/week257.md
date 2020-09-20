@@ -510,7 +510,7 @@ The Catsters, String diagrams, monads and adjunctions,
 
 A very famous monad is the "free abelian group" monad
 
-F\colon  \mathsf{Set} \to  \mathsf{Set}
+F\colon \mathsf{Set} \to \mathsf{Set}
 
 which eats any set X and spits out the free abelian group on X, say
 F(X). A guy in F(X) is just a formal linear combination of guys in X,
@@ -518,7 +518,7 @@ with integer coefficients.
 
 Another famous monad is the "free monoid" monad
 
-G\colon  \mathsf{Set} \to  \mathsf{Set}
+G\colon \mathsf{Set} \to \mathsf{Set}
 
 This eats any set X and spits out the free monoid on X, namely G(X). A
 guy in G(X) is just a formal product of guys in X.
@@ -842,7 +842,7 @@ Also available at
 They show that any commutative $C^*$-algebra A in a Grothendieck topos is
 canonically isomorphic to the $C^*$-algebra of continuous complex
 functions on the compact, completely regular locale that is its maximal
-spectrum (that is, the space of homomorphisms f\colon  A \to  C). Conversely,
+spectrum (that is, the space of homomorphisms f\colon A \to C). Conversely,
 they show any compact completely regular locale X gives a commutative
 $C^*$-algebra consisting of continuous complex functions on X. Even
 better, they explain what all this stuff means.

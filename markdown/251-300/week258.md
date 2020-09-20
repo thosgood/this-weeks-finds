@@ -189,21 +189,21 @@ set of all endomorphisms of this unit object.
 
 Given two such endomorphisms, say
 
-f\colon  I \to  I
+f\colon I \to I
 
 and
 
-g\colon  I \to  I
+g\colon I \to I
 
 we can compose them, getting
 
-f o g\colon  I \to  I
+f o g\colon I \to I
 
 This makes end(I) into a monoid. But we can also tensor f and g, and
 since I \otimes I is isomorphic to I in a specified way, we can write the
 result simply as
 
-f \otimes g\colon  I \to  I
+f \otimes g\colon I \to I
 
 This makes end(I) into a monoid in another, seemingly different way.
 
@@ -226,7 +226,7 @@ Then the Eckmann-Hilton argument goes as follows:
              =         =   g f   =         = 
          g       g 1                 1 f       f
 
-Here 1 means the identity morphism 1\colon  I \to  I. Each step in the argument
+Here 1 means the identity morphism 1\colon I \to I. Each step in the argument
 follows from standard stuff about monoidal categories. In particular, an
 expression like
 
@@ -354,7 +354,7 @@ Now, you might hope that the puffed-up hom gives us a new category where
 the hom-sets are actually cochain complexes. This is morally true, but
 the composition
 
-o\colon  HOM(X,Y) \times HOM(Y,Z) \to  HOM(X,Z)
+o\colon HOM(X,Y) \times HOM(Y,Z) \to HOM(X,Z)
 
 probably isn't associative "on the nose". However, I think it should
 be associative up to homotopy! This homotopy probably won't satisfy the
@@ -387,11 +387,11 @@ that holds "up to coherent homotopy".
 
 Let I be the unit object, as before. In addition to composition:
 
-o\colon  END(I) \times END(I) \to  END(I)
+o\colon END(I) \times END(I) \to END(I)
 
 tensoring should give us another product:
 
-\otimes\colon  END(I) \times END(I) \to  END(I)
+\otimes\colon END(I) \times END(I) \to END(I)
 
 which is also associative up to coherent homotopy. So, END(I) should be
 an A~\infty~-algebra in two ways. But, since composition and tensoring in our

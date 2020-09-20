@@ -620,7 +620,7 @@ bracket \[F,G\] obeying the Leibniz law
 
 and this positivity condition:
 
-\[F,F\] ≥ 0
+\[F,F\] \geqslant 0
 
 The time evolution of any function is given by a generalization of
 Hamilton's equations:
@@ -643,7 +643,7 @@ dH/dt = {H,H} + \[S,H\] = 0
 
 But we also get the second law of thermodynamics:
 
-dS/dt = {H,S} + \[S,S\] ≥ 0
+dS/dt = {H,S} + \[S,S\] \geqslant 0
 
 Entropy always increases!
 
@@ -670,7 +670,7 @@ This satisfies
 
 and
 
-\[F,F\] ≥ 0
+\[F,F\] \geqslant 0
 
 Don't be fooled: this stuff is not rocket science. In particular, the
 inequality above has a simple meaning: when we move in the direction of

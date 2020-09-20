@@ -574,7 +574,7 @@ Dolan and Trimble consider the set of elements of any object in
 CCC\[x\], where an "element" is a morphism from the terminal object,
 e.g.
 
-f\colon  1 \to  x x^x\ x^x^x^^^ x^x\ x^x^x^^^
+f\colon 1 \to x x^x\ x^x^x^^^ x^x\ x^x^x^^^
 
 And, they show these elements are in 1-1 correspondence with
 second-player winning strategies for the holodeck version of the game
@@ -582,12 +582,12 @@ whose tree is constructed as above.
 
 If we pick any set X, the universal property of CCC\[x\] gives a functor
 
-F\colon  CCC\[x\] \to  \mathsf{Set}
+F\colon CCC\[x\] \to \mathsf{Set}
 
 This maps elements of any object in CCC\[x\] to elements of the
 corresponding object in \mathsf{Set}:
 
-F(f)\colon  1 \to  X X^X\ X^X^X^^^ X^X\ X^X^X^^^
+F(f)\colon 1 \to X X^X\ X^X^X^^^ X^X\ X^X^X^^^
 
 So, the element f gives a systematic way of picking elements of any set
 built from any arbitrary set X using finite products and exponentials.
@@ -595,11 +595,11 @@ built from any arbitrary set X using finite products and exponentials.
 By the way, in a cartesian closed category, there's a 1-1
 correspondence between morphisms
 
-f\colon  B \to  A
+f\colon B \to A
 
 and elements
 
-f\colon  1 \to  A^B^
+f\colon 1 \to A^B^
 
 So, one can use games to describe *all* the objects and morphisms in the
 free cartesian closed category on one object! One can also describe
@@ -879,7 +879,7 @@ category theory mailing list:
 >       (*) Whenever first player plays an occurrence of X, the second player
 >           must play an occurrence of X.
 >
->     [Try it\colon  see how X \to  Y \to X has just one winning strategy.] Although the
+>     [Try it\colon see how X \to Y \to X has just one winning strategy.] Although the
 >     LICS'97 paper cited above appears to be the first place the Copycat
 >     Condition appears in print, I like to think it was already understood at
 >     the time by people working in the area.  Technically speaking, winning

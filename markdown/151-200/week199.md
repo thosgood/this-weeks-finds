@@ -126,7 +126,7 @@ Even better, the kernel of a homomorphism from $A$ to a *field* is a
 product of two elements of $A$ lies in the ideal, at least one of them
 must be in the ideal. Conversely, given a prime ideal in $A$, there's
 always a field $k$ and a homomorphism
-$$x\colon  A \to  k$$
+$$x\colon A \to k$$
 whose kernel is that prime ideal. So, it's reasonable to define the
 spectrum of $A$, $\operatorname{Spec}(A)$, to be the set of all prime ideals in $A$.
 

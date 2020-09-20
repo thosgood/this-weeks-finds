@@ -390,8 +390,8 @@ when the numbers get bigger!
 
 For example, when we do the translation
 
-    222+1 + 21       \to    ωωω+1 + ω1
-    333+1 + 1 + 1    \to    ωωω+1 + 1 + 1
+    222+1 + 21       \to   ωωω+1 + ω1
+    333+1 + 1 + 1    \to   ωωω+1 + 1 + 1
 
 we see the ordinal got smaller even though the number got bigger. Since
 ε_0 is well-ordered, the ordinals must bottom out at zero after a
@@ -1219,7 +1219,7 @@ Kevin writes:
      Kevin
 
 So, in simple terms, the 4th Goodstein sequence starts out by shooting
-up faster and faster, reaching almost n^2 by the nth term, where
+up faster and faster, reaching almost n^2 by the $n$th term, where
 
 n = 24 · 2^24^ = 402653184.
 
@@ -1245,7 +1245,7 @@ Right before that, it spends a quarter of its life remaining constant.
 Right before that, it spends an eighth of its life growing by one each
 time. Right before that it, it spends a sixteenth of its life growning
 by two each time. And so on, but not indefinitely: this description
-covers the phase after the nth term.
+covers the phase after the $n$th term.
 
 In particular, it reaches its maximum and then levels off after about
 quarter of its life is done. It spends about the next quarter of its

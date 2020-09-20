@@ -89,7 +89,7 @@ numbers, we can solve more problems, because we obtain invariants not
 only of spaces, but also of maps.
 
 In modern lingo, the $n$th rational homology is a *functor* defined on the
-*category* of topological spaces, while the nth Betti number is a mere
+*category* of topological spaces, while the $n$th Betti number is a mere
 *function*, defined on the *set* of isomorphism classes of topological
 spaces. Of course, this way of stating Noether's insight is
 anachronistic, since it came before category theory. Indeed, it was in

@@ -583,13 +583,13 @@ This give us a chain complex
     C0 <-------- C1 <-------- C2
 
 Remember, a "chain complex" is just a bunch of vector spaces C_i and
-linear maps δ\colon  C_i \to  C~i-1~, obeying the equation δ^2 = 0. We also get
+linear maps δ\colon C_i \to C~i-1~, obeying the equation δ^2 = 0. We also get
 a cochain complex:
 
            d           d
     C0 --------> C1 ---------> C2
 
-meaning a bunch of vector spaces C_i and linear maps d\colon  C_i \to  C~i+1~,
+meaning a bunch of vector spaces C_i and linear maps d\colon C_i \to C~i+1~,
 obeying the equation d^2 = 0.
 
 As I've already said, it's good to think of the current I as a
@@ -643,7 +643,7 @@ current through that times the resistance of that edge. But this
 remember: current is a 1-chain while voltage is a 1-cochain. So
 "resistance" can be thought of as a map from 1-chains to 1-cochains:
 
-R\colon  C_1 \to  C^1
+R\colon C_1 \to C^1
 
 This lets us write Ohm's law like this:
 
@@ -669,7 +669,7 @@ on 1-chains with
 
 In this situation
 
-R\colon  C_1 \to  C^1
+R\colon C_1 \to C^1
 
 is the usual isomorphism that we get between a finite-dimensional inner
 product space and its dual. (For this statement to be true, we'd better

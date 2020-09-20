@@ -708,7 +708,7 @@ bit, for cosmetic reasons.
 > group on 3 generators, F_3. I believe the "specially nice"
 > homomorphism
 >
-> f\colon  F_3 \to  Z/2
+> f\colon F_3 \to Z/2
 >
 > is the one that sends each generator to -1, where I'm thinking
 > multiplicatively:
@@ -733,7 +733,7 @@ bit, for cosmetic reasons.
 > The inclusion of the 4-punctured sphere in B^3 - C gives a
 > homomorphism
 >
-> g\colon  F_3 \to  F_2
+> g\colon F_3 \to F_2
 >
 > as follows:
 >
@@ -744,7 +744,7 @@ bit, for cosmetic reasons.
 >
 > So, to extend our branched cover, we need to write our homomorphism
 >
-> f\colon  F_3 \to  Z/2
+> f\colon F_3 \to Z/2
 >
 > as
 >
@@ -752,7 +752,7 @@ bit, for cosmetic reasons.
 >
 > for some homomorphism
 >
-> h\colon  F_2 \to  Z/2
+> h\colon F_2 \to Z/2
 >
 > The obvious nice thing to try for h is
 >
@@ -791,7 +791,7 @@ Lee Rudolph adds:
 > interiors of its *two* preimage B^2s from the upstairs S^2; you see
 > that the double cover of B^2 branched over X is an annulus. (Once you
 > know that, you can see it directly: take an annulus embedded in R^3
-> as the cylinder where x^2+y^2=1 and -1 ≤ z ≤ 1; rotate it by 180
+> as the cylinder where x^2+y^2=1 and -1 \leqslant  z \leqslant  1; rotate it by 180
 > degrees around the x-axis, and convince yourself that the quotient
 > space is a 2-disk by considering the fundamental domain consisting of
 > those points of the annulus with non-negative y-coordinate.) Then the

@@ -424,7 +424,7 @@ less and less foolish dodecahedra whose faces have normal vectors
        (A,0,B)   (-A,0,B)   (A,0,-B)   (-A,0,-B)
        (0,B,A)   (0,B,-A)   (0,-B,A)   (0,-B,-A)
 
-where A and B are the nth and (n+1)st Fibonacci numbers, respectively.
+where A and B are the $n$th and (n+1)st Fibonacci numbers, respectively.
 As n \to \infty, these dodecahedra approach a regular dodecahedron in shape,
 because the ratio of successive Fibonacci numbers approaches the golden
 ratio.
@@ -506,7 +506,7 @@ not smooth: it has an isolated singular coming from the origin in C^2.
 But as I mentioned in ["Week 230"](#week230), we can form a
 "minimal resolution" of this singularity. This gives a holomorphic map
 
-p\colon  M \to  C^2/G
+p\colon M \to C^2/G
 
 where M is a complex manifold. If we look at the points in M that map to
 the origin in C^2/G, we get a union of 8 Riemann spheres, which
@@ -545,7 +545,7 @@ it fits better into a big framework. First, we see that if we take the
 unit ball in C^2, and see what points it gives in C^2/G, and then take
 the inverse image of these under
 
-p\colon  M \to  C^2/G,
+p\colon M \to C^2/G,
 
 we get a 4-manifold whose boundary is the Poincare homology 3-sphere.
 So, we have a cobordism from the empty set to the Poincare homology
@@ -574,7 +574,7 @@ If G is the "binary octahedral group" - the double cover of the
 rotational symmetry group of the octahedron - then we get a minimal
 resolution
 
-p\colon  M \to  C^2/G
+p\colon M \to C^2/G
 
 which yields, by the same procedure as above, a cobordism from the empty
 set to the 3-manifold \mathrm{SU}(2)/G.
@@ -605,7 +605,7 @@ which encodes the Dynkin diagram of \mathrm{E}_7:
 And, if G is the "binary tetrahedral group" - the double cover of the
 rotational symmetry group of the tetrahedron - then a minimal resolution
 
-p\colon  M \to  C^2/G
+p\colon M \to C^2/G
 
 yields, by the same procedure as above, a cobordism from the empty set
 to the 3-manifold \mathrm{SU}(2)/G. This cobordism can be described using surgery

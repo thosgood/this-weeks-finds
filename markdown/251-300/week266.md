@@ -473,7 +473,7 @@ avilable as
 As the last paper explains, we can also think of this TQFT as a field
 theory where the "field" on a spacetime X is a map
 
-f\colon  X \to  BG
+f\colon X \to BG
 
 where BG is the classifying space of the 2-group G.
 
@@ -545,7 +545,7 @@ to understand the big picture of mathematics.
 Now, an $n$-category with everything invertible is called an
 "n-groupoid". Such a thing is believed to be essentially the same as a
 "homotopy $n$-type", meaning a nice space, like a CW complex, with
-vanishing homotopy groups above the nth - where we count homotopy
+vanishing homotopy groups above the $n$th - where we count homotopy
 equivalent spaces as the same. If we accept this, the $n$-groupoid version
 of the Periodic Table can be understood using homotopy theory. It looks
 like this:
@@ -649,14 +649,14 @@ F \to E \to B
 
 we get a long exact sequence of homotopy groups
 
-... \to \pi_n(F) \to \pi_n(E) \to \pi_n(B) \to \pi ~n-1~(F) \to ...
+... \to \pi_n(F) \to \pi_n(E) \to \pi_n(B) \to \pi _{n-1}(F) \to ...
 
 This is a standard tool in algebraic topology; I sketched how it works
 in ["Week 151"](#week151).
 
-Now, the nth homotopy group of a space X, written \pi_n(X), is just the
+Now, the $n$th homotopy group of a space X, written \pi_n(X), is just the
 fundamental group of the $(n-1)$-fold loop space of X. So, the Spanish
-categorical group experts define the nth "homotopy 2-group" of a space
+categorical group experts define the $n$th "homotopy 2-group" of a space
 X to be the fundamental 2-group of an iterated loop space of X. And, it
 turns out that any fibration of spaces gives a long exact sequence of
 homotopy 2-groups!

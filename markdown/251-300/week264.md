@@ -116,7 +116,7 @@ paper that describes all the homotopy groups of the 2-sphere, and I want
 to summarize the main result.
 
 I explained the idea of homotopy groups back in
-["Week 102"](#week102). Very roughly, the nth homotopy group of a
+["Week 102"](#week102). Very roughly, the $n$th homotopy group of a
 space X, usually denoted \pi_n(X), is the set of ways you can map an
 n-sphere into that space, where we count two ways as the same if you can
 continuously deform one to the other. If a space has holes, homotopy
@@ -154,10 +154,10 @@ mathematics until we use some tricks to "water down" or simplify the
 homotopy groups.
 
 So, what people often do first is take the limit of \pi ~n+k~(S^n) as n \to
-\infty, getting what's called the kth "stable" homotopy group of spheres.
+\infty, getting what's called the $k$th "stable" homotopy group of spheres.
 It's a wonderful but well-understood fact that these limits really
 exist. But so far, even these are too complicated to understand until we
-work "at a prime p". This means that we take the kth stable homotopy
+work "at a prime p". This means that we take the $k$th stable homotopy
 group of spheres and see which groups of the form Z/p^n show up in it.
 For example,
 
@@ -297,7 +297,7 @@ ordinary braid gives a spherical braid.
 This map clearly sends Brunnian braids to spherical Brunnian braids, so
 we get a map
 
-f\colon  BB_n \to  BB_n(S^2)
+f\colon BB_n \to BB_n(S^2)
 
 And now we're ready for the shocking theorem of Berrick, Cohen, Wong
 and Wu:
@@ -313,7 +313,7 @@ Zounds! What do the homotopy groups of S^2 have to do with braids?
 It's not supposed to be obvious! The proof of this result is long and
 deep, making use of flows on metric spaces, and also the fact that all
 the Brunnian braid groups BB_n fit together into a "simplicial group"
-whose nth homology is the nth homotopy group of S^2. I'd love to
+whose $n$th homology is the $n$th homotopy group of S^2. I'd love to
 understand all this stuff, but I don't yet.
 
 This result doesn't instantly help us "compute" the homotopy groups
@@ -326,8 +326,8 @@ to tell you about some amazing descriptions of the homotopy groups of
 the *3-sphere*, due to Wu.
 
 However, I later realized - first to my shock, and then my embarrassment
-for not having known it already - that the nth homotopy group of S^3 is
-*the same* as the nth homotopy group of S^2, at least for n > 2. Do
+for not having known it already - that the $n$th homotopy group of S^3 is
+*the same* as the $n$th homotopy group of S^2, at least for n > 2. Do
 you see why?
 
 Given this, it turns out that Wu's results are predecessors of the
@@ -364,7 +364,7 @@ S^1 \to S^3 \to S^2
 Like any fiber bundle, it gives a long exact sequence of homotopy groups
 as explained in ["Week 151"](#week151):
 
-... \to \pi_n(S^1) \to \pi_n(S^3) \to \pi_n(S^2) \to \pi ~n-1~(S^1) \to ...
+... \to \pi_n(S^1) \to \pi_n(S^3) \to \pi_n(S^2) \to \pi _{n-1}(S^1) \to ...
 
 but the homotopy groups of S^1 vanishes after the first, so we get
 
@@ -477,7 +477,7 @@ which we can rewrite as a rational function:
 
 Now, the reason for doing this is that we can pick a line bundle of
 first Chern number 1, say L, and get a line bundle of any Chern number n
-by taking the nth tensor power of L - let's call that L^\otimesn^. We can
+by taking the $n$th tensor power of L - let's call that L^\otimesn^. We can
 multiply a section of L^\otimesn^ and a section of L^\otimesm^ to get a section of
 L^\otimes(n+m)^. So, all these spaces of sections we're studying fit together
 to form a commutative graded ring! And, whenever you have a graded ring,

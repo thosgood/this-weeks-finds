@@ -411,7 +411,7 @@ everywhere, also has a check digit. So do credit cards.
 
 > Usually people describe the scheme in a different way, which is
 > actually equivalent to what you said. Denote the 10 digit ISBN number
-> as N_i, for 1≤i≤10. Compute
+> as N_i, for 1\leqslant i\leqslant 10. Compute
 >
 >            10
 >      Mod(  \sum  (11-i)Ni , 11)              (*)

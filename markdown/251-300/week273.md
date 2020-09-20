@@ -474,11 +474,11 @@ f(x) = \sum_k g_k exp(ikx)
 Here n ranges over all integers, so what you're really doing here is
 taking a function on the circle:
 
-f\colon  S^1 \to  C
+f\colon S^1 \to C
 
 and expressing it in terms of a function on the integers:
 
-g\colon  Z \to  C
+g\colon Z \to C
 
 More precisely, any L^2 function on the circle can be expressed this
 way for some L^2 function on the integers - and conversely. In fact, if
@@ -494,14 +494,14 @@ f(x) = \int g(k) exp(ikx) dk
 Here k also ranges over the real line, so what you're really doing is
 taking a function on the line:
 
-f\colon  R \to  C
+f\colon R \to C
 
 and expressing it in terms of another function on the line:
 
-g\colon  R \to  C
+g\colon R \to C
 
-In fact, any L^2 function f\colon  R \to  C can be expressed this way for some
-L^2 function g\colon  R \to  C. And if we normalize things right, the Fourier
+In fact, any L^2 function f\colon R \to C can be expressed this way for some
+L^2 function g\colon R \to C. And if we normalize things right, the Fourier
 transform is a unitary isomorphism from L^2(R) to itself.
 
 Pontryagin duality is the grand generalization of these two examples!

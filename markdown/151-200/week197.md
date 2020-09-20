@@ -402,7 +402,7 @@ To see this, we'd just need to show four amazing things:
 - The partition function doesn't change as we trace out a continuous
     path in the space of conformal field theories of central charge $-n$.
     Thus, the partition function defines a map
-    $$Z\colon  [point,\mathrm{tmf}(n)] \to \{\mbox{modular forms of weight $n$}\}$$
+    $$Z\colon [point,\mathrm{tmf}(n)] \to \{\mbox{modular forms of weight $n$}\}$$
 
 - The set of connected components of the space of conformal field
     theories of central charge $-n$ forms an abelian group, and the above
@@ -410,12 +410,12 @@ To see this, we'd just need to show four amazing things:
 
 - The kernel of the above homomorphism consists precisely of the
     torsion elements, so we get a 1-1 homomorphism
-    $$Z\colon  [point,\mathrm{tmf}(n)] \otimes \mathbb{C} \to \{\mbox{modular forms of weight $n$}\}$$
+    $$Z\colon [point,\mathrm{tmf}(n)] \otimes \mathbb{C} \to \{\mbox{modular forms of weight $n$}\}$$
 
 - Any modular form of weight $n$ is a linear combination of partition
     functions of conformal field theories of central charge $-n$, so the
     homomorphism
-    $$Z\colon  [point,\mathrm{tmf}(n)] \otimes \mathbb{C} \to \{\mbox{modular forms of weight $n$}\}$$
+    $$Z\colon [point,\mathrm{tmf}(n)] \otimes \mathbb{C} \to \{\mbox{modular forms of weight $n$}\}$$
     is also onto.
 
 Sorry, I'm getting a little carried away... it's not good to put in

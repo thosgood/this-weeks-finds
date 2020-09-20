@@ -117,7 +117,7 @@ The idea comes from this paper:
 of the plane, I, II, Nederl. Akad. Wetensch. Indag. Math. 43 (1981),
 39-52, 53-66.
 
-When n is odd, we can also get deBruijn's tiling by slicing the A~n-1~
+When n is odd, we can also get deBruijn's tiling by slicing the A_{n-1}
 lattice in $(n-1)$-dimensional space. You're probably most familiar with
 the A_3 lattice, which shows up when you stack oranges:
 
@@ -169,7 +169,7 @@ sit inside the A_5 Coxeter group:
      o---o---o---o---o
 
 and so on: the noncrystallographic Coxeter groups I_2(n) sit nicely
-inside the Coxeter groups A~n+1~. But the really cool part is how
+inside the Coxeter groups A_{n+1}. But the really cool part is how
 deBruijn uses these to get quasiperiodic tilings of the plane!
 
 You can see details on Greg Egan's page above. Here's a piece of the
@@ -267,12 +267,12 @@ Vect^n for some n, where Vect is the category of finite-dimensional
 vector spaces. A "linear functor" is one that's linear on each
 homset. More concretely, we can describe a linear functor
 
-F\colon  Vect^n \to  Vect^m^
+F\colon Vect^n \to Vect^m^
 
 as an m \times n matrix of finite-dimensional vector spaces, just as we can
 describe a linear operator
 
-F\colon  C^n \to  C^m^
+F\colon C^n \to C^m^
 
 as a m \times n matrix of complex numbers.
 

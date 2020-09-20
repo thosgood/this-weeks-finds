@@ -745,17 +745,17 @@ Now, how do we get a linear operator in this situation?
 
 Easy! We start with a real-valued function on our space X:
 
-f\colon  X \to  R
+f\colon X \to R
 
 Then we take f and "pull it back along P" to get a function on S.
 "Pulling back along P" is just impressive jargon for composing with P:
 
-f o P\colon  S \to  R
+f o P\colon S \to R
 
 Next, we take f o P and "push it forwards along Q" to get a function
 on Y. The result is our final answer, some function
 
-Tf\colon  Y \to  R
+Tf\colon Y \to R
 
 "Pushing forwards along Q" is just impressive jargon for integrating:
 Tf(y) is the integral over all s in S with Q(s) = y. For this we need a
@@ -800,7 +800,7 @@ operator constructed this way a "Hecke operator".
 If you're a nitpicky person, e.g. a mathematician, you may wonder what
 I mean by "a suitable sense". Well, each "fiber" Q^-1^(y) of the map
 
-Q\colon  S \to  Y
+Q\colon S \to Y
 
 needs a measure on it, so we can take a function on S and integrate it
 over these fibers to get a function on Y. We need this family of

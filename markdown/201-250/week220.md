@@ -515,7 +515,7 @@ stands by, plus moving a around c while b stands by".
 
 I guess this result can be found here:
 
-9) Frederick Cohen, Homology of Ω^n+1^Σ^n+1^X and C~n+1~X, n > 0,
+9) Frederick Cohen, Homology of Ω^n+1^Σ^n+1^X and C_{n+1}X, n > 0,
 Bull. Amer. Math. Soc. 79 (1973), 1236-1241.
 
 10) Frederick Cohen, Tom Lada and J. Peter May, The homology of
@@ -561,7 +561,7 @@ knots.
 What's a thickened long knot? In k dimensions, it's an embedding of a
 little k-cube in a big one:
 
-f\colon  \[0,1\]^k^ \to  \[0,1\]^k^
+f\colon \[0,1\]^k^ \to \[0,1\]^k^
 
 subject to the condition that the top and bottom of the little cube get
 mapped to the top and bottom of the big one via the identity map. So,

@@ -138,7 +138,7 @@ here should be related to the fact that
 
 \pi ~k+3~(S^k^) = Z/24
 
-for k ≥ 5. After all, stable homotopy groups of spheres are related to
+for k \geqslant 5. After all, stable homotopy groups of spheres are related to
 the cohomology of symmetric groups, since the group completion of the
 classifying space of the groupoid of finite sets is Ω^\inftyS^\infty - see
 ["Week 199"](#week199) if you don't know what I'm talking about
@@ -161,7 +161,7 @@ all "terminals".
 
 We saw last time that our circuit gives a function
 
-Q\colon  R^n \to  R
+Q\colon R^n \to R
 
 This tells you how much power the circuit uses as a function of the
 electrostatic potential at each terminal.
@@ -173,7 +173,7 @@ Q(\varphi) = \sum~i,j~ Q~ij~ \varphi_i \varphi_j
 for some matrix Q~ij~, which we can assume is symmetric. And it's easy
 to see that Q is "nonnegative", meaning
 
-Q(\varphi) ≥ 0
+Q(\varphi) \geqslant 0
 
 I wildly guessed that every nonnegative quadratic form comes from a
 circuit made of resistors and grounds. Since then I've learned a few
@@ -209,7 +209,7 @@ when \varphi is constant:
 
 and also satisfy the "Markov property":
 
-Q(\varphi) ≥ Q(\psi)
+Q(\varphi) \geqslant Q(\psi)
 
 when \psi_i is the minimum of \varphi_i and 1. This characterization is
 Proposition 1.7 here:
@@ -269,15 +269,15 @@ Also available at
 Among other things, he mentions a simpler characterization of Dirichlet
 forms. We're only considering quadratic forms
 
-Q\colon  R^n \to  R
+Q\colon R^n \to R
 
 and it turns out such a form is Dirichlet iff
 
-Q(\varphi) ≥ Q(\psi)
+Q(\varphi) \geqslant Q(\psi)
 
 whenever
 
-|\varphi_i - \varphi_j| ≥ |\psi_i - \psi_j|
+|\varphi_i - \varphi_j| \geqslant |\psi_i - \psi_j|
 
 for all i,j. It's a fun exercise to see that this is equivalent to our
 previous characterization. And there's a simple physical idea behind
@@ -324,7 +324,7 @@ This follows from Sabot's Proposition 1.8. Let me explain the idea.
 Suppose, for example, that we have a nonnegative quadratic form in 3
 variables
 
-Q\colon  R^3 \to  R
+Q\colon R^3 \to R
 
 Then we can get a quadratic form in 2 variables by taking the minimum of
 Q as the third variable ranges freely:
@@ -410,7 +410,7 @@ where c~ij~ and c_i are nonnegative numbers.
 Let's call these "generalized Dirichlet forms". I believe these
 generalized Dirichlet forms are characterized by the Markov property:
 
-Q(\varphi) ≥ Q(\psi)
+Q(\varphi) \geqslant Q(\psi)
 
 when \psi_i is the minimum of \varphi_i and 1.
 
@@ -464,7 +464,7 @@ said:
 > **Claim:** there is a dagger-compact category where:
 >
 > -   An object is a finite-dimensional real vector space.
-> -   A morphism S\colon  V \to  W is a Lagrangian subspace of T*V \times T*W.
+> -   A morphism S\colon V \to W is a Lagrangian subspace of T*V \times T*W.
 > -   We compose morphisms using composition of relations.
 > -   The tensor product is given by direct sum.
 > -   The symmetry is the obvious thing.
@@ -480,7 +480,7 @@ subset C(R^m^ \times R^n). So, let's try:
 > **Claim:** there is a dagger-compact category where:
 >
 > -   An object is a natural number.
-> -   A morphism S\colon  m \to  n is a point in C(R^m^ \times R^n).
+> -   A morphism S\colon m \to n is a point in C(R^m^ \times R^n).
 > -   We compose morphisms using composition of relations.
 > -   The tensor product is given by direct sum.
 > -   The symmetry is the obvious thing.
@@ -511,7 +511,7 @@ when \varphi is constant:
 
 and satisfies
 
-Q(\varphi) ≥ Q(\psi)
+Q(\varphi) \geqslant Q(\psi)
 
 whenever
 

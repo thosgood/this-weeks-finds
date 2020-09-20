@@ -123,7 +123,7 @@ collide and fuse into one. Here's what it looks like for n = 2:
 
 This gives the vector space A a multiplication:
 
-    m\colon  A \otimes A  \to  A
+    m\colon A \otimes A  \to A
        a \otimes b \mapsto ab
 
 Next there's the spacetime where a spherical universe appears from
@@ -135,7 +135,7 @@ nothing - a "big bang":
 
 This gives A an identity element, which we call 1:
 
-    i\colon  C  \to  A
+    i\colon C  \to A
        1 \mapsto 1
 
 Here C stands for the complex numbers, but mathematicians could use any
@@ -158,7 +158,7 @@ But why is it a Frobenius algebra? To see this, let's switch the future
 and past in our previous argument! The spacetime where a spherical
 universe splits in two gives A a "comultiplication":
 
-\Delta\colon  A \to  A \otimes A
+\Delta\colon A \to A \otimes A
 
 ::: {align="center"}
 ![](comultiplication.jpg)
@@ -167,7 +167,7 @@ universe splits in two gives A a "comultiplication":
 The spacetime where a spherical universe disappears into nothing - a
 "big crunch" - gives A a trace, or more precisely a "counit":
 
-e\colon  A \to  C
+e\colon A \to C
 
 ::: {align="center"}
 ![](counit.jpg)
@@ -204,7 +204,7 @@ multiple of the trace.
 
 We can also think of g as a linear operator
 
-g\colon  A \otimes A \to  C
+g\colon A \otimes A \to C
 
 But now we see this operator comes from a spacetime where two universes
 collide and then disappear into nothing:
@@ -232,7 +232,7 @@ this map, which physicists would call "raising indices". This should
 be a map going back from A* to A. To build a map going back like this,
 it's enough to get a map
 
-h\colon  C \to  A \otimes A
+h\colon C \to A \otimes A
 
 and for this we use the linear operator coming from this spacetime:
 
@@ -364,7 +364,7 @@ So, to define a 2d TQFT, we just need to pick a commutative Frobenius
 algebra in Vect (the category of vector spaces). By "freeness", this
 determines a symmetric monoidal functor
 
-Z\colon  2Cob \to  Vect
+Z\colon 2Cob \to Vect
 
 and that's precisely what a 2d TQFT is!
 
@@ -554,7 +554,7 @@ First, take the exterior algebra ΛV over an $n$-dimensional vector space
 V, and pick any nonzero element of degree n - what geometers would call
 a "volume form". There's a unique linear map
 
-e\colon  ΛV \to  C
+e\colon ΛV \to C
 
 which sends the volume form to 1 and kills all elements of degree < n.
 This is a lot like "integration" - and so is taking a trace. So, you
@@ -785,24 +785,24 @@ and that they're categorified Frobenius algebras!
 Suppose A is any category. We'll call its objects "propositions" and
 its morphisms "proofs". So, a morphism
 
-f\colon  a \to  b
+f\colon a \to b
 
 is a proof that a implies b.
 
 Next, suppose A is a symmetric monoidal category and call the tensor
 product "or". So, for example, given proofs
 
-f: a \to b, f'\colon  a' \to  b'
+f: a \to b, f'\colon a' \to b'
 
 we get a proof
 
-f or f'\colon  a or a' \to  b or b'
+f or f'\colon a or a' \to b or b'
 
 Next, suppose we make the opposite category A^op^ into a symmetric
 monoidal category, but with a completely different tensor product, that
 we'll call "and". And suppose we have a monoidal functor:
 
-not\colon  A \to  A^op^
+not\colon A \to A^op^
 
 So, for example, we have
 
@@ -812,7 +812,7 @@ or at least they're isomorphic, so there are proofs going both ways.
 
 Now we can apply "op" and get another functor I'll also call "not":
 
-not\colon  A^op^ \to  A
+not\colon A^op^ \to A
 
 Using the same name for this new functor could be confusing, but it
 shouldn't be. It does the same thing to objects and morphisms; we're
@@ -844,7 +844,7 @@ not(b) \to a
 
 Now for the really fun part. Let's define a kind of "bilinear form":
 
-g\colon  A \times A \to  \mathsf{Set}
+g\colon A \times A \to \mathsf{Set}
 
 where g(a,b) is the set of proofs
 
@@ -874,7 +874,7 @@ A with a monoidal adjoint equivalence called "not" from A (with one
 tensor product, called "or") to A^op^ (with another, called "and"),
 such that the functor
 
-    g\colon  A \times A  \to  \mathsf{Set}
+    g\colon A \times A  \to \mathsf{Set}
        (a,b) \mapsto \operatorname{Hom}(not(a),b)
 
 is equipped with a natural isomorphism
@@ -897,7 +897,7 @@ Peirce's System Alpha, Jour. Pure Appl. Alg. 149 (2000), 213-239.
 Namely, they show a *-autonomous category is the same as a symmetric
 monoidal category A equipped with a *contravariant* adjoint equivalence
 
-not\colon  A \to  A
+not\colon A \to A
 
 which is equipped with a "strength", and where the unit and counit of
 the adjunction respect this strength.
@@ -916,7 +916,7 @@ categorified version of Vect, with the category of finite sets replacing
 the complex numbers. That's why in logic, the "nondegenerate bilinear
 form" looks like
 
-g\colon  A \times A \to  \mathsf{Set}
+g\colon A \times A \to \mathsf{Set}
 
 So: Frobenius algebras are lurking all over in physics, logic and
 quantum logic, in many tightly interconnected ways. There should be some

@@ -39,7 +39,7 @@ People should study this sort of thing! Let's define the set C(d,n) to
 be the set of all roots of all polynomials of degree d with integer
 coefficients ranging from -n to n. Clearly C(d,n) gets bigger as we make
 either d or n bigger. It becomes dense in the complex plane as n \to \infty, as
-long as d ≥ 1. We get all the rational complex numbers if we fix d ≥ 1
+long as d \geqslant 1. We get all the rational complex numbers if we fix d \geqslant 1
 and let n \to \infty, and all the algebraic complex numbers if let both d,n \to
 \infty.
 
@@ -249,11 +249,11 @@ A_i = H~i+d~(LM)
 
 are equipped with a graded-commutative product:
 
-o\colon  A_i \otimes A_j \to  A~i+j~
+o\colon A_i \otimes A_j \to A~i+j~
 
 together with an operator
 
-D\colon  A_i \to  A~i+1~
+D\colon A_i \to A~i+1~
 
 with D^2 = 0. These satisfy a bunch of equations, which makes the
 degree-shifted homology of LM into a gadget called a "Gerstenhaber
@@ -265,7 +265,7 @@ But the homology of the loop space has even more structure: it's a
 "Batalin-Vilkovisky algebra". That means that in addition to the above
 stuff, it has a Lie bracket of degree 1:
 
-\[·,·\]\colon  A_i \otimes A_j \to  A~i+j+1~
+\[·,·\]\colon A_i \otimes A_j \to A~i+j+1~
 
 which gets along with the rest in a nice way. I also talked about these
 in ["Week 220"](#week220): they're precisely algebras of homology
@@ -335,7 +335,7 @@ functions" on the intersections U_i ∩ U_j, a \mathrm{U}(1) gerbe over a space
 can be defined by chopping a space into open sets and giving transition
 functions
 
-h~ijk~ \colon  U_i ∩ U_j ∩ U_k \to  \mathrm{U}(1)
+h~ijk~ \colon U_i ∩ U_j ∩ U_k \to \mathrm{U}(1)
 
 If you have a \mathrm{U}(1) gerbe, you can define "twisted vector bundles".
 These are like vector bundles, but where the transition functions g~ij~

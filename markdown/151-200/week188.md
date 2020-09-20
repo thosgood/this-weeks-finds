@@ -88,15 +88,15 @@ $$
 Now, the number of ways to choose $k$ things out of $n$ is the binomial
 coefficient
 $$\binom{n}{k} = \frac{n!}{k!(n-k)!}$$
-so this is the number at the $k$th place of the nth row. And since each
+so this is the number at the $k$th place of the $n$th row. And since each
 number in the triangle is the sum of those above it, we get
 $$\binom{n}{k} = \binom{n-1}{k} + \binom{n-1}{k-1}$$
 
 To illustrate how these things work, you can actually build a machine
 where you drop a little ball into the top of a triangle, designed so
 that the ball has a 50% chance of zigging to the left or zagging to the
-right at each step of its fall. By the time it gets to the nth row, the
-chance of its being in the kth place will be proportional to $\binom{n}{k}$.
+right at each step of its fall. By the time it gets to the $n$th row, the
+chance of its being in the $k$th place will be proportional to $\binom{n}{k}$.
 
 If you drop a bunch of balls in the top and catch them as they fall out
 the bottom, you'll get an approximately Gaussian distribution of balls,

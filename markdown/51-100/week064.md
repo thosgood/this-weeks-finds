@@ -361,12 +361,12 @@ it's all about.
         \end{scope}
         \begin{scope}[rotate=180,shift={(0,14)}]
           \begin{scope}[shift={(-3,0)},rotate=180]
-            \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
-            \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+            \draw[thick,dashed] (0:2) arc (0:180:2cm and 1cm);
+            \draw[thick] (180:2) arc (180:360:2cm and 1cm);
           \end{scope}
           \begin{scope}[shift={(3,0)},rotate=180]
-            \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
-            \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+            \draw[thick,dashed] (0:2) arc (0:180:2cm and 1cm);
+            \draw[thick] (180:2) arc (180:360:2cm and 1cm);
           \end{scope}
           \draw[thick] (-5,0) .. controls (-5,-2) and (-2,-4) .. (-2,-6);
           \draw[thick] (5,0) .. controls (5,-2) and (2,-4) .. (2,-6);
@@ -392,12 +392,12 @@ it's all about.
         \end{scope}
         \begin{scope}[rotate=180,shift={(0,14)}]
           \begin{scope}[shift={(-3,0)},rotate=180]
-            \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
-            \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+            \draw[thick,dashed] (0:2) arc (0:180:2cm and 1cm);
+            \draw[thick] (180:2) arc (180:360:2cm and 1cm);
           \end{scope}
           \begin{scope}[shift={(3,0)},rotate=180]
-            \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
-            \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+            \draw[thick,dashed] (0:2) arc (0:180:2cm and 1cm);
+            \draw[thick] (180:2) arc (180:360:2cm and 1cm);
           \end{scope}
           \draw[thick] (-5,0) .. controls (-5,-2) and (-2,-4) .. (-2,-6);
           \draw[thick] (5,0) .. controls (5,-2) and (2,-4) .. (2,-6);

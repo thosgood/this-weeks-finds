@@ -240,9 +240,9 @@ Next, we pick a "connection" on $P$.
 What's that? Well, it's a gadget that for each path from $x$ to $y$ gives
 us a map from the $G$-$2$-torsor $P(x)$ to the $G$-$2$-torsor $P(y)$. If we call the
 path
-$$f\colon  x \to  y$$
+$$f\colon x \to y$$
 then we call this map
-$$P(f)\colon  P(x) \to  P(y)$$
+$$P(f)\colon P(x) \to P(y)$$
 Moroever, this sort of connection also gives a "map between maps" for
 each path-of-paths! So, from
 $$F\colon f \Rightarrow g$$
@@ -251,11 +251,11 @@ $$P(F)\colon P(f) \Rightarrow P(g)$$
 
 I haven't explained enough stuff to say yet what these "maps between
 maps" are, so let's just see what happens if we have a loop
-$$f\colon  x \to  x$$
+$$f\colon x \to x$$
 and then a loop-of-loops
 $$F\colon f \Rightarrow f$$
 From the loop $f\colon x \to x$, our connection gives us a map:
-$$P(f)\colon  P(x) \to  P(x)$$
+$$P(f)\colon P(x) \to P(x)$$
 If we start with a point in $P(x)$, and apply this map, we get another
 point in $P(x)$. Since $P(x)$ is a $G$-$2$-torsor, these two points determine a
 $G$-torsor. This $G$-torsor doesn't depend on our initial choice of point,

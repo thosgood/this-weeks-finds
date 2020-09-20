@@ -264,13 +264,13 @@ I don't understand this stuff well enough to try a full-fledged
 explanation yet, so I'll just give a vague sketch. A "prime geodesic"
 in a Riemannian manifold X is a closed geodesic
 
-f\colon  S^1 \to  X
+f\colon S^1 \to X
 
 that cycles around just once. In other words, f should be one-to-one.
 
 We say a closed geodesic is the "nth power" of a prime one if it's
 just like the prime one but it cycles around n times. Every closed
-geodesic is the nth power of a prime one in a unique way.
+geodesic is the $n$th power of a prime one in a unique way.
 
 If we have a Fuchsian group G, H/G is a surface with a Riemannian
 metric. It looks locally like the hyperbolic plane, so it's called a
@@ -293,7 +293,7 @@ And indeed, Darin Brown has found a big mysterious analogy that goes
 like this:
 
 >     Number field K                   Hyperbolic surface H/G
->     Field extension K' of K          Covering p\colon  H/G' \to  H/G
+>     Field extension K' of K          Covering p\colon H/G' \to H/G
 >     Galois group Gal(K'/K)           Deck transformation group Aut(p)
 >     Prime ideal Q of K               Prime geodesic f in H/G
 >     Prime ideal Q' lying over Q      Prime geodesic f' lying over f
@@ -602,7 +602,7 @@ Toby Bartels wrote:\
 >
 >     >We say a closed geodesic is the "nth power" of a prime one
 >     >if it's just like the prime one but it cycles around n times.
->     >Every closed geodesic is the nth power of a prime one in a unique way.
+>     >Every closed geodesic is the $n$th power of a prime one in a unique way.
 >
 >     The latter sentence is not quite true; you've forgotten n = 0 again!
 >

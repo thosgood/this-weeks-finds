@@ -193,7 +193,7 @@ another important cryptographic hash function, called SHA-1. This is a
 function that takes any string of up to 2^64^ bits and gives a digest
 that's 160 bits long. So, it's just some function
 
-f\colon  S \to  T
+f\colon S \to T
 
 from a set S of size 2^(2^64^\ +\ 1)^ to a set T of size 2^160^.
 
@@ -485,7 +485,7 @@ built of "and", "or" and "not" gates, without any loops. We can
 think of this as computing a Boolean function, meaning a function of the
 form:
 
-f\colon  {0,1}^n \to  {0,1}
+f\colon {0,1}^n \to {0,1}
 
 Razborov and Rudich start by studying a common technique for proving
 lower bounds on the size of a Boolean circuit that computes a given
@@ -717,7 +717,7 @@ Next, some email from the man himself: Scott Aaronson!
 > interested in the following abstraction of the collision-finding
 > problem. Suppose we have a two-to-one function
 >
-> f\colon  {0,1}^n \to  {0,1}^n-1^,
+> f\colon {0,1}^n \to {0,1}^n-1^,
 >
 > which we can only access in a "black-box" fashion - i.e., we can
 > feed it an input and get an output. The goal is to find distinct x and
@@ -768,7 +768,7 @@ Next, some email from the man himself: Scott Aaronson!
 > What can we say? Obviously, if ZF is consistent, then G(n) has no
 > proof of at most n symbols. Hence G(n) is true. Furthermore, G(n) has
 > a proof of \~2^n symbols. This proof simply enumerates all proofs of
-> ≤n symbols, and shows that none of them work.
+> \leqslant n symbols, and shows that none of them work.
 >
 > You might wonder: does G(n) have a proof of n+1 symbols, or for that
 > matter n^\mathrm{O}(1)^ symbols? This turns out to be related to the main open

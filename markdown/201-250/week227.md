@@ -257,7 +257,7 @@ A little extra information? Well, in some cases a model of T will be a
 groups, a model of T will be a group, which is a set equipped with some
 operations. So, in these cases there's a functor
 
-U\colon  Mod(T) \to  \mathsf{Set}
+U\colon Mod(T) \to \mathsf{Set}
 
 assigning each model its underlying set. And, you can easily reconstruct
 T from Mod(T) *together* with this functor.
@@ -268,7 +268,7 @@ called algebraic theories, which I discussed in
 "Tannaka-Krein duality" in a different context: a Hopf algebra H has a
 category of comodules Rep(H), which comes equipped with a functor
 
-U\colon  Rep(H) \to  Vect
+U\colon Rep(H) \to Vect
 
 assigning each comodule its underlying vector space. And, you can
 reconstruct H from Rep(H) together with this functor. The proof is even
@@ -304,7 +304,7 @@ side. Here categories show up in another way. Oversimplifying as usual,
 the idea is to create a category where an object P is a *sentence* - or
 maybe a list of sentences - and a morphism
 
-f\colon  P \to  Q
+f\colon P \to Q
 
 is a *proof* of Q from P - or maybe an equivalence class of proofs.
 
@@ -354,7 +354,7 @@ with this:
 
     P |- P
 
-In this setup, a proof f\colon  P \to  Q looks vaguely like this:
+In this setup, a proof f\colon P \to Q looks vaguely like this:
 
         f-crud
         f-crud
@@ -370,11 +370,11 @@ deduction rules to get to P |- Q.
 
 Suppose we also we also have a proof
 
-g\colon  Q \to  R
+g\colon Q \to R
 
 There's a way to stick f and g together to get a proof
 
-fg\colon  P \to  R
+fg\colon P \to R
 
 This proof consists of setting the proofs f and g side by side and then
 using the cut rule to finish the job. So, fg looks like this:
@@ -391,15 +391,15 @@ using the cut rule to finish the job. So, fg looks like this:
 Now let's see if composition is associative. Suppose we also have a
 proof
 
-h\colon  R \to  S
+h\colon R \to S
 
 We can form proofs
 
-(fg)h\colon  P \to  S
+(fg)h\colon P \to S
 
 and
 
-f(gh)\colon  P \to  S
+f(gh)\colon P \to S
 
 Are they equal? No! The first one looks like this:
 

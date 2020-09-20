@@ -159,7 +159,7 @@ Suppose G acts transitively on X. Pick any figure x of type X and let H
 be its "stabilizer": the subgroup consisting of all guys in G that map
 x to itself. Then we get a one-to-one and onto map
 
-f\colon  X \to  G/H
+f\colon X \to G/H
 
 sending each figure gx in X to the equivalence class \[g\] in G/H.
 
@@ -255,7 +255,7 @@ It's not very hard to get a groupoid from a group action. Say we have a
 group G acting on a set X. Then the objects of our groupoid are just
 elements of X, and a morphism
 
-g\colon  x \to  y
+g\colon x \to y
 
 is just a group element g with
 
@@ -268,7 +268,7 @@ Some people call this groupoid an "action groupoid". I often call it
 the "weak quotient" X//G, since it's like the ordinary quotient X/G,
 but instead of declaring that x and y are *equal* when we have a group
 element g sending x to y, we instead declare they're *isomorphic* via a
-specified isomorphism g\colon  x \to  y.
+specified isomorphism g\colon x \to y.
 
 But for now, let's call X//G the "action groupoid".
 

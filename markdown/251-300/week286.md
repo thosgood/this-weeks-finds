@@ -126,13 +126,13 @@ This is "rational homotopy theory".
 
 How can we get rid of torsion?
 
-Well, the nth homotopy group of a compact manifold, like a sphere, is
+Well, the $n$th homotopy group of a compact manifold, like a sphere, is
 always finitely generated - and abelian when n > 1. A finitely
 generated abelian group always looks like Z^n \times T where T is finite.
 All the torsion is in T, so to get rid of torsion we can just throw out
 T.
 
-But that doesn't work in general. In general, the nth homotopy group of
+But that doesn't work in general. In general, the $n$th homotopy group of
 a space can be *any* group when n = 1 - and any abelian group when n >
 1.
 
@@ -319,12 +319,12 @@ into one of these. But as I already admitted, this misses the point.
 To come closer to the point, we need to recall an amazing old theorem
 due to J. H. C. Whitehead, which says a map
 
-f\colon  X \to  Y
+f\colon X \to Y
 
 between connected CW complexes is a homotopy equivalence if and only if
 the induced maps
 
-\pi_n(f)\colon  \pi_n(X) \to  \pi_n(Y)
+\pi_n(f)\colon \pi_n(X) \to \pi_n(Y)
 
 are isomorphisms for all n. This is why for more general connected
 spaces we define any map that induces isomorphisms on homotopy groups to
@@ -338,12 +338,12 @@ These ideas are very powerful, so it's good to generalize them to
 rational homotopy theory. So now suppose X and Y are 1-connected pointed
 spaces. And let's say a map
 
-f\colon  X \to  Y
+f\colon X \to Y
 
 is a "rational homotopy equivalence" if the induced maps on rational
 homotopy groups
 
-Q \otimes \pi_n(f)\colon  Q \otimes \pi_n(X) \to  Q \otimes \pi_n(Y)
+Q \otimes \pi_n(f)\colon Q \otimes \pi_n(X) \to Q \otimes \pi_n(Y)
 
 are isomorphisms for all n. There's a nice category where we formally
 throw in inverses to all rational homotopy equivalences. This is called
@@ -393,11 +393,11 @@ of Serre of torsion abelian groups".
 Let me say this with less jargon. Start with the category of 1-connected
 pointed spaces. Throw in formal inverses of all maps
 
-f\colon  X \to  Y
+f\colon X \to Y
 
 for which the induced maps
 
-\pi_n(f)\colon  \pi_n(X) \to  \pi_n(Y)
+\pi_n(f)\colon \pi_n(X) \to \pi_n(Y)
 
 have kernels and cokernels where all elements are torsion. This gives
 the rational homotopy category!
@@ -416,7 +416,7 @@ it's a space with the rational numbers as its fundamental group. All
 its other homotopy groups are trivial, since that's already true for
 the circle.
 
-Any space with G as its nth homotopy group and every other homotopy
+Any space with G as its $n$th homotopy group and every other homotopy
 group being trivial is called "the Eilenberg-Mac Lane space K(G,n)".
 We're allowed use the word "the", since this space is unique up to
 weak homotopy equivalence. So, the rational 1-sphere is K(Q,1).

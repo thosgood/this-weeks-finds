@@ -18,7 +18,7 @@ are categories, functors and natural transformations. A functor $F\colon \mathca
 assigns to each object $x$ of $\mathcal{C}$ an object $F(x)$ of $\mathcal{D}$, and to each morphism
 $f$ of $\mathcal{C}$ a morphism $F(f)$ of $\mathcal{D}$, and has
 
-1.  If $f\colon  x \to y$, then $F(f)\colon  F(x) \to F(y)$.
+1.  If $f\colon x \to y$, then $F(f)\colon F(x) \to F(y)$.
 2.  If $fg = h$, then $F(f)F(g) = F(h)$.
 3.  If $1_x$ is the identity morphism of $x$, then $F(1_x)$ is the identity
     morphism of $F(x)$.

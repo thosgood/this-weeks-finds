@@ -200,7 +200,7 @@ a free theory. Then we can try to expand the transition amplitudes we
 want to know as a Taylor series in these parameters. As usual, computing
 the coefficients of the Taylor series only requires us to to compute a
 bunch of derivatives. And we can compute these derivatives using the
-free theory! Typically, computing the nth derivative of some transition
+free theory! Typically, computing the $n$th derivative of some transition
 amplitude gives us a bunch of integrals which correspond to Feynman
 diagrams with n vertices.
 

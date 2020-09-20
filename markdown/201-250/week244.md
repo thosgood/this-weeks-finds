@@ -538,12 +538,12 @@ since that's what they were in his applications to quantum physics.
 Let's do that.
 
 The algebra of observables has an obvious left action on the vector
-space of states, where a morphism f\colon  x \to  y acts on x to give y, and it
+space of states, where a morphism f\colon x \to y acts on x to give y, and it
 acts on every other object to give 0. In Heisenberg's example, this is
 precisely how he let the algebra of observables act on states.
 
 The algebra of observables also has an obvious *right* action on the
-vector space of states, where f\colon  x \to  y acts on y to give x, and it acts
+vector space of states, where f\colon x \to y acts on y to give x, and it acts
 on every other object to give 0.
 
 Leinster defines a "weighting" on X to be an element w of the vector

@@ -54,7 +54,7 @@ $2$-category C is equivalent to a strict one st(C). However, this is true
 *if* your notion of equivalence is suitably weak! In short, what we've
 got is an inclusion of weak $3$-categories:
 
-i\colon  Strict2Cat \to  Weak2Cat
+i\colon Strict2Cat \to Weak2Cat
 
 where
 
@@ -80,11 +80,11 @@ Steve Lack spoke about Gray-categories, also known as "semistrict"
 The idea here goes back to John Gray. In the usual Cartesian product of
 categories, whenever we have a morphism
 
-f\colon  A \to  B
+f\colon A \to B
 
 in the first category and a morphism
 
-f '\colon  A' \to  B'
+f '\colon A' \to B'
 
 in the second, we get a commuting square:
 
@@ -113,7 +113,7 @@ and
 
 -   for any triple of objects x,y,z, a 2-functor
 
-    o\colon  \operatorname{Hom}(x,y) \times \operatorname{Hom}(y,z) \to  \operatorname{Hom}(x,z)
+    o\colon \operatorname{Hom}(x,y) \times \operatorname{Hom}(y,z) \to \operatorname{Hom}(x,z)
 
 such that
 
@@ -128,7 +128,7 @@ and
 
 -   for any triple of objects x,y,z, a 2-functor
 
-    o\colon  \operatorname{Hom}(x,y) \otimes \operatorname{Hom}(y,z) \to  \operatorname{Hom}(x,z)
+    o\colon \operatorname{Hom}(x,y) \otimes \operatorname{Hom}(y,z) \to \operatorname{Hom}(x,z)
 
 where \otimes is the Gray tensor product, such that
 
@@ -211,11 +211,11 @@ a semistrict one.
 An interesting theme of all three talks was the idea of treating the
 "strictification" functor implicit in Mac Lane's coherence theorem:
 
-st\colon  Weak2Cat \to  Strict2Cat
+st\colon Weak2Cat \to Strict2Cat
 
 as the left adjoint of the inclusion
 
-i\colon  Strict2Cat \to  Weak2Cat
+i\colon Strict2Cat \to Weak2Cat
 
 where now we think of both Strict2Cat and Weak2Cat as mere $1$-categories.
 You can read more about this idea here:
@@ -247,21 +247,21 @@ we often use a weaker concept of equivalence!
 
 In homotopy theory, we say a map between spaces
 
-f\colon  X \to  Y
+f\colon X \to Y
 
 is a "weak homotopy equivalence" if it induces isomorphisms on
 homotopy groups:
 
-\pi_n(f)\colon  \pi_n(X) \to  \pi_n(Y)
+\pi_n(f)\colon \pi_n(X) \to \pi_n(Y)
 
 In homological algebra, we say a map between chain complexes
 
-f\colon  X \to  Y
+f\colon X \to Y
 
 is a "quasi-isomorphism" if it induces isomorphisms on homology
 groups:
 
-H_n(f)\colon  H_n(X) \to  H_n(Y)
+H_n(f)\colon H_n(X) \to H_n(Y)
 
 Model category theory formalizes this by speaking of a category C
 equipped with a classes of morphisms called "weak equivalences". We

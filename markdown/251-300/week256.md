@@ -134,7 +134,7 @@ of it:
     k = 5         " "             " "                "  "
 
 An $n$-category has objects, $1$-morphisms betwen objects, $2$-morphisms
-between $1$-morphisms, and so on up to the nth level. A "k-tuply
+between $1$-morphisms, and so on up to the $n$th level. A "k-tuply
 monoidal" $n$-category is an (n+k)-category that's trivial on the bottom
 k levels. It masquerades as an $n$-category with extra bells and whistles.
 As you can see, we get lots of fun structures this way.
@@ -344,7 +344,7 @@ Next, each span of groupoids
 
 gives a linear operator
 
-\[S\]\colon  \[X\] \to  \[Y\]
+\[S\]\colon \[X\] \to \[Y\]
 
 Note: this operator \[S\] depends on the whole span, not just the
 groupoid S sitting on top. So, I'm abusing notation here.
@@ -426,7 +426,7 @@ So, how should we take a span of groupoids
 
 and turn it into a linear operator
 
-\[S\]\colon  \[X\] \to  \[Y\] ?
+\[S\]\colon \[X\] \to \[Y\] ?
 
 We just need to know what this operator does to a bunch of vectors in
 \[X\]. How do we describe vectors in \[X\]?
@@ -504,7 +504,7 @@ multiplied by the "cardinalities" of their essential preimages.
 
 Now you probably have two questions:
 
-**A)** Given a functor p\colon  V \to  X between groupoids and an object x in X,
+**A)** Given a functor p\colon V \to X between groupoids and an object x in X,
 what's the "essential preimage" of x?
 
 and
@@ -556,7 +556,7 @@ So, let's finally figure out how a span of groupoids
 
 gives a linear operator
 
-\[S\]\colon  \[X\] \to  \[Y\]
+\[S\]\colon \[X\] \to \[Y\]
 
 It's enough to know what this operator does to vectors coming from
 groupoids over X:
@@ -688,7 +688,7 @@ So, we're fairly high in the ladder of $n$-categories. But, if we want a
 mere category, we can take groupoids and *equivalence classes* of spans.
 Then, degroupoidification gives a functor
 
-\[-\]\colon  \[finite groupoids, spans\] \to  \[vector spaces, linear maps\]
+\[-\]\colon \[finite groupoids, spans\] \to \[vector spaces, linear maps\]
 
 That's the fact whose proof I tried to sketch here.
 

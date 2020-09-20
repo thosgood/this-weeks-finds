@@ -290,7 +290,7 @@ Let me sketch the simplest result in this paper! For starters, recall
 that a structure type is any sort of structure you can put on finite
 sets. In other words, it's a functor
 
-F\colon  \mathsf{FinSet}_0 \to  \mathsf{Set}
+F\colon \mathsf{FinSet}_0 \to \mathsf{Set}
 
 where \mathsf{FinSet}_0 is the groupoid of finite sets and bijections. The idea
 is that for any finite set X, F(X) is the set all of structures of the
@@ -307,11 +307,11 @@ you're not a hotshot yet, I should explain this.
 An object of elt(F) is a finite set X together with an element a in
 F(X). A morphism of elt(F), say
 
-f\colon  (X,a) \to  (X',a')
+f\colon (X,a) \to (X',a')
 
 is a bijection
 
-f\colon  X \to  X'
+f\colon X \to X'
 
 such that
 
@@ -333,23 +333,23 @@ with restriction".
 
 Technically, a structure type with restriction is a functor
 
-F\colon  Inj^op^ \to  \mathsf{Set}
+F\colon Inj^op^ \to \mathsf{Set}
 
 where Inj is the category of finite sets and injections. When we have
 such a thing, the inclusion
 
-i\colon  X \to  X'
+i\colon X \to X'
 
 of a little set X in a bigger set X' gives a map
 
-F(i)\colon  F(X') \to  F(X)
+F(i)\colon F(X') \to F(X)
 
 that says how to restrict F-structures on X' to F-structures on X.
 
 In this situation, Bill shows that the vector space B~F~ becomes a
 cocommutative coalgebra. In particular, it gets a comultiplication
 
-\Delta\colon  B~F~ \to  B~F~ \otimes B~F~
+\Delta\colon B~F~ \to B~F~ \otimes B~F~
 
 which satisfies laws just like the commutative and associative laws for
 ordinary multiplication, only "backwards".
@@ -419,7 +419,7 @@ immediately gripping portions:
 -   Chapter 7, "Hopf monoids in species". Here they use "species" to
     mean what I'd call "linear structure types", that is, functors
 
-    F\colon  \mathsf{FinSet}_0 \to  Vect
+    F\colon \mathsf{FinSet}_0 \to Vect
 
     where Vect is the category of vector spaces. In Section 7.9 they
     take Bill Schmitt's trick for getting cocommutative coalgebras from

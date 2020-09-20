@@ -112,7 +112,7 @@ nonzero number! These are called "homogeneous coordinates".
 If you don't like the ambiguity of homogeneous coordinates, you can go
 right ahead and divide all the coordinates by the real number $x_1$,
 getting
-$$(1, x_2/x_1, \ldots , x~n+1~/x_1)$$
+$$(1, x_2/x_1, \ldots , x_{n+1}/x_1)$$
 which lets us describe a point in $\mathbb{RP}^n$ by n real numbers, as befits an
 $n$-dimensional real manifold. Of course, this won't work if $x_1$ happens
 to be zero! But we can divide by $x_2$ if $x_2$ is nonzero, and so on.

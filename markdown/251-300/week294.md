@@ -678,7 +678,7 @@ as a function of the currents I, or vice versa, before we can do much.
 For example, for circuits built from linear resistors, we have a linear
 map
 
-R\colon  C_1 \to  C^1
+R\colon C_1 \to C^1
 
 such that
 
@@ -797,7 +797,7 @@ or vice versa.
 And in fact, this category is the free compact closed category on one
 self-dual object, namely x, and one morphism from the unit object to
 each tensor power of x. The unit object is drawn as the empty set, while
-the nth tensor power of x is drawn as a list of n x's. So, for example,
+the $n$th tensor power of x is drawn as a list of n x's. So, for example,
 when n = 3, we have a morphism that looks like a "trivalent vertex":
 
            o
@@ -885,13 +885,13 @@ similar to all the morphisms in our category?
 
 Well, we can think of a directed graph as a functor
 
-X\colon  G \to  \mathsf{Set}
+X\colon G \to \mathsf{Set}
 
 where G is category with two objects, "vertex" and "edge", and two
 morphisms:
 
-source\colon  edge \to  vertex\
-target\colon  edge \to  vertex
+source\colon edge \to vertex\
+target\colon edge \to vertex
 
 together with identity morphisms. We can think of G as the "Platonic
 idea" of a graph, and actual graphs as embodiments of this idea in the
@@ -899,11 +899,11 @@ world of sets.
 
 Taking this viewpoint, we can compose a directed graph
 
-X\colon  G \to  \mathsf{Set}
+X\colon G \to \mathsf{Set}
 
 with the "free vector space on a set" functor
 
-F\colon  \mathsf{Set} \to  Vect
+F\colon \mathsf{Set} \to Vect
 
 and get a gizmo that's like a graph, but with a vector space of
 vertices and a vector space of edges. A category theorist might call

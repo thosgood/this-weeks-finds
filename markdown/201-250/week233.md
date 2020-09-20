@@ -492,7 +492,7 @@ Swiatoslaw Gal writes:
 >
 > Looking for
 >
-> f\colon  \mathrm{GL}(2,R)/\mathrm{SL}(2,\mathbb{Z}) \to  C^2 - {x^2=y^3}
+> f\colon \mathrm{GL}(2,R)/\mathrm{SL}(2,\mathbb{Z}) \to C^2 - {x^2=y^3}
 >
 > (there is an obvious action of R+ on both sides:
 >

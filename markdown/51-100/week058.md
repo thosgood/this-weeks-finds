@@ -48,8 +48,8 @@ $$
     \draw[thick] (-2,0) to (-2,-6);
     \draw[thick] (2,0) to (2,-6);
     \begin{scope}[shift={(0,-6)}]
-      \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
-      \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+      \draw[thick,dashed] (0:2) arc (0:180:2cm and 1cm);
+      \draw[thick] (180:2) arc (180:360:2cm and 1cm);
     \end{scope}
   \end{tikzpicture}
 $$
@@ -63,8 +63,8 @@ $$
     \draw[thick] (-1,0) .. controls (-1,-1) .. (0,-2);
     \draw[thick] (1,0) .. controls (1,-1) .. (0,-2);
     \begin{scope}[shift={(0,-6)}]
-      \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
-      \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+      \draw[thick,dashed] (0:2) arc (0:180:2cm and 1cm);
+      \draw[thick] (180:2) arc (180:360:2cm and 1cm);
     \end{scope}
   \end{tikzpicture}
 $$
@@ -77,8 +77,8 @@ $$
       \draw[thick] (-2,0) to (-2,-6);
       \draw[thick] (2,0) to (2,-6);
       \begin{scope}[shift={(0,-6)}]
-        \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
-        \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+        \draw[thick,dashed] (0:2) arc (0:180:2cm and 1cm);
+        \draw[thick] (180:2) arc (180:360:2cm and 1cm);
       \end{scope}
     \end{scope}
     \draw[thick] (-3,0) ellipse (2cm and 1cm);
@@ -88,8 +88,8 @@ $$
     \draw[thick] (-1,0) .. controls (-1,-1) .. (0,-2);
     \draw[thick] (1,0) .. controls (1,-1) .. (0,-2);
     \begin{scope}[shift={(0,-6)}]
-      \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
-      \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+      \draw[thick,dashed] (0:2) arc (0:180:2cm and 1cm);
+      \draw[thick] (180:2) arc (180:360:2cm and 1cm);
     \end{scope}
   \end{tikzpicture}
 $$
@@ -103,14 +103,14 @@ $$
     \draw[thick] (-1,0) .. controls (-1,-1) .. (0,-2);
     \draw[thick] (1,0) .. controls (1,-1) .. (0,-2);
     \begin{scope}[shift={(0,-6)}]
-      \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
-      \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+      \draw[thick,dashed] (0:2) arc (0:180:2cm and 1cm);
+      \draw[thick] (180:2) arc (180:360:2cm and 1cm);
     \end{scope}
     \draw[thick] (-2,-6) to (-2,-10);
     \draw[thick] (2,-6) to (2,-10);
     \begin{scope}[shift={(0,-10)}]
-      \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
-      \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+      \draw[thick,dashed] (0:2) arc (0:180:2cm and 1cm);
+      \draw[thick] (180:2) arc (180:360:2cm and 1cm);
     \end{scope}
   \end{tikzpicture}
 $$

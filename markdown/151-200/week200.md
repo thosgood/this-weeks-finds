@@ -224,11 +224,11 @@ $$G$$
 Since our category has finite products this automatically means it gets
 objects $1,$ $G$, $G\times G$, $G\times G\times G$, and so on. Next, we put in a binary
 operation called "multiplication", namely a morphism
-$$m\colon  G\times G \to  G$$
+$$m\colon G\times G \to G$$
 We also put in a unary operation called "inverse":
-$$\operatorname{inv}\colon  G \to  G$$
+$$\operatorname{inv}\colon G \to G$$
 and a nullary operation called the "unit":
-$$i\colon  1 \to  G$$
+$$i\colon 1 \to G$$
 And then we say a bunch of diagrams commute, which express all the
 axioms for a group listed above.
 
@@ -240,15 +240,15 @@ By calling this category a "theory", Lawvere is suggesting that like a
 theory of the traditional sort, it can have models --- and indeed it can!
 A "model" of theory of groups in some category $X$ with finite products
 is just a product-preserving functor
-$$F\colon  \mathsf{Th}(\mathrm{Grp}) \to  X$$
+$$F\colon \mathsf{Th}(\mathrm{Grp}) \to X$$
 By the way things are set up, this gives us an object
 $$F(G)$$
 in $X$, together with morphisms
 $$
   \begin{gathered}
-    F(m)\colon  F(G) \times F(G) \to  F(G)
-  \\F(inv)\colon  F(G) \to  F(G)
-  \\F(i)\colon  F(1) \to  F(G)
+    F(m)\colon F(G) \times F(G) \to F(G)
+  \\F(inv)\colon F(G) \to F(G)
+  \\F(i)\colon F(1) \to F(G)
   \end{gathered}
 $$
 that serve as the multiplication, inverse and identity element for
@@ -261,7 +261,7 @@ Whew. So far I've just explained the *title* of Lawvere's PhD thesis:
 "Functorial Semantics of Algebraic Theories". In Lawvere's approach,
 an "algebraic theory" is given not by writing down a list of axioms,
 but by specifying a category $\mathcal{C}$ with finite products. And the semantics
-of such theories is all about product-preserving functors $F\colon  \mathcal{C} \to  X$.
+of such theories is all about product-preserving functors $F\colon \mathcal{C} \to X$.
 Hence the term "functorial semantics".
 
 Lawvere did a lot starting with these ideas. Let me just briefly
@@ -374,7 +374,7 @@ geometry work in here?
 
 It's very nice. The first nice thing is that given any smooth space $X$,
 a "tangent vector in $X$" is just a smooth map
-$$f\colon  \mathcal{T} \to  X$$
+$$f\colon \mathcal{T} \to X$$
 that is, a way of drawing an infinitesimal arrow in $X$. In general, the
 maps from any object $A$ of a topos to any other object $B$ form an object
 called $B^A$ --- this is part of what we mean when we say a topos has
@@ -384,11 +384,11 @@ And this is what people usually call the "tangent bundle" of $X$!
 
 So, the tangent bundle is pathetically simple in this setup: it's just
 a space of maps. This means we can compose a tangent vector $f\colon \mathcal{T} \to X$
-with any smooth map $g\colon  X \to  Y$ to get a tangent vector $gf\colon \mathcal{T} \to Y$. This
+with any smooth map $g\colon X \to Y$ to get a tangent vector $gf\colon \mathcal{T} \to Y$. This
 is what people usually call "pushing forward tangent vectors". This
 trick gives a smooth map between tangent bundles, the "differential of
 $g$", which it makes sense to call
-$$g\mathcal{T}\colon  X\mathcal{T} \to  Y\mathcal{T}$$
+$$g\mathcal{T}\colon X\mathcal{T} \to Y\mathcal{T}$$
 Moreover, it's pathetically easy to check the chain rule:
 $$(gh)\mathcal{T} = g\mathcal{T} h\mathcal{T}$$
 And so far we haven't used *any* axioms about the object $\mathcal{T}$ --- just basic
@@ -440,7 +440,7 @@ and velocity!
 There is a category where an object is a smooth space equipped with a
 dynamical law and a morphism is a "lawful motion": that is, a smooth
 map
-$$f\colon  X \to  Y$$
+$$f\colon X \to Y$$
 that makes the obvious diagram commute:
 $$
   \begin{tikzcd}
@@ -458,7 +458,7 @@ In particular, if we take $\mathbb{R}$ to be the real numbers --- "time" --- and
 equip it with the law saying
 $$q'' = 0$$
 meaning that "time ticks at an unchanging rate", then a lawful motion
-$$f\colon  \mathbb{R} \to  X$$
+$$f\colon \mathbb{R} \to X$$
 is precisely a trajectory in $X$ that "follows the law", meaning that
 the acceleration of the trajectory is the desired function of position
 and velocity. This example is a setup for the classical mechanics of a
@@ -648,7 +648,7 @@ then we can take the underlying set of any group, and the free group on
 any set.
 
 We get a "monad on $\mathcal{C}$" by letting
-$$T = LR\colon  \mathcal{C} \to  \mathcal{C}$$
+$$T = LR\colon \mathcal{C} \to \mathcal{C}$$
 Then, we can use facts about adjoint functors to get natural
 transformations called "multiplication"
 $$m\colon TT \Rightarrow T$$

@@ -109,7 +109,7 @@ from one process to another, and so on. Depending on how you play the
 $n$-category game, there are either no morphisms after level n, or only
 simple and bland ones playing the role of "equations". The idea is
 that in the world of $n$-categories, one keeps track of things, processes,
-meta-processes, and so on to the nth level, but after that one calls it
+meta-processes, and so on to the $n$th level, but after that one calls it
 quits and uses equations.
 
 So what is the definition of $4$-categories? Well, Eilenberg and Mac Lane

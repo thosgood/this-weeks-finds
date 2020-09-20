@@ -369,7 +369,7 @@ $$
   \end{tikzpicture}
 $$
 is not. Let $G$ be the set of golden trees. We define an isomorphism
-$$f\colon  G^2 \to  G + \{@\}$$
+$$f\colon G^2 \to G + \{@\}$$
 as follows. First we define $f(X, Y)$ when both $X$ and $Y$ are golden trees
 with just one node, this node being labelled by a bit. We can identify
 such a tree with a bit, and doing this we set
@@ -888,8 +888,8 @@ with various replies, concluding with my own.
      solve more problems, because we obtain invariants not only of spaces,
      but also of maps.  
 
-     In modern language, the nth rational homology is a functor defined
-     on the category of topological spaces, while the nth Betti number is
+     In modern language, the $n$th rational homology is a functor defined
+     on the category of topological spaces, while the $n$th Betti number is
      a mere function, defined on the set of isomorphism classes of
      topological spaces.  Of course, this way of stating Noether's insight
      is anachronistic, since it came before category theory.  Indeed, it

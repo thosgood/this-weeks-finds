@@ -371,7 +371,7 @@ notes in which he outlines proofs of some results above.
 > 1.  Let $V$ be the category of finite-dimensional super vector 
 > spaces over $\mathbb{R}$.  By super algebra I mean a monoid in this 
 > category.  There's a bicategory whose objects are super 
-> algebras $A$, whose 1-cells  $M\colon  A \to  B$  are left $A$- right
+> algebras $A$, whose 1-cells  $M\colon A \to B$  are left $A$- right
 > $B$-modules in $V$, and whose 2-cells are homomorphisms
 > between modules.  This is a symmetric monoidal bicategory 
 > under the usual tensor product on $V$.
@@ -541,7 +541,7 @@ super division algebras!
 > $$ae = ea'$$
 > and that the $A$-bimodule structure forces $(ab)' = a'b'$. Hence we 
 > have an automorphism (fixing the real field)
-> $$(--)'\colon  A \to  A$$
+> $$(--)'\colon A \to A$$
 > and we can easily enumerate (up to isomorphism) the possibilities 
 > for associative super division algebras over $\mathbb{R}$: 
 >  

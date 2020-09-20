@@ -200,9 +200,9 @@ and form the lattice of their integer linear combinations.
 Here are the lattices you get:
 
 -   The diagram A_n gives the $n$-dimensional lattice of all $(n+1)$-tuples
-    of integers (x_1,...,x~n+1~) with
+    of integers (x_1,...,x_{n+1}) with
 
-    x_1 + ... + x~n+1~ = 0.
+    x_1 + ... + x_{n+1} = 0.
 
     For example, A_2 is a $2$-dimensional hexagonal lattice, the sort you
     use to pack pennies as densely as possible. Similarly, A_3 gives a
@@ -399,7 +399,7 @@ don't get a smooth manifold: the quotient has a singularity at 0. But
 we can "resolve" the singularity, finding a smooth complex manifold
 with a holomorphic map
 
-p\colon  M \to  C^2/G
+p\colon M \to C^2/G
 
 that has a holomorphic inverse on a dense open set. There may be lots of
 ways to do this, but in the present case there's just one "minimal"
@@ -433,7 +433,7 @@ Now we're well on the road to the next item...
 **D)** Simply-laced Dynkin diagrams also classify the simple critical
 points of holomorphic functions
 
-f\colon  C^3 \to  C
+f\colon C^3 \to C
 
 A "critical point" is just a place where the gradient of f vanishes.
 We can try to classify critical points up to a holomorphic change of
@@ -474,7 +474,7 @@ one relation, given by the polynomial above!
 
 Conversely, we can start with the polynomial
 
-f\colon  C^3 \to  C
+f\colon C^3 \to C
 
 The zero set
 
@@ -483,7 +483,7 @@ The zero set
 has an isolated singularity at the origin. But, we can resolve this
 singularity, finding a smooth complex manifold N with a holomorphic map
 
-q\colon  N \to  {f = 0}
+q\colon N \to {f = 0}
 
 that has a holomorphic inverse on a dense open set. There may be lots of
 ways to do this, but in the present case there's just one "minimal"
@@ -508,7 +508,7 @@ morphisms.
 
 A representation of a quiver Q is just a functor
 
-F\colon  Q \to  Vect
+F\colon Q \to Vect
 
 So, we get a vector space for each dot and a linear map for each arrow,
 with no extra restrictions. There's an obvious category of
@@ -684,7 +684,7 @@ correspondence. For example, if we take a finite subgroup G of \mathrm{SU}(3), w
 get a quotient C^3/G, which has singularities. If we take a "crepant"
 resolution of
 
-p\colon  M \to  C^3/G,
+p\colon M \to C^3/G,
 
 which is the right generalization of a minimal resolution, then M is a
 Calabi-Yau manifold. This gets string theory into the act! Around 1985,

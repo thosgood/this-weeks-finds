@@ -189,19 +189,19 @@ which we draw just like deletion, except upside-down:
 
 In math we call these four operators the "multiplication":
 
-m\colon  H \otimes H \to  H
+m\colon H \otimes H \to H
 
 the "unit":
 
-i\colon  C \to  H
+i\colon C \to H
 
 the "comultiplication":
 
-\Delta\colon  H \to  H \otimes H
+\Delta\colon H \to H \otimes H
 
 and the "counit":
 
-e\colon  H \to  C
+e\colon H \to C
 
 And we can summarize all the rules these operators obey by saying that H
 is a "special commutative dagger-Frobenius algebra". That's a
@@ -805,7 +805,7 @@ multiplication on A.
 A is the free O-algebra on one generator, say x. So, for any element a
 in A, there's a unique O-algebra endomorphism
 
-f(a)\colon  A \to  A
+f(a)\colon A \to A
 
 sending x to a. Note that f(x) is the identity. By the general
 philosophy that "an infinitesimal endomorphism is a derivation", the

@@ -111,7 +111,7 @@ to
 
 It's just the obvious thing: an $n$-tuple of linear operators
 
-(f_1: X_1 \to Y_1, ..., f_n\colon  X_n \to  Y_n)
+(f_1: X_1 \to Y_1, ..., f_n\colon X_n \to Y_n)
 
 And we compose these in the obvious way, namely "componentwise".
 

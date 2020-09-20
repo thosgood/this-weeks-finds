@@ -623,7 +623,7 @@ R together with an S-tuple of R-torsors.
 
 But what about the morphisms between these? We define a morphism between
 these to be a ring isomorphism together with an S-tuple of torsor
-isomorphisms. There's a trick hiding here\colon  a ring isomorphism f\colon  R \to R' lets us take any R-torsor and turn it into an R'-torsor, or vice
+isomorphisms. There's a trick hiding here\colon a ring isomorphism f\colon R \to R' lets us take any R-torsor and turn it into an R'-torsor, or vice
 versa. So, it lets us talk about an isomorphism from an R-torsor to an
 R'-torsor - a concept that at first might have seemed nonsensical.
 
@@ -687,7 +687,7 @@ Why do we get points of different colors? I explained this back in
 ["Week 205"](#week205). The idea is
 that for any commutative ring k, we can look at the homomorphisms
 
-f\colon  R \to  k
+f\colon R \to k
 
 and these are called the "k-points" of our affine scheme. In
 particular, we can take k to be a finite field, say F~p^n~. So, we get
@@ -698,7 +698,7 @@ prime power p^n.
 Given all this, you shouldn't be surprised that we can get the
 Hasse-Weil zeta function of R by taking the Dirichlet series of the
 stuff type Z~R~, where an object is a finite semisimple commutative ring
-k together with a homomorphism f\colon  R \to  k. Especially if you remember that
+k together with a homomorphism f\colon R \to k. Especially if you remember that
 finite semisimple commutative rings are built from finite fields!
 
 In fact, this whole theory of Hasse-Weil zeta functions works for
@@ -724,10 +724,10 @@ in ["Week 185"](#week185) and
 gets even simpler when we go up to stuff types: the generating function
 of a stuff type Z is just
 
-\sum~n\ ≥\ 0~ |Z(n)| z^n
+\sum~n\ \geqslant\ 0~ |Z(n)| z^n
 
 Since we can also describe states of the quantum harmonic oscillator as
-power series, with z^n corresponding to the nth energy level, this lets
+power series, with z^n corresponding to the $n$th energy level, this lets
 us view stuff types as states of a categorified quantum harmonic
 oscillator! This explains the combinatorics of Feynman diagrams:
 

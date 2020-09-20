@@ -237,7 +237,7 @@ equivalent, roughly this:
 > you categorify these representations.
 >
 > Here's the example Licata explained. The group \mathrm{SL}(2) acts on C^2 and
-> thus on its nth tensor power. Everyone knows that. But we can also get
+> thus on its $n$th tensor power. Everyone knows that. But we can also get
 > this representation in an unexpected way. Start with the space of all
 > k-dimensional subspaces of C^n. This is called the "Grassmannian"
 > \mathrm{Gr}(k,n). Form a vector space by taking the cohomology of the cotangent
@@ -246,7 +246,7 @@ equivalent, roughly this:
 >
 > We get a big fat vector space. But here's the cool part: Ginzburg
 > figured out how to make this big fat space into a representation of
-> \mathfrak{sl}(2)! And this representation is isomorphic to the nth tensor power
+> \mathfrak{sl}(2)! And this representation is isomorphic to the $n$th tensor power
 > of C^2.
 >
 > The trick is to get operators on cohomology groups that satisfy the
@@ -453,10 +453,10 @@ equivalent, roughly this:
 > spectrum](http://en.wikipedia.org/wiki/Complex_cobordism#Brown-Peterson_cohomology),
 > BP. The generalized cohomology for this, applied to a one-point space,
 > is a ring on infinitely many generators. If you do some trick to kill
-> off all the generators above the nth, you get the nth Johnson-Wilson
+> off all the generators above the nth, you get the $n$th Johnson-Wilson
 > theory. And since this was built starting from complex cobordism
 > theory, complex conjugation acts on it. So, we can take the homotopy
-> fixed points, you get the nth "real" Johnson-Wilson theory.
+> fixed points, you get the $n$th "real" Johnson-Wilson theory.
 >
 > Emin Tatar of Florida State University spoke on "[Abelian sheaves and
 > Picard stacks](ams_2009/Tatar_AMS_UCR_2009.mov)":
@@ -513,7 +513,7 @@ equivalent, roughly this:
 >
 > a symmetric 2-group instead has an isomorphism
 >
-> S~x,y~\colon  x \otimes y \to  y \otimes x
+> S~x,y~\colon x \otimes y \to y \otimes x
 >
 > with the property that doing it twice gives the identity:
 >

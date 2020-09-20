@@ -496,11 +496,11 @@ lets you start with a function of q and q' and turn it into a function
 of q and p. Mathematically, the idea is that given a function on the
 tangent bundle of a manifold:
 
-f\colon  TM \to  R
+f\colon TM \to R
 
 you get a map from the tangent bundle to the cotangent bundle:
 
-λ\colon  TM \to  T*M
+λ\colon TM \to T*M
 
 which records the derivative of f in the "vertical directions". In
 nice cases, this map λ is one-to-one and onto.
@@ -620,13 +620,13 @@ Just as you can tensor vector spaces, you can tensor chain complexes.
 And just as you can define a Lie algebra to be a vector space V with a
 bracket operation
 
-\[.,.\] \colon  V \otimes V \to  V
+\[.,.\] \colon V \otimes V \to V
 
 satisfying antisymmetry and the Jacobi identity, so you can define a
 "differential graded Lie algebra" to be a chain complex C with a
 bracket operation
 
-\[.,.\]\colon  C \otimes C \to  C
+\[.,.\]\colon C \otimes C \to C
 
 satisfying graded antisymmetry and the graded Jacobi identity. By
 "graded", I mean you need to remember to put in a sign (-1)^jk^
@@ -655,17 +655,17 @@ make sense yet:
 Each step is interesting in itself. And each step is actually a functor.
 So I need to explain 3 different functors:
 
-Ω\colon  \[path-connected pointed spaces\] \to  \[topological groups\]
+Ω\colon \[path-connected pointed spaces\] \to \[topological groups\]
 
-C~~*~~\colon  \[topological groups\] \to  \[DGCHAs\]
+C~~*~~\colon \[topological groups\] \to \[DGCHAs\]
 
-P\colon  \[DGCHAs\] \to  \[DGLAs\]
+P\colon \[DGCHAs\] \to \[DGLAs\]
 
 One thing that excites me about this subject is getting to know the last
 two functors. I've been in love with the first one for years, and also
 the functor going back:
 
-B\colon  \[topological groups\] \to  \[path-connected pointed spaces\]
+B\colon \[topological groups\] \to \[path-connected pointed spaces\]
 
 which sends any topological group G to its "classifying space" BG.
 
@@ -690,7 +690,7 @@ on G.
 For example, in a Hopf algebra you can "comultiply" as well as
 multiply. In the group algebra Q\[G\], the comultiplication map
 
-\Delta\colon  Q\[G\] \to  Q\[G\] \otimes Q\[G\]
+\Delta\colon Q\[G\] \to Q\[G\] \otimes Q\[G\]
 
 is defined on elements g of G by the equation
 
@@ -703,7 +703,7 @@ true here.
 A Hopf algebra also has a "counit" as well as a unit, and the counit
 in a group algebra is a map
 
-ε \colon  Q\[G\] \to  Q
+ε \colon Q\[G\] \to Q
 
 defined by
 
@@ -717,7 +717,7 @@ If we take the grouplike elements of Q\[G\], we get the group G back.
 
 The functor
 
-C\colon  \[topological groups\] \to  \[DGCHAs\]
+C\colon \[topological groups\] \to \[DGCHAs\]
 
 generalizes this idea from groups to topological groups. Instead of just
 taking formal linear combinations of *elements* of G, we now take formal
@@ -727,7 +727,7 @@ topology of G.
 
 Now let's turn to the next functor:
 
-P\colon  \[DGCHAs\] \to  \[DGLAs\]
+P\colon \[DGCHAs\] \to \[DGLAs\]
 
 This generalizes a simpler procedure that takes cocommutative Hopf
 algebras and gives Lie algebras.
@@ -748,7 +748,7 @@ encoded in cocommutative Hopf algebras.
 
 In the universal enveloping algebra UL, comultiplication is a map
 
-\Delta\colon  UL \to  UL \otimes UL
+\Delta\colon UL \to UL \otimes UL
 
 defined on elements x of L by the equation
 
@@ -756,7 +756,7 @@ defined on elements x of L by the equation
 
 The counit is a map
 
-ε\colon  UL \to  Q
+ε\colon UL \to Q
 
 defined by the equation
 
@@ -770,11 +770,11 @@ we get the Lie algebra L back.
 Let's summarize this using a bit more jargon. There's a "universal
 enveloping algebra" functor:
 
-U\colon  \[Lie algebras\] \to  \[cocommutative Hopf algebras\]
+U\colon \[Lie algebras\] \to \[cocommutative Hopf algebras\]
 
 and this has a right adjoint, the "primitive elements" functor:
 
-P\colon  \[cocommutative Hopf algebras\] \to  \[Lie algebras\]
+P\colon \[cocommutative Hopf algebras\] \to \[Lie algebras\]
 
 Even better, if L is any Lie algebra, P(UL) is isomorphic to L.
 
@@ -782,11 +782,11 @@ Today we're generalizing all this to the world of chain complexes!
 There's a universal enveloping algebra for differential graded Lie
 algebras:
 
-U\colon  \[DGLAs\] \to  \[DGCHAs\]
+U\colon \[DGLAs\] \to \[DGCHAs\]
 
 and it has a right adjoint, the "primitive elements" functor:
 
-P\colon  \[DGCHAs\] \to  \[DGLAs\]
+P\colon \[DGCHAs\] \to \[DGLAs\]
 
 Even better, if L is any DGLA, P(UL) is isomorphic to L.
 
@@ -794,15 +794,15 @@ So now I hope you understand the strategy for generalizing Lie theory to
 rational spaces. We can take any path-connected pointed space X and form
 its group of loops:
 
-Ω\colon  \[path-connected pointed spaces\] \to  \[topological groups\]
+Ω\colon \[path-connected pointed spaces\] \to \[topological groups\]
 
 Then we can form a differential graded analogue of its group algebra:
 
-C\colon  \[topological groups\] \to  \[DGCHAs\]
+C\colon \[topological groups\] \to \[DGCHAs\]
 
 Finally, we can turn that into a differential graded Lie algebra:
 
-P\colon  \[DGCHAs\] \to  \[DGLAs\]
+P\colon \[DGCHAs\] \to \[DGLAs\]
 
 So, just as we could study a Lie group "infinitesimally" by looking at
 its Lie algebra, we can now study any path-connected pointed space
@@ -827,12 +827,12 @@ break. Now I'll continue...
 
 Q. The "based loop space" functor:
 
-Ω\colon  \[path-connected pointed spaces\] \to  \[topological groups\]
+Ω\colon \[path-connected pointed spaces\] \to \[topological groups\]
 
 Suppose X is a path-connected pointed space. Often people define Ω(X) to
 be the space of all based loops
 
-f\colon  \[0,1\] \to  X
+f\colon \[0,1\] \to X
 
 where f(0) = f(1) is the basepoint of X. There's an obvious way to
 compose these loops, spending half your time on the first loop and half
@@ -851,7 +851,7 @@ For starters, let's try to make the associative and unit laws hold as
 equations, instead of just up to homotopy. For this, we can just use
 "Moore loops", which are maps
 
-f\colon  \[0,T\] \to  X
+f\colon \[0,T\] \to X
 
 where f(0) = f(T) is the basepoint of X, and T is any nonnegative real
 number. Composing a Moore loop of length T and one of length T'
@@ -876,11 +876,11 @@ Namely: we can always take a topological monoid, throw in formal
 inverses, and put on a suitable topology to get a topological group.
 This process is called "group completion". It's a functor:
 
-G\colon  \[topological monoids\] \to  \[topological groups\]
+G\colon \[topological monoids\] \to \[topological groups\]
 
 and it's the left adjoint of the forgetful functor
 
-F\colon  \[topological groups\] \to  \[topological monoids\]
+F\colon \[topological groups\] \to \[topological monoids\]
 
 I described group completion in item P of ["Week 119"](#week119),
 and gave the classic reference.
@@ -912,19 +912,19 @@ based loops in X: an honest topological group!
 R. The "singular chains" functor from topological groups to
 differential graded cocommutative Hopf algebras:
 
-C~~*~~\colon  \[topological groups\] \to  \[DGCHAs\]
+C~~*~~\colon \[topological groups\] \to \[DGCHAs\]
 
 To get this, let's line up some functors I mentioned last week:
 
-Sing\colon  \[topological spaces\] \to  \[simplicial sets\]
+Sing\colon \[topological spaces\] \to \[simplicial sets\]
 
-F\colon  \[simplicial sets\] \to  \[simplicial vector spaces\]
+F\colon \[simplicial sets\] \to \[simplicial vector spaces\]
 
-N\colon  \[simplicial vector spaces\] \to  \[chain complexes\]
+N\colon \[simplicial vector spaces\] \to \[chain complexes\]
 
 Composing these is how we take any space and get a chain complex!
 
-C~~*~~\colon  \[topological spaces\] \to  \[chain complexes\]
+C~~*~~\colon \[topological spaces\] \to \[chain complexes\]
 
 Namely, the chain complex whose homology is the rational homology of
 that space. This is often called the "singular chain complex" of our
@@ -944,7 +944,7 @@ chain complexes it's the tensor product I already mentioned.
 And, *almost* all the functors listed above are symmetric monoidal
 functors. The first two actually are. The third one:
 
-N\colon  \[simplicial vector spaces\] \to  \[chain complexes\]
+N\colon \[simplicial vector spaces\] \to \[chain complexes\]
 
 is not quite. I talked about this problem last week.
 
@@ -962,7 +962,7 @@ groups\], and then we get stuck.
 Let me remind you a bit about the annoying properties of the third
 functor on my list:
 
-N\colon  \[simplicial vector spaces\] \to  \[chain complexes\]
+N\colon \[simplicial vector spaces\] \to \[chain complexes\]
 
 It's called the "normalized chain complex" or "normalized Moore
 complex" functor.
@@ -970,12 +970,12 @@ complex" functor.
 As I said last time, this functor is not monoidal. But it's "lax
 monoidal". So, there's a natural transformation
 
-EZ\colon  N(X) \otimes N(Y) \to  N(X \times Y)
+EZ\colon N(X) \otimes N(Y) \to N(X \times Y)
 
 And it's also "oplax monoidal". So, there's also a natural
 transformation going back:
 
-AW\colon  N(X \times Y) \to  N(X) \otimes N(Y)
+AW\colon N(X \times Y) \to N(X) \otimes N(Y)
 
 But they're not inverses.
 
@@ -1007,11 +1007,11 @@ comonoids.
 As I mentioned last week, in a category with finite products, every
 object is a comonoid in exactly one way! The comultiplication
 
-\Delta\colon  X \to  X \times X
+\Delta\colon X \to X \times X
 
 is the diagonal map, and the counit
 
-ε\colon  X \to  1
+ε\colon X \to 1
 
 is the unique map to the terminal object. This, by the way, is why
 people don't talk about comonoids in the category of sets: every set is
@@ -1039,7 +1039,7 @@ again, the third one is not. Somehow we just luck out.
 So, there are some formal properties of the normalized chain complex
 functor
 
-N\colon  \[simplicial vector spaces\] \to  \[chain complexes\]
+N\colon \[simplicial vector spaces\] \to \[chain complexes\]
 
 that I still need to understand!
 

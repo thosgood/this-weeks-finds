@@ -512,11 +512,11 @@ several ways. Here's one. Start with the category where:
 Then, throw in formal inverses to all "rational homotopy equivalences"
 - that is, maps
 
-f\colon  X \to  X'
+f\colon X \to X'
 
 that give isomorphisms between rational homotopy groups:
 
-Q \otimes \pi_n(f)\colon  Q \otimes \pi_n(X) \to  Q \otimes \pi_n(X')
+Q \otimes \pi_n(f)\colon Q \otimes \pi_n(X) \to Q \otimes \pi_n(X')
 
 This gives the rational homotopy category.
 
@@ -542,11 +542,11 @@ Why? Because our spaces are 1-connected, so their bottom two homology
 groups are boring. Then, let's throw in formal inverses to
 "quasi-isomorphisms" - that is, maps between DGCCs
 
-f\colon  C \to  C'
+f\colon C \to C'
 
 that give isomorphisms between homology groups:
 
-H_n(f)\colon  H_n(C) \to  H_n(C')
+H_n(f)\colon H_n(C) \to H_n(C')
 
 The resulting category is *equivalent* to the rational homotopy
 category!
@@ -563,11 +563,11 @@ a DGLA from the group of *loops* in our rational space, and looping
 pushes down dimensions by one. Then, we throw in formal inverses to
 "quasi-isomorphisms" - that is, maps between DGLAs:
 
-f\colon  L \to  L'
+f\colon L \to L'
 
 that give isomorphisms between homology groups:
 
-H_n(f)\colon  H_n(L) \to  H_n(L')
+H_n(f)\colon H_n(L) \to H_n(L')
 
 Again, the resulting category is *equivalent* to the rational homotopy
 category!

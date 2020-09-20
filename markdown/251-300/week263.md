@@ -179,7 +179,7 @@ just a pair (g,h). But we add these pairs like this:
 
 where
 
-c\colon  H \times H \to  G
+c\colon H \times H \to G
 
 tells us how to "carry" from the "H place" to the "G place" when
 we add. So, information percolates down when we add two guys in the new
@@ -213,7 +213,7 @@ really understand group cohomology until I learned to see it this way.
 But what's *really* cool is that $n$-groups can also be thought of as
 topological spaces. This lets us build every space as a "layer cake"
 where the layers are groups! These groups are called the "homotopy
-groups" of the space. The nth homotopy group keeps track of how many
+groups" of the space. The $n$th homotopy group keeps track of how many
 n-dimensional holes the space has - see ["Week 102"](#week102) for
 details.
 

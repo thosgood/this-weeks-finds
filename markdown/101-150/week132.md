@@ -296,7 +296,7 @@ their definition of $n$-categories. For more on their work see
 For quite a while now James Dolan and I have been talking about
 something we call the "stabilization hypothesis". I gave an
 explanation of this in ["Week 121"](#week121), but briefly, it says
-that the nth column of the following chart (which extends to infinity in
+that the $n$th column of the following chart (which extends to infinity in
 both directions) stabilizes after $2n+2$ rows:
 
 |       | $n=0$ | $n=1$ | $n=2$ |

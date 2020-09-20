@@ -586,14 +586,14 @@ language of categories, just to help you practice your vocabulary.
 
 A G-set is the same as a functor
 
-A\colon  G \to  \mathsf{Set}
+A\colon G \to \mathsf{Set}
 
 where we think of G as a 1-object category. There's a category of
 G-sets, namely
 
 \operatorname{Hom}(G,\mathsf{Set})
 
-This has functors A\colon  G \to  \mathsf{Set} as objects, and natural transformations
+This has functors A\colon G \to \mathsf{Set} as objects, and natural transformations
 between these as morphisms. Usually the objects are called "G-sets",
 and the morphisms are called "maps of G-sets".
 
@@ -601,13 +601,13 @@ We can also play this whole game with the category of vector spaces
 replacing the category of sets. A representation of G is the same as a
 functor
 
-A\colon  G \to  Vect
+A\colon G \to Vect
 
 As before, there's a category of such things, namely
 
 \operatorname{Hom}(G,Vect)
 
-This has functors A\colon  G \to  Vect as objects, and natural transformations
+This has functors A\colon G \to Vect as objects, and natural transformations
 between these as morphisms. Now the objects are called "representations
 of G" and the morphisms are called "intertwining operators".
 
@@ -619,16 +619,16 @@ Part of what William and Georg were debating was: how similar are
 
 First of all, there's a functor
 
-F\colon  \mathsf{Set} \to  Vect
+F\colon \mathsf{Set} \to Vect
 
 sending each set S to the vector space C\[S\] with that set as basis.
 So, given an action of G on a set:
 
-A\colon  G \to  \mathsf{Set}
+A\colon G \to \mathsf{Set}
 
 we can compose it with F and get a representation of G:
 
-FA\colon  G \to  Vect
+FA\colon G \to Vect
 
 This kind of representation is called a "permutation representation".
 And, this trick gives a functor from G-sets to representations of G:

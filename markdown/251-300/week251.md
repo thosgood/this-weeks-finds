@@ -382,7 +382,7 @@ think about left modules, right modules, and bimodules to understand the
 theory of tensor products. And, the quaternions have more bimodules than
 you might expect: for example, for any automorphism of the quaternions:
 
-f\colon  H \to  H
+f\colon H \to H
 
 there's a way to make H into an H-bimodule with the obvious left action
 and a "twisted" right action, where q acts on x to give
@@ -404,8 +404,8 @@ numbers. Here:
 
 -   there's one object, the real numbers R.
 -   the $1$-morphisms are algebras A over R.
--   the $2$-morphisms M\colon  A \to  B are (A,B)-bimodules.
--   the $3$-morphisms f\colon  M \to  N are (A,B)-bimodule morphisms.
+-   the $2$-morphisms M\colon A \to B are (A,B)-bimodules.
+-   the $3$-morphisms f\colon M \to N are (A,B)-bimodule morphisms.
 
 This could let us treat real, complex and quaternionic quantum mechanics
 as part of a single structure.
@@ -443,7 +443,7 @@ correlations between the different copies!
 
 Here's the quantum de Finetti theorem. Suppose you have an
 "exchangeable" density operator ρ_n on H^\otimes\ n^ - that is, one such
-that for each N ≥ n, there's a density operator ρ~N~ on H^\otimes\ N^ which
+that for each N \geqslant n, there's a density operator ρ~N~ on H^\otimes\ N^ which
 1) is invariant under permutations in S~N~ and 2) has ρ as its marginal,
 meaning that
 

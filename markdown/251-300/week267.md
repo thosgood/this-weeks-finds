@@ -706,7 +706,7 @@ Then he wrote:
 > Hmm, John and David's discussion has reminded me of a result I once
 > proved:
 >
-> Suppose we are given a morphism f\colon X \to  Y of orbifolds and a
+> Suppose we are given a morphism f\colon X \to Y of orbifolds and a
 > 2-automorphism \varphi:f \Rightarrow f. Then \varphi is trivial if and only if its
 > restriction to any point of X is trivial.
 >
