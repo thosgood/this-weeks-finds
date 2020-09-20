@@ -920,7 +920,7 @@ problems are resolved in the cable's design, not after the fact with
 filters. George Cardas received U.S. Patent Number 4,628,151 for
 creating Golden Section Stranding Audio Cable. It is truly unique.
 George introduced the concept of Golden Section Stranding to high-end
-audio, but the Golden Ratio, 1.6180339887... : 1, is as old as nature
+audio, but the Golden Ratio, $1.6180339887... : 1$, is as old as nature
 itself. The Golden Ratio is the mathematical proportion nature uses to
 shape leaves and sea shells, insects and people, hurricanes and
 galaxies, and the heart of musical scales and chords. "Discovered" by

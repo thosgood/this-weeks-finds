@@ -420,7 +420,7 @@ detailed, and probably only of interest to $n$-category addicts....
 > The analog of the universal arrows in the Baez/Dolan style definition
 > is as follows. A **universal arrow** is defined to be an arrow of the
 > form $b\colon\alpha\to a$ where $a$ is a composite of $\alpha$ via an
-> equipment $E$ that relates $b$ with the identity arrow on $a$ : in turn, the
+> equipment $E$ that relates $b$ with the identity arrow on $a$: in turn, the
 > identity arrow on $a$ is any composite of the empty pasting diagram of
 > dimension $\dim(a)+1$ based on $a$. Note that the main definition does
 > *not* go through first defining "universal arrow".
