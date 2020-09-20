@@ -371,36 +371,34 @@ $$\includegraphics{../images/7-3.png}$$
 Gerard Westendorp had some interesting comments on what I wrote:
 
 > If you take Euler's formula
->
->          V+F-E = 2-2\timesholes
->
-> then you can figure out that for a (7,3) tiling with N heptagons, you
+> $$V+F-E = 2-2\times\text{holes}$$
+> then you can figure out that for a $(7,3)$ tiling with $N$ heptagons, you
 > have
->
->          V = 7N/3
->          F = N
->          E = 7N/2
->
+> $$
+>   \begin{aligned}
+>     V &= \frac{7N}{3}
+>   \\F &= N
+>   \\E &= \frac{7N}{2}    
+>   \end{aligned}
+> $$
 > so that
->
->          N = 12\times(holes-1)
->
+> $$N = 12\times(\text{holes}-1)$$
 > Here's the table of solutions:
 >
->        holes    N
->         0      -12
->         1       0
->         2       12
->         3       24
->         4       36
->         .       . 
->         .       . 
+> | holes | $N$ |
+> | :---- | :-- |
+> | 0 | -12 |
+> | 1 | 0 |
+> | 2 | 12 |
+> | 3 | 24 |
+> | 4 | 36 |
+> | $\vdots$ | $\vdots$ |
 >
 > So indeed, there are no solutions for 0 holes (sphere) or 1 hole
-> (torus). But a 2-holed torus should be possible, as well as the
-> 24-faced 3-holed one.
+> (torus). But a $2$-holed torus should be possible, as well as the
+> $24$-faced $3$-holed one.
 >
-> Anyway, see if I can visualise the 3-holed one.
+> Anyway, see if I can visualise the $3$-holed one.
 >
 > If you start with a sphere, i.e. genus 0, and drill a tunnel through
 > it, you will get a genus 1 object. On the outer surface, you see 2
@@ -428,40 +426,38 @@ Gerard Westendorp had some interesting comments on what I wrote:
 > Truncated tetrahedrons together with tetrahedrons can fill space. So
 > you can stack 4 truncated tetrahedra on top of each other, leaving a
 > hole in the shape of an imaginary 5th one. Then use tetrahedra to fill
-> up some gaps. This was basically the shape I built outof cardboard.
+> up some gaps. This was basically the shape I built out of cardboard.
 > Then, I spent rather a long time trying to tile this with heptagons. A
 > clue to a solution was that a triangulation of the surface I made had
-> 120 triangle, and 120 = 24\times5. What is so good about 5? Well, 5
+> 120 triangle, and $120 = 24\times5$. What is so good about 5? Well, 5
 > triangles stuck together have 7 outer sides, sop they are a kind of
 > pseudo heptagons. Anyway, I got a bit frustrated, and did not find a
 > nice tiling.
 >
 > As I was trying to figure it out, I found this site:
->
-> `http://www.math.uni-siegen.de/wills/klein/`
->
+> > `http://www.math.uni-siegen.de/wills/klein/`
 > It has some nice pictures.
 >
->       > These are like the driving directions the devil gives people who ask
->       > the way out of hell.  LRLRLRLR and you're right back where you started.
+> > These are like the driving directions the devil gives people who ask
+> > the way out of hell.  LRLRLRLR and you're right back where you started.
 >
 > Btw, this works the same on other polyhedra, e.g. the cube.
 >
->       > Saturn  (Saturday)
->       > Sun     (Sunday)
->       > Moon    (Monday)
->       > Mars    (Tuesday)
->       > Mercury (Wednesday)
->       > Jupiter (Thursday)
->       > Venus   (Friday)
+> > Saturn  (Saturday)
+> > Sun     (Sunday)
+> > Moon    (Monday)
+> > Mars    (Tuesday)
+> > Mercury (Wednesday)
+> > Jupiter (Thursday)
+> > Venus   (Friday)
 >
 > My French is not so good, but in French some names look more
 > convincing:
 >
->         tuesday = mardi (Mars?)
->         wednesday = mercredi (Mercury?)
->         thursday = jeudi (Jove?)
->         friday = vendredi (Venus?)
+> - tuesday = mardi (Mars?)
+> - wednesday = mercredi (Mercury?)
+> - thursday = jeudi (Jove?)
+> - friday = vendredi (Venus?)
 >
 > Gerard
 
@@ -469,26 +465,26 @@ I replied:
 
 > Gerard Westendorp wrote:
 >
->      > John Baez wrote:
+> > John Baez wrote:
 >
->      >  > It's called "{7,3}", since it's made of 7-sided figures with 3
->      >  > meeting at each corner.
+> > > It's called "$\{7,3\}$", since it's made of 7-sided figures with 3
+> > > meeting at each corner.
 >
->      >  > Can we cut out a portion of this tiling and curl it up to get
->      >  > a torus?  No!  But, we can curl up a portion to get a 3-holed
->      >  > torus - like the surface of a doughnut with three holes.  But,
->      >  > we can only do this if we use precisely 24 heptagons!
+> > > Can we cut out a portion of this tiling and curl it up to get
+> > > a torus?  No!  But, we can curl up a portion to get a $3$-holed
+> > > torus --- like the surface of a doughnut with three holes.  But,
+> > > we can only do this if we use precisely 24 heptagons!
 >
->      >If you take Euler's formula [....]
+> > If you take Euler's formula \[....\]
 >
->      >So indeed, there are no solutions for 0 holes (sphere),
->      >1 hole( torus). But a 2-holed torus should be possible,
->      >as well as the 24-faced 3-holed one.
+> > So indeed, there are no solutions for 0 holes (sphere),
+> > 1 hole( torus). But a $2$-holed torus should be possible,
+> > as well as the $24$-faced $3$-holed one.
 >
 > I was going to talk about this, but I figured my article was getting
 > too long.
 >
-> Indeed, Euler's formula also allows the possibility of a *2-holed*
+> Indeed, Euler's formula also allows the possibility of a *$2$-holed*
 > torus tiled with 12 heptagons meeting 3 at each corner.
 >
 > But this does not prove such a tiling is possible. I don't know if it
@@ -497,71 +493,65 @@ I replied:
 > However: even if such a tiling exists, it's not possible for each
 > rotational symmetry of each heptagon to extend to a symmetry of the
 > whole tiled surface. What's marvelous about the 3-holed case is that
-> they all do - at least if you do things correctly. This is what makes
+> they all do --- at least if you do things correctly. This is what makes
 > the Klein quartic a full-fledged "Platonic surface".
 >
 > If you look here:
 >
-> - Hermann Karcher and Mattias Weber, The Geometry of Klein's
->     Riemann Surface, in The Eightfold Way: the Beauty of Klein's
->     Quartic Curve, ed. Silvio Levy, MSRI Research Publications 35,
->     Cambridge U. Press, Cambridge 1999. Also available as
->     [PDF](http://www.msri.org/publications/books/Book35/files/karcher.pdf)
->     and [gzipped
->     Postscript](http://www.msri.org/publications/books/Book35/files/karcher.ps.gz).
+> - Hermann Karcher and Mattias Weber, "The Geometry of Klein's Riemann Surface", in _The Eightfold Way: the Beauty of Klein's Quartic Curve_, ed. Silvio Levy, MSRI Research Publications **35**, Cambridge U. Press, Cambridge 1999. Also available as [PDF](http://www.msri.org/publications/books/Book35/files/karcher.pdf) and [gzipped Postscript](http://www.msri.org/publications/books/Book35/files/karcher.ps.gz).
 >
 > you'll see that Karcher and Weber study Platonic surfaces using
 > Euler's formula.
 >
-> On pages 13-19 they consider Platonic surfaces with 2 holes. On page
-> 19 they give a clever proof that no tiling of the 2-holed torus by
+> On pages 13--19 they consider Platonic surfaces with 2 holes. On page
+> 19 they give a clever proof that no tiling of the $2$-holed torus by
 > heptagons meeting 3 at each corner can be a Platonic surface. The
 > proof is so clever that I don't understand it.
 >
 > (Warning: their article starts on page 9.)
 >
->      >Anyway, see if I can visualise the 3-holed one.
+> > Anyway, see if I can visualise the 3-holed one.
 >
 > I wish I could visualize it myself.
 >
->      >As I was trying to figure it out, I found this site:
->      >http://www.math.uni-siegen.de/wills/klein/
->      >It has some nice pictures.
+> > As I was trying to figure it out, I found this site:
+> > > `http://www.math.uni-siegen.de/wills/klein/`
+> > It has some nice pictures.
 >
 > These pictures are interesting, but what I'd really like is a nice
-> picture of a 3-holed torus, not weird or crumpled up, which is tiled
+> picture of a $3$-holed torus, not weird or crumpled up, which is tiled
 > by 24 heptagons just like the Klein quartic.
 >
-> The heptagons can't all be regular if the torus is embedded in R^3,
+> The heptagons can't all be regular if the torus is embedded in $\mathbb{R}^3$,
 > since there's no way to embed a compact surface of constant negative
-> curvature in R^3. But, you *can* get the *topology* correct and still
-> have the torus embedded in R^3.
+> curvature in $\mathbb{R}^3$. But, you *can* get the *topology* correct and still
+> have the torus embedded in $\mathbb{R}^3$.
 >
 > If anyone draws such a picture, and I think it looks nice, I'd love
 > to put it on This Week's Finds!
 >
 > If anyone wants instructions on how such a surface should be made,
-> look above, where Mike Stay has kindly drawn numbers from 1-24 on a
+> look above, where Mike Stay has kindly drawn numbers from 1--24 on a
 > portion of the hyperbolic plane tiled with heptagons. These numbers
 > indicate how to identify heptagons to get the Klein quartic. For
 > example, all the heptagons labelled "21" are really the same
 > heptagon in the Klein quartic.
 >
->      >  > Saturn  (Saturday)
->      >  > Sun     (Sunday)
->      >  > Moon    (Monday)
->      >  > Mars    (Tuesday)
->      >  > Mercury (Wednesday)
->      >  > Jupiter (Thursday)
->      >  > Venus   (Friday)
+> > > Saturn  (Saturday)
+> > > Sun     (Sunday)
+> > > Moon    (Monday)
+> > > Mars    (Tuesday)
+> > > Mercury (Wednesday)
+> > > Jupiter (Thursday)
+> > > Venus   (Friday)
 >
->      >My French is not so good, but in French some names look more
->      >convincing:
->      >
->      >    tuesday = mardi (Mars?)
->      >    wednesday = mercredi (Mercury?)
->      >    thursday = jeudi (Jove?)
->      >    friday = vendredi (Venus?)
+> > My French is not so good, but in French some names look more
+> > convincing:
+> >
+> > - tuesday = mardi (Mars?)
+> > - wednesday = mercredi (Mercury?)
+> > - thursday = jeudi (Jove?)
+> > - friday = vendredi (Venus?)
 >
 > Yes, this because most of the English names for planets come from
 > Latin, and French is more like Latin.
