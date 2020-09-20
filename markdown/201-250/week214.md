@@ -2,7 +2,7 @@
 
 What common English slang phrase alludes to the number 168?
 
-I won't tell you - not right away. But, I'll tell you a bunch of other
+I won't tell you --- not right away. But, I'll tell you a bunch of other
 cool stuff about this number, and eventually the answer should jump out
 at you.
 
@@ -48,40 +48,28 @@ You may have trouble visualizing the hyperbolic plane tiled with regular
 heptagons, but if we distort it, it fits into a disk and looks really
 pretty! Here it is:
 
-1) Don Hatch, Hyperbolic planar tesselations,
-[http://www.hadron.org/\~hatch/HyperbolicTesselations/](http://www.hadron.org/~hatch/HyperbolicTesselations)
+1) Don Hatch, Hyperbolic planar tesselations, `http://www.hadron.org/\~hatch/HyperbolicTesselations/`
 
-\
-[](http://www.hadron.org/~hatch/HyperbolicTesselations/)
+$$\href{http://www.hadron.org/~hatch/HyperbolicTesselations/}{\includegraphics{../images/7_3.png}}$$
 
-::: {align="CENTER"}
-![](7_3.gif)
-:::
-
-It's called "{7,3}", since it's made of 7-sided figures with 3
+It's called "$\{7,3\}$", since it's made of 7-sided figures with 3
 meeting at each corner.
 
 In this picture there's one heptagon at the center, surrounded by rings
-of heptagons that appear smaller (but aren't really - that's just an
+of heptagons that appear smaller (but aren't really --- that's just an
 effect of the distortion).
 
 Can we cut out a portion of this tiling and curl it up to get a torus?
-No! But, we can curl up a portion to get a 3-holed torus - like the
+No! But, we can curl up a portion to get a 3-holed torus --- like the
 surface of a doughnut with three holes. But, we can only do this if we
 use precisely 24 heptagons!
 
 Here's how we do it. Here's a picture of 24 heptagons, taken from an
 old paper by Klein and Fricke but prettied up a bit:
 
-2) Tony Smith, Klein's quartic surface,
-`http://www.valdostamuseum.org/hamsmith/cdomain.html#tesselations`
+2) Tony Smith, Klein's quartic surface, `http://www.valdostamuseum.org/hamsmith/cdomain.html#tesselations`
 
-\
-[](http://www.valdostamuseum.org/hamsmith/Klein168.gif)
-
-::: {align="CENTER"}
-![](Klein168.gif)
-:::
+$$\includegraphics{../images/Klein168.png}$$
 
 You'll notice they're drawn in a fancy style: each heptagon has been
 "barycentrically subdivided" into 14 right triangles. But don't worry
@@ -95,15 +83,15 @@ the picture. That's a total of 24 heptagons.
 We wrap this thing up into a 3-holed torus using the numbers on the
 edges of the picture:
 
--   connect edges 1 and 6
--   connect edges 3 and 8
--   connect edges 5 and 10
--   connect edges 7 and 12
--   connect edges 9 and 14
--   connect edges 11 and 2
--   connect edges 13 and 4
+- connect edges 1 and 6
+- connect edges 3 and 8
+- connect edges 5 and 10
+- connect edges 7 and 12
+- connect edges 9 and 14
+- connect edges 11 and 2
+- connect edges 13 and 4
 
-In other words, connect edges 2n+1 and 2n+6 mod 14. To connect them the
+In other words, connect edges $2n+1$ and $2n+6$ $\mod 14$. To connect them the
 right way, make sure that triangles of the same color never touch each
 other.
 
@@ -134,40 +122,36 @@ These are like the driving directions the devil gives people who ask the
 way out of hell. LRLRLRLR and you're right back where you started.
 
 But the resulting Platonic surface is heavenly. It has lots of
-symmetries. Each of the 24 heptagons has 7-fold rotational symmetry -
+symmetries. Each of the 24 heptagons has 7-fold rotational symmetry ---
 and amazingly, all these rotations extend to a symmetry of the Platonic
 surface!
 
 Now let's talk about those little triangles. Since our surface is made
 of 24 heptagons, each chopped into 14 right triangles, there are a total
 of
-
-24 \times 14 = 336
-
+$$24 \times 14 = 336$$
 triangles. And this number is also the number of symmetries of the Klein
 quartic, including reflections!
 
 This is no coincidence. We can specify a symmetry by saying where it
 sends our favorite right triangle. Since it can go to any other
 triangle, there are 336 possibilities. If we exclude reflections, we get
-half as many symmetries: 24 \times 7 = 168.
+half as many symmetries: $24 \times 7 = 168$.
 
 By the way, this trick works for ordinary Platonic solids as well. For
 example, if we take a dodecahedron and barycentrically subdivide all 12
-pentagons, we get 10 x 12 = 120 right triangles. If we pick one of these
+pentagons, we get $10 \times 12 = 120$ right triangles. If we pick one of these
 as the "identity element", we can specify any symmetry by saying which
 triangle this triangle gets sent to. So, the set of triangles becomes a
-vivid **picture** of the 120-element symmetry group of the dodecahedron.
+vivid **picture** of the $120$-element symmetry group of the dodecahedron.
 It's called the "Coxeter complex". This idea generalizes in many
 directions, and is incredibly useful.
 
 Anyway... there is much more to say about this stuff. For example, if
 we take our hyperbolic plane tiled with heptagons and count them grouped
 according to how far they are from the central one, we get the sequence
-
-7, 7, 14, 21, 35, 56, 91, ....
-
-These are 7 times the Fibonacci numbers!
+$$7, 7, 14, 21, 35, 56, 91, \ldots$$
+These are $7$ times the Fibonacci numbers!
 
 To dig a bit deeper, though, it helps to think about complex analysis.
 
@@ -177,9 +161,7 @@ equipped with a complex structure. This was Felix Klein's viewpoint
 when he discovered all this stuff in about 1878. He showed this surface
 could be described by an incredibly symmetrical quartic equation in 3
 complex variables:
-
-u^3 v + v^3 w + w^3 u = 0
-
+$$u^3 v + v^3 w + w^3 u = 0$$
 where we count two solutions as the same if they differ by an overall
 factor. So, it's called "Klein's quartic curve".
 
@@ -192,30 +174,24 @@ curve.)
 You can read Klein's original article translated into English. It's
 available online as part of a whole *book* about his incredible quartic:
 
-3) Silvio Levy, The Eightfold Way: the Beauty of Klein's Quartic
-Curve, MSRI Research Publications 35, Cambridge U. Press, Cambridge
-1999. Also available as `http://www.msri.org/publications/books/Book35/`
+3) Silvio Levy, _The Eightfold Way: the Beauty of Klein's Quartic Curve_, MSRI Research Publications **35**, Cambridge U. Press, Cambridge 1999. Also available as `http://www.msri.org/publications/books/Book35/`
 
 This book was put out by the Mathematical Sciences Research Institute in
 Berkeley, to celebrate the completion of sculpture of Klein's quartic
 curve made by Helaman Ferguson. I must admit that the sculpture leaves
-me unmoved. But the curve itself - ah, that's another story!
+me unmoved. But the curve itself --- ah, that's another story!
 
 For example, Klein's quartic curve turns out to have the maximum number
 of symmetries of any 3-holed Riemann surface.
 
 Let's back up a minute and think about a Riemann surface with no holes:
 a sphere. There's only one way to make a sphere into a Riemann surface
-- it's called the Riemann sphere. You can think of it as the complex
+--- it's called the Riemann sphere. You can think of it as the complex
 numbers plus a point at infinity. This has *infinitely* many symmetries.
 They're called conformal transformations, and they all look like this:
-
-               az + b
-    z |--->   --------
-               cz + d
-
-They form a group called \mathrm{PSL}(2,\mathbb{C}), since it's the same as the group of
-2x2 complex matrices with determinant $1$, mod scalars. It's also the
+$$z\mapsto\frac{az+b}{cz+d}$$
+They form a group called $\mathrm{PSL}(2,\mathbb{C})$, since it's the same as the group of
+$2\times2$ complex matrices with determinant $1$, mod scalars. It's also the
 same as the Lorentz group!
 
 There are different ways to make a torus into a Riemann surface, some
@@ -225,81 +201,68 @@ symmetry group is always infinite.
 
 On the other hand, a Riemann surface with 2 or more holes can only have
 a *finite* group of conformal transformations. In fact, in 1893 Hurwitz
-proved that a Riemann surface with g holes has at most
-
-84(g - 1)
-
-For g = 3, this is 168. So, Klein's quartic surface is as symmetrical
+proved that a Riemann surface with $g$ holes has at most
+$$84(g - 1)$$
+For $g = 3$, this is 168. So, Klein's quartic surface is as symmetrical
 as possible! (We don't count reflections here, since they don't
-preserve the complex structure - they're like complex conjugation.)
+preserve the complex structure --- they're like complex conjugation.)
 
 Now I should break down and give the best description of Klein's
-quartic curve as a Riemann surface. Sitting inside \mathrm{PSL}(2,\mathbb{C}) is \mathrm{PSL}(2,\mathbb{Z}),
-where we only use integers a,b,c,d in our fractional linear
+quartic curve as a Riemann surface. Sitting inside $\mathrm{PSL}(2,\mathbb{C})$ is $\mathrm{PSL}(2,\mathbb{Z})$,
+where we only use integers $a,b,c,d$ in our fractional linear
 transformation
-
-               az + b
-    z |--->   --------
-               cz + d 
-
-This subgroup acts on the upper half-plane H, which is just another way
+$$z\mapsto\frac{az+b}{cz+d}$$
+This subgroup acts on the upper half-plane $H$, which is just another way
 of thinking about the hyperbolic plane.
 
-Sitting inside \mathrm{PSL}(2,\mathbb{Z}) is a group \Gamma(7) consisting of guys where the
+Sitting inside $\mathrm{PSL}(2,\mathbb{Z})$ is a group $\Gamma(7)$ consisting of guys where the
 matrix
-
-    a  b
-
-    c  d 
-
+$$
+  \left(
+    \begin{array}{cc}
+      a&b\\c&d
+    \end{array}
+  \right)
+$$
 is congruent to the identity:
-
-    1  0
-
-    0  1
-
-modulo 7. This is an example of a "congruence subgroup"; these serve
+$$
+  \left(
+    \begin{array}{cc}
+      1&0\\0&1
+    \end{array}
+  \right)
+$$
+modulo $7$. This is an example of a "congruence subgroup"; these serve
 to relate complex analysis to number theory in lots of cool ways. In
 particular, Klein's quartic curve is just
-
-H/\Gamma(7)
-
-Since \Gamma(7) is a normal subgroup of \mathrm{PSL}(2,\mathbb{Z}), the quotient group
-
-\mathrm{PSL}(2,\mathbb{Z})/\Gamma(7) = \mathrm{PSL}(2,\mathbb{Z}/7)
-
+$$H/\Gamma(7)$$
+Since $\Gamma(7)$ is a normal subgroup of $\mathrm{PSL}(2,\mathbb{Z})$, the quotient group
+$$\mathrm{PSL}(2,\mathbb{Z})/\Gamma(7) = \mathrm{PSL}(2,\mathbb{Z}/7)$$
 acts as symmetries of Klein's quartic curve. And, this group has 168
 elements!
 
 In fact, this group is the second smallest nonabelian simple group. The
 smallest one is the rotational symmetry group of the icosahedron, which
-has 60 elements. This group is actually \mathrm{PSL}(2,\mathbb{Z}/5), and Klein had run
+has 60 elements. This group is actually $\mathrm{PSL}(2,\mathbb{Z}/5)$, and Klein had run
 into it in his work on the icosahedron and quintic equations (see
 ["Week 213"](#week213)). So, it's actually far from sheer luck
-that he then moved on to \mathrm{PSL}(2,\mathbb{Z}/7) and ran into his wonderful quartic
+that he then moved on to $\mathrm{PSL}(2,\mathbb{Z}/7)$ and ran into his wonderful quartic
 curve.
 
-By the way, this 168-element group is also known as \mathrm{PSL}(3,Z/2) - the
+By the way, this $168$-element group is also known as $\mathrm{PSL}(3,\mathbb{Z}/2)$ --- the
 symmetry group of the "Fano plane". This is a name for the projective
-plane over Z/2. The Fano plane is closely related to the octonions:
+plane over $\mathbb{Z}/2$. The Fano plane is closely related to the octonions:
 
-3) John Baez, The Fano plane,
-`http://math.ucr.edu/home/baez/octonions/node4.html`
+3) John Baez, "The Fano plane", `http://math.ucr.edu/home/baez/octonions/node4.html`
 
-\
+$$\includegraphics{../images/fano.jpg}$$
 
-::: {align="CENTER"}
-![](fano.jpg)
-:::
-
-So in fact, our 168-element group acts on the set of octonion
+So in fact, our $168$-element group acts on the set of octonion
 multiplication tables:
 
-4) Tony Smith, Octonion products,
-`http://www.valdostamuseum.org/hamsmith/480op.html`
+4) Tony Smith, "Octonion products", `http://www.valdostamuseum.org/hamsmith/480op.html`
 
-5) Geoffrey Dixon, Octonion multiplication tables,
-`http://www.7stones.com/Homepage/octotut0.html`
+5) Geoffrey Dixon, "Octonion multiplication tables", `http://www.7stones.com/Homepage/octotut0.html`
 
 And, as James Dolan just noted today, and Tony Smith seems to have known
 all along, there's a way to draw the Fano plane that even *looks* like
@@ -307,26 +270,16 @@ the diagram Klein and Fricke used to build the Klein quartic. Here's a
 picture drawn by Burkard Polster, author of "The Mathematics of
 Juggling" and "Geometries on Surfaces":
 
-\
-
-::: {align="CENTER"}
-![](symfano.gif)
-:::
-
-\
+$$\includegraphics{../images/symfano.png}$$
 
 So, something interesting is going on, and I want to know what it is!
 
 By the way, fans of the quaternions and octonions may like this review
 of Conway and Smith's book:
 
-6) John Baez, review of "On Quaternions and Octonions: Their Geometry,
-Arithmetic and Symmetry", by John H. Conway and Derek A. Smith, Bull.
-Amer. Math. Soc. 42 (2005), 229-243. Available at
-`http://www.ams.org/bull/2005-42-02/` and
-`http://math.ucr.edu/home/baez/octonions/node24.html`
+6) John Baez, "review of _On Quaternions and Octonions: Their Geometry, Arithmetic and Symmetry_, by John H. Conway and Derek A. Smith", _Bull. Amer. Math. Soc._ **42** (2005), 229--243. Available at `http://www.ams.org/bull/2005-42-02/` and `http://math.ucr.edu/home/baez/octonions/node24.html`
 
-It's packed with cool pictures and weird facts - a more refined version
+It's packed with cool pictures and weird facts --- a more refined version
 of the material in ["Week 193"](#week193) and
 ["Week 194"](#week194).
 
@@ -334,41 +287,33 @@ It builds up to a kind of crazy climax in which I describe how when you
 pack spheres as densely as possible in 8 dimensions, each sphere touches
 240 others... and if you look at the 240 neighbors of a given sphere,
 each one of those neighbors touches 56 other neighbors. Then I explain
-how this gives rise to a 56-dimensional representation of the
-exceptional group E7 - its smallest nontrivial representation! And, how
-it gives rise to a 57-dimensional manifold on which the exceptional
-group E8 acts - the smallest space on which it acts nontrivially!
+how this gives rise to a $56$-dimensional representation of the
+exceptional group $\mathrm{E}_7$ --- its smallest nontrivial representation! And, how
+it gives rise to a $57$-dimensional manifold on which the exceptional
+group $\mathrm{E}_8$ acts --- the smallest space on which it acts nontrivially!
 
 Bertram Kostant is one of the real gurus of Lie theory. He teaches at
 MIT, and he has a strong fondness for exceptional Lie groups. When he
 saw this review of mine, he mentioned a couple of other papers that
-construct the 57-dimensional space on which E8 acts:
+construct the **57**-dimensional space on which $\mathrm{E}_8$ acts:
 
-7) Ranee Brylinski and Bertram Kostant, Lagrangian models of minimal
-representations of E6, E7, and E8, in Functional Analysis on the Eve of
-the 21st Century, vol. 1, Progress in Math. 131, Birkhauser, Boston,
-1995, pp. 13-53.
+7) Ranee Brylinski and Bertram Kostant, "Lagrangian models of minimal representations of $\mathrm{E}_6$, $\mathrm{E}_7$, and $\mathrm{E}_8$", in _Functional Analysis on the Eve of the 21st Century_, vol. **1**, Progress in Math. **131**, Birkhauser, Boston, 1995, pp. 13--53.
 
-Bertram Kostant, Minimal coadjoint orbits and symplectic induction, in
-The Breadth of Symplectic and Poisson geometry, 391-422, Progress in
-Math. 232, Birkhauser, Boston, 2005. Also available as
-`http://www.arXiv.org/abs/math.SG/0312252`
+    Bertram Kostant, "Minimal coadjoint orbits and symplectic induction", in _The Breadth of Symplectic and Poisson geometry_, 391--422, Progress in Math. **232**, Birkhauser, Boston, 2005. Also available as `http://www.arXiv.org/abs/math.SG/0312252`
 
 I've got to read these sometime.
 
 Having the number 56 on my brain, I can't resist nothing that if you
 take Klein's quartic curve tiled by heptagons, and you count the
 vertices, you get
-
-24 \times 7 / 3 = 56
-
+$$24 \times 7 / 3 = 56$$
 since each vertex is shared by 3 heptagons. I'm hoping this is not a
 coincidence!
 
 Okay, that's all for this week, except for some silly stuff....
 
 First of all, speaking of octonions, Geoff Corbishley just told me that
-their inventor, John Thomas Graves, is a relative of Robert Graves - the
+their inventor, John Thomas Graves, is a relative of Robert Graves --- the
 author of "I Claudius".
 
 Second of all, I hope you've figured out the puzzle I gave at the
@@ -383,33 +328,37 @@ Astrologers liked to list the planets in order of decreasing orbital
 period, counting the sun as having a period of one year, and the moon as
 period of one month:
 
-    Saturn    (29 years)  
-    Jupiter   (12 years) 
-    Mars      (687 days)  
-    Sun       (365 days)
-    Venus     (224 days)
-    Mercury   (88 days)
-    Moon      (29.5 days)
+| Planet | Orbital period |
+| :----- | :------------- |
+| Saturn | 29 years |
+| Jupiter | 12 years |
+| Mars | 687 days |
+| Sun | 365 days |
+| Venus | 224 days |
+| Mercury | 88 days |
+| Moon | 29.5 days |
 
 For the purposes of astrology they wanted to assign a planet to each
 hour of each day of the week. To do this, they assigned Saturn to the
 first hour of the first day, Jupiter to the second hour of the first
 day, and so on, cycling through the list of planets over and over, until
-each of the 24 \times 7 = 168 hours was assigned a planet. Each day was then
+each of the $24 \times 7 = 168$ hours was assigned a planet. Each day was then
 named after the first hour in that day. Since 24 mod 7 equals 3, this
 amounts to taking the above list and cycling around it, reading off
 every third planet:
 
-    Saturn  (Saturday)  
-    Sun     (Sunday)   
-    Moon    (Monday)  
-    Mars    (Tuesday)  
-    Mercury (Wednesday)
-    Jupiter (Thursday)
-    Venus   (Friday)
+|    |    |
+| :- | :- |
+| Saturn | Saturday |
+| Sun | Sunday |
+| Moon | Monday |
+| Mars | Tuesday |
+| Mercury | Wednesday |
+| Jupiter | Thursday |
+| Venus | Friday |
 
 And that's how they got listed in this order! At least, this is what
-the Roman historian Dion Cassius (AD 150-235) claims. Nobody knows for
+the Roman historian Dion Cassius (AD 150--235) claims. Nobody knows for
 sure.
 
 ------------------------------------------------------------------------
@@ -417,12 +366,7 @@ sure.
 **Addendum:** Mike Stay took Don Hatch's picture and drew numbers from
 1 to 24 showing how to identify heptagons in order to get the Klein
 quartic curve:
-
-\
-
-::: {align="CENTER"}
-![](7-3.gif)
-:::
+$$\includegraphics{../images/7-3.png}$$
 
 Gerard Westendorp had some interesting comments on what I wrote:
 
@@ -558,7 +502,7 @@ I replied:
 >
 > If you look here:
 >
-> -   Hermann Karcher and Mattias Weber, The Geometry of Klein's
+> - Hermann Karcher and Mattias Weber, The Geometry of Klein's
 >     Riemann Surface, in The Eightfold Way: the Beauty of Klein's
 >     Quartic Curve, ed. Silvio Levy, MSRI Research Publications 35,
 >     Cambridge U. Press, Cambridge 1999. Also available as
@@ -625,16 +569,16 @@ I replied:
 > English is more complicated, but I'm so used to it that I forgot
 > people might find the connection to Latin mysterious:
 >
-> -   "Tuesday" comes from "Tiu" or "Tyr", an ancient Germanic god
+> - "Tuesday" comes from "Tiu" or "Tyr", an ancient Germanic god
 >     of war whom the Romans identified with Mars. We see traces of this
 >     in the German "Dienstag" as well.
-> -   "Wednesday" comes from "Woden" or "Odin", a Germanic god
+> - "Wednesday" comes from "Woden" or "Odin", a Germanic god
 >     whom the Romans identified with Mercury. Modern German uses
 >     "Mittwoch" instead, which means "mid-week".
-> -   "Thursday" comes from "Thor", a Germanic thunder god whom the
+> - "Thursday" comes from "Thor", a Germanic thunder god whom the
 >     Romans identified with Jupiter. Modern German uses "Donnerstag"
 >     instead, with "Donner" meaning "thunder".
-> -   "Friday" comes from "Freya" or "Frigga", a Germanic goddess
+> - "Friday" comes from "Freya" or "Frigga", a Germanic goddess
 >     of married love whom the Romans identified with Venus. The German
 >     "Freitag" is very similar.
 
