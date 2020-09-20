@@ -3,14 +3,10 @@
 There are lots of different things called "zeta functions" in
 mathematics and physics. The grand-daddy of them all is the Riemann zeta
 function:
-
-\zeta(s) = 1/1^s^ + 1/2^s^ + 1/3^s^ + 1/4^s^ + ....
-
+$$\zeta(s) = \frac{1}{1^s} + \frac{1}{2^s} + \frac{1}{3^s} + \frac{1}{4^s} + \ldots$$
 This is deeply related to prime numbers, thanks to Euler's product
 formula
-
-\zeta(s) = ∏ 1/(1 - p^-s^)
-
+$$\zeta(s) = \prod\frac{1}{1 - p^{-s}}$$
 where we take a product over all primes. This formula is fun to prove:
 just use the geometric series to expand each factor, multiply them out
 and see what happens!
@@ -20,44 +16,34 @@ many primes are less than a given number as a sum over the *zeros* of
 the Riemann zeta function. Instead of showing you this formula, I'll
 just urge you to watch a *movie* of how it works:
 
-1) Matthew Watkins, Animation: the prime counting function \pi (x),
-`http://www.maths.ex.ac.uk/~mwatkins/zeta/pianim.htm`
+1) Matthew Watkins, Animation: the prime counting function $\pi(x)$, `http://www.maths.ex.ac.uk/~mwatkins/zeta/pianim.htm`
 
 Thanks to this formula, information about the Riemann zeta function is
 secretly information about the distribution of primes!
 
 For example, the Riemann Hypothesis says that when we analytically
 continue the zeta function to the complex plane, the only zeros occur at
-negative even integers and numbers with real part equal to 1/2. And,
+negative even integers and numbers with real part equal to $1/2$. And,
 knowing this would be equivalent to knowing that the number of primes
-less than x differs from
-
-              x
-    Li(x) =  \int  dt/ln t  
-             2
-
-by less than some constant times ln(x) √x. Everyone feels sure these
+less than $x$ differs from
+$$\mathrm{Li}(x) = \int_2^x \frac{dt}{\ln t}$$
+by less than some constant times $\ln(x)\sqrt{x}$. Everyone feels sure these
 facts are true. But, despite over a century of hard work and a
 million-dollar prize offered by the Clay Mathematics Institute, nobody
 has come close to proving them!
 
 It's known that apart from the negative even integers, the only place
-the Riemann \zeta function can vanish is in the strip where
-
-0 < Re(s) < 1
-
+the Riemann $\zeta$ function can vanish is in the strip where
+$$0 < \Re(s) < 1$$
 But, nobody has been able to show that all the zeros in this "critical
 strip" lie on the line
-
-Re(s) = 1/2
-
+$$\Re(s) = \frac12$$
 Of course, this can be checked in special cases. The current record may
 belong to Xavier Gourdon, who on October 12th of 2004 claimed to have
-shown - with the help of a computer - that the first *ten trillion*
+shown --- with the help of a computer --- that the first *ten trillion*
 zeros in the critical strip lie on the line Re(s) = 1/2.
 
-2) Xavier Gourdon, Computation of zeros of the Riemann zeta function,
-`http://numbers.computation.free.fr/Constants/Miscellaneous/zetazeroscompute.html`
+2) Xavier Gourdon, Computation of zeros of the Riemann zeta function, `http://numbers.computation.free.fr/Constants/Miscellaneous/zetazeroscompute.html`
 
 Alas, such monster calculations don't seem helpful for proving the
 Riemann hypothesis. They're more useful when it comes to formulating
@@ -67,9 +53,7 @@ The most famous of these traces its way back to a teatime conversation
 between Hugh Montgomery and Freeman Dyson... you can read the story
 here:
 
-3) K. Sabbagh, Dr. Riemann's Zeros, Atlantic Books, 2002, pp. 134-136.
-Story about Hugh Montgomery and Freeman Dyson also available at
-`http://www.maths.ex.ac.uk/~mwatkins/zeta/dyson.htm`
+3) K. Sabbagh, _Dr. Riemann's Zeros_, Atlantic Books, 2002, pp. 134=-136. Story about Hugh Montgomery and Freeman Dyson also available at `http://www.maths.ex.ac.uk/~mwatkins/zeta/dyson.htm`
 
 The upshot is that the distribution of spacings between Riemann zeros
 closely mimics the spacings between eigenvalues of a large randomly
@@ -81,19 +65,17 @@ zeta function is to find a chaotic classical system whose quantized
 version has energy levels related to the Riemann zeta zeros!
 
 I would like to understand this stuff, but it all seems a bit
-intimidating - especially since the coolest aspects are the ones
+intimidating --- especially since the coolest aspects are the ones
 *nobody* understands.
 
 Luckily, the Riemann zeta function has spawned a lot of other functions
 called zeta functions and L-functions, and many of these are *simpler*
-than the original one - or at least raise fascinating questions that are
+than the original one --- or at least raise fascinating questions that are
 easier to solve. Many of these are listed here:
 
-4) Matthew R. Watkins, A directory of all known zeta functions,
-`http://www.maths.ex.ac.uk/~mwatkins/zeta/directoryofzetafunctions.htm`
+4) Matthew R. Watkins, A directory of all known zeta functions, `http://www.maths.ex.ac.uk/~mwatkins/zeta/directoryofzetafunctions.htm`
 
-Matthew R. Watkins, A directory of all known L-functions,
-`http://www.maths.ex.ac.uk/~mwatkins/zeta/directoryofL-functions.htm`
+    Matthew R. Watkins, A directory of all known L-functions, `http://www.maths.ex.ac.uk/~mwatkins/zeta/directoryofL-functions.htm`
 
 Lately I've been talking about zeta functions with James Dolan and also
 Darin Brown, whose work I mentioned last week. I feel some things are
@@ -109,32 +91,25 @@ algebraic numbers. One can define "algebraic integers" for any number
 field, and they act a lot like the ordinary integers. So, one can define
 a zeta function for any number field.
 
-Technically, we do this by summing over all nonzero ideals I in the ring
-A of algebraic integers in our number field:
-
-\zeta(s) = \sum |I|^-s^
-
-where |I| is a number called the "norm" of I, which is just the
-cardinality of A/I. We also have an Euler product formula:
-
-\zeta(s) = ∏ 1/(1 - |P|^-s^)
-
-where we take the product over prime ideals P.
+Technically, we do this by summing over all nonzero ideals $I$ in the ring
+$A$ of algebraic integers in our number field:
+$$\zeta(s) = \sum |I|^{-s}$$
+where $|I|$ is a number called the "norm" of $I$, which is just the
+cardinality of $A/I$. We also have an Euler product formula:
+$$\zeta(s) = \prod \frac{1}{1 - |P|^{-s}}$$
+where we take the product over prime ideals $P$.
 
 For example, if our number field is the rational numbers, its algebraic
 integers are the ordinary integers. So, each ideal consists of multiples
-of some number n = 1,2,3,..., and its norm is just n, so we get:
+of some number $n = 1,2,3,\ldots$, and its norm is just $n$, so we get:
+$$\zeta(s) = \frac{1}{1^s} + \frac{1}{2^s} + \frac{1}{3^s} + \frac{1}{4^s} + \ldots$$
 
-\zeta(s) = 1/1^s^ + 1/2^s^ + 1/3^s^ + 1/4^s^ + ....
-
-A more fun example is the number field Q\[i\], where we take the
-rational numbers and throw in a square root of -1. Here the algebraic
-integers are the so-called "Gaussian integers" Z\[i\], namely guys
+A more fun example is the number field $\mathbb{Q}[i]$, where we take the
+rational numbers and throw in a square root of $-1$. Here the algebraic
+integers are the so-called "Gaussian integers" $\mathbb{Z}[i]$, namely guys
 like
-
-a + bi
-
-where a and b are ordinary integers.
+$$a + bi$$
+where $a$ and $b$ are ordinary integers.
 
 In this example it's easiest to work out the zeta function using the
 Euler product formula. If you ask one of your number theory pals about
@@ -144,21 +119,19 @@ prime ideals in the Gaussian integers, they'll say:
 > ideal is generated by a single element. So, we can actually talk about
 > *prime numbers* in the Gaussian integers. And there are 3 cases:
 >
-> -   **INERT**: An ordinary prime number of the form 4n+3 is also prime
+> - **INERT**: An ordinary prime number of the form $4n+3$ is also prime
 >     in the Gaussian integers: for example, 3.
-> -   **SPLIT**: An ordinary prime numbers of the form 4n+1 is the
+> - **SPLIT**: An ordinary prime numbers of the form $4n+1$ is the
 >     product of two complex conjugate primes in the Gaussian integers:
->     for example, 5 = (2+i)(2-i).
-> -   **RAMIFIED**: The ordinary prime 2 equals (1+i)(1-i), but here the
->     two factors give the same prime ideal, since (1-i) = i (1+i), and
->     i is invertible in the Gaussian integers.
+>     for example, $5 = (2+i)(2-i)$.
+> - **RAMIFIED**: The ordinary prime 2 equals $(1+i)(1-i)$, but here the
+>     two factors give the same prime ideal, since $(1-i) = i(1+i)$, and
+>     $i$ is invertible in the Gaussian integers.
 >
 > We get all primes in the Gaussian integers this way."
 
 So, the zeta function of the Gaussian integers goes like this:
-
-\zeta(s) = 1/(1 - 2^-s^) 1/(1 - 3^-2s^) 1/(1 - 5^-s^) 1/(1 - 5^-s^) ...
-
+$$\zeta(s) = \frac{1}{1 - 2^{-s}} \frac{1}{1 - 3^{-2s}} \frac{1}{1 - 5^{-s}} \frac{1}{1 - 5^{-s}} \ldots$$
 I went just far enough to show you what happens for each kind of prime.
 As you might expect, we get two factors for each prime that splits in
 two.
@@ -172,13 +145,13 @@ the set of ordinary primes. Sitting over each ordinary prime there are
 one or more prime ideals in our number field:
 
                         2+i                  3+2i
-      --- 1+i --- 3 ---     --- 7 --- 11 ---      ---   GAUSSIAN INTEGERS 
+      --- 1+i --- 3 ---     --- 7 --- 11 -      ---   GAUSSIAN INTEGERS 
                         2-i                  3-2i           
 
 
       -----2------3------5------7-----11------13-----      INTEGERS
 
-And, the \zeta function records the details of how this works!
+And, the $\zeta$ function records the details of how this works!
 
 For more on this covering space philosophy see
 ["Week 205"](#week205) and ["Week 213"](#week213). This
@@ -201,7 +174,7 @@ dynamical system a "Z-set".
 
 Whatever you call it, its zeta function is defined to be:
 
-\zeta(s) = ∏ 1/(1 - |P|^-s^)
+\zeta(s) = \prod 1/(1 - |P|^{-s})
 
 where P ranges over all periodic orbits and |P| is the *exponential*
 of the size of this periodic orbit.
@@ -221,7 +194,7 @@ X is finite. Decategorification at work!
 
 We can also rewrite this zeta function as a sum:
 
-\zeta(s) = \sum |I|^-s^
+\zeta(s) = \sum |I|^{-s}
 
 where I ranges over all formal products of periodic orbits, and we
 define |P_1 ... P_n| = |P_1| ... |P_n|.
@@ -245,10 +218,10 @@ f~ t~\colon X \to X
 
 for each real number t. We can define a zeta function
 
-\zeta(s) = ∏ 1/(1 - |P|^-s^)
+\zeta(s) = \prod 1/(1 - |P|^{-s})
 
 where P ranges over all periodic orbits and |P| is the exponential of
-the "period" of P - meaning the time it takes for points on this orbit
+the "period" of P --- meaning the time it takes for points on this orbit
 to loop around back to where they started.
 
 A famous example is when we have a Riemannian manifold. A free particle
@@ -267,7 +240,7 @@ f\colon X \to X
 This is exactly like the "Frobenius automorphism" in number theory!
 
 All this is particularly interesting when our manifold is a quotient of
-the upper halfplane by a discrete group - see
+the upper halfplane by a discrete group --- see
 ["Week 215"](#week215) for more on this. The reason is that some of
 these quotients are related to number theory. So, we get some direct
 interactions with example A).
@@ -277,7 +250,7 @@ geodesic on a Riemannian manifold" and vastly simplify it by looking at
 closed loops in a graph with finitely many edges and vertices. We get a
 \zeta function
 
-\zeta(s) = ∏ 1/(1 - |P|^-s^)
+\zeta(s) = \prod 1/(1 - |P|^{-s})
 
 where P ranges over all "prime loops" in our graph: loops that don't
 backtrack or loop around more than once. Now |P| is the exponential of
@@ -323,7 +296,7 @@ sending x to x^p^. This is called the "Frobenius automorphism"!
 Since f is a discrete dynamical system, we can define its zeta function
 as in example B):
 
-\zeta(s) = ∏ 1/(1 - |P|^-s^)
+\zeta(s) = \prod 1/(1 - |P|^{-s})
 
 where P ranges over all periodic orbits, and |P| is the exponential of
 the size of the periodic orbit, defined using the base p.
@@ -334,8 +307,8 @@ prime p, we get the zeta function of our affine scheme. For example, the
 affine scheme Spec(Z) gives the Riemann zeta function.
 
 In fact, all of example A) fits neatly into this one as a sub-example.
-And if you know about schemes that aren't affine - like projective
-varieties, such as elliptic curves and other curves - you'll see this
+And if you know about schemes that aren't affine --- like projective
+varieties, such as elliptic curves and other curves --- you'll see this
 definition works for them too.
 
 If you know someone else's definition of the zeta function of a scheme,
@@ -429,7 +402,7 @@ otherwise, so:
 This is starting to look more like the zeta functions we know and love.
 It looks even better if we pick some prime number p and define
 
-\zeta(s) = Z(p^-s^)
+\zeta(s) = Z(p^{-s})
 
 Then we get
 
@@ -443,7 +416,7 @@ function of a disjoint union of discrete dynamical systems is the
 dynamical system is a disjoint union of cycles, we conclude that the
 definitions *always* agree. In other words,
 
-\zeta(s) = Z(p^-s^)
+\zeta(s) = Z(p^{-s})
 
 with
 
@@ -451,13 +424,13 @@ Z(u) = exp(\sum~n>0~ |fix(f^ n^)| u^n / n)
 
 is always equal to the zeta function defined in example B).
 
-So, don't let anyone fool you - there aren't lots of completely
+So, don't let anyone fool you --- there aren't lots of completely
 different kinds of zeta functions! There's just a few kinds, and we
 could probably boil them down to just ONE kind with some work.
 
 ------------------------------------------------------------------------
 
-*Some decades ago I made - somewhat in jest - the suggestion that one
+*Some decades ago I made --- somewhat in jest --- the suggestion that one
 should get accepted a non-proliferation treaty of zeta functions. There
-was becoming such an overwhelming variety of these objects.* - Atle
+was becoming such an overwhelming variety of these objects.* --- Atle
 Selberg
