@@ -458,7 +458,7 @@ Notes and digressions:
     > and if we multiply these formally the RHS of ($2$) becomes
     > $$1-\frac13+\frac15-\frac17+\frac19-\ldots$$
     > i.e., Gregory's series for $\pi/4$. Admittedly it's not apparent that this
-    > formal manipulation is valid. However for Dirichlet L-functions the
+    > formal manipulation is valid. However for Dirichlet $L$-functions the
     > Euler product is valid at $s = 1$. This requires some delicate analysis: for
     > details see Landau's book on prime numbers or Davenport's _Multiplicative Number Theory_.
 

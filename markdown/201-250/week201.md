@@ -39,7 +39,7 @@ Weil Conjecture (now solved), the Birch-Swinnerton-Dyer Conjecture, and
 bigger projects like the Langlands Program and developing the theory of
 "motives". And these problems rest on top of a solid foundation of
 beautiful stuff that's already known, like Galois theory and class
-field theory, and stuff about modular forms and L-functions.
+field theory, and stuff about modular forms and $L$-functions.
 
 As I'm gradually beginning to understand little bits of these things,
 I'm getting really excited about number theory... so I'm dying to

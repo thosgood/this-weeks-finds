@@ -9,7 +9,7 @@ a bit! I spent most of yesterday lying in bed reading. Now I want to
 talk some more about number theory.
 
 Let's see, where were we? I had just begun to introduce the theme of
-L-functions and their corresponding automorphic forms. My ultimate goal
+$L$-functions and their corresponding automorphic forms. My ultimate goal
 is to understand the Langlands Conjectures well enough to give a decent
 explanation of what they say. Instead of simply stating them, I'd like
 to really make them plausible, and this will take quite an elaborate
@@ -503,7 +503,7 @@ the case I discussed above, where K is the rational numbers:
 > Froehlich). Tate observes that Fourier analysis works on any locally
 > compact abelian group (Haar measure is the replacement for "usual"
 > measure), and then gives a very short proof of the analytic
-> continuation and functional equation of all Hecke's L-functions by
+> continuation and functional equation of all Hecke's $L$-functions by
 > simply pushing through an analogue of the proof you know of the
 > functional equation of the zeta function in this much more general
 > context. I think this is an amazingly powerful use of the adeles.
@@ -535,7 +535,7 @@ the case I discussed above, where K is the rational numbers:
 > (p-1)+pZ~p~, and 1/p+1/p+...+1/p (p times) is 1. But you can't do
 > this for C\[\[z\]\] because the cardinality of C is infinite. This
 > naive measure on Z~p~ is exactly what you need to define p-adic
-> L-functions, by the way! But they are another (related) story.
+> $L$-functions, by the way! But they are another (related) story.
 >
 > When you move from Discrete Valuation Rings to Dedekind Domains the
 > same care needs to be applied: it's a famous theorem that the ideal
@@ -583,7 +583,7 @@ I replied:
 >      > locally compact group (Haar measure is the replacement for 
 >      > "usual" measure), and then gives a very short proof 
 >      > of the analytic continuation and functional equation of all 
->      > Hecke's L-functions by simply pushing through an analogue of 
+>      > Hecke's $L$-functions by simply pushing through an analogue of 
 >      > the proof you know of the functional equation of the zeta 
 >      > function in this much more general context.  I think this is 
 >      > an amazingly powerful use of the adeles.  Tate's approach 
@@ -832,10 +832,10 @@ This is called *class field theory*.
 > finds the one that works, rather than working out which one is the
 > right one by pure thought).
 >
-> You should talk about special values of L-functions! Do you know the
+> You should talk about special values of $L$-functions! Do you know the
 > analytic class number formula? The degree of H over K is called the
 > class number of K and, totally amazingly, it is related to the special
-> value of an L-function. The Birch-Swinnerton-Dyer conjecture is just a
+> value of an $L$-function. The Birch-Swinnerton-Dyer conjecture is just a
 > natural generalisation of this formula to elliptic curves over the
 > rationals, but again, what used to be an analogy has turned into two
 > instances of a more general piece of mathematics (ranks of K-groups,

@@ -239,7 +239,7 @@ as `http://www.ams.org/online_bks/ulect4/`
 Since we're also struggling to understand the Langlands program, this
 looks good too:
 
-17) Armand Borel, Automorphic Forms, Representations, and L-functions,
+17) Armand Borel, Automorphic Forms, Representations, and $L$-functions,
 AMS, 2 volumes, Providence, Rhode Island, 1979. Also available at
 `http://www.ams.org/online_bks/pspum331/` and
 `http://www.ams.org/online_bks/pspum332/`

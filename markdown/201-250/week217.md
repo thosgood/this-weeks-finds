@@ -20,7 +20,7 @@ Conjecture is really interesting! It's all about the connection between
 geometry, complex analysis and arithmetic, and it ties together some big
 ideas in an unexpected way. This is how it usually works in number
 theory: cute but goofy puzzles get solved as a side-effect of deep and
-interesting results related to zeta functions and L-functions - sort of
+interesting results related to zeta functions and $L$-functions - sort of
 like how the powdered drink "Tang" was invented as a spinoff of going
 to the moon.
 
@@ -49,12 +49,12 @@ This implies a good estimate on the number of primes less than a given
 number, as described in ["Week 216"](#week216).
 
 **B) The Generalized Riemann Hypothesis - the zeros of any Dirichlet
-L-function that lie in the critical strip actually lie on the line Re(s)
+$L$-function that lie in the critical strip actually lie on the line Re(s)
 = 1/2.**
 
 Still open, since the Riemann Hypothesis is a special case.
 
-A "Dirichlet L-function" is a function like this:
+A "Dirichlet $L$-function" is a function like this:
 
 L(χ,s) = \sum~n\ >\ 0~ χ(n)/n^s^
 
@@ -65,13 +65,13 @@ function on the positive integers such that
 
 If we take χ = 1 we get back the Riemann zeta function.
 
-Dirichlet used these L-functions to prove that there are infinitely many
+Dirichlet used these $L$-functions to prove that there are infinitely many
 primes equal to k mod n as long as k is relatively prime to n. The
 Generalized Riemann Hypothesis would give a good estimate on the number
 of such primes less than a given number, just as the Riemann Hypothesis
 does for plain old primes.
 
-Erich Hecke established the basic properties of Dirichlet L-functions in
+Erich Hecke established the basic properties of Dirichlet $L$-functions in
 1936, including a special symmetry called the "functional equation"
 which Riemann had already shown for his zeta function. So I bet Hecke
 must have dreamt of the Generalized Riemann Hypothesis, even if he
@@ -88,14 +88,14 @@ I described the zeta functions of number fields in
 functions". Hecke also proved a functional equation for these back in
 1936.
 
-**D) The Grand Riemann Hypothesis - for any automorphic L-function, the
+**D) The Grand Riemann Hypothesis - for any automorphic $L$-function, the
 zeros in the critical strip actually lie on the line Re(s) = 1/2.**
 
 This is still open too, since it includes A)-C) as special cases!
 
-I don't want to tell you what "automorphic L-functions" are yet. For
+I don't want to tell you what "automorphic $L$-functions" are yet. For
 now, you can just think of them as grand generalizations of both
-Dirichlet L-functions and zeta functions of number fields.
+Dirichlet $L$-functions and zeta functions of number fields.
 
 **E) The Weil Conjectures - The zeros and poles of the zeta function of
 any smooth algebraic variety over a finite field lie on the lines Re(s)
@@ -113,7 +113,7 @@ the attack on this problem!
 
 **F) The Taniyama-Shimura Conjecture - every elliptic curve over the
 rational numbers is a modular curve.** Or, equivalently: every
-L-function of an elliptic curve is the L-function of a modular curve.
+$L$-function of an elliptic curve is the $L$-function of a modular curve.
 
 This was first conjectured in 1955 by Yukata Taniyama, who worked on it
 with Goro Shimura until committing suicide in 1958. Around 1982 Gerhard
@@ -123,13 +123,13 @@ Taylor proved a big enough special case of the Taniyama-Shimura
 Conjecture to get Fermat's Last Theorem. The full conjecture was shown
 in 1999 by Breuil, Conrad, Diamond, and Taylor.
 
-I don't want to say what L-functions of curves are yet... but they are
-a lot like Dirichlet L-functions.
+I don't want to say what $L$-functions of curves are yet... but they are
+a lot like Dirichlet $L$-functions.
 
 **G) The Langlands Conjectures - any automorphic representation \pi  of a
 connected reductive group G, together with a finite-dimensional
-representation of its L-group, gives an automorphic L-function L(s,\pi ).**
-Also: these L-functions all satisfy functional equations. Furthermore,
+representation of its L-group, gives an automorphic $L$-function L(s,\pi ).**
+Also: these $L$-functions all satisfy functional equations. Furthermore,
 they depend functorially on the group G, its L-group, and their
 representations.
 
@@ -317,7 +317,7 @@ function.
 \zeta is dead, long live θ!
 
 The Riemann zeta function is just like all the fancier zeta functions
-and L-functions in this respect. The fact that they satisfy a
+and $L$-functions in this respect. The fact that they satisfy a
 "functional equation" is just another way of saying their inverse
 Mellin transforms are automorphic forms... and it's these automorphic
 forms that exhibit the deeper aspects of what's going on.
@@ -450,7 +450,7 @@ The official problem description by Enrico Bombieri talks about evidence
 for the Riemann Hypothesis, including the Weil Conjectures. The article
 by Peter Sarnak describes generalizations leading up to the Grand
 Riemann Hypothesis. In particular, he gives a super-rapid introduction
-to automorphic L-functions.
+to automorphic $L$-functions.
 
 Here's a nice webpage that sketches Wiles and Taylor's proof of
 Fermat's last theorem:
@@ -460,7 +460,7 @@ Fermat's last theorem:
 
 I like the quick introductions to "Elliptic curves and elliptic
 functions", "Elliptic curves and modular functions", "Zeta and
-L-functions", and "Galois Representations" - they're neither too
+$L$-functions", and "Galois Representations" - they're neither too
 detailed nor too vague, at least for me.
 
 Here's a nice little intro to the Weil Conjectures:
@@ -540,7 +540,7 @@ He replied:
 > hand probably the most interesting cases have this property. Here is
 > an example. Take a sequence of complex numbers a_1, a_2,... which
 > is periodic with prime period p (primality probably isn't necessary
-> but it simplifies the combinatorics). Then the associated L-function
+> but it simplifies the combinatorics). Then the associated $L$-function
 >
 > \sum a_n/n^s^
 >
@@ -569,7 +569,7 @@ He replied:
 > multiplicative.
 >
 > But I can't really enlighten you much further. I know that the
-> L-function of an automorphic form has meromorphic continuation and
+> $L$-function of an automorphic form has meromorphic continuation and
 > that we understand the poles (but we only conjecturally understand the
 > zeroes). However if someone put some a_n in front of me I would
 > demand that they told me where the a_n had come from before I put my
@@ -747,7 +747,7 @@ He replied:
 > related to the traces of Frobenius elements on a $2$-dimensional p-adic
 > Galois representation (the Tate module of the curve). The moment I see
 > a Galois representation I think that this must be something to do with
-> automorphic forms, so that's why I believe that the L-function of an
+> automorphic forms, so that's why I believe that the $L$-function of an
 > elliptic curve should come from a modular form. And it does! On the
 > other hand, if you give me any finite set of primes p, and any
 > integers a~p~ with p running through the set, such that

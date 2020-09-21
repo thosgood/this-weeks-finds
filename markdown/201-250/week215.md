@@ -273,7 +273,7 @@ like this:
 | Splitting of prime ideal $Q$ of $K'$ | Lifting of prime geodesic $f$ to $H/G'$ |
 | Norm $N(Q)$ of ideal $Q$ | Norm $N(f)$ of closed geodesic $f$ |
 | Frobenius conjugacy class of $Q$ | Frobenius conjugacy class of $f$ |
-| Artin L-function | Selberg zeta function |
+| Artin $L$-function | Selberg zeta function |
 
 (Here by "prime ideal of $K$" we mean a prime ideal in the ring of
 algebraic integers of $K$.)

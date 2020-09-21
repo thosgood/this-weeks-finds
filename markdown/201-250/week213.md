@@ -667,7 +667,7 @@ In fact, Kevin Buzzard's email was packed with wisdom. He wrote:
 > magic! Actually I'm being unfair, the relation between special values
 > of $\zeta$ and Euler characteristics is somehow less profound than this
 > stuff. I wish I knew more about it! It can actually be used to compute
-> certain values of L-functions (things more general than the zeta
+> certain values of $L$-functions (things more general than the zeta
 > function but along the same lines)...
 >
 > Kevin

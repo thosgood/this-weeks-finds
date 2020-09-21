@@ -62,7 +62,7 @@ For example, last night I saw this excellent hardcover book on sale for
 Theory, second edition, Science Press, 2005.
 
 It's a great overview of number theory, from the basics through class
-field theory to L-functions, modular forms and the Langlands program!
+field theory to $L$-functions, modular forms and the Langlands program!
 It's wisely divided into three sections: "problems and tricks",
 "ideas and theories", and "analogies and visions". Back when I used
 to hate number theory, I thought it was all problems and tricks. Now
