@@ -16,7 +16,7 @@ clouds.
 
 As the Huygens probe parachuted to the surface, it photographed what
 look like twisty riverbeds flowing into a large lake:
-$$\includegraphics{{../images/huyghens.2}.jpg}$$
+$$\includegraphics[max width=\linewidth]{{../images/huyghens.2}.jpg}$$
 People have long suspected that Titan has lakes of made of methane
 and/or ethane, but now we may be seeing them. And when Huygens landed,
 its sensors reported that it broke through a crusty surface and sunk
@@ -24,7 +24,7 @@ about 20 centimeters into something mushy: probably methane mud!
 
 The first color photo of the surface looks disappointingly like Mars at
 first sight:
-$$\includegraphics{{../images/huyghens.1}.jpg}$$
+$$\includegraphics[max width=\linewidth]{{../images/huyghens.1}.jpg}$$
 But, the surface is pumpkin-colored due to tholins or something, not
 rust red. The sky is orange too! The "rocks" could be water ice. And
 they've detected hints of volcanos that spew molten water and ammonia!
@@ -321,7 +321,7 @@ string theory and M-theory:
 
 4) Paolo Aschieri, Luigi Cantini and Branislav Jurco, "Nonabelian bundle gerbes, their differential geometry and gauge theory", available as [`hep-th/0312154`](https://arxiv.org/abs/hep-th/0312154).
 
-5) Paolo Aschieri and Branislav Jurco, "Gerbes, M5-brane anomalies and $\mathram{E}_8$ gauge theory", available as [`hep-th/0409200`](https://arxiv.org/abs/hep-th/0409200).
+5) Paolo Aschieri and Branislav Jurco, "Gerbes, M5-brane anomalies and $\mathrm{E}_8$ gauge theory", available as [`hep-th/0409200`](https://arxiv.org/abs/hep-th/0409200).
 
 Second, for mathematicians, some classic works by Breen:
 

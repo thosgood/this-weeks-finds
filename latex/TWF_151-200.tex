@@ -51,6 +51,7 @@
 \usepackage{tikz-cd}
 
 \usepackage{graphicx}
+\usepackage[export]{adjustbox}
 
 \makeatletter
 \newcommand{\xRightarrow}[2][]{\ext@arrow 0359\Rightarrowfill@{#1}{#2}}
@@ -429,7 +430,7 @@ do with this \(\mathrm{PU}(H)\) group:
 \end{enumerate}
 
 Here's how it goes, at least in part. We say a linear operator
-\[A\colon  H \to  H\] is ``Hilbert-Schmidt'' if the trace of \(AA^*\) is
+\[A\colon H \to H\] is ``Hilbert-Schmidt'' if the trace of \(AA^*\) is
 finite. The space of Hilbert-Schmidt operators is a Hilbert space in its
 own right, with this inner product:
 \[\langle A,B\rangle = \operatorname{tr}(AB^*)\] Let's call this Hilbert
@@ -4171,40 +4172,35 @@ saying a little right now\ldots.
 
 As we've seen, a crucial part of the super-Poincare algebra is the map
 taking a pair of real spinors to a vector. Abstractly we can write this
-as follows: \[m\colon  S \times S \to  V.\] In certain dimensions we can
+as follows: \[m\colon S \times S \to V.\] In certain dimensions we can
 split the spinor space \(S\) into spaces of left- and right-handed
 spinors, say \(S_+\) and \(S_-\). Then we get a map
-\[m\colon  S_+ \times S_- \to  V.\] This stuff works both for Minkowski
+\[m\colon S_+ \times S_- \to V.\] This stuff works both for Minkowski
 spacetime and for Euclidean space. If we do it for Euclidean space, we
 find a marvelous fact\ldots.
 
 In certain special cases --- namely dimensions 1 and 2 --- the dimension
 of \(V\) matches the dimension of \(S\). This lets us identify \(V\)
-with \(S\). Then the map \[m\colon  S \times S \to V\] turns out to be
+with \(S\). Then the map \[m\colon S \times S \to V\] turns out to be
 \emph{multiplication} for the real and complex numbers, respectively.
 
 In other special cases --- namely dimensions 4 and 8 --- the dimension
 of \(V\) matches the dimension of \(S_+\), and also \(S_-\). This lets
 us identify \(V\) with \(S_+\) and \(S_-\). Then the map
-\[m\colon  S_+ \times S_- \to  V\] turns out to be \emph{multiplication}
+\[m\colon S_+ \times S_- \to V\] turns out to be \emph{multiplication}
 for the quaternions and octonions, respectively.
 
 In other words, the vector-spinor interaction which plays such an
-important role in physics:
-
-\begin{verbatim}
-                  \
-                   \
-                    \
-                     ~~~~~~~~~
-                    /
-                   /
-                  /
-\end{verbatim}
-
-also gives rise to all the division algebras! (Here I've drawn the usual
-picture of a spinor particle and a spinor antiparticle annihilating to
-form a vector boson: this is a physics application of the map \(m\).)
+important role in physics: \[
+  \begin{tikzpicture}[thick]
+    \draw (0,0) to node[rotate=45]{$\blacktriangle$} (1,-1);
+    \draw (1,-1) to node[rotate=-45]{$\blacktriangle$} (0,-2);
+    \draw [decorate, decoration=snake] (1,-1) to (3,-1);
+  \end{tikzpicture}
+\] also gives rise to all the division algebras! (Here I've drawn the
+usual picture of a spinor particle and a spinor antiparticle
+annihilating to form a vector boson: this is a physics application of
+the map \(m\).)
 
 Another crucial part of the super-Poincare algebra is the action of the
 Lorentz Lie algebra on spinors. Again, this has a Euclidean analogue,
@@ -13039,7 +13035,7 @@ First, it's worth noting that lots of mathematical gadgets form not just
 categories but also \(2\)-categories. For example, we all know the
 category of groups, where the objects are groups and the morphisms are
 homomorphisms. But there is also a \(2\)-category lurking around here!
-Between any morphisms \[f,f'\colon  G \to  H\] we can define a
+Between any morphisms \[f,f'\colon G \to H\] we can define a
 \(2\)-morphism \[a\colon f \Rightarrow f'\] to be an element of \(H\)
 with the property that
 \[af(g) = f'(g)a    \quad\mbox{for all $g$ in $G$.}\] This just says
@@ -16206,7 +16202,8 @@ In fact, Cris Moore first discovered the figure-8 solution of the
 gravitational 3-body problem in his 1993 paper, using computer
 calculations. His student Michael Nauenberg made this movie of it, which
 you can find with many others on Moore's website:
-\[\includegraphics{../images/cris-moore-figure8.png}\] Also see:
+\[\includegraphics[max width=\linewidth]{../images/cris-moore-figure8.png}\]
+Also see:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -16485,22 +16482,22 @@ series of simple Lie groups and seeing what we get.
 
 \begin{verbatim}
   A1                                vectors 
-  \mathrm{SL}(2,\mathbb{C})                              o
+  SL(2,C)                              o
                                        2
 
 
   A2                        vectors        bivectors
-  \mathrm{SL}(3,\mathbb{C})                      o---------------o
+  SL(3,C)                      o---------------o
                                3               3
 
 
   A3                   vectors     bivectors      3-vectors
-  \mathrm{SL}(4,\mathbb{C})                o-------------o--------------o
+  SL(4,C)                o-------------o--------------o
                          4             6              4
 
 
   A4          vectors      bivectors      3-vectors    4-vectors
-  \mathrm{SL}(5,\mathbb{C})        o-------------o--------------o------------o
+  SL(5,C)        o-------------o--------------o------------o
                  5            10             10            5
 \end{verbatim}
 
@@ -16529,25 +16526,25 @@ series of simple Lie groups and seeing what we get.
 \begin{verbatim}
                                    isotropic 
   B1                              1d subspaces
-  \mathrm{Spin}(3,\mathbb{C})                             o
+  Spin(3,C)                             o
                                         1
 
 
-                            isotropic     isotropic          
+                            isotropic     isotropic
   B2                       1d subspaces  2d subspaces
-  \mathrm{Spin}(5,\mathbb{C})                     o======\Rightarrow=======o
+  Spin(5,C)                     o=======>=======o
                                 3               3
 
 
                      isotropic     isotropic     isotropic
   B3                1d subspaces  2d subspaces  3d subspaces
-  \mathrm{Spin}(7,\mathbb{C})              o--------------o======\Rightarrow=======o
+  Spin(7,C)              o--------------o=======>=======o
                          5              7               6
 
 
                isotropic     isotropic      isotropic     isotropic
   B4          1d subspaces  2d subspaces   3d subspaces  4d subspaces
-  \mathrm{Spin}(9,\mathbb{C})        o-------------o---------------o======\Rightarrow======o
+  Spin(9,C)        o-------------o---------------o=======>======o
                    7            11              12             10 
 \end{verbatim}
 
@@ -16572,7 +16569,7 @@ series of simple Lie groups and seeing what we get.
 
   B7            13  23   30   34   35   33   28
 
-  B8          15  27   36   42   45   45   42   36  
+  B8          15  27   36   42   45   45   42   36
 \end{verbatim}
 
   I leave it as an easy puzzle to figure out the pattern, and a harder
@@ -16585,25 +16582,25 @@ series of simple Lie groups and seeing what we get.
 
 \begin{verbatim}
   B1                                 spinors
-  \mathrm{Spin}(3,\mathbb{C})                             o
+  Spin(3,C)                             o
                                         2
 
 
 
-  B2                          vectors        spinors   
-  \mathrm{Spin}(5,\mathbb{C})                     o======\Rightarrow=======o
+  B2                          vectors        spinors
+  Spin(5,C)                     o=======>=======o
                                 5               4
 
 
 
   B3                   vectors       bivectors       spinors
-  \mathrm{Spin}(7,\mathbb{C})              o--------------o======\Rightarrow=======o
+  Spin(7,C)              o--------------o=======>=======o
                          7             21               8
 
 
 
   B4             vectors     bivectors        3-vectors      spinors
-  \mathrm{Spin}(9,\mathbb{C})        o-------------o---------------o======\Rightarrow======o
+  Spin(9,C)        o-------------o---------------o=======>======o
                    9            36              84             16
 \end{verbatim}
 
@@ -17789,8 +17786,8 @@ ordinary calculus this formula says how to reconstruct any sufficiently
 nice function from its derivatives at zero:
 \[f(x) = f(0) + f'(0) x + f''(0)\frac{x^2}{2!} + \ldots\] In
 \(q\)-calculus we can write down the \emph{exact} same formula using
-\(q\)-derivatives and \(q\)-factorials! The nth \(q\)-derivative of a
-function is defined in the obvious way, by taking the \(q\)-derivative
+\(q\)-derivatives and \(q\)-factorials! The \(n\)th \(q\)-derivative of
+a function is defined in the obvious way, by taking the \(q\)-derivative
 over and over. Let's do this to the function \(x^n\). If we take its
 \(q\)-derivative \emph{once} we get:
 \[\frac{(qx)^n-x^n}{qx-x} = \frac{q^n-1}{q-1}x^{n-1}\] We can make this
@@ -20069,15 +20066,15 @@ to the ``\(6\)'' must go left twice and right twice: \[
   \end{tikzpicture}
 \] Now, the number of ways to choose \(k\) things out of \(n\) is the
 binomial coefficient \[\binom{n}{k} = \frac{n!}{k!(n-k)!}\] so this is
-the number at the \(k\)th place of the nth row. And since each number in
-the triangle is the sum of those above it, we get
+the number at the \(k\)th place of the \(n\)th row. And since each
+number in the triangle is the sum of those above it, we get
 \[\binom{n}{k} = \binom{n-1}{k} + \binom{n-1}{k-1}\]
 
 To illustrate how these things work, you can actually build a machine
 where you drop a little ball into the top of a triangle, designed so
 that the ball has a 50\% chance of zigging to the left or zagging to the
-right at each step of its fall. By the time it gets to the nth row, the
-chance of its being in the kth place will be proportional to
+right at each step of its fall. By the time it gets to the \(n\)th row,
+the chance of its being in the \(k\)th place will be proportional to
 \(\binom{n}{k}\).
 
 If you drop a bunch of balls in the top and catch them as they fall out
@@ -22206,6 +22203,7 @@ coming in and one wire coming out: \[
     \draw[thick] (-1,2) to (-0.33,1);
     \draw[thick] (0,2) to (0,1);
     \draw[thick] (1,2) to (0.33,1);
+    \node at (0,0.5) {$f$};
     \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
@@ -22214,21 +22212,25 @@ coming in and one wire coming out: \[
     \begin{scope}[shift={(-2.5,3)}]
       \draw[thick] (-0.5,2) to (-0.25,1);
       \draw[thick] (0.5,2) to (0.25,1);
+      \node at (0,0.5) {$g_1$};
       \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(0,3)}]
       \draw[thick] (-1,2) to (-0.33,1);
       \draw[thick] (0,2) to (0,1);
       \draw[thick] (1,2) to (0.33,1);
+      \node at (0,0.5) {$g_2$};
       \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(2.5,3)}]
       \draw[thick] (0,2) to (0,1);
+      \node at (0,0.5) {$g_3$};
       \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
       \draw[thick] (-2.5,3) to (-0.33,1);
       \draw[thick] (0,3) to (0,1);
       \draw[thick] (2.5,3) to (0.33,1);
+      \node at (0,0.5) {$f$};
       \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
@@ -22295,11 +22297,12 @@ and get a new operation: \[
         to [out=down,in=up,looseness=1.5] (0,1);
       \flipcrossings{1,2};
     \end{knot}
+    \node at (0,0.5) {$f$};
     \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
-\] We demand that this give an action of each permutation group S\_n on
-each set \(\mathcal{O}_n\). Finally, we demand that these actions be
+\] We demand that this give an action of each permutation group \(S_n\)
+on each set \(\mathcal{O}_n\). Finally, we demand that these actions be
 compatible with composition, in a way that's supposed to be obvious from
 the pictures. For example: \[
   \begin{tikzpicture}
@@ -23643,18 +23646,20 @@ them:
   \((1,-1,0,0,0,0,0,0)\) and all permutations thereof: there are twice
   \(\binom{8}{2}=56\) of these
 \item
-  \((1/2,1/2,1/2,1/2,1/2,1/2,1/2,1/2)\): there is \(1\) of these
+  \((\frac12,\frac12,\frac12,\frac12,\frac12,\frac12,\frac12,\frac12)\):
+  there is \(1\) of these
 \item
-  \((-1/2,-1/2, 1/2,1/2,1/2,1/2,1/2,1/2)\): there are
-  \(\binom{8}{2}=28\) of these
+  \((-\frac12,-\frac12, \frac12,\frac12,\frac12,\frac12,\frac12,\frac12)\):
+  there are \(\binom{8}{2}=28\) of these
 \item
-  \((-1/2,-1/2,-1/2,-1/2, 1/2,1/2,1/2,1/2)\): there are
-  \(\binom{8}{4}=70\) of these
+  \((-\frac12,-\frac12,-\frac12,-\frac12, \frac12,\frac12,\frac12,\frac12)\):
+  there are \(\binom{8}{4}=70\) of these
 \item
-  \((-1/2,-1/2,-1/2,-1/2,-1/2,-1/2, 1/2,1/2)\): there are
-  \(\binom{8}{2}=28\) of these
+  \((-\frac12,-\frac12,-\frac12,-\frac12,-\frac12,-\frac12, \frac12,\frac12)\):
+  there are \(\binom{8}{2}=28\) of these
 \item
-  \((-1/2,-1/2,-1/2,-1/2,-1/2,-1/2,-1/2,-1/2)\): there is \(1\) of these
+  \((-\frac12,-\frac12,-\frac12,-\frac12,-\frac12,-\frac12,-\frac12,-\frac12)\):
+  there is \(1\) of these
 \end{itemize}
 
 for a total of \[28 \times 6 + 70 + 2 = 168 + 72 = 240\] roots.
@@ -23718,10 +23723,11 @@ triangle, draw a line from each corner to the midpoint of the opposite
 side, and inscribe a circle in the triangle. Then label the corners, the
 midpoints of the edges and the center of the triangle with the unit
 imaginary octonions, any way you like:
-\[\includegraphics{../images/fano.jpg}\] There are 6 straight lines and
-a circle here: we call these all ``lines'', and call this gadget the
-``Fano plane''. There are 7 points and 7 lines: each point lies on 3
-lines, and each line goes through 3 points\ldots{} very nice.
+\[\includegraphics[max width=\linewidth]{../images/fano.jpg}\] There are
+6 straight lines and a circle here: we call these all ``lines'', and
+call this gadget the ``Fano plane''. There are 7 points and 7 lines:
+each point lies on 3 lines, and each line goes through 3 points\ldots{}
+very nice.
 
 I won't describe how to use this picture to multiply octonions, since I
 already did that in \protect\hyperlink{week104}{``Week 104''}, and we
@@ -24551,11 +24557,11 @@ all half-integers. Both these are closed under addition and
 multiplication. To get even denser lattices closed under multiplication,
 we need the octonion multiplication chart (see
 \protect\hyperlink{week104}{``Week 104''}):
-\[\includegraphics{../images/fano.jpg}\] This has 7 lines in it, if we
-count the circle containing \(e_1,e_2,e_4\) as an honorary ``line''. To
-get the ``double Hurwitzian integral octonions'', first pick one of
-these lines. Then, take all integral linear combinations of Gravesian
-integral octonions, octonions of the form
+\[\includegraphics[max width=\linewidth]{../images/fano.jpg}\] This has
+7 lines in it, if we count the circle containing \(e_1,e_2,e_4\) as an
+honorary ``line''. To get the ``double Hurwitzian integral octonions'',
+first pick one of these lines. Then, take all integral linear
+combinations of Gravesian integral octonions, octonions of the form
 \[\frac{\pm 1 \pm e_i \pm e_j \pm e_k}{2}\] where \(e_i\), \(e_j\),
 \(e_k\) lie on this line, and those of the form
 \[\frac{\pm e_i \pm e_j \pm e_k \pm e_l}{2}\] where \(e_i\), \(e_j\),
@@ -24730,21 +24736,70 @@ For example, people often claim the great thing about string theory is
 that it's ``finite'': that is, one can compute how strings scatter off
 each other as an infinite (but possibly divergent) sum of well-defined
 terms, one for each different number of holes in the string worldsheet:
-
-\begin{verbatim}
-     o  o        o  o  
-     \\//        \\//
-      ||          ||  
-      ||         //\\  
-      ||    +   ||  ||   +  ....
-      ||         \\//
-      ||          ||
-     //\\        //\\ 
-     o  o        o  o  
-\end{verbatim}
-
-But there are different string theories to consider here: bosonic string
-theory and 5 the different superstring theories (see
+\[
+  \begin{tikzpicture}[scale=0.25]
+    \begin{scope}
+      \draw[thick] (-3,0) ellipse (2cm and 1cm);
+      \draw[thick] (3,0) ellipse (2cm and 1cm);
+      \draw[thick] (-5,0) .. controls (-5,-2) and (-2,-4) .. (-2,-6);
+      \draw[thick] (5,0) .. controls (5,-2) and (2,-4) .. (2,-6);
+      \draw[thick] (-1,0) .. controls (-1,-1) .. (0,-2);
+      \draw[thick] (1,0) .. controls (1,-1) .. (0,-2);
+      \draw[thick] (-2,-6) to (-2,-7);
+      \draw[thick] (2,-6) to (2,-7);
+    \end{scope}
+    \begin{scope}[rotate=180,shift={(0,14)}]
+      \begin{scope}[shift={(-3,0)},rotate=180]
+        \draw[thick,dashed] (0:2) arc (0:180:2cm and 1cm);
+        \draw[thick] (180:2) arc (180:360:2cm and 1cm);
+      \end{scope}
+      \begin{scope}[shift={(3,0)},rotate=180]
+        \draw[thick,dashed] (0:2) arc (0:180:2cm and 1cm);
+        \draw[thick] (180:2) arc (180:360:2cm and 1cm);
+      \end{scope}
+      \draw[thick] (-5,0) .. controls (-5,-2) and (-2,-4) .. (-2,-6);
+      \draw[thick] (5,0) .. controls (5,-2) and (2,-4) .. (2,-6);
+      \draw[thick] (-1,0) .. controls (-1,-1) .. (0,-2);
+      \draw[thick] (1,0) .. controls (1,-1) .. (0,-2);
+      \draw[thick] (-2,-6) to (-2,-7);
+      \draw[thick] (2,-6) to (2,-7);
+    \end{scope}
+    \node at (8,-7) {$+$};
+    \begin{scope}[shift={(16,0)}]
+      \begin{scope}
+        \draw[thick] (-3,0) ellipse (2cm and 1cm);
+        \draw[thick] (3,0) ellipse (2cm and 1cm);
+        \draw[thick] (-5,0) .. controls (-5,-2) and (-3,-4) .. (-3,-6);
+        \draw[thick] (5,0) .. controls (5,-2) and (3,-4) .. (3,-6);
+        \draw[thick] (-1,0) .. controls (-1,-1) .. (0,-2);
+        \draw[thick] (1,0) .. controls (1,-1) .. (0,-2);
+        \draw[thick] (-3,-6) to (-3,-7);
+        \draw[thick] (3,-6) to (3,-7);
+      \end{scope}
+      \draw[thick] (0,-4.5) .. controls (-1,-7) .. (0,-9.5);
+      \draw[thick] (0,-4.5) .. controls (1,-7) .. (0,-9.5);
+      \begin{scope}[rotate=180,shift={(0,14)}]
+        \begin{scope}[shift={(-3,0)},rotate=180]
+          \draw[thick,dashed] (0:2) arc (0:180:2cm and 1cm);
+          \draw[thick] (180:2) arc (180:360:2cm and 1cm);
+        \end{scope}
+        \begin{scope}[shift={(3,0)},rotate=180]
+          \draw[thick,dashed] (0:2) arc (0:180:2cm and 1cm);
+          \draw[thick] (180:2) arc (180:360:2cm and 1cm);
+        \end{scope}
+        \draw[thick] (-5,0) .. controls (-5,-2) and (-3,-4) .. (-3,-6);
+        \draw[thick] (5,0) .. controls (5,-2) and (3,-4) .. (3,-6);
+        \draw[thick] (-1,0) .. controls (-1,-1) .. (0,-2);
+        \draw[thick] (1,0) .. controls (1,-1) .. (0,-2);
+        \draw[thick] (-3,-6) to (-3,-7);
+        \draw[thick] (3,-6) to (3,-7);
+      \end{scope}
+    \end{scope}
+    \node at (24,-7) {$+$};
+    \node at (30,-7) {$\ldots$};
+  \end{tikzpicture}
+\] But there are different string theories to consider here: bosonic
+string theory and 5 the different superstring theories (see
 \protect\hyperlink{week72}{``Week 72''}).
 
 The bosonic string is indeed finite, but it has other problems. For
@@ -26824,7 +26879,7 @@ To see this, we'd just need to show four amazing things:
   The partition function doesn't change as we trace out a continuous
   path in the space of conformal field theories of central charge
   \(-n\). Thus, the partition function defines a map
-  \[Z\colon  [point,\mathrm{tmf}(n)] \to \{\mbox{modular forms of weight $n$}\}\]
+  \[Z\colon [point,\mathrm{tmf}(n)] \to \{\mbox{modular forms of weight $n$}\}\]
 \item
   The set of connected components of the space of conformal field
   theories of central charge \(-n\) forms an abelian group, and the
@@ -26832,12 +26887,12 @@ To see this, we'd just need to show four amazing things:
 \item
   The kernel of the above homomorphism consists precisely of the torsion
   elements, so we get a 1-1 homomorphism
-  \[Z\colon  [point,\mathrm{tmf}(n)] \otimes \mathbb{C} \to \{\mbox{modular forms of weight $n$}\}\]
+  \[Z\colon [point,\mathrm{tmf}(n)] \otimes \mathbb{C} \to \{\mbox{modular forms of weight $n$}\}\]
 \item
   Any modular form of weight \(n\) is a linear combination of partition
   functions of conformal field theories of central charge \(-n\), so the
   homomorphism
-  \[Z\colon  [point,\mathrm{tmf}(n)] \otimes \mathbb{C} \to \{\mbox{modular forms of weight $n$}\}\]
+  \[Z\colon [point,\mathrm{tmf}(n)] \otimes \mathbb{C} \to \{\mbox{modular forms of weight $n$}\}\]
   is also onto.
 \end{itemize}
 
@@ -27948,7 +28003,7 @@ Even better, the kernel of a homomorphism from \(A\) to a \emph{field}
 is a ``prime'' ideal, meaning it's not not all of \(A\), and whenever
 the product of two elements of \(A\) lies in the ideal, at least one of
 them must be in the ideal. Conversely, given a prime ideal in \(A\),
-there's always a field \(k\) and a homomorphism \[x\colon  A \to  k\]
+there's always a field \(k\) and a homomorphism \[x\colon A \to k\]
 whose kernel is that prime ideal. So, it's reasonable to define the
 spectrum of \(A\), \(\operatorname{Spec}(A)\), to be the set of all
 prime ideals in \(A\).
@@ -28776,9 +28831,9 @@ build this category, first we put in an object \[G\] Since our category
 has finite products this automatically means it gets objects \(1,\)
 \(G\), \(G\times G\), \(G\times G\times G\), and so on. Next, we put in
 a binary operation called ``multiplication'', namely a morphism
-\[m\colon  G\times G \to  G\] We also put in a unary operation called
-``inverse'': \[\operatorname{inv}\colon  G \to  G\] and a nullary
-operation called the ``unit'': \[i\colon  1 \to  G\] And then we say a
+\[m\colon G\times G \to G\] We also put in a unary operation called
+``inverse'': \[\operatorname{inv}\colon G \to G\] and a nullary
+operation called the ``unit'': \[i\colon 1 \to G\] And then we say a
 bunch of diagrams commute, which express all the axioms for a group
 listed above.
 
@@ -28791,13 +28846,13 @@ By calling this category a ``theory'', Lawvere is suggesting that like a
 theory of the traditional sort, it can have models --- and indeed it
 can! A ``model'' of theory of groups in some category \(X\) with finite
 products is just a product-preserving functor
-\[F\colon  \mathsf{Th}(\mathrm{Grp}) \to  X\] By the way things are set
+\[F\colon \mathsf{Th}(\mathrm{Grp}) \to X\] By the way things are set
 up, this gives us an object \[F(G)\] in \(X\), together with morphisms
 \[
   \begin{gathered}
-    F(m)\colon  F(G) \times F(G) \to  F(G)
-  \\F(inv)\colon  F(G) \to  F(G)
-  \\F(i)\colon  F(1) \to  F(G)
+    F(m)\colon F(G) \times F(G) \to F(G)
+  \\F(inv)\colon F(G) \to F(G)
+  \\F(i)\colon F(1) \to F(G)
   \end{gathered}
 \] that serve as the multiplication, inverse and identity element for
 \(F(G)\)\ldots{} all making a bunch of diagrams commute, that express
@@ -28930,11 +28985,11 @@ maps''. How does geometry work in here?
 
 It's very nice. The first nice thing is that given any smooth space
 \(X\), a ``tangent vector in \(X\)'' is just a smooth map
-\[f\colon  \mathcal{T} \to  X\] that is, a way of drawing an
-infinitesimal arrow in \(X\). In general, the maps from any object \(A\)
-of a topos to any other object \(B\) form an object called \(B^A\) ---
-this is part of what we mean when we say a topos has exponentials. So,
-the space of all tangent vectors in \(X\) is \(X^{\mathcal{T}}\).
+\[f\colon \mathcal{T} \to X\] that is, a way of drawing an infinitesimal
+arrow in \(X\). In general, the maps from any object \(A\) of a topos to
+any other object \(B\) form an object called \(B^A\) --- this is part of
+what we mean when we say a topos has exponentials. So, the space of all
+tangent vectors in \(X\) is \(X^{\mathcal{T}}\).
 
 And this is what people usually call the ``tangent bundle'' of \(X\)!
 
@@ -28945,7 +29000,7 @@ get a tangent vector \(gf\colon \mathcal{T} \to Y\). This is what people
 usually call ``pushing forward tangent vectors''. This trick gives a
 smooth map between tangent bundles, the ``differential of \(g\)'', which
 it makes sense to call
-\[g\mathcal{T}\colon  X\mathcal{T} \to  Y\mathcal{T}\] Moreover, it's
+\[g\mathcal{T}\colon X\mathcal{T} \to Y\mathcal{T}\] Moreover, it's
 pathetically easy to check the chain rule:
 \[(gh)\mathcal{T} = g\mathcal{T} h\mathcal{T}\] And so far we haven't
 used \emph{any} axioms about the object \(\mathcal{T}\) --- just basic
@@ -28994,7 +29049,7 @@ and velocity!
 
 There is a category where an object is a smooth space equipped with a
 dynamical law and a morphism is a ``lawful motion'': that is, a smooth
-map \[f\colon  X \to  Y\] that makes the obvious diagram commute: \[
+map \[f\colon X \to Y\] that makes the obvious diagram commute: \[
   \begin{tikzcd}
     X^{\mathcal{T}}
       \rar["s_X"]
@@ -29008,7 +29063,7 @@ map \[f\colon  X \to  Y\] that makes the obvious diagram commute: \[
 \] In particular, if we take \(\mathbb{R}\) to be the real numbers ---
 ``time'' --- and equip it with the law saying \[q'' = 0\] meaning that
 ``time ticks at an unchanging rate'', then a lawful motion
-\[f\colon  \mathbb{R} \to  X\] is precisely a trajectory in \(X\) that
+\[f\colon \mathbb{R} \to X\] is precisely a trajectory in \(X\) that
 ``follows the law'', meaning that the acceleration of the trajectory is
 the desired function of position and velocity. This example is a setup
 for the classical mechanics of a point particle; it's easy to generalize
@@ -29324,7 +29379,7 @@ we can take the underlying set of any group, and the free group on any
 set.
 
 We get a ``monad on \(\mathcal{C}\)'' by letting
-\[T = LR\colon  \mathcal{C} \to  \mathcal{C}\] Then, we can use facts
+\[T = LR\colon \mathcal{C} \to \mathcal{C}\] Then, we can use facts
 about adjoint functors to get natural transformations called
 ``multiplication'' \[m\colon TT \Rightarrow T\] and the ``unit''
 \[i\colon 1_\mathcal{C} \Rightarrow T\]

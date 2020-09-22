@@ -223,9 +223,9 @@ Week's Finds (especially ["Week 217"](#week217) and
 >
 > for M dividing N. This projective limit is nothing but the direct
 > product of the multiplicative groups of the rings of p-adic integers,
-> Z~p~*, where p runs over the set of all primes. Thus, we obtain that
+> Z_p*, where p runs over the set of all primes. Thus, we obtain that
 >
-> \mathrm{Gal}(Q^ab^/Q) = ∏ Z~p~*.
+> \mathrm{Gal}(Q^ab^/Q) = ∏ Z_p*.
 >
 > The abelian class field theory gives a similar description for the
 > maximal abelian quotient \mathrm{Gal}(F^ab^/F) of the Galois group \mathrm{Gal}(F^-^/F),
@@ -239,15 +239,15 @@ Week's Finds (especially ["Week 217"](#week217) and
 > field, or its profinite completion if F is a function field.
 >
 > When F = Q the ring A(Q) is a subring of the direct product of the
-> fields Q~p~ of p-adic numbers and the field R of real numbers, and the
+> fields Q_p of p-adic numbers and the field R of real numbers, and the
 > quotient A(F)*/F* is isomorphic to
 >
-> R^+^ \times ∏~p~ Z~p~*.
+> R^+^ \times ∏_p Z_p*.
 >
 > where R^+^ is the multiplicative group of positive real numbers. Hence
 > the group of its components is
 >
-> ∏~p~ Z~p~*
+> ∏_p Z_p*
 >
 > in agreement with the Kronecker-Weber theorem.
 >

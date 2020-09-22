@@ -156,7 +156,7 @@ It's not true that $\zeta(s) = \zeta(1-s)$, but something similar is true, where
 we multiply the zeta function by an extra fudge factor.
 
 To be precise: if we form the function
-$$\pi ^{-\frac{s}{2}} \Gamma\left(\frac{s}{2}) \zeta(s)$$
+$$\pi ^{-\frac{s}{2}} \Gamma\left(\frac{s}{2}\right) \zeta(s)$$
 then this function is unchanged by the transformation
 $$s \mapsto 1 - s$$
 This symmetry maps the line
@@ -287,7 +287,7 @@ Now, why would we want to do this?
 
 The reason is that multiplying Taylor series is closely related to
 *addition* of natural numbers:
-$$z^n z^m^ = z^{n+m}$$
+$$z^n z^m = z^{n+m}$$
 while multiplying Dirichlet series is closely related to
 *multiplication* of natural numbers:
 $$n^{-s} m^{-s} = (nm)^{-s}$$

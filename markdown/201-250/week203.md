@@ -59,7 +59,7 @@ the side of a regular pentagon! If you like the number 5, you'll be
 glad to know that
 $$G = \sqrt{\frac{5+\sqrt{5}}{5-\sqrt{5}}}$$
 If you don't, maybe you'd prefer this:
-$$G = \exp\left(\arcsinh\left(\frac12\right)\right)$$
+$$G = \exp\left(\operatorname{arcsinh}\left(\frac12\right)\right)$$
 My favorite formulas for the golden number are
 $$G = \sqrt{1 + \sqrt{1 + \sqrt{1 + \sqrt{1 + \sqrt{1 + \sqrt{1 + \ldots}}}}}}$$
 and the continued fraction:

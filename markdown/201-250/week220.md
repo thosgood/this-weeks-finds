@@ -515,7 +515,7 @@ stands by, plus moving a around c while b stands by".
 
 I guess this result can be found here:
 
-9) Frederick Cohen, Homology of Ω^n+1^Σ^n+1^X and C_{n+1}X, n > 0,
+9) Frederick Cohen, Homology of Ω^{n+1}Σ^{n+1}X and C_{n+1}X, n > 0,
 Bull. Amer. Math. Soc. 79 (1973), 1236-1241.
 
 10) Frederick Cohen, Tom Lada and J. Peter May, The homology of

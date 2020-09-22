@@ -9,14 +9,14 @@ probe is bringing back cool photos of Mars!
 There are some tantalizing pictures of what might be a "frozen sea" ---
 water ice covered with dust --- near the equator in the Elysium Planitia
 region:
-$$\href{http://www.esa.int/SPECIALS/Mars_Express/SEMCHPYEM4E_0.html}{\includegraphics{../images/mars_packice.jpg}}$$
+$$\href{http://www.esa.int/SPECIALS/Mars_Express/SEMCHPYEM4E_0.html}{\includegraphics[max width=\linewidth]{../images/mars_packice.jpg}}$$
 
 2) Mars Express sees signs of a "frozen sea", `http://www.esa.int/SPECIALS/Mars_Express/SEMCHPYEM4E_0.html`
 
 Ice has already been found at the Martian poles --- it's easily visible
 there, and Mars Express is getting some amazing closeups of it now -
 here's a here's a view of some ice on sand at the north pole:
-$$\href{http://www.esa.int/SPECIALS/Mars_Express/SEMLF6D3M5E_1.html}{\includegraphics{../images/mars_pole.jpg}}$$
+$$\href{http://www.esa.int/SPECIALS/Mars_Express/SEMLF6D3M5E_1.html}{\includegraphics[max width=\linewidth]{../images/mars_pole.jpg}}$$
 
 3) Glacial, volcanic and fluvial activity on Mars: latest images, `http://www.esa.int/SPECIALS/Mars_Express/SEMLF6D3M5E_1.html`
 

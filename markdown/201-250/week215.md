@@ -12,7 +12,7 @@ helped Greg Egan create this really nice picture:
 
 1) Greg Egan, "Klein's quartic curve", `http://math.ucr.edu/home/baez/mathematical/KleinDual.png`
 
-$$\includegraphics{../images/KleinDual.png}$$
+$$\includegraphics[max width=\linewidth]{../images/KleinDual.png}$$
 It looks sort of tetrahedral at first glance, but if you look carefully
 you'll see that topologically speaking, it's a $3$-holed torus. It's
 tiled by triangles, with 7 meeting at each vertex. So, it's the Klein
@@ -62,7 +62,7 @@ things.
 
 This group is also the rotational symmetry group of a cube. In fact,
 Egan was able to spot a hidden cube lurking in his picture! Can you?
-$$\includegraphics{../images/KleinDual.png}$$
+$$\includegraphics[max width=\linewidth]{../images/KleinDual.png}$$
 If you look carefully, you'll see each corner of his tetrahedral gadget
 is made of a little triangular prism with one triangle facing out and
 one facing in: for example, the pink triangle staring you right in the
@@ -125,7 +125,7 @@ Here's a picture:
 3) Greg Egan, Cubes and anticubes in the Klein quartic curve,
 `http://math.ucr.edu/home/baez/KleinFigures.gif`
 
-$$\includegraphics{../images/KleinFigures.png}$$
+$$\includegraphics[max width=\linewidth]{../images/KleinFigures.png}$$
 Each triangle has a colored circle and a colored square on it. There are
 7 colors. The colored circle says which of the 7 *cubes* the triangle
 belongs to. The colored square says which of the 7 *anticubes* it
@@ -207,7 +207,7 @@ picture:
 4) Klein and Fricke, Klein's quartic curve with geodesic,
 `http://math.ucr.edu/home/baez/Klein168.gif`
 
-$$\includegraphics{../images/Klein168.gif}$$
+$$\includegraphics[max width=\linewidth]{../images/Klein168.png}$$
 
 Next, a little about geodesics and prime numbers. I've just been
 talking a little about geodesics in the Klein quartic, which is the
@@ -356,7 +356,7 @@ a relation that he later exploited in some fascinating ways.
 >     I'll write anti({c1,c2}) for the anticube singled out by a pair of cubes, 
 >     and similarly cube({a1,a2}) for the cube singled out by a pair of 
 >     anticubes.  In the scheme used in this diagram:
-> $$\includegraphics{../images/KleinFigures.png}$$
+> $$\includegraphics[max width=\linewidth]{../images/KleinFigures.png}$$
 >     both functions have identical outputs for the same input colours:
 >
 >
@@ -651,7 +651,7 @@ Darin Brown wrote, in response to some questions by Squark on
 > This is a very concrete definition that doesn't hint at the connection
 > to number theory. Remember, secretly, $\mathrm{PSL}(2,q)$, $q = \mathrm{norm}(Q)$ is really
 > (isomorphic to) the deck transformation group of $\Gamma(Q)\backslash H$ over
-> \Gamma(H), and the Frob conj. class of a geodesic $f$ should be a conj.
+> $\Gamma(H)$, and the Frob conj. class of a geodesic $f$ should be a conj.
 > class in this deck transformation group. Conceptually, it should be an
 > element of the decomposition group, those deck transformations that fix
 > the prime geodesic above. Choosing different primes above the prime

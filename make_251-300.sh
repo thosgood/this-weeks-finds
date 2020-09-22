@@ -66,6 +66,7 @@ printf '%s\n' '\usepackage{tikz-cd}' >> $TEX
 
 printf "\n" >> $TEX
 printf '%s\n' '\usepackage{graphicx}' >> $TEX
+printf '%s\n' '\usepackage[export]{adjustbox}' >> $TEX
 
 printf "\n" >> $TEX
 printf '%s\n' '\setcounter{section}{250}' >> $TEX

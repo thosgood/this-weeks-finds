@@ -195,7 +195,7 @@ triangle, draw a line from each corner to the midpoint of the opposite
 side, and inscribe a circle in the triangle. Then label the corners, the
 midpoints of the edges and the center of the triangle with the unit
 imaginary octonions, any way you like:
-$$\includegraphics{../images/fano.jpg}$$
+$$\includegraphics[max width=\linewidth]{../images/fano.jpg}$$
 There are 6 straight lines and a circle here: we call these all
 "lines", and call this gadget the "Fano plane". There are 7 points
 and 7 lines: each point lies on 3 lines, and each line goes through 3

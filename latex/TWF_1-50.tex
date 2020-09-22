@@ -51,6 +51,7 @@
 \usepackage{tikz-cd}
 
 \usepackage{graphicx}
+\usepackage[export]{adjustbox}
 
 
 \usepackage[main]{embedall}
@@ -1637,16 +1638,16 @@ exponential of Planck's constant! When we set \(\hbar = 0\) we get
 \(q = 1\), and we get back to the ``classical case'' of plain
 old-fashioned Lie algebras and groups. Every representation of a quantum
 group gives an invariant of links (actually even tangles), and these
-link invariants are functions of \(q\). If we take the nth derivative of
-one of these invariants with respect to \(\hbar\) and evaluate it at
-\(\hbar = 0\) we get a ``Vassiliev invariant of degree \(n\)'' (see
-\protect\hyperlink{week3}{``Week 3''} for the definition). Better than
-that, when \(q\) is a root of unity each quantum group gives us a
-\(3\)-dimensional ``topological quantum field theory,'' or TQFT known as
-Chern-Simons theory. In particular, we get an invariant of compact
-oriented 3-manifolds. So there is a hefty bunch of mathematical payoffs
-from quantum groups. And there are good reasons to think of them as the
-right generalization of groups for dealing with symmetries in the
+link invariants are functions of \(q\). If we take the \(n\)th
+derivative of one of these invariants with respect to \(\hbar\) and
+evaluate it at \(\hbar = 0\) we get a ``Vassiliev invariant of degree
+\(n\)'' (see \protect\hyperlink{week3}{``Week 3''} for the definition).
+Better than that, when \(q\) is a root of unity each quantum group gives
+us a \(3\)-dimensional ``topological quantum field theory,'' or TQFT
+known as Chern-Simons theory. In particular, we get an invariant of
+compact oriented 3-manifolds. So there is a hefty bunch of mathematical
+payoffs from quantum groups. And there are good reasons to think of them
+as the right generalization of groups for dealing with symmetries in the
 physics of 2 and 3 dimensions. If string theory \emph{or} the loop
 variables approach to quantum gravity have any truth to them, quantum
 groups play a sneaky role in honest \(4\)-dimensional physics too.
@@ -6175,18 +6176,20 @@ Let's begin with sphere packings. Say one is stacking cannonballs on
 ones lawn, which is a quaint custom now that cannons have been replaced
 by far more horrible weapons. A nice way to do it is to lay out a
 triangle of cannonballs thus:
-\[\includegraphics{../images/wk20_fig1.pdf}\] and then set down another
-triangle of cannonballs on top of the first layer, one in every other
-hole, thus: \[\includegraphics{../images/wk20_fig2.pdf}\] and another:
-\[\includegraphics{../images/wk20_fig3.pdf}\] and finally one on top ---
-which I won't attempt to draw. Very nice stack! There are many
-mathematical reflections it could lead one to, one of which is: is this
-the \emph{densest} possible way one can pack spheres of equal radius?
-The density is \(\pi/\sqrt{18} = .7405\ldots\); can one do better?
-Apparently it was Kepler who first conjectured that the answer is
-``no.'' This is a famous hard problem. In 1991 W.-Y. Hsiang announced
-that he had a proof, but I am not sure how many experts have read it and
-been convinced.
+\[\includegraphics[max width=\linewidth]{../images/wk20_fig1.pdf}\] and
+then set down another triangle of cannonballs on top of the first layer,
+one in every other hole, thus:
+\[\includegraphics[max width=\linewidth]{../images/wk20_fig2.pdf}\] and
+another:
+\[\includegraphics[max width=\linewidth]{../images/wk20_fig3.pdf}\] and
+finally one on top --- which I won't attempt to draw. Very nice stack!
+There are many mathematical reflections it could lead one to, one of
+which is: is this the \emph{densest} possible way one can pack spheres
+of equal radius? The density is \(\pi/\sqrt{18} = .7405\ldots\); can one
+do better? Apparently it was Kepler who first conjectured that the
+answer is ``no.'' This is a famous hard problem. In 1991 W.-Y. Hsiang
+announced that he had a proof, but I am not sure how many experts have
+read it and been convinced.
 
 This packing is a very regular sort of packing, what people call a
 lattice packing. A lattice is a discrete subset of \(n\)-dimensional
@@ -6206,13 +6209,13 @@ lattice going off infinitely in all directions\ldots{} each sphere is
 touching 12 others: 6 in its own layer, as it were, 3 in the layer above
 and 3 in the layer below. If we only pay attention to a given sphere and
 those touching it we see something like:
-\[\includegraphics{../images/wk20_fig4.pdf}\] If we remove the central
-sphere to clean up the picture a bit, the centers of the remaining are
-the vertices of a shape called the cuboctahedron:
-\[\includegraphics{../images/wk20_fig5.pdf}\] It has 12 vertices, 8
-triangular faces, and 6 square faces. One can get it either by cutting
-off the corners of a cube just right, or by cutting off the corners of
-an octahedron!
+\[\includegraphics[max width=\linewidth]{../images/wk20_fig4.pdf}\] If
+we remove the central sphere to clean up the picture a bit, the centers
+of the remaining are the vertices of a shape called the cuboctahedron:
+\[\includegraphics[max width=\linewidth]{../images/wk20_fig5.pdf}\] It
+has 12 vertices, 8 triangular faces, and 6 square faces. One can get it
+either by cutting off the corners of a cube just right, or by cutting
+off the corners of an octahedron!
 
 Let's return to thinking about the 12 spheres touching the central one.
 This raises another question: is 12 the largest number of equal-radius
@@ -6285,18 +6288,20 @@ way! In other words, we get the group \(A_{12}\), with
 \[\frac{12!}{2} = 239500800\] elements. How? Well, I wish I could draw
 an icosahedron for you, but I can't really do so well on this medium.
 The best way is to draw a top view:
-\[\includegraphics{../images/wk20_fig6.pdf}\] and a bottom view:
-\[\includegraphics{../images/wk20_fig7.pdf}\] Now, if we take the top 6
-spheres and bunch them up so they are all touching, and the bottom 6
-spheres and bunch them up so \emph{they} all touch, we can, in fact,
-twist the top 6 counterclockwise around \(1/5\) of a turn. That is, we
-can map \[\includegraphics{../images/wk20_fig8.pdf}\] to
-\[\includegraphics{../images/wk20_fig9.pdf}\] I haven't actually
-\emph{done} this, or even proved I can, but Conway and Sloane say so.
-And then the point is that all of \(A_{12}\) is generated by ``twists''
-of this form. Conway and Sloane give a sophisticated and quick proof of
-this fact, which I can't resist mentioning. Readers who don't know much
-group theory can skip the next paragraph!
+\[\includegraphics[max width=\linewidth]{../images/wk20_fig6.pdf}\] and
+a bottom view:
+\[\includegraphics[max width=\linewidth]{../images/wk20_fig7.pdf}\] Now,
+if we take the top 6 spheres and bunch them up so they are all touching,
+and the bottom 6 spheres and bunch them up so \emph{they} all touch, we
+can, in fact, twist the top 6 counterclockwise around \(1/5\) of a turn.
+That is, we can map
+\[\includegraphics[max width=\linewidth]{../images/wk20_fig8.pdf}\] to
+\[\includegraphics[max width=\linewidth]{../images/wk20_fig9.pdf}\] I
+haven't actually \emph{done} this, or even proved I can, but Conway and
+Sloane say so. And then the point is that all of \(A_{12}\) is generated
+by ``twists'' of this form. Conway and Sloane give a sophisticated and
+quick proof of this fact, which I can't resist mentioning. Readers who
+don't know much group theory can skip the next paragraph!
 
 First, let \(t(i)\) be the element of \(S_{12}\) corresponding to the
 clockwise twist about the \(i\)th vertex of the icosahedron (so that
@@ -6473,7 +6478,7 @@ permutations of the 12 spheres. The point is this. One can start with
 the 12 spheres touching the central one arranged so their centers are at
 the vertics of an icosahedron. Then one can roll them around so their
 centers lie at the vertices of a cuboctahedron:
-\[\includegraphics{../images/wk20_fig5.pdf}\quad\includegraphics{../images/wk20_fig10.pdf}\]
+\[\includegraphics[max width=\linewidth]{../images/wk20_fig5.pdf}\quad\includegraphics[max width=\linewidth]{../images/wk20_fig10.pdf}\]
 At this point they touch each other, but one can indeed get to this
 position. There is a nice picture of \emph{how} to do this in Conway and
 Sloane's book, but you might enjoy figuring it out.

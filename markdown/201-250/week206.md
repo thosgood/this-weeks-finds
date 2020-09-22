@@ -406,9 +406,9 @@ Steve Carlip wrote:
 
 > John Baez wrote:
 >
->     > So, even if MOND is wrong, there may need to be some reason why it acts
->     > like it's right!  Apparently even some proponents of dark matter agree 
->     > with this.
+> > So, even if MOND is wrong, there may need to be some reason why it acts
+> > like it's right!  Apparently even some proponents of dark matter agree 
+> > with this.
 >
 > Try this:
 >
@@ -482,7 +482,7 @@ Christine Dantas wrote:
 > metric, a scalar field and a 4-vector field, all three dynamical. For
 > a simple choice of its free function, the theory has a Newtonian limit
 > for nonrelativistic dynamics with significant acceleration, but a MOND
-> limit when accelerations are small. We calculate the \beta and \gamma PPN
+> limit when accelerations are small. We calculate the $\beta$ and $\gamma$ PPN
 > coefficients showing them to agree with solar system measurements. The
 > gravitational light deflection by nonrelativistic systems is governed
 > by the same potential responsible for dynamics of particles.

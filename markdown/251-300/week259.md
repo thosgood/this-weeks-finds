@@ -185,15 +185,15 @@ field](http://en.wikipedia.org/wiki/Finite_field)" comes from choosing
 a prime number p and taking the integers modulo p. The result is
 sometimes called Z/p, especially when you're just concerned with
 addition. But when you think of it as a field, it's better to call it
-F~p~.
+F_p.
 
 The reason is that there's a finite field of size q whenever q is a
 *power* of a prime, and this field is unique - so it's called F~q~. You
 build F~q~ sort of like how you build the complex numbers starting from
 the real numbers, or number fields starting from the rational numbers.
-Namely, to construct F~p^n~, you take F~p~ and throw in the roots of a
+Namely, to construct F~p^n~, you take F_p and throw in the roots of a
 well-chosen polynomial of degree n: one that doesn't have any roots in
-F~p~, but "wants" to have n different roots.
+F_p, but "wants" to have n different roots.
 
 Okay: that was a tiny bit about function fields, number fields and
 finite fields. But now I need to point out some slight lies I told!

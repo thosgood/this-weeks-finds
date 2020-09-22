@@ -222,7 +222,7 @@ systematically chosen minus signs.
 A bit more precisely: every differential form can be written as a linear
 combination of guys like this:
 
-v = f dg_1 dg_2 ... dg~p~
+v = f dg_1 dg_2 ... dg_p
 
 where p ranges over all natural numbers. Linear combinations of guys of
 this sort for a particular fixed p are called "p-forms". We also say
@@ -238,11 +238,11 @@ commutative algebra! We've already introduced df when f is an element
 of our original algebra. But we can define "d" for *all* differential
 forms simply by saying that d is linear and saying that d of
 
-f dg_1 dg_2 ... dg~p~
+f dg_1 dg_2 ... dg_p
 
 is
 
-df dg_1 dg_2 ... dg~p~
+df dg_1 dg_2 ... dg_p
 
 This definition implies three facts. First, it implies that d of a
 p-form is a (p+1)-form. That's pretty obvious. Second, it implies that
@@ -418,13 +418,13 @@ use the rational numbers to be specific.
 Just as you can tensor vector spaces, you can tensor cochain complexes.
 The tensor product of cochain complexes C and C' will have
 
-(C \otimes C')_n = &oplus~~p+q\ =\ n~~ C~p~ \otimes C'~q~
+(C \otimes C')_n = &oplus~~p+q\ =\ n~~ C_p \otimes C'~q~
 
 and we define
 
 d(c \otimes c') = dc \otimes c' + (-1)^p^ c \otimes dc'
 
-when c is in C~p~ and c' is in C'~q~.
+when c is in C_p and c' is in C'~q~.
 
 (You've seen a similar "product rule" earlier in this article.
 There's a general principle at work here. Physicists know that whenever
@@ -432,7 +432,7 @@ you exchange two fermions, their phase gets multiplied by -1. In math,
 we should stick in a minus sign whenever we switch two "odd" things.
 The map d counts as odd since it sends guys in our cochain complex to
 guys whose degree is 1 more, and the number 1 is odd. The element c in
-C~p~ counts as "odd" whenever p is odd. In the equation above, we're
+C_p counts as "odd" whenever p is odd. In the equation above, we're
 switching d past c and getting a minus sign whenever c is odd.)
 
 Just as you can define a commutative algebra to be a vector space V with
@@ -496,7 +496,7 @@ got distracted from my real goal.
 
 Before I got distracted, I was telling you how commutative algebras are
 the same as DGCA's with only C_0 being nonzero. And here's why I
-mentioned this. We can take *any* DGCA and violently kill C~p~ for all p
+mentioned this. We can take *any* DGCA and violently kill C_p for all p
 > 0, leaving a commutative algebra C_0. We can think of this as a
 forgetful functor
 

@@ -49,11 +49,17 @@
 
 \usepackage{tikz-cd}
 
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+
 \makeatletter
 \newcommand{\xRightarrow}[2][]{\ext@arrow 0359\Rightarrowfill@{#1}{#2}}
 \makeatother
 
 \setcounter{section}{50}
+
+
+\usepackage[main]{embedall}
 
 \begin{document}
 
@@ -2152,8 +2158,8 @@ like \[
     \draw[thick] (-2,0) to (-2,-6);
     \draw[thick] (2,0) to (2,-6);
     \begin{scope}[shift={(0,-6)}]
-      \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
-      \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+      \draw[thick,dashed] (0:2) arc (0:180:2cm and 1cm);
+      \draw[thick] (180:2) arc (180:360:2cm and 1cm);
     \end{scope}
   \end{tikzpicture}
 \] (that's supposed to look like a pipe!) and \[
@@ -2165,8 +2171,8 @@ like \[
     \draw[thick] (-1,0) .. controls (-1,-1) .. (0,-2);
     \draw[thick] (1,0) .. controls (1,-1) .. (0,-2);
     \begin{scope}[shift={(0,-6)}]
-      \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
-      \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+      \draw[thick,dashed] (0:2) arc (0:180:2cm and 1cm);
+      \draw[thick] (180:2) arc (180:360:2cm and 1cm);
     \end{scope}
   \end{tikzpicture}
 \] --- that is, a cylinder and a ``trinion'' (or upside-down pair of
@@ -2177,8 +2183,8 @@ pants) --- we can combine them either ``horizontally'' like this: \[
       \draw[thick] (-2,0) to (-2,-6);
       \draw[thick] (2,0) to (2,-6);
       \begin{scope}[shift={(0,-6)}]
-        \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
-        \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+        \draw[thick,dashed] (0:2) arc (0:180:2cm and 1cm);
+        \draw[thick] (180:2) arc (180:360:2cm and 1cm);
       \end{scope}
     \end{scope}
     \draw[thick] (-3,0) ellipse (2cm and 1cm);
@@ -2188,8 +2194,8 @@ pants) --- we can combine them either ``horizontally'' like this: \[
     \draw[thick] (-1,0) .. controls (-1,-1) .. (0,-2);
     \draw[thick] (1,0) .. controls (1,-1) .. (0,-2);
     \begin{scope}[shift={(0,-6)}]
-      \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
-      \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+      \draw[thick,dashed] (0:2) arc (0:180:2cm and 1cm);
+      \draw[thick] (180:2) arc (180:360:2cm and 1cm);
     \end{scope}
   \end{tikzpicture}
 \] or ``vertically'' like this: \[
@@ -2201,14 +2207,14 @@ pants) --- we can combine them either ``horizontally'' like this: \[
     \draw[thick] (-1,0) .. controls (-1,-1) .. (0,-2);
     \draw[thick] (1,0) .. controls (1,-1) .. (0,-2);
     \begin{scope}[shift={(0,-6)}]
-      \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
-      \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+      \draw[thick,dashed] (0:2) arc (0:180:2cm and 1cm);
+      \draw[thick] (180:2) arc (180:360:2cm and 1cm);
     \end{scope}
     \draw[thick] (-2,-6) to (-2,-10);
     \draw[thick] (2,-6) to (2,-10);
     \begin{scope}[shift={(0,-10)}]
-      \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
-      \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+      \draw[thick,dashed] (0:2) arc (0:180:2cm and 1cm);
+      \draw[thick] (180:2) arc (180:360:2cm and 1cm);
     \end{scope}
   \end{tikzpicture}
 \]
@@ -2685,7 +2691,7 @@ plane''. This is a projective plane with 7 points, where by a
 ``projective plane'' I mean that any two points determine an abstract
 sort of ``line'', which in this case consists of just 3 points, and any
 two lines intersect in a point. It looks like this:
-\[\includegraphics{../images/fano.jpg}\]
+\[\includegraphics[max width=\linewidth]{../images/fano.jpg}\]
 
 The ``lines'' are the 3 edges of the big triangle, the 3 lines going
 through a vertex, the center and the midpoint of the opposite edge, and
@@ -3781,8 +3787,8 @@ get people interested.
 
 Later, of course, Kepler suggested that the 5 Platonic solids
 corresponded to the orbits of the 5 planets:
-\[\includegraphics{../images/kepler_mysterium_cosmographicum.jpg}\] As
-it turns out, Plato and Kepler were in the right ball-park, but not
+\[\includegraphics[max width=\linewidth]{../images/kepler_mysterium_cosmographicum.jpg}\]
+As it turns out, Plato and Kepler were in the right ball-park, but not
 really right. Both the solar system and atoms are described pretty well
 by similar laws - the inverse-square force laws for gravity and
 electrostatics. And solving this problem (in either the classical or
@@ -4721,7 +4727,7 @@ it's all about.
   sphere, or ``trinion'', which is another Riemann surface. And
   ``duality'' has to do with the sphere with four punctures, which can
   be viewed as built up from trinions in either of two ``dual'' ways: \[
-     \begin{tikzpicture}[scale=0.5,rotate=90]
+     \begin{tikzpicture}[scale=0.3,rotate=90]
        \begin{scope}
          \draw[thick] (-3,0) ellipse (2cm and 1cm);
          \draw[thick] (3,0) ellipse (2cm and 1cm);
@@ -4734,12 +4740,12 @@ it's all about.
        \end{scope}
        \begin{scope}[rotate=180,shift={(0,14)}]
          \begin{scope}[shift={(-3,0)},rotate=180]
-           \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
-           \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+           \draw[thick,dashed] (0:2) arc (0:180:2cm and 1cm);
+           \draw[thick] (180:2) arc (180:360:2cm and 1cm);
          \end{scope}
          \begin{scope}[shift={(3,0)},rotate=180]
-           \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
-           \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+           \draw[thick,dashed] (0:2) arc (0:180:2cm and 1cm);
+           \draw[thick] (180:2) arc (180:360:2cm and 1cm);
          \end{scope}
          \draw[thick] (-5,0) .. controls (-5,-2) and (-2,-4) .. (-2,-6);
          \draw[thick] (5,0) .. controls (5,-2) and (2,-4) .. (2,-6);
@@ -4750,7 +4756,7 @@ it's all about.
        \end{scope}
      \end{tikzpicture}
    \] or \[
-     \begin{tikzpicture}[scale=0.5]
+     \begin{tikzpicture}[scale=0.3]
        \begin{scope}
          \draw[thick] (-3,0) ellipse (2cm and 1cm);
          \draw[thick] (3,0) ellipse (2cm and 1cm);
@@ -4763,12 +4769,12 @@ it's all about.
        \end{scope}
        \begin{scope}[rotate=180,shift={(0,14)}]
          \begin{scope}[shift={(-3,0)},rotate=180]
-           \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
-           \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+           \draw[thick,dashed] (0:2) arc (0:180:2cm and 1cm);
+           \draw[thick] (180:2) arc (180:360:2cm and 1cm);
          \end{scope}
          \begin{scope}[shift={(3,0)},rotate=180]
-           \draw[thick,dashed] (0:2cm and 1cm) arc (0:180:2cm and 1cm);
-           \draw[thick] (180:2cm and 1cm) arc (180:360:2cm and 1cm);
+           \draw[thick,dashed] (0:2) arc (0:180:2cm and 1cm);
+           \draw[thick] (180:2) arc (180:360:2cm and 1cm);
          \end{scope}
          \draw[thick] (-5,0) .. controls (-5,-2) and (-2,-4) .. (-2,-6);
          \draw[thick] (5,0) .. controls (5,-2) and (2,-4) .. (2,-6);
@@ -9831,7 +9837,8 @@ To continue reading the ``Tale of \(n\)-Categories'', see
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 I thank Keith Harbaugh for catching lots of typos and other mistakes in
-``week73'' - ``week80''.
+\protect\hyperlink{week73}{``Week 73''} --
+\protect\hyperlink{week80}{``Week 80''}.
 
 
 
@@ -13726,11 +13733,14 @@ learn about it from his web page:
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
+\begin{quote}
 \emph{``I regret that it has been necessary for me in this lecture to
 administer such a large dose of four-dimensional geometry. I do not
 apologise, because I am not really responsible for the fact that nature
-in its most fundamental aspect is four-dimensional''} --- Albert North
-Whitehead.
+in its most fundamental aspect is four-dimensional''}
+
+--- Albert North Whitehead.
+\end{quote}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -17755,8 +17765,8 @@ meta-processes going from one process to another, and so on. Depending
 on how you play the \(n\)-category game, there are either no morphisms
 after level n, or only simple and bland ones playing the role of
 ``equations''. The idea is that in the world of \(n\)-categories, one
-keeps track of things, processes, meta-processes, and so on to the nth
-level, but after that one calls it quits and uses equations.
+keeps track of things, processes, meta-processes, and so on to the
+\(n\)th level, but after that one calls it quits and uses equations.
 
 So what is the definition of \(4\)-categories? Well, Eilenberg and Mac
 Lane defined \(1\)-categories, or simply ``categories'', in a paper that

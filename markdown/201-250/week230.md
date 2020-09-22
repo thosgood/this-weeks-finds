@@ -454,7 +454,7 @@ point. To do this, I'll give a polynomial f(x,y,z) that has a certain
 type of critical point at x = y = z = 0. Then I'll explain how the
 correspondence works:
 
--   The diagram A_n corresponds to the critical point of x^n+1^ +
+-   The diagram A_n corresponds to the critical point of x^{n+1} +
     y^2 + z^2.
 -   The diagram D_n corresponds to the critical point of x^n-1^ +
     xy^2 + z^2.

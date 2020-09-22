@@ -59,7 +59,7 @@ reflections, is called the "Klein 4-group":
 
 He is also known for some other groups called "Kleinian groups", which
 act as symmetries of fractal patterns like this:
-$$\href{http://www.josleys.com/showpic.php?file=INDRA065.jpg&title=Indra20}{\includegraphics{../images/INDRA065.jpg}}$$
+$$\href{http://www.josleys.com/showpic.php?file=INDRA065.jpg&title=Indra20}{\includegraphics[max width=\linewidth]{../images/INDRA065.jpg}}$$
 
 2) Jos Leys, "Kleinian Pages", `http://www.josleys.com/creatures42.htm`
 
@@ -627,7 +627,7 @@ In fact, Kevin Buzzard's email was packed with wisdom. He wrote:
 > makes the Euler characteristic of $\Gamma_1(5)$ equal to $1-3=-2$. And we
 > already checked that the index was 24, so the Euler Characteristic of
 > $\mathrm{SL}(2,\mathbb{Z})$ works out to be $-1/12$. Grothendieck wouldn't have chosen
-> \Gamma_1(5); he would have chosen something called $\Gamma(2)$, the subgroup of
+> $\Gamma_1(5)$; he would have chosen something called $\Gamma(2)$, the subgroup of
 > $\mathrm{SL}(2,\mathbb{Z})$ consisting of the matrices which are the identity $\mod 2$. There
 > is another classical modular function $\lambda$ inducing an isomorphism of
 > $Y(2)$, the quotient of the upper half plane by $\Gamma(2)$, with the sphere

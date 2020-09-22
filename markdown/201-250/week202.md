@@ -206,7 +206,7 @@ description of the *set* of such trees.
 
 Now, what happens if we take the generating function $|T|(x)$ and
 evaluate it at $x = 1$? On the one hand, we get a divergent series:
-$$|T|(1) = 1 + 1 + 2 + 5 + 14 + 42 + \ldodts$$
+$$|T|(1) = 1 + 1 + 2 + 5 + 14 + 42 + \ldots$$
 
 This is the sum of all Catalan numbers --- or in other words, the number
 of binary planar trees. On the other hand, we can use the formula
@@ -516,15 +516,15 @@ $$B \cong B^2 + 1$$
 we want to construct an isomorphism
 $$B \cong B^7$$
 Here is the proof in Marcelo Fiore's paper:
-$$\includegraphics{../images/seven_trees_in_one_fiore.jpg}$$
+$$\includegraphics[max width=\linewidth]{../images/seven_trees_in_one_fiore.jpg}$$
 At each step he either replaces $B^n$ by $B^{n-1} + B^{n+1}$, or the reverse.
 The underlined portion shows where this will be done. Over at the
 *n*-Café, Stuart Presnell made a beautiful picture of this proof:
-$$\includegraphics{../images/seven_trees_in_one_presnell_fiore.png}$$
+$$\includegraphics[max width=\linewidth]{../images/seven_trees_in_one_presnell_fiore.png}$$
 He also made a picture of another proof, which is on page 29 of Pierre
 Ageron's book Logiques, Ensembles, Catgories: Le Point de Vue
 Constructif:
-$$\includegraphics{../images/seven_trees_in_one_presnell_bell.png}$$
+$$\includegraphics[max width=\linewidth]{../images/seven_trees_in_one_presnell_bell.png}$$
 You can watch a *movie* of a proof here:
 
 15) Dan Piponi," Arboreal isomorphisms from nuclear pennies", _A Neighborhood of Infinity_, September 30, 2007. Available at `http://blog.sigfpe.com/2007/09/arboreal-isomorphisms-from-nuclear.html`.

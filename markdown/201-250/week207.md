@@ -242,7 +242,7 @@ in his computer-generated voice:
 > gravity at temperature $1/\beta$.
 >
 > The partition function of a system is the trace over all states,
-> weighted with $e^{-\beta H}$. One can then integrate \beta along a contour
+> weighted with $e^{-\beta H}$. One can then integrate $\beta$ along a contour
 > parallel to the imaginary axis with the factor $e^{-\beta E}$. This projects
 > out the states with energy $E_0$. In a gravitational collapse and
 > evaporation, one is interested in states of definite energy, rather
@@ -250,7 +250,7 @@ in his computer-generated voice:
 >
 > There is an infrared problem with this idea for asymptotically flat
 > space. The Euclidean path integral with period $\beta$ is the partition
-> function for space at temperature $1/beta$. The partition function is
+> function for space at temperature $1/\beta$. The partition function is
 > infinite because the volume of space is infinite. This infrared
 > problem can be solved by a small negative cosmological constant. It
 > will not affect the evaporation of a small black hole, but it will

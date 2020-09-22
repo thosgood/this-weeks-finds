@@ -562,7 +562,7 @@ super division algebras!
 >   super Brauer clock over $\mathbb{R}$.  However, it does generate the super 
 >   Brauer group over $\mathbb{C}$ (which is of order two). 
 >  
-> 3.  $A = \mathbb{H}$.  Here $\mathbb{R}$-automorphisms  $\mathbb{H}$ \to $\mathbb{H}$  are given by 
+> 3.  $A = \mathbb{H}$.  Here $\mathbb{R}$-automorphisms  $\mathbb{H} \to \mathbb{H}$  are given by 
 >   $h \mapsto xhx^{-1}$  for $x$ in $\mathbb{H}$.  In other words 
 >   $$he = exhx^{-1}$$
 >   whence $ex$ commutes with all elements of $\mathbb{H}$ (i.e. we can 

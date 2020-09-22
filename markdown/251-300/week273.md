@@ -744,7 +744,7 @@ number theory:
 > managed to completely classify normed fields which were both complete
 > and locally compact. They are: the reals and finite field extensions,
 > the p-adic numbers and finite field extensions, and the fields
-> F~p~((t)) and finite field extensions. (Given a complete normed field,
+> F_p((t)) and finite field extensions. (Given a complete normed field,
 > there's a unique extension of the norm to any finite field extension
 > and the extension is still complete --- for the same sorts of reasons
 > that there's only one vector space norm on R^n up to equivalence and
@@ -831,7 +831,7 @@ number theory:
 > "symmetric" --- both get changed. But Tate observes that
 > *restricted* direct products get sent to restricted direct products!
 > Let k be a number field. Let k~v~ denote a typical completion of k (so
-> if k=Q then k~v~ is either R or Q~p~). We know k~v~ is complete and
+> if k=Q then k~v~ is either R or Q_p). We know k~v~ is complete and
 > it's easy to check it's locally compact (this doesn't use Weil's
 > classification --- it's the easy way around). So k~v~ is self-dual.
 > So the restricted product of all the k~v~ (that is, the adeles), is

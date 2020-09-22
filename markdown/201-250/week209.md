@@ -564,7 +564,7 @@ liberty of numbering the references in his email.
 > experience in module theory for enriched categories, it became clear
 > that Morita contexts were a bit silly and adjunctions of (bi)modules
 > were probably better and less ad hoc. The beginning point should be a
-> particular monoidal bicategory $\mathsf{Alg}(\mbox{$R$-$\mathsf{Mod$})$ based on a commutative ring
+> particular monoidal bicategory $\mathsf{Alg}(\mbox{$R$-$\mathsf{Mod}$})$ based on a commutative ring
 > $R$: objects are $R$-algebras, morphisms are bimodules, 2-cells are module
 > morphisms. The group of units, Picard group and Brauer group all sat
 > happily in there as homotopy groups of the monoidal bicategory.
@@ -577,7 +577,7 @@ liberty of numbering the references in his email.
 > After beginning the work with Joyal on braided monoidal categories and
 > learning of his work with Tierney on homotopy $3$-types, I spoke at the
 > homotopy meeting in Bangor in 1986(?) on this monoidal bicategory
-> $\mathsf{Alg}(\mbox{$R$-$\mathsf{Mod$})$ as a fundamental example. (It is discussed much later in
+> $\mathsf{Alg}(\mbox{$R$-$\mathsf{Mod}$})$ as a fundamental example. (It is discussed much later in
 > the last part of
 >
 > 40) R. Gordon, A.J. Power and R. Street, "Coherence for tricategories", _Memoirs of the American Math. Society_ **117** (1995) Number 558.)
@@ -588,7 +588,7 @@ liberty of numbering the references in his email.
 >
 > 41) Duskin, John W. "The Azumaya complex of a commutative ring". _Categorical algebra and its applications (Louvain-La-Neuve, 1987)_, 107--117, Lecture Notes in Math. **1348**, Springer, Berlin, 1988.
 >
-> I pointed out to Jack that this was the nerve of $\mathsf{Alg}(\mbox{$R$-$\mathsf{Mod$})$ and he
+> I pointed out to Jack that this was the nerve of $\mathsf{Alg}(\mbox{$R$-$\mathsf{Mod}$})$ and he
 > included a remark about that in the published version. Also see
 >
 > 42) Duskin, J. "An outline of a theory of higher-dimensional descent". Actes du Colloque en l'Honneur du Soixantieme Anniversaire de Rene Lavendhomme (Louvain-la-Neuve, 1989). _Bull. Soc. Math. Belg. Ser. A_ **41** (1989), no. 2, 249--277.

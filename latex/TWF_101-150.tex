@@ -51,8 +51,12 @@
 \usepackage{tikz-cd}
 
 \usepackage{graphicx}
+\usepackage[export]{adjustbox}
 
 \setcounter{section}{100}
+
+
+\usepackage[main]{embedall}
 
 \begin{document}
 
@@ -1399,15 +1403,15 @@ more on the history of this stuff, see:
 Octonions were invented by Cayley later on in the 1800s. For these, we
 start with \emph{seven} square roots of \(-1\), say \(e_1\) up to
 \(e_7\). To learn how multiply these, draw the following diagram:
-\[\includegraphics{../images/fano.jpg}\] Draw a triangle, draw a line
-from each vertex to the midpoint of the opposite edge, and inscribe a
-circle in the triangle. Label the 7 points shown with \(e_1\) through
-\(e_7\) --- it doesn't matter how, I've just drawn my favorite way. Draw
-arrows on the edges of the triangle going around clockwise, draw arrows
-on the circle also going around clockwise, and draw arrows on the three
-lines pointing from each vertex of the triangle to the midpoint of the
-opposite edge. Come on, DO it! I'm doing all this work for you\ldots{}
-you should do some, too.
+\[\includegraphics[max width=\linewidth]{../images/fano.jpg}\] Draw a
+triangle, draw a line from each vertex to the midpoint of the opposite
+edge, and inscribe a circle in the triangle. Label the 7 points shown
+with \(e_1\) through \(e_7\) --- it doesn't matter how, I've just drawn
+my favorite way. Draw arrows on the edges of the triangle going around
+clockwise, draw arrows on the circle also going around clockwise, and
+draw arrows on the three lines pointing from each vertex of the triangle
+to the midpoint of the opposite edge. Come on, DO it! I'm doing all this
+work for you\ldots{} you should do some, too.
 
 Okay. Now you have your very own octonion multiplication table. Notice
 that there are six lines and a circle in your picture. Each one of these
@@ -1520,13 +1524,13 @@ introduction to Lie algebras). Then it turns out that:
 \begin{itemize}
 \tightlist
 \item
-  \(\mathfrak{sl}(2,R) = \mathfrak{so}(2,1)\)
+  \(\mathfrak{sl}(2,\mathbb{R}) = \mathfrak{so}(2,1)\)
 \item
-  \(\mathfrak{sl}(2,C) = \mathfrak{so}(3,1)\)
+  \(\mathfrak{sl}(2,\mathbb{C}) = \mathfrak{so}(3,1)\)
 \item
-  \(\mathfrak{sl}(2,H) = \mathfrak{so}(5,1)\)
+  \(\mathfrak{sl}(2,\mathbb{H}) = \mathfrak{so}(5,1)\)
 \item
-  \(\mathfrak{sl}(2,O) = \mathfrak{so}(9,1)\)
+  \(\mathfrak{sl}(2,\mathbb{O}) = \mathfrak{so}(9,1)\)
 \end{itemize}
 
 This relates reals, complexes, quaternions and octonions to the Lorentz
@@ -2512,7 +2516,7 @@ some nonzero number! These are called ``homogeneous coordinates''.
 
 If you don't like the ambiguity of homogeneous coordinates, you can go
 right ahead and divide all the coordinates by the real number \(x_1\),
-getting \[(1, x_2/x_1, \ldots , x~n+1~/x_1)\] which lets us describe a
+getting \[(1, x_2/x_1, \ldots , x_{n+1}/x_1)\] which lets us describe a
 point in \(\mathbb{RP}^n\) by n real numbers, as befits an
 \(n\)-dimensional real manifold. Of course, this won't work if \(x_1\)
 happens to be zero! But we can divide by \(x_2\) if \(x_2\) is nonzero,
@@ -2900,7 +2904,8 @@ classical projective geometry.
 Dirac's face beamed a lovely smile: Ah he said, it was just such a thing
 that I hoped to do.
 
-I was reminded of this when bactracking to your ``week106'', today.
+I was reminded of this when bactracking to your
+\protect\hyperlink{week106}{``Week 106''}, today.
 
 Best, David
 \end{quote}
@@ -3087,9 +3092,12 @@ You can read a bit more about his work in
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
+\begin{quote}
 \emph{``Mainstream mathematics'' is a name given to mathematics that
-more fittingly belongs on Sunset Boulevard} --- Gian-Carlo Rota,
-Indiscrete Thoughts
+more fittingly belongs on Sunset Boulevard}
+
+--- Gian-Carlo Rota, Indiscrete Thoughts
+\end{quote}
 
 
 
@@ -6595,7 +6603,8 @@ there's a functor
 \[\operatorname{Hom}\colon\mathcal{C}^{\mathrm{op}}\times\mathcal{C}\to\mathsf{Set}\]
 where \(\mathcal{C}^{\mathrm{op}}\) denotes the opposite of
 \(\mathcal{C}\), that is, \(\mathcal{C}\) with all its arrows turned
-around. (See ``week78'' for an explanation of this.)
+around. (See \protect\hyperlink{week78}{``Week 78''} for an explanation
+of this.)
 
 Or I could have said this: form the composite
 \[\Delta^{\mathrm{op}}\times\mathsf{Top} \xrightarrow{i\times1} \mathsf{Top}^{\mathrm{op}}\times\mathsf{Top} \xrightarrow{\operatorname{Hom}} \mathsf{Set}\]
@@ -8883,7 +8892,7 @@ numbers, we can solve more problems, because we obtain invariants not
 only of spaces, but also of maps.
 
 In modern lingo, the \(n\)th rational homology is a \emph{functor}
-defined on the \emph{category} of topological spaces, while the nth
+defined on the \emph{category} of topological spaces, while the \(n\)th
 Betti number is a mere \emph{function}, defined on the \emph{set} of
 isomorphism classes of topological spaces. Of course, this way of
 stating Noether's insight is anachronistic, since it came before
@@ -9974,17 +9983,17 @@ into another as time passes. Feynman showed that we can do it by
 computing a sum over graphs in spacetime. These graphs are called
 Feynman diagrams, and they represent ``histories''. For example, \[
   \begin{tikzpicture}[thick]
-    \draw (0,0) to node[rotate=-45,label={[label distance=-2mm]above:{u}}]{$\blacktriangleright$} (1,-1);
-    \draw (1,-1) to node[rotate=-135,label={[label distance=-3.2mm]above:{d}}]{$\blacktriangleright$} (0,-2);
+    \draw (0,0) to node[rotate=225,label={[label distance=-2mm]left:{u}}]{$\blacktriangle$} (1,-1);
+    \draw (1,-1) to node[rotate=-225,label={[label distance=-3.2mm]left:{d}}]{$\blacktriangle$} (0,-2);
     \draw [decorate, decoration=snake] (1,-1) to node[label=above:{W}]{} (3,-1);
-    \draw (4,0) to node[rotate=-135,label={[label distance=-2mm]below:{e}}]{$\blacktriangleright$} (3,-1);
-    \draw (3,-1) to node[rotate=-45,label={[label distance=-2mm]below:{$\nu$}}]{$\blacktriangleright$} (4,-2);
+    \draw (4,0) to node[rotate=-225,label={[label distance=-2mm]right:{e}}]{$\blacktriangle$} (3,-1);
+    \draw (3,-1) to node[rotate=225,label={[label distance=-2mm]right:{$\nu$}}]{$\blacktriangle$} (4,-2);
   \end{tikzpicture}
-\] \textbf{???} would represent a history in which an up quark emits a W
-boson and turns into a down quark, with the W being absorbed by an
-electron, turning it into a neutrino. Time passes as you march down the
-page. Quantum field theory gives you rules for computing amplitudes for
-any Feyman diagram. You sum these amplitudes over all Feynman diagrams
+\] would represent a history in which an up quark emits a W boson and
+turns into a down quark, with the W being absorbed by an electron,
+turning it into a neutrino. Time passes as you march down the page.
+Quantum field theory gives you rules for computing amplitudes for any
+Feyman diagram. You sum these amplitudes over all Feynman diagrams
 starting at one state and ending at another to get the total amplitude
 for the given transition to occur.
 
@@ -10005,9 +10014,9 @@ a free theory. Then we can try to expand the transition amplitudes we
 want to know as a Taylor series in these parameters. As usual, computing
 the coefficients of the Taylor series only requires us to to compute a
 bunch of derivatives. And we can compute these derivatives using the
-free theory! Typically, computing the nth derivative of some transition
-amplitude gives us a bunch of integrals which correspond to Feynman
-diagrams with n vertices.
+free theory! Typically, computing the \(n\)th derivative of some
+transition amplitude gives us a bunch of integrals which correspond to
+Feynman diagrams with n vertices.
 
 By the way, this means you have to take the particles you see in Feynman
 diagrams with a grain of salt. They don't arise purely from the
@@ -10450,8 +10459,8 @@ corresponding points on all the others. This rolls the plane up into a
 torus. Now, two lattices are more symmetrical than the rest. One of them
 is the square lattice: \[
   \begin{tikzpicture}[scale=0.7]
-    \draw[->] (-3,0) to (4,0) node[label=below:{$\Re(z)$}]{};
-    \draw[->] (0,-3) to (0,4) node[label=left:{$\Im(z)$}]{};
+    \draw[->] (-2.5,0) to (4,0) node[label=below:{$\Re(z)$}]{};
+    \draw[->] (0,-2) to (0,4) node[label=left:{$\Im(z)$}]{};
     \foreach \m in {-1,0,1,2}
     {
       \foreach \n in {-1,0,1,2}
@@ -10463,13 +10472,13 @@ is the square lattice: \[
 \] which has 4-fold rotational symmetry. The other is the lattice with
 lots of equilateral triangles in it: \[
   \begin{tikzpicture}[scale=0.7]
-    \draw[->] (-3,0) to (4,0) node[label=below:{$\Re(z)$}]{};
-    \draw[->] (0,-3) to (0,4) node[label=left:{$\Im(z)$}]{};
+    \draw[->] (-3,0) to (4.5,0) node[label=below:{$\Re(z)$}]{};
+    \draw[->] (0,-2) to (0,3.5) node[label=left:{$\Im(z)$}]{};
     \foreach \m in {-1,0,1,2}
     {
       \foreach \n in {-1,0,1,2}
       {
-        \node at ({1.5*\m+0.75*\n-0.5},{1.33*\n-0.5}) {$\bullet$};
+        \node at ({1.5*\m+0.75*\n},{1.33*\n}) {$\bullet$};
       }
     }
   \end{tikzpicture}
@@ -10722,8 +10731,8 @@ elliptic curves, string theory, and the number 24. I claimed that it all
 boils down to the fact that there are two especially symmetric lattices
 in the plane, namely the square lattice: \[
   \begin{tikzpicture}[scale=0.7]
-    \draw[->] (-3,0) to (4,0) node[label=below:{$\Re(z)$}]{};
-    \draw[->] (0,-3) to (0,4) node[label=left:{$\Im(z)$}]{};
+    \draw[->] (-2.5,0) to (4,0) node[label=below:{$\Re(z)$}]{};
+    \draw[->] (0,-2) to (0,4) node[label=left:{$\Im(z)$}]{};
     \foreach \m in {-1,0,1,2}
     {
       \foreach \n in {-1,0,1,2}
@@ -10734,13 +10743,13 @@ in the plane, namely the square lattice: \[
   \end{tikzpicture}
 \] with 4-fold symmetry, and the hexagonal lattice: \[
   \begin{tikzpicture}[scale=0.7]
-    \draw[->] (-3,0) to (4,0) node[label=below:{$\Re(z)$}]{};
-    \draw[->] (0,-3) to (0,4) node[label=left:{$\Im(z)$}]{};
+    \draw[->] (-3,0) to (4.5,0) node[label=below:{$\Re(z)$}]{};
+    \draw[->] (0,-2) to (0,3.5) node[label=left:{$\Im(z)$}]{};
     \foreach \m in {-1,0,1,2}
     {
       \foreach \n in {-1,0,1,2}
       {
-        \node at ({1.5*\m+0.75*\n-0.5},{1.33*\n-0.5}) {$\bullet$};
+        \node at ({1.5*\m+0.75*\n},{1.33*\n}) {$\bullet$};
       }
     }
   \end{tikzpicture}
@@ -11444,7 +11453,7 @@ in \protect\hyperlink{week125}{``Week 125''}, where we were studying the
 elliptic curve formed by curling up a parallelogram like this in the
 complex plane: \[
   \begin{tikzpicture}[scale=0.7]
-    \draw[->] (-3,0) to (4,0) node[label=below:{$\Re(z)$}]{};
+    \draw[->] (-2.5,0) to (4,0) node[label=below:{$\Re(z)$}]{};
     \draw[->] (0,-2) to (0,4) node[label=left:{$\Im(z)$}]{};
     \foreach \m in {-1,0,1,2}
     {
@@ -12057,7 +12066,7 @@ Notes and digressions:
   and if we multiply these formally the RHS of (\(2\)) becomes
   \[1-\frac13+\frac15-\frac17+\frac19-\ldots\] i.e., Gregory's series
   for \(\pi/4\). Admittedly it's not apparent that this formal
-  manipulation is valid. However for Dirichlet L-functions the Euler
+  manipulation is valid. However for Dirichlet \(L\)-functions the Euler
   product is valid at \(s = 1\). This requires some delicate analysis:
   for details see Landau's book on prime numbers or Davenport's
   \emph{Multiplicative Number Theory}.
@@ -13848,10 +13857,10 @@ about them, just because they're so cool!
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-Addendum: Here is something from Allen Knutson in response to my remark
-that \(\mathrm{E}_6\) has complex representations that aren't their own
-conjugates. I hoped that this is related to the symmetry of the Dynkin
-diagram of \(\mathrm{E}_6\), and Allen replied:
+\textbf{Addendum:} Here is something from Allen Knutson in response to
+my remark that \(\mathrm{E}_6\) has complex representations that aren't
+their own conjugates. I hoped that this is related to the symmetry of
+the Dynkin diagram of \(\mathrm{E}_6\), and Allen replied:
 
 \begin{quote}
 It does. The automorphism \(G\to G\) that exchanges representations with
@@ -14268,7 +14277,7 @@ their definition of \(n\)-categories. For more on their work see
 For quite a while now James Dolan and I have been talking about
 something we call the ``stabilization hypothesis''. I gave an
 explanation of this in \protect\hyperlink{week121}{``Week 121''}, but
-briefly, it says that the nth column of the following chart (which
+briefly, it says that the \(n\)th column of the following chart (which
 extends to infinity in both directions) stabilizes after \(2n+2\) rows:
 
 \begin{longtable}[]{@{}llll@{}}
@@ -16564,7 +16573,7 @@ about it in Lisbon beforehand, so I think I understand it pretty well.
 Basically what he's doing is categorifying the \(3\)-dimensional
 topological quantum field theories studied by Dijkgraaf and Witten to
 get \(4\)-dimensional theories. It fits in very nicely with his earlier
-work described in ``week121''.
+work described in \protect\hyperlink{week121}{``Week 121''}.
 
 People have been trying to categorify the magic of quantum groups for
 quite some time now, and Khovanov appears to have made a good step in
@@ -18728,7 +18737,7 @@ pasting diagram \(\alpha\) in it has at least one composite.
 The analog of the universal arrows in the Baez/Dolan style definition is
 as follows. A \textbf{universal arrow} is defined to be an arrow of the
 form \(b\colon\alpha\to a\) where \(a\) is a composite of \(\alpha\) via
-an equipment \(E\) that relates \(b\) with the identity arrow on \(a\) :
+an equipment \(E\) that relates \(b\) with the identity arrow on \(a\):
 in turn, the identity arrow on \(a\) is any composite of the empty
 pasting diagram of dimension \(\dim(a)+1\) based on \(a\). Note that the
 main definition does \emph{not} go through first defining ``universal
@@ -19956,47 +19965,33 @@ picture are congruent.
 What about multiplication? Well, first draw a line \(L'\) that
 intersects our line \(L\) only at the point \(0\). Then draw a line
 \(M\) from the point \(1\) to some point \(1'\) that's on \(L'\) but not
-on \(L\):
-
-\begin{verbatim}
-                  L'/
-                   / 
-                  /
-                 1'
-                /|
-               / |
-              /  |
-   ----------0---1------------------------------------  L
-                 |
-                 |M
-                 |
-\end{verbatim}
-
-Then, to multiply \(x\) and \(y\), draw this picture:
-
-\begin{verbatim}
-                        /
-                       /|\   
-                      / | \
-                     /  |  \
-                  L'/   |   \
-                   /    |    \
-                  /     |     \
-                 1'     |      \
-                /|\     |       \
-               / | \N   |        \N'
-              /  |  \   |         \
-   ----------0---1---x--y----------z------------------  L
-                 |    \ |           \
-                 |M     |M'
-                 |      |
-\end{verbatim}
-
-In other words, draw a line \(N\) though \(1'\) and \(x\), draw a line
-\(M'\) parallel to \(M\) through the point \(y\), and draw a line \(N'\)
-parallel to \(N\) through the point where \(L'\) and \(M'\) intersect.
-\(L\) and \(N'\) intersect at the point called \(z\)\ldots{} and we
-define this point to be \(xy\)!
+on \(L\): \[
+  \begin{tikzpicture}
+    \draw[thick] (-1,0) to (3,0) node[label=right:{$L$}]{};
+    \draw[thick] (0,0) to (1.5,2) node[label=right:{$L'$}]{};
+    \draw[thick] (1,-1) node[label=right:{$M$}]{} to (1,1.33);
+    \node[label={[label distance=-2mm]below left:{$0$}}] at (0,0){$\bullet$};
+    \node[label={[label distance=-2mm]below left:{$1$}}] at (1,0){$\bullet$};
+    \node[label={[label distance=-2mm]above left:{$1'$}}] at (1,1.33){$\bullet$};
+  \end{tikzpicture}
+\] Then, to multiply \(x\) and \(y\), draw this picture: \[
+  \begin{tikzpicture}
+    \draw[thick] (-1,0) to (6,0) node[label={[label distance=-2mm]right:{$L$}}]{};
+    \draw[thick] (0,0) to node[label=above:{$L'$}]{} (3,4);
+    \draw[thick] (1,-1) node[label={[label distance=-2mm]right:{$M$}}]{} to (1,1.33) to (1,1.75);
+    \draw[thick] (2.5,-1) node[label={[label distance=-2mm]right:{$M'$}}]{} to (2.5,3.33) node{$\bullet$} to (2.5,4);
+    \draw[thick] (2,-0.66) node[label={[label distance=-2mm]below:{$N$}}]{} to (1.66,0) node[label={[label distance=-3mm]above right:{$x$}}]{$\bullet$} to (1,1.33) to (0.66,2);
+    \draw[thick] (4.66,-0.66) node[label={[label distance=-2mm]below:{$N'$}}]{} to (4.33,0) node[label={[label distance=-3mm]above right:{$z$}}]{$\bullet$} to (2.5,3.33) to (2.17,4);
+    \node[label={[label distance=-2mm]below left:{$0$}}] at (0,0){$\bullet$};
+    \node[label={[label distance=-2mm]below left:{$1$}}] at (1,0){$\bullet$};
+    \node[label={[label distance=-3mm]above right:{$y$}}] at (2.5,0){$\bullet$};
+    \node[label={[label distance=-2mm]left:{$1'$}}] at (1,1.33){$\bullet$};
+  \end{tikzpicture}
+\] In other words, draw a line \(N\) though \(1'\) and \(x\), draw a
+line \(M'\) parallel to \(M\) through the point \(y\), and draw a line
+\(N'\) parallel to \(N\) through the point where \(L'\) and \(M'\)
+intersect. \(L\) and \(N'\) intersect at the point called \(z\)\ldots{}
+and we define this point to be \(xy\)!
 
 This is obviously the right thing, because the triangle containing the
 points \(1\) and \(x\) is similar to the triangle containing \(y\) and
@@ -20426,7 +20421,7 @@ geometry.
 Dirac's face beamed a lovely smile: "Ah," he said, "it was just such a thing
 that I hoped to do".
 
-I was reminded of this when backtracking to your "week106", today.
+I was reminded of this when backtracking to your ["Week 106"](#week106), today.
 
 Best,
 
