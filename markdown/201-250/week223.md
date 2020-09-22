@@ -646,8 +646,8 @@ $2$-groups", and how $\mathrm{AUT}(F)$ is defined:
 > jb
 
 It's important to note that it's *isomorphism classes* of extensions
-that correspond to *isomorphism classes* of homomorphisms B \to \mathrm{Aut}(F).
-For this, one needs to know what a "2-isomorphism" between
+that correspond to *isomorphism classes* of homomorphisms $B \to \mathrm{Aut}(F)$.
+For this, one needs to know what a "$2$-isomorphism" between
 homomorphisms of $2$-groups is. Again, this is explained in my paper with
 Lauda. It's a special case of a weak natural isomorphism between weak
 $2$-functors between $2$-categories, but we say what this means in terms
@@ -658,42 +658,39 @@ size issues in category theory:
 
 > John wrote in part:
 >
-> >Next I want to explain some stuff Danny Stevenson told me at a mall in
-> >the little town of Cabazon while we were recovering from a hike in the
-> >desert followed by pancakes at the Wheel Inn --- a roadside restaurant
-> >famous for its enormous statues of dinosaurs.
+> > Next I want to explain some stuff Danny Stevenson told me at a mall in
+> > the little town of Cabazon while we were recovering from a hike in the
+> > desert followed by pancakes at the Wheel Inn --- a roadside restaurant
+> > famous for its enormous statues of dinosaurs.
 >
-> Did you see [the creationist sign by the
-> dinosaurs?](http://www.latimes.com/news/local/la-me-dinosaurs27aug27,0,3988775,full.story)
+> Did you see [the creationist sign by the dinosaurs?](http://www.latimes.com/news/local/la-me-dinosaurs27aug27,0,3988775,full.story)
 >
-> >                  SPACES FIBERED OVER THE SPACE B
-> >                         ARE "THE SAME" AS
-> >               MAPS FROM B TO THE SPACE OF ALL SPACES
+> > SPACES FIBERED OVER THE SPACE $B$
+> > ARE "THE SAME" AS
+> > MAPS FROM $B$ TO THE SPACE OF ALL SPACES
 >
-> >The fearsome "space of all spaces" is then the disjoint union of
-> >the classifying spaces of all these topological groups \mathrm{AUT}(F). It's
-> >too large to be a space unless you pass to a larger universe of sets,
-> >but otherwise it's perfectly fine.
+> > The fearsome "space of all spaces" is then the disjoint union of
+> > the classifying spaces of all these topological groups $\mathrm{AUT}(F)$. It's
+> > too large to be a space unless you pass to a larger universe of sets,
+> > but otherwise it's perfectly fine.
 >
 > So if you want your slogan to treat size issues carefully:
 >
-> ::: {align="center"}
-> SPACES FIBERED OVER THE SPACE B\
-> ARE "THE SAME" AS\
-> MAPS FROM B TO THE SPACE OF ALL SMALL SPACES
-> :::
+> > SPACES FIBERED OVER THE SPACE $B$\
+> > ARE "THE SAME" AS\
+> > MAPS FROM $B$ TO THE SPACE OF ALL SMALL SPACES
 >
 > But you were secretly doing this all along! After all, when you wrote:
 >
-> >               $n$-GROUPOIDS FIBERED OVER AN $n$-GROUPOID B
-> >                        ARE "THE SAME" AS
-> >          WEAK $(n+1)$-FUNCTORS FROM B TO THE $(n+1)$-GROUPOID n\mathsf{Gpd}
+> > $n$-GROUPOIDS FIBERED OVER AN $n$-GROUPOID $B$
+> > ARE "THE SAME" AS
+> > WEAK $(n+1)$-FUNCTORS FROM $B$ TO THE $(n+1)$-GROUPOID $n\mathsf{Gpd}$
 >
-> you simply used "n\mathsf{Gpd}" to abbreviate "OF ALL SMALL $n$-GROUPOIDS".
+> you simply used "$n\mathsf{Gpd}$" to abbreviate "OF ALL SMALL $n$-GROUPOIDS".
 > So there are really no new size issues at the $\omega$ level.
 >
 > (Exercise for those that like this sort of thing: Do we need to state
-> that B and F are small?)
+> that $B$ and $F$ are small?)
 >
 > -- Toby
 
@@ -701,7 +698,7 @@ Thanks for clearing this up. I prefer not to distract people with size
 issues, so I didn't mention them until "the space of all spaces"
 walked in the door, at which point I figured alarm bells would start
 ringing for lots of people. But, it was already hiding in the "the
-(n+1)-groupoid of all $n$-groupoids". I prefer to use a new Grothendieck
+$(n+1)$-groupoid of all $n$-groupoids". I prefer to use a new Grothendieck
 universe for each level of the $n$-categorical hierarchy, to justify such
 expressions. I guess $\omega$-categories then require an $\omega$-th universe.
 
@@ -723,58 +720,54 @@ spaces", which I answered in this email:
 >
 > You wrote:
 >
-> >Hi,
-> >
-> >       SPACES FIBERED OVER THE SPACE B 
-> >             ARE "THE SAME" AS 
-> >  MAPS FROM B TO THE SPACE OF ALL SMALL SPACES 
-> >
-> >Is there another handle on this, other than
-> >
-> >     OMEGA-GROUPOIDS FIBERED OVER THE OMEGA-GROUPOID B 
-> >                  ARE "THE SAME" AS 
-> >  WEAK OMEGA-FUNCTORS FROM B TO THE OMEGA-GROUPOID OF ALL
-> >                SMALL OMEGA-GROUPOIDS  ?
-> >
-> >Presumably B must be small, and the spaces fibered over it.
+> > Hi,
+> > 
+> > > SPACES FIBERED OVER THE SPACE $B$ 
+> > > ARE "THE SAME" AS 
+> > > MAPS FROM $B$ TO THE SPACE OF ALL SMALL SPACES 
+> > 
+> > Is there another handle on this, other than
+> > 
+> > > OMEGA-GROUPOIDS FIBERED OVER THE OMEGA-GROUPOID $B$
+> > > ARE "THE SAME" AS 
+> > > WEAK OMEGA-FUNCTORS FROM $B$ TO THE OMEGA-GROUPOID OF ALL
+> > > SMALL OMEGA-GROUPOIDS  ?
+> > 
+> > Presumably $B$ must be small, and the spaces fibered over it.
 >
 > It suffices for the fibers to be small, so if you want a really
 > nitpicky motto:
 >
-> ::: {align="CENTER"}
-> SMALL $\omega$-GROUPOIDS FIBERED OVER THE $\omega$-GROUPOID B\
-> ARE "THE SAME" AS\
-> WEAK $\omega$-FUNCTORS FROM B TO THE $\omega$-GROUPOID OF ALL\
-> SMALL $\omega$-GROUPOIDS\
-> :::
+> > SMALL $\omega$-GROUPOIDS FIBERED OVER THE $\omega$-GROUPOID $B$\
+> > ARE "THE SAME" AS\
+> > WEAK $\omega$-FUNCTORS FROM $B$ TO THE $\omega$-GROUPOID OF ALL\
+> > SMALL $\omega$-GROUPOIDS\
 >
-> >Do you and Jim have other intuitions about THE SPACE OF ALL
-> >SMALL SPACES? 
+> > Do you and Jim have other intuitions about THE SPACE OF ALL
+> > SMALL SPACES? 
 >
 > One can describe it in a completely precise and rigorous way. It's
-> the disjoint union over all homotopy types of small spaces F of the
-> classifying spaces B(\mathrm{Aut}(F)). Here \mathrm{Aut}(F) is the topological group of
-> homotopy self-equivalences of F.
+> the disjoint union over all homotopy types of small spaces $F$ of the
+> classifying spaces $B(\mathrm{Aut}(F))$. Here $\mathrm{Aut}(F)$ is the topological group of
+> homotopy self-equivalences of $F$.
 >
 > Note: the "largeness" of this space is solely due to it being a
 > disjoint union of a proper class of connected components. When we map
 > any small space to it, the map can only hit a set's worth of
 > components. So, it's not really scary.
 >
-> And, if we map a connected small space X to it, we get a map
+> And, if we map a connected small space $X$ to it, we get a map
+> $$X \to B(\mathrm{Aut}(F))$$
+> for some $F$, which is just what you need to get an $F$-bundle over $X$.
 >
-> X \to B(\mathrm{Aut}(F))
->
-> for some F, which is just what you need to get an F-bundle over X.
->
-> >Like, is it one of your FREE SUCH-AND-SUCHES?
+> > Like, is it one of your FREE SUCH-AND-SUCHES?
 >
 > I don't know a description like that offhand, since "free" suggests
 > a left universal property, and the space of all (small) spaces mainly
 > has a right universal property, which describes maps *into* it.
 >
-> Namely: maps from X into the space of all spaces are "the same as"
-> fibrations over X.
+> Namely: maps from $X$ into the space of all spaces are "the same as"
+> fibrations over $X$.
 >
 > I could make this completely precise, but it's probably not worth
 > bothering here; one just needs suitable equivalence relations.
@@ -783,25 +776,22 @@ Next, Peter May wrote:
 
 > In his posting today, John Baez advertised the slogan:
 >
-> ::: {align="CENTER"}
-> FIBRATIONS OVER THE BASE SPACE B WITH FIBER F\
-> ARE "THE SAME" AS\
-> HOMOMORPHISMS SENDING LOOPS IN B TO AUTOMORPHISMS OF F.
-> :::
+> > FIBRATIONS OVER THE BASE SPACE $B$ WITH FIBER $F$\
+> > ARE "THE SAME" AS\
+> > HOMOMORPHISMS SENDING LOOPS IN $B$ TO AUTOMORPHISMS OF $F$.
 >
 > He hedged it with a "dose of vagueness", but in fact I proved a
 > completely precise and general version of exactly this result in:
 >
-> 16) Peter May, Classifying spaces and fibrations, Memoirs AMS 155,
-> Jan. 1975.
+> 16) Peter May, "Classifying spaces and fibrations", _Memoirs AMS_ **155**, Jan. 1975.
 >
-> Using Moore loops on B, LB, one has a topological monoid, and one also
-> has the topological monoid \mathrm{Aut}(F) of homotopy equivalences of F. A
-> "transport" is a homomorphism of topological monoids from LB to
-> \mathrm{Aut}(F). Allowing F to vary by a homotopy equivalence, one can define
+> Using Moore loops on $B$, $LB$, one has a topological monoid, and one also
+> has the topological monoid $\mathrm{Aut}(F)$ of homotopy equivalences of $F$. A
+> "transport" is a homomorphism of topological monoids from $LB$ to
+> $\mathrm{Aut}(F)$. Allowing $F$ to vary by a homotopy equivalence, one can define
 > an equivalence relation on transports such that the equivalence
 > classes are in natural bijective correspondence with the equivalence
-> classes of "fibrations over the base space B with fiber F". One can
+> classes of "fibrations over the base space $B$ with fiber $F$". One can
 > generalize the context by allowing fibers in some nice category and
 > prove the same result. See opus cit, Theorem 14.2, page 83. That was
 > over 30 years ago, so naturally I wasn't thinking about
@@ -815,26 +805,23 @@ Jim Stasheff wrote:
 
 > Even more ancient:
 >
-> 17) James Stasheff, Parallel transport in fibre spaces, Bol. Soc.
-> Mat. Mexicana (1968), 68-86.
+> 17) James Stasheff, "Parallel transport in fibre spaces", _Bol. Soc. Mat. Mexicana_ (1968), 68--86.
 >
 > Unfortunately that's a hard paper to get a hold of.
 >
 > Somewhat related is:
 >
-> 18) James Stasheff, Associated fibre spaces, Michigan Math. Journal
-> 15 (1968), 457-470.
+> 18) James Stasheff, "Associated fibre spaces", _Michigan Math. Journal_ **15** (1968), 457--470.
 >
 > and at the survey level:
 >
-> 19) James Stasheff, H-spaces and classifying spaces, I-IV, AMS Proc.
-> Symp. Pure Math. 22 (1971), 247-272.
+> 19) James Stasheff, "H-spaces and classifying spaces, I-IV", _AMS Proc. Symp. Pure Math._ **22** (1971), 247--272.
 >
 > Of course, as you might expect, I describe things in terms of
-> A~\infty~-morphisms from the space of loops into \mathrm{Aut}(F) of homotopy
-> equivalences of F.
+> $A_\infty$-morphisms from the space of loops into $\mathrm{Aut}(F)$ of homotopy
+> equivalences of $F$.
 >
-> Now that some of us are comfortable with A~\infty~-cats, categorification
+> Now that some of us are comfortable with $A_\infty$-cats, categorification
 > should proceed, perhaps with some technical details.
 >
 > jim
@@ -846,46 +833,34 @@ Ronnie Brown wrote:
 > been involved, all using crossed complexes and free crossed
 > resolutions:
 >
-> 20) Ronald Brown and P. J. Higgins, Crossed complexes and non-abelian
-> extensions, Category theory proceedings, Gummersbach, 1981, (ed. K.H.
-> Kamps et al) Lecture Notes in Math. 962 Springer, Berlin, 1982, pp.
-> 39-50.
+> 20) Ronald Brown and P. J. Higgins, "Crossed complexes and non-abelian extensions", _Category theory proceedings, Gummersbach, 1981_, (ed. K.H. Kamps et al) Lecture Notes in Math. **962** Springer, Berlin, 1982, pp. 39--50.
 >
 > This generalises classical Schreier theory to extensions of groupoids.
 >
-> 21) Ronald Brown and O. Mucuk, Covering groups of non-connected
-> topological groups revisited, Math. Proc. Camb. Phil. Soc., 115 (1994)
-> 97-110. Also available as
-> [math.AT/0009021](http://arxiv.org/abs/math.AT/0009021).
+> 21) Ronald Brown and O. Mucuk, "Covering groups of non-connected topological groups revisited", _Math. Proc. Camb. Phil. Soc._ **115** (1994) 97--110. Also available as [`math.AT/0009021`](http://arxiv.org/abs/math.AT/0009021).
 >
 > This relates the theory of covering topological groups of non
 > connected topological groups to the classical theory of extensions and
-> obstructions to a Q-kernel with an invariant in H3. It uses the
-> properties of the internal hom in crossed complexes CRS(F,C), and
-> exact sequences derived from a fibration C \to D and the induced
-> fibration on CRS(F, -).
+> obstructions to a $Q$-kernel with an invariant in $H3$. It uses the
+> properties of the internal hom in crossed complexes $\mathrm{CRS}(F,C)$, and
+> exact sequences derived from a fibration $C \to D$ and the induced
+> fibration on $\mathrm{CRS}(F,-)$.
 >
-> 22) Ronald Brown and Timothy Porter, On the Schreier theory of
-> non-abelian extensions: generalisations and computations, Proceedings
-> Royal Irish Academy 96A (1996), 213-227. Also available at
-> `http://www.informatics.bangor.ac.uk/public/math/research/ftp/algtop/rb/nonabex4.ps.gz`
+> 22) Ronald Brown and Timothy Porter, "On the Schreier theory of non-abelian extensions: generalisations and computations", _Proceedings Royal Irish Academy_ **96A** (1996), 213--227. Also available at `http://www.informatics.bangor.ac.uk/public/math/research/ftp/algtop/rb/nonabex4.ps.gz`
 >
 > This establishes a generalisation of the Schreier theory in two ways
 > (but only for groups). One is using coefficients in a crossed module,
 > following Dedecker's key ideas, as in the references in John's
 > account. Second it shows how to compute with such extensions
->
-> A \to E \to G
->
-> in terms of presentations of the group G. This involves identities
+> $$A \to E \to G$$
+> in terms of presentations of the group $G$. This involves identities
 > among relations for the presentation, as shown originally by Turing in
 >
-> 23) Alan Turing, The extensions of a group, Compositio Mathematica 5
-> (1938), 357-367.
+> 23) Alan Turing, "The extensions of a group", _Compositio Mathematica_ **5** (1938), 357--367.
 >
 > The advantage of this method is that one can actually do sums, even
-> when the group G may be infinite. The example given by us is G =
-> trefoil group with two generators x,y and relation x^3=y^2. This
+> when the group $G$ may be infinite. The example given by us is $G$ =
+> trefoil group with two generators $x,y$ and relation $x^3=y^2$. This
 > presentation has no identities among relations, and so the calculation
 > is especially simple. Equivalence of extensions is described in terms
 > of homotopies of morphisms of crossed complexes, and this relates the
@@ -905,37 +880,32 @@ Ronnie Brown wrote:
 > crossed modules, explained for the crossed modules of groupoids case
 > in:
 >
-> 24) Ronald Brown and Ilhan Icen, Homotopies and automorphisms of
-> crossed modules of groupoids, Applied Categorical Structures, 11
-> (2003) 185-206. Also available as
-> [math.CT/0008117](http://arxiv.org/abs/math.CT/0008117).
+> 24) Ronald Brown and Ilhan Icen, "Homotopies and automorphisms of crossed modules of groupoids", _Applied Categorical Structures_ **11** (2003) 185--206. Also available as [`math.CT/0008117`](http://arxiv.org/abs/math.CT/0008117).
 >
 > It looks as if it would be better expressed in terms of automorphisms
 > of $2$-groupoids: good marks to anyone who writes it down in that way!
 >
-> One knows such homotopies of globular \infty groupoids exist because
-> globular \infty-groupoids are equivalent to crossed complexes:
+> One knows such homotopies of globular $\infty$-groupoids exist because
+> globular $\infty$-groupoids are equivalent to crossed complexes:
 >
-> 25) Ronald Brown and P. J. Higgins, The equivalence of \infty-groupoids
-> and crossed complexes, Cah. Top. Geom. Diff. 22 (1981) 371-386.
+> 25) Ronald Brown and P. J. Higgins, "The equivalence of $\infty$-groupoids and crossed complexes", _Cah. Top. Geom. Diff._ **22** (1981) 371--386.
 >
-> (This paper contains an early definition of a (strict, globular) \infty
+> (This paper contains an early definition of a (strict, globular) $\infty$
 > category.)
 >
 > This raises a question: what is the crossed complex associated to the
-> free globular groupoid on one generator of dimension n? I have a
+> free globular groupoid on one generator of dimension $n$? I have a
 > round-about sketch proof, using also cubical theory, and a van Kampen
 > theorem, that it *is* the fundamental crossed complex of the $n$-globe.
 > Does anyone have a purely algebraic proof?
 >
-> The idea of singular nonabelian cohomology of a space X with
-> coefficients in a crossed complex C is given in:
+> The idea of singular nonabelian cohomology of a space $X$ with
+> coefficients in a crossed complex $C$ is given in:
 >
-> 26) Ronald Brown and P. J. Higgins, The classifying space of a
-> crossed complex, Math. Proc. Camb. Phil. Soc. 110 (1991) 95-120.
+> 26) Ronald Brown and P. J. Higgins, "The classifying space of a crossed complex", _Math. Proc. Camb. Phil. Soc._ **110** (1991) 95--120.
 >
-> This cohomology is given by \[ΠSX, C\], homotopy classes of maps from
-> the fundamental crossed complex of the singular complex of X, to C.
+> This cohomology is given by $[\Pi SX, C]$, homotopy classes of maps from
+> the fundamental crossed complex of the singular complex of $X$, to $C$.
 > There is also a Cech version (current work with Jim Glazebrook and Tim
 > Porter).
 >
@@ -945,15 +915,12 @@ Ronnie Brown wrote:
 > transitive Lie groupoids by Androulidakis, developing work of
 > Mackenzie, at:
 >
-> 27) Iakovos Androulidakis, Classification of extensions of principal
-> bundles and transitive Lie groupoids with prescribed kernel and
-> cokernel, J. Math. Phys. 45 (2004), 3095-4012. Also available as
-> [math.DG/0402007](http://arxiv.org/abs/math.DG/0402007).
+> 27) Iakovos Androulidakis, "Classification of extensions of principal bundles and transitive Lie groupoids with prescribed kernel and cokernel", _J. Math. Phys._ **45** (2004), 3095--4012. Also available as [`math.DG/0402007`](http://arxiv.org/abs/math.DG/0402007).
 >
 > (not using crossed complexes).
 >
 > Ronnie Brown\
-> [http:www.bangor.ac.uk/r.brown](http://www.bangor.ac.uk/r.brown)
+> `http:www.bangor.ac.uk/r.brown`
 
 Finally, here's my reply to a bemused comment by Jim Stasheff:
 
@@ -965,36 +932,30 @@ Finally, here's my reply to a bemused comment by Jim Stasheff:
 > > For both bundles and fibrations (e.g. over a paracompact base), your 
 > > last slogan is the oldest:
 >      
-> >                FIBRATIONS WITH FIBER F OVER THE SPACE B
-> >                           ARE "THE SAME" AS
-> >               MAPS FROM B TO THE CLASSIFYING SPACE OF \mathrm{AUT}(F)
+> > FIBRATIONS WITH FIBER $F$ OVER THE SPACE $B$
+> > ARE "THE SAME" AS
+> > MAPS FROM $B$ TO THE CLASSIFYING SPACE OF $\mathrm{AUT}(F)$
 >      
 > > "the same as" referring to homotopy classes.
 >
 > It's certainly old, but I mentioned another that may be older:
 >
-> ::: {align="CENTER"}
-> COVERING SPACES OF B WITH FIBER F\
-> ARE "THE SAME" AS\
-> HOMOMORPHISMS FROM THE FUNDAMENTAL GROUP OF B TO AUTOMORPHISMS OF F
-> :::
+> > COVERING SPACES OF $B$ WITH FIBER $F$\
+> > ARE "THE SAME" AS\
+> > HOMOMORPHISMS FROM THE FUNDAMENTAL GROUP OF $B$ TO AUTOMORPHISMS OF $F$
 >
 > although one usually sees this special case (which I didn't bother to
 > mention):
 >
-> ::: {align="CENTER"}
-> CONNECTED COVERING SPACES OF B WITH FIBER F\
-> ARE "THE SAME" AS\
-> TRANSITIVE ACTIONS OF THE FUNDAMENTAL GROUP OF B ON F
-> :::
+> > CONNECTED COVERING SPACES OF $B$ WITH FIBER $F$\
+> > ARE "THE SAME" AS\
+> > TRANSITIVE ACTIONS OF THE FUNDAMENTAL GROUP OF $B$ ON $F$
 >
 > which is usually disguised as follows:
 >
-> ::: {align="CENTER"}
-> CONNECTED COVERING SPACES OF B\
-> ARE "THE SAME" AS\
-> SUBGROUPS OF THE FUNDAMENTAL GROUP OF B
-> :::
+> > CONNECTED COVERING SPACES OF $B$\
+> > ARE "THE SAME" AS\
+> > SUBGROUPS OF THE FUNDAMENTAL GROUP OF $B$
 >
 > Anyway, I wasn't trying to present things in historical order. I was
 > trying present them roughly in order of increasing "dimension",
@@ -1016,61 +977,48 @@ Finally, here's my reply to a bemused comment by Jim Stasheff:
 > instead of "spaces" is not to reinvent topology, but to see how
 > ideas from topology generalize to $n$-category theory. Think of spaces
 > as $\omega$-groupoids, but use those as a springboard for $\omega$-categories --- or
-> at least $n$-categories, perhaps just for low values of n if one is
+> at least $n$-categories, perhaps just for low values of $n$ if one is
 > feeling tired.
 >
 > In the case at hand, the $\omega$-groupoidal slogan:
 >
-> ::: {align="CENTER"}
-> FIBRATIONS OF $\omega$-GROUPOIDS WITH FIBER F AND BASE B\
-> ARE "THE SAME" AS\
-> WEAK $\omega$-FUNCTORS FROM B TO \mathrm{AUT}(F)
-> :::
->
+> > FIBRATIONS OF $\omega$-GROUPOIDS WITH FIBER $F$ AND BASE $B$\
+> > ARE "THE SAME" AS\
+> > WEAK $\omega$-FUNCTORS FROM $B$ TO $\mathrm{AUT}(F)$
+> 
 > is just a reformulation of:
 >
-> ::: {align="CENTER"}
-> FIBRATIONS WITH FIBER F OVER THE SPACE B\
-> ARE "THE SAME" AS\
-> MAPS FROM B TO THE CLASSIFYING SPACE OF \mathrm{AUT}(F)
-> :::
+> > FIBRATIONS WITH FIBER $F$ OVER THE SPACE $B$\
+> > ARE "THE SAME" AS\
+> > MAPS FROM $B$ TO THE CLASSIFYING SPACE OF $\mathrm{AUT}(F)$
 >
 > but it suggests a grandiose generalization:
 >
-> ::: {align="CENTER"}
-> FIBRATIONS OF $\omega$-CATEGORIES WITH BASE B\
-> ARE "THE SAME" AS\
-> WEAK $\omega$-FUNCTORS FROM B^op^ TO THE $\omega$-CATEGORY OF $\omega$-CATEGORIES!
-> :::
->
+> > FIBRATIONS OF $\omega$-CATEGORIES WITH BASE $B$\
+> > ARE "THE SAME" AS\
+> > WEAK $\omega$-FUNCTORS FROM $B^{\mathrm{op}}$ TO THE $\omega$-CATEGORY OF $\omega$-CATEGORIES!
+> 
 > I guess we can thank Grothendieck for making precise and proving a
-> version of this with $\omega$ replaced by n = 1:
+> version of this with $\omega$ replaced by $n = 1$:
 >
-> ::: {align="CENTER"}
-> FIBRATIONS OF CATEGORIES WITH BASE B\
-> ARE "THE SAME" AS\
-> WEAK 2-FUNCTORS FROM B^op^ TO THE 2-CATEGORY OF CATEGORIES.
-> :::
+> > FIBRATIONS OF CATEGORIES WITH BASE $B$\
+> > ARE "THE SAME" AS\
+> > WEAK $2$-FUNCTORS FROM $B^{\mathrm{op}}$ TO THE $2$-CATEGORY OF CATEGORIES.
 >
-> More recently people have been thinking about the n = 2 case,
+> More recently people have been thinking about the $n = 2$ case,
 > especially Claudio Hermida:
 >
-> 28) Claudio Hermida, Descent on 2-fibrations and strongly 2-regular
-> $2$-categories, Applied Categorical Structures, 12 (2004), 427-459. Also
-> available at
-> `http://maggie.cs.queensu.ca/chermida/papers/2-descent.pdf`
+> 28) Claudio Hermida, "Descent on $2$-fibrations and strongly $2$-regular $2$-categories", _Applied Categorical Structures_ **12** (2004), 427--459. Also available at `http://maggie.cs.queensu.ca/chermida/papers/2-descent.pdf`
 >
 > He states something that hints at this:
 >
-> ::: {align="CENTER"}
-> FIBRATIONS OF 2-CATEGORIES WITH BASE B\
-> ARE "THE SAME" AS\
-> WEAK 3-FUNCTORS FROM B^op^ TO THE WEAK 3-CATEGORY OF 2-CATEGORIES.
-> :::
+> > FIBRATIONS OF $2$-CATEGORIES WITH BASE $B$\
+> > ARE "THE SAME" AS\
+> > WEAK $3$-FUNCTORS FROM $B^{\mathrm{op}}$ TO THE WEAK $3$-CATEGORY OF $2$-CATEGORIES.
 >
-> Here I'm using B^op^ to mean B with the directions of both
+> Here I'm using $B^{\mathrm{op}}$ to mean $B$ with the directions of both
 > $1$-morphisms and $2$-morphisms reversed. Hermida follows tradition and
-> calls this B^coop^ --- "op" for reversing $1$-morphisms and "co" for
+> calls this $B^{\mathrm{coop}}$ --- "$\mathrm{op}$" for reversing $1$-morphisms and "$\mathrm{co}$" for
 > reversing $2$-morphisms. But, it looks like we'll be needing to reverse
 > all kinds of morphisms in $n$-category case, so we'll need a short name
 > for that.
