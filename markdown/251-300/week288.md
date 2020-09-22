@@ -301,7 +301,7 @@ First he converted this space into a simplicial set Sing(X).
 Then he defined an algebra A of functions that are polynomials with
 rational coefficients on each simplex of Sing(X).
 
-Then he defined his algebra Ω(A) of rational differential forms, using a
+Then he defined his algebra \Omega(A) of rational differential forms, using a
 general recipe that takes a commutative algebra A and spits out a
 differential graded commutative algebra.
 

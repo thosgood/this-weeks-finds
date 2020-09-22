@@ -337,7 +337,7 @@ of this definition, no algorithm can generate truly random sequences.
 It's easy to prove that most sequences are random - but it's also easy
 to prove that you can never exhibit any one *particular* sequence and
 prove it's random! Chaitin has given a wonderful definition of a
-particular random sequence of bits called Ω using the fact that no
+particular random sequence of bits called \Omega using the fact that no
 algorithm can decide which Turing machines halt... but this random
 sequence is uncomputable, so you can't really "exhibit" it:
 
@@ -571,7 +571,7 @@ bounds have been proved. If so, I'd like to know!
 Scott Aaronson, Aaron Bergman and an entity named tessel. I had written:
 
 > Chaitin has given a marvelous definition of a particular random
-> sequence of bits called Ω using the fact that no algorithm can decide
+> sequence of bits called \Omega using the fact that no algorithm can decide
 > which Turing machines halt... but this random sequence is
 > uncomputable, so you can't really "exhibit" it.
 
@@ -581,7 +581,7 @@ However, Wolfgang Brand points out this paper:
 glimpse of randomness, Experimental Mathematics 11 (2002), 361-370. Also
 available at `http://www.cs.auckland.ac.nz/~cristian/Calude361_370.pdf`
 
-where the first 64 bits of Ω have been computed. There's no
+where the first 64 bits of \Omega have been computed. There's no
 contradiction, as the paper explains - but it's fairly surprising!
 
 Next, here is an email from Allan Erskine. As usual I will take the

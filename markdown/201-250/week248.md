@@ -252,15 +252,15 @@ f 1~y~ = f = 1~x~ f
 So far this is the definition of a "category". What makes it a
 "groupoid" is that every morphism f\colon x \to y has an "inverse"
 
-f ^-1^\colon y \to x
+f ^{-1}\colon y \to x
 
 with the property that
 
-f f ^-1^ = 1~x~
+f f ^{-1} = 1~x~
 
 and
 
-f ^-1^ f = 1~y~
+f ^{-1} f = 1~y~
 
 In other words, we can "undo" any symmetry.
 
@@ -301,7 +301,7 @@ F(1~x~) = 1~F(x)~
 
 It then automatically preserves inverses too:
 
-F(f ^-1^) = F(f) ^-1^
+F(f ^{-1}) = F(f) ^{-1}
 
 Given this, what's the meaning of a span of groupoids? You could say
 it's a "invariant" witnessed relation - that is, a relation with

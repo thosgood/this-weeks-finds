@@ -351,7 +351,7 @@ g' = exp(kp')
 
 it turns out that one momentum gets conjugated by the other:
 
-(g, g') \mapsto (gg'g^-1^, g)
+(g, g') \mapsto (gg'g^{-1}, g)
 
 To see this, remember that we get these group elements by doing parallel
 transport around loops that circle our particles. When we move our
@@ -366,7 +366,7 @@ right one did initially, but the right-hand one gets wrapped around the
 left one. If you ponder this carefully, and you know some math, you can
 see it yields this:
 
-(g, g') \mapsto (gg'g^-1^, g)
+(g, g') \mapsto (gg'g^{-1}, g)
 
 So, the process of braiding two particles around each other has a
 nontrivial effect on their momenta. In particular, if you braid two
@@ -457,7 +457,7 @@ other, their momenta switch in the usual way:
 but when we move one through the other, one momentum gets conjugated by
 the other:
 
-(g, g') \mapsto (gg'g^-1^, g)
+(g, g') \mapsto (gg'g^{-1}, g)
 
 So, we have exotic statistics, but you can only notice them if you can
 pass one string through another!
@@ -574,7 +574,7 @@ I replied:
 > transformed by some element g of the Lorentz group \mathrm{SO}(2,1), I'll see
 > your momentum as
 >
-> p' = g p g^-1^
+> p' = g p g^{-1}
 >
 > This is just another way of writing the usual formula for Lorentz
 > transforms in 3d Minkowski space. No new physics so far, just a clever
@@ -600,7 +600,7 @@ I replied:
 >
 > But, if we transform our group-valued momentum in the correct way:
 >
-> h' = ghg^-1^
+> h' = ghg^{-1}
 >
 > this will be completely compatible with our previous transformation
 > law for vector-valued momentum!

@@ -166,12 +166,12 @@ which is actually a module homomorphism, meaning
 
 ω(fv) = f ω(v)
 
-whenever f is in A. Let Ω^1(A) be the set of $1$-forms. Again, this is a
+whenever f is in A. Let \Omega^1(A) be the set of $1$-forms. Again, this is a
 module of A.
 
 Just as you'd expect, there's a map
 
-d\colon A \to Ω^1(A)
+d\colon A \to \Omega^1(A)
 
 defined by
 
@@ -193,11 +193,11 @@ But what about other differential forms? There's more to life than
 
 To get these, we just form the [exterior
 algebra](http://en.wikipedia.org/wiki/Exterior_algebra) of the module
-Ω^1(A). You may have seen the exterior algebra of a vector space - if
+\Omega^1(A). You may have seen the exterior algebra of a vector space - if
 not, it may be hard understanding the stuff I'm explaining now. The
 exterior algebra of a module over a commutative algebra works the same
 way! To build it, we run around adding and multiplying guys in A and
-Ω^1(A), all the while making sure to impose the axioms of an
+\Omega^1(A), all the while making sure to impose the axioms of an
 [associative unital
 algebra](http://en.wikipedia.org/wiki/Associative_algebra), together
 with these rules:
@@ -207,7 +207,7 @@ f (dg) = (dg) f
 (df) (dg) = - (dg) (df)
 
 The stuff we get forms an algebra: the algebra of "differential forms"
-for A, which I'll call Ω(A). And when A is the smooth functions on a
+for A, which I'll call \Omega(A). And when A is the smooth functions on a
 manifold, these are the usual differential forms that everyone talks
 about!
 
@@ -215,7 +215,7 @@ Now, thanks to the funny rule
 
 (df) (dg) = - (dg) (df)
 
-the algebra Ω(A) is not commutative. However, it's "graded
+the algebra \Omega(A) is not commutative. However, it's "graded
 commutative", meaning roughly that it's commutative except for some
 systematically chosen minus signs.
 
@@ -231,7 +231,7 @@ they're "of degree p". And the algebra of differential forms obeys
 νω = (-1)^pq^ ων
 
 whenever ν is of degree p and ω is of degree q. This is what we mean by
-saying Ω(A) is "graded commutative".
+saying \Omega(A) is "graded commutative".
 
 But the algebra of differential forms is better than a mere graded
 commutative algebra! We've already introduced df when f is an element
@@ -271,7 +271,7 @@ a reasonable idea of when a real-valued function
 f\colon X \to R
 
 counts as "smooth". Just take the commutative algebra A of smooth
-real-valued functions on X and construct Ω(A) following my instructions!
+real-valued functions on X and construct \Omega(A) following my instructions!
 
 There are many examples of such spaces, including manifolds with
 boundary, manifolds with corners, and infinite-dimensional manifolds. In
@@ -292,7 +292,7 @@ But here's a question that sounds harder: how can we generalize
 differential forms to an arbitrary *topological* space X?
 
 You could take A to be the algebra of *continuous* functions on X and
-form Ω(A). There's no law against it... go ahead... but I bet no good
+form \Omega(A). There's no law against it... go ahead... but I bet no good
 will come of it. (What goes wrong?)
 
 But there's a better approach, invented by Dennis Sullivan in this
@@ -336,7 +336,7 @@ along their faces. So, we can say a real-valued function on |Sing(X)|
 is "simplex-wise smooth" if it's continuous and smooth on each
 simplex. And this is enough to set up a theory of differential forms! We
 just take the algebra A of simplex-wise smooth functions on |Sing(X)|,
-and use this to build our algebra of differential forms Ω(A) as I've
+and use this to build our algebra of differential forms \Omega(A) as I've
 described!
 
 But Sullivan noted that we can go even further. Thanks to how we've
@@ -348,7 +348,7 @@ coefficients. And that's just right for rational homotopy theory.
 So, let's focus our attention on functions on |Sing(X)| that when
 restricted to any simplex give polynomials with rational coefficients.
 This is a commutative algebra over the *rational* numbers. Call it A. We
-can copy our previous construction of Ω(A) but now working with rational
+can copy our previous construction of \Omega(A) but now working with rational
 numbers instead of reals. Let's call guys in here "rational
 differential forms".
 
@@ -509,13 +509,13 @@ starting from a commutative algebra:
 
 Now, I've already told you about process that takes a commutative
 algebra and creates the DGCA. Namely, the process that takes a
-commutative algebra A and gives the DGCA of differential forms, Ω(A).
+commutative algebra A and gives the DGCA of differential forms, \Omega(A).
 So, you might think this left adjoint is just that!
 
 I thought so too, when I was first writing this. But it turns out not to
 be true - at least not always! The left adjoint gives a slightly
 *different* kind of differential forms for our commutative algebra A.
-Let's call these the "Kähler forms" Ω~K~(A).
+Let's call these the "Kähler forms" \Omega~K~(A).
 
 The Kähler $1$-forms are usually called "[Kähler
 differentials](http://en.wikipedia.org/wiki/K%C3%A4hler_differential)".
@@ -532,13 +532,13 @@ d(f + g) = df + dg
 d(fg) = f dg + (df) g
 
 where f,g are in A and c is in our field. This gives the A-module of
-Kähler differentials - let's call this Ω~K~^1(A). The Kähler forms
-Ω~K~(A) are then the exterior algebra on Ω~K~^1(A).
+Kähler differentials - let's call this \Omega~K~^1(A). The Kähler forms
+\Omega~K~(A) are then the exterior algebra on \Omega~K~^1(A).
 
 By how we've set things up, the Kähler differentials are blessed with a
 map
 
-d\colon A \to Ω~K~^1(A)\
+d\colon A \to \Omega~K~^1(A)\
 
 And this map is a "derivation", meaning it satisfies the 3 rules
 listed above. But here's the cool part: the Kähler differentials are
@@ -550,7 +550,7 @@ v\colon A \to M
 that's a derivation in the above sense. Then there's a unique A-module
 homomorphism
 
-j\colon Ω~K~^1(A) \to M
+j\colon \Omega~K~^1(A) \to M
 
 such that
 
@@ -561,20 +561,20 @@ works!
 
 Thanks to this universal property, Kähler differentials are much beloved
 by algebraists. So, it's natural to wonder if they're the same as the
-1-forms Ω^1(A) that I explained above!
+1-forms \Omega^1(A) that I explained above!
 
 As it turns out, these $1$-forms are the double dual of the Kähler
 differentials:
 
-Ω^1(A) = Ω~K~^1(A)**
+\Omega^1(A) = \Omega~K~^1(A)**
 
 Sometimes we get
 
-Ω^1(A) = Ω~K~^1(A)
+\Omega^1(A) = \Omega~K~^1(A)
 
 and this case it's easy to check that
 
-Ω(A) = Ω~K~(A)
+\Omega(A) = \Omega~K~(A)
 
 But sometimes the $1$-forms and the Kähler differentials are *different*.
 Let me explain why. It's technical, but fun if you're already familiar
@@ -607,19 +607,19 @@ it's not. And that's where the subleties arise.
 
 If you look back at my definition of $1$-forms, it amounted to this:
 
-Ω^1(A) = Der(A)*
+\Omega^1(A) = Der(A)*
 
 And the universal property of Kähler differentials gives us this:
 
-Der(A) ≅ Ω~K~^1(A)*
+Der(A) ≅ \Omega~K~^1(A)*
 
 Putting these facts together, we get
 
-Ω^1(A) ≅ Ω~K~^1(A)**
+\Omega^1(A) ≅ \Omega~K~^1(A)**
 
 So, we always have a module homomorphism
 
-j\colon Ω~K~^1(A) \to Ω^1(A)
+j\colon \Omega~K~^1(A) \to \Omega^1(A)
 
 This is *both* the map we always get from a module to its double dual,
 *and* the map we get from the universal property of Kähler
@@ -630,15 +630,15 @@ will be an *isomorphism* when the Kähler differentials are a finitely
 generated projective module. But it won't *always* be an isomorphism!
 
 For example, when A is the algebra of rational polynomials on a simplex,
-Ω~K~^1(A) is a finitely generated projective module. In fact it's the
+\Omega~K~^1(A) is a finitely generated projective module. In fact it's the
 free module with one generator dx_i for each independent coordinate. So
 in this case we actually get an isomorphism
 
-Ω^1(A) ≅ Ω~K~^1(A)
+\Omega^1(A) ≅ \Omega~K~^1(A)
 
 and thus
 
-Ω(A) ≅ Ω~K~(A)
+\Omega(A) ≅ \Omega~K~(A)
 
 More generally, this is true whenever A is the algebraic functions on a
 smooth affine algebraic variety, by the same sort of argument. So in
@@ -651,7 +651,7 @@ are *not* the same as the Kähler differentials!
 Indeed, let A be the algebra of smooth functions on the real line. Then
 one can show
 
-j\colon Ω~K~^1(A) \to Ω^1(A)
+j\colon \Omega~K~^1(A) \to \Omega^1(A)
 
 is not one-to-one. In fact, David Speyer showed this after Maarten
 Bergvelt noticed I was being overoptimistic in assuming otherwise. You
@@ -661,22 +661,22 @@ can see Speyer's argument here:
 Overflow,
 `http://mathoverflow.net/questions/6074/kahler-differentials-and-ordinary-differentials/9723#9723`
 
-He shows that in Ω~K~^1(A), d(e^x^) is not equal to e^x^ dx. The
+He shows that in \Omega~K~^1(A), d(e^x^) is not equal to e^x^ dx. The
 intuition here is simple: showing these guys are equal requires actual
 calculus, with limits and stuff. But Kähler differentials are defined
 purely algebraically, so they don't know that stuff!
 
 However, turning this idea into a proof takes work. It can't be as easy
-as I just made it sound! After all, Ω^1(A) was *also* defined purely
+as I just made it sound! After all, \Omega^1(A) was *also* defined purely
 algebraically, and in here we *do* have d(e^x^) = e^x^ dx. Indeed, this
 is *why* Speyer's argument shows that
 
-j\colon Ω~K~^1(A) \to Ω^1(A)
+j\colon \Omega~K~^1(A) \to \Omega^1(A)
 
 fails to be one-to-one.
 
 So now you should be wondering: how do we know d(e^x^) = e^x^ dx in
-&Omega^1(A)? Since Ω^1(A) is the dual of the derivations, to show
+&Omega^1(A)? Since \Omega^1(A) is the dual of the derivations, to show
 
 d(e^x^) = e^x^ dx
 
@@ -744,11 +744,11 @@ derivative of f when x = y.
 A fancier version of this argument works for R^n. This in turn gives
 the usual proof that that derivations of the algebra A of smooth
 functions on a manifold X are the same as smooth vector fields. And
-that, in turn, guarantees that Ω(A) as defined algebraically matches the
+that, in turn, guarantees that \Omega(A) as defined algebraically matches the
 ordinary concept of differential forms on X. The Kähler forms are
 different, but as we've seen, there's a surjection of DGCAs
 
-j\colon Ω~K~(A) \to Ω(A)
+j\colon \Omega~K~(A) \to \Omega(A)
 
 sending any function f in Kähler land to the same function f in ordinary
 differential form land.

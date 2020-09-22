@@ -399,7 +399,7 @@ element of X has its own stabilizer, and they're not necessarily all
 equal!
 
 However, they're all *conjugate*: if the stabilizer of x is H, then the
-stabilizer of gx is gHg^-1^.
+stabilizer of gx is gHg^{-1}.
 
 So, when I say above that
 

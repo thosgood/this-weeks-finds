@@ -683,7 +683,7 @@ wrote:
 > = \varphi(g)f(x).
 >
 > The 2-arrows from (f,\varphi) to (k,κ) are the elements g of G for which k =
-> gf and κ = g \varphi g^-1^.
+> gf and κ = g \varphi g^{-1}.
 >
 > I'll leave you to work out the various composition maps.
 >

@@ -578,7 +578,7 @@ theory from Lie groups to other groups, like "infinite-dimensional Lie
 groups". But how can we generalize it to *spaces*?
 
 The answer is this: there's a way to turn any pointed space X into a
-topological group called Ω(X). Roughly, this is the group of "based
+topological group called \Omega(X). Roughly, this is the group of "based
 loops" in X: maps from an interval into X that start and end at the
 basepoint. There are some technicalities involved in getting an honest
 group this way. We'll talk about them later. But *roughly*, the idea is
@@ -590,7 +590,7 @@ So here's the plan. We're going to generalize Lie theory from Lie
 groups to topological groups. Just as a Lie group has a Lie algebra, any
 topological group will have a "differential graded Lie algebra".
 Whenever we have a pointed space X, we can turn it into a topological
-group Ω(X), and then apply this construction.
+group \Omega(X), and then apply this construction.
 
 And when X is a *rational* space, the resulting differential graded
 algebra will know *everything* about X!
@@ -643,19 +643,19 @@ DGLA. I'll quickly sketch this process, which consists of 3 steps, and
 then go over the steps more slowly. Don't get scared if none of them
 make sense yet:
 
--   Let Ω(X) the space of based loops in X. You should think of this as
+-   Let \Omega(X) the space of based loops in X. You should think of this as
     a topological group, with the group operation being concatenation of
     loops.
--   Let C~~*~~(Ω(X)) be the chain complex of singular chains on Ω(X)
+-   Let C~~*~~(\Omega(X)) be the chain complex of singular chains on \Omega(X)
     taking values in the rational numbers. This is a differential graded
     cocommutative Hopf algebra, or "DGCHA" for short.
--   Let P(C~~*~~(Ω(X))) consist of the "primitive" elements of our
+-   Let P(C~~*~~(\Omega(X))) consist of the "primitive" elements of our
     DGCHA. This is a differential graded Lie algebra, or DGLA!
 
 Each step is interesting in itself. And each step is actually a functor.
 So I need to explain 3 different functors:
 
-Ω\colon \[path-connected pointed spaces\] \to \[topological groups\]
+\Omega\colon \[path-connected pointed spaces\] \to \[topological groups\]
 
 C~~*~~\colon \[topological groups\] \to \[DGCHAs\]
 
@@ -794,7 +794,7 @@ So now I hope you understand the strategy for generalizing Lie theory to
 rational spaces. We can take any path-connected pointed space X and form
 its group of loops:
 
-Ω\colon \[path-connected pointed spaces\] \to \[topological groups\]
+\Omega\colon \[path-connected pointed spaces\] \to \[topological groups\]
 
 Then we can form a differential graded analogue of its group algebra:
 
@@ -827,9 +827,9 @@ break. Now I'll continue...
 
 Q. The "based loop space" functor:
 
-Ω\colon \[path-connected pointed spaces\] \to \[topological groups\]
+\Omega\colon \[path-connected pointed spaces\] \to \[topological groups\]
 
-Suppose X is a path-connected pointed space. Often people define Ω(X) to
+Suppose X is a path-connected pointed space. Often people define \Omega(X) to
 be the space of all based loops
 
 f\colon \[0,1\] \to X
@@ -857,7 +857,7 @@ where f(0) = f(T) is the basepoint of X, and T is any nonnegative real
 number. Composing a Moore loop of length T and one of length T'
 naturally gives one of length T+T'. This way of composing loops
 satisfies the associative and unit laws "on the nose", since we don't
-need to do any reparametrization. So, if we let Ω(X) be the space of
+need to do any reparametrization. So, if we let \Omega(X) be the space of
 based Moore loops on X, it's a topological monoid!
 
 Even better, the space of based Moore loops is homotopy equivalent to
@@ -892,10 +892,10 @@ to make it into a group. But if M has lots of connected components, GM
 can be drastically different. For example, if we start with the natural
 numbers, its group completion is the integers!
 
-So, to improve our topological monoid Ω(X) into a topological group, I
+So, to improve our topological monoid \Omega(X) into a topological group, I
 think this is what we should do. Take the path component of the identity
 and group complete that, getting a group G. Then build a topological
-group with the same group of path components as Ω(X), but with each
+group with the same group of path components as \Omega(X), but with each
 component replaced by the group G.
 
 I'm pretty sure this trick lets us turn the monoid of based Moore loops
@@ -903,7 +903,7 @@ in X into a topological group that's equivalent as an A_infinity
 space. I'd love to be corrected if I'm wrong here, or doing something
 suboptimal.
 
-Henceforth, let's use Ω(X) to stand for the group completion of the
+Henceforth, let's use \Omega(X) to stand for the group completion of the
 monoid of based Moore loops. These are what we naively *want* from our
 based loops in X: an honest topological group!
 

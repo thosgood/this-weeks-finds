@@ -173,7 +173,7 @@ tantalizing extra tidbit of evidence that the relation is real!
 The partition function of the monstrous conformal field theory I just
 mentioned is the j-function, or more precisely:
 
-J(q) = q^-1^ + 196884 q + 21493760 q^2 + ...
+J(q) = q^{-1} + 196884 q + 21493760 q^2 + ...
 
 As I mentioned, this function shows up naturally in complex analysis.
 More precisely, it parametrizes the moduli space of elliptic curves (see
@@ -798,7 +798,7 @@ operator between group representations! Let's call an intertwining
 operator constructed this way a "Hecke operator".
 
 If you're a nitpicky person, e.g. a mathematician, you may wonder what
-I mean by "a suitable sense". Well, each "fiber" Q^-1^(y) of the map
+I mean by "a suitable sense". Well, each "fiber" Q^{-1}(y) of the map
 
 Q\colon S \to Y
 

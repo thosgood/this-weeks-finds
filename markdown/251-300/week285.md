@@ -486,11 +486,11 @@ of algebraic gadget when you axiomatize the properties of conjugation in
 a group. So, start with a group and define an operation of "left
 conjugation":
 
-g > h = g h g^-1^
+g > h = g h g^{-1}
 
 and an operation of "right conjugation":
 
-h < g = g^-1^ h g
+h < g = g^{-1} h g
 
 Then, figure out all the equations these obey, regardless of what group
 you've got! Clearly these operations are inverses of each other:

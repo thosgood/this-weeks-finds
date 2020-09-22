@@ -519,7 +519,7 @@ These show up when we think of the whole numbers 1,2,3,... as a poset
 ordered by divisibility.
 
 Anyway, Leinster has wisely generalized this terminology to more general
-categories. And when \zeta ^-1^ = μ exists, it's really easy to define his
+categories. And when \zeta ^{-1} = μ exists, it's really easy to define his
 Euler characteristic of the category X. You just write μ as a linear
 combination of morphisms in your category, and sum all the coefficients
 in this linear combination!

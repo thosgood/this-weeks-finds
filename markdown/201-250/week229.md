@@ -738,9 +738,9 @@ bit, for cosmetic reasons.
 > as follows:
 >
 > a \mapsto X\
-> b \mapsto X^-1^\
+> b \mapsto X^{-1}\
 > c \mapsto Y\
-> d \mapsto Y^-1^\
+> d \mapsto Y^{-1}\
 >
 > So, to extend our branched cover, we need to write our homomorphism
 >

@@ -140,7 +140,7 @@ here should be related to the fact that
 
 for k \geqslant 5. After all, stable homotopy groups of spheres are related to
 the cohomology of symmetric groups, since the group completion of the
-classifying space of the groupoid of finite sets is Ω^\inftyS^\infty - see
+classifying space of the groupoid of finite sets is \Omega^\inftyS^\infty - see
 ["Week 199"](#week199) if you don't know what I'm talking about
 here. But I'm confused about the numbers 12 versus 24 here, and also
 the role of Q/Z coefficients.

@@ -534,17 +534,17 @@ regular pentagon using a ruler and compass.
 
 The trick is to rewrite our equation like this:
 
-z^2 + z + 1 + z^-1^ + z^-2^ = 0
+z^2 + z + 1 + z^{-1} + z^-2^ = 0
 
 and then like this:
 
-(z + z^-1^)^2 + (z + z^-1^) - 1 = 0
+(z + z^{-1})^2 + (z + z^{-1}) - 1 = 0
 
 Now it's a quadratic equation in a new variable. So while I said this
 proof would be uninspired, it did require a tiny glimmer of inspiration.
 But that's all! Let's write
 
-z + z^-1^ = x
+z + z^{-1} = x
 
 so our equation becomes
 
@@ -556,7 +556,7 @@ x = \varphi = (-1 + √5)/2 \~ 0.6180339...
 
 Next we need to solve
 
-z + z^-1^ = \varphi
+z + z^{-1} = \varphi
 
 This is another quadratic equation:
 
@@ -759,9 +759,9 @@ He wrote:
 > solve the quartic by solving two quadratics, you need to locate the
 > degree 2 subfield of Q(z) (z=\zeta_5) and aim towards it (because it's
 > your route to the solution). This subfield is clearly the real numbers
-> in Q(z), and the real numbers in Q(z) contains z+z*=z+z^-1^. So
+> in Q(z), and the real numbers in Q(z) contains z+z*=z+z^{-1}. So
 > that's sort of a completely conceptual explanation of why the trick
-> works and why it's crucial to introduce z+z^-1^.
+> works and why it's crucial to introduce z+z^{-1}.
 
 Here \zeta_5 is number-theorist's jargon for a "primitive 5th root of
 unity", which in turn is number-theorist's jargon for any 5th root of

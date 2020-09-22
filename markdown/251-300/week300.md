@@ -164,7 +164,7 @@ Comment. Math. Helv. 11 (1938), 126-129.
 
 We can write the answer using an infinite product:
 
-1/(1-p^-1^)(1-p^-2^)(1-p^-3^) ...
+1/(1-p^{-1})(1-p^-2^)(1-p^-3^) ...
 
 Or, we can write the answer using an infinite sum:
 
@@ -521,7 +521,7 @@ Indeed, as you'll see in these books (or in
 ["Week 126"](#week126)), the function
 we saw earlier:
 
-1/(1-p^-1^)(1-p^-2^)(1-p^-3^) ... = p(0)/p^0^ + p(1)/p^1 + p(2)/p^2 +
+1/(1-p^{-1})(1-p^-2^)(1-p^-3^) ... = p(0)/p^0^ + p(1)/p^1 + p(2)/p^2 +
 ...
 
 is *also* important in string theory: it shows up as a "partition
