@@ -11,43 +11,43 @@ melting-pot of cultures that formed when southern Spain was invaded by
 Muslims. The eleventh century was the golden age of Andalusian astronomy
 and mathematics, with a lot of innovation in astrolabes. During the
 [Caliphate](http://en.wikipedia.org/wiki/Timeline_of_the_Muslim_Occupation_of_the_Iberian_Peninsula)
-(929-1031), three quarters of all mathematical manuscripts were produced
-in [Cordoba](%20http://lexicorient.com/spain/photos/cordoba02.jpg), most
+(929--1031), three quarters of all mathematical manuscripts were produced
+in [Cordoba](http://lexicorient.com/spain/photos/cordoba02.jpg), most
 of the rest in
-[Sevilla](%20http://images.encarta.msn.com/xrefmedia/sharemed/targets/images/pho/t054/T054900A.jpg),
+[Sevilla](http://images.encarta.msn.com/xrefmedia/sharemed/targets/images/pho/t054/T054900A.jpg),
 and only a few in
-[Granada](%20http://lexicorient.com/spain/photos/granada02.jpg) and
-[Toledo](%20http://hopf.chem.brandeis.edu/Milos/PhotoMD/Images/Spain2001/Toledo_Alcazar.JPG).
+[Granada](http://lexicorient.com/spain/photos/granada02.jpg) and
+[Toledo](http://hopf.chem.brandeis.edu/Milos/PhotoMD/Images/Spain2001/Toledo_Alcazar.JPG).
 
 I didn't understand the mathematical predominance of Cordoba when I
 first heard about it, but the underlying reason is simple. The first
 great Muslim dynasty were the
-[Ummayyads](%20http://en.wikipedia.org/wiki/Umayyads), who ruled from
+[Ummayyads](http://en.wikipedia.org/wiki/Umayyads), who ruled from
 Damascus. They were massacred by the
-[Abbasids](%20http://en.wikipedia.org/wiki/Abbasid) in 750, who then
-moved the capital to Baghdad. When [Abd
-ar-Rahman](%20http://en.wikipedia.org/wiki/Abd-ar-Rahman_I) fled
+[Abbasids](http://en.wikipedia.org/wiki/Abbasid) in 750, who then
+moved the capital to Baghdad. When
+[Abd ar-Rahman](http://en.wikipedia.org/wiki/Abd-ar-Rahman_I) fled
 Damascus in 750 as the only Ummayyad survivor of this massacre, he went
-to Spain, which had already been [invaded by Muslim
-Berbers](http://en.wikipedia.org/wiki/Muslim_conquest_of_Iberia) in 711.
+to Spain, which had already been
+[invaded by Muslim Berbers](http://en.wikipedia.org/wiki/Muslim_conquest_of_Iberia) in 711.
 
 Abd ar-Rahman made Cordoba his capital. And, by enforcing a certain
 level of religious tolerance, he made this city into *the place to be*
-for Muslims, Jews and Christians - the "ornament of the world", and a
-beacon of learning - until it was sacked by Berber troops in 1009.
+for Muslims, Jews and Christians --- the "ornament of the world", and a
+beacon of learning --- until it was sacked by Berber troops in 1009.
 
 Other cities in Andalusia became important later. The great philosopher
-[Ibn Rushd](http://en.wikipedia.org/wiki/Averroes) - known to Westerners
-by the Latin name "Averroes" - was born in Cordoba in 1128. He later
+[Ibn Rushd](http://en.wikipedia.org/wiki/Averroes) --- known to Westerners
+by the Latin name "Averroes" --- was born in Cordoba in 1128. He later
 became a judge there. He studied mathematics, medicine, and astronomy,
 and wrote detailed line-by-line commentaries on the works of Aristotle.
 It was through these commentaries that most of Aristotle's works,
 including his Physics, found their way into Western Europe! By 1177, the
-bishop of Paris had banned the teaching of many of these new ideas - but
+bishop of Paris had banned the teaching of many of these new ideas --- but
 to little effect.
 
-Toledo seems to have only gained real prominence after [Alfonso
-VI](http://en.wikipedia.org/wiki/Alfonso_VI_of_Castile) made it his
+Toledo seems to have only gained real prominence after
+[Alfonso VI](http://en.wikipedia.org/wiki/Alfonso_VI_of_Castile) made it his
 capital upon capturing it in 1085 as part of the Christian
 "reconquista". By the 1200s, it became a lively center for translating
 Arabic and Hebrew texts into Latin.
@@ -60,12 +60,11 @@ transmitting the Indian system of numerals (including zero) from the
 Arabs to Europe. However, he wasn't the first to bring these numbers to
 Europe. They'd been around for over 200 years!
 
-For example: [Gerbert
-d'Aurillac](%20http://en.wikipedia.org/wiki/Gerbert_of_Aurillac)
-(940-1003) spent years studying mathematics in various Andalusian cities
+For example: [Gerbert d'Aurillac](http://en.wikipedia.org/wiki/Gerbert_of_Aurillac)
+(940--1003) spent years studying mathematics in various Andalusian cities
 including Cordoba. On his return to France, he wrote a book about a
 cumbersome sort of "abacus" labelled by a Western form of the Indian
-numerals - close to what we now call "Arabic numerals". This remained
+numerals --- close to what we now call "Arabic numerals". This remained
 popular in intellectual circles until the mid-12th century.
 
 Amusingly, Arabic numerals were also called "dust numerals" since they
@@ -73,16 +72,13 @@ were used in calculations on an easily erasable "dust board". Their
 use was described in the *Liber Pulveris*, or "book of dust".
 
 I want to learn more about Andalusian science! I found this book a great
-place to start - it's really fascinating:
+place to start --- it's really fascinating:
 
-1) Maria Rose Menocal, The Ornament of the World: How Muslims, Jews and
-Christians Created a Culture of Tolerance in Medieval Spain, Little,
-Brown and Co., 2002.
+1) Maria Rose Menocal, _The Ornament of the World: How Muslims, Jews and Christians Created a Culture of Tolerance in Medieval Spain_, Little, Brown and Co., 2002.
 
 For something quick and pretty, try this:
 
-2) Steve Edwards, Tilings from the Alhambra,
-`http://www2.spsu.edu/math/tile/grammar/moor.htm`
+2) Steve Edwards, "Tilings from the Alhambra", `http://www2.spsu.edu/math/tile/grammar/moor.htm`
 
 Apparently 13 of the 17 planar symmetry groups can be found in tile
 patterns in the Alhambra, a Moorish palace built in Granada in the
@@ -90,19 +86,14 @@ patterns in the Alhambra, a Moorish palace built in Granada in the
 
 To dig deeper into the splendors of Arabic mathematics, try these:
 
-3) John J. O'Connor and Edmund F. Robertson, Arabic mathematics:
-forgotten brilliance?,
-`http://www-groups.dcs.st-and.ac.uk/~history/HistTopics/Arabic_mathematics.html`
+3) John J. O'Connor and Edmund F. Robertson, "Arabic mathematics: forgotten brilliance?", `http://www-groups.dcs.st-and.ac.uk/~history/HistTopics/Arabic_mathematics.html`
 
-John J. O'Connor and Edmund F. Robertson, Biographies of Arab/Islamic
-mathematicians,
-`http://www-groups.dcs.st-and.ac.uk/~history/Indexes/Arabs.html`
+     John J. O'Connor and Edmund F. Robertson, "Biographies of Arab/Islamic mathematicians", `http://www-groups.dcs.st-and.ac.uk/~history/Indexes/Arabs.html`
 
 For more on Fibonacci and Arabic mathematics, try this paper by Charles
 Burnett, who spoke about the history of "Arabic numerals" in Beijing:
 
-4) Charles Burnett, Leonard of Pisa and Arabic Arithmetic,
-`http://muslimheritage.com/topics/default.cfm?ArticleID=472`
+4) Charles Burnett, "Leonard of Pisa and Arabic Arithmetic", `http://muslimheritage.com/topics/default.cfm?ArticleID=472`
 
 Another interesting talk in Beijing was about the role of the Syriac
 language in the transmission of Greek science to Europe. Many important
@@ -112,9 +103,7 @@ they were first translated into *Syriac*.
 I don't understand the details yet, but luckily there's a great book
 on the subject, available free online:
 
-5) De Lacy O'Leary, How Greek Science Passed to the Arabs, Routledge &
-Kegan Paul Ltd, 1949. Also available at
-`http://www.aina.org/books/hgsptta.htm`
+5) De Lacy O'Leary, _How Greek Science Passed to the Arabs_, Routledge & Kegan Paul Ltd, 1949. Also available at `http://www.aina.org/books/hgsptta.htm`
 
 So, medieval Europe learned a lot of Greek science by reading Latin
 translations of Arab translations of Syriac translations of second-hand
@@ -122,20 +111,15 @@ copies of the original Greek texts!
 
 George Baloglu recommends this book:
 
-6) Dimitri Gutas, Greek Thought, Arabic Culture: The Graeco-Arabic
-Translation Movement in Baghdad and Early 'Abbasid Society
-(2nd-4th/8th-10th Centuries), Routledge, 1998.
+6) Dimitri Gutas, _Greek Thought, Arabic Culture: The Graeco--Arabic Translation Movement in Baghdad and Early 'Abbasid Society (2nd--4th/8th--10th Centuries)_, Routledge, 1998.
 
 I want to read this book, too:
 
-7) Scott L. Montgomery, Science in Translation: Movements of Knowledge
-through Cultures and Time, U. of Chicago Press, 2000. Review by William
-R. Everdell available at MAA Online,
-`http://www.maa.org/publications/maa-reviews/science-in-translation-movements-of-knowledge-through-cultures-and-time`
+7) Scott L. Montgomery, _Science in Translation: Movements of Knowledge through Cultures and Time_, U. of Chicago Press, 2000. Review by William R. Everdell available at MAA Online, `http://www.maa.org/publications/maa-reviews/science-in-translation-movements-of-knowledge-through-cultures-and-time`
 
 The historian of science John Stachel, famous for his studies of
 Einstein, says this book "strikes a blow at one of the founding myths
-of 'Western Civilization'" - namely, that Renaissance Europeans
+of 'Western Civilization'" --- namely, that Renaissance Europeans
 single-handedly picked up doing science where the Greeks left off. As
 Everdell writes in his review:
 
@@ -157,8 +141,7 @@ Everdell writes in his review:
 > Greek in the Persian city of
 > [Jundishapur](http://en.wikipedia.org/wiki/Jundishapur), and Arabic-
 > and Pahlavi-speaking Muslim scholars of Syriac, including the
-> Nestorian Hunayn [Ibn
-> Ishak](http://www.nestorian.org/hunein_ibn_ishak.html) (809-873) of
+> Nestorian Hunayn [Ibn Ishak](http://www.nestorian.org/hunein_ibn_ishak.html) (809--873) of
 > Baghdad, "the greatest of all translators during this era" (p. 98).
 
 And now for something completely different: the Langlands program! I
@@ -167,8 +150,7 @@ profoundly difficult hunk of mathematics, which connects number theory
 to representations of algebraic groups. I've found this introduction to
 be really helpful:
 
-8) Stephen Gelbart: An elementary introduction to the Langlands
-program, Bulletin of the AMS 10 (1984), 177-219.
+8) Stephen Gelbart: "An elementary introduction to the Langlands program", _Bulletin of the AMS_ **10** (1984), 177--219.
 
 There are a lot of more detailed sources of information on the Langlands
 program, but the problem for the beginner (me) is that the overall goal
@@ -177,8 +159,7 @@ the best at avoiding this problem.
 
 I've also found parts of this article to be helpful:
 
-9) Edward Frenkel, Recent advances in the Langlands program, available
-at [math.AG/0303074](http://arxiv.org/abs/math.AG/0303074).
+9) Edward Frenkel, "Recent advances in the Langlands program", available at [`math.AG/0303074`](http://arxiv.org/abs/math.AG/0303074).
 
 It focuses on the "geometric Langlands program", which I'd rather not
 talk about now. But, it starts with a pretty clear introduction to the
@@ -194,85 +175,65 @@ Week's Finds (especially ["Week 217"](#week217) and
 > objects in number theory, algebraic geometry, and the theory of
 > automorphic forms. To motivate it, recall the classical
 > Kronecker-Weber theorem which describes the maximal abelian extension
-> Q^ab^ of the field Q of rational numbers (i.e., the maximal extension
-> of Q whose Galois group is abelian). This theorem states that Q^ab^ is
-> obtained by adjoining to Q all roots of unity; in other words, Q^ab^
-> is the union of all cyclotomic fields Q(1^1/N^) obtained by adjoining
-> to Q a primitive Nth root of unity
->
-> 1^1/N^
->
-> The Galois group \mathrm{Gal}(Q(1^1/N^)/Q) of automorphisms of Q(1^1/N^)
-> preserving Q is isomorphic to the group (Z/N)* of units of the ring
-> Z/N. Indeed, each element m in (Z/N)*, viewed as an integer
-> relatively prime to N, gives rise to an automorphism of Q(1^1/N^)
+> $\mathbb{Q}^{\mathrm{ab}}$ of the field $\mathbb{Q}$ of rational numbers (i.e., the maximal extension
+> of $\mathbb{Q}$ whose Galois group is abelian). This theorem states that $\mathbb{Q}^{\mathrm{ab}}$ is
+> obtained by adjoining to $\mathbb{Q}$ all roots of unity; in other words, $\mathbb{Q}^{\mathrm{ab}}$
+> is the union of all cyclotomic fields $\mathbb{Q}(1^{\frac1N})$ obtained by adjoining
+> to $\mathbb{Q}$ a primitive $N$th root of unity
+> $$1^{\frac1N}$$
+> The Galois group $\mathrm{Gal}(Q(1^{\frac1N})/\mathbb{Q})$ of automorphisms of $\mathbb{Q}(1^{\frac1N})$
+> preserving $\mathbb{Q}$ is isomorphic to the group $(\mathbb{Z}/N)^*$ of units of the ring
+> $\mathbb{Z}/N$. Indeed, each element $m$ in $(\mathbb{Z}/N)^*$, viewed as an integer
+> relatively prime to $N$, gives rise to an automorphism of $\mathbb{Q}(1^{\frac1N})$
 > which sends
->
-> 1^1/N^
->
+> $$1^{\frac1N}$$
 > to
->
-> 1^m/N^.
->
-> Therefore we obtain that the Galois group \mathrm{Gal}(Q^ab^/Q), or,
-> equivalently, the maximal abelian quotient of \mathrm{Gal}(\overline{\mathbb{Q}}/Q), where \overline{\mathbb{Q}}
-> is an algebraic closure of Q, is isomorphic to the projective limit of
-> the groups (Z/N)* with respect to the system of surjections
->
-> (Z/N)* \to (Z/M)*
->
-> for M dividing N. This projective limit is nothing but the direct
-> product of the multiplicative groups of the rings of p-adic integers,
-> Z_p*, where p runs over the set of all primes. Thus, we obtain that
->
-> \mathrm{Gal}(Q^ab^/Q) = ∏ Z_p*.
->
+> $$1^{\frac{m}{N}}.$$
+> Therefore we obtain that the Galois group $\mathrm{Gal}(\mathbb{Q}^{\mathrm{ab}}/\mathbb{Q})$, or,
+> equivalently, the maximal abelian quotient of $\mathrm{Gal}(\overline{\mathbb{Q}}/\mathbb{Q})$, where $\overline{\mathbb{Q}}$
+> is an algebraic closure of $\mathbb{Q}$, is isomorphic to the projective limit of
+> the groups $(\mathbb{Z}/N)^*$ with respect to the system of surjections
+> $$(\mathbb{Z}/N)^* \to (\mathbb{Z}/M)^*$$
+> for $M$ dividing $N$. This projective limit is nothing but the direct
+> product of the multiplicative groups of the rings of $p$-adic integers,
+> $\mathbb{Z}_p^*$, where $p$ runs over the set of all primes. Thus, we obtain that
+> $$\mathrm{Gal}(\mathbb{Q}^{\mathrm{ab}}/\mathbb{Q}) = \prod \mathbb{Z}_p^*.$$
 > The abelian class field theory gives a similar description for the
-> maximal abelian quotient \mathrm{Gal}(F^ab^/F) of the Galois group \mathrm{Gal}(F^-^/F),
-> where F is an arbitrary global field, i.e., a finite extension of Q
+> maximal abelian quotient $\mathrm{Gal}(\mathbb{F}^{\mathrm{ab}}/\mathbb{F})$ of the Galois group $\mathrm{Gal}(\overline{\mathbb{F}}/\mathbb{F})$,
+> where $\mathbb{F}$ is an arbitrary global field, i.e., a finite extension of $\mathbb{Q}$
 > (number field), or the field of rational functions on a smooth
 > projective curve defined over a finite field (function field). Namely,
-> \mathrm{Gal}(F^ab^/F) is almost isomorphic to the quotient A(F)*/F*, where
-> A(F) is the ring of adeles of F, a subring in the direct product of
-> all completions of F. Here we use the word "almost" because we need
-> to take the group of components of this quotient if F is a number
-> field, or its profinite completion if F is a function field.
+> $\mathrm{Gal}(\mathbb{F}^{\mathrm{ab}}/\mathbb{F})$ is almost isomorphic to the quotient $A(\mathbb{F})^*/\mathbb{F}^*$, where
+> $A(\mathbb{F})$ is the ring of adeles of $\mathbb{F}$, a subring in the direct product of
+> all completions of $\mathbb{F}$. Here we use the word "almost" because we need
+> to take the group of components of this quotient if $\mathbb{F}$ is a number
+> field, or its profinite completion if $\mathbb{F}$ is a function field.
 >
-> When F = Q the ring A(Q) is a subring of the direct product of the
-> fields Q_p of p-adic numbers and the field R of real numbers, and the
-> quotient A(F)*/F* is isomorphic to
->
-> R^+^ \times ∏_p Z_p*.
->
-> where R^+^ is the multiplicative group of positive real numbers. Hence
+> When $\mathbb{F} = \mathbb{Q}$ the ring $A(\mathbb{Q})$ is a subring of the direct product of the
+> fields $\mathbb{Q}_p$ of $p$-adic numbers and the field $\mathbb{R}$ of real numbers, and the
+> quotient $A(\mathbb{F})^*/\mathbb{F}^*$ is isomorphic to
+> $$\mathbb{R}^+ \times \prod_p \mathbb{Z}_p^*.$$
+> where $\mathbb{R}^+$ is the multiplicative group of positive real numbers. Hence
 > the group of its components is
->
-> ∏_p Z_p*
->
+> $$\prod_p \mathbb{Z}_p^*$$
 > in agreement with the Kronecker-Weber theorem.
 >
 > One can obtain complete information about the maximal abelian quotient
 > of a group by considering its one-dimensional representations. The
 > above statement of the abelian class field theory may then be
 > reformulated as saying that one-dimensional representations of
-> \mathrm{Gal}(F^-^/F) are essentially in bijection with one-dimensional
+> $\mathrm{Gal}(\overline{\mathbb{F}}/\mathbb{F})$ are essentially in bijection with one-dimensional
 > representations of the abelian group
->
-> A(F)* = \mathrm{GL}(1,A(F))
->
+> $$A(\mathbb{F})^* = \mathrm{GL}(1,A(\mathbb{F}))$$
 > which occur in the space of functions on
->
-> A(F)*/F* = \mathrm{GL}(1,A(F))/\mathrm{GL}(1,F)
->
+> $$A(\mathbb{F})^*/\mathbb{F}^* = \mathrm{GL}(1,A(\mathbb{F}))/\mathrm{GL}(1,\mathbb{F})$$
 > A marvelous insight of Robert Langlands was to conjecture that there
-> exists a similar description of *n-dimensional representations* of
-> \mathrm{Gal}(F^-^/F). Namely, he proposed that those may be related to
-> irreducible representations of the group \mathrm{GL}(n,A(F)) which are
+> exists a similar description of *$n$-dimensional representations* of
+> $\mathrm{Gal}(\overline{\mathbb{F}}/\mathbb{F})$. Namely, he proposed that those may be related to
+> irreducible representations of the group $\mathrm{GL}(n,A(\mathbb{F}))$ which are
 > *automorphic*, that is those occurring in the space of functions on
 > the quotient
->
-> \mathrm{GL}(n,A(F))/\mathrm{GL}(n,F)
->
+> $$\mathrm{GL}(n,A(\mathbb{F}))/\mathrm{GL}(n,\mathbb{F})$$
 > This relation is now called the *Langlands correspondence*.
 >
 > At this point one might ask a legitimate question: why is it important
@@ -287,21 +248,21 @@ Week's Finds (especially ["Week 217"](#week217) and
 > structure. But even more importantly, one finds many interesting
 > representations of Galois groups in "nature".
 >
-> For example, the group \mathrm{Gal}(\overline{\mathbb{Q}}/Q) will act on the geometric
+> For example, the group $\mathrm{Gal}(\overline{\mathbb{Q}}/\mathbb{Q})$ will act on the geometric
 > invariants (such as the etale cohomologies) of an algebraic variety
-> defined over Q. Thus, if we take an elliptic curve E over Q, then we
+> defined over $\mathbb{Q}$. Thus, if we take an elliptic curve $E$ over $\mathbb{Q}$, then we
 > will obtain a two-dimensional Galois representation on its first etale
 > cohomology. This representation contains a lot of important
-> information about the curve E, such as the number of points of E over
-> Z/p for various primes p.
+> information about the curve $E$, such as the number of points of $E$ over
+> $\mathbb{Z}/p$ for various primes $p$.
 >
 > The point is that the Langlands correspondence is supposed to relate
 > $n$-dimensional Galois representations to automorphic representations of
-> \mathrm{GL}(n,A(F)) in such a way that the data on the Galois side, such as the
-> number of points of E over Z/p, are translated into something more
+> $\mathrm{GL}(n,A(\mathbb{F}))$ in such a way that the data on the Galois side, such as the
+> number of points of $E$ over $\mathbb{Z}/p$, are translated into something more
 > tractable on the automorphic side, such as the coefficients in the
-> q-expansion of the modular forms that encapsulate automorphic
-> representations of \mathrm{GL}(2,A(Q)).
+> $q$-expansion of the modular forms that encapsulate automorphic
+> representations of $\mathrm{GL}(2,A(\mathbb{Q}))$.
 >
 > More precisely, one asks that under the Langlands correspondence
 > certain natural invariants attached to the Galois representations and
@@ -317,19 +278,18 @@ Frenkel does here. The abelian case goes back way before Langlands:
 it's called "class field theory". And, it's all about exploiting
 this analogy, which I last mentioned in ["Week 218"](#week218):
 
-     NUMBER THEORY                 COMPLEX GEOMETRY                                 
-
-     Integers                      Polynomial functions on the complex plane
-     Rational numbers              Rational functions on the complex plane
-     Prime numbers                 Points in the complex plane            
-     Integers mod p^n              (n-1)st-order Taylor series
-     p-adic integers               Taylor series
-     p-adic numbers                Laurent series
-     Adeles for the rationals      Adeles for the rational functions
-     Fields                        One-point spaces
-     Homomorphisms to fields       Maps from one-point spaces
-     Algebraic number fields       Branched covering spaces of the complex plane
-                                           
+| Number theory | Complex geometry |
+| :------------ | :--------------- |
+| Integers | Polynomial functions on the complex plane |
+| Rational numbers | Rational functions on the complex plane |
+| Prime numbers | Points in the complex plane |
+| Integers $\mod p^n$ | $(n-1)$st-order Taylor series |
+| $p$-adic integers | Taylor series |
+| $p$-adic numbers | Laurent series |
+| Adeles for the rationals | Adeles for the rational functions |
+| Fields | One-point spaces |
+| Homomorphisms to fields | Maps from one-point spaces |
+| Algebraic number fields | Branched covering spaces of the complex plane |
 
 ------------------------------------------------------------------------
 
@@ -376,29 +336,22 @@ history of science.
 This manuscript, called the Archimedes Palimpsest, also reveals for the
 first time that he did work on combinatorics:
 
-10) Nova, The Archimedes Palimpsest,
-`http://www.pbs.org/wgbh/nova/archimedes/palimpsest.html`
+10) Nova, "The Archimedes Palimpsest", `http://www.pbs.org/wgbh/nova/archimedes/palimpsest.html`
 
-11) Heather Rock Woods, Placed under X-ray gaze, Archimedes manuscript
-yields secrets lost to time, Stanford Report, May 19, 2005,
-`http://news-service.stanford.edu/news/2005/may25/archimedes-052505.html`
+11) Heather Rock Woods, "Placed under X-ray gaze, Archimedes manuscript yields secrets lost to time", _Stanford Report_, May 19, 2005, `http://news-service.stanford.edu/news/2005/may25/archimedes-052505.html`
 
-12) Erica Klarreich, Glimpses of genius: mathematicians and historians
-piece together a puzzle that Archimedes pondered, Science News 165
-(2004), 314. Also available at
-`http://www.sciencenews.org/articles/20040515/bob9.asp`
+12) Erica Klarreich, "Glimpses of genius: mathematicians and historians piece together a puzzle that Archimedes pondered", _Science News_ **165** (2004), 314. Also available at `http://www.sciencenews.org/articles/20040515/bob9.asp`
 
 Also: a team using "multispectral imaging" has recently been able to
 read parts of a Roman library in the town of
 [Herculaneum](http://en.wikipedia.org/wiki/Herculaneum). The books in
-this library were "roasted in place" - heavily carbonized - during the
+this library were "roasted in place" --- heavily carbonized --- during the
 eruption of Vesuvius that destroyed
 [Pompeii](http://en.wikipedia.org/wiki/Pompeii). By distinguishing
 between different shades of black, researchers were able to reconstruct
 the entire book *On Piety* by one Philodemus:
 
-13) Julie Walker, A library of mud and ashes, BYU Magazine, Spring
-2001, `http://magazine.byu.edu/?act=view&a=43`
+13) Julie Walker, "A library of mud and ashes", _BYU Magazine_, Spring 2001, `http://magazine.byu.edu/?act=view&a=43`
 
 I can't resist quoting a bit:
 
@@ -432,8 +385,8 @@ I can't resist quoting a bit:
 >
 > The current unrolling methoddeveloped by a team of Norwegian
 > conservators involves applying a gelatin-based adhesive to the
-> scroll's outer surface. As the adhesive dries, the outer shell -
-> which bears the text on its interior - can be slowly peeled off. It
+> scroll's outer surface. As the adhesive dries, the outer shell ---
+> which bears the text on its interior --- can be slowly peeled off. It
 > can take days to remove a single fragment, months or years to process
 > a complete scroll. Some 300 of the library's scrolls have yet to be
 > unrolled, and many more scrolls are in various stages of conservation
@@ -459,8 +412,7 @@ together new fragments of plays by Euripides, Sophocles and Menander,
 lost lines from the poets Sappho, Hesiod, and Archilocus, and most of a
 book by Hesiod:
 
-14) Oxyrhynchus Online, multispectral imaging,
-`http://www.papyrology.ox.ac.uk/multi/procedure.html`
+14) Oxyrhynchus Online, "multispectral imaging", `http://www.papyrology.ox.ac.uk/multi/procedure.html`
 
 If you just want to look at a nice "before and after" movie of what
 multispectral imaging can do, try this link.
@@ -511,8 +463,9 @@ somewhat:
 
 ------------------------------------------------------------------------
 
-*We avail ourselves of what our predecessors may have said. That they
+> *We avail ourselves of what our predecessors may have said. That they
 were or were not our coreligionists is of no account.... Whatever
 accords with the truth, we shall happily and gratefully accept, and
-whatever conflicts, we shall scrupulously but generously point out.* -
-Averroes
+whatever conflicts, we shall scrupulously but generously point out.*
+> 
+> --- Averroes
