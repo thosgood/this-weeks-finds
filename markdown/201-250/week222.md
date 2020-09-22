@@ -12,15 +12,14 @@ time about 160 did! It was strange seeing old pals like Ashtekar,
 Lewandowski, Loll, Rovelli and Smolin almost lost in a sea of new faces.
 But, it was great to talk to everyone, both old and new.
 
-I'll say more about this conference, but first let's talk about \gamma ray
+I'll say more about this conference, but first let's talk about $\gamma$ ray
 bursters, a black hole without a host galaxy, the newly discovered moon
 of planet Xena, and lots of other transneptunian objects.
 
 Actually, just for fun, let's start with this science fiction novel I
 picked up in Heathrow en route to Berlin:
 
-2) Charles Stross, Accelerando, Ace Books, New York. Also available at
-`http://www.accelerando.org/book/`
+2) Charles Stross, _Accelerando_, Ace Books, New York. Also available at `http://www.accelerando.org/book/`
 
 This is one of the few tales I've read that does a good job of fleshing
 out Verner Vinge's "Singularity" scenario, where the accelerating
@@ -28,16 +27,13 @@ development of technology soars past human comprehension and undergoes a
 phase transition to a thoroughly different world. This is a real
 possibility, and it's been discussed a lot:
 
-3) Wikipedia, Technological singularity,
-`http://en.wikipedia.org/wiki/Technological_singularity`
+3) Wikipedia, "Technological singularity", `http://en.wikipedia.org/wiki/Technological_singularity`
 
-Ray Kurzweil, The Singularity,
-`http://www.kurzweilai.net/meme/frame.html?m=1`
+    Ray Kurzweil, "The Singularity", `http://www.kurzweilai.net/meme/frame.html?m=1`
 
-Anders Sandberg, The Singularity,
-`http://www.aleph.se/Trans/Global/Singularity/`
+    Anders Sandberg, "The Singularity", `http://www.aleph.se/Trans/Global/Singularity/`
 
-However, it's not an easy subject for fiction - at least not for mere
+However, it's not an easy subject for fiction --- at least not for mere
 human readers! Stross makes it gripping: sometimes goofy, sometimes
 thrilling, and sometimes rather sad. Characters include a robot cat with
 ever-growing powers and some space-faring uploaded lobsters.
@@ -57,39 +53,39 @@ book, before all hell breaks loose:
 > inflationary epoch; the present-day universe being merely the data
 > left behind by a really huge calculation). And then there's the
 > weirdness beyond M31: according to the more conservative cosmologists,
-> an alien superpower - maybe a collective of Kardashev Type Three
-> galaxy-spanning civilizations - is running a timing channel attack on
+> an alien superpower --- maybe a collective of Kardashev Type Three
+> galaxy-spanning civilizations --- is running a timing channel attack on
 > the computational ultrastructure of space-time itself, trying to break
 > through to whatever's underneath. The tofu-Alzheimer's link can
 > wait.
 
-An idea a minute - and the book is free online: what more could you
+An idea a minute --- and the book is free online: what more could you
 want?
 
 But right now, the big news in astronomy is *not* about a type III
 civilization lurking beyond M31 (otherwise known as the Andromeda
-Galaxy). It's some evidence that short \gamma ray bursts are caused by
+Galaxy). It's some evidence that short $\gamma$ ray bursts are caused by
 collisions involving neutron stars and black holes!
 
-\Gamma ray bursts are among the most energetic events known in the heavens.
+$\gamma$ ray bursts are among the most energetic events known in the heavens.
 They happen in galaxies throughout the universe; we see about one a day,
-and each releases somewhere between 10^45^ and 10^47^ joules of energy.
+and each releases somewhere between $10^{45}$ and $10^{47}$ joules of energy.
 The larger figure is what you'd get by turning the entire mass of the
 Sun into energy.
 
-There could be several kinds of \gamma ray bursts, but there seem to be at
+There could be several kinds of $\gamma$ ray bursts, but there seem to be at
 least two: short and long. Short bursts last between 40 milliseconds and
-10 seconds - imagine the whole Sun turning into energy that fast! Long
+10 seconds --- imagine the whole Sun turning into energy that fast! Long
 ones last between 10 and 100 seconds. The two kinds seem to be
 qualitatively different: for example, the short ones consist of
-higher-frequency \gamma rays. The big news is that they happen in different
+higher-frequency $\gamma$ rays. The big news is that they happen in different
 kinds of galaxies!
 
-In ["Week 204"](#week204), I described how people caught a long \gamma
-ray burst in the act in March 2003. A \gamma ray detector aboard a satellite
+In ["Week 204"](#week204), I described how people caught a long $\gamma$ ray
+burst in the act in March 2003. A $\gamma$ ray detector aboard a satellite
 relayed information to telescopes in Australia and Japan, allowing them
 to spot a visible afterglow right after the burst. The details of this
-glow fit the "hypernova" theory of long \gamma ray bursts.
+glow fit the "hypernova" theory of long $\gamma$ ray bursts.
 
 The hypernova theory says that when a star more than 25 times heavier
 than the Sun runs out of fuel and collapses, it forms a black hole that
@@ -98,18 +94,17 @@ occur. In just a few seconds, about a solar mass of iron spirals into
 the black hole, forming a pancake-shaped disk as it goes down. In the
 process, this disk becomes incredibly hot and shoots out jets of
 radiation in the transverse directions. As they plow through the star's
-outer layers, these jets create beams of \gamma rays.
+outer layers, these jets create beams of $\gamma$ rays.
 
 The short bursts have been harder to catch. By the time a telescope on
-Earth could be aimed at the spot where the \gamma rays were seen, no
+Earth could be aimed at the spot where the $\gamma$ rays were seen, no
 afterglow could be seen!
 
-So, in October 2004 NASA launched Swift: a \gamma-ray detecting satellite
+So, in October 2004 NASA launched Swift: a $\gamma$-ray detecting satellite
 equipped with an X-ray telescope and an ultraviolet/optical telescope
 that can respond quickly whenever a burst is seen:
 
-4) Official NASA Swift homepage,
-`http://swift.gsfc.nasa.gov/docs/swift/swiftsc.html`
+4) Official NASA Swift homepage, `http://swift.gsfc.nasa.gov/docs/swift/swiftsc.html`
 
 5) Gamma-ray burst real-time sky map, `http://grb.sonoma.edu/`
 
@@ -119,18 +114,16 @@ had its X-ray afterglow caught by the Chandra X-ray satellite. Analysis
 of these and two more short bursts has convinced some scientists that
 they're caused by collisions between neutron stars and/or black holes:
 
-6) D. B. Fox et al, The afterglow of GRB050709 and the nature of the
-short-hard \gamma-ray bursts, Nature 437 (October 2005), 849-850. Also
-available at `http://www.nasa.gov/pdf/135397main_nature_fox_final.pdf`
+6) D. B. Fox et al, "The afterglow of GRB050709 and the nature of the short-hard $\gamma$-ray bursts", _Nature_ **437** (October 2005), 849--850. Also available at `http://www.nasa.gov/pdf/135397main_nature_fox_final.pdf`
 
 Despite what the news media are saying, I don't see that this paper
-"proves" the short \gamma-ray bursts are caused by such collisions.
+"proves" the short $\gamma$-ray bursts are caused by such collisions.
 Instead, I see some good pieces of evidence.
 
 The faintness of the afterglows suggests some mechanism other than a
-hypernova. But as far as I can tell, the best evidence is that short \gamma
-ray bursts tend to happen near the edges of old galaxies, while the long
-ones happen near the centers of young galaxies.
+hypernova. But as far as I can tell, the best evidence is that short
+$\gamma$ ray bursts tend to happen near the edges of old galaxies, while
+the long ones happen near the centers of young galaxies.
 
 The center of a young galaxy is where you'd expect to find a really
 huge Wolf-Rayet star, the sort that dies in a hypernova. The edge of an
@@ -144,10 +137,10 @@ sail off to the edge of the galaxy, thanks to the "kick" delivered by
 the supernova explosions.
 
 I hope astronomers can clinch the case for the collision theory of short
-\gamma ray bursts. After all, these collisions involving neutron stars and
+$\gamma$ ray bursts. After all, these collisions involving neutron stars and
 black holes are precisely what gravitational wave detectors like LIGO
 and VIRGO are hoping to see! If we know to look for gravitational waves
-precisely when we see short \gamma ray bursts, and we know where they're
+precisely when we see short $\gamma$ ray bursts, and we know where they're
 coming from, we'll have a better chance of finding them.
 
 (Of course, we'll also have a better chance of *fooling* ourselves into
@@ -164,11 +157,9 @@ Speaking of black holes, last month the Hubble Space Telescope and the
 Very Large Telescope in Chile detected a quasar that seems to have no
 host galaxy:
 
-8) European Southern Observatory, Black hole in search of a home,
-`http://www.eso.org/outreach/press-rel/pr-2005/pr-23-05.html`
+8) European Southern Observatory, "Black hole in search of a home", `http://www.eso.org/outreach/press-rel/pr-2005/pr-23-05.html`
 
-HubbleSite, Quasar without host galaxy compared with normal quasar,
-`http://hubblesite.org/newscenter/newsdesk/archive/releases/2005/13/image/a`
+    HubbleSite, "Quasar without host galaxy compared with normal quasar", `http://hubblesite.org/newscenter/newsdesk/archive/releases/2005/13/image/a`
 
 Quasars are thought to be super massive black holes; they're usually
 found in the centers of galaxies, where they devour stars and shoot out
@@ -177,11 +168,7 @@ is surrounded only by a blob of ionized gas. Nearby, a wildly disturbed
 spiral galaxy can be seen.
 
 Compare HE0450-2958 (at left) with a normal quasar (at right):
-
-::: {align="center"}
-[![](HE0450-2958.jpg)](http://hubblesite.org/newscenter/newsdesk/archive/releases/2005/13/image/a)
-:::
-
+$$\href{http://hubblesite.org/newscenter/newsdesk/archive/releases/2005/13/image/a}{\includegraphics[max width=\linewidth]{../images/HE0450-2958.jpg}}$$
 The quasar HE0450-2958 is in the middle of the left-hand picture; the
 disturbed galaxy is above and a completely irrelevant foreground star is
 below. For more details on what this image means, click on it.
@@ -194,21 +181,15 @@ Puzzles, puzzles, in the sky....
 
 Closer to home, astronomers at the Keck Observatory in Hawaii have
 discovered that planet Xena has a moon!
-
-::: {align="center"}
-[![](xena.jpg){width="300"
-height="300"}](%20http://www2.keck.hawaii.edu/optics/staff/mvandam/gabrielle)
-:::
-
+$$\href{http://www2.keck.hawaii.edu/optics/staff/mvandam/gabrielle}{\includegraphics[max width=\linewidth]{../images/xena.jpg}}$$
 They nicknamed it Gabrielle, after this famous TV character's sidekick:
 
-9) Michael E. Brown, The moon of the 10th planet,
-`http://www.gps.caltech.edu/~mbrown/planetlila/moon/index.html`
+9) Michael E. Brown, "The moon of the 10th planet", `http://www.gps.caltech.edu/~mbrown/planetlila/moon/index.html`
 
 If you hadn't heard about planet Xena, or you don't like the idea of
-naming a planet after a TV character - even a "warrior princess" -
+naming a planet after a TV character --- even a "warrior princess" -
 don't get worked up just yet. Xena's official name is currently 2003
-UB~313~, and though she's larger than Pluto, the International
+UB\textsubscript{313}, and though she's larger than Pluto, the International
 Astronomical Union has not decided whether she'll officially be
 considered a planet.
 
@@ -223,43 +204,34 @@ absorbed by mundane concerns to keep track of the burgeoning population
 of our Solar System. But it's not too late to mend your ways! Impress
 your friends by casually dropping some of this jargon:
 
--   **[Transneptunian
-    object](http://en.wikipedia.org/wiki/Trans-Neptunian_object)** - any
-    object that orbits the Sun at an average distance greater than that
+- [**Transneptunian object**](http://en.wikipedia.org/wiki/Trans-Neptunian_object)
+    --- any object that orbits the Sun at an average distance greater than that
     of Neptune. Neptune is about 30 AU from the Sun, meaning it's 30
     times farther from the Sun than we are. Transneptunian objects can
     be roughly divided into three kinds: Kuiper belt objects, scattered
     disc objects, and Oort cloud objects.
-    ::: {align="CENTER"}
-    [![](kuiper_oort.jpg){width="500"
-    height="400"}](http://en.wikipedia.org/wiki/Kuiper_belt)
-    :::
-
-    -   **[Kuiper belt
-        object](http://en.wikipedia.org/wiki/Kuiper_belt)** - any object
-        whose orbit lies in the Kuiper belt. This is the region in the
+    $$\href{http://en.wikipedia.org/wiki/Kuiper_belt}{\includegraphics[max width=\linewidth]{../images/kuiper_oort.jpg}}$$
+    
+    - [**Kuiper belt object**](http://en.wikipedia.org/wiki/Kuiper_belt)
+        --- any object whose orbit lies in the Kuiper belt. This is the region in the
         ecliptic (the plane of the planets' orbits) between 30 and 50
         AU from the Sun. There are a bunch of planetoids in this belt.
         Beyond 50 AU there seems to be a sharp dropoff in their density.
         Three main kinds of Kuiper belt objects have been found so far:
         cubewanos, plutinos and twotinos.
-        -   **[Cubewano](http://en.wikipedia.org/wiki/Cubewano)** - A
+
+        - [**Cubewano**](http://en.wikipedia.org/wiki/Cubewano) --- A
             cubewano is a Kuiper belt object whose orbit is not in
             resonance with any of the outer planets. The curious name
-            comes from "QB1", since the first example was named [1992
-            QB_1](http://en.wikipedia.org/wiki/%2815760%29_1992_QB1).
+            comes from "QB1", since the first example was named
+            [1992 QB_1](http://en.wikipedia.org/wiki/%2815760%29_1992_QB1).
 
             One of the biggest cubewanos is
             [Quaoar](http://en.wikipedia.org/wiki/Quaoar), with a
             diameter of about 1200 kilometers. This is about half the
             diameter of Pluto, or a third the size of the Moon: much
             bigger than anything in the asteroid belt!
-
-            ::: {align="CENTER"}
-            [![](sedna.jpg){width="500"
-            height="400"}](http://en.wikipedia.org/wiki/90377_Sedna)
-            :::
-
+            $$\href{http://en.wikipedia.org/wiki/90377_Sedna}{\includegraphics[max width=\linewidth]{../images/sedna.jpg}}$$
             Folks believe Quaoar is a mixture of ice and rock. It's
             very dark in color, but last year crystalline water ice was
             detected on its surface, using infrared spectroscopy. This
@@ -277,7 +249,7 @@ your friends by casually dropping some of this jargon:
             2003 EL61 and 2005 FY9 are even bigger, but they haven't
             got nice names yet.
 
-        -   **[Plutino](http://en.wikipedia.org/wiki/Plutino)** - A
+        - [**Plutino**](http://en.wikipedia.org/wiki/Plutino) --- A
             plutino is a Kuiper belt object whose orbit is in 3:2
             resonance with Neptune: they go around the Sun twice while
             Neptune goes around three times. About a quarter of Kuiper
@@ -303,25 +275,24 @@ your friends by casually dropping some of this jargon:
             you know Greek mythology, you'll know these guys are all
             named after deities of the underworld.
 
-        -   **[Twotino](http://en.wikipedia.org/wiki/Twotino)** - A
-            twotino is a Kuiper belt object whose orbit is in 2:1
+        -   [**Twotino**](http://en.wikipedia.org/wiki/Twotino) --- A
+            twotino is a Kuiper belt object whose orbit is in $2:1$
             resonance with Neptune. These are rare compared to plutinos,
             and they're smaller, so they're stuck with boring names
             like 1996 TR66. There are also a couple of Kuiper belt
-            objects in 4:3 and 5:3 resonances with Neptune.
+            objects in $4:3$ and $5:3$ resonances with Neptune.
 
-    -   **[Scattered disc
-        object](http://en.wikipedia.org/wiki/Scattered_disc)** - A
-        scattered disc object is a Kuiper belt object that has been
+    -   [**Scattered disc object**](http://en.wikipedia.org/wiki/Scattered_disc)
+        --- A scattered disc object is a Kuiper belt object that has been
         perturbed by interactions with Neptune into an orbit that is
         more eccentric or more tilted from the ecliptic.
 
         [Xena](http://en.wikipedia.org/wiki/2003_UB313) (or more
-        properly 2003 UB~313~) is a highly eccentric scattered disc
+        properly 2003 UB\textsubscript{313}) is a highly eccentric scattered disc
         object whose orbit carries it between 40 to 100 AU from the sun.
         Its orbit is inclined a whopping 44 degrees, and it's locked in
-        a complicated 17:5 resonance with Neptune. It's probably larger
-        than Pluto - a reasonable rough guess is 2900 kilometers in
+        a complicated $17:5$ resonance with Neptune. It's probably larger
+        than Pluto --- a reasonable rough guess is 2900 kilometers in
         diameter, as compared with 2400 for Pluto. Its surface has
         methane ice, and we now know it has a moon.
 
@@ -333,9 +304,8 @@ your friends by casually dropping some of this jargon:
         chaotic orbits and will probably either collide with something
         or be ejected from the Solar System.
 
-    -   **[Oort cloud
-        object](http://en.wikipedia.org/wiki/Oort_cloud)** - the Oort
-        cloud is a hypothesized spherical cloud of comets, perhaps
+    -   [**Oort cloud object**](http://en.wikipedia.org/wiki/Oort_cloud)
+        --- the Oort cloud is a hypothesized spherical cloud of comets, perhaps
         between 50,000 and 100,000 AU from the Sun. The idea is this
         cloud consists of leftovers from the original nebula that
         collapsed to form our Solar system, and comets come from this
@@ -347,12 +317,7 @@ your friends by casually dropping some of this jargon:
         [Sedna](http://en.wikipedia.org/wiki/90377_Sedna), an object
         roughly 1500 kilometers in diameter with a wildly eccentric
         orbit taking it between 80 to 930 AU from the Sun.
-
-        ::: {align="CENTER"}
-        [![](sedna_orbit.jpg){width="600"
-        height="600"}](http://en.wikipedia.org/wiki/90377_Sedna)
-        :::
-
+        $$\href{http://en.wikipedia.org/wiki/90377_Sedna}{\includegraphics[max width=\linewidth]{../images/sedna_orbit.jpg}}$$
         Sedna was discovered in 2004 when it was 90 AU from the Sun.
         It's redder than Mars, its temperature never rises above 23
         Kelvin, and its year lasts 11,250 years. It's the farthest
@@ -364,12 +329,7 @@ your friends by casually dropping some of this jargon:
 
         The closest people have come to seeing the Oort cloud is seeing
         a "Bok globule":
-
-        ::: {align="CENTER"}
-        [![](bok_globule.jpg){width="370"
-        height="400"}](http://www.eso.org/outreach/press-rel/pr-2001/pr-01-01.html)
-        :::
-
+        $$\href{http://www.eso.org/outreach/press-rel/pr-2001/pr-01-01.html}{\includegraphics[max width=\linewidth]{../images/bok_globule.jpg}}$$
         A Bok globule is a cloud of dust and gas that's collapsing to
         form a star. This one is about 12,500 AU across. The scientists
         who observed it say it's about the size of the Oort cloud. This
@@ -378,54 +338,41 @@ your friends by casually dropping some of this jargon:
 For a great introduction to the Kuiper belt and related topics, try
 this:
 
-10) David C. Jewitt, Kuiper belt,
-`http://www.ifa.hawaii.edu/faculty/jewitt/kb.html`
+10) David C. Jewitt, "Kuiper belt", `http://www.ifa.hawaii.edu/faculty/jewitt/kb.html`
 
 For transneptunian objects in general, try:
 
-11) William Robert Johnston, Transneptunian objects,
-`http://www.johnstonsarchive.net/astro/tnos.html`
+11) William Robert Johnston, "Transneptunian objects", `http://www.johnstonsarchive.net/astro/tnos.html`
 
 Also check out this newsletter:
 
-12) Distant EKOs: the Kuiper Belt Electronic Newsletter,
-`http://www.boulder.swri.edu/ekonews/`
+12) _Distant EKOs: the Kuiper Belt Electronic Newsletter_, `http://www.boulder.swri.edu/ekonews/`
 
 Quaoar was discovered in 2002 by Chad Trujillo and Mike Brown of
 Caltech:
 
-13) Chad Trujillo, Quaoar, `http://www.gps.caltech.edu/~chad/quaoar/`
+13) Chad Trujillo, "Quaoar", `http://www.gps.caltech.edu/~chad/quaoar/`
 
 For evidence of crystalline water ice on Quaoar, see:
 
-14) David C. Jewitt and Jane Luu, Crystalline water ice on the Kuiper
-belt object (50000) Quaoar, Nature 432 (2004), 731-733. Also available
-at `http://www.ifa.hawaii.edu/faculty/jewitt/quaoar.html`
+14) David C. Jewitt and Jane Luu, "Crystalline water ice on the Kuiper belt object (50000) Quaoar", _Nature_ **432** (2004), 731--733. Also available at `http://www.ifa.hawaii.edu/faculty/jewitt/quaoar.html`
 
 Xena was discovered in 2003 by Trujillo, Brown and a colleague of theirs
 at Yale University:
 
-15) Michael E. Brown, Chad A. Trujillo and David L. Rabinowitz,
-Discovery of a planetary-sized object in the scattered Kuiper belt,
-submitted to ApJ Letters, available at
-`http://www.gps.caltech.edu/%7Embrown/papers/ps/xena.pdf`
+15) Michael E. Brown, Chad A. Trujillo and David L. Rabinowitz, "Discovery of a planetary-sized object in the scattered Kuiper belt", submitted to _ApJ Letters_, available at `http://www.gps.caltech.edu/%7Embrown/papers/ps/xena.pdf`
 
 Brown has a nice webpage about Xena and Gabrielle:
 
-16) Michael E. Brown, The discovery of UB313, the 10th planet,
-`http://www.gps.caltech.edu/~mbrown/planetlila/`
+16) Michael E. Brown, "The discovery of UB313, the 10th planet", `http://www.gps.caltech.edu/~mbrown/planetlila/`
 
 The same gang of three also discovered Sedna in 2003:
 
-17) Michael E. Brown, Chad A. Trujillo and David L. Rabinowitz,
-Discovery of a candidate inner Oort cloud planetoid, to appear in ApJ
-Letters, available at
-[http://www.gps.caltech.edu/%7Embrown/papers/ps/sedna.pdf](http://www.gps.caltech.edu/~mbrown/papers/ps/sedna.pdf)
+17) Michael E. Brown, Chad A. Trujillo and David L. Rabinowitz, "Discovery of a candidate inner Oort cloud planetoid", to appear in _ApJ Letters_, available at `http://www.gps.caltech.edu/%7Embrown/papers/ps/sedna.pdf`
 
 ... and Brown has a fun Sedna webpage too:
 
-18) Michael E. Brown, Sedna (2003 VB12),
-`http://www.gps.caltech.edu/~mbrown/sedna/`
+18) Michael E. Brown, "Sedna (2003 VB12)", `http://www.gps.caltech.edu/~mbrown/sedna/`
 
 How all these transneptunian objects got where they are is a wonderful
 puzzle in celestial mechanics, but you can read more about that in the
@@ -433,8 +380,8 @@ references above, especially Jewitt's Kuiper belt webpage.
 
 Now I want to talk about Loops '05!
 
-Instead of trying to review all the talks - a hopeless task, since there
-were 86 - I'll just mention the *two* strands of work I find most
+Instead of trying to review all the talks --- a hopeless task, since there
+were 86 --- I'll just mention the *two* strands of work I find most
 exciting.
 
 First, there's new evidence that a quantum theory of pure gravity
@@ -465,7 +412,7 @@ interact.
 If quantum gravity approached a Gaussian ultraviolet fixed point as we
 zoomed in, we could calculate what gravitons do at arbitrarily high
 energies (at least perturbatively, as power series in Newton's constant
-- no guarantee that these series converge). Particle physicists would
+--- no guarantee that these series converge). Particle physicists would
 then be happy and say the theory was "perturbatively renormalizable".
 
 But, it's not.
@@ -473,7 +420,7 @@ But, it's not.
 The conventional wisdom concludes that to save quantum gravity, we must
 include matter of precisely the right sort to *make* it perturbatively
 renormalizable. This is the quest that led people first to supergravity
-and ultimately to superstring theory - see ["Week 195"](#week195)
+and ultimately to superstring theory --- see ["Week 195"](#week195)
 for more of this story.
 
 But, as far back as 1979, the particle physicist Weinberg raised the
@@ -483,15 +430,15 @@ in and look at the theory at shorter and shorter distance scales, it
 approaches some theory *other than* that of noninteracting gravitons.
 
 In other words, Weinberg was suggesting that pure quantum gravity
-approaches a non-obvious ultraviolet fixed point - possibly a
+approaches a non-obvious ultraviolet fixed point --- possibly a
 "non-Gaussian" one.
 
 The big news is that this seems to be true!
 
-Even cooler, in this theory spacetime seems to act *2-dimensional* at
+Even cooler, in this theory spacetime seems to act *$2$-dimensional* at
 very short distance scales.
 
-This idea has been brewing for a long time - I talked about it
+This idea has been brewing for a long time --- I talked about it
 extensively back in ["Week 139"](#week139). But now there's more
 solid evidence for it, coming from two quite different approaches.
 
@@ -500,22 +447,18 @@ triangulations" approach are seeing this effect in their computer
 calculations. This is what Renate Loll explained at Loops '05. The best
 place to read the details is here:
 
-19) Jan Ambjørn, J. Jurkiewicz and Renate Loll, Reconstructing the
-universe, Phys. Rev. D72 (2005) 064014. Also available as
-[`hep-th/0505154`](https://arxiv.org/abs/hep-th/0505154).
+19) Jan Ambjørn, J. Jurkiewicz and Renate Loll, "Reconstructing the universe", _Phys. Rev._ **D72** (2005) 064014. Also available as [`hep-th/0505154`](https://arxiv.org/abs/hep-th/0505154).
 
 but if you need something less technical, try this:
 
-20) Jan Ambjørn, J. Jurkiewicz and Renate Loll, The universe from
-scratch, available as
-[`hep-th/0509010`](https://arxiv.org/abs/hep-th/0509010).
+20) Jan Ambjørn, J. Jurkiewicz and Renate Loll, "The universe from scratch", available as [`hep-th/0509010`](https://arxiv.org/abs/hep-th/0509010).
 
 The titles of their papers are a bit grandiose, but their calculations
-are solid stuff - truly magnificent. I described their basic strategy in
+are solid stuff --- truly magnificent. I described their basic strategy in
 my report on the Marseille conference in [week206](week206.html). So, I
 won't explain that again. I'll just mention their big new result: in
-pure quantum gravity, spacetime has a spectral dimension of 4.02 ± 0.1
-on large distance scales, but 1.80 ± 0.25 in the limit of very short
+pure quantum gravity, spacetime has a spectral dimension of $4.02\pm0.1$
+on large distance scales, but $1.80\pm0.25$ in the limit of very short
 distance scales!
 
 Zounds! What does that mean?
@@ -524,7 +467,7 @@ The "spectral dimension" of a spacetime is the dimension as measured
 by watching heat spread out on this spacetime: the short-time behavior
 of the heat equation probes the spacetime at short distance scales,
 while its large-time behavior probes large distance scales. Spectral
-dimensions don't need to be integers - for fractals they're typically
+dimensions don't need to be integers --- for fractals they're typically
 not. But, Loll and company believe they're seeing spacetimes that are
 *exactly* $2$-dimensional in the limit of very small distance scales,
 *exactly* $4$-dimensional in the limit of very large scales, with a
@@ -541,9 +484,7 @@ attempting to compute. I would like to find a way around this problem!
 Luckily, some other people are getting similar results from a second
 procedure that definitely does *not* break Lorentz invariance:
 
-21) Oliver Lauscher and Martin Reuter, Fractal spacetime structure in
-asymptotically safe gravity, available as
-[`hep-th/0508202`](https://arxiv.org/abs/hep-th/0508202).
+21) Oliver Lauscher and Martin Reuter, "Fractal spacetime structure in asymptotically safe gravity", available as [`hep-th/0508202`](https://arxiv.org/abs/hep-th/0508202).
 
 Reuter spoke about all this work at Loops '05. The idea is to
 investigate Weinberg's original idea in excruciatingly precise detail
@@ -576,12 +517,11 @@ Unsurprisingly, I hope this beautiful theory is a spin foam model, since
 spin foams are $2$-dimensional and I like them a lot. I presented some
 rough ideas on how one might invent such a model:
 
-22) John Baez, Towards a spin foam model of quantum gravity, talk at
-Loops '05, available at `http://math.ucr.edu/home/baez/loops05/`
+22) John Baez, "Towards a spin foam model of quantum gravity", talk at _Loops '05_, available at `http://math.ucr.edu/home/baez/loops05/`
 
 But, these ideas are very tentative and only time will tell if they
 amount to anything. What's more important is that pure quantum gravity
-seems to exist - as a theory, that is - and people seem to be learning
+seems to exist --- as a theory, that is --- and people seem to be learning
 actual facts about it, instead of just arguing endlessly about it.
 That's progress!
 
@@ -596,34 +536,19 @@ theory on flat spacetime!
 
 Check these out:
 
-23) John Barrett, Feynman diagams coupled to three-dimensional quantum
-gravity, available as
-[`gr-qc/0502048`](https://arxiv.org/abs/gr-qc/0502048).
+23) John Barrett, "Feynman diagams coupled to three-dimensional quantum gravity", available as [`gr-qc/0502048`](https://arxiv.org/abs/gr-qc/0502048).
 
-John Barrett, Feynman loops and three-dimensional quantum gravity, Mod.
-Phys. Lett. A20 (2005) 1271. Also available as
-[`gr-qc/0412107`](https://arxiv.org/abs/gr-qc/0412107).
+    John Barrett, "Feynman loops and three-dimensional quantum gravity", _Mod. Phys. Lett._ **A20** (2005) 1271. Also available as [`gr-qc/0412107`](https://arxiv.org/abs/gr-qc/0412107).
 
-24) Laurent Freidel and David Louapre, Ponzano-Regge model revisited I:
-gauge fixing, observables and interacting spinning particles, Class.
-Quant. Grav. 21 (2004) 5685-5726. Also available as
-[`hep-th/0401076`](https://arxiv.org/abs/hep-th/0401076).
+24) Laurent Freidel and David Louapre, "Ponzano-Regge model revisited I: gauge fixing, observables and interacting spinning particles", _Class. Quant. Grav._ **21** (2004) 5685--5726. Also available as [`hep-th/0401076`](https://arxiv.org/abs/hep-th/0401076).
 
-Laurent Freidel and David Louapre, Ponzano-Regge model revisited II:
-equivalence with Chern-Simons, available as
-[`gr-qc/0410141`](https://arxiv.org/abs/gr-qc/0410141)
+    Laurent Freidel and David Louapre, "Ponzano-Regge model revisited II: equivalence with Chern-Simons", available as [`gr-qc/0410141`](https://arxiv.org/abs/gr-qc/0410141)
 
-Laurent Freidel and Etera R. Livine, Ponzano-Regge model revisited III:
-Feynman diagrams and effective field theory, available as
-[`hep-th/0502106`](https://arxiv.org/abs/hep-th/0502106).
+    Laurent Freidel and Etera R. Livine, "Ponzano-Regge model revisited III: Feynman diagrams and effective field theory", available as [`hep-th/0502106`](https://arxiv.org/abs/hep-th/0502106).
 
-25) Laurent Freidel, Daniele Oriti, and James Ryan, A group field
-theory for 3d quantum gravity coupled to a scalar field, available as
-[`gr-qc/0506067`](https://arxiv.org/abs/gr-qc/0506067).
+25) Laurent Freidel, Daniele Oriti, and James Ryan, "A group field theory for 3d quantum gravity coupled to a scalar field", available as [`gr-qc/0506067`](https://arxiv.org/abs/gr-qc/0506067).
 
-26) Karin Noui and Alejandro Perez, Three dimensional loop quantum
-gravity: coupling to point particles, available as
-[`gr-qc/0402111`](https://arxiv.org/abs/gr-qc/0402111).
+26) Karin Noui and Alejandro Perez, "Three dimensional loop quantum gravity: coupling to point particles", available as [`gr-qc/0402111`](https://arxiv.org/abs/gr-qc/0402111).
 
 This is mindblowingly beautiful, especially because lots of it is
 already mathematically rigorous, and we can easily make more so. It's
@@ -631,7 +556,7 @@ even related to $n$-categories: my student Jeffrey Morton presented a
 poster on this aspect.
 
 Together with my student Derek Wise, Jeffrey Morton and I plan to have a
-lot of fun studying this stuff. So, I won't talk about it more now -
+lot of fun studying this stuff. So, I won't talk about it more now ---
 I'll probably get around to saying more someday, especially about how
 the whole story generalizes to 4 dimensions.
 
@@ -642,7 +567,7 @@ homepage.... that should give you a better idea of what happened.
 ------------------------------------------------------------------------
 
 **Addendum**: Here are some comments on this Week's Finds by Gene
-Partlow, Phillip Helbig and Robert Helling, and my replies - as well as
+Partlow, Phillip Helbig and Robert Helling, and my replies --- as well as
 a replies by Jonathan Thornburg and Arnold Neumaier.
 
 Gene Partlow writes:
@@ -650,9 +575,9 @@ Gene Partlow writes:
 > In a recent John Baez post he mentions discovery of probably the first
 > known quasar found without a host galaxy. He says:
 >
->         Did this quasar begin life in this galaxy and then get kicked 
->         out when the galaxy collided with something containing a 
->         super-massive black hole?
+> > Did this quasar begin life in this galaxy and then get kicked 
+> > out when the galaxy collided with something containing a 
+> > super-massive black hole?
 >
 > I suggest that a fairly ordinary explanation may be that the nearby
 > "wildly disturbed" galaxy may have contained several supermassive
@@ -664,7 +589,7 @@ Gene Partlow writes:
 Sounds like a possibility worth exploring. I'm no expert, so I can't
 tell how likely this is. I agree that a collision with some other object
 containing a super-massive black hole sounds a little odd, given that
-this object - most plausibly another galaxy - has *not been seen*. I
+this object --- most plausibly another galaxy --- has *not been seen*. I
 wouldn't have ventured such a guess myself. But, it's mentioned on the
 European Southern Observatory webpage I cite above. To quote:
 
@@ -696,9 +621,9 @@ Phillip Helbig writes:
 
 > John Baez writes:
 >
->          Pluto is quite different than anything else we call a planet: it 
->          has an eccentric orbit that ranges between 30 and 50 AU, and its 
->          orbit is tilted 17 degrees to the ecliptic.  
+> > Pluto is quite different than anything else we call a planet: it 
+> > has an eccentric orbit that ranges between 30 and 50 AU, and its 
+> > orbit is tilted 17 degrees to the ecliptic.
 >
 > Also, for a period of several years during each orbit, it is closer to
 > the Sun than Neptune ever is. Until relatively recently, in fact, it
@@ -711,20 +636,18 @@ stop-work order on the project, due to lack of money and rising cost
 estimates. In 2003, Congress gave NASA money to proceed with the
 project:
 
-27) The Planetary Society, Pluto and Europa Campaign Page,
-`http://www.planetary.org/html/UPDATES/Pluto/pluto_europa_action.html`
+27) The Planetary Society, "Pluto and Europa Campaign Page", `http://www.planetary.org/html/UPDATES/Pluto/pluto_europa_action.html`
 
 and I guess it's now called "New Horizons":
 
-28) New Horizons: NASA's Pluto-Kuiper Belt Mission,
-`http://pluto.jhuapl.edu/`
+28) "New Horizons: NASA's Pluto-Kuiper Belt Mission", `http://pluto.jhuapl.edu/`
 
 This webpage gives a timetable of:
 
--   launch in January 2005
--   slingshot off Jupiter in February 2007
--   arrival at Pluto and Charon in July 2015
--   exploration of Kuiper belt during 2016-2020
+- launch in January 2005
+- slingshot off Jupiter in February 2007
+- arrival at Pluto and Charon in July 2015
+- exploration of Kuiper belt during 2016-2020
 
 I wonder if they have any plans to study the Pioneer anomaly?
 
@@ -732,11 +655,11 @@ Robert Helling writes:
 
 > John Baez wrote:
 >
->          o Twotino - A twotino is a Kuiper belt object whose orbit is in 2:1
->            resonance with Neptune.  These are rare compared to plutinos, and
->            they're smaller, so they're stuck with boring names like 1996 TR66.
->            There are also a couple of Kuiper belt objects in 4:3 and 5:3
->            resonances with Neptune.
+> > - **Twotino** --- A twotino is a Kuiper belt object whose orbit is in $2:1$
+> >     resonance with Neptune.  These are rare compared to plutinos, and
+> >     they're smaller, so they're stuck with boring names like 1996 TR66.
+> >     There are also a couple of Kuiper belt objects in $4:3$ and $5:3$
+> >     resonances with Neptune.
 >
 > Is there an easy way to see why these resonance orbits come about? Why
 > do three body systems with a large central object, an intermediate
@@ -747,44 +670,36 @@ Robert Helling writes:
 I'm shamefully ignorant of this, so ten minutes' research on the web
 was able to double my knowledge. I got ahold of this paper online:
 
-29) B. Garfinkel, On resonance in celestial mechanics: a survey,
-Celestial Mech. 28 (1982), 275-290, also available at
-`http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1982CeMec..28..275G`
+29) B. Garfinkel, "On resonance in celestial mechanics: a survey", _Celestial Mech._ **28** (1982), 275--290, also available at `http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1982CeMec..28..275G`
 
-and while not easy to understand - I guess there's a huge body of work
-on this subject - it uses Hamiltonian perturbation theory and continued
+and while not easy to understand --- I guess there's a huge body of work
+on this subject --- it uses Hamiltonian perturbation theory and continued
 fractions to study resonance, and talks about a difference between
 "shallow" and "deep" resonances.
 
-The orbits of Jupiter and Saturn are almost in 5:2 resonance, but this
+The orbits of Jupiter and Saturn are almost in $5:2$ resonance, but this
 is a "shallow" resonance, and Saturn wiggles back and forth around
-this resonance with a period of about 880 years - an effect called the
+this resonance with a period of about 880 years --- an effect called the
 "Great Inequality". The first person to study this was Laplace. I read
 elsewhere that:
 
 > The dynamics of the Sun-Jupiter-Saturn system was recognized as
 > problematic from the beginnings of perturbation theory. The problems
 > are due to the so-called Great Inequality (GI), which is the
-> Jupiter-Saturn 2:5 mean-motion near-commensurability.
+> Jupiter-Saturn $2:5$ mean-motion near-commensurability.
 
 This is from:
 
-30) F. Varadi, M. Ghil, and W. M. Kaula, The great inequality in a
-planetary Hamiltonian theory, available as
-[chao-dyn/9311011](http://arxiv.org/abs/chao-dyn/9311011).
+30) F. Varadi, M. Ghil, and W. M. Kaula, "The great inequality in a planetary Hamiltonian theory", available as [`chao-dyn/9311011`](http://arxiv.org/abs/chao-dyn/9311011).
 
-This shallow 5:2 resonance is related to the continued fraction
+This shallow $5:2$ resonance is related to the continued fraction
+$$\frac{1}{2+\frac{1}{2+\frac{1}{14+\frac{1}{2+\ldots}}}}$$
+which is close to $2/5$.
 
-    1/(2 + 1/(2 + 1/(14 + 1/(2 + .... ))))
-
-which is close to 2/5.
-
-The Pluto-Neptune 3:2 resonance, on the other hand, is a "deep
+The Pluto-Neptune $3:2$ resonance, on the other hand, is a "deep
 resonance" and related to the continued fraction
-
-    1/(2 - 1/(2 + 1/(10 + .... )))
-
-which starts out close to 2/3.
+$$\frac{1}{2-\frac{1}{2+\frac{1}{10+\ldots}}}$$
+which starts out close to $2/3$.
 
 I wish I understood the connection between continued fractions and
 dynamical systems better! I know it gives rise to the role of the Golden
@@ -794,8 +709,8 @@ Ratio in chaos theory, which I tried to explain in
 Robert Helling also asked:
 
 > There are people doing numerical long term stability analysis of the
-> solar system. From what I know, they are not just taking F=ma and
-> Newton's law of gravity, replacing dt by \Deltat and then integrating but
+> solar system. From what I know, they are not just taking $F=ma$ and
+> Newton's law of gravity, replacing $dt$ by $\Delta t$ and then integrating but
 > use much fancier spectral methods. Could somebody please point me to
 > an introduction into these methods?
 
@@ -812,48 +727,31 @@ I referred him to the work of Gerald Sussman, Jack Wisdom and others in
 prompting Arnold Neumaier to give a nice list of references, which I
 will take the liberty of numbering:
 
-> 31) Tetsuharu Fuse, Planetary perturbations on the 2:3 mean motion
-> resonance with Neptune, Publ. Astron. Soc. Japan 54 (2002), 494-499.
-> Also available at
-> `http://astronomy.nju.edu.cn/~xswan/reference/Fuse_PASJ54_493.pdf`
+> 31) Tetsuharu Fuse, "Planetary perturbations on the $2:3$ mean motion resonance with Neptune", _Publ. Astron. Soc. Japan_ **54** (2002), 494--499. Also available at `http://astronomy.nju.edu.cn/~xswan/reference/Fuse_PASJ54_493.pdf`
 >
-> uses symplectic integration to study 2:3 resonances numerically.
+> uses symplectic integration to study $2:3$ resonances numerically.
 >
 > The thesis:
 >
-> 32) Luz Vianey Vela-Arevalo, Time-frequency analysis based on
-> wavelets for Hamiltonian systems, Caltech, 2002. Also available at
-> `http://www.cds.caltech.edu/~luzvela/th2s.pdf`
+> 32) Luz Vianey Vela-Arevalo, _Time-frequency analysis based on wavelets for Hamiltonian systems_, Caltech, 2002. Also available at `http://www.cds.caltech.edu/~luzvela/th2s.pdf`
 >
 > contains in Chapter 4 interesting numerical information about chaos,
 > resonances, and stability in the restricted 3-body problem. Other
 > interesting papers include:
 >
-> 33) George Voyatzis and John D. Hadjidemetriou, Symmetric and
-> asymmetric librations in planetary and satellite systems at the 2/1
-> resonance, available at
-> `http://users.auth.gr/~hadjidem/Asymmetric1.pdf`
+> 33) George Voyatzis and John D. Hadjidemetriou, "Symmetric and asymmetric librations in planetary and satellite systems at the $2/1$ resonance", available at `http://users.auth.gr/~hadjidem/Asymmetric1.pdf`
 >
-> Mihailo Cubrovic, Regimes of stability and scaling relations for the
-> removal time in the asteroid belt, available as
-> [`astro-ph/0501004`](http://arxiv.org/abs/astro-ph/0501004).
+>     Mihailo Cubrovic, "Regimes of stability and scaling relations for the removal time in the asteroid belt", available as [`astro-ph/0501004`](http://arxiv.org/abs/astro-ph/0501004).
 >
-> Ryszard Gabryszewski and Ireneusz Wlodarczyk, The resonant dynamical
-> evolution of small body orbits among giant planets, available as
-> [`astro-ph/0203182`](http://arxiv.org/abs/astro-ph/0203182).
+>     Ryszard Gabryszewski and Ireneusz Wlodarczyk, "The resonant dynamical evolution of small body orbits among giant planets", available as [`astro-ph/0203182`](http://arxiv.org/abs/astro-ph/0203182).
 >
-> Luz V. Vela-Arevalo and Jerrold E. Marsden, Time-frequency analysis of
-> the restricted three-body problem: transport and resonance
-> transitions, Class. Quant. Grav. 21 (2004), S351-S375. Also available
-> at
-> `http://cns.physics.gatech.edu/~luzvela/VelaArevaloMarsdenCQG_2004.pdf`
+>     Luz V. Vela-Arevalo and Jerrold E. Marsden, "Time-frequency analysis of the restricted three-body problem: transport and resonance transitions", _Class. Quant. Grav._ **21** (2004), S351--S375. Also available at `http://cns.physics.gatech.edu/~luzvela/VelaArevaloMarsdenCQG_2004.pdf`
 >
-> Harry Varvogli, Kleomenis Tsiganis, and John D. Hadjidemetriou, The
-> "third" integral in the restricted three-body problem revisited,
-> available at `http://www.astro.auth.gr/~varvogli/varv5.ps`
+>     Harry Varvogli, Kleomenis Tsiganis, and John D. Hadjidemetriou, "The 'third' integral in the restricted three-body problem revisited", available at `http://www.astro.auth.gr/~varvogli/varv5.ps`
 
 ------------------------------------------------------------------------
 
-*So many worlds, so much to do,\
-So little done, such things to be.\
-*       - Tennyson, In Memoriam
+> *So many worlds, so much to do,\
+> So little done, such things to be.*
+> 
+> --- Tennyson, In Memoriam
