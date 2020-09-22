@@ -202,7 +202,7 @@ Week's Finds (especially ["Week 217"](#week217) and
 >
 > 1^1/N^
 >
-> The Galois group Gal(Q(1^1/N^)/Q) of automorphisms of Q(1^1/N^)
+> The Galois group \mathrm{Gal}(Q(1^1/N^)/Q) of automorphisms of Q(1^1/N^)
 > preserving Q is isomorphic to the group (Z/N)* of units of the ring
 > Z/N. Indeed, each element m in (Z/N)*, viewed as an integer
 > relatively prime to N, gives rise to an automorphism of Q(1^1/N^)
@@ -214,8 +214,8 @@ Week's Finds (especially ["Week 217"](#week217) and
 >
 > 1^m/N^.
 >
-> Therefore we obtain that the Galois group Gal(Q^ab^/Q), or,
-> equivalently, the maximal abelian quotient of Gal(Q^-^/Q), where Q^-^
+> Therefore we obtain that the Galois group \mathrm{Gal}(Q^ab^/Q), or,
+> equivalently, the maximal abelian quotient of \mathrm{Gal}(\overline{\mathbb{Q}}/Q), where \overline{\mathbb{Q}}
 > is an algebraic closure of Q, is isomorphic to the projective limit of
 > the groups (Z/N)* with respect to the system of surjections
 >
@@ -225,14 +225,14 @@ Week's Finds (especially ["Week 217"](#week217) and
 > product of the multiplicative groups of the rings of p-adic integers,
 > Z~p~*, where p runs over the set of all primes. Thus, we obtain that
 >
-> Gal(Q^ab^/Q) = ∏ Z~p~*.
+> \mathrm{Gal}(Q^ab^/Q) = ∏ Z~p~*.
 >
 > The abelian class field theory gives a similar description for the
-> maximal abelian quotient Gal(F^ab^/F) of the Galois group Gal(F^-^/F),
+> maximal abelian quotient \mathrm{Gal}(F^ab^/F) of the Galois group \mathrm{Gal}(F^-^/F),
 > where F is an arbitrary global field, i.e., a finite extension of Q
 > (number field), or the field of rational functions on a smooth
 > projective curve defined over a finite field (function field). Namely,
-> Gal(F^ab^/F) is almost isomorphic to the quotient A(F)*/F*, where
+> \mathrm{Gal}(F^ab^/F) is almost isomorphic to the quotient A(F)*/F*, where
 > A(F) is the ring of adeles of F, a subring in the direct product of
 > all completions of F. Here we use the word "almost" because we need
 > to take the group of components of this quotient if F is a number
@@ -255,7 +255,7 @@ Week's Finds (especially ["Week 217"](#week217) and
 > of a group by considering its one-dimensional representations. The
 > above statement of the abelian class field theory may then be
 > reformulated as saying that one-dimensional representations of
-> Gal(F^-^/F) are essentially in bijection with one-dimensional
+> \mathrm{Gal}(F^-^/F) are essentially in bijection with one-dimensional
 > representations of the abelian group
 >
 > A(F)* = \mathrm{GL}(1,A(F))
@@ -266,7 +266,7 @@ Week's Finds (especially ["Week 217"](#week217) and
 >
 > A marvelous insight of Robert Langlands was to conjecture that there
 > exists a similar description of *n-dimensional representations* of
-> Gal(F^-^/F). Namely, he proposed that those may be related to
+> \mathrm{Gal}(F^-^/F). Namely, he proposed that those may be related to
 > irreducible representations of the group \mathrm{GL}(n,A(F)) which are
 > *automorphic*, that is those occurring in the space of functions on
 > the quotient
@@ -287,7 +287,7 @@ Week's Finds (especially ["Week 217"](#week217) and
 > structure. But even more importantly, one finds many interesting
 > representations of Galois groups in "nature".
 >
-> For example, the group Gal(Q^-^/Q) will act on the geometric
+> For example, the group \mathrm{Gal}(\overline{\mathbb{Q}}/Q) will act on the geometric
 > invariants (such as the etale cohomologies) of an algebraic variety
 > defined over Q. Thus, if we take an elliptic curve E over Q, then we
 > will obtain a two-dimensional Galois representation on its first etale
