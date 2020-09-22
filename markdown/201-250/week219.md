@@ -294,11 +294,9 @@ which makes virtual 3d objects:
 `http://math.ucr.edu/home/baez/pentacontihexahedron3.jpg`
 
 $$
-  \begin{gathered}
-    \includegraphics[max width=\linewidth]{../images/pentacontihexahedron.jpg}
-  \\\includegraphics[max width=\linewidth]{../images/pentacontihexahedron2.jpg}
-  \\\includegraphics[max width=\linewidth]{../images/pentacontihexahedron3.jpg}
-  \end{gathered}
+  \includegraphics[max width=0.3\linewidth]{../images/pentacontihexahedron.jpg}
+  \includegraphics[max width=0.3\linewidth]{../images/pentacontihexahedron2.jpg}
+  \includegraphics[max width=0.3\linewidth]{../images/pentacontihexahedron3.jpg}
 $$
 
 It took about a day on the fastest Linux machine they had at the time.

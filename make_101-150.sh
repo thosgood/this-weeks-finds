@@ -64,6 +64,15 @@ printf '%s\n' '\usetikzlibrary{arrows}' >> $TEX
 printf '%s\n' '\usetikzlibrary{decorations.pathmorphing}' >> $TEX
 
 printf "\n" >> $TEX
+printf '%s\n' '\usepackage[framemethod=TikZ]{mdframed}' >> $TEX
+printf '%s\n' '\surroundwithmdframed[' >> $TEX
+printf '%s\n' '   topline=false,' >> $TEX
+printf '%s\n' '   bottomline=false,' >> $TEX
+printf '%s\n' '   skipabove=\topsep,' >> $TEX
+printf '%s\n' '   skipbelow=\topsep' >> $TEX
+printf '%s\n' ']{quote}' >> $TEX
+
+printf "\n" >> $TEX
 printf '%s\n' '\usepackage{tikz-cd}' >> $TEX
 
 printf "\n" >> $TEX
