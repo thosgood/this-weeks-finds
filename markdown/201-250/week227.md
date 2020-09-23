@@ -3,11 +3,11 @@
 Today I want to say a bit about physics, and then a bit about about
 logic, since that's what I was studying for the last month in
 Marseille. But first, the astronomy pictures of the week:
-$$\href{http://marsrovers.jpl.nasa.gov/gallery/press/opportunity/20040806a/Sol187B_P2546_L257false-B187R1.jpg}{\includegraphics[max width=\linewidth]{../images/mars_blue_dunes.jpg}}$$
+$$\href{http://marsrovers.jpl.nasa.gov/gallery/press/opportunity/20040806a/Sol187B_P2546_L257false-B187R1.jpg}{\includegraphics[max width=0.8\linewidth]{../images/mars_blue_dunes.jpg}}$$
 
 1) "Endurance crater's dazzling dunes", NASA/JPL, available at `http://marsrovers.jpl.nasa.gov/gallery/press/opportunity/20040806a.html`
 
-$$\href{http://marsrovers.jpl.nasa.gov/gallery/press/opportunity/20040806a/Sol187B_P2546_L456-B187R1.jpg}{\includegraphics[max width=\linewidth]{../images/mars_red_dunes.jpg}}$$
+$$\href{http://marsrovers.jpl.nasa.gov/gallery/press/opportunity/20040806a/Sol187B_P2546_L456-B187R1.jpg}{\includegraphics[max width=0.8\linewidth]{../images/mars_red_dunes.jpg}}$$
 
 On August 4, 2004, the Mars rover called Opportunity took these pictures
 of dunes as it entered Endurance Crater. The red one is what we'd
@@ -19,7 +19,7 @@ from the big dunes toward the rover, and some rocks in the foreground.
 The false-color image emphasizes accumulations of millimeter-sized
 spheres called "blueberries" on the flat parts of the dunes. Here's
 what they look like close up:
-$$\href{http://marsrover.nasa.gov/newsroom/pressreleases/20040318a.html}{\includegraphics[max width=\linewidth]{../images/blueberries.jpg}}$$
+$$\href{http://marsrover.nasa.gov/newsroom/pressreleases/20040318a.html}{\includegraphics[max width=0.8\linewidth]{../images/blueberries.jpg}}$$
 
 2) 'Mineral in Mars "berries" adds to water story', NASA/JPL, available at `http://marsrover.nasa.gov/newsroom/pressreleases/20040318a.html`
 
@@ -104,7 +104,7 @@ pronounced "eef", just like a French logician would say it. And
 everyone will enjoy the medieval hill town of Les Baux, which looks like
 something out of Escher. Here's a
 [picture](http://math.ucr.edu/home/baez/france_2006) of it:
-$$\includegraphics[max width=\linewidth]{../images/{LesBaux_2006_002.small2}.jpg}$$
+$$\includegraphics[max width=0.8\linewidth]{../images/LesBaux_2006_002small2.jpg}$$
 Actually the Chateau D'If, on the island of the same name, is where
 Edmond Dantes was imprisoned in Alexander Dumas' novel "The Count of
 Monte Cristo". It's in this formidable fortress that the wise old Abbe

@@ -49,7 +49,7 @@ longer. It's a bit confusing until you think about it for a while.)
 
 For example, here are the clusters of galaxies within 100 million
 lightyears of us:
-$$\href{http://www.anzwers.org/free/universe/virgo.html}{\includegraphics[max width=\linewidth]{../images/Virgo_supercluster.png}}$$
+$$\href{http://www.anzwers.org/free/universe/virgo.html}{\includegraphics[max width=0.8\linewidth]{../images/Virgo_supercluster.png}}$$
 
 The biggest of these is the Virgo cluster, which I discussed in
 ["Week 224"](#week224). This contains about 2000 galaxies. The
@@ -73,12 +73,12 @@ cube as a present, and it's great! It's lit up from below, and it
 shows the filaments, sheets and superclusters of galaxies that reign
 supreme at this distance scale. 100 megaparsecs is about 300 million
 light years, so this view is a bit bigger than the previous picture:
-$$\href{http://www.bathsheba.com/crystal/largescale/}{\includegraphics[max width=\linewidth]{../images/largescale_movie2.png}}$$
+$$\href{http://www.bathsheba.com/crystal/largescale/}{\includegraphics[max width=0.8\linewidth]{../images/largescale_movie2.png}}$$
 
 David says Grossman's model of the Milky Way is also nice: it takes
 into account the latest research, which shows our galaxy is a "barred"
 spiral! You can see the bar in the middle here:
-$$\href{http://www.spitzer.caltech.edu/Media/mediaimages/sig/sig05-010.shtml}{\includegraphics[max width=\linewidth]{../images/milky_way_bar.jpg}}$$
+$$\href{http://www.spitzer.caltech.edu/Media/mediaimages/sig/sig05-010.shtml}{\includegraphics[max width=0.8\linewidth]{../images/milky_way_bar.jpg}}$$
 
 4) R. Hurt, NASA/JPL-Caltech, "Milky Way Bar", `http://www.spitzer.caltech.edu/Media/mediaimages/sig/sig05-010.shtml`
 
@@ -86,14 +86,14 @@ If you really have money to burn, Grossman has also made nice sculptures
 of mathematical objects like the 24-cell, the 600-cell and Schoen's
 gyroid --- a triply periodic minimal surface that chops 3-space into two
 parts:
-$$\href{http://www.bathsheba.com/math/gyroid/gyroid_hex.jpg}{\includegraphics[max width=\linewidth]{../images/gyroid_hex.jpg}}$$
+$$\href{http://www.bathsheba.com/math/gyroid/gyroid_hex.jpg}{\includegraphics[max width=0.8\linewidth]{../images/gyroid_hex.jpg}}$$
 
 5) Bathsheba Grossman, Mathematical models,
 `http://www.bathsheba.com/math/`
 
 However, the great thing about the web is that lots of beautiful stuff
 is free --- like these *pictures* of the gyroid:
-$$\href{http://www.bathsheba.com/math/gyroid/gyroid3q.jpg}{\includegraphics[max width=\linewidth]{../images/gyroid3q.jpg}}$$
+$$\href{http://www.bathsheba.com/math/gyroid/gyroid3q.jpg}{\includegraphics[max width=0.8\linewidth]{../images/gyroid3q.jpg}}$$
 
 I explained the 24-cell and 600-cell in ["Week 155"](#week155). So,
 let me explain the gyroid --- then I need to start cooking up a Christmas

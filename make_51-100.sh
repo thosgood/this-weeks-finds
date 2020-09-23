@@ -16,6 +16,9 @@ printf '%s\n' '\usepackage{fancyhdr}' >> $TEX
 printf '%s\n' '\pagestyle{fancy}' >> $TEX
 
 printf "\n" >> $TEX
+printf '%s\n' '\usepackage{geometry}' >> $TEX
+
+printf "\n" >> $TEX
 printf '%s\n' '\usepackage{amsmath,amssymb}' >> $TEX
 printf '%s\n' '\usepackage[colorlinks=true]{hyperref}' >> $TEX
 printf '%s\n' '\usepackage{color}' >> $TEX

@@ -28,7 +28,7 @@ cryptography, random sequences, and logic.
 Let's zoom in on NGC 1097. Here's a photograph of this galaxy taken in
 ultraviolet light. It's a barred spiral galaxy that's colliding with a
 smaller elliptical galaxy called NGC 1097A:
-$$\href{http://www.galex.caltech.edu/MEDIA/2005-02/images.html}{\includegrahics[max width=\linewidth]{../images/NGC1097_a.jpg}}$$
+$$\href{http://www.galex.caltech.edu/MEDIA/2005-02/images.html}{\includegraphics[max width=0.8\linewidth]{../images/NGC1097_a.jpg}}$$
 
 2) "NGC 1097", photograph taken by the Galaxy Evolution Explorer, NASA/JPL-Caltech/SSC, `http://www.galex.caltech.edu/MEDIA/2005-02/images.html`
 
@@ -36,7 +36,7 @@ NGC 1097 is called a "Seyfert galaxy" because its center emits lots of
 radio waves, but not enough to be considered a full-fledged "quasar".
 As you can see, the center also emits visible light --- and stuff is
 swirling into it!
-$$\href{http://www.eso.org/outreach/press-rel/pr-2004/pr-28-04.html#phot-35d-04}{\includegrahics[max width=\linewidth]{../images/NGC1097_b.jpg}}$$
+$$\href{http://www.eso.org/outreach/press-rel/pr-2004/pr-28-04.html#phot-35d-04}{\includegraphics[max width=0.8\linewidth]{../images/NGC1097_b.jpg}}$$
 
 3) "Spiral galaxy NGC 1097", European Southern Observatory, `http://www.eso.org/outreach/press-rel/pr-2004/pr-28-04.html#phot-35d-04`
 
@@ -49,18 +49,18 @@ It's run by Europeans as part of the "European Southern Observatory"
 of the Atacama Desert in northern Chile, which makes for wonderful
 viewing conditions. They had to carry the enormous mirrors across rugged
 desert roads to build this observatory:
-$$\href{http://www.eso.org/outreach/press-rel/pr-1997/phot-35-97.html}{\includegrahics[max width=\linewidth]{../images/eso_mirror_transport.jpg}}$$
+$$\href{http://www.eso.org/outreach/press-rel/pr-1997/phot-35-97.html}{\includegraphics[max width=0.8\linewidth]{../images/eso_mirror_transport.jpg}}$$
 
 4) "Mirror transport", European Southern Observatory, `http://www.eso.org/outreach/press-rel/pr-1997/phot-35-97.html`
 
 but the view of the night sky up there makes it all worthwhile:
-$$\href{http://www.eso.org/outreach/press-rel/pr-2005/images/phot-40b-05-normal.jpg}{\includegrahics[max width=\linewidth]{../images/eso_night_sky.jpg}}$$
+$$\href{http://www.eso.org/outreach/press-rel/pr-2005/images/phot-40b-05-normal.jpg}{\includegraphics[max width=0.8\linewidth]{../images/eso_night_sky.jpg}}$$
 
 5) "The southern sky above Paranal", European Southern Observatory, `http://www.eso.org/outreach/press-rel/pr-2005/images/phot-40b-05-normal.jpg`
 
 and now they have everything they need to take advantage of that
 location:
-$$\href{http://www.eso.org/outreach/press-rel/pr-2000/phot-14a-00-normal.jpg}{\includegrahics[max width=\linewidth]{../images/eso_VLT.jpg}}$$
+$$\href{http://www.eso.org/outreach/press-rel/pr-2000/phot-14a-00-normal.jpg}{\includegraphics[max width=0.8\linewidth]{../images/eso_VLT.jpg}}$$
 
 6) "The VLT array on Paranal Mountain", European Southern Observatory, `http://www.eso.org/outreach/press-rel/pr-2000/phot-14a-00-normal.jpg`
 
@@ -69,7 +69,7 @@ So, what did they see when they looked at NGC 1097?
 In the middle there seems to be a black hole, emitting radiation as
 filaments of gas and dust spiral in. This has caused a ring of new stars
 to form, which are ionizing the hydrogen in their vicinity:
-$$\href{http://www.eso.org/outreach/press-rel/pr-2005/phot-33-05.html}{\includegrahics[max width=\linewidth]{../images/NGC1097_c.jpg}}$$
+$$\href{http://www.eso.org/outreach/press-rel/pr-2005/phot-33-05.html}{\includegraphics[max width=0.8\linewidth]{../images/NGC1097_c.jpg}}$$
 
 7) "Feeding the monster", European Southern Observatory `http://www.eso.org/outreach/press-rel/pr-2005/phot-33-05.html`
 
@@ -587,7 +587,7 @@ Next, some email from the man himself: Scott Aaronson!
 > you to tackle computational complexity --- thanks! :) Here are some
 > comments and responses that you might find helpful.
 >
-> It's not known whether $\mathrm{P}\new\mathrm{NP}$ implies the existence of one-way
+> It's not known whether $\mathrm{P}\neq\mathrm{NP}$ implies the existence of one-way
 > functions (OWF's) --- indeed, there's evidence that proving such an
 > implication will be hard:
 >

@@ -7,7 +7,7 @@ Hamilton!
 
 I like this photo of a jet emanating from the black hole in the center
 of galaxy M87:
-$$\href{http://hubblesite.org/newscenter/newsdesk/archive/releases/2005/12/image/o}{\includegraphics[max width=\linewidth]{../images/m87_jet.jpg}}$$
+$$\href{http://hubblesite.org/newscenter/newsdesk/archive/releases/2005/12/image/o}{\includegraphics[max width=0.8\linewidth]{../images/m87_jet.jpg}}$$
 
 1) NASA and John Biretta, "M87", `http://hubblesite.org/newscenter/newsdesk/archive/releases/2005/12/image/o`
 
@@ -16,7 +16,7 @@ radio source, and now we know why: there's a supermassive black hole in
 the center, about 3 billion times the mass of our Sun. As matter spirals
 into this huge black hole, it forms an "accretion disk", and some gets
 so hot that it shoots out in a jet, as envisioned here:
-$$\href{http://maxim.gsfc.nasa.gov/docs/science/science.html}{\includegraphics[max width=\linewidth]{../images/accretion_disk.jpg}}$$
+$$\href{http://maxim.gsfc.nasa.gov/docs/science/science.html}{\includegraphics[max width=0.8\linewidth]{../images/accretion_disk.jpg}}$$
 
 2) NASA, MAXIM: "Micro-Arcsecond X-ray Imaging Mission", `http://maxim.gsfc.nasa.gov/docs/science/science.html`
 
@@ -35,13 +35,13 @@ we see. In the case of M87 the jet is enormous: 5000 light years long!
 To get a sense of the scale, look at the small white specks away from
 the jet in the next picture. These are globular clusters: clusters
 containing between ten thousand and a million stars.
-$$\href{http://antwrp.gsfc.nasa.gov/apod/ap000706.html}{\includegraphics[max width=\linewidth]{../images/m87jet_hst.jpg}}$$
+$$\href{http://antwrp.gsfc.nasa.gov/apod/ap000706.html}{\includegraphics[max width=0.8\linewidth]{../images/m87jet_hst.jpg}}$$
 
 3) A jet from galaxy M87, "Astronomy Picture of the Day, July 6, 2000", `http://antwrp.gsfc.nasa.gov/apod/ap000706.html`
 
 The jet in M87 is so hot that it emits not just radio waves and visible
 light, but even X-rays, as seen by the Chandra X-ray telescope:
-$$\href{http://chandra.harvard.edu/photo/2001/0134/}{\includegraphics[max width=\linewidth]{../images/m87_xray_radio_optical.jpg}}$$
+$$\href{http://chandra.harvard.edu/photo/2001/0134/}{\includegraphics[max width=0.8\linewidth]{../images/m87_xray_radio_optical.jpg}}$$
 
 4) "M87: Chandra sheds light on the knotty problem of the M87 jet", `http://chandra.harvard.edu/photo/2001/0134/`
 
@@ -60,7 +60,7 @@ only a stone's throw away. So, even amateur astronomers --- really good
 ones, at least --- can take photos of M87 that show the jet. But here's a
 high-quality picture produced by Robert Lupton using data from the Sloan
 Digital Sky Survey --- you can see the jet in light blue:
-$$\href{http://www.astro.princeton.edu/~rhl/PrettyPictures/}{\includegraphics[max width=\linewidth]{../images/m87_core.jpg}}$$
+$$\href{http://www.astro.princeton.edu/~rhl/PrettyPictures/}{\includegraphics[max width=0.8\linewidth]{../images/m87_core.jpg}}$$
 
 5) Robert Lupton and the Sloan Digital Sky Survey Consortium, "The central regions of M87", `http://www.astro.princeton.edu/~rhl/PrettyPictures/`
 
@@ -70,13 +70,13 @@ clusters go, since it consists of a bunch of "subclusters" that
 haven't merged yet. Our galaxy, and indeed the whole Local Group to
 which it belongs, is being pulled towards the Virgo Cluster and will
 eventually join it. Here's a nice closeup of part of the Virgo Cluster:
-$$\href{http://burro.astr.cwru.edu/Schmidt/Virgo/}{\includegraphics[max width=\linewidth]{../images/virgo_cluster.jpg}}$$
+$$\href{http://burro.astr.cwru.edu/Schmidt/Virgo/}{\includegraphics[max width=0.8\linewidth]{../images/virgo_cluster.jpg}}$$
 
 6) Chris Mihos, Paul Harding, John Feldmeier and Heather Morrison, "Deep imaging of the Virgo Cluster", `http://burro.astr.cwru.edu/Schmidt/Virgo/`
 
 Finally, just for fun, something unrelated --- and more mysterious. It's
 called "Hoag's object":
-$$\href{http://heritage.stsci.edu/2002/21/}{\includegraphics[max width=\linewidth]{../images/hoag.jpg}}$$
+$$\href{http://heritage.stsci.edu/2002/21/}{\includegraphics[max width=0.8\linewidth]{../images/hoag.jpg}}$$
 
 7) The Hubble Heritage Project, "Hoag's Object", `http://heritage.stsci.edu/2002/21/`
 
@@ -409,7 +409,7 @@ He asked how many ring galaxies are known!
 
 I checked and read there are 100 known "polar-ring galaxies". Here's
 a nice one called NGC 4650:
-$$\href{http://hubblesite.org/newscenter/newsdesk/archive/releases/1999/16/image/a}{\includegraphics[max width=\linewidth]{../images/NGC4650.jpg}}$$
+$$\href{http://hubblesite.org/newscenter/newsdesk/archive/releases/1999/16/image/a}{\includegraphics[max width=0.8\linewidth]{../images/NGC4650.jpg}}$$
 
 18) "Ring around a galaxy", _HubbleSite News Archive_, May 6, 1999, `http://hubblesite.org/newscenter/newsdesk/archive/releases/1999/16/image/a`
 
@@ -417,7 +417,7 @@ I can imagine this thing looking like Hoag's object if we viewed it
 head-on.
 
 Here's another ring galaxy, called AM 0644-741:
-$$\href{http://hubblesite.org/newscenter/newsdesk/archive/releases/2004/15/image/a}{\includegraphics[max width=\linewidth]{../images/AM0644-741.jpg}}$$
+$$\href{http://hubblesite.org/newscenter/newsdesk/archive/releases/2004/15/image/a}{\includegraphics[max width=0.8\linewidth]{../images/AM0644-741.jpg}}$$
 
 19) "The lure of the rings", _Hubblesite News Archive_, April 22, 2004, `http://hubblesite.org/newscenter/newsdesk/archive/releases/2004/15/image/a`
 

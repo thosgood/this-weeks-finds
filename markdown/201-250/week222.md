@@ -168,7 +168,7 @@ is surrounded only by a blob of ionized gas. Nearby, a wildly disturbed
 spiral galaxy can be seen.
 
 Compare HE0450-2958 (at left) with a normal quasar (at right):
-$$\href{http://hubblesite.org/newscenter/newsdesk/archive/releases/2005/13/image/a}{\includegraphics[max width=\linewidth]{../images/HE0450-2958.jpg}}$$
+$$\href{http://hubblesite.org/newscenter/newsdesk/archive/releases/2005/13/image/a}{\includegraphics[max width=0.8\linewidth]{../images/HE0450-2958.jpg}}$$
 The quasar HE0450-2958 is in the middle of the left-hand picture; the
 disturbed galaxy is above and a completely irrelevant foreground star is
 below. For more details on what this image means, click on it.
@@ -181,7 +181,7 @@ Puzzles, puzzles, in the sky....
 
 Closer to home, astronomers at the Keck Observatory in Hawaii have
 discovered that planet Xena has a moon!
-$$\href{http://www2.keck.hawaii.edu/optics/staff/mvandam/gabrielle}{\includegraphics[max width=\linewidth]{../images/xena.jpg}}$$
+$$\href{http://www2.keck.hawaii.edu/optics/staff/mvandam/gabrielle}{\includegraphics[max width=0.8\linewidth]{../images/xena.jpg}}$$
 They nicknamed it Gabrielle, after this famous TV character's sidekick:
 
 9) Michael E. Brown, "The moon of the 10th planet", `http://www.gps.caltech.edu/~mbrown/planetlila/moon/index.html`
@@ -210,7 +210,7 @@ your friends by casually dropping some of this jargon:
     times farther from the Sun than we are. Transneptunian objects can
     be roughly divided into three kinds: Kuiper belt objects, scattered
     disc objects, and Oort cloud objects.
-    $$\href{http://en.wikipedia.org/wiki/Kuiper_belt}{\includegraphics[max width=\linewidth]{../images/kuiper_oort.jpg}}$$
+    $$\href{http://en.wikipedia.org/wiki/Kuiper_belt}{\includegraphics[max width=0.8\linewidth]{../images/kuiper_oort.jpg}}$$
     
     - [**Kuiper belt object**](http://en.wikipedia.org/wiki/Kuiper_belt)
         --- any object whose orbit lies in the Kuiper belt. This is the region in the
@@ -231,7 +231,7 @@ your friends by casually dropping some of this jargon:
             diameter of about 1200 kilometers. This is about half the
             diameter of Pluto, or a third the size of the Moon: much
             bigger than anything in the asteroid belt!
-            $$\href{http://en.wikipedia.org/wiki/90377_Sedna}{\includegraphics[max width=\linewidth]{../images/sedna.jpg}}$$
+            $$\href{http://en.wikipedia.org/wiki/90377_Sedna}{\includegraphics[max width=0.8\linewidth]{../images/sedna.jpg}}$$
             Folks believe Quaoar is a mixture of ice and rock. It's
             very dark in color, but last year crystalline water ice was
             detected on its surface, using infrared spectroscopy. This
@@ -317,7 +317,7 @@ your friends by casually dropping some of this jargon:
         [Sedna](http://en.wikipedia.org/wiki/90377_Sedna), an object
         roughly 1500 kilometers in diameter with a wildly eccentric
         orbit taking it between 80 to 930 AU from the Sun.
-        $$\href{http://en.wikipedia.org/wiki/90377_Sedna}{\includegraphics[max width=\linewidth]{../images/sedna_orbit.jpg}}$$
+        $$\href{http://en.wikipedia.org/wiki/90377_Sedna}{\includegraphics[max width=0.8\linewidth]{../images/sedna_orbit.jpg}}$$
         Sedna was discovered in 2004 when it was 90 AU from the Sun.
         It's redder than Mars, its temperature never rises above 23
         Kelvin, and its year lasts 11,250 years. It's the farthest
@@ -329,7 +329,7 @@ your friends by casually dropping some of this jargon:
 
         The closest people have come to seeing the Oort cloud is seeing
         a "Bok globule":
-        $$\href{http://www.eso.org/outreach/press-rel/pr-2001/pr-01-01.html}{\includegraphics[max width=\linewidth]{../images/bok_globule.jpg}}$$
+        $$\href{http://www.eso.org/outreach/press-rel/pr-2001/pr-01-01.html}{\includegraphics[max width=0.8\linewidth]{../images/bok_globule.jpg}}$$
         A Bok globule is a cloud of dust and gas that's collapsing to
         form a star. This one is about 12,500 AU across. The scientists
         who observed it say it's about the size of the Oort cloud. This

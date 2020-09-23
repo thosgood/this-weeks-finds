@@ -14,7 +14,7 @@ explicitly relate these pictures to math and physics; other times not.
 
 Here's Saturn's moon Hyperion, photographed up close by the Cassini
 probe:
-$$\href{http://saturn.jpl.nasa.gov/multimedia/images/images.cfm?subCategoryID=29}{\includegraphics[max width=\linewidth]{../images/hyperion.jpg}}$$
+$$\href{http://saturn.jpl.nasa.gov/multimedia/images/images.cfm?subCategoryID=29}{\includegraphics[max width=0.8\linewidth]{../images/hyperion.jpg}}$$
 
 1) Cassini-Huyghens Mission, "Hyperion: Odd World", `http://saturn.jpl.nasa.gov/multimedia/images/image-details.cfm?imageID=1762`
 
@@ -49,7 +49,7 @@ radiation! For an explanation of how this changes the story, try:
 2) Michael Berry, "Chaos and the semiclassical limit of quantum mechanics (is the moon there when somebody looks?)", in _Quantum Mechanics: Scientific Perspectives on Divine Action_, CTNS Publications, Vatican Observatory, 2001. Also available at `http://www.phy.bris.ac.uk/people/berry_mv/the_papers/berry337.pdf`
 
 Here's another great picture:
-$$\href{http://heritage.stsci.edu/2004/27/index.html}{\includegraphics[max width=\linewidth]{../images/cats-eye_nebula.jpg}}$$
+$$\href{http://heritage.stsci.edu/2004/27/index.html}{\includegraphics[max width=0.8\linewidth]{../images/cats-eye_nebula.jpg}}$$
 
 3) The Hubble Heritage Project, "Cat's Eye Nebula --- NGC 6543", `http://heritage.stsci.edu/2004/27/index.html`
 

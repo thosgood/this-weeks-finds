@@ -8,6 +8,8 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 
+\usepackage{geometry}
+
 \usepackage{amsmath,amssymb}
 \usepackage[colorlinks=true]{hyperref}
 \usepackage{color}
@@ -42,6 +44,8 @@
 \title{This Week's Finds in Mathematical Physics (201--250)}
 \author{John Baez}
 \date{January 10, 2004 to April 26, 2007}
+
+\usepackage{bussproofs}
 
 \usepackage{tikz}
 \usetikzlibrary{knots}
@@ -19486,6 +19490,4483 @@ Turning over at midnight}
 
 --- Massive Attack
 \end{quote}
+
+
+
+\hypertarget{week226}{%
+\section{February 10, 2006}\label{week226}}
+
+This month I'm hanging out at CIRM, the ``Centre International de
+Recontres Mathematiques'' near Marseille. It's like a little hotel with
+a classroom, library and computers, set at the edge of a forest that
+borders the region of limestone hills and cliffs called the Calanques on
+the coast of the Mediterranean. All they do here is hold conferences:
+guests come in, listen to math talks, and eat nice French meals prepared
+by the overworked staff.
+
+This February they're having a conference on logic and computation, with
+a strong slant towards the use of diagrams:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\tightlist
+\item
+  \emph{Geometry of Computation 2006} (Geocal06),
+  \texttt{http://iml.univ-mrs.fr/geocal06/}
+\end{enumerate}
+
+The first week they had lots of talks on ``higher-dimensional
+rewriting'', where you use diagrams to draw ways of rewriting ways of
+rewriting ways of\ldots{} rewriting strings of symbols. This is
+inherently connected to \(n\)-categories, since \(n\)-categories show up
+whenever you consider ``processes that take a process and turn it into
+another process'' --- and iterate this notion until your eyes start
+bugging out.
+
+The first week was pretty cool, and I hope to talk about it someday. The
+second week I've been recovering from the first week. But today I'll
+start with some astronomy pictures and some gossip I heard about
+cryptography, random sequences, and logic.
+
+Let's zoom in on NGC 1097. Here's a photograph of this galaxy taken in
+ultraviolet light. It's a barred spiral galaxy that's colliding with a
+smaller elliptical galaxy called NGC 1097A:
+\[\href{http://www.galex.caltech.edu/MEDIA/2005-02/images.html}{\includegraphics[max width=\linewidth]{../images/NGC1097_a.jpg}}\]
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  ``NGC 1097'', photograph taken by the Galaxy Evolution Explorer,
+  NASA/JPL-Caltech/SSC,
+  \texttt{http://www.galex.caltech.edu/MEDIA/2005-02/images.html}
+\end{enumerate}
+
+NGC 1097 is called a ``Seyfert galaxy'' because its center emits lots of
+radio waves, but not enough to be considered a full-fledged ``quasar''.
+As you can see, the center also emits visible light --- and stuff is
+swirling into it!
+\[\href{http://www.eso.org/outreach/press-rel/pr-2004/pr-28-04.html#phot-35d-04}{\includegraphics[max width=\linewidth]{../images/NGC1097_b.jpg}}\]
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  ``Spiral galaxy NGC 1097'', European Southern Observatory,
+  \texttt{http://www.eso.org/outreach/press-rel/pr-2004/pr-28-04.html\#phot-35d-04}
+\end{enumerate}
+
+Recently the VLT has gotten a really close look at the center of NGC
+1097. VLT stands for ``Very Large Telescope''. It's actually four
+8-meter telescopes and three smaller auxiliary ones, all of which can
+function as a single unit, making it the biggest telescope in the world.
+It's run by Europeans as part of the ``European Southern Observatory''
+--- but it's based on a mountain called Cerro Paranal in the driest part
+of the Atacama Desert in northern Chile, which makes for wonderful
+viewing conditions. They had to carry the enormous mirrors across rugged
+desert roads to build this observatory:
+\[\href{http://www.eso.org/outreach/press-rel/pr-1997/phot-35-97.html}{\includegraphics[max width=\linewidth]{../images/eso_mirror_transport.jpg}}\]
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  ``Mirror transport'', European Southern Observatory,
+  \texttt{http://www.eso.org/outreach/press-rel/pr-1997/phot-35-97.html}
+\end{enumerate}
+
+but the view of the night sky up there makes it all worthwhile:
+\[\href{http://www.eso.org/outreach/press-rel/pr-2005/images/phot-40b-05-normal.jpg}{\includegraphics[max width=\linewidth]{../images/eso_night_sky.jpg}}\]
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  ``The southern sky above Paranal'', European Southern Observatory,
+  \texttt{http://www.eso.org/outreach/press-rel/pr-2005/images/phot-40b-05-normal.jpg}
+\end{enumerate}
+
+and now they have everything they need to take advantage of that
+location:
+\[\href{http://www.eso.org/outreach/press-rel/pr-2000/phot-14a-00-normal.jpg}{\includegraphics[max width=\linewidth]{../images/eso_VLT.jpg}}\]
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{5}
+\tightlist
+\item
+  ``The VLT array on Paranal Mountain'', European Southern Observatory,
+  \texttt{http://www.eso.org/outreach/press-rel/pr-2000/phot-14a-00-normal.jpg}
+\end{enumerate}
+
+So, what did they see when they looked at NGC 1097?
+
+In the middle there seems to be a black hole, emitting radiation as
+filaments of gas and dust spiral in. This has caused a ring of new stars
+to form, which are ionizing the hydrogen in their vicinity:
+\[\href{http://www.eso.org/outreach/press-rel/pr-2005/phot-33-05.html}{\includegraphics[max width=\linewidth]{../images/NGC1097_c.jpg}}\]
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{6}
+\tightlist
+\item
+  ``Feeding the monster'', European Southern Observatory
+  \texttt{http://www.eso.org/outreach/press-rel/pr-2005/phot-33-05.html}
+\end{enumerate}
+
+This ring is about 5,500 light-years across! That sounds big, but the
+galaxy is 45 million light-years away, so this is a stunningly detailed
+photo. So, we can examine in great detail the process by which black
+holes eat galaxies.
+
+Anyway\ldots.
+
+Talking to the logicians and computer scientists here, I'm hearing lots
+of gossip that I don't usually get. For example, I just learned that in
+2004 there was a successful collision attack on MD5.
+
+Huh? Well, it sounds very technical, but it boils down to this: it means
+somebody took a function \(f\) that is known not to be one-to-one, and
+found \(x\) and \(y\) such that \(f(x) = f(y)\).
+
+You wouldn't think this would make news! But such functions, called
+``cryptographic hash functions'', are used throughout the computer
+security business. The idea is that you can take any file and apply the
+hash function to compute a string of, say, 128 bits. It's supposed to be
+hard to find two files that give the same bit string. This lets you use
+the bit string as a kind of summary or ``digest'' of the file. It's also
+supposed to be hard to guess the contents of a file from its digest.
+This lets you show someone the digest of a file without giving away any
+secrets.
+
+MD5 is a popular hash function invented by Ron Rivest in 1991. People
+use it for checking the integrity of files: first you compute the digest
+of a file, and then, when you send the file to someone, you send the
+digest via some separate channel. If they're worried that the file has
+been corrupted or tampered with, they compute its digest and compare it
+to what you sent them.
+
+People also use MD5 and other hash functions for things like keeping
+passwords safe, digital fingerprinting and copy protection. To
+illustrate this I'll give a silly example that's easy to understand.
+
+Suppose that this February, Alice proves that
+\(\mathrm{P} = \mathrm{NP}\). She wants to take her time writing a nice
+paper about it\ldots{} but she wants to be able to show she was the
+first to solve this problem, in case anyone else solves it while she's
+writing her paper.
+
+To do this, she types up a quick note explaining her solution, feeds
+this file into a cryptographic hash function, and posts the resulting
+128-bit string to the newsgroup \texttt{sci.math} in an article entitled
+``I PROVED \(\mathrm{P} = \mathrm{NP}\)!'' A dated copy appears on
+Google for everyone to see.
+
+Now, if Bob solves the problem in July while Alice is still writing up
+her solution, Alice can reveal her note. If anyone doubts she wrote her
+note back in February, they can apply the cryptographic hash function
+and check that yes, the result matches the bit string she posted on
+Google!
+
+For this to work, it had better be hard for a nasty version of Alice to
+take Bob's solution and cook up some note summarizing it whose hash
+function equals some bit string she already posted.
+
+So, it's very good if the hash function is resistant to a ``preimage
+attack''. A preimage attack is where for a given \(x\) you have a trick
+for finding \(y\) such that \(f(y) = f(x)\).
+
+Nobody has carried out a successful preimage attack on MD5. But, people
+have carried out a successful ``collision attack''. This is where you
+can cook up pairs \(x\), \(y\) such that \(f(x) = f(y)\). This isn't as
+useful, since you don't have control over \emph{either} \(x\) or \(y\).
+But, there do exist fiendish schemes for conning people using collision
+attacks:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{7}
+\tightlist
+\item
+  Magnus Daum and Stefan Lucks, `Attacking hash functions by poisoned
+  messages: ``The Story of Alice and Her Boss''\,',
+  \texttt{http://www.cits.rub.de/MD5Collisions/}
+\end{enumerate}
+
+On this webpage you can see a letter of recommendation for Alice and a
+letter granting her a security clearance which both have the same MD5
+digest! It also explains how Alice could use these to do evil deeds.
+
+For more on cryptographic hash functions and their woes, try these:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{8}
+\item
+  ``Cryptographic hash function'', Wikipedia,
+  \texttt{http://en.wikipedia.org/wiki/Cryptographic\_hash}
+
+  Steve Friedl, ``An illustrated guide to cryptographic hashes'',
+  \texttt{http://www.unixwiz.net/techtips/iguide-crypto-hashes.html}
+\end{enumerate}
+
+Now, if you're a mathematician, the whole idea of a cryptographic hash
+function may seem counterintuitive. Just for a change of pace, take
+another important cryptographic hash function, called SHA-1. This is a
+function that takes any string of up to \(2^{64}\) bits and gives a
+digest that's 160 bits long. So, it's just some function
+\[f\colon S \to T\] from a set \(S\) of size \(2^{2^{64}+1}\) to a set
+\(T\) of size \(2^{160}\).
+
+The first set is vastly bigger. So, the function \(f\) must be far from
+one-to-one! So why in the world is anyone surprised, much less dismayed,
+when people find a way to generate two elements in the first set that
+map to the same element in the second?
+
+One reason is that while the first set is much bigger than the second,
+the second is mighty big too!
+
+Suppose you're trying to do a preimage attack. Someone hands you an
+element of \(T\) and asks you to find an element of \(S\) that maps to
+it. The brute-force approach, where you keep choosing elements of \(S\),
+applying the function, and seeing if you get the desired element, will
+on average take about \(2^{160}\) tries. That's infeasible.
+
+Note that the huge size of \(S\) is irrelevant here; what matters most
+is the size of \(T\).
+
+Or, suppose you're trying a brute-force collision attack. You start
+looking through elements of \(S\), trying to find two that map to the
+same thing. On average it will take \(2^{80}\) tries --- the square root
+of the size of \(T\). That's a lot less, but still infeasible.
+
+(Why so much less? This is called the ``birthday paradox'': it's a lot
+easier to find two people at a big party who share the same birthday
+than to find someone with the same birthday as the host.)
+
+Of course, a smarter approach is to use your knowledge about the
+function f to help you find pairs of elements that map to the same
+thing. This is what Xiaoyun Wang, Yiqun Lisa Yin, and Hongbo Yu actually
+did in February 2005. Based on trials with watered-down versions of
+SHA-1, they argued that they could do a collision attack that would take
+only \(2^{69}\) tries instead of the expected \(2^{80}\).
+
+They didn't actually carry out this attack --- with the computer power
+they had, it would have taken them 5 million years. But their
+theoretical argument was already enough to make people nervous!
+
+And indeed, in August 2005, an improved version of their strategy
+reduced the necessary number of tries to \(2^{63}\) --- in other words,
+reducing the time to just 78 thousand years, after only a few months of
+work.
+
+So, people are getting wary of SHA-1. This is serious, because it's a
+widely used government standard. You can see the algorithm for this
+function here:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{9}
+\tightlist
+\item
+  ``SHA hash functions'', Wikipedia,
+  \texttt{http://en.wikipedia.org/wiki/SHA\_hash\_functions}
+\end{enumerate}
+
+People still hope that good hash functions exist. They hope that if a
+function \(f\) is cleverly chosen, \(f(x)\) will depend in a ``seemingly
+random'' way on \(x\), so that given \(f(x)\), it's hard to compute some
+\(y\) with \(f(y) = f(x)\). People call this a ``one-way function''.
+
+Now we're finally getting to the really interesting math. It takes work
+to make the concept of ``one-way function'' precise, but it can be done.
+For example, Chapter 2 of this book starts out by defining ``strong''
+and ``weak'' one-way functions:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{10}
+\tightlist
+\item
+  Oded Goldreich, \emph{Foundations of Cryptography}, Cambridge U.
+  Press, Cambridge, 2004. Older edition available at
+  \texttt{http://www.wisdom.weizmann.ac.il/\textasciitilde{}oded/frag.html}
+\end{enumerate}
+
+Since you can look them up and they're a bit gnarly, I won't give these
+definitions here. But \emph{roughly}, a ``strong one-way function'' is a
+function \(f\) that satisfies two conditions:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  You can compute \(f\) in ``polynomial time'': in other words, there's
+  an algorithm that computes it in a number of steps bounded by some
+  polynomial in the length of the input.
+\item
+  Given some input \(x\), any polynomial-time probabilistic algorithm
+  has a very low chance of finding \(y\) with \(f(y) = f(x)\). Here a
+  ``probabilistic algorithm'' is just an algorithm equipped with access
+  to a random number generator.
+\end{enumerate}
+
+Condition 2 is related to the idea of a ``preimage attack''. We allow
+the attacker to use a probabilistic algorithm because it seems this can
+help them, and a strong one-way function should be able to resist even
+really nasty attacks.
+
+Unfortunately, nobody has proved that a one-way function exists!
+
+In fact, the existence of a one-way function would imply that
+``\(\mathrm{P}\) does not equal \(\mathrm{NP}\)''. But, proving or
+disproving this claim is one of the most profound unsolved math problems
+around. If you settle it, you'll get a million dollars from the Clay
+Mathematics Institute:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{10}
+\tightlist
+\item
+  Clay Mathematics Institute, ``P vs NP problem'',
+  \texttt{http://www.claymath.org/millennium/P\_vs\_NP/}
+\end{enumerate}
+
+But if you prove that \(\mathrm{P}\) \emph{does} equal \(\mathrm{NP}\),
+you might make more money by breaking cryptographic hash codes and
+setting yourself up as the Napoleon of crime.
+
+The existence of one-way-functions is also closely related to the
+existence of ``pseudorandom'' sequences. These are sequences of numbers
+that ``seem'' random, but can be computed using deterministic algorithms
+--- so they're not \emph{really} random.
+
+To see the relation, recall that a good cryptographic hash code
+shouldn't let you guess a message from its digest. So, for example, if
+my message is the EMPTY STRING --- no message at all! --- its digest
+should be a pseudorandom sequence.
+
+For example, if we apply SHA-1 to the empty string we get the following
+160 bits, written as 40 hexadecimal digits: \textgreater{}
+\texttt{SHA1("")\ =\ "da39a3ee5e6b4b0d3255bfef95601890afd80709"} Seems
+mighty random to me! But of course it comes out the same every time.
+
+Indeed, if you've ever seen a ``random number generator'' while messing
+with computers, it probably was a pseudorandom number generator. There
+are a few people who generate random numbers from physical phenomena
+like atmospheric noise. In fact, there's a website called
+\texttt{random.org} where you can get such numbers for free:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{11}
+\tightlist
+\item
+  ``Random.org: random integer generator'', \texttt{http://random.org/}
+\end{enumerate}
+
+There's also a website that offers \emph{nonrandom} numbers:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{12}
+\tightlist
+\item
+  ``NoEntropy.net: your online source for truly deterministic numbers'',
+  \texttt{http://www.noentropy.net/}
+\end{enumerate}
+
+But joking aside, it's a really tantalizing and famous problem to figure
+out what ``random'' means, and what it means for something to ``seem''
+random even if it's the result of a deterministic process. These are
+huge and wonderful philosophico-physico-mathematical questions with
+serious practical implications. Much ink has been spilt regarding these,
+and I don't have the energy to discuss them carefully, so I'll just say
+some stuff to pique your curiosity, and then give you some references.
+
+We can define a ``random sequence'' to be one that no algorithm can
+generate with a success rate better than chance would dictate. By virtue
+of this definition, no algorithm can generate truly random sequences.
+It's easy to prove that most sequences are random --- but it's also easy
+to prove that you can never exhibit any one \emph{particular} sequence
+and prove it's random! Chaitin has given a wonderful definition of a
+particular random sequence of bits called \(\Omega\) using the fact that
+no algorithm can decide which Turing machines halt\ldots{} but this
+random sequence is uncomputable, so you can't really ``exhibit'' it:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{13}
+\tightlist
+\item
+  Gregory Chaitin, ``Paradoxes of randomness'', \emph{Complexity}
+  \textbf{7} (2002), 14--21. Also available as
+  \texttt{http://www.umcs.maine.edu/\textasciitilde{}chaitin/summer.html}
+\end{enumerate}
+
+So, true randomness is somewhat elusive. It seems hard to come by except
+in quantum mechanics. For example, the time at which a radioactive atom
+decays is believed to be \emph{really} random. I'll be pissed off if it
+turns out that God (or his henchman Satan) is fooling us by simulating
+quantum mechanics with some cheap pseudorandom number generator!
+
+Similarly, we could define a ``pseudorandom sequence'' to be one that no
+\emph{efficient} algorithm can generate with a success rate higher than
+chance would dictate.
+
+Efficiency is a somewhat vague concept. It's popular to define it by
+saying an algorithm is ``efficient'' if it runs in ``polynomial time'':
+the time it takes to run is bounded by some polynomial function of the
+size of the input data. If the polynomial is
+\[p(n) = 1000000000000000 n^{1000000000000000} + 1000000000000000\] most
+people wouldn't consider the algorithm efficient, but this definition is
+good for proving theorems, and usually in practice the polynomial turns
+out to be more reasonable.
+
+A ``pseudorandom number generator'' needs to be defined carefully if we
+want to find efficient algorithms that do this job. After all, no
+efficient algorithm can produce a sequence that no efficient algorithm
+can guess: \emph{it} can always guess what it's going to do!
+
+So, the basic idea is that a pseudorandom number generator should be an
+efficient algorithm that maps short truly random strings to long
+pseudorandom strings: we give it a short random ``seed'' and it cranks
+out a lot of digits that no efficient algorithm can guess with a success
+rate higher than chance would dictate.
+
+If you want a more precise definition and a bunch of theorems, try
+these:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{14}
+\item
+  Oded Goldreich, papers and lecture notes on pseudorandomness,
+  available at
+  \texttt{http://www.wisdom.weizmann.ac.il/\textasciitilde{}oded/pp\_pseudo.html}
+
+  Luby, M. \emph{Pseudorandomness and Cryptographic Applications}.
+  Princeton, NJ: Princeton University Press, 1996.
+\end{enumerate}
+
+Unfortunately, nobody has proved that pseudorandom number generators
+exist! So, this whole subject is a bit like axiomatic quantum field
+theory, or the legendary Ph.D thesis where the student couldn't produce
+any examples of the mathematical gadgets he was studying. It's a risky
+business proving results about things that might not exist. But in the
+case of pseudorandom number generators, the subject is too important not
+to take the chance.
+
+One of the most interesting things about pseudorandom number generators
+is that they let us mimic probabilistic algorithms with deterministic
+ones. In fact there are some nice theorems about this. Let me sketch one
+of them for you.
+
+As I already mentioned, a ``probabilistic algorithm'' is just a
+deterministic algorithm that's been equipped with access to a (true)
+random number generator. Just imagine a computer with the ability to
+reach out and flip a coin when it wants to. A problem is said to be in
+``\(\mathrm{BPP}\)'' --- ``bounded-error probabilistic polynomial time''
+--- if you can find polynomial-time probabilistic algorithms that solve
+this problem with arbitrarily high chance of success.
+
+It's a fascinating question whether randomness actually helps you
+compute stuff. I guess most computer scientists think it does. But, it's
+tricky. For example, consider the problem of deciding whether an integer
+is prime. Nobody knew how to do this in polynomial time\ldots{} but then
+in 1977, Solovay and Strassen showed this problem was in
+\(\mathrm{BPP}\). This is one of the results that got people really
+excited about probabilistic algorithms.
+
+However, in 2002, Maninda Agrawal, Neeraj Kayal and Nitin Saxena showed
+that deciding whether numbers are prime is in \(\mathrm{P}\)! In other
+words, it can be solved in polynomial time by a plain old deterministic
+algorithm:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{15}
+\tightlist
+\item
+  Anton Stiglic, ``Primes is in P little FAQ'',
+  \texttt{http://crypto.cs.mcgill.ca/\textasciitilde{}stiglic/PRIMES\_P\_FAQ.html}
+\end{enumerate}
+
+Is \(\mathrm{BPP} = \mathrm{P}\)? Nobody knows! But if good enough
+pseudorandom number generators could be shown to exist, we would have
+\(\mathrm{BPP} = \mathrm{P}\), since then we could use these
+pseudorandom numbers as a substitute for truly random ones. This is not
+obvious, but it was proved by Nisan and Wigderson in 1994.
+
+Here's a great review article that discusses their result:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{16}
+\tightlist
+\item
+  Luca Trevisian, ``Pseudorandomness and combinatorial constructions'',
+  available as
+  \href{http://arxiv.org/abs/cs.CC/0601100}{\texttt{cs.CC/0601100}}.
+\end{enumerate}
+
+I recommend reading it along with this:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{17}
+\tightlist
+\item
+  Scott Aaronson, ``Is \(\mathrm{P}\) versus \(\mathrm{NP}\) formally
+  independent?'', available at
+  \texttt{http://www.scottaaronson.com/papers/pnp.pdf} and
+  \texttt{http://www.scottaaronson.com/papers/pnp.ps}
+\end{enumerate}
+
+This is a delightfully funny and mindblowing crash course on logic. It
+starts with a review of first-order logic and Gödel's theorems,
+featuring a dialog between a mathematician and the axiom system
+\(\mathrm{ZF}+\mathrm{not}(\mathrm{Con}(\mathrm{ZF}))\). Here
+\(\mathrm{ZF}\) is the popular Zermelo-Fraenkel axioms for set theory
+and \(\mathrm{not}(\mathrm{Con}(\mathrm{ZF}))\) is a statement asserting
+that \(\mathrm{ZF}\) is not consistent. Thanks to Gödel's second
+incompleteness theorem,
+\(\mathrm{ZF}+\mathrm{not}(\mathrm{Con}(\mathrm{ZF}))\) is consistent if
+\(\mathrm{ZF}\) is! The mathematician is naturally puzzled by this state
+of affairs, but in this dialog, the axiom system explains how it works.
+
+Then Aaronson zips on through Loeb's theorem, which is even weirder than
+Gödel's first incompleteness theorem. Gödel's first incompleteness
+theorem says that the statement
+
+\begin{quote}
+This statement is unprovable in \(\mathrm{ZF}\).
+\end{quote}
+
+is not provable in \(\mathrm{ZF}\), as long as \(\mathrm{ZF}\) is
+consistent. Loeb's theorem says that the statement
+
+\begin{quote}
+This statement is provable in \(\mathrm{ZF}\).
+\end{quote}
+
+\emph{is} provable in \(\mathrm{ZF}\).
+
+Then Aaronson gets to the heart of the subject: a history of the
+\(\mathrm{P}\) vs. \(\mathrm{NP}\) question. This leads up to an amazing
+paper of Razborov and Rudich, which I'll now summarize:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{18}
+\tightlist
+\item
+  Alexander A. Razborov and Steven Rudich, ``Natural proofs'', in
+  \emph{Journal of Computer and System Sciences}, Vol. \textbf{55}, No
+  1, 1997, pages 24--35. Also available at
+  \texttt{http://www-2.cs.cmu.edu/\textasciitilde{}rudich/papers/natural.ps}
+  and \texttt{http://genesis.mi.ras.ru/\textasciitilde{}razborov/int.ps}
+\end{enumerate}
+
+The basic point of this paper is that if \(\mathrm{P}\) is not equal to
+\(\mathrm{NP}\), as most mathematicians expect, then this fact is hard
+to prove! Or, as Aaron more dramatically puts it, this conjecture ``all
+but asserts the titanic difficulty of finding its own proof''.
+
+Zounds! But let's be a bit more precise. A Boolean circuit is a gizmo
+built of ``\(\mathrm{and}\)'', ``\(\mathrm{or}\)'' and
+``\(\mathrm{not}\)'' gates, without any loops. We can think of this as
+computing a Boolean function, meaning a function of the form:
+\[f\colon \{0,1\}^n \to \{0,1\}\] Razborov and Rudich start by studying
+a common technique for proving lower bounds on the size of a Boolean
+circuit that computes a given function. The technique goes like this:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Invent some way of measuring the complexity of a Boolean function.
+\item
+  Show that any Boolean circuit of a certain size can compute only
+  functions of complexity less than some amount.
+\item
+  Show that the function \(f\) has high complexity.
+\end{enumerate}
+
+They call this style of proof a ``natural'' proof.
+
+The \(\mathrm{P}\) versus \(\mathrm{NP}\) question can be formulated as
+a question about the size of Boolean circuits --- but Razborov and
+Rudich show that, under certain assumptions, there is no ``natural''
+proof that \(\mathrm{P}\) is not equal to \(\mathrm{NP}\). What are
+these assumptions? They concern the existence of good pseudorandom
+number generators. However, the existence of these pseudorandom number
+generators would follow from the fact that \(\mathrm{P}\) is not equal
+to \(\mathrm{NP}\). So, if ``\(\mathrm{P}\) is not equal to
+\(\mathrm{NP}\)'' is true, it has no natural proof.
+
+Aaronson says this is the deepest insight into the \(\mathrm{P}\) versus
+\(\mathrm{NP}\) question so far. I would like to understand it better
+--- I explained it very sketchily because I don't really understand it
+yet. Aaronson recommends us to these papers for more details:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{19}
+\item
+  Alexander A. Razborov, ``Lower bounds for propositional proofs and
+  independence results in bounded arithmetic'', in \emph{Proceedings of
+  ICALP 1996}, 1996, pp.~48--62. Also available at
+  \texttt{http://genesis.mi.ras.ru/\textasciitilde{}razborov/icalp.ps}
+
+  R. Raz, ``\(\mathrm{P} \neq \mathrm{NP}\), propositional proof
+  complexity, and resolution lower bounds for the weak pigeonhole
+  principle'', in \emph{Proceedings of ICM 2002}, Vol. \textbf{III},
+  2002, pp.~685--693. Also available at
+  \texttt{http://www.wisdom/weizmann.ac.il/\textasciitilde{}ranraz/publication/Pchina.ps}
+
+  S. Buss, ``Bounded arithmetic and propositional proof complexity'', in
+  \emph{Logic of Computation}, ed.~H. Schwictenberg, Springer-Verlag,
+  1997, pp.~67--122. Also available at
+  \href{http://math.ucsd.edu/~sbuss/ResearchWeb/theoria/index.html}{\texttt{http://www.wisdom/weizmann.ac.il/\textbackslash{}\textasciitilde{}ranraz/publication/Pchina.ps}}
+\end{enumerate}
+
+(Why don't these guys use the arXiv??)
+
+Also, here are some lecture notes on Boolean circuits that might help:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{20}
+\tightlist
+\item
+  Uri Zwick, ``Boolean circuit complexity'',
+  \texttt{http://www.math.tau.ac.il/\textasciitilde{}zwick/scribe-boolean.html}
+\end{enumerate}
+
+Aaronson wraps up by musing on the possibility that the \(\mathrm{P}\)
+versus \(\mathrm{NP}\) question is independent from strong axiom systems
+like Zermelo-Fraenkel set theory. It's possible\ldots{} and it's
+possible that this is true and unprovable!
+
+So, there is a fascinating relationship between one-way functions,
+pseudorandom numbers, and incompleteness --- but it's a relationship
+shrouded in mystery\ldots{} and perhaps inevitably so. Perhaps it will
+always remain unknown whether this mystery is inevitable\ldots{} and
+perhaps this is inevitable too! And so on.
+
+Here's a question for you experts out there: have people studied
+Gödel-like self-referential sentences of this form?
+
+\begin{quote}
+The shortest proof of this statement has \(n\) lines.
+\end{quote}
+
+I hear that people \emph{have} studied ones like
+
+\begin{quote}
+The shortest proof that \(0 = 1\) has \(n\) lines.
+\end{quote}
+
+and they've proved that the shortest proof of \emph{this} has to keep
+getting longer with larger \(n\), as long as one is working in a
+sufficiently powerful and consistent axiom system. This is fairly
+obvious if you know how Gödel's second incompleteness theorem is
+proved\ldots{} but it's possible that some interesting, nonobvious lower
+bounds have been proved. If so, I'd like to know!
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Addenda:} Here is some discussion with Wolfgang Brand, Allan
+Erskine, Scott Aaronson, Aaron Bergman and an entity named tessel. I had
+written:
+
+\begin{quote}
+Chaitin has given a marvelous definition of a particular random sequence
+of bits called \(\Omega\) using the fact that no algorithm can decide
+which Turing machines halt\ldots{} but this random sequence is
+uncomputable, so you can't really ``exhibit'' it.
+\end{quote}
+
+However, Wolfgang Brand points out this paper:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{21}
+\tightlist
+\item
+  Cristian Calude, Michael J. Dinneen, and Chi-Kou Shu, ``Computing a
+  glimpse of randomness'', \emph{Experimental Mathematics} \textbf{11}
+  (2002), 361--370. Also available at
+  \texttt{http://www.cs.auckland.ac.nz/\textasciitilde{}cristian/Calude361\_370.pdf}
+\end{enumerate}
+
+where the first 64 bits of \(\Omega\) have been computed. There's no
+contradiction, as the paper explains --- but it's fairly surprising!
+
+Next, here is an email from Allan Erskine. As usual I will take the
+liberty of numbering references and putting them into my own favorite
+format.
+
+Allan Erskine wrote:
+
+\begin{quote}
+I enjoyed week 226! Algorithmic complexity was the area I studied
+in\ldots{} Your readers might find this an enjoyable read:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{23}
+\tightlist
+\item
+  Leonid Levin, ``The tale of one-way functions'', \emph{Problems of
+  Information Transmission} (= Problemy Peredachi Informatsii)
+  \textbf{39} (2003), 92--103. Also available as
+  \href{http://arxiv.org/abs/cs.CR/0012023}{\texttt{cs.CR/0012023}}.
+\end{enumerate}
+
+As for your ``shortest proof of this statement has \(n\) lines''
+question, you may have noticed that Chaitin asks a very similar question
+about the shortest proofs that a LISP program is ``elegant'' (most
+short) and proves a strong incompleteness result with an actual
+\(410 + n\) character LISP program! Crazy\ldots{}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{24}
+\tightlist
+\item
+  Gregory Chaitin, ``Elegant LISP programs'', in \emph{People and Ideas
+  in Theoretical Computer Science}, ed.~C. Calude, Springer, Singapore,
+  1999, pp.~32--52. Also available at
+  \texttt{http://www.cs.auckland.ac.nz/CDMTCS/chaitin/lisp.html}
+\end{enumerate}
+\end{quote}
+
+I replied by pointing Allan to the following old article, which is
+related to the idea of Chaitin's paper:
+
+\begin{quote}
+\textbf{From: John Baez\\
+Subject: Re: compression, complexity, and the universe\\
+Date: 1997/11/20\\
+Newsgroups: \texttt{sci.physics.research},
+\texttt{comp.compression.research}}\\
+
+Aaron Bergman wrote:
+
+\begin{quote}
+The smallest number not expressible in under ten words
+\end{quote}
+
+Hah! This, by the way, is the key to that puzzle I laid out: prove that
+there's a constant \(K\) such that no bitstring can be proved to have
+algorithmic entropy greater than \(K\).
+
+Let me take this as an excuse to say a bit more about this. I won't give
+away the answer to the puzzle; anyone who gets stuck can find the answer
+in this nice survey:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{25}
+\tightlist
+\item
+  Peter Gacs, Lecture notes on descriptional complexity and randomness,
+  available at \texttt{http://www.cs.bu.edu/faculty/gacs/}
+\end{enumerate}
+
+In my more rhapsodic moments, I like to think of \(K\) as the
+``complexity barrier''. The world \emph{seems} to be full of incredibly
+complicated structures --- but the constant \(K\) sets a limit on our
+ability to \emph{prove} this. Given any string of bits, we can't rule
+out the possibility that there's some clever way of printing it out
+using a computer program less than \(K\) bits long. The Encyclopedia
+Brittanica, the human genome, the detailed atom-by-atom recipe for
+constructing a blue whale, or for that matter the entire solar system
+--- we are unable to prove that a computer program less than \(K\) bits
+long couldn't print these out. So we can't firmly rule out the
+reductionistic dream that the whole universe evolved mechanistically
+starting from a small ``seed'', a bitstring less than \(K\) bits long.
+(Maybe it did!)
+
+So this raises the question, how big is \(K\)?
+
+It depends on ones axioms for mathematics.
+
+Recall that the algorithmic entropy of a bitstring is defined as the
+length of the shortest program that prints it out. For any finite
+consistent first-order axiom system \(A\) exending the usual axioms of
+arithmetic, let \(K(A)\) be the constant such that no bitstring can be
+proved, using \(A\), to have algorithmic entropy greater than \(K(A)\).
+We can't compute \(K(A)\) exactly, but there's a simple upper bound for
+it. As Gacs explains, for some constant \(c\) we have:
+\[K(A) < L(A) + 2 \log_2 L(A) + c\] where \(L(A)\) denotes the length of
+the axiom system \(A\), encoded as bits as efficiently as possible. I
+believe the constant \(c\) is computable, though of course it depends on
+details like what universal Turing machine you're using as your
+computer.
+
+What I want to know is, how big in practice is this upper bound on
+\(K(A)\)? I think it's not very big! The main problem is to work out a
+bound on \(c\).
+\end{quote}
+
+Next, some email from the man himself: Scott Aaronson!
+
+\begin{quote}
+Hi John,
+
+I just read the latest issue of TWF. I'd been waiting a long time for
+you to tackle computational complexity --- thanks! :) Here are some
+comments and responses that you might find helpful.
+
+It's not known whether \(\mathrm{P}\neq\mathrm{NP}\) implies the
+existence of one-way functions (OWF's) --- indeed, there's evidence that
+proving such an implication will be hard:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{26}
+\tightlist
+\item
+  Adi Akavia, Oded Goldreich, Shafi Goldwasser and Dana Moshkovitz, ``On
+  basing one-way functions on \(\mathrm{NP}\)-hardness'', November 22,
+  2005, available at
+  \texttt{http://theory.csail.mit.edu/\textasciitilde{}akavia/AGGM.pdf}
+\end{enumerate}
+
+What's known is that one-way functions exist iff pseudorandom generators
+(PRG's) do --- that's a long, gnarly result of Hastad et al.:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{27}
+\tightlist
+\item
+  John Hastad, Russell Impagliazzo, Leonid A. Levin and Michael Luby,
+  ``A pseudorandom generator from any one-way function'', available at
+  \texttt{http://citeseer.ifi.unizh.ch/hastad99pseudorandom.html}
+\end{enumerate}
+
+So when I wrote that Razborov-Rudich illustrates the
+``self-referentiality'' of proving \(\mathrm{P}\neq\mathrm{NP}\), really
+I meant that it illustrates the self-referentiality of proving that
+OWF's and PRG's exist! But most of us believe not only that
+\(\mathrm{P}\neq\mathrm{NP}\), but also that OWF's exist, and that all
+of these questions are ``morally similar'' anyway\ldots{} :)
+
+You write: ``It's a fascinating question whether randomness actually
+helps you compute stuff. I guess most computer scientists think it
+does.''
+
+Well, today most of us think that good pseudorandom generators exist,
+which (as you pointed out) implies that \(\mathrm{P}=\mathrm{BPP}\).
+That's not to say that randomness never helps; it just doesn't provide
+more than a polynomial advantage.
+
+Incidentally, it followed already from Andy Yao's work in 1982 that if
+REALLY good pseudorandom generators exist, then
+\(\mathrm{P}=\mathrm{BPP}\). What Nisan and Wigderson showed in 1994 was
+that even if only kinda sorta good PRG's exist, then still
+\(\mathrm{P}=\mathrm{BPP}\)!
+
+Since you wrote at length about hash functions like MD5, you might be
+interested in the following abstraction of the collision-finding
+problem. Suppose we have a two-to-one function
+\[f\colon \{0,1\}^n \to \{0,1\}^{n-1},\] which we can only access in a
+``black-box'' fashion --- i.e., we can feed it an input and get an
+output. The goal is to find distinct \(x\) and \(y\) such that
+\(f(x)=f(y)\). Classically, it's easy to see that
+\(\sim 2^{\frac{n}{2}}\) accesses to \(f\) are necessary and sufficient
+--- that's just the birthday paradox you described. But what if we can
+access \(f\) in quantum superposition, to create states like
+\[\sum_x \vert x\rangle \vert f(x)\rangle\;\mbox{?}\] In that case, it
+turns out that one can combine the birthday paradox with Grover's
+quantum search algorithm, to find a collision using
+\(\sim2^{\frac{n}{3}}\) accesses to \(f\) instead of
+\(\sim2^{\frac{n}{2}}\). But could we do it with \(n^{\mathcal{O}(1)}\)
+accesses, or even a \emph{constant} number independent of \(n\)? You
+might be surprised that this was open for years!
+
+Probably my best-known result was to show that \(\sim2^{\frac{n}{5}}\)
+accesses are needed:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{28}
+\tightlist
+\item
+  Scott Aaronson, ``Quantum lower bound for the collision problem'',
+  available as
+  \href{http://arxiv.org/abs/quant-ph/0111102}{\texttt{quant-ph/0111102}}.
+\end{enumerate}
+
+Subsequently Yaoyun Shi improved that to show that
+\(\sim2^{\frac{n}{3}}\) is indeed the right answer:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{29}
+\tightlist
+\item
+  Yauyon Shi, ``Quantum lower bounds for the collision and the element
+  distinctness problems'', available as
+  \href{http://arxiv.org/abs/quant-ph/0112086}{\texttt{quant-ph/0112086}}.
+\end{enumerate}
+
+You ask why theoretical computer scientists don't use the arXiv. The
+answer is historical and cultural. Quantum computer scientists like me
+\emph{do} post to \texttt{quant-ph}, as a result of hanging around
+physicists for so long. But in classical complexity, if you want your
+paper to be read, then you (1) put in on your homepage, (2) submit it to
+STOC or FOCS, which are the top conferences in the field (and are MUCH
+more important than journals), and (3) post it here:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{30}
+\tightlist
+\item
+  Electronic Colloquium on Computational Complexity,
+  \texttt{http://www.eccc.uni-trier.de/eccc/}
+\end{enumerate}
+
+which is our own homegrown arXiv.
+
+I like your finite Gödel statement! Let me restate it as follows:
+
+\[G(n) = \mbox{"This statement has no $\mathrm{ZF}$ proof of at most $n$ symbols."}\]
+
+What can we say? Obviously, if \(\mathrm{ZF}\) is consistent, then
+\(G(n)\) has no proof of at most \(n\) symbols. Hence \(G(n)\) is true.
+Furthermore, \(G(n)\) has a proof of \(\sim2^n\) symbols. This proof
+simply enumerates all proofs of \(\leqslant n\) symbols, and shows that
+none of them work.
+
+You might wonder: does \(G(n)\) have a proof of \(n+1\) symbols, or for
+that matter \(n^{\mathcal{O}(1)}\) symbols? This turns out to be related
+to the main open questions of complexity theory! In particular, if
+\(\mathrm{NP}=\mathrm{coNP}\), then \(G(n)\) has a proof of
+\(n^{\mathcal{O}(1)}\) symbols. \(\mathrm{NP}=\mathrm{coNP}\) just means
+that, whenever a Boolean formula of size \(n\) is unsatisfiable, there's
+a proof of that fact of length polynomial in \(n\). Clearly if
+\(\mathrm{P}=\mathrm{NP}\) then \(\mathrm{NP}=\mathrm{coNP}\), but the
+converse isn't known. The prevailing belief is not only that
+\(\mathrm{P}\neq\mathrm{NP}\), but also that
+\(\mathrm{NP}\neq\mathrm{coNP}\).
+
+Actually I can say more than that: if \(\mathrm{NE}=\mathrm{coNE}\),
+then \(G(n)\) has a proof of \(n^{\mathcal{O}(1)}\) symbols. Here
+\(\mathrm{NE}\) is Nondeterministic Exponential-Time, or the
+exponential-time analogue of \(\mathrm{NP}\). (See my Complexity Zoo:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{31}
+\tightlist
+\item
+  Scott Aaronson and Greg Kuperberg, ``Complexity Zoo'',
+  \texttt{http://qwiki.caltech.edu/wiki/Complexity\_Zoo}
+\end{enumerate}
+
+for lots more about this and other classes.) \(\mathrm{coNE}\) is just
+the complement of \(\mathrm{NE}\). If \(\mathrm{NP}=\mathrm{coNP}\) then
+\(\mathrm{NE}=\mathrm{coNE}\), but again the converse isn't known.
+
+What do these weird exponential classes have to do with \(G(n)\)? The
+point is that to describe an integer \(n\) takes only \(\log(n)\)
+symbols, not \(n\) symbols. So when we ask for a proof of \(G(n)\) with
+at most \(n\) symbols, from ``\(\log(n)\)'s standpoint'' we're actually
+asking for an exponentially long proof.
+
+At this point I'll conjecture that I have an ``if and only if''
+characterization: if \(G(n)\) has a proof of \(n^{\mathcal{O}(1)}\)
+symbols, then \(\mathrm{NE}=\mathrm{coNE}\).
+
+Incidentally, your ``finite Gödel statement'' is closely related to the
+Hartmanis-Stearns time hierarchy theorem, which launched computational
+complexity in the mid-1960's. The time hierarchy theorem is a finite
+version of Turing's undecidability theorem, where instead of asking
+whether a given Turing machine ever halts, you ask whether it halts
+after at most \(T\) steps. Solving this problem turns out to take
+slightly more than \(T\) steps. So in particular, you can solve more
+problems in \(n^2\) time than in \(n\) time, more in \(n^3\) time than
+in \(n^2\) time, and so on.
+
+Let me know if you have other questions.
+
+Best,\\
+Scott\\
+\end{quote}
+
+Next, here is my reply to a post on \texttt{sci.physics.research} from a
+mysterious entity named tessel\ldots{} again, I'll edit it a bit:
+
+\begin{quote}
+tessel@um.bot wrote:
+
+\begin{quote}
+On Sat, 11 Feb 2006, John Baez mentioned that md5sum was ``broken''
+about a year ago. I just wanted to add:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  If I am not mistaken, sha-1 and md5sum are different algorithms (IIRC,
+  both are known to be insecure).
+\end{enumerate}
+\end{quote}
+
+Yeah, I said SHA-1 and MD5 are different, and I said they were both
+vulnerable to collision attacks. MD5 is very vulnerable in practice,
+while the vulnerability of SHA-1 is still theoretical: you'd have to
+have big computers or lots of time or another clever idea to exploit it.
+(Guess who's likely to have all three!)
+
+For more on this subject, try this:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{32}
+\tightlist
+\item
+  Arjen K. Lenstra, ``Further progress in hashing cryptanalysis'',
+  February 26, 2005, available at
+  \texttt{http://cm.bell-labs.com/who/akl/hash.pdf}
+\end{enumerate}
+
+\begin{quote}
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  The latest versions of the open source utility gpg supports a more
+  secure algorithm, SHA-512, which AFAIK has not been broken; see
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{33}
+\tightlist
+\item
+  Tony Stieber, ``GnuPG Hacks'', Linux Journal, March 2006.
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\item
+  Even insecure checksum utilities are probably better than none at all.
+  Indeed, checking the given example:
+
+\begin{verbatim}
+ gpg --print-md md5 letter_of_rec.ps order.ps
+ A2 5F 7F 0B 29 EE 0B 39  68 C8 60 73 85 33 A4 B9
+ A2 5F 7F 0B 29 EE 0B 39  68 C8 60 73 85 33 A4 B9
+\end{verbatim}
+\end{enumerate}
+
+Oh NOOOOOO!!! But wait, there's more:
+
+\begin{verbatim}
+    gpg --print-md sha1 letter_of_rec.ps order.ps
+    0783 5FDD 04C9 AFD2 8304  6BD3 0A36 2A65 16B7 E216
+    3548 DB4D 0AF8 FD2F 1DBE  0228 8575 E8F9 F539 BFA6
+
+    gpg --print-md RIPEMD160 letter_of_rec.ps order.ps
+    9069 8ACC 6D67 6608 657B  9C26 F047 59A1 DC0E 6CA1
+    C1BB DE12 B312 EAAD DD3D  D3B8 4CA1 CB1B BA47 DD13
+\end{verbatim}
+
+Ah HAAAAAA!!! Gotcha, Alice!
+
+JB wrote:
+
+\begin{quote}
+These are huge and wonderful philosophico-physico-mathematical questions
+with serious practical implications.
+\end{quote}
+
+You mean the Weyl curvature hypothesis? :-/
+\end{quote}
+
+Heh, no --- I mean stuff like whether there's such a thing as a provably
+good cryptographic hash code function, or cipher.
+
+\begin{quote}
+But while we should never neglect incompleteness entirely, I was
+fascinated to discover from my readings a few years back that even first
+order logic has its fascinations!
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{34}
+\tightlist
+\item
+  Joel Spencer, \emph{The Strange Logic of Random Graphs}, Springer,
+  Berlin, 2001.
+\end{enumerate}
+
+Here's a thought: ``Everyone knows'' that if on day \(D\), mathematician
+\(M\) is studying an example of size \(S\) in class \(C\), he is more
+likely to be studying a ``secretly special'' representative \(R\) than a
+generic representative \(G\) of size \(S\). Why? Because the secretly
+special reps show up in disguise in other areas, and \(M\) was probably
+hacking through the jungle from one of those places when he got lost and
+ate a poisoned cache.
+\end{quote}
+
+Interesting.
+\end{quote}
+
+Finally, here's my reply to an article on \texttt{sci.math.research} by
+Aaron Bergman:
+
+\begin{quote}
+Aaron Bergman wrote:
+
+\begin{quote}
+John Baez wrote:
+
+\begin{quote}
+In fact, the existence of a one-way function would imply that
+``\(\mathrm{P}\) does not equal \(\mathrm{NP}\)''. But, proving or
+disproving this claim is one of the most profound unsolved math problems
+around.
+\end{quote}
+
+This brings to mind a question I was wondering about. Given an
+\(\mathrm{NP}\) (-complete?) problem, is it ever possible to engineer a
+(partial) differential equation, the solution of which, if known, would
+solve the \(\mathrm{NP}\) problem?
+
+I realize this is vague. The general thought was whether a continuous
+dynamical system can somehow be more computationally powerful than
+something discrete.
+\end{quote}
+
+I was very interested in this question back in college, and I wrote a
+paper about it:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{35}
+\tightlist
+\item
+  John Baez, ``Recursivity in quantum mechanics'', \emph{Trans. Amer.
+  Math. Soc.} \textbf{280} (1983), 339--350.
+\end{enumerate}
+
+where I showed that the time evolution for bunch of PDE's --- including
+the wave equation, the Klein-Gordon equation, and Schroedinger's
+equation for finitely many electrically charged point particles --- is
+``computable'' in a precise sense.
+
+This seemed interesting at the time because Pour-El and Richards had
+claimed that the behavior of the wave equation in 3+1 dimensions was
+uncomputable. Their result is correct, but it's an artifact of using a
+funny space of solutions! If you use a sensible Hilbert space of
+solutions for which time evolution is unitary, then time evolution is
+also computable.
+
+Hmm, I see that someone has rediscovered this a few years ago:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{36}
+\tightlist
+\item
+  Klaus Weihrauch and Ning Zhong, ``Is wave propagation computable or
+  can wave computers beat the Turing machine?'', \emph{Proc. Lond. Math.
+  Soc.} \textbf{85} (2002) 312--332. Abstract available at
+  \texttt{http://www.lms.ac.uk/publications/proceedings/abstracts/p1364a.html}
+\end{enumerate}
+
+I wonder if they cite my paper.
+
+Anyway, I came away feeling that time evolution for any PDE people
+actually care about is computable once you define your concepts
+correctly. This is simply a way of saying that you can numerically
+compute the solutions to any desired accuracy: it's sort of obvious,
+modulo the crucial technical details.
+
+But a more interesting question would be the one you ask, where mere
+``computability'' is replaced by something more refined, like
+``computable up to a specified accuracy in polynomial time''.
+\end{quote}
+
+\textbf{Another addendum:} here's a new article on the problems with
+finding a cryptographic hash function that's hard to crack:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{37}
+\tightlist
+\item
+  Susan Landau, ``Find me a hash'', \emph{AMS Notices} \textbf{53}
+  (March 2006), 330--332. Also available at
+  \texttt{http://www.ams.org/notices/200603/fea-landau.pdf} and
+  \texttt{http://www.ams.org/notices/200603/fea-landau.ps}
+\end{enumerate}
+
+Landau points out that there's no good mathematical theory backing up
+the most popular hash functions. ``There are hash functions based on
+hard mathematical problems, making them likely to be secure, but these
+hash function are inefficient and not used in practice.''
+
+Next, here's yet another email from Scott Aaronson, dated July 22, 2006:
+
+\begin{quote}
+Hi John,
+
+A while ago you asked whether anyone had studied sentences of the form
+\[P(n) = \mbox{"This statement has no proof at most $n$ symbols long."}\]
+Clearly \(P(n)\) has a proof with \(\sim2^n\) symbols. I emailed you
+conjecturing that \(P(n)\) has no proof much shorter than that.
+
+Well, I just came back from a complexity meeting in Prague, where Pavel
+Pudlak gave a talk about exactly this sort of question. It turns out
+that Harvey Friedman made the same conjecture I did in the 1970's, but
+his conjecture was soon shown to be FALSE! Indeed, the number of symbols
+needed to prove \(P(n)\) grows only a little bit faster than \(n\)
+itself.
+
+Let me sketch why, since I'm guessing this will be as surprising to you
+as it was to me.
+
+To prove \(P(n)\), it clearly suffices to show that, if our proof system
+is inconsistent, then any proof of \(0=1\) must contain statements with
+more than \(n\) symbols. We can do that using a technique invented by
+Tarski in the 1930's for ``defining truth'' --- i.e., for recursively
+building up a one-to-one correspondence between syntax and semantics.
+More concretely, let \(T_k(A)\) be a function that takes as input a
+string \(A\) with \(\pounds k\) symbols. We want \(T_k\) to return \(1\)
+if \(A\) encodes a true statement and \(0\) otherwise. So, for all
+\(k\), \(T_{k+1}( \mbox{"not"} + A ) := 1\) if \(T_k(A)=0\), or \(0\)
+otherwise.
+
+\(T_{k+1}( A + \mbox{"and"} + B ) := 1\) if \(T_k(A)=1\) and
+\(T_k(B)=1\), or \(0\) otherwise.
+
+\$T\_\{k+1\}( \mbox{"There exists an $x$ such that"} + A ) := 1\$ if
+there exists an \(x^*\) such that \(T_k(A[x=x^*])=1\), or \(0\)
+otherwise.
+
+and so on. Of course I'm skipping lots of technicalities, like what I
+mean by \(A[x=x^*]\).
+
+Anyway, one can prove that, if \(T_n(A)=T_n(B)=1\), and if \(C\) is
+derivable from \(A\) and \(B\) via a first-order inference rule, then
+\(T_n(C)=1\) as well. Also, if \(A\) is an axiom of our proof system,
+then (reasoning \emph{within} the system) \(A\) is true, and hence
+\(T_n(A)=1\).
+
+It follows that, as long as we restrict ourselves to statements of
+length \(\pounds n\), no contradiction can be proved. Furthermore, we
+can formalize the whole argument using only \(\mathcal{O}(n)\) symbols
+(or maybe \(\mathcal{O}(n\log(n))\), depending on the proof system).
+
+So what's the catch? Why can't we generalize this argument to statements
+of \emph{all} lengths, thereby contradicting the Incompleteness Theorem?
+Because, when we examine the proof that the syntax correctly models the
+semantics, we'll always find that it involves statements with more than
+n quantifiers. I.e. to prove consistency for statements with \(n\)
+quantifiers, we need at least \(n+1\) quantifiers.
+
+So, is there any way to salvage a finitary Gödel's Theorem? There
+probably is! In particular, consider the following statement: \[
+  \begin{aligned}
+    P(n,k) =
+     &\mbox{``This statement has no proof at most $n$ symbols long,}
+     \\&\phantom{\mbox{"}}\mbox{involving statements with at most $k$ quantifiers."}
+   \end{aligned}
+\] The new conjecture would be that, for every fixed \(k\), \(P(n,k)\)
+has no proof with less than \(2^{\mathcal{O}(n)}\) symbols involving
+statements with at most \(k\) quantifiers. According to Pavel, this
+conjecture is still open. Indeed, it's not even known whether \(P(n)\)
+itself has a proof with less than \(2^{\mathcal{O}(n)}\) symbols,
+involving statements with at most \(k\) quantifiers for some fixed
+\(k\).
+
+Best,\\
+Scott
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{quote}
+\emph{Anyone who considers arithmetical methods of producing random
+digits is, of course, in a state of sin.}
+
+--- John von Neumann
+\end{quote}
+
+\begin{quote}
+\emph{He is the Napoleon of crime, Watson. He is the organizer of half
+that is evil and of nearly all that is undetected in this great city. He
+is a genius, a philosopher, an abstract thinker\ldots.}
+
+--- Sherlock Holmes
+\end{quote}
+
+
+
+\hypertarget{week227}{%
+\section{March 12, 2006}\label{week227}}
+
+Today I want to say a bit about physics, and then a bit about about
+logic, since that's what I was studying for the last month in Marseille.
+But first, the astronomy pictures of the week:
+\[\href{http://marsrovers.jpl.nasa.gov/gallery/press/opportunity/20040806a/Sol187B_P2546_L257false-B187R1.jpg}{\includegraphics[max width=\linewidth]{../images/mars_blue_dunes.jpg}}\]
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\tightlist
+\item
+  ``Endurance crater's dazzling dunes'', NASA/JPL, available at
+  \texttt{http://marsrovers.jpl.nasa.gov/gallery/press/opportunity/20040806a.html}
+\end{enumerate}
+
+\[\href{http://marsrovers.jpl.nasa.gov/gallery/press/opportunity/20040806a/Sol187B_P2546_L456-B187R1.jpg}{\includegraphics[max width=\linewidth]{../images/mars_red_dunes.jpg}}\]
+
+On August 4, 2004, the Mars rover called Opportunity took these pictures
+of dunes as it entered Endurance Crater. The red one is what we'd
+actually see; the blue one is a false-color image designed to bring out
+certain details.
+
+Both images show show tendrils of sand less than 1 meter high stretching
+from the big dunes toward the rover, and some rocks in the foreground.
+The false-color image emphasizes accumulations of millimeter-sized
+spheres called ``blueberries'' on the flat parts of the dunes. Here's
+what they look like close up:
+\[\href{http://marsrover.nasa.gov/newsroom/pressreleases/20040318a.html}{\includegraphics[max width=\linewidth]{../images/blueberries.jpg}}\]
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  `Mineral in Mars ``berries'' adds to water story', NASA/JPL, available
+  at
+  \texttt{http://marsrover.nasa.gov/newsroom/pressreleases/20040318a.html}
+\end{enumerate}
+
+Thanks to a Mössbauer spectroscope aboard the rover, which studies rocks
+by firing \(\gamma\) rays at them, we know these blueberries contain a
+lot of hematite.
+
+Hematite is made of ferric oxide, Fe\textsubscript{2}O\textsubscript{3},
+otherwise known as ``rust''. It's usually formed in the presence of
+water. For this and other reasons, it's believed that the blueberries in
+Endurance Crater were formed when Mars was wetter than today. An
+interesting puzzle is whether they were formed by groundwater leaching
+ferric oxide from rocks, or deposited in standing water --- for example,
+a lake.
+
+It's amazing how much we can learn from unmanned space probes. And it's
+amazing to me how some people want to spend billions on manned missions.
+To read more about what SF writers Larry Niven, Joe Haldeman, Greg Bear
+and other folks including me think about the merits of manned versus
+unmanned space missions, try this:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  ``Meme Therapy: Life from a science fiction point of view'',
+  \texttt{http://memetherapy.blogspot.com/2006/03/brain-parade-feature-where-we-pester.html}
+\end{enumerate}
+
+But enough space stuff\ldots{} now for some physics!
+
+A strange thing happened around the 1980s. Before that, theorists had
+been making rapid and revolutionary progress in understanding the
+fundamental laws of physics for almost a century. They kept predicting
+shocking new effects that were soon found in actual experiments: radio
+waves, nuclear chain reactions, black holes, lasers, antimatter,
+neutrinos, quarks,\ldots{} up to and including the W and Z bosons. The
+power of human thought never seemed greater.
+
+Since the 1980s, most of the new discoveries in fundamental physics have
+come from unexpected observations in astronomy. These observations were
+mostly \emph{not} predicted by theorists. The key examples are: dark
+matter, dark energy, and neutrino oscillations. The only serious
+counterexamples that come to mind are the top quark, discovered in 1995,
+and Alan Guth's inflationary cosmology, dreamt up around 1979 and
+\emph{partially} confirmed by recent data --- though the jury is still
+out.
+
+Theorists are publishing more than ever, but most of their theories are
+either not yet testable (string theory, loop quantum gravity) or seem to
+have been disproved by experiment (grand unified theory predictions of
+proton decay).
+
+It's interesting to meditate on why this change has happened, what it
+means, and what will happen next. I spoke about this in Marseille
+shortly before coming home to Riverside. You can see my slides here:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  John Baez, ``Fundamental physics: where we stand today'', lecture at
+  at the Faculty of Sciences, Luminy, February 27th, 2006, available at
+  \texttt{http://math.ucr.edu/home/baez/where\_we\_stand/}
+\end{enumerate}
+
+This talk was for nonphysicists, so it's not very technical. The first
+part is a gentle introduction to the laws of physics as we know them.
+
+For more info on dark matter and dark energy, try this:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  Varun Sahri, ``Dark matter and dark energy'', available as
+  \href{https://arxiv.org/abs/astro-ph/0403324}{\texttt{astro-ph/0403324}}.
+\end{enumerate}
+
+If you read this, you'll learn about the ``cuspy core problem'' ---
+existing cold dark matter models produce galaxies with a sharp spikes of
+high density near their cores, sharper than observed. You'll learn about
+``quintessence'', a kind of hypothetical field that some people use to
+model dark energy, thus ``explaining'' the accelerating expansion of the
+universe. You'll learn about the ``Chaplygin gas'', a hypothetical
+substance whose properties interpolate between those of cold dark matter
+and dark energy. And, you'll learn about ``phantom energy'' models of
+dark energy, which fit the accelerating expansion of the universe quite
+nicely now but predict a ``Big Rip'', in which the expansion rate
+eventually becomes \emph{infinite}.
+
+In short, you'll see how people are flailing around trying to understand
+dark matter and dark energy.
+
+For more on neutrino oscillations, try this:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{5}
+\tightlist
+\item
+  K. M. Heeger, ``Evidence for neutrino mass: a decade of discovery'',
+  available as
+  \href{http://arxiv.org/abs/hep-ex/0412032}{\texttt{hep-ex/0412032}}.
+\end{enumerate}
+
+I had a great time in Marseille. The area around there is great for
+mathematicians. Algebraists can visit the beautiful nearby city of Aix
+--- pronounced ``x''. Logicians will enjoy the dry, dusty island of If
+--- pronounced ``eef'', just like a French logician would say it. And
+everyone will enjoy the medieval hill town of Les Baux, which looks like
+something out of Escher. Here's a
+\href{http://math.ucr.edu/home/baez/france_2006}{picture} of it:
+\[\includegraphics[max width=\linewidth]{../images/LesBaux_2006_002small2.jpg}\]
+Actually the Chateau D'If, on the island of the same name, is where
+Edmond Dantes was imprisoned in Alexander Dumas' novel ``The Count of
+Monte Cristo''. It's in this formidable fortress that the wise old Abbe
+Faria tells Dantes the location of the treasure that later made him
+rich.
+
+I guess everyone except me read this story as a kid --- I'm just reading
+it now. But how many of you remember that Faria spent his time in prison
+studying the works of Aristotle? There's a great scene where Dantes asks
+Faria where he learned so much about logic, and Faria replies: ``If ---
+and only If!''
+
+That Dumas guy sure was a joker.
+
+Luckily I didn't need to be locked up on a deserted island to learn some
+logic in Marseille. There were lots of great talks on this topic at the
+conference I attended:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{6}
+\tightlist
+\item
+  \emph{Geometry of Computation 2006} (Geocal06),
+  \texttt{http://iml.univ-mrs.fr/geocal06/}
+\end{enumerate}
+
+For example, Yves Lafont gave a category-theoretic approach to Boolean
+logic gates which explains their relation to Feynman diagrams:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{7}
+\tightlist
+\item
+  Yves Lafont, ``Towards an algebraic theory of Boolean circuits'',
+  \emph{Journal of Pure and Applied Algebra} \textbf{184} (2003),
+  257--310. Also available at
+  \texttt{http://iml.univ-mrs.fr/\textasciitilde{}lafont/publications.html}
+\end{enumerate}
+
+and together with Yves Guiraud, Francois Metayer and Albert Burroni, he
+gave a detailed introduction to the homology of \(n\)-categories and its
+application to rewrite rules. The idea is to study any sort of algebraic
+gadget (like a group) by creating an \(n\)-category where the objects
+are ``expressions'' for elements in the gadget, the morphisms are ``ways
+of rewriting expressions'' by applying the rules at hand, the
+\(2\)-morphisms are ``ways of passing from one way of rewriting
+expressions to another'' by applying certain ``meta-rules'', and so on.
+Then one can use ideas from algebraic topology to study this
+\(n\)-category and prove stuff about the original gadget!
+
+To understand how this actually works, it's best to start with Craig
+Squier's work on the word problem for monoids. I explained this pretty
+carefully back in \protect\hyperlink{week70}{``Week 70''} when I first
+heard Lafont lecture on this topic --- it made a big impression on me!
+You can read more here:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{8}
+\item
+  Yves Lafont and A. Proute, ``Church-Rosser property and homology of
+  monoids'', in \emph{Mathematical Structures in Computer Science},
+  Cambridge U. Press, 1991, pp.~297--326. Also available at
+  \texttt{http://iml.univ-mrs.fr/\textasciitilde{}lafont/publications.html}
+\item
+  Yves Lafont, ``A new finiteness condition for monoids presented by
+  complete rewriting systems (after Craig C. Squier)'', \emph{Journal of
+  Pure and Applied Algebra} \textbf{98} (1995), 229--244. Also available
+  at
+  \texttt{http://iml.univ-mrs.fr/\textasciitilde{}lafont/publications.html}
+\end{enumerate}
+
+Then you can go on to the higher-dimensional stuff:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{10}
+\item
+  Albert Burroni, ``Higher dimensional word problem with application to
+  equational logic'', \emph{Theor. Comput. Sci.} \textbf{115} (1993),
+  43--62. Also available at
+  \texttt{http://www.math.jussieu.fr/\textasciitilde{}burroni/}
+\item
+  Yves Guiraud, ``The three dimensions of proofs'', \emph{Annals of Pure
+  and Applied Logic} (in press). Also available at
+  \texttt{http://iml.univ-mrs.fr/\%7Eguiraud/recherche/cos1.pdf}
+\item
+  Francois Metayer, ``Resolutions by polygraphs'', \emph{Theory and
+  Applications of Categories} \textbf{11} (2003), 148--184. Available
+  online at
+  \texttt{http://www.tac.mta.ca/tac/volumes/11/7/11-07abs.html}
+\end{enumerate}
+
+I was also lucky to get some personal tutoring from folks including
+Laurent Regnier, Peter Selinger and especially Phil Scott. Ever since
+\protect\hyperlink{week40}{``Week 40''}, I've been trying to understand
+something called ``linear logic'', which was invented by Jean-Yves
+Girard, who teaches in Marseille. Thanks to all this tutoring, I think I
+finally get it!
+
+To get a taste of what Phil Scott told me, you should read this:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{13}
+\tightlist
+\item
+  Philip J. Scott, ``Some aspects of categories in computer science'',
+  \emph{Handbook of Algebra}, Vol. \textbf{2}, ed.~M. Hazewinkel,
+  Elsevier, New York, 2000. Available as
+  \texttt{http://www.site.uottawa.ca/\textasciitilde{}phil/papers/}
+\end{enumerate}
+
+Right now, I'm only up to explaining a microscopic portion of this
+stuff. But since the typical reader of This Week's Finds may know more
+about physics than logic, maybe that's good. In fact, I'll use this as
+an excuse to simplify everything tremendously, leaving out all sorts of
+details that a real logician would want.
+
+Logic can be divided into two parts: SYNTAX and SEMANTICS. Roughly
+speaking, syntax concerns the symbols you scribble on the page, while
+semantics concerns what these symbols mean.
+
+A bit more precisely, imagine some kind of logical system where you
+write down some theory --- like the axioms for a group, say --- and use
+it to prove theorems.
+
+In the realm of syntax, we focus on the form our theory is allowed to
+have, and how we can deduce new sentences from old ones. So, one of the
+key concepts is that of a PROOF. The details will vary depending on the
+kind of logical system we're studying.
+
+In the realm of semantics, we are interested in gadgets that actually
+satisfy the axioms in our theory --- for example, actual groups, if
+we're thinking about the theory of groups. Such a gadget is called a
+MODEL of the theory. Again, the details vary immensely.
+
+In the realm of syntax, we say a list of axioms \(X\) ``implies'' a
+sentence \(P\) if we can prove \(P\) from \(X\) using some deduction
+rules, and we write this as \[X \vdash P\] In the realm of semantics, we
+say a list of axioms \(X\) ``entails'' a sentence \(P\) if every model
+of \(X\) is also a model of \(P\), and we write this as \[X \models P\]
+Syntax and semantics are ``dual'' in a certain sense --- a sense that
+can be made very precise if one fixes a specific class of logical
+systems. This duality is akin to the usual relation between vector
+spaces and their duals, or more generally groups and their categories of
+representations. The idea is that given a theory \(T\) you can figure
+out its models, which form a category \(\mathsf{Mod}(T)\) --- and
+conversely, given the category of models \(\mathsf{Mod}(T)\), perhaps
+with a little extra information, you can reconstruct \(T\).
+
+A little extra information? Well, in some cases a model of \(T\) will be
+a \emph{set} with some extra structure --- for example, if \(T\) is the
+theory of groups, a model of \(T\) will be a group, which is a set
+equipped with some operations. So, in these cases there's a functor
+\[U\colon \mathsf{Mod}(T) \to \mathsf{Set}\] assigning each model its
+underlying set. And, you can easily reconstruct \(T\) from
+\(\mathsf{Mod}(T)\) \emph{together} with this functor.
+
+This idea was worked out by Lawvere for a class of logical systems
+called algebraic theories, which I discussed in
+\protect\hyperlink{week200}{``Week 200''}. But, the same idea goes by
+the name of ``Tannaka-Krein duality'' in a different context: a Hopf
+algebra \(H\) has a category of comodules \(\mathsf{Rep}(H)\), which
+comes equipped with a functor
+\[U\colon \mathsf{Rep}(H) \to \mathsf{Vect}\] assigning each comodule
+its underlying vector space. And, you can reconstruct \(H\) from
+\(\mathsf{Rep}(H)\) together with this functor. The proof is even very
+similar to Lawvere's proof for algebraic theories!
+
+I gave a bunch of talks in Marseille about algebraic theories, some
+related logical systems called PROPs and PROs, and their relation to
+quantum theory, especially Feynman diagrams:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{13}
+\tightlist
+\item
+  John Baez, ``Universal algebra and diagrammatic reasoning'', available
+  as \texttt{http://math.ucr.edu/home/baez/universal/}
+\end{enumerate}
+
+I came mighty close to explaining how to compute the cohomology of an
+algebraic theory\ldots{} and you can read more about that here:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{14}
+\item
+  Mauka Jibladze and Teimuraz Pirashvili, ``Cohomology of algebraic
+  theories'', \emph{J. Algebra} \textbf{137} (1991) 253--296.
+
+  Mauka Jibladze and Teimuraz Pirashvili, ``Quillen cohomology and
+  Baues-Wirsching cohomology of algebraic theories'',
+  \emph{Max-Planck-Institut für Mathematik}, preprint series \textbf{86}
+  (2005).
+\end{enumerate}
+
+But alas, I didn't get around to talking about the duality between
+syntax and semantics. For that Lawvere's original thesis is a good place
+to go:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{15}
+\tightlist
+\item
+  F. William Lawvere, \emph{Functorial Semantics of Algebraic Theories},
+  Ph.D.~thesis, Columbia University, 1963. Also available at
+  \texttt{http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html}
+\end{enumerate}
+
+Anyway, the stuff Phil Scott told me about was mainly over on the syntax
+side. Here categories show up in another way. Oversimplifying as usual,
+the idea is to create a category where an object \(P\) is a
+\emph{sentence} --- or maybe a list of sentences --- and a morphism
+\[f\colon P \to Q\] is a \emph{proof} of \(Q\) from \(P\) --- or maybe
+an equivalence class of proofs.
+
+We can compose proofs in a more or less obvious way, so with any luck
+this gives a category! And, different kinds of logical system give us
+different kinds of categories.
+
+Quite famously, the multiplicative fragment of intuitionistic logic
+gives cartesian closed categories. (The ``multiplicative fragment'' is
+the portion that deals with ``and'' and ``implies'' but leaves out
+``or'' and ``not''. I'm calling it this because ``and'' acts like
+multiplication, while ``or'' acts like addition.) Similarly, the
+multiplicative fragment of linear logic gives \(*\)-autonomous
+categories. Full-fledged intuitionistic logic gives cartesian closed
+categories with finite coproducts, and full-fledged linear logic gives
+us even fancier kinds of categories! If you want to learn about these
+examples, read the handbook article by Phil Scott mentioned above.
+
+One thing that intrigues me is the equivalence relation we need to get a
+category whose morphisms are equivalence classes of proofs. In Gentzen's
+``natural deduction'' approach to logic, there are various deduction
+rules. Here's one: \[
+  \AxiomC{$P\vdash Q$}
+  \AxiomC{$P\vdash Q'$}
+  \BinaryInfC{$P\vdash Q\&Q'$}
+  \DisplayProof
+\] This says that if \(P\) implies \(Q\) and it also implies \(Q'\),
+then it implies \(Q \& Q'\).
+
+Here's another: \[
+  \AxiomC{$P\vdash Q \implies R$}
+  \UnaryInfC{$P\,\mbox{and}\,Q\vdash R$}
+  \DisplayProof
+\] And here's a very important one, called the ``cut rule'': \[
+  \AxiomC{$P\vdash Q$}
+  \AxiomC{$Q\vdash R$}
+  \BinaryInfC{$P\vdash R$}
+  \DisplayProof
+\] If \(P\) implies \(Q\) and \(Q\) implies \(R\), then \(P\) implies
+\(R\)!
+
+There are a bunch more\ldots{} and to get the game rolling we need to
+start with this: \[P\vdash P\] In this setup, a proof
+\(f\colon P \to Q\) looks vaguely like this: \[
+  \AxiomC{$f$-crud}
+  \noLine\UnaryInfC{$f$-crud}
+  \noLine\UnaryInfC{$f$-crud}
+  \noLine\UnaryInfC{$f$-crud}
+  \UnaryInfC{$P\vdash Q$}
+  \DisplayProof
+\] The stuff I'm calling ``\(f\)-crud'' is a bunch of steps which use
+the deduction rules to get to \(P \vdash Q.\)
+
+Suppose we also we also have a proof \[g\colon Q \to R\] There's a way
+to stick \(f\) and \(g\) together to get a proof \[fg\colon P \to R\]
+This proof consists of setting the proofs \(f\) and \(g\) side by side
+and then using the cut rule to finish the job. So, \(fg\) looks like
+this: \[
+  \AxiomC{$f$-crud}
+  \noLine\UnaryInfC{$f$-crud}
+  \noLine\UnaryInfC{$f$-crud}
+  \noLine\UnaryInfC{$f$-crud}
+  \UnaryInfC{$P\vdash Q$}
+  \AxiomC{$g$-crud}
+  \noLine\UnaryInfC{$g$-crud}
+  \noLine\UnaryInfC{$g$-crud}
+  \noLine\UnaryInfC{$g$-crud}
+  \UnaryInfC{$Q\vdash R$}
+  \BinaryInfC{$P\vdash R$}
+  \DisplayProof
+\]
+
+Now let's see if composition is associative. Suppose we also have a
+proof \[h\colon R \to S\] We can form proofs \[(fg)h\colon P \to S\] and
+\[f(gh)\colon P \to S\] Are they equal? No! The first one looks like
+this: \[
+  \AxiomC{$f$-crud}
+  \noLine\UnaryInfC{$f$-crud}
+  \noLine\UnaryInfC{$f$-crud}
+  \noLine\UnaryInfC{$f$-crud}
+  \UnaryInfC{$P\vdash Q$}
+  \AxiomC{$g$-crud}
+  \noLine\UnaryInfC{$g$-crud}
+  \noLine\UnaryInfC{$g$-crud}
+  \noLine\UnaryInfC{$g$-crud}
+  \UnaryInfC{$Q\vdash R$}
+  \BinaryInfC{$P\vdash R$}
+  \AxiomC{$h$-crud}
+  \noLine\UnaryInfC{$h$-crud}
+  \noLine\UnaryInfC{$h$-crud}
+  \noLine\UnaryInfC{$h$-crud}
+  \UnaryInfC{$R\vdash S$}
+  \BinaryInfC{$P\vdash S$}
+  \DisplayProof
+\] while the second one looks like this: \[
+  \AxiomC{$f$-crud}
+  \noLine\UnaryInfC{$f$-crud}
+  \noLine\UnaryInfC{$f$-crud}
+  \noLine\UnaryInfC{$f$-crud}
+  \UnaryInfC{$P\vdash Q$}
+  \AxiomC{$g$-crud}
+  \noLine\UnaryInfC{$g$-crud}
+  \noLine\UnaryInfC{$g$-crud}
+  \noLine\UnaryInfC{$g$-crud}
+  \UnaryInfC{$Q\vdash R$}
+  \AxiomC{$h$-crud}
+  \noLine\UnaryInfC{$h$-crud}
+  \noLine\UnaryInfC{$h$-crud}
+  \noLine\UnaryInfC{$h$-crud}
+  \UnaryInfC{$R\vdash S$}
+  \BinaryInfC{$Q\vdash S$}
+  \BinaryInfC{$P\vdash S$}
+  \DisplayProof
+\] So, they're not quite equal! This is one reason we need an
+equivalence relation on proofs to get a category. Both proofs resemble
+trees, but the first looks more like this: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (1,-2);
+    \draw[thick] (1,0) to (0.5,-1);
+    \draw[thick] (2,0) to (1,-2);
+  \end{tikzpicture}
+\] while the second looks more like this: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (1,-2);
+    \draw[thick] (1,0) to (1.5,-1);
+    \draw[thick] (2,0) to (1,-2);
+  \end{tikzpicture}
+\] So, we need an equivalence relation that identifies these proofs if
+we want composition to be associative!
+
+This sort of idea, including this ``tree'' business, is very familiar
+from homotopy theory, where we need a similar equivalence relation if we
+want composition of paths to be associative. But in homotopy theory,
+people have learned that it's often better NOT to impose an equivalence
+relation on paths! Instead, it's better to form a \emph{weak
+\(2\)-category} of paths, where there's a \(2\)-morphism going from this
+sort of composite: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (1,-2);
+    \draw[thick] (1,0) to (0.5,-1);
+    \draw[thick] (2,0) to (1,-2);
+  \end{tikzpicture}
+\] to this one: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (1,-2);
+    \draw[thick] (1,0) to (1.5,-1);
+    \draw[thick] (2,0) to (1,-2);
+  \end{tikzpicture}
+\] This is called the ``associator''. In our logic context, we can think
+of the associator as a way to transform one proof into another.
+
+The associator should satisfy an equation called the ``pentagon
+identity'', which I explained back in \protect\hyperlink{week144}{``Week
+144''}. However, it will only do this if we let \(2\)-morphisms be
+\emph{equivalence classes} of proof transformations.
+
+So, there's a kind of infinite regress here. To deal with this, it would
+be best to work with a ``weak \(\omega\)-category'' with
+
+\begin{itemize}
+\tightlist
+\item
+  sentences (or sequences of sentences) as objects,
+\item
+  proofs as morphisms,
+\item
+  proof transformations as \(2\)-morphisms,
+\item
+  transformations of proof transformations as \(3\)-morphisms, \ldots{}
+\end{itemize}
+
+and so on. With this, we would never need any equivalence relations: we
+keep track of all transformations explicitly. This is almost beyond what
+mathematicians are capable of at present, but it's clearly a good thing
+to strive toward.
+
+So far, it seems Seely has gone the furthest in this direction. In his
+thesis, way back in 1977, he studied what one might call ``weak
+cartesian closed \(2\)-categories'' arising from proof theory. You can
+read an account of this work here:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{16}
+\item
+  R.A.G. Seely, ``Weak adjointness in proof theory'', in \emph{Proc.
+  Durham Conf. on Applications of Sheaves}, Springer Lecture Notes in
+  Mathematics \textbf{753}, Springer, Berlin, 1979, pp.~697--701. Also
+  available at \texttt{http://www.math.mcgill.ca/rags/WkAdj/adj.pdf}
+
+  R.A.G. Seely, ``Modeling computations: a \(2\)-categorical
+  framework'', in \emph{Proc. Symposium on Logic in Computer Science
+  1987}, Computer Society of the IEEE, pp.~65--71. Also available at
+  \texttt{http://www.math.mcgill.ca/rags/WkAdj/LICS.pdf}
+\end{enumerate}
+
+Can we go all the way and cook up some sort of \(\omega\)-category of
+proofs? Interestingly, while the logicians at \emph{Geocal06} were
+talking about \(n\)-categories and the geometry of proofs, the
+mathematician Vladimir Voevodsky was giving some talks at Stanford about
+something that sounds pretty similar:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{16}
+\tightlist
+\item
+  Vladimir Voevodsky, lectures on homotopy \(\lambda\) calculus, notice
+  at \texttt{http://math.stanford.edu/distinguished\_voevodsky.htm}
+\end{enumerate}
+
+Voevodsky has thought hard about \(n\)-categories, and he won the Fields
+medal for his applications of homotopy theory to algebraic geometry.
+
+The typed \(\lambda\) calculus is another way of thinking about
+intuitionistic logic --- or in other words, cartesian closed categories
+of proofs. The ``homotopy \(\lambda\) calculus'' should thus be
+something similar, but where we keep track of transformations between
+proofs, transformations between transformations between proofs\ldots{}
+and so on ad infinitum.
+
+But that's just my guess! Is this what Voevodsky is talking about??? I
+haven't managed to get anyone to tell me. Maybe I'll email him and ask.
+
+There were a lot of other cool talks at \emph{Geocal06}, like Girard's
+talk on applications of von Neumann algebras (especially the hyperfinite
+type \(\mathrm{II}_1\) factor!) in logic, and Peter Selinger's talk on
+the category of completely positive maps, diagrammatic methods for
+dealing with these maps, and their applications to quantum logic:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{17}
+\tightlist
+\item
+  Peter Selinger, ``Dagger compact closed categories and completely
+  positive maps'', available at
+  \texttt{http://www.mscs.dal.ca/\textasciitilde{}selinger/papers.html}
+\end{enumerate}
+
+But, I want to finish writing this and go out and have some waffles for
+my Sunday brunch. So, I'll stop here!
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Addendum:} I thank Aaron Lauda, Paul Levy and Peter McBurney for
+corrections. Jeffrey Winkler points out that ``hematite'' got its name
+from the Greek word for ``blood'' because the ancient Greeks thought
+these rocks marked the locations of battles where the blood of warriors
+had soaked into the rocks. This is appropriate, since Mars is the god of
+war!
+
+An anonymous correspondent had this to say about the ``homotopy
+\(\lambda\) calculus'':
+
+\begin{quote}
+Several years ago, Kontsevich explained to me an idea he had about
+``homotopy proof theory'' (or model theory, or logic, \ldots). As soon
+as I saw Voevodsky's abstract it reminded me of what Kontsevich said;
+perhaps it's a well-known idea in the Russian-Fields-medallist club.
+Somewhere I have notes from what Kontsevich said, but as far as I
+remember it went roughly like this.
+
+In certain set-ups (such as Martin-Löf type theory) every statement
+carries a proof of itself. Of course, a statement may have many proofs.
+If we imagine that all the statements are of the form ``\(A = B\)'',
+then what we're saying is that every equals sign carries with it a
+\emph{reason} for equality, or proof of equality. If I remember rightly,
+Kontsevich's idea was to do a topological analogue, so that every term
+(like \(A\) and \(B\)) is assigned a point in some fixed space, and
+equalities of terms induce paths between points. There was more, pushing
+the idea further, but I forget what.
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+
+
+\hypertarget{week228}{%
+\section{March 18, 2006}\label{week228}}
+
+Last week I showed you some pretty pictures of dunes on Mars. This week
+I'll talk about dunes called ``barchans'' and their relation to
+self-organized criticality. Then I'll say a bit about Lauscher and
+Reuter's work on quantum gravity\ldots{} and then I'll beg for help on a
+problem involving so-called ``rational tangles''.
+
+But first, a demonstration of my psychic powers.
+
+Take any book off the shelf and look at its \(10\)-digit ISBN number.
+Multiply the first digit by 1, the second digit by 2, the third digit by
+3 and so on\ldots{} up to the \emph{next to last} digit. Add them up.
+
+Then take this sum and see what it equals \(\mod 11\). At the end of
+this article, I'll say what you got.
+
+Okay. Here's a photo of the icy dunes of northern Mars. I love it
+because it shows that Mars is a lively place with wind and water:
+\[\href{http://themis.asu.edu/features/polardunes}{\includegraphics[max width=\linewidth]{../images/mars_polardunes.jpg}}\]
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\tightlist
+\item
+  ``North polar sand sea'', Mars Odyssey Mission, THEMIS (Thermal
+  emission imaging system),
+  \texttt{http://themis.mars.asu.edu/features/polardunes}
+\end{enumerate}
+
+These dunes, occupying a region the size of Texas, have been sculpted by
+wind into long lines with crests 500 meters apart. Their hollows are
+covered with frost, which appears bluish-white in this infrared
+photograph. The big white spot near the bottom is a hill 100 meters
+high.
+
+Where the dunes become sparser --- for example, near that icy hill ---
+they break apart into ``barchans''. These are crescent-shaped formations
+whose horns point downwind. Barchans are also found on the deserts of
+Earth, and surely on many other planets across the Universe. They are
+one of several basic dune patterns, an inevitable consequence of the
+laws of nature under fairly common conditions.
+
+The upwind slope of a barchan is gentle, while the downwind slope is
+between 32 and 34 degrees. This is the ``angle of repose'' for sand -
+the maximum angle it can tolerate before it starts slipping down:
+\[\href{http://en.wikipedia.org/wiki/Barchan}{\includegraphics[max width=\linewidth]{../images/barchan.jpg}}\]
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Wikipedia, ``Barchan'', \texttt{http://en.wikipedia.org/wiki/Barchan}
+\end{enumerate}
+
+Wind-blown sand accumulates on the front of the barchan, and then slides
+down the ``slip face'' on the back.
+
+Barchans gradually migrate in the direction of the wind at speeds of
+about 1-20 meters per year, with small barchans moving faster than big
+ones. In fact, when they collide, the smaller barchans pass right
+through the big ones! So, they act like solitons in some ways.
+
+It would be great to see one of these frosty Martian barchans close up.
+We almost can do it now! The European Space Agency's orbiter called Mars
+Express took this wonderful closeup, already shown in
+\protect\hyperlink{week211}{``Week 211''}:
+\[\href{http://www.esa.int/SPECIALS/Mars_Express/SEMLF6D3M5E_1.html}{\includegraphics[max width=\linewidth]{../images/mars_pole_closeup.jpg}}\]
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  ESA/DLR/FU Berlin (G. Neukum), ``Glacial, volcanic and fluvial
+  activity on Mars: latest images'',
+  \texttt{http://www.esa.int/SPECIALS/Mars\_Express/SEMLF6D3M5E\_1.html}
+\end{enumerate}
+
+However, this is not a barchan --- it's a lot bigger. On top of the
+picture we see dunes, but then there's a cliff almost 2 kilometers high
+leading down into what may be a volcanic caldera. The white stuff is
+ice, while the dark stuff could be volcanic ash.
+
+It's actually a bit surprising that there's enough wind on Mars to
+create dunes. After all, the air pressure there is about 1\% what it is
+here on Earth! But in fact the wind speed on Mars often exceeds 200
+kilometers per hour, with gusts up to 600 kilometers per hour. There are
+dust storms on Mars so big they were first seen from telescopes on Earth
+long ago. So, wind is a big factor in Martian geology:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  NASA, ``Mars exploration program: dust storms'',
+  \texttt{http://mars.jpl.nasa.gov/gallery/duststorms/}
+\end{enumerate}
+
+The Mars rover Spirit even got its solar panels cleaned by some dust
+devils, and it took some movies of them:
+\[\href{http://marsrovers.nasa.gov/gallery/press/spirit/20050819a.html}{\includegraphics[max width=\linewidth]{../images/mars_dust_devil.png}}\]
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  NASA, ``Exploration rover mission: dust devils at Gusev, Sol 525'',
+  \texttt{http://marsrovers.nasa.gov/gallery/press/spirit/20050819a.html}
+\end{enumerate}
+
+Turning to mathematical physics per se, I can't resist pointing out that
+sand piles became very fashionable in this subject a while back.
+
+Why? Well, for this I need to explain ``self-organized criticality''.
+
+First, note that when a pile of sand is exactly at its angle of repose,
+it will suffer lots of little landslides --- and a few of these will
+become big.
+
+The theory of ``critical phenomena'' suggests that in this situation,
+the probability that a landslide grows to size \(L\) should satisfy a
+power law. In other, it should be proportional to \[\frac{1}{L^c}\] for
+some number \(c\) called the ``critical exponent''. At least, this type
+of behavior is seen in many other situations where a physical system is
+on the brink of some drastic change --- or more precisely, a ``critical
+point''.
+
+When a system is not at a critical ponit, we typically see exponential
+laws, where the probability of a disturbance of size \(L\) is
+proportional to \[\exp\left(-\frac{L}{L_0}\right)\] where \(L_0\) is a
+fixed length scale. This means that our system will look qualitatively
+different depending how much we zoom in with our microscope. At length
+scales shorter than \(L_c\), disturbances are really common, while at
+larger length scales they're incredibly rare.
+
+When a system \emph{is} at a critical point, it's self-similar: you can
+zoom in or zoom out, and it looks qualitatively the same! It has no
+specific length scale. This is what the power law says.
+
+Here's a good place to learn the basics of power laws and
+self-similarity:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{5}
+\tightlist
+\item
+  Manfred R. Schroeder, \emph{Fractals, Chaos, Power Laws}, W. H.
+  Freeman, New York, 1992.
+\end{enumerate}
+
+What makes sand dunes interesting is that as they seem to \emph{enjoy}
+living on the brink of danger. As the wind blows, they heap up until
+their slip face is right at the angle of repose\ldots{} ready for
+landslides!
+
+This is the idea of ``self-organized criticality'': some physical
+systems seem to spontaneously bring themselves towards critical points,
+without any need for us to tune their parameters to special values.
+
+The paper that introduced this idea came out in 1987:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{6}
+\tightlist
+\item
+  Per Bak, Chao Tang and Kurt Wiesenfeld, ``Self-organized criticality:
+  an explanation of \(1/f\) noise'', \emph{Phys. Rev.~Lett.} \textbf{59}
+  (1987) 381--384.
+\end{enumerate}
+
+They came up with a simple model of a sand pile that exhibits
+self-organized criticality. In the words of Jos Thijssen:
+
+\begin{quote}
+Bak and co-workers modelled the sand pile as a regular array of columns
+consisting of cubic sand grains. Addition of new grains is simply
+performed by selecting a column at random and increasing its height by
+one. If the column then exceeds its neighbours in height more than some
+threshold, it will ``collapse'': it will lose some grains which are
+distributed evenly over its nearest neighbours. As this collapse alters
+the height differences involving those neighbours, there is the
+possibility that they collapse in turn. A cascade process sets in until
+all height differences are below the threshold. The size of such an
+avalanche is defined as the number of sand grains sliding as a result of
+a single grain of sand being added to the pile.
+
+What is so interesting about the sand pile model? It turns out that the
+sides of the sand pile acquire a specific slope, which is such that the
+distribution of avalanches as function of size scales as a power law.
+Power laws indicate the absence of scale and indeed avalanches on all
+scales are sustained for the equilibrium slope. If the slope is changed
+artificially from its equilibrium value, the distribution is no longer a
+power law, but it will have an intrinsic scale (e.g.~exponential). Power
+laws and absence of scale are the signature of a system being critical.
+Because the sand pile tends to adjust the slope of its sides until the
+power law scaling sets in, the criticality is called ``self-organised''.
+\end{quote}
+
+If your computer runs Java applets, you can play with Thijssen's
+simulation sand pile and see the avalanches yourself:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{7}
+\tightlist
+\item
+  Jos Thijssen, ``The sand pile model and self organised criticality'',
+  \texttt{http://www.tn.tudelft.nl/tn/People/Staff/Thijssen/sandexpl.html}
+\end{enumerate}
+
+And here's a cellular automaton sand pile you can play with:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{8}
+\tightlist
+\item
+  Albert Schueller, ``Cellular automaton sand pile model'',
+  \texttt{http://schuelaw.whitman.edu/JavaApplets/SandPileApplet/}
+\end{enumerate}
+
+This one is only \(2\)-dimensional, so the avalanches are less dramatic,
+but you can have some fun using the mouse to build structures that
+impede the motion of sand.
+
+Like a speck of sand landing at the right place at the right time, the
+original paper of Bak \emph{et al} started a huge landslide of work on
+self-organized criticality, some of which has been popularized here:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{9}
+\tightlist
+\item
+  Per Bak, \emph{How Nature Works: The Science of Self-Organized
+  Criticality}, Copernicus, New York, 1996.
+\end{enumerate}
+
+As you can guess from the title ``How Nature Works'', some people got a
+little carried away with the importance of self-organized criticality.
+Then there was a kind of backlash, just as happened with fractals,
+chaos, and catastrophe theory. These are all perfectly respectable and
+interesting topics in mathematical physics that suffered from being
+oversold. People are always eager to find the secret key that will
+unlock all the mysteries of the universe. So, if some new idea seems
+very general, people will run around trying to unlock all the mysteries
+of the universe with it --- and become sorely disappointed when it only
+unlocks \emph{some}.
+
+I'd be interested to see how well mathematical physicists can model
+actual sand dunes. These display an interesting complexity of behavior,
+as the pictures here show:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{10}
+\tightlist
+\item
+  US Army Corps of Engineers, ``Dunes'',
+  \texttt{http://www.tec.army.mil/research/products/desert\_guide/lsmsheet/lsdune.htm}
+\end{enumerate}
+
+I've only looked at a few papers on the subject, all dealing with
+barchans:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{11}
+\item
+  V. Schwaemmle and H. J. Herrmann, ``Solitary wave behaviour of sand
+  dunes'', \emph{Nature} \textbf{426} (Dec.~11, 2003), 619--620.
+\item
+  Klaus Kroy, Gerd Sauermann, and Hans J. Hermann, ``Minimal model for
+  sand dunes'', \emph{Phys. Rev.~Lett.} \textbf{88} (2002), 054301. Also
+  available at
+  \href{http://arxiv.org/abs/cond-mat/0101380}{\texttt{cond-mat/0101380}}.
+\item
+  H. Elbelrhiti, P. Claudin, and B. Andreotti, ``Field evidence for
+  surface-wave-induced instability of sand dunes'', \emph{Nature}
+  \textbf{437} (Sep.~29, 2005), 720--723.
+\end{enumerate}
+
+The first paper describes how barchans pass through each other like
+solitons, simulating them by an equation that's described in the second
+one. (By the way, the term ``minimal model'' in the title of the second
+paper is not being used in the sense familiar in conformal field
+theory!)
+
+The third paper reports the results of a 3-year field study: in reality,
+barchans are not stable, and big ones (called ``megabarchans'') can
+break apart into smaller ``elementary barchans''.
+
+If you're more interested in Mars than the mathematical physics of sand
+dunes, you'll be happy to hear that Google has just moved to drastically
+expand its customer base by introducing ``Google Mars'':
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{14}
+\tightlist
+\item
+  ``Google Mars'', \texttt{http://www.google.com/mars/}
+\end{enumerate}
+
+Using this you can explore many features of Mars, including its dunes.
+
+I'm getting a little tired out, but there's one thing I've been meaning
+to mention for a while. It's actually related to renormalization, which
+is secretly the same subject as this ``critical point'' business I just
+mentioned. But, it's not about sand piles --- it's about quantum
+gravity!
+
+In \protect\hyperlink{week222}{``Week 222''} I spoke about the work of
+Lauscher and Reuter, who claim to have found evidence for an ultraviolet
+fixed point in quantum gravity without matter. In other words, as you
+zoom in closer and closer, they claim quantum gravity without matter
+acts more and more like some fixed theory. This would be big news: it
+would suggest that gravity without matter is a sensible theory, contrary
+to what everyone in string theory says!
+
+Not surprisingly, the string theorist Jacques Distler examined Lauscher
+and Reuter's work with a critical eye. And, he wrote up a nice
+explanation of the problems with their work:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{15}
+\tightlist
+\item
+  Jacques Distler, ``Unpleasantness'',
+  \texttt{http://golem.ph.utexas.edu/\textasciitilde{}distler/blog/archives/000648.html}
+\end{enumerate}
+
+Briefly, the problem is that Lauscher and Reuter make a drastic
+approximation. They start with the ``exact renormalization group
+equation'', which is a beautiful thing: it says how a Lagrangian for a
+field theory at one length scale gives rise to an effective Lagrangian
+for the same theory at a larger length scale. However, then they
+truncate the incredibly complicated formula for a fully general
+Lagrangian, restricting to Lagrangians with only an Einstein-Hilbert
+term and a cosmological constant. Like Distler, I see no reason to think
+this approximation is valid. So, their claimed ultraviolet fixed point
+could be an artifact of their method.
+
+Whether it's worth going further and checking this by considering a
+slightly less brutal approximation, using Lagrangians with a few more
+terms, is a matter of taste. Distler doesn't think so. I hope Lauscher
+and Reuter do. If they don't, we may never know for sure what happens. I
+think it's actually rather amazing that they get an fixed point with
+their brutal approximation, instead of coupling constants that run to
+infinity or zero, which is what I would have naively expected. But who
+knows? Maybe this is easily understood if you think hard enough.
+
+Today I was also going to talk about the \(3\)-strand braid group, the
+group \(\mathrm{PSL}(2,\mathbb{Z})\), and rational tangles, but now I
+don't have the energy. So instead, I'll just put out a request for help!
+
+There's a wonderful game invented by John Conway called ``rational
+tangles''. Here's how it works. It involves two players and a referee.
+
+The players, call them \(A\) and \(B\), start by facing each other and
+holding ropes in each hand connecting them together like this: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node[label=above:{$A$}]{} to (0,-2) node[label=below:{$B$}]{};
+    \draw[thick] (1.5,0) node[label=above:{$A$}]{} to (1.5,-2) node[label=below:{$B$}]{};
+  \end{tikzpicture}
+\] This is called ``position \(0\)''. The referee then cries out either
+\emph{add one!} or \emph{take the negative reciprocal!}. If the referee
+yells \emph{add one!}, player \(B\) has to switch which hand he's using
+to hold which rope, making sure to pass the right one over the left,
+like this: \[
+  \begin{tikzpicture}
+    \draw[white] (0,0) node[label=above:{$A$}]{} to (0,-2) node[label=below:{$B$}]{};
+    \draw[white] (1.5,0) node[label=above:{$A$}]{} to (1.5,-2) node[label=below:{$B$}]{};
+    \begin{knot}[clip width=5]
+      \strand[thick] (0,0)
+        to [out=down,in=up] (1.5,-2);
+      \strand[thick] (1.5,0)
+        to [out=down,in=up] (0,-2);
+    \end{knot}
+  \end{tikzpicture}
+\] This is called ``position \(1\)'', since we started with ``position
+\(0\)'' and then did \emph{add one!} But if the referee says \emph{take
+the inverse reciprocal!}, both players must cooperate to move all four
+ends of the ropes a quarter-turn clockwise, like this: \[
+  \begin{tikzpicture}
+    \draw[white] (0,0) node[label=above:{$A$}]{} to (0,-2) node[label=below:{$B$}]{};
+    \draw[white] (1.5,0) node[label=above:{$A$}]{} to (1.5,-2) node[label=below:{$B$}]{};
+    \begin{knot}[clip width=5]
+      \strand[thick] (0,0)
+        to [out=down,in=down,looseness=1.5] (1.5,0);
+      \strand[thick] (0,-2)
+        to [out=up,in=up,looseness=1.5] (1.5,-2);
+    \end{knot}
+  \end{tikzpicture}
+\] This is called ``position \(-1/0\)'', since we started with \(0\) and
+then did \emph{take the negative reciprocal!}
+
+The referee keeps crying \emph{add one!} or \emph{take the negative
+reciprocal!} in whatever order she feels like, and players \(A\) and
+\(B\) keep doing the same sort of thing: either player \(B\) switches
+the ropes right over left, or both players rotate the whole tangle a
+quarter-turn clockwise. It's actually best if the referee doesn't start
+with \emph{take the negative reciprocal!}, since some people refuse to
+divide by zero, for religious reasons. But, it's perfectly legal in this
+game.
+
+Anyway, after a while the ropes will be in ``position \(p/q\)'' for some
+complicated rational number \(p/q\). The'll be all tangled up --- but in
+a special way, called a ``rational tangle''.
+
+Then the players have to \emph{undo} the tangling and get back to
+``position \(0\)''. They may not remember the exact sequence of moves
+that got them into the mess they are in. In fact the game is much more
+fun if they \emph{don't} remember. It's best to do it at a party,
+possibly after a few drinks.
+
+Luckily, any sequence of \emph{add one!} and \emph{take the negative
+reciprocal!} moves the players make that carry their number back to
+\(0\), will carry their tangle back to ``position \(0\)''. So they just
+need to figure out how to get their number back to \(0\), and the tangle
+will automatically untangle itself. That's the cool part! It's a highly
+nonobvious theorem due to Conway.
+
+I'm vaguely aware of a few proofs of this fact. As far as I know,
+Conway's original proof uses the Alexander-Conway polynomial:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{15}
+\tightlist
+\item
+  John Horton Conway, ``An enumeration of knots and links and some of
+  their algebraic properties'', in \emph{Computational Problems of
+  Abstract Algebra}, ed.~John Leech, Pergamon Press, Oxford, 1970,
+  329--358.
+\end{enumerate}
+
+There's also a proof by Goldman and Kauffman using the Jones polynomial:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{16}
+\tightlist
+\item
+  Jay R. Goldman and Louis H. Kauffman, ``Rational tangles'',
+  \emph{Advances in Applied Mathematics} \textbf{18} (1997), 300--332.
+  Also available at
+  \texttt{http://www.math.uic.edu/\textasciitilde{}kauffman/RTang.pdf}
+\end{enumerate}
+
+There are also two proofs in here:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{17}
+\tightlist
+\item
+  Louis H. Kauffman and Sofia Lambropoulou, ``On the classification of
+  rational tangles'', available as
+  \href{http://arxiv.org/abs/math.GT/0311499}{\texttt{math.GT/0311499}}.
+\end{enumerate}
+
+But here's what I want to know: is there a proof that makes extensive
+use of the group \(\mathrm{PSL}(2,\mathbb{Z})\) and its relation to
+topology?
+
+After all, the basic operations on rational tangles are ``adding one''
+and ``negative reciprocal'', and these generate all the fractional
+linear transformations \[z\mapsto\frac{az+b}{cz+d}\] with \(a,b,c,d\)
+integer and \(ad-bc = 1\). The group of these transformations is
+\(\mathrm{PSL}(2,\mathbb{Z})\). It acts on rational tangles, and
+Conway's theorem says this action is isomorphic to the obvious action of
+\(\mathrm{PSL}(2,\mathbb{Z})\) as fractional linear transformations of
+the ``rational projective line'', meaning the rational numbers together
+with a point at infinity. Since \(\mathrm{PSL}(2,\mathbb{Z})\) has lots
+of relations to topology, there should be some proof of Conway's theorem
+that \emph{uses} these relations to get the job done.
+
+Does anybody know one?
+
+Finally, the answer to the psychic powers puzzle: if you did the
+calculation right, you got the last digit of the book's ISBN number ---
+unless your answer was 10, in which case the ISBN number should end in
+the letter X.
+
+This trick is called a ``check sum'' or ``check digit'': it's a way to
+spot errors. The Universal Product Code, used in those bar codes you see
+everywhere, also has a check digit. So do credit cards.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Addendum:} Aaron Lauda and James Given had comments. Lauda
+wrote:
+
+\begin{quote}
+Usually people describe the scheme in a different way, which is actually
+equivalent to what you said. Denote the 10 digit ISBN number as \(N_i\),
+for \(1\leqslant i\leqslant 10\). Compute
+\[\sum_{i=1}^{10}(11-i)N_i\mod11\tag{$\star$}\] which should give you
+zero. That is take the first digit, multiply it by 10, the second by 9,
+etc. Add them up and compute the sum \(\mod 11\). You will always get
+zero.
+
+Some fun things you might like to add:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  If you make a mistake writing down a single digit in the ISBN then the
+  equation (*) will not equal zero.
+\item
+  The equation (*) may fail to give you zero \(\mod 11\) if you make a
+  mistake with two of the digits, but it will never fail if you
+  interchange two adjacent digits.
+\end{enumerate}
+
+Regards,\\
+Aaron\\
+\end{quote}
+
+Given wrote:
+
+\begin{quote}
+Self-organized criticality (SOC) does in fact involve special settings
+of the parameters in a model.
+
+SOC occurs in sandpile models because one adds the sand extremely
+slowly, i.e., one grain at a time. Otherwise a critical state is not
+obtained. This makes SOC be a special example of dynamical critical
+phenomena in the case that the flux variable (here the rate of sand
+addition) is set to \(\varepsilon_+\), i.e., an infinitesimal value
+greater than zero. This formulation allows SOC to be studied using
+quantum field theory.
+
+Of course the model is built around an underlying instability, namely
+the fact that sand piles which are too steep will fall down. Also, one
+must remove by idealization most sorts of friction between sand grains
+which will otherwise blur out the transition. So SOC is no magic
+prescription for generating scale invariant phenomena. SOC systems are
+``special'' in the way that equilibrium critical points are ``special''.
+As you note, theories of this kind are easily oversold among those eager
+to believe in magic formulas.
+
+Also, you may have been confusing SOC with a favorite concept of the
+chaos/dynamical systems people, namely the ``edge of chaos''. It went
+through several incarnations. Each one tried to formally specify the
+domain, intermediate between order and chaos, in which complex systems
+were most ``interesting''.
+
+Wikipedia summarizes this pretty well. I append the listing for
+convenience.
+
+All My Best,\\
+Jim Given
+\end{quote}
+
+The Wikipedia article is:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{18}
+\tightlist
+\item
+  ``Edge of chaos'', Wikipedia,
+  \texttt{http://en.wikipedia.org/wiki/Edge\_of\_chaos}
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+
+
+\hypertarget{week229}{%
+\section{April 13, 2006}\label{week229}}
+
+I'm visiting Chicago now. I came just in time for a conference in honor
+of Saunders Mac Lane, one of the founders of category theory, who taught
+at the University of Chicago for many years and died last year at the
+age of 95:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\tightlist
+\item
+  Category Theory and its Applications: A Conference in Memory of
+  Saunders Mac Lane,
+  \texttt{http://www.math.uchicago.edu/\textasciitilde{}may/MACLANE/}
+\end{enumerate}
+
+On Friday there was a memorial service where the friends and family of
+Mac Lane spoke about him, and a kind of reminiscence session where
+everyone could tell their favorite stories involving him. Then there
+were a bunch of math talks, both by people with strong connections to
+Mac Lane --- Peter Johnstone, Bill Lawvere, Peter Freyd, Ieke Moerdijk,
+Peter May and Steve Awodey --- and by people working on higher
+categories and their applications.
+
+My own connection to Mac Lane is tiny. Everything I do uses his work,
+but that's true of lots of mathematicians: he discovered so much. Apart
+from watching him celebrate his 90th birthday at a category theory
+conference in Portugal back in 1999, the best moment happened when I
+came to Chicago and gave a talk. He invited me up to his office and we
+talked a bit. He told me I should write a book explaining
+\(n\)-categories. I promised I would\ldots{} I was too shy to say much.
+
+Now I'm trying to write that book, and I just happen to be staying in
+Mac Lane's old office, which makes me feel especially obliged to do it.
+This office is on the third floor of the Ryerson Physical Laboratory. It
+has a very high ceiling, and one wall is lined with two stacks of metal
+bookshelves. You'd need a ladder to reach the top! When I spoke to Mac
+Lane in his office, they were all full of books. Alas, they're empty
+now.
+
+Next time I'll say a bit about Julie Bergner's talk at the Maclane
+memorial conference --- she spoke about derived categories of quiver
+representations and quantum groups. But the conference was so intense
+and exhausting that first I need to recover by thinking about something
+completely different. So, I'll concentrate on last week's puzzle about
+rational tangles.
+
+But first: the astronomy picture of the week!
+
+It'll be more fun after a little background. The northern part of Mars
+is very different from the rest. It's much smoother, and the altitude is
+much less:
+\[\href{http://photojournal.jpl.nasa.gov/catalog/?IDNumber=PIA02820}{\includegraphics[max width=\linewidth]{../images/mars_topography.png}}\]
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Linda M. V. Martel, ``Ancient floodwaters and seas on Mars'',
+  \texttt{http://www.psrd.hawaii.edu/July03/MartianSea.html}
+\end{enumerate}
+
+Why is this?
+
+Many scientists believe the north was an ocean during the Hesperian
+Epoch, a period of Martian history that stretches from about 3.5 to
+about 1.8 billion years ago. In particular, the beautifully named
+``Vastitas Borealis'', an enormous plain that covers most of northern
+Mars, has textures that may have been formed by an ocean that froze and
+then slowly sublimated. (Sublimation is what happens when ice turns
+directly into water vapor without actually melting.) Mike Carr and James
+Head wrote a paper suggesting that around the end of the Hesperian,
+about 30\% of the water on Mars evaporated and left the atmosphere,
+drifting off into outer space\ldots{} part of the danger of life on a
+planet without much gravity:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  M. H. Carr and J. W. Head, III, ``Oceans of Mars: An assessment of the
+  observational evidence and possible fate'', \emph{Journal of
+  Geophysical Research} \textbf{108} (2003), 5042.
+\end{enumerate}
+
+The rest of the water is now frozen at the poles or lurking underground.
+
+And that brings us to our picture. Here's some ice in a crater in
+Vastitas Borealis:
+\[\href{http://www.esa.int/esa-mmg/mmg.pl?b=b&type=I&mission=Mars\%20Express&single=y&start=53&size=b}{\includegraphics[max width=\linewidth]{../images/mars_crater_ice.jpg}}\]
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  ``Water ice in crater at Martian north pole'', European Space Agency
+  (ESA),
+  \texttt{http://www.esa.int/esaMI/Mars\_Express/SEMGKA808BE\_3.html}
+\end{enumerate}
+
+Perhaps this is a remnant of a once mighty ocean!
+
+The picture is close to natural color, but the vertical relief is
+exaggerated by a factor of 3. The crater is 35 kilometers wide and 2
+kilometers deep. It's incredible how they can get this kind of picture
+from satellite photos and lots of clever image processing. I hope they
+didn't do \emph{too} much stuff just to make it look pretty.
+
+Next: rational tangles.
+
+In \protect\hyperlink{week228}{``Week 228''}, I asked for help
+understanding the connection between rational tangles and the group
+\(\mathrm{PSL}(2,\mathbb{Z})\). I got a great reply from Michael
+Hutchings, which winds up relating these ideas to the branched double
+cover of the sphere by the torus. And, this gives me an excuse to tell
+you some stuff I learned from James Dolan about elliptic functions and a
+map of the world called ``Peirce's quincuncial''.
+
+So, let's dive in!
+
+Did you ever try to wrap a sphere around itself twice? Mentally, I mean?
+Slit it open, grab it, pull it, stretch it, wrap it around itself twice,
+and glue the seams back together?
+
+It's not hard. You just take the Riemann sphere --- the complex numbers
+together with a point at infinity --- and map it to itself by the
+function \[f(z) = z^2\] If you think of the sphere as the surface of the
+Earth, with zero at the south pole and infinity as the north pole, this
+function doubles the longitude. So, it wraps the sphere around itself
+twice!
+
+I hope you're visualizing this.
+
+This function is not quite a ``double cover'', because it's not quite
+two-to-one everywhere. Only one point gets mapped to \(z = 0\), namely
+itself, and only one point gets mapped to \(z = \infty\), namely itself.
+Elsewhere \(f\) is two-to-one.
+
+If you walk once around the north pole or south pole, and then apply the
+function \(f\) to your path, you get a path that goes around these
+points \emph{twice}. Summarizing these properties, we call the function
+a ``branched double cover'' of the sphere by itself, with zero and
+infinity as branch points.
+
+Now, how about wrapping a torus twice around a sphere?
+
+This too can be done. It turns out there's a nice branched double cover
+of the sphere by the torus, which has four branch points.
+
+To visualize this, first take the surface of the Earth and mold it into
+a regular octahedron. There will be six corners: the north pole, the
+south pole, the east pole, the west pole, the front pole and the back
+pole. Now take the octahedron and unfold it like this:
+
+\begin{verbatim}
+S-----B-----S
+|    /|\    |
+|   / | \   |
+|  /  |  \  |
+| /   |   \ |
+|/    |    |
+W-----N-----E
+|\    |    /|
+| \   |   / |
+|  \  |  /  |
+|   \ | /   |
+|    |/    |
+S-----F-----S
+\end{verbatim}
+
+We get an interesting map of the world, which was invented in 1876 by
+the American mathematician and philosopher C. S. Peirce while he was
+working at the U. S. Coast and Geodetic Survey. This map is called
+``Peirce's quincuncial'', since when you arrange five dots this way:
+
+\begin{verbatim}
+o   o
+  o
+o   o
+\end{verbatim}
+
+it's called a ``quincunx''. (Somehow this word goes back to the name of
+an ancient Roman coin. I don't understand how this pattern is related to
+the coin.)
+
+This is how Peirce's quincuncial looks as an actual map:
+\[\href{http://www.progonos.com/furuti/MapProj/Normal/ProjConf/projConf.html}{\includegraphics[max width=\linewidth]{../images/quincuncial.jpg}}\]
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  Carlos A. Furuti, ``Conformal projections'',
+  \texttt{http://www.progonos.com/furuti/MapProj/Normal/ProjConf/projConf.html}
+\end{enumerate}
+
+The cool part is that you can tile the plane indefinitely with this map:
+
+\begin{verbatim}
+S-----B-----S-----F-----S-----B-----S-----F-----S
+|    /|\    |    /|\    |    /|\    |    /|\    |
+|   / | \   |   / | \   |   / | \   |   / | \   |
+|  /  |  \  |  /  |  \  |  /  |  \  |  /  |  \  |
+| /   |   \ | /   |   \ | /   |   \ | /   |   \ |
+|/    |    |/    |    |/    |    |/    |    |
+W-----N-----E-----N-----W-----N-----E-----N-----W
+|\    |    /|\    |    /|\    |    /|\    |    /|
+| \   |   / | \   |   / | \   |   / | \   |   / |
+|  \  |  /  |  \  |  /  |  \  |  /  |  \  |  /  |
+|   \ | /   |   \ | /   |   \ | /   |   \ | /   |
+|    |/    |    |/    |    |/    |    |/    |
+S-----F-----S-----B-----S-----F-----S-----B-----S
+|    /|\    |    /|\    |    /|\    |    /|\    |
+|   / | \   |   / | \   |   / | \   |   / | \   |
+|  /  |  \  |  /  |  \  |  /  |  \  |  /  |  \  |
+| /   |   \ | /   |   \ | /   |   \ | /   |   \ |
+|/    |    |/    |    |/    |    |/    |    |
+E-----N-----W-----N-----E-----N-----W-----N-----E
+\end{verbatim}
+
+\[\href{http://www.progonos.com/furuti/MapProj/Normal/ProjConf/projConf.html}{\includegraphics[max width=\linewidth]{../images/quincuncial_tiled.jpg}}\]
+This gives a branched cover of the sphere by the plane! It has branch
+points at the east, west, front and back poles, since walking once
+around a point like that on the above map corresponds to walking around
+it twice on the actual Earth. This is pretty weird, but Peirce cleverly
+located two of these branch points in the Pacific Ocean, one in the
+Atlantic, and one in the Indian Ocean.
+
+We can be less extravagant and get a branched cover of the sphere by the
+torus if we take the smallest parallelogram whose opposite edges match
+up:
+
+\begin{verbatim}
+            B            
+           /|\           
+          / | \          
+         /  |  \         
+        /   |   \        
+       /    |    \       
+      E-----N-----W      
+     /|\    |    /|\     
+    / | \   |   / | \    
+   /  |  \  |  /  |  \   
+  /   |   \ | /   |   \  
+ /    |    |/    |    \ 
+B-----S-----F-----S-----B
+ \    |    /|\    |    / 
+  \   |   / | \   |   /  
+   \  |  /  |  \  |  /   
+    \ | /   |   \ | /    
+     |/    |    |/     
+      W-----N-----E      
+       \    |    /       
+        \   |   /        
+         \  |  /         
+          \ | /          
+           |/           
+            B            
+\end{verbatim}
+
+This would actually be a square if I could draw it right in ASCII. We
+can curl this into a torus by gluing together the opposite edges.
+There's then an obvious function from this torus to the sphere sending
+both points labelled ``\(N\)'' to the north pole, both points labelled
+``\(S\)'' to the south pole, and so on.
+
+This function is mostly two-to-one, but it's one-to-one at the points
+labelled \(E\), \(F\), \(W\), and \(B\). After all, there's just
+\emph{one} point of each of these sorts in the above picture after we
+glue together the opposite edges. There are \emph{two} copies of any
+other sort of point.
+
+So, our function is a branched double cover of the sphere by the torus,
+which has four branch points. In fact, this function is quite famous.
+It's an example of an ``elliptic function''!
+
+I explained elliptic functions way back in
+\protect\hyperlink{week13}{``Week 13''}. Briefly, what we just did
+starting with this parallelogram:
+
+\begin{verbatim}
+            B            
+           /|\           
+          / | \          
+         /  |  \         
+        /   |   \        
+       /    |    \       
+      E-----N-----W      
+     /|\    |    /|\     
+    / | \   |   / | \    
+   /  |  \  |  /  |  \   
+  /   |   \ | /   |   \  
+ /    |    |/    |    \ 
+B-----S-----F-----S-----B
+ \    |    /|\    |    / 
+  \   |   / | \   |   /  
+   \  |  /  |  \  |  /   
+    \ | /   |   \ | /    
+     |/    |    |/     
+      W-----N-----E      
+       \    |    /       
+        \   |   /        
+         \  |  /         
+          \ | /          
+           |/           
+            B            
+\end{verbatim}
+
+actually works for a parallelogram of any shape. The parallelogram curls
+up to give a torus, and we get a map from this torus to the Riemann
+sphere, called an ``elliptic function''.
+
+As before, this is a branched double cover with four branch points.
+However, where the branch points sit on the sphere depends on the shape
+of the parallelogram. By picking the parallelogram carefully, you can
+put the branch points wherever you want! Peirce's neat idea was to put
+them evenly spaced along the equator --- at the east, front, west and
+back poles. This is nice and symmetrical.
+
+It's also especially nice to put the branch points at the vertices of a
+regular tetrahedron. I'm not sure, but this may give a map developed by
+the cartographer Laurence P. Lee in 1965. There's also a picture of this
+on Furuti's webpage:
+\[\includegraphics[max width=\linewidth]{../images/triangular_map.jpg}\]
+In fact, these two specially nice locations for branch points correspond
+to the two most symmetrical lattices in the plane: the square one and
+the hexagonal one. I talked about these in
+\protect\hyperlink{week125}{``Week 125''} --- they're really important
+in the theory of elliptic functions, and even in string theory.
+
+Anyway: for any parallelogram we can make a map of the Earth that tiles
+the plane, with tiles shaped like this parallelogram. A cool thing about
+these maps is that they're all ``conformal'' --- they preserve angles
+except at the branch points. If you want to show off, you express this
+by saying ``elliptic functions are complex analytic''.
+
+But now I'm digressing a little. Let's get back on track. What does all
+this have to do with rational tangles??
+
+Recall my puzzle from last time. We build rational tangles by starting
+with the trivial one, which we call ``zero''
+
+\begin{verbatim}
+  |   |
+  |   |
+  |   |
+  |   |
+\end{verbatim}
+
+and repeatedly doing two operations. The first is a twisting operation
+that we call ``adding one'':
+
+\begin{verbatim}
+  |   |                |   |
+  |   |                |   |
+  |   |                |   |
+ -------              -------
+ |  T  |   |---->     |  T  |        =  "T + 1"
+ -------              -------
+  |   |                 \ /
+  |   |                  / 
+  |   |                 / \
+\end{verbatim}
+
+where the box labelled ``T'' stands for any tangle we've built so far.
+The second is a rotation that we call ``negative reciprocal'':
+
+\begin{verbatim}
+  |   |             |     |     
+  |   |             |     |    ____
+  |   |             |     |   /    \
+ -------            |    -------    |
+ |  T  |   |---->   |    |  T  |    |    =  "-1/T"
+ -------            |    -------    |
+  |   |              \___/   |      |
+  |   |                      |      |
+  |   |                      |      |
+\end{verbatim}
+
+Using these tricks we can try to assign a rational number to any
+rational tangle. The shocking theorem is that this number is indeed
+well-defined, and in fact a complete invariant of rational tangles.
+
+Every operation built from ``adding one'' and ``negative reciprocal''
+looks like this: \[z\mapsto\frac{az+b}{cz+d}\]
+
+\begin{verbatim}
+         az + b
+z \mapsto   -------
+         cz + d
+\end{verbatim}
+
+with \(a,b,c,d\) integer and \(ad-bc = 1\). The group of these
+transformations is called \(\mathrm{PSL}(2,\mathbb{Z})\). This group
+acts on the rational numbers together with a point at infinity (the
+``rational projective line'') by the formula above. It also acts on
+rational tangles. The puzzle is to see why these actions are isomorphic.
+The proofs I listed in \protect\hyperlink{week228}{``Week 228''} show
+it's true; the problem is to understand what's really going on!
+
+Here's the answer given by Michael Hutching on
+\texttt{sci.math.research}:
+
+\begin{quote}
+There's a simple topological interpretation of the element of the
+rational projective line associated to a rational tangle. I don't know
+how to use this to prove the theorem, and I don't know a reference for
+it (maybe it is in one of the references you cited). Anyway, regard a
+rational tangle as a two-component curve \(C\) in the \(3\)-ball \(B^3\)
+whose four boundary points are on the \(2\)-sphere \(S^2\). Consider the
+double branched cover of \(B^3\) along \(C\). This is a \(3\)-manifold
+\(Y\) whose boundary can be identified with the \(2\)-torus \(T^2\). (In
+fact \(Y\) is a solid torus.) The inclusion of \(T^2\) into \(Y\)
+induces a map from \(H_1(T^2)\) to \(H_1(Y)\), and the kernel of this
+map is a one-dimensional subspace of \(H_1(T^2) = \mathbb{Z}^2\). If I
+am not mistaken, this is the element in question of the rational
+projective line.
+\end{quote}
+
+In other words, we take a \(3\)-dimensional ball and draw a picture of a
+rational tangle in it:
+
+\begin{verbatim}
+    .......   
+  .   | |   . 
+ .   -----   .
+ .  |  T  |  .
+ .   -----   .
+  .   | |   . 
+    .......   
+\end{verbatim}
+
+The boundary of this ball is a sphere with 4 points marked. If we take a
+branched double cover of the sphere with these as the branch points, we
+get a torus \(T^2\). If we take a branched double cover of the whole
+ball with everything along the vertical lines as branched points, we get
+a solid doughnut \(Y\) having \(T^2\) as its boundary.
+
+This gets the torus into the game, and also the branched cover I was
+talking about. And this gets the group \(\mathrm{PSL}(2,\mathbb{Z})\)
+into the game! \(\mathrm{SL}(2,\mathbb{Z})\) is the group of
+\(2\times2\) matrices with determinant \(1\). When you mod out by the
+matrices \(\pm1\), you get \(\mathrm{PSL}(2,\mathbb{Z})\). But,
+topologists know that \(\mathrm{SL}(2,\mathbb{Z})\) is the ``mapping
+class group'' of the torus --- the group of orientation-preserving
+diffeomorphisms modulo those that can be smoothly deformed to the
+identity.
+
+So, something nice is happening.
+
+Even better, the rational first homology group of the torus is
+\(\mathbb{Q}^2\) (pairs of rational numbers), and
+\(\mathrm{SL}(2,\mathbb{Z})\) acts in the obvious way, by matrix
+multiplication: \[
+  \left(
+    \begin{array}{cc}
+      a&b\\c&d
+    \end{array}
+  \right)
+  \colon
+  \left(\begin{array}{c}x\\y\end{array}\right)
+  \mapsto
+  \left(\begin{array}{c}ax+by\\cx+dy\end{array}\right)
+\] It therefore acts on the set of \(1\)-dimensional subspaces of
+\(\mathbb{Q}^2\). Any such subspace consists of vectors like this:
+\[\left(\begin{array}{c}kx\\ky\end{array}\right)\] The subspace is
+determined by the ratio \(x/y\), which however could be infinite --- so
+it's just a point in the rational projective line. So, we get an action
+of \(\mathrm{SL}(2,\mathbb{Z})\) on the rational projective line. Indeed
+we get an action of \(\mathrm{PSL}(2,\mathbb{Z})\) since \(\pm1\) act
+trivially. And, you can easily check that it's the action we've already
+seen: \[
+  \left(
+    \begin{array}{cc}
+      a&b\\c&d
+    \end{array}
+  \right)
+  \colon z \mapsto \frac{az+b}{cz+d}
+\] In short: ``projectivizing'' the action of mapping class group of the
+torus on its first homology gives the usual action of
+\(\mathrm{PSL}(2,\mathbb{Z})\) on the rational projective line.
+
+What we need next is a natural way to assign to any rational tangle a
+\(1\)-dimensional subspace of the homology of the torus. And this is
+what Hutchings describes: a rational tangle gives a way of mapping the
+torus \(T^2\) into the solid torus \(Y\), and this gives a map on
+rational homology \[H_1(T^2) \to H_1(Y)\] whose kernel is a
+\(1\)-dimensional subspace of \(H_1(T^2)\).
+
+There's more stuff to check\ldots.
+
+Personally I've been trying to think of the mapping class group of the
+4-punctured sphere as acting on pictures like this:
+
+\begin{verbatim}
+    .......   
+  .   | |   . 
+ .   -----   .
+ .  |  T  |  .
+ .   -----   .
+  .   | |   . 
+    .......   
+\end{verbatim}
+
+and show that the resulting action on rational tangles factors through a
+homomorphism from this mapping class group to
+\(\mathrm{PSL}(2,\mathbb{Z})\). The mapping class group should be
+generated by the twist
+
+\begin{verbatim}
+  |   |                |   |
+  |   |                |   |
+  |   |                |   |
+ -------              -------
+ |  T  |   |---->     |  T  |        
+ -------              -------
+  |   |                 \ /
+  |   |                  / 
+  |   |                 / \
+\end{verbatim}
+
+and the 90 degree rotation
+
+\begin{verbatim}
+  |   |             |     |     
+  |   |             |     |    ____
+  |   |             |     |   /    \
+ -------            |    -------    |
+ |  T  |   |---->   |    |  T  |    |    
+ -------            |    -------    |
+  |   |              \___/   |      |
+  |   |                      |      |
+  |   |                      |      |
+   
+\end{verbatim}
+
+and our homomorphism should map these to the famous matrices \[
+  T = \left(
+    \begin{array}{cc}
+      1&1\\0&1
+    \end{array}
+  \right)
+  =\;\mbox{``shear''}
+\] and \[
+  S = \left(
+    \begin{array}{rr}
+      0&-1\\1&0
+    \end{array}
+  \right)
+  =\;\mbox{``90 degree rotation''}
+\] respectively. If this works, and I could figure out the kernel of
+this homomorphism and show it acts trivially on rational tangles, I
+think I'd be almost done. But, I haven't had time!
+
+By the way, if this works, there's a beautiful little sideshow where we
+use as generators of \(\mathrm{SL}(2,\mathbb{Z})\) not the above
+matrices but \(S\) and \[
+  ST = \left(
+    \begin{array}{rr}
+      0&-1\\1&1
+    \end{array}
+  \right)
+\] I explained why these are so great in
+\protect\hyperlink{week125}{``Week 125''}. \(S\) is a symmetry of the
+square lattice, while \(ST\) is a symmetry of the hexagonal lattice. The
+square lattice gives Peirce's quincuncial map, while the hexagonal one
+presumably gives Laurence Lee's triangular map!
+
+So, there's some intriguing story about elliptic functions and rational
+tangles taking shape before our eyes\ldots. and if I weren't so darn
+busy, I'd figure out all the details and write a little paper about it.
+
+Before quitting, there's one more thing I can't resist mentioning. Any
+ordered \(4\)-tuple of points \((a,b,c,d)\) in the Riemann sphere gives
+a number called its ``cross-ratio'': \[\frac{(a-b)(c-d)}{(a-d)(c-b)}\]
+It's a famous fact that you can find a conformal transformation of the
+Riemann sphere mapping one ordered \(4\)-tuple to another if and only if
+their cross-ratios are equal!
+
+So, we can play a little trick. Given a lattice we can get a branched
+double cover of the Riemann sphere as I sketched earlier. Then we can
+use the location of the branch points to calculate a cross ratio.
+
+But actually, I'm being a bit sloppy here. To compute a cross ratio from
+a lattice, we need some extra information to \emph{order} the
+\(4\)-tuple of branch points. In other words, if one of the points \(S\)
+is the origin here:
+
+\begin{verbatim}
+S-----B-----S-----F-----S-----B-----S-----F-----S
+|    /|\    |    /|\    |    /|\    |    /|\    |
+|   / | \   |   / | \   |   / | \   |   / | \   |
+|  /  |  \  |  /  |  \  |  /  |  \  |  /  |  \  |
+| /   |   \ | /   |   \ | /   |   \ | /   |   \ |
+|/    |    |/    |    |/    |    |/    |    |
+W-----N-----E-----N-----W-----N-----E-----N-----W
+|\    |    /|\    |    /|\    |    /|\    |    /|
+| \   |   / | \   |   / | \   |   / | \   |   / |
+|  \  |  /  |  \  |  /  |  \  |  /  |  \  |  /  |
+|   \ | /   |   \ | /   |   \ | /   |   \ | /   |
+|    |/    |    |/    |    |/    |    |/    |
+S-----F-----S-----B-----S-----F-----S-----B-----S
+|    /|\    |    /|\    |    /|\    |    /|\    |
+|   / | \   |   / | \   |   / | \   |   / | \   |
+|  /  |  \  |  /  |  \  |  /  |  \  |  /  |  \  |
+| /   |   \ | /   |   \ | /   |   \ | /   |   \ |
+|/    |    |/    |    |/    |    |/    |    |
+E-----N-----W-----N-----E-----N-----W-----N-----E
+\end{verbatim}
+
+and the lattice is taken just big enough so the pattern repeats, we need
+enough information to \emph{label} the points \(E\), \(F\), \(W\) and
+\(B\). This extra information amounts to ``choosing a basis for the
+\(2\)-torsion subgroup of the plane modulo the lattice''. So, the cross
+ratio gives a ``modular function of level 2''.
+
+Hmm, this is getting pretty jargonesque! I don't want to explain the
+jargon now, but you can read all about this trick and its consquences in
+Lecture 9 here:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{5}
+\tightlist
+\item
+  Igor V. Dolgachev, Lectures on modular forms, Fall 1997/8, available
+  at
+  \texttt{http://www.math.lsa.umich.edu/\textasciitilde{}idolga/modular.pdf}
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Addenda:} Andrei Sobolevskii points out that the etymology of
+the word ``quincunx'' is explained here:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{6}
+\tightlist
+\item
+  ``Quincunx'', World Wide Words,
+  \texttt{http://www.worldwidewords.org/weirdwords/ww-qui2.htm}
+\end{enumerate}
+
+Very briefly, ``quincunx'' was a Latin word for ``five twelfths'', from
+\emph{quinque} and \emph{uncia}. The latter word is also the root of the
+word ``ounce''. They had a copper coin called the \emph{as} weighing
+twelve ounces (!), and the quincunx was apparently not a coin a symbol
+for 5/12 of an \emph{as} --- or in other words, 5 ounces of copper.
+
+After reading the above, Peter Dickof clarified and corrected the story:
+
+\begin{quote}
+Love ``This Week's Finds'' (though I seldom follow it all) and can't
+pass up the opportunity to say something.
+
+The \emph{as} was indeed a unit of currency and also a specific bronze
+coin. Early asses (\emph{aes} = bronzes --- hence the AE ligature\ldots)
+were full Roman pounds (\emph{librae} --- hence the British pound ``£''
+sign) of 288 scruples with twelve unciae to the pound. Each uncia was
+\textasciitilde27 grams, a modern ounce near enough. Debasement set in
+around the time of the first Punic war and accelerated through the
+second (Hannibal's), by the end of which an as, still of bronze, weighed
+only \textasciitilde30 grams.
+
+Multiples of the as were minted (misnomer, this was a cast currency):
+the \emph{decussis} (X asses), \emph{quincussis} (V asses),
+\emph{tressis} (III asses), and the \emph{dupondius} (two-pounder). The
+asses were marked with the Roman numeral I. Common fractions were the
+\emph{semis} (half, marked with an S), \emph{triens} (third, sometimes
+called a quatrunx, marked with four ``pellets'' or dots),
+\emph{quadrans} (quarter, also \emph{teruncius}, 3 pellets),
+\emph{sextans} (sixth, also biunx, 2 pellets), \emph{uncia} and
+\emph{semuncia} (usually unmarked).
+
+There \emph{were} quincunx coins (5 pellets), and also a \emph{dextans}
+(S + 4 pellets), mostly produced by non-Roman Italians. I have appended
+photos of three quincunxes produced in Luceria (see Thurlow and Vecchi
+numbers 274, 281). Note that the ``pellets'' are sometimes (not always)
+arranged in a quincunx. Luceria (modern Lucera) is 2/3 of the way across
+the boot from Neapolis (Naples).
+
+During the second Punic war, after they captured Syracuse and its
+treasure (and killed Archimedes), the Romans introduced the silver
+\emph{denarius}, \emph{quinarius} and \emph{sesterius}; they were worth
+10, 5, 2 1/2 (IIS) asses. The denarius is the origin of the ``d'' for
+the British shilling, and was about the size of a dime. Later, circa 141
+BC, the value of silver was re-tariffed so that denarii, quinarii and
+sestertii became worth 16, 8, 4 asses; the names did not change but the
+quinarius and sestertius became rare.
+
+Julius Caesar doubled the pay of a legionary to 300 sestertii per
+installment (stipendium), 3 installments per year.
+
+Later yet, during Imperial Rome, the largest bronze/brass coin minted
+(no longer a misnomer) was a sestertius; its weight was less than 30
+grams by the time of Claudius and falling, always falling\ldots.
+
+Appropriate references are:
+
+--- Michael H. Crawford, \emph{Roman Republican Coinage}, Cambridge
+University Press, Cambridge, 1974. (See picture of Quincunx on plate
+XVIII.) --- Bradbury K. Thurlow, \emph{Italian Cast Coinage: Italian Aes
+Grave}. Italo G. Vecchi, \emph{Italian Aes Rude, Signatum and the Aes
+Grave of Sicily}. Printed together by Veechi, London, 1979. --- Herbert
+A. Grueber, \emph{A Catalogue of the Coins of the Roman Republic in the
+British Museum}, three volumes, reprinted 1970.
+\end{quote}
+
+My old pal Squark noted some sloppy language about branched covers.
+Here's my reply to what he wrote. I've changed what he wrote a tiny bit,
+for cosmetic reasons.
+
+\begin{quote}
+Squark wrote:
+
+\begin{quote}
+Hello John and everyone!
+\end{quote}
+
+Hello! Long time no see! How are you doing?
+
+I had written:
+
+\begin{quote}
+There's a simple topological interpretation of the element of the
+rational projective line associated to a rational tangle. I don't know
+how to use this to prove the theorem, and I don't know a reference for
+it (maybe it is in one of the references you cited). Anyway, regard a
+rational tangle as a two-component curve \(C\) in the \(3\)-ball \(B^3\)
+whose four boundary points are on the \(2\)-sphere \(S^2\). Consider the
+double branched cover of \(B^3\) along \(C\).
+\end{quote}
+
+Squark wrote:
+
+\begin{quote}
+What is ``\emph{the} double branched cover''? Is there a way to choose a
+canonical one, or is there only one in this case, for some reason?
+\end{quote}
+
+Good point. I hope there's a specially nice one.
+
+To pick a branched cover of \(B^3\) along \(C\), it's necessary and
+sufficient to pick a homomorphism from the fundamental group of
+\(B^3\setminus C\) to \(\mathbb{Z}/2\). This says whether or not the two
+sheets switch places as we walk around \(C\) following some loop in
+\(B^3\setminus C\).
+
+\begin{quote}
+In the case of a sphere with 4 points removed it should be easy to
+check.
+\end{quote}
+
+Yes.
+
+\begin{quote}
+The fundamental group has 4 generators --- \(a, b, c, d\) (loops around
+each of the points) and one relation \(abc = d\) (since we're on a
+sphere). Hence, it is freely generated by \(a, b, c\) (say).
+\end{quote}
+
+Right, the fundamental group of the four-punctured sphere is the free
+group on 3 generators, \(F_3\). I believe the ``specially nice''
+homomorphism \[f\colon F_3 \to \mathbb{Z}/2\] is the one that sends each
+generator to \(-1\), where I'm thinking multiplicatively:
+\[\mathbb{Z}/2 = \{1, -1\}\] One reason this homomorphism is especially
+nice is that it also sends \(d = abc\) to \(-1\).
+
+So, if you walk around ANY of the four punctures, the two sheets switch!
+
+This is just what you want for the Riemann surface of an elliptic
+integral, as someone else pointed out in another post: there are four
+branch points each like the branch point of \(\sqrt{z}\). It's also the
+most symmetrical, beautiful thing one can imagine.
+
+Now let's see if and how this branched cover extends to a branched cover
+of the ball \(B^3\) with \(C\) (two arcs) removed. The fundamental group
+of \(B^3\setminus C\) is the free group on two generators, say \(X\) and
+\(Y\).
+
+The inclusion of the \(4\)-punctured sphere in \(B^3\setminus C\) gives
+a homomorphism \[g\colon F_3 \to F_2\] as follows: \[
+  \begin{aligned}
+    a &\mapsto X
+  \\b &\mapsto X^{-1}
+  \\c &\mapsto Y
+  \\d &\mapsto Y^{-1}
+  \end{aligned}
+\] So, to extend our branched cover, we need to write our homomorphism
+\[f\colon F_3 \to \mathbb{Z}/2\] as \[f = hg\] for some homomorphism
+\[h\colon F_2 \to \mathbb{Z}/2\] The obvious nice thing to try for \(h\)
+is \[
+  \begin{aligned}
+    X &\mapsto -1
+  \\Y &\mapsto -1
+  \end{aligned}
+\] It works, and it's unique!
+\end{quote}
+
+Lee Rudolph adds:
+
+\begin{quote}
+Squark wrote:
+
+\begin{quote}
+What is ``\emph{the} double branched cover''? Is there a way to choose a
+canonical one, or is there only one in this case, for some reason?
+\end{quote}
+
+John Baez wrote:
+
+\begin{quote}
+Good point. I hope there's a specially nice one.
+\end{quote}
+
+In this kind of context, there's always exactly one ``double branched
+cover'' that actually \emph{does} branch doubly over every component of
+the proposed branch locus. In particular, in the context of a rational
+tangle, of course the pair \((B^3,C)\) is homeomorphic to
+\((B^2,X)\times I\), where \(X\) is a \(2\)-point set in
+\(\mathrm{Int}(B^2)\) and the homeomorphism isn't required to preserve
+the tangle structure; so the double branched cover of \(B^3\) branched
+over \(C\) is the product of the double branched cover of \(B^2\)
+branched over \(X\) with the interval \(I\). Now, because the branching
+is \emph{double} at each point of \(X\), and there are \emph{two} points
+of \(X\), it follows that the monodromy around the boundary of \(B^2\)
+must be trivial, so that we can sew another \(B^2\) to that boundary and
+extend the branched double covering over the resulting \(2\)-sphere. But
+of course the branched double cover of a \(2\)-sphere over 2 points is
+another \(2\)-sphere, the model for the situation being
+\(z \mapsto z^2\) as a map of the Riemann sphere to itself. Now remove
+the interior of the sewed-on second \(B^2\) from the downstairs \(S^2\),
+and correspondingly the interiors of its \emph{two} preimage \(B^2\)s
+from the upstairs \(S^2\); you see that the double cover of \(B^2\)
+branched over \(X\) is an annulus. (Once you know that, you can see it
+directly: take an annulus embedded in \(\mathbb{R}^3\) as the cylinder
+where \(x^2+y^2=1\) and \(-1 \leqslant z \leqslant 1\); rotate it by 180
+degrees around the \(x\)-axis, and convince yourself that the quotient
+space is a \(2\)-disk by considering the fundamental domain consisting
+of those points of the annulus with non-negative \(y\)-coordinate.) Then
+the double cover of \(B^3\) branched over \(C\) must be a solid torus.
+(Again, now that you know this, you can see it directly: take the solid
+torus to be a tubular neighborhood in \(\mathbb{R}^3\) of the circle
+where \(x^2+y^2=1\) and \(z = 0\), and again rotate by 180 degrees
+around the \(x\)-axis to give yourself the ``deck involution''.)
+
+Lee Rudolph
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{quote}
+\emph{Well, what if we consider our lives to be formed of a series of
+interlocking practices, including the very important ones of maintaining
+a thriving family and community? Then we might learn from a practice
+with the pedigree of mathematics} --- mankind's longest conversation ---
+\emph{about the necessity of certain intellectual and moral virtues.}
+
+---
+\href{http://www.dcorfield.pwp.blueyonder.co.uk/2006/04/philosophy-and-politics.html}{David
+Corfield}
+\end{quote}
+
+
+
+\hypertarget{week230}{%
+\section{May 4, 2006}\label{week230}}
+
+As we've seen in previous weeks, Mars is a beautiful world, but a world
+in a minor key, a world whose glory days --- the Hesperian Epoch --- are
+long gone, whose once grand oceans are now reduced to windy canyons and
+icy dunes. Let's say goodbye to it for now\ldots{} leaving off with this
+Martian sunset, photographed by the rover Spirit in Gusev Crater on May
+19th, 2005:
+\[\href{http://marsrovers.nasa.gov/gallery/press/spirit/20050610a.html}{\includegraphics[max width=\linewidth]{../images/mars_sunset.jpg}}\]
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\tightlist
+\item
+  ``A moment frozen in time'', NASA Mars Exploration Rover Mission,
+  \texttt{http://marsrovers.nasa.gov/gallery/press/spirit/20050610a.html}
+\end{enumerate}
+
+This week I'll talk about Dynkin diagrams, quivers and Hall algebras.
+But first, some cool identities!
+
+My student Mike Stay did computer science before he came to UCR. When he
+was applying, he mentioned a result he helped prove, which relates
+Goedel's theorem to the Heisenberg uncertainty principle:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  C. S. Calude and M. A. Stay, ``From Heisenberg to Goedel via
+  Chaitin'', \emph{International Journal of Theoretical Physics},
+  \textbf{44} (2005), 1053--1065. Also available at
+  \texttt{http://math.ucr.edu/\textasciitilde{}mike/}
+\end{enumerate}
+
+Now, this particular combination of topics is classic crackpot fodder.
+People think ``Gee, uncertainty sounds like incompleteness, they're both
+limitations on knowledge --- they must be related!'' and go off the deep
+end. So I got pretty suspicious until I read his paper and saw it was
+CORRECT\ldots{} at which point I \emph{definitely} wanted him around!
+The connection they establish is not as precise as I'd like, but it's
+solid math.
+
+So, now Mike is here at UCR working with me on quantum logic and quantum
+computation using ideas from category theory. In his spare time, he
+sometimes fools around with math identities and tries to categorify them
+--- see \protect\hyperlink{week184}{``Week 184''} and
+\protect\hyperlink{week202}{``Week 202''} if you don't know what that
+means. Anyway, maybe that's how he stumbled on this:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Jonathan Sondow, ``A faster product for \(\pi\) and a new integral for
+  \(\ln(\pi/2)\)'', \emph{Amer. Math. Monthly} \textbf{112} (2005),
+  729--734. Also available as
+  \href{http://arxiv.org/abs/math.NT/0401406}{\texttt{math.NT/0401406}}.
+\end{enumerate}
+
+In this paper, Sondow gives eerily similar formulas for some of our
+favorite math constants. First, one for \(e\):
+\[e = \left(\frac{2}{1}\right)^{\frac11} \left(\frac{2^2}{1\times3}\right)^{\frac12} \left(\frac{2^3\times4}{1\times3^3}\right)^{\frac13} \left(\frac{2^4\times4^4}{1\times3^6\times5}\right)^{\frac14}\cdots\]
+Then, one for \(\pi/2\):
+\[\frac{\pi}{2} = \left(\frac{2}{1}\right)^{\frac12} \left(\frac{2^2}{1\times3}\right)^{\frac14} \left(\frac{2^3\times4}{1\times3^3}\right)^{\frac18} \left(\frac{2^4\times4^4}{1\times3^6\times5}\right)^{\frac{1}{16}}\cdots\]
+Then one for \(e^\gamma\), where \(\gamma\) is Euler's constant:
+\[e^\gamma = \left(\frac{2}{1}\right)^{\frac12} \left(\frac{2^2}{1\times3}\right)^{\frac13} \left(\frac{2^3\times4}{1\times3^3}\right)^{\frac14} \left(\frac{2^4\times4^4}{1\times3^6\times5}\right)^{\frac15}\cdots\]
+He also points out Wallis' product for \(\pi/2\) and Pippenger's for
+\(e\): \[
+  \begin{aligned}
+    \frac{\pi}{2}
+    &= \left(\frac{2}{1}\right)^{\frac11} \left(\frac{2\times4}{3\times3}\right)^{\frac11} \left(\frac{4\times6\times6\times8}{5\times5\times7\times7}\right)^{\frac11}\cdots
+  \\e
+    &= \left(\frac{2}{1}\right)^{\frac12} \left(\frac{2\times4}{3\times3}\right)^{\frac14} \left(\frac{4\times6\times6\times8}{5\times5\times7\times7}\right)^{\frac18}\cdots
+  \end{aligned}
+\] What does it all mean? I haven't a clue! Another mystery thrown down
+to us by the math gods, like a bone from on high\ldots{} we can merely
+choose to chew on it or not, as we wish.
+
+Julie Bergner gave a great talk on ``derived Hall algebras'' at the Mac
+Lane memorial conference. I just want to explain the very first result
+she mentioned, due to Ringel --- a surprising trick for constructing
+certain quantum groups from simply-laced Dynkin diagrams. It's very
+different from the \emph{usual} method for getting quantum groups from
+Dynkin diagrams, and it's a miracle that it works.
+
+But, I guess I should start near the beginning!
+
+Way back in 1995, in \protect\hyperlink{week62}{``Week 62''},
+\protect\hyperlink{week63}{``Week 63''},
+\protect\hyperlink{week64}{``Week 64''} and
+\protect\hyperlink{week65}{``Week 65''}, I explained how ``Dynkin
+diagrams'' --- little gizmos like this: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1,0) node{$\bullet$} to (2,0) node{$\bullet$} to (3,0) node {$\bullet$} to (4,0) node {$\bullet$} to (5,0) node {$\bullet$} to (6,0) node {$\bullet$};
+    \draw[thick] (4,0) to (4,1) node{$\bullet$};
+  \end{tikzpicture}
+\] show up all over mathematics. They have a strange way of tying
+together subjects that superficially seem completely unrelated. In one
+sense people understand how they work, but in another sense they're very
+puzzling --- their power keeps growing in unexpected ways.
+
+I love mysterious connections, so as soon I understood enough about
+Dynkin diagrams to appreciate them, I became fascinated by them, and
+I've been studying them ever since. I explained their relation to
+geometry in \protect\hyperlink{week178}{``Week 178''},
+\protect\hyperlink{week179}{``Week 179''},
+\protect\hyperlink{week180}{``Week 180''},
+\protect\hyperlink{week181}{``Week 181''} and
+\protect\hyperlink{week182}{``Week 182''}, and their relation to quantum
+deformation and combinatorics in \protect\hyperlink{week186}{``Week
+186''} and \protect\hyperlink{week187}{``Week 187''}.
+
+You might think that would be enough --- but you'd be wrong, way wrong!
+
+I haven't really talked about the most mysterious aspects of Dynkin
+diagrams, like their relation to singularity theory and representations
+of quivers. That's because these aspects were too mysterious! I didn't
+understand them \emph{at all}. But lately, James Dolan and Todd Trimble
+and I have been making some progress understanding these aspects.
+
+First, I should remind you how Dynkin diagrams infest so much of
+mathematics. Let's start with a little puzzle mentioned in
+\protect\hyperlink{week182}{``Week 182''}.
+
+Draw \(n\) dots and connect some of them with edges --- at most one edge
+between any pair of dots, please: \[
+  \begin{tikzpicture}
+    \node at (0,0) {$\bullet$};
+    \node at (1,0) {$\bullet$};
+    \node at (2,0) {$\bullet$};
+    \node at (3,0) {$\bullet$};
+    \node at (4,0) {$\bullet$};
+    \node at (5,0) {$\bullet$};
+    \node at (1.5,-1) {$\bullet$};
+    \node at (2.5,1) {$\bullet$};
+    \node at (3.5,-1) {$\bullet$};
+    \node at (4.5,-1) {$\bullet$};
+    \draw[thick] (1,0) to (5,0);
+    \draw[thick] (1.5,-1) to (2.5,1) to (3,0);
+    \draw[thick] (3.5,-1) to (4.5,-1);
+  \end{tikzpicture}
+\] Now, try to find a basis of \(\mathbb{R}^n\) consisting of one unit
+vector per dot, subject to these rules: if two dots are connected by an
+edge, the angle between their vectors must be 120 degrees, but otherwise
+their vectors must be at right angles.
+
+This sounds like a silly puzzle that only a mathematician could give a
+hoot about. It takes a while to see its magnificent depth. But anyway,
+it turns out you can solve this problem only for certain special
+diagrams called ``simply-laced Dynkin diagrams''. The basic kinds are
+called \(\mathrm{A}_n\), \(\mathrm{D}_n\), \(\mathrm{E}_6\),
+\(\mathrm{E}_7\), and \(\mathrm{E}_8\).
+
+The \(\mathrm{A}_n\) Dynkin diagram is a line of n dots connected by
+edges like this: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1,0) node{$\bullet$} to (2,0) node {$\bullet$} to (4,0) node{$\bullet$};
+  \end{tikzpicture}
+\]
+
+The \(\mathrm{D}_n\) diagram has \(n\) dots arranged like this: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) node{$\bullet$} to (1,0) node{$\bullet$} to (2,0) node{$\bullet$} to (3,0) node {$\bullet$};
+    \draw[thick] (3,0) to (4,1) node {$\bullet$};
+    \draw[thick] (3,0) to (4,-1) node {$\bullet$};
+  \end{tikzpicture}
+\] A line of them but then a little fishtail at the end! We should take
+\(n\) to be at least 4, to make the diagram connected and different from
+\(\mathrm{A}_n\).
+
+The \(\mathrm{E}_6\), \(\mathrm{E}_7\), and \(\mathrm{E}_8\) diagrams
+look like this: \[
+  \begin{gathered}
+    \begin{tikzpicture}
+      \draw[thick] (0,0) node{$\bullet$} to (1,0) node{$\bullet$} to (2,0) node{$\bullet$} to (3,0) node {$\bullet$} to (4,0) node {$\bullet$};
+      \draw[thick] (2,0) to (2,1) node{$\bullet$};
+    \end{tikzpicture}
+    \qquad
+    \begin{tikzpicture}
+      \draw[thick] (0,0) node{$\bullet$} to (1,0) node{$\bullet$} to (2,0) node{$\bullet$} to (3,0) node {$\bullet$} to (4,0) node {$\bullet$} to (5,0) node {$\bullet$};
+      \draw[thick] (3,0) to (3,1) node{$\bullet$};
+    \end{tikzpicture}
+  \\\begin{tikzpicture}
+      \draw[thick] (0,0) node{$\bullet$} to (1,0) node{$\bullet$} to (2,0) node{$\bullet$} to (3,0) node {$\bullet$} to (4,0) node {$\bullet$} to (5,0) node {$\bullet$} to (6,0) node {$\bullet$};
+      \draw[thick] (4,0) to (4,1) node{$\bullet$};
+    \end{tikzpicture}
+  \end{gathered}
+\] You're also allowed to take disjoint unions of the above diagrams.
+
+So, a weird problem with a weird answer! Its depth is revealed only when
+we see that many \emph{different} puzzles lead us to the \emph{same}
+diagrams. For example:
+
+\begin{enumerate}
+\def\labelenumi{\Alph{enumi})}
+\tightlist
+\item
+  the classification of integral lattices in \(\mathbb{R}^n\) having a
+  basis of vectors whose length squared equals \(2\)
+\item
+  the classification of simply laced semisimple Lie groups
+\item
+  the classification of finite subgroups of the 3d rotation group
+\item
+  the classification of simple singularities
+\item
+  the classification of tame quivers
+\end{enumerate}
+
+Let me run through these problems and say a bit about how they're
+connected:
+
+\begin{enumerate}
+\def\labelenumi{\Alph{enumi})}
+\item
+  An ``integral lattice'' in \(\mathbb{R}^n\) is a lattice where the dot
+  product of any two vectors in the lattice is an integer. There are
+  zillions of these --- but if we demand that they have a basis of
+  vectors whose length squared is 2, we can only get them from
+  simply-laced Dynkin diagrams.
+
+  It's not very hard to see that finding a lattice like this is
+  equivalent to the puzzle I mentioned earlier. For example, given a
+  solution of that puzzle, you can just multiply all your vectors by
+  \(\sqrt{2}\) and form the lattice of their integer linear
+  combinations.
+
+  Here are the lattices you get:
+
+  \begin{itemize}
+  \item
+    The diagram \(\mathrm{A}_n\) gives the \(n\)-dimensional lattice of
+    all \((n+1)\)-tuples of integers \((x_1,\ldots,x_{n+1})\) with
+    \[x_1 + \ldots + x_{n+1} = 0.\] For example, \(\mathrm{A}_2\) is a
+    \(2\)-dimensional hexagonal lattice, the sort you use to pack
+    pennies as densely as possible. Similarly, \(\mathrm{A}_3\) gives a
+    standard way of packing grapefruit.
+  \item
+    The diagram \(\mathrm{D}_n\) gives the \(n\)-dimensional lattice of
+    all \(n\)-tuples of integers \((x_1,\ldots,x_n)\) where
+    \[x_1 + \ldots + x_n\] is even. To visualize this, just take an
+    \(n\)-dimensional checkerboard, color the cubes alternately red and
+    black, and take the center of each red cube.
+  \item
+    The diagram \(\mathrm{E}_8\) gives the \(8\)-dimensional lattice of
+    \(8\)-tuples \((x_1,\ldots,x_8)\) such that the \(x_i\) are either
+    all integers or all half-integers --- a half-integer being an
+    integer plus \(1/2\) --- and such that \[x_1 + \ldots + x_8\] is
+    even.
+  \item
+    The diagram \(\mathrm{E}_7\) gives the \(7\)-dimensional lattice
+    consisting of all vectors in \(\mathrm{E}_8\) that are orthogonal to
+    some vector that's closest to the origin (and thus has length
+    \(\sqrt{2}\)).
+  \item
+    The diagram \(\mathrm{E}_6\) gives the \(6\)-dimensional lattice
+    consisting of all vectors in \(\mathrm{E}_7\) that are orthogonal to
+    some vector that's closest to the origin (and thus has length
+    \(\sqrt{2}\)).
+  \end{itemize}
+
+  For more on these lattices, see \protect\hyperlink{week65}{``Week
+  65''}. They show up in the theory of Lie groups\ldots.
+\item
+  Lie groups are fundamental throughout math and physics: they're groups
+  of continuous symmetries, like rotations. The nicest of the lot are
+  the semisimple Lie groups. Some familiar examples are the group of
+  rotations in \(n\)-dimensional space, which is called
+  \(\mathrm{SO}(n)\), and the group of unitary matrices with determinant
+  \(1\), which is called \(\mathrm{SU}(n)\). There are more, but people
+  know what they all are. They're classified by Dynkin diagrams!
+
+  Why? The key point is that any semisimple Lie group has a ``root
+  lattice''. This is an integral lattice spanned by special vectors
+  called ``roots''. I won't give the details, since I explained this
+  stuff in \protect\hyperlink{week63}{``Week 63''} and
+  \protect\hyperlink{week64}{``Week 64''}, but it turns out that root
+  lattices, and thus semisimple Lie groups, are classified by Dynkin
+  diagrams.
+
+  Not all these Dynkin diagrams look like the \(\mathrm{A}\),
+  \(\mathrm{D}\) and \(\mathrm{E}\) diagrams listed above. But, it turns
+  out that the length squared of any root must be either \(1\) or \(2\).
+  If all the roots have length squared equal to \(2\), we say our
+  semisimple Lie group is ``simply laced''. In this case, we're back to
+  problem B), which we already solved! So then our Lie group corresponds
+  to a diagram of type \(\mathrm{A}\), \(\mathrm{D}\), or \(\mathrm{E}\)
+  --- or a disjoint union of such diagrams.
+
+  Here's how it goes:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    The diagram \(\mathrm{A}_n\) gives the compact Lie group
+    \(\mathrm{SU}(n+1)\), consisting of \((n+1) \times (n+1)\) unitary
+    matrices with determinant \(1\). It's the isometry group of complex
+    projective \(n\)-space.
+  \item
+    The diagram \(\mathrm{D}_n\) gives the compact Lie group
+    \(\mathrm{SO}(2n)\), consisting of \(2n \times 2n\) orthogonal
+    matrices with determinant \(1\). It's the isometry group of real
+    projective \((2n)\)-space.
+  \item
+    The diagram \(\mathrm{E}_6\) gives a \(78\)-dimensional compact Lie
+    group that people call \(\mathrm{E}_6\). It's the isometry group of
+    the bioctonionic projective plane.
+  \item
+    The diagram \(\mathrm{E}_7\) gives a \(133\)-dimensional compact Lie
+    group that people call \(\mathrm{E}_7\). It's the isometry group of
+    the quateroctonionic projective plane.
+  \item
+    The diagram \(\mathrm{E}_8\) gives a \(248\)-dimensional compact Lie
+    group that people call \(\mathrm{E}_8\). It's the isometry group of
+    the octooctonionic projective plane.
+  \end{itemize}
+
+  In short, two regular series and three exotic weirdos.
+
+  You may ask where the rotation groups \(\mathrm{SO}(n)\) with \(n\)
+  odd went! Well, these correspond to fancier Dynkin diagrams that
+  aren't simply laced, like this: \[
+     \begin{tikzpicture}
+       \draw[thick] (0,0) to (3,0);
+       \draw[double,double equal sign distance] (3.5,0) to (4,0);
+       \draw[double,double equal sign distance,-implies] (3,0) to (3.55,0);
+       \node at (0,0) {$\bullet$};
+       \node at (1,0) {$\bullet$};
+       \node at (2,0) {$\bullet$};
+       \node at (3,0) {$\bullet$};
+       \node at (4,0) {$\bullet$};
+     \end{tikzpicture}
+   \] The funny arrow here indicates that the last two vectors aren't at
+  a 120-degree angle; they're at a 135-degree angle, and the last vector
+  is shorter than the rest: it has length one instead of \(\sqrt{2}\).
+
+  Why are semisimple Lie groups ``better'' when they're simply laced?
+  What's the big deal? I don't really understand this, but for one, when
+  all the roots have the same length, they're all alike --- a certain
+  symmetry group called the Weyl group acts transitively on them.
+
+  Anyway, so far our \(\mathrm{A}\), \(\mathrm{D}\), \(\mathrm{E}\)
+  Dynkin diagrams have been classifying things that are clearly related
+  to lattices. But now things get downright spooky\ldots.
+\item
+  Take a Platonic solid and look at its group of rotational symmetries.
+  You get a finite subgroup of the 3d rotation group \(\mathrm{SO}(3)\).
+  But in general, finite subgroups of \(\mathrm{SO}(3)\) are classified
+  by ADE Dynkin diagrams!
+
+  So, Platonic solids turn out to fit into the game we're playing here!
+
+  First I'll say which diagram corresponds to which subgroup of
+  \(\mathrm{SO}(3)\). Then I'll explain how the correspondence works:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    The diagram \(\mathrm{A}_n\) corresponds to the group of obvious
+    rotational symmetries of the regular \(n\)-gon. This group is called
+    the ``cyclic group'' \(\mathbb{Z}/n\).
+  \item
+    The diagram \(\mathrm{D}_n\) corresponds to the group of rotational
+    symmetries of the regular \(n\)-gon where you can turn it and also
+    flip it over. By sheer coincidence, this group is called the
+    ``dihedral group'' \(D_n\). A cosmic stroke of good luck!
+  \item
+    The diagram \(\mathrm{E}_6\) corresponds to the group of rotational
+    symmetries of the tetrahedron: the ``tetrahedral group''. This is
+    also the group of even permutations of 4 elements, the ``alternating
+    group'' \(A_4\) --- not to be confused with the \(\mathrm{A}_n\)'s
+    we were just talking about. A cosmic stroke of bad luck!
+  \item
+    The diagram \(\mathrm{E}_7\) corresponds to the group of rotational
+    symmetries of the octahedron or cube: the ``octahedral group''. This
+    is also the group of all permutations of 4 elements, the ``symmetric
+    group'' \(S_4\).
+  \item
+    The diagram \(\mathrm{E}_8\) corresponds to the group of rotational
+    symmetries of the icosahedron or dodecahedron: the ``icosahedral
+    group''. This is also the group of even permutations of 5 elements,
+    called \(A_5\). Darn!
+  \end{itemize}
+
+  So, the exceptional Lie groups \(\mathrm{E}_6\), \(\mathrm{E}_7\) and
+  \(\mathrm{E}_8\) correspond to Platonic solids in a sneaky way.
+
+  To understand what's going on here, first we need to switch from
+  \(\mathrm{SO}(3)\) to \(\mathrm{SU}(2)\). The group \(\mathrm{SU}(2)\)
+  is used to describe rotations in quantum mechanics: it's the double
+  cover of the rotation group \(\mathrm{SO}(3)\).
+
+  It's really finite subgroups of \(\mathrm{SU}(2)\) that are classified
+  by \(\mathrm{ADE}\) Dynkin diagrams! It just so happens that these
+  correspond, in a slightly slippery way, to finite subgroups of
+  \(\mathrm{SO}(3)\).
+
+  You'll see how if I list the finite subgroups of \(\mathrm{SU}(2)\):
+
+  \begin{itemize}
+  \tightlist
+  \item
+    The diagram \(\mathrm{A}_n\) corresponds to the cyclic subgroup
+    \(\mathbb{Z}/n\) of \(\mathrm{SU}(2)\). This double covers a cyclic
+    subgroup of \(\mathrm{SO}(3)\) when \(n\) is even.
+  \item
+    The diagram \(\mathrm{D}_n\) corresponds to a subgroup of
+    \(\mathrm{SU}(2)\) that double covers the dihedral group
+    \(\mathrm{D}_n\).
+  \item
+    The diagram \(\mathrm{E}_6\) corresponds to a subgroup of
+    \(\mathrm{SU}(2)\) that double covers the rotational symmetries of
+    the tetrahedron. This subgroup has 24 elements and it's called the
+    ``binary tetrahedral group''.
+  \item
+    The diagram \(\mathrm{E}_7\) corresponds to a subgroup of
+    \(\mathrm{SU}(2)\) that double covers the rotational symmetries of
+    the octahedron. This subgroup has 48 elements and it's called the
+    ``binary octahedral group''.
+  \item
+    The diagram \(\mathrm{E}_8\) corresponds to a subgroup of
+    \(\mathrm{SU}(2)\) that double covers the rotational symmetries of
+    the icosahedron. This subgroup has 120 elements and it's called the
+    ``binary icosahedral group''.
+  \end{itemize}
+
+  Now, how does the correspondence work? For this, I'm afraid I have to
+  raise the sophistication level a bit --- I've been trying to keep
+  things simple, but it's getting tough.
+
+  In his book on the icosahedron, Felix Klein noticed it was interesting
+  to let the icosahedral group act on the Riemann sphere, and look for
+  rational functions invariant under this group.
+
+  It turned out that every such function depends on a single one:
+  Klein's icosahedral function! The explict formula for it is pretty
+  disgusting, but it's a beautiful thing: you can pick it so that it
+  equals \(0\) at all the vertices of the icosahedron, \(1\) at the
+  midpoints of the edges, and infinity at the midpoints of the faces.
+  Even better, if you write the function like this: \[w = f(z)\] then
+  Klein showed that knowing how to solve for \(z\) as a function of
+  \(w\) lets you solve every quintic equation! The reason is that the
+  Galois group of the general quintic is a close relative of the
+  icosahedral group: the former is \(S_5\), the latter is \(A_5\).
+
+  Anyway, when I said that ``every such function depends on a single
+  one'', what I really meant was this. Let \(\mathbb{C}(z)\) be the
+  field of rational functions of one variable; then the icosahedral
+  group acts on this, and the invariant functions form a subfield
+  \(\mathbb{C}(w)\) where \(w\) is Klein's icosahedral function. The
+  Galois group of the little field in the big one is the icosahedral
+  group.
+
+  The same kind of thing works for the other finite subgroups of
+  \(\mathrm{SO}(3)\), except of course for the connection to the quintic
+  equation.
+
+  But, it's actually even better to think about finite subgroups of
+  \(\mathrm{SU}(2)\), since \(\mathrm{SU}(2)\) acts on \(\mathbb{C}^2\),
+  and when we \emph{projectivize} \(\mathbb{C}^2\) we get
+  \(\mathrm{SO}(3)\) acting on the Riemann sphere. This viewpoint fits
+  more squarely into the worldview of algebraic geometry.
+
+  If we take the quotient of \(\mathbb{C}^2\) by a finite subgroup \(G\)
+  of \(\mathrm{SU}(2)\), we don't get a smooth manifold: the quotient
+  has a singularity at \(0\). But we can ``resolve'' the singularity,
+  finding a smooth complex manifold with a holomorphic map
+  \[p\colon M \to \mathbb{C}^2/G\] that has a holomorphic inverse on a
+  dense open set. There may be lots of ways to do this, but in the
+  present case there's just one ``minimal'' resolution, meaning a
+  resolution that every other resolution factors through.
+
+  Then --- and here's the magic part! --- the inverse image of \(0\) in
+  \(M\) turns out to be the union of a bunch of Riemann spheres. And if
+  we draw a dot for each sphere, and an edge between these dots whenever
+  their spheres intersect, we get a simply laced Dynkin diagram on the
+  above list!!!
+
+  Well, almost. We get this diagram with an extra dot thrown in,
+  connected by some extra edges in a specific way. This is called the
+  ``extended'' Dynkin diagram. It also shows up naturally from the Lie
+  group viewpoint, when we consider central extensions of loop groups.
+
+  That's \emph{one} way the correspondence works. Another way,
+  discovered by McKay, is to draw a dot for each irrep of \(G\). There's
+  always a \(2\)-dimensional representation of \(G\) coming from the
+  action of \(\mathrm{SU}(2)\) on \(\mathbb{C}^2\). Let's just call this
+  irrep \(\mathbb{C}^2\). Then, draw an edge from the dot \(R\) to the
+  dot \(S\) whenever the irrep \(S\) shows up in the rep
+  \(R \otimes \mathbb{C}^2\). You get the same extended Dynkin diagram
+  as before! The special extra dot in the Dynkin diagram corresponds to
+  the trivial rep of \(G\).
+
+  This second way is called the ``McKay correspondence''. The first way
+  is sometimes called the ``geometric McKay correspondence'', though I
+  think it was discovered earlier.
+
+  Now we're well on the road to the next item\ldots{}
+\item
+  Simply-laced Dynkin diagrams also classify the simple critical points
+  of holomorphic functions \[f\colon \mathbb{C}^3 \to \mathbb{C}\] A
+  ``critical point'' is just a place where the gradient of f vanishes.
+  We can try to classify critical points up to a holomorphic change of
+  variables. It's better to classify their ``germs'', meaning we only
+  look at what's going on \emph{right near} the critical point. But,
+  even this is hopelessly complicated unless we somehow limit our quest.
+
+  To do this, we can restrict attention to ``stable'' critical points,
+  which are those that don't change type under small perturbations. But
+  we can do better: we can classify ``simple'' critical points, namely
+  those that change into only finitely many other types under small
+  perturbations.
+
+  These correspond to simply-laced Dynkin diagrams!
+
+  First I'll say which diagram corresponds to which type of critical
+  point. To do this, I'll give a polynomial \(f(x,y,z)\) that has a
+  certain type of critical point at \(x = y = z = 0\). Then I'll explain
+  how the correspondence works:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    The diagram \(\mathrm{A}_n\) corresponds to the critical point of
+    \(x^{n+1} + y^2 + z^2\).
+  \item
+    The diagram \(\mathrm{D}_n\) corresponds to the critical point of
+    \(x^{n-1} + xy^2 + z^2\).
+  \item
+    The diagram \(\mathrm{E}_6\) corresponds to the critical point of
+    \(x^4 + y^3 + z^2\).
+  \item
+    The diagram \(\mathrm{E}_7\) corresponds to the critical point of
+    \(x^3 y + y^3 + z^2\).
+  \item
+    The diagram \(\mathrm{E}_8\) corresponds to the critical point of
+    \(x^5 + y^3 + z^2\).
+  \end{itemize}
+
+  Here's how the correspondence works. For each of our Dynkin diagrams
+  we have a finite subgroup of \(\mathrm{SU}(2)\), thanks to item C).
+  This subgroup acts on the ring of polynomials on \(\mathbb{C}^2\), so
+  we can form the subring of invariant polynomials. This turns out to be
+  generated by three polynomials that we will arbitrarily call \(x\),
+  \(y\), and \(z\). But, they satisfy one relation, given by the
+  polynomial above!
+
+  Conversely, we can start with the polynomial
+  \[f\colon \mathbb{C}^3 \to \mathbb{C}\] The zero set \[\{f = 0\}\] has
+  an isolated singularity at the origin. But, we can resolve this
+  singularity, finding a smooth complex manifold \(N\) with a
+  holomorphic map \[q\colon N \to \{f = 0\}\] that has a holomorphic
+  inverse on a dense open set. There may be lots of ways to do this, but
+  in the present case there's just one ``minimal'' resolution, meaning
+  one that every other resolution factors through this one.
+
+  Then --- and here's the magic part! --- the inverse image of \(0\) in
+  \(N\) turns out to be the union of a bunch of Riemann spheres. And if
+  we draw a dot for each sphere, and an edge between these dots whenever
+  their spheres intersect, we get back our simply laced Dynkin
+  diagram!!!
+
+  This whole section should have given you a feeling of deja vu. It's a
+  lot like section D). If I were smarter, I'd probably see how it's
+  \emph{exactly} the same stuff, repackaged slightly.
+
+  The last item on our list seems different\ldots.
+\item
+  A quiver is just a category freely generated by some set of morphisms.
+  To specify a quiver we just write down some dots and arrows. The dots
+  are the objects of our category; the arrows are the generating
+  morphisms.
+
+  A representation of a quiver \(Q\) is just a functor
+  \[F\colon Q \to \mathsf{Vect}\] So, we get a vector space for each dot
+  and a linear map for each arrow, with no extra restrictions. There's
+  an obvious category of representations \(\mathsf{Rep}(Q)\) of a quiver
+  \(Q\).
+
+  A guy named Gabriel proved a divine result about these categories
+  \(\mathsf{Rep}(Q)\). We say a quiver \(Q\) has ``finite representation
+  type'' if \(\mathsf{Rep}(Q)\) has finitely many indecomposable objects
+  --- objects that aren't direct sums of others. And, it turns out the
+  quivers of finite representation type are just those coming from
+  simply-laced Dynkin diagrams!!
+
+  Actually, for this to make sense, you need to take your Dynkin diagram
+  and turn it into a quiver by putting arrows along the edges. If you
+  have an \(\mathrm{ADE}\) Dynkin diagram, you get a quiver of finite
+  representation type no matter which way you let the arrows point.
+
+  There's clearly a lot of mysterious stuff going on here. In
+  particular, this last item sounds completely unrelated to the rest.
+  But it's not! There are cool relationships between quivers and quantum
+  groups, which tie this item to the rest.
+
+  I'll just mention one --- the one Julie Bergner started her talk with.
+
+  For this, you need to know a bit about abelian categories.
+
+  Abelian categories are categories like the category of abelian groups,
+  or more generally the category of modules of any ring, where you can
+  talk about chain complexes, exact sequences and stuff like that. You
+  can see the precise definition here:
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii})}
+  \setcounter{enumii}{3}
+  \tightlist
+  \item
+    ``Abelian categories'', Wikipedia,
+    \texttt{http://en.wikipedia.org/wiki/Abelian\_category}
+  \end{enumerate}
+
+  and learn more here:
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii})}
+  \setcounter{enumii}{4}
+  \tightlist
+  \item
+    Peter Freyd, \emph{Abelian Categories}, Harper and Row, New York,
+    1964. Also available at
+    \texttt{http://www.tac.mta.ca/tac/reprints/articles/3/tr3abs.html}
+  \end{enumerate}
+
+  It's really interesting to study the ``Grothendieck group'' \(K(A)\)
+  of an abelian category \(A\). As a set, this consists of formal linear
+  combinations of isomorphism classes of objects of \(A\), where we
+  impose the relations \[[a] + [b] = [x]\] whenever we have a short
+  exact sequence \[0 \to a \to x \to b \to 0\] It becomes an abelian
+  group in an obvious way.
+
+  For example, if \(A\) is the category of representations of some group
+  \(G\), it's an abelian category and \(K(A)\) is called the
+  ``representation ring'' of \(A\) --- it's a ring because we tensor
+  representations. Or, if \(A\) is the category of vector bundles over a
+  space \(X\), it's again abelian, and \(K(A)\) is called the ``K-theory
+  of \(X\)''.
+
+  The Hall ring \(H(A)\) of an abelian category is a vaguely similar
+  idea. As a set, this consists of formal linear combinations of
+  isomorphism classes of objects of \(A\). No extra relations! It's an
+  abelian group with the obvious addition. But the cool part is, with a
+  little luck, we can make it into a \emph{ring} by letting the product
+  \([a][b]\) be the sum of all isomorphism classes of objects \([x]\)
+  weighted by the number of isomorphism classes of short exact sequences
+  \[0 \to a \to x \to b \to 0\] This only works if the number is always
+  finite.
+
+  So far when speaking of ``formal linear combinations'' I've been
+  implicitly using integer coefficients, but people seem to prefer
+  complex coefficients in the Hall case, and they get something called
+  the ``Hall algebra'' instead of the ``Hall ring''.
+
+  The fun starts when we take the Hall algebra of \(\mathsf{Rep}(Q)\),
+  where \(Q\) is a quiver. We could look at representations in vector
+  spaces over any field, but let's use a finite field --- necessarily a
+  field with \(q\) elements, where \(q\) is a prime power.
+
+  Then, Ringel proved an amazing theorem about the Hall algebra
+  \(H(\mathsf{Rep}(Q))\) when \(Q\) comes from a Dynkin diagram of type
+  \(\mathrm{A}\), \(\mathrm{D}\), or \(\mathrm{E}\):
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii})}
+  \setcounter{enumii}{4}
+  \tightlist
+  \item
+    C. M. Ringel, ``Hall algebras and quantum groups'', \emph{Invent.
+    Math.} \textbf{101} (1990), 583--592.
+  \end{enumerate}
+
+  He showed this Hall algebra is a quantum group! More precisely, it's
+  isomorphic to the \(q\)-deformed universal enveloping algebra of a
+  maximal nilpotent subalgebra of the Lie algebra associated to the
+  given Dynkin diagram.
+
+  That's a mouthful, but it's cool. For example, the Lie algebra
+  associated to \(\mathrm{A}_n\) is \(\mathfrak{sl}(n+1)\), and the
+  maximal nilpotent subalgebra consists of strictly upper triangular
+  matrices. We're \(q\)-deforming the universal enveloping algebra of
+  this. One cool thing is that the ``\(q\)'' of \(q\)-deformation gets
+  interpreted as a prime power --- something we've already seen in
+  \protect\hyperlink{week185}{``Week 185''} and subsequent weeks.
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+So, it seems that all the ways simply-laced Dynkin diagrams show up in
+math are related. But, I don't think anyone understands what's really
+going on! It's like black magic.
+
+And, I've just described \emph{some} of the black magic!
+
+For example, you'll notice I portrayed the Hall algebra \(H(A)\) as a
+kind of evil twin of the more familiar Grothendieck group \(K(A)\). They
+have some funny relations. For example, if you take the minimal
+resolution of \(\mathbb{C}^2/G\) where \(G\) is a finite subgroup of
+\(\mathrm{SU}(2)\), you get a variety whose K-theory (as defined above)
+is isomorphic to the representation ring of \(G\)! This was shown here:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{5}
+\tightlist
+\item
+  G. Gonzalez-Springberg and J. L. Verdier, ``Construction geometrique
+  de la correspondance de McKay'', \emph{Ann. ENS} \textbf{16} (1983),
+  409--449.
+\end{enumerate}
+
+For further developments, try this paper, which studies the derived
+category of coherent sheaves on this minimal resolution of
+\(\mathbb{C}^2/G\):
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{6}
+\tightlist
+\item
+  Mikhail Kapranov and Eric Vasserot, ``Kleinian singularities, derived
+  categories and Hall algebras'', available as
+  \href{http://arxiv.org/abs/math.AG/9812016}{\texttt{math.AG/9812016}}.
+\end{enumerate}
+
+Now let me give a bunch of references for further study. For a really
+quick overview of the whole \(\mathrm{ADE}\) business, try these:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{7}
+\item
+  Andrei Gabrielov, ``Coxeter-Dynkin diagrams and singularities'', in
+  \emph{Selected Papers of E. B. Dynkin with Commentary}, eds.~A. A.
+  Yushkevich, G. M. Seitz and A. I. Onishchik, AMS, 1999. Also available
+  at
+  \texttt{http://www.math.purdue.edu/\textasciitilde{}agabriel/dynkin.pdf}
+\item
+  John McKay, ``A rapid introduction to ADE theory'',
+  \texttt{http://math.ucr.edu/home/baez/ADE.html}
+\end{enumerate}
+
+Here's a more detailed but still highly readable introduction:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{9}
+\tightlist
+\item
+  Joris van Hoboken, \emph{Platonic solids, binary polyhedral groups,
+  Kleinian singularities and Lie algebras of type
+  \(\mathrm{A}\),\(\mathrm{D}\),\(\mathrm{E}\)}, Master's Thesis,
+  University of Amsterdam, 2002, available at
+  \texttt{http://math.ucr.edu/home/baez/joris\_van\_hoboken\_platonic.pdf}
+\end{enumerate}
+
+This classic has recently become available online:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{10}
+\tightlist
+\item
+  M. Hazewinkel, W. Hesselink, D. Siermsa, and F. D. Veldkamp, ``The
+  ubiquity of Coxeter-Dynkin diagrams (an introduction to the ADE
+  problem)'', \emph{Niew. Arch. Wisk.} \textbf{25} (1977), 257--307.
+  Also available at
+  \texttt{http://repos.project.cwi.nl:8888/cwi\_repository/docs/I/10/10039A.pdf}
+  or \texttt{http://math.ucr.edu/home/baez/hazewinkel\_et\_al.pdf}
+\end{enumerate}
+
+Here's a really nice, elementary introduction to Klein's work on the
+icosahedron and the quintic:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{11}
+\tightlist
+\item
+  Jerry Shurman, \emph{Geometry of the Quintic}, Wiley, New York, 1997.
+  Also available at
+  \texttt{http://people.reed.edu/\textasciitilde{}jerry/Quintic/quintic.html}
+\end{enumerate}
+
+I haven't seen this book, but I hear it's good:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{12}
+\tightlist
+\item
+  P. Slodowy, \emph{Simple Singularities and Algebraic Groups}, Lecture
+  Notes in Mathematics \textbf{815}, Springer, Berlin, 1980.
+\end{enumerate}
+
+Here's a bibliography with links to online references:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{13}
+\tightlist
+\item
+  Miles Reid, Links to papers on McKay correspondence,
+  \texttt{http://www.maths.warwick.ac.uk/\textasciitilde{}miles/McKay/}
+\end{enumerate}
+
+Of those references, I especially like this:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{14}
+\tightlist
+\item
+  Miles Reid, ``La Correspondence de McKay'' (in English),
+  \emph{Seminaire Bourbaki, 52eme annee, November 1999}, no.
+  \textbf{867}, to appear in \emph{Asterisque} 2000. Also available as
+  \href{http://arxiv.org/abs/math.AG/9911165}{\texttt{math.AG/9911165}}.
+\end{enumerate}
+
+Here you'll also see some material about \emph{generalizations} of the
+McKay correspondence. For example, if we take a finite subgroup \(G\) of
+\(\mathrm{SU}(3)\), we get a quotient \(\mathbb{C}^3/G\), which has
+singularities. If we take a ``crepant'' resolution of
+\[p\colon M \to \mathbb{C}^3/G,\] which is the right generalization of a
+minimal resolution, then \(M\) is a Calabi-Yau manifold. This gets
+string theory into the act! Around 1985, Dixon, Harvey, Vafa and Witten
+used this to guess that the Euler characteristic of \(M\) equals the
+number of irreps of \(G\). A lot of work has been done on this since
+then, and Reid's article summarizes a bunch.
+
+Apparently a ``crepant'' resolution is one that induces an isomorphism
+of canonical bundles; when this fails to happen folks say there's a
+discrepancy, so a crepant resolution is one with no dis-crepancy. Get
+it? Since a Calabi-Yau manifold is one whose canonical bundle is
+trivial, it shouldn't be completely shocking that crepant resolutions
+yield Calabi-Yaus. This all works in the original 2d McKay
+correspondence, too --- the minimal resolutions we saw there are also
+crepant.
+
+In fact, string theory also sheds light on the original McKay
+correspondence. The reason is that the minimal resolution of
+\(\mathbb{C}^2/G\) is a very nice Riemannian \(4\)-manifold (when viewed
+as a \emph{real} manifold). It's an ``asymptotically locally Euclidean''
+manifold, or ALE manifold for short. Doing string theory on this gives a
+way of seeing how the extended Dynkin diagrams sneak into the McKay
+correspondence: they're the Dynkin diagrams for central extensions of
+loop groups, which show up as gauge groups in string theory! I don't
+really understand this, but it makes a kind of sense.
+
+I guess this is a famous paper about this stuff:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{15}
+\tightlist
+\item
+  Michael R. Douglas and Gregory Moore, ``D-branes, quivers and ALE
+  instantons'', available as
+  \href{https://arxiv.org/abs/hep-th/9603167}{\texttt{hep-th/9603167}}.
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Addenda:} Thanks go to Jeff Barnes for showing how to get ahold
+of Hazewinkel \emph{et al}'s paper online. I got some nice feedback from
+Graham Leuschke, David Rusin, and Leslie Coghlan, and I used Leuschke's
+to fix a mistake.
+
+Graham Leuschke wrote:
+
+\begin{quote}
+Hi -
+
+A quick correction to your TWF this week. The ADE diagrams are actually
+the underlying graphs of quivers of \emph{finite} representation type,
+not tame. You gave the right definition, but the wrong name for it. Tame
+representation type usually means that there are infinitely many
+indecomposable representations, but they come in nice one-dimensional
+families. (The third option is wild representation type, which usually
+means that classifying the representations would be at least as hard as
+classifying all modules over the non-commutative polynomial ring k. It's
+a theorem of Drozd that one of these must hold.)
+
+This actually points toward more black magic: the quivers of finite type
+have ADE diagrams for underlying graphs, while the quivers of tame type
+have ``extended ADE'' diagrams underneath them. These extended graphs
+are the result of adding one (particular) vertex to each of the ADE
+graphs, and they often arise as the answer to questions that are just
+slightly weaker than the questions answered by the ADE graphs. For
+example, the ADE graphs are those for which the Tits form is positive
+definite, while the extended ADEs are those for which it's positive
+semi-definite. They correspond to Kac-Moody affine Lie algebras rather
+than simple Lie algebras, and so on and so on.
+
+Harm Derksen and Jerzy Weyman had a nice overview of quiver
+representations and the theorem of Gabriel in the Notices last year:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{16}
+\tightlist
+\item
+  Harm Derksen and Jerzy Weyman, ``Quiver representations'', \emph{AMS
+  Notices} \textbf{52} (2005), 200--206. Also available as
+  \texttt{http://www.ams.org/notices/200502/fea-weyman.pdf}
+\end{enumerate}
+
+Idun Reiten had a similar one in the Notices back in 1997, but I can't
+find it online anywhere:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{17}
+\tightlist
+\item
+  Idun Reiten, ``Dynkin diagrams and the representation theory of
+  algebras'', \emph{AMS Notices} \textbf{44} (1997), 546--556.
+\end{enumerate}
+
+She did a really nice job of explaining the connections with quadratic
+forms and (sub)additive functions.
+
+Cheers,\\
+Graham
+\end{quote}
+
+David Rusin wrote:
+
+\begin{quote}
+John Baez wrote:
+
+\begin{quote}
+The diagram \(\mathrm{E}_8\) corresponds to the critical point of
+\(x^5 + y^3 + z^2\).
+\end{quote}
+
+Milnor has a lovely little book:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{18}
+\tightlist
+\item
+  John Milnor, \emph{Singular points of complex hypersurfaces}, Ann.
+  Math. Studies \textbf{61}, Princeton U. Press, Princeton, 1968.
+\end{enumerate}
+
+which takes the point of view that the RIGHT thing to do at an isolated
+critical point of a complex-analytic projective variety is to intersect
+the variety with a small sphere centered at the critical point.
+
+Brieskorn did this with the varieties
+\[x^{4k+1} + y^3 + z^2 + w^2 + u^2 = 0\] which are \(4\)-dimensional
+complex varieties with isolated critical points at the origin. So apart
+from the origin the equation describes an \(8\)-dimensional manifold and
+the intersection with the sphere in \(\mathbb{C}^5 = \mathbb{R}^{10}\)
+is a \(7\)-dimensional manifold. Brieskorn showed:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  For every \(k\), these manifolds \(M_k\) are homeomorphic to the
+  sphere
+\item
+  For every \(k\), \(M_k\) is a smooth manifold.
+\item
+  \(M_j\) and \(M_k\) are diffeomorphic iff \(j = k \mod 28\).
+\end{enumerate}
+
+Thus in particular, the whole group of diffeomorphism classes of
+manifolds which are homeomorphic to the sphere has order 28. Milnor had
+earlier proved that there are 28 diffeomorphism classes of
+\(7\)-spheres. But here they are very explicit!
+
+dave
+\end{quote}
+
+Leslie Coghlan wrote:
+
+\begin{quote}
+Please add to Week 230 links to copies of these two papers:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{19}
+\item
+  H. S. M. Coxeter: ``The evolution of Coxeter-Dynkin diagrams'', in:
+  \emph{Polytopes: Abstract, Convex and Computational}, eds.~T.
+  Bisztriczky, P. McMullen, R. Schneider and A. Ivic Weiss, NATO ASI
+  Series C, Vol. \textbf{440}, Kluwer, Dordrecht, 1994, pp.~21--42.
+\item
+  E. Witt, ``Spiegelungsgruppen und Aufzahlung halbeinfacher Liescher
+  Ringe'', \emph{Abhandl. Math. Sem. Univ. Hamburg.} \textbf{14} (1941),
+  289--337.
+\end{enumerate}
+
+Yours,
+
+Leslie Coghlan
+\end{quote}
+
+Here are a couple more online introductions:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{21}
+\item
+  William Crawley-Boevey, Notes on quiver representations, available at
+  \texttt{http://www.amsta.leeds.ac.uk/\textasciitilde{}pmtwc/quivlecs.pdf}.
+\item
+  Alistair Savage, ``Finite-dimensional algebras and quivers'',
+  available as
+  \href{http://www.arxiv.org/abs/math/0505082}{\texttt{arXiv:math/0505082}}.
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{quote}
+\emph{This thesis is an attempt to show an astonishing relation between
+basic objects from different fields in mathematics. Most peculiarly it
+turns out that their classification is ``the same'': the ADE
+classification. Altogether these objects and the connections between
+them form a coherent web.}
+
+\emph{The connections are accomplished by direct constructions leading
+to bijections between these classes of objects. These constructions
+however do not always explain or give satisfactory intuition why these
+classifications {[}exist{]}, or to say it better, why they should be
+related in this way. Therefore the deeper reason remains mysterious and
+when discovered will have to be of great depth. This gives a high
+motivation to look for new concepts and it shows that simple and since
+long understood mathematics can still raise very interesting questions,
+show paths for new research and give a glance at the mystery of
+mathematics. In my opinion to be aware of a certain truth without having
+its reason is fundamental to the practise of mathematics.}
+
+--- Joris van Hoboken
+\end{quote}
+
 
 
 

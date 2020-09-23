@@ -50,7 +50,7 @@ pretty! Here it is:
 
 1) Don Hatch, Hyperbolic planar tesselations, `http://www.hadron.org/\~hatch/HyperbolicTesselations/`
 
-$$\href{http://www.hadron.org/~hatch/HyperbolicTesselations/}{\includegraphics[max width=\linewidth]{../images/7_3.png}}$$
+$$\href{http://www.hadron.org/~hatch/HyperbolicTesselations/}{\includegraphics[max width=0.8\linewidth]{../images/7_3.png}}$$
 
 It's called "$\{7,3\}$", since it's made of 7-sided figures with 3
 meeting at each corner.
@@ -69,7 +69,7 @@ old paper by Klein and Fricke but prettied up a bit:
 
 2) Tony Smith, Klein's quartic surface, `http://www.valdostamuseum.org/hamsmith/cdomain.html#tesselations`
 
-$$\includegraphics[max width=\linewidth]{../images/Klein168.png}$$
+$$\includegraphics[max width=0.8\linewidth]{../images/Klein168.png}$$
 
 You'll notice they're drawn in a fancy style: each heptagon has been
 "barycentrically subdivided" into 14 right triangles. But don't worry
@@ -255,7 +255,7 @@ plane over $\mathbb{Z}/2$. The Fano plane is closely related to the octonions:
 
 3) John Baez, "The Fano plane", `http://math.ucr.edu/home/baez/octonions/node4.html`
 
-$$\includegraphics[max width=\linewidth]{../images/fano.jpg}$$
+$$\includegraphics[max width=0.8\linewidth]{../images/fano.jpg}$$
 
 So in fact, our $168$-element group acts on the set of octonion
 multiplication tables:
@@ -270,7 +270,7 @@ the diagram Klein and Fricke used to build the Klein quartic. Here's a
 picture drawn by Burkard Polster, author of "The Mathematics of
 Juggling" and "Geometries on Surfaces":
 
-$$\includegraphics[max width=\linewidth]{../images/symfano.png}$$
+$$\includegraphics[max width=0.8\linewidth]{../images/symfano.png}$$
 
 So, something interesting is going on, and I want to know what it is!
 
@@ -366,7 +366,7 @@ sure.
 **Addendum:** Mike Stay took Don Hatch's picture and drew numbers from
 1 to 24 showing how to identify heptagons in order to get the Klein
 quartic curve:
-$$\includegraphics[max width=\linewidth]{../images/7-3.png}$$
+$$\includegraphics[max width=0.8\linewidth]{../images/7-3.png}$$
 
 Gerard Westendorp had some interesting comments on what I wrote:
 

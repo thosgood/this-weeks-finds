@@ -210,7 +210,7 @@ octonions" are those where the coefficients are either all integers or
 all half-integers. Both these are closed under addition and
 multiplication. To get even denser lattices closed under multiplication,
 we need the octonion multiplication chart (see ["Week 104"](#week104)):
-$$\includegraphics[max width=\linewidth]{../images/fano.jpg}$$
+$$\includegraphics[max width=0.8\linewidth]{../images/fano.jpg}$$
 This has 7 lines in it, if we count the circle containing $e_1,e_2,e_4$
 as an honorary "line". To get the "double Hurwitzian integral
 octonions", first pick one of these lines. Then, take all integral

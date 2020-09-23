@@ -516,15 +516,15 @@ $$B \cong B^2 + 1$$
 we want to construct an isomorphism
 $$B \cong B^7$$
 Here is the proof in Marcelo Fiore's paper:
-$$\includegraphics[max width=\linewidth]{../images/seven_trees_in_one_fiore.jpg}$$
+$$\includegraphics[max width=0.8\linewidth]{../images/seven_trees_in_one_fiore.jpg}$$
 At each step he either replaces $B^n$ by $B^{n-1} + B^{n+1}$, or the reverse.
 The underlined portion shows where this will be done. Over at the
 *n*-Café, Stuart Presnell made a beautiful picture of this proof:
-$$\includegraphics[max width=\linewidth]{../images/seven_trees_in_one_presnell_fiore.png}$$
+$$\includegraphics[max width=0.8\linewidth]{../images/seven_trees_in_one_presnell_fiore.png}$$
 He also made a picture of another proof, which is on page 29 of Pierre
 Ageron's book Logiques, Ensembles, Catgories: Le Point de Vue
 Constructif:
-$$\includegraphics[max width=\linewidth]{../images/seven_trees_in_one_presnell_bell.png}$$
+$$\includegraphics[max width=0.8\linewidth]{../images/seven_trees_in_one_presnell_bell.png}$$
 You can watch a *movie* of a proof here:
 
 15) Dan Piponi," Arboreal isomorphisms from nuclear pennies", _A Neighborhood of Infinity_, September 30, 2007. Available at `http://blog.sigfpe.com/2007/09/arboreal-isomorphisms-from-nuclear.html`.
