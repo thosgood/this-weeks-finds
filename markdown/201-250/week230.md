@@ -586,83 +586,61 @@ going on! It's like black magic.
 
 And, I've just described *some* of the black magic!
 
-For example, you'll notice I portrayed the Hall algebra H(A) as a kind
-of evil twin of the more familiar Grothendieck group K(A). They have
+For example, you'll notice I portrayed the Hall algebra $H(A)$ as a kind
+of evil twin of the more familiar Grothendieck group $K(A)$. They have
 some funny relations. For example, if you take the minimal resolution of
-C^2/G where G is a finite subgroup of \mathrm{SU}(2), you get a variety whose
+$\mathbb{C}^2/G$ where $G$ is a finite subgroup of $\mathrm{SU}(2)$, you get a variety whose
 K-theory (as defined above) is isomorphic to the representation ring of
-G! This was shown here:
+$G$! This was shown here:
 
-6) G. Gonzalez-Springberg and J. L. Verdier, Construction geometrique
-de la correspondance de McKay, Ann. ENS 16 (1983), 409-449.
+6) G. Gonzalez-Springberg and J. L. Verdier, "Construction geometrique de la correspondance de McKay", _Ann. ENS_ **16** (1983), 409--449.
 
 For further developments, try this paper, which studies the derived
-category of coherent sheaves on this minimal resolution of C^2/G:
+category of coherent sheaves on this minimal resolution of $\mathbb{C}^2/G$:
 
-7) Mikhail Kapranov and Eric Vasserot, Kleinian singularities, derived
-categories and Hall algebras, available as
-[math.AG/9812016](http://arxiv.org/abs/math.AG/9812016).
+7) Mikhail Kapranov and Eric Vasserot, "Kleinian singularities, derived categories and Hall algebras", available as [`math.AG/9812016`](http://arxiv.org/abs/math.AG/9812016).
 
 Now let me give a bunch of references for further study. For a really
-quick overview of the whole ADE business, try these:
+quick overview of the whole $\mathrm{ADE}$ business, try these:
 
-8) Andrei Gabrielov, Coxeter-Dynkin diagrams and singularities, in
-Selected Papers of E. B. Dynkin with Commentary, eds. A. A. Yushkevich,
-G. M. Seitz and A. I. Onishchik, AMS, 1999. Also available at
-`http://www.math.purdue.edu/~agabriel/dynkin.pdf`
+8) Andrei Gabrielov, "Coxeter-Dynkin diagrams and singularities", in _Selected Papers of E. B. Dynkin with Commentary_, eds. A. A. Yushkevich, G. M. Seitz and A. I. Onishchik, AMS, 1999. Also available at `http://www.math.purdue.edu/~agabriel/dynkin.pdf`
 
-9) John McKay, A rapid introduction to ADE theory,
-`http://math.ucr.edu/home/baez/ADE.html`
+9) John McKay, "A rapid introduction to ADE theory", `http://math.ucr.edu/home/baez/ADE.html`
 
 Here's a more detailed but still highly readable introduction:
 
-10) Joris van Hoboken, Platonic solids, binary polyhedral groups,
-Kleinian singularities and Lie algebras of type A,D,E, Master's Thesis,
-University of Amsterdam, 2002, available at
-`http://math.ucr.edu/home/baez/joris_van_hoboken_platonic.pdf`
+10) Joris van Hoboken, _Platonic solids, binary polyhedral groups, Kleinian singularities and Lie algebras of type $\mathrm{A}$,$\mathrm{D}$,$\mathrm{E}$_, Master's Thesis, University of Amsterdam, 2002, available at `http://math.ucr.edu/home/baez/joris_van_hoboken_platonic.pdf`
 
 This classic has recently become available online:
 
-11) M. Hazewinkel, W. Hesselink, D. Siermsa, and F. D. Veldkamp, The
-ubiquity of Coxeter-Dynkin diagrams (an introduction to the ADE
-problem), Niew. Arch. Wisk., 25 (1977), 257-307. Also available at
-[http://repos.project.cwi.nl:8888/cwi_repository/docs/I/10/10039A.pdf](http://repos.project.cwi.nl:8888/cwi_repository/docs/I/10/10039A.pdf%0A)
-or `http://math.ucr.edu/home/baez/hazewinkel_et_al.pdf`
+11) M. Hazewinkel, W. Hesselink, D. Siermsa, and F. D. Veldkamp, "The ubiquity of Coxeter-Dynkin diagrams (an introduction to the ADE problem)", _Niew. Arch. Wisk._ **25** (1977), 257--307. Also available at `http://repos.project.cwi.nl:8888/cwi_repository/docs/I/10/10039A.pdf` or `http://math.ucr.edu/home/baez/hazewinkel_et_al.pdf`
 
 Here's a really nice, elementary introduction to Klein's work on the
 icosahedron and the quintic:
 
-12) Jerry Shurman, Geometry of the Quintic, Wiley, New York, 1997. Also
-available at `http://people.reed.edu/~jerry/Quintic/quintic.html`
+12) Jerry Shurman, _Geometry of the Quintic_, Wiley, New York, 1997. Also available at `http://people.reed.edu/~jerry/Quintic/quintic.html`
 
 I haven't seen this book, but I hear it's good:
 
-13) P. Slodowy, Simple Singularities and Algebraic Groups, Lecture
-Notes in Mathematics 815, Springer, Berlin, 1980.
+13) P. Slodowy, _Simple Singularities and Algebraic Groups_, Lecture Notes in Mathematics **815**, Springer, Berlin, 1980.
 
 Here's a bibliography with links to online references:
 
-14) Miles Reid, Links to papers on McKay correspondence,
-`http://www.maths.warwick.ac.uk/~miles/McKay/`
+14) Miles Reid, Links to papers on McKay correspondence, `http://www.maths.warwick.ac.uk/~miles/McKay/`
 
 Of those references, I especially like this:
 
-15) Miles Reid, La Correspondence de McKay (in English), Seminaire
-Bourbaki, 52eme annee, November 1999, no. 867, to appear in Asterisque
-2000. Also available as
-[math.AG/9911165](http://arxiv.org/abs/math.AG/9911165).
+15) Miles Reid, "La Correspondence de McKay" (in English), _Seminaire Bourbaki, 52eme annee, November 1999_, no. **867**, to appear in _Asterisque_ 2000. Also available as [`math.AG/9911165`](http://arxiv.org/abs/math.AG/9911165).
 
 Here you'll also see some material about *generalizations* of the McKay
-correspondence. For example, if we take a finite subgroup G of \mathrm{SU}(3), we
-get a quotient C^3/G, which has singularities. If we take a "crepant"
+correspondence. For example, if we take a finite subgroup $G$ of $\mathrm{SU}(3)$, we
+get a quotient $\mathbb{C}^3/G$, which has singularities. If we take a "crepant"
 resolution of
-
-p\colon M \to C^3/G,
-
-which is the right generalization of a minimal resolution, then M is a
+$$p\colon M \to \mathbb{C}^3/G,$$
+which is the right generalization of a minimal resolution, then $M$ is a
 Calabi-Yau manifold. This gets string theory into the act! Around 1985,
 Dixon, Harvey, Vafa and Witten used this to guess that the Euler
-characteristic of M equals the number of irreps of G. A lot of work has
+characteristic of $M$ equals the number of irreps of $G$. A lot of work has
 been done on this since then, and Reid's article summarizes a bunch.
 
 Apparently a "crepant" resolution is one that induces an isomorphism
@@ -675,8 +653,8 @@ correspondence, too --- the minimal resolutions we saw there are also
 crepant.
 
 In fact, string theory also sheds light on the original McKay
-correspondence. The reason is that the minimal resolution of C^2/G is a
-very nice Riemannian 4-manifold (when viewed as a *real* manifold).
+correspondence. The reason is that the minimal resolution of $\mathbb{C}^2/G$ is a
+very nice Riemannian $4$-manifold (when viewed as a *real* manifold).
 It's an "asymptotically locally Euclidean" manifold, or ALE manifold
 for short. Doing string theory on this gives a way of seeing how the
 extended Dynkin diagrams sneak into the McKay correspondence: they're
@@ -686,9 +664,7 @@ it makes a kind of sense.
 
 I guess this is a famous paper about this stuff:
 
-16) Michael R. Douglas and Gregory Moore, D-branes, quivers and ALE
-instantons, available as
-[`hep-th/9603167`](https://arxiv.org/abs/hep-th/9603167).
+16) Michael R. Douglas and Gregory Moore, "D-branes, quivers and ALE instantons", available as [`hep-th/9603167`](https://arxiv.org/abs/hep-th/9603167).
 
 ------------------------------------------------------------------------
 
@@ -727,15 +703,12 @@ Graham Leuschke wrote:
 > Harm Derksen and Jerzy Weyman had a nice overview of quiver
 > representations and the theorem of Gabriel in the Notices last year:
 >
-> 17) Harm Derksen and Jerzy Weyman, Quiver representations, AMS
-> Notices 52 (2005), 200-206. Also available as
-> `http://www.ams.org/notices/200502/fea-weyman.pdf`
+> 17) Harm Derksen and Jerzy Weyman, "Quiver representations", _AMS Notices_ **52** (2005), 200--206. Also available as `http://www.ams.org/notices/200502/fea-weyman.pdf`
 >
 > Idun Reiten had a similar one in the Notices back in 1997, but I
 > can't find it online anywhere:
 >
-> 18) Idun Reiten, Dynkin diagrams and the representation theory of
-> algebras, AMS Notices 44 (1997), 546-556.
+> 18) Idun Reiten, "Dynkin diagrams and the representation theory of algebras", _AMS Notices_ **44** (1997), 546--556.
 >
 > She did a really nice job of explaining the connections with quadratic
 > forms and (sub)additive functions.
@@ -747,12 +720,11 @@ David Rusin wrote:
 
 > John Baez wrote:
 >
->       The diagram E8 corresponds to the critical point of x5 + y3 + z2.
+> > The diagram $\mathrm{E}_8$ corresponds to the critical point of $x^5 + y^3 + z^2$.
 >
 > Milnor has a lovely little book:
 >
-> 19) John Milnor, Singular points of complex hypersurfaces, Ann. Math.
-> Studies 61, Princeton U. Press, Princeton, 1968.
+> 19) John Milnor, _Singular points of complex hypersurfaces_, Ann. Math. Studies **61**, Princeton U. Press, Princeton, 1968.
 >
 > which takes the point of view that the RIGHT thing to do at an
 > isolated critical point of a complex-analytic projective variety is to
@@ -760,22 +732,20 @@ David Rusin wrote:
 > point.
 >
 > Brieskorn did this with the varieties
->
-> x^4k+1^ + y^3 + z^2 + w^2 + u^2 = 0
->
+> $$x^{4k+1} + y^3 + z^2 + w^2 + u^2 = 0$$
 > which are $4$-dimensional complex varieties with isolated critical
 > points at the origin. So apart from the origin the equation describes
-> an $8$-dimensional manifold and the intersection with the sphere in C^5
-> = R^10^ is a $7$-dimensional manifold. Brieskorn showed:
+> an $8$-dimensional manifold and the intersection with the sphere in
+> $\mathbb{C}^5 = \mathbb{R}^{10}$ is a $7$-dimensional manifold. Brieskorn showed:
 >
-> 1.  For every k, these manifolds M_k are homeomorphic to the sphere
-> 2.  For every k, M_k is a smooth manifold.
-> 3.  3. M_j and M_k are diffeomorphic iff j = k mod 28.
+> 1. For every $k$, these manifolds $M_k$ are homeomorphic to the sphere
+> 2. For every $k$, $M_k$ is a smooth manifold.
+> 3. $M_j$ and $M_k$ are diffeomorphic iff $j = k \mod 28$.
 >
 > Thus in particular, the whole group of diffeomorphism classes of
 > manifolds which are homeomorphic to the sphere has order 28. Milnor
 > had earlier proved that there are 28 diffeomorphism classes of
-> 7-spheres. But here they are very explicit!
+> $7$-spheres. But here they are very explicit!
 >
 > dave
 
@@ -783,13 +753,9 @@ Leslie Coghlan wrote:
 
 > Please add to Week 230 links to copies of these two papers:
 >
-> 20) H. S. M. Coxeter: The evolution of Coxeter-Dynkin diagrams, in:
-> Polytopes: Abstract, Convex and Computational, eds. T. Bisztriczky, P.
-> McMullen, R. Schneider and A. Ivic Weiss, NATO ASI Series C, Vol. 440,
-> Kluwer, Dordrecht, 1994, pp. 21-42.
+> 20) H. S. M. Coxeter: "The evolution of Coxeter-Dynkin diagrams", in: _Polytopes: Abstract, Convex and Computational_, eds. T. Bisztriczky, P. McMullen, R. Schneider and A. Ivic Weiss, NATO ASI Series C, Vol. **440**, Kluwer, Dordrecht, 1994, pp. 21--42.
 >
-> 21) E. Witt, Spiegelungsgruppen und Aufzahlung halbeinfacher Liescher
-> Ringe, Abhandl. Math. Sem. Univ. Hamburg. 14 (1941), 289-337.
+> 21) E. Witt, "Spiegelungsgruppen und Aufzahlung halbeinfacher Liescher Ringe", _Abhandl. Math. Sem. Univ. Hamburg._ **14** (1941), 289--337.
 >
 > Yours,
 >
@@ -797,29 +763,28 @@ Leslie Coghlan wrote:
 
 Here are a couple more online introductions:
 
-22) William Crawley-Boevey, Notes on quiver representations, available
-at `http://www.amsta.leeds.ac.uk/~pmtwc/quivlecs.pdf`.
+22) William Crawley-Boevey, Notes on quiver representations, available at `http://www.amsta.leeds.ac.uk/~pmtwc/quivlecs.pdf`.
 
-23) Alistair Savage, Finite-dimensional algebras and quivers, available
-as [`arXiv:math/0505082`](http://www.arxiv.org/abs/math/0505082).
+23) Alistair Savage, "Finite-dimensional algebras and quivers", available as [`arXiv:math/0505082`](http://www.arxiv.org/abs/math/0505082).
 
 ------------------------------------------------------------------------
 
-*This thesis is an attempt to show an astonishing relation between basic
-objects from different fields in mathematics. Most peculiarly it turns
-out that their classification is "the same": the ADE classification.
-Altogether these objects and the connections between them form a
-coherent web.*
-
-The connections are accomplished by direct constructions leading to
-bijections between these classes of objects. These constructions however
-do not always explain or give satisfactory intuition why these
-classifications \[exist\], or to say it better, why they should be
-related in this way. Therefore the deeper reason remains mysterious and
-when discovered will have to be of great depth. This gives a high
-motivation to look for new concepts and it shows that simple and since
-long understood mathematics can still raise very interesting questions,
-show paths for new research and give a glance at the mystery of
-mathematics. In my opinion to be aware of a certain truth without having
-its reason is fundamental to the practise of mathematics. --- Joris van
-Hoboken
+> *This thesis is an attempt to show an astonishing relation between basic
+> objects from different fields in mathematics. Most peculiarly it turns
+> out that their classification is "the same": the ADE classification.
+> Altogether these objects and the connections between them form a
+> coherent web.*
+> 
+> *The connections are accomplished by direct constructions leading to
+> bijections between these classes of objects. These constructions however
+> do not always explain or give satisfactory intuition why these
+> classifications \[exist\], or to say it better, why they should be
+> related in this way. Therefore the deeper reason remains mysterious and
+> when discovered will have to be of great depth. This gives a high
+> motivation to look for new concepts and it shows that simple and since
+> long understood mathematics can still raise very interesting questions,
+> show paths for new research and give a glance at the mystery of
+> mathematics. In my opinion to be aware of a certain truth without having
+> its reason is fundamental to the practise of mathematics.*
+> 
+> --- Joris van Hoboken
