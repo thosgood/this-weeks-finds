@@ -176,7 +176,7 @@ horizontally composing units and counits, which corresponds to sticking
 together string diagrams in a vertical or horizontal way. Thus, a
 typical $2$-morphism looks like this:
 $$
-  \begin{tikzpicture}[xscale=0.8,yscale=1.2]
+  \begin{tikzpicture}[xscale=1.1,yscale=1.4]
     \begin{knot}
       \strand[thick] (-0.5,0)
         to [out=up,in=down] (-2,2);
@@ -185,7 +185,7 @@ $$
       \strand[thick] (1,2)
         to [out=down,in=down,looseness=2] (2,2);
       \strand[thick] (1.5,0)
-        to [out=up,in=down](3,2);
+        to [out=up,in=down] (3,2);
       \strand[thick] (2.5,0)
         to [out=up,in=up,looseness=2] (3.5,0);
       \strand[thick] (4.5,0)
@@ -201,20 +201,26 @@ $$
     \node at (3,1) {$a$};
     \node at (3,0.25) {$b$};
     \node at (4.5,1) {$b$};
+    %
+    \node[fill=white] at (-1.25,1) {\scriptsize$L$};
+    \node[fill=white] at (-1,1.75) {\scriptsize$R$};
+    \node[fill=white] at (0,1.75) {\scriptsize$L$};
+    \node[fill=white] at (1,1.75) {\scriptsize$R$};
+    \node[fill=white] at (2,1.75) {\scriptsize$L$};
+    \node[fill=white] at (2.25,1) {\scriptsize$L$};
+    \node[fill=white] at (2.5,0.25) {\scriptsize$L$};
+    \node[fill=white] at (3.5,0.25) {\scriptsize$R$};
+    \node[fill=white] at (4.25,0.5) {\scriptsize$L$};
+    \node[fill=white] at (5,1) {\scriptsize$R$};
+    \node[fill=white] at (6,1.5) {\scriptsize$L$};
+    %
+    \node[label={[label distance=-2mm]below:{\scriptsize$e$}}] at (-0.5,1.4) {$\bullet$};
+    \node[label={[label distance=-2mm]below:{\scriptsize$e$}}] at (1.5,1.4) {$\bullet$};
+    \node[label={[label distance=-2mm]above:{\scriptsize$i$}}] at (3,0.58) {$\bullet$};
+    \node[label={[label distance=-2mm]below:{\scriptsize$e$}}] at (5.5,0.4) {$\bullet$};
+    \node[label={[label distance=-2mm]above:{\scriptsize$i$}}] at (4.5,1.58) {$\bullet$};
   \end{tikzpicture}
 $$
-
-          \     \   a   /   \   a   /      /               |
-           \     R     L     R     L      /       i        |
-            \     \   /       \   /      /       / \       L
-             \     \ /         \ /      /   a   /   R      |    b
-              \     e           e      /       /     \     |
-        a      L                      R        \      \   / 
-                \         b          /     i    \      \ / 
-                 \                  /     / \    L      e
-                  \                /     L   R    \       
-                   \              /     /  b  \    \  
-
 By the triangle equations, we could straighten out the zig-zag without
 changing the $2$-morphism.
 
