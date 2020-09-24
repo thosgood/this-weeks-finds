@@ -514,68 +514,80 @@ Perhaps I should explain the notation here a bit more. Readers of
 ["Week 80"](#week80) will know that I use a dot to denote
 horizontal composition of $2$-morphisms. For example, when we have a
 couple of $2$-morphisms like this:
-
-                          f           f'
-                      ---->----   ---->----  
-                     /   ||    \ /   ||    \              S: f \Rightarrow g
-                    x    || S   y    || T   z             T: f' \Rightarrow g'
-                     \   \/    / \   \/    /
-                      ---->----   ---->----
-                          g           g'
-
+$$
+  \begin{tikzpicture}
+    \node (x) at (0,0) {$x$};
+    \node (y) at (2,0) {$y$};
+    \node (z) at (4,0) {$z$};
+    \draw[->] (x) .. node[label={[label distance=-1mm]above:{\scriptsize$f$}}]{} controls (0.7,0.7) and (1.3,0.7) .. (y);
+    \draw[->] (x) .. node[label={[label distance=-1mm]below:{\scriptsize$g$}}]{}controls (0.7,-0.7) and (1.3,-0.7) .. (y);
+    \draw[double,double equal sign distance,-implies] (1,0.5) to node[label={[label distance=-1mm]right:{\scriptsize$S$}}]{} (1,-0.5);
+    \draw[->] (y) .. node[label={[label distance=-1mm]above:{\scriptsize$f'$}}]{} controls (2.7,0.7) and (3.3,0.7) .. (z);
+    \draw[->] (y) .. node[label={[label distance=-1mm]below:{\scriptsize$g'$}}]{}controls (2.7,-0.7) and (3.3,-0.7) .. (z);
+    \draw[double,double equal sign distance,-implies] (3,0.5) to node[label={[label distance=-1mm]right:{\scriptsize$T$}}]{} (3,-0.5);
+  \end{tikzpicture}
+$$
 we get a $2$-morphism like this:
-
-                             ff'
-                      -------->-------
-                     /       ||       \
-                    x        || S.T    z                S.T: ff' \Rightarrow gg'
-                     \       \/       /
-                      -------->-------
-                             gg'
-
+$$
+  \begin{tikzpicture}[xscale=1.5]
+    \node (x) at (0,0) {$x$};
+    \node (z) at (2,0) {$z$};
+    \draw[->] (x) .. node[label={[label distance=-1mm]above:{\scriptsize$ff'$}}]{} controls (0.7,0.7) and (1.3,0.7) .. (z);
+    \draw[->] (x) .. node[label={[label distance=-1mm]below:{\scriptsize$gg'$}}]{}controls (0.7,-0.7) and (1.3,-0.7) .. (z);
+    \draw[double,double equal sign distance,-implies] (1,0.5) to node[label={[label distance=-1mm]right:{\scriptsize$S\cdot T$}}]{} (1,-0.5);
+  \end{tikzpicture}
+$$
 But sometimes we can also horizontally compose a morphism and a
 2-morphism! We can do it whenever our morphism $f$ looks like a little
 "whisker" $f$ sticking out of the $2$-morphism $T$:
-
-                                      f'
-                                  ---->----  
-                          f      /   ||    \              
-                    x----->-----y    || T   z             T: f' \Rightarrow g'
-                                 \   \/    /
-                                  ---->----
-                                      g'
-
+$$
+  \begin{tikzpicture}
+    \node (x) at (0,0) {$x$};
+    \node (y) at (2,0) {$y$};
+    \node (z) at (4,0) {$z$};
+    \draw[->] (x) to node[label={[label distance=-1mm]above:{\scriptsize$f$}}]{} (y);
+    \draw[->] (y) .. node[label={[label distance=-1mm]above:{\scriptsize$f'$}}]{} controls (2.7,0.7) and (3.3,0.7) .. (z);
+    \draw[->] (y) .. node[label={[label distance=-1mm]below:{\scriptsize$g'$}}]{}controls (2.7,-0.7) and (3.3,-0.7) .. (z);
+    \draw[double,double equal sign distance,-implies] (3,0.5) to node[label={[label distance=-1mm]right:{\scriptsize$T$}}]{} (3,-0.5);
+  \end{tikzpicture}
+$$
 and what we get is a $2$-morphism $f\cdot S$ like this:
-
-                             ff'
-                      -------->-------
-                     /       ||       \
-                    x        || f.T    z                f.T: ff' \Rightarrow fg'
-                     \       \/       /
-                      -------->-------
-                             fg'
-
+$$
+  \begin{tikzpicture}[xscale=1.5]
+    \node (x) at (0,0) {$x$};
+    \node (z) at (2,0) {$z$};
+    \draw[->] (x) .. node[label={[label distance=-1mm]above:{\scriptsize$ff'$}}]{} controls (0.7,0.7) and (1.3,0.7) .. (z);
+    \draw[->] (x) .. node[label={[label distance=-1mm]below:{\scriptsize$fg'$}}]{}controls (0.7,-0.7) and (1.3,-0.7) .. (z);
+    \draw[double,double equal sign distance,-implies] (1,0.5) to node[label={[label distance=-1mm]right:{\scriptsize$f\cdot T$}}]{} (1,-0.5);
+  \end{tikzpicture}
+$$
 This process, called "whiskering", is not really a new operation. $f\cdot S$
 is really just the horizontal composite of these $2$-morphisms:
-
-                          f           f'
-                      ---->----   ---->----  
-                     /   ||    \ /   ||    \              
-                    x    ||1_f  y    || S   z             
-                     \   \/    / \   \/    /
-                      ---->----   ---->----
-                          f           g'
-
+$$
+  \begin{tikzpicture}
+    \node (x) at (0,0) {$x$};
+    \node (y) at (2,0) {$y$};
+    \node (z) at (4,0) {$z$};
+    \draw[->] (x) .. node[label={[label distance=-1mm]above:{\scriptsize$f$}}]{} controls (0.7,0.7) and (1.3,0.7) .. (y);
+    \draw[->] (x) .. node[label={[label distance=-1mm]below:{\scriptsize$f$}}]{}controls (0.7,-0.7) and (1.3,-0.7) .. (y);
+    \draw[double,double equal sign distance,-implies] (1,0.5) to node[label={[label distance=-1mm]right:{\scriptsize$1_f$}}]{} (1,-0.5);
+    \draw[->] (y) .. node[label={[label distance=-1mm]above:{\scriptsize$f'$}}]{} controls (2.7,0.7) and (3.3,0.7) .. (z);
+    \draw[->] (y) .. node[label={[label distance=-1mm]below:{\scriptsize$g'$}}]{}controls (2.7,-0.7) and (3.3,-0.7) .. (z);
+    \draw[double,double equal sign distance,-implies] (3,0.5) to node[label={[label distance=-1mm]right:{\scriptsize$T$}}]{} (3,-0.5);
+  \end{tikzpicture}
+$$
 Similarly we can define $T\cdot f$ in this sort of situation:
-
-                          f'           
-                      ---->----   
-                     /   ||    \      f                   T: f' \Rightarrow g'
-                    x    || T   y----->-----z             T.f: f'f \Rightarrow g'f
-                     \   \/    /
-                      ---->---- 
-                          g'     
-
+$$
+  \begin{tikzpicture}
+    \node (x) at (0,0) {$x$};
+    \node (y) at (2,0) {$y$};
+    \node (z) at (4,0) {$z$};
+    \draw[->] (x) .. node[label={[label distance=-1mm]above:{\scriptsize$f'$}}]{} controls (0.7,0.7) and (1.3,0.7) .. (y);
+    \draw[->] (x) .. node[label={[label distance=-1mm]below:{\scriptsize$g'$}}]{}controls (0.7,-0.7) and (1.3,-0.7) .. (y);
+    \draw[double,double equal sign distance,-implies] (1,0.5) to node[label={[label distance=-1mm]right:{\scriptsize$T$}}]{} (1,-0.5);
+    \draw[->] (y) to node[label={[label distance=-1mm]above:{\scriptsize$f$}}]{} (z);
+  \end{tikzpicture}
+$$
 Anyway, once you're an expert on this $2$-categorical yoga, you can
 easily see that these morphisms in $\operatorname{Hom}(a,a)$, which are really
 2-morphisms in $\mathsf{Ad}$:
