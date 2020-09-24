@@ -498,7 +498,7 @@ Joe Christy writes:
 > introducing the Weierstrass $\wp$-function and remarking that the
 > differential equation that it satisfies gives the diffeomorphism to
 > $S^3$-trefoil as the boundary of the pair (discriminant of diff-eq,
-> $\mtahbb{C}^2 = (\wp,\wp')$-space).
+> $\mathbb{C}^2 = (\wp,\wp')$-space).
 >
 > This point of view grows out of some observations of Zariski, fleshed
 > out in "Singular Points of Complex Hypersurfaces" \[study 61\]. The

@@ -217,7 +217,7 @@ And, it's the smallest ordinal with this property.
 
 In fact, all the ordinals smaller than $\varepsilon_0$ can be drawn as trees. You
 write them in "Cantor normal form" like this:
-$$\omega^{\omega^{\omega^\omega+\omega+1}} + \omega^{\omega^\omega+\omega^\omega^} + \omega^\omega + \omega + \omega + 1 + 1 + 1$$
+$$\omega^{\omega^{\omega^\omega+\omega+1}} + \omega^{\omega^\omega+\omega^\omega} + \omega^\omega + \omega + \omega + 1 + 1 + 1$$
 using just $+$ and exponentials and $1$ and $\omega$, and then you turn this
 notation into a picture of a tree. I'll leave it as a puzzle to figure
 out how.
@@ -388,7 +388,7 @@ $$\varepsilon_{\varepsilon_\omega}$$
 and then
 $$\varepsilon_{\varepsilon_{\omega^\omega}},\ldots, \varepsilon+{\varepsilon_{\omega^{\omega^\omega}}},\ldots$$
 and then as we keep speeding up, we see:
-$$\varepsilon_{\varepsilon_\varepsilon_0},\ldots \varepsilon_{\varepsilon_{\varepsilon_{\varepsilon_0}}},\ldots \varepsilon_{\varepsilon_{\varepsilon_{\varepsilon_{\varepsilon_0}}}},\ldots$$
+$$\varepsilon_{\varepsilon_{\varepsilon_0}},\ldots \varepsilon_{\varepsilon_{\varepsilon_{\varepsilon_0}}},\ldots \varepsilon_{\varepsilon_{\varepsilon_{\varepsilon_{\varepsilon_0}}}},\ldots$$
 So, anyway: by the time we got that tractor museum, we were driving
 really fast. And, all we saw as we whizzed by was a bunch of rusty
 tractors out in a field! It was over in a split second! It was a real
@@ -401,7 +401,7 @@ really big one... and when you find one, you see it's part of a new
 pattern, and that gets boring to...
 
 Anyway, when we reach the limit of this sequence:
-$$\varepsilon_0,\varepsilon_{\varepsilon_0},\varepsilon_{\varepsilon_\varepsilon_0},\varepsilon_{\varepsilon_{\varepsilon_\varepsilon_0}},\varepsilon_{\varepsilon{\varepsilon_{\varepsilon_\varepsilon_0}}},\ldots$$
+$$\varepsilon_0,\varepsilon_{\varepsilon_0},\varepsilon_{\varepsilon_{\varepsilon_0}},\varepsilon_{\varepsilon_{\varepsilon_{\varepsilon_0}}},\varepsilon_{\varepsilon{\varepsilon_{\varepsilon_{\varepsilon_0}}}},\ldots$$
 our notation breaks down, since this is the first solution of
 $$x = \varepsilon_x$$
 We could make up a new name for this ordinal, like $\eta_0$.
@@ -1055,7 +1055,7 @@ considered the first "impredicative" ordinal. He wrote:
 > > I've seen that $\Gamma_0$ is the first ordinal that cannot be defined
 > > predicatively --- i.e., can't be defined without reference to itself.
 > > Sure, saying $\Gamma_0$ is the first solution of
-> > $$\varphix(0) = x$$
+> > $$\varphi_x(0) = x$$
 > > is non-predicative.  But what about saying that $\Gamma_0$ is the union 
 > > of all ordinals in the Veblen hierarchy?  What's non-predicative
 > > about that?

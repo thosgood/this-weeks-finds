@@ -574,7 +574,7 @@ century. Greg Egan wrote a Mathematica program based on a more efficient
 algorithm and got the answer in less than a day.
 
 For more discussion, including the idea behind Egan's algorithm, visit
-the [n-Category
+the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2008/11/this_weeks_finds_in_mathematic_33.html).
 
 ------------------------------------------------------------------------

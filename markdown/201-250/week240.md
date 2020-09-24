@@ -106,7 +106,7 @@ Are there any other ways to win? Yes! There's an operator that takes
 any function and spits out the identity function:
 $$f \mapsto (x \mapsto x)$$
 This is a bit funny-looking, but I hope you get what it means: you put
-in any function $f$, and out pops the identity function $x \mapsto x.
+in any function $f$, and out pops the identity function $x \mapsto x$.
 
 This arrow notation is very powerful. It's usually called the "$\lambda$
 calculus", since when Church invented it in the 1930s, he wrote it

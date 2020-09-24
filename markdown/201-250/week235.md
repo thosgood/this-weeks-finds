@@ -65,7 +65,7 @@ Eventually they want to send them from satellites down to the Earth. But
 as a warmup, they'll send beams of entangled photons from an
 intermediate building to the Institute of Quantum Computing and the
 Perimeter Institute.
-$$\href{http://www.iqc.ca/laboratories/peg/free_space.php}{\includegraphics[0.8\linewidth]{../images/cryptomap.png}}$$
+$$\href{http://www.iqc.ca/laboratories/peg/free_space.php}{\includegraphics[max width=0.8\linewidth]{../images/cryptomap.png}}$$
 
 4) IQC, "Free-space quantum key distribution", `http://www.iqc.ca/laboratories/peg/free_space.php`
 

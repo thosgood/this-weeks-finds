@@ -159,7 +159,7 @@ you can help out the nLab:
 6) nLab, `http://ncatlab.org/nlab`
 
 The nLab is like the library, or laboratory, in the back room of the
-n-Category Café. The nCafé is a place to chat: it's a blog. The nLab is
+$n$-Category Café. The nCafé is a place to chat: it's a blog. The nLab is
 a place to work: it's a wiki. It's been operating since November 2008.
 There's quite a lot there by now, but it's really just getting
 started.

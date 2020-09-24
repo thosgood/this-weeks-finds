@@ -184,10 +184,6 @@ I then went on to discuss the $120$-cell, which gives a way of chopping a
 spherical universe into 120 dodecahedra.
 $$\includegraphics[max width=0.8\linewidth]{../images/Stereographic_polytope_120cell_faces.png}$$
 
-::: {align="center"}
-![](http://math.ucr.edu/home/baez/dodecahedron/Stereographic_polytope_120cell_faces.png){width="400"}
-:::
-
 This leads naturally to the Poincare homology sphere, a closely related
 3-dimensional manifold made by gluing together opposite sides of *one*
 dodecahedron.
@@ -253,7 +249,7 @@ But, even here I made a mistake. The Pythagoreans seem not to have been
 the first to discover the dodecahedron. John McKay told me that stone
 spheres with Platonic solids carved on them have been found in Scotland,
 dating back to around 2000 BC!
-$$\href{http://arxiv.org/abs/math-ph/0303071}{\includegraphics[max width0.8=\linewidth]{../images/blocks.png}}$$
+$$\href{http://arxiv.org/abs/math-ph/0303071}{\includegraphics[max width=0.8\linewidth]{../images/blocks.png}}$$
 
 13) Michael Atiyah and Paul Sutcliffe, "Polyhedra in physics, chemistry and geometry", available as [`math-ph/0303071`](http://arxiv.org/abs/math-ph/0303071).
 
@@ -271,7 +267,7 @@ The pyritohedron is interesting in itself, so before I turn to some
 really fancy math, let me talk a bit about this guy. Since pyrite is
 fundamentally a cubic crystal, the pyritohedron is basically made out of
 little cubic cells, as shown here:
-$$\href{http://www.uwgb.edu/dutchs/symmetry/isometuc.htm}{\includegraphics[max width0.8=\linewidth]{../images/pyritohedron.png}}$$
+$$\href{http://www.uwgb.edu/dutchs/symmetry/isometuc.htm}{\includegraphics[max width=0.8\linewidth]{../images/pyritohedron.png}}$$
 
 12) Steven Dutch, "Building isometric crystals with unit cells", `http://www.uwgb.edu/dutchs/symmetry/isometuc.htm`
 
@@ -675,7 +671,7 @@ and a series of misunderstandings:
 18) John Baez, "Who discovered the icosahedron?", talk at the _Special Session on History and Philosophy of Mathematics_, 2009 Fall Western Section Meeting of the AMS, November 7, 2009. Available at `http://math.ucr.edu/home/baez/icosahedron/`
 
 You can read a bunch of freewheeling discussions triggered by this
-Week's Finds at the [n-Category Café](http://golem.ph.utexas.edu/category/2006/11/this_weeks_finds_in_mathematic_2.html).
+Week's Finds at the [$n$-Category Café](http://golem.ph.utexas.edu/category/2006/11/this_weeks_finds_in_mathematic_2.html).
 
 ------------------------------------------------------------------------
 
