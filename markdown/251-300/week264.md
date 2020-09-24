@@ -372,7 +372,7 @@ but the homotopy groups of S^1 vanishes after the first, so we get
 
 for n > 2, which says that
 
-\pi_n(S^3) ≅ \pi_n(S^2)
+\pi_n(S^3) \cong \pi_n(S^2)
 
 Okay, now for this mysterious sequence:
 

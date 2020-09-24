@@ -392,11 +392,11 @@ sides we can get!
 Second, recall from last Week that if G acts *transitively* on both X
 and Y, we have isomorphisms
 
-X ≅ G/H
+X \cong G/H
 
 and
 
-Y ≅ G/K
+Y \cong G/K
 
 for certain subgroups H and K of G. Note: here we're really modding out
 by the *right* action of H or K on G.
@@ -404,7 +404,7 @@ by the *right* action of H or K on G.
 Combining these facts, we see that when G acts transitively on both X
 and Y, an invariant relation is just a subset of
 
-G\(X \times Y) ≅ G\(G/H x G/K)
+G\(X \times Y) \cong G\(G/H x G/K)
 
 Finally, if you lock yourself in a cellar and think about this for a few
 minutes (or months), you'll realize that this weird-looking set is
@@ -463,11 +463,11 @@ transitively, say X and Y. Pick a figure x of type X, and a figure y of
 type Y. Let H be the stabilizer of x, and let K be the stabilizer of y.
 Then we get isomorphisms
 
-X ≅ G/H
+X \cong G/H
 
 and
 
-Y ≅ G/K
+Y \cong G/K
 
 The subgroup H ∩ K stabilizes both x and y, and
 

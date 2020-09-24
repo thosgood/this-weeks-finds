@@ -377,7 +377,7 @@ up later:
 -   If K = R, we're in 3d Minkowski spacetime. Then S~+~ and S~-~ are
     isomorphic as real representations of the Lorentz group - so it's
     not important to distinguish them. The secret reason for this is
-    that R is commutative. Since S~+~ ≅ S~-~ does not have an invariant
+    that R is commutative. Since S~+~ \cong S~-~ does not have an invariant
     complex structure, we call elements of this space "Majorana"
     spinors, which is the name for real spinors that don't have a
     particular handedness.
@@ -385,7 +385,7 @@ up later:
 -   If K = C, we're in 4d Minkowski spacetime. Then S~+~ and S~-~ are
     isomorphic as real representations of the Lorentz group - so it's
     not important to distinguish them. The secret reason for this is
-    that C is commutative. If we treat S~+~ ≅ S~-~ as a real vector
+    that C is commutative. If we treat S~+~ \cong S~-~ as a real vector
     space, we call elements of this space "Majorana" spinors, which is
     the name for real spinors that don't have a particular handedness.
 

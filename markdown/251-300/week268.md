@@ -853,7 +853,7 @@ not(a) \to b
 And let's demand that g satisfy the Frobenius axiom! In other words,
 let's suppose there's a natural isomorphism:
 
-g(a or b, c) ≅ g(a, b or c)
+g(a or b, c) \cong g(a, b or c)
 
 Then A is a "*-autonomous category"! And this is a sensible notion,
 since it amounts to requiring a natural one-to-one correspondence
@@ -879,7 +879,7 @@ such that the functor
 
 is equipped with a natural isomorphism
 
-g(a or b, c) ≅ g(a, b or c)
+g(a or b, c) \cong g(a, b or c)
 
 I hope I didn't screw up. I want this definition to be equivalent to
 the usual one, which was invented by Michael Barr quite a while ago:

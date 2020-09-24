@@ -686,7 +686,7 @@ the subgroup of \Gamma consisting of matrices congruent to the identity
 matrix mod 2. What does this have to do with my ode to the number 3?
 Well,
 
-\Gamma/\Gamma(2) ≅ \mathrm{PSL}(2,F_2)
+\Gamma/\Gamma(2) \cong \mathrm{PSL}(2,F_2)
 
 and this is isomorphic to the group of permutations of 3 things!
 

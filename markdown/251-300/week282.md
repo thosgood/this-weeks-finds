@@ -919,7 +919,7 @@ Assoc\colon Vect \to AssocAlg
 
 So, we have an canonical isomorphism
 
-Assoc(V) ≅ \mathrm{U}(Lie(V))
+Assoc(V) \cong \mathrm{U}(Lie(V))
 
 But the Poincaré-Birkhoff-Witt theorem gives a canonical isomorphism of
 vector spaces between the universal enveloping algebra \mathrm{U}(L) of a Lie
@@ -927,7 +927,7 @@ algebra L and its "symmetric algebra" - that is, the free commutative
 algebra on its underlying vector space. Let's write this symmetric
 algebra as Comm(L). So, we get a vector space isomorphism
 
-Assoc(V) ≅ Comm(Lie(V))
+Assoc(V) \cong Comm(Lie(V))
 
 (Admittedly, the standard ugly proof of the PBW theorem does not give a
 *canonical* isomorphism. But the good proof does - see
@@ -937,16 +937,16 @@ Next, let's use some well-known black magic to describe the above
 functors using operads. The free Lie algebra on a vector space V is
 given by
 
-Lie(V) ≅ \oplus _n Lie_n \otimes V^\otimesn^
+Lie(V) \cong \oplus _n Lie_n \otimes V^\otimesn^
 
 where we tensor over the action of the symmetric group. Similarly, the
 free associative algebra on a vector space V is given by
 
-Assoc(V) ≅ \oplus _n Assoc_n \otimes V^\otimesn^
+Assoc(V) \cong \oplus _n Assoc_n \otimes V^\otimesn^
 
 Likewise, the free commutative algebra on V is given by
 
-Comm(V) ≅ \oplus _n Comm_n \otimes V^\otimesn^
+Comm(V) \cong \oplus _n Comm_n \otimes V^\otimesn^
 
 These are categorified versions of formal power series. That's because
 linear operads are a special case of linear "species", or "structure
@@ -973,7 +973,7 @@ these generating functions:
 
 Now, by general abstract nonsense our isomorphism
 
-Assoc(V) ≅ Comm(Lie(V))
+Assoc(V) \cong Comm(Lie(V))
 
 gives an equation
 
@@ -1011,7 +1011,7 @@ structure. Indeed, it's the free Poisson algebra on the Lie algebra L.
 This implies that Comm(Lie(V)) is the free Poisson algebra on the vector
 space V:
 
-Comm(Lie(V)) ≅ &oplus_n Poisson_n \otimes V^\otimesn^
+Comm(Lie(V)) \cong &oplus_n Poisson_n \otimes V^\otimesn^
 
 To get a basis of Poisson_n, it's therefore enough to consider
 commuting products of terms built using Poisson brackets, like this:

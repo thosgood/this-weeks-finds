@@ -611,11 +611,11 @@ If you look back at my definition of $1$-forms, it amounted to this:
 
 And the universal property of Kähler differentials gives us this:
 
-Der(A) ≅ \Omega~K~^1(A)*
+Der(A) \cong \Omega~K~^1(A)*
 
 Putting these facts together, we get
 
-\Omega^1(A) ≅ \Omega~K~^1(A)**
+\Omega^1(A) \cong \Omega~K~^1(A)**
 
 So, we always have a module homomorphism
 
@@ -634,11 +634,11 @@ For example, when A is the algebra of rational polynomials on a simplex,
 free module with one generator dx_i for each independent coordinate. So
 in this case we actually get an isomorphism
 
-\Omega^1(A) ≅ \Omega~K~^1(A)
+\Omega^1(A) \cong \Omega~K~^1(A)
 
 and thus
 
-\Omega(A) ≅ \Omega~K~(A)
+\Omega(A) \cong \Omega~K~(A)
 
 More generally, this is true whenever A is the algebraic functions on a
 smooth affine algebraic variety, by the same sort of argument. So in

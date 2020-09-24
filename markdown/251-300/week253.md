@@ -100,23 +100,23 @@ the exterior algebra Λ(C^5) corresponds to one generation of fermions
 and their antiparticles. For simplicity I'll use the first generation,
 since the other two work just the same:
 
-    Λ0(C5) ≅ <left-handed antineutrino>
+    Λ0(C5) \cong <left-handed antineutrino>
 
-    Λ1(C5) ≅ <right-handed down quark> \oplus   
+    Λ1(C5) \cong <right-handed down quark> \oplus   
              <right-handed positron, right-handed antineutrino>
 
-    Λ2(C5) ≅ <left-handed up antiquark> \oplus  
+    Λ2(C5) \cong <left-handed up antiquark> \oplus  
              <left-handed up quark, left-handed down quark> \oplus 
              <left-handed positron>
 
-    Λ3(C5) ≅ <right-handed electron> \oplus 
+    Λ3(C5) \cong <right-handed electron> \oplus 
              <right-handed up antiquark, right-handed down antiquark> \oplus 
              <right-handed up quark> 
 
-    Λ4(C5) ≅ <left-handed up antiquark> \oplus 
+    Λ4(C5) \cong <left-handed up antiquark> \oplus 
              <left-handed electron, left-handed neutrino>    
 
-    Λ5(C5) ≅ <right-handed neutrino>
+    Λ5(C5) \cong <right-handed neutrino>
 
 All the quarks and antiquarks come in 3 colors, which I haven't
 bothered to list here. Each space Λ^p^(C^5) is an irreducible
@@ -127,7 +127,7 @@ listed as separate rows in the chart above.
 If you're curious how this "breaking up" works, let me explain -
 it's sort of pretty. We just use the splitting
 
-C^5 ≅ C^3 \oplus  C^2
+C^5 \cong C^3 \oplus  C^2
 
 to chop the spaces Λ^p^(C^5) into pieces.
 
@@ -161,7 +161,7 @@ So, in terms of binomial coefficients, we have
 
 In terms of vector spaces we have:
 
-    Λ3(C5) ≅ Λ3(C3) \otimes Λ0(C2) \oplus  
+    Λ3(C5) \cong Λ3(C3) \otimes Λ0(C2) \oplus  
              Λ2(C3) \otimes Λ1(C2) \oplus 
              Λ1(C3) \otimes Λ2(C2)
 
@@ -174,44 +174,44 @@ Finally, in terms of the \mathrm{SU}(5) grand unified theory, we get this:
 
 If we play this game for all the spaces Λ^p^(C^5), here's what we get:
 
-    Λ0(C5) ≅ Λ0(C3) \otimes Λ0(C2)
+    Λ0(C5) \cong Λ0(C3) \otimes Λ0(C2)
 
-    Λ1(C5) ≅ Λ1(C3) \otimes Λ0(C2) \oplus 
+    Λ1(C5) \cong Λ1(C3) \otimes Λ0(C2) \oplus 
              Λ0(C3) \otimes Λ1(C2)
 
-    Λ2(C5) ≅ Λ2(C3) \otimes Λ0(C2) \oplus 
+    Λ2(C5) \cong Λ2(C3) \otimes Λ0(C2) \oplus 
              Λ1(C3) \otimes Λ1(C2) \oplus 
              Λ0(C3) \otimes Λ2(C2)
 
-    Λ3(C5) ≅ Λ3(C3) \otimes Λ0(C2) \oplus 
+    Λ3(C5) \cong Λ3(C3) \otimes Λ0(C2) \oplus 
              Λ2(C3) \otimes Λ1(C2) \oplus 
              Λ1(C3) \otimes Λ2(C2) 
 
-    Λ4(C5) ≅ Λ3(C3) \otimes Λ1(C2) \oplus 
+    Λ4(C5) \cong Λ3(C3) \otimes Λ1(C2) \oplus 
              Λ2(C2) \otimes Λ2(C2)
 
-    Λ5(C5) ≅ Λ3(C3) \otimes Λ2(C2)
+    Λ5(C5) \cong Λ3(C3) \otimes Λ2(C2)
 
 If we interpret this in terms of physics, we get back our previous
 chart:
 
-    Λ0(C5) ≅ <left-handed antineutrino>
+    Λ0(C5) \cong <left-handed antineutrino>
 
-    Λ1(C5) ≅ <right-handed down quark> \oplus   
+    Λ1(C5) \cong <right-handed down quark> \oplus   
              <right-handed positron, right-handed antineutrino>
 
-    Λ2(C5) ≅ <left-handed up antiquark> \oplus  
+    Λ2(C5) \cong <left-handed up antiquark> \oplus  
              <left-handed up quark, left-handed down quark> \oplus 
              <left-handed positron>
 
-    Λ3(C5) ≅ <right-handed electron> \oplus 
+    Λ3(C5) \cong <right-handed electron> \oplus 
              <right-handed up antiquark, right-handed down antiquark> \oplus 
              <right-handed up quark> 
 
-    Λ4(C5) ≅ <left-handed up antiquark> \oplus 
+    Λ4(C5) \cong <left-handed up antiquark> \oplus 
              <left-handed electron, left-handed neutrino>    
 
-    Λ5(C5) ≅ <right-handed neutrino>
+    Λ5(C5) \cong <right-handed neutrino>
 
 Now, all this is really cool - but in fact, even before inventing the
 \mathrm{SU}(5) theory, Georgi went a bit further, and unified all the left-handed
@@ -297,13 +297,13 @@ I talked about the magic square a bit in ["Week 106"](#week106) and
 Instead of repeating all that, let me just summarize. The magic square
 gives vector space isomorphisms as follows:
 
-f_4 ≅ \mathfrak{so}(R \oplus  O) \oplus  (R \otimes O)^2
+f_4 \cong \mathfrak{so}(R \oplus  O) \oplus  (R \otimes O)^2
 
-e~6~ ≅ \mathfrak{so}(C \oplus  O) \oplus  (C \otimes O)^2 \oplus  Im(C)
+e~6~ \cong \mathfrak{so}(C \oplus  O) \oplus  (C \otimes O)^2 \oplus  Im(C)
 
-e~7~ ≅ \mathfrak{so}(H \oplus  O) \oplus  (H \otimes O)^2 \oplus  Im(H)
+e~7~ \cong \mathfrak{so}(H \oplus  O) \oplus  (H \otimes O)^2 \oplus  Im(H)
 
-e_8 ≅ \mathfrak{so}(O \oplus  O) \oplus  (O \otimes O)^2
+e_8 \cong \mathfrak{so}(O \oplus  O) \oplus  (O \otimes O)^2
 
 Here f_4, e~6~, e~7~ and e_8 stand for the Lie algebras of the compact
 real forms of these exceptional Lie groups. R, C, H, and O are the usual
@@ -316,13 +316,13 @@ side.
 
 Here's another way to say the same thing, which may ring more bells:
 
-f_4 ≅ \mathfrak{so}(9) \oplus  S~9~
+f_4 \cong \mathfrak{so}(9) \oplus  S~9~
 
-e~6~ ≅ \mathfrak{so}(10) \oplus  S~10~ \oplus  \mathrm{u}(1)
+e~6~ \cong \mathfrak{so}(10) \oplus  S~10~ \oplus  \mathrm{u}(1)
 
-e~7~ ≅ \mathfrak{so}(12) \oplus  S~12~^+^ \oplus  \mathfrak{su}(2)
+e~7~ \cong \mathfrak{so}(12) \oplus  S~12~^+^ \oplus  \mathfrak{su}(2)
 
-e_8 ≅ \mathfrak{so}(16) \oplus  S~16~^+^
+e_8 \cong \mathfrak{so}(16) \oplus  S~16~^+^
 
 Here S~9~ and S~10~ are the unique irreducible real spinor
 representations of \mathfrak{so}(9) and \mathfrak{so}(10), respectively. In the other two
@@ -348,7 +348,7 @@ a noncanonical way:
 -   the unique irreducible real spinor representation of \mathfrak{so}(10), which
     by now we've given three different names:
 
-    S~10~ ≅ Λ^even^(C^5) ≅ (C \otimes O)^2
+    S~10~ \cong Λ^even^(C^5) \cong (C \otimes O)^2
 
 -   \mathrm{u}(1)
 
@@ -367,7 +367,7 @@ complex numbers, \mathrm{U}(1), on S~10~ which commutes with the action of
 
 And this map gives part of the cleverly defined Lie bracket operation in
 
-e~6~ ≅ \mathfrak{so}(10) \oplus  S~10~ \oplus  \mathrm{u}(1)
+e~6~ \cong \mathfrak{so}(10) \oplus  S~10~ \oplus  \mathrm{u}(1)
 
 All this stuff is mysterious, but suggestive. It could be mere
 coincidence, or it could be the tip of an iceberg. It's more fun to
@@ -375,7 +375,7 @@ assume the latter. So, let me say some more about it....
 
 The copy of \mathrm{u}(1) in here:
 
-\mathrm{E}_6 ≅ \mathfrak{so}(10) \oplus  S~10~ \oplus  \mathrm{u}(1)
+\mathrm{E}_6 \cong \mathfrak{so}(10) \oplus  S~10~ \oplus  \mathrm{u}(1)
 
 is pretty amusing from a physics viewpoint. It's if besides the gauge
 bosons in \mathfrak{so}(10), there were one extra gauge boson whose sole role is to
@@ -806,7 +806,7 @@ complex structure we choose!
 
 Furthermore, when we complexify the real Lie algebra e~6~, we get
 
-C \otimes e~6~ ≅ \mathfrak{so}(10,C) \oplus  Λ(C^5) \oplus  C
+C \otimes e~6~ \cong \mathfrak{so}(10,C) \oplus  Λ(C^5) \oplus  C
 
 where Λ(C^5) is the Dirac spinor representation of \mathfrak{so}(10,C), describing
 both left- and right-handed fermions.

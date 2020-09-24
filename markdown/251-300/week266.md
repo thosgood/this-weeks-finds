@@ -207,7 +207,7 @@ on a modern keyboard, it looks like after going up 6 whole tones you've
 gone up an octave. But in fact if you buy the Pythagorean definition of
 whole tone, 6 whole tones equals
 
-(9/8)^6 = 531441 / 262144 ≅ 2.027286530...
+(9/8)^6 = 531441 / 262144 \cong 2.027286530...
 
 which is, umm, not quite 2!
 
@@ -215,7 +215,7 @@ Another way to put it is that if you go up 12 fifths, you've *almost*
 gone up 7 octaves, but not quite: the so-called circle of fifths
 doesn't quite close, since
 
-(3/2)^12^ / 2^7 = 531441 / 524288 ≅ 1.01264326...
+(3/2)^12^ / 2^7 = 531441 / 524288 \cong 1.01264326...
 
 This annoying little discrepancy is called the "Pythagorean comma".
 

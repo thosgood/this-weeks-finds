@@ -477,11 +477,11 @@ equivalent, roughly this:
 > where every morphism has an inverse and every object x has an inverse
 > with respect to the tensor product: that is, an object x* such that
 >
-> x \otimes x* ≅ 1
+> x \otimes x* \cong 1
 >
 > and
 >
-> x* \otimes x ≅ 1
+> x* \otimes x \cong 1
 >
 > 2-groups are a great way to dip your toe in vast ocean of $n$-category
 > theory. They're one step to the right of groups in the $n$-groupoid

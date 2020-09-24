@@ -417,13 +417,13 @@ Once I was giving a talk about $n$-categories and Roger Penrose was in the
 audience. I said the most basic fact about $n$-categories was:
 
 ::: {align="center"}
-≅ ≠ =
+\cong ≠ =
 :::
 
 He raised his hand and asked:
 
 ::: {align="center"}
-≅ ≅ = ?
+\cong \cong = ?
 :::
 
 Very good question! And the answer is: sometimes yes, sometimes no. This

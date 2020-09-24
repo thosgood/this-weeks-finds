@@ -269,21 +269,21 @@ A_2                                       1            
 A_3                                       8/9                       \~
 .889
 
-\mathrm{PSL}(2,3) ≅ A_4                     2/3                       \~ .667
+\mathrm{PSL}(2,3) \cong A_4                     2/3                       \~ .667
 
-\mathrm{PSL}(2,4) ≅ \mathrm{PSL}(2,5) ≅ A_5   19/30                   \~ .633
+\mathrm{PSL}(2,4) \cong \mathrm{PSL}(2,5) \cong A_5   19/30                   \~ .633
 
-\mathrm{PSL}(2,7) ≅ \mathrm{PSL}(3,2)           19/28                   \~ .679
+\mathrm{PSL}(2,7) \cong \mathrm{PSL}(3,2)           19/28                   \~ .679
 
 \mathrm{PSL}(2,8)                             71/84                   \~ .845
 
-\mathrm{PSL}(2,9) ≅ A~6~                     53/90                   \~ .589
+\mathrm{PSL}(2,9) \cong A~6~                     53/90                   \~ .589
 
 \mathrm{PSL}(2,11)                           127/165               \~ .770
 
 A~7~                                       229/315               \~ .727
 
-\mathrm{PSL}(4,2) ≅ A_8                     133/180               \~ .739
+\mathrm{PSL}(4,2) \cong A_8                     133/180               \~ .739
 
 A~9~                                       15403/18144       \~ .849
 

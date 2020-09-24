@@ -44,7 +44,7 @@ x + y = y + x
 
 now become isomorphisms like this:
 
-X + Y ≅ Y + X.
+X + Y \cong Y + X.
 
 This means we're "categorifying" the concepts of plus and times.
 

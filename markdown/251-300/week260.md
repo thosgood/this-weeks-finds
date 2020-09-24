@@ -267,7 +267,7 @@ infinite-dimensional manifolds. The idea of a "convenient category"
 goes back to topology: at some point, people realized they wanted this
 property to hold:
 
-C(X \times Y, Z) ≅ C(X, C(Y, Z))
+C(X \times Y, Z) \cong C(X, C(Y, Z))
 
 Here C(X,Y) is the space of maps from X to Y. So, the isomorphism above
 says that a map from X \times Y to Z should correspond to a map from X to
