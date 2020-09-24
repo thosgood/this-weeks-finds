@@ -21,8 +21,7 @@ J. Scott Carter and Masahico Saito, _Lett. Math. Phys._ **23** (1991),
     "A diagrammatic theory of knotted surfaces", by J. Scott Carter and
     Masahico Saito, preprint.
 
-    "Reidemeister moves for surface isotopies and their interpretations as
-        moves to movies", by J. Scott Carter and Masahico Saito, preprint.
+    "Reidemeister moves for surface isotopies and their interpretations as moves to movies", by J. Scott Carter and Masahico Saito, preprint.
 
 The idea here is to take what has been done for knots in $3$-dimensional
 space and generalize it to "knotted surfaces," that is, embedded

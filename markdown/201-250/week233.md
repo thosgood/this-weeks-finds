@@ -3,15 +3,11 @@
 On Tuesday I'm supposed to talk with Lee Smolin about an idea he's
 been working on with Fotini Markopoulou and Sundance Bilson-Thompson.
 This idea relates the elementary particles in one generation of the
-Standard Model to certain 3-strand framed braids:
+Standard Model to certain $3$-strand framed braids:
 
-1) Sundance O. Bilson-Thompson, A topological model of composite
-preons, available as
-[hep-ph/0503213](http://arxiv.org/abs/hep-ph/0503213).
+1) Sundance O. Bilson-Thompson, "A topological model of composite preons", available as [hep-ph/0503213](http://arxiv.org/abs/hep-ph/0503213).
 
-2) Sundance O. Bilson-Thompson, Fotini Markopoulou, and Lee Smolin,
-Quantum gravity and the Standard Model,
-[`hep-th/0603022`](https://arxiv.org/abs/hep-th/0603022).
+2) Sundance O. Bilson-Thompson, Fotini Markopoulou, and Lee Smolin, "Quantum gravity and the Standard Model", [`hep-th/0603022`](https://arxiv.org/abs/hep-th/0603022).
 
 It's a very speculative idea: they've found some interesting
 relations, but nobody knows if these are coincidental or not.
@@ -19,169 +15,215 @@ relations, but nobody knows if these are coincidental or not.
 Luckily, one of my hobbies is collecting mysterious relationships
 between basic mathematical objects and trying to figure out what's
 going on. So, I already happen to know a bunch of weird facts about
-3-strand braids. I figure I'll tell Smolin about this stuff. But if you
+$3$-strand braids. I figure I'll tell Smolin about this stuff. But if you
 don't mind, I'll practice on you!
 
-So, today I'll try to tell a story connecting the 3-strand braid group,
-the trefoil knot, rational tangles, the groups \mathrm{SL}(2,\mathbb{Z}) and \mathrm{PSL}(2,\mathbb{Z}),
+So, today I'll try to tell a story connecting the $3$-strand braid group,
+the trefoil knot, rational tangles, the groups $\mathrm{SL}(2,\mathbb{Z})$ and $\mathrm{PSL}(2,\mathbb{Z})$,
 conformal field theory, and Monstrous Moonshine.
 
 I've talked about some of these things before, but now I'll introduce
 some new puzzle pieces, which come from two places:
 
-3) Imre Tuba and Hans Wenzl, Representations of the braid group B_3
-and of \mathrm{SL}(2,\mathbb{Z}), available as
-[math.RT/9912013](http://arxiv.org/abs/math.RT/9912013).
+3) Imre Tuba and Hans Wenzl, "Representations of the braid group $B_3$ and of $\mathrm{SL}(2,\mathbb{Z})$", available as [`math.RT/9912013`](http://arxiv.org/abs/math.RT/9912013).
 
-4) Terry Gannon, The algebraic meaning of genus-zero, available as
-[math.NT/0512248](http://arxiv.org/abs/math.NT/0512248).
+4) Terry Gannon, "The algebraic meaning of genus-zero", available as [`math.NT/0512248`](http://arxiv.org/abs/math.NT/0512248).
 
 You could call it "a tale of two groups".
 
-On the one hand, the 3-strand braid group has generators
-
-         |   |   |
-          \ /    |
-    A  =   /     |
-          / \    |
-         |   |   |
-
+On the one hand, the $3$-strand braid group has generators
+$$
+  \raisebox{2.6em}{$A=$}\quad
+  \begin{tikzpicture}
+    \begin{knot}[clip width=5]
+      \strand[thick] (1,0)
+        to [out=down,in=up,looseness=1.5] (0,-2);
+      \strand[thick] (0,0)
+        to [out=down,in=up,looseness=1.5] (1,-2);
+      \strand[thick] (2,0) to (2,-2);
+    \end{knot}
+  \end{tikzpicture}
+$$
 and
-
-         |   |   |   
-         |    \ /    
-    B =  |     /    
-         |    / \  
-         |   |   |
-
+$$
+  \raisebox{2.6em}{$B=$}\quad
+  \begin{tikzpicture}
+    \begin{knot}[clip width=5]
+      \strand[thick] (1,0)
+        to [out=down,in=up,looseness=1.5] (0,-2);
+      \strand[thick] (0,0)
+        to [out=down,in=up,looseness=1.5] (1,-2);
+      \strand[thick] (-1,0) to (-1,-2);
+    \end{knot}
+  \end{tikzpicture}
+$$
 and the only relation is
-
-ABA = BAB
-
+$$ABA = BAB$$
 otherwise known as the "third Reidemeister move":
-
-    |   |  |         |  |   | 
-     \ /   |         |   \ /
-      /    |         |    / 
-     / \   |         |   / \
-    |   \ /           \ /   |  
-    |    /      =      /    | 
-    |   / \           / \   | 
-     \ /   |         |   \ / 
-      /    |         |    /
-     / \   |         |   / \  
-
-On other hand, the group \mathrm{SL}(2,\mathbb{Z}) consists of 2\times2 integer matrices with
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7]
+      \strand[thick] (0,0)
+        to [out=down,in=up] (1,-1)
+        to [out=down,in=up] (2,-2)
+        to (2,-3);
+      \strand[thick] (1,0)
+        to [out=down,in=up] (0,-1)
+        to (0,-2)
+        to [out=down,in=up] (1,-3);
+      \strand[thick] (2,0)
+        to (2,-1)
+        to [out=down,in=up] (1,-2)
+        to [out=down,in=up] (0,-3);
+    \end{knot}
+  \end{tikzpicture}
+  \raisebox{4em}{\quad=\quad}
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7]
+      \strand[thick] (0,0)
+        to (0,-1)
+        to [out=down,in=up] (1,-2)
+        to [out=down,in=up] (2,-3);
+      \strand[thick] (1,0)
+        to [out=down,in=up] (2,-1)
+        to (2,-2)
+        to [out=down,in=up] (1,-3);
+      \strand[thick] (2,0)
+        to [out=down,in=up] (1,-1)
+        to [out=down,in=up] (0,-2)
+        to (0,-3);
+    \end{knot}
+  \end{tikzpicture}
+$$
+On other hand, the group $\mathrm{SL}(2,\mathbb{Z})$ consists of $2\times2$ integer matrices with
 determinant $1$. It's important in number theory, complex analysis,
 string theory and other branches of pure mathematics. I've described
 some of its charms in ["Week 125"](#week125),
 ["Week 229"](#week229) and elsewhere.
 
 These groups look pretty different at first. But, there's a
-homomorphism from B_3 onto \mathrm{SL}(2,\mathbb{Z})! It goes like this:
-
-            1   1
-    A \mapsto  
-            0   1
-
-
-            1   0
-    B \mapsto  
-           -1   1
-
+homomorphism from $B_3$ onto $\mathrm{SL}(2,\mathbb{Z})$! It goes like this:
+$$
+  \begin{aligned}
+    A &\longmapsto \left(\begin{array}{rr}1&1\\0&1\end{array}\right)
+  \\B &\longmapsto \left(\begin{array}{rr}1&0\\-1&1\end{array}\right)
+  \end{aligned}
+$$
 Both these matrices describe "shears" in the plane. You may enjoy
-drawing these shears and visualizing the equation ABA = BAB in these
+drawing these shears and visualizing the equation $ABA = BAB$ in these
 terms. I did.
 
 I would like to understand this better... and here are some clues.
 
-The center of B_3 is generated by the element (AB)^3. This element
+The center of $B_3$ is generated by the element $(AB)^3$. This element
 corresponds to a "full twist". In other words, it's the braid you get
 by hanging 3 strings from the ceiling, grabbing them all with one hand
 at the bottom, and giving them a full 360-degree twist:
-
-    |   |  |  
-     \ /   | 
-      /    |       A
-     / \   |
-    |   \ /    
-    |    /         B 
-    |   / \   
-     \ /   | 
-      /    |       A
-     / \   |
-    |   \ /    
-    |    /         B 
-    |   / \   
-     \ /   | 
-      /    |       A
-     / \   |
-    |   \ /    
-    |    /         B 
-    |   / \   
-    |  |   |
-
-This full twist gets sent to -1 in \mathrm{SL}(2,\mathbb{Z}):
-
-                 -1   0 
-    (AB)3 \mapsto  
-                  0  -1
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=5]
+      \strand[thick] (1,0)
+        to [out=down,in=up] (0,-1);
+      \strand[thick] (0,0)
+        to [out=down,in=up] (1,-1);
+      \strand[thick] (2,0) to (2,-1);
+    \end{knot}
+    \node at (3,-0.5) {$A$};
+    \begin{scope}[shift={(1,-1)}]
+      \begin{knot}[clip width=5]
+        \strand[thick] (1,0)
+          to [out=down,in=up] (0,-1);
+        \strand[thick] (0,0)
+          to [out=down,in=up] (1,-1);
+        \strand[thick] (-1,0) to (-1,-1);
+      \end{knot}
+      \node at (2,-0.5) {$B$};
+    \end{scope}
+    \begin{scope}[shift={(0,-2)}]
+      \begin{knot}[clip width=5]
+        \strand[thick] (1,0)
+          to [out=down,in=up] (0,-1);
+        \strand[thick] (0,0)
+          to [out=down,in=up] (1,-1);
+        \strand[thick] (2,0) to (2,-1);
+      \end{knot}
+      \node at (3,-0.5) {$A$};
+    \end{scope}
+    \begin{scope}[shift={(1,-3)}]
+      \begin{knot}[clip width=5]
+        \strand[thick] (1,0)
+          to [out=down,in=up] (0,-1);
+        \strand[thick] (0,0)
+          to [out=down,in=up] (1,-1);
+        \strand[thick] (-1,0) to (-1,-1);
+      \end{knot}
+      \node at (2,-0.5) {$B$};
+    \end{scope}
+    \begin{scope}[shift={(0,-4)}]
+      \begin{knot}[clip width=5]
+        \strand[thick] (1,0)
+          to [out=down,in=up] (0,-1);
+        \strand[thick] (0,0)
+          to [out=down,in=up] (1,-1);
+        \strand[thick] (2,0) to (2,-1);
+      \end{knot}
+      \node at (3,-0.5) {$A$};
+    \end{scope}
+    \begin{scope}[shift={(1,-5)}]
+      \begin{knot}[clip width=5]
+        \strand[thick] (1,0)
+          to [out=down,in=up] (0,-1);
+        \strand[thick] (0,0)
+          to [out=down,in=up] (1,-1);
+        \strand[thick] (-1,0) to (-1,-1);
+      \end{knot}
+      \node at (2,-0.5) {$B$};
+    \end{scope}
+  \end{tikzpicture}
+$$
+This full twist gets sent to $-1$ in $\mathrm{SL}(2,\mathbb{Z})$:
+$$(AB)^3 \longmapsto \left(\begin{array}{rr}-1&0\\0&-1\end{array}\right)$$
 So, the double twist gets sent to the identity:
-
-                 1   0 
-    (AB)6 \mapsto  
-                 0   1
-
+$$(AB)^6 \longmapsto \left(\begin{array}{rr}1&0\\0&1\end{array}\right)$$
 In fact, Tuba and Wenzl say the double twist *generates* the kernel of
-our homomorphism from B_3 to \mathrm{SL}(2,\mathbb{Z}). So, \mathrm{SL}(2,\mathbb{Z}) is isomorphic to the
-group of 3-strand braids modulo double twists!
+our homomorphism from $B_3$ to $\mathrm{SL}(2,\mathbb{Z})$. So, $\mathrm{SL}(2,\mathbb{Z})$ is isomorphic to the
+group of $3$-strand braids modulo double twists!
 
 This reminds me of spinors... since you have to twist an electron
 around *twice* to get its wavefunction back to where it started. And
-indeed, \mathrm{SL}(2,\mathbb{Z}) is a subgroup of \mathrm{SL}(2,\mathbb{C}), which is the double cover of
-the Lorentz group. So, 3-strand braids indeed act on the state space of
+indeed, $\mathrm{SL}(2,\mathbb{Z})$ is a subgroup of $\mathrm{SL}(2,\mathbb{C})$, which is the double cover of
+the Lorentz group. So, $3$-strand braids indeed act on the state space of
 a spin-$1/2$ particle, with double twists acting trivially!
 
 (For more on this, check out Trautman's work on "Pythagorean spinors"
 in ["Week 196"](#week196). There's also a version where we use
-integers mod 7, described in ["Week 219"](#week219).)
+integers $\mod 7$, described in ["Week 219"](#week219).)
 
-If instead we take 3-strand braids modulo full twists, we get the
+If instead we take $3$-strand braids modulo full twists, we get the
 so-called "modular group":
-
-\mathrm{PSL}(2,\mathbb{Z}) = \mathrm{SL}(2,\mathbb{Z})/{+-1}
-
-Now, \mathrm{SL}(2,\mathbb{Z}) is famous for being the "mapping class group" of the
-torus - that is, the group of orientation-preserving diffeomorphisms,
-modulo diffeomorphisms connected to the identity. Similary, \mathrm{PSL}(2,\mathbb{Z}) is
+$$\mathrm{PSL}(2,\mathbb{Z}) = \mathrm{SL}(2,\mathbb{Z})/\{\pm1\}$$
+Now, $\mathrm{SL}(2,\mathbb{Z})$ is famous for being the "mapping class group" of the
+torus --- that is, the group of orientation-preserving diffeomorphisms,
+modulo diffeomorphisms connected to the identity. Similary, $\mathrm{PSL}(2,\mathbb{Z})$ is
 famous for acting on the rational numbers together with a point at
 infinity by means of fractional linear transformations:
-
-             az + b
-    z \mapsto   -------
-             cz + d
-
-where a,b,c,d are integers and ad-bc = 1. The group \mathrm{PSL}(2,\mathbb{Z}) also acts
-on certain 2-strand tangles called "rational tangles". In
+$$z \mapsto \frac{az+b}{cz+d}$$
+where $a,b,c,d$ are integers and $ad-bc = 1$. The group $\mathrm{PSL}(2,\mathbb{Z})$ also acts
+on certain $2$-strand tangles called "rational tangles". In
 ["Week 229"](#week229), I told a nice story I heard from Michael
 Hutchings, explaining how these three facts fit together in a neat
 package.
 
 But now let's combine those facts with the stuff I just said! Since
-\mathrm{PSL}(2,\mathbb{Z}) acts on rational tangles, and there's a homomorphism from B_3
-to \mathrm{PSL}(2,\mathbb{Z}), 3-strand braids must act on rational tangles. How does that
+$\mathrm{PSL}(2,\mathbb{Z})$ acts on rational tangles, and there's a homomorphism from $B_3$
+to $\mathrm{PSL}(2,\mathbb{Z})$, $3$-strand braids must act on rational tangles. How does that
 go?
 
 There's an obvious guess, or two, or three, or four, but let's just
 work it out.
 
-I just said that the 3-strand braid A gets mapped to this shear:
-
-            1   1
-    A \mapsto  
-            0   1
-
+I just said that the $3$-strand braid A gets mapped to this shear:
+$$A \longmapsto \left(\begin{array}{rr}1&1\\0&1\end{array}\right)$$
 In ["Week 229"](#week229) I said what this shear does to a rational
 tangle. It gives it a 180 degree twist at the bottom, like this:
 
@@ -196,11 +238,7 @@ tangle. It gives it a 180 degree twist at the bottom, like this:
       |   |                 / \
 
 Next, Tuba and Wenzl point out that
-
-                      0   1
-    ABA = BAB \mapsto 
-                     -1   0
-
+$$ABA = BAB \longmapsto \left(\begin{array}{rr}0&1\\-1&0\end{array}\right)$$
 which is a quarter turn. From ["Week 229"](#week229) you can see
 how this quarter turn acts on a rational tangle:
 
@@ -216,14 +254,14 @@ how this quarter turn acts on a rational tangle:
 
 It gives it a quarter turn!
 
-From these facts, we can figure out what the braid B does to a rational
+From these facts, we can figure out what the braid $B$ does to a rational
 tangle. So, let me do the calculation.
 
 Scribble, scribble, curse and scribble.... Eureka!
 
-Since we know what A does, and what ABA does, we can figure out what B
+Since we know what $A$ does, and what $ABA$ does, we can figure out what $B$
 must do. But, to make the answer look cute, I needed a sneaky fact about
-rational tangles, which is that A *also* acts like this:
+rational tangles, which is that $A$ *also* acts like this:
 
       |   |                 \ / 
       |   |                  /
@@ -236,7 +274,7 @@ rational tangles, which is that A *also* acts like this:
       |   |                |   |
 
 This is proved in Goldman and Kauffman's paper cited in
-["Week 228"](#week228). With the help of this, I can show B acts
+["Week 228"](#week228). With the help of this, I can show $B$ acts
 like this:
 
       |   |              |          |
@@ -249,7 +287,7 @@ like this:
       |   |             |           | 
       |   |             |           |
 
-And this is *great!* It means our action of 3-strand braids on rational
+And this is *great!* It means our action of $3$-strand braids on rational
 tangles is really easy to describe. Just take your tangle and let the
 upper left strand dangle down:
 
@@ -263,66 +301,68 @@ upper left strand dangle down:
      |     |   | 
      |     |   |
 
-To let a 3-strand braid act on this, just attach it to the bottom of the
+To let a $3$-strand braid act on this, just attach it to the bottom of the
 picture!
 
 (That's why there were *four* obvious guesses about this would work:
 one can easily imagine four variations on this trick, depending on which
-strand is the "odd man out" - here it's the upper right. It's just a
+strand is the "odd man out" --- here it's the upper right. It's just a
 matter of convention which we use, but my conventions give this.)
 
-In fact, even the group of 4-strand braids acts on rational tangles in
-an obvious way, but the 3-strand braid group is enough for now.
+In fact, even the group of $4$-strand braids acts on rational tangles in
+an obvious way, but the $3$-strand braid group is enough for now.
 
-Let me summarize. The 3-strand braid group B_3 acts on rational tangles
+Let me summarize. The $3$-strand braid group $B_3$ acts on rational tangles
 in an obvious way. The subgroup that acts trivially is precisely the
-center of B_3, generated by the full twist. Using stuff from
-["Week 229"](#week229), it follows that the quotient of B_3 by its
+center of $B_3$, generated by the full twist. Using stuff from
+["Week 229"](#week229), it follows that the quotient of $B_3$ by its
 center acts on the projectivized rational homology of the torus. We thus
-get a topological explanation of why B_3 mod its center is \mathrm{PSL}(2,\mathbb{Z}).
+get a topological explanation of why $B_3$ mod its center is $\mathrm{PSL}(2,\mathbb{Z})$.
 
 But there's more.
 
-For starters, the 3-strand braid group is also the fundamental group of
-S^3 minus the trefoil knot!
+For starters, the $3$-strand braid group is also the fundamental group of
+$S^3$ minus the trefoil knot!
 
-And, S^3 minus the trefoil knot is secretly the same as
-\mathrm{SL}(2,R)/\mathrm{SL}(2,\mathbb{Z})!
+And, $S^3$ minus the trefoil knot is secretly the same as
+$\mathrm{SL}(2,\mathbb{R})/\mathrm{SL}(2,\mathbb{Z})$!
 
-In fact, Terry Gannon writes that the 3-strand braid group can be
+In fact, Terry Gannon writes that the $3$-strand braid group can be
 regarded as "the universal central extension of the modular group, and
 the universal symmetry of its modular forms". I'm not completely sure
 what that means, but here's *part* of what it means.
 
-Just as \mathrm{PSL}(2,\mathbb{C}) is the Lorentz group in 4d spacetime, \mathrm{PSL}(2,R) is the
-Lorentz group in 3d spacetime. This group has a double cover \mathrm{SL}(2,R),
+Just as $\mathrm{PSL}(2,\mathbb{C})$ is the Lorentz group in 4d spacetime, $\mathrm{PSL}(2,\mathbb{R})$ is the
+Lorentz group in 3d spacetime. This group has a double cover $\mathrm{SL}(2,\mathbb{R})$,
 which shows up when you study spinors. But, it also has a universal
 cover, which shows up when you study anyons. The universal cover has
 infinitely many sheets. And up in this universal cover, sitting over the
-subgroup \mathrm{SL}(2,\mathbb{Z}), we get... the 3-strand braid group!
+subgroup $\mathrm{SL}(2,\mathbb{Z})$, we get... the $3$-strand braid group!
 
 In math jargon, we have this commutative diagram where the rows are
 short exact sequences:
-
-        1 ----> Z -----> B3 -------> \mathrm{SL}(2,\mathbb{Z}) ----> 1
-
-                |        |             |          
-                |        |             |         
-                v        v             v        
-
-        1 ----> Z ---> \mathrm{SL}(2,R)~ ---> \mathrm{SL}(2,R) ----> 1
-
-Here \mathrm{SL}(2,R)^\~^ is the universal cover of \mathrm{SL}(2,R). Since \pi_1(\mathrm{SL}(2,R))
-= Z, this is a Z-fold cover. You can describe this cover explicitly
+$$
+  \begin{tikzcd}
+    1 \rar
+    & \mathbb{Z} \rar \dar
+    & B_3 \rar \dar
+    & \mathrm{SL}(2,\mathbb{Z}) \rar \dar
+    & 1
+  \\1 \rar
+    & \mathbb{Z} \rar
+    & \mathrm{SL}(2,\mathbb{R})^\sim \rar
+    & \mathrm{SL}(2,\mathbb{R}) \rar
+    & 1
+  \end{tikzcd}
+$$
+Here $\mathrm{SL}(2,\mathbb{R})^\sim$ is the universal cover of $\mathrm{SL}(2,\mathbb{R})$. Since $\pi_1(\mathrm{SL}(2,\mathbb{R})) = \mathbb{Z}$, this is a $\mathbb{Z}$-fold cover. You can describe this cover explicitly
 using the Maslov index, which is a formula that actually computes an
-integer for any loop in \mathrm{SL}(2,R), or indeed any symplectic group.
+integer for any loop in $\mathrm{SL}(2,\mathbb{R})$, or indeed any symplectic group.
 
 But anyway, fiddling around with this diagram and the long exact
 sequence of homotopy groups for a fibration, you can show that indeed:
-
-\pi_1(\mathrm{SL}(2,R)/\mathrm{SL}(2,\mathbb{Z})) = B_3.
-
-This also follows from the fact that \mathrm{SL}(2,R)/\mathrm{SL}(2,\mathbb{Z}) looks like S^3
+$$\pi_1(\mathrm{SL}(2,\mathbb{R})/\mathrm{SL}(2,\mathbb{Z})) = B_3.$$
+This also follows from the fact that $\mathrm{SL}(2,\mathbb{R})/\mathrm{SL}(2,\mathbb{Z})$ looks like $S^3$
 minus a trefoil.
 
 Gannon believes that number theorists should think about all this stuff,
@@ -331,18 +371,18 @@ Monstrous Moonshine (see ["Week 66"](#week66)).
 
 And here's the basic reason why. I'll try to get this right....
 
-Any rational conformal field theory has a "chiral algebra" A which
+Any rational conformal field theory has a "chiral algebra" $A$ which
 acts on the left-moving states. Mathematicians call this sort of thing a
 "vertex operator algebra". A representation of this on some vector
-space V is a space of states for the circle in some "sector" of our
-theory. Let's pick some state v in V. Then we can define a "one-point
+space $V$ is a space of states for the circle in some "sector" of our
+theory. Let's pick some state $v$ in $V$. Then we can define a "one-point
 function" where we take a Riemann surface with little disk cut out and
 insert this state on the boundary. This is a number, essentially the
 amplitude for a string in the give state to evolve like this Riemann
 surface says.
 
 In fact, instead of chopping out a little disk it's nice to just remove
-a point - a "puncture", they call it. But, we get an ambiguous answer
+a point --- a "puncture", they call it. But, we get an ambiguous answer
 unless we pick coordinates at this point, or in the lingo of complex
 analysis, a choice of "uniforming parameter". Then our one-point
 function becomes a function on the moduli space of Riemann surfaces
@@ -351,67 +391,56 @@ equipped with a puncture and a choice of uniformizing parameter.
 If we didn't have this uniformizing parameter to worry about, we'd
 just have the moduli space of tori equipped with a marked point, which
 is nothing but the usual moduli space of elliptic curves,
-
-H/\mathrm{PSL}(2,\mathbb{Z})
-
-where H is the complex upper halfplane. Then our one-point function
-would have nice transformation properties under \mathrm{PSL}(2,\mathbb{Z}).
+$$H/\mathrm{PSL}(2,\mathbb{Z})$$
+where $H$ is the complex upper halfplane. Then our one-point function
+would have nice transformation properties under $\mathrm{PSL}(2,\mathbb{Z})$.
 
 But, with this uniformizing parameter to worry about, our one-point
-function only has nice transformation properties under B_3. This is
-somehow supposed to be related to how B_3 is the "universal central
-extension" of \mathrm{PSL}(2,\mathbb{Z}): in conformal field theory, all sorts of naive
+function only has nice transformation properties under $B_3$. This is
+somehow supposed to be related to how $B_3$ is the "universal central
+extension" of $\mathrm{PSL}(2,\mathbb{Z})$: in conformal field theory, all sorts of naive
 symmetries hold only up to a phase, so you have to replace various
 groups by central extensions thereof... and here that's what's
-happening to \mathrm{PSL}(2,\mathbb{Z})!
+happening to $\mathrm{PSL}(2,\mathbb{Z})$!
 
 That last paragraph was pretty vague. If I'm going to understand this
 better, either someone has to help me or I've got to read something
 like this:
 
-5) Yongchang Zhu, Modular invariance of characters of vertex operator
-algebras, J. Amer. Math. Soc 9 (1996), 237-302. Also available at
-`http://www.ams.org/jams/1996-9-01/S0894-0347-96-00182-8/home.html`
+5) Yongchang Zhu, "Modular invariance of characters of vertex operator algebras", _J. Amer. Math. Soc_ **9** (1996), 237--302. Also available at `http://www.ams.org/jams/1996-9-01/S0894-0347-96-00182-8/home.html`
 
 But I shouldn't need any conformal field theory to see how the moduli
 space of punctured tori with uniformizing parameter is related to the
-3-strand braid group! I bet this moduli space is X/B_3 for some space
-X, or something like that. There's something simple at the bottom of
+$3$-strand braid group! I bet this moduli space is $X/B_3$ for some space
+$X$, or something like that. There's something simple at the bottom of
 all this, I'm sure.
 
 ------------------------------------------------------------------------
 
 **Addenda:** Another relation between the trefoil and the punctured
 torus: the trefoil has genus 1, meaning that it bounds a torus minus a
-disc embedded in R^3. You can see this in the lecture "Genus and knot
+disc embedded in $\mathbb{R}^3$. You can see this in the lecture "Genus and knot
 sum" in this course on knot theory:
 
-6) Brian Sanderson, The knot theory MA3F2 page,
-[http://www.maths.warwick.ac.uk/\~bjs/MA3F2-page.html]()
+6) Brian Sanderson, "The knot theory MA3F2 page", `http://www.maths.warwick.ac.uk/\~bjs/MA3F2-page.html`
 
 This course also has material on rational tangles.
 
-The fact that B_3 is a central extension of \mathrm{PSL}(2,\mathbb{Z}) by Z, and the
+The fact that $B_3$ is a central extension of $\mathrm{PSL}(2,\mathbb{Z})$ by $\mathbb{Z}$, and the
 quantum-mechanical interpretation of a central extension in terms of
 phases, plays an important role here:
 
-7) R. Voituriez, Random walks on the braid group B_3 and magnetic
-translations in hyperbolic geometry, Nucl. Phys. B621 (2002), 675-688.
-Also available as `http://arxiv.org/abs/math-ph/0103008`.
+7) R. Voituriez, "Random walks on the braid group $B_3$ and magnetic translations in hyperbolic geometry", _Nucl. Phys._ **B621** (2002), 675--688. Also available as `http://arxiv.org/abs/math-ph/0103008`.
 
-Among other things, he points out that the homomorphism B_3 \to \mathrm{SL}(2,\mathbb{Z})
-described above is the "Burau representation" of B_3 evaluated at t =
-1. In general, the Burau representation of B_3 is given by:
-
-            t   1
-    A \mapsto  
-            0   1
-
-
-            1   0
-    B \mapsto  
-           -t   t
-
+Among other things, he points out that the homomorphism $B_3 \to \mathrm{SL}(2,\mathbb{Z})$
+described above is the "Burau representation" of $B_3$ evaluated at $t = 1$.
+In general, the Burau representation of $B_3$ is given by:
+$$
+  \begin{aligned}
+    A &\longmapsto \left(\begin{array}{rr}t&1\\0&1\end{array}\right)
+  \\B &\longmapsto \left(\begin{array}{rr}1&0\\-t&t\end{array}\right)
+  \end{aligned}
+$$
 (Conventions differ, and this may not be the best, but it's the one he
 uses.) The Burau representation can also be used to define a knot
 invariant called the Alexander polynomial. I believe that with some
@@ -419,38 +448,37 @@ work, one can use this to explain why Conway could calculate the
 rational number associated to a rational tangle in terms of the ratio of
 Alexander polynomials of two links associated to it, called its
 "numerator" and "denominator". In fact he computed this ratio of
-polynomials and then evaluate it at a special value of t - presumably
+polynomials and then evaluate it at a special value of $t$ --- presumably
 the same special value we're seeing here (modulo differences in
 convention).
 
 Another issue: I wrote
 
-> For starters, the 3-strand braid group is also the fundamental group
-> of S^3 minus the trefoil knot!
+> For starters, the $3$-strand braid group is also the fundamental group
+> of $S^3$ minus the trefoil knot!
 >
-> And, S^3 minus the trefoil knot is secretly the same as
-> \mathrm{SL}(2,R)/\mathrm{SL}(2,\mathbb{Z})!
+> And, $S^3$ minus the trefoil knot is secretly the same as
+> $\mathrm{SL}(2,\mathbb{R})/\mathrm{SL}(2,\mathbb{Z})$!
 
 The first one is pretty easy to see; you start with the "Wirtinger
-presentation" of the fundamental group of S^3 minus a trefoil, and
+presentation" of the fundamental group of $S^3$ minus a trefoil, and
 show by a fun little calculation that this isomorphic to the braid group
 on 3 strands. A more conceptual proof would be very nice, though. (See
-["Week 261"](#week261) for such a proof - and much more on all this
+["Week 261"](#week261) for such a proof --- and much more on all this
 stuff.)
 
-What about the second one? Why is S^3 minus the trefoil knot
-diffeomorphic to \mathrm{SL}(2,R)/\mathrm{SL}(2,\mathbb{Z})? Terry Gannon says so in his paper
+What about the second one? Why is $S^3$ minus the trefoil knot
+diffeomorphic to $\mathrm{SL}(2,\mathbb{R})/\mathrm{SL}(2,\mathbb{Z})$? Terry Gannon says so in his paper
 above, but doesn't say why. Some people asked about this, and
 eventually some people found some explanations. First of all, there's a
 proof on page 84 of this book:
 
-8) John Milnor, Introduction to Algebraic K-theory, Annals of Math.
-Studies 72, Princeton U. Press, Princeton, New Jersey, 1971.
+8) John Milnor, _Introduction to Algebraic K-theory_, Annals of Math. Studies **72**, Princeton U. Press, Princeton, New Jersey, 1971.
 
 Milnor credits it to Quillen. Joe Christy summarizes it below. I can't
 tell if this proof is essentially the same as another sketched below by
 Swiatoslaw Gal, which exhibits a diffeomorphism using functions called
-the Eisenstein series g_2 and g_3. They are probably quite similar
+the Eisenstein series $g_2$ and $g_3$. They are probably quite similar
 arguments.
 
 Joe Christy writes:
@@ -460,29 +488,28 @@ Joe Christy writes:
 > check. Likewise for Hirzebruch, Brieskorn, Pham & Milnor in the 60's
 > in relation to singularities of complex hypersurfaces and exotic
 > spheres. When I was learning topology in the 80's it was considered a
-> warm up case of Thurston's Geometrization Program - the trefoil knot
-> complement has \mathrm{PSL}(2,R) geometric structure.
+> warm up case of Thurston's Geometrization Program --- the trefoil knot
+> complement has $\mathrm{PSL}(2,\mathbb{R})$ geometric structure.
 >
 > In any case, peruse Milnor's Annals of Math Studies for concrete
 > references. There is a (typically) elegant proof on p.84 of
 > "Introduction to Algebraic K-theory" \[study 72\], which Milnor
 > credits to Quillen. It contains the missing piece of John's argument:
-> introducing the Weierstrass P-function and remarking that the
+> introducing the Weierstrass $\wp$-function and remarking that the
 > differential equation that it satisfies gives the diffeomorphism to
-> S^3-trefoil as the boundary of the pair (discriminant of diff-eq,
-> C^2 = (P,P')-space).
+> $S^3$-trefoil as the boundary of the pair (discriminant of diff-eq,
+> $\mtahbb{C}^2 = (\wp,\wp')$-space).
 >
 > This point of view grows out of some observations of Zariski, fleshed
 > out in "Singular Points of Complex Hypersurfaces" \[study 61\]. The
-> geometric viewpoint is made explicit in the paper "On the Brieskorn
-> Manifolds M(p,q,r)" in "Knots, Groups, and 3-manifolds" \[study
+> geometric viewpoint is made explicit in the paper "On the Brieskorn Manifolds $M(p,q,r)$" in "Knots, Groups, and 3-manifolds" \[study
 > 84\].
 >
 > It is also related to the intermediate case between the classical
-> Platonic solids and John's favorite Platonic surface - the [Klein
-> quartic](klein.html). By way of a hint, look to relate the trefoil,
+> Platonic solids and John's favorite Platonic surface --- the [Klein
+> quartic](https://math.ucr.edu/home/baez/klein.html). By way of a hint, look to relate the trefoil,
 > qua torus knot, the seven-vertex triangulation of the torus, and the
-> dual hexagonal tiling of a (flat) Clifford torus in S^3.
+> dual hexagonal tiling of a (flat) Clifford torus in $S^3$.
 >
 > Joe
 
@@ -491,42 +518,38 @@ Swiatoslaw Gal writes:
 > In fact the isomorphism is a part of the modular theory:
 >
 > Looking for
->
-> f\colon \mathrm{GL}(2,R)/\mathrm{SL}(2,\mathbb{Z}) \to C^2 - {x^2=y^3}
->
-> (there is an obvious action of R+ on both sides:
->
-> M \mapsto tM for M in \mathrm{GL}(2,R),\
-> x \mapsto t^6 x,\
-> y \mapsto t^4 y,
->
+> $$f\colon \mathrm{GL}(2,\mathbb{R})/\mathrm{SL}(2,\mathbb{Z}) \to \mathbb{C}^2\setminus \{x^2=y^3\}$$
+> (there is an obvious action of $\mathbb{R}^+$ on both sides:
+> $$
+>   \begin{aligned}
+>     M &\mapsto tM \mbox{for $M$ in $\mathrm{GL}(2,\mathbb{R})$},\
+>   \\x &\mapsto t^6 x,\
+>   \\y &\mapsto t^4 y,
+>   \end{aligned}
+> $$
 > and the quotient is what we want).
 >
-> \mathrm{GL}(2,R)/\mathrm{SL}(2,\mathbb{Z}) is a space of lattices in C. Such a lattice L has
+> $\mathrm{GL}(2,\mathbb{R})/\mathrm{SL}(2,\mathbb{Z})$ is a space of lattices in $\mathbb{C}$. Such a lattice $L$ has
 > classical invariants
->
-> g_2(L) = 60 sum\_{z in L'} z^-4^,
->
+> $$g_2(L) = 60 \sum_{z \in L'} z^{-4},$$
 > and
->
-> g_3(L) = 140 sum\_{z in L'} z^-6^,
->
-> where L'=L-{0}
+> $$g_3(L) = 140 \sum_{z \in L'} z^{-6},$$
+> where $L'=L\setminus\{0\}$.
 >
 > The modular theory asserts that:
 >
-> 1. For every pain (g_2,g_3) there exist a lattice L such that
-> g_2(L) = g_2 and g_3(L) = g_3 provided that g_2^3 is not equal
-> to 27g_3^2.
+> 1. For every pair $(g_2,g_3)$ there exist a lattice $L$ such that
+> $g_2(L) = g_2$ and $g_3(L) = g_3$ provided that $g_2^3$ is not equal
+> to $27g_3^2$.
 >
 > 2. Such a lattice is unique.
 >
 > Best,\
 > S. R. Gal
 
-The quantity g_2^3 - 27 g_3^2 is called the "discriminant" of the
-lattice L, and vanishes as the lattice squashes down to being
-degenerate, i.e. a discrete subgroup of C with one rather than two
+The quantity $g_2^3 - 27 g_3^2$ is called the "discriminant" of the
+lattice $L$, and vanishes as the lattice squashes down to being
+degenerate, i.e. a discrete subgroup of $\mathbb{C}$ with one rather than two
 generators.
 
 ------------------------------------------------------------------------

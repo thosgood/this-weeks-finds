@@ -671,7 +671,7 @@ been talking to Jim Dolan, and many of these ideas come from him. But
 also, you can think of this Week as an expansion of the remarks by Joe
 Christy and Swiatowslaw Gal in the Addenda to
 ["Week 233"](#week233). And, it was Chris Hillman who first told
-Jim and me that \mathrm{SL}(2,R)/\mathrm{SL}(2,\mathbb{Z}) looks like S^3 minus a trefoil knot.
+Jim and me that \mathrm{SL}(2,\mathbb{R})/\mathrm{SL}(2,\mathbb{Z}) looks like S^3 minus a trefoil knot.
 
 Finally, I should say that my low-budget approach to modular forms
 mostly just handles so-called "level 0" modular forms - the basic
