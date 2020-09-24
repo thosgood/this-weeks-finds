@@ -332,43 +332,98 @@ horizontally makes $\operatorname{Hom}(a,a)$ into a "monoidal category". $LR$ is
 "multiplication", and the appearance of a black stripe being the
 "multiplicative identity". Being a "monoid object" simply means that
 these operations satisfy the left unit law:
-
-                                     / /                 | |
-                                    / /                  | |
-                                   / /                   | |
-                        /\        / /                    | |
-                        \ \      / /                     | |
-                         \ \    / /                      | |
-                          \ \  / /                  a    | |
-                           \ \/ /                        |b|
-                            |  /          =              | |
-                 a          | |                          | |      a
-                            | |                          | |
-                            |b|                          | |
-                            | |     a                    | |
-                            | |                          | |
-                            | |                          | |
-                            | |                          | |
-
+$$
+  \begin{tikzpicture}[xscale=0.8,yscale=1.5]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down,looseness=1.5] (-1,1)
+        to [out=up,in=up,looseness=1] (-0.45,1)
+        to [out=down,in=down,looseness=1.5] (0.45,1)
+        to (0.45,1.5);
+      \strand[thick] (0.5,0)
+        to [out=up,in=down,looseness=1] (1,1)
+        to (1,1.5);
+    \end{knot}
+    %
+    \node at (-1.25,0.35) {$a$};
+    \node at (0,0.35) {$b$};
+    \node at (1.25,0.35) {$a$};
+  \end{tikzpicture}
+  \quad
+  \raisebox{3em}{$=$}
+  \quad
+  \begin{tikzpicture}[yscale=1.5]
+    \draw[thick] (-0.3,0) to (-0.3,1.5);
+    \draw[thick] (0.3,0) to (0.3,1.5);
+    %
+    \node at (-0.75,1) {$a$};
+    \node at (0,0.75) {$b$};
+    \node at (0.75,0.5) {$a$};
+  \end{tikzpicture}
+$$
 and its mirror image, called the right unit law, together with the
 associative law:
-
-                \ \  a / /    / /      \ \    \ \  a / /
-                 \ \  / /  a / /        \ \  a \ \  / /
-                  \ \/ /    / /          \ \    \ \/ /
-                   \  /    / /            \ \    \  /
-                    \ \   / /              \ \   / /
-                     \ \_/ /                \ \_/ /
-                      \   /                  \   /
-                       | |                    | |
-                  a    | |   a            a   | |   a
-                       | |          =         | |
-                       |b|                    |b|
-                       | |                    | |
-                       | |                    | |
-                       | |                    | |
-                       | |                    | |
-
+$$
+  \begin{tikzpicture}[xscale=1,yscale=1.7]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down,looseness=1.5] (-1,1);
+      \strand[thick] (-0.45,1)
+        to [out=down,in=down,looseness=1.5] (0.45,1)
+        to (0.45,1.55);
+      \strand[thick] (0.5,0)
+        to [out=up,in=down,looseness=1] (1,1)
+        to (1,1.55);
+    \end{knot}
+    \begin{scope}[scale=0.55,shift={(-1.32,1.81)}]
+      \begin{knot}
+        \strand[thick] (-0.5,0)
+          to [out=up,in=down,looseness=1.5] (-1,1);
+        \strand[thick] (-0.45,1)
+          to [out=down,in=down,looseness=1.5] (0.45,1);
+        \strand[thick] (0.5,0)
+          to [out=up,in=down,looseness=1] (1,1);
+      \end{knot}
+    \end{scope}
+    %
+    \node at (-1.25,0.35) {$a$};
+    \node at (0,0.35) {$b$};
+    \node at (1.25,0.35) {$a$};
+    \node at (-0.73,1.5) {\scriptsize$a$};
+    \node at (0,1) {$a$};
+  \end{tikzpicture}
+  \quad
+  \raisebox{4em}{$=$}
+  \quad
+  \begin{tikzpicture}[xscale=-1,yscale=1.7]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down,looseness=1.5] (-1,1);
+      \strand[thick] (-0.45,1)
+        to [out=down,in=down,looseness=1.5] (0.45,1)
+        to (0.45,1.55);
+      \strand[thick] (0.5,0)
+        to [out=up,in=down,looseness=1] (1,1)
+        to (1,1.55);
+    \end{knot}
+    \begin{scope}[scale=0.55,shift={(-1.32,1.81)}]
+      \begin{knot}
+        \strand[thick] (-0.5,0)
+          to [out=up,in=down,looseness=1.5] (-1,1);
+        \strand[thick] (-0.45,1)
+          to [out=down,in=down,looseness=1.5] (0.45,1);
+        \strand[thick] (0.5,0)
+          to [out=up,in=down,looseness=1] (1,1);
+      \end{knot}
+    \end{scope}
+    %
+    \node at (-1.25,0.35) {$a$};
+    \node at (0,0.35) {$b$};
+    \node at (1.25,0.35) {$a$};
+    \node at (-0.73,1.5) {\scriptsize$a$};
+    \node at (0,1) {$a$};
+  \end{tikzpicture}
+$$
 There aren't any other laws, so $\operatorname{Hom}(a,a)$ is the "free monoidal
 category on a monoid object", or if you prefer, the "walking monoid"!
 
@@ -448,13 +503,6 @@ $$
     &\ldots
   \end{tikzcd}
 $$
-
-                                     -i.LRLR-->
-                     --i.LR->        -LR.i.LR->
-    1a  --i-->  LR  --LR.i->  LRLR  -LRLR.i-->  LRLRLR ...
-                     <-L.e.R-        <-L.e.RLR-
-                                     <-LRL.e.R-
-
 are the basic "face" and "degeneracy" maps between simplices, which
 you'll find in any book on algebraic topology. The $n$-simplex is a face
 of the $(n+1)$-simplex in n+1 ways, and there are n basic degenerate ways
@@ -531,13 +579,25 @@ Similarly we can define $T\cdot f$ in this sort of situation:
 Anyway, once you're an expert on this $2$-categorical yoga, you can
 easily see that these morphisms in $\operatorname{Hom}(a,a)$, which are really
 2-morphisms in $\mathsf{Ad}$:
-
-                                     -i.LRLR-->
-                     --i.LR->        -LR.i.LR->
-    1a  --i-->  LR  --LR.i->  LRLR  -LRLR.i-->  LRLRLR ...
-                     <-L.e.R-        <-L.e.RLR-
-                                     <-LRL.e.R-
-
+$$
+  \begin{tikzcd}[column sep=huge]
+    1_a
+      \rar["i" description]
+    & LR
+      \rar[shift left=5,"i\cdot LR" description]
+      \rar["LR\cdot i" description]
+    & LRLR
+      \rar[shift left=10,"i\cdot LRLR" description]
+      \rar[shift left=5,"LR\cdot i\cdot LR" description]
+      \rar["LRLR\cdot i" description]
+      \lar[shift left=5,"L\cdot e\cdot R" description]
+    & LRLRLR
+      \lar[shift left=5,"L\cdot e\cdot RLR" description]
+      \lar[shift left=10,"LRL\cdot e\cdot R" description]
+      \rar
+    &\ldots
+  \end{tikzcd}
+$$
 are obtained by taking our basic tiger stripe operations --- the "merging
 of two black stripes", or $L\cdot e\cdot R$, and the "appearance of a black
 stripe", or $i$ --- and drawing some extra black stripes on both sides.
