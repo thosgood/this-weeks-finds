@@ -281,31 +281,46 @@ objects are
 $$1_a, LR, LRLR, LRLRLR, \ldots$$
 and all the morphisms are built by sticking these two basic generators
 together vertically or horizontally:
-
-                         \  \    a    /  /  
-                          \  \       /  /
-                           L  R     L  R
-                            \  \   /  /
-                      a      \  \ /  /      a
-                              \  e  /
-                               \   /
-                               | b |
-                               |   |
-                               L   R
-                               |   |
-                               |   |   
-
+$$
+  \begin{tikzpicture}[yscale=2]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down,looseness=1.5] (-1,1);
+      \strand[thick] (-0.45,1)
+        to [out=down,in=down,looseness=1.5] (0.45,1);
+      \strand[thick] (0.5,0)
+        to [out=up,in=down,looseness=1.5] (1,1);
+    \end{knot}
+    %
+    \node at (-1.25,0.35) {$a$};
+    \node at (0,0.35) {$b$};
+    \node at (0,0.9) {$a$};
+    \node at (1.25,0.35) {$a$};
+    %
+    \node[fill=white] at (-0.55,0.25) {\scriptsize$L$};
+    \node[fill=white] at (-0.95,0.75) {\scriptsize$L$};
+    \node[fill=white] at (-0.4,0.85) {\scriptsize$R$};
+    \node[fill=white] at (0.4,0.85) {\scriptsize$L$};
+    \node[fill=white] at (0.55,0.25) {\scriptsize$R$};
+    \node[fill=white] at (0.95,0.75) {\scriptsize$R$};
+    \node[label={[label distance=-2mm]below:{\scriptsize$e$}}] at (0,0.6) {$\bullet$};
+  \end{tikzpicture}
+$$
 and
-
-                                  i
-                                 / \
-                         a      |   |    a
-                                | b |     
-                                |   |
-                                L   R   
-                                |   |
-                                |   |
-
+$$
+  \begin{tikzpicture}[scale=1.3]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=up,looseness=3] (0.5,0);
+    \end{knot}
+    \node at (-1,0.5) {$a$};
+    \node at (0,0.25) {$b$};
+    \node at (1,0.5) {$a$};
+    \node[fill=white] at (-0.45,0.35) {\scriptsize$L$};
+    \node[fill=white] at (0.45,0.35) {\scriptsize$R$};
+    \node[label={[label distance=-2mm]above:{\scriptsize$i$}}] at (0,0.87) {$\bullet$};
+  \end{tikzpicture}
+$$
 In tiger language, we're talking about pictures of black stripes on an
 orange background. The two basic generators are the merging of two black
 stripes and the appearance of a black stripe.
@@ -376,13 +391,13 @@ $$
         to [out=up,in=down](3,2);
       \strand[thick] (2.5,0)
         to [out=up,in=up,looseness=2] (3.5,0);
-      \strand[thick] (5,0)
-        to [out=up,in=down] (4.5,1)
+      \strand[thick] (5.1,0)
+        to [out=up,in=down,looseness=1] (4.5,1)
         to [out=up,in=up,looseness=1.5] (5.17,1)
         to [out=down,in=down,looseness=1.5] (5.83,1)
         to (5.83,2);
-      \strand[thick] (6,0)
-        to [out=up,in=down] (6.5,1)
+      \strand[thick] (5.9,0)
+        to [out=up,in=down,looseness=1] (6.5,1)
         to (6.5,2);
     \end{knot}
     \node at (-1.7,0.5) {$a$};
