@@ -303,7 +303,7 @@ $$
     \node[fill=white] at (0.4,0.85) {\scriptsize$L$};
     \node[fill=white] at (0.55,0.25) {\scriptsize$R$};
     \node[fill=white] at (0.95,0.75) {\scriptsize$R$};
-    \node[label={[label distance=-2mm]below:{\scriptsize$e$}}] at (0,0.6) {$\bullet$};
+    \node[label={[label distance=-2mm]below:{\scriptsize$e$}}] at (0,0.61) {$\bullet$};
   \end{tikzpicture}
 $$
 and
@@ -318,7 +318,7 @@ $$
     \node at (1,0.5) {$a$};
     \node[fill=white] at (-0.45,0.35) {\scriptsize$L$};
     \node[fill=white] at (0.45,0.35) {\scriptsize$R$};
-    \node[label={[label distance=-2mm]above:{\scriptsize$i$}}] at (0,0.87) {$\bullet$};
+    \node[label={[label distance=-2mm]above:{\scriptsize$i$}}] at (0,0.88) {$\bullet$};
   \end{tikzpicture}
 $$
 In tiger language, we're talking about pictures of black stripes on an
@@ -633,44 +633,71 @@ and morphisms are pictures of *orange* stripes on a *black* background:
                                  /     /  b  \    \  
 
 These orange stripes can only split:
-
-                               |   |
-                               |   |   
-                               R   L
-                               |   |
-                               | a |
-                               /   \                           
-                              /  i  \
-                      b      /  / \  \      b
-                            /  /   \  \
-                           R  L     R  L
-                          /  /       \  \
-                         /  /    b    \  \ 
-
+$$
+  \begin{tikzpicture}[yscale=-2]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down,looseness=1.5] (-1,1);
+      \strand[thick] (-0.45,1)
+        to [out=down,in=down,looseness=1.5] (0.45,1);
+      \strand[thick] (0.5,0)
+        to [out=up,in=down,looseness=1.5] (1,1);
+    \end{knot}
+    %
+    \node at (-1.25,0.35) {$b$};
+    \node at (0,0.35) {$a$};
+    \node at (0,0.9) {$b$};
+    \node at (1.25,0.35) {$b$};
+    %
+    \node[fill=white] at (-0.55,0.25) {\scriptsize$R$};
+    \node[fill=white] at (-0.95,0.75) {\scriptsize$R$};
+    \node[fill=white] at (-0.4,0.85) {\scriptsize$L$};
+    \node[fill=white] at (0.4,0.85) {\scriptsize$R$};
+    \node[fill=white] at (0.55,0.25) {\scriptsize$L$};
+    \node[fill=white] at (0.95,0.75) {\scriptsize$L$};
+    \node[label={[label distance=-2mm]above:{\scriptsize$i$}}] at (0,0.61) {$\bullet$};
+  \end{tikzpicture}
+$$
 or disappear:
-
-                                |   |    
-                         b      | a |     b 
-                                |   |
-                                R   L   
-                                |   |
-                                |   |
-                                 \ /
-                                  e
-
+$$
+  \begin{tikzpicture}[xscale=1.3,yscale=-1]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=up,looseness=3] (0.5,0);
+    \end{knot}
+    \node at (-1,0.5) {$b$};
+    \node at (0,0.25) {$a$};
+    \node at (1,0.5) {$b$};
+    \node[fill=white] at (-0.45,0.35) {\scriptsize$R$};
+    \node[fill=white] at (0.45,0.35) {\scriptsize$L$};
+    \node[label={[label distance=-2mm]below:{\scriptsize$e$}}] at (0,0.88) {$\bullet$};
+  \end{tikzpicture}
+$$
 as we march down the page. This means is that $\operatorname{Hom}(b,b)$ is $\Delta^{\mathrm{op}}$: the
 *opposite* of the category of simplices, the *opposite* of the category
 of finite ordinals, or the walking *comonoid* --- which is just like a
 monoid, only upside down!
 
 Here is another picture of $\operatorname{Hom}(b,b)$:
-
-                                      --R.i.LRL->
-                     --R.i.L->        --RLR.i.L->
-    1b  <--e--  RL  <--e.RL--  RLRL  <--e.RLRL--  RLRLRL ...
-                     <--RL.e--        <--RL.e.RL-
-                                      <--RLRL.e--
-
+$$
+  \begin{tikzcd}[column sep=huge]
+    1_b
+    & RL
+      \lar["e" description]
+      \rar[shift left=5,"R\cdot i\cdot L" description]
+    & RLRL
+      \rar[shift left=10,"R\cdot i LRL" description]
+      \rar[shift left=5,"RLR\cdot i\cdot L" description]
+      \lar[shift left=5,"RL\cdot e" description]
+      \lar["e\cdot RL" description]
+    & RLRLRL
+      \lar["e\cdot RLRL" description]
+      \lar[shift left=5,"RL\cdot e\cdot RL" description]
+      \lar[shift left=10,"RLRL\cdot e" description]
+    &\ldots
+      \lar
+  \end{tikzcd}
+$$
 If you're a devoted reader of This Week's Finds, you'll know I
 secretly drew this category already in section N of
 ["Week 118"](#week118). There I was talking about specific adjoint
@@ -725,22 +752,61 @@ $$(b,a,R,L,j,f)$$
 are both adjunctions.
 
 In terms of string diagrams, our generating $2$-morphisms look like this:
-
-                      i                             j
-                     / \                           / \
-                    L   R                         R   L
-                   /     \                       /     \
-               a  /   b   \  a               b  /   a   \  b
-
-
-
-
-               b  \   a   /  b               a  \   b   /  a
-                   R     L                       L     R
-                    \   /                         \   /
-                     \ /                           \ /
-                      e                             f
-
+$$
+  \begin{gathered}
+    \begin{tikzpicture}[scale=1.3]
+      \begin{knot}
+        \strand[thick] (-0.5,0)
+          to [out=up,in=up,looseness=3] (0.5,0);
+      \end{knot}
+      \node at (-1,0.5) {$a$};
+      \node at (0,0.25) {$b$};
+      \node at (1,0.5) {$a$};
+      \node[fill=white] at (-0.45,0.35) {\scriptsize$L$};
+      \node[fill=white] at (0.45,0.35) {\scriptsize$R$};
+      \node[label={[label distance=-2mm]above:{\scriptsize$i$}}] at (0,0.88) {$\bullet$};
+    \end{tikzpicture}
+    \qquad
+    \begin{tikzpicture}[scale=1.3]
+      \begin{knot}
+        \strand[thick] (-0.5,0)
+          to [out=up,in=up,looseness=3] (0.5,0);
+      \end{knot}
+      \node at (-1,0.5) {$b$};
+      \node at (0,0.25) {$a$};
+      \node at (1,0.5) {$b$};
+      \node[fill=white] at (-0.45,0.35) {\scriptsize$R$};
+      \node[fill=white] at (0.45,0.35) {\scriptsize$L$};
+      \node[label={[label distance=-2mm]above:{\scriptsize$j$}}] at (0,0.88) {$\bullet$};
+    \end{tikzpicture}
+  \\[2em]
+    \begin{tikzpicture}[xscale=1.3,yscale=-1]
+      \begin{knot}
+        \strand[thick] (-0.5,0)
+          to [out=up,in=up,looseness=3] (0.5,0);
+      \end{knot}
+      \node at (-1,0.5) {$b$};
+      \node at (0,0.25) {$a$};
+      \node at (1,0.5) {$b$};
+      \node[fill=white] at (-0.45,0.35) {\scriptsize$R$};
+      \node[fill=white] at (0.45,0.35) {\scriptsize$L$};
+      \node[label={[label distance=-2mm]below:{\scriptsize$e$}}] at (0,0.88) {$\bullet$};
+    \end{tikzpicture}
+    \qquad
+    \begin{tikzpicture}[xscale=1.3,yscale=-1]
+      \begin{knot}
+        \strand[thick] (-0.5,0)
+          to [out=up,in=up,looseness=3] (0.5,0);
+      \end{knot}
+      \node at (-1,0.5) {$a$};
+      \node at (0,0.25) {$b$};
+      \node at (1,0.5) {$a$};
+      \node[fill=white] at (-0.45,0.35) {\scriptsize$L$};
+      \node[fill=white] at (0.45,0.35) {\scriptsize$R$};
+      \node[label={[label distance=-2mm]below:{\scriptsize$f$}}] at (0,0.88) {$\bullet$};
+    \end{tikzpicture}
+  \end{gathered}
+$$
 and the triangle equations say all possible zig-zags can be straightened
 out.
 
@@ -774,61 +840,107 @@ description!
 Now for the punchline: in $\mathsf{AmbAd}$, what is the category $\operatorname{Hom}(a,a)$ like? As
 in $\mathsf{Ad}$, the objects are
 $$1_a,\quad LR,\quad LRLR,\quad LRLRLR,\quad \ldots$$
-but now the object LR is equipped not only with multiplication:
-
-                         \  \    a    /  /  
-                          \  \       /  /
-                           L  R     L  R
-                            \  \   /  /
-                      a      \  \ /  /      a      
-                              \  e  /                     multiplication:
-                               \   /                     L.e.R: LRLR \Rightarrow LR 
-                               | b |
-                               |   |
-                               L   R
-                               |   |
-                               |   |   
-
+but now the object $LR$ is equipped not only with multiplication:
+$$
+  \begin{tikzpicture}[yscale=2]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down,looseness=1.5] (-1,1);
+      \strand[thick] (-0.45,1)
+        to [out=down,in=down,looseness=1.5] (0.45,1);
+      \strand[thick] (0.5,0)
+        to [out=up,in=down,looseness=1.5] (1,1);
+    \end{knot}
+    %
+    \node at (-1.25,0.35) {$a$};
+    \node at (0,0.35) {$b$};
+    \node at (0,0.9) {$a$};
+    \node at (1.25,0.35) {$a$};
+    %
+    \node[fill=white] at (-0.55,0.25) {\scriptsize$L$};
+    \node[fill=white] at (-0.95,0.75) {\scriptsize$L$};
+    \node[fill=white] at (-0.4,0.85) {\scriptsize$R$};
+    \node[fill=white] at (0.4,0.85) {\scriptsize$L$};
+    \node[fill=white] at (0.55,0.25) {\scriptsize$R$};
+    \node[fill=white] at (0.95,0.75) {\scriptsize$R$};
+    \node[label={[label distance=-2mm]below:{\scriptsize$e$}}] at (0,0.61) {$\bullet$};
+    %
+    \node at (0,-0.3) {multiplication:};
+    \node at (0,-0.5) {$L\cdot e\cdot R\colon LRLR\Rightarrow LR$};
+  \end{tikzpicture}
+$$
 and multiplicative identity:
-
-                                 i
-                                / \
-                        a      |   |    a                 multiplicative
-                               | b |                         identity:
-                               |   |                        i: 1a \Rightarrow LR
-                               L   R   
-                               |   |
-                               |   |
-
+$$
+  \begin{tikzpicture}[scale=1.3]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=up,looseness=3] (0.5,0);
+    \end{knot}
+    \node at (-1,0.5) {$a$};
+    \node at (0,0.25) {$b$};
+    \node at (1,0.5) {$a$};
+    \node[fill=white] at (-0.45,0.35) {\scriptsize$L$};
+    \node[fill=white] at (0.45,0.35) {\scriptsize$R$};
+    \node[label={[label distance=-2mm]above:{\scriptsize$i$}}] at (0,0.88) {$\bullet$};
+    %
+    \node at (0,-0.4) {multiplicative identity:};
+    \node at (0,-0.75) {$i\colon 1_a\Rightarrow LR$};
+  \end{tikzpicture}
+$$
 but also a "comultiplication":
-
-                               |   |
-                               |   |   
-                               L   R
-                               |   |
-                               | b |
-                               /   \                           
-                              /  j  \                    comultiplication:
-                      a      /  / \  \      a            L.j.R: LR \Rightarrow LRLR
-                            /  /   \  \
-                           L  R     L  R
-                          /  /       \  \
-                         /  /    b    \  \ 
-
+$$
+  \begin{tikzpicture}[yscale=2]
+    \begin{scope}[yscale=-1,shift={(0,-1)}]
+      \begin{knot}
+        \strand[thick] (-0.5,0)
+          to [out=up,in=down,looseness=1.5] (-1,1);
+        \strand[thick] (-0.45,1)
+          to [out=down,in=down,looseness=1.5] (0.45,1);
+        \strand[thick] (0.5,0)
+          to [out=up,in=down,looseness=1.5] (1,1);
+      \end{knot}
+      %
+      \node at (-1.25,0.35) {$a$};
+      \node at (0,0.35) {$b$};
+      \node at (0,0.9) {$a$};
+      \node at (1.25,0.35) {$a$};
+      %
+      \node[fill=white] at (-0.55,0.25) {\scriptsize$L$};
+      \node[fill=white] at (-0.95,0.75) {\scriptsize$L$};
+      \node[fill=white] at (-0.4,0.85) {\scriptsize$R$};
+      \node[fill=white] at (0.4,0.85) {\scriptsize$L$};
+      \node[fill=white] at (0.55,0.25) {\scriptsize$R$};
+      \node[fill=white] at (0.95,0.75) {\scriptsize$R$};
+      \node[label={[label distance=-2mm]above:{\scriptsize$j$}}] at (0,0.61) {$\bullet$};
+    \end{scope}
+    %
+    \node at (0,-0.3) {comultiplication:};
+    \node at (0,-0.5) {$L\cdot j\cdot R\colon LR\Rightarrow LRLR$};
+  \end{tikzpicture}
+$$
 and "comultiplicative coidentity":
-
-                                |   |    
-                         a      | b |     a 
-                                |   |                    comultiplicative
-                                L   R                       coidentity:
-                                |   |                      f: LR \Rightarrow 1a
-                                |   |
-                                 \ /
-                                  f
-
+$$
+  \begin{tikzpicture}[scale=1.3]
+    \begin{scope}[yscale=-1,shift={(0,-1)}]
+      \begin{knot}
+        \strand[thick] (-0.5,0)
+          to [out=up,in=up,looseness=3] (0.5,0);
+      \end{knot}
+      \node at (-1,0.5) {$a$};
+      \node at (0,0.25) {$b$};
+      \node at (1,0.5) {$a$};
+      \node[fill=white] at (-0.45,0.35) {\scriptsize$L$};
+      \node[fill=white] at (0.45,0.35) {\scriptsize$R$};
+      \node[label={[label distance=-2mm]below:{\scriptsize$f$}}] at (0,0.88) {$\bullet$};
+    \end{scope}
+    %
+    \node at (0,-0.5) {comultiplicative identity:};
+    \node at (0,-0.85) {$f\colon LR\Rightarrow 1_a$};
+  \end{tikzpicture}
+$$
 which make it into a monoid object *and* a comonoid object. Even better,
 there are some extra relations between the multiplication and
-comultiplication, which make LR into a so-called "Frobenius object"!
+comultiplication, which make $LR$ into a so-called "Frobenius object"!
 
 In short, $\operatorname{Hom}(a,a)$ is the walking Frobenius object! So is $\operatorname{Hom}(b,b)$,
 since there is no real asymmetry between the objects $a$ and $b$ in an
@@ -894,7 +1006,7 @@ its own adjoint, with the unit and counit as follows:
                         |   |                     
                         |   |                      unit for LR =
                         | b |           multiplicative identity composed with
-                       /  _  \                    comultiplication                
+                       /  _  \          comultiplication                
                       /  / \  \
                      /  /   \  \
                     /  /  a  \  \
