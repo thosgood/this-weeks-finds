@@ -1043,28 +1043,53 @@ uninitiated, so if you're just barely hanging on, please stop now.
 Hmm! If you're still reading this, you must be brave! Okay --- don't say
 I didn't warn you. Let's start by pondering $LR$ a bit more. This guy is
 its own adjoint, with the unit and counit as follows:
-
-                          _
-                    a    / \      
-                        |   |                     
-                        |   |                      unit for LR =
-                        | b |           multiplicative identity composed with
-                       /  _  \          comultiplication                
-                      /  / \  \
-                     /  /   \  \
-                    /  /  a  \  \
-
-
-
-                    \  \  a  /  /
-                     \  \   /  /                 
-                      \  \_/  /                   counit for LR =
-                       \     /              multiplication composed with 
-                   a    | b |                comultiplicative coidentity
-                        |   |
-                        |   |
-                         \_/
-
+$$
+  \begin{tikzpicture}[yscale=2]
+    \begin{scope}[yscale=-1,shift={(0,-0.75)}]
+      \begin{knot}
+        \strand[thick] (-0.5,0)
+          to [out=up,in=down,looseness=1.5] (-1,1);
+        \strand[thick] (-0.45,1)
+          to [out=down,in=down,looseness=1.5] (0.45,1);
+        \strand[thick] (0.5,0)
+          to [out=up,in=down,looseness=1.5] (1,1);
+        \strand[thick] (-0.5,0)
+          to [out=down,in=down] (0.5,0);
+      \end{knot}
+      %
+      \node at (-1.25,0.35) {$a$};
+      \node at (0,0.35) {$b$};
+      \node at (0,0.9) {$a$};
+      \node at (1.25,0.35) {$a$};
+    \end{scope}
+    %
+    \node at (0,-0.5) {unit for $LR$:};
+    \node at (0,-0.75) {multiplicative identity};
+    \node at (0,-0.95) {composed with comultiplication};
+  \end{tikzpicture}
+  \qquad
+  \begin{tikzpicture}[yscale=2]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down,looseness=1.5] (-1,1);
+      \strand[thick] (-0.45,1)
+        to [out=down,in=down,looseness=1.5] (0.45,1);
+      \strand[thick] (0.5,0)
+        to [out=up,in=down,looseness=1.5] (1,1);
+      \strand[thick] (-0.5,0)
+        to [out=down,in=down] (0.5,0);
+    \end{knot}
+    %
+    \node at (-1.25,0.35) {$a$};
+    \node at (0,0.35) {$b$};
+    \node at (0,0.9) {$a$};
+    \node at (1.25,0.35) {$a$};
+    %
+    \node at (0,-0.5) {counit for $LR$:};
+    \node at (0,-0.75) {multiplication composed with};
+    \node at (0,-0.95) {comultiplicative coidentity};
+  \end{tikzpicture}
+$$
 It's easy to check the triangle equations by straightening out the
 relevant zig-zags.
 
