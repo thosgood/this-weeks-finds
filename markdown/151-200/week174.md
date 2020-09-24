@@ -620,18 +620,31 @@ Okay. Now, having understood $\operatorname{Hom}(a,a)$ in all these ways, let's 
 $\operatorname{Hom}(b,b)$. Luckily, this is very similar! Here the objects are
 $$1_b,\quad RL,\quad RLRL,\quad RLRLRL,\quad \ldots$$
 and morphisms are pictures of *orange* stripes on a *black* background:
-
-               \   a   /   \   a   /      /               |
-                \     /     \     /      /       _        |
-                 \   /       \   /      /       / \       |
-                  \_/         \_/      /   a   /   \      |    b
-                                      /       /     \     |
-                                     /        \      \   / 
-           b                        /     _    \      \_/ 
-                                   /     / \    \      
-                                  /     /   \    \       
-                                 /     /  b  \    \  
-
+$$
+  \begin{tikzpicture}[xscale=0.8,yscale=1.2]
+    \begin{knot}
+      \strand[thick] (-1,2)
+        to [out=down,in=down,looseness=2] (0,2);
+      \strand[thick] (1,2)
+        to [out=down,in=down,looseness=2] (2,2);
+      \strand[thick] (1.5,0)
+        to [out=up,in=down](3,2);
+      \strand[thick] (2.5,0)
+        to [out=up,in=up,looseness=2] (3.5,0);
+      \strand[thick] (5.1,0)
+        to [out=up,in=down,looseness=1] (4.5,1)
+        to [out=up,in=up,looseness=1.5] (5.17,1)
+        to [out=down,in=down,looseness=1.5] (5.83,1)
+        to (5.83,2);
+    \end{knot}
+    \node at (-0.5,1.75) {$a$};
+    \node at (1.5,1.75) {$a$};
+    \node at (0.5,1) {$b$};
+    \node at (3.5,1) {$a$};
+    \node at (3,0.25) {$b$};
+    \node at (5.75,0.25) {$b$};
+  \end{tikzpicture}
+$$
 These orange stripes can only split:
 $$
   \begin{tikzpicture}[yscale=-2]
@@ -956,24 +969,54 @@ relations between multiplication and comultiplication?
 
 There are various ways of describing these relations. Mueger uses a pair
 of equations that are popular in the TQFT literature:
-
-                   \ \     / /                | |        | |
-                    \ \   / /                 | |        | |
-                     \ \_/ /                  | |        | |
-                      \   /                   |  \   a   | |
-                       | |                    |   \      | |
-                  a    | |   a           a    | |\ \     | |   a
-                       | |                    | | \ \    | |
-                       |b|                    | |  \ \   | |
-                       | |          =         | |   \ \  | |
-                       | |                    | |    \ \ | |
-                       | |                    | |  a  \ | |
-                       | |                    | |      \   |
-                      / _ \                   | |       \ b|
-                     / / \ \                  | |        | |
-                    / /   \ \                 | |        | | 
-                   / /     \ \                | |        | |
-
+$$
+  \begin{tikzpicture}[yscale=2]
+    \begin{knot}
+      \strand[thick] (-1,-1.5)
+        to [out=up,in=down,looseness=1.5] (-0.4,-0.5)
+        to (-0.4,0)
+        to [out=up,in=down,looseness=1.5] (-1,1);
+      \strand[thick] (-0.45,1)
+        to [out=down,in=down,looseness=1.5] (0.45,1);
+      \strand[thick] (-0.45,-1.5)
+        to [out=up,in=up,looseness=1.5] (0.45,-1.5);
+      \strand[thick] (1,-1.5)
+        to [out=up,in=down,looseness=1.5] (0.4,-0.5)
+        to (0.4,0)
+        to [out=up,in=down,looseness=1.5] (1,1);
+    \end{knot}
+    %
+    \node at (-1.25,-0.25) {$a$};
+    \node at (0,-0.25) {$b$};
+    \node at (0,0.9) {$a$};
+    \node at (1.25,-0.25) {$a$};
+    \node at (0,-1.4) {$a$};
+  \end{tikzpicture}
+  \qquad
+  \raisebox{7em}{$=$}
+  \qquad
+  \begin{tikzpicture}[yscale=2]
+    \begin{knot}
+      \strand[thick] (-1,-1.5) to (-1,1);
+      \strand[thick] (-0.5,-1.5)
+        to (-0.5,-0.5)
+        to [out=up,in=left] (-0.25,-0.35)
+        to [out=right,in=up,looseness=0.6] (0.5,-1.25)
+        to (0.5,-1.5);
+      \strand[thick] (0.5,1)
+        to (0.5,0)
+        to [out=down,in=right] (0.25,-0.15)
+        to [out=left,in=down,looseness=0.6] (-0.5,0.75)
+        to (-0.5,1);
+      \strand[thick] (1,-1.5) to (1,1);
+    \end{knot}
+    \node at (-1.5,-0.25) {$a$};
+    \node at (0,0.75) {$a$};
+    \node at (0,-0.25) {$b$};
+    \node at (0,-1) {$a$};
+    \node at (1.5,-0.25) {$a$};
+  \end{tikzpicture}
+$$
 and its mirror image. People sometimes call these the "$I = N$"
 equations, for the obvious reason. So: one definition of a "Frobenius
 object" in a monoidal category is that it's a monoid object / comonoid
@@ -1111,7 +1154,7 @@ Bill Lawvere added:
 > monoid $\Delta$ in $\mathsf{Cat}$ has very few quotients (see below for significance of
 > the monoid structure).
 >
-> #### THE GENERAL HOM/TENSOR FORMALISM AND A VERY PARTICULAR MONOID
+> **THE GENERAL HOM/TENSOR FORMALISM AND A VERY PARTICULAR MONOID**
 >
 > In any cartesian-closed category with finite limits and co-limits, a
 > non-linear version of the Cartan-Eilenberg Hom/tensor formalism
