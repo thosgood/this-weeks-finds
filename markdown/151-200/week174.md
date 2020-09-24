@@ -175,6 +175,34 @@ We can build any $2$-morphism in the walking adjunction by vertically and
 horizontally composing units and counits, which corresponds to sticking
 together string diagrams in a vertical or horizontal way. Thus, a
 typical $2$-morphism looks like this:
+$$
+  \begin{tikzpicture}[xscale=0.8,yscale=1.2]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down] (-2,2);
+      \strand[thick] (-1,2)
+        to [out=down,in=down,looseness=2] (0,2);
+      \strand[thick] (1,2)
+        to [out=down,in=down,looseness=2] (2,2);
+      \strand[thick] (1.5,0)
+        to [out=up,in=down](3,2);
+      \strand[thick] (2.5,0)
+        to [out=up,in=up,looseness=2] (3.5,0);
+      \strand[thick] (4.5,0)
+        to [out=up,in=down,looseness=2] (4,1)
+        to [out=up,in=up,looseness=2] (5,1)
+        to [out=down,in=down,looseness=2] (6,1)
+        to (6,2);
+    \end{knot}
+    \node at (-2,1) {$a$};
+    \node at (-0.5,1.75) {$a$};
+    \node at (1.5,1.75) {$a$};
+    \node at (0.5,1) {$b$};
+    \node at (3,1) {$a$};
+    \node at (3,0.25) {$b$};
+    \node at (4.5,1) {$b$};
+  \end{tikzpicture}
+$$
 
           \     \   a   /   \   a   /      /               |
            \     R     L     R     L      /       i        |
@@ -198,18 +226,34 @@ because if we take the above picture and paint the regions labelled
 picture has a roughly tiger-striped appearance. In fact, these tiger
 stripes tell you everything you need to know about the $2$-morphism! For
 example, starting from just this:
-
-          \     \   a   /   \   a   /      /               |
-           \     \     /     \     /      /       _        |
-            \     \   /       \   /      /       / \       |
-             \     \_/         \_/      /   a   /   \      |    b
-              \                        /       /     \     |
-        a      \                      /        \      \   / 
-                \         b          /     _    \      \_/ 
-                 \                  /     / \    \      
-                  \                /     /   \    \       
-                   \              /     /  b  \    \  
-
+$$
+  \begin{tikzpicture}[xscale=0.8,yscale=1.2]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down] (-2,2);
+      \strand[thick] (-1,2)
+        to [out=down,in=down,looseness=2] (0,2);
+      \strand[thick] (1,2)
+        to [out=down,in=down,looseness=2] (2,2);
+      \strand[thick] (1.5,0)
+        to [out=up,in=down](3,2);
+      \strand[thick] (2.5,0)
+        to [out=up,in=up,looseness=2] (3.5,0);
+      \strand[thick] (4.5,0)
+        to [out=up,in=down,looseness=2] (4,1)
+        to [out=up,in=up,looseness=2] (5,1)
+        to [out=down,in=down,looseness=2] (6,1)
+        to (6,2);
+    \end{knot}
+    \node at (-2,1) {$a$};
+    \node at (-0.5,1.75) {$a$};
+    \node at (1.5,1.75) {$a$};
+    \node at (0.5,1) {$b$};
+    \node at (3,1) {$a$};
+    \node at (3,0.25) {$b$};
+    \node at (4.5,1) {$b$};
+  \end{tikzpicture}
+$$
 you can figure out where everything else should go.
 
 By the way, note that orange stripes can disappear as we go down the
