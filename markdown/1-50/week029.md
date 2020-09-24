@@ -97,7 +97,7 @@ N. Yetter, preprint, 6 pages, available in LaTeX form as
 [`hep-th/9311082`](https://arxiv.org/abs/hep-th/9311082).
 
 Let me simply quote the abstract: "Motivated by suggestions of Paolo
-Cotta-Ramusino's work at the physical level of rigor relating BF theory
+Cotta-Ramusino's work at the physical level of rigor relating $BF$ theory
 to the Donaldson polynomials, we provide a construction applicable to
 the Turaev/Viro and Crane/Yetter invariants of *a priori* finer
 invariants dependent on a choice of (co)homology class on the

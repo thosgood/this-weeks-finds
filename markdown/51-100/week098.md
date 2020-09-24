@@ -207,9 +207,9 @@ constant as a kind of limiting case.
 It turns out that the interesting degrees of freedom of the metric
 living on the surface $\Sigma$ in spacetime are described by fields living on
 this surface. In fact, these fields are solutions of a $2$-dimensional
-topological field theory called BF theory. To prove this, I take
-advantage of the relation between general relativity and BF theory in 4
-dimensions, together with the fact that BF theory behaves in a simple
+topological field theory called $BF$ theory. To prove this, I take
+advantage of the relation between general relativity and $BF$ theory in 4
+dimensions, together with the fact that $BF$ theory behaves in a simple
 manner under dimensional reduction.
 
 Another neat thing is that to get a solution of general relativity this

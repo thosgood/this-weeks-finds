@@ -81,10 +81,10 @@ reason is that in string theory one becomes interested in gauge fields
 living on the 2-dimesional "string worldsheet."
 
 This paper is a thorough review of two kinds of gauge theories in 2
-dimensions: topological Yang-Mills theory (also called BF theory) and
+dimensions: topological Yang-Mills theory (also called $BF$ theory) and
 the $G/G$ gauged Wess-Zumino-Witten model. Both of these are of great
 mathematical interest in addition to their physical relevance. Studying
-the BF theory gives a way to do integrals on the moduli space of flat
+the $BF$ theory gives a way to do integrals on the moduli space of flat
 connections on a bundle over a Riemann surface, while studying the $G/G$
 model amounts to a geometric construction of the categories of
 representations of quantum groups at roots of unity. (Take my word for

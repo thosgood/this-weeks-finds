@@ -140,7 +140,7 @@ Feynman diagrams, it seems reasonable to do it by computing a number for
 each spin foam face, edge, and vertex, and then multiplying them all
 together.
 
-Quantum gravity is related to a simpler theory called BF theory, which
+Quantum gravity is related to a simpler theory called $BF$ theory, which
 has a spin foam formulation known as the Crane-Yetter model --- see
 ["Week 36"](#week36), ["Week 58"](#week58), and
 ["Week 98"](#week98). There are various clues suggesting that that

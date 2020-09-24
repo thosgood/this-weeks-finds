@@ -99,7 +99,7 @@ A while ago, De Pietri, Freidel, Krasnov and Rovelli showed how to get
 the Barrett-Crane model for Riemannian quantum gravity from a quantum
 field theory on a product of 4 copies of $\mathrm{SO}(4)$ --- see
 ["Week 140"](#week140). This was based on earlier work by Boulatov
-and Ooguri, who did a similar thing for BF theory. The basic idea is to
+and Ooguri, who did a similar thing for $BF$ theory. The basic idea is to
 cook up a quantum field theory on a product of copies of Lie group, with
 a nice Lagrangian that encodes how simplices can stick together to form
 a spacetime. If you do a Feynman diagram expansion of this quantum field

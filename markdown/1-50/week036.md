@@ -20,7 +20,7 @@ metric is likely to be worth having. Also, quantum gravity appears to be
 tied mathematically to simpler TQFTs in a variety of ways. In
 particular, the Ashtekar formulation of quantum gravity is closely
 related to a $4$-dimensional TQFT variously known as "$B \wedge F$ theory,"
-"BF theory," "topological $2$-form gravity" or "topological quantum
+"$BF$ theory," "topological $2$-form gravity" or "topological quantum
 gravity". This in turn is closely related to Chern-Simons theory in 3
 dimensions.
 
@@ -45,7 +45,7 @@ that is, the connection $A$ is flat, and varying $A$ gives us
 $$d_A B = 0,$$
 that is, the exterior covariant derivative of $B$ vanishes.
 
-In 4 dimensions we can soup up our BF theory a bit by adding terms
+In 4 dimensions we can soup up our $BF$ theory a bit by adding terms
 proportional to
 $$\operatorname{tr}(B \wedge B)$$
 and
@@ -63,7 +63,7 @@ for solutions of the equations of motion, the action is a constant times
 the second Chern class (if $a$ is nonzero).
 
 Horowitz showed, in this four-dimensional case, that if $a$ is nonzero,
-there is a single state of the *quantum* version of BF theory when
+there is a single state of the *quantum* version of $BF$ theory when
 spacetime has the form $\mathbb{R} \times S$ ($S$ being some oriented 3-manifold), and
 that this state, thought of as a wavefunction on the space of
 connections on $S$, is just the exponential of the Chern-Simons action.
@@ -82,7 +82,7 @@ do with the geometry of the space of connections on $M$ than it does with
 the "FF" Lagrangian per se. But still, there are other relationships
 between Donaldson theory and Chern-Simons theory (which I don't
 understand well enough to want to discuss), so perhaps it is not too
-silly to say that BF theory is related to Donaldson theory in some
+silly to say that $BF$ theory is related to Donaldson theory in some
 poorly understood manner.
 
 Now for some references: the reference that got me started on these was
@@ -120,7 +120,7 @@ is:
 
 4) "Topological Yang-Mills symmetry", by L. Baulieu and I. M. Singer, _Nucl. Phys. (Proc. Suppl.)_ **B5** (1988) 12--19.
 
-BF theory in 2 dimensions is also called "topological Yang-Mills
+$BF$ theory in 2 dimensions is also called "topological Yang-Mills
 theory", and it's discussed in various places, including
 
 5) "On quantum gauge theories in two dimensions", by Edward Witten, _Comm. Math. Phys._ **141** (1991) 153--209.

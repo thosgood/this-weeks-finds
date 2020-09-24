@@ -262,7 +262,7 @@ the like:
 
 8) Seth Major, "Operators for quantized directions", preprint available as [`gr-qc/9905019`](https://arxiv.org/abs/gr-qc/9905019).
 
-9) John Baez, "An introduction to spin foam models of BF theory and quantum gravity", in _Geometry and Quantum Physics_, eds. Helmut Gausterer and Harald Grosse, Lecture Notes in Physics, Springer-Verlag, Berlin, 2000, pp. 25--93. Preprint available as [`gr-qc/9905087`](https://arxiv.org/abs/gr-qc/9905087).
+9) John Baez, "An introduction to spin foam models of $BF$ theory and quantum gravity", in _Geometry and Quantum Physics_, eds. Helmut Gausterer and Harald Grosse, Lecture Notes in Physics, Springer-Verlag, Berlin, 2000, pp. 25--93. Preprint available as [`gr-qc/9905087`](https://arxiv.org/abs/gr-qc/9905087).
 
 By the way, Barrett and Crane have come out with a paper sketching a
 spin foam model for Lorentzian (as opposed to Riemannian) quantum

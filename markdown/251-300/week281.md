@@ -350,20 +350,20 @@ Corfu - some things I find even more tantalizing.
 In ["Week 232"](#week232), I explained how gravity in 3d spacetime
 automatically contains within it a theory of point particles, and how a
 4d analogue of 3d gravity automatically contains within it a theory of
-string-like objects. This 4d theory is called BF theory. Like 3d
+string-like objects. This 4d theory is called $BF$ theory. Like 3d
 gravity, it describes a world where spacetime is flat. So, it's boring
 compared to full-fledged 4d gravity - so boring that we can understand
 it much better! In particular, unlike 4d gravity, we understand a lot
 about what happens when you take quantum mechanics into account in 4d BF
 theory.
 
-But when you remove a surface from spacetime in 4d BF theory, it springs
+But when you remove a surface from spacetime in 4d $BF$ theory, it springs
 to life! In particular, the surface acts a bit like the worldsheet of a
 string. It doesn't behave like the strings in ordinary string theory.
 But Winston Fairbairn has been thinking about this a lot:
 
 17) Winston J. Fairbairn and Alejandro Perez, Extended matter coupled
-to BF theory, Phys. Rev. D78:024013, 2008. Also available as
+to $BF$ theory, Phys. Rev. D78:024013, 2008. Also available as
 [`arXiv:0709.4235`](http://arxiv.org/abs/0709.4235).
 
 18) Winston J. Fairbairn, On gravitational defects, particles and
@@ -374,7 +374,7 @@ strings, JHEP 0809:126, 2008. Also available as
 analysis of algebraic string actions, available as
 [`arXiv:0908.0953`](http://arxiv.org/abs/0908.0953)
 
-And it turns out that if we impose the constraints on BF theory that
+And it turns out that if we impose the constraints on $BF$ theory that
 turn it into general relativity, we obtain the usual Nambu-Goto string,
 where the action is the area! However, the last of the three papers
 above shows there are some subtle differences.

@@ -304,7 +304,7 @@ So, we'll have to see how it goes....
 
 But in the meantime, we can think about mathematical physics. My student
 Derek Wise is graduating this year, and he's doing his thesis on Cartan
-geometry, MacDowell-Mansouri gravity and BF theory. Let me say a little
+geometry, MacDowell-Mansouri gravity and $BF$ theory. Let me say a little
 about this paper of his:
 
 11) Derek Wise, MacDowell-Mansouri gravity and Cartan geometry,
@@ -394,7 +394,7 @@ So, if we know Cartan geometry, we can use that... and we get something
 called the MacDowell-Mansouri formulation of gravity. Or, if we don't
 want our spacetime to have lumps and bumps - if we want it to look
 locally just like the Klein model geometry - we can use a different
-theory, a topological field theory called BF theory (see
+theory, a topological field theory called $BF$ theory (see
 ["Week 232"](#week232)).
 
 In short, the passage from a topological field theory describing a

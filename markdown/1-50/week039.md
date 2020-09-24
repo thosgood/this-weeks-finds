@@ -141,7 +141,7 @@ world to do with Chern-Simons theory, as summarized so deftly by Atiyah:
 5) _The Geometry and Physics of Knots_, by Michael Atiyah, Cambridge U. Press, Cambridge, 1990.
 
 On the other hand, lately people have been using 2d Yang-Mills theory,
-BF theory, and the like (see ["Week 36"](#week36)) to get a really
+$BF$ theory, and the like (see ["Week 36"](#week36)) to get a really
 thorough handle on the cohomology of the moduli space of flat
 connections. For a mathematical approach to this problem that doesn't
 talk much about gauge theory, try:

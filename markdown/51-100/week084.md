@@ -188,7 +188,7 @@ observables. It seems this idea has languished to some extent due to a
 lack of necessary mathematical infrastructure. For the last couple of
 years, Martellini has been suggesting to use ideas from topological
 quantum field theory to serve this role. In particular, he suggested
-treating Yang-Mills theory as a perturbation of BF theory, and applying
+treating Yang-Mills theory as a perturbation of $BF$ theory, and applying
 some of the ideas of Witten and Seiberg (who related confinement in the
 supersymmetric generalization of Yang-Mills theory to Donaldson theory).
 In the paper with Fucito and Zeni, they make some of these ideas

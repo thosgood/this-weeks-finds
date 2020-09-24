@@ -240,8 +240,8 @@ metric is the main variable!
 
 So the idea of Freidel and Krasnov is to approximate quantum graivty
 with a very different sort of "free theory", one in which the metric
-is a variable. The theory they use is called "BF theory". I said a lot
-about BF theory in ["Week 36"](#week36), but here the main point is
+is a variable. The theory they use is called "$BF$ theory". I said a lot
+about $BF$ theory in ["Week 36"](#week36), but here the main point is
 simply that it's a topological quantum field theory, or TQFT. A TQFT is
 a quantum field theory that does not presume a fixed metric, but of a
 very simple sort, because it has no local degrees of freedom. I very
@@ -250,7 +250,7 @@ theory" for the purposes of studying quantum gravity.
 
 Everything that Freidel and Krasnov do is reminscent of familiar quantum
 field theory, but also very different, because their starting-point is
-BF theory rather than a free theory of a traditional sort. For example,
+$BF$ theory rather than a free theory of a traditional sort. For example,
 just as ordinary quantum field theory starts out with Fock space, in the
 spin network approach to quantum gravity we start with a nice simple
 Hilbert space of states. But this space has a basis consisting, not of
@@ -260,7 +260,7 @@ more on spin networks, see ["Week 55"](#week55) and
 ["Week 110"](#week110).) And instead of using $1$-dimensional Feynman
 diagrams to compute transition amplitudes, the idea is now to use
 2-dimensional gadgets called "spin foams". The amplitudes for spin
-foams are easy to compute in BF theory, because there are a lot of
+foams are easy to compute in $BF$ theory, because there are a lot of
 explicit formulas using the so-called "Kauffman bracket", which is an
 easily computable invariant of spin networks. So then the trick is to
 use this technology to compute spin foam amplitudes for quantum gravity.
@@ -296,7 +296,7 @@ non-commutativity become negligible in the semi-classical regime."
 
 In case you're wondering, the "triad" field is more or less what
 mathematicians would call a "frame field" or "soldering form" --- and
-it's the same as the "B" field in BF theory. It encodes the
+it's the same as the "B" field in $BF$ theory. It encodes the
 information about the metric in Ashtekar's formulation to general
 relativity.
 

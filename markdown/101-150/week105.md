@@ -219,7 +219,7 @@ applications of topology to quantum field theory rely on this $\pi_3$
 business. For example, it's the key to stuff like "instantons" in
 Yang-Mills theory, which are in turn crucial for understanding how the
 pion gets its mass. It's also the basis of stuff like "Chern-Simons
-theory" and "BF theory". Alas, all this takes a while to explain, but
+theory" and "$BF$ theory". Alas, all this takes a while to explain, but
 let's just say the third entry is about "topological field theory in 4
 dimensions".
 

@@ -8,7 +8,7 @@ constrained topological field theory, available as
 [`hep-th/0003285`](https://arxiv.org/abs/hep-th/0003285).
 
 This paper gives an elegant new formulation of 11d supergravity by
-starting from a kind of BF theory and then imposing constraints, very
+starting from a kind of $BF$ theory and then imposing constraints, very
 much like Plebanski's formulation of ordinary gravity in 4d spacetime.
 Recall that in Plebanski's formalism, we start with:
 
@@ -162,7 +162,7 @@ description of what's going on!
 
 I'm getting a little worn out, so I'll just summarize the rest of the
 story. First, how do Ling and Smolin get their 11d topological field
-theory? Like I said, it's a kind of BF theory, where the Lagrangian is
+theory? Like I said, it's a kind of $BF$ theory, where the Lagrangian is
 like $\operatorname{tr}(B\wedge F)$. But there are a bunch of $F$ fields --- i.e., curvatures ---
 and thus a bunch of $B$ fields. Namely, we've got the curvature of the
 superconnection $A$, the curvature $dC$ of the $3$-form $C$, and the curvature
@@ -179,7 +179,7 @@ a mild lie! We're not seeing 11d supergravity as simply a constrained
 topological field theory --- there's also an extra interaction.
 
 By the way, if you've never seen the Plebanski formulation of 4d
-gravity as a constrained BF theory, here's the original paper:
+gravity as a constrained $BF$ theory, here's the original paper:
 
 2) M. J. Plebanski, "On the separation of Einsteinian substructures", _J. Math. Phys._ **18** (1977), 2511.
 

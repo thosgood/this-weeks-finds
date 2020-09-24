@@ -1,7 +1,7 @@
 # March 12, 1995 {#week50}
 
 Your roving mathematical physics reporter is now in Milan, where (when
-not busy eating various kinds of cheese) he is discussing BF theory with
+not busy eating various kinds of cheese) he is discussing $BF$ theory with
 his hosts, Paolo Cotta-Ramusino and Maurizio Martellini. This is rather
 a long way to go to stumble on the October 1994 issue of the Journal of
 Mathematical Physics, but such is life. This issue is a special issue on

@@ -156,7 +156,7 @@ So...
     3) Junichi Iwasaki, "A reformulation of the Ponzano-Regge quantum gravity model in terms of surfaces", University of Pittsburgh, 11 pages in LaTeX format available as [`gr-qc/9410010`](https://arxiv.org/abs/gr-qc/9410010).
 
     Later, Reisenberger extended this approach to deal with certain 4d
-    theories which are simpler than quantum gravity, like BF theory:
+    theories which are simpler than quantum gravity, like $BF$ theory:
 
     4) Michael Reisenberger, "Worldsheet formulations of gauge theories and Gravity", University of Utrecht preprint, 1994, available as [`gr-qc/9412035`](https://arxiv.org/abs/gr-qc/9412035).
 

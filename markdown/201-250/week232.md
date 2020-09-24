@@ -106,9 +106,9 @@ Next, I'd like to say a little about point particles in 3d quantum
 gravity, and some recent work with Alissa Crans, Derek Wise and
 Alejandro Perez on string-like defects in 4d topological gravity:
 
-12) John Baez, Derek Wise and Alissa Crans, "Exotic statistics for strings in 4d BF theory", available as [`gr-qc/0603085`](https://arxiv.org/abs/gr-qc/0603085).
+12) John Baez, Derek Wise and Alissa Crans, "Exotic statistics for strings in 4d $BF$ theory", available as [`gr-qc/0603085`](https://arxiv.org/abs/gr-qc/0603085).
 
-13) John Baez and Alejandro Perez, "Quantization of strings and branes coupled to BF theory", available as [`gr-qc/0605087`](https://arxiv.org/abs/gr-qc/0605087).
+13) John Baez and Alejandro Perez, "Quantization of strings and branes coupled to $BF$ theory", available as [`gr-qc/0605087`](https://arxiv.org/abs/gr-qc/0605087).
 
 (Jeffrey Morton is also involved in this project, a bit more on the
 $n$-category side of things, but that aspect is top secret for now.)
@@ -217,111 +217,91 @@ First, $\exp(p)$ is what we actually detect by parallel transporting a
 little arrow around our particle.
 
 Second, suppose we let two particles collide and form a new one:
-
-        p       p'
-         \     /
-          \   /  
-           \ /  
-            |   
-            |   
-            |    
-            p"
-
+$$
+  \begin{tikzpicture}
+    \node[label=above:{$p$}] at (0,0) {};
+    \node[label=above:{$p'$}] at (1,0) {};
+    \node[label=below:{$p''$}] at (0.5,-2) {};
+    \draw[thick] (0,0) to (0.5,-1) to (0.5,-2);
+    \draw[thick] (1,0) to (0.5,-1);
+  \end{tikzpicture}
+$$
 Now our worldlines don't form a submanifold anymore, but if we keep our
 wits about us, we can see that everything still makes sense, and we get
 momentum conservation in this form:
-
-exp(p") = exp(p) exp(p')
-
+$$\exp(p'') = \exp(p) \exp(p')$$
 since little loops going around the two incoming particles can fuse to
 form a loop going around the outgoing particle. Note that we're getting
 conservation of the *group-valued* momentum, not the Lie-algebra-valued
 momentum --- we don't have
-
-p" = p + p'
-
+$$p'' = p + p'$$
 So, conservation of energy-momentum is getting modified by gravitational
 effects! This goes by the name of "doubly special relativity":
 
-15) Laurent Freidel, Jerzy Kowalski-Glikman and Lee Smolin, 2+1 gravity
-and doubly special relativity, Phys. Rev. D69 (2004) 044001. Also
-available as [`hep-th/0307085`](https://arxiv.org/abs/hep-th/0307085).
+15) Laurent Freidel, Jerzy Kowalski-Glikman and Lee Smolin, "2+1 gravity and doubly special relativity", _Phys. Rev._ **D69** (2004) 044001. Also available as [`hep-th/0307085`](https://arxiv.org/abs/hep-th/0307085).
 
 This effect is a bit less shocking if we put the units back in. I've
-secretly been setting 4\pi G = 1, where G is Newton's gravitational
-constant. If we put that constant back in --- let's call it k instead of
-4\pi G --- we get
-
-exp(kp") = exp(kp) exp(kp')
-
+secretly been setting $4\pi G = 1$, where $G$ is Newton's gravitational
+constant. If we put that constant back in --- let's call it $k$ instead of
+$4\pi G$ --- we get
+$$\exp(kp'') = \exp(kp) \exp(kp')$$
 or if you expand things out:
-
-p" = p + p' + (k/2) \[p,p'\] + terms of order k^2 and higher...
-
+$$p'' = p + p' + \frac{k}{2}[p,p'] + \mbox{terms of order $k^2$ and higher}$$
 So, as long as the momenta are small compared to the Planck mass, the
 usual law of conservation of momentum
-
-p" = p + p'
-
+$$p'' = p + p'$$
 *almost* holds! But, for large momenta this law breaks down --- we must
 think of momentum as group-valued if we want it to be conserved!
 
 I think this is incredibly cool: as we turn on gravity, the usual
 "flat" momentum space curls up into a group, and we need to *multiply*
 momenta in this group, instead of *add* them in the Lie algebra. We can
-think of this group has having a "radius" of 1/k, so it's really big
+think of this group has having a "radius" of $1/k$, so it's really big
 and almost flat when the strength of gravity is small. In this limit,
 multiplication in the group reduces to addition in the Lie algebra.
 
 I should point out that this effect is purely classical! It's still
 there when we quantize the theory, but it only depends on the
 gravitational constant, not Planck's constant. Indeed, in 3d quantum
-gravity, we can build a unit of mass using just G and c: we don't need
-ħ. This unit is the mass that curls space into an infinitely skinny
+gravity, we can build a unit of mass using just $G$ and $c$: we don't need
+$\hbar$. This unit is the mass that curls space into an infinitely skinny
 cone! It would be a bit misleading to call it "Planck mass", but it's
 the maximum possible mass. Any mass bigger than this acts like a
 *negative* mass. That's because the corresponding group-valued momenta
-"wrap around" in the group \mathrm{SO}(2,1).
+"wrap around" in the group $\mathrm{SO}(2,1)$.
 
 We also get another cool effect --- exotic statistics. In the absence of
 gravitational or quantum effects, when you switch two particles, you
 just switch their momenta:
-
-(p, p') \mapsto (p', p)
-
+$$(p, p') \mapsto (p', p)$$
 But in 3d gravity, you can think of this process of switching particles
 as a braid:
-
-              \   /
-               \ / 
-                \
-               / \
-              /   \
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=5]
+      \strand[thick] (0,0) to (1,-2);
+      \strand[thick] (1,0) to (0,-2);
+    \end{knot}
+  \end{tikzpicture}
+$$
 and if you work out what happens to their group-valued momenta, say
-
-g = exp(kp)\
-g' = exp(kp')
-
+$$
+  \begin{aligned}
+    g &= \exp(kp)
+  \\g' &= \exp(kp')
+  \end{aligned}
+$$
 it turns out that one momentum gets conjugated by the other:
-
-(g, g') \mapsto (gg'g^{-1}, g)
-
+$$(g, g') \mapsto (gg'g^{-1}, g)$$
 To see this, remember that we get these group elements by doing parallel
 transport around loops that circle our particles. When we move our
 particles, the loops get dragged along, like this:
-
-::: {align="CENTER"}
-![](loopbraid/particles_braiding.jpg)
-:::
-
+$$\includegraphics[max width=0.8\linewidth]{../images/particles_braiding.jpg}$$
 Note that the left-hand red loop moves until it looks just like the
 right one did initially, but the right-hand one gets wrapped around the
 left one. If you ponder this carefully, and you know some math, you can
 see it yields this:
-
-(g, g') \mapsto (gg'g^{-1}, g)
-
+$$(g, g') \mapsto (gg'g^{-1}, g)$$
 So, the process of braiding two particles around each other has a
 nontrivial effect on their momenta. In particular, if you braid two
 particles around other twice they don't wind up in their original
@@ -330,11 +310,9 @@ state!
 Thus, our particles are neither bosons nor fermions, but "nonabelian
 anyons" --- the process of switching them is governed not by the
 permutation group, but by the braid group. But again, if you expand
-things out in powers of k you'll see this effect is only noticeable for
+things out in powers of $k$ you'll see this effect is only noticeable for
 large momenta:
-
-(p, p') \mapsto (p' + k\[p,p'\] + higher order terms..., p)
-
+$$(p, p') \mapsto (p' + k[p,p'] + \mbox{higher order terms}, p)$$
 Summarizing, we see quantum gravity is lots of fun in 3 dimensions:
 it's easy to introduce point particles, and they have group-valued
 momentum, which gives rise to doubly special relativity and braid group
@@ -343,17 +321,15 @@ statistics.
 Now, what happens when we go from 3 dimensions to 4 dimensions?
 
 Well, we can write down the same sort of theory:
+$$S = \int_M \operatorname{tr}(B\wedge F) - \int_W \operatorname{tr}((B + d_A q)\wedge p)$$
+The only visible difference is that what I'd been calling "$e$" is now
+called "$B$", so you can see why folks call this "$BF$ theory".
 
-S   =   \int_M \operatorname{tr}(B ^ F)   ---   \int_W \operatorname{tr}((B + d_A q)\wedge p)
-
-The only visible difference is that what I'd been calling "e" is now
-called "B", so you can see why folks call this "BF theory".
-
-But more importantly, now M is an $4$-dimensional spacetime and W is an
-2-dimensional "worldsheet". A is again a Lorentz connection, which we
-can think of as an \mathfrak{so}(3,1)-valued $1$-form. B is an \mathfrak{so}(3,1)-valued $2$-form.
-p is an \mathfrak{so}(3,1)-valued function on the worldsheet W. q is an
-\mathfrak{so}(3,1)-valued $1$-form on W.
+But more importantly, now $M$ is an $4$-dimensional spacetime and $W$ is an
+2-dimensional "worldsheet". $A$ is again a Lorentz connection, which we
+can think of as an $\mathfrak{so}(3,1)$-valued $1$-form. $B$ is an $\mathfrak{so}(3,1)$-valued $2$-form.
+$p$ is an $\mathfrak{so}(3,1)$-valued function on the worldsheet $W$. $q$ is an
+$\mathfrak{so}(3,1)$-valued $1$-form on $W$.
 
 So, only a few numbers have changed... so everything works very
 similarly! The big difference is that instead of spacetime having a
@@ -367,52 +343,40 @@ spacetime.
 
 They can also braid around each other in topologically nontrivial ways,
 as shown in this "movie":
-
-::: {align="CENTER"}
-![](loopbraid/loopbraid.jpg)
-:::
-
+$$\includegraphics[max width=0.8\linewidth]{../images/loopbraid.jpg}$$
 (By the way, all the math pictures this week were drawn by Derek for our
 paper.)
 
 So, we get exotic statistics as before, but now they are governed not by
-the braid group but by the "loop braid group", which keeps track of
+the braid group but by the "loop braid group'', which keeps track of
 all the ways we can move a bunch of circles around in 3d space. Let's
-take our spacetime M to be R^4, to keep things simple. Then our circles
-can move around in R^3... and there are two basic ways we can switch
+take our spacetime M to be $\mathbb{R}^4$, to keep things simple. Then our circles
+can move around in $\mathbb{R}^3$... and there are two basic ways we can switch
 two of them: move them around each other, or pass one *through* the
 other, like this:
-
-::: {align="CENTER"}
-![](loopbraid/loop_switch.jpg)
-:::
-
+$$\includegraphics[max width=0.8\linewidth]{../images/loop_switch.jpg}$$
 If we just move them around each other, they might as well have been
 point particles: we get a copy of the permutation group, and all we see
 are ordinary statistics. But when we consider all the ways of passing
 them through each other, we get a copy of the braid group!
 
 When we allow ourselves both motions, we get a group called the "loop
-braid group" or "braid permutation group" --- and one thing Alissa
+braid group'' or "braid permutation group'' --- and one thing Alissa
 Derek and I did was to get a presentation of this group. This is an
-example of a "motion group": just as the motion group of point
+example of a "motion group'': just as the motion group of point
 particles in the plane is the braid group, and motion group of point
-particles in R^3 is the permutation group, the motion group of strings
-in R^3 is the loop braid group.
+particles in $\mathbb{R}^3$ is the permutation group, the motion group of strings
+in $\mathbb{R}^3$ is the loop braid group.
 
 As before, our strings have group-valued momenta: we can get an element
-of the Lorentz group \mathrm{SO}(3,1) by parallel transporting a little tangent
+of the Lorentz group $\mathrm{SO}(3,1)$ by parallel transporting a little tangent
 vector around a string. And, we can see how different ways of switching
 our strings affect the momenta. When we move two strings around each
 other, their momenta switch in the usual way:
-
-(g, g') \mapsto (g', g)
-
+$$(g, g') \mapsto (g', g)$$
 but when we move one through the other, one momentum gets conjugated by
 the other:
-
-(g, g') \mapsto (gg'g^{-1}, g)
-
+$$(g, g') \mapsto (gg'g^{-1}, g)$$
 So, we have exotic statistics, but you can only notice them if you can
 pass one string through another!
 
@@ -423,14 +387,10 @@ well for 3d quantum gravity, and matches the spin foam picture of this
 theory. People have sort of believed this for a long time, but Alejandro
 demonstrated this quite carefully in a recent paper with Karim Noui:
 
-15) Karim Noui and Alejandro Perez, Dynamics of loop quantum gravity
-and spin foam models in three dimensions, to appear in the proceedings
-of the Third International Symposium on Quantum Theory and Symmetries
-(QTS3), available as
-[`gr-qc/0402112`](https://arxiv.org/abs/gr-qc/0402112).
+15) Karim Noui and Alejandro Perez, "Dynamics of loop quantum gravity and spin foam models in three dimensions", to appear in the proceedings of the _Third International Symposium on Quantum Theory and Symmetries (QTS3)_, available as [`gr-qc/0402112`](https://arxiv.org/abs/gr-qc/0402112).
 
 The reason everything works so nicely is that the equations of motion
-say the connection is flat. Since the same is true in BF theory in
+say the connection is flat. Since the same is true in $BF$ theory in
 higher dimensions, we expect that the loop quantization and spin foam
 quantization of the theory I'm talking about now should also work well.
 
@@ -446,8 +406,8 @@ these stringy defects, and that would be quite interesting.
 
 But, I spoke about this today at the Perimeter Institute, and Malcolm
 Perry said that instead of "strings" I should call these guys
-(n-2)-branes, because the connection has conical singularities on them,
-"which is what one would expect for any respectable (n-2)-brane".
+$(n-2)$-branes, because the connection has conical singularities on them,
+"which is what one would expect for any respectable $(n-2)$-brane".
 
 I will talk to him more about this and try to pick his, umm, branes. In
 fact I took my very first GR course from him, back when he was a postdoc
@@ -455,9 +415,7 @@ at Princeton and I was a measly undergraduate. I was too scared to ask
 him many questions then. I'm a bit less scared now, but I've still got
 a lot to learn. Tomorrow he's giving a talk about this:
 
-17) David S. Berman, Malcolm J. Perry, M-theory and the string genus
-expansion, Phys. Lett. B635 (2006) 131-135. Also available as
-[`hep-th/0601141`](http://arxiv.org/abs/hep-th/0601141).
+17) David S. Berman, Malcolm J. Perry, "M-theory and the string genus expansion", _Phys. Lett._ **B635** (2006) 131--135. Also available as [`hep-th/0601141`](http://arxiv.org/abs/hep-th/0601141).
 
 ------------------------------------------------------------------------
 
@@ -465,21 +423,21 @@ expansion, Phys. Lett. B635 (2006) 131-135. Also available as
 
 > John Baez wrote:
 >
->       > The really cool part is the relation between the Lie algebra 
->       > element p and the group element exp(p).  Originally we thought 
->       > of p as momentum --- but there's a sense in which exp(p) is the 
->       > momentum that really counts!
+> > The really cool part is the relation between the Lie algebra 
+> > element $p$ and the group element $\exp(p)$.  Originally we thought 
+> > of $p$ as momentum --- but there's a sense in which $\exp(p)$ is the 
+> > momentum that really counts!
 >
-> Would it be correct to assume that the ordinary tangent vector p still
+> Would it be correct to assume that the ordinary tangent vector $p$ still
 > transforms in the usual way? In other words, suppose I'm living in a
 > 2+1 dimensional universe, and there's a point particle with rest mass
-> m and hence energy-momentum vector in its rest frame of p=me_0. If I
+> $m$ and hence energy-momentum vector in its rest frame of $p=me_0$. If I
 > cross its world line with a certain relative velocity, there's an
-> element g of \mathrm{SO}(2,1) which tells me how to map the particle's tangent
+> element $g$ of $\mathrm{SO}(2,1)$ which tells me how to map the particle's tangent
 > space to my own. Would I measure the particle's energy-momentum to be
-> p'=gp? (e.g. if I used the particle to do work in my own rest frame)
+> $p'=gp$? (e.g. if I used the particle to do work in my own rest frame)
 > Would there still be no upper bound on the total energy, i.e. by
-> making our relative velocity close enough to c, I could measure the
+> making our relative velocity close enough to $c$, I could measure the
 > particle's kinetic energy to be as high as I wished?
 >
 > I guess I'm trying to clarify whether the usual Lorentz
@@ -497,95 +455,87 @@ I replied:
 
 > Greg Egan wrote:
 >
->       >John Baez wrote:
+> > John Baez wrote:
 >
->       >>The really cool part is the relation between the Lie algebra 
->       >>element p and the group element exp(p).  Originally we thought 
->       >>of p as momentum ---  but there's a sense in which exp(p) is the 
->       >>momentum that really counts!
+> > > The really cool part is the relation between the Lie algebra 
+> > > element $p$ and the group element $\exp(p)$.  Originally we thought 
+> > > of $p$ as momentum ---  but there's a sense in which $\exp(p)$ is the 
+> > > momentum that really counts!
 >
->       >Would it be correct to assume that the ordinary tangent vector p 
->       >still transforms in the usual way?  
+> >Would it be correct to assume that the ordinary tangent vector $p$ 
+> >still transforms in the usual way?
 >
 > Hi! Yes, it would.
 >
->       >In other words, suppose I'm living in a 2+1 dimensional universe, 
->       >and there's a point particle with rest mass m and hence 
->       >energy-momentum vector in its rest frame of p=m e_0.  If I
->       >cross its world line with a certain relative velocity, there's 
->       >an element g of \mathrm{SO}(2,1) which tells me how to map the particle's 
->       >tangent space to my own.  Would I measure the particle's 
->       >energy-momentum to be p'=gp?  (e.g. if I used the particle to 
->       >do work in my own rest frame)  Would there still be no upper 
->       >bound on the total energy, i.e. by making our relative velocity 
->       >close enough to c, I could measure the particle's kinetic energy 
->       >to be as high as I wished?
+> > In other words, suppose I'm living in a 2+1 dimensional universe, 
+> > and there's a point particle with rest mass $m$ and hence 
+> > energy-momentum vector in its rest frame of $p=m e_0$.  If I
+> > cross its world line with a certain relative velocity, there's 
+> > an element $g$ of $\mathrm{SO}(2,1)$ which tells me how to map the particle's 
+> > tangent space to my own.  Would I measure the particle's 
+> > energy-momentum to be $p'=gp$?  (e.g. if I used the particle to 
+> > do work in my own rest frame)  Would there still be no upper 
+> > bound on the total energy, i.e. by making our relative velocity 
+> > close enough to $c$, I could measure the particle's kinetic energy 
+> > to be as high as I wished?
 >
 > To understand this, it's good to think of the momenta as elements of
-> the Lie algebra \mathfrak{so}(2,1) --- it's crucial to the game.
+> the Lie algebra $\mathfrak{so}(2,1)$ --- it's crucial to the game.
 >
-> Then, if you have momentum p, and I zip past you, so you appear
-> transformed by some element g of the Lorentz group \mathrm{SO}(2,1), I'll see
+> Then, if you have momentum $p$, and I zip past you, so you appear
+> transformed by some element $g$ of the Lorentz group $\mathrm{SO}(2,1)$, I'll see
 > your momentum as
->
-> p' = g p g^{-1}
->
+> $$p' = g p g^{-1}$$
 > This is just another way of writing the usual formula for Lorentz
 > transforms in 3d Minkowski space. No new physics so far, just a clever
 > mathematical formalism.
 >
-> But when we turn on gravity, letting Newton's constant k be nonzero,
+> But when we turn on gravity, letting Newton's constant $k$ be nonzero,
 > we should instead think of momentum as group-valued, via
->
-> h = exp(kp)
->
+> $$h = \exp(kp)$$
 > and similarly
->
-> h' = exp(kp')
->
-> Different choices of p now map to the same choice of h. In particular,
-> a particle of a certain large mass --- the Planck mass- will turn out to
+> $$h' = \exp(kp')$$
+> Different choices of $p$ now map to the same choice of $h$. In particular,
+> a particle of a certain large mass --- the Planck mass --- will turn out to
 > act just like a particle of zero mass!
 >
-> So, if we agree to work with h instead of p, we are now doing new
+> So, if we agree to work with $h$ instead of $p$, we are now doing new
 > physics. This is even more obvious when we decide to multiply momenta
-> instead of adding them, since multiplication in \mathrm{SO}(2,1) is
+> instead of adding them, since multiplication in $\mathrm{SO}(2,1)$ is
 > noncommutative!
 >
 > But, if we transform our group-valued momentum in the correct way:
->
-> h' = ghg^{-1}
->
+> $$h' = ghg^{-1}$$
 > this will be completely compatible with our previous transformation
 > law for vector-valued momentum!
 >
->       >I guess I'm trying to clarify whether the usual Lorentz transformation
->       >of the tangent space has somehow been completely invalidated for
->       >extreme boosts, or whether it's just a matter of there being a second
->       >definition of "momentum" (defined in terms of the Hamiltonian) which
->       >transforms differently and is the appropriate thing to consider in
->       >gravitational contexts.
+> > I guess I'm trying to clarify whether the usual Lorentz transformation
+> > of the tangent space has somehow been completely invalidated for
+> > extreme boosts, or whether it's just a matter of there being a second
+> > definition of "momentum" (defined in terms of the Hamiltonian) which
+> > transforms differently and is the appropriate thing to consider in
+> > gravitational contexts.
 >
 > Good question! Amazingly, the usual Lorentz transformations still work
 > EXACTLY --- even though the rule for adding momentum is new (now it's
-> multiplication in the group). We're just taking exp(kp) instead of p
+> multiplication in the group). We're just taking $\exp(kp)$ instead of $p$
 > as the "physical" aspect of momentum.
 >
 > This effectively puts an upper limit on mass, since as we keep
 > increasing the mass of a particle, eventually it "loops around"
-> \mathrm{SO}(2,1) and act exactly like a particle of zero mass.
+> $\mathrm{SO}(2,1)$ and act exactly like a particle of zero mass.
 >
 > But, it doesn't exactly put an upper bound on energy-momentum, since
-> \mathrm{SO}(2,1) is noncompact. Of course energy and momentum don't take real
+> $\mathrm{SO}(2,1)$ is noncompact. Of course energy and momentum don't take real
 > values anymore, so one must be a bit careful with this "upper bound"
 > talk.
 >
->       >In other words, does the cut-off mass apply only to the deficit 
->       >angle, and do boosts still allow me to measure (by non-gravitational 
->       >means) arbitrarily large energies (at least in the classical theory)?
+> > In other words, does the cut-off mass apply only to the deficit 
+> > angle, and do boosts still allow me to measure (by non-gravitational 
+> > means) arbitrarily large energies (at least in the classical theory)?
 >
 > There's some sense in which energy-momenta can be arbitrarily large.
-> That's because the space of energy-momenta, namely \mathrm{SO}(2,1), is
+> That's because the space of energy-momenta, namely $\mathrm{SO}(2,1)$, is
 > noncompact. Maybe you can figure out some more intuitive way to
 > express this.
 

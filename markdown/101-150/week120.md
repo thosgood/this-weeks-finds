@@ -186,7 +186,7 @@ Two papers have recently appeared which investigate it further:
 8) Roberto De Pietri and Laurent Freidel, "$\mathfrak{so}(4)$ Plebanski Action and relativistic spin foam model", preprint available as [`gr-qc/9804071`](https://arxiv.org/abs/gr-qc/9804071).
 
 These papers study classical general relativity formulated as a
-constrained $\mathrm{SO}(4)$ BF theory. The constraints needed here are
+constrained $\mathrm{SO}(4)$ $BF$ theory. The constraints needed here are
 mathematically just the same as the constraints needed to ensure that 10
 bivectors come from the faces of an actual $4$-simplex! This is part of
 the magic of this approach. But again, if one only imposes the three
@@ -199,7 +199,7 @@ relativity mixed in with these extra theories.
 Here's another recent product of the Center for Classical and Quantum
 Gravity here at Penn State:
 
-9) Laurent Freidel and Kirill Krasnov, "Discrete space-time volume for $3$-dimensional BF theory and quantum gravity", preprint available as [`hep-th/9804185`](https://arxiv.org/abs/hep-th/9804185).
+9) Laurent Freidel and Kirill Krasnov, "Discrete space-time volume for $3$-dimensional $BF$ theory and quantum gravity", preprint available as [`hep-th/9804185`](https://arxiv.org/abs/hep-th/9804185).
 
 Freidel and Krasnov study the volume of a single $3$-simplex as an
 observable in the context of the Turaev-Viro model --- a topological

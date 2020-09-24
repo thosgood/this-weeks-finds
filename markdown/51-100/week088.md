@@ -178,9 +178,9 @@ simple to ponder:
 
 - **Thursday, July 25th** --- I spoke on "Topological Quantum Field Theory". I
     am always talking about this on This Week's Finds so I won't bore you
-    with the details. Basically I summarized what is known about BF theory
+    with the details. Basically I summarized what is known about $BF$ theory
     (a particular topological quantum field theory) in dimensions 2, 3, and
-    4, and the discrete formulation of BF theory where you chop spacetime
+    4, and the discrete formulation of $BF$ theory where you chop spacetime
     into simplices and label the edges and so on with spins and the like
     --- so-called "state sum models". You can read more about this in
     ["Week 38"](#week38).

@@ -266,7 +266,7 @@ fascinating subject on which I'm woefully ignorant.
 One reason why Broda's work, and thus de Sa's, is interesting to me,
 is that people have suspected for a while that the Crane-Yetter-Broda
 theory, which is constructed purely combinatorially, is isomorphic to BF
-theory with cosmological term. BF theory (see ["Week 36"](#week36))
+theory with cosmological term. $BF$ theory (see ["Week 36"](#week36))
 is a $4$-dimensional field theory that can be described starting from a
 Lagrangian in the traditional manner of physics. The theory "with
 cosmological term" can be regarded as a baby version of quantum gravity
@@ -274,14 +274,14 @@ with nonzero cosmological constant, a baby version having only one
 state, the "Chern-Simons state". As I discussed in
 ["Week 56"](#week56), it's this Chern-Simons state that plays a
 key role in Smolin's attempt to "exactly solve" quantum gravity. Thus
-I suspect that BF theory is a good thing to understand really well.
+I suspect that $BF$ theory is a good thing to understand really well.
 Recently I showed in
 
-5) John Baez, "4-dimensional BF theory with cosmological term as a topological quantum field theory", available as [`q-alg/9507006`](https://arxiv.org/abs/q-alg/9507006).
+5) John Baez, "4-dimensional $BF$ theory with cosmological term as a topological quantum field theory", available as [`q-alg/9507006`](https://arxiv.org/abs/q-alg/9507006).
 
 that the Crane-Yetter-Broda theory is indeed isomorphic as a TQFT to a
-certain BF theory. With a bit more work, this should give us a state sum
-model for the BF theory that's a baby version of quantum gravity in 4
+certain $BF$ theory. With a bit more work, this should give us a state sum
+model for the $BF$ theory that's a baby version of quantum gravity in 4
 dimensions. This should come in handy for studying Smolin's hypothesis
 and its ramifications.
 
@@ -295,9 +295,9 @@ that the product around any triangle is $1$. You can think of a labelling
 as a kind of "connection" that tells you how to parallel transport
 along the edges, and the constraint says the connection is flat.
 Expectation values of physical observables are then computed as sums
-over these states. In fact, this TQFT is a baby version of BF theory
+over these states. In fact, this TQFT is a baby version of $BF$ theory
 *without* cosmological constant. A toy model of a toy model of quantum
-gravity, in other words: the classical solutions of BF theory without
+gravity, in other words: the classical solutions of $BF$ theory without
 cosmological constant are just flat connections on some G-bundle where G
 is a Lie group, while the Dijkgraaf-Witten model does something similar
 for a finite group.

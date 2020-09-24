@@ -179,9 +179,9 @@ diffeomorphism-invariant theory of quantum gravity: no model had ever
 managed this feat before.
 
 For those of you hungering for technical details, I'll just say that
-the topological theory in question is BF theory with the symmetry group
+the topological theory in question is $BF$ theory with the symmetry group
 of deSitter spacetime, namely $\mathrm{SO}(4,1)$, as the gauge group. General
-relativity can be regarded as a perturbation of this BF theory by
+relativity can be regarded as a perturbation of this $BF$ theory by
 borrowing some ideas from the "MacDowell-Mansouri" formulation of
 general relativity. If you haven't heard of that, well, neither had I.
 It's a sort of old idea:
@@ -195,7 +195,7 @@ symmetry down to the Lorentz group $\mathrm{SO}(3,1)$. The paper by Smolin and
 Starodubtsev listed above describes the details, but in the case of
 going from $\mathrm{SO}(5)$ down to $\mathrm{SO}(4)$.
 
-When we quantize BF theory in 4 dimensions we get a spin foam model
+When we quantize $BF$ theory in 4 dimensions we get a spin foam model
 called the Crane-Yetter model, where the spin foams are defined using
 the representation theory of a quantum group: a "$q$-deformed version"
 of the original gauge group. So, the real engine behind Freidel and

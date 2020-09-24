@@ -124,18 +124,18 @@ Blau and Thompson mention other work in which the Casson invariant is
 generalized still further.
 
 But I didn't say *which* supersymmetric field theory computes the
-Casson invariant for you. The answer is, $N = 2$ supersymmetric BF theory
-with gauge group $\mathrm{SU}(2)$. So now I should say a little about BF theory.
+Casson invariant for you. The answer is, $N = 2$ supersymmetric $BF$ theory
+with gauge group $\mathrm{SU}(2)$. So now I should say a little about $BF$ theory.
 Actually I have already mentioned it here and there, especially in
 ["Week 36"](#week36). But I should say a bit more. This is going to
 be pretty technical, though, so fasten your seatbelts.
 
-The people I know who are the most excited about BF theory are the folks
+The people I know who are the most excited about $BF$ theory are the folks
 I was visiting at Milan, namely Cotta-Ramusino, Martellini and his
-student Cattaneo. They are working on BF theory in 3 and 4 dimensions.
-Let me talk about BF theory in 3 dimensions, which is what's most
+student Cattaneo. They are working on $BF$ theory in 3 and 4 dimensions.
+Let me talk about $BF$ theory in 3 dimensions, which is what's most
 directly relevant here. Well, in *any* dimension, say $n$, the fields in
-BF theory are a connection $A$ on a trivial bundle (take your favorite
+$BF$ theory are a connection $A$ on a trivial bundle (take your favorite
 gauge group $G$), whose curvature $F$ we'll think of as a $2$-form taking
 values in the Lie algebra of $G$, and Lie-algebra-valued $(n-2)$-form $B$.
 Then the Lagrangian of the theory is
@@ -149,7 +149,7 @@ $$L(B,F,c) = \operatorname{tr}(B \wedge F + (c^2/3) B \wedge B \wedge B)$$
 where I have put in "$c^2/3$" as my "cosmological constant" for
 insidious reasons to become clear momentarily. Now what the article by
 Cattaneo, Cotta-Ramusino, Froehlich and Martellini makes really clear is
-how BF theory is related to Chern-Simons theory. This is implicit in
+how $BF$ theory is related to Chern-Simons theory. This is implicit in
 Witten's work on 3d gravity (see ["Week 16"](#week16)), which is
 just the special case where $G$ is $\mathrm{SO}(2,1)$ or $\mathrm{SO}(3)$, and where the
 cosmological constant really is the usual cosmological constant. But
@@ -166,26 +166,26 @@ so we get two different Chern-Simons theories with actions $L(A')$ and
 $L(A'')$, respectively. OR, we can form a theory whose action is the
 difference of these two, and, lo and behold:
 $$L(A') - L(A'') = 4cL(B,F,c).$$
-In other words, BF theory with cosmological constant is just a
+In other words, $BF$ theory with cosmological constant is just a
 "difference of two Chern-Simons theories". Fans of topological quantum
 field theory may perhaps be more familiar with this if I point out that
-the Turaev-Viro theory is just BF theory with gauge group $\mathrm{SU}(2)$, and the
+the Turaev-Viro theory is just $BF$ theory with gauge group $\mathrm{SU}(2)$, and the
 fact that the partition function for this theory is the absolute value
 squared of that for Chern-Simons theory is a special case of what I'm
 talking about. The nice thing about all this is that the funny phases
 coming from framings in Chern-Simons theory precisely cancel out when
 you form this "difference of two Chern-Simons theories".
 
-Now the Casson invariant is related to BF theory in 3 dimensions
+Now the Casson invariant is related to $BF$ theory in 3 dimensions
 *without* cosmological constant, i.e., taking $c = 0$. We might get
 worried by the equation above, which we can't solve for $L(B,F)$ when $c = 0$, but as Cattaneo and company point out,
 $$L(B,F) = \lim_{c\to0}\frac{L(A')-L(A'')}{4c}$$
-so BF theory without cosmological constant is just a limiting case,
+so $BF$ theory without cosmological constant is just a limiting case,
 actually a kind of *derivative* of Chern-Simons theory. They use this to
 make clearer the relation between the vacuum expectation values of
 Wilson loops in Chern-Simons theory --- which give you the HOMFLY
 polynomial for $G = \mathrm{SU}(N)$ --- and the corresponding vacuum expectation
-values in BF theory without cosmological constant --- which give you the
+values in $BF$ theory without cosmological constant --- which give you the
 Alexander polynomial! Very pretty stuff.
 
 Now back to the Casson invariant and some flagrant speculation on my
@@ -195,13 +195,13 @@ Okay: we know how to define Chern-Simons theory in a purely
 combinatorial way using quantum groups. I.e., we can compute the
 partition function of Chern-Simons theory with gauge group $G$ using the
 quantum version of the group $G$... let me just call it "quantum $G$". If
-we take $c$ to be imaginary above, one can show that BF theory with
+we take $c$ to be imaginary above, one can show that $BF$ theory with
 cosmological constant can be computed in a very similar way starting
 with the quantum group corresponding to the *complexification* of $G$,
 i.e. "quantum $\mathbb{C}G$". The point is that $A+cB$ can then be thought of as a
 connection on a bundle with gauge group $\mathbb{C}G$. So far this is not flagrant
 speculation. Slightly more flagrantly, but not really very much at all,
-the formulas above hint that BF theory without cosmological constant can
+the formulas above hint that $BF$ theory without cosmological constant can
 be computed in a similar way starting with the quantum group
 corresponding to the *tangent bundle* of $G$, or "quantum $TG$". (The
 tangent bundle of a Lie group is again a Lie group, and as we let $c \to 0$
@@ -214,8 +214,8 @@ tangent bundle groups, let me know! I think some examples have been
 worked out.
 
 Okay, but Blau and Thompson say that to compute the Casson invariant you
-need to use, not BF theory with gauge group $\mathrm{SU}(2)$, but *supersymmetric*
-BF theory with gauge group $\mathrm{SU}(2)$. Well, no problemo --- just compute it
+need to use, not $BF$ theory with gauge group $\mathrm{SU}(2)$, but *supersymmetric*
+$BF$ theory with gauge group $\mathrm{SU}(2)$. Well, no problemo --- just compute it
 with "quantum super-$T(\mathrm{SU}(2))$"! Here I'm getting a bit flagrant; there
 *are* theories of quantum supergroups, but I don't know much about
 them, especially "quantum super-$TG$" for $G$ compact semisimple. Again,

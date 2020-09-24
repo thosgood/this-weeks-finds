@@ -353,18 +353,18 @@ Lagrangian:
 
 where tr is defined using the inner product, F is the curvature of an
 \mathrm{SO}(4,1) connection A, and B is an \mathfrak{so}(4,1)-valued $2$-form. Spin foam
-models of BF theory work really well:
+models of $BF$ theory work really well:
 
-17) John Baez, An introduction to spin foam models of BF theory and
+17) John Baez, An introduction to spin foam models of $BF$ theory and
 quantum gravity, in Geometry and Quantum Physics, eds. Helmut Gausterer
 and Harald Grosse, Lecture Notes in Physics, Springer-Verlag, Berlin,
 2000, pp. 25-93. Also available as
 [`gr-qc/9905087`](http://arxiv.org/abs/gr-qc/9905087).
 
 So, the MacDowell-Mansouri approach is a natural for spin foam models.
-It's not that MacDowell-Mansouri gravity *is* a BF theory - but its
+It's not that MacDowell-Mansouri gravity *is* a $BF$ theory - but its
 Lagrangian is the BF Lagrangian plus extra terms. So, we can think of it
-as a perturbed version of BF theory.
+as a perturbed version of $BF$ theory.
 
 There's also one way \mathrm{SO}(4,1) is worse than the Poincare group. It's a
 simple Lie group - so it doesn't have a god-given "translation"
@@ -374,12 +374,12 @@ differently from boosts and rotations. We can't do this in an \mathrm{SO}(4,1)
 gauge theory unless we break the symmetry down to a smaller group: the
 Lorentz group, \mathrm{SO}(3,1).
 
-So, to get MacDowell-Mansouri gravity from \mathrm{SO}(4,1) BF theory, we need to
+So, to get MacDowell-Mansouri gravity from \mathrm{SO}(4,1) $BF$ theory, we need to
 add extra terms to the Lagrangian that break the symmetry group down to
 \mathrm{SO}(3,1). This isn't bad, just a bit sneaky.
 
 The new paper by Freidel, Kowalski-Glikman and Starodubtsev is mainly
-about the \mathrm{SO}(4,1) BF theory rather than full-fledged MacDowell-Mansouri
+about the \mathrm{SO}(4,1) $BF$ theory rather than full-fledged MacDowell-Mansouri
 gravity. They show that if you cut out curves in spacetime and couple
 them to the A field in the right way, they act like the worldlines of
 point particles. In particular, they have a mass and spin, and they
@@ -390,7 +390,7 @@ This generalizes some results for 3d gravity that I explained in detail
 back in ["Week 232"](#week232). It's nice to see it working in 4
 dimensions too.
 
-Back then I also explained something else about 4d BF theory: if you cut
+Back then I also explained something else about 4d $BF$ theory: if you cut
 out *surfaces* in spacetime and couple them to the *B* field, they act
 like the worldsheets of $1$-dimensional extended objects, which one might
 call *strings*. I don't think they're the wiggling stretchy strings
@@ -399,7 +399,7 @@ different. But I should actually check! It's stupid; I should have
 checked this a long time ago.
 
 Ahem. Anyway, it's really neat how particles couple to the A field and
-"strings" couple to the B field in BF theory.
+"strings" couple to the B field in $BF$ theory.
 
 This is vaguely reminiscent of how the A and B field form two parts of a
 "2-connection" - a gadget that lets you define parallel transport
@@ -412,7 +412,7 @@ volume honoring Ross Street's 60th birthday, available as
 The cool thing is that a pair consisting of an A field and a B field
 gives well-behaved parallel transport for curves and surfaces only if
 they satisfy an equation... which is *implied* by the basic equation of
-BF theory!
+$BF$ theory!
 
 The above paper is a summary of results without proofs. Before one can
 talk about 2-connections, one needs to understand 2-bundles, which are a
@@ -438,7 +438,7 @@ higher gauge theory, available at
 `http://math.ucr.edu/home/baez/barrett/`
 
 It'll be lots of fun if higher gauge theory and the work relating
-MacDowell-Mansouri gravity to BF theory fit together and develop in some
+MacDowell-Mansouri gravity to $BF$ theory fit together and develop in some
 nontrivial direction. But the funny thing is, I don't how they fit
 together yet.
 
@@ -478,7 +478,7 @@ not the one Perez and I use! Why not? Because we were trying to do
 something analogous to what people did for particles in 3d gravity.
 
 So, there's some relation between this "particles and strings coupled
-to 4d BF theory" business and the mathematics of higher gauge theory,
+to 4d $BF$ theory" business and the mathematics of higher gauge theory,
 but it's not the obvious one you might have guessed at first.
 
 Mysteries breed mysteries. For more musings on these topics, try my talk

@@ -185,7 +185,7 @@ objects:
 
 This is a gentler introduction to higher gauge theory than my previous
 talks, some of which I inflicted on you in ["Week 235"](#week235).
-It explains how BF theory can be seen as a higher gauge theory, and
+It explains how $BF$ theory can be seen as a higher gauge theory, and
 briefly touches on Urs Schreiber's work towards exhibiting Chern-Simons
 theory and $11$-dimensional supergravity as higher gauge theories. The
 webpage has links to more details.

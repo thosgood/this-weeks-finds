@@ -103,7 +103,7 @@ sort. I've advocated this point of view myself in an attempt to relate
 the loop representation of gravity to string theory (see
 ["Week 18"](#week18)). Here Reisenberger makes some progress in
 making this precise for some simpler theories analogous to gravity ---
-for example, BF theory.
+for example, $BF$ theory.
 
 And now for some things I *did* manage to finish up on my sabbatical:
 
