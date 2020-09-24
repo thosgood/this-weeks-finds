@@ -43,10 +43,10 @@ called finite ordinals, or "natural numbers".
 But there's a cute trick they probably didn't teach you then: we can
 *define* each ordinal to *be* the set of all ordinals less than it:
 
-- $0 = \{\}$            (since no ordinal is less than 0)
-- $1 = \{0\}$           (since only 0 is less than 1)
-- $2 = \{0,1\}$         (since 0 and 1 are less than 2)
-- $3 = \{0,1,2\}$       (since 0, 1 and 2 are less than 3)
+- $0 = \{\}$ (since no ordinal is less than 0)
+- $1 = \{0\}$ (since only 0 is less than 1)
+- $2 = \{0,1\}$ (since 0 and 1 are less than 2)
+- $3 = \{0,1,2\}$ (since 0, 1 and 2 are less than 3)
 
 and so on. It's nice because now each ordinal *is* a well-ordered set
 of the size that ordinal stands for. And, we can define one ordinal to
@@ -782,9 +782,9 @@ Jeffrey Winkler wrote:
 > number of points in a line or a plane, or in infinitely dimensional
 > Hilbert space, could be said to refer to something, but give an
 > example of something, other than one of the sets you're talking
-> about, which would have \varepsilon_0 elements. Where in mathematics or physics
+> about, which would have $\varepsilon_0$ elements. Where in mathematics or physics
 > would you ever use such a concept? If you never would, then what's
-> the point? In other words, is there anything where you could have \varepsilon_0
+> the point? In other words, is there anything where you could have $\varepsilon_0$
 > "many" of something, other than the sets themselves, and if there
 > isn't, then are these actually numbers? If nothing is ever "that
 > many", then is it a number? Of course, we've expanded the concept of
@@ -801,10 +801,10 @@ I replied:
 
 > Jeffery Winkler wrote:
 >
->      > Are the ridiculously infinite forms of infinity you discuss 
->      > in your article ever used for anything?
+> > Are the ridiculously infinite forms of infinity you discuss 
+> > in your article ever used for anything?
 >
-> Without \varepsilon_0 you can't prove that Goodstein sequences converge to
+> Without $\varepsilon_0$ you can't prove that Goodstein sequences converge to
 > zero --- an obviously true fact. As I mentioned, the main use of these
 > ordinals is to measure the strength of axiom systems. But, I didn't
 > write about these ordinals because they're useful. I wrote about them
@@ -821,14 +821,10 @@ I replied:
 > not any given fraction is in this subset. As a consequence, you can
 > also write a computer program that lists the fractions in this set.
 >
-> It's pretty obvious how to do this for \omega^2:
->
-> ::: {align="CENTER"}
-> ![](omega_squared.png)
-> :::
->
+> It's pretty obvious how to do this for $\omega^2$:
+> $$\includegraphics[max width=0.8\linewidth]{../images/omega_squared.png}$$
 > But you can do it for any one of the ordinals I mentioned! David
-> Madore has drawn a picture of \varepsilon_0, for example.
+> Madore has drawn a picture of $\varepsilon_0$, for example.
 >
 > So, for someone to reject these ordinals as "ridiculously infinite",
 > they must have some doubts about the legitimacy of computable subsets
@@ -842,9 +838,9 @@ I replied:
 > you might want to stop shy of this one. I stopped *far* short of this
 > one.
 >
->      > If they only refer to themselves, if the only thing these 
->      > infinite sets refer to is other infinite sets, then it's 
->      > pointless self-reflexive recursive circular reasoning. 
+> > If they only refer to themselves, if the only thing these 
+> > infinite sets refer to is other infinite sets, then it's 
+> > pointless self-reflexive recursive circular reasoning. 
 >
 > I hope you see that this is not true for the countable ordinals I was
 > discussing. I deliberately refrained from mentioning the large
@@ -862,14 +858,12 @@ And now for Kevin Buzzard's wonderful calculation! In the original
 version of this Week's Finds, I wrote:
 
 > if you start with the number 4, you get this Goodstein sequence:
->
-> 4, 26, 41, 60, 83, 109, 139, 173, 211, 253, 299, 348, \ldots
->
-> and apparently it takes about 3 \times 10^60605351^ steps to reach zero!
+> $$4, 26, 41, 60, 83, 109, 139, 173, 211, 253, 299, 348, \ldots$$
+> and apparently it takes about $3 \times 10^{60605351}$ steps to reach zero!
 
 I got this figure from the "National Curve Bank" website mentioned
 above, but I got the details wrong: they said the sequence "can
-increase for approximately 2.6 \times 10^60605351^ steps", whatever that
+increase for approximately $2.6 \times 10^{60605351}$ steps", whatever that
 means.
 
 Kevin Buzzard then sent me an email in which he worked out the number
@@ -878,154 +872,145 @@ on a different answer.
 
 Kevin writes:
 
-     You write this as if it were some kind of mystery. I remember working
-     out this number explicitly when I was a graduate student!  There is
-     some nice form for it, as I recall.  Let's see if I can reconstruct
-     what I did.
-
-     If I've understood the sequence correctly, it should be (where "n)" 
-     at the beginning of a line denotes we're working in base n on this 
-     line, so strictly speaking it's probably the $n-1$st term in the sequence)
-     
-     2) 2^2 = 4
-     3) 3^3-1 = 2.3^2+2.3+2 = 26 [note: base 3, ends in 2, and 3+2=5]
-     4) 2.4^2+2.4+1 = 41 [note: base 4, ends in 1, and 4+1=5]
-     5) 2.5^2+2.5 = 60 [we're at a limit ordinal here, note 3+2=4+1=5]
-     6) 2.6^2+2.6-1 = 2.6^2+6+5 = 83 [note: base 6, ends in 5]
-     7) 2.7^2+7+4 [note: base 7, ends in 4]
-     8) 2.8^2+8+3 [note: base 8, ends in 3, so we next get a limit ordinal at\ldots]
-     .
-     .
-     11) 2.11^2+11
-     12) 2.12^2+12-1 = 2.12^2+11
-     13) 2.13^2+10
-     .
-     .
-     .
-     23) 2.23^2 (as 23 = 12+11 = 13+10= \ldots)
-     24) 24^2+23.24+23
-     .
-     .
-     .
-     47) 47^2+23.47
-     48) 48^2+22.48+47
-     .
-     .
-     .
-     95) 95^2+22.95
-     96) 96^2+21.96+95
-     .
-     .
-     .
-     
-     and now we spot a pattern: we're just doubling---getting a limit ordinal
-     at bases 24-1, 48-1, 96-1 and so on. Let's look again at those limit
-     ordinals:
-     
-     47) 47^2+23.47
-     95) 95^2+22.95
-     .
-     .
-     .
-     24*2^t-1) (24*2^t-1)^2+(24-t)*(24*2^t-1)
-     .
-     .
-     .
-     
-     so the last one with a square in it will be the case t=24, corresponding 
-     to
-     
-     r) r^2
-     
-     where 
-     
-     r = 24 * 2^24 --- 1 = 402653183. 
-     
-     All those 24s, but I'm sure you'll not get carried away.  Let's define 
-
-     n = r+1 = 24 * 2^24 
-
-     and continue on. At the next step, the ordinal decreases sharply:
-
-     n)      n^2-1 = (n-1)n + (n-1)
-     n+1)   (n-1)(n+1) + (n-2) [note: now back to the usual tricks]
-     .
-     .
-     .
-     2n-1) (n-1)(2n-1)        [the next limit, at base 2n-1]
-     2n)   (n-2)(2n) + (2n-1)
-     .
-     .
-     .
-     4n-1) (n-2)(4n-1)
-     4n)   (n-2)(4n)+(4n-1)
-     .
-     .
-     .
-     
-     and the limit ordinals we're running into now (and we're going to
-     run into about n of them, which is a lot), are
-     
-     2n-1)      (n-1)(2n-1)
-     4n-1)      (n-2)(4n-1)
-     8n-1)      (n-3)(8n-1)
-     .
-     .
-     .
-     n2^s-1)    (n-s)(n2^s --- 1)
-     .
-     .
-     .
-     
-     and finally when s = $n-1$
-     
-     m)           m
-     
-     where m = n 2^{n-1} --- 1.  The sequence now looks like
-     
-     m+1) (m+1)-1 = m  
-     m+2)  m-1        
-     m+3)  m-2
-     .
-     .
-     .
-     2m+1) 0
-     
-     So the sequence becomes zero at base n2^n --- 1, where n = 24 * 2^24.
-     If 2^2 is the first term in the sequence, I guess this is
-     the (n2^n --- 2)th term.  I make this about 6.9*10^{121210694} -
-     curses, you got something else!  Actually, I have about the square
-     of what you wrote and hence I have most likely made a slip.  On the 
-     other hand you can see that it's not a mystery at all, it's just an
-     elementary exercise.  It really helps you learn about why the 
-     countable ordinals are well-ordered too: as you continue working
-     out the numbers, you always have this impending sense of doom 
-     telling you that your gut feeling that the sequence tends to 
-     infinity might just be wrong\ldots
-
-     Kevin
+> You write this as if it were some kind of mystery. I remember working
+> out this number explicitly when I was a graduate student!  There is
+> some nice form for it, as I recall.  Let's see if I can reconstruct
+> what I did.
+> 
+> If I've understood the sequence correctly, it should be (where "$n$" 
+> at the beginning of a line denotes we're working in base $n$ on this 
+> line, so strictly speaking it's probably the $n-1$st term in the sequence)
+> 
+> 2) $2^2 = 4$
+> 3) $3^3-1 = 2.3^2+2.3+2 = 26$ \[note: base 3, ends in 2, and 3+2=5\]
+> 4) $2\cdot4^2+2\cdot4+1 = 41$ \[note: base 4, ends in 1, and 4+1=5\]
+> 5) $2\cdot5^2+2\cdot5 = 60$ \[we're at a limit ordinal here, note 3+2=4+1=5\]
+> 6) $2\cdot6^2+2\cdot6-1 = 2\cdot6^2+6+5 = 83$ \[note: base 6, ends in 5\]
+> 7) $2\cdot7^2+7+4$ \[note: base 7, ends in 4\]
+> 8) $2\cdot8^2+8+3$ \[note: base 8, ends in 3, so we next get a limit ordinal at...\]
+> 
+> ...
+> 
+> 11) $2\cdot11^2+11$
+> 12) $2\cdot12^2+12-1 = 2\cdot12^2+11$
+> 13) $2\cdot13^2+10$
+> 
+> ...
+> 
+> 23) $2\cdot23^2$ (as $23 = 12+11 = 13+10= \ldots$)
+> 24) $24^2+23\cdot24+23$
+> 
+> ...
+> 
+> 47) $47^2+23\cdot47$
+> 48) $48^2+22\cdot48+47$
+> 
+> ...
+> 
+> 95) $95^2+22\cdot95$
+> 96) $96^2+21\cdot96+95$
+> 
+> ...
+> 
+> and now we spot a pattern: we're just doubling---getting a limit ordinal
+> at bases $24-1$, $48-1$, $96-1$ and so on. Let's look again at those limit
+> ordinals:
+> 
+> 47) $47^2+23\cdot47$
+> 95) $95^2+22\cdot95$
+> 
+> ...
+> 
+> $24\cdot2^{t-1}$) $(24\cdot2^{t-1})^2+(24-t)\cdot(24\cdot2^{t-1})$
+> 
+> ...
+> 
+> so the last one with a square in it will be the case $t=24$, corresponding 
+> to
+> 
+> $r$) $r^2$
+> 
+> where 
+> $$r = 24 \cdot 2^{24} - 1 = 402653183.$$
+> All those $24$s, but I'm sure you'll not get carried away.  Let's define 
+> $$n = r+1 = 24 \cdot 2^24$$
+> and continue on. At the next step, the ordinal decreases sharply:
+> 
+> $n$) $n^2-1 = (n-1)n + (n-1)$
+> $n+1$) $(n-1)(n+1) + (n-2)$ \[note: now back to the usual tricks\]
+> 
+> ...
+> 
+> $2n-1$) $(n-1)(2n-1)$   \[the next limit, at base $2n-1$\]
+> $2n$) $(n-2)(2n) + (2n-1)$
+> 
+> ...
+> 
+> $4n-1$) $(n-2)(4n-1)$
+> $4n$) $(n-2)(4n)+(4n-1)$
+> 
+> ...
+> 
+> and the limit ordinals we're running into now (and we're going to
+> run into about $n$ of them, which is a lot), are
+> 
+> $2n-1$) $(n-1)(2n-1)$
+> $4n-1$) $(n-2)(4n-1)$
+> $8n-1$) $(n-3)(8n-1)$
+> 
+> ...
+> 
+> $n2^s-1$) $(n-s)(n2^s - 1)$
+> 
+> ...
+> 
+> and finally when $s = n-1$
+> 
+> $m$) $m$
+> 
+> where $m = n 2^{n-1} - 1$.  The sequence now looks like
+> 
+> $m+1$) $(m+1)-1 = m$
+> $m+2$) $m-1$
+> $m+3$) $m-2$
+> 
+> ...
+> 
+> $2m+1$) $0$
+> 
+> So the sequence becomes zero at base $n2^n - 1$, where $n = 24 \cdot 2^24$.
+> If $2^2$ is the first term in the sequence, I guess this is
+> the $(n2^n - 2)$th term.  I make this about $6.9\times10^{121210694}$ ---
+> curses, you got something else!  Actually, I have about the square
+> of what you wrote and hence I have most likely made a slip.  On the 
+> other hand you can see that it's not a mystery at all, it's just an
+> elementary exercise.  It really helps you learn about why the 
+> countable ordinals are well-ordered too: as you continue working
+> out the numbers, you always have this impending sense of doom 
+> telling you that your gut feeling that the sequence tends to 
+> infinity might just be wrong...
+> 
+> Kevin
 
 So, in simple terms, the 4th Goodstein sequence starts out by shooting
-up faster and faster, reaching almost n^2 by the $n$th term, where
+up faster and faster, reaching almost $n^2$ by the $n$th term, where
+$$n = 24 \cdot 2^24^ = 402653184.$$
+By the $(2n)$th term it reaches almost $2n^2$.
 
-n = 24 · 2^24^ = 402653184.
+Then it grows by steps of $n-2$, and by the $(4n)$th term it reaches almost
+$4n^2$.
 
-By the (2n)th term it reaches almost 2n^2.
+Then it grows by steps of $n-3$, and by the $(8n)$th term it reaches almost
+$8n^2$.
 
-Then it grows by steps of $n-2$, and by the (4n)th term it reaches almost
-4n^2.
+And so on... it's slowing down now.
 
-Then it grows by steps of $n-3$, and by the (8n)th term it reaches almost
-8n^2.
-
-And so on\ldots it's slowing down now.
-
-After about the (2^n-2^n)th term it levels off completely, and by the
-(2^n-1^n)th term it equals almost 2^n-1^n. Note these numbers are the
+After about the $(2^{n-2}n)$th term it levels off completely, and by the
+$(2^{n-1}n)$th term it equals almost $2^{n-1}n$. Note these numbers are the
 same.
 
 From this point on the sequence decreases by one each time, and it hits
-zero at about the (2^n n)th term.
+zero at about the $(2^n n)$th term.
 
 So, it spends the last half of its life decreasing by one each time.
 Right before that, it spends a quarter of its life remaining constant.
@@ -1038,79 +1023,61 @@ In particular, it reaches its maximum and then levels off after about
 quarter of its life is done. It spends about the next quarter of its
 life being constant, and the next half going down one step at a time.
 
-Let's be a bit more precise. For this let's call the ith term of the
-4th Goodstein sequence a_i, where we count things so that
-
-    a1 = 4, a2 = 26, \ldots
-
-Then a_i first reaches its maximum value at exactly
-
-    i = (1/4) 24 224 2(24 224) --- 2 
-
-      ~  1.72 \times 10121210694
-
+Let's be a bit more precise. For this let's call the $i$th term of the
+4th Goodstein sequence $a_i$, where we count things so that
+$$a1 = 4, a2 = 26, \ldots$$
+Then $a_i$ first reaches its maximum value at exactly
+$$i = \frac14 \cdot 24\cdot 2^{24}\cdot 2^(24\cdot 2^{24}) - 2 \sim 1.72 \times 10^{121210694}$$
 Its value at this point is exactly
-
-    ai = (1/2) 24 224 2(24 224) --- 1
-
-      ~  3.45 \times 10121210694
-
+$$a_i = \frac12 \cdot 24\cdot 2^{24}\cdot 2^(24\cdot 2^{24}) - 1 \sim 3.45 \times 10^{121210694}$$
 It then stays constant for about twice as many more terms, and then goes
 to zero one step at a time, hitting zero precisely when
-
-    i = 24 224 2(24 224) --- 2
-      
-      ~ 6.89 \times 10121210694
-
+$$i = 24\cdot 2^{24}\cdot 2^(24\cdot 2^{24}) - 2 \sim 6.89 \times 10^{121210694}$$
 Believe me, it's a lot more fun to figure this stuff out than to read
 it.
 
 I was worried that Kevin and I had made a mistake until we found this
 thesis which gets the same answer (though the author starts the sequence
-at a_0 = 4, so it looks one off from ours):
+at $a_0 = 4$, so it looks one off from ours):
 
-27) Justin T. Miller, On the Independence of Goodstein's Theorem,
-Masters thesis, University of Arizona, 2001. Also available as
-`http://www.u.arizona.edu/~miller/thesis/thesis.html`
+27) Justin T. Miller, _On the Independence of Goodstein's Theorem_, Masters thesis, University of Arizona, 2001. Also available as `http://www.u.arizona.edu/~miller/thesis/thesis.html`
 
 Tim Chow had some comments about why the Feferman-Schütte ordinal is
 considered the first "impredicative" ordinal. He wrote:
 
 > John Baez wrote:
 >
->      >Logicians including Feferman and Schütte have carried out a detailed 
->      >analysis of this subject.  They know a lot about how much induction 
->      >up to different ordinals buys you.  And apparently, induction up to 
->      >\Gamma0 lets us prove the consistency of a system called "predicative
->      >analysis".  I don't understand this, nor do I understand the claim
->      >I've seen that \Gamma0 is the first ordinal that cannot be defined
->      >predicatively --- i.e., can't be defined without reference to itself.  
->      >Sure, saying \Gamma0 is the first solution of
->      >
->      >\varphix(0) = x
->      >
->      >is non-predicative.  But what about saying that \Gamma0 is the union 
->      >of all ordinals in the Veblen hierarchy?  What's non-predicative
->      >about that?
+> > Logicians including Feferman and Schütte have carried out a detailed 
+> > analysis of this subject.  They know a lot about how much induction 
+> > up to different ordinals buys you.  And apparently, induction up to 
+> > $\Gamma_0$ lets us prove the consistency of a system called "predicative
+> > analysis".  I don't understand this, nor do I understand the claim
+> > I've seen that $\Gamma_0$ is the first ordinal that cannot be defined
+> > predicatively --- i.e., can't be defined without reference to itself.
+> > Sure, saying $\Gamma_0$ is the first solution of
+> > $$\varphix(0) = x$$
+> > is non-predicative.  But what about saying that $\Gamma_0$ is the union 
+> > of all ordinals in the Veblen hierarchy?  What's non-predicative
+> > about that?
 >
 > The situation is somewhat akin to the situation with the Church-Turing
 > thesis, in that one is tentatively equating an informal notion
 > (predicativity or computability) with a precise mathematical notion.
 > Therefore there is no definitive answer to your question, and Feferman
 > himself has articulated potential objections to the "standard view"
-> that \Gamma_0 marks the boundary of predicativity.
+> that $\Gamma_0$ marks the boundary of predicativity.
 >
 > Having said that, I'll also say that one of the reasons for the
-> standard view is that \Gamma_0 marks the boundary of "autonomous
+> standard view is that $\Gamma_0$ marks the boundary of "autonomous
 > progressions" of arithmetical theories. The book by Torkel Franzen
 > that you cited is probably the most accessible introduction to this
 > subject. Roughly speaking, the idea is that if anyone fully accepts
-> first-order Peano arithmetic PA, then implicitly he accepts its
-> consistency Con(PA), as well as Con(PA+Con(PA)), etc. If one tries to
-> articulate exactly what is "implicitly" involved in accepting PA in
-> this sense, then one can make a plausibility argument that \Gamma_0 is a
+> first-order Peano arithmetic $\mathrm{PA}$, then implicitly he accepts its
+> consistency $\mathrm{Con}(\mathrm{PA})$, as well as $\mathrm{Con}(\mathrm{PA}+\mathrm{Con}(\mathrm{PA}))$, etc. If one tries to
+> articulate exactly what is "implicitly" involved in accepting $\mathrm{PA}$ in
+> this sense, then one can make a plausibility argument that $\Gamma_0$ is a
 > natural stopping point. I think you have a better shot at grasping the
-> underlying intuition via this approach than by staring at \Gamma_0 itself
+> underlying intuition via this approach than by staring at $\Gamma_0$ itself
 > and trying to figure out what is non-predicative about its definition.
 
 I replied asking if "etc." means there's one theory like this per
@@ -1123,7 +1090,7 @@ argument", and noted:
 > `http://www.cs.nyu.edu/pipermail/fom/2006-April/010472.html`\
 > `http://www.math.wustl.edu/~nweaver/conceptualism.html`
 >
-> He seems to claim that \Gamma_0 and even larger ordinals have predicative
+> He seems to claim that $\Gamma_0$ and even larger ordinals have predicative
 > definitions. However, I'm too ignorant to follow this debate. Usually
 > in physics I have a sense for when people are being reasonable even if
 > I don't follow the details. In this debate I can't even do that.
@@ -1132,20 +1099,20 @@ Tim Chow replied:
 
 > Let's look more closely at what the notion of "one theory like this
 > per ordinal" means. There's no difficulty figuring out what
-> "Con(PA)" means or how to express that statement in the first-order
-> language of arithmetic. Ditto with "Con(PA+Con(PA))". However, once
+> "$\mathrm{Con}(\mathrm{PA})$" means or how to express that statement in the first-order
+> language of arithmetic. Ditto with "$\mathrm{Con}(\mathrm{PA}+\mathrm{Con}(\mathrm{PA}))$". However, once
 > you start ascending the ordinal hierarchy, a difficulty appears. The
 > language of arithmetic doesn't let you talk about "ordinals"
 > directly---that's a set-theoretical concept. In order to express a
-> statement like "Con(T)" for some theory T, you need at minimum to be
+> statement like "$\mathrm{Con}(T)$" for some theory $T$, you need at minimum to be
 > able to give some sort of "recursive description" or "recursive
-> axiomatization" of T (where here I use the word "recursive" in the
+> axiomatization" of $T$ (where here I use the word "recursive" in the
 > technical sense of recursive function theory) in the first-order
 > language of arithmetic. This observation already yields the intuition
 > that we're not going to be able to ascend beyond the Church-Kleene
-> ordinal, because we won't even be able to figure out how to *say* "T
-> is consistent" for a theory T that requires that many iterations to
-> reach from PA.
+> ordinal, because we won't even be able to figure out how to *say* "$T$
+> is consistent" for a theory $T$ that requires that many iterations to
+> reach from $\mathrm{PA}$.
 >
 > There are other problems, though, that potentially get in the way
 > before we reach the Church-Kleene ordinal. Once we realize that what
@@ -1154,30 +1121,30 @@ Tim Chow replied:
 > as:
 >
 > 1. As we ascend the ordinal hierarchy, isn't it illegitimate to make
-> a jump to an ordinal \alpha unless we've already proved, at the level of
-> some ordinal \beta that we've already reached, that an ordinal of type \alpha
-> exists?
+>     a jump to an ordinal $\alpha$ unless we've already proved, at the level of
+>     some ordinal $\beta$ that we've already reached, that an ordinal of type $\alpha$
+>     exists?
 >
 > 2. And isn't it illegitimate to create sets by quantification over
-> things other than the natural numbers themselves and sets that we've
-> already created?
+>     things other than the natural numbers themselves and sets that we've
+>     already created?
 >
 > Condition 1 goes by the name of "autonomy" and condition 2 goes by
 > the name of "ramification." If one formalizes these notions in a
-> certain plausible manner, then one arrives at \Gamma_0 as the least upper
-> bound of theories that you can get to, starting with (for example) PA.
+> certain plausible manner, then one arrives at $\Gamma_0$ as the least upper
+> bound of theories that you can get to, starting with (for example) $\mathrm{PA}$.
 >
 > One can of course wonder whether 1 and 2 above really capture the
 > concept of "predicativity." Some secondary evidence has accumulated
 > of the following form: Some argument that intuitively seems to be
 > predicative but that is not immediately seen to be provable in the
 > Feferman-Schütte framework is shown, after some work, to indeed be
-> provable below \Gamma_0.
+> provable below $\Gamma_0$.
 >
 > It's still possible, of course, for someone---you mentioned Nik
 > Weaver--- to come along and argue that our intuitive notion of
 > predicativism, fuzzy though it is, can't possibly be identified with
-> the level \Gamma_0. The reason you can't seem to decide immediately
+> the level $\Gamma_0$. The reason you can't seem to decide immediately
 > whether Weaver's position is nonsensical or not is probably because
 > the critical questions are not mathematical but philosophical, and of
 > course it's usually harder to arrive at definitive answers in
@@ -1185,45 +1152,33 @@ Tim Chow replied:
 
 Finally, let me record a number of papers that treat notations for
 ordinals above the Feferman-Schütte ordinal. In the discussion of this
-Week's Finds on sci.math.research, Dave Renfro pointed out a really
+Week's Finds on `sci.math.research`, Dave Renfro pointed out a really
 nice readable paper on large countable ordinals which goes far beyond
 what I discussed:
 
-28) Hilbert Levitz, Transfinite ordinals and their notations: For the
-uninitiated, available at `http://www.cs.fsu.edu/~levitz/research.html`
+28) Hilbert Levitz, "Transfinite ordinals and their notations: For the uninitiated", available at `http://www.cs.fsu.edu/~levitz/research.html`
 
 This paper introduced the "Schütte Klammersymbole", which generalize
 the Veblen hierarchy:
 
-29) Kurt Schütte, Kennzeichnung von Orgnungszahlen durch rekursiv
-erklärte Funktionen, Math. Ann 127 (1954), 15-32.
+29) Kurt Schütte, "Kennzeichnung von Orgnungszahlen durch rekursiv erklärte Funktionen", _Math. Ann_ **127** (1954), 15--32.
 
 These papers discuss a general concept of "ordinal notation system",
 which includes the Schütte Klammersymbole and also something called the
-"n-ary Veblen hierarchy":
+"$n$-ary Veblen hierarchy":
 
-30) Anton \mathsf{Set}zer, An introduction to well-ordering proofs in
-Martin-Löf's type theory, in Twenty-Five Years of Constructive Type
-Theory, eds. G. Sambin and J. Smith, Clarendon Press, Oxford, 1998, pp.
-245-263. Also available at
-`http://www.cs.swan.ac.uk/~csetzer/index.html`
+30) Anton Setzer, "An introduction to well-ordering proofs in Martin-Löf's type theory", in _Twenty-Five Years of Constructive Type Theory_, eds. G. Sambin and J. Smith, Clarendon Press, Oxford, 1998, pp. 245--263. Also available at `http://www.cs.swan.ac.uk/~csetzer/index.html`
 
-Anton \mathsf{Set}zer, Ordinal systems, in \mathsf{Set}s and Proofs, Cambridge U. Press,
-Cambridge, 2011, pp. 301-331. Also available at
-`http://www.cs.swan.ac.uk/~csetzer/index.html`
+    Anton Setzer, "Ordinal systems", in _Sets and Proofs_, Cambridge U. Press, Cambridge, 2011, pp. 301-331. Also available at `http://www.cs.swan.ac.uk/~csetzer/index.html`
 
 This paper has a nice expository section on generalizations of the
 Veblen hierarchy:
 
-31) Jean H. Gallier, What's so special about Kruskal's theorem and
-the ordinal \Gamma_0? A survey of some results in proof theory, sec. 7, A
-glimpse at Veblen hierarchies, Ann. Pure Appl. Logic 53 (1991), 199-260.
-Also available at `http://www.cis.upenn.edu/~jean/gallier-old-pubs.html`
+31) Jean H. Gallier, "What's so special about Kruskal's theorem and the ordinal $\Gamma_0$? A survey of some results in proof theory", sec. 7, A glimpse at Veblen hierarchies, _Ann. Pure Appl. Logic_ **53** (1991), 199--260. Also available at `http://www.cis.upenn.edu/~jean/gallier-old-pubs.html`
 
 This paper is very useful, since it compares different notations:
 
-32) Larry W. Miller, Normal functions and constructive ordinal
-notations, J. Symb. Log. 41 (1976), 439-459.
+32) Larry W. Miller, "Normal functions and constructive ordinal notations", _J. Symb. Log._ **41** (1976), 439--459.
 
 You can get it through JSTOR if you have access to that.
 
@@ -1231,14 +1186,12 @@ This webpage gives a nice definition of "ordinal notation system" as a
 coalgebra of a certain functor --- nice if you understand categories, that
 is:
 
-33) Peter Hancock, Ordinal notation systems,
-`http://homepages.inf.ed.ac.uk/v1phanc1/ordinal-notations.html`
+33) Peter Hancock, "Ordinal notation systems", `http://homepages.inf.ed.ac.uk/v1phanc1/ordinal-notations.html`
 
 Kevin Watkins pointed out this website, which contains several papers on
 ordinal notations:
 
-34) Harold Simmons, Abstracts of papers and notes,
-`http://www.cs.man.ac.uk/~hsimmons/DOCUMENTS/papersandnotes.html`
+34) Harold Simmons, Abstracts of papers and notes, `http://www.cs.man.ac.uk/~hsimmons/DOCUMENTS/papersandnotes.html`
 
 Finally, the Wikipedia article on "large countable ordinals" has some
 references to books which are, alas, out of print.
