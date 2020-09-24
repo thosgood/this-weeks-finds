@@ -1,7 +1,7 @@
 # August 10, 2006 {#week237}
 
 This Week I'd like to talk about math books in Shanghai, and Urs
-Schreiber's blog entry on the gauge 3-group of M-theory. But first:
+Schreiber's blog entry on the gauge $3$-group of M-theory. But first:
 $$\includegraphics[max width=\linewidth]{../images/klein_quartic_egan.png}$$
 
 1) Greg Egan, "Klein's quartic equation", `http://gregegan.customer.netspace.net.au/SCIENCE/KleinQuartic/KleinQuarticEq.html`
@@ -252,63 +252,59 @@ some hand-wavy intuitions.
 
 Very roughly speaking, an connection on a bundle takes any path in
 spacetime
-
-                 f
-      x------------>-----y    
-
+$$x\xrightarrow{f}y$$
 and gives you an element of some *group*, which says how a particle
 would transform if you moved it along this path. This group could be
-\mathrm{U}(1) --- the group of phases --- or it could be something more fun, like a
+$\mathrm{U}(1)$ --- the group of phases --- or it could be something more fun, like a
 *nonabelian* group.
 
 If we categorify this concept, we get the concept of a connection on a
-"2-bundle" (which is more or less the same as a gerbe). Such a
-connection takes any path and gives you an *object* in some *2-group*,
+"$2$-bundle" (which is more or less the same as a gerbe). Such a
+connection takes any path and gives you an *object* in some *$2$-group*,
 but it also takes any surface like this:
-
-                  f
-        ----------->-----
-       /        ||       \
-      x         ||F       y  
-       \        \/       /  
-        ----------->-----
-                   g
-
-and gives you a *morphism* in this 2-group. You see, 2-group is a kind
+$$
+  \begin{tikzpicture}
+    \node (x) at (0,0) {$x$};
+    \node (y) at (2,0) {$y$};
+    \draw[->] (x) .. node[label={[label distance=-1mm]above:{\scriptsize$f$}}]{} controls (0.7,0.7) and (1.3,0.7) .. (y);
+    \draw[->] (x) .. node[label={[label distance=-1mm]below:{\scriptsize$g$}}]{}controls (0.7,-0.7) and (1.3,-0.7) .. (y);
+    \draw[double,double equal sign distance,-implies] (1,0.5) to node[label={[label distance=-1mm]right:{\scriptsize$F$}}]{} (1,-0.5);
+  \end{tikzpicture}
+$$
+and gives you a *morphism* in this $2$-group. You see, $2$-group is a kind
 of category that acts like a group, and a category has "objects" and
-"morphisms". The morphisms go between objects. For more on 2-groups,
+"morphisms". The morphisms go between objects. For more on $2$-groups,
 try:
 
-10) Higher-dimensional algebra V: 2-Groups, with Aaron D. Lauda, Theory
-and Applications of Categories 12 (2004), available at
-`http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html`   Also available
-as [math.QA/0307200](http://arxiv.org/abs/math.QA/0307200).
+10) "Higher-dimensional algebra V: $2$-Groups", with Aaron D. Lauda, _Theory and Applications of Categories_ **12** (2004), available at `http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html`. Also available as [`math.QA/0307200`](http://arxiv.org/abs/math.QA/0307200).
 
-If we categorify once more, we get connections on a "3-bundle", which
+If we categorify once more, we get connections on a "$3$-bundle", which
 is more or less the same thing as a "$2$-gerbe" --- unfortunately the
 numbering systems are off by one. This gives us objects, morphisms and
-2-morphisms in a *3-group*, which describe what happens when we move
+$2$-morphisms in a *$3$-group*, which describe what happens when we move
 particles, strings and $2$-branes.
 
 And so on:
 
-    group         point particles
-    2-group       point particles and strings
-    3-group       point particles, strings and $2$-branes
-    4-group       point particles, strings, $2$-branes and $3$-branes
+|    |    |
+| :- | :- |
+| group | point particles |
+| $2$-group | point particles and strings |
+| $3$-group | point particles, strings and $2$-branes |
+| $4$-group | point particles, strings, $2$-branes and $3$-branes |
 
 etc.
 
 So, if 11d supergravity is a twice categorified gauge theory, we need to
-know its symmetry *3-group*.
+know its symmetry *$3$-group*.
 
-But actually, since we're doing geometry, this 3-group should be a
-"Lie 3-group". In other words, very roughly speaking, a 3-group that
+But actually, since we're doing geometry, this $3$-group should be a
+"Lie $3$-group". In other words, very roughly speaking, a $3$-group that
 has a *manifold* of objects, a manifold of morphisms, and a manifold of
 2-morphisms, where all the operations are smooth.
 
 But actually, since we're doing supersymmetric geometry, we need a
-"Lie 3-supergroup"! In other words, very roughly speaking, a 3-group
+"Lie 3-supergroup"! In other words, very roughly speaking, a $3$-group
 that has a *supermanifold* of objects, a supermanifold of morphisms, and
 a supermanifold of $2$-morphisms, where all the operations are smooth.
 (Maybe I should say "supersmooth", just to be consistent.)
@@ -319,67 +315,62 @@ supersymmetry infests everything once you let it in the door, just like
 $n$-categories, and just like manifolds --- and now we're doing all three.
 
 In fact, nobody has even written down a rigorous definition of a Lie
-3-supergroup yet! But, Lie algebras are in some ways simpler than Lie
+$3$-supergroup yet! But, Lie algebras are in some ways simpler than Lie
 groups, and they're a good start, so we can be glad that people *do*
-know what a Lie 3-superalgebra is!
+know what a Lie $3$-superalgebra is!
 
-And Urs describes, in his blog, the relevant Lie 3-superalgebra for 11d
+And Urs describes, in his blog, the relevant Lie $3$-superalgebra for 11d
 supergravity!
 
 I would like to say more about this, but it's getting a bit tough
 trying to talk about this stuff in a fun, easily accessible style, and I
 have the feeling I'm no longer succeeding. In fact, I don't think I
 can give a "fun, easily accessible" description of this specific Lie
-3-superalgebra --- at least not yet. So, now I'll completely give up
+$3$-superalgebra --- at least not yet. So, now I'll completely give up
 trying to be comprehensible, and simply state some facts.
 
 As shown here:
 
-11) Higher-dimensional algebra VI: Lie 2-Algebras, with Alissa Crans,
-Theory and Applications of Categories 12 (2004), available at
-`http://www.tac.mta.ca/tac/volumes/12/15/12-15abs.html`   Also available
-as [math.QA/0307200](http://arxiv.org/abs/math.QA/0307200).
+11) "Higher-dimensional algebra VI: Lie $2$-Algebras", with Alissa Crans, _Theory and Applications of Categories_ **12** (2004), available at `http://www.tac.mta.ca/tac/volumes/12/15/12-15abs.html`   Also available as [`math.QA/0307200`](http://arxiv.org/abs/math.QA/0307200).
 
-the category of Lie $n$-algebras is equivalent to the category of L~\infty~
-algebras which as chain complexes have only n nonvanishing terms, the
-0th to the (n-1)st. L~\infty~ algebras are just algebras of Stasheff's L~\infty~
+the category of Lie $n$-algebras is equivalent to the category of $L_\infty$
+algebras which as chain complexes have only $n$ nonvanishing terms, the
+$0$th to the $(n-1)$st. $L_\infty$ algebras are just algebras of Stasheff's $L_\infty$
 operad in the category of chain complexes of vector spaces --- see
 ["Week 191"](#week191) and especially these:
 
-12) Martin Markl, Steve Schnider and Jim Stasheff, Operads in Algebra,
-Topology and Physics, AMS, Providence, Rhode Island, 2002.
+12) Martin Markl, Steve Schnider and Jim Stasheff, _Operads in Algebra, Topology and Physics_, AMS, Providence, Rhode Island, 2002.
 
-James Stasheff, Hartford/Luminy talks on operads, available at
-`http://www.math.unc.edu/Faculty/jds/operadchik.ps`
+    James Stasheff, Hartford/Luminy talks on operads, available at `http://www.math.unc.edu/Faculty/jds/operadchik.ps`
 
-But, we can replace vector spaces by Z/2-graded vector spaces and
-everything still works. Physicists call Z/2-graded vector spaces "super
-vector spaces". So, a "Lie $n$-superalgebra" is an algebra of the L~\infty~
+But, we can replace vector spaces by $\mathbb{Z}/2$-graded vector spaces and
+everything still works. Physicists call $\mathbb{Z}/2$-graded vector spaces "super
+vector spaces". So, a "Lie $n$-superalgebra" is an algebra of the $L_\infty$
 operad in the category of chain complexes of super vector spaces.
 
-Given this, to specify a Lie 3-superalgebra we first need to specify the
-0-chains, then the 1-chains, then the 2-chains.
+Given this, to specify a Lie $3$-superalgebra we first need to specify the
+$0$-chains, then the $1$-chains, then the $2$-chains.
 
 For the particular one Urs mentions, we have
 
-    {0-chains} = 11d Poincaré Lie superalgebra
-    {1-chains} = {0}
-    {2-chains} = R
+- $\{0\text{-chains}\}$ = 11d Poincaré Lie superalgebra
+- $\{1\text{-chains}\}$ = $\{0\}$
+- $\{2\text{-chains}\}$ = $\mathbb{R}$
 
-Here R is the real numbers, and this $1$-dimensional thing is what
-ultimately gives the $3$-form field A in 11d supergravity. As a vector
+Here $\mathbb{R}$ is the real numbers, and this $1$-dimensional thing is what
+ultimately gives the $3$-form field $A$ in 11d supergravity. As a vector
 space, the 11d Poincaré Lie superalgebra is the direct sum of an even
-part, which is the usual Poincaré Lie algebra \mathfrak{iso}(11,1), and an odd
-part, which is the $32$-dimensional real spinor rep of \mathfrak{so}(11,1). These
+part, which is the usual Poincaré Lie algebra $\mathfrak{iso}(11,1)$, and an odd
+part, which is the $32$-dimensional real spinor rep of $\mathfrak{so}(11,1)$. These
 give the graviton (or more precisely the Levi-Civita connection) and the
 gravitino in 11d supergravity.
 
 Next we need to make this stuff into a chain complex. That's easy: the
 differential *has* to be zero.
 
-Next, we need to specify the L~\infty~ structure on this chain complex.
+Next, we need to specify the $L_\infty$ structure on this chain complex.
 First, we need a binary bracket operation, like in an ordinary Lie
-superalgebra. The bracket of 0-chains is the usual bracket in the 11d
+superalgebra. The bracket of $0$-chains is the usual bracket in the 11d
 Poincaré Lie superalgebra. All the other binary brackets are zero.
 
 Then, we need a ternary bracket operation, which expresses how the
@@ -387,7 +378,7 @@ Jacobi identity holds only up to chain homotopy. This is zero.
 
 Then, we need a quaternary bracket operation (since that chain homotopy
 satisfies its own identity only up to chain homotopy). This is nonzero:
-when we take the quaternary bracket of four 0-chains we get a 2-chain,
+when we take the quaternary bracket of four $0$-chains we get a $2$-chain,
 and there's a nontrivial way to define this! This is the interesting
 bit, since ultimately it relates the graviton/gravitino to the $3$-form
 field.
@@ -395,33 +386,29 @@ field.
 How do we get that quaternary bracket? Well, here's where things get
 funky: D'Auria and Fré dreamt up a formula that gives a number from 2
 spinors and 2 vectors:
-
-(\psi, \varphi, v, w) \mapsto \psi* \Gamma^ab^ \varphi v~a~ w~b~
-
-where that "\psi*" should really be "\psi-bar". And, magically, in 11
-dimensions this gives a 4-cocycle on the Poincaré Lie superalgebra! The
+$$(\psi, \varphi, v, w) \mapsto \overline{\psi} \Gamma^{ab} \varphi v_a w_b.$$
+And, magically, in 11
+dimensions this gives a $4$-cocycle on the Poincaré Lie superalgebra! The
 proof of this uses some Fierz identity in 11 dimensions:
 
-12) R. D'Auria and Pietro Fré, Geometric supergravity in D = 11 and
-its hidden supergroup, Nucl. Phys. B201 (1982), 101-140. Also available
-at `http://www.math.uni-hamburg.de/home/schreiber/sdarticle.pdf`
+12) R. D'Auria and Pietro Fré, "Geometric supergravity in $D = 11$ and its hidden supergroup", _Nucl. Phys._ **B201** (1982), 101--140. Also available at `http://www.math.uni-hamburg.de/home/schreiber/sdarticle.pdf`
 
-And, from HDA6 we know that the 4-cocycle condition is just what's
+And, from HDA6 we know that the $4$-cocycle condition is just what's
 needed to make the quaternary bracket satisfy the identity we need for a
-Lie 3-superalgebra. (Alissa and I just did the calculation for Lie
-n-algebras, but the "super" stuff should work too with a few signs
+Lie $3$-superalgebra. (Alissa and I just did the calculation for Lie
+$n$-algebras, but the "super" stuff should work too with a few signs
 thrown in.)
 
 So, this is all very cool, but I need to understand Fierz identities in
-different dimensions to see what if anything is special to 11d here -
+different dimensions to see what if anything is special to 11d here ---
 or, alternatively, work out the cohomology of Poincaré Lie
 superalgebras, to see when they can be deformed to Lie $n$-superalgebras.
 Sounds like a lot of work --- maybe someone already did it. Actually
 D'Auria and Fre make it look like a matter of understanding tensor
-products of irreps of \mathfrak{so}(n,1), which is not bad. A worthwhile project in
+products of irreps of $\mathfrak{so}(n,1)$, which is not bad. A worthwhile project in
 any event.
 
-I also need to understand what all this has to do with \mathrm{E}_8. For that
+I also need to understand what all this has to do with $\mathrm{E}_8$. For that
 the paper by Diaconescu, Freed and Moore should help.
 
 Well, this is just the beginning, but Urs explains the rest.
@@ -429,22 +416,22 @@ Well, this is just the beginning, but Urs explains the rest.
 ------------------------------------------------------------------------
 
 **Addenda**: I thank Noam Elkies for a correction. Aaron Bergman has
-this to say about \mathrm{E}_8 and M-theory:
+this to say about $\mathrm{E}_8$ and M-theory:
 
 > John Baez wrote:
 >
->     > I also need to understand what all this has to do with E8.
+> > I also need to understand what all this has to do with $\mathrm{E}_8$.
 >
-> \mathrm{E}_8 might not have much of anything to do with this. As mentioned in
-> Diaconescu, Freed and Moore, \mathrm{E}_8 appears to function solely as a
-> convenient stand-in for K(Z,3).
+> $\mathrm{E}_8$ might not have much of anything to do with this. As mentioned in
+> Diaconescu, Freed and Moore, $\mathrm{E}_8$ appears to function solely as a
+> convenient stand-in for $K(\mathbb{Z},3)$.
 >
-> On the other hand, the split form of the E-series (up to E~11~ if
+> On the other hand, the split form of the $\mathrm{E}$-series (up to $\mathrm{E}_{11}$ if
 > you're feeling particularly speculative) is known to show up in
 > describing the fields of 11D SUGRA, but the I don't think anyone
-> knows of a connection between the two \mathrm{E}_8s. Just to add to the fun,
-> \mathrm{E}_8 gauge fields also show up on the fixed points of M-theory on
-> S^1/Z_2 giving the \mathrm{E}_8 \times \mathrm{E}_8 heterotic string.
+> knows of a connection between the two $\mathrm{E}_8$s. Just to add to the fun,
+> $\mathrm{E}_8$ gauge fields also show up on the fixed points of M-theory on
+> $S^1/\mathbb{Z}_2$ giving the $\mathrm{E}_8 \times \mathrm{E}_8$ heterotic string.
 >
 > Aaron
 
@@ -452,21 +439,21 @@ Urs Schreiber replied:
 
 > Aaron Bergman wrote:
 >
->      > E8 gauge fields also show up on the fixed points of 
->      > M-theory on S1/Z2 giving the E8 \times E8 heterotic string.
+> > $\mathrm{E}_8$ gauge fields also show up on the fixed points of 
+> > M-theory on $S^1/\mathbb{Z}_2$ giving the $\mathrm{E}_8 \times \mathrm{E}_8$ heterotic string.
 >
 > The topological part of the membrane action involves the integral of
 > the sugra $3$-form over the worldvolume. By DFW, part of that $3$-form can
-> be thought of as an \mathrm{E}_8 CS $3$-form.
+> be thought of as an $\mathrm{E}_8$ CS $3$-form.
 >
-> So part of the membrane action looks similar to an \mathrm{E}_8 CS-theory over
+> So part of the membrane action looks similar to an $\mathrm{E}_8$ CS-theory over
 > the worldvolume.
 >
-> Now let the membrane have a boundary. A bulk \mathrm{E}_8 CS-theory is well
-> known to induce an \mathrm{E}_8 WZW theory on the boundary.
+> Now let the membrane have a boundary. A bulk $\mathrm{E}_8$ CS-theory is well
+> known to induce an $\mathrm{E}_8$ WZW theory on the boundary.
 >
-> Could this be the connection between the DWF \mathrm{E}_8 and the
-> Horava-Witten \mathrm{E}_8?
+> Could this be the connection between the DWF $\mathrm{E}_8$ and the
+> Horava-Witten $\mathrm{E}_8$?
 >
 > I have asked this question before:
 > `http://golem.ph.utexas.edu/string/archives/000791.html`. Jarah then
@@ -474,20 +461,20 @@ Urs Schreiber replied:
 > to me yet.
 >
 > One problem is that in CS-theory we vary the connection, while in the
-> topological membrane the \mathrm{E}_8 connection on the background is fixed
+> topological membrane the $\mathrm{E}_8$ connection on the background is fixed
 > and we vary the embedding by which we pull it back to the worldvolume.
-> Under suitable assumptions that might be equivalent to varying an \mathrm{E}_8
+> Under suitable assumptions that might be equivalent to varying an $\mathrm{E}_8$
 > connection on the worldvolume itself?
 
 Aaron Bergman replied:
 
 > Urs Schreiber wrote:
 >
->      > Now let the membrane have a boundary. A bulk E8 CS-theory is
->      > well known to induce an E8 WZW theory on the boundary.
->      >
->      > Could this be the connection between the DWF E8 and the
->      > Horava-Witten E8?
+> > Now let the membrane have a boundary. A bulk $\mathrm{E}_8$ CS-theory is
+> > well known to induce an $\mathrm{E}_8$ WZW theory on the boundary.
+> >
+> > Could this be the connection between the DWF $\mathrm{E}_8$ and the
+> > Horava-Witten $\mathrm{E}_8$?
 >
 > A similar observation was made by Horava way back in
 > [`arXiv:hep-th/9712130`](http://arxiv.org/abs/hep-th/9712130) (in the
