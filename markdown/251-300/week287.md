@@ -228,9 +228,9 @@ where p ranges over all natural numbers. Linear combinations of guys of
 this sort for a particular fixed p are called "p-forms". We also say
 they're "of degree p". And the algebra of differential forms obeys
 
-νω = (-1)^pq^ ων
+\nuω = (-1)^pq^ ω\nu
 
-whenever ν is of degree p and ω is of degree q. This is what we mean by
+whenever \nu is of degree p and ω is of degree q. This is what we mean by
 saying \Omega(A) is "graded commutative".
 
 But the algebra of differential forms is better than a mere graded
@@ -253,9 +253,9 @@ for any differential form ω. Why? Well, I'll let you check it, but
 I'll give you a hint: the key step is to show that d1 = 0. And third,
 it implies this version of the product rule:
 
-d(νω) = (dν) ω + (-1)^p^ νdω
+d(\nuω) = (d\nu) ω + (-1)^p^ \nudω
 
-for any p-form ν and q-form ω. Again the proof is a little calculation.
+for any p-form \nu and q-form ω. Again the proof is a little calculation.
 
 We can summarize these three facts, together with the linearity of d, by
 saying that differential forms are a "differential graded commutative

@@ -118,7 +118,7 @@ equivalent, roughly this:
 > -   Categorification of quantum \mathfrak{sl}(2),
 > -   Categorification of one half of the quantum group,
 > -   Categorification of quantum \mathfrak{sl}(n),
-> -   Cyclotomic quotients of the rings R(ν).
+> -   Cyclotomic quotients of the rings R(\nu).
 >
 > Available at `http://www.math.columbia.edu/~lauda/talks/kyoto/`
 >
