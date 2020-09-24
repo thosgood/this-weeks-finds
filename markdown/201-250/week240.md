@@ -489,12 +489,15 @@ However, every object is isomorphic to one in "tree form". For
 example, the above object is isomorphic to
 $$x x^{x x^{x^x}} x^{x x^{x^x}}$$
 which we can draw as a tree:
-       x     x
-       |    /
-     x x x x 
-      | |/
-     x x x
-      |/
+$$
+  \begin{tikzpicture}[xscale=1.5]
+    \draw[thick] (0,0) to (-0.5,1) node[fill=white]{$x$};
+    \draw[thick] (0,1) to (-0.5,2) node[fill=white]{$x$};
+    \draw[thick] (0,0) to (0,1) node[fill=white]{$x$} to (0,2) node[fill=white]{$x$} to (0,3) node[fill=white]{$x$};
+    \draw[thick] (0.5,1) to (0.5,2) node[fill=white]{$x$};
+    \draw[thick] (0,0) to (0.5,1) node[fill=white]{$x$} to (1,2) node[fill=white]{$x$} to (1.5,3) node[fill=white]{$x$};
+  \end{tikzpicture}
+$$
 
 Dolan and Trimble consider the set of elements of any object in
 $\mathrm{CCC}[x]$, where an "element" is a morphism from the terminal object,

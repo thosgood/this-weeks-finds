@@ -4,7 +4,7 @@ This week I'd like to talk about a paper by Jeffrey Morton. Jeff is a
 grad student now working with me on topological quantum field theory and
 higher categories. I've already mentioned his work on categorified
 algebra and quantum mechanics in ["Week 236"](#week236). He'll be
-be finishing his Ph.D. thesis in the spring of 2007 - and as usual, that
+be finishing his Ph.D. thesis in the spring of 2007 --- and as usual, that
 means he's already busy applying for jobs.
 
 As all you grad students reading this know, applying for jobs is pretty
@@ -16,7 +16,7 @@ the financial industry seemed scarcely more appealing: less time to
 think about math, and less ice cream too.
 
 Luckily things worked out for me... and I'm sure they'll work out for
-Jeff and my other student finishing up this year - Derek Wise, who is
+Jeff and my other student finishing up this year --- Derek Wise, who is
 working on Cartan geometry and MacDowell-Mansouri gravity.
 
 But, to help them out a bit, I'd like to talk about their work. This
@@ -57,12 +57,12 @@ It's gorgeous, but it takes some work to figure out what's going on!
 The blue stuff in the background is Saturn, with lines created by
 shadows of rings. The bright blue-white stripe near Mimas is sunlight
 shining through a break in the rings called the "Cassini division".
-The brownish stuff near the bottom is the A ring - you can see right
+The brownish stuff near the bottom is the A ring --- you can see right
 through it. Above it there's a break and a thinner ring called the F
 ring. Below it is the Cassini division itself.
 
 This is just one of many photos taken by Cassini and Huyghens, the probe
-that Cassini dropped onto Saturn's moon Titan - see
+that Cassini dropped onto Saturn's moon Titan --- see
 ["Week 210"](#week210) for more on that. You can see more of these
 photos here:
 
@@ -76,7 +76,7 @@ Alas, not everyone recognizes this. An expensive American program to set
 up a base on the Moon, perhaps as a stepping stone to a manned mission
 to Mars, is starting to drain money from more exciting unmanned
 missions. NASA guesses this program will cost \$104 billion up to the
-time when we land on the Moon - again - in 2020. By 2024, the Government
+time when we land on the Moon --- again --- in 2020. By 2024, the Government
 Accounting Office guesses the price will be \$230 billion. By
 comparison, the Cassini-Huygens mission cost just about \$3.3 billion.
 
@@ -96,7 +96,7 @@ established businesses. The next step may be tourism. Dennis Tito,
 Gregory Olsen and Mark Shuttleworth have already paid the Russian
 government \$20 million each to visit the International Space Station.
 This orbits at an altitude of about 350 kilometers, in the upper
-"thermosphere" - the layer of the Earth's atmosphere where gases get
+"thermosphere" --- the layer of the Earth's atmosphere where gases get
 ionized by solar radiation.
 
 If this is too pricey for you, wait a few years. Richard Branson's
@@ -219,7 +219,7 @@ This is an orbiting observatory with three telescopes, designed to see
 hard X-rays. It could conduct a thorough survey of black hole candidates
 throughout the universe. It could study relativistic jets of particles
 from the cores of active galaxies (which are probably also black holes).
-And, it could study young supernova remnants - hot new neutron stars.
+And, it could study young supernova remnants --- hot new neutron stars.
 
 NASA suddenly canceled work on NuStar in February 2006.
 
@@ -236,7 +236,7 @@ not round, and it's all rock. A certain group of stony meteorites
 called "[HED meteorites](http://en.wikipedia.org/wiki/HED_meteorite)"
 are believed to be pieces of Vesta!
 
-NASA cancelled the Dawn mission in March 2006 - but later that month,
+NASA cancelled the Dawn mission in March 2006 --- but later that month,
 they changed their minds.
 
 It's depressing to contemplate all the wonderful things we could miss
@@ -260,7 +260,7 @@ It was taken not with light, but with *neutrinos*. It was made at the
 big neutrino observatory in Japan, called Super-Kamiokande. It took
 about 504 days and nights to make.
 
-That's right - nights! Neutrinos go right through the Earth.
+That's right --- nights! Neutrinos go right through the Earth.
 
 As you probably know, neutrinos oscillate between three different kinds,
 but only electron neutrinos are easy to detect, so we see about third as
@@ -290,7 +290,7 @@ available as
 People have been talking a long time about topological quantum field
 theory and higher categories. The idea is that categories, $2$-categories,
 3-categories and the like can describe how manifolds can be chopped into
-little pieces - or more precisely, how these little pieces can be glued
+little pieces --- or more precisely, how these little pieces can be glued
 together to form manifolds. Then the problem of doing quantum field
 theory on some manifold can be reduced to the problem of doing it on
 these pieces and gluing the results together. This works easiest if the
@@ -309,7 +309,7 @@ these:
 give a weak double category called nCob_2. The proof is a cool mix of
 topology and higher category theory. He then shows that this particular
 weak double category can be reinterpreted as something a bit more
-familiar - a "weak $2$-category".
+familiar --- a "weak $2$-category".
 
 In the rest of his thesis, Jeff will use this formalism to construct
 some examples of "extended TQFTs", which are roughly maps of weak
@@ -562,7 +562,7 @@ isomorphism. But, it turns out that this requires us to introduce bigons
 as well! The reason is fascinating but too subtle to explain here. I
 didn't understand it until Jeff pointed it out. But, it turns out that
 Dominic Verity had already introduced the right concept of weak double
-category - a gadget with both squares and bigons - in *his* Ph.D. thesis
+category --- a gadget with both squares and bigons --- in *his* Ph.D. thesis
 a while back:
 
 13) Dominic Verity, Enriched categories, internal categories, and
@@ -610,7 +610,7 @@ both squares and bigons, so they're like a blend of double categories
 and bicategories. It's a slightly unfortunate term, since experts know
 that a double category is a category object in Cat, but Verity's double
 bicategories are not bicategory objects in BiCat. Morton mainly uses
-Verity's double bicategories - but in the proof of his big theorem, he
+Verity's double bicategories --- but in the proof of his big theorem, he
 also uses bicategory objects in BiCat.
 
 There's a lot more to say, but I'll stop here and let you read the
