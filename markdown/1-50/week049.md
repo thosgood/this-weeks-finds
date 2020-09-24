@@ -86,7 +86,7 @@ hard at work; he will be goofing off, reading the news.)
 He and I have have written one paper so far espousing our philosophy
 concerning $n$-categories, topology, and physics:
 
-2) "Higher-dimensional algebra and topological quantum field theory", by John Baez and James Dolan, Jour. Math. Phys. 36 (1995), 6073-6105. Also available as [`arXiv:q-alg/9503002`](http://arxiv.org/abs/q-alg/9503002).
+2) "Higher-dimensional algebra and topological quantum field theory", by John Baez and James Dolan, Jour. Math. Phys. 36 (1995), 6073-6105. Also available as [`q-alg/9503002`](http://arxiv.org/abs/q-alg/9503002).
 
 One of the main themes of this paper is what I sometimes jokingly call
 the "periodic table". Say you have an $(n+k)$-category with only one

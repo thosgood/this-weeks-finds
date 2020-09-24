@@ -218,12 +218,12 @@ quantum group representations given by Crane and Frenkel (see
 ["Week 2"](#week2)).
 
 3) Adrian Ocneanu, "A note on simplicial dimension shifting", available
-in AMSLaTeX as [`arXiv:hep-th/9302028`](http://arxiv.org/abs/hep-th/9302028).
+in AMSLaTeX as [`hep-th/9302028`](http://arxiv.org/abs/hep-th/9302028).
 
 Ouch! This paper claims to show that the very charming 4d TQFT
 constructed by Crane and Yetter in "A categorical construction of 4d
 topological quantum field theories"
-([`arXiv:hep-th/9301062`](http://arxiv.org/abs/hep-th/9301062)) is
+([`hep-th/9301062`](http://arxiv.org/abs/hep-th/9301062)) is
 trivial! In particular, he says the resulting invariant of compact
 oriented 4-manifolds is identically equal to 1. If so, it's back to the
 drawing board. Crane and Yetter took the 3d TQFT coming from $\mathfrak{sl}_q(2)$ at
@@ -245,17 +245,17 @@ after all. In late March I will go to the Conference on Quantum Topology
 thrown by Crane and Yetter (at Kansas State U. at Manhattan), and I'm
 sure everyone will try to thrash this stuff out.
 
-4) Abhay Ashtekar and Jerzy Lewandowski, "Representation theory of analytic holonomy C\*-algebras", available as [`arXiv:gr-qc/9311010`](http://arxiv.org/abs/gr-qc/9311010).
+4) Abhay Ashtekar and Jerzy Lewandowski, "Representation theory of analytic holonomy C\*-algebras", available as [`gr-qc/9311010`](http://arxiv.org/abs/gr-qc/9311010).
 
 This paper is a follow-up of the paper
 
-5) Abhay Ashtekar and Chris Isham, "Representations of the holonomy algebras of gravity and non-Abelian gauge theories", _Journal of Classical and Quantum Gravity_ **9** (1992), 1069--1100. Also available as [`arXiv:hep-th/9202053`](http://arxiv.org/abs/hep-th/9202053).
+5) Abhay Ashtekar and Chris Isham, "Representations of the holonomy algebras of gravity and non-Abelian gauge theories", _Journal of Classical and Quantum Gravity_ **9** (1992), 1069--1100. Also available as [`hep-th/9202053`](http://arxiv.org/abs/hep-th/9202053).
 
 and sort of complements another,
 
 6) John Baez, "Link invariants, holonomy algebras and functional
 integration", available as
-[`arXiv:hep-th/9301063`](http://arxiv.org/hep-th/9301063).
+[`hep-th/9301063`](http://arxiv.org/hep-th/9301063).
 
 The idea here is to provide a firm mathematical foundation for the loop
 variables representation of gauge theories, particularly quantum

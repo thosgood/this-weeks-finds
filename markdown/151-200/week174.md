@@ -242,7 +242,7 @@ $$
       \strand[thick] (1,2)
         to [out=down,in=down,looseness=2] (2,2);
       \strand[thick] (1.5,0)
-        to [out=up,in=down](3,2);
+        to [out=up,in=down] (3,2);
       \strand[thick] (2.5,0)
         to [out=up,in=up,looseness=2] (3.5,0);
       \strand[thick] (4.5,0)
@@ -363,22 +363,47 @@ They mainly rely on another way of thinking about $\operatorname{Hom}(a,a)$: it'
 category of order-preserving maps between finite ordinals!
 
 For example, these black tiger stripes on an orange background:
-
-             0          1           2                     3
-        --------------------------------------------------------
-       |  \     \   a |   |  a  /      /               |    |   |
-       |   \     \    |   |    /      /       _        |    |   |
-       |    \     \   |   |   /      /       / \       |    |   |
-       |     \     \_/     \_/      /   a   /   \      |    |   |
-       |      \                    /        \    \     |    |   |
-       | a     \                  /          \    \   /    /    |
-       |        \       b        /     _      \    \_/    /     |
-       |         \              /     / \      \         /      |
-       |          \            /     / b \      \   b   /   a   |
-       |           \          /     /     \      \     |        |
-        --------------------------------------------------------
-                         0             1            2
-
+$$
+  \begin{tikzpicture}[xscale=0.8,yscale=1.2]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down] (-2,2);
+      \strand[thick] (-1,2)
+        to [out=down,in=down,looseness=2] (0,2);
+      \strand[thick] (1,2)
+        to [out=down,in=down,looseness=2] (2,2);
+      \strand[thick] (1.5,0)
+        to [out=up,in=down](3,2);
+      \strand[thick] (2.5,0)
+        to [out=up,in=up,looseness=2] (3.5,0);
+      \strand[thick] (5,0)
+        to [out=up,in=down] (4.5,1)
+        to [out=up,in=up,looseness=1.5] (5.17,1)
+        to [out=down,in=down,looseness=1.5] (5.83,1)
+        to (5.83,2);
+      \strand[thick] (6,0)
+        to [out=up,in=down] (6.5,1)
+        to (6.5,2);
+    \end{knot}
+    \node at (-1.7,0.5) {$a$};
+    \node at (-0.5,1.75) {$a$};
+    \node at (1.5,1.75) {$a$};
+    \node at (0.5,1) {$b$};
+    \node at (3.5,1) {$a$};
+    \node at (3,0.25) {$b$};
+    \node at (5.5,0.25) {$b$};
+    \node at (6.6,0.3) {$a$};
+    %
+    \draw[thick] (-2.5,0) rectangle ++(9.5,2);
+    \node at (0.5,-0.25) {$0$};
+    \node at (3,-0.25) {$1$};
+    \node at (5.5,-0.25) {$2$};
+    \node at (-1.5,2.25) {$0$};
+    \node at (0.5,2.25) {$1$};
+    \node at (2.5,2.25) {$2$};
+    \node at (6.17,2.25) {$3$};
+  \end{tikzpicture}
+$$
 correspond to the order-preserving map
 $$f\colon \{0,1,2,3\} \to \{0,1,2\}$$
 with
