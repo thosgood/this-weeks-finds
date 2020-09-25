@@ -6,6 +6,7 @@
 - emails
     + 215
     + 203
+- **do images with `![](file.jpg){ width=80% }`**
 - fix margins on `{quote}` **OR** replace `mdframed` with something else
     + check that 151-200.tex works...
 - **diagrams**

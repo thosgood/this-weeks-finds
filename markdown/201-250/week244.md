@@ -3,33 +3,30 @@
 In January I spent a week at this workshop at the Fields Institute in
 Toronto:
 
-1) Higher Categories and Their Applications,
-`http://math.ucr.edu/home/baez/fields/`
+1) _Higher Categories and Their Applications_, `http://math.ucr.edu/home/baez/fields/`
 
-It was really fun - lots of people working on $n$-categories were there.
+It was really fun --- lots of people working on $n$-categories were there.
 I'll talk about it next time. But as usual, more happens at a fun
 conference than can possibly be reported. So, this time I'll only talk
 about a conversation I had in a café before the conference started!
 
 But first, here's a fun way to challenge your math pals:
 
-Q: When the first calculus textbook was written - and in what language?
-
-A: In 1530, in Malayalam - a south Indian language!
+> Q: When the first calculus textbook was written --- and in what language?
+> 
+> A: In 1530, in Malayalam --- a south Indian language!
 
 This book is called the *Ganita Yuktibhasa*, or "compendium of
 astronomical rationales". It was written by Jyesthadeva, an astronomer
-and mathematician from Kerala - a state on the southwest coast of India.
+and mathematician from Kerala --- a state on the southwest coast of India.
 It summarizes and explains the work of many researchers of the Kerala
 school, which flourished from the 1400's to the 1600's. But it's
 unique for its time, since it contains proofs of many results.
 
 For example, it has a proof that
-
-\pi /4 = 1 - 1/3 + 1/5 - 1/7 + 1/9 - ...
-
+$$\frac{\pi}{4} = 1 - \frac13 + \frac15 - \frac17 + \frac19 - \ldots$$
 Of course, this result isn't stated in modern notation! It's actually
-stated as a poem - a recipe for the circumference of a circle, which in
+stated as a poem --- a recipe for the circumference of a circle, which in
 translation goes something like this:
 
 > *Multiply the diameter by four. Subtract from it and add to it
@@ -37,62 +34,46 @@ translation goes something like this:
 > by the odd numbers 3, 5, etc.*
 
 The proof sounds nice! Jyesthadeva starts with something like this:
-
-\pi /4 = lim~N\ \to\ \infty~ (1/N) \sum~n=1~^N^ 1/(1 + (n/N)^2)
-
+$$\frac{\pi}{4} = \lim_{N\to\infty} \frac{1}{N} \sum_{n=1}^N \frac{1}{1 + \left(\frac{n}{N}\right)^2}$$
 In modern terms, the right-hand side is just the integral
-
-\int_0^1 dx/(1 + x^2)
-
-You can use geometry to see this equals \pi /4. Then, as far as I can tell,
+$$\int_0^1 \frac{dx}{1 + x^2}$$
+You can use geometry to see this equals $\pi/4$. Then, as far as I can tell,
 he writes
-
-1/(1 + (n/N)^2) = 1 - (n/N)^2 + (n/N)^4 - ...
-
+$$\frac{1}{1 + \left(\frac{n}{N}\right)^2} = 1 - \left(\frac{n}{N}\right)^2 + \left(\frac{n}{N}\right)^4 - \ldots$$
 and notes that
-
-1^k^ + 2^k^ + ... + N^k^ \~ N^k+1^/(k+1)
-
-for large N. This gives
-
-\pi /4 = 1 - 1/3 + 1/5 - 1/7 + ...
-
+$$1^k + 2^k + \ldots + N^k \sim \frac{N^{k+1}}{k+1}$$
+for large $N$. This gives
+$$\frac{\pi}{4} = 1 - \frac13 + \frac15 - \frac17 + \ldots$$
 Voila!
 
 In fact, this result goes back to Madhava, an amazing mathematician from
 Kerala who lived much earlier, from 1350 to 1425. What's even more
 impressive is that Madhava also knew a formula equivalent to the more
 general result
-
-arctan(x) = x - x^3/3 + x^5/5 - x^7/7 + ...
-
-He used this to compute \pi  to 11 decimal places!
+$$\arctan(x) = x - \frac{x^3}{3} + \frac{x^5}{5} - \frac{x^7}{7} + \ldots$$
+He used this to compute $\pi$ to 11 decimal places!
 
 It's an interesting question whether any of the results of the Kerala
 school found their way west and influenced the development of
 mathematics in Europe. There's been a lot of speculation, but nobody
 seems to know for sure. For more info, try these:
 
-2) The MacTutor History of Mathematics Archive, Madhava of
-Sangamagramma,
-`http://www-history.mcs.st-andrews.ac.uk/Biographies/Madhava.html`
+2) The MacTutor History of Mathematics Archive, "Madhava of Sangamagramma", `http://www-history.mcs.st-andrews.ac.uk/Biographies/Madhava.html`
 
-3) The MacTutor History of Mathematics Archive, Jyesthadeva,
-`http://www-history.mcs.st-andrews.ac.uk/Biographies/Jyesthadeva.html`
+3) The MacTutor History of Mathematics Archive, "Jyesthadeva", `http://www-history.mcs.st-andrews.ac.uk/Biographies/Jyesthadeva.html`
 
-4) Wikipedia, Yuktibhasa, `http://en.wikipedia.org/wiki/Yuktibhasa`
+4) Wikipedia, "Yuktibhasa", `http://en.wikipedia.org/wiki/Yuktibhasa`
 
-Before the conference started, I spent a nice morning talking with [Tom
-Leinster](fields/pictures/leinster_bloor_st.jpg) in a café on Bloor
+Before the conference started, I spent a nice morning talking with Tom
+Leinster in a café on Bloor
 Street. There's nothing like talking about math in a nice warm café
 when it's cold outside! At some point my former grad student Toby
-Bartels showed up - he'd just taken a long Greyhound bus from Nebraska
-- and joined in the conversation. We talked about this paper:
+Bartels showed up --- he'd just taken a long Greyhound bus from Nebraska
+--- and joined in the conversation. We talked about this paper:
 
-5) Tom Leinster, The Euler characteristic of a category, available as
-[math.CT/0610260](http://arxiv.org/abs/math/0610260).
+5) Tom Leinster, "The Euler characteristic of a category", available as [`math.CT/0610260`](http://arxiv.org/abs/math/0610260).
 
-Everyone know how to measure the size of a set - by its number of
+Everyone know how to measure the size of a set --- by its number of
 elements, or "cardinality". But what's the size of a category?
 That's the question this paper tackles!
 
@@ -101,51 +82,62 @@ whose only morphisms are identity morphisms. We'd better define the
 size of such a category to be the cardinality of its set of objects.
 
 For example, the category with just one object and its identity morphism
-is called 1. It looks sort of like this:
-
-                              o 
-
+is called $1$. It looks sort of like this:
+$$\bullet$$
 where I've drawn the object but not its identity morphism. Clearly, its
-size should be 1.
+size should be $1$.
 
 We could also have a category with just two objects and their identity
 morphisms. It looks like this:
-
-                         o         o
-
+$$
+  \begin{tikzpicture}
+    \node at (0,0) {$\bullet$};
+    \node at (2,0) {$\bullet$};
+  \end{tikzpicture}
+$$
 and its size should be 2.
 
 But what about this?
-
-                         o--<--->--o
-
+$$
+  \begin{tikzpicture}
+    \node (a) at (0,0) {$\bullet$};
+    \node (b) at (2,0) {$\bullet$};
+    \draw[<->] (a) to (b);
+  \end{tikzpicture}
+$$
 Here we have a category with two objects and an invertible morphism
 between them, which I've drawn as an arrow pointing both ways. Again, I
 won't draw the identity morphisms.
 
-In other words, we have two objects that are *isomorphic* - and in a
+In other words, we have two objects that are *isomorphic* --- and in a
 unique way. How big should this category be?
 
 Any mathematician worth her salt knows that having two things that are
 isomorphic in a unique way is just like having one: you can't do
-anything more with them - or less. So, the size of this category:
-
-                         o--<--->--o
-
+anything more with them --- or less. So, the size of this category:
+$$
+  \begin{tikzpicture}
+    \node (a) at (0,0) {$\bullet$};
+    \node (b) at (2,0) {$\bullet$};
+    \draw[<->] (a) to (b);
+  \end{tikzpicture}
+$$
 should equal the size of this one:
-
-                              o 
-
-namely, 1.
+$$\bullet$$
+namely, $1$.
 
 More technically, we say these categories are "equivalent". We'll
 demand that equivalent categories have the same size. This is a powerful
 principle. If we didn't insist on this, we'd be insane.
 
 But what about this category:
-
-                         o---->----o
-
+$$
+  \begin{tikzpicture}
+    \node (a) at (0,0) {$\bullet$};
+    \node (b) at (2,0) {$\bullet$};
+    \draw[->] (a) to (b);
+  \end{tikzpicture}
+$$
 Now we have two objects and a morphism going just one way! This is *not*
 equivalent to a discrete category, so we need a new idea to define its
 size.
@@ -155,22 +147,30 @@ new number for the size of this category. But let's suppose that this
 is against the rules.
 
 There's a cute way to turn any category into a space, which I described
-in ["Week 70"](#week70) - and in more detail in items J and K of
+in ["Week 70"](#week70) --- and in more detail in items J and K of
 ["Week 117"](#week117), back when I was giving a minicourse on
 homotopy theory. If we do this to the category
-
-                         o---->----o
-
+$$
+  \begin{tikzpicture}
+    \node (a) at (0,0) {$\bullet$};
+    \node (b) at (2,0) {$\bullet$};
+    \draw[->] (a) to (b);
+  \end{tikzpicture}
+$$
 what do we get? The unit interval, of course! It's a pretty intuitive
 notion, at least in this example.
 
 We also get the unit interval if we turn this guy
-
-                         o--<--->--o
-
+$$
+  \begin{tikzpicture}
+    \node (a) at (0,0) {$\bullet$};
+    \node (b) at (2,0) {$\bullet$};
+    \draw[<->] (a) to (b);
+  \end{tikzpicture}
+$$
 into a space. So, even though these categories aren't equivalent, they
-give the same space. So, let's declare that they have the same size -
-namely, 1.
+give the same space. So, let's declare that they have the same size ---
+namely, $1$.
 
 In fact, let's adopt this as a new principle! We'll demand that two
 categories have the same size whenever they give the same space.
@@ -181,25 +181,34 @@ includes our previous principle as a special case. But, we can say more.
 If you like adjoint functors, you'll enjoy this: whenever there's a
 pair of adjoint functors going between two categories, they give the
 same space. For example, these categories
-
-                         o---->----o
-
+$$
+  \begin{tikzpicture}
+    \node (a) at (0,0) {$\bullet$};
+    \node (b) at (2,0) {$\bullet$};
+    \draw[->] (a) to (b);
+  \end{tikzpicture}
+$$
 and
-
-                         o--<--->--o
-
+$$
+  \begin{tikzpicture}
+    \node (a) at (0,0) {$\bullet$};
+    \node (b) at (2,0) {$\bullet$};
+    \draw[<->] (a) to (b);
+  \end{tikzpicture}
+$$
 aren't equivalent, but there's a pair of adjoint functors going
-between them. (If you don't like adjoint functors, oh well - just
+between them. (If you don't like adjoint functors, oh well --- just
 ignore this.)
 
 Next, what's the size of this category?
-
-                         ---->---- 
-                        /         \
-                       o           o
-                        \         /
-                         ---->----
-
+$$
+  \begin{tikzpicture}
+    \node (a) at (0,0) {$\bullet$};
+    \node (b) at (2,0) {$\bullet$};
+    \draw[->] (a) .. controls (0.7,0.7) and (1.3,0.7) .. (b);
+    \draw[->] (a) .. controls (0.7,-0.7) and (1.3,-0.7) .. (b);
+  \end{tikzpicture}
+$$
 This is my feeble attempt to draw a category with two objects, and two
 morphisms going from the first object to the second.
 
@@ -212,11 +221,7 @@ right answer. It turns out the right answer is zero. Why? Because the
 
 As you may know, Euler lived in Königsberg, a city with lots of islands
 and bridges:
-
-::: {align="center"}
-[![](bridges_of_konigsberg.png)](http://www.matheory.info/konigsberg/)
-:::
-
+$$\href{http://www.matheory.info/konigsberg/}{\includegraphics[max width=0.8\linewidth]{../images/bridges_of_konigsberg.png}}$$
 In fact, he published a paper in 1736 showing that you can't walk
 around Königsberg and cross each bridge exactly once, winding up where
 you started. My crazy theory is that living there also helped him invent
@@ -228,72 +233,78 @@ Königsberg. He looked across the river, and noticed that workers were
 building a bridge to a small island that had previously been unconnected
 to the rest. He noticed that this reduced the number of isolated islands
 by one. Of course, anyone could have seen that! But in a burst of
-genius, Euler went further - he realized this meant a bridge was like a
+genius, Euler went further --- he realized this meant a bridge was like a
 "negative island". And so, he invented the concept of "Euler
 characteristic". In its simplest form, it's just the number of islands
 minus the number of bridges.
 
 For example, if you have two islands in the sea:
-
-                         o         o
-
-the land has Euler characteristic 2.
+$$
+  \begin{tikzpicture}
+    \node (a) at (0,0) {$\bullet$};
+    \node (b) at (2,0) {$\bullet$};
+  \end{tikzpicture}
+$$
+the land has Euler characteristic $2$.
 
 If you build a bridge:
-
-                         o---------o
-
-the land now has Euler characteristic 1. This makes sense, because the
+$$
+  \begin{tikzpicture}
+    \node (a) at (0,0) {$\bullet$};
+    \node (b) at (2,0) {$\bullet$};
+    \draw[thick] (0,0) to (2,0);
+  \end{tikzpicture}
+$$
+the land now has Euler characteristic $1$. This makes sense, because the
 land is now effectively just one island. So, a bridge acts as a
 "negative island"!
 
 But now, if you build a *second* bridge:
-
-                         --------- 
-                        /         \
-                       o           o
-                        \         /
-                         ---------
-
-the land has Euler characteristic 0. This is sort of weird. But, Euler
+$$
+  \begin{tikzpicture}
+    \node (a) at (0,0) {$\bullet$};
+    \node (b) at (2,0) {$\bullet$};
+    \draw[thick] (0,0) .. controls (0.7,0.7) and (1.3,0.7) .. (2,0);
+    \draw[thick] (0,0) .. controls (0.7,-0.7) and (1.3,-0.7) .. (2,0);
+  \end{tikzpicture}
+$$
+the land has Euler characteristic $0$. This is sort of weird. But, Euler
 saw it was a good idea.
 
 To understand why, you have to go further and imagine building a
-"bridge between bridges" - filling in the space between the bridges
+"bridge between bridges" --- filling in the space between the bridges
 with an enormous deck:
-
-                         --------- 
-                        /xxxxxxxxx\
-                       oxxxxxxxxxxxo
-                        \xxxxxxxxx/
-                         ---------
-
+$$
+  \begin{tikzpicture}
+    \node (a) at (0,0) {$\bullet$};
+    \node (b) at (2,0) {$\bullet$};
+    \draw[thick,fill=gray] (0,0)
+      .. controls (0.7,0.7) and (1.3,0.7) .. (2,0)
+      .. controls (1.3,-0.7) and (0.7,-0.7) .. (0,0);
+  \end{tikzpicture}
+$$
 This reduces the number of bridges by one. We've effectively got one
 island again, though much bigger now. So, we're back to having Euler
-characteristic 1.
+characteristic $1$.
 
-In short, adding a "bridge between bridges" should add 1 to the Euler
+In short, adding a "bridge between bridges" should add $1$ to the Euler
 characteristic. Just as a bridge counts as a negative island, a bridge
-between bridges counts as a negative bridge - or an island:
-
--(-1) = 1.
-
+between bridges counts as a negative bridge --- or an island:
+$$-(-1) = 1.$$
 It's all consistent, in its own weird way.
 
 So, Euler defined the Euler characteristic to be
-
-V - E + F
-
-where V is the number of islands (or "vertices"), E is the number of
-bridges (or "edges") and F is the number of bridges between bridges
+$$V - E + F$$
+where $V$ is the number of islands (or "vertices"), $E$ is the number of
+bridges (or "edges") and $F$ is the number of bridges between bridges
 (or "faces").
 
 At least that's how the story goes.
 
-By the way, you must have noticed that the number 1 looks like an
-interval, while the number 0 looks like a circle. But did you notice
-that the Euler characteristic of the interval is 1, and the Euler
-characteristic of the circle is 0? I can never make up my mind whether
+By the way, you must have noticed that the number $1$ looks like an
+interval, while the number $0$ looks like a circle. But did you notice
+that the Euler characteristic of the interval is $1$, and the Euler
+characteristic of the circle is $0$? I can never make up my mind whether
 this is a coincidence or not.
 
 Anyway, we can easily generalize the Euler characteristic to higher
@@ -306,26 +317,34 @@ turning a category into a space. You might think we always get something
 1-dimensional, built from vertices (objects) and edges (morphisms). But
 the rule is more subtle. Whenever we have 2 morphisms end to end, like
 this:
-
-                            f       g
-                        o--->---o--->---o
-                        X       Y       Z
-
-we can compose them and get a morphism fg going all the way from x to z.
+$$
+  \begin{tikzpicture}
+    \node[label=below:{$X$}] (x) at (0,0) {$\bullet$};
+    \node[label=below:{$Y$}] (y) at (2,0) {$\bullet$};
+    \node[label=below:{$Z$}] (z) at (4,0) {$\bullet$};
+    \draw[->] (x) to node[label=above:{$f$}]{} (y);
+    \draw[->] (y) to node[label=above:{$g$}]{} (z);
+  \end{tikzpicture}
+$$
+we can compose them and get a morphism $fg$ going all the way from $x$ to $z$.
 We should draw this morphism too... so the space we get is a
 *triangle*:
-
-                                Y
-                                o
-                               /x\
-                            f /xxx\ g
-                             /xxxxx\
-                          X o-------o Z
-                               fg
-
-I haven't drawn the arrows on my morphisms, due to technical
-limitations of this medium. More importantly, the triangle is filled
-with x's, just like Euler's "bridge between bridges", to show that
+$$
+  \begin{tikzpicture}
+    \node[label=below:{$X$}] (x) at (0,0) {$\bullet$};
+    \node[label=above:{$Y$}] (y) at (1.5,2.1) {$\bullet$};
+    \node[label=below:{$Z$}] (z) at (3,0) {$\bullet$};
+    \draw[thick,fill=gray] (0,0)
+      to node[label=above left:{$f$}]{} (1.5,2.1)
+      to node[label=above right:{$g$}]{} (3,0)
+      to node[label=below:{$fg$}]{} (0,0);
+    \draw[thick,->] (x) to (0.8,1.12);
+    \draw[thick,->] (y) to (2.25,1.05);
+    \draw[thick,->] (x) to (1.6,0);
+  \end{tikzpicture}
+$$
+More importantly, the triangle is filled in,
+just like Euler's "bridge between bridges", to show that
 it's *solid*, not hollow.
 
 Simlarly, when we have 3 morphisms laid end to end we get a tetrahedron,
@@ -337,22 +356,22 @@ I'll leave that as a puzzle.
 
 In fact, for *any* manifold, you can find a category that gives you that
 manifold when you turn it into a space! In fact we can get any space at
-all this way, up to "weak homotopy equivalence" - whatever that means.
+all this way, up to "weak homotopy equivalence" --- whatever that means.
 So, let's adopt a new principle: whenever our category gives a space
 whose Euler characteristic is well-defined, we should define the size of
 our category to be that.
 
 I say "when it's well-defined", because it's also possible for a
-category - even one with just finitely many objects and morphisms - to
+category --- even one with just finitely many objects and morphisms --- to
 give an infinite-dimensional space whose Euler characteristic is a
 divergent series:
 
-n_0 - n_1 + n_2 - n_3 + n_4 - ...
+n_0 --- n_1 + n_2 --- n_3 + n_4 --- ...
 
 Okay. At this point it's time for me to say what Leinster actually did:
 he came up with a *formula* that you can use to compute the size of a
 category, without using any topology. Sometimes it gives divergent
-answers - which is no shame: after all, some categories are infinitely
+answers --- which is no shame: after all, some categories are infinitely
 big. But when it converges, it satisfies all the principles I've
 mentioned.
 
@@ -362,7 +381,7 @@ think of it as a category with one object, with the group elements as
 morphisms. When we turn this category into a space, it becomes something
 famous called the "classifying space" of G. This is often an
 infinite-dimensional monstrosity whose Euler characteristic diverges.
-But, Leinster's formula still works - and it gives
+But, Leinster's formula still works --- and it gives
 
 1/|G|
 
@@ -377,16 +396,16 @@ projective space", or \mathbb{RP}^\infty for short. This is built from one verte
 one edge, one triangle, and so on. So, if we try to work out its Euler
 characteristic, we get the divergent series
 
-1 - 1 + 1 - 1 + 1 - ...
+1 --- 1 + 1 --- 1 + 1 --- ...
 
 But, if we use Leinster's formula, we get 1/2. And that's cute,
 because once there were heated arguments about the value of
 
-1 - 1 + 1 - 1 + 1 - ...
+1 --- 1 + 1 --- 1 + 1 --- ...
 
 Some mathematicians said it was 0:
 
-(1 - 1) + (1 - 1) + (1 - 1) + ... = 0
+(1 --- 1) + (1 --- 1) + (1 --- 1) + ... = 0
 
 while others said it was 1:
 
@@ -396,7 +415,7 @@ Some said "it's divergent, so forget it!" But others wisely
 compromised and said it equals 1/2. This can be justified using "Abel
 summation".
 
-All this may seem weird - and it is; that's part of the fun. But,
+All this may seem weird --- and it is; that's part of the fun. But,
 Leinster's answer matches what you'd expect from the theory of
 "homotopy cardinality":
 
@@ -449,7 +468,7 @@ algebra".
 Category algebras are also pretty familiar when our category is a
 "quiver" (a category formed from a directed graph by freely throwing
 in formal composites of edges). Then it's called a "quiver algebra".
-These are really cool - especially if our graph becomes a Dynkin
+These are really cool --- especially if our graph becomes a Dynkin
 diagram, like this:
 
                  o
@@ -484,7 +503,7 @@ Connes has generalized the heck out of Heisenberg's idea, studying the
 
 So, category algebras are all over the place. But for some reason, few
 people study all these different kinds of category algebra in a unified
-way - or even *realize* they're all category algebras! I feel sort of
+way --- or even *realize* they're all category algebras! I feel sort of
 sorry for this neglected concept. That's one reason I was happy to see
 it plays a role in Leinster's definition of the Euler characteristic
 for categories.
@@ -561,13 +580,13 @@ If \zeta has an inverse, our category has both a weighting and a
 coweighting, since we can solve both these equations to find w and w*.
 But often there will be a weighting and coweighting even when \zeta doesn't
 have an inverse. When both a weighting and coweighting exist, the sum of
-the coefficients of w equals the sum of coefficients of w* - and this
+the coefficients of w equals the sum of coefficients of w* --- and this
 sum is what Leinster takes as the "Euler characteristic" of the
 category X!
 
 This is a bit subtle, and I don't deeply understand it. But, Leinster
 proves so many nice theorems about this "Euler characteristic" that
-it's clearly the right notion of the size of a category - or, with a
+it's clearly the right notion of the size of a category --- or, with a
 further generalization he mentions, even an $n$-category! And, it has nice
 relationships to other ideas, which are begging to be developed further.
 
@@ -575,7 +594,7 @@ We're still just learning to count.
 
 ------------------------------------------------------------------------
 
-**Addendum:** For more discussion, go to the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2007/02/this_weeks_finds_in_mathematic_5.html).
+**Addendum:** For more discussion, go to the
+[$n$-Category Café](http://golem.ph.utexas.edu/category/2007/02/this_weeks_finds_in_mathematic_5.html).
 
 ------------------------------------------------------------------------
