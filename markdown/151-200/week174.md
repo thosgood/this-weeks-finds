@@ -831,12 +831,20 @@ $$
   \begin{tikzpicture}[xscale=0.8,yscale=1.2]
     \begin{knot}
       \strand[thick] (-2,-2)
-        to [out=up,in=down] (-1.25,0)
-        to [out=up,in=down] (-2,2);
+        to [out=up,in=down,looseness=0.7] (-1.5,0)
+        to [out=up,in=down,looseness=0.7] (-2,2);
       \strand[thick] (-1,2)
         to [out=down,in=down,looseness=2] (0,2);
       \strand[thick] (1,2)
         to [out=down,in=down,looseness=2] (2,2);
+      \strand[thick] (-1,-2)
+        to [out=up,in=down] (-0.5,0.5)
+        to [out=up,in=up,looseness=1.1] (0.5,0.5)
+        to [out=down,in=up] (0.6,-2);
+      \strand[thick] (0,0)
+        to [out=right,in=right,looseness=0.8] (0,-1.5)
+        to [out=left,in=right] (-0.25,-1.5)
+        to [out=left,in=left,looseness=0.8] (0,0);
       \strand[thick] (1.5,-2)
         to (1.5,0)
         to [out=up,in=down](3,2);
@@ -850,34 +858,27 @@ $$
         to [out=up,in=up,looseness=1.5] (4.3,-1)
         to [out=down,in=up,looseness=1.3] (6,-2);
     \end{knot}
-    \node at (-1.85,0) {$a$};
+    %
+    \node at (-1.95,0) {$a$};
     \node at (-0.5,1.75) {$a$};
     \node at (1.5,1.75) {$a$};
+    \node at (-0.1,-0.8) {$b$};
+    \node at (0,0.3) {$a$};
+    \node at (0.5,1.2) {$b$};
+    \node at (4.5,1.4) {$a$};
+    \node at (3.8,0.1) {$b$};
+    \node at (3.8,-1.25) {$a$};
     %
     \draw[thick] (-2.5,-2) rectangle ++(9.5,4);
   \end{tikzpicture}
 $$
-
-      -------------------------------------------------------
-     |   \     \   a |   |  a  /      /             |       |
-     |    \     \    |   |    /      /              |       |
-     |     \     \__/     \__/      /      a        |       |
-     |      \        _____         /     _____      |       |
-     |       \      /  a  \       /     /     \     |       |
-     |  a    /     /  ___  \     /     /       \   /        |
-     |      /     /  /   \  \   /     /    __   \_/         |
-     |     /     /   \ b /  /  /     /    /  \              |
-     |    /  b   \    \_/  /  /     /    / a  \  b          |
-     |   /        \       /  /     /    /      \            |
-      -------------------------------------------------------
-
 This allows for quite arbitrary ways of cutting up a rectangle into
 regions of orange and black, with piecewise linear boundaries, subject
 to the condition that each vertical border has the same color all along
 it. The triangle equations and the rules for $2$-categories say that we
 can warp such a picture around without changing the $2$-morphism that it
 defines... I don't want to be too precise here, since it would be
-boring. Hopefully you get the idea: AmbAd has a purely topological
+boring. Hopefully you get the idea: $\mathsf{AmbAd}$ has a purely topological
 description!
 
 Now for the punchline: in $\mathsf{AmbAd}$, what is the category $\operatorname{Hom}(a,a)$ like? As
