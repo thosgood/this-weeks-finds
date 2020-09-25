@@ -827,6 +827,36 @@ Now let's study the "walking ambidextrous adjunction", $\mathsf{AmbAd}$. As
 before, $2$-morphisms in $\mathsf{AmbAd}$ can be described using pictures with orange
 and black stripes --- but now *both* kinds of stripes can appear,
 disappear, merge or split as we march down the page:
+$$
+  \begin{tikzpicture}[xscale=0.8,yscale=1.2]
+    \begin{knot}
+      \strand[thick] (-2,-2)
+        to [out=up,in=down] (-1.25,0)
+        to [out=up,in=down] (-2,2);
+      \strand[thick] (-1,2)
+        to [out=down,in=down,looseness=2] (0,2);
+      \strand[thick] (1,2)
+        to [out=down,in=down,looseness=2] (2,2);
+      \strand[thick] (1.5,-2)
+        to (1.5,0)
+        to [out=up,in=down](3,2);
+      \strand[thick] (2.5,-2)
+        to (2.5,0)
+        to [out=up,in=up,looseness=1.1] (5,0)
+        to [out=down,in=down,looseness=1.2] (6,0)
+        to (6,2);
+      \strand[thick] (3.3,-2)
+        to (3.3,-1)
+        to [out=up,in=up,looseness=1.5] (4.3,-1)
+        to [out=down,in=up,looseness=1.3] (6,-2);
+    \end{knot}
+    \node at (-1.85,0) {$a$};
+    \node at (-0.5,1.75) {$a$};
+    \node at (1.5,1.75) {$a$};
+    %
+    \draw[thick] (-2.5,-2) rectangle ++(9.5,4);
+  \end{tikzpicture}
+$$
 
       -------------------------------------------------------
      |   \     \   a |   |  a  /      /             |       |
