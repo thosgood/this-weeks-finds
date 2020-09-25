@@ -433,7 +433,7 @@ marrow! Any help would be appreciated.
 > > people do that.  But I'll stick with Green, Schwarz and Witten, and call
 > > it $A$.  I'll write $F$ for the corresponding field strength (which is 6dA
 > > if we use their nutty normalization).
->     >
+> >
 > > Let's look at that Lagrangian again, and see how much of it we can
 > > understand now:
 > > $$
@@ -472,7 +472,7 @@ marrow! Any help would be appreciated.
 > modern-day physicists write membranes...:->) wrapped on the two
 > light-cone coordinates, but what is the role of M5-branes in this game
 > is unclear. While in the matrix model proposed by Smolin in
-> hep-th/0002009, there are more terms involving also a $4$-form, which
+> `hep-th/0002009`, there are more terms involving also a $4$-form, which
 > might be related with a wrapped M5-brane. This raises the hope that
 > this matrix model might be a better try for a non-perturbative version
 > of M-theory than the usual BFSS one. But this has to be investigated
@@ -485,7 +485,7 @@ marrow! Any help would be appreciated.
 > > there's a paper by Witten in the above book that contains references to
 > > papers that supposedly explain why particles of spin $> 2$ are bad.  It's
 > > an excellent paper, too:
->     >
+> >
 > > 2) Edward Witten, "Search for a realistic Kaluza-Klein theory", _Nucl. Phys._ **B186** (1981), 412--428.
 >
 > I'm not a specialist of this, but higher spins involve the
@@ -521,8 +521,8 @@ And here is one by Robert Helling:
 
 > John Baez wrote, concerning 11d supergravity:
 >
->      >I knew that people thought it wasn't renormalizable --- that's not 
->      >very new --- but I didn't know people had become sure about it.
+> > I knew that people thought it wasn't renormalizable --- that's not 
+> > very new --- but I didn't know people had become sure about it.
 >
 > Well, it depends a bit on your definition of "non-renormalizable".
 > In a strict sense, it means that renormalization would require an
@@ -603,20 +603,20 @@ And here is one by Robert Helling:
 > are problems remaining.
 >
 > > > > Unfortunately, this book does not cover supergravity theories.
->
+> > >
 > > > As a matter of fact, there are some books on supergravity in 4D, 
 > > > but no books covering higher-dimensional supergravity theories 
 > > > with a reasonable amount of explanations.
->
+> >
 > > I've noticed!  It's scandalous! 
->
-> > > Of course, people really able to do this properly are a handful 
-> > > on this planet, and even for them, this would require an enormous 
-> > > amount of work to get things consistent all the way with a coherent 
-> > > choice of conventions and check all the horrible formulas. 
->
+> >
+> > Of course, people really able to do this properly are a handful 
+> > on this planet, and even for them, this would require an enormous 
+> > amount of work to get things consistent all the way with a coherent 
+> > choice of conventions and check all the horrible formulas. 
+> 
 > I know that at least three of the sugra hot shots of the eighties
-> independently started such projects and there are sugra_book.tex files
+> independently started such projects and there are `sugra_book.tex` files
 > of various stages on their hard disks. They all gave up or made it a
 > really long term project since they figured out that it would cost
 > them years to basically redo all calculations in a coherent formalism.

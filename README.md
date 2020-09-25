@@ -6,6 +6,8 @@
 - emails
     + 215
     + 203
+- fix margins on `{quote}` **OR** replace `mdframed` with something else
+    + check that 151-200.tex works...
 - **diagrams**
     + 233 (uses 229)
     + 229

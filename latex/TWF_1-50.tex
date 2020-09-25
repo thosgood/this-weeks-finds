@@ -8,6 +8,8 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 
+\usepackage{geometry}
+
 \usepackage{amsmath,amssymb}
 \usepackage[colorlinks=true]{hyperref}
 \usepackage{color}
@@ -47,6 +49,14 @@
 
 \usepackage{tikz}
 \usetikzlibrary{knots}
+
+\usepackage[framemethod=TikZ]{mdframed}
+\surroundwithmdframed[
+   topline=false,
+   bottomline=false,
+   skipabove=\topsep,
+   skipbelow=\topsep
+]{quote}
 
 \usepackage{tikz-cd}
 
@@ -1706,14 +1716,14 @@ quantum group representations given by Crane and Frenkel (see
 \item
   Adrian Ocneanu, ``A note on simplicial dimension shifting'', available
   in AMSLaTeX as
-  \href{http://arxiv.org/abs/hep-th/9302028}{\texttt{arXiv:hep-th/9302028}}.
+  \href{http://arxiv.org/abs/hep-th/9302028}{\texttt{hep-th/9302028}}.
 \end{enumerate}
 
 Ouch! This paper claims to show that the very charming 4d TQFT
 constructed by Crane and Yetter in ``A categorical construction of 4d
 topological quantum field theories''
-(\href{http://arxiv.org/abs/hep-th/9301062}{\texttt{arXiv:hep-th/9301062}})
-is trivial! In particular, he says the resulting invariant of compact
+(\href{http://arxiv.org/abs/hep-th/9301062}{\texttt{hep-th/9301062}}) is
+trivial! In particular, he says the resulting invariant of compact
 oriented 4-manifolds is identically equal to 1. If so, it's back to the
 drawing board. Crane and Yetter took the 3d TQFT coming from
 \(\mathfrak{sl}_q(2)\) at roots of unity and then used a clever trick to
@@ -1741,7 +1751,7 @@ Manhattan), and I'm sure everyone will try to thrash this stuff out.
 \item
   Abhay Ashtekar and Jerzy Lewandowski, ``Representation theory of
   analytic holonomy C*-algebras'', available as
-  \href{http://arxiv.org/abs/gr-qc/9311010}{\texttt{arXiv:gr-qc/9311010}}.
+  \href{http://arxiv.org/abs/gr-qc/9311010}{\texttt{gr-qc/9311010}}.
 \end{enumerate}
 
 This paper is a follow-up of the paper
@@ -1755,7 +1765,7 @@ This paper is a follow-up of the paper
   algebras of gravity and non-Abelian gauge theories'', \emph{Journal of
   Classical and Quantum Gravity} \textbf{9} (1992), 1069--1100. Also
   available as
-  \href{http://arxiv.org/abs/hep-th/9202053}{\texttt{arXiv:hep-th/9202053}}.
+  \href{http://arxiv.org/abs/hep-th/9202053}{\texttt{hep-th/9202053}}.
 \end{enumerate}
 
 and sort of complements another,
@@ -1767,7 +1777,7 @@ and sort of complements another,
 \item
   John Baez, ``Link invariants, holonomy algebras and functional
   integration'', available as
-  \href{http://arxiv.org/hep-th/9301063}{\texttt{arXiv:hep-th/9301063}}.
+  \href{http://arxiv.org/hep-th/9301063}{\texttt{hep-th/9301063}}.
 \end{enumerate}
 
 The idea here is to provide a firm mathematical foundation for the loop
@@ -6176,20 +6186,20 @@ Let's begin with sphere packings. Say one is stacking cannonballs on
 ones lawn, which is a quaint custom now that cannons have been replaced
 by far more horrible weapons. A nice way to do it is to lay out a
 triangle of cannonballs thus:
-\[\includegraphics[max width=\linewidth]{../images/wk20_fig1.pdf}\] and
-then set down another triangle of cannonballs on top of the first layer,
-one in every other hole, thus:
-\[\includegraphics[max width=\linewidth]{../images/wk20_fig2.pdf}\] and
-another:
-\[\includegraphics[max width=\linewidth]{../images/wk20_fig3.pdf}\] and
-finally one on top --- which I won't attempt to draw. Very nice stack!
-There are many mathematical reflections it could lead one to, one of
-which is: is this the \emph{densest} possible way one can pack spheres
-of equal radius? The density is \(\pi/\sqrt{18} = .7405\ldots\); can one
-do better? Apparently it was Kepler who first conjectured that the
-answer is ``no.'' This is a famous hard problem. In 1991 W.-Y. Hsiang
-announced that he had a proof, but I am not sure how many experts have
-read it and been convinced.
+\[\includegraphics[max width=0.8\linewidth]{../images/wk20_fig1.pdf}\]
+and then set down another triangle of cannonballs on top of the first
+layer, one in every other hole, thus:
+\[\includegraphics[max width=0.8\linewidth]{../images/wk20_fig2.pdf}\]
+and another:
+\[\includegraphics[max width=0.8\linewidth]{../images/wk20_fig3.pdf}\]
+and finally one on top --- which I won't attempt to draw. Very nice
+stack! There are many mathematical reflections it could lead one to, one
+of which is: is this the \emph{densest} possible way one can pack
+spheres of equal radius? The density is \(\pi/\sqrt{18} = .7405\ldots\);
+can one do better? Apparently it was Kepler who first conjectured that
+the answer is ``no.'' This is a famous hard problem. In 1991 W.-Y.
+Hsiang announced that he had a proof, but I am not sure how many experts
+have read it and been convinced.
 
 This packing is a very regular sort of packing, what people call a
 lattice packing. A lattice is a discrete subset of \(n\)-dimensional
@@ -6209,12 +6219,13 @@ lattice going off infinitely in all directions\ldots{} each sphere is
 touching 12 others: 6 in its own layer, as it were, 3 in the layer above
 and 3 in the layer below. If we only pay attention to a given sphere and
 those touching it we see something like:
-\[\includegraphics[max width=\linewidth]{../images/wk20_fig4.pdf}\] If
-we remove the central sphere to clean up the picture a bit, the centers
-of the remaining are the vertices of a shape called the cuboctahedron:
-\[\includegraphics[max width=\linewidth]{../images/wk20_fig5.pdf}\] It
-has 12 vertices, 8 triangular faces, and 6 square faces. One can get it
-either by cutting off the corners of a cube just right, or by cutting
+\[\includegraphics[max width=0.8\linewidth]{../images/wk20_fig4.pdf}\]
+If we remove the central sphere to clean up the picture a bit, the
+centers of the remaining are the vertices of a shape called the
+cuboctahedron:
+\[\includegraphics[max width=0.8\linewidth]{../images/wk20_fig5.pdf}\]
+It has 12 vertices, 8 triangular faces, and 6 square faces. One can get
+it either by cutting off the corners of a cube just right, or by cutting
 off the corners of an octahedron!
 
 Let's return to thinking about the 12 spheres touching the central one.
@@ -6288,15 +6299,16 @@ way! In other words, we get the group \(A_{12}\), with
 \[\frac{12!}{2} = 239500800\] elements. How? Well, I wish I could draw
 an icosahedron for you, but I can't really do so well on this medium.
 The best way is to draw a top view:
-\[\includegraphics[max width=\linewidth]{../images/wk20_fig6.pdf}\] and
-a bottom view:
-\[\includegraphics[max width=\linewidth]{../images/wk20_fig7.pdf}\] Now,
-if we take the top 6 spheres and bunch them up so they are all touching,
-and the bottom 6 spheres and bunch them up so \emph{they} all touch, we
-can, in fact, twist the top 6 counterclockwise around \(1/5\) of a turn.
-That is, we can map
-\[\includegraphics[max width=\linewidth]{../images/wk20_fig8.pdf}\] to
-\[\includegraphics[max width=\linewidth]{../images/wk20_fig9.pdf}\] I
+\[\includegraphics[max width=0.8\linewidth]{../images/wk20_fig6.pdf}\]
+and a bottom view:
+\[\includegraphics[max width=0.8\linewidth]{../images/wk20_fig7.pdf}\]
+Now, if we take the top 6 spheres and bunch them up so they are all
+touching, and the bottom 6 spheres and bunch them up so \emph{they} all
+touch, we can, in fact, twist the top 6 counterclockwise around \(1/5\)
+of a turn. That is, we can map
+\[\includegraphics[max width=0.8\linewidth]{../images/wk20_fig8.pdf}\]
+to
+\[\includegraphics[max width=0.8\linewidth]{../images/wk20_fig9.pdf}\] I
 haven't actually \emph{done} this, or even proved I can, but Conway and
 Sloane say so. And then the point is that all of \(A_{12}\) is generated
 by ``twists'' of this form. Conway and Sloane give a sophisticated and
@@ -6478,7 +6490,7 @@ permutations of the 12 spheres. The point is this. One can start with
 the 12 spheres touching the central one arranged so their centers are at
 the vertics of an icosahedron. Then one can roll them around so their
 centers lie at the vertices of a cuboctahedron:
-\[\includegraphics[max width=\linewidth]{../images/wk20_fig5.pdf}\quad\includegraphics[max width=\linewidth]{../images/wk20_fig10.pdf}\]
+\[\includegraphics[max width=0.8\linewidth]{../images/wk20_fig5.pdf}\quad\includegraphics[max width=0.8\linewidth]{../images/wk20_fig10.pdf}\]
 At this point they touch each other, but one can indeed get to this
 position. There is a nice picture of \emph{how} to do this in Conway and
 Sloane's book, but you might enjoy figuring it out.
@@ -7581,14 +7593,14 @@ reason is that in string theory one becomes interested in gauge fields
 living on the 2-dimesional ``string worldsheet.''
 
 This paper is a thorough review of two kinds of gauge theories in 2
-dimensions: topological Yang-Mills theory (also called BF theory) and
-the \(G/G\) gauged Wess-Zumino-Witten model. Both of these are of great
-mathematical interest in addition to their physical relevance. Studying
-the BF theory gives a way to do integrals on the moduli space of flat
-connections on a bundle over a Riemann surface, while studying the
-\(G/G\) model amounts to a geometric construction of the categories of
-representations of quantum groups at roots of unity. (Take my word for
-it, mathematicians find these important!)
+dimensions: topological Yang-Mills theory (also called \(BF\) theory)
+and the \(G/G\) gauged Wess-Zumino-Witten model. Both of these are of
+great mathematical interest in addition to their physical relevance.
+Studying the \(BF\) theory gives a way to do integrals on the moduli
+space of flat connections on a bundle over a Riemann surface, while
+studying the \(G/G\) model amounts to a geometric construction of the
+categories of representations of quantum groups at roots of unity. (Take
+my word for it, mathematicians find these important!)
 
 I have found this review a bit rough going so far because the authors
 like to use supersymmetry to study these models. But I will continue
@@ -9305,18 +9317,18 @@ of a ``boosting'' construction as alluded to above.
 \end{enumerate}
 
 Let me simply quote the abstract: ``Motivated by suggestions of Paolo
-Cotta-Ramusino's work at the physical level of rigor relating BF theory
-to the Donaldson polynomials, we provide a construction applicable to
-the Turaev/Viro and Crane/Yetter invariants of \emph{a priori} finer
-invariants dependent on a choice of (co)homology class on the
-manifold.'' The dream is that this would give a state-sum formula for
-the Donaldson polynomials, but Yetter is careful to avoid claiming this!
-A while back, Crane and Yetter showed how to get \(4\)-dimensional TQFTs
-from certain 3d TQFTs by another kind of ``boosting'' procedure related
-to those mentioned above, but the resulting TQFT in \(4\)-dimensions did
-not by itself yield interesting new invariants of 4-manifolds. The
-procedure Yetter describes here generalizes the earlier work by allowing
-the inclusion of an embedded 2-manifold.
+Cotta-Ramusino's work at the physical level of rigor relating \(BF\)
+theory to the Donaldson polynomials, we provide a construction
+applicable to the Turaev/Viro and Crane/Yetter invariants of \emph{a
+priori} finer invariants dependent on a choice of (co)homology class on
+the manifold.'' The dream is that this would give a state-sum formula
+for the Donaldson polynomials, but Yetter is careful to avoid claiming
+this! A while back, Crane and Yetter showed how to get \(4\)-dimensional
+TQFTs from certain 3d TQFTs by another kind of ``boosting'' procedure
+related to those mentioned above, but the resulting TQFT in
+\(4\)-dimensions did not by itself yield interesting new invariants of
+4-manifolds. The procedure Yetter describes here generalizes the earlier
+work by allowing the inclusion of an embedded 2-manifold.
 
 
 
@@ -11120,7 +11132,7 @@ metric is likely to be worth having. Also, quantum gravity appears to be
 tied mathematically to simpler TQFTs in a variety of ways. In
 particular, the Ashtekar formulation of quantum gravity is closely
 related to a \(4\)-dimensional TQFT variously known as ``\(B \wedge F\)
-theory,'' ``BF theory,'' ``topological \(2\)-form gravity'' or
+theory,'' ``\(BF\) theory,'' ``topological \(2\)-form gravity'' or
 ``topological quantum gravity''. This in turn is closely related to
 Chern-Simons theory in 3 dimensions.
 
@@ -11144,7 +11156,7 @@ equations of motion, varying \(B\) gives us \[F = 0,\] that is, the
 connection \(A\) is flat, and varying \(A\) gives us \[d_A B = 0,\] that
 is, the exterior covariant derivative of \(B\) vanishes.
 
-In 4 dimensions we can soup up our BF theory a bit by adding terms
+In 4 dimensions we can soup up our \(BF\) theory a bit by adding terms
 proportional to \[\operatorname{tr}(B \wedge B)\] and
 \[\operatorname{tr}(F \wedge F)\] to the Lagrangian. If we take as our
 Lagrangian
@@ -11160,7 +11172,7 @@ motion, the action is a constant times the second Chern class (if \(a\)
 is nonzero).
 
 Horowitz showed, in this four-dimensional case, that if \(a\) is
-nonzero, there is a single state of the \emph{quantum} version of BF
+nonzero, there is a single state of the \emph{quantum} version of \(BF\)
 theory when spacetime has the form \(\mathbb{R} \times S\) (\(S\) being
 some oriented 3-manifold), and that this state, thought of as a
 wavefunction on the space of connections on \(S\), is just the
@@ -11182,7 +11194,7 @@ of the space of connections on \(M\) than it does with the ``FF''
 Lagrangian per se. But still, there are other relationships between
 Donaldson theory and Chern-Simons theory (which I don't understand well
 enough to want to discuss), so perhaps it is not too silly to say that
-BF theory is related to Donaldson theory in some poorly understood
+\(BF\) theory is related to Donaldson theory in some poorly understood
 manner.
 
 Now for some references: the reference that got me started on these was
@@ -11254,7 +11266,7 @@ is:
   \emph{Nucl. Phys. (Proc. Suppl.)} \textbf{B5} (1988) 12--19.
 \end{enumerate}
 
-BF theory in 2 dimensions is also called ``topological Yang-Mills
+\(BF\) theory in 2 dimensions is also called ``topological Yang-Mills
 theory'', and it's discussed in various places, including
 
 \begin{enumerate}
@@ -12031,10 +12043,10 @@ do with Chern-Simons theory, as summarized so deftly by Atiyah:
 \end{enumerate}
 
 On the other hand, lately people have been using 2d Yang-Mills theory,
-BF theory, and the like (see \protect\hyperlink{week36}{``Week 36''}) to
-get a really thorough handle on the cohomology of the moduli space of
-flat connections. For a mathematical approach to this problem that
-doesn't talk much about gauge theory, try:
+\(BF\) theory, and the like (see \protect\hyperlink{week36}{``Week
+36''}) to get a really thorough handle on the cohomology of the moduli
+space of flat connections. For a mathematical approach to this problem
+that doesn't talk much about gauge theory, try:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -12511,9 +12523,9 @@ previously unsuspected connections between knot theory and quantum
 gravity, or more generally, \(3\)-dimensional topology and
 \(4\)-dimensional generally covariant physics. We review how some of
 these relationships arise from a `ladder of field theories' including
-quantum gravity and BF theory in 4 dimensions, Chern-Simons theory in 3
-dimensions, and the \(G/G\) gauged WZW model in 2 dimensions. We also
-describe the relation between link (or multiloop) invariants and
+quantum gravity and \(BF\) theory in 4 dimensions, Chern-Simons theory
+in 3 dimensions, and the \(G/G\) gauged WZW model in 2 dimensions. We
+also describe the relation between link (or multiloop) invariants and
 generalized measures on the space of connections. In addition, we pose
 some research problems and describe some new results, including a proof
 (due to Sawin) that the Chern-Simons path integral is not given by a
@@ -14722,7 +14734,7 @@ concerning \(n\)-categories, topology, and physics:
   ``Higher-dimensional algebra and topological quantum field theory'',
   by John Baez and James Dolan, Jour. Math. Phys. 36 (1995), 6073-6105.
   Also available as
-  \href{http://arxiv.org/abs/q-alg/9503002}{\texttt{arXiv:q-alg/9503002}}.
+  \href{http://arxiv.org/abs/q-alg/9503002}{\texttt{q-alg/9503002}}.
 \end{enumerate}
 
 One of the main themes of this paper is what I sometimes jokingly call
@@ -14985,12 +14997,12 @@ guess I'll leave it at that!
 \section{March 12, 1995}\label{week50}}
 
 Your roving mathematical physics reporter is now in Milan, where (when
-not busy eating various kinds of cheese) he is discussing BF theory with
-his hosts, Paolo Cotta-Ramusino and Maurizio Martellini. This is rather
-a long way to go to stumble on the October 1994 issue of the Journal of
-Mathematical Physics, but such is life. This issue is a special issue on
-``Topology and Physics'', a nexus dear to my heart, so let me say a bit
-about some of the papers in it.
+not busy eating various kinds of cheese) he is discussing \(BF\) theory
+with his hosts, Paolo Cotta-Ramusino and Maurizio Martellini. This is
+rather a long way to go to stumble on the October 1994 issue of the
+Journal of Mathematical Physics, but such is life. This issue is a
+special issue on ``Topology and Physics'', a nexus dear to my heart, so
+let me say a bit about some of the papers in it.
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}

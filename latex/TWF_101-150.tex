@@ -8,6 +8,8 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 
+\usepackage{geometry}
+
 \usepackage{amsmath,amssymb}
 \usepackage[colorlinks=true]{hyperref}
 \usepackage{color}
@@ -47,6 +49,14 @@
 \usetikzlibrary{knots}
 \usetikzlibrary{arrows}
 \usetikzlibrary{decorations.pathmorphing}
+
+\usepackage[framemethod=TikZ]{mdframed}
+\surroundwithmdframed[
+   topline=false,
+   bottomline=false,
+   skipabove=\topsep,
+   skipbelow=\topsep
+]{quote}
 
 \usepackage{tikz-cd}
 
@@ -1403,7 +1413,7 @@ more on the history of this stuff, see:
 Octonions were invented by Cayley later on in the 1800s. For these, we
 start with \emph{seven} square roots of \(-1\), say \(e_1\) up to
 \(e_7\). To learn how multiply these, draw the following diagram:
-\[\includegraphics[max width=\linewidth]{../images/fano.jpg}\] Draw a
+\[\includegraphics[max width=0.8\linewidth]{../images/fano.jpg}\] Draw a
 triangle, draw a line from each vertex to the midpoint of the opposite
 edge, and inscribe a circle in the triangle. Label the 7 points shown
 with \(e_1\) through \(e_7\) --- it doesn't matter how, I've just drawn
@@ -2044,7 +2054,7 @@ the previous nonzero entries? Not really. Actually a lot of applications
 of topology to quantum field theory rely on this \(\pi_3\) business. For
 example, it's the key to stuff like ``instantons'' in Yang-Mills theory,
 which are in turn crucial for understanding how the pion gets its mass.
-It's also the basis of stuff like ``Chern-Simons theory'' and ``BF
+It's also the basis of stuff like ``Chern-Simons theory'' and ``\(BF\)
 theory''. Alas, all this takes a while to explain, but let's just say
 the third entry is about ``topological field theory in 4 dimensions''.
 
@@ -5545,9 +5555,9 @@ Feynman diagrams, it seems reasonable to do it by computing a number for
 each spin foam face, edge, and vertex, and then multiplying them all
 together.
 
-Quantum gravity is related to a simpler theory called BF theory, which
-has a spin foam formulation known as the Crane-Yetter model --- see
-\protect\hyperlink{week36}{``Week 36''},
+Quantum gravity is related to a simpler theory called \(BF\) theory,
+which has a spin foam formulation known as the Crane-Yetter model ---
+see \protect\hyperlink{week36}{``Week 36''},
 \protect\hyperlink{week58}{``Week 58''}, and
 \protect\hyperlink{week98}{``Week 98''}. There are various clues
 suggesting that that the numbers for faces and edges --- the
@@ -8633,12 +8643,12 @@ Two papers have recently appeared which investigate it further:
 \end{enumerate}
 
 These papers study classical general relativity formulated as a
-constrained \(\mathrm{SO}(4)\) BF theory. The constraints needed here
-are mathematically just the same as the constraints needed to ensure
-that 10 bivectors come from the faces of an actual \(4\)-simplex! This
-is part of the magic of this approach. But again, if one only imposes
-the three constraints I listed above, it's not quite enough: one gets
-fields that are either solutions of general relativity \emph{or}
+constrained \(\mathrm{SO}(4)\) \(BF\) theory. The constraints needed
+here are mathematically just the same as the constraints needed to
+ensure that 10 bivectors come from the faces of an actual \(4\)-simplex!
+This is part of the magic of this approach. But again, if one only
+imposes the three constraints I listed above, it's not quite enough: one
+gets fields that are either solutions of general relativity \emph{or}
 solutions of three other theories! This raises the worry that the
 Barrett-Crane model is a quantization, not exactly of general
 relativity, but of general relativity mixed in with these extra
@@ -8653,8 +8663,8 @@ Gravity here at Penn State:
 \tightlist
 \item
   Laurent Freidel and Kirill Krasnov, ``Discrete space-time volume for
-  \(3\)-dimensional BF theory and quantum gravity'', preprint available
-  as
+  \(3\)-dimensional \(BF\) theory and quantum gravity'', preprint
+  available as
   \href{https://arxiv.org/abs/hep-th/9804185}{\texttt{hep-th/9804185}}.
 \end{enumerate}
 
@@ -10054,27 +10064,29 @@ the metric is the main variable!
 
 So the idea of Freidel and Krasnov is to approximate quantum graivty
 with a very different sort of ``free theory'', one in which the metric
-is a variable. The theory they use is called ``BF theory''. I said a lot
-about BF theory in \protect\hyperlink{week36}{``Week 36''}, but here the
-main point is simply that it's a topological quantum field theory, or
-TQFT. A TQFT is a quantum field theory that does not presume a fixed
-metric, but of a very simple sort, because it has no local degrees of
-freedom. I very much like the idea that a TQFT might serve as a novel
-sort of ``free theory'' for the purposes of studying quantum gravity.
+is a variable. The theory they use is called ``\(BF\) theory''. I said a
+lot about \(BF\) theory in \protect\hyperlink{week36}{``Week 36''}, but
+here the main point is simply that it's a topological quantum field
+theory, or TQFT. A TQFT is a quantum field theory that does not presume
+a fixed metric, but of a very simple sort, because it has no local
+degrees of freedom. I very much like the idea that a TQFT might serve as
+a novel sort of ``free theory'' for the purposes of studying quantum
+gravity.
 
 Everything that Freidel and Krasnov do is reminscent of familiar quantum
 field theory, but also very different, because their starting-point is
-BF theory rather than a free theory of a traditional sort. For example,
-just as ordinary quantum field theory starts out with Fock space, in the
-spin network approach to quantum gravity we start with a nice simple
-Hilbert space of states. But this space has a basis consisting, not of
-collections of 0-dimensional particles sitting in space at specified
-positions, but of \(1\)-dimensional ``spin networks'' sitting in space.
-(For more on spin networks, see \protect\hyperlink{week55}{``Week 55''}
-and \protect\hyperlink{week110}{``Week 110''}.) And instead of using
+\(BF\) theory rather than a free theory of a traditional sort. For
+example, just as ordinary quantum field theory starts out with Fock
+space, in the spin network approach to quantum gravity we start with a
+nice simple Hilbert space of states. But this space has a basis
+consisting, not of collections of 0-dimensional particles sitting in
+space at specified positions, but of \(1\)-dimensional ``spin networks''
+sitting in space. (For more on spin networks, see
+\protect\hyperlink{week55}{``Week 55''} and
+\protect\hyperlink{week110}{``Week 110''}.) And instead of using
 \(1\)-dimensional Feynman diagrams to compute transition amplitudes, the
 idea is now to use 2-dimensional gadgets called ``spin foams''. The
-amplitudes for spin foams are easy to compute in BF theory, because
+amplitudes for spin foams are easy to compute in \(BF\) theory, because
 there are a lot of explicit formulas using the so-called ``Kauffman
 bracket'', which is an easily computable invariant of spin networks. So
 then the trick is to use this technology to compute spin foam amplitudes
@@ -10122,7 +10134,7 @@ non-commutativity become negligible in the semi-classical regime.''
 
 In case you're wondering, the ``triad'' field is more or less what
 mathematicians would call a ``frame field'' or ``soldering form'' ---
-and it's the same as the ``B'' field in BF theory. It encodes the
+and it's the same as the ``B'' field in \(BF\) theory. It encodes the
 information about the metric in Ashtekar's formulation to general
 relativity.
 
@@ -15275,7 +15287,7 @@ the like:
   Seth Major, ``Operators for quantized directions'', preprint available
   as \href{https://arxiv.org/abs/gr-qc/9905019}{\texttt{gr-qc/9905019}}.
 \item
-  John Baez, ``An introduction to spin foam models of BF theory and
+  John Baez, ``An introduction to spin foam models of \(BF\) theory and
   quantum gravity'', in \emph{Geometry and Quantum Physics}, eds.~Helmut
   Gausterer and Harald Grosse, Lecture Notes in Physics,
   Springer-Verlag, Berlin, 2000, pp.~25--93. Preprint available as

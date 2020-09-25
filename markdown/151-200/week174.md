@@ -1173,15 +1173,14 @@ Andree Ehresmann added:
 > adjunction" has been explicitly constructed and studied in the paper
 > of Auderset:
 >
-> > "Adjonction et monade au niveau des $2$-categories"
+> "Adjonction et monade au niveau des $2$-categories"
 >
 > published in _Cahiers de Top. et Geom. Diff._ **XV-1** (1974), 3--20.
 >
 > More formally it could also be called "the 2-sketch of an
 > adjunction" in the terminology in my paper with Charles Ehresmann:
 >
-> > "Categories of sketched structures", in the _Cahiers_ **XIII-2**
-> > (1972),
+> "Categories of sketched structures", in the _Cahiers_ **XIII-2** (1972),
 >
 > reprinted in "Charles Ehresmann: Oeuvres completes et commentees"
 > Part **IV-2**.

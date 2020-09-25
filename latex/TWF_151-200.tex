@@ -8,6 +8,8 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 
+\usepackage{geometry}
+
 \usepackage{amsmath,amssymb}
 \usepackage[colorlinks=true]{hyperref}
 \usepackage{color}
@@ -47,6 +49,14 @@
 \usetikzlibrary{knots}
 \usetikzlibrary{arrows}
 \usetikzlibrary{decorations.pathmorphing}
+
+\usepackage[framemethod=TikZ]{mdframed}
+\surroundwithmdframed[
+   topline=false,
+   bottomline=false,
+   skipabove=\topsep,
+   skipbelow=\topsep
+]{quote}
 
 \usepackage{tikz-cd}
 
@@ -3639,13 +3649,7 @@ analog of electromagnetism. Since we've already talked about a
 \(C\). Lots of people do that. But I'll stick with Green, Schwarz and
 Witten, and call it \(A\). I'll write \(F\) for the corresponding field
 strength (which is 6dA if we use their nutty normalization).
-\end{quote}
 
-\begin{verbatim}
->
-\end{verbatim}
-
-\begin{quote}
 Let's look at that Lagrangian again, and see how much of it we can
 understand now: \[
   \begin{aligned}
@@ -3684,11 +3688,12 @@ These have a nice interpretation in terms of M2-branes (that's how
 modern-day physicists write membranes\ldots:-\textgreater) wrapped on
 the two light-cone coordinates, but what is the role of M5-branes in
 this game is unclear. While in the matrix model proposed by Smolin in
-hep-th/0002009, there are more terms involving also a \(4\)-form, which
-might be related with a wrapped M5-brane. This raises the hope that this
-matrix model might be a better try for a non-perturbative version of
-M-theory than the usual BFSS one. But this has to be investigated in
-more detail, of course; that's more or less what I'm doing now.
+\texttt{hep-th/0002009}, there are more terms involving also a
+\(4\)-form, which might be related with a wrapped M5-brane. This raises
+the hope that this matrix model might be a better try for a
+non-perturbative version of M-theory than the usual BFSS one. But this
+has to be investigated in more detail, of course; that's more or less
+what I'm doing now.
 
 \begin{quote}
 Second, why is it ``reasonable'' to assume that there aren't massless
@@ -3698,13 +3703,7 @@ in fact, so evil that nobody even dares explain why! Well, actually
 there's a paper by Witten in the above book that contains references to
 papers that supposedly explain why particles of spin \(> 2\) are bad.
 It's an excellent paper, too:
-\end{quote}
 
-\begin{verbatim}
->
-\end{verbatim}
-
-\begin{quote}
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
 \setcounter{enumi}{1}
@@ -3752,10 +3751,10 @@ And here is one by Robert Helling:
 \begin{quote}
 John Baez wrote, concerning 11d supergravity:
 
-\begin{verbatim}
- >I knew that people thought it wasn't renormalizable --- that's not 
- >very new --- but I didn't know people had become sure about it.
-\end{verbatim}
+\begin{quote}
+I knew that people thought it wasn't renormalizable --- that's not very
+new --- but I didn't know people had become sure about it.
+\end{quote}
 
 Well, it depends a bit on your definition of ``non-renormalizable''. In
 a strict sense, it means that renormalization would require an
@@ -3838,35 +3837,26 @@ there are problems remaining.
 \begin{quote}
 Unfortunately, this book does not cover supergravity theories.
 \end{quote}
-\end{quote}
-\end{quote}
 
-\begin{quote}
-\begin{quote}
 As a matter of fact, there are some books on supergravity in 4D, but no
 books covering higher-dimensional supergravity theories with a
 reasonable amount of explanations.
 \end{quote}
-\end{quote}
 
-\begin{quote}
 I've noticed! It's scandalous!
-\end{quote}
 
-\begin{quote}
-\begin{quote}
 Of course, people really able to do this properly are a handful on this
 planet, and even for them, this would require an enormous amount of work
 to get things consistent all the way with a coherent choice of
 conventions and check all the horrible formulas.
 \end{quote}
-\end{quote}
 
 I know that at least three of the sugra hot shots of the eighties
-independently started such projects and there are sugra\_book.tex files
-of various stages on their hard disks. They all gave up or made it a
-really long term project since they figured out that it would cost them
-years to basically redo all calculations in a coherent formalism.
+independently started such projects and there are
+\texttt{sugra\_book.tex} files of various stages on their hard disks.
+They all gave up or made it a really long term project since they
+figured out that it would cost them years to basically redo all
+calculations in a coherent formalism.
 
 This is just a horrible mess. Dealing with fermions just increases the
 pain. Doing a calculation twice you never get the same signs. I have
@@ -3925,9 +3915,9 @@ to describe this paper:
 \end{enumerate}
 
 This paper gives an elegant new formulation of 11d supergravity by
-starting from a kind of BF theory and then imposing constraints, very
-much like Plebanski's formulation of ordinary gravity in 4d spacetime.
-Recall that in Plebanski's formalism, we start with:
+starting from a kind of \(BF\) theory and then imposing constraints,
+very much like Plebanski's formulation of ordinary gravity in 4d
+spacetime. Recall that in Plebanski's formalism, we start with:
 
 \begin{enumerate}
 \def\labelenumi{\alph{enumi})}
@@ -4098,8 +4088,8 @@ description of what's going on!
 
 I'm getting a little worn out, so I'll just summarize the rest of the
 story. First, how do Ling and Smolin get their 11d topological field
-theory? Like I said, it's a kind of BF theory, where the Lagrangian is
-like \(\operatorname{tr}(B\wedge F)\). But there are a bunch of \(F\)
+theory? Like I said, it's a kind of \(BF\) theory, where the Lagrangian
+is like \(\operatorname{tr}(B\wedge F)\). But there are a bunch of \(F\)
 fields --- i.e., curvatures --- and thus a bunch of \(B\) fields.
 Namely, we've got the curvature of the superconnection \(A\), the
 curvature \(dC\) of the \(3\)-form \(C\), and the curvature \(dD\) of
@@ -4118,7 +4108,7 @@ a constrained topological field theory --- there's also an extra
 interaction.
 
 By the way, if you've never seen the Plebanski formulation of 4d gravity
-as a constrained BF theory, here's the original paper:
+as a constrained \(BF\) theory, here's the original paper:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -4437,10 +4427,10 @@ A while ago, De Pietri, Freidel, Krasnov and Rovelli showed how to get
 the Barrett-Crane model for Riemannian quantum gravity from a quantum
 field theory on a product of 4 copies of \(\mathrm{SO}(4)\) --- see
 \protect\hyperlink{week140}{``Week 140''}. This was based on earlier
-work by Boulatov and Ooguri, who did a similar thing for BF theory. The
-basic idea is to cook up a quantum field theory on a product of copies
-of Lie group, with a nice Lagrangian that encodes how simplices can
-stick together to form a spacetime. If you do a Feynman diagram
+work by Boulatov and Ooguri, who did a similar thing for \(BF\) theory.
+The basic idea is to cook up a quantum field theory on a product of
+copies of Lie group, with a nice Lagrangian that encodes how simplices
+can stick together to form a spacetime. If you do a Feynman diagram
 expansion of this quantum field theory, the Feynman diagrams can be
 identified with spin foams, and the sum over Feynman diagrams becomes a
 sum over spin foams.
@@ -6600,79 +6590,47 @@ about these millennial physics problems:
 
 \begin{quote}
 John Baez wrote:
-\end{quote}
 
 \begin{quote}
-\begin{quote}
-Aaron Bergman (abergman@Princeton.EDU) wrote:
-\end{quote}
-\end{quote}
+Aaron Bergman (\texttt{abergman@Princeton.EDU}) wrote:
 
-\begin{quote}
-\begin{quote}
 \begin{quote}
 John Baez wrote:
-\end{quote}
-\end{quote}
-\end{quote}
 
-\begin{quote}
-\begin{quote}
-\begin{quote}
 \begin{quote}
 Of course, this business of limiting ``physics'' to mean ``the search
 for fundamental laws'' annoys condensed matter physicists like Philipp
 Anderson, since it excludes everything they work on.
 \end{quote}
-\end{quote}
-\end{quote}
-\end{quote}
 
-\begin{quote}
-\begin{quote}
-\begin{quote}
 One should note that Gross explicitly says --- there's a Realaudio of
 the talk online --- that this is a very narrowminded list that excludes
 fundamental questions in other fields. It's not really intended to be a
 universal list.
 \end{quote}
-\end{quote}
-\end{quote}
 
-\begin{quote}
-\begin{quote}
 Good! It's too bad the text of the webpage doesn't make that clearer.
 I'm appending your comment to the version of
 \protect\hyperlink{week164}{``Week 164''} on my website, assuming you
 don't object.
 \end{quote}
-\end{quote}
 
-\begin{quote}
 Sure. Or you can just refer them to the transparencies and the talk. For
 those who don't want to bother listening to the whole thing, start
 listening at about 7:30 mins into the RealAudio stream:
 
-http://feynman.physics.lsa.umich.edu/cgi-bin/s2ktalk.cgi?questions
+\texttt{http://feynman.physics.lsa.umich.edu/cgi-bin/s2ktalk.cgi?questions}
 
 It's on transparency 4 which is why I mentioned,
-\end{quote}
 
-\begin{quote}
 \begin{quote}
 \begin{quote}
 And Witten is coming back.
 \end{quote}
-\end{quote}
-\end{quote}
 
-\begin{quote}
-\begin{quote}
 You mean he's not staying in LA? Can't take the winters out here?
 \end{quote}
-\end{quote}
 
-\begin{quote}
 I won't speculate on the reasons, but his grad students have said that
 he's coming back to the Institute.
 
@@ -10934,23 +10892,53 @@ straighten out a zig-zag: \[
 \] We can build any \(2\)-morphism in the walking adjunction by
 vertically and horizontally composing units and counits, which
 corresponds to sticking together string diagrams in a vertical or
-horizontal way. Thus, a typical \(2\)-morphism looks like this:
-
-\begin{verbatim}
-      \     \   a   /   \   a   /      /               |
-       \     R     L     R     L      /       i        |
-        \     \   /       \   /      /       / \       L
-         \     \ /         \ /      /   a   /   R      |    b
-          \     e           e      /       /     \     |
-    a      L                      R        \      \   / 
-            \         b          /     i    \      \ / 
-             \                  /     / \    L      e
-              \                /     L   R    \       
-               \              /     /  b  \    \  
-\end{verbatim}
-
-By the triangle equations, we could straighten out the zig-zag without
-changing the \(2\)-morphism.
+horizontal way. Thus, a typical \(2\)-morphism looks like this: \[
+  \begin{tikzpicture}[xscale=1.1,yscale=1.4]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down] (-2,2);
+      \strand[thick] (-1,2)
+        to [out=down,in=down,looseness=2] (0,2);
+      \strand[thick] (1,2)
+        to [out=down,in=down,looseness=2] (2,2);
+      \strand[thick] (1.5,0)
+        to [out=up,in=down] (3,2);
+      \strand[thick] (2.5,0)
+        to [out=up,in=up,looseness=2] (3.5,0);
+      \strand[thick] (4.5,0)
+        to [out=up,in=down,looseness=2] (4,1)
+        to [out=up,in=up,looseness=2] (5,1)
+        to [out=down,in=down,looseness=2] (6,1)
+        to (6,2);
+    \end{knot}
+    \node at (-2,1) {$a$};
+    \node at (-0.5,1.75) {$a$};
+    \node at (1.5,1.75) {$a$};
+    \node at (0.5,1) {$b$};
+    \node at (3,1) {$a$};
+    \node at (3,0.25) {$b$};
+    \node at (4.5,1) {$b$};
+    %
+    \node[fill=white] at (-1.25,1) {\scriptsize$L$};
+    \node[fill=white] at (-1,1.75) {\scriptsize$R$};
+    \node[fill=white] at (0,1.75) {\scriptsize$L$};
+    \node[fill=white] at (1,1.75) {\scriptsize$R$};
+    \node[fill=white] at (2,1.75) {\scriptsize$L$};
+    \node[fill=white] at (2.25,1) {\scriptsize$L$};
+    \node[fill=white] at (2.5,0.25) {\scriptsize$L$};
+    \node[fill=white] at (3.5,0.25) {\scriptsize$R$};
+    \node[fill=white] at (4.25,0.5) {\scriptsize$L$};
+    \node[fill=white] at (5,1) {\scriptsize$R$};
+    \node[fill=white] at (6,1.5) {\scriptsize$L$};
+    %
+    \node[label={[label distance=-2mm]below:{\scriptsize$e$}}] at (-0.5,1.4) {$\bullet$};
+    \node[label={[label distance=-2mm]below:{\scriptsize$e$}}] at (1.5,1.4) {$\bullet$};
+    \node[label={[label distance=-2mm]above:{\scriptsize$i$}}] at (3,0.58) {$\bullet$};
+    \node[label={[label distance=-2mm]below:{\scriptsize$e$}}] at (5.5,0.4) {$\bullet$};
+    \node[label={[label distance=-2mm]above:{\scriptsize$i$}}] at (4.5,1.58) {$\bullet$};
+  \end{tikzpicture}
+\] By the triangle equations, we could straighten out the zig-zag
+without changing the \(2\)-morphism.
 
 As you may know, the word ``anaranjado'' means ``orange'' in Spanish ---
 there was no word in English for ``orange'' before people in England
@@ -10959,22 +10947,34 @@ because if we take the above picture and paint the regions labelled
 ``\(a\)'' orange, and paint the regions labelled ``\(b\)'' black, the
 above picture has a roughly tiger-striped appearance. In fact, these
 tiger stripes tell you everything you need to know about the
-\(2\)-morphism! For example, starting from just this:
-
-\begin{verbatim}
-      \     \   a   /   \   a   /      /               |
-       \     \     /     \     /      /       _        |
-        \     \   /       \   /      /       / \       |
-         \     \_/         \_/      /   a   /   \      |    b
-          \                        /       /     \     |
-    a      \                      /        \      \   / 
-            \         b          /     _    \      \_/ 
-             \                  /     / \    \      
-              \                /     /   \    \       
-               \              /     /  b  \    \  
-\end{verbatim}
-
-you can figure out where everything else should go.
+\(2\)-morphism! For example, starting from just this: \[
+  \begin{tikzpicture}[xscale=0.8,yscale=1.2]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down] (-2,2);
+      \strand[thick] (-1,2)
+        to [out=down,in=down,looseness=2] (0,2);
+      \strand[thick] (1,2)
+        to [out=down,in=down,looseness=2] (2,2);
+      \strand[thick] (1.5,0)
+        to [out=up,in=down] (3,2);
+      \strand[thick] (2.5,0)
+        to [out=up,in=up,looseness=2] (3.5,0);
+      \strand[thick] (4.5,0)
+        to [out=up,in=down,looseness=2] (4,1)
+        to [out=up,in=up,looseness=2] (5,1)
+        to [out=down,in=down,looseness=2] (6,1)
+        to (6,2);
+    \end{knot}
+    \node at (-2,1) {$a$};
+    \node at (-0.5,1.75) {$a$};
+    \node at (1.5,1.75) {$a$};
+    \node at (0.5,1) {$b$};
+    \node at (3,1) {$a$};
+    \node at (3,0.25) {$b$};
+    \node at (4.5,1) {$b$};
+  \end{tikzpicture}
+\] you can figure out where everything else should go.
 
 By the way, note that orange stripes can disappear as we go down the
 page, and they can split, but they can't appear or merge. Black stripes
@@ -10995,39 +10995,46 @@ morphisms from \(a\) to \(b\), and whose morphisms are the
 First let's look at the hom-category \(\operatorname{Hom}(a,a)\). In
 this category, the objects are \[1_a, LR, LRLR, LRLRLR, \ldots\] and all
 the morphisms are built by sticking these two basic generators together
-vertically or horizontally:
-
-\begin{verbatim}
-                     \  \    a    /  /  
-                      \  \       /  /
-                       L  R     L  R
-                        \  \   /  /
-                  a      \  \ /  /      a
-                          \  e  /
-                           \   /
-                           | b |
-                           |   |
-                           L   R
-                           |   |
-                           |   |   
-\end{verbatim}
-
-and
-
-\begin{verbatim}
-                              i
-                             / \
-                     a      |   |    a
-                            | b |     
-                            |   |
-                            L   R   
-                            |   |
-                            |   |
-\end{verbatim}
-
-In tiger language, we're talking about pictures of black stripes on an
-orange background. The two basic generators are the merging of two black
-stripes and the appearance of a black stripe.
+vertically or horizontally: \[
+  \begin{tikzpicture}[yscale=2]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down,looseness=1.5] (-1,1);
+      \strand[thick] (-0.45,1)
+        to [out=down,in=down,looseness=1.5] (0.45,1);
+      \strand[thick] (0.5,0)
+        to [out=up,in=down,looseness=1.5] (1,1);
+    \end{knot}
+    %
+    \node at (-1.25,0.35) {$a$};
+    \node at (0,0.35) {$b$};
+    \node at (0,0.9) {$a$};
+    \node at (1.25,0.35) {$a$};
+    %
+    \node[fill=white] at (-0.55,0.25) {\scriptsize$L$};
+    \node[fill=white] at (-0.95,0.75) {\scriptsize$L$};
+    \node[fill=white] at (-0.4,0.85) {\scriptsize$R$};
+    \node[fill=white] at (0.4,0.85) {\scriptsize$L$};
+    \node[fill=white] at (0.55,0.25) {\scriptsize$R$};
+    \node[fill=white] at (0.95,0.75) {\scriptsize$R$};
+    \node[label={[label distance=-2mm]below:{\scriptsize$e$}}] at (0,0.61) {$\bullet$};
+  \end{tikzpicture}
+\] and \[
+  \begin{tikzpicture}[scale=1.3]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=up,looseness=3] (0.5,0);
+    \end{knot}
+    \node at (-1,0.5) {$a$};
+    \node at (0,0.25) {$b$};
+    \node at (1,0.5) {$a$};
+    \node[fill=white] at (-0.45,0.35) {\scriptsize$L$};
+    \node[fill=white] at (0.45,0.35) {\scriptsize$R$};
+    \node[label={[label distance=-2mm]above:{\scriptsize$i$}}] at (0,0.88) {$\bullet$};
+  \end{tikzpicture}
+\] In tiger language, we're talking about pictures of black stripes on
+an orange background. The two basic generators are the merging of two
+black stripes and the appearance of a black stripe.
 
 If you read \protect\hyperlink{week89}{``Week 89''}, you'll know another
 way to describe this! Our ability to stick together pictures vertically
@@ -11035,49 +11042,96 @@ and horizontally makes \(\operatorname{Hom}(a,a)\) into a ``monoidal
 category''. \(LR\) is a ``monoid object'', with merging of two black
 stripes being ``multiplication'', and the appearance of a black stripe
 being the ``multiplicative identity''. Being a ``monoid object'' simply
-means that these operations satisfy the left unit law:
-
-\begin{verbatim}
-                                 / /                 | |
-                                / /                  | |
-                               / /                   | |
-                    /\        / /                    | |
-                    \ \      / /                     | |
-                     \ \    / /                      | |
-                      \ \  / /                  a    | |
-                       \ \/ /                        |b|
-                        |  /          =              | |
-             a          | |                          | |      a
-                        | |                          | |
-                        |b|                          | |
-                        | |     a                    | |
-                        | |                          | |
-                        | |                          | |
-                        | |                          | |
-\end{verbatim}
-
-and its mirror image, called the right unit law, together with the
-associative law:
-
-\begin{verbatim}
-            \ \  a / /    / /      \ \    \ \  a / /
-             \ \  / /  a / /        \ \  a \ \  / /
-              \ \/ /    / /          \ \    \ \/ /
-               \  /    / /            \ \    \  /
-                \ \   / /              \ \   / /
-                 \ \_/ /                \ \_/ /
-                  \   /                  \   /
-                   | |                    | |
-              a    | |   a            a   | |   a
-                   | |          =         | |
-                   |b|                    |b|
-                   | |                    | |
-                   | |                    | |
-                   | |                    | |
-                   | |                    | |
-\end{verbatim}
-
-There aren't any other laws, so \(\operatorname{Hom}(a,a)\) is the
+means that these operations satisfy the left unit law: \[
+  \begin{tikzpicture}[xscale=0.8,yscale=1.5]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down,looseness=1.5] (-1,1)
+        to [out=up,in=up,looseness=1] (-0.45,1)
+        to [out=down,in=down,looseness=1.5] (0.45,1)
+        to (0.45,1.5);
+      \strand[thick] (0.5,0)
+        to [out=up,in=down,looseness=1] (1,1)
+        to (1,1.5);
+    \end{knot}
+    %
+    \node at (-1.25,0.35) {$a$};
+    \node at (0,0.35) {$b$};
+    \node at (1.25,0.35) {$a$};
+  \end{tikzpicture}
+  \quad
+  \raisebox{3em}{$=$}
+  \quad
+  \begin{tikzpicture}[yscale=1.5]
+    \draw[thick] (-0.3,0) to (-0.3,1.5);
+    \draw[thick] (0.3,0) to (0.3,1.5);
+    %
+    \node at (-0.75,1) {$a$};
+    \node at (0,0.75) {$b$};
+    \node at (0.75,0.5) {$a$};
+  \end{tikzpicture}
+\] and its mirror image, called the right unit law, together with the
+associative law: \[
+  \begin{tikzpicture}[xscale=1,yscale=1.7]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down,looseness=1.5] (-1,1);
+      \strand[thick] (-0.45,1)
+        to [out=down,in=down,looseness=1.5] (0.45,1)
+        to (0.45,1.55);
+      \strand[thick] (0.5,0)
+        to [out=up,in=down,looseness=1] (1,1)
+        to (1,1.55);
+    \end{knot}
+    \begin{scope}[scale=0.55,shift={(-1.32,1.81)}]
+      \begin{knot}
+        \strand[thick] (-0.5,0)
+          to [out=up,in=down,looseness=1.5] (-1,1);
+        \strand[thick] (-0.45,1)
+          to [out=down,in=down,looseness=1.5] (0.45,1);
+        \strand[thick] (0.5,0)
+          to [out=up,in=down,looseness=1] (1,1);
+      \end{knot}
+    \end{scope}
+    %
+    \node at (-1.25,0.35) {$a$};
+    \node at (0,0.35) {$b$};
+    \node at (1.25,0.35) {$a$};
+    \node at (-0.73,1.5) {\scriptsize$a$};
+    \node at (0,1) {$a$};
+  \end{tikzpicture}
+  \quad
+  \raisebox{4em}{$=$}
+  \quad
+  \begin{tikzpicture}[xscale=-1,yscale=1.7]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down,looseness=1.5] (-1,1);
+      \strand[thick] (-0.45,1)
+        to [out=down,in=down,looseness=1.5] (0.45,1)
+        to (0.45,1.55);
+      \strand[thick] (0.5,0)
+        to [out=up,in=down,looseness=1] (1,1)
+        to (1,1.55);
+    \end{knot}
+    \begin{scope}[scale=0.55,shift={(-1.32,1.81)}]
+      \begin{knot}
+        \strand[thick] (-0.5,0)
+          to [out=up,in=down,looseness=1.5] (-1,1);
+        \strand[thick] (-0.45,1)
+          to [out=down,in=down,looseness=1.5] (0.45,1);
+        \strand[thick] (0.5,0)
+          to [out=up,in=down,looseness=1] (1,1);
+      \end{knot}
+    \end{scope}
+    %
+    \node at (-1.25,0.35) {$a$};
+    \node at (0,0.35) {$b$};
+    \node at (1.25,0.35) {$a$};
+    \node at (-0.73,1.5) {\scriptsize$a$};
+    \node at (0,1) {$a$};
+  \end{tikzpicture}
+\] There aren't any other laws, so \(\operatorname{Hom}(a,a)\) is the
 ``free monoidal category on a monoid object'', or if you prefer, the
 ``walking monoid''!
 
@@ -11087,26 +11141,47 @@ topology in \protect\hyperlink{week117}{``Week 117''} and
 way of thinking about \(\operatorname{Hom}(a,a)\): it's the category of
 order-preserving maps between finite ordinals!
 
-For example, these black tiger stripes on an orange background:
-
-\begin{verbatim}
-         0          1           2                     3
-    --------------------------------------------------------
-   |  \     \   a |   |  a  /      /               |    |   |
-   |   \     \    |   |    /      /       _        |    |   |
-   |    \     \   |   |   /      /       / \       |    |   |
-   |     \     \_/     \_/      /   a   /   \      |    |   |
-   |      \                    /        \    \     |    |   |
-   | a     \                  /          \    \   /    /    |
-   |        \       b        /     _      \    \_/    /     |
-   |         \              /     / \      \         /      |
-   |          \            /     / b \      \   b   /   a   |
-   |           \          /     /     \      \     |        |
-    --------------------------------------------------------
-                     0             1            2
-\end{verbatim}
-
-correspond to the order-preserving map
+For example, these black tiger stripes on an orange background: \[
+  \begin{tikzpicture}[xscale=0.8,yscale=1.2]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down] (-2,2);
+      \strand[thick] (-1,2)
+        to [out=down,in=down,looseness=2] (0,2);
+      \strand[thick] (1,2)
+        to [out=down,in=down,looseness=2] (2,2);
+      \strand[thick] (1.5,0)
+        to [out=up,in=down](3,2);
+      \strand[thick] (2.5,0)
+        to [out=up,in=up,looseness=2] (3.5,0);
+      \strand[thick] (5.1,0)
+        to [out=up,in=down,looseness=1] (4.5,1)
+        to [out=up,in=up,looseness=1.5] (5.17,1)
+        to [out=down,in=down,looseness=1.5] (5.83,1)
+        to (5.83,2);
+      \strand[thick] (5.9,0)
+        to [out=up,in=down,looseness=1] (6.5,1)
+        to (6.5,2);
+    \end{knot}
+    \node at (-1.7,0.5) {$a$};
+    \node at (-0.5,1.75) {$a$};
+    \node at (1.5,1.75) {$a$};
+    \node at (0.5,1) {$b$};
+    \node at (3.5,1) {$a$};
+    \node at (3,0.25) {$b$};
+    \node at (5.5,0.25) {$b$};
+    \node at (6.6,0.3) {$a$};
+    %
+    \draw[thick] (-2.5,0) rectangle ++(9.5,2);
+    \node at (0.5,-0.25) {$0$};
+    \node at (3,-0.25) {$1$};
+    \node at (5.5,-0.25) {$2$};
+    \node at (-1.5,2.25) {$0$};
+    \node at (0.5,2.25) {$1$};
+    \node at (2.5,2.25) {$2$};
+    \node at (6.17,2.25) {$3$};
+  \end{tikzpicture}
+\] correspond to the order-preserving map
 \[f\colon \{0,1,2,3\} \to \{0,1,2\}\] with
 \[f(0) = 0,\quad f(1) = 0,\quad f(2) = 0,\quad f(3) = 2.\] Just read the
 stripes down!
@@ -11133,19 +11208,9 @@ denoted \(\Delta\). Here the object
       \rar
     &\ldots
   \end{tikzcd}
-\]
-
-\begin{verbatim}
-                                 -i.LRLR-->
-                 --i.LR->        -LR.i.LR->
-1a  --i-->  LR  --LR.i->  LRLR  -LRLR.i-->  LRLRLR ...
-                 <-L.e.R-        <-L.e.RLR-
-                                 <-LRL.e.R-
-\end{verbatim}
-
-are the basic ``face'' and ``degeneracy'' maps between simplices, which
-you'll find in any book on algebraic topology. The \(n\)-simplex is a
-face of the \((n+1)\)-simplex in n+1 ways, and there are n basic
+\] are the basic ``face'' and ``degeneracy'' maps between simplices,
+which you'll find in any book on algebraic topology. The \(n\)-simplex
+is a face of the \((n+1)\)-simplex in n+1 ways, and there are n basic
 degenerate ways to map the \((n+1)\)-simplex down to the \(n\)-simplex.
 These aren't \emph{all} the morphisms; just enough to generate all the
 rest by composition --- i.e., sticking together pictures vertically, but
@@ -11154,95 +11219,91 @@ rest by composition --- i.e., sticking together pictures vertically, but
 Perhaps I should explain the notation here a bit more. Readers of
 \protect\hyperlink{week80}{``Week 80''} will know that I use a dot to
 denote horizontal composition of \(2\)-morphisms. For example, when we
-have a couple of \(2\)-morphisms like this:
-
-\begin{verbatim}
-                      f           f'
-                  ---->----   ---->----  
-                 /   ||    \ /   ||    \              S: f \Rightarrow g
-                x    || S   y    || T   z             T: f' \Rightarrow g'
-                 \   \/    / \   \/    /
-                  ---->----   ---->----
-                      g           g'
-\end{verbatim}
-
-we get a \(2\)-morphism like this:
-
-\begin{verbatim}
-                         ff'
-                  -------->-------
-                 /       ||       \
-                x        || S.T    z                S.T: ff' \Rightarrow gg'
-                 \       \/       /
-                  -------->-------
-                         gg'
-\end{verbatim}
-
-But sometimes we can also horizontally compose a morphism and a
+have a couple of \(2\)-morphisms like this: \[
+  \begin{tikzpicture}
+    \node (x) at (0,0) {$x$};
+    \node (y) at (2,0) {$y$};
+    \node (z) at (4,0) {$z$};
+    \draw[->] (x) .. node[label={[label distance=-1mm]above:{\scriptsize$f$}}]{} controls (0.7,0.7) and (1.3,0.7) .. (y);
+    \draw[->] (x) .. node[label={[label distance=-1mm]below:{\scriptsize$g$}}]{}controls (0.7,-0.7) and (1.3,-0.7) .. (y);
+    \draw[double,double equal sign distance,-implies] (1,0.5) to node[label={[label distance=-1mm]right:{\scriptsize$S$}}]{} (1,-0.5);
+    \draw[->] (y) .. node[label={[label distance=-1mm]above:{\scriptsize$f'$}}]{} controls (2.7,0.7) and (3.3,0.7) .. (z);
+    \draw[->] (y) .. node[label={[label distance=-1mm]below:{\scriptsize$g'$}}]{}controls (2.7,-0.7) and (3.3,-0.7) .. (z);
+    \draw[double,double equal sign distance,-implies] (3,0.5) to node[label={[label distance=-1mm]right:{\scriptsize$T$}}]{} (3,-0.5);
+  \end{tikzpicture}
+\] we get a \(2\)-morphism like this: \[
+  \begin{tikzpicture}[xscale=1.5]
+    \node (x) at (0,0) {$x$};
+    \node (z) at (2,0) {$z$};
+    \draw[->] (x) .. node[label={[label distance=-1mm]above:{\scriptsize$ff'$}}]{} controls (0.7,0.7) and (1.3,0.7) .. (z);
+    \draw[->] (x) .. node[label={[label distance=-1mm]below:{\scriptsize$gg'$}}]{}controls (0.7,-0.7) and (1.3,-0.7) .. (z);
+    \draw[double,double equal sign distance,-implies] (1,0.5) to node[label={[label distance=-1mm]right:{\scriptsize$S\cdot T$}}]{} (1,-0.5);
+  \end{tikzpicture}
+\] But sometimes we can also horizontally compose a morphism and a
 2-morphism! We can do it whenever our morphism \(f\) looks like a little
-``whisker'' \(f\) sticking out of the \(2\)-morphism \(T\):
-
-\begin{verbatim}
-                                  f'
-                              ---->----  
-                      f      /   ||    \              
-                x----->-----y    || T   z             T: f' \Rightarrow g'
-                             \   \/    /
-                              ---->----
-                                  g'
-\end{verbatim}
-
-and what we get is a \(2\)-morphism \(f\cdot S\) like this:
-
-\begin{verbatim}
-                         ff'
-                  -------->-------
-                 /       ||       \
-                x        || f.T    z                f.T: ff' \Rightarrow fg'
-                 \       \/       /
-                  -------->-------
-                         fg'
-\end{verbatim}
-
-This process, called ``whiskering'', is not really a new operation.
+``whisker'' \(f\) sticking out of the \(2\)-morphism \(T\): \[
+  \begin{tikzpicture}
+    \node (x) at (0,0) {$x$};
+    \node (y) at (2,0) {$y$};
+    \node (z) at (4,0) {$z$};
+    \draw[->] (x) to node[label={[label distance=-1mm]above:{\scriptsize$f$}}]{} (y);
+    \draw[->] (y) .. node[label={[label distance=-1mm]above:{\scriptsize$f'$}}]{} controls (2.7,0.7) and (3.3,0.7) .. (z);
+    \draw[->] (y) .. node[label={[label distance=-1mm]below:{\scriptsize$g'$}}]{}controls (2.7,-0.7) and (3.3,-0.7) .. (z);
+    \draw[double,double equal sign distance,-implies] (3,0.5) to node[label={[label distance=-1mm]right:{\scriptsize$T$}}]{} (3,-0.5);
+  \end{tikzpicture}
+\] and what we get is a \(2\)-morphism \(f\cdot S\) like this: \[
+  \begin{tikzpicture}[xscale=1.5]
+    \node (x) at (0,0) {$x$};
+    \node (z) at (2,0) {$z$};
+    \draw[->] (x) .. node[label={[label distance=-1mm]above:{\scriptsize$ff'$}}]{} controls (0.7,0.7) and (1.3,0.7) .. (z);
+    \draw[->] (x) .. node[label={[label distance=-1mm]below:{\scriptsize$fg'$}}]{}controls (0.7,-0.7) and (1.3,-0.7) .. (z);
+    \draw[double,double equal sign distance,-implies] (1,0.5) to node[label={[label distance=-1mm]right:{\scriptsize$f\cdot T$}}]{} (1,-0.5);
+  \end{tikzpicture}
+\] This process, called ``whiskering'', is not really a new operation.
 \(f\cdot S\) is really just the horizontal composite of these
-\(2\)-morphisms:
-
-\begin{verbatim}
-                      f           f'
-                  ---->----   ---->----  
-                 /   ||    \ /   ||    \              
-                x    ||1_f  y    || S   z             
-                 \   \/    / \   \/    /
-                  ---->----   ---->----
-                      f           g'
-\end{verbatim}
-
-Similarly we can define \(T\cdot f\) in this sort of situation:
-
-\begin{verbatim}
-                      f'           
-                  ---->----   
-                 /   ||    \      f                   T: f' \Rightarrow g'
-                x    || T   y----->-----z             T.f: f'f \Rightarrow g'f
-                 \   \/    /
-                  ---->---- 
-                      g'     
-\end{verbatim}
-
-Anyway, once you're an expert on this \(2\)-categorical yoga, you can
+\(2\)-morphisms: \[
+  \begin{tikzpicture}
+    \node (x) at (0,0) {$x$};
+    \node (y) at (2,0) {$y$};
+    \node (z) at (4,0) {$z$};
+    \draw[->] (x) .. node[label={[label distance=-1mm]above:{\scriptsize$f$}}]{} controls (0.7,0.7) and (1.3,0.7) .. (y);
+    \draw[->] (x) .. node[label={[label distance=-1mm]below:{\scriptsize$f$}}]{}controls (0.7,-0.7) and (1.3,-0.7) .. (y);
+    \draw[double,double equal sign distance,-implies] (1,0.5) to node[label={[label distance=-1mm]right:{\scriptsize$1_f$}}]{} (1,-0.5);
+    \draw[->] (y) .. node[label={[label distance=-1mm]above:{\scriptsize$f'$}}]{} controls (2.7,0.7) and (3.3,0.7) .. (z);
+    \draw[->] (y) .. node[label={[label distance=-1mm]below:{\scriptsize$g'$}}]{}controls (2.7,-0.7) and (3.3,-0.7) .. (z);
+    \draw[double,double equal sign distance,-implies] (3,0.5) to node[label={[label distance=-1mm]right:{\scriptsize$T$}}]{} (3,-0.5);
+  \end{tikzpicture}
+\] Similarly we can define \(T\cdot f\) in this sort of situation: \[
+  \begin{tikzpicture}
+    \node (x) at (0,0) {$x$};
+    \node (y) at (2,0) {$y$};
+    \node (z) at (4,0) {$z$};
+    \draw[->] (x) .. node[label={[label distance=-1mm]above:{\scriptsize$f'$}}]{} controls (0.7,0.7) and (1.3,0.7) .. (y);
+    \draw[->] (x) .. node[label={[label distance=-1mm]below:{\scriptsize$g'$}}]{}controls (0.7,-0.7) and (1.3,-0.7) .. (y);
+    \draw[double,double equal sign distance,-implies] (1,0.5) to node[label={[label distance=-1mm]right:{\scriptsize$T$}}]{} (1,-0.5);
+    \draw[->] (y) to node[label={[label distance=-1mm]above:{\scriptsize$f$}}]{} (z);
+  \end{tikzpicture}
+\] Anyway, once you're an expert on this \(2\)-categorical yoga, you can
 easily see that these morphisms in \(\operatorname{Hom}(a,a)\), which
-are really 2-morphisms in \(\mathsf{Ad}\):
-
-\begin{verbatim}
-                                 -i.LRLR-->
-                 --i.LR->        -LR.i.LR->
-1a  --i-->  LR  --LR.i->  LRLR  -LRLR.i-->  LRLRLR ...
-                 <-L.e.R-        <-L.e.RLR-
-                                 <-LRL.e.R-
-\end{verbatim}
-
-are obtained by taking our basic tiger stripe operations --- the
+are really 2-morphisms in \(\mathsf{Ad}\): \[
+  \begin{tikzcd}[column sep=huge]
+    1_a
+      \rar["i" description]
+    & LR
+      \rar[shift left=5,"i\cdot LR" description]
+      \rar["LR\cdot i" description]
+    & LRLR
+      \rar[shift left=10,"i\cdot LRLR" description]
+      \rar[shift left=5,"LR\cdot i\cdot LR" description]
+      \rar["LRLR\cdot i" description]
+      \lar[shift left=5,"L\cdot e\cdot R" description]
+    & LRLRLR
+      \lar[shift left=5,"L\cdot e\cdot RLR" description]
+      \lar[shift left=10,"LRL\cdot e\cdot R" description]
+      \rar
+    &\ldots
+  \end{tikzcd}
+\] are obtained by taking our basic tiger stripe operations --- the
 ``merging of two black stripes'', or \(L\cdot e\cdot R\), and the
 ``appearance of a black stripe'', or \(i\) --- and drawing some extra
 black stripes on both sides. That's what those \(LR\)'s are for. After
@@ -11252,69 +11313,93 @@ Okay. Now, having understood \(\operatorname{Hom}(a,a)\) in all these
 ways, let's turn to \(\operatorname{Hom}(b,b)\). Luckily, this is very
 similar! Here the objects are
 \[1_b,\quad RL,\quad RLRL,\quad RLRLRL,\quad \ldots\] and morphisms are
-pictures of \emph{orange} stripes on a \emph{black} background:
-
-\begin{verbatim}
-           \   a   /   \   a   /      /               |
-            \     /     \     /      /       _        |
-             \   /       \   /      /       / \       |
-              \_/         \_/      /   a   /   \      |    b
-                                  /       /     \     |
-                                 /        \      \   / 
-       b                        /     _    \      \_/ 
-                               /     / \    \      
-                              /     /   \    \       
-                             /     /  b  \    \  
-\end{verbatim}
-
-These orange stripes can only split:
-
-\begin{verbatim}
-                           |   |
-                           |   |   
-                           R   L
-                           |   |
-                           | a |
-                           /   \                           
-                          /  i  \
-                  b      /  / \  \      b
-                        /  /   \  \
-                       R  L     R  L
-                      /  /       \  \
-                     /  /    b    \  \ 
-\end{verbatim}
-
-or disappear:
-
-\begin{verbatim}
-                            |   |    
-                     b      | a |     b 
-                            |   |
-                            R   L   
-                            |   |
-                            |   |
-                             \ /
-                              e
-\end{verbatim}
-
-as we march down the page. This means is that
+pictures of \emph{orange} stripes on a \emph{black} background: \[
+  \begin{tikzpicture}[xscale=0.8,yscale=1.2]
+    \begin{knot}
+      \strand[thick] (-1,2)
+        to [out=down,in=down,looseness=2] (0,2);
+      \strand[thick] (1,2)
+        to [out=down,in=down,looseness=2] (2,2);
+      \strand[thick] (1.5,0)
+        to [out=up,in=down](3,2);
+      \strand[thick] (2.5,0)
+        to [out=up,in=up,looseness=2] (3.5,0);
+      \strand[thick] (5.1,0)
+        to [out=up,in=down,looseness=1] (4.5,1)
+        to [out=up,in=up,looseness=1.5] (5.17,1)
+        to [out=down,in=down,looseness=1.5] (5.83,1)
+        to (5.83,2);
+    \end{knot}
+    \node at (-0.5,1.75) {$a$};
+    \node at (1.5,1.75) {$a$};
+    \node at (0.5,1) {$b$};
+    \node at (3.5,1) {$a$};
+    \node at (3,0.25) {$b$};
+    \node at (5.75,0.25) {$b$};
+  \end{tikzpicture}
+\] These orange stripes can only split: \[
+  \begin{tikzpicture}[yscale=-2]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down,looseness=1.5] (-1,1);
+      \strand[thick] (-0.45,1)
+        to [out=down,in=down,looseness=1.5] (0.45,1);
+      \strand[thick] (0.5,0)
+        to [out=up,in=down,looseness=1.5] (1,1);
+    \end{knot}
+    %
+    \node at (-1.25,0.35) {$b$};
+    \node at (0,0.35) {$a$};
+    \node at (0,0.9) {$b$};
+    \node at (1.25,0.35) {$b$};
+    %
+    \node[fill=white] at (-0.55,0.25) {\scriptsize$R$};
+    \node[fill=white] at (-0.95,0.75) {\scriptsize$R$};
+    \node[fill=white] at (-0.4,0.85) {\scriptsize$L$};
+    \node[fill=white] at (0.4,0.85) {\scriptsize$R$};
+    \node[fill=white] at (0.55,0.25) {\scriptsize$L$};
+    \node[fill=white] at (0.95,0.75) {\scriptsize$L$};
+    \node[label={[label distance=-2mm]above:{\scriptsize$i$}}] at (0,0.61) {$\bullet$};
+  \end{tikzpicture}
+\] or disappear: \[
+  \begin{tikzpicture}[xscale=1.3,yscale=-1]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=up,looseness=3] (0.5,0);
+    \end{knot}
+    \node at (-1,0.5) {$b$};
+    \node at (0,0.25) {$a$};
+    \node at (1,0.5) {$b$};
+    \node[fill=white] at (-0.45,0.35) {\scriptsize$R$};
+    \node[fill=white] at (0.45,0.35) {\scriptsize$L$};
+    \node[label={[label distance=-2mm]below:{\scriptsize$e$}}] at (0,0.88) {$\bullet$};
+  \end{tikzpicture}
+\] as we march down the page. This means is that
 \(\operatorname{Hom}(b,b)\) is \(\Delta^{\mathrm{op}}\): the
 \emph{opposite} of the category of simplices, the \emph{opposite} of the
 category of finite ordinals, or the walking \emph{comonoid} --- which is
 just like a monoid, only upside down!
 
-Here is another picture of \(\operatorname{Hom}(b,b)\):
-
-\begin{verbatim}
-                                  --R.i.LRL->
-                 --R.i.L->        --RLR.i.L->
-1b  <--e--  RL  <--e.RL--  RLRL  <--e.RLRL--  RLRLRL ...
-                 <--RL.e--        <--RL.e.RL-
-                                  <--RLRL.e--
-\end{verbatim}
-
-If you're a devoted reader of This Week's Finds, you'll know I secretly
-drew this category already in section N of
+Here is another picture of \(\operatorname{Hom}(b,b)\): \[
+  \begin{tikzcd}[column sep=huge]
+    1_b
+    & RL
+      \lar["e" description]
+      \rar[shift left=5,"R\cdot i\cdot L" description]
+    & RLRL
+      \rar[shift left=10,"R\cdot i LRL" description]
+      \rar[shift left=5,"RLR\cdot i\cdot L" description]
+      \lar[shift left=5,"RL\cdot e" description]
+      \lar["e\cdot RL" description]
+    & RLRLRL
+      \lar["e\cdot RLRL" description]
+      \lar[shift left=5,"RL\cdot e\cdot RL" description]
+      \lar[shift left=10,"RLRL\cdot e" description]
+    &\ldots
+      \lar
+  \end{tikzcd}
+\] If you're a devoted reader of This Week's Finds, you'll know I
+secretly drew this category already in section N of
 \protect\hyperlink{week118}{``Week 118''}. There I was talking about
 specific adjoint functors instead of the walking adjunction, so as not
 to prematurely blow your mind. I was also writing horizontal composites
@@ -11365,124 +11450,217 @@ adjoint to \[R\colon b \to a.\] More precisely, it is a setup
 both adjunctions.
 
 In terms of string diagrams, our generating \(2\)-morphisms look like
-this:
-
-\begin{verbatim}
-                  i                             j
-                 / \                           / \
-                L   R                         R   L
-               /     \                       /     \
-           a  /   b   \  a               b  /   a   \  b
-
-
-
-
-           b  \   a   /  b               a  \   b   /  a
-               R     L                       L     R
-                \   /                         \   /
-                 \ /                           \ /
-                  e                             f
-\end{verbatim}
-
-and the triangle equations say all possible zig-zags can be straightened
-out.
+this: \[
+  \begin{gathered}
+    \begin{tikzpicture}[scale=1.3]
+      \begin{knot}
+        \strand[thick] (-0.5,0)
+          to [out=up,in=up,looseness=3] (0.5,0);
+      \end{knot}
+      \node at (-1,0.5) {$a$};
+      \node at (0,0.25) {$b$};
+      \node at (1,0.5) {$a$};
+      \node[fill=white] at (-0.45,0.35) {\scriptsize$L$};
+      \node[fill=white] at (0.45,0.35) {\scriptsize$R$};
+      \node[label={[label distance=-2mm]above:{\scriptsize$i$}}] at (0,0.88) {$\bullet$};
+    \end{tikzpicture}
+    \qquad
+    \begin{tikzpicture}[scale=1.3]
+      \begin{knot}
+        \strand[thick] (-0.5,0)
+          to [out=up,in=up,looseness=3] (0.5,0);
+      \end{knot}
+      \node at (-1,0.5) {$b$};
+      \node at (0,0.25) {$a$};
+      \node at (1,0.5) {$b$};
+      \node[fill=white] at (-0.45,0.35) {\scriptsize$R$};
+      \node[fill=white] at (0.45,0.35) {\scriptsize$L$};
+      \node[label={[label distance=-2mm]above:{\scriptsize$j$}}] at (0,0.88) {$\bullet$};
+    \end{tikzpicture}
+  \\[2em]
+    \begin{tikzpicture}[xscale=1.3,yscale=-1]
+      \begin{knot}
+        \strand[thick] (-0.5,0)
+          to [out=up,in=up,looseness=3] (0.5,0);
+      \end{knot}
+      \node at (-1,0.5) {$b$};
+      \node at (0,0.25) {$a$};
+      \node at (1,0.5) {$b$};
+      \node[fill=white] at (-0.45,0.35) {\scriptsize$R$};
+      \node[fill=white] at (0.45,0.35) {\scriptsize$L$};
+      \node[label={[label distance=-2mm]below:{\scriptsize$e$}}] at (0,0.88) {$\bullet$};
+    \end{tikzpicture}
+    \qquad
+    \begin{tikzpicture}[xscale=1.3,yscale=-1]
+      \begin{knot}
+        \strand[thick] (-0.5,0)
+          to [out=up,in=up,looseness=3] (0.5,0);
+      \end{knot}
+      \node at (-1,0.5) {$a$};
+      \node at (0,0.25) {$b$};
+      \node at (1,0.5) {$a$};
+      \node[fill=white] at (-0.45,0.35) {\scriptsize$L$};
+      \node[fill=white] at (0.45,0.35) {\scriptsize$R$};
+      \node[label={[label distance=-2mm]below:{\scriptsize$f$}}] at (0,0.88) {$\bullet$};
+    \end{tikzpicture}
+  \end{gathered}
+\] and the triangle equations say all possible zig-zags can be
+straightened out.
 
 Now let's study the ``walking ambidextrous adjunction'',
 \(\mathsf{AmbAd}\). As before, \(2\)-morphisms in \(\mathsf{AmbAd}\) can
 be described using pictures with orange and black stripes --- but now
 \emph{both} kinds of stripes can appear, disappear, merge or split as we
-march down the page:
-
-\begin{verbatim}
-  -------------------------------------------------------
- |   \     \   a |   |  a  /      /             |       |
- |    \     \    |   |    /      /              |       |
- |     \     \__/     \__/      /      a        |       |
- |      \        _____         /     _____      |       |
- |       \      /  a  \       /     /     \     |       |
- |  a    /     /  ___  \     /     /       \   /        |
- |      /     /  /   \  \   /     /    __   \_/         |
- |     /     /   \ b /  /  /     /    /  \              |
- |    /  b   \    \_/  /  /     /    / a  \  b          |
- |   /        \       /  /     /    /      \            |
-  -------------------------------------------------------
-\end{verbatim}
-
-This allows for quite arbitrary ways of cutting up a rectangle into
+march down the page: \[
+  \begin{tikzpicture}[xscale=0.8,yscale=1.2]
+    \begin{knot}
+      \strand[thick] (-2,-2)
+        to [out=up,in=down,looseness=0.7] (-1.5,0)
+        to [out=up,in=down,looseness=0.7] (-2,2);
+      \strand[thick] (-1,2)
+        to [out=down,in=down,looseness=2] (0,2);
+      \strand[thick] (1,2)
+        to [out=down,in=down,looseness=2] (2,2);
+      \strand[thick] (-1,-2)
+        to [out=up,in=down] (-0.5,0.5)
+        to [out=up,in=up,looseness=1.1] (0.5,0.5)
+        to [out=down,in=up] (0.6,-2);
+      \strand[thick] (0,0)
+        to [out=right,in=right,looseness=0.8] (0,-1.5)
+        to [out=left,in=right] (-0.25,-1.5)
+        to [out=left,in=left,looseness=0.8] (0,0);
+      \strand[thick] (1.5,-2)
+        to (1.5,0)
+        to [out=up,in=down](3,2);
+      \strand[thick] (2.5,-2)
+        to (2.5,0)
+        to [out=up,in=up,looseness=1.1] (5,0)
+        to [out=down,in=down,looseness=1.2] (6,0)
+        to (6,2);
+      \strand[thick] (3.3,-2)
+        to (3.3,-1)
+        to [out=up,in=up,looseness=1.5] (4.3,-1)
+        to [out=down,in=up,looseness=1.3] (6,-2);
+    \end{knot}
+    %
+    \node at (-1.95,0) {$a$};
+    \node at (-0.5,1.75) {$a$};
+    \node at (1.5,1.75) {$a$};
+    \node at (-0.1,-0.8) {$b$};
+    \node at (0,0.3) {$a$};
+    \node at (0.5,1.2) {$b$};
+    \node at (4.5,1.4) {$a$};
+    \node at (3.8,0.1) {$b$};
+    \node at (3.8,-1.25) {$a$};
+    %
+    \draw[thick] (-2.5,-2) rectangle ++(9.5,4);
+  \end{tikzpicture}
+\] This allows for quite arbitrary ways of cutting up a rectangle into
 regions of orange and black, with piecewise linear boundaries, subject
 to the condition that each vertical border has the same color all along
 it. The triangle equations and the rules for \(2\)-categories say that
 we can warp such a picture around without changing the \(2\)-morphism
 that it defines\ldots{} I don't want to be too precise here, since it
-would be boring. Hopefully you get the idea: AmbAd has a purely
-topological description!
+would be boring. Hopefully you get the idea: \(\mathsf{AmbAd}\) has a
+purely topological description!
 
 Now for the punchline: in \(\mathsf{AmbAd}\), what is the category
 \(\operatorname{Hom}(a,a)\) like? As in \(\mathsf{Ad}\), the objects are
 \[1_a,\quad LR,\quad LRLR,\quad LRLRLR,\quad \ldots\] but now the object
-LR is equipped not only with multiplication:
-
-\begin{verbatim}
-                     \  \    a    /  /  
-                      \  \       /  /
-                       L  R     L  R
-                        \  \   /  /
-                  a      \  \ /  /      a      
-                          \  e  /                     multiplication:
-                           \   /                     L.e.R: LRLR \Rightarrow LR 
-                           | b |
-                           |   |
-                           L   R
-                           |   |
-                           |   |   
-\end{verbatim}
-
-and multiplicative identity:
-
-\begin{verbatim}
-                             i
-                            / \
-                    a      |   |    a                 multiplicative
-                           | b |                         identity:
-                           |   |                        i: 1a \Rightarrow LR
-                           L   R   
-                           |   |
-                           |   |
-\end{verbatim}
-
-but also a ``comultiplication'':
-
-\begin{verbatim}
-                           |   |
-                           |   |   
-                           L   R
-                           |   |
-                           | b |
-                           /   \                           
-                          /  j  \                    comultiplication:
-                  a      /  / \  \      a            L.j.R: LR \Rightarrow LRLR
-                        /  /   \  \
-                       L  R     L  R
-                      /  /       \  \
-                     /  /    b    \  \ 
-\end{verbatim}
-
-and ``comultiplicative coidentity'':
-
-\begin{verbatim}
-                            |   |    
-                     a      | b |     a 
-                            |   |                    comultiplicative
-                            L   R                       coidentity:
-                            |   |                      f: LR \Rightarrow 1a
-                            |   |
-                             \ /
-                              f
-\end{verbatim}
-
-which make it into a monoid object \emph{and} a comonoid object. Even
+\(LR\) is equipped not only with multiplication: \[
+  \begin{tikzpicture}[yscale=2]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down,looseness=1.5] (-1,1);
+      \strand[thick] (-0.45,1)
+        to [out=down,in=down,looseness=1.5] (0.45,1);
+      \strand[thick] (0.5,0)
+        to [out=up,in=down,looseness=1.5] (1,1);
+    \end{knot}
+    %
+    \node at (-1.25,0.35) {$a$};
+    \node at (0,0.35) {$b$};
+    \node at (0,0.9) {$a$};
+    \node at (1.25,0.35) {$a$};
+    %
+    \node[fill=white] at (-0.55,0.25) {\scriptsize$L$};
+    \node[fill=white] at (-0.95,0.75) {\scriptsize$L$};
+    \node[fill=white] at (-0.4,0.85) {\scriptsize$R$};
+    \node[fill=white] at (0.4,0.85) {\scriptsize$L$};
+    \node[fill=white] at (0.55,0.25) {\scriptsize$R$};
+    \node[fill=white] at (0.95,0.75) {\scriptsize$R$};
+    \node[label={[label distance=-2mm]below:{\scriptsize$e$}}] at (0,0.61) {$\bullet$};
+    %
+    \node at (0,-0.3) {multiplication:};
+    \node at (0,-0.5) {$L\cdot e\cdot R\colon LRLR\Rightarrow LR$};
+  \end{tikzpicture}
+\] and multiplicative identity: \[
+  \begin{tikzpicture}[scale=1.3]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=up,looseness=3] (0.5,0);
+    \end{knot}
+    \node at (-1,0.5) {$a$};
+    \node at (0,0.25) {$b$};
+    \node at (1,0.5) {$a$};
+    \node[fill=white] at (-0.45,0.35) {\scriptsize$L$};
+    \node[fill=white] at (0.45,0.35) {\scriptsize$R$};
+    \node[label={[label distance=-2mm]above:{\scriptsize$i$}}] at (0,0.88) {$\bullet$};
+    %
+    \node at (0,-0.4) {multiplicative identity:};
+    \node at (0,-0.75) {$i\colon 1_a\Rightarrow LR$};
+  \end{tikzpicture}
+\] but also a ``comultiplication'': \[
+  \begin{tikzpicture}[yscale=2]
+    \begin{scope}[yscale=-1,shift={(0,-1)}]
+      \begin{knot}
+        \strand[thick] (-0.5,0)
+          to [out=up,in=down,looseness=1.5] (-1,1);
+        \strand[thick] (-0.45,1)
+          to [out=down,in=down,looseness=1.5] (0.45,1);
+        \strand[thick] (0.5,0)
+          to [out=up,in=down,looseness=1.5] (1,1);
+      \end{knot}
+      %
+      \node at (-1.25,0.35) {$a$};
+      \node at (0,0.35) {$b$};
+      \node at (0,0.9) {$a$};
+      \node at (1.25,0.35) {$a$};
+      %
+      \node[fill=white] at (-0.55,0.25) {\scriptsize$L$};
+      \node[fill=white] at (-0.95,0.75) {\scriptsize$L$};
+      \node[fill=white] at (-0.4,0.85) {\scriptsize$R$};
+      \node[fill=white] at (0.4,0.85) {\scriptsize$L$};
+      \node[fill=white] at (0.55,0.25) {\scriptsize$R$};
+      \node[fill=white] at (0.95,0.75) {\scriptsize$R$};
+      \node[label={[label distance=-2mm]above:{\scriptsize$j$}}] at (0,0.61) {$\bullet$};
+    \end{scope}
+    %
+    \node at (0,-0.3) {comultiplication:};
+    \node at (0,-0.5) {$L\cdot j\cdot R\colon LR\Rightarrow LRLR$};
+  \end{tikzpicture}
+\] and ``comultiplicative coidentity'': \[
+  \begin{tikzpicture}[scale=1.3]
+    \begin{scope}[yscale=-1,shift={(0,-1)}]
+      \begin{knot}
+        \strand[thick] (-0.5,0)
+          to [out=up,in=up,looseness=3] (0.5,0);
+      \end{knot}
+      \node at (-1,0.5) {$a$};
+      \node at (0,0.25) {$b$};
+      \node at (1,0.5) {$a$};
+      \node[fill=white] at (-0.45,0.35) {\scriptsize$L$};
+      \node[fill=white] at (0.45,0.35) {\scriptsize$R$};
+      \node[label={[label distance=-2mm]below:{\scriptsize$f$}}] at (0,0.88) {$\bullet$};
+    \end{scope}
+    %
+    \node at (0,-0.5) {comultiplicative identity:};
+    \node at (0,-0.85) {$f\colon LR\Rightarrow 1_a$};
+  \end{tikzpicture}
+\] which make it into a monoid object \emph{and} a comonoid object. Even
 better, there are some extra relations between the multiplication and
-comultiplication, which make LR into a so-called ``Frobenius object''!
+comultiplication, which make \(LR\) into a so-called ``Frobenius
+object''!
 
 In short, \(\operatorname{Hom}(a,a)\) is the walking Frobenius object!
 So is \(\operatorname{Hom}(b,b)\), since there is no real asymmetry
@@ -11498,28 +11676,54 @@ what it means to say \(LR\) is a ``Frobenius object''. What are the
 extra relations between multiplication and comultiplication?
 
 There are various ways of describing these relations. Mueger uses a pair
-of equations that are popular in the TQFT literature:
-
-\begin{verbatim}
-               \ \     / /                | |        | |
-                \ \   / /                 | |        | |
-                 \ \_/ /                  | |        | |
-                  \   /                   |  \   a   | |
-                   | |                    |   \      | |
-              a    | |   a           a    | |\ \     | |   a
-                   | |                    | | \ \    | |
-                   |b|                    | |  \ \   | |
-                   | |          =         | |   \ \  | |
-                   | |                    | |    \ \ | |
-                   | |                    | |  a  \ | |
-                   | |                    | |      \   |
-                  / _ \                   | |       \ b|
-                 / / \ \                  | |        | |
-                / /   \ \                 | |        | | 
-               / /     \ \                | |        | |
-\end{verbatim}
-
-and its mirror image. People sometimes call these the ``\(I = N\)''
+of equations that are popular in the TQFT literature: \[
+  \begin{tikzpicture}[yscale=2]
+    \begin{knot}
+      \strand[thick] (-1,-1.5)
+        to [out=up,in=down,looseness=1.5] (-0.4,-0.5)
+        to (-0.4,0)
+        to [out=up,in=down,looseness=1.5] (-1,1);
+      \strand[thick] (-0.45,1)
+        to [out=down,in=down,looseness=1.5] (0.45,1);
+      \strand[thick] (-0.45,-1.5)
+        to [out=up,in=up,looseness=1.5] (0.45,-1.5);
+      \strand[thick] (1,-1.5)
+        to [out=up,in=down,looseness=1.5] (0.4,-0.5)
+        to (0.4,0)
+        to [out=up,in=down,looseness=1.5] (1,1);
+    \end{knot}
+    %
+    \node at (-1.25,-0.25) {$a$};
+    \node at (0,-0.25) {$b$};
+    \node at (0,0.9) {$a$};
+    \node at (1.25,-0.25) {$a$};
+    \node at (0,-1.4) {$a$};
+  \end{tikzpicture}
+  \qquad
+  \raisebox{7em}{$=$}
+  \qquad
+  \begin{tikzpicture}[yscale=2]
+    \begin{knot}
+      \strand[thick] (-1,-1.5) to (-1,1);
+      \strand[thick] (-0.5,-1.5)
+        to (-0.5,-0.5)
+        to [out=up,in=left] (-0.25,-0.35)
+        to [out=right,in=up,looseness=0.6] (0.5,-1.25)
+        to (0.5,-1.5);
+      \strand[thick] (0.5,1)
+        to (0.5,0)
+        to [out=down,in=right] (0.25,-0.15)
+        to [out=left,in=down,looseness=0.6] (-0.5,0.75)
+        to (-0.5,1);
+      \strand[thick] (1,-1.5) to (1,1);
+    \end{knot}
+    \node at (-1.5,-0.25) {$a$};
+    \node at (0,0.75) {$a$};
+    \node at (0,-0.25) {$b$};
+    \node at (0,-1) {$a$};
+    \node at (1.5,-0.25) {$a$};
+  \end{tikzpicture}
+\] and its mirror image. People sometimes call these the ``\(I = N\)''
 equations, for the obvious reason. So: one definition of a ``Frobenius
 object'' in a monoidal category is that it's a monoid object / comonoid
 object satisfying the \(I = N\) equations.
@@ -11554,32 +11758,53 @@ please stop now.
 
 Hmm! If you're still reading this, you must be brave! Okay --- don't say
 I didn't warn you. Let's start by pondering \(LR\) a bit more. This guy
-is its own adjoint, with the unit and counit as follows:
-
-\begin{verbatim}
-                      _
-                a    / \      
-                    |   |                     
-                    |   |                      unit for LR =
-                    | b |           multiplicative identity composed with
-                   /  _  \                    comultiplication                
-                  /  / \  \
-                 /  /   \  \
-                /  /  a  \  \
-
-
-
-                \  \  a  /  /
-                 \  \   /  /                 
-                  \  \_/  /                   counit for LR =
-                   \     /              multiplication composed with 
-               a    | b |                comultiplicative coidentity
-                    |   |
-                    |   |
-                     \_/
-\end{verbatim}
-
-It's easy to check the triangle equations by straightening out the
+is its own adjoint, with the unit and counit as follows: \[
+  \begin{tikzpicture}[yscale=2]
+    \begin{scope}[yscale=-1,shift={(0,-0.75)}]
+      \begin{knot}
+        \strand[thick] (-0.5,0)
+          to [out=up,in=down,looseness=1.5] (-1,1);
+        \strand[thick] (-0.45,1)
+          to [out=down,in=down,looseness=1.5] (0.45,1);
+        \strand[thick] (0.5,0)
+          to [out=up,in=down,looseness=1.5] (1,1);
+        \strand[thick] (-0.5,0)
+          to [out=down,in=down] (0.5,0);
+      \end{knot}
+      %
+      \node at (-1.25,0.35) {$a$};
+      \node at (0,0.35) {$b$};
+      \node at (0,0.9) {$a$};
+      \node at (1.25,0.35) {$a$};
+    \end{scope}
+    %
+    \node at (0,-0.5) {unit for $LR$:};
+    \node at (0,-0.75) {multiplicative identity};
+    \node at (0,-0.95) {composed with comultiplication};
+  \end{tikzpicture}
+  \qquad
+  \begin{tikzpicture}[yscale=2]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down,looseness=1.5] (-1,1);
+      \strand[thick] (-0.45,1)
+        to [out=down,in=down,looseness=1.5] (0.45,1);
+      \strand[thick] (0.5,0)
+        to [out=up,in=down,looseness=1.5] (1,1);
+      \strand[thick] (-0.5,0)
+        to [out=down,in=down] (0.5,0);
+    \end{knot}
+    %
+    \node at (-1.25,0.35) {$a$};
+    \node at (0,0.35) {$b$};
+    \node at (0,0.9) {$a$};
+    \node at (1.25,0.35) {$a$};
+    %
+    \node at (0,-0.5) {counit for $LR$:};
+    \node at (0,-0.75) {multiplication composed with};
+    \node at (0,-0.95) {comultiplicative coidentity};
+  \end{tikzpicture}
+\] It's easy to check the triangle equations by straightening out the
 relevant zig-zags.
 
 Now, whenever a monoid object has a right or left adjoint, that right or
@@ -11646,9 +11871,7 @@ I don't know the Pumplun's paper cited by Wyler. But there is another
 reference at about the same time; indeed, the ``walking adjunction'' has
 been explicitly constructed and studied in the paper of Auderset:
 
-\begin{quote}
 ``Adjonction et monade au niveau des \(2\)-categories''
-\end{quote}
 
 published in \emph{Cahiers de Top. et Geom. Diff.} \textbf{XV-1} (1974),
 3--20.
@@ -11656,10 +11879,8 @@ published in \emph{Cahiers de Top. et Geom. Diff.} \textbf{XV-1} (1974),
 More formally it could also be called ``the 2-sketch of an adjunction''
 in the terminology in my paper with Charles Ehresmann:
 
-\begin{quote}
 ``Categories of sketched structures'', in the \emph{Cahiers}
 \textbf{XIII-2} (1972),
-\end{quote}
 
 reprinted in ``Charles Ehresmann: Oeuvres completes et commentees'' Part
 \textbf{IV-2}.
@@ -11690,10 +11911,7 @@ publication of Schanuel and Street proves among other things that the
 monoid \(\Delta\) in \(\mathsf{Cat}\) has very few quotients (see below
 for significance of the monoid structure).
 
-\mbox{}%
-\hypertarget{the-general-homtensor-formalism-and-a-very-particular-monoid}{%
-\paragraph{THE GENERAL HOM/TENSOR FORMALISM AND A VERY PARTICULAR
-MONOID}\label{the-general-homtensor-formalism-and-a-very-particular-monoid}}
+\textbf{THE GENERAL HOM/TENSOR FORMALISM AND A VERY PARTICULAR MONOID}
 
 In any cartesian-closed category with finite limits and co-limits, a
 non-linear version of the Cartan-Eilenberg Hom/tensor formalism applies
@@ -15333,105 +15551,59 @@ though there is one for every \emph{other} dimension from \(1\) to
 From: James Dolan Subject: Re: This Week's Finds in Mathematical Physics
 (Week 180) Date: Thu, 13 Jun 2002
 
-marc bellon wrote:
-
-\begin{quote}
-John Baez writes:
-\end{quote}
-
-\begin{quote}
-\begin{quote}
-Borcis wrote:
-\end{quote}
-\end{quote}
-
-\begin{quote}
-\begin{quote}
-\begin{quote}
-John Baez wrote:
-\end{quote}
-\end{quote}
-\end{quote}
-
-\begin{quote}
-\begin{quote}
-\begin{quote}
-\begin{quote}
-Boris Borcic wrote:
-\end{quote}
-\end{quote}
-\end{quote}
-\end{quote}
-
-\begin{quote}
-\begin{quote}
-\begin{quote}
-\begin{quote}
-\begin{quote}
-None of the diagrams for \(\mathbb{C}^n\), n even, shows an entry for
-n/2-1 dimensional isotropic subspaces --- how should we read this fact ?
-\end{quote}
-\end{quote}
-\end{quote}
-\end{quote}
-\end{quote}
-
-\begin{quote}
-\begin{quote}
-\begin{quote}
-\begin{quote}
-I don't know what it means. Isotropic subspaces of this dimension
-certainly exist, but for some reason the theory I am describing here
-does not regard them as important. It's not an arbitrary decision on
-anyone's part; it's built into the logic of the subject --- but I don't
-understand it.
-\end{quote}
-\end{quote}
-\end{quote}
-\end{quote}
-
-\begin{quote}
-\begin{quote}
-\begin{quote}
-No doubt a temporary phenomenon :)
-\end{quote}
-\end{quote}
-\end{quote}
-
-\begin{quote}
-\begin{quote}
-Let's hope so.
-\end{quote}
-\end{quote}
-
-\begin{quote}
-Let me propose an explanation. It is sufficient to consider the four
-dimensional case. In the two-dimensional case, there are two isotropic
-lines, one of which is self-dual and the other anti-self-dual, so that
-the configuration is completely fixed, consistent with the abelian
-character of \(\mathrm{SO}(2)\). Now when I choose an isotropic line is
-\(\mathbb{C}^4\), its orthogonal is a three dimensional subspace which
-contains it, so that the extension of the isotropic line to an isotropic
-plane is equivalent to choosing an isotropic line in a two-dimensional
-space. But in view of the two-dimensional case, no choice has to be
-made, so that an isotropic line uniquely define two isotropic plane, one
-self-dual, the other anti-self-dual. Reciprocally, a self-dual isotropic
-plane and an anti-self-dual one evidently cannot coincide, but they
-cannot either be complementary: in this case they are dual to each other
-using the metric and are of the same self-duality.
-\end{quote}
-
-\begin{quote}
-To give an isotropic line in \(\mathbb{C}^4\) is therefore equivalent to
-give a pair of isotropic planes, one self-dual and the other
-anti-self-dual. AFAIK, it is the property used in the twistor program of
-Penrose: you parameterize the light rays (null lines) by the isotropic
-planes it lies on. More generally, when considering \(\mathrm{SO}(2n)\),
-you do not need to consider the \((n-1)\)-dimensional isotropic plane,
-since they are uniquely defined by the combination of a self-dual
-\(n\)-space and an anti-self dual one, if they have a
+marc bellon wrote: \textgreater{} \textgreater{} John Baez writes:
+\textgreater{} \textgreater{} \textgreater{} \textgreater{} Borcis
+wrote: \textgreater{} \textgreater{} \textgreater{} \textgreater{}
+\textgreater{} \textgreater{} John Baez wrote: \textgreater{}
+\textgreater{} \textgreater{} \textgreater{} \textgreater{}
+\textgreater{} \textgreater{} \textgreater{} Boris Borcic wrote:
+\textgreater{} \textgreater{} \textgreater{} \textgreater{}
+\textgreater{} \textgreater{} \textgreater{} \textgreater{}
+\textgreater{} \textgreater{} None of the diagrams for \(\mathbb{C}^n\),
+\(n\) even, shows an entry for \(n/2-1\) \textgreater{} \textgreater{}
+\textgreater{} \textgreater{} \textgreater{} dimensional isotropic
+subspaces --- how should we read this fact ? \textgreater{}
+\textgreater{} \textgreater{} \textgreater{} \textgreater{}
+\textgreater{} \textgreater{} \textgreater{} I don't know what it means.
+Isotropic subspaces of this \textgreater{} \textgreater{} \textgreater{}
+\textgreater{} dimension certainly exist, but for some reason the theory
+\textgreater{} \textgreater{} \textgreater{} \textgreater{} I am
+describing here does not regard them as important. It's \textgreater{}
+\textgreater{} \textgreater{} \textgreater{} not an arbitrary decision
+on anyone's part; it's built into the \textgreater{} \textgreater{}
+\textgreater{} \textgreater{} logic of the subject --- but I don't
+understand it. \textgreater{} \textgreater{} \textgreater{}
+\textgreater{} \textgreater{} \textgreater{} No doubt a temporary
+phenomenon :) \textgreater{} \textgreater{} \textgreater{}
+\textgreater{} Let's hope so. \textgreater{} \textgreater{} Let me
+propose an explanation. \textgreater{} It is sufficient to consider the
+four dimensional case. \textgreater{} In the two-dimensional case, there
+are two isotropic lines, \textgreater{} one of which is self-dual and
+the other anti-self-dual, so that \textgreater{} the configuration is
+completely fixed, consistent with the abelian \textgreater{} character
+of \(\mathrm{SO}(2)\). \textgreater{} Now when I choose an isotropic
+line is \(\mathbb{C}^4\), its orthogonal is a three \textgreater{}
+dimensional subspace which contains it, so that the extension of the
+\textgreater{} isotropic line to an isotropic plane is equivalent to
+choosing an \textgreater{} isotropic line in a two-dimensional space.
+But in view of the \textgreater{} two-dimensional case, no choice has to
+be made, so that an isotropic \textgreater{} line uniquely define two
+isotropic plane, one self-dual, the other \textgreater{} anti-self-dual.
+Reciprocally, a self-dual isotropic plane and an \textgreater{}
+anti-self-dual one evidently cannot coincide, but they cannot either
+\textgreater{} be complementary: in this case they are dual to each
+other using the \textgreater{} metric and are of the same self-duality.
+\textgreater{} \textgreater{} To give an isotropic line in
+\(\mathbb{C}^4\) is therefore equivalent to give a \textgreater{} pair
+of isotropic planes, one self-dual and the other anti-self-dual.
+\textgreater{} AFAIK, it is the property used in the twistor program of
+Penrose: \textgreater{} you parameterize the light rays (null lines) by
+the isotropic planes \textgreater{} it lies on. More generally, when
+considering \(\mathrm{SO}(2n)\), you do not need \textgreater{} to
+consider the \((n-1)\)-dimensional isotropic plane, since they are
+\textgreater{} uniquely defined by the combination of a self-dual
+\(n\)-space and an \textgreater{} anti-self dual one, if they have a
 \((n-2)\)-dimensional space in common.
-\end{quote}
 
 this seems like a good explanation. extrapolating from this case, maybe
 whenever we have a dynkin diagram corresponding to a particular sort of
@@ -16202,7 +16374,7 @@ In fact, Cris Moore first discovered the figure-8 solution of the
 gravitational 3-body problem in his 1993 paper, using computer
 calculations. His student Michael Nauenberg made this movie of it, which
 you can find with many others on Moore's website:
-\[\includegraphics[max width=\linewidth]{../images/cris-moore-figure8.png}\]
+\[\includegraphics[max width=0.8\linewidth]{../images/cris-moore-figure8.png}\]
 Also see:
 
 \begin{enumerate}
@@ -23723,8 +23895,8 @@ triangle, draw a line from each corner to the midpoint of the opposite
 side, and inscribe a circle in the triangle. Then label the corners, the
 midpoints of the edges and the center of the triangle with the unit
 imaginary octonions, any way you like:
-\[\includegraphics[max width=\linewidth]{../images/fano.jpg}\] There are
-6 straight lines and a circle here: we call these all ``lines'', and
+\[\includegraphics[max width=0.8\linewidth]{../images/fano.jpg}\] There
+are 6 straight lines and a circle here: we call these all ``lines'', and
 call this gadget the ``Fano plane''. There are 7 points and 7 lines:
 each point lies on 3 lines, and each line goes through 3 points\ldots{}
 very nice.
@@ -24557,12 +24729,12 @@ all half-integers. Both these are closed under addition and
 multiplication. To get even denser lattices closed under multiplication,
 we need the octonion multiplication chart (see
 \protect\hyperlink{week104}{``Week 104''}):
-\[\includegraphics[max width=\linewidth]{../images/fano.jpg}\] This has
-7 lines in it, if we count the circle containing \(e_1,e_2,e_4\) as an
-honorary ``line''. To get the ``double Hurwitzian integral octonions'',
-first pick one of these lines. Then, take all integral linear
-combinations of Gravesian integral octonions, octonions of the form
-\[\frac{\pm 1 \pm e_i \pm e_j \pm e_k}{2}\] where \(e_i\), \(e_j\),
+\[\includegraphics[max width=0.8\linewidth]{../images/fano.jpg}\] This
+has 7 lines in it, if we count the circle containing \(e_1,e_2,e_4\) as
+an honorary ``line''. To get the ``double Hurwitzian integral
+octonions'', first pick one of these lines. Then, take all integral
+linear combinations of Gravesian integral octonions, octonions of the
+form \[\frac{\pm 1 \pm e_i \pm e_j \pm e_k}{2}\] where \(e_i\), \(e_j\),
 \(e_k\) lie on this line, and those of the form
 \[\frac{\pm e_i \pm e_j \pm e_k \pm e_l}{2}\] where \(e_i\), \(e_j\),
 \(e_k\), and \(e_l\) all lie \emph{off} this line. We get 7 different

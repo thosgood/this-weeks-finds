@@ -464,38 +464,38 @@ On `sci.physics.research`, Aaron Bergman clarified something about these
 millennial physics problems:
 
 > John Baez wrote:
-
-> > Aaron Bergman (abergman@Princeton.EDU) wrote:
-     
+> 
+> > Aaron Bergman (`abergman@Princeton.EDU`) wrote:
+> > 
 > > > John Baez wrote:
-
+> > > 
 > > > > Of course, this business of limiting "physics" to mean "the 
 > > > > search for fundamental laws" annoys condensed matter 
 > > > > physicists like Philipp Anderson, since it excludes everything 
 > > > > they work on.
-     
+> > >
 > > > One should note that Gross explicitly says --- there's a Realaudio 
 > > > of the talk online --- that this is a very narrowminded list that 
 > > > excludes fundamental questions in other fields. It's not really 
 > > > intended to be a universal list.
-     
-> > Good!   It's too bad the text of the webpage doesn't make that
-> > clearer.   I'm appending your comment to the version of ["Week 164"](#week164)
+> > 
+> > Good! It's too bad the text of the webpage doesn't make that
+> > clearer. I'm appending your comment to the version of ["Week 164"](#week164)
 > > on my website, assuming you don't object.
-
+> 
 > Sure. Or you can just refer them to the transparencies and the 
 > talk. For those who don't want to bother listening to the whole 
 > thing, start listening at about 7:30 mins into the RealAudio 
 > stream:
 > 
-> http://feynman.physics.lsa.umich.edu/cgi-bin/s2ktalk.cgi?questions
+> `http://feynman.physics.lsa.umich.edu/cgi-bin/s2ktalk.cgi?questions`
 > 
 > It's on transparency 4 which is why I mentioned,
-
+> 
 > > > And Witten is coming back.
-     
+> > 
 > > You mean he's not staying in LA?  Can't take the winters out here?
-
+> 
 > I won't speculate on the reasons, but his grad students have said 
 > that he's coming back to the Institute. 
 > 

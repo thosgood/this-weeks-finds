@@ -8,6 +8,8 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 
+\usepackage{geometry}
+
 \usepackage{amsmath,amssymb}
 \usepackage[colorlinks=true]{hyperref}
 \usepackage{color}
@@ -46,6 +48,14 @@
 \usepackage{tikz}
 \usetikzlibrary{knots}
 \usetikzlibrary{arrows}
+
+\usepackage[framemethod=TikZ]{mdframed}
+\surroundwithmdframed[
+   topline=false,
+   bottomline=false,
+   skipabove=\topsep,
+   skipbelow=\topsep
+]{quote}
 
 \usepackage{tikz-cd}
 
@@ -501,23 +511,23 @@ spheres, and Blau and Thompson mention other work in which the Casson
 invariant is generalized still further.
 
 But I didn't say \emph{which} supersymmetric field theory computes the
-Casson invariant for you. The answer is, \(N = 2\) supersymmetric BF
+Casson invariant for you. The answer is, \(N = 2\) supersymmetric \(BF\)
 theory with gauge group \(\mathrm{SU}(2)\). So now I should say a little
-about BF theory. Actually I have already mentioned it here and there,
-especially in \protect\hyperlink{week36}{``Week 36''}. But I should say
-a bit more. This is going to be pretty technical, though, so fasten your
-seatbelts.
+about \(BF\) theory. Actually I have already mentioned it here and
+there, especially in \protect\hyperlink{week36}{``Week 36''}. But I
+should say a bit more. This is going to be pretty technical, though, so
+fasten your seatbelts.
 
-The people I know who are the most excited about BF theory are the folks
-I was visiting at Milan, namely Cotta-Ramusino, Martellini and his
-student Cattaneo. They are working on BF theory in 3 and 4 dimensions.
-Let me talk about BF theory in 3 dimensions, which is what's most
-directly relevant here. Well, in \emph{any} dimension, say \(n\), the
-fields in BF theory are a connection \(A\) on a trivial bundle (take
-your favorite gauge group \(G\)), whose curvature \(F\) we'll think of
-as a \(2\)-form taking values in the Lie algebra of \(G\), and
-Lie-algebra-valued \((n-2)\)-form \(B\). Then the Lagrangian of the
-theory is \[L(B,F) = \operatorname{tr}(B \wedge F)\] where in the
+The people I know who are the most excited about \(BF\) theory are the
+folks I was visiting at Milan, namely Cotta-Ramusino, Martellini and his
+student Cattaneo. They are working on \(BF\) theory in 3 and 4
+dimensions. Let me talk about \(BF\) theory in 3 dimensions, which is
+what's most directly relevant here. Well, in \emph{any} dimension, say
+\(n\), the fields in \(BF\) theory are a connection \(A\) on a trivial
+bundle (take your favorite gauge group \(G\)), whose curvature \(F\)
+we'll think of as a \(2\)-form taking values in the Lie algebra of
+\(G\), and Lie-algebra-valued \((n-2)\)-form \(B\). Then the Lagrangian
+of the theory is \[L(B,F) = \operatorname{tr}(B \wedge F)\] where in the
 ``trace'' we're using something like the Killing form to get an honest
 n-form which we can integrate over spacetime.
 
@@ -527,7 +537,7 @@ But in 3 dimensions, since \(B\) is a \(1\)-form, you can add an extra
 where I have put in ``\(c^2/3\)'' as my ``cosmological constant'' for
 insidious reasons to become clear momentarily. Now what the article by
 Cattaneo, Cotta-Ramusino, Froehlich and Martellini makes really clear is
-how BF theory is related to Chern-Simons theory. This is implicit in
+how \(BF\) theory is related to Chern-Simons theory. This is implicit in
 Witten's work on 3d gravity (see \protect\hyperlink{week16}{``Week
 16''}), which is just the special case where \(G\) is
 \(\mathrm{SO}(2,1)\) or \(\mathrm{SO}(3)\), and where the cosmological
@@ -542,29 +552,29 @@ Thus if we have \(1\)-form B around as well, we can set \[
 \] so we get two different Chern-Simons theories with actions \(L(A')\)
 and \(L(A'')\), respectively. OR, we can form a theory whose action is
 the difference of these two, and, lo and behold:
-\[L(A') - L(A'') = 4cL(B,F,c).\] In other words, BF theory with
+\[L(A') - L(A'') = 4cL(B,F,c).\] In other words, \(BF\) theory with
 cosmological constant is just a ``difference of two Chern-Simons
 theories''. Fans of topological quantum field theory may perhaps be more
-familiar with this if I point out that the Turaev-Viro theory is just BF
-theory with gauge group \(\mathrm{SU}(2)\), and the fact that the
+familiar with this if I point out that the Turaev-Viro theory is just
+\(BF\) theory with gauge group \(\mathrm{SU}(2)\), and the fact that the
 partition function for this theory is the absolute value squared of that
 for Chern-Simons theory is a special case of what I'm talking about. The
 nice thing about all this is that the funny phases coming from framings
 in Chern-Simons theory precisely cancel out when you form this
 ``difference of two Chern-Simons theories''.
 
-Now the Casson invariant is related to BF theory in 3 dimensions
+Now the Casson invariant is related to \(BF\) theory in 3 dimensions
 \emph{without} cosmological constant, i.e., taking \(c = 0\). We might
 get worried by the equation above, which we can't solve for \(L(B,F)\)
 when \(c = 0\), but as Cattaneo and company point out,
-\[L(B,F) = \lim_{c\to0}\frac{L(A')-L(A'')}{4c}\] so BF theory without
-cosmological constant is just a limiting case, actually a kind of
-\emph{derivative} of Chern-Simons theory. They use this to make clearer
-the relation between the vacuum expectation values of Wilson loops in
-Chern-Simons theory --- which give you the HOMFLY polynomial for
-\(G = \mathrm{SU}(N)\) --- and the corresponding vacuum expectation
-values in BF theory without cosmological constant --- which give you the
-Alexander polynomial! Very pretty stuff.
+\[L(B,F) = \lim_{c\to0}\frac{L(A')-L(A'')}{4c}\] so \(BF\) theory
+without cosmological constant is just a limiting case, actually a kind
+of \emph{derivative} of Chern-Simons theory. They use this to make
+clearer the relation between the vacuum expectation values of Wilson
+loops in Chern-Simons theory --- which give you the HOMFLY polynomial
+for \(G = \mathrm{SU}(N)\) --- and the corresponding vacuum expectation
+values in \(BF\) theory without cosmological constant --- which give you
+the Alexander polynomial! Very pretty stuff.
 
 Now back to the Casson invariant and some flagrant speculation on my
 part concerning Crane and Frenkel's ideas on Donaldson theory. (I said
@@ -574,14 +584,14 @@ combinatorial way using quantum groups. I.e., we can compute the
 partition function of Chern-Simons theory with gauge group \(G\) using
 the quantum version of the group \(G\)\ldots{} let me just call it
 ``quantum \(G\)''. If we take \(c\) to be imaginary above, one can show
-that BF theory with cosmological constant can be computed in a very
+that \(BF\) theory with cosmological constant can be computed in a very
 similar way starting with the quantum group corresponding to the
 \emph{complexification} of \(G\), i.e.~``quantum \(\mathbb{C}G\)''. The
 point is that \(A+cB\) can then be thought of as a connection on a
 bundle with gauge group \(\mathbb{C}G\). So far this is not flagrant
 speculation. Slightly more flagrantly, but not really very much at all,
-the formulas above hint that BF theory without cosmological constant can
-be computed in a similar way starting with the quantum group
+the formulas above hint that \(BF\) theory without cosmological constant
+can be computed in a similar way starting with the quantum group
 corresponding to the \emph{tangent bundle} of \(G\), or ``quantum
 \(TG\)''. (The tangent bundle of a Lie group is again a Lie group, and
 as we let \(c \to 0\) what we are really doing is taking a limit in
@@ -594,8 +604,8 @@ tangent bundle groups, let me know! I think some examples have been
 worked out.
 
 Okay, but Blau and Thompson say that to compute the Casson invariant you
-need to use, not BF theory with gauge group \(\mathrm{SU}(2)\), but
-\emph{supersymmetric} BF theory with gauge group \(\mathrm{SU}(2)\).
+need to use, not \(BF\) theory with gauge group \(\mathrm{SU}(2)\), but
+\emph{supersymmetric} \(BF\) theory with gauge group \(\mathrm{SU}(2)\).
 Well, no problemo --- just compute it with ``quantum
 super-\(T(\mathrm{SU}(2))\)''! Here I'm getting a bit flagrant; there
 \emph{are} theories of quantum supergroups, but I don't know much about
@@ -2401,7 +2411,7 @@ fascinating subject on which I'm woefully ignorant.
 One reason why Broda's work, and thus de Sa's, is interesting to me, is
 that people have suspected for a while that the Crane-Yetter-Broda
 theory, which is constructed purely combinatorially, is isomorphic to BF
-theory with cosmological term. BF theory (see
+theory with cosmological term. \(BF\) theory (see
 \protect\hyperlink{week36}{``Week 36''}) is a \(4\)-dimensional field
 theory that can be described starting from a Lagrangian in the
 traditional manner of physics. The theory ``with cosmological term'' can
@@ -2410,7 +2420,7 @@ cosmological constant, a baby version having only one state, the
 ``Chern-Simons state''. As I discussed in
 \protect\hyperlink{week56}{``Week 56''}, it's this Chern-Simons state
 that plays a key role in Smolin's attempt to ``exactly solve'' quantum
-gravity. Thus I suspect that BF theory is a good thing to understand
+gravity. Thus I suspect that \(BF\) theory is a good thing to understand
 really well. Recently I showed in
 
 \begin{enumerate}
@@ -2418,16 +2428,16 @@ really well. Recently I showed in
 \setcounter{enumi}{4}
 \tightlist
 \item
-  John Baez, ``4-dimensional BF theory with cosmological term as a
+  John Baez, ``4-dimensional \(BF\) theory with cosmological term as a
   topological quantum field theory'', available as
   \href{https://arxiv.org/abs/q-alg/9507006}{\texttt{q-alg/9507006}}.
 \end{enumerate}
 
 that the Crane-Yetter-Broda theory is indeed isomorphic as a TQFT to a
-certain BF theory. With a bit more work, this should give us a state sum
-model for the BF theory that's a baby version of quantum gravity in 4
-dimensions. This should come in handy for studying Smolin's hypothesis
-and its ramifications.
+certain \(BF\) theory. With a bit more work, this should give us a state
+sum model for the \(BF\) theory that's a baby version of quantum gravity
+in 4 dimensions. This should come in handy for studying Smolin's
+hypothesis and its ramifications.
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -2447,12 +2457,12 @@ that the product around any triangle is \(1\). You can think of a
 labelling as a kind of ``connection'' that tells you how to parallel
 transport along the edges, and the constraint says the connection is
 flat. Expectation values of physical observables are then computed as
-sums over these states. In fact, this TQFT is a baby version of BF
+sums over these states. In fact, this TQFT is a baby version of \(BF\)
 theory \emph{without} cosmological constant. A toy model of a toy model
-of quantum gravity, in other words: the classical solutions of BF theory
-without cosmological constant are just flat connections on some G-bundle
-where G is a Lie group, while the Dijkgraaf-Witten model does something
-similar for a finite group.
+of quantum gravity, in other words: the classical solutions of \(BF\)
+theory without cosmological constant are just flat connections on some
+G-bundle where G is a Lie group, while the Dijkgraaf-Witten model does
+something similar for a finite group.
 
 In a previous paper (see \protect\hyperlink{week54}{``Week 54''}) Porter
 studied the Dijkgraaf-Witten model and a generalization of it due to
@@ -2691,7 +2701,7 @@ plane''. This is a projective plane with 7 points, where by a
 ``projective plane'' I mean that any two points determine an abstract
 sort of ``line'', which in this case consists of just 3 points, and any
 two lines intersect in a point. It looks like this:
-\[\includegraphics[max width=\linewidth]{../images/fano.jpg}\]
+\[\includegraphics[max width=0.8\linewidth]{../images/fano.jpg}\]
 
 The ``lines'' are the 3 edges of the big triangle, the 3 lines going
 through a vertex, the center and the midpoint of the opposite edge, and
@@ -3273,7 +3283,7 @@ sort. I've advocated this point of view myself in an attempt to relate
 the loop representation of gravity to string theory (see
 \protect\hyperlink{week18}{``Week 18''}). Here Reisenberger makes some
 progress in making this precise for some simpler theories analogous to
-gravity --- for example, BF theory.
+gravity --- for example, \(BF\) theory.
 
 And now for some things I \emph{did} manage to finish up on my
 sabbatical:
@@ -3787,7 +3797,7 @@ get people interested.
 
 Later, of course, Kepler suggested that the 5 Platonic solids
 corresponded to the orbits of the 5 planets:
-\[\includegraphics[max width=\linewidth]{../images/kepler_mysterium_cosmographicum.jpg}\]
+\[\includegraphics[max width=0.8\linewidth]{../images/kepler_mysterium_cosmographicum.jpg}\]
 As it turns out, Plato and Kepler were in the right ball-park, but not
 really right. Both the solar system and atoms are described pretty well
 by similar laws - the inverse-square force laws for gravity and
@@ -11177,12 +11187,13 @@ observables. It seems this idea has languished to some extent due to a
 lack of necessary mathematical infrastructure. For the last couple of
 years, Martellini has been suggesting to use ideas from topological
 quantum field theory to serve this role. In particular, he suggested
-treating Yang-Mills theory as a perturbation of BF theory, and applying
-some of the ideas of Witten and Seiberg (who related confinement in the
-supersymmetric generalization of Yang-Mills theory to Donaldson theory).
-In the paper with Fucito and Zeni, they make some of these ideas
-precise. There are still some potentially serious loose ends, so I am
-very interested to hear the reaction of others working on confinement.
+treating Yang-Mills theory as a perturbation of \(BF\) theory, and
+applying some of the ideas of Witten and Seiberg (who related
+confinement in the supersymmetric generalization of Yang-Mills theory to
+Donaldson theory). In the paper with Fucito and Zeni, they make some of
+these ideas precise. There are still some potentially serious loose
+ends, so I am very interested to hear the reaction of others working on
+confinement.
 
 I have not studied the paper of Tsohantjis, Kalloniatis, and Jarvis in
 any detail, but people studying Vassiliev invariants might find it
@@ -11856,7 +11867,7 @@ So\ldots{}
   \end{enumerate}
 
   Later, Reisenberger extended this approach to deal with certain 4d
-  theories which are simpler than quantum gravity, like BF theory:
+  theories which are simpler than quantum gravity, like \(BF\) theory:
 
   \begin{enumerate}
   \def\labelenumi{\arabic{enumi})}
@@ -12408,11 +12419,12 @@ and simple to ponder:
   \textbf{Thursday, July 25th} --- I spoke on ``Topological Quantum
   Field Theory''. I am always talking about this on This Week's Finds so
   I won't bore you with the details. Basically I summarized what is
-  known about BF theory (a particular topological quantum field theory)
-  in dimensions 2, 3, and 4, and the discrete formulation of BF theory
-  where you chop spacetime into simplices and label the edges and so on
-  with spins and the like --- so-called ``state sum models''. You can
-  read more about this in \protect\hyperlink{week38}{``Week 38''}.
+  known about \(BF\) theory (a particular topological quantum field
+  theory) in dimensions 2, 3, and 4, and the discrete formulation of
+  \(BF\) theory where you chop spacetime into simplices and label the
+  edges and so on with spins and the like --- so-called ``state sum
+  models''. You can read more about this in
+  \protect\hyperlink{week38}{``Week 38''}.
 
   Later that day, Jerzy Lewandowski spoke on ``Degenerate Metrics''.
   Being somewhat less degenerate than Ted Jacobson, he spoke about
@@ -16940,10 +16952,10 @@ cosmological constant as a kind of limiting case.
 It turns out that the interesting degrees of freedom of the metric
 living on the surface \(\Sigma\) in spacetime are described by fields
 living on this surface. In fact, these fields are solutions of a
-\(2\)-dimensional topological field theory called BF theory. To prove
-this, I take advantage of the relation between general relativity and BF
-theory in 4 dimensions, together with the fact that BF theory behaves in
-a simple manner under dimensional reduction.
+\(2\)-dimensional topological field theory called \(BF\) theory. To
+prove this, I take advantage of the relation between general relativity
+and \(BF\) theory in 4 dimensions, together with the fact that \(BF\)
+theory behaves in a simple manner under dimensional reduction.
 
 Another neat thing is that to get a solution of general relativity this
 way, we need to pick a ``framing'' of \(\Sigma\). Roughly speaking, this

@@ -735,28 +735,28 @@ even though there is one for every *other* dimension from $1$ to $n/2$.
 > Date: Thu, 13 Jun 2002 
 > 
 > marc bellon wrote:
-> 
+> > 
 > > John Baez writes:
-> 
+> > > 
 > > > Borcis wrote:
-> 
+> > > > 
 > > > > John Baez wrote:
-> 
+> > > > > 
 > > > > > Boris Borcic wrote:
-> 
-> > > > > > None of the diagrams for $\mathbb{C}^n$, n even, shows an entry for n/2-1 
+> > > > > > 
+> > > > > > None of the diagrams for $\mathbb{C}^n$, $n$ even, shows an entry for $n/2-1$ 
 > > > > > > dimensional isotropic subspaces --- how should we read this fact ?
-> 
+> > > > > 
 > > > > >  I don't know what it means.  Isotropic subspaces of this
 > > > > >  dimension certainly exist, but for some reason the theory
 > > > > >  I am describing here does not regard them as important.  It's
 > > > > >  not an arbitrary decision on anyone's part; it's built into the 
 > > > > >  logic of the subject --- but I don't understand it.
->      
+> > > > 
 > > > > No doubt a temporary phenomenon :)
-> 
+> > > 
 > > > Let's hope so.
-> 
+> > 
 > > Let me propose an explanation.
 > > It is sufficient to consider the four dimensional case.
 > > In the two-dimensional case, there are two isotropic lines,
@@ -773,7 +773,7 @@ even though there is one for every *other* dimension from $1$ to $n/2$.
 > > anti-self-dual one evidently cannot coincide, but they cannot either 
 > > be complementary: in this case they are dual to each other using the 
 > > metric and are of the same self-duality.
-> 
+> > 
 > > To give an isotropic line in $\mathbb{C}^4$ is therefore equivalent to give a
 > > pair of isotropic planes, one self-dual and the other anti-self-dual.
 > > AFAIK, it is the property used in the twistor program of Penrose:
