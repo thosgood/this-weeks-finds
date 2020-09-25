@@ -2,49 +2,45 @@
 
 Today I'd like to talk a bit about the first stars in the Universe, and
 some hotly contested possible observations of these stars. Then I want
-to describe a new paper by my student Derek Wise. But first - if anyone
+to describe a new paper by my student Derek Wise. But first --- if anyone
 gave you a gift certificate for a bookstore this holiday season, here
 are two suggestions.
 
 The first one is really easy and fun:
 
-1) William Poundstone, Fortune's Formula: The Untold Story of the
-Scientific Betting System that Beat the Casinos and Wall Street, Farrar,
-Strauss and Giroux, New York, 2005.
+1) William Poundstone, _Fortune's Formula: The Untold Story of the Scientific Betting System that Beat the Casinos and Wall Street_, Farrar, Strauss and Giroux, New York, 2005.
 
 Packed with rollicking tales of gangsters, horse-racing, blackjack, and
 insider trading, this is secretly the story of how Claude Shannon
-developed information theory - and how he and his sidekick John Kelly
+developed information theory --- and how he and his sidekick John Kelly
 Jr. used it to make money in casinos and Wall Street. I'd known about
 Shannon's work on information... but not that he beat 99.9% of mutual
-fund managers, making an average compound return of 28% for many years -
+fund managers, making an average compound return of 28% for many years ---
 as compared to 27% for Warren Buffett!
 
 This book has just a few equations in it. I was delighted by one
 discovered by Kelly, which I'd never seen before. Translating into my
 own favorite notation, it goes like this:
-
-S = log M
-
+$$S = \log M$$
 It's the fundamental equation relating gambling to information! Let me
-explain it - in language far more complicated than you'll see in
+explain it --- in language far more complicated than you'll see in
 Poundstone's book.
 
-What's M? It's the best possible average growth of a gambler's money.
+What's $M$? It's the best possible average growth of a gambler's money.
 For example, if his best possible strategy lets him triple his money on
-average, then M = 3.
+average, then $M = 3$.
 
-What's S? This is the amount of "inside information" the gambler has:
+What's $S$? This is the amount of "inside information" the gambler has:
 information he has, that the people he's betting against don't.
 
 Some technical stuff: First, the above "average" is a geometric mean,
 not an arithmetic mean. Second, if we measure information in bits, we
 need to use base 2 in the logarithm. Physicists would probably prefer to
-use base e, which means measuring information in "nits". It doesn't
+use base $e$, which means measuring information in "nits". It doesn't
 really matter, but let's use base 2 for now.
 
 To get a feeling for why Kelly's theorem is true, it's best to start
-with the simplest example. If S = 1, then M = 2. So, if a gambler
+with the simplest example. If $S = 1$, then $M = 2$. So, if a gambler
 receives one bit of inside information, he can double his money!
 
 This sounds amazing, but it's also obvious.
@@ -62,15 +58,13 @@ Kelly's equation is usually phrased in terms of the *rate* at which the
 gambler gets inside information, and the *rate* at which his money
 grows. So, for example, to earn 12% interest annually, you only need to
 receive
-
-log(1.12) = 0.163
-
-bits of inside information - and find some dupe willing to make bets
+$$\log(1.12) = 0.163$$
+bits of inside information --- and find some dupe willing to make bets
 with you about this.
 
 The last part is the hard part: the "inside information" really needs
 to be information people don't believe you have. I must learn hundreds
-of bits of information about math each year - stuff only I know - but I
+of bits of information about math each year --- stuff only I know --- but I
 haven't found anyone simultaneously smart enough to understand it and
 dumb enough to make bets with me about it!
 
@@ -83,25 +77,20 @@ basically shows how you can make money off someone who makes bets in
 ways that correspond to stupid probabilities that don't add to 1, or
 fail to be coherent in other ways:
 
-2) Carlton M. Caves, Probabilities as betting odds and the Dutch book,
-available at `http://info.phys.unm.edu/~caves/reports/dutchbook.pdf`
+2) Carlton M. Caves, _Probabilities as betting odds and the Dutch book_, available at `http://info.phys.unm.edu/~caves/reports/dutchbook.pdf`
 
-So, there's a deep relation between gambling and probability - no news
+So, there's a deep relation between gambling and probability --- no news
 here, really.
 
 But, there's also a deep relation between probability and information
 theory, discovered by Shannon. Briefly, it goes like this: the
 information you obtain by learning the value of a random variable is
-
-S = - \sum ~_i~ p_i log(p_i)
-
+$$S = -\sum_i p_i \log(p_i)$$
 where the sum is taken over all the possible values of this random
-variable, and p_i is the probability that it takes its ith value. So,
-for example, if you flip a fair coin, where p_1 = p_2 = 1/2, the
+variable, and $p_i$ is the probability that it takes its $i$th value. So,
+for example, if you flip a fair coin, where $p_1 = p_2 = 1/2$, the
 information you get by looking at the coin is
-
--\[1/2 log(1/2) + 1/2 log(1/2)\] = 1
-
+$$-\left[\frac12 \log\left(\frac12\right) + \frac12 \log\left(\frac12\right)\right] = 1$$
 One bit!
 
 So: gambling is related to probability, and probability is related to
@@ -114,8 +103,7 @@ you'll learn why.
 
 The next book takes more persistence to read:
 
-3) Avner Ash and Robert Gross, Fearless Symmetry: Exposing the Hidden
-Patterns of Numbers, Princeton U. Press, Princeton, 2006.
+3) Avner Ash and Robert Gross, _Fearless Symmetry: Exposing the Hidden Patterns of Numbers_, Princeton U. Press, Princeton, 2006.
 
 The authors do a creditable job of what might at first seem utterly
 impossible: explaining heavy-duty modern number theory to ordinary
@@ -123,8 +111,8 @@ mortals. The formal prerequisites are little more than high school
 algebra, and the style is expository, but anyone except an expert will
 need to stop and think at times.
 
-They start by explaining modular arithmetic - you know, stuff like
-adding and multiplying "mod 7". Then they tackle groups, and
+They start by explaining modular arithmetic --- you know, stuff like
+adding and multiplying "$\mod 7$". Then they tackle groups, and
 permutations, since the main theme of the book is symmetry. Then they
 move on to algebraic varieties, in a simple no-nonsense style cleverly
 adapted from Grothendieck's later work (without terrifying the reader
@@ -139,15 +127,11 @@ These days mathematical physicists are all excited about a variant of
 the Langlands program: the so-called "geometric" Langlands program,
 which is related to string theory. Drinfeld has been running a seminar
 on this at Chicago for years, but that's not what got the physicists
-interested - it's these papers by Witten that did it:
+interested --- it's these papers by Witten that did it:
 
-4) Anton Kapustin and Edward Witten, Electric-magnetic duality and the
-geometric Langlands program, 225 pages, available as
-[`hep-th/0604151`](https://arxiv.org/abs/hep-th/0604151).
+4) Anton Kapustin and Edward Witten, "Electric-magnetic duality and the geometric Langlands program", 225 pages, available as [`hep-th/0604151`](https://arxiv.org/abs/hep-th/0604151).
 
-5) Sergei Gukov and Edward Witten, Gauge theory, ramification, and the
-geometric Langlands program, 160 pages, available as
-[`hep-th/0612073`](https://arxiv.org/abs/hep-th/0612073).
+5) Sergei Gukov and Edward Witten, "Gauge theory, ramification, and the geometric Langlands program", 160 pages, available as [`hep-th/0612073`](https://arxiv.org/abs/hep-th/0612073).
 
 So, if you're trying to learn this geometric Langlands stuff, and you
 want to fit it into the grand landscape of mathematics, the book
@@ -198,14 +182,14 @@ outwards at the speed of light, with reddish walls.
 It's been sort of like this ever since.
 
 So, when we look far away with our best telescopes, we look back in time
-to the time when the Universe became transparent - but no further.
+to the time when the Universe became transparent --- but no further.
 We're surrounded by a distant, ancient wall of fire. It's now about
-13.3 billion light-years away - or 13.3 billion year back in time, if
+13.3 billion light-years away --- or 13.3 billion year back in time, if
 you prefer. And, it's receding at a rate of one light-year per year.
 
 But by now, the light from this wall of fire has been severely
 redshifted. In other words, it's been stretched along with the
-expansion of the Universe - stretched by a factor of 1100, in fact!
+expansion of the Universe --- stretched by a factor of 1100, in fact!
 
 So, what had been the hot infrared glow of 3000-kelvin plasma is now a
 feeble microwave glow corresponding to an icy temperature of 2.7 kelvin.
@@ -219,13 +203,13 @@ infrared glow of that distant wall of fire. This era is called the
 "Dark Ages".
 
 During the Dark Ages, gas cooled down and clumped under its own gravity
-- apparently with a lot of help from cold dark matter of some unknown
+--- apparently with a lot of help from cold dark matter of some unknown
 sort. Without postulating this matter, nobody can figure out how
 galaxies formed as soon as they did.
 
 As befits their name, the Dark Ages are still shrouded in mystery. There
 are a lot of unanswered questions besides the nature of dark matter.
-Which formed first - individual stars, or galaxies? And, when did the
+Which formed first --- individual stars, or galaxies? And, when did the
 Dark Ages end?
 
 It's currently believed that the first stars formed sometime between
@@ -234,7 +218,7 @@ It's currently believed that the first stars formed sometime between
 At the later end of that range, the Universe could have gotten quite
 cold before starlight warmed up the interstellar gas and reionized it.
 There's even a spooky theory that the Universe was full of hydrogen
-snowflakes near the end of the Dark Ages - see
+snowflakes near the end of the Dark Ages --- see
 ["Week 196"](#week196) for more on this, and a timeline of the
 earlier history of the Universe.
 
@@ -242,10 +226,7 @@ But, the current best guess, based on data from the Wilkinson Microwave
 Anisotopy Probe, says that reionization happened 400 million years after
 the Big Bang:
 
-6) Marcelo A. Alvarez, Paul R. Shapiro, Kyungjin Ahn and Ilian T.
-Iliev, Implications of WMAP 3 year data for the sources of reionization,
-Astrophys. J. 644 (2006), L101-L104. Also available as
-[`astro-ph/0604447`](https://arxiv.org/abs/astro-ph/0604447).
+6) Marcelo A. Alvarez, Paul R. Shapiro, Kyungjin Ahn and Ilian T. Iliev, "Implications of WMAP 3 year data for the sources of reionization", _Astrophys. J._ **644** (2006), L101--L104. Also available as [`astro-ph/0604447`](https://arxiv.org/abs/astro-ph/0604447).
 
 This would be too early for hydrogen snow, since my rough calculation
 says the microwave background radiation was 30 kelvin then, while
@@ -258,15 +239,9 @@ Population III stars have not actually been seen. But, it's possible
 that we've finally caught a glimpse of them, not individually but in a
 sort of statistical sense:
 
-7) A. Kashlinsky, R. G. Arendt, J. Mather and S. H. Moseley, New
-measurements of cosmic infrared background fluctuations from early
-epochs, to appear in Ap. J. Letters. Available as
-[`astro-ph/0612445`](https://arxiv.org/abs/astro-ph/0612445).
+7) A. Kashlinsky, R. G. Arendt, J. Mather and S. H. Moseley, "New measurements of cosmic infrared background fluctuations from early epochs", to appear in _Ap. J. Letters_. Available as [`astro-ph/0612445`](https://arxiv.org/abs/astro-ph/0612445).
 
-8) A. Kashlinsky, R. G. Arendt, J. Mather and S. H. Moseley, On the
-nature of the sources of the cosmic infrared background, to appear in
-Ap. J. Letters. Available as
-[`astro-ph/0612447`](https://arxiv.org/abs/astro-ph/0612447).
+8) A. Kashlinsky, R. G. Arendt, J. Mather and S. H. Moseley, "On the nature of the sources of the cosmic infrared background", to appear in _Ap. J. Letters_. Available as [`astro-ph/0612447`](https://arxiv.org/abs/astro-ph/0612447).
 
 Using delicate techniques to carefully sift through the *infrared* (not
 microwave) background radiation, the authors claim to find radiation not
@@ -276,16 +251,12 @@ than 1 billion years after the Big Bang, and were individually much
 brighter than current-day stars.
 
 Here's a picture of their data:
+$$\href{http://www.spitzer.caltech.edu/Media/releases/ssc2005-22/ssc2005-22a.shtml}{\includegraphics[max width=0.8\linewidth]{../images/infrared_background_first_stars.jpg}}$$
 
-::: {align="center"}
-[![](infrared_background_first_stars.jpg)](http://www.spitzer.caltech.edu/Media/releases/ssc2005-22/ssc2005-22a.shtml)
-:::
-
-9) NASA / JPL-Caltech / A. Kashlinsky, Infrared background light from
-first stars, `http://www.spitzer.caltech.edu/Media/releases/ssc2005-22/`
+9) NASA / JPL-Caltech / A. Kashlinsky, "Infrared background light from first stars", `http://www.spitzer.caltech.edu/Media/releases/ssc2005-22/`
 
 On top is a photograph taken by the Spitzer Space Telescope: a 10-hour
-infrared exposure of a tiny patch of sky, 6 \times 12 arcminutes across,
+infrared exposure of a tiny patch of sky, $6 \times 12$ arcminutes across,
 chosen for having a bare minimum of foreground stars, galaxies and dust.
 (For comparison, the Moon is 30 arcminutes across.) On the bottom is the
 same picture with known sources of infrared subtracted. What's left may
@@ -296,9 +267,7 @@ Or, it may not. In the following news story, Ned Wright of UCLA said,
 they're seeing is incompletely subtracted residuals from nearby
 sources."
 
-10) Dinesh Ramde, Associated Press, Hints of early stars may have been
-found,
-`http://www.usatoday.com/tech/science/space/2005-11-02-early-stars_x.htm`
+10) Dinesh Ramde, Associated Press, "Hints of early stars may have been found", `http://www.usatoday.com/tech/science/space/2005-11-02-early-stars_x.htm`
 
 So, we'll have to see how it goes....
 
@@ -307,8 +276,7 @@ Derek Wise is graduating this year, and he's doing his thesis on Cartan
 geometry, MacDowell-Mansouri gravity and $BF$ theory. Let me say a little
 about this paper of his:
 
-11) Derek Wise, MacDowell-Mansouri gravity and Cartan geometry,
-available as [`gr-qc/0611154`](https://arxiv.org/abs/gr-qc/0611154).
+11) Derek Wise, "MacDowell-Mansouri gravity and Cartan geometry", available as [`gr-qc/0611154`](https://arxiv.org/abs/gr-qc/0611154).
 
 Elie Cartan is one of the most influential of 20th-century geometers. At
 one point he had an intense correspondence with Einstein on general
@@ -318,17 +286,14 @@ of parallel transport that predates the widely used Ehresmann approach
 Riemannian geometry and Klein's Erlangen program (see
 ["Week 213"](#week213)), in which geometries are described by their
 symmetry groups:
-
-             EUCLIDEAN GEOMETRY  ------------->  KLEIN GEOMETRY
-
-                   |                                  |
-                   |                                  |
-                   |                                  |
-                   |                                  |
-                   v                                  v
-
-            RIEMANNIAN GEOMETRY  --------------> CARTAN GEOMETRY
-
+$$
+  \begin{tikzcd}[row sep=huge]
+    \text{Euclidean geometry} \rar \dar
+    & \text{Klein geometry} \dar
+  \\\text{Riemannian geometry} \rar
+    & \text{Cartan geometry}
+  \end{tikzcd}
+$$
 Given all this, it's somewhat surprising how few physicists know about
 Cartan geometry!
 
@@ -336,7 +301,7 @@ Recognizing this, Derek explains Cartan geometry from scratch before
 showing how it underlies the so-called MacDowell-Mansouri approach to
 general relativity. This plays an important role both in supergravity
 and Freidel and Starodubtsev's work on quantum gravity (see
-["Week 235"](#week235)) - but until now, it's always seemed like a
+["Week 235"](#week235)) --- but until now, it's always seemed like a
 "trick".
 
 What's the basic idea? Derek explains it all very clearly, so I'll
@@ -357,18 +322,14 @@ rolling a *sphere* on it. Derek illustrates this with a picture of a
 hamster crawling around in a plastic "hamster ball", which is
 something you can actually buy for your pet hamster to let it explore
 your house without escaping or getting in trouble:
-
-::: {align="center"}
-![](cartan_geometry_1.jpg)
-:::
-
+$$\includegraphics[max width=0.8\linewidth]{../images/cartan_geometry_1.jpg}$$
 (I've read about falling cats in papers on gauge theory, but this is
 the first mathematical physics paper I've read containing the word
 "hamster".)
 
 If our surface is itself a sphere of the same radius, this rolling
 motion is trivial, and we say the surface is flat in the sense of Cartan
-geometry - but now it's a different sense than when we used a plane as
+geometry --- but now it's a different sense than when we used a plane as
 our "model geometry"!
 
 Which model geometry should we use in a given problem? It depends on
@@ -385,15 +346,11 @@ approximation to the spacetime we live in. But nowadays we think the
 cosmological constant is nonzero, so the Universe is expanding in a
 roughly exponential way. This makes another model geometry, "deSitter
 spacetime", the best one to use!
-
-::: {align="center"}
-![](cartan_geometry_2.jpg)
-:::
-
+$$\includegraphics[max width=0.8\linewidth]{../images/cartan_geometry_2.jpg}$$
 So, if we know Cartan geometry, we can use that... and we get something
 called the MacDowell-Mansouri formulation of gravity. Or, if we don't
-want our spacetime to have lumps and bumps - if we want it to look
-locally just like the Klein model geometry - we can use a different
+want our spacetime to have lumps and bumps --- if we want it to look
+locally just like the Klein model geometry --- we can use a different
 theory, a topological field theory called $BF$ theory (see
 ["Week 232"](#week232)).
 
@@ -405,18 +362,14 @@ to geometry generalizes Klein's!
 For more details, you'll just have to read Derek's paper. You might
 also try these:
 
-12) Michel Biesunski, Inside the coconut: the Einstein-Cartan
-discussion on distant parallelism, in Einstein and the History of
-General Relativity, eds. D. Howard and J. Stachel, Birkhauser, Boston,
-1989.
+12) Michel Biesunski, "Inside the coconut: the Einstein-Cartan discussion on distant parallelism", in _Einstein and the History of General Relativity_, eds. D. Howard and J. Stachel, Birkhauser, Boston, 1989.
 
 This describes the correspondence between Cartan and Einstein. I believe
 this centered, not on Cartan geometry per se, but on the
 "teleparallel" formulation of gravity (see
 ["Week 176"](#week176)). But, they're somewhat related.
 
-13) Richard W. Sharpe, Differential Geometry: Cartan's Generalization
-of Klein's Erlangen Program, Springer-Verlag, New York, 1997.
+13) Richard W. Sharpe, _Differential Geometry: Cartan's Generalization of Klein's Erlangen Program_, Springer-Verlag, New York, 1997.
 
 This is the main textbook on Cartan geometry. But, it's probably best
 to read a few chapters of Derek's paper first, since the key ideas are
@@ -433,10 +386,11 @@ Merry Christmas!
 ------------------------------------------------------------------------
 
 **Addenda:** I thank Chris Weed for catching typos. For more discussion,
-go to the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2006/12/this_weeks_finds_in_mathematic_3.html).
+go to the [$n$-Category Café](http://golem.ph.utexas.edu/category/2006/12/this_weeks_finds_in_mathematic_3.html).
 
 ------------------------------------------------------------------------
 
-*The Universe has as many different centers as there are living beings
-in it.* - Alexander Solzhenitsyn
+> *The Universe has as many different centers as there are living beings
+in it.*
+> 
+> --- Alexander Solzhenitsyn
