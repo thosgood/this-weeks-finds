@@ -8,18 +8,18 @@ talked about it way back in ["Week 2"](#week2).
 At the time, Louis Crane and Igor Frenkel had just come out with a draft
 of a paper called "Hopf categories and their representations", which
 began tackling this problem. This is roughly when Crane invented the
-word "categorification" - and their paper is a big part of why I got
+word "categorification" --- and their paper is a big part of why I got
 interested in $n$-categories.
 
 The subject moved rather slowly until Frenkel's student Mikhail
-Khovanov got into the game and categorified the Jones polynomial - a
+Khovanov got into the game and categorified the Jones polynomial --- a
 famous invariant of knots related to the very simplest quantum group,
-the one called "quantum \mathrm{SU}(2)". Now categorifying knot theory is a hot
+the one called "quantum $\mathrm{SU}(2)$". Now categorifying knot theory is a hot
 topic.
 
 James Dolan, Todd Trimble and I have been chewing away on this subject
 from a quite different angle, which may ultimately turn out to be the
-same - or at least related. In the process, we've needed to learn,
+same --- or at least related. In the process, we've needed to learn,
 reinvent or remodel a lot of classical work on group theory, incidence
 geometry, and combinatorics. It's been a great adventure, and it's far
 from over.
@@ -30,21 +30,12 @@ fundamental physics.
 
 If you care at all about physics, you've probably heard about these:
 
-1) Peter Woit, Not Even Wrong: The Failure of String Theory and the
-Continuing Challenge to Unify the Laws of Physics, Basic Books, New
-York, 2006.
+1) Peter Woit, _Not Even Wrong: The Failure of String Theory and the Continuing Challenge to Unify the Laws of Physics_, Basic Books, New York, 2006.
 
-2) Lee Smolin, The Trouble With Physics: The Rise of String Theory, the
-Fall of a Science, and What Comes Next, Houghton Mifflin, New York,
-2006.
-
-::: {align="center"}
-![](not_even_wrong.jpg)        
-![](trouble_with_physics.gif){width="122"}
-:::
+2) Lee Smolin, _The Trouble With Physics: The Rise of String Theory, the Fall of a Science, and What Comes Next_, Houghton Mifflin, New York, 2006.
 
 I won't "review" these books. I'll just talk about some points they
-raise - in a very nontechnical way.
+raise --- in a very nontechnical way.
 
 Their importance is that they explain the problems of string theory to
 the large audience of people who get their news about fundamental
@@ -60,7 +51,7 @@ firm predictions. For the last few decades, astrophysicists have been
 making amazing discoveries in fundamental physics: dark matter, dark
 energy, neutrino oscillations, maybe even cosmic inflation in the very
 early universe! Soon the Large Hadron Collider will smash particles
-against each other hard enough to see the Higgs boson - or not. With
+against each other hard enough to see the Higgs boson --- or not. With
 luck, it may even see brand new particles. But about all this, string
 theory has had little to say.
 
@@ -78,7 +69,7 @@ other particles, we can just stick those in too.
 Someday this situation may change, but it's dragged on for a while now.
 There's no reason why theoretical physics should always move fast. The
 universe has taken almost 14 billion years to reach its current state of
-self-knowledge - what's a few more decades? But, coming after an era of
+self-knowledge --- what's a few more decades? But, coming after an era of
 incredibly rapid progress stretching from 1905 to 1983, the current
 period of stagnation feels like an eternity. So, physicists are getting
 a bit desperate. This has led to some strange behavior.
@@ -88,8 +79,8 @@ theory makes no testable predictions by arguing that it predicts the
 existence of gravity! This is better known as a "retrodiction".
 
 Others say that since string theory requires extra assumptions to make
-definite predictions about our universe, we should - instead of making
-some assumptions and using them to predict something - study the space
+definite predictions about our universe, we should --- instead of making
+some assumptions and using them to predict something --- study the space
 of *all possible* extra assumptions. For example, there are lots of
 Calabi-Yau manifolds that could serve as the little curled-up dimensions
 of spacetime, and lots of ways we could stick D-branes here or there,
@@ -100,21 +91,19 @@ This space of all possible extra assumptions is called the
 about it are:
 
 a) it's big,
-
 b) it keeps growing as string theorists come up with new ideas,
-
 c) nobody has yet found a point in it that matches our universe.
 
 Despite this, or perhaps because of it, the Landscape has been the
 subject of many discussions. Often these devolve into arguments about
 the "anthropic principle". Roughly, this says that if the universe
-were really different, we wouldn't be having this argument - so it must
+were really different, we wouldn't be having this argument --- so it must
 be like it is!
 
 One can in fact draw some conclusions from the anthropic principle. But
 it's really just the low-budget limit of experimental physics. You can
 always get more conclusions from doing more experiments. The experiment
-where you just check to see if you're alive is really cheap - but you
+where you just check to see if you're alive is really cheap --- but you
 don't learn much from it.
 
 (Of course I'm oversimplifying things for comic effect, but usually
@@ -126,10 +115,10 @@ but it exerts a demoralizing effect. So, when Woit and Smolin came out
 with their books, a lot of tempers snapped, and a lot of strange
 arguments were applied against them.
 
-For example, one popular argument was "Okay, buster - can you do
+For example, one popular argument was "Okay, buster --- can you do
 better?" The idea here seems to be that until you know a solution to
 the problems faced by string theory, you shouldn't point out these
-problems - at least not publicly. This goes against my experience: hard
+problems --- at least not publicly. This goes against my experience: hard
 problems tend to get solved only *after* lots of people openly admit
 they exist.
 
@@ -147,7 +136,7 @@ Once I drove through Las Vegas, where there really *is* just one game in
 town: gambling. I stopped and took a look. I saw the big fancy casinos.
 I saw the glazed-eyed grannies feeding quarters into slot machines,
 hoping to strike it rich someday. It was clear: the odds were stacked
-against me. But, I didn't respond by saying "Oh well - it's the only
+against me. But, I didn't respond by saying "Oh well --- it's the only
 game in town" and starting to play.
 
 Instead, I *left* that town.
@@ -171,7 +160,7 @@ just follow fashion:
 > The point is that different kinds of people are important in normal
 > and revolutionary science. In the normal periods, you need only people
 > who, regardless of their degree of imagination (which may well be
-> high), are really good at working with the technical tools - let us
+> high), are really good at working with the technical tools --- let us
 > call them master craftspeople. During revolutionary periods, you need
 > seers, who can peer ahead into the darkness.
 
@@ -193,7 +182,7 @@ Smolin later wrote:
 > assume the landscape is covered by fog so we cant see where the real
 > peak is, we can only feel around and detect slopes and local maxima.
 >
-> Now to a rough approximation, there are two kinds of scientists - hill
+> Now to a rough approximation, there are two kinds of scientists --- hill
 > climbers and valley crossers. Hill climbers are great technically and
 > will always advance an approach incrementally. They are what you want
 > once an approach has been defined, i.e. a hill has been discovered,
@@ -218,8 +207,8 @@ Smolin later wrote:
 > crossers to cross those perilous ridges and swampy valleys to find the
 > real mountain.
 >
-> This is what I believe is the situation we are in. And - and this is
-> the point of Part IV \[of the book\] - we are in it, because science
+> This is what I believe is the situation we are in. And --- and this is
+> the point of Part IV \[of the book\] --- we are in it, because science
 > has become professionalized in a way that takes the characteristics of
 > a good hill climber as representative of what is a good, or promising
 > scientist. The valley crossers we need have been excluded, or pushed
@@ -236,7 +225,7 @@ once are likely to fail later: think of Einstein's long search for a
 unified field theory, or Schrödinger's "unitary field theory"
 involving a connection with torsion, or Heisenberg's nonlinear spinor
 field theory, or Kelvin's vortex atoms. It's not surprising these
-geniuses spent a lot of time on failed theories - what's surprising is
+geniuses spent a lot of time on failed theories --- what's surprising is
 their successes.
 
 So, failure is an unavoidable cost of doing business, and encouraging
@@ -244,13 +233,13 @@ more "valley crossers" or "risk takers" will inevitably look like
 encouraging more failures.
 
 Unfortunately, the alternative is even more risky. If everyone pursues
-the same approach, we'll all succeed or fail together - and chances are
+the same approach, we'll all succeed or fail together --- and chances are
 we'll fail. The reason for backing some risk takers is that it
 "diversifies our portfolio". It reduces overall risk by increasing the
 chance that *someone* will succeed.
 
 (It's no coincidence that Eric Weinstein, mentioned above by Smolin,
-works as an investment banker. He's also a student of Raoul Bott - but
+works as an investment banker. He's also a student of Raoul Bott --- but
 that's another story!)
 
 Near the end of his book, Woit quotes the mathematican Michael Atiyah,
@@ -273,24 +262,22 @@ framework" will fail. But, we can hope that someday a few succeed.
 For the fascinating tale of Schrödinger's "unitary field theory", see
 this nice book:
 
-3) Walter Moore, Schrödinger: His Life and Thought, Cambridge U. Press,
-Cambridge, 1989.
+3) Walter Moore, _Schrödinger: His Life and Thought_, Cambridge U. Press, Cambridge, 1989.
 
 For more about the search for unified field theories in early 20th
 century, see:
 
-4) Hubert F. M Goenner, On the history of unified field theories,
-Living Reviews of Relativity 7, (2004), 2. Available at
-`http://www.livingreviews.org/lrr-2004-2`
+4) Hubert F. M Goenner, "On the history of unified field theories", _Living Reviews of Relativity_ **7**, (2004), 2. Available at `http://www.livingreviews.org/lrr-2004-2`
 
 ------------------------------------------------------------------------
 
 **Addenda:** I thank Eugenia Cheng and Eugene Lerman for catching
-mistakes. For more discussion, go to the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2007/02/this_weeks_finds_in_mathematic_7.html).
+mistakes. For more discussion, go to the
+[$n$-Category Café](http://golem.ph.utexas.edu/category/2007/02/this_weeks_finds_in_mathematic_7.html).
 
 ------------------------------------------------------------------------
 
-*Apart from agreeing with reality it is certainly a magnificent
-achievement of pure thought.* - Einstein, to Hermann Weyl, about Weyl's
-attempt to unify gravity and electromagnetism.
+> *Apart from agreeing with reality it is certainly a magnificent
+achievement of pure thought.*
+> 
+> --- Einstein, to Hermann Weyl, about Weyl's attempt to unify gravity and electromagnetism.
