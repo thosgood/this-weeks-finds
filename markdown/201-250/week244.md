@@ -365,9 +365,7 @@ I say "when it's well-defined", because it's also possible for a
 category --- even one with just finitely many objects and morphisms --- to
 give an infinite-dimensional space whose Euler characteristic is a
 divergent series:
-
-n_0 --- n_1 + n_2 --- n_3 + n_4 --- ...
-
+$$n_0 - n_1 + n_2 - n_3 + n_4 - \ldots$$
 Okay. At this point it's time for me to say what Leinster actually did:
 he came up with a *formula* that you can use to compute the size of a
 category, without using any topology. Sometimes it gives divergent
@@ -376,51 +374,40 @@ big. But when it converges, it satisfies all the principles I've
 mentioned.
 
 Even better, it works for a lot of categories that give spaces whose
-Euler chacteristic diverges! For example, we can take any group G and
+Euler chacteristic diverges! For example, we can take any group $G$ and
 think of it as a category with one object, with the group elements as
 morphisms. When we turn this category into a space, it becomes something
-famous called the "classifying space" of G. This is often an
+famous called the "classifying space" of $G$. This is often an
 infinite-dimensional monstrosity whose Euler characteristic diverges.
 But, Leinster's formula still works --- and it gives
-
-1/|G|
-
-the reciprocal of the usual cardinality of G.
+$$1/|G|$$
+the reciprocal of the usual cardinality of $G$.
 
 Now we're getting fractions!
 
-For example, suppose we take G to be the group with just 2 elements,
-called Z/2. If we think of it as a category, and then turn that into a
+For example, suppose we take $G$ to be the group with just 2 elements,
+called $\mathbb{Z}/2$. If we think of it as a category, and then turn that into a
 space, we get a huge thing usually called "infinite-dimensional real
-projective space", or \mathbb{RP}^\infty for short. This is built from one vertex,
+projective space", or $\mathbb{RP}^\infty$ for short. This is built from one vertex,
 one edge, one triangle, and so on. So, if we try to work out its Euler
 characteristic, we get the divergent series
-
-1 --- 1 + 1 --- 1 + 1 --- ...
-
-But, if we use Leinster's formula, we get 1/2. And that's cute,
+$$1 - 1 + 1 - 1 + 1 - \ldots$$
+But, if we use Leinster's formula, we get $1/2$. And that's cute,
 because once there were heated arguments about the value of
-
-1 --- 1 + 1 --- 1 + 1 --- ...
-
-Some mathematicians said it was 0:
-
-(1 --- 1) + (1 --- 1) + (1 --- 1) + ... = 0
-
-while others said it was 1:
-
-1 + (-1 + 1) + (-1 + 1) + (-1 + 1) + ... = 1
-
+$$1 - 1 + 1 - 1 + 1 - \ldots$$
+Some mathematicians said it was $0$:
+$$(1 - 1) + (1 - 1) + (1 - 1) + \ldots = 0$$
+while others said it was $1$:
+$$1 + (-1 + 1) + (-1 + 1) + (-1 + 1) + \ldots = 1$$
 Some said "it's divergent, so forget it!" But others wisely
-compromised and said it equals 1/2. This can be justified using "Abel
+compromised and said it equals $1/2$. This can be justified using "Abel
 summation".
 
 All this may seem weird --- and it is; that's part of the fun. But,
 Leinster's answer matches what you'd expect from the theory of
 "homotopy cardinality":
 
-6) John Baez, The mysteries of counting: Euler characteristic versus
-homotopy cardinality, `http://math.ucr.edu/home/baez/counting/`
+6) John Baez, "The mysteries of counting: Euler characteristic versus homotopy cardinality", `http://math.ucr.edu/home/baez/counting/`
 
 This webpage has transparencies of a talk I gave on this, and lots of
 links to papers that generalize the concepts of cardinality and Euler
@@ -428,11 +415,11 @@ characteristic. I'm obsessed with this topic. It's really exciting to
 think about new ways to extend the simplest concepts of math, like
 counting.
 
-That's why I invented a way to compute the cardinality of a groupoid -
+That's why I invented a way to compute the cardinality of a groupoid ---
 a category where every morphism has an inverse, so all the morphisms
 describe "symmetries". The idea is that the more symmetries an object
 has, the smaller it is. Applying this to the above example, where our
-category has one object, and this object has 2 symmetries, one gets 1/2.
+category has one object, and this object has 2 symmetries, one gets $1/2$.
 If this seems strange, try the explanation in
 ["Week 147"](#week147).
 
@@ -453,12 +440,12 @@ Our conversation over coffee was mainly about me trying to understand
 the formula he used to define this Euler characteristic. One thing I
 learned is that the "category algebra" idea plays a key role here.
 
-It's a simple idea. Given a category X, the category algebra C\[X\]
-consists of all formal complex linear combinations of morphisms in X. To
+It's a simple idea. Given a category $X$, the category algebra $C[X]$
+consists of all formal complex linear combinations of morphisms in $X$. To
 define the multiplication in this algebra, it's enough to define the
-product fg whenever f and g are morphisms in our category. If the
-composite of f and g is defined, we just let fg be this composite. If
-it's not, we set fg = 0.
+product $fg$ whenever $f$ and $g$ are morphisms in our category. If the
+composite of $f$ and $g$ is defined, we just let $fg$ be this composite. If
+it's not, we set $fg = 0$.
 
 Mathematicians seem to be most familiar with the category algebra idea
 when our category happens to be a group (a category with one object, all
@@ -470,11 +457,15 @@ Category algebras are also pretty familiar when our category is a
 in formal composites of edges). Then it's called a "quiver algebra".
 These are really cool --- especially if our graph becomes a Dynkin
 diagram, like this:
-
-                 o
-                 |
-     o--o--o--o--o--o--o
-
+$$
+  \begin{tikzpicture}
+    \foreach \x in {0,1,2,3,4,5,6}
+      \node at (\x,0) {$\bullet$};
+    \node at (4,1) {$\bullet$};
+    \draw[thick] (0,0) to (6,0);
+    \draw[thick] (4,0) to (4,1);
+  \end{tikzpicture}
+$$
 when we ignore the directions of the edges. To see what I mean, try item
 E in ["Week 230"](#week230), where I sketch how these quiver
 algebras are related to quantum groups. There's a lot more to say about
@@ -488,13 +479,13 @@ algebras are usually called "incidence algebras".
 In physics, Alain Connes has given a nice explanation of how Heisenberg
 invented "matrix mechanics" when he was trying to understand how atoms
 jump from one state to another, emitting and absorbing radiation. In
-modern language, Heisenberg took a groupoid with n objects, each one
+modern language, Heisenberg took a groupoid with $n$ objects, each one
 isomorphic to each other in a unique way. He called the objects
 "states" of a quantum system, and he called the morphisms
 "transitions". Then, he formed its category algebra. The result is the
-algebra of n \times n matrices!
+algebra of $n \times n$ matrices!
 
-(This might seem like a roundabout way to get to n \times n matrices, but
+(This might seem like a roundabout way to get to $n \times n$ matrices, but
 Heisenberg *didn't know about matrices* at this time. They weren't
 part of the math curriculum for physicists back then!)
 
@@ -508,38 +499,34 @@ sorry for this neglected concept. That's one reason I was happy to see
 it plays a role in Leinster's definition of the Euler characteristic
 for categories.
 
-Suppose our category X is finite. Then, we can define an element of the
-category algebra C\[X\] which is just the sum of all the morphisms in X.
-This is called \zeta, or the "zeta function" of our category. Sometimes \zeta
-has an inverse, and then this inverse is called μ, or the "Möbius
+Suppose our category $X$ is finite. Then, we can define an element of the
+category algebra $C[X]$ which is just the sum of all the morphisms in $X$.
+This is called $\zeta$, or the "zeta function" of our category. Sometimes $\zeta$
+has an inverse, and then this inverse is called $\mu$, or the "Möbius
 function" of our category.
 
 Actually, these terms are widely used only when our category is a poset,
 thanks to the work of Gian-Carlo Rota, who used these ideas in
 combinatorics:
 
-7) Gian-Carlo Rota, On the foundations of combinatorial theory I:
-Theory of Möbius Functions, Zeitschrift für Wahrscheinlichkeitstheorie
-und Verwandte Gebiete 2 (1964), 340-368.
+7) Gian-Carlo Rota, "On the foundations of combinatorial theory I: Theory of Möbius Functions", _Zeitschrift für Wahrscheinlichkeitstheorie und Verwandte Gebiete_ **2** (1964), 340--368.
 
 If you want to know what these ideas are good for, check this out:
 
-8) Wikipedia, Incidence algebra,
-`http://en.wikipedia.org/wiki/Incidence_algebra`
+8) Wikipedia, "Incidence algebra", `http://en.wikipedia.org/wiki/Incidence_algebra`
 
 See the stuff about Euler characteristics in this article? That's a
 clue! The relation to the Riemann zeta function and its inverse (the
 original "Möbius function") are clearer here:
 
-9) Wikipedia, Möbius inversion formula,
-`http://en.wikipedia.org/wiki/M%C3%B6bius_inversion_formula`
+9) Wikipedia, "Möbius inversion formula", `http://en.wikipedia.org/wiki/M%C3%B6bius_inversion_formula`
 
-These show up when we think of the whole numbers 1,2,3,... as a poset
+These show up when we think of the whole numbers $1,2,3,\ldots$ as a poset
 ordered by divisibility.
 
 Anyway, Leinster has wisely generalized this terminology to more general
-categories. And when \zeta ^{-1} = μ exists, it's really easy to define his
-Euler characteristic of the category X. You just write μ as a linear
+categories. And when $\zeta ^{-1} = \mu$ exists, it's really easy to define his
+Euler characteristic of the category $X$. You just write $\mu$ as a linear
 combination of morphisms in your category, and sum all the coefficients
 in this linear combination!
 
@@ -549,40 +536,36 @@ trivial group. So, Leinster needs a somewhat more general definition to
 handle these cases. I don't feel I deeply understand it, but I'll
 explain it, just for the record.
 
-Besides the category algebra C\[X\], consisting of linear combinations
-of morphisms in X, there's also a vector space consisting of linear
-combinations of *objects* in X. Heisenberg would probably call this
-"the space of states", and call C\[X\] the "algebra of observables",
+Besides the category algebra $C[X]$, consisting of linear combinations
+of morphisms in $X$, there's also a vector space consisting of linear
+combinations of *objects* in $X$. Heisenberg would probably call this
+"the space of states", and call $C[X]$ the "algebra of observables",
 since that's what they were in his applications to quantum physics.
 Let's do that.
 
 The algebra of observables has an obvious left action on the vector
-space of states, where a morphism f\colon x \to y acts on x to give y, and it
-acts on every other object to give 0. In Heisenberg's example, this is
+space of states, where a morphism $f\colon x \to y$ acts on $x$ to give $y$, and it
+acts on every other object to give $0$. In Heisenberg's example, this is
 precisely how he let the algebra of observables act on states.
 
 The algebra of observables also has an obvious *right* action on the
-vector space of states, where f\colon x \to y acts on y to give x, and it acts
-on every other object to give 0.
+vector space of states, where $f\colon x \to y$ acts on $y$ to give $x$, and it acts
+on every other object to give $0$.
 
-Leinster defines a "weighting" on X to be an element w of the vector
+Leinster defines a "weighting" on $X$ to be an element $w$ of the vector
 space of states with
-
-\zeta w = 1
-
-Here "1" is the linear combination of objects where all the
-coefficients equal 1. He also defines a "coweighting" to be an element
-w* in the vector space of states with
-
-w* \zeta = 1
-
-If \zeta has an inverse, our category has both a weighting and a
-coweighting, since we can solve both these equations to find w and w*.
-But often there will be a weighting and coweighting even when \zeta doesn't
+$$\zeta w = 1$$
+Here "$1$" is the linear combination of objects where all the
+coefficients equal $1$. He also defines a "coweighting" to be an element
+$w^*$ in the vector space of states with
+$$w^* \zeta = 1$$
+If $\zeta$ has an inverse, our category has both a weighting and a
+coweighting, since we can solve both these equations to find $w$ and $w^*$.
+But often there will be a weighting and coweighting even when $\zeta$ doesn't
 have an inverse. When both a weighting and coweighting exist, the sum of
-the coefficients of w equals the sum of coefficients of w* --- and this
+the coefficients of $w$ equals the sum of coefficients of $w^*$ --- and this
 sum is what Leinster takes as the "Euler characteristic" of the
-category X!
+category $X$!
 
 This is a bit subtle, and I don't deeply understand it. But, Leinster
 proves so many nice theorems about this "Euler characteristic" that
