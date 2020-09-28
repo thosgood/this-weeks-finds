@@ -297,7 +297,7 @@ I replied:
 > > then you're going to view changing from $q = 1$ to some other $q$
 > > as varying the value of the 4th constant.
 > > Thus John (a quantum gravity theorist that often sets
-> > $\hbar$, $G$, and $c$ to fixed values) thinks that it's $\Lambda$ [...]
+> > $\hbar$, $G$, and $c$ to fixed values) thinks that it's $\Lambda$ \[...\]
 > 
 > Right.  Actually, the real reason I like to claim it's $\Lambda$
 > is that this is the most surprising of the four alternatives.

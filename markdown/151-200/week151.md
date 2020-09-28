@@ -73,7 +73,7 @@ First let me review and elaborate on some basic stuff I said already. If
 G is any topological group, there is a topological space $BG$ with a
 basepoint such that the space of loops in $BG$ starting and ending at this
 point is homotopy equivalent to $G$. This space $BG$ is unique up to
-homotopy equivalence. \[1\]
+homotopy equivalence. [^1]
 
 $BG$ is important because it's the "classifying space for $G$-bundles".
 What this means is that there's a principal $G$-bundle over $BG$ called the
@@ -191,7 +191,7 @@ groups. By the Whitehead theorem, this implies that this map is a
 homotopy equivalence! So $LX$ is really just $G$!! So $X$ is just $BG$!!!
 
 In short: if we have a space $X$ with a principal $G$-bundle $P$ over it, and
-$P$ is contractible, $X$ must be $BG$. \[2\]
+$P$ is contractible, $X$ must be $BG$. [^2]
 
 Now let's use this fact to show that $\mathbb{CP}^\infty$ is $K(\mathbb{Z},2)$. Remember that by
 our recursive definition,
@@ -399,16 +399,14 @@ Murray and Diarmuid Crowley of the University of Adelaide, and Mark
 Goresky of IHES for educating me about these matters... all remaining
 errors are mine!
 
----
+------------------------------------------------------------------------
 
-Footnotes:
+[^1] I'm being sloppy here. Throughout this discussion, when I say
+    "homotopy equivalent", I really mean "weakly homotopy equivalent" ---
+    a technical nuance that you can read about in any good book on homotopy
+    theory.
 
-\[1\] I'm being sloppy here. Throughout this discussion, when I say
-"homotopy equivalent", I really mean "weakly homotopy equivalent" ---
-a technical nuance that you can read about in any good book on homotopy
-theory.
-
-\[2\] Moreover, $P$ must be the universal principal $G$-bundle. Conversely,
-for any topological group $G$ the total space of the universal principal
-$G$-bundle is contractible. Everything fits together very neatly! But I
-don't need all this stuff now.
+[^2] Moreover, $P$ must be the universal principal $G$-bundle. Conversely,
+    for any topological group $G$ the total space of the universal principal
+    $G$-bundle is contractible. Everything fits together very neatly! But I
+    don't need all this stuff now.

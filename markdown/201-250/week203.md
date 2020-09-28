@@ -516,400 +516,391 @@ Stephen Schanuel said some things about ["Week 203"](#week203) on
 the category theory mailing list, so I'll include his post here along
 with various replies, concluding with my own.
 
-
-    From:   Stephen Schanuel 
-    Subject: categories: mystification and categorification
-    Date:   Thu, 4 Mar 2004 00:44:46 -0500  
-
-        I was unable to understand John Baez' golden object problem, nor his
-    description of the solutions.  He refuses to tell us what 'nice' means,
-    but let me at least propose that to be 'tolerable' a solution must be an
-    object in a category, and John doesn't tell us what category is involved
-    in either of the solutions; at least I couldn't find a specification of
-    the objects, nor the maps, so I found the descriptions 'intolerable', in
-    the technical sense defined above.  He is very generous, allowing one to
-    use a category with both plus and times as extra monoidal structures.
-    (Does anyone know an example of interest in which the plus is not
-    coproduct?)  This freedom is unnecessary; a little algebra plus Robbie
-    Gates' theorem provides a solution G to G^2=G+1 which satisfies no
-    additional equations, in an extensive category (with coproduct as plus,
-    cartesian product as times).
-        Briefly, here it is.  A primitive fifth root of unity z is a root of
-    the polynomial 1+X+X^2+X^3+X^4, hence satisfies 1+z+z^2+z^3+z^4+z=z,
-    which is of the 'fixed point' form p(z)=z with p in N[X] and p(0) not
-    0. Gates' theorem then says that the free distributive category
-    containing an object Z and an isomorphism from p(Z) to Z is extensive,
-    and its Burnside rig B (of isomorphism classes of objects) is, as one
-    would hope, N[X]/(p(X)=X); that is, Z satisfies no unexpected
-    equations. Since the degree of p is greater than 1, an easy general
-    theorem tells us (from the joint injectivity of the Euler and dimension
-    homomorphisms) that two polynomials agree at the object Z if and only if
-    either they are the same polynomial or both are non-constant and they
-    agree at the number z.Now the 'algebra':  the golden number is 1+z+z^4.
-    So G=1+Z+Z^4 satisfies G^2=G+1, as desired. It satisfies no
-    unexpected equations, because the relation X^2=X+1 reduces any
-    polynomial in N[X] to a linear polynomial, and these reduced forms have
-    distinct Euler characteristics, i.e. differ at z. Thus the homomorphism
-    from N[X]/(X^2=X+1) to B (sending X to G) is injective, and that's all
-    I wanted.
-        Since in the category of sets, any nasty old infinite set satisfies
-    the golden equation and many others, I have taken the liberty of
-    interpreting  'nice' to mean at least 'satisfying no unexpected
-    equations'. One could ask for more; the construction above has produced
-    a distributive, but not extensive, category whose Burnside rig is
-    N[X]/(X^2=X+1), the full subcategory with objects polynomials in G.
-    (If it were extensive, it would be closed under taking summands, but
-    every object in the larger category is a summand of G.) I don't know
-    whether there is an extensive category with N[X]/(X^2=X+1) as its full
-    Burnside rig; perhaps one or both of the examples John mentioned would
-    do, if I knew what they were.
-        While I'm airing my confusions, can anyone tell me what
-    'categorification' means? I don't know any such process; the simplest
-    exanple, 'categorifying' natural numbers to get finite sets, seems to me
-    rather 'remembering the finite sets and maps which gave rise to natural
-    numbers by the abstraction of passing to isomorphism classes'.
-       Finally, a note to John: While you're trying to give your audience
-    some feeling for the virtues of $n$-categories, couldn't you give them a
-    little help with n=1, by being a little more precise about objects and
-    maps?
-       Greetings to all, and thanks for your patience while I got this stuff
-    off my chest,
-       Steve Schanuel
-
-
-
-
-
-    From:    David Yetter 
-    Subject: categories: Re: mystification and categorification
-    Date:    Fri, 5 Mar 2004 10:55:26 -0600 
-
-    Categorification is a bit like quantization:  it isn't a construction so much
-    as a desideratum for a relationship between one thing and another (in the
-    case of categorification an $(n+1)$-categorical structure and an $n$-categorical
-    structure; in the case of quantization a quantum mechanical system and
-    a classical mechanical system).
-
-    Categorification wants to find a higher-dimensional categorical structure
-    corresponding to a lower-dimensional one by weakening equations to
-    natural isomorphisms and imposing new, sensible, coherence conditions.
-    In general, for the original purpose for which it was proposed--constructions
-    of TQFT's and models of quantum gravity--one wants the highest categorical
-    level to have a linear structure (hence Baez wanting tensor product
-    and a sum it distributes over, rather than cartesian product and coproduct).
-    Specific lower-dimensional categories with structure are 'categorified' by
-    finding a higher-dimensional category with the new structure which 'lies over'
-    the lower dimensional one in the way an additive monoidal category lies
-    over its Grothendieck rig.
-
-    For instance any (k-linear) monoidal category with monoid of isomorphism
-    classes M is a categorification of M, and more generally (k-linear) monoidal
-    categories are a categorification of monoids.
-
-    A simple example shows why it is not a construction:  commutative monoids
-    (as rather special categories with one object) admit two different
-    categorifications:  symmetric monoidal categories and braided monoidal
-    categories (each regarded as a kind of bicategory with one object).
-    There is a good argument for regarding braided monoidal categories
-    as the 'correct' categorification:  the Eckmann-Hilton theorem ('a group
-    in GROUPS is an abelian group'  or, really as the proof shows, 'a monoid
-    in MONOIDS is a commutative monoid') 'categorifies' to: A monoidal category
-    in MONCAT is a braided monoidal category.
-
-
-
-
-
-    From:    Vaughan Pratt 
-    Subject: categories: Re: mystification and categorification
-    Date:    Fri, 05 Mar 2004 22:49:56 -0800    
-
-    >While I'm airing my confusions, can anyone tell me what
-    >'categorification' means? I don't know any such process; the simplest
-    >exanple, 'categorifying' natural numbers to get finite sets, seems to me
-    >rather 'remembering the finite sets and maps which gave rise to natural
-    >numbers by the abstraction of passing to isomorphism classes'.
-
-    A fair question.  I attended John's Coimbra lectures on this stuff in 1999
-    but a lot of it leaked out afterwards.  If I had to guess I'd say he was
-    categorifying the free monoid on one generator to make it a monoidal category,
-    but then how did the monoid end up as coproduct and the generator as the
-    final object?  One suspects some free association there---John, how do
-    you make that connection?
-
-    With regard to categorification in general, sets seem to play a central
-    role in at least one development of category theory.  The homobjects of
-    "ordinary" categories are homsets.  (In that sense I guess "ordinary" must
-    entail "locally small.")  $2$-categories are what you get if instead you let
-    them be homcats, suitably elaborated.
-
-    Going in the other direction, if you take homsets to be vacuous, not
-    in the sense that they are empty but rather that they are all the same,
-    then you get sets.  One more step in that direction makes everything look
-    the same, which may have something to do with the Maharishi Yogi hiring
-    category theorists for the math dept. of his university in Fairfield, Iowa.
-    (When I spoke last with the MY's "Minister of World Health," an MD who like
-    Ross Street was a classmate of mine but eight years earlier starting in 1957,
-    the entire conversation seemed to be largely a skirting of the minefield
-    of the sameness of everything, which may subconsciously have been behind my
-    obscure reply to Peter Freyd's posting a while back about unique existence
-    going back to Descartes, where I tried to one-up him by claiming it went
-    much further back.)
-
-    Categorification isn't the only way to get to $2$-categories, which can be
-    understood instead in terms of the interchange law as a two-dimensional
-    associativity principle.  However John has got a lot of mileage out of
-    the categorification approach, which one can't begrudge in an era where
-    mileage and minutes are as integral to a balanced life as one's checkbook.
-    (Q: How many minutes in a month?  A: Depends on your plan.)
-
-    >Since in the category of sets, any nasty old infinite set satisfies
-    >the golden equation and many others, I have taken the liberty of
-    >interpreting 'nice' to mean at least 'satisfying no unexpected
-    >equations'.
-
-    Quite right.  I would add to this "and satisfying the expected equations."
-    The "nasty sets" of which Steve speaks fail to satisy such expected
-    equations as 2^2X ~ X.  (The power set of a set is a Boolean algebra,
-    for heaven's sake.  Why on earth forget that structure prior to taking the
-    second exponentiation?  \mathsf{Set} theorists seem to think that they can simply
-    forget structure without paying for it, but in the real world it costs
-    kT/2 joules per element of X to forget that structure.  If set theorists
-    aren't willing to pay real-world prices in their modeling, why should we
-    taxpayers pay them real-world salaries?  Large cardinals are a figment of
-    their overactive imaginations, and the solution to consistency concerns is
-    not to go there.)
-
-    Vaughan Pratt
-
-
-
-
-
-    From: Tom Leinster 
-    Subject: Re: categories: mystification and categorification
-    Date: 07 Mar 2004 20:50:39 +0000
-
-    Steve Schanuel wrote:
-    > a category with both plus and times as extra monoidal structures.
-    > (Does anyone know an example of interest in which the plus is not
-    > coproduct?) 
-
-    Here are two examples that I've come across previously of rig categories
-    in which the plus is not coproduct:
-
-    (i) the category of finite sets and bijections, with + and x inherited
-    from the category of sets;
-
-    (ii) discrete rig categories, which are of course the same thing as
-    rigs.
-
-    > This freedom is unnecessary; a little algebra plus Robbie
-    > Gates' theorem provides a solution G to  G^2=G+1 which satisfies no
-    > additional equations, in an extensive category (with coproduct as plus,
-    > cartesian product as times).
-
-    If you do allow yourself the freedom to use any rig category then an
-    even simpler solution exists, also satisfying no additional equations:
-    just take the rig freely generated by an element G satisfying G^2 = G +
-    1 and regard it as a discrete rig category.
-
-    >     Since in the category of sets, any nasty old infinite set satisfies
-    > the golden equation and many others, I have taken the liberty of
-    > interpreting  'nice' to mean at least 'satisfying no unexpected
-    > equations'.
-
-    I'd interpret "nice" differently.  (Apart from anything else, the
-    trivial example in my previous paragraph would otherwise make the golden
-    object problem uninteresting.)  "Nice" as I understand it is not a
-    precise term - at least, I don't know how to make it precise.  Maybe I
-    can explain my interpretation by analogy with the equation T = 1 + T^2. 
-    A nice solution T would be the set of finite, binary, planar trees
-    together with the usual isomorphism T -~-> 1 + T^2; a nasty solution
-    would be a random infinite set T with a random isomorphism to 1 + T^2. 
-    (Both these solutions are in the rig category \mathsf{Set} with its standard +
-    and x.)  I regard the first solution as nice because I can see some
-    combinatorial content to it (and maybe, at the back of my mind, because
-    it has a constructive feel), and the second as nasty because I can't. 
-    I'm not certain what I think of the solution given by the set of
-    not-necessarily-finite binary planar trees (nice?), or by the set of
-    binary planar trees of cardinality at most aleph_5 (probably nasty).
-
-    Maybe the finding of a "nice" solution is similar in spirit to the
-    finding of a "concrete interpretation" of a combinatorial identity.  As
-    an extremely simple example, consider the identity saying that each
-    entry in Pascal's triangle is the sum of the two above it,
-
-       (n+1 choose r) = (n choose r-1) + (n choose r).
-
-    This is a doddle to prove, but all the same you'd be missing something
-    if you didn't know the standard "concrete interpretation": choosing r
-    objects out of n+1 objects amounts to EITHER choosing the first one and
-    then choosing r-1 of the remaining n OR ... .  Even if the challenge of
-    finding a "nice solution" or "concrete interpretation" isn't made
-    precise, I think there is a shared sense of what would count as an
-    answer, and finding an answer is in general not straightforward.
-
-    Best wishes,
-    Tom
-
-
-
-
-
-    From: John Baez
-    Subject: golden objects
-    Date: Sun, 7 Mar 2004 12:50:29 -0800 (PST)
-
-    Dear Categorists -
-
-    Sorry to take a while to respond.  People at UCR have been unable to
-    receive posts on the category theory mailing list, due to problems with
-    our internet connection.  
-
-    I'd asked for some nice examples of an object G in a rig category
-    equipped with an isomorphism from G^2 to G + 1.  Steve Schanuel replied:
-
-    >I was unable to understand John Baez' golden object problem, nor his
-    >description of the solutions.  He refuses to tell us what 'nice' means, [...]
-
-    The problem was deliberately open-ended, but you seem to have 
-    understood it perfectly, since you've given a nice solution, 
-    including a precise specification of what you consider "nice".  
-
-    Let me repeat the two solutions given by Robin Houston:
-
-    1) The first solution works in any rig category having an object H 
-    equipped with an isomorphism to H^2 + 4H + 1.  The solution is to take
-
-    G = H + 2.
-
-    I described how Houston uses the isomorphism H \to H^2 + 4H + 1 to 
-    construct an isomorphism G^2 \to G + 1.  
-
-    What's nice about this is that it reduces a problem that's not 
-    obviously of fixed-point form to one that is.
-
-    2) Houston's second solution works in any monoidal cocomplete category, 
-    tensor product distributing over colimits, that contains an object X 
-    equipped with an isomorphism to 2X + 1.  The solution is to let G be 
-    the object of "binary planar rooted trees with X-labelled leaves", i.e.
-
-    G = X + X^2 + 2X^3 + 5X^4 + 14X^5 + 42X^6 + ...
-
-    where the coefficients are Catalan numbers.  He uses the obvious 
-    isomorphism G \to G^2 + X to construct an isomorphism G^2 \to G + 1.
-
-    What's nice about this is that it shows Propp's originally proposed
-    golden object really is one: just take the category of $\sigma$-polytopes 
-    with its cartesian product, and let X be the open interval!  And,
-    it makes precise the sense in which the alternating sum of Catalan
-    numbers equals the golden ratio.
-
-    Steve writes:
-
-    >I don't know whether there is an extensive category with N[X]/(X^2=X+1) 
-    >as its full Burnside rig; perhaps one or both of the examples John 
-    >mentioned would do, if I knew what they were.
-
-    I think example 1) does the job if we take the free distributive
-    category on an object H equipped with an isomorphism to H^2 + 4H + 1.
-    Right?
-
-    Steve also writes:
-
-    >He is very generous, allowing one to use a category with both plus 
-    >and times as extra monoidal structures.  (Does anyone know an example 
-    >of interest in which the plus is not coproduct?)  This freedom is 
-    >unnecessary [...]
-
-    It's unnecessary, but handy: I think there's also an golden object in 
-    the rig category of reps of quantum \mathrm{SU}(2) at a suitable value of q.  
-    Here the tensor product is not cartesian.  
-
-    In the lingo of quantum group theory, this object has "quantum dimension"
-    equal to the golden number.  It's interesting how such nonintegral but 
-    algebraic "dimensions" show up naturally in quantum group theory, 
-    just as nonintegral but algebraic "cardinalities" show up in the theory 
-    of distributive categories.  
-
-    I don't know any golden objects in rig categories where the plus is
-    not coproduct, and I agree that such rig categories arise less often
-    than those where times is not product.  But, if you use the obvious 
-    way of making the groupoid of finite sets into a rig category, + isn't 
-    coproduct, nor is x product.  
-
-    > While I'm airing my confusions, can anyone tell me what
-    > 'categorification' means? I don't know any such process; the simplest
-    > exanple, 'categorifying' natural numbers to get finite sets, seems to me
-    > rather 'remembering the finite sets and maps which gave rise to natural
-    > numbers by the abstraction of passing to isomorphism classes'.
-
-    You're right: categorification is not a systematic process!  
-    I explained this idea back in week121, and also in my paper
-    "Categorification", at http://www.arXiv.org/abs/math.QA/9802029.  
-    Here's what I said:
-
-     If one studies categorification one soon discovers an amazing fact: many
-     deep-sounding results in mathematics are just categorifications of facts
-     we learned in high school!  There is a good reason for this.  All along,
-     we have been unwittingly `decategorifying' mathematics by pretending
-     that categories are just sets.  We `decategorify' a category by
-     forgetting about the morphisms and pretending that isomorphic objects
-     are equal.  We are left with a mere set: the set of isomorphism classes
-     of objects. 
-
-     To understand this, the following parable may be useful.  Long ago, when
-     shepherds wanted to see if two herds of sheep were isomorphic, they
-     would look for an explicit isomorphism.  In other words, they would line
-     up both herds and try to match each sheep in one herd with a sheep in
-     the other.  But one day, along came a shepherd who invented
-     decategorification.  She realized one could take each herd and `count'
-     it, setting up an isomorphism between it and some set of `numbers',
-     which were nonsense words like `one, two, three, ...' specially
-     designed for this purpose.  By comparing the resulting numbers, she
-     could show that two herds were isomorphic without explicitly
-     establishing an isomorphism!  In short, by decategorifying the category
-     of finite sets, the set of natural numbers was invented.   
-
-     According to this parable, decategorification started out as a stroke
-     of mathematical genius.  Only later did it become a matter of dumb
-     habit, which we are now struggling to overcome by means of
-     categorification.  While the historical reality is far more
-     complicated, categorification really has led to tremendous progress 
-     in mathematics during the 20th century.  For example, Noether
-     revolutionized algebraic topology by emphasizing the importance of
-     homology groups.  Previous work had focused on Betti numbers, which
-     are just the dimensions of the rational homology groups.  As with
-     taking the cardinality of a set, taking the dimension of a vector
-     space is a process of decategorification, since two vector spaces are
-     isomorphic if and only if they have the same dimension.  Noether noted
-     that if we work with homology groups rather than Betti numbers, we can
-     solve more problems, because we obtain invariants not only of spaces,
-     but also of maps.  
-
-     In modern language, the $n$th rational homology is a functor defined
-     on the category of topological spaces, while the $n$th Betti number is
-     a mere function, defined on the set of isomorphism classes of
-     topological spaces.  Of course, this way of stating Noether's insight
-     is anachronistic, since it came before category theory.  Indeed, it
-     was in Eilenberg and Mac Lane's subsequent work on homology that
-     category theory was born!
-     
-     Decategorification is a straightforward process which typically
-     destroys information about the situation at hand.  Categorification,
-     being an attempt to recover this lost information, is inevitably
-     fraught with difficulties.
-
-    >Finally, a note to John: While you're trying to give your audience
-    >some feeling for the virtues of $n$-categories, couldn't you give them a
-    >little help with n=1, by being a little more precise about objects and
-    >maps?
-
-    I hope it's clearer now.   
-
-    Best,
-    jb
+------------------------------------------------------------------------
+
+> From:   Stephen Schanuel
+> Subject: categories: mystification and categorification
+> Date:   Thu, 4 Mar 2004 00:44:46 -0500
+>
+> I was unable to understand John Baez' golden object problem, nor his
+> description of the solutions.  He refuses to tell us what 'nice' means,
+> but let me at least propose that to be 'tolerable' a solution must be an
+> object in a category, and John doesn't tell us what category is involved
+> in either of the solutions; at least I couldn't find a specification of
+> the objects, nor the maps, so I found the descriptions 'intolerable', in
+> the technical sense defined above.  He is very generous, allowing one to
+> use a category with both plus and times as extra monoidal structures.
+> (Does anyone know an example of interest in which the plus is not
+> coproduct?)  This freedom is unnecessary; a little algebra plus Robbie
+> Gates' theorem provides a solution $G$ to $G^2=G+1$ which satisfies no
+> additional equations, in an extensive category (with coproduct as plus,
+> cartesian product as times).
+>
+> Briefly, here it is.  A primitive fifth root of unity $z$ is a root of
+> the polynomial $1+X+X^2+X^3+X^4$, hence satisfies $1+z+z^2+z^3+z^4+z=z$,
+> which is of the 'fixed point' form $p(z)=z$ with $p$ in $\mathbb{N}[X]$ and $p(0)$ not
+> $0$. Gates' theorem then says that the free distributive category
+> containing an object $Z$ and an isomorphism from $p(Z)$ to $Z$ is extensive,
+> and its Burnside rig $B$ (of isomorphism classes of objects) is, as one
+> would hope, $\mathbb{N}[X]/(p(X)=X)$; that is, $Z$ satisfies no unexpected
+> equations. Since the degree of $p$ is greater than $1$, an easy general
+> theorem tells us (from the joint injectivity of the Euler and dimension
+> homomorphisms) that two polynomials agree at the object $Z$ if and only if
+> either they are the same polynomial or both are non-constant and they
+> agree at the number $z$. Now the 'algebra':  the golden number is $1+z+z^4$.
+> So $G=1+Z+Z^4$ satisfies $G^2=G+1$, as desired. It satisfies no
+> unexpected equations, because the relation $X^2=X+1$ reduces any
+> polynomial in $\mathbb{N}[X]$ to a linear polynomial, and these reduced forms have
+> distinct Euler characteristics, i.e. differ at $z$. Thus the homomorphism
+> from $\mathbb{N}[X]/(X^2=X+1)$ to $B$ (sending $X$ to $G$) is injective, and that's all
+> I wanted.
+>
+> Since in the category of sets, any nasty old infinite set satisfies
+> the golden equation and many others, I have taken the liberty of
+> interpreting  'nice' to mean at least 'satisfying no unexpected
+> equations'. One could ask for more; the construction above has produced
+> a distributive, but not extensive, category whose Burnside rig is
+> $\mathbb{N}[X]/(X^2=X+1)$, the full subcategory with objects polynomials in $G$.
+> (If it were extensive, it would be closed under taking summands, but
+> every object in the larger category is a summand of $G$.) I don't know
+> whether there is an extensive category with $\mathbb{N}[X]/(X^2=X+1)$ as its full
+> Burnside rig; perhaps one or both of the examples John mentioned would
+> do, if I knew what they were.
+>
+> While I'm airing my confusions, can anyone tell me what
+> 'categorification' means? I don't know any such process; the simplest
+> exanple, 'categorifying' natural numbers to get finite sets, seems to me
+> rather 'remembering the finite sets and maps which gave rise to natural
+> numbers by the abstraction of passing to isomorphism classes'.
+>
+> Finally, a note to John: While you're trying to give your audience
+> some feeling for the virtues of $n$-categories, couldn't you give them a
+> little help with $n=1$, by being a little more precise about objects and
+> maps?
+>
+> Greetings to all, and thanks for your patience while I got this stuff
+> off my chest,
+>
+> Steve Schanuel
+
+------------------------------------------------------------------------
+
+> From:    David Yetter
+> Subject: categories: Re: mystification and categorification
+> Date:    Fri, 5 Mar 2004 10:55:26 -0600
+>
+> Categorification is a bit like quantization:  it isn't a construction so much
+> as a desideratum for a relationship between one thing and another (in the
+> case of categorification an $(n+1)$-categorical structure and an $n$-categorical
+> structure; in the case of quantization a quantum mechanical system and
+> a classical mechanical system).
+>
+> Categorification wants to find a higher-dimensional categorical structure
+> corresponding to a lower-dimensional one by weakening equations to
+> natural isomorphisms and imposing new, sensible, coherence conditions.
+> In general, for the original purpose for which it was proposed--constructions
+> of TQFT's and models of quantum gravity--one wants the highest categorical
+> level to have a linear structure (hence Baez wanting tensor product
+> and a sum it distributes over, rather than cartesian product and coproduct).
+> Specific lower-dimensional categories with structure are 'categorified' by
+> finding a higher-dimensional category with the new structure which 'lies over'
+> the lower dimensional one in the way an additive monoidal category lies
+> over its Grothendieck rig.
+>
+> For instance any ($k$-linear) monoidal category with monoid of isomorphism
+> classes $M$ is a categorification of $M$, and more generally ($k$-linear) monoidal
+> categories are a categorification of monoids.
+>
+> A simple example shows why it is not a construction:  commutative monoids
+> (as rather special categories with one object) admit two different
+> categorifications:  symmetric monoidal categories and braided monoidal
+> categories (each regarded as a kind of bicategory with one object).
+> There is a good argument for regarding braided monoidal categories
+> as the 'correct' categorification:  the Eckmann-Hilton theorem ('a group
+> in $\mathsf{GROUPS}$ is an abelian group'  or, really as the proof shows, 'a monoid
+> in $\mathsf{MONOIDS}$ is a commutative monoid') 'categorifies' to: A monoidal category
+> in $\mathsf{MONCAT}$ is a braided monoidal category.
+
+------------------------------------------------------------------------
+
+> From:    Vaughan Pratt
+> Subject: categories: Re: mystification and categorification
+> Date:    Fri, 05 Mar 2004 22:49:56 -0800
+>
+> > While I'm airing my confusions, can anyone tell me what
+> > 'categorification' means? I don't know any such process; the simplest
+> > exanple, 'categorifying' natural numbers to get finite sets, seems to me
+> > rather 'remembering the finite sets and maps which gave rise to natural
+> > numbers by the abstraction of passing to isomorphism classes'.
+>
+> A fair question.  I attended John's Coimbra lectures on this stuff in 1999
+> but a lot of it leaked out afterwards.  If I had to guess I'd say he was
+> categorifying the free monoid on one generator to make it a monoidal category,
+> but then how did the monoid end up as coproduct and the generator as the
+> final object?  One suspects some free association there --- John, how do
+> you make that connection?
+>
+> With regard to categorification in general, sets seem to play a central
+> role in at least one development of category theory.  The homobjects of
+> "ordinary" categories are homsets.  (In that sense I guess "ordinary" must
+> entail "locally small.")  $2$-categories are what you get if instead you let
+> them be homcats, suitably elaborated.
+>
+> Going in the other direction, if you take homsets to be vacuous, not
+> in the sense that they are empty but rather that they are all the same,
+> then you get sets.  One more step in that direction makes everything look
+> the same, which may have something to do with the Maharishi Yogi hiring
+> category theorists for the math dept. of his university in Fairfield, Iowa.
+> (When I spoke last with the MY's "Minister of World Health," an MD who like
+> Ross Street was a classmate of mine but eight years earlier starting in 1957,
+> the entire conversation seemed to be largely a skirting of the minefield
+> of the sameness of everything, which may subconsciously have been behind my
+> obscure reply to Peter Freyd's posting a while back about unique existence
+> going back to Descartes, where I tried to one-up him by claiming it went
+> much further back.)
+>
+> Categorification isn't the only way to get to $2$-categories, which can be
+> understood instead in terms of the interchange law as a two-dimensional
+> associativity principle.  However John has got a lot of mileage out of
+> the categorification approach, which one can't begrudge in an era where
+> mileage and minutes are as integral to a balanced life as one's checkbook.
+> (Q: How many minutes in a month?  A: Depends on your plan.)
+>
+> > Since in the category of sets, any nasty old infinite set satisfies
+> > the golden equation and many others, I have taken the liberty of
+> > interpreting 'nice' to mean at least 'satisfying no unexpected
+> > equations'.
+>
+> Quite right.  I would add to this "and satisfying the expected equations."
+> The "nasty sets" of which Steve speaks fail to satisy such expected
+> equations as $2^{2^X} \sim X$.  (The power set of a set is a Boolean algebra,
+> for heaven's sake.  Why on earth forget that structure prior to taking the
+> second exponentiation?  Set theorists seem to think that they can simply
+> forget structure without paying for it, but in the real world it costs
+> $kT/2$ joules per element of $X$ to forget that structure.  If set theorists
+> aren't willing to pay real-world prices in their modeling, why should we
+> taxpayers pay them real-world salaries?  Large cardinals are a figment of
+> their overactive imaginations, and the solution to consistency concerns is
+> not to go there.)
+>
+> Vaughan Pratt
+
+------------------------------------------------------------------------
+
+> From: Tom Leinster
+> Subject: Re: categories: mystification and categorification
+> Date: 07 Mar 2004 20:50:39 +0000
+>
+> Steve Schanuel wrote:
+> > a category with both plus and times as extra monoidal structures.
+> > (Does anyone know an example of interest in which the plus is not
+> > coproduct?)
+>
+> Here are two examples that I've come across previously of rig categories
+> in which the plus is not coproduct:
+>
+> (i) the category of finite sets and bijections, with $+$ and $\times$ inherited
+> from the category of sets;
+>
+> (ii) discrete rig categories, which are of course the same thing as
+> rigs.
+>
+> > This freedom is unnecessary; a little algebra plus Robbie
+> > Gates' theorem provides a solution $G$ to $G^2=G+1$ which satisfies no
+> > additional equations, in an extensive category (with coproduct as plus,
+> > cartesian product as times).
+>
+> If you do allow yourself the freedom to use any rig category then an
+> even simpler solution exists, also satisfying no additional equations:
+> just take the rig freely generated by an element $G$ satisfying
+> $G^2 = G + 1$ and regard it as a discrete rig category.
+>
+> > Since in the category of sets, any nasty old infinite set satisfies
+> > the golden equation and many others, I have taken the liberty of
+> > interpreting  'nice' to mean at least 'satisfying no unexpected
+> > equations'.
+>
+> I'd interpret "nice" differently.  (Apart from anything else, the
+> trivial example in my previous paragraph would otherwise make the golden
+> object problem uninteresting.)  "Nice" as I understand it is not a
+> precise term --- at least, I don't know how to make it precise.  Maybe I
+> can explain my interpretation by analogy with the equation $T = 1 + T^2$.
+> A nice solution $T$ would be the set of finite, binary, planar trees
+> together with the usual isomorphism $T\xrightarrow{\sim}1 + T^2$; a nasty solution
+> would be a random infinite set $T$ with a random isomorphism to $1 + T^2$.
+> (Both these solutions are in the rig category $\mathsf{Set}$ with its standard $+$
+> and $\times$.)  I regard the first solution as nice because I can see some
+> combinatorial content to it (and maybe, at the back of my mind, because
+> it has a constructive feel), and the second as nasty because I can't.
+> I'm not certain what I think of the solution given by the set of
+> not-necessarily-finite binary planar trees (nice?), or by the set of
+> binary planar trees of cardinality at most $\aleph_5$ (probably nasty).
+>
+> Maybe the finding of a "nice" solution is similar in spirit to the
+> finding of a "concrete interpretation" of a combinatorial identity.  As
+> an extremely simple example, consider the identity saying that each
+> entry in Pascal's triangle is the sum of the two above it,
+> $$\binom{n+1}{r} = \binom{n}{r-1} + \binom{n}{r}.$$
+> This is a doddle to prove, but all the same you'd be missing something
+> if you didn't know the standard "concrete interpretation": choosing $r$
+> objects out of $n+1$ objects amounts to EITHER choosing the first one and
+> then choosing $r-1$ of the remaining $n$ OR ... .  Even if the challenge of
+> finding a "nice solution" or "concrete interpretation" isn't made
+> precise, I think there is a shared sense of what would count as an
+> answer, and finding an answer is in general not straightforward.
+>
+> Best wishes,
+> Tom
+
+------------------------------------------------------------------------
+
+> From: John Baez
+> Subject: golden objects
+> Date: Sun, 7 Mar 2004 12:50:29 -0800 (PST)
+>
+> Dear Categorists ---
+>
+> Sorry to take a while to respond.  People at UCR have been unable to
+> receive posts on the category theory mailing list, due to problems with
+> our internet connection.
+>
+> I'd asked for some nice examples of an object $G$ in a rig category
+> equipped with an isomorphism from $G^2$ to $G + 1$.  Steve Schanuel replied:
+>
+> > I was unable to understand John Baez' golden object problem, nor his
+> > description of the solutions.  He refuses to tell us what 'nice' means, \[...\]
+>
+> The problem was deliberately open-ended, but you seem to have
+> understood it perfectly, since you've given a nice solution,
+> including a precise specification of what you consider "nice".
+>
+> Let me repeat the two solutions given by Robin Houston:
+>
+> 1) The first solution works in any rig category having an object $H$
+> equipped with an isomorphism to $H^2 + 4H + 1$.  The solution is to take
+> $$G = H + 2.$$
+> I described how Houston uses the isomorphism $H \to H^2 + 4H + 1$ to
+> construct an isomorphism $G^2 \to G + 1$.
+> What's nice about this is that it reduces a problem that's not
+> obviously of fixed-point form to one that is.
+>
+> 2) Houston's second solution works in any monoidal cocomplete category,
+> tensor product distributing over colimits, that contains an object $X$
+> equipped with an isomorphism to $2X + 1$.  The solution is to let $G$ be
+> the object of "binary planar rooted trees with $X$-labelled leaves", i.e.
+> $$G = X + X^2 + 2X^3 + 5X^4 + 14X^5 + 42X^6 + \ldots$$
+> where the coefficients are Catalan numbers.  He uses the obvious
+> isomorphism $G \to G^2 + X$ to construct an isomorphism $G^2 \to G + 1$.
+> What's nice about this is that it shows Propp's originally proposed
+> golden object really is one: just take the category of $\sigma$-polytopes
+> with its cartesian product, and let $X$ be the open interval!  And,
+> it makes precise the sense in which the alternating sum of Catalan
+> numbers equals the golden ratio.
+>
+> Steve writes:
+>
+> > I don't know whether there is an extensive category with $\mathbb{N}[X]/(X^2=X+1)$
+> > as its full Burnside rig; perhaps one or both of the examples John
+> > mentioned would do, if I knew what they were.
+>
+> I think example 1) does the job if we take the free distributive
+> category on an object H equipped with an isomorphism to $H^2 + 4H + 1$.
+> Right?
+>
+> Steve also writes:
+>
+> > He is very generous, allowing one to use a category with both plus
+> > and times as extra monoidal structures.  (Does anyone know an example
+> > of interest in which the plus is not coproduct?)  This freedom is
+> > unnecessary \[...\]
+>
+> It's unnecessary, but handy: I think there's also an golden object in
+> the rig category of reps of quantum $\mathrm{SU}(2)$ at a suitable value of $q$.
+> Here the tensor product is not cartesian.
+>
+> In the lingo of quantum group theory, this object has "quantum dimension"
+> equal to the golden number.  It's interesting how such nonintegral but
+> algebraic "dimensions" show up naturally in quantum group theory,
+> just as nonintegral but algebraic "cardinalities" show up in the theory
+> of distributive categories.
+>
+> I don't know any golden objects in rig categories where the plus is
+> not coproduct, and I agree that such rig categories arise less often
+> than those where times is not product. But, if you use the obvious
+> way of making the groupoid of finite sets into a rig category, $+$ isn't
+> coproduct, nor is $\times$ product.
+>
+> >  While I'm airing my confusions, can anyone tell me what
+> >  'categorification' means? I don't know any such process; the simplest
+> >  exanple, 'categorifying' natural numbers to get finite sets, seems to me
+> >  rather 'remembering the finite sets and maps which gave rise to natural
+> >  numbers by the abstraction of passing to isomorphism classes'.
+>
+> You're right: categorification is not a systematic process!
+> I explained this idea back in "Week 121", and also in my paper
+> "Categorification", at `http://www.arXiv.org/abs/math.QA/9802029`.
+> Here's what I said:
+>
+> > If one studies categorification one soon discovers an amazing fact: many
+> > deep-sounding results in mathematics are just categorifications of facts
+> > we learned in high school!  There is a good reason for this.  All along,
+> > we have been unwittingly `decategorifying' mathematics by pretending
+> > that categories are just sets.  We `decategorify' a category by
+> > forgetting about the morphisms and pretending that isomorphic objects
+> > are equal.  We are left with a mere set: the set of isomorphism classes
+> > of objects.
+> >
+> > To understand this, the following parable may be useful.  Long ago, when
+> > shepherds wanted to see if two herds of sheep were isomorphic, they
+> > would look for an explicit isomorphism.  In other words, they would line
+> > up both herds and try to match each sheep in one herd with a sheep in
+> > the other.  But one day, along came a shepherd who invented
+> > decategorification.  She realized one could take each herd and `count'
+> > it, setting up an isomorphism between it and some set of `numbers',
+> > which were nonsense words like `one, two, three, ...' specially
+> > designed for this purpose.  By comparing the resulting numbers, she
+> > could show that two herds were isomorphic without explicitly
+> > establishing an isomorphism!  In short, by decategorifying the category
+> > of finite sets, the set of natural numbers was invented.
+> >
+> > According to this parable, decategorification started out as a stroke
+> > of mathematical genius.  Only later did it become a matter of dumb
+> > habit, which we are now struggling to overcome by means of
+> > categorification.  While the historical reality is far more
+> > complicated, categorification really has led to tremendous progress
+> > in mathematics during the 20th century.  For example, Noether
+> > revolutionized algebraic topology by emphasizing the importance of
+> > homology groups.  Previous work had focused on Betti numbers, which
+> > are just the dimensions of the rational homology groups.  As with
+> > taking the cardinality of a set, taking the dimension of a vector
+> > space is a process of decategorification, since two vector spaces are
+> > isomorphic if and only if they have the same dimension.  Noether noted
+> > that if we work with homology groups rather than Betti numbers, we can
+> > solve more problems, because we obtain invariants not only of spaces,
+> > but also of maps.
+> >
+> > In modern language, the $n$th rational homology is a functor defined
+> > on the category of topological spaces, while the $n$th Betti number is
+> > a mere function, defined on the set of isomorphism classes of
+> > topological spaces.  Of course, this way of stating Noether's insight
+> > is anachronistic, since it came before category theory.  Indeed, it
+> > was in Eilenberg and Mac Lane's subsequent work on homology that
+> > category theory was born!
+> >
+> > Decategorification is a straightforward process which typically
+> > destroys information about the situation at hand.  Categorification,
+> > being an attempt to recover this lost information, is inevitably
+> > fraught with difficulties.
+>
+> > Finally, a note to John: While you're trying to give your audience
+> > some feeling for the virtues of $n$-categories, couldn't you give them a
+> > little help with $n=1$, by being a little more precise about objects and
+> > maps?
+>
+> I hope it's clearer now.
+>
+> Best,
+> jb
 
 ------------------------------------------------------------------------
 
@@ -927,5 +918,5 @@ galaxies, and the heart of musical scales and chords. "Discovered" by
 the Greeks, but used by the Egyptians in the Great Pyramid centuries
 before, man has employed the Golden Ratio to create his most beautiful
 and naturally pleasing works of art and architecture*
-> 
+>
 > --- Cardas Audio speaker cable advertisement

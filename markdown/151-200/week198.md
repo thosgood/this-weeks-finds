@@ -371,17 +371,17 @@ Noam Elkies writes:
 >
 > You write:
 >
->     > [...]
+> > \[...\]
 >
->     >I'd like to wrap up with a few small comments about last Week.
->     >There I said a bit about a $24$-element group called the "binary 
->     >tetrahedral group", a $24$-element group called $\mathrm{SL}(2,\mathbb{Z}/3)$, and 
->     >the vertices of a regular polytope in 4 dimensions called the 
->     >"$24$-cell".  The most important fact is that these are all the 
->     >same thing!  And I've learned a bit more about this thing from 
->     >here:
+> >I'd like to wrap up with a few small comments about last Week.
+> >There I said a bit about a $24$-element group called the "binary 
+> >tetrahedral group", a $24$-element group called $\mathrm{SL}(2,\mathbb{Z}/3)$, and 
+> >the vertices of a regular polytope in 4 dimensions called the 
+> >"$24$-cell".  The most important fact is that these are all the 
+> >same thing!  And I've learned a bit more about this thing from 
+> >here:
 >
->     > [...]
+> > \[...\]
 >
 > Here's yet another way to see this: the $24$-cell is the subgroup of
 > the unit quaternions (a.k.a. $\mathrm{SU}(2)$) consisting of the elements of norm

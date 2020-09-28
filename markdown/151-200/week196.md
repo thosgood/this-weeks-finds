@@ -479,52 +479,52 @@ that formula up there to get things to work. I'm not sure why.
 **Addendum:** Thanks to Andy Everett for catching a typo. Noam Elkies
 sent me the following:
 
->     Dear J. Baez,
+> Dear J. Baez,
 >
->     In article  you write:
+> In article  you write:
 >
->     >\[......\] so $(t,x,z)$ is a Pythagorean triple!!!   And in fact,
->     >we get every Pythagorean triple this way, at least up to
->     >an integer multiple.  And in fact, this trick was already
->     >known by Euclid.
+> > \[......\] so $(t,x,z)$ is a Pythagorean triple!!!   And in fact,
+> > we get every Pythagorean triple this way, at least up to
+> > an integer multiple.  And in fact, this trick was already
+> > known by Euclid.
 >
->     Are you sure of this?  The formula was surely known by Euclid's time --
->     I've even seen claims that it must have been known by the Babylonians
->     (perhaps not a coincidence, since Pythagoras spent some time in Babylonia)
->     -- but did Euclid have anything like this interpretation, or the proof
->     that every "Pythagorean triple" is proportional to one of this form?
+> Are you sure of this?  The formula was surely known by Euclid's time --
+> I've even seen claims that it must have been known by the Babylonians
+> (perhaps not a coincidence, since Pythagoras spent some time in Babylonia)
+> -- but did Euclid have anything like this interpretation, or the proof
+> that every "Pythagorean triple" is proportional to one of this form?
 >
->     \[For that matter there's apparently some controversy about just who
->     Pythagoras might have been and what he might have known, believed,
->     and/or proved, since secrecy was one of the Pythagoreans' tenets.\]
+> \[For that matter there's apparently some controversy about just who
+> Pythagoras might have been and what he might have known, believed,
+> and/or proved, since secrecy was one of the Pythagoreans' tenets.\]
 >
->     >By the way, you'll notice I had to insert a fudge factor of "$2$"
->     >in that formula up there to get things to work.  I'm not sure why.
+> > By the way, you'll notice I had to insert a fudge factor of "$2$"
+> > in that formula up there to get things to work.  I'm not sure why.
 >
->     This is presumably an artifact of the ambiguity in the
->     "symmetric square of $\mathbb{Z}$".  In general, the symmetric square
->     of a module $M$ can be formed as either a submodule or a quotient
->     module of the tensor square of $M$.  These two symmetric squares
->     are (canonically) isomorphic if $2$ is invertible, but not in general.
+> This is presumably an artifact of the ambiguity in the
+> "symmetric square of $\mathbb{Z}$".  In general, the symmetric square
+> of a module $M$ can be formed as either a submodule or a quotient
+> module of the tensor square of $M$.  These two symmetric squares
+> are (canonically) isomorphic if $2$ is invertible, but not in general.
 >
->     The parametrization of Pythagorean triples is also closely related
->     with the "half-angle substitution" of elementary calculus.
->     For yet another interpretation, see
+> The parametrization of Pythagorean triples is also closely related
+> with the "half-angle substitution" of elementary calculus.
+> For yet another interpretation, see
 >
->     - `http://www.math.harvard.edu/~elkies/Misc/hilbert.dvi`
+> - `http://www.math.harvard.edu/~elkies/Misc/hilbert.dvi`
 >
->     \[also .pdf instead of .dvi\].
+> \[also .pdf instead of .dvi\].
 >
->     The dissections that illustrate the Pythagorean theorem
->     can be generalized to the law of cosines; see
+> The dissections that illustrate the Pythagorean theorem
+> can be generalized to the law of cosines; see
 >
->     - `http://www.math.harvard.edu/~elkies/Misc/cos1.ps`
->     - `http://www.math.harvard.edu/~elkies/Misc/cos2.ps`
+> - `http://www.math.harvard.edu/~elkies/Misc/cos1.ps`
+> - `http://www.math.harvard.edu/~elkies/Misc/cos2.ps`
 >
->     for the acute and obtuse cases respectively.
+> for the acute and obtuse cases respectively.
 >
->     Enjoy,
->     --- Noam D. Elkies
+> Enjoy,
+> --- Noam D. Elkies
 
 I replied saying that by Euclid knowing "this trick", I only meant he
 knew this formula for Pythagorean triples:
@@ -535,19 +535,19 @@ I don't know who proved it gives *all* of them (up to multiples).
 Rob Johnson then noted:
 
 >
->     There is not any high powered math involved in showing that these are
->     all the pythagorean triples up to scalar multiples.  See
+> There is not any high powered math involved in showing that these are
+> all the pythagorean triples up to scalar multiples.  See
 >
->     - `http://www.whim.org/nebula/math/pythag.html`
+> - `http://www.whim.org/nebula/math/pythag.html`
 >
->     Nothing more than the fundamental theorem of arithmetic is used (to
->     justify the statement "Since $b^2 = 4MN$ and $\operatorname{gcd}(M,N) = 1$, both $M$ and $N$
->     must be perfect squares."), and Euclid knew that.
+> Nothing more than the fundamental theorem of arithmetic is used (to
+> justify the statement "Since $b^2 = 4MN$ and $\operatorname{gcd}(M,N) = 1$, both $M$ and $N$
+> must be perfect squares."), and Euclid knew that.
 >
->     So my guess is that Euclid probably knew that this formula gives all
->     pythagorean triples up to scalar multiples, but it is just a guess.
+> So my guess is that Euclid probably knew that this formula gives all
+> pythagorean triples up to scalar multiples, but it is just a guess.
 >
->     Rob Johnson\
->     `rob@whim.org`
+> Rob Johnson\
+> `rob@whim.org`
 
 ------------------------------------------------------------------------

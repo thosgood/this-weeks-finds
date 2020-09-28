@@ -643,7 +643,7 @@ talking about, because it comes from a time long ago when I was
 discussing number theory with James Dolan, and he understood this stuff
 much better than me. But I think I can remember a bit if I try...
 
-> [...] you discuss the puzzle of inert primes and indicate that this
+> \[...\] you discuss the puzzle of inert primes and indicate that this
 > puzzle has a nice resolution in terms of decategorification.
 
 I remember that the resolution of the puzzle is to *refrain* from

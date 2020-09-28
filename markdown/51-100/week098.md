@@ -273,7 +273,7 @@ I will simply quote some excerpts from this fascinating article:
 > gravitational frequency shifts arising from the tidal potentials of
 > the moon and sun are only a few parts in 10^16 and can be neglected.
 
-> [...]
+> \[...\]
 
 > At the time of launch of the first NTS-2 satellite (June 1977), which
 > contained the first Cesium clock to be placed in orbit, there were
@@ -292,7 +292,7 @@ I will simply quote some excerpts from this fascinating article:
 > gave about a 1% validation of the combined motional and gravitational
 > shifts for a clock at 4.2 earth radii.
 
-> [...]
+> \[...\]
 
 > This system was intended primarily for navigation by military users
 > having access to encrypted satellite transmissions which are not

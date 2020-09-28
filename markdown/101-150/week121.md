@@ -311,7 +311,7 @@ $n$-categories keep getting "more commutative" as $k$ increases, until one
 reaches $k = n+2$, at which point things stabilize. There is a lot of
 evidence suggesting that this "stabilization hypothesis" is true for
 all $n$. Assuming it's true, it makes sense to call a $k$-tuply monoidal
-$n$-category with $k\geqslant n+2$ **???** a "stable $n$-category".
+$n$-category with $k\geqslant n+2$ a "stable $n$-category".
 
 Now, where does homotopy theory come in? Well, here you need to look at
 $n$-categories where all the $j$-morphisms are invertible for all $j$. These

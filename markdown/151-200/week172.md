@@ -565,7 +565,7 @@ And here is some more by Noam Elkies:
 
 >     John Baez wrote:
 >      
-> > [...] He then uses this to explain why even self-dual lattices occur
+> > \[...\] He then uses this to explain why even self-dual lattices occur
 > > only in dimensions that are multiples of 8, which is nice, but he
 > > doesn't connect up with any appearances of the number 24.  
 > > Your remarks go much further in this direction --- thanks!  
