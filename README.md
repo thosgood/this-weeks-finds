@@ -1,6 +1,8 @@
 # TODO
 
 - check that the "network" diagrams in week186 are right
+- HTML output?
+    + https://pandoc.org/lua-filters.html#building-images-with-tikz
 - footnotes?
     + 151
 - emails

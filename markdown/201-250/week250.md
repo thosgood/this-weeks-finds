@@ -3,13 +3,9 @@
 Right now I'm in a country estate called Les Treilles in southern
 France, at a conference organized by Alexei Grinbaum and Michel Bitbol:
 
-1) Philosophical and Formal Foundations of Modern Physics,
-`http://www-drecam.cea.fr/Phocea/Vie_des_labos/Ast/ast_visu.php?id_ast=762`
+1) "Philosophical and Formal Foundations of Modern Physics", `http://www-drecam.cea.fr/Phocea/Vie_des_labos/Ast/ast_visu.php?id_ast=762`
 
-::: {align="center"}
-![](les_treilles.jpg)
-:::
-
+$$\includegraphics[max width=0.8\linewidth]{../images/les_treilles.jpg}$$
 It's very beautiful here, but about 20 philosophers, physicists and
 mathematicians have agreed to spend six days indoors discussing quantum
 gravity, the history of relativity, quantum information theory and the
@@ -35,12 +31,12 @@ Here's an obvious line of thought.
 
 Since you don't have any information about your friend's coin flip, it
 doesn't really matter what you guess. So, you might as well guess
-"heads". You'll then have a 1/2 chance of being right. Similarly,
-your friend might as well guess "heads" - or for that matter,
-"tails". They'll also have a 1/2 chance of being right. So, the
-chance that you're both right is 1/2 \times 1/2 = 1/4.
+"heads". You'll then have a $1/2$ chance of being right. Similarly,
+your friend might as well guess "heads" --- or for that matter,
+"tails". They'll also have a $1/2$ chance of being right. So, the
+chance that you're both right is $1/2 \times 1/2 = 1/4$.
 
-I hope that sounds persuasive - but you can actually do much better!
+I hope that sounds persuasive --- but you can actually do much better!
 
 How? I'll give away the answer at the end.
 
@@ -52,24 +48,21 @@ write either "yes" or "no" on a pad of paper. Your goal, as a team,
 is to give the same response when at least one coin lands heads up, but
 different responses otherwise.
 
-Classically the best you can do is both say "yes" - or, if you prefer,
-both say "no". Then you'll have a 3/4 chance of winning. But, if
+Classically the best you can do is both say "yes" --- or, if you prefer,
+both say "no". Then you'll have a $3/4$ chance of winning. But, if
 before playing the game you and your friend prepare a pair of spin-$1/2$
 particles in the Bell state, and you each keep one, you can use these to
 boost your chance of winning to about 85%!
 
 I think the underlying idea first appeared here:
 
-1) S. Popescu and D. Rohrlich, Nonlocality as an axiom, Found. Phys. 24
-(1994), 379-385.
+1) S. Popescu and D. Rohrlich, "Nonlocality as an axiom", _Found. Phys._ **24** (1994), 379--385.
 
 For the "game" version, try this:
 
-2) Nicolas Gisin, Can relativity be considered complete? From Newtonian
-nonlocality to quantum nonlocality and beyond, available as
-[quant-ph/0512168](https://arxiv.org/abs/quant-ph/0512168).
+2) Nicolas Gisin, "Can relativity be considered complete? From Newtonian nonlocality to quantum nonlocality and beyond", available as [`quant-ph/0512168`](https://arxiv.org/abs/quant-ph/0512168).
 
-There's a lot more to say about this - especially about the
+There's a lot more to say about this --- especially about the
 "Popescu-Rohrlich box", a mythical device which would let you win all
 the time at this game, but still not allow signalling. The existence of
 such a box is logically possible, but forbidden by quantum mechanics. It
@@ -78,11 +71,9 @@ weirder correlations than quantum mechanics.
 
 But, I don't understand this stuff, so you should just read this:
 
-3) Valerio Scarani, Feats, features and failures of the PR-box,
-available as
-[quant-ph/0603017](https://arxiv.org/abs/quant-ph/0603017).
+3) Valerio Scarani, "Feats, features and failures of the PR-box", available as [`quant-ph/0603017`](https://arxiv.org/abs/quant-ph/0603017).
 
-Okay - now for our Tale. I want to explain double cosets as spans of
+Okay --- now for our Tale. I want to explain double cosets as spans of
 groupoids... but it's best if I start with some special relativity.
 
 Though Newton seems to have believed in some form of "absolute space",
@@ -113,9 +104,7 @@ As a result, the coordinate transformation we use in Newtonian mechanics
 to switch from one reference frame to another moving at a constant
 velocity relative to the first is called a "Galilei transformation".
 For example:
-
-(t, x, y, z) \mapsto (t, x + vt, y, z)
-
+$$(t, x, y, z) \mapsto (t, x + vt, y, z)$$
 By the time Maxwell came up with his equations describing light, the
 idea of relativity of motion was well established. In 1876, he wrote:
 
@@ -137,7 +126,7 @@ idea of relativity of motion was well established. In 1876, he wrote:
 
 So, the big deal about special relativity is *not* that motion is
 relative. It's that this is possible while keeping the speed of light
-the same for everyone - as Maxwell's equations insist, and as we indeed
+the same for everyone --- as Maxwell's equations insist, and as we indeed
 see! This is what forced people to replace Galilei transformations by
 "Lorentz transformations", which have the new feature that two
 coordinate systems moving relative to each other will disagree not just
@@ -167,23 +156,23 @@ of spacetime. These transformations form a *group*. Before special
 relativity, it seemed the relevant group was a $10$-dimensional gadget
 consisting of:
 
--   3 dimensions of spatial translations
--   1 dimension of time translations
--   3 dimensions of rotations
--   3 dimensions of Galilei transformations
+- 3 dimensions of spatial translations
+- 1 dimension of time translations
+- 3 dimensions of rotations
+- 3 dimensions of Galilei transformations
 
 Nowadays this is called the "Galilei group":
 
 With special relativity, the relevant group became the "Poincare
 group":
 
--   3 dimensions of spatial translations
--   1 dimension of time translations
--   3 dimensions of rotations
--   3 dimensions of Lorentz transformations
+- 3 dimensions of spatial translations
+- 1 dimension of time translations
+- 3 dimensions of rotations
+- 3 dimensions of Lorentz transformations
 
 It's still $10$-dimensional, not any bigger. But, it acts differently as
-transformations of the spacetime coordinates (t,x,y,z).
+transformations of the spacetime coordinates $(t,x,y,z)$.
 
 Another thing that changed was our appreciation of the importance of
 symmetry! Before the 20th century, group theory was not in the toolkit
@@ -208,8 +197,8 @@ motion. In other words, there's nothing to say whose truth value
 remains unchanged after you apply a symmetry.
 
 Well, *almost* nothing to say! The logicians in the crowd will note that
-you can say "T": the tautologously true statement. You can also say
-"F": the tautologously false statement. But, these aren't terribly
+you can say "$T$": the tautologously true statement. You can also say
+"$F$": the tautologously false statement. But, these aren't terribly
 interesting.
 
 Next, suppose you have a friend also floating through space. Now there
@@ -225,9 +214,9 @@ the Tale of Groupoidification.
 
 "Double cosets" sound technical, but that's just to keep timid people
 from understanding the subject. A double coset is secretly just an
-"atomic" invariant relation: one that can't be expressed as "P or
-Q" where P and Q are themselves invariant relations - unless precisely
-one of P or Q is tautologously false.
+"atomic" invariant relation: one that can't be expressed as "$P$ or
+$Q$" where $P$ and $Q$ are themselves invariant relations --- unless precisely
+one of $P$ or $Q$ is tautologously false.
 
 So, atomic invariant relations are like prime numbers: they can't be
 broken down into simpler bits. And, as we'll see, every invariant
@@ -239,36 +228,37 @@ Here's an example in the case we're considering:
 > distance of closest approach is 10 meters."
 
 This is clearly an invariant relation. It's atomic if we idealize the
-situation and assume you and your friends are points - so we can't ask
+situation and assume you and your friends are points --- so we can't ask
 which way you're facing, whether you're waving at each other, etc.
 
 To see *why* it's atomic, note that we can always find a frame of
 reference where you're at rest and your friend is moving by like this:
-
-                  -----FRIEND---->
-
-
-                        YOU
-
+$$
+  \begin{tikzpicture}
+    \draw[->] (0,0) to (3,0);
+    \node[fill=white] at (1.5,0.05) {friend};
+    \node at (1.5,-1) {you};
+  \end{tikzpicture}
+$$
 If you and your friend are points, the situation is *completely
 described* (up to symmetries) by the relative speed and distance of
 closest approach. So, the invariant relation quoted above can't be
-written as "P or Q" for other invariant relations.
+written as "$P$ or $Q$" for other invariant relations.
 
 The same analysis shows that in this example, *every* atomic invariant
 relation is of this form:
 
-> "My friend's speed relative to me is s, and our distance of closest
-> approach is d."
+> "My friend's speed relative to me is $s$, and our distance of closest
+> approach is $d$."
 
-for some nonnegative numbers s and d.
+for some nonnegative numbers $s$ and $d$.
 
-(Quiz: why don't we need to let s be negative if your friend is moving
+(Quiz: why don't we need to let $s$ be negative if your friend is moving
 to the left?)
 
 From this example, it's clear there are often infinitely many double
 cosets. But there are some wonderful examples with just *finitely many*
-double cosets - and these are what I'll focus on in our Tale.
+double cosets --- and these are what I'll focus on in our Tale.
 
 Here's the simplest one. Suppose we're doing projective plane
 geometry. This is a bit like Euclidean plane geometry, but there are
@@ -278,19 +268,16 @@ symmetries.
 
 For example, imagine taking a blackboard with some points and lines on
 it:
-
-                     \             /
-          ------------x-----------x-----------
-                       \         /
-                        \       /
-                         \     /
-                          \   /
-                           \ /
-                            x
-                           / \
-                          /   \
-                         /     \
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (-1,0) to (3,0);
+    \draw[thick] (-0.5,0.8) to (1.5,-2.4);
+    \draw[thick] (2.5,0.8) to (0.5,-2.4);
+    \node at (0,0) {$\bullet$};
+    \node at (2,0) {$\bullet$};
+    \node at (1,-1.6) {$\bullet$};
+  \end{tikzpicture}
+$$
 We can translate it and rotate it. But, we can also view it from an
 angle: that's another symmetry in projective geometry! This hints at
 how projective geometry arose from the study of perspective in painting.
@@ -302,7 +289,7 @@ They're called "points at infinity". But, it's nice to include them
 as part of the so-called "projective plane". They make things simpler:
 now every pair of lines intersects in a unique point, just as every pair
 of points lies on a unique line. You've probably seen how parallel
-railroad tracks seem to meet at the horizon - that's what I'm talking
+railroad tracks seem to meet at the horizon --- that's what I'm talking
 about here. And, by including these extra points at infinity, we get
 extra symmetries that map points at infinity to ordinary points, and
 vice versa.
@@ -312,46 +299,45 @@ I gave a more formal introduction to projective geometry in
 ["Week 178"](#week178). If you read these, you'll know that points
 in the projective plane correspond to lines through the origin in a 3d
 space. And, you'll know a bit about the group of symmetries in
-projective geometry: it's the group G = \mathrm{PGL}(3), consisting of 3\times3
+projective geometry: it's the group $G = \mathrm{PGL}(3)$, consisting of 3\times3
 invertible matrices, modulo scalars.
 
-(I actually said \mathrm{SL}(3), but I was being sloppy - this is another group
+(I actually said $\mathrm{SL}(3)$, but I was being sloppy --- this is another group
 with the same Lie algebra.)
 
-For some great examples of double cosets, let F be the space of
+For some great examples of double cosets, let $F$ be the space of
 "flags". A "flag" is a very general concept, but in projective plane
-geometry a flag is just a point x on a line y:
-
-          -----------------x----------------
-                                    y
-
+geometry a flag is just a point $x$ on a line $y$:
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (3,0) node[label=right:{$y$}]{};
+    \node[label=above:{$x$}] at (0.8,0) {$\bullet$};
+  \end{tikzpicture}
+$$
 An amazing fact is that there are precisely 6 atomic invariant relations
 between a pair of flags. You can see them all in this picture:
-
-                     \             /
-          ------------x-----------x'----------
-                       \         /         y
-                        \       /
-                         \     /
-                          \   /
-                           \ /
-                            x"
-                           / \
-                          /   \
-                       y'/     \y"
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (-1,0) to (3,0) node[label=right:{$y$}]{};
+    \draw[thick] (-0.5,0.8) to (1.5,-2.4) node[label=right:{$y''$}]{};
+    \draw[thick] (2.5,0.8) to (0.5,-2.4) node[label=left:{$y'$}]{};
+    \node[label={[label distance=-2mm]above right:{$x$}}] at (0,0) {$\bullet$};
+    \node[label={[label distance=-2mm]above left:{$x'$}}] at (2,0) {$\bullet$};
+    \node[label=right:{$x''$}] at (1,-1.6) {$\bullet$};
+  \end{tikzpicture}
+$$
 There are six flags here, and each exemplifies a different atomic
-invariant relation to our favorite flag, say (x,y).
+invariant relation to our favorite flag, say $(x,y)$.
 
-For example, the flag (x',y') has the following relation to (x,y):
+For example, the flag $(x',y')$ has the following relation to $(x,y)$:
 
-> "The point of (x',y') lies on the line of (x,y), and no more."
+> "The point of $(x',y')$ lies on the line of $(x,y)$, and no more."
 
 By "no more" I mean that no further incidence relations hold.
 
 There's a lot more to say about this, and we'll need to delve into it
 much deeper soon... but not yet. For now, I just want to mention that
-all this stuff generalizes from G = \mathrm{PGL}(3) to any other simple Lie
+all this stuff generalizes from $G = \mathrm{PGL}(3)$ to any other simple Lie
 group! And, the picture above is an example of a general concept, called
 an "apartment". Apartments are a great way to visualize atomic
 invariant relations between flags.
@@ -367,246 +353,177 @@ pictures!
 Next, let me explain why people call atomic invariant relations "double
 cosets".
 
-First of all, what's a relation between two sets X and Y? We can think
-of it as a subset S of X \times Y: we say a pair (x,y) is in S if the
+First of all, what's a relation between two sets $X$ and $Y$? We can think
+of it as a subset $S$ of $X \times Y$: we say a pair $(x,y)$ is in $S$ if the
 relation holds.
 
-Next, suppose some group G acts on both X and Y. What's an
-"invariant" relation? It's a subset S of X \times Y such that whenever
-(x,y) is in S, so is (gx,gy). In other words, the relation is preserved
+Next, suppose some group $G$ acts on both $X$ and $Y$. What's an
+"invariant" relation? It's a subset $S$ of $X \times Y$ such that whenever
+$(x,y)$ is in $S$, so is $(gx,gy)$. In other words, the relation is preserved
 by the symmetries.
 
 Now let's take these simple ideas and make them sound more complicated,
 to prove we're mathematicians. Some of you may want to take a little
-nap right around now - I'm just trying to make contact with the usual
+nap right around now --- I'm just trying to make contact with the usual
 way experts talk about this stuff.
 
 First, let's use an equivalent but more technical way to think of an
-invariant relation: it's a subset of the quotient space G\(X \times Y).
+invariant relation: it's a subset of the quotient space $G\backslash(X \times Y)$.
 
-Note: often I'd call this quotient space (X \times Y)/G. But now I'm
-writing it with the G on the left side, since we had a *left* action of
-G on X and Y, hence on X \times Y - and in a minute we're gonna need all the
+Note: often I'd call this quotient space $(X \times Y)/G$. But now I'm
+writing it with the $G$ on the left side, since we had a *left* action of
+$G$ on $X$ and $Y$, hence on $X \times Y$ --- and in a minute we're gonna need all the
 sides we can get!
 
-Second, recall from last Week that if G acts *transitively* on both X
-and Y, we have isomorphisms
-
-X \cong G/H
-
+Second, recall from last Week that if $G$ acts *transitively* on both $X$
+and $Y$, we have isomorphisms
+$$X \cong G/H$$
 and
+$$Y \cong G/K$$
+for certain subgroups $H$ and $K$ of $G$. Note: here we're really modding out
+by the *right* action of $H$ or $K$ on $G$.
 
-Y \cong G/K
-
-for certain subgroups H and K of G. Note: here we're really modding out
-by the *right* action of H or K on G.
-
-Combining these facts, we see that when G acts transitively on both X
-and Y, an invariant relation is just a subset of
-
-G\(X \times Y) \cong G\(G/H x G/K)
-
+Combining these facts, we see that when $G$ acts transitively on both $X$
+and $Y$, an invariant relation is just a subset of
+$$G\backslash(X \times Y) \cong G\backslash(G/H \times G/K)$$
 Finally, if you lock yourself in a cellar and think about this for a few
 minutes (or months), you'll realize that this weird-looking set is
 isomorphic to
-
-H\\G/K
-
-This notation may freak you out at first - I know it scared me! The
-point is that we can take G, mod out by the right action of K to get
-G/K, and then mod out by the left action of H on G/K, obtaining
-
-H\(G/K).
-
-Or we can take G, mod out by the left action of H to get H\\G, and then
-mod out by the right action of K on H\\G, obtaining
-
-(H\\G)/K.
-
+$$H\backslash G/K$$
+This notation may freak you out at first --- I know it scared me! The
+point is that we can take $G$, mod out by the right action of $K$ to get
+$G/K$, and then mod out by the left action of $H$ on $G/K$, obtaining
+$$H\backslash(G/K).$$
+Or we can take $G$, mod out by the left action of $H$ to get $H\backslash G$, and then
+mod out by the right action of $K$ on $H\backslash G$, obtaining
+$$(H\backslash G)/K.$$
 And, these two things are isomorphic! So, we relax and write
-
-H\\G/K
-
+$$H\backslash G/K$$
 A point in here is called a "double coset": it's an equivalence class
-consisting of all guys in G of the form
+consisting of all guys in $G$ of the form
+$$hgk$$
+for some fixed $g$, where $h$ ranges over $H$ and $k$ ranges over $K$.
 
-hgk
-
-for some fixed g, where h ranges over H and k ranges over K.
-
-Since subsets of H\\G/K are invariant relations, we can think of a point
-in H\\G/K as an "atomic" invariant relation. Every invariant relation
-is the union - the logical "or" - of a bunch of these.
+Since subsets of $H\backslash G/K$ are invariant relations, we can think of a point
+in $H\backslash G/K$ as an "atomic" invariant relation. Every invariant relation
+is the union --- the logical "or" --- of a bunch of these.
 
 So, just as any hunk of ordinary matter can be broken down into atoms,
-every invariant statement you can make about an entity of type X and an
-entity of type Y can broken down into "atomic" invariant relations -
+every invariant statement you can make about an entity of type $X$ and an
+entity of type $Y$ can broken down into "atomic" invariant relations ---
 also known as double cosets!
 
 So, double cosets are cool. But, it's good to fit them into the "spans
 of groupoids" perspective. When we do this, we'll see:
 
-::: {align="center"}
-A SPAN OF GROUPOIDS EQUIPPED WITH CERTAIN EXTRA STUFF IS\
-THE SAME AS A DOUBLE COSET.
-:::
+> A SPAN OF GROUPOIDS EQUIPPED WITH CERTAIN EXTRA STUFF IS\
+> THE SAME AS A DOUBLE COSET.
 
 This relies on the simpler slogan I mentioned last time:
 
-::: {align="center"}
-A GROUPOID EQUIPPED WITH CERTAIN EXTRA STUFF IS\
-THE SAME AS A GROUP ACTION.
-:::
+> A GROUPOID EQUIPPED WITH CERTAIN EXTRA STUFF IS\
+> THE SAME AS A GROUP ACTION.
 
-Let's see how it goes. Suppose we have two sets on which G acts
-transitively, say X and Y. Pick a figure x of type X, and a figure y of
-type Y. Let H be the stabilizer of x, and let K be the stabilizer of y.
+Let's see how it goes. Suppose we have two sets on which $G$ acts
+transitively, say $X$ and $Y$. Pick a figure $x$ of type $X$, and a figure $y$ of
+type $Y$. Let $H$ be the stabilizer of $x$, and let $K$ be the stabilizer of $y$.
 Then we get isomorphisms
-
-X \cong G/H
-
+$$X \cong G/H$$
 and
+$$Y \cong G/K$$
+The subgroup $H \cap K$ stabilizes both $x$ and $y$, and
+$$Z = G/(H \cap K)$$
+is another set on which $G$ acts transitively. How can we think of this
+set? It's the set of all pairs of figures, one of type $X$ and one of
+type $Y$, which are obtained by taking the pair $(x,y)$ and applying an
+element of $G$. So, it's a subset of $X \times Y$ that's invariant under the
+action of $G$. In other words, it's an invariant relation between $X$ and
+$Y$!
 
-Y \cong G/K
-
-The subgroup H ∩ K stabilizes both x and y, and
-
-Z = G/(H ∩ K)
-
-is another set on which G acts transitively. How can we think of this
-set? It's the set of all pairs of figures, one of type X and one of
-type Y, which are obtained by taking the pair (x,y) and applying an
-element of G. So, it's a subset of X \times Y that's invariant under the
-action of G. In other words, it's an invariant relation between X and
-Y!
-
-Furthermore, it's the smallest invariant subset of X \times Y that contains
-the pair (x,y). So, it's an *atomic* invariant relation - or in other
+Furthermore, it's the smallest invariant subset of $X \times Y$ that contains
+the pair $(x,y)$. So, it's an *atomic* invariant relation --- or in other
 words, a double coset!
 
 Now, let's see how to get a span of groupoids out of this. We have a
 commutative diamond of group inclusions:
-
-                          H∩K
-                          / \
-                         /   \
-                        /     \
-                       v       v
-                      H         K
-                       \       /
-                        \     /
-                         \   /
-                          v v
-                           G
-
-This gives a commutative diamond of spaces on which G acts transitively:
-
-                         G/(H∩K)
-                          / \
-                         /   \
-                        /     \
-                       v       v
-                     G/H      G/K
-                       \       /
-                        \     /
-                         \   /
-                          v v
-                          G/G
-
-We already have names for three of these spaces - and G/G is just a
-single point, say *:
-
-                           Z
-                          / \
-                         /   \
-                        /     \
-                       v       v
-                      X         Y
-                       \       /
-                        \     /
-                         \   /
-                          v v
-                           *
+$$
+  \begin{tikzcd}
+    &H\cap K\drar\dlar&
+  \\H\drar&&K\dlar
+  \\&G&
+  \end{tikzcd}
+$$
+This gives a commutative diamond of spaces on which $G$ acts transitively:
+$$
+  \begin{tikzcd}
+    &G/(H\cap K)\drar\dlar&
+  \\G/H\drar&&G/K\dlar
+  \\&G/G&
+  \end{tikzcd}
+$$
+We already have names for three of these spaces --- and $G/G$ is just a
+single point, say $*$:
+$$
+  \begin{tikzcd}
+    &Z\drar\dlar&
+  \\X\drar&&Y\dlar
+  \\&*&
+  \end{tikzcd}
+$$
 
 Now, in ["Week 249"](#week249) I explained how you could form the
-"action groupoid" X//G given a group G acting on a space X. If I were
-maniacally consistent, I would write it as G\\\\X, since G is acting on
+"action groupoid" $X//G$ given a group $G$ acting on a space $X$. If I were
+maniacally consistent, I would write it as $G\backslash\backslash X$, since $G$ is acting on
 the left. But, I'm not. So, the above commutative diamond gives a
 commutative diamond of groupoids:
-
-                          Z//G
-                          / \
-                         /   \
-                        /     \
-                       v       v
-                     X//G     Y//G
-                       \       /
-                        \     /
-                         \   /
-                          v v
-                         *//G
-
+$$
+  \begin{tikzcd}
+    &Z//G\drar\dlar&
+  \\X//G\drar&&Y//G\dlar
+  \\&*//G&
+  \end{tikzcd}
+$$
 The groupoid on the bottom has one object, and one morphism for each
-element of G. So, it's just G! So we have this:
-
-                          Z//G
-                          / \
-                         /   \
-                        /     \
-                       v       v
-                     X//G     Y//G
-                       \       /
-                        \     /
-                         \   /
-                          v v
-                           G
-
-So - voila! - our double coset indeed gives a span of groupoids
-
-                          Z//G
-                          / \
-                         /   \
-                        /     \
-                       v       v
-                     X//G     Y//G
-
-X//G is the groupoid of figures just like x (up to symmetry), Y//G is
-the groupoid of figures just like y, and Z//G is the groupoid of *pairs*
+element of $G$. So, it's just $G$! So we have this:
+$$
+  \begin{tikzcd}
+    &Z//G\drar\dlar&
+  \\X//G\drar&&Y//G\dlar
+  \\&G&
+  \end{tikzcd}
+$$
+So --- voila! --- our double coset indeed gives a span of groupoids
+$$
+  \begin{tikzcd}
+    &Z//G\drar\dlar&
+  \\X//G&&Y//G
+  \end{tikzcd}
+$$
+$X//G$ is the groupoid of figures just like $x$ (up to symmetry), $Y//G$ is
+the groupoid of figures just like $y$, and $Z//G$ is the groupoid of *pairs*
 of figures satisfying the same atomic invariant relation as the pair
-(x,y). For example, point-line pairs, where the point lies on the line!
+$(x,y)$. For example, point-line pairs, where the point lies on the line!
 For us, a pair of figures is just a more complicated sort of figure.
 
-But, this span of groupoids is a span "over G", meaning it's part of
-a commutative diamond with G at the bottom:
-
-                          Z//G
-                          / \
-                         /   \
-                        /     \
-                       v       v
-                     X//G     Y//G
-                       \       /
-                        \     /
-                         \   /
-                          v v
-                           G
-
-If you remember everything in ["Week 249"](#week249) - and I bet
-you don't - you'll notice that this commutative diamond is equivalent
+But, this span of groupoids is a span "over $G$", meaning it's part of
+a commutative diamond with $G$ at the bottom:
+$$
+  \begin{tikzcd}
+    &Z//G\drar\dlar&
+  \\X//G\drar&&Y//G\dlar
+  \\&G&
+  \end{tikzcd}
+$$
+If you remember everything in ["Week 249"](#week249) --- and I bet
+you don't --- you'll notice that this commutative diamond is equivalent
 to diamond we started with:
-
-                          H∩K
-                          / \
-                         /   \
-                        /     \
-                       v       v
-                      H         K
-                       \       /
-                        \     /
-                         \   /
-                          v v
-                           G
-
+$$
+  \begin{tikzcd}
+    &H\cap K\drar\dlar&
+  \\H\drar&&K\dlar
+  \\&G&
+  \end{tikzcd}
+$$
 We've just gone around in a loop! But that's okay, because we've
 learned something en route.
 
@@ -617,55 +534,41 @@ connected groupoids is equivalent to an inclusion of groups precisely
 when it's "faithful": one-to-one on each homset. So, when I said
 that:
 
-::: {align="center"}
-A SPAN OF GROUPOIDS EQUIPPED WITH CERTAIN EXTRA STUFF IS\
-THE SAME AS A DOUBLE COSET.
-:::
+>A SPAN OF GROUPOIDS EQUIPPED WITH CERTAIN EXTRA STUFF IS\
+> THE SAME AS A DOUBLE COSET.
 
 what I really meant was:
 
-::: {align="center"}
-A SPAN OF CONNECTED GROUPOIDS FAITHFULLY OVER G\
-IS THE SAME AS A DOUBLE COSET.
-:::
+>A SPAN OF CONNECTED GROUPOIDS FAITHFULLY OVER $G$\
+> IS THE SAME AS A DOUBLE COSET.
 
 If that's too terse, let me elaborate for you: a "span of connected
-groupoids faithfully over G" is a commutative diamond
-
-                           C
-                          / \
-                         /   \
-                        /     \
-                       v       v
-                      A         B
-                       \       /
-                        \     /
-                         \   /
-                          v v
-                           G
-
-where A,B,C are connected groupoids and the arrows are faithful
+groupoids faithfully over $G$" is a commutative diamond
+$$
+  \begin{tikzcd}
+    &C\drar\dlar&
+  \\A\drar&&B\dlar
+  \\&G&
+  \end{tikzcd}
+$$
+where $A,B,C$ are connected groupoids and the arrows are faithful
 functors.
 
 This sounds complicated, but it's mainly because we're trying to toss
 in extra conditions to make our concepts match the old-fashioned
 "double coset" notion. Here's a simpler, more general fact:
 
-::: {align="center"}
-A SPAN OF GROUPOIDS FAITHFULLY OVER G\
-IS THE SAME AS A SPAN OF G-SETS.
-:::
+> A SPAN OF GROUPOIDS FAITHFULLY OVER $G$\
+> IS THE SAME AS A SPAN OF $G$-SETS.
 
-where a "G-set" is a set on which G acts. This is the natural partner
+where a "$G$-set" is a set on which $G$ acts. This is the natural partner
 of the slogan I explained last Week, though not in this language:
 
-::: {align="center"}
-A GROUPOID FAITHFULLY OVER G\
-IS THE SAME AS A G-SET.
-:::
+> A GROUPOID FAITHFULLY OVER $G$\
+> IS THE SAME AS A $G$-SET.
 
 Things get even simpler if we drop the "faithfulness" assumption, and
-simply work with groupoids over G, and spans of these. This takes us out
+simply work with groupoids over $G$, and spans of these. This takes us out
 of the traditional realm of group actions on sets, and into the 21st
 century! And that's where we want to go.
 
@@ -677,13 +580,13 @@ But, I'll often be tempted to talk about group actions on sets, and
 double cosets, and other traditional gadgets... so I feel obliged to
 set the stage.
 
-Okay - here's the answer to the puzzle. Close your eyes if you want to
+Okay --- here's the answer to the puzzle. Close your eyes if you want to
 think about it more.
 
 An optimal strategy is for you and your friend to each look at your own
 coin, and then guess that the other coin landed the other way: heads if
 yours was tails, and tails if yours was heads. With this strategy, the
-chance you're both correct is 1/2.
+chance you're both correct is $1/2$.
 
 Or, you can both guess that the other coin landed the *same* way. This
 works just as well.
@@ -693,32 +596,33 @@ you each use the result of your own coin toss to guess the result of the
 other's coin toss!
 
 It seems paradoxical that using this random and completely uncorrelated
-piece of information - the result of your own coin toss - helps you
+piece of information --- the result of your own coin toss --- helps you
 guess what your friend's coin will do, and vice versa.
 
-But of course it *doesn't*. You each still have just a 1/2 chance of
+But of course it *doesn't*. You each still have just a $1/2$ chance of
 guessing the other's coin toss correctly. What the trick accomplishes
 is correlating your guesses, so you both guess right or both guess wrong
-together. This improves the chance of winning from 1/2 \times 1/2 (the
-product of two independent probabilities) to 1/2.
+together. This improves the chance of winning from $1/2 \times 1/2$ (the
+product of two independent probabilities) to $1/2$.
 
 By the way, the translation of the passage by Einstein is due to Michael
 Friedman, a philosopher at Stanford; he used it in his talk at this
 conference. There's a lot more to say about talks at this conference.
 Let's see if I get around to it.
 
-Also by the way: if you fix a collection of n G-sets, there's always a
-Boolean algebra of $n$-ary invariant relations. Only the case n = 2 is
+Also by the way: if you fix a collection of $n$ $G$-sets, there's always a
+Boolean algebra of $n$-ary invariant relations. Only the case $n = 2$ is
 related to double cosets, but everything else I said generalizes easily
-to higher n using "n-legged spans" of groupoids: an obvious
-generalization of the 2-legged spans I've been discussing so far. In
+to higher $n$ using "$n$-legged spans" of groupoids: an obvious
+generalization of the $2$-legged spans I've been discussing so far. In
 Boolean algebra people often use the term "atom" to stand for an
-element that can't be written as "P or Q" unless exactly one of P or
-Q is tautologously false.
+element that can't be written as "$P$ or $Q$" unless exactly one of $P$ or
+$Q$ is tautologously false.
 
 ------------------------------------------------------------------------
 
-*Although I am a typical loner in daily life, my consciousness of
+> *Although I am a typical loner in daily life, my consciousness of
 belonging to the invisible community of those who strive for truth,
-beauty and justice has preserved me from feeling isolated.* - Albert
-Einstein
+beauty and justice has preserved me from feeling isolated.*
+> 
+> --- Albert Einstein
