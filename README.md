@@ -7,6 +7,7 @@
     + 215
     + 203
 - **do images with `![](file.jpg){ width=80% }`**
+    + might need the `implicit_figure` option (`pandoc -f markdown+implicit_figures`)
 - fix margins on `{quote}` **OR** replace `mdframed` with something else
     + check that 151-200.tex works...
 - **diagrams**

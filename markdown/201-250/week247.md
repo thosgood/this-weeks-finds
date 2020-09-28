@@ -268,7 +268,7 @@ sets, written $S\colon X \nrightarrow Y$, is just a set $S$ equipped with functi
 and $Y$. We can draw it like this:
 $$
   \begin{tikzcd}
-    &S\drar[swap,"F"]\dlar["G"]&
+    &S\drar["F"]\dlar[swap,"G"]&
   \\X&&Y
   \end{tikzcd}
 $$
@@ -296,7 +296,7 @@ This idea lets us turn spans of sets into matrices of natural numbers.
 Given a span of finite sets:
 $$
   \begin{tikzcd}
-    &S\drar[swap,"F"]\dlar["G"]&
+    &S\drar["F"]\dlar[swap,"G"]&
   \\X&&Y
   \end{tikzcd}
 $$
@@ -334,7 +334,7 @@ get rational numbers into the game.
 A span of groupoids is a diagram
 $$
   \begin{tikzcd}
-    &S\drar[swap,"F"]\dlar["G"]&
+    &S\drar["F"]\dlar[swap,"G"]&
   \\X&&Y
   \end{tikzcd}
 $$
