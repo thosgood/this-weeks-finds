@@ -85,10 +85,10 @@ in the first category and a morphism
 $$f'\colon A' \to B'$$
 in the second, we get a commuting square:
 $$
-  \begin{tikzcd}
-    (A,A') \rar["(f,1)"] \dar[swap,"(1,f')"]
-    & (B,A') \dar["(1,f')"]
-  \\(A,B') \rar[swap,"(f,1)"]
+  \begin{tikzcd}[row sep=huge]
+    (A,A') \rar["{(f,1)}"] \dar[swap,"{(1,f')}"]
+    & (B,A') \dar["{(1,f')}"]
+  \\(A,B') \rar[swap,"{(f,1)}"]
     & (B,B')
   \end{tikzcd}
 $$

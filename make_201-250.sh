@@ -70,6 +70,10 @@ printf '%s\n' '\usetikzlibrary{patterns,snakes}' >> $TEX
 printf '%s\n' '\usetikzlibrary{arrows}' >> $TEX
 
 printf "\n" >> $TEX
+printf '%s\n' '\usepackage[T1,OT1]{fontenc}' >> $TEX
+printf '%s\n' '\renewcommand{\dh}{\fontencoding{T1}\selectfont{\symbol{240}}}' >> $TEX
+
+printf "\n" >> $TEX
 printf '%s\n' '\usepackage[framemethod=TikZ]{mdframed}' >> $TEX
 printf '%s\n' '\surroundwithmdframed[' >> $TEX
 printf '%s\n' '   topline=false,' >> $TEX

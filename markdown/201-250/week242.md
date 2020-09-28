@@ -235,7 +235,7 @@ thing they're studying at Super-Kamiokande.
 But what I want to know is: what's the "glare" in this picture?
 Neutrinos are made by the process of fusion, which involves this
 reaction:
-$$\mathrm{proton} + \mtahrm{electron} \to \mathrm{neutron} + \mathrm{electron neutrino}$$
+$$\mathrm{proton} + \mathrm{electron} \to \mathrm{neutron} + \mathrm{electron neutrino}$$
 Fusion mostly happens in the Sun's core, which has a density of 160
 grams per cubic centimeter (10 times denser than lead) and a temperature
 of 15 million kelvin (300 thousand times hotter than the "broil"

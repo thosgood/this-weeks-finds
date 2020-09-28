@@ -299,7 +299,7 @@ I gave a more formal introduction to projective geometry in
 ["Week 178"](#week178). If you read these, you'll know that points
 in the projective plane correspond to lines through the origin in a 3d
 space. And, you'll know a bit about the group of symmetries in
-projective geometry: it's the group $G = \mathrm{PGL}(3)$, consisting of 3\times3
+projective geometry: it's the group $G = \mathrm{PGL}(3)$, consisting of $3\times3$
 invertible matrices, modulo scalars.
 
 (I actually said $\mathrm{SL}(3)$, but I was being sloppy --- this is another group
