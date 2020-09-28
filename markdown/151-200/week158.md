@@ -36,13 +36,10 @@ $$
     &- \left(\frac{1}{2k^2}\right) eR
   \\&- \left(\frac{1}{2}\right) e\psi_M^* \Gamma^{MNP} D_N\left[\frac{\omega+\omega'}{2}\right]\psi_P
   \\&- \left(\frac{1}{48}\right) eF^2
-  \\&- \left(\frac{\sqrt{2k}}{384}\right) e(\psi_M^* \Gamma^{MNPQRS}\psi_S + 12\psi^{*N}\Gamma^{PQ}\psi^R)(F+F')_{NPQR}
-  \\&- \left(\frac{\sqrt{2k}}{3456}\right) \varepsilon^{M_1\ldots M_{11}}F_{M_1\ldots M_4}F_{M_5\ldots M_8}A_{M_9\ldots M_{11}}
+  \\&- \left(\frac{\sqrt{2}k}{384}\right) e(\psi_M^* \Gamma^{MNPQRS}\psi_S + 12\psi^{*N}\Gamma^{PQ}\psi^R)(F+F')_{NPQR}
+  \\&- \left(\frac{\sqrt{2}k}{3456}\right) \varepsilon^{M_1\ldots M_{11}}F_{M_1\ldots M_4}F_{M_5\ldots M_8}A_{M_9\ldots M_{11}}
   \end{aligned}
 $$
-**???**
-**is it $\sqrt{2k}$ or $\sqrt{2}k$ ???**
-**is it $M1$ or $M_1$ or what ???**
 For comparison, here's the Lagrangian for ordinary gravity:
 $$L = e R$$
 Here $e$ is the volume form and $R$ is the Ricci scalar curvature. Of

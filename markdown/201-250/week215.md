@@ -340,216 +340,167 @@ Greg Egan wrote me the following after I suggested a relation between
 the Klein quartic curve and 3d Minkowski spacetime over the field $\mathbb{Z}/7$ ---
 a relation that he later exploited in some fascinating ways.
 
->     Hi
->
->     Thanks for all the Lorentz group stuff!  This will take me a while to 
->     digest.
->
->     In the meantime, here are some more translations between the geometries.
->
->     Every cube intersects 4 anticubes, and any pair of cubes, between them, 
->     intersect 6 anticubes (two of the 4 for each will always be shared).  So 
->     together the pair of cubes single out one anticube:  the 7th one that 
->     neither of them intersect.  This is analogous to the fact that any two 
->     Fano points single out a Fano line.
->
->     I'll write anti({c1,c2}) for the anticube singled out by a pair of cubes, 
->     and similarly cube({a1,a2}) for the cube singled out by a pair of 
->     anticubes.  In the scheme used in this diagram:
+> Hi
+> 
+> Thanks for all the Lorentz group stuff!  This will take me a while to 
+> digest.
+> 
+> In the meantime, here are some more translations between the geometries.
+> 
+> Every cube intersects 4 anticubes, and any pair of cubes, between them, 
+> intersect 6 anticubes (two of the 4 for each will always be shared).  So 
+> together the pair of cubes single out one anticube:  the 7th one that 
+> neither of them intersect.  This is analogous to the fact that any two 
+> Fano points single out a Fano line.
+> 
+> I'll write $\mathrm{anti}(\{c_1,c_2\})$ for the anticube singled out by a pair of cubes, 
+> and similarly $\mathrm{cube}(\{a_1,a_2\})$ for the cube singled out by a pair of 
+> anticubes. In the scheme used in this diagram:
 > $$\includegraphics[max width=0.8\linewidth]{../images/KleinFigures.png}$$
->     both functions have identical outputs for the same input colours:
->
->
->         anti({c1,c2})  and  cube({a1,a2})
->         =================================
->
->         R   O   Y   G   LB  P   DB
->        ----------------------------
->     R  | -   DB  R   DB  Y   Y   R
->     O  | DB  -   P   DB  P   O   O
->     Y  | R   P   -   LB  P   LB  R
->     G  | DB  DB  LB  -   G   LB  G
->     LB | Y   P   P   G   -   Y   G
->     P  | Y   O   LB  LB  Y   -   O
->     DB | R   O   R   G   G   O   -
->        ----------------------------
->
->     Now for some actual translations.
->
->     Klein's Quartic Curve      Fano plane
->     ---------------------      ----------
->
->     28 pairs of opposite       28 choices of a point
->     triangular faces           and a non-incident line,
->                                {p,l}.
->
->                                   p1
+> both functions have identical outputs for the same input colours:
+> 
+> |    |  R  |  O  |  Y  |  G  |  LB  |  P  |  DB  |
+> | :- | :-: | :-: | :-: | :-: | :--: | :-: | :--: |
+> | R  |  -  |  DB |  R  |  DB |  Y   |  Y  |   R  |
+> | O  |  DB |  -  |  P  |  DB |  P   |  O  |   O  |
+> | Y  |  R  |  P  |  -  |  LB |  P   |  LB |   R  |
+> | G  |  DB |  DB |  LB |  -  |  G   |  LB |   G  |
+> | LB |  Y  |  P  |  P  |  G  |  -   |  Y  |   G  |
+> | P  |  Y  |  O  |  LB |  LB |  Y   |  -  |   O  |
+> | DB |  R  |  O  |  R  |  G  |  G   |  O  |   -  |
+> 
+>   : $\mathrm{anti}(\{c_1,c_2\})$ and $\mathrm{cube}(\{a_1,a_2\})$
+> 
+> Now for some actual translations.
+> 
+> | Klein's Quartic Curve | Fano plane |
+> | :-------------------- | :-------------------- |
+> | 28 pairs of opposite triangular faces | 28 choices of a point and a non-incident line, $\{p,l\}$. $$\begin{tikzpicture}\draw[thick] (0,0) to (2,0) node[label=right:{$l_1$}]{};\node[label={[label distance=-1mm]above:{$p_1$}}] at (0.8,0.3) {$\bullet$};\node at (1,-0.75) {$7\times4=28$};\end{tikzpicture}$$ |
+> 
+> 
+> In Klein's quartic curve, we specify a pair of opposite triangular faces 
+> by picking one of seven cubes, then one of four anticubes that intersect 
+> it.  The intersection is a pair of triangular faces which are diagonally 
+> opposite each other both on the cube and on the anticube.  The 56 order-$3$ 
+> elements of $G$ preserve these pairs of triangular faces, and consist of 
+> rotations by $1/3$ and $2/3$ turns for each such pair.
+> 
+> | :- | :- |
+> | Triangular faces sharing an edge | Pairings of points and non-incident lines $\{p_1,l_1\}$ and $\{p_1,l_1\}$ having $p_1$ incident on $l_2$ and $p_2$ incident on $l_1$. $$\begin{tikzpicture}\draw[thick] (0,0) to (2,0) node[label=right:{$l_1$}]{};\draw[thick] (0,0.5) to (2,0.5) node[label=right:{$l_2$}]{};\node[label={[label distance=-1mm]above:{$p_1$}}] at (0.8,0.5) {$\bullet$};\node[label={[label distance=-1mm]below:{$p_2$}}] at (1.4,0) {$\bullet$};\end{tikzpicture}$$ |
+> 
+> In Klein's quartic curve, whenever two triangular faces share an edge, 
+> the cube each face belongs to will be disjoint from the anticube that 
+> the other face belongs to.  This can be checked by noting that the colour 
+> of the anticube appears in the row for $\mathrm{anti}(c,\cdot)$.
+> 
+> If you inspect a triangle and the three neighbours that share edges with 
+> it, the neighbours will always belong to the three anticubes disjoint 
+> from the cube the central triangle belongs to, i.e. they will have 
+> exactly the three colours appearing in the row for $\mathrm{anti}(c,-)$
+> 
+> | :- | :- |
+> | 84 edges | 84 choices of $\{p_1,l_1\}$ and $\{p_2,l_2\}$ non-incident, but $\{p_1,l_2\}$ and $\{p_2,l_1\}$ incident.$$\begin{tikzpicture}\draw[thick] (0,0) to (2,0) node[label=right:{$l_1$}]{};\draw[thick] (0,0.5) to (2,0.5) node[label=right:{$l_2$}]{};\node[label={[label distance=-1mm]above:{$p_1$}}] at (0.8,0.5) {$\bullet$};\node[label={[label distance=-1mm]below:{$p_2$}}] at (1.4,0) {$\bullet$};\end{tikzpicture}$$ or equivalently: 84 choices of 3 non-colinear points with one point singled out. In this definition, the special 3rd point is the one point shared by $l_1$ and $l_2$ of the previous definition. $$\begin{tikzpicture}\draw[thick] (0,0) to node[label={[label distance=-2mm]above right:{$l_2$}}]{} (1,-1) to node[label={[label distance=-2mm]below right:{$l_1$}}]{} (0,-2);\node[label=above:{$p_1$}] at (0,0) {$\bullet$};\node[label=right:{$p_3$}] at (1,-1) {$\bullet$};\node[label=below:{$p_2$}] at (0,-2) {$\bullet$};\end{tikzpicture}$$ We can count this as $\binom{7}{3}$ triples, minus 7 triples that are colinear, times three for three choices of distinguished point: $$(\binom{7}{3} - 7)\times3 = 28\times3 = 84$$ |
+> 
+> In Klein's quartic curve, we specify an edge by picking a pair of cubes 
+> $\{c_1,c_2\}$ and then a distinguished third one, $c_3$, so that the three aren't 
+> all disjoint from any one anticube.  This means that, between them, they 
+> must intersect all seven anticubes.  So the third cube must be one that 
+> intersects $\mathrm{anti}(\{c_1,c_2\})$.  There are exactly 4 of these (and $c_1$ and $c_2$ 
+> aren't among them, by definition).  So another way of counting the total 
+> is $(\binom{7}{2})\times4 = 21\times4 = 84$ choices.
+> 
+> To identify the particular edge, suppose we've chosen $\{\{c_1,c_2\},c_3\}$ as our 
+> cubes.  Then $\{c_1, \mathrm{anti}(\{c_2,c_3\})\}$ is a cube and an anticube that 
+> intersects it, which specifies a pair of diagonally opposite triangular 
+> faces, and the same is true of $\{c_2, \mathrm{anti}(\{c_1,c_3\})\}$.  There is a unique 
+> edge where two of these triangles meet.
+> 
+> For example, if we pick $\{\{\mbox{red}, \mbox{orange}\}, \mbox{yellow}\}$ then we have
+> $\{\mbox{red}, \mbox{anti-purple}\}$ and $\{\mbox{orange}, \mbox{anti-red}\}$.  Both cube/anticube choices specify 
+> two triangles each, but there is only one edge that belongs to both a 
+> $\{\mbox{red}, \mbox{anti-purple}\}$ and an $\{\mbox{orange}, \mbox{anti-red}\}$ triangle.
+> 
+> To reverse the process, if we look at the cube/anticube markings on the 
+> triangles either side of some edge, and they are $\{c_1,a_1\}$ and $\{c_2,a_2\}$, 
+> then we can describe this edge by $\{\{c_1,c_2\},\mathrm{cube}(\{a_1,a_2\})\}$.
+> 
+> | :- | :- |
+> | Triangular faces each sharing an edge with a common neighbour, but not each other. (This is sufficient, but not necessary, for them to share a vertex.) | Pairings of points and non-incident lines $\{p_1,l_1\}$ and $\{p_2,l_2\}$ having either $p_1$ incident on $l_2$ or $p_2$ incident on $l_1$, but not both. $$\begin{tikzpicture};\end{tikzpicture}$$ |
+> 
+> Triangular faces             Pairings of points and non-incident
+> each sharing an              lines {p1,l1} and {p2,l2} having
+> edge with a common           either p1 incident on l2 or p2
+> neighbour, but not           incident on l1, but not both.
+> each other.  (This
+> is sufficient, but                p1 [or p2]
+> not necessary, for           -----(*)-------- l2 [or l1]
+> them to share a
+> vertex.)                     ---------------- l1 [or l2]
+> 
 >                                   (*)
->
->                                ----------- l1
->
->                                7 x 4 = 28
->
->     In Klein's quartic curve, we specify a pair of opposite triangular faces 
->     by picking one of seven cubes, then one of four anticubes that intersect 
->     it.  The intersection is a pair of triangular faces which are diagonally 
->     opposite each other both on the cube and on the anticube.  The 56 order-3 
->     elements of G preserve these pairs of triangular faces, and consist of 
->     rotations by 1/3 and 2/3 turns for each such pair.
->
->     Triangular faces           Pairings of points and
->     sharing an edge            non-incident lines {p1,l1} and
->                                {p2,l2} having p1 incident on l2 and
->                                p2 incident on l1.
->
->                                    p1
->                                ----(*)----- l2
->
->                                ----(*)----- l1
->                                    p2
->
->     In Klein's quartic curve, whenever two triangular faces share an edge, 
->     the cube each face belongs to will be disjoint from the anticube that 
->     the other face belongs to.  This can be checked by noting that the colour 
->     of the anticube appears in the row for anti(c,.).
->
->     If you inspect a triangle and the three neighbours that share edges with 
->     it, the neighbours will always belong to the three anticubes disjoint 
->     from the cube the central triangle belongs to, i.e. they will have 
->     exactly the three colours appearing in the row for anti(c,.)
->
->     84 edges                   84 choices of {p1,l1} and {p2,l2}
->                                non-incident, but {p1,l2} and {p2,l1}
->                                incident.
->
->                                    p1
->                                ----(*)----- l2
->
->                                ----(*)----- l1
->                                    p2
->
->                                or equivalently:
->
->                                84 choices of 3 non-colinear points,
->                                with one point singled out.  In this
->                                definition, the special 3rd point is
->                                the one point shared by l1 and l2
->                                of the previous definition.
->
->                                (*) p1
->                                   \
->                                    \ l2
->                                     \
->                                      (*) p3
->                                     /
->                                    / l1
->                                   /
->                                (*) p2
->
->                                We can count this as (7 choose 3) triples,
->                                minus 7 triples that are colinear, times
->                                three for three choices of distinguished
->                                point:
->
->                                ((7 choose 3) - 7) x 3 = 28 x 3 = 84
->
->     In Klein's quartic curve, we specify an edge by picking a pair of cubes 
->     {c1,c2} and then a distinguished third one, c3, so that the three aren't 
->     all disjoint from any one anticube.  This means that, between them, they 
->     must intersect all seven anticubes.  So the third cube must be one that 
->     intersects anti({c1,c2}).  There are exactly 4 of these (and c1 and c2 
->     aren't among them, by definition).  So another way of counting the total 
->     is (7 choose 2) x 4 = 21 x 4 = 84 choices.
->
->     To identify the particular edge, suppose we've chosen {{c1,c2},c3} as our 
->     cubes.  Then {c1, anti({c2,c3})} is a cube and an anticube that 
->     intersects it, which specifies a pair of diagonally opposite triangular 
->     faces, and the same is true of {c2, anti({c1,c3})}.  There is a unique 
->     edge where two of these triangles meet.
->
->     For example, if we pick {{red, orange}, yellow} then we have {red, 
->     anti-purple} and {orange, anti-red}.  Both cube/anticube choices specify 
->     two triangles each, but there is only one edge that belongs to both a 
->     {red, anti-purple} and an {orange, anti-red} triangle.
->
->     To reverse the process, if we look at the cube/anticube markings on the 
->     triangles either side of some edge, and they are {c1,a1} and {c2,a2}, 
->     then we can describe this edge by {{c1,c2},cube({a1,a2})}.
->
->     Triangular faces             Pairings of points and non-incident
->     each sharing an              lines {p1,l1} and {p2,l2} having
->     edge with a common           either p1 incident on l2 or p2
->     neighbour, but not           incident on l1, but not both.
->     each other.  (This
->     is sufficient, but                p1 [or p2]
->     not necessary, for           -----(*)-------- l2 [or l1]
->     them to share a
->     vertex.)                     ---------------- l1 [or l2]
->
->                                       (*)
->                                       p2 [or p1]
->
->     In Klein's quartic curve, as you go around a triangle anticlockwise and 
->     look at its three (edge-sharing) neighbours, the cube a triangle belongs 
->     to will be disjoint from the anticube of the triangle that follows, but 
->     the anticube it belongs to will intersect the cube of the triangle that 
->     follows.  (But what the sense of the rotation means in the Fano plane 
->     depends on whether we map cubes to points and anticubes to lines or vice 
->     versa!) 
->
->
->     24 vertices               168 pairings of points and non-incident
->                               lines {p1,l1} and {p2,l2} having
->                               either p1 incident on l2 or p2
->                               incident on l1, but not both.
->
->                                    p1 [or p2]
->                               -----(*)-------- l2 [or l1]
->
->                               ---------------- l1 [or l2]
->
->                                    (*)
->                                    p2 [or p1]
->
->                               There are:
->                               28 choices for {p1, l1}
->                             x  3 choices for l2 passing through p1
->                             x (7-5)=2 choices for p2 not in l1 or l2
->
->                               This count identifies each vertex
->                               as shared by common neighbours of
->                               a particular triangle, so we expect
->                               to count each vertex 7 times for the
->                               seven triangles.
->
->                               We could double this to count for
->                               swapping the role of p1 and p2, and then
->                               we'd be counting each vertex twice
->                               as often:  once going anticlockwise
->                               between each pair of neighbours, and
->                               once going clockwise.
->
->     This is all a bit strange and inconvenient!  I can pin down an edge, but 
->     I haven't really pinned down a single face, or a way to count a vertex 
->     just once.  I guess the answer for a vertex is to talk about an 
->     equivalence class of the structures:
->
->
->                                    p1 [or p2]
->                               -----(*)-------- l2 [or l1]
->
->                               ---------------- l1 [or l2]
->
->                                    (*)
->                                    p2 [or p1]
->
->     where we mod out by Z/7 and "gauge fix" l1.  Every vertex is surrounded 
->     by 7 triangular faces encompassing all seven cubes and all seven 
->     anticubes, so these equivalence classes do fix a single vertex.
->
->     Best wishes
->
->     Greg
+>                                   p2 [or p1]
+> 
+> In Klein's quartic curve, as you go around a triangle anticlockwise and 
+> look at its three (edge-sharing) neighbours, the cube a triangle belongs 
+> to will be disjoint from the anticube of the triangle that follows, but 
+> the anticube it belongs to will intersect the cube of the triangle that 
+> follows.  (But what the sense of the rotation means in the Fano plane 
+> depends on whether we map cubes to points and anticubes to lines or vice 
+> versa!) 
+> 
+> 
+> 24 vertices               168 pairings of points and non-incident
+>                           lines {p1,l1} and {p2,l2} having
+>                           either p1 incident on l2 or p2
+>                           incident on l1, but not both.
+> 
+>                                p1 [or p2]
+>                           -----(*)-------- l2 [or l1]
+> 
+>                           ---------------- l1 [or l2]
+> 
+>                                (*)
+>                                p2 [or p1]
+> 
+>                           There are:
+>                           28 choices for {p1, l1}
+>                         x  3 choices for l2 passing through p1
+>                         x (7-5)=2 choices for p2 not in l1 or l2
+> 
+>                           This count identifies each vertex
+>                           as shared by common neighbours of
+>                           a particular triangle, so we expect
+>                           to count each vertex 7 times for the
+>                           seven triangles.
+> 
+>                           We could double this to count for
+>                           swapping the role of p1 and p2, and then
+>                           we'd be counting each vertex twice
+>                           as often:  once going anticlockwise
+>                           between each pair of neighbours, and
+>                           once going clockwise.
+> 
+> This is all a bit strange and inconvenient!  I can pin down an edge, but 
+> I haven't really pinned down a single face, or a way to count a vertex 
+> just once.  I guess the answer for a vertex is to talk about an 
+> equivalence class of the structures:
+> 
+> 
+>                                p1 [or p2]
+>                           -----(*)-------- l2 [or l1]
+> 
+>                           ---------------- l1 [or l2]
+> 
+>                                (*)
+>                                p2 [or p1]
+> 
+> where we mod out by Z/7 and "gauge fix" l1.  Every vertex is surrounded 
+> by 7 triangular faces encompassing all seven cubes and all seven 
+> anticubes, so these equivalence classes do fix a single vertex.
+> 
+> Best wishes
+> 
+> Greg
 
 
 Toby Bartels wrote:
@@ -585,21 +536,21 @@ Darin Brown wrote, in response to some questions by Squark on
 `sci.physics.research`:
 
 > > Squark wrote:
-> >
+> > 
 > > > John Baez wrote:
-> >
+> > > 
 > > > If $G'$ is a subgroup of $G$, we get a covering map
 > > > $$H/G' \to H/G$$
 > > > so we can ask about lifting prime geodesics in $H/G$ to closed
 > > > geodesics in $H/G'$.   There can be a bunch of ways to do this, so we 
 > > > say a prime geodesic in $H/G$ "splits" into powers of prime geodesics 
 > > > up in $H/G'$.
-> >
+> > 
 > > I don't quite understand how can the lift be a power, rather than just
 > > a prime.
-> >
+> > 
 > ---
->
+> 
 > Quite true. When you lift a geodesic, once you get back to the starting
 > basepoint, you've gone around once up above, corr. to a prime above, so
 > it doesn't make sense to go around more than once! (I think this is what
@@ -612,17 +563,17 @@ Darin Brown wrote, in response to some questions by Squark on
 > ramification degree. It seems all the ramification degrees are 1, and
 > the magic equation reduces to degree of extension = sum(inertia
 > degrees).
->
+> 
 > ---
->
+> 
 > > > |    |    |
 > > > | :- | :- |
 > > > | Norm $N(Q)$ of ideal $Q$ | Norm $N(f)$ of closed geodesic $f$ |
->
+> 
 > > What is a norm of a geodesic? The length or the energy or... ?
->
+> 
 > ---
->
+> 
 > Explicitly, the length of a geodesic is the (natural) log of the norm,
 > or equivalently, the norm is $\exp(\text{length})$. For closed geodesics on
 > $\Gamma\backslash H$, you find the norm explicitly as follows: consider the
@@ -630,20 +581,20 @@ Darin Brown wrote, in response to some questions by Squark on
 > element of this conj. class, then the norm is $\varepsilon^2$. The length of
 > the geodesic is then $2\log(\varepsilon)$. This is independent of the choice of
 > $\gamma$ in the conj. class.
->
+> 
 > This is why I now like to think of the norm of an ideal as a kind of
 > "length function on ideals".
->
+> 
 > ---
->
+> 
 > > > |    |    |
 > > > | :- | :- |
 > > > | Frobenius conjugacy class of $Q$ | Frobenius conjugacy class of $f$ |
->
+> 
 > > Again, what is the Frobenius on the right side here?
->
+> 
 > ---
->
+> 
 > I can give 2 answers. The first answer is a cop-out, because it would
 > just give the concrete definition given in Jeff's paper or my thesis,
 > e.g. Namely, you take the associated matrix $\gamma$, and reduce entries
@@ -657,7 +608,7 @@ Darin Brown wrote, in response to some questions by Squark on
 > the prime geodesic above. Choosing different primes above the prime
 > below should give elements of the deck transformation group which are
 > conjugate to each other. At least, that should be the idea.
->
+> 
 > darin
 
 Darin's description of the Frobenius associated to a prime geodesic in
