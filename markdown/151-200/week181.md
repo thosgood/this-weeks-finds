@@ -468,30 +468,34 @@ series of simple Lie groups and seeing what we get.
     "isotropic" if the symplectic form vanishes on it.
 
     Here's a little table of these Grassmannians:
-
-                                         isotropic 
-        C1                              1d subspaces
-        \mathrm{Sp}(2,\mathbb{C})                               o
-                                              1
-
-             
-                                  isotropic     isotropic          
-        C2                       1d subspaces  2d subspaces
-        \mathrm{Sp}(4,\mathbb{C})                       o=======<=======o
-                                      3               3
-
-
-                           isotropic     isotropic     isotropic
-        C3                1d subspaces  2d subspaces  3d subspaces
-        \mathrm{Sp}(6,\mathbb{C})                o--------------o=======<=======o
-                               5              7               6
-
-
-                     isotropic     isotropic      isotropic     isotropic
-        C4          1d subspaces  2d subspaces   3d subspaces  4d subspaces
-        \mathrm{Sp}(8,\mathbb{C})          o-------------o---------------o=======<======o
-                         7            11              12             10 
-
+    $$
+      \begin{tikzpicture}[xscale=0.95,yscale=1.6]
+        \draw[double,double equal sign distance] (-1,-1) to (0.05,-1);
+        \draw[double,double equal sign distance,implies-] (-0.05,-1) to (1,-1);
+        \draw[thick] (-2,-2) to (0,-2);
+        \draw[double,double equal sign distance] (0,-2) to (1.05,-2);
+        \draw[double,double equal sign distance,implies-] (0.95,-2) to (2,-2);
+        \draw[thick] (-3,-3) to (1,-3);
+        \draw[double,double equal sign distance] (1,-3) to (2.05,-3);
+        \draw[double,double equal sign distance,implies-] (1.95,-3) to (3,-3);
+        %
+        \node[label=below:{\scriptsize$1$},label={[label distance=1mm]above:{\scriptsize isotropic}},label={[label distance=-2mm]above:{\scriptsize 1d subspaces}}] at (0,0) {$\bullet$};
+        \node[label=below:{\scriptsize$3$},label={[label distance=1mm]above:{\scriptsize isotropic}},label={[label distance=-2mm]above:{\scriptsize 1d subspaces}}] at (-1,-1) {$\bullet$};
+        \node[label=below:{\scriptsize$3$},label={[label distance=1mm]above:{\scriptsize isotropic}},label={[label distance=-2mm]above:{\scriptsize 2d subspaces}}] at (1,-1) {$\bullet$};
+        \node[label=below:{\scriptsize$5$},label={[label distance=1mm]above:{\scriptsize isotropic}},label={[label distance=-2mm]above:{\scriptsize 1d subspaces}}] at (-2,-2) {$\bullet$};
+        \node[label=below:{\scriptsize$7$},label={[label distance=1mm]above:{\scriptsize isotropic}},label={[label distance=-2mm]above:{\scriptsize 2d subspaces}}] at (0,-2) {$\bullet$};
+        \node[label=below:{\scriptsize$6$},label={[label distance=1mm]above:{\scriptsize isotropic}},label={[label distance=-2mm]above:{\scriptsize 3d subspaces}}] at (2,-2) {$\bullet$};
+        \node[label=below:{\scriptsize$7$},label={[label distance=1mm]above:{\scriptsize isotropic}},label={[label distance=-2mm]above:{\scriptsize 1d subspaces}}] at (-3,-3) {$\bullet$};
+        \node[label=below:{\scriptsize$11$},label={[label distance=1mm]above:{\scriptsize isotropic}},label={[label distance=-2mm]above:{\scriptsize 2d subspaces}}] at (-1,-3) {$\bullet$};
+        \node[label=below:{\scriptsize$12$},label={[label distance=1mm]above:{\scriptsize isotropic}},label={[label distance=-2mm]above:{\scriptsize 3d subspaces}}] at (1,-3) {$\bullet$};
+        \node[label=below:{\scriptsize$10$},label={[label distance=1mm]above:{\scriptsize isotropic}},label={[label distance=-2mm]above:{\scriptsize 4d subspaces}}] at (3,-3) {$\bullet$};
+        %
+        \node at (-5.5,0) {$\mathrm{C}_1$: $\mathrm{Sp}(2,\mathbb{C})$};
+        \node at (-5.5,-1) {$\mathrm{C}_2$: $\mathrm{Sp}(4,\mathbb{C})$};
+        \node at (-5.5,-2) {$\mathrm{C}_3$: $\mathrm{Sp}(6,\mathbb{C})$};
+        \node at (-5.5,-3) {$\mathrm{C}_4$: $\mathrm{Sp}(8,\mathbb{C})$};
+      \end{tikzpicture}
+    $$
     You'll notice the dimensions are the same as in the $\mathrm{B}_n$ case! That's
     because their Dynkin diagrams are almost the same: for reasons I may
     someday explain, dimensions of flag manifolds don't care which way the
@@ -509,29 +513,34 @@ series of simple Lie groups and seeing what we get.
     Oh heck, I can *guess* the dimensions of these guys from this... I
     guess they're just the dimension of the $p$-vectors minus the dimension
     of the $(p-2)$-vectors. Here's a table of these guesses:
-
-        C1                                 vectors
-        \mathrm{Sp}(2,\mathbb{C})                               o
-                                              2
-
-             
-                                                  irreducible 
-        C2                          vectors        bivectors
-        \mathrm{Sp}(4,\mathbb{C})                       o=======<=======o
-                                      4               5
-
-
-                                          irreducible     irreducible
-        C3                    vectors      bivectors       3-vectors
-        \mathrm{Sp}(6,\mathbb{C})                o--------------o=======<=======o
-                               6              14              14
-
-
-                                   irreducible     irreducible    irreducible
-        C4              vectors     bivectors       3-vectors      4-vectors
-        \mathrm{Sp}(8,\mathbb{C})          o-------------o---------------o=======<======o
-                         8            27              48             42
-
+    $$
+      \begin{tikzpicture}[xscale=0.95,yscale=1.6]
+        \draw[double,double equal sign distance] (-1,-1) to (0.05,-1);
+        \draw[double,double equal sign distance,implies-] (-0.05,-1) to (1,-1);
+        \draw[thick] (-2,-2) to (0,-2);
+        \draw[double,double equal sign distance] (0,-2) to (1.05,-2);
+        \draw[double,double equal sign distance,implies-] (0.95,-2) to (2,-2);
+        \draw[thick] (-3,-3) to (1,-3);
+        \draw[double,double equal sign distance] (1,-3) to (2.05,-3);
+        \draw[double,double equal sign distance,implies-] (1.95,-3) to (3,-3);
+        %
+        \node[label=below:{\scriptsize$2$},label=above:{\scriptsize vectors}] at (0,0) {$\bullet$};
+        \node[label=below:{\scriptsize$4$},label=above:{\scriptsize vectors}] at (-1,-1) {$\bullet$};
+        \node[label=below:{\scriptsize$5$},label={[label distance=1mm]above:{\scriptsize irreducible}},label={[label distance=-1mm]above:{\scriptsize bivectors}}] at (1,-1) {$\bullet$};
+        \node[label=below:{\scriptsize$6$},label=above:{\scriptsize vectors}] at (-2,-2) {$\bullet$};
+        \node[label=below:{\scriptsize$14$},label={[label distance=1mm]above:{\scriptsize irreducible}},label={[label distance=-1mm]above:{\scriptsize bivectors}}] at (0,-2) {$\bullet$};
+        \node[label=below:{\scriptsize$14$},label={[label distance=1mm]above:{\scriptsize irreducible}},label={[label distance=-1mm]above:{\scriptsize 3-vectors}}] at (2,-2) {$\bullet$};
+        \node[label=below:{\scriptsize$8$},label=above:{\scriptsize vectors}] at (-3,-3) {$\bullet$};
+        \node[label=below:{\scriptsize$27$},label={[label distance=1mm]above:{\scriptsize irreducible}},label={[label distance=-1mm]above:{\scriptsize bivectors}}] at (-1,-3) {$\bullet$};
+        \node[label=below:{\scriptsize$48$},label={[label distance=1mm]above:{\scriptsize irreducible}},label={[label distance=-1mm]above:{\scriptsize 3-vectors}}] at (1,-3) {$\bullet$};
+        \node[label=below:{\scriptsize$42$},label={[label distance=1mm]above:{\scriptsize irreducible}},label={[label distance=-1mm]above:{\scriptsize 4-vectors}}] at (3,-3) {$\bullet$};
+        %
+        \node at (-5.5,0) {$\mathrm{C}_1$: $\mathrm{Sp}(2,\mathbb{C})$};
+        \node at (-5.5,-1) {$\mathrm{C}_2$: $\mathrm{Sp}(4,\mathbb{C})$};
+        \node at (-5.5,-2) {$\mathrm{C}_3$: $\mathrm{Sp}(6,\mathbb{C})$};
+        \node at (-5.5,-3) {$\mathrm{C}_4$: $\mathrm{Sp}(8,\mathbb{C})$};
+      \end{tikzpicture}
+    $$
     Maybe someone can tell if they're right.
 
 - $\mathrm{D}_n$: Finally, $\mathrm{D}_n$ is another name for the complexified rotation group
