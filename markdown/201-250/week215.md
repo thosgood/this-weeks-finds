@@ -425,20 +425,7 @@ a relation that he later exploited in some fascinating ways.
 > then we can describe this edge by $\{\{c_1,c_2\},\mathrm{cube}(\{a_1,a_2\})\}$.
 > 
 > | :- | :- |
-> | Triangular faces each sharing an edge with a common neighbour, but not each other. (This is sufficient, but not necessary, for them to share a vertex.) | Pairings of points and non-incident lines $\{p_1,l_1\}$ and $\{p_2,l_2\}$ having either $p_1$ incident on $l_2$ or $p_2$ incident on $l_1$, but not both. $$\begin{tikzpicture};\end{tikzpicture}$$ |
-> 
-> Triangular faces             Pairings of points and non-incident
-> each sharing an              lines {p1,l1} and {p2,l2} having
-> edge with a common           either p1 incident on l2 or p2
-> neighbour, but not           incident on l1, but not both.
-> each other.  (This
-> is sufficient, but                p1 [or p2]
-> not necessary, for           -----(*)-------- l2 [or l1]
-> them to share a
-> vertex.)                     ---------------- l1 [or l2]
-> 
->                                   (*)
->                                   p2 [or p1]
+> | Triangular faces each sharing an edge with a common neighbour, but not each other. (This is sufficient, but not necessary, for them to share a vertex.) | Pairings of points and non-incident lines $\{p_1,l_1\}$ and $\{p_2,l_2\}$ having _either_ $p_1$ incident on $l_2$ or $p_2$ incident on $l_1$, but _not_ both. $$\begin{tikzpicture}\draw[thick] (0,0) to (2,0) node[label=right:{$l_1$ (or $l_2$)}]{};\draw[thick] (0,0.5) to (2,0.5) node[label=right:{$l_2$ (or $l_1$)}]{};\node[label={[label distance=-1mm]above:{$p_1$ (or $p_2$)}}] at (0.8,0.5) {$\bullet$};\node[label={[label distance=-1mm]below:{$p_2$ (or $p_1$)}}] at (1.4,-0.3) {$\bullet$};\end{tikzpicture}$$ |
 > 
 > In Klein's quartic curve, as you go around a triangle anticlockwise and 
 > look at its three (edge-sharing) neighbours, the cube a triangle belongs 
@@ -448,53 +435,15 @@ a relation that he later exploited in some fascinating ways.
 > depends on whether we map cubes to points and anticubes to lines or vice 
 > versa!) 
 > 
-> 
-> 24 vertices               168 pairings of points and non-incident
->                           lines {p1,l1} and {p2,l2} having
->                           either p1 incident on l2 or p2
->                           incident on l1, but not both.
-> 
->                                p1 [or p2]
->                           -----(*)-------- l2 [or l1]
-> 
->                           ---------------- l1 [or l2]
-> 
->                                (*)
->                                p2 [or p1]
-> 
->                           There are:
->                           28 choices for {p1, l1}
->                         x  3 choices for l2 passing through p1
->                         x (7-5)=2 choices for p2 not in l1 or l2
-> 
->                           This count identifies each vertex
->                           as shared by common neighbours of
->                           a particular triangle, so we expect
->                           to count each vertex 7 times for the
->                           seven triangles.
-> 
->                           We could double this to count for
->                           swapping the role of p1 and p2, and then
->                           we'd be counting each vertex twice
->                           as often:  once going anticlockwise
->                           between each pair of neighbours, and
->                           once going clockwise.
+> | :- | :- |
+> | 24 vertices | 168 pairings of points and non-incident lines $\{p_1,l_1\}$ and $\{p_2,l_2\}$ having _either_ $p_1$ incident on $l_2$ or $p_2$ incident on $l_1$, but _not_ both. $$\begin{tikzpicture}\draw[thick] (0,0) to (2,0) node[label=right:{$l_1$ (or $l_2$)}]{};\draw[thick] (0,0.5) to (2,0.5) node[label=right:{$l_2$ (or $l_1$)}]{};\node[label={[label distance=-1mm]above:{$p_1$ (or $p_2$)}}] at (0.8,0.5) {$\bullet$};\node[label={[label distance=-1mm]below:{$p_2$ (or $p_1$)}}] at (1.4,-0.3) {$\bullet$};\end{tikzpicture}$$ There are: ($28$ choices for $\{p_1,l_1\}$) $\times$ ($3$ choices for $l_2$ passing through $p_1$) $\times$ ($7-5=2$ choices for $p_2$ not in $l_1$ or $l_2$). This count identifies each vertex as shared by common neighbours of a particular triangle, so we expect to count each vertex 7 times for the seven triangles. We could double this to count for swapping the role of $p_1$ and $p_2$, and the we'd be counting each vertex twice as often: once going anticlockwise between each pair of neighbours, and once going clockwise |
 > 
 > This is all a bit strange and inconvenient!  I can pin down an edge, but 
 > I haven't really pinned down a single face, or a way to count a vertex 
 > just once.  I guess the answer for a vertex is to talk about an 
 > equivalence class of the structures:
-> 
-> 
->                                p1 [or p2]
->                           -----(*)-------- l2 [or l1]
-> 
->                           ---------------- l1 [or l2]
-> 
->                                (*)
->                                p2 [or p1]
-> 
-> where we mod out by Z/7 and "gauge fix" l1.  Every vertex is surrounded 
+> $$\begin{tikzpicture}\draw[thick] (0,0) to (2,0) node[label=right:{$l_1$ (or $l_2$)}]{};\draw[thick] (0,0.5) to (2,0.5) node[label=right:{$l_2$ (or $l_1$)}]{};\node[label={[label distance=-1mm]above:{$p_1$ (or $p_2$)}}] at (0.8,0.5) {$\bullet$};\node[label={[label distance=-1mm]below:{$p_2$ (or $p_1$)}}] at (1.4,-0.3) {$\bullet$};\end{tikzpicture}$$
+> where we mod out by $\mathbb{Z}/7$ and "gauge fix" $l_1$.  Every vertex is surrounded 
 > by 7 triangular faces encompassing all seven cubes and all seven 
 > anticubes, so these equivalence classes do fix a single vertex.
 > 
