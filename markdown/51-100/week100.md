@@ -230,4 +230,3 @@ next weekend at Northwestern University.
 This is the end of the "Tale of $n$-Categories". If you want more, try
 ['An Introduction to n-Categories'](http://math.ucr.edu/home/baez/ncat.ps) (in Postscript form), or else read the above papers.
 
-------------------------------------------------------------------------

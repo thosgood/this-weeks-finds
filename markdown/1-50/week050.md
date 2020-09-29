@@ -126,4 +126,3 @@ whim, caprice, chance, and my own ignorance.
 
 7) Steve Carlip and R. Cosgrove, "Topology change in (2+1)-dimensional gravity", _Jour. Math. Phys._ **35** (1994), 5477--5493.
 
-------------------------------------------------------------------------

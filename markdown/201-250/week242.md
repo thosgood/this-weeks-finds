@@ -28,7 +28,7 @@ first, let's start with some cool astronomy pictures!
 
 Here's a photo of Saturn, Saturn's rings, and its moon Dione, taken by
 the Cassini orbiter in October last year:
-$$\includegraphics[max width=0.8\linewidth]{../images/dione_ring.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/dione_ring.jpg}$$
 
 1) NASA, "Ringside with Dione", `http://solarsystem.nasa.gov/multimedia/display.cfm?IM_ID=4163`
 
@@ -40,7 +40,7 @@ diameter, about the third the size of our Moon.
 
 Here's a photo of Saturn, its rings, and its moon Mimas, taken in
 November 2004:
-$$\includegraphics[max width=0.8\linewidth]{../images/mimas_ring_big.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/mimas_ring_big.jpg}$$
 
 2) NASA, "Nature's canvas", `http://saturn.jpl.nasa.gov/multimedia/images/image-details.cfm?imageID=1088`
 
@@ -127,7 +127,7 @@ The idea of LISA is to put 3 satellites in a huge equilateral triangle
 following the Earth in its orbit around the Sun, and bounce lasers
 between them to detect gravitational waves (see
 ["Week 143"](#week143)):
-$$\href{http://lisa.jpl.nasa.gov/STRATEGY/getThere.html}{\includegraphics[max width=0.8\linewidth]{../images/LISA_orbit.png}}$$
+$$\href{http://lisa.jpl.nasa.gov/STRATEGY/getThere.html}{\includegraphics[max width=0.65\linewidth]{../images/LISA_orbit.png}}$$
 This would avoid the ground noise that plagues LIGO (see
 ["Week 241"](#week241)), and it could detect waves of much lower
 frequencies. If all works well, it could see gravitational waves from
@@ -167,10 +167,10 @@ This could study Earth-like planets orbiting stars up to 45 light years
 away. It would consist of two observatories: a visible-light
 "coronagraph" that blocks out the light from a star so it can see
 nearby fainter objects:
-$$\href{http://planetquest.jpl.nasa.gov/TPF/}{\includegraphics[max width=0.8\linewidth]{../images/tpf_coronagraph.jpg}}$$
+$$\href{http://planetquest.jpl.nasa.gov/TPF/}{\includegraphics[max width=0.65\linewidth]{../images/tpf_coronagraph.jpg}}$$
 and an infrared interferometer made of several units flying in
 formation:
-$$\href{http://planetquest.jpl.nasa.gov/TPF/}{\includegraphics[max width=0.8\linewidth]{../images/tpf_formation_flying_infrared_interferometer.jpg}}$$
+$$\href{http://planetquest.jpl.nasa.gov/TPF/}{\includegraphics[max width=0.65\linewidth]{../images/tpf_formation_flying_infrared_interferometer.jpg}}$$
 In February 2006, NASA halted work on the TPF. In June 2006, thanks to
 public pressure, Congress reinstated funding for this program and also a
 mission to Jupiter's moon Europa, which could have oceans underneath
@@ -217,7 +217,7 @@ like setting up a base on the Moon where astronauts sit around and...
 what, play golf? It's like something out of old science fiction!
 
 To cheer myself up again, here's a picture of the Sun:
-$$\href{http://cosmicvariance.com/2006/10/13/sun-shots/}{\includegraphics[max width=0.8\linewidth]{../images/sun_neutrinos.jpg}}$$
+$$\href{http://cosmicvariance.com/2006/10/13/sun-shots/}{\includegraphics[max width=0.65\linewidth]{../images/sun_neutrinos.jpg}}$$
 
 11) Joanne Hewett, "Sun Shots", `http://cosmicvariance.com/2006/10/13/sun-shots/`
 
@@ -713,4 +713,3 @@ one degree in size. The Sun itself is just half a degree wide.
 
 For more discussion, go to the [$n$-Category Café](http://golem.ph.utexas.edu/category/2006/12/this_weeks_finds_in_mathematic_4.html).
 
-------------------------------------------------------------------------

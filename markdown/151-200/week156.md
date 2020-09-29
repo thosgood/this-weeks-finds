@@ -280,4 +280,3 @@ dates."
 Martin Hardcastle wonders if Streater and Wightman were inspired by the
 similarity of their names to those of Sellar and Yeatman!
 
-------------------------------------------------------------------------

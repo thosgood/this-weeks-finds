@@ -612,4 +612,3 @@ I couldn't resist writing that last paragraph, since I'd love to
 explain this carefully someday, but I'm not sure I'll have time. It's
 incredibly beautiful stuff!
 
-------------------------------------------------------------------------

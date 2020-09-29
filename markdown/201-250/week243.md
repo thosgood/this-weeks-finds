@@ -251,7 +251,7 @@ than 1 billion years after the Big Bang, and were individually much
 brighter than current-day stars.
 
 Here's a picture of their data:
-$$\href{http://www.spitzer.caltech.edu/Media/releases/ssc2005-22/ssc2005-22a.shtml}{\includegraphics[max width=0.8\linewidth]{../images/infrared_background_first_stars.jpg}}$$
+$$\href{http://www.spitzer.caltech.edu/Media/releases/ssc2005-22/ssc2005-22a.shtml}{\includegraphics[max width=0.65\linewidth]{../images/infrared_background_first_stars.jpg}}$$
 
 9) NASA / JPL-Caltech / A. Kashlinsky, "Infrared background light from first stars", `http://www.spitzer.caltech.edu/Media/releases/ssc2005-22/`
 
@@ -322,7 +322,7 @@ rolling a *sphere* on it. Derek illustrates this with a picture of a
 hamster crawling around in a plastic "hamster ball", which is
 something you can actually buy for your pet hamster to let it explore
 your house without escaping or getting in trouble:
-$$\includegraphics[max width=0.8\linewidth]{../images/cartan_geometry_1.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/cartan_geometry_1.jpg}$$
 (I've read about falling cats in papers on gauge theory, but this is
 the first mathematical physics paper I've read containing the word
 "hamster".)
@@ -346,7 +346,7 @@ approximation to the spacetime we live in. But nowadays we think the
 cosmological constant is nonzero, so the Universe is expanding in a
 roughly exponential way. This makes another model geometry, "deSitter
 spacetime", the best one to use!
-$$\includegraphics[max width=0.8\linewidth]{../images/cartan_geometry_2.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/cartan_geometry_2.jpg}$$
 So, if we know Cartan geometry, we can use that... and we get something
 called the MacDowell-Mansouri formulation of gravity. Or, if we don't
 want our spacetime to have lumps and bumps --- if we want it to look

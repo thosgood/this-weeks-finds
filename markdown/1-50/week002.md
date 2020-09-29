@@ -283,4 +283,3 @@ to point in the same direction as the cosmological arrow is that
 conditions are suitable for intelligent life only at the low entropy end
 of the universe's history.
 
-------------------------------------------------------------------------

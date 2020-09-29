@@ -5,7 +5,7 @@ France, at a conference organized by Alexei Grinbaum and Michel Bitbol:
 
 1) "Philosophical and Formal Foundations of Modern Physics", `http://www-drecam.cea.fr/Phocea/Vie_des_labos/Ast/ast_visu.php?id_ast=762`
 
-$$\includegraphics[max width=0.8\linewidth]{../images/les_treilles.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/les_treilles.jpg}$$
 It's very beautiful here, but about 20 philosophers, physicists and
 mathematicians have agreed to spend six days indoors discussing quantum
 gravity, the history of relativity, quantum information theory and the

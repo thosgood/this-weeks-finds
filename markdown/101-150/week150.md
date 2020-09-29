@@ -364,4 +364,3 @@ paper on the subject:
 *In any field, find the strangest thing and then explore it.* --- John
 Wheeler
 
-------------------------------------------------------------------------

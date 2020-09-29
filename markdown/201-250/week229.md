@@ -43,7 +43,7 @@ But first: the astronomy picture of the week!
 It'll be more fun after a little background. The northern part of Mars
 is very different from the rest. It's much smoother, and the altitude
 is much less:
-$$\href{http://photojournal.jpl.nasa.gov/catalog/?IDNumber=PIA02820}{\includegraphics[max width=0.8\linewidth]{../images/mars_topography.png}}$$
+$$\href{http://photojournal.jpl.nasa.gov/catalog/?IDNumber=PIA02820}{\includegraphics[max width=0.65\linewidth]{../images/mars_topography.png}}$$
 
 2) Linda M. V. Martel, "Ancient floodwaters and seas on Mars", `http://www.psrd.hawaii.edu/July03/MartianSea.html`
 
@@ -67,7 +67,7 @@ The rest of the water is now frozen at the poles or lurking underground.
 
 And that brings us to our picture. Here's some ice in a crater in
 Vastitas Borealis:
-$$\href{http://www.esa.int/esa-mmg/mmg.pl?b=b&type=I&mission=Mars\%20Express&single=y&start=53&size=b}{\includegraphics[max width=0.8\linewidth]{../images/mars_crater_ice.jpg}}$$
+$$\href{http://www.esa.int/esa-mmg/mmg.pl?b=b&type=I&mission=Mars\%20Express&single=y&start=53&size=b}{\includegraphics[max width=0.65\linewidth]{../images/mars_crater_ice.jpg}}$$
 
 4) "Water ice in crater at Martian north pole", European Space Agency (ESA), `http://www.esa.int/esaMI/Mars_Express/SEMGKA808BE_3.html`
 
@@ -157,7 +157,7 @@ an ancient Roman coin. I don't understand how this pattern is related
 to the coin.)
 
 This is how Peirce's quincuncial looks as an actual map:
-$$\href{http://www.progonos.com/furuti/MapProj/Normal/ProjConf/projConf.html}{\includegraphics[max width=0.8\linewidth]{../images/quincuncial.jpg}}$$
+$$\href{http://www.progonos.com/furuti/MapProj/Normal/ProjConf/projConf.html}{\includegraphics[max width=0.65\linewidth]{../images/quincuncial.jpg}}$$
 
 5) Carlos A. Furuti, "Conformal projections", `http://www.progonos.com/furuti/MapProj/Normal/ProjConf/projConf.html`
 
@@ -185,7 +185,7 @@ The cool part is that you can tile the plane indefinitely with this map:
     E-----N-----W-----N-----E-----N-----W-----N-----E
 :::
 
-$$\href{http://www.progonos.com/furuti/MapProj/Normal/ProjConf/projConf.html}{\includegraphics[max width=0.8\linewidth]{../images/quincuncial_tiled.jpg}}$$
+$$\href{http://www.progonos.com/furuti/MapProj/Normal/ProjConf/projConf.html}{\includegraphics[max width=0.65\linewidth]{../images/quincuncial_tiled.jpg}}$$
 This gives a branched cover of the sphere by the plane! It has branch
 points at the east, west, front and back poles, since walking once
 around a point like that on the above map corresponds to walking around
@@ -286,7 +286,7 @@ It's also especially nice to put the branch points at the vertices of a
 regular tetrahedron. I'm not sure, but this may give a map developed by
 the cartographer Laurence P. Lee in 1965. There's also a picture of
 this on Furuti's webpage:
-$$\includegraphics[max width=0.8\linewidth]{../images/triangular_map.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/triangular_map.jpg}$$
 In fact, these two specially nice locations for branch points correspond
 to the two most symmetrical lattices in the plane: the square one and
 the hexagonal one. I talked about these in ["Week 125"](#week125) ---

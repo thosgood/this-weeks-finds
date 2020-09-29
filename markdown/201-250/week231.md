@@ -3,7 +3,7 @@
 [Enceladus](http://en.wikipedia.org/wiki/Enceladus_(moon)) is a moon of
 Saturn with a cracked icy surface, twisted and buckled by tidal forces,
 hinting at mysteries beneath:
-$$\href{http://www.nasa.gov/mission_pages/cassini/multimedia/pia07800.html}{\includegraphics[max width=0.8\linewidth]{../images/enceladus.jpg}}$$
+$$\href{http://www.nasa.gov/mission_pages/cassini/multimedia/pia07800.html}{\includegraphics[max width=0.65\linewidth]{../images/enceladus.jpg}}$$
 
 1) NASA, "Enceladus the storyteller", `http://www.nasa.gov/mission_pages/cassini/multimedia/pia07800.html`
 
@@ -11,7 +11,7 @@ Recently the NASA space probe Cassini has been getting a good look at
 Enceladus. In March, Cassini discovered that it has geysers among the
 cracks near its south pole --- geysers that spray water right out into
 space!
-$$\href{http://saturn.jpl.nasa.gov/news/press-release-details.cfm?newsID=639}{\includegraphics[max width=0.8\linewidth]{../images/enceladus_geyser.jpg}}$$
+$$\href{http://saturn.jpl.nasa.gov/news/press-release-details.cfm?newsID=639}{\includegraphics[max width=0.65\linewidth]{../images/enceladus_geyser.jpg}}$$
 
 2) "NASA's Cassini discovers potential liquid water on Enceladus", `http://saturn.jpl.nasa.gov/news/press-release-details.cfm?newsID=639`
 
@@ -22,7 +22,7 @@ ring](http://saturn.jpl.nasa.gov/multimedia/images/image-details.cfm?imageID=209
 --- a diffuse bluish ring that was previously a mystery.
 
 The currently popular theory for the geysers looks like this:
-$$\href{http://www.nasa.gov/mission_pages/cassini/multimedia/pia07799.html}{\includegraphics[max width=0.8\linewidth]{../images/enceladus_geyser_model.jpg}}$$
+$$\href{http://www.nasa.gov/mission_pages/cassini/multimedia/pia07799.html}{\includegraphics[max width=0.65\linewidth]{../images/enceladus_geyser_model.jpg}}$$
 
 4) NASA, 'Enceladus "cold geyser" model', `http://www.nasa.gov/mission_pages/cassini/multimedia/pia07799.html`
 
@@ -158,7 +158,7 @@ compressed that separate water molecules no longer exist! Instead, the
 oxygen atoms form a body-centered cubic. This means they lie at the
 corners of a lattice of cubes, but with one at the center of each cube
 too, like the red dots in this picture by Cavazzoni:
-$$\includegraphics[max width=0.8\linewidth]{../images/cavazzoni_ice_X.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/cavazzoni_ice_X.jpg}$$
 
 10) Carlo Cavazzoni, _Large scale first-principles simulations of water and ammonia at high pressure and temperature_, Ph.D. thesis, Scuola Internazionale Superiore di Studi Avanzati, October 1998. Figure 4.10: symmetric and super-ionic ice X structures, p. 57. Available at `http://sirio.cineca.it/~acv0/thesis.html`
 
@@ -170,7 +170,7 @@ tetrahedron.
 
 A body-centered cubic can also be visualized as two interpenetrating
 cubic lattices, labelled A and B here:
-$$\includegraphics[max width=0.8\linewidth]{../images/cavazzoni_ice_X_2.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/cavazzoni_ice_X_2.jpg}$$
 
 Each oxygen has 4 hydrogens next to it. If you compress water a bit less
 than enough to make [ice X](http://www.lsbu.ac.uk/water/ice_vii.html#iceten), you get
@@ -197,7 +197,7 @@ People have done computer simulations to study this:
 
 12) C. Cavazzoni, G. L. Chiarotti, S. Scandolo, E. Tosatti, M. Bernasconi and M. Parrinello, "Superionic and metallic states of water and ammonia at giant planet conditions", _Science_ **283** (January 1999), 44--46. Also available at `http://www.sciencemag.org/cgi/content/full/283/5398/44`
 
-$$\includegraphics[max width=0.8\linewidth]{../images/cavazzoni_ice_phases.png}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/cavazzoni_ice_phases.png}$$
 
 It seems that when you heat up [ice X](http://www.lsbu.ac.uk/water/ice_vii.html#iceten), it goes into a
 "superionic" state where the little tetrahedra of hydrogen ions in

@@ -6,7 +6,7 @@ long gone, whose once grand oceans are now reduced to windy canyons and
 icy dunes. Let's say goodbye to it for now... leaving off with this
 Martian sunset, photographed by the rover Spirit in Gusev Crater on May
 19th, 2005:
-$$\href{http://marsrovers.nasa.gov/gallery/press/spirit/20050610a.html}{\includegraphics[max width=0.8\linewidth]{../images/mars_sunset.jpg}}$$
+$$\href{http://marsrovers.nasa.gov/gallery/press/spirit/20050610a.html}{\includegraphics[max width=0.65\linewidth]{../images/mars_sunset.jpg}}$$
 
 1) "A moment frozen in time", NASA Mars Exploration Rover Mission, `http://marsrovers.nasa.gov/gallery/press/spirit/20050610a.html`
 

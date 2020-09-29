@@ -26,7 +26,7 @@ Markevitch and company have been studying the "Bullet Cluster", a
 bunch of galaxies that has a small bullet-shaped subcluster zipping away
 from the center at 4,500 kilometers per second. Here's a picture of it
 from the above paper:
-$$\href{http://cxc.harvard.edu/symposium_2005/proceedings/theme_energy.html#abs23}{\includegraphics[max width=0.8\linewidth]{../images/bullet_cluster.jpg}}$$
+$$\href{http://cxc.harvard.edu/symposium_2005/proceedings/theme_energy.html#abs23}{\includegraphics[max width=0.65\linewidth]{../images/bullet_cluster.jpg}}$$
 To help you understand this picture a bit: the official name of the
 Bullet Cluster is 1E0657-56. The "exposure" for this X-ray photograph
 taken by Chanda was apparently 0.5 million seconds --- 140 hours! The
@@ -55,7 +55,7 @@ matter bending the light from more distant galaxies! It's called
 "gravitational lensing". Here are the mass density contours, as seen
 by this effect. I guess Clowe took this photo using the Hubble Space
 Telescope:
-$$\href{http://cxc.harvard.edu/symposium_2005/proceedings/theme_energy.html#abs23}{\includegraphics[max width=0.8\linewidth]{../images/bullet_cluster_lensing.jpg}}$$
+$$\href{http://cxc.harvard.edu/symposium_2005/proceedings/theme_energy.html#abs23}{\includegraphics[max width=0.65\linewidth]{../images/bullet_cluster_lensing.jpg}}$$
 So: X-rays show the gas in one place, but gravity shows most of the mass
 is somewhere else --- two lumps zipping along unstopped. That's good
 evidence that dark matter is for real.
@@ -90,7 +90,7 @@ worth reading, so I'll quote it in its entirety here:
 The Bullet Cluster is not the only direct evidence for dark matter. In
 fact, last year folks claimed to have found a "ghost galaxy" made
 mainly of dark matter and cold hydrogen, with very few stars:
-$$\href{http://www2.naic.edu/~rminchin/press/}{\includegraphics[max width=0.8\linewidth]{../images/ghost_galaxy.jpg}}$$
+$$\href{http://www2.naic.edu/~rminchin/press/}{\includegraphics[max width=0.65\linewidth]{../images/ghost_galaxy.jpg}}$$
 
 8) PPARC, "New evidence for a dark matter galaxy", `http://www.interactions.org/cms/?pid=1023641`
 
@@ -115,7 +115,7 @@ basic building block of spacetime in 3d quantum gravity --- as a function
 of the cosmological constant.
 
 They get pictures like this:
-$$\includegraphics[max width=0.8\linewidth]{../images/tet4-real-med.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/tet4-real-med.jpg}$$
 
 9) Dan Christensen and Igor Khavkine, "Plots of $q$-deformed tets",
 `http://jdc.math.uwo.ca/spinnet/`
@@ -366,4 +366,3 @@ identity say that $d$ and the Lie bracket are preserved by diffeomorphisms
 --- but at least they *imply* these operations are preserved by *small*
 diffeomorphisms.
 
-------------------------------------------------------------------------

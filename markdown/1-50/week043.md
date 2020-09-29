@@ -336,4 +336,3 @@ predictions of the loop-representation formulation of quantum gravity on
 the outcomes of (hypothetical) Planck-scale sensitive measurements of
 the geometry of space.
 
-------------------------------------------------------------------------

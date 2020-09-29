@@ -100,7 +100,7 @@ see:
 Octonions were invented by Cayley later on in the 1800s. For these, we
 start with *seven* square roots of $-1$, say $e_1$ up to $e_7$. To learn how
 multiply these, draw the following diagram:
-$$\includegraphics[max width=0.8\linewidth]{../images/fano.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/fano.jpg}$$
 Draw a triangle, draw a line from each vertex to the midpoint of the
 opposite edge, and inscribe a circle in the triangle. Label the 7 points
 shown with $e_1$ through $e_7$ --- it doesn't matter how, I've just drawn
@@ -416,4 +416,3 @@ and he writes:
 >
 > Robert
 
-------------------------------------------------------------------------

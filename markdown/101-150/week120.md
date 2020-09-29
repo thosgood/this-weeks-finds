@@ -264,4 +264,3 @@ up really carefully so that everyone can understand it," but then this
 turns out to be so much work that by the time I'm halfway through I'm
 off on some other kick.
 
-------------------------------------------------------------------------

@@ -378,4 +378,3 @@ monoidal categories, and much much more in here:
 
 To continue reading the "Tale of $n$-Categories", see ["Week 84"](#week84).
 
-------------------------------------------------------------------------

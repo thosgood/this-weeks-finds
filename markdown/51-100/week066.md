@@ -287,4 +287,3 @@ second one below:
 > formulas of the affine Kac-Moody algebras give the Macdonald
 > identities.
 
-------------------------------------------------------------------------

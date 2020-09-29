@@ -340,4 +340,3 @@ explaining this now, we'd be here all night.
 
 Also sometime I should say more about how to construct $EG$.
 
-------------------------------------------------------------------------

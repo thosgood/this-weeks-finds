@@ -327,4 +327,3 @@ quite similar to our spin foam calculations: you take a manifold,
 triangulate it, label it in various ways and compute an amplitude for
 each labelling....
 
-------------------------------------------------------------------------

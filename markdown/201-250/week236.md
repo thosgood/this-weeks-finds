@@ -103,7 +103,7 @@ the previous page. You can tell a nice long story with an $\omega$-sized book.
 But it would be even more fun to have an encyclopedia with $\omega$ volumes,
 each being an $\omega$-sized book, each half as thick as the previous volume.
 Then you have $\omega^2$ pages --- and it can still fit in one bookshelf!
-$$\includegraphics[max width=0.8\linewidth]{../images/omega_squared.png}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/omega_squared.png}$$
 
 What comes next? Well, we have
 $$\omega^2+1, \omega^2+2, \ldots$$
@@ -660,7 +660,7 @@ Oxyrhynchus (see ["Week 221"](#week221)), and a couple more in the
 Fayum region near the Nile. All these were written centuries after
 Euclid died. Here's one from Oxyrhynchus, photographed by Bill
 Casselman, who kindly let me include this picture:
-$$\includegraphics[max width=0.8\linewidth]{../images/euclid_oxyrhynchus.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/euclid_oxyrhynchus.jpg}$$
 What math is being discussed here? What's that red "29" doing there?
 For the answer to these and other questions, check out his website!
 
@@ -822,7 +822,7 @@ I replied:
 > also write a computer program that lists the fractions in this set.
 >
 > It's pretty obvious how to do this for $\omega^2$:
-> $$\includegraphics[max width=0.8\linewidth]{../images/omega_squared.png}$$
+> $$\includegraphics[max width=0.65\linewidth]{../images/omega_squared.png}$$
 > But you can do it for any one of the ordinals I mentioned! David
 > Madore has drawn a picture of $\varepsilon_0$, for example.
 >

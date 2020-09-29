@@ -221,7 +221,7 @@ right answer. It turns out the right answer is zero. Why? Because the
 
 As you may know, Euler lived in Königsberg, a city with lots of islands
 and bridges:
-$$\href{http://www.matheory.info/konigsberg/}{\includegraphics[max width=0.8\linewidth]{../images/bridges_of_konigsberg.png}}$$
+$$\href{http://www.matheory.info/konigsberg/}{\includegraphics[max width=0.65\linewidth]{../images/bridges_of_konigsberg.png}}$$
 In fact, he published a paper in 1736 showing that you can't walk
 around Königsberg and cross each bridge exactly once, winding up where
 you started. My crazy theory is that living there also helped him invent
@@ -580,4 +580,3 @@ We're still just learning to count.
 **Addendum:** For more discussion, go to the
 [$n$-Category Café](http://golem.ph.utexas.edu/category/2007/02/this_weeks_finds_in_mathematic_5.html).
 
-------------------------------------------------------------------------

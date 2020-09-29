@@ -276,4 +276,3 @@ on Brougham Bridge commemorating his discovery of the quaternions:
 
 9) John Baez, Brougham Bridge, `http://math.ucr.edu/home/baez/octonions/node24.html`
 
-------------------------------------------------------------------------

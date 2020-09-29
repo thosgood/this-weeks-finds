@@ -59,7 +59,7 @@ reflections, is called the "Klein 4-group":
 
 He is also known for some other groups called "Kleinian groups", which
 act as symmetries of fractal patterns like this:
-$$\href{http://www.josleys.com/showpic.php?file=INDRA065.jpg&title=Indra20}{\includegraphics[max width=0.8\linewidth]{../images/INDRA065.jpg}}$$
+$$\href{http://www.josleys.com/showpic.php?file=INDRA065.jpg&title=Indra20}{\includegraphics[max width=0.65\linewidth]{../images/INDRA065.jpg}}$$
 
 2) Jos Leys, "Kleinian Pages", `http://www.josleys.com/creatures42.htm`
 

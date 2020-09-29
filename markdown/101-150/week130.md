@@ -360,4 +360,3 @@ rather than light:
 
 Thanks go to Jim Carr for pointing this out.
 
-------------------------------------------------------------------------

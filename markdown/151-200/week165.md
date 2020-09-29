@@ -163,4 +163,3 @@ They're both pretty cool. How does a theory of matrices wind up acting
 like a theory of membranes? That's what you'll understand if you study
 this stuff.
 
-------------------------------------------------------------------------

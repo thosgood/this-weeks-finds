@@ -450,4 +450,3 @@ the Pappus theorem in quaternionic projective space:
 *The reader should not attempt to form a mental picture of a closed
 straight line.* --- Frank Ayres, Jr., Projective Geometry
 
-------------------------------------------------------------------------

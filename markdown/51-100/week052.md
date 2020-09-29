@@ -254,4 +254,3 @@ better-behaved as far as the TQFT axioms go.
 If anyone actually does anything interesting with these ideas I'd very
 much appreciate hearing about it.
 
-------------------------------------------------------------------------

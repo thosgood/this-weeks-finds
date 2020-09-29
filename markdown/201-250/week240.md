@@ -12,7 +12,7 @@ it now:
 There's a lot of tricky physics in this business. Consider, for
 example, this graph of cycles governing the Earth's precession, the
 obliquity of its orbit, and the eccentricity of its orbit:
-$$\includegraphics[max width=0.8\linewidth]{../images/Milankovitch_Variations.png}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/Milankovitch_Variations.png}$$
 
 2) Wikipedia, "Milankovitch cycles", `http://en.wikipedia.org/wiki/Milankovitch_cycles`
 
@@ -236,7 +236,7 @@ games.
 
 In Star Trek, the "holodeck" is a virtual reality environment where
 you can play various games:
-$$\href{http://www.startrek.com/startrek/view/library/technology/article/105222.html}{\includegraphics[max width=0.8\linewidth]{../images/holodeck.jpg}}$$
+$$\href{http://www.startrek.com/startrek/view/library/technology/article/105222.html}{\includegraphics[max width=0.65\linewidth]{../images/holodeck.jpg}}$$
 On the holodeck, if you regret a move you made, you can back up to any
 earlier point in the game and make a new move.
 

@@ -17,7 +17,7 @@ Raymond Laflamme gave me a fun tour of the labs, especially the setup
 where he's using nuclear magnetic resonance to control the spins of
 three carbon-13 nuclei in a substance called malonic acid. Each molecule
 is its own little quantum computer:
-$$\includegraphics[max width=0.8\linewidth]{../images/malonic_acid.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/malonic_acid.jpg}$$
 This picture was drawn by Osama Moussa, a grad student working with
 Laflamme on this project. The black spheres are carbons, the whites are
 hydrogens and the blues are oxygens.
@@ -65,7 +65,7 @@ Eventually they want to send them from satellites down to the Earth. But
 as a warmup, they'll send beams of entangled photons from an
 intermediate building to the Institute of Quantum Computing and the
 Perimeter Institute.
-$$\href{http://www.iqc.ca/laboratories/peg/free_space.php}{\includegraphics[max width=0.8\linewidth]{../images/cryptomap.png}}$$
+$$\href{http://www.iqc.ca/laboratories/peg/free_space.php}{\includegraphics[max width=0.65\linewidth]{../images/cryptomap.png}}$$
 
 4) IQC, "Free-space quantum key distribution", `http://www.iqc.ca/laboratories/peg/free_space.php`
 
@@ -634,4 +634,3 @@ The issue of heat dissipation in such devices is also studied here:
 
 I need to think about this stuff more!
 
-------------------------------------------------------------------------

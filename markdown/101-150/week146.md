@@ -229,4 +229,3 @@ group.
 
     Martin Bojowald, "Loop Quantum Cosmology II: Volume Operators", [`gr-qc/9910104`](https://arxiv.org/abs/gr-qc/9910104).
 
-------------------------------------------------------------------------

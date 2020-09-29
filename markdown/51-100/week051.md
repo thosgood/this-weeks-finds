@@ -242,4 +242,3 @@ homology. Now actually there are a lot of subtleties here I'm
 deliberately sloughing over. Read Blau and Thompson's paper for some of
 them --- and read the references for more!
 
-------------------------------------------------------------------------

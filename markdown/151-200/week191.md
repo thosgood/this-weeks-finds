@@ -575,4 +575,3 @@ arguments of $a$, $b$, and $c$ and then compose the resulting operation with $d$
 
 I hope in some future edition they'll be able to correct this mistake.
 
-------------------------------------------------------------------------

@@ -313,4 +313,3 @@ Robert Israel's answer to my puzzle about the Kochen-Specker theorem:
 > University of British Columbia
 > Vancouver, BC, Canada V6T 1Z2
 
-------------------------------------------------------------------------

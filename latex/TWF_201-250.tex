@@ -8,7 +8,7 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 
-\usepackage{geometry}
+\usepackage[margin=1.6in]{geometry}
 
 \usepackage{amsmath,amssymb}
 \usepackage[colorlinks=true]{hyperref}
@@ -55,13 +55,8 @@
 \usepackage[T1,OT1]{fontenc}
 \renewcommand{\dh}{\fontencoding{T1}\selectfont{\symbol{240}}}
 
-\usepackage[framemethod=TikZ]{mdframed}
-\surroundwithmdframed[
-   topline=false,
-   bottomline=false,
-   skipabove=\topsep,
-   skipbelow=\topsep
-]{quote}
+\usepackage{etoolbox}
+\AtBeginEnvironment{quote}{\itshape}
 
 \usepackage{tikz-cd}
 
@@ -1428,16 +1423,16 @@ on the \(n\)-Category Café about the ``seven trees in one'' problem. Let
 \(T(1)\) above. Starting from the isomorphism \[B \cong B^2 + 1\] we
 want to construct an isomorphism \[B \cong B^7\] Here is the proof in
 Marcelo Fiore's paper:
-\[\includegraphics[max width=0.8\linewidth]{../images/seven_trees_in_one_fiore.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/seven_trees_in_one_fiore.jpg}\]
 At each step he either replaces \(B^n\) by \(B^{n-1} + B^{n+1}\), or the
 reverse. The underlined portion shows where this will be done. Over at
 the \emph{n}-Café, Stuart Presnell made a beautiful picture of this
 proof:
-\[\includegraphics[max width=0.8\linewidth]{../images/seven_trees_in_one_presnell_fiore.png}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/seven_trees_in_one_presnell_fiore.png}\]
 He also made a picture of another proof, which is on page 29 of Pierre
 Ageron's book Logiques, Ensembles, Catgories: Le Point de Vue
 Constructif:
-\[\includegraphics[max width=0.8\linewidth]{../images/seven_trees_in_one_presnell_bell.png}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/seven_trees_in_one_presnell_bell.png}\]
 You can watch a \emph{movie} of a proof here:
 
 \begin{enumerate}
@@ -2210,401 +2205,430 @@ Stephen Schanuel said some things about
 list, so I'll include his post here along with various replies,
 concluding with my own.
 
-\begin{verbatim}
-From:   Stephen Schanuel 
-Subject: categories: mystification and categorification
-Date:   Thu, 4 Mar 2004 00:44:46 -0500  
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-    I was unable to understand John Baez' golden object problem, nor his
-description of the solutions.  He refuses to tell us what 'nice' means,
-but let me at least propose that to be 'tolerable' a solution must be an
+\begin{quote}
+From: Stephen Schanuel Subject: categories: mystification and
+categorification Date: Thu, 4 Mar 2004 00:44:46 -0500
+
+I was unable to understand John Baez' golden object problem, nor his
+description of the solutions. He refuses to tell us what `nice' means,
+but let me at least propose that to be `tolerable' a solution must be an
 object in a category, and John doesn't tell us what category is involved
 in either of the solutions; at least I couldn't find a specification of
-the objects, nor the maps, so I found the descriptions 'intolerable', in
-the technical sense defined above.  He is very generous, allowing one to
+the objects, nor the maps, so I found the descriptions `intolerable', in
+the technical sense defined above. He is very generous, allowing one to
 use a category with both plus and times as extra monoidal structures.
 (Does anyone know an example of interest in which the plus is not
-coproduct?)  This freedom is unnecessary; a little algebra plus Robbie
-Gates' theorem provides a solution G to G^2=G+1 which satisfies no
-additional equations, in an extensive category (with coproduct as plus,
-cartesian product as times).
-    Briefly, here it is.  A primitive fifth root of unity z is a root of
-the polynomial 1+X+X^2+X^3+X^4, hence satisfies 1+z+z^2+z^3+z^4+z=z,
-which is of the 'fixed point' form p(z)=z with p in N[X] and p(0) not
-0. Gates' theorem then says that the free distributive category
-containing an object Z and an isomorphism from p(Z) to Z is extensive,
-and its Burnside rig B (of isomorphism classes of objects) is, as one
-would hope, N[X]/(p(X)=X); that is, Z satisfies no unexpected
-equations. Since the degree of p is greater than 1, an easy general
-theorem tells us (from the joint injectivity of the Euler and dimension
-homomorphisms) that two polynomials agree at the object Z if and only if
-either they are the same polynomial or both are non-constant and they
-agree at the number z.Now the 'algebra':  the golden number is 1+z+z^4.
-So G=1+Z+Z^4 satisfies G^2=G+1, as desired. It satisfies no
-unexpected equations, because the relation X^2=X+1 reduces any
-polynomial in N[X] to a linear polynomial, and these reduced forms have
-distinct Euler characteristics, i.e. differ at z. Thus the homomorphism
-from N[X]/(X^2=X+1) to B (sending X to G) is injective, and that's all
-I wanted.
-    Since in the category of sets, any nasty old infinite set satisfies
-the golden equation and many others, I have taken the liberty of
-interpreting  'nice' to mean at least 'satisfying no unexpected
+coproduct?) This freedom is unnecessary; a little algebra plus Robbie
+Gates' theorem provides a solution \(G\) to \(G^2=G+1\) which satisfies
+no additional equations, in an extensive category (with coproduct as
+plus, cartesian product as times).
+
+Briefly, here it is. A primitive fifth root of unity \(z\) is a root of
+the polynomial \(1+X+X^2+X^3+X^4\), hence satisfies
+\(1+z+z^2+z^3+z^4+z=z\), which is of the `fixed point' form \(p(z)=z\)
+with \(p\) in \(\mathbb{N}[X]\) and \(p(0)\) not \(0\). Gates' theorem
+then says that the free distributive category containing an object \(Z\)
+and an isomorphism from \(p(Z)\) to \(Z\) is extensive, and its Burnside
+rig \(B\) (of isomorphism classes of objects) is, as one would hope,
+\(\mathbb{N}[X]/(p(X)=X)\); that is, \(Z\) satisfies no unexpected
+equations. Since the degree of \(p\) is greater than \(1\), an easy
+general theorem tells us (from the joint injectivity of the Euler and
+dimension homomorphisms) that two polynomials agree at the object \(Z\)
+if and only if either they are the same polynomial or both are
+non-constant and they agree at the number \(z\). Now the `algebra': the
+golden number is \(1+z+z^4\). So \(G=1+Z+Z^4\) satisfies \(G^2=G+1\), as
+desired. It satisfies no unexpected equations, because the relation
+\(X^2=X+1\) reduces any polynomial in \(\mathbb{N}[X]\) to a linear
+polynomial, and these reduced forms have distinct Euler characteristics,
+i.e.~differ at \(z\). Thus the homomorphism from
+\(\mathbb{N}[X]/(X^2=X+1)\) to \(B\) (sending \(X\) to \(G\)) is
+injective, and that's all I wanted.
+
+Since in the category of sets, any nasty old infinite set satisfies the
+golden equation and many others, I have taken the liberty of
+interpreting `nice' to mean at least `satisfying no unexpected
 equations'. One could ask for more; the construction above has produced
 a distributive, but not extensive, category whose Burnside rig is
-N[X]/(X^2=X+1), the full subcategory with objects polynomials in G.
-(If it were extensive, it would be closed under taking summands, but
-every object in the larger category is a summand of G.) I don't know
-whether there is an extensive category with N[X]/(X^2=X+1) as its full
-Burnside rig; perhaps one or both of the examples John mentioned would
-do, if I knew what they were.
-    While I'm airing my confusions, can anyone tell me what
-'categorification' means? I don't know any such process; the simplest
-exanple, 'categorifying' natural numbers to get finite sets, seems to me
-rather 'remembering the finite sets and maps which gave rise to natural
+\(\mathbb{N}[X]/(X^2=X+1)\), the full subcategory with objects
+polynomials in \(G\). (If it were extensive, it would be closed under
+taking summands, but every object in the larger category is a summand of
+\(G\).) I don't know whether there is an extensive category with
+\(\mathbb{N}[X]/(X^2=X+1)\) as its full Burnside rig; perhaps one or
+both of the examples John mentioned would do, if I knew what they were.
+
+While I'm airing my confusions, can anyone tell me what
+`categorification' means? I don't know any such process; the simplest
+exanple, `categorifying' natural numbers to get finite sets, seems to me
+rather `remembering the finite sets and maps which gave rise to natural
 numbers by the abstraction of passing to isomorphism classes'.
-   Finally, a note to John: While you're trying to give your audience
-some feeling for the virtues of $n$-categories, couldn't you give them a
-little help with n=1, by being a little more precise about objects and
-maps?
-   Greetings to all, and thanks for your patience while I got this stuff
+
+Finally, a note to John: While you're trying to give your audience some
+feeling for the virtues of \(n\)-categories, couldn't you give them a
+little help with \(n=1\), by being a little more precise about objects
+and maps?
+
+Greetings to all, and thanks for your patience while I got this stuff
 off my chest,
-   Steve Schanuel
 
+Steve Schanuel
+\end{quote}
 
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
+\begin{quote}
+From: David Yetter Subject: categories: Re: mystification and
+categorification Date: Fri, 5 Mar 2004 10:55:26 -0600
 
+Categorification is a bit like quantization: it isn't a construction so
+much as a desideratum for a relationship between one thing and another
+(in the case of categorification an \((n+1)\)-categorical structure and
+an \(n\)-categorical structure; in the case of quantization a quantum
+mechanical system and a classical mechanical system).
 
-From:    David Yetter 
-Subject: categories: Re: mystification and categorification
-Date:    Fri, 5 Mar 2004 10:55:26 -0600 
+Categorification wants to find a higher-dimensional categorical
+structure corresponding to a lower-dimensional one by weakening
+equations to natural isomorphisms and imposing new, sensible, coherence
+conditions. In general, for the original purpose for which it was
+proposed--constructions of TQFT's and models of quantum gravity--one
+wants the highest categorical level to have a linear structure (hence
+Baez wanting tensor product and a sum it distributes over, rather than
+cartesian product and coproduct). Specific lower-dimensional categories
+with structure are `categorified' by finding a higher-dimensional
+category with the new structure which `lies over' the lower dimensional
+one in the way an additive monoidal category lies over its Grothendieck
+rig.
 
-Categorification is a bit like quantization:  it isn't a construction so much
-as a desideratum for a relationship between one thing and another (in the
-case of categorification an $(n+1)$-categorical structure and an $n$-categorical
-structure; in the case of quantization a quantum mechanical system and
-a classical mechanical system).
+For instance any (\(k\)-linear) monoidal category with monoid of
+isomorphism classes \(M\) is a categorification of \(M\), and more
+generally (\(k\)-linear) monoidal categories are a categorification of
+monoids.
 
-Categorification wants to find a higher-dimensional categorical structure
-corresponding to a lower-dimensional one by weakening equations to
-natural isomorphisms and imposing new, sensible, coherence conditions.
-In general, for the original purpose for which it was proposed--constructions
-of TQFT's and models of quantum gravity--one wants the highest categorical
-level to have a linear structure (hence Baez wanting tensor product
-and a sum it distributes over, rather than cartesian product and coproduct).
-Specific lower-dimensional categories with structure are 'categorified' by
-finding a higher-dimensional category with the new structure which 'lies over'
-the lower dimensional one in the way an additive monoidal category lies
-over its Grothendieck rig.
-
-For instance any (k-linear) monoidal category with monoid of isomorphism
-classes M is a categorification of M, and more generally (k-linear) monoidal
-categories are a categorification of monoids.
-
-A simple example shows why it is not a construction:  commutative monoids
+A simple example shows why it is not a construction: commutative monoids
 (as rather special categories with one object) admit two different
-categorifications:  symmetric monoidal categories and braided monoidal
+categorifications: symmetric monoidal categories and braided monoidal
 categories (each regarded as a kind of bicategory with one object).
-There is a good argument for regarding braided monoidal categories
-as the 'correct' categorification:  the Eckmann-Hilton theorem ('a group
-in GROUPS is an abelian group'  or, really as the proof shows, 'a monoid
-in MONOIDS is a commutative monoid') 'categorifies' to: A monoidal category
-in MONCAT is a braided monoidal category.
+There is a good argument for regarding braided monoidal categories as
+the `correct' categorification: the Eckmann-Hilton theorem (`a group in
+\(\mathsf{GROUPS}\) is an abelian group' or, really as the proof shows,
+`a monoid in \(\mathsf{MONOIDS}\) is a commutative monoid')
+`categorifies' to: A monoidal category in \(\mathsf{MONCAT}\) is a
+braided monoidal category.
+\end{quote}
 
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
+\begin{quote}
+From: Vaughan Pratt Subject: categories: Re: mystification and
+categorification Date: Fri, 05 Mar 2004 22:49:56 -0800
 
+\begin{quote}
+While I'm airing my confusions, can anyone tell me what
+`categorification' means? I don't know any such process; the simplest
+exanple, `categorifying' natural numbers to get finite sets, seems to me
+rather `remembering the finite sets and maps which gave rise to natural
+numbers by the abstraction of passing to isomorphism classes'.
+\end{quote}
 
-
-From:    Vaughan Pratt 
-Subject: categories: Re: mystification and categorification
-Date:    Fri, 05 Mar 2004 22:49:56 -0800    
-
->While I'm airing my confusions, can anyone tell me what
->'categorification' means? I don't know any such process; the simplest
->exanple, 'categorifying' natural numbers to get finite sets, seems to me
->rather 'remembering the finite sets and maps which gave rise to natural
->numbers by the abstraction of passing to isomorphism classes'.
-
-A fair question.  I attended John's Coimbra lectures on this stuff in 1999
-but a lot of it leaked out afterwards.  If I had to guess I'd say he was
-categorifying the free monoid on one generator to make it a monoidal category,
-but then how did the monoid end up as coproduct and the generator as the
-final object?  One suspects some free association there---John, how do
-you make that connection?
+A fair question. I attended John's Coimbra lectures on this stuff in
+1999 but a lot of it leaked out afterwards. If I had to guess I'd say he
+was categorifying the free monoid on one generator to make it a monoidal
+category, but then how did the monoid end up as coproduct and the
+generator as the final object? One suspects some free association there
+--- John, how do you make that connection?
 
 With regard to categorification in general, sets seem to play a central
-role in at least one development of category theory.  The homobjects of
-"ordinary" categories are homsets.  (In that sense I guess "ordinary" must
-entail "locally small.")  $2$-categories are what you get if instead you let
-them be homcats, suitably elaborated.
+role in at least one development of category theory. The homobjects of
+``ordinary'' categories are homsets. (In that sense I guess ``ordinary''
+must entail ``locally small.'') \(2\)-categories are what you get if
+instead you let them be homcats, suitably elaborated.
 
-Going in the other direction, if you take homsets to be vacuous, not
-in the sense that they are empty but rather that they are all the same,
-then you get sets.  One more step in that direction makes everything look
+Going in the other direction, if you take homsets to be vacuous, not in
+the sense that they are empty but rather that they are all the same,
+then you get sets. One more step in that direction makes everything look
 the same, which may have something to do with the Maharishi Yogi hiring
-category theorists for the math dept. of his university in Fairfield, Iowa.
-(When I spoke last with the MY's "Minister of World Health," an MD who like
-Ross Street was a classmate of mine but eight years earlier starting in 1957,
-the entire conversation seemed to be largely a skirting of the minefield
-of the sameness of everything, which may subconsciously have been behind my
-obscure reply to Peter Freyd's posting a while back about unique existence
-going back to Descartes, where I tried to one-up him by claiming it went
-much further back.)
+category theorists for the math dept. of his university in Fairfield,
+Iowa. (When I spoke last with the MY's ``Minister of World Health,'' an
+MD who like Ross Street was a classmate of mine but eight years earlier
+starting in 1957, the entire conversation seemed to be largely a
+skirting of the minefield of the sameness of everything, which may
+subconsciously have been behind my obscure reply to Peter Freyd's
+posting a while back about unique existence going back to Descartes,
+where I tried to one-up him by claiming it went much further back.)
 
-Categorification isn't the only way to get to $2$-categories, which can be
-understood instead in terms of the interchange law as a two-dimensional
-associativity principle.  However John has got a lot of mileage out of
-the categorification approach, which one can't begrudge in an era where
-mileage and minutes are as integral to a balanced life as one's checkbook.
-(Q: How many minutes in a month?  A: Depends on your plan.)
+Categorification isn't the only way to get to \(2\)-categories, which
+can be understood instead in terms of the interchange law as a
+two-dimensional associativity principle. However John has got a lot of
+mileage out of the categorification approach, which one can't begrudge
+in an era where mileage and minutes are as integral to a balanced life
+as one's checkbook. (Q: How many minutes in a month? A: Depends on your
+plan.)
 
->Since in the category of sets, any nasty old infinite set satisfies
->the golden equation and many others, I have taken the liberty of
->interpreting 'nice' to mean at least 'satisfying no unexpected
->equations'.
+\begin{quote}
+Since in the category of sets, any nasty old infinite set satisfies the
+golden equation and many others, I have taken the liberty of
+interpreting `nice' to mean at least `satisfying no unexpected
+equations'.
+\end{quote}
 
-Quite right.  I would add to this "and satisfying the expected equations."
-The "nasty sets" of which Steve speaks fail to satisy such expected
-equations as 2^2X ~ X.  (The power set of a set is a Boolean algebra,
-for heaven's sake.  Why on earth forget that structure prior to taking the
-second exponentiation?  \mathsf{Set} theorists seem to think that they can simply
-forget structure without paying for it, but in the real world it costs
-kT/2 joules per element of X to forget that structure.  If set theorists
-aren't willing to pay real-world prices in their modeling, why should we
-taxpayers pay them real-world salaries?  Large cardinals are a figment of
-their overactive imaginations, and the solution to consistency concerns is
-not to go there.)
+Quite right. I would add to this ``and satisfying the expected
+equations.'' The ``nasty sets'' of which Steve speaks fail to satisy
+such expected equations as \(2^{2^X} \sim X\). (The power set of a set
+is a Boolean algebra, for heaven's sake. Why on earth forget that
+structure prior to taking the second exponentiation? Set theorists seem
+to think that they can simply forget structure without paying for it,
+but in the real world it costs \(kT/2\) joules per element of \(X\) to
+forget that structure. If set theorists aren't willing to pay real-world
+prices in their modeling, why should we taxpayers pay them real-world
+salaries? Large cardinals are a figment of their overactive
+imaginations, and the solution to consistency concerns is not to go
+there.)
 
 Vaughan Pratt
+\end{quote}
 
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
+\begin{quote}
+From: Tom Leinster Subject: Re: categories: mystification and
+categorification Date: 07 Mar 2004 20:50:39 +0000
 
-
-
-From: Tom Leinster 
-Subject: Re: categories: mystification and categorification
-Date: 07 Mar 2004 20:50:39 +0000
-
-Steve Schanuel wrote:
-> a category with both plus and times as extra monoidal structures.
-> (Does anyone know an example of interest in which the plus is not
-> coproduct?) 
+Steve Schanuel wrote: \textgreater{} a category with both plus and times
+as extra monoidal structures. \textgreater{} (Does anyone know an
+example of interest in which the plus is not \textgreater{} coproduct?)
 
 Here are two examples that I've come across previously of rig categories
 in which the plus is not coproduct:
 
-(i) the category of finite sets and bijections, with + and x inherited
-from the category of sets;
+\begin{enumerate}
+\def\labelenumi{(\roman{enumi})}
+\item
+  the category of finite sets and bijections, with \(+\) and \(\times\)
+  inherited from the category of sets;
+\item
+  discrete rig categories, which are of course the same thing as rigs.
+\end{enumerate}
 
-(ii) discrete rig categories, which are of course the same thing as
-rigs.
-
-> This freedom is unnecessary; a little algebra plus Robbie
-> Gates' theorem provides a solution G to  G^2=G+1 which satisfies no
-> additional equations, in an extensive category (with coproduct as plus,
-> cartesian product as times).
+\begin{quote}
+This freedom is unnecessary; a little algebra plus Robbie Gates' theorem
+provides a solution \(G\) to \(G^2=G+1\) which satisfies no additional
+equations, in an extensive category (with coproduct as plus, cartesian
+product as times).
+\end{quote}
 
 If you do allow yourself the freedom to use any rig category then an
 even simpler solution exists, also satisfying no additional equations:
-just take the rig freely generated by an element G satisfying G^2 = G +
-1 and regard it as a discrete rig category.
+just take the rig freely generated by an element \(G\) satisfying
+\(G^2 = G + 1\) and regard it as a discrete rig category.
 
->     Since in the category of sets, any nasty old infinite set satisfies
-> the golden equation and many others, I have taken the liberty of
-> interpreting  'nice' to mean at least 'satisfying no unexpected
-> equations'.
+\begin{quote}
+Since in the category of sets, any nasty old infinite set satisfies the
+golden equation and many others, I have taken the liberty of
+interpreting `nice' to mean at least `satisfying no unexpected
+equations'.
+\end{quote}
 
-I'd interpret "nice" differently.  (Apart from anything else, the
+I'd interpret ``nice'' differently. (Apart from anything else, the
 trivial example in my previous paragraph would otherwise make the golden
-object problem uninteresting.)  "Nice" as I understand it is not a
-precise term - at least, I don't know how to make it precise.  Maybe I
-can explain my interpretation by analogy with the equation T = 1 + T^2. 
-A nice solution T would be the set of finite, binary, planar trees
-together with the usual isomorphism T -~-> 1 + T^2; a nasty solution
-would be a random infinite set T with a random isomorphism to 1 + T^2. 
-(Both these solutions are in the rig category \mathsf{Set} with its standard +
-and x.)  I regard the first solution as nice because I can see some
-combinatorial content to it (and maybe, at the back of my mind, because
-it has a constructive feel), and the second as nasty because I can't. 
-I'm not certain what I think of the solution given by the set of
+object problem uninteresting.) ``Nice'' as I understand it is not a
+precise term --- at least, I don't know how to make it precise. Maybe I
+can explain my interpretation by analogy with the equation
+\(T = 1 + T^2\). A nice solution \(T\) would be the set of finite,
+binary, planar trees together with the usual isomorphism
+\(T\xrightarrow{\sim}1 + T^2\); a nasty solution would be a random
+infinite set \(T\) with a random isomorphism to \(1 + T^2\). (Both these
+solutions are in the rig category \(\mathsf{Set}\) with its standard
+\(+\) and \(\times\).) I regard the first solution as nice because I can
+see some combinatorial content to it (and maybe, at the back of my mind,
+because it has a constructive feel), and the second as nasty because I
+can't. I'm not certain what I think of the solution given by the set of
 not-necessarily-finite binary planar trees (nice?), or by the set of
-binary planar trees of cardinality at most aleph_5 (probably nasty).
+binary planar trees of cardinality at most \(\aleph_5\) (probably
+nasty).
 
-Maybe the finding of a "nice" solution is similar in spirit to the
-finding of a "concrete interpretation" of a combinatorial identity.  As
+Maybe the finding of a ``nice'' solution is similar in spirit to the
+finding of a ``concrete interpretation'' of a combinatorial identity. As
 an extremely simple example, consider the identity saying that each
 entry in Pascal's triangle is the sum of the two above it,
+\[\binom{n+1}{r} = \binom{n}{r-1} + \binom{n}{r}.\] This is a doddle to
+prove, but all the same you'd be missing something if you didn't know
+the standard ``concrete interpretation'': choosing \(r\) objects out of
+\(n+1\) objects amounts to EITHER choosing the first one and then
+choosing \(r-1\) of the remaining \(n\) OR \ldots{} . Even if the
+challenge of finding a ``nice solution'' or ``concrete interpretation''
+isn't made precise, I think there is a shared sense of what would count
+as an answer, and finding an answer is in general not straightforward.
 
-   (n+1 choose r) = (n choose r-1) + (n choose r).
+Best wishes, Tom
+\end{quote}
 
-This is a doddle to prove, but all the same you'd be missing something
-if you didn't know the standard "concrete interpretation": choosing r
-objects out of n+1 objects amounts to EITHER choosing the first one and
-then choosing r-1 of the remaining n OR ... .  Even if the challenge of
-finding a "nice solution" or "concrete interpretation" isn't made
-precise, I think there is a shared sense of what would count as an
-answer, and finding an answer is in general not straightforward.
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-Best wishes,
-Tom
+\begin{quote}
+From: John Baez Subject: golden objects Date: Sun, 7 Mar 2004 12:50:29
+-0800 (PST)
 
+Dear Categorists ---
 
-
-
-
-From: John Baez
-Subject: golden objects
-Date: Sun, 7 Mar 2004 12:50:29 -0800 (PST)
-
-Dear Categorists -
-
-Sorry to take a while to respond.  People at UCR have been unable to
+Sorry to take a while to respond. People at UCR have been unable to
 receive posts on the category theory mailing list, due to problems with
-our internet connection.  
+our internet connection.
 
-I'd asked for some nice examples of an object G in a rig category
-equipped with an isomorphism from G^2 to G + 1.  Steve Schanuel replied:
+I'd asked for some nice examples of an object \(G\) in a rig category
+equipped with an isomorphism from \(G^2\) to \(G + 1\). Steve Schanuel
+replied:
 
->I was unable to understand John Baez' golden object problem, nor his
->description of the solutions.  He refuses to tell us what 'nice' means, [...]
+\begin{quote}
+I was unable to understand John Baez' golden object problem, nor his
+description of the solutions. He refuses to tell us what `nice' means,
+{[}\ldots{]}
+\end{quote}
 
-The problem was deliberately open-ended, but you seem to have 
-understood it perfectly, since you've given a nice solution, 
-including a precise specification of what you consider "nice".  
+The problem was deliberately open-ended, but you seem to have understood
+it perfectly, since you've given a nice solution, including a precise
+specification of what you consider ``nice''.
 
 Let me repeat the two solutions given by Robin Houston:
 
-1) The first solution works in any rig category having an object H 
-equipped with an isomorphism to H^2 + 4H + 1.  The solution is to take
-
-G = H + 2.
-
-I described how Houston uses the isomorphism H \to H^2 + 4H + 1 to 
-construct an isomorphism G^2 \to G + 1.  
-
-What's nice about this is that it reduces a problem that's not 
-obviously of fixed-point form to one that is.
-
-2) Houston's second solution works in any monoidal cocomplete category, 
-tensor product distributing over colimits, that contains an object X 
-equipped with an isomorphism to 2X + 1.  The solution is to let G be 
-the object of "binary planar rooted trees with X-labelled leaves", i.e.
-
-G = X + X^2 + 2X^3 + 5X^4 + 14X^5 + 42X^6 + ...
-
-where the coefficients are Catalan numbers.  He uses the obvious 
-isomorphism G \to G^2 + X to construct an isomorphism G^2 \to G + 1.
-
-What's nice about this is that it shows Propp's originally proposed
-golden object really is one: just take the category of $\sigma$-polytopes 
-with its cartesian product, and let X be the open interval!  And,
-it makes precise the sense in which the alternating sum of Catalan
-numbers equals the golden ratio.
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\item
+  The first solution works in any rig category having an object \(H\)
+  equipped with an isomorphism to \(H^2 + 4H + 1\). The solution is to
+  take \[G = H + 2.\] I described how Houston uses the isomorphism
+  \(H \to H^2 + 4H + 1\) to construct an isomorphism \(G^2 \to G + 1\).
+  What's nice about this is that it reduces a problem that's not
+  obviously of fixed-point form to one that is.
+\item
+  Houston's second solution works in any monoidal cocomplete category,
+  tensor product distributing over colimits, that contains an object
+  \(X\) equipped with an isomorphism to \(2X + 1\). The solution is to
+  let \(G\) be the object of ``binary planar rooted trees with
+  \(X\)-labelled leaves'', i.e.
+  \[G = X + X^2 + 2X^3 + 5X^4 + 14X^5 + 42X^6 + \ldots\] where the
+  coefficients are Catalan numbers. He uses the obvious isomorphism
+  \(G \to G^2 + X\) to construct an isomorphism \(G^2 \to G + 1\).
+  What's nice about this is that it shows Propp's originally proposed
+  golden object really is one: just take the category of
+  \(\sigma\)-polytopes with its cartesian product, and let \(X\) be the
+  open interval! And, it makes precise the sense in which the
+  alternating sum of Catalan numbers equals the golden ratio.
+\end{enumerate}
 
 Steve writes:
 
->I don't know whether there is an extensive category with N[X]/(X^2=X+1) 
->as its full Burnside rig; perhaps one or both of the examples John 
->mentioned would do, if I knew what they were.
+\begin{quote}
+I don't know whether there is an extensive category with
+\(\mathbb{N}[X]/(X^2=X+1)\) as its full Burnside rig; perhaps one or
+both of the examples John mentioned would do, if I knew what they were.
+\end{quote}
 
 I think example 1) does the job if we take the free distributive
-category on an object H equipped with an isomorphism to H^2 + 4H + 1.
-Right?
+category on an object H equipped with an isomorphism to
+\(H^2 + 4H + 1\). Right?
 
 Steve also writes:
 
->He is very generous, allowing one to use a category with both plus 
->and times as extra monoidal structures.  (Does anyone know an example 
->of interest in which the plus is not coproduct?)  This freedom is 
->unnecessary [...]
+\begin{quote}
+He is very generous, allowing one to use a category with both plus and
+times as extra monoidal structures. (Does anyone know an example of
+interest in which the plus is not coproduct?) This freedom is
+unnecessary {[}\ldots{]}
+\end{quote}
 
-It's unnecessary, but handy: I think there's also an golden object in 
-the rig category of reps of quantum \mathrm{SU}(2) at a suitable value of q.  
-Here the tensor product is not cartesian.  
+It's unnecessary, but handy: I think there's also an golden object in
+the rig category of reps of quantum \(\mathrm{SU}(2)\) at a suitable
+value of \(q\). Here the tensor product is not cartesian.
 
-In the lingo of quantum group theory, this object has "quantum dimension"
-equal to the golden number.  It's interesting how such nonintegral but 
-algebraic "dimensions" show up naturally in quantum group theory, 
-just as nonintegral but algebraic "cardinalities" show up in the theory 
-of distributive categories.  
+In the lingo of quantum group theory, this object has ``quantum
+dimension'' equal to the golden number. It's interesting how such
+nonintegral but algebraic ``dimensions'' show up naturally in quantum
+group theory, just as nonintegral but algebraic ``cardinalities'' show
+up in the theory of distributive categories.
 
-I don't know any golden objects in rig categories where the plus is
-not coproduct, and I agree that such rig categories arise less often
-than those where times is not product.  But, if you use the obvious 
-way of making the groupoid of finite sets into a rig category, + isn't 
-coproduct, nor is x product.  
+I don't know any golden objects in rig categories where the plus is not
+coproduct, and I agree that such rig categories arise less often than
+those where times is not product. But, if you use the obvious way of
+making the groupoid of finite sets into a rig category, \(+\) isn't
+coproduct, nor is \(\times\) product.
 
-> While I'm airing my confusions, can anyone tell me what
-> 'categorification' means? I don't know any such process; the simplest
-> exanple, 'categorifying' natural numbers to get finite sets, seems to me
-> rather 'remembering the finite sets and maps which gave rise to natural
-> numbers by the abstraction of passing to isomorphism classes'.
+\begin{quote}
+While I'm airing my confusions, can anyone tell me what
+`categorification' means? I don't know any such process; the simplest
+exanple, `categorifying' natural numbers to get finite sets, seems to me
+rather `remembering the finite sets and maps which gave rise to natural
+numbers by the abstraction of passing to isomorphism classes'.
+\end{quote}
 
-You're right: categorification is not a systematic process!  
-I explained this idea back in week121, and also in my paper
-"Categorification", at http://www.arXiv.org/abs/math.QA/9802029.  
-Here's what I said:
+You're right: categorification is not a systematic process! I explained
+this idea back in ``Week 121'', and also in my paper
+``Categorification'', at
+\texttt{http://www.arXiv.org/abs/math.QA/9802029}. Here's what I said:
 
- If one studies categorification one soon discovers an amazing fact: many
- deep-sounding results in mathematics are just categorifications of facts
- we learned in high school!  There is a good reason for this.  All along,
- we have been unwittingly `decategorifying' mathematics by pretending
- that categories are just sets.  We `decategorify' a category by
- forgetting about the morphisms and pretending that isomorphic objects
- are equal.  We are left with a mere set: the set of isomorphism classes
- of objects. 
+\begin{quote}
+If one studies categorification one soon discovers an amazing fact: many
+deep-sounding results in mathematics are just categorifications of facts
+we learned in high school! There is a good reason for this. All along,
+we have been unwittingly
+\texttt{decategorifying\textquotesingle{}\ mathematics\ by\ pretending\ that\ categories\ are\ just\ sets.\ \ We}decategorify'
+a category by forgetting about the morphisms and pretending that
+isomorphic objects are equal. We are left with a mere set: the set of
+isomorphism classes of objects.
 
- To understand this, the following parable may be useful.  Long ago, when
- shepherds wanted to see if two herds of sheep were isomorphic, they
- would look for an explicit isomorphism.  In other words, they would line
- up both herds and try to match each sheep in one herd with a sheep in
- the other.  But one day, along came a shepherd who invented
- decategorification.  She realized one could take each herd and `count'
- it, setting up an isomorphism between it and some set of `numbers',
- which were nonsense words like `one, two, three, ...' specially
- designed for this purpose.  By comparing the resulting numbers, she
- could show that two herds were isomorphic without explicitly
- establishing an isomorphism!  In short, by decategorifying the category
- of finite sets, the set of natural numbers was invented.   
+To understand this, the following parable may be useful. Long ago, when
+shepherds wanted to see if two herds of sheep were isomorphic, they
+would look for an explicit isomorphism. In other words, they would line
+up both herds and try to match each sheep in one herd with a sheep in
+the other. But one day, along came a shepherd who invented
+decategorification. She realized one could take each herd and
+\texttt{count\textquotesingle{}\ it,\ setting\ up\ an\ isomorphism\ between\ it\ and\ some\ set\ of}numbers',
+which were nonsense words like `one, two, three, \ldots' specially
+designed for this purpose. By comparing the resulting numbers, she could
+show that two herds were isomorphic without explicitly establishing an
+isomorphism! In short, by decategorifying the category of finite sets,
+the set of natural numbers was invented.
 
- According to this parable, decategorification started out as a stroke
- of mathematical genius.  Only later did it become a matter of dumb
- habit, which we are now struggling to overcome by means of
- categorification.  While the historical reality is far more
- complicated, categorification really has led to tremendous progress 
- in mathematics during the 20th century.  For example, Noether
- revolutionized algebraic topology by emphasizing the importance of
- homology groups.  Previous work had focused on Betti numbers, which
- are just the dimensions of the rational homology groups.  As with
- taking the cardinality of a set, taking the dimension of a vector
- space is a process of decategorification, since two vector spaces are
- isomorphic if and only if they have the same dimension.  Noether noted
- that if we work with homology groups rather than Betti numbers, we can
- solve more problems, because we obtain invariants not only of spaces,
- but also of maps.  
+According to this parable, decategorification started out as a stroke of
+mathematical genius. Only later did it become a matter of dumb habit,
+which we are now struggling to overcome by means of categorification.
+While the historical reality is far more complicated, categorification
+really has led to tremendous progress in mathematics during the 20th
+century. For example, Noether revolutionized algebraic topology by
+emphasizing the importance of homology groups. Previous work had focused
+on Betti numbers, which are just the dimensions of the rational homology
+groups. As with taking the cardinality of a set, taking the dimension of
+a vector space is a process of decategorification, since two vector
+spaces are isomorphic if and only if they have the same dimension.
+Noether noted that if we work with homology groups rather than Betti
+numbers, we can solve more problems, because we obtain invariants not
+only of spaces, but also of maps.
 
- In modern language, the $n$th rational homology is a functor defined
- on the category of topological spaces, while the $n$th Betti number is
- a mere function, defined on the set of isomorphism classes of
- topological spaces.  Of course, this way of stating Noether's insight
- is anachronistic, since it came before category theory.  Indeed, it
- was in Eilenberg and Mac Lane's subsequent work on homology that
- category theory was born!
- 
- Decategorification is a straightforward process which typically
- destroys information about the situation at hand.  Categorification,
- being an attempt to recover this lost information, is inevitably
- fraught with difficulties.
+In modern language, the \(n\)th rational homology is a functor defined
+on the category of topological spaces, while the \(n\)th Betti number is
+a mere function, defined on the set of isomorphism classes of
+topological spaces. Of course, this way of stating Noether's insight is
+anachronistic, since it came before category theory. Indeed, it was in
+Eilenberg and Mac Lane's subsequent work on homology that category
+theory was born!
 
->Finally, a note to John: While you're trying to give your audience
->some feeling for the virtues of $n$-categories, couldn't you give them a
->little help with n=1, by being a little more precise about objects and
->maps?
+Decategorification is a straightforward process which typically destroys
+information about the situation at hand. Categorification, being an
+attempt to recover this lost information, is inevitably fraught with
+difficulties.
+\end{quote}
 
-I hope it's clearer now.   
+\begin{quote}
+Finally, a note to John: While you're trying to give your audience some
+feeling for the virtues of \(n\)-categories, couldn't you give them a
+little help with \(n=1\), by being a little more precise about objects
+and maps?
+\end{quote}
 
-Best,
-jb
-\end{verbatim}
+I hope it's clearer now.
+
+Best, jb
+\end{quote}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -6929,7 +6953,7 @@ clouds.
 
 As the Huygens probe parachuted to the surface, it photographed what
 look like twisty riverbeds flowing into a large lake:
-\[\includegraphics[max width=0.8\linewidth]{{../images/huyghens.2}.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{{../images/huyghens.2}.jpg}\]
 People have long suspected that Titan has lakes of made of methane
 and/or ethane, but now we may be seeing them. And when Huygens landed,
 its sensors reported that it broke through a crusty surface and sunk
@@ -6937,7 +6961,7 @@ about 20 centimeters into something mushy: probably methane mud!
 
 The first color photo of the surface looks disappointingly like Mars at
 first sight:
-\[\includegraphics[max width=0.8\linewidth]{{../images/huyghens.1}.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{{../images/huyghens.1}.jpg}\]
 But, the surface is pumpkin-colored due to tholins or something, not
 rust red. The sky is orange too! The ``rocks'' could be water ice. And
 they've detected hints of volcanos that spew molten water and ammonia!
@@ -7530,7 +7554,7 @@ probe is bringing back cool photos of Mars!
 There are some tantalizing pictures of what might be a ``frozen sea''
 --- water ice covered with dust --- near the equator in the Elysium
 Planitia region:
-\[\href{http://www.esa.int/SPECIALS/Mars_Express/SEMCHPYEM4E_0.html}{\includegraphics[max width=0.8\linewidth]{../images/mars_packice.jpg}}\]
+\[\href{http://www.esa.int/SPECIALS/Mars_Express/SEMCHPYEM4E_0.html}{\includegraphics[max width=0.65\linewidth]{../images/mars_packice.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -7544,7 +7568,7 @@ Planitia region:
 Ice has already been found at the Martian poles --- it's easily visible
 there, and Mars Express is getting some amazing closeups of it now -
 here's a here's a view of some ice on sand at the north pole:
-\[\href{http://www.esa.int/SPECIALS/Mars_Express/SEMLF6D3M5E_1.html}{\includegraphics[max width=0.8\linewidth]{../images/mars_pole.jpg}}\]
+\[\href{http://www.esa.int/SPECIALS/Mars_Express/SEMLF6D3M5E_1.html}{\includegraphics[max width=0.65\linewidth]{../images/mars_pole.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -8781,7 +8805,7 @@ reflections, is called the ``Klein 4-group'':
 
 He is also known for some other groups called ``Kleinian groups'', which
 act as symmetries of fractal patterns like this:
-\[\href{http://www.josleys.com/showpic.php?file=INDRA065.jpg&title=Indra20}{\includegraphics[max width=0.8\linewidth]{../images/INDRA065.jpg}}\]
+\[\href{http://www.josleys.com/showpic.php?file=INDRA065.jpg&title=Indra20}{\includegraphics[max width=0.65\linewidth]{../images/INDRA065.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -9766,7 +9790,7 @@ pretty! Here it is:
   \texttt{http://www.hadron.org/\textbackslash{}\textasciitilde{}hatch/HyperbolicTesselations/}
 \end{enumerate}
 
-\[\href{http://www.hadron.org/~hatch/HyperbolicTesselations/}{\includegraphics[max width=0.8\linewidth]{../images/7_3.png}}\]
+\[\href{http://www.hadron.org/~hatch/HyperbolicTesselations/}{\includegraphics[max width=0.65\linewidth]{../images/7_3.png}}\]
 
 It's called ``\(\{7,3\}\)'', since it's made of 7-sided figures with 3
 meeting at each corner.
@@ -9792,7 +9816,7 @@ paper by Klein and Fricke but prettied up a bit:
   \texttt{http://www.valdostamuseum.org/hamsmith/cdomain.html\#tesselations}
 \end{enumerate}
 
-\[\includegraphics[max width=0.8\linewidth]{../images/Klein168.png}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/Klein168.png}\]
 
 You'll notice they're drawn in a fancy style: each heptagon has been
 ``barycentrically subdivided'' into 14 right triangles. But don't worry
@@ -9999,7 +10023,7 @@ The Fano plane is closely related to the octonions:
   \texttt{http://math.ucr.edu/home/baez/octonions/node4.html}
 \end{enumerate}
 
-\[\includegraphics[max width=0.8\linewidth]{../images/fano.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/fano.jpg}\]
 
 So in fact, our \(168\)-element group acts on the set of octonion
 multiplication tables:
@@ -10021,7 +10045,7 @@ like the diagram Klein and Fricke used to build the Klein quartic.
 Here's a picture drawn by Burkard Polster, author of ``The Mathematics
 of Juggling'' and ``Geometries on Surfaces'':
 
-\[\includegraphics[max width=0.8\linewidth]{../images/symfano.png}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/symfano.png}\]
 
 So, something interesting is going on, and I want to know what it is!
 
@@ -10147,7 +10171,7 @@ sure.
 \textbf{Addendum:} Mike Stay took Don Hatch's picture and drew numbers
 from 1 to 24 showing how to identify heptagons in order to get the Klein
 quartic curve:
-\[\includegraphics[max width=0.8\linewidth]{../images/7-3.png}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/7-3.png}\]
 
 Gerard Westendorp had some interesting comments on what I wrote:
 
@@ -10231,8 +10255,23 @@ way out of hell. LRLRLRLR and you're right back where you started.
 Btw, this works the same on other polyhedra, e.g.~the cube.
 
 \begin{quote}
-Saturn (Saturday) Sun (Sunday) Moon (Monday) Mars (Tuesday) Mercury
-(Wednesday) Jupiter (Thursday) Venus (Friday)
+\begin{itemize}
+\tightlist
+\item
+  Saturn (Saturday)
+\item
+  Sun (Sunday)
+\item
+  Moon (Monday)
+\item
+  Mars (Tuesday)
+\item
+  Mercury (Wednesday)
+\item
+  Jupiter (Thursday)
+\item
+  Venus (Friday)
+\end{itemize}
 \end{quote}
 
 My French is not so good, but in French some names look more convincing:
@@ -10366,12 +10405,25 @@ quartic.
 
 \begin{quote}
 \begin{quote}
-Saturn (Saturday) Sun (Sunday) Moon (Monday) Mars (Tuesday) Mercury
-(Wednesday) Jupiter (Thursday) Venus (Friday)
-\end{quote}
+\begin{itemize}
+\tightlist
+\item
+  Saturn (Saturday)
+\item
+  Sun (Sunday)
+\item
+  Moon (Monday)
+\item
+  Mars (Tuesday)
+\item
+  Mercury (Wednesday)
+\item
+  Jupiter (Thursday)
+\item
+  Venus (Friday)
+\end{itemize}
 \end{quote}
 
-\begin{quote}
 My French is not so good, but in French some names look more convincing:
 
 \begin{itemize}
@@ -10419,7 +10471,7 @@ might find the connection to Latin mysterious:
 
 
 \hypertarget{week215}{%
-\section{May 9}\label{week215}}
+\section{May 9, 2005}\label{week215}}
 
 This week I'd like to report on some cool things people have been
 explaining to me. The science fiction writer Greg Egan has been helping
@@ -10439,7 +10491,7 @@ helped Greg Egan create this really nice picture:
   \texttt{http://math.ucr.edu/home/baez/mathematical/KleinDual.png}
 \end{enumerate}
 
-\[\includegraphics[max width=0.8\linewidth]{../images/KleinDual.png}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/KleinDual.png}\]
 It looks sort of tetrahedral at first glance, but if you look carefully
 you'll see that topologically speaking, it's a \(3\)-holed torus. It's
 tiled by triangles, with 7 meeting at each vertex. So, it's the Klein
@@ -10496,7 +10548,7 @@ things.
 
 This group is also the rotational symmetry group of a cube. In fact,
 Egan was able to spot a hidden cube lurking in his picture! Can you?
-\[\includegraphics[max width=0.8\linewidth]{../images/KleinDual.png}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/KleinDual.png}\]
 If you look carefully, you'll see each corner of his tetrahedral gadget
 is made of a little triangular prism with one triangle facing out and
 one facing in: for example, the pink triangle staring you right in the
@@ -10567,7 +10619,7 @@ Here's a picture:
   \texttt{http://math.ucr.edu/home/baez/KleinFigures.gif}
 \end{enumerate}
 
-\[\includegraphics[max width=0.8\linewidth]{../images/KleinFigures.png}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/KleinFigures.png}\]
 Each triangle has a colored circle and a colored square on it. There are
 7 colors. The colored circle says which of the 7 \emph{cubes} the
 triangle belongs to. The colored square says which of the 7
@@ -10670,7 +10722,7 @@ picture:
   \texttt{http://math.ucr.edu/home/baez/Klein168.gif}
 \end{enumerate}
 
-\[\includegraphics[max width=0.8\linewidth]{../images/Klein168.png}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/Klein168.png}\]
 
 Next, a little about geodesics and prime numbers. I've just been talking
 a little about geodesics in the Klein quartic, which is the quotient
@@ -10848,220 +10900,211 @@ the Klein quartic curve and 3d Minkowski spacetime over the field
 fascinating ways.
 
 \begin{quote}
-\begin{verbatim}
 Hi
 
-Thanks for all the Lorentz group stuff!  This will take me a while to 
+Thanks for all the Lorentz group stuff! This will take me a while to
 digest.
 
 In the meantime, here are some more translations between the geometries.
 
-Every cube intersects 4 anticubes, and any pair of cubes, between them, 
-intersect 6 anticubes (two of the 4 for each will always be shared).  So 
-together the pair of cubes single out one anticube:  the 7th one that 
-neither of them intersect.  This is analogous to the fact that any two 
+Every cube intersects 4 anticubes, and any pair of cubes, between them,
+intersect 6 anticubes (two of the 4 for each will always be shared). So
+together the pair of cubes single out one anticube: the 7th one that
+neither of them intersect. This is analogous to the fact that any two
 Fano points single out a Fano line.
 
-I'll write anti({c1,c2}) for the anticube singled out by a pair of cubes, 
-and similarly cube({a1,a2}) for the cube singled out by a pair of 
-anticubes.  In the scheme used in this diagram:
-\end{verbatim}
-
-\[\includegraphics[max width=0.8\linewidth]{../images/KleinFigures.png}\]
+I'll write \(\mathrm{anti}(\{c_1,c_2\})\) for the anticube singled out
+by a pair of cubes, and similarly \(\mathrm{cube}(\{a_1,a_2\})\) for the
+cube singled out by a pair of anticubes. In the scheme used in this
+diagram:
+\[\includegraphics[max width=0.65\linewidth]{../images/KleinFigures.png}\]
 both functions have identical outputs for the same input colours:
 
-\begin{verbatim}
-    anti({c1,c2})  and  cube({a1,a2})
-    =================================
-
-    R   O   Y   G   LB  P   DB
-   ----------------------------
-R  | -   DB  R   DB  Y   Y   R
-O  | DB  -   P   DB  P   O   O
-Y  | R   P   -   LB  P   LB  R
-G  | DB  DB  LB  -   G   LB  G
-LB | Y   P   P   G   -   Y   G
-P  | Y   O   LB  LB  Y   -   O
-DB | R   O   R   G   G   O   -
-   ----------------------------
+\begin{longtable}[]{@{}lccccccc@{}}
+\caption{\(\mathrm{anti}(\{c_1,c_2\})\) and
+\(\mathrm{cube}(\{a_1,a_2\})\)}\tabularnewline
+\toprule
+& \textbf{R} & \textbf{O} & \textbf{Y} & \textbf{G} & \textbf{LB} &
+\textbf{P} & \textbf{DB}\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+& \textbf{R} & \textbf{O} & \textbf{Y} & \textbf{G} & \textbf{LB} &
+\textbf{P} & \textbf{DB}\tabularnewline
+\midrule
+\endhead
+\textbf{R} & --- & DB & R & DB & Y & Y & R\tabularnewline
+\textbf{O} & DB & --- & P & DB & P & O & O\tabularnewline
+\textbf{Y} & R & P & --- & LB & P & LB & R\tabularnewline
+\textbf{G} & DB & DB & LB & --- & G & LB & G\tabularnewline
+\textbf{LB} & Y & P & P & G & --- & Y & G\tabularnewline
+\textbf{P} & Y & O & LB & LB & Y & --- & O\tabularnewline
+\textbf{DB} & R & O & R & G & G & O & ---\tabularnewline
+\bottomrule
+\end{longtable}
 
 Now for some actual translations.
 
-Klein's Quartic Curve      Fano plane
----------------------      ----------
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+\begin{minipage}[b]{0.47\columnwidth}\raggedright
+Klein's Quartic Curve\strut
+\end{minipage} & \begin{minipage}[b]{0.47\columnwidth}\raggedright
+Fano plane\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+28 pairs of opposite triangular faces\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+28 choices of a point and a non-incident line, \(\{p,l\}\).
+\[\begin{tikzpicture}\draw[thick] (0,0) to (2,0) node[label=right:{$l_1$}]{};\node[label={[label distance=-1mm]above:{$p_1$}}] at (0.8,0.3) {$\bullet$};\node at (1,-0.75) {$7\times4=28$};\end{tikzpicture}\]\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
 
-28 pairs of opposite       28 choices of a point
-triangular faces           and a non-incident line,
-                           {p,l}.
+In Klein's quartic curve, we specify a pair of opposite triangular faces
+by picking one of seven cubes, then one of four anticubes that intersect
+it. The intersection is a pair of triangular faces which are diagonally
+opposite each other both on the cube and on the anticube. The 56
+order-\(3\) elements of \(G\) preserve these pairs of triangular faces,
+and consist of rotations by \(1/3\) and \(2/3\) turns for each such
+pair.
 
-                              p1
-                              (*)
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+\endhead
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+Triangular faces sharing an edge\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+Pairings of points and non-incident lines \(\{p_1,l_1\}\) and
+\(\{p_1,l_1\}\) having \(p_1\) incident on \(l_2\) and \(p_2\) incident
+on \(l_1\).
+\[\begin{tikzpicture}\draw[thick] (0,0) to (2,0) node[label=right:{$l_1$}]{};\draw[thick] (0,0.5) to (2,0.5) node[label=right:{$l_2$}]{};\node[label={[label distance=-1mm]above:{$p_1$}}] at (0.8,0.5) {$\bullet$};\node[label={[label distance=-1mm]below:{$p_2$}}] at (1.4,0) {$\bullet$};\end{tikzpicture}\]\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
 
-                           ----------- l1
+In Klein's quartic curve, whenever two triangular faces share an edge,
+the cube each face belongs to will be disjoint from the anticube that
+the other face belongs to. This can be checked by noting that the colour
+of the anticube appears in the row for \(\mathrm{anti}(c,\cdot)\).
 
-                           7 x 4 = 28
+If you inspect a triangle and the three neighbours that share edges with
+it, the neighbours will always belong to the three anticubes disjoint
+from the cube the central triangle belongs to, i.e.~they will have
+exactly the three colours appearing in the row for
+\(\mathrm{anti}(c,-)\)
 
-In Klein's quartic curve, we specify a pair of opposite triangular faces 
-by picking one of seven cubes, then one of four anticubes that intersect 
-it.  The intersection is a pair of triangular faces which are diagonally 
-opposite each other both on the cube and on the anticube.  The 56 order-3 
-elements of G preserve these pairs of triangular faces, and consist of 
-rotations by 1/3 and 2/3 turns for each such pair.
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+\endhead
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+84 edges\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+84 choices of \(\{p_1,l_1\}\) and \(\{p_2,l_2\}\) non-incident, but
+\(\{p_1,l_2\}\) and \(\{p_2,l_1\}\)
+incident.\[\begin{tikzpicture}\draw[thick] (0,0) to (2,0) node[label=right:{$l_1$}]{};\draw[thick] (0,0.5) to (2,0.5) node[label=right:{$l_2$}]{};\node[label={[label distance=-1mm]above:{$p_1$}}] at (0.8,0.5) {$\bullet$};\node[label={[label distance=-1mm]below:{$p_2$}}] at (1.4,0) {$\bullet$};\end{tikzpicture}\]
+or equivalently: 84 choices of 3 non-colinear points with one point
+singled out. In this definition, the special 3rd point is the one point
+shared by \(l_1\) and \(l_2\) of the previous definition.
+\[\begin{tikzpicture}\draw[thick] (0,0) to node[label={[label distance=-2mm]above right:{$l_2$}}]{} (1,-1) to node[label={[label distance=-2mm]below right:{$l_1$}}]{} (0,-2);\node[label=above:{$p_1$}] at (0,0) {$\bullet$};\node[label=right:{$p_3$}] at (1,-1) {$\bullet$};\node[label=below:{$p_2$}] at (0,-2) {$\bullet$};\end{tikzpicture}\]
+We can count this as \(\binom{7}{3}\) triples, minus 7 triples that are
+colinear, times three for three choices of distinguished point:
+\[(\binom{7}{3} - 7)\times3 = 28\times3 = 84\]\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
 
-Triangular faces           Pairings of points and
-sharing an edge            non-incident lines {p1,l1} and
-                           {p2,l2} having p1 incident on l2 and
-                           p2 incident on l1.
+In Klein's quartic curve, we specify an edge by picking a pair of cubes
+\(\{c_1,c_2\}\) and then a distinguished third one, \(c_3\), so that the
+three aren't all disjoint from any one anticube. This means that,
+between them, they must intersect all seven anticubes. So the third cube
+must be one that intersects \(\mathrm{anti}(\{c_1,c_2\})\). There are
+exactly 4 of these (and \(c_1\) and \(c_2\) aren't among them, by
+definition). So another way of counting the total is
+\((\binom{7}{2})\times4 = 21\times4 = 84\) choices.
 
-                               p1
-                           ----(*)----- l2
+To identify the particular edge, suppose we've chosen
+\(\{\{c_1,c_2\},c_3\}\) as our cubes. Then
+\(\{c_1, \mathrm{anti}(\{c_2,c_3\})\}\) is a cube and an anticube that
+intersects it, which specifies a pair of diagonally opposite triangular
+faces, and the same is true of \(\{c_2, \mathrm{anti}(\{c_1,c_3\})\}\).
+There is a unique edge where two of these triangles meet.
 
-                           ----(*)----- l1
-                               p2
+For example, if we pick
+\(\{\{\mbox{red}, \mbox{orange}\}, \mbox{yellow}\}\) then we have
+\(\{\mbox{red}, \mbox{anti-purple}\}\) and
+\(\{\mbox{orange}, \mbox{anti-red}\}\). Both cube/anticube choices
+specify two triangles each, but there is only one edge that belongs to
+both a \(\{\mbox{red}, \mbox{anti-purple}\}\) and an
+\(\{\mbox{orange}, \mbox{anti-red}\}\) triangle.
 
-In Klein's quartic curve, whenever two triangular faces share an edge, 
-the cube each face belongs to will be disjoint from the anticube that 
-the other face belongs to.  This can be checked by noting that the colour 
-of the anticube appears in the row for anti(c,.).
+To reverse the process, if we look at the cube/anticube markings on the
+triangles either side of some edge, and they are \(\{c_1,a_1\}\) and
+\(\{c_2,a_2\}\), then we can describe this edge by
+\(\{\{c_1,c_2\},\mathrm{cube}(\{a_1,a_2\})\}\).
 
-If you inspect a triangle and the three neighbours that share edges with 
-it, the neighbours will always belong to the three anticubes disjoint 
-from the cube the central triangle belongs to, i.e. they will have 
-exactly the three colours appearing in the row for anti(c,.)
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+\endhead
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+Triangular faces each sharing an edge with a common neighbour, but not
+each other. (This is sufficient, but not necessary, for them to share a
+vertex.)\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+Pairings of points and non-incident lines \(\{p_1,l_1\}\) and
+\(\{p_2,l_2\}\) having \emph{either} \(p_1\) incident on \(l_2\) or
+\(p_2\) incident on \(l_1\), but \emph{not} both.
+\[\begin{tikzpicture}\draw[thick] (0,0) to (2,0) node[label=right:{$l_1$ (or $l_2$)}]{};\draw[thick] (0,0.5) to (2,0.5) node[label=right:{$l_2$ (or $l_1$)}]{};\node[label={[label distance=-1mm]above:{$p_1$ (or $p_2$)}}] at (0.8,0.5) {$\bullet$};\node[label={[label distance=-1mm]below:{$p_2$ (or $p_1$)}}] at (1.4,-0.3) {$\bullet$};\end{tikzpicture}\]\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
 
-84 edges                   84 choices of {p1,l1} and {p2,l2}
-                           non-incident, but {p1,l2} and {p2,l1}
-                           incident.
+In Klein's quartic curve, as you go around a triangle anticlockwise and
+look at its three (edge-sharing) neighbours, the cube a triangle belongs
+to will be disjoint from the anticube of the triangle that follows, but
+the anticube it belongs to will intersect the cube of the triangle that
+follows. (But what the sense of the rotation means in the Fano plane
+depends on whether we map cubes to points and anticubes to lines or vice
+versa!)
 
-                               p1
-                           ----(*)----- l2
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+\endhead
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+24 vertices\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+168 pairings of points and non-incident lines \(\{p_1,l_1\}\) and
+\(\{p_2,l_2\}\) having \emph{either} \(p_1\) incident on \(l_2\) or
+\(p_2\) incident on \(l_1\), but \emph{not} both.
+\[\begin{tikzpicture}\draw[thick] (0,0) to (2,0) node[label=right:{$l_1$ (or $l_2$)}]{};\draw[thick] (0,0.5) to (2,0.5) node[label=right:{$l_2$ (or $l_1$)}]{};\node[label={[label distance=-1mm]above:{$p_1$ (or $p_2$)}}] at (0.8,0.5) {$\bullet$};\node[label={[label distance=-1mm]below:{$p_2$ (or $p_1$)}}] at (1.4,-0.3) {$\bullet$};\end{tikzpicture}\]
+There are: (\(28\) choices for \(\{p_1,l_1\}\)) \(\times\) (\(3\)
+choices for \(l_2\) passing through \(p_1\)) \(\times\) (\(7-5=2\)
+choices for \(p_2\) not in \(l_1\) or \(l_2\)). This count identifies
+each vertex as shared by common neighbours of a particular triangle, so
+we expect to count each vertex 7 times for the seven triangles. We could
+double this to count for swapping the role of \(p_1\) and \(p_2\), and
+the we'd be counting each vertex twice as often: once going
+anticlockwise between each pair of neighbours, and once going
+clockwise\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
 
-                           ----(*)----- l1
-                               p2
-
-                           or equivalently:
-
-                           84 choices of 3 non-colinear points,
-                           with one point singled out.  In this
-                           definition, the special 3rd point is
-                           the one point shared by l1 and l2
-                           of the previous definition.
-
-                           (*) p1
-                              \
-                               \ l2
-                                \
-                                 (*) p3
-                                /
-                               / l1
-                              /
-                           (*) p2
-
-                           We can count this as (7 choose 3) triples,
-                           minus 7 triples that are colinear, times
-                           three for three choices of distinguished
-                           point:
-
-                           ((7 choose 3) - 7) x 3 = 28 x 3 = 84
-
-In Klein's quartic curve, we specify an edge by picking a pair of cubes 
-{c1,c2} and then a distinguished third one, c3, so that the three aren't 
-all disjoint from any one anticube.  This means that, between them, they 
-must intersect all seven anticubes.  So the third cube must be one that 
-intersects anti({c1,c2}).  There are exactly 4 of these (and c1 and c2 
-aren't among them, by definition).  So another way of counting the total 
-is (7 choose 2) x 4 = 21 x 4 = 84 choices.
-
-To identify the particular edge, suppose we've chosen {{c1,c2},c3} as our 
-cubes.  Then {c1, anti({c2,c3})} is a cube and an anticube that 
-intersects it, which specifies a pair of diagonally opposite triangular 
-faces, and the same is true of {c2, anti({c1,c3})}.  There is a unique 
-edge where two of these triangles meet.
-
-For example, if we pick {{red, orange}, yellow} then we have {red, 
-anti-purple} and {orange, anti-red}.  Both cube/anticube choices specify 
-two triangles each, but there is only one edge that belongs to both a 
-{red, anti-purple} and an {orange, anti-red} triangle.
-
-To reverse the process, if we look at the cube/anticube markings on the 
-triangles either side of some edge, and they are {c1,a1} and {c2,a2}, 
-then we can describe this edge by {{c1,c2},cube({a1,a2})}.
-
-Triangular faces             Pairings of points and non-incident
-each sharing an              lines {p1,l1} and {p2,l2} having
-edge with a common           either p1 incident on l2 or p2
-neighbour, but not           incident on l1, but not both.
-each other.  (This
-is sufficient, but                p1 [or p2]
-not necessary, for           -----(*)-------- l2 [or l1]
-them to share a
-vertex.)                     ---------------- l1 [or l2]
-
-                                  (*)
-                                  p2 [or p1]
-
-In Klein's quartic curve, as you go around a triangle anticlockwise and 
-look at its three (edge-sharing) neighbours, the cube a triangle belongs 
-to will be disjoint from the anticube of the triangle that follows, but 
-the anticube it belongs to will intersect the cube of the triangle that 
-follows.  (But what the sense of the rotation means in the Fano plane 
-depends on whether we map cubes to points and anticubes to lines or vice 
-versa!) 
-
-
-24 vertices               168 pairings of points and non-incident
-                          lines {p1,l1} and {p2,l2} having
-                          either p1 incident on l2 or p2
-                          incident on l1, but not both.
-
-                               p1 [or p2]
-                          -----(*)-------- l2 [or l1]
-
-                          ---------------- l1 [or l2]
-
-                               (*)
-                               p2 [or p1]
-
-                          There are:
-                          28 choices for {p1, l1}
-                        x  3 choices for l2 passing through p1
-                        x (7-5)=2 choices for p2 not in l1 or l2
-
-                          This count identifies each vertex
-                          as shared by common neighbours of
-                          a particular triangle, so we expect
-                          to count each vertex 7 times for the
-                          seven triangles.
-
-                          We could double this to count for
-                          swapping the role of p1 and p2, and then
-                          we'd be counting each vertex twice
-                          as often:  once going anticlockwise
-                          between each pair of neighbours, and
-                          once going clockwise.
-
-This is all a bit strange and inconvenient!  I can pin down an edge, but 
-I haven't really pinned down a single face, or a way to count a vertex 
-just once.  I guess the answer for a vertex is to talk about an 
+This is all a bit strange and inconvenient! I can pin down an edge, but
+I haven't really pinned down a single face, or a way to count a vertex
+just once. I guess the answer for a vertex is to talk about an
 equivalence class of the structures:
-
-
-                               p1 [or p2]
-                          -----(*)-------- l2 [or l1]
-
-                          ---------------- l1 [or l2]
-
-                               (*)
-                               p2 [or p1]
-
-where we mod out by Z/7 and "gauge fix" l1.  Every vertex is surrounded 
-by 7 triangular faces encompassing all seven cubes and all seven 
-anticubes, so these equivalence classes do fix a single vertex.
+\[\begin{tikzpicture}\draw[thick] (0,0) to (2,0) node[label=right:{$l_1$ (or $l_2$)}]{};\draw[thick] (0,0.5) to (2,0.5) node[label=right:{$l_2$ (or $l_1$)}]{};\node[label={[label distance=-1mm]above:{$p_1$ (or $p_2$)}}] at (0.8,0.5) {$\bullet$};\node[label={[label distance=-1mm]below:{$p_2$ (or $p_1$)}}] at (1.4,-0.3) {$\bullet$};\end{tikzpicture}\]
+where we mod out by \(\mathbb{Z}/7\) and ``gauge fix'' \(l_1\). Every
+vertex is surrounded by 7 triangular faces encompassing all seven cubes
+and all seven anticubes, so these equivalence classes do fix a single
+vertex.
 
 Best wishes
 
 Greg
-\end{verbatim}
 \end{quote}
 
 Toby Bartels wrote:
@@ -11106,9 +11149,7 @@ Squark wrote:
 
 \begin{quote}
 John Baez wrote:
-\end{quote}
 
-\begin{quote}
 If \(G'\) is a subgroup of \(G\), we get a covering map \[H/G' \to H/G\]
 so we can ask about lifting prime geodesics in \(H/G\) to closed
 geodesics in \(H/G'\). There can be a bunch of ways to do this, so we
@@ -11118,8 +11159,6 @@ geodesics up in \(H/G'\).
 
 I don't quite understand how can the lift be a power, rather than just a
 prime.
-
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 \end{quote}
 
 Quite true. When you lift a geodesic, once you get back to the starting
@@ -11135,8 +11174,6 @@ ramification degree. It seems all the ramification degrees are 1, and
 the magic equation reduces to degree of extension = sum(inertia
 degrees).
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
-
 \begin{quote}
 \begin{quote}
 \begin{longtable}[]{@{}ll@{}}
@@ -11147,13 +11184,9 @@ Norm \(N(Q)\) of ideal \(Q\) & Norm \(N(f)\) of closed geodesic
 \bottomrule
 \end{longtable}
 \end{quote}
-\end{quote}
 
-\begin{quote}
 What is a norm of a geodesic? The length or the energy or\ldots{} ?
 \end{quote}
-
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 Explicitly, the length of a geodesic is the (natural) log of the norm,
 or equivalently, the norm is \(\exp(\text{length})\). For closed
@@ -11167,8 +11200,6 @@ in the conj. class.
 This is why I now like to think of the norm of an ideal as a kind of
 ``length function on ideals''.
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
-
 \begin{quote}
 \begin{quote}
 \begin{longtable}[]{@{}ll@{}}
@@ -11179,13 +11210,9 @@ Frobenius conjugacy class of \(Q\) & Frobenius conjugacy class of
 \bottomrule
 \end{longtable}
 \end{quote}
-\end{quote}
 
-\begin{quote}
 Again, what is the Frobenius on the right side here?
 \end{quote}
-
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 I can give 2 answers. The first answer is a cop-out, because it would
 just give the concrete definition given in Jeff's paper or my thesis,
@@ -13740,7 +13767,7 @@ Here's a picture of what these spacecraft are doing:
   \texttt{http://spaceprojects.arc.nasa.gov/Space\_Projects/pioneer/path.html}
 \end{enumerate}
 
-\[\includegraphics[max width=0.8\linewidth]{../images/pioneer.png}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/pioneer.png}\]
 
 See how they'll eventually pass through a bubble called the
 ``termination shock''? That's where the solar wind drops below
@@ -13974,7 +14001,7 @@ While I'm at it, I can't resist showing you another beautiful picture:
   \texttt{http://math.ucr.edu/home/baez/roman.jpg}
 \end{enumerate}
 
-\[\includegraphics[max width=0.8\linewidth]{../images/roman.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/roman.jpg}\]
 
 The blue thing is called the ``Roman surface'' because it was discovered
 by the mathematician Jakob Steiner while he was visiting Rome. It's a
@@ -16161,7 +16188,7 @@ is surrounded only by a blob of ionized gas. Nearby, a wildly disturbed
 spiral galaxy can be seen.
 
 Compare HE0450-2958 (at left) with a normal quasar (at right):
-\[\href{http://hubblesite.org/newscenter/newsdesk/archive/releases/2005/13/image/a}{\includegraphics[max width=0.8\linewidth]{../images/HE0450-2958.jpg}}\]
+\[\href{http://hubblesite.org/newscenter/newsdesk/archive/releases/2005/13/image/a}{\includegraphics[max width=0.65\linewidth]{../images/HE0450-2958.jpg}}\]
 The quasar HE0450-2958 is in the middle of the left-hand picture; the
 disturbed galaxy is above and a completely irrelevant foreground star is
 below. For more details on what this image means, click on it.
@@ -16174,7 +16201,7 @@ Puzzles, puzzles, in the sky\ldots.
 
 Closer to home, astronomers at the Keck Observatory in Hawaii have
 discovered that planet Xena has a moon!
-\[\href{http://www2.keck.hawaii.edu/optics/staff/mvandam/gabrielle}{\includegraphics[max width=0.8\linewidth]{../images/xena.jpg}}\]
+\[\href{http://www2.keck.hawaii.edu/optics/staff/mvandam/gabrielle}{\includegraphics[max width=0.65\linewidth]{../images/xena.jpg}}\]
 They nicknamed it Gabrielle, after this famous TV character's sidekick:
 
 \begin{enumerate}
@@ -16212,7 +16239,7 @@ Impress your friends by casually dropping some of this jargon:
   meaning it's 30 times farther from the Sun than we are. Transneptunian
   objects can be roughly divided into three kinds: Kuiper belt objects,
   scattered disc objects, and Oort cloud objects.
-  \[\href{http://en.wikipedia.org/wiki/Kuiper_belt}{\includegraphics[max width=0.8\linewidth]{../images/kuiper_oort.jpg}}\]
+  \[\href{http://en.wikipedia.org/wiki/Kuiper_belt}{\includegraphics[max width=0.65\linewidth]{../images/kuiper_oort.jpg}}\]
 
   \begin{itemize}
   \item
@@ -16238,7 +16265,7 @@ Impress your friends by casually dropping some of this jargon:
       diameter of about 1200 kilometers. This is about half the diameter
       of Pluto, or a third the size of the Moon: much bigger than
       anything in the asteroid belt!
-      \[\href{http://en.wikipedia.org/wiki/90377_Sedna}{\includegraphics[max width=0.8\linewidth]{../images/sedna.jpg}}\]
+      \[\href{http://en.wikipedia.org/wiki/90377_Sedna}{\includegraphics[max width=0.65\linewidth]{../images/sedna.jpg}}\]
       Folks believe Quaoar is a mixture of ice and rock. It's very dark
       in color, but last year crystalline water ice was detected on its
       surface, using infrared spectroscopy. This came as a surprise,
@@ -16322,7 +16349,7 @@ Impress your friends by casually dropping some of this jargon:
     far is \href{http://en.wikipedia.org/wiki/90377_Sedna}{Sedna}, an
     object roughly 1500 kilometers in diameter with a wildly eccentric
     orbit taking it between 80 to 930 AU from the Sun.
-    \[\href{http://en.wikipedia.org/wiki/90377_Sedna}{\includegraphics[max width=0.8\linewidth]{../images/sedna_orbit.jpg}}\]
+    \[\href{http://en.wikipedia.org/wiki/90377_Sedna}{\includegraphics[max width=0.65\linewidth]{../images/sedna_orbit.jpg}}\]
     Sedna was discovered in 2004 when it was 90 AU from the Sun. It's
     redder than Mars, its temperature never rises above 23 Kelvin, and
     its year lasts 11,250 years. It's the farthest known object in our
@@ -16333,7 +16360,7 @@ Impress your friends by casually dropping some of this jargon:
 
     The closest people have come to seeing the Oort cloud is seeing a
     ``Bok globule'':
-    \[\href{http://www.eso.org/outreach/press-rel/pr-2001/pr-01-01.html}{\includegraphics[max width=0.8\linewidth]{../images/bok_globule.jpg}}\]
+    \[\href{http://www.eso.org/outreach/press-rel/pr-2001/pr-01-01.html}{\includegraphics[max width=0.65\linewidth]{../images/bok_globule.jpg}}\]
     A Bok globule is a cloud of dust and gas that's collapsing to form a
     star. This one is about 12,500 AU across. The scientists who
     observed it say it's about the size of the Oort cloud. This just
@@ -17009,7 +17036,7 @@ explicitly relate these pictures to math and physics; other times not.
 
 Here's Saturn's moon Hyperion, photographed up close by the Cassini
 probe:
-\[\href{http://saturn.jpl.nasa.gov/multimedia/images/images.cfm?subCategoryID=29}{\includegraphics[max width=0.8\linewidth]{../images/hyperion.jpg}}\]
+\[\href{http://saturn.jpl.nasa.gov/multimedia/images/images.cfm?subCategoryID=29}{\includegraphics[max width=0.65\linewidth]{../images/hyperion.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -17060,7 +17087,7 @@ radiation! For an explanation of how this changes the story, try:
 \end{enumerate}
 
 Here's another great picture:
-\[\href{http://heritage.stsci.edu/2004/27/index.html}{\includegraphics[max width=0.8\linewidth]{../images/cats-eye_nebula.jpg}}\]
+\[\href{http://heritage.stsci.edu/2004/27/index.html}{\includegraphics[max width=0.65\linewidth]{../images/cats-eye_nebula.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -18365,7 +18392,7 @@ Hamilton!
 
 I like this photo of a jet emanating from the black hole in the center
 of galaxy M87:
-\[\href{http://hubblesite.org/newscenter/newsdesk/archive/releases/2005/12/image/o}{\includegraphics[max width=0.8\linewidth]{../images/m87_jet.jpg}}\]
+\[\href{http://hubblesite.org/newscenter/newsdesk/archive/releases/2005/12/image/o}{\includegraphics[max width=0.65\linewidth]{../images/m87_jet.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -18380,7 +18407,7 @@ radio source, and now we know why: there's a supermassive black hole in
 the center, about 3 billion times the mass of our Sun. As matter spirals
 into this huge black hole, it forms an ``accretion disk'', and some gets
 so hot that it shoots out in a jet, as envisioned here:
-\[\href{http://maxim.gsfc.nasa.gov/docs/science/science.html}{\includegraphics[max width=0.8\linewidth]{../images/accretion_disk.jpg}}\]
+\[\href{http://maxim.gsfc.nasa.gov/docs/science/science.html}{\includegraphics[max width=0.65\linewidth]{../images/accretion_disk.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -18407,7 +18434,7 @@ we see. In the case of M87 the jet is enormous: 5000 light years long!
 To get a sense of the scale, look at the small white specks away from
 the jet in the next picture. These are globular clusters: clusters
 containing between ten thousand and a million stars.
-\[\href{http://antwrp.gsfc.nasa.gov/apod/ap000706.html}{\includegraphics[max width=0.8\linewidth]{../images/m87jet_hst.jpg}}\]
+\[\href{http://antwrp.gsfc.nasa.gov/apod/ap000706.html}{\includegraphics[max width=0.65\linewidth]{../images/m87jet_hst.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -18420,7 +18447,7 @@ containing between ten thousand and a million stars.
 
 The jet in M87 is so hot that it emits not just radio waves and visible
 light, but even X-rays, as seen by the Chandra X-ray telescope:
-\[\href{http://chandra.harvard.edu/photo/2001/0134/}{\includegraphics[max width=0.8\linewidth]{../images/m87_xray_radio_optical.jpg}}\]
+\[\href{http://chandra.harvard.edu/photo/2001/0134/}{\includegraphics[max width=0.65\linewidth]{../images/m87_xray_radio_optical.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -18446,7 +18473,7 @@ only a stone's throw away. So, even amateur astronomers --- really good
 ones, at least --- can take photos of M87 that show the jet. But here's
 a high-quality picture produced by Robert Lupton using data from the
 Sloan Digital Sky Survey --- you can see the jet in light blue:
-\[\href{http://www.astro.princeton.edu/~rhl/PrettyPictures/}{\includegraphics[max width=0.8\linewidth]{../images/m87_core.jpg}}\]
+\[\href{http://www.astro.princeton.edu/~rhl/PrettyPictures/}{\includegraphics[max width=0.65\linewidth]{../images/m87_core.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -18464,7 +18491,7 @@ clusters go, since it consists of a bunch of ``subclusters'' that
 haven't merged yet. Our galaxy, and indeed the whole Local Group to
 which it belongs, is being pulled towards the Virgo Cluster and will
 eventually join it. Here's a nice closeup of part of the Virgo Cluster:
-\[\href{http://burro.astr.cwru.edu/Schmidt/Virgo/}{\includegraphics[max width=0.8\linewidth]{../images/virgo_cluster.jpg}}\]
+\[\href{http://burro.astr.cwru.edu/Schmidt/Virgo/}{\includegraphics[max width=0.65\linewidth]{../images/virgo_cluster.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -18478,7 +18505,7 @@ eventually join it. Here's a nice closeup of part of the Virgo Cluster:
 
 Finally, just for fun, something unrelated --- and more mysterious. It's
 called ``Hoag's object'':
-\[\href{http://heritage.stsci.edu/2002/21/}{\includegraphics[max width=0.8\linewidth]{../images/hoag.jpg}}\]
+\[\href{http://heritage.stsci.edu/2002/21/}{\includegraphics[max width=0.65\linewidth]{../images/hoag.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -18922,7 +18949,7 @@ He asked how many ring galaxies are known!
 
 I checked and read there are 100 known ``polar-ring galaxies''. Here's a
 nice one called NGC 4650:
-\[\href{http://hubblesite.org/newscenter/newsdesk/archive/releases/1999/16/image/a}{\includegraphics[max width=0.8\linewidth]{../images/NGC4650.jpg}}\]
+\[\href{http://hubblesite.org/newscenter/newsdesk/archive/releases/1999/16/image/a}{\includegraphics[max width=0.65\linewidth]{../images/NGC4650.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -18937,7 +18964,7 @@ I can imagine this thing looking like Hoag's object if we viewed it
 head-on.
 
 Here's another ring galaxy, called AM 0644-741:
-\[\href{http://hubblesite.org/newscenter/newsdesk/archive/releases/2004/15/image/a}{\includegraphics[max width=0.8\linewidth]{../images/AM0644-741.jpg}}\]
+\[\href{http://hubblesite.org/newscenter/newsdesk/archive/releases/2004/15/image/a}{\includegraphics[max width=0.65\linewidth]{../images/AM0644-741.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -19195,7 +19222,7 @@ while.)
 
 For example, here are the clusters of galaxies within 100 million
 lightyears of us:
-\[\href{http://www.anzwers.org/free/universe/virgo.html}{\includegraphics[max width=0.8\linewidth]{../images/Virgo_supercluster.png}}\]
+\[\href{http://www.anzwers.org/free/universe/virgo.html}{\includegraphics[max width=0.65\linewidth]{../images/Virgo_supercluster.png}}\]
 
 The biggest of these is the Virgo cluster, which I discussed in
 \protect\hyperlink{week224}{``Week 224''}. This contains about 2000
@@ -19227,12 +19254,12 @@ cube as a present, and it's great! It's lit up from below, and it shows
 the filaments, sheets and superclusters of galaxies that reign supreme
 at this distance scale. 100 megaparsecs is about 300 million light
 years, so this view is a bit bigger than the previous picture:
-\[\href{http://www.bathsheba.com/crystal/largescale/}{\includegraphics[max width=0.8\linewidth]{../images/largescale_movie2.png}}\]
+\[\href{http://www.bathsheba.com/crystal/largescale/}{\includegraphics[max width=0.65\linewidth]{../images/largescale_movie2.png}}\]
 
 David says Grossman's model of the Milky Way is also nice: it takes into
 account the latest research, which shows our galaxy is a ``barred''
 spiral! You can see the bar in the middle here:
-\[\href{http://www.spitzer.caltech.edu/Media/mediaimages/sig/sig05-010.shtml}{\includegraphics[max width=0.8\linewidth]{../images/milky_way_bar.jpg}}\]
+\[\href{http://www.spitzer.caltech.edu/Media/mediaimages/sig/sig05-010.shtml}{\includegraphics[max width=0.65\linewidth]{../images/milky_way_bar.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -19247,7 +19274,7 @@ If you really have money to burn, Grossman has also made nice sculptures
 of mathematical objects like the 24-cell, the 600-cell and Schoen's
 gyroid --- a triply periodic minimal surface that chops 3-space into two
 parts:
-\[\href{http://www.bathsheba.com/math/gyroid/gyroid_hex.jpg}{\includegraphics[max width=0.8\linewidth]{../images/gyroid_hex.jpg}}\]
+\[\href{http://www.bathsheba.com/math/gyroid/gyroid_hex.jpg}{\includegraphics[max width=0.65\linewidth]{../images/gyroid_hex.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -19260,7 +19287,7 @@ parts:
 
 However, the great thing about the web is that lots of beautiful stuff
 is free --- like these \emph{pictures} of the gyroid:
-\[\href{http://www.bathsheba.com/math/gyroid/gyroid3q.jpg}{\includegraphics[max width=0.8\linewidth]{../images/gyroid3q.jpg}}\]
+\[\href{http://www.bathsheba.com/math/gyroid/gyroid3q.jpg}{\includegraphics[max width=0.65\linewidth]{../images/gyroid3q.jpg}}\]
 
 I explained the 24-cell and 600-cell in
 \protect\hyperlink{week155}{``Week 155''}. So, let me explain the gyroid
@@ -19534,7 +19561,7 @@ cryptography, random sequences, and logic.
 Let's zoom in on NGC 1097. Here's a photograph of this galaxy taken in
 ultraviolet light. It's a barred spiral galaxy that's colliding with a
 smaller elliptical galaxy called NGC 1097A:
-\[\href{http://www.galex.caltech.edu/MEDIA/2005-02/images.html}{\includegraphics[max width=0.8\linewidth]{../images/NGC1097_a.jpg}}\]
+\[\href{http://www.galex.caltech.edu/MEDIA/2005-02/images.html}{\includegraphics[max width=0.65\linewidth]{../images/NGC1097_a.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -19550,7 +19577,7 @@ NGC 1097 is called a ``Seyfert galaxy'' because its center emits lots of
 radio waves, but not enough to be considered a full-fledged ``quasar''.
 As you can see, the center also emits visible light --- and stuff is
 swirling into it!
-\[\href{http://www.eso.org/outreach/press-rel/pr-2004/pr-28-04.html#phot-35d-04}{\includegraphics[max width=0.8\linewidth]{../images/NGC1097_b.jpg}}\]
+\[\href{http://www.eso.org/outreach/press-rel/pr-2004/pr-28-04.html#phot-35d-04}{\includegraphics[max width=0.65\linewidth]{../images/NGC1097_b.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -19570,7 +19597,7 @@ It's run by Europeans as part of the ``European Southern Observatory''
 of the Atacama Desert in northern Chile, which makes for wonderful
 viewing conditions. They had to carry the enormous mirrors across rugged
 desert roads to build this observatory:
-\[\href{http://www.eso.org/outreach/press-rel/pr-1997/phot-35-97.html}{\includegraphics[max width=0.8\linewidth]{../images/eso_mirror_transport.jpg}}\]
+\[\href{http://www.eso.org/outreach/press-rel/pr-1997/phot-35-97.html}{\includegraphics[max width=0.65\linewidth]{../images/eso_mirror_transport.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -19582,7 +19609,7 @@ desert roads to build this observatory:
 \end{enumerate}
 
 but the view of the night sky up there makes it all worthwhile:
-\[\href{http://www.eso.org/outreach/press-rel/pr-2005/images/phot-40b-05-normal.jpg}{\includegraphics[max width=0.8\linewidth]{../images/eso_night_sky.jpg}}\]
+\[\href{http://www.eso.org/outreach/press-rel/pr-2005/images/phot-40b-05-normal.jpg}{\includegraphics[max width=0.65\linewidth]{../images/eso_night_sky.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -19595,7 +19622,7 @@ but the view of the night sky up there makes it all worthwhile:
 
 and now they have everything they need to take advantage of that
 location:
-\[\href{http://www.eso.org/outreach/press-rel/pr-2000/phot-14a-00-normal.jpg}{\includegraphics[max width=0.8\linewidth]{../images/eso_VLT.jpg}}\]
+\[\href{http://www.eso.org/outreach/press-rel/pr-2000/phot-14a-00-normal.jpg}{\includegraphics[max width=0.65\linewidth]{../images/eso_VLT.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -19611,7 +19638,7 @@ So, what did they see when they looked at NGC 1097?
 In the middle there seems to be a black hole, emitting radiation as
 filaments of gas and dust spiral in. This has caused a ring of new stars
 to form, which are ionizing the hydrogen in their vicinity:
-\[\href{http://www.eso.org/outreach/press-rel/pr-2005/phot-33-05.html}{\includegraphics[max width=0.8\linewidth]{../images/NGC1097_c.jpg}}\]
+\[\href{http://www.eso.org/outreach/press-rel/pr-2005/phot-33-05.html}{\includegraphics[max width=0.65\linewidth]{../images/NGC1097_c.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -20829,7 +20856,7 @@ is a genius, a philosopher, an abstract thinker\ldots.}
 Today I want to say a bit about physics, and then a bit about about
 logic, since that's what I was studying for the last month in Marseille.
 But first, the astronomy pictures of the week:
-\[\href{http://marsrovers.jpl.nasa.gov/gallery/press/opportunity/20040806a/Sol187B_P2546_L257false-B187R1.jpg}{\includegraphics[max width=0.8\linewidth]{../images/mars_blue_dunes.jpg}}\]
+\[\href{http://marsrovers.jpl.nasa.gov/gallery/press/opportunity/20040806a/Sol187B_P2546_L257false-B187R1.jpg}{\includegraphics[max width=0.65\linewidth]{../images/mars_blue_dunes.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -20839,7 +20866,7 @@ But first, the astronomy pictures of the week:
   \texttt{http://marsrovers.jpl.nasa.gov/gallery/press/opportunity/20040806a.html}
 \end{enumerate}
 
-\[\href{http://marsrovers.jpl.nasa.gov/gallery/press/opportunity/20040806a/Sol187B_P2546_L456-B187R1.jpg}{\includegraphics[max width=0.8\linewidth]{../images/mars_red_dunes.jpg}}\]
+\[\href{http://marsrovers.jpl.nasa.gov/gallery/press/opportunity/20040806a/Sol187B_P2546_L456-B187R1.jpg}{\includegraphics[max width=0.65\linewidth]{../images/mars_red_dunes.jpg}}\]
 
 On August 4, 2004, the Mars rover called Opportunity took these pictures
 of dunes as it entered Endurance Crater. The red one is what we'd
@@ -20851,7 +20878,7 @@ from the big dunes toward the rover, and some rocks in the foreground.
 The false-color image emphasizes accumulations of millimeter-sized
 spheres called ``blueberries'' on the flat parts of the dunes. Here's
 what they look like close up:
-\[\href{http://marsrover.nasa.gov/newsroom/pressreleases/20040318a.html}{\includegraphics[max width=0.8\linewidth]{../images/blueberries.jpg}}\]
+\[\href{http://marsrover.nasa.gov/newsroom/pressreleases/20040318a.html}{\includegraphics[max width=0.65\linewidth]{../images/blueberries.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -20976,7 +21003,7 @@ mathematicians. Algebraists can visit the beautiful nearby city of Aix
 everyone will enjoy the medieval hill town of Les Baux, which looks like
 something out of Escher. Here's a
 \href{http://math.ucr.edu/home/baez/france_2006}{picture} of it:
-\[\includegraphics[max width=0.8\linewidth]{../images/LesBaux_2006_002small2.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/LesBaux_2006_002small2.jpg}\]
 Actually the Chateau D'If, on the island of the same name, is where
 Edmond Dantes was imprisoned in Alexander Dumas' novel ``The Count of
 Monte Cristo''. It's in this formidable fortress that the wise old Abbe
@@ -21494,7 +21521,7 @@ this article, I'll say what you got.
 
 Okay. Here's a photo of the icy dunes of northern Mars. I love it
 because it shows that Mars is a lively place with wind and water:
-\[\href{http://themis.asu.edu/features/polardunes}{\includegraphics[max width=0.8\linewidth]{../images/mars_polardunes.jpg}}\]
+\[\href{http://themis.asu.edu/features/polardunes}{\includegraphics[max width=0.65\linewidth]{../images/mars_polardunes.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -21521,7 +21548,7 @@ laws of nature under fairly common conditions.
 The upwind slope of a barchan is gentle, while the downwind slope is
 between 32 and 34 degrees. This is the ``angle of repose'' for sand -
 the maximum angle it can tolerate before it starts slipping down:
-\[\href{http://en.wikipedia.org/wiki/Barchan}{\includegraphics[max width=0.8\linewidth]{../images/barchan.jpg}}\]
+\[\href{http://en.wikipedia.org/wiki/Barchan}{\includegraphics[max width=0.65\linewidth]{../images/barchan.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -21543,7 +21570,7 @@ It would be great to see one of these frosty Martian barchans close up.
 We almost can do it now! The European Space Agency's orbiter called Mars
 Express took this wonderful closeup, already shown in
 \protect\hyperlink{week211}{``Week 211''}:
-\[\href{http://www.esa.int/SPECIALS/Mars_Express/SEMLF6D3M5E_1.html}{\includegraphics[max width=0.8\linewidth]{../images/mars_pole_closeup.jpg}}\]
+\[\href{http://www.esa.int/SPECIALS/Mars_Express/SEMLF6D3M5E_1.html}{\includegraphics[max width=0.65\linewidth]{../images/mars_pole_closeup.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -21578,7 +21605,7 @@ long ago. So, wind is a big factor in Martian geology:
 
 The Mars rover Spirit even got its solar panels cleaned by some dust
 devils, and it took some movies of them:
-\[\href{http://marsrovers.nasa.gov/gallery/press/spirit/20050819a.html}{\includegraphics[max width=0.8\linewidth]{../images/mars_dust_devil.png}}\]
+\[\href{http://marsrovers.nasa.gov/gallery/press/spirit/20050819a.html}{\includegraphics[max width=0.65\linewidth]{../images/mars_dust_devil.png}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -22107,7 +22134,7 @@ But first: the astronomy picture of the week!
 It'll be more fun after a little background. The northern part of Mars
 is very different from the rest. It's much smoother, and the altitude is
 much less:
-\[\href{http://photojournal.jpl.nasa.gov/catalog/?IDNumber=PIA02820}{\includegraphics[max width=0.8\linewidth]{../images/mars_topography.png}}\]
+\[\href{http://photojournal.jpl.nasa.gov/catalog/?IDNumber=PIA02820}{\includegraphics[max width=0.65\linewidth]{../images/mars_topography.png}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -22146,7 +22173,7 @@ The rest of the water is now frozen at the poles or lurking underground.
 
 And that brings us to our picture. Here's some ice in a crater in
 Vastitas Borealis:
-\[\href{http://www.esa.int/esa-mmg/mmg.pl?b=b&type=I&mission=Mars\%20Express&single=y&start=53&size=b}{\includegraphics[max width=0.8\linewidth]{../images/mars_crater_ice.jpg}}\]
+\[\href{http://www.esa.int/esa-mmg/mmg.pl?b=b&type=I&mission=Mars\%20Express&single=y&start=53&size=b}{\includegraphics[max width=0.65\linewidth]{../images/mars_crater_ice.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -22244,7 +22271,7 @@ an ancient Roman coin. I don't understand how this pattern is related to
 the coin.)
 
 This is how Peirce's quincuncial looks as an actual map:
-\[\href{http://www.progonos.com/furuti/MapProj/Normal/ProjConf/projConf.html}{\includegraphics[max width=0.8\linewidth]{../images/quincuncial.jpg}}\]
+\[\href{http://www.progonos.com/furuti/MapProj/Normal/ProjConf/projConf.html}{\includegraphics[max width=0.65\linewidth]{../images/quincuncial.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -22279,7 +22306,7 @@ S-----F-----S-----B-----S-----F-----S-----B-----S
 E-----N-----W-----N-----E-----N-----W-----N-----E
 \end{verbatim}
 
-\[\href{http://www.progonos.com/furuti/MapProj/Normal/ProjConf/projConf.html}{\includegraphics[max width=0.8\linewidth]{../images/quincuncial_tiled.jpg}}\]
+\[\href{http://www.progonos.com/furuti/MapProj/Normal/ProjConf/projConf.html}{\includegraphics[max width=0.65\linewidth]{../images/quincuncial_tiled.jpg}}\]
 This gives a branched cover of the sphere by the plane! It has branch
 points at the east, west, front and back poles, since walking once
 around a point like that on the above map corresponds to walking around
@@ -22382,7 +22409,7 @@ It's also especially nice to put the branch points at the vertices of a
 regular tetrahedron. I'm not sure, but this may give a map developed by
 the cartographer Laurence P. Lee in 1965. There's also a picture of this
 on Furuti's webpage:
-\[\includegraphics[max width=0.8\linewidth]{../images/triangular_map.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/triangular_map.jpg}\]
 In fact, these two specially nice locations for branch points correspond
 to the two most symmetrical lattices in the plane: the square one and
 the hexagonal one. I talked about these in
@@ -22934,7 +22961,7 @@ long gone, whose once grand oceans are now reduced to windy canyons and
 icy dunes. Let's say goodbye to it for now\ldots{} leaving off with this
 Martian sunset, photographed by the rover Spirit in Gusev Crater on May
 19th, 2005:
-\[\href{http://marsrovers.nasa.gov/gallery/press/spirit/20050610a.html}{\includegraphics[max width=0.8\linewidth]{../images/mars_sunset.jpg}}\]
+\[\href{http://marsrovers.nasa.gov/gallery/press/spirit/20050610a.html}{\includegraphics[max width=0.65\linewidth]{../images/mars_sunset.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -23978,7 +24005,7 @@ its reason is fundamental to the practise of mathematics.}
 \href{http://en.wikipedia.org/wiki/Enceladus_(moon)}{Enceladus} is a
 moon of Saturn with a cracked icy surface, twisted and buckled by tidal
 forces, hinting at mysteries beneath:
-\[\href{http://www.nasa.gov/mission_pages/cassini/multimedia/pia07800.html}{\includegraphics[max width=0.8\linewidth]{../images/enceladus.jpg}}\]
+\[\href{http://www.nasa.gov/mission_pages/cassini/multimedia/pia07800.html}{\includegraphics[max width=0.65\linewidth]{../images/enceladus.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -23992,7 +24019,7 @@ Recently the NASA space probe Cassini has been getting a good look at
 Enceladus. In March, Cassini discovered that it has geysers among the
 cracks near its south pole --- geysers that spray water right out into
 space!
-\[\href{http://saturn.jpl.nasa.gov/news/press-release-details.cfm?newsID=639}{\includegraphics[max width=0.8\linewidth]{../images/enceladus_geyser.jpg}}\]
+\[\href{http://saturn.jpl.nasa.gov/news/press-release-details.cfm?newsID=639}{\includegraphics[max width=0.65\linewidth]{../images/enceladus_geyser.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -24010,7 +24037,7 @@ The water freezes in microscopic crystals, which replenish Saturn's
 ring} --- a diffuse bluish ring that was previously a mystery.
 
 The currently popular theory for the geysers looks like this:
-\[\href{http://www.nasa.gov/mission_pages/cassini/multimedia/pia07799.html}{\includegraphics[max width=0.8\linewidth]{../images/enceladus_geyser_model.jpg}}\]
+\[\href{http://www.nasa.gov/mission_pages/cassini/multimedia/pia07799.html}{\includegraphics[max width=0.65\linewidth]{../images/enceladus_geyser_model.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -24191,7 +24218,7 @@ so compressed that separate water molecules no longer exist! Instead,
 the oxygen atoms form a body-centered cubic. This means they lie at the
 corners of a lattice of cubes, but with one at the center of each cube
 too, like the red dots in this picture by Cavazzoni:
-\[\includegraphics[max width=0.8\linewidth]{../images/cavazzoni_ice_X.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/cavazzoni_ice_X.jpg}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -24214,7 +24241,7 @@ tetrahedron.
 
 A body-centered cubic can also be visualized as two interpenetrating
 cubic lattices, labelled A and B here:
-\[\includegraphics[max width=0.8\linewidth]{../images/cavazzoni_ice_X_2.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/cavazzoni_ice_X_2.jpg}\]
 
 Each oxygen has 4 hydrogens next to it. If you compress water a bit less
 than enough to make
@@ -24252,7 +24279,7 @@ People have done computer simulations to study this:
   \texttt{http://www.sciencemag.org/cgi/content/full/283/5398/44}
 \end{enumerate}
 
-\[\includegraphics[max width=0.8\linewidth]{../images/cavazzoni_ice_phases.png}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/cavazzoni_ice_phases.png}\]
 
 It seems that when you heat up
 \href{http://www.lsbu.ac.uk/water/ice_vii.html\#iceten}{ice X}, it goes
@@ -24590,7 +24617,7 @@ first, let's have the astronomy picture of the week.
 
 This week it comes, not from outer space, but beneath the surface of the
 South Pole:
-\[\href{http://icecube.wisc.edu/gallery/detector_concepts/ceren_hires}{\includegraphics[max width=0.8\linewidth]{../images/ice_cube.jpg}}\]
+\[\href{http://icecube.wisc.edu/gallery/detector_concepts/ceren_hires}{\includegraphics[max width=0.65\linewidth]{../images/ice_cube.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -24619,7 +24646,7 @@ One thing the artist's impression doesn't show is that IceCube is
 amazingly large. The whole array is a cubic kilometer in size! It will
 encompass the already existing AMANDA detector, itself 10,000 meters
 tall, shown as a yellow cylinder here with a neutrino zipping through:
-\[\href{http://icecube.wisc.edu/gallery/detector_concepts/icecubeencomp_300}{\includegraphics[max width=0.8\linewidth]{../images/ice_cube_AMANDA.jpg}}\]
+\[\href{http://icecube.wisc.edu/gallery/detector_concepts/icecubeencomp_300}{\includegraphics[max width=0.65\linewidth]{../images/ice_cube_AMANDA.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -24633,7 +24660,7 @@ tall, shown as a yellow cylinder here with a neutrino zipping through:
 Even the very top of IceCube is 1.4 kilometers beneath the snowy
 Antarctic surface, to minimize the effect of stray cosmic rays. The
 station on top looks like this --- not very cozy, I'd say:
-\[\href{http://icecube.wisc.edu/gallery/antarctica/PC140287_300}{\includegraphics[max width=0.8\linewidth]{../images/south_pole_station.jpg}}\]
+\[\href{http://icecube.wisc.edu/gallery/antarctica/PC140287_300}{\includegraphics[max width=0.65\linewidth]{../images/south_pole_station.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -24849,7 +24876,7 @@ particle in 3d gravity, it gets rotated!
 If \(p\) is timelike, our particle is a tachyon and \(\exp(p)\) is a
 Lorentz boost. And so on\ldots{} we get the usual classification of
 particles corresponding to various choices of \(p\):
-\[\includegraphics[max width=0.8\linewidth]{../images/lightcone.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/lightcone.jpg}\]
 
 There are other equations of motion, obtained by varying other fields,
 but all I want to note is the one you get by varying \(q\):
@@ -24944,7 +24971,7 @@ braid: \[
 these group elements by doing parallel transport around loops that
 circle our particles. When we move our particles, the loops get dragged
 along, like this:
-\[\includegraphics[max width=0.8\linewidth]{../images/particles_braiding.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/particles_braiding.jpg}\]
 Note that the left-hand red loop moves until it looks just like the
 right one did initially, but the right-hand one gets wrapped around the
 left one. If you ponder this carefully, and you know some math, you can
@@ -24991,7 +25018,7 @@ spacetime.
 
 They can also braid around each other in topologically nontrivial ways,
 as shown in this ``movie'':
-\[\includegraphics[max width=0.8\linewidth]{../images/loopbraid.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/loopbraid.jpg}\]
 (By the way, all the math pictures this week were drawn by Derek for our
 paper.)
 
@@ -25002,7 +25029,7 @@ take our spacetime M to be \(\mathbb{R}^4\), to keep things simple. Then
 our circles can move around in \(\mathbb{R}^3\)\ldots{} and there are
 two basic ways we can switch two of them: move them around each other,
 or pass one \emph{through} the other, like this:
-\[\includegraphics[max width=0.8\linewidth]{../images/loop_switch.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/loop_switch.jpg}\]
 If we just move them around each other, they might as well have been
 point particles: we get a copy of the permutation group, and all we see
 are ordinary statistics. But when we consider all the ways of passing
@@ -25884,7 +25911,7 @@ in spacetime! I spoke about these in \protect\hyperlink{week181}{``Week
 
 More recently, Moore and Michael Nauenberg have found solutions with
 cubic symmetry and vanishing angular momentum, and made movies of these:
-\[\includegraphics[max width=0.8\linewidth]{../images/cris_moore_cube.png}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/cris_moore_cube.png}\]
 For the mathematical details, try this:
 
 \begin{enumerate}
@@ -26675,7 +26702,7 @@ and music theory. Could Klein's quartic curve play a role? Remember from
 \protect\hyperlink{week215}{``Week 215''} and
 \protect\hyperlink{week219}{``Week 219''} that this 3-holed torus can be
 nicely tiled by 24 regular heptagons:
-\[\includegraphics[max width=0.8\linewidth]{../images/Klein168.png}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/Klein168.png}\]
 Its orientation-preserving symmetries form the group
 \(\mathrm{PSL}(2,7)\), which consists of all \(2x2\) matrices with
 determinant \(1\) having entries in \(\mathbb{Z}/7\), modulo scalars.
@@ -27601,7 +27628,7 @@ Raymond Laflamme gave me a fun tour of the labs, especially the setup
 where he's using nuclear magnetic resonance to control the spins of
 three carbon-13 nuclei in a substance called malonic acid. Each molecule
 is its own little quantum computer:
-\[\includegraphics[max width=0.8\linewidth]{../images/malonic_acid.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/malonic_acid.jpg}\]
 This picture was drawn by Osama Moussa, a grad student working with
 Laflamme on this project. The black spheres are carbons, the whites are
 hydrogens and the blues are oxygens.
@@ -27667,7 +27694,7 @@ Eventually they want to send them from satellites down to the Earth. But
 as a warmup, they'll send beams of entangled photons from an
 intermediate building to the Institute of Quantum Computing and the
 Perimeter Institute.
-\[\href{http://www.iqc.ca/laboratories/peg/free_space.php}{\includegraphics[max width=0.8\linewidth]{../images/cryptomap.png}}\]
+\[\href{http://www.iqc.ca/laboratories/peg/free_space.php}{\includegraphics[max width=0.65\linewidth]{../images/cryptomap.png}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -28550,7 +28577,7 @@ thick as the previous page. You can tell a nice long story with an
 encyclopedia with \(\omega\) volumes, each being an \(\omega\)-sized
 book, each half as thick as the previous volume. Then you have
 \(\omega^2\) pages --- and it can still fit in one bookshelf!
-\[\includegraphics[max width=0.8\linewidth]{../images/omega_squared.png}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/omega_squared.png}\]
 
 What comes next? Well, we have \[\omega^2+1, \omega^2+2, \ldots\] and so
 on, and after all these come
@@ -29205,7 +29232,7 @@ Oxyrhynchus (see \protect\hyperlink{week221}{``Week 221''}), and a
 couple more in the Fayum region near the Nile. All these were written
 centuries after Euclid died. Here's one from Oxyrhynchus, photographed
 by Bill Casselman, who kindly let me include this picture:
-\[\includegraphics[max width=0.8\linewidth]{../images/euclid_oxyrhynchus.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/euclid_oxyrhynchus.jpg}\]
 What math is being discussed here? What's that red ``29'' doing there?
 For the answer to these and other questions, check out his website!
 
@@ -29442,7 +29469,7 @@ fraction is in this subset. As a consequence, you can also write a
 computer program that lists the fractions in this set.
 
 It's pretty obvious how to do this for \(\omega^2\):
-\[\includegraphics[max width=0.8\linewidth]{../images/omega_squared.png}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/omega_squared.png}\]
 But you can do it for any one of the ordinals I mentioned! David Madore
 has drawn a picture of \(\varepsilon_0\), for example.
 
@@ -29987,7 +30014,7 @@ My alphabet starts where your alphabet ends!''}
 
 This Week I'd like to talk about math books in Shanghai, and Urs
 Schreiber's blog entry on the gauge \(3\)-group of M-theory. But first:
-\[\includegraphics[max width=0.8\linewidth]{../images/klein_quartic_egan.png}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/klein_quartic_egan.png}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -30644,7 +30671,7 @@ Markevitch and company have been studying the ``Bullet Cluster'', a
 bunch of galaxies that has a small bullet-shaped subcluster zipping away
 from the center at 4,500 kilometers per second. Here's a picture of it
 from the above paper:
-\[\href{http://cxc.harvard.edu/symposium_2005/proceedings/theme_energy.html#abs23}{\includegraphics[max width=0.8\linewidth]{../images/bullet_cluster.jpg}}\]
+\[\href{http://cxc.harvard.edu/symposium_2005/proceedings/theme_energy.html#abs23}{\includegraphics[max width=0.65\linewidth]{../images/bullet_cluster.jpg}}\]
 To help you understand this picture a bit: the official name of the
 Bullet Cluster is 1E0657-56. The ``exposure'' for this X-ray photograph
 taken by Chanda was apparently 0.5 million seconds --- 140 hours! The
@@ -30673,7 +30700,7 @@ dark matter bending the light from more distant galaxies! It's called
 ``gravitational lensing''. Here are the mass density contours, as seen
 by this effect. I guess Clowe took this photo using the Hubble Space
 Telescope:
-\[\href{http://cxc.harvard.edu/symposium_2005/proceedings/theme_energy.html#abs23}{\includegraphics[max width=0.8\linewidth]{../images/bullet_cluster_lensing.jpg}}\]
+\[\href{http://cxc.harvard.edu/symposium_2005/proceedings/theme_energy.html#abs23}{\includegraphics[max width=0.65\linewidth]{../images/bullet_cluster_lensing.jpg}}\]
 So: X-rays show the gas in one place, but gravity shows most of the mass
 is somewhere else --- two lumps zipping along unstopped. That's good
 evidence that dark matter is for real.
@@ -30729,7 +30756,7 @@ matter particles. I will review these and other related results.
 The Bullet Cluster is not the only direct evidence for dark matter. In
 fact, last year folks claimed to have found a ``ghost galaxy'' made
 mainly of dark matter and cold hydrogen, with very few stars:
-\[\href{http://www2.naic.edu/~rminchin/press/}{\includegraphics[max width=0.8\linewidth]{../images/ghost_galaxy.jpg}}\]
+\[\href{http://www2.naic.edu/~rminchin/press/}{\includegraphics[max width=0.65\linewidth]{../images/ghost_galaxy.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -30761,7 +30788,7 @@ basic building block of spacetime in 3d quantum gravity --- as a
 function of the cosmological constant.
 
 They get pictures like this:
-\[\includegraphics[max width=0.8\linewidth]{../images/tet4-real-med.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/tet4-real-med.jpg}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -31237,7 +31264,7 @@ writing in Mesopotamia:
 
 Before people in the Near East wrote on clay tablets, there were
 ``tokens'':
-\[\includegraphics[max width=0.8\linewidth]{../images/tokens.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/tokens.jpg}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -31267,7 +31294,7 @@ Later, these marks were simply drawn on tablets. Eventually they gave up
 on the tokens --- a triumph of convenience over security. The marks on
 tablets then developed into the Babylonian number system! The
 transformation was complete by 3000 BC.
-\[\href{http://www.gap-system.org/~history/HistTopics/Babylonian_numerals.html}{\includegraphics[max width=0.8\linewidth]{../images/Babylonian_symbols.png}}\]
+\[\href{http://www.gap-system.org/~history/HistTopics/Babylonian_numerals.html}{\includegraphics[max width=0.65\linewidth]{../images/Babylonian_symbols.png}}\]
 So, five millennia of gradual abstraction led to the writing of numbers!
 From three tokens representing jars of oil, we eventually reach the
 abstract number ``3'' applicable to anything.
@@ -31541,7 +31568,7 @@ now:
 There's a lot of tricky physics in this business. Consider, for example,
 this graph of cycles governing the Earth's precession, the obliquity of
 its orbit, and the eccentricity of its orbit:
-\[\includegraphics[max width=0.8\linewidth]{../images/Milankovitch_Variations.png}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/Milankovitch_Variations.png}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -31767,7 +31794,7 @@ holodeck games.
 
 In Star Trek, the ``holodeck'' is a virtual reality environment where
 you can play various games:
-\[\href{http://www.startrek.com/startrek/view/library/technology/article/105222.html}{\includegraphics[max width=0.8\linewidth]{../images/holodeck.jpg}}\]
+\[\href{http://www.startrek.com/startrek/view/library/technology/article/105222.html}{\includegraphics[max width=0.65\linewidth]{../images/holodeck.jpg}}\]
 On the holodeck, if you regret a move you made, you can back up to any
 earlier point in the game and make a new move.
 
@@ -32613,13 +32640,13 @@ into the sky.
 
 On the drive to Livingston, Jorge pointed out the forests that surround
 the town. These forests are being logged:
-\[\includegraphics[max width=0.8\linewidth]{../images/ligo_0.jpg}\] I
+\[\includegraphics[max width=0.65\linewidth]{../images/ligo_0.jpg}\] I
 asked him about this --- when I last checked, the vibrations from
 falling trees were making it impossible to look for gravitational waves
 except at night! He said they've added a ``hydraulic external
 pre-isolator'' to shield the detector from these vibrations ---
 basically a super-duper shock absorber:
-\[\includegraphics[max width=0.8\linewidth]{../images/hepi.jpg}\] Now
+\[\includegraphics[max width=0.65\linewidth]{../images/hepi.jpg}\] Now
 they can operate LIGO day and night.
 
 I also asked him how close LIGO had come to the sensitivity levels they
@@ -32657,9 +32684,9 @@ let in. Our guide, Joe Giaime, was running a bit a late, so we walked
 over and looked at the interferometer's arms, each of which stretched
 off beyond sight, 2.5 kilometers of concrete tunnel surrounding the
 evacuated piping --- the world's largest vacuum facility:
-\[\includegraphics[max width=0.8\linewidth]{../images/ligo_1.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/ligo_1.jpg}\]
 Schoolkids have been invited to paint pictures on some of these pipes:
-\[\includegraphics[max width=0.8\linewidth]{../images/ligo_2.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/ligo_2.jpg}\]
 
 One can tell this is the South. The massive construction caused pools of
 water to form in the boggy land near the facility, and these pools then
@@ -32685,10 +32712,10 @@ When Joe showed up, I got to see the main control room, which is dimly
 lit, full of screens indicating noise and sensitivity levels of all
 sorts --- and even some video monitors showing the view down the laser
 tube:
-\[\includegraphics[max width=0.8\linewidth]{../images/ligo_3.jpg}\] This
-is where the people on duty hang out --- you can see those video
+\[\includegraphics[max width=0.65\linewidth]{../images/ligo_3.jpg}\]
+This is where the people on duty hang out --- you can see those video
 monitors on top:
-\[\includegraphics[max width=0.8\linewidth]{../images/ligo_4.jpg}\] One
+\[\includegraphics[max width=0.65\linewidth]{../images/ligo_4.jpg}\] One
 of them had brought his sons, in a feeble attempt to dispose of the huge
 supply of Halloween candy that had somehow collected here.
 
@@ -32705,7 +32732,7 @@ workings are all sealed off, in vacuum. The optics are far more
 complicated than my description --- ``a laser bouncing between two
 suspended mirrors'' --- could possibly suggest. But, all I got to see
 was a chart showing how they work:
-\[\includegraphics[max width=0.8\linewidth]{../images/ligo_5.jpg}\] Oh
+\[\includegraphics[max width=0.65\linewidth]{../images/ligo_5.jpg}\] Oh
 well. I'm glad I don't need to understand this stuff in detail. It was
 fun to get a peek.
 
@@ -32769,7 +32796,7 @@ Mysterium Cosmographicum, written in 1596.
 
 I then went on to discuss the \(120\)-cell, which gives a way of
 chopping a spherical universe into 120 dodecahedra.
-\[\includegraphics[max width=0.8\linewidth]{../images/Stereographic_polytope_120cell_faces.png}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/Stereographic_polytope_120cell_faces.png}\]
 
 This leads naturally to the Poincare homology sphere, a closely related
 3-dimensional manifold made by gluing together opposite sides of
@@ -32830,7 +32857,7 @@ invented by the Pythagoreans. You should never say things like this
 unless you want to get corrected!
 
 Dan Piponi pointed out this dodecahedral virus:
-\[\href{http://www.nature.com/nsmb/journal/v8/n1/pdf/nsb0101_77.pdf}{\includegraphics[max width=0.8\linewidth]{../images/pariacoto_virus.jpg}}\]
+\[\href{http://www.nature.com/nsmb/journal/v8/n1/pdf/nsb0101_77.pdf}{\includegraphics[max width=0.65\linewidth]{../images/pariacoto_virus.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -32849,7 +32876,7 @@ the second is 50 angstroms long.
 Garett Leskowitz pointed out the molecule ``dodecahedrane'', with 20
 carbons at the vertices of a dodecahedron and 20 hydrogens bonded to
 these:
-\[\href{http://en.wikipedia.org/wiki/Image:Dodecahedran.png}{\includegraphics[max width=0.8\linewidth]{../images/Dodecahedran.png}}\]
+\[\href{http://en.wikipedia.org/wiki/Image:Dodecahedran.png}{\includegraphics[max width=0.65\linewidth]{../images/Dodecahedran.png}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -32862,8 +32889,8 @@ these:
 
 This molecule hasn't been found in nature yet, but chemists can
 synthesize it using reactions like these:
-\[\href{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=346698}{\includegraphics[max width=0.8\linewidth]{../images/dodecahedrane_synthesis_1.jpg}}\]
-\[\href{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=346698}{\includegraphics[max width=0.8\linewidth]{../images/dodecahedrane_synthesis_2.jpg}}\]
+\[\href{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=346698}{\includegraphics[max width=0.65\linewidth]{../images/dodecahedrane_synthesis_1.jpg}}\]
+\[\href{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=346698}{\includegraphics[max width=0.65\linewidth]{../images/dodecahedrane_synthesis_2.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -32890,7 +32917,7 @@ But, even here I made a mistake. The Pythagoreans seem not to have been
 the first to discover the dodecahedron. John McKay told me that stone
 spheres with Platonic solids carved on them have been found in Scotland,
 dating back to around 2000 BC!
-\[\href{http://arxiv.org/abs/math-ph/0303071}{\includegraphics[max width=0.8\linewidth]{../images/blocks.png}}\]
+\[\href{http://arxiv.org/abs/math-ph/0303071}{\includegraphics[max width=0.65\linewidth]{../images/blocks.png}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -32918,7 +32945,7 @@ The pyritohedron is interesting in itself, so before I turn to some
 really fancy math, let me talk a bit about this guy. Since pyrite is
 fundamentally a cubic crystal, the pyritohedron is basically made out of
 little cubic cells, as shown here:
-\[\href{http://www.uwgb.edu/dutchs/symmetry/isometuc.htm}{\includegraphics[max width=0.8\linewidth]{../images/pyritohedron.png}}\]
+\[\href{http://www.uwgb.edu/dutchs/symmetry/isometuc.htm}{\includegraphics[max width=0.65\linewidth]{../images/pyritohedron.png}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -32964,7 +32991,7 @@ rectangle in the \(xz\) plane, and a rectangle in the \(yz\) plane.
 These points are also corners of an icosahedron! It's not a regular
 icosahedron, though. It's probably the ``pseudoicosahedron'' shown in
 Steven Dutch's site above:
-\[\href{http://www.uwgb.edu/dutchs/symmetry/isometuc.htm}{\includegraphics[max width=0.8\linewidth]{../images/pseudoicosahedron.png}}\]
+\[\href{http://www.uwgb.edu/dutchs/symmetry/isometuc.htm}{\includegraphics[max width=0.65\linewidth]{../images/pseudoicosahedron.png}}\]
 Apparently iron pyrite can also form a pseudoicosahedron --- see
 ``Pyrite No.~7'' on the mindat.org website above. Does anyone have
 actual photos?
@@ -32977,7 +33004,7 @@ number \(2\) by the golden ratio \(\Phi = (\sqrt{5} + 1)/2\): \[
   \\(0,\Phi,1) \quad (0,\Phi,-1) \quad (0,-\Phi,1) \quad (0,-\Phi,-1)  
   \end{gathered}
 \] Now our rectangles are golden rectangles:
-\[\href{http://en.wikipedia.org/wiki/Icosahedron#Cartesian_coordinates}{\includegraphics[max width=0.8\linewidth]{../images/Icosahedron-golden-rectangles.png}}\]
+\[\href{http://en.wikipedia.org/wiki/Icosahedron#Cartesian_coordinates}{\includegraphics[max width=0.65\linewidth]{../images/Icosahedron-golden-rectangles.png}}\]
 
 Since the pseudoicosahedron does a cheap imitation of this trick, with
 the number 2 replacing the golden ratio, the number 2 deserves to be
@@ -33011,7 +33038,7 @@ a fool would think \(2/1\) is the golden ratio.
 However, this is not the most foolish of all dodecahedra! The case
 \(A = 1\) and \(B = 1\) gives the rhombic dodecahedron, which doesn't
 even have pentagonal faces:
-\[\href{http://en.wikipedia.org/wiki/Rhombic_dodecahedron}{\includegraphics[max width=0.8\linewidth]{../images/180px-Rhombicdodecahedron.png}}\]
+\[\href{http://en.wikipedia.org/wiki/Rhombic_dodecahedron}{\includegraphics[max width=0.65\linewidth]{../images/180px-Rhombicdodecahedron.png}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -33352,7 +33379,7 @@ nanoparticles occur in nature, while dodecahedrane seems to be unstable.
 
 My friend Geoffrey Dixon contributed these pictures of Platonic life
 forms:
-\[\includegraphics[max width=0.8\linewidth]{../images/platonic_lifeforms.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/platonic_lifeforms.jpg}\]
 They look a bit like Ernst Haeckel's pictures from his book
 ``Kunstformen der Natur'' (artforms of nature).
 
@@ -33421,7 +33448,7 @@ let's start with some cool astronomy pictures!
 
 Here's a photo of Saturn, Saturn's rings, and its moon Dione, taken by
 the Cassini orbiter in October last year:
-\[\includegraphics[max width=0.8\linewidth]{../images/dione_ring.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/dione_ring.jpg}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -33439,7 +33466,7 @@ the third the size of our Moon.
 
 Here's a photo of Saturn, its rings, and its moon Mimas, taken in
 November 2004:
-\[\includegraphics[max width=0.8\linewidth]{../images/mimas_ring_big.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/mimas_ring_big.jpg}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -33548,7 +33575,7 @@ The idea of LISA is to put 3 satellites in a huge equilateral triangle
 following the Earth in its orbit around the Sun, and bounce lasers
 between them to detect gravitational waves (see
 \protect\hyperlink{week143}{``Week 143''}):
-\[\href{http://lisa.jpl.nasa.gov/STRATEGY/getThere.html}{\includegraphics[max width=0.8\linewidth]{../images/LISA_orbit.png}}\]
+\[\href{http://lisa.jpl.nasa.gov/STRATEGY/getThere.html}{\includegraphics[max width=0.65\linewidth]{../images/LISA_orbit.png}}\]
 This would avoid the ground noise that plagues LIGO (see
 \protect\hyperlink{week241}{``Week 241''}), and it could detect waves of
 much lower frequencies. If all works well, it could see gravitational
@@ -33610,10 +33637,10 @@ This could study Earth-like planets orbiting stars up to 45 light years
 away. It would consist of two observatories: a visible-light
 ``coronagraph'' that blocks out the light from a star so it can see
 nearby fainter objects:
-\[\href{http://planetquest.jpl.nasa.gov/TPF/}{\includegraphics[max width=0.8\linewidth]{../images/tpf_coronagraph.jpg}}\]
+\[\href{http://planetquest.jpl.nasa.gov/TPF/}{\includegraphics[max width=0.65\linewidth]{../images/tpf_coronagraph.jpg}}\]
 and an infrared interferometer made of several units flying in
 formation:
-\[\href{http://planetquest.jpl.nasa.gov/TPF/}{\includegraphics[max width=0.8\linewidth]{../images/tpf_formation_flying_infrared_interferometer.jpg}}\]
+\[\href{http://planetquest.jpl.nasa.gov/TPF/}{\includegraphics[max width=0.65\linewidth]{../images/tpf_formation_flying_infrared_interferometer.jpg}}\]
 In February 2006, NASA halted work on the TPF. In June 2006, thanks to
 public pressure, Congress reinstated funding for this program and also a
 mission to Jupiter's moon Europa, which could have oceans underneath its
@@ -33682,7 +33709,7 @@ around and\ldots{} what, play golf? It's like something out of old
 science fiction!
 
 To cheer myself up again, here's a picture of the Sun:
-\[\href{http://cosmicvariance.com/2006/10/13/sun-shots/}{\includegraphics[max width=0.8\linewidth]{../images/sun_neutrinos.jpg}}\]
+\[\href{http://cosmicvariance.com/2006/10/13/sun-shots/}{\includegraphics[max width=0.65\linewidth]{../images/sun_neutrinos.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -34528,7 +34555,7 @@ to less than 1 billion years after the Big Bang, and were individually
 much brighter than current-day stars.
 
 Here's a picture of their data:
-\[\href{http://www.spitzer.caltech.edu/Media/releases/ssc2005-22/ssc2005-22a.shtml}{\includegraphics[max width=0.8\linewidth]{../images/infrared_background_first_stars.jpg}}\]
+\[\href{http://www.spitzer.caltech.edu/Media/releases/ssc2005-22/ssc2005-22a.shtml}{\includegraphics[max width=0.65\linewidth]{../images/infrared_background_first_stars.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -34621,7 +34648,7 @@ rolling a \emph{sphere} on it. Derek illustrates this with a picture of
 a hamster crawling around in a plastic ``hamster ball'', which is
 something you can actually buy for your pet hamster to let it explore
 your house without escaping or getting in trouble:
-\[\includegraphics[max width=0.8\linewidth]{../images/cartan_geometry_1.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/cartan_geometry_1.jpg}\]
 (I've read about falling cats in papers on gauge theory, but this is the
 first mathematical physics paper I've read containing the word
 ``hamster''.)
@@ -34645,7 +34672,7 @@ approximation to the spacetime we live in. But nowadays we think the
 cosmological constant is nonzero, so the Universe is expanding in a
 roughly exponential way. This makes another model geometry, ``deSitter
 spacetime'', the best one to use!
-\[\includegraphics[max width=0.8\linewidth]{../images/cartan_geometry_2.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/cartan_geometry_2.jpg}\]
 So, if we know Cartan geometry, we can use that\ldots{} and we get
 something called the MacDowell-Mansouri formulation of gravity. Or, if
 we don't want our spacetime to have lumps and bumps --- if we want it to
@@ -34945,7 +34972,7 @@ characteristic'' of the circle is zero!
 
 As you may know, Euler lived in Königsberg, a city with lots of islands
 and bridges:
-\[\href{http://www.matheory.info/konigsberg/}{\includegraphics[max width=0.8\linewidth]{../images/bridges_of_konigsberg.png}}\]
+\[\href{http://www.matheory.info/konigsberg/}{\includegraphics[max width=0.65\linewidth]{../images/bridges_of_konigsberg.png}}\]
 In fact, he published a paper in 1736 showing that you can't walk around
 Königsberg and cross each bridge exactly once, winding up where you
 started. My crazy theory is that living there also helped him invent the
@@ -35336,7 +35363,7 @@ This is a tribute to the great geometer H. S. M. Coxeter, master of
 polyhedra, who worked for 60 years at the University of Toronto after
 studying philosophy at Cambridge under Wittgenstein. You'll also find
 Coxeter's piano sitting at the base of the spiral staircase.
-\[\includegraphics[max width=0.8\linewidth]{../images/fields_piano.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/fields_piano.jpg}\]
 It's out of tune, but resting on it there's a wonderful strange portrait
 of him playing the very same piano --- at the age of three. He looks a
 bit like the child Mozart. And indeed, at the age of 12 Coxeter composed
@@ -36330,7 +36357,7 @@ Symmetry has fascinated us throughout the ages. Greek settlers in Sicily
 may have seen irregular 12-sided crystals of pyrite in Sicily and dreamt
 up the regular dodecahedron simply because it was more beautiful, more
 symmetrical.
-\[\href{www.minerals.net/mineral/sulfides/pyrite/pyrite.htm}{\includegraphics[max width=0.8\linewidth]{../images/pyrite.jpg}}\]
+\[\href{www.minerals.net/mineral/sulfides/pyrite/pyrite.htm}{\includegraphics[max width=0.65\linewidth]{../images/pyrite.jpg}}\]
 The Alhambra, a Moorish palace in Granada built around 1300, has tile
 patterns with at least 13 of the 17 possible symmetry groups:
 
@@ -36377,11 +36404,11 @@ Here's an example from the
 al-Daula mausoleum} in the Indian city of Agra, built by Islamic
 conquerors in 1622 - together with a more mathematical version
 constructed by Lu and Steinhardt:
-\[\href{http://www.physics.harvard.edu/~plu/publications/Science_315_1106_2007_SOM.pdf}{\includegraphics[max width=0.8\linewidth]{../images/quasicrystal_I'timid_al-Daula.jpg}}\]
+\[\href{http://www.physics.harvard.edu/~plu/publications/Science_315_1106_2007_SOM.pdf}{\includegraphics[max width=0.65\linewidth]{../images/quasicrystal_I'timid_al-Daula.jpg}}\]
 Here's another, from the
 \href{http://archnet.org/library/sites/one-site.tcl?site_id=8380}{Darb-i
 Imam shrine} in Isfahan, Iran, also built in the 1600s:
-\[\href{http://www.physics.harvard.edu/~plu/publications/Science_315_1106_2007_SOM.pdf}{\includegraphics[max width=0.8\linewidth]{../images/quasicrystal_Darb-i_Imam.jpg}}\]
+\[\href{http://www.physics.harvard.edu/~plu/publications/Science_315_1106_2007_SOM.pdf}{\includegraphics[max width=0.65\linewidth]{../images/quasicrystal_Darb-i_Imam.jpg}}\]
 This came as a big surprise, since everyone had \emph{thought} that the
 math behind quasicrystals was first discovered by Penrose around 1974,
 then seen in nature by Shechtman, Blech, Gratias and Cahn in 1983. It
@@ -36408,7 +36435,7 @@ something called the American Institute of Mathematics. The headquarters
 was in a Fry's store in Palo Alto --- not very romantic. But last year,
 this institute announced plans to move to a full-scale replica of the
 Alhambra!
-\[\href{http://aimath.org/about/morganhill.html}{\includegraphics[max width=0.8\linewidth]{../images/aim_alhambra.jpg}}\]
+\[\href{http://aimath.org/about/morganhill.html}{\includegraphics[max width=0.65\linewidth]{../images/aim_alhambra.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -36486,7 +36513,7 @@ lattice''. It's an easy exercise to check that each sphere touches 24
 others. The centers of these 24 are the vertices of a marvelous shape
 called the ``\(24\)-cell'' --- one of the six \(4\)-dimensional Platonic
 solids. It looks like this:
-\[\href{https://math.ucr.edu/home/baez/octonions/conway_smith/}{\includegraphics[max width=0.8\linewidth]{../images/24_cell.jpg}}\]
+\[\href{https://math.ucr.edu/home/baez/octonions/conway_smith/}{\includegraphics[max width=0.65\linewidth]{../images/24_cell.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -36519,7 +36546,7 @@ the ``\(\mathrm{D}_5\) lattice'', by definition. This gives the densest
 known packing of spheres in 5 dimensions. In this packing, each sphere
 has 40 nearest neighbors. The centers of these nearest neighbors are the
 vertices of a solid that looks like this:
-\[\href{http://www.math.lsa.umich.edu/~jrs/}{\includegraphics[max width=0.8\linewidth]{../images/d5_stembridge.jpg}}\]
+\[\href{http://www.math.lsa.umich.edu/~jrs/}{\includegraphics[max width=0.65\linewidth]{../images/d5_stembridge.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -36551,7 +36578,7 @@ densest known packings of spheres in 6 and 7 dimensions!
 
 In the \(\mathrm{E}_6\) lattice, each sphere has 72 nearest neighbors.
 They form the vertices of a solid that looks like this:
-\[\href{http://www.math.lsa.umich.edu/~jrs/}{\includegraphics[max width=0.8\linewidth]{../images/e6_stembridge.jpg}}\]
+\[\href{http://www.math.lsa.umich.edu/~jrs/}{\includegraphics[max width=0.65\linewidth]{../images/e6_stembridge.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -36564,7 +36591,7 @@ They form the vertices of a solid that looks like this:
 
 In the \(\mathrm{E}_7\) lattice, each sphere has 126 nearest neighbors.
 They form the vertices of a solid like this:
-\[\href{http://www.math.lsa.umich.edu/~jrs/}{\includegraphics[max width=0.8\linewidth]{../images/e7_stembridge.jpg}}\]
+\[\href{http://www.math.lsa.umich.edu/~jrs/}{\includegraphics[max width=0.65\linewidth]{../images/e7_stembridge.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -36577,7 +36604,7 @@ They form the vertices of a solid like this:
 
 In the \(\mathrm{E}_8\) lattice, each sphere has 240 nearest neighbors.
 They form the vertices of a solid like this:
-\[\href{http://www.math.lsa.umich.edu/~jrs/}{\includegraphics[max width=0.8\linewidth]{../images/e8_stembridge_small.jpg}}\]
+\[\href{http://www.math.lsa.umich.edu/~jrs/}{\includegraphics[max width=0.65\linewidth]{../images/e8_stembridge_small.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -36957,7 +36984,7 @@ the \(\mathrm{D}_4\) root system (that is, the \(24\)-cell) viewed from
 the Coxeter plane. The \(\mathrm{D}_4\) root system is
 \(4\)-dimensional, but it's been drawn with a bit of 3d perspective. The
 6-fold symmetry is evident:
-\[\includegraphics[max width=0.8\linewidth]{../images/24-cell.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/24-cell.jpg}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -37032,7 +37059,7 @@ service:
 So, it's not only fun but also practical to understand coronal mass
 ejections. Here's a movie of one taken by the Solar and Heliospheric
 observatory (SOHO):
-\[\includegraphics[max width=0.8\linewidth]{../images/coronal_mass_ejection.png}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/coronal_mass_ejection.png}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -37090,7 +37117,7 @@ witches' brew of strange phenomena.
 In fact, this subject is puzzling even to experts. For example, why is
 the Sun's upper atmosphere --- the corona --- so hot? Here's a picture
 of the Sun in X-rays taken by another satellite:
-\[\href{http://trace.lmsal.com/POD/TRACEpodarchive26.html}{\includegraphics[max width=0.8\linewidth]{../images/solar_corona_TRACE.jpg}}\]
+\[\href{http://trace.lmsal.com/POD/TRACEpodarchive26.html}{\includegraphics[max width=0.65\linewidth]{../images/solar_corona_TRACE.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -37126,7 +37153,7 @@ that movie above. For more, try this:
 A new satellite called Hinode is getting a good look at what's going on,
 and it seems the magnetic field on the Sun's surface is much more
 dynamic than before thought:
-\[\href{http://www.nasa.gov/mission_pages/solar-b/}{\includegraphics[max width=0.8\linewidth]{../images/solar_flare_hinode.jpg}}\]
+\[\href{http://www.nasa.gov/mission_pages/solar-b/}{\includegraphics[max width=0.65\linewidth]{../images/solar_flare_hinode.jpg}}\]
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -37390,7 +37417,7 @@ A great example is Felix Klein's ``Erlangen program'' --- a plan for
 reducing many sorts of geometry to group theory. Many people tip their
 hat to the Erlanger program, but few seem to deeply understand it, and
 even fewer seem to have read what Klein actually wrote about it!
-\[\href{http://www-history.mcs.st-andrews.ac.uk/PictDisplay/Klein.html}{\includegraphics[max width=0.8\linewidth]{../images/Felix_Klein.jpg}}\]
+\[\href{http://www-history.mcs.st-andrews.ac.uk/PictDisplay/Klein.html}{\includegraphics[max width=0.65\linewidth]{../images/Felix_Klein.jpg}}\]
 The problem goes back a long ways. In 1871, while at Göttingen, Klein
 worked on non-Euclidean geometry, and showed that hyperbolic geometry
 was consistent if and only if Euclidean geometry was. In the process, he
@@ -37803,7 +37830,7 @@ France, at a conference organized by Alexei Grinbaum and Michel Bitbol:
   \texttt{http://www-drecam.cea.fr/Phocea/Vie\_des\_labos/Ast/ast\_visu.php?id\_ast=762}
 \end{enumerate}
 
-\[\includegraphics[max width=0.8\linewidth]{../images/les_treilles.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/les_treilles.jpg}\]
 It's very beautiful here, but about 20 philosophers, physicists and
 mathematicians have agreed to spend six days indoors discussing quantum
 gravity, the history of relativity, quantum information theory and the

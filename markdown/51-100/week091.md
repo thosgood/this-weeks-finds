@@ -169,4 +169,3 @@ in its most fundamental aspect is four-dimensional"*
 >
 > --- Albert North Whitehead.
 
-------------------------------------------------------------------------

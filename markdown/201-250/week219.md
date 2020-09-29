@@ -135,7 +135,7 @@ Here's a picture of what these spacecraft are doing:
 
 5) NASA, Pioneer path, `http://spaceprojects.arc.nasa.gov/Space_Projects/pioneer/path.html`
 
-$$\includegraphics[max width=0.8\linewidth]{../images/pioneer.png}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/pioneer.png}$$
 
 See how they'll eventually pass through a bubble called the
 "termination shock"? That's where the solar wind drops below
@@ -310,7 +310,7 @@ While I'm at it, I can't resist showing you another beautiful picture:
 
 16) Joe Christy, "Fano plane on Roman surface", `http://math.ucr.edu/home/baez/roman.jpg`
 
-$$\includegraphics[max width=0.8\linewidth]{../images/roman.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/roman.jpg}$$
 
 The blue thing is called the "Roman surface" because it was discovered
 by the mathematician Jakob Steiner while he was visiting Rome. It's a

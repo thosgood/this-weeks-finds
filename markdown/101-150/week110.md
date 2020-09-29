@@ -278,4 +278,3 @@ these objects --- simplex, associahedron (= the Stasheff polyhedron) and
 cyclohedron (= the compactification of the space of configurations of
 points on the circle)."
 
-------------------------------------------------------------------------

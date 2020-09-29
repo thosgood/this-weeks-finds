@@ -229,4 +229,3 @@ Freed's work on torsors, which are a categorified version of phases:
 
 To continue reading the "Tale of $n$-Categories", see ["Week 79"](#week79).
 
-------------------------------------------------------------------------

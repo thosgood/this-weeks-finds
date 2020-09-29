@@ -422,4 +422,3 @@ abstract:
 > galaxies maintain appreciable rates of star formation, which is
 > compatible with current observations that $\Omega = .1-.2$
 
-------------------------------------------------------------------------

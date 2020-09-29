@@ -375,4 +375,3 @@ is studying. Let me quote the abstract:
 > transformation again, making Gray-Cat only a partial
 > Gray-Cat-cateegory.
 
-------------------------------------------------------------------------

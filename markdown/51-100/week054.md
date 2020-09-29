@@ -257,4 +257,3 @@ sort of like sheaves of categories --- are too simple to interest you,
 it's time to read about 2-gerbes and 2-stacks --- which are roughly like
 sheaves of $2$-categories.
 
-------------------------------------------------------------------------

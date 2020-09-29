@@ -297,4 +297,3 @@ course, dark matter really exists.
 Anyway, there should be a lot of exciting experiments coming up. But as
 usual, the really exciting stuff will be the stuff we can't predict.
 
-------------------------------------------------------------------------

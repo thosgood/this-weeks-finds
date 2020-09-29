@@ -55,7 +55,7 @@ In fact, Cris Moore first discovered the figure-8 solution of the
 gravitational 3-body problem in his 1993 paper, using computer
 calculations. His student Michael Nauenberg made this movie of it, which
 you can find with many others on Moore's website:
-$$\includegraphics[max width=0.8\linewidth]{../images/cris-moore-figure8.png}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/cris-moore-figure8.png}$$
 Also see:
 
 5) Richard Montgomery, "The $N$-body problem, the braid group, and action-minimizing periodic solutions", _Nonlinearity_ **11** (1998), 363--371. Also available at `http://count.ucsc.edu/~rmont/papers/NbdyBraids.pdf`

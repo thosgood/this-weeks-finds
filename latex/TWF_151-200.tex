@@ -8,7 +8,7 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 
-\usepackage{geometry}
+\usepackage[margin=1.6in]{geometry}
 
 \usepackage{amsmath,amssymb}
 \usepackage[colorlinks=true]{hyperref}
@@ -50,13 +50,8 @@
 \usetikzlibrary{arrows}
 \usetikzlibrary{decorations.pathmorphing}
 
-\usepackage[framemethod=TikZ]{mdframed}
-\surroundwithmdframed[
-   topline=false,
-   bottomline=false,
-   skipabove=\topsep,
-   skipbelow=\topsep
-]{quote}
+\usepackage{etoolbox}
+\AtBeginEnvironment{quote}{\itshape}
 
 \usepackage{tikz-cd}
 
@@ -174,7 +169,7 @@ First let me review and elaborate on some basic stuff I said already. If
 G is any topological group, there is a topological space \(BG\) with a
 basepoint such that the space of loops in \(BG\) starting and ending at
 this point is homotopy equivalent to \(G\). This space \(BG\) is unique
-up to homotopy equivalence. {[}1{]}
+up to homotopy equivalence. {[}\^{}1{]}
 
 \(BG\) is important because it's the ``classifying space for
 \(G\)-bundles''. What this means is that there's a principal
@@ -302,7 +297,7 @@ homotopy equivalence! So \(LX\) is really just \(G\)!! So \(X\) is just
 \(BG\)!!!
 
 In short: if we have a space \(X\) with a principal \(G\)-bundle \(P\)
-over it, and \(P\) is contractible, \(X\) must be \(BG\). {[}2{]}
+over it, and \(P\) is contractible, \(X\) must be \(BG\). {[}\^{}2{]}
 
 Now let's use this fact to show that \(\mathbb{CP}^\infty\) is
 \(K(\mathbb{Z},2)\). Remember that by our recursive definition,
@@ -576,17 +571,16 @@ remaining errors are mine!
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-Footnotes:
+{[}\^{}1{]} I'm being sloppy here. Throughout this discussion, when I
+say ``homotopy equivalent'', I really mean ``weakly homotopy
+equivalent'' --- a technical nuance that you can read about in any good
+book on homotopy theory.
 
-{[}1{]} I'm being sloppy here. Throughout this discussion, when I say
-``homotopy equivalent'', I really mean ``weakly homotopy equivalent''
---- a technical nuance that you can read about in any good book on
-homotopy theory.
-
-{[}2{]} Moreover, \(P\) must be the universal principal \(G\)-bundle.
-Conversely, for any topological group \(G\) the total space of the
-universal principal \(G\)-bundle is contractible. Everything fits
-together very neatly! But I don't need all this stuff now.
+{[}\^{}2{]} Moreover, \(P\) must be the universal principal
+\(G\)-bundle. Conversely, for any topological group \(G\) the total
+space of the universal principal \(G\)-bundle is contractible.
+Everything fits together very neatly! But I don't need all this stuff
+now.
 
 
 
@@ -3170,20 +3164,19 @@ theory text by Green, Schwarz and Witten (see
     &- \left(\frac{1}{2k^2}\right) eR
   \\&- \left(\frac{1}{2}\right) e\psi_M^* \Gamma^{MNP} D_N\left[\frac{\omega+\omega'}{2}\right]\psi_P
   \\&- \left(\frac{1}{48}\right) eF^2
-  \\&- \left(\frac{\sqrt{2k}}{384}\right) e(\psi_M^* \Gamma^{MNPQRS}\psi_S + 12\psi^{*N}\Gamma^{PQ}\psi^R)(F+F')_{NPQR}
-  \\&- \left(\frac{\sqrt{2k}}{3456}\right) \varepsilon^{M_1\ldots M_{11}}F_{M_1\ldots M_4}F_{M_5\ldots M_8}A_{M_9\ldots M_{11}}
+  \\&- \left(\frac{\sqrt{2}k}{384}\right) e(\psi_M^* \Gamma^{MNPQRS}\psi_S + 12\psi^{*N}\Gamma^{PQ}\psi^R)(F+F')_{NPQR}
+  \\&- \left(\frac{\sqrt{2}k}{3456}\right) \varepsilon^{M_1\ldots M_{11}}F_{M_1\ldots M_4}F_{M_5\ldots M_8}A_{M_9\ldots M_{11}}
   \end{aligned}
-\] \textbf{???} \textbf{is it \(\sqrt{2k}\) or \(\sqrt{2}k\) ???}
-\textbf{is it \(M1\) or \(M_1\) or what ???} For comparison, here's the
-Lagrangian for ordinary gravity: \[L = e R\] Here \(e\) is the volume
-form and \(R\) is the Ricci scalar curvature. Of course, there is a lot
-of stuff packed into this ``\(R\)''. General relativity didn't look so
-slick when Einstein first made it up! But by now, mathematicians have
-gnawed away at it for long enough that there's a nice theory of
-differential geometry, where after a few months of work you learn about
-``\(R\)''. And after you've done this work, you realize that ``\(R\)''
-is a very natural concept. I want to get to this point for the
-Lagrangian for 11d supergravity, but I'm not there yet.
+\] For comparison, here's the Lagrangian for ordinary gravity:
+\[L = e R\] Here \(e\) is the volume form and \(R\) is the Ricci scalar
+curvature. Of course, there is a lot of stuff packed into this
+``\(R\)''. General relativity didn't look so slick when Einstein first
+made it up! But by now, mathematicians have gnawed away at it for long
+enough that there's a nice theory of differential geometry, where after
+a few months of work you learn about ``\(R\)''. And after you've done
+this work, you realize that ``\(R\)'' is a very natural concept. I want
+to get to this point for the Lagrangian for 11d supergravity, but I'm
+not there yet.
 
 You'll note that apart from a constant, the Lagrangian for 11d
 supergravity starts out basically like the Lagrangian for ordinary
@@ -16374,7 +16367,7 @@ In fact, Cris Moore first discovered the figure-8 solution of the
 gravitational 3-body problem in his 1993 paper, using computer
 calculations. His student Michael Nauenberg made this movie of it, which
 you can find with many others on Moore's website:
-\[\includegraphics[max width=0.8\linewidth]{../images/cris-moore-figure8.png}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/cris-moore-figure8.png}\]
 Also see:
 
 \begin{enumerate}
@@ -23895,7 +23888,7 @@ triangle, draw a line from each corner to the midpoint of the opposite
 side, and inscribe a circle in the triangle. Then label the corners, the
 midpoints of the edges and the center of the triangle with the unit
 imaginary octonions, any way you like:
-\[\includegraphics[max width=0.8\linewidth]{../images/fano.jpg}\] There
+\[\includegraphics[max width=0.65\linewidth]{../images/fano.jpg}\] There
 are 6 straight lines and a circle here: we call these all ``lines'', and
 call this gadget the ``Fano plane''. There are 7 points and 7 lines:
 each point lies on 3 lines, and each line goes through 3 points\ldots{}
@@ -24729,7 +24722,7 @@ all half-integers. Both these are closed under addition and
 multiplication. To get even denser lattices closed under multiplication,
 we need the octonion multiplication chart (see
 \protect\hyperlink{week104}{``Week 104''}):
-\[\includegraphics[max width=0.8\linewidth]{../images/fano.jpg}\] This
+\[\includegraphics[max width=0.65\linewidth]{../images/fano.jpg}\] This
 has 7 lines in it, if we count the circle containing \(e_1,e_2,e_4\) as
 an honorary ``line''. To get the ``double Hurwitzian integral
 octonions'', first pick one of these lines. Then, take all integral
@@ -26561,54 +26554,64 @@ that formula up there to get things to work. I'm not sure why.
 Elkies sent me the following:
 
 \begin{quote}
-\begin{verbatim}
 Dear J. Baez,
 
-In article  you write:
+In article you write:
 
->\[......\] so $(t,x,z)$ is a Pythagorean triple!!!   And in fact,
->we get every Pythagorean triple this way, at least up to
->an integer multiple.  And in fact, this trick was already
->known by Euclid.
+\begin{quote}
+{[}\ldots\ldots{]} so \((t,x,z)\) is a Pythagorean triple!!! And in
+fact, we get every Pythagorean triple this way, at least up to an
+integer multiple. And in fact, this trick was already known by Euclid.
+\end{quote}
 
-Are you sure of this?  The formula was surely known by Euclid's time --
+Are you sure of this? The formula was surely known by Euclid's time --
 I've even seen claims that it must have been known by the Babylonians
-(perhaps not a coincidence, since Pythagoras spent some time in Babylonia)
--- but did Euclid have anything like this interpretation, or the proof
-that every "Pythagorean triple" is proportional to one of this form?
+(perhaps not a coincidence, since Pythagoras spent some time in
+Babylonia) -- but did Euclid have anything like this interpretation, or
+the proof that every ``Pythagorean triple'' is proportional to one of
+this form?
 
-\[For that matter there's apparently some controversy about just who
+{[}For that matter there's apparently some controversy about just who
 Pythagoras might have been and what he might have known, believed,
-and/or proved, since secrecy was one of the Pythagoreans' tenets.\]
+and/or proved, since secrecy was one of the Pythagoreans' tenets.{]}
 
->By the way, you'll notice I had to insert a fudge factor of "$2$"
->in that formula up there to get things to work.  I'm not sure why.
+\begin{quote}
+By the way, you'll notice I had to insert a fudge factor of ``\(2\)'' in
+that formula up there to get things to work. I'm not sure why.
+\end{quote}
 
-This is presumably an artifact of the ambiguity in the
-"symmetric square of $\mathbb{Z}$".  In general, the symmetric square
-of a module $M$ can be formed as either a submodule or a quotient
-module of the tensor square of $M$.  These two symmetric squares
-are (canonically) isomorphic if $2$ is invertible, but not in general.
+This is presumably an artifact of the ambiguity in the ``symmetric
+square of \(\mathbb{Z}\)''. In general, the symmetric square of a module
+\(M\) can be formed as either a submodule or a quotient module of the
+tensor square of \(M\). These two symmetric squares are (canonically)
+isomorphic if \(2\) is invertible, but not in general.
 
-The parametrization of Pythagorean triples is also closely related
-with the "half-angle substitution" of elementary calculus.
-For yet another interpretation, see
+The parametrization of Pythagorean triples is also closely related with
+the ``half-angle substitution'' of elementary calculus. For yet another
+interpretation, see
 
-- `http://www.math.harvard.edu/~elkies/Misc/hilbert.dvi`
+\begin{itemize}
+\tightlist
+\item
+  \texttt{http://www.math.harvard.edu/\textasciitilde{}elkies/Misc/hilbert.dvi}
+\end{itemize}
 
-\[also .pdf instead of .dvi\].
+{[}also .pdf instead of .dvi{]}.
 
-The dissections that illustrate the Pythagorean theorem
-can be generalized to the law of cosines; see
+The dissections that illustrate the Pythagorean theorem can be
+generalized to the law of cosines; see
 
-- `http://www.math.harvard.edu/~elkies/Misc/cos1.ps`
-- `http://www.math.harvard.edu/~elkies/Misc/cos2.ps`
+\begin{itemize}
+\tightlist
+\item
+  \texttt{http://www.math.harvard.edu/\textasciitilde{}elkies/Misc/cos1.ps}
+\item
+  \texttt{http://www.math.harvard.edu/\textasciitilde{}elkies/Misc/cos2.ps}
+\end{itemize}
 
 for the acute and obtuse cases respectively.
 
-Enjoy,
---- Noam D. Elkies
-\end{verbatim}
+Enjoy, --- Noam D. Elkies
 \end{quote}
 
 I replied saying that by Euclid knowing ``this trick'', I only meant he
@@ -26620,22 +26623,25 @@ I don't know who proved it gives \emph{all} of them (up to multiples).
 Rob Johnson then noted:
 
 \begin{quote}
-\begin{verbatim}
 There is not any high powered math involved in showing that these are
-all the pythagorean triples up to scalar multiples.  See
+all the pythagorean triples up to scalar multiples. See
 
-- `http://www.whim.org/nebula/math/pythag.html`
+\begin{itemize}
+\tightlist
+\item
+  \texttt{http://www.whim.org/nebula/math/pythag.html}
+\end{itemize}
 
 Nothing more than the fundamental theorem of arithmetic is used (to
-justify the statement "Since $b^2 = 4MN$ and $\operatorname{gcd}(M,N) = 1$, both $M$ and $N$
-must be perfect squares."), and Euclid knew that.
+justify the statement ``Since \(b^2 = 4MN\) and
+\(\operatorname{gcd}(M,N) = 1\), both \(M\) and \(N\) must be perfect
+squares.''), and Euclid knew that.
 
 So my guess is that Euclid probably knew that this formula gives all
 pythagorean triples up to scalar multiples, but it is just a guess.
 
-Rob Johnson\
-`rob@whim.org`
-\end{verbatim}
+Rob Johnson\\
+\texttt{rob@whim.org}
 \end{quote}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
@@ -27994,19 +28000,22 @@ Hello again,
 
 You write:
 
-\begin{verbatim}
-> [...]
+\begin{quote}
+{[}\ldots{]}
+\end{quote}
 
->I'd like to wrap up with a few small comments about last Week.
->There I said a bit about a $24$-element group called the "binary 
->tetrahedral group", a $24$-element group called $\mathrm{SL}(2,\mathbb{Z}/3)$, and 
->the vertices of a regular polytope in 4 dimensions called the 
->"$24$-cell".  The most important fact is that these are all the 
->same thing!  And I've learned a bit more about this thing from 
->here:
+\begin{quote}
+I'd like to wrap up with a few small comments about last Week. There I
+said a bit about a \(24\)-element group called the ``binary tetrahedral
+group'', a \(24\)-element group called \(\mathrm{SL}(2,\mathbb{Z}/3)\),
+and the vertices of a regular polytope in 4 dimensions called the
+``\(24\)-cell''. The most important fact is that these are all the same
+thing! And I've learned a bit more about this thing from here:
+\end{quote}
 
-> [...]
-\end{verbatim}
+\begin{quote}
+{[}\ldots{]}
+\end{quote}
 
 Here's yet another way to see this: the \(24\)-cell is the subgroup of
 the unit quaternions (a.k.a. \(\mathrm{SU}(2)\)) consisting of the

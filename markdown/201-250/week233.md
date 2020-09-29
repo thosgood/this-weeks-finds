@@ -552,4 +552,3 @@ lattice $L$, and vanishes as the lattice squashes down to being
 degenerate, i.e. a discrete subgroup of $\mathbb{C}$ with one rather than two
 generators.
 
-------------------------------------------------------------------------

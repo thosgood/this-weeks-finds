@@ -765,4 +765,3 @@ Café](http://golem.ph.utexas.edu/category/2007/08/this_weeks_finds_in_mathemati
 should it be implausible that a man might supervise the construction of
 light?* - King Crimson
 
-------------------------------------------------------------------------

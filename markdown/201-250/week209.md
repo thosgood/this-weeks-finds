@@ -640,4 +640,3 @@ This last paper is:
 
 44) P. Carrasco and J. Martinez-Moreno, "Simplicial cohomology with coefficients in symmetric categorical groups", _Applied Categorical Structures_ **12** (2004), 257--286.
 
-------------------------------------------------------------------------

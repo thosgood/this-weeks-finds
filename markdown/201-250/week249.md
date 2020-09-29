@@ -9,7 +9,7 @@ A great example is Felix Klein's "Erlangen program" --- a plan for
 reducing many sorts of geometry to group theory. Many people tip their
 hat to the Erlanger program, but few seem to deeply understand it, and
 even fewer seem to have read what Klein actually wrote about it!
-$$\href{http://www-history.mcs.st-andrews.ac.uk/PictDisplay/Klein.html}{\includegraphics[max width=0.8\linewidth]{../images/Felix_Klein.jpg}}$$
+$$\href{http://www-history.mcs.st-andrews.ac.uk/PictDisplay/Klein.html}{\includegraphics[max width=0.65\linewidth]{../images/Felix_Klein.jpg}}$$
 The problem goes back a long ways. In 1871, while at Göttingen, Klein
 worked on non-Euclidean geometry, and showed that hyperbolic geometry
 was consistent if and only if Euclidean geometry was. In the process, he

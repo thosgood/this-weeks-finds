@@ -258,4 +258,3 @@ algebra!
 
     Rodolfo Gambini, Alcides Garat and Jorge Pullin, "The constraint algebra of quantum gravity in the loop representation", available as [`gr-qc/9404059`](https://arxiv.org/abs/gr-qc/9404059).
 
-------------------------------------------------------------------------

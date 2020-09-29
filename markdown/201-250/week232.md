@@ -22,7 +22,7 @@ first, let's have the astronomy picture of the week.
 
 This week it comes, not from outer space, but beneath the surface of the
 South Pole:
-$$\href{http://icecube.wisc.edu/gallery/detector_concepts/ceren_hires}{\includegraphics[max width=0.8\linewidth]{../images/ice_cube.jpg}}$$
+$$\href{http://icecube.wisc.edu/gallery/detector_concepts/ceren_hires}{\includegraphics[max width=0.65\linewidth]{../images/ice_cube.jpg}}$$
 
 1) Steve Yunck / NSF, "Cerenkov light passing through the IceCube neutrino detector", `http://icecube.wisc.edu/gallery/detector_concepts/ceren_hires`
 
@@ -44,14 +44,14 @@ One thing the artist's impression doesn't show is that IceCube is
 amazingly large. The whole array is a cubic kilometer in size! It will
 encompass the already existing AMANDA detector, itself 10,000 meters
 tall, shown as a yellow cylinder here with a neutrino zipping through:
-$$\href{http://icecube.wisc.edu/gallery/detector_concepts/icecubeencomp_300}{\includegraphics[max width=0.8\linewidth]{../images/ice_cube_AMANDA.jpg}}$$
+$$\href{http://icecube.wisc.edu/gallery/detector_concepts/icecubeencomp_300}{\includegraphics[max width=0.65\linewidth]{../images/ice_cube_AMANDA.jpg}}$$
 
 2) Darwin Rianto / NSF, "Comparison of AMANDA and IceCube", `http://icecube.wisc.edu/gallery/detector_concepts/icecubeencomp_300`
 
 Even the very top of IceCube is 1.4 kilometers beneath the snowy
 Antarctic surface, to minimize the effect of stray cosmic rays. The
 station on top looks like this --- not very cozy, I'd say:
-$$\href{http://icecube.wisc.edu/gallery/antarctica/PC140287_300}{\includegraphics[max width=0.8\linewidth]{../images/south_pole_station.jpg}}$$
+$$\href{http://icecube.wisc.edu/gallery/antarctica/PC140287_300}{\includegraphics[max width=0.65\linewidth]{../images/south_pole_station.jpg}}$$
 
 3) Robert G. Stokstad / NSF, "South Pole Station", `http://icecube.wisc.edu/gallery/antarctica/PC140287_300`
 
@@ -201,7 +201,7 @@ particle in 3d gravity, it gets rotated!
 If $p$ is timelike, our particle is a tachyon and $\exp(p)$ is a Lorentz
 boost. And so on... we get the usual classification of particles
 corresponding to various choices of $p$:
-$$\includegraphics[max width=0.8\linewidth]{../images/lightcone.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/lightcone.jpg}$$
 
 There are other equations of motion, obtained by varying other fields,
 but all I want to note is the one you get by varying $q$:
@@ -296,7 +296,7 @@ $$(g, g') \mapsto (gg'g^{-1}, g)$$
 To see this, remember that we get these group elements by doing parallel
 transport around loops that circle our particles. When we move our
 particles, the loops get dragged along, like this:
-$$\includegraphics[max width=0.8\linewidth]{../images/particles_braiding.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/particles_braiding.jpg}$$
 Note that the left-hand red loop moves until it looks just like the
 right one did initially, but the right-hand one gets wrapped around the
 left one. If you ponder this carefully, and you know some math, you can
@@ -343,7 +343,7 @@ spacetime.
 
 They can also braid around each other in topologically nontrivial ways,
 as shown in this "movie":
-$$\includegraphics[max width=0.8\linewidth]{../images/loopbraid.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/loopbraid.jpg}$$
 (By the way, all the math pictures this week were drawn by Derek for our
 paper.)
 
@@ -354,7 +354,7 @@ take our spacetime M to be $\mathbb{R}^4$, to keep things simple. Then our circl
 can move around in $\mathbb{R}^3$... and there are two basic ways we can switch
 two of them: move them around each other, or pass one *through* the
 other, like this:
-$$\includegraphics[max width=0.8\linewidth]{../images/loop_switch.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/loop_switch.jpg}$$
 If we just move them around each other, they might as well have been
 point particles: we get a copy of the permutation group, and all we see
 are ordinary statistics. But when we consider all the ways of passing

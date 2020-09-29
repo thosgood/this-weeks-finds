@@ -403,4 +403,3 @@ By now --- I'm writing this in 2009 --- it's generally agreed that the
 Barrett-Crane model is wrong and another model is better. To read about
 this new model, see ["Week 280"](#week280).
 
-------------------------------------------------------------------------

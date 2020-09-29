@@ -544,4 +544,3 @@ quantum mechanics. He writes:
 More discussion (and pictures!) can be found at the [$n$-Category
 Café](http://golem.ph.utexas.edu/category/2007/05/this_weeks_finds_in_mathematic_12.html).
 
-------------------------------------------------------------------------

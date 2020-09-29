@@ -30,7 +30,7 @@ service:
 So, it's not only fun but also practical to understand coronal mass
 ejections. Here's a movie of one taken by the Solar and Heliospheric
 observatory (SOHO):
-$$\includegraphics[max width=0.8\linewidth]{../images/coronal_mass_ejection.png}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/coronal_mass_ejection.png}$$
 
 4) NASA, "Cannibal coronal mass ejections", `http://science.nasa.gov/headlines/y2001/ast27mar_1.htm`
 
@@ -67,7 +67,7 @@ witches' brew of strange phenomena.
 In fact, this subject is puzzling even to experts. For example, why is
 the Sun's upper atmosphere --- the corona --- so hot? Here's a picture of
 the Sun in X-rays taken by another satellite:
-$$\href{http://trace.lmsal.com/POD/TRACEpodarchive26.html}{\includegraphics[max width=0.8\linewidth]{../images/solar_corona_TRACE.jpg}}$$
+$$\href{http://trace.lmsal.com/POD/TRACEpodarchive26.html}{\includegraphics[max width=0.65\linewidth]{../images/solar_corona_TRACE.jpg}}$$
 
 7) Transition Region and Coronal Explorer (TRACE), "Images of the sun", `http://trace.lmsal.com/POD/TRACEpodarchive26.html`
 
@@ -86,7 +86,7 @@ in that movie above. For more, try this:
 A new satellite called Hinode is getting a good look at what's going
 on, and it seems the magnetic field on the Sun's surface is much more
 dynamic than before thought:
-$$\href{http://www.nasa.gov/mission_pages/solar-b/}{\includegraphics[max width=0.8\linewidth]{../images/solar_flare_hinode.jpg}}$$
+$$\href{http://www.nasa.gov/mission_pages/solar-b/}{\includegraphics[max width=0.65\linewidth]{../images/solar_flare_hinode.jpg}}$$
 
 9) NASA, "Hinode: investigating the Sun's magnetic field", `http://www.nasa.gov/mission_pages/solar-b/`
 

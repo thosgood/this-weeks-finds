@@ -100,7 +100,7 @@ writing in Mesopotamia:
 
 Before people in the Near East wrote on clay tablets, there were
 "tokens":
-$$\includegraphics[max width=0.8\linewidth]{../images/tokens.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/tokens.jpg}$$
 
 12) The Schøyen Collection, MS 5067/1-8, "Neolithic plain counting tokens possibly representing 1 measure of grain, 1 animal and 1 man or 1 day's labour, respectively", `http://www.nb.no/baser/schoyen/5/5.11/index.html`
 
@@ -121,7 +121,7 @@ Later, these marks were simply drawn on tablets. Eventually they gave up
 on the tokens --- a triumph of convenience over security. The marks on
 tablets then developed into the Babylonian number system! The
 transformation was complete by 3000 BC.
-$$\href{http://www.gap-system.org/~history/HistTopics/Babylonian_numerals.html}{\includegraphics[max width=0.8\linewidth]{../images/Babylonian_symbols.png}}$$
+$$\href{http://www.gap-system.org/~history/HistTopics/Babylonian_numerals.html}{\includegraphics[max width=0.65\linewidth]{../images/Babylonian_symbols.png}}$$
 So, five millennia of gradual abstraction led to the writing of numbers!
 From three tokens representing jars of oil, we eventually reach the
 abstract number "3" applicable to anything.

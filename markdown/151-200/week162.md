@@ -508,4 +508,3 @@ things like "Jordan pairs" and "Jordan triple systems", try this:
 
 24) Kevin McCrimmon, "Jordan algebras and their applications", _AMS Bulletin_ **84** (1978), 612--627.
 
-------------------------------------------------------------------------

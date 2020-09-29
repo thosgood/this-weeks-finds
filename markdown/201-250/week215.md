@@ -1,4 +1,4 @@
-# May 9  {#week215}
+# May 9, 2005  {#week215}
 
 This week I'd like to report on some cool things people have been
 explaining to me. The science fiction writer Greg Egan has been helping
@@ -12,7 +12,7 @@ helped Greg Egan create this really nice picture:
 
 1) Greg Egan, "Klein's quartic curve", `http://math.ucr.edu/home/baez/mathematical/KleinDual.png`
 
-$$\includegraphics[max width=0.8\linewidth]{../images/KleinDual.png}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/KleinDual.png}$$
 It looks sort of tetrahedral at first glance, but if you look carefully
 you'll see that topologically speaking, it's a $3$-holed torus. It's
 tiled by triangles, with 7 meeting at each vertex. So, it's the Klein
@@ -62,7 +62,7 @@ things.
 
 This group is also the rotational symmetry group of a cube. In fact,
 Egan was able to spot a hidden cube lurking in his picture! Can you?
-$$\includegraphics[max width=0.8\linewidth]{../images/KleinDual.png}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/KleinDual.png}$$
 If you look carefully, you'll see each corner of his tetrahedral gadget
 is made of a little triangular prism with one triangle facing out and
 one facing in: for example, the pink triangle staring you right in the
@@ -125,7 +125,7 @@ Here's a picture:
 3) Greg Egan, Cubes and anticubes in the Klein quartic curve,
 `http://math.ucr.edu/home/baez/KleinFigures.gif`
 
-$$\includegraphics[max width=0.8\linewidth]{../images/KleinFigures.png}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/KleinFigures.png}$$
 Each triangle has a colored circle and a colored square on it. There are
 7 colors. The colored circle says which of the 7 *cubes* the triangle
 belongs to. The colored square says which of the 7 *anticubes* it
@@ -207,7 +207,7 @@ picture:
 4) Klein and Fricke, Klein's quartic curve with geodesic,
 `http://math.ucr.edu/home/baez/Klein168.gif`
 
-$$\includegraphics[max width=0.8\linewidth]{../images/Klein168.png}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/Klein168.png}$$
 
 Next, a little about geodesics and prime numbers. I've just been
 talking a little about geodesics in the Klein quartic, which is the
@@ -356,18 +356,18 @@ a relation that he later exploited in some fascinating ways.
 > I'll write $\mathrm{anti}(\{c_1,c_2\})$ for the anticube singled out by a pair of cubes, 
 > and similarly $\mathrm{cube}(\{a_1,a_2\})$ for the cube singled out by a pair of 
 > anticubes. In the scheme used in this diagram:
-> $$\includegraphics[max width=0.8\linewidth]{../images/KleinFigures.png}$$
+> $$\includegraphics[max width=0.65\linewidth]{../images/KleinFigures.png}$$
 > both functions have identical outputs for the same input colours:
 > 
-> |    |  R  |  O  |  Y  |  G  |  LB  |  P  |  DB  |
+> |    |  **R**  |  **O**  |  **Y**  |  **G**  |  **LB**  |  **P**  |  **DB**  |
 > | :- | :-: | :-: | :-: | :-: | :--: | :-: | :--: |
-> | R  |  -  |  DB |  R  |  DB |  Y   |  Y  |   R  |
-> | O  |  DB |  -  |  P  |  DB |  P   |  O  |   O  |
-> | Y  |  R  |  P  |  -  |  LB |  P   |  LB |   R  |
-> | G  |  DB |  DB |  LB |  -  |  G   |  LB |   G  |
-> | LB |  Y  |  P  |  P  |  G  |  -   |  Y  |   G  |
-> | P  |  Y  |  O  |  LB |  LB |  Y   |  -  |   O  |
-> | DB |  R  |  O  |  R  |  G  |  G   |  O  |   -  |
+> | **R**  |  ---  |  DB |  R  |  DB |  Y   |  Y  |   R  |
+> | **O**  |  DB |  ---  |  P  |  DB |  P   |  O  |   O  |
+> | **Y**  |  R  |  P  |  ---  |  LB |  P   |  LB |   R  |
+> | **G**  |  DB |  DB |  LB |  ---  |  G   |  LB |   G  |
+> | **LB** |  Y  |  P  |  P  |  G  |  ---   |  Y  |   G  |
+> | **P**  |  Y  |  O  |  LB |  LB |  Y   |  ---  |   O  |
+> | **DB** |  R  |  O  |  R  |  G  |  G   |  O  |   ---  |
 > 
 >   : $\mathrm{anti}(\{c_1,c_2\})$ and $\mathrm{cube}(\{a_1,a_2\})$
 > 
@@ -385,6 +385,7 @@ a relation that he later exploited in some fascinating ways.
 > elements of $G$ preserve these pairs of triangular faces, and consist of 
 > rotations by $1/3$ and $2/3$ turns for each such pair.
 > 
+> |    |    |
 > | :- | :- |
 > | Triangular faces sharing an edge | Pairings of points and non-incident lines $\{p_1,l_1\}$ and $\{p_1,l_1\}$ having $p_1$ incident on $l_2$ and $p_2$ incident on $l_1$. $$\begin{tikzpicture}\draw[thick] (0,0) to (2,0) node[label=right:{$l_1$}]{};\draw[thick] (0,0.5) to (2,0.5) node[label=right:{$l_2$}]{};\node[label={[label distance=-1mm]above:{$p_1$}}] at (0.8,0.5) {$\bullet$};\node[label={[label distance=-1mm]below:{$p_2$}}] at (1.4,0) {$\bullet$};\end{tikzpicture}$$ |
 > 
@@ -398,6 +399,7 @@ a relation that he later exploited in some fascinating ways.
 > from the cube the central triangle belongs to, i.e. they will have 
 > exactly the three colours appearing in the row for $\mathrm{anti}(c,-)$
 > 
+> |    |    |
 > | :- | :- |
 > | 84 edges | 84 choices of $\{p_1,l_1\}$ and $\{p_2,l_2\}$ non-incident, but $\{p_1,l_2\}$ and $\{p_2,l_1\}$ incident.$$\begin{tikzpicture}\draw[thick] (0,0) to (2,0) node[label=right:{$l_1$}]{};\draw[thick] (0,0.5) to (2,0.5) node[label=right:{$l_2$}]{};\node[label={[label distance=-1mm]above:{$p_1$}}] at (0.8,0.5) {$\bullet$};\node[label={[label distance=-1mm]below:{$p_2$}}] at (1.4,0) {$\bullet$};\end{tikzpicture}$$ or equivalently: 84 choices of 3 non-colinear points with one point singled out. In this definition, the special 3rd point is the one point shared by $l_1$ and $l_2$ of the previous definition. $$\begin{tikzpicture}\draw[thick] (0,0) to node[label={[label distance=-2mm]above right:{$l_2$}}]{} (1,-1) to node[label={[label distance=-2mm]below right:{$l_1$}}]{} (0,-2);\node[label=above:{$p_1$}] at (0,0) {$\bullet$};\node[label=right:{$p_3$}] at (1,-1) {$\bullet$};\node[label=below:{$p_2$}] at (0,-2) {$\bullet$};\end{tikzpicture}$$ We can count this as $\binom{7}{3}$ triples, minus 7 triples that are colinear, times three for three choices of distinguished point: $$(\binom{7}{3} - 7)\times3 = 28\times3 = 84$$ |
 > 
@@ -424,6 +426,7 @@ a relation that he later exploited in some fascinating ways.
 > triangles either side of some edge, and they are $\{c_1,a_1\}$ and $\{c_2,a_2\}$, 
 > then we can describe this edge by $\{\{c_1,c_2\},\mathrm{cube}(\{a_1,a_2\})\}$.
 > 
+> |    |    |
 > | :- | :- |
 > | Triangular faces each sharing an edge with a common neighbour, but not each other. (This is sufficient, but not necessary, for them to share a vertex.) | Pairings of points and non-incident lines $\{p_1,l_1\}$ and $\{p_2,l_2\}$ having _either_ $p_1$ incident on $l_2$ or $p_2$ incident on $l_1$, but _not_ both. $$\begin{tikzpicture}\draw[thick] (0,0) to (2,0) node[label=right:{$l_1$ (or $l_2$)}]{};\draw[thick] (0,0.5) to (2,0.5) node[label=right:{$l_2$ (or $l_1$)}]{};\node[label={[label distance=-1mm]above:{$p_1$ (or $p_2$)}}] at (0.8,0.5) {$\bullet$};\node[label={[label distance=-1mm]below:{$p_2$ (or $p_1$)}}] at (1.4,-0.3) {$\bullet$};\end{tikzpicture}$$ |
 > 
@@ -435,6 +438,7 @@ a relation that he later exploited in some fascinating ways.
 > depends on whether we map cubes to points and anticubes to lines or vice 
 > versa!) 
 > 
+> |    |    |
 > | :- | :- |
 > | 24 vertices | 168 pairings of points and non-incident lines $\{p_1,l_1\}$ and $\{p_2,l_2\}$ having _either_ $p_1$ incident on $l_2$ or $p_2$ incident on $l_1$, but _not_ both. $$\begin{tikzpicture}\draw[thick] (0,0) to (2,0) node[label=right:{$l_1$ (or $l_2$)}]{};\draw[thick] (0,0.5) to (2,0.5) node[label=right:{$l_2$ (or $l_1$)}]{};\node[label={[label distance=-1mm]above:{$p_1$ (or $p_2$)}}] at (0.8,0.5) {$\bullet$};\node[label={[label distance=-1mm]below:{$p_2$ (or $p_1$)}}] at (1.4,-0.3) {$\bullet$};\end{tikzpicture}$$ There are: ($28$ choices for $\{p_1,l_1\}$) $\times$ ($3$ choices for $l_2$ passing through $p_1$) $\times$ ($7-5=2$ choices for $p_2$ not in $l_1$ or $l_2$). This count identifies each vertex as shared by common neighbours of a particular triangle, so we expect to count each vertex 7 times for the seven triangles. We could double this to count for swapping the role of $p_1$ and $p_2$, and the we'd be counting each vertex twice as often: once going anticlockwise between each pair of neighbours, and once going clockwise |
 > 
@@ -498,7 +502,6 @@ Darin Brown wrote, in response to some questions by Squark on
 > > I don't quite understand how can the lift be a power, rather than just
 > > a prime.
 > > 
-> ---
 > 
 > Quite true. When you lift a geodesic, once you get back to the starting
 > basepoint, you've gone around once up above, corr. to a prime above, so
@@ -513,15 +516,11 @@ Darin Brown wrote, in response to some questions by Squark on
 > the magic equation reduces to degree of extension = sum(inertia
 > degrees).
 > 
-> ---
-> 
 > > > |    |    |
 > > > | :- | :- |
 > > > | Norm $N(Q)$ of ideal $Q$ | Norm $N(f)$ of closed geodesic $f$ |
-> 
+> >
 > > What is a norm of a geodesic? The length or the energy or... ?
-> 
-> ---
 > 
 > Explicitly, the length of a geodesic is the (natural) log of the norm,
 > or equivalently, the norm is $\exp(\text{length})$. For closed geodesics on
@@ -534,15 +533,11 @@ Darin Brown wrote, in response to some questions by Squark on
 > This is why I now like to think of the norm of an ideal as a kind of
 > "length function on ideals".
 > 
-> ---
-> 
 > > > |    |    |
 > > > | :- | :- |
 > > > | Frobenius conjugacy class of $Q$ | Frobenius conjugacy class of $f$ |
-> 
+> >
 > > Again, what is the Frobenius on the right side here?
-> 
-> ---
 > 
 > I can give 2 answers. The first answer is a cop-out, because it would
 > just give the concrete definition given in Jeff's paper or my thesis,

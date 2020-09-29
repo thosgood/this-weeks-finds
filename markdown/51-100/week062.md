@@ -44,7 +44,7 @@ interested.
 
 Later, of course, Kepler suggested that the 5 Platonic solids
 corresponded to the orbits of the 5 planets:
-$$\includegraphics[max width=0.8\linewidth]{../images/kepler_mysterium_cosmographicum.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/kepler_mysterium_cosmographicum.jpg}$$
 As it turns out, Plato and Kepler were in the right ball-park, but not
 really right. Both the solar system and atoms are described pretty well
 by similar laws - the inverse-square force laws for gravity and
@@ -260,4 +260,3 @@ classification. I'll try to say more about this in future weeks.
 You may still be wondering what's so special about A, D, and E. I'll
 have to get to that, too.
 
-------------------------------------------------------------------------

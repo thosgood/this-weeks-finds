@@ -341,4 +341,3 @@ not-so-traditional algebraic topology like nonabelian cohomology,
 $n$-stacks, etc.), and this work serves as a big clue about that
 relationship.
 
-------------------------------------------------------------------------

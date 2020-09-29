@@ -219,4 +219,3 @@ signal the existence of a maximum temperature. The same may be true in
 quantum gravity: the effective cosmological constant may be driven to
 zero by a rapid rise in the density of topologies."
 
-------------------------------------------------------------------------

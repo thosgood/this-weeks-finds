@@ -162,4 +162,3 @@ also gets some interesting numerical results --- which someone should make
 into theorems. The relation between 3d geometry and the representation
 theory of $\mathrm{SU}(2)$ still has unexplored wrinkles!
 
-------------------------------------------------------------------------

@@ -345,4 +345,3 @@ and the work of Crane and Frenkel on categorifying quantum groups (see
 
 9) Mikhail Khovanov, _Graphical calculus, canonical bases and Kazhdan-Lusztig theory_, Ph.D. thesis, Yale, 1997.
 
-------------------------------------------------------------------------

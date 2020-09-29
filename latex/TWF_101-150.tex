@@ -8,7 +8,7 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 
-\usepackage{geometry}
+\usepackage[margin=1.6in]{geometry}
 
 \usepackage{amsmath,amssymb}
 \usepackage[colorlinks=true]{hyperref}
@@ -50,13 +50,8 @@
 \usetikzlibrary{arrows}
 \usetikzlibrary{decorations.pathmorphing}
 
-\usepackage[framemethod=TikZ]{mdframed}
-\surroundwithmdframed[
-   topline=false,
-   bottomline=false,
-   skipabove=\topsep,
-   skipbelow=\topsep
-]{quote}
+\usepackage{etoolbox}
+\AtBeginEnvironment{quote}{\itshape}
 
 \usepackage{tikz-cd}
 
@@ -1413,8 +1408,8 @@ more on the history of this stuff, see:
 Octonions were invented by Cayley later on in the 1800s. For these, we
 start with \emph{seven} square roots of \(-1\), say \(e_1\) up to
 \(e_7\). To learn how multiply these, draw the following diagram:
-\[\includegraphics[max width=0.8\linewidth]{../images/fano.jpg}\] Draw a
-triangle, draw a line from each vertex to the midpoint of the opposite
+\[\includegraphics[max width=0.65\linewidth]{../images/fano.jpg}\] Draw
+a triangle, draw a line from each vertex to the midpoint of the opposite
 edge, and inscribe a circle in the triangle. Label the 7 points shown
 with \(e_1\) through \(e_7\) --- it doesn't matter how, I've just drawn
 my favorite way. Draw arrows on the edges of the triangle going around
@@ -9241,7 +9236,7 @@ increases, until one reaches \(k = n+2\), at which point things
 stabilize. There is a lot of evidence suggesting that this
 ``stabilization hypothesis'' is true for all \(n\). Assuming it's true,
 it makes sense to call a \(k\)-tuply monoidal \(n\)-category with
-\(k\geqslant n+2\) \textbf{???} a ``stable \(n\)-category''.
+\(k\geqslant n+2\) a ``stable \(n\)-category''.
 
 Now, where does homotopy theory come in? Well, here you need to look at
 \(n\)-categories where all the \(j\)-morphisms are invertible for all

@@ -2,7 +2,7 @@
 
 This Week I'd like to talk about math books in Shanghai, and Urs
 Schreiber's blog entry on the gauge $3$-group of M-theory. But first:
-$$\includegraphics[max width=0.8\linewidth]{../images/klein_quartic_egan.png}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/klein_quartic_egan.png}$$
 
 1) Greg Egan, "Klein's quartic equation", `http://gregegan.customer.netspace.net.au/SCIENCE/KleinQuartic/KleinQuarticEq.html`
 
@@ -482,4 +482,3 @@ Aaron Bergman replied:
 >
 > Aaron
 
-------------------------------------------------------------------------

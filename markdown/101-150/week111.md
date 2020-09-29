@@ -219,4 +219,3 @@ of the equations in terms of moment maps further constraints the
 manifolds: the surface must be orientable, the 4-manifold must be
 hyperkaehler and the 8-manifold must be flat."
 
-------------------------------------------------------------------------

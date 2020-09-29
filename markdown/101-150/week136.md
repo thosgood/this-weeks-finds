@@ -286,4 +286,3 @@ $n$-morphisms. To get a feeling for how this work, you have to figure out
 what the left adjoint $F$ looks like. Penon works this out in detail in
 the second half of his paper.
 
-------------------------------------------------------------------------

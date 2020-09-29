@@ -462,4 +462,3 @@ Notes and digressions:
     > Euler product is valid at $s = 1$. This requires some delicate analysis: for
     > details see Landau's book on prime numbers or Davenport's _Multiplicative Number Theory_.
 
-------------------------------------------------------------------------

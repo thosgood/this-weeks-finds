@@ -432,4 +432,3 @@ Let me quote the abstract:
 > weights, whose squares are summed with a permutation factor, to give
 > rational counterterms.
 
-------------------------------------------------------------------------

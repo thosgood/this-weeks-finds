@@ -489,4 +489,3 @@ detailed, and probably only of interest to $n$-category addicts....
 >
 > \[M3\] M. Makkai, "First Order Logic with Dependent Sorts". Research monograph, accepted by _Lecture Notes in Logic_ (Springer-Verlag). Under revision. Original form available electronically (when the machines work ...).
 
-------------------------------------------------------------------------

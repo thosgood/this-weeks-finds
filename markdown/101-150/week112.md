@@ -398,4 +398,3 @@ the beginning of the following two books:
 Theta functions are nice, so it's fun to see them describing states of
 a quantum black hole!
 
-------------------------------------------------------------------------

@@ -158,4 +158,3 @@ just about dinner-time, so I want to stop now.
 
 Anyway, it was an interesting birthday party.
 
-------------------------------------------------------------------------

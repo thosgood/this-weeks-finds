@@ -429,4 +429,3 @@ mind and purifies the intellect; she brings light to our intrinsic
 ideas; she abolishes oblivion and ignorance which are ours by birth.* ---
 Proclus
 
-------------------------------------------------------------------------

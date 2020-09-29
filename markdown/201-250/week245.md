@@ -14,7 +14,7 @@ This is a tribute to the great geometer H. S. M. Coxeter, master of
 polyhedra, who worked for 60 years at the University of Toronto after
 studying philosophy at Cambridge under Wittgenstein. You'll also find
 Coxeter's piano sitting at the base of the spiral staircase.
-$$\includegraphics[max width=0.8\linewidth]{../images/fields_piano.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/fields_piano.jpg}$$
 It's out of tune, but resting on it there's a wonderful strange
 portrait of him playing the very same piano --- at the age of three. He
 looks a bit like the child Mozart. And indeed, at the age of 12 Coxeter
@@ -480,4 +480,3 @@ with David Corfield. You can see the interview here:
 **Addendum:** For more discussion, go to the
 [$n$-Category Café](http://golem.ph.utexas.edu/category/2007/02/this_weeks_finds_in_mathematic_6.html).
 
-------------------------------------------------------------------------

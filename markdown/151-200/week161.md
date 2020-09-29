@@ -281,4 +281,3 @@ and quantum field theory. Everyone knows how the braid group shows up in
 
 8) Bert Schroer, "Braided structure in $4$-dimensional conformal quantum field theory", available as [`hep-th/0012021`](https://arxiv.org/abs/hep-th/0012021).
 
-------------------------------------------------------------------------

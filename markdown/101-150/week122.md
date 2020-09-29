@@ -242,4 +242,3 @@ Since I haven't plunged in yet, I'll just quote the abstract:
 With any luck, mathematicians will study this stuff and finally
 understand renormalization!
 
-------------------------------------------------------------------------

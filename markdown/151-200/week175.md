@@ -598,4 +598,3 @@ we call Earth (or more precisely, the time system called UT2, based on
 the Earth's rotation). How precise will we get? Will we someday be
 worrying about leap attoseconds? Leap Planck times?
 
-------------------------------------------------------------------------

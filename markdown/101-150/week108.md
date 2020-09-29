@@ -358,4 +358,3 @@ after reading the above stuff:
 >     Unicode Novis Cypherpunks Gutenberg Wavelets Conlang Logli Alife Anthro
 >     Computational linguistics Fundamental physics Cogsci Egyptology GA TLAs
 
-------------------------------------------------------------------------

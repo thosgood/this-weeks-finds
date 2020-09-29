@@ -236,4 +236,3 @@ which I eventually need to describe.
 
 To continue reading the "Tale of $n$-Categories", see ["Week 76"](#week76).
 
-------------------------------------------------------------------------

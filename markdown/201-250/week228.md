@@ -17,7 +17,7 @@ article, I'll say what you got.
 
 Okay. Here's a photo of the icy dunes of northern Mars. I love it
 because it shows that Mars is a lively place with wind and water:
-$$\href{http://themis.asu.edu/features/polardunes}{\includegraphics[max width=0.8\linewidth]{../images/mars_polardunes.jpg}}$$
+$$\href{http://themis.asu.edu/features/polardunes}{\includegraphics[max width=0.65\linewidth]{../images/mars_polardunes.jpg}}$$
 
 1) "North polar sand sea", Mars Odyssey Mission, THEMIS (Thermal emission imaging system), `http://themis.mars.asu.edu/features/polardunes`
 
@@ -37,7 +37,7 @@ laws of nature under fairly common conditions.
 The upwind slope of a barchan is gentle, while the downwind slope is
 between 32 and 34 degrees. This is the "angle of repose" for sand -
 the maximum angle it can tolerate before it starts slipping down:
-$$\href{http://en.wikipedia.org/wiki/Barchan}{\includegraphics[max width=0.8\linewidth]{../images/barchan.jpg}}$$
+$$\href{http://en.wikipedia.org/wiki/Barchan}{\includegraphics[max width=0.65\linewidth]{../images/barchan.jpg}}$$
 
 2) Wikipedia, "Barchan", `http://en.wikipedia.org/wiki/Barchan`
 
@@ -53,7 +53,7 @@ It would be great to see one of these frosty Martian barchans close up.
 We almost can do it now! The European Space Agency's orbiter called
 Mars Express took this wonderful closeup, already shown in
 ["Week 211"](#week211):
-$$\href{http://www.esa.int/SPECIALS/Mars_Express/SEMLF6D3M5E_1.html}{\includegraphics[max width=0.8\linewidth]{../images/mars_pole_closeup.jpg}}$$
+$$\href{http://www.esa.int/SPECIALS/Mars_Express/SEMLF6D3M5E_1.html}{\includegraphics[max width=0.65\linewidth]{../images/mars_pole_closeup.jpg}}$$
 
 3) ESA/DLR/FU Berlin (G. Neukum), "Glacial, volcanic and fluvial activity on Mars: latest images", `http://www.esa.int/SPECIALS/Mars_Express/SEMLF6D3M5E_1.html`
 
@@ -73,7 +73,7 @@ long ago. So, wind is a big factor in Martian geology:
 
 The Mars rover Spirit even got its solar panels cleaned by some dust
 devils, and it took some movies of them:
-$$\href{http://marsrovers.nasa.gov/gallery/press/spirit/20050819a.html}{\includegraphics[max width=0.8\linewidth]{../images/mars_dust_devil.png}}$$
+$$\href{http://marsrovers.nasa.gov/gallery/press/spirit/20050819a.html}{\includegraphics[max width=0.65\linewidth]{../images/mars_dust_devil.png}}$$
 
 5) NASA, "Exploration rover mission: dust devils at Gusev, Sol 525", `http://marsrovers.nasa.gov/gallery/press/spirit/20050819a.html`
 
@@ -432,4 +432,3 @@ The Wikipedia article is:
 
 19) "Edge of chaos", Wikipedia, `http://en.wikipedia.org/wiki/Edge_of_chaos`
 
-------------------------------------------------------------------------

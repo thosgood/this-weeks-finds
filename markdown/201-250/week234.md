@@ -12,7 +12,7 @@ in spacetime! I spoke about these in ["Week 181"](#week181).
 
 More recently, Moore and Michael Nauenberg have found solutions with
 cubic symmetry and vanishing angular momentum, and made movies of these:
-$$\includegraphics[max width=0.8\linewidth]{../images/cris_moore_cube.png}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/cris_moore_cube.png}$$
 For the mathematical details, try this:
 
 2) Cristopher Moore and Michael Nauenberg, "New periodic orbits for the $n$-body problem", available at [`math.DS/0511219`](http://arxiv.org/abs/math.DS/0511219).
@@ -689,7 +689,7 @@ and music theory. Could Klein's quartic curve play a role? Remember
 from ["Week 214"](#week214), ["Week 215"](#week215) and
 ["Week 219"](#week219) that this 3-holed torus can be nicely tiled
 by 24 regular heptagons:
-$$\includegraphics[max width=0.8\linewidth]{../images/Klein168.png}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/Klein168.png}$$
 Its orientation-preserving symmetries form the group $\mathrm{PSL}(2,7)$, which
 consists of all $2x2$ matrices with determinant $1$ having entries in $\mathbb{Z}/7$,
 modulo scalars. This group has $24 \times 7 = 168$ elements. Since there are 7

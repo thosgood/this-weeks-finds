@@ -437,4 +437,3 @@ is isomorphic, as a Hopf algebra, to the exterior algebra of the cyclic
 homology of the algebra. In the second paper above, Khalkali gets the
 tools set up to extend this result to the category of $L_\infty$ algebras.
 
-------------------------------------------------------------------------

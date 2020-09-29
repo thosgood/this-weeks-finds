@@ -489,4 +489,3 @@ being counted.
 
 (Thanks go to my pal Bill Schmitt for mentioning this reference.)
 
-------------------------------------------------------------------------

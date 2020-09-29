@@ -498,4 +498,3 @@ $\operatorname{Hom}(\mathcal{D},\mathsf{Set})$ are monoidal with respect to Day 
 As usual, I learned most of this category theory stuff from James Dolan,
 so any errors in the above are his fault, not mine.
 
-------------------------------------------------------------------------

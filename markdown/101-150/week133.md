@@ -313,4 +313,3 @@ I'm not sure where to read more about this, but you might try:
 
 6) Thomas Appelquist, Alan Chodos and Peter G.O. Freund, editors, _Modern Kaluza-Klein Theories_, Addison-Wesley, Menlo Park, California, 1987.
 
-------------------------------------------------------------------------

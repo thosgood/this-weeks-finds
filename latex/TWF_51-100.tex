@@ -8,7 +8,7 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 
-\usepackage{geometry}
+\usepackage[margin=1.6in]{geometry}
 
 \usepackage{amsmath,amssymb}
 \usepackage[colorlinks=true]{hyperref}
@@ -49,13 +49,8 @@
 \usetikzlibrary{knots}
 \usetikzlibrary{arrows}
 
-\usepackage[framemethod=TikZ]{mdframed}
-\surroundwithmdframed[
-   topline=false,
-   bottomline=false,
-   skipabove=\topsep,
-   skipbelow=\topsep
-]{quote}
+\usepackage{etoolbox}
+\AtBeginEnvironment{quote}{\itshape}
 
 \usepackage{tikz-cd}
 
@@ -2701,7 +2696,7 @@ plane''. This is a projective plane with 7 points, where by a
 ``projective plane'' I mean that any two points determine an abstract
 sort of ``line'', which in this case consists of just 3 points, and any
 two lines intersect in a point. It looks like this:
-\[\includegraphics[max width=0.8\linewidth]{../images/fano.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/fano.jpg}\]
 
 The ``lines'' are the 3 edges of the big triangle, the 3 lines going
 through a vertex, the center and the midpoint of the opposite edge, and
@@ -3797,7 +3792,7 @@ get people interested.
 
 Later, of course, Kepler suggested that the 5 Platonic solids
 corresponded to the orbits of the 5 planets:
-\[\includegraphics[max width=0.8\linewidth]{../images/kepler_mysterium_cosmographicum.jpg}\]
+\[\includegraphics[max width=0.65\linewidth]{../images/kepler_mysterium_cosmographicum.jpg}\]
 As it turns out, Plato and Kepler were in the right ball-park, but not
 really right. Both the solar system and atoms are described pretty well
 by similar laws - the inverse-square force laws for gravity and

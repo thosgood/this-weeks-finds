@@ -16,7 +16,7 @@ printf '%s\n' '\usepackage{fancyhdr}' >> $TEX
 printf '%s\n' '\pagestyle{fancy}' >> $TEX
 
 printf "\n" >> $TEX
-printf '%s\n' '\usepackage{geometry}' >> $TEX
+printf '%s\n' '\usepackage[margin=1.6in]{geometry}' >> $TEX
 
 printf "\n" >> $TEX
 printf '%s\n' '\usepackage{amsmath,amssymb}' >> $TEX
@@ -45,7 +45,6 @@ printf '%s\n' '\newcommand{\sectionbreak}{\clearpage}' >> $TEX
 printf '%s\n' '\renewcommand{\thesection}{Week~\arabic{section}}' >> $TEX
 printf '%s\n' '\titleformat{\section}[display]{\normalfont}{\Large\bfseries\thesection}{1em}{\large\normalfont}' >> $TEX
 
-
 printf "\n" >> $TEX
 printf '%s\n' '\usepackage{titletoc}' >> $TEX
 printf '%s\n' '\titlecontents{section}[0em]{\normalfont}{\bfseries\thecontentslabel\hspace{1em}\normalfont\small}{}{\titlerule*[0.3pc]{.}\small\itshape\thecontentspage}[\vspace{0.5em}]' >> $TEX
@@ -68,13 +67,8 @@ printf '%s\n' '\usepackage{tikz}' >> $TEX
 printf '%s\n' '\usetikzlibrary{knots}' >> $TEX
 
 printf "\n" >> $TEX
-printf '%s\n' '\usepackage[framemethod=TikZ]{mdframed}' >> $TEX
-printf '%s\n' '\surroundwithmdframed[' >> $TEX
-printf '%s\n' '   topline=false,' >> $TEX
-printf '%s\n' '   bottomline=false,' >> $TEX
-printf '%s\n' '   skipabove=\topsep,' >> $TEX
-printf '%s\n' '   skipbelow=\topsep' >> $TEX
-printf '%s\n' ']{quote}' >> $TEX
+printf '%s\n' '\usepackage{etoolbox}' >> $TEX
+printf '%s\n' '\AtBeginEnvironment{quote}{\itshape}' >> $TEX
 
 printf "\n" >> $TEX
 printf '%s\n' '\usepackage{tikz-cd}' >> $TEX

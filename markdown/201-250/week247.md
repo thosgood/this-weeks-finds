@@ -4,7 +4,7 @@ Symmetry has fascinated us throughout the ages. Greek settlers in Sicily
 may have seen irregular 12-sided crystals of pyrite in Sicily and dreamt
 up the regular dodecahedron simply because it was more beautiful, more
 symmetrical.
-$$\href{www.minerals.net/mineral/sulfides/pyrite/pyrite.htm}{\includegraphics[max width=0.8\linewidth]{../images/pyrite.jpg}}$$
+$$\href{www.minerals.net/mineral/sulfides/pyrite/pyrite.htm}{\includegraphics[max width=0.65\linewidth]{../images/pyrite.jpg}}$$
 The Alhambra, a Moorish palace in Granada built around 1300, has tile
 patterns with at least 13 of the 17 possible symmetry groups:
 
@@ -27,10 +27,10 @@ Here's an example from the [I'timad al-Daula mausoleum](http://archnet.org/libra
 in the Indian city of Agra, built by Islamic conquerors in 1622 -
 together with a more mathematical version constructed by Lu and
 Steinhardt:
-$$\href{http://www.physics.harvard.edu/~plu/publications/Science_315_1106_2007_SOM.pdf}{\includegraphics[max width=0.8\linewidth]{../images/quasicrystal_I'timid_al-Daula.jpg}}$$
+$$\href{http://www.physics.harvard.edu/~plu/publications/Science_315_1106_2007_SOM.pdf}{\includegraphics[max width=0.65\linewidth]{../images/quasicrystal_I'timid_al-Daula.jpg}}$$
 Here's another, from the [Darb-i Imam shrine](http://archnet.org/library/sites/one-site.tcl?site_id=8380) in
 Isfahan, Iran, also built in the 1600s:
-$$\href{http://www.physics.harvard.edu/~plu/publications/Science_315_1106_2007_SOM.pdf}{\includegraphics[max width=0.8\linewidth]{../images/quasicrystal_Darb-i_Imam.jpg}}$$
+$$\href{http://www.physics.harvard.edu/~plu/publications/Science_315_1106_2007_SOM.pdf}{\includegraphics[max width=0.65\linewidth]{../images/quasicrystal_Darb-i_Imam.jpg}}$$
 This came as a big surprise, since everyone had *thought* that the math
 behind quasicrystals was first discovered by Penrose around 1974, then
 seen in nature by Shechtman, Blech, Gratias and Cahn in 1983. It goes to
@@ -50,7 +50,7 @@ up something called the American Institute of Mathematics. The
 headquarters was in a Fry's store in Palo Alto --- not very romantic. But
 last year, this institute announced plans to move to a full-scale
 replica of the Alhambra!
-$$\href{http://aimath.org/about/morganhill.html}{\includegraphics[max width=0.8\linewidth]{../images/aim_alhambra.jpg}}$$
+$$\href{http://aimath.org/about/morganhill.html}{\includegraphics[max width=0.65\linewidth]{../images/aim_alhambra.jpg}}$$
 
 5) Associated Press, "Silicon valley will get Alhambra-like castle", August 18, 2006. Available at [http://www.jcrystal.com/steffenweber/](http://www.msnbc.msn.com/id/14412387/)
 
@@ -102,7 +102,7 @@ It's an easy exercise to check that each sphere touches 24 others. The
 centers of these 24 are the vertices of a marvelous shape called the
 "$24$-cell" --- one of the six $4$-dimensional Platonic solids. It looks
 like this:
-$$\href{https://math.ucr.edu/home/baez/octonions/conway_smith/}{\includegraphics[max width=0.8\linewidth]{../images/24_cell.jpg}}$$
+$$\href{https://math.ucr.edu/home/baez/octonions/conway_smith/}{\includegraphics[max width=0.65\linewidth]{../images/24_cell.jpg}}$$
 
 8) John Baez, picture of $24$-cell, in "a review of On Quaternions and Octonions: Their Geometry, Arithmetic and Symmetry, by John H. Conway and Derek A. Smith', available at `http://math.ucr.edu/home/baez/octonions/conway_smith/`
 
@@ -125,7 +125,7 @@ If you do the same thing with a $5$-dimensional checkerboard, you get the
 spheres in 5 dimensions. In this packing, each sphere has 40 nearest
 neighbors. The centers of these nearest neighbors are the vertices of a
 solid that looks like this:
-$$\href{http://www.math.lsa.umich.edu/~jrs/}{\includegraphics[max width=0.8\linewidth]{../images/d5_stembridge.jpg}}$$
+$$\href{http://www.math.lsa.umich.edu/~jrs/}{\includegraphics[max width=0.65\linewidth]{../images/d5_stembridge.jpg}}$$
 
 9) John Stembridge, "$\mathrm{D}_5$ root system", available at `http://www.math.lsa.umich.edu/~jrs/data/coxplanes/`
 
@@ -149,19 +149,19 @@ dimensions!
 
 In the $\mathrm{E}_6$ lattice, each sphere has 72 nearest neighbors. They form the
 vertices of a solid that looks like this:
-$$\href{http://www.math.lsa.umich.edu/~jrs/}{\includegraphics[max width=0.8\linewidth]{../images/e6_stembridge.jpg}}$$
+$$\href{http://www.math.lsa.umich.edu/~jrs/}{\includegraphics[max width=0.65\linewidth]{../images/e6_stembridge.jpg}}$$
 
 10) John Stembridge, "$\mathrm{E}_6$ root system", available at `http://www.math.lsa.umich.edu/~jrs/data/coxplanes/`
 
 In the $\mathrm{E}_7$ lattice, each sphere has 126 nearest neighbors. They form
 the vertices of a solid like this:
-$$\href{http://www.math.lsa.umich.edu/~jrs/}{\includegraphics[max width=0.8\linewidth]{../images/e7_stembridge.jpg}}$$
+$$\href{http://www.math.lsa.umich.edu/~jrs/}{\includegraphics[max width=0.65\linewidth]{../images/e7_stembridge.jpg}}$$
 
 11) John Stembridge, "$\mathrm{E}_7$ root system", available at `http://www.math.lsa.umich.edu/~jrs/data/coxplanes/`
 
 In the $\mathrm{E}_8$ lattice, each sphere has 240 nearest neighbors. They form
 the vertices of a solid like this:
-$$\href{http://www.math.lsa.umich.edu/~jrs/}{\includegraphics[max width=0.8\linewidth]{../images/e8_stembridge_small.jpg}}$$
+$$\href{http://www.math.lsa.umich.edu/~jrs/}{\includegraphics[max width=0.65\linewidth]{../images/e8_stembridge_small.jpg}}$$
 
 12) John Stembridge, "$\mathrm{E}_8$ root system", available at `http://www.math.lsa.umich.edu/~jrs/data/coxplanes/`
 
@@ -460,7 +460,7 @@ mistakes. Tony Smith found a nice picture created by Günter Ziegler of
 the $\mathrm{D}_4$ root system (that is, the $24$-cell) viewed from the Coxeter
 plane. The $\mathrm{D}_4$ root system is $4$-dimensional, but it's been drawn with
 a bit of 3d perspective. The 6-fold symmetry is evident:
-$$\includegraphics[max width=0.8\linewidth]{../images/24-cell.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/24-cell.jpg}$$
 
 16) Günter M. Ziegler, "picture of 24-cell", `http://www.math.tu-berlin.de/~ziegler/24-cell.jpeg`
 

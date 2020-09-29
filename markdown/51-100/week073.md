@@ -289,4 +289,3 @@ discusses the hydrodynamics involved.
 
 I guess now the question becomes: why do these cilia spin clockwise?
 
-------------------------------------------------------------------------

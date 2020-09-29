@@ -47,13 +47,13 @@ into the sky.
 
 On the drive to Livingston, Jorge pointed out the forests that surround
 the town. These forests are being logged:
-$$\includegraphics[max width=0.8\linewidth]{../images/ligo_0.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/ligo_0.jpg}$$
 I asked him about this --- when I last checked, the vibrations from
 falling trees were making it impossible to look for gravitational waves
 except at night! He said they've added a "hydraulic external
 pre-isolator" to shield the detector from these vibrations --- basically
 a super-duper shock absorber:
-$$\includegraphics[max width=0.8\linewidth]{../images/hepi.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/hepi.jpg}$$
 Now they can operate LIGO day and night.
 
 I also asked him how close LIGO had come to the sensitivity levels they
@@ -85,9 +85,9 @@ let in. Our guide, Joe Giaime, was running a bit a late, so we walked
 over and looked at the interferometer's arms, each of which stretched
 off beyond sight, 2.5 kilometers of concrete tunnel surrounding the
 evacuated piping --- the world's largest vacuum facility:
-$$\includegraphics[max width=0.8\linewidth]{../images/ligo_1.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/ligo_1.jpg}$$
 Schoolkids have been invited to paint pictures on some of these pipes:
-$$\includegraphics[max width=0.8\linewidth]{../images/ligo_2.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/ligo_2.jpg}$$
 
 One can tell this is the South. The massive construction caused pools of
 water to form in the boggy land near the facility, and these pools then
@@ -113,10 +113,10 @@ When Joe showed up, I got to see the main control room, which is dimly
 lit, full of screens indicating noise and sensitivity levels of all
 sorts --- and even some video monitors showing the view down the laser
 tube:
-$$\includegraphics[max width=0.8\linewidth]{../images/ligo_3.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/ligo_3.jpg}$$
 This is where the people on duty hang out --- you can see those video
 monitors on top:
-$$\includegraphics[max width=0.8\linewidth]{../images/ligo_4.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/ligo_4.jpg}$$
 One of them had brought his sons, in a feeble attempt to dispose of the
 huge supply of Halloween candy that had somehow collected here.
 
@@ -133,7 +133,7 @@ workings are all sealed off, in vacuum. The optics are far more
 complicated than my description --- "a laser bouncing between two
 suspended mirrors" --- could possibly suggest. But, all I got to see was
 a chart showing how they work:
-$$\includegraphics[max width=0.8\linewidth]{../images/ligo_5.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/ligo_5.jpg}$$
 Oh well. I'm glad I don't need to understand this stuff in detail. It
 was fun to get a peek.
 
@@ -182,7 +182,7 @@ Mysterium Cosmographicum, written in 1596.
 
 I then went on to discuss the $120$-cell, which gives a way of chopping a
 spherical universe into 120 dodecahedra.
-$$\includegraphics[max width=0.8\linewidth]{../images/Stereographic_polytope_120cell_faces.png}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/Stereographic_polytope_120cell_faces.png}$$
 
 This leads naturally to the Poincare homology sphere, a closely related
 3-dimensional manifold made by gluing together opposite sides of *one*
@@ -215,7 +215,7 @@ invented by the Pythagoreans. You should never say things like this
 unless you want to get corrected!
 
 Dan Piponi pointed out this dodecahedral virus:
-$$\href{http://www.nature.com/nsmb/journal/v8/n1/pdf/nsb0101_77.pdf}{\includegraphics[max width=0.8\linewidth]{../images/pariacoto_virus.jpg}}$$
+$$\href{http://www.nature.com/nsmb/journal/v8/n1/pdf/nsb0101_77.pdf}{\includegraphics[max width=0.65\linewidth]{../images/pariacoto_virus.jpg}}$$
 
 8) Liang Tang et al, "The structure of Pariacoto virus reveals a dodecahedral cage of duplex RNA", _Nature Structural Biology_ **8** (2001), 77--83. Also available at `http://www.nature.com/nsmb/journal/v8/n1/pdf/nsb0101_77.pdf`
 
@@ -225,14 +225,14 @@ second is 50 angstroms long.
 Garett Leskowitz pointed out the molecule "dodecahedrane", with 20
 carbons at the vertices of a dodecahedron and 20 hydrogens bonded to
 these:
-$$\href{http://en.wikipedia.org/wiki/Image:Dodecahedran.png}{\includegraphics[max width=0.8\linewidth]{../images/Dodecahedran.png}}$$
+$$\href{http://en.wikipedia.org/wiki/Image:Dodecahedran.png}{\includegraphics[max width=0.65\linewidth]{../images/Dodecahedran.png}}$$
 
 9) Wikipedia, "Dodecahedrane", `http://en.wikipedia.org/wiki/Dodecahedrane`
 
 This molecule hasn't been found in nature yet, but chemists can
 synthesize it using reactions like these:
-$$\href{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=346698}{\includegraphics[max width=0.8\linewidth]{../images/dodecahedrane_synthesis_1.jpg}}$$
-$$\href{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=346698}{\includegraphics[max width=0.8\linewidth]{../images/dodecahedrane_synthesis_2.jpg}}$$
+$$\href{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=346698}{\includegraphics[max width=0.65\linewidth]{../images/dodecahedrane_synthesis_1.jpg}}$$
+$$\href{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=346698}{\includegraphics[max width=0.65\linewidth]{../images/dodecahedrane_synthesis_2.jpg}}$$
 
 10) Robert J. Ternansky, Douglas W. Balogh and Leo A. Paquette, "Dodecahedrane", _J. Am. Chem. Soc._ **104** (1982), 4503--4504.
 
@@ -249,7 +249,7 @@ But, even here I made a mistake. The Pythagoreans seem not to have been
 the first to discover the dodecahedron. John McKay told me that stone
 spheres with Platonic solids carved on them have been found in Scotland,
 dating back to around 2000 BC!
-$$\href{http://arxiv.org/abs/math-ph/0303071}{\includegraphics[max width=0.8\linewidth]{../images/blocks.png}}$$
+$$\href{http://arxiv.org/abs/math-ph/0303071}{\includegraphics[max width=0.65\linewidth]{../images/blocks.png}}$$
 
 13) Michael Atiyah and Paul Sutcliffe, "Polyhedra in physics, chemistry and geometry", available as [`math-ph/0303071`](http://arxiv.org/abs/math-ph/0303071).
 
@@ -267,7 +267,7 @@ The pyritohedron is interesting in itself, so before I turn to some
 really fancy math, let me talk a bit about this guy. Since pyrite is
 fundamentally a cubic crystal, the pyritohedron is basically made out of
 little cubic cells, as shown here:
-$$\href{http://www.uwgb.edu/dutchs/symmetry/isometuc.htm}{\includegraphics[max width=0.8\linewidth]{../images/pyritohedron.png}}$$
+$$\href{http://www.uwgb.edu/dutchs/symmetry/isometuc.htm}{\includegraphics[max width=0.65\linewidth]{../images/pyritohedron.png}}$$
 
 12) Steven Dutch, "Building isometric crystals with unit cells", `http://www.uwgb.edu/dutchs/symmetry/isometuc.htm`
 
@@ -301,7 +301,7 @@ plane, and a rectangle in the $yz$ plane.
 These points are also corners of an icosahedron! It's not a regular
 icosahedron, though. It's probably the "pseudoicosahedron" shown in
 Steven Dutch's site above:
-$$\href{http://www.uwgb.edu/dutchs/symmetry/isometuc.htm}{\includegraphics[max width=0.8\linewidth]{../images/pseudoicosahedron.png}}$$
+$$\href{http://www.uwgb.edu/dutchs/symmetry/isometuc.htm}{\includegraphics[max width=0.65\linewidth]{../images/pseudoicosahedron.png}}$$
 Apparently iron pyrite can also form a pseudoicosahedron --- see "Pyrite
 No. 7" on the mindat.org website above. Does anyone have actual photos?
 
@@ -315,7 +315,7 @@ $$
   \end{gathered}
 $$
 Now our rectangles are golden rectangles:
-$$\href{http://en.wikipedia.org/wiki/Icosahedron#Cartesian_coordinates}{\includegraphics[max width=0.8\linewidth]{../images/Icosahedron-golden-rectangles.png}}$$
+$$\href{http://en.wikipedia.org/wiki/Icosahedron#Cartesian_coordinates}{\includegraphics[max width=0.65\linewidth]{../images/Icosahedron-golden-rectangles.png}}$$
 
 Since the pseudoicosahedron does a cheap imitation of this trick, with
 the number 2 replacing the golden ratio, the number 2 deserves to be
@@ -351,7 +351,7 @@ would think $2/1$ is the golden ratio.
 However, this is not the most foolish of all dodecahedra! The case $A = 1$
 and $B = 1$ gives the rhombic dodecahedron, which doesn't even have
 pentagonal faces:
-$$\href{http://en.wikipedia.org/wiki/Rhombic_dodecahedron}{\includegraphics[max width=0.8\linewidth]{../images/180px-Rhombicdodecahedron.png}}$$
+$$\href{http://en.wikipedia.org/wiki/Rhombic_dodecahedron}{\includegraphics[max width=0.65\linewidth]{../images/180px-Rhombicdodecahedron.png}}$$
 
 14) Wikipedia, "Rhombic dodecahedron", `http://en.wikipedia.org/wiki/Rhombic_dodecahedron`
 
@@ -657,7 +657,7 @@ to be unstable.
 
 My friend Geoffrey Dixon contributed these pictures of Platonic life
 forms:
-$$\includegraphics[max width=0.8\linewidth]{../images/platonic_lifeforms.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/platonic_lifeforms.jpg}$$
 They look a bit like Ernst Haeckel's pictures from his book
 "Kunstformen der Natur" (artforms of nature).
 

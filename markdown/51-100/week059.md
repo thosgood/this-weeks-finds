@@ -172,7 +172,7 @@ This is a projective plane with 7 points, where by a "projective
 plane" I mean that any two points determine an abstract sort of
 "line", which in this case consists of just 3 points, and any two
 lines intersect in a point. It looks like this:
-$$\includegraphics[max width=0.8\linewidth]{../images/fano.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/fano.jpg}$$
 
 The "lines" are the 3 edges of the big triangle, the 3 lines going
 through a vertex, the center and the midpoint of the opposite edge, and
@@ -601,4 +601,3 @@ to an infinite sequence of division algebras, because it's not true in
 this case that if $x$ is nonzero, $xx^*$ is nonzero. The problem is that a
 field of characteristic 2 can't be an ordered field.
 
-------------------------------------------------------------------------
