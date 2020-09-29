@@ -373,9 +373,11 @@ friend Squark:
 
 ------------------------------------------------------------------------
 
-*We should declare instead candidly that we dwell on mathematics and
+> *We should declare instead candidly that we dwell on mathematics and
 affirm its statements for the sake of its intellectual beauty, which
 betokens the reality of its conceptions and the truth of its assertions.
 For if this passion were extinct, we would cease to understand
 mathematics; its conceptions would dissolve and its proofs carry no
-conviction.* --- Michael Polyani
+conviction.* 
+> 
+> --- Michael Polyani

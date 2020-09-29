@@ -628,4 +628,3 @@ category, for example:
 and probably at least one more. I guess I should have added these as
 axioms in my description of the Tarski high school algebra in the
 version where we include $0$. I'm a bit confused about this....
-

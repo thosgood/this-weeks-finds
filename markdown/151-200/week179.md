@@ -204,6 +204,7 @@ flight, or I would tell you more about this....
 
 ------------------------------------------------------------------------
 
-*Not till we are lost ... do we begin to find ourselves and realize
-where we are and the infinite extent of our relations.* --- Henry David
-Thoreau
+> *Not till we are lost ... do we begin to find ourselves and realize
+where we are and the infinite extent of our relations.*
+> 
+> --- Henry David Thoreau

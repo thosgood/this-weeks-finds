@@ -653,10 +653,12 @@ trick: composing elements of homotopy groups of spheres to get new ones!
 
 ------------------------------------------------------------------------
 
-*Think of one and minus one. Together they add up to zero, nothing,
+> *Think of one and minus one. Together they add up to zero, nothing,
 nada, niente, right? Picture them together, then picture them
 separating, peeling part.... Now you have something, you have two
-somethings, where you once had nothing.* - John Updike, Roger's Version
+somethings, where you once had nothing.*
+> 
+> --- John Updike, Roger's Version
 
 $$
   \begin{tikzpicture}

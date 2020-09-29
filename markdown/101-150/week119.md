@@ -432,4 +432,3 @@ Priddy:
 For any topological monoid $M$, there is a natural map from $M$ to $F(G(M))$,
 thanks to the miracle of adjoint functors. This is the natural map I'm
 talking about in the previous section!
-

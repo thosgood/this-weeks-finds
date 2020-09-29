@@ -407,5 +407,6 @@ braid groups."
 
 ------------------------------------------------------------------------
 
-*Some things are so serious that one can only jest about them.* --- Niels
-Bohr.
+> *Some things are so serious that one can only jest about them.*
+> 
+> --- Niels Bohr.

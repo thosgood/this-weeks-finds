@@ -554,8 +554,9 @@ be able to detect it!
 
 ------------------------------------------------------------------------
 
-*When Rutherford introduced me to Bohr he asked me what I was working
+> *When Rutherford introduced me to Bohr he asked me what I was working
 on. I told him and he said, "How is it going?" I said, "I'm in
 difficulties." He said, "Are the difficulties mathematical or
-physical?" I said, "I don't know." He said, "That's bad."* --- J.
-Robert Oppenheimer
+physical?" I said, "I don't know." He said, "That's bad."* 
+> 
+> --- J. Robert Oppenheimer

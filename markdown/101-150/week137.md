@@ -344,4 +344,3 @@ and the work of Crane and Frenkel on categorifying quantum groups (see
 8) J. Bernstein, I. Frenkel and M. Khovanov, "A categorification of the Temperley-Lieb algebra and Schur quotients of $U(\mathfrak{sl}_2)$ by projective and Zuckerman functors", to appear in _Selecta Mathematica_.
 
 9) Mikhail Khovanov, _Graphical calculus, canonical bases and Kazhdan-Lusztig theory_, Ph.D. thesis, Yale, 1997.
-

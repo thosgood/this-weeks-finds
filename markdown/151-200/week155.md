@@ -359,4 +359,3 @@ branches of math:
 
 I thank Jim Heckman and Noam Elkies for helping me fix some errors in
 the original version of this article.
-

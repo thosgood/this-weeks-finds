@@ -242,4 +242,3 @@ is suitably renormalized. This 'dilute gas limit' gives spin foam
 models that are triangulation-independent but not topological quantum
 field theories. However, we show that models of this sort are rather
 trivial except in dimension 2.
-

@@ -334,5 +334,6 @@ of proof. If I had given you my methods of proof I am sure you will
 follow the London Professor. But as a fact I did not give him any proof
 but made some assertions as the following under my new theory. I told
 him that the sum of an infinite number of terms in the series $1+2+3+4+\ldots=-1/12$ under my theory. If I tell you this you will at once
-point out to me the lunatic asylum as my goal." --- Srinivasa Ramanujan,
-second letter to G. H. Hardy
+point out to me the lunatic asylum as my goal."
+> 
+> --- Srinivasa Ramanujan, second letter to G. H. Hardy

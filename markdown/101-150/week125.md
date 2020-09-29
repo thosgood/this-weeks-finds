@@ -431,4 +431,3 @@ Let me quote the abstract:
 > the minimal subtraction scheme. We devise a fast algorithm for these
 > weights, whose squares are summed with a permutation factor, to give
 > rational counterterms.
-

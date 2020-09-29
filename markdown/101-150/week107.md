@@ -205,4 +205,5 @@ computad they generate, available as postscript files at
 
 > *Time definitely repeats itself:
 > that's its only job. *
+> 
 > --- Edward Dorn, Sirius in January

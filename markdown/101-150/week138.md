@@ -157,4 +157,3 @@ really explain it takes quite a bit more work. And unfortunately, it's
 just about dinner-time, so I want to stop now.
 
 Anyway, it was an interesting birthday party.
-

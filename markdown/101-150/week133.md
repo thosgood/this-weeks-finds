@@ -312,4 +312,3 @@ I'm not sure where to read more about this, but you might try:
     Edward Witten, "Fermion quantum numbers in Kaluza-Klein theory", in _Shelter Island II, Proceedings: Quantum Field Theory and the Fundamental Problems of Physics_, ed. T. Appelquist et al, MIT Press, 1985, pp. 227--277.
 
 6) Thomas Appelquist, Alan Chodos and Peter G.O. Freund, editors, _Modern Kaluza-Klein Theories_, Addison-Wesley, Menlo Park, California, 1987.
-

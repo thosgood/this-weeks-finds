@@ -312,4 +312,3 @@ Robert Israel's answer to my puzzle about the Kochen-Specker theorem:
 > Department of Mathematics       http://www.math.ubc.ca/~israel 
 > University of British Columbia
 > Vancouver, BC, Canada V6T 1Z2
-

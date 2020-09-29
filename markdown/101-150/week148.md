@@ -491,7 +491,7 @@ the beginning of ["Week 147"](#week147).
 
 ------------------------------------------------------------------------
 
-*... for beginners engaging in research, a most difficult feature to
+> *... for beginners engaging in research, a most difficult feature to
 grasp is that of quality --- that is, the depth of a problem. Sometimes
 authors work courageously and at length to arrive at results which they
 believe to be significant and which experts believe to be shallow. This
@@ -505,4 +505,5 @@ same in mathematical research. We have to play often with the masters
 (that is, try to improve on the results of famous mathematicians); we
 must learn the standard works of the game (that is, the "well-known"
 results). If we continue like this our progress becomes inevitable.*
---- Hua Loo-Keng, Introduction to Number Theory
+> 
+> --- Hua Loo-Keng, Introduction to Number Theory

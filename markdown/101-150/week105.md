@@ -517,6 +517,7 @@ reference to this fact:
 
 ------------------------------------------------------------------------
 
-*... for geometry, you know, is the gate of science, and the gate is so
-low and small that one can only enter it as a little child.* --- William
-Clifford
+> *... for geometry, you know, is the gate of science, and the gate is so
+low and small that one can only enter it as a little child.*
+> 
+> --- William Clifford

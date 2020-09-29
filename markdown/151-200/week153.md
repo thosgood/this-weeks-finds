@@ -259,7 +259,8 @@ algebras and that sort of stuff... but alas, I don't have time to even
 
 ------------------------------------------------------------------------
 
-*It is like walking through a constantly shifting illusion, routes
+> *It is like walking through a constantly shifting illusion, routes
 appearing and decaying, the solvable and the utterly impossible snuggled
-so close together that they cannot be told apart.* --- Craig Childs, Soul
-of Nowhere
+so close together that they cannot be told apart.*
+> 
+> --- Craig Childs, Soul of Nowhere

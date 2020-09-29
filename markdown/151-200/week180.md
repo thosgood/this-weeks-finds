@@ -1514,8 +1514,10 @@ even though there is one for every *other* dimension from $1$ to $n/2$.
 
 ------------------------------------------------------------------------
 
-*If you want to get a view of the world you live in, climb a little
+> *If you want to get a view of the world you live in, climb a little
 rocky mountain with a neat small peak. But the big snowpeaks pierce the
 world of clouds and cranes, rest in the zone of five colored banners and
 writhing crackling dragons in veils of ragged mist and frost crystals,
-into a pure transparency of blue.* --- Gary Snyder
+into a pure transparency of blue.* 
+> 
+> --- Gary Snyder

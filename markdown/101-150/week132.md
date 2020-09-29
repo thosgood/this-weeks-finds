@@ -374,4 +374,3 @@ is studying. Let me quote the abstract:
 > lax-natural transformations, this composite need not be a lax-natural
 > transformation again, making Gray-Cat only a partial
 > Gray-Cat-cateegory.
-

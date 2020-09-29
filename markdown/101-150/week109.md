@@ -322,5 +322,7 @@ proportions: in this setup, *space itself* is built from spinors!
 
 ------------------------------------------------------------------------
 
-*The universe is full of magical things, patiently waiting for our wits
-to grow sharper.* --- Eden Philpotts
+> *The universe is full of magical things, patiently waiting for our wits
+to grow sharper.*
+> 
+> --- Eden Philpotts

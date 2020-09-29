@@ -484,4 +484,3 @@ and for the original source, go to:
 
 Even better, come and sit in on Jim Dolan's seminar on the subject,
 here at UCR!
-

@@ -173,8 +173,9 @@ spectrum the "integers" (thus explaining my mysterious remark above).
 
 ------------------------------------------------------------------------
 
-*Deep, deep infinity! Quietness. To dream away from the tensions of
+> *Deep, deep infinity! Quietness. To dream away from the tensions of
 daily living; to sail over a calm sea at the prow of a ship, toward a
 horizon that always recedes; to stare at the passing waves and listen to
-their monotonous soft murmur; to dream away into unconsciousness....* ---
-Maurits Escher
+their monotonous soft murmur; to dream away into unconsciousness....*
+> 
+> --- Maurits Escher

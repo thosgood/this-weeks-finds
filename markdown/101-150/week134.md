@@ -287,4 +287,3 @@ I like how the abstract of this paper starts: "The purpose of this
 paper is to make the theory of vertex algebras trivial". Good! Trivial
 is not bad, it's good. Anything one understands is automatically
 trivial.
-

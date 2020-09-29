@@ -409,4 +409,3 @@ afraid that so far, I'm just struggling to understand the basic
 geometry.
 
 Happy New Year!
-

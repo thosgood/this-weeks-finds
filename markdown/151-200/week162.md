@@ -507,4 +507,3 @@ Finally, for a really good overview of Jordan algebras and related
 things like "Jordan pairs" and "Jordan triple systems", try this:
 
 24) Kevin McCrimmon, "Jordan algebras and their applications", _AMS Bulletin_ **84** (1978), 612--627.
-

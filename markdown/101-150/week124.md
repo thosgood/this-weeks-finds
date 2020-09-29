@@ -331,8 +331,10 @@ Also try this:
 
 ------------------------------------------------------------------------
 
-*First, and above all for Dirac, the logic that led to the theory was,
+> *First, and above all for Dirac, the logic that led to the theory was,
 although deeply sophisticated, in a sense beautifully simple. Much
 later, when someone asked him (as many must have done before)* "How did
 you find the Dirac equation?" *he is said to have replied* "I found it
-beautiful." --- Michael Berry
+beautiful."
+> 
+> --- Michael Berry

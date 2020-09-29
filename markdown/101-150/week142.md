@@ -488,4 +488,3 @@ detailed, and probably only of interest to $n$-category addicts....
 > \[M2\] M. Makkai, "Towards a categorical foundation of mathematics". In: _Logic Colloquium '95_ (J. A. Makowski and E. V. Ravve, editors). _Lecture Notes in Logic_ **11** (1998) (Springer-Verlag).
 >
 > \[M3\] M. Makkai, "First Order Logic with Dependent Sorts". Research monograph, accepted by _Lecture Notes in Logic_ (Springer-Verlag). Under revision. Original form available electronically (when the machines work ...).
-

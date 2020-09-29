@@ -333,4 +333,3 @@ than the magic numbers 1, 2, 4, and 8. Adding 8, we can guess there
 should also be fun stuff in spacetimes of dimensions 11, 12, 14 and 18,
 related to $\mathrm{F}_4$, $\mathrm{E}_6$, $\mathrm{E}_7$ and $\mathrm{E}_8$, respectively. Is this true? Is the 11d
 case related to 11d supergravity --- or M-theory? I don't know.
-

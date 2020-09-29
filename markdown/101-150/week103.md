@@ -114,4 +114,3 @@ simpler way, and Scott Carter for a fascinating letter on the themes of
 adequately to these nice emails!
 
 Gotta run....
-

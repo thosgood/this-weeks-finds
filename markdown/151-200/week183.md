@@ -304,5 +304,7 @@ I replied:
 
 ------------------------------------------------------------------------
 
-*When we try to pick out anything by itself, we find it hitched to
-everything else in the Universe.* --- John Muir
+> *When we try to pick out anything by itself, we find it hitched to
+everything else in the Universe.*
+> 
+> --- John Muir

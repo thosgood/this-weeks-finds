@@ -592,7 +592,8 @@ here:
 
 ------------------------------------------------------------------------
 
-*The imaginary expression $\sqrt{-a}$ and the negative expression $\sqrt{-b}$ resemble
+> *The imaginary expression $\sqrt{-a}$ and the negative expression $\sqrt{-b}$ resemble
 each other in that each one, when they seem the solution of a problem,
-they indicate that there is some inconsistency or nonsense.* --- Augustus
-De Morgan, 1831.
+they indicate that there is some inconsistency or nonsense.*
+> 
+> --- Augustus De Morgan, 1831.

@@ -262,6 +262,8 @@ happens at the singularity of a black hole... so stay tuned!
 
 ------------------------------------------------------------------------
 
-*Now the thing about time is that time isn't really real.
+> *Now the thing about time is that time isn't really real.
 It's just your point of view, how does it feel for you?
-Einstein said he could never understand it all.* --- James Taylor
+Einstein said he could never understand it all.*
+> 
+> --- James Taylor

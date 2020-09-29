@@ -279,5 +279,7 @@ interesting question.
 
 ------------------------------------------------------------------------
 
-*all ignorance toboggans into know
-and trudges up to ignorance again.* --- e.e.cummings, 1959
+> *all ignorance toboggans into know
+and trudges up to ignorance again.*
+> 
+> --- e.e.cummings, 1959

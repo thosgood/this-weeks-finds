@@ -473,4 +473,3 @@ said so far to *other* Dynkin diagrams. And the answer appears to be:
 yes!
 
 I'll talk a bit about this next week.
-

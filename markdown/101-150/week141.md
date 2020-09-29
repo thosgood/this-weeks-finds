@@ -501,4 +501,3 @@ $(\mathbb{Z}/2)^4$ or $(\mathbb{Z}/2)^2\times\mathbb{Z}/4$. Linus writes:
 >  
 > Linus Kramer
 >  
-

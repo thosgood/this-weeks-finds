@@ -339,4 +339,3 @@ of this kind of "commutativity of abstraction".
 Finally, I should emphasize that all of this stuff was first explained
 to me by James Dolan. I just want to make these explanations available
 to everyone.
-

@@ -339,4 +339,3 @@ $G$-bundle --- thus helping us classify $G$-bundles. But if I started
 explaining this now, we'd be here all night.
 
 Also sometime I should say more about how to construct $EG$.
-

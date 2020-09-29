@@ -359,4 +359,3 @@ into one with $n$ vertices.
 So: in addition to its other descriptions, we can define $\Delta$ as the free
 monoidal category on a monoid object! Next time we'll see how this is
 fundamental to homological algebra.
-

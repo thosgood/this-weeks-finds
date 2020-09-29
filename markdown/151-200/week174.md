@@ -1273,4 +1273,3 @@ Bill Lawvere added:
 > detract from the honor of their actual discoverers.
 >
 > Bill Lawvere
-

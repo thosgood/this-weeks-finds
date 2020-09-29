@@ -293,4 +293,3 @@ trying to make "This Week's Finds" very elementary and readable ---
 relatively speaking, I mean --- but I'm getting in the mood for writing
 in a more technical and incomprehensible manner, and homotopy theory is
 an ideal subject for that sort of writing.
-

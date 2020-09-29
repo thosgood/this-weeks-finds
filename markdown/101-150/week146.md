@@ -228,4 +228,3 @@ group.
 11) Martin Bojowald, "Loop Quantum Cosmology I: Kinematics", preprint available as [`gr-qc/9910103`](https://arxiv.org/abs/gr-qc/9910103).
 
     Martin Bojowald, "Loop Quantum Cosmology II: Volume Operators", [`gr-qc/9910104`](https://arxiv.org/abs/gr-qc/9910104).
-

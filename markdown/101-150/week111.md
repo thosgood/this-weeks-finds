@@ -218,4 +218,3 @@ for manifolds whose holonomy is contained in $\mathrm{Spin}(7)$. The interpretat
 of the equations in terms of moment maps further constraints the
 manifolds: the surface must be orientable, the 4-manifold must be
 hyperkaehler and the 8-manifold must be flat."
-

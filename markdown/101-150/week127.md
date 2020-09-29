@@ -461,4 +461,3 @@ Notes and digressions:
     > formal manipulation is valid. However for Dirichlet $L$-functions the
     > Euler product is valid at $s = 1$. This requires some delicate analysis: for
     > details see Landau's book on prime numbers or Davenport's _Multiplicative Number Theory_.
-

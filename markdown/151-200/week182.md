@@ -598,6 +598,8 @@ field by an $E_\infty$ ring spectrum? Then this is for you.
 
 ------------------------------------------------------------------------
 
-*Geometry may sometimes appear to take the lead over analysis, but in
+> *Geometry may sometimes appear to take the lead over analysis, but in
 fact precedes it only as a servant goes before his master to clear the
-path and light him on his way.* --- James Sylvester
+path and light him on his way.*
+> 
+> --- James Sylvester

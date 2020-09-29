@@ -488,4 +488,3 @@ finding 4290 "simple and elegant" bijections between the various sets
 being counted.
 
 (Thanks go to my pal Bill Schmitt for mentioning this reference.)
-

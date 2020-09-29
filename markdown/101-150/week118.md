@@ -476,4 +476,3 @@ $$\operatorname{Hom}(\mathcal{D},\mathcal{D})\times\mathcal{D}\to \mathcal{D}$$
 and plugging in $d$ in the second argument. This functor lets us push our
 simplicial object in $\operatorname{Hom}(\mathcal{D},\mathcal{D})$ forwards to a simplicial object in $\mathcal{D}$.
 Voila!
-

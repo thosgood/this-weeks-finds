@@ -144,4 +144,3 @@ were tried, leading up to the research directions that people pursue
 now:
 
 8) Carlo Rovelli, "Notes for a brief history of quantum gravity", presented at the 9th Marcel Grossmann Meeting in Rome, July 2000. Available as [`gr-qc/0006061`](https://arxiv.org/abs/gr-qc/0006061).
-

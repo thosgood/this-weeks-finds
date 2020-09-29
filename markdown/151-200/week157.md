@@ -435,11 +435,12 @@ This may not seem related to Young diagrams, but it is....
 
 ------------------------------------------------------------------------
 
-*Devin had been studying this region for ten years, poking his way
+> *Devin had been studying this region for ten years, poking his way
 through a place not much larger than the town in which he lived, and had
 still not deciphered half its routes. This hugeness inside of smallness
 creates a matrix of intersections, precious and incalculable channels
 one after the next. It is a fractal landscape like the surface of a
 leaf, veins within veins, or the arborescent feathers of ice forming
-barbs within barbs across the surface of a pond.* --- Craig Childs, Soul
-of Nowhere
+barbs within barbs across the surface of a pond.*
+> 
+> --- Craig Childs, Soul of Nowhere
