@@ -647,39 +647,71 @@ the first to have computed these --- at this stage we're mainly learning
 and reinventing known stuff --- but he did it using a nice trick I'd like
 to mention. I was shocked at how unfamiliar these numbers were to me,
 because all these Grassmannians should be definable using the octonions:
-
-                      -------
-    \mathrm{G}_2              5 --->--- 5
-                      -------
-
-
-
-    \mathrm{F}_4            43------48==\Rightarrow===48------43
-
-
-
-                                    21
-                                    |
-                                    |
-                                    |
-    E6              16------25------29------25------16
-
-
-
-                                    42
-                                    |
-                                    |
-                                    |
-    E7              33------47------53------50------42------27
-
-
-
-
-                                    92
-                                    |
-                                    |
-                                    |
-    E8              78------98-----106-----104------99------83------57
+$$
+  \begin{tikzpicture}
+    \draw[double,double equal sign distance] (0,0) to (1,0);
+    \draw[double,double equal sign distance,-implies] (0,0) to (0.55,0);
+    \draw (0,0) to (1,0);
+    \node[label=left:{$5$}] at (0,0) {$\bullet$};
+    \node[label=right:{$5$}] at (1,0) {$\bullet$};
+    \node at (-2,0) {$\mathrm{G}_2$};
+  \end{tikzpicture}
+$$
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (1,0);
+    \draw[double,double equal sign distance] (1,0) to (2,0);
+    \draw[double,double equal sign distance,-implies] (1,0) to (1.55,0);
+    \draw[thick] (2,0) to (3,0);
+    \node[label=below:{$43$}] at (0,0) {$\bullet$};
+    \node[label=below:{$48$}] at (1,0) {$\bullet$};
+    \node[label=below:{$48$}] at (2,0) {$\bullet$};
+    \node[label=below:{$43$}] at (3,0) {$\bullet$};
+    \node at (-2,0) {$\mathrm{F}_4$};
+  \end{tikzpicture}
+$$
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (4,0);
+    \draw[thick] (2,0) to (2,1);
+    \node[label=below:{$16$}] at (0,0) {$\bullet$};
+    \node[label=below:{$25$}] at (1,0) {$\bullet$};
+    \node[label=below:{$29$}] at (2,0) {$\bullet$};
+    \node[label=above:{$21$}] at (2,1) {$\bullet$};
+    \node[label=below:{$25$}] at (3,0) {$\bullet$};
+    \node[label=below:{$16$}] at (4,0) {$\bullet$};
+    \node at (-2,0) {$\mathrm{E}_6$};
+  \end{tikzpicture}
+$$
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (5,0);
+    \draw[thick] (2,0) to (2,1);
+    \node[label=below:{$33$}] at (0,0) {$\bullet$};
+    \node[label=below:{$47$}] at (1,0) {$\bullet$};
+    \node[label=below:{$53$}] at (2,0) {$\bullet$};
+    \node[label=above:{$42$}] at (2,1) {$\bullet$};
+    \node[label=below:{$50$}] at (3,0) {$\bullet$};
+    \node[label=below:{$42$}] at (4,0) {$\bullet$};
+    \node[label=below:{$27$}] at (5,0) {$\bullet$};
+    \node at (-2,0) {$\mathrm{E}_7$};
+  \end{tikzpicture}
+$$
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (6,0);
+    \draw[thick] (2,0) to (2,1);
+    \node[label=below:{$78$}] at (0,0) {$\bullet$};
+    \node[label=below:{$98$}] at (1,0) {$\bullet$};
+    \node[label=below:{$106$}] at (2,0) {$\bullet$};
+    \node[label=above:{$92$}] at (2,1) {$\bullet$};
+    \node[label=below:{$104$}] at (3,0) {$\bullet$};
+    \node[label=below:{$99$}] at (4,0) {$\bullet$};
+    \node[label=below:{$83$}] at (5,0) {$\bullet$};
+    \node[label=below:{$57$}] at (6,0) {$\bullet$};
+    \node at (-2,0) {$\mathrm{E}_8$};
+  \end{tikzpicture}
+$$
 
 You can calculate dimensions of these and all the other Grassmannians
 for simple Lie groups by the following easy trick. Given the Dynkin
@@ -697,6 +729,6 @@ diagram.
 
 ------------------------------------------------------------------------
 
-*Mathematics is the part of physics where experiments are cheap.* --- V.
-I. Arnold, [On teaching
-mathematics](http://pauli.uni-muenster.de/~munsteg/arnold.html)
+> *Mathematics is the part of physics where experiments are cheap.* 
+> 
+> --- V. I. Arnold, [On teaching mathematics](http://pauli.uni-muenster.de/~munsteg/arnold.html)
