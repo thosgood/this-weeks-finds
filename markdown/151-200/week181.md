@@ -363,23 +363,56 @@ series of simple Lie groups and seeing what we get.
     eventually justified by a method I'll explain later.
 
     Here's a bigger chart of these dimensions:
-
-        B1                           1
-
-        B2                         3    3
-             
-        B3                      5    7    6
-                           
-        B4                    7   11   12   10
-
-        B5                 9   15   18   18   15
-                              
-        B6              11   19   24   26   25   21
-         
-        B7            13  23   30   34   35   33   28
-
-        B8          15  27   36   42   45   45   42   36
-
+    $$
+      \begin{tikzpicture}[xscale=0.5,yscale=0.6]
+        \node at (0,0) {$1$};
+        \node at (-1,-1) {$3$};
+        \node at (1,-1) {$3$};
+        \node at (-2,-2) {$5$};
+        \node at (0,-2) {$7$};
+        \node at (2,-2) {$6$};
+        \node at (-3,-3) {$7$};
+        \node at (-1,-3) {$11$};
+        \node at (1,-3) {$12$};
+        \node at (3,-3) {$10$};
+        \node at (-4,-4) {$9$};
+        \node at (-2,-4) {$15$};
+        \node at (0,-4) {$18$};
+        \node at (2,-4) {$18$};
+        \node at (4,-4) {$15$};
+        \node at (-5,-5) {$11$};
+        \node at (-3,-5) {$19$};
+        \node at (-1,-5) {$24$};
+        \node at (1,-5) {$26$};
+        \node at (3,-5) {$25$};
+        \node at (5,-5) {$21$};
+        \node at (-6,-6) {$13$};
+        \node at (-4,-6) {$23$};
+        \node at (-2,-6) {$30$};
+        \node at (0,-6) {$34$};
+        \node at (2,-6) {$35$};
+        \node at (4,-6) {$33$};
+        \node at (6,-6) {$28$};
+        \node at (-7,-7) {$15$};
+        \node at (-5,-7) {$27$};
+        \node at (-3,-7) {$36$};
+        \node at (-1,-7) {$42$};
+        \node at (1,-7) {$45$};
+        \node at (3,-7) {$45$};
+        \node at (5,-7) {$42$};
+        \node at (7,-7) {$36$};
+        %
+        \node at (-9,0) {$\mathrm{B}_1$};
+        \node at (-9,-1) {$\mathrm{B}_2$};
+        \node at (-9,-2) {$\mathrm{B}_3$};
+        \node at (-9,-3) {$\mathrm{B}_4$};
+        \node at (-9,-4) {$\mathrm{B}_5$};
+        \node at (-9,-5) {$\mathrm{B}_6$};
+        \node at (-9,-6) {$\mathrm{B}_7$};
+        \node at (-9,-7) {$\mathrm{B}_8$};
+        \draw[thick,dashed] (-8,0.5) to (-8,-7.5);
+      \end{tikzpicture}
+    $$
     I leave it as an easy puzzle to figure out the pattern, and a harder
     puzzle to prove it's true. Don't be overly distracted by the symmetry
     lurking in rows 2, 5, and 8 --- every third row has this symmetry, but
@@ -387,29 +420,34 @@ series of simple Lie groups and seeing what we get.
 
     If we quantize these Grassmannians we get these fundamental reps of
     $\mathrm{Spin}(2n+1,\mathbb{C})$:
-
-        B1                                 spinors
-        Spin(3,C)                             o
-                                              2
-
-             
-                                  
-        B2                          vectors        spinors
-        Spin(5,C)                     o=======>=======o
-                                      5               4
-
-
-                           
-        B3                   vectors       bivectors       spinors
-        Spin(7,C)              o--------------o=======>=======o
-                               7             21               8
-
-
-                     
-        B4             vectors     bivectors        3-vectors      spinors
-        Spin(9,C)        o-------------o---------------o=======>======o
-                         9            36              84             16
-
+    $$
+      \begin{tikzpicture}[xscale=0.95,yscale=1.6]
+        \draw[double,double equal sign distance] (0,-1) to (1,-1);
+        \draw[double,double equal sign distance,-implies] (-1,-1) to (0.05,-1);
+        \draw[thick] (-2,-2) to (0,-2);
+        \draw[double,double equal sign distance] (1,-2) to (2,-2);
+        \draw[double,double equal sign distance,-implies] (0,-2) to (1.05,-2);
+        \draw[thick] (-3,-3) to (1,-3);
+        \draw[double,double equal sign distance] (2,-3) to (3,-3);
+        \draw[double,double equal sign distance,-implies] (1,-3) to (2.05,-3);
+        %
+        \node[label=below:{\scriptsize$2$},label=above:{\scriptsize spinors}] at (0,0) {$\bullet$};
+        \node[label=below:{\scriptsize$5$},label=above:{\scriptsize vectors}] at (-1,-1) {$\bullet$};
+        \node[label=below:{\scriptsize$4$},label=above:{\scriptsize spinors}] at (1,-1) {$\bullet$};
+        \node[label=below:{\scriptsize$7$},label=above:{\scriptsize vectors}] at (-2,-2) {$\bullet$};
+        \node[label=below:{\scriptsize$21$},label=above:{\scriptsize bivectors}] at (0,-2) {$\bullet$};
+        \node[label=below:{\scriptsize$8$},label=above:{\scriptsize spinors}] at (2,-2) {$\bullet$};
+        \node[label=below:{\scriptsize$9$},label=above:{\scriptsize vectors}] at (-3,-3) {$\bullet$};
+        \node[label=below:{\scriptsize$36$},label=above:{\scriptsize bivectors}] at (-1,-3) {$\bullet$};
+        \node[label=below:{\scriptsize$84$},label=above:{\scriptsize 3-vectors}] at (1,-3) {$\bullet$};
+        \node[label=below:{\scriptsize$16$},label=above:{\scriptsize spinors}] at (3,-3) {$\bullet$};
+        %
+        \node at (-5.5,0) {$\mathrm{B}_1$: $\mathrm{Spin}(3,\mathbb{C})$};
+        \node at (-5.5,-1) {$\mathrm{B}_2$: $\mathrm{Spin}(5,\mathbb{C})$};
+        \node at (-5.5,-2) {$\mathrm{B}_3$: $\mathrm{Spin}(7,\mathbb{C})$};
+        \node at (-5.5,-3) {$\mathrm{B}_4$: $\mathrm{Spin}(9,\mathbb{C})$};
+      \end{tikzpicture}
+    $$
     As before, the dimension of the space of $p$-vectors in $q$-dimensional
     space comes straight from Pascal's triangle: it's $q$ choose $p$. But now
     we also have spinor reps; the dimensions of these are powers of 2.
