@@ -552,127 +552,91 @@ series of simple Lie groups and seeing what we get.
     special feature of conformal geometry in *even* dimensions!
 
     Here are the Grassmannians and their dimensions:
-
-                                         1
-                                         o self-dual 2d subspaces
-                                         
-        D2                                      
-        \mathrm{Spin}(4,\mathbb{C})                 
-                         
-                                            
-                                         o anti-self-dual 2d subspaces
-                                         1
-                                       
-
-
-
-
-                                            3
-                                            o self-dual 3d subspaces
-                                           /
-                                          /
-        D3                               /
-        \mathrm{Spin}(6,\mathbb{C})                     4 o isotropic 1d subspaces
-                                         \
-                                          \
-                                           \
-                                            o anti-self-dual 3d subspaces
-                                            3
-
-
-
-
-                                                 6
-                                                o self-dual 4d subspaces
-                                               /
-                               isotropic      /
-        D4                   1d subspaces    /
-        \mathrm{Spin}(8,\mathbb{C})                   o-------o isotropic 2d subspaces 
-                                    6       9\
-                                              \
-                                               \
-                                                o anti-self-dual 4d subspaces
-                                                 6
-
-
-
-
-                                                       10
-                                                       o self-dual 5d subspaces
-                                                      /            
-                                                     / 
-        D5             1d subspaces  2d subspaces   /
-        \mathrm{Spin}(10,\mathbb{C})           o-----------o---------o isotropic 3d subspaces
-                             8          13        15\
-                                                     \
-                                                      \
-                                                       o anti-self-dual 5d subspaces
-                                                       10
-
+    $$
+      \begin{tikzpicture}[xscale=0.4,yscale=0.6]
+        \node[label=above:{\scriptsize$1$},label=right:{\scriptsize self-dual 2d subspaces}] at (0,1) {$\bullet$};
+        \node[label=below:{\scriptsize$1$},label=right:{\scriptsize anti-self-dual 2d subspaces}] at (0,-1) {$\bullet$};
+        \node at (-8,0) {$\mathrm{D}_2$: $\mathrm{Spin}(4,\mathbb{C})$};
+      \end{tikzpicture}
+    $$
+    $$
+      \begin{tikzpicture}[xscale=0.4,yscale=0.6]
+        \draw[thick] (0,1) to (-1,0) to (0,-1);
+        \node[label=above:{\scriptsize$3$},label=right:{\scriptsize self-dual 3d subspaces}] at (0,1) {$\bullet$};
+        \node[label=left:{\scriptsize$4$},label=right:{\scriptsize isotropic 1d subspaces}] at (-1,0) {$\bullet$};
+        \node[label=below:{\scriptsize$3$},label=right:{\scriptsize anti-self-dual 3d subspaces}] at (0,-1) {$\bullet$};
+        \node at (-8,0) {$\mathrm{D}_3$: $\mathrm{Spin}(6,\mathbb{C})$};
+      \end{tikzpicture}
+    $$
+    $$
+      \begin{tikzpicture}[xscale=0.4,yscale=0.6]
+        \draw[thick] (0,1) to (-1,0) to (0,-1);
+        \draw[thick] (-1,0) to (-4,0);
+        \node[label=above:{\scriptsize$6$},label=right:{\scriptsize self-dual 4d subspaces}] at (0,1) {$\bullet$};
+        \node[label={[label distance=-2mm]below left:{\scriptsize$9$}},label=right:{\scriptsize isotropic 2d subspaces}] at (-1,0) {$\bullet$};
+        \node[label={below:{\scriptsize$6$}},label={[label distance=1mm]above:{\scriptsize isotropic}},label={[label distance=-2mm]above:{\scriptsize 1d subspaces}}] at (-4,0) {$\bullet$};
+        \node[label=below:{\scriptsize$6$},label=right:{\scriptsize anti-self-dual 4d subspaces}] at (0,-1) {$\bullet$};
+        \node at (-12,0) {$\mathrm{D}_4$: $\mathrm{Spin}(8,\mathbb{C})$};
+      \end{tikzpicture}
+    $$
+    $$
+      \begin{tikzpicture}[xscale=0.6,yscale=0.6]
+        \draw[thick] (0,1) to (-1,0) to (0,-1);
+        \draw[thick] (-1,0) to (-7,0);
+        \node[label=above:{\scriptsize$10$},label=right:{\scriptsize self-dual 5d subspaces}] at (0,1) {$\bullet$};
+        \node[label={[label distance=-2mm]below left:{\scriptsize$15$}},label=right:{\scriptsize isotropic 3d subspaces}] at (-1,0) {$\bullet$};
+        \node[label={below:{\scriptsize$13$}},label=above:{\scriptsize 2d subspaces}] at (-4,0) {$\bullet$};
+        \node[label={below:{\scriptsize$8$}},label=above:{\scriptsize 1d subspaces}] at (-7,0) {$\bullet$};
+        \node[label=below:{\scriptsize$10$},label=right:{\scriptsize anti-self-dual 5d subspaces}] at (0,-1) {$\bullet$};
+        \node at (-12,0) {$\mathrm{D}_5$: $\mathrm{Spin}(10,\mathbb{C})$};
+      \end{tikzpicture}
+    $$
     You'll notice that the numbers on the "fishtails" are triangular
-    numbers: 1, 3, 6, 10... I'll say more later about how to calculate the
+    numbers: $1, 3, 6, 10\ldots$ I'll say more later about how to calculate the
     rest of these numbers.
 
     As explained last week, the fundamental reps of the $\mathrm{D}_n$ consist of
-    p-vectors, except for those at the fishtails, which are left- and
+    $p$-vectors, except for those at the fishtails, which are left- and
     right-handed spinor reps:
-
-                                         2
-                                         o left-handed spinors
-                                         
-        D2                                      
-        \mathrm{Spin}(4,\mathbb{C})                 
-                         
-                                            
-                                         o right-handed spinors
-                                         2
-                                       
-
-
-
-
-                                            4
-                                            o left-handed spinors
-                                           /
-                                          /
-        D3                               /
-        \mathrm{Spin}(6,\mathbb{C})                     6 o vectors
-                                         \
-                                          \
-                                           \
-                                            o right-handed spinors
-                                            4
-
-
-
-
-                                                8
-                                                o left-handed spinors
-                                               /
-                                              /
-        D4                       vectors     /
-        \mathrm{Spin}(8,\mathbb{C})                   o-------o bivectors
-                                    8      28\
-                                              \
-                                               \
-                                                o right-handed spinors
-                                                 8
-
-
-
-
-                                                       16
-                                                       o left-handed spinors
-                                                      /            
-                                                     / 
-        D5                vectors      bivectors    /
-        \mathrm{Spin}(10,\mathbb{C})           o-----------o---------o 3-vectors
-                             10         45       120\
-                                                     \
-                                                      \
-                                                       o right-handed spinors
-                                                       16
-
+    $$
+      \begin{tikzpicture}[xscale=0.4,yscale=0.6]
+        \node[label=above:{\scriptsize$2$},label=right:{\scriptsize left-handed spinors}] at (0,1) {$\bullet$};
+        \node[label=below:{\scriptsize$2$},label=right:{\scriptsize right-handed spinors}] at (0,-1) {$\bullet$};
+        \node at (-8,0) {$\mathrm{D}_2$: $\mathrm{Spin}(4,\mathbb{C})$};
+      \end{tikzpicture}
+    $$
+    $$
+      \begin{tikzpicture}[xscale=0.4,yscale=0.6]
+        \draw[thick] (0,1) to (-1,0) to (0,-1);
+        \node[label=above:{\scriptsize$4$},label=right:{\scriptsize left-handed spinors}] at (0,1) {$\bullet$};
+        \node[label=left:{\scriptsize$6$},label=right:{\scriptsize vectors}] at (-1,0) {$\bullet$};
+        \node[label=below:{\scriptsize$4$},label=right:{\scriptsize right-handed spinors}] at (0,-1) {$\bullet$};
+        \node at (-8,0) {$\mathrm{D}_3$: $\mathrm{Spin}(6,\mathbb{C})$};
+      \end{tikzpicture}
+    $$
+    $$
+      \begin{tikzpicture}[xscale=0.4,yscale=0.6]
+        \draw[thick] (0,1) to (-1,0) to (0,-1);
+        \draw[thick] (-1,0) to (-4,0);
+        \node[label=above:{\scriptsize$8$},label=right:{\scriptsize left-handed spinors}] at (0,1) {$\bullet$};
+        \node[label={[label distance=-2mm]below left:{\scriptsize$28$}},label=right:{\scriptsize bivectors}] at (-1,0) {$\bullet$};
+        \node[label={below:{\scriptsize$8$}},label=above:{\scriptsize vectors}] at (-4,0) {$\bullet$};
+        \node[label=below:{\scriptsize$8$},label=right:{\scriptsize right-handed spinors}] at (0,-1) {$\bullet$};
+        \node at (-12,0) {$\mathrm{D}_4$: $\mathrm{Spin}(8,\mathbb{C})$};
+      \end{tikzpicture}
+    $$
+    $$
+      \begin{tikzpicture}[xscale=0.4,yscale=0.6]
+        \draw[thick] (0,1) to (-1,0) to (0,-1);
+        \draw[thick] (-1,0) to (-7,0);
+        \node[label=above:{\scriptsize$16$},label=right:{\scriptsize left-handed spinors}] at (0,1) {$\bullet$};
+        \node[label={[label distance=-2mm]below left:{\scriptsize$120$}},label=right:{\scriptsize 3-vectors}] at (-1,0) {$\bullet$};
+        \node[label={below:{\scriptsize$45$}},label=above:{\scriptsize bivectors}] at (-4,0) {$\bullet$};
+        \node[label={below:{\scriptsize$10$}},label=above:{\scriptsize vectors}] at (-7,0) {$\bullet$};
+        \node[label=below:{\scriptsize$16$},label=right:{\scriptsize right-handed spinors}] at (0,-1) {$\bullet$};
+        \node at (-12,0) {$\mathrm{D}_5$: $\mathrm{Spin}(10,\mathbb{C})$};
+      \end{tikzpicture}
+    $$
     Again the dimension of the space of $p$-vectors in $q$-dimensional space
     comes from Pascal's triangle, while the dimensions of the spinor reps
     are powers of 2.
