@@ -253,26 +253,29 @@ series of simple Lie groups and seeing what we get.
     of these figures as vector subspaces of $\mathbb{C}^{n+1}$. We can also think of
     them as spaces of one less dimension in $\mathbb{CP}^n$. Either way, we are
     talking about *projective* geometry:
-
-        A1                              1d subspaces
-        \mathrm{SL}(2,\mathbb{C})                              o
-                                             1
-
-
-        A2                       1d subspaces  2d subspaces
-        \mathrm{SL}(3,\mathbb{C})                       o---------------o
-                                      2               2
-
-
-        A3                1d subspaces  2d subspaces  3d subspaces
-        \mathrm{SL}(4,\mathbb{C})                o------------o---------------o
-                               3             4               3
-
-
-        A4          1d subspaces  2d subspaces  3d subspaces  4d subspaces
-        \mathrm{SL}(5,\mathbb{C})          o------------o---------------o------------o
-                         4            6               6            4
-
+    $$
+      \begin{tikzpicture}[xscale=0.95,yscale=1.6]
+        \node[label=below:{\scriptsize$1$},label=above:{\scriptsize 1d subspaces}] at (0,0) {$\bullet$};
+        \node[label=below:{\scriptsize$2$},label=above:{\scriptsize 1d subspaces}] at (-1,-1) {$\bullet$};
+        \node[label=below:{\scriptsize$2$},label=above:{\scriptsize 2d subspaces}] at (1,-1) {$\bullet$};
+        \node[label=below:{\scriptsize$3$},label=above:{\scriptsize 1d subspaces}] at (-2,-2) {$\bullet$};
+        \node[label=below:{\scriptsize$4$},label=above:{\scriptsize 2d subspaces}] at (0,-2) {$\bullet$};
+        \node[label=below:{\scriptsize$3$},label=above:{\scriptsize 3d subspaces}] at (2,-2) {$\bullet$};
+        \node[label=below:{\scriptsize$4$},label=above:{\scriptsize 1d subspaces}] at (-3,-3) {$\bullet$};
+        \node[label=below:{\scriptsize$6$},label=above:{\scriptsize 2d subspaces}] at (-1,-3) {$\bullet$};
+        \node[label=below:{\scriptsize$6$},label=above:{\scriptsize 3d subspaces}] at (1,-3) {$\bullet$};
+        \node[label=below:{\scriptsize$4$},label=above:{\scriptsize 4d subspaces}] at (3,-3) {$\bullet$};
+        %
+        \draw[thick] (-1,-1) to (1,-1);
+        \draw[thick] (-2,-2) to (2,-2);
+        \draw[thick] (-3,-3) to (3,-3);
+        %
+        \node at (-5,0) {$\mathrm{A}_1$: $\mathrm{SL}(2,\mathbb{C})$};
+        \node at (-5,-1) {$\mathrm{A}_2$: $\mathrm{SL}(3,\mathbb{C})$};
+        \node at (-5,-2) {$\mathrm{A}_3$: $\mathrm{SL}(4,\mathbb{C})$};
+        \node at (-5,-3) {$\mathrm{A}_4$: $\mathrm{SL}(5,\mathbb{C})$};
+      \end{tikzpicture}
+    $$
     Recognize the numbers labelling the Dynkin diagram dots? It's a weird
     modified version of Pascal's triangle --- but can you figure out the
     pattern?
@@ -285,26 +288,29 @@ series of simple Lie groups and seeing what we get.
     representation and its dimension. All these reps are exterior powers of
     the obvious rep of $\mathrm{SL}(n+1,\mathbb{C})$ on $\mathbb{C}^{n+1}$. We call elements of the $p$th
     exterior power "$p$-vectors", or "multivectors" in general:
-
-        A1                                vectors 
-        SL(2,C)                              o
-                                             2
-
-
-        A2                        vectors        bivectors
-        SL(3,C)                      o---------------o
-                                     3               3
-
-
-        A3                   vectors     bivectors      3-vectors
-        SL(4,C)                o-------------o--------------o
-                               4             6              4
-
-
-        A4          vectors      bivectors      3-vectors    4-vectors
-        SL(5,C)        o-------------o--------------o------------o
-                       5            10             10            5
-
+    $$
+      \begin{tikzpicture}[xscale=0.95,yscale=1.6]
+        \node[label=below:{\scriptsize$2$},label=above:{\scriptsize vectors}] at (0,0) {$\bullet$};
+        \node[label=below:{\scriptsize$3$},label=above:{\scriptsize vectors}] at (-1,-1) {$\bullet$};
+        \node[label=below:{\scriptsize$3$},label=above:{\scriptsize bivectors}] at (1,-1) {$\bullet$};
+        \node[label=below:{\scriptsize$4$},label=above:{\scriptsize vectors}] at (-2,-2) {$\bullet$};
+        \node[label=below:{\scriptsize$6$},label=above:{\scriptsize bivectors}] at (0,-2) {$\bullet$};
+        \node[label=below:{\scriptsize$4$},label=above:{\scriptsize 3-vectors}] at (2,-2) {$\bullet$};
+        \node[label=below:{\scriptsize$5$},label=above:{\scriptsize vectors}] at (-3,-3) {$\bullet$};
+        \node[label=below:{\scriptsize$10$},label=above:{\scriptsize bivectors}] at (-1,-3) {$\bullet$};
+        \node[label=below:{\scriptsize$10$},label=above:{\scriptsize 3-vectors}] at (1,-3) {$\bullet$};
+        \node[label=below:{\scriptsize$5$},label=above:{\scriptsize 4-vectors}] at (3,-3) {$\bullet$};
+        %
+        \draw[thick] (-1,-1) to (1,-1);
+        \draw[thick] (-2,-2) to (2,-2);
+        \draw[thick] (-3,-3) to (3,-3);
+        %
+        \node at (-5,0) {$\mathrm{A}_1$: $\mathrm{SL}(2,\mathbb{C})$};
+        \node at (-5,-1) {$\mathrm{A}_2$: $\mathrm{SL}(3,\mathbb{C})$};
+        \node at (-5,-2) {$\mathrm{A}_3$: $\mathrm{SL}(4,\mathbb{C})$};
+        \node at (-5,-3) {$\mathrm{A}_4$: $\mathrm{SL}(5,\mathbb{C})$};
+      \end{tikzpicture}
+    $$
     Here the numbers labelling the dots form Pascal's triangle! So we see
     that Pascal's triangle is a quantized version of the multiplication
     table. (That was the answer to the previous puzzle, by the way --- our
