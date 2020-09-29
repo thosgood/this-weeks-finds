@@ -270,10 +270,10 @@ series of simple Lie groups and seeing what we get.
         \draw[thick] (-2,-2) to (2,-2);
         \draw[thick] (-3,-3) to (3,-3);
         %
-        \node at (-5,0) {$\mathrm{A}_1$: $\mathrm{SL}(2,\mathbb{C})$};
-        \node at (-5,-1) {$\mathrm{A}_2$: $\mathrm{SL}(3,\mathbb{C})$};
-        \node at (-5,-2) {$\mathrm{A}_3$: $\mathrm{SL}(4,\mathbb{C})$};
-        \node at (-5,-3) {$\mathrm{A}_4$: $\mathrm{SL}(5,\mathbb{C})$};
+        \node at (-5.5,0) {$\mathrm{A}_1$: $\mathrm{SL}(2,\mathbb{C})$};
+        \node at (-5.5,-1) {$\mathrm{A}_2$: $\mathrm{SL}(3,\mathbb{C})$};
+        \node at (-5.5,-2) {$\mathrm{A}_3$: $\mathrm{SL}(4,\mathbb{C})$};
+        \node at (-5.5,-3) {$\mathrm{A}_4$: $\mathrm{SL}(5,\mathbb{C})$};
       \end{tikzpicture}
     $$
     Recognize the numbers labelling the Dynkin diagram dots? It's a weird
@@ -305,10 +305,10 @@ series of simple Lie groups and seeing what we get.
         \draw[thick] (-2,-2) to (2,-2);
         \draw[thick] (-3,-3) to (3,-3);
         %
-        \node at (-5,0) {$\mathrm{A}_1$: $\mathrm{SL}(2,\mathbb{C})$};
-        \node at (-5,-1) {$\mathrm{A}_2$: $\mathrm{SL}(3,\mathbb{C})$};
-        \node at (-5,-2) {$\mathrm{A}_3$: $\mathrm{SL}(4,\mathbb{C})$};
-        \node at (-5,-3) {$\mathrm{A}_4$: $\mathrm{SL}(5,\mathbb{C})$};
+        \node at (-5.5,0) {$\mathrm{A}_1$: $\mathrm{SL}(2,\mathbb{C})$};
+        \node at (-5.5,-1) {$\mathrm{A}_2$: $\mathrm{SL}(3,\mathbb{C})$};
+        \node at (-5.5,-2) {$\mathrm{A}_3$: $\mathrm{SL}(4,\mathbb{C})$};
+        \node at (-5.5,-3) {$\mathrm{A}_4$: $\mathrm{SL}(5,\mathbb{C})$};
       \end{tikzpicture}
     $$
     Here the numbers labelling the dots form Pascal's triangle! So we see
@@ -330,30 +330,34 @@ series of simple Lie groups and seeing what we get.
     different, and we'll get to that later.
 
     Here are the Grassmannians and their dimensions:
-
-                                         isotropic 
-        B1                              1d subspaces
-        Spin(3,C)                             o
-                                              1
-
-             
-                                  isotropic     isotropic
-        B2                       1d subspaces  2d subspaces
-        Spin(5,C)                     o=======>=======o
-                                      3               3
-
-
-                           isotropic     isotropic     isotropic
-        B3                1d subspaces  2d subspaces  3d subspaces
-        Spin(7,C)              o--------------o=======>=======o
-                               5              7               6
-
-
-                     isotropic     isotropic      isotropic     isotropic
-        B4          1d subspaces  2d subspaces   3d subspaces  4d subspaces
-        Spin(9,C)        o-------------o---------------o=======>======o
-                         7            11              12             10 
-
+    $$
+      \begin{tikzpicture}[xscale=0.95,yscale=1.6]
+        \draw[double,double equal sign distance] (0,-1) to (1,-1);
+        \draw[double,double equal sign distance,-implies] (-1,-1) to (0.05,-1);
+        \draw[thick] (-2,-2) to (0,-2);
+        \draw[double,double equal sign distance] (1,-2) to (2,-2);
+        \draw[double,double equal sign distance,-implies] (0,-2) to (1.05,-2);
+        \draw[thick] (-3,-3) to (1,-3);
+        \draw[double,double equal sign distance] (2,-3) to (3,-3);
+        \draw[double,double equal sign distance,-implies] (1,-3) to (2.05,-3);
+        %
+        \node[label=below:{\scriptsize$1$},label={[label distance=1mm]above:{\scriptsize isotropic}},label={[label distance=-2mm]above:{\scriptsize 1d subspaces}}] at (0,0) {$\bullet$};
+        \node[label=below:{\scriptsize$3$},label={[label distance=1mm]above:{\scriptsize isotropic}},label={[label distance=-2mm]above:{\scriptsize 1d subspaces}}] at (-1,-1) {$\bullet$};
+        \node[label=below:{\scriptsize$3$},label={[label distance=1mm]above:{\scriptsize isotropic}},label={[label distance=-2mm]above:{\scriptsize 2d subspaces}}] at (1,-1) {$\bullet$};
+        \node[label=below:{\scriptsize$5$},label={[label distance=1mm]above:{\scriptsize isotropic}},label={[label distance=-2mm]above:{\scriptsize 1d subspaces}}] at (-2,-2) {$\bullet$};
+        \node[label=below:{\scriptsize$7$},label={[label distance=1mm]above:{\scriptsize isotropic}},label={[label distance=-2mm]above:{\scriptsize 2d subspaces}}] at (0,-2) {$\bullet$};
+        \node[label=below:{\scriptsize$6$},label={[label distance=1mm]above:{\scriptsize isotropic}},label={[label distance=-2mm]above:{\scriptsize 3d subspaces}}] at (2,-2) {$\bullet$};
+        \node[label=below:{\scriptsize$7$},label={[label distance=1mm]above:{\scriptsize isotropic}},label={[label distance=-2mm]above:{\scriptsize 1d subspaces}}] at (-3,-3) {$\bullet$};
+        \node[label=below:{\scriptsize$11$},label={[label distance=1mm]above:{\scriptsize isotropic}},label={[label distance=-2mm]above:{\scriptsize 2d subspaces}}] at (-1,-3) {$\bullet$};
+        \node[label=below:{\scriptsize$12$},label={[label distance=1mm]above:{\scriptsize isotropic}},label={[label distance=-2mm]above:{\scriptsize 3d subspaces}}] at (1,-3) {$\bullet$};
+        \node[label=below:{\scriptsize$10$},label={[label distance=1mm]above:{\scriptsize isotropic}},label={[label distance=-2mm]above:{\scriptsize 4d subspaces}}] at (3,-3) {$\bullet$};
+        %
+        \node at (-5.5,0) {$\mathrm{B}_1$: $\mathrm{Spin}(3,\mathbb{C})$};
+        \node at (-5.5,-1) {$\mathrm{B}_2$: $\mathrm{Spin}(5,\mathbb{C})$};
+        \node at (-5.5,-2) {$\mathrm{B}_3$: $\mathrm{Spin}(7,\mathbb{C})$};
+        \node at (-5.5,-3) {$\mathrm{B}_4$: $\mathrm{Spin}(9,\mathbb{C})$};
+      \end{tikzpicture}
+    $$
     I'm sure these are well-known, but James Dolan and I had a lot of fun
     one evening working these out, using a lot of numerology that we
     eventually justified by a method I'll explain later.
