@@ -11,5 +11,3 @@
     + 224
     + 186 (& 187)
     + 182 (tables)
-- **quotes**
-    + check ends of weeks (1--100)

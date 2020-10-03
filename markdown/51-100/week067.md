@@ -169,4 +169,3 @@ symmetries relating superficially different string theories... making
 them, in some deeper sense, the same. The heterotic and type I strings
 are two of the most famous string theories, so if they were really
 equivalent as this paper suggests, it would be very interesting.
-

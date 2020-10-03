@@ -248,15 +248,14 @@ Coxeter diagrams that we've already run into.
 
 THAT'S ALL.
 
-So, we have an "ABDEFGHI classification" of finite reflection groups.
-(In some future week I had better say what happened to "C".) Note that
+So, we have an "$\mathrm{ABDEFGHI}$ classification" of finite reflection groups.
+(In some future week I had better say what happened to "$\mathrm{C}$".) Note that
 the symmetry groups of the Platonic solids and some of their
 higher-dimensional relatives fit in nicely into this classification, so
 that's one sense in which the Greeks' discovery of these solids counts
-as the first "ADE classification". But there is at least one another,
-deeper, way to fit the Platonic solids themselves into an ADE
+as the first "$\mathrm{ADE}$ classification". But there is at least one another,
+deeper, way to fit the Platonic solids themselves into an $\mathrm{ADE}$
 classification. I'll try to say more about this in future weeks.
 
-You may still be wondering what's so special about A, D, and E. I'll
+You may still be wondering what's so special about $\mathrm{A}$, $\mathrm{D}$, and $\mathrm{E}$. I'll
 have to get to that, too.
-

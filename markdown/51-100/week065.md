@@ -258,6 +258,8 @@ math and physics that have happened in the last few months...
 
 ------------------------------------------------------------------------
 
-*A mathematician, like a painter or poet, is a maker of patterns. If his
+> *A mathematician, like a painter or poet, is a maker of patterns. If his
 patterns are more permanent than theirs, it is because they are made
-with ideas* - Godfrey Hardy
+with ideas*
+> 
+> --- Godfrey Hardy

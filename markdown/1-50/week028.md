@@ -21,7 +21,7 @@ no means form an exhaustive or even optimal set of references:
 1) _An Introduction to Teichmueller spaces_, by Y. Imayoshi and M.
 Taniguchi, Springer-Verlag, 1991.
 
-2) A"n introduction to the moduli space of curves", by Joe Harris, in
+2) "An introduction to the moduli space of curves", by Joe Harris, in
 _Mathematical Aspects of String Theory_ (proceedings of a conference at UC
 San Diego in 1986), ed. S. T. Yau, World Scientific Press, 1987.
 

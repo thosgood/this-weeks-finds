@@ -245,7 +245,7 @@ after all. In late March I will go to the Conference on Quantum Topology
 thrown by Crane and Yetter (at Kansas State U. at Manhattan), and I'm
 sure everyone will try to thrash this stuff out.
 
-4) Abhay Ashtekar and Jerzy Lewandowski, "Representation theory of analytic holonomy C\*-algebras", available as [`gr-qc/9311010`](http://arxiv.org/abs/gr-qc/9311010).
+4) Abhay Ashtekar and Jerzy Lewandowski, "Representation theory of analytic holonomy $C^*$-algebras", available as [`gr-qc/9311010`](http://arxiv.org/abs/gr-qc/9311010).
 
 This paper is a follow-up of the paper
 

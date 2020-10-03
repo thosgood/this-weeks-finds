@@ -482,5 +482,7 @@ the dimensions of the reals, complex numbers, quaternions and octonions.
 
 ------------------------------------------------------------------------
 
-*Since the mathematicians have grabbed ahold of the theory of
-relativity, I no longer understand it.* --- Albert Einstein
+> *Since the mathematicians have grabbed ahold of the theory of
+relativity, I no longer understand it.*
+> 
+> --- Albert Einstein

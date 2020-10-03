@@ -244,21 +244,16 @@ pictures of surfaces in it:
 
 **Problems:**
 
-A. Take a projective plane and cut out a little disc. Show that what's
-left is a Moebius strip.
-
+A. Take a projective plane and cut out a little disc. Show that what's left is
+    a Moebius strip.
 B. Take two projective planes, cut out a little disc from each one and
-attach them along the resulting circles. This is called taking the
-"connected sum" of two projective planes. Show that the result is a
-Klein bottle. In symbols, $P + P = K$, or $2P = K$.
-
+    attach them along the resulting circles. This is called taking the
+    "connected sum" of two projective planes. Show that the result is a
+    Klein bottle. In symbols, $P + P = K$, or $2P = K$.
 C. Now take the connected sum of a projective plane and a Klein bottle.
-Show that this is the same as a projective plane with a handle attached.
-A projective plane with a handle attached is just the connected sum of a
-projective plane and a torus, so we have: $3P = P + K = P + T$.
-
+    Show that this is the same as a projective plane with a handle attached.
+    A projective plane with a handle attached is just the connected sum of a
+    projective plane and a torus, so we have: $3P = P + K = P + T$.
 D. Show: $4P = K + K = K + T$.
-
 E. Show: $(2n+1)P = P + nT$.
-
 F. Show: $(2n+2)P = K + nT$.

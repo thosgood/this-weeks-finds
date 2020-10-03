@@ -3,27 +3,23 @@
 Okay, now let's pull together all the strands of our story about Dynkin
 diagrams and $q$-mathematics. The story can be summarized in a rather
 elaborate diagram, of which this is the first part:
-
-                              DYNKIN DIAGRAM
-                              /             \
-                             /               \
-               pick a field /                 \ 
-                           /                   \
-                          /                     \
-                         /        Weyl group     \
-               SIMPLE ALGEBRAIC ----------> COXETER GROUP 
-                     GROUP                        | 
-                        |                         | 
-                  FLAG VARIETY             COXETER COMPLEX 
-                         \                       /
-                          \                     /
-                           \                   /
-                            \                 /
-                             \               /
-                              \             /
-                               \           /
-                               $q$-POLYNOMIAL
-
+$$
+  \begin{tikzpicture}[scale=2]
+    \node[align=center] (dyn) at (0,0) {Dynkin diagram};
+    \node[align=center] (sag) at (-1,-1) {simple algebraic\\group};
+    \node[align=center] (cog) at (1,-1) {Coxeter group};
+    \node[align=center] (flv) at (-1,-2) {flag variety};
+    \node[align=center] (coc) at (1,-2) {Coxeter complex};
+    \node[align=center] (qpl) at (0,-3) {$q$-polynomial};
+    \draw[->] (dyn) to node[label=left:{\scriptsize pick a field}]{} (sag);
+    \draw[->] (dyn) to (cog);
+    \draw[->] (sag) to node[label=below:{\scriptsize Weyl group}]{} (cog);
+    \draw[->] (sag) to (flv);
+    \draw[->] (cog) to (coc);
+    \draw[->] (flv) to (qpl);
+    \draw[->] (coc) to (qpl);
+  \end{tikzpicture}
+$$
 We start with a Dynkin diagram and see what we can do with it; we'll
 find that two separate routes lead to the same polynomial, which for
 lack of a better name I'll call the "$q$-polynomial". In recent weeks
@@ -400,46 +396,37 @@ j) the value of this polynomial at $q = -1$ is the Euler characteristic
 of the flag variety defined over the real numbers.
 
 We can summarize this network of relations in the following diagram:
-
-                              DYNKIN DIAGRAM
-                              /             \
-                             /               \
-               pick a field /                 \ 
-                           /                   \
-                          /                     \
-                         /       Weyl group      \
-               SIMPLE ALGEBRAIC ----------> COXETER GROUP 
-                     GROUP                        | 
-                        |                         | 
-                  FLAG VARIETY             COXETER COMPLEX 
-                         \                       /
-                          \                     /
-                           \                   /
-                            \                 /
-                             \               /
-                              \             /
-                               \           /
-                                q-POLYNOMIAL
-     value at a prime power q /   |  |  |  \degree
-                             /    |  |  |   \
-        number of points in /     |  |  |  dimension of flag variety =
-      flag variety over F_q       |  |  |  length of longest word in Coxeter group
-                                  |  |  |
-                                  |  |  |
-                    value at q = 1|  |  |ith coefficient
-                                  |  |  |
-             number of Coxeter group | number of Coxeter group 
-                            elements | elements of length i =
-                   = number of cells | number of i-cells  
-                     in flag variety | in flag variety = 
-           = Euler characteristic of | rank of (2i)th homology group of
-                 flag variety over C | flag variety over C
-                                     |
-                                     |
-                                     |value at q = -1
-                                     |
-                  Euler characteristic of flag variety over R 
-
+$$
+  \begin{tikzpicture}[scale=2]
+    \small
+    \node[align=center] (dyn) at (0,0) {Dynkin diagram};
+    \node[align=center] (sag) at (-1,-1) {simple algebraic\\group};
+    \node[align=center] (cog) at (1,-1) {Coxeter group};
+    \node[align=center] (flv) at (-1,-2) {flag variety};
+    \node[align=center] (coc) at (1,-2) {Coxeter complex};
+    \node[align=center] (qpl) at (0,-3) {$q$-polynomial};
+    \draw[->] (dyn) to node[label=left:{\scriptsize pick a field}]{} (sag);
+    \draw[->] (dyn) to (cog);
+    \draw[->] (sag) to node[label=below:{\scriptsize Weyl group}]{} (cog);
+    \draw[->] (sag) to (flv);
+    \draw[->] (cog) to (coc);
+    \draw[->] (flv) to (qpl);
+    \draw[->] (coc) to (qpl);
+    \node[align=center] (ml) at (-1.5,-4) {number of points\\in flag variety\\over $\mathbb{F}_q$ group};
+    \node[align=center] (mr) at (1.5,-4) {dimension of\\flag variety\\= length of\\longest word\\in Coxeter};
+    \draw[->] (qpl) to node[label=left:{\scriptsize value at a prime power $q$}]{} (ml);
+    \draw[->] (qpl) to node[label=right:{\scriptsize degree}]{} (mr);
+    \node[align=center] (bl) at (-1.75,-5.75) {number of Coxeter\\group elements\\= number of cells\\in flag variety\\= Euler characteristic\\of flag variety\\over $\mathbb{C}$};
+    \node[align=center] (br) at (1.75,-5.75) {number of Coexter\\group elements\\of length $i$\\= number of $i$-cells\\in flag variety\\= rank of $(2i)$th\\homology group of\\flag variety\\over $\mathbb{C}$};
+    \draw[->] (qpl) to (bl);
+    \node[fill=white] at (-0.9,-4.65) {\scriptsize value at $q=1$};
+    \draw[->] (qpl) to (br);
+    \node[fill=white] at (0.9,-4.65) {\scriptsize $i$th coefficient};
+    \node[align=center] (b) at (0,-6) {Euler characteristic\\of flag variety\\over $\mathbb{R}$};
+    \draw[->] (qpl) to (b);
+    \node[fill=white] at (0,-5.3) {\scriptsize value at $q=-1$};
+  \end{tikzpicture}
+$$
 Besides things I've already explained, I stuck in an extra arrow
 showing that you can get the Coxeter group from a simple algebraic group
 by forming something called its "Weyl group". I explained this

@@ -206,4 +206,3 @@ what this might mean... perhaps keeping the adjoint operators mentioned
 in ["Week 75"](#week75) in mind.
 
 To continue reading the "Tale of $n$-Categories", see ["Week 77"](#week77)
-

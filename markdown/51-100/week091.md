@@ -168,4 +168,3 @@ apologise, because I am not really responsible for the fact that nature
 in its most fundamental aspect is four-dimensional"*
 >
 > --- Albert North Whitehead.
-

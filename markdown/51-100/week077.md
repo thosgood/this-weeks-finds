@@ -299,4 +299,3 @@ $$
 $$
 
 To continue reading the "Tale of $n$-Categories", see ["Week 78"](#week78).
-

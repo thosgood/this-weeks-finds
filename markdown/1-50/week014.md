@@ -377,7 +377,7 @@ use in QCD:
 
 6) "$\mathrm{SU}(2)$ QCD in the path representation", by Rodolfo Gambini and
 Leonardo Setaro, LaTeX 37 pages (7 figures included), available as
-[`hep-lat/9305001`](https://arxiv.org/abs/hep-lat/9305001). ("hep-lat"
+[`hep-lat/9305001`](https://arxiv.org/abs/hep-lat/9305001). ("`hep-lat`"
 is the computational and lattice physics preprint list, at
 `hep-lat@ftp.scri.fsu.edu`.)
 

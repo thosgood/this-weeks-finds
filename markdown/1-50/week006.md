@@ -394,5 +394,6 @@ quoting Smolin's abstract:
 
 > *In the Space and Time marriage we have the greatest Boy meets Girl
 story of the age. To our great-grandchildren this will be as poetical a
-union as the ancient Greek marriage of Cupid and Psyche seems to us.* ---
-Lawrence Durrell
+union as the ancient Greek marriage of Cupid and Psyche seems to us.*
+> 
+> --- Lawrence Durrell

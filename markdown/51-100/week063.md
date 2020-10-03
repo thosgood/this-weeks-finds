@@ -286,6 +286,8 @@ classifications in the next couple of issues.
 
 ------------------------------------------------------------------------
 
-*... without fantasy one would never become a mathematician, and what
+> *... without fantasy one would never become a mathematician, and what
 gave me a place among the mathematicians of our day, despite my lack of
-knowledge and form, was the audacity of my thinking.* - Sophus Lie
+knowledge and form, was the audacity of my thinking.*
+> 
+> --- Sophus Lie

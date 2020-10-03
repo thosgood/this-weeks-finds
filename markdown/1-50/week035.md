@@ -272,18 +272,18 @@ the fundamental groupoid", in _Recent developments of algebraic topology_, RIMS 
 
 ------------------------------------------------------------------------
 
-*Since the month of March last year, so nearly a year ago, the greater
-part of my energy has been devoted to a work of reflection on the
-**foundations of non-commutative (co)homological algebra**, or what is
-the same, after all, of homotopic algebra. These reflections have taken
-the concrete form of a voluminous stack of typed notes, destined to for
-then first volume (now being finished) of a work in two volumes to be
-published by Hermann, under the overall title* **Pursuing Stacks***. I
-now foresee (after successive extensions of the initial project) that
-the manuscript of the whole of the two volumes, which I hope to finish
-definitively in the course of this year, will be about 1500 typed pages
-in length. These two volumes are moreover for me the first in a vaster
-series, under the overall title* **Mathematical Reflections***, in which
-I intend to develop some of the themes sketched in the present report* ---
- Alexander Grothendieck, [Sketch of a
-Program](http://www.grothendieckcircle.org/) (1983)
+> *Since the month of March last year, so nearly a year ago, the greater
+> part of my energy has been devoted to a work of reflection on the
+> **foundations of non-commutative (co)homological algebra**, or what is
+> the same, after all, of homotopic algebra. These reflections have taken
+> the concrete form of a voluminous stack of typed notes, destined to for
+> then first volume (now being finished) of a work in two volumes to be
+> published by Hermann, under the overall title* **Pursuing Stacks***. I
+> now foresee (after successive extensions of the initial project) that
+> the manuscript of the whole of the two volumes, which I hope to finish
+> definitively in the course of this year, will be about 1500 typed pages
+> in length. These two volumes are moreover for me the first in a vaster
+> series, under the overall title* **Mathematical Reflections***, in which
+> I intend to develop some of the themes sketched in the present report*
+> 
+> --- Alexander Grothendieck, [Sketch of a Program](http://www.grothendieckcircle.org/) (1983)

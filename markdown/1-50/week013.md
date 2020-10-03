@@ -274,7 +274,9 @@ categories, and this simplifies things to the point where maybe I might
 eventually be able to prove it. There are lots of nice pictures here,
 too, by the way.
 
-##### Answer to puzzle:
+------------------------------------------------------------------------
+
+**Answer to puzzle:**
 $$X = 1061652293520$$
 $$Y = 4565486027761$$
 $$Z = 4687298610289$$

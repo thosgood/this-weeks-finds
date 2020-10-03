@@ -600,4 +600,3 @@ Hartley pointed out that even if we start with a field of characteristic
 to an infinite sequence of division algebras, because it's not true in
 this case that if $x$ is nonzero, $xx^*$ is nonzero. The problem is that a
 field of characteristic 2 can't be an ordered field.
-

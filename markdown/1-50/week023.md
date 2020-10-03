@@ -217,29 +217,13 @@ conjecture yet!
 This is the proceedings of a workshop held at U.C. Riverside; a large
 percentage of the papers contain new results. Let me simply list them:
 
-> "The Loop Formulation of Gauge Theory and Gravity", by Renate Loll
-
-> "Representation Theory of Analytic Holonomy C\* Algebras", by Abhay
-> Ashtekar and Jerzy Lewandowski 
-
-> "The Gauss Linking Number in Quantum Gravity", by Rodolfo Gambini and Jorge
-> Pullin (currently available as `gr-qc/9310025`)
-
-> "Vassiliev Invariants and the Loop States in Quantum Gravity", by Louis H.
-> Kauffman (soon to be on gr-qc)
-
-> "Geometric Structures and Loop Variables in (2+1)-Dimensional Gravity",
-> by Steven Carlip (currently available as gr-qc/9309020)
-
-> "From Chern-Simons to WZW via Path Integrals", by Dana S. Fine
-
-> "Topological Field Theory as the Key to Quantum Gravity", by Louis Crane
-> (currently available as `hep-th/9308126`)
-
-> "Strings, Loops, Knots and Gauge Fields", by John Baez (currently
-> available as `hep-th/9309067`)
-
-> "BF Theories and 2-knots", by Paolo Cotta-Ramusino and Maurizio Martellini
-
-> "Knotted Surfaces, Braid Movies, and Beyond", by J. Scott Carter and
-> Masahico Saito 
+- "The Loop Formulation of Gauge Theory and Gravity", by Renate Loll
+- "Representation Theory of Analytic Holonomy $C^*$ Algebras", by Abhay Ashtekar and Jerzy Lewandowski 
+- "The Gauss Linking Number in Quantum Gravity", by Rodolfo Gambini and Jorge Pullin (currently available as `gr-qc/9310025`)
+- "Vassiliev Invariants and the Loop States in Quantum Gravity", by Louis H. Kauffman (soon to be on gr-qc)
+- "Geometric Structures and Loop Variables in (2+1)-Dimensional Gravity", by Steven Carlip (currently available as gr-qc/9309020)
+- "From Chern-Simons to WZW via Path Integrals", by Dana S. Fine
+- "Topological Field Theory as the Key to Quantum Gravity", by Louis Crane (currently available as `hep-th/9308126`)
+- "Strings, Loops, Knots and Gauge Fields", by John Baez (currently available as `hep-th/9309067`)
+- "BF Theories and 2-knots", by Paolo Cotta-Ramusino and Maurizio Martellini
+- "Knotted Surfaces, Braid Movies, and Beyond", by J. Scott Carter and Masahico Saito 

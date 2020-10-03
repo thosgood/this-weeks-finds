@@ -276,8 +276,7 @@ cohomology groups:
 There is a fourth term in this series which I didn't get around to
 talking about; it's
 
-- $H^4(\mathcal{B}G)$ where the degree 4 characteristic class for $G$-bundles, e.g. the
-2nd Chern class for $\mathrm{SU}(n)$, lives.
+- $H^4(\mathcal{B}G)$ where the degree 4 characteristic class for $G$-bundles, e.g. the 2nd Chern class for $\mathrm{SU}(n)$, lives.
 
 Here $\mathcal{B}G$ is the "classifying space" of $G$. I would like to understand
 more deeply what's going on with this series, because the different

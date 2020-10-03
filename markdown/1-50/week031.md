@@ -218,4 +218,6 @@ details.
 
 ------------------------------------------------------------------------
 
-*The thing that makes things and the thing that makes things fall apart --- they're the same thing. Entropy maximization!* --- Chris Lee
+> *The thing that makes things and the thing that makes things fall apart --- they're the same thing. Entropy maximization!*
+> 
+> --- Chris Lee

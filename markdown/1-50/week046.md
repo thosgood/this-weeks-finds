@@ -311,4 +311,3 @@ computations are possible. Here it is shown that, although in principle
 correct, any speedup is accompanied by an associated attenuation of
 detection rates. Thus, on the average, no effective speedup is obtained
 relative to classical (nondeterministic) devices.
-

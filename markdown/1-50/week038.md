@@ -257,4 +257,3 @@ algebra!
     C. Di Bartolo, R. Gambini and J. Griego, "The extended loop representation of quantum gravity", available as [`gr-qc/9406039`](https://arxiv.org/abs/gr-qc/9406039).
 
     Rodolfo Gambini, Alcides Garat and Jorge Pullin, "The constraint algebra of quantum gravity in the loop representation", available as [`gr-qc/9404059`](https://arxiv.org/abs/gr-qc/9404059).
-

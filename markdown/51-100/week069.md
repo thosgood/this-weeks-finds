@@ -134,8 +134,8 @@ the Mandelstam constraints.
 
 Quote of the week:
 
->_"Nothing is too wonderful to be true, if it be
+> *"Nothing is too wonderful to be true, if it be
 consistent with the laws of nature, and in such things as these,
-experiment is the best test of such consistency."_
+experiment is the best test of such consistency."*
 > 
-> Faraday, laboratory diaries, entry 10,040, March 19, 1849.
+> --- Faraday, laboratory diaries, entry 10,040, March 19, 1849.

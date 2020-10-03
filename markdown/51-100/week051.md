@@ -241,4 +241,3 @@ vector space our superTQFT assigns to $M$? Well, it's called Floer
 homology. Now actually there are a lot of subtleties here I'm
 deliberately sloughing over. Read Blau and Thompson's paper for some of
 them --- and read the references for more!
-

@@ -155,131 +155,130 @@ to get across the goal:
 
 ------------------------------------------------------------------------
 
-The laws of physics do not distinguish the future from the past
-direction of time. More precisely, the famous CPT theorem says that the
-laws are invariant under the combination of charge conjugation, space
-inversion and time reversal. In fact effects that are not invariant
-under the combination CP are very weak, so to a good approximation, the
-laws are invariant under the time reversal operation T alone. Despite
-this, there is a very obvious difference between the future and past
-directions of time in the universe we live in. One only has to see a
-film run backward to be aware of this.
-
-There are are several expressions of this difference. One is the
-so-called psychological arrow, our subjective sense of time, the fact
-that we remember events in one direction of time but not the other.
-Another is the electromagnetic arrow, the fact that the universe is
-described by retarded solutions of Maxwell's equations and not advanced
-ones. Both of these arrows can be shown to be consequences of the
-thermodynamic arrow, which says that entropy is increasing in one
-direction of time. It is a non trivial feature of our universe that it
-should have a well defined thermodynamic arrow which seems to point in
-the same direction everywhere we can observe. Whether the direction of
-the thermodynamic arrow is also constant in time is something we shall
-discuss shortly.
-
-There have been a number of attempts to explain why the universe should
-have a thermodynamic arrow of time at all. Why shouldn't the universe
-be in a state of maximum entropy at all times? And why should the
-direction of the thermodynamic arrow agree with that of the cosmological
-arrow, the direction in which the universe is expanding? Would the
-thermodynamic arrow reverse, if the universe reached a maximum radius
-and began to contract?
-
-Some authors have tried to account for the arrow of time on the basis of
-dynamic laws. The discovery that CP invariance is violated in the decay
-of the K meson, inspired a number of such attempts but it is now
-generally recognized that CP violation can explain why the universe
-contains baryons rather than anti baryons, but it can not explain the
-arrow of time. Other authors have questioned whether quantum gravity
-might not violate CPT, but no mechanism has been suggested. One would
-not be satisfied with an ad hoc CPT violation that was put in by hand.
-
-The lack of a dynamical explanation for the arrow of time suggests that
-it arises from boundary conditions. The view has been expressed that the
-boundary conditions for the universe are not a question for Science, but
-for Metaphysics or Religion. However that objection does not apply if
-there is a sense in which the universe has no boundary. We shall
-therefore investigate the origin of the arrow of time in the context of
-the no boundary proposal of Hartle & Hawking. This was formulated in
-terms of Einsteinian gravity which may be only a low energy effective
-theory arising from some more fundamental theory such as superstrings.
-Presumably it should be possible to express a no boundary condition in
-purely string theory terms but we do not yet know how to do this.
-However the recent COBE observations indicate that the perturbations
-that lead to the arrow of time arise at a time during inflation when the
-energy density is about $10^{-12}$ of the Planck density. In this regime,
-Einstein gravity should be a good approximation.
-
-------------------------------------------------------------------------
-
-\[I'll skip some more technical stuff on the validity of perturbative
-calculations in quantum gravity...\]
-
-------------------------------------------------------------------------
-
-One can estimate the wave functions for the perturbation modes by
-considering complex metrics and scalar fields that are solutions of the
-Einstein equations whose only boundary is the surface $S$. When $S$
-is a small three sphere, the complex metric can be close to that of part
-of a Euclidean four sphere. In this case the wave functions for the
-tensor and scalar modes correspond to them being in their ground state.
-As the three sphere $S$ becomes larger, these complex metrics change
-continuously to become almost Lorentzian. They represent universes with
-an initial period of inflation driven by the potential energy of the
-scalar field. During the inflationary phase the perturbation modes
-remain in their ground states until their wave lengths become longer
-than the horizon size. The wave function of the perturbations then
-remains frozen until the horizon size increases to be more than the wave
-length again during the matter dominated era of expansion that follows
-the inflation. After the wave lengths of the perturbations come back
-within the horizon, they can be treated classically.
-
-This behaviour of the perturbations can explain the existence and
-direction of the thermodynamic arrow of time. The density perturbations
-when they come within the horizon are not in a general state but in a
-very special state with a small amplitude that is determined by the
-parameters of the inflationary model, in this case, the mass of the
-scalar field. The recent observations by COBE indicate this amplitude is
-about $10^{-5}$. After the density perturbations come within the
-horizon, they will grow until they cause some regions to collapse as
-proto-galaxies and clusters. The dynamics will become highly non linear
-and chaotic and the coarse grained entropy will increase. There will be
-a well defined thermodynamic arrow of time that points in the same
-direction everywhere in the universe and agrees with the direction of
-time in which the universe is expanding, at least during this phase.
-
-The question then arises: If and when the universe reaches and maximum
-size, will the thermodynamic arrow reverse? Will entropy decrease and
-the universe become smoother and more homogeneous during the contracting
-phase?
-
-------------------------------------------------------------------------
-
-\[I'll skip some stuff on why Hawking originally thought entropy had to
-decrease during the Big Crunch if the no-boundary proposal were
-correct... and why he no longer thinks so.\]
-
-------------------------------------------------------------------------
-
-The thermodynamic arrow will agree with the cosmological arrow for half
-the history of the universe, but not for the other half. So why is it
-that we observe them to agree? Why is it that entropy increases in the
-direction that the universe is expanding? This is really a situation in
-which one can legitimately invoke the weak anthropic principle because
-it is a question of where in the history of the universe conditions are
-suitable for intelligent life. The inflation in the early universe
-implies that the universe will expand for a very long time before it
-contracts again. In fact, it is so long that the stars will have all
-burnt out and the baryons will have all decayed. All that will be left
-in the contracting phase will be a mixture of electrons, positrons,
-neutrinos and gravitons. This is not a suitable basis for intelligent
-life.
-
-The conclusion of this paper is that the no boundary proposal can
-explain the existence of a well defined thermodynamic arrow of time.
-This arrow always points in the same direction. The reason we observe it
-to point in the same direction as the cosmological arrow is that
-conditions are suitable for intelligent life only at the low entropy end
-of the universe's history.
-
+> The laws of physics do not distinguish the future from the past
+> direction of time. More precisely, the famous CPT theorem says that the
+> laws are invariant under the combination of charge conjugation, space
+> inversion and time reversal. In fact effects that are not invariant
+> under the combination CP are very weak, so to a good approximation, the
+> laws are invariant under the time reversal operation T alone. Despite
+> this, there is a very obvious difference between the future and past
+> directions of time in the universe we live in. One only has to see a
+> film run backward to be aware of this.
+> 
+> There are are several expressions of this difference. One is the
+> so-called psychological arrow, our subjective sense of time, the fact
+> that we remember events in one direction of time but not the other.
+> Another is the electromagnetic arrow, the fact that the universe is
+> described by retarded solutions of Maxwell's equations and not advanced
+> ones. Both of these arrows can be shown to be consequences of the
+> thermodynamic arrow, which says that entropy is increasing in one
+> direction of time. It is a non trivial feature of our universe that it
+> should have a well defined thermodynamic arrow which seems to point in
+> the same direction everywhere we can observe. Whether the direction of
+> the thermodynamic arrow is also constant in time is something we shall
+> discuss shortly.
+> 
+> There have been a number of attempts to explain why the universe should
+> have a thermodynamic arrow of time at all. Why shouldn't the universe
+> be in a state of maximum entropy at all times? And why should the
+> direction of the thermodynamic arrow agree with that of the cosmological
+> arrow, the direction in which the universe is expanding? Would the
+> thermodynamic arrow reverse, if the universe reached a maximum radius
+> and began to contract?
+> 
+> Some authors have tried to account for the arrow of time on the basis of
+> dynamic laws. The discovery that CP invariance is violated in the decay
+> of the K meson, inspired a number of such attempts but it is now
+> generally recognized that CP violation can explain why the universe
+> contains baryons rather than anti baryons, but it can not explain the
+> arrow of time. Other authors have questioned whether quantum gravity
+> might not violate CPT, but no mechanism has been suggested. One would
+> not be satisfied with an ad hoc CPT violation that was put in by hand.
+> 
+> The lack of a dynamical explanation for the arrow of time suggests that
+> it arises from boundary conditions. The view has been expressed that the
+> boundary conditions for the universe are not a question for Science, but
+> for Metaphysics or Religion. However that objection does not apply if
+> there is a sense in which the universe has no boundary. We shall
+> therefore investigate the origin of the arrow of time in the context of
+> the no boundary proposal of Hartle & Hawking. This was formulated in
+> terms of Einsteinian gravity which may be only a low energy effective
+> theory arising from some more fundamental theory such as superstrings.
+> Presumably it should be possible to express a no boundary condition in
+> purely string theory terms but we do not yet know how to do this.
+> However the recent COBE observations indicate that the perturbations
+> that lead to the arrow of time arise at a time during inflation when the
+> energy density is about $10^{-12}$ of the Planck density. In this regime,
+> Einstein gravity should be a good approximation.
+> 
+> ------------------------------------------------------------------------
+> 
+> \[I'll skip some more technical stuff on the validity of perturbative
+> calculations in quantum gravity...\]
+> 
+> ------------------------------------------------------------------------
+> 
+> One can estimate the wave functions for the perturbation modes by
+> considering complex metrics and scalar fields that are solutions of the
+> Einstein equations whose only boundary is the surface $S$. When $S$
+> is a small three sphere, the complex metric can be close to that of part
+> of a Euclidean four sphere. In this case the wave functions for the
+> tensor and scalar modes correspond to them being in their ground state.
+> As the three sphere $S$ becomes larger, these complex metrics change
+> continuously to become almost Lorentzian. They represent universes with
+> an initial period of inflation driven by the potential energy of the
+> scalar field. During the inflationary phase the perturbation modes
+> remain in their ground states until their wave lengths become longer
+> than the horizon size. The wave function of the perturbations then
+> remains frozen until the horizon size increases to be more than the wave
+> length again during the matter dominated era of expansion that follows
+> the inflation. After the wave lengths of the perturbations come back
+> within the horizon, they can be treated classically.
+> 
+> This behaviour of the perturbations can explain the existence and
+> direction of the thermodynamic arrow of time. The density perturbations
+> when they come within the horizon are not in a general state but in a
+> very special state with a small amplitude that is determined by the
+> parameters of the inflationary model, in this case, the mass of the
+> scalar field. The recent observations by COBE indicate this amplitude is
+> about $10^{-5}$. After the density perturbations come within the
+> horizon, they will grow until they cause some regions to collapse as
+> proto-galaxies and clusters. The dynamics will become highly non linear
+> and chaotic and the coarse grained entropy will increase. There will be
+> a well defined thermodynamic arrow of time that points in the same
+> direction everywhere in the universe and agrees with the direction of
+> time in which the universe is expanding, at least during this phase.
+> 
+> The question then arises: If and when the universe reaches and maximum
+> size, will the thermodynamic arrow reverse? Will entropy decrease and
+> the universe become smoother and more homogeneous during the contracting
+> phase?
+> 
+> ------------------------------------------------------------------------
+> 
+> \[I'll skip some stuff on why Hawking originally thought entropy had to
+> decrease during the Big Crunch if the no-boundary proposal were
+> correct... and why he no longer thinks so.\]
+> 
+> ------------------------------------------------------------------------
+> 
+> The thermodynamic arrow will agree with the cosmological arrow for half
+> the history of the universe, but not for the other half. So why is it
+> that we observe them to agree? Why is it that entropy increases in the
+> direction that the universe is expanding? This is really a situation in
+> which one can legitimately invoke the weak anthropic principle because
+> it is a question of where in the history of the universe conditions are
+> suitable for intelligent life. The inflation in the early universe
+> implies that the universe will expand for a very long time before it
+> contracts again. In fact, it is so long that the stars will have all
+> burnt out and the baryons will have all decayed. All that will be left
+> in the contracting phase will be a mixture of electrons, positrons,
+> neutrinos and gravitons. This is not a suitable basis for intelligent
+> life.
+> 
+> The conclusion of this paper is that the no boundary proposal can
+> explain the existence of a well defined thermodynamic arrow of time.
+> This arrow always points in the same direction. The reason we observe it
+> to point in the same direction as the cosmological arrow is that
+> conditions are suitable for intelligent life only at the low entropy end
+> of the universe's history.

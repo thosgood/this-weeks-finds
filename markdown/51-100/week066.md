@@ -286,4 +286,3 @@ second one below:
 > infinite product identities, in the same way that the denominator
 > formulas of the affine Kac-Moody algebras give the Macdonald
 > identities.
-

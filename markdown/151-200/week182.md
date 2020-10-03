@@ -105,41 +105,27 @@ $$\includegraphics[scale=0.68]{../images/escher.png}$$
 
 Let me try to arrange all this information in a table, using lines to
 separate the spherical, planar and hyperbolic regions:
-
-|       | $n=1$ | $n=2$ | $n=3$ | $n=4$ | $n=5$ | $n=6$ | $n=7$ |
-| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| $m=1$ | $\mathbb{Z}_1$ | $\mathbb{Z}_2$ | $\mathbb{Z}_3$ | $\mathbb{Z}_4$ | $\mathbb{Z}_5$ | $\mathbb{Z}_6$ | $\mathbb{Z}_7$ |
-| $m=2$ | $\mathbb{Z}_2$ | $D_2$ | $D_3$ | $D_4$ | $D_5$ | $D_6$ | $D_7$ |
-| $m=3$ | $\mathbb{Z}_3$ | $D_3$ | tetrahedron | cube | dodecahedron | !!! | !!! |
-| $m=4$ | $\mathbb{Z}_4$ | $D_4$ | octahedron | !!! | !!! | !!! | !!! |
-| $m=5$ | $\mathbb{Z}_5$ | $D_5$ | icosahedron | !!! | !!! | !!! | !!! |
-| $m=6$ | $\mathbb{Z}_6$ | $D_6$ | !!! | !!! | !!! | !!! | !!! |
-| $m=7$ | $\mathbb{Z}_7$ | $D_7$ | !!! | !!! | !!! | !!! | !!! |
-
-         n=1   n=2      n=3         n=4     n=5           n=6         n=7
-
-         
-    m=1  Z_1   Z_2      Z_3         Z_4     Z_5           Z_6         Z_7
-
-                                                        
-    m=2  Z_2   D_2      D_3         D_4     D_5           D_6         D_7
-
-                                                        ------------=======
-    m=3  Z_3   D_3   tetrahedron   cube   dodecahedron | hexagonal |   
-                                                       |  tiling   |
-                                  ---------=============------------
-    m=4  Z_4   D_4   octahedron  | square |
-                                 | tiling |
-                                 | --------
-    m=5  Z_5   D_5   isosahedron ||
-                                 ||
-                     ------------ |          hyperbolic tilings
-    m=6  Z_6   D_6  | triangular  |                
-                    |   tiling    |
-                    | -------------    
-    m=7  Z_7   D_7  ||
-                    ||
-
+$$
+  \begin{tikzpicture}
+    \matrix[
+      column sep=.2cm,row sep=.1cm,
+      nodes={text height=0.65cm},
+    ]{
+      \node{${}_m\backslash^n$}; & \node{$1$}; & \node{$2$}; & \node{$3$}; & \node{$4$}; & \node{$5$}; & \node{$6$}; & \node{$7$};\\
+      \node{$1$}; & \node{$\mathbb{Z}_1$}; & \node{$\mathbb{Z}_2$}; & \node{$\mathbb{Z}_3$}; & \node{$\mathbb{Z}_4$}; & \node{$\mathbb{Z}_5$}; & \node{$\mathbb{Z}_6$}; & \node{$\mathbb{Z}_7$};\\
+      \node{$2$}; & \node{$\mathbb{Z}_2$}; & \node{$\mathrm{D}_2$}; & \node{$\mathrm{D}_3$}; & \node{$\mathrm{D}_4$}; & \node{$\mathrm{D}_5$}; & \node{$\mathrm{D}_6$}; & \node{$\mathrm{D}_7$};\\
+      \node{$3$}; & \node{$\mathbb{Z}_3$}; & \node{$\mathrm{D}_3$}; & \node{\footnotesize tetrahedron}; & \node{\footnotesize cube}; & \node{\footnotesize dodecahedron}; & \node[align=center]{\footnotesize hexagonal\\\footnotesize tiling};\\
+      \node{$4$}; & \node{$\mathbb{Z}_4$}; & \node{$\mathrm{D}_4$}; & \node{\footnotesize octahedron}; & \node[align=center]{\footnotesize square\\\footnotesize tiling};\\
+      \node{$5$}; & \node{$\mathbb{Z}_5$}; & \node{$\mathrm{D}_5$}; & \node{\footnotesize isosahedron};\\
+      \node{$6$}; & \node{$\mathbb{Z}_6$}; & \node{$\mathrm{D}_6$}; & \node[align=center]{\footnotesize triangular\\\footnotesize tiling}; & & & \node[align=center]{\footnotesize hyperbolic\\\footnotesize tilings};\\
+      \node{$7$}; & \node{$\mathbb{Z}_7$}; & \node{$\mathrm{D}_7$};\\
+    };
+    \draw[thick,dashed] (-5.3,3) to (5.4,3);
+    \draw[thick,dashed] (-4.4,3.7) to (-4.4,-4.3);
+    \draw[thick] (5.4,1) to (2.8,1) to (2.8,0) to (-0.7,0) to (-0.7,-2.15) to (-2.7,-2.15) to (-2.7,-4.2);
+    \draw[thick] (5.4,0.9) to (4.5,0.9) to (4.5,-0.1) to (0.6,-0.1) to (0.6,-1.15) to (-0.6,-1.15) to (-0.6,-3.1) to (-2.6,-3.1) to (-2.6,-4.2);
+  \end{tikzpicture}
+$$
 Now, the same Egyptian fraction problem comes up when studying other
 problems, too. For example, suppose you are trying to find a basis of
 $\mathbb{R}^n$ consisting of unit vectors that are all at 90-degree or 120-degree
@@ -282,6 +268,22 @@ $$
   \end{tikzpicture}
 $$
 This is what we get:
+$$
+  \begin{tikzpicture}
+    \matrix[
+      column sep=.2cm,row sep=.1cm,
+      nodes={text height=0.65cm},
+    ]{
+      \node{${}_m\backslash^n$}; & \node{$1$}; & \node{$2$}; & \node{$3$}; & \node{$4$}; & \node{$5$}; & \node{$6$};\\
+      \node{$1$}; & \node{$\mathrm{A}_2$}; & \node{$\mathrm{A}_3$}; & \node{$\mathrm{A}_4$}; & \node{$\mathrm{A}_5$}; & \node{$\mathrm{A}_6$}; & \node{$\mathrm{A}_7$};\\
+      \node{$2$}; & \node{$\mathrm{A}_3$}; & \node{$\mathrm{D}_5$}; & \node{$\mathrm{D}_6$}; & \node{$\mathrm{D}_6$}; & \node{$\mathrm{D}_7$}; & \node{$\mathrm{D}_8$};\\
+      \node{$3$}; & \node{$\mathrm{A}_4$}; & \node{$\mathrm{D}_3$}; & \node{\footnotesize tetrahedron}; & \node{\footnotesize cube}; & \node{\footnotesize dodecahedron}; & \node[align=center]{\footnotesize hexagonal\\\footnotesize tiling};\\
+      \node{$4$}; & \node{$\mathrm{A}_5$}; & \node{$\mathrm{D}_4$}; & \node{\footnotesize octahedron}; & \node[align=center]{\footnotesize square\\\footnotesize tiling};\\
+      \node{$5$}; & \node{$\mathrm{A}_6$}; & \node{$\mathrm{D}_5$}; & \node{\footnotesize isosahedron};\\
+      \node{$6$}; & \node{$\mathrm{A}_7$}; & \node{$\mathrm{D}_6$}; & \node[align=center]{\footnotesize triangular\\\footnotesize tiling}; & & & \node[align=center]{\footnotesize hyperbolic\\\footnotesize tilings};\\
+    };
+  \end{tikzpicture}
+$$
 
         n=1      n=2        n=3         n=4          n=5           n=6
 

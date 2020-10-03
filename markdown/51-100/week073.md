@@ -288,4 +288,3 @@ swing when they are far away. This manages to do the job... the article
 discusses the hydrodynamics involved.
 
 I guess now the question becomes: why do these cilia spin clockwise?
-

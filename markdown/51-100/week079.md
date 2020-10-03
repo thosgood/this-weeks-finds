@@ -397,4 +397,3 @@ natural transformations, and the associated string diagrams, more
 carefully.
 
 To continue reading the "Tale of $n$-Categories", see ["Week 80"](#week80).
-

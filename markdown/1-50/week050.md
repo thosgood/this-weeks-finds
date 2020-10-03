@@ -125,4 +125,3 @@ whim, caprice, chance, and my own ignorance.
 6) J. Bellisard, A. van Elst, and H. Schulz-Baldes, "The noncommutative geometry of the quantum Hall effect", _Jour. Math. Phys._ **35** (1994), 5373--5451.
 
 7) Steve Carlip and R. Cosgrove, "Topology change in (2+1)-dimensional gravity", _Jour. Math. Phys._ **35** (1994), 5477--5493.
-

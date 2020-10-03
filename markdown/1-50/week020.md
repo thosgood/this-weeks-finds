@@ -405,4 +405,3 @@ proved optimal.
 This $r$ is an algebraic number and is a root of the polynomial
 $$4096 x^{16} -18432 x^{12} +24576 x^{10} -13952 x^8 +4096 x^6 -608x^4 +32 x^2 +1$$
 They computed $r$ but did not publish the polynomial.
-

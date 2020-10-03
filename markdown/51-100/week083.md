@@ -377,4 +377,3 @@ monoidal categories, and much much more in here:
 2) Francis Borceux, _Handbook of Categorical Algebra_, Cambridge U. Press 1994. _Volume 1: Basic Category Theory_. _Volume 2: Categories and Structure_. _Volume 3: Categories of Sheaves_.
 
 To continue reading the "Tale of $n$-Categories", see ["Week 84"](#week84).
-

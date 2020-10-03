@@ -279,7 +279,7 @@ by Kauffman (see ["Week 23"](#week23)), but there is much more to
 do. Here Gambini and collaborators look at loops with transverse triple
 points. I guess I'll just quote the abstract:
 
-"An extension of the Artin Braid Group with new operators that generate
+> "An extension of the Artin Braid Group with new operators that generate
 double and triple intersections is considered. The extended Alexander
 theorem, relating intersecting closed braids and intersecting knots is
 proved for double and triple intersections, and a counter example is
