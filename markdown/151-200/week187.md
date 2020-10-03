@@ -9,27 +9,23 @@ attention. I promise to ratchet things down a notch next week.
 
 Last time I described a bunch of things you can get from a Dynkin
 diagram:
-
-                              DYNKIN DIAGRAM
-                              /             \
-                             /               \
-              choose a field/                 \ 
-                           /                   \
-                          /                     \
-                         /       Weyl group      \
-                SIMPLE ALGEBRAIC ----------> COXETER GROUP 
-                      GROUP                       | 
-                        |                         | 
-                 FLAG VARIETY              COXETER COMPLEX 
-                         \                       /
-                          \                     /
-                           \                   /
-                            \                 /
-                             \               /
-                              \             /
-                               \           /
-                               $q$-POLYNOMIAL
-
+$$
+  \begin{tikzpicture}[scale=2]
+    \node[align=center] (dyn) at (0,0) {Dynkin diagram};
+    \node[align=center] (sag) at (-1,-1) {simple algebraic\\group};
+    \node[align=center] (cog) at (1,-1) {Coxeter group};
+    \node[align=center] (flv) at (-1,-2) {flag variety};
+    \node[align=center] (coc) at (1,-2) {Coxeter complex};
+    \node[align=center] (qpl) at (0,-3) {$q$-polynomial};
+    \draw[->] (dyn) to node[label=left:{\scriptsize pick a field}]{} (sag);
+    \draw[->] (dyn) to (cog);
+    \draw[->] (sag) to node[label=below:{\scriptsize Weyl group}]{} (cog);
+    \draw[->] (sag) to (flv);
+    \draw[->] (cog) to (coc);
+    \draw[->] (flv) to (qpl);
+    \draw[->] (coc) to (qpl);
+  \end{tikzpicture}
+$$
 If we choose any field, our Dynkin diagram gives us a group. If we
 choose the real or complex numbers we get the real and complex simple
 Lie groups that physicists know and love, but it's also fun to use
