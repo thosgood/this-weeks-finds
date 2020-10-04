@@ -274,25 +274,54 @@ $$
       column sep=.2cm,row sep=.1cm,
       nodes={text height=0.65cm},
     ]{
-      \node{${}_m\backslash^n$}; & \node{$1$}; & \node{$2$}; & \node{$3$}; & \node{$4$}; & \node{$5$}; & \node{$6$};\\
-      \node{$1$}; & \node{$\mathrm{A}_2$}; & \node{$\mathrm{A}_3$}; & \node{$\mathrm{A}_4$}; & \node{$\mathrm{A}_5$}; & \node{$\mathrm{A}_6$}; & \node{$\mathrm{A}_7$};\\
-      \node{$2$}; & \node{$\mathrm{A}_3$}; & \node{$\mathrm{D}_5$}; & \node{$\mathrm{D}_6$}; & \node{$\mathrm{D}_6$}; & \node{$\mathrm{D}_7$}; & \node{$\mathrm{D}_8$};\\
-      \node{$3$}; & \node{$\mathrm{A}_4$}; & \node{$\mathrm{D}_3$}; & \node{\footnotesize tetrahedron}; & \node{\footnotesize cube}; & \node{\footnotesize dodecahedron}; & \node[align=center]{\footnotesize hexagonal\\\footnotesize tiling};\\
-      \node{$4$}; & \node{$\mathrm{A}_5$}; & \node{$\mathrm{D}_4$}; & \node{\footnotesize octahedron}; & \node[align=center]{\footnotesize square\\\footnotesize tiling};\\
-      \node{$5$}; & \node{$\mathrm{A}_6$}; & \node{$\mathrm{D}_5$}; & \node{\footnotesize isosahedron};\\
-      \node{$6$}; & \node{$\mathrm{A}_7$}; & \node{$\mathrm{D}_6$}; & \node[align=center]{\footnotesize triangular\\\footnotesize tiling}; & & & \node[align=center]{\footnotesize hyperbolic\\\footnotesize tilings};\\
+      \node{${}_m\backslash^n$};
+      & \node{$1$};
+      & \node{$2$};
+      & \node{$3$};
+      & \node{$4$};
+      & \node{$5$};
+      & \node{$6$};\\
+      \node{$1$};
+      & \node[
+        label={[label distance=-7mm]above:{$$\begin{tikzpicture}[scale=0.15]\node at (0,0) {$\bullet$};\node at (0,1) {$\bullet$};\end{tikzpicture}$$}},
+        label={[label distance=-7mm]below:{$\mathrm{A}_2$}}]{};
+      & \node[
+        label={[label distance=-7mm]above:{$$\begin{tikzpicture}[scale=0.15]\node at (-1,0) {$\bullet$};\node at (0,0) {$\bullet$};\node at (0,1) {$\bullet$};\end{tikzpicture}$$}},
+        label={[label distance=-7mm]below:{$\mathrm{A}_3$}}]{};
+      & \node[
+        label={[label distance=-7mm]above:{$$\begin{tikzpicture}[scale=0.15]\node at (-2,0) {$\bullet$};\node at (-1,0) {$\bullet$};\node at (0,0) {$\bullet$};\node at (0,1) {$\bullet$};\end{tikzpicture}$$}},
+        label={[label distance=-7mm]below:{$\mathrm{A}_4$}}]{};
+      & \node[
+        label={[label distance=-7mm]above:{$$\begin{tikzpicture}[scale=0.15]\node at (-3,0) {$\bullet$};\node at (-2,0) {$\bullet$};\node at (-1,0) {$\bullet$};\node at (0,0) {$\bullet$};\node at (0,1) {$\bullet$};\end{tikzpicture}$$}},
+        label={[label distance=-7mm]below:{$\mathrm{A}_5$}}]{};
+      & \node[
+        label={[label distance=-7mm]above:{$$\begin{tikzpicture}[scale=0.15]\node at (-4,0) {$\bullet$};\node at (-3,0) {$\bullet$};\node at (-2,0) {$\bullet$};\node at (-1,0) {$\bullet$};\node at (0,0) {$\bullet$};\node at (0,1) {$\bullet$};\end{tikzpicture}$$}},
+        label={[label distance=-7mm]below:{$\mathrm{A}_6$}}]{};
+      & \node[
+        label={[label distance=-7mm]above:{$$\begin{tikzpicture}[scale=0.15]\node at (-5,0) {$\bullet$};\node at (-4,0) {$\bullet$};\node at (-3,0) {$\bullet$};\node at (-2,0) {$\bullet$};\node at (-1,0) {$\bullet$};\node at (0,0) {$\bullet$};\node at (0,1) {$\bullet$};\end{tikzpicture}$$}},
+        label={[label distance=-7mm]below:{$\mathrm{A}_7$}}]{};\\
+      \node{$2$};
+      & \node[
+        label={[label distance=-7mm]above:{$$\begin{tikzpicture}[scale=0.15]\node at (0,0) {$\bullet$};\node at (0,1) {$\bullet$};\node at (1,0) {$\bullet$};\end{tikzpicture}$$}},
+        label={[label distance=-7mm]below:{$\mathrm{A}_3$}}]{};
+      & \node[
+        label={[label distance=-7mm]above:{$$\begin{tikzpicture}[scale=0.15]\node at (-1,0) {$\bullet$};\node at (0,0) {$\bullet$};\node at (0,1) {$\bullet$};\node at (1,0) {$\bullet$};\end{tikzpicture}$$}},
+        label={[label distance=-7mm]below:{$\mathrm{D}_4$}}]{};
+      & \node[
+        label={[label distance=-7mm]above:{$$\begin{tikzpicture}[scale=0.15]\node at (-2,0) {$\bullet$};\node at (-1,0) {$\bullet$};\node at (0,0) {$\bullet$};\node at (0,1) {$\bullet$};\node at (1,0) {$\bullet$};\end{tikzpicture}$$}},
+        label={[label distance=-7mm]below:{$\mathrm{D}_5$}}]{};
+      & \node[
+        label={[label distance=-7mm]above:{$$\begin{tikzpicture}[scale=0.15]\node at (-3,0) {$\bullet$};\node at (-2,0) {$\bullet$};\node at (-1,0) {$\bullet$};\node at (0,0) {$\bullet$};\node at (0,1) {$\bullet$};\node at (1,0) {$\bullet$};\end{tikzpicture}$$}},
+        label={[label distance=-7mm]below:{$\mathrm{D}_6$}}]{};
+      & \node[
+        label={[label distance=-7mm]above:{$$\begin{tikzpicture}[scale=0.15]\node at (-4,0) {$\bullet$};\node at (-3,0) {$\bullet$};\node at (-2,0) {$\bullet$};\node at (-1,0) {$\bullet$};\node at (0,0) {$\bullet$};\node at (0,1) {$\bullet$};\node at (1,0) {$\bullet$};\end{tikzpicture}$$}},
+        label={[label distance=-7mm]below:{$\mathrm{D}_7$}}]{};
+      & \node[
+        label={[label distance=-7mm]above:{$$\begin{tikzpicture}[scale=0.15]\node at (-5,0) {$\bullet$};\node at (-4,0) {$\bullet$};\node at (-3,0) {$\bullet$};\node at (-2,0) {$\bullet$};\node at (-1,0) {$\bullet$};\node at (0,0) {$\bullet$};\node at (0,1) {$\bullet$};\node at (1,0) {$\bullet$};\end{tikzpicture}$$}},
+        label={[label distance=-7mm]below:{$\mathrm{D}_8$}}]{};\\
     };
   \end{tikzpicture}
 $$
-
-        n=1      n=2        n=3         n=4          n=5           n=6
-
-         o        o          o           o            o             o   
-    m=1  o       oo        ooo        oooo        ooooo       ooooooo
-        
-         A2       A3         A4          A5           A6            A7
-
-     
 
          o        o          o           o            o             o   
     m=2  oo      ooo       oooo       ooooo       oooooo      oooooooo
