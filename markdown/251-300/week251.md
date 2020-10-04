@@ -3,19 +3,15 @@
 Last week I mentioned the conference on "Philosophical and Formal
 Foundations of Modern Physics" in Les Treilles, an estate near Nice. On
 our last night there, the chef showed us his telescope. We saw the phase
-of Venus, mountains on the Moon, and - best of all - the rings of
+of Venus, mountains on the Moon, and --- best of all --- the rings of
 Saturn! They were beautiful. I was reminded of Galileo, who had to make
 do with a much cruder telescope.
 
-Here's an even better view - a photo taken by the Cassini probe on
+Here's an even better view --- a photo taken by the Cassini probe on
 March 1st, from a distance of 1.2 million kilometers:
+$$\includegraphics[max width=0.65\linewidth]{../images/saturn.jpg}$$
 
-::: {align="center"}
-![](saturn.jpg)
-:::
-
-1) Cassini-Huyghens, Tourniquet shadows,
-`http://saturn.jpl.nasa.gov/multimedia/images/image-details.cfm?imageID=2507`
+1) Cassini-Huyghens, "Tourniquet shadows", `http://saturn.jpl.nasa.gov/multimedia/images/image-details.cfm?imageID=2507`
 
 I learned some fun stuff about the foundations of quantum mechanics at
 Les Treilles, so I want to mention that before I forget! I'll take a
@@ -29,7 +25,7 @@ quantum theory... or, they may have "supra-quantum" features, like
 the Popescu-Rohrlich box I mentioned last week.
 
 The idea is not to take these theories seriously as models of our
-universe - though one can always dream. Instead, it's to explore the
+universe --- though one can always dream. Instead, it's to explore the
 logical possibilities, so we can see quantum mechanics and classical
 mechanics as just two examples from a larger field of options, and
 better understand what's special about them.
@@ -38,43 +34,41 @@ Rob Spekkens is a young guy who used to be at the Perimeter Institute;
 now he's at DAMTP in Cambridge. At Les Treilles he gave a cool talk
 about a simple theory that mimics some of features of quantum mechanics:
 
-2) Evidence for the epistemic view of quantum states: a toy theory,
-Phys. Rev. A 75, 032110 (2007). Also available as
-[quant-ph/0401052](https://arxiv.org/abs/quant-ph/0401052).
+2) Rob Spekkens, "Evidence for the epistemic view of quantum states: a toy theory", _Phys. Rev. A_ **75**, 032110 (2007). Also available as [`quant-ph/0401052`](https://arxiv.org/abs/quant-ph/0401052).
 
 The idea is to see how far you get using a very simple principle,
 namely: even when you know as much as you can, there's an equal amount
 you don't know.
 
-In this setup, the complete description of a physical system involves N
-bits of information, but you can only know N/2 of them. When you do an
+In this setup, the complete description of a physical system involves $N$
+bits of information, but you can only know $N/2$ of them. When you do an
 experiment to learn more information than that, the system's state
 changes in a random way, so something you knew become obsolete.
 
-The fraction "1/2" here is chosen for simplicity: it's just a toy
+The fraction "$1/2$" here is chosen for simplicity: it's just a toy
 theory. But, it leads to some charming mathematical structures that I'd
 like to understand better.
 
 In this theory, the simplest nontrivial system is one whose state takes
-two bits to describe - but you can know at most one. Two bits of
-information is enough to describe four states, say states 1, 2, 3, and
-4. But, since you can only know one bit of information, you can't pin
+two bits to describe --- but you can know at most one. Two bits of
+information is enough to describe four states, say states $1$, $2$, $3$, and
+$4$. But, since you can only know one bit of information, you can't pin
 down the system's state completely. At most you can halve the
-possibilities, and know something like "the system is in state 1 or
-3". You can also be completely ignorant - meaning you only know "the
-system is in state 1, 2, 3 or 4".
+possibilities, and know something like "the system is in state $1$ or
+$3$". You can also be completely ignorant --- meaning you only know "the
+system is in state $1$, $2$, $3$ or $4$".
 
-Since there are 3 ways to chop a 4-element set in half, there are 3
+Since there are 3 ways to chop a $4$-element set in half, there are 3
 "axes of knowledge", namely
 
-Is the system's state in {1,2} or {3,4}?\
-Is the system's state in {1,3} or {2,4}?\
-Is the system's state in {1,4} or {2,3}?
+> Is the system's state in $\{1,2\}$ or $\{3,4\}$?\
+> Is the system's state in $\{1,3\}$ or $\{2,4\}$?\
+> Is the system's state in $\{1,4\}$ or $\{2,3\}$?
 
 You can only answer one of these questions.
 
 This has a cute resemblance to how you can measure the angular momentum
-of a spin-$1/2$ particle along the x, y, or z axis, in each case getting
+of a spin-$1/2$ particle along the $x$, $y$, or $z$ axis, in each case getting
 two choices. Spekkens has a nice picture in his paper:
 
                       {1,2}
@@ -98,7 +92,7 @@ phase. The set of these is just the Riemann sphere!
 
 In a pure state, we know as much as we can know. In a "mixed state",
 we know less. Mathematically, a mixed state of a spin-$1/2$ particle is a
-2\times2 "density matrix" - a self-adjoint matrix with nonnegative
+2\times2 "density matrix" --- a self-adjoint matrix with nonnegative
 eigenvalues and trace 1. These form a $3$-dimensional ball, the "Bloch
 ball", whose boundary is the Riemann sphere.
 
@@ -115,15 +109,15 @@ states of our system. The 6 corners of the octahedron above are the
 midpoints of the edges of this tetrahedron!
 
 Since Spekkens' toy system resembles a qubit, he calls it a "toy
-bit". He goes on to study systems of several toy bits - and the
+bit". He goes on to study systems of several toy bits --- and the
 charming combinatorial geometry I just described gets even more
 interesting. Alas, I don't really understand it well: I feel there must
 be some mathematically elegant way to describe it all, but I don't know
 what it is.
 
-Just as you can't duplicate a qubit in honest quantum mechanics - the
+Just as you can't duplicate a qubit in honest quantum mechanics --- the
 famous [no-cloning
-theorem](http://en.wikipedia.org/wiki/No_cloning_theorem) - it turns out
+theorem](http://en.wikipedia.org/wiki/No_cloning_theorem) --- it turns out
 you can't duplicate a toy bit. However, [Bell's
 theorem](http://en.wikipedia.org/wiki/Bell's_theorem) on nonlocality and
 the [Kochen-Specker
@@ -252,7 +246,7 @@ related to special relativity and spinors in different dimensions. It's
 so cool I can't resist reminding you.
 
 Our universe seems to like complex quantum mechanics. And, the space of
-2\times2 self-adjoint complex matrices - let's call it h_2(C) - is
+2\times2 self-adjoint complex matrices --- let's call it h_2(C) --- is
 isomorphic to $4$-dimensional Minkowski spacetime! The cone of positive
 matrices is isomorphic to the future lightcone. The set of pure states
 of a spin-$1/2$ particle is the Riemann sphere \mathbb{CP}^1, and this is
@@ -272,9 +266,9 @@ quaternions (H) or the octonions (O):
 -   h_2(O) is 10d Minkowski spacetime, and \mathbb{OP}^1 is the heavenly sphere
     S^8.
 
-So, it's all very nice - but a bit mysterious. Why did our universe
+So, it's all very nice --- but a bit mysterious. Why did our universe
 choose the complex numbers? We're told that scientists shouldn't ask
-"why" questions, but that's not really true - the main thing is to do
+"why" questions, but that's not really true --- the main thing is to do
 it only to the extent that it leads to progress. But, sometimes you just
 can't help it.
 
@@ -361,7 +355,7 @@ quaternionic quantum mechanics fit together in a unified structure, with
 the complex numbers being the most important, but other two showing up
 naturally in systems with time reversal symmetry.
 
-Stephen Adler - famous for the Adler-Bell-Jackiw anomaly - spent a long
+Stephen Adler --- famous for the Adler-Bell-Jackiw anomaly --- spent a long
 time at the Institute for Advanced Studies working on quaternionic
 quantum mechanics:
 
@@ -442,7 +436,7 @@ that's not only invariant under permutations of the copies, but lacking
 correlations between the different copies!
 
 Here's the quantum de Finetti theorem. Suppose you have an
-"exchangeable" density operator ρ_n on H^\otimes\ n^ - that is, one such
+"exchangeable" density operator ρ_n on H^\otimes\ n^ --- that is, one such
 that for each N \geqslant n, there's a density operator ρ~N~ on H^\otimes\ N^ which
 1) is invariant under permutations in S~N~ and 2) has ρ as its marginal,
 meaning that
