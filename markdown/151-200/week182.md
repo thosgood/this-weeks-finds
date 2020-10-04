@@ -268,7 +268,7 @@ $$
   \end{tikzpicture}
 $$
 This is what we get:
-$$\includegraphics[max width=0.65\linewidth]{../images/week182table.png}$$
+$$\includegraphics[max width=0.9\linewidth]{../images/week182table.png}$$
 <!--
 $$
   \begin{tikzpicture}
