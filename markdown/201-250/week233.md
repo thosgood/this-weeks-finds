@@ -226,32 +226,70 @@ I just said that the $3$-strand braid A gets mapped to this shear:
 $$A \longmapsto \left(\begin{array}{rr}1&1\\0&1\end{array}\right)$$
 In ["Week 229"](#week229) I said what this shear does to a rational
 tangle. It gives it a 180 degree twist at the bottom, like this:
-
-      |   |                |   |
-      |   |                |   |
-      |   |                |   |
-     -------              -------
-     |  T  |   |---->     |  T  |        
-     -------              -------
-      |   |                 \ /
-      |   |                  / 
-      |   |                 / \
-
+$$
+  \begin{tikzpicture}[scale=0.7]
+    \begin{knot}
+      \strand[thick] (0,3) to (0,1);
+      \strand[thick] (1,3) to (1,1);
+    \end{knot}
+    \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+    \node at (0.5,0.5) {$T$};
+    \begin{knot}
+      \strand[thick] (0,0) to (0,-2);
+      \strand[thick] (1,0) to (1,-2);
+    \end{knot}
+    \draw[thick,|->] (2,0.5) to (3.5,0.5);
+    \begin{scope}[shift={(4.5,0)}]
+      \begin{knot}
+        \strand[thick] (0,3) to (0,1);
+        \strand[thick] (1,3) to (1,1);
+      \end{knot}
+      \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+      \node at (0.5,0.5) {$T$};
+      \begin{knot}[clip width=7]
+        \strand[thick] (1,0)
+          to[out=down,in=up] (0,-2);
+        \strand[thick] (0,0)
+          to[out=down,in=up] (1,-2);
+      \end{knot}
+    \end{scope}
+  \end{tikzpicture}
+$$
 Next, Tuba and Wenzl point out that
 $$ABA = BAB \longmapsto \left(\begin{array}{rr}0&1\\-1&0\end{array}\right)$$
 which is a quarter turn. From ["Week 229"](#week229) you can see
 how this quarter turn acts on a rational tangle:
-
-      |   |                       |     | 
-      |   |              ____     |     |
-      |   |             /     \   |     |
-     -------           |     -------    |
-     |  T  |   |---->  |     |  T  |    |    
-     -------           |     -------    |
-      |   |            |      |   \____/
-      |   |            |      |    
-      |   |            |      |  
-
+$$
+  \begin{tikzpicture}[scale=0.7]
+    \begin{knot}
+      \strand[thick] (0,3) to (0,1);
+      \strand[thick] (1,3) to (1,1);
+    \end{knot}
+    \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+    \node at (0.5,0.5) {$T$};
+    \begin{knot}
+      \strand[thick] (0,0) to (0,-2);
+      \strand[thick] (1,0) to (1,-2);
+    \end{knot}
+    \draw[thick,|->] (2,0.5) to (3.5,0.5);
+    \begin{scope}[shift={(6,0)},xscale=-1]
+      \begin{knot}
+        \strand[thick] (0,3) to (0,1);
+        \strand[thick] (1,1)
+          to[out=up,in=up,looseness=2] (2,1)
+          to (2,-2);
+      \end{knot}
+      \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+      \node at (0.5,0.5) {$T$};
+      \begin{knot}
+        \strand[thick] (0,0)
+          to[out=down,in=down,looseness=2] (-1,0)
+          to (-1,3);
+        \strand[thick] (1,0) to (1,-2);
+      \end{knot}
+    \end{scope}
+  \end{tikzpicture}
+$$
 It gives it a quarter turn!
 
 From these facts, we can figure out what the braid $B$ does to a rational
@@ -262,45 +300,86 @@ Scribble, scribble, curse and scribble.... Eureka!
 Since we know what $A$ does, and what $ABA$ does, we can figure out what $B$
 must do. But, to make the answer look cute, I needed a sneaky fact about
 rational tangles, which is that $A$ *also* acts like this:
-
-      |   |                 \ / 
-      |   |                  /
-      |   |                 / \ 
-     -------              -------
-     |  T  |   |---->     |  T  |        
-     -------              -------
-      |   |                |   |
-      |   |                |   | 
-      |   |                |   |
-
+$$
+  \begin{tikzpicture}[scale=0.7]
+    \begin{knot}
+      \strand[thick] (0,3) to (0,1);
+      \strand[thick] (1,3) to (1,1);
+    \end{knot}
+    \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+    \node at (0.5,0.5) {$T$};
+    \begin{knot}
+      \strand[thick] (0,0) to (0,-2);
+      \strand[thick] (1,0) to (1,-2);
+    \end{knot}
+    \draw[thick,|->] (2,0.5) to (3.5,0.5);
+    \begin{scope}[shift={(4.5,1)},yscale=-1]
+      \begin{knot}
+        \strand[thick] (0,3) to (0,1);
+        \strand[thick] (1,3) to (1,1);
+      \end{knot}
+      \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+      \node at (0.5,0.5) {$T$};
+      \begin{knot}[clip width=7]
+        \strand[thick] (1,0)
+          to[out=down,in=up] (0,-2);
+        \strand[thick] (0,0)
+          to[out=down,in=up] (1,-2);
+      \end{knot}
+    \end{scope}
+  \end{tikzpicture}
+$$
 This is proved in Goldman and Kauffman's paper cited in
 ["Week 228"](#week228). With the help of this, I can show $B$ acts
 like this:
-
-      |   |              |          |
-      |   |              |   ___    |
-      |   |              |  /   \   |
-     -------             | /    -------   
-     |  T  |   |---->     \     |  T  |  
-     -------             / \    ------- 
-      |   |             |   \___/   | 
-      |   |             |           | 
-      |   |             |           |
-
+$$
+  \begin{tikzpicture}[scale=0.7]
+    \begin{knot}
+      \strand[thick] (0,3) to (0,1);
+      \strand[thick] (1,3) to (1,1);
+    \end{knot}
+    \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+    \node at (0.5,0.5) {$T$};
+    \begin{knot}
+      \strand[thick] (0,0) to (0,-2);
+      \strand[thick] (1,0) to (1,-2);
+    \end{knot}
+    \draw[thick,|->] (2,0.5) to (3.5,0.5);
+    \begin{scope}[shift={(5.5,0)}]
+      \begin{knot}[clip width=5]
+        \strand[thick] (-1.5,3)
+          to[out=down,in=left] (-0.25,-0.5)
+          to[out=right,in=down] (0,0);
+        \strand[thick] (1,3) to (1,1);
+        \strand[thick] (1,0) to (1,-2);
+        \strand[thick] (-1.5,-2)
+          to[out=up,in=left] (-0.25,1.5)
+          to[out=right,in=up] (0,1);
+      \end{knot}
+      \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+      \node at (0.5,0.5) {$T$};
+    \end{scope}
+  \end{tikzpicture}
+$$
 And this is *great!* It means our action of $3$-strand braids on rational
 tangles is really easy to describe. Just take your tangle and let the
 upper left strand dangle down:
-
-               |
-       ____    |               
-      /    \   |              
-     |    -------           
-     |    |  T  |   
-     |    -------  
-     |     |   |  
-     |     |   | 
-     |     |   |
-
+$$
+  \begin{tikzpicture}[scale=0.7]
+    \begin{knot}
+      \strand[thick] (-1,-2)
+        to (-1,1)
+        to[out=up,in=up,looseness=2] (0,1);
+      \strand[thick] (1,3) to (1,1);
+    \end{knot}
+    \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+    \node at (0.5,0.5) {$T$};
+    \begin{knot}
+      \strand[thick] (0,0) to (0,-2);
+      \strand[thick] (1,0) to (1,-2);
+    \end{knot}
+  \end{tikzpicture}
+$$
 To let a $3$-strand braid act on this, just attach it to the bottom of the
 picture!
 
