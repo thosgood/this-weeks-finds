@@ -388,45 +388,13 @@ $$
       & \node[
         label={[label distance=-7mm]above:{$$\begin{tikzpicture}[scale=0.15]\node at (-5,0) {$\bullet$};\node at (-4,0) {$\bullet$};\node at (-3,0) {$\bullet$};\node at (-2,0) {$\bullet$};\node at (-1,0) {$\bullet$};\node at (0,0) {$\bullet$};\node at (0,1) {$\bullet$};\node at (1,0) {$\bullet$};\node at (2,0) {$\bullet$};\node at (3,0) {$\bullet$};\node at (4,0) {$\bullet$};\node at (5,0) {$\bullet$}; \node at (6,0) {$\bullet$};\end{tikzpicture}$$}}]{};\\
     };
+    \draw[thick,dashed] (-5.5,4.5) to (-5.5,-5.1);
+    \draw[thick,dashed] (-6.3,3.8) to (6.1,3.8);
+    \draw[thick] (-2.1,-5) to (-2.1,-3.4) to (-0.3,-3.4) to (-0.3,-0.5) to (4.5,-0.5) to (4.5,0.9) to (6.1,0.9);
+    \draw[thick] (-2,-5) to (-2,-4.85) to (-0.2,-4.85) to (-0.2,-2) to (1.8,-2) to (1.8,-0.6) to (6,-0.6) to (6,0.8) to (6.1,0.8);
+    \node at (3.2,-3.3) {hyperbolic Kac-Moody algebras};
   \end{tikzpicture}
 $$
-
-         o        o          o           o            o             o   
-    m=2  oo      ooo       oooo       ooooo       oooooo      oooooooo
-
-         A3       D4         D5          D6           D7            D8
-
-                                                            ----------------==
-                                                           |               |
-         o        o          o           o            o    |        o      |
-    m=3  ooo     oooo      ooooo      oooooo      ooooooo  |  ooooooooo    |
-                                                           |               |
-         A4       D5         E6          E7           E8   |        E8^1   |
-                                                           |               |
-                                    ------------===========-----------------
-                                   |           |
-         o        o          o     |     o     |      o             o   
-    m=4  oooo    ooooo     oooooo  |  ooooooo  |  oooooooo     oooooooooo
-                                   |           |
-         A5       D6         E7    |    E7^1   |       
-                                   |           |
-                                   | ----------
-                                   ||
-         o        o          o     ||    o            o             o   
-    m=5  ooooo   oooooo    ooooooo || oooooooo    ooooooooo    ooooooooooo
-                                   ||
-         A6       D7         E8    ||   
-                                   ||       hyperbolic Kac-Moody algebras
-                          --------- |         
-                         |          |
-         o        o      |   o      |    o            o             o   
-    m=6  oooooo  ooooooo | oooooooo | ooooooooo   oooooooooo   oooooooooooo  
-         A7       D8     |          |
-                         |   E8^1   |
-                         |          |
-                         | ----------
-                         ||
-                         ||
 
 This mysterious way that the same Egyptian fraction problem shows up in
 classifying Platonic solids and simply-laced simple Lie algebras is
