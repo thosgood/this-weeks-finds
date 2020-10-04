@@ -124,34 +124,36 @@ To visualize this, first take the surface of the Earth and mold it into
 a regular octahedron. There will be six corners: the north pole, the
 south pole, the east pole, the west pole, the front pole and the back
 pole. Now take the octahedron and unfold it like this:
-
-::: {align="CENTER"}
-    S-----B-----S
-    |    /|\    |
-    |   / | \   |
-    |  /  |  \  |
-    | /   |   \ |
-    |/    |    |
-    W-----N-----E
-    |\    |    /|
-    | \   |   / |
-    |  \  |  /  |
-    |   \ | /   |
-    |    |/    |
-    S-----F-----S
-:::
-
+$$
+  \begin{tikzpicture}[scale=1.2]
+    \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+    \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+    \draw[thick] (1,0) to (1,2);
+    \draw[thick] (0,1) to (2,1);
+    \node[fill=white] at (0,0) {$S$};
+    \node[fill=white] at (1,0) {$F$};
+    \node[fill=white] at (2,0) {$S$};
+    \node[fill=white] at (0,1) {$W$};
+    \node[fill=white] at (1,1) {$N$};
+    \node[fill=white] at (2,1) {$E$};
+    \node[fill=white] at (0,2) {$S$};
+    \node[fill=white] at (1,2) {$B$};
+    \node[fill=white] at (2,2) {$S$};
+  \end{tikzpicture}
+$$
 We get an interesting map of the world, which was invented in 1876 by
 the American mathematician and philosopher C. S. Peirce while he was
 working at the U. S. Coast and Geodetic Survey. This map is called
 "Peirce's quincuncial", since when you arrange five dots this way:
-
-::: {align="CENTER"}
-    o   o
-      o
-    o   o
-:::
-
+$$
+  \begin{tikzpicture}[scale=0.4]
+    \node at (0,0) {$\bullet$};
+    \node at (2,0) {$\bullet$};
+    \node at (1,1) {$\bullet$};
+    \node at (0,2) {$\bullet$};
+    \node at (2,2) {$\bullet$};
+  \end{tikzpicture}
+$$
 it's called a "quincunx". (Somehow this word goes back to the name of
 an ancient Roman coin. I don't understand how this pattern is related
 to the coin.)
@@ -162,29 +164,128 @@ $$\href{http://www.progonos.com/furuti/MapProj/Normal/ProjConf/projConf.html}{\i
 5) Carlos A. Furuti, "Conformal projections", `http://www.progonos.com/furuti/MapProj/Normal/ProjConf/projConf.html`
 
 The cool part is that you can tile the plane indefinitely with this map:
-
-::: {align="CENTER"}
-    S-----B-----S-----F-----S-----B-----S-----F-----S
-    |    /|\    |    /|\    |    /|\    |    /|\    |
-    |   / | \   |   / | \   |   / | \   |   / | \   |
-    |  /  |  \  |  /  |  \  |  /  |  \  |  /  |  \  |
-    | /   |   \ | /   |   \ | /   |   \ | /   |   \ |
-    |/    |    |/    |    |/    |    |/    |    |
-    W-----N-----E-----N-----W-----N-----E-----N-----W
-    |\    |    /|\    |    /|\    |    /|\    |    /|
-    | \   |   / | \   |   / | \   |   / | \   |   / |
-    |  \  |  /  |  \  |  /  |  \  |  /  |  \  |  /  |
-    |   \ | /   |   \ | /   |   \ | /   |   \ | /   |
-    |    |/    |    |/    |    |/    |    |/    |
-    S-----F-----S-----B-----S-----F-----S-----B-----S
-    |    /|\    |    /|\    |    /|\    |    /|\    |
-    |   / | \   |   / | \   |   / | \   |   / | \   |
-    |  /  |  \  |  /  |  \  |  /  |  \  |  /  |  \  |
-    | /   |   \ | /   |   \ | /   |   \ | /   |   \ |
-    |/    |    |/    |    |/    |    |/    |    |
-    E-----N-----W-----N-----E-----N-----W-----N-----E
-:::
-
+$$
+  \begin{tikzpicture}[scale=1.2]
+    \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+    \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+    \draw[thick] (1,0) to (1,2);
+    \draw[thick] (0,1) to (2,1);
+    \node[fill=white] at (0,0) {$S$};
+    \node[fill=white] at (1,0) {$F$};
+    \node[fill=white] at (2,0) {$S$};
+    \node[fill=white] at (0,1) {$W$};
+    \node[fill=white] at (1,1) {$N$};
+    \node[fill=white] at (2,1) {$E$};
+    \node[fill=white] at (0,2) {$S$};
+    \node[fill=white] at (1,2) {$B$};
+    \node[fill=white] at (2,2) {$S$};
+    \begin{scope}[scale=-1,shift={(-4,-2)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+    \begin{scope}[shift={(4,0)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+    \begin{scope}[scale=-1,shift={(-8,-2)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+    \begin{scope}[scale=-1,shift={(-2,0)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+    \begin{scope}[shift={(2,-2)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+    \begin{scope}[scale=-1,shift={(-6,0)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+    \begin{scope}[shift={(6,-2)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+  \end{tikzpicture}
+$$
 $$\href{http://www.progonos.com/furuti/MapProj/Normal/ProjConf/projConf.html}{\includegraphics[max width=0.65\linewidth]{../images/quincuncial_tiled.jpg}}$$
 This gives a branched cover of the sphere by the plane! It has branch
 points at the east, west, front and back poles, since walking once
@@ -196,37 +297,30 @@ Atlantic, and one in the Indian Ocean.
 We can be less extravagant and get a branched cover of the sphere by the
 torus if we take the smallest parallelogram whose opposite edges match
 up:
-
-::: {align="CENTER"}
-                B            
-               /|\           
-              / | \          
-             /  |  \         
-            /   |   \        
-           /    |    \       
-          E-----N-----W      
-         /|\    |    /|\     
-        / | \   |   / | \    
-       /  |  \  |  /  |  \   
-      /   |   \ | /   |   \  
-     /    |    |/    |    \ 
-    B-----S-----F-----S-----B
-     \    |    /|\    |    / 
-      \   |   / | \   |   /  
-       \  |  /  |  \  |  /   
-        \ | /   |   \ | /    
-         |/    |    |/     
-          W-----N-----E      
-           \    |    /       
-            \   |   /        
-             \  |  /         
-              \ | /          
-               |/           
-                B            
-:::
-
-This would actually be a square if I could draw it right in ASCII. We
-can curl this into a torus by gluing together the opposite edges.
+$$
+  \begin{tikzpicture}[scale=1.2]
+    \draw[thick] (-2,0) to (0,-2) to (2,0) to (0,2) to cycle;
+    \draw[thick] (-1,-1) to (1,-1) to (1,1) to (-1,1) to cycle;
+    \draw[thick] (-2,0) to (2,0);
+    \draw[thick] (0,-2) to (0,2);
+    \draw[thick] (-1,-1) to (1,1);
+    \draw[thick] (1,-1) to (-1,1);
+    \node[fill=white] at (0,2) {$B$};
+    \node[fill=white] at (-1,1) {$E$};
+    \node[fill=white] at (0,1) {$N$};
+    \node[fill=white] at (1,1) {$W$};
+    \node[fill=white] at (-2,0) {$B$};
+    \node[fill=white] at (-1,0) {$S$};
+    \node[fill=white] at (0,0) {$F$};
+    \node[fill=white] at (1,0) {$S$};
+    \node[fill=white] at (2,0) {$B$};
+    \node[fill=white] at (-1,-1) {$W$};
+    \node[fill=white] at (0,-1) {$N$};
+    \node[fill=white] at (1,-1) {$E$};
+    \node[fill=white] at (0,-2) {$B$};
+  \end{tikzpicture}
+$$
+We can curl this into a torus by gluing together the opposite edges.
 There's then an obvious function from this torus to the sphere sending
 both points labelled "$N$" to the north pole, both points labelled "$S$"
 to the south pole, and so on.
@@ -242,35 +336,29 @@ It's an example of an "elliptic function"!
 
 I explained elliptic functions way back in ["Week 13"](#week13).
 Briefly, what we just did starting with this parallelogram:
-
-::: {align="CENTER"}
-                B            
-               /|\           
-              / | \          
-             /  |  \         
-            /   |   \        
-           /    |    \       
-          E-----N-----W      
-         /|\    |    /|\     
-        / | \   |   / | \    
-       /  |  \  |  /  |  \   
-      /   |   \ | /   |   \  
-     /    |    |/    |    \ 
-    B-----S-----F-----S-----B
-     \    |    /|\    |    / 
-      \   |   / | \   |   /  
-       \  |  /  |  \  |  /   
-        \ | /   |   \ | /    
-         |/    |    |/     
-          W-----N-----E      
-           \    |    /       
-            \   |   /        
-             \  |  /         
-              \ | /          
-               |/           
-                B            
-:::
-
+$$
+  \begin{tikzpicture}[scale=1.2]
+    \draw[thick] (-2,0) to (0,-2) to (2,0) to (0,2) to cycle;
+    \draw[thick] (-1,-1) to (1,-1) to (1,1) to (-1,1) to cycle;
+    \draw[thick] (-2,0) to (2,0);
+    \draw[thick] (0,-2) to (0,2);
+    \draw[thick] (-1,-1) to (1,1);
+    \draw[thick] (1,-1) to (-1,1);
+    \node[fill=white] at (0,2) {$B$};
+    \node[fill=white] at (-1,1) {$E$};
+    \node[fill=white] at (0,1) {$N$};
+    \node[fill=white] at (1,1) {$W$};
+    \node[fill=white] at (-2,0) {$B$};
+    \node[fill=white] at (-1,0) {$S$};
+    \node[fill=white] at (0,0) {$F$};
+    \node[fill=white] at (1,0) {$S$};
+    \node[fill=white] at (2,0) {$B$};
+    \node[fill=white] at (-1,-1) {$W$};
+    \node[fill=white] at (0,-1) {$N$};
+    \node[fill=white] at (1,-1) {$E$};
+    \node[fill=white] at (0,-2) {$B$};
+  \end{tikzpicture}
+$$
 actually works for a parallelogram of any shape. The parallelogram curls
 up to give a torus, and we get a map from this torus to the Riemann
 sphere, called an "elliptic function".
@@ -304,38 +392,80 @@ all this have to do with rational tangles??
 
 Recall my puzzle from last time. We build rational tangles by starting
 with the trivial one, which we call "zero"
-
-      |   |
-      |   |
-      |   |
-      |   |
-
+$$
+  \begin{tikzpicture}[scale=0.7]
+    \begin{knot}
+      \strand[thick] (0,0) to (0,-2);
+      \strand[thick] (1,0) to (1,-2);
+    \end{knot}
+  \end{tikzpicture}
+$$
 and repeatedly doing two operations. The first is a twisting operation
 that we call "adding one":
-
-      |   |                |   |
-      |   |                |   |
-      |   |                |   |
-     -------              -------
-     |  T  |   |---->     |  T  |        =  "T + 1"
-     -------              -------
-      |   |                 \ /
-      |   |                  / 
-      |   |                 / \
-
-where the box labelled "T" stands for any tangle we've built so far.
+$$
+  \begin{tikzpicture}[scale=0.7]
+    \begin{knot}
+      \strand[thick] (0,3) to (0,1);
+      \strand[thick] (1,3) to (1,1);
+    \end{knot}
+    \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+    \node at (0.5,0.5) {$T$};
+    \begin{knot}
+      \strand[thick] (0,0) to (0,-2);
+      \strand[thick] (1,0) to (1,-2);
+    \end{knot}
+    \draw[thick,|->] (2,0.5) to (3.5,0.5);
+    \begin{scope}[shift={(4.5,0)}]
+      \begin{knot}
+        \strand[thick] (0,3) to (0,1);
+        \strand[thick] (1,3) to (1,1);
+      \end{knot}
+      \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+      \node at (0.5,0.5) {$T$};
+      \begin{knot}[clip width=7]
+        \strand[thick] (1,0)
+          to[out=down,in=up] (0,-2);
+        \strand[thick] (0,0)
+          to[out=down,in=up] (1,-2);
+      \end{knot}
+    \end{scope}
+    \node at (7.25,0.5) {$= T+1$};
+  \end{tikzpicture}
+$$
+where the box labelled "$T$" stands for any tangle we've built so far.
 The second is a rotation that we call "negative reciprocal":
-
-      |   |             |     |     
-      |   |             |     |    ____
-      |   |             |     |   /    \
-     -------            |    -------    |
-     |  T  |   |---->   |    |  T  |    |    =  "-1/T"
-     -------            |    -------    |
-      |   |              \___/   |      |
-      |   |                      |      |
-      |   |                      |      |
-
+$$
+  \begin{tikzpicture}[scale=0.7]
+    \begin{knot}
+      \strand[thick] (0,3) to (0,1);
+      \strand[thick] (1,3) to (1,1);
+    \end{knot}
+    \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+    \node at (0.5,0.5) {$T$};
+    \begin{knot}
+      \strand[thick] (0,0) to (0,-2);
+      \strand[thick] (1,0) to (1,-2);
+    \end{knot}
+    \draw[thick,|->] (2,0.5) to (3.5,0.5);
+    \begin{scope}[shift={(5,0)}]
+      \begin{knot}
+        \strand[thick] (0,3) to (0,1);
+        \strand[thick] (1,1)
+          to[out=up,in=up,looseness=2] (2,1)
+          to (2,-2);
+      \end{knot}
+      \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+      \node at (0.5,0.5) {$T$};
+      \begin{knot}
+        \strand[thick] (0,0)
+          to[out=down,in=down,looseness=2] (-1,0)
+          to (-1,3);
+        \strand[thick] (1,0) to (1,-2);
+      \end{knot}
+    \end{scope}
+    \node at (8.75,0.5) {$= -1/T$};
+  \end{tikzpicture}
+$$
 Using these tricks we can try to assign a rational number to any
 rational tangle. The shocking theorem is that this number is indeed
 well-defined, and in fact a complete invariant of rational tangles.
@@ -343,11 +473,6 @@ well-defined, and in fact a complete invariant of rational tangles.
 Every operation built from "adding one" and "negative reciprocal"
 looks like this:
 $$z\mapsto\frac{az+b}{cz+d}$$
-
-             az + b
-    z \mapsto   -------
-             cz + d
-
 with $a,b,c,d$ integer and $ad-bc = 1$. The group of these transformations
 is called $\mathrm{PSL}(2,\mathbb{Z})$. This group acts on the rational numbers together
 with a point at infinity (the "rational projective line") by the
@@ -373,17 +498,21 @@ Here's the answer given by Michael Hutching on `sci.math.research`:
 
 In other words, we take a $3$-dimensional ball and draw a picture of a
 rational tangle in it:
-
-::: {align="CENTER"}
-        .......   
-      .   | |   . 
-     .   -----   .
-     .  |  T  |  .
-     .   -----   .
-      .   | |   . 
-        .......   
-:::
-
+$$
+  \begin{tikzpicture}[scale=0.7]
+    \begin{knot}
+      \strand[thick] (0,2) to (0,1);
+      \strand[thick] (1,2) to (1,1);
+    \end{knot}
+    \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+    \node at (0.5,0.5) {$T$};
+    \begin{knot}
+      \strand[thick] (0,0) to (0,-1);
+      \strand[thick] (1,0) to (1,-1);
+    \end{knot}
+    \draw[thick] (0.5,0.5) circle (1.6cm);
+  \end{tikzpicture}
+$$
 The boundary of this ball is a sphere with 4 points marked. If we take a
 branched double cover of the sphere with these as the branch points, we
 get a torus $T^2$. If we take a branched double cover of the whole ball
@@ -445,44 +574,85 @@ There's more stuff to check....
 
 Personally I've been trying to think of the mapping class group of the
 4-punctured sphere as acting on pictures like this:
-
-::: {align="CENTER"}
-        .......   
-      .   | |   . 
-     .   -----   .
-     .  |  T  |  .
-     .   -----   .
-      .   | |   . 
-        .......   
-:::
-
+$$
+  \begin{tikzpicture}[scale=0.7]
+    \begin{knot}
+      \strand[thick] (0,2) to (0,1);
+      \strand[thick] (1,2) to (1,1);
+    \end{knot}
+    \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+    \node at (0.5,0.5) {$T$};
+    \begin{knot}
+      \strand[thick] (0,0) to (0,-1);
+      \strand[thick] (1,0) to (1,-1);
+    \end{knot}
+    \draw[thick] (0.5,0.5) circle (1.6cm);
+  \end{tikzpicture}
+$$
 and show that the resulting action on rational tangles factors through a
 homomorphism from this mapping class group to $\mathrm{PSL}(2,\mathbb{Z})$. The mapping
 class group should be generated by the twist
-
-      |   |                |   |
-      |   |                |   |
-      |   |                |   |
-     -------              -------
-     |  T  |   |---->     |  T  |        
-     -------              -------
-      |   |                 \ /
-      |   |                  / 
-      |   |                 / \
-
-and the 90 degree rotation
-
-      |   |             |     |     
-      |   |             |     |    ____
-      |   |             |     |   /    \
-     -------            |    -------    |
-     |  T  |   |---->   |    |  T  |    |    
-     -------            |    -------    |
-      |   |              \___/   |      |
-      |   |                      |      |
-      |   |                      |      |
-       
-
+$$
+  \begin{tikzpicture}[scale=0.7]
+    \begin{knot}
+      \strand[thick] (0,3) to (0,1);
+      \strand[thick] (1,3) to (1,1);
+    \end{knot}
+    \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+    \node at (0.5,0.5) {$T$};
+    \begin{knot}
+      \strand[thick] (0,0) to (0,-2);
+      \strand[thick] (1,0) to (1,-2);
+    \end{knot}
+    \draw[thick,|->] (2,0.5) to (3.5,0.5);
+    \begin{scope}[shift={(4.5,0)}]
+      \begin{knot}
+        \strand[thick] (0,3) to (0,1);
+        \strand[thick] (1,3) to (1,1);
+      \end{knot}
+      \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+      \node at (0.5,0.5) {$T$};
+      \begin{knot}[clip width=7]
+        \strand[thick] (1,0)
+          to[out=down,in=up] (0,-2);
+        \strand[thick] (0,0)
+          to[out=down,in=up] (1,-2);
+      \end{knot}
+    \end{scope}
+  \end{tikzpicture}
+$$
+and the $90$ degree rotation
+$$
+  \begin{tikzpicture}[scale=0.7]
+    \begin{knot}
+      \strand[thick] (0,3) to (0,1);
+      \strand[thick] (1,3) to (1,1);
+    \end{knot}
+    \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+    \node at (0.5,0.5) {$T$};
+    \begin{knot}
+      \strand[thick] (0,0) to (0,-2);
+      \strand[thick] (1,0) to (1,-2);
+    \end{knot}
+    \draw[thick,|->] (2,0.5) to (3.5,0.5);
+    \begin{scope}[shift={(5,0)}]
+      \begin{knot}
+        \strand[thick] (0,3) to (0,1);
+        \strand[thick] (1,1)
+          to[out=up,in=up,looseness=2] (2,1)
+          to (2,-2);
+      \end{knot}
+      \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+      \node at (0.5,0.5) {$T$};
+      \begin{knot}
+        \strand[thick] (0,0)
+          to[out=down,in=down,looseness=2] (-1,0)
+          to (-1,3);
+        \strand[thick] (1,0) to (1,-2);
+      \end{knot}
+    \end{scope}
+  \end{tikzpicture}
+$$
 and our homomorphism should map these to the famous matrices
 $$
   T = \left(
@@ -539,29 +709,128 @@ But actually, I'm being a bit sloppy here. To compute a cross ratio
 from a lattice, we need some extra information to *order* the $4$-tuple of
 branch points. In other words, if one of the points $S$ is the origin
 here:
-
-::: {align="CENTER"}
-    S-----B-----S-----F-----S-----B-----S-----F-----S
-    |    /|\    |    /|\    |    /|\    |    /|\    |
-    |   / | \   |   / | \   |   / | \   |   / | \   |
-    |  /  |  \  |  /  |  \  |  /  |  \  |  /  |  \  |
-    | /   |   \ | /   |   \ | /   |   \ | /   |   \ |
-    |/    |    |/    |    |/    |    |/    |    |
-    W-----N-----E-----N-----W-----N-----E-----N-----W
-    |\    |    /|\    |    /|\    |    /|\    |    /|
-    | \   |   / | \   |   / | \   |   / | \   |   / |
-    |  \  |  /  |  \  |  /  |  \  |  /  |  \  |  /  |
-    |   \ | /   |   \ | /   |   \ | /   |   \ | /   |
-    |    |/    |    |/    |    |/    |    |/    |
-    S-----F-----S-----B-----S-----F-----S-----B-----S
-    |    /|\    |    /|\    |    /|\    |    /|\    |
-    |   / | \   |   / | \   |   / | \   |   / | \   |
-    |  /  |  \  |  /  |  \  |  /  |  \  |  /  |  \  |
-    | /   |   \ | /   |   \ | /   |   \ | /   |   \ |
-    |/    |    |/    |    |/    |    |/    |    |
-    E-----N-----W-----N-----E-----N-----W-----N-----E
-:::
-
+$$
+  \begin{tikzpicture}[scale=1.2]
+    \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+    \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+    \draw[thick] (1,0) to (1,2);
+    \draw[thick] (0,1) to (2,1);
+    \node[fill=white] at (0,0) {$S$};
+    \node[fill=white] at (1,0) {$F$};
+    \node[fill=white] at (2,0) {$S$};
+    \node[fill=white] at (0,1) {$W$};
+    \node[fill=white] at (1,1) {$N$};
+    \node[fill=white] at (2,1) {$E$};
+    \node[fill=white] at (0,2) {$S$};
+    \node[fill=white] at (1,2) {$B$};
+    \node[fill=white] at (2,2) {$S$};
+    \begin{scope}[scale=-1,shift={(-4,-2)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+    \begin{scope}[shift={(4,0)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+    \begin{scope}[scale=-1,shift={(-8,-2)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+    \begin{scope}[scale=-1,shift={(-2,0)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+    \begin{scope}[shift={(2,-2)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+    \begin{scope}[scale=-1,shift={(-6,0)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+    \begin{scope}[shift={(6,-2)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+  \end{tikzpicture}
+$$
 and the lattice is taken just big enough so the pattern repeats, we need
 enough information to *label* the points $E$, $F$, $W$ and $B$. This extra
 information amounts to "choosing a basis for the $2$-torsion subgroup of

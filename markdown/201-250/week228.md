@@ -277,8 +277,8 @@ one!*, player $B$ has to switch which hand he's using to hold which rope,
 making sure to pass the right one over the left, like this:
 $$
   \begin{tikzpicture}
-    \draw[white] (0,0) node[label=above:{$A$}]{} to (0,-2) node[label=below:{$B$}]{};
-    \draw[white] (1.5,0) node[label=above:{$A$}]{} to (1.5,-2) node[label=below:{$B$}]{};
+    \draw[white] (0,0) node[label={[black]above:{$A$}}]{} to (0,-2) node[label={[black]below:{$B$}}]{};
+    \draw[white] (1.5,0) node[label={[black]above:{$A$}}]{} to (1.5,-2) node[label={[black]below:{$B$}}]{};
     \begin{knot}[clip width=5]
       \strand[thick] (0,0)
         to [out=down,in=up] (1.5,-2);
@@ -293,8 +293,8 @@ reciprocal!*, both players must cooperate to move all four ends of the
 ropes a quarter-turn clockwise, like this:
 $$
   \begin{tikzpicture}
-    \draw[white] (0,0) node[label=above:{$A$}]{} to (0,-2) node[label=below:{$B$}]{};
-    \draw[white] (1.5,0) node[label=above:{$A$}]{} to (1.5,-2) node[label=below:{$B$}]{};
+    \draw[white] (0,0) node[label={[black]above:{$A$}}]{} to (0,-2) node[label={[black]below:{$B$}}]{};
+    \draw[white] (1.5,0) node[label={[black]above:{$A$}}]{} to (1.5,-2) node[label={[black]below:{$B$}}]{};
     \begin{knot}[clip width=5]
       \strand[thick] (0,0)
         to [out=down,in=down,looseness=1.5] (1.5,0);

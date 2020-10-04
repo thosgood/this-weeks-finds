@@ -236,104 +236,146 @@ different dimensions. For example, in ["Week 174"](#week174) I
 explained how Frobenius algebras formalize the idea of paint drips on a
 sheet of rubber. As you move your gaze down a sheet of rubber covered
 with drips of paint, you'll notice that drips can merge:
-
-                          \ \         / /  
-                           \ \       / /
-                            \ \     / /
-                             \ \   / /
-                              \ \_/ /      
-                               \   /                                        
-                                | |
-                                | |
-                                | |
-                                | |
-                                | |   
-
+$$
+  \begin{tikzpicture}[yscale=2]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down,looseness=1.5] (-1,1);
+      \strand[thick] (-0.45,1)
+        to [out=down,in=down,looseness=1.5] (0.45,1);
+      \strand[thick] (0.5,0)
+        to [out=up,in=down,looseness=1.5] (1,1);
+    \end{knot}
+  \end{tikzpicture}
+$$
 but also split:
-
-                                | |
-                                | |   
-                                | |
-                                | |
-                                | |
-                               / _ \                                           
-                              / / \ \      
-                             / /   \ \
-                            / /     \ \
-                           / /       \ \
-                          / /         \ \ 
-
+$$
+  \begin{tikzpicture}[yscale=-2]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down,looseness=1.5] (-1,1);
+      \strand[thick] (-0.45,1)
+        to [out=down,in=down,looseness=1.5] (0.45,1);
+      \strand[thick] (0.5,0)
+        to [out=up,in=down,looseness=1.5] (1,1);
+    \end{knot}
+  \end{tikzpicture}
+$$
 In addition, drips can start:
-
-                                _
-                               | |
-                               | |
-                               | |
-                               | |
-                               | |
-                               | |
-                               | |
-                               | |
-                               | |
-
+$$
+  \begin{tikzpicture}[scale=1.3]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=up,looseness=3] (0.5,0);
+    \end{knot}
+  \end{tikzpicture}
+$$
 but also end:
-
-                               | |
-                               | |
-                               | |
-                               | |
-                               | |
-                               | |
-                               | |
-                               | |
-                               |_|
-
+$$
+  \begin{tikzpicture}[scale=-1.3]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=up,looseness=3] (0.5,0);
+    \end{knot}
+  \end{tikzpicture}
+$$
 In a Frobenius algebra, these four pictures correspond to four
 operations called "multiplication" (merging), "comultiplication"
 (splitting), the "unit" (starting) and the "counit" (ending).
 Moreover, these operations satisfy precisely the relations that you can
 prove by warping the piece of rubber and seeing how the pictures change.
 For example, there's the associative law:
-
-                \ \    / /    / /      \ \    \ \    / /
-                 \ \  / /    / /        \ \    \ \  / /
-                  \ \/ /    / /          \ \    \ \/ /
-                   \  /    / /            \ \    \  /
-                    \ \   / /              \ \   / /
-                     \ \_/ /                \ \_/ /
-                      \   /                  \   /
-                       | |                    | |
-                       | |                    | |    
-                       | |          =         | |
-                       | |                    | |
-                       | |                    | |
-                       | |                    | |
-                       | |                    | |
-                       | |                    | |
-
+$$
+  \begin{tikzpicture}[xscale=1,yscale=1.7]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down,looseness=1.5] (-1,1);
+      \strand[thick] (-0.45,1)
+        to [out=down,in=down,looseness=1.5] (0.45,1)
+        to (0.45,1.55);
+      \strand[thick] (0.5,0)
+        to [out=up,in=down,looseness=1] (1,1)
+        to (1,1.55);
+    \end{knot}
+    \begin{scope}[scale=0.55,shift={(-1.32,1.81)}]
+      \begin{knot}
+        \strand[thick] (-0.5,0)
+          to [out=up,in=down,looseness=1.5] (-1,1);
+        \strand[thick] (-0.45,1)
+          to [out=down,in=down,looseness=1.5] (0.45,1);
+        \strand[thick] (0.5,0)
+          to [out=up,in=down,looseness=1] (1,1);
+      \end{knot}
+    \end{scope}
+  \end{tikzpicture}
+  \quad
+  \raisebox{4em}{$=$}
+  \quad
+  \begin{tikzpicture}[xscale=-1,yscale=1.7]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down,looseness=1.5] (-1,1);
+      \strand[thick] (-0.45,1)
+        to [out=down,in=down,looseness=1.5] (0.45,1)
+        to (0.45,1.55);
+      \strand[thick] (0.5,0)
+        to [out=up,in=down,looseness=1] (1,1)
+        to (1,1.55);
+    \end{knot}
+    \begin{scope}[scale=0.55,shift={(-1.32,1.81)}]
+      \begin{knot}
+        \strand[thick] (-0.5,0)
+          to [out=up,in=down,looseness=1.5] (-1,1);
+        \strand[thick] (-0.45,1)
+          to [out=down,in=down,looseness=1.5] (0.45,1);
+        \strand[thick] (0.5,0)
+          to [out=up,in=down,looseness=1] (1,1);
+      \end{knot}
+    \end{scope}
+  \end{tikzpicture}
+$$
 The idea here is that if you draw the picture on the left-hand side on a
 sheet of rubber, you can warp the rubber until it looks like the
 right-hand side! There's also the "coassociative law", which is just
 an upside-down version of the above picture. But the most interesting
 laws are the "$I = N$" equation:
-
-                   \ \     / /                | |        | |
-                    \ \   / /                 | |        | |
-                     \ \_/ /                  | |        | |
-                      \   /                   |  \       | |
-                       | |                    |   \      | |
-                       | |                    | |\ \     | |   
-                       | |                    | | \ \    | |
-                       | |                    | |  \ \   | |
-                       | |          =         | |   \ \  | |
-                       | |                    | |    \ \ | |
-                       | |                    | |     \ | |
-                       | |                    | |      \   |
-                      / _ \                   | |       \  |
-                     / / \ \                  | |        | |
-                    / /   \ \                 | |        | | 
-                   / /     \ \                | |        | |
-
+$$
+  \begin{tikzpicture}[yscale=1.5]
+    \begin{knot}
+      \strand[thick] (-1,-1.5)
+        to [out=up,in=down,looseness=1.5] (-0.4,-0.5)
+        to (-0.4,0)
+        to [out=up,in=down,looseness=1.5] (-1,1);
+      \strand[thick] (-0.45,1)
+        to [out=down,in=down,looseness=1.5] (0.45,1);
+      \strand[thick] (-0.45,-1.5)
+        to [out=up,in=up,looseness=1.5] (0.45,-1.5);
+      \strand[thick] (1,-1.5)
+        to [out=up,in=down,looseness=1.5] (0.4,-0.5)
+        to (0.4,0)
+        to [out=up,in=down,looseness=1.5] (1,1);
+    \end{knot}
+  \end{tikzpicture}
+  \qquad
+  \raisebox{7em}{$=$}
+  \qquad
+  \begin{tikzpicture}[yscale=1.5]
+    \begin{knot}
+      \strand[thick] (-1,-1.5) to (-1,1);
+      \strand[thick] (-0.5,-1.5)
+        to (-0.5,-0.5)
+        to [out=up,in=left] (-0.25,-0.35)
+        to [out=right,in=up,looseness=0.6] (0.5,-1.25)
+        to (0.5,-1.5);
+      \strand[thick] (0.5,1)
+        to (0.5,0)
+        to [out=down,in=right] (0.25,-0.15)
+        to [out=left,in=down,looseness=0.6] (-0.5,0.75)
+        to (-0.5,1);
+      \strand[thick] (1,-1.5) to (1,1);
+    \end{knot}
+  \end{tikzpicture}
+$$
 and its mirror-image version.
 
 So, the concept of Frobenius algebra captures the topology of regions in
