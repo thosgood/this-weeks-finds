@@ -268,6 +268,8 @@ $$
   \end{tikzpicture}
 $$
 This is what we get:
+$$\includegraphics[max width=0.65\linewidth]{../images/week182table.png}$$
+<!--
 $$
   \begin{tikzpicture}
     \matrix[
@@ -395,7 +397,7 @@ $$
     \node at (3.2,-3.3) {hyperbolic Kac-Moody algebras};
   \end{tikzpicture}
 $$
-
+-->
 This mysterious way that the same Egyptian fraction problem shows up in
 classifying Platonic solids and simply-laced simple Lie algebras is
 actually the tip an iceberg sometimes called the "McKay
