@@ -4,10 +4,7 @@ My European wanderings continue. I'm in Greenwich again, just back from
 a mind-blowing conference in Vienna, part of a bigger program that's
 still going on:
 
-1) Poisson sigma models, Lie algebroids, deformations, and higher
-analogues, Erwin Schrödinger Institute, August - September 2007,
-organized by Thomas Strobl, Henrique Bursztyn, and Harald Grosse.
-Program at `http://w3.impa.br/~henrique/esi.html`
+1) _Poisson sigma models, Lie algebroids, deformations, and higher analogues_, Erwin Schrödinger Institute, August -- September 2007, organized by Thomas Strobl, Henrique Bursztyn, and Harald Grosse. Program at `http://w3.impa.br/~henrique/esi.html`
 
 I learned a huge amount, both from the talks and from conversations with
 Urs Schreiber and others. Mainly, I learned that I've really been
@@ -21,14 +18,12 @@ little about this wonderful conference.
 
 You may know that in classical mechanics, the space of states of a
 physical system is called its "phase space". Often this is described
-by a "symplectic manifold" - a manifold equipped with a nondegenerate
-closed $2$-form. Sometimes it's described by a "Poisson manifold" - a
+by a "symplectic manifold" --- a manifold equipped with a nondegenerate
+closed $2$-form. Sometimes it's described by a "Poisson manifold" --- a
 manifold equipped with a bracket operation on its smooth functions,
 making the smooth functions into a Lie algebra and also satisfying the
 product rule:
-
-{f,gh} = {f,g}h + g{f,h}
-
+$$\{f,gh\} = \{f,g\}h + g\{f,h\}$$
 Every symplectic manifold gives a Poisson manifold, but not vice versa.
 A good example of a Poisson manifold that's not symplectic is the phase
 space of a spinning point particle, which has angular momentum but no
@@ -38,31 +33,23 @@ Every mathematical physicist should know some symplectic geometry and
 Poisson geometry! To get started on symplectic geometry, try these, in
 rough order of increasing difficulty:
 
-1) Vladimir I. Arnold, Mathematical Methods of Classical Mechanics,
-Springer, Berlin, 1997.
+1) Vladimir I. Arnold, _Mathematical Methods of Classical Mechanics_, Springer, Berlin, 1997.
 
-2) Ralph Abraham and Jerrold E. Marsden, Foundations of Mechanics,
-Benjamin-Cummings, New York, 1978.
+2) Ralph Abraham and Jerrold E. Marsden, _Foundations of Mechanics_, Benjamin-Cummings, New York, 1978.
 
-3) Victor Guillemin and Shlomo Sternberg, Symplectic Techniques in
-Physics, Cambridge U. Press, Cambridge, 1990.
+3) Victor Guillemin and Shlomo Sternberg, _Symplectic Techniques in Physics_, Cambridge U. Press, Cambridge, 1990.
 
-4) Ana Cannas da Silva, Symplectic geometry, available as
-[`arXiv:math.SG/0505366`](http://arxiv.org/abs/math.SG/0505366).
+4) Ana Cannas da Silva, _Symplectic geometry_, available as [`arXiv:math.SG/0505366`](http://arxiv.org/abs/math.SG/0505366).
 
-5) Sergei Tabachnikov, Introduction to symplectic topology, available
-at `http://www.math.psu.edu/tabachni/courses/symplectic.pdf`
+5) Sergei Tabachnikov, _Introduction to symplectic topology_, available at `http://www.math.psu.edu/tabachni/courses/symplectic.pdf`
 
 For Poisson geometry, try the above but also:
 
-6) Alan Weinstein, Poisson geometry, available at
-`http://galileo.stmarys-ca.edu/bdavis/poisson.pdf`
+6) Alan Weinstein, _Poisson geometry_, available at `http://galileo.stmarys-ca.edu/bdavis/poisson.pdf`
 
-7) Darryl Holm, Applications of Poisson geometry to physical problems,
-available as [`arXiv:0708.1585`](http://arxiv.org/abs/0708.1585).
+7) Darryl Holm, "Applications of Poisson geometry to physical problems", available as [`arXiv:0708.1585`](http://arxiv.org/abs/0708.1585).
 
-8) I. Vaisman, Lectures on the Geometry of Poisson Manifolds,
-Birkhaeuser, Boston, 1994.
+8) I. Vaisman, _Lectures on the Geometry of Poisson Manifolds_, Birkhaeuser, Boston, 1994.
 
 All this stuff is great. But lately, people have started thinking about
 generalizations of the idea of phase space that go far beyond Poisson
@@ -75,11 +62,9 @@ like this:
 > ...
 
 I'd heard of Courant algebroids before, but they always seemed like a
-scary and arbitrary concept - until I came across this paper in Vienna:
+scary and arbitrary concept --- until I came across this paper in Vienna:
 
-9) Pavol Severa, Some title containing the words "homotopy" and
-"symplectic", e.g. this one, available as
-[`arXiv:math/0105080`](http://arxiv.org/abs/math/0105080).
+9) Pavol Severa, 'Some title containing the words "homotopy" and "symplectic", e.g. this one', available as [`arXiv:math/0105080`](http://arxiv.org/abs/math/0105080).
 
 The title is goofy, but the paper itself contains some truly visionary
 speculations. Among other things, it argues that the above sequence of
@@ -87,8 +72,8 @@ concepts really goes like this:
 
 > symplectic manifolds,\
 > symplectic Lie algebroids,\
-> symplectic Lie 2-algebroids,\
-> symplectic Lie 3-algebroids,\
+> symplectic Lie $2$-algebroids,\
+> symplectic Lie $3$-algebroids,\
 > ...
 
 These, in turn, are infinitesimal versions of perhaps more fundamental
@@ -96,8 +81,8 @@ concepts:
 
 > symplectic manifolds,\
 > symplectic Lie groupoids,\
-> symplectic Lie 2-groupoids,\
-> symplectic Lie 3-groupoids,\
+> symplectic Lie $2$-groupoids,\
+> symplectic Lie $3$-groupoids,\
 > ...
 
 These concepts take the basic concept of classical phase space and build
@@ -108,34 +93,25 @@ show up in classical mechanics. Back in ["Week 49"](#week49) I
 explained the most basic version of this table. Here's a tiny portion
 of it:
 
-                      k-tuply monoidal $n$-categories 
+|       | $n=0$ | $n=1$ | $n=2$ |
+| ----- | :---- | :---- | :---- |
+| $k=0$ | sets | categories | $2$-categories |
+| | | | |
+| $k=1$ | monoids | monoidal categories | monoidal $2$-categories |
+| | | | |
+| $k=2$ | commutative monoids | braided monoidal categories | braided monoidal $2$-categories |
+| | | | |
+| $k=3$ | " " | symmetric monoidal categories | sylleptic monoidal $2$-categories |
+| | | | |
+| $k=4$ | " " | " " | symmetric monoidal $2$-categories |
+| | | | |
+| $k=5$ | " " | " " | " " |
 
-                  n = 0           n = 1             n = 2
-
-    k = 0         sets          categories         $2$-categories
-         
-
-    k = 1        monoids         monoidal           monoidal
-                                categories        $2$-categories
-
-
-    k = 2       commutative      braided            braided
-                 monoids         monoidal           monoidal
-                                categories        $2$-categories 
-
-    k = 3         " "           symmetric           sylleptic
-                                 monoidal           monoidal
-                                categories         $2$-categories
-
-    k = 4         " "             " "               symmetric
-                                                    monoidal
-                                                  $2$-categories
-
-    k = 5         " "             " "                "  "
+:$k$-tuply monoidal $n$-categories
 
 An $n$-category has objects, $1$-morphisms betwen objects, $2$-morphisms
 between $1$-morphisms, and so on up to the $n$th level. A "k-tuply
-monoidal" $n$-category is an (n+k)-category that's trivial on the bottom
+monoidal" $n$-category is an $(n+k)$-category that's trivial on the bottom
 k levels. It masquerades as an $n$-category with extra bells and whistles.
 As you can see, we get lots of fun structures this way.
 
@@ -146,31 +122,23 @@ that all these morphisms be invertible, and that all the ways of
 composing them be smooth functions. Then we should get some table like
 this:
 
-                       k-tuply groupal Lie $n$-groupoids 
+|       | $n=0$ | $n=1$ | $n=2$ |
+| ----- | :---- | :---- | :---- |
+| $k=0$ | manifolds | Lie groupoids | Lie $2$-groupoids |
+| | | | |
+| $k=1$ | Lie groups | Lie $2$-groups | Lie $3$-groups |
+| | | | |
+| $k=2$ | abelian Lie groups | braided Lie $2$-groups | braided Lie $3$-groups |
+| | | | |
+| $k=3$ | " " | symmetric Lie $2$-groups | sylleptic Lie $3$-groups |
+| | | | |
+| $k=4$ | " " | " " | symmetric Lie $3$-groups |
+| | | | |
+| $k=5$ | " " | " " | " " |
 
-                  n = 0           n = 1              n = 2
+:$k$-tuply groupal Lie $n$-groupoids
 
-    k = 0       manifolds     Lie groupoids       Lie 2-groupoids
-         
-
-    k = 1       Lie groups     Lie 2-groups        Lie 3-groups
-
-
-    k = 2        abelian         braided             braided
-                Lie groups     Lie 2-groups        Lie 3-groups
-
-
-    k = 3         " "           symmetric           sylleptic
-                               Lie 2-groups        Lie 3-groups
-
-
-    k = 4         " "             " "               symmetric
-                                                   Lie 3-groups
-
-
-    k = 5         " "             " "                "  "
-
-There are lots of technical issues to consider - for example, whether
+There are lots of technical issues to consider --- for example, whether
 manifolds are a sufficiently general notion of "smooth space" to make
 this chart really work. But for now, the key thing is to understand what
 we're shooting for, so we can set up definitions that accomplish it.
@@ -179,68 +147,52 @@ For example, it would be nice if we could "differentiate" any of the
 gadgets on the above table, just as we differentiate a Lie group and get
 a Lie algebra. This should give another table, like this:
 
-                       k-tuply groupal Lie $n$-algebroids 
+|       | $n=0$ | $n=1$ | $n=2$ |
+| ----- | :---- | :---- | :---- |
+| $k=0$ | vector bundles? | Lie algebroids | Lie $2$-algebroids |
+| | | | |
+| $k=1$ | Lie algebras | Lie $2$-algebras | Lie $3$-algebras |
+| | | | |
+| $k=2$ | abelian Lie algebras | braided Lie $2$-algebras | braided Lie $3$-algebras |
+| | | | |
+| $k=3$ | " " | symmetric Lie $2$-algebras | sylleptic Lie $3$-algebras |
+| | | | |
+| $k=4$ | " " | " " | symmetric Lie $3$-algebras |
+| | | | |
+| $k=5$ | " " | " " | " " |
 
-                  n = 0           n = 1                n = 2
+:$k$-tuply groupal Lie $n$-algebroids
 
-    k = 0     vector bundles?  Lie algebroids      Lie 2-algebroids
-         
-
-    k = 1      Lie algebras    Lie 2-algebras      Lie 3-algebras
-
-
-    k = 2        abelian         braided              braided
-               Lie algebras   Lie 2-algebras       Lie 3-algebras
-
-
-    k = 3         " "           symmetric            sylleptic
-                             Lie 2-algebras        Lie 3-algebras
-
-
-    k = 4         " "             " "               symmetric
-                                                   Lie 3-algebras
-
-
-    k = 5         " "             " "                "  "
-
-The n = k = 0 corner is a bit puzzling - it's sort of degenerate.
+The $n = k = 0$ corner is a bit puzzling --- it's sort of degenerate.
 Everyone knows how to get Lie algebras from Lie groups. So, the real fun
 starts in getting Lie algebroids from Lie groupoids! If you want to see
 how it works, start here:
 
-10) Alan Weinstein, Groupoids: unifying internal and external symmetry,
-AMS Notices, 43 (1996), 744-752. Also available as
-[`arXiv:math/9602220`](http://arxiv.org/abs/math/9602220).
+10) Alan Weinstein, "Groupoids: unifying internal and external symmetry", _AMS Notices_ **43** (1996), 744--752. Also available as [`arXiv:math/9602220`](http://arxiv.org/abs/math/9602220).
 
 For more details, try this:
 
-11) Kirill Mackenzie, General Theory of Lie Groupoids and Lie
-Algebroids, Cambridge U. Press, 2005.
+11) Kirill Mackenzie, _General Theory of Lie Groupoids and Lie Algebroids_, Cambridge U. Press, 2005.
 
 There's also the question of going back. We can integrate any
-finite-dimensional Lie algebra to get a simply-connected Lie group -
+finite-dimensional Lie algebra to get a simply-connected Lie group ---
 that's called Lie's 3rd theorem. But getting from Lie algebroids to
 Lie groupoids is harder... in fact, according to the standard
 definitions, it's often impossible!
 
 That's bad enough, but the really weird part is this: you can get
-something like a Lie *2-groupoid* from a Lie algebroid! This throws a
+something like a Lie *$2$-groupoid* from a Lie algebroid! This throws a
 serious monkey wrench into the whole periodic table.
 
 Luckily, one of the people who really understands this stuff was at this
-conference in Vienna - Chenchang Zhu. And, she explained what's going
+conference in Vienna --- Chenchang Zhu. And, she explained what's going
 on. So now I'm busily reading her papers:
 
-12) Hsian-Hua Tseng and Chenchang Zhu, Integrating Lie algebroids via
-stacks, available as
-[`arXiv:math/0405003`](http://arxiv.org/abs/math/0405003).
+12) Hsian-Hua Tseng and Chenchang Zhu, "Integrating Lie algebroids via stacks", available as [`arXiv:math/0405003`](http://arxiv.org/abs/math/0405003).
 
-13) Chenchang Zhu, Lie $n$-groupoids and stacky Lie groupoids, available
-as [`arXiv:math/0609420`](http://arxiv.org/abs/math/0609420).
+13) Chenchang Zhu, "Lie $n$-groupoids and stacky Lie groupoids", available as [`arXiv:math/0609420`](http://arxiv.org/abs/math/0609420).
 
-14) Chenchang Zhu, Lie II theorem for Lie algebroids via stacky Lie
-groupoids, available as
-[`arXiv:math/0701024`](http://arxiv.org/abs/math/0701024).
+14) Chenchang Zhu, "Lie II theorem for Lie algebroids via stacky Lie groupoids", available as [`arXiv:math/0701024`](http://arxiv.org/abs/math/0701024).
 
 (Lie's 2nd theorem says that all Lie algebra homomorphisms integrate to
 give homomorphisms between the corresponding simply-connected Lie
@@ -251,22 +203,16 @@ understand them. In particular, problems also arise when trying to
 integrate Lie $n$-algebras to get Lie $n$-groups, but a lot of progress has
 been made on these problems:
 
-15) Ezra Getzler, Lie theory for nilpotent L~\infty~-algebras, available as
-[`arXiv:math/0404003`](http://arxiv.org/abs/math/0404003).
+15) Ezra Getzler, "Lie theory for nilpotent $L_\infty$-algebras", available as [`arXiv:math/0404003`](http://arxiv.org/abs/math/0404003).
 
-16) Andre Henriques, Integrating L~\infty~-algebras, available as
-[`arXiv:math/0603563`](http://arxiv.org/abs/math/0603563).
+16) Andre Henriques, "Integrating $L_\infty$-algebras", available as [`arXiv:math/0603563`](http://arxiv.org/abs/math/0603563).
 
 The really wonderful part is that there's already a functioning theory
 of Lie $n$-algebroids, carefully disguised under the name of
-"NQ-manifolds of degree n". For a great introduction to these, see
+"NQ-manifolds of degree $n$". For a great introduction to these, see
 section 2 of this paper:
 
-17) Dmitry Roytenberg, On the structure of graded symplectic
-supermanifolds and Courant algebroids, in Quantization, Poisson Brackets
-and Beyond, ed. Theodore Voronov, Contemp. Math. 315, AMS, Providence,
-Rhode Island, 2002. Also available as
-[arxiv:math.SG/0203110](http://arxiv.org/abs/math.SG/0203110).
+17) Dmitry Roytenberg, "On the structure of graded symplectic supermanifolds and Courant algebroids", in _Quantization, Poisson Brackets and Beyond_, ed. Theodore Voronov, Contemp. Math. 315, AMS, Providence, Rhode Island, 2002. Also available as [`math.SG/0203110`](http://arxiv.org/abs/math.SG/0203110).
 
 Using these, people are already busy extending the ideas of classical
 mechanics across the top row of the periodic table!
@@ -283,16 +229,16 @@ that:
 > symplectic NQ-manifolds of degree 2 = Courant algebroids
 
 If we follow his advice and define Lie $n$-algebroids to be NQ-manifolds
-of degree n, we can express this by saying:
+of degree $n$, we can express this by saying:
 
-> symplectic Lie 0-algebroids = symplectic manifolds
+> symplectic Lie $0$-algebroids = symplectic manifolds
 >
-> symplectic Lie 1-algebroids = Poisson manifolds
+> symplectic Lie $1$-algebroids = Poisson manifolds
 >
-> symplectic Lie 2-algebroids = Courant algebroids
+> symplectic Lie $2$-algebroids = Courant algebroids
 
 And ultimately, Lie $n$-algebroids should be just a technical tool for
-studying Lie $n$-groupoids - modulo the tricky problems with the
+studying Lie $n$-groupoids --- modulo the tricky problems with the
 generalizations of Lie's 2nd theorem, mentioned above.
 
 Though I met both Roytenberg and Severa in Vienna, I was just beginning
@@ -308,13 +254,12 @@ a deformation quantization, its interpretation by Cattaneo and Felder in
 the language of 2d TQFTs, and its generalization by Hofman and Park to
 the quantization of Courant algebroids using 3d TQFTs... which should
 itself be the tip of a big iceberg. To quantize symplectic Lie
-n-algebroids, it seems we need to use $(n+1)$-dimensional TQFTs! There are
+$n$-algebroids, it seems we need to use $(n+1)$-dimensional TQFTs! There are
 some truly mind-boggling ideas afoot here, which will turn out to be
 quite simple when properly understood. For a taste of the underlying
 simplicity, try this:
 
-18) Urs Schreiber, That shift in dimension,
-`http://golem.ph.utexas.edu/category/2007/08/john_baez_and_i_spent.html`
+18) Urs Schreiber, "That shift in dimension", `http://golem.ph.utexas.edu/category/2007/08/john_baez_and_i_spent.html`
 
 But, I'd better learn more before trying to explain these things.
 
@@ -323,59 +268,49 @@ was about to discuss an example: Hecke operators in the special case of
 symmetric groups. But, one reader expressed unease with what I'd done
 so far, saying it was too informal and hand-wavy to understand.
 
-So, this Week I'll fill in some details about "degroupoidification" -
+So, this Week I'll fill in some details about "degroupoidification" ---
 the process that sends groupoids to vector spaces and spans of groupoids
 to linear operators.
 
-How does this work? For starters, each groupoid X gives a vector space
-\[X\] whose basis consists of isomorphism classes of objects of X.
+How does this work? For starters, each groupoid $X$ gives a vector space
+$[X]$ whose basis consists of isomorphism classes of objects of $X$.
 
-Given an object x in X, let's write its isomorphism class as \[x\]. So:
-x in X gives \[x\] in \[X\].
+Given an object $x$ in $X$, let's write its isomorphism class as $[x]$. So:
+$x$ in $X$ gives $[x]$ in $[X]$.
 
 Next, each span of groupoids
-
-                           S
-                          / \
-                         /   \
-                        /     \
-                       v       v
-                      X         Y
-
+$$
+  \begin{tikzcd}
+    &S\drar\dlar&
+  \\X&&Y
+  \end{tikzcd}
+$$
 gives a linear operator
+$$[S]\colon [X] \to [Y]$$
+Note: this operator $[S]$ depends on the whole span, not just the
+groupoid $S$ sitting on top. So, I'm abusing notation here.
 
-\[S\]\colon \[X\] \to \[Y\]
-
-Note: this operator \[S\] depends on the whole span, not just the
-groupoid S sitting on top. So, I'm abusing notation here.
-
-More importantly: how do we get this operator \[S\]? The recipe is
+More importantly: how do we get this operator $[S]$? The recipe is
 simple, but I think you'll profit much more by seeing where the recipe
 comes from.
 
 To figure out how it should work, we insist that degroupoidification be
 something like a functor. In other words, it should get along well with
 composition:
-
-\[TS\] = \[T\] \[S\]
-
+$$[TS] = [T] [S]$$
 and identities:
-
-\[1~X~\] = 1~\[X\]~
-
+$$[1_X] = 1_{[X]}$$
 (Warning: today, just to confuse you, I'll write composition in the
-old-fashioned backwards way, where doing S and then T is denoted TS.)
+old-fashioned backwards way, where doing $S$ and then $T$ is denoted $TS$.)
 
 How do we compose spans of groupoids? We do it using a "weak
 pullback". In other words, given a composable pair of spans:
-
-                           S         T
-                          / \       / \
-                        f/   \g   h/   \i
-                        /     \   /     \
-                       v       v V       v
-                      X         Y         Z
-
+$$
+  \begin{tikzcd}[column sep=tiny]
+    &S\drar["f"]\dlar[swap,"g"]&&T\drar["h"]\dlar[swap,"i"]&
+  \\X&&Y&&Z
+  \end{tikzcd}
+$$
 we form the weak pullback in the middle, like this:
 
                                 TS
@@ -426,12 +361,12 @@ So, how should we take a span of groupoids
 
 and turn it into a linear operator
 
-\[S\]\colon \[X\] \to \[Y\] ?
+[S]\colon [X] \to [Y] ?
 
 We just need to know what this operator does to a bunch of vectors in
-\[X\]. How do we describe vectors in \[X\]?
+[X]. How do we describe vectors in [X]?
 
-I already said how to get a basis vector \[x\] in \[X\] from any object
+I already said how to get a basis vector [x] in [X] from any object
 x in X. But, that's not enough for what we're doing now, since a
 linear operator doesn't usually send basis vectors to *basis* vectors.
 So, we need to generalize this idea.
@@ -456,13 +391,13 @@ groupoid V to X:
                           v
                           X
 
-picks out a vector in \[X\]. Again, by abuse of notation we'll call
-this vector \[V\], even though it also depends on p.
+picks out a vector in [X]. Again, by abuse of notation we'll call
+this vector [V], even though it also depends on p.
 
 First suppose V is a finite set, thought of as a groupoid with only
-identity morphisms. Then to define \[V\], we just go through all the
-points of V, figure out what p maps them to - some bunch of objects x in
-X - and add up the corresponding basis vectors \[x\] in \[X\].
+identity morphisms. Then to define [V], we just go through all the
+points of V, figure out what p maps them to --- some bunch of objects x in
+X --- and add up the corresponding basis vectors [x] in [X].
 
 I hope you see how pathetically simple this idea is! It's especially
 familiar when V and X are both sets. Here's what it looks like then:
@@ -480,7 +415,7 @@ familiar when V and X are both sets. Here's what it looks like then:
 
 I've drawn the elements of V and X as little circles, and shown how
 each element in X has a bunch of elements of V sitting over it. When
-degroupoidify this to get a vector in the vector space \[X\], we get:
+degroupoidify this to get a vector in the vector space [X], we get:
 
          [V] = (1, 4, 3, 2, 0, 2)
 
@@ -498,8 +433,8 @@ is a groupoid:
                           X
 
 Sitting over each object x in X we have its "essential preimage",
-which is a groupoid. To get the vector \[V\], we add up basis vectors
-\[x\] in \[X\], one for each isomorphism class of objects in X,
+which is a groupoid. To get the vector [V], we add up basis vectors
+[x] in [X], one for each isomorphism class of objects in X,
 multiplied by the "cardinalities" of their essential preimages.
 
 Now you probably have two questions:
@@ -540,7 +475,7 @@ Okay. Now in principle you know how any groupoid over X, say
                           v
                           X
 
-determines a vector \[V\] in \[X\]. You have to work some examples to
+determines a vector [V] in [X]. You have to work some examples to
 get a feel for it, but I want to get to the punchline. We're unpeeling
 an onion here, and we're almost down to the core, where you see
 there's nothing inside and wonder why you were crying so much.
@@ -556,7 +491,7 @@ So, let's finally figure out how a span of groupoids
 
 gives a linear operator
 
-\[S\]\colon \[X\] \to \[Y\]
+[S]\colon [X] \to [Y]
 
 It's enough to know what this operator does to vectors coming from
 groupoids over X:
@@ -581,7 +516,7 @@ span like this:
 1 is the groupoid with one object and one morphism, so there's only one
 choice of the left leg here!
 
-So here's what we do. To apply the operator \[S\] coming from the span
+So here's what we do. To apply the operator [S] coming from the span
 
                            S
                           / \
@@ -590,7 +525,7 @@ So here's what we do. To apply the operator \[S\] coming from the span
                        v       v
                       X         Y
 
-to the vector \[V\] corresponding to the silly span
+to the vector [V] corresponding to the silly span
 
                            V
                           / \
@@ -608,16 +543,16 @@ we just compose these spans, and get a silly span
                        v        v
                       1          Y
 
-which picks out a vector \[SV\] in \[Y\]. Then, we define
+which picks out a vector [SV] in [Y]. Then, we define
 
-\[S\] \[V\] = \[SV\]
+[S] [V] = [SV]
 
-Slick, eh? Of course you need to check that \[S\] is well-defined.
+Slick, eh? Of course you need to check that [S] is well-defined.
 
-Given that, it's trivial to prove that \[-\] gets along with
+Given that, it's trivial to prove that [-] gets along with
 composition of spans:
 
-\[TS\] = \[T\] \[S\]
+[TS] = [T] [S]
 
 At least, it's trivial once you know that composition of spans is
 associative up to equivalence, and equivalent spans give the same
@@ -630,9 +565,9 @@ proof goes like this. We have:
              = [T] [SV]      by definition 
              = [T] [S] [V]   by definition 
 
-Since this is true for all \[V\], we conclude
+Since this is true for all [V], we conclude
 
-\[TS\] = \[T\] \[S\]
+[TS] = [T] [S]
 
 Voilà!
 
@@ -640,7 +575,7 @@ By the way, if ["Week 47"](#week47) doesn't satisfy your hunger
 for information on groupoid cardinality, try this:
 
 19) John Baez and James Dolan, From finite sets to Feynman diagrams, in
-Mathematics Unlimited - 2001 and Beyond, vol. 1, eds. Bjorn Engquist and
+Mathematics Unlimited --- 2001 and Beyond, vol. 1, eds. Bjorn Engquist and
 Wilfried Schmid, Springer, Berlin, 2001, pp. 29-50. Also available as
 [math.QA/0004133](http://arxiv.org/abs/math.QA/0004133).
 
@@ -688,7 +623,7 @@ So, we're fairly high in the ladder of $n$-categories. But, if we want a
 mere category, we can take groupoids and *equivalence classes* of spans.
 Then, degroupoidification gives a functor
 
-\[-\]\colon \[finite groupoids, spans\] \to \[vector spaces, linear maps\]
+[-]\colon [finite groupoids, spans] \to [vector spaces, linear maps]
 
 That's the fact whose proof I tried to sketch here.
 
@@ -702,7 +637,7 @@ our vector spaces to be defined over the rational numbers.
 But, it's also fun to consider "tame" groupoids, as defined that
 paper I wrote with Jim Dolan. These have cardinalities that can be
 irrational numbers, like e. So, in this case we should use vector spaces
-over the real numbers - or complex numbers, but that's overkill.
+over the real numbers --- or complex numbers, but that's overkill.
 
 Finding a class of groupoids or other entities whose cardinalities are
 complex would be very nice, to push the whole groupoidification program
@@ -711,12 +646,14 @@ uses sets over \mathrm{U}(1), but that's probably not the last word.
 
 ------------------------------------------------------------------------
 
-*Viewed superficially, mathematics is the result of centuries of effort
+> *Viewed superficially, mathematics is the result of centuries of effort
 by thousands of largely unconnected individuals scattered across
 continents, centuries and millennia. However the internal logic of its
 development much more closely resembles the work of a single intellect
-developing its thought in a continuous and systematics way - much as in
+developing its thought in a continuous and systematics way --- much as in
 an orchestra playing a symphony written by some composer the theme moves
 from one instrument to another, so that as soon as one performer is
 forced to cut short his part, it is taken up by another player, who
-continues with due attention to the score.* - I. R. Shavarevich
+continues with due attention to the score.*
+>
+> --- I. R. Shavarevich
