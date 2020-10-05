@@ -534,8 +534,7 @@ on Europa:
 evidence of subterranean ocean,
 `http://photojournal.jpl.nasa.gov/catalog/PIA03002`
 
-You can see more discussion of this Week's Finds at the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2008/05/this_weeks_finds_in_mathematic_26.html).
+You can see more discussion of this Week's Finds at the [$n$-Category Café](http://golem.ph.utexas.edu/category/2008/05/this_weeks_finds_in_mathematic_26.html).
 You can also see a list of questions I'd like your help with!
 
 ------------------------------------------------------------------------

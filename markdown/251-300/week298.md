@@ -577,8 +577,7 @@ Lvay, who has allowed me to quote it here:
 > Budapest University of Technology\
 > HUNGARY
 
-For more discussion, visit the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2010/05/this_weeks_finds_in_mathematic_59.html).
+For more discussion, visit the [$n$-Category Café](http://golem.ph.utexas.edu/category/2010/05/this_weeks_finds_in_mathematic_59.html).
 
 ------------------------------------------------------------------------
 

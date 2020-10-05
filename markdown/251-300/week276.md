@@ -481,8 +481,7 @@ bialgebra to the terminal vector space. But the terminal bialgebra is
 1-dimensional, while the terminal vector space is 0-dimensional - a
 contradiction.
 
-For more discussion visit the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2009/06/this_weeks_finds_in_mathematic_37.html).
+For more discussion visit the [$n$-Category Café](http://golem.ph.utexas.edu/category/2009/06/this_weeks_finds_in_mathematic_37.html).
 
 ------------------------------------------------------------------------
 

@@ -841,8 +841,7 @@ To see Greg Egan's beautiful proof of the pentagon-decagon-hexagon
 identity, which meets my challenge above, see
 ["Week 284"](#week284).
 
-For more discussion visit the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2009/11/this_weeks_finds_in_mathematic_44.html).
+For more discussion visit the [$n$-Category Café](http://golem.ph.utexas.edu/category/2009/11/this_weeks_finds_in_mathematic_44.html).
 
 ------------------------------------------------------------------------
 

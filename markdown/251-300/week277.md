@@ -329,8 +329,7 @@ Pachos' paper "Manifestations of topological effects in graphene".
 
 ------------------------------------------------------------------------
 
-Addenda: For more discussion visit the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2009/08/this_weeks_finds_in_mathematic_38.html.html).
+Addenda: For more discussion visit the [$n$-Category Café](http://golem.ph.utexas.edu/category/2009/08/this_weeks_finds_in_mathematic_38.html.html).
 
 ------------------------------------------------------------------------
 

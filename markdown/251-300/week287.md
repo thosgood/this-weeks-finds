@@ -955,8 +955,7 @@ choice here?)
 
 This led to a big discussion, which I've attempted to summarize in the
 above improved version of ["Week 287"](#week287). To see the
-discussion we had, and add your comments, visit [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2009/12/this_weeks_finds_in_mathematic_48.html).
+discussion we had, and add your comments, visit [$n$-Category Café](http://golem.ph.utexas.edu/category/2009/12/this_weeks_finds_in_mathematic_48.html).
 
 ------------------------------------------------------------------------
 

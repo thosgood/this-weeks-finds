@@ -752,8 +752,7 @@ above.
 
 I apologize to everyone whose talks I have not mentioned!
 
-You can see more discussion of this Week's Finds at the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2008/06/this_weeks_finds_in_mathematic_27.html).
+You can see more discussion of this Week's Finds at the [$n$-Category Café](http://golem.ph.utexas.edu/category/2008/06/this_weeks_finds_in_mathematic_27.html).
 
 ------------------------------------------------------------------------
 

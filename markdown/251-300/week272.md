@@ -475,10 +475,10 @@ But here's a lesser-known fact: the set of probability measures on X,
 say M(X), is itself a measurable space!
 
 How does this work? First we give M(X) its "weak topology". This is
-the topology where a bunch of measures μ_i converge to μ if for every
+the topology where a bunch of measures \mu_i converge to \mu if for every
 bounded continuous function f on X,
 
-\int f dμ_i \to \int f dμ
+\int f d\mu_i \to \int f d\mu
 
 Starting with this topology and taking the Borel sets, M(X) becomes a
 measurable space.
@@ -574,8 +574,7 @@ century. Greg Egan wrote a Mathematica program based on a more efficient
 algorithm and got the answer in less than a day.
 
 For more discussion, including the idea behind Egan's algorithm, visit
-the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2008/11/this_weeks_finds_in_mathematic_33.html).
+the [$n$-Category Café](http://golem.ph.utexas.edu/category/2008/11/this_weeks_finds_in_mathematic_33.html).
 
 ------------------------------------------------------------------------
 

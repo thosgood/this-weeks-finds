@@ -922,8 +922,7 @@ his remarks on why Spec(Z) is $3$-dimensional:
 > Therefore we expect Spec(Z) to be a 3-manifold, but not fibered over
 > anything.
 
-For more discussion, go to the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2007/10/this_weeks_finds_in_mathematic_18.html).
+For more discussion, go to the [$n$-Category Café](http://golem.ph.utexas.edu/category/2007/10/this_weeks_finds_in_mathematic_18.html).
 
 ------------------------------------------------------------------------
 

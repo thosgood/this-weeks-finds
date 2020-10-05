@@ -369,9 +369,9 @@ to include chemistry! Suppose we have a piston full of gas made of
 different kinds of molecules, and there can be chemical reactions that
 change one kind into another. Now our equation gets fancier:
 
-dE = TdS - PdV + \sum_i μ_i dN_i
+dE = TdS - PdV + \sum_i \mu_i dN_i
 
-Here N_i is the number of molecules of the ith kind, while μ_i is a
+Here N_i is the number of molecules of the ith kind, while \mu_i is a
 quantity called a "chemical potential". The chemical potential simply
 says how much energy it takes to increase the number of molecules of a
 given kind:
@@ -1131,8 +1131,7 @@ temperature. He wrote:
 > "a" in Von Laue's *Relativitätstheorie*, a convention which he
 > follows. So the concept does exist out there!
 
-For more discussion, visit the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2010/01/this_weeks_finds_in_mathematic_50.html).
+For more discussion, visit the [$n$-Category Café](http://golem.ph.utexas.edu/category/2010/01/this_weeks_finds_in_mathematic_50.html).
 
 ------------------------------------------------------------------------
 

@@ -569,8 +569,7 @@ capacitors into the game... and loop groups!
 > connections between two terminals, but I presume that whatever
 > difficulties this causes in either case are essentially the same.
 
-For more discussion, visit the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2010/05/this_weeks_finds_in_mathematic_58.html).
+For more discussion, visit the [$n$-Category Café](http://golem.ph.utexas.edu/category/2010/05/this_weeks_finds_in_mathematic_58.html).
 
 ------------------------------------------------------------------------
 

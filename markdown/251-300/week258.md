@@ -708,8 +708,7 @@ Note the great technical simplification of working with what I called
 \operatorname{Hom}(PX,PX) instead of \operatorname{Hom}(PX,X) - composition becomes strictly
 associative!
 
-For more discussion, go to the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2007/11/this_weeks_finds_in_mathematic_22.html).
+For more discussion, go to the [$n$-Category Café](http://golem.ph.utexas.edu/category/2007/11/this_weeks_finds_in_mathematic_22.html).
 
 ------------------------------------------------------------------------
 

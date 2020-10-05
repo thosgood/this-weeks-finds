@@ -775,8 +775,7 @@ and 60 cycles per second. As expected, there's some history involved:
 > bridge to alternate between (intentional pun)! Hope this has been
 > helpful.
 
-For more discussion, visit the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2010/01/this_weeks_finds_in_mathematic_52.html).
+For more discussion, visit the [$n$-Category Café](http://golem.ph.utexas.edu/category/2010/01/this_weeks_finds_in_mathematic_52.html).
 
 ------------------------------------------------------------------------
 

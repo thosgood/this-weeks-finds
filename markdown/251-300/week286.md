@@ -602,8 +602,7 @@ Todd Trimble added:
 > torsionfree if and only if it is flat in the category of abelian
 > groups.
 
-For more discussion visit the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2009/12/this_weeks_finds_in_mathematic_47.html).
+For more discussion visit the [$n$-Category Café](http://golem.ph.utexas.edu/category/2009/12/this_weeks_finds_in_mathematic_47.html).
 
 ------------------------------------------------------------------------
 

@@ -748,8 +748,7 @@ classical mechanics, supergravity and more! So stay tuned....
 **Addenda:** I thank Toby Bartels for some improvements, and Ralf Bader
 for a link to Odlyzko and Poonen's paper.
 
-For more discussion visit the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2009/12/this_weeks_finds_in_mathematic_46.html).
+For more discussion visit the [$n$-Category Café](http://golem.ph.utexas.edu/category/2009/12/this_weeks_finds_in_mathematic_46.html).
 
 ------------------------------------------------------------------------
 

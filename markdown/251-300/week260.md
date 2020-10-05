@@ -615,8 +615,7 @@ Tony Smith wrote:
 > a non-compact form of \mathrm{E}_7, the maximal compact subalgebra being E6 \oplus 
 > \mathfrak{so}(2). ...".
 
-For more discussion, go to the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2007/12/this_weeks_finds_in_mathematic_20.html).
+For more discussion, go to the [$n$-Category Café](http://golem.ph.utexas.edu/category/2007/12/this_weeks_finds_in_mathematic_20.html).
 
 ------------------------------------------------------------------------
 

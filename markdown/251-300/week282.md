@@ -1187,8 +1187,7 @@ David Corfield points out:
 > > The Stirling numbers of the first and second kind can be understood
 > > to be inverses of one-another, when taken as triangular matrices.
 
-For more discussion visit the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2009/10/this_weeks_finds_in_mathematic_43.html).
+For more discussion visit the [$n$-Category Café](http://golem.ph.utexas.edu/category/2009/10/this_weeks_finds_in_mathematic_43.html).
 In particular, Toby Bartels raised an important question: what's the
 physical meaning of treating Planck's constant as a variable instead of
 a number in deformation quantization?

@@ -459,8 +459,7 @@ There's more to come, too....
 ------------------------------------------------------------------------
 
 **Addenda:** Starting this Week, you can see more discussion and also
-*questions I'm dying to know the answers to* over at the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2008/03/this_weeks_finds_in_mathematic_23.html).
+*questions I'm dying to know the answers to* over at the [$n$-Category Café](http://golem.ph.utexas.edu/category/2008/03/this_weeks_finds_in_mathematic_23.html).
 Whenever I write This Week's Finds, I come up with lots of questions.
 If you can help me with some of these, I'll be really grateful.
 

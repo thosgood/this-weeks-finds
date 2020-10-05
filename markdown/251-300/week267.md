@@ -765,8 +765,7 @@ vector fields and Riemannian metrics on differentiable DM stacks. It
 also proves that Morse functions are generic and that vector fields can
 be integrated.
 
-You can see more discussion of this Week's Finds at the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2008/07/this_weeks_finds_in_mathematic_28.html).
+You can see more discussion of this Week's Finds at the [$n$-Category Café](http://golem.ph.utexas.edu/category/2008/07/this_weeks_finds_in_mathematic_28.html).
 
 ------------------------------------------------------------------------
 

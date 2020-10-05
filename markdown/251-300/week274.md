@@ -481,13 +481,13 @@ But the tricky case is the general case, where G can be infinite and
 nonabelian! Here Mackey described a procedure which is a grand
 generalization of writing a rep as a direct sum of irreps.
 
-If we choose a sigma-finite measure μ on G* and a measurable field H~x~
+If we choose a sigma-finite measure \mu on G* and a measurable field H~x~
 of Hilbert spaces on G*, we can build a rep of G. Here's how. Each
 point x of G* gives an irrep of G, say R~x~. These form another
 measurable field of Hilbert spaces on G*. So, we can tensor H~x~ and
 R~x~, and then form the "direct integral"
 
-\int~x~ (H~x~ \otimes R~x~) dμ(x)
+\int~x~ (H~x~ \otimes R~x~) d\mu(x)
 
 As I already mentioned, a direct integral is a generalization of a
 direct sum. The result of doing this direct integral is a Hilbert space,

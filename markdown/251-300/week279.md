@@ -518,8 +518,7 @@ omega-groupoids, available at
 > my name (and Gates'name) in the arXiv. Perhaps you could find these
 > interesting to have a look at.
 
-For more discussion visit the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2009/09/this_weeks_finds_in_mathematic_40.html).
+For more discussion visit the [$n$-Category Café](http://golem.ph.utexas.edu/category/2009/09/this_weeks_finds_in_mathematic_40.html).
 
 ------------------------------------------------------------------------
 

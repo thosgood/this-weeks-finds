@@ -775,8 +775,7 @@ Here G_2(11) is like the exceptional Lie group G_2 except it's
 defined over the field with 11 elements. So, the number 11 raises its
 ugly head yet again!
 
-For more discussion, visit the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2010/01/this_weeks_finds_in_mathematic_51.html).
+For more discussion, visit the [$n$-Category Café](http://golem.ph.utexas.edu/category/2010/01/this_weeks_finds_in_mathematic_51.html).
 
 ------------------------------------------------------------------------
 

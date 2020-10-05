@@ -550,8 +550,7 @@ you'll see a subtlety concerning the claim that the dual of the dual is
 the original polygon. Apparently you need to count every boundary point
 as a vertex! Read the papers for more precise details.
 
-For more discussion visit the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2008/10/this_weeks_finds_in_mathematic_31.html).
+For more discussion visit the [$n$-Category Café](http://golem.ph.utexas.edu/category/2008/10/this_weeks_finds_in_mathematic_31.html).
 
 ------------------------------------------------------------------------
 

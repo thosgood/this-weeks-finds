@@ -565,8 +565,7 @@ above might not satisfy him:
 > corrections to the Wheeler-DeWitt equation come from, and why they
 > prevent the singularity.
 
-For more discussion visit the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2009/09/this_weeks_finds_in_mathematic_41.html).
+For more discussion visit the [$n$-Category Café](http://golem.ph.utexas.edu/category/2009/09/this_weeks_finds_in_mathematic_41.html).
 
 ------------------------------------------------------------------------
 

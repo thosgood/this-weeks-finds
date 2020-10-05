@@ -730,8 +730,7 @@ especially chapter 4.
 
 ------------------------------------------------------------------------
 
-**Addendum:** For more discussion, go to the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2007/12/this_weeks_finds_in_mathematic_20.html).
+**Addendum:** For more discussion, go to the [$n$-Category Café](http://golem.ph.utexas.edu/category/2007/12/this_weeks_finds_in_mathematic_20.html).
 
 ------------------------------------------------------------------------
 

@@ -822,8 +822,7 @@ about how people settled on a definition of longitude on Mars:
 > Mars, which will in turn enable more precise landings on the Red
 > Planet by future spacecraft and explorers.
 
-For more discussion, visit the friendly and welcoming [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2010/01/this_weeks_finds_in_mathematic_49.html).
+For more discussion, visit the friendly and welcoming [$n$-Category Café](http://golem.ph.utexas.edu/category/2010/01/this_weeks_finds_in_mathematic_49.html).
 
 ------------------------------------------------------------------------
 

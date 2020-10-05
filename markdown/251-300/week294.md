@@ -1105,8 +1105,7 @@ reference on electrical circuits and bond graphs:
 in Engineering - Economic Design and Production, Tapir Publishers,
 Norway, ca. 1978.
 
-For more discussion, visit the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2010/03/this_weeks_finds_in_mathematic_55.html).
+For more discussion, visit the [$n$-Category Café](http://golem.ph.utexas.edu/category/2010/03/this_weeks_finds_in_mathematic_55.html).
 
 ------------------------------------------------------------------------
 

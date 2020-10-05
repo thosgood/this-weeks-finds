@@ -874,8 +874,7 @@ He has a paper on this:
 18) Michael Barr, On duality of topological abelian groups, available
 at <ftp://ftp.math.mcgill.ca/pub/barr/pdffiles/abgp.pdf>
 
-For more discussion, visit the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2008/12/this_weeks_finds_in_mathematic_34.html).
+For more discussion, visit the [$n$-Category Café](http://golem.ph.utexas.edu/category/2008/12/this_weeks_finds_in_mathematic_34.html).
 
 ------------------------------------------------------------------------
 

@@ -946,8 +946,7 @@ ones. So, his product obeys the law
 where R(a) stands for right multiplication by a. Right pre-Lie algebras
 work just as well as left ones.
 
-For more discussion, visit the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2010/06/this_weeks_finds_in_mathematic_60.html).
+For more discussion, visit the [$n$-Category Café](http://golem.ph.utexas.edu/category/2010/06/this_weeks_finds_in_mathematic_60.html).
 
 ------------------------------------------------------------------------
 

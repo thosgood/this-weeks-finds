@@ -756,8 +756,7 @@ day....
 
 ------------------------------------------------------------------------
 
-**Addendum:** For more discussion, go to the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2007/08/this_weeks_finds_in_mathematic_16.html).
+**Addendum:** For more discussion, go to the [$n$-Category Café](http://golem.ph.utexas.edu/category/2007/08/this_weeks_finds_in_mathematic_16.html).
 
 ------------------------------------------------------------------------
 

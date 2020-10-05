@@ -255,8 +255,7 @@ time writing papers that I need a little break!
 
 ------------------------------------------------------------------------
 
-Addenda: For more discussion visit the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2009/08/this_weeks_finds_in_mathematic_39.html).
+Addenda: For more discussion visit the [$n$-Category Café](http://golem.ph.utexas.edu/category/2009/08/this_weeks_finds_in_mathematic_39.html).
 
 ------------------------------------------------------------------------
 

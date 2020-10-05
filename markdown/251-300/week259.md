@@ -747,8 +747,7 @@ elements of a specific R-module, or more abstractly as "dummy
 variables" used to describe the ring R as a generalized ring in
 Durov's sense - what Lawvere calls an algebraic theory.)
 
-For more discussion, go to the [$n$-Category
-Café](http://golem.ph.utexas.edu/category/2007/12/this_weeks_finds_in_mathematic_19.html).
+For more discussion, go to the [$n$-Category Café](http://golem.ph.utexas.edu/category/2007/12/this_weeks_finds_in_mathematic_19.html).
 
 ------------------------------------------------------------------------
 
