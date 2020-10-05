@@ -569,7 +569,7 @@ Here are some fancier ones:
 >
 > A is [metrizable](http://en.wikipedia.org/wiki/Metrization_theorem)
 > iff A* is
-> [σ-compact](http://en.wikipedia.org/wiki/%CE%A3-compact_space).
+> [\sigma-compact](http://en.wikipedia.org/wiki/%CE%A3-compact_space).
 >
 > A is [second
 > countable](http://en.wikipedia.org/wiki/Second-countable_space) iff
