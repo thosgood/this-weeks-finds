@@ -422,13 +422,13 @@ f_4 somehow.
 I also wonder if there's a Killing superalgebra interpretation of the
 Lie algebra constructions
 
-e~6~ = \mathfrak{so}(10) \oplus  S~10~ \oplus  \mathrm{u}(1)
+e_6 = \mathfrak{so}(10) \oplus  S~10~ \oplus  \mathfrak{u}(1)
 
 and
 
-e~7~ = \mathfrak{so}(12) \oplus  S~12~^+^ \oplus  \mathfrak{su}(2)
+e_7 = \mathfrak{so}(12) \oplus  S~12~^+^ \oplus  \mathfrak{su}(2)
 
-These would need to be trickier, with the \mathrm{u}(1) showing up from the fact
+These would need to be trickier, with the \mathfrak{u}(1) showing up from the fact
 that S~10~ is a complex representation, and the \mathfrak{su}(2) showing up from
 the fact that S~12~^+^ is a quaternionic representation. The algebra is
 explained here:

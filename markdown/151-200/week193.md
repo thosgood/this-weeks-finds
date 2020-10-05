@@ -342,13 +342,13 @@ think about how this diamond-cutting trick worked. At least in this case
 just the roots of a simple Lie algebra of rank one less than the one we
 started with. Since the Cartan of this smaller Lie algebra is one
 dimension smaller, it turns out that $L(0)$ equals this smaller Lie
-algebra plus a one-dimensional abelian subalgebra --- namely $\mathrm{u}(1)$.
+algebra plus a one-dimensional abelian subalgebra --- namely $\mathfrak{u}(1)$.
 
 In this example this smaller Lie algebra is $\mathfrak{so}(14)$, which has dimension
 91. $L(1)$ is a $64$-dimensional chiral spinor rep of $\mathfrak{so}(14)$, and $L(2)$ is
 the $14$-dimensional vector rep... and similarly for $L(-1)$ and $L(-2)$. So
 we get a very "14-dimensional" picture of $\mathrm{E}_8$:
-$$\mathrm{E}_8 = [\mbox{vectors}] \oplus [\mbox{spinors}] \oplus [\mathfrak{so}(14) \oplus \mathrm{u}(1)] \oplus [\mbox{spinors}] \oplus [\mbox{vectors}]$$
+$$\mathrm{E}_8 = [\mbox{vectors}] \oplus [\mbox{spinors}] \oplus [\mathfrak{so}(14) \oplus \mathfrak{u}(1)] \oplus [\mbox{spinors}] \oplus [\mbox{vectors}]$$
 But we get a more exciting way of slicing the diamond if we use the
 picture of $\mathrm{E}_8$ as the Cayley integral octonions! Let's do this, and
 let each slice go through those roots where the "real part" $x_0$ of
@@ -390,11 +390,11 @@ My goal in life is now to define a set of algebraic varieties, one for
 each root in $L(1)$ and $L(2)$, so I can write a paper entitled "57 Varieties" and get sued for trademark infringement by Heinz.
 
 In the above grading of $\mathrm{E}_8$, the Lie algebra $L(0)$ is the direct sum of
-$\mathrm{E}_7$ and $\mathrm{u}(1)$. This is no surprise if you know that the dimension of
+$\mathrm{E}_7$ and $\mathfrak{u}(1)$. This is no surprise if you know that the dimension of
 $\mathrm{E}_7$ is 133... but the reason it's *true* is that if you take the
 roots of $\mathrm{E}_8$ that are orthogonal to any one root, you get the roots of
 $\mathrm{E}_7$. So, we get a very $\mathrm{E}_7$-ish description of $\mathrm{E}_8$:
-$$E8 = [\mbox{trivial}] \oplus [\mbox{Freudenthal}] \oplus [\mathrm{E}_7 \oplus \mathrm{u}(1)] \oplus [\mbox{Freudenthal}] \oplus [\mbox{trivial}]$$
+$$E8 = [\mbox{trivial}] \oplus [\mbox{Freudenthal}] \oplus [\mathrm{E}_7 \oplus \mathfrak{u}(1)] \oplus [\mbox{Freudenthal}] \oplus [\mbox{trivial}]$$
 
 Here the "Freudenthal algebra" is the $56$-dimensional irrep of $\mathrm{E}_7$,
 which has an invariant symplectic structure and ternary product
@@ -417,18 +417,18 @@ $$
   \end{array}
 $$
 Since $\mathrm{E}_7$'s baby brother $\mathrm{E}_6$ is $78$-dimensional, it's no surprise
-that the Lie algebra $L(0)$ is $\mathrm{E}_6\oplus\mathrm{u}(1)$. Since $3$-gradings tend to
+that the Lie algebra $L(0)$ is $\mathrm{E}_6\oplus\mathfrak{u}(1)$. Since $3$-gradings tend to
 give us Jordan algebras, it's no suprise that $L(1)$ is the exceptional
 Jordan algebra $\mathrm{h}_3(\mathbb{O})$ consisting of all $3\times3$ hermitian octonionic
 matrices. $\mathrm{E}_6$ acts as the group of all transformations of $\mathrm{h}_3(\mathbb{O})$
 preserving the determinant, and in fact $\mathrm{h}_3(\mathbb{O})$ is an irrep of $\mathrm{E}_6$.
 $L(-1)$ is just the dual of this rep. So, we get a very octonionic
 description of $\mathrm{E}_7$:
-$$E7 = \mathrm{h}_3(\mathbb{O})^* \oplus [\mathrm{E}_6 \oplus \mathrm{u}(1)] \oplus \mathrm{h}_3(\mathbb{O}).$$
+$$E7 = \mathrm{h}_3(\mathbb{O})^* \oplus [\mathrm{E}_6 \oplus \mathfrak{u}(1)] \oplus \mathrm{h}_3(\mathbb{O}).$$
 
 Now, since $\mathrm{E}_6$ sits in $\mathrm{E}_7$ which sits in $\mathrm{E}_8$, just like nested
 Russian dolls, we can take our previous description of $\mathrm{E}_8$:
-$$E8 = [\mbox{trivial}] \oplus [\mbox{Freudenthal}] \oplus [\mathrm{E}_7 \oplus \mathrm{u}(1)] \oplus [\mbox{Freudenthal}] \oplus [\mbox{trivial}]$$
+$$E8 = [\mbox{trivial}] \oplus [\mbox{Freudenthal}] \oplus [\mathrm{E}_7 \oplus \mathfrak{u}(1)] \oplus [\mbox{Freudenthal}] \oplus [\mbox{trivial}]$$
 and decompose everything in sight as irreps of $\mathrm{E}_6$. If we do this, the
 only new exciting thing that happens is that the Freudenthal algebra
 decomposes into a copy of the exceptional Jordan algebra, a copy of its
@@ -498,8 +498,8 @@ is, slightly modified:
 | $\mathrm{E}_7$ | $\mathrm{E}_6$ | $27$ | $\mathrm{h}_3(\mathbb{O})$ |
 | $\mathrm{E}_6$ | $\mathfrak{so}(10)$ | $16$ | $\mathrm{h}_4(\mathbb{C})$ |
 
-Since $L(0)$ always contains a $\mathrm{u}(1)$ summand in these cases, we write
-$$L(0) = L'(0) + \mathrm{u}(1)$$
+Since $L(0)$ always contains a $\mathfrak{u}(1)$ summand in these cases, we write
+$$L(0) = L'(0) + \mathfrak{u}(1)$$
 so that $L'(0)$ is the interesting part of $L(0)$. The formally real simple
 Jordan algebras appearing here are all those listed in
 ["Week 162"](#week162) --- we get all of them! In particular,

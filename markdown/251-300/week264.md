@@ -132,8 +132,8 @@ are a few:
 \pi_3(S^2) = Z\
 \pi_4(S^2) = Z/2\
 \pi _5(S^2) = Z/2\
-\pi ~6~(S^2) = Z/4 \times Z/3\
-\pi ~7~(S^2) = Z/2\
+\pi _6(S^2) = Z/4 \times Z/3\
+\pi _7(S^2) = Z/2\
 \pi _8(S^2) = Z/2\
 \pi ~9~(S^2) = Z/3\
 \pi ~10~(S^2) = Z/3 \times Z/5\

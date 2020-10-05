@@ -272,8 +272,8 @@ variant of this trick?
 And the answer is: yes, at least for $\mathrm{E}_6$ and $\mathrm{E}_7$.
 
 If $n = 10$, the spinor space $S$ is naturally a complex vector space, so
-$\mathrm{u}(1)$ acts on it. Using this and the above maps, we can make the direct
-sum of $\mathfrak{so}(10)$, $S$ and $\mathrm{u}(1)$ into a Lie algebra, which turns out to be $\mathrm{E}_6$.
+$\mathfrak{u}(1)$ acts on it. Using this and the above maps, we can make the direct
+sum of $\mathfrak{so}(10)$, $S$ and $\mathfrak{u}(1)$ into a Lie algebra, which turns out to be $\mathrm{E}_6$.
 
 If $n = 12$, the right-handed spinor space $S_+$ is naturally a quaternionic
 vector space, so $\mathfrak{su}(2)$ acts on it. Using this and the above maps, we can

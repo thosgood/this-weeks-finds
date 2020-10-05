@@ -305,7 +305,7 @@ Engel's work. In the process, he noticed that Engel's two
 52-dimensional Lie algebras were actually the same. Whoops!
 
 So, we now have just 5 "exceptional" simple Lie algebras. In order of
-increasing size, they're called g_2, f_4, e~6~, e~7~ and e_8.
+increasing size, they're called g_2, f_4, e_6, e_7 and e_8.
 
 In 1914, Cartan realized that the smallest exceptional Lie algebra g_2,
 comes from the symmetry group of the octonions! Later it was realized
@@ -508,13 +508,13 @@ E(3|6) contains the Lie algebra
 in a canonical way. So, any representation of E(3|6) automatically
 gives a representation of the Standard Model Lie algebra
 
-\mathfrak{su}(3) \oplus  \mathfrak{su}(2) \oplus  \mathrm{u}(1)
+\mathfrak{su}(3) \oplus  \mathfrak{su}(2) \oplus  \mathfrak{u}(1)
 
 And in the above paper Kac goes even further! He defines a fairly
 natural class of representations of E(3|6), and proves something
 remarkable: these restrict to representations of
 
-\mathfrak{su}(3) \oplus  \mathfrak{su}(2) \oplus  \mathrm{u}(1)
+\mathfrak{su}(3) \oplus  \mathfrak{su}(2) \oplus  \mathfrak{u}(1)
 
 that correspond precisely to the gluon, the photon and the W and Z
 bosons, and the quarks and leptons in one generation...
@@ -587,7 +587,7 @@ Exceptional Lie superalgebras, invariant morphisms, and a second-gauged
 Standard Model, available as
 [math-ph/020202](http://arxiv.org/abs/math-ph/020202).
 
-Thomas A. Larsson, Maximal depth implies \mathfrak{su}(3)+\mathfrak{su}(2)+\mathrm{u}(1), available as
+Thomas A. Larsson, Maximal depth implies \mathfrak{su}(3)+\mathfrak{su}(2)+\mathfrak{u}(1), available as
 [`hep-th/0208185`](https://arxiv.org/abs/hep-th/0208185).
 
 Alas, E(3|8) gets the hypercharges of some fermions wrong. Larsson

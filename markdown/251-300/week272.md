@@ -206,7 +206,7 @@ six-element set has a symmetry group with an EXTRA symmetry - a symmetry
 that doesn't come from a symmetry of that set! This is called an
 "outer automorphism".
 
-In more jargonesque terms: of all the permutation groups S_n, only S~6~
+In more jargonesque terms: of all the permutation groups S_n, only S_6
 has an outer automorphism. It has just one, and I described it here:
 
 12) John Baez, Some thoughts on the number six,
@@ -214,26 +214,26 @@ has an outer automorphism. It has just one, and I described it here:
 
 Recently my friend Bruce Westbury told me some more cool facts about the
 number 6. One of these is another nice description of the outer
-automorphism of S~6~. He heard this from the group theorist Brian
+automorphism of S_6. He heard this from the group theorist Brian
 Bowditch, who heard it from Chris Penrose (Roger's son). I haven't
 checked it! I'll just pass it on, as gossip, and let you see if it's
 true.
 
 It goes like this. Start with the icosahedron, drawn as a graph on the
 sphere, and identify oposite points. This gives a graph on the
-projective plane. This graph is called K~6~: the "complete graph on 6
+projective plane. This graph is called K_6: the "complete graph on 6
 vertices". In other words, it's the graph with 6 vertices, each one
 connected to every other one by a single edge. The faces of this graph
-are triangles. Apparently there are twelve embeddings of K~6~ in the
+are triangles. Apparently there are twelve embeddings of K_6 in the
 projective plane and they come in six pairs. Each permutation of the six
-vertices of K~6~ induces a permutation of these six pairs. This process
-gives an automorphism of S~6~. And apparently this is the outer
+vertices of K_6 induces a permutation of these six pairs. This process
+gives an automorphism of S_6. And apparently this is the outer
 automorphism!
 
 Westbury later pointed out this related paper:
 
 13) Ben Howard, John Millson, Andrew Snowden, Ravi Vakil, A description
-of the outer automorphism of S~6~, and the invariants of six points in
+of the outer automorphism of S_6, and the invariants of six points in
 projective space, available as
 [`arXiv:0710.5916`](http://arxiv.org/abs/0710.5916).
 
@@ -256,7 +256,7 @@ the group tends to infinity:
 simple group, Geometrica Dedicata 56 (1995), 103-111.
 
 This implies that this probability attains a *mininum value* for some
-finite simple group. For A~6~ - the group of even permutations of a
+finite simple group. For A_6 - the group of even permutations of a
 6-element set - the probability is 53/90. Holt's conjecture is that
 this is the minimum among all finite simple groups.
 
@@ -277,11 +277,11 @@ A_3                                       8/9           
 
 \mathrm{PSL}(2,8)                             71/84                   \~ .845
 
-\mathrm{PSL}(2,9) \cong A~6~                     53/90                   \~ .589
+\mathrm{PSL}(2,9) \cong A_6                     53/90                   \~ .589
 
 \mathrm{PSL}(2,11)                           127/165               \~ .770
 
-A~7~                                       229/315               \~ .727
+A_7                                       229/315               \~ .727
 
 \mathrm{PSL}(4,2) \cong A_8                     133/180               \~ .739
 
