@@ -640,108 +640,91 @@ We're always doing the same thing here. Now I'll describe the general
 pattern a bit more abstractly.
 
 We've always got three spaces, and maps that look like this:
-
-                         S
-                        / \
-                       /   \
-                     P/     \Q
-                     /       \
-                    v         v 
-                   X           Y
-
+$$
+  \begin{tikzcd}
+    &S\drar["P"]\dlar[swap,"Q"]&
+  \\X&&Y
+  \end{tikzcd}
+$$
 In our examples so far these maps are given by
-
-P(x,y) = x
-
-Q(x,y) = y
-
+$$
+  \begin{aligned}
+    P(x,y) 8= x
+  \\Q(x,y) 8= y
+  \end{aligned}
+$$
 But, they don't need to be.
 
 Now, how do we get a linear operator in this situation?
 
-Easy! We start with a real-valued function on our space X:
-
-f\colon X \to R
-
-Then we take f and "pull it back along P" to get a function on S.
-"Pulling back along P" is just impressive jargon for composing with P:
-
-f o P\colon S \to R
-
-Next, we take f o P and "push it forwards along Q" to get a function
-on Y. The result is our final answer, some function
-
-Tf\colon Y \to R
-
-"Pushing forwards along Q" is just impressive jargon for integrating:
-Tf(y) is the integral over all s in S with Q(s) = y. For this we need a
+Easy! We start with a real-valued function on our space $X$:
+$$f\colon X \to \mathbb{R}$$
+Then we take $f$ and "pull it back along $P$" to get a function on $S$.
+"Pulling back along $P$" is just impressive jargon for composing with $P$:
+$$f \circ P\colon S \to \mathbb{R}$$
+Next, we take $f \circ P$ and "push it forwards along $Q$" to get a function
+on $Y$. The result is our final answer, some function
+$$Tf\colon Y \to \mathbb{R}$$
+"Pushing forwards along $Q$" is just impressive jargon for integrating:
+$Tf(y)$ is the integral over all $s$ in $S$ with $Q(s) = y$. For this we need a
 suitable measure, and we need the integral to converge.
 
-This is the basic idea: we define an operator T by pulling back and then
+This is the basic idea: we define an operator $T$ by pulling back and then
 pushing forward functions along a "span", meaning a diagram shaped
 like a bridge:
-
-                         S
-                        / \
-                       /   \
-                     P/     \Q
-                     /       \
-                    v         v 
-                   X           Y
-
+$$
+  \begin{tikzcd}
+    &S\drar["P"]\dlar[swap,"Q"]&
+  \\X&&Y
+  \end{tikzcd}
+$$
 But, the reason this operator counts as a "Hecke operator" is that it
-gets along with a symmetry group G that's acting on everything in
+gets along with a symmetry group $G$ that's acting on everything in
 sight. In the examples so far, this is the group of Euclidean symmetries
-of R^n. But, it could be anything.
+of $\mathbb{R}^n$. But, it could be anything.
 
-This group G acts on all 3 spaces: X, Y, and S. This makes the space of
-functions on X into a representation of G! And, ditto for the space of
-function on Y and S.
+This group $G$ acts on all 3 spaces: $X$, $Y$, and $S$. This makes the space of
+functions on $X$ into a representation of $G$! And, ditto for the space of
+function on $Y$ and $S$.
 
 Furthermore, the maps P and Q are "equivariant", meaning
-
-P(gs) = gP(s)
-
+$$P(gs) = gP(s)$$
 and
-
-Q(gs) = gQ(s)
-
-This makes "pulling back along P" into an intertwining operator
-between representations of G. "Pushing forwards along Q" will also be
-an intertwining operator if the measure we use is G-invariant in a
-suitable sense. In this case, our transform T becomes an intertwining
+$$Q(gs) = gQ(s)$$
+This makes "pulling back along $P$" into an intertwining operator
+between representations of $G$. "Pushing forwards along $Q$" will also be
+an intertwining operator if the measure we use is $G$-invariant in a
+suitable sense. In this case, our transform $T$ becomes an intertwining
 operator between group representations! Let's call an intertwining
 operator constructed this way a "Hecke operator".
 
 If you're a nitpicky person, e.g. a mathematician, you may wonder what
-I mean by "a suitable sense". Well, each "fiber" Q^{-1}(y) of the map
-
-Q\colon S \to Y
-
-needs a measure on it, so we can take a function on S and integrate it
-over these fibers to get a function on Y. We need this family of
-measures to be invariant under the action of G, for pushing forwards
-along Q be an intertwining operator.
+I mean by "a suitable sense". Well, each "fiber" $Q^{-1}(y)$ of the map
+$$Q\colon S \to Y$$
+needs a measure on it, so we can take a function on $S$ and integrate it
+over these fibers to get a function on $Y$. We need this family of
+measures to be invariant under the action of $G$, for pushing forwards
+along $Q$ be an intertwining operator.
 
 This stuff about invariant families of measures is mildly annoying, and
 so is the analysis involved in making precise *which* class of functions
-on X we can pull back to S and then push forward to Y --- we need to make
+on $X$ we can pull back to $S$ and then push forward to $Y$ --- we need to make
 sure the integrals converge, and so on. When I really get rolling on
-this Hecke operator business, I'll often focus on cases where X, Y, and
-S are *finite* sets... and then these issues go away!
+this Hecke operator business, I'll often focus on cases where $X$, $Y$, and
+$S$ are *finite* sets... and then these issues go away!
 
 Hmm. I'm getting tired, but I can't quit until I say one more thing.
 If you try to read about Hecke operators, you *won't* see anything
 about the examples I just mentioned! You're most likely to see examples
-where X and Y are spaces of lattices in the complex plane. This is the
+where $X$ and $Y$ are spaces of lattices in the complex plane. This is the
 classic example, which we're trying to generalize. But, this example is
 more sophisticated than the ones I've mentioned, in that the
-"functions" on X and Y become "sections of vector bundles" over X
-and Y. The same sort of twist happens when we go from the Radon
+"functions" on $X$ and $Y$ become "sections of vector bundles" over $X$
+and $Y$. The same sort of twist happens when we go from the Radon
 transform to the more general "Penrose transform".
 
-Anyway, next time I'll talk about some really easy examples, where X,
-Y, and S are finite sets and G is a finite group. These give certain
+Anyway, next time I'll talk about some really easy examples, where $X$,
+$Y$, and $S$ are finite sets and $G$ is a finite group. These give certain
 algebras of Hecke operators, called "Hecke algebras".
 
 In the meantime, see if you can find *any* reference in the literature
@@ -756,9 +739,7 @@ wide open.
 **Addendum:** David Corfield notes that Helgason has a good textbook on
 the Radon transform which is *free online*. Snap it up while you can!
 
-20) Sigurdur Helgason, Radon Transform, second edition, Birkhäuser, New
-York, 1999. Also available at
-`http://www-math.mit.edu/~helgason/Radonbook.pdf`.
+20) Sigurdur Helgason, _Radon Transform_, second edition, Birkhäuser, New York, 1999. Also available at `http://www-math.mit.edu/~helgason/Radonbook.pdf`.
 
 For more discussion, go to the [$n$-Category Café](http://golem.ph.utexas.edu/category/2007/07/this_weeks_finds_in_mathematic_15.html).
 
