@@ -844,8 +844,8 @@ with various replies, concluding with my own.
 > > If one studies categorification one soon discovers an amazing fact: many
 > > deep-sounding results in mathematics are just categorifications of facts
 > > we learned in high school!  There is a good reason for this.  All along,
-> > we have been unwittingly `decategorifying' mathematics by pretending
-> > that categories are just sets.  We `decategorify' a category by
+> > we have been unwittingly 'decategorifying' mathematics by pretending
+> > that categories are just sets.  We 'decategorify' a category by
 > > forgetting about the morphisms and pretending that isomorphic objects
 > > are equal.  We are left with a mere set: the set of isomorphism classes
 > > of objects.
@@ -855,9 +855,9 @@ with various replies, concluding with my own.
 > > would look for an explicit isomorphism.  In other words, they would line
 > > up both herds and try to match each sheep in one herd with a sheep in
 > > the other.  But one day, along came a shepherd who invented
-> > decategorification.  She realized one could take each herd and `count'
-> > it, setting up an isomorphism between it and some set of `numbers',
-> > which were nonsense words like `one, two, three, ...' specially
+> > decategorification.  She realized one could take each herd and 'count'
+> > it, setting up an isomorphism between it and some set of 'numbers',
+> > which were nonsense words like 'one, two, three, ...' specially
 > > designed for this purpose.  By comparing the resulting numbers, she
 > > could show that two herds were isomorphic without explicitly
 > > establishing an isomorphism!  In short, by decategorifying the category

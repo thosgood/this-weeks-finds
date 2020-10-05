@@ -138,7 +138,7 @@ these nice macrostates to flow into each other. Unfortunately, as they
 evolve, they sort of spread out. Their volume doesn't change --- this was
 shown by Liouville back in the 1800s:
 
-5) Wikipedia, "Liouville's theorem (Hamiltonian)", `http://en.wikipedia.org/wiki/Liouville's_theorem_(Hamiltonian)`
+5) Wikipedia, "Liouville's theorem (Hamiltonian)", `http://en.wikipedia.org/wiki/Liouville%27s_theorem_(Hamiltonian)`
 
 But, they get stretched in some directions and squashed in others. So,
 it seems hard for each one to get mapped completely into another,

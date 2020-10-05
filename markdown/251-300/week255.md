@@ -1,6 +1,6 @@
 # August 11, 2007 {#week255}
 
-I've been roaming around Europe this summer - first Paris, then Delphi
+I've been roaming around Europe this summer --- first Paris, then Delphi
 and Olympia, then Greenwich, then Oslo, and now back to Greenwich. I'm
 dying to tell you about the Abel Symposium in Oslo. There were lots of
 cool talks about topological quantum field theory, homotopy theory, and
@@ -9,14 +9,13 @@ motivic cohomology.
 I especially want to describe Jacob Lurie and Ulrike Tillman's talks on
 cobordism $n$-categories, Dennis Sullivan and Ralph Cohen's talks on
 string topology, Stephan Stolz's talk on cohomology and quantum field
-theory, and Fabien Morel's talk on A^1-homotopy theory. But this stuff
+theory, and Fabien Morel's talk on $A^1$-homotopy theory. But this stuff
 is sort of technical, and I usually try to start each issue of This
 Week's Finds with something you don't need a PhD to enjoy.
 
 So, here's a tour of the Paris Observatory:
 
-1) John Baez, Astronomical Paris,
-`http://golem.ph.utexas.edu/category/2007/07/astronomical_paris.html`
+1) John Baez, "Astronomical Paris", `http://golem.ph.utexas.edu/category/2007/07/astronomical_paris.html`
 
 Back when England and France were battling to rule the world, each had a
 team of astronomers, physicists and mathematicians devoted to precise
@@ -28,12 +27,13 @@ Cassini, Le Verrier and Laplace.
 In ["Week 175"](#week175), written during an earlier visit to
 Greenwich, I mentioned a book on this battle:
 
-2) Dava Sobel, Longitude, Fourth Estate Ltd., London, 1996.
+2) Dava Sobel, _Longitude_, Fourth Estate Ltd., London, 1996.
 
 It's a lot of fun, and I recommend it highly.
 
 There's a lot more to say, though. The speed of light was first
 measured by Ole Romer at the Paris Observatory in 1676.
+$$\includegraphics[max width=0.65\linewidth]{../images/paris_observatory_romer_speed_of_light.jpg}$$
 
 ::: {align="center"}
 ![](diary/paris_2007/paris_observatory_romer_speed_of_light.jpg)
@@ -68,7 +68,7 @@ Bloomsbury, New York, 2000. Review by Keith Devlin at
 
 There's a lot I could say about this meeting, but I just want to
 advertise a forthcoming book by Doxiadis and a computer scientist friend
-of his. It's a comic book - sorry, I mean "graphic novel"! - about
+of his. It's a comic book --- sorry, I mean "graphic novel"! --- about
 the history of mathematical logic from Russell to Goedel:
 
 6) Apostolos Doxiadis and Christos Papadimitriou, Logicomix, to appear.
@@ -88,7 +88,7 @@ It's a history of mathematics from the viewpoint of computer science,
 as told by a computer program named Turing to a lovelorn archaeologist.
 I haven't seen it yet.
 
-Okay - enough fun stuff. On to the Abel Symposium!
+Okay --- enough fun stuff. On to the Abel Symposium!
 
 8) Abel Symposium 2007, `http://abelsymposium.no/2007`
 
@@ -171,11 +171,11 @@ arXiv:[q-alg/9503002](https://arxiv.org/abs/q-alg/9503002).
 It was an attempt to completely describe the algebraic structure of the
 $n$-category nCob, where:
 
--   objects are 0d manifolds,
--   $1$-morphisms are 1d manifolds with boundary,
--   $2$-morphisms are 2d manifolds with corners,
--   $3$-morphisms are 3d manifolds with corners,
--   ...
+- objects are 0d manifolds,
+- $1$-morphisms are 1d manifolds with boundary,
+- $2$-morphisms are 2d manifolds with corners,
+- $3$-morphisms are 3d manifolds with corners,
+- ...
 
 and so on up to dimension n. Unfortunately, at the time we proposed it,
 little was known about $n$-categories above n = 3. For a more recent take
@@ -190,16 +190,16 @@ sort of \infty-category. The idea is to use diffeomorphisms and homotopies
 between these as morphisms above dimension n. This gives an \infty-category
 version of nCob, where:
 
--   objects are 0-dimensional manifolds,
--   $1$-morphisms are $1$-dimensional manifolds with boundary,
--   $2$-morphisms are $2$-dimensional manifolds with corners,
--   $3$-morphisms are $3$-dimensional manifolds with corners,
--   ...
--   $n$-morphisms are $n$-dimensional manifolds with corners,
--   $(n+1)$-morphisms are diffeomorphisms,
--   (n+2)-morphisms are homotopies between diffeomorphisms,
--   (n+3)-morphisms are homotopies between homotopies,
--   ...
+- objects are 0-dimensional manifolds,
+- $1$-morphisms are $1$-dimensional manifolds with boundary,
+- $2$-morphisms are $2$-dimensional manifolds with corners,
+- $3$-morphisms are $3$-dimensional manifolds with corners,
+- ...
+- $n$-morphisms are $n$-dimensional manifolds with corners,
+- $(n+1)$-morphisms are diffeomorphisms,
+- (n+2)-morphisms are homotopies between diffeomorphisms,
+- (n+3)-morphisms are homotopies between homotopies,
+- ...
 
 and so on for ever!
 
@@ -211,7 +211,7 @@ particular, (\infty,1)-categories are pretty well understood by now. There
 are a bunch of different approaches, with scary names like "topological
 categories", "simplicial categories", "A~\infty~ categories", "Segal
 categories", "complete Segal spaces", and "quasicategories".
-Luckily, all these approaches are known to be equivalent - see
+Luckily, all these approaches are known to be equivalent --- see
 ["Week 245"](#week245) for some good introductory material by Julie
 Bergner and Andre Joyal. Joyal is now writing a book on this stuff.
 
@@ -226,7 +226,7 @@ I'm sure Freed would suspect him of taking category-enhancing
 substances: his category number is infinite, and this book is 619 pages
 long! Then he went on to apply this stuff to algebraic geometry... and
 the world is still reeling. I was happy to discover that he's a nice
-guy, enthusiastic and friendly - not the terrifying fiend I expected.
+guy, enthusiastic and friendly --- not the terrifying fiend I expected.
 
 Anyway, Lurie and Hopkins have worked out the precise structure of the
 (\infty,1)-category version of 1Cob, and also the (\infty,2)-category version of
@@ -240,12 +240,12 @@ homotopy type of the cobordism category, available as
 And, Ulrike Tillmann gave a talk about this paper! It computes the
 "nerve" of the (\infty,1)-category where:
 
--   objects are $(n-1)$-dimensional manifolds,
--   $1$-morphisms are $n$-dimensional manifolds with boundary,
--   $2$-morphisms are diffeomorphisms,
--   $3$-morphisms are homotopies between diffeomorphisms,
--   $4$-morphisms are homotopies between homotopies,
--   ...
+- objects are $(n-1)$-dimensional manifolds,
+- $1$-morphisms are $n$-dimensional manifolds with boundary,
+- $2$-morphisms are diffeomorphisms,
+- $3$-morphisms are homotopies between diffeomorphisms,
+- $4$-morphisms are homotopies between homotopies,
+- ...
 
 The "nerve" is a trick for turning any sort of \infty-category into a
 space, or simplicial set. (See item J of ["Week 117"](#week117) for
@@ -255,20 +255,20 @@ idea.)
 In her talk, she went further and computed the nerve of the
 (\infty,k)-category where:
 
--   objects are (n-k)-dimensional manifolds,
--   $1$-morphisms are (n-k+1)-dimensional manifolds with boundary,
--   $2$-morphisms are (n-k+2)-dimensional manifolds with corners,
--   ...
--   k-morphisms are $n$-dimensional manifolds with corners,
--   (k+1)-morphisms are diffeomorphisms,
--   (k+2)-morphisms are homotopies between diffeomorphisms,
--   (k+3)-morphisms are homotopies between homotopies,
--   ...
+- objects are (n-k)-dimensional manifolds,
+- $1$-morphisms are (n-k+1)-dimensional manifolds with boundary,
+- $2$-morphisms are (n-k+2)-dimensional manifolds with corners,
+- ...
+- k-morphisms are $n$-dimensional manifolds with corners,
+- (k+1)-morphisms are diffeomorphisms,
+- (k+2)-morphisms are homotopies between diffeomorphisms,
+- (k+3)-morphisms are homotopies between homotopies,
+- ...
 
 This is also joint work with the same coauthors, but it seems not to be
 written up yet, except for k = 1, where it's proved in the above paper.
 The cool thing about the new work is that it uses an idea familiar from
-higher category theory - a k-simplicial space - to give a rigorous
+higher category theory --- a k-simplicial space --- to give a rigorous
 description of the nerve of the above (\infty,k)-category! Indeed, Tillmann
 told me she thinks of k-simplicial spaces as just a convenient way of
 dealing with higher categories.
@@ -276,7 +276,7 @@ dealing with higher categories.
 Stephan Stolz's talk also involved cobordism $n$-categories, but I'll
 say more about that later.
 
-Ralph Cohen and Dennis Sullivan both gave talks on string topology - a
+Ralph Cohen and Dennis Sullivan both gave talks on string topology --- a
 trick for studying a space by studying collections of loops in that
 space, and relating this to ideas from string theory.
 
@@ -335,7 +335,7 @@ class".
 
 Cohen's talk described some cool relations between string topology and
 symplectic geometry! In physics we use symplectic manifolds to describe
-the space of states - the so-called "phase space" - of a classical
+the space of states --- the so-called "phase space" --- of a classical
 system. So, if you have a loop in a symplectic manifold, it can describe
 a periodic orbit of some classical system. In particular, if we pick a
 periodic time-dependent Hamiltonian for this system, a loop will be a
@@ -375,7 +375,7 @@ Back then, the analogy looked like this:
 When I saw this, I tried to guess a generalization to higher dimensions.
 
 There's an obvious guess for the right-hand column, since there's
-something called the "chromatic filtration", which is - very roughly -
+something called the "chromatic filtration", which is --- very roughly -
 a list of cohomology theories. Complex K-theory is the 1st entry on this
 list, and elliptic cohomology is the 2nd! (For a lot more details, see
 ["Week 149"](#week149) and ["Week 150"](#week150).)
@@ -386,7 +386,7 @@ supersymmetric QFTs of some sort!
 The problem is the word "conformal" in the second row. In 2
 dimensions, a conformal structure is a way of making spacetime look
 locally like the complex plane. This is great, because elliptic
-cohomology has a lot to do with complex analysis - or more precisely,
+cohomology has a lot to do with complex analysis --- or more precisely,
 elliptic curves and modular forms. But, it's not clear how one should
 generalize this to higher dimensions!
 
@@ -411,7 +411,7 @@ Yes, good old deRham cohomology is the 0th entry in the "chromatic
 filtration"! It's the least scary sort of cohomology theory, at least
 for physicists. They get scarier as we move down the chart.
 
-Quantum field theory also gets scarier as we move down the chart - the
+Quantum field theory also gets scarier as we move down the chart --- the
 infinities that plague quantum field theory tend to get worse in higher
 dimensions of spacetime. So, while we can dream about extensions of this
 chart, there's already plenty to handle here.
@@ -423,8 +423,8 @@ by X".
 For X a point, such a thing is just an ordinary $n$-dimensional QFT.
 Roughly speaking, this is a gadget Z that assigns:
 
--   a Hilbert space Z(S) to any $(n-1)$-dimensional Riemannian manifold S;
--   a linear operator Z(M)\colon Z(S) \to Z(S') to any $n$-dimensional
+- a Hilbert space Z(S) to any $(n-1)$-dimensional Riemannian manifold S;
+- a linear operator Z(M)\colon Z(S) \to Z(S') to any $n$-dimensional
     Riemannian manifold M going from S to S'.
 
 If you're a mathematician, you may know that M is really a
@@ -452,14 +452,14 @@ really an integral over all paths a particle could trace out in T. So,
 1-dimensional quantum field theory is just ordinary quantum mechanics!
 
 There are a lot of subtleties I'm skipping over here, both on the math
-and physics sides. But never mind - the really cool part is this
+and physics sides. But never mind --- the really cool part is this
 generalization:
 
 Roughly speaking, an $n$-dimensional QFT "parametrized by X" assigns:
 
--   a Hilbert space Z(S) to any $(n-1)$-dimensional Riemannian manifold S
+- a Hilbert space Z(S) to any $(n-1)$-dimensional Riemannian manifold S
     *equipped with a map* g\colon S \to X;
--   a linear operator Z(M)\colon Z(S) \to Z(S') to any $n$-dimensional
+- a linear operator Z(M)\colon Z(S) \to Z(S') to any $n$-dimensional
     Riemannian cobordism M: S \to S' *equipped with a map* g\colon M \to X.
 
 If you're a mathematician, you may see we've switched to using
@@ -532,7 +532,7 @@ F~~*~~\colon QFT(X) \to QFT(point)
 do to the function Z?
 
 There's an obvious guess: we should *integrate* this function on X to
-get a number - that is, a function on a point. Indeed, that's what
+get a number --- that is, a function on a point. Indeed, that's what
 "path integration" should reduce to in this pathetically simple case:
 plain old integration!
 
@@ -571,7 +571,7 @@ F^*^\colon QFT^p^(X') \to QFT^p^(X)
 This is a lot less tricky, and I'll let you figure out how it works.
 
 I should warn you, I've been glossing over lots of important aspects of
-this work - like the role played by $n$-categories, and the role played by
+this work --- like the role played by $n$-categories, and the role played by
 supersymmetry. Supersymmetry doesn't matter much for the broad
 conceptual picture I've been sketching. But, we need it for this
 analogy to work:
@@ -583,11 +583,11 @@ analogy to work:
 The idea is to impose an equivalence relation on supersymmetric QFTs,
 called "concordance", and try to show:
 
--   The set of concordance classes of degree-p 0d supersymmetric QFTs
+- The set of concordance classes of degree-p 0d supersymmetric QFTs
     parametrized by X is the pth de Rham cohomology group of X.
--   The set of concordance classes of degree-p 1d supersymmetric QFTs
+- The set of concordance classes of degree-p 1d supersymmetric QFTs
     parametrized by X is the pth K-theory group of X.
--   The set of concordance classes of degree-p 2d supersymmetric QFTs
+- The set of concordance classes of degree-p 2d supersymmetric QFTs
     parametrized by X is the pth elliptic cohomology group of X.
 
 So far people have done this in the 0d and 1d cases. The 2d case is a
@@ -631,7 +631,7 @@ For the n = 2 case, see the papers I already listed.
 
 Finally: the cool part, which I haven't even mentioned, is that we
 really need to describe $n$-dimensional QFTs using an *$n$-category* of
-cobordisms - not just a mere $1$-category, as I sloppily said above.
+cobordisms --- not just a mere $1$-category, as I sloppily said above.
 
 This first gets exciting when we hit n = 2: you'll see a bunch of stuff
 about $2$-categories (or technically, "bicategories") in the old
@@ -655,7 +655,7 @@ It, too, is about studying spaces by letting strings roam around inside
 them!
 
 But instead of summarizing my own talk, I want to say a bit about the
-other side of the symposium - the motivic cohomology side!
+other side of the symposium --- the motivic cohomology side!
 
 I'll only summarize a few basic definitions. I got these from the talks
 by Fabian Morel and Vladimir Voevodsky, and I want to write them down
@@ -705,7 +705,7 @@ agree on the intersections
 
 U_i ∩ U_j.
 
-Here "cover" means "cover in the Nisnevich topology" - that is, an
+Here "cover" means "cover in the Nisnevich topology" --- that is, an
 étale cover such that every point being covered is the image of a point
 in the cover for which the covering map induces an isomorphism of
 residue fields.
@@ -740,8 +740,8 @@ designed to work better for nasty spaces.
 In A^1 homotopy theory, the weak equivalences are generated by two
 kinds of morphisms:
 
--   the projection maps X \times A^1 \to X
--   the maps C(U) \to X coming from covers U of X.
+- the projection maps X \times A^1 \to X
+- the maps C(U) \to X coming from covers U of X.
 
 Here X is any space in Space(k), and C(U) is the "Cech nerve" of the
 cover U.
@@ -760,7 +760,9 @@ day....
 
 ------------------------------------------------------------------------
 
-*And if a bird can speak, who once was a dinosaur, and a dog can dream,
+> *And if a bird can speak, who once was a dinosaur, and a dog can dream,
 should it be implausible that a man might supervise the construction of
-light?* - King Crimson
+light?*
+> 
+> --- King Crimson
 

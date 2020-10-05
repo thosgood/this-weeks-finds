@@ -2570,20 +2570,20 @@ this idea back in ``Week 121'', and also in my paper
 If one studies categorification one soon discovers an amazing fact: many
 deep-sounding results in mathematics are just categorifications of facts
 we learned in high school! There is a good reason for this. All along,
-we have been unwittingly
-\texttt{decategorifying\textquotesingle{}\ mathematics\ by\ pretending\ that\ categories\ are\ just\ sets.\ \ We}decategorify'
-a category by forgetting about the morphisms and pretending that
-isomorphic objects are equal. We are left with a mere set: the set of
-isomorphism classes of objects.
+we have been unwittingly `decategorifying' mathematics by pretending
+that categories are just sets. We `decategorify' a category by
+forgetting about the morphisms and pretending that isomorphic objects
+are equal. We are left with a mere set: the set of isomorphism classes
+of objects.
 
 To understand this, the following parable may be useful. Long ago, when
 shepherds wanted to see if two herds of sheep were isomorphic, they
 would look for an explicit isomorphism. In other words, they would line
 up both herds and try to match each sheep in one herd with a sheep in
 the other. But one day, along came a shepherd who invented
-decategorification. She realized one could take each herd and
-\texttt{count\textquotesingle{}\ it,\ setting\ up\ an\ isomorphism\ between\ it\ and\ some\ set\ of}numbers',
-which were nonsense words like `one, two, three, \ldots' specially
+decategorification. She realized one could take each herd and `count'
+it, setting up an isomorphism between it and some set of `numbers',
+which were nonsense words like `one, two, three, \ldots{}' specially
 designed for this purpose. By comparing the resulting numbers, she could
 show that two herds were isomorphic without explicitly establishing an
 isomorphism! In short, by decategorifying the category of finite sets,
@@ -6924,8 +6924,6 @@ This last paper is:
   Categorical Structures} \textbf{12} (2004), 257--286.
 \end{enumerate}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
-
 
 
 \hypertarget{week210}{%
@@ -7532,8 +7530,6 @@ Paris:
   John Baez, Paris, \texttt{http://math.ucr.edu/home/baez/paris/}
 \end{enumerate}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
-
 
 
 \hypertarget{week211}{%
@@ -8032,8 +8028,6 @@ lectures by Deligne in another book I own:
 
 Varadarajan's book doesn't go as far, but it's much easier to read, so I
 recommend it as a way to get started on ``super'' stuff.
-
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 
 
@@ -8724,8 +8718,6 @@ Best,
 
 Todd
 \end{quote}
-
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 
 
@@ -10465,8 +10457,6 @@ might find the connection to Latin mysterious:
   ``Freitag'' is very similar.
 \end{itemize}
 \end{quote}
-
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 
 
@@ -18755,118 +18745,136 @@ categorified Frobenius algebras, which are related to topology in
 different dimensions. For example, in \protect\hyperlink{week174}{``Week
 174''} I explained how Frobenius algebras formalize the idea of paint
 drips on a sheet of rubber. As you move your gaze down a sheet of rubber
-covered with drips of paint, you'll notice that drips can merge:
-
-\begin{verbatim}
-                      \ \         / /  
-                       \ \       / /
-                        \ \     / /
-                         \ \   / /
-                          \ \_/ /      
-                           \   /                                        
-                            | |
-                            | |
-                            | |
-                            | |
-                            | |   
-\end{verbatim}
-
-but also split:
-
-\begin{verbatim}
-                            | |
-                            | |   
-                            | |
-                            | |
-                            | |
-                           / _ \                                            
-                          / / \ \      
-                         / /   \ \
-                        / /     \ \
-                       / /       \ \
-                      / /         \ \ 
-\end{verbatim}
-
-In addition, drips can start:
-
-\begin{verbatim}
-                            _
-                           | |
-                           | |
-                           | |
-                           | |
-                           | |
-                           | |
-                           | |
-                           | |
-                           | |
-\end{verbatim}
-
-but also end:
-
-\begin{verbatim}
-                           | |
-                           | |
-                           | |
-                           | |
-                           | |
-                           | |
-                           | |
-                           | |
-                           |_|
-\end{verbatim}
-
-In a Frobenius algebra, these four pictures correspond to four
+covered with drips of paint, you'll notice that drips can merge: \[
+  \begin{tikzpicture}[yscale=2]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down,looseness=1.5] (-1,1);
+      \strand[thick] (-0.45,1)
+        to [out=down,in=down,looseness=1.5] (0.45,1);
+      \strand[thick] (0.5,0)
+        to [out=up,in=down,looseness=1.5] (1,1);
+    \end{knot}
+  \end{tikzpicture}
+\] but also split: \[
+  \begin{tikzpicture}[yscale=-2]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down,looseness=1.5] (-1,1);
+      \strand[thick] (-0.45,1)
+        to [out=down,in=down,looseness=1.5] (0.45,1);
+      \strand[thick] (0.5,0)
+        to [out=up,in=down,looseness=1.5] (1,1);
+    \end{knot}
+  \end{tikzpicture}
+\] In addition, drips can start: \[
+  \begin{tikzpicture}[scale=1.3]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=up,looseness=3] (0.5,0);
+    \end{knot}
+  \end{tikzpicture}
+\] but also end: \[
+  \begin{tikzpicture}[scale=-1.3]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=up,looseness=3] (0.5,0);
+    \end{knot}
+  \end{tikzpicture}
+\] In a Frobenius algebra, these four pictures correspond to four
 operations called ``multiplication'' (merging), ``comultiplication''
 (splitting), the ``unit'' (starting) and the ``counit'' (ending).
 Moreover, these operations satisfy precisely the relations that you can
 prove by warping the piece of rubber and seeing how the pictures change.
-For example, there's the associative law:
-
-\begin{verbatim}
-            \ \    / /    / /      \ \    \ \    / /
-             \ \  / /    / /        \ \    \ \  / /
-              \ \/ /    / /          \ \    \ \/ /
-               \  /    / /            \ \    \  /
-                \ \   / /              \ \   / /
-                 \ \_/ /                \ \_/ /
-                  \   /                  \   /
-                   | |                    | |
-                   | |                    | |    
-                   | |          =         | |
-                   | |                    | |
-                   | |                    | |
-                   | |                    | |
-                   | |                    | |
-                   | |                    | |
-\end{verbatim}
-
-The idea here is that if you draw the picture on the left-hand side on a
-sheet of rubber, you can warp the rubber until it looks like the
+For example, there's the associative law: \[
+  \begin{tikzpicture}[xscale=1,yscale=1.7]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down,looseness=1.5] (-1,1);
+      \strand[thick] (-0.45,1)
+        to [out=down,in=down,looseness=1.5] (0.45,1)
+        to (0.45,1.55);
+      \strand[thick] (0.5,0)
+        to [out=up,in=down,looseness=1] (1,1)
+        to (1,1.55);
+    \end{knot}
+    \begin{scope}[scale=0.55,shift={(-1.32,1.81)}]
+      \begin{knot}
+        \strand[thick] (-0.5,0)
+          to [out=up,in=down,looseness=1.5] (-1,1);
+        \strand[thick] (-0.45,1)
+          to [out=down,in=down,looseness=1.5] (0.45,1);
+        \strand[thick] (0.5,0)
+          to [out=up,in=down,looseness=1] (1,1);
+      \end{knot}
+    \end{scope}
+  \end{tikzpicture}
+  \quad
+  \raisebox{4em}{$=$}
+  \quad
+  \begin{tikzpicture}[xscale=-1,yscale=1.7]
+    \begin{knot}
+      \strand[thick] (-0.5,0)
+        to [out=up,in=down,looseness=1.5] (-1,1);
+      \strand[thick] (-0.45,1)
+        to [out=down,in=down,looseness=1.5] (0.45,1)
+        to (0.45,1.55);
+      \strand[thick] (0.5,0)
+        to [out=up,in=down,looseness=1] (1,1)
+        to (1,1.55);
+    \end{knot}
+    \begin{scope}[scale=0.55,shift={(-1.32,1.81)}]
+      \begin{knot}
+        \strand[thick] (-0.5,0)
+          to [out=up,in=down,looseness=1.5] (-1,1);
+        \strand[thick] (-0.45,1)
+          to [out=down,in=down,looseness=1.5] (0.45,1);
+        \strand[thick] (0.5,0)
+          to [out=up,in=down,looseness=1] (1,1);
+      \end{knot}
+    \end{scope}
+  \end{tikzpicture}
+\] The idea here is that if you draw the picture on the left-hand side
+on a sheet of rubber, you can warp the rubber until it looks like the
 right-hand side! There's also the ``coassociative law'', which is just
 an upside-down version of the above picture. But the most interesting
-laws are the ``\(I = N\)'' equation:
-
-\begin{verbatim}
-               \ \     / /                | |        | |
-                \ \   / /                 | |        | |
-                 \ \_/ /                  | |        | |
-                  \   /                   |  \       | |
-                   | |                    |   \      | |
-                   | |                    | |\ \     | |   
-                   | |                    | | \ \    | |
-                   | |                    | |  \ \   | |
-                   | |          =         | |   \ \  | |
-                   | |                    | |    \ \ | |
-                   | |                    | |     \ | |
-                   | |                    | |      \   |
-                  / _ \                   | |       \  |
-                 / / \ \                  | |        | |
-                / /   \ \                 | |        | | 
-               / /     \ \                | |        | |
-\end{verbatim}
-
-and its mirror-image version.
+laws are the ``\(I = N\)'' equation: \[
+  \begin{tikzpicture}[yscale=1.5]
+    \begin{knot}
+      \strand[thick] (-1,-1.5)
+        to [out=up,in=down,looseness=1.5] (-0.4,-0.5)
+        to (-0.4,0)
+        to [out=up,in=down,looseness=1.5] (-1,1);
+      \strand[thick] (-0.45,1)
+        to [out=down,in=down,looseness=1.5] (0.45,1);
+      \strand[thick] (-0.45,-1.5)
+        to [out=up,in=up,looseness=1.5] (0.45,-1.5);
+      \strand[thick] (1,-1.5)
+        to [out=up,in=down,looseness=1.5] (0.4,-0.5)
+        to (0.4,0)
+        to [out=up,in=down,looseness=1.5] (1,1);
+    \end{knot}
+  \end{tikzpicture}
+  \qquad
+  \raisebox{7em}{$=$}
+  \qquad
+  \begin{tikzpicture}[yscale=1.5]
+    \begin{knot}
+      \strand[thick] (-1,-1.5) to (-1,1);
+      \strand[thick] (-0.5,-1.5)
+        to (-0.5,-0.5)
+        to [out=up,in=left] (-0.25,-0.35)
+        to [out=right,in=up,looseness=0.6] (0.5,-1.25)
+        to (0.5,-1.5);
+      \strand[thick] (0.5,1)
+        to (0.5,0)
+        to [out=down,in=right] (0.25,-0.15)
+        to [out=left,in=down,looseness=0.6] (-0.5,0.75)
+        to (-0.5,1);
+      \strand[thick] (1,-1.5) to (1,1);
+    \end{knot}
+  \end{tikzpicture}
+\] and its mirror-image version.
 
 So, the concept of Frobenius algebra captures the topology of regions in
 the plane! Aaron Lauda makes this fact into a precise theorem in his
@@ -21497,8 +21505,6 @@ equalities of terms induce paths between points. There was more, pushing
 the idea further, but I forget what.
 \end{quote}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
-
 
 
 \hypertarget{week228}{%
@@ -21880,8 +21886,8 @@ yells \emph{add one!}, player \(B\) has to switch which hand he's using
 to hold which rope, making sure to pass the right one over the left,
 like this: \[
   \begin{tikzpicture}
-    \draw[white] (0,0) node[label=above:{$A$}]{} to (0,-2) node[label=below:{$B$}]{};
-    \draw[white] (1.5,0) node[label=above:{$A$}]{} to (1.5,-2) node[label=below:{$B$}]{};
+    \draw[white] (0,0) node[label={[black]above:{$A$}}]{} to (0,-2) node[label={[black]below:{$B$}}]{};
+    \draw[white] (1.5,0) node[label={[black]above:{$A$}}]{} to (1.5,-2) node[label={[black]below:{$B$}}]{};
     \begin{knot}[clip width=5]
       \strand[thick] (0,0)
         to [out=down,in=up] (1.5,-2);
@@ -21894,8 +21900,8 @@ like this: \[
 the inverse reciprocal!}, both players must cooperate to move all four
 ends of the ropes a quarter-turn clockwise, like this: \[
   \begin{tikzpicture}
-    \draw[white] (0,0) node[label=above:{$A$}]{} to (0,-2) node[label=below:{$B$}]{};
-    \draw[white] (1.5,0) node[label=above:{$A$}]{} to (1.5,-2) node[label=below:{$B$}]{};
+    \draw[white] (0,0) node[label={[black]above:{$A$}}]{} to (0,-2) node[label={[black]below:{$B$}}]{};
+    \draw[white] (1.5,0) node[label={[black]above:{$A$}}]{} to (1.5,-2) node[label={[black]below:{$B$}}]{};
     \begin{knot}[clip width=5]
       \strand[thick] (0,0)
         to [out=down,in=down,looseness=1.5] (1.5,0);
@@ -22077,8 +22083,6 @@ The Wikipedia article is:
   \texttt{http://en.wikipedia.org/wiki/Edge\_of\_chaos}
 \end{enumerate}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
-
 
 
 \hypertarget{week229}{%
@@ -22237,38 +22241,36 @@ of the sphere by the torus, which has four branch points.
 To visualize this, first take the surface of the Earth and mold it into
 a regular octahedron. There will be six corners: the north pole, the
 south pole, the east pole, the west pole, the front pole and the back
-pole. Now take the octahedron and unfold it like this:
-
-\begin{verbatim}
-S-----B-----S
-|    /|\    |
-|   / | \   |
-|  /  |  \  |
-| /   |   \ |
-|/    |    |
-W-----N-----E
-|\    |    /|
-| \   |   / |
-|  \  |  /  |
-|   \ | /   |
-|    |/    |
-S-----F-----S
-\end{verbatim}
-
-We get an interesting map of the world, which was invented in 1876 by
+pole. Now take the octahedron and unfold it like this: \[
+  \begin{tikzpicture}[scale=1.2]
+    \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+    \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+    \draw[thick] (1,0) to (1,2);
+    \draw[thick] (0,1) to (2,1);
+    \node[fill=white] at (0,0) {$S$};
+    \node[fill=white] at (1,0) {$F$};
+    \node[fill=white] at (2,0) {$S$};
+    \node[fill=white] at (0,1) {$W$};
+    \node[fill=white] at (1,1) {$N$};
+    \node[fill=white] at (2,1) {$E$};
+    \node[fill=white] at (0,2) {$S$};
+    \node[fill=white] at (1,2) {$B$};
+    \node[fill=white] at (2,2) {$S$};
+  \end{tikzpicture}
+\] We get an interesting map of the world, which was invented in 1876 by
 the American mathematician and philosopher C. S. Peirce while he was
 working at the U. S. Coast and Geodetic Survey. This map is called
-``Peirce's quincuncial'', since when you arrange five dots this way:
-
-\begin{verbatim}
-o   o
-  o
-o   o
-\end{verbatim}
-
-it's called a ``quincunx''. (Somehow this word goes back to the name of
-an ancient Roman coin. I don't understand how this pattern is related to
-the coin.)
+``Peirce's quincuncial'', since when you arrange five dots this way: \[
+  \begin{tikzpicture}[scale=0.4]
+    \node at (0,0) {$\bullet$};
+    \node at (2,0) {$\bullet$};
+    \node at (1,1) {$\bullet$};
+    \node at (0,2) {$\bullet$};
+    \node at (2,2) {$\bullet$};
+  \end{tikzpicture}
+\] it's called a ``quincunx''. (Somehow this word goes back to the name
+of an ancient Roman coin. I don't understand how this pattern is related
+to the coin.)
 
 This is how Peirce's quincuncial looks as an actual map:
 \[\href{http://www.progonos.com/furuti/MapProj/Normal/ProjConf/projConf.html}{\includegraphics[max width=0.65\linewidth]{../images/quincuncial.jpg}}\]
@@ -22283,29 +22285,128 @@ This is how Peirce's quincuncial looks as an actual map:
 \end{enumerate}
 
 The cool part is that you can tile the plane indefinitely with this map:
-
-\begin{verbatim}
-S-----B-----S-----F-----S-----B-----S-----F-----S
-|    /|\    |    /|\    |    /|\    |    /|\    |
-|   / | \   |   / | \   |   / | \   |   / | \   |
-|  /  |  \  |  /  |  \  |  /  |  \  |  /  |  \  |
-| /   |   \ | /   |   \ | /   |   \ | /   |   \ |
-|/    |    |/    |    |/    |    |/    |    |
-W-----N-----E-----N-----W-----N-----E-----N-----W
-|\    |    /|\    |    /|\    |    /|\    |    /|
-| \   |   / | \   |   / | \   |   / | \   |   / |
-|  \  |  /  |  \  |  /  |  \  |  /  |  \  |  /  |
-|   \ | /   |   \ | /   |   \ | /   |   \ | /   |
-|    |/    |    |/    |    |/    |    |/    |
-S-----F-----S-----B-----S-----F-----S-----B-----S
-|    /|\    |    /|\    |    /|\    |    /|\    |
-|   / | \   |   / | \   |   / | \   |   / | \   |
-|  /  |  \  |  /  |  \  |  /  |  \  |  /  |  \  |
-| /   |   \ | /   |   \ | /   |   \ | /   |   \ |
-|/    |    |/    |    |/    |    |/    |    |
-E-----N-----W-----N-----E-----N-----W-----N-----E
-\end{verbatim}
-
+\[
+  \begin{tikzpicture}[scale=1.2]
+    \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+    \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+    \draw[thick] (1,0) to (1,2);
+    \draw[thick] (0,1) to (2,1);
+    \node[fill=white] at (0,0) {$S$};
+    \node[fill=white] at (1,0) {$F$};
+    \node[fill=white] at (2,0) {$S$};
+    \node[fill=white] at (0,1) {$W$};
+    \node[fill=white] at (1,1) {$N$};
+    \node[fill=white] at (2,1) {$E$};
+    \node[fill=white] at (0,2) {$S$};
+    \node[fill=white] at (1,2) {$B$};
+    \node[fill=white] at (2,2) {$S$};
+    \begin{scope}[scale=-1,shift={(-4,-2)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+    \begin{scope}[shift={(4,0)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+    \begin{scope}[scale=-1,shift={(-8,-2)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+    \begin{scope}[scale=-1,shift={(-2,0)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+    \begin{scope}[shift={(2,-2)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+    \begin{scope}[scale=-1,shift={(-6,0)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+    \begin{scope}[shift={(6,-2)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+  \end{tikzpicture}
+\]
 \[\href{http://www.progonos.com/furuti/MapProj/Normal/ProjConf/projConf.html}{\includegraphics[max width=0.65\linewidth]{../images/quincuncial_tiled.jpg}}\]
 This gives a branched cover of the sphere by the plane! It has branch
 points at the east, west, front and back poles, since walking once
@@ -22316,38 +22417,29 @@ Atlantic, and one in the Indian Ocean.
 
 We can be less extravagant and get a branched cover of the sphere by the
 torus if we take the smallest parallelogram whose opposite edges match
-up:
-
-\begin{verbatim}
-            B            
-           /|\           
-          / | \          
-         /  |  \         
-        /   |   \        
-       /    |    \       
-      E-----N-----W      
-     /|\    |    /|\     
-    / | \   |   / | \    
-   /  |  \  |  /  |  \   
-  /   |   \ | /   |   \  
- /    |    |/    |    \ 
-B-----S-----F-----S-----B
- \    |    /|\    |    / 
-  \   |   / | \   |   /  
-   \  |  /  |  \  |  /   
-    \ | /   |   \ | /    
-     |/    |    |/     
-      W-----N-----E      
-       \    |    /       
-        \   |   /        
-         \  |  /         
-          \ | /          
-           |/           
-            B            
-\end{verbatim}
-
-This would actually be a square if I could draw it right in ASCII. We
-can curl this into a torus by gluing together the opposite edges.
+up: \[
+  \begin{tikzpicture}[scale=1.2]
+    \draw[thick] (-2,0) to (0,-2) to (2,0) to (0,2) to cycle;
+    \draw[thick] (-1,-1) to (1,-1) to (1,1) to (-1,1) to cycle;
+    \draw[thick] (-2,0) to (2,0);
+    \draw[thick] (0,-2) to (0,2);
+    \draw[thick] (-1,-1) to (1,1);
+    \draw[thick] (1,-1) to (-1,1);
+    \node[fill=white] at (0,2) {$B$};
+    \node[fill=white] at (-1,1) {$E$};
+    \node[fill=white] at (0,1) {$N$};
+    \node[fill=white] at (1,1) {$W$};
+    \node[fill=white] at (-2,0) {$B$};
+    \node[fill=white] at (-1,0) {$S$};
+    \node[fill=white] at (0,0) {$F$};
+    \node[fill=white] at (1,0) {$S$};
+    \node[fill=white] at (2,0) {$B$};
+    \node[fill=white] at (-1,-1) {$W$};
+    \node[fill=white] at (0,-1) {$N$};
+    \node[fill=white] at (1,-1) {$E$};
+    \node[fill=white] at (0,-2) {$B$};
+  \end{tikzpicture}
+\] We can curl this into a torus by gluing together the opposite edges.
 There's then an obvious function from this torus to the sphere sending
 both points labelled ``\(N\)'' to the north pole, both points labelled
 ``\(S\)'' to the south pole, and so on.
@@ -22364,39 +22456,31 @@ It's an example of an ``elliptic function''!
 
 I explained elliptic functions way back in
 \protect\hyperlink{week13}{``Week 13''}. Briefly, what we just did
-starting with this parallelogram:
-
-\begin{verbatim}
-            B            
-           /|\           
-          / | \          
-         /  |  \         
-        /   |   \        
-       /    |    \       
-      E-----N-----W      
-     /|\    |    /|\     
-    / | \   |   / | \    
-   /  |  \  |  /  |  \   
-  /   |   \ | /   |   \  
- /    |    |/    |    \ 
-B-----S-----F-----S-----B
- \    |    /|\    |    / 
-  \   |   / | \   |   /  
-   \  |  /  |  \  |  /   
-    \ | /   |   \ | /    
-     |/    |    |/     
-      W-----N-----E      
-       \    |    /       
-        \   |   /        
-         \  |  /         
-          \ | /          
-           |/           
-            B            
-\end{verbatim}
-
-actually works for a parallelogram of any shape. The parallelogram curls
-up to give a torus, and we get a map from this torus to the Riemann
-sphere, called an ``elliptic function''.
+starting with this parallelogram: \[
+  \begin{tikzpicture}[scale=1.2]
+    \draw[thick] (-2,0) to (0,-2) to (2,0) to (0,2) to cycle;
+    \draw[thick] (-1,-1) to (1,-1) to (1,1) to (-1,1) to cycle;
+    \draw[thick] (-2,0) to (2,0);
+    \draw[thick] (0,-2) to (0,2);
+    \draw[thick] (-1,-1) to (1,1);
+    \draw[thick] (1,-1) to (-1,1);
+    \node[fill=white] at (0,2) {$B$};
+    \node[fill=white] at (-1,1) {$E$};
+    \node[fill=white] at (0,1) {$N$};
+    \node[fill=white] at (1,1) {$W$};
+    \node[fill=white] at (-2,0) {$B$};
+    \node[fill=white] at (-1,0) {$S$};
+    \node[fill=white] at (0,0) {$F$};
+    \node[fill=white] at (1,0) {$S$};
+    \node[fill=white] at (2,0) {$B$};
+    \node[fill=white] at (-1,-1) {$W$};
+    \node[fill=white] at (0,-1) {$N$};
+    \node[fill=white] at (1,-1) {$E$};
+    \node[fill=white] at (0,-2) {$B$};
+  \end{tikzpicture}
+\] actually works for a parallelogram of any shape. The parallelogram
+curls up to give a torus, and we get a map from this torus to the
+Riemann sphere, called an ``elliptic function''.
 
 As before, this is a branched double cover with four branch points.
 However, where the branch points sit on the sphere depends on the shape
@@ -22426,65 +22510,88 @@ But now I'm digressing a little. Let's get back on track. What does all
 this have to do with rational tangles??
 
 Recall my puzzle from last time. We build rational tangles by starting
-with the trivial one, which we call ``zero''
-
-\begin{verbatim}
-  |   |
-  |   |
-  |   |
-  |   |
-\end{verbatim}
-
-and repeatedly doing two operations. The first is a twisting operation
-that we call ``adding one'':
-
-\begin{verbatim}
-  |   |                |   |
-  |   |                |   |
-  |   |                |   |
- -------              -------
- |  T  |   |---->     |  T  |        =  "T + 1"
- -------              -------
-  |   |                 \ /
-  |   |                  / 
-  |   |                 / \
-\end{verbatim}
-
-where the box labelled ``T'' stands for any tangle we've built so far.
-The second is a rotation that we call ``negative reciprocal'':
-
-\begin{verbatim}
-  |   |             |     |     
-  |   |             |     |    ____
-  |   |             |     |   /    \
- -------            |    -------    |
- |  T  |   |---->   |    |  T  |    |    =  "-1/T"
- -------            |    -------    |
-  |   |              \___/   |      |
-  |   |                      |      |
-  |   |                      |      |
-\end{verbatim}
-
-Using these tricks we can try to assign a rational number to any
+with the trivial one, which we call ``zero'' \[
+  \begin{tikzpicture}[scale=0.7]
+    \begin{knot}
+      \strand[thick] (0,0) to (0,-2);
+      \strand[thick] (1,0) to (1,-2);
+    \end{knot}
+  \end{tikzpicture}
+\] and repeatedly doing two operations. The first is a twisting
+operation that we call ``adding one'': \[
+  \begin{tikzpicture}[scale=0.7]
+    \begin{knot}
+      \strand[thick] (0,3) to (0,1);
+      \strand[thick] (1,3) to (1,1);
+    \end{knot}
+    \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+    \node at (0.5,0.5) {$T$};
+    \begin{knot}
+      \strand[thick] (0,0) to (0,-2);
+      \strand[thick] (1,0) to (1,-2);
+    \end{knot}
+    \draw[thick,|->] (2,0.5) to (3.5,0.5);
+    \begin{scope}[shift={(4.5,0)}]
+      \begin{knot}
+        \strand[thick] (0,3) to (0,1);
+        \strand[thick] (1,3) to (1,1);
+      \end{knot}
+      \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+      \node at (0.5,0.5) {$T$};
+      \begin{knot}[clip width=7]
+        \strand[thick] (1,0)
+          to[out=down,in=up] (0,-2);
+        \strand[thick] (0,0)
+          to[out=down,in=up] (1,-2);
+      \end{knot}
+    \end{scope}
+    \node at (7.25,0.5) {$= T+1$};
+  \end{tikzpicture}
+\] where the box labelled ``\(T\)'' stands for any tangle we've built so
+far. The second is a rotation that we call ``negative reciprocal'': \[
+  \begin{tikzpicture}[scale=0.7]
+    \begin{knot}
+      \strand[thick] (0,3) to (0,1);
+      \strand[thick] (1,3) to (1,1);
+    \end{knot}
+    \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+    \node at (0.5,0.5) {$T$};
+    \begin{knot}
+      \strand[thick] (0,0) to (0,-2);
+      \strand[thick] (1,0) to (1,-2);
+    \end{knot}
+    \draw[thick,|->] (2,0.5) to (3.5,0.5);
+    \begin{scope}[shift={(5,0)}]
+      \begin{knot}
+        \strand[thick] (0,3) to (0,1);
+        \strand[thick] (1,1)
+          to[out=up,in=up,looseness=2] (2,1)
+          to (2,-2);
+      \end{knot}
+      \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+      \node at (0.5,0.5) {$T$};
+      \begin{knot}
+        \strand[thick] (0,0)
+          to[out=down,in=down,looseness=2] (-1,0)
+          to (-1,3);
+        \strand[thick] (1,0) to (1,-2);
+      \end{knot}
+    \end{scope}
+    \node at (8.75,0.5) {$= -1/T$};
+  \end{tikzpicture}
+\] Using these tricks we can try to assign a rational number to any
 rational tangle. The shocking theorem is that this number is indeed
 well-defined, and in fact a complete invariant of rational tangles.
 
 Every operation built from ``adding one'' and ``negative reciprocal''
-looks like this: \[z\mapsto\frac{az+b}{cz+d}\]
-
-\begin{verbatim}
-         az + b
-z \mapsto   -------
-         cz + d
-\end{verbatim}
-
-with \(a,b,c,d\) integer and \(ad-bc = 1\). The group of these
-transformations is called \(\mathrm{PSL}(2,\mathbb{Z})\). This group
-acts on the rational numbers together with a point at infinity (the
-``rational projective line'') by the formula above. It also acts on
-rational tangles. The puzzle is to see why these actions are isomorphic.
-The proofs I listed in \protect\hyperlink{week228}{``Week 228''} show
-it's true; the problem is to understand what's really going on!
+looks like this: \[z\mapsto\frac{az+b}{cz+d}\] with \(a,b,c,d\) integer
+and \(ad-bc = 1\). The group of these transformations is called
+\(\mathrm{PSL}(2,\mathbb{Z})\). This group acts on the rational numbers
+together with a point at infinity (the ``rational projective line'') by
+the formula above. It also acts on rational tangles. The puzzle is to
+see why these actions are isomorphic. The proofs I listed in
+\protect\hyperlink{week228}{``Week 228''} show it's true; the problem is
+to understand what's really going on!
 
 Here's the answer given by Michael Hutching on
 \texttt{sci.math.research}:
@@ -22506,23 +22613,25 @@ projective line.
 \end{quote}
 
 In other words, we take a \(3\)-dimensional ball and draw a picture of a
-rational tangle in it:
-
-\begin{verbatim}
-    .......   
-  .   | |   . 
- .   -----   .
- .  |  T  |  .
- .   -----   .
-  .   | |   . 
-    .......   
-\end{verbatim}
-
-The boundary of this ball is a sphere with 4 points marked. If we take a
-branched double cover of the sphere with these as the branch points, we
-get a torus \(T^2\). If we take a branched double cover of the whole
-ball with everything along the vertical lines as branched points, we get
-a solid doughnut \(Y\) having \(T^2\) as its boundary.
+rational tangle in it: \[
+  \begin{tikzpicture}[scale=0.7]
+    \begin{knot}
+      \strand[thick] (0,2) to (0,1);
+      \strand[thick] (1,2) to (1,1);
+    \end{knot}
+    \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+    \node at (0.5,0.5) {$T$};
+    \begin{knot}
+      \strand[thick] (0,0) to (0,-1);
+      \strand[thick] (1,0) to (1,-1);
+    \end{knot}
+    \draw[thick] (0.5,0.5) circle (1.6cm);
+  \end{tikzpicture}
+\] The boundary of this ball is a sphere with 4 points marked. If we
+take a branched double cover of the sphere with these as the branch
+points, we get a torus \(T^2\). If we take a branched double cover of
+the whole ball with everything along the vertical lines as branched
+points, we get a solid doughnut \(Y\) having \(T^2\) as its boundary.
 
 This gets the torus into the game, and also the branched cover I was
 talking about. And this gets the group \(\mathrm{PSL}(2,\mathbb{Z})\)
@@ -22578,51 +22687,82 @@ rational homology \[H_1(T^2) \to H_1(Y)\] whose kernel is a
 There's more stuff to check\ldots.
 
 Personally I've been trying to think of the mapping class group of the
-4-punctured sphere as acting on pictures like this:
-
-\begin{verbatim}
-    .......   
-  .   | |   . 
- .   -----   .
- .  |  T  |  .
- .   -----   .
-  .   | |   . 
-    .......   
-\end{verbatim}
-
-and show that the resulting action on rational tangles factors through a
-homomorphism from this mapping class group to
+4-punctured sphere as acting on pictures like this: \[
+  \begin{tikzpicture}[scale=0.7]
+    \begin{knot}
+      \strand[thick] (0,2) to (0,1);
+      \strand[thick] (1,2) to (1,1);
+    \end{knot}
+    \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+    \node at (0.5,0.5) {$T$};
+    \begin{knot}
+      \strand[thick] (0,0) to (0,-1);
+      \strand[thick] (1,0) to (1,-1);
+    \end{knot}
+    \draw[thick] (0.5,0.5) circle (1.6cm);
+  \end{tikzpicture}
+\] and show that the resulting action on rational tangles factors
+through a homomorphism from this mapping class group to
 \(\mathrm{PSL}(2,\mathbb{Z})\). The mapping class group should be
-generated by the twist
-
-\begin{verbatim}
-  |   |                |   |
-  |   |                |   |
-  |   |                |   |
- -------              -------
- |  T  |   |---->     |  T  |        
- -------              -------
-  |   |                 \ /
-  |   |                  / 
-  |   |                 / \
-\end{verbatim}
-
-and the 90 degree rotation
-
-\begin{verbatim}
-  |   |             |     |     
-  |   |             |     |    ____
-  |   |             |     |   /    \
- -------            |    -------    |
- |  T  |   |---->   |    |  T  |    |    
- -------            |    -------    |
-  |   |              \___/   |      |
-  |   |                      |      |
-  |   |                      |      |
-   
-\end{verbatim}
-
-and our homomorphism should map these to the famous matrices \[
+generated by the twist \[
+  \begin{tikzpicture}[scale=0.7]
+    \begin{knot}
+      \strand[thick] (0,3) to (0,1);
+      \strand[thick] (1,3) to (1,1);
+    \end{knot}
+    \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+    \node at (0.5,0.5) {$T$};
+    \begin{knot}
+      \strand[thick] (0,0) to (0,-2);
+      \strand[thick] (1,0) to (1,-2);
+    \end{knot}
+    \draw[thick,|->] (2,0.5) to (3.5,0.5);
+    \begin{scope}[shift={(4.5,0)}]
+      \begin{knot}
+        \strand[thick] (0,3) to (0,1);
+        \strand[thick] (1,3) to (1,1);
+      \end{knot}
+      \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+      \node at (0.5,0.5) {$T$};
+      \begin{knot}[clip width=7]
+        \strand[thick] (1,0)
+          to[out=down,in=up] (0,-2);
+        \strand[thick] (0,0)
+          to[out=down,in=up] (1,-2);
+      \end{knot}
+    \end{scope}
+  \end{tikzpicture}
+\] and the \(90\) degree rotation \[
+  \begin{tikzpicture}[scale=0.7]
+    \begin{knot}
+      \strand[thick] (0,3) to (0,1);
+      \strand[thick] (1,3) to (1,1);
+    \end{knot}
+    \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+    \node at (0.5,0.5) {$T$};
+    \begin{knot}
+      \strand[thick] (0,0) to (0,-2);
+      \strand[thick] (1,0) to (1,-2);
+    \end{knot}
+    \draw[thick,|->] (2,0.5) to (3.5,0.5);
+    \begin{scope}[shift={(5,0)}]
+      \begin{knot}
+        \strand[thick] (0,3) to (0,1);
+        \strand[thick] (1,1)
+          to[out=up,in=up,looseness=2] (2,1)
+          to (2,-2);
+      \end{knot}
+      \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+      \node at (0.5,0.5) {$T$};
+      \begin{knot}
+        \strand[thick] (0,0)
+          to[out=down,in=down,looseness=2] (-1,0)
+          to (-1,3);
+        \strand[thick] (1,0) to (1,-2);
+      \end{knot}
+    \end{scope}
+  \end{tikzpicture}
+\] and our homomorphism should map these to the famous matrices \[
   T = \left(
     \begin{array}{cc}
       1&1\\0&1
@@ -22672,33 +22812,130 @@ use the location of the branch points to calculate a cross ratio.
 But actually, I'm being a bit sloppy here. To compute a cross ratio from
 a lattice, we need some extra information to \emph{order} the
 \(4\)-tuple of branch points. In other words, if one of the points \(S\)
-is the origin here:
-
-\begin{verbatim}
-S-----B-----S-----F-----S-----B-----S-----F-----S
-|    /|\    |    /|\    |    /|\    |    /|\    |
-|   / | \   |   / | \   |   / | \   |   / | \   |
-|  /  |  \  |  /  |  \  |  /  |  \  |  /  |  \  |
-| /   |   \ | /   |   \ | /   |   \ | /   |   \ |
-|/    |    |/    |    |/    |    |/    |    |
-W-----N-----E-----N-----W-----N-----E-----N-----W
-|\    |    /|\    |    /|\    |    /|\    |    /|
-| \   |   / | \   |   / | \   |   / | \   |   / |
-|  \  |  /  |  \  |  /  |  \  |  /  |  \  |  /  |
-|   \ | /   |   \ | /   |   \ | /   |   \ | /   |
-|    |/    |    |/    |    |/    |    |/    |
-S-----F-----S-----B-----S-----F-----S-----B-----S
-|    /|\    |    /|\    |    /|\    |    /|\    |
-|   / | \   |   / | \   |   / | \   |   / | \   |
-|  /  |  \  |  /  |  \  |  /  |  \  |  /  |  \  |
-| /   |   \ | /   |   \ | /   |   \ | /   |   \ |
-|/    |    |/    |    |/    |    |/    |    |
-E-----N-----W-----N-----E-----N-----W-----N-----E
-\end{verbatim}
-
-and the lattice is taken just big enough so the pattern repeats, we need
-enough information to \emph{label} the points \(E\), \(F\), \(W\) and
-\(B\). This extra information amounts to ``choosing a basis for the
+is the origin here: \[
+  \begin{tikzpicture}[scale=1.2]
+    \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+    \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+    \draw[thick] (1,0) to (1,2);
+    \draw[thick] (0,1) to (2,1);
+    \node[fill=white] at (0,0) {$S$};
+    \node[fill=white] at (1,0) {$F$};
+    \node[fill=white] at (2,0) {$S$};
+    \node[fill=white] at (0,1) {$W$};
+    \node[fill=white] at (1,1) {$N$};
+    \node[fill=white] at (2,1) {$E$};
+    \node[fill=white] at (0,2) {$S$};
+    \node[fill=white] at (1,2) {$B$};
+    \node[fill=white] at (2,2) {$S$};
+    \begin{scope}[scale=-1,shift={(-4,-2)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+    \begin{scope}[shift={(4,0)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+    \begin{scope}[scale=-1,shift={(-8,-2)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+    \begin{scope}[scale=-1,shift={(-2,0)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+    \begin{scope}[shift={(2,-2)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+    \begin{scope}[scale=-1,shift={(-6,0)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+    \begin{scope}[shift={(6,-2)}]
+      \draw[thick] (0,0) to (2,0) to (2,2) to (0,2) to cycle;
+      \draw[thick] (1,0) to (2,1) to (1,2) to (0,1) to cycle;
+      \draw[thick] (1,0) to (1,2);
+      \draw[thick] (0,1) to (2,1);
+      \node[fill=white] at (0,0) {$S$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$S$};
+      \node[fill=white] at (0,1) {$W$};
+      \node[fill=white] at (1,1) {$N$};
+      \node[fill=white] at (2,1) {$E$};
+      \node[fill=white] at (0,2) {$S$};
+      \node[fill=white] at (1,2) {$B$};
+      \node[fill=white] at (2,2) {$S$};
+    \end{scope}
+  \end{tikzpicture}
+\] and the lattice is taken just big enough so the pattern repeats, we
+need enough information to \emph{label} the points \(E\), \(F\), \(W\)
+and \(B\). This extra information amounts to ``choosing a basis for the
 \(2\)-torsion subgroup of the plane modulo the lattice''. So, the cross
 ratio gives a ``modular function of level 2''.
 
@@ -25498,38 +25735,68 @@ I just said that the \(3\)-strand braid A gets mapped to this shear:
 \[A \longmapsto \left(\begin{array}{rr}1&1\\0&1\end{array}\right)\] In
 \protect\hyperlink{week229}{``Week 229''} I said what this shear does to
 a rational tangle. It gives it a 180 degree twist at the bottom, like
-this:
-
-\begin{verbatim}
-  |   |                |   |
-  |   |                |   |
-  |   |                |   |
- -------              -------
- |  T  |   |---->     |  T  |        
- -------              -------
-  |   |                 \ /
-  |   |                  / 
-  |   |                 / \
-\end{verbatim}
-
-Next, Tuba and Wenzl point out that
+this: \[
+  \begin{tikzpicture}[scale=0.7]
+    \begin{knot}
+      \strand[thick] (0,3) to (0,1);
+      \strand[thick] (1,3) to (1,1);
+    \end{knot}
+    \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+    \node at (0.5,0.5) {$T$};
+    \begin{knot}
+      \strand[thick] (0,0) to (0,-2);
+      \strand[thick] (1,0) to (1,-2);
+    \end{knot}
+    \draw[thick,|->] (2,0.5) to (3.5,0.5);
+    \begin{scope}[shift={(4.5,0)}]
+      \begin{knot}
+        \strand[thick] (0,3) to (0,1);
+        \strand[thick] (1,3) to (1,1);
+      \end{knot}
+      \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+      \node at (0.5,0.5) {$T$};
+      \begin{knot}[clip width=7]
+        \strand[thick] (1,0)
+          to[out=down,in=up] (0,-2);
+        \strand[thick] (0,0)
+          to[out=down,in=up] (1,-2);
+      \end{knot}
+    \end{scope}
+  \end{tikzpicture}
+\] Next, Tuba and Wenzl point out that
 \[ABA = BAB \longmapsto \left(\begin{array}{rr}0&1\\-1&0\end{array}\right)\]
 which is a quarter turn. From \protect\hyperlink{week229}{``Week 229''}
-you can see how this quarter turn acts on a rational tangle:
-
-\begin{verbatim}
-  |   |                       |     | 
-  |   |              ____     |     |
-  |   |             /     \   |     |
- -------           |     -------    |
- |  T  |   |---->  |     |  T  |    |    
- -------           |     -------    |
-  |   |            |      |   \____/
-  |   |            |      |    
-  |   |            |      |  
-\end{verbatim}
-
-It gives it a quarter turn!
+you can see how this quarter turn acts on a rational tangle: \[
+  \begin{tikzpicture}[scale=0.7]
+    \begin{knot}
+      \strand[thick] (0,3) to (0,1);
+      \strand[thick] (1,3) to (1,1);
+    \end{knot}
+    \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+    \node at (0.5,0.5) {$T$};
+    \begin{knot}
+      \strand[thick] (0,0) to (0,-2);
+      \strand[thick] (1,0) to (1,-2);
+    \end{knot}
+    \draw[thick,|->] (2,0.5) to (3.5,0.5);
+    \begin{scope}[shift={(6,0)},xscale=-1]
+      \begin{knot}
+        \strand[thick] (0,3) to (0,1);
+        \strand[thick] (1,1)
+          to[out=up,in=up,looseness=2] (2,1)
+          to (2,-2);
+      \end{knot}
+      \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+      \node at (0.5,0.5) {$T$};
+      \begin{knot}
+        \strand[thick] (0,0)
+          to[out=down,in=down,looseness=2] (-1,0)
+          to (-1,3);
+        \strand[thick] (1,0) to (1,-2);
+      \end{knot}
+    \end{scope}
+  \end{tikzpicture}
+\] It gives it a quarter turn!
 
 From these facts, we can figure out what the braid \(B\) does to a
 rational tangle. So, let me do the calculation.
@@ -25539,54 +25806,83 @@ Scribble, scribble, curse and scribble\ldots. Eureka!
 Since we know what \(A\) does, and what \(ABA\) does, we can figure out
 what \(B\) must do. But, to make the answer look cute, I needed a sneaky
 fact about rational tangles, which is that \(A\) \emph{also} acts like
-this:
-
-\begin{verbatim}
-  |   |                 \ / 
-  |   |                  /
-  |   |                 / \ 
- -------              -------
- |  T  |   |---->     |  T  |        
- -------              -------
-  |   |                |   |
-  |   |                |   | 
-  |   |                |   |
-\end{verbatim}
-
-This is proved in Goldman and Kauffman's paper cited in
+this: \[
+  \begin{tikzpicture}[scale=0.7]
+    \begin{knot}
+      \strand[thick] (0,3) to (0,1);
+      \strand[thick] (1,3) to (1,1);
+    \end{knot}
+    \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+    \node at (0.5,0.5) {$T$};
+    \begin{knot}
+      \strand[thick] (0,0) to (0,-2);
+      \strand[thick] (1,0) to (1,-2);
+    \end{knot}
+    \draw[thick,|->] (2,0.5) to (3.5,0.5);
+    \begin{scope}[shift={(4.5,1)},yscale=-1]
+      \begin{knot}
+        \strand[thick] (0,3) to (0,1);
+        \strand[thick] (1,3) to (1,1);
+      \end{knot}
+      \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+      \node at (0.5,0.5) {$T$};
+      \begin{knot}[clip width=7]
+        \strand[thick] (1,0)
+          to[out=down,in=up] (0,-2);
+        \strand[thick] (0,0)
+          to[out=down,in=up] (1,-2);
+      \end{knot}
+    \end{scope}
+  \end{tikzpicture}
+\] This is proved in Goldman and Kauffman's paper cited in
 \protect\hyperlink{week228}{``Week 228''}. With the help of this, I can
-show \(B\) acts like this:
-
-\begin{verbatim}
-  |   |              |          |
-  |   |              |   ___    |
-  |   |              |  /   \   |
- -------             | /    -------   
- |  T  |   |---->     \     |  T  |  
- -------             / \    ------- 
-  |   |             |   \___/   | 
-  |   |             |           | 
-  |   |             |           |
-\end{verbatim}
-
-And this is \emph{great!} It means our action of \(3\)-strand braids on
-rational tangles is really easy to describe. Just take your tangle and
-let the upper left strand dangle down:
-
-\begin{verbatim}
-           |
-   ____    |               
-  /    \   |              
- |    -------           
- |    |  T  |   
- |    -------  
- |     |   |  
- |     |   | 
- |     |   |
-\end{verbatim}
-
-To let a \(3\)-strand braid act on this, just attach it to the bottom of
-the picture!
+show \(B\) acts like this: \[
+  \begin{tikzpicture}[scale=0.7]
+    \begin{knot}
+      \strand[thick] (0,3) to (0,1);
+      \strand[thick] (1,3) to (1,1);
+    \end{knot}
+    \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+    \node at (0.5,0.5) {$T$};
+    \begin{knot}
+      \strand[thick] (0,0) to (0,-2);
+      \strand[thick] (1,0) to (1,-2);
+    \end{knot}
+    \draw[thick,|->] (2,0.5) to (3.5,0.5);
+    \begin{scope}[shift={(5.5,0)}]
+      \begin{knot}[clip width=5]
+        \strand[thick] (-1.5,3)
+          to[out=down,in=left] (-0.25,-0.5)
+          to[out=right,in=down] (0,0);
+        \strand[thick] (1,3) to (1,1);
+        \strand[thick] (1,0) to (1,-2);
+        \strand[thick] (-1.5,-2)
+          to[out=up,in=left] (-0.25,1.5)
+          to[out=right,in=up] (0,1);
+      \end{knot}
+      \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+      \node at (0.5,0.5) {$T$};
+    \end{scope}
+  \end{tikzpicture}
+\] And this is \emph{great!} It means our action of \(3\)-strand braids
+on rational tangles is really easy to describe. Just take your tangle
+and let the upper left strand dangle down: \[
+  \begin{tikzpicture}[scale=0.7]
+    \begin{knot}
+      \strand[thick] (-1,-2)
+        to (-1,1)
+        to[out=up,in=up,looseness=2] (0,1);
+      \strand[thick] (1,3) to (1,1);
+    \end{knot}
+    \draw[thick,rounded corners] (-0.25,0) rectangle ++(1.5,1);
+    \node at (0.5,0.5) {$T$};
+    \begin{knot}
+      \strand[thick] (0,0) to (0,-2);
+      \strand[thick] (1,0) to (1,-2);
+    \end{knot}
+  \end{tikzpicture}
+\] To let a \(3\)-strand braid act on this, just attach it to the bottom
+of the picture!
 
 (That's why there were \emph{four} obvious guesses about this would
 work: one can easily imagine four variations on this trick, depending on
@@ -25884,8 +26180,6 @@ The quantity \(g_2^3 - 27 g_3^2\) is called the ``discriminant'' of the
 lattice \(L\), and vanishes as the lattice squashes down to being
 degenerate, i.e.~a discrete subgroup of \(\mathbb{C}\) with one rather
 than two generators.
-
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 
 
@@ -27779,7 +28073,7 @@ was shown by Liouville back in the 1800s:
 \tightlist
 \item
   Wikipedia, ``Liouville's theorem (Hamiltonian)'',
-  \texttt{http://en.wikipedia.org/wiki/Liouville\textquotesingle{}s\_theorem\_(Hamiltonian)}
+  \texttt{http://en.wikipedia.org/wiki/Liouville\%27s\_theorem\_(Hamiltonian)}
 \end{enumerate}
 
 But, they get stretched in some directions and squashed in others. So,
@@ -28473,8 +28767,6 @@ The issue of heat dissipation in such devices is also studied here:
 \end{enumerate}
 
 I need to think about this stuff more!
-
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 
 
@@ -30621,8 +30913,6 @@ A similar observation was made by Horava way back in
 Aaron
 \end{quote}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
-
 
 
 \hypertarget{week238}{%
@@ -31092,8 +31382,6 @@ So, maybe it's an exaggeration to say that \(d^2 = 0\) and the Jacobi
 identity say that \(d\) and the Lie bracket are preserved by
 diffeomorphisms --- but at least they \emph{imply} these operations are
 preserved by \emph{small} diffeomorphisms.
-
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 
 
@@ -34247,8 +34535,6 @@ For more discussion, go to the
 \href{http://golem.ph.utexas.edu/category/2006/12/this_weeks_finds_in_mathematic_4.html}{\(n\)-Category
 Café}.
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
-
 
 
 \hypertarget{week243}{%
@@ -35342,8 +35628,6 @@ We're still just learning to count.
 \href{http://golem.ph.utexas.edu/category/2007/02/this_weeks_finds_in_mathematic_5.html}{\(n\)-Category
 Café}.
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
-
 
 
 \hypertarget{week245}{%
@@ -36019,8 +36303,6 @@ with David Corfield. You can see the interview here:
 \textbf{Addendum:} For more discussion, go to the
 \href{http://golem.ph.utexas.edu/category/2007/02/this_weeks_finds_in_mathematic_6.html}{\(n\)-Category
 Café}.
-
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 
 
