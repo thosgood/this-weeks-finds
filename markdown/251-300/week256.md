@@ -369,21 +369,24 @@ I hope you see how pathetically simple this idea is! It's especially
 familiar when $V$ and $X$ are both sets. Here's what it looks like then:
 $$
   \begin{tikzpicture}
-    ;
+    \node (V) at (0,2) {$V$};
+    \node (X) at (0,0) {$X$};
+    \draw[->] (V) to node[label=left:{$p$}]{} (X);
+    \draw[thick] (0.75,1.25) rectangle ++(2.16,1.5);
+    \draw[thick] (0.75,-0.25) rectangle ++(2.16,0.5);
+    \node at (1,1.5) {$\bullet$};
+    \foreach \y in {1.5,1.83,2.16,2.5}
+      \node at (1.33,\y) {$\bullet$};
+    \foreach \y in {1.5,1.83,2.16}
+      \node at (1.66,\y) {$\bullet$};
+    \foreach \y in {1.5,1.83}
+      \node at (2,\y) {$\bullet$};
+    \foreach \y in {1.5,1.83}
+      \node at (2.66,\y) {$\bullet$};
+    \foreach \x in {1,1.33,1.66,2,2.33,2.66}
+      \node at (\x,0) {$\bullet$};
   \end{tikzpicture}
 $$
-
-                ------------------
-         V     |    o             |
-               |    o  o          |
-         |     |    o  o  o     o |   
-         |p    | o  o  o  o     o |
-         |      ------------------
-         v
-                ------------------
-         X     | o  o  o  o  o  o |
-                ------------------
-
 I've drawn the elements of $V$ and $X$ as little circles, and shown how
 each element in $X$ has a bunch of elements of $V$ sitting over it. When
 degroupoidify this to get a vector in the vector space $[X]$, we get:
