@@ -150,7 +150,7 @@ gluons act a lot like free particles. (For more on this, try
 ["Week 94"](#week94).)
 
 On the other hand, if $a > 0$, the coupling constant $G$ *increases* with
-increasing momentum. To make matters worse, it becomes INFINITE at a
+increasing momentum. To make matters worse, it becomes **infinite** at a
 sufficiently high momentum! In this case we say our theory has a
 "Landau pole", and we cluck our tongues disapprovingly, because it's
 not a good thing. For example, this is what happens in quantum

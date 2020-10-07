@@ -294,9 +294,9 @@ So, we get a relation like this:
 
 |    |    |
 | :- | :- |
-| $(n-2)$-dimensional manifolds | MATTER |
-| $(n-1)$-dimensional manifolds with boundary | SPACE |
-| $n$-dimensional manifolds with corners | SPACETIME |
+| $(n-2)$-dimensional manifolds | **matter** |
+| $(n-1)$-dimensional manifolds with boundary | **space** |
+| $n$-dimensional manifolds with corners | **spacetime** |
 
 I like this a lot: it reminds me of the title of Weyl's famous book
 "Raum, Zeit, Materie", meaning "Space, Time, Matter". He never

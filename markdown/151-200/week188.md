@@ -154,7 +154,7 @@ think we need a more up-to-date version of Pascal's triangle for the
 21st century.
 
 So: let's suppose the little ball we drop into the machine is an
-ELECTRON, and let's turn on a MAGNETIC FIELD!
+**electron**, and let's turn on a **magnetic field**!
 
 In quantum mechanics, if you have a charged particle in a static
 magnetic field, its wavefunction gets multiplied by a phase when you

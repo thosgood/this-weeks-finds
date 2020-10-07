@@ -85,7 +85,7 @@ always be a supervector space.
 
 Supervector spaces work a lot like ordinary vector spaces, so we can
 redo all of math replacing vector spaces by supervector spaces. To do
-this, we just copy all the usual stuff, EXCEPT that whenever we switch
+this, we just copy all the usual stuff, **except** that whenever we switch
 two vectors past each other in our formulas, we stick in an extra minus
 sign when they're both odd! This reflects the way fermions actually
 work in nature: when you exchange two of them, their wavefunction picks

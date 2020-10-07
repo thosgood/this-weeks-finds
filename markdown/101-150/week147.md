@@ -144,8 +144,8 @@ with negative cardinality'.
 
 The key is to think carefully about the meaning of division. The usual
 way to get half an apple is to chop one into "two equal parts". Of
-course, the parts are actually NOT EQUAL --- if they were, there would be
-only one part! They are merely ISOMORPHIC. This suggests that
+course, the parts are actually **not equal** --- if they were, there would be
+only one part! They are merely **isomorphic**. This suggests that
 categorification will be handy.
 
 Indeed, what we really have is a $\mathbb{Z}/2$ symmetry group acting on the apple

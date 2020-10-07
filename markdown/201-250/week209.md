@@ -466,11 +466,11 @@ groups are like. Unraveling the definitions a bit, one sees they amount
 to this:
 
 - The 1st homotopy group consists of Morita equivalence classes of
-    Azumaya algebras over $R$. This is also called the BRAUER GROUP of $R$.
+    Azumaya algebras over $R$. This is also called the **Brauer group** of $R$.
 - The 2nd homotopy group consists of isomorphism classes of Morita
-    equivalences from $R$ to $R$. This is also called the PICARD GROUP of $R$.
+    equivalences from $R$ to $R$. This is also called the **Picard group** of $R$.
 - The 3rd homotopy group consists of invertible elements of $R$. This is
-    also called the UNIT GROUP of $R$.
+    also called the **unit group** of $R$.
 
 People had been quite happily studying these groups for a long time
 without knowing they were the homotopy groups of the core of a weak

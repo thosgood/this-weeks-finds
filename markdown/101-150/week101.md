@@ -148,18 +148,18 @@ of this 24 business. It turns out that the significance of the number 24
 is woven very deeply into the basic fabric of mathematics. To put it
 rather mysteriously, it turns out that every integer has some subtle
 "hidden symmetries". These symmetries have symmetries of their own,
-and in turn THESE symmetries have symmetries of THEIR own - of which
+and in turn **these** symmetries have symmetries of **their** own --- of which
 there are exactly 24.
 
 Hmm, mysterious. Let me put it another way. It probably won't be
 obvious why this is another way of saying the same thing, but it has the
-advantage of being more concrete. Suppose that the integer n is
-sufficiently large - 4 or more will do. Then there are 24 essentially
-different ways to wrap an (n+3)-dimensional sphere around an
-n-dimensional sphere. More precisely still, given two continuous
-functions from an (n+3)-sphere to an n-sphere, let's say that they lie
+advantage of being more concrete. Suppose that the integer $n$ is
+sufficiently large --- 4 or more will do. Then there are 24 essentially
+different ways to wrap an $(n+3)$-dimensional sphere around an
+$n$-dimensional sphere. More precisely still, given two continuous
+functions from an $(n+3)$-sphere to an $n$-sphere, let's say that they lie
 in the same "homotopy class" if you can continuously deform one into
-another. Then when n is 4 or more, it turns out that there are exactly
+another. Then when $n$ is $4$ or more, it turns out that there are exactly
 24 such homotopy classes.
 
 Now that I have all the ordinary mortals confused and all the homotopy

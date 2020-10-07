@@ -436,7 +436,7 @@ It doesn't do anything --- it just sits there! So, we say this prime is
 "inert".
 
 This may seem boring, but it's actually mysterious --- and downright
-MADDENING if we take the analogy between geometry and algebra seriously.
+**maddening** if we take the analogy between geometry and algebra seriously.
 It's weird enough to have a "branched" cover where sheets merge at
 certain points, but at least in that case we can *see* they've merged:
 a prime ideal in our subring generates an ideal in the extension that's

@@ -41,7 +41,7 @@ because it's simple enough that one can compute something and hope it
 sheds some light on the $4$-dimensional world we live in. For some issues
 this appears to be the case: primarily, conceptual issues having to do
 with theories in which there is no "background metric". Unfortunately,
-there are SEVERAL DIFFERENT WAYS to set up $3$-dimensional quantum
+there are **several different ways** to set up $3$-dimensional quantum
 gravity, corresponding to different approaches people have to
 4-dimensional quantum gravity. For this, check out Carlip's paper "Six
 ways to quantize (2+1)-dimensional gravity," mentioned in
@@ -152,7 +152,7 @@ approach to spacetime in the paper:
 
 It is somehow satisfying, therefore, to see that spin networks arise
 naturally as a convenient description of states in the loop
-representation of quantum gravity, which STARTS mainly with Einstein's
+representation of quantum gravity, which **starts** mainly with Einstein's
 equations and the principles of quantum mechanics. Certainly there is a
 lot more we need to learn about them.... One place worth reading about
 them is:
@@ -205,7 +205,7 @@ fact is also somehow related to Hawking radiation, and to the notion of
 black hole entropy... but really, there is a lot that nobody
 understands about all these connections!
 
-In any event, Rovelli was prompted to use thermodynamics to DEFINE time
+In any event, Rovelli was prompted to use thermodynamics to **define** time
 in quantum gravity as follows. Given a mixed state with density matrix
 $D$, *find* some operator $H$ such that $D$ is the Gibbs state $\exp(-H/kT)$. In lots of cases this isn't hard; it basically amounts to
 $$H = -kT \ln D$$

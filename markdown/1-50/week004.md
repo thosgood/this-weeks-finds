@@ -189,7 +189,7 @@ and $G$ vertically to get a $2$-morphism from $f$ to $g$.
 
 As Kapranov and Voevodsky note: "Thus $2$-categories can be seen as
 belonging to the realm of a new mathematical discipline which may be
-called 2-DIMENSIONAL ALGEBRA and contrasted with usual $1$-dimensional
+called **$2$-dimensional algebra** and contrasted with usual $1$-dimensional
 algebra dealing with formulas which are written in lines." This is
 actually very important because already in the theory of braided
 monoidal categories we began witnessing the rise of mathematics that
@@ -372,7 +372,7 @@ pretty obvious: we are seeing a movie of part of a string worldsheet,
 which is a surface in (3+1)-dimensional spacetime. My interest in
 2-tangles and $2$-categories is precisely because they offer a bridge
 between string theory and the loop variables approach to quantum
-gravity, which may actually be the SAME THING in two different
+gravity, which may actually be the **same thing** in two different
 disguises. You heard it here first, folks!
 
 The reader may have fun figuring out what the two ways of composing

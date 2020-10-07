@@ -159,8 +159,7 @@ precise.
 To do this, I'll reveal that the spectrum for topological modular form
 theory is a ring spectrum, and the abelian groups
 $$\mathrm{tmf}^n(\mbox{point})$$
-fit together in a very famous graded ring: it's the ring of MODULAR
-FORMS!
+fit together in a very famous graded ring: it's the ring of **modular forms**!
 
 Well, at least after we tensor it with the complex numbers, it is...
 but before we worry about that, I should say what modular forms are.
@@ -367,7 +366,7 @@ is sometimes afflicted with ambiguities!
 
 So, restricting attention to the case where our Riemann surface is an
 elliptic curve, you should not be surprised that the partition function
-of any conformal field theory is a MODULAR FORM!
+of any conformal field theory is a **modular form**!
 
 If this modular form has weight $0$, the partition function is an
 honest-to-goodness function on the moduli space of elliptic curves: for

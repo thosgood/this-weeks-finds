@@ -112,7 +112,7 @@ Let's think about this nice function $P(z)$ we are fantasizing about.
 Alas, if it were analytic on the whole plane (no poles), it would be
 bounded on each little parallelogram, and since it's doubly periodic,
 it would be a bounded analytic function on the complex plane, hence
-CONSTANT by Liouville's theorem. Well, so a constant function has all
+**constant** by Liouville's theorem. Well, so a constant function has all
 the wonderful properties we want --- but that's too boring!
 
 So let's allow it to have poles! But let's keep it as nice as
@@ -134,7 +134,7 @@ We get something periodic with poles like $1/(z -\omega)^2$ at each lattice
 point $\omega$. But there's a big problem --- the sum doesn't converge!
 (Another fun exercise.)
 
-Oh well, try again. Let's act like physicists and RENORMALIZE the sum
+Oh well, try again. Let's act like physicists and **renormalize** the sum
 by subtracting off an infinite constant! Just subtract the sum over all
 $\omega$ in $L$ of $1/\omega^2$. Well, all $\omega$ except zero, anyway. This turns out to
 work, but we really should be careful about the order of summation here:

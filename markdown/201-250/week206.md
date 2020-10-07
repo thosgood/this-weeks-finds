@@ -94,7 +94,7 @@ histories of the system in question, with each history weighted by a
 complex number called its "amplitude". For a particle, a history is
 just a path in space; to average over all histories is to integrate over
 all paths --- hence the term "path integral". But in quantum gravity, a
-history is nothing other than a SPACETIME.
+history is nothing other than a **spacetime**.
 
 Mathematically, a "spacetime" is something like a $4$-dimensional
 manifold equipped with a Lorentzian metric. But it's hard to integrate

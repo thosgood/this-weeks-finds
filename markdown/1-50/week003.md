@@ -150,7 +150,7 @@ determined by some combinatorial data called a "weight system." He
 showed that any representation of a Lie algebra determines a weight
 system and hence a Vassiliev invariant. But the really interesting thing
 he showed is that many of the things one can do for Lie algebras can be
-done for arbitrary weight systems. This makes it plausible that EVERY
+done for arbitrary weight systems. This makes it plausible that **every**
 weight system, hence every Vassiliev invariant, comes from a
 representation of a simple Lie algebra. In fact, Dror conjectures that
 every Vassiliev invariant comes from a representation of a classical

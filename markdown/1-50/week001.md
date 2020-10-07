@@ -134,8 +134,8 @@ cosmological constant (evidence for this has been given by Kodama), and
 that its CP violation may be a "reason" for why the cosmological
 constant is actually zero (this part is extremely speculative). Louis
 Crane, on the other hand, seems convinced that the Chern-Simons state
-(or more generally states arising from modular tensor categories) is THE
-WAVEFUNCTION OF THE UNIVERSE. In any event, it's much nicer to have one
+(or more generally states arising from modular tensor categories) is
+**the wavefunction of the universe**. In any event, it's much nicer to have one
 state of quantum gravity to play with than none, as was the case until
 recently.
 

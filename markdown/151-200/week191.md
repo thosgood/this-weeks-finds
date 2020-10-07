@@ -460,7 +460,7 @@ instead...
 
 What's the free symmetric $2$-rig on one generator?
 
-It's the category of STRUCTURE TYPES!
+It's the category of **structure types**!
 
 I'll leave the proof of this as a puzzle for the budding category
 theorists out there. This is supposed to explain very precisely the
@@ -510,7 +510,7 @@ object" in any monoidal category. This leads to another puzzle:
 What's a monoid object in the category of structure types with
 composition as the monoidal structure?
 
-And the answer is: AN OPERAD!
+And the answer is: **an operad**!
 
 Now, this took me quite a while to deeply understand, but when I did it
 was great. So, if you have enough category theory under your belt to

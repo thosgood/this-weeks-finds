@@ -229,8 +229,9 @@ relating $dg$ and and $d[g]$, and using this we get
 $$Z = \int ( \int \exp(-\langle X, \Delta X\rangle) dX) f(g) d[g]$$
 where $f(g)$ is some function of the metric. There's a perfectly explicit
 formula for this function, but your eyeballs would fall out if I showed
-it to you. Anyway, the real point is that IN 26 DIMENSIONS AND ONLY IN
-26 DIMENSIONS, the integrand
+it to you. Anyway, the real point is that
+**in 26 dimensions and only in 26 dimensions**,
+the integrand
 $$( \int \exp(-\langle X, \Delta X\rangle) dX) f(g)$$
 is invariant under rescalings of the metric (as well as
 diffeomorphisms). In other words, the conformal anomaly in
@@ -391,7 +392,9 @@ where the $13$ comes from! It's all an elaborate conspiracy!
 But of course the conspiracy is far grander than I've even begun to let
 on. If we keep digging away at it, we're eventually led to nothing
 other than....
-$$\text{MONSTROUS MOONSHINE!!!}$$
+
+**monstrous moonshine**!!!
+
 But I don't have the energy to talk about *that* now. For more, try:
 
 7) Richard E. Borcherds, "What is moonshine?", talk given upon winning the Fields medal, preprint available as [`math.QA/9809110`](https://arxiv.org/abs/math.QA/9809110).

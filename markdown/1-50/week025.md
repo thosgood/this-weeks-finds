@@ -112,10 +112,10 @@ to chop down this "prequantum" space to half the size, etc.; but let
 me leave off here.
 
 What Brylinski wants to do is to find analogs of all these phenomena
-involving the THIRD cohomology groups of manifolds.
+involving the **third** cohomology groups of manifolds.
 
 At first glance, this might seem to be a very artificial desire. Note
-that importance of the SECOND cohomology group in the above story is
+that importance of the **second** cohomology group in the above story is
 twofold: 1) symplectic structures give elements of the second
 cohomology, 2) the curvature of a connection gives an element of the
 second cohomology, and in fact 2') line bundles are classified by
@@ -257,9 +257,9 @@ just say what I know. The basic idea is to boost everything up a notch
 using category-theoretic thinking. When we were getting ready to define
 bundles, we needed to have the concept of a group at our disposal (to
 have a structure group.) For gerbes, we need something called a category
-of torsors. What is a group? Well, it is a SET equipped with various
-MAPS satisfying various properties. What is a category of torsors? Well,
-it is a CATEGORY equipped with various FUNCTORS satisfying utterly
+of torsors. What is a group? Well, it is a **set** equipped with various
+**maps** satisfying various properties. What is a category of torsors? Well,
+it is a **category** equipped with various **functors** satisfying utterly
 analogous properties. Note how we are "categorifying" here. We have
 more structure, since while a set is just a bunch of naked points, a
 category is a bunch of points, namely objects, which are connected by

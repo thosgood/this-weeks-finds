@@ -259,10 +259,10 @@ wind up seeing that the seventh entry in the table is all about
 
 To summarize:
 
-- $\pi_0(\mathrm{O}(\infty)) = \mathbb{Z}/2$ is about REFLECTING
-- $\pi_1(\mathrm{O}(\infty)) = \mathbb{Z}/2$ is about ROTATING 360 DEGREES
-- $\pi_3(\mathrm{O}(\infty)) = \mathbb{Z}$ is about TOPOLOGICAL FIELD THEORY IN 4 DIMENSIONS
-- $\pi_7(\mathrm{O}(\infty)) = \mathbb{Z}$ is about DIMENSION
+- $\pi_0(\mathrm{O}(\infty)) = \mathbb{Z}/2$ is about **reflecting**
+- $\pi_1(\mathrm{O}(\infty)) = \mathbb{Z}/2$ is about **rotating 360 degrees**
+- $\pi_3(\mathrm{O}(\infty)) = \mathbb{Z}$ is about **topological field theory in 4 dimensions**
+- $\pi_7(\mathrm{O}(\infty)) = \mathbb{Z}$ is about **dimension**
 
 But wait! What do those numbers 0, 1, 3, and 7 remind you of?
 
@@ -287,10 +287,10 @@ $\mathrm{O}(\infty)$ are nontrivial.
 
 So now we have the following fancier chart:
 
-- $\pi_0(\mathrm{O}(\infty))$ is about REFLECTING and the REAL NUMBERS
-- $\pi_1(\mathrm{O}(\infty))$ is about ROTATING 360 DEGREES and the COMPLEX NUMBERS
-- $\pi_3(\mathrm{O}(\infty))$ is about TOPOLOGICAL FIELD THEORY IN 4 DIMENSIONS and the QUATERNIONS
-- $\pi_7(\mathrm{O}(\infty))$ is about DIMENSION and the OCTONIONS
+- $\pi_0(\mathrm{O}(\infty))$ is about **reflecting** and the **real numbers**
+- $\pi_1(\mathrm{O}(\infty))$ is about **rotating 360 degrees** and the **complex numbers**
+- $\pi_3(\mathrm{O}(\infty))$ is about **topological field theory in 4 dimensions** and the **quaternions**
+- $\pi_7(\mathrm{O}(\infty))$ is about **dimension** and the **octonions**
 
 Now this is pretty weird. It's not so surprising that reflections and
 the real numbers are related: after all, the only "rotations" in the

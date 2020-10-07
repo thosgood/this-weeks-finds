@@ -188,7 +188,7 @@ never find their way into the popular press.
 
 But in this case the boundary term is all-important, because it's...
 
-                          THE CHERN-SIMONS ACTION!
+**the Chern-Simons action**!
 
 (Yes, I can see people world-wide, peering into their screens, thinking
 "Eh? Am I supposed to remember what that is? What's he getting so

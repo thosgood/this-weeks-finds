@@ -110,7 +110,7 @@ diffeomorphisms of the spatial manifold $S$. This is why we call them
 "diffeomorphism-invariant" states. Similarly, in step III we're
 further restricting ourselves to states that are invariant under time
 evolution. The final "physical states" are, at least heuristically,
-invariant under ALL DIFFEOMORPHISMS OF SPACETIME. (So maybe the physical
+invariant under **all diffeomorphisms of spacetime**. (So maybe the physical
 states are the ones that really should be called
 "diffeomorphism-invariant" --- but it's too late now.) While this
 may seem odd, all it really means is that in the quantum theory of
@@ -234,7 +234,7 @@ corresponding to going is 1 we get total constructive interference in
 the split beam experiment, while if it's -1 we get total destructive
 interference. So, just as the Bohm-Aharonov effect measures interference
 effects due to the magnetic field, the the above Wilson loop sort of
-measures the interference effects due to GRAVITY!
+measures the interference effects due to **gravity**!
 
 Now, in the Rovelli-Smolin loop state corresponding to a particular knot
 K, the expectation value of a Wilson loop around any knot K' will be 1

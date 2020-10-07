@@ -9,7 +9,7 @@ numbers the sum of all their divisors? Are there infinitely many pairs
 of primes that differ by 2? Is every even number bigger than 2 a sum of
 two primes? Are there any positive integer solutions to
 $$x^n + y^n = z^n$$
-for $n > 2$? My response to all these was: WHO CARES?!
+for $n > 2$? My response to all these was: **who cares**?!
 
 Sure, it's noble to seek knowledge for its own sake. But working on a
 math problem just because it's *hard* is like trying to drill a hole in
@@ -419,7 +419,7 @@ So far, we've looked at examples of a field $k$ contained in some bigger
 field $K$, and worked out the group $\mathrm{Gal}(K/k)$ consisting of all
 automorphisms of $K$ that fix everything in $k$.
 
-But here's the big secret: this has NOTHING TO DO WITH FIELDS! It works
+But here's the big secret: this has **nothing to do with fields**! It works
 for ANY sort of mathematical gadget! If you've got a little gadget $k$
 sitting in a big gadget $K$, you get a "Galois group" $\mathrm{Gal}(K/k)$
 consisting of symmetries of the big gadget that fix everything in the
@@ -434,7 +434,7 @@ And conversely, any gadget containing $k$ and contained in $K$ gives a
 subgroup of $\mathrm{Gal}(K/k)$: namely, the group consisting of all the symmetries
 of $K$ that fix every element of this gadget.
 
-This was Galois' biggest idea: we call this a GALOIS CORRESPONDENCE. It
+This was Galois' biggest idea: we call this a **galois correspondence**. It
 lets us use *group theory* to classify gadgets contained in one and
 containing another. He applied it to fields, but it turns out to be
 useful much more generally.

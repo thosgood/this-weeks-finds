@@ -80,8 +80,8 @@ of mathematics and physics that are accessible electronically, free of
 charge, over the Internet. Not too long ago one would commonly hear the
 remark "...but of course nobody would ever want to do that,
 because..." followed by some reason or other, reminiscent of how
-CLEARLY nobody would want to switch from horses to automobiles because
-then one would have to build GAS STATIONS ALL OVER THE PLACE ---
+**clearly** nobody would want to switch from horses to automobiles because
+then one would have to build **gas stations all over the place** ---
 obviously too much bother to be worthwhile. Now, however, things are
 changing and the new electronic journals are getting quite respectable
 lists of editors, and they seem to have a good chance of doing well. I

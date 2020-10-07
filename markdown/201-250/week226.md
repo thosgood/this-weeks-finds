@@ -256,7 +256,7 @@ that "seem" random, but can be computed using deterministic algorithms
 
 To see the relation, recall that a good cryptographic hash code
 shouldn't let you guess a message from its digest. So, for example, if
-my message is the EMPTY STRING --- no message at all! --- its digest should
+my message is the **empty string** --- no message at all! --- its digest should
 be a pseudorandom sequence.
 
 For example, if we apply SHA-1 to the empty string we get the following

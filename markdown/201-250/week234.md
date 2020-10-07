@@ -263,8 +263,8 @@ $$
 $$
 
 The tranformation "$L$" turns the middle and top note into the bottom
-and middle note when you start with a MAJOR triad. It turns the bottom
-and middle note into the middle and top note when you start with a MINOR
+and middle note when you start with a **major** triad. It turns the bottom
+and middle note into the middle and top note when you start with a **minor**
 triad. For example:
 $$
   \begin{aligned}
@@ -275,9 +275,9 @@ $$
   \end{aligned}
 $$
 The transformation "$R$" works the other way around. It turns the middle
-and top note into the bottom and middle note when you start with a MINOR
+and top note into the bottom and middle note when you start with a **minor**
 triad. And it turns the bottom and middle note into the middle and top
-note when you start with a MAJOR triad:
+note when you start with a **major** triad:
 $$
   \begin{aligned}
     R\colon \{0,4,7\} &\mapsto \{9,0,4\}
@@ -615,7 +615,7 @@ We might go further and look for a quadruply transitive group of
 permutations of our $12$-element set of notes --- in other words, one that
 maps any ordered $4$-tuple of distinct notes to any other.
 
-But if we do, we'll run smack dab into MATHIEU GROUPS!
+But if we do, we'll run smack dab into **Mathieu groups**!
 
 Here's an utterly staggering fact about reality. Apart from the group
 of *all* permutations of an $n$-element set and the group of *even*

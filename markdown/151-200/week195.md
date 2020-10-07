@@ -375,7 +375,7 @@ $8$-dimensional real vector space equipped with various amounts of extra
 structure --- i.e. the structure of a $4$-dimensional complex vector space,
 or a $2$-dimensional quaternionic vector space. And you'll probably be
 more bored than shocked when I tell you that this $8$-dimensional real
-vector space is yearning to become the OCTONIONS.
+vector space is yearning to become the **octonions**.
 
 Let's see how we can use this to study specially nice manifolds in 8,
 7, 6 and 5 dimensions. We'll start in dimension 8 and climb our way
@@ -400,7 +400,7 @@ The cool part is that this map tells us how to multiply octonions!
 More precisely, suppose we pick a unit vector $1_+$ in $S_+$ and a unit vector
 $1_-$ in $S_-$. It turns out that multiplying by $1_+$ defines an isomorphism
 from $S_-$ to $V$. Similarly, multiplying by $1_-$ gives an isomorphism from $S_+$
-to $V$. This lets us think of all three spaces as the same: THE OCTONIONS,
+to $V$. This lets us think of all three spaces as the same: **the octonions**,
 with $m$ as the octonion product and $1_+$ (or $1_-$ if you prefer) as its unit.
 
 In fact, there's nothing special about writing our operator as

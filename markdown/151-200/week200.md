@@ -304,7 +304,7 @@ this need not be one.
 
 In short, we have this kind of setup:
 
-| ABSTRACT GENERAL | CONCRETE GENERAL |
+| **Abstract general** | **Concrete general** |
 | :--------------- | :--------------- |
 | theory| models |
 | syntax | semantics |

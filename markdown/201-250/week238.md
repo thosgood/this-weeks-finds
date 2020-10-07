@@ -205,7 +205,7 @@ If we work this concretely what this says, we must get some identity
 involving the bracket in our Lie algebra, since $\omega\wedge\omega$ is just the
 bracket in disguise. What identity could this be?
 
-THE JACOBI IDENTITY!
+**The Jacobi identity**!
 
 It has to be, since the Jacobi identity says there's a way to take 3
 Lie algebra elements, bracket them in a clever way, and get zero:
@@ -235,7 +235,7 @@ work out the details now.
 
 Instead, let me say how to translate this fact:
 
-> $d^2\omega = 0$ IS SECRETLY THE JACOBI IDENTITY
+> $d^2\omega = 0$ **is secretly the Jacobi identity**
 
 into pure algebra. We'll get something called "Kozsul duality". I
 always found Koszul duality mysterious, until I realized it's just a

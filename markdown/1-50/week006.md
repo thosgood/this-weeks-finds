@@ -110,7 +110,7 @@ $$
 What goes up, must come down! This curve, which I haven't drawn too
 well, is just a cycloid, which is the curve traced out by a point on the
 rim of rolling wheel. So, succumbing to romanticism momentarily we could
-call this picture ONE TURN OF THE GREAT WHEEL OF TIME.... But there is
+call this picture **one turn of the great wheel of time**.... But there is
 *no* reason to expect further turns, because the differential equation
 simply becomes singular when $r = 0$. We may either say it doesn't make
 sense to speak of "before the big bang" or "after the big crunch" ---

@@ -23,7 +23,7 @@ Now, this particular combination of topics is classic crackpot fodder.
 People think "Gee, uncertainty sounds like incompleteness, they're
 both limitations on knowledge --- they must be related!" and go off the
 deep end. So I got pretty suspicious until I read his paper and saw it
-was CORRECT... at which point I *definitely* wanted him around! The
+was **correct**... at which point I *definitely* wanted him around! The
 connection they establish is not as precise as I'd like, but it's
 solid math.
 

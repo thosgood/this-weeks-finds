@@ -665,9 +665,9 @@ size issues in category theory:
 >
 > Did you see [the creationist sign by the dinosaurs?](http://www.latimes.com/news/local/la-me-dinosaurs27aug27,0,3988775,full.story)
 >
-> > SPACES FIBERED OVER THE SPACE $B$
-> > ARE "THE SAME" AS
-> > MAPS FROM $B$ TO THE SPACE OF ALL SPACES
+> > **spaces fibered over the space $B$**\
+> > **are "the same" as**\
+> > **maps from $B$ to the space of all spaces**
 >
 > > The fearsome "space of all spaces" is then the disjoint union of
 > > the classifying spaces of all these topological groups $\mathrm{AUT}(F)$. It's
@@ -676,17 +676,17 @@ size issues in category theory:
 >
 > So if you want your slogan to treat size issues carefully:
 >
-> > SPACES FIBERED OVER THE SPACE $B$\
-> > ARE "THE SAME" AS\
-> > MAPS FROM $B$ TO THE SPACE OF ALL SMALL SPACES
+> > **spaces fibered over the space $B$**\
+> > **are "the same" as**\
+> > **maps from $B$ to the space of all small spaces**
 >
 > But you were secretly doing this all along! After all, when you wrote:
 >
-> > $n$-GROUPOIDS FIBERED OVER AN $n$-GROUPOID $B$
-> > ARE "THE SAME" AS
-> > WEAK $(n+1)$-FUNCTORS FROM $B$ TO THE $(n+1)$-GROUPOID $n\mathsf{Gpd}$
+> > **$n$-groupoids fibered over an $n$-groupoid $B$**\
+> > **are "the same" as**\
+> > **weak $(n+1)$-functors from $B$ to the $(n+1)$-groupoid $n\mathsf{Gpd}$**
 >
-> you simply used "$n\mathsf{Gpd}$" to abbreviate "OF ALL SMALL $n$-GROUPOIDS".
+> you simply used "$n\mathsf{Gpd}$" to abbreviate "**of all small $n$-groupoids**".
 > So there are really no new size issues at the $\omega$ level.
 >
 > (Exercise for those that like this sort of thing: Do we need to state

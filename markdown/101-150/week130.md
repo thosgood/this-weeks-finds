@@ -171,14 +171,14 @@ and their corresponding antineutrinos. Cosmic ray experts think they
 know how many of each sort of neutrino should be produced. But the
 experimenters down on the ground are seeing different numbers!
 
-Again, this could be due to neutrino oscillations. But what's REALLY
+Again, this could be due to neutrino oscillations. But what's **really**
 cool is that the numbers seem to depend on where the neutrinos are
 coming from: from the sky right above the detector, from right below the
 detector --- in which case they must have come all the way through the
 earth --- or whatever. Neutrinos coming from different directions take
 different amounts of time to get from the upper atmosphere to the
 detector. Thus an obvious explanation for the experimental results is
-that we're actually seeing the oscillation process AS IT TAKES PLACE.
+that we're actually seeing the oscillation process **as it takes place**.
 
 If this is true, we can try to get detailed information about the
 neutrino mass matrix from the numbers these experiments are measuring!

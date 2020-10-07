@@ -176,7 +176,7 @@ about physics than logic, maybe that's good. In fact, I'll use this as
 an excuse to simplify everything tremendously, leaving out all sorts of
 details that a real logician would want.
 
-Logic can be divided into two parts: SYNTAX and SEMANTICS. Roughly
+Logic can be divided into two parts: **syntax** and **semantics**. Roughly
 speaking, syntax concerns the symbols you scribble on the page, while
 semantics concerns what these symbols mean.
 
@@ -186,12 +186,12 @@ to prove theorems.
 
 In the realm of syntax, we focus on the form our theory is allowed to
 have, and how we can deduce new sentences from old ones. So, one of the
-key concepts is that of a PROOF. The details will vary depending on the
+key concepts is that of a **proof**. The details will vary depending on the
 kind of logical system we're studying.
 
 In the realm of semantics, we are interested in gadgets that actually
 satisfy the axioms in our theory --- for example, actual groups, if we're
-thinking about the theory of groups. Such a gadget is called a MODEL of
+thinking about the theory of groups. Such a gadget is called a **model** of
 the theory. Again, the details vary immensely.
 
 In the realm of syntax, we say a list of axioms $X$ "implies" a sentence

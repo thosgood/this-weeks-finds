@@ -534,13 +534,13 @@ connected groupoids is equivalent to an inclusion of groups precisely
 when it's "faithful": one-to-one on each homset. So, when I said
 that:
 
->A SPAN OF GROUPOIDS EQUIPPED WITH CERTAIN EXTRA STUFF IS\
-> THE SAME AS A DOUBLE COSET.
+> **a span of groupoids equipped with certain extra stuff is**\
+> **the same as a double coset.**
 
 what I really meant was:
 
->A SPAN OF CONNECTED GROUPOIDS FAITHFULLY OVER $G$\
-> IS THE SAME AS A DOUBLE COSET.
+> **a span of connected groupoids faithfully over $G$**\
+> **is the same as a double coset.**
 
 If that's too terse, let me elaborate for you: a "span of connected
 groupoids faithfully over $G$" is a commutative diamond
