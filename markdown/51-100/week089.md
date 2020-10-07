@@ -289,9 +289,9 @@ $$
     \node (xl) at (0,0) {$x$};
     \node (xt) at (1.25,2) {$x$};
     \node (xr) at (2.5,0) {$x$};
-    \draw[thick,->] (xl) to node[fill=white]{$s$} (xt);
-    \draw[thick,->] (xt) to node[fill=white]{$s$} (xr);
-    \draw[thick,->] (xl) to node[fill=white]{$s$} (xr);
+    \draw[->] (xl) to node[fill=white]{$s$} (xt);
+    \draw[->] (xt) to node[fill=white]{$s$} (xr);
+    \draw[->] (xl) to node[fill=white]{$s$} (xr);
     \draw[-implies,double equal sign distance] (xt) to (1.25,0.2);
     \node at (1,0.7) {$M$};
   \end{tikzpicture}

@@ -432,9 +432,9 @@ review quickly, and go further:
 We can think of elements of a commutative ring R as functions on certain
 space called the
 "[spectrum](http://en.wikipedia.org/wiki/Spectrum_of_a_ring)" of R,
-Spec(R). This space has a topology, so we can also talk about functions
-that are defined, not on all of Spec(R), but just *part* of Spec(R) -
-namely some open set. Indeed, for each open set U in Spec(R), there's a
+\operatorname{Spec}(R). This space has a topology, so we can also talk about functions
+that are defined, not on all of \operatorname{Spec}(R), but just *part* of \operatorname{Spec}(R) -
+namely some open set. Indeed, for each open set U in \operatorname{Spec}(R), there's a
 commutative ring \mathrm{O}(U) consisting of those functions defined on U. These
 commutative rings are related in nice ways:
 
@@ -451,7 +451,7 @@ of commutative rings; something also satisfying condition 2 is called a
 "[sheaf](http://en.wikipedia.org/wiki/Sheaf_%28mathematics%29)" of
 commutative rings.
 
-So, Spec(R) is not just a topological space, it's equipped with a sheaf
+So, \operatorname{Spec}(R) is not just a topological space, it's equipped with a sheaf
 of commutative rings. People call this a "[ringed
 space](http://en.wikipedia.org/wiki/Ringed_space)".
 
@@ -463,7 +463,7 @@ talking about commutative rings!
 More interestingly, whenever we have a ringed space, we can ask if it's
 *locally* isomorphic to one coming from a commutative ring. In other
 words: does every point have a neighborhood that, as a ringed space,
-looks like Spec(R) for some commutative ring R? Or in other words: is
+looks like \operatorname{Spec}(R) for some commutative ring R? Or in other words: is
 our ringed space *locally* isomorphic to an affine scheme? If so, we
 call it a "scheme".
 
@@ -491,10 +491,10 @@ commutative ring \mathrm{O}(U) is also a vector space over F, in a well-behaved
 way, giving us a "sheaf of commutative rings over F". For example, the
 Riemann sphere is a scheme over C.
 
-There's a secret $3$-dimensional aspect to the affine scheme Spec(Z),
+There's a secret $3$-dimensional aspect to the affine scheme \operatorname{Spec}(\mathbb{Z}),
 where Z is the commutative ring of integers. As explained in the Addenda
 to ["Week 257"](#week257), we might understand this if we could see
-Spec(Z) as a scheme over the field with one element! For more, see this:
+\operatorname{Spec}(\mathbb{Z}) as a scheme over the field with one element! For more, see this:
 
 12) M. Kapranov and A. Smirnov, Cohomology determinants and reciprocity
 laws: number field case, available at
@@ -518,12 +518,12 @@ which the product of something in I with anything in R again lies in I.
 He says an ideal P is "prime" if whenever a product of two elements in
 R is in P, at least one of them is in P.
 
-He defines the "spectrum" Spec(R) of a commutative monoid R to be the
+He defines the "spectrum" \operatorname{Spec}(R) of a commutative monoid R to be the
 set of its prime ideals. He gives this the "Zariski topology". That's
 the topology where the closed sets are the whole space, or any set of
 prime ideals that contain a given ideal.
 
-He then shows how to get a sheaf of commutative monoids on Spec(R). He
+He then shows how to get a sheaf of commutative monoids on \operatorname{Spec}(R). He
 defines a "scheme" to be a space equipped with a sheaf of commutative
 monoids that's *locally* isomorphic to one of this sort.
 
@@ -640,12 +640,12 @@ K-theory, intersection theory and Chern classes" - fancy things that
 algebraic geometers like.
 
 What I don't yet see is how either Deitmar's or Durov's approach
-helps us understand the secret $3$-dimensional nature of Spec(Z). I may
+helps us understand the secret $3$-dimensional nature of \operatorname{Spec}(\mathbb{Z}). I may
 just need to read their papers more carefully and think about them more.
 
 Finally, here's yet another approach to the field with one element:
 
-15) Bertrand Toen and M. Vaquie, Under Spec(Z), available as
+15) Bertrand Toen and M. Vaquie, Under \operatorname{Spec}(\mathbb{Z}), available as
 [`arXiv:math/0509684`](http://arxiv.org/abs/math/0509684).
 
 16) Shai Haran, Non-additive geometry, Composito Mathematica 143
@@ -663,7 +663,7 @@ geometry is emerging, which enriches it to include some previously
 scorned entities: rigs, monoids and the like. And, this enrichment holds
 the promise of shedding light on some otherwise impenetrable mysteries:
 for example, the deep inner meaning of q-deformation, and the
-3-dimensional nature of Spec(Z).
+3-dimensional nature of \operatorname{Spec}(\mathbb{Z}).
 
 ------------------------------------------------------------------------
 
@@ -677,7 +677,7 @@ following online introduction to schemes:
 Kevin Buzzard has a word of advice about the "generic point":
 
 >       We can think of elements of a commutative ring R as functions on
->       certain space called the "spectrum" of R, Spec(R).
+>       certain space called the "spectrum" of R, \operatorname{Spec}(R).
 >
 > So this is the set of all *prime* ideals of R, right? Not just the
 > maximal ones? So...
@@ -752,6 +752,6 @@ For more discussion, go to the [$n$-Category Café](http://golem.ph.utexas.edu/c
 ------------------------------------------------------------------------
 
 *The analogy between number fields and function fields finds a basic
-limitation with the lack of a ground field. One says that Spec(Z) (with
+limitation with the lack of a ground field. One says that \operatorname{Spec}(\mathbb{Z}) (with
 a point at infinity added, as is familiar in Arakelov geometry) is like
 a (complete) curve, but over which field?* - Christophe Soulé
