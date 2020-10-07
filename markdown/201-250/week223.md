@@ -300,9 +300,9 @@ I'm trying to explain a very robust powerful principle --- one that can
 easily survive a dose of vagueness that would kill a lesser idea.
 Namely, if $B$ is a connected space with a chosen basepoint,
 
-> FIBRATIONS OVER THE BASE SPACE $B$ WITH FIBER $F$\
-> ARE "THE SAME" AS\
-> HOMOMORPHISMS SENDING LOOPS IN $B$ TO AUTOMORPHISMS OF $F$.
+> **fibrations over the base space $B$ with fiber $F$**\
+> **are "the same" as**\
+> **homomorphisms sending loops in $B$ to automorphisms of $F$.**
 
 This could be called "the basic principle of Galois theory", for
 reasons explained in ["Week 213"](#week213). There I explained the
@@ -310,9 +310,9 @@ special case where the fiber is discrete. Then our fibration called a
 "covering space", and the basic principle of Galois theory boils down
 to this:
 
-> COVERING SPACES OVER $B$ WITH FIBER $F$\
-> ARE "THE SAME" AS\
-> HOMOMORPHISMS FROM THE FUNDAMENTAL GROUP OF $B$ TO AUTOMORPHISMS OF $F$.
+> **covering spaces over $B$ with fiber $F$**\
+> **are "the same" as**\
+> **homomorphisms from the fundamental group of $B$ to automorphisms of $F$.**
 
 Okay. Now let's use the same principle to classify extensions of a
 group $B$ by a group $F$:
@@ -349,9 +349,9 @@ $$B \to \mathrm{AUT}(F)$$
 where we think of $B$ as a $2$-group with only identity morphisms. More
 precisely:
 
-> EXTENSIONS OF THE GROUP $B$ BY THE GROUP $F$\
-> ARE "THE SAME" AS\
-> HOMOMORPHISMS FROM $B$ TO THE $2$-GROUP $\mathrm{AUT}(F)$
+> **extensions of the group $B$ by the group $F$**\
+> **are "the same" as**\
+> **homomorphisms from $B$ to the $2$-group $\mathrm{AUT}(F)$**
 
 It's fun to work out the details, but it's probably not a good use of
 our time together grinding through them here. So, I'll just sketch how
@@ -399,9 +399,9 @@ $F$, and a groupoid whose objects are homomorphisms $B \to \mathrm{AUT}(F)$. I'm
 pretty sure that if you form these groupoids in the obvious way,
 they're equivalent. And that's what this slogan really means:
 
-> EXTENSIONS OF THE GROUP $B$ BY THE GROUP $F$\
-> ARE "THE SAME" AS\
-> HOMOMORPHISMS FROM $B$ TO THE $2$-GROUP $\mathrm{AUT}(F)$
+> **extensions of the group $B$ by the group $F$**\
+> **are "the same" as**\
+> **homomorphisms from $B$ to the $2$-group $\mathrm{AUT}(F)$**
 
 Next, let me say how Schreier theory reduces to more familiar ideas in
 two special cases.
@@ -455,9 +455,9 @@ Having extended the idea "sideways" like this, one can then continue
 marching "upwards". I don't know how much work has been done on this,
 but the slogan should be something like this:
 
-> $n$-GROUPOIDS FIBERED OVER AN $n$-GROUPOID $B$\
-> ARE "THE SAME" AS\
-> WEAK $(n+1)$-FUNCTORS FROM $B$ TO THE $(n+1)$-GROUPOID $n\mathsf{Gpd}$
+> **$n$-groupoids fibered over an $n$-groupoid $B$**\
+> **are "the same" as**\
+> **weak $(n+1)$-functors from $B$ to the $(n+1)$-groupoid $n\mathsf{Gpd}$**
 
 Grothendieck also studied this kind of thing with categories replacing
 groupoids, so there should also be an $n$-category version, I think...
@@ -469,9 +469,9 @@ However, I'm not scared to go from $n$-groupoids to $\omega$-groupoids, which
 are basically the same as spaces. In terms of spaces, the slogan goes
 like this:
 
-> SPACES FIBERED OVER THE SPACE $B$\
-> ARE "THE SAME" AS\
-> MAPS FROM $B$ TO THE SPACE OF ALL SPACES
+> **spaces fibered over the space $B$**\
+> **are "the same" as**\
+> **maps from $B$ to the space of all spaces**
 
 This is how James Dolan taught it to me. Most mortals are scared of
 "the space of all spaces" --- both for fear of Russell's paradox, and
@@ -479,9 +479,9 @@ because we really need a *space* of all spaces, not just a mere set of
 them. To avoid these terrors, you can water down Jim's slogan by
 choosing a specific space $F$ to be the fiber:
 
-> FIBRATIONS WITH FIBER $F$ OVER THE SPACE $B$\
-> ARE "THE SAME" AS\
-> MAPS FROM $B$ TO THE CLASSIFYING SPACE OF $\mathrm{AUT}(F)$
+> **fibrations with fiber $F$ over the space $B$**\
+> **are "the same" as**\
+> **maps from $B$ to the classifying space of $\mathrm{AUT}(F)$**
 
 where $\mathrm{AUT}(F)$ is the topological group of homotopy self-equivalences of
 $F$. The fearsome "space of all spaces" is then the disjoint union of
@@ -722,29 +722,28 @@ spaces", which I answered in this email:
 >
 > > Hi,
 > > 
-> > > SPACES FIBERED OVER THE SPACE $B$ 
-> > > ARE "THE SAME" AS 
-> > > MAPS FROM $B$ TO THE SPACE OF ALL SMALL SPACES 
+> > > **spaces fibered over the space $B$**\
+> > > **are "the same" as**\
+> > > **maps from $B$ to the space of all small spaces**
 > > 
 > > Is there another handle on this, other than
 > > 
-> > > OMEGA-GROUPOIDS FIBERED OVER THE OMEGA-GROUPOID $B$
-> > > ARE "THE SAME" AS 
-> > > WEAK OMEGA-FUNCTORS FROM $B$ TO THE OMEGA-GROUPOID OF ALL
-> > > SMALL OMEGA-GROUPOIDS  ?
+> > > **omega-groupoids fibered over the omega-groupoid $B$**\
+> > > **are "the same" as**\
+> > > **weak omega-functors from $B$ to the omega-groupoid of all**\
+> > > **small omega-groupoids** ?
 > > 
 > > Presumably $B$ must be small, and the spaces fibered over it.
 >
 > It suffices for the fibers to be small, so if you want a really
 > nitpicky motto:
 >
-> > SMALL $\omega$-GROUPOIDS FIBERED OVER THE $\omega$-GROUPOID $B$\
-> > ARE "THE SAME" AS\
-> > WEAK $\omega$-FUNCTORS FROM $B$ TO THE $\omega$-GROUPOID OF ALL\
-> > SMALL $\omega$-GROUPOIDS\
+> > **small $\omega$-groupoids fibered over the $\omega$-groupoid $B$**\
+> > **are "the same" as**\
+> > **weak $\omega$-functors from $B$ to the $\omega$-groupoid of all**\
+> > **small $\omega$-groupoids**
 >
-> > Do you and Jim have other intuitions about THE SPACE OF ALL
-> > SMALL SPACES? 
+> > Do you and Jim have other intuitions about **the space of all small spaces**? 
 >
 > One can describe it in a completely precise and rigorous way. It's
 > the disjoint union over all homotopy types of small spaces $F$ of the
@@ -760,7 +759,7 @@ spaces", which I answered in this email:
 > $$X \to B(\mathrm{Aut}(F))$$
 > for some $F$, which is just what you need to get an $F$-bundle over $X$.
 >
-> > Like, is it one of your FREE SUCH-AND-SUCHES?
+> > Like, is it one of your **free such-and-suches**?
 >
 > I don't know a description like that offhand, since "free" suggests
 > a left universal property, and the space of all (small) spaces mainly
@@ -776,9 +775,9 @@ Next, Peter May wrote:
 
 > In his posting today, John Baez advertised the slogan:
 >
-> > FIBRATIONS OVER THE BASE SPACE $B$ WITH FIBER $F$\
-> > ARE "THE SAME" AS\
-> > HOMOMORPHISMS SENDING LOOPS IN $B$ TO AUTOMORPHISMS OF $F$.
+> > **fibrations over the base space $B$ with fiber $F$**\
+> > **are "the same" as**\
+> > **homomorphisms sending loops in $B$ to automorphisms of $F$**.
 >
 > He hedged it with a "dose of vagueness", but in fact I proved a
 > completely precise and general version of exactly this result in:
@@ -932,30 +931,30 @@ Finally, here's my reply to a bemused comment by Jim Stasheff:
 > > For both bundles and fibrations (e.g. over a paracompact base), your 
 > > last slogan is the oldest:
 >      
-> > FIBRATIONS WITH FIBER $F$ OVER THE SPACE $B$
-> > ARE "THE SAME" AS
-> > MAPS FROM $B$ TO THE CLASSIFYING SPACE OF $\mathrm{AUT}(F)$
+> > **fibrations with fiber $F$ over the space $B$**\
+> > **are "the same" as**
+> > **maps from $B$ to the classifying space of $\mathrm{AUT}(F)$**
 >      
 > > "the same as" referring to homotopy classes.
 >
 > It's certainly old, but I mentioned another that may be older:
 >
-> > COVERING SPACES OF $B$ WITH FIBER $F$\
-> > ARE "THE SAME" AS\
-> > HOMOMORPHISMS FROM THE FUNDAMENTAL GROUP OF $B$ TO AUTOMORPHISMS OF $F$
+> > **covering spaces of $B$ with fiber $F$**\
+> > **ARE "THE SAME" AS**\
+> > **homomorphisms from the fundamental group of $B$ to automorphisms of $F$**
 >
 > although one usually sees this special case (which I didn't bother to
 > mention):
 >
-> > CONNECTED COVERING SPACES OF $B$ WITH FIBER $F$\
-> > ARE "THE SAME" AS\
-> > TRANSITIVE ACTIONS OF THE FUNDAMENTAL GROUP OF $B$ ON $F$
+> > **connected covering spaces of $B$ with fiber $F$**\
+> > **are "the same" as**\
+> > **transitive actions of the fundamental group of $B$ on $F$**
 >
 > which is usually disguised as follows:
 >
-> > CONNECTED COVERING SPACES OF $B$\
-> > ARE "THE SAME" AS\
-> > SUBGROUPS OF THE FUNDAMENTAL GROUP OF $B$
+> > **connected covering spaces of $B$**\
+> > **are "the same" as**\
+> > **subgroups of the fundamental group of $B$**
 >
 > Anyway, I wasn't trying to present things in historical order. I was
 > trying present them roughly in order of increasing "dimension",
@@ -982,28 +981,28 @@ Finally, here's my reply to a bemused comment by Jim Stasheff:
 >
 > In the case at hand, the $\omega$-groupoidal slogan:
 >
-> > FIBRATIONS OF $\omega$-GROUPOIDS WITH FIBER $F$ AND BASE $B$\
-> > ARE "THE SAME" AS\
-> > WEAK $\omega$-FUNCTORS FROM $B$ TO $\mathrm{AUT}(F)$
+> > **fibrations of $\omega$-groupoids with fiber $F$ and base $B$**\
+> > **are "the same" as**\
+> > **weak $\omega$-functors from $B$ to $\mathrm{AUT}(F)$**
 > 
 > is just a reformulation of:
 >
-> > FIBRATIONS WITH FIBER $F$ OVER THE SPACE $B$\
-> > ARE "THE SAME" AS\
-> > MAPS FROM $B$ TO THE CLASSIFYING SPACE OF $\mathrm{AUT}(F)$
+> > **fibrations with fiber $F$ over the space $B$**\
+> > **are "the same" as**\
+> > **maps from $B$ to the classifying space of $\mathrm{AUT}(F)$**
 >
 > but it suggests a grandiose generalization:
 >
-> > FIBRATIONS OF $\omega$-CATEGORIES WITH BASE $B$\
-> > ARE "THE SAME" AS\
-> > WEAK $\omega$-FUNCTORS FROM $B^{\mathrm{op}}$ TO THE $\omega$-CATEGORY OF $\omega$-CATEGORIES!
+> > **fibrations of $\omega$-categories with base $B$**\
+> > **are "the same" as**\
+> > **weak $\omega$-functors from $B^{\mathrm{op}}$ to the $\omega$-category of $\omega$-categories!**
 > 
 > I guess we can thank Grothendieck for making precise and proving a
 > version of this with $\omega$ replaced by $n = 1$:
 >
-> > FIBRATIONS OF CATEGORIES WITH BASE $B$\
-> > ARE "THE SAME" AS\
-> > WEAK $2$-FUNCTORS FROM $B^{\mathrm{op}}$ TO THE $2$-CATEGORY OF CATEGORIES.
+> > **fibrations of categories with base $B$**\
+> > **are "the same" as**\
+> > **weak $2$-functors from $B^{\mathrm{op}}$ to the $2$-category of categories.**
 >
 > More recently people have been thinking about the $n = 2$ case,
 > especially Claudio Hermida:
@@ -1012,9 +1011,9 @@ Finally, here's my reply to a bemused comment by Jim Stasheff:
 >
 > He states something that hints at this:
 >
-> > FIBRATIONS OF $2$-CATEGORIES WITH BASE $B$\
-> > ARE "THE SAME" AS\
-> > WEAK $3$-FUNCTORS FROM $B^{\mathrm{op}}$ TO THE WEAK $3$-CATEGORY OF $2$-CATEGORIES.
+> > **fibrations of $2$-categories with base $B$**\
+> > **are "the same" as**\
+> > **weak $3$-functors from $B^{\mathrm{op}}$ to the weak $3$-category of $2$-categories.**
 >
 > Here I'm using $B^{\mathrm{op}}$ to mean $B$ with the directions of both
 > $1$-morphisms and $2$-morphisms reversed. Hermida follows tradition and

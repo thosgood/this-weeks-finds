@@ -4,15 +4,13 @@ Sorry for the long pause! I've been busy writing. For example: a gentle
 introduction to category theory, focusing on its role as a "Rosetta
 Stone" that helps us translate between four languages:
 
-1) John Baez and Mike Stay, Physics, topology, logic and computation: a
-Rosetta Stone, to appear in New Structures in Physics, ed. Bob Coecke.
-Available at `http://math.ucr.edu/home/baez/rosetta.pdf`
+1) John Baez and Mike Stay, "Physics, topology, logic and computation: a Rosetta Stone", to appear in _New Structures in Physics_, ed. Bob Coecke. Available at `http://math.ucr.edu/home/baez/rosetta.pdf`
 
 The idea is to take this chart and make it really precise:
 
-           PHYSICS        TOPOLOGY    LOGIC        COMPUTATION
-           Hilbert space  manifold    proposition  data type
-           operator       cobordism   proof        program
+| **Physics** | **Topology** | **Logic** | **Computation** |
+| Hilbert space | manifold | proposition | data type |
+| operator | cobordism | proof | program |
 
 In each case we have a kind of "thing" and a kind of "process" going
 between things. But it turns out we can make the analogies much sharper

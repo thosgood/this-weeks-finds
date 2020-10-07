@@ -247,8 +247,8 @@ forms that makes number theory what it is today!
 
 We can summarize everything so far in this slogan:
 
-> THE FUNCTIONAL EQUATION FOR THE RIEMANN ZETA FUNCTION SAYS:\
-> "THE THETA FUNCTION IS AN AUTOMORPHIC FORM"
+> **the functional equation for the riemann zeta function says:**\
+> **"the theta function is an automorphic form"**
 
 But before you start printing out bumper stickers, I should explain....
 

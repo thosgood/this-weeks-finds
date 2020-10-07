@@ -416,13 +416,13 @@ also known as double cosets!
 So, double cosets are cool. But, it's good to fit them into the "spans
 of groupoids" perspective. When we do this, we'll see:
 
-> A SPAN OF GROUPOIDS EQUIPPED WITH CERTAIN EXTRA STUFF IS\
-> THE SAME AS A DOUBLE COSET.
+> **a span of groupoids equipped with certain extra stuff is**\
+> **the same as a double coset.**
 
 This relies on the simpler slogan I mentioned last time:
 
-> A GROUPOID EQUIPPED WITH CERTAIN EXTRA STUFF IS\
-> THE SAME AS A GROUP ACTION.
+> **a groupoid equipped with certain extra stuff is**\
+> **the same as a group action.**
 
 Let's see how it goes. Suppose we have two sets on which $G$ acts
 transitively, say $X$ and $Y$. Pick a figure $x$ of type $X$, and a figure $y$ of
@@ -558,14 +558,14 @@ This sounds complicated, but it's mainly because we're trying to toss
 in extra conditions to make our concepts match the old-fashioned
 "double coset" notion. Here's a simpler, more general fact:
 
-> A SPAN OF GROUPOIDS FAITHFULLY OVER $G$\
-> IS THE SAME AS A SPAN OF $G$-SETS.
+> **a span of groupoids faithfully over $g$**\
+> **is the same as a span of $g$-sets.**
 
 where a "$G$-set" is a set on which $G$ acts. This is the natural partner
 of the slogan I explained last Week, though not in this language:
 
-> A GROUPOID FAITHFULLY OVER $G$\
-> IS THE SAME AS A $G$-SET.
+> **a groupoid faithfully over $g$**\
+> **is the same as a $g$-set.**
 
 Things get even simpler if we drop the "faithfulness" assumption, and
 simply work with groupoids over $G$, and spans of these. This takes us out

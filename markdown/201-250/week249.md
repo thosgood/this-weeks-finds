@@ -76,16 +76,16 @@ thing is to dive right in.
 Last week in the Tale of Groupoidification I tried to explain two
 slogans:
 
-> GROUPOIDS ARE LIKE 'SETS WITH SYMMETRIES'
-
-> SPANS OF GROUPOIDS ARE LIKE 'INVARIANT WITNESSED RELATIONS'
+> **groupoids are like 'sets with symmetries'**\
+> and\
+> **spans of groupoids are like 'invariant witnessed relations'**
 
 They're a bit vague; they're mainly designed to give you enough
 intuition to follow the next phase of the Tale, which is all about how:
 
-> GROUPOIDS GIVE VECTOR SPACES
-
-> SPANS OF GROUPOIDS GIVE LINEAR OPERATORS
+> **groupoids give vector spaces**\
+> and\
+> **spans of groupoids give linear operators**
 
 But before the next phase, I need to say a bit about how groupoids and
 spans of groupoids fit into Klein's Erlangen program.
@@ -202,8 +202,8 @@ and very powerful way of using symmetry to tackle lots of problems.
 So, to bridge the gap between the traditional and the new, I should
 explain how group actions give groupoids. I'll show you that:
 
-> A GROUPOID EQUIPPED WITH CERTAIN EXTRA STUFF IS\
-> THE SAME AS A GROUP ACTION
+> **a groupoid equipped with certain extra stuff is**\
+> **the same as a group action**
 
 It's not very hard to get a groupoid from a group action. Say we have a
 group $G$ acting on a set $X$. Then the objects of our groupoid are just
@@ -242,8 +242,8 @@ takes a bit of proving... let's not do it now.
 
 So: in my slogan
 
-> A GROUPOID EQUIPPED WITH CERTAIN EXTRA STUFF IS\
-> THE SAME AS A GROUP ACTION
+> **a groupoid equipped with certain extra stuff is**\
+> **the same as a group action**
 
 the "certain extra stuff" was precisely a faithful functor to $G$.
 

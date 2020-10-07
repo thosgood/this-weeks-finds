@@ -389,21 +389,21 @@ $$
 where we map all the shaded stuff to the point $*$. We get another map
 from the $k$-cube to $S$ sending the boundary to $*$. So:
 
-> ANY $k$-FOLD LOOP SPACE HAS AN ACTION OF\
-> THE LITTLE $k$-CUBES OPERAD
+> **any $k$-fold loop space has an action of**\
+> **the little $k$-cubes operad**
 
 But the really cool part is the converse:
 
-> ANY CONNECTED POINTED SPACE WITH AN ACTION OF\
-> THE LITTLE $k$-CUBES OPERAD IS\
-> HOMOTOPY EQUIVALENT TO A $k$-FOLD LOOP SPACE
+> **any connected pointed space with an action of**\
+> **the little $k$-cubes operad is**\
+> **homotopy equivalent to a $k$-fold loop space**
 
 This is too technical to make a good bumper sticker, so if you want
 people in your neighborhood to get interested in operads, I suggest
 combining both the above slogans into one:
 
-> A $k$-FOLD LOOP SPACE IS THE SAME AS\
-> AN ACTION OF THE LITTLE $k$-CUBES OPERAD
+> **a $k$-fold loop space is the same as**\
+> **an action of the little $k$-cubes operad**
 
 Like any good slogan, this leaves out some important fine print, but it
 gets the basic idea across. Modulo some details, being

@@ -345,13 +345,13 @@ rise to operations on natural numbers, like addition and multiplication.
 Summarizing this, we have the following motto, suitable for making into
 a bumper sticker:
 
-> THE SET OF NATURAL NUMBERS IS THE DECATEGORIFICATION OF\
-> THE CATEGORY OF FINITE SETS
+> **the set of natural numbers is the decategorification of**\
+> **the category of finite sets**
 
 Similarly, this is what we're seeing now:
 
-> THE SET OF ZETA FUNCTIONS IS THE DECATEGORIFICATION OF\
-> THE CATEGORY OF FINITE $\mathbb{Z}$-SETS
+> **the set of zeta functions is the decategorification of**\
+> **the category of finite $\mathbb{z}$-sets**
 
 Beware: here I'm only talking about zeta functions of the above form.
 There are lots of other things people call zeta functions. So, don't
@@ -376,8 +376,8 @@ $\mathbb{Z}$-set.
 Now, there's another motto along the lines of the above two, which
 I've talked about before:
 
-> THE SET OF GENERATING FUNCTIONS IS A DECATEGORIFICATION OF\
-> THE CATEGORY OF FINITE STRUCTURE TYPES
+> **the set of generating functions is a decategorification of**\
+> **the category of finite structure types**
 
 I explained this in ["Week 185"](#week185),
 ["Week 190"](#week190), and ["Week 202"](#week202). I've even
@@ -454,8 +454,8 @@ Or, in category theory jargon, "being a $\mathbb{Z}$-set over $X$".
 
 So:
 
-> THE ZETA FUNCTION OF THE $\mathbb{Z}-SET$ $X$ IS THE GENERATING FUNCTION OF\
-> "BEING A $\mathbb{Z}-SET$ OVER $X$"
+> **the zeta function of the $\mathbb{z}-set$ $x$ is the generating function of**\
+> **"being a $\mathbb{z}-set$ over $x$"**
 
 By the way, this is the kind of thing you could do with *any* structure
 type $F$. Given an $F$-structured set $X$, we get a new structure type "being
