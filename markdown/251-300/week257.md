@@ -657,29 +657,29 @@ $$
     \node[fill=white] at (1,-3) {$F$};
     \node at (3,-1.75) {$=$};
     \begin{scope}[xscale=-1,shift={(-6,0)}]
-    \begin{knot}
-      \strand[thick] (0,0.5)
-        to (0,0)
-        to [out=down,in=up] (0.5,-1)
-        to (0.5,-1.5)
-        to [out=down,in=up] (1,-2.5)
-        to (1,-3.5);
-      \strand[thick] (1,0.5)
-        to (1,0)
-        to [out=down,in=up] (0.5,-1);
-      \strand[thick] (2,0.5)
-        to (2,0)
-        to [out=down,in=up] (1.5,-1)
-        to (1.5,-1.5)
-        to [out=down,in=up] (1,-2.5);
-    \end{knot}
-    \node[fill=white] at (0,0) {$F$};
-    \node[fill=white] at (1,0) {$F$};
-    \node[fill=white] at (2,0) {$F$};
-    \node[label=left:{$m$}] at (0.5,-0.95) {$\bullet$};
-    \node[label=left:{$m$}] at (1,-2.45) {$\bullet$};
-    \node[fill=white] at (0.5,-1.5) {$F$};
-    \node[fill=white] at (1,-3) {$F$};
+      \begin{knot}
+        \strand[thick] (0,0.5)
+          to (0,0)
+          to [out=down,in=up] (0.5,-1)
+          to (0.5,-1.5)
+          to [out=down,in=up] (1,-2.5)
+          to (1,-3.5);
+        \strand[thick] (1,0.5)
+          to (1,0)
+          to [out=down,in=up] (0.5,-1);
+        \strand[thick] (2,0.5)
+          to (2,0)
+          to [out=down,in=up] (1.5,-1)
+          to (1.5,-1.5)
+          to [out=down,in=up] (1,-2.5);
+      \end{knot}
+      \node[fill=white] at (0,0) {$F$};
+      \node[fill=white] at (1,0) {$F$};
+      \node[fill=white] at (2,0) {$F$};
+      \node[label=left:{$m$}] at (0.5,-0.95) {$\bullet$};
+      \node[label=left:{$m$}] at (1,-2.45) {$\bullet$};
+      \node[fill=white] at (0.5,-1.5) {$F$};
+      \node[fill=white] at (1,-3) {$F$};
     \end{scope}
   \end{tikzpicture}
 $$
@@ -699,7 +699,50 @@ conditions" you need. They look nicer as string diagrams. One looks
 like this:
 $$
   \begin{tikzpicture}
-    ;
+    \begin{knot}
+      \strand[thick] (1,0)
+        to (1,-0.5)
+        to [out=down,in=up] (1.5,-1.5)
+        to [out=down,in=up] (0,-3.5)
+        to (0,-4);
+      \strand[thick] (2,0)
+        to (2,-0.5)
+        to [out=down,in=up] (1.5,-1.5);
+      \strand[thick] (0,0)
+        to (0,-1)
+        to [out=down,in=up] (1.5,-3.5)
+        to (1.5,-4);
+    \end{knot}
+    \node[fill=white] at (0,-0.4) {$F$};
+    \node[fill=white] at (1,-0.4) {$G$};
+    \node[fill=white] at (2,-0.4) {$G$};
+    \node[fill=white] at (0,-3.6) {$G$};
+    \node[fill=white] at (1.5,-3.6) {$F$};
+    \node[label={[label distance=-2mm]left:{$n$}}] at (1.5,-1.43) {$\bullet$};
+    \node at (3,-2) {$=$};
+    \begin{scope}[shift={(4,0)}]
+      \begin{knot}
+        \strand[thick] (1,0)
+          to (1,-0.5)
+          to [out=down,in=up] (0,-2)
+          to [out=down,in=up] (0.5,-3)
+          to (0.5,-4);
+        \strand[thick] (2,0)
+          to (2,-0.5)
+          to [out=down,in=up] (1,-2)
+          to [out=down,in=up] (0.5,-3);
+        \strand[thick] (0,0)
+          to (0,-0.5)
+          to [out=down,in=up] (2,-2)
+          to (2,-4);
+      \end{knot}
+      \node[fill=white] at (0,-0.4) {$F$};
+      \node[fill=white] at (1,-0.4) {$G$};
+      \node[fill=white] at (2,-0.4) {$G$};
+      \node[fill=white] at (0.5,-3.6) {$G$};
+      \node[fill=white] at (2,-3.6) {$F$};
+    \node[label={[label distance=-2mm]left:{$n$}}] at (0.5,-2.93) {$\bullet$};
+    \end{scope}
   \end{tikzpicture}
 $$
 
